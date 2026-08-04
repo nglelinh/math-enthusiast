@@ -1,0 +1,156 @@
+[
+  {
+    "id": "ku_video_nKmYjFoiuYM_5",
+    "t_start": 5.2,
+    "t_end": 99.0,
+    "type": "overview",
+    "summary": "hello everyone my name is Roman version I'm a professor of mathematics at the I'm a professor of mathematics at the University of California Irvine and this is a video course in high dimensional probability and data science dimensional probability and data science welcome everyone this course is useful for anyone whose background is in useful for anyone whose background is in mathematics computer science machine mathematics computer science machine learning electrical engineering learning electrical engineering statistics and other areas would like to a conceptual understanding of the tools…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_103",
+    "t_start": 103.8,
+    "t_end": 191.8,
+    "type": "overview",
+    "summary": "to successfully Master this course you need background in undergraduates need background in undergraduates analysis undergraduate linear algebra analysis undergraduate linear algebra and undergraduate probability no measure Theory background is necessary here this course is ideal for necessary here this course is ideal for Masters students who are preparing for a Masters students who are preparing for a PhD program and also for beginning PhD PhD program and also for beginning PhD students but maybe not even beginning students but maybe not even beginning PhD students too the particular real…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_205",
+    "t_start": 205.5,
+    "t_end": 297.6,
+    "type": "overview",
+    "summary": "lecture one in high dimensional probability and data you have probably heard a lot the the term big data that dominates the landscape of today's data science today's data science the the term big usually applies in two the the term big usually applies in two situations either the number of situations either the number of observations is big or the number of dimensions associated with each data point is big is big the examples of the first situation where the number of observation is biggest for for of observation is biggest for for instance it could be the income his population is about 3 m…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_300",
+    "t_start": 300.1,
+    "t_end": 394.2,
+    "type": "overview",
+    "summary": "an example of the second situation where the number of Dimension is big is when of people for example avatars or on of people on uh Facebook or Twitter these simply an image let's say let's say a pixelated image 100 by 100 pixels each pixel represents a dimension and so all in all we have 100 times 100 which is 10 to the 4. which is 10 to the 4. dimensions for each image for each observation we have this this observations they live in have this this observations they live in the dimension of in space of Dimension the dimension of in space of Dimension 10 to the 4 and that's big there are ma…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_407",
+    "t_start": 407.9,
+    "t_end": 499.6,
+    "type": "overview",
+    "summary": "an empirical observation that is pretty common in data science is that it is exponentially harder to deal with um with the which large number of dimensions then then to deal with the num to deal with a large number in other words the number of Dimensions is a bigger than the number of observations usually this is for a reason this is for a reason the number of observations large number of observations is usually not a problem this is a domain of statistics New observations help plus to understand understand the statistics of the population but the large numbers of Dimensions the the harm it…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_499",
+    "t_start": 499.6,
+    "t_end": 590.8,
+    "type": "overview",
+    "summary": "statistics and high dimensional probability let's now explain why exponentially why the large number of observations the large number of observations is exponentially dimensions a certain large number of Dimensions is exponentially harder than Dimensions is exponentially harder than the large number of observations on an so this example will be will be related to Monte Carlo method at Monte Carlo integration in this uh integration in this uh for this specific example about high dimensional integration of a function we would like to numerically to numerically compute that depends on D parame…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_594",
+    "t_start": 594.7,
+    "t_end": 688.6,
+    "type": "overview",
+    "summary": "the integral of a given function f for example F can be a model of income of the population and it depends on D of the population and it depends on D parameters your ducation your uh age health and so on so forth it may be correlated with these parameters and you correlated with these parameters and you would like to to combine that would like to to combine that these parameters into one single model these parameters into one single model and then compute the the total income and then compute the the total income which is represented by this integral which is represented by this integral bu…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_694",
+    "t_start": 694.1,
+    "t_end": 788.0,
+    "type": "overview",
+    "summary": "you can do the same using now a two-dimensional grid instead of two-dimensional grid instead of one-dimensional grid again we take the rest we we set the resolution we put the points on the grid there's n points there is endpoints which is uh how is it related to which is uh how is it related to epsilence what it's one over Epsilon epsilence what it's one over Epsilon squared I believe points that's how much you need for that and you then we use the same method so and you then we use the same method so we we do the same we we do the same it's the same formula but the points are now the two-…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_788",
+    "t_start": 788.0,
+    "t_end": 876.7,
+    "type": "overview",
+    "summary": "integration and therefore the overall complexity of the method complexity of the method grows exponentially D and that is that is not so good we're not very happy about that this pretty much says that you cannot do this in high Dimensions without running this in high Dimensions without running out of memory and time on a computer why does this happen that can be understood as as the following phenomenon interval in dimension two we looked at the square and then we looked at the cube and the the phenomenon is that there is too much rule too much room in high dimensions here is an example of …"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_879",
+    "t_start": 879.1,
+    "t_end": 969.6,
+    "type": "overview",
+    "summary": "so we expanded twice now it's a cube zero two to the n is one and the volume of the new cube is well it's two by two by two by two it's well it's two by two by two by two it's two to the n 2 to the D the dimension is d not m it's 2 to the D so the volume grows exponentially even though we just grew the cook the cube linearly we just expanded it just cube linearly we just expanded it just twice suddenly the volume blows up twice suddenly the volume blows up exponentially as a result of that this is a manifestation of a general fact General uh challenge in high fact General uh challenge in hi…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_969",
+    "t_start": 969.6,
+    "t_end": 1063.0,
+    "type": "overview",
+    "summary": "high dimensions one has to think about how to get around it how to how to lift how to get around it how to how to lift the curves of high dimensionality a lot of of methods in this course will help you understand how to do that the first of them is probably familiar to you and we will do this today this is a way to lift the curse of high dimensionality particularly for this dimensionality particularly for this problem and this is called the Monte Carlo method we call probability theory for Rescue and probability theories of lifts can and probability theories of lifts can lift the curse of h…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_1063",
+    "t_start": 1063.0,
+    "t_end": 1153.9,
+    "type": "overview",
+    "summary": "independently each point is independently it's drawn from the uniform distribution so uniformly when we evaluate the function f at these points the result becomes independent and identically distributed IID then when we sum them up and normalize by n becomes the sum of Independence and identically distributed random variables identically distributed random variables a classic object in probability Theory our goal now is to show that this quantity will approximate the true integral and we will see that we'll need far less points for that then if we were to choose these points on the grid det…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_1153",
+    "t_start": 1153.9,
+    "t_end": 1244.6,
+    "type": "overview",
+    "summary": "this result and many other results in this uh in this course we will need some this uh in this course we will need some background and probability and I assume background and probability and I assume you have it but we'll review it now so we come back to this problem again and review some basics of probability Theory review some basics of probability Theory so the background in probability you can skip this part if you like by scrolling the video if you have that first of all the expected value of a random variable X around the variable and expected value from the variable X that has densit…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_1244",
+    "t_start": 1244.6,
+    "t_end": 1335.0,
+    "type": "overview",
+    "summary": "expectation of X but the expectation of any function you will simply have to integrate instead of X you'd have to integrate f of x against the density B of X DX this works in higher Dimensions too If X is not around the variable If X is not around the variable but a random vector in dimension d and you take the function of a random formula holds only the integration is now not with respect to the real line a now not with respect to the real line a one-dimensional realign but over the one-dimensional realign but over the entire space Rd of a random variable X thank you is defined as expected…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_1338",
+    "t_start": 1338.3,
+    "t_end": 1430.6,
+    "type": "overview",
+    "summary": "enjoy linearity properties first the expected value of any sum of random expected value of any sum of random variables breaks down into the sum of expectations second variance but only if the random variables are independent can you use variables are independent can you use that effect size are independent or uncorrelated generally consequence of this linearity is the central theorem in probability Theory which is the law of large numbers I'll put the strong version of this the I'll put the strong version of this the strong law of large numbers lln which says that if if x is around the vari…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_1430",
+    "t_start": 1430.6,
+    "t_end": 1520.8,
+    "type": "overview",
+    "summary": "and I have random variables X1 X2 X3 all of which have the same distribution as X of which have the same distribution as X and they're independent so if all of these are independent random variables with the same random variables with the same distribution then foreign which is simply the arithmetic mean of the excise converges to the true mean true expectation of the random variable expectation of the random variable with probability one or in other words almost surely this is a strong of large numbers a strong law of large numbers now let's come back to the original problem to the Monte t…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_1520",
+    "t_start": 1520.8,
+    "t_end": 1616.7,
+    "type": "overview",
+    "summary": "independent and uniform in the cube so we draw this draw this sample from the we draw this draw this sample from the cube then we compute kind of the sample claim that the result is close to the to the actual integral let's prove it the actual integral let's prove it so in our situation in the Monte so in our situation in the Monte Carlo method Carlo method let's analyze the accuracy of it try to approximate the integral by the expected value of this it's a random expected value of this it's a random quantity so the expected value of this because of the linearity I can push the expected val…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_1619",
+    "t_start": 1619.9,
+    "t_end": 1717.7,
+    "type": "overview",
+    "summary": "according to this formula equals f of x p of X DX so again we used so again we used actually we use this formula p is density p is the density of the uniform Distribution on the cube uniform Distribution on the cube so it's constant on the cube the total integral of the density must be 1 because it is a probability density be 1 because it is a probability density so the constant is one so the constant is one therefore the density takes value 1 on that's because it is a density of the uniform distribution uniform distribution which means integrate only on the cube the rest is just zero f of …"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_1731",
+    "t_start": 1731.7,
+    "t_end": 1828.5,
+    "type": "overview",
+    "summary": "just the fact that it is this unbiased estimator does not give us any accuracy estimator does not give us any accuracy guarantee guarantee nor nor it gives us any guarantee of how many points we need for that approximation points we need for that approximation so let's compute the L2 so let's compute the L2 error error error basically what we what we're trying to to compute is we take our estimator f of x i we subtract what we wanted to approximate zero f of x DX we Square the error just to kill the the sign should it appear and kill the the sign should it appear and then we take expectatio…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_1835",
+    "t_start": 1836.0,
+    "t_end": 1930.7,
+    "type": "overview",
+    "summary": "and it pulls out with it with the [Music] [Music] um squared because the variance is defined as a square of something as a square of something and the rest is the variance of a sum now we use the linearity property we now we use the linearity property we know that these random variables are know that these random variables are independent so we have the sum all of these terms all of the X I's have the same and the same distribution as f of x so all of these terms are the same there is n of them we sum n terms we divide by N squared and this time we get divide by N squared and this time we g…"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_1933",
+    "t_start": 1933.8,
+    "t_end": 2025.6,
+    "type": "overview",
+    "summary": "we find that the average error expected error error is of the order of 1 over root n what is fantastic here is this error is the same regardless of the dimension Dimension plays no role in this error this is in stark contrast with the this is in stark contrast with the previous attempt of numerical integration where we just put the points as you remember we put the points here as you remember we put the points here on the grid and we needed this many points exponentially many points to get any we get a good error without requiring that the number of points is exponential that the number of …"
+  },
+  {
+    "id": "ku_video_nKmYjFoiuYM_2025",
+    "t_start": 2025.6,
+    "t_end": 2060.1,
+    "type": "overview",
+    "summary": "where we have the curse of high dimensionality and a lot of examples dimensionality and a lot of examples where we can live with a lot of examples where we cannot lift it um this was lecture one in high dimensional probability and data science again I probability and data science again I welcome everyone for this course welcome everyone for this course please join us for other lectures look at my web faculty webpage which has the transcript of all lectures lecture the transcript of all lectures lecture notes homework sets and all video recordings thank you and hope to see you next time"
+  }
+]

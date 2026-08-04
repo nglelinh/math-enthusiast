@@ -1,0 +1,6892 @@
+[
+  {
+    "t_start": 2.23,
+    "t_end": 4.55,
+    "text": "okay first thanks to the organizers for inviting me um"
+  },
+  {
+    "t_start": 4.55,
+    "t_end": 9.03,
+    "text": "um so i was told that that people in the school entering the school were not"
+  },
+  {
+    "t_start": 9.03,
+    "t_end": 12.789,
+    "text": "assumed or were not required to have any kind of pre-knowledge and that means"
+  },
+  {
+    "t_start": 12.789,
+    "t_end": 15.749,
+    "text": "that i will have the honor to tell you for the first time ever in your life"
+  },
+  {
+    "t_start": 15.749,
+    "t_end": 18.23,
+    "text": "for the first time ever in your life what a qubit is"
+  },
+  {
+    "t_start": 18.23,
+    "t_end": 19.109,
+    "text": "what a qubit is now"
+  },
+  {
+    "t_start": 19.109,
+    "t_end": 22.71,
+    "text": "in actual fact probably most of you know the introductory stuff right so what i'm"
+  },
+  {
+    "t_start": 22.71,
+    "t_end": 27.509,
+    "text": "going to do is i'll spend a fairly sort of a short amount of time going over the"
+  },
+  {
+    "t_start": 27.509,
+    "t_end": 29.269,
+    "text": "of a short amount of time going over the basics more as a reminder than as a"
+  },
+  {
+    "t_start": 29.269,
+    "t_end": 31.029,
+    "text": "basics more as a reminder than as a first introduction"
+  },
+  {
+    "t_start": 31.029,
+    "t_end": 36.15,
+    "text": "algorithm then i'll take a short break and then i'll explain shor's algorithm"
+  },
+  {
+    "t_start": 36.15,
+    "t_end": 37.59,
+    "text": "and then i'll explain shor's algorithm which is one of the main quantum"
+  },
+  {
+    "t_start": 37.59,
+    "t_end": 39.59,
+    "text": "which is one of the main quantum algorithms that we have and that's my 90"
+  },
+  {
+    "t_start": 39.59,
+    "t_end": 41.59,
+    "text": "algorithms that we have and that's my 90 minutes for today"
+  },
+  {
+    "t_start": 41.59,
+    "t_end": 44.63,
+    "text": "and tomorrow i'm going to do another 90 minutes about grover's algorithm and"
+  },
+  {
+    "t_start": 44.63,
+    "t_end": 46.549,
+    "text": "minutes about grover's algorithm and some of its applications"
+  },
+  {
+    "t_start": 46.549,
+    "t_end": 51.27,
+    "text": "and you can view these things together as sort of the sort of the 1990s view of"
+  },
+  {
+    "t_start": 51.27,
+    "t_end": 53.189,
+    "text": "as sort of the sort of the 1990s view of quantum computing"
+  },
+  {
+    "t_start": 53.189,
+    "t_end": 59.029,
+    "text": "um let's see i'm happy to take questions both from zoom and from from people here"
+  },
+  {
+    "t_start": 59.029,
+    "t_end": 62.79,
+    "text": "both from zoom and from from people here uh just try to interrupt me if something"
+  },
+  {
+    "t_start": 62.79,
+    "t_end": 64.229,
+    "text": "is not clear it will help not only you but probably also other people who are"
+  },
+  {
+    "t_start": 64.229,
+    "t_end": 66.469,
+    "text": "but probably also other people who are might be confused about something"
+  },
+  {
+    "t_start": 66.469,
+    "t_end": 68.07,
+    "text": "might be confused about something um"
+  },
+  {
+    "t_start": 68.07,
+    "t_end": 72.63,
+    "text": "right so let me let me get started i think my microphone sounds different"
+  },
+  {
+    "t_start": 72.63,
+    "t_end": 77.27,
+    "text": "i think my microphone sounds different depending on how my head is tilted uh"
+  },
+  {
+    "t_start": 77.27,
+    "t_end": 80.789,
+    "text": "as long as long as as most of what i'm saying is sort of audible"
+  },
+  {
+    "t_start": 80.789,
+    "t_end": 86.95,
+    "text": "okay so where do we start we start with the bit right classical bit"
+  },
+  {
+    "t_start": 86.95,
+    "t_end": 93.429,
+    "text": "the bit right classical bit it's a zero or one"
+  },
+  {
+    "t_start": 95.109,
+    "t_end": 98.469,
+    "text": "qubits so we need to generalize this to the quantum world and what the quantum"
+  },
+  {
+    "t_start": 98.469,
+    "t_end": 103.109,
+    "text": "the quantum world and what the quantum world allows us to do is to take"
+  },
+  {
+    "t_start": 103.109,
+    "t_end": 106.87,
+    "text": "states which in the classical world would be mutually exclusive and what do"
+  },
+  {
+    "t_start": 106.87,
+    "t_end": 107.83,
+    "text": "would be mutually exclusive and what do we do"
+  },
+  {
+    "t_start": 107.83,
+    "t_end": 108.789,
+    "text": "we do we"
+  },
+  {
+    "t_start": 108.789,
+    "t_end": 115.99,
+    "text": "values the zero and the one this is now called cat notation we associate these"
+  },
+  {
+    "t_start": 115.99,
+    "t_end": 118.789,
+    "text": "called cat notation we associate these two things with two-dimensional vectors"
+  },
+  {
+    "t_start": 118.789,
+    "t_end": 120.63,
+    "text": "two things with two-dimensional vectors so this will be the vector"
+  },
+  {
+    "t_start": 120.63,
+    "t_end": 122.149,
+    "text": "so this will be the vector one zero"
+  },
+  {
+    "t_start": 122.149,
+    "t_end": 126.31,
+    "text": "this will be the vector zero one"
+  },
+  {
+    "t_start": 126.31,
+    "t_end": 129.589,
+    "text": "and then we're allowed to take linear combinations of these two basis states"
+  },
+  {
+    "t_start": 129.589,
+    "t_end": 131.43,
+    "text": "combinations of these two basis states with complex coefficients"
+  },
+  {
+    "t_start": 131.43,
+    "t_end": 136.15,
+    "text": "with complex coefficients so this is now a cubit"
+  },
+  {
+    "t_start": 136.15,
+    "t_end": 142.47,
+    "text": "get 0 plus alpha 1 cat 1 and you can also write this as a"
+  },
+  {
+    "t_start": 142.47,
+    "t_end": 143.83,
+    "text": "and you can also write this as a two-dimensional vector and you should"
+  },
+  {
+    "t_start": 143.83,
+    "t_end": 149.91,
+    "text": "two-dimensional vector and you should think of this as a vector in c2"
+  },
+  {
+    "t_start": 149.91,
+    "t_end": 151.83,
+    "text": "two-dimensional complex vector um"
+  },
+  {
+    "t_start": 151.83,
+    "t_end": 155.27,
+    "text": "and this is this is just one qubit there's there's really not that much you"
+  },
+  {
+    "t_start": 155.27,
+    "t_end": 157.91,
+    "text": "there's there's really not that much you can do with it so we need to generalize"
+  },
+  {
+    "t_start": 157.91,
+    "t_end": 164.15,
+    "text": "this is one qubit two qubits"
+  },
+  {
+    "t_start": 167.11,
+    "t_end": 168.949,
+    "text": "um so the classical situation for two bits would be that there's four possible"
+  },
+  {
+    "t_start": 168.949,
+    "t_end": 172.949,
+    "text": "bits would be that there's four possible basis states 0 0 0 1 1 0 and 1 1 and the"
+  },
+  {
+    "t_start": 172.949,
+    "t_end": 175.509,
+    "text": "basis states 0 0 0 1 1 0 and 1 1 and the same will be true in the quantum case"
+  },
+  {
+    "t_start": 175.509,
+    "t_end": 178.07,
+    "text": "and again we can take linear combinations of those four possibilities"
+  },
+  {
+    "t_start": 178.07,
+    "t_end": 181.75,
+    "text": "combinations of those four possibilities so let's say for instance"
+  },
+  {
+    "t_start": 184.949,
+    "t_end": 186.39,
+    "text": "what is the basis state 0 0 this is this this notation here this is really"
+  },
+  {
+    "t_start": 186.39,
+    "t_end": 190.47,
+    "text": "this notation here this is really shorthand for a tensor product"
+  },
+  {
+    "t_start": 193.03,
+    "t_end": 195.27,
+    "text": "of one qubit in stage 0 and another qubit also in state 0"
+  },
+  {
+    "t_start": 195.27,
+    "t_end": 204.07,
+    "text": "and the way tensor product works is you take your first vector"
+  },
+  {
+    "t_start": 205.91,
+    "t_end": 207.75,
+    "text": "and you multiply basically each of its entries with the second vector this is"
+  },
+  {
+    "t_start": 207.75,
+    "t_end": 208.949,
+    "text": "entries with the second vector this is kind of a"
+  },
+  {
+    "t_start": 208.949,
+    "t_end": 212.309,
+    "text": "hands-on definition of tensor product i'm sure a mathematician would disagree"
+  },
+  {
+    "t_start": 212.309,
+    "t_end": 214.949,
+    "text": "i'm sure a mathematician would disagree but this is really how it works in"
+  },
+  {
+    "t_start": 214.949,
+    "t_end": 218.55,
+    "text": "right so this one here gets replaced by this vector and this zero gets replaced"
+  },
+  {
+    "t_start": 218.55,
+    "t_end": 224.47,
+    "text": "this vector and this zero gets replaced by zero times this vector which is just"
+  },
+  {
+    "t_start": 226.229,
+    "t_end": 228.63,
+    "text": "right then similarly the other basis states uh"
+  },
+  {
+    "t_start": 228.63,
+    "t_end": 234.71,
+    "text": "so for instance zero one which is really an abbreviation of cat"
+  },
+  {
+    "t_start": 234.71,
+    "t_end": 242.63,
+    "text": "this would be the basis state or the the vector 0 1 0 0"
+  },
+  {
+    "t_start": 242.63,
+    "t_end": 247.11,
+    "text": "or the the vector 0 1 0 0 1 0 would be"
+  },
+  {
+    "t_start": 249.27,
+    "t_end": 259.99,
+    "text": "which is the tensor product of this vector with itself looks like this"
+  },
+  {
+    "t_start": 263.189,
+    "t_end": 264.15,
+    "text": "and the general state of two qubits would be"
+  },
+  {
+    "t_start": 264.15,
+    "t_end": 267.51,
+    "text": "these four basis states with with coefficients with complex coefficients"
+  },
+  {
+    "t_start": 267.51,
+    "t_end": 272.629,
+    "text": "coefficients with complex coefficients so you would have alpha 0 0 get 0 0"
+  },
+  {
+    "t_start": 272.629,
+    "t_end": 279.909,
+    "text": "0 1 plus alpha 1 0 gets 1 0 plus alpha 1 1"
+  },
+  {
+    "t_start": 279.909,
+    "t_end": 281.43,
+    "text": "plus alpha 1 0 gets 1 0 plus alpha 1 1 cat 1 1"
+  },
+  {
+    "t_start": 281.43,
+    "t_end": 289.35,
+    "text": "and written as a vector in c4 it just looks like this"
+  },
+  {
+    "t_start": 290.629,
+    "t_end": 292.469,
+    "text": "and there's something that sort of automatically happens that when you take"
+  },
+  {
+    "t_start": 292.469,
+    "t_end": 294.23,
+    "text": "automatically happens that when you take the standard product which"
+  },
+  {
+    "t_start": 294.23,
+    "t_end": 299.83,
+    "text": "which which we sort of take for granted but let me say it explicitly and that is"
+  },
+  {
+    "t_start": 299.83,
+    "t_end": 301.11,
+    "text": "that the ordering of these four amplitudes"
+  },
+  {
+    "t_start": 301.11,
+    "t_end": 306.87,
+    "text": "each amplitude corresponds to a basis state and this ordering corresponds to"
+  },
+  {
+    "t_start": 306.87,
+    "t_end": 308.31,
+    "text": "the bit strings in lexicographical ordering"
+  },
+  {
+    "t_start": 308.31,
+    "t_end": 311.83,
+    "text": "so if you if you're a computer scientist then you know that zero zero"
+  },
+  {
+    "t_start": 311.83,
+    "t_end": 318.23,
+    "text": "corresponds to the integer zero zero one the binary string zero one"
+  },
+  {
+    "t_start": 318.23,
+    "t_end": 323.51,
+    "text": "one zero corresponds to the integer two and one one corresponds to the integer"
+  },
+  {
+    "t_start": 323.51,
+    "t_end": 326.95,
+    "text": "and one one corresponds to the integer three"
+  },
+  {
+    "t_start": 328.39,
+    "t_end": 329.909,
+    "text": "and so the ordering of these four amplitudes exactly follows this"
+  },
+  {
+    "t_start": 329.909,
+    "t_end": 334.87,
+    "text": "amplitudes exactly follows this lexicographical ordering of bit strings"
+  },
+  {
+    "t_start": 336.55,
+    "t_end": 338.23,
+    "text": "right then more generally if you have an n-cubit state you get the same thing"
+  },
+  {
+    "t_start": 338.23,
+    "t_end": 339.35,
+    "text": "n-cubit state you get the same thing except that that you'll have a"
+  },
+  {
+    "t_start": 339.35,
+    "t_end": 341.189,
+    "text": "except that that you'll have a superposition now over all possible two"
+  },
+  {
+    "t_start": 341.189,
+    "t_end": 348.39,
+    "text": "superposition now over all possible two to the n classical strings with n bits"
+  },
+  {
+    "t_start": 349.749,
+    "t_end": 350.79,
+    "text": "so there's just going to be a state like this"
+  },
+  {
+    "t_start": 350.79,
+    "t_end": 358.309,
+    "text": "sum some overall indie says i running over the n-bit strings"
+  },
+  {
+    "t_start": 360.55,
+    "t_end": 362.87,
+    "text": "get i and this thing here this is really a tensor product of n individual basis"
+  },
+  {
+    "t_start": 362.87,
+    "t_end": 367.029,
+    "text": "states for n separate bits right so this works out because of tensor product to a"
+  },
+  {
+    "t_start": 367.029,
+    "t_end": 369.189,
+    "text": "works out because of tensor product to a to the a2 to the n-dimensional vector"
+  },
+  {
+    "t_start": 369.189,
+    "t_end": 373.51,
+    "text": "to the a2 to the n-dimensional vector with the one exactly at the i-f position"
+  },
+  {
+    "t_start": 373.51,
+    "t_end": 374.469,
+    "text": "because of this lexical graphical ordering"
+  },
+  {
+    "t_start": 374.469,
+    "t_end": 378.71,
+    "text": "right then i'm going to always implicitly here just make the"
+  },
+  {
+    "t_start": 378.71,
+    "t_end": 381.029,
+    "text": "always implicitly here just make the bijection between the n-bit strings and"
+  },
+  {
+    "t_start": 381.029,
+    "t_end": 382.95,
+    "text": "bijection between the n-bit strings and the integers between"
+  },
+  {
+    "t_start": 382.95,
+    "t_end": 387.909,
+    "text": "0 and 2 to the n minus 1. so let me write this down explicitly like for"
+  },
+  {
+    "t_start": 387.909,
+    "t_end": 389.35,
+    "text": "write this down explicitly like for computer scientists this kind of thing"
+  },
+  {
+    "t_start": 389.35,
+    "t_end": 391.59,
+    "text": "computer scientists this kind of thing goes without saying but for physicists"
+  },
+  {
+    "t_start": 391.59,
+    "t_end": 393.43,
+    "text": "goes without saying but for physicists it's sometimes confusing unless i say it"
+  },
+  {
+    "t_start": 393.43,
+    "t_end": 395.59,
+    "text": "it's sometimes confusing unless i say it explicitly so let me say it explicitly"
+  },
+  {
+    "t_start": 395.59,
+    "t_end": 398.39,
+    "text": "explicitly so let me say it explicitly i'm going to identify"
+  },
+  {
+    "t_start": 398.39,
+    "t_end": 405.51,
+    "text": "i'm going to identify the set of n bit strings"
+  },
+  {
+    "t_start": 408.87,
+    "t_end": 410.15,
+    "text": "between 0 and 2 to the n minus 1. right and sometimes i'm going to write"
+  },
+  {
+    "t_start": 410.15,
+    "t_end": 414.309,
+    "text": "an integer and sometimes i'm going to write a binary string and you should in"
+  },
+  {
+    "t_start": 414.309,
+    "t_end": 417.67,
+    "text": "your mind just think okay that's the same thing"
+  },
+  {
+    "t_start": 419.189,
+    "t_end": 420.71,
+    "text": "is it working out okay by the way with the kind of enlargement for the people"
+  },
+  {
+    "t_start": 420.71,
+    "t_end": 424.79,
+    "text": "the kind of enlargement for the people in the back i hope everybody can see it"
+  },
+  {
+    "t_start": 424.79,
+    "t_end": 427.51,
+    "text": "well yeah good um"
+  },
+  {
+    "t_start": 428.87,
+    "t_end": 431.43,
+    "text": "and then the question of course is okay this this kind of describes states right"
+  },
+  {
+    "t_start": 431.43,
+    "t_end": 435.11,
+    "text": "this this kind of describes states right states of one qubit states of two qubits"
+  },
+  {
+    "t_start": 435.11,
+    "t_end": 436.71,
+    "text": "states of n qubits and the question is what can you do with this"
+  },
+  {
+    "t_start": 436.71,
+    "t_end": 440.15,
+    "text": "and basically there's two things you can do with this and that is to"
+  },
+  {
+    "t_start": 440.15,
+    "t_end": 442.309,
+    "text": "do with this and that is to either measure such a state"
+  },
+  {
+    "t_start": 442.309,
+    "t_end": 444.71,
+    "text": "either measure such a state or uh do an interesting unitary"
+  },
+  {
+    "t_start": 444.71,
+    "t_end": 448.79,
+    "text": "transformation to it you can also do an uninteresting unitary transformation to"
+  },
+  {
+    "t_start": 448.79,
+    "t_end": 455.43,
+    "text": "uninteresting unitary transformation to it but why would you"
+  },
+  {
+    "t_start": 469.67,
+    "t_end": 471.27,
+    "text": "uh so if you measure your full state let's say we have an n cubit state let's"
+  },
+  {
+    "t_start": 471.27,
+    "t_end": 475.11,
+    "text": "let's say we have an n cubit state let's say this guy let's call it psi"
+  },
+  {
+    "t_start": 476.55,
+    "t_end": 480.15,
+    "text": "what happens if you measure the state psi in the computational basis well you"
+  },
+  {
+    "t_start": 480.15,
+    "t_end": 485.51,
+    "text": "eye nor with the machine so what you will actually see will be one of those"
+  },
+  {
+    "t_start": 485.51,
+    "t_end": 488.71,
+    "text": "will actually see will be one of those basic states so one particular cat eye"
+  },
+  {
+    "t_start": 488.71,
+    "t_end": 490.469,
+    "text": "basic states so one particular cat eye and quantum mechanics doesn't sort of"
+  },
+  {
+    "t_start": 490.469,
+    "t_end": 492.309,
+    "text": "and quantum mechanics doesn't sort of allow you to determine which one you"
+  },
+  {
+    "t_start": 492.309,
+    "t_end": 495.749,
+    "text": "allow you to determine which one you will see you can only determine the"
+  },
+  {
+    "t_start": 495.749,
+    "t_end": 497.67,
+    "text": "probability distribution over the possible measurement outcomes"
+  },
+  {
+    "t_start": 497.67,
+    "t_end": 503.11,
+    "text": "and you will see a particular i get i so that think of that just as a"
+  },
+  {
+    "t_start": 503.11,
+    "t_end": 505.189,
+    "text": "get i so that think of that just as a classical and big string right so say"
+  },
+  {
+    "t_start": 505.189,
+    "t_end": 506.869,
+    "text": "classical and big string right so say first bit is tell you one second bit is"
+  },
+  {
+    "t_start": 506.869,
+    "t_end": 509.67,
+    "text": "first bit is tell you one second bit is value zero third bit is value zero etc"
+  },
+  {
+    "t_start": 509.67,
+    "t_end": 511.67,
+    "text": "value zero third bit is value zero etc and you see the outcome i"
+  },
+  {
+    "t_start": 511.67,
+    "t_end": 516.389,
+    "text": "and you see the outcome i with probability"
+  },
+  {
+    "t_start": 518.949,
+    "t_end": 520.63,
+    "text": "given by its the modulus squared of its amplitude"
+  },
+  {
+    "t_start": 520.63,
+    "t_end": 525.43,
+    "text": "should just take it as an axiom here this is this is how the most basic kind"
+  },
+  {
+    "t_start": 525.43,
+    "t_end": 528.31,
+    "text": "this is this is how the most basic kind of measurement of a quantum state works"
+  },
+  {
+    "t_start": 528.31,
+    "t_end": 530.71,
+    "text": "of measurement of a quantum state works um and if you actually observed your"
+  },
+  {
+    "t_start": 530.71,
+    "t_end": 534.79,
+    "text": "state and you got outcome cat i then the state has actually collapsed to that"
+  },
+  {
+    "t_start": 534.79,
+    "t_end": 536.23,
+    "text": "state has actually collapsed to that outcome like all the other amplitudes"
+  },
+  {
+    "t_start": 536.23,
+    "t_end": 537.75,
+    "text": "outcome like all the other amplitudes will have disappeared"
+  },
+  {
+    "t_start": 537.75,
+    "t_end": 551.19,
+    "text": "will have disappeared so the post-measurement state"
+  },
+  {
+    "t_start": 553.67,
+    "t_end": 556.63,
+    "text": "it's just going to be this cat eye that you observed"
+  },
+  {
+    "t_start": 556.63,
+    "t_end": 558.23,
+    "text": "this cat eye that you observed and physicists who are much better than"
+  },
+  {
+    "t_start": 558.23,
+    "t_end": 559.91,
+    "text": "and physicists who are much better than computer scientists at choosing good"
+  },
+  {
+    "t_start": 559.91,
+    "t_end": 561.43,
+    "text": "computer scientists at choosing good terminology they call this the collapse"
+  },
+  {
+    "t_start": 561.43,
+    "t_end": 567.91,
+    "text": "of the wave function it's very kind of spectacular and also somewhat mysterious"
+  },
+  {
+    "t_start": 567.91,
+    "t_end": 570.87,
+    "text": "spectacular and also somewhat mysterious and of course lots of philosophy books"
+  },
+  {
+    "t_start": 570.87,
+    "t_end": 572.389,
+    "text": "have written about that but i'm not going to go into that"
+  },
+  {
+    "t_start": 572.389,
+    "t_end": 574.31,
+    "text": "going to go into that so that's the most basic measurement"
+  },
+  {
+    "t_start": 574.31,
+    "t_end": 576.63,
+    "text": "so that's the most basic measurement notice that this implies"
+  },
+  {
+    "t_start": 576.63,
+    "t_end": 578.07,
+    "text": "notice that this implies because these different probabilities"
+  },
+  {
+    "t_start": 578.07,
+    "t_end": 581.03,
+    "text": "have to add up to one it means that the sum of squares of the amplitudes has to"
+  },
+  {
+    "t_start": 581.03,
+    "t_end": 582.47,
+    "text": "sum of squares of the amplitudes has to be one"
+  },
+  {
+    "t_start": 582.47,
+    "t_end": 587.91,
+    "text": "so implication here is that the norm"
+  },
+  {
+    "t_start": 587.91,
+    "t_end": 589.11,
+    "text": "is that the norm of"
+  },
+  {
+    "t_start": 589.11,
+    "t_end": 592.949,
+    "text": "a quantum state psi or even the squared norm which is the sum of squares of the"
+  },
+  {
+    "t_start": 592.949,
+    "t_end": 598.389,
+    "text": "norm which is the sum of squares of the amplitudes"
+  },
+  {
+    "t_start": 599.829,
+    "t_end": 607.35,
+    "text": "right so what is a quantum state of n cubits is just a two to the n"
+  },
+  {
+    "t_start": 608.71,
+    "t_end": 610.069,
+    "text": "and this is really the most basic measurement where you just measure all"
+  },
+  {
+    "t_start": 610.069,
+    "t_end": 611.75,
+    "text": "measurement where you just measure all of your qubits in a computational basis"
+  },
+  {
+    "t_start": 611.75,
+    "t_end": 613.35,
+    "text": "of your qubits in a computational basis you can also choose to measure some"
+  },
+  {
+    "t_start": 613.35,
+    "t_end": 615.509,
+    "text": "you can also choose to measure some qubits and leave others alone"
+  },
+  {
+    "t_start": 615.509,
+    "t_end": 616.829,
+    "text": "qubits and leave others alone so for"
+  },
+  {
+    "t_start": 616.829,
+    "t_end": 621.35,
+    "text": "so for instance if you measure"
+  },
+  {
+    "t_start": 630.47,
+    "t_end": 635.67,
+    "text": "i can but then i'm losing something here and also on the screen"
+  },
+  {
+    "t_start": 637.91,
+    "t_end": 639.75,
+    "text": "well except for this piece here okay but let me"
+  },
+  {
+    "t_start": 639.75,
+    "t_end": 646.389,
+    "text": "do this a little bit so if you only measure one qubit out of"
+  },
+  {
+    "t_start": 646.389,
+    "t_end": 651.91,
+    "text": "you have a state psi which you can write like this alpha 0"
+  },
+  {
+    "t_start": 651.91,
+    "t_end": 656.069,
+    "text": "which you can write like this alpha 0 get 0 for the first qubit and then some"
+  },
+  {
+    "t_start": 656.069,
+    "t_end": 660.63,
+    "text": "other normalized state phi 0 plus alpha 1 get 1 and then some other"
+  },
+  {
+    "t_start": 660.63,
+    "t_end": 663.43,
+    "text": "normalized states five one if you measure only the first qubit of"
+  },
+  {
+    "t_start": 663.43,
+    "t_end": 667.35,
+    "text": "then something happens that you should sort of intuitively expect will happen"
+  },
+  {
+    "t_start": 667.35,
+    "t_end": 673.59,
+    "text": "sort of intuitively expect will happen namely you will get an outcome for the"
+  },
+  {
+    "t_start": 674.949,
+    "t_end": 676.31,
+    "text": "so you see zero"
+  },
+  {
+    "t_start": 676.31,
+    "t_end": 689.19,
+    "text": "alpha zero squared and the state becomes"
+  },
+  {
+    "t_start": 690.63,
+    "t_end": 694.23,
+    "text": "phi zero so you sort of collapse to that part of the superposition where the"
+  },
+  {
+    "t_start": 694.23,
+    "t_end": 695.91,
+    "text": "part of the superposition where the first qubit was zero"
+  },
+  {
+    "t_start": 695.91,
+    "t_end": 697.99,
+    "text": "first qubit was zero and you see one"
+  },
+  {
+    "t_start": 697.99,
+    "t_end": 700.829,
+    "text": "and you see one as outcome of your measurement"
+  },
+  {
+    "t_start": 700.829,
+    "t_end": 702.55,
+    "text": "with probability"
+  },
+  {
+    "t_start": 702.55,
+    "t_end": 709.67,
+    "text": "alpha one squared and the state then becomes"
+  },
+  {
+    "t_start": 709.67,
+    "t_end": 712.31,
+    "text": "right so this is sort of partial measurements"
+  },
+  {
+    "t_start": 712.31,
+    "t_end": 714.949,
+    "text": "quantum mechanics allows more general kinds of measurement but for the"
+  },
+  {
+    "t_start": 714.949,
+    "t_end": 716.629,
+    "text": "kinds of measurement but for the purposes of quantum algorithms which is"
+  },
+  {
+    "t_start": 716.629,
+    "t_end": 721.03,
+    "text": "purposes of quantum algorithms which is my focus here this is certainly good"
+  },
+  {
+    "t_start": 721.03,
+    "t_end": 722.79,
+    "text": "enough this is all you need to know right so you can measure a state but"
+  },
+  {
+    "t_start": 722.79,
+    "t_end": 723.99,
+    "text": "right so you can measure a state but before you measure it you would like to"
+  },
+  {
+    "t_start": 723.99,
+    "t_end": 725.75,
+    "text": "before you measure it you would like to do something useful to it"
+  },
+  {
+    "t_start": 725.75,
+    "t_end": 727.67,
+    "text": "do something useful to it and the kind of transformations that"
+  },
+  {
+    "t_start": 727.67,
+    "t_end": 730.23,
+    "text": "and the kind of transformations that quantum mechanics allows you to do are"
+  },
+  {
+    "t_start": 730.23,
+    "t_end": 731.91,
+    "text": "quantum mechanics allows you to do are linear this is a consequence of the"
+  },
+  {
+    "t_start": 731.91,
+    "t_end": 733.59,
+    "text": "linear this is a consequence of the schrodinger equation which i will not"
+  },
+  {
+    "t_start": 733.59,
+    "t_end": 736.47,
+    "text": "schrodinger equation which i will not explain"
+  },
+  {
+    "t_start": 747.19,
+    "t_end": 755.99,
+    "text": "transformations of the vector of two to the n amplitudes they are linear"
+  },
+  {
+    "t_start": 757.75,
+    "t_end": 759.43,
+    "text": "and they should also be norm preserving and that just makes conceptual sense"
+  },
+  {
+    "t_start": 759.43,
+    "t_end": 761.75,
+    "text": "and that just makes conceptual sense because you start with a vector whose"
+  },
+  {
+    "t_start": 761.75,
+    "t_end": 763.19,
+    "text": "because you start with a vector whose length is one the sum of squares of"
+  },
+  {
+    "t_start": 763.19,
+    "t_end": 766.389,
+    "text": "amplitudes is one just because you want to give a probability interpretation to"
+  },
+  {
+    "t_start": 766.389,
+    "t_end": 769.91,
+    "text": "to give a probability interpretation to these things and the same should still"
+  },
+  {
+    "t_start": 769.91,
+    "t_end": 771.35,
+    "text": "be true after your transformation the sum of squares of the new amplitude"
+  },
+  {
+    "t_start": 771.35,
+    "t_end": 772.71,
+    "text": "sum of squares of the new amplitude should still be one"
+  },
+  {
+    "t_start": 772.71,
+    "t_end": 780.55,
+    "text": "right so it's linear entries per serving sorry norm preserving"
+  },
+  {
+    "t_start": 782.15,
+    "t_end": 790.55,
+    "text": "right norm and length in this case is the same thing"
+  },
+  {
+    "t_start": 791.99,
+    "t_end": 796.949,
+    "text": "and that means that the transformations we can do on our vector of amplitudes"
+  },
+  {
+    "t_start": 796.949,
+    "t_end": 809.43,
+    "text": "so 2 to the n cross 2 to the n unitary matrices this is what we can do"
+  },
+  {
+    "t_start": 811.03,
+    "t_end": 814.31,
+    "text": "and there's different ways to kind of define different equivalent ways to"
+  },
+  {
+    "t_start": 814.31,
+    "t_end": 817.75,
+    "text": "could say it has to be a matrix that preserves the length of the vector the"
+  },
+  {
+    "t_start": 817.75,
+    "t_end": 821.35,
+    "text": "norm of the vector you can say that it has to preserve inner products between"
+  },
+  {
+    "t_start": 821.35,
+    "t_end": 823.189,
+    "text": "has to preserve inner products between pairs of vectors you can say that"
+  },
+  {
+    "t_start": 823.189,
+    "t_end": 825.189,
+    "text": "pairs of vectors you can say that somehow the matrix version of your"
+  },
+  {
+    "t_start": 825.189,
+    "t_end": 827.03,
+    "text": "somehow the matrix version of your transformation its columns have to form"
+  },
+  {
+    "t_start": 827.03,
+    "t_end": 828.949,
+    "text": "transformation its columns have to form an orthonormal basis all these things"
+  },
+  {
+    "t_start": 828.949,
+    "t_end": 830.87,
+    "text": "an orthonormal basis all these things are equivalent"
+  },
+  {
+    "t_start": 830.87,
+    "t_end": 834.949,
+    "text": "and another way to say it is that the inverse so first of all the inverse"
+  },
+  {
+    "t_start": 834.949,
+    "t_end": 836.71,
+    "text": "the inverse so first of all the inverse of every unitary matrix exists and"
+  },
+  {
+    "t_start": 836.71,
+    "t_end": 838.55,
+    "text": "of every unitary matrix exists and secondly it corresponds to the conjugate"
+  },
+  {
+    "t_start": 838.55,
+    "t_end": 845.03,
+    "text": "secondly it corresponds to the conjugate transpose of that matrix"
+  },
+  {
+    "t_start": 846.87,
+    "t_end": 851.03,
+    "text": "will be equal to u star physicist would call this dagger but i'm"
+  },
+  {
+    "t_start": 851.03,
+    "t_end": 852.47,
+    "text": "physicist would call this dagger but i'm following here the math notation of"
+  },
+  {
+    "t_start": 852.47,
+    "t_end": 854.829,
+    "text": "following here the math notation of using a star for the for the conjugate"
+  },
+  {
+    "t_start": 854.829,
+    "t_end": 856.47,
+    "text": "using a star for the for the conjugate transpose"
+  },
+  {
+    "t_start": 856.47,
+    "t_end": 860.629,
+    "text": "now let me just give a few examples of simple unitary matrices that we will see"
+  },
+  {
+    "t_start": 860.629,
+    "t_end": 862.389,
+    "text": "simple unitary matrices that we will see later again"
+  },
+  {
+    "t_start": 862.389,
+    "t_end": 867.829,
+    "text": "later again examples of unitary matrices"
+  },
+  {
+    "t_start": 870.71,
+    "t_end": 871.509,
+    "text": "so for instance there's the single qubit x"
+  },
+  {
+    "t_start": 871.509,
+    "t_end": 875.75,
+    "text": "x unitary matrix which corresponds to"
+  },
+  {
+    "t_start": 877.99,
+    "t_end": 881.509,
+    "text": "right this is the matrix expression of the x operation and the only thing the x"
+  },
+  {
+    "t_start": 881.509,
+    "t_end": 885.11,
+    "text": "the x operation and the only thing the x operation does is it it flips these two"
+  },
+  {
+    "t_start": 885.11,
+    "t_end": 890.389,
+    "text": "get zero goes to cat one cat one goes to get zero right so this is essentially"
+  },
+  {
+    "t_start": 890.389,
+    "t_end": 895.829,
+    "text": "except that you can apply it to a superposition if you like"
+  },
+  {
+    "t_start": 897.99,
+    "t_end": 899.829,
+    "text": "another important single qubit operation is the z-gate"
+  },
+  {
+    "t_start": 899.829,
+    "t_end": 905.03,
+    "text": "which as a matrix looks like this and what this does is it sort of leaves"
+  },
+  {
+    "t_start": 905.03,
+    "t_end": 906.71,
+    "text": "and what this does is it sort of leaves the basis states alone except that it"
+  },
+  {
+    "t_start": 906.71,
+    "t_end": 908.55,
+    "text": "the basis states alone except that it modifies the amplitude"
+  },
+  {
+    "t_start": 908.55,
+    "t_end": 912.629,
+    "text": "of the cat1 base state for a qubit what it will do is it will put a minus in"
+  },
+  {
+    "t_start": 912.629,
+    "t_end": 917.43,
+    "text": "it will do is it will put a minus in front of this guy if you apply this to a"
+  },
+  {
+    "t_start": 919.67,
+    "t_end": 923.03,
+    "text": "another important gate for many purposes is the so-called"
+  },
+  {
+    "t_start": 923.03,
+    "t_end": 929.749,
+    "text": "t-gate that's this guy"
+  },
+  {
+    "t_start": 931.59,
+    "t_end": 934.71,
+    "text": "it's sort of like the z-gate in fact it's the what is it the fourth root of"
+  },
+  {
+    "t_start": 934.71,
+    "t_end": 938.389,
+    "text": "if you apply the t four times you get the z-gate"
+  },
+  {
+    "t_start": 938.389,
+    "t_end": 943.269,
+    "text": "and this puts puts a a complex phase in front of the alpha one amplitude if you"
+  },
+  {
+    "t_start": 943.269,
+    "t_end": 945.11,
+    "text": "front of the alpha one amplitude if you have one qubit"
+  },
+  {
+    "t_start": 945.11,
+    "t_end": 949.43,
+    "text": "and you can kind of combine these different uh uh single qubits operations"
+  },
+  {
+    "t_start": 949.43,
+    "t_end": 951.03,
+    "text": "different uh uh single qubits operations into bigger unitaries by taking the"
+  },
+  {
+    "t_start": 951.03,
+    "t_end": 952.47,
+    "text": "into bigger unitaries by taking the tensor product"
+  },
+  {
+    "t_start": 952.47,
+    "t_end": 956.31,
+    "text": "for instance if you would like to apply x to the first qubit e to the second"
+  },
+  {
+    "t_start": 956.31,
+    "t_end": 962.87,
+    "text": "x to the first qubit e to the second qubit you would take x enter t tensor"
+  },
+  {
+    "t_start": 962.87,
+    "t_end": 973.91,
+    "text": "and the most interesting or certainly one of the most interesting unitary"
+  },
+  {
+    "t_start": 975.269,
+    "t_end": 976.949,
+    "text": "and this one is very interesting because it really creates"
+  },
+  {
+    "t_start": 976.949,
+    "t_end": 978.629,
+    "text": "it really creates superposition"
+  },
+  {
+    "t_start": 978.629,
+    "t_end": 981.99,
+    "text": "all of these three guys here they sort of map basic states the basis states"
+  },
+  {
+    "t_start": 981.99,
+    "t_end": 985.749,
+    "text": "maybe fiddling a little bit with the amplitudes maybe flipping zeros and once"
+  },
+  {
+    "t_start": 985.749,
+    "t_end": 987.35,
+    "text": "amplitudes maybe flipping zeros and once but this guy here really creates"
+  },
+  {
+    "t_start": 987.35,
+    "t_end": 988.87,
+    "text": "but this guy here really creates superpositions"
+  },
+  {
+    "t_start": 988.87,
+    "t_end": 991.91,
+    "text": "and this is really one of our main tools like as you will see quantum algorithms"
+  },
+  {
+    "t_start": 991.91,
+    "t_end": 993.43,
+    "text": "like as you will see quantum algorithms typically start by creating some"
+  },
+  {
+    "t_start": 993.43,
+    "t_end": 996.069,
+    "text": "typically start by creating some humongous superposition and one way to"
+  },
+  {
+    "t_start": 996.069,
+    "t_end": 999.829,
+    "text": "humongous superposition and one way to create a humongous superposition is to"
+  },
+  {
+    "t_start": 999.829,
+    "t_end": 1004.15,
+    "text": "create a little superposition on each qubit because this will factor out to a"
+  },
+  {
+    "t_start": 1004.15,
+    "t_end": 1010.55,
+    "text": "big superposition overall right so for instance if you apply h to"
+  },
+  {
+    "t_start": 1013.11,
+    "t_end": 1014.629,
+    "text": "and 0 classical bits which is which is in stage 0"
+  },
+  {
+    "t_start": 1014.629,
+    "t_end": 1022.389,
+    "text": "you get a uniform superposition over 0 and 1."
+  },
+  {
+    "t_start": 1024.549,
+    "t_end": 1028.549,
+    "text": "and if you apply h to get one you basically get the same thing"
+  },
+  {
+    "t_start": 1028.549,
+    "t_end": 1031.75,
+    "text": "and a minus sign is super important because it gives rise to interference"
+  },
+  {
+    "t_start": 1031.75,
+    "t_end": 1040.71,
+    "text": "because it gives rise to interference effects later"
+  },
+  {
+    "t_start": 1042.47,
+    "t_end": 1043.99,
+    "text": "right and these are literally very small examples because they all apply to"
+  },
+  {
+    "t_start": 1043.99,
+    "t_end": 1045.429,
+    "text": "examples because they all apply to single qubit systems but you can"
+  },
+  {
+    "t_start": 1045.429,
+    "t_end": 1047.75,
+    "text": "single qubit systems but you can similarly give examples for more than"
+  },
+  {
+    "t_start": 1047.75,
+    "t_end": 1053.59,
+    "text": "important example of a two qubit unitary transformation is the so-called"
+  },
+  {
+    "t_start": 1053.59,
+    "t_end": 1060.31,
+    "text": "is if you express it as an operation on basis states it it applies a negation to"
+  },
+  {
+    "t_start": 1060.31,
+    "t_end": 1063.029,
+    "text": "basis states it it applies a negation to the second bit if the first bit is one"
+  },
+  {
+    "t_start": 1063.029,
+    "t_end": 1067.35,
+    "text": "the second bit if the first bit is one let me write this one here"
+  },
+  {
+    "t_start": 1069.59,
+    "t_end": 1074.47,
+    "text": "if you apply it to a basis state of two bits a control bit and a target bit"
+  },
+  {
+    "t_start": 1074.47,
+    "t_end": 1076.549,
+    "text": "bits a control bit and a target bit say c comma t"
+  },
+  {
+    "t_start": 1076.549,
+    "t_end": 1081.59,
+    "text": "c and t would be individual bits then this gets mapped to"
+  },
+  {
+    "t_start": 1081.59,
+    "t_end": 1082.95,
+    "text": "then this gets mapped to c comma"
+  },
+  {
+    "t_start": 1082.95,
+    "t_end": 1085.669,
+    "text": "c comma t"
+  },
+  {
+    "t_start": 1086.63,
+    "t_end": 1090.39,
+    "text": "plus c modulo 2 and this is just a fancy way of saying"
+  },
+  {
+    "t_start": 1090.39,
+    "t_end": 1094.95,
+    "text": "flip the t value if c is one sort of think of this as an if-then"
+  },
+  {
+    "t_start": 1094.95,
+    "t_end": 1098.95,
+    "text": "sort of think of this as an if-then statement but then in the form of a"
+  },
+  {
+    "t_start": 1098.95,
+    "t_end": 1101.75,
+    "text": "two-qubit unitary and i think this is all you need to know"
+  },
+  {
+    "t_start": 1101.75,
+    "t_end": 1106.31,
+    "text": "right sometimes people take whole semesters of course it's about quantum"
+  },
+  {
+    "t_start": 1106.31,
+    "t_end": 1108.95,
+    "text": "semesters of course it's about quantum mechanics i really don't know why really"
+  },
+  {
+    "t_start": 1108.95,
+    "t_end": 1111.11,
+    "text": "mechanics i really don't know why really 20 minutes is enough"
+  },
+  {
+    "t_start": 1111.11,
+    "t_end": 1118.87,
+    "text": "so this is probably a good time to pause for questions if there are any"
+  },
+  {
+    "t_start": 1120.47,
+    "t_end": 1123.83,
+    "text": "like i said i assume most of you sort of know this stuff already"
+  },
+  {
+    "t_start": 1123.83,
+    "t_end": 1127.51,
+    "text": "now this this whole week is about quantum computation and as the name says"
+  },
+  {
+    "t_start": 1127.51,
+    "t_end": 1128.71,
+    "text": "quantum computation and as the name says um"
+  },
+  {
+    "t_start": 1128.71,
+    "t_end": 1134.63,
+    "text": "quantum computation combines quantum and computation the quantum is on the board"
+  },
+  {
+    "t_start": 1134.63,
+    "t_end": 1148.31,
+    "text": "on the left the computation will be on the board on"
+  },
+  {
+    "t_start": 1150.31,
+    "t_end": 1153.029,
+    "text": "and if you look at the classical theory of computation uh the most basic model"
+  },
+  {
+    "t_start": 1153.029,
+    "t_end": 1154.87,
+    "text": "of computation uh the most basic model is the deterring machine which was"
+  },
+  {
+    "t_start": 1154.87,
+    "t_end": 1162.789,
+    "text": "is the deterring machine which was introduced by alan turing in 1936"
+  },
+  {
+    "t_start": 1164.47,
+    "t_end": 1167.909,
+    "text": "at that point quantum mechanics was sort of completed quantum mechanics was"
+  },
+  {
+    "t_start": 1167.909,
+    "t_end": 1169.909,
+    "text": "really a multi-people effort you know people like uh like plunk and boor and"
+  },
+  {
+    "t_start": 1169.909,
+    "t_end": 1172.95,
+    "text": "people like uh like plunk and boor and einstein and schroedinger and heisenberg"
+  },
+  {
+    "t_start": 1172.95,
+    "t_end": 1178.07,
+    "text": "einstein and schroedinger and heisenberg they together over a period of about 25"
+  },
+  {
+    "t_start": 1178.07,
+    "t_end": 1181.59,
+    "text": "years they developed quantum mechanics computation of course like if you have"
+  },
+  {
+    "t_start": 1181.59,
+    "t_end": 1186.15,
+    "text": "this paper by touring in 1936 because it really defines what computation is but"
+  },
+  {
+    "t_start": 1186.15,
+    "t_end": 1187.99,
+    "text": "really defines what computation is but of course also there like earlier stuff"
+  },
+  {
+    "t_start": 1187.99,
+    "t_end": 1189.35,
+    "text": "of course also there like earlier stuff had happened there's"
+  },
+  {
+    "t_start": 1189.35,
+    "t_end": 1194.39,
+    "text": "there's even work by leipnids in the 17th century that is sort of a little"
+  },
+  {
+    "t_start": 1194.39,
+    "t_end": 1196.63,
+    "text": "17th century that is sort of a little bit like defining what computation is"
+  },
+  {
+    "t_start": 1196.63,
+    "t_end": 1198.63,
+    "text": "bit like defining what computation is but in a very wishy-washy way"
+  },
+  {
+    "t_start": 1198.63,
+    "t_end": 1202.39,
+    "text": "but if you want the the sort of the mathematical starting point of computer"
+  },
+  {
+    "t_start": 1202.39,
+    "t_end": 1203.909,
+    "text": "mathematical starting point of computer science as a science it should be"
+  },
+  {
+    "t_start": 1203.909,
+    "t_end": 1206.39,
+    "text": "science as a science it should be turing's 1936 paper about the"
+  },
+  {
+    "t_start": 1206.39,
+    "t_end": 1208.39,
+    "text": "turing's 1936 paper about the computability"
+  },
+  {
+    "t_start": 1208.39,
+    "t_end": 1219.83,
+    "text": "computability and what he defined is the turing"
+  },
+  {
+    "t_start": 1221.029,
+    "t_end": 1223.51,
+    "text": "of course you didn't call it the turing machine that would be greatly immodest"
+  },
+  {
+    "t_start": 1223.51,
+    "t_end": 1228.23,
+    "text": "machine that would be greatly immodest um what a turing machine is is it it's"
+  },
+  {
+    "t_start": 1228.23,
+    "t_end": 1229.59,
+    "text": "essentially a sort of an unlimited binary string"
+  },
+  {
+    "t_start": 1229.59,
+    "t_end": 1235.35,
+    "text": "with a very simple processor which sort of moves over the string and does very"
+  },
+  {
+    "t_start": 1235.35,
+    "t_end": 1239.51,
+    "text": "simple things to it so you have a tape"
+  },
+  {
+    "t_start": 1243.029,
+    "t_end": 1245.029,
+    "text": "let's say it's it's finite at one end consists of cells each cell can take a"
+  },
+  {
+    "t_start": 1245.029,
+    "t_end": 1250.07,
+    "text": "consists of cells each cell can take a bit"
+  },
+  {
+    "t_start": 1251.51,
+    "t_end": 1253.27,
+    "text": "right so let's say that the first cell is zero maybe the second one is also"
+  },
+  {
+    "t_start": 1253.27,
+    "t_end": 1257.43,
+    "text": "is zero maybe the second one is also zero then the third one is one one zero"
+  },
+  {
+    "t_start": 1257.43,
+    "t_end": 1261.59,
+    "text": "and it in principle it's unlimited in the sense that the computer can always"
+  },
+  {
+    "t_start": 1261.59,
+    "t_end": 1266.71,
+    "text": "sort of add all new cells if it needs to and then there's a tape head or you can"
+  },
+  {
+    "t_start": 1266.71,
+    "t_end": 1271.99,
+    "text": "and then there's a tape head or you can think of that as a processor"
+  },
+  {
+    "t_start": 1273.669,
+    "t_end": 1275.35,
+    "text": "and that's sitting at one particular location so it's like a little machine"
+  },
+  {
+    "t_start": 1275.35,
+    "t_end": 1279.35,
+    "text": "location so it's like a little machine or think of it as a robot it's sort of"
+  },
+  {
+    "t_start": 1279.35,
+    "t_end": 1285.51,
+    "text": "and it's a finite state machine it has a it has only like a finite number of"
+  },
+  {
+    "t_start": 1285.51,
+    "t_end": 1289.59,
+    "text": "internal possibilities finite number of states"
+  },
+  {
+    "t_start": 1301.75,
+    "t_end": 1303.51,
+    "text": "and what it does is it looks at the cell where it's standing it looks at whether"
+  },
+  {
+    "t_start": 1303.51,
+    "t_end": 1307.43,
+    "text": "that's a zero or one looks at its internal state and depending on that it"
+  },
+  {
+    "t_start": 1307.43,
+    "t_end": 1309.51,
+    "text": "internal state and depending on that it just looks up in a finite sized table"
+  },
+  {
+    "t_start": 1309.51,
+    "t_end": 1311.59,
+    "text": "just looks up in a finite sized table what to do right and what to do means"
+  },
+  {
+    "t_start": 1311.59,
+    "t_end": 1313.75,
+    "text": "what to do right and what to do means you can you can either change this bit"
+  },
+  {
+    "t_start": 1313.75,
+    "t_end": 1317.59,
+    "text": "you can you can either change this bit or not and you can move left or right or"
+  },
+  {
+    "t_start": 1317.59,
+    "t_end": 1318.95,
+    "text": "you can stay in the same place and that's all that this turing machine"
+  },
+  {
+    "t_start": 1318.95,
+    "t_end": 1320.63,
+    "text": "and that's all that this turing machine does"
+  },
+  {
+    "t_start": 1320.63,
+    "t_end": 1324.07,
+    "text": "and what turing argued quite convincingly is that everything that"
+  },
+  {
+    "t_start": 1324.07,
+    "t_end": 1327.35,
+    "text": "convincingly is that everything that intuitively we call a computation or an"
+  },
+  {
+    "t_start": 1327.35,
+    "t_end": 1330.87,
+    "text": "can be massaged in this form there's this thing called the church"
+  },
+  {
+    "t_start": 1330.87,
+    "t_end": 1332.47,
+    "text": "there's this thing called the church turing thesis"
+  },
+  {
+    "t_start": 1332.47,
+    "t_end": 1344.95,
+    "text": "it's a thesis it's it's not a mathematical statement"
+  },
+  {
+    "t_start": 1347.19,
+    "t_end": 1350.63,
+    "text": "everything that we would reasonably call computation is can be written as a"
+  },
+  {
+    "t_start": 1350.63,
+    "t_end": 1352.23,
+    "text": "computation is can be written as a turing machine or as a turing machine"
+  },
+  {
+    "t_start": 1352.23,
+    "t_end": 1354.149,
+    "text": "turing machine or as a turing machine program so to speak"
+  },
+  {
+    "t_start": 1354.149,
+    "t_end": 1365.669,
+    "text": "program so to speak very reasonable computation"
+  },
+  {
+    "t_start": 1377.35,
+    "t_end": 1378.95,
+    "text": "right and then this model of computation this very peculiar turing machine this"
+  },
+  {
+    "t_start": 1378.95,
+    "t_end": 1382.549,
+    "text": "turns out to be equivalent to lots of other things like if you can if you have"
+  },
+  {
+    "t_start": 1382.549,
+    "t_end": 1385.669,
+    "text": "other things like if you can if you have a turing machine for something you can"
+  },
+  {
+    "t_start": 1385.669,
+    "t_end": 1389.11,
+    "text": "write a c program for it or a python program for it and vice versa"
+  },
+  {
+    "t_start": 1389.11,
+    "t_end": 1391.11,
+    "text": "program for it and vice versa so this is"
+  },
+  {
+    "t_start": 1391.11,
+    "t_end": 1394.95,
+    "text": "i think classical computer science sort of the founding or foundational model of"
+  },
+  {
+    "t_start": 1394.95,
+    "t_end": 1396.549,
+    "text": "of the founding or foundational model of computation but there's another model"
+  },
+  {
+    "t_start": 1396.549,
+    "t_end": 1401.029,
+    "text": "computation but there's another model which in many cases makes more sense or"
+  },
+  {
+    "t_start": 1401.029,
+    "t_end": 1409.51,
+    "text": "is let's say is easier to deal with so that's an alternative model"
+  },
+  {
+    "t_start": 1422.71,
+    "t_end": 1424.549,
+    "text": "and if you write down a boolean circuit for computation what that means is that"
+  },
+  {
+    "t_start": 1424.549,
+    "t_end": 1426.47,
+    "text": "for computation what that means is that you sort of decompose your computation"
+  },
+  {
+    "t_start": 1426.47,
+    "t_end": 1429.43,
+    "text": "you sort of decompose your computation into various tiny little operations each"
+  },
+  {
+    "t_start": 1429.43,
+    "t_end": 1431.51,
+    "text": "into various tiny little operations each of which is called a logic gate"
+  },
+  {
+    "t_start": 1431.51,
+    "t_end": 1435.35,
+    "text": "and each of which is like you can sort of choose which set of elementary logic"
+  },
+  {
+    "t_start": 1435.35,
+    "t_end": 1437.43,
+    "text": "of choose which set of elementary logic gates you allow but very common choice"
+  },
+  {
+    "t_start": 1437.43,
+    "t_end": 1449.43,
+    "text": "gates you allow but very common choice is to allow end gates and or gates and"
+  },
+  {
+    "t_start": 1450.87,
+    "t_end": 1451.83,
+    "text": "and here's the little example of something i don't know if it does"
+  },
+  {
+    "t_start": 1451.83,
+    "t_end": 1455.59,
+    "text": "something i don't know if it does anything useful probably not"
+  },
+  {
+    "t_start": 1457.19,
+    "t_end": 1459.43,
+    "text": "let's say that you have three bits that you that you operate upon"
+  },
+  {
+    "t_start": 1459.43,
+    "t_end": 1460.63,
+    "text": "you that you operate upon then you can"
+  },
+  {
+    "t_start": 1460.63,
+    "t_end": 1467.029,
+    "text": "consisting of these logic gates where the the initial the sort of"
+  },
+  {
+    "t_start": 1467.029,
+    "t_end": 1469.83,
+    "text": "where the the initial the sort of internal vertices are and or and not"
+  },
+  {
+    "t_start": 1469.83,
+    "t_end": 1475.11,
+    "text": "internal vertices are and or and not gates"
+  },
+  {
+    "t_start": 1477.029,
+    "t_end": 1479.269,
+    "text": "right so this bit here gets a not gate applied to it means it becomes a one"
+  },
+  {
+    "t_start": 1479.269,
+    "t_end": 1481.11,
+    "text": "applied to it means it becomes a one let's say that these two guys they get"
+  },
+  {
+    "t_start": 1481.11,
+    "t_end": 1483.75,
+    "text": "let's say that these two guys they get an or gate applied to them"
+  },
+  {
+    "t_start": 1483.75,
+    "t_end": 1489.029,
+    "text": "the output would be one because the or gate is one if at least one of the two"
+  },
+  {
+    "t_start": 1489.029,
+    "t_end": 1496.87,
+    "text": "incoming bits is one and then let's say you could apply an"
+  },
+  {
+    "t_start": 1499.11,
+    "t_end": 1501.19,
+    "text": "and what bit comes out well let's see like this this wire is"
+  },
+  {
+    "t_start": 1501.19,
+    "t_end": 1504.39,
+    "text": "let's see like this this wire is carrying a one now because this zero has"
+  },
+  {
+    "t_start": 1504.39,
+    "t_end": 1508.31,
+    "text": "this buyer is carrying a one because the or gate here had at least one incoming"
+  },
+  {
+    "t_start": 1508.31,
+    "t_end": 1512.47,
+    "text": "wire that was one so two ends are going into this end gate and that means that"
+  },
+  {
+    "t_start": 1512.47,
+    "t_end": 1514.63,
+    "text": "into this end gate and that means that the output bit is a one"
+  },
+  {
+    "t_start": 1514.63,
+    "t_end": 1516.149,
+    "text": "the output bit is a one this is an interesting computation i"
+  },
+  {
+    "t_start": 1516.149,
+    "t_end": 1519.83,
+    "text": "don't really know but as a model of computation it makes sense and it sort"
+  },
+  {
+    "t_start": 1519.83,
+    "t_end": 1521.83,
+    "text": "computation it makes sense and it sort of corresponds to um"
+  },
+  {
+    "t_start": 1521.83,
+    "t_end": 1528.07,
+    "text": "which is and chips certainly don't work like turing machines they sort of work"
+  },
+  {
+    "t_start": 1528.07,
+    "t_end": 1529.51,
+    "text": "like turing machines they sort of work like this"
+  },
+  {
+    "t_start": 1529.51,
+    "t_end": 1535.43,
+    "text": "they sort of have little logic gates that that operate on on individual bits"
+  },
+  {
+    "t_start": 1535.43,
+    "t_end": 1540.549,
+    "text": "that that operate on on individual bits and there's a few things to to sort of"
+  },
+  {
+    "t_start": 1540.549,
+    "t_end": 1544.71,
+    "text": "so you can think of this as time progressing from left to right"
+  },
+  {
+    "t_start": 1544.71,
+    "t_end": 1548.95,
+    "text": "you can also think of it as a list of instructions like first apply a not gate"
+  },
+  {
+    "t_start": 1548.95,
+    "t_end": 1554.87,
+    "text": "instructions like first apply a not gate to this wire then apply an or gate to"
+  },
+  {
+    "t_start": 1557.35,
+    "t_end": 1560.71,
+    "text": "a think of this as a list of instructions"
+  },
+  {
+    "t_start": 1560.71,
+    "t_end": 1571.75,
+    "text": "instructions very simple instructions"
+  },
+  {
+    "t_start": 1576.39,
+    "t_end": 1577.59,
+    "text": "and this is not time in any physics sense of the word it's more like"
+  },
+  {
+    "t_start": 1577.59,
+    "t_end": 1579.909,
+    "text": "sense of the word it's more like succession of operations time goes from"
+  },
+  {
+    "t_start": 1579.909,
+    "t_end": 1594.149,
+    "text": "succession of operations time goes from left to right"
+  },
+  {
+    "t_start": 1595.75,
+    "t_end": 1597.669,
+    "text": "another thing to note here is that this operation is actually non-reversible"
+  },
+  {
+    "t_start": 1597.669,
+    "t_end": 1600.71,
+    "text": "operation is actually non-reversible right and that's just because the"
+  },
+  {
+    "t_start": 1600.71,
+    "t_end": 1603.19,
+    "text": "elementary or and end gates are not reversible two wires go in one wire"
+  },
+  {
+    "t_start": 1603.19,
+    "t_end": 1605.029,
+    "text": "reversible two wires go in one wire comes out you cannot typically recover"
+  },
+  {
+    "t_start": 1605.029,
+    "t_end": 1606.789,
+    "text": "comes out you cannot typically recover from the value of the output wire what"
+  },
+  {
+    "t_start": 1606.789,
+    "t_end": 1609.43,
+    "text": "from the value of the output wire what the two input wires were"
+  },
+  {
+    "t_start": 1609.43,
+    "t_end": 1613.75,
+    "text": "so these are i would say the two main models of um of classical computing the"
+  },
+  {
+    "t_start": 1613.75,
+    "t_end": 1615.11,
+    "text": "models of um of classical computing the turing machine model and the boolean"
+  },
+  {
+    "t_start": 1615.11,
+    "t_end": 1617.029,
+    "text": "turing machine model and the boolean circuit model they're slightly different"
+  },
+  {
+    "t_start": 1617.029,
+    "t_end": 1618.87,
+    "text": "circuit model they're slightly different here in the sense that"
+  },
+  {
+    "t_start": 1618.87,
+    "t_end": 1624.149,
+    "text": "your number of input bits is kind of fixed that's not true for the turing"
+  },
+  {
+    "t_start": 1624.149,
+    "t_end": 1626.07,
+    "text": "fixed that's not true for the turing machine so here you have a separate"
+  },
+  {
+    "t_start": 1626.07,
+    "t_end": 1627.269,
+    "text": "machine so here you have a separate circuit"
+  },
+  {
+    "t_start": 1627.269,
+    "t_end": 1646.23,
+    "text": "circuit for each input length"
+  },
+  {
+    "t_start": 1647.43,
+    "t_end": 1652.149,
+    "text": "machine you know your initial tape could contain as many input bits as you want"
+  },
+  {
+    "t_start": 1652.149,
+    "t_end": 1655.43,
+    "text": "contain as many input bits as you want so you have one turing machine for each"
+  },
+  {
+    "t_start": 1655.43,
+    "t_end": 1656.71,
+    "text": "input length n in the case of the boolean circuit model you have a"
+  },
+  {
+    "t_start": 1656.71,
+    "t_end": 1660.71,
+    "text": "boolean circuit model you have a separate boolean circuit for each input"
+  },
+  {
+    "t_start": 1660.71,
+    "t_end": 1664.07,
+    "text": "and the idea here is that a turing machine is efficient if it doesn't take"
+  },
+  {
+    "t_start": 1664.07,
+    "t_end": 1666.149,
+    "text": "machine is efficient if it doesn't take too many steps before it terminates and"
+  },
+  {
+    "t_start": 1666.149,
+    "t_end": 1667.83,
+    "text": "too many steps before it terminates and the boolean circuit is efficient if it"
+  },
+  {
+    "t_start": 1667.83,
+    "t_end": 1670.07,
+    "text": "the boolean circuit is efficient if it doesn't contain too many internal gates"
+  },
+  {
+    "t_start": 1670.07,
+    "t_end": 1672.87,
+    "text": "doesn't contain too many internal gates and it turns out that these two things"
+  },
+  {
+    "t_start": 1672.87,
+    "t_end": 1676.07,
+    "text": "if there's a turing machine with a polynomial number of steps to solve some"
+  },
+  {
+    "t_start": 1676.07,
+    "t_end": 1679.669,
+    "text": "polynomial number of steps to solve some problem there's going to be a family of"
+  },
+  {
+    "t_start": 1679.669,
+    "t_end": 1682.95,
+    "text": "boolean circuits of polynomial size to solve the same problem"
+  },
+  {
+    "t_start": 1684.789,
+    "t_end": 1686.789,
+    "text": "okay so this is all just preparation on the left you have the quantum computing"
+  },
+  {
+    "t_start": 1686.789,
+    "t_end": 1690.87,
+    "text": "the left you have the quantum computing phrased in in the language of qubits on"
+  },
+  {
+    "t_start": 1690.87,
+    "t_end": 1695.909,
+    "text": "computation and now the whole point of this field of quantum computation is to"
+  },
+  {
+    "t_start": 1695.909,
+    "t_end": 1698.23,
+    "text": "this field of quantum computation is to combine these two things"
+  },
+  {
+    "t_start": 1698.23,
+    "t_end": 1700.31,
+    "text": "combine these two things into quantum computation"
+  },
+  {
+    "t_start": 1700.31,
+    "t_end": 1713.11,
+    "text": "into quantum computation or quantum computing"
+  },
+  {
+    "t_start": 1714.47,
+    "t_end": 1716.63,
+    "text": "right and that means that we somehow have to generalize this classical"
+  },
+  {
+    "t_start": 1716.63,
+    "t_end": 1722.389,
+    "text": "have to generalize this classical computation model to the language not of"
+  },
+  {
+    "t_start": 1724.549,
+    "t_end": 1727.19,
+    "text": "and you can of course do what people did in the early 90s and that is to"
+  },
+  {
+    "t_start": 1727.19,
+    "t_end": 1746.47,
+    "text": "in the early 90s and that is to define a quantum turing machine"
+  },
+  {
+    "t_start": 1747.83,
+    "t_end": 1749.51,
+    "text": "you can do that you can make it well defined it's not easy"
+  },
+  {
+    "t_start": 1749.51,
+    "t_end": 1752.47,
+    "text": "defined it's not easy the big issue here is that because the"
+  },
+  {
+    "t_start": 1752.47,
+    "t_end": 1758.389,
+    "text": "limited you can't really say this is acting on n qubits you need sort of an"
+  },
+  {
+    "t_start": 1758.389,
+    "t_end": 1760.31,
+    "text": "acting on n qubits you need sort of an indefinite number of qubits to define a"
+  },
+  {
+    "t_start": 1760.31,
+    "t_end": 1762.149,
+    "text": "indefinite number of qubits to define a quantum turing machine and that is very"
+  },
+  {
+    "t_start": 1762.149,
+    "t_end": 1763.669,
+    "text": "quantum turing machine and that is very very painful"
+  },
+  {
+    "t_start": 1763.669,
+    "t_end": 1767.11,
+    "text": "so this model of quantum turing machine it exists and it makes sense but it's"
+  },
+  {
+    "t_start": 1767.11,
+    "t_end": 1768.47,
+    "text": "it exists and it makes sense but it's super painful"
+  },
+  {
+    "t_start": 1768.47,
+    "t_end": 1775.83,
+    "text": "super painful so that's not what we typically study in"
+  },
+  {
+    "t_start": 1777.75,
+    "t_end": 1779.43,
+    "text": "instead what we study in practice is a quantum version of this boolean circuit"
+  },
+  {
+    "t_start": 1779.43,
+    "t_end": 1780.789,
+    "text": "quantum version of this boolean circuit model"
+  },
+  {
+    "t_start": 1780.789,
+    "t_end": 1792.549,
+    "text": "model that's called quantum circuits"
+  },
+  {
+    "t_start": 1797.99,
+    "t_end": 1800.71,
+    "text": "because this is sort of the canonical model of quantum computation"
+  },
+  {
+    "t_start": 1800.71,
+    "t_end": 1803.269,
+    "text": "model of quantum computation um"
+  },
+  {
+    "t_start": 1805.35,
+    "t_end": 1820.149,
+    "text": "so what do we have here we have we start with a number of qubits"
+  },
+  {
+    "t_start": 1822.47,
+    "t_end": 1824.389,
+    "text": "we apply a prescribed sequence of elementary unitary operations which are"
+  },
+  {
+    "t_start": 1824.389,
+    "t_end": 1830.789,
+    "text": "elementary unitary operations which are also called gates on the qubits"
+  },
+  {
+    "t_start": 1860.149,
+    "t_end": 1863.19,
+    "text": "and at the end we measure to get a classical output i will only be"
+  },
+  {
+    "t_start": 1863.19,
+    "t_end": 1864.71,
+    "text": "classical output i will only be considering the situation when you have"
+  },
+  {
+    "t_start": 1864.71,
+    "t_end": 1866.07,
+    "text": "considering the situation when you have a classical input and you want a"
+  },
+  {
+    "t_start": 1866.07,
+    "t_end": 1867.83,
+    "text": "a classical input and you want a classical output right think of for"
+  },
+  {
+    "t_start": 1867.83,
+    "t_end": 1869.509,
+    "text": "classical output right think of for instance the factoring problem there's a"
+  },
+  {
+    "t_start": 1869.509,
+    "t_end": 1871.029,
+    "text": "instance the factoring problem there's a number you want to factor what should"
+  },
+  {
+    "t_start": 1871.029,
+    "t_end": 1872.87,
+    "text": "number you want to factor what should come out would be classical binary"
+  },
+  {
+    "t_start": 1872.87,
+    "t_end": 1874.23,
+    "text": "come out would be classical binary descriptions of the factor of that"
+  },
+  {
+    "t_start": 1874.23,
+    "t_end": 1886.549,
+    "text": "descriptions of the factor of that number"
+  },
+  {
+    "t_start": 1902.63,
+    "t_end": 1904.07,
+    "text": "uh what's an elementary unitary well we can be a little bit fuzzy about this"
+  },
+  {
+    "t_start": 1904.07,
+    "t_end": 1906.31,
+    "text": "can be a little bit fuzzy about this because it turns out that that different"
+  },
+  {
+    "t_start": 1906.31,
+    "t_end": 1907.83,
+    "text": "because it turns out that that different sets of elementary unitaries can"
+  },
+  {
+    "t_start": 1907.83,
+    "t_end": 1911.909,
+    "text": "sets of elementary unitaries can typically simulate other sets of"
+  },
+  {
+    "t_start": 1911.909,
+    "t_end": 1914.63,
+    "text": "elementary unitaries so to be specific we can for instance"
+  },
+  {
+    "t_start": 1914.63,
+    "t_end": 1919.669,
+    "text": "that what we allow as our elementary unitaries would be c note gates"
+  },
+  {
+    "t_start": 1919.669,
+    "t_end": 1921.83,
+    "text": "unitaries would be c note gates controlled not gates"
+  },
+  {
+    "t_start": 1921.83,
+    "t_end": 1926.07,
+    "text": "that's the only two qubit gates that i gave as an example over there plus for"
+  },
+  {
+    "t_start": 1926.07,
+    "t_end": 1928.31,
+    "text": "gave as an example over there plus for instance the hadamard gate"
+  },
+  {
+    "t_start": 1928.31,
+    "t_end": 1932.07,
+    "text": "instance the hadamard gate and the t-gate"
+  },
+  {
+    "t_start": 1933.35,
+    "t_end": 1936.87,
+    "text": "for instance take the c naught and all possible single qubit gates of which"
+  },
+  {
+    "t_start": 1936.87,
+    "t_end": 1938.87,
+    "text": "possible single qubit gates of which there are very many continuously many it"
+  },
+  {
+    "t_start": 1938.87,
+    "t_end": 1940.149,
+    "text": "there are very many continuously many it all doesn't really matter these things"
+  },
+  {
+    "t_start": 1940.149,
+    "t_end": 1950.789,
+    "text": "all doesn't really matter these things can all stimulate each other very well"
+  },
+  {
+    "t_start": 1952.549,
+    "t_end": 1954.149,
+    "text": "right and this is really in an analogy with a classical boolean circuit model"
+  },
+  {
+    "t_start": 1954.149,
+    "t_end": 1955.43,
+    "text": "with a classical boolean circuit model where there's like three basic"
+  },
+  {
+    "t_start": 1955.43,
+    "t_end": 1960.549,
+    "text": "operations you can do and or not uh similarly if you define your set of"
+  },
+  {
+    "t_start": 1960.549,
+    "t_end": 1962.47,
+    "text": "uh similarly if you define your set of elementary gates like this there are"
+  },
+  {
+    "t_start": 1962.47,
+    "t_end": 1964.549,
+    "text": "elementary gates like this there are three basic operations you can do and"
+  },
+  {
+    "t_start": 1964.549,
+    "t_end": 1968.149,
+    "text": "you can stack these things together into bigger circuits and that's your quantum"
+  },
+  {
+    "t_start": 1968.149,
+    "t_end": 1974.71,
+    "text": "bigger circuits and that's your quantum algorithm"
+  },
+  {
+    "t_start": 1982.63,
+    "t_end": 1986.789,
+    "text": "superposition with the effects of interference interferences like positive"
+  },
+  {
+    "t_start": 1986.789,
+    "t_end": 1993.99,
+    "text": "and negative amplitudes canceling each other out in the right way whatever that"
+  },
+  {
+    "t_start": 1996.549,
+    "t_end": 1998.389,
+    "text": "do you want to combine superposition"
+  },
+  {
+    "t_start": 1998.389,
+    "t_end": 2004.31,
+    "text": "superposition with interference"
+  },
+  {
+    "t_start": 2006.07,
+    "t_end": 2007.509,
+    "text": "or rather you want to sort of engineer that the right interference effects"
+  },
+  {
+    "t_start": 2007.509,
+    "t_end": 2016.789,
+    "text": "that the right interference effects happen"
+  },
+  {
+    "t_start": 2018.71,
+    "t_end": 2019.669,
+    "text": "to solve your computational problem think"
+  },
+  {
+    "t_start": 2019.669,
+    "t_end": 2029.909,
+    "text": "think factoring integers"
+  },
+  {
+    "t_start": 2045.35,
+    "t_end": 2047.11,
+    "text": "and small means not too many gates so like on a high level like you know if"
+  },
+  {
+    "t_start": 2047.11,
+    "t_end": 2048.79,
+    "text": "like on a high level like you know if you abstract away from the physics which"
+  },
+  {
+    "t_start": 2048.79,
+    "t_end": 2052.389,
+    "text": "you abstract away from the physics which i'm doing here all the time if you"
+  },
+  {
+    "t_start": 2052.389,
+    "t_end": 2053.909,
+    "text": "abstract away from the physics then the number of elementary gates in your"
+  },
+  {
+    "t_start": 2053.909,
+    "t_end": 2057.349,
+    "text": "circuit that's sort of a measure of how much work you need to do to do the"
+  },
+  {
+    "t_start": 2057.349,
+    "t_end": 2059.19,
+    "text": "much work you need to do to do the computation so think of each of these"
+  },
+  {
+    "t_start": 2059.19,
+    "t_end": 2063.43,
+    "text": "computation so think of each of these gates executing one of these gates think"
+  },
+  {
+    "t_start": 2063.43,
+    "t_end": 2067.03,
+    "text": "right then your total amount of work is proportional to the number of gates in"
+  },
+  {
+    "t_start": 2067.03,
+    "t_end": 2068.95,
+    "text": "proportional to the number of gates in your circuit so a small circuit is"
+  },
+  {
+    "t_start": 2068.95,
+    "t_end": 2072.869,
+    "text": "your circuit so a small circuit is efficient and a big circuit with many"
+  },
+  {
+    "t_start": 2072.869,
+    "t_end": 2075.03,
+    "text": "gates is not efficient a small circuit means"
+  },
+  {
+    "t_start": 2075.03,
+    "t_end": 2082.95,
+    "text": "a small circuit means only few gates"
+  },
+  {
+    "t_start": 2084.869,
+    "t_end": 2086.55,
+    "text": "and let me give you one little example of a quantum circuit it's not something"
+  },
+  {
+    "t_start": 2086.55,
+    "t_end": 2088.149,
+    "text": "of a quantum circuit it's not something that computes something interesting but"
+  },
+  {
+    "t_start": 2088.149,
+    "t_end": 2091.51,
+    "text": "it well i mean it's not something that computes a classical output but it does"
+  },
+  {
+    "t_start": 2091.51,
+    "t_end": 2093.349,
+    "text": "computes a classical output but it does produce an interesting state"
+  },
+  {
+    "t_start": 2093.349,
+    "t_end": 2102.55,
+    "text": "produce an interesting state so here's an example of a little circuit"
+  },
+  {
+    "t_start": 2105.91,
+    "t_end": 2107.43,
+    "text": "uh that's probably good yeah so i i will use this board here for the deutsches"
+  },
+  {
+    "t_start": 2107.43,
+    "t_end": 2108.87,
+    "text": "use this board here for the deutsches algorithm and then take a five minute"
+  },
+  {
+    "t_start": 2108.87,
+    "t_end": 2110.87,
+    "text": "algorithm and then take a five minute break"
+  },
+  {
+    "t_start": 2110.87,
+    "t_end": 2115.03,
+    "text": "break uh yes please thanks"
+  },
+  {
+    "t_start": 2116.63,
+    "t_end": 2118.71,
+    "text": "cleaning these boards is a non-trivial exercise"
+  },
+  {
+    "t_start": 2118.71,
+    "t_end": 2121.91,
+    "text": "speaking of which at the end of the lecture i'll assign some exercises that"
+  },
+  {
+    "t_start": 2121.91,
+    "t_end": 2142.23,
+    "text": "lecture i'll assign some exercises that you could think about if you like to for"
+  },
+  {
+    "t_start": 2144.15,
+    "t_end": 2147.349,
+    "text": "so here's a very very simple circuit so just like in the classical case you know"
+  },
+  {
+    "t_start": 2147.349,
+    "t_end": 2150.15,
+    "text": "time goes from left to right and you should think of this circuit as uh"
+  },
+  {
+    "t_start": 2150.15,
+    "t_end": 2152.47,
+    "text": "should think of this circuit as uh as as just prescribing a sequence of"
+  },
+  {
+    "t_start": 2152.47,
+    "t_end": 2154.39,
+    "text": "as as just prescribing a sequence of gates you need to do at"
+  },
+  {
+    "t_start": 2154.39,
+    "t_end": 2156.15,
+    "text": "gates you need to do at particular qubits right so what is what"
+  },
+  {
+    "t_start": 2156.15,
+    "t_end": 2162.069,
+    "text": "does this circuit say well first you do a mark gate on your first qubit and then"
+  },
+  {
+    "t_start": 2162.069,
+    "t_end": 2166.31,
+    "text": "you do a controlled not gate on your both of your qubits and that's it it's a"
+  },
+  {
+    "t_start": 2166.31,
+    "t_end": 2168.95,
+    "text": "super simple example it does do something interesting"
+  },
+  {
+    "t_start": 2168.95,
+    "t_end": 2172.63,
+    "text": "something interesting because it let's say that we start this"
+  },
+  {
+    "t_start": 2172.63,
+    "t_end": 2176.63,
+    "text": "an initial state where both of the qubits are zero"
+  },
+  {
+    "t_start": 2176.63,
+    "t_end": 2180.069,
+    "text": "then you can try to see what what this circuit does on that input state and"
+  },
+  {
+    "t_start": 2180.069,
+    "t_end": 2183.27,
+    "text": "whenever you want to see what a circuit does on the input state kind of the easy"
+  },
+  {
+    "t_start": 2183.27,
+    "t_end": 2184.39,
+    "text": "does on the input state kind of the easy way to do it or at least a"
+  },
+  {
+    "t_start": 2184.39,
+    "t_end": 2188.069,
+    "text": "straightforward way to do it is just to track the state as it goes through the"
+  },
+  {
+    "t_start": 2188.069,
+    "t_end": 2189.43,
+    "text": "track the state as it goes through the circuit"
+  },
+  {
+    "t_start": 2189.43,
+    "t_end": 2195.51,
+    "text": "right so what do we have for instance after the harmar gate has has hit the"
+  },
+  {
+    "t_start": 2195.51,
+    "t_end": 2197.03,
+    "text": "after the harmar gate has has hit the first qubit"
+  },
+  {
+    "t_start": 2197.03,
+    "t_end": 2200.47,
+    "text": "what we're really doing by the way is a two qubit unitary hadamard tensor"
+  },
+  {
+    "t_start": 2200.47,
+    "t_end": 2202.55,
+    "text": "two qubit unitary hadamard tensor identity because this this ongoing wire"
+  },
+  {
+    "t_start": 2202.55,
+    "t_end": 2206.95,
+    "text": "just means that identity matrix in other words nothing is happening to the second"
+  },
+  {
+    "t_start": 2206.95,
+    "t_end": 2210.069,
+    "text": "words nothing is happening to the second qubit right so at this point in time"
+  },
+  {
+    "t_start": 2210.069,
+    "t_end": 2212.47,
+    "text": "qubit right so at this point in time the state is going to be"
+  },
+  {
+    "t_start": 2212.47,
+    "t_end": 2215.109,
+    "text": "the state is going to be 1 over root two"
+  },
+  {
+    "t_start": 2215.109,
+    "t_end": 2221.27,
+    "text": "zero plus one for the first qubit centered with zero for the second qubit"
+  },
+  {
+    "t_start": 2221.27,
+    "t_end": 2223.19,
+    "text": "centered with zero for the second qubit i will typically omit the tensor symbol"
+  },
+  {
+    "t_start": 2223.19,
+    "t_end": 2225.27,
+    "text": "i will typically omit the tensor symbol here just as a shorthand"
+  },
+  {
+    "t_start": 2225.27,
+    "t_end": 2229.91,
+    "text": "right and then the c naught gate happens and what does the c not do as i told you"
+  },
+  {
+    "t_start": 2229.91,
+    "t_end": 2235.829,
+    "text": "whenever the first qubit is one it's going to toggle the second qubit that"
+  },
+  {
+    "t_start": 2235.829,
+    "t_end": 2242.87,
+    "text": "it'll be actually half will be so let me rewrite this state here as one over root"
+  },
+  {
+    "t_start": 2242.87,
+    "t_end": 2244.47,
+    "text": "rewrite this state here as one over root two"
+  },
+  {
+    "t_start": 2244.47,
+    "t_end": 2249.91,
+    "text": "zero zero plus one over root two one one"
+  },
+  {
+    "t_start": 2249.91,
+    "t_end": 2254.71,
+    "text": "where the c naught is gonna do anything will be this part of the superposition"
+  },
+  {
+    "t_start": 2254.71,
+    "t_end": 2256.31,
+    "text": "will be this part of the superposition because here the first bit is one first"
+  },
+  {
+    "t_start": 2256.31,
+    "t_end": 2262.39,
+    "text": "because here the first bit is one first cubit is one so what we'll have after"
+  },
+  {
+    "t_start": 2262.39,
+    "t_end": 2264.47,
+    "text": "the c naught will be one over root two zero zero sorry this is a typo this"
+  },
+  {
+    "t_start": 2264.47,
+    "t_end": 2265.829,
+    "text": "zero zero sorry this is a typo this should be"
+  },
+  {
+    "t_start": 2265.829,
+    "t_end": 2271.349,
+    "text": "should be zero after the c naught we'll have this"
+  },
+  {
+    "t_start": 2272.95,
+    "t_end": 2276.63,
+    "text": "because this this is a simple two-qubit state which cannot be factored as the"
+  },
+  {
+    "t_start": 2276.63,
+    "t_end": 2278.47,
+    "text": "state which cannot be factored as the product of two separate qubits this is a"
+  },
+  {
+    "t_start": 2278.47,
+    "t_end": 2289.589,
+    "text": "product of two separate qubits this is a so-called entangled state"
+  },
+  {
+    "t_start": 2291.43,
+    "t_end": 2294.47,
+    "text": "right entangle means it's not a product state of individual qubits"
+  },
+  {
+    "t_start": 2294.47,
+    "t_end": 2296.47,
+    "text": "state of individual qubits and in general"
+  },
+  {
+    "t_start": 2296.47,
+    "t_end": 2300.47,
+    "text": "this this is what quantum algorithms look like they sort of you get pictures"
+  },
+  {
+    "t_start": 2300.47,
+    "t_end": 2307.03,
+    "text": "what about what at which point in time right so there's going to be time slices"
+  },
+  {
+    "t_start": 2307.03,
+    "t_end": 2309.03,
+    "text": "right so there's going to be time slices whenever nothing is happening to a qubit"
+  },
+  {
+    "t_start": 2309.03,
+    "t_end": 2310.47,
+    "text": "whenever nothing is happening to a qubit at that time slice you should think that"
+  },
+  {
+    "t_start": 2310.47,
+    "t_end": 2313.27,
+    "text": "at that time slice you should think that really an identity is happening on them"
+  },
+  {
+    "t_start": 2313.27,
+    "t_end": 2314.39,
+    "text": "really an identity is happening on them so"
+  },
+  {
+    "t_start": 2314.39,
+    "t_end": 2318.71,
+    "text": "sort of the gates at one time time slice are combined by tensor product and the"
+  },
+  {
+    "t_start": 2318.71,
+    "t_end": 2320.79,
+    "text": "are combined by tensor product and the gates on different time slices are"
+  },
+  {
+    "t_start": 2320.79,
+    "t_end": 2324.63,
+    "text": "gates on different time slices are combined by regular matrix products"
+  },
+  {
+    "t_start": 2324.63,
+    "t_end": 2327.91,
+    "text": "combined by regular matrix products so this is the the model of quantum"
+  },
+  {
+    "t_start": 2327.91,
+    "t_end": 2330.87,
+    "text": "and before the break i want to do a little little algorithm called the"
+  },
+  {
+    "t_start": 2330.87,
+    "t_end": 2332.63,
+    "text": "little little algorithm called the deutsche jose algorithm"
+  },
+  {
+    "t_start": 2332.63,
+    "t_end": 2336.79,
+    "text": "deutsche jose algorithm um"
+  },
+  {
+    "t_start": 2338.23,
+    "t_end": 2339.27,
+    "text": "very good yep thanks"
+  },
+  {
+    "t_start": 2339.27,
+    "t_end": 2343.109,
+    "text": "um i want to do one example uh that sort of illustrates the interplay of"
+  },
+  {
+    "t_start": 2343.109,
+    "t_end": 2346.31,
+    "text": "of illustrates the interplay of superposition and interference"
+  },
+  {
+    "t_start": 2346.31,
+    "t_end": 2356.15,
+    "text": "superposition and interference should probably switch to a better pen"
+  },
+  {
+    "t_start": 2376.71,
+    "t_end": 2378.47,
+    "text": "uh which i guess just like the supremacy experiments that"
+  },
+  {
+    "t_start": 2378.47,
+    "t_end": 2381.589,
+    "text": "rami barans talked about yesterday they're sort of useless but beautiful"
+  },
+  {
+    "t_start": 2381.589,
+    "t_end": 2383.43,
+    "text": "they're sort of useless but beautiful illustrations of the power of quantum"
+  },
+  {
+    "t_start": 2383.43,
+    "t_end": 2398.79,
+    "text": "illustrations of the power of quantum computing"
+  },
+  {
+    "t_start": 2400.47,
+    "t_end": 2404.309,
+    "text": "and it's also kind of to prepare you for short algorithm which is going to have a"
+  },
+  {
+    "t_start": 2404.309,
+    "t_end": 2405.589,
+    "text": "short algorithm which is going to have a somewhat similar structure to the"
+  },
+  {
+    "t_start": 2405.589,
+    "t_end": 2408.95,
+    "text": "deutsche dos algorithm in fact there was a whole sequence of algorithms in the"
+  },
+  {
+    "t_start": 2408.95,
+    "t_end": 2410.87,
+    "text": "a whole sequence of algorithms in the early 90s that sort of"
+  },
+  {
+    "t_start": 2410.87,
+    "t_end": 2415.51,
+    "text": "where one was really built on top of each other and this one is from 1992."
+  },
+  {
+    "t_start": 2415.51,
+    "t_end": 2418.47,
+    "text": "each other and this one is from 1992. sure's algorithm is from 1994"
+  },
+  {
+    "t_start": 2418.47,
+    "t_end": 2421.829,
+    "text": "and in the middle in 1993 there was another algorithm called simon's"
+  },
+  {
+    "t_start": 2421.829,
+    "t_end": 2425.75,
+    "text": "another algorithm called simon's algorithm and if you see these things in"
+  },
+  {
+    "t_start": 2425.75,
+    "t_end": 2429.109,
+    "text": "really in progression they are they they're like a staircase leading up"
+  },
+  {
+    "t_start": 2429.109,
+    "t_end": 2432.55,
+    "text": "now let me just focus on the deutsche algorithm here"
+  },
+  {
+    "t_start": 2432.55,
+    "t_end": 2435.349,
+    "text": "algorithm here um"
+  },
+  {
+    "t_start": 2437.589,
+    "t_end": 2439.51,
+    "text": "but the idea here is that in addition to our gates we also have some device that"
+  },
+  {
+    "t_start": 2439.51,
+    "t_end": 2441.75,
+    "text": "our gates we also have some device that gives us input to a long sequence of"
+  },
+  {
+    "t_start": 2441.75,
+    "t_end": 2443.75,
+    "text": "gives us input to a long sequence of bits"
+  },
+  {
+    "t_start": 2443.75,
+    "t_end": 2444.63,
+    "text": "bits so"
+  },
+  {
+    "t_start": 2444.63,
+    "t_end": 2451.349,
+    "text": "there's a string x of capital n bits"
+  },
+  {
+    "t_start": 2463.67,
+    "t_end": 2465.99,
+    "text": "and this is going to be a slightly weird model i mean just just sort of bear with"
+  },
+  {
+    "t_start": 2465.99,
+    "t_end": 2468.39,
+    "text": "model i mean just just sort of bear with me here this will smoothly lead to more"
+  },
+  {
+    "t_start": 2468.39,
+    "t_end": 2477.99,
+    "text": "me here this will smoothly lead to more interesting algorithms"
+  },
+  {
+    "t_start": 2479.75,
+    "t_end": 2482.79,
+    "text": "what do i mean by random access memory effectively what i mean is that we have"
+  },
+  {
+    "t_start": 2482.79,
+    "t_end": 2489.75,
+    "text": "and we can put in indie says into this box like integers between zero and"
+  },
+  {
+    "t_start": 2489.75,
+    "t_end": 2493.589,
+    "text": "box like integers between zero and capital n minus one and out comes the"
+  },
+  {
+    "t_start": 2493.589,
+    "t_end": 2499.67,
+    "text": "corresponding bit of x right so in goes the number i"
+  },
+  {
+    "t_start": 2499.67,
+    "t_end": 2503.91,
+    "text": "set of integers between 0 and capital n minus 1. i'd like to number things from"
+  },
+  {
+    "t_start": 2503.91,
+    "t_end": 2507.109,
+    "text": "minus 1. i'd like to number things from 0 because i'm a computer scientist"
+  },
+  {
+    "t_start": 2507.109,
+    "t_end": 2508.95,
+    "text": "0 because i'm a computer scientist and out comes the bit x i"
+  },
+  {
+    "t_start": 2508.95,
+    "t_end": 2512.55,
+    "text": "and out comes the bit x i the i bit of this string"
+  },
+  {
+    "t_start": 2513.67,
+    "t_end": 2516.87,
+    "text": "in order for this to make sense we actually have to write it as a unitary"
+  },
+  {
+    "t_start": 2516.87,
+    "t_end": 2518.71,
+    "text": "actually have to write it as a unitary transformation because our quantum"
+  },
+  {
+    "t_start": 2518.71,
+    "t_end": 2522.309,
+    "text": "circuit should be able to apply this thing as a quantum operation and quantum"
+  },
+  {
+    "t_start": 2522.309,
+    "t_end": 2523.99,
+    "text": "thing as a quantum operation and quantum operations are unitaries"
+  },
+  {
+    "t_start": 2523.99,
+    "t_end": 2526.79,
+    "text": "operations are unitaries so as a quantum operation it looks like"
+  },
+  {
+    "t_start": 2526.79,
+    "t_end": 2531.19,
+    "text": "let me call that o sub x o stands for oracle"
+  },
+  {
+    "t_start": 2531.19,
+    "t_end": 2537.51,
+    "text": "if you apply this this unitary to something like this i'll explain the"
+  },
+  {
+    "t_start": 2537.51,
+    "t_end": 2544.79,
+    "text": "to something like this i'll explain the notation in a minute"
+  },
+  {
+    "t_start": 2547.19,
+    "t_end": 2548.15,
+    "text": "so what is what this is acting on is is a"
+  },
+  {
+    "t_start": 2548.15,
+    "t_end": 2555.27,
+    "text": "state of little n plus one qubits i will typically assume that capital n"
+  },
+  {
+    "t_start": 2557.03,
+    "t_end": 2560.95,
+    "text": "which has the advantage that these i's these indices they they correspond to"
+  },
+  {
+    "t_start": 2560.95,
+    "t_end": 2566.87,
+    "text": "these indices they they correspond to little n bits"
+  },
+  {
+    "t_start": 2568.55,
+    "t_end": 2570.069,
+    "text": "super important by the way to sort of distinguish in your mind the capital and"
+  },
+  {
+    "t_start": 2570.069,
+    "t_end": 2571.589,
+    "text": "distinguish in your mind the capital and from the little n"
+  },
+  {
+    "t_start": 2571.589,
+    "t_end": 2576.309,
+    "text": "from the little n if you don't then all hell breaks loose"
+  },
+  {
+    "t_start": 2579.51,
+    "t_end": 2591.19,
+    "text": "and this b here is just one bit actually let me first put the b equal to"
+  },
+  {
+    "t_start": 2593.19,
+    "t_end": 2595.109,
+    "text": "then really what this ox does is you can sort of think of it as a unitary way of"
+  },
+  {
+    "t_start": 2595.109,
+    "t_end": 2597.829,
+    "text": "sort of think of it as a unitary way of rendering this box here you put in an i"
+  },
+  {
+    "t_start": 2597.829,
+    "t_end": 2600.23,
+    "text": "rendering this box here you put in an i and out comes the x i and i need to kind"
+  },
+  {
+    "t_start": 2600.23,
+    "t_end": 2601.91,
+    "text": "and out comes the x i and i need to kind of keep the eye around in order to keep"
+  },
+  {
+    "t_start": 2601.91,
+    "t_end": 2603.75,
+    "text": "of keep the eye around in order to keep things reversible so you can also think"
+  },
+  {
+    "t_start": 2603.75,
+    "t_end": 2605.349,
+    "text": "things reversible so you can also think of it like this"
+  },
+  {
+    "t_start": 2605.349,
+    "t_end": 2608.87,
+    "text": "there's like two things going in one is the index i that's the number between"
+  },
+  {
+    "t_start": 2608.87,
+    "t_end": 2613.109,
+    "text": "zero and capital n minus one the other is a zero and what outcome what comes"
+  },
+  {
+    "t_start": 2613.109,
+    "t_end": 2614.15,
+    "text": "is a zero and what outcome what comes out"
+  },
+  {
+    "t_start": 2614.15,
+    "t_end": 2618.63,
+    "text": "is again the index i and the bit x i that we asked for and sometimes people"
+  },
+  {
+    "t_start": 2618.63,
+    "t_end": 2621.589,
+    "text": "that we asked for and sometimes people call this a query"
+  },
+  {
+    "t_start": 2621.589,
+    "t_end": 2628.309,
+    "text": "call this a query so one application of ox would be called"
+  },
+  {
+    "t_start": 2632.309,
+    "t_end": 2633.27,
+    "text": "right it's like asking for one bit value and"
+  },
+  {
+    "t_start": 2633.27,
+    "t_end": 2636.47,
+    "text": "previously i had a b here because i really need to fully specify this"
+  },
+  {
+    "t_start": 2636.47,
+    "t_end": 2639.91,
+    "text": "unitary which means i also need to save what it does on base states of the form"
+  },
+  {
+    "t_start": 2639.91,
+    "t_end": 2641.67,
+    "text": "what it does on base states of the form i comma one"
+  },
+  {
+    "t_start": 2641.67,
+    "t_end": 2646.79,
+    "text": "and what it does on basis states of the form i comma one"
+  },
+  {
+    "t_start": 2649.03,
+    "t_end": 2651.91,
+    "text": "is that i get back i and then the negation"
+  },
+  {
+    "t_start": 2653.829,
+    "t_end": 2655.829,
+    "text": "of x i this this is just a trick to make reversible and if you like to write this"
+  },
+  {
+    "t_start": 2655.829,
+    "t_end": 2661.27,
+    "text": "reversible and if you like to write this as one line you get what i wrote before"
+  },
+  {
+    "t_start": 2661.27,
+    "t_end": 2662.79,
+    "text": "you apply o x to a base state i comma b where b is a bit"
+  },
+  {
+    "t_start": 2662.79,
+    "t_end": 2664.95,
+    "text": "where b is a bit you get that i and then"
+  },
+  {
+    "t_start": 2664.95,
+    "t_end": 2666.23,
+    "text": "you get that i and then x i"
+  },
+  {
+    "t_start": 2666.23,
+    "t_end": 2671.829,
+    "text": "this is all technicalities i mean i think this is the picture you want to"
+  },
+  {
+    "t_start": 2671.829,
+    "t_end": 2675.51,
+    "text": "keep in mind here you just have a sort of these these capital and bits they're"
+  },
+  {
+    "t_start": 2675.51,
+    "t_end": 2677.349,
+    "text": "of these these capital and bits they're hitting hidden somewhere you can access"
+  },
+  {
+    "t_start": 2677.349,
+    "t_end": 2687.91,
+    "text": "hitting hidden somewhere you can access them by means of a random access query"
+  },
+  {
+    "t_start": 2690.069,
+    "t_end": 2695.75,
+    "text": "you want to distinguish two cases that are possible for this this long string x"
+  },
+  {
+    "t_start": 2702.829,
+    "t_end": 2707.589,
+    "text": "zero x is constant and it means that all the bits are the same either all zero or"
+  },
+  {
+    "t_start": 2707.589,
+    "t_end": 2717.19,
+    "text": "the bits are the same either all zero or they're all one"
+  },
+  {
+    "t_start": 2718.63,
+    "t_end": 2727.109,
+    "text": "and the second case is where x is balanced"
+  },
+  {
+    "t_start": 2739.589,
+    "t_end": 2756.47,
+    "text": "and over two of the bits are zero and n over two of the bits are one and we"
+  },
+  {
+    "t_start": 2758.23,
+    "t_end": 2761.589,
+    "text": "two cases here and you want to distinguish them perfectly with success"
+  },
+  {
+    "t_start": 2761.589,
+    "t_end": 2763.19,
+    "text": "distinguish them perfectly with success probability one you're not allowed to"
+  },
+  {
+    "t_start": 2763.19,
+    "t_end": 2764.63,
+    "text": "probability one you're not allowed to make any error"
+  },
+  {
+    "t_start": 2764.63,
+    "t_end": 2769.99,
+    "text": "right then if a classical algorithm is supposed to do that and it can kind of"
+  },
+  {
+    "t_start": 2769.99,
+    "t_end": 2774.15,
+    "text": "it will have to make a lot of queries right because imagine yourself you are a"
+  },
+  {
+    "t_start": 2774.15,
+    "t_end": 2775.43,
+    "text": "right because imagine yourself you are a classical algorithm trying to"
+  },
+  {
+    "t_start": 2775.43,
+    "t_end": 2781.03,
+    "text": "look at a bit of x let's say zero you look at another bit of x also happens to"
+  },
+  {
+    "t_start": 2781.03,
+    "t_end": 2783.27,
+    "text": "look at another bit of x also happens to be zero you keep going you make capital"
+  },
+  {
+    "t_start": 2783.27,
+    "t_end": 2785.03,
+    "text": "be zero you keep going you make capital n over two queries and you've only seen"
+  },
+  {
+    "t_start": 2785.03,
+    "t_end": 2786.15,
+    "text": "n over two queries and you've only seen zeros"
+  },
+  {
+    "t_start": 2786.15,
+    "t_end": 2790.069,
+    "text": "right and at that point you still don't have enough information to distinguish"
+  },
+  {
+    "t_start": 2790.069,
+    "t_end": 2791.91,
+    "text": "have enough information to distinguish constant versus balance because it could"
+  },
+  {
+    "t_start": 2791.91,
+    "t_end": 2793.43,
+    "text": "constant versus balance because it could be that the other half of the bits that"
+  },
+  {
+    "t_start": 2793.43,
+    "t_end": 2795.67,
+    "text": "be that the other half of the bits that you haven't queried are all zero and"
+  },
+  {
+    "t_start": 2795.67,
+    "t_end": 2797.349,
+    "text": "you haven't queried are all zero and you're in a constant case but they could"
+  },
+  {
+    "t_start": 2797.349,
+    "t_end": 2800.15,
+    "text": "you're in a constant case but they could also be all one and then you're in the"
+  },
+  {
+    "t_start": 2800.15,
+    "t_end": 2810.47,
+    "text": "so classical algorithms or at least classical deterministic algorithms"
+  },
+  {
+    "t_start": 2813.27,
+    "t_end": 2819.91,
+    "text": "they need a very large number more than n over two queries"
+  },
+  {
+    "t_start": 2821.75,
+    "t_end": 2825.829,
+    "text": "and the beauty of the deutsche algorithm is that it solves the same problem with"
+  },
+  {
+    "t_start": 2825.829,
+    "t_end": 2832.15,
+    "text": "and only little n so logarithm of capital and many other gates"
+  },
+  {
+    "t_start": 2833.91,
+    "t_end": 2835.99,
+    "text": "so let me describe the deutsche jaws algorithm for you"
+  },
+  {
+    "t_start": 2835.99,
+    "t_end": 2840.79,
+    "text": "algorithm for you quantum algorithm"
+  },
+  {
+    "t_start": 2842.549,
+    "t_end": 2844.23,
+    "text": "so it looks like like this and this may look a little bit arbitrary first but"
+  },
+  {
+    "t_start": 2844.23,
+    "t_end": 2848.15,
+    "text": "look a little bit arbitrary first but but you'll see how this goes"
+  },
+  {
+    "t_start": 2859.109,
+    "t_end": 2861.19,
+    "text": "and the first little ender all zero initially"
+  },
+  {
+    "t_start": 2861.19,
+    "t_end": 2866.309,
+    "text": "and the last one starts out to be born and then we apply harmar gates to all of"
+  },
+  {
+    "t_start": 2866.309,
+    "t_end": 2869.91,
+    "text": "and then we apply harmar gates to all of these things"
+  },
+  {
+    "t_start": 2871.589,
+    "t_end": 2873.27,
+    "text": "right so i'm describing a circuit here i'm describing something"
+  },
+  {
+    "t_start": 2873.27,
+    "t_end": 2876.23,
+    "text": "i'm describing something of the shape that we saw on the right"
+  },
+  {
+    "t_start": 2876.23,
+    "t_end": 2879.19,
+    "text": "side of the board except that i'm also now allowed to do"
+  },
+  {
+    "t_start": 2879.19,
+    "t_end": 2888.069,
+    "text": "unitary which corresponds to x operation so i apply haramars"
+  },
+  {
+    "t_start": 2898.47,
+    "t_end": 2905.75,
+    "text": "i apply this unitary ox and i do that only once"
+  },
+  {
+    "t_start": 2907.589,
+    "t_end": 2909.109,
+    "text": "then i apply a further batch of hadamards"
+  },
+  {
+    "t_start": 2909.109,
+    "t_end": 2918.87,
+    "text": "hadamards to the first little and qubits"
+  },
+  {
+    "t_start": 2921.75,
+    "t_end": 2925.27,
+    "text": "i do nothing anymore to the last qubit and i measure"
+  },
+  {
+    "t_start": 2927.19,
+    "t_end": 2933.43,
+    "text": "so this symbol here this indicates measurement in the computational basis"
+  },
+  {
+    "t_start": 2933.43,
+    "t_end": 2938.47,
+    "text": "measurement in the computational basis and now i claim"
+  },
+  {
+    "t_start": 2940.069,
+    "t_end": 2944.549,
+    "text": "that the measurement outcome on these little n qubits is going to be all zero"
+  },
+  {
+    "t_start": 2944.549,
+    "t_end": 2958.15,
+    "text": "i'm in this this constant case so the measurement outcome"
+  },
+  {
+    "t_start": 2960.309,
+    "t_end": 2961.589,
+    "text": "is the all zero string right meaning that you you measure"
+  },
+  {
+    "t_start": 2961.589,
+    "t_end": 2967.19,
+    "text": "outcome zero here you measure outcomes zero here all the way up to the little"
+  },
+  {
+    "t_start": 2967.19,
+    "t_end": 2970.309,
+    "text": "and qubit they're all zero if and only if"
+  },
+  {
+    "t_start": 2970.309,
+    "t_end": 2984.39,
+    "text": "if and only if we're in the balanced case"
+  },
+  {
+    "t_start": 2986.069,
+    "t_end": 2987.75,
+    "text": "uh it's almost time for a break but let me quickly lead you through this"
+  },
+  {
+    "t_start": 2987.75,
+    "t_end": 2996.87,
+    "text": "me quickly lead you through this algorithm to justify this claim"
+  },
+  {
+    "t_start": 2998.79,
+    "t_end": 3001.109,
+    "text": "all right so let's just check the state as it sort of gets modified as we go"
+  },
+  {
+    "t_start": 3001.109,
+    "t_end": 3003.349,
+    "text": "as it sort of gets modified as we go through the circuit"
+  },
+  {
+    "t_start": 3003.349,
+    "t_end": 3006.71,
+    "text": "uh we start out with this basis state here the first little n qubits are zero"
+  },
+  {
+    "t_start": 3006.71,
+    "t_end": 3009.03,
+    "text": "here the first little n qubits are zero the last one is one we apply haramars to"
+  },
+  {
+    "t_start": 3009.03,
+    "t_end": 3010.829,
+    "text": "the last one is one we apply haramars to all of them what do we"
+  },
+  {
+    "t_start": 3010.829,
+    "t_end": 3017.109,
+    "text": "get let me try to kind of write it here what do we have at this point in time"
+  },
+  {
+    "t_start": 3017.109,
+    "t_end": 3017.829,
+    "text": "what do we have at this point in time well"
+  },
+  {
+    "t_start": 3017.829,
+    "t_end": 3023.67,
+    "text": "uniform superposition of zero and one if you do that for n qubits what you're"
+  },
+  {
+    "t_start": 3023.67,
+    "t_end": 3024.95,
+    "text": "you do that for n qubits what you're really going to get is a uniform"
+  },
+  {
+    "t_start": 3024.95,
+    "t_end": 3027.27,
+    "text": "really going to get is a uniform superposition over all possible n bit"
+  },
+  {
+    "t_start": 3027.27,
+    "t_end": 3029.27,
+    "text": "superposition over all possible n bit strings little ended strings"
+  },
+  {
+    "t_start": 3029.27,
+    "t_end": 3032.71,
+    "text": "and this guy here is going to be a superposition over zero and one but with"
+  },
+  {
+    "t_start": 3032.71,
+    "t_end": 3035.19,
+    "text": "superposition over zero and one but with a minus in front of the one"
+  },
+  {
+    "t_start": 3035.19,
+    "t_end": 3036.71,
+    "text": "a minus in front of the one so what do we have here we have the"
+  },
+  {
+    "t_start": 3036.71,
+    "t_end": 3037.99,
+    "text": "so what do we have here we have the state"
+  },
+  {
+    "t_start": 3037.99,
+    "t_end": 3043.109,
+    "text": "one over root two to the n"
+  },
+  {
+    "t_start": 3043.109,
+    "t_end": 3048.549,
+    "text": "some overall indie says i corresponding to strings of little n"
+  },
+  {
+    "t_start": 3048.549,
+    "t_end": 3051.349,
+    "text": "corresponding to strings of little n bits"
+  },
+  {
+    "t_start": 3053.589,
+    "t_end": 3057.91,
+    "text": "which is in the so-called minus state and this this ket minus this is really"
+  },
+  {
+    "t_start": 3057.91,
+    "t_end": 3061.829,
+    "text": "and this this ket minus this is really just an abbreviation"
+  },
+  {
+    "t_start": 3068.95,
+    "t_end": 3071.589,
+    "text": "right so that's what we have after our first block of automar gates"
+  },
+  {
+    "t_start": 3071.589,
+    "t_end": 3073.75,
+    "text": "after our first block of automar gates and a massive superposition has been set"
+  },
+  {
+    "t_start": 3073.75,
+    "t_end": 3078.069,
+    "text": "and a massive superposition has been set up like we have a uniform superposition"
+  },
+  {
+    "t_start": 3078.069,
+    "t_end": 3079.589,
+    "text": "over the indie says of all capital n bits of x"
+  },
+  {
+    "t_start": 3079.589,
+    "t_end": 3083.109,
+    "text": "right i as i said before quantum algorithm is an interplay of"
+  },
+  {
+    "t_start": 3083.109,
+    "t_end": 3085.91,
+    "text": "algorithm is an interplay of superposition and interference"
+  },
+  {
+    "t_start": 3085.91,
+    "t_end": 3091.51,
+    "text": "here's the superposition now where's the interference well the"
+  },
+  {
+    "t_start": 3091.51,
+    "t_end": 3097.99,
+    "text": "because we are in a way looking at all capital m bits of x at the same time"
+  },
+  {
+    "t_start": 3098.79,
+    "t_end": 3102.15,
+    "text": "and i described the ox operation like this"
+  },
+  {
+    "t_start": 3102.15,
+    "t_end": 3108.71,
+    "text": "right with with either a cat 0 or a cat one in the last qubit but if you plug in"
+  },
+  {
+    "t_start": 3108.71,
+    "t_end": 3110.79,
+    "text": "this cat minus state in the last qubit then something very nice happens"
+  },
+  {
+    "t_start": 3110.79,
+    "t_end": 3111.75,
+    "text": "then something very nice happens namely"
+  },
+  {
+    "t_start": 3111.75,
+    "t_end": 3115.43,
+    "text": "the bits x i they actually turn up as phases"
+  },
+  {
+    "t_start": 3115.43,
+    "t_end": 3119.75,
+    "text": "phases so i'll leave that as an exercise for"
+  },
+  {
+    "t_start": 3121.829,
+    "t_end": 3124.069,
+    "text": "but what we get at this point after the ox has happened and we only apply one"
+  },
+  {
+    "t_start": 3124.069,
+    "t_end": 3125.829,
+    "text": "ox has happened and we only apply one query but we do it in a superposition"
+  },
+  {
+    "t_start": 3125.829,
+    "t_end": 3132.47,
+    "text": "query but we do it in a superposition over all i simultaneously"
+  },
+  {
+    "t_start": 3138.87,
+    "t_end": 3144.39,
+    "text": "and the magic of this cat minus state here is that we now get the bits x i"
+  },
+  {
+    "t_start": 3144.39,
+    "t_end": 3148.069,
+    "text": "as pluses or minuses in front of the basis state"
+  },
+  {
+    "t_start": 3148.069,
+    "t_end": 3155.589,
+    "text": "interference yet but at least they're pluses and minuses right an interference"
+  },
+  {
+    "t_start": 3155.589,
+    "t_end": 3157.43,
+    "text": "pluses and minuses right an interference is sort of the cancellation of pluses"
+  },
+  {
+    "t_start": 3157.43,
+    "t_end": 3161.589,
+    "text": "and minuses so we are ready to create our interference and that's what this"
+  },
+  {
+    "t_start": 3161.589,
+    "t_end": 3168.309,
+    "text": "at this point we don't really need to look at the last qubit anymore it's also"
+  },
+  {
+    "t_start": 3168.309,
+    "t_end": 3169.99,
+    "text": "look at the last qubit anymore it's also an intenser product with the rest of the"
+  },
+  {
+    "t_start": 3169.99,
+    "t_end": 3172.71,
+    "text": "an intenser product with the rest of the state so let me just ignore it"
+  },
+  {
+    "t_start": 3172.71,
+    "t_end": 3175.75,
+    "text": "state so let me just ignore it there it's no longer there"
+  },
+  {
+    "t_start": 3175.75,
+    "t_end": 3176.71,
+    "text": "there it's no longer there we do"
+  },
+  {
+    "t_start": 3176.71,
+    "t_end": 3178.829,
+    "text": "we do haramar"
+  },
+  {
+    "t_start": 3178.829,
+    "t_end": 3184.79,
+    "text": "haramar gates these n qubits and we see what we"
+  },
+  {
+    "t_start": 3186.15,
+    "t_end": 3189.19,
+    "text": "and if you work this out what do these hadamard gates do to this state here you"
+  },
+  {
+    "t_start": 3189.19,
+    "t_end": 3192.549,
+    "text": "get the following rather a complicated looking"
+  },
+  {
+    "t_start": 3192.549,
+    "t_end": 3197.109,
+    "text": "superposition 1 over root 2 to the n"
+  },
+  {
+    "t_start": 3197.109,
+    "t_end": 3200.069,
+    "text": "sum over i ranging over all strings of little n"
+  },
+  {
+    "t_start": 3200.069,
+    "t_end": 3204.71,
+    "text": "phases that depend on the x i bits and then"
+  },
+  {
+    "t_start": 3204.71,
+    "t_end": 3214.23,
+    "text": "and then 1 over root 2 to the n sum over j"
+  },
+  {
+    "t_start": 3215.99,
+    "t_end": 3223.109,
+    "text": "that depends on the number of positions where i and j have a one if you work out"
+  },
+  {
+    "t_start": 3223.109,
+    "t_end": 3224.71,
+    "text": "the hadamard gate applied to n qubits simultaneously you get pluses and"
+  },
+  {
+    "t_start": 3224.71,
+    "t_end": 3228.15,
+    "text": "simultaneously you get pluses and minuses like this"
+  },
+  {
+    "t_start": 3229.75,
+    "t_end": 3234.95,
+    "text": "right like the double sum lots of pluses and minus is kind of hard to see what's"
+  },
+  {
+    "t_start": 3234.95,
+    "t_end": 3242.069,
+    "text": "but the trick to analyze the deutsche dos algorithm is just to look at the"
+  },
+  {
+    "t_start": 3242.069,
+    "t_end": 3251.43,
+    "text": "amplitude of the all zero state so what is the amplitude"
+  },
+  {
+    "t_start": 3253.99,
+    "t_end": 3257.43,
+    "text": "so that's the case where j consists of of uh little n zeros what is"
+  },
+  {
+    "t_start": 3257.43,
+    "t_end": 3261.91,
+    "text": "well in that case these faces here they're just uh plus one"
+  },
+  {
+    "t_start": 3261.91,
+    "t_end": 3270.79,
+    "text": "so this amplitude here is actually kind of simple it's 1 over 2 to the n"
+  },
+  {
+    "t_start": 3275.75,
+    "t_end": 3277.27,
+    "text": "and now you can see the interference happening because let's look back at our"
+  },
+  {
+    "t_start": 3277.27,
+    "t_end": 3280.15,
+    "text": "happening because let's look back at our two cases constant versus balanced"
+  },
+  {
+    "t_start": 3280.15,
+    "t_end": 3282.15,
+    "text": "two cases constant versus balanced so this here"
+  },
+  {
+    "t_start": 3282.15,
+    "t_end": 3289.19,
+    "text": "can take two values in a constant case"
+  },
+  {
+    "t_start": 3291.19,
+    "t_end": 3292.87,
+    "text": "namely plus or minus one right because in the constant case"
+  },
+  {
+    "t_start": 3292.87,
+    "t_end": 3298.309,
+    "text": "either all these things are plus one and then the whole thing adds up to plus one"
+  },
+  {
+    "t_start": 3298.309,
+    "t_end": 3299.589,
+    "text": "or all these things are minus one and then the whole thing adds up to minus"
+  },
+  {
+    "t_start": 3299.589,
+    "t_end": 3300.47,
+    "text": "then the whole thing adds up to minus one"
+  },
+  {
+    "t_start": 3300.47,
+    "t_end": 3304.15,
+    "text": "which means that in a constant case all the amplitude"
+  },
+  {
+    "t_start": 3304.15,
+    "t_end": 3307.349,
+    "text": "the amplitude is concentrated on one particular basis"
+  },
+  {
+    "t_start": 3307.349,
+    "t_end": 3310.069,
+    "text": "and then if you measure it you must get that basis state as your measurement"
+  },
+  {
+    "t_start": 3310.069,
+    "t_end": 3311.19,
+    "text": "that basis state as your measurement outcome"
+  },
+  {
+    "t_start": 3311.19,
+    "t_end": 3317.829,
+    "text": "so if capital n over two of the bits are one and the others are zero then these"
+  },
+  {
+    "t_start": 3317.829,
+    "t_end": 3320.15,
+    "text": "one and the others are zero then these these phases here half of them will be"
+  },
+  {
+    "t_start": 3320.15,
+    "t_end": 3331.03,
+    "text": "these phases here half of them will be plus one half of them will be minus one"
+  },
+  {
+    "t_start": 3333.109,
+    "t_end": 3336.95,
+    "text": "right and that justifies the claim either all or none of the amplitude"
+  },
+  {
+    "t_start": 3336.95,
+    "t_end": 3340.309,
+    "text": "on this basis state here which means that your probability of getting that"
+  },
+  {
+    "t_start": 3340.309,
+    "t_end": 3344.15,
+    "text": "that your probability of getting that basis state as your measurement outcome"
+  },
+  {
+    "t_start": 3344.15,
+    "t_end": 3345.67,
+    "text": "is either one or zero and that that exactly allows you to distinguish the"
+  },
+  {
+    "t_start": 3345.67,
+    "t_end": 3348.15,
+    "text": "exactly allows you to distinguish the constant versus balanced cases and like"
+  },
+  {
+    "t_start": 3348.15,
+    "t_end": 3351.829,
+    "text": "constant versus balanced cases and like i said before this is not an interesting"
+  },
+  {
+    "t_start": 3351.829,
+    "t_end": 3353.67,
+    "text": "computational problem but it is a beautiful illustration of the interplay"
+  },
+  {
+    "t_start": 3353.67,
+    "t_end": 3356.789,
+    "text": "beautiful illustration of the interplay of superposition and interference"
+  },
+  {
+    "t_start": 3356.789,
+    "t_end": 3360.87,
+    "text": "so i think this is a good time for last questions before we take a small break"
+  },
+  {
+    "t_start": 3360.87,
+    "t_end": 3363.349,
+    "text": "questions before we take a small break anybody"
+  },
+  {
+    "t_start": 3363.349,
+    "t_end": 3368.63,
+    "text": "anybody anybody else zoom"
+  },
+  {
+    "t_start": 3375.829,
+    "t_end": 3379.349,
+    "text": "yeah actually i do not really work with um"
+  },
+  {
+    "t_start": 3379.349,
+    "t_end": 3385.109,
+    "text": "quantum circuits uh from adiabatic side i actually wanted to ask you about what"
+  },
+  {
+    "t_start": 3385.109,
+    "t_end": 3387.349,
+    "text": "i actually wanted to ask you about what exactly is happening"
+  },
+  {
+    "t_start": 3387.349,
+    "t_end": 3393.349,
+    "text": "after the sec after the ox get like how do you really get to this"
+  },
+  {
+    "t_start": 3393.349,
+    "t_end": 3394.15,
+    "text": "do you really get to this yeah"
+  },
+  {
+    "t_start": 3394.15,
+    "t_end": 3399.829,
+    "text": "yeah you mean how you get to this state here"
+  },
+  {
+    "t_start": 3402.23,
+    "t_end": 3406.15,
+    "text": "yeah what can i say i mean this is i mean my answer will be not very"
+  },
+  {
+    "t_start": 3406.15,
+    "t_end": 3407.91,
+    "text": "mean my answer will be not very satisfactory but it's effectively just"
+  },
+  {
+    "t_start": 3407.91,
+    "t_end": 3409.829,
+    "text": "satisfactory but it's effectively just writing out what happens"
+  },
+  {
+    "t_start": 3409.829,
+    "t_end": 3410.95,
+    "text": "writing out what happens i mean"
+  },
+  {
+    "t_start": 3410.95,
+    "t_end": 3416.309,
+    "text": "what what is relatively easy to analyze is to see what happens"
+  },
+  {
+    "t_start": 3416.309,
+    "t_end": 3420.789,
+    "text": "start here with a basis state cat i instead of a massive superposition"
+  },
+  {
+    "t_start": 3420.789,
+    "t_end": 3423.43,
+    "text": "instead of a massive superposition so if you apply ox"
+  },
+  {
+    "t_start": 3423.43,
+    "t_end": 3425.43,
+    "text": "so if you apply ox to a base state i"
+  },
+  {
+    "t_start": 3425.43,
+    "t_end": 3429.349,
+    "text": "and the last qubit set to cat minus let's just see what happens"
+  },
+  {
+    "t_start": 3429.349,
+    "t_end": 3430.71,
+    "text": "let's just see what happens so this is"
+  },
+  {
+    "t_start": 3430.71,
+    "t_end": 3436.71,
+    "text": "the same as ox applied to i comma 0"
+  },
+  {
+    "t_start": 3436.71,
+    "t_end": 3441.75,
+    "text": "applied to i comma 1 right i've just sort of written out this state here"
+  },
+  {
+    "t_start": 3441.75,
+    "t_end": 3445.109,
+    "text": "sort of written out this state here we know by definition of ox what happens"
+  },
+  {
+    "t_start": 3445.109,
+    "t_end": 3448.15,
+    "text": "here this is the same as"
+  },
+  {
+    "t_start": 3448.15,
+    "t_end": 3451.829,
+    "text": "for my x i minus"
+  },
+  {
+    "t_start": 3451.829,
+    "t_end": 3457.19,
+    "text": "i comma the negation of x i and now you can distinguish two cases"
+  },
+  {
+    "t_start": 3457.19,
+    "t_end": 3467.109,
+    "text": "and now you can distinguish two cases the case where x i is zero"
+  },
+  {
+    "t_start": 3470.47,
+    "t_end": 3472.23,
+    "text": "then you get i comma 0 minus i comma 1"
+  },
+  {
+    "t_start": 3472.23,
+    "t_end": 3477.51,
+    "text": "which is in fact what you started with so it is as if a plus one phase has been"
+  },
+  {
+    "t_start": 3477.51,
+    "t_end": 3480.47,
+    "text": "added in other words nothing has been done if on the other hand"
+  },
+  {
+    "t_start": 3480.47,
+    "t_end": 3486.829,
+    "text": "done if on the other hand x i is one"
+  },
+  {
+    "t_start": 3489.27,
+    "t_end": 3490.23,
+    "text": "then a way these two things have been swapped"
+  },
+  {
+    "t_start": 3490.23,
+    "t_end": 3494.23,
+    "text": "swapped so you now get i"
+  },
+  {
+    "t_start": 3494.24,
+    "t_end": 3498.789,
+    "text": "minus i comma 0 which is the same as minus"
+  },
+  {
+    "t_start": 3498.789,
+    "t_end": 3499.829,
+    "text": "minus i"
+  },
+  {
+    "t_start": 3499.829,
+    "t_end": 3503.99,
+    "text": "interpreted with the cat minus state and here"
+  },
+  {
+    "t_start": 3503.99,
+    "t_end": 3506.549,
+    "text": "and here like a minus sign has been added to the"
+  },
+  {
+    "t_start": 3506.549,
+    "t_end": 3510.39,
+    "text": "and this is just if you start with one particular basis state"
+  },
+  {
+    "t_start": 3510.39,
+    "t_end": 3516.47,
+    "text": "but now the linearity kicks in if you do this in a superposition over different"
+  },
+  {
+    "t_start": 3516.47,
+    "t_end": 3520.47,
+    "text": "this in a superposition over different eyes which is what we have here exactly"
+  },
+  {
+    "t_start": 3520.47,
+    "t_end": 3522.63,
+    "text": "the same is going to happen sort of separately for each of the basis states"
+  },
+  {
+    "t_start": 3522.63,
+    "t_end": 3524.87,
+    "text": "separately for each of the basis states meaning you get exactly these phases"
+  },
+  {
+    "t_start": 3524.87,
+    "t_end": 3526.63,
+    "text": "meaning you get exactly these phases here one phase one plus or minus for"
+  },
+  {
+    "t_start": 3526.63,
+    "t_end": 3528.87,
+    "text": "here one phase one plus or minus for each of the basis states gets i"
+  },
+  {
+    "t_start": 3528.87,
+    "t_end": 3530.069,
+    "text": "each of the basis states gets i right and that's what that's what you"
+  },
+  {
+    "t_start": 3530.069,
+    "t_end": 3531.67,
+    "text": "right and that's what that's what you have here"
+  },
+  {
+    "t_start": 3531.67,
+    "t_end": 3537.829,
+    "text": "so i have that sort of answered the question there's another one over there"
+  },
+  {
+    "t_start": 3537.829,
+    "t_end": 3540.789,
+    "text": "question there's another one over there yes"
+  },
+  {
+    "t_start": 3542.309,
+    "t_end": 3544.87,
+    "text": "switch on the microphone yes sorry can um"
+  },
+  {
+    "t_start": 3544.87,
+    "t_end": 3548.549,
+    "text": "yes sorry can um maybe it's just stupid but um this"
+  },
+  {
+    "t_start": 3548.549,
+    "t_end": 3553.109,
+    "text": "function unitary function uh so basically"
+  },
+  {
+    "t_start": 3553.109,
+    "t_end": 3554.549,
+    "text": "so basically are we"
+  },
+  {
+    "t_start": 3554.549,
+    "t_end": 3559.51,
+    "text": "just copying the amplitude of one single qubit on the second"
+  },
+  {
+    "t_start": 3559.51,
+    "t_end": 3565.43,
+    "text": "on on the remaining bit no like oh x is a map from basis states"
+  },
+  {
+    "t_start": 3565.43,
+    "t_end": 3567.03,
+    "text": "no like oh x is a map from basis states the basis states"
+  },
+  {
+    "t_start": 3567.03,
+    "t_end": 3570.95,
+    "text": "right i describe it as a map from basis states to basis states and the fact that"
+  },
+  {
+    "t_start": 3570.95,
+    "t_end": 3572.95,
+    "text": "states to basis states and the fact that certain amplitudes change plays is kind"
+  },
+  {
+    "t_start": 3572.95,
+    "t_end": 3574.71,
+    "text": "certain amplitudes change plays is kind of a consequence of that it's not the"
+  },
+  {
+    "t_start": 3574.71,
+    "t_end": 3577.349,
+    "text": "of a consequence of that it's not the basic operation that we do it's a"
+  },
+  {
+    "t_start": 3577.349,
+    "t_end": 3581.51,
+    "text": "of of the description of what ox does on basis states"
+  },
+  {
+    "t_start": 3581.51,
+    "t_end": 3584.95,
+    "text": "and i think the operation that ox does on basis states"
+  },
+  {
+    "t_start": 3584.95,
+    "t_end": 3587.91,
+    "text": "you should think of that really as something almost classical like if you"
+  },
+  {
+    "t_start": 3587.91,
+    "t_end": 3590.15,
+    "text": "something almost classical like if you have a classical reversible version of a"
+  },
+  {
+    "t_start": 3590.15,
+    "t_end": 3593.03,
+    "text": "have a classical reversible version of a random access memory call classical bits"
+  },
+  {
+    "t_start": 3593.03,
+    "t_end": 3594.87,
+    "text": "random access memory call classical bits this is what it would look like"
+  },
+  {
+    "t_start": 3594.87,
+    "t_end": 3596.789,
+    "text": "this is what it would look like and we now have the same thing except we"
+  },
+  {
+    "t_start": 3596.789,
+    "t_end": 3598.309,
+    "text": "and we now have the same thing except we can run it on superpositions of"
+  },
+  {
+    "t_start": 3598.309,
+    "t_end": 3600.23,
+    "text": "can run it on superpositions of different eyes"
+  },
+  {
+    "t_start": 3600.23,
+    "t_end": 3605.349,
+    "text": "but my question is maybe but the the eye is not changed after the operation"
+  },
+  {
+    "t_start": 3605.349,
+    "t_end": 3609.99,
+    "text": "right all the yeah i mean correct you can see it here but then isn't this kind"
+  },
+  {
+    "t_start": 3609.99,
+    "t_end": 3612.069,
+    "text": "can see it here but then isn't this kind of like"
+  },
+  {
+    "t_start": 3612.069,
+    "t_end": 3618.63,
+    "text": "cloning one bit on the second part of the register what is the bit that"
+  },
+  {
+    "t_start": 3618.63,
+    "t_end": 3620.15,
+    "text": "of the register what is the bit that would be cloned"
+  },
+  {
+    "t_start": 3620.15,
+    "t_end": 3623.75,
+    "text": "the x i that's a classical bit right there's no issue with cloning if you"
+  },
+  {
+    "t_start": 3623.75,
+    "t_end": 3625.349,
+    "text": "there's no issue with cloning if you talk about copying classical bits for"
+  },
+  {
+    "t_start": 3625.349,
+    "t_end": 3626.71,
+    "text": "talk about copying classical bits for instance a controlled knot is going to"
+  },
+  {
+    "t_start": 3626.71,
+    "t_end": 3630.15,
+    "text": "instance a controlled knot is going to copy a classical bit for you"
+  },
+  {
+    "t_start": 3630.15,
+    "t_end": 3633.67,
+    "text": "right x i is a bit it's not a it's not an arbitrary qubit it's not like it"
+  },
+  {
+    "t_start": 3633.67,
+    "t_end": 3635.829,
+    "text": "an arbitrary qubit it's not like it could be in any any any situ in any"
+  },
+  {
+    "t_start": 3635.829,
+    "t_end": 3637.03,
+    "text": "could be in any any any situ in any state whatsoever then we would"
+  },
+  {
+    "t_start": 3637.03,
+    "t_end": 3639.589,
+    "text": "state whatsoever then we would definitely violate cloning but here we"
+  },
+  {
+    "t_start": 3639.589,
+    "t_end": 3645.349,
+    "text": "copy clustering classical information in fact we do it all the time"
+  },
+  {
+    "t_start": 3645.349,
+    "t_end": 3648.87,
+    "text": "some students even do it for homework set"
+  },
+  {
+    "t_start": 3650.63,
+    "t_end": 3651.829,
+    "text": "uh other questions actually i'm very happy with these questions so please"
+  },
+  {
+    "t_start": 3651.829,
+    "t_end": 3652.95,
+    "text": "happy with these questions so please keep going"
+  },
+  {
+    "t_start": 3652.95,
+    "t_end": 3659.67,
+    "text": "yes uh yeah i'm sorry um so when you say a few gates um in this case if you have"
+  },
+  {
+    "t_start": 3659.67,
+    "t_end": 3661.19,
+    "text": "a few gates um in this case if you have a lot of qubits you will have a lot of"
+  },
+  {
+    "t_start": 3661.19,
+    "t_end": 3666.63,
+    "text": "gates so what do you mean was um in the definition of quantum circuits you mean"
+  },
+  {
+    "t_start": 3666.63,
+    "t_end": 3669.19,
+    "text": "definition of quantum circuits you mean what small means or yes a small number"
+  },
+  {
+    "t_start": 3669.19,
+    "t_end": 3671.27,
+    "text": "what small means or yes a small number of gates well i mean the smaller the"
+  },
+  {
+    "t_start": 3671.27,
+    "t_end": 3672.71,
+    "text": "of gates well i mean the smaller the better of course"
+  },
+  {
+    "t_start": 3672.71,
+    "t_end": 3677.829,
+    "text": "you have let's say some little end qubits here to start with and you want"
+  },
+  {
+    "t_start": 3677.829,
+    "t_end": 3679.829,
+    "text": "qubits here to start with and you want to do something useful to all of them"
+  },
+  {
+    "t_start": 3679.829,
+    "t_end": 3681.589,
+    "text": "to do something useful to all of them you probably need at least n gates"
+  },
+  {
+    "t_start": 3681.589,
+    "t_end": 3683.27,
+    "text": "you probably need at least n gates because otherwise some of you some of"
+  },
+  {
+    "t_start": 3683.27,
+    "t_end": 3684.549,
+    "text": "because otherwise some of you some of your qubits are never touched they're"
+  },
+  {
+    "t_start": 3684.549,
+    "t_end": 3686.95,
+    "text": "your qubits are never touched they're never operated upon"
+  },
+  {
+    "t_start": 3686.95,
+    "t_end": 3689.829,
+    "text": "but what we typically think of as small like if you want me to give you a"
+  },
+  {
+    "t_start": 3689.829,
+    "t_end": 3691.829,
+    "text": "like if you want me to give you a definition definition that would give"
+  },
+  {
+    "t_start": 3691.829,
+    "t_end": 3695.829,
+    "text": "definition definition that would give rise to the complexity class bqp that i"
+  },
+  {
+    "t_start": 3695.829,
+    "t_end": 3700.63,
+    "text": "um think of small as polynomial number of gates in the input length"
+  },
+  {
+    "t_start": 3700.63,
+    "t_end": 3705.99,
+    "text": "of gates in the input length so polynomial"
+  },
+  {
+    "t_start": 3708.309,
+    "t_end": 3717.43,
+    "text": "number of gates in the input length"
+  },
+  {
+    "t_start": 3718.789,
+    "t_end": 3720.15,
+    "text": "and for instance you will see after the break i don't have that much time for"
+  },
+  {
+    "t_start": 3720.15,
+    "t_end": 3721.43,
+    "text": "break i don't have that much time for short's algorithm but i'll sort of"
+  },
+  {
+    "t_start": 3721.43,
+    "t_end": 3722.87,
+    "text": "short's algorithm but i'll sort of sketch it still"
+  },
+  {
+    "t_start": 3722.87,
+    "t_end": 3726.309,
+    "text": "if you want to factor an integer that's that's prescribed but something like n"
+  },
+  {
+    "t_start": 3726.309,
+    "t_end": 3730.549,
+    "text": "that's prescribed but something like n bits think of n as a thousand or two"
+  },
+  {
+    "t_start": 3730.549,
+    "t_end": 3732.71,
+    "text": "thousand as typical size of relevant factoring problems for cryptography uh"
+  },
+  {
+    "t_start": 3732.71,
+    "t_end": 3737.029,
+    "text": "you want a circuit that has a number of gates that's polynomial like n squared"
+  },
+  {
+    "t_start": 3737.029,
+    "t_end": 3740.71,
+    "text": "gates that's polynomial like n squared or n cubed in that input length and that"
+  },
+  {
+    "t_start": 3740.71,
+    "t_end": 3742.789,
+    "text": "will actually be the case for schwarz algorithm its number of gates is going"
+  },
+  {
+    "t_start": 3742.789,
+    "t_end": 3746.95,
+    "text": "to be roughly quadratic in the number of input bits and that's what we consider a"
+  },
+  {
+    "t_start": 3746.95,
+    "t_end": 3747.99,
+    "text": "input bits and that's what we consider a small"
+  },
+  {
+    "t_start": 3747.99,
+    "t_end": 3751.029,
+    "text": "small circuit but of course the smaller the better you know n squared is is"
+  },
+  {
+    "t_start": 3751.029,
+    "t_end": 3754.549,
+    "text": "faster than n cubed that means you have to do less work like we want to do as"
+  },
+  {
+    "t_start": 3754.549,
+    "t_end": 3756.87,
+    "text": "to do less work like we want to do as little work as possible"
+  },
+  {
+    "t_start": 3756.87,
+    "t_end": 3759.27,
+    "text": "and of course there's also like typically there will be many different"
+  },
+  {
+    "t_start": 3759.27,
+    "t_end": 3760.71,
+    "text": "typically there will be many different possible circuits solving the same"
+  },
+  {
+    "t_start": 3760.71,
+    "t_end": 3763.43,
+    "text": "possible circuits solving the same problem we prefer the one that has fewer"
+  },
+  {
+    "t_start": 3763.43,
+    "t_end": 3769.029,
+    "text": "that's the more efficient one other questions there was some at the"
+  },
+  {
+    "t_start": 3769.029,
+    "t_end": 3772.549,
+    "text": "back yeah go ahead"
+  },
+  {
+    "t_start": 3772.549,
+    "t_end": 3775.99,
+    "text": "this is kind of a follow-up question so if i compare these two models the model"
+  },
+  {
+    "t_start": 3775.99,
+    "t_end": 3777.99,
+    "text": "if i compare these two models the model of quantum circuits and like boolean"
+  },
+  {
+    "t_start": 3777.99,
+    "t_end": 3783.27,
+    "text": "circuits if i take a quantum circuit and can i model it as a boolean circuit"
+  },
+  {
+    "t_start": 3783.27,
+    "t_end": 3785.349,
+    "text": "and can i model it as a boolean circuit if i allow randomness and i don't care"
+  },
+  {
+    "t_start": 3785.349,
+    "t_end": 3786.95,
+    "text": "if i allow randomness and i don't care about the number of"
+  },
+  {
+    "t_start": 3786.95,
+    "t_end": 3789.27,
+    "text": "about the number of gates and measurements"
+  },
+  {
+    "t_start": 3789.27,
+    "t_end": 3792.15,
+    "text": "uh your question is whether the quantum circuit can simulate the boolean"
+  },
+  {
+    "t_start": 3792.15,
+    "t_end": 3796.71,
+    "text": "circuit can simulate the boolean circuits no the other way around"
+  },
+  {
+    "t_start": 3796.71,
+    "t_end": 3799.43,
+    "text": "oh if i take a boolean circuit can it simulate the quantum circuits"
+  },
+  {
+    "t_start": 3799.43,
+    "t_end": 3801.43,
+    "text": "can it simulate the quantum circuits well i mean um"
+  },
+  {
+    "t_start": 3801.43,
+    "t_end": 3804.87,
+    "text": "if you have a quantum circuit let's say with a polynomial number of gates on n"
+  },
+  {
+    "t_start": 3804.87,
+    "t_end": 3806.15,
+    "text": "with a polynomial number of gates on n qubits"
+  },
+  {
+    "t_start": 3806.15,
+    "t_end": 3810.549,
+    "text": "you can write down a classical circuit of exponential size that sort of does"
+  },
+  {
+    "t_start": 3810.549,
+    "t_end": 3812.069,
+    "text": "of exponential size that sort of does the same thing"
+  },
+  {
+    "t_start": 3812.069,
+    "t_end": 3817.67,
+    "text": "would not exist if the answer to your question were yes like you know if every"
+  },
+  {
+    "t_start": 3817.67,
+    "t_end": 3819.589,
+    "text": "question were yes like you know if every quantum circuit of a certain size can be"
+  },
+  {
+    "t_start": 3819.589,
+    "t_end": 3821.43,
+    "text": "quantum circuit of a certain size can be simulated by a classical boolean circuit"
+  },
+  {
+    "t_start": 3821.43,
+    "t_end": 3825.349,
+    "text": "simulated by a classical boolean circuit of a very similar size maybe slightly"
+  },
+  {
+    "t_start": 3825.349,
+    "t_end": 3826.789,
+    "text": "bigger there's no point in building a quantum computer"
+  },
+  {
+    "t_start": 3826.789,
+    "t_end": 3829.51,
+    "text": "like the whole the whole goal of this field is to find interesting"
+  },
+  {
+    "t_start": 3829.51,
+    "t_end": 3832.47,
+    "text": "field is to find interesting computational problems such as factoring"
+  },
+  {
+    "t_start": 3832.47,
+    "t_end": 3834.39,
+    "text": "computational problems such as factoring where you have much shorter quantum"
+  },
+  {
+    "t_start": 3834.39,
+    "t_end": 3836.63,
+    "text": "where you have much shorter quantum circuits than boolean circuits much much"
+  },
+  {
+    "t_start": 3836.63,
+    "t_end": 3841.75,
+    "text": "circuits than boolean circuits much much far fewer gates and factoring is a"
+  },
+  {
+    "t_start": 3843.27,
+    "t_end": 3845.43,
+    "text": "the opposite though would also be an interesting question like can this model"
+  },
+  {
+    "t_start": 3845.43,
+    "t_end": 3847.19,
+    "text": "interesting question like can this model simulate boolean circuits can quantum"
+  },
+  {
+    "t_start": 3847.19,
+    "t_end": 3850.069,
+    "text": "simulate boolean circuits can quantum computers simulate classical computers"
+  },
+  {
+    "t_start": 3850.069,
+    "t_end": 3853.349,
+    "text": "computers simulate classical computers in some trivial sense the answer is no"
+  },
+  {
+    "t_start": 3853.349,
+    "t_end": 3855.109,
+    "text": "because these operations here are non-reversible"
+  },
+  {
+    "t_start": 3855.109,
+    "t_end": 3858.15,
+    "text": "right and quantum computers they can only do unitary operations which are"
+  },
+  {
+    "t_start": 3858.15,
+    "t_end": 3861.109,
+    "text": "only do unitary operations which are reversible but you can sort of massage"
+  },
+  {
+    "t_start": 3861.109,
+    "t_end": 3862.549,
+    "text": "reversible but you can sort of massage this boolean circuit a little bit so"
+  },
+  {
+    "t_start": 3862.549,
+    "t_end": 3864.39,
+    "text": "this boolean circuit a little bit so that it becomes reversible"
+  },
+  {
+    "t_start": 3864.39,
+    "t_end": 3867.75,
+    "text": "and then you can actually simulate it by a quantum circuit so quantum circuits"
+  },
+  {
+    "t_start": 3867.75,
+    "t_end": 3869.349,
+    "text": "a quantum circuit so quantum circuits are at least as powerful as classical"
+  },
+  {
+    "t_start": 3869.349,
+    "t_end": 3871.43,
+    "text": "are at least as powerful as classical circuits"
+  },
+  {
+    "t_start": 3871.43,
+    "t_end": 3875.589,
+    "text": "circuits so every every boolean circuit"
+  },
+  {
+    "t_start": 3877.75,
+    "t_end": 3882.63,
+    "text": "classical boolean circuit can be implemented by a quantum circuits"
+  },
+  {
+    "t_start": 3882.63,
+    "t_end": 3885.349,
+    "text": "and this is important right you know otherwise quantum and classical"
+  },
+  {
+    "t_start": 3885.349,
+    "t_end": 3889.029,
+    "text": "computation could be incomparable there could be problems where classical"
+  },
+  {
+    "t_start": 3889.029,
+    "t_end": 3894.15,
+    "text": "computers are better than quantum computers and that's not the case"
+  },
+  {
+    "t_start": 3894.15,
+    "t_end": 3910.549,
+    "text": "simulated by a classical circuit with roughly the same number of gates"
+  },
+  {
+    "t_start": 3912.549,
+    "t_end": 3914.63,
+    "text": "okay other questions yeah so there was one comment online yeah"
+  },
+  {
+    "t_start": 3914.63,
+    "t_end": 3919.349,
+    "text": "but your claim on the left-hand side part uh it's possible that it's reversed"
+  },
+  {
+    "t_start": 3919.349,
+    "t_end": 3922.63,
+    "text": "part uh it's possible that it's reversed that it's measurement outcome zero if"
+  },
+  {
+    "t_start": 3922.63,
+    "t_end": 3925.109,
+    "text": "and only if we're in the constant case yeah thanks time corrected one comment"
+  },
+  {
+    "t_start": 3925.109,
+    "t_end": 3932.39,
+    "text": "yeah thanks time corrected one comment online yeah thanks very much"
+  },
+  {
+    "t_start": 3934.549,
+    "t_end": 3935.91,
+    "text": "indeed because it's the constant case where the amplitude of the all zero"
+  },
+  {
+    "t_start": 3935.91,
+    "t_end": 3939.43,
+    "text": "state comes out to be plus or minus one it's the balanced case where everything"
+  },
+  {
+    "t_start": 3939.43,
+    "t_end": 3941.27,
+    "text": "it's the balanced case where everything cancels and there's no amplitude left on"
+  },
+  {
+    "t_start": 3941.27,
+    "t_end": 3942.71,
+    "text": "cancels and there's no amplitude left on the l0 state"
+  },
+  {
+    "t_start": 3942.71,
+    "t_end": 3944.47,
+    "text": "the l0 state thanks"
+  },
+  {
+    "t_start": 3944.47,
+    "t_end": 3948.15,
+    "text": "okay now it's probably time for a short break there's another question in the"
+  },
+  {
+    "t_start": 3948.15,
+    "t_end": 3951.19,
+    "text": "chat which i think is you know the important question it always comes at"
+  },
+  {
+    "t_start": 3951.19,
+    "t_end": 3953.029,
+    "text": "important question it always comes at this point it's by carl fullinger he"
+  },
+  {
+    "t_start": 3953.029,
+    "t_end": 3955.19,
+    "text": "this point it's by carl fullinger he says the oracle seems a bit mysterious"
+  },
+  {
+    "t_start": 3955.19,
+    "t_end": 3957.349,
+    "text": "says the oracle seems a bit mysterious to me but we must be able to implement"
+  },
+  {
+    "t_start": 3957.349,
+    "t_end": 3959.349,
+    "text": "to me but we must be able to implement it in terms of gates so what would the"
+  },
+  {
+    "t_start": 3959.349,
+    "t_end": 3961.029,
+    "text": "it in terms of gates so what would the oracle actually look like in this"
+  },
+  {
+    "t_start": 3961.029,
+    "t_end": 3965.27,
+    "text": "oracle actually look like in this example okay that's a long discussion um"
+  },
+  {
+    "t_start": 3965.27,
+    "t_end": 3966.39,
+    "text": "example okay that's a long discussion um so"
+  },
+  {
+    "t_start": 3966.39,
+    "t_end": 3972.069,
+    "text": "i guess there's two ways to answer this one is there could be a short circuit"
+  },
+  {
+    "t_start": 3972.069,
+    "t_end": 3973.51,
+    "text": "one is there could be a short circuit that actually computes the oracle"
+  },
+  {
+    "t_start": 3973.51,
+    "t_end": 3978.309,
+    "text": "function you will see that happening in short's algorithm the other answer is i"
+  },
+  {
+    "t_start": 3978.309,
+    "t_end": 3979.91,
+    "text": "short's algorithm the other answer is i think looking at gate complexity for"
+  },
+  {
+    "t_start": 3979.91,
+    "t_end": 3981.51,
+    "text": "think looking at gate complexity for this operation is the wrong measure"
+  },
+  {
+    "t_start": 3981.51,
+    "t_end": 3983.51,
+    "text": "this operation is the wrong measure because even classical rem"
+  },
+  {
+    "t_start": 3983.51,
+    "t_end": 3988.71,
+    "text": "contains capital m bits of memory if you write it as a circuit it's going to be a"
+  },
+  {
+    "t_start": 3988.71,
+    "t_end": 3990.789,
+    "text": "write it as a circuit it's going to be a circuit with capital n gates"
+  },
+  {
+    "t_start": 3990.789,
+    "t_end": 3993.99,
+    "text": "circuit with capital n gates nevertheless a classical memory access"
+  },
+  {
+    "t_start": 3993.99,
+    "t_end": 3995.75,
+    "text": "nevertheless a classical memory access doesn't take time proportional to the"
+  },
+  {
+    "t_start": 3995.75,
+    "t_end": 3997.349,
+    "text": "doesn't take time proportional to the memory length"
+  },
+  {
+    "t_start": 3997.349,
+    "t_end": 4001.029,
+    "text": "so i think gate complexity is not the right measure here"
+  },
+  {
+    "t_start": 4001.029,
+    "t_end": 4002.309,
+    "text": "right measure here um"
+  },
+  {
+    "t_start": 4002.309,
+    "t_end": 4005.029,
+    "text": "but i think this is really like a discussion that it's almost"
+  },
+  {
+    "t_start": 4005.029,
+    "t_end": 4008.95,
+    "text": "philosophical and maybe if some like bother me with it in the exercise"
+  },
+  {
+    "t_start": 4008.95,
+    "t_end": 4011.109,
+    "text": "bother me with it in the exercise session maybe because at this point i"
+  },
+  {
+    "t_start": 4011.109,
+    "t_end": 4012.71,
+    "text": "session maybe because at this point i probably have like 20 minutes left only"
+  },
+  {
+    "t_start": 4012.71,
+    "t_end": 4014.309,
+    "text": "probably have like 20 minutes left only for sure's algorithm which is very"
+  },
+  {
+    "t_start": 4014.309,
+    "t_end": 4015.829,
+    "text": "for sure's algorithm which is very little"
+  },
+  {
+    "t_start": 4015.829,
+    "t_end": 4020.71,
+    "text": "um okay time for break unless there's anything burning"
+  },
+  {
+    "t_start": 4020.71,
+    "t_end": 4024.95,
+    "text": "let's say five minutes and then i will sketch because i don't have a lot of"
+  },
+  {
+    "t_start": 4024.95,
+    "t_end": 4028.549,
+    "text": "sketch because i don't have a lot of time i will sketch shorts algorithm"
+  },
+  {
+    "t_start": 4028.549,
+    "t_end": 4041.75,
+    "text": "time i will sketch shorts algorithm five minutes is not enough uh to grab"
+  },
+  {
+    "t_start": 4057.67,
+    "t_end": 4059.67,
+    "text": "okay i switched sound back on i hope that's working"
+  },
+  {
+    "t_start": 4059.67,
+    "t_end": 4063.75,
+    "text": "okay so let's continue so now what i want to tell you is um"
+  },
+  {
+    "t_start": 4063.75,
+    "t_end": 4065.67,
+    "text": "want to tell you is um is is something that had an enormous"
+  },
+  {
+    "t_start": 4065.67,
+    "t_end": 4068.47,
+    "text": "is is something that had an enormous impact on this field so um"
+  },
+  {
+    "t_start": 4068.47,
+    "t_end": 4072.87,
+    "text": "i joined this field in 1997 that was three years after shore's algorithm came"
+  },
+  {
+    "t_start": 4072.87,
+    "t_end": 4074.23,
+    "text": "three years after shore's algorithm came out"
+  },
+  {
+    "t_start": 4074.23,
+    "t_end": 4079.19,
+    "text": "but if you look at the years before 1994 then this field was like a little fringe"
+  },
+  {
+    "t_start": 4079.19,
+    "t_end": 4081.19,
+    "text": "then this field was like a little fringe activity full of weird people small"
+  },
+  {
+    "t_start": 4081.19,
+    "t_end": 4082.309,
+    "text": "activity full of weird people small numbers of them"
+  },
+  {
+    "t_start": 4082.309,
+    "t_end": 4086.63,
+    "text": "congregating in their conferences about the physics of computation uh sort of"
+  },
+  {
+    "t_start": 4086.63,
+    "t_end": 4089.27,
+    "text": "the physics of computation uh sort of being ignored by most of the rest of the"
+  },
+  {
+    "t_start": 4089.27,
+    "t_end": 4093.75,
+    "text": "and then in 1994 like building upon deutsche algorithm building upon simon's"
+  },
+  {
+    "t_start": 4093.75,
+    "t_end": 4097.99,
+    "text": "deutsche algorithm building upon simon's algorithm peter shore found his"
+  },
+  {
+    "t_start": 4097.99,
+    "t_end": 4100.709,
+    "text": "algorithm to very efficiently factor large numbers"
+  },
+  {
+    "t_start": 4100.709,
+    "t_end": 4104.63,
+    "text": "and this really changed the field because factoring large numbers into"
+  },
+  {
+    "t_start": 4104.63,
+    "t_end": 4107.749,
+    "text": "their prime factors is not just a mathematician's hobby but it's also the"
+  },
+  {
+    "t_start": 4107.749,
+    "t_end": 4109.669,
+    "text": "mathematician's hobby but it's also the foundation of much of of current"
+  },
+  {
+    "t_start": 4109.669,
+    "t_end": 4110.87,
+    "text": "foundation of much of of current cryptography"
+  },
+  {
+    "t_start": 4110.87,
+    "t_end": 4114.229,
+    "text": "right and in particular what that means you know if that if you could build a"
+  },
+  {
+    "t_start": 4114.229,
+    "t_end": 4116.229,
+    "text": "you know if that if you could build a large quantum computer you could break"
+  },
+  {
+    "t_start": 4116.229,
+    "t_end": 4119.03,
+    "text": "large quantum computer you could break everybody's email encryption like like"
+  },
+  {
+    "t_start": 4119.03,
+    "t_end": 4123.99,
+    "text": "online banking transaction etc uh the mafia lots of big countries even small"
+  },
+  {
+    "t_start": 4123.99,
+    "t_end": 4126.229,
+    "text": "mafia lots of big countries even small countries uh are somewhat interested in"
+  },
+  {
+    "t_start": 4126.229,
+    "t_end": 4128.309,
+    "text": "countries uh are somewhat interested in this so suddenly and i'm not"
+  },
+  {
+    "t_start": 4128.309,
+    "t_end": 4129.829,
+    "text": "this so suddenly and i'm not exaggerating suddenly there were people"
+  },
+  {
+    "t_start": 4129.829,
+    "t_end": 4132.149,
+    "text": "exaggerating suddenly there were people from the nsa like spies actually"
+  },
+  {
+    "t_start": 4132.149,
+    "t_end": 4134.149,
+    "text": "from the nsa like spies actually attending quantum computing conferences"
+  },
+  {
+    "t_start": 4134.149,
+    "t_end": 4137.189,
+    "text": "attending quantum computing conferences because they wanted to know what what"
+  },
+  {
+    "t_start": 4137.189,
+    "t_end": 4141.51,
+    "text": "when the field sort of did a phase transition from a small area to a fast"
+  },
+  {
+    "t_start": 4141.51,
+    "t_end": 4142.47,
+    "text": "transition from a small area to a fast growing"
+  },
+  {
+    "t_start": 4142.47,
+    "t_end": 4147.829,
+    "text": "uh field that got a lot of attention and and i think currently we are sort of in"
+  },
+  {
+    "t_start": 4147.829,
+    "t_end": 4148.87,
+    "text": "a more mature phase of that still growing"
+  },
+  {
+    "t_start": 4148.87,
+    "t_end": 4152.229,
+    "text": "but certainly a field that gets a lot of attention and some of the attention"
+  },
+  {
+    "t_start": 4152.229,
+    "t_end": 4156.789,
+    "text": "nowadays of course has shifted to let's say simulations of physics and chemistry"
+  },
+  {
+    "t_start": 4156.789,
+    "t_end": 4158.229,
+    "text": "say simulations of physics and chemistry but i think this short algorithm for"
+  },
+  {
+    "t_start": 4158.229,
+    "t_end": 4160.07,
+    "text": "but i think this short algorithm for factoring is still one of the one of the"
+  },
+  {
+    "t_start": 4160.07,
+    "t_end": 4162.229,
+    "text": "factoring is still one of the one of the pearls of this field"
+  },
+  {
+    "t_start": 4162.229,
+    "t_end": 4166.87,
+    "text": "and i want to give you a rough sketch in in about 15 minutes of how the shores"
+  },
+  {
+    "t_start": 4166.87,
+    "t_end": 4168.87,
+    "text": "in about 15 minutes of how the shores algorithm works"
+  },
+  {
+    "t_start": 4168.87,
+    "t_end": 4177.59,
+    "text": "algorithm works right so this is about the factoring"
+  },
+  {
+    "t_start": 4178.95,
+    "t_end": 4181.43,
+    "text": "and what is the factoring problem i give you a large integer think of"
+  },
+  {
+    "t_start": 4181.43,
+    "t_end": 4183.03,
+    "text": "you a large integer think of let's say something that can that can be"
+  },
+  {
+    "t_start": 4183.03,
+    "t_end": 4186.95,
+    "text": "let's say something that can that can be written down in a thousand bits or 2 000"
+  },
+  {
+    "t_start": 4186.95,
+    "t_end": 4192.309,
+    "text": "bits those are the relative the relevant input lengths for"
+  },
+  {
+    "t_start": 4192.309,
+    "t_end": 4196.95,
+    "text": "for for cryptography given a number n"
+  },
+  {
+    "t_start": 4216.87,
+    "t_end": 4218.709,
+    "text": "right so if i give you the number 15 you're supposed to tell me three times"
+  },
+  {
+    "t_start": 4218.709,
+    "t_end": 4225.91,
+    "text": "you're supposed to tell me three times five if i give if i tell you the number"
+  },
+  {
+    "t_start": 4228.229,
+    "t_end": 4230.55,
+    "text": "i gave you the number 28 you should tell me sorry"
+  },
+  {
+    "t_start": 4230.55,
+    "t_end": 4233.83,
+    "text": "me sorry then it's a it takes a little bit more"
+  },
+  {
+    "t_start": 4233.83,
+    "t_end": 4239.99,
+    "text": "right but this like of course you can do these these small examples in your head"
+  },
+  {
+    "t_start": 4239.99,
+    "t_end": 4243.189,
+    "text": "these these small examples in your head that's not a problem you can do even"
+  },
+  {
+    "t_start": 4243.189,
+    "t_end": 4246.709,
+    "text": "can do slightly bigger examples on a computer and at some point it just gets"
+  },
+  {
+    "t_start": 4246.709,
+    "t_end": 4248.39,
+    "text": "computer and at some point it just gets completely out of hand and if you want"
+  },
+  {
+    "t_start": 4248.39,
+    "t_end": 4250.63,
+    "text": "completely out of hand and if you want to factor an integer uh that that's"
+  },
+  {
+    "t_start": 4250.63,
+    "t_end": 4254.79,
+    "text": "written down in a thousand bits or 2 000 bits then then the best algorithms that"
+  },
+  {
+    "t_start": 4254.79,
+    "t_end": 4255.91,
+    "text": "bits then then the best algorithms that we have"
+  },
+  {
+    "t_start": 4255.91,
+    "t_end": 4262.07,
+    "text": "are very slow they're highly non-trivial but they're still very slow"
+  },
+  {
+    "t_start": 4262.07,
+    "t_end": 4264.95,
+    "text": "so let's let's say that this can be written down with little n bits"
+  },
+  {
+    "t_start": 4264.95,
+    "t_end": 4270.95,
+    "text": "right so the magnitude of capital n is is on the order of something like two to"
+  },
+  {
+    "t_start": 4270.95,
+    "t_end": 4273.189,
+    "text": "the little n think of little n as a thousand or two thousand"
+  },
+  {
+    "t_start": 4273.189,
+    "t_end": 4277.43,
+    "text": "and the best classical algorithms so-called number field civ i think"
+  },
+  {
+    "t_start": 4277.43,
+    "t_end": 4284.47,
+    "text": "so-called number field civ i think that's still the best one"
+  },
+  {
+    "t_start": 4290.79,
+    "t_end": 4293.189,
+    "text": "that's something like 2 to the power n to the one third and i'm suppressing"
+  },
+  {
+    "t_start": 4293.189,
+    "t_end": 4295.51,
+    "text": "to the one third and i'm suppressing some lower order factors in the exponent"
+  },
+  {
+    "t_start": 4295.51,
+    "t_end": 4297.669,
+    "text": "some lower order factors in the exponent here but this is the rough rough size"
+  },
+  {
+    "t_start": 4297.669,
+    "t_end": 4301.669,
+    "text": "here but this is the rough rough size and it's not quite two to the little n"
+  },
+  {
+    "t_start": 4301.669,
+    "t_end": 4303.83,
+    "text": "but it's still pretty bad this is certainly not polynomial"
+  },
+  {
+    "t_start": 4303.83,
+    "t_end": 4312.95,
+    "text": "this is much bigger than polynomial and in practice this is way too slow"
+  },
+  {
+    "t_start": 4315.43,
+    "t_end": 4319.27,
+    "text": "to factor numbers of um"
+  },
+  {
+    "t_start": 4321.99,
+    "t_end": 4325.43,
+    "text": "something like a thousand thousand bits yes like i think let's say commonly"
+  },
+  {
+    "t_start": 4325.43,
+    "t_end": 4330.31,
+    "text": "sizes for rsa encryption will be numbers of 2048 bits consisting of two large"
+  },
+  {
+    "t_start": 4330.31,
+    "t_end": 4331.51,
+    "text": "of 2048 bits consisting of two large prime factors"
+  },
+  {
+    "t_start": 4331.51,
+    "t_end": 4335.75,
+    "text": "like like you can't really factor that on even on a large cluster of very"
+  },
+  {
+    "t_start": 4335.75,
+    "t_end": 4338.07,
+    "text": "on even on a large cluster of very strong computers this is just as far as"
+  },
+  {
+    "t_start": 4338.07,
+    "t_end": 4340.07,
+    "text": "strong computers this is just as far as we know out of reach of what we can do"
+  },
+  {
+    "t_start": 4340.07,
+    "t_end": 4342.07,
+    "text": "we know out of reach of what we can do classically and the hardness of this is"
+  },
+  {
+    "t_start": 4342.07,
+    "t_end": 4343.75,
+    "text": "classically and the hardness of this is actually a blessing"
+  },
+  {
+    "t_start": 4343.75,
+    "t_end": 4367.11,
+    "text": "actually a blessing because this hardness is the basis of"
+  },
+  {
+    "t_start": 4368.87,
+    "t_end": 4370.39,
+    "text": "right and all this kind of public key cryptography it's always based on a"
+  },
+  {
+    "t_start": 4370.39,
+    "t_end": 4372.229,
+    "text": "cryptography it's always based on a certain asymmetry and in this case the"
+  },
+  {
+    "t_start": 4372.229,
+    "t_end": 4374.229,
+    "text": "certain asymmetry and in this case the asymmetry is that multiplying two large"
+  },
+  {
+    "t_start": 4374.229,
+    "t_end": 4377.43,
+    "text": "asymmetry is that multiplying two large prime factors together is kind of easy"
+  },
+  {
+    "t_start": 4377.43,
+    "t_end": 4379.43,
+    "text": "multiplication is cheap even for classical computers but the inverse of"
+  },
+  {
+    "t_start": 4379.43,
+    "t_end": 4385.43,
+    "text": "that operation to take the product and to decompose it into the prime factors"
+  },
+  {
+    "t_start": 4385.43,
+    "t_end": 4387.51,
+    "text": "this is a very hard problem and this asymmetry can be used to design very"
+  },
+  {
+    "t_start": 4387.51,
+    "t_end": 4389.27,
+    "text": "asymmetry can be used to design very good cryptographic systems"
+  },
+  {
+    "t_start": 4389.27,
+    "t_end": 4393.75,
+    "text": "good cryptographic systems that have sustained the digital economy"
+  },
+  {
+    "t_start": 4393.75,
+    "t_end": 4399.59,
+    "text": "for 50 years or so and what sure did is he found a quantum"
+  },
+  {
+    "t_start": 4402.229,
+    "t_end": 4404.31,
+    "text": "to factor large numbers efficiently so this is 1994."
+  },
+  {
+    "t_start": 4404.31,
+    "t_end": 4412.149,
+    "text": "so that's a quantum algorithm or a quantum circuit if you will"
+  },
+  {
+    "t_start": 4420.95,
+    "t_end": 4425.51,
+    "text": "i think it's like order little n squared maybe times log of little n"
+  },
+  {
+    "t_start": 4425.51,
+    "t_end": 4436.87,
+    "text": "maybe times log of little n elementary gates"
+  },
+  {
+    "t_start": 4438.47,
+    "t_end": 4440.31,
+    "text": "and this is polynomial time little n squared quadratic in good length it's"
+  },
+  {
+    "t_start": 4440.31,
+    "t_end": 4442.149,
+    "text": "squared quadratic in good length it's even a pretty reasonable polynomial like"
+  },
+  {
+    "t_start": 4442.149,
+    "t_end": 4444.07,
+    "text": "even a pretty reasonable polynomial like some polynomial algorithms take time n"
+  },
+  {
+    "t_start": 4444.07,
+    "t_end": 4445.43,
+    "text": "some polynomial algorithms take time n to the 200"
+  },
+  {
+    "t_start": 4445.43,
+    "t_end": 4446.87,
+    "text": "to the 200 that's"
+  },
+  {
+    "t_start": 4446.87,
+    "t_end": 4453.27,
+    "text": "not so great and squared is pretty reasonable"
+  },
+  {
+    "t_start": 4455.11,
+    "t_end": 4456.55,
+    "text": "and like ramy barents in his talk yesterday he mentioned some estimates"
+  },
+  {
+    "t_start": 4456.55,
+    "t_end": 4459.43,
+    "text": "that if you had i don't know i don't remember the exact numbers but something"
+  },
+  {
+    "t_start": 4459.43,
+    "t_end": 4461.03,
+    "text": "remember the exact numbers but something like if you have 10 million reasonably"
+  },
+  {
+    "t_start": 4461.03,
+    "t_end": 4463.91,
+    "text": "like if you have 10 million reasonably good qubits and reasonably good gates"
+  },
+  {
+    "t_start": 4463.91,
+    "t_end": 4465.27,
+    "text": "good qubits and reasonably good gates available"
+  },
+  {
+    "t_start": 4465.27,
+    "t_end": 4469.669,
+    "text": "then you can factor a number of 2 2000 bits in roughly eight hours"
+  },
+  {
+    "t_start": 4469.669,
+    "t_end": 4471.03,
+    "text": "bits in roughly eight hours right and i think"
+  },
+  {
+    "t_start": 4471.03,
+    "t_end": 4477.27,
+    "text": "that would destroy a lot of cryptography there's another problem that a lot of"
+  },
+  {
+    "t_start": 4477.27,
+    "t_end": 4479.51,
+    "text": "cryptography is based on so-called discrete log problem which can equally"
+  },
+  {
+    "t_start": 4479.51,
+    "t_end": 4483.51,
+    "text": "well be broken by a small variation of the algorithm i'm going to present but"
+  },
+  {
+    "t_start": 4483.51,
+    "t_end": 4487.75,
+    "text": "the algorithm i'm going to present but i'll focus on the factoring problem here"
+  },
+  {
+    "t_start": 4490.31,
+    "t_end": 4493.75,
+    "text": "and this algorithm here it has two parts a classical and a"
+  },
+  {
+    "t_start": 4493.75,
+    "t_end": 4514.149,
+    "text": "a classical reduction to the so-called period finding problem"
+  },
+  {
+    "t_start": 4516.95,
+    "t_end": 4518.87,
+    "text": "and it works as follows so what i do is i i'm given this number capital n right"
+  },
+  {
+    "t_start": 4518.87,
+    "t_end": 4520.149,
+    "text": "i i'm given this number capital n right i want to factor it i want to find"
+  },
+  {
+    "t_start": 4520.149,
+    "t_end": 4522.79,
+    "text": "i want to factor it i want to find factors of this number prime factors"
+  },
+  {
+    "t_start": 4522.79,
+    "t_end": 4530.709,
+    "text": "factors of this number prime factors i define a function i pick a random x"
+  },
+  {
+    "t_start": 4533.27,
+    "t_end": 4537.669,
+    "text": "what is it zero and n minus one maybe n minus two doesn't really matter and i"
+  },
+  {
+    "t_start": 4537.669,
+    "t_end": 4543.35,
+    "text": "minus two doesn't really matter and i define a function"
+  },
+  {
+    "t_start": 4549.11,
+    "t_end": 4555.75,
+    "text": "which on input a gives me back x to the power a modulo n"
+  },
+  {
+    "t_start": 4557.51,
+    "t_end": 4558.95,
+    "text": "so this takes an integer as input so let's say a natural number it doesn't"
+  },
+  {
+    "t_start": 4558.95,
+    "t_end": 4564.709,
+    "text": "let's say a natural number it doesn't have to be negative and it spits out x"
+  },
+  {
+    "t_start": 4564.709,
+    "t_end": 4566.87,
+    "text": "to the power a modulo capital n and if you compute this and little a"
+  },
+  {
+    "t_start": 4566.87,
+    "t_end": 4568.79,
+    "text": "and if you compute this and little a here could be very very big"
+  },
+  {
+    "t_start": 4568.79,
+    "t_end": 4574.149,
+    "text": "it could be as big as capital n itself could be even bigger than capital n"
+  },
+  {
+    "t_start": 4574.149,
+    "t_end": 4575.91,
+    "text": "itself so you might be a little bit worried how am i going to compute this"
+  },
+  {
+    "t_start": 4575.91,
+    "t_end": 4577.51,
+    "text": "worried how am i going to compute this function efficiently you know for a"
+  },
+  {
+    "t_start": 4577.51,
+    "t_end": 4580.79,
+    "text": "large a of course you could take x and multiply with x and multiply with x"
+  },
+  {
+    "t_start": 4580.79,
+    "t_end": 4586.149,
+    "text": "that's going to take you a lot of time but there's a nice trick called a very"
+  },
+  {
+    "t_start": 4586.149,
+    "t_end": 4588.47,
+    "text": "but there's a nice trick called a very descriptive name called"
+  },
+  {
+    "t_start": 4588.47,
+    "t_end": 4596.79,
+    "text": "square and multiply which actually solves which can compute this"
+  },
+  {
+    "t_start": 4598.87,
+    "t_end": 4607.27,
+    "text": "in roughly order n squared log n steps"
+  },
+  {
+    "t_start": 4610.149,
+    "t_end": 4614.47,
+    "text": "by the square and multiply methods this is one of the things that you could"
+  },
+  {
+    "t_start": 4614.47,
+    "t_end": 4616.39,
+    "text": "try to do in the exercise session to work this out"
+  },
+  {
+    "t_start": 4616.39,
+    "t_end": 4621.03,
+    "text": "this has nothing to do with quantum by the way this is very basic arithmetic"
+  },
+  {
+    "t_start": 4621.03,
+    "t_end": 4623.11,
+    "text": "the way this is very basic arithmetic um so there's this function"
+  },
+  {
+    "t_start": 4623.11,
+    "t_end": 4628.149,
+    "text": "and this function that follows from a little bit of group theory that this"
+  },
+  {
+    "t_start": 4628.149,
+    "t_end": 4630.31,
+    "text": "function will be sort of a periodic function it's going to cycle"
+  },
+  {
+    "t_start": 4630.31,
+    "t_end": 4631.83,
+    "text": "function it's going to cycle so if you look at"
+  },
+  {
+    "t_start": 4631.83,
+    "t_end": 4634.63,
+    "text": "so if you look at f0"
+  },
+  {
+    "t_start": 4637.03,
+    "t_end": 4638.87,
+    "text": "that's going to be 1 of course because x to the power 0 is 1."
+  },
+  {
+    "t_start": 4638.87,
+    "t_end": 4641.11,
+    "text": "to the power 0 is 1. and then you look at f1"
+  },
+  {
+    "t_start": 4641.11,
+    "t_end": 4645.03,
+    "text": "and then you look at f1 and f2"
+  },
+  {
+    "t_start": 4647.669,
+    "t_end": 4653.59,
+    "text": "let's say it's some integer r you're going to see the value 1 reappear"
+  },
+  {
+    "t_start": 4653.59,
+    "t_end": 4655.75,
+    "text": "going to see the value 1 reappear and the the numbers before that the r"
+  },
+  {
+    "t_start": 4655.75,
+    "t_end": 4657.189,
+    "text": "and the the numbers before that the r numbers before that"
+  },
+  {
+    "t_start": 4657.189,
+    "t_end": 4662.79,
+    "text": "numbers before that they will all be distinct"
+  },
+  {
+    "t_start": 4664.95,
+    "t_end": 4667.03,
+    "text": "and this sequence of r numbers is then going to repeat itself"
+  },
+  {
+    "t_start": 4667.03,
+    "t_end": 4678.79,
+    "text": "going to repeat itself this is a periodic function"
+  },
+  {
+    "t_start": 4680.79,
+    "t_end": 4686.63,
+    "text": "the second r numbers are the same as the third r numbers etc so just keep in mind"
+  },
+  {
+    "t_start": 4686.63,
+    "t_end": 4688.47,
+    "text": "i mean this picture is a little bit misleading but it's still kind of"
+  },
+  {
+    "t_start": 4688.47,
+    "t_end": 4693.669,
+    "text": "misleading but it's still kind of interesting"
+  },
+  {
+    "t_start": 4695.35,
+    "t_end": 4699.669,
+    "text": "sequence of r in fact distinct values are just going to reappear and reappear"
+  },
+  {
+    "t_start": 4699.669,
+    "t_end": 4703.03,
+    "text": "are just going to reappear and reappear at infinitum"
+  },
+  {
+    "t_start": 4706.07,
+    "t_end": 4709.99,
+    "text": "okay so this function is periodic the period could be very very large so this"
+  },
+  {
+    "t_start": 4709.99,
+    "t_end": 4712.31,
+    "text": "this r here could be sort of almost as big as capital n itself"
+  },
+  {
+    "t_start": 4712.31,
+    "t_end": 4718.07,
+    "text": "um so trying to find the period you know by just computing f0 f1 f2 f3 etc until"
+  },
+  {
+    "t_start": 4718.07,
+    "t_end": 4719.75,
+    "text": "by just computing f0 f1 f2 f3 etc until you see the number one reappearing"
+  },
+  {
+    "t_start": 4719.75,
+    "t_end": 4722.79,
+    "text": "you see the number one reappearing that's not efficient at all"
+  },
+  {
+    "t_start": 4722.79,
+    "t_end": 4725.83,
+    "text": "that's not efficient at all but sure showed using some"
+  },
+  {
+    "t_start": 4725.83,
+    "t_end": 4727.669,
+    "text": "but sure showed using some probably 18th century number theory"
+  },
+  {
+    "t_start": 4727.669,
+    "t_end": 4731.75,
+    "text": "probably 18th century number theory something very elementary"
+  },
+  {
+    "t_start": 4736.95,
+    "t_end": 4748.79,
+    "text": "r you can factor in"
+  },
+  {
+    "t_start": 4750.39,
+    "t_end": 4751.75,
+    "text": "so if you're curious to see how this works i'm going to tell you what i tell"
+  },
+  {
+    "t_start": 4751.75,
+    "t_end": 4753.35,
+    "text": "works i'm going to tell you what i tell all my students which is read my lecture"
+  },
+  {
+    "t_start": 4753.35,
+    "t_end": 4756.87,
+    "text": "all my students which is read my lecture notes"
+  },
+  {
+    "t_start": 4758.39,
+    "t_end": 4761.99,
+    "text": "and and all this stuff here has nothing to do with quantum right this is a"
+  },
+  {
+    "t_start": 4761.99,
+    "t_end": 4766.39,
+    "text": "classical reduction but but introduces it to a very generic problem there is a"
+  },
+  {
+    "t_start": 4766.39,
+    "t_end": 4769.59,
+    "text": "function f we can evaluate it efficiently on any input point a of our"
+  },
+  {
+    "t_start": 4769.59,
+    "t_end": 4772.63,
+    "text": "that means that in the quantum case we can even evaluate it on superpositions"
+  },
+  {
+    "t_start": 4772.63,
+    "t_end": 4776.63,
+    "text": "of a's just like in the deutsch jose case and we want to find this period r"
+  },
+  {
+    "t_start": 4776.63,
+    "t_end": 4779.35,
+    "text": "case and we want to find this period r because if we do we can factor capital n"
+  },
+  {
+    "t_start": 4779.35,
+    "t_end": 4781.669,
+    "text": "because if we do we can factor capital n which is our goal"
+  },
+  {
+    "t_start": 4781.669,
+    "t_end": 4785.03,
+    "text": "so how do we find this r so this is this is what shows the quantum part of"
+  },
+  {
+    "t_start": 4785.03,
+    "t_end": 4786.79,
+    "text": "is what shows the quantum part of short's algorithm actually does"
+  },
+  {
+    "t_start": 4786.79,
+    "t_end": 4793.99,
+    "text": "short's algorithm actually does so sure gave a quantum algorithm for"
+  },
+  {
+    "t_start": 4796.229,
+    "t_end": 4804.07,
+    "text": "to find this unknown number r efficiently"
+  },
+  {
+    "t_start": 4805.189,
+    "t_end": 4818.229,
+    "text": "um so in other words find r"
+  },
+  {
+    "t_start": 4820.07,
+    "t_end": 4821.51,
+    "text": "and the key ingredient for this is something called a quantum fourier"
+  },
+  {
+    "t_start": 4821.51,
+    "t_end": 4823.91,
+    "text": "something called a quantum fourier transform"
+  },
+  {
+    "t_start": 4823.91,
+    "t_end": 4826.709,
+    "text": "and if you know anything about signal processing then it shouldn't be a big"
+  },
+  {
+    "t_start": 4826.709,
+    "t_end": 4827.99,
+    "text": "processing then it shouldn't be a big surprise that"
+  },
+  {
+    "t_start": 4827.99,
+    "t_end": 4832.55,
+    "text": "somehow fourier transforms are relevant for extracting frequency"
+  },
+  {
+    "t_start": 4832.55,
+    "t_end": 4834.55,
+    "text": "relevant for extracting frequency information or periodicity information"
+  },
+  {
+    "t_start": 4834.55,
+    "t_end": 4838.55,
+    "text": "information or periodicity information because that's what fourier transforms"
+  },
+  {
+    "t_start": 4841.189,
+    "t_end": 4846.709,
+    "text": "so a key ingredient here is the quantum fourier transform"
+  },
+  {
+    "t_start": 4854.79,
+    "t_end": 4859.59,
+    "text": "and what the qft does let's let's let's say that it's the qft on"
+  },
+  {
+    "t_start": 4867.99,
+    "t_end": 4873.189,
+    "text": "if you apply this to a basis state let's say k"
+  },
+  {
+    "t_start": 4875.83,
+    "t_end": 4879.189,
+    "text": "capital n is 2 to the little and then this this would just be an integer of"
+  },
+  {
+    "t_start": 4879.189,
+    "t_end": 4883.669,
+    "text": "this this would just be an integer of little n bits"
+  },
+  {
+    "t_start": 4888.629,
+    "t_end": 4891.03,
+    "text": "a message superposition over all the basic states with an intricate pattern"
+  },
+  {
+    "t_start": 4891.03,
+    "t_end": 4892.95,
+    "text": "basic states with an intricate pattern of phases"
+  },
+  {
+    "t_start": 4892.95,
+    "t_end": 4897.35,
+    "text": "of phases phase these are the complex numbers in"
+  },
+  {
+    "t_start": 4917.669,
+    "t_end": 4920.79,
+    "text": "so the j here ranges over all basis states in your state uh in your space"
+  },
+  {
+    "t_start": 4920.79,
+    "t_end": 4922.47,
+    "text": "states in your state uh in your space and you get these complex phases here"
+  },
+  {
+    "t_start": 4922.47,
+    "t_end": 4927.51,
+    "text": "and you get these complex phases here where omega n is the nth root of unity"
+  },
+  {
+    "t_start": 4932.149,
+    "t_end": 4933.59,
+    "text": "e to the 2 pi i over n and the j times k here this is not a product of two"
+  },
+  {
+    "t_start": 4933.59,
+    "t_end": 4935.51,
+    "text": "here this is not a product of two integers in the exponent"
+  },
+  {
+    "t_start": 4935.51,
+    "t_end": 4938.95,
+    "text": "integers in the exponent um and if you think about it then what"
+  },
+  {
+    "t_start": 4938.95,
+    "t_end": 4944.55,
+    "text": "this this sequence of amplitudes that you get this is sort of like like a sine"
+  },
+  {
+    "t_start": 4944.55,
+    "t_end": 4949.669,
+    "text": "it it's like a like a like a like a periodic sequence"
+  },
+  {
+    "t_start": 4949.669,
+    "t_end": 4953.189,
+    "text": "and this map looks very complicated but it is actually there is an efficient"
+  },
+  {
+    "t_start": 4953.189,
+    "t_end": 4956.31,
+    "text": "it is actually there is an efficient circuit for it"
+  },
+  {
+    "t_start": 4964.47,
+    "t_end": 4973.03,
+    "text": "little n squared so quadratic in the number of qubits"
+  },
+  {
+    "t_start": 4981.669,
+    "t_end": 4983.43,
+    "text": "and the reason that there is such an efficient circuit is that you can factor"
+  },
+  {
+    "t_start": 4983.43,
+    "t_end": 4985.51,
+    "text": "efficient circuit is that you can factor this very complicated looking state of"
+  },
+  {
+    "t_start": 4985.51,
+    "t_end": 4987.11,
+    "text": "this very complicated looking state of little and qubits"
+  },
+  {
+    "t_start": 4987.11,
+    "t_end": 4990.629,
+    "text": "little and qubits as a product"
+  },
+  {
+    "t_start": 4992.95,
+    "t_end": 5000.149,
+    "text": "of little and qubits that are all of the form"
+  },
+  {
+    "t_start": 5002.87,
+    "t_end": 5009.59,
+    "text": "get one where this phi here this is a relatively simple phase that depends on"
+  },
+  {
+    "t_start": 5009.59,
+    "t_end": 5012.79,
+    "text": "relatively simple phase that depends on the basis state k that you're starting"
+  },
+  {
+    "t_start": 5012.79,
+    "t_end": 5014.629,
+    "text": "with so if you want to implement this unitary transformation on the basis"
+  },
+  {
+    "t_start": 5014.629,
+    "t_end": 5015.51,
+    "text": "unitary transformation on the basis state"
+  },
+  {
+    "t_start": 5015.51,
+    "t_end": 5019.83,
+    "text": "really all you need to do is prepare n qubits and put in the right phases and"
+  },
+  {
+    "t_start": 5019.83,
+    "t_end": 5022.31,
+    "text": "qubits and put in the right phases and there is an efficient circuit to do that"
+  },
+  {
+    "t_start": 5022.31,
+    "t_end": 5025.75,
+    "text": "there is an efficient circuit to do that and if you get a circuit that works well"
+  },
+  {
+    "t_start": 5025.75,
+    "t_end": 5032.39,
+    "text": "linearity is going to work on everything so i'm not going to sketch the details"
+  },
+  {
+    "t_start": 5032.39,
+    "t_end": 5037.669,
+    "text": "of this but let me just show how it comes into shore's algorithm"
+  },
+  {
+    "t_start": 5039.189,
+    "t_end": 5041.97,
+    "text": "switch maybe somebody needs to switch the camera"
+  },
+  {
+    "t_start": 5041.97,
+    "t_end": 5045.99,
+    "text": "the camera [Music]"
+  },
+  {
+    "t_start": 5048.229,
+    "t_end": 5060.87,
+    "text": "i'm going to draw the circuit for sure's period finding algorithm"
+  },
+  {
+    "t_start": 5062.31,
+    "t_end": 5067.51,
+    "text": "so circuit looks like this you start with a bunch of qubits"
+  },
+  {
+    "t_start": 5069.27,
+    "t_end": 5073.51,
+    "text": "roughly two n of them two little n of them"
+  },
+  {
+    "t_start": 5075.669,
+    "t_end": 5083.35,
+    "text": "that are all zero then another little n qubits that are all zero"
+  },
+  {
+    "t_start": 5085.91,
+    "t_end": 5087.75,
+    "text": "and you start by setting up um a big superposition in the first register the"
+  },
+  {
+    "t_start": 5087.75,
+    "t_end": 5092.39,
+    "text": "superposition in the first register the first little two n qubits"
+  },
+  {
+    "t_start": 5092.39,
+    "t_end": 5094.07,
+    "text": "and you do that by harder mars this is extremely similar to deutsch jose"
+  },
+  {
+    "t_start": 5094.07,
+    "t_end": 5099.51,
+    "text": "extremely similar to deutsch jose algorithm and this is not a coincidence"
+  },
+  {
+    "t_start": 5100.79,
+    "t_end": 5104.55,
+    "text": "time your first register is in a large superposition over very many different"
+  },
+  {
+    "t_start": 5104.55,
+    "t_end": 5106.709,
+    "text": "superposition over very many different integers a"
+  },
+  {
+    "t_start": 5106.709,
+    "t_end": 5110.229,
+    "text": "and you're now going to compute your function f in superposition on all of"
+  },
+  {
+    "t_start": 5110.229,
+    "t_end": 5114.95,
+    "text": "function f in superposition on all of those a's so here i'm going to have a"
+  },
+  {
+    "t_start": 5114.95,
+    "t_end": 5119.43,
+    "text": "which i will call of and what of does"
+  },
+  {
+    "t_start": 5119.43,
+    "t_end": 5121.669,
+    "text": "and what of does is it just computes"
+  },
+  {
+    "t_start": 5121.669,
+    "t_end": 5123.03,
+    "text": "is it just computes given"
+  },
+  {
+    "t_start": 5123.03,
+    "t_end": 5128.47,
+    "text": "given state a comma 0 it computes a comma f a"
+  },
+  {
+    "t_start": 5129.59,
+    "t_end": 5131.669,
+    "text": "and we know there is an efficient circuit to compute f therefore this this"
+  },
+  {
+    "t_start": 5131.669,
+    "t_end": 5135.669,
+    "text": "circuit to compute f therefore this this circuit here this is an efficient"
+  },
+  {
+    "t_start": 5135.669,
+    "t_end": 5137.59,
+    "text": "circuit right and there's no sort of mysterious things like what goes on"
+  },
+  {
+    "t_start": 5137.59,
+    "t_end": 5139.51,
+    "text": "mysterious things like what goes on inside the black box of the query this"
+  },
+  {
+    "t_start": 5139.51,
+    "t_end": 5141.35,
+    "text": "inside the black box of the query this just is an explicit circuit which is"
+  },
+  {
+    "t_start": 5141.35,
+    "t_end": 5146.47,
+    "text": "just is an explicit circuit which is based on this square multiply method"
+  },
+  {
+    "t_start": 5147.75,
+    "t_end": 5152.87,
+    "text": "you can write this as an explicit circuit"
+  },
+  {
+    "t_start": 5154.55,
+    "t_end": 5160.31,
+    "text": "of order n squared log n gates"
+  },
+  {
+    "t_start": 5161.83,
+    "t_end": 5163.43,
+    "text": "and in a way this is just a classical computation but you're allowed to run it"
+  },
+  {
+    "t_start": 5163.43,
+    "t_end": 5170.87,
+    "text": "computation but you're allowed to run it on a superposition"
+  },
+  {
+    "t_start": 5172.55,
+    "t_end": 5176.149,
+    "text": "and then what do you do you measure your second register"
+  },
+  {
+    "t_start": 5177.75,
+    "t_end": 5179.75,
+    "text": "actually maybe it's good if i kind of just"
+  },
+  {
+    "t_start": 5179.75,
+    "t_end": 5185.03,
+    "text": "write down the states in a different point in time so"
+  },
+  {
+    "t_start": 5185.03,
+    "t_end": 5193.669,
+    "text": "use a star here the state at point star is the following"
+  },
+  {
+    "t_start": 5197.189,
+    "t_end": 5202.87,
+    "text": "is 1 over root 2 to the 2 little n sum over all a's"
+  },
+  {
+    "t_start": 5205.91,
+    "t_end": 5208.31,
+    "text": "it can be written with two little n bits a"
+  },
+  {
+    "t_start": 5210.87,
+    "t_end": 5224.79,
+    "text": "then we compute this function here we get this state at this point in time"
+  },
+  {
+    "t_start": 5226.55,
+    "t_end": 5228.149,
+    "text": "star star is the same thing except that the second register has been set to the"
+  },
+  {
+    "t_start": 5228.149,
+    "t_end": 5240.39,
+    "text": "the second register has been set to the value f8"
+  },
+  {
+    "t_start": 5242.07,
+    "t_end": 5243.59,
+    "text": "right so now we are at this point in the circuit we need to measure the second"
+  },
+  {
+    "t_start": 5243.59,
+    "t_end": 5247.11,
+    "text": "register and this is going to be a partial measurement we have three times"
+  },
+  {
+    "t_start": 5247.11,
+    "t_end": 5250.55,
+    "text": "partial measurement we have three times little and qubits and we do just a"
+  },
+  {
+    "t_start": 5250.55,
+    "t_end": 5256.95,
+    "text": "measurement of the of these qubits here we measure these"
+  },
+  {
+    "t_start": 5259.27,
+    "t_end": 5261.83,
+    "text": "and you see some function value we don't have control over which one we see"
+  },
+  {
+    "t_start": 5261.83,
+    "t_end": 5263.75,
+    "text": "have control over which one we see let's say f"
+  },
+  {
+    "t_start": 5263.75,
+    "t_end": 5268.95,
+    "text": "and at that point you you sort of induce a collapse in the first register because"
+  },
+  {
+    "t_start": 5268.95,
+    "t_end": 5272.55,
+    "text": "a collapse in the first register because the first register is going to collapse"
+  },
+  {
+    "t_start": 5272.55,
+    "t_end": 5274.79,
+    "text": "to only the values of a that have this function value"
+  },
+  {
+    "t_start": 5274.79,
+    "t_end": 5282.55,
+    "text": "state that we will have at this point here"
+  },
+  {
+    "t_start": 5292.55,
+    "t_end": 5294.629,
+    "text": "and in the interest of time i'm going to switch to pictures now"
+  },
+  {
+    "t_start": 5294.629,
+    "t_end": 5299.51,
+    "text": "so if you draw the amplitudes in the state star star star let's let's"
+  },
+  {
+    "t_start": 5299.51,
+    "t_end": 5301.35,
+    "text": "in the state star star star let's let's ignore this this second register here it"
+  },
+  {
+    "t_start": 5301.35,
+    "t_end": 5302.79,
+    "text": "ignore this this second register here it has been measured it's a classical value"
+  },
+  {
+    "t_start": 5302.79,
+    "t_end": 5304.87,
+    "text": "has been measured it's a classical value we're going to ignore it at this point"
+  },
+  {
+    "t_start": 5304.87,
+    "t_end": 5306.47,
+    "text": "we're going to ignore it at this point let's look at which states in the first"
+  },
+  {
+    "t_start": 5306.47,
+    "t_end": 5308.87,
+    "text": "let's look at which states in the first register have a non-zero amplitude left"
+  },
+  {
+    "t_start": 5308.87,
+    "t_end": 5311.99,
+    "text": "register have a non-zero amplitude left over right so those are only the basis"
+  },
+  {
+    "t_start": 5311.99,
+    "t_end": 5318.149,
+    "text": "whose function value is the particular value we measured in the second register"
+  },
+  {
+    "t_start": 5318.149,
+    "t_end": 5319.91,
+    "text": "so that's first of all um"
+  },
+  {
+    "t_start": 5319.91,
+    "t_end": 5320.87,
+    "text": "um s"
+  },
+  {
+    "t_start": 5320.87,
+    "t_end": 5328.229,
+    "text": "right so this guy has a bit of amplitude so here we're going to see"
+  },
+  {
+    "t_start": 5329.91,
+    "t_end": 5337.35,
+    "text": "on the y-axis and and names of basis states on the x-axis and which other"
+  },
+  {
+    "t_start": 5339.59,
+    "t_end": 5341.35,
+    "text": "basis states have a non-zero amplitude well those are the ones that are spaced"
+  },
+  {
+    "t_start": 5341.35,
+    "t_end": 5343.43,
+    "text": "well those are the ones that are spaced from s by the periods because of the"
+  },
+  {
+    "t_start": 5343.43,
+    "t_end": 5355.51,
+    "text": "from s by the periods because of the periodicity"
+  },
+  {
+    "t_start": 5357.27,
+    "t_end": 5359.11,
+    "text": "right so these are the the a's that have any non-zero amplitude left they're the"
+  },
+  {
+    "t_start": 5359.11,
+    "t_end": 5361.51,
+    "text": "any non-zero amplitude left they're the the the a's whose function value is the"
+  },
+  {
+    "t_start": 5361.51,
+    "t_end": 5362.629,
+    "text": "the the a's whose function value is the same as"
+  },
+  {
+    "t_start": 5362.629,
+    "t_end": 5369.59,
+    "text": "as the function value of s and because of the periodicity we now have a very"
+  },
+  {
+    "t_start": 5369.59,
+    "t_end": 5372.149,
+    "text": "nicely peaked very sparse pattern of non-zero amplitudes left"
+  },
+  {
+    "t_start": 5372.149,
+    "t_end": 5372.95,
+    "text": "non-zero amplitudes left um"
+  },
+  {
+    "t_start": 5372.95,
+    "t_end": 5375.91,
+    "text": "and we would like to kind of extract this r right we don't care about the"
+  },
+  {
+    "t_start": 5375.91,
+    "t_end": 5379.75,
+    "text": "this r right we don't care about the value of s we care about the value of r"
+  },
+  {
+    "t_start": 5379.75,
+    "t_end": 5381.83,
+    "text": "if you measure this state in a computational basis you get nothing"
+  },
+  {
+    "t_start": 5381.83,
+    "t_end": 5386.47,
+    "text": "because s is unknown and r is unknown so instead what we do is we do a quantum"
+  },
+  {
+    "t_start": 5386.47,
+    "t_end": 5387.99,
+    "text": "instead what we do is we do a quantum fourier transform"
+  },
+  {
+    "t_start": 5387.99,
+    "t_end": 5396.47,
+    "text": "on these qubits and then we measure"
+  },
+  {
+    "t_start": 5397.669,
+    "t_end": 5403.91,
+    "text": "and if you do a quantum fourier transform"
+  },
+  {
+    "t_start": 5405.43,
+    "t_end": 5407.27,
+    "text": "and you work out what happens there's some very nice"
+  },
+  {
+    "t_start": 5407.27,
+    "t_end": 5412.149,
+    "text": "geometric series effectively what's going to happen is that you will have"
+  },
+  {
+    "t_start": 5412.149,
+    "t_end": 5414.07,
+    "text": "only amplitudes left on multiples"
+  },
+  {
+    "t_start": 5414.07,
+    "t_end": 5415.51,
+    "text": "on multiples of um"
+  },
+  {
+    "t_start": 5415.51,
+    "t_end": 5420.55,
+    "text": "the dimension of your fourier transform 2 to the 2n"
+  },
+  {
+    "t_start": 5420.55,
+    "t_end": 5425.189,
+    "text": "2 to the 2n divided by the periods"
+  },
+  {
+    "t_start": 5428.149,
+    "t_end": 5437.27,
+    "text": "divided by the period this will be spice 2 to the 2 n divided by the periods etc"
+  },
+  {
+    "t_start": 5438.95,
+    "t_end": 5440.55,
+    "text": "and it's not going to be exactly such a nice structure it'll be sort of like a"
+  },
+  {
+    "t_start": 5440.55,
+    "t_end": 5442.229,
+    "text": "nice structure it'll be sort of like a little gaussian around it"
+  },
+  {
+    "t_start": 5442.229,
+    "t_end": 5447.35,
+    "text": "little gaussian around it but still almost all of the amplitudes"
+  },
+  {
+    "t_start": 5448.95,
+    "t_end": 5455.99,
+    "text": "around multiples of 2 to the 2 n over r so we measure right that's what this"
+  },
+  {
+    "t_start": 5455.99,
+    "t_end": 5457.83,
+    "text": "so we measure right that's what this this last part of the circuit designates"
+  },
+  {
+    "t_start": 5457.83,
+    "t_end": 5458.95,
+    "text": "this last part of the circuit designates we measure"
+  },
+  {
+    "t_start": 5458.95,
+    "t_end": 5469.51,
+    "text": "we measure and we get a measurement outcome"
+  },
+  {
+    "t_start": 5471.669,
+    "t_end": 5474.95,
+    "text": "and if you assume that this is very sharply peaked then your b is going to"
+  },
+  {
+    "t_start": 5474.95,
+    "t_end": 5480.07,
+    "text": "sharply peaked then your b is going to be a multiple of 2 to the 2n over r"
+  },
+  {
+    "t_start": 5482.629,
+    "t_end": 5485.27,
+    "text": "so some unknown integer multiplier c times 2 to the 2n"
+  },
+  {
+    "t_start": 5485.27,
+    "t_end": 5487.35,
+    "text": "times 2 to the 2n over r"
+  },
+  {
+    "t_start": 5487.35,
+    "t_end": 5490.55,
+    "text": "and if you look at this equation here there are two numbers that we know"
+  },
+  {
+    "t_start": 5490.55,
+    "t_end": 5492.95,
+    "text": "there are two numbers that we know namely b our measurement outcome and 2"
+  },
+  {
+    "t_start": 5492.95,
+    "t_end": 5497.59,
+    "text": "namely b our measurement outcome and 2 to the 2n which we chose ourselves and c"
+  },
+  {
+    "t_start": 5497.59,
+    "t_end": 5503.35,
+    "text": "and r are both unknown so we can rewrite this by saying that"
+  },
+  {
+    "t_start": 5503.35,
+    "t_end": 5506.709,
+    "text": "b over 2 to the"
+  },
+  {
+    "t_start": 5506.709,
+    "t_end": 5511.669,
+    "text": "is the same as c over r and this we know"
+  },
+  {
+    "t_start": 5511.669,
+    "t_end": 5515.75,
+    "text": "and this we know because we know both of those numbers"
+  },
+  {
+    "t_start": 5517.27,
+    "t_end": 5518.629,
+    "text": "and these two numbers we don't know we don't care about what c is the"
+  },
+  {
+    "t_start": 5518.629,
+    "t_end": 5521.27,
+    "text": "don't care about what c is the multiplier but we do care about what r"
+  },
+  {
+    "t_start": 5521.27,
+    "t_end": 5525.03,
+    "text": "but if we're lucky then these two numbers"
+  },
+  {
+    "t_start": 5525.03,
+    "t_end": 5530.07,
+    "text": "um if you write them in lowest terms then you could actually see what r is by"
+  },
+  {
+    "t_start": 5530.07,
+    "t_end": 5531.75,
+    "text": "then you could actually see what r is by just sort of taking this ratio this"
+  },
+  {
+    "t_start": 5531.75,
+    "t_end": 5535.27,
+    "text": "known ratio writing it in lowest terms that meaning dividing out the common"
+  },
+  {
+    "t_start": 5535.27,
+    "t_end": 5537.03,
+    "text": "that meaning dividing out the common divisors up and below"
+  },
+  {
+    "t_start": 5537.03,
+    "t_end": 5543.83,
+    "text": "divisors up and below and just read of r"
+  },
+  {
+    "t_start": 5544.83,
+    "t_end": 5555.59,
+    "text": "by writing the known ratio"
+  },
+  {
+    "t_start": 5558.07,
+    "t_end": 5565.91,
+    "text": "b over 2 to the 2n in lowest terms"
+  },
+  {
+    "t_start": 5567.59,
+    "t_end": 5569.27,
+    "text": "and now you should complain to me about you know we don't have this this sharply"
+  },
+  {
+    "t_start": 5569.27,
+    "t_end": 5570.55,
+    "text": "you know we don't have this this sharply peaked uh"
+  },
+  {
+    "t_start": 5570.55,
+    "t_end": 5574.87,
+    "text": "sharply peak behavior 2 to the 2 n over r it need not even be an integer right"
+  },
+  {
+    "t_start": 5574.87,
+    "t_end": 5576.39,
+    "text": "r it need not even be an integer right so everything is sort of approximate"
+  },
+  {
+    "t_start": 5576.39,
+    "t_end": 5577.189,
+    "text": "so everything is sort of approximate here"
+  },
+  {
+    "t_start": 5577.189,
+    "t_end": 5580.87,
+    "text": "but classical number theory in particular something called uh what's it"
+  },
+  {
+    "t_start": 5580.87,
+    "t_end": 5582.709,
+    "text": "particular something called uh what's it called um"
+  },
+  {
+    "t_start": 5582.709,
+    "t_end": 5586.55,
+    "text": "continuous fraction expansion thank you it can actually deal with this"
+  },
+  {
+    "t_start": 5586.55,
+    "t_end": 5590.149,
+    "text": "it can actually deal with this um and since i'm already way out of time"
+  },
+  {
+    "t_start": 5590.149,
+    "t_end": 5593.03,
+    "text": "and i hope that this sketch in particular like i think this this"
+  },
+  {
+    "t_start": 5593.03,
+    "t_end": 5599.189,
+    "text": "initial amplitude distribution to this amplitude distribution affected by the"
+  },
+  {
+    "t_start": 5599.189,
+    "t_end": 5602.79,
+    "text": "amplitude distribution affected by the qft this is sort of the core picture you"
+  },
+  {
+    "t_start": 5602.79,
+    "t_end": 5604.79,
+    "text": "should have in mind for why shore's algorithm works"
+  },
+  {
+    "t_start": 5604.79,
+    "t_end": 5608.79,
+    "text": "uh it goes from a from a sort of something where the amplitudes the"
+  },
+  {
+    "t_start": 5608.79,
+    "t_end": 5613.11,
+    "text": "non-zero amplitudes are spaced by the unknown period to something where the"
+  },
+  {
+    "t_start": 5613.11,
+    "t_end": 5616.79,
+    "text": "unknown period to something where the uh unknown period unknown"
+  },
+  {
+    "t_start": 5616.79,
+    "t_end": 5622.229,
+    "text": "multiple of one over r and the main thing here is that we got rid of the s"
+  },
+  {
+    "t_start": 5622.229,
+    "t_end": 5623.51,
+    "text": "thing here is that we got rid of the s dependence"
+  },
+  {
+    "t_start": 5623.51,
+    "t_end": 5627.43,
+    "text": "dependence this s dependence here this is kind of"
+  },
+  {
+    "t_start": 5627.43,
+    "t_end": 5631.03,
+    "text": "if you do the q of t they're still an s dependence of course because we can only"
+  },
+  {
+    "t_start": 5631.03,
+    "t_end": 5632.629,
+    "text": "dependence of course because we can only do reversible things but the s"
+  },
+  {
+    "t_start": 5632.629,
+    "t_end": 5635.189,
+    "text": "dependence sits in the face so it doesn't matter anymore for the"
+  },
+  {
+    "t_start": 5635.189,
+    "t_end": 5637.11,
+    "text": "doesn't matter anymore for the magnitudes of the amplitude"
+  },
+  {
+    "t_start": 5637.11,
+    "t_end": 5642.39,
+    "text": "magnitudes of the amplitude really i should put here"
+  },
+  {
+    "t_start": 5645.03,
+    "t_end": 5646.629,
+    "text": "good so sorry for going a bit over time there's still as much time as you want"
+  },
+  {
+    "t_start": 5646.629,
+    "t_end": 5651.43,
+    "text": "there's still as much time as you want for questions in case you want to spoil"
+  },
+  {
+    "t_start": 5651.43,
+    "t_end": 5671.83,
+    "text": "your next coffee break any questions"
+  },
+  {
+    "t_start": 5678.31,
+    "t_end": 5679.99,
+    "text": "uh i just wanted to ask uh if you are given a number n"
+  },
+  {
+    "t_start": 5679.99,
+    "t_end": 5683.75,
+    "text": "what's the lower bound on the number of qubits you need to use to factorize n"
+  },
+  {
+    "t_start": 5683.75,
+    "t_end": 5685.43,
+    "text": "qubits you need to use to factorize n it's a good question"
+  },
+  {
+    "t_start": 5685.43,
+    "t_end": 5690.709,
+    "text": "so let me just repeat the question so the question is how what's a lower bound"
+  },
+  {
+    "t_start": 5690.709,
+    "t_end": 5695.189,
+    "text": "um let me first talk about upper bound so if you want to factor a number of"
+  },
+  {
+    "t_start": 5695.189,
+    "t_end": 5696.87,
+    "text": "so if you want to factor a number of little n bits and it's always important"
+  },
+  {
+    "t_start": 5696.87,
+    "t_end": 5702.39,
+    "text": "when you say the number n here to sort of prefix it by little and or capital n"
+  },
+  {
+    "t_start": 5702.39,
+    "t_end": 5704.79,
+    "text": "of prefix it by little and or capital n then then this description of the shore"
+  },
+  {
+    "t_start": 5704.79,
+    "t_end": 5707.03,
+    "text": "then then this description of the shore algorithm requires three times as many"
+  },
+  {
+    "t_start": 5707.03,
+    "t_end": 5712.79,
+    "text": "number you want to factor if you have a thousand bit number this this would use"
+  },
+  {
+    "t_start": 5712.79,
+    "t_end": 5715.27,
+    "text": "thousand bit number this this would use about 3 000 qubits"
+  },
+  {
+    "t_start": 5715.27,
+    "t_end": 5718.47,
+    "text": "about 3 000 qubits and there are ways to bring this down to"
+  },
+  {
+    "t_start": 5718.47,
+    "t_end": 5722.47,
+    "text": "i think that's the best that's known um it's actually a good question whether"
+  },
+  {
+    "t_start": 5722.47,
+    "t_end": 5725.189,
+    "text": "you can push that further down and i'm sure people have tried to do this right"
+  },
+  {
+    "t_start": 5725.189,
+    "t_end": 5727.109,
+    "text": "sure people have tried to do this right there are these papers i mentioned one"
+  },
+  {
+    "t_start": 5727.109,
+    "t_end": 5728.709,
+    "text": "there are these papers i mentioned one that sort of came up with an estimate of"
+  },
+  {
+    "t_start": 5728.709,
+    "t_end": 5732.39,
+    "text": "that sort of came up with an estimate of eight hours to factor a 2 000 bit number"
+  },
+  {
+    "t_start": 5732.39,
+    "t_end": 5733.83,
+    "text": "eight hours to factor a 2 000 bit number i'm sure they looked very closely at"
+  },
+  {
+    "t_start": 5733.83,
+    "t_end": 5735.43,
+    "text": "i'm sure they looked very closely at sort of reducing the number of qubits i"
+  },
+  {
+    "t_start": 5735.43,
+    "t_end": 5737.27,
+    "text": "sort of reducing the number of qubits i don't know what the the what what the"
+  },
+  {
+    "t_start": 5737.27,
+    "t_end": 5741.669,
+    "text": "best number is this one uses three times as much qubits as the number of input"
+  },
+  {
+    "t_start": 5741.669,
+    "t_end": 5742.47,
+    "text": "as much qubits as the number of input bits"
+  },
+  {
+    "t_start": 5742.47,
+    "t_end": 5746.39,
+    "text": "you can improve that a little bit and i don't think it's known what the lowest"
+  },
+  {
+    "t_start": 5746.39,
+    "t_end": 5748.07,
+    "text": "don't think it's known what the lowest lowest number is"
+  },
+  {
+    "t_start": 5748.07,
+    "t_end": 5751.03,
+    "text": "oh and one thing i wanted to emphasize which i should have is"
+  },
+  {
+    "t_start": 5751.03,
+    "t_end": 5752.87,
+    "text": "which i should have is look at the structural similarity of"
+  },
+  {
+    "t_start": 5752.87,
+    "t_end": 5755.109,
+    "text": "look at the structural similarity of this with the deutsche algorithm right"
+  },
+  {
+    "t_start": 5755.109,
+    "t_end": 5758.79,
+    "text": "this with the deutsche algorithm right set up a superposition by hadamard gates"
+  },
+  {
+    "t_start": 5758.79,
+    "t_end": 5761.03,
+    "text": "set up a superposition by hadamard gates do one big thing in superposition that"
+  },
+  {
+    "t_start": 5761.03,
+    "t_end": 5762.87,
+    "text": "do one big thing in superposition that gives you access to a large number of"
+  },
+  {
+    "t_start": 5762.87,
+    "t_end": 5764.79,
+    "text": "gives you access to a large number of values in the case of deutsche"
+  },
+  {
+    "t_start": 5764.79,
+    "t_end": 5770.229,
+    "text": "it would be the bits in x in the case of offshore it would be many evaluations of"
+  },
+  {
+    "t_start": 5770.229,
+    "t_end": 5771.51,
+    "text": "offshore it would be many evaluations of the function f"
+  },
+  {
+    "t_start": 5771.51,
+    "t_end": 5775.51,
+    "text": "and then last do something that creates the right interference effects"
+  },
+  {
+    "t_start": 5775.51,
+    "t_end": 5778.79,
+    "text": "and many of the especially the early quantum algorithms they look like this"
+  },
+  {
+    "t_start": 5778.79,
+    "t_end": 5781.669,
+    "text": "quantum algorithms they look like this set up superposition make some some sort"
+  },
+  {
+    "t_start": 5781.669,
+    "t_end": 5783.35,
+    "text": "set up superposition make some some sort of access to an exponentially large"
+  },
+  {
+    "t_start": 5783.35,
+    "t_end": 5785.27,
+    "text": "of access to an exponentially large object do the rights interference"
+  },
+  {
+    "t_start": 5785.27,
+    "t_end": 5787.59,
+    "text": "object do the rights interference effects miracles happen your final"
+  },
+  {
+    "t_start": 5787.59,
+    "t_end": 5788.95,
+    "text": "effects miracles happen your final measurement outcome gives you useful"
+  },
+  {
+    "t_start": 5788.95,
+    "t_end": 5791.96,
+    "text": "measurement outcome gives you useful information"
+  }
+]

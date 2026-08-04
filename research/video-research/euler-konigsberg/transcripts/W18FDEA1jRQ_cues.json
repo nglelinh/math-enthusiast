@@ -1,0 +1,1557 @@
+[
+  {
+    "t_start": 0.32,
+    "t_end": 2.32,
+    "text": "People living in Königsberg,"
+  },
+  {
+    "t_start": 2.7,
+    "t_end": 5.48,
+    "text": "in what is now Russia or Poland..."
+  },
+  {
+    "t_start": 5.48,
+    "t_end": 6.4,
+    "text": "Hard to say which."
+  },
+  {
+    "t_start": 6.52,
+    "t_end": 9.02,
+    "text": "They had seven bridges across"
+  },
+  {
+    "t_start": 9.3,
+    "t_end": 11.8,
+    "text": "two shores of the Pregel River and"
+  },
+  {
+    "t_start": 11.8,
+    "t_end": 13.38,
+    "text": "there's [sic] two islands!"
+  },
+  {
+    "t_start": 13.38,
+    "t_end": 15.54,
+    "text": "An island over here..."
+  },
+  {
+    "t_start": 15.86,
+    "t_end": 16.36,
+    "text": "Bluh"
+  },
+  {
+    "t_start": 17.34,
+    "t_end": 18.18,
+    "text": "Bank over here,"
+  },
+  {
+    "t_start": 18.32,
+    "t_end": 19.36,
+    "text": "bank over here."
+  },
+  {
+    "t_start": 20.06,
+    "t_end": 21.88,
+    "text": "And they've got it set up"
+  },
+  {
+    "t_start": 22.14,
+    "t_end": 24.42,
+    "text": "so that there's seven bridges."
+  },
+  {
+    "t_start": 24.84,
+    "t_end": 26.8,
+    "text": "One, two... So you could go, you know,"
+  },
+  {
+    "t_start": 26.8,
+    "t_end": 28.12,
+    "text": "you'll wanna walk over this way."
+  },
+  {
+    "t_start": 28.12,
+    "t_end": 30.98,
+    "text": "You could take a horse and bug over to that side,"
+  },
+  {
+    "t_start": 31.08,
+    "t_end": 35.5,
+    "text": "and cross over here."
+  },
+  {
+    "t_start": 35.76,
+    "t_end": 36.74,
+    "text": "One, two, three,"
+  },
+  {
+    "t_start": 36.74,
+    "t_end": 38.02,
+    "text": "four, five, six, seven bridges!"
+  },
+  {
+    "t_start": 38.68,
+    "t_end": 45.08,
+    "text": "People argued: \"Can you take a Sunday walk and just cross every bridge once?\""
+  },
+  {
+    "t_start": 45.48,
+    "t_end": 47.44,
+    "text": "So, I wanna go out someday"
+  },
+  {
+    "t_start": 47.56,
+    "t_end": 51.0,
+    "text": "and just walk across this bridge,"
+  },
+  {
+    "t_start": 51.44,
+    "t_end": 52.1,
+    "text": "walk this bridge..."
+  },
+  {
+    "t_start": 52.1,
+    "t_end": 52.9,
+    "text": "Ah, I'll go this way this time!"
+  },
+  {
+    "t_start": 54.22,
+    "t_end": 55.42,
+    "text": "Walk across here,"
+  },
+  {
+    "t_start": 55.96,
+    "t_end": 57.4,
+    "text": "walk across here... Oops!"
+  },
+  {
+    "t_start": 57.4,
+    "t_end": 59.88,
+    "text": "I can't do it, 'cause I've already crossed those"
+  },
+  {
+    "t_start": 59.88,
+    "t_end": 60.92,
+    "text": "and I've left one."
+  },
+  {
+    "t_start": 61.18,
+    "t_end": 63.62,
+    "text": "I don't care where I start and where I stop."
+  },
+  {
+    "t_start": 64.38,
+    "t_end": 67.68,
+    "text": "But can I cross every bridge one time?"
+  },
+  {
+    "t_start": 68.04,
+    "t_end": 68.98,
+    "text": "People argued about it."
+  },
+  {
+    "t_start": 69.1,
+    "t_end": 70.6,
+    "text": "Nobody was able to do it."
+  },
+  {
+    "t_start": 71.12,
+    "t_end": 74.88,
+    "text": "Euler's at Saint Petersburg, working for the tsars,"
+  },
+  {
+    "t_start": 75.04,
+    "t_end": 76.26,
+    "text": "and he hears about this problem."
+  },
+  {
+    "t_start": 76.4,
+    "t_end": 78.7,
+    "text": "And up until then people had said:"
+  },
+  {
+    "t_start": 78.78,
+    "t_end": 80.38,
+    "text": "\"Well, we have to make a list\""
+  },
+  {
+    "t_start": 80.38,
+    "t_end": 82.48,
+    "text": "\"of all possible ways to do this.\""
+  },
+  {
+    "t_start": 82.7,
+    "t_end": 85.02,
+    "text": "\"We have to try here, go there...\""
+  },
+  {
+    "t_start": 85.16,
+    "t_end": 85.8,
+    "text": "[sound of a series of choices]"
+  },
+  {
+    "t_start": 86.1,
+    "t_end": 90.5,
+    "text": "And in this wonderful paper that Euler writes,"
+  },
+  {
+    "t_start": 90.9,
+    "t_end": 91.46,
+    "text": "he says,"
+  },
+  {
+    "t_start": 93.4,
+    "t_end": 95.56,
+    "text": "Trying to solve it, one at a time,"
+  },
+  {
+    "t_start": 96.18,
+    "t_end": 98.28,
+    "text": "doesn't tell us anything new."
+  },
+  {
+    "t_start": 98.52,
+    "t_end": 101.76,
+    "text": "It's today what we would call a numerical solution."
+  },
+  {
+    "t_start": 101.98,
+    "t_end": 104.38,
+    "text": "That might give you an answer, but"
+  },
+  {
+    "t_start": 104.38,
+    "t_end": 106.06,
+    "text": "it doesn't give you understanding."
+  },
+  {
+    "t_start": 106.72,
+    "t_end": 109.28,
+    "text": "He's saying, \"Hm, how do I do this, ahn?\""
+  },
+  {
+    "t_start": 109.6,
+    "t_end": 111.32,
+    "text": "And then, he says,"
+  },
+  {
+    "t_start": 111.96,
+    "t_end": 114.48,
+    "text": "\"Think about ordinary bridges.\""
+  },
+  {
+    "t_start": 114.92,
+    "t_end": 117.64,
+    "text": "Every time I walk across a bridge onto an island,"
+  },
+  {
+    "t_start": 119.4,
+    "t_end": 123.06,
+    "text": "I go from Blue to Polka Dot Land..."
+  },
+  {
+    "t_start": 123.5,
+    "t_end": 124.94,
+    "text": "Oh, Blue to Polka Dot Land,"
+  },
+  {
+    "t_start": 125.36,
+    "t_end": 129.92,
+    "text": "the Red Shore over to Polka Dot Land..."
+  },
+  {
+    "t_start": 129.92,
+    "t_end": 130.56,
+    "text": "Oh, okay."
+  },
+  {
+    "t_start": 131.1,
+    "t_end": 133.32,
+    "text": "Euler resigned concentrating on the bridges,"
+  },
+  {
+    "t_start": 133.7,
+    "t_end": 134.6,
+    "text": "starts saying,"
+  },
+  {
+    "t_start": 134.76,
+    "t_end": 137.46,
+    "text": "\"Look at the islands, look at the landmasses.\""
+  },
+  {
+    "t_start": 137.9,
+    "t_end": 140.08,
+    "text": "\"Let's label those and think about that.\""
+  },
+  {
+    "t_start": 140.4,
+    "t_end": 141.72,
+    "text": "So he goes over and says,"
+  },
+  {
+    "t_start": 142.34,
+    "t_end": 143.3,
+    "text": "\"I'll label them.\""
+  },
+  {
+    "t_start": 143.8,
+    "t_end": 144.48,
+    "text": "Oh, okay."
+  },
+  {
+    "t_start": 145.0,
+    "t_end": 147.42,
+    "text": "I'll label, what I call Polka Dot Ville,"
+  },
+  {
+    "t_start": 147.5,
+    "t_end": 151.22,
+    "text": "I'll reach my pocket and call that B over here."
+  },
+  {
+    "t_start": 151.36,
+    "t_end": 153.98,
+    "text": "Over here, this side, let's call it C."
+  },
+  {
+    "t_start": 154.44,
+    "t_end": 156.08,
+    "text": "And, oh! Look at this!"
+  },
+  {
+    "t_start": 156.36,
+    "t_end": 157.08,
+    "text": "There's D."
+  },
+  {
+    "t_start": 157.38,
+    "t_end": 159.58,
+    "text": "I shouldn't be walking in the water."
+  },
+  {
+    "t_start": 159.58,
+    "t_end": 160.98,
+    "text": "I should just stay on the b..."
+  },
+  {
+    "t_start": 160.98,
+    "t_end": 162.08,
+    "text": "In fact, I can't do that."
+  },
+  {
+    "t_start": 162.08,
+    "t_end": 163.94,
+    "text": "I ought to just stay on the bridges the whole time."
+  },
+  {
+    "t_start": 164.02,
+    "t_end": 166.14,
+    "text": "Keep me honest, you, Brady. Ahn..."
+  },
+  {
+    "t_start": 166.14,
+    "t_end": 167.22,
+    "text": "[Brady]: Oh, you stepped on the water."
+  },
+  {
+    "t_start": 167.28,
+    "t_end": 168.16,
+    "text": "Oh! Opa pa pa!"
+  },
+  {
+    "t_start": 168.48,
+    "t_end": 170.24,
+    "text": "Let's make it real simple."
+  },
+  {
+    "t_start": 170.86,
+    "t_end": 173.64,
+    "text": "If I have nothing but"
+  },
+  {
+    "t_start": 174.76,
+    "t_end": 176.76,
+    "text": "a bridge going from"
+  },
+  {
+    "t_start": 177.32,
+    "t_end": 180.42,
+    "text": "C to D to B."
+  },
+  {
+    "t_start": 182.28,
+    "t_end": 183.9,
+    "text": "Let's start from C to D."
+  },
+  {
+    "t_start": 184.06,
+    "t_end": 185.18,
+    "text": "Po po popopo..."
+  },
+  {
+    "t_start": 185.54,
+    "t_end": 186.74,
+    "text": "Ok, that's legal."
+  },
+  {
+    "t_start": 187.36,
+    "t_end": 188.32,
+    "text": "So I have C -&gt; D."
+  },
+  {
+    "t_start": 188.9,
+    "t_end": 190.18,
+    "text": "Then I go from D to B."
+  },
+  {
+    "t_start": 191.1,
+    "t_end": 192.44,
+    "text": "Oh, it's D -&gt; B."
+  },
+  {
+    "t_start": 193.58,
+    "t_end": 196.94,
+    "text": "Every time I get from one to another,"
+  },
+  {
+    "t_start": 197.24,
+    "t_end": 199.88,
+    "text": "from one landmass to another landmass,"
+  },
+  {
+    "t_start": 200.32,
+    "t_end": 205.88,
+    "text": "I can make a list -- of -- my -- travels."
+  },
+  {
+    "t_start": 206.34,
+    "t_end": 208.9,
+    "text": "Oh! Oops, stay out of the water!"
+  },
+  {
+    "t_start": 209.06,
+    "t_end": 211.54,
+    "text": "Euler says, \"This means that\""
+  },
+  {
+    "t_start": 211.54,
+    "t_end": 214.04,
+    "text": "\"if I have even number of bridges,\""
+  },
+  {
+    "t_start": 214.56,
+    "t_end": 215.36,
+    "text": "\"one-one,\""
+  },
+  {
+    "t_start": 217.16,
+    "t_end": 219.58,
+    "text": "\"going into and out of an island,\""
+  },
+  {
+    "t_start": 219.94,
+    "t_end": 221.28,
+    "text": "\"that's completely legal.\""
+  },
+  {
+    "t_start": 222.12,
+    "t_end": 224.18,
+    "text": "I can go right through the island"
+  },
+  {
+    "t_start": 224.78,
+    "t_end": 229.64,
+    "text": "if I have four bridges..."
+  },
+  {
+    "t_start": 230.5,
+    "t_end": 233.02,
+    "text": "Oh, you can come across here, come across here,"
+  },
+  {
+    "t_start": 233.02,
+    "t_end": 234.78,
+    "text": "back, over, and back."
+  },
+  {
+    "t_start": 235.94,
+    "t_end": 238.98,
+    "text": "But an *odd* number of bridges..."
+  },
+  {
+    "t_start": 240.8,
+    "t_end": 241.82,
+    "text": "Okay..."
+  },
+  {
+    "t_start": 241.82,
+    "t_end": 243.68,
+    "text": "I can come across here,"
+  },
+  {
+    "t_start": 245.12,
+    "t_end": 246.38,
+    "text": "and come across here..."
+  },
+  {
+    "t_start": 246.52,
+    "t_end": 247.44,
+    "text": "But I'm stuck!"
+  },
+  {
+    "t_start": 249.3,
+    "t_end": 250.78,
+    "text": "Go this way, turn around,"
+  },
+  {
+    "t_start": 250.78,
+    "t_end": 252.28,
+    "text": "but I haven't crossed this one."
+  },
+  {
+    "t_start": 255.54,
+    "t_end": 260.08,
+    "text": "Alternatively, I could start on yellow... on D,"
+  },
+  {
+    "t_start": 260.78,
+    "t_end": 262.8,
+    "text": "walk this way, come back here,"
+  },
+  {
+    "t_start": 263.82,
+    "t_end": 265.16,
+    "text": "and then walk out here."
+  },
+  {
+    "t_start": 265.96,
+    "t_end": 269.04,
+    "text": "Euler says, \"Oh!\""
+  },
+  {
+    "t_start": 270.3,
+    "t_end": 273.42,
+    "text": "\"If I have an odd number of bridges\""
+  },
+  {
+    "t_start": 274.1,
+    "t_end": 277.54,
+    "text": "\"to any or from any island, I have to either\""
+  },
+  {
+    "t_start": 278.5,
+    "t_end": 284.96,
+    "text": "\"or end my walk at that location.\""
+  },
+  {
+    "t_start": 285.14,
+    "t_end": 286.82,
+    "text": "Right now,"
+  },
+  {
+    "t_start": 287.22,
+    "t_end": 291.6,
+    "text": "island A has two bridges going to it."
+  },
+  {
+    "t_start": 292.36,
+    "t_end": 297.32,
+    "text": "That means, oh, if I do not start on this island,"
+  },
+  {
+    "t_start": 297.94,
+    "t_end": 299.46,
+    "text": "I can just traverse it."
+  },
+  {
+    "t_start": 300.7,
+    "t_end": 302.46,
+    "text": "You know, Euler goes on and says,"
+  },
+  {
+    "t_start": 302.7,
+    "t_end": 305.56,
+    "text": "\"And if I start in that island,\""
+  },
+  {
+    "t_start": 305.94,
+    "t_end": 307.7,
+    "text": "\"I can go around -- blah, blah, blah\""
+  },
+  {
+    "t_start": 307.7,
+    "t_end": 309.36,
+    "text": "\"Vu vu vuf -- and return to it.\""
+  },
+  {
+    "t_start": 310.56,
+    "t_end": 312.16,
+    "text": "Even numbered islands,"
+  },
+  {
+    "t_start": 312.98,
+    "t_end": 316.3,
+    "text": "islands that have an even number of bridges going to 'em."
+  },
+  {
+    "t_start": 317.38,
+    "t_end": 318.4,
+    "text": "I've got it made!"
+  },
+  {
+    "t_start": 318.5,
+    "t_end": 320.58,
+    "text": "This makes it possible for me to -- to -- to--"
+  },
+  {
+    "t_start": 321.32,
+    "t_end": 323.62,
+    "text": "almost eliminate them from my thought process."
+  },
+  {
+    "t_start": 324.24,
+    "t_end": 325.64,
+    "text": "And it works whether it's"
+  },
+  {
+    "t_start": 325.64,
+    "t_end": 327.08,
+    "text": "two, four, or even..."
+  },
+  {
+    "t_start": 329.46,
+    "t_end": 330.22,
+    "text": "Or even six."
+  },
+  {
+    "t_start": 330.4,
+    "t_end": 331.72,
+    "text": "Ok, got that one."
+  },
+  {
+    "t_start": 332.12,
+    "t_end": 334.92,
+    "text": "Any landmasses, any place that has a"
+  },
+  {
+    "t_start": 334.92,
+    "t_end": 336.12,
+    "text": "bridge connected to it,"
+  },
+  {
+    "t_start": 336.36,
+    "t_end": 339.0,
+    "text": "if it has an even number of bridges -- oh!"
+  },
+  {
+    "t_start": 339.32,
+    "t_end": 340.54,
+    "text": "Easy! Piece of cake."
+  },
+  {
+    "t_start": 340.7,
+    "t_end": 342.94,
+    "text": "If it has an odd number of bridges,"
+  },
+  {
+    "t_start": 343.2,
+    "t_end": 344.56,
+    "text": "then it's a special case."
+  },
+  {
+    "t_start": 345.98,
+    "t_end": 349.26,
+    "text": "Clearly, if there is just one landmass"
+  },
+  {
+    "t_start": 349.26,
+    "t_end": 352.12,
+    "text": "that has an odd number of bridges,"
+  },
+  {
+    "t_start": 353.3,
+    "t_end": 355.66,
+    "text": "I can start on it,"
+  },
+  {
+    "t_start": 356.32,
+    "t_end": 360.0,
+    "text": "but I won't be able to get back to it to stop on it."
+  },
+  {
+    "t_start": 361.76,
+    "t_end": 369.72,
+    "text": "But if I have two islands that have an odd number of bridges leading to them,"
+  },
+  {
+    "t_start": 369.72,
+    "t_end": 372.12,
+    "text": "I can start on one, traverse around,"
+  },
+  {
+    "t_start": 372.92,
+    "t_end": 374.72,
+    "text": "and then end on the other one."
+  },
+  {
+    "t_start": 375.06,
+    "t_end": 379.74,
+    "text": "Now, let's go back to what was really happening in Königsberg around 1725."
+  },
+  {
+    "t_start": 380.18,
+    "t_end": 381.26,
+    "text": "Seven bridges, remember?"
+  },
+  {
+    "t_start": 381.76,
+    "t_end": 383.54,
+    "text": "Wasn't arranged like this."
+  },
+  {
+    "t_start": 383.54,
+    "t_end": 384.04,
+    "text": "It was..."
+  },
+  {
+    "t_start": 384.04,
+    "t_end": 386.5,
+    "text": "One, two, three, four, five, six, seven. Ok."
+  },
+  {
+    "t_start": 386.5,
+    "t_end": 387.48,
+    "text": "Let me see..."
+  },
+  {
+    "t_start": 387.48,
+    "t_end": 389.16,
+    "text": "[splashing water sound]"
+  },
+  {
+    "t_start": 389.96,
+    "t_end": 391.56,
+    "text": "Let me see how I'm doing."
+  },
+  {
+    "t_start": 391.76,
+    "t_end": 394.76,
+    "text": "This section, the Red Shore,"
+  },
+  {
+    "t_start": 394.76,
+    "t_end": 395.58,
+    "text": "what he calls C,"
+  },
+  {
+    "t_start": 396.82,
+    "t_end": 399.46,
+    "text": "I have -- one, two -- three bridges from."
+  },
+  {
+    "t_start": 399.46,
+    "t_end": 400.08,
+    "text": "[Brady]: Odd."
+  },
+  {
+    "t_start": 400.2,
+    "t_end": 401.8,
+    "text": "Oh, it's and odd number!"
+  },
+  {
+    "t_start": 402.72,
+    "t_end": 403.36,
+    "text": "Odd number!"
+  },
+  {
+    "t_start": 403.92,
+    "t_end": 404.42,
+    "text": "Okay."
+  },
+  {
+    "t_start": 404.72,
+    "t_end": 405.52,
+    "text": "How about D?"
+  },
+  {
+    "t_start": 406.2,
+    "t_end": 408.38,
+    "text": "Let go over D, island D."
+  },
+  {
+    "t_start": 408.8,
+    "t_end": 410.08,
+    "text": "One, two -- three bridges."
+  },
+  {
+    "t_start": 410.08,
+    "t_end": 412.08,
+    "text": "Oh, this is odd."
+  },
+  {
+    "t_start": 412.08,
+    "t_end": 415.28,
+    "text": "How about... The North Shore, B?"
+  },
+  {
+    "t_start": 416.24,
+    "t_end": 418.24,
+    "text": "One, two, three -- odd number."
+  },
+  {
+    "t_start": 419.08,
+    "t_end": 420.68,
+    "text": "What about island A?"
+  },
+  {
+    "t_start": 420.68,
+    "t_end": 422.58,
+    "text": "One, two, three, four -- five!"
+  },
+  {
+    "t_start": 422.76,
+    "t_end": 423.72,
+    "text": "An odd number."
+  },
+  {
+    "t_start": 424.68,
+    "t_end": 430.56,
+    "text": "All of this landmasses have an odd number of bridges leading to 'em."
+  },
+  {
+    "t_start": 431.28,
+    "t_end": 432.96,
+    "text": "Euler says, \"Nuh-uh,\""
+  },
+  {
+    "t_start": 433.02,
+    "t_end": 436.06,
+    "text": "\"none of them have an even number of bridges.\""
+  },
+  {
+    "t_start": 436.06,
+    "t_end": 437.34,
+    "text": "\"All are odd.\""
+  },
+  {
+    "t_start": 437.34,
+    "t_end": 439.1,
+    "text": "No matter where you start,"
+  },
+  {
+    "t_start": 439.2,
+    "t_end": 441.76,
+    "text": "you cannot traverse all those bridges. ∎"
+  },
+  {
+    "t_start": 442.6,
+    "t_end": 445.5,
+    "text": "Along, comes World War II: bomber attacks."
+  },
+  {
+    "t_start": 445.88,
+    "t_end": 449.12,
+    "text": "Horrible! Just a desperately horrible situation."
+  },
+  {
+    "t_start": 449.46,
+    "t_end": 451.26,
+    "text": "Two of these bridges get destroyed."
+  },
+  {
+    "t_start": 452.54,
+    "t_end": 453.68,
+    "text": "The town is devastated,"
+  },
+  {
+    "t_start": 453.68,
+    "t_end": 454.98,
+    "text": "but at the end of the war,"
+  },
+  {
+    "t_start": 455.92,
+    "t_end": 457.58,
+    "text": "there's five bridges left."
+  },
+  {
+    "t_start": 457.74,
+    "t_end": 459.1,
+    "text": "So, in a sense, today"
+  },
+  {
+    "t_start": 459.32,
+    "t_end": 461.22,
+    "text": "there's no Seven Bridges of Königsberg anymore."
+  },
+  {
+    "t_start": 461.46,
+    "t_end": 463.64,
+    "text": "Not only there are not seven bridges,"
+  },
+  {
+    "t_start": 464.66,
+    "t_end": 466.52,
+    "text": "the city of Königsberg doesn't exist."
+  },
+  {
+    "t_start": 466.52,
+    "t_end": 469.44,
+    "text": "It's been renamed to Kaliningrad."
+  },
+  {
+    "t_start": 469.8,
+    "t_end": 471.54,
+    "text": "It's a part of Russia today."
+  },
+  {
+    "t_start": 471.56,
+    "t_end": 473.64,
+    "text": "Or I think the Baltic Fleet works out of there."
+  },
+  {
+    "t_start": 473.82,
+    "t_end": 476.42,
+    "text": "And there's five bridges."
+  },
+  {
+    "t_start": 476.5,
+    "t_end": 477.14,
+    "text": "Well..."
+  },
+  {
+    "t_start": 478.08,
+    "t_end": 482.14,
+    "text": "Suppose you're sitting around in today's city."
+  },
+  {
+    "t_start": 482.26,
+    "t_end": 484.4,
+    "text": "Could you do this?"
+  },
+  {
+    "t_start": 485.04,
+    "t_end": 488.22,
+    "text": "Well, before even trying, let's just note:"
+  },
+  {
+    "t_start": 488.88,
+    "t_end": 491.18,
+    "text": "C over here, node C,"
+  },
+  {
+    "t_start": 491.4,
+    "t_end": 495.9,
+    "text": "this landmass of C, has two bridges today."
+  },
+  {
+    "t_start": 496.4,
+    "t_end": 497.82,
+    "text": "An even number."
+  },
+  {
+    "t_start": 497.86,
+    "t_end": 500.34,
+    "text": "Over there, the landmass B, the blue one,"
+  },
+  {
+    "t_start": 500.34,
+    "t_end": 502.78,
+    "text": "has one, two bridges from it."
+  },
+  {
+    "t_start": 503.82,
+    "t_end": 505.64,
+    "text": "What about island A?"
+  },
+  {
+    "t_start": 505.64,
+    "t_end": 509.56,
+    "text": "One, two, three bridges, an odd number."
+  },
+  {
+    "t_start": 509.78,
+    "t_end": 512.58,
+    "text": "Island D -- one, two -- three bridges."
+  },
+  {
+    "t_start": 512.82,
+    "t_end": 519.1,
+    "text": "Oh! Thus, today there is no problem!"
+  },
+  {
+    "t_start": 520.54,
+    "t_end": 526.0,
+    "text": "From what Euler said, we could start on either of the odd-bridged islands."
+  },
+  {
+    "t_start": 526.82,
+    "t_end": 528.1,
+    "text": "So I can start here,"
+  },
+  {
+    "t_start": 529.68,
+    "t_end": 531.32,
+    "text": "and I'll end there."
+  },
+  {
+    "t_start": 531.32,
+    "t_end": 535.46,
+    "text": "I have to choose a path that takes me from here to there."
+  },
+  {
+    "t_start": 535.46,
+    "t_end": 536.92,
+    "text": "Ok. I'll go like this:"
+  },
+  {
+    "t_start": 536.92,
+    "t_end": 537.7,
+    "text": "(Po po po po)"
+  },
+  {
+    "t_start": 537.98,
+    "t_end": 540.88,
+    "text": "Crossed two bridge."
+  },
+  {
+    "t_start": 540.88,
+    "t_end": 543.0,
+    "text": "I'll walk across my third bridge backwards."
+  },
+  {
+    "t_start": 543.74,
+    "t_end": 546.46,
+    "text": "Walk across the fourth bridge forwards,"
+  },
+  {
+    "t_start": 547.46,
+    "t_end": 548.92,
+    "text": "back to where I started, but wait!"
+  },
+  {
+    "t_start": 548.92,
+    "t_end": 550.16,
+    "text": "There's one more bridge."
+  },
+  {
+    "t_start": 550.16,
+    "t_end": 551.4,
+    "text": "(Po po po po)"
+  },
+  {
+    "t_start": 551.4,
+    "t_end": 553.28,
+    "text": "I've traversed the entire path."
+  },
+  {
+    "t_start": 553.54,
+    "t_end": 555.38,
+    "text": "Started there, ended there."
+  },
+  {
+    "t_start": 555.5,
+    "t_end": 558.38,
+    "text": "Euler has told us that, if there are exactly"
+  },
+  {
+    "t_start": 558.52,
+    "t_end": 562.7,
+    "text": "two islands that have an odd number of bridges,"
+  },
+  {
+    "t_start": 562.82,
+    "t_end": 566.54,
+    "text": "you have to start on one of them and end on the other one."
+  },
+  {
+    "t_start": 566.7,
+    "t_end": 571.42,
+    "text": "If there were three islands that had, each had an odd number of bridges,"
+  },
+  {
+    "t_start": 572.04,
+    "t_end": 572.54,
+    "text": "no way!"
+  },
+  {
+    "t_start": 572.54,
+    "t_end": 574.12,
+    "text": "You couldn't solve the problem."
+  },
+  {
+    "t_start": 574.94,
+    "t_end": 580.88,
+    "text": "However, if each island had an even number of bridges..."
+  },
+  {
+    "t_start": 582.14,
+    "t_end": 585.54,
+    "text": "Suppose next week there's an earthquake."
+  },
+  {
+    "t_start": 585.74,
+    "t_end": 589.14,
+    "text": "At the Baltic Sea, it knocks down one bridge."
+  },
+  {
+    "t_start": 590.3,
+    "t_end": 594.3,
+    "text": "Now, every landmass has two bridges going to it."
+  },
+  {
+    "t_start": 595.0,
+    "t_end": 596.2,
+    "text": "And even I can figure it out,"
+  },
+  {
+    "t_start": 596.26,
+    "t_end": 598.58,
+    "text": "oh, yeah, I can traverse them all."
+  },
+  {
+    "t_start": 598.58,
+    "t_end": 601.18,
+    "text": "Here's the first one, here's the second one,"
+  },
+  {
+    "t_start": 601.18,
+    "t_end": 603.1,
+    "text": "here's the third one, here's the fourth one."
+  },
+  {
+    "t_start": 603.1,
+    "t_end": 605.56,
+    "text": "I traversed them all without any problem at all."
+  },
+  {
+    "t_start": 606.06,
+    "t_end": 609.02,
+    "text": "Ok, suppose we only have three bridges today."
+  },
+  {
+    "t_start": 609.02,
+    "t_end": 610.58,
+    "text": "[Brady]: Another earthquake."
+  },
+  {
+    "t_start": 610.58,
+    "t_end": 611.86,
+    "text": "Another earthquake happens!"
+  },
+  {
+    "t_start": 611.86,
+    "t_end": 613.34,
+    "text": "Ahh! Another bridge falls down!"
+  },
+  {
+    "t_start": 615.16,
+    "t_end": 620.04,
+    "text": "Now, Island A has one bridge leading to it: an odd number."
+  },
+  {
+    "t_start": 621.12,
+    "t_end": 625.38,
+    "text": "North Shore B has two bridges leading to it: even."
+  },
+  {
+    "t_start": 626.66,
+    "t_end": 630.06,
+    "text": "D over here, Island D has two bridges"
+  },
+  {
+    "t_start": 630.88,
+    "t_end": 634.0,
+    "text": "and C, where I'm standing, has only one bridge on it."
+  },
+  {
+    "t_start": 634.94,
+    "t_end": 640.14,
+    "text": "In this case, Euler tells us, yes, we can still make a circuit"
+  },
+  {
+    "t_start": 640.44,
+    "t_end": 643.6,
+    "text": "that crosses all three bridges"
+  },
+  {
+    "t_start": 643.86,
+    "t_end": 646.88,
+    "text": "but we have to start on an odd-numbered place"
+  },
+  {
+    "t_start": 646.96,
+    "t_end": 648.44,
+    "text": "and end on an odd number. So,"
+  },
+  {
+    "t_start": 648.7,
+    "t_end": 650.76,
+    "text": "I'm on the odd-numbered C,"
+  },
+  {
+    "t_start": 650.76,
+    "t_end": 652.84,
+    "text": "there's only one bridge, one is an odd number."
+  },
+  {
+    "t_start": 652.84,
+    "t_end": 654.24,
+    "text": "Okay -- (po po po po!)"
+  },
+  {
+    "t_start": 654.5,
+    "t_end": 655.2,
+    "text": "Got to D."
+  },
+  {
+    "t_start": 655.2,
+    "t_end": 656.56,
+    "text": "D is an even one. Oh, ok."
+  },
+  {
+    "t_start": 656.76,
+    "t_end": 657.94,
+    "text": "I'll walk across this one."
+  },
+  {
+    "t_start": 658.12,
+    "t_end": 658.86,
+    "text": "(Pop pa!)"
+  },
+  {
+    "t_start": 659.42,
+    "t_end": 661.54,
+    "text": "And then I get to B and, oh,"
+  },
+  {
+    "t_start": 662.8,
+    "t_end": 664.6,
+    "text": "I can walk across this."
+  },
+  {
+    "t_start": 664.96,
+    "t_end": 668.36,
+    "text": "I end up on an odd-bridged island"
+  },
+  {
+    "t_start": 668.54,
+    "t_end": 670.26,
+    "text": "and have completed traversed it."
+  },
+  {
+    "t_start": 670.56,
+    "t_end": 675.12,
+    "text": "If all the islands have an even number of bridges,"
+  },
+  {
+    "t_start": 675.46,
+    "t_end": 676.6,
+    "text": "even everywhere!"
+  },
+  {
+    "t_start": 676.76,
+    "t_end": 679.44,
+    "text": "Then, we're even-Steven, piece of cake."
+  },
+  {
+    "t_start": 679.56,
+    "t_end": 682.58,
+    "text": "You can make this traverse and everybody in the saloon,"
+  },
+  {
+    "t_start": 682.74,
+    "t_end": 684.58,
+    "text": "in their Sunday walks, they're happy!"
+  },
+  {
+    "t_start": 684.98,
+    "t_end": 688.1,
+    "text": "What if there's only one odd-numbered island?"
+  },
+  {
+    "t_start": 688.28,
+    "t_end": 690.76,
+    "text": "Turns out you can't make such a thing."
+  },
+  {
+    "t_start": 691.04,
+    "t_end": 692.14,
+    "text": "If I have..."
+  },
+  {
+    "t_start": 693.08,
+    "t_end": 695.28,
+    "text": "Consider just one bridge."
+  },
+  {
+    "t_start": 696.44,
+    "t_end": 699.92,
+    "text": "I have an island here, oh, it's got an odd number o' bridges."
+  },
+  {
+    "t_start": 699.92,
+    "t_end": 702.94,
+    "text": "But, oh, here's a second island that has an odd number of bridges."
+  },
+  {
+    "t_start": 703.14,
+    "t_end": 703.86,
+    "text": "I can't..."
+  },
+  {
+    "t_start": 704.06,
+    "t_end": 706.46,
+    "text": "I could sort of send it up into the air"
+  },
+  {
+    "t_start": 706.46,
+    "t_end": 709.08,
+    "text": "or it could have, you know, goes out into the water,"
+  },
+  {
+    "t_start": 709.14,
+    "t_end": 710.28,
+    "text": "you walk the plank."
+  },
+  {
+    "t_start": 710.5,
+    "t_end": 712.48,
+    "text": "But no, for a legitimate bridge,"
+  },
+  {
+    "t_start": 712.48,
+    "t_end": 717.78,
+    "text": "if there's one odd, there has to be another matching somewhere on the graph."
+  },
+  {
+    "t_start": 718.08,
+    "t_end": 722.42,
+    "text": "So, Euler showed that this bridge problem is kind of cool."
+  },
+  {
+    "t_start": 722.58,
+    "t_end": 725.16,
+    "text": "So if you're in a saloon or going out on a Sunday walk,"
+  },
+  {
+    "t_start": 725.16,
+    "t_end": 728.94,
+    "text": "it is nice to know -- oh, I can or can't complete the circuit."
+  },
+  {
+    "t_start": 729.34,
+    "t_end": 730.06,
+    "text": "Who cares?"
+  },
+  {
+    "t_start": 730.64,
+    "t_end": 736.8,
+    "text": "Well, you can't pick up a book on discrete mathematics..."
+  },
+  {
+    "t_start": 737.04,
+    "t_end": 740.96,
+    "text": "Discrete mathematics and computer science..."
+  },
+  {
+    "t_start": 741.34,
+    "t_end": 742.72,
+    "text": "Discrete mathematics with ducks..."
+  },
+  {
+    "t_start": 743.56,
+    "t_end": 746.68,
+    "text": "You can't touch a book on this"
+  },
+  {
+    "t_start": 746.82,
+    "t_end": 748.56,
+    "text": "without turning to a page"
+  },
+  {
+    "t_start": 748.9,
+    "t_end": 750.76,
+    "text": "that has Euler on it!"
+  },
+  {
+    "t_start": 751.64,
+    "t_end": 753.48,
+    "text": "And sure enough, over here,"
+  },
+  {
+    "t_start": 753.48,
+    "t_end": 758.08,
+    "text": "\"The Swiss mathematician, Leonhard Euler, solves this problem -- blah blah blah\""
+  },
+  {
+    "t_start": 758.08,
+    "t_end": 761.54,
+    "text": "Euler invented graph theory."
+  },
+  {
+    "t_start": 761.98,
+    "t_end": 768.1,
+    "text": "This is the first time, 1830 [sic], that graph theory has been thought of."
+  },
+  {
+    "t_start": 768.5,
+    "t_end": 772.58,
+    "text": "And instead of analyzing this as a \"let's walk across bridges\","
+  },
+  {
+    "t_start": 773.24,
+    "t_end": 775.68,
+    "text": "Euler recognized that..."
+  },
+  {
+    "t_start": 776.78,
+    "t_end": 779.66,
+    "text": "That connections from one place to another"
+  },
+  {
+    "t_start": 780.12,
+    "t_end": 783.42,
+    "text": "were central to a part of mathematics."
+  },
+  {
+    "t_start": 783.66,
+    "t_end": 785.32,
+    "text": "Even cooler than that!"
+  },
+  {
+    "t_start": 785.42,
+    "t_end": 788.82,
+    "text": "Euler said, \"This is a geometric problem\""
+  },
+  {
+    "t_start": 788.9,
+    "t_end": 792.52,
+    "text": "\"that has no triangles, it doesn't have hypotenuses in it.\""
+  },
+  {
+    "t_start": 792.74,
+    "t_end": 796.84,
+    "text": "It's what he called a geometry problem of location."
+  },
+  {
+    "t_start": 797.5,
+    "t_end": 800.96,
+    "text": "This was the beginning of topology."
+  },
+  {
+    "t_start": 802.64,
+    "t_end": 811.94,
+    "text": "Euler's solution for this created graph theory."
+  },
+  {
+    "t_start": 814.58,
+    "t_end": 818.56,
+    "text": "All this from a guy who,"
+  },
+  {
+    "t_start": 818.72,
+    "t_end": 820.42,
+    "text": "\"Oh, yeah, I got a little bit of time\""
+  },
+  {
+    "t_start": 820.42,
+    "t_end": 824.34,
+    "text": "\"to think about a problem that I heard about from people going out on Sunday walks.\""
+  },
+  {
+    "t_start": 825.26,
+    "t_end": 826.54,
+    "text": "That's brilliant."
+  },
+  {
+    "t_start": 827.18,
+    "t_end": 828.56,
+    "text": "[Credits]"
+  },
+  {
+    "t_start": 828.98,
+    "t_end": 831.22,
+    "text": "Thank you to Audible for supporting this video."
+  },
+  {
+    "t_start": 831.32,
+    "t_end": 834.8,
+    "text": "Audible is the top provider of audio books and other spoken material"
+  },
+  {
+    "t_start": 834.8,
+    "t_end": 838.14,
+    "text": "with a dizzying number of titles covering almost anything you can think of."
+  },
+  {
+    "t_start": 838.14,
+    "t_end": 842.12,
+    "text": "If you don't believe me, here are just seven bridge books you might enjoy listening to."
+  },
+  {
+    "t_start": 842.58,
+    "t_end": 846.0,
+    "text": "Bridge of Spies, The Ice Bridge, Bridge to Terabithia,"
+  },
+  {
+    "t_start": 846.0,
+    "t_end": 848.64,
+    "text": "A Bridge Too Far, The Invisible Bridge,"
+  },
+  {
+    "t_start": 848.64,
+    "t_end": 852.96,
+    "text": "Bridget Jone's Diary and, my personal favorite on this list, The Great Bridge:"
+  },
+  {
+    "t_start": 852.96,
+    "t_end": 856.44,
+    "text": "The epic history of the building of the Brooklin Bridge."
+  },
+  {
+    "t_start": 856.58,
+    "t_end": 858.2,
+    "text": "And I've said bridge a lot of times."
+  },
+  {
+    "t_start": 858.2,
+    "t_end": 860.92,
+    "text": "If you'd like to listen to any other books from Audible,"
+  },
+  {
+    "t_start": 860.92,
+    "t_end": 863.14,
+    "text": "you can sign up for a free month trial,"
+  },
+  {
+    "t_start": 863.14,
+    "t_end": 866.14,
+    "text": "which will include your first book for no charge."
+  },
+  {
+    "t_start": 866.22,
+    "t_end": 869.22,
+    "text": "Audible is a great service, that've got a super app for your phone"
+  },
+  {
+    "t_start": 869.4,
+    "t_end": 873.16,
+    "text": "and it's really easy to exchange a book if you end up with one that doesn't take you fancy."
+  },
+  {
+    "t_start": 873.42,
+    "t_end": 877.4,
+    "text": "To give them a try, go to Audible.com/numberphile."
+  },
+  {
+    "t_start": 877.56,
+    "t_end": 879.26,
+    "text": "Thatwise, they'll know you came from here."
+  },
+  {
+    "t_start": 879.4,
+    "t_end": 881.4,
+    "text": "And now thanks to them for supporting this video."
+  }
+]

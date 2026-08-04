@@ -1,0 +1,3117 @@
+[
+  {
+    "t_start": 1.91,
+    "t_end": 7.749,
+    "text": "I'm Dan Frerieded and uh it's a pleasure to welcome you here to the fifth in this"
+  },
+  {
+    "t_start": 7.749,
+    "t_end": 9.669,
+    "text": "to welcome you here to the fifth in this series of seven lectures about the"
+  },
+  {
+    "t_start": 9.669,
+    "t_end": 12.31,
+    "text": "series of seven lectures about the Millennium Prize problems. These"
+  },
+  {
+    "t_start": 12.31,
+    "t_end": 17.43,
+    "text": "lectures are sponsored jointly by the mathematics department here by the CMSA"
+  },
+  {
+    "t_start": 17.43,
+    "t_end": 20.39,
+    "text": "mathematics department here by the CMSA Harvard Center Mathematical Sciences and"
+  },
+  {
+    "t_start": 20.39,
+    "t_end": 24.87,
+    "text": "Harvard Center Mathematical Sciences and Applications and also by the Clay"
+  },
+  {
+    "t_start": 24.87,
+    "t_end": 31.669,
+    "text": "Um, I keep these introductions short, so we're just going to go right to the this"
+  },
+  {
+    "t_start": 31.669,
+    "t_end": 33.99,
+    "text": "we're just going to go right to the this problem, the Birch and Schwinderton Dire"
+  },
+  {
+    "t_start": 33.99,
+    "t_end": 36.47,
+    "text": "problem, the Birch and Schwinderton Dire conjecture, and we're thrilled to have"
+  },
+  {
+    "t_start": 36.47,
+    "t_end": 39.83,
+    "text": "conjecture, and we're thrilled to have our own Barry Maser tell us about it"
+  },
+  {
+    "t_start": 39.83,
+    "t_end": 45.75,
+    "text": "&gt;&gt; Well, as Dan just said, uh, we're going to muse about uh the Burge Thorn"
+  },
+  {
+    "t_start": 45.75,
+    "t_end": 48.229,
+    "text": "to muse about uh the Burge Thorn architecture. Whoops. Oh gosh, I got to"
+  },
+  {
+    "t_start": 48.229,
+    "t_end": 51.91,
+    "text": "architecture. Whoops. Oh gosh, I got to learn how to manage this"
+  },
+  {
+    "t_start": 51.91,
+    "t_end": 58.069,
+    "text": "uh clicker. Um, and um, it's a Millennium Prize problem and I'll be"
+  },
+  {
+    "t_start": 58.069,
+    "t_end": 61.189,
+    "text": "Millennium Prize problem and I'll be thinking about it. Um, and thinking"
+  },
+  {
+    "t_start": 61.189,
+    "t_end": 69.429,
+    "text": "thinking about it. Um, and thinking about uh, Dick Gross who died recently."
+  },
+  {
+    "t_start": 69.429,
+    "t_end": 71.99,
+    "text": "He was a blessing to um uh all of his friends and family of"
+  },
+  {
+    "t_start": 71.99,
+    "t_end": 75.75,
+    "text": "uh all of his friends and family of course and to the math department, to"
+  },
+  {
+    "t_start": 75.75,
+    "t_end": 77.67,
+    "text": "course and to the math department, to the university,"
+  },
+  {
+    "t_start": 77.67,
+    "t_end": 82.07,
+    "text": "the university, to the"
+  },
+  {
+    "t_start": 82.07,
+    "t_end": 87.67,
+    "text": "uh community of mathematicians, in fact to anyone he encountered."
+  },
+  {
+    "t_start": 87.67,
+    "t_end": 93.59,
+    "text": "to anyone he encountered. And we'll see his influence on the"
+  },
+  {
+    "t_start": 93.59,
+    "t_end": 99.91,
+    "text": "Now there you see um the originators of our little subject Burch and Swin and D"
+  },
+  {
+    "t_start": 99.91,
+    "t_end": 104.31,
+    "text": "our little subject Burch and Swin and D conjecture. There's uh"
+  },
+  {
+    "t_start": 106.23,
+    "t_end": 110.31,
+    "text": "I have to learn how to run this thing. There's Birch and there's Sw and Dire in"
+  },
+  {
+    "t_start": 110.31,
+    "t_end": 113.03,
+    "text": "There's Birch and there's Sw and Dire in their youth incarnations"
+  },
+  {
+    "t_start": 113.03,
+    "t_end": 117.99,
+    "text": "their youth incarnations and there below in their maturity and"
+  },
+  {
+    "t_start": 117.99,
+    "t_end": 123.83,
+    "text": "wisdom and they had the wisdom in uh the 1950s"
+  },
+  {
+    "t_start": 123.83,
+    "t_end": 126.87,
+    "text": "and they had the wisdom in uh the 1950s um to use the EDSAC computer in"
+  },
+  {
+    "t_start": 126.87,
+    "t_end": 130.309,
+    "text": "um to use the EDSAC computer in Cambridge uh to make um"
+  },
+  {
+    "t_start": 130.309,
+    "t_end": 132.949,
+    "text": "Cambridge uh to make um uh computations"
+  },
+  {
+    "t_start": 132.949,
+    "t_end": 139.51,
+    "text": "uh which suggested striking connection between"
+  },
+  {
+    "t_start": 139.51,
+    "t_end": 142.47,
+    "text": "striking connection between a basic global"
+  },
+  {
+    "t_start": 142.47,
+    "t_end": 150.07,
+    "text": "curve defined over the field of rational numbers that is say the rank of its"
+  },
+  {
+    "t_start": 150.07,
+    "t_end": 153.43,
+    "text": "numbers that is say the rank of its group of rational points and something"
+  },
+  {
+    "t_start": 153.43,
+    "t_end": 158.39,
+    "text": "group of rational points and something that uh seems somewhat uh different"
+  },
+  {
+    "t_start": 158.39,
+    "t_end": 160.949,
+    "text": "that uh seems somewhat uh different uh certain asmtoics"
+  },
+  {
+    "t_start": 160.949,
+    "t_end": 166.309,
+    "text": "of its local arithmetic invariance uh the number of its rational points"
+  },
+  {
+    "t_start": 166.309,
+    "t_end": 169.83,
+    "text": "uh the number of its rational points over finite fields"
+  },
+  {
+    "t_start": 169.83,
+    "t_end": 176.47,
+    "text": "and the this initial observation evolved into their conjecture and I'm"
+  },
+  {
+    "t_start": 176.47,
+    "t_end": 179.27,
+    "text": "evolved into their conjecture and I'm going to talk about general ideas the"
+  },
+  {
+    "t_start": 179.27,
+    "t_end": 182.149,
+    "text": "going to talk about general ideas the general shape of it and uh it's"
+  },
+  {
+    "t_start": 182.149,
+    "t_end": 183.99,
+    "text": "general shape of it and uh it's everexpanding development and I'll try"
+  },
+  {
+    "t_start": 183.99,
+    "t_end": 192.71,
+    "text": "everexpanding development and I'll try to do this in as um non-technical a way"
+  },
+  {
+    "t_start": 192.71,
+    "t_end": 198.949,
+    "text": "as uh as as is feasible feasible so it's a conjecture that I write here"
+  },
+  {
+    "t_start": 198.949,
+    "t_end": 200.869,
+    "text": "that unifies um"
+  },
+  {
+    "t_start": 200.869,
+    "t_end": 205.99,
+    "text": "there's power in the word words that I've put on that screen conjecture"
+  },
+  {
+    "t_start": 205.99,
+    "t_end": 209.67,
+    "text": "I've put on that screen conjecture problem hypothesis program they're"
+  },
+  {
+    "t_start": 209.67,
+    "t_end": 216.47,
+    "text": "problem hypothesis program they're frames for mathematical assertions that"
+  },
+  {
+    "t_start": 216.47,
+    "t_end": 218.869,
+    "text": "call for that call us to do new mathematics"
+  },
+  {
+    "t_start": 218.869,
+    "t_end": 224.229,
+    "text": "now a conjecture might take on a devil's advocate posture"
+  },
+  {
+    "t_start": 224.229,
+    "t_end": 226.63,
+    "text": "might take on a devil's advocate posture here."
+  },
+  {
+    "t_start": 226.63,
+    "t_end": 233.03,
+    "text": "Prove me wrong if you can. It might capture mathematical ideas in a"
+  },
+  {
+    "t_start": 233.03,
+    "t_end": 236.309,
+    "text": "It might capture mathematical ideas in a volatile early state. I say think of"
+  },
+  {
+    "t_start": 236.309,
+    "t_end": 239.429,
+    "text": "volatile early state. I say think of Remon's hypothesis. Now, if uh you take"
+  },
+  {
+    "t_start": 239.429,
+    "t_end": 245.75,
+    "text": "Remon's hypothesis. Now, if uh you take a glance at the uh Remon's 1859 paper,"
+  },
+  {
+    "t_start": 245.75,
+    "t_end": 248.71,
+    "text": "you'll see that the subject is completely volatile or the Parker"
+  },
+  {
+    "t_start": 248.71,
+    "t_end": 253.91,
+    "text": "conjecture. Do the same with Parker A. It's even more volatile in his uh uh"
+  },
+  {
+    "t_start": 253.91,
+    "t_end": 256.55,
+    "text": "It's even more volatile in his uh uh framing of what we call the point"
+  },
+  {
+    "t_start": 256.55,
+    "t_end": 258.87,
+    "text": "framing of what we call the point conjecture"
+  },
+  {
+    "t_start": 258.87,
+    "t_end": 264.15,
+    "text": "and might be meant to inspire further developments."
+  },
+  {
+    "t_start": 264.15,
+    "t_end": 269.27,
+    "text": "developments. The famous uh uh unifier of that sort is"
+  },
+  {
+    "t_start": 269.27,
+    "t_end": 273.35,
+    "text": "The famous uh uh unifier of that sort is the Langland's program. uh it un it's"
+  },
+  {
+    "t_start": 273.35,
+    "t_end": 275.99,
+    "text": "the Langland's program. uh it un it's meant to unify to bind together"
+  },
+  {
+    "t_start": 275.99,
+    "t_end": 278.15,
+    "text": "meant to unify to bind together different ways of seeing different types"
+  },
+  {
+    "t_start": 278.15,
+    "t_end": 284.71,
+    "text": "different ways of seeing different types of intuition different subjects"
+  },
+  {
+    "t_start": 284.71,
+    "t_end": 291.03,
+    "text": "and the Burin Swint and Dire I'm going to call uh it BSD for short is a unifier"
+  },
+  {
+    "t_start": 291.03,
+    "t_end": 293.749,
+    "text": "to call uh it BSD for short is a unifier and not only has it unified but it's in"
+  },
+  {
+    "t_start": 293.749,
+    "t_end": 300.31,
+    "text": "and not only has it unified but it's in constant uh uh evolution even even today"
+  },
+  {
+    "t_start": 300.31,
+    "t_end": 303.35,
+    "text": "constant uh uh evolution even even today uh here's program."
+  },
+  {
+    "t_start": 303.35,
+    "t_end": 310.15,
+    "text": "I'm going to begin by discussing three different formats of what I want to call"
+  },
+  {
+    "t_start": 310.15,
+    "t_end": 312.87,
+    "text": "different formats of what I want to call uh classic BSD."
+  },
+  {
+    "t_start": 312.87,
+    "t_end": 316.79,
+    "text": "uh classic BSD. And there are three versions of classic"
+  },
+  {
+    "t_start": 316.79,
+    "t_end": 323.51,
+    "text": "There is uh the first one which is just the historical starter the initial"
+  },
+  {
+    "t_start": 323.51,
+    "t_end": 330.55,
+    "text": "conception of Bert and Swint and Dire which gives an asmtoic expression for"
+  },
+  {
+    "t_start": 330.55,
+    "t_end": 335.51,
+    "text": "which gives an asmtoic expression for uh the variable X to the rank of the"
+  },
+  {
+    "t_start": 335.51,
+    "t_end": 341.59,
+    "text": "uh the variable X to the rank of the group of rational points of E over Q as"
+  },
+  {
+    "t_start": 341.59,
+    "t_end": 348.55,
+    "text": "and it the asintoic expression is as I mentioned uh in the previous slide is in"
+  },
+  {
+    "t_start": 348.55,
+    "t_end": 352.79,
+    "text": "mentioned uh in the previous slide is in terms of local invariance of E."
+  },
+  {
+    "t_start": 352.79,
+    "t_end": 355.99,
+    "text": "terms of local invariance of E. Um, version two is similar,"
+  },
+  {
+    "t_start": 355.99,
+    "t_end": 362.07,
+    "text": "but it's a much neater formula. It's something you can actually uh you might"
+  },
+  {
+    "t_start": 362.07,
+    "t_end": 369.029,
+    "text": "be uh tempted to actually look at uh sort of more closely for the rank of uh"
+  },
+  {
+    "t_start": 369.029,
+    "t_end": 371.11,
+    "text": "sort of more closely for the rank of uh the group of rational points also in"
+  },
+  {
+    "t_start": 371.11,
+    "t_end": 374.309,
+    "text": "the group of rational points also in terms of local invariance but with a"
+  },
+  {
+    "t_start": 374.309,
+    "t_end": 382.309,
+    "text": "twist here. And the version three is a structural uh statement. I'll call it"
+  },
+  {
+    "t_start": 382.309,
+    "t_end": 384.07,
+    "text": "structural uh statement. I'll call it this that doesn't have a standard name,"
+  },
+  {
+    "t_start": 384.07,
+    "t_end": 385.67,
+    "text": "this that doesn't have a standard name, but I'll call it the rank equals"
+  },
+  {
+    "t_start": 385.67,
+    "t_end": 388.71,
+    "text": "but I'll call it the rank equals multiplicity conjecture."
+  },
+  {
+    "t_start": 388.71,
+    "t_end": 394.469,
+    "text": "And all three of them are they're very close uh close to each other. They're"
+  },
+  {
+    "t_start": 394.469,
+    "t_end": 396.469,
+    "text": "close uh close to each other. They're closely related"
+  },
+  {
+    "t_start": 396.469,
+    "t_end": 403.189,
+    "text": "ways of expressing as I say the beginning form of the conjecture."
+  },
+  {
+    "t_start": 403.189,
+    "t_end": 408.07,
+    "text": "beginning form of the conjecture. Now, at that point, we'll pass to what"
+  },
+  {
+    "t_start": 408.07,
+    "t_end": 414.39,
+    "text": "And as I said said a minute ago, it it evolves, it evolves, it evolves. And uh"
+  },
+  {
+    "t_start": 414.39,
+    "t_end": 419.27,
+    "text": "evolves, it evolves, it evolves. And uh finally to what I'll call BSD expanded."
+  },
+  {
+    "t_start": 419.27,
+    "t_end": 426.07,
+    "text": "Okay. As I said a few minutes ago, uh classic BSD"
+  },
+  {
+    "t_start": 426.07,
+    "t_end": 432.71,
+    "text": "expresses a specific global invariance of olytic curve. the rank of the group"
+  },
+  {
+    "t_start": 432.71,
+    "t_end": 439.67,
+    "text": "of olytic curve. the rank of the group of its rational points over Q in terms"
+  },
+  {
+    "t_start": 439.67,
+    "t_end": 444.469,
+    "text": "of local invariance the number of its rational points but over finite fields."
+  },
+  {
+    "t_start": 444.469,
+    "t_end": 447.909,
+    "text": "rational points but over finite fields. Refined BSD is uh"
+  },
+  {
+    "t_start": 447.909,
+    "t_end": 455.909,
+    "text": "is quite a thing. It draws into the same arena all these uh theories if you want"
+  },
+  {
+    "t_start": 455.909,
+    "t_end": 459.43,
+    "text": "arena all these uh theories if you want or aspects of the elliptic curve. There"
+  },
+  {
+    "t_start": 459.43,
+    "t_end": 464.629,
+    "text": "or aspects of the elliptic curve. There is the uh uh local local arithmetic as"
+  },
+  {
+    "t_start": 464.629,
+    "t_end": 467.67,
+    "text": "is the uh uh local local arithmetic as the group of rational points of the"
+  },
+  {
+    "t_start": 467.67,
+    "t_end": 470.309,
+    "text": "the group of rational points of the elliptic curve over"
+  },
+  {
+    "t_start": 470.309,
+    "t_end": 476.309,
+    "text": "um prime fields. There's the the analytic number theory of the elliptic"
+  },
+  {
+    "t_start": 476.309,
+    "t_end": 479.11,
+    "text": "analytic number theory of the elliptic curve. There's the global arithmetic."
+  },
+  {
+    "t_start": 479.11,
+    "t_end": 486.23,
+    "text": "And I put the global arithmetic in two boxes here because what's um curious is"
+  },
+  {
+    "t_start": 486.23,
+    "t_end": 491.67,
+    "text": "boxes here because what's um curious is uh it's it's a group uh and you could"
+  },
+  {
+    "t_start": 491.67,
+    "t_end": 496.95,
+    "text": "uh it's it's a group uh and you could take it bod torsion and if you take it"
+  },
+  {
+    "t_start": 496.95,
+    "t_end": 500.55,
+    "text": "by torsion it plays one role in the final structure of the conjecture and if"
+  },
+  {
+    "t_start": 500.55,
+    "t_end": 505.67,
+    "text": "final structure of the conjecture and if you take the torsion uh subgroup"
+  },
+  {
+    "t_start": 505.67,
+    "t_end": 511.189,
+    "text": "you take the torsion uh subgroup uh separately that will play a different"
+  },
+  {
+    "t_start": 514.31,
+    "t_end": 519.269,
+    "text": "Okay, there's a precursor for BSD. It's usually called the class"
+  },
+  {
+    "t_start": 519.269,
+    "t_end": 525.67,
+    "text": "The class number formula is uh uh it's a statement about a number"
+  },
+  {
+    "t_start": 525.67,
+    "t_end": 528.63,
+    "text": "uh it's a statement about a number field, not an elliptic curve."
+  },
+  {
+    "t_start": 528.63,
+    "t_end": 536.55,
+    "text": "And it's a theorem, not a conjecture. It began as a uh surmise by Gaus about"
+  },
+  {
+    "t_start": 536.55,
+    "t_end": 538.47,
+    "text": "began as a uh surmise by Gaus about quadratic fields."
+  },
+  {
+    "t_start": 538.47,
+    "t_end": 544.87,
+    "text": "It was then extended to sort of an actual statement by Derek"
+  },
+  {
+    "t_start": 544.87,
+    "t_end": 548.55,
+    "text": "sort of an actual statement by Derek Lelay. Quadratic fields again uh"
+  },
+  {
+    "t_start": 548.55,
+    "t_end": 554.71,
+    "text": "generalized to all number fields and finally over a century later there was"
+  },
+  {
+    "t_start": 554.71,
+    "t_end": 560.23,
+    "text": "finally over a century later there was an actual proof."
+  },
+  {
+    "t_start": 562.63,
+    "t_end": 570.15,
+    "text": "Now that class number formula is a model for BSD in some sense because it too is"
+  },
+  {
+    "t_start": 570.15,
+    "t_end": 577.269,
+    "text": "brings in the analytic number theory of K, the class number of K, the order of"
+  },
+  {
+    "t_start": 577.269,
+    "t_end": 583.59,
+    "text": "the ideal class group of K and the global arithmetic of the K that is say"
+  },
+  {
+    "t_start": 583.59,
+    "t_end": 585.75,
+    "text": "global arithmetic of the K that is say the units"
+  },
+  {
+    "t_start": 585.75,
+    "t_end": 595.35,
+    "text": "mod torsion and the torsion in the group of units alias the roots of unity in K."
+  },
+  {
+    "t_start": 595.35,
+    "t_end": 597.269,
+    "text": "of units alias the roots of unity in K. Yeah."
+  },
+  {
+    "t_start": 597.269,
+    "t_end": 603.269,
+    "text": "So I'm going to give you names for all those things. So H K is the class number"
+  },
+  {
+    "t_start": 603.269,
+    "t_end": 605.509,
+    "text": "those things. So H K is the class number of K."
+  },
+  {
+    "t_start": 605.509,
+    "t_end": 614.63,
+    "text": "LK I want to call LK the the analytic L of K rather than have having to use say"
+  },
+  {
+    "t_start": 614.63,
+    "t_end": 616.79,
+    "text": "of K rather than have having to use say all the time it's the residue of the net"
+  },
+  {
+    "t_start": 616.79,
+    "t_end": 622.79,
+    "text": "all the time it's the residue of the net zeta function of K at S equals one but"
+  },
+  {
+    "t_start": 622.79,
+    "t_end": 630.15,
+    "text": "The regulator you take uh the group of units in the number field mod torsion"
+  },
+  {
+    "t_start": 630.15,
+    "t_end": 634.87,
+    "text": "and you can embed it in the uklidian space just by taking sort of a natural"
+  },
+  {
+    "t_start": 634.87,
+    "t_end": 636.71,
+    "text": "space just by taking sort of a natural logarithm mapping and then you get a"
+  },
+  {
+    "t_start": 636.71,
+    "t_end": 638.87,
+    "text": "logarithm mapping and then you get a lattice. The lattice has a fundamental"
+  },
+  {
+    "t_start": 638.87,
+    "t_end": 646.389,
+    "text": "lattice. The lattice has a fundamental domain. The fundamental domain has a"
+  },
+  {
+    "t_start": 646.389,
+    "t_end": 652.55,
+    "text": "and W K is you can call it the order of the torsion subgroup of K star if you"
+  },
+  {
+    "t_start": 652.55,
+    "t_end": 658.069,
+    "text": "the torsion subgroup of K star if you want to be a uh uh well anyway it's it"
+  },
+  {
+    "t_start": 658.069,
+    "t_end": 660.069,
+    "text": "want to be a uh uh well anyway it's it is just the number of roots of unity in"
+  },
+  {
+    "t_start": 660.069,
+    "t_end": 663.269,
+    "text": "is just the number of roots of unity in K"
+  },
+  {
+    "t_start": 665.99,
+    "t_end": 671.509,
+    "text": "and this is the formula there are some elementary terms which uh"
+  },
+  {
+    "t_start": 671.509,
+    "t_end": 679.59,
+    "text": "live up to the complexity of the boxes with blue objects in there. Um, uh, the"
+  },
+  {
+    "t_start": 679.59,
+    "t_end": 681.11,
+    "text": "with blue objects in there. Um, uh, the class number, it's a class number"
+  },
+  {
+    "t_start": 681.11,
+    "t_end": 685.269,
+    "text": "formula. So I write it as the class number is equal to something and it's"
+  },
+  {
+    "t_start": 685.269,
+    "t_end": 689.11,
+    "text": "number is equal to something and it's equal to some elementary things times"
+  },
+  {
+    "t_start": 689.11,
+    "t_end": 694.31,
+    "text": "equal to some elementary things times the W K over the regulator times the"
+  },
+  {
+    "t_start": 694.31,
+    "t_end": 698.63,
+    "text": "the W K over the regulator times the analytic L of K."
+  },
+  {
+    "t_start": 700.23,
+    "t_end": 704.069,
+    "text": "But we're going to talk about elliptic curves. So let's do that. Elliptic"
+  },
+  {
+    "t_start": 704.069,
+    "t_end": 706.87,
+    "text": "curves. So let's do that. Elliptic curves and their global arithmetic"
+  },
+  {
+    "t_start": 706.87,
+    "t_end": 708.79,
+    "text": "curves and their global arithmetic invariance."
+  },
+  {
+    "t_start": 708.79,
+    "t_end": 713.91,
+    "text": "And I want to do it in as I say in the spirit of poare and take a look at that"
+  },
+  {
+    "t_start": 713.91,
+    "t_end": 716.389,
+    "text": "spirit of poare and take a look at that picture. He's he's thinking of"
+  },
+  {
+    "t_start": 716.389,
+    "t_end": 719.91,
+    "text": "picture. He's he's thinking of something. [laughter]"
+  },
+  {
+    "t_start": 721.509,
+    "t_end": 728.47,
+    "text": "He uh viewed an elliptic curve as a plain cubic curve."
+  },
+  {
+    "t_start": 728.47,
+    "t_end": 735.43,
+    "text": "uh he doesn't never says defined over Q in the paper but anyway as a plain cubic"
+  },
+  {
+    "t_start": 735.43,
+    "t_end": 739.75,
+    "text": "in the paper but anyway as a plain cubic curve situated in the projective plane"
+  },
+  {
+    "t_start": 739.75,
+    "t_end": 744.79,
+    "text": "curve situated in the projective plane in such a way that the line at infinity"
+  },
+  {
+    "t_start": 744.79,
+    "t_end": 748.069,
+    "text": "in such a way that the line at infinity intersects it at a single uh point"
+  },
+  {
+    "t_start": 748.069,
+    "t_end": 749.91,
+    "text": "intersects it at a single uh point therefore a flex point point of"
+  },
+  {
+    "t_start": 749.91,
+    "t_end": 756.949,
+    "text": "multiplicity three. Uh to put it in another way, if you uh ignore the line"
+  },
+  {
+    "t_start": 756.949,
+    "t_end": 759.269,
+    "text": "another way, if you uh ignore the line at infinity there's there say take it as"
+  },
+  {
+    "t_start": 759.269,
+    "t_end": 762.15,
+    "text": "at infinity there's there say take it as an aphine plane curve you're missing"
+  },
+  {
+    "t_start": 762.15,
+    "t_end": 765.99,
+    "text": "an aphine plane curve you're missing only one point the point at infinity."
+  },
+  {
+    "t_start": 765.99,
+    "t_end": 770.15,
+    "text": "only one point the point at infinity. Now every line in the projective plane"
+  },
+  {
+    "t_start": 770.15,
+    "t_end": 772.069,
+    "text": "intersects the curve in three points counting multiplicity and here's the"
+  },
+  {
+    "t_start": 772.069,
+    "t_end": 773.67,
+    "text": "counting multiplicity and here's the standard"
+  },
+  {
+    "t_start": 773.67,
+    "t_end": 783.19,
+    "text": "picture of it. Um and such a smooth projective curve"
+  },
+  {
+    "t_start": 783.19,
+    "t_end": 787.509,
+    "text": "and such a smooth projective curve uh has uh amazingly a canonical aidian"
+  },
+  {
+    "t_start": 787.509,
+    "t_end": 789.43,
+    "text": "uh has uh amazingly a canonical aidian group structure."
+  },
+  {
+    "t_start": 789.43,
+    "t_end": 795.19,
+    "text": "The flex points at infinity is the origin and uh all the triplets of"
+  },
+  {
+    "t_start": 795.19,
+    "t_end": 798.87,
+    "text": "origin and uh all the triplets of colinear points that is the intersection"
+  },
+  {
+    "t_start": 798.87,
+    "t_end": 801.35,
+    "text": "colinear points that is the intersection taken with multiplicity of the curve"
+  },
+  {
+    "t_start": 801.35,
+    "t_end": 807.43,
+    "text": "with the projective lines out to zero. So we've got P + Q plus R equals Z if P"
+  },
+  {
+    "t_start": 807.43,
+    "t_end": 810.31,
+    "text": "So we've got P + Q plus R equals Z if P Q and R are collinear. And of course if"
+  },
+  {
+    "t_start": 810.31,
+    "t_end": 814.15,
+    "text": "Q and R are collinear. And of course if you you get uh similar statements with"
+  },
+  {
+    "t_start": 814.15,
+    "t_end": 816.389,
+    "text": "you you get uh similar statements with counting multiplicities if there are"
+  },
+  {
+    "t_start": 816.389,
+    "t_end": 819.19,
+    "text": "counting multiplicities if there are multiplicities."
+  },
+  {
+    "t_start": 819.19,
+    "t_end": 825.91,
+    "text": "multiplicities. Now uh uh in his 1901 paper uh really"
+  },
+  {
+    "t_start": 825.91,
+    "t_end": 828.15,
+    "text": "Now uh uh in his 1901 paper uh really got things started."
+  },
+  {
+    "t_start": 828.15,
+    "t_end": 832.389,
+    "text": "got things started. Um here's Panker"
+  },
+  {
+    "t_start": 832.389,
+    "t_end": 837.269,
+    "text": "always with everything he wrote by the way it has a flare"
+  },
+  {
+    "t_start": 837.269,
+    "t_end": 841.59,
+    "text": "and he's he wrote a lot a lot a lot about the philosophy of mathematics as"
+  },
+  {
+    "t_start": 841.59,
+    "t_end": 847.509,
+    "text": "about the philosophy of mathematics as well. Okay so here's what he writes. Uh"
+  },
+  {
+    "t_start": 847.509,
+    "t_end": 850.389,
+    "text": "let's first study the distribution of rational points on these curves. I note"
+  },
+  {
+    "t_start": 850.389,
+    "t_end": 855.509,
+    "text": "that knowledge of two rational points on a rational cubic is sufficient to get us"
+  },
+  {
+    "t_start": 855.509,
+    "t_end": 861.189,
+    "text": "a rational cubic is sufficient to get us to know a third"
+  },
+  {
+    "t_start": 866.069,
+    "t_end": 869.269,
+    "text": "I don't know whether u this this would anyway"
+  },
+  {
+    "t_start": 873.269,
+    "t_end": 875.11,
+    "text": "uh now without stating this explicitly views"
+  },
+  {
+    "t_start": 875.11,
+    "t_end": 880.069,
+    "text": "uh the set of rational points as an ob being group and he There are no proofs"
+  },
+  {
+    "t_start": 880.069,
+    "t_end": 883.03,
+    "text": "being group and he There are no proofs in his paper, none at all. But he"
+  },
+  {
+    "t_start": 883.03,
+    "t_end": 886.23,
+    "text": "in his paper, none at all. But he defines the rank uh to be the number of"
+  },
+  {
+    "t_start": 886.23,
+    "t_end": 893.43,
+    "text": "needed to get all the rational points on the curve of the Rs such that uh you've"
+  },
+  {
+    "t_start": 893.43,
+    "t_end": 897.59,
+    "text": "the curve of the Rs such that uh you've got those uh collinear triplets P plus Q"
+  },
+  {
+    "t_start": 897.59,
+    "t_end": 900.389,
+    "text": "got those uh collinear triplets P plus Q plus R equals infinity."
+  },
+  {
+    "t_start": 900.389,
+    "t_end": 907.03,
+    "text": "plus R equals infinity. Pretty good. In effect he anticipates uh"
+  },
+  {
+    "t_start": 907.03,
+    "t_end": 913.75,
+    "text": "Modell's ser theorem which is uh uh proved as I say two two"
+  },
+  {
+    "t_start": 913.75,
+    "t_end": 923.11,
+    "text": "and here's Mell in youth and in uh wisdom the the um headline there is"
+  },
+  {
+    "t_start": 923.11,
+    "t_end": 926.31,
+    "text": "wisdom the the um headline there is beats the world at mathematics."
+  },
+  {
+    "t_start": 926.31,
+    "t_end": 929.269,
+    "text": "beats the world at mathematics. Okay. And this is how they how they how"
+  },
+  {
+    "t_start": 929.269,
+    "t_end": 930.949,
+    "text": "Okay. And this is how they how they how he"
+  },
+  {
+    "t_start": 930.949,
+    "t_end": 935.91,
+    "text": "states it in his paper. If a non-s singular rational pane cubic curve has a"
+  },
+  {
+    "t_start": 935.91,
+    "t_end": 938.47,
+    "text": "singular rational pane cubic curve has a rational point then the group of"
+  },
+  {
+    "t_start": 938.47,
+    "t_end": 941.03,
+    "text": "rational point then the group of rational points is finally generated"
+  },
+  {
+    "t_start": 941.03,
+    "t_end": 950.55,
+    "text": "rational points is finally generated finally generated. So it is uh of the"
+  },
+  {
+    "t_start": 950.55,
+    "t_end": 955.91,
+    "text": "that which is finite and a free part which has to look like z to the r for"
+  },
+  {
+    "t_start": 955.91,
+    "t_end": 961.749,
+    "text": "some r and so it gives us uh the global arithmetic invariance of our elliptic"
+  },
+  {
+    "t_start": 961.749,
+    "t_end": 966.069,
+    "text": "arithmetic invariance of our elliptic curve that is the torsion subgroup"
+  },
+  {
+    "t_start": 966.069,
+    "t_end": 970.31,
+    "text": "group of torsion points and it's a theorem that only finally many such uh"
+  },
+  {
+    "t_start": 970.31,
+    "t_end": 973.189,
+    "text": "theorem that only finally many such uh isomeorphism classes of 500 a billion"
+  },
+  {
+    "t_start": 973.189,
+    "t_end": 980.069,
+    "text": "groups can occur as such a group and much is known about them and its rank."
+  },
+  {
+    "t_start": 980.069,
+    "t_end": 986.069,
+    "text": "much is known about them and its rank. Now the rank well that's uh much is"
+  },
+  {
+    "t_start": 986.069,
+    "t_end": 992.71,
+    "text": "For example, uh is there a finite upper bound for these ranks? And uh uh there"
+  },
+  {
+    "t_start": 992.71,
+    "t_end": 997.11,
+    "text": "bound for these ranks? And uh uh there is a conjecture of the people in the two"
+  },
+  {
+    "t_start": 997.11,
+    "t_end": 1002.47,
+    "text": "is a conjecture of the people in the two blue lines um at the bottom of this"
+  },
+  {
+    "t_start": 1002.47,
+    "t_end": 1008.15,
+    "text": "screen and that paper is really interesting. Take a look at it."
+  },
+  {
+    "t_start": 1010.55,
+    "t_end": 1017.829,
+    "text": "the elliptic curve with the highest rank found so far is this thing in red"
+  },
+  {
+    "t_start": 1017.829,
+    "t_end": 1021.269,
+    "text": "found so far is this thing in red which um I'm sure would have amazed Bur"
+  },
+  {
+    "t_start": 1021.269,
+    "t_end": 1024.069,
+    "text": "which um I'm sure would have amazed Bur and Swint and Dy who in the 1950s did"
+  },
+  {
+    "t_start": 1024.069,
+    "t_end": 1028.39,
+    "text": "and Swint and Dy who in the 1950s did their computations where I don't know"
+  },
+  {
+    "t_start": 1028.39,
+    "t_end": 1033.429,
+    "text": "how I don't think there's anybody in this room who did computations in the"
+  },
+  {
+    "t_start": 1033.429,
+    "t_end": 1038.63,
+    "text": "this room who did computations in the mid 1950s but they come they came Then"
+  },
+  {
+    "t_start": 1038.63,
+    "t_end": 1045.27,
+    "text": "mid 1950s but they come they came Then sheets of uh uh of of paper"
+  },
+  {
+    "t_start": 1045.27,
+    "t_end": 1051.51,
+    "text": "sheets of uh uh of of paper uh leaning in an in its angle of repose"
+  },
+  {
+    "t_start": 1051.51,
+    "t_end": 1057.19,
+    "text": "illeible numbers on and you have to figure out what you've got. And I got"
+  },
+  {
+    "t_start": 1057.19,
+    "t_end": 1061.11,
+    "text": "figure out what you've got. And I got such on my in my in my office. Shimura"
+  },
+  {
+    "t_start": 1061.11,
+    "t_end": 1064.15,
+    "text": "such on my in my in my office. Shimura gave me a"
+  },
+  {
+    "t_start": 1064.15,
+    "t_end": 1069.19,
+    "text": "gave me a a big uh um bookcase full of papers uh"
+  },
+  {
+    "t_start": 1069.19,
+    "t_end": 1072.71,
+    "text": "a big uh um bookcase full of papers uh for values of heck operators at roughly"
+  },
+  {
+    "t_start": 1072.71,
+    "t_end": 1075.51,
+    "text": "for values of heck operators at roughly this well a little later than this but"
+  },
+  {
+    "t_start": 1075.51,
+    "t_end": 1078.31,
+    "text": "this well a little later than this but pretty much at that time"
+  },
+  {
+    "t_start": 1078.31,
+    "t_end": 1082.71,
+    "text": "pretty much at that time um the curve um um was recently"
+  },
+  {
+    "t_start": 1082.71,
+    "t_end": 1085.99,
+    "text": "um the curve um um was recently discovered by Gnome"
+  },
+  {
+    "t_start": 1085.99,
+    "t_end": 1089.83,
+    "text": "discovered by Gnome are you're here there you"
+  },
+  {
+    "t_start": 1089.83,
+    "t_end": 1095.19,
+    "text": "you agree you discovered this and Zeb No, I'm not sure. I'm not sure."
+  },
+  {
+    "t_start": 1095.19,
+    "t_end": 1096.549,
+    "text": "No, I'm not sure. I'm not sure. &gt;&gt; What?"
+  },
+  {
+    "t_start": 1096.549,
+    "t_end": 1103.669,
+    "text": "&gt;&gt; Yes. &gt;&gt; Yeah. Yeah. Yeah. Okay. Great. Terrific."
+  },
+  {
+    "t_start": 1103.669,
+    "t_end": 1108.39,
+    "text": "&gt;&gt; Yeah. Yeah. Yeah. Okay. Great. Terrific. Um and um [clears throat]"
+  },
+  {
+    "t_start": 1108.39,
+    "t_end": 1115.909,
+    "text": "uh it has a rank greater than equal to 29. And using GRH you can prove its rank"
+  },
+  {
+    "t_start": 1115.909,
+    "t_end": 1118.87,
+    "text": "29. And using GRH you can prove its rank is exactly 29."
+  },
+  {
+    "t_start": 1118.87,
+    "t_end": 1124.23,
+    "text": "Now for the local arithmet arithmetic invariance of elliptic curve I'm writing"
+  },
+  {
+    "t_start": 1124.23,
+    "t_end": 1126.789,
+    "text": "invariance of elliptic curve I'm writing uh the equations that define elliptic"
+  },
+  {
+    "t_start": 1126.789,
+    "t_end": 1133.19,
+    "text": "uh the equations that define elliptic curves in the uh form of that equation"
+  },
+  {
+    "t_start": 1133.19,
+    "t_end": 1135.59,
+    "text": "equation one and um"
+  },
+  {
+    "t_start": 1135.59,
+    "t_end": 1137.43,
+    "text": "and um uh"
+  },
+  {
+    "t_start": 1137.43,
+    "t_end": 1143.75,
+    "text": "the c's are all rational integers and you can get any elliptic curve over q uh"
+  },
+  {
+    "t_start": 1143.75,
+    "t_end": 1146.87,
+    "text": "you can get any elliptic curve over q uh uh with such an equation and one often"
+  },
+  {
+    "t_start": 1146.87,
+    "t_end": 1149.43,
+    "text": "uh with such an equation and one often chooses such parameterization with"
+  },
+  {
+    "t_start": 1149.43,
+    "t_end": 1155.909,
+    "text": "chooses such parameterization with smallest discriminant. The blue um"
+  },
+  {
+    "t_start": 1155.909,
+    "t_end": 1162.39,
+    "text": "subscripts there say how the coefficients change if you um uh um uh"
+  },
+  {
+    "t_start": 1162.39,
+    "t_end": 1167.43,
+    "text": "coefficients change if you um uh um uh zoom zoom the the exponents."
+  },
+  {
+    "t_start": 1171.029,
+    "t_end": 1173.35,
+    "text": "Um so assume we have such a thing minimal discriminant"
+  },
+  {
+    "t_start": 1173.35,
+    "t_end": 1180.63,
+    "text": "and so that all these C's are integers. So we can uh um for every prime p we can"
+  },
+  {
+    "t_start": 1180.63,
+    "t_end": 1187.43,
+    "text": "So we can uh um for every prime p we can reduce mod p we get a cubic curve over"
+  },
+  {
+    "t_start": 1187.43,
+    "t_end": 1192.39,
+    "text": "and if p doesn't uh divide the discriminant the curve is an elliptic"
+  },
+  {
+    "t_start": 1192.39,
+    "t_end": 1201.51,
+    "text": "discriminant the curve is an elliptic curve over fp. So we can play the game"
+  },
+  {
+    "t_start": 1201.51,
+    "t_end": 1205.909,
+    "text": "of uh putting np to be the number of points on that uh elliptic curve over fp"
+  },
+  {
+    "t_start": 1205.909,
+    "t_end": 1212.39,
+    "text": "points on that uh elliptic curve over fp and uh the thing in blue is what I'm"
+  },
+  {
+    "t_start": 1212.39,
+    "t_end": 1215.59,
+    "text": "going to take as the ensemble of local arithmetic invariance of e"
+  },
+  {
+    "t_start": 1215.59,
+    "t_end": 1217.11,
+    "text": "arithmetic invariance of e okay"
+  },
+  {
+    "t_start": 1217.11,
+    "t_end": 1223.99,
+    "text": "and uh you get such a thing for every p not dividing the discriminant"
+  },
+  {
+    "t_start": 1226.39,
+    "t_end": 1229.59,
+    "text": "Now then comes the first classic version of uh BSD."
+  },
+  {
+    "t_start": 1229.59,
+    "t_end": 1235.59,
+    "text": "uh I say the asmtoics of the local invariance seem to determine the rank"
+  },
+  {
+    "t_start": 1235.59,
+    "t_end": 1239.27,
+    "text": "invariance seem to determine the rank and uh the um"
+  },
+  {
+    "t_start": 1239.27,
+    "t_end": 1240.95,
+    "text": "and uh the um equation"
+  },
+  {
+    "t_start": 1240.95,
+    "t_end": 1246.95,
+    "text": "uh at the bottom of this screen simply says that the product of the nps over ps"
+  },
+  {
+    "t_start": 1246.95,
+    "t_end": 1249.909,
+    "text": "says that the product of the nps over ps for p less than or equal to x varies"
+  },
+  {
+    "t_start": 1249.909,
+    "t_end": 1253.59,
+    "text": "for p less than or equal to x varies like a power of log x"
+  },
+  {
+    "t_start": 1253.59,
+    "t_end": 1260.47,
+    "text": "uh and that power is the rank that's the that's their observation and conjecture"
+  },
+  {
+    "t_start": 1260.47,
+    "t_end": 1267.83,
+    "text": "that's their observation and conjecture in their in their in the initial form."
+  },
+  {
+    "t_start": 1267.83,
+    "t_end": 1276.39,
+    "text": "the log of that thing is linear so to asmtoically linear in log log x and the"
+  },
+  {
+    "t_start": 1276.39,
+    "t_end": 1284.47,
+    "text": "asmtoically linear in log log x and the uh slope of that linearity is the rank."
+  },
+  {
+    "t_start": 1284.47,
+    "t_end": 1292.31,
+    "text": "So here are some examples. uh look at the elliptic curves a d"
+  },
+  {
+    "t_start": 1292.31,
+    "t_end": 1294.39,
+    "text": "as um on the screen and for the"
+  },
+  {
+    "t_start": 1294.39,
+    "t_end": 1301.51,
+    "text": "and for the uh five values of d in blue up there"
+  },
+  {
+    "t_start": 1301.51,
+    "t_end": 1305.11,
+    "text": "uh five values of d in blue up there um the elliptic curve ed has rank zero"
+  },
+  {
+    "t_start": 1305.11,
+    "t_end": 1311.029,
+    "text": "um the elliptic curve ed has rank zero one two three and four respectively"
+  },
+  {
+    "t_start": 1317.27,
+    "t_end": 1322.39,
+    "text": "log of the product of np over p for p less than or equal to x as a function of"
+  },
+  {
+    "t_start": 1322.39,
+    "t_end": 1327.11,
+    "text": "less than or equal to x as a function of x but uh uh graphed over log"
+  },
+  {
+    "t_start": 1327.11,
+    "t_end": 1332.149,
+    "text": "x but uh uh graphed over log graphed over log log x."
+  },
+  {
+    "t_start": 1335.43,
+    "t_end": 1339.35,
+    "text": "There it is. Uh I took it from a paper of uh K Ruven Alice Silverberg."
+  },
+  {
+    "t_start": 1339.35,
+    "t_end": 1344.549,
+    "text": "of uh K Ruven Alice Silverberg. uh and by golly these uh uh the slopes"
+  },
+  {
+    "t_start": 1344.549,
+    "t_end": 1346.95,
+    "text": "uh and by golly these uh uh the slopes there correspond to the ranks of the"
+  },
+  {
+    "t_start": 1346.95,
+    "t_end": 1352.07,
+    "text": "there correspond to the ranks of the five curves. The uh data [clears throat]"
+  },
+  {
+    "t_start": 1352.07,
+    "t_end": 1356.549,
+    "text": "five curves. The uh data [clears throat] uh for each of the five curves looks"
+  },
+  {
+    "t_start": 1356.549,
+    "t_end": 1358.71,
+    "text": "like it's the the data is hovering around the line of the appropriate"
+  },
+  {
+    "t_start": 1358.71,
+    "t_end": 1366.95,
+    "text": "around the line of the appropriate slope. So uh all of this seems to be in"
+  },
+  {
+    "t_start": 1366.95,
+    "t_end": 1375.029,
+    "text": "Here's a second classic version. Um the first thing to say is uh that the"
+  },
+  {
+    "t_start": 1375.029,
+    "t_end": 1377.43,
+    "text": "Um the first thing to say is uh that the local and arithmetic invariance of"
+  },
+  {
+    "t_start": 1377.43,
+    "t_end": 1380.63,
+    "text": "local and arithmetic invariance of elliptic curves well you'll see we'll"
+  },
+  {
+    "t_start": 1380.63,
+    "t_end": 1386.31,
+    "text": "we're going to take them not what they are but just take them as error terms"
+  },
+  {
+    "t_start": 1386.31,
+    "t_end": 1390.149,
+    "text": "are but just take them as error terms following the results of helmet hassa"
+  },
+  {
+    "t_start": 1390.149,
+    "t_end": 1394.07,
+    "text": "following the results of helmet hassa hassa um"
+  },
+  {
+    "t_start": 1394.07,
+    "t_end": 1400.87,
+    "text": "noted that the number of rational points of any smooth irreducible curve over a"
+  },
+  {
+    "t_start": 1400.87,
+    "t_end": 1404.981,
+    "text": "of any smooth irreducible curve over a finite field tends to hover around"
+  },
+  {
+    "t_start": 1404.981,
+    "t_end": 1406.549,
+    "text": "finite field tends to hover around [clears throat] the number of rational"
+  },
+  {
+    "t_start": 1406.549,
+    "t_end": 1414.63,
+    "text": "[clears throat] the number of rational points of the line over FP namely P+1"
+  },
+  {
+    "t_start": 1414.63,
+    "t_end": 1418.07,
+    "text": "and it does this with roughly square root accuracy."
+  },
+  {
+    "t_start": 1418.07,
+    "t_end": 1425.59,
+    "text": "This uh might suggest that if we want to focus our attention more uh uh"
+  },
+  {
+    "t_start": 1425.59,
+    "t_end": 1427.11,
+    "text": "focus our attention more uh uh specifically"
+  },
+  {
+    "t_start": 1427.11,
+    "t_end": 1433.029,
+    "text": "to what's happening, we could reormalize the local arithmetic invariance of"
+  },
+  {
+    "t_start": 1433.029,
+    "t_end": 1441.11,
+    "text": "ellipt of elliptic of an elliptic curve by focusing on the error term there."
+  },
+  {
+    "t_start": 1441.11,
+    "t_end": 1444.789,
+    "text": "by focusing on the error term there. And uh we have Hassa's theorem. Hassa"
+  },
+  {
+    "t_start": 1444.789,
+    "t_end": 1448.63,
+    "text": "And uh we have Hassa's theorem. Hassa proves for um"
+  },
+  {
+    "t_start": 1448.63,
+    "t_end": 1456.95,
+    "text": "um uh P not dividing the discriminant of E that if you form this error term AP is"
+  },
+  {
+    "t_start": 1456.95,
+    "t_end": 1463.029,
+    "text": "E that if you form this error term AP is 1 + P minus NP it really does grow uh uh"
+  },
+  {
+    "t_start": 1463.029,
+    "t_end": 1466.149,
+    "text": "1 + P minus NP it really does grow uh uh NP is [clears throat]"
+  },
+  {
+    "t_start": 1466.149,
+    "t_end": 1469.43,
+    "text": "NP is [clears throat] uh it's uh"
+  },
+  {
+    "t_start": 1469.43,
+    "t_end": 1477.19,
+    "text": "accuracy if you take 1 plus P that is say the absolute value of a is less than"
+  },
+  {
+    "t_start": 1477.19,
+    "t_end": 1481.83,
+    "text": "say the absolute value of a is less than twice the square root of p."
+  },
+  {
+    "t_start": 1485.51,
+    "t_end": 1492.71,
+    "text": "uh ensemble of these error terms the apiece as a more focused form of local"
+  },
+  {
+    "t_start": 1492.71,
+    "t_end": 1496.71,
+    "text": "apiece as a more focused form of local arithmetic invariance of e."
+  },
+  {
+    "t_start": 1496.71,
+    "t_end": 1502.63,
+    "text": "arithmetic invariance of e. Uh, I have some um every once in a while"
+  },
+  {
+    "t_start": 1502.63,
+    "t_end": 1504.47,
+    "text": "you're going to see um a footnote"
+  },
+  {
+    "t_start": 1504.47,
+    "t_end": 1511.669,
+    "text": "that will be in the u uh in my slides in my web page. Probably more footnotes"
+  },
+  {
+    "t_start": 1511.669,
+    "t_end": 1517.75,
+    "text": "my web page. Probably more footnotes than um than are here, but um"
+  },
+  {
+    "t_start": 1517.75,
+    "t_end": 1519.269,
+    "text": "than um than are here, but um uh"
+  },
+  {
+    "t_start": 1519.269,
+    "t_end": 1526.23,
+    "text": "there's a there's a beautiful version of this in the paper that I've just uh"
+  },
+  {
+    "t_start": 1526.23,
+    "t_end": 1531.909,
+    "text": "And you could take a look at it more um specifically in the slides on my web"
+  },
+  {
+    "t_start": 1531.909,
+    "t_end": 1534.95,
+    "text": "specifically in the slides on my web page. Um"
+  },
+  {
+    "t_start": 1534.95,
+    "t_end": 1541.51,
+    "text": "but if you replace the NPS by these APS you get as as a corollary of the"
+  },
+  {
+    "t_start": 1541.51,
+    "t_end": 1545.35,
+    "text": "you get as as a corollary of the analytic theory that we will discuss uh"
+  },
+  {
+    "t_start": 1545.35,
+    "t_end": 1550.87,
+    "text": "analytic theory that we will discuss uh this formula for the rank of E that is"
+  },
+  {
+    "t_start": 1550.87,
+    "t_end": 1558.07,
+    "text": "um limit of 1 / log x times the sum of a of e log p over ps"
+  },
+  {
+    "t_start": 1558.07,
+    "t_end": 1565.029,
+    "text": "of e log p over ps um is equal to that 12 minus the rank of"
+  },
+  {
+    "t_start": 1567.669,
+    "t_end": 1570.549,
+    "text": "uh you should notice that the rank of E comes as a negative sign there. That is"
+  },
+  {
+    "t_start": 1570.549,
+    "t_end": 1572.549,
+    "text": "comes as a negative sign there. That is say the APS"
+  },
+  {
+    "t_start": 1572.549,
+    "t_end": 1579.35,
+    "text": "become uh tend to be negative if the rank is large and that will that makes"
+  },
+  {
+    "t_start": 1579.35,
+    "t_end": 1587.75,
+    "text": "rank is large and that will that makes sense because that may means the NPs are"
+  },
+  {
+    "t_start": 1587.75,
+    "t_end": 1591.75,
+    "text": "large if the uh rank is large. third classical version classic version"
+  },
+  {
+    "t_start": 1591.75,
+    "t_end": 1597.35,
+    "text": "third classical version classic version um and it applies the second one uh is"
+  },
+  {
+    "t_start": 1597.35,
+    "t_end": 1601.59,
+    "text": "um and it applies the second one uh is by um passing to L functions."
+  },
+  {
+    "t_start": 1601.59,
+    "t_end": 1603.99,
+    "text": "by um passing to L functions. Now [clears throat]"
+  },
+  {
+    "t_start": 1603.99,
+    "t_end": 1609.11,
+    "text": "we're still using the arithmetic behavior of E over finite fields"
+  },
+  {
+    "t_start": 1609.11,
+    "t_end": 1612.95,
+    "text": "behavior of E over finite fields and uh we're passing uh to the analytic"
+  },
+  {
+    "t_start": 1612.95,
+    "t_end": 1619.269,
+    "text": "and uh we're passing uh to the analytic number theory of E with input from the"
+  },
+  {
+    "t_start": 1619.269,
+    "t_end": 1620.95,
+    "text": "arithmetic behavior of E over finite field."
+  },
+  {
+    "t_start": 1620.95,
+    "t_end": 1628.149,
+    "text": "We do this by the H l function which um is an infinite product at the"
+  },
+  {
+    "t_start": 1628.149,
+    "t_end": 1630.23,
+    "text": "which um is an infinite product at the moment. They're just a formal infinite"
+  },
+  {
+    "t_start": 1630.23,
+    "t_end": 1633.43,
+    "text": "moment. They're just a formal infinite product of mathematical symbols"
+  },
+  {
+    "t_start": 1633.43,
+    "t_end": 1640.95,
+    "text": "product of mathematical symbols where each of these bracketed things are"
+  },
+  {
+    "t_start": 1640.95,
+    "t_end": 1643.11,
+    "text": "called oiler factors. And um"
+  },
+  {
+    "t_start": 1643.11,
+    "t_end": 1647.19,
+    "text": "there it is as a formal infinite product."
+  },
+  {
+    "t_start": 1647.19,
+    "t_end": 1655.35,
+    "text": "The epsilon just stands for elementary factors that don't is not going to play"
+  },
+  {
+    "t_start": 1655.35,
+    "t_end": 1659.51,
+    "text": "a role in anything we say. And if you write it out as a derlay"
+  },
+  {
+    "t_start": 1659.51,
+    "t_end": 1666.149,
+    "text": "sum of a n / n to the s. The coefficients are turn out to be um uh"
+  },
+  {
+    "t_start": 1666.149,
+    "t_end": 1670.789,
+    "text": "coefficients are turn out to be um uh for n prime are exactly the apes of the"
+  },
+  {
+    "t_start": 1670.789,
+    "t_end": 1675.909,
+    "text": "for n prime are exactly the apes of the previous uh version of classic PSD. So"
+  },
+  {
+    "t_start": 1675.909,
+    "t_end": 1681.11,
+    "text": "previous uh version of classic PSD. So the le of s is just another way of u uh"
+  },
+  {
+    "t_start": 1681.11,
+    "t_end": 1685.59,
+    "text": "the le of s is just another way of u uh so to speak uh denoting [clears throat]"
+  },
+  {
+    "t_start": 1685.59,
+    "t_end": 1689.029,
+    "text": "so to speak uh denoting [clears throat] um the local"
+  },
+  {
+    "t_start": 1689.029,
+    "t_end": 1693.269,
+    "text": "um the local uh arithmetic invariance."
+  },
+  {
+    "t_start": 1693.269,
+    "t_end": 1698.389,
+    "text": "But Hassa's theorem actually tells us that it converges to an analytic"
+  },
+  {
+    "t_start": 1698.389,
+    "t_end": 1704.31,
+    "text": "that it converges to an analytic function uh if the real part of S is"
+  },
+  {
+    "t_start": 1704.31,
+    "t_end": 1709.029,
+    "text": "So that's good. It's no longer a mere formal device. It's got an it's an"
+  },
+  {
+    "t_start": 1709.029,
+    "t_end": 1712.549,
+    "text": "formal device. It's got an it's an analytic function. real part of S is"
+  },
+  {
+    "t_start": 1712.549,
+    "t_end": 1715.669,
+    "text": "analytic function. real part of S is greater than three halves. And so we"
+  },
+  {
+    "t_start": 1715.669,
+    "t_end": 1722.149,
+    "text": "might take that full ensemble a n of e for all n as our third version of local"
+  },
+  {
+    "t_start": 1722.149,
+    "t_end": 1725.59,
+    "text": "for all n as our third version of local arithmetic invariance of e and view them"
+  },
+  {
+    "t_start": 1725.59,
+    "t_end": 1729.11,
+    "text": "arithmetic invariance of e and view them as coefficients of the directly series"
+  },
+  {
+    "t_start": 1729.11,
+    "t_end": 1731.59,
+    "text": "as coefficients of the directly series given in the equation."
+  },
+  {
+    "t_start": 1731.59,
+    "t_end": 1736.789,
+    "text": "given in the equation. Uh the great thing though is"
+  },
+  {
+    "t_start": 1738.71,
+    "t_end": 1744.789,
+    "text": "continuation to an analytic function on the entire complex plane. And that's not"
+  },
+  {
+    "t_start": 1744.789,
+    "t_end": 1747.269,
+    "text": "the entire complex plane. And that's not um an exercise in analytic number"
+  },
+  {
+    "t_start": 1747.269,
+    "t_end": 1749.51,
+    "text": "um an exercise in analytic number theory. It's a consequence of the"
+  },
+  {
+    "t_start": 1749.51,
+    "t_end": 1753.669,
+    "text": "theory. It's a consequence of the modular modularity theorem proven by uh"
+  },
+  {
+    "t_start": 1753.669,
+    "t_end": 1758.149,
+    "text": "modular modularity theorem proven by uh by these people."
+  },
+  {
+    "t_start": 1761.269,
+    "t_end": 1764.149,
+    "text": "Okay. So the analytic function L of S around s= 1 well it's an analytic"
+  },
+  {
+    "t_start": 1764.149,
+    "t_end": 1767.83,
+    "text": "around s= 1 well it's an analytic function it has a behavior"
+  },
+  {
+    "t_start": 1767.83,
+    "t_end": 1770.149,
+    "text": "function it has a behavior but even though the infinite product"
+  },
+  {
+    "t_start": 1770.149,
+    "t_end": 1772.07,
+    "text": "but even though the infinite product expression"
+  },
+  {
+    "t_start": 1772.07,
+    "t_end": 1777.11,
+    "text": "expression uh for uh the hass l"
+  },
+  {
+    "t_start": 1777.11,
+    "t_end": 1779.75,
+    "text": "uh for uh the hass l function doesn't converge that infinite"
+  },
+  {
+    "t_start": 1779.75,
+    "t_end": 1785.43,
+    "text": "product expression doesn't converge at s equals 1 the analytic continuation still"
+  },
+  {
+    "t_start": 1785.43,
+    "t_end": 1792.71,
+    "text": "equals 1 the analytic continuation still exists and so we so it might be fun to"
+  },
+  {
+    "t_start": 1792.71,
+    "t_end": 1795.11,
+    "text": "take a look at the oiler factors for P not dividing the discriminant"
+  },
+  {
+    "t_start": 1795.11,
+    "t_end": 1797.59,
+    "text": "not dividing the discriminant um"
+  },
+  {
+    "t_start": 1797.59,
+    "t_end": 1805.269,
+    "text": "uh at that value of s at s= 1 and that's what it looks like and if you take a"
+  },
+  {
+    "t_start": 1805.269,
+    "t_end": 1810.87,
+    "text": "look at what it looks like it turns out to be the inverse of np over p so even"
+  },
+  {
+    "t_start": 1810.87,
+    "t_end": 1813.99,
+    "text": "to be the inverse of np over p so even though the infinite product of oiler"
+  },
+  {
+    "t_start": 1813.99,
+    "t_end": 1816.87,
+    "text": "though the infinite product of oiler factors doesn't converge for sals 1 we"
+  },
+  {
+    "t_start": 1816.87,
+    "t_end": 1818.47,
+    "text": "factors doesn't converge for sals 1 we can play with"
+  },
+  {
+    "t_start": 1818.47,
+    "t_end": 1824.71,
+    "text": "And we could write le of one. There are uh quotation marks around the equal sign"
+  },
+  {
+    "t_start": 1824.71,
+    "t_end": 1832.31,
+    "text": "uh quotation marks around the equal sign is equal to the product of np over p uh"
+  },
+  {
+    "t_start": 1832.31,
+    "t_end": 1837.51,
+    "text": "times uh the harmless factors that I ignored before. Um uh inverse"
+  },
+  {
+    "t_start": 1837.51,
+    "t_end": 1846.87,
+    "text": "and this product is overall primes p. So uh this doesn't make any sense. Um but"
+  },
+  {
+    "t_start": 1846.87,
+    "t_end": 1853.59,
+    "text": "uh you can uh view it in in this way. You could say the left hand side of this"
+  },
+  {
+    "t_start": 1853.59,
+    "t_end": 1855.19,
+    "text": "You could say the left hand side of this equation"
+  },
+  {
+    "t_start": 1855.19,
+    "t_end": 1861.51,
+    "text": "uh stands for the manner in which the analytic function tends to or doesn't"
+  },
+  {
+    "t_start": 1861.51,
+    "t_end": 1867.51,
+    "text": "tend to zero as s tends to one namely as a power of s minus one. The power being"
+  },
+  {
+    "t_start": 1867.51,
+    "t_end": 1870.31,
+    "text": "a power of s minus one. The power being the multiplicity of the zero of l of s"
+  },
+  {
+    "t_start": 1870.31,
+    "t_end": 1876.23,
+    "text": "at s= 1. And similarly the right hand side stands for the manner in which the"
+  },
+  {
+    "t_start": 1876.23,
+    "t_end": 1881.909,
+    "text": "inverse of the product of np over ps for p less than or equal to x tends to zero"
+  },
+  {
+    "t_start": 1881.909,
+    "t_end": 1889.19,
+    "text": "p less than or equal to x tends to zero as x tends to infinity and after all"
+  },
+  {
+    "t_start": 1889.19,
+    "t_end": 1895.75,
+    "text": "conjecturally that's bendar conjecture asmtoically is x to the minus rank of e."
+  },
+  {
+    "t_start": 1898.389,
+    "t_end": 1905.269,
+    "text": "uh that equation that doesn't make much sense except as a as a go uh suggests"
+  },
+  {
+    "t_start": 1905.269,
+    "t_end": 1908.31,
+    "text": "sense except as a as a go uh suggests that we that uh those two powers are"
+  },
+  {
+    "t_start": 1908.31,
+    "t_end": 1910.549,
+    "text": "that we that uh those two powers are equal and gives us the following third"
+  },
+  {
+    "t_start": 1910.549,
+    "t_end": 1916.47,
+    "text": "version of classic BSD which I call the rank equals multiplicity conjecture. The"
+  },
+  {
+    "t_start": 1916.47,
+    "t_end": 1924.71,
+    "text": "rank equals multiplicity conjecture. The analytic function L E of S has a zero at"
+  },
+  {
+    "t_start": 1924.71,
+    "t_end": 1928.23,
+    "text": "S equals one of multiplicity its rank and we might state it uh uh more"
+  },
+  {
+    "t_start": 1928.23,
+    "t_end": 1933.75,
+    "text": "succinctly if we define Rn to be the analytic rank the multiplicity of zero"
+  },
+  {
+    "t_start": 1933.75,
+    "t_end": 1938.789,
+    "text": "and R alge the algebraic rank to be the rank of the group of rational points and"
+  },
+  {
+    "t_start": 1938.789,
+    "t_end": 1947.83,
+    "text": "rank of the group of rational points and then we could say R alge is equal the"
+  },
+  {
+    "t_start": 1947.83,
+    "t_end": 1949.43,
+    "text": "conjecture is R alge is equal to RN now"
+  },
+  {
+    "t_start": 1949.43,
+    "t_end": 1957.43,
+    "text": "uh thanks to work of uh these people and I'm not again I'm not going to um go"
+  },
+  {
+    "t_start": 1957.43,
+    "t_end": 1963.75,
+    "text": "I'm not again I'm not going to um go through it uh here but it will be on my"
+  },
+  {
+    "t_start": 1963.75,
+    "t_end": 1969.99,
+    "text": "web page in a greater uh um with more explicit uh um"
+  },
+  {
+    "t_start": 1969.99,
+    "t_end": 1972.31,
+    "text": "uh um with more explicit uh um discussion of what each of these people"
+  },
+  {
+    "t_start": 1972.31,
+    "t_end": 1976.71,
+    "text": "discussion of what each of these people did. uh we have uh partial results"
+  },
+  {
+    "t_start": 1976.71,
+    "t_end": 1978.789,
+    "text": "did. uh we have uh partial results towards the rank equals multiplicity"
+  },
+  {
+    "t_start": 1978.789,
+    "t_end": 1984.87,
+    "text": "towards the rank equals multiplicity conjecture and towards its substantial"
+  },
+  {
+    "t_start": 1984.87,
+    "t_end": 1989.19,
+    "text": "For example, that rank equals multiplicity conjecture is true if the"
+  },
+  {
+    "t_start": 1989.19,
+    "t_end": 1993.669,
+    "text": "multiplicity conjecture is true if the analytic rank is less than or equal to"
+  },
+  {
+    "t_start": 1993.669,
+    "t_end": 2000.31,
+    "text": "one. Okay, now we're ready for refined BSD."
+  },
+  {
+    "t_start": 2000.31,
+    "t_end": 2007.59,
+    "text": "uh the basic ingredients the analytic L of E"
+  },
+  {
+    "t_start": 2007.59,
+    "t_end": 2015.43,
+    "text": "uh is uh simply well you this is defined by assuming the classic BSD conjecture."
+  },
+  {
+    "t_start": 2015.43,
+    "t_end": 2020.71,
+    "text": "by assuming the classic BSD conjecture. So we can write uh L E of S is equal to"
+  },
+  {
+    "t_start": 2020.71,
+    "t_end": 2024.23,
+    "text": "So we can write uh L E of S is equal to some constant a nonzero constant"
+  },
+  {
+    "t_start": 2024.23,
+    "t_end": 2030.789,
+    "text": "some constant a nonzero constant actually a real constant uh times S -1"
+  },
+  {
+    "t_start": 2030.789,
+    "t_end": 2037.269,
+    "text": "to the R plus higher terms um and where the R there is we were"
+  },
+  {
+    "t_start": 2037.269,
+    "t_end": 2044.87,
+    "text": "um [clears throat] either the algebraic rank or the analytic rank uh at your uh"
+  },
+  {
+    "t_start": 2044.87,
+    "t_end": 2047.75,
+    "text": "rank or the analytic rank uh at your uh uh pleasure."
+  },
+  {
+    "t_start": 2047.75,
+    "t_end": 2053.349,
+    "text": "Now comes the thing that's uh analogous to the class number except it's"
+  },
+  {
+    "t_start": 2053.349,
+    "t_end": 2060.629,
+    "text": "analogous to this class number in the formula. It's in by no means analogous"
+  },
+  {
+    "t_start": 2060.629,
+    "t_end": 2066.31,
+    "text": "computation. Class number is a sort of very friendly uh invariant. You really"
+  },
+  {
+    "t_start": 2066.31,
+    "t_end": 2071.589,
+    "text": "very friendly uh invariant. You really it really wants to be computed although"
+  },
+  {
+    "t_start": 2071.589,
+    "t_end": 2074.23,
+    "text": "it takes some computation. This is a different sort of thing. By definition,"
+  },
+  {
+    "t_start": 2074.23,
+    "t_end": 2081.43,
+    "text": "different sort of thing. By definition, an E tosser over Q is a projective"
+  },
+  {
+    "t_start": 2081.43,
+    "t_end": 2083.75,
+    "text": "smooth curve over Q. That's a homogeneous space with a transitive and"
+  },
+  {
+    "t_start": 2083.75,
+    "t_end": 2086.47,
+    "text": "homogeneous space with a transitive and free action by the elliptic curve where"
+  },
+  {
+    "t_start": 2086.47,
+    "t_end": 2093.43,
+    "text": "the elliptic curve is viewed as an algebraic group acting on on that curve."
+  },
+  {
+    "t_start": 2093.43,
+    "t_end": 2096.55,
+    "text": "algebraic group acting on on that curve. So um"
+  },
+  {
+    "t_start": 2096.55,
+    "t_end": 2103.51,
+    "text": "uh it's it's a curve if you want or it's an uh as you'll see we're only"
+  },
+  {
+    "t_start": 2103.51,
+    "t_end": 2105.67,
+    "text": "an uh as you'll see we're only interested in isomeorphism classes of"
+  },
+  {
+    "t_start": 2105.67,
+    "t_end": 2112.87,
+    "text": "these curves and I'll call such an etorser a curve a good etorser if it has"
+  },
+  {
+    "t_start": 2112.87,
+    "t_end": 2114.63,
+    "text": "etorser a curve a good etorser if it has a"
+  },
+  {
+    "t_start": 2114.63,
+    "t_end": 2119.589,
+    "text": "qpr rational point for every prime p and a rational point over r"
+  },
+  {
+    "t_start": 2119.589,
+    "t_end": 2125.51,
+    "text": "may not have a rational point of a cube If it has a rational point of a Q, this"
+  },
+  {
+    "t_start": 2125.51,
+    "t_end": 2127.03,
+    "text": "If it has a rational point of a Q, this good"
+  },
+  {
+    "t_start": 2127.03,
+    "t_end": 2133.829,
+    "text": "uh E to series is really very good. It's isomorphic to E. If it doesn't, uh it's"
+  },
+  {
+    "t_start": 2133.829,
+    "t_end": 2135.43,
+    "text": "isomorphic to E. If it doesn't, uh it's interesting."
+  },
+  {
+    "t_start": 2135.43,
+    "t_end": 2139.51,
+    "text": "Now there's a natural being group structure on the set of isomorphism"
+  },
+  {
+    "t_start": 2139.51,
+    "t_end": 2144.23,
+    "text": "structure on the set of isomorphism classes of these good u etors"
+  },
+  {
+    "t_start": 2144.23,
+    "t_end": 2151.43,
+    "text": "and it's denoted by this um uh Russian letter sha e and called the shepher"
+  },
+  {
+    "t_start": 2151.43,
+    "t_end": 2159.03,
+    "text": "group of e and then there is the conjecture the chef tate conjecture is"
+  },
+  {
+    "t_start": 2159.03,
+    "t_end": 2163.829,
+    "text": "conjecture the chef tate conjecture is that that shai is finite well hey if"
+  },
+  {
+    "t_start": 2163.829,
+    "t_end": 2170.63,
+    "text": "it's supposed to be analogous to the class number it better be finite. Um but"
+  },
+  {
+    "t_start": 2170.63,
+    "t_end": 2172.95,
+    "text": "um uh what's interesting about this conjecture is that when it was made,"
+  },
+  {
+    "t_start": 2172.95,
+    "t_end": 2175.349,
+    "text": "conjecture is that when it was made, there wasn't a single"
+  },
+  {
+    "t_start": 2175.349,
+    "t_end": 2179.349,
+    "text": "uh example where it was known to be finite. So it takes a certain amount of"
+  },
+  {
+    "t_start": 2179.349,
+    "t_end": 2183.109,
+    "text": "finite. So it takes a certain amount of daring to make it. On the other hand, uh"
+  },
+  {
+    "t_start": 2183.109,
+    "t_end": 2190.87,
+    "text": "daring to make it. On the other hand, uh if you go to the um collected volumes of"
+  },
+  {
+    "t_start": 2190.87,
+    "t_end": 2197.43,
+    "text": "of John Tate or Shepher, you won't find it there. uh they they"
+  },
+  {
+    "t_start": 2197.43,
+    "t_end": 2202.63,
+    "text": "don't own it exactly but they clearly are uh have set the"
+  },
+  {
+    "t_start": 2202.63,
+    "t_end": 2206.95,
+    "text": "but they clearly are uh have set the stage uh miraculously well to make such"
+  },
+  {
+    "t_start": 2206.95,
+    "t_end": 2210.069,
+    "text": "stage uh miraculously well to make such a conjecture."
+  },
+  {
+    "t_start": 2210.069,
+    "t_end": 2215.19,
+    "text": "a conjecture. Okay, here's um uh the most famous"
+  },
+  {
+    "t_start": 2215.19,
+    "t_end": 2218.87,
+    "text": "Okay, here's um uh the most famous example of a good torser and it's really"
+  },
+  {
+    "t_start": 2218.87,
+    "t_end": 2222.15,
+    "text": "example of a good torser and it's really the starter for studying such tors and"
+  },
+  {
+    "t_start": 2222.15,
+    "t_end": 2223.99,
+    "text": "the starter for studying such tors and for Selma groups that we'll be talk"
+  },
+  {
+    "t_start": 2223.99,
+    "t_end": 2230.23,
+    "text": "we'll be talking about in a few minutes. uh and it's called Selmer's cubic curve"
+  },
+  {
+    "t_start": 2230.23,
+    "t_end": 2238.23,
+    "text": "uh and it's called Selmer's cubic curve and it's the easiest uh"
+  },
+  {
+    "t_start": 2238.23,
+    "t_end": 2244.55,
+    "text": "uh uh uh it's the easiest equation you you can imagine for a curve. There it"
+  },
+  {
+    "t_start": 2244.55,
+    "t_end": 2250.23,
+    "text": "cubic curve. It has a QP rational point for every prime P and a real point but"
+  },
+  {
+    "t_start": 2250.23,
+    "t_end": 2252.71,
+    "text": "for every prime P and a real point but no Q rational point. And it's a"
+  },
+  {
+    "t_start": 2252.71,
+    "t_end": 2255.75,
+    "text": "no Q rational point. And it's a homogeneous space for the elliptic curve"
+  },
+  {
+    "t_start": 2255.75,
+    "t_end": 2265.349,
+    "text": "homogeneous space for the elliptic curve x cub + y cub + 60 z cub = z. Let us say"
+  },
+  {
+    "t_start": 2265.349,
+    "t_end": 2270.79,
+    "text": "Now there's e of q. Let us say the group of rational points of the elliptic curve"
+  },
+  {
+    "t_start": 2270.79,
+    "t_end": 2279.75,
+    "text": "over q. There's this sha e which is conjecturally finite. Uh but we we don't"
+  },
+  {
+    "t_start": 2279.75,
+    "t_end": 2286.95,
+    "text": "know. And you might think uh as I say here on first view that the various ways"
+  },
+  {
+    "t_start": 2286.95,
+    "t_end": 2289.829,
+    "text": "here on first view that the various ways of computing rational points on elliptic"
+  },
+  {
+    "t_start": 2289.829,
+    "t_end": 2292.39,
+    "text": "of computing rational points on elliptic curves are completely different from uh"
+  },
+  {
+    "t_start": 2292.39,
+    "t_end": 2298.87,
+    "text": "curves are completely different from uh the ways of computing shaw which has to"
+  },
+  {
+    "t_start": 2298.87,
+    "t_end": 2307.43,
+    "text": "do with algebraic curves on with uh with action of algebraic"
+  },
+  {
+    "t_start": 2307.43,
+    "t_end": 2313.109,
+    "text": "uh the first is a problem in arithmetic and the second being uh about objects in"
+  },
+  {
+    "t_start": 2313.109,
+    "t_end": 2316.39,
+    "text": "and the second being uh about objects in algebraic geometry sources."
+  },
+  {
+    "t_start": 2316.39,
+    "t_end": 2322.79,
+    "text": "But as I say happily for our subject there's a natural family of intermediary"
+  },
+  {
+    "t_start": 2322.79,
+    "t_end": 2325.99,
+    "text": "there's a natural family of intermediary objects much more directly computable"
+  },
+  {
+    "t_start": 2325.99,
+    "t_end": 2332.15,
+    "text": "than either of these things that plays a role in helping compute both of them."
+  },
+  {
+    "t_start": 2332.15,
+    "t_end": 2334.39,
+    "text": "role in helping compute both of them. namely"
+  },
+  {
+    "t_start": 2334.39,
+    "t_end": 2336.79,
+    "text": "namely uh"
+  },
+  {
+    "t_start": 2336.79,
+    "t_end": 2344.87,
+    "text": "selmer groups associated to the elliptic curve. So what's in that box here is for"
+  },
+  {
+    "t_start": 2344.87,
+    "t_end": 2348.47,
+    "text": "every n you get a group. It's an it's a finite debate group selmer ne"
+  },
+  {
+    "t_start": 2348.47,
+    "t_end": 2351.19,
+    "text": "finite debate group selmer ne and uh it's defined"
+  },
+  {
+    "t_start": 2351.19,
+    "t_end": 2359.99,
+    "text": "very easily in terms of coology related to not even related to all of e all all"
+  },
+  {
+    "t_start": 2359.99,
+    "t_end": 2367.75,
+    "text": "you need to know is the subgroup of n torion of e with its gala action and you"
+  },
+  {
+    "t_start": 2367.75,
+    "t_end": 2370.63,
+    "text": "torion of e with its gala action and you get this group"
+  },
+  {
+    "t_start": 2370.63,
+    "t_end": 2372.47,
+    "text": "get this group well"
+  },
+  {
+    "t_start": 2372.47,
+    "t_end": 2380.23,
+    "text": "um that you would you would expect uh it's um easily computable and it is and"
+  },
+  {
+    "t_start": 2380.23,
+    "t_end": 2383.67,
+    "text": "it's um easily computable and it is and there are natural exact sequences that"
+  },
+  {
+    "t_start": 2383.67,
+    "t_end": 2386.79,
+    "text": "there are natural exact sequences that combine"
+  },
+  {
+    "t_start": 2390.069,
+    "t_end": 2391.829,
+    "text": "rational points and sha with selmer in this way"
+  },
+  {
+    "t_start": 2391.829,
+    "t_end": 2393.349,
+    "text": "this way uh"
+  },
+  {
+    "t_start": 2393.349,
+    "t_end": 2399.51,
+    "text": "uh what this is uh rational points modulo n times rational points so for"
+  },
+  {
+    "t_start": 2399.51,
+    "t_end": 2409.349,
+    "text": "example of e of q would be Z to Z R then this would be um Z mod N to the R uh and"
+  },
+  {
+    "t_start": 2409.349,
+    "t_end": 2412.95,
+    "text": "this would be um Z mod N to the R uh and um uh the brackets N here means the"
+  },
+  {
+    "t_start": 2412.95,
+    "t_end": 2422.79,
+    "text": "kernel of multiplication by N in SHA so it's a good piece of SHA if n is large"
+  },
+  {
+    "t_start": 2427.27,
+    "t_end": 2428.79,
+    "text": "and as I say here the uh it plays an important role in"
+  },
+  {
+    "t_start": 2428.79,
+    "t_end": 2436.95,
+    "text": "understanding both E of K Q and jaw e uh and uh a a strange way of thinking about"
+  },
+  {
+    "t_start": 2436.95,
+    "t_end": 2438.71,
+    "text": "and uh a a strange way of thinking about the group of rational points of E at"
+  },
+  {
+    "t_start": 2438.71,
+    "t_end": 2441.99,
+    "text": "the group of rational points of E at least when you tensor it by QP"
+  },
+  {
+    "t_start": 2441.99,
+    "t_end": 2445.829,
+    "text": "least when you tensor it by QP a str and what I'm writing here assumes"
+  },
+  {
+    "t_start": 2445.829,
+    "t_end": 2448.95,
+    "text": "a str and what I'm writing here assumes the shepherd state conjecture"
+  },
+  {
+    "t_start": 2448.95,
+    "t_end": 2455.349,
+    "text": "that is say for every prime P there's a canonical isomorphism between E of Q"
+  },
+  {
+    "t_start": 2455.349,
+    "t_end": 2460.47,
+    "text": "well tensed with QP and the limit of these selma groups again tensored with"
+  },
+  {
+    "t_start": 2460.47,
+    "t_end": 2463.43,
+    "text": "these selma groups again tensored with QP"
+  },
+  {
+    "t_start": 2466.23,
+    "t_end": 2473.51,
+    "text": "Sha. Now it's a discussion of the uh the uh regulator of E corresponding to the"
+  },
+  {
+    "t_start": 2473.51,
+    "t_end": 2478.47,
+    "text": "uh regulator of E corresponding to the regulator of the number field. Namely,"
+  },
+  {
+    "t_start": 2478.47,
+    "t_end": 2480.39,
+    "text": "there's a canonical height pairing on rational points of elliptic curve and"
+  },
+  {
+    "t_start": 2480.39,
+    "t_end": 2484.71,
+    "text": "rational points of elliptic curve and Non and Tate uh introduced"
+  },
+  {
+    "t_start": 2484.71,
+    "t_end": 2487.589,
+    "text": "Non and Tate uh introduced their canonical height pairing which is"
+  },
+  {
+    "t_start": 2487.589,
+    "t_end": 2490.55,
+    "text": "their canonical height pairing which is a non- degenerate bilinear pairing on"
+  },
+  {
+    "t_start": 2490.55,
+    "t_end": 2492.55,
+    "text": "a non- degenerate bilinear pairing on the group of rational points of elliptic"
+  },
+  {
+    "t_start": 2492.55,
+    "t_end": 2496.309,
+    "text": "the group of rational points of elliptic curves that pro that provides us with a"
+  },
+  {
+    "t_start": 2496.309,
+    "t_end": 2500.069,
+    "text": "curves that pro that provides us with a canonical embedding of E mod torsion as"
+  },
+  {
+    "t_start": 2500.069,
+    "t_end": 2502.87,
+    "text": "canonical embedding of E mod torsion as a lattice in uklidian space just like"
+  },
+  {
+    "t_start": 2502.87,
+    "t_end": 2508.309,
+    "text": "one has units mod torsion as a lattice. in uklidian space and you take it its"
+  },
+  {
+    "t_start": 2508.309,
+    "t_end": 2510.95,
+    "text": "in uklidian space and you take it its volume to get uh the regulator of the"
+  },
+  {
+    "t_start": 2510.95,
+    "t_end": 2519.109,
+    "text": "number field. Well, the volume of this lattice is uh uh denoted reggg e and uh"
+  },
+  {
+    "t_start": 2519.109,
+    "t_end": 2521.349,
+    "text": "lattice is uh uh denoted reggg e and uh it's the reg it's called the regulator"
+  },
+  {
+    "t_start": 2521.349,
+    "t_end": 2524.39,
+    "text": "it's the reg it's called the regulator of the elliptic curve."
+  },
+  {
+    "t_start": 2524.39,
+    "t_end": 2529.91,
+    "text": "Okay. So here's the refined burch and swinn dire conjecture."
+  },
+  {
+    "t_start": 2529.91,
+    "t_end": 2532.15,
+    "text": "swinn dire conjecture. um"
+  },
+  {
+    "t_start": 2532.15,
+    "t_end": 2538.23,
+    "text": "uh and it's totally as I say here resonant with the classical class number"
+  },
+  {
+    "t_start": 2538.23,
+    "t_end": 2539.829,
+    "text": "resonant with the classical class number formula"
+  },
+  {
+    "t_start": 2539.829,
+    "t_end": 2545.43,
+    "text": "formula uh it's I the way I put it is uh uh as a"
+  },
+  {
+    "t_start": 2545.43,
+    "t_end": 2550.23,
+    "text": "uh it's I the way I put it is uh uh as a as a as a formula for shai"
+  },
+  {
+    "t_start": 2550.23,
+    "t_end": 2558.069,
+    "text": "sha is elementary terms that are don't play that much of a um a role as a"
+  },
+  {
+    "t_start": 2558.069,
+    "t_end": 2562.15,
+    "text": "play that much of a um a role as a mystery uh times"
+  },
+  {
+    "t_start": 2562.15,
+    "t_end": 2569.349,
+    "text": "the square of the order of the torsion group of E of Q that's like W K over the"
+  },
+  {
+    "t_start": 2569.349,
+    "t_end": 2571.589,
+    "text": "group of E of Q that's like W K over the regulator of E that's like the regulator"
+  },
+  {
+    "t_start": 2571.589,
+    "t_end": 2578.23,
+    "text": "regulator of E that's like the regulator of K times L of E uh the um analytic L"
+  },
+  {
+    "t_start": 2578.23,
+    "t_end": 2584.71,
+    "text": "of K times L of E uh the um analytic L of E that's like the analytic L of K"
+  },
+  {
+    "t_start": 2586.95,
+    "t_end": 2588.79,
+    "text": "uh I say it's I said it's a resonant with class number formula but there are"
+  },
+  {
+    "t_start": 2588.79,
+    "t_end": 2591.829,
+    "text": "with class number formula but there are differences. And here are a few. It's"
+  },
+  {
+    "t_start": 2591.829,
+    "t_end": 2594.55,
+    "text": "differences. And here are a few. It's not so you you might argue that they're"
+  },
+  {
+    "t_start": 2594.55,
+    "t_end": 2596.63,
+    "text": "not so you you might argue that they're not even though they look pretty much"
+  },
+  {
+    "t_start": 2596.63,
+    "t_end": 2603.99,
+    "text": "not even though they look pretty much the same, they seem to have a slightly"
+  },
+  {
+    "t_start": 2603.99,
+    "t_end": 2610.47,
+    "text": "structure if you want. Uh and also the full conjectured meaning of the analytic"
+  },
+  {
+    "t_start": 2610.47,
+    "t_end": 2619.99,
+    "text": "L of E is already embedded in the refined BSD uh conjecture. And also also"
+  },
+  {
+    "t_start": 2619.99,
+    "t_end": 2623.19,
+    "text": "refined BSD uh conjecture. And also also um the chevage t conjecture is embedded"
+  },
+  {
+    "t_start": 2623.19,
+    "t_end": 2628.309,
+    "text": "um the chevage t conjecture is embedded in it. And finally it's the square of"
+  },
+  {
+    "t_start": 2628.309,
+    "t_end": 2635.19,
+    "text": "the order of the torsion that enters rather than the torsion. But these are"
+  },
+  {
+    "t_start": 2635.19,
+    "t_end": 2640.79,
+    "text": "if you want minor differences and uh um set the set set the pattern"
+  },
+  {
+    "t_start": 2640.79,
+    "t_end": 2644.87,
+    "text": "and uh um set the set set the pattern for further expansions."
+  },
+  {
+    "t_start": 2644.87,
+    "t_end": 2651.99,
+    "text": "So one can expand further as I say here from elliptic curves of a queue to a"
+  },
+  {
+    "t_start": 2651.99,
+    "t_end": 2656.79,
+    "text": "from elliptic curves of a queue to a billion varieties over global fields and"
+  },
+  {
+    "t_start": 2656.79,
+    "t_end": 2659.589,
+    "text": "billion varieties over global fields and by making explicit the role of certain"
+  },
+  {
+    "t_start": 2659.589,
+    "t_end": 2665.43,
+    "text": "by making explicit the role of certain types of rational points in the formula"
+  },
+  {
+    "t_start": 2665.43,
+    "t_end": 2668.87,
+    "text": "and this brings us to what's called higra points. A hnap point is associated"
+  },
+  {
+    "t_start": 2668.87,
+    "t_end": 2672.47,
+    "text": "higra points. A hnap point is associated to the elliptic curve and"
+  },
+  {
+    "t_start": 2672.47,
+    "t_end": 2674.39,
+    "text": "to the elliptic curve and appropriate an appropriate auxiliary"
+  },
+  {
+    "t_start": 2674.39,
+    "t_end": 2677.91,
+    "text": "appropriate an appropriate auxiliary quadratic imaginary field."
+  },
+  {
+    "t_start": 2677.91,
+    "t_end": 2684.47,
+    "text": "Now a choice of hign point uh really introduces the main character"
+  },
+  {
+    "t_start": 2684.47,
+    "t_end": 2689.829,
+    "text": "uh really introduces the main character in the proof of what I've uh said before"
+  },
+  {
+    "t_start": 2689.829,
+    "t_end": 2692.069,
+    "text": "was proved namely the rank equal multiplicity conjecture"
+  },
+  {
+    "t_start": 2692.069,
+    "t_end": 2696.95,
+    "text": "multiplicity conjecture uh when uh the analytic rank is less"
+  },
+  {
+    "t_start": 2696.95,
+    "t_end": 2703.51,
+    "text": "So now here I'm quoting from Brian Burch's Higna Points the beginning. He"
+  },
+  {
+    "t_start": 2703.51,
+    "t_end": 2709.03,
+    "text": "writes that in 1982 he received a number of letters from Dick Gross. The first of"
+  },
+  {
+    "t_start": 2709.03,
+    "t_end": 2712.39,
+    "text": "of letters from Dick Gross. The first of which began I recently found an amusing"
+  },
+  {
+    "t_start": 2712.39,
+    "t_end": 2719.03,
+    "text": "which began I recently found an amusing method to study heum points on J0 of N."
+  },
+  {
+    "t_start": 2719.03,
+    "t_end": 2721.589,
+    "text": "Brian writes, \"It was exciting because for the first time it related the index"
+  },
+  {
+    "t_start": 2721.589,
+    "t_end": 2728.309,
+    "text": "for the first time it related the index of the Hign point and EFQ to the order"
+  },
+  {
+    "t_start": 2728.309,
+    "t_end": 2733.51,
+    "text": "And he responded to Dick, \"You seem to be opening so many doors that I'm almost"
+  },
+  {
+    "t_start": 2733.51,
+    "t_end": 2736.47,
+    "text": "be opening so many doors that I'm almost afraid to push.\""
+  },
+  {
+    "t_start": 2736.47,
+    "t_end": 2744.47,
+    "text": "Brian recalls that Dick translated this into get shoving, you lucky soando."
+  },
+  {
+    "t_start": 2748.63,
+    "t_end": 2754.069,
+    "text": "Okay. So, gross and zagier and kibben. So, suppose we we know the rank equal"
+  },
+  {
+    "t_start": 2754.069,
+    "t_end": 2757.51,
+    "text": "multiplicity conjecture uh um"
+  },
+  {
+    "t_start": 2757.51,
+    "t_end": 2764.15,
+    "text": "uh and that both uh rank and uh and algebraic rank and analytic rank is"
+  },
+  {
+    "t_start": 2764.15,
+    "t_end": 2768.95,
+    "text": "equal to one. Suppose we know all that and then it would follow from BSD that"
+  },
+  {
+    "t_start": 2768.95,
+    "t_end": 2776.15,
+    "text": "there is a point I mean after all if the uh algebraic rack is one the um group of"
+  },
+  {
+    "t_start": 2776.15,
+    "t_end": 2782.39,
+    "text": "uh algebraic rack is one the um group of rational points of Q is just uh uh Z"
+  },
+  {
+    "t_start": 2782.39,
+    "t_end": 2788.71,
+    "text": "a point of infinite order that would be a finite index in that uh group. So you"
+  },
+  {
+    "t_start": 2788.71,
+    "t_end": 2792.309,
+    "text": "a finite index in that uh group. So you might uh look for um"
+  },
+  {
+    "t_start": 2792.309,
+    "t_end": 2794.23,
+    "text": "might uh look for um an expression"
+  },
+  {
+    "t_start": 2794.23,
+    "t_end": 2801.109,
+    "text": "an expression for the um refined BSD uh in this way."
+  },
+  {
+    "t_start": 2801.109,
+    "t_end": 2804.55,
+    "text": "for the um refined BSD uh in this way. L E equals elementary factors time"
+  },
+  {
+    "t_start": 2804.55,
+    "t_end": 2808.71,
+    "text": "L E equals elementary factors time height of P time sha"
+  },
+  {
+    "t_start": 2808.71,
+    "t_end": 2816.71,
+    "text": "over the uh index of the group um generated by the point in uh the full"
+  },
+  {
+    "t_start": 2816.71,
+    "t_end": 2822.309,
+    "text": "generated by the point in uh the full group of rational points squared."
+  },
+  {
+    "t_start": 2824.55,
+    "t_end": 2826.71,
+    "text": "Now it would be a stronger result if we could actually produce explicitly a"
+  },
+  {
+    "t_start": 2826.71,
+    "t_end": 2831.99,
+    "text": "point P fitting into that equation. And as I say here, this is exactly what Dick"
+  },
+  {
+    "t_start": 2831.99,
+    "t_end": 2835.829,
+    "text": "as I say here, this is exactly what Dick Gross and Dons are do in their paper. Uh"
+  },
+  {
+    "t_start": 2835.829,
+    "t_end": 2839.109,
+    "text": "Gross and Dons are do in their paper. Uh the point being a Higner point. I have"
+  },
+  {
+    "t_start": 2839.109,
+    "t_end": 2842.069,
+    "text": "the point being a Higner point. I have some some footnotes here. I say since"
+  },
+  {
+    "t_start": 2842.069,
+    "t_end": 2846.069,
+    "text": "this talk is only an hour long, I'll not get into the elegant definition of he"
+  },
+  {
+    "t_start": 2846.069,
+    "t_end": 2847.99,
+    "text": "get into the elegant definition of he points."
+  },
+  {
+    "t_start": 2847.99,
+    "t_end": 2853.67,
+    "text": "Think of them as points in EQ defined and made explicit via their their"
+  },
+  {
+    "t_start": 2853.67,
+    "t_end": 2856.39,
+    "text": "and made explicit via their their structural uh relationship to the"
+  },
+  {
+    "t_start": 2856.39,
+    "t_end": 2859.349,
+    "text": "structural uh relationship to the elliptic curve."
+  },
+  {
+    "t_start": 2859.349,
+    "t_end": 2865.109,
+    "text": "Now kolivan's work complements gross and zagier by proving that the hnum point p"
+  },
+  {
+    "t_start": 2865.109,
+    "t_end": 2868.95,
+    "text": "zagier by proving that the hnum point p has infinite order and uh the group it"
+  },
+  {
+    "t_start": 2868.95,
+    "t_end": 2871.03,
+    "text": "has infinite order and uh the group it generates in the group of rational"
+  },
+  {
+    "t_start": 2871.03,
+    "t_end": 2876.55,
+    "text": "points is a finite index if the analytic rank is one and that is what completes"
+  },
+  {
+    "t_start": 2876.55,
+    "t_end": 2878.87,
+    "text": "rank is one and that is what completes the proof of the rank equal multiplicity"
+  },
+  {
+    "t_start": 2878.87,
+    "t_end": 2886.71,
+    "text": "the proof of the rank equal multiplicity conjecture when the rank is equal to one"
+  },
+  {
+    "t_start": 2886.71,
+    "t_end": 2889.349,
+    "text": "the analytic rank is equal to one you can go further"
+  },
+  {
+    "t_start": 2889.349,
+    "t_end": 2893.75,
+    "text": "That's called the blockatoto conjecture. You're moving from elliptic curves over"
+  },
+  {
+    "t_start": 2893.75,
+    "t_end": 2896.71,
+    "text": "You're moving from elliptic curves over Q to algebraic geometry over number"
+  },
+  {
+    "t_start": 2896.71,
+    "t_end": 2905.27,
+    "text": "fields K. So block and cotto as I say here uh they extended the frame of that"
+  },
+  {
+    "t_start": 2905.27,
+    "t_end": 2909.75,
+    "text": "here uh they extended the frame of that conjecture from elliptic curves to all"
+  },
+  {
+    "t_start": 2909.75,
+    "t_end": 2911.99,
+    "text": "conjecture from elliptic curves to all smooth proper algebraic varieties over"
+  },
+  {
+    "t_start": 2911.99,
+    "t_end": 2914.23,
+    "text": "smooth proper algebraic varieties over number fields. K."
+  },
+  {
+    "t_start": 2914.23,
+    "t_end": 2920.39,
+    "text": "As I say here too, this generalization is elegant since uh to formulate it, you"
+  },
+  {
+    "t_start": 2920.39,
+    "t_end": 2923.03,
+    "text": "is elegant since uh to formulate it, you don't even know much about the the the"
+  },
+  {
+    "t_start": 2923.03,
+    "t_end": 2926.71,
+    "text": "don't even know much about the the the algebraic variety X."
+  },
+  {
+    "t_start": 2926.71,
+    "t_end": 2933.19,
+    "text": "They deal with an object V. That's just a piic gala representation"
+  },
+  {
+    "t_start": 2933.19,
+    "t_end": 2937.51,
+    "text": "That's just a piic gala representation that comes from the geometry of X."
+  },
+  {
+    "t_start": 2937.51,
+    "t_end": 2940.71,
+    "text": "that comes from the geometry of X. Oops."
+  },
+  {
+    "t_start": 2943.91,
+    "t_end": 2950.79,
+    "text": "That might be a a a sign. This is the this is my last"
+  },
+  {
+    "t_start": 2955.91,
+    "t_end": 2962.069,
+    "text": "the time might uh be such that if I wanted questions the time for questions"
+  },
+  {
+    "t_start": 2962.069,
+    "t_end": 2967.109,
+    "text": "this would be a good time to um uh end it. I did have a little discussion about"
+  },
+  {
+    "t_start": 2967.109,
+    "t_end": 2969.19,
+    "text": "it. I did have a little discussion about blockicata"
+  },
+  {
+    "t_start": 2969.19,
+    "t_end": 2974.63,
+    "text": "blockicata which will be on my"
+  },
+  {
+    "t_start": 2974.63,
+    "t_end": 2983.43,
+    "text": "um on my web page. Okay. What we see here is uh circled the very beginning of"
+  },
+  {
+    "t_start": 2983.43,
+    "t_end": 2986.79,
+    "text": "here is uh circled the very beginning of the story NP."
+  },
+  {
+    "t_start": 2986.79,
+    "t_end": 2989.91,
+    "text": "the story NP. And um"
+  },
+  {
+    "t_start": 2989.91,
+    "t_end": 2995.51,
+    "text": "as I write up there, this is not yet the end of the expansion and evolution of"
+  },
+  {
+    "t_start": 2995.51,
+    "t_end": 2999.109,
+    "text": "end of the expansion and evolution of that initial observation of"
+  },
+  {
+    "t_start": 2999.109,
+    "t_end": 3006.79,
+    "text": "Birch and Spin and Dire. Okay. And I'm I I'm happy that at least I have time for"
+  },
+  {
+    "t_start": 3006.79,
+    "t_end": 3009.094,
+    "text": "I'm happy that at least I have time for questions."
+  },
+  {
+    "t_start": 3009.094,
+    "t_end": 3011.124,
+    "text": "questions. [applause]"
+  }
+]

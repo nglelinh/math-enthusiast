@@ -1,0 +1,722 @@
+i'd like to thank the organizers for the invitation to
+speak at a very nice summer school
+so my um what i would like to do in my lectures is to
+lectures is to overview
+some kind of vision approach to the geometric approach to endoscopic
+geometric approach to endoscopic fundamental lemma
+in various context so um and mainly i mean the sketch of
+so um and mainly i mean the sketch of course the for the the main line in the
+course the for the the main line in the proof of fundamental dilemma for the
+but i really would like to emphasize an aspect that that could there should be
+aspect that that could there should be no right to
+um many more situations of course there's some
+of course there's some this kind of
+approach has been used in other other works like in
+easy way you work for the shakti right fundamentalemma and also much earlier
+fundamentalemma and also much earlier in actually in my my first thirties for
+in actually in my my first thirties for the judges
+fundamental lemma and there are certainly some some kind of very um
+certainly some some kind of very um general framework that should uh
+to deal with uh at least any kind of endoscopic fundamental lemma so that is
+endoscopic fundamental lemma so that is how i i want to present um
+how i i want to present um so my the plan is have amazing titles
+and three parts so the first part is about orbital the
+so what i mean i will try to explain uh a geometric interpretation of both local
+a geometric interpretation of both local and global open integrals and they have
+and global open integrals and they have i'm helped a lot by by
+i'm helped a lot by by solicitor this morning we spent a good
+okay and the second part is about
+of the hitching vibrations so that is i i plan to explain this in
+today so this is actually the most intricate part of my approval
+intricate part of my approval fundamentally it's very difficult and
+fundamentally it's very difficult and very intricate
+very intricate but luckily
+there's recent development there's some other method of other generalizations
+that should be able to make it much less technical and understandable it's more
+easy easier to you know generalize the situation so i i plan to report on that
+situation so i i plan to report on that mainly in the work of mclaren shende
+mainly in the work of mclaren shende about converted generalized support
+about converted generalized support theorem and also in the
+kind of different approach um
+uh using pedic integration by uh by this uh uh by goshen nick vicenzigla
+by this uh uh by goshen nick vicenzigla so all of this uh steen uh relies on you
+uh general geometric interpretation of poverty gone and so on uh so on the
+poverty gone and so on uh so on the third part and of wednesday lectures i
+third part and of wednesday lectures i uh
+i mean this is not done yet this is very much
+ongoing work but i encourage explain that
+i or we should want to do some invalid theory
+that should pertain to some kind of geometric interpretation of version and
+geometric interpretation of version and from endoscopy theory
+so so i should add that it there's some kind of limit to this you
+there's some kind of limit to this you know you can probably if it's very
+know you can probably if it's very adaptable to
+endoscopic fundamental number but for more
+but for more like more
+ambitious from the middle name life is like it's a stable fundamental lemma
+like it's a stable fundamental lemma then there's kind of a
+then there's kind of a really a big new ideas
+all right so this is really still about a comp you know point wise comparison
+a comp you know point wise comparison all right so um
+so you know we start so
+for today a mainly into this invalid situation where g is
+situation where g is reductive groups
+and g act on or with liange brush
+so this is uh the basic data and for this
+and for this what you know the
+what we are looking forward to is you want to really choose your life this is
+acting on some phi
+maybe normal variety m
+with some assumption but i don't want to to go into that now but we think about
+for example the very similar situation the g act on g by
+which should give right to the fundamental lambda 4 group
+in chi objects geometric way not uh not need to go in through acquire rather
+need to go in through acquire rather elaborate argument um
+elaborate argument um uh
+you know harvest on the descent argument and so on like uh
+and so on like uh that's what explained this morning or
+that's what explained this morning or you can also look at the many situations
+like g acting on x1 time x2
+x1 and x2 spherical varieties
+and in particular for for simply super symmetric space
+symmetric space and
+not you know depend on how you define it but the file normal may not satisfy but
+but the file normal may not satisfy but it will be very important so the
+it will be very important so the last lecture is reacting
+so this is kind of significantly more difficult than the
+for environment theory point of view is with quite more difficult to shoot under
+with quite more difficult to shoot under the two first case but somehow it's kind
+the two first case but somehow it's kind of the mother situation so that's why
+of the mother situation so that's why you really need to understand this
+for example you know we have x1 x2 xd inside g so that x i
+xd inside g so that x i f z is 0
+and g acting on this by simultaneous conjugation
+and so of course this is the form the you know
+at least the two first examples are quite meaningful for automotive
+quite meaningful for automotive applications but all these are
+you know studied also by people looking at modular space
+like the example symmetric space in the in the in the in the water people living
+reaching vibration they're going the hitching vibration for
+and this this will have you know heating vibration for
+for higher dimension varieties so this is very far away from any any um
+is very far away from any any um automotive applications but uh
+it's actually very important uh from this purely invalid theoretical point of
+this purely invalid theoretical point of view
+so anyway uh this is all i want to mention about this i
+mention about this i for today many
+concentrate myself into this case this very basic case
+very basic case and but
+on the way i try to you know to
+i'm not going to leave all definitions because you take more than two lectures
+because you take more than two lectures but i um and try to really try to
+but i um and try to really try to point out anything that would cause
+point out anything that would cause trouble if you want to generalize
+trouble if you want to generalize other situations
+so now in this situation of uh so she
+so she acting on isla and jabras
+maybe right here i'd like to have it here
+you have this environment theoretic quotient
+g you know the which by definition is the the spec of
+so the the spectrum of the the ring of inver of g invariant function on the
+lingerie brush and uh
+so we start here with now with f is a local
+local non-archimedean fear
+let's let's start with the basic operator let x to be
+operator let x to be a name in gf
+but for many i assume is actually regular semi-simple
+now fee a test function so uh functions moves and compass support only under
+moves and compass support only under brass
+brass then
+we define these usual algorithms of x of v
+of x of v with the
+you have to choose a high measure which is going to be important so i just put
+so this is going to be the integral of g of f
+over g gamma of f of c
+of c r one g minus one this is
+so dg mod dz
+dz x
+x right
+so dg is high measure on g of f so if you choose that g to be uh z to be
+you choose that g to be uh z to be unramify
+then there's just one uh reasonable choice without the volume
+choice without the volume of defy productive groupify over over
+it has one choice kind of the best choice
+but then the um you see that this is
+i mean there's one thing that makes it kind of
+difficult just because it depends too many things
+so it depends on fee test function fee depend on x and depend on this dg of x
+depend on x and depend on this dg of x so um if x is fixed
+then this uh this is convergent because the orbit is
+closed then this fee mapped to this opportunity
+v dg of x is an invalid distribution
+so this is a point of view when he that i spend better so and use the choice
+i spend better so and use the choice formula
+but from the from the so in this point of view the choice of this is material
+which is another scalar is in environment distribution
+but from geometric point of view you really want to look at other things so
+really want to look at other things so if p is fixed
+is a function of x invariant function
+right and and here the how to choose
+how to choose the measure
+in the intelligent way is important because you look where the function x
+to have a uniform
+of the high measure on the centralizer so to make it
+many point of view actually more better to look at the stable objective guns
+so we would look at the s o
+s o of h
+of h it should be
+should be the sum of on
+conjugate c class x prime that is stable and conjugate to x
+in the center test will explain this morning so they become conjugate when
+morning so they become conjugate when you go to the algebraic algebraic
+you go to the algebraic algebraic closure of f
+there's finally many of them which are classified by
+classified by a billion group
+subgroup the h1 of the centralizer uh
+v d g x right
+um you know for uh from the geometric point of view it's actually nice that
+point of view it's actually nice that you look at this as not as function of x
+of v
+so you know i just forget about this the height measure for instance
+height measure for instance the s of x of v
+where a is its image of x here
+so uh it's actually equivalent at least for regular submission point class that
+for regular submission point class that the
+x x prime are stably conjugate if they have a same
+stably conjugate if they have a same image in in in the invalid question
+image in in in the invalid question so we have um
+you can think of this function so we have the stable objective guns now one
+have the stable objective guns now one you have
+understand this the choice uniform choice of measure then we have a
+so function of a stable integral of a depending on a
+depending on uh you know f1 in this
+and also we have the cousins a little bit more complicated
+cousins a little bit more complicated which are the couple of underground so
+which are the couple of underground so we have this
+o of x now kappa is capped by now some uh
+is the same kappa as in tosho lectures but let me just write something not
+but let me just write something not completely correct but you know it's
+uh it's a group of this but just forget about this details look at some
+characters of these converging groups and then you have this
+this thing of kappa is
+sum of x prime of x and then kappa's again invariant
+of x and then kappa's again invariant of x x prime so the the difference
+of x x prime so the the difference between x is price e measured
+between x is price e measured by a class inside this uh
+by a class inside this uh inside these gallbladder homology groups
+inside these gallbladder homology groups and then the auburn regrowth of
+and then the auburn regrowth of uh
+of x v dzx
+x prime thank you and so we really want to see this also
+and so we really want to see this also add a function of a right
+but you cannot because if you move from x to x prime the whole thing multiply by
+x to x prime the whole thing multiply by these things
+so you want to you want to define you can define a s or
+you can define a s or something x
+something x kappa phi
+kappa phi if you have if you can choose if
+there is a distinguished
+within the stable class
+so you can do this this much nicer when you can do this and here you do have one
+so in this arch one case which is not true for any
+almost ever true in general this is kind of the big trouble sister so in the app
+of the big trouble sister so in the app join case
+adjoint action you have the constant section you can
+and data well
+in on the other case you cannot by section in general
+section in general yeah but you need to choose the constant
+no no i mean even if you can make another section there conjugate so this
+another section there conjugate so this is this is independent of the but they
+yeah but this is you know there's this one
+all right but you know that is one of the thing that is one of the things why
+conjugation action you can education you do not have questions yes chain but in
+do not have questions yes chain but in some case not always
+some case not always and then we have huge problem at this
+uh and that is what you know in the pace of group days that is involved on this
+of group days that is involved on this long long transducer factors it's really
+long long transducer factors it's really very very mean
+and the one thing you make the pool fundamental really algebra is much much
+fundamental really algebra is much much easier
+because by quarters you know that the you know many part of the travel factors
+you know many part of the travel factors is one on the question section so this
+is one on the question section so this this is true
+so that one i want to emphasize what the difficulties
+when you want to move on from this add joint case geometrically is there either
+joint case geometrically is there either lack of portion section
+lack of portion section all right
+all right so now um
+but actually you can see that the corner is not complete perfect and we have to
+is not complete perfect and we have to come to hitching vibration to explain
+come to hitching vibration to explain that point but now but now let's look at
+and now it actually is better to start it just from right away from some now f
+it just from right away from some now f is global fin
+and now it's actually better to start right away from some point a inside gmod
+right away from some point a inside gmod g
+and then i defy stable opportunity going to a
+stable opportunity going to a now fee is test function so phi is in c
+c infinity of of g of a
+let will it function fin so i don't have it if it class is just c c infinity from
+it if it class is just c c infinity from z of a
+and so s of v so actually here they don't even have to
+so actually here they don't even have to choose the high measure of centralizer
+choose the high measure of centralizer it's going to be a sum
+over on x inside g of f
+g of f by conjugate c
+by conjugate c conjugate class
+so as dassault mentioned there's actually if it many conjugate c class
+actually if it many conjugate c class but you can see right look at the sum
+which is going to be open the guns now check the charge wide integrate g of a
+check the charge wide integrate g of a mod giga math f
+mod giga math f fee of uh
+join g minus one gamma
+right because here we divide by the f point of the centralizer i do not have
+point of the centralizer i do not have to choose a high measure on centralized
+to choose a high measure on centralized anymore
+anymore right
+of course you know the you can if if i do then i can write this as the volume
+of uh gamma f
+mod giga math a with respect to some measures they have
+and then here you can write this periodic integrals
+here you see immediately the problem that this volume can be infinite right
+not yes in the usual sense right no no no no stay by just right this is no it's
+not a stable distribution yes i just
+yeah i see i don't know i mean even if you're raised yes
+so this is not a stable distribution for sure
+but here i just uh now now just when the the first point it does it doesn't
+the first point it does it doesn't depend the choice of harm measure on the
+you know um this sum be actually finite sum like
+this sum be actually finite sum like that's explained because the
+that's explained because the most obser
+almost on x is actually zero um uh but this is this volume can be
+uh but this is this volume can be infinite
+infinite uh for for hyperbolic element
+so again this is you know as a function on the fee
+distribution this invalidation is not stable invariant distribution
+but as does explain this morning you can actually write this thing as a
+sum of the something that look uh um we have some kind of look on the space
+we have some kind of look on the space stabilization
+you can write this omega gamma phi of a
+as s of a of b now it really is a stable robotic guns
+robotic guns and
+and let me just write the sum of kappa
+and some in some group i think right as
+kappa star or something it's some obstruction groups
+it's some obstruction groups and it's become o
+when kappa equal to 1 then o 1 a v is soap
+then o 1 a v is soap is a stable distribution
+a characters or some kind of some some some coconut of this map from local
+some some coconut of this map from local to global homologies
+to global homologies um
+all right so um so for for example if phi is a product
+so for for example if phi is a product of
+a pv for on over place then soap
+then soap is going to be a product
+of soa vv
+vv right
+so this is no troubles but then there's actually some trouble
+but then there's actually some trouble with the kappa right
+because you cannot even write it as uh
+local or kappa only define using the the constant section
+using the the constant section but because in the current have when
+have when you have so given
+so given the constant section
+then you can decompose this all the the the other part
+is product over on v of f of 4 kappa a
+of 4 kappa a v
+so this is unproblematic but this is problematic this depends on
+opposite section right so um
+so i you know sorry for stupid question i'm asking so the the
+i'm asking so the the um
+choose doesn't depend on the choice of x prime f in the global conjugate c class
+prime f in the global conjugate c class but when you want to ride this carbon
+but when you want to ride this carbon locally then you get to troubles right
+locally then you get to troubles right you depend on very strongly on the other
+you depend on very strongly on the other transfer factors
+so now we are ready to uh to give uh
+you know now what i'm trying to do now is try to give you expect the geometry
+uh but mainly for this function so for for v equal to one characteristic
+for v equal to one characteristic function of zero right
+function of zero right geometry approach you can it's easily up
+weight and ramified function you can do with amplified function but then you get
+something that i don't think you can deal with
+but for good guys you can do with hacker operators samsung and so on
+operators samsung and so on anyway um
+and the thing is that the one of the first observations to be made is
+first observations to be made is stable opportunity goal is more
+stable opportunity goal is more accessible for you to do geometry
+accessible for you to do geometry addition
+of local stable
+i think i just give you the result i'm not going to to go through the counting
+not going to to go through the counting my exercise
+my exercise so
+the thing is this from these pictures this kind of actually here was very
+this kind of actually here was very important to look at these pictures
+because you have the they must become different you know when you have action
+different you know when you have action of g on g
+you have can make the invalid quotient
+invalid quotient so guys the best question if you say
+within the five schemes
+but then there's somebody lose a lot of information something you lose basically
+information something you lose basically you don't know any information is
+looking at the stack theoretical right to gmo g
+to gmo g and
+open pentagon is very much like capture the difference between this so
+capture the difference between this so the
+the so if you have a in
+here and
+and the for test function one is g of o
+when you start with this then you can write your
+s of a um
+v ph one of g o d g x
+d g x is
+now it is really the sum of a isomorphism class of
+isomorphism class of object of this of this quotient
+this quotient that lies over
+and then into one another just so there
+there is finally many object and one the but the trouble is the
+it's like when you have when you counting point on the group point
+counting point on the group point you find that many objects then you want
+cardinality of two morphisms the automobile is locally compact groups
+automobile is locally compact groups so i check the volumes so this is going
+so this is of the subgroup of the centralizer of x so this is with respect
+centralizer of x so this is with respect to this measure so this is the formula
+so it you know just literally translate from the integration you can
+translate from the integration you can just get into this formula so i i don't
+want to it's you know i think it's pointless to explain why
+no no the this is what automorphism says the
+it's not the it's the intersection of the taurus with some lattice so it's
+this is literally the translation of the definition above
+o point sorry sorry two point
+over by the way because because of this fee is one loan and i have to be oh
+sorry i'm yeah i can blame this to the heat but
+so here you have this and and in the local situation basically you have the
+local situation basically you have the spec of o
+it is a and look on the map x into this line
+over a anything wrong
+is there all points of the centralized that's right opponent centralizer so the
+that's right opponent centralizer so the the f points essentially the huge one
+the f points essentially the huge one centralizers but then because it's
+centralizers but then because it's defined there's something in g
+defined there's something in g that have a
+intersection of g of all with some of these dollars
+i really want to get rid of this you know it's not clear from the hungry
+know it's not clear from the hungry analysis point of view that we need to
+analysis point of view that we need to i mean of course this is what i
+i mean of course this is what i explained you want to make a choice
+explained you want to make a choice uniform choice centralizers
+uniform choice centralizers but i just want to to to make this some
+kind of finite group so this is where this is the need of the
+it takes a while to start children to be convinced really one need to do this but
+convinced really one need to do this but that is something essential for for the
+that is something essential for for the whole business so i
+i just come now to define what the regular centralizer is
+regular centralizer is so let's see right
+this will have to be uh the open subset of g of regular element from irregular
+it's not the same esta so that's what this regulation is simple for me regular
+this regulation is simple for me regular i just mean that the orbit has much more
+dimension so it can be regular submissive and it can be regular input
+when you restrict the the map from g to g uh to the
+the map from g to g uh to the environment to this
+environment to this it's never actually
+it's never actually the map is
+the map is smooth
+and also the when you restrict the if i over g
+so if your point x you look at the centralizer and then rush i to g red you
+centralizer and then rush i to g red you get a smooth group scheme so
+get a smooth group scheme so so i arrested to z
+so i arrested to z this is this is most commutative group
+this is this is most commutative group scheme
+and formed all this you can actually descend this gives this
+descend this gives this if
+if the
+race is commutative that gives you the e i
+respect your g-wrap descend
+to a smooth smooth scheme of j over g mode j
+over g mode j which is a regular centralizer
+so this is the unique smooth roof scheme so that you have that chi
+so that you have that chi let me call this sky
+direct and then i pull back reg star of j i have an isomorphism with i
+so this existing unique that is the one of the main invalid theoretic
+input in the in this situation is the existence of this regular centralizer
+existence of this regular centralizer right
+uh two regular elements having the same characteristic
+polynomial so you think then they are conjugate of algebraic glossine and so
+conjugate of algebraic glossine and so the the socializer are conjugate but the
+the the socializer are conjugate but the conjugation absolutely doesn't depend on
+conjugation absolutely doesn't depend on the transporters that's why it descends
+the transporters that's why it descends here right
+not able to insist on this but it's important also that it can be extended
+important also that it can be extended to a method asia into
+to a method asia into so this is really the environment
+so this is really the environment package that we need to the
+package that we need to the to post it
+and because of this now a is a in this then you have the j
+a in this then you have the j over spec o so i can put back
+over spec o so i can put back the regular roof scheme here to
+to speccable right
+right so that gives me a canonical
+integral form of the centralizer right so this gives right to the
+so you have that the j of a over f is the same as the i of of x over f
+the same as the i of of x over f but the j a of o
+but the j a of o is a compact
+of i of x over f whatever x that map into a right so that gives give right to
+into a right so that gives give right to these canonical measures
+they have canonical measures which is uh you know
+i think in the when
+uh on the trace formula they choose another hard measures but this is a
+another hard measures but this is a measure that is more
+better when you look at this you know a function from a to
+a function from a to omega a so this is a better measure
+and now um from this
+from this i'm going to make some um
+plc really require some um abstraction here
+it can one one when i have this i actually even have a better
+actually even have a better geometric interpretation
+right so again i have g f g rec i have this environment theoretic
+i have this environment theoretic quotient here i have i
+here i have i red and here i have
+j right so
+another way to say about this regular centralizers is to say that the
+centralizers is to say that the g-rack
+g-rack mod
+mod g over g mod g
+by j right
+so two points are conjugate so there's only one object right
+and automorphism group is j so that would mean that this is either
+would mean that this is either right
+another what i have now now is required um
+now now is required um you know
+it's at the b of j so the classifying space of j
+space of j at
+simply transitively
+is there to neutralize the job when you have consumption the job becomes trivial
+have consumption the job becomes trivial it's just bj right
+it's just bj right and moreover
+and moreover the fact that i have this map from chi
+j to i then i have action b of j
+on on the whole thing on gmodj
+so this is really kind of you know you know you need to just have some
+you know you need to just have some sign to think about two
+sign to think about two two categories but you know this you can
+make a quotient and this is
+what it is is you can look at the quotient of
+the quotient of category
+i don't know the stack quotient stack two start portions
+g mode by by bj
+by bj the whole thing over gmod j
+so this is let me look at the denote by this thing is the
+this thing is the g mod g
+i'm sorry for not to become a bit heavy
+a bit heavy so
+this this the map is emoji and one of the first claim that this map
+and one of the first claim that this map is anisomorphisms
+over gmoji
+regular semi-simple right
+right so where you know
+if you divide this job by b of j
+acts symmetrically on this so when you move now we just get just one point so
+move now we just get just one point so this part divided by each other g
+this part divided by each other g it's just the environmental equation
+it's just the environmental equation itself
+so here it just added on on the singular orbit right but over regular semi-simple
+orbit right but over regular semi-simple category normal there is no such single
+category normal there is no such single orbit so this is just an isomorphism
+orbit so this is just an isomorphism all right
+all right and so
+so now you can now this this being choosing by the the
+now this this being choosing by the the the jfa of all
+the jfa of all volume 1
+then this you can write it like this it just becomes the mass
+of the of the category of x in
+mod g over o g mode g divided by b j
+divided by b j of o
+lying over a in g mod g
+so that means the sum over the isomorphism class of this
+over the isomorphism class of this and one over
+the number of automorphisms so when i i do this operation that i you
+so when i i do this operation that i you know i have this
+stuck because there are more out by by the regular centralizers and this is
+by the regular centralizers and this is this is really the and then what i get
+is it's just exactly the stable orbital takers with the high
+measure being chosen for to be from the regular centralizer
+i just do it one function got this function of the of the gfp
+so that is the the local pictures have two expressions
+so i have this is actually the one category there's actually not two
+category there's actually not two categories because this o
+and this is just the the set of isomorphism class of these categories
+isomorphism class of these categories whatever it is
+and one of us the cardinality optomorphism so which is the mass
+optomorphism so which is the mass actually why this must enter
+the mass of the poet that it just the set of isomorphism class and you so
+set of isomorphism class and you so you're explaining what the mass of this
+you're explaining what the mass of this group is yes
+group is yes yes yes so the mass is exactly the
+when i decide that i choose the measure given by the regular centralizer jfo
+given by the regular centralizer jfo that is one one that is you know you
+have already some automotive group that would actually already contain the jfo
+would actually already contain the jfo so when i move out by that it becomes
+but now i have the same thing for the so this is local pictures when you look
+so this is local pictures when you look at the map from the formula disk
+to this this is a but now for the global picture you just have to replay this by
+picture you just have to replay this by by your curve see
+by your curve see this is smooth
+right uh
+the only thing is this if you uh because this is basically a five this is
+because this is basically a five this is projective
+constant map so here to make more interesting map that you twist by
+interesting map that you twist by another action it has
+have a gm action on g by homo tc so that is the one that
+by homo tc so that is the one that gives you more
+gives you more ampleness
+ampleness so now so globally
+over fine i think k and i have to choose la and live undone
+and now i will go to two for a and look at the map from a
+at the map from a is a map from c
+to g mod
+g times gm right and need to mod out by gm the gm is homotastic oxygen this is
+gm the gm is homotastic oxygen this is ready to
+and in the k hitch in case here the origin case and it should be
+origin case and it should be the canonical boundary of the curve so
+the canonical boundary of the curve so this over bgm
+this over bgm when you map it to bgm this is m this is
+my a
+the global opinion of the goals so there is some some some function fee
+so n n can be written as os of b some divisors and then you have some
+some divisors and then you have some function v
+function v d
+that recorded this divisor so the characteristic of function of o but
+characteristic of function of o but translate by
+translate by by these divisors then you can write
+this s of know all
+a of v it's really just the map again this is
+it's really just the map again this is the mass
+the map from c to g mod g
+sorry sorry this is g mode g
+this is a and then you look at the hitching the pair is gimbal g
+so gmo g this is a [Music]
+[Music] e v
+so honestly about the difference between the stack quotient and the invariant
+the stack quotient and the invariant quotient again right
+now just have add a little bit small thing that is this gm
+and again this is just literal translation of the
+translation of the [Music]
+operation so you see this is the the object that goes the rope open i wrote
+uh i don't know maybe i erase it uh
+maybe over there yes over there the one on the on the upper board
+when you you want to call this object you just get literally two to the to the
+integral over there for this very specific test function
+specific test function depend on the choice of this divisor d
+but now we see we have two object to to be look at that the the one is um
+be look at that the the one is um is this
+but then the other one is also on the local side you have to divide by b of j
+local side you have to divide by b of j right
+right it's b object what a difference so
+this is actually heating fiber so we have this actually have have a map from
+have this actually have have a map from h
+so m each other the group point upon the map from c to this
+and a is when you induce this map is a right so ava you have the fiber m a
+right so ava you have the fiber m a and for every a in a
+you have maybe let do it for algebraic close
+and then you have the j of a
+is the the pullback of a of of j so this is smooth
+and then let go pa to be the the
+to be the the the
+the group which the the piccago poet of j-8 torsos
+here getting ready to be my one hour lectures right
+now because of the fact that you have this homomorphism from chi of j
+when you pull back j into i then it derives this map from b of j
+then it derives this map from b of j acting on
+on g mod g and that gives rise to
+and that gives rise to action pa
+action pa acting on
+and again if you look at the you can look at the the quotient and
+you can look at the the quotient and mod pa
+mod pa then it becomes the mass
+as group weight is the chart of the map from
+from c to g
+mod g uh
+ba is the map from ba is is a map from
+from c to b j and m a is a map from this
+so g mod gm mod bj
+now you get seemed to be fairly complicated but what i want to really
+complicated but what i want to really want to explain this point
+because this will give you automatically the the product formula right
+the the product formula right so let's
+assume that a a is a map from c
+a is a map from c to this characteristic polynomial space
+not contain it have non-zero intersection
+so there's some open subset c prime on c
+that mapping to this g regular submission point g
+this g regular submission point g on gm
+on gm right
+but now this this this complicated stack as i explained
+is actually nasomorphism over this because the regulation is simple
+because the regulation is simple you know the the
+you know the the over regular symbol there's no singular
+so this is an isomorphism so there is no choice to lift c prime to this
+choice to lift c prime to this because these are isomorphisms so on the
+because these are isomorphisms so on the choice i concentrate on the remaining
+choice i concentrate on the remaining point so remain formula on this right so
+the so that is why m a is become isomorphic
+is become isomorphic to
+to mav
+when v is in c so this is the same step as
+so this is the same step as as the
+as the this one
+so this is other you can write it as m
+oh no so when you put it
+so this is in global i think i erased my my local 6. so this formula the fact
+is complicated question is as an isomorphism over regular emissive
+isomorphism over regular emissive blockers imply uh
+imply this formula that the the quotient m a mod pa is a product of a block
+m a mod pa is a product of a block concussion which is actually the stem
+concussion which is actually the stem that gives rise to the to the s o of a
+is a product of s o a
+s o a of v v
+for v the play that is not mapping into the regular submissive locks right
+all right so this is the stable and again just like the counting point i
+again just like the counting point i just said in the pre-stabilization
+you should have the same thing for kappa right this is identity for kappa but
+right this is identity for kappa but that that requires um
+that requires the choice of construction and so on and
+um again the uh it is not completely innocent because
+you have constant section here but there is no way to make it
+compatible with gm right
+in other words the
+this is the job over
+over this environment quotient bounded by
+bounded by by j
+is equivalent to some class h2 in j is trivial right and it is trivial
+is trivial right and it is trivial because of course instruction
+but when you can do the same thing when more than you are by gm then it's no
+longer trivial this is not achievable class and this is the class that we have
+to deal with on every situation that's very likely to be related to the
+long long since that transfer factors
+so that's it so that uh just to before the break i what i you know
+the break i what i you know what i was set out to explain you if you
+basic diagram from environment theory it you look at the action of g
+you look at the action of g only algebras you have two quotient the
+and the environment equation right and then you evaluate it
+of a curve right that give right to different either local stable
+different either local stable the cones or
+the cones or some kind of the reaching fibers right
+you can explain the speed stabilization purely in this in this in these terms
+purely in this in this in these terms and
+another thing is it actually it's much nicer to work with system by vibration
+nicer to work with system by vibration rather than this kind of arc spaces
+rather than this kind of arc spaces because uh
+in this situation we took over a curve
+we are doing very much in kind of classical algebraic geometries is kind
+classical algebraic geometries is kind of
+finite dimensional locally finite type uh
+active stack uh so
+on the usual two larger version which applies right for art space tones still
+applies right for art space tones still need to be developed and actually the
+need to be developed and actually the file
+is much nicer also so what i uh going to try to explain on the
+what i uh going to try to explain on the second part of this talk is how to know
+second part of this talk is how to know how to
+how to uh
+you know to control the chromosome vibrations which
+in the um and then infinite controlled objective
+[Applause] [Music]

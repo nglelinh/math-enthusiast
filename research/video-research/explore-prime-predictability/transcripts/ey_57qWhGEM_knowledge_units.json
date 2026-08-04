@@ -1,0 +1,268 @@
+[
+  {
+    "id": "ku_video_ey_57qWhGEM_11",
+    "t_start": 11.7,
+    "t_end": 102.5,
+    "type": "overview",
+    "summary": "hi everyone uh thank you very much for the introduction and thanks for everyone the introduction and thanks for everyone to come along here today so as you heard uh lots of my research and lots of my passion is really about prime numbers and so what I want to do today is to talk to you about some of the reasons talk to you about some of the reasons why I find prime numbers so important and then to give uh a little bit of an idea of some of the work that I was involved in uh that was part of why I won the fields medal uh in my work why I won the fields medal uh in my work on prime on prime n…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_102",
+    "t_start": 102.5,
+    "t_end": 193.1,
+    "type": "overview",
+    "summary": "how they join together um so if you're someone like me who is a number theorist someone like me who is a number theorist number theorists tend to study properties of the whole numbers and uh therefore you might try and understand therefore you might try and understand properties of whole numbers uh by uh the properties of whole numbers uh by uh the constituent blocks uh and there's a constituent blocks uh and there's a theorem uh the fundamental theorem of theorem uh the fundamental theorem of arithmetic is what mathematicians call it which says that every whole number can be written unique…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_193",
+    "t_start": 193.1,
+    "t_end": 284.2,
+    "type": "overview",
+    "summary": "about the original problem and I wanted to take one example uh that's very much to take one example uh that's very much in the real world and the same sort of in the real world and the same sort of theme as Cliff's talk and then another theme as Cliff's talk and then another example which is uh related more to my example which is uh related more to my world uh to do with number Theory and whole numbers in pure mathematic ICS so uh one of the very important uses of prime numbers is in computer algorithms prime numbers is in computer algorithms and in particular uh in and in particular uh in …"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_286",
+    "t_start": 286.9,
+    "t_end": 377.4,
+    "type": "overview",
+    "summary": "449,000 and think what are its prime factors and maybe this isn't so factors and maybe this isn't so difficult so you guys can maybe do it in 863 um but when numbers are a little bit bigger than uh just a few hundred bigger than uh just a few hundred thousand uh we believe that this thousand uh we believe that this actually becomes really difficult uh so actually becomes really difficult uh so for example here's a slightly bigger number uh and nobody has been able to write this number as a product of two write this number as a product of two primes apart from the person who primes apart fro…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_377",
+    "t_start": 377.4,
+    "t_end": 469.4,
+    "type": "overview",
+    "summary": "with multiplication and even though we think it's hard we can still try and understanding more about prime numbers and that quite quickly leads us to um and that quite quickly leads us to um complicated theoretical problems about complicated theoretical problems about patterns in time numbers so Cliff mentioned as a side comment I think in his talk uh that you comment I think in his talk uh that you have to be careful to avoid some bad have to be careful to avoid some bad cases of how you choose your cases of how you choose your cryptographic scheme when suddenly things that you thought of …"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_469",
+    "t_start": 469.4,
+    "t_end": 561.1,
+    "type": "overview",
+    "summary": "take way one well if I got a big it's got as few prime factors as possible and got as few prime factors as possible and so they're going to be as large as possible so you can't have a big prime takeway one and it being another Prime takeway one and it being another Prime because when you take away one it has to be a multiple of two uh so the next closest thing would be to say well if I closest thing would be to say well if I take away one it can have a factor of take away one it can have a factor of two and then be another be a prime two and then be another be a prime number and that's sort…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_561",
+    "t_start": 561.1,
+    "t_end": 656.4,
+    "type": "overview",
+    "summary": "choosing one from this list now we expect that neither of these two things happen but it turns out that this is actually a famous problem in mathematics actually a famous problem in mathematics it's essentially over years old and we it's essentially over years old and we don't know how to solve it we don't know don't know how to solve it we don't know whether there's finitely many primes such that when you take away one and divide by two you get another prime or divide by two you get another prime or whether there's infinitely many we quite whether there's infinitely many we quite strongly …"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_656",
+    "t_start": 656.4,
+    "t_end": 748.6,
+    "type": "overview",
+    "summary": "Solutions uh to the equation a^ n plus b^ Nal c^ n in whole numbers a b c and N b^ Nal c^ n in whole numbers a b c and N with n being bigger than two apart from with n being bigger than two apart from the obvious ones when you take one of a the obvious ones when you take one of a b or c to be equal to zero um so this was um open for a very very long time and then famously proven very long time and then famously proven by Andrew WS uh right at the end of the century um who's one of my colleagues in Oxford so the proof of fat theem is one Oxford so the proof of fat theem is one of the high li…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_748",
+    "t_start": 748.6,
+    "t_end": 841.0,
+    "type": "overview",
+    "summary": "with Po's P minus1 algorithm and safe times and things uh you might think times and things uh you might think about how can we use further properties about how can we use further properties of prime numbers to try and make of prime numbers to try and make progress on this um and way before progress on this um and way before Andrew W's work uh there's work of Sofi Andrew W's work uh there's work of Sofi jaman who was a French mathematician and she proved that if p is a prime such that 2p+ one is also a is a prime such that 2p+ one is also a prime number so if you have this strange prime numb…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_840",
+    "t_start": 841.0,
+    "t_end": 935.5,
+    "type": "overview",
+    "summary": "first sort of en mathematical progress for General exponents P so she did for General exponents P so she did really fundamental work and this was really fundamental work and this was over 150 years before Andrew WS did his work um but if you look at Sophie shain's theorem it's not totally clear shain's theorem it's not totally clear um uh how often this actually applies um um uh how often this actually applies um sop main STM at least as I've stated it if there were no primes P such that 2 p+ 1 was Prime because then it would never 1 was Prime because then it would never apply um so natural…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_935",
+    "t_start": 935.5,
+    "t_end": 1028.2,
+    "type": "overview",
+    "summary": "from uh so Andrew W's proof did not go through Sophie J's THM and so he didn't through Sophie J's THM and so he didn't answer this question and this remains an answer this question and this remains an open question even though we now know the answer to uh to Fat's last Okay so we've seen already that there's a few different problems involving whole numbers multiplied together and often these problems involving whole mul whole these problems involving whole mul whole numbers multiplied together can be numbers multiplied together can be reduced down to problems about prime reduced down to pro…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_1028",
+    "t_start": 1028.2,
+    "t_end": 1120.9,
+    "type": "overview",
+    "summary": "at Gap stream primes which is maybe a very fundamental basic problem if you're very fundamental basic problem if you're trying to understand the distribution of gaps that appear in this sequence is one of the most basic ways you can build up of the most basic ways you can build up a general toolkit for uh understanding a general toolkit for uh understanding the sequence so let's try and understand the sequence so let's try and understand the gaps between prime numbers um what you might hope to do is have a um so prime numbers are always have a um so prime numbers are always integers uh and …"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_1120",
+    "t_start": 1120.9,
+    "t_end": 1211.6,
+    "type": "overview",
+    "summary": "occasionally you get primes that are unusually close together or unusually unusually close together or unusually far apart um so a very natural question is is that the case um can we understand is that the case um can we understand very small gaps between primes or is it very small gaps between primes or is it the case that uh somehow is it the case the case that uh somehow is it the case that primes always gradually grow like that primes always gradually grow like the average Gap or is it the case that sometimes they come clumped unusually close close together um and so you might think abo…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_1211",
+    "t_start": 1211.6,
+    "t_end": 1306.0,
+    "type": "overview",
+    "summary": "so the first pair bigger than a th000 is 1,31 1,33 the first pair bigger than a million is a million and 37 a million 39 the first pair bigger than a billion is a billion and 7 a billion and9 and these a billion and 7 a billion and9 and these seem to just keep on coming and so the natural conject that mathematicians then make is that these mathematicians then make is that these should indeed keep on coming and there should indeed keep on coming and there should be infinitely many pairs of times should be infinitely many pairs of times that differ by exactly that differ by exactly two um so …"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_1305",
+    "t_start": 1306.0,
+    "t_end": 1397.9,
+    "type": "overview",
+    "summary": "possible gap of size three um and in general for any odd size Gap you're general for any odd size Gap you're going to have this problem to do with going to have this problem to do with multiples of two um and so there's only multiples of two um and so there's only a most one pair of primes that could a most one pair of primes that could differ by that um but if you start differ by that um but if you start looking for even size gaps not just two looking for even size gaps not just two you find exactly the same thing that we you find exactly the same thing that we found with two that these Pr…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_1397",
+    "t_start": 1397.9,
+    "t_end": 1489.8,
+    "type": "overview",
+    "summary": "at least one of them has to be a multiple of three so 235 237 257 and 357 multiple of three so 235 237 257 and 357 are the only triples uh contained in an are the only triples uh contained in an inter of length 5 or less because one of inter of length 5 or less because one of them has to either be a multiple of two three um however you can then try and do the same thing for intervals of length the same thing for intervals of length six and you actually find that there's six and you actually find that there's lots and lots and lots and lots of these lots and lots and lots and lots of these p…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_1489",
+    "t_start": 1489.8,
+    "t_end": 1580.1,
+    "type": "overview",
+    "summary": "Prime because we know that n and n plus1 can't be simultaneously Prime apart from can't be simultaneously Prime apart from when n is two um and we've seen that that's because of an issue to do with division divisible 2 by two um that for division divisible 2 by two um that for every value of n one of n and n plus1 is every value of n one of n and n plus1 is always a multiple of two so n * n plus one the product is always a multiple of two similarly when we were looking at two similarly when we were looking at clusters of primes in contained in an case that one was always a multiple of two b…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_1580",
+    "t_start": 1580.1,
+    "t_end": 1675.6,
+    "type": "overview",
+    "summary": "linear functions can't be simultaneously Prime and then the conjecture that Prime and then the conjecture that brings together everything that we've brings together everything that we've seen so far is that if your set of linear functions avoids this trivial obstruction then it should indeed be the case that there are infinitely many integers n such that all of your linear functions are Prime at Value n so chooseing your linear functions to be in chooseing your linear functions to be in n and n plus2 would get back the twin n and n plus2 would get back the twin fine conjecture choosing your…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_1675",
+    "t_start": 1675.6,
+    "t_end": 1769.2,
+    "type": "overview",
+    "summary": "in these questions for our primes the key aim is to get some general key aim is to get some general understanding about distribution of primes uh so maybe as a warm-up case we looked at gaps between primes and we looked at gaps between primes and we generalized everything to this far generalized everything to this far reaching Prime K2 conjecture that gives reaching Prime K2 conjecture that gives maybe a reasonable comp reasonably comprehensive guess as to uh this when you should have infinitely many primes you should have infinitely many primes in certain patterns and when you in certain p…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_1769",
+    "t_start": 1769.2,
+    "t_end": 1863.6,
+    "type": "overview",
+    "summary": "slides ago um we said that if I'm looking at very large primes of size X looking at very large primes of size X the average gap between primes is of the average gap between primes is of size about log X and so gets bigger and size about log X and so gets bigger and bigger and bigger um and so even though the average Gap grows without any limit however far Gap grows without any limit however far down the number line you go you find down the number line you go you find these unusual pairs of primes that come these unusual pairs of primes that come unusually close together um and so are unusua…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_1863",
+    "t_start": 1863.6,
+    "t_end": 1954.8,
+    "type": "overview",
+    "summary": "often now I don't know how to prove the twin Prime the prime K2 conjecture um and I don't know how to and that's because I don't know how to show that because I don't know how to show that all of the linear functions are all of the linear functions are simultaneously Prime but you might accept a weak version of the Prime K2 plus conjecture where I don't have to plus conjecture where I don't have to show that all of them are simultaneously show that all of them are simultaneously Prime but I just have to show that some this is precisely what we do in our work um so for example uh one of my r…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_1954",
+    "t_start": 1954.8,
+    "t_end": 2046.5,
+    "type": "overview",
+    "summary": "you can choose your constants to make this set of linear functions admissible this set of linear functions admissible and then two of these linear functions being simultaneously Prime means that the those pair of primes whenever the those pair of primes whenever they're simultaneously Prime have to differ by just a bounded amount because it's all always determined just in terms of the shifts that you use in your linear functions if I could have n and n linear functions if I could have n and n plus2 being Sim multaneously Prime then you differ by most two but if I'm saying that two out of n …"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_2046",
+    "t_start": 2046.5,
+    "t_end": 2141.2,
+    "type": "overview",
+    "summary": "kles conjecture is true so we as mathematicians we don't only believe the mathematicians we don't only believe the prime K2 conjecture is true because we we seem to find there's quite a lot of them we also have heuristic theoretical them we also have heuristic theoretical guesses as to precisely how many twin primes there should be up to some large number and you can then test these very number and you can then test these very precise guesses on a computer and all precise guesses on a computer and all the num mro evidence fits with our the num mro evidence fits with our theoretical predicti…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_2141",
+    "t_start": 2141.2,
+    "t_end": 2231.4,
+    "type": "overview",
+    "summary": "chosen your favorite K linear functions and I'm trying to prove that some of often uh so at first I'm going to choose some very large number X um and I want to choose a number of size X so maybe an a whole number between X and 2x randomly a whole number between X and 2x randomly according to some probability according to some probability measure uh and for this random number between X and 2x I want to calculate uh typically how many of my calculate uh typically how many of my linear functions are simultaneously linear functions are simultaneously Prime and if typically I have at least Prime…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_2231",
+    "t_start": 2231.4,
+    "t_end": 2325.9,
+    "type": "overview",
+    "summary": "show that uh at least n plus one of them are simultaneously fine okay so this is a sketch of the argument but the natural question then argument but the natural question then is um okay uh how do you choose a good probability measure and how do you calculate this expectation and these two calculate this expectation and these two questions are actually very closely questions are actually very closely linked that um uh because one way that you could choose the property measure would be um choose the property measure would be um say well I'll uh choose um NS of size x say well I'll uh choose u…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_2325",
+    "t_start": 2325.9,
+    "t_end": 2418.1,
+    "type": "overview",
+    "summary": "n um but unfortunately um we saw from the prime number theorem that the primes the prime number theorem that the primes of density 1 over log X and that means that uh if I have K linear functions typically I would expect K divided by typically I would expect K divided by log X of them to be simultaneously Prime log X of them to be simultaneously Prime and so when X is very large this is less than one of them being simultaneously Prime uh and I completely fail to prove Prime and so what I'd really want to do is to choose um some probability measure is to choose um some probability measure th…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_2418",
+    "t_start": 2418.1,
+    "t_end": 2509.9,
+    "type": "overview",
+    "summary": "one of my particular focuses um and you can think of C methods as precisely can think of C methods as precisely trying to come up with things that go trying to come up with things that go between the complexity of the primes and between the complexity of the primes and the Simplicity of integers um so for lots of the sorts of questions about patterns if I ask the same about patterns if I ask the same question about the integers it's just question about the integers it's just very easy are there infinitely many very easy are there infinitely many integers that diff by two well yes integers t…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_2509",
+    "t_start": 2509.9,
+    "t_end": 2603.3,
+    "type": "overview",
+    "summary": "for me to uh distinguish between RSA type numbers which are products of two type numbers which are products of two simil similar size primes uh but I don't simil similar size primes uh but I don't need to perfectly distinguish between them so maybe they they will be pretty close to being Prime and they can still have a high score but I'm still capturing some of the complexity of the primes uh so it turns out that um from spec it's still a little bit more of an spec it's still a little bit more of an art than a science precisely what sort of Civ method you should use uh in what sort of situa…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_2603",
+    "t_start": 2603.3,
+    "t_end": 2695.9,
+    "type": "overview",
+    "summary": "is a positive proportion of the total weight of all numbers that are given so this means if I choose a number according to how almost prime it is I'm according to how almost prime it is I'm not necessarily guaranteeing that I get not necessarily guaranteeing that I get a um uh I'm not necessarily guaranteeing that I get a prime number but I have a positive probability maybe 20% that I get a prime out at the end so it's sort of 20% of the way to be in a prime number um and the other key property is number um and the other key property is that um they're simple to calculate with that um they'…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_2695",
+    "t_start": 2695.9,
+    "t_end": 2788.6,
+    "type": "overview",
+    "summary": "integer n based on this how approximately Prime all of our linear approximately Prime all of our linear functions L1 of n up to l k of n are simultaneously so this should give a high weight to numbers n when all of our prime it should always give a weight one to those and it give a low weight to numbers where the linear functions are not simultaneously Prime uh and so because I have the scoring function I can choose my random scoring function I can choose my random probability proportional to this Civ probability proportional to this Civ weight this scoring function um and I can now calcula…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_2788",
+    "t_start": 2788.6,
+    "t_end": 2882.0,
+    "type": "overview",
+    "summary": "functions is prime I I can calulate the expected number of these linear expected number of these linear functions of time and in particular I sort of declare success and I prove Bounder gaps between success and I prove Bounder gaps between primes if I can calculate this primes if I can calculate this expectation and this expectation is expectation and this expectation is bigger than one for every large value of x now you might be a little bit skeptical at this point because if I skeptical at this point because if I chose the uniform distribution we knew chose the uniform distribution we kne…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_2882",
+    "t_start": 2882.0,
+    "t_end": 2978.3,
+    "type": "overview",
+    "summary": "through this whole argument but they give a constant Which is less than one and so the whole argument fails um so the question then becomes a very delicate question about the precise delicate question about the precise definition of almost definition of almost Prime uh and there's a sort of Natural Choice that's optimal in lots of situations and that's optimal in lots of situations and if you go through all of these very your con gives a constant one half and so the whole method completely fails and so the whole method completely fails and so this is pretty depressing you've come so this is…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_2978",
+    "t_start": 2978.3,
+    "t_end": 3072.8,
+    "type": "overview",
+    "summary": "along and he proved a technical result about primes and arithmetic progressions about primes and arithmetic progressions that was slightly better than what we did before and so the consequence of yeang shang's work was that he was able yeang shang's work was that he was able to then tweak the definition of almost constant very slightly so he was able to improve it from something just below one improve it from something just below one to something just below just above one but that was enough in principle to prove Bounder gaps between prove Bounder gaps between primes and the key contributio…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_3072",
+    "t_start": 3072.8,
+    "t_end": 3164.7,
+    "type": "overview",
+    "summary": "need to use technical results about primes and arithmetic progressions um and once you have this set up it turns out that there's a few set up it turns out that there's a few uh interesting different sub problems a uh interesting different sub problems a common at all problem about how tightly common at all problem about how tightly you can pack your linear function you can pack your linear function and an optimization problem to do with and an optimization problem to do with uh smooth functions but the key point is uh smooth functions but the key point is that the Civ method is turning res…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_3164",
+    "t_start": 3164.7,
+    "t_end": 3258.1,
+    "type": "overview",
+    "summary": "have at most density 1 half uh in the almost primes because for any reasonable almost primes because for any reasonable definition of almost Prime they have to give the same weight to numbers with an even number of prime factors and number and numbers with odd number of prime factors and so even if the odd number of factors and so even if the odd number of prime factors numbers were really prime factors numbers were really concentrated just in primes which have at most density one half so you can't possibly prove that uh if you have can't possibly prove that uh if you have two linear functi…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_3258",
+    "t_start": 3258.1,
+    "t_end": 3348.8,
+    "type": "overview",
+    "summary": "methods without some new ideas um uh but it turns out there's also a sort of slightly amusing other sort of slightly amusing other consequence of this um uh so along with the TR time conjecture another very famous conjecture in mathematics that's been open for hundreds of years is goldbach's open for hundreds of years is goldbach's conjecture that claims every large even conjecture that claims every large even number can be written as the sum of two primes and we don't know how to prove the twin Prime conjecture and we don't know how to prove goldbacks conjecture but one amusing consequence…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_3348",
+    "t_start": 3348.8,
+    "t_end": 3439.4,
+    "type": "overview",
+    "summary": "prime numbers by these new ways of defining almost primes to interpolate between easy questions to do with integers and difficult questions to with uh this is a fortunately a very flexible method that can apply to very general method that can apply to very general patterns and sort of I view it as patterns and sort of I view it as hopefully a first step towards kind of hopefully a first step towards kind of much more significant progress on trying much more significant progress on trying to understand these general questions and developing a general toolkit for trying to understand the dist…"
+  },
+  {
+    "id": "ku_video_ey_57qWhGEM_3439",
+    "t_start": 3439.4,
+    "t_end": 3481.4,
+    "type": "overview",
+    "summary": "of almost Prime to get into the primes themselves um in simp cases in the Twin themselves um in simp cases in the Twin Prime conjecture we do know how to do Prime conjecture we do know how to do this we don't know how to do it for the twin Prime conjecture itself uh but that's a challenge for uh maybe the next mathematicians okay I think I'm almost out of time now so maybe I'll uh stop out of time now so maybe I'll uh stop here thanks a lot for listening I hope here thanks a lot for listening I hope you enjoyed the talk you enjoyed the talk [Applause]"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "slug": "Perelman_Poincare",
+  "videos": [
+    {
+      "id": "GItmC9lxeco",
+      "title": "Numberphile — Poincaré Conjecture (Steckles / Isenberg)",
+      "has_transcript": true,
+      "chars": 9160,
+      "units": 6,
+      "url": "https://www.youtube.com/watch?v=GItmC9lxeco"
+    },
+    {
+      "id": "hwOCqA9Xw6A",
+      "title": "Numberphile — Ricci Flow",
+      "has_transcript": true,
+      "chars": 15091,
+      "units": 10,
+      "url": "https://www.youtube.com/watch?v=hwOCqA9Xw6A"
+    },
+    {
+      "id": "PwRl5W-whTs",
+      "title": "Aleph 0 — Poincaré Conjecture and Ricci Flow",
+      "has_transcript": true,
+      "chars": 8857,
+      "units": 6,
+      "url": "https://www.youtube.com/watch?v=PwRl5W-whTs"
+    },
+    {
+      "id": "7eJleW0JcKg",
+      "title": "Numberphile extras — Isenberg interview",
+      "has_transcript": true,
+      "chars": 20442,
+      "units": 10,
+      "url": "https://www.youtube.com/watch?v=7eJleW0JcKg"
+    }
+  ]
+}

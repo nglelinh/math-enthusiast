@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="160" viewBox="0 0 560 160">
+  <rect width="560" height="160" fill="#fafbfc"/>
+  <text x="16" y="28" font-family="Georgia, serif" font-size="15" fill="#222">Appel–Haken style pipeline (schematic)</text>
+  <rect x="15" y="55" width="110" height="55" rx="6" fill="#e8f1fb" stroke="#004586"/><text x="70" y="88" text-anchor="middle" font-size="11">unavoidable set</text>
+  <path d="M130 82 L155 82" stroke="#666" stroke-width="2"/>
+  <rect x="160" y="55" width="110" height="55" rx="6" fill="#fff5e6" stroke="#b35c00"/><text x="215" y="88" text-anchor="middle" font-size="11">reducible configs</text>
+  <path d="M275 82 L300 82" stroke="#666" stroke-width="2"/>
+  <rect x="305" y="55" width="110" height="55" rx="6" fill="#fde8e8" stroke="#a11"/><text x="360" y="88" text-anchor="middle" font-size="11">computer check</text>
+  <path d="M420 82 L445 82" stroke="#666" stroke-width="2"/>
+  <rect x="450" y="55" width="95" height="55" rx="6" fill="#e6f6ea" stroke="#1e7e34"/><text x="497" y="88" text-anchor="middle" font-size="11">4CT</text>
+  <text x="16" y="140" font-size="12" fill="#444">Every minimal counterexample must contain a reducible configuration → contradiction.</text>
+</svg>

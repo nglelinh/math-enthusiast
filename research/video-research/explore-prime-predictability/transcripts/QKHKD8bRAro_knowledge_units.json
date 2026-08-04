@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ku_video_QKHKD8bRAro_0",
+    "t_start": 0.0,
+    "t_end": 95.1,
+    "type": "overview",
+    "summary": "I'm interested in the twin prime conjecture so this is Asking about consecutive prime numbers p 1 as the first prime which be equal to [2] and there'll be the second time P 2 which would be equal to 3 And you can look at the gaps between the primes, so the gap between three and two... is one, this is the only time you can possibly have two prime numbers which differ by exactly one, so the next smallest possible gap Would be a gap of size, [two] It's only not the case that all gaps become size 2 But the question is how many of these gaps of size two? So for example, 101 and 103 are two rathe…"
+  },
+  {
+    "id": "ku_video_QKHKD8bRAro_95",
+    "t_start": 95.2,
+    "t_end": 188.7,
+    "type": "overview",
+    "summary": "It's actually not very far until you start finding twin pines Most primes aren't going to have the one after it been just two apart But we still believe that you should be relatively plentiful and so far if you check on a computer this seems to be true but whether it's really true all the way as far as you go is something that you can't check on the computer and That's where you need to try and prove the real mathematical result So we don't actually know how old the twin prime conjecture is that some people have claimed that it should go all the way back to euclid and it's certainly the kin…"
+  },
+  {
+    "id": "ku_video_QKHKD8bRAro_188",
+    "t_start": 188.8,
+    "t_end": 280.0,
+    "type": "overview",
+    "summary": "And you can do it in a fairly confident way so lots of problems about prime numbers we believe we know what the correct answer should be it's just that we don't know how to prove it and The game is always trying to rule out there being some very bizarre conspiracy amongst prime numbers That would mean that they would behave in a rather different way to how we believe that they should behave So you're completely right that if the twin prime conjecture was false there'll be some strange switch that happens at some strange point far down the number line There's an absolutely huge breakthrough …"
+  },
+  {
+    "id": "ku_video_QKHKD8bRAro_280",
+    "t_start": 280.4,
+    "t_end": 373.1,
+    "type": "overview",
+    "summary": "so if you're looking at numbers with billions and billions of decimal digits for example Then suddenly the average gap will be well over a billion and if you look at even bigger ones you get even bigger gaps So typically prime numbers will have these very big gaps And he showed that no matter how far you go down the number line you will get these pairs that come really close together At least compared to how they typically look I guess. Earlier on around 2005, there was this earlier work of Goldston Pintz and Yildirim, who came up with a new method for thinking about the twin prime conjectu…"
+  },
+  {
+    "id": "ku_video_QKHKD8bRAro_373",
+    "t_start": 373.1,
+    "t_end": 467.9,
+    "type": "overview",
+    "summary": "there was this huge excitement at the result in trying to understand the result, but they also became a Small online competition amongst Mathematicians as to How low can you make the gap that we knew 70 million was an upper bound, this is the first time we had a Finite bound, but we also knew that by tweaking the arguments You should be able to bring 70 million down to some smaller number How low could you go just using what he had put out there and putting in the extra work? So there was a polymath project Which was a big online collaborative project that set up precisely to try and optimi…"
+  },
+  {
+    "id": "ku_video_QKHKD8bRAro_467",
+    "t_start": 467.9,
+    "t_end": 557.7,
+    "type": "overview",
+    "summary": "but you don't quite know Exactly how it fits in and it takes a long time of fumbling around in the darkness before you really get intuition for how What you're thinking about works... It's a huge motivation to me that this is part of the fun It's the chase of the problem and trying to understand what's going on So I was still completely addicted to this thing that I've been working on And I viewed it as a side benefit that it might actually be able to help this big collaborative project if I could sort my ideas out, but then the huge surprise to me was that actually once I managed to Grasp …"
+  },
+  {
+    "id": "ku_video_QKHKD8bRAro_558",
+    "t_start": 558.8,
+    "t_end": 649.3,
+    "type": "overview",
+    "summary": "Strong technical input and so I could use weaker results that be known for the past 50 years or so instead On the one hand I tend to sort of feel my way to a proof and know it's right before I Actually write down all the details so I did have this feeling that yes, this has the feeling of being right But at the same time I remember Being pretty scared when I first came up with the ideas Because you know I was going to be very much putting myself out there And it's very important for mathematicians to really be strict with themselves to check that they've got all the details right but you of…"
+  },
+  {
+    "id": "ku_video_QKHKD8bRAro_649",
+    "t_start": 649.7,
+    "t_end": 742.2,
+    "type": "overview",
+    "summary": "There was this one proof by Yitang Zhang that came out and then both terry and I came up with This new alternative method. So some people been calling it the Maynard Tao method. So the current state of the art, trying to optimize All these techniques including with these new method and these new ideas is Is that they're infinitely many pairs of primes that differ by no more than two hundred and Forty-six. We expect that every even number between 2 and 246 occurs, it's no different, in particular we expect two But we know there's at least one between 2 and 246 Can your method get us to two? …"
+  },
+  {
+    "id": "ku_video_QKHKD8bRAro_742",
+    "t_start": 742.3,
+    "t_end": 836.9,
+    "type": "overview",
+    "summary": "six of the time or something like that, and if you're getting like one in ten at the time Then maybe if you're looking for primes that come close together you miss a whole load of being between primes But you still find to that a pretty close together So you may be missed out 10 of them But on the tenth one you find one and there may be 10 times further apart in you love hopes But they're still pretty close to get there no variation on these techniques even if you're really optimistic Can ever improve your way of finding primes to one into? Without using some extra automatic information and…"
+  },
+  {
+    "id": "ku_video_QKHKD8bRAro_837",
+    "t_start": 837.4,
+    "t_end": 933.4,
+    "type": "overview",
+    "summary": "And when you write [down] your argument you have to write it down in a very rigorous way But all the intuitive ideas for why you come up with that out one in the first place? often taken inspiration from [Private] [sector] areas of mathematics and science are you trying to find that breakthrough that will take us to tell you or do you feel like you've made your Contribution, and that's gonna some come from another part of map or are you in the hand still and I would certainly still love to Prove the Twin prime conjecture or something like that And I do think about it on Friday afternoons an…"
+  },
+  {
+    "id": "ku_video_QKHKD8bRAro_933",
+    "t_start": 933.7,
+    "t_end": 1024.6,
+    "type": "overview",
+    "summary": "There's an inherent beauty about prime numbers That's always what really motivates me to try and understand the mysteries of these seemingly very simple But actually very complicated objects, but you don't get pressures it's not like a boss will come up and say you know [James] to be really good for us if the Number two came from here. I certainly not had anyone come Try and get the enforces to make me bring the gap down so I've not felt any pressure myself. I can't speak for others Which one would you most like to see solved which one would excite me the most I? Think the Riemann hypothesi…"
+  },
+  {
+    "id": "ku_video_QKHKD8bRAro_1024",
+    "t_start": 1024.9,
+    "t_end": 1061.5,
+    "type": "overview",
+    "summary": "but the Riemann hypothesis itself I feel I have no good intuitive way of even starting to how to attack that kind of problem But there's lots of smaller problems connected the Riemann hypothesis that are very important for Par numbers And those are things that I'm very interested in certainly thinks about quite a lot yeah likely to find your n You know your true love because the prime numbers are so far apart at that large end of things So it's a pretty loveless place You know at that end of things so you get a bigger a bigger numbers you might think there's just no way you're going to Find…"
+  }
+]

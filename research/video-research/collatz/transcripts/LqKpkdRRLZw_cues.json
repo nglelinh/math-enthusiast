@@ -1,0 +1,487 @@
+[
+  {
+    "t_start": 0.083,
+    "t_end": 1.307,
+    "text": "What do you think this is?"
+  },
+  {
+    "t_start": 3.634,
+    "t_end": 6.041,
+    "text": "Like maybe seaweed? Or..."
+  },
+  {
+    "t_start": 6.041,
+    "t_end": 8.81,
+    "text": "-It definitely looks like something from the sea, like..."
+  },
+  {
+    "t_start": 8.9,
+    "t_end": 10.81,
+    "text": "Okay well it's interesting mathematical seaweed,"
+  },
+  {
+    "t_start": 10.81,
+    "t_end": 12.74,
+    "text": "and I can explain exactly how we made that image,"
+  },
+  {
+    "t_start": 12.74,
+    "t_end": 18.406,
+    "text": "because to me that image is one of the most mind-blowing pictures,"
+  },
+  {
+    "t_start": 18.406,
+    "t_end": 21.63,
+    "text": "illustrations of very simple math ideas."
+  },
+  {
+    "t_start": 21.63,
+    "t_end": 26.576999999999998,
+    "text": "So it is - and we're going to get there - the Collatz Conjecture."
+  },
+  {
+    "t_start": 36.326,
+    "t_end": 38.671,
+    "text": "I know you've done videos on the Collatz Conjecture,"
+  },
+  {
+    "t_start": 38.671,
+    "t_end": 40.445,
+    "text": "but here is your quick refresher."
+  },
+  {
+    "t_start": 40.445,
+    "t_end": 43.76,
+    "text": "When you take a number and we can do two things to this number depending on its parity,"
+  },
+  {
+    "t_start": 43.76,
+    "t_end": 45.39,
+    "text": "that's whether it is odd or it is even."
+  },
+  {
+    "t_start": 45.39,
+    "t_end": 49.046,
+    "text": "If it's even, we're going to divide by two,"
+  },
+  {
+    "t_start": 49.909,
+    "t_end": 56.57,
+    "text": "and if it's odd, we're going to multiply by three, so triple it, and add one."
+  },
+  {
+    "t_start": 57.012,
+    "t_end": 59.349,
+    "text": "-Which will then make it even. -Which will then make it even."
+  },
+  {
+    "t_start": 59.464,
+    "t_end": 62.104,
+    "text": "and then we know what we do even numbers, that we divide them by two."
+  },
+  {
+    "t_start": 62.184,
+    "t_end": 63.947,
+    "text": "Let's say start with say 13."
+  },
+  {
+    "t_start": 64.08,
+    "t_end": 67.14,
+    "text": "So 13 is odd, so x 3 and add 1"
+  },
+  {
+    "t_start": 67.14,
+    "t_end": 72.093,
+    "text": "so 13 will go to 39+1, 40 - goes to 40."
+  },
+  {
+    "t_start": 72.229,
+    "t_end": 74.577,
+    "text": "Okay it's even, so divide that by 2, goes to 20."
+  },
+  {
+    "t_start": 74.577,
+    "t_end": 76.493,
+    "text": "Okay we divide that by two, goes to 10"
+  },
+  {
+    "t_start": 76.493,
+    "t_end": 78.535,
+    "text": "again divided by two, goes to 5."
+  },
+  {
+    "t_start": 78.535,
+    "t_end": 82.295,
+    "text": "Uh-oh, odd, multiply by 3, 15, add 1, 16."
+  },
+  {
+    "t_start": 82.295,
+    "t_end": 83.652,
+    "text": "I get 16."
+  },
+  {
+    "t_start": 83.652,
+    "t_end": 87.617,
+    "text": "And then look, 16 to 8 to 4 to 2 to 1."
+  },
+  {
+    "t_start": 87.617,
+    "t_end": 94.782,
+    "text": "The conjecture made by Collatz is that every number that you choose"
+  },
+  {
+    "t_start": 94.782,
+    "t_end": 97.172,
+    "text": "is eventually going to go down to 1."
+  },
+  {
+    "t_start": 97.617,
+    "t_end": 100.01,
+    "text": "So some of them are going to go all over the place,"
+  },
+  {
+    "t_start": 100.32,
+    "t_end": 102.681,
+    "text": "but eventually everything's going to 1 as a conjecture,"
+  },
+  {
+    "t_start": 102.681,
+    "t_end": 106.914,
+    "text": "which is, we think is true but we can't prove it"
+  },
+  {
+    "t_start": 106.914,
+    "t_end": 112.361,
+    "text": "and one of the reasons why the conjecture is one of the most famous unsolved problems in math"
+  },
+  {
+    "t_start": 112.361,
+    "t_end": 117.446,
+    "text": "is that we appear to be nowhere close to a solution, nowhere close at all."
+  },
+  {
+    "t_start": 118.236,
+    "t_end": 122.326,
+    "text": "People believe that whole new bits of math need to be invented before we can do this,"
+  },
+  {
+    "t_start": 122.326,
+    "t_end": 127.547,
+    "text": "and is one of the few things that is so simple to state, yet still so complicated."
+  },
+  {
+    "t_start": 127.547,
+    "t_end": 131.373,
+    "text": "It's got the sort of mythical status now among advanced mathematicians,"
+  },
+  {
+    "t_start": 131.582,
+    "t_end": 138.455,
+    "text": "and what I want to do is show how Edmund Harriss, who is a mathematician who I work with,"
+  },
+  {
+    "t_start": 138.455,
+    "t_end": 144.601,
+    "text": "has created this amazing image that illustrates what's going on with Collatz"
+  },
+  {
+    "t_start": 144.601,
+    "t_end": 147.746,
+    "text": "and when he first showed it to me, I was like blown away."
+  },
+  {
+    "t_start": 147.846,
+    "t_end": 150.601,
+    "text": "I've started at 13 and then a line like that."
+  },
+  {
+    "t_start": 151.109,
+    "t_end": 155.074,
+    "text": "Actually already what people do is you've built this big tree,"
+  },
+  {
+    "t_start": 155.074,
+    "t_end": 156.932,
+    "text": "because eventually things are going to have to get to one."
+  },
+  {
+    "t_start": 156.932,
+    "t_end": 159.92,
+    "text": "So if they get to one they're going to have to come from two,"
+  },
+  {
+    "t_start": 160.128,
+    "t_end": 163.259,
+    "text": "then they're going to have to come down from four,"
+  },
+  {
+    "t_start": 163.38,
+    "t_end": 165.022,
+    "text": "and so you can build this big tree."
+  },
+  {
+    "t_start": 165.151,
+    "t_end": 169.478,
+    "text": "What you see with the tree is that you've got all these branches coming down like this,"
+  },
+  {
+    "t_start": 170.086,
+    "t_end": 172.869,
+    "text": "you know, and going into it."
+  },
+  {
+    "t_start": 172.956,
+    "t_end": 174.977,
+    "text": "And normally when you see this done,"
+  },
+  {
+    "t_start": 175.168,
+    "t_end": 181.314,
+    "text": "they're done to try and maximize the sort of logic of how it's done,"
+  },
+  {
+    "t_start": 181.419,
+    "t_end": 186.389,
+    "text": "so the distance will be the same, they'll be done so it like kind of looks good on the page,"
+  },
+  {
+    "t_start": 186.389,
+    "t_end": 189.13,
+    "text": "and it looks like something in a math textbook."
+  },
+  {
+    "t_start": 189.13,
+    "t_end": 193.958,
+    "text": "But actually what Edmund has done is to make it so it's..."
+  },
+  {
+    "t_start": 194.782,
+    "t_end": 196.024,
+    "text": "interesting to look at,"
+  },
+  {
+    "t_start": 196.222,
+    "t_end": 199.77,
+    "text": "but so that you get more of an insight about why this whole problem is interesting."
+  },
+  {
+    "t_start": 199.77,
+    "t_end": 201.325,
+    "text": "Imagine if you start at the bottom,"
+  },
+  {
+    "t_start": 201.603,
+    "t_end": 204.834,
+    "text": "either we are going to go up to an odd number or an even number."
+  },
+  {
+    "t_start": 204.834,
+    "t_end": 209.415,
+    "text": "If we're getting to an even number, it's going to slightly go off in that direction."
+  },
+  {
+    "t_start": 210.17,
+    "t_end": 213.311,
+    "text": "If it's going to an odd number it's going slightly in that direction."
+  },
+  {
+    "t_start": 213.311,
+    "t_end": 218.65,
+    "text": "-Clockwise or anti-clockwise.       -Yeah anti-clockwise for odd, and clockwise for even."
+  },
+  {
+    "t_start": 219.026,
+    "t_end": 224.128,
+    "text": "And then you get - the tree becomes this."
+  },
+  {
+    "t_start": 224.42,
+    "t_end": 227.019,
+    "text": "This is something already... startling to look a bit interesting."
+  },
+  {
+    "t_start": 227.335,
+    "t_end": 229.909,
+    "text": "And then obviously we're not that interested in the individual numbers,"
+  },
+  {
+    "t_start": 229.909,
+    "t_end": 231.954,
+    "text": "we're interested in sort of the overall feel."
+  },
+  {
+    "t_start": 231.954,
+    "t_end": 233.641,
+    "text": "He gets rid of the numbers,"
+  },
+  {
+    "t_start": 233.902,
+    "t_end": 238.32,
+    "text": "and sort of he just looked at the lines between them, how the lines relate,"
+  },
+  {
+    "t_start": 238.32,
+    "t_end": 241.224,
+    "text": "and sort of thickens the lines to make them look like branches,"
+  },
+  {
+    "t_start": 241.366,
+    "t_end": 247.787,
+    "text": "and then carried it on until he includes every number less than 10, 000."
+  },
+  {
+    "t_start": 248.09,
+    "t_end": 251.7,
+    "text": "You end up with hundreds of branches,"
+  },
+  {
+    "t_start": 251.7,
+    "t_end": 253.387,
+    "text": "and then it looks like that."
+  },
+  {
+    "t_start": 256.73,
+    "t_end": 259.133,
+    "text": "It is so messy."
+  },
+  {
+    "t_start": 259.547,
+    "t_end": 261.133,
+    "text": "It's so disorderly."
+  },
+  {
+    "t_start": 261.436,
+    "t_end": 263.133,
+    "text": "We've seen this incredibly simple thing:"
+  },
+  {
+    "t_start": 263.363,
+    "t_end": 267.099,
+    "text": "divided by 2 or multiply by 3, add 1, and then divided by 2."
+  },
+  {
+    "t_start": 267.349,
+    "t_end": 270.208,
+    "text": "Who would have thought that you would get this thing here?"
+  },
+  {
+    "t_start": 270.208,
+    "t_end": 271.606,
+    "text": "But it looks organic."
+  },
+  {
+    "t_start": 271.645,
+    "t_end": 274.758,
+    "text": "Brady you were saying it looks like something definitely floating at the bottom of the sea."
+  },
+  {
+    "t_start": 274.838,
+    "t_end": 276.326,
+    "text": "So you've got two things going on there:"
+  },
+  {
+    "t_start": 276.326,
+    "t_end": 282.32,
+    "text": "you've got the nature of the growth, that you've also got the windiness of the waves."
+  },
+  {
+    "t_start": 282.462,
+    "t_end": 288.768,
+    "text": "And to think that something so natural looking, something so organic,"
+  },
+  {
+    "t_start": 289.106,
+    "t_end": 293.436,
+    "text": "something so complicated, comes from something so simple,"
+  },
+  {
+    "t_start": 293.61,
+    "t_end": 300.233,
+    "text": "this to me is the best way to explain the kind of complicated nature of the Collatz Conjecture,"
+  },
+  {
+    "t_start": 300.233,
+    "t_end": 302.393,
+    "text": "because what it's doing is you're looking and you're thinking,"
+  },
+  {
+    "t_start": 302.393,
+    "t_end": 303.954,
+    "text": "oh my god that looks complicated,"
+  },
+  {
+    "t_start": 303.954,
+    "t_end": 307.342,
+    "text": "and you think, oh now I understand why no one's got a clue."
+  },
+  {
+    "t_start": 322.299,
+    "t_end": 326.699,
+    "text": "If you've enjoyed this video and want to dig even deeper into the world of knowledge,"
+  },
+  {
+    "t_start": 326.758,
+    "t_end": 329.419,
+    "text": "why not check out the Great Courses Plus?"
+  },
+  {
+    "t_start": 329.551,
+    "t_end": 335.057,
+    "text": "They've got an extensive collection of videos presented by world experts in all sorts of fields"
+  },
+  {
+    "t_start": 335.217,
+    "t_end": 337.464,
+    "text": "from number theory to art history"
+  },
+  {
+    "t_start": 337.464,
+    "t_end": 339.826,
+    "text": "and that's a nice mixture of what you've just been watching here."
+  },
+  {
+    "t_start": 339.975,
+    "t_end": 343.168,
+    "text": "You can even learn to read ancient Egyptian hieroglyphs"
+  },
+  {
+    "t_start": 343.168,
+    "t_end": 346.848,
+    "text": "and I'm bit of an Egypt nut, that's a topic that fascinates me somewhere."
+  },
+  {
+    "t_start": 346.949,
+    "t_end": 351.822,
+    "text": "Unlimited access to the full catalogue of videos costs $14. 99 a month,"
+  },
+  {
+    "t_start": 352.034,
+    "t_end": 356.629,
+    "text": "but you can sign on for a month-long free trial to see just how good it is."
+  },
+  {
+    "t_start": 356.629,
+    "t_end": 362.5,
+    "text": "Go to TheGreatCoursesPlus. com/numberphile to check them out."
+  },
+  {
+    "t_start": 362.601,
+    "t_end": 367.652,
+    "text": "This is a great place to learn amazing stuff from professional teachers but at your own pace."
+  },
+  {
+    "t_start": 367.753,
+    "t_end": 370.358,
+    "text": "You can use your TV, tablet, computer or phone."
+  },
+  {
+    "t_start": 370.483,
+    "t_end": 374.302,
+    "text": "That's TheTreatCoursesPlus.com/numberphile,"
+  },
+  {
+    "t_start": 374.302,
+    "t_end": 376.928,
+    "text": "and now thanks to them for supporting this video."
+  }
+]

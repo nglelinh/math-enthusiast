@@ -1,0 +1,459 @@
+imagine a population of users navigating across a connected network of web pages
+at any point in time every individual user has a choice to randomly pick
+user has a choice to randomly pick another link to visit
+the question we're going to focus on today is how one might define a ranking
+today is how one might define a ranking of pages based on a model of the web
+of pages based on a model of the web network
+the particular model we'll focus on in this video is called a markov chain and
+this video is called a markov chain and what we'll eventually build to is an
+what we'll eventually build to is an understanding of a remarkably beautiful
+understanding of a remarkably beautiful algorithm called pagerank which formed
+algorithm called pagerank which formed the backbone of google search
+as we like to do on this channel we'll approach pagerank from a discovery
+approach pagerank from a discovery oriented perspective where we'll
+oriented perspective where we'll naturally interact with powerful
+naturally interact with powerful mathematical ideas involving these
+mathematical ideas involving these markov chain models let's get started
+a markov chain is defined by a few specific properties in the context of a
+specific properties in the context of a web network individual web pages
+correspond to states of the markov chain and going from state to state involves a
+and going from state to state involves a transition probability
+in this particular network any user can go from state 3 to state 1 with
+go from state 3 to state 1 with transition probability 0.5
+if a user is at state 2 they have a 100 chance of transitioning to state 3.
+in the context of web networks it's common for transition probabilities to
+be assumed based on the number of outgoing links for example if a web page
+outgoing links for example if a web page has three outgoing links we assume the
+has three outgoing links we assume the user is equally likely to transition to
+user is equally likely to transition to each of the states with probability 1 3.
+it is possible to also alter these probabilities based on some prior
+probabilities based on some prior knowledge or data
+so if we change the distribution as follows it would assume that users are
+follows it would assume that users are much more likely to click on an outgoing
+much more likely to click on an outgoing link to web page 2.
+now the problem we care about today is ranking the importance of states in the
+ranking the importance of states in the markov chain
+a simplified real world use case here is to imagine a user got four web pages
+to imagine a user got four web pages from a search query
+each other so they form a markov chain how should we rank the web pages to show
+how should we rank the web pages to show an end user
+the first question here is how we should define the importance of a state in a
+define the importance of a state in a markov chain
+web pages what might be a good way to rank the relative importance of each web
+rank the relative importance of each web page
+while one natural way to think about the importance of web pages is to imagine a
+importance of web pages is to imagine a single user continuously going from page
+single user continuously going from page to page according to the markov chain
+to page according to the markov chain model
+at each point in time the user is going to be at a particular state of the
+to be at a particular state of the markov chain and we could maintain a
+markov chain and we could maintain a counter for the number of times they
+counter for the number of times they visit a state
+over a long period of time the states that end up being visited more often can
+that end up being visited more often can naturally be thought of as having a
+naturally be thought of as having a higher rank
+in fact rather than counts we can think of this long-term behavior as a
+distribution on the proportion of time a single user spends in each state
+in this particular markov chain if we run this experiment for a long period of
+time the distribution stabilizes and this distribution is formally called a
+stationary distribution of a markov chain
+indicates that the most important state is state 2 where the interpretation of
+is state 2 where the interpretation of the probability is that a random user
+who serves this network for a long period of time will spend about 26
+percent of their time at state 2. what we're going to dive into in this
+what we're going to dive into in this video is how exactly might we find a
+video is how exactly might we find a stationary distribution of a markov
+stationary distribution of a markov chain
+in what conditions do these stationary distributions even exist
+how do we efficiently compute them to get into how we calculate stationary
+to get into how we calculate stationary distributions we have to first
+distributions we have to first understand how we can model markov
+at its core a markup chain is a random process involving steps in time
+a user might start at some initial state and at each step according to the model
+and at each step according to the model they randomly transition to one of the
+they randomly transition to one of the possible next locations
+at every step in time there's a probability of a user being in a
+probability of a user being in a particular state
+a natural way to model the state distribution at a particular step n in a
+distribution at a particular step n in a markov chain is with a vector of
+markov chain is with a vector of probabilities where the sum of the
+elements in the vector must equal one usually markov chains are initialized
+usually markov chains are initialized with the initial state distribution at
+step zero it's pretty common for the initial distribution across states to be
+initial distribution across states to be assumed as uniform which intuitively
+just means we expect the user to start on any web page with equal probability
+on any web page with equal probability one of the key aspects of analyzing
+one of the key aspects of analyzing markov chains is understanding how the
+markov chains is understanding how the distribution across states change at
+distribution across states change at each step or point in time
+this leads to a discussion on how we model transitions in a markov chain
+model transitions in a markov chain let's isolate state 0 of this markov
+chain and think about how the probability of landing on it after one
+probability of landing on it after one step works out
+in order to make this calculation we need to know the probabilities of being
+need to know the probabilities of being in each of the five states of the markov
+chain at the previous step in time once we have these probabilities the
+once we have these probabilities the probability at state 0 is essentially a
+probability at state 0 is essentially a weighted sum
+we take the probabilities of each previous state multiply them by the
+previous state multiply them by the probability of transitioning to state 0
+probability of transitioning to state 0 from that state and sum over all the
+if you think about this calculation it's essentially a dot product
+essentially a dot product we can extend this across all states of
+if we take all the transition probabilities from state to state and
+fill them into a matrix where every row index corresponds to the previous state
+and the column index corresponds to the current state this gives us a transition
+current state this gives us a transition probability matrix
+now what's really nice about markov chains is we can find the probabilities
+chains is we can find the probabilities of landing in each state at the next
+it's just a matrix vector product of the probabilities at the previous state
+probabilities at the previous state times the transition matrix
+now the problem of finding the stationary distribution can be
+stationary distribution can be formalized a stationary distribution is
+given a distribution pi we define it as a stationary distribution if after the
+a stationary distribution if after the next transition the resulting
+next transition the resulting distribution is also pi
+if this is the case no matter how many transitions occur after this point the
+transitions occur after this point the distribution across states will never
+distribution across states will never change
+so another natural interpretation of the stationary distribution is that given a
+stationary distribution is that given a large enough number of users
+large enough number of users transitioning across states
+once we reach a stationary distribution the proportion of users that lie in each
+note that users will continue to transition to different states at each
+transition to different states at each step but the overall distribution of
+step but the overall distribution of users across states will remain constant
+users across states will remain constant before we get into exactly how we might
+before we get into exactly how we might solve for the stationary distribution
+it's important to address the question of whether an unique distribution even
+of whether an unique distribution even exists for a mock-up chain
+and another critical point to address in our model is if any initial distribution
+our model is if any initial distribution eventually converges to the stationary
+eventually converges to the stationary distribution
+it would be hard to make decisions on ranks of web pages if multiple
+ranks of web pages if multiple stationary distributions existed or a
+stationary distribution changes based on the initial distribution of users among
+let's start with the question of uniqueness i challenge you to find an
+uniqueness i challenge you to find an example of a markov chain where multiple
+example of a markov chain where multiple stationary distributions exist
+this may seem like i'm throwing you off the deep end here so i'll give you a
+think about a simple example with only two states
+suppose we had a markov chain with the following transition probabilities
+for this type of markov chain what's the stationary distribution well if you
+stationary distribution well if you think about it given any initial
+think about it given any initial distribution
+nothing's really going to change because every state transition points to itself
+every state transition points to itself more formally the transition matrix is
+simply the identity matrix so any initial distribution by definition is a
+initial distribution by definition is a stationary distribution
+so this is where the first important constraint regarding markov chains comes
+constraint regarding markov chains comes into play
+property where if a user starts in one state it's impossible for the user to
+state it's impossible for the user to get to some other state
+get to some other state these specific markov chains are called
+these specific markov chains are called reducible markov chains
+i know what you're thinking and the answer is no i did not make that
+in fact what we really want for stationary distribution analysis is
+irreducible markov chains which have the property that any state has a chance to
+it turns out that for any irreducible markov chain a unique stationary
+markov chain a unique stationary distribution always
+distribution always now exists
+next question for irreducible markov chains is if it's true that any initial
+chains is if it's true that any initial distribution eventually converges to the
+distribution eventually converges to the unique stationary distribution
+unique stationary distribution let's take a moment to discuss what we
+in this particular markov chain suppose we start off with the uniform
+we start off with the uniform distribution across all states
+if we run a markov chain simulation after about 20 steps we end up
+after about 20 steps we end up converging to a distribution which take
+converging to a distribution which take my word for it is indeed the stationary
+now what's remarkable is that for this particular markov chain i can start off
+particular markov chain i can start off with any initial distribution say for
+with any initial distribution say for example concentrating all the
+example concentrating all the probability in state 0
+and i still end up eventually landing on the same stationary distribution
+the same stationary distribution this time it takes about 25 steps but
+in a general sense what we mean by convergence is that any initial
+convergence is that any initial distribution after a large number of
+distribution after a large number of steps settles into the eventual
+steps settles into the eventual stationary distribution
+my challenge to you now is to see if you can come up with a markov chain where an
+can come up with a markov chain where an initial distribution does not actually
+initial distribution does not actually end up converging to the stationary
+end up converging to the stationary distribution
+this is a pretty hard task but again think about a simple two state example
+think about a simple two state example here's the simplest counter example
+here's the simplest counter example suppose i have a two-state irreducible
+markov chain where each state has a hundred percent chance of transitioning
+hundred percent chance of transitioning to the other state
+to the other state what's the unique stationary
+the best way to see the issue here with convergence is with two initial
+convergence is with two initial distributions
+if we start with the uniform distribution across both states all
+distribution across both states all transitions will result in no changes
+transitions will result in no changes and this distribution is indeed the
+and this distribution is indeed the unique stationary distribution
+but what if the starting distribution was eighty percent at state zero and
+was eighty percent at state zero and twenty percent at state one
+now if we apply transitions the distribution across states never
+distribution across states never converges it simply oscillates between
+this brings to light a second key property of markov chains
+property of markov chains these types of markov chains are called
+we won't go too in depth into periodic markov chains but there are a couple of
+markov chains but there are a couple of things to know
+when discussing these types of mock-off chains we're implicitly assuming that
+chains we're implicitly assuming that they're also irreducible
+chains is that if you imagine a user moving from state to state there exists
+moving from state to state there exists some regular interval greater than one
+some regular interval greater than one between visits to a node
+the period is two since for any starting state it's only possible for a user to
+state it's only possible for a user to get back to the state in regular
+get back to the state in regular intervals of two steps when markov
+intervals of two steps when markov chains have this periodic property it
+chains have this periodic property it means that there exists some initial
+means that there exists some initial distributions that will oscillate rather
+distributions that will oscillate rather than converge
+if no such regular period of greater than one exists for each state we can
+than one exists for each state we can say the mock-up chain is aperiodic
+say the mock-up chain is aperiodic markov chains that are irreducible and
+markov chains that are irreducible and aperiodic have an incredibly cool and
+aperiodic have an incredibly cool and perhaps surprising property that no
+perhaps surprising property that no matter what the starting distribution is
+matter what the starting distribution is as you continuously transition through
+as you continuously transition through the mock-off chain
+the mock-off chain the distribution will always converge
+in our web page example what this means is no matter what the initial
+is no matter what the initial distribution of users is across web
+distribution of users is across web pages as long as the markup chain
+pages as long as the markup chain representing the web graph is
+irreducible and aperiodic the long-term distribution of the users will converge
+to stationary distribution which remember provides a good metric to rank
+started out on a specific web page or if they were distributed evenly across all
+they were distributed evenly across all web pages
+after enough steps it is mathematically guaranteed to converge to the unique
+guaranteed to converge to the unique stationary distribution
+stationary distribution [Music]
+this theorem is often called the ergodic theorem for markov chains and it forms
+theorem for markov chains and it forms the basis of many applications
+this theorem of course requires a proof but the details require a fairly strong
+but the details require a fairly strong background in probability theory so for
+background in probability theory so for the interested viewers i will provide a
+the interested viewers i will provide a good link in the description to the
+good link in the description to the proof
+now the next natural question of course is how do we actually calculate the
+is how do we actually calculate the stationary distribution practically
+the first way is perhaps the most straightforward method we start off with
+straightforward method we start off with an initial random distribution and at
+an initial random distribution and at every step we multiply the markov
+every step we multiply the markov transition probability matrix with this
+transition probability matrix with this distribution
+after we get the new distribution we simply check if the distance between the
+simply check if the distance between the new vector distributions is less than
+new vector distributions is less than some tolerance that we choose
+when this difference is small enough we claim that we have found the stationary
+claim that we have found the stationary distribution in a sense you can consider
+distribution in a sense you can consider this as a brute force method to find the
+stationary distribution of a mock-up chain
+the second way to solve for a stationary distribution is to utilize the
+distribution is to utilize the definition directly
+features a system of equations and if we can solve it we have a stationary
+can solve it we have a stationary distribution
+but there's one problem if you try solving the system of equations you will
+solving the system of equations you will find that it's actually unsolvable
+two of these equations end up being redundant information so you can't find
+redundant information so you can't find a unique solution
+the trick to solving the system of equations is to add in the implicit
+constraint that the sum of the individual probabilities must equal 1.
+by replacing one of the markov chain transition equations with the simplicity
+constraint we can solve for the stationary distribution directly through
+stationary distribution directly through a linear system solver
+the final method is my personal favorite because it's quite a cool connection
+because it's quite a cool connection between markov chains and some
+between markov chains and some fundamental linear algebra
+to understand it better let's modify our state transition equation slightly
+there's an implicit convention to define the markov chain distribution as a row
+the markov chain distribution as a row vector since it makes the transition
+vector since it makes the transition probability matrix nicely correspond to
+probability matrix nicely correspond to the edges of a markov chain
+but another way to represent the updates of the distribution is through a more
+of the distribution is through a more standard matrix vector product where we
+standard matrix vector product where we now represent our distributions as
+now represent our distributions as column vectors and then multiply the
+column vectors and then multiply the transpose of our matrix by the
+transpose of our matrix by the distribution to update it
+by treating every column of our original matrix as a row and multiplying by a
+matrix as a row and multiplying by a column vector
+we get the same dot products as before once we have this representation if you
+once we have this representation if you think about these column vectors on a
+think about these column vectors on a coordinate plane we can observe how the
+coordinate plane we can observe how the updates change the vector over the
+updates change the vector over the iterations
+and what we're looking for is a vector where applying the matrix p transpose
+where applying the matrix p transpose result in the exact same vector
+result in the exact same vector assuming that this vector always exists
+assuming that this vector always exists for this matrix what does this imply
+for this matrix what does this imply about this special vector
+about this special vector what property of p transpose does it
+a core concept in linear algebra involves eigenvalues and eigenvectors
+an eigenvector v of a matrix a has the property that when we take the matrix
+property that when we take the matrix vector product a times v
+it scales the eigenvector v by a corresponding eigenvalue lambda
+if you think about stationary distributions from this perspective
+distributions from this perspective we're actually looking for a very
+specific eigenvector the one that corresponds exactly to the eigenvalue 1.
+a remarkable fact is that for irreducible markov chains the state
+irreducible markov chains the state transition matrix p transposed always
+transition matrix p transposed always has an eigenvalue of 1 with the unique
+so a third method for finding stationary distributions of a markov chain is to
+distributions of a markov chain is to simply find the eigenvector
+corresponding to eigenvalue 1 in the transpose of the state transition matrix
+once you have found this eigenvector the stationary distribution is just a scaled
+stationary distribution is just a scaled down version of it that sums to 1.
+and i wish it's one that was mentioned more often in a standard linear algebra
+more often in a standard linear algebra class because it's one of the most
+class because it's one of the most natural applications of the concept of
+natural applications of the concept of eigenvalues and eigenvectors
+throughout engineering you'll often see that long-term behavior of systems is
+that long-term behavior of systems is intimately tied to eigenvalues and
+intimately tied to eigenvalues and eigenvectors
+markov chains just happen to be one good example of that
+so to take stock of where we are we have a stationary distribution which is a
+a stationary distribution which is a good measure of the importance of every
+good measure of the importance of every web page in a markov chain
+web page in a markov chain we now have three separate ways to
+we now have three separate ways to calculate the stationary distribution so
+calculate the stationary distribution so here's an interesting question for you
+here's an interesting question for you imagine we tried to find the stationary
+imagine we tried to find the stationary distribution of a massive web network of
+hundreds of millions of web pages which of these three methods do you think will
+let's say we tried solving a system of equations on this massive web network
+equations on this massive web network the big problem here is in practice
+the big problem here is in practice solving a large system of equations can
+solving a large system of equations can be quite expensive
+in the worst case solving linear systems tends to be a cubic time operation which
+tends to be a cubic time operation which can be pretty slow when dealing with the
+can be pretty slow when dealing with the massive scale of web networks
+the eigenvalue method also has a similar problem in the sense that in general
+problem in the sense that in general getting a decomposition of eigenvalues
+getting a decomposition of eigenvalues with eigenvectors takes cubic time
+with eigenvectors takes cubic time so perhaps shockingly practical
+experiments on web networks found that the first brute force method of
+the first brute force method of calculating the stationary distribution
+it turns out that a lot of web networks have relatively fast convergence times
+have relatively fast convergence times most web search use cases converged
+most web search use cases converged within 50 iterations
+now again this depends a lot on the thresholds of how much tolerance you
+thresholds of how much tolerance you have for error the answer that you get
+in 50 iterations is not the true stationary distribution so we are
+cheating a bit but it goes to show the trade-offs that engineers were willing
+trade-offs that engineers were willing to make for something that is good
+sometimes a brute force approximation beats out clever algorithmic
+transformations this is just an excellent example of an engineering
+in some cases a good enough solution is a better choice than the perfect
+a better choice than the perfect solution
+the pagerank algorithm that built the first version of google is fundamentally
+first version of google is fundamentally based on the principles of calculating
+based on the principles of calculating stationary distributions of markov
+chains but there are a few important complexities that the creators needed to
+complexities that the creators needed to address
+after all web pages can do whatever they want and one type of markov chain that
+want and one type of markov chain that gives stationary distribution
+gives stationary distribution calculations a problem is web pages that
+as a result all transitions to the state would never exit the state
+the problem here is it's really hard to determine a ranking of the pages
+determine a ranking of the pages properly since eventually all users
+properly since eventually all users traversing this network will just be
+traversing this network will just be absorbed into state 3.
+another issue occurs on the following type of graph
+more web pages linked to each other in such a way where once a user enters they
+such a way where once a user enters they get stuck in a never-ending cycle
+once again if we try to do some sort of stationary distribution calculation on
+stationary distribution calculation on this network it's impossible to rank the
+end up cycling between states 0 and 1. the big problem here is that a lot of
+the big problem here is that a lot of our tools for calculating the stationary
+our tools for calculating the stationary distribution and subsequent ranking rely
+distribution and subsequent ranking rely on the underlying assumption that we are
+working with irreducible and aperiodic markov chains
+the question now is how should we handle markov chains that don't fit this
+markov chains that don't fit this property
+the idea is remarkably simple and it's a classic example of transforming a hard
+classic example of transforming a hard problem into one that we know how to
+perspective of someone who surfs the web suppose a user ends up continuously
+suppose a user ends up continuously transitioning to various web pages and
+transitioning to various web pages and then suddenly they hit a web page
+without any outgoing links what might they do
+well it's reasonable to think that they'll probably just find another web
+they'll probably just find another web page to surf from the network
+page to surf from the network in more technical terms they'll randomly
+in more technical terms they'll randomly select a new state from the markup chain
+and the way we can embed that idea in the mock-off chain is really elegant
+the mock-off chain is really elegant going back to our earlier simpler
+going back to our earlier simpler example
+the core solution is at every step with some probability alpha divided by the
+some probability alpha divided by the number of states will end up
+number of states will end up transitioning to any random state in the
+transitioning to any random state in the network
+you can think of this as a way to simulate the notion that a user might
+just get bored and go off and open a completely random page and then start
+completely random page and then start surfing again
+now it's not enough to just add these random transition probabilities because
+you'll notice that it breaks the assumption of a probability distribution
+assumption of a probability distribution across transitions
+notice these distributions no longer sum to 1. so what we do to solve that
+problem is we add a damping factor of one minus alpha to all the existing
+one minus alpha to all the existing transitions
+in a sense with probability of one minus alpha we'll follow the original markov
+alpha we'll follow the original markov chain transitions but otherwise or
+chain transitions but otherwise or randomly teleport to a new state
+randomly teleport to a new state this basically prevents any state from
+this basically prevents any state from permanently becoming an absorbing state
+and also prevents users from being stuck in a cycle as well mathematically what's
+in a cycle as well mathematically what's going on here is we take our original
+going on here is we take our original transition probability matrix
+multiply by the damping factor and then add alpha over n times a matrix of all
+add alpha over n times a matrix of all ones
+adding the weighted matrix of all ones simulates the idea of any random state
+being picked as the next transition all page rank involves is calculating
+all page rank involves is calculating the stationary distribution of this
+the stationary distribution of this modified markov chain
+throughout this video we've discussed markov chains which implicitly requires
+markov chains which implicitly requires some background and probability
+one of the best ways to learn probability and solidify understanding
+probability and solidify understanding of these concepts is by interacting with
+them directly and solving hands-on problems
+a great tool that provides interactive learning is brilliant the sponsor for
+learning is brilliant the sponsor for this video
+for those of you interested in diving deeper into markov chains brilliant has
+deeper into markov chains brilliant has an excellent module on probability at
+an excellent module on probability at various levels
+practice problems with markov chains and even an in-depth analysis on stationary
+even an in-depth analysis on stationary distributions within the context of
+distributions within the context of quantitative finance the resources
+quantitative finance the resources offered by brilliant provide a great
+all their courses come with elegant interactive visualizations and a great
+interactive visualizations and a great set of practice problems to encourage
+set of practice problems to encourage mastery of the content you can get
+started for free by going to brilliant.org reducible which is linked
+brilliant.org reducible which is linked in the description below brilliant is
+providing a special offer through this channel where the first 200 members to
+channel where the first 200 members to sign up get 20 off the annual
+sign up get 20 off the annual subscription
+it's a great way to learn more about the topics in these videos and also a good
+topics in these videos and also a good way to support this channel big thanks
+way to support this channel big thanks to brilliant for sponsoring this video
+to brilliant for sponsoring this video so to put everything together we start
+off with the web network which can be interpreted as a mock-up chain
+interpreted as a mock-up chain pagerank then tries to find the
+pagerank then tries to find the stationary distribution of a slightly
+stationary distribution of a slightly modified mock-off chain where the
+modified mock-off chain where the transition probability matrix is updated
+transition probability matrix is updated by a damping factor and also accounts
+this final matrix is what pagerank then uses to calculate the stationary
+uses to calculate the stationary distribution by performing iterations
+distribution by performing iterations until the distribution converges up to a
+this final distribution then provides the information needed to make a ranking
+pagerank may be not only one of the most lucrative algorithms ever created but
+lucrative algorithms ever created but also one of the most important in terms
+of defining the domain of search most of you now know the remaining parts
+larry page and sergey brin went on to found google and the rest is history
+found google and the rest is history thanks for watching and i'll see you all

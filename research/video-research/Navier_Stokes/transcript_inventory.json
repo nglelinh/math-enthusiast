@@ -1,0 +1,37 @@
+{
+  "slug": "Navier_Stokes",
+  "videos": [
+    {
+      "id": "ERBVFcutl3M",
+      "title": "Numberphile — *Navier-Stokes Equations* (Tom Crawford)",
+      "has_transcript": true,
+      "chars": 21552,
+      "units": 14,
+      "url": "https://www.youtube.com/watch?v=ERBVFcutl3M"
+    },
+    {
+      "id": "Ra7aQlenTb8",
+      "title": "The million dollar equation (Navier-Stokes equations)",
+      "has_transcript": true,
+      "chars": 11115,
+      "units": 5,
+      "url": "https://www.youtube.com/watch?v=Ra7aQlenTb8"
+    },
+    {
+      "id": "ta6Q70y6YVU",
+      "title": "Luis Caffarelli — NS existence and smoothness (Clay lectures)",
+      "has_transcript": true,
+      "chars": 51646,
+      "units": 34,
+      "url": "https://www.youtube.com/watch?v=ta6Q70y6YVU"
+    },
+    {
+      "id": "DgmuGqeRTto",
+      "title": "Terence Tao — *Can the Navier-Stokes Equations Blow Up in Finite Time?*",
+      "has_transcript": true,
+      "chars": 61264,
+      "units": 34,
+      "url": "https://www.youtube.com/watch?v=DgmuGqeRTto"
+    }
+  ]
+}

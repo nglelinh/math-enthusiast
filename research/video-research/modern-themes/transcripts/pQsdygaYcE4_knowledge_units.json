@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ku_video_pQsdygaYcE4_0",
+    "t_start": 1.0,
+    "t_end": 87.8,
+    "type": "overview",
+    "summary": "Is it possible to invent a computer that computes anything in a flash? Or do problems exist that would stump even the most powerful computers imaginable? How complex is too complex for computation? These questions are central to a fascinating conundrum called the P versus NP problem. P versus NP, is one of the great unsolved problems in all of math and computer science, or, you know, really in all of human knowledge, if we're being honest. Anyone who finds a solution could win a handsome $1 million prize offered by the Clay Institute. And this solution could lead to breakthroughs in everyth…"
+  },
+  {
+    "id": "ku_video_pQsdygaYcE4_91",
+    "t_start": 91.9,
+    "t_end": 182.4,
+    "type": "overview",
+    "summary": "And here's the answer. With this one question, both types of sentries would point to the correct safe path, allowing the robot to solve the problem quickly. Now, what if the robot encounters multiple sentries and dozens of pathways leading who knows where? What can it do to find safe passage? Compared to the first problem, is a correct solution here proportionately more difficult to find? Or is it exponentially harder? Maybe there's a shortcut that could speed things up? Or maybe finding a solution to this complex situation is nearly impossible. The question of how hard a problem is to solv…"
+  },
+  {
+    "id": "ku_video_pQsdygaYcE4_183",
+    "t_start": 183.6,
+    "t_end": 277.4,
+    "type": "overview",
+    "summary": "In 1936, a 23-year-old British University student, Alan Turing, developed a fundamental theory of computation. While attempting to solve a problem about the foundations of math, Turing claimed in a paper, it's possible to invent a machine which can compute any computable sequence given enough time and memory. This simple, theoretical Turing machine, which includes a place to store information and a device to read and write new information based on a set of instructions, is the basic framework for all digital computers to come. One of the key insights of computer science is that Turing machi…"
+  },
+  {
+    "id": "ku_video_pQsdygaYcE4_277",
+    "t_start": 277.4,
+    "t_end": 367.6,
+    "type": "overview",
+    "summary": "three logic gates: AND OR NOT. These logic gates work like this. For an AND gate, when the inputs for both variables X and Y are true, the expression evaluates to true otherwise it's false. With the OR gate, the expression evaluates to true when either X or Y is true. A NOT gate simply inverts the value of a variable, switching a true to false or vice versa. By using only these three simple, logical operations and building them up into various configurations, Boolean formulas can operate like a Turing machine and theoretically solve any computable problem. In 1937, an electrical engineering…"
+  },
+  {
+    "id": "ku_video_pQsdygaYcE4_367",
+    "t_start": 367.6,
+    "t_end": 458.0,
+    "type": "overview",
+    "summary": "on computer chips in complex arrangements called circuits, it's theoretically possible to compute almost anything, anything that is computable, that is, More about that later. In the 1950s, Hungarian American mathematician and computer scientist, John von Neumann brought the modern computer one step closer to reality. He developed the architecture of the universal electronic computer, the same architecture at work inside most electronic computing devices today, from smartphones to supercomputers. Since the mid 1950s when the first transistor based electronic computers were built, the techno…"
+  },
+  {
+    "id": "ku_video_pQsdygaYcE4_458",
+    "t_start": 458.9,
+    "t_end": 549.5,
+    "type": "overview",
+    "summary": "Here's an example of an algorithm that sorts a list of numbers from lowest to highest. It works like this. Take a random list of numbers. Start with a first number from the left, which here is six. Now look through the remaining numbers and identify the smallest one, which in this case is three. Next, swap the places of six and three, and you'll have the smallest number in the group on the left. Take a second pass this time, starting with the second number from the left. Swap with the smallest and so on. After enough passes, all the numbers are sorted, lowest to highest using this simple al…"
+  },
+  {
+    "id": "ku_video_pQsdygaYcE4_549",
+    "t_start": 549.8,
+    "t_end": 641.1,
+    "type": "overview",
+    "summary": "The vast majority of what we use our computers for on a day-to-day basis, you know, you could think of as solving various problems in P. From finding the shortest path between two points on a map. to sorting a list of names alphabetically, or searching for an item on a list. These are all examples of polynomial P problems. A polynomial is a mathematical function that can contain variables raised to a fixed power or exponent like N to the power of two or n cubed. The time it takes a computer to solve P problems grows polynomially as the input increases in size. Given enough computing power, …"
+  },
+  {
+    "id": "ku_video_pQsdygaYcE4_641",
+    "t_start": 641.8,
+    "t_end": 734.7,
+    "type": "overview",
+    "summary": "If someone gives you a completed hard puzzle like a large Sudoku or crossword, the answers can be verified much fasterthan it can be solved in the first place. It's the same for a computer. The reason these types of NP problems can be more difficult for a computer to solve is because as far as we know, their complexity increases exponentially as their input increases. An exponential function has the variable in the exponent like two to the power of N. Here's an example of exponential versus polynomial growth. For the same input. With these hard, exponential NP problems, the increased comple…"
+  },
+  {
+    "id": "ku_video_pQsdygaYcE4_735",
+    "t_start": 735.5,
+    "t_end": 825.0,
+    "type": "overview",
+    "summary": "AI would become smarter overnight. Businesses could solve complicated optimization and logistics problems boosting the global economy. And scientists could make once unthinkable breakthroughs. Maybe we could even find a cure for the common cold? However, if P equals NP, that would also mean that all current methods for strong encryption security measures that protect everything from your online privacy to your crypto wallet would instantly become obsolete. It would be hacker heaven. In the 1970s, mathematicians Stephen Cook and Leonid Levin working independently on opposite sides of the Iro…"
+  },
+  {
+    "id": "ku_video_pQsdygaYcE4_826",
+    "t_start": 826.3,
+    "t_end": 919.1,
+    "type": "overview",
+    "summary": "NP Complete problems include a host of famous problems you may have heard of, including the Knapsack Problem, which involves the most efficient way to pack items like in a suitcase. Or the Traveling Salesman problem, which involves route planning and navigation. Complicated NP Complete problems, even underlie everyday tasks like figuring out how to deliver millions of Amazon packages on time or efficient in life-saving matching of organ donors with recipients, and even mastering games like Tetris or Candy Crush, All known NP Complete problems can be transformed into one another. The most fa…"
+  },
+  {
+    "id": "ku_video_pQsdygaYcE4_920",
+    "t_start": 920.2,
+    "t_end": 1010.7,
+    "type": "overview",
+    "summary": "And proving P doesn't equal NP has turned out to be one of the hardest problems in math and computer science. In the 1980s, one promising avenue of research emerged called circuit complexity. The field studies the complexity of Boolean functions when represented as circuits. The behavior of any given Boolean function can be described by its truth table. However, the same truth table can be produced by circuits of differing complexity as seen in these two examples. A Boolean function's circuit complexity is defined as the total number of logic gates in the smallest circuit, which can compute…"
+  },
+  {
+    "id": "ku_video_pQsdygaYcE4_1011",
+    "t_start": 1011.2,
+    "t_end": 1104.3,
+    "type": "overview",
+    "summary": "So how hard could it be to find one instance? Harder than it sounds. Alas researchers encountered a mathematical roadblock called the Natural Proofs Barrier. This barrier implies that any proof that P doesn't equal NP using known circuit complexity techniques would have to have a bizarre and self-defeating character. Clearly, a different way forward was needed. While most researchers started looking for other approaches, some began to investigate the Natural Proofs Barrier itself, leading them to new questions. How hard is it to determine the hardness of various computational problems? And …"
+  },
+  {
+    "id": "ku_video_pQsdygaYcE4_1104",
+    "t_start": 1104.3,
+    "t_end": 1176.2,
+    "type": "overview",
+    "summary": "accurately compute a given Boolean function. Is there a simple solution? The Minimum Circuit Size Problem is a problem about circuit complexity, but how complex is the problem itself? Researchers suspect that MCSP is NP complete, but unlike many other similar problems, they haven't been able to prove it. A proof of MCSP's NP-completeness would be a big step towards showing that secure cryptography does exist. And recently there's been tantalizing progress towards that goal. Like the robot searching for safe passage in a foreign land, the pursuit of meta-complexity is blazing a trail for the…"
+  }
+]

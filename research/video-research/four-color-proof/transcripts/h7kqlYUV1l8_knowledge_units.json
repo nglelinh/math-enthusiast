@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ku_video_h7kqlYUV1l8_1",
+    "t_start": 1.1,
+    "t_end": 93.2,
+    "type": "overview",
+    "summary": "What do sudoku games, wedding seating plans, and assigning frequencies to radio stations all have in common. They are all related to a well-known math problem, connected to maps. A proof of this problem was the very first that relied heavily on a computer. This breakthrough had a huge impact on the fields of mathematics and computer science. But it also ignited decades of debate about the nature of mathematical proofs, the role of computers in the field, and what it means to be a mathematician. The long and winding journey started with a simple question. Imagine you had a blank map and you'…"
+  },
+  {
+    "id": "ku_video_h7kqlYUV1l8_93",
+    "t_start": 93.2,
+    "t_end": 185.2,
+    "type": "overview",
+    "summary": "with only four colors. He wondered if this was the case for all maps. Regardless of the shape, size, and complexity. The simplicity of the Four Color Theorem, that only four colors are needed to color any map, tantalized mathematicians. However, early attempts to prove it failed. 27 years later, the first widely accepted proof came from the British barrister, Alfred Kempe. His proof tackled the problem by analyzing how countries connect to each other. To understand how Kemp and other mathematicians looked at this problem, it helps to strip away all unnecessary information. We can replace ea…"
+  },
+  {
+    "id": "ku_video_h7kqlYUV1l8_185",
+    "t_start": 185.2,
+    "t_end": 278.6,
+    "type": "overview",
+    "summary": "features that all maps share. Regardless of how complicated, all maps have, at least one region that has 0, 1, 2, 3, 4, or 5 neighbors. This is known as an unavoidable set. Once Kempe had identified an unavoidable set, he set out to prove the Four Color Theorem. To understand a surprising step of his method, first, assume that the theorem is false. Kemp's proof is elegant and clever. Suppose we cannot color every map with four or fewer colors, then there must be a smallest such map. If the Four Color Theorem is false, there must be a graph that requires at least five colors. This is known a…"
+  },
+  {
+    "id": "ku_video_h7kqlYUV1l8_278",
+    "t_start": 278.9,
+    "t_end": 369.6,
+    "type": "overview",
+    "summary": "That meant the Four Color Theorem must be true. Unfortunately, 11 years later, an error was discovered. Mathematician Percy Haewood found that Kempe's recoloring technique worked when the removed vertex had four or fewer neighbors, but not when it had five. When you read Haewood's writing, you could tell he feels bad for having discovered this flaw. So the theorem was a conjecture once again. For the next half century, mathematicians continued trying to prove the four color theorem. They soon realized that any solution would require a two-pronged approach. First, they needed to expand Kemp'…"
+  },
+  {
+    "id": "ku_video_h7kqlYUV1l8_369",
+    "t_start": 369.6,
+    "t_end": 462.5,
+    "type": "overview",
+    "summary": "there were several teams trying to solve the Four Color Problem using computers At the University of Illinois. Wolfgang Haken, a well-known topologist, teamed up with Kenneth Appel, a mathematics professor, and one of the only people who knew how to use the university's new high-powered computers. In 1976, after about six months of work and more than a thousand hours of computer time, they proved the Four Color Theorem. Haken and Appel found an unavoidable set consisting of 1,936 reducible configurations. Every map has to have at least one of these configurations, and any map that does can …"
+  },
+  {
+    "id": "ku_video_h7kqlYUV1l8_462",
+    "t_start": 462.8,
+    "t_end": 524.1,
+    "type": "overview",
+    "summary": "then it wasn't a legitimate proof. But as time progressed, the use of computers and theoretical mathematics became more accepted. As a younger generation got older, this newfangled technology just became the way that we did math. And uh, today we're much more comfortable with it than we were at that time. Today, mathematicians often use computers to check proofs of theorems or even to generate proofs themselves. This fruitful and continuing marriage of mathematics and computers all started with a seemingly simple question of how to color maps. Through the study of this problem mathematics w…"
+  }
+]

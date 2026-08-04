@@ -1,0 +1,37 @@
+{
+  "slug": "Twin_Prime_Conjecture",
+  "videos": [
+    {
+      "id": "vkMXdShDdtY",
+      "title": "Numberphile — Gaps between Primes (Zhang era)",
+      "has_transcript": true,
+      "chars": 8055,
+      "units": 6,
+      "url": "https://www.youtube.com/watch?v=vkMXdShDdtY"
+    },
+    {
+      "id": "QKHKD8bRAro",
+      "title": "Numberphile — Twin Prime Conjecture (Maynard)",
+      "has_transcript": true,
+      "chars": 18547,
+      "units": 12,
+      "url": "https://www.youtube.com/watch?v=QKHKD8bRAro"
+    },
+    {
+      "id": "E-W47F9upkU",
+      "title": "Maynard — *Small Gaps Between Primes* (Princeton colloquium)",
+      "has_transcript": true,
+      "chars": 64352,
+      "units": 37,
+      "url": "https://www.youtube.com/watch?v=E-W47F9upkU"
+    },
+    {
+      "id": "oe1p7IsH_ws",
+      "title": "Lozano-Robledo short progress summary",
+      "has_transcript": true,
+      "chars": 2413,
+      "units": 2,
+      "url": "https://www.youtube.com/watch?v=oe1p7IsH_ws"
+    }
+  ]
+}

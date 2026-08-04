@@ -1,0 +1,5737 @@
+[
+  {
+    "t_start": 4.67,
+    "t_end": 10.22,
+    "text": "well thank you very much it's a it's really a great honor to be here at the"
+  },
+  {
+    "t_start": 10.22,
+    "t_end": 17.96,
+    "text": "celebration of the Appel prize to Professor Wiles professor Wiles has had"
+  },
+  {
+    "t_start": 17.96,
+    "t_end": 22.04,
+    "text": "Professor Wiles professor Wiles has had a great influence on mathematics and on"
+  },
+  {
+    "t_start": 22.04,
+    "t_end": 24.41,
+    "text": "a great influence on mathematics and on mathematicians in general myself"
+  },
+  {
+    "t_start": 24.41,
+    "t_end": 30.679,
+    "text": "included I was a PhD student of his and well that was a that was a really"
+  },
+  {
+    "t_start": 30.679,
+    "t_end": 38.18,
+    "text": "experience for me as we all got to see this morning presser Wiles is not just a"
+  },
+  {
+    "t_start": 38.18,
+    "t_end": 41.0,
+    "text": "this morning presser Wiles is not just a great mathematician but also a really"
+  },
+  {
+    "t_start": 41.0,
+    "t_end": 48.29,
+    "text": "always struck me the most was that he has a real feel for what's important in"
+  },
+  {
+    "t_start": 48.29,
+    "t_end": 50.72,
+    "text": "has a real feel for what's important in mathematics what are the most promising"
+  },
+  {
+    "t_start": 50.72,
+    "t_end": 54.68,
+    "text": "mathematics what are the most promising directions in mathematics and as a"
+  },
+  {
+    "t_start": 54.68,
+    "t_end": 57.799,
+    "text": "directions in mathematics and as a result of this incredible intuition that"
+  },
+  {
+    "t_start": 57.799,
+    "t_end": 64.45,
+    "text": "result of this incredible intuition that he has about the direction of the field"
+  },
+  {
+    "t_start": 64.45,
+    "t_end": 67.969,
+    "text": "he's had a great impact on on many central problems in mathematics of"
+  },
+  {
+    "t_start": 67.969,
+    "t_end": 72.56,
+    "text": "central problems in mathematics of course burma's Last Theorem is the most"
+  },
+  {
+    "t_start": 72.56,
+    "t_end": 74.719,
+    "text": "famous one but actually many many central problems have seen progress in"
+  },
+  {
+    "t_start": 74.719,
+    "t_end": 80.21,
+    "text": "central problems have seen progress in large part influenced by his work and so"
+  },
+  {
+    "t_start": 80.21,
+    "t_end": 81.95,
+    "text": "large part influenced by his work and so the problem I want to talk about today"
+  },
+  {
+    "t_start": 81.95,
+    "t_end": 84.23,
+    "text": "the problem I want to talk about today is the vergence Winterton dire"
+  },
+  {
+    "t_start": 84.23,
+    "t_end": 90.859,
+    "text": "conjecture which has become one of the most fundamental problems in mathematics"
+  },
+  {
+    "t_start": 90.859,
+    "t_end": 96.859,
+    "text": "most fundamental problems in mathematics and in particular in number theory it's"
+  },
+  {
+    "t_start": 96.859,
+    "t_end": 99.62,
+    "text": "the next frontier in the solving of equations as I'll explain in number"
+  },
+  {
+    "t_start": 99.62,
+    "t_end": 106.039,
+    "text": "theory and of course andrew has had a great impact on the progress that we've"
+  },
+  {
+    "t_start": 106.039,
+    "t_end": 108.649,
+    "text": "great impact on the progress that we've seen towards this conjecture although of"
+  },
+  {
+    "t_start": 108.649,
+    "t_end": 113.21,
+    "text": "seen towards this conjecture although of course there's also much more to be done"
+  },
+  {
+    "t_start": 113.21,
+    "t_end": 117.8,
+    "text": "conjecture and so that's what I want to talk about today is first of all I want"
+  },
+  {
+    "t_start": 117.8,
+    "t_end": 120.35,
+    "text": "to describe in elementary terms what this conjecture is and then explain a"
+  },
+  {
+    "t_start": 120.35,
+    "t_end": 121.789,
+    "text": "this conjecture is and then explain a little bit about what's known about it"
+  },
+  {
+    "t_start": 121.789,
+    "t_end": 125.899,
+    "text": "little bit about what's known about it what Andrews influence has been and what"
+  },
+  {
+    "t_start": 125.899,
+    "t_end": 127.249,
+    "text": "what Andrews influence has been and what remains to be done hopefully that'll"
+  },
+  {
+    "t_start": 127.249,
+    "t_end": 129.32,
+    "text": "remains to be done hopefully that'll attract many people into the area"
+  },
+  {
+    "t_start": 129.32,
+    "t_end": 132.23,
+    "text": "attract many people into the area including many of the young people who"
+  },
+  {
+    "t_start": 132.23,
+    "t_end": 137.93,
+    "text": "yeah okay so the versed in spirit generic conjecture it's one of the clay"
+  },
+  {
+    "t_start": 137.93,
+    "t_end": 141.56,
+    "text": "generic conjecture it's one of the clay millennium problems so in celebration of"
+  },
+  {
+    "t_start": 141.56,
+    "t_end": 146.24,
+    "text": "the new millennium in 2000 the clay mathematics Institute established a list"
+  },
+  {
+    "t_start": 146.24,
+    "t_end": 148.7,
+    "text": "mathematics Institute established a list of seven millennium prize problems for"
+  },
+  {
+    "t_start": 148.7,
+    "t_end": 151.13,
+    "text": "of seven millennium prize problems for which they offer 1 million dollars each"
+  },
+  {
+    "t_start": 151.13,
+    "t_end": 153.08,
+    "text": "which they offer 1 million dollars each for for the solutions you don't have to"
+  },
+  {
+    "t_start": 153.08,
+    "t_end": 156.47,
+    "text": "for for the solutions you don't have to solve all seven for the million dollars"
+  },
+  {
+    "t_start": 156.47,
+    "t_end": 162.31,
+    "text": "and the problems are a lot of computer science most basic problem P versus NP"
+  },
+  {
+    "t_start": 162.31,
+    "t_end": 165.8,
+    "text": "science most basic problem P versus NP there's the Riemann hypothesis there's"
+  },
+  {
+    "t_start": 165.8,
+    "t_end": 166.82,
+    "text": "there's the Riemann hypothesis there's the Hodge conjecture"
+  },
+  {
+    "t_start": 166.82,
+    "t_end": 172.54,
+    "text": "there's the yang-mills existence and mass gap problem there's the"
+  },
+  {
+    "t_start": 172.54,
+    "t_end": 177.38,
+    "text": "there's the Bert since winter 10 Dyer conjecture and there's the Poincare"
+  },
+  {
+    "t_start": 177.38,
+    "t_end": 182.3,
+    "text": "conjecture so these are the seven millennium prize problems of a clay"
+  },
+  {
+    "t_start": 182.3,
+    "t_end": 186.35,
+    "text": "millennium prize problems of a clay mathematics Institute of these seven so"
+  },
+  {
+    "t_start": 186.35,
+    "t_end": 190.94,
+    "text": "these were announced in 2001 has been solved so far which is the pranic query"
+  },
+  {
+    "t_start": 190.94,
+    "t_end": 195.02,
+    "text": "solved so far which is the pranic query conjecture that was solved in 2002 only"
+  },
+  {
+    "t_start": 195.02,
+    "t_end": 196.6,
+    "text": "conjecture that was solved in 2002 only two years after they announced the"
+  },
+  {
+    "t_start": 196.6,
+    "t_end": 199.25,
+    "text": "two years after they announced the problems which kind of surprised them I"
+  },
+  {
+    "t_start": 199.25,
+    "t_end": 200.6,
+    "text": "problems which kind of surprised them I don't know how ready they were with that"
+  },
+  {
+    "t_start": 200.6,
+    "t_end": 203.96,
+    "text": "don't know how ready they were with that what the money yeah but luckily for them"
+  },
+  {
+    "t_start": 203.96,
+    "t_end": 205.7,
+    "text": "what the money yeah but luckily for them Perelman famously turned down the"
+  },
+  {
+    "t_start": 205.7,
+    "t_end": 212.21,
+    "text": "million dollars so they didn't have to worry about that actually the the money"
+  },
+  {
+    "t_start": 212.21,
+    "t_end": 218.0,
+    "text": "worry about that actually the the money has now been given to the pond query"
+  },
+  {
+    "t_start": 218.0,
+    "t_end": 220.82,
+    "text": "Institute in Paris to fund positions there in celebration of the solution of"
+  },
+  {
+    "t_start": 220.82,
+    "t_end": 226.7,
+    "text": "there in celebration of the solution of the park Creek injector so each of these"
+  },
+  {
+    "t_start": 226.7,
+    "t_end": 229.49,
+    "text": "problems has has descriptions official descriptions written about them which"
+  },
+  {
+    "t_start": 229.49,
+    "t_end": 231.47,
+    "text": "you can find on the clay mathematics Institute webpage and in particular the"
+  },
+  {
+    "t_start": 231.47,
+    "t_end": 232.7,
+    "text": "Institute webpage and in particular the bird since winners in dire conjecture"
+  },
+  {
+    "t_start": 232.7,
+    "t_end": 234.91,
+    "text": "bird since winners in dire conjecture the description has been written by by"
+  },
+  {
+    "t_start": 234.91,
+    "t_end": 240.47,
+    "text": "Andrew Wiles and so you're welcome to go and look at that after this lecture what"
+  },
+  {
+    "t_start": 240.47,
+    "t_end": 243.77,
+    "text": "and look at that after this lecture what I wanted to do in this lecture though is"
+  },
+  {
+    "t_start": 243.77,
+    "t_end": 245.96,
+    "text": "to describe the problem in elementary terms and really motivate where the"
+  },
+  {
+    "t_start": 245.96,
+    "t_end": 251.21,
+    "text": "terms and really motivate where the problem came from and why it's there and"
+  },
+  {
+    "t_start": 251.21,
+    "t_end": 256.39,
+    "text": "and why mathematicians and number theorists in particular are so"
+  },
+  {
+    "t_start": 258.219,
+    "t_end": 261.43,
+    "text": "so that's what I that's what I hoped you do today so I'm gonna concentrate just"
+  },
+  {
+    "t_start": 261.43,
+    "t_end": 264.93,
+    "text": "on this one problem namely the bird since Winterton dire conjecture"
+  },
+  {
+    "t_start": 269.23,
+    "t_end": 272.11,
+    "text": "so number theory in large part is about solving equations in the whole numbers"
+  },
+  {
+    "t_start": 272.11,
+    "t_end": 275.62,
+    "text": "or in the rational numbers as we saw for example in fermat's last theorem we're"
+  },
+  {
+    "t_start": 275.62,
+    "t_end": 276.939,
+    "text": "example in fermat's last theorem we're interested in solving a certain equation"
+  },
+  {
+    "t_start": 276.939,
+    "t_end": 282.34,
+    "text": "interested in solving a certain equation namely X to the n plus y to the N equals"
+  },
+  {
+    "t_start": 282.34,
+    "t_end": 283.689,
+    "text": "Z to the N in whole numbers and that's been the basic problem of number theory"
+  },
+  {
+    "t_start": 283.689,
+    "t_end": 284.98,
+    "text": "been the basic problem of number theory since ancient times number theorists"
+  },
+  {
+    "t_start": 284.98,
+    "t_end": 286.6,
+    "text": "since ancient times number theorists have been interested in finding integer"
+  },
+  {
+    "t_start": 286.6,
+    "t_end": 289.36,
+    "text": "have been interested in finding integer solutions or rational solutions to"
+  },
+  {
+    "t_start": 289.36,
+    "t_end": 295.96,
+    "text": "polynomial equations so those may be equations in one variable like x squared"
+  },
+  {
+    "t_start": 295.96,
+    "t_end": 298.48,
+    "text": "minus 2 X plus 3 x squared plus y squared equals 100 or higher degree"
+  },
+  {
+    "t_start": 298.48,
+    "t_end": 305.02,
+    "text": "equations like y squared equals x q plus 2 X plus 3 or sometimes we're interested"
+  },
+  {
+    "t_start": 305.02,
+    "t_end": 306.64,
+    "text": "2 X plus 3 or sometimes we're interested in solving equations in more variables x"
+  },
+  {
+    "t_start": 306.64,
+    "t_end": 307.96,
+    "text": "in solving equations in more variables x squared plus y squared plus 2z squared"
+  },
+  {
+    "t_start": 307.96,
+    "t_end": 312.9,
+    "text": "equals 7 so these are kind of the typical kinds of equations that arise in"
+  },
+  {
+    "t_start": 312.9,
+    "t_end": 315.909,
+    "text": "typical kinds of equations that arise in number theory and instead of defining"
+  },
+  {
+    "t_start": 315.909,
+    "t_end": 317.29,
+    "text": "number theory and instead of defining whole number solutions number theorists"
+  },
+  {
+    "t_start": 317.29,
+    "t_end": 320.379,
+    "text": "whole number solutions number theorists in general are interested in finding"
+  },
+  {
+    "t_start": 320.379,
+    "t_end": 326.469,
+    "text": "equations rational numbers being ratios of whole numbers so the case of one"
+  },
+  {
+    "t_start": 326.469,
+    "t_end": 328.27,
+    "text": "of whole numbers so the case of one variable equations turns out over the"
+  },
+  {
+    "t_start": 328.27,
+    "t_end": 329.8,
+    "text": "variable equations turns out over the rational numbers is fairly easy to"
+  },
+  {
+    "t_start": 329.8,
+    "t_end": 333.76,
+    "text": "rational numbers is fairly easy to understand so an equation in one"
+  },
+  {
+    "t_start": 333.76,
+    "t_end": 339.73,
+    "text": "variable looks like a polynomial in one variable set equal to zero so it looks"
+  },
+  {
+    "t_start": 339.73,
+    "t_end": 344.379,
+    "text": "variable set equal to zero so it looks like a 0 X to the n plus a a 1 X to the"
+  },
+  {
+    "t_start": 344.379,
+    "t_end": 345.76,
+    "text": "n minus 1 plus da plus a N equals 0 where the AI are integers and we're"
+  },
+  {
+    "t_start": 345.76,
+    "t_end": 346.93,
+    "text": "where the AI are integers and we're interested in finding what are the"
+  },
+  {
+    "t_start": 346.93,
+    "t_end": 348.37,
+    "text": "interested in finding what are the rational number solutions to that"
+  },
+  {
+    "t_start": 348.37,
+    "t_end": 354.339,
+    "text": "equation and well this is something that we we all learned in high school it's"
+  },
+  {
+    "t_start": 354.339,
+    "t_end": 357.219,
+    "text": "we we all learned in high school it's called it's called the rational root"
+  },
+  {
+    "t_start": 357.219,
+    "t_end": 360.76,
+    "text": "theorem so the fundamental theorem of algebra says that there can be at most"
+  },
+  {
+    "t_start": 360.76,
+    "t_end": 365.35,
+    "text": "numbers but to know which ones can be rational there we learned what it's"
+  },
+  {
+    "t_start": 365.35,
+    "t_end": 366.46,
+    "text": "rational there we learned what it's called the rational root theorem which"
+  },
+  {
+    "t_start": 366.46,
+    "t_end": 369.189,
+    "text": "called the rational root theorem which says that any rational solution to this"
+  },
+  {
+    "t_start": 369.189,
+    "t_end": 373.689,
+    "text": "has to be a factor of a n divided by a factor of a zero right a factor of the"
+  },
+  {
+    "t_start": 373.689,
+    "t_end": 379.42,
+    "text": "factor of a zero right a factor of the last coefficient divided by a factor the"
+  },
+  {
+    "t_start": 379.42,
+    "t_end": 381.04,
+    "text": "first coefficient and so you can that gives you an algorithm to solve such an"
+  },
+  {
+    "t_start": 381.04,
+    "t_end": 382.54,
+    "text": "gives you an algorithm to solve such an equation in rational numbers you take"
+  },
+  {
+    "t_start": 382.54,
+    "t_end": 388.149,
+    "text": "all the factors of a N and you divide them by all the factors of a nut and you"
+  },
+  {
+    "t_start": 388.149,
+    "t_end": 393.85,
+    "text": "all the solutions and that's I follows from the rational root theorem that's"
+  },
+  {
+    "t_start": 393.85,
+    "t_end": 396.639,
+    "text": "not the most efficient way to do it but at least it is an algorithm that will"
+  },
+  {
+    "t_start": 396.639,
+    "t_end": 400.899,
+    "text": "at least it is an algorithm that will terminate usually the way we would go"
+  },
+  {
+    "t_start": 400.899,
+    "t_end": 402.549,
+    "text": "terminate usually the way we would go about it today is you'd use the"
+  },
+  {
+    "t_start": 402.549,
+    "t_end": 403.659,
+    "text": "about it today is you'd use the fundamental theorem of algebra to"
+  },
+  {
+    "t_start": 403.659,
+    "t_end": 405.279,
+    "text": "fundamental theorem of algebra to numerically approximate those end"
+  },
+  {
+    "t_start": 405.279,
+    "t_end": 409.689,
+    "text": "numerically approximate those end solutions and then try to rationally"
+  },
+  {
+    "t_start": 409.689,
+    "t_end": 414.519,
+    "text": "quickest way to do it but in case there is a quick algorithm to decide what are"
+  },
+  {
+    "t_start": 414.519,
+    "t_end": 415.989,
+    "text": "is a quick algorithm to decide what are the rational solutions to one variable"
+  },
+  {
+    "t_start": 415.989,
+    "t_end": 418.209,
+    "text": "the rational solutions to one variable equations so it's two variable"
+  },
+  {
+    "t_start": 418.209,
+    "t_end": 423.879,
+    "text": "starts to get interesting and in fact unsolved one variable equations we know"
+  },
+  {
+    "t_start": 423.879,
+    "t_end": 427.989,
+    "text": "how to do very quickly and already with two variable equations a number of years"
+  },
+  {
+    "t_start": 427.989,
+    "t_end": 429.669,
+    "text": "two variable equations a number of years today still don't know how to find all"
+  },
+  {
+    "t_start": 429.669,
+    "t_end": 431.109,
+    "text": "today still don't know how to find all rational solutions to two variable"
+  },
+  {
+    "t_start": 431.109,
+    "t_end": 435.85,
+    "text": "rational solutions to two variable polynomial equations but in small"
+  },
+  {
+    "t_start": 435.85,
+    "t_end": 439.209,
+    "text": "degrees we do know how to find all rational solutions so for example if you"
+  },
+  {
+    "t_start": 439.209,
+    "t_end": 440.739,
+    "text": "rational solutions so for example if you look at two variable equations of degree"
+  },
+  {
+    "t_start": 440.739,
+    "t_end": 443.29,
+    "text": "look at two variable equations of degree one those are not so difficult to solve"
+  },
+  {
+    "t_start": 443.29,
+    "t_end": 446.589,
+    "text": "so if you want to find all rational solutions to a two variable equation of"
+  },
+  {
+    "t_start": 446.589,
+    "t_end": 448.329,
+    "text": "solutions to a two variable equation of degree one well that looks like y equals"
+  },
+  {
+    "t_start": 448.329,
+    "t_end": 450.579,
+    "text": "degree one well that looks like y equals ax plus B a and B say are integers and"
+  },
+  {
+    "t_start": 450.579,
+    "t_end": 452.439,
+    "text": "ax plus B a and B say are integers and you want to find all rational solutions"
+  },
+  {
+    "t_start": 452.439,
+    "t_end": 458.829,
+    "text": "in x and y such that y equals ax plus B that's pretty easy plug in any rational"
+  },
+  {
+    "t_start": 458.829,
+    "t_end": 465.549,
+    "text": "rational value of y and we found all the rational solutions okay so that's the"
+  },
+  {
+    "t_start": 465.549,
+    "t_end": 467.429,
+    "text": "rational solutions okay so that's the case of degree one so degree one is is"
+  },
+  {
+    "t_start": 467.429,
+    "t_end": 472.869,
+    "text": "case of degree one so degree one is is it solved we know how to find all"
+  },
+  {
+    "t_start": 472.869,
+    "t_end": 475.749,
+    "text": "rational solutions to two variable equations of degree one what about"
+  },
+  {
+    "t_start": 475.749,
+    "t_end": 480.459,
+    "text": "degree two if you look at two variable polynomial equations of degree two it"
+  },
+  {
+    "t_start": 480.459,
+    "t_end": 482.199,
+    "text": "polynomial equations of degree two it turns out that those finding the"
+  },
+  {
+    "t_start": 482.199,
+    "t_end": 483.79,
+    "text": "turns out that those finding the rational solutions to two variable"
+  },
+  {
+    "t_start": 483.79,
+    "t_end": 489.279,
+    "text": "equations i've degree two it's also pretty easy and just to give you an"
+  },
+  {
+    "t_start": 489.279,
+    "t_end": 491.319,
+    "text": "pretty easy and just to give you an example because one examples actually"
+  },
+  {
+    "t_start": 491.319,
+    "t_end": 497.049,
+    "text": "for example suppose you want to find all the rational solutions to x squared plus"
+  },
+  {
+    "t_start": 497.049,
+    "t_end": 501.669,
+    "text": "the rational solutions to x squared plus y squared equals one so these are all"
+  },
+  {
+    "t_start": 501.669,
+    "t_end": 506.83,
+    "text": "the rational coordinate points on the unit circle right"
+  },
+  {
+    "t_start": 510.2,
+    "t_end": 511.85,
+    "text": "so here's a picture of the unit circle and when number three was talked about"
+  },
+  {
+    "t_start": 511.85,
+    "t_end": 514.969,
+    "text": "and when number three was talked about rational points it just means a point on"
+  },
+  {
+    "t_start": 514.969,
+    "t_end": 517.909,
+    "text": "rational points it just means a point on a graph of your polynomial equation"
+  },
+  {
+    "t_start": 517.909,
+    "t_end": 520.159,
+    "text": "a graph of your polynomial equation whose coordinates are rational so when"
+  },
+  {
+    "t_start": 520.159,
+    "t_end": 521.42,
+    "text": "whose coordinates are rational so when we're looking for rational solutions to"
+  },
+  {
+    "t_start": 521.42,
+    "t_end": 522.74,
+    "text": "we're looking for rational solutions to x squared plus y squared equals one"
+  },
+  {
+    "t_start": 522.74,
+    "t_end": 524.209,
+    "text": "x squared plus y squared equals one that's equivalent to finding rational"
+  },
+  {
+    "t_start": 524.209,
+    "t_end": 531.2,
+    "text": "points on the unit circle right so there are some obvious rational points on the"
+  },
+  {
+    "t_start": 531.2,
+    "t_end": 532.85,
+    "text": "are some obvious rational points on the unit circle for example minus one comma"
+  },
+  {
+    "t_start": 532.85,
+    "t_end": 534.5,
+    "text": "unit circle for example minus one comma zero which is the leftmost point on the"
+  },
+  {
+    "t_start": 534.5,
+    "t_end": 536.27,
+    "text": "zero which is the leftmost point on the unit circle here well that's a rational"
+  },
+  {
+    "t_start": 536.27,
+    "t_end": 541.64,
+    "text": "unit circle here well that's a rational point so that's a that's a rational"
+  },
+  {
+    "t_start": 541.64,
+    "t_end": 546.98,
+    "text": "equals one and the key observation to find all the other rational points on"
+  },
+  {
+    "t_start": 546.98,
+    "t_end": 551.54,
+    "text": "the unit circle is as follows is that if X comma Y is another rational point on"
+  },
+  {
+    "t_start": 551.54,
+    "t_end": 553.79,
+    "text": "X comma Y is another rational point on the unit circle then if you connect so"
+  },
+  {
+    "t_start": 553.79,
+    "t_end": 558.35,
+    "text": "say it's over here X comma Y if you take the line that connects minus 1 0 with X"
+  },
+  {
+    "t_start": 558.35,
+    "t_end": 560.75,
+    "text": "the line that connects minus 1 0 with X comma Y if you take that line well"
+  },
+  {
+    "t_start": 560.75,
+    "t_end": 562.06,
+    "text": "comma Y if you take that line well that's going to have rational slope"
+  },
+  {
+    "t_start": 562.06,
+    "t_end": 565.19,
+    "text": "that's going to have rational slope right because it's connecting its"
+  },
+  {
+    "t_start": 565.19,
+    "t_end": 571.45,
+    "text": "coordinates so that when you compete the slope that's also going to be rational"
+  },
+  {
+    "t_start": 571.45,
+    "t_end": 573.59,
+    "text": "slope that's also going to be rational what maybe the more surprising thing"
+  },
+  {
+    "t_start": 573.59,
+    "t_end": 578.96,
+    "text": "what maybe the more surprising thing here is that the converse is also true"
+  },
+  {
+    "t_start": 578.96,
+    "t_end": 581.21,
+    "text": "that if you take a line of rational slope through minus one comma zero and"
+  },
+  {
+    "t_start": 581.21,
+    "t_end": 582.59,
+    "text": "slope through minus one comma zero and look at the second point of intersection"
+  },
+  {
+    "t_start": 582.59,
+    "t_end": 587.69,
+    "text": "look at the second point of intersection with the circle that will give you a"
+  },
+  {
+    "t_start": 587.69,
+    "t_end": 588.62,
+    "text": "rational point and so that would that will then give you a complete"
+  },
+  {
+    "t_start": 588.62,
+    "t_end": 589.94,
+    "text": "will then give you a complete description of the rational points"
+  },
+  {
+    "t_start": 589.94,
+    "t_end": 594.14,
+    "text": "namely just take all the rational sloped lines through minus one comma zero look"
+  },
+  {
+    "t_start": 594.14,
+    "t_end": 595.43,
+    "text": "lines through minus one comma zero look at the second point of intersection and"
+  },
+  {
+    "t_start": 595.43,
+    "t_end": 598.1,
+    "text": "at the second point of intersection and that will give you all rational points"
+  },
+  {
+    "t_start": 598.1,
+    "t_end": 600.079,
+    "text": "that will give you all rational points so why is that the case that any"
+  },
+  {
+    "t_start": 600.079,
+    "t_end": 603.23,
+    "text": "so why is that the case that any rational sloped line through minus one"
+  },
+  {
+    "t_start": 603.23,
+    "t_end": 605.14,
+    "text": "rational sloped line through minus one comma zero will intersect the circle in"
+  },
+  {
+    "t_start": 605.14,
+    "t_end": 608.78,
+    "text": "comma zero will intersect the circle in another rational point ok well suppose"
+  },
+  {
+    "t_start": 608.78,
+    "t_end": 612.89,
+    "text": "another rational point ok well suppose we take a line of rational slope through"
+  },
+  {
+    "t_start": 612.89,
+    "t_end": 615.29,
+    "text": "minus 1 comma 0 the equation of this line will look like y equals s times X"
+  },
+  {
+    "t_start": 615.29,
+    "t_end": 620.39,
+    "text": "line will look like y equals s times X plus 1 right where s is the slope and if"
+  },
+  {
+    "t_start": 620.39,
+    "t_end": 621.62,
+    "text": "plus 1 right where s is the slope and if we want to find the second point of"
+  },
+  {
+    "t_start": 621.62,
+    "t_end": 623.27,
+    "text": "we want to find the second point of intersection of this line that has slope"
+  },
+  {
+    "t_start": 623.27,
+    "t_end": 628.73,
+    "text": "intersection of this line that has slope s with the unit circle well we can take"
+  },
+  {
+    "t_start": 628.73,
+    "t_end": 630.32,
+    "text": "that equation y equals s times X plus 1 and plug it into the equation x squared"
+  },
+  {
+    "t_start": 630.32,
+    "t_end": 632.9,
+    "text": "and plug it into the equation x squared plus y squared equals 1 and solve and"
+  },
+  {
+    "t_start": 632.9,
+    "t_end": 633.8,
+    "text": "plus y squared equals 1 and solve and that'll give us the points of"
+  },
+  {
+    "t_start": 633.8,
+    "t_end": 636.13,
+    "text": "that'll give us the points of intersection"
+  },
+  {
+    "t_start": 639.02,
+    "t_end": 646.61,
+    "text": "well if you if you plug in equation one there into equation two well you get a"
+  },
+  {
+    "t_start": 646.61,
+    "t_end": 647.9,
+    "text": "quadratic equation in X and so you can solve that using the quadratic formula"
+  },
+  {
+    "t_start": 647.9,
+    "t_end": 651.17,
+    "text": "solve that using the quadratic formula you'll find that one of them one of the"
+  },
+  {
+    "t_start": 651.17,
+    "t_end": 653.51,
+    "text": "solutions is going to be given by x equals minus one which of course had to"
+  },
+  {
+    "t_start": 653.51,
+    "t_end": 656.21,
+    "text": "equals minus one which of course had to happen because we know that one of the"
+  },
+  {
+    "t_start": 656.21,
+    "t_end": 659.36,
+    "text": "comma zero so that of course had to be a root but the other root will give you"
+  },
+  {
+    "t_start": 659.36,
+    "t_end": 661.7,
+    "text": "root but the other root will give you the x coordinate of the second point of"
+  },
+  {
+    "t_start": 661.7,
+    "t_end": 667.55,
+    "text": "other root you find it's the negative of s squared minus one over s squared plus"
+  },
+  {
+    "t_start": 667.55,
+    "t_end": 674.03,
+    "text": "one and once you have the x value you can plug it into equation one write the"
+  },
+  {
+    "t_start": 674.03,
+    "t_end": 678.34,
+    "text": "equation of a line and you find that Y is given by 2 s over s squared plus one"
+  },
+  {
+    "t_start": 678.34,
+    "t_end": 681.2,
+    "text": "is given by 2 s over s squared plus one and you notice that if s was a rational"
+  },
+  {
+    "t_start": 681.2,
+    "t_end": 681.85,
+    "text": "and you notice that if s was a rational number"
+  },
+  {
+    "t_start": 681.85,
+    "t_end": 686.48,
+    "text": "all right if s was the slope of rational number then X comma Y the second point"
+  },
+  {
+    "t_start": 686.48,
+    "t_end": 688.31,
+    "text": "number then X comma Y the second point of intersection is also going to be a"
+  },
+  {
+    "t_start": 688.31,
+    "t_end": 689.63,
+    "text": "of intersection is also going to be a rational number we have an explicit"
+  },
+  {
+    "t_start": 689.63,
+    "t_end": 697.01,
+    "text": "formula for it and so this point P equals x comma Y which if s is rational"
+  },
+  {
+    "t_start": 697.01,
+    "t_end": 699.44,
+    "text": "equals x comma Y which if s is rational is also rational gives the other point"
+  },
+  {
+    "t_start": 699.44,
+    "t_end": 700.91,
+    "text": "is also rational gives the other point of intersection with the unit circle and"
+  },
+  {
+    "t_start": 700.91,
+    "t_end": 704.78,
+    "text": "of intersection with the unit circle and it's a rational point and so that show"
+  },
+  {
+    "t_start": 704.78,
+    "t_end": 707.06,
+    "text": "the other direction that if you take a point a line of rational slope through"
+  },
+  {
+    "t_start": 707.06,
+    "t_end": 711.14,
+    "text": "point a line of rational slope through minus one comma zero it will intersect a"
+  },
+  {
+    "t_start": 711.14,
+    "t_end": 715.61,
+    "text": "second point on the circle that has rational coordinates and so this is a"
+  },
+  {
+    "t_start": 715.61,
+    "t_end": 717.079,
+    "text": "rational coordinates and so this is a complete parametrization he was just"
+  },
+  {
+    "t_start": 717.079,
+    "t_end": 721.46,
+    "text": "plug in all rational values of s and you get all pairs X comma Y that are going"
+  },
+  {
+    "t_start": 721.46,
+    "t_end": 725.15,
+    "text": "get all pairs X comma Y that are going to be rational points on the circle and"
+  },
+  {
+    "t_start": 725.15,
+    "t_end": 729.5,
+    "text": "so we found all rational solutions to x squared plus y squared equals one so the"
+  },
+  {
+    "t_start": 729.5,
+    "t_end": 730.76,
+    "text": "squared plus y squared equals one so the main theorem about rational points on"
+  },
+  {
+    "t_start": 730.76,
+    "t_end": 732.71,
+    "text": "main theorem about rational points on the unit circle what we've proven is the"
+  },
+  {
+    "t_start": 732.71,
+    "t_end": 736.07,
+    "text": "the unit circle what we've proven is the following is that the rational points X"
+  },
+  {
+    "t_start": 736.07,
+    "t_end": 740.57,
+    "text": "comma Y in the unit circle x squared plus y squared equals 1 are naturally in"
+  },
+  {
+    "t_start": 740.57,
+    "t_end": 746.12,
+    "text": "elements s the slopes s in the set of rational numbers together with infinity"
+  },
+  {
+    "t_start": 746.12,
+    "t_end": 749.66,
+    "text": "rational numbers together with infinity infinity also has to be considered a"
+  },
+  {
+    "t_start": 749.66,
+    "t_end": 755.03,
+    "text": "what's the second point of intersection when you when you take the line of slope"
+  },
+  {
+    "t_start": 755.03,
+    "t_end": 756.68,
+    "text": "infinity well it has a double intersection with minus 1 comma 0 so"
+  },
+  {
+    "t_start": 756.68,
+    "t_end": 758.09,
+    "text": "intersection with minus 1 comma 0 so this infinity that's corresponding to"
+  },
+  {
+    "t_start": 758.09,
+    "t_end": 763.43,
+    "text": "this infinity that's corresponding to minus 1 comma 0 and then all the other"
+  },
+  {
+    "t_start": 763.43,
+    "t_end": 765.199,
+    "text": "rational numbers that are given as slopes will correspond to all the other"
+  },
+  {
+    "t_start": 765.199,
+    "t_end": 769.38,
+    "text": "slopes will correspond to all the other rational points on the unit circle"
+  },
+  {
+    "t_start": 769.38,
+    "t_end": 771.09,
+    "text": "rational points on the unit circle and the correspondence is between"
+  },
+  {
+    "t_start": 771.09,
+    "t_end": 774.18,
+    "text": "and the correspondence is between rational slopes s and rational slopes s"
+  },
+  {
+    "t_start": 774.18,
+    "t_end": 778.05,
+    "text": "rational slopes s and rational slopes s correspond to that explicit value of x"
+  },
+  {
+    "t_start": 778.05,
+    "t_end": 779.759,
+    "text": "comma y that we found earlier which is the second point of intersection of the"
+  },
+  {
+    "t_start": 779.759,
+    "t_end": 783.48,
+    "text": "line with the unit circle having slope s going through minus 1 comma 0 and you'll"
+  },
+  {
+    "t_start": 783.48,
+    "t_end": 784.8,
+    "text": "going through minus 1 comma 0 and you'll notice in this formula that if you plug"
+  },
+  {
+    "t_start": 784.8,
+    "t_end": 789.3,
+    "text": "notice in this formula that if you plug in s equals infinity what do you get"
+  },
+  {
+    "t_start": 789.3,
+    "t_end": 792.269,
+    "text": "should be minus 1 comma 0 and of course when you plug in s equals infinity here"
+  },
+  {
+    "t_start": 792.269,
+    "t_end": 794.579,
+    "text": "when you plug in s equals infinity here well the first coordinate becomes minus"
+  },
+  {
+    "t_start": 794.579,
+    "t_end": 797.67,
+    "text": "well the first coordinate becomes minus 1 as you can see and the second"
+  },
+  {
+    "t_start": 797.67,
+    "t_end": 798.96,
+    "text": "coordinate when you plug in s equals infinity right as s approaches infinity"
+  },
+  {
+    "t_start": 798.96,
+    "t_end": 803.49,
+    "text": "that becomes 0 that's now so in plugging in s equals infinity gives the original"
+  },
+  {
+    "t_start": 803.49,
+    "t_end": 806.34,
+    "text": "in s equals infinity gives the original point minus 1 comma 0 but all the other"
+  },
+  {
+    "t_start": 806.34,
+    "t_end": 812.25,
+    "text": "rational points on the unit circle and we've so we've explicitly determined all"
+  },
+  {
+    "t_start": 812.25,
+    "t_end": 816.3,
+    "text": "we've so we've explicitly determined all rational points on the unit circle and"
+  },
+  {
+    "t_start": 816.3,
+    "t_end": 819.75,
+    "text": "rational solutions to x squared plus y squared equals 1 so we've completely"
+  },
+  {
+    "t_start": 819.75,
+    "t_end": 821.85,
+    "text": "squared equals 1 so we've completely solved quadratic and two variables over"
+  },
+  {
+    "t_start": 821.85,
+    "t_end": 825.329,
+    "text": "solved quadratic and two variables over the rational numbers and there's nothing"
+  },
+  {
+    "t_start": 825.329,
+    "t_end": 828.09,
+    "text": "the rational numbers and there's nothing special that we used about the unit"
+  },
+  {
+    "t_start": 828.09,
+    "t_end": 830.43,
+    "text": "circle here we only use the fact that the unit circle its equation has degree"
+  },
+  {
+    "t_start": 830.43,
+    "t_end": 834.449,
+    "text": "2 and so in fact we could solve any conic this way over the rational numbers"
+  },
+  {
+    "t_start": 834.449,
+    "t_end": 838.56,
+    "text": "conic this way over the rational numbers by by the same method and so the"
+  },
+  {
+    "t_start": 838.56,
+    "t_end": 839.85,
+    "text": "by by the same method and so the fundamental theorem about rational"
+  },
+  {
+    "t_start": 839.85,
+    "t_end": 846.269,
+    "text": "points on conics is is as follows let f of XY be a quadratic polynomial in x and"
+  },
+  {
+    "t_start": 846.269,
+    "t_end": 847.829,
+    "text": "of XY be a quadratic polynomial in x and y with rational coefficients so in other"
+  },
+  {
+    "t_start": 847.829,
+    "t_end": 851.009,
+    "text": "y with rational coefficients so in other words the equation of a conic then the"
+  },
+  {
+    "t_start": 851.009,
+    "t_end": 855.75,
+    "text": "set of rational points X Y on the conic is given by the same procedure that we"
+  },
+  {
+    "t_start": 855.75,
+    "t_end": 856.98,
+    "text": "is given by the same procedure that we just used you start with a rational"
+  },
+  {
+    "t_start": 856.98,
+    "t_end": 859.47,
+    "text": "just used you start with a rational point on the on the conic and then you"
+  },
+  {
+    "t_start": 859.47,
+    "t_end": 860.939,
+    "text": "point on the on the conic and then you take lines of rational slope through it"
+  },
+  {
+    "t_start": 860.939,
+    "t_end": 862.35,
+    "text": "take lines of rational slope through it and the second points of intersection"
+  },
+  {
+    "t_start": 862.35,
+    "t_end": 864.06,
+    "text": "and the second points of intersection will parameterize all the rational"
+  },
+  {
+    "t_start": 864.06,
+    "t_end": 866.79,
+    "text": "points now there's the problem with this argument which is that they're made"
+  },
+  {
+    "t_start": 866.79,
+    "t_end": 871.05,
+    "text": "there may not be a rational point to begin with and then you can't even get"
+  },
+  {
+    "t_start": 871.05,
+    "t_end": 872.88,
+    "text": "begin with and then you can't even get started and that actually happens"
+  },
+  {
+    "t_start": 872.88,
+    "t_end": 877.019,
+    "text": "sometimes if you look at here an example is x squared plus y squared equals 3 you"
+  },
+  {
+    "t_start": 877.019,
+    "t_end": 878.22,
+    "text": "is x squared plus y squared equals 3 you will not be able to find a rational"
+  },
+  {
+    "t_start": 878.22,
+    "t_end": 880.71,
+    "text": "will not be able to find a rational solution even to get started so the"
+  },
+  {
+    "t_start": 880.71,
+    "t_end": 882.24,
+    "text": "solution even to get started so the fundamental theorem of all points on the"
+  },
+  {
+    "t_start": 882.24,
+    "t_end": 886.319,
+    "text": "fundamental theorem of all points on the konnex says that the set of all rational"
+  },
+  {
+    "t_start": 886.319,
+    "t_end": 888.0,
+    "text": "points X comma Y on a conic f of X y equals 0 is either empty because you"
+  },
+  {
+    "t_start": 888.0,
+    "t_end": 889.05,
+    "text": "equals 0 is either empty because you can't even get started with this"
+  },
+  {
+    "t_start": 889.05,
+    "t_end": 892.37,
+    "text": "can't even get started with this procedure yeah but if it's not empty"
+  },
+  {
+    "t_start": 892.37,
+    "t_end": 894.329,
+    "text": "procedure yeah but if it's not empty then it's in one-to-one correspondence"
+  },
+  {
+    "t_start": 894.329,
+    "t_end": 896.88,
+    "text": "then it's in one-to-one correspondence with rational slopes together with"
+  },
+  {
+    "t_start": 896.88,
+    "t_end": 902.11,
+    "text": "with rational slopes together with infiniti the infiniti slope"
+  },
+  {
+    "t_start": 904.31,
+    "t_end": 906.379,
+    "text": "and if we're in case two above where there are some rational points then one"
+  },
+  {
+    "t_start": 906.379,
+    "t_end": 907.759,
+    "text": "there are some rational points then one can explicitly find all the rational"
+  },
+  {
+    "t_start": 907.759,
+    "t_end": 910.97,
+    "text": "points as follows you start with the base rational point which was minus one"
+  },
+  {
+    "t_start": 910.97,
+    "t_end": 912.199,
+    "text": "base rational point which was minus one comma zero in the case when we were"
+  },
+  {
+    "t_start": 912.199,
+    "t_end": 913.1,
+    "text": "comma zero in the case when we were looking at x squared plus y squared"
+  },
+  {
+    "t_start": 913.1,
+    "t_end": 916.879,
+    "text": "looking at x squared plus y squared equals one start with the base rational"
+  },
+  {
+    "t_start": 916.879,
+    "t_end": 918.5,
+    "text": "equals one start with the base rational point if it exists if it doesn't exist"
+  },
+  {
+    "t_start": 918.5,
+    "t_end": 920.629,
+    "text": "point if it exists if it doesn't exist where in the empty case if it does exist"
+  },
+  {
+    "t_start": 920.629,
+    "t_end": 927.29,
+    "text": "and we take all lines of rational slope through P and we compute the second"
+  },
+  {
+    "t_start": 927.29,
+    "t_end": 928.85,
+    "text": "through P and we compute the second point of intersection of each of these"
+  },
+  {
+    "t_start": 928.85,
+    "t_end": 933.949,
+    "text": "lines with rational slope and those will will give you all the rational points on"
+  },
+  {
+    "t_start": 933.949,
+    "t_end": 936.05,
+    "text": "will give you all the rational points on mechanic and so that's how you can solve"
+  },
+  {
+    "t_start": 936.05,
+    "t_end": 938.0,
+    "text": "mechanic and so that's how you can solve the general quadratic in two variables"
+  },
+  {
+    "t_start": 938.0,
+    "t_end": 944.21,
+    "text": "the general quadratic in two variables over the rational numbers and the"
+  },
+  {
+    "t_start": 944.21,
+    "t_end": 946.49,
+    "text": "over the rational numbers and the further amazing thing which we haven't"
+  },
+  {
+    "t_start": 946.49,
+    "t_end": 949.34,
+    "text": "further amazing thing which we haven't proved here is that turns out there is"
+  },
+  {
+    "t_start": 949.34,
+    "t_end": 951.5,
+    "text": "proved here is that turns out there is an effective way of determining whether"
+  },
+  {
+    "t_start": 951.5,
+    "t_end": 956.09,
+    "text": "an effective way of determining whether we're in case one or case two okay so"
+  },
+  {
+    "t_start": 956.09,
+    "t_end": 957.86,
+    "text": "given a conic there is an effective method there's an algorithm that'll tell"
+  },
+  {
+    "t_start": 957.86,
+    "t_end": 958.97,
+    "text": "method there's an algorithm that'll tell you whether the set of rational points"
+  },
+  {
+    "t_start": 958.97,
+    "t_end": 962.93,
+    "text": "you whether the set of rational points is empty or whether there is a rational"
+  },
+  {
+    "t_start": 962.93,
+    "t_end": 966.56,
+    "text": "point to start with to get started on finding all the rational points and this"
+  },
+  {
+    "t_start": 966.56,
+    "t_end": 968.569,
+    "text": "finding all the rational points and this is called the Haase Minkowski theorem it"
+  },
+  {
+    "t_start": 968.569,
+    "t_end": 971.6,
+    "text": "is called the Haase Minkowski theorem it allows you to take a conic and decide"
+  },
+  {
+    "t_start": 971.6,
+    "t_end": 973.269,
+    "text": "allows you to take a conic and decide whether it has a rational point or not"
+  },
+  {
+    "t_start": 973.269,
+    "t_end": 976.31,
+    "text": "whether it has a rational point or not in an algorithmic way and so this"
+  },
+  {
+    "t_start": 976.31,
+    "t_end": 981.74,
+    "text": "in an algorithmic way and so this theorem is is entirely effective okay so"
+  },
+  {
+    "t_start": 981.74,
+    "t_end": 983.769,
+    "text": "theorem is is entirely effective okay so that's that's the whole story about"
+  },
+  {
+    "t_start": 983.769,
+    "t_end": 986.449,
+    "text": "that's that's the whole story about quadratics in two variables solving them"
+  },
+  {
+    "t_start": 986.449,
+    "t_end": 988.189,
+    "text": "quadratics in two variables solving them over the rational numbers we can this"
+  },
+  {
+    "t_start": 988.189,
+    "t_end": 996.88,
+    "text": "you can go and do on any of your favorite cuttings okay so the next case"
+  },
+  {
+    "t_start": 996.88,
+    "t_end": 998.93,
+    "text": "favorite cuttings okay so the next case naturally then to consider if we're"
+  },
+  {
+    "t_start": 998.93,
+    "t_end": 1000.46,
+    "text": "naturally then to consider if we're talking about two variable equations is"
+  },
+  {
+    "t_start": 1000.46,
+    "t_end": 1003.16,
+    "text": "talking about two variable equations is those of degree three okay suppose you"
+  },
+  {
+    "t_start": 1003.16,
+    "t_end": 1005.53,
+    "text": "those of degree three okay suppose you have a two variable polynomial equation"
+  },
+  {
+    "t_start": 1005.53,
+    "t_end": 1007.66,
+    "text": "have a two variable polynomial equation of degree three we've already solved the"
+  },
+  {
+    "t_start": 1007.66,
+    "t_end": 1013.75,
+    "text": "of degree three we've already solved the degrees one and two well it turns out if"
+  },
+  {
+    "t_start": 1013.75,
+    "t_end": 1015.759,
+    "text": "you have a two variable equation of degree three it can have zero solutions"
+  },
+  {
+    "t_start": 1015.759,
+    "t_end": 1020.05,
+    "text": "that happens it could have some positive finite number of solutions remember that"
+  },
+  {
+    "t_start": 1020.05,
+    "t_end": 1022.0,
+    "text": "finite number of solutions remember that wasn't possible in the degree two case"
+  },
+  {
+    "t_start": 1022.0,
+    "t_end": 1025.96,
+    "text": "wasn't possible in the degree two case right if you have a conic it is not"
+  },
+  {
+    "t_start": 1025.96,
+    "t_end": 1027.4,
+    "text": "possible to have four solutions that just doesn't never happens right because"
+  },
+  {
+    "t_start": 1027.4,
+    "t_end": 1030.52,
+    "text": "our argument showed that if we had one solution to start with we could take any"
+  },
+  {
+    "t_start": 1030.52,
+    "t_end": 1032.649,
+    "text": "solution to start with we could take any line of rational slope and that would"
+  },
+  {
+    "t_start": 1032.649,
+    "t_end": 1034.27,
+    "text": "line of rational slope and that would produce infinitely many"
+  },
+  {
+    "t_start": 1034.27,
+    "t_end": 1037.93,
+    "text": "Solutions but in degree three it turns out you can have zero solutions you can"
+  },
+  {
+    "t_start": 1037.93,
+    "t_end": 1042.49,
+    "text": "out you can have zero solutions you can have four solutions or some positive"
+  },
+  {
+    "t_start": 1042.49,
+    "t_end": 1044.83,
+    "text": "finite number of solutions or you can have implementing rational solutions all"
+  },
+  {
+    "t_start": 1044.83,
+    "t_end": 1046.78,
+    "text": "have implementing rational solutions all three of these possibilities can happen"
+  },
+  {
+    "t_start": 1046.78,
+    "t_end": 1048.22,
+    "text": "three of these possibilities can happen for degree three equations in two"
+  },
+  {
+    "t_start": 1048.22,
+    "t_end": 1052.75,
+    "text": "for degree three equations in two variables and the embarrassing thing is"
+  },
+  {
+    "t_start": 1052.75,
+    "t_end": 1054.58,
+    "text": "variables and the embarrassing thing is it's already an unsolved problem to"
+  },
+  {
+    "t_start": 1054.58,
+    "t_end": 1056.5,
+    "text": "it's already an unsolved problem to decide which of those cases we're in"
+  },
+  {
+    "t_start": 1056.5,
+    "t_end": 1059.56,
+    "text": "decide which of those cases we're in given a two variable equation of degree"
+  },
+  {
+    "t_start": 1059.56,
+    "t_end": 1061.6,
+    "text": "given a two variable equation of degree three it's an unsolved problem to decide"
+  },
+  {
+    "t_start": 1061.6,
+    "t_end": 1063.49,
+    "text": "three it's an unsolved problem to decide whether say it has zero solutions or"
+  },
+  {
+    "t_start": 1063.49,
+    "t_end": 1069.25,
+    "text": "whether say it has zero solutions or whether it has implementing solutions so"
+  },
+  {
+    "t_start": 1069.25,
+    "t_end": 1070.72,
+    "text": "whether it has implementing solutions so the case of cubic equations in two"
+  },
+  {
+    "t_start": 1070.72,
+    "t_end": 1075.88,
+    "text": "variables is really the first case where we just don't know how to find all the"
+  },
+  {
+    "t_start": 1075.88,
+    "t_end": 1080.2,
+    "text": "we just don't know how to find all the rational solutions and this is exactly"
+  },
+  {
+    "t_start": 1080.2,
+    "t_end": 1081.31,
+    "text": "rational solutions and this is exactly where the bertson's Winterton dire"
+  },
+  {
+    "t_start": 1081.31,
+    "t_end": 1086.92,
+    "text": "conjecture comes in if the bird since Winterton died our conjecture were true"
+  },
+  {
+    "t_start": 1086.92,
+    "t_end": 1089.32,
+    "text": "Winterton died our conjecture were true it would give an effective method to"
+  },
+  {
+    "t_start": 1089.32,
+    "t_end": 1091.99,
+    "text": "it would give an effective method to find all rational solutions to a cubic"
+  },
+  {
+    "t_start": 1091.99,
+    "t_end": 1094.9,
+    "text": "find all rational solutions to a cubic equation in two variables and in"
+  },
+  {
+    "t_start": 1094.9,
+    "t_end": 1096.1,
+    "text": "equation in two variables and in particular to determine whether it has"
+  },
+  {
+    "t_start": 1096.1,
+    "t_end": 1097.69,
+    "text": "particular to determine whether it has finitely many solutions or infinitely"
+  },
+  {
+    "t_start": 1097.69,
+    "t_end": 1104.76,
+    "text": "finitely many solutions or infinitely many solutions and so this really is the"
+  },
+  {
+    "t_start": 1104.76,
+    "t_end": 1107.22,
+    "text": "next frontier this is a problem that mathematicians have been studying for"
+  },
+  {
+    "t_start": 1107.22,
+    "t_end": 1114.25,
+    "text": "know how to solve it but at least we now have a conjectured method to solve it"
+  },
+  {
+    "t_start": 1114.25,
+    "t_end": 1115.87,
+    "text": "have a conjectured method to solve it and that is what the birch and Swinton"
+  },
+  {
+    "t_start": 1115.87,
+    "t_end": 1120.28,
+    "text": "and that is what the birch and Swinton dire conjecture gives us so I want to"
+  },
+  {
+    "t_start": 1120.28,
+    "t_end": 1121.6,
+    "text": "dire conjecture gives us so I want to describe what the birch and swenerton"
+  },
+  {
+    "t_start": 1121.6,
+    "t_end": 1123.1,
+    "text": "describe what the birch and swenerton Derik conjecture says because if it's"
+  },
+  {
+    "t_start": 1123.1,
+    "t_end": 1127.03,
+    "text": "Derik conjecture says because if it's true it would give us a method to solve"
+  },
+  {
+    "t_start": 1127.03,
+    "t_end": 1128.38,
+    "text": "the very next case of equations that number theorists don't yet know how to"
+  },
+  {
+    "t_start": 1128.38,
+    "t_end": 1134.62,
+    "text": "number theorists don't yet know how to solve"
+  },
+  {
+    "t_start": 1137.99,
+    "t_end": 1140.51,
+    "text": "so as was already mentioned in Andrews and Henry's lecture the the structure of"
+  },
+  {
+    "t_start": 1140.51,
+    "t_end": 1143.24,
+    "text": "and Henry's lecture the the structure of rational points on cubic curves in other"
+  },
+  {
+    "t_start": 1143.24,
+    "t_end": 1146.36,
+    "text": "rational points on cubic curves in other words the graphs of cubic equations and"
+  },
+  {
+    "t_start": 1146.36,
+    "t_end": 1151.94,
+    "text": "two variables the set of rational points has a very amazing structure so suppose"
+  },
+  {
+    "t_start": 1151.94,
+    "t_end": 1154.01,
+    "text": "has a very amazing structure so suppose we have a smooth cubic equation smooth"
+  },
+  {
+    "t_start": 1154.01,
+    "t_end": 1157.1,
+    "text": "just means that when you graph it there they're no kinks that it's smooth when"
+  },
+  {
+    "t_start": 1157.1,
+    "t_end": 1159.95,
+    "text": "they're no kinks that it's smooth when you graph it and suppose so suppose we"
+  },
+  {
+    "t_start": 1159.95,
+    "t_end": 1164.39,
+    "text": "have an equation f of X y equals 0 of degree 3 f is a degree 3 polynomial that"
+  },
+  {
+    "t_start": 1164.39,
+    "t_end": 1169.91,
+    "text": "degree 3 f is a degree 3 polynomial that has a rational solution X naught comma y"
+  },
+  {
+    "t_start": 1169.91,
+    "t_end": 1172.78,
+    "text": "naught okay let's call that P then it's an elementary fact that one can always"
+  },
+  {
+    "t_start": 1172.78,
+    "t_end": 1176.24,
+    "text": "an elementary fact that one can always make a rational change of variable so"
+  },
+  {
+    "t_start": 1176.24,
+    "t_end": 1180.59,
+    "text": "make a rational change of variable so that P is sent to infinity in a way so"
+  },
+  {
+    "t_start": 1180.59,
+    "t_end": 1188.54,
+    "text": "just looks like Y squared equals x cubed plus ax plus B and if the f of X Y had"
+  },
+  {
+    "t_start": 1188.54,
+    "t_end": 1189.65,
+    "text": "plus ax plus B and if the f of X Y had rational coefficients then we can"
+  },
+  {
+    "t_start": 1189.65,
+    "t_end": 1196.1,
+    "text": "actually assume that a and B are now integers and the discriminant of this"
+  },
+  {
+    "t_start": 1196.1,
+    "t_end": 1198.26,
+    "text": "integers and the discriminant of this cubic polynomial is called the"
+  },
+  {
+    "t_start": 1198.26,
+    "t_end": 1203.27,
+    "text": "discriminant of this curve which is minus 4a cubed minus 27 B squared and"
+  },
+  {
+    "t_start": 1203.27,
+    "t_end": 1205.79,
+    "text": "minus 4a cubed minus 27 B squared and the condition of this cubic curve being"
+  },
+  {
+    "t_start": 1205.79,
+    "t_end": 1207.8,
+    "text": "the condition of this cubic curve being smooth is exactly that this discriminant"
+  },
+  {
+    "t_start": 1207.8,
+    "t_end": 1214.13,
+    "text": "smooth is exactly that this discriminant is nonzero it turns out and if you want"
+  },
+  {
+    "t_start": 1214.13,
+    "t_end": 1217.25,
+    "text": "you can always make such a change of variable you can look at this amazing"
+  },
+  {
+    "t_start": 1217.25,
+    "t_end": 1218.99,
+    "text": "variable you can look at this amazing book by Silverman and Tate Tate is of"
+  },
+  {
+    "t_start": 1218.99,
+    "t_end": 1222.05,
+    "text": "book by Silverman and Tate Tate is of course one of the recent Babel Prize"
+  },
+  {
+    "t_start": 1222.05,
+    "t_end": 1224.42,
+    "text": "course one of the recent Babel Prize winners he's written a book with"
+  },
+  {
+    "t_start": 1224.42,
+    "t_end": 1226.22,
+    "text": "winners he's written a book with Silverman that's really accessible to a"
+  },
+  {
+    "t_start": 1226.22,
+    "t_end": 1227.72,
+    "text": "Silverman that's really accessible to a high school student about elliptic"
+  },
+  {
+    "t_start": 1227.72,
+    "t_end": 1230.06,
+    "text": "high school student about elliptic curves highly recommended as a first"
+  },
+  {
+    "t_start": 1230.06,
+    "t_end": 1235.94,
+    "text": "book to learn about elliptic curves ok so any cubic curve in two variables you"
+  },
+  {
+    "t_start": 1235.94,
+    "t_end": 1237.38,
+    "text": "so any cubic curve in two variables you can always if it has a rational point"
+  },
+  {
+    "t_start": 1237.38,
+    "t_end": 1239.06,
+    "text": "can always if it has a rational point you can always transform it into"
+  },
+  {
+    "t_start": 1239.06,
+    "t_end": 1240.44,
+    "text": "you can always transform it into something that looks like Y squared"
+  },
+  {
+    "t_start": 1240.44,
+    "t_end": 1246.2,
+    "text": "equals x cubed plus ax plus B and where we can assume that a and B are integers"
+  },
+  {
+    "t_start": 1246.2,
+    "t_end": 1247.97,
+    "text": "if the original equation had rational coefficients and an equation of this"
+  },
+  {
+    "t_start": 1247.97,
+    "t_end": 1252.83,
+    "text": "type is called an elliptic curve or an elliptic curve and short Weierstrass"
+  },
+  {
+    "t_start": 1252.83,
+    "t_end": 1255.28,
+    "text": "elliptic curve and short Weierstrass form"
+  },
+  {
+    "t_start": 1256.93,
+    "t_end": 1258.22,
+    "text": "and it's very convenient to use this canonical form so most of the time"
+  },
+  {
+    "t_start": 1258.22,
+    "t_end": 1259.72,
+    "text": "canonical form so most of the time you'll see when you see elliptic curves"
+  },
+  {
+    "t_start": 1259.72,
+    "t_end": 1263.83,
+    "text": "will often be written in this form y squared equals x q plus a X plus B where"
+  },
+  {
+    "t_start": 1263.83,
+    "t_end": 1268.57,
+    "text": "squared equals x q plus a X plus B where a and B are constants and once you've"
+  },
+  {
+    "t_start": 1268.57,
+    "t_end": 1270.34,
+    "text": "a and B are constants and once you've written into this in this way it's"
+  },
+  {
+    "t_start": 1270.34,
+    "t_end": 1271.9,
+    "text": "written into this in this way it's actually easy to describe an amazing"
+  },
+  {
+    "t_start": 1271.9,
+    "t_end": 1273.52,
+    "text": "actually easy to describe an amazing structure on the set of rational"
+  },
+  {
+    "t_start": 1273.52,
+    "t_end": 1275.35,
+    "text": "structure on the set of rational solutions to Y squared equals x cubed"
+  },
+  {
+    "t_start": 1275.35,
+    "t_end": 1278.35,
+    "text": "solutions to Y squared equals x cubed plus ax plus B that are possessed by by"
+  },
+  {
+    "t_start": 1278.35,
+    "t_end": 1280.66,
+    "text": "plus ax plus B that are possessed by by the rational points on this on this"
+  },
+  {
+    "t_start": 1280.66,
+    "t_end": 1284.68,
+    "text": "the rational points on this on this curve called in lipstick curve so first"
+  },
+  {
+    "t_start": 1284.68,
+    "t_end": 1286.24,
+    "text": "curve called in lipstick curve so first of all what is the what is the graph of"
+  },
+  {
+    "t_start": 1286.24,
+    "t_end": 1289.72,
+    "text": "y squared equals x q plus ax plus B look like well if you just think about it if"
+  },
+  {
+    "t_start": 1289.72,
+    "t_end": 1295.03,
+    "text": "like well if you just think about it if you graph it in r2 in the real plane it"
+  },
+  {
+    "t_start": 1295.03,
+    "t_end": 1296.38,
+    "text": "turns out it tends to look like one of these two pictures so either it looks"
+  },
+  {
+    "t_start": 1296.38,
+    "t_end": 1299.65,
+    "text": "these two pictures so either it looks like a picture with two connected"
+  },
+  {
+    "t_start": 1299.65,
+    "t_end": 1301.69,
+    "text": "like a picture with two connected components like this this part is called"
+  },
+  {
+    "t_start": 1301.69,
+    "t_end": 1306.04,
+    "text": "components like this this part is called the egg of the elliptic curve and this"
+  },
+  {
+    "t_start": 1306.04,
+    "t_end": 1310.18,
+    "text": "is the infinite part sometimes you only have the infinite part and the egg is"
+  },
+  {
+    "t_start": 1310.18,
+    "t_end": 1313.33,
+    "text": "curve in r2 tends to look like one of these two pictures and it just depends"
+  },
+  {
+    "t_start": 1313.33,
+    "t_end": 1315.13,
+    "text": "these two pictures and it just depends on whether the cubic polynomial so we"
+  },
+  {
+    "t_start": 1315.13,
+    "t_end": 1319.81,
+    "text": "on whether the cubic polynomial so we have y squared equals a cubic polynomial"
+  },
+  {
+    "t_start": 1319.81,
+    "t_end": 1321.4,
+    "text": "in x xu plus ax plus b if that cubic polynomial in X has three real roots"
+  },
+  {
+    "t_start": 1321.4,
+    "t_end": 1322.78,
+    "text": "polynomial in X has three real roots then you'll see three points of"
+  },
+  {
+    "t_start": 1322.78,
+    "t_end": 1324.76,
+    "text": "then you'll see three points of intersection right through the x axis"
+  },
+  {
+    "t_start": 1324.76,
+    "t_end": 1326.68,
+    "text": "intersection right through the x axis and that's why you get this extra"
+  },
+  {
+    "t_start": 1326.68,
+    "t_end": 1328.45,
+    "text": "and that's why you get this extra component here but if your cubic"
+  },
+  {
+    "t_start": 1328.45,
+    "t_end": 1331.84,
+    "text": "equation only has one real root then the elliptic curve will only intersect the x"
+  },
+  {
+    "t_start": 1331.84,
+    "t_end": 1334.21,
+    "text": "elliptic curve will only intersect the x axis and one in one point and the lists"
+  },
+  {
+    "t_start": 1334.21,
+    "t_end": 1337.03,
+    "text": "axis and one in one point and the lists have this one infinite component so the"
+  },
+  {
+    "t_start": 1337.03,
+    "t_end": 1339.28,
+    "text": "graph tends to look like one of these two pictures depending on whether the"
+  },
+  {
+    "t_start": 1339.28,
+    "t_end": 1346.21,
+    "text": "cubic polynomial in X has one real root or three real roots okay so that's the"
+  },
+  {
+    "t_start": 1346.21,
+    "t_end": 1347.26,
+    "text": "or three real roots okay so that's the picture to keep in mind when you're"
+  },
+  {
+    "t_start": 1347.26,
+    "t_end": 1349.75,
+    "text": "picture to keep in mind when you're talking about elliptic curves looks like"
+  },
+  {
+    "t_start": 1349.75,
+    "t_end": 1353.02,
+    "text": "talking about elliptic curves looks like one of those two pictures and now we can"
+  },
+  {
+    "t_start": 1353.02,
+    "t_end": 1356.71,
+    "text": "describe what the group law on elliptic curves look like so if one has two"
+  },
+  {
+    "t_start": 1356.71,
+    "t_end": 1358.45,
+    "text": "curves look like so if one has two rational points on a plain elliptic"
+  },
+  {
+    "t_start": 1358.45,
+    "t_end": 1363.4,
+    "text": "curve okay so y squared equals x q plus ax plus B and then the line connecting"
+  },
+  {
+    "t_start": 1363.4,
+    "t_end": 1364.6,
+    "text": "ax plus B and then the line connecting those two rational points so say you"
+  },
+  {
+    "t_start": 1364.6,
+    "t_end": 1369.37,
+    "text": "those two rational points so say you have two solutions to Y squared equals x"
+  },
+  {
+    "t_start": 1369.37,
+    "t_end": 1370.81,
+    "text": "cubed plus ax plus B then the line connecting those two rational points"
+  },
+  {
+    "t_start": 1370.81,
+    "t_end": 1372.91,
+    "text": "connecting those two rational points will always intersect the elliptic curve"
+  },
+  {
+    "t_start": 1372.91,
+    "t_end": 1376.12,
+    "text": "and a third point just like when we were talking about conics we started with one"
+  },
+  {
+    "t_start": 1376.12,
+    "t_end": 1378.67,
+    "text": "talking about conics we started with one point we took a line through it it would"
+  },
+  {
+    "t_start": 1378.67,
+    "t_end": 1383.47,
+    "text": "the cubic case you can start with two points you take the line through them it"
+  },
+  {
+    "t_start": 1383.47,
+    "t_end": 1385.96,
+    "text": "allow it the first two points were rational coordinated coordinated have"
+  },
+  {
+    "t_start": 1385.96,
+    "t_end": 1388.47,
+    "text": "rational coordinated coordinated have rational coordinates then the third will"
+  },
+  {
+    "t_start": 1388.47,
+    "t_end": 1394.11,
+    "text": "something that's easy easy to check these this has to do with the fact that"
+  },
+  {
+    "t_start": 1394.11,
+    "t_end": 1395.61,
+    "text": "these this has to do with the fact that if you when you're finding that third"
+  },
+  {
+    "t_start": 1395.61,
+    "t_end": 1396.93,
+    "text": "if you when you're finding that third point of intersection you'll be solving"
+  },
+  {
+    "t_start": 1396.93,
+    "t_end": 1398.25,
+    "text": "point of intersection you'll be solving the cubic equation just like we were"
+  },
+  {
+    "t_start": 1398.25,
+    "t_end": 1400.2,
+    "text": "the cubic equation just like we were solving a quadratic equation before we"
+  },
+  {
+    "t_start": 1400.2,
+    "t_end": 1401.789,
+    "text": "solving a quadratic equation before we had one rational solution therefore the"
+  },
+  {
+    "t_start": 1401.789,
+    "t_end": 1404.97,
+    "text": "had one rational solution therefore the other had to be rational because the"
+  },
+  {
+    "t_start": 1404.97,
+    "t_end": 1409.14,
+    "text": "the same way here when we're trying to find that third point of intersection we"
+  },
+  {
+    "t_start": 1409.14,
+    "t_end": 1410.94,
+    "text": "find that third point of intersection we start with two rational points take a"
+  },
+  {
+    "t_start": 1410.94,
+    "t_end": 1412.38,
+    "text": "start with two rational points take a line through it find the third point of"
+  },
+  {
+    "t_start": 1412.38,
+    "t_end": 1413.549,
+    "text": "line through it find the third point of intersection with your elliptic curve"
+  },
+  {
+    "t_start": 1413.549,
+    "t_end": 1418.35,
+    "text": "intersection with your elliptic curve you're gonna be solving a cubic equation"
+  },
+  {
+    "t_start": 1418.35,
+    "t_end": 1419.52,
+    "text": "to find that third x coordinate that cubic equation will have rational"
+  },
+  {
+    "t_start": 1419.52,
+    "t_end": 1421.26,
+    "text": "cubic equation will have rational coefficients the first two roots are"
+  },
+  {
+    "t_start": 1421.26,
+    "t_end": 1426.12,
+    "text": "rational therefore the third has to be rational and that's what allows you to"
+  },
+  {
+    "t_start": 1426.12,
+    "t_end": 1429.0,
+    "text": "prove that if you have two rational points P and Q on an elliptic curve and"
+  },
+  {
+    "t_start": 1429.0,
+    "t_end": 1430.71,
+    "text": "points P and Q on an elliptic curve and you take the line through them that"
+  },
+  {
+    "t_start": 1430.71,
+    "t_end": 1432.69,
+    "text": "you take the line through them that third point of intersection will again"
+  },
+  {
+    "t_start": 1432.69,
+    "t_end": 1436.56,
+    "text": "be a rational point so this is what's amazing about cubic curves is it allows"
+  },
+  {
+    "t_start": 1436.56,
+    "t_end": 1438.51,
+    "text": "amazing about cubic curves is it allows you to take two points that are rational"
+  },
+  {
+    "t_start": 1438.51,
+    "t_end": 1443.0,
+    "text": "you to take two points that are rational and produce a third that's rational and"
+  },
+  {
+    "t_start": 1443.0,
+    "t_end": 1446.909,
+    "text": "and produce a third that's rational and there's a natural law of addition that"
+  },
+  {
+    "t_start": 1446.909,
+    "t_end": 1448.38,
+    "text": "you can define namely if you have two rational points on your elliptic curve"
+  },
+  {
+    "t_start": 1448.38,
+    "t_end": 1451.71,
+    "text": "rational points on your elliptic curve two points that have rational"
+  },
+  {
+    "t_start": 1451.71,
+    "t_end": 1456.659,
+    "text": "plus Q as the point that you get by taking the line through P and Q taking"
+  },
+  {
+    "t_start": 1456.659,
+    "t_end": 1460.26,
+    "text": "the third point of intersection and then reflecting it across the x-axis because"
+  },
+  {
+    "t_start": 1460.26,
+    "t_end": 1462.84,
+    "text": "reflecting it across the x-axis because remember the graphs of the elliptic"
+  },
+  {
+    "t_start": 1462.84,
+    "t_end": 1468.48,
+    "text": "curves are symmetric about the x-axis so you can reflect it across the x-axis and"
+  },
+  {
+    "t_start": 1468.48,
+    "t_end": 1474.87,
+    "text": "and that gives you a way of taking two rational points in producing a third one"
+  },
+  {
+    "t_start": 1474.87,
+    "t_end": 1478.11,
+    "text": "rational points in producing a third one if you have two rational points P and Q"
+  },
+  {
+    "t_start": 1478.11,
+    "t_end": 1483.33,
+    "text": "this point P plus Q will also have rational coordinates and why do we call"
+  },
+  {
+    "t_start": 1483.33,
+    "t_end": 1484.77,
+    "text": "rational coordinates and why do we call it P plus Q well one checks that"
+  },
+  {
+    "t_start": 1484.77,
+    "t_end": 1485.909,
+    "text": "it P plus Q well one checks that together with the point at infinity"
+  },
+  {
+    "t_start": 1485.909,
+    "t_end": 1489.24,
+    "text": "together with the point at infinity which is the point that you get when you"
+  },
+  {
+    "t_start": 1489.24,
+    "t_end": 1497.09,
+    "text": "down to infinity they're the same point and you call that the point at infinity"
+  },
+  {
+    "t_start": 1500.34,
+    "t_end": 1502.44,
+    "text": "then this law of addition plus and dows the set of rational points on a with the"
+  },
+  {
+    "t_start": 1502.44,
+    "t_end": 1506.909,
+    "text": "the set of rational points on a with the structure of an abelian group where the"
+  },
+  {
+    "t_start": 1506.909,
+    "t_end": 1510.48,
+    "text": "structure of an abelian group where the identity of this abelian group is the"
+  },
+  {
+    "t_start": 1510.48,
+    "t_end": 1514.5,
+    "text": "point at infinity so B Lynn group just means that you can add points and every"
+  },
+  {
+    "t_start": 1514.5,
+    "t_end": 1516.55,
+    "text": "means that you can add points and every point has negative"
+  },
+  {
+    "t_start": 1516.55,
+    "t_end": 1523.33,
+    "text": "and a building just means that P plus Q is the same as Q plus P which of course"
+  },
+  {
+    "t_start": 1523.33,
+    "t_end": 1528.88,
+    "text": "and Q is the same as the line connecting Q and P so clearly P plus Q is Q plus P"
+  },
+  {
+    "t_start": 1528.88,
+    "t_end": 1533.26,
+    "text": "addition to prove but what you can do in an elementary way is to show that P plus"
+  },
+  {
+    "t_start": 1533.26,
+    "t_end": 1537.76,
+    "text": "an elementary way is to show that P plus Q plus R is the same as P plus Q plus R"
+  },
+  {
+    "t_start": 1537.76,
+    "t_end": 1543.79,
+    "text": "same as P added to Q plus R that's not obvious at all but that's true with this"
+  },
+  {
+    "t_start": 1543.79,
+    "t_end": 1546.52,
+    "text": "obvious at all but that's true with this addition law it has a natural"
+  },
+  {
+    "t_start": 1546.52,
+    "t_end": 1547.96,
+    "text": "addition law it has a natural explanation in terms of modern algebraic"
+  },
+  {
+    "t_start": 1547.96,
+    "t_end": 1551.05,
+    "text": "explanation in terms of modern algebraic geometry but it can also be verified"
+  },
+  {
+    "t_start": 1551.05,
+    "t_end": 1552.67,
+    "text": "geometry but it can also be verified just elementary by playing with"
+  },
+  {
+    "t_start": 1552.67,
+    "t_end": 1559.33,
+    "text": "coordinates okay so this gives the law of addition on on rational points on an"
+  },
+  {
+    "t_start": 1559.33,
+    "t_end": 1560.38,
+    "text": "of addition on on rational points on an elliptic curve something that's very"
+  },
+  {
+    "t_start": 1560.38,
+    "t_end": 1563.95,
+    "text": "special for elliptic curves is that it's rational solutions have this natural"
+  },
+  {
+    "t_start": 1563.95,
+    "t_end": 1570.45,
+    "text": "points you can add them and make a third point that also has rational coordinates"
+  },
+  {
+    "t_start": 1570.45,
+    "t_end": 1572.83,
+    "text": "point that also has rational coordinates and that's a really beautiful structure"
+  },
+  {
+    "t_start": 1572.83,
+    "t_end": 1576.88,
+    "text": "and that's a really beautiful structure on elliptic curves so when you're"
+  },
+  {
+    "t_start": 1576.88,
+    "t_end": 1581.17,
+    "text": "studying rational points on an elliptic curve you don't have to just think of it"
+  },
+  {
+    "t_start": 1581.17,
+    "t_end": 1582.64,
+    "text": "as a set but you can think of as a set with this addition structure that gives"
+  },
+  {
+    "t_start": 1582.64,
+    "t_end": 1589.96,
+    "text": "with this addition structure that gives it the structure of an abelian group and"
+  },
+  {
+    "t_start": 1589.96,
+    "t_end": 1595.88,
+    "text": "that's very special to cubic curves so cubic equations in two variables"
+  },
+  {
+    "t_start": 1598.37,
+    "t_end": 1600.94,
+    "text": "so if you have a rational elliptic curve he was given with rational coefficients"
+  },
+  {
+    "t_start": 1600.94,
+    "t_end": 1603.14,
+    "text": "he was given with rational coefficients this group with this abelian group of"
+  },
+  {
+    "t_start": 1603.14,
+    "t_end": 1604.49,
+    "text": "this group with this abelian group of rational points on e it's usually"
+  },
+  {
+    "t_start": 1604.49,
+    "t_end": 1610.94,
+    "text": "rational points on e it's usually denoted a of Q and one question that you"
+  },
+  {
+    "t_start": 1610.94,
+    "t_end": 1614.39,
+    "text": "denoted a of Q and one question that you might ask is can you always start with"
+  },
+  {
+    "t_start": 1614.39,
+    "t_end": 1616.76,
+    "text": "might ask is can you always start with some finite set of rational points so"
+  },
+  {
+    "t_start": 1616.76,
+    "t_end": 1618.5,
+    "text": "some finite set of rational points so that just by playing with this addition"
+  },
+  {
+    "t_start": 1618.5,
+    "t_end": 1619.88,
+    "text": "that just by playing with this addition operation you can produce all the"
+  },
+  {
+    "t_start": 1619.88,
+    "t_end": 1624.89,
+    "text": "want to think of it in terms of the B Lynn group you can think of it can you"
+  },
+  {
+    "t_start": 1624.89,
+    "t_end": 1626.06,
+    "text": "Lynn group you can think of it can you always start with a finite set of"
+  },
+  {
+    "t_start": 1626.06,
+    "t_end": 1627.77,
+    "text": "always start with a finite set of rational points even if it hasn't fully"
+  },
+  {
+    "t_start": 1627.77,
+    "t_end": 1629.299,
+    "text": "rational points even if it hasn't fully many rational points your elliptic curve"
+  },
+  {
+    "t_start": 1629.299,
+    "t_end": 1632.03,
+    "text": "may have been flume any rational points but the question is can you always start"
+  },
+  {
+    "t_start": 1632.03,
+    "t_end": 1633.409,
+    "text": "but the question is can you always start with some finite set of rational points"
+  },
+  {
+    "t_start": 1633.409,
+    "t_end": 1635.299,
+    "text": "with some finite set of rational points so that just by playing let's connect"
+  },
+  {
+    "t_start": 1635.299,
+    "t_end": 1636.44,
+    "text": "so that just by playing let's connect the dots procedure where you take two"
+  },
+  {
+    "t_start": 1636.44,
+    "t_end": 1637.58,
+    "text": "the dots procedure where you take two and connect them and find a third"
+  },
+  {
+    "t_start": 1637.58,
+    "t_end": 1638.81,
+    "text": "and connect them and find a third rational point and keep repeating that"
+  },
+  {
+    "t_start": 1638.81,
+    "t_end": 1642.56,
+    "text": "rational point and keep repeating that can you get to all rational points and"
+  },
+  {
+    "t_start": 1642.56,
+    "t_end": 1644.06,
+    "text": "that was one of the very first fundamental questions that came up about"
+  },
+  {
+    "t_start": 1644.06,
+    "t_end": 1644.81,
+    "text": "fundamental questions that came up about elliptic curves there may be"
+  },
+  {
+    "t_start": 1644.81,
+    "t_end": 1646.159,
+    "text": "elliptic curves there may be implementing rational points but maybe"
+  },
+  {
+    "t_start": 1646.159,
+    "t_end": 1649.07,
+    "text": "you can always start with some finite set so if that's just by playing let's"
+  },
+  {
+    "t_start": 1649.07,
+    "t_end": 1650.51,
+    "text": "set so if that's just by playing let's connect the dots game you can find all"
+  },
+  {
+    "t_start": 1650.51,
+    "t_end": 1652.13,
+    "text": "connect the dots game you can find all the rational points just by using the"
+  },
+  {
+    "t_start": 1652.13,
+    "t_end": 1656.09,
+    "text": "addition law and this is the celebrated theorem of more Dell more Dell theorem"
+  },
+  {
+    "t_start": 1656.09,
+    "t_end": 1660.799,
+    "text": "theorem of more Dell more Dell theorem says that the group II of Q of rational"
+  },
+  {
+    "t_start": 1660.799,
+    "t_end": 1662.72,
+    "text": "points on e is finitely generated and what that means in elementary terms is"
+  },
+  {
+    "t_start": 1662.72,
+    "t_end": 1664.34,
+    "text": "what that means in elementary terms is that you can always start with some"
+  },
+  {
+    "t_start": 1664.34,
+    "t_end": 1667.669,
+    "text": "that you can always start with some finite set of rational points that's"
+  },
+  {
+    "t_start": 1667.669,
+    "t_end": 1669.47,
+    "text": "finite set of rational points that's that just by using this addition"
+  },
+  {
+    "t_start": 1669.47,
+    "t_end": 1671.0,
+    "text": "that just by using this addition operation or just connecting the dots"
+  },
+  {
+    "t_start": 1671.0,
+    "t_end": 1674.18,
+    "text": "operation or just connecting the dots operation you can produce all the"
+  },
+  {
+    "t_start": 1674.18,
+    "t_end": 1677.27,
+    "text": "inflamed any rational points more Dells theorem says you can there's actually"
+  },
+  {
+    "t_start": 1677.27,
+    "t_end": 1678.799,
+    "text": "theorem says you can there's actually only finite amount of information there"
+  },
+  {
+    "t_start": 1678.799,
+    "t_end": 1683.659,
+    "text": "set of rational points to start with and then use this addition law to produce"
+  },
+  {
+    "t_start": 1683.659,
+    "t_end": 1685.4,
+    "text": "then use this addition law to produce all the rational points kind of just"
+  },
+  {
+    "t_start": 1685.4,
+    "t_end": 1688.82,
+    "text": "like in the case of conics or even that when there were implementing rational"
+  },
+  {
+    "t_start": 1688.82,
+    "t_end": 1690.5,
+    "text": "when there were implementing rational points on x squared plus y squared"
+  },
+  {
+    "t_start": 1690.5,
+    "t_end": 1694.7,
+    "text": "equals 1 you could always start with one point and that was enough to to find all"
+  },
+  {
+    "t_start": 1694.7,
+    "t_end": 1695.919,
+    "text": "point and that was enough to to find all the rational points just by taking"
+  },
+  {
+    "t_start": 1695.919,
+    "t_end": 1701.48,
+    "text": "rational sloped lines through there the analog here is on a cubic curve you can"
+  },
+  {
+    "t_start": 1701.48,
+    "t_end": 1702.77,
+    "text": "always start with some finite set of rational points and then just by"
+  },
+  {
+    "t_start": 1702.77,
+    "t_end": 1704.659,
+    "text": "rational points and then just by connecting pairs at a time you can"
+  },
+  {
+    "t_start": 1704.659,
+    "t_end": 1707.049,
+    "text": "connecting pairs at a time you can actually produce all the rational points"
+  },
+  {
+    "t_start": 1707.049,
+    "t_end": 1713.15,
+    "text": "this is the amazing theorem of more Dell in terms of group theory since e of Q is"
+  },
+  {
+    "t_start": 1713.15,
+    "t_end": 1714.62,
+    "text": "in terms of group theory since e of Q is a finitely generated group you can use"
+  },
+  {
+    "t_start": 1714.62,
+    "t_end": 1716.18,
+    "text": "a finitely generated group you can use the addition law to produce all the"
+  },
+  {
+    "t_start": 1716.18,
+    "t_end": 1717.56,
+    "text": "the addition law to produce all the rational points from some finite"
+  },
+  {
+    "t_start": 1717.56,
+    "t_end": 1720.68,
+    "text": "rational points from some finite starting set the fundamental theorem of"
+  },
+  {
+    "t_start": 1720.68,
+    "t_end": 1724.159,
+    "text": "starting set the fundamental theorem of abelian groups says that if you have a"
+  },
+  {
+    "t_start": 1724.159,
+    "t_end": 1725.87,
+    "text": "finitely generated being in group it always looks like the product of cyclic"
+  },
+  {
+    "t_start": 1725.87,
+    "t_end": 1727.82,
+    "text": "always looks like the product of cyclic groups some number of infinite cyclic"
+  },
+  {
+    "t_start": 1727.82,
+    "t_end": 1729.87,
+    "text": "groups some number of infinite cyclic groups which look like the integers"
+  },
+  {
+    "t_start": 1729.87,
+    "t_end": 1732.299,
+    "text": "groups which look like the integers so Eve Q since it's finally generated"
+  },
+  {
+    "t_start": 1732.299,
+    "t_end": 1733.89,
+    "text": "so Eve Q since it's finally generated fundamental theorem of abelian group"
+  },
+  {
+    "t_start": 1733.89,
+    "t_end": 1737.73,
+    "text": "says that if Q has to look like some product of copies of infinite cyclic"
+  },
+  {
+    "t_start": 1737.73,
+    "t_end": 1739.71,
+    "text": "product of copies of infinite cyclic groups namely the integers raised to"
+  },
+  {
+    "t_start": 1739.71,
+    "t_end": 1747.24,
+    "text": "this M there may be are copies times some finite abelian group called T which"
+  },
+  {
+    "t_start": 1747.24,
+    "t_end": 1752.549,
+    "text": "is also going to be a product of finite cyclic groups and so you can kind of see"
+  },
+  {
+    "t_start": 1752.549,
+    "t_end": 1754.38,
+    "text": "cyclic groups and so you can kind of see from this that the big part of the group"
+  },
+  {
+    "t_start": 1754.38,
+    "t_end": 1759.06,
+    "text": "from this that the big part of the group is sort of measured by this R this R how"
+  },
+  {
+    "t_start": 1759.06,
+    "t_end": 1764.07,
+    "text": "how many infinite cyclic groups do we have inside e that kind of measures the"
+  },
+  {
+    "t_start": 1764.07,
+    "t_end": 1767.909,
+    "text": "have inside e that kind of measures the size of Eve Q now it's a theorem of"
+  },
+  {
+    "t_start": 1767.909,
+    "t_end": 1768.27,
+    "text": "size of Eve Q now it's a theorem of Mazur"
+  },
+  {
+    "t_start": 1768.27,
+    "t_end": 1775.02,
+    "text": "that the group T this finite group here is bounded in size by 16 so it never"
+  },
+  {
+    "t_start": 1775.02,
+    "t_end": 1777.93,
+    "text": "is bounded in size by 16 so it never gets very big so even in a stronger"
+  },
+  {
+    "t_start": 1777.93,
+    "t_end": 1779.34,
+    "text": "gets very big so even in a stronger sense it is really this R that's"
+  },
+  {
+    "t_start": 1779.34,
+    "t_end": 1781.56,
+    "text": "sense it is really this R that's measuring the size of this this set of"
+  },
+  {
+    "t_start": 1781.56,
+    "t_end": 1790.799,
+    "text": "solutions C of Q so our kind of measure is how big the group II of Q is and it's"
+  },
+  {
+    "t_start": 1790.799,
+    "t_end": 1794.31,
+    "text": "is how big the group II of Q is and it's called the rank the rank of e is the R"
+  },
+  {
+    "t_start": 1794.31,
+    "t_end": 1797.789,
+    "text": "called the rank the rank of e is the R that comes out of tell measures the"
+  },
+  {
+    "t_start": 1797.789,
+    "t_end": 1799.89,
+    "text": "number of infinite cyclic groups that you're getting inside this group of"
+  },
+  {
+    "t_start": 1799.89,
+    "t_end": 1803.25,
+    "text": "you're getting inside this group of rational points in elementary terms if"
+  },
+  {
+    "t_start": 1803.25,
+    "t_end": 1804.149,
+    "text": "rational points in elementary terms if you're not familiar with group Theory"
+  },
+  {
+    "t_start": 1804.149,
+    "t_end": 1805.68,
+    "text": "you're not familiar with group Theory the rank of e just measures the number"
+  },
+  {
+    "t_start": 1805.68,
+    "t_end": 1807.06,
+    "text": "the rank of e just measures the number of points basically it's measuring the"
+  },
+  {
+    "t_start": 1807.06,
+    "t_end": 1811.23,
+    "text": "of points basically it's measuring the number of points that you need to start"
+  },
+  {
+    "t_start": 1811.23,
+    "t_end": 1813.029,
+    "text": "with on your elliptic curve so that every other rational point can be"
+  },
+  {
+    "t_start": 1813.029,
+    "t_end": 1815.01,
+    "text": "every other rational point can be obtained just by connecting pairs and"
+  },
+  {
+    "t_start": 1815.01,
+    "t_end": 1816.24,
+    "text": "obtained just by connecting pairs and finally the third point of intersection"
+  },
+  {
+    "t_start": 1816.24,
+    "t_end": 1818.19,
+    "text": "finally the third point of intersection and repeating that procedure so what"
+  },
+  {
+    "t_start": 1818.19,
+    "t_end": 1822.96,
+    "text": "does the minimum number of points that you need to start with to get all the"
+  },
+  {
+    "t_start": 1822.96,
+    "t_end": 1826.62,
+    "text": "points on the elliptic curve by just using the addition law yeah and that's"
+  },
+  {
+    "t_start": 1826.62,
+    "t_end": 1830.43,
+    "text": "the rank and buy more Dells theorem this number is always finite you can always"
+  },
+  {
+    "t_start": 1830.43,
+    "t_end": 1833.669,
+    "text": "start with some finite set of rational points so that all the rational points"
+  },
+  {
+    "t_start": 1833.669,
+    "t_end": 1838.95,
+    "text": "points so that all the rational points can be found I had the connect-the-dots"
+  },
+  {
+    "t_start": 1838.95,
+    "t_end": 1843.48,
+    "text": "minimal number of points you need is essentially the rank ignoring this two"
+  },
+  {
+    "t_start": 1843.48,
+    "t_end": 1846.15,
+    "text": "essentially the rank ignoring this two part here"
+  },
+  {
+    "t_start": 1848.91,
+    "t_end": 1850.83,
+    "text": "okay so are this rank is really the fundamental invariant right that"
+  },
+  {
+    "t_start": 1850.83,
+    "t_end": 1855.3,
+    "text": "measures how big how many solutions you have R equals zero corresponds to the"
+  },
+  {
+    "t_start": 1855.3,
+    "t_end": 1862.35,
+    "text": "corresponds to the case where a of Q is finite but once R is 1 or more than the"
+  },
+  {
+    "t_start": 1862.35,
+    "t_end": 1863.67,
+    "text": "finite but once R is 1 or more than the number of rational points is infinite"
+  },
+  {
+    "t_start": 1863.67,
+    "t_end": 1867.39,
+    "text": "and then R measures how infinite right the bigger R is the more infinite the"
+  },
+  {
+    "t_start": 1867.39,
+    "t_end": 1873.36,
+    "text": "the bigger R is the more infinite the set of rational points so R is the"
+  },
+  {
+    "t_start": 1873.36,
+    "t_end": 1874.68,
+    "text": "set of rational points so R is the fundamental invariant given an elliptic"
+  },
+  {
+    "t_start": 1874.68,
+    "t_end": 1879.06,
+    "text": "cubic equation in two variables R is the fundamental invariant that measures how"
+  },
+  {
+    "t_start": 1879.06,
+    "t_end": 1883.05,
+    "text": "fundamental invariant that measures how many rational points you have R equals 0"
+  },
+  {
+    "t_start": 1883.05,
+    "t_end": 1887.73,
+    "text": "points R equals one or more corresponds to lay many rational points and most"
+  },
+  {
+    "t_start": 1887.73,
+    "t_end": 1889.14,
+    "text": "to lay many rational points and most basic questions that you might ask about"
+  },
+  {
+    "t_start": 1889.14,
+    "t_end": 1890.7,
+    "text": "basic questions that you might ask about the basic invariant about cubic"
+  },
+  {
+    "t_start": 1890.7,
+    "t_end": 1894.08,
+    "text": "the basic invariant about cubic equations and two variables are unsolved"
+  },
+  {
+    "t_start": 1894.08,
+    "t_end": 1898.2,
+    "text": "equations and two variables are unsolved so for example you can ask what is the"
+  },
+  {
+    "t_start": 1898.2,
+    "t_end": 1903.57,
+    "text": "curve can be no one has any idea in fact no one even knows whether the rank can"
+  },
+  {
+    "t_start": 1903.57,
+    "t_end": 1907.2,
+    "text": "no one even knows whether the rank can be unbounded is there a maximum we don't"
+  },
+  {
+    "t_start": 1907.2,
+    "t_end": 1910.53,
+    "text": "be unbounded is there a maximum we don't know it's a maximum it might go all the"
+  },
+  {
+    "t_start": 1910.53,
+    "t_end": 1912.63,
+    "text": "way the ranks Michael all the way up to infinity or maybe they they stop at"
+  },
+  {
+    "t_start": 1912.63,
+    "t_end": 1916.29,
+    "text": "infinity or maybe they they stop at around 30 I say 30 because the current"
+  },
+  {
+    "t_start": 1916.29,
+    "t_end": 1917.82,
+    "text": "around 30 I say 30 because the current record for the largest rank ever found"
+  },
+  {
+    "t_start": 1917.82,
+    "t_end": 1923.7,
+    "text": "record for the largest rank ever found is 28 found by no Amell keys in 2006 so"
+  },
+  {
+    "t_start": 1923.7,
+    "t_end": 1925.23,
+    "text": "is 28 found by no Amell keys in 2006 so he showed that the rank of this curve"
+  },
+  {
+    "t_start": 1925.23,
+    "t_end": 1930.57,
+    "text": "he showed that the rank of this curve that he found is at least 28 well you"
+  },
+  {
+    "t_start": 1930.57,
+    "t_end": 1932.34,
+    "text": "that he found is at least 28 well you can ask more statistical questions you"
+  },
+  {
+    "t_start": 1932.34,
+    "t_end": 1939.21,
+    "text": "is the average size of the rank as you vary across the loop two curves that's"
+  },
+  {
+    "t_start": 1939.21,
+    "t_end": 1943.68,
+    "text": "also unknown do most curves have rank 0 or 1 most people expect that most curves"
+  },
+  {
+    "t_start": 1943.68,
+    "t_end": 1949.56,
+    "text": "have rank 0 or one can one prove that even say 1% of all two curves have Frank"
+  },
+  {
+    "t_start": 1949.56,
+    "t_end": 1954.66,
+    "text": "even say 1% of all two curves have Frank 0 1 and and then of course the most"
+  },
+  {
+    "t_start": 1954.66,
+    "t_end": 1956.37,
+    "text": "0 1 and and then of course the most fundamental question that I was asking"
+  },
+  {
+    "t_start": 1956.37,
+    "t_end": 1958.05,
+    "text": "fundamental question that I was asking the beginning Oh is there any algorithm"
+  },
+  {
+    "t_start": 1958.05,
+    "t_end": 1959.85,
+    "text": "the beginning Oh is there any algorithm to determine the rank of an elliptic"
+  },
+  {
+    "t_start": 1959.85,
+    "t_end": 1963.3,
+    "text": "to determine the rank of an elliptic curve that will provably terminate with"
+  },
+  {
+    "t_start": 1963.3,
+    "t_end": 1965.46,
+    "text": "curve that will provably terminate with the correct answer so given an elliptic"
+  },
+  {
+    "t_start": 1965.46,
+    "t_end": 1966.93,
+    "text": "the correct answer so given an elliptic curve y squared equals x people say X"
+  },
+  {
+    "t_start": 1966.93,
+    "t_end": 1968.22,
+    "text": "curve y squared equals x people say X plus B can you design an algorithm that"
+  },
+  {
+    "t_start": 1968.22,
+    "t_end": 1969.63,
+    "text": "plus B can you design an algorithm that will you know you put in the elliptic"
+  },
+  {
+    "t_start": 1969.63,
+    "t_end": 1976.5,
+    "text": "curve and it spits out are the rank well it's exactly that last question given it"
+  },
+  {
+    "t_start": 1976.5,
+    "t_end": 1978.21,
+    "text": "it's exactly that last question given it looked a curve can you algorithmically"
+  },
+  {
+    "t_start": 1978.21,
+    "t_end": 1979.69,
+    "text": "looked a curve can you algorithmically determine the rank"
+  },
+  {
+    "t_start": 1979.69,
+    "t_end": 1982.989,
+    "text": "that's exactly the question that the bertson's Winterton dire conjecture"
+  },
+  {
+    "t_start": 1982.989,
+    "t_end": 1989.56,
+    "text": "addresses okay so I want to tell you how it addresses this question and it gives"
+  },
+  {
+    "t_start": 1989.56,
+    "t_end": 1994.389,
+    "text": "it addresses this question and it gives you it gives you a reasonable way"
+  },
+  {
+    "t_start": 1994.389,
+    "t_end": 1996.009,
+    "text": "actually to find what the rank is in a way that actually terminates if the"
+  },
+  {
+    "t_start": 1996.009,
+    "t_end": 2002.43,
+    "text": "conjecture is true so as is often the case in number theory to try and solve"
+  },
+  {
+    "t_start": 2002.43,
+    "t_end": 2004.589,
+    "text": "case in number theory to try and solve to solve an equation over the integers"
+  },
+  {
+    "t_start": 2004.589,
+    "t_end": 2006.029,
+    "text": "to solve an equation over the integers or the rational numbers the key idea is"
+  },
+  {
+    "t_start": 2006.029,
+    "t_end": 2012.329,
+    "text": "look at y squared equals x people say X plus B reduce it mod P and you count the"
+  },
+  {
+    "t_start": 2012.329,
+    "t_end": 2015.239,
+    "text": "plus B reduce it mod P and you count the number of solutions in in the integers"
+  },
+  {
+    "t_start": 2015.239,
+    "t_end": 2023.549,
+    "text": "number of solutions in in the integers mod P in other words just just in that"
+  },
+  {
+    "t_start": 2023.549,
+    "t_end": 2025.079,
+    "text": "finite field so in 1960 bertson's for Newton Dyer did some computations of"
+  },
+  {
+    "t_start": 2025.079,
+    "t_end": 2027.869,
+    "text": "Newton Dyer did some computations of ranks of elliptic curves and and they"
+  },
+  {
+    "t_start": 2027.869,
+    "t_end": 2029.789,
+    "text": "ranks of elliptic curves and and they also did computations of the number of"
+  },
+  {
+    "t_start": 2029.789,
+    "t_end": 2035.549,
+    "text": "solutions mod P on the elliptic curve alright so what is the maximum number of"
+  },
+  {
+    "t_start": 2035.549,
+    "t_end": 2036.389,
+    "text": "solutions mod p to an elliptic curve well remember it's a two variable"
+  },
+  {
+    "t_start": 2036.389,
+    "t_end": 2041.129,
+    "text": "equation so x and y each will have about P possibilities so the maximum number of"
+  },
+  {
+    "t_start": 2041.129,
+    "t_end": 2047.249,
+    "text": "P possibilities so the maximum number of solutions is P squared and so they would"
+  },
+  {
+    "t_start": 2047.249,
+    "t_end": 2053.97,
+    "text": "for x and y right and they would count the number of solutions but they had to"
+  },
+  {
+    "t_start": 2053.97,
+    "t_end": 2055.859,
+    "text": "the number of solutions but they had to write code to do these computations in"
+  },
+  {
+    "t_start": 2055.859,
+    "t_end": 2057.299,
+    "text": "write code to do these computations in extremely clever ways because this is"
+  },
+  {
+    "t_start": 2057.299,
+    "t_end": 2061.76,
+    "text": "extremely clever ways because this is phone this was in 1960 their computer"
+  },
+  {
+    "t_start": 2061.76,
+    "t_end": 2065.789,
+    "text": "so even storing the elliptic curve and the prime number was already taking a"
+  },
+  {
+    "t_start": 2065.789,
+    "t_end": 2070.079,
+    "text": "lot of the memory and then their program was taking a lot of the memory and then"
+  },
+  {
+    "t_start": 2070.079,
+    "t_end": 2072.839,
+    "text": "the computations and so they had to design very very clever ways to do these"
+  },
+  {
+    "t_start": 2072.839,
+    "t_end": 2079.2,
+    "text": "design very very clever ways to do these computations and so actually a lot of"
+  },
+  {
+    "t_start": 2079.2,
+    "t_end": 2080.819,
+    "text": "computations and so actually a lot of the the breakthroughs that they made at"
+  },
+  {
+    "t_start": 2080.819,
+    "t_end": 2085.2,
+    "text": "the the breakthroughs that they made at the time which we've taken advantage of"
+  },
+  {
+    "t_start": 2085.2,
+    "t_end": 2086.46,
+    "text": "theoretically later on they made a lot of theoretical breakthroughs in order to"
+  },
+  {
+    "t_start": 2086.46,
+    "t_end": 2087.869,
+    "text": "of theoretical breakthroughs in order to do these computations because they had"
+  },
+  {
+    "t_start": 2087.869,
+    "t_end": 2089.25,
+    "text": "do these computations because they had to fit their programs in such tiny"
+  },
+  {
+    "t_start": 2089.25,
+    "t_end": 2095.039,
+    "text": "to fit their programs in such tiny amounts of memory so as I said if you're"
+  },
+  {
+    "t_start": 2095.039,
+    "t_end": 2096.899,
+    "text": "amounts of memory so as I said if you're looking at y squared equals x q plus ax"
+  },
+  {
+    "t_start": 2096.899,
+    "t_end": 2099.299,
+    "text": "looking at y squared equals x q plus ax plus B mod P then the maximum number of"
+  },
+  {
+    "t_start": 2099.299,
+    "t_end": 2101.19,
+    "text": "plus B mod P then the maximum number of solutions mod P is P squared because X"
+  },
+  {
+    "t_start": 2101.19,
+    "t_end": 2103.289,
+    "text": "solutions mod P is P squared because X has P possibilities and Y has P"
+  },
+  {
+    "t_start": 2103.289,
+    "t_end": 2107.37,
+    "text": "possibilities but actually the correct order of magnitude of how many points"
+  },
+  {
+    "t_start": 2107.37,
+    "t_end": 2109.579,
+    "text": "order of magnitude of how many points you'll actually have on this curve"
+  },
+  {
+    "t_start": 2109.579,
+    "t_end": 2112.8,
+    "text": "you'll actually have on this curve modulo P you expected to have about P"
+  },
+  {
+    "t_start": 2112.8,
+    "t_end": 2118.92,
+    "text": "not p-squared points why is that well once you plug in a value of X mod P then"
+  },
+  {
+    "t_start": 2118.92,
+    "t_end": 2121.23,
+    "text": "once you plug in a value of X mod P then how many then you can solve for y Y will"
+  },
+  {
+    "t_start": 2121.23,
+    "t_end": 2123.06,
+    "text": "how many then you can solve for y Y will hat Y squared equals this number of mod"
+  },
+  {
+    "t_start": 2123.06,
+    "t_end": 2125.87,
+    "text": "hat Y squared equals this number of mod p that'll happen most two solutions so"
+  },
+  {
+    "t_start": 2125.87,
+    "t_end": 2128.91,
+    "text": "p that'll happen most two solutions so but how often how often you expect when"
+  },
+  {
+    "t_start": 2128.91,
+    "t_end": 2133.59,
+    "text": "you when you plug in a value mod p 4x cubed plus ax plus B you don't expect it"
+  },
+  {
+    "t_start": 2133.59,
+    "t_end": 2135.84,
+    "text": "cubed plus ax plus B you don't expect it to be a square all the time it'll be a"
+  },
+  {
+    "t_start": 2135.84,
+    "t_end": 2137.22,
+    "text": "to be a square all the time it'll be a square about half the time because half"
+  },
+  {
+    "t_start": 2137.22,
+    "t_end": 2142.83,
+    "text": "square about half the time because half the numbers mod P are squares so when"
+  },
+  {
+    "t_start": 2142.83,
+    "t_end": 2145.44,
+    "text": "you plug in a number mod p for X half the time you'll get a square and then Y"
+  },
+  {
+    "t_start": 2145.44,
+    "t_end": 2146.94,
+    "text": "the time you'll get a square and then Y will take one of those two square roots"
+  },
+  {
+    "t_start": 2146.94,
+    "t_end": 2152.73,
+    "text": "as values so half the time that X Q plus ax plus B will be a square and half the"
+  },
+  {
+    "t_start": 2152.73,
+    "t_end": 2156.72,
+    "text": "time when that is a square Y will have two solutions so when you plug in the P"
+  },
+  {
+    "t_start": 2156.72,
+    "t_end": 2158.61,
+    "text": "two solutions so when you plug in the P possible values for X about half of them"
+  },
+  {
+    "t_start": 2158.61,
+    "t_end": 2159.87,
+    "text": "possible values for X about half of them will be a square and then you'll get two"
+  },
+  {
+    "t_start": 2159.87,
+    "t_end": 2161.97,
+    "text": "will be a square and then you'll get two solutions for Y so the number the"
+  },
+  {
+    "t_start": 2161.97,
+    "t_end": 2167.49,
+    "text": "because about P over two values of X will give you a square but then for each"
+  },
+  {
+    "t_start": 2167.49,
+    "t_end": 2169.23,
+    "text": "will give you a square but then for each of those you have two solutions okay so"
+  },
+  {
+    "t_start": 2169.23,
+    "t_end": 2175.11,
+    "text": "of those you have two solutions okay so you have about P solutions for X comma Y"
+  },
+  {
+    "t_start": 2175.11,
+    "t_end": 2178.5,
+    "text": "mod P right on this curve okay so you expect about P solutions and so if we"
+  },
+  {
+    "t_start": 2178.5,
+    "t_end": 2180.24,
+    "text": "expect about P solutions and so if we use the same notation NP that say are"
+  },
+  {
+    "t_start": 2180.24,
+    "t_end": 2181.59,
+    "text": "use the same notation NP that say are used in his very first I have a lecture"
+  },
+  {
+    "t_start": 2181.59,
+    "t_end": 2183.69,
+    "text": "used in his very first I have a lecture and the under used earlier today NP if"
+  },
+  {
+    "t_start": 2183.69,
+    "t_end": 2185.1,
+    "text": "and the under used earlier today NP if you use that to denote the number of"
+  },
+  {
+    "t_start": 2185.1,
+    "t_end": 2188.07,
+    "text": "you use that to denote the number of points mod p on this on his curve y"
+  },
+  {
+    "t_start": 2188.07,
+    "t_end": 2189.69,
+    "text": "points mod p on this on his curve y squared equals x q plus ax plus B you"
+  },
+  {
+    "t_start": 2189.69,
+    "t_end": 2191.82,
+    "text": "squared equals x q plus ax plus B you expect NP to be about P and therefore"
+  },
+  {
+    "t_start": 2191.82,
+    "t_end": 2197.4,
+    "text": "you expect NP over P to be about one yeah as P varies you expect that to be"
+  },
+  {
+    "t_start": 2197.4,
+    "t_end": 2201.63,
+    "text": "yeah as P varies you expect that to be about one most of the time but here was"
+  },
+  {
+    "t_start": 2201.63,
+    "t_end": 2203.25,
+    "text": "about one most of the time but here was Bert since Winterton dyers incredible"
+  },
+  {
+    "t_start": 2203.25,
+    "t_end": 2208.59,
+    "text": "is if he has lots of rational points on it in other words if this rank R is very"
+  },
+  {
+    "t_start": 2208.59,
+    "t_end": 2212.76,
+    "text": "it in other words if this rank R is very large then these points if you take"
+  },
+  {
+    "t_start": 2212.76,
+    "t_end": 2214.32,
+    "text": "large then these points if you take those rational numbers and you reduce"
+  },
+  {
+    "t_start": 2214.32,
+    "t_end": 2216.93,
+    "text": "those rational numbers and you reduce the mod P remember you can take a"
+  },
+  {
+    "t_start": 2216.93,
+    "t_end": 2221.64,
+    "text": "right because you can it's a mod P as a finite field so you can divide so you"
+  },
+  {
+    "t_start": 2221.64,
+    "t_end": 2222.81,
+    "text": "finite field so you can divide so you have a rational point on elliptic curve"
+  },
+  {
+    "t_start": 2222.81,
+    "t_end": 2225.54,
+    "text": "have a rational point on elliptic curve you can reduce in mod P and that will"
+  },
+  {
+    "t_start": 2225.54,
+    "t_end": 2227.16,
+    "text": "give you a point mod P on the elliptic curve if there are lots of rational"
+  },
+  {
+    "t_start": 2227.16,
+    "t_end": 2228.72,
+    "text": "curve if there are lots of rational points and you reduce the mod P"
+  },
+  {
+    "t_start": 2228.72,
+    "t_end": 2230.16,
+    "text": "points and you reduce the mod P shouldn't be getting lots and lots of"
+  },
+  {
+    "t_start": 2230.16,
+    "t_end": 2235.65,
+    "text": "points mod P and so somehow NP should be pushed a little higher than P in those"
+  },
+  {
+    "t_start": 2235.65,
+    "t_end": 2239.73,
+    "text": "pushed a little higher than P in those cases so bertson's winners and I are"
+  },
+  {
+    "t_start": 2239.73,
+    "t_end": 2241.98,
+    "text": "cases so bertson's winners and I are they hypothesized that if the rank of"
+  },
+  {
+    "t_start": 2241.98,
+    "t_end": 2246.42,
+    "text": "they hypothesized that if the rank of the elliptic curve a is large then on"
+  },
+  {
+    "t_start": 2246.42,
+    "t_end": 2248.22,
+    "text": "average one should notice a having more than P points the expected number"
+  },
+  {
+    "t_start": 2248.22,
+    "t_end": 2254.22,
+    "text": "of people in that case so if the rank is zero then maybe NP should be about P but"
+  },
+  {
+    "t_start": 2254.22,
+    "t_end": 2255.75,
+    "text": "zero then maybe NP should be about P but if there are lots of rational points and"
+  },
+  {
+    "t_start": 2255.75,
+    "t_end": 2259.26,
+    "text": "if there are lots of rational points and the rank is large then maybe NP tends to"
+  },
+  {
+    "t_start": 2259.26,
+    "t_end": 2261.299,
+    "text": "the rank is large then maybe NP tends to be a little bit higher than P as you"
+  },
+  {
+    "t_start": 2261.299,
+    "t_end": 2265.109,
+    "text": "be a little bit higher than P as you vary across prime numbers P so maybe you"
+  },
+  {
+    "t_start": 2265.109,
+    "t_end": 2266.28,
+    "text": "vary across prime numbers P so maybe you should be able to pick up this large"
+  },
+  {
+    "t_start": 2266.28,
+    "t_end": 2268.319,
+    "text": "should be able to pick up this large rank by noticing lots of points mod P"
+  },
+  {
+    "t_start": 2268.319,
+    "t_end": 2274.38,
+    "text": "for for lots of Prime's P so their computations in this direction confirmed"
+  },
+  {
+    "t_start": 2274.38,
+    "t_end": 2278.03,
+    "text": "the suspicion in large part and it led them to the following really spectacular"
+  },
+  {
+    "t_start": 2278.03,
+    "t_end": 2282.72,
+    "text": "them to the following really spectacular conjecture so there's the birch since we"
+  },
+  {
+    "t_start": 2282.72,
+    "t_end": 2288.38,
+    "text": "EES an elliptic curve y squared equals x q plus ax plus B and ours it's rank an"
+  },
+  {
+    "t_start": 2288.38,
+    "t_end": 2291.24,
+    "text": "q plus ax plus B and ours it's rank an NP denotes the number of points mod P on"
+  },
+  {
+    "t_start": 2291.24,
+    "t_end": 2292.799,
+    "text": "NP denotes the number of points mod P on the on the elliptic curve which tends to"
+  },
+  {
+    "t_start": 2292.799,
+    "t_end": 2297.0,
+    "text": "the on the elliptic curve which tends to be about P but might be higher when the"
+  },
+  {
+    "t_start": 2297.0,
+    "t_end": 2302.73,
+    "text": "rank is larger than what they what they conjectured is that if you take n P over"
+  },
+  {
+    "t_start": 2302.73,
+    "t_end": 2306.299,
+    "text": "ok so n P over P remember we expect it to be about 1 but we're trying to test"
+  },
+  {
+    "t_start": 2306.299,
+    "t_end": 2307.589,
+    "text": "to be about 1 but we're trying to test maybe it's a little bit higher when the"
+  },
+  {
+    "t_start": 2307.589,
+    "t_end": 2310.319,
+    "text": "maybe it's a little bit higher when the rank is large what they can what the"
+  },
+  {
+    "t_start": 2310.319,
+    "t_end": 2311.819,
+    "text": "rank is large what they can what the conjecture does if you take n P over P"
+  },
+  {
+    "t_start": 2311.819,
+    "t_end": 2313.589,
+    "text": "conjecture does if you take n P over P which tends to let be very close to 1"
+  },
+  {
+    "t_start": 2313.589,
+    "t_end": 2315.96,
+    "text": "which tends to let be very close to 1 and you multiply n P over P over all"
+  },
+  {
+    "t_start": 2315.96,
+    "t_end": 2316.62,
+    "text": "and you multiply n P over P over all Prime's"
+  },
+  {
+    "t_start": 2316.62,
+    "t_end": 2322.26,
+    "text": "less than or equal to X where X is some large number then as X grows this should"
+  },
+  {
+    "t_start": 2322.26,
+    "t_end": 2330.45,
+    "text": "large number then as X grows this should also grow as C times log of X to the"
+  },
+  {
+    "t_start": 2330.45,
+    "t_end": 2331.799,
+    "text": "rank so this is how the rank so this is exactly what we were saying before if"
+  },
+  {
+    "t_start": 2331.799,
+    "t_end": 2335.97,
+    "text": "the rank is large but somehow these NP s over P's should be maybe a little bit"
+  },
+  {
+    "t_start": 2335.97,
+    "t_end": 2337.02,
+    "text": "over P's should be maybe a little bit bigger than one so that when you take"
+  },
+  {
+    "t_start": 2337.02,
+    "t_end": 2339.87,
+    "text": "bigger than one so that when you take the product it grows as log of X they"
+  },
+  {
+    "t_start": 2339.87,
+    "t_end": 2341.16,
+    "text": "the product it grows as log of X they take the product over all Prime's less"
+  },
+  {
+    "t_start": 2341.16,
+    "t_end": 2346.74,
+    "text": "than equal to X it actually grows in a way that depends on the rank and if the"
+  },
+  {
+    "t_start": 2346.74,
+    "t_end": 2353.73,
+    "text": "way that depends on the rank and if the rank is zero then then the product of n"
+  },
+  {
+    "t_start": 2353.73,
+    "t_end": 2356.25,
+    "text": "P over P as for all P less than X as X gets big they said we remain bounded in"
+  },
+  {
+    "t_start": 2356.25,
+    "t_end": 2357.39,
+    "text": "gets big they said we remain bounded in other words these things really were"
+  },
+  {
+    "t_start": 2357.39,
+    "t_end": 2358.079,
+    "text": "other words these things really were like 1"
+  },
+  {
+    "t_start": 2358.079,
+    "t_end": 2363.15,
+    "text": "but when R is big then maybe as you take the products of NP s over P it actually"
+  },
+  {
+    "t_start": 2363.15,
+    "t_end": 2365.01,
+    "text": "the products of NP s over P it actually grows and it grows in a way that depends"
+  },
+  {
+    "t_start": 2365.01,
+    "t_end": 2367.2,
+    "text": "grows and it grows in a way that depends on the rank and this is this is the"
+  },
+  {
+    "t_start": 2367.2,
+    "t_end": 2371.01,
+    "text": "birch and Swinton dire conjecture the original format the Burton's mentioned"
+  },
+  {
+    "t_start": 2371.01,
+    "t_end": 2373.92,
+    "text": "original format the Burton's mentioned our conjecture in a really very"
+  },
+  {
+    "t_start": 2373.92,
+    "t_end": 2375.0,
+    "text": "our conjecture in a really very beautiful conjecture because it's"
+  },
+  {
+    "t_start": 2375.0,
+    "t_end": 2380.02,
+    "text": "relating the structure of rational points how many rational points you have"
+  },
+  {
+    "t_start": 2380.02,
+    "t_end": 2386.84,
+    "text": "which is a widget an infinite set with the counts of these finite sets name"
+  },
+  {
+    "t_start": 2386.84,
+    "t_end": 2390.35,
+    "text": "your the set of solutions mod P and it's saying there's a correlation that if"
+  },
+  {
+    "t_start": 2390.35,
+    "t_end": 2391.52,
+    "text": "saying there's a correlation that if there are lots of rational points then"
+  },
+  {
+    "t_start": 2391.52,
+    "t_end": 2397.22,
+    "text": "there are lots of rational points then the number of points mod P tends to be"
+  },
+  {
+    "t_start": 2397.22,
+    "t_end": 2401.6,
+    "text": "way so there's the bridge since we're in dire conjecture what is this constancy"
+  },
+  {
+    "t_start": 2401.6,
+    "t_end": 2402.86,
+    "text": "dire conjecture what is this constancy well they actually made a conjecture"
+  },
+  {
+    "t_start": 2402.86,
+    "t_end": 2405.71,
+    "text": "well they actually made a conjecture about that too so bertson's foreigner"
+  },
+  {
+    "t_start": 2405.71,
+    "t_end": 2407.51,
+    "text": "about that too so bertson's foreigner also gave an explicit expression for c"
+  },
+  {
+    "t_start": 2407.51,
+    "t_end": 2409.61,
+    "text": "also gave an explicit expression for c in terms of various other invariants of"
+  },
+  {
+    "t_start": 2409.61,
+    "t_end": 2413.45,
+    "text": "in terms of various other invariants of the elliptic curve e and that's called"
+  },
+  {
+    "t_start": 2413.45,
+    "t_end": 2418.06,
+    "text": "the elliptic curve e and that's called the strong form of the conjecture and"
+  },
+  {
+    "t_start": 2418.06,
+    "t_end": 2421.31,
+    "text": "well this is exactly the if you can prove this conjecture you win a million"
+  },
+  {
+    "t_start": 2421.31,
+    "t_end": 2425.72,
+    "text": "prove this conjecture you win a million dollars and actually I should mention"
+  },
+  {
+    "t_start": 2425.72,
+    "t_end": 2436.82,
+    "text": "form of the conjecture to get a million dollars in case that helps but there is"
+  },
+  {
+    "t_start": 2436.82,
+    "t_end": 2442.1,
+    "text": "dollars in case that helps but there is also a formula for C but that's not part"
+  },
+  {
+    "t_start": 2442.1,
+    "t_end": 2448.52,
+    "text": "also a formula for C but that's not part of you that's not part of them to claim"
+  },
+  {
+    "t_start": 2448.52,
+    "t_end": 2449.99,
+    "text": "millenium problem okay so that's it that's the that's the bertson's for"
+  },
+  {
+    "t_start": 2449.99,
+    "t_end": 2453.89,
+    "text": "engine data conjecture there's a modern formulation that has been hinted at"
+  },
+  {
+    "t_start": 2453.89,
+    "t_end": 2455.24,
+    "text": "formulation that has been hinted at today in the earlier lectures already"
+  },
+  {
+    "t_start": 2455.24,
+    "t_end": 2460.37,
+    "text": "now the modern formulation is in terms of what is called an l function of the"
+  },
+  {
+    "t_start": 2460.37,
+    "t_end": 2462.56,
+    "text": "of what is called an l function of the elliptic curve fees an elliptic curve"
+  },
+  {
+    "t_start": 2462.56,
+    "t_end": 2467.96,
+    "text": "elliptic curve fees an elliptic curve and NP denotes the number of points mod"
+  },
+  {
+    "t_start": 2467.96,
+    "t_end": 2474.83,
+    "text": "remember we said that NP tends to be about P so you can measure the deviation"
+  },
+  {
+    "t_start": 2474.83,
+    "t_end": 2478.31,
+    "text": "about P so you can measure the deviation from that expected value of P or P plus"
+  },
+  {
+    "t_start": 2478.31,
+    "t_end": 2482.03,
+    "text": "from that expected value of P or P plus 1 by setting a P to be P plus 1 minus NP"
+  },
+  {
+    "t_start": 2482.03,
+    "t_end": 2486.86,
+    "text": "so this number now tends to be fairly small and then you can define what's"
+  },
+  {
+    "t_start": 2486.86,
+    "t_end": 2488.72,
+    "text": "small and then you can define what's called the incomplete l function of e by"
+  },
+  {
+    "t_start": 2488.72,
+    "t_end": 2490.19,
+    "text": "called the incomplete l function of e by just saying the product over all primes"
+  },
+  {
+    "t_start": 2490.19,
+    "t_end": 2492.92,
+    "text": "just saying the product over all primes that don't divide the discriminant so"
+  },
+  {
+    "t_start": 2492.92,
+    "t_end": 2494.96,
+    "text": "that don't divide the discriminant so basically product over all Prime's of"
+  },
+  {
+    "t_start": 2494.96,
+    "t_end": 2500.75,
+    "text": "this expression 1 over 1 minus a P times P to the minus s plus P to the 1 minus 2"
+  },
+  {
+    "t_start": 2500.75,
+    "t_end": 2503.38,
+    "text": "P to the minus s plus P to the 1 minus 2 s and there's a natural motivation for"
+  },
+  {
+    "t_start": 2503.38,
+    "t_end": 2508.19,
+    "text": "s and there's a natural motivation for for why you define this but again it's"
+  },
+  {
+    "t_start": 2508.19,
+    "t_end": 2512.41,
+    "text": "just depending on the right Dale functions just depending on the count of"
+  },
+  {
+    "t_start": 2512.41,
+    "t_end": 2519.61,
+    "text": "on the curve and you make this make the cell function and you think of it as a"
+  },
+  {
+    "t_start": 2519.61,
+    "t_end": 2524.26,
+    "text": "function of a complex variable s and you find that this product converges for all"
+  },
+  {
+    "t_start": 2524.26,
+    "t_end": 2526.3,
+    "text": "find that this product converges for all s with real part of s bigger than"
+  },
+  {
+    "t_start": 2526.3,
+    "t_end": 2529.69,
+    "text": "s with real part of s bigger than three-halves but a conjecture of hosta"
+  },
+  {
+    "t_start": 2529.69,
+    "t_end": 2531.43,
+    "text": "three-halves but a conjecture of hosta says that it should have an analytic"
+  },
+  {
+    "t_start": 2531.43,
+    "t_end": 2533.53,
+    "text": "says that it should have an analytic continuation a continuation to the"
+  },
+  {
+    "t_start": 2533.53,
+    "t_end": 2540.58,
+    "text": "continuation a continuation to the entire complex plane and if it did have"
+  },
+  {
+    "t_start": 2540.58,
+    "t_end": 2542.35,
+    "text": "entire complex plane and if it did have a analytic continuation to the entire"
+  },
+  {
+    "t_start": 2542.35,
+    "t_end": 2543.49,
+    "text": "a analytic continuation to the entire complex plane then it would make sense"
+  },
+  {
+    "t_start": 2543.49,
+    "t_end": 2544.81,
+    "text": "complex plane then it would make sense to talk about the value of this function"
+  },
+  {
+    "t_start": 2544.81,
+    "t_end": 2548.26,
+    "text": "to talk about the value of this function at s equals 1 and when you plug in s"
+  },
+  {
+    "t_start": 2548.26,
+    "t_end": 2549.76,
+    "text": "at s equals 1 and when you plug in s equals 1 well then you notice that"
+  },
+  {
+    "t_start": 2549.76,
+    "t_end": 2551.26,
+    "text": "equals 1 well then you notice that you're basically taking products of P"
+  },
+  {
+    "t_start": 2551.26,
+    "t_end": 2559.24,
+    "text": "you're basically taking products of P over N P in this expression right and so"
+  },
+  {
+    "t_start": 2559.24,
+    "t_end": 2560.65,
+    "text": "over N P in this expression right and so that might have something to do with"
+  },
+  {
+    "t_start": 2560.65,
+    "t_end": 2562.69,
+    "text": "that might have something to do with vergence winners and IRAs original"
+  },
+  {
+    "t_start": 2562.69,
+    "t_end": 2568.3,
+    "text": "conjecture and they in fact reformulated in terms of the value at s equals 1"
+  },
+  {
+    "t_start": 2568.3,
+    "t_end": 2571.23,
+    "text": "we don't know but we didn't know about the analytic continuation at that time"
+  },
+  {
+    "t_start": 2571.23,
+    "t_end": 2575.17,
+    "text": "but notice that the partial products of this function at s equals 1 are exactly"
+  },
+  {
+    "t_start": 2575.17,
+    "t_end": 2578.71,
+    "text": "this function at s equals 1 are exactly when you plug in s equals 1 that's"
+  },
+  {
+    "t_start": 2578.71,
+    "t_end": 2584.47,
+    "text": "exactly looking at the reciprocals of the expressions product of n P over P"
+  },
+  {
+    "t_start": 2584.47,
+    "t_end": 2586.6,
+    "text": "and so the conjecture of right since winners and dire was about this analytic"
+  },
+  {
+    "t_start": 2586.6,
+    "t_end": 2592.18,
+    "text": "winners and dire was about this analytic function the behavior at s equals 1 and"
+  },
+  {
+    "t_start": 2592.18,
+    "t_end": 2596.29,
+    "text": "what they conjectured is that the rank of EE should be equal to the order of"
+  },
+  {
+    "t_start": 2596.29,
+    "t_end": 2601.69,
+    "text": "equals 1 so in other words if you took a Taylor expansion around s equals 1 the"
+  },
+  {
+    "t_start": 2601.69,
+    "t_end": 2603.1,
+    "text": "Taylor expansion around s equals 1 the first Taylor coefficient would look like"
+  },
+  {
+    "t_start": 2603.1,
+    "t_end": 2609.46,
+    "text": "first Taylor coefficient would look like C times s minus 1 to the R and that"
+  },
+  {
+    "t_start": 2609.46,
+    "t_end": 2614.28,
+    "text": "would be the first and then all the other terms would be higher order terms"
+  },
+  {
+    "t_start": 2617.2,
+    "t_end": 2619.24,
+    "text": "so just the order of vanishing remember where it looks like the reciprocal now"
+  },
+  {
+    "t_start": 2619.24,
+    "t_end": 2621.58,
+    "text": "where it looks like the reciprocal now so going to the rate of going to"
+  },
+  {
+    "t_start": 2621.58,
+    "t_end": 2626.74,
+    "text": "infinity has been replaced by the rate of going to zero and so how fast is"
+  },
+  {
+    "t_start": 2626.74,
+    "t_end": 2632.5,
+    "text": "vanishing is now measuring this the growth of n P over P for P less than"
+  },
+  {
+    "t_start": 2632.5,
+    "t_end": 2635.29,
+    "text": "growth of n P over P for P less than equal to X and so their conjectures just"
+  },
+  {
+    "t_start": 2635.29,
+    "t_end": 2639.43,
+    "text": "equal to X and so their conjectures just says that the rank of E is equal to the"
+  },
+  {
+    "t_start": 2639.43,
+    "t_end": 2640.9,
+    "text": "order of vanishing at s equals 1 of a particular analytic function it's quite"
+  },
+  {
+    "t_start": 2640.9,
+    "t_end": 2642.73,
+    "text": "particular analytic function it's quite an amazing conjectures relating the"
+  },
+  {
+    "t_start": 2642.73,
+    "t_end": 2644.98,
+    "text": "an amazing conjectures relating the behavior of an analytic function of"
+  },
+  {
+    "t_start": 2644.98,
+    "t_end": 2650.05,
+    "text": "analysis to something algebraic the structure of rational solutions to an"
+  },
+  {
+    "t_start": 2650.05,
+    "t_end": 2651.91,
+    "text": "structure of rational solutions to an equation quite an amazing conjecture"
+  },
+  {
+    "t_start": 2651.91,
+    "t_end": 2653.8,
+    "text": "equation quite an amazing conjecture especially because this al function was"
+  },
+  {
+    "t_start": 2653.8,
+    "t_end": 2662.53,
+    "text": "especially because this al function was not even known to be defined at s equals"
+  },
+  {
+    "t_start": 2662.53,
+    "t_end": 2664.78,
+    "text": "1 at the time one of the great contributions of what of Andrews"
+  },
+  {
+    "t_start": 2664.78,
+    "t_end": 2672.609,
+    "text": "modularity theorem of Wiles and boy Conrad diamond Taylor is that it allows"
+  },
+  {
+    "t_start": 2672.609,
+    "t_end": 2674.26,
+    "text": "Conrad diamond Taylor is that it allows this modern formulation of the birch in"
+  },
+  {
+    "t_start": 2674.26,
+    "t_end": 2675.7,
+    "text": "this modern formulation of the birch in swinish entire conjecture to make sense"
+  },
+  {
+    "t_start": 2675.7,
+    "t_end": 2682.99,
+    "text": "swinish entire conjecture to make sense so a consequence of the work of wilds is"
+  },
+  {
+    "t_start": 2682.99,
+    "t_end": 2685.15,
+    "text": "that for any elliptic curve e the l function Eliav s does actually have an"
+  },
+  {
+    "t_start": 2685.15,
+    "t_end": 2686.59,
+    "text": "function Eliav s does actually have an analytic continuation to the entire"
+  },
+  {
+    "t_start": 2686.59,
+    "t_end": 2692.44,
+    "text": "complex plane so this of course was many years after the conjecture of britain"
+  },
+  {
+    "t_start": 2692.44,
+    "t_end": 2696.25,
+    "text": "years after the conjecture of britain swenerton dire was made about the l"
+  },
+  {
+    "t_start": 2696.25,
+    "t_end": 2697.99,
+    "text": "function at s equals 1 theta knows defined there but the work of Wiles"
+  },
+  {
+    "t_start": 2697.99,
+    "t_end": 2702.01,
+    "text": "allows us to know that the function is actually defined at s equals 1 so the"
+  },
+  {
+    "t_start": 2702.01,
+    "t_end": 2703.18,
+    "text": "actually defined at s equals 1 so the version swenerton dire conjecture and"
+  },
+  {
+    "t_start": 2703.18,
+    "t_end": 2705.04,
+    "text": "version swenerton dire conjecture and the modern formulation makes sense"
+  },
+  {
+    "t_start": 2705.04,
+    "t_end": 2711.76,
+    "text": "Conrad diamond Taylor and the proof of the modularity theorem and the reason"
+  },
+  {
+    "t_start": 2711.76,
+    "t_end": 2714.849,
+    "text": "the modularity theorem and the reason that the L function has an analytic"
+  },
+  {
+    "t_start": 2714.849,
+    "t_end": 2721.27,
+    "text": "analytic in the entire complex plane and therefore the elf function is to through"
+  },
+  {
+    "t_start": 2721.27,
+    "t_end": 2723.84,
+    "text": "therefore the elf function is to through a technique called the Mellon transform"
+  },
+  {
+    "t_start": 2723.84,
+    "t_end": 2729.82,
+    "text": "a technique called the Mellon transform so because modular functions are defined"
+  },
+  {
+    "t_start": 2729.82,
+    "t_end": 2732.97,
+    "text": "so because modular functions are defined on the entire complex plane so are the"
+  },
+  {
+    "t_start": 2732.97,
+    "t_end": 2736.599,
+    "text": "elf functions of these elliptic curves if you look to curves are modular and so"
+  },
+  {
+    "t_start": 2736.599,
+    "t_end": 2739.45,
+    "text": "we now know that the L function is defined at s equals 1 and so this"
+  },
+  {
+    "t_start": 2739.45,
+    "t_end": 2740.859,
+    "text": "defined at s equals 1 and so this formulation of the britons mentioned our"
+  },
+  {
+    "t_start": 2740.859,
+    "t_end": 2742.78,
+    "text": "formulation of the britons mentioned our conjecture makes sense because of that"
+  },
+  {
+    "t_start": 2742.78,
+    "t_end": 2745.39,
+    "text": "conjecture makes sense because of that and and that's that's huge because to"
+  },
+  {
+    "t_start": 2745.39,
+    "t_end": 2748.03,
+    "text": "solve a if you want to solve the bridge since Winterson our conjecture you do"
+  },
+  {
+    "t_start": 2748.03,
+    "t_end": 2755.14,
+    "text": "want to know that it makes sense first and so this really helps a lot ok so let"
+  },
+  {
+    "t_start": 2755.14,
+    "t_end": 2759.67,
+    "text": "and so this really helps a lot ok so let u be an elliptic curve and let r be its"
+  },
+  {
+    "t_start": 2759.67,
+    "t_end": 2761.02,
+    "text": "rank ok by the theorem of wiles and board conrad diamond taylor the"
+  },
+  {
+    "t_start": 2761.02,
+    "t_end": 2763.03,
+    "text": "board conrad diamond taylor the modularity theorem we know now that"
+  },
+  {
+    "t_start": 2763.03,
+    "t_end": 2765.25,
+    "text": "modularity theorem we know now that therefore there exists in our prime such"
+  },
+  {
+    "t_start": 2765.25,
+    "t_end": 2767.17,
+    "text": "therefore there exists in our prime such that the taylor expansion of this"
+  },
+  {
+    "t_start": 2767.17,
+    "t_end": 2771.91,
+    "text": "analytic function at s equals 1 is of the form some constant times s minus r"
+  },
+  {
+    "t_start": 2771.91,
+    "t_end": 2775.21,
+    "text": "to the r prime plus higher order terms what does analytic means it just means"
+  },
+  {
+    "t_start": 2775.21,
+    "t_end": 2777.62,
+    "text": "what does analytic means it just means that you have a power series expansion"
+  },
+  {
+    "t_start": 2777.62,
+    "t_end": 2779.12,
+    "text": "that you have a power series expansion at that point if it's analytic at s"
+  },
+  {
+    "t_start": 2779.12,
+    "t_end": 2784.13,
+    "text": "equals one it means you can do a Taylor expansion at s equals one and you get"
+  },
+  {
+    "t_start": 2784.13,
+    "t_end": 2786.92,
+    "text": "expansion at s equals one and you get some leading term the first exponent you"
+  },
+  {
+    "t_start": 2786.92,
+    "t_end": 2790.22,
+    "text": "some leading term the first exponent you can call our prime and then you have"
+  },
+  {
+    "t_start": 2790.22,
+    "t_end": 2794.9,
+    "text": "this our prime is exactly what it means to talk about the order of vanishing at"
+  },
+  {
+    "t_start": 2794.9,
+    "t_end": 2796.7,
+    "text": "to talk about the order of vanishing at s equals one and that's called the"
+  },
+  {
+    "t_start": 2796.7,
+    "t_end": 2799.97,
+    "text": "s equals one and that's called the analytic rank quantity our prime is"
+  },
+  {
+    "t_start": 2799.97,
+    "t_end": 2805.34,
+    "text": "called the analytic rank okay it's the exponent of the first term in the Taylor"
+  },
+  {
+    "t_start": 2805.34,
+    "t_end": 2809.6,
+    "text": "exponent of the first term in the Taylor series at s equals one where we now know"
+  },
+  {
+    "t_start": 2809.6,
+    "t_end": 2812.96,
+    "text": "it's known to be defined by the modularity theorem of Wiles well okay so"
+  },
+  {
+    "t_start": 2812.96,
+    "t_end": 2814.34,
+    "text": "modularity theorem of Wiles well okay so the quantity R prime is called the"
+  },
+  {
+    "t_start": 2814.34,
+    "t_end": 2818.96,
+    "text": "the quantity R prime is called the analytic rank of e and so the conjecture"
+  },
+  {
+    "t_start": 2818.96,
+    "t_end": 2824.03,
+    "text": "now makes sense and we can say the rank of e is equal to the analytic rank of e"
+  },
+  {
+    "t_start": 2824.03,
+    "t_end": 2825.53,
+    "text": "of e is equal to the analytic rank of e that's what the bertson's Winterton dyer"
+  },
+  {
+    "t_start": 2825.53,
+    "t_end": 2829.1,
+    "text": "that's what the bertson's Winterton dyer conjecture says the rank is defined in"
+  },
+  {
+    "t_start": 2829.1,
+    "t_end": 2832.18,
+    "text": "terms of the rank of the group of solutions of rational points on this"
+  },
+  {
+    "t_start": 2832.18,
+    "t_end": 2835.88,
+    "text": "quantity our prime is the order of vanishing of this analytic function"
+  },
+  {
+    "t_start": 2835.88,
+    "t_end": 2839.96,
+    "text": "that's defined in terms of the point point counts mod P make a you make a"
+  },
+  {
+    "t_start": 2839.96,
+    "t_end": 2842.12,
+    "text": "point counts mod P make a you make a generating function called the L"
+  },
+  {
+    "t_start": 2842.12,
+    "t_end": 2844.93,
+    "text": "generating function called the L function and you look at the order of"
+  },
+  {
+    "t_start": 2844.93,
+    "t_end": 2848.33,
+    "text": "construction that's called R Prime and the bertson's finish and our conjecture"
+  },
+  {
+    "t_start": 2848.33,
+    "t_end": 2851.24,
+    "text": "the bertson's finish and our conjecture says that R equals R prime ones defined"
+  },
+  {
+    "t_start": 2851.24,
+    "t_end": 2852.92,
+    "text": "says that R equals R prime ones defined algebraically wants to find analytically"
+  },
+  {
+    "t_start": 2852.92,
+    "t_end": 2856.91,
+    "text": "and they're the same that's the kind of thing that really excites mathematicians"
+  },
+  {
+    "t_start": 2856.91,
+    "t_end": 2860.63,
+    "text": "thing that really excites mathematicians the unity of the way you're defining"
+  },
+  {
+    "t_start": 2860.63,
+    "t_end": 2861.77,
+    "text": "the unity of the way you're defining these quantities in two completely"
+  },
+  {
+    "t_start": 2861.77,
+    "t_end": 2863.6,
+    "text": "these quantities in two completely different ways algebra and analysis and"
+  },
+  {
+    "t_start": 2863.6,
+    "t_end": 2869.09,
+    "text": "different ways algebra and analysis and they're the same that's the that's the"
+  },
+  {
+    "t_start": 2869.09,
+    "t_end": 2874.94,
+    "text": "winners and our conjecture in a way that is now known to make sense due to the"
+  },
+  {
+    "t_start": 2874.94,
+    "t_end": 2878.75,
+    "text": "is now known to make sense due to the work of Wiles okay so that's that's the"
+  },
+  {
+    "t_start": 2878.75,
+    "t_end": 2880.82,
+    "text": "work of Wiles okay so that's that's the Burton swenerton Dyer conjecture I"
+  },
+  {
+    "t_start": 2880.82,
+    "t_end": 2890.06,
+    "text": "well as it's modern formulation both of which now makes sense it takes much less"
+  },
+  {
+    "t_start": 2890.06,
+    "t_end": 2891.65,
+    "text": "which now makes sense it takes much less time to describe what is known about the"
+  },
+  {
+    "t_start": 2891.65,
+    "t_end": 2896.18,
+    "text": "time to describe what is known about the conjecture"
+  },
+  {
+    "t_start": 2898.859,
+    "t_end": 2900.45,
+    "text": "but one of the very first theoretical results to where you know there are lots"
+  },
+  {
+    "t_start": 2900.45,
+    "t_end": 2901.5,
+    "text": "results to where you know there are lots of there was lots of mounting"
+  },
+  {
+    "t_start": 2901.5,
+    "t_end": 2902.73,
+    "text": "of there was lots of mounting computational evidence for the bird"
+  },
+  {
+    "t_start": 2902.73,
+    "t_end": 2903.87,
+    "text": "computational evidence for the bird since we mentioned dire conjecture but"
+  },
+  {
+    "t_start": 2903.87,
+    "t_end": 2905.16,
+    "text": "since we mentioned dire conjecture but one of the very first theoretical"
+  },
+  {
+    "t_start": 2905.16,
+    "t_end": 2910.65,
+    "text": "evidences of the Virgin swenerton dire conjecture was actually an in Andrews"
+  },
+  {
+    "t_start": 2910.65,
+    "t_end": 2913.38,
+    "text": "conjecture was actually an in Andrews PhD thesis with his PhD advisor John"
+  },
+  {
+    "t_start": 2913.38,
+    "t_end": 2917.73,
+    "text": "Coates so those coats and Wiles in 1977 they gave the first theoretical evidence"
+  },
+  {
+    "t_start": 2917.73,
+    "t_end": 2921.599,
+    "text": "they gave the first theoretical evidence towards the bridge in swinish and our"
+  },
+  {
+    "t_start": 2921.599,
+    "t_end": 2926.43,
+    "text": "conjecture and what they showed is that if he's an elliptic curve of the form y"
+  },
+  {
+    "t_start": 2926.43,
+    "t_end": 2932.069,
+    "text": "squared equals x cubed plus ax or y squared equals x cubed plus B and these"
+  },
+  {
+    "t_start": 2932.069,
+    "t_end": 2933.51,
+    "text": "were actually exactly the kinds of equations that bertson's Winterton dire"
+  },
+  {
+    "t_start": 2933.51,
+    "t_end": 2939.0,
+    "text": "equations that bertson's Winterton dire were doing their computations on to test"
+  },
+  {
+    "t_start": 2939.0,
+    "t_end": 2940.829,
+    "text": "their to to test out their conjecture they were doing computation of these"
+  },
+  {
+    "t_start": 2940.829,
+    "t_end": 2947.88,
+    "text": "the kinds of curves that coats and while studied in 1977 and what they showed is"
+  },
+  {
+    "t_start": 2947.88,
+    "t_end": 2950.13,
+    "text": "studied in 1977 and what they showed is that for these kinds of curves y squared"
+  },
+  {
+    "t_start": 2950.13,
+    "t_end": 2951.42,
+    "text": "that for these kinds of curves y squared equals x people say x or y squared"
+  },
+  {
+    "t_start": 2951.42,
+    "t_end": 2955.589,
+    "text": "equals x people's be if our prime equals 0 that analytic order of vanishing of"
+  },
+  {
+    "t_start": 2955.589,
+    "t_end": 2960.21,
+    "text": "the l function is 0 then the rank is also 0 they're finitely many rational"
+  },
+  {
+    "t_start": 2960.21,
+    "t_end": 2963.27,
+    "text": "also 0 they're finitely many rational points that was that was the results of"
+  },
+  {
+    "t_start": 2963.27,
+    "t_end": 2965.789,
+    "text": "points that was that was the results of coats and Wiles their results actually"
+  },
+  {
+    "t_start": 2965.789,
+    "t_end": 2967.17,
+    "text": "coats and Wiles their results actually applied to a more general class of"
+  },
+  {
+    "t_start": 2967.17,
+    "t_end": 2968.67,
+    "text": "applied to a more general class of elliptic curves not just those two kinds"
+  },
+  {
+    "t_start": 2968.67,
+    "t_end": 2971.789,
+    "text": "elliptic curves not just those two kinds I wrote there and although those two"
+  },
+  {
+    "t_start": 2971.789,
+    "t_end": 2973.319,
+    "text": "kinds are the ones that it's been cited for the most and used for the most"
+  },
+  {
+    "t_start": 2973.319,
+    "t_end": 2977.88,
+    "text": "because that was part of the original bsd computations but more generally the"
+  },
+  {
+    "t_start": 2977.88,
+    "t_end": 2978.96,
+    "text": "bsd computations but more generally the quotes whilst theorem if you're familiar"
+  },
+  {
+    "t_start": 2978.96,
+    "t_end": 2981.569,
+    "text": "quotes whilst theorem if you're familiar with what it means to have complex"
+  },
+  {
+    "t_start": 2981.569,
+    "t_end": 2983.88,
+    "text": "with what it means to have complex multiplication the Cotswolds theorem"
+  },
+  {
+    "t_start": 2983.88,
+    "t_end": 2987.24,
+    "text": "applies to any elliptic curve having complex multiplication by the ring of"
+  },
+  {
+    "t_start": 2987.24,
+    "t_end": 2989.64,
+    "text": "complex multiplication by the ring of integers in an imaginary quadratic field"
+  },
+  {
+    "t_start": 2989.64,
+    "t_end": 2992.52,
+    "text": "integers in an imaginary quadratic field having class number 1 but these two"
+  },
+  {
+    "t_start": 2992.52,
+    "t_end": 2995.78,
+    "text": "having class number 1 but these two kinds of equations are typical examples"
+  },
+  {
+    "t_start": 2995.78,
+    "t_end": 2997.65,
+    "text": "kinds of equations are typical examples of curves that have complex"
+  },
+  {
+    "t_start": 2997.65,
+    "t_end": 3000.799,
+    "text": "multiplication by the ring of integers of an imaginary quadratic field of class"
+  },
+  {
+    "t_start": 3000.799,
+    "t_end": 3002.66,
+    "text": "of an imaginary quadratic field of class number 1 namely this has complex"
+  },
+  {
+    "t_start": 3002.66,
+    "t_end": 3008.059,
+    "text": "multiplication inside q joint I and this has complex multiplication inside Q join"
+  },
+  {
+    "t_start": 3008.059,
+    "t_end": 3014.539,
+    "text": "the cube root of unity ok but the result still applied to a very special class of"
+  },
+  {
+    "t_start": 3014.539,
+    "t_end": 3016.76,
+    "text": "still applied to a very special class of elliptic curves but that that was the"
+  },
+  {
+    "t_start": 3016.76,
+    "t_end": 3020.72,
+    "text": "elliptic curves but that that was the first indication that it was possible to"
+  },
+  {
+    "t_start": 3020.72,
+    "t_end": 3021.98,
+    "text": "make progress on the bridge since Winterton dire conjecture even if it's"
+  },
+  {
+    "t_start": 3021.98,
+    "t_end": 3023.21,
+    "text": "Winterton dire conjecture even if it's for a special class of elliptic curves"
+  },
+  {
+    "t_start": 3023.21,
+    "t_end": 3026.24,
+    "text": "and only in the case of our prime equals 0 it was the first theoretical evidence"
+  },
+  {
+    "t_start": 3026.24,
+    "t_end": 3027.65,
+    "text": "0 it was the first theoretical evidence that said the verse since winners and"
+  },
+  {
+    "t_start": 3027.65,
+    "t_end": 3028.549,
+    "text": "that said the verse since winners and dire conjecture is true"
+  },
+  {
+    "t_start": 3028.549,
+    "t_end": 3037.849,
+    "text": "for for infinitely many elliptic curves in this in the special case the the"
+  },
+  {
+    "t_start": 3037.849,
+    "t_end": 3042.949,
+    "text": "results of coats and Wiles was extended to general elliptic curves and also for"
+  },
+  {
+    "t_start": 3042.949,
+    "t_end": 3046.249,
+    "text": "to general elliptic curves and also for the case of our prime equals one my"
+  },
+  {
+    "t_start": 3046.249,
+    "t_end": 3048.62,
+    "text": "the case of our prime equals one my remarkable works in the 1980s by Coley"
+  },
+  {
+    "t_start": 3048.62,
+    "t_end": 3051.289,
+    "text": "remarkable works in the 1980s by Coley bagging and my gross and saggy what they"
+  },
+  {
+    "t_start": 3051.289,
+    "t_end": 3053.089,
+    "text": "bagging and my gross and saggy what they showed is that for any elliptic curve if"
+  },
+  {
+    "t_start": 3053.089,
+    "t_end": 3055.999,
+    "text": "showed is that for any elliptic curve if our prime equals 0 or 1 they have to"
+  },
+  {
+    "t_start": 3055.999,
+    "t_end": 3056.929,
+    "text": "our prime equals 0 or 1 they have to assume that the elliptic curve is"
+  },
+  {
+    "t_start": 3056.929,
+    "t_end": 3059.059,
+    "text": "assume that the elliptic curve is modular which they didn't know yet but"
+  },
+  {
+    "t_start": 3059.059,
+    "t_end": 3060.229,
+    "text": "modular which they didn't know yet but that's about to happen a few years later"
+  },
+  {
+    "t_start": 3060.229,
+    "t_end": 3063.529,
+    "text": "that's about to happen a few years later so I'll let it slide if our prime equals"
+  },
+  {
+    "t_start": 3063.529,
+    "t_end": 3066.13,
+    "text": "so I'll let it slide if our prime equals 0 or 1 for an elliptic curve II"
+  },
+  {
+    "t_start": 3066.13,
+    "t_end": 3067.759,
+    "text": "0 or 1 for an elliptic curve II Thunderbird since we mentioned dire"
+  },
+  {
+    "t_start": 3067.759,
+    "t_end": 3071.179,
+    "text": "conjecture is true for e in other words if our prime equals 0 then R equals 0"
+  },
+  {
+    "t_start": 3071.179,
+    "t_end": 3076.009,
+    "text": "for our prime equals 1 then R equals 1 this was a great contribution of gross"
+  },
+  {
+    "t_start": 3076.009,
+    "t_end": 3078.829,
+    "text": "this was a great contribution of gross saggy and Koli vagon in the 80s and"
+  },
+  {
+    "t_start": 3078.829,
+    "t_end": 3080.269,
+    "text": "saggy and Koli vagon in the 80s and applies to any elliptic curve no"
+  },
+  {
+    "t_start": 3080.269,
+    "t_end": 3082.16,
+    "text": "applies to any elliptic curve no restrictions except that it's modular"
+  },
+  {
+    "t_start": 3082.16,
+    "t_end": 3088.13,
+    "text": "restrictions except that it's modular which we knew a few years later by the"
+  },
+  {
+    "t_start": 3088.13,
+    "t_end": 3091.339,
+    "text": "than using modular their techniques were quite different than those with coats"
+  },
+  {
+    "t_start": 3091.339,
+    "t_end": 3096.199,
+    "text": "quite different than those with coats and miles and the question has been for"
+  },
+  {
+    "t_start": 3096.199,
+    "t_end": 3101.959,
+    "text": "a while if our prime equals 0 or 1 then that implies R equals 0 1 what about the"
+  },
+  {
+    "t_start": 3101.959,
+    "t_end": 3105.529,
+    "text": "that implies R equals 0 1 what about the converse if R equals 0 can we conclude"
+  },
+  {
+    "t_start": 3105.529,
+    "t_end": 3109.789,
+    "text": "still don't know that but we know it in certain cases now and same thing if R"
+  },
+  {
+    "t_start": 3109.789,
+    "t_end": 3111.319,
+    "text": "certain cases now and same thing if R equals 1 can we conclude that our prime"
+  },
+  {
+    "t_start": 3111.319,
+    "t_end": 3116.329,
+    "text": "equals 1 that converse is still not known but inspired by and taking further"
+  },
+  {
+    "t_start": 3116.329,
+    "t_end": 3118.13,
+    "text": "known but inspired by and taking further these ideas of coats and Wiles and gross"
+  },
+  {
+    "t_start": 3118.13,
+    "t_end": 3121.429,
+    "text": "these ideas of coats and Wiles and gross Agia kohli buggin as well as works that"
+  },
+  {
+    "t_start": 3121.429,
+    "t_end": 3124.37,
+    "text": "Agia kohli buggin as well as works that came later Cocteau actually proved"
+  },
+  {
+    "t_start": 3124.37,
+    "t_end": 3127.459,
+    "text": "reproved the result of gross saggy and Kohli bagging in the case our prime"
+  },
+  {
+    "t_start": 3127.459,
+    "t_end": 3130.009,
+    "text": "Kohli bagging in the case our prime equals 0 using methods that are very"
+  },
+  {
+    "t_start": 3130.009,
+    "t_end": 3131.509,
+    "text": "equals 0 using methods that are very reminiscent of coats and Wiles so they"
+  },
+  {
+    "t_start": 3131.509,
+    "t_end": 3134.569,
+    "text": "reminiscent of coats and Wiles so they found catio found an alternate proof and"
+  },
+  {
+    "t_start": 3134.569,
+    "t_end": 3139.339,
+    "text": "found catio found an alternate proof and then there was all this amazing work of"
+  },
+  {
+    "t_start": 3139.339,
+    "t_end": 3143.329,
+    "text": "Mazur Wiles and Wiles on the Asama main conjecture and putting all these ideas"
+  },
+  {
+    "t_start": 3143.329,
+    "t_end": 3151.459,
+    "text": "together the recent work of Skinner and urbe and John just in 2013 they've been"
+  },
+  {
+    "t_start": 3151.459,
+    "t_end": 3152.989,
+    "text": "urbe and John just in 2013 they've been able to prove a converse of sorts"
+  },
+  {
+    "t_start": 3152.989,
+    "t_end": 3154.309,
+    "text": "able to prove a converse of sorts although there's still lots of"
+  },
+  {
+    "t_start": 3154.309,
+    "t_end": 3160.489,
+    "text": "restrictions but they prove that if R equals 0 or 1 for an elliptic curve and"
+  },
+  {
+    "t_start": 3160.489,
+    "t_end": 3163.599,
+    "text": "equals 0 or 1 for an elliptic curve and E satisfies various technical conditions"
+  },
+  {
+    "t_start": 3163.599,
+    "t_end": 3167.749,
+    "text": "E satisfies various technical conditions and I'll give you an example for some of"
+  },
+  {
+    "t_start": 3167.749,
+    "t_end": 3169.339,
+    "text": "you who know these terms on some of the terminology so one of their conditions"
+  },
+  {
+    "t_start": 3169.339,
+    "t_end": 3171.459,
+    "text": "terminology so one of their conditions is for some prime P greater than equal"
+  },
+  {
+    "t_start": 3171.459,
+    "t_end": 3176.87,
+    "text": "to 5 he should have peace on my rank 0 or 1"
+  },
+  {
+    "t_start": 3178.099,
+    "t_end": 3180.709,
+    "text": "you should have certain kinds of reduction mod P their various other"
+  },
+  {
+    "t_start": 3180.709,
+    "t_end": 3186.079,
+    "text": "things that it would take a whole slide to say but I want to mention that these"
+  },
+  {
+    "t_start": 3186.079,
+    "t_end": 3186.949,
+    "text": "to say but I want to mention that these technical conditions are actually"
+  },
+  {
+    "t_start": 3186.949,
+    "t_end": 3190.099,
+    "text": "checkable conditions so given an elliptic curve you can actually check"
+  },
+  {
+    "t_start": 3190.099,
+    "t_end": 3194.689,
+    "text": "elliptic curve you can actually check these conditions fairly easily and if"
+  },
+  {
+    "t_start": 3194.689,
+    "t_end": 3196.099,
+    "text": "these conditions fairly easily and if those technical conditions are satisfied"
+  },
+  {
+    "t_start": 3196.099,
+    "t_end": 3200.179,
+    "text": "those technical conditions are satisfied then they conclude that our prime equals"
+  },
+  {
+    "t_start": 3200.179,
+    "t_end": 3202.13,
+    "text": "0 or our prime equals 1 so this kind of converse is now known under certain"
+  },
+  {
+    "t_start": 3202.13,
+    "t_end": 3206.359,
+    "text": "converse is now known under certain conditions that are very checkable so we"
+  },
+  {
+    "t_start": 3206.359,
+    "t_end": 3209.569,
+    "text": "conditions that are very checkable so we kind of basically know BSD for these"
+  },
+  {
+    "t_start": 3209.569,
+    "t_end": 3211.88,
+    "text": "kind of basically know BSD for these cases of rank 0 and 1 and analytic rank"
+  },
+  {
+    "t_start": 3211.88,
+    "t_end": 3216.799,
+    "text": "cases of rank 0 and 1 and analytic rank 0 and 1 under certain technical"
+  },
+  {
+    "t_start": 3216.799,
+    "t_end": 3219.019,
+    "text": "hypotheses now the question is so if R equals 0 or 1 we can check these"
+  },
+  {
+    "t_start": 3219.019,
+    "t_end": 3221.179,
+    "text": "equals 0 or 1 we can check these technical hypotheses and often they"
+  },
+  {
+    "t_start": 3221.179,
+    "t_end": 3225.38,
+    "text": "turns out to be well they're not true when you prove with theorem like this"
+  },
+  {
+    "t_start": 3225.38,
+    "t_end": 3226.819,
+    "text": "when you prove with theorem like this with lots of technical hypotheses their"
+  },
+  {
+    "t_start": 3226.819,
+    "t_end": 3228.169,
+    "text": "with lots of technical hypotheses their first question is always does it apply"
+  },
+  {
+    "t_start": 3228.169,
+    "t_end": 3233.329,
+    "text": "first question is always does it apply to any lip to curves at all so do these"
+  },
+  {
+    "t_start": 3233.329,
+    "t_end": 3234.679,
+    "text": "listen to any elliptic curve satisfy these conditions that's the natural"
+  },
+  {
+    "t_start": 3234.679,
+    "t_end": 3238.91,
+    "text": "question to ask and that was a question that I got very interested in because I"
+  },
+  {
+    "t_start": 3238.91,
+    "t_end": 3241.16,
+    "text": "that I got very interested in because I wanted to know ok this converse is it"
+  },
+  {
+    "t_start": 3241.16,
+    "t_end": 3242.959,
+    "text": "wanted to know ok this converse is it actually hold for any lipstick rips so"
+  },
+  {
+    "t_start": 3242.959,
+    "t_end": 3248.239,
+    "text": "so how do you what does it mean to does it how do you test whether it holds for"
+  },
+  {
+    "t_start": 3248.239,
+    "t_end": 3251.569,
+    "text": "you can write any elliptic curve in the form y squared equals x q plus ax plus B"
+  },
+  {
+    "t_start": 3251.569,
+    "t_end": 3254.269,
+    "text": "form y squared equals x q plus ax plus B so we can order we can call that EAB and"
+  },
+  {
+    "t_start": 3254.269,
+    "t_end": 3260.719,
+    "text": "so we can order we can call that EAB and as a and B vary that varies across all"
+  },
+  {
+    "t_start": 3260.719,
+    "t_end": 3262.13,
+    "text": "elliptic curves over Q and so what you can do is you can just order all"
+  },
+  {
+    "t_start": 3262.13,
+    "t_end": 3263.989,
+    "text": "can do is you can just order all elliptic curves right list them all in"
+  },
+  {
+    "t_start": 3263.989,
+    "t_end": 3271.64,
+    "text": "take bigger and bigger a and B and just list them all so make way to make that"
+  },
+  {
+    "t_start": 3271.64,
+    "t_end": 3273.019,
+    "text": "list them all so make way to make that precise you define the height of e by"
+  },
+  {
+    "t_start": 3273.019,
+    "t_end": 3274.339,
+    "text": "precise you define the height of e by the size of the coefficients of the"
+  },
+  {
+    "t_start": 3274.339,
+    "t_end": 3278.959,
+    "text": "defining equation which are a and B you can define the height of EAB is just to"
+  },
+  {
+    "t_start": 3278.959,
+    "t_end": 3283.249,
+    "text": "can define the height of EAB is just to be the maximum of a and B or it's more"
+  },
+  {
+    "t_start": 3283.249,
+    "t_end": 3285.469,
+    "text": "natural to compare the size of a cubed and B squared so you can order all up"
+  },
+  {
+    "t_start": 3285.469,
+    "t_end": 3286.609,
+    "text": "and B squared so you can order all up the curve by what's called the height of"
+  },
+  {
+    "t_start": 3286.609,
+    "t_end": 3290.569,
+    "text": "the curve by what's called the height of e which is just the maximum for a cubed"
+  },
+  {
+    "t_start": 3290.569,
+    "t_end": 3292.969,
+    "text": "maximum of the absolute values of for a cubed and 27 B squared remember these"
+  },
+  {
+    "t_start": 3292.969,
+    "t_end": 3295.05,
+    "text": "cubed and 27 B squared remember these are the two terms in the discriminant"
+  },
+  {
+    "t_start": 3295.05,
+    "t_end": 3299.64,
+    "text": "I've the elliptic curve but what this just means is that we're taking all up"
+  },
+  {
+    "t_start": 3299.64,
+    "t_end": 3300.9,
+    "text": "just means is that we're taking all up two curves and we're just listing them"
+  },
+  {
+    "t_start": 3300.9,
+    "t_end": 3303.9,
+    "text": "two curves and we're just listing them all in order of increasing sizes of a"
+  },
+  {
+    "t_start": 3303.9,
+    "t_end": 3309.27,
+    "text": "and B and then when we order all elliptic curves that way by what we call"
+  },
+  {
+    "t_start": 3309.27,
+    "t_end": 3313.559,
+    "text": "elliptic curves that way by what we call the height we order all elliptic curves"
+  },
+  {
+    "t_start": 3313.559,
+    "t_end": 3314.79,
+    "text": "in order of increasing height and then we can ask statistical questions"
+  },
+  {
+    "t_start": 3314.79,
+    "t_end": 3316.89,
+    "text": "we can ask statistical questions relating to the rank okay"
+  },
+  {
+    "t_start": 3316.89,
+    "t_end": 3320.7,
+    "text": "what did how does the rank very does it get bigger and bigger as a and B get"
+  },
+  {
+    "t_start": 3320.7,
+    "t_end": 3326.25,
+    "text": "probability that B SD is satisfied as a and B the conjecture is that it should"
+  },
+  {
+    "t_start": 3326.25,
+    "t_end": 3327.96,
+    "text": "and B the conjecture is that it should be satisfied by a hundred percent of"
+  },
+  {
+    "t_start": 3327.96,
+    "t_end": 3332.22,
+    "text": "be satisfied by a hundred percent of curves and we can ask what proportions"
+  },
+  {
+    "t_start": 3332.22,
+    "t_end": 3334.62,
+    "text": "curves and we can ask what proportions satisfy the conditions of skinner by and"
+  },
+  {
+    "t_start": 3334.62,
+    "t_end": 3336.059,
+    "text": "satisfy the conditions of skinner by and young so that we actually know that the"
+  },
+  {
+    "t_start": 3336.059,
+    "t_end": 3337.29,
+    "text": "young so that we actually know that the Burstyn spinach and our conjecture is"
+  },
+  {
+    "t_start": 3337.29,
+    "t_end": 3343.29,
+    "text": "Burstyn spinach and our conjecture is true so so these are kind of statistical"
+  },
+  {
+    "t_start": 3343.29,
+    "t_end": 3345.059,
+    "text": "true so so these are kind of statistical questions that some of us have been"
+  },
+  {
+    "t_start": 3345.059,
+    "t_end": 3347.37,
+    "text": "questions that some of us have been asking lately and first question is do"
+  },
+  {
+    "t_start": 3347.37,
+    "t_end": 3349.309,
+    "text": "asking lately and first question is do most elliptic curves have small rank and"
+  },
+  {
+    "t_start": 3349.309,
+    "t_end": 3351.39,
+    "text": "most elliptic curves have small rank and it's been conjectured that a hundred"
+  },
+  {
+    "t_start": 3351.39,
+    "t_end": 3352.62,
+    "text": "it's been conjectured that a hundred percent of elliptic curves have rank"
+  },
+  {
+    "t_start": 3352.62,
+    "t_end": 3355.71,
+    "text": "percent of elliptic curves have rank zero or one one hundred percent doesn't"
+  },
+  {
+    "t_start": 3355.71,
+    "t_end": 3358.89,
+    "text": "mean all it just means one hundred percent there could be zero percent that"
+  },
+  {
+    "t_start": 3358.89,
+    "t_end": 3363.87,
+    "text": "percent there could be zero percent that have higher rank and in a density sense"
+  },
+  {
+    "t_start": 3363.87,
+    "t_end": 3365.46,
+    "text": "it's just like Prime's are zero percent of the integers but they're still"
+  },
+  {
+    "t_start": 3365.46,
+    "t_end": 3368.88,
+    "text": "inflamed any of them okay so do most of Lipton curves have small rankle all the"
+  },
+  {
+    "t_start": 3368.88,
+    "t_end": 3370.29,
+    "text": "Lipton curves have small rankle all the conjectures at 100% should have rank"
+  },
+  {
+    "t_start": 3370.29,
+    "t_end": 3372.089,
+    "text": "conjectures at 100% should have rank zero or one it wasn't known before"
+  },
+  {
+    "t_start": 3372.089,
+    "t_end": 3373.47,
+    "text": "zero or one it wasn't known before whether more than zero percent of rank"
+  },
+  {
+    "t_start": 3373.47,
+    "t_end": 3378.599,
+    "text": "zero or one but we now know in recent work that most elliptic curves do have"
+  },
+  {
+    "t_start": 3378.599,
+    "t_end": 3381.75,
+    "text": "work that most elliptic curves do have rank zero or one so that's good for"
+  },
+  {
+    "t_start": 3381.75,
+    "t_end": 3383.609,
+    "text": "rank zero or one so that's good for that's good from the point of the VSD"
+  },
+  {
+    "t_start": 3383.609,
+    "t_end": 3385.14,
+    "text": "that's good from the point of the VSD theorems that we have which are only"
+  },
+  {
+    "t_start": 3385.14,
+    "t_end": 3390.3,
+    "text": "there are lots of curves with rank 0 one is nice to know because that means we"
+  },
+  {
+    "t_start": 3390.3,
+    "t_end": 3396.089,
+    "text": "know BSD for some curves and so this is joint work with RL Schenker just in 2013"
+  },
+  {
+    "t_start": 3396.089,
+    "t_end": 3397.589,
+    "text": "joint work with RL Schenker just in 2013 we proved that at least eighty-three"
+  },
+  {
+    "t_start": 3397.589,
+    "t_end": 3400.98,
+    "text": "percent of all elliptic curves at rank zero or one okay the conjecture is still"
+  },
+  {
+    "t_start": 3400.98,
+    "t_end": 3402.51,
+    "text": "zero or one okay the conjecture is still that one hundred percent have zero rank"
+  },
+  {
+    "t_start": 3402.51,
+    "t_end": 3408.089,
+    "text": "that one hundred percent have zero rank zero one but at least we know that most"
+  },
+  {
+    "t_start": 3408.089,
+    "t_end": 3410.64,
+    "text": "actually do have ranks U or one so that's good so lots of the at least some"
+  },
+  {
+    "t_start": 3410.64,
+    "t_end": 3415.62,
+    "text": "conditions about the rank of being zero one are satisfied in fact our methods"
+  },
+  {
+    "t_start": 3415.62,
+    "t_end": 3417.72,
+    "text": "one are satisfied in fact our methods that we use to show that eighty three"
+  },
+  {
+    "t_start": 3417.72,
+    "t_end": 3419.04,
+    "text": "that we use to show that eighty three percent of elliptic curves have rank"
+  },
+  {
+    "t_start": 3419.04,
+    "t_end": 3422.88,
+    "text": "zero one actually establish some of the technical conditions that Skinner inner"
+  },
+  {
+    "t_start": 3422.88,
+    "t_end": 3423.94,
+    "text": "technical conditions that Skinner inner bra"
+  },
+  {
+    "t_start": 3423.94,
+    "t_end": 3428.74,
+    "text": "and jiang require in their converse Niram to deduce that the analytic rank"
+  },
+  {
+    "t_start": 3428.74,
+    "t_end": 3433.48,
+    "text": "Niram to deduce that the analytic rank is 0-1 and so a corollary of our of our"
+  },
+  {
+    "t_start": 3433.48,
+    "t_end": 3435.1,
+    "text": "is 0-1 and so a corollary of our of our proof that most elliptic curves have"
+  },
+  {
+    "t_start": 3435.1,
+    "t_end": 3439.93,
+    "text": "rank zero one is that a positive proportion of elliptic curves satisfy"
+  },
+  {
+    "t_start": 3439.93,
+    "t_end": 3441.85,
+    "text": "proportion of elliptic curves satisfy the burners and our conjecture this"
+  },
+  {
+    "t_start": 3441.85,
+    "t_end": 3443.32,
+    "text": "the burners and our conjecture this positive proportion we established was"
+  },
+  {
+    "t_start": 3443.32,
+    "t_end": 3449.86,
+    "text": "less than 1% but it was still positive so we were happy with that but that led"
+  },
+  {
+    "t_start": 3449.86,
+    "t_end": 3452.02,
+    "text": "so we were happy with that but that led us to to ask actually what proportion do"
+  },
+  {
+    "t_start": 3452.02,
+    "t_end": 3456.55,
+    "text": "us to to ask actually what proportion do all current results actually allow us to"
+  },
+  {
+    "t_start": 3456.55,
+    "t_end": 3459.76,
+    "text": "prove if we just hit every if we just hit every work on the lifted curve"
+  },
+  {
+    "t_start": 3459.76,
+    "t_end": 3461.65,
+    "text": "that's out there so including gross zaggy and Colavecchia and skinnier"
+  },
+  {
+    "t_start": 3461.65,
+    "t_end": 3466.96,
+    "text": "zaggy and Colavecchia and skinnier bronzong as well as other recent results"
+  },
+  {
+    "t_start": 3466.96,
+    "t_end": 3469.12,
+    "text": "that says the doc should sir brothers who proved results about the"
+  },
+  {
+    "t_start": 3469.12,
+    "t_end": 3470.56,
+    "text": "brothers who proved results about the burst minute and dire conjecture modulo"
+  },
+  {
+    "t_start": 3470.56,
+    "t_end": 3475.63,
+    "text": "two if we throw everything at it what's the maximum proportion that we can prove"
+  },
+  {
+    "t_start": 3475.63,
+    "t_end": 3478.45,
+    "text": "the maximum proportion that we can prove satisfied the rich and dark injector and"
+  },
+  {
+    "t_start": 3478.45,
+    "t_end": 3481.42,
+    "text": "satisfied the rich and dark injector and so in joint work with with Chris Skinner"
+  },
+  {
+    "t_start": 3481.42,
+    "t_end": 3483.61,
+    "text": "so in joint work with with Chris Skinner and way Jiang we just threw everything"
+  },
+  {
+    "t_start": 3483.61,
+    "t_end": 3486.88,
+    "text": "at it just to see how how how much for what proportion of elliptic curves do we"
+  },
+  {
+    "t_start": 3486.88,
+    "t_end": 3487.81,
+    "text": "what proportion of elliptic curves do we understand the risk mentioned our"
+  },
+  {
+    "t_start": 3487.81,
+    "t_end": 3492.4,
+    "text": "conjecture and we didn't know more for more than 0 percent before but now we"
+  },
+  {
+    "t_start": 3492.4,
+    "t_end": 3494.5,
+    "text": "can say that the bursar mentioned ir conjecture is true for more than 66"
+  },
+  {
+    "t_start": 3494.5,
+    "t_end": 3497.5,
+    "text": "conjecture is true for more than 66 percent of all elliptic curves so it's"
+  },
+  {
+    "t_start": 3497.5,
+    "t_end": 3499.62,
+    "text": "percent of all elliptic curves so it's definitely true more often than not and"
+  },
+  {
+    "t_start": 3499.62,
+    "t_end": 3502.45,
+    "text": "definitely true more often than not and and that's well that's that's a good"
+  },
+  {
+    "t_start": 3502.45,
+    "t_end": 3505.54,
+    "text": "and that's well that's that's a good feeling at least we feel like we know we"
+  },
+  {
+    "t_start": 3505.54,
+    "t_end": 3512.08,
+    "text": "curves a common question before you ask it this does not mean that we win six"
+  },
+  {
+    "t_start": 3512.08,
+    "t_end": 3513.16,
+    "text": "it this does not mean that we win six hundred sixty thousand dollars"
+  },
+  {
+    "t_start": 3513.16,
+    "t_end": 3519.83,
+    "text": "hundred sixty thousand dollars [Laughter]"
+  },
+  {
+    "t_start": 3522.12,
+    "t_end": 3523.44,
+    "text": "okay so what remains to be done that's basically I just summarized basically"
+  },
+  {
+    "t_start": 3523.44,
+    "t_end": 3527.7,
+    "text": "everything we know about the about the British mentioned dire conjecture what"
+  },
+  {
+    "t_start": 3527.7,
+    "t_end": 3532.02,
+    "text": "remains to be done well everything we talked about so far has been about curbs"
+  },
+  {
+    "t_start": 3532.02,
+    "t_end": 3539.19,
+    "text": "of rank zero or one all right Oh Inc that should be ranked at zero or one but"
+  },
+  {
+    "t_start": 3539.19,
+    "t_end": 3540.72,
+    "text": "that should be ranked at zero or one but of course rank zero one curves are"
+  },
+  {
+    "t_start": 3540.72,
+    "t_end": 3541.95,
+    "text": "of course rank zero one curves are conjectured to be a hundred percent of"
+  },
+  {
+    "t_start": 3541.95,
+    "t_end": 3547.02,
+    "text": "conjectured to be a hundred percent of curves so to really prove the Britain's"
+  },
+  {
+    "t_start": 3547.02,
+    "t_end": 3548.04,
+    "text": "curves so to really prove the Britain's winters and direct conjecture for a"
+  },
+  {
+    "t_start": 3548.04,
+    "t_end": 3550.35,
+    "text": "winters and direct conjecture for a hundred percent of curves well the"
+  },
+  {
+    "t_start": 3550.35,
+    "t_end": 3552.21,
+    "text": "hundred percent of curves well the technical the technical conditions in"
+  },
+  {
+    "t_start": 3552.21,
+    "t_end": 3556.14,
+    "text": "technical the technical conditions in the theorem of Skinner van Jiang must"
+  },
+  {
+    "t_start": 3556.14,
+    "t_end": 3557.82,
+    "text": "still be removed we've shown that they're not actually that major that"
+  },
+  {
+    "t_start": 3557.82,
+    "t_end": 3560.73,
+    "text": "they're not actually that major that most curves actually do satisfy those"
+  },
+  {
+    "t_start": 3560.73,
+    "t_end": 3562.56,
+    "text": "conditions but to really get to a hundred percent and some of those"
+  },
+  {
+    "t_start": 3562.56,
+    "t_end": 3563.91,
+    "text": "hundred percent and some of those conditions still must be removed and"
+  },
+  {
+    "t_start": 3563.91,
+    "t_end": 3565.44,
+    "text": "conditions still must be removed and once that's accomplished this would"
+  },
+  {
+    "t_start": 3565.44,
+    "t_end": 3568.5,
+    "text": "once that's accomplished this would likely mean that we understand BSC for a"
+  },
+  {
+    "t_start": 3568.5,
+    "t_end": 3575.64,
+    "text": "are conjectured to have ranks U or one however it really is the remaining zero"
+  },
+  {
+    "t_start": 3575.64,
+    "t_end": 3577.8,
+    "text": "however it really is the remaining zero percent of elliptic curves having ranked"
+  },
+  {
+    "t_start": 3577.8,
+    "t_end": 3579.66,
+    "text": "percent of elliptic curves having ranked at least two that has been causing"
+  },
+  {
+    "t_start": 3579.66,
+    "t_end": 3581.099,
+    "text": "at least two that has been causing mathematicians the greatest difficulty"
+  },
+  {
+    "t_start": 3581.099,
+    "t_end": 3585.33,
+    "text": "mathematicians the greatest difficulty so even if it's zero percent of the"
+  },
+  {
+    "t_start": 3585.33,
+    "t_end": 3589.59,
+    "text": "the real sticking point in making further progress in BST understanding"
+  },
+  {
+    "t_start": 3589.59,
+    "t_end": 3593.88,
+    "text": "further progress in BST understanding rank two and higher and it is known that"
+  },
+  {
+    "t_start": 3593.88,
+    "t_end": 3595.109,
+    "text": "they're inflamed any so even though they're rare there are implementing"
+  },
+  {
+    "t_start": 3595.109,
+    "t_end": 3599.19,
+    "text": "Liptak herbs having rank at least two and four such curves essentially nothing"
+  },
+  {
+    "t_start": 3599.19,
+    "t_end": 3605.7,
+    "text": "and four such curves essentially nothing is known regarding BSD and so that's"
+  },
+  {
+    "t_start": 3605.7,
+    "t_end": 3607.74,
+    "text": "really what needs to be done next this is where the next big idea is needed is"
+  },
+  {
+    "t_start": 3607.74,
+    "t_end": 3609.93,
+    "text": "is where the next big idea is needed is to understand ranks at least to"
+  },
+  {
+    "t_start": 3609.93,
+    "t_end": 3611.55,
+    "text": "to understand ranks at least to understanding the personage and dire"
+  },
+  {
+    "t_start": 3611.55,
+    "t_end": 3614.55,
+    "text": "understanding the personage and dire conjecture there so that's really where"
+  },
+  {
+    "t_start": 3614.55,
+    "t_end": 3617.88,
+    "text": "conjecture there so that's really where the next big ideas needed I think that's"
+  },
+  {
+    "t_start": 3617.88,
+    "t_end": 3621.9,
+    "text": "that really needs to be studied and just yeah it needs right now they're really"
+  },
+  {
+    "t_start": 3621.9,
+    "t_end": 3623.37,
+    "text": "yeah it needs right now they're really no ideas that have have made any"
+  },
+  {
+    "t_start": 3623.37,
+    "t_end": 3624.57,
+    "text": "no ideas that have have made any progress and so that's where the next"
+  },
+  {
+    "t_start": 3624.57,
+    "t_end": 3627.69,
+    "text": "progress and so that's where the next big ideas needed also what I mentioned"
+  },
+  {
+    "t_start": 3627.69,
+    "t_end": 3629.01,
+    "text": "big ideas needed also what I mentioned finally that there are many beautiful"
+  },
+  {
+    "t_start": 3629.01,
+    "t_end": 3630.75,
+    "text": "finally that there are many beautiful extensions of the Burt since winners and"
+  },
+  {
+    "t_start": 3630.75,
+    "t_end": 3636.57,
+    "text": "extensions of the Burt since winners and dire conjecture and all the results that"
+  },
+  {
+    "t_start": 3636.57,
+    "t_end": 3638.01,
+    "text": "I mentioned there many beautiful extensions of that too for these"
+  },
+  {
+    "t_start": 3638.01,
+    "t_end": 3639.69,
+    "text": "extensions of that too for these generalizations of the Bertrand are"
+  },
+  {
+    "t_start": 3639.69,
+    "t_end": 3644.849,
+    "text": "block Kanto conjecture which extends the births winter entire conjecture beyond"
+  },
+  {
+    "t_start": 3644.849,
+    "t_end": 3650.4,
+    "text": "cubic equations and so unless you think that this is just about cubic equations"
+  },
+  {
+    "t_start": 3650.4,
+    "t_end": 3651.299,
+    "text": "actually if you make progress the bird since winters and dire"
+  },
+  {
+    "t_start": 3651.299,
+    "t_end": 3653.39,
+    "text": "the bird since winters and dire conjecture they're likely implications"
+  },
+  {
+    "t_start": 3653.39,
+    "t_end": 3657.27,
+    "text": "for this more general conjecture called the block cacio conjecture which applies"
+  },
+  {
+    "t_start": 3657.27,
+    "t_end": 3661.25,
+    "text": "the block cacio conjecture which applies to the situations beyond cubic equations"
+  },
+  {
+    "t_start": 3661.25,
+    "t_end": 3664.859,
+    "text": "to the situations beyond cubic equations they're also p-adic analogues of the vs."
+  },
+  {
+    "t_start": 3664.859,
+    "t_end": 3670.02,
+    "text": "looking at the l function as a complex analytic function you can look at it as"
+  },
+  {
+    "t_start": 3670.02,
+    "t_end": 3672.69,
+    "text": "a P attic analytic function and their corresponding conjectures there the"
+  },
+  {
+    "t_start": 3672.69,
+    "t_end": 3676.89,
+    "text": "first one was due to a maser Tate and entitled bomb and there's parent guru"
+  },
+  {
+    "t_start": 3676.89,
+    "t_end": 3683.01,
+    "text": "and there's their V attic versions of the Barossa a formula due to Bertolini"
+  },
+  {
+    "t_start": 3683.01,
+    "t_end": 3686.99,
+    "text": "the Barossa a formula due to Bertolini and Henry and Karthik for sundar and"
+  },
+  {
+    "t_start": 3686.99,
+    "t_end": 3689.01,
+    "text": "and Henry and Karthik for sundar and then finally they're generalizations"
+  },
+  {
+    "t_start": 3689.01,
+    "t_end": 3695.299,
+    "text": "totally real number fields there's been this amazing work of John and his school"
+  },
+  {
+    "t_start": 3695.299,
+    "t_end": 3697.77,
+    "text": "this amazing work of John and his school proving versions of gross Sagi a /"
+  },
+  {
+    "t_start": 3697.77,
+    "t_end": 3702.839,
+    "text": "proving versions of gross Sagi a / totally real fields so it's not just the"
+  },
+  {
+    "t_start": 3702.839,
+    "t_end": 3704.569,
+    "text": "totally real fields so it's not just the BSD conjecture but what it leads to"
+  },
+  {
+    "t_start": 3704.569,
+    "t_end": 3709.289,
+    "text": "BSD conjecture but what it leads to that's become so central and in in the"
+  },
+  {
+    "t_start": 3709.289,
+    "t_end": 3714.71,
+    "text": "that's become so central and in in the area of number theory so I just want to"
+  },
+  {
+    "t_start": 3714.71,
+    "t_end": 3718.41,
+    "text": "end by first of all congratulating Andrew for for the Apple prize we're"
+  },
+  {
+    "t_start": 3718.41,
+    "t_end": 3723.15,
+    "text": "very excited about it he's done so much already in in bringing us to where we"
+  },
+  {
+    "t_start": 3723.15,
+    "t_end": 3724.23,
+    "text": "already in in bringing us to where we are for the births per Newton dark"
+  },
+  {
+    "t_start": 3724.23,
+    "t_end": 3725.49,
+    "text": "are for the births per Newton dark conjecture but I also want to point out"
+  },
+  {
+    "t_start": 3725.49,
+    "t_end": 3729.99,
+    "text": "that there's so much more to do I hope people more people get interested in it"
+  },
+  {
+    "t_start": 3729.99,
+    "t_end": 3735.6,
+    "text": "people more people get interested in it especially lots of the end people here"
+  },
+  {
+    "t_start": 3735.6,
+    "t_end": 3740.159,
+    "text": "yeah thank you very much [Applause]"
+  }
+]

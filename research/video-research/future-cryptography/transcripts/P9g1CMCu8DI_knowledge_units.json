@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ku_video_P9g1CMCu8DI_2",
+    "t_start": 2.5,
+    "t_end": 92.7,
+    "type": "overview",
+    "summary": "In this video, I'll update you on the current landscape of post-quantum current landscape of post-quantum cryptography standards. I'll begin with the most influential initiative, the NIST standardization initiative, the NIST standardization process, and then summarize how international standards bodies and national agencies standards bodies and national agencies are aligning their efforts around these are aligning their efforts around these new quantum-safe algorithms. This is a rapidly evolving field, and many additional standards are expected many additional standards are expected to be f…"
+  },
+  {
+    "id": "ku_video_P9g1CMCu8DI_92",
+    "t_start": 92.7,
+    "t_end": 185.0,
+    "type": "overview",
+    "summary": "schemes, and hybrid schemes, which securely combine a conventional scheme securely combine a conventional scheme with a newer one that is quantum-safe. Migration guidance provides roadmaps that help organizations transition that help organizations transition safely to quantum-safe cryptography. Back in 2016, NIST invited proposals for quantum-resistant signature and key quantum-resistant signature and key encapsulation algorithms. encapsulation algorithms. There are three main evaluation criteria were the following: security against classical as well as cost, which cover things like sizes o…"
+  },
+  {
+    "id": "ku_video_P9g1CMCu8DI_184",
+    "t_start": 185.0,
+    "t_end": 278.9,
+    "type": "overview",
+    "summary": "69 submissions from around the world for round one. After over a year of intensive public scrutiny and analysis, during which time scrutiny and analysis, during which time flaws and weaknesses were exposed in flaws and weaknesses were exposed in many proposals, many proposals, NIST selected 26 submissions for round In July 2020, seven submissions were selected for round three, and a further selected for round three, and a further eight were designated as alternate eight were designated as alternate candidates. Meanwhile, in October 2020, NIST released a standard for stateful released a stan…"
+  },
+  {
+    "id": "ku_video_P9g1CMCu8DI_281",
+    "t_start": 281.3,
+    "t_end": 372.9,
+    "type": "overview",
+    "summary": "The next major milestone was in August of 13, 2024, when NIST released three Federal Information Processing Standards, also Information Processing Standards, also known as FIPS. FIPS 203 specifies Kyber, a lattice-based key encapsulation mechanism used for key establishment. The official name for Kyber is ML-KEM. The official name for Kyber is ML-KEM. FIPS 204 specifies Dilithium, a FIPS 204 specifies Dilithium, a lattice-based signature scheme. lattice-based signature scheme. The official name for Dilithium is Finally, FIPS 205 describes SPHINCS+, a stateless hash-based signature scheme. s…"
+  },
+  {
+    "id": "ku_video_P9g1CMCu8DI_372",
+    "t_start": 372.9,
+    "t_end": 465.0,
+    "type": "overview",
+    "summary": "The first draft of FIPS 206 has already been finalized and is expected to be been finalized and is expected to be released very soon. released very soon. The official name for Falcon is FN-DSA. Another algorithm moving towards standardization is HQC, short for This is a code-based KEM selected by NIST in March 2025. Its security is based on the difficulty of solving the syndrome decoding problem of solving the syndrome decoding problem for quasi-cyclic codes. A key advantage of HQC is that it relies on a completely different security on a completely different security assumption than Kyber,…"
+  },
+  {
+    "id": "ku_video_P9g1CMCu8DI_467",
+    "t_start": 468.0,
+    "t_end": 558.1,
+    "type": "overview",
+    "summary": "ETSI, the European Telecommunications Standards Institute, operates a quantum safe cryptography working group. Unlike NIST, ETSI does not design new Instead, they focus on practical deployment guidance, interoperability, deployment guidance, interoperability, and system integration. ISO, the International Organization for Standardization, is also developing Standardization, is also developing standards for quantum safe KEMs and Although draft documents are not publicly available, several documents publicly available, several documents indicate that in addition to Kyber, ISO is evaluating ad…"
+  },
+  {
+    "id": "ku_video_P9g1CMCu8DI_558",
+    "t_start": 558.1,
+    "t_end": 650.9,
+    "type": "overview",
+    "summary": "systems, such as TLS, SSH, and PKI. The group also provides practical The group also provides practical recommendations aimed at engineers. recommendations aimed at engineers. Two relevant RFCs have already been RFC 8391, which specifies XMSS, the extended Merkle signature scheme, extended Merkle signature scheme, and RFC 8554, which specifies the Leighton and McAuley hash-based signature scheme. signature scheme. Meanwhile, a large body of work is Current drafts cover post-quantum algorithms, including Kyber, Dilithium, algorithms, including Kyber, Dilithium, Sphinx+, Falcon, FrodoKem, and…"
+  },
+  {
+    "id": "ku_video_P9g1CMCu8DI_650",
+    "t_start": 650.9,
+    "t_end": 741.6,
+    "type": "overview",
+    "summary": "Practical guidance documents include post-quantum cryptography for engineers, post-quantum cryptography for engineers, guidance for migration to post-quantum recommendations for TLS applications, and many more drafts are in progress. Elsewhere in the world, national cybersecurity agencies are also moving cybersecurity agencies are also moving quickly to prepare for the post-quantum quickly to prepare for the post-quantum era. Many national strategies are closely aligned with the NIST standards, aligned with the NIST standards, including the Canadian Centre for Cyber Security, the UK's Natio…"
+  },
+  {
+    "id": "ku_video_P9g1CMCu8DI_741",
+    "t_start": 741.6,
+    "t_end": 833.3,
+    "type": "overview",
+    "summary": "standards coordinated by the Institute of Commercial Cryptography Standards. of Commercial Cryptography Standards. Here's a table that compares public key and ciphertext sizes for Kyber, FrodoKEM, Classic McEliece, and HQC. FrodoKEM, Classic McEliece, and HQC. For reference, the classical ECDH key For reference, the classical ECDH key agreement scheme using the P-256 agreement scheme using the P-256 elliptic curve is also included. Recall that NIST security levels 1 and 2 roughly correspond to the 128-bit roughly correspond to the 128-bit security level. As you can see, all post-quantum KEM…"
+  },
+  {
+    "id": "ku_video_P9g1CMCu8DI_835",
+    "t_start": 835.7,
+    "t_end": 892.2,
+    "type": "overview",
+    "summary": "In terms of size, Dilithium has relatively large public keys and relatively large public keys and signatures. signatures. Falcon's keys and signatures are though still quite a bit larger than EDDSA's. SPHINCS+ by contrast has small public keys, but very large signatures. keys, but very large signatures. You can find performance metrics for You can find performance metrics for these signature schemes at the higher these signature schemes at the higher NIST security levels at this website. NIST security levels at this website. And also for the other signature schemes And also for the other si…"
+  }
+]

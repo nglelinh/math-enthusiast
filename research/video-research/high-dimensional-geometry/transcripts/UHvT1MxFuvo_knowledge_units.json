@@ -1,0 +1,268 @@
+[
+  {
+    "id": "ku_video_UHvT1MxFuvo_0",
+    "t_start": 0.4,
+    "t_end": 90.2,
+    "type": "overview",
+    "summary": "[HOST] First talk of the morning on high-dimensional geometry and concentration. Thanks. [LECTURER] So this lecture is about multiplying two polynomials given by their coefficients. So, let's say A of X is A0 plus A1X plus up to, you know, there's always a problem. Should I stop at N minus one or N? Anyway And then there's another one here, and I want to multiply them very fast. How fast can you do it? Sorry, this was the lecture I gave yesterday-- --at at in-- uh, Algebra. No, today's morning's talks are about-- But if you want to see that again-- --we can. It's fresh. High-dimensional geo…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_90",
+    "t_start": 90.5,
+    "t_end": 184.2,
+    "type": "overview",
+    "summary": "I have several examples to work out. Some more laborious than others, and we can certainly go different ways. But here's the outline. So, sort of one general theme is that you've got lots of these points in high-dimensional space or a distribution in high-dimensional space data, right? And is there some structure that will make things easier for us? So, an aspect that we'll try to address is the volume distribution. Just think of it as our distribution of mass. Can you say something about this in general? So to understand this, we'll do a few examples and then we'll get to the Brunn-Minkows…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_185",
+    "t_start": 185.0,
+    "t_end": 276.8,
+    "type": "overview",
+    "summary": "Uh, so the classical version being Lévy's conc-- concentration or, or Lévy concentration, I guess. And then from this, we'll go to the existence of large Euclidean sections in, in these high-dimensional distributions or sets. So what's often called a Dvoretzky or generalized Dvoretzky theorem. Dvoretzky. And then we'll take another look at the last two topics and go to isoperimetry in high dimension. So, that's the plan I've laid out so far. If we run out of topics, we can branch further. Okay. So just to seen you know, the question you're asking is what structure in high dimensions makes p…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_276",
+    "t_start": 276.8,
+    "t_end": 366.5,
+    "type": "overview",
+    "summary": "guises and its extensions. Now, this is certainly not a complete answer, and just so I say it at least once for example, if you want to solve linear equations over GF2, I don't know how to do it with a convex method, but as far as I know that's the only convex. So anyway, this is the empirical answer. So, this seems to be a useful thing to study And so we'll do that. So very quick one-time recap. So, we say K is convex and K is a subset of N-dimensional Euclidean space. Dimension will be N, and which means that if two points are in the set, then the-- --segment is also in the set. So, this …"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_370",
+    "t_start": 370.2,
+    "t_end": 460.7,
+    "type": "overview",
+    "summary": "I want to quantify this. Uh, so you, you have some set, I'll call it K here, but it doesn't have to be convex. And by near the boundary, I mean suppose you look at a scaling of this, 1 minus epsilon K, and all we're saying is that the volume of 1 minus epsilon K, now this is n dimensional volume, is 1 minus epsilon to the n times the volume of K. So, if epsilon is already, like, 1 over n, you're getting a constant fraction of the volume. Right? So this is already a constant fraction. Okay. So, you know, if you had some body, you just shrink it, let's say it contains the unit ball, you shrin…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_460",
+    "t_start": 460.7,
+    "t_end": 552.0,
+    "type": "overview",
+    "summary": "interesting in a convex body happens near its boundary.\" And the third one, you know, everyone knows the third one? It's by Kamal Jain, \"If my laptop can't do it, the universe can't do it.\" Or, actually he said the market, but-- Okay. This is fact one. Okay, great. Now, fact two, so keep in mind fact one because t-- will play a role in fact two, I guess I'll, This is visible still? Yeah? Okay. Fact two is, uh-- or maybe, maybe I should be smart. Fact two is that most of a-- I'll start with a ball, and I mean a Euclidean ball if I don't specify, is near a central hyperplane. And this again w…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_551",
+    "t_start": 552.0,
+    "t_end": 644.0,
+    "type": "overview",
+    "summary": "look at the section there, this is the section here, that's a lower dimensional ball, one with a lower dimensional ball, and its radius is square root of 1 minus T squared. So, if I look at the volume of the section at zero, right, versus the volume of the section at distance T from the origin, this is the radius has changed from one to square root of 1 minus T squared, so the volume, since these are n minus one dimensional objects now, it's going to scale as 1 minus T squared to the half to the power of n minus one, so this much. So that's the rate at which it's scaling which is about E to…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_644",
+    "t_start": 644.3,
+    "t_end": 734.2,
+    "type": "overview",
+    "summary": "so it's true for every central hyperplane. So, you know, there are sort of two in quotes, paradoxes, here, right? How can you be both near the boundary and near the central hyperplane, if you haven't thought in high dimension before. You're welcome to answer, or, I don't know. I mean, it's not uh, yeah uh--. Yeah. So it's because well even in this, within this band most of the mass is actually near the boundary, so there's no contradiction. I mean, this, the band also has boundary, and if you look at those sections everything's near the boundary. You could pose this in a slightly different …"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_734",
+    "t_start": 734.5,
+    "t_end": 825.1,
+    "type": "overview",
+    "summary": "and we ask what's the distribution of mass along U?, okay, same type of question. So now we're asking what is the probability that for a random X from the cube U.X is, let's say, greater than T? And it's again, centered at the origin, okay? And U is a unit vector. Okay, so it asks this, and now this again, we can-- we can-- we can do using basic Chernoff style bounds because the excess-- uh the-- the coordinates of the cube are independent. The excise are independent. And so again, this will also fall like E to the minus nT squared over 2. No n now because these are unit vectors. Did I get …"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_825",
+    "t_start": 825.1,
+    "t_end": 917.9,
+    "type": "overview",
+    "summary": "[AUDIENCE MEMBER] Mm-hmm. I'm sorry, going back to the previous example with the two bands-- [LECTURER] Yeah. [AUDIENCE MEMBER] How come the intersection is on the boundary? I mean, at least in the picture it seems, at least the boundary is not-- Oh, But this picture [LECTURER] Is so low dimensional, right? Yeah, of course, but-- So if you're in very high dimension-- Mm-hmm. Think of the band, not as a band through the ball, but just as an actual ring. Mm-hmm. Okay, a lower dimension ring. Oh, I see. [AUDIENCE MEMBER] Okay, thank you. Because [LECTURER] That's where most of the mass is. [AU…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_917",
+    "t_start": 917.9,
+    "t_end": 1009.3,
+    "type": "overview",
+    "summary": "we're not saying anything about convex, they're just compact, so I can talk about their volume and they're bounded and they are subsets of R^N. So with their Minkowski sum something you would've seen if you've been doing you know um, lower bounds also. A plus B is just the set of all X plus Y where X is an A and Y is an E. So if I were to add a square plus a circle, I get you know, I'll start with the square and add a little circle. Just add a circle to every point of the square. Okay? The position of the circle doesn't matter, right? These things are, it's independent of their position, yo…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_1009",
+    "t_start": 1009.3,
+    "t_end": 1099.3,
+    "type": "overview",
+    "summary": "and they have volume now I take their sum like this or take a convex combination of them, what's the volume going to be? Okay. Can you ad-- so that could be very d-- many very different things depending on the shapes of the sets, but you expect that it shouldn't be too small because you're taking too m-- all these combinations, right? The set size of this sum shouldn't be too small. That's-- That's what the theorem is going to say, that for A, B subset of R^N and compact and Lambda is the multiple convex combination multiplier, the volume of Lambda_A plus 1 minus Lambda_B to the 1 over N is…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_1099",
+    "t_start": 1099.3,
+    "t_end": 1194.6,
+    "type": "overview",
+    "summary": "Yeah, okay. Yeah, so by just replacing Lambda_A by A and 1 minus Lambda_B by B, it's sufficient to prove that volume of-- A sorry, A plus B to the one over N is at least Lambda volume of A. [AUDIENCE MEMBER] Um-- No lambda? [LECTURER] No lambda. What should I have there? [AUDIENCE MEMBER] One over N2. [LECTURER] Yeah. Plus-- Okay, that's what I want. Got it. Good. So how should we do this? To prove, suffices to show this. So, first let's do it for a very simple family of bodies, which will be just cuboids-- Right. --so boxes. And so suppose A is just a cuboid where the axis lengths are A1, …"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_1194",
+    "t_start": 1194.7,
+    "t_end": 1284.4,
+    "type": "overview",
+    "summary": "Almost familiar, right? Yeah. So, well, yeah, it is. So let's just divide. So what you want is that this is at least AI over AI plus BI to the one over N. So far so good. And here I need to show this. Now we'll use the what inequality? Kinda fun if you haven't seen it before, but, Right, there's a product and there's a sum, so we'll turn this product into a sum. But what I want to say is that this is dominated by the sum over I of these things, one over N times that. Mm-hmm. Okay? So AI over AI plus BI, just arithmetic mean is bigger than geometric mean. These are all non-negative numbers, …"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_1285",
+    "t_start": 1285.1,
+    "t_end": 1375.3,
+    "type": "overview",
+    "summary": "And then you take the size of the boxes down to zero and you multiply by the volume of each box. So that's one way to define volume, in fact. So, it'll be enough for us to show this for a union of boxes. A is a union of boxes and B is a union of boxes. Then we'd like to show that this inequality still holds. [AUDIENCE MEMBER] That's what we're gonna do. [LECTURER] Okay? Let's do [AUDIENCE MEMBER] That. [LECTURER] Yeah, so how should we do it if A is a union of boxes? So the boxes that constitute A themselves, A are disjoint, to show that this holds for the union of boxes. So it's gonna be b…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_1375",
+    "t_start": 1375.3,
+    "t_end": 1466.9,
+    "type": "overview",
+    "summary": "It doesn't have to be connected. And then we have boxes for B, I don't know, there somewhere. And how should I do induction? Right, we have to somehow partition them to get two sets with fewer numbers of boxes so I can apply the same lemma. So simple claim is that there exists an axis-parallel cut, parallel hyperplane such that-- So let's just take the boxes for A, such that each side contains at least one complete box. Each side of H, say H is the hyperplane, contains one complete box of A. Okay? So is that clear? In one dimension it's clear, right? 'cause otherwise they're all going to be…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_1467",
+    "t_start": 1467.5,
+    "t_end": 1557.9,
+    "type": "overview",
+    "summary": "[AUDIENCE MEMBER] Intersect, [LECTURER] Yeah. Yeah. Yeah, we want that, what we want is a cut. So in this picture, for example, this would be good, right? And this is great, it gives a complete partition. But even this would be good because this has one complete box here and one complete box. Now the point is that, why you're saying there exists one. You see, in one, if I just sweep in one direction, there might not be one And it could be that all the boxes are intersecting along one hyperplane. So, it could be that no matter where you go, you're not able to get a complete box on both sides…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_1557",
+    "t_start": 1557.9,
+    "t_end": 1651.7,
+    "type": "overview",
+    "summary": "So let's just apply that. [AUDIENCE MEMBER] I think you need to separate a complete box of A from a complete box of B, otherwise you can take a hyperplane to be way off to the side that has all whole boxes on one side-- [LECTURER] No, we need a complete box o-- on both sides of the pla-- of the cut. [AUDIENCE MEMBER] Okay, but that's not what your claim says. [LECTURER] It says each side of the hyperplane has one complete box. [AUDIENCE MEMBER] Each side, nevermind. Okay, yeah. Yeah, right. [LECTURER] Okay, so let's say we've got this cut and there is at least one complete box here, but, of…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_1652",
+    "t_start": 1652.7,
+    "t_end": 1743.6,
+    "type": "overview",
+    "summary": "I really should stick to the colors, huh? And then A minus and B minus. [AUDIENCE MEMBER] So we're cutting B also by the same hyperplane? [LECTURER] Yes. There's only one hyperplane, which was the one we chose for the purpose of cutting A, and now I'm just taking all of B's arrangement and placing it in a, in a certain way. Okay, translating it to place in a certain way. In fact, just a translation. And the translation is such that the volume of A plus, let's say, divided by the volume of B plus, this ratio is equal to the volume of A minus divided by volume of it, B minus. Right? So same a…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_1743",
+    "t_start": 1743.6,
+    "t_end": 1835.8,
+    "type": "overview",
+    "summary": "induction because these have fewer numbers of boxes, and we know that this is at least volume of A plus to the 1 over N. [AUDIENCE MEMBER] Okay? Okay, so could you repeat the definition of A plus and A minus? [LECTURER] Whatever falls on one side of the hyperplane is A plus, whatever falls on the other side is A minus. For boxes that intersect, we cut them and placed-- Okay, thanks. The portion of them. [HOST] Mm-hmm. So-- Sorry, I guess you need a little remark that A plus plus B plus and A minus plus B minus don't exist. [LECTURER] Are disjoint, yes. Yeah, are disjoint. But because of the…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_1845",
+    "t_start": 1846.0,
+    "t_end": 1937.6,
+    "type": "overview",
+    "summary": "alarmed. Was the-- why, what is the point of this? It's [AUDIENCE MEMBER] Into the parenthesis. [LECTURER] So these-- Yeah, these are-- they're the same, and they're the same as volume of A or volume of B-- --right? But, so therefore we've got-- --one plus volume of A over volume of B, both one over ns, times volume of B plus, volume of B minus to the one over n. Um-- Am I doing something fishy? [HOST] So [AUDIENCE MEMBER] All that is times, is the line of B-- It's [HOST] Okay if it's n, but-- I mean, it's still one over n is concave, right? Yeah, [LECTURER] Yeah. --volume of B concave? Rig…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_1937",
+    "t_start": 1937.6,
+    "t_end": 2028.4,
+    "type": "overview",
+    "summary": "plus B plus, and A minus, plus B minus are [AUDIENCE MEMBER] Disjoint. Yes. Volume of A plus B, this is just the number-- Oh, right. [LECTURER] Of x and y. We're not over counting any volume, but that was the remark that I made. [HOST] Got it. Okay. Wait, that's not completely obvious. It's, so you just take the hyperplane to be less than or equal to zero-- [LECTURER] Yeah. [HOST] --then it's clear on this side you get positive coordinates, and it's better. Oh, [LECTURER] Yeah. Right, right. Taking this hyperplane to be whatever-- Just-- --x1 equal to zero. Then there is no interference of …"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_2029",
+    "t_start": 2029.2,
+    "t_end": 2118.5,
+    "type": "overview",
+    "summary": "So one application is to, again, to talk about the distribution of mass of convex bodies, like we were doing with the early examples. Right? So what, if you had a convex body, convex set here, okay, and I'm interested in the distribution of mass along some direction, say this direction. Like, what is the distribution of mass of these sections as you go along? Okay? Now so let's look at these sections. There's a section at each position along this axis, and let's say, think of that as a, and this section is A of say x. It's a section at x. Now the section, and this is A of y, these are n min…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_2120",
+    "t_start": 2120.1,
+    "t_end": 2211.8,
+    "type": "overview",
+    "summary": "This combination always gives you sections exactly on this set, so this must be true. Therefore, the volume of this section A at the convex combination is how much? Just using this and applying Brune Minkowski to this set-- One over n. --which is a con-- uh, which is a convex co-- Minkowski combination of two sets gives us that this volume to the one over n minus one, because these are n minus one dimensional sections, is at least lambda times the volume of Ax to the one over n minus one-- --plus one minus lambda times the volume of Ay to the one over n minus one. Okay? So the volume at a c…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_2214",
+    "t_start": 2214.7,
+    "t_end": 2304.9,
+    "type": "overview",
+    "summary": "Concave. The radius function is concave because volume to the one over N minus one will be some fixed function of N times the radius. The volume is radius to the N minus one for now. We turn it into that literally be saying, setting the volumes equal. So, the conclusion, corollary, the radius function along any projection is concave. [AUDIENCE MEMBER] Sorry, what is this, these three picture circles-- Oh, sorry. Indicate? This [LECTURER] Section here, which was some arbitrary convex body-- Uh-huh. --I'm replacing it with a N minus one dimensional sphere of the same volume. So-- Okay. Right?…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_2307",
+    "t_start": 2307.9,
+    "t_end": 2399.6,
+    "type": "overview",
+    "summary": "[AUDIENCE MEMBER] Question. [LECTURER] Yeah. [AUDIENCE MEMBER] Is there some interpretation to what this is the radius of or something? [LECTURER] This ball. So imagine that I replaced I don't know, you have a cube. I'm going along some direction of the cube. Say even an axis parallel direction first. Replace each lower dimensional cube with a ball that has some radius. Along an axis direction, that's constant. So [AUDIENCE MEMBER] Is it, is this telling me something about the shape of the original convex body? [LECTURER] Oh, the only in terms of how it's increasing and decreasing, yeah. In…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_2401",
+    "t_start": 2401.1,
+    "t_end": 2492.4,
+    "type": "overview",
+    "summary": "For the same volume, you know, this, say volume one, the cube only needs to have side length one, and the ball will have radius constant through 10. And yeah, it's uh, so, so, could give some rough estimate, but in general, no, it's not like that. Okay. So here is a second application which will address some of these issues. It's it's called Grünbaum's theorem which says that uh, if you take any convex body-- So it's Rn. --Then Any half space containing its center of gravity for any half space containing center of gravity of K, any half space H, say, the volume of H intersect K, so the volu…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_2492",
+    "t_start": 2492.8,
+    "t_end": 2583.2,
+    "type": "overview",
+    "summary": "So, if you have this picture here, here's the center of gravity. I take any cut, each side has at least one over E. [AUDIENCE MEMBER] It's constantly dependent of N. [LECTURER] Yeah. And there, the function actually, there is a function of N. We'll derive it. But it tends to one over E when N goes to infinity. Yeah. [AUDIENCE MEMBER] Is it tight? What? Is it [LECTURER] Tight? Yeah. So for any fixed dimension, it's slightly better than this. But this theorem is also true, for example, I haven't yet introduced log concave functions, but it's also true for any log concave function, and then in…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_2583",
+    "t_start": 2583.2,
+    "t_end": 2671.9,
+    "type": "overview",
+    "summary": "Not just a bound. So you will be completely happy by then. [AUDIENCE MEMBER] Thank you. [LECTURER] Is it your birthday or--? So what should we do? What should step one be? I claim this is a one-dimensional problem, which dimension? We have fixed the hyperplane edge. [AUDIENCE MEMBER] So-- [LECTURER] We might as well fix it because we want to prove it for everyone, yes? [AUDIENCE MEMBER] Normal to the-- [LECTURER] Normal to the hyperplane. Let's look at the direction normal to the hyperplane, okay? And then what should we do? We're interested in the mass, let's say on one side, let's say on …"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_2674",
+    "t_start": 2675.0,
+    "t_end": 2768.2,
+    "type": "overview",
+    "summary": "Now I want to do two operations just so it doesn't seem like I'm gonna convert this into the worst possible body. I will show that for the worst body, you know, sometimes you get to do this. The proof actually takes you to the worst example. So what do you imagine the worst example is? I mean, it's not gonna be a cube, right? For a cube, you cut in the middle, you're always gonna get half-half, right? It should be some kind of asymmetric body. Cone? Not quite. We have a question. [AUDIENCE MEMBER] So you're having these volumes that you have, one is an N minus one-dimensional volume, the ot…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_2768",
+    "t_start": 2768.3,
+    "t_end": 2859.2,
+    "type": "overview",
+    "summary": "So I just mean the integral over all points in your set of the uniform distribution. So one over volume of K times, literally the average of all the points. Okay, so Yeah. So for even a triangle, you see this is similar, right? This picture is similar, you might remember that this distance is two third of the total. If I cut through the center. So this volume is going to be how much? Four ninths. Not half, but four ninths. Ninths, okay, yes. You're scaling the whole triangle down by two thirds. So here, what we're gonna do is replace first the left half with a cone. Okay? So that cone will …"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_2861",
+    "t_start": 2861.4,
+    "t_end": 2952.8,
+    "type": "overview",
+    "summary": "[AUDIENCE MEMBER] Warp it to the right to bounce it? [LECTURER] So what I wanna do is make this continue this cone as far as I need to, to make it a cone. And the volume is still the same. Now you can do this. Why? Because it's concave, right? What you're doing here is a convex extension of what you have left, so you, it's allowed to do it. This func-- radius function is concave, it'll never overshoot your picture. Okay? So now you've got a cone and again, the center of gravity might have moved left which only makes matters worse for you potentially. So let's assume there was no change, we'…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_2952",
+    "t_start": 2952.8,
+    "t_end": 3041.1,
+    "type": "overview",
+    "summary": "one half and we'll concentrate near its expectation for the random height. [AUDIENCE MEMBER] This is the worst case then? [LECTURER] This is exactly. So even for a cone, if I were to pick it randomly, you will be very close to one half. Very close. Within, yeah. [AUDIENCE MEMBER] What's the proper angle for the cones in order to make it worst case? It [LECTURER] Doesn't matter. [AUDIENCE MEMBER] Every cone's the same? [LECTURER] Yeah. Because it's a scaling there. All we've used is the scaling. [AUDIENCE MEMBER] So is the center of gravity the point that maximizes this one over E factor? [L…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_3051",
+    "t_start": 3051.1,
+    "t_end": 3144.1,
+    "type": "overview",
+    "summary": "And of course any other questions are welcome. So now we move to functions from, I mean, we were dealing with functions, but zero one functions. One if you're in the set, zero if you're outside the set. Now we're gonna move to more general functions. And so the statement of the Prekopva-Leinler theorem which is equivalent one to the Brunn Minkowski, you can prove one from the other and both ways is is is the following. You have three functions now, F, G, H, which are n dimensional and non-negative. And they have the following property that at any point and for any lambda, which is again lik…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_3144",
+    "t_start": 3144.1,
+    "t_end": 3236.6,
+    "type": "overview",
+    "summary": "the integral of G to the lambda one minus lambda. That's the conclusion. So maybe since we won't have time to actually prove it before the break, what I can instead do is the first application. Like why does this make sense? Right? So application one is the following. So if you had just one function F, we say it's log-concave if its logarithm is concave. So F is a function from RN to non-negative numbers, and it satisfies this property that F of any convex combination is at least the geometric average at the two points that you're combining, right? So the log of F is concave. These function…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_3236",
+    "t_start": 3236.6,
+    "t_end": 3330.3,
+    "type": "overview",
+    "summary": "So, you know, if you take a Gaussian and you project it, you get a Gaussian distribution still. Log-concave, it's still true. It could be a very complicated, I mean if you take a convex body, project it, it's not a convex body anymore. But if you think of it as a function, it's still a log-concave function, and more generally or equivalently, convolutions. So convolution of two log-concave functions preserves log concavity. Okay? So to see the first one, apply this lemma with FGH equal to F. This is satisfied by definition of log concavity. And now it's saying that you get to do this. But b…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_3330",
+    "t_start": 3330.6,
+    "t_end": 3419.2,
+    "type": "overview",
+    "summary": "Therefore, the integrals up to fix X1 through XK, and for each fixed X1 through XK, Prekopva-Leinler tells you that you satisfy what you want. Therefore, capital F is log-concave. Convolution proof is very similar. What is convolution? And I'll stop there. Convolution is integral of F of say Z times G of X minus Z, GZ. Okay? And this integral is over Z. This is the function value at sum X. And we want to say that if F and G are both log-concave, then capital F is also log-concave. Why? Think of this product function as one log-concave function, say capital G of X and Z. And it's log-concave…"
+  },
+  {
+    "id": "ku_video_UHvT1MxFuvo_3421",
+    "t_start": 3421.5,
+    "t_end": 3436.2,
+    "type": "overview",
+    "summary": "I guess we'll stop here. (applause) (background chatter)"
+  }
+]

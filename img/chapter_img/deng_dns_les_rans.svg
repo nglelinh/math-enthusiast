@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+  <rect width="720" height="300" fill="#fafbfc"/>
+  <text x="360" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1a1a">Engineering resolution choices (turbulence modelling)</text>
+  <g font-family="system-ui" font-size="12" text-anchor="middle">
+    <rect x="40" y="60" width="200" height="160" rx="8" fill="#e8f1fa" stroke="#004586" stroke-width="2"/>
+    <text x="140" y="95" fill="#004586" font-weight="600">DNS</text>
+    <text x="140" y="125" fill="#333">resolve almost</text>
+    <text x="140" y="145" fill="#333">all eddies</text>
+    <text x="140" y="175" fill="#666">highest cost</text>
+    <text x="140" y="195" fill="#666">finest grids</text>
+    <rect x="260" y="60" width="200" height="160" rx="8" fill="#e8f1fa" stroke="#0a6b4a" stroke-width="2"/>
+    <text x="360" y="95" fill="#0a6b4a" font-weight="600">LES</text>
+    <text x="360" y="125" fill="#333">large eddies</text>
+    <text x="360" y="145" fill="#333">solved; small ones</text>
+    <text x="360" y="165" fill="#333">modelled</text>
+    <text x="360" y="195" fill="#666">medium cost</text>
+    <rect x="480" y="60" width="200" height="160" rx="8" fill="#fff3e8" stroke="#c73e1d" stroke-width="2"/>
+    <text x="580" y="95" fill="#c73e1d" font-weight="600">RANS</text>
+    <text x="580" y="125" fill="#333">averaged flow</text>
+    <text x="580" y="145" fill="#333">+ closure models</text>
+    <text x="580" y="175" fill="#666">operational</text>
+    <text x="580" y="195" fill="#666">weather-scale cost</text>
+  </g>
+  <text x="360" y="260" text-anchor="middle" font-family="system-ui" font-size="12" fill="#444">Each step discards detail and hopes a statistical law can stand in. That hope is why rigorous kinetic limits matter.</text>
+</svg>

@@ -1,0 +1,958 @@
+thank you for my swap for that for that very warm introduction it's a it's a
+honor to be asked to talk about one of my the work of one of my mathematical
+my the work of one of my mathematical heroes as and and obviously I'm not
+heroes as and and obviously I'm not alone in that
+I wanted to you know in some sense my my assignment was to explain to people who
+assignment was to explain to people who who haven't really thought about these
+who haven't really thought about these issues uh what see what's really
+issues uh what see what's really significant and different about about
+professor Glenn Beck's work and and under the constraint that I can't really
+under the constraint that I can't really introduce any of the technical tools
+introduce any of the technical tools that would that would make the rigorous
+that would that would make the rigorous definitions possible so I'm going to
+definitions possible so I'm going to draw a lot of pictures and I'm going to
+try to give you a sense of what's interesting and what has is interesting
+and fascinated me about just a couple of things of course professor bloom Beck's
+things of course professor bloom Beck's work is is is very diverse and and spans
+work is is is very diverse and and spans a long period of time with lots of great
+focus on just a few things if I'm going to be able to communicate anything and
+to be able to communicate anything and but the the thing I wanted to start with
+and so oh yeah the thing I wanted to start with is something of a
+start with is something of a philosophical point which is Professor
+lumic mentioned that you have all these these spaces that you need to work with
+these spaces that you need to work with infinite dimensional spaces that are
+infinite dimensional spaces that are actually intended to capture something
+actually intended to capture something geometric and the the fundamental
+geometric and the the fundamental feature of these of these informational
+feature of these of these informational spaces is that they've been constructed
+so that one can take limits and limits are the limits are the critical feature
+are the limits are the critical feature that we need and so I thought before I
+got into the geometry part I talked a little bit about the about the problem
+little bit about the about the problem of limits and in how we need to how we
+right so as a you know Karen and I did not try to call out to coordinate our
+not try to call out to coordinate our talks but but it's no accident that we
+talks but but it's no accident that we both started with Greeks the you know it
+both started with Greeks the you know it the Golden Age of Greek mathematics is
+the Golden Age of Greek mathematics is really contains a lot of incredible
+results and a lot of people think that it's only you know think you know plain
+geometry and what you studied in high school but of course the Greeks went far
+school but of course the Greeks went far far beyond that but they were troubled
+by a lot of things I mean there's this famous paradox of Zeno about motion that
+famous paradox of Zeno about motion that that looks odd to us now but they were
+actually very concerned about the fact that you know motion appeared to be
+that you know motion appeared to be impossible because in order to get from
+A to B you'd first have to get halfway from A to B and and then you still have
+from A to B and and then you still have to get halfway between that point and a
+to get halfway between that point and a and so forth and and so you know and if
+and so forth and and so you know and if you're thinking somehow or another
+you're thinking somehow or another everything is discrete and the Greeks
+everything is discrete and the Greeks really wanted everything to be simple
+really wanted everything to be simple ratios of irreducible objects if you're
+ratios of irreducible objects if you're thinking of everything is discrete you
+thinking of everything is discrete you you think of instants of time and it
+seems like seems like you have to go through an infinite number of instances
+of time in order to get anywhere and for their point of thinking instants of time
+their point of thinking instants of time could not just take up no space and so
+there was a obviously they knew you could move but they were pointing out
+could move but they were pointing out that there's something subtle about
+limits and and infinite things that that needs to be resolved but they actually
+needs to be resolved but they actually even though there was even though they
+even though there was even though they were very suspicious about limits and
+saw lots of things you know there are lots of arguments that just went wrong
+lots of arguments that just went wrong if you weren't careful are they they
+if you weren't careful are they they actually achieve some really amazing
+things you know of course the famous the famous examples of Archimedes formula
+famous examples of Archimedes formula relating the sphere and the cylinder
+relating the sphere and the cylinder this theorem for example that that a
+this theorem for example that that a sphere inscribed in a cylinder has two
+thirds the volume of the cylinder is you know this Archimedes proved this
+is you know this Archimedes proved this and if you think how could he have done
+that the normal way we would you know without any integral of differential
+would be we would try to break up the sphere into a number of pieces such that
+sphere into a number of pieces such that if you such that there they could
+if you such that there they could correspond to the pieces of the cylinder
+correspond to the pieces of the cylinder in such a way that every every every
+in such a way that every every every three of the pieces of the sphere would
+three of the pieces of the sphere would correspond to two of the pieces of
+cylinder and you get this ratio of two to three I mean the Greeks really liked
+to three I mean the Greeks really liked ratios of ratios of small numbers and so
+ratios of ratios of small numbers and so but there's there's no obvious way to
+but there's there's no obvious way to break up the sphere into any finite
+break up the sphere into any finite number of pieces and that you can
+number of pieces and that you can reassemble into the Rick you can
+multiplicities are done reassemble into a cylinder like that but Archimedes
+a cylinder like that but Archimedes actually figured out that you could
+estimate it from above and below by you know numbers of pieces and things like
+know numbers of pieces and things like that and it's a very careful very
+that and it's a very careful very careful argument and and was able to
+careful argument and and was able to prove this formula essentially to modern
+prove this formula essentially to modern standards of rigor with one additional
+axiom that he had had to bring in which I will talk about on the next slide but
+I will talk about on the next slide but another example also a really amazing
+another example also a really amazing theorem is is that Archimedes proved is
+that if you take the cylinder that that the sphere is inscribed in and you take
+the sphere is inscribed in and you take and you take a cross-section the part
+between two planes that are perpendicular to the axis of the
+cylinder if you take that that way then the surface area on the sphere are
+the surface area on the sphere are trapped between the two planes is the
+trapped between the two planes is the same as the surface area on the cylinder
+this is also a kind of really remarkable theorem especially if you don't have
+calculus and you can't prove it by or at least there's no obvious way to prove it
+least there's no obvious way to prove it by by cutting the sphere into some
+by by cutting the sphere into some finite number of I mean this this this
+finite number of I mean this this this circular sector into some small number
+circular sector into some small number of pieces and then reassembling it into
+reassembling the pieces of the side of the cylinder because after all this is
+curved and this is not well it's not curved in the in the Gauss curvature
+curved in the in the Gauss curvature sense as as julienne pointed out earlier
+sense as as julienne pointed out earlier but nevertheless you can make an
+but nevertheless you can make an argument using limits you know if you
+argument using limits you know if you slice it carefully and use capillaries
+slice it carefully and use capillaries principle and and a few other things you
+can you can prove this result but it definitely depends on taking an infinite
+definitely depends on taking an infinite number of things you know or a limit of
+infinite number of things you know an limit of apparently finite number of
+things going to infinity before you can actually get equality and the Greeks
+actually get equality and the Greeks although Archimedes was was able to give
+although Archimedes was was able to give a an argument that nowadays stands up to
+considered to be a very risque kind of argument and these kinds of things that
+argument and these kinds of things that used they used limits were were
+problematic so and let me give an example of the kind of thing that the
+example of the kind of thing that the kind of thing that that disturbed the
+we're looking at paths from A to B and obviously and this is now going to be a
+obviously and this is now going to be a isosceles yes an isosceles triangle this
+isosceles yes an isosceles triangle this is 45 degrees 45 degrees 90 degrees and
+is 45 degrees 45 degrees 90 degrees and we know that this length is the square
+root of 2 times this length so it's obviously longer than this segment but
+obviously longer than this segment but if you do the following thing if you if
+if you do the following thing if you if you take the if you take the red path
+and look at the peak which is goes way off from the line if you just fold the
+off from the line if you just fold the peak down you'll get you'll get a path
+peak down you'll get you'll get a path that's closer to the line it's closer to
+that's closer to the line it's closer to the line in distance but it's but
+obviously it has the same length as the red line the red path right and if you
+fold down the peaks of the of the green line the green path you'll get the blue
+line the green path you'll get the blue path which is even closer to the to the
+line segment and yet it has the same length of
+the red path now if you do this about a thousand times you won't be able to see
+thousand times you won't be able to see any difference between the two paths
+right and yet somehow the pet the length of the colored paths is not changing
+of the colored paths is not changing it's not converging the way it's
+it's not converging the way it's supposed to because because something
+supposed to because because something about the geometry of this situation in
+spite of the fact that it looks physically like it's converging
+something about the geometry is not right and and that thereby hangs a
+little bit of the tail so the point I want to make our you said it convergence
+want to make our you said it convergence of graphs but alone does not imply
+of graphs but alone does not imply convergence of lengths so so something
+convergence of lengths so so something somehow another you'd have to take
+somehow another you'd have to take something more into account than just
+something more into account than just physical proximity if you're going to be
+physical proximity if you're going to be taking limits right so in fact the
+taking limits right so in fact the Greeks found many examples of
+Greeks found many examples of pathologies like this things that look
+pathologies like this things that look like they ought to be they ought to be
+like they ought to be they ought to be giving the right answer but not but did
+not and and so for for in fact many thousand years a couple of thousand
+thousand years a couple of thousand years people were people were people
+tried to avoid any kind of limiting processes if they could you know find a
+finite argument if you can do that fine in fact our committees identified one of
+in fact our committees identified one of the problems in the calculations that in
+the problems in the calculations that in order to in order to prove theorems like
+the sphere and the and the 2-sphere of cylinder theorems and lots of other
+things he had to rule out the possibility of infinitesimal numbers
+that is there couldn't you if you had two geometric quantities two segments
+for example two segments if you reproduce one of them enough times it
+reproduce one of them enough times it would get longer than the other that is
+would get longer than the other that is you couldn't have infinitely small
+you couldn't have infinitely small segments that could that could somehow
+cause cause errors to creep in or errors to accumulate so here's what I mean by
+to accumulate so here's what I mean by an infinitesimal and infinitesimal is a
+an infinitesimal and infinitesimal is a is some number so let's say positive one
+so that no matter how many times copies of it you never get bigger than
+copies of it you never get bigger than one that's what we call the
+one that's what we call the infinitesimal and and there's no you
+infinitesimal and and there's no you know remember the Greeks the Greeks
+rational numbers if they could help it I mean they knew that there were things
+mean they knew that there were things there were the magnitudes like the
+square root of 2 which you CLE called incommensurable z-- that that they just
+incommensurable z-- that that they just thought of as you know their quantities
+but they didn't really have our number system to operate with them and and and
+system to operate with them and and and they weren't clear of what how
+they weren't clear of what how quantities correspond to physical things
+well so things stayed that this this fear of infinitesimal x'
+kind of held people back for a long time but finally in the 17th century people
+but finally in the 17th century people began to begin to do calculations that
+began to begin to do calculations that seemed to require infinitesimal and they
+seemed to require infinitesimal and they got great results but there was a but
+got great results but there was a but you know you'd always have to take an
+you know you'd always have to take an infinite budget something off
+infinitesimally like you don't want to compute the slope of of a curve at a
+compute the slope of of a curve at a point you take the point and you take
+you've got the line between them and and that'll give you the slope anyway Newton
+that'll give you the slope anyway Newton used infinitesimal sense calculations
+used infinitesimal sense calculations sometimes and actually squares and
+infinitesimal and and quite a lot of arithmetic and but he was severely
+arithmetic and but he was severely criticized there's a famous quote by
+famous quote by the philosopher contemporary philosopher George Berkeley
+who who made fun of Newton and his followers and and said what could these
+followers and and said what could these infinitesimally be I mean they're I you
+infinitesimally be I mean they're I you know they're especially flexions of
+fluxions of fluxions that is powers and powers of infinitesimal well the must
+powers of infinitesimal well the must they not be ghosts of departed
+they not be ghosts of departed quantities are we not are we not dealing
+quantities are we not are we not dealing with the supernatural when we talk about
+these kinds of things so but it didn't stop people people continued use
+people continue to use these kinds of things partly because they because they
+worked and or at least if you were careful they work but part of the art of
+careful they work but part of the art of doing calculations was learning how to
+doing calculations was learning how to be careful so mathematicians in fact not
+be careful so mathematicians in fact not only did they start using infinitesimal
+only did they start using infinitesimal numbers they started using infinitesimal
+started treating functions as though you know what we would now say they started
+allowing variables to take on to be functions rather than just numbers and
+of course if there can be numbers that are infinitesimal then why can't there
+you can do all these calculations they use the word variation for this the two
+use the word variation for this the two big leaders at that time now in the now
+in the in the 19th century were Euler and LaGrange who derived the famous
+and LaGrange who derived the famous Euler Lagrange equations for figuring
+out a necessary condition for something to be a critical point in this in this
+of variable functions and infinitesimal functions and so forth and and and hence
+functions and so forth and and and hence the calculus of variation was born
+the calculus of variation was born although I said there were antecedents
+in the work of Newton and others but but it really got off to a major start under
+it really got off to a major start under these guys but but calculus them was
+kind of a wild west frontier we say in English that is you know lawless almost
+English that is you know lawless almost that people did what they wanted to do
+and and and they got lots of arguments with with validity but also some errors
+with with validity but also some errors and people began to worry about well how
+do you know when what you do is valid and when it's not for example the one of
+and when it's not for example the one of Oilers big tools was was computing with
+Oilers big tools was was computing with what we now called divergent series that
+what we now called divergent series that is that is 1 minus 1 plus 1 minus 1 plus
+is that is 1 minus 1 plus 1 minus 1 plus 1 minus 1 should be Euler added that up
+said you know and and use formulas like that in in his calculations without
+worrying too much about whether or not it converged but there was this you know
+it converged but there was this you know Koshi the as people kept doing this
+Koshi the as people kept doing this along came our our hero album who who
+along came our our hero album who who was quite disturbed by this habit of
+was quite disturbed by this habit of using divergent series I'm sorry not
+using divergent series I'm sorry not everybody here speaks Norwegian I guess
+everybody here speaks Norwegian I guess I should and in fact Abba was one of the
+I should and in fact Abba was one of the people who led the charge in in making
+people who led the charge in in making trying to get our you know trying to get
+trying to get our you know trying to get analysis what has now become known as
+analysis what has now become known as analysis off on a more solid footing
+just by the way just for your amusement i might those of you who might have seen
+i might those of you who might have seen the YouTube the YouTube video about how
+the YouTube the YouTube video about how to add 1 plus 2 Plus 3 plus 4 plus 5
+plus 6 etc and so on how many of you know the answer okay so lots of people
+know the answer okay so lots of people know the answer those of you who haven't
+seen the answer might be surprised to see that the answer is minus 1/12 so
+see that the answer is minus 1/12 so obviously if this if this thing is going
+obviously if this if this thing is going to make any sense
+somebody has to figure out a way to make to make rules for how to do these things
+right and the half and this is accepted as a valid equation now actually
+well some people accept it as a valid equation but what was at stake and this
+equation but what was at stake and this is the this is sort of the end of the
+part 1 the introduction that I wanted to mention what was at stake was the very
+mention what was at stake was the very definition of what we call real numbers
+definition of what we call real numbers you know people didn't really have a
+you know people didn't really have a clear concept before a real number was
+clear concept before a real number was or they didn't have a specific
+or they didn't have a specific definition really until the 19th century
+definition really until the 19th century and and you know people were using
+and and you know people were using infinitesimal in their calculations
+Koshi himself used infinitesimally and calculations from time to time and and I
+calculations from time to time and and I just want to point out two particular
+things there to it I mean real I mean the numbers should contain all the
+the numbers should contain all the things we're familiar with for example
+things we're familiar with for example it could should contain all the rational
+it could should contain all the rational numbers and and and you should be able
+numbers and and and you should be able to approximate any any number you can
+call them the real numbers as closest to your light by rational numbers and and
+your light by rational numbers and and here for those who like the formalism
+here for those who like the formalism the symbols I'll just give you the
+the symbols I'll just give you the symbols for every real number and for
+every natural number that is positive integer there's a rational number such
+that this real number fits between Q and Q plus 1 over N so you can approximate
+any real number as close as you like by by by natural numbers but that's not
+by by natural numbers but that's not enough you actually need to know that
+enough you actually need to know that limits exist and and there is and there
+limits exist and and there is and there is where the second property comes in
+that if you take any non-empty set of positive numbers then then that set has
+positive numbers then then that set has a greatest lower bound that is a number
+that's less than or equal to all the numbers and set R and greater than
+numbers and set R and greater than they're equal to any other number that's
+they're equal to any other number that's less than or equal to all the numbers in
+infimum of the set s and here again i'll show you the symbols this is the kind of
+show you the symbols this is the kind of thing that i'm trying to avoid in most
+thing that i'm trying to avoid in most of the most of the lecture but but just
+of the most of the lecture but but just so that you can see that there is
+something there let me so what this literally means is that is that for any
+literally means is that is that for any if s is not empty then there is a number
+a real number so that for every number in s that number is less than or equal
+to s and if you have a number that's less than or equal to all the things in
+less than or equal to all the things in s then L is bigger than or equal to M
+right that's what we mean by greatest lower bound this L is the greatest lower
+lower bound this L is the greatest lower bound and the existence of this is what
+makes it possible to take limits you know you have some you have some set of
+know you have some you have some set of things you define maybe partial sums of
+of a series or something like that and and and you ask and you ask how do I
+and and you ask and you ask how do I know that it actually gets near
+know that it actually gets near something or converges on something and
+and the answer is we just assume it yeah and and that actually characterizes what
+we now call real numbers I mean you're probably more familiar you never thought
+probably more familiar you never thought of the issue probably more familiar with
+thinking real numbers or swings with decimal expansions but that's a theorem
+decimal expansions but that's a theorem right that anything with these
+etc etc it actually is going to give us the and just just to conclude let me say
+the and just just to conclude let me say let me say of why this limit property
+gets rid of infinitesimal numbers there are no infinitely small positive numbers
+are no infinitely small positive numbers first of all if there were an
+first of all if there were an infinitesimal a positive number less
+than one then if you look at the positive non infinitesimal numbers they
+would have a greatest lower bound about property - right but that greatest lower
+property - right but that greatest lower bound lambda I mean it has to be
+bound lambda I mean it has to be positive because it's at least as large
+positive because it's at least as large as this epsilon which is positive
+as this epsilon which is positive it can't be infinitesimally because if
+it can't be infinitesimally because if you double it that's not a greatest
+lower bound obviously not a greatest lower bound
+I mean lambda is the greatest lower bound so this is not in the set so it
+because of this property so it can't be infinitesimal and because in
+infinitesimal if you doubled it would not would still be an infinitesimal and
+not would still be an infinitesimal and but it has to be an infinitesimal
+because half of it is infinitesimal because lambda is twice 1/2 whoops so
+because lambda is twice 1/2 whoops so that's the contradiction and therefore
+that's the contradiction and therefore there are no infinitesimally if you
+assume that you can take limits like this now defining the right way to talk
+this now defining the right way to talk about limits was was essential for
+about limits was was essential for figuring out what space of numbers we
+should be working with to do our calculations if we want to take limits
+calculations if we want to take limits and and once they got this straight it
+and and once they got this straight it led to an enormous leap forward in
+led to an enormous leap forward in calculus in its applications because we
+calculus in its applications because we could finally deal with limits in a
+consistent way now the reason I have believed it all this point and this is
+this coming close to the end of part one is that is that the space that you think
+is natural that you'd like to work with like number like rational numbers if you
+like number like rational numbers if you want to be able to perform things like
+space but you have to do it in a reasonable way in order that limits will
+reasonable way in order that limits will continue to work and of course you know
+continue to work and of course you know once you've figured out how to take
+once you've figured out how to take limits in for real numbers it's not time
+limits in for real numbers it's not time to go back and say well what about
+to go back and say well what about functions
+what about spaces of functions or geometric objects how can we complete
+geometric objects how can we complete those spaces to make them to make them
+usable that is we want to find you know suppose we have for example the space of
+suppose we have for example the space of curves in the plane and we want to and
+limits they can have we need to find find a way to sort of sort of embed that
+find a way to sort of sort of embed that in some complete space where limits will
+in some complete space where limits will behave and this is the big step and
+behave and this is the big step and analysis that Karen mentions but doesn't
+analysis that Karen mentions but doesn't doesn't define and I'm not going to
+define either but I just want to identify for you this this intellectual
+identify for you this this intellectual leap finding the right space in which to
+objects requires both a kind of analytic thinking and a geometric thinking and
+thinking and a geometric thinking and it's the marriage of that analytic and
+geometric thinking that has allowed geometric analysis to prosper and now I
+want to talk about some specific problems and particular some things than
+problems and particular some things than in Karen's work so the geometry of
+curves in bubbles and let's see how are we doing for time okay good so people
+we doing for time okay good so people have mentioned this already before
+have mentioned this already before geometry means earth measuring but giada
+geometry means earth measuring but giada see the applied version means the
+see the applied version means the measurement and study of regions of the
+earth it's kind of a rushon the and in particular in this
+rushon the and in particular in this study one would like to be able to find
+the shortest way to get between two points on the surface of the earth or
+points on the surface of the earth or more generally the shortest way to get
+more generally the shortest way to get between two points on the surface
+between two points on the surface whereas we'll see even more generally
+whereas we'll see even more generally than that the the fellow who is who is
+than that the the fellow who is who is really instrumental in getting this off
+really instrumental in getting this off the ground was Carl Gauss who had
+the ground was Carl Gauss who had actually this is not generally known but
+actually this is not generally known but he actually spent thirty years carrying
+he actually spent thirty years carrying out a geodetic survey of the kingdom of
+out a geodetic survey of the kingdom of Hanover trying to make accurate maps
+Hanover trying to make accurate maps traveling on horseback with a with a
+surveying team in the summers and it gave him plenty of time to think about
+gave him plenty of time to think about geodesics in the shape of surfaces he he
+geodesics in the shape of surfaces he he began to think about how knowing the
+began to think about how knowing the shortest curves between points on the
+shortest curves between points on the surface could be used as we were to
+because of course he knew the earth was round I don't think they're I don't know
+round I don't think they're I don't know if there were still Flat Earth theorists
+if there were still Flat Earth theorists at that time yeah it's been kind of
+at that time yeah it's been kind of embarrassing resurgence and in modern
+embarrassing resurgence and in modern times
+anyway Gauss's ideas led him to think of to realize that that if you knew the
+shortest curves on the surface you could you could treat those as those those are
+you could treat those as those those are the straight lines for that surface and
+and so you could ask well does Euclid's geometry hold for the straight lines on
+geometry hold for the straight lines on the surf on a curved surface and the
+answer it turns out was no not necessarily
+and he in fact discovered non Euclidean geometry during this process but he
+never published his ideas but he didn't know at that time was that a former
+know at that time was that a former student of his he actually you know
+student of his he actually you know Riemann Riemann actually went to
+actually went to the University intending to be intended to study
+theology he was he was raised in a very devout religious family he himself was
+devout religious family he himself was quite devout he was studying geometry
+met Gauss and Gauss House convinced him that that geometry was the thing and and
+that that geometry was the thing and and mathematics was the thing and and so he
+he actually then went on to study mathematics and and he gave probably as
+mathematics and and he gave probably as I like to say the most the most famous
+I like to say the most the most famous job talking mathematical history on the
+job talking mathematical history on the hypotheses that alive the foundations of
+geometry and and he took the idea of Gauss that is defining straight lines in
+Gauss that is defining straight lines in terms of in terms of shortest possible
+terms of in terms of shortest possible paths to new heights by saying this
+should work in any space if we if we know what we're doing and not just on
+know what we're doing and not just on surfaces and so and so remaining in
+surfaces and so and so remaining in geometry was born Riemann also was quite
+geometry was born Riemann also was quite instrumental in developing the in the
+integral calculus realized that in fact many problems in mathematics and physics
+many problems in mathematics and physics could be studied as the geometry of
+could be studied as the geometry of spaces that could only described in
+spaces that could only described in dimensions higher than three so for him
+dimensions higher than three so for him the reality of higher dimensional spaces
+the reality of higher dimensional spaces was that they were needed to model think
+problems that people wanted to solve so so he wanted a theory that worked in all
+dimensions and he wanted to understand the straightest lines the shortest
+curves in all dimensions and just a brief message from our sponsor we're all
+brief message from our sponsor we're all familiar with spaces of dimension 1 and
+familiar with spaces of dimension 1 and we say dimension 1 because you can label
+such as a distance or an angle like I mean you know distance for a line angle
+for a circle and in the and in two dimensions you were there we're also
+dimensions you were there we're also familiar with things like this that
+familiar with things like this that these two dimensional objects that
+because you know the plane needs to two points to describe describe it two
+numbers to describe a point and the sphere needs two numbers I will say
+sphere needs two numbers I will say longitude and latitude but but of course
+longitude and latitude but but of course but of course that that those numbers
+of trouble in the polls I'll come back to that later but in dimension 2 there's
+to that later but in dimension 2 there's a lot more possibilities than just the
+a lot more possibilities than just the plane in the sphere for example you
+plane in the sphere for example you could have something like this donut
+could have something like this donut which we call a torus or two donut
+three or more like that there are even more exotic things like like the clown
+more exotic things like like the clown bottle which is a two-dimensional
+bottle which is a two-dimensional surface two-dimensional object that that
+surface two-dimensional object that that has that's not even orientable you can't
+really draw it fully in 3-space without having an intersection a self
+that you should imagine separating the the two sheets that come together along
+the two sheets that come together along this intersection thinking there's
+separate things and and you get something nice and smooth in small
+something nice and smooth in small patches each of these can be labeled
+patches each of these can be labeled using twos numbers but there's no good
+using twos numbers but there's no good labeling system that works on the whole
+labeling system that works on the whole surface and in fact as I was saying real
+keeping track of an airplane in flight you have to have six numbers 3 for the X
+you have to have six numbers 3 for the X Y location the location above the above
+height and three for the orientation the yaw pitch and roll of the plane if you
+yaw pitch and roll of the plane if you if you want to keep track of a solar
+system with eight planets you need 48 numbers you need whoops
+numbers you need whoops you need you need six for each planet 3
+you need you need six for each planet 3 to describe its location and 3 to
+describe its velocity so higher dimensional things are just unavoidable
+if you really want to apply mathematics and it turns out that Ramon's vision of
+and it turns out that Ramon's vision of geometry can be realized this it this it
+geometry can be realized this it this it turns out is it turns out that is my
+turns out is it turns out that is my reference to Nash right that every that
+reference to Nash right that every that every one of these are smooth spaces
+endowed with the geometry of distance can be can be embedded in some can be
+can be can be embedded in some can be thought of as a subset of some some
+where you may need more coordinates than just the dimension just like you may
+just the dimension just like you may need a you may need a for surface in
+3-space you may need two dimensions sitting in three to see it in Ramones
+sitting in three to see it in Ramones program knowing things about shortest
+curves that is one manifolds in a given s gives you useful information about s
+s gives you useful information about s in fact what we're interested in is the
+in fact what we're interested in is the following problem given a loop that is a
+following problem given a loop that is a closed curve as as as Karen was talking
+closed curve as as as Karen was talking about what you'd like to do is find the
+manifold your your surface or something higher dimensional even that can be made
+by continuously deforming this guy within the within the surface that is
+within the within the surface that is imagine imagine that the loop is made
+out of a rubber band that wants to contract and you let it go it stays
+inside there it stays in size your a sub manifold your your in manifold and it
+contracts until it until it hangs and you want to know what kind of hanging
+you want to know what kind of hanging will happen that is will limits exist
+will happen that is will limits exist I mean you I mean we're we're dealing
+with as Karen has said we're dealing in the infinite dimensional space of curves
+the infinite dimensional space of curves of loops and somehow another if we want
+to do calculus in this in this space we need to we need to be able to take
+limits and we want to know that limits exist under the right conditions and
+that they you and themselves will be smooth curves and there's a fair amount
+smooth curves and there's a fair amount of analysis that goes into this let me
+of analysis that goes into this let me just give a couple of examples before I
+just give a couple of examples before I talk about the analytic result that is
+it so here let's take of the donut the torus and and here's the red curve it's
+goes once around the curve this way and if you let it go roughly speaking it'll
+if you let it go roughly speaking it'll come here and get to the narrowest part
+come here and get to the narrowest part and become as straight as possible lying
+and become as straight as possible lying on the surface and that that yeah I mean
+these are all approximate pictures but that should approximately be the
+shortest curve the geodesic that the closed geodesic that's the contraction
+closed geodesic that's the contraction of ail so going if on the other hand we
+of ail so going if on the other hand we here's our donut and we and we take the
+here's our donut and we and we take the curve that goes around the goes around
+curve that goes around the goes around the hole so to speak what you would
+expect is the shortest curve that you could have would be just for L to
+could have would be just for L to contract into the hole until it gets
+contract into the hole until it gets right into the throat right that's what
+right into the throat right that's what you would expect and you can prove that
+you would expect and you can prove that those things happen once you've defined
+those things happen once you've defined everything since I don't have time to
+everything since I don't have time to define everything I'm not gonna give you
+define everything I'm not gonna give you proofs of things but but but it's
+proofs of things but but but it's certainly intuitively believable that
+that's what happens oh but but there are other of these curves that are that are
+other of these curves that are that are that are the tightest they can be for
+any you know for anything that's continuously contractable for example
+you can have here if we look head-on you can see something like something that
+can see something like something that goes three times around this direction
+while it goes only two times around that direction and if you draw it just right
+direction and if you draw it just right you'll actually get a trifle or not that
+a torus not that is it's only shortest curve that's connects home a topic to it
+curve that's connects home a topic to it that kind of thing can happen and I want
+that kind of thing can happen and I want to draw one more somewhat more
+to draw one more somewhat more complicated picture because this is
+going to be relevant for the for when we go in the one dimension up and what you
+go in the one dimension up and what you should imagine this guy I'm drawing
+right now I'm only drawing a piece of it but what you should imagine is we have
+but what you should imagine is we have two parallel planes they're two parallel
+sheets and they're connected by two throats the you know I basically punched
+throats the you know I basically punched a hole out of the upper sheet two holes
+out of the upper sheet two holes out of the lower sheet and then just join the
+together that I've created to create a kind of a throat that that comes to its
+kind of a throat that that comes to its narrowest point between the two sheets
+narrowest point between the two sheets in two places right and certainly what
+happen if you let L go other than that it would it would gradually contract in
+it would it would gradually contract in and and it would gradually contract into
+the point where it would sort of spend part of its time going around this
+throat and then be a geodesic going over to the next throat go around that throat
+to the next throat go around that throat and then come back that's roughly what
+and then come back that's roughly what it should do
+and you can prove that you know if you give the model correctly that is in fact
+what will happen you'll get a nice smooth curve that will approximate the
+two that will approximate the two closed geodesics that are sitting there but it
+geodesics that are sitting there but it won't break apart that's the kind of
+won't break apart that's the kind of interesting thing that happens it it
+interesting thing that happens it it stays it stays nice and it stays nice
+well maybe I I should just go on to the the theorem the theorem and again there
+the theorem the theorem and again there really should be a star because I
+picture is is this that if you take a compact guy and let me just pause for a
+compact guy and let me just pause for a second to say what compact means s's
+compact means that it's bounded in space that it doesn't go off to infinity and
+it contains all its limit points so for example I don't want asked to be if you
+example I don't want asked to be if you take the plane and you remove a point
+take the plane and you remove a point then obviously you can draw a loop
+then obviously you can draw a loop around that going around that point and
+shortest curve because it'll just try to contract to a point and that points not
+contract to a point and that points not there it'll hang and it won't have any
+there it'll hang and it won't have any place to go so so I don't want you to
+place to go so so I don't want you to cut out little pieces of s that will
+cut out little pieces of s that will that that the contraction would try to
+go through and I don't want a like you may have you may remember two ends are
+may have you may remember two ends are pseudo sphere that has kind of a thin
+pseudo sphere that has kind of a thin horn that goes out goes out this way
+horn that goes out goes out this way where the where the curve just where the
+where the where the curve just where the curve just keeps contracting and keeps
+never stops so I want to make sure those things don't happen so that's what this
+things don't happen so that's what this this one packed just means bounded and
+this one packed just means bounded and closed contains all its limit points
+closed contains all its limit points anyway back to the statement the
+compact in manifold and you take a loop inside that in manifold so this works
+inside that in manifold so this works for any dimension take a take a given
+for any dimension take a take a given closed loop then either you can attract
+closed loop then either you can attract it to a point which means that all the
+you look at their lengths the infimum of those lengths is 0 and then it contracts
+those lengths is 0 and then it contracts to a point or or
+there's a positive lower bound for the lengths of the curves then then there
+lengths of the curves then then there will be at least one smooth loop l prime
+deforming L that has the shortest length of literal shortest length of any such
+of literal shortest length of any such deformation available so those are the
+deformation available so those are the two possibilities either the infimum of
+two possibilities either the infimum of the possible homer we say homotopic
+the possible homer we say homotopic lengths is zero in which case it
+contracts to a point or it's positive in which case it actually converges and
+this theorem is really based on I mean we under we understand it now in terms
+we under we understand it now in terms of the geometry of an infinite
+of the geometry of an infinite dimensional manifold but you can
+actually prove it without having to go to infinite dimensions because as Karen
+to infinite dimensions because as Karen mentioned you can approximate any loop
+mentioned you can approximate any loop by a finite not by a finite number of
+generalization of a polygonal path and and then work in that finite dimensional
+and then work in that finite dimensional space of paths you can do that but but
+have to find the right space in which to do the contraction get from the right
+do the contraction get from the right space in which these these limits make
+sense but once you do you can prove a theorem like this it's really remarkable
+result but it really does depend on understanding the geometry of limits and
+and the geometry this of the right space well the natural question is are is this
+well the natural question is are is this only true for loops that is you know
+take a one-dimensional closed guy and let it contract and it converges it's
+let it contract and it converges it's something nice or collapses completely
+something nice or collapses completely but what happens if we take what happens
+but what happens if we take what happens suppose we take a surface if L is now a
+manifold say two manifolds such as a sphere or the image of a surface more
+sphere or the image of a surface more generally and so let's suppose you can't
+generally and so let's suppose you can't continuously contract it to a point is
+continuously contract it to a point is there a surface that that L prime that
+you can get by continuously deforming L so that has the smallest area among all
+so that has the smallest area among all such surfaces is there such a surface
+well I want to explain that I want a motivate the answer that that that's way
+motivate the answer that that that's way too optimistic you can you cannot make
+that happen I mean you can't hope for that to be true and and here's what my
+that to be true and and here's what my here's what the the intuitive argument
+here's what the the intuitive argument got how it goes so so remember though
+got how it goes so so remember though that this surface was made by by taking
+that this surface was made by by taking two flat sheets you know and and joining
+two flat sheets you know and and joining the you know cutting out disks in the
+top and the bottom and joining them well nothing stops us as Karen says
+well nothing stops us as Karen says we're mathematicians we can do what we
+we're mathematicians we can do what we want nothing stops us from from doing
+want nothing stops us from from doing the same thing just one dimension higher
+the same thing just one dimension higher that is let's take two flat three spaces
+that is let's take two flat three spaces I'm sorry I can't draw in four
+I'm sorry I can't draw in four dimensions for you but I mean that's
+dimensions for you but I mean that's kind of what I'd need I'd need to flat
+kind of what I'd need I'd need to flat three planes separated by perpendicular
+three planes separated by perpendicular distance in four space which is what I'd
+the bottom sheet and I'll just join them together in the narrow throat right in
+together in the narrow throat right in to narrow throats so let's try and
+actually all I'm going to do is show you the top sheet I mean since the bottom
+the top sheet I mean since the bottom sheet actually plays really no role in
+sheet actually plays really no role in where that where L can go in the in the
+where that where L can go in the in the one-dimensional case everything sort of
+stays up just stays above the two narrow throats you can argue that if you do it
+throats you can argue that if you do it right that same kind of thing will have
+right that same kind of thing will have to happen now now you know instead of
+to happen now now you know instead of instead of what looks like a rectangle
+I have a box now instead of two circles that are the throats I have two balls
+that are the throats I have two balls and now instead of a circle L Circle L I
+and now instead of a circle L Circle L I have a two sphere sitting there and I
+want to know what's going to happen to that two sphere if I let it if I let it
+that two sphere if I let it if I let it shrink well
+it's kind of interesting your first guess is something like this that will
+happen is that is that it'll do the same kind of thing just one dimension up that
+is L will contract and sort of form a form a shell around each one of the each
+form a shell around each one of the each one of the spheres and and in the place
+of two parallel geodesics running close together it'll actually give you a
+together it'll actually give you a little tube that runs from one from one
+little tube that runs from one from one surface to the other that's what you
+surface to the other that's what you would think is is probably what's going
+would think is is probably what's going to happen right and it'll stabilize at
+to happen right and it'll stabilize at some point before it actually goes
+some point before it actually goes through the throat and it'll give a
+through the throat and it'll give a minimum sad to say that is not possible
+minimum sad to say that is not possible it's not possible when the spheres are
+far enough apart that is if you if the spheres are a fixed radius and you and
+you and you cut them out far enough apart this thing cannot happen and the
+apart this thing cannot happen and the reason it can't happen is that is as
+we'll talk about on the next slide is that you can't have a thin tube like
+that you can't have a thin tube like this the minimum surfaces can never have
+this the minimum surfaces can never have thin tubes like this and yet because
+thin tubes like this and yet because everything's symmetric I can make
+know if you imagine it trying to flow in it would try to preserve that rotational
+it would try to preserve that rotational symmetry and and and the little tube
+symmetry and and and the little tube would necessarily be would necessarily
+would necessarily be would necessarily be a oh is that right oh my god and the
+be a oh is that right oh my god and the little tube would necessarily be
+little tube would necessarily be rotationally symmetric and because I've
+made it I've rigged it so that in the middle it's more or less flat that would
+middle it's more or less flat that would be just like flat space but uh but as
+be just like flat space but uh but as I'm going to show in the next slide that
+I'm going to show in the next slide that can't happen that cannot happen and so
+can't happen that cannot happen and so something must go wrong with this
+something must go wrong with this picture
+it can't converge to that it's not clear what it will do they will do something
+but it's not clear of what it will do here's why by the way it can't work and
+here's why by the way it can't work and you're gonna get a physical
+you're gonna get a physical demonstration of this in
+in Matt's talk in a few minutes the every minimal surface of revolution in
+every minimal surface of revolution in flat three space is a scaled catenoid
+flat three space is a scaled catenoid that is the that is it's a revolving
+that is the that is it's a revolving it's got by revolving a catenary curve
+around around around the line sorry oh now if you so now this this the scale
+oh now if you so now this this the scale catenoid czar all they're all scale
+of them and then you can either scale it down or scale it up they're all tangent
+down or scale it up they're all tangent to their tangent to this to this wage
+and you can see that if there's a surface of rotation if there's a surface
+surface of rotation if there's a surface of rotation that that's a minimal
+surface the two you have to be able to translate the two the two circles so
+that they fit inside the wage and so if the if the circles are too far apart
+it circles a too far apart and not wide enough then then there will not be a
+enough then then there will not be a solution between them and you know if
+solution between them and you know if you like this picture if you if you if
+you like this picture if you if you if you take your two disks your two so once
+you take your two disks your two so once you separate it far enough it will pop
+you separate it far enough it will pop that it's not a problem with it's not a
+problem with the soap solution not being strong enough for or anything like that
+strong enough for or anything like that it's just a fact about solutions of the
+it's just a fact about solutions of the calculus of variations there's no
+calculus of variations there's no solution so the soap bubble pops
+I mean physics knows more than we do this is the basic reason that minimal
+this is the basic reason that minimal surface can't have long thin necks and
+surface can't have long thin necks and you can actually give there other
+techniques you can give proofs etc but let me not dwell on this and here is
+let me not dwell on this and here is where I finally get to get to tell you
+where I finally get to get to tell you about one of my favorite results that of
+about one of my favorite results that of Carens is that like I said we know that
+don't know what it can do and and just about anything could happen as you know
+about anything could happen as you know you know when you start constructing
+these limit spaces you realize how wild they are and lots of things could happen
+they are and lots of things could happen but what
+what Jonathan Sacks and Karen Elam that proved was that in fact only a small
+proved was that in fact only a small number of bad things can happen and and
+number of bad things can happen and and the rest of the time it just converges
+the rest of the time it just converges I'm gonna I'm gonna state the theorem
+I'm gonna state the theorem Karen please forgive me that I don't put in all the
+hypotheses I did put a star to to alert you that if you really want to know the
+you that if you really want to know the theorem you have to you have to look at
+theorem you have to you have to look at the hypotheses carefully but this is a
+the hypotheses carefully but this is a hope morally right if you take a two
+hope morally right if you take a two sphere in a compact in manifold and you
+sphere in a compact in manifold and you try to contract it continuously to have
+try to contract it continuously to have least area or choose a sequence that's
+least area or choose a sequence that's and try to make it converge you can make
+and try to make it converge you can make it converge and get a limit which might
+except that near a finite number of points you have to let the you have to
+points you have to let the you have to let the the surface blow out like a like
+a tire you know it blows a big bubble and and and the rest of the thing
+contracts normally at a finite number of points it goes bad but it's only a
+finite number of points it's not some some cantor set of nastiness that
+some cantor set of nastiness that doesn't happen and in fact the the
+things that blow off are in fact minimal two spheres so so you get this very nice
+two spheres so so you get this very nice this very nice theorem about limits that
+takes place even though you don't have full control of the of getting
+full control of the of getting continuous limits you still get
+continuous limits you still get something very close and that has
+something very close and that has enormous ly increased our understanding
+enormous ly increased our understanding of minimal surfaces in the money and
+aspects of this or been generalized to higher dimensions by Shane and uhlenbeck
+higher dimensions by Shane and uhlenbeck and and it has applications to harmonic
+and and it has applications to harmonic Maps the geometry of buildings you know
+Maps the geometry of buildings you know tremendous number of things that have
+tremendous number of things that have actually connections with number theory
+actually connections with number theory it's been a very fruitful breakthrough
+it's been a very fruitful breakthrough now I realize that I am totally out of
+time in fact I'm three minutes over and and I just haven't get into part
+and and I just haven't get into part three ah no you know someone wants Mark
+three ah no you know someone wants Mark Twain once said that that intellectual
+Twain once said that that intellectual food is like any other it's better taken
+with the spoon than with a shovel and and and I I believe that firmly I don't
+and and I I believe that firmly I don't want to I don't want to just get there
+want to I don't want to just get there they're gonna let me talk for a few
+they're gonna let me talk for a few minutes longer so but I promise you I
+minutes longer so but I promise you I will try not to I'll try not to catch
+will try not to I'll try not to catch her patience now I haven't said anything
+her patience now I haven't said anything about what is one of the most remarkable
+about what is one of the most remarkable things that that Karen did early in you
+know I say earlier in her career but in fact I you know I know she already had a
+before this and and has had a long full career after but but it was early for me
+career after but but it was early for me we're not you about it is is this work
+we're not you about it is is this work with I'm undoubtedly you've heard these
+with I'm undoubtedly you've heard these words connections engage theory but you
+words connections engage theory but you may not know what a connection is in
+fact that's maybe it's probably the hardest thing to get wrap your head
+hardest thing to get wrap your head around in these things that's what is a
+around in these things that's what is a connection I'm gonna I'm not even going
+connection I'm gonna I'm not even going to define it exactly but I'm gonna give
+you three examples of connections and say and say this is the stuff that
+mathematicians and physicists have collected into a theory I mean these are
+these are things that have been collected into a theory the first thing
+collected into a theory the first thing is almost obvious in hindsight is is
+is almost obvious in hindsight is is that Newton's laws of motion you know
+you know the slogan is velocities relative that acceleration is absolute
+relative that acceleration is absolute that is you can't really tell how fast
+you're going but you can tell how you can feel any changes in your velocity
+can feel any changes in your velocity right and what that what that amounts to
+right and what that what that amounts to is that it allowed is this principle
+is that it allowed is this principle allows us to actually you know build a
+any conveyance and build inside it something that detects acceleration and
+something that detects acceleration and and it can track wherever you are right
+once it knows the initial position it can keep track of you changes in
+can keep track of you changes in position and orientation and velocity so
+this ability to track you know given an initial state and detecting acceleration
+initial state and detecting acceleration rather than velocity which you can
+rather than velocity which you can detect I mean you cannot detect directly
+detect I mean you cannot detect directly is is this way of connecting velocities
+is is this way of connecting velocities at different places and that word
+at different places and that word connect is is chosen it's chosen for a
+connect is is chosen it's chosen for a good reason
+connects velocities at different points of a path another example everywhere on
+earth except at the poles we have a well-defined notion of north south east
+well-defined notion of north south east and west right we have a orientation but
+north south east and west at poles right I mean obviously you have South but you
+I mean obviously you have South but you can't figure out where East and West are
+can't figure out where East and West are right that doesn't make any sense
+right that doesn't make any sense so it looks like something's wrong with
+so it looks like something's wrong with the sphere right well still if you take
+the sphere right well still if you take a traveler and and and she just keeps
+track of how how she turns left or right and how fast she's turning she she knows
+and how fast she's turning she she knows how fast her sense of direction is
+velocity and so she can connect her senses of direction at two different
+senses of direction at two different places by internal measurements right
+places by internal measurements right she doesn't have to see it she doesn't
+she doesn't have to see it she doesn't have to
+she doesn't have to keep checking landscapes as long as she takes takes
+good care and it doesn't matter whether she passes over a pole or not and so but
+she passes over a pole or not and so but on the other hand she would be able to
+on the other hand she would be able to tell if she if she did something like
+this on the earth she went straight what seems to be straight for a while made a
+seems to be straight for a while made a right-hand turn
+whoops wrong made a right-hand turn went for a while made another right-hand turn
+for a while made another right-hand turn went for the same distance and would
+went for the same distance and would come back
+not as you might think and here I better go to the other picture and if if the
+go to the other picture and if if the world we're flat you might think if you
+world we're flat you might think if you did that then you come back and your
+sense of forward would be exactly reversed right
+but in on the curvature on the earth which is curved your sense of forward is
+which is curved your sense of forward is not exactly reversed but it's rotated
+expect it to be and that's an effect of the curvature of the earth but the point
+the curvature of the earth but the point is that that there is a way you know the
+things sense of direction at two different points along the path is there
+different points along the path is there it's something intrinsic that you can
+it's something intrinsic that you can feel it's it's more real than an actual
+direction at a point it's just the change in direction is what you can feel
+up example3 quick here one of my favorite
+example3 quick here one of my favorite examples is even though I'm an American
+examples is even though I'm an American I still recognize the soccer ball one of
+I still recognize the soccer ball one of my favorite examples is is if you take a
+my favorite examples is is if you take a ball on a table and you roll it along a
+curve without twisting or slipping the the the friction actually tells you how
+the the friction actually tells you how to connect the orientation of the ball
+to connect the orientation of the ball as you go around any given path so
+example of a connection and the end and the fact that you come around the path
+and come back and the thing is rotated tells you that there's curvature there
+tells you that there's curvature there even though it may not look like
+even though it may not look like curvature but that you know the failure
+of you know going from one dimensional connection to two-dimensional trying to
+fill in that gap is what we call curvature in all these situations and I
+curvature in all these situations and I haven't told you how to compute anything
+haven't told you how to compute anything you want to learn that go to graduate
+school but it's there there's a thing right and let me speed through this I
+right and let me speed through this I mean I said what I said and I reused the
+mean I said what I said and I reused the word connection all those things look
+word connection all those things look like they're completely different things
+like they're completely different things but in fact they're all special cases of
+a single construction that single construction is what math
+connections like I said it takes more machinery you find I'll just give you
+machinery you find I'll just give you some examples of things that are that
+some examples of things that are that have been recognized to be connections
+have been recognized to be connections herman wall showed that showed that
+Maxwell's laws can be interpreted as a connection on space-time whose curvature
+connection on space-time whose curvature is the electromagnetic field Einstein's
+theory of general relativity says as a connection on space-time whose curvature
+connection on space-time whose curvature describes gravitational effects such as
+describes gravitational effects such as tidal forces and gravity waves yang and
+tidal forces and gravity waves yang and Mills in 1954 when I was one-year-old
+Mills in 1954 when I was one-year-old show how shows a show in fact how strong
+show how shows a show in fact how strong interactions in quantum electrodynamics
+interactions in quantum electrodynamics could be explained as a connection whose
+curvature satisfies and all along or Lagrange equation for tow for minimizing
+Lagrange equation for tow for minimizing total courage once you realize
+total courage once you realize connections are things they're just like
+connections are things they're just like functions you can differentiate them you
+functions you can differentiate them you can you can make a space of them you can
+complete them you can do but that's tricky it turns out it has lots of
+tricky it turns out it has lots of geometry topology of an end manifold
+geometry topology of an end manifold strongly restrict the kind of
+surface on a manifold and so they can be used to probe the probe the the geometry
+used to probe the probe the the geometry and topology of n manifolds these are
+and topology of n manifolds these are Lin Lagrange equations I was talking
+Lin Lagrange equations I was talking about these yang-mills equations for
+about these yang-mills equations for minimizing total curvature of a
+connection got a great deal of attention from physicists when they were when yang
+from physicists when they were when yang and Mills first wrote them down but at
+least at first not so much for mathematicians robot used to tell this
+mathematicians robot used to tell this funny story about how he and yang and
+funny story about how he and yang and Mills were all at the Institute at the
+Mills were all at the Institute at the same time when yang and Mills were in
+yang-mills theory and and the only interaction they had was that was that
+interaction they had was that was that they they used to paint fences for the
+the kindergarten together but they never talked about their work so they didn't
+know that they were working on the same kind of things
+there were known difficulties in the analysis because these equations have
+analysis because these equations have built into generous ease be caused by
+their very large symmetry groups so-called gauge groups these these
+groups these symmetries of connections or equivalences of connections are they
+or equivalences of connections are they had already been identified by li and
+had already been identified by li and carton many years before but nobody knew
+carton many years before but nobody knew what to do with them nobody knew what
+applications they had or how to understand them and there was no
+understand them and there was no discussion of convergence and limit
+properties is all formal by the way at this particular term li was still one of
+this particular term li was still one of the mathematicians who was using
+infinite decimals you know although the the rigorous theory had been had been
+the rigorous theory had been had been had begun to catch hold Li was a very
+geometric thinker and and and infinitesimally fine for him anyway
+developing subject took a long time and because of vowels vowel introduced a
+because of vowels vowel introduced a terminology called you know gauge
+terminology called you know gauge transformations for for the ambiguity of
+transformations for for the ambiguity of knowing position this was it became
+known as gauge theory and I'm almost out of time and I'm way out of time but let
+of time and I'm way out of time but let me just let me do this in the 1980's
+me just let me do this in the 1980's Karen began discovering and publishing
+Karen began discovering and publishing of some foundational results about these
+of some foundational results about these yang-mills connections on four manifolds
+yang-mills connections on four manifolds in particular and exactly why for
+Karen's already said it has to do with scaling symmetry but another way to
+scaling symmetry but another way to think of it is that curvature is
+think of it is that curvature is curvatures a two-dimensional thing as I
+curvatures a two-dimensional thing as I was saying it's what you have to what
+was saying it's what you have to what you need to figure out what why you
+can't fill in things in in two dimensions so it's a it's a
+two-dimensional object and when you're taking the size of it you take it square
+so you're actually a four dimensional scaling object so so you need four
+geometric dimension and so that's why four is so important ah and she first
+four is so important ah and she first showed how to deal with this degeneracy
+showed how to deal with this degeneracy that vowel had all had
+uncovered she showed how you could normalize the ambiguity away in what she
+normalize the ambiguity away in what she called the Coulomb gauge that was
+called the Coulomb gauge that was mentioned in the in the whatever is
+called the letter the the film at the beginning which was very nice by the way
+and that was important because it allowed you to estimate sizes and
+allowed you to estimate sizes and compute limits or show that they exist
+compute limits or show that they exist and then she proved in a really amazing
+and then she proved in a really amazing removable singularities theorem that
+said that if you had an actual yang-mills connection on a puncture on a
+yang-mills connection on a puncture on a ball missing a point then then as long
+as the total yang-mills curvature was finite you could fill it in
+finite you could fill it in that is those things that appeared to be
+that is those things that appeared to be singularities it's like removable
+singularities and complex analysis that you can you know once you know that
+certain thing is finite you can just fill it in and that that was important
+because it allowed you to do all kinds of global things and and this is my last
+of global things and and this is my last slide the those two results laid the
+slide the those two results laid the foundations for for many applications of
+foundations for for many applications of yang-mills theory in the intervening
+years the work of Donaldson and tabs that has told so much about the topology
+that has told so much about the topology of four manifolds and floor three and I
+of four manifolds and floor three and I mean I really don't have time to say
+the enormous influence of Karin's work but she continues to develop original
+but she continues to develop original ideas and inspire mathematicians and
+physicists the world over I wanted to say congratulations to Karen and I found
+say congratulations to Karen and I found this picture of her when I first met her
+well roughly within a few years of when I first met her at the ad the Institute
+I first met her at the ad the Institute for Advanced Study and and it brought
+for Advanced Study and and it brought back all these fond memories of how
+Karen she and Bob were to me a beginning postdoc who knew nothing and didn't even
+postdoc who knew nothing and didn't even know that he knew nothing and and so I
+know that he knew nothing and and so I wanted to say congratulations to Karen
+wanted to say congratulations to Karen and I hope that I'm not about to have
+this experience that that Woody Allen had in any hall that you know when he
+line behind this guy in the movies you know movie line and he was and he was
+know movie line and he was and he was bloviating about how Marshall McLuhan's
+theories and and how important they were and things like that and then and Woody
+and things like that and then and Woody Allen says you're completely wrong and
+Allen says you're completely wrong and I'm gonna show you and he reaches over
+behind from a Honda movie poster and Marshall says says I've been listening
+Marshall says says I've been listening and everything you said it's completely
+and everything you said it's completely wrong so I'm hoping that's not about to

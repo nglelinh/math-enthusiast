@@ -1,0 +1,873 @@
+okay um thanks again for everyone to come and listen to me today it's a great
+honor to speak here in Princeton so I'm interested in the Gap stre prime
+and we know from the prime number theorem that the average gap between
+theorem that the average gap between primes of size about X is roughly log X
+bigger they gradually get sparer and sparer and the question that I'm going
+sparer and the question that I'm going to be interested in today is how small
+to be interested in today is how small can they be even if they get Spar and
+can they be even if they get Spar and sparer on average is it the case that
+sparer on average is it the case that occasionally you can have very small Gap
+occasionally you can have very small Gap stream times so the kind of question I'm
+stream times so the kind of question I'm interested in is what is the if we let
+interested in is what is the if we let PN denote the N Prime what is limit the
+limit of PN plus 1 minus PN and in particular is it finite and if it is
+finite how big is it so this is asking is there some bound B such as infinitely
+is there some bound B such as infinitely many pairs of primes that differ by at
+most B and if so how small can we take B and more generally rather than looking
+and more generally rather than looking at just pairs of primes we can ask for
+primes or strings of plus one fines and so for any positive integer M we can
+simly ask what is the limit for PN plus M minus PN and in particular is this
+M minus PN and in particular is this finite so this is saying now if there's
+some bound BM such that we can find infin many sets of mimes all contained
+infin many sets of mimes all contained in an interval of length
+BM now we believe we know what the answer should be to both of these
+answer should be to both of these questions and this is given by the prime
+questions and this is given by the prime K2 PSE conjecture so to State the
+K2 PSE conjecture so to State the conjecture we need a small amount of
+technical notation so we say a set h of positive integers is admissible if it do
+positive integers is admissible if it do doesn't cover all residue classes modul
+doesn't cover all residue classes modul only Prime so that's saying for every
+only Prime so that's saying for every Prime P there's some integer NP which is
+not congruent to any element of our fixed set of positive integers and then
+fixed set of positive integers and then the prime K2 plus conjecture is the
+the prime K2 plus conjecture is the following statement if we take any fixed
+following statement if we take any fixed admissible set H then there should be
+admissible set H then there should be infinitely many integers n such that all
+infinitely many integers n such that all the translates M plus H1 up to M plus HK
+the translates M plus H1 up to M plus HK are primes now it's quite easy to see
+are primes now it's quite easy to see that if H is not admissible then it
+that if H is not admissible then it covers all residue classes modul some
+fixed Prime p and this means that all at least one of the translates M plus H1 up
+to M plus h k is a multiple of P for every integer n and so there can only be
+every integer n and so there can only be finitely many values of n for which all
+finitely many values of n for which all of these translates a prime so the prime
+of these translates a prime so the prime K conjecture is really saying all these
+K conjecture is really saying all these translates should be simultaneously
+Prime infinitely often unless there's some really obvious reason why they
+some really obvious reason why they can't be
+and as I mentioned if we assume the prime K2 plus conjecture this gives us a
+prime K2 plus conjecture this gives us a complete answer to both the questions I
+complete answer to both the questions I put up on the first slide so if we
+assume this then the set 02 is admissible and we get the twin Prime
+admissible and we get the twin Prime conjecture that there's infinitely many
+conjecture that there's infinitely many pairs of primes that differ by exactly
+integer m in the more General case we can assign a exact value to the limit
+can assign a exact value to the limit for PM Plus M minus PN and for large
+for PM Plus M minus PN and for large values of M this grows like roughly M
+log M and in particular is finite for every fixed finite value of M so if we
+every fixed finite value of M so if we assume the prim K ho conjecture we
+assume the prim K ho conjecture we really know everything we want to about
+really know everything we want to about the two questions that I'm interested in
+the two questions that I'm interested in but the prime K2 conjecture is this vast
+generalization of the twin Prime conjecture
+so unfortunately it seems quite a long way away from anything that we're able
+way away from anything that we're able to prove in the near future so what can
+unconditionally well goldon pin do introduced a method of studying these
+introduced a method of studying these small gaps by using approximations to
+small gaps by using approximations to the prime K2 plus conjecture and these
+the prime K2 plus conjecture and these approximations have been very effective
+at using cth Theory to get unconditional results about small gaps between Prim so
+results about small gaps between Prim so this method's now known as the gpy
+this method's now known as the gpy method and the main result of gon pin
+method and the main result of gon pin andum when they introduced this method
+andum when they introduced this method was to show that there's infinitely many
+was to show that there's infinitely many pairs of primes that whose difference is
+pairs of primes that whose difference is arbitrarily small compared to the
+arbitrarily small compared to the average
+Gap and just under a year ago this there's been this spectacular
+Breakthrough by utang Jang who managed to end the work of goldon pins udum who
+to end the work of goldon pins udum who and he showed that there's infinitely
+and he showed that there's infinitely many pairs of primes that differ by most
+70 million so we now have a complete qualitative answer to the first question
+qualitative answer to the first question I put up that there are infinitely many
+Bounder gaps between primes and we can put an explicit numerical value on the
+put an explicit numerical value on the sides of the gaps 70 million is a bit
+bigger than two but this is a huge breakthrough that we've got a finite
+breakthrough that we've got a finite bound um unfortunately neither of these
+bound um unfortunately neither of these results automatically give a similar
+results automatically give a similar qualitative answer for the more general
+qualitative answer for the more general question of many
+primes so there's two main results that I want to talk about today which are
+I want to talk about today which are results which I proved in November last
+results which I proved in November last year so the first is we get a
+year so the first is we get a corresponding qualitative statement with
+an explicit numerical Bound for any positive integer M so for every positive
+positive integer M so for every positive integer m M the limit for PN plus M
+minus PN is finite and moreover we can put an explicit bound that grows
+poor compared to what we get with the highly to Prime K2 conjecture it's going
+highly to Prime K2 conjecture it's going exponentially rather than like M log M
+exponentially rather than like M log M but nonetheless this is finite and we
+but nonetheless this is finite and we can put an explicit bound on it and then
+was using the ideas in this new method to get an improved numerical result for
+to get an improved numerical result for the gaps between consecutive primes so
+the gaps between consecutive primes so I've been able to show that there's
+I've been able to show that there's infinitely many pairs of primes which
+infinitely many pairs of primes which differ by most 600 so 600 is still quite
+a lot bigger than two but we get a slightly
+closer I can't remember um bigger than
+so I guess there's two things I want to say straight away about this theorem uh
+say straight away about this theorem uh the first is that um Terry has also
+the first is that um Terry has also independently come up with the same
+modification and the same ideas behind the proof so in principle he has uh same
+the proof so in principle he has uh same results here and the second thing that I
+results here and the second thing that I want to say is that the proof uses a
+genuinely different way of building on the original work of gold and pins and
+yum to the approach of Shang so this isn't natural generalization of jang's
+isn't natural generalization of jang's results in some way we use a completely
+method although it's still based very much on the um work of gold and Pinson
+so okay so this is a schematic overview of how the proofs towards showing
+of how the proofs towards showing results about small gaps between primes
+results about small gaps between primes roughly work we want to prove an
+roughly work we want to prove an arithmetic results about the primes we
+want to show that they come in small Gap they have small gaps and naturally if we
+they have small gaps and naturally if we want to prove an arithmetic result we
+want to prove an arithmetic result we need some fundamental arithmetic input
+need some fundamental arithmetic input to help our understanding about the
+to help our understanding about the primes and the arithmetic input that
+primes and the arithmetic input that goes into the whole argument is results
+in Prime about primes in arithmetic progressions and the key Point here is
+that um we can prove actually very strong deep results about primes and
+strong deep results about primes and arithmetic progressions so this really
+arithmetic progressions so this really represents some of the best knowledge we
+primes now to translate the kind of arithmetic information that we know
+progressions into the kind of arithmetic results that we want to prove results
+results that we want to prove results about small gaps between primes we use a
+Civ method to try and translate this arithmetic information and so here we
+use some version of the gpy Civ to translate the results about prims and
+translate the results about prims and arithmetic progressions into results
+turns out that if you want to get a good result about small Gap stream Primes
+result about small Gap stream Primes there's lots of parameters in your Civ
+there's lots of parameters in your Civ which you want to choose essentially
+which you want to choose essentially optimally so the Civ method effectively
+optimally so the Civ method effectively breaks proven a small result
+primes given knowledge about primes and arithmatic progressions into two smaller
+sub problems one of which is a smooth optimization problem and one of which is
+optimization problem and one of which is a combinatorial problem but the key
+Point here is neither the combinatorial problem nor the smooth optimization
+problem have anything to do with the arithmetic of the primes essentially and
+arithmetic of the primes essentially and so they can be handled using techniques
+so they can be handled using techniques from other areas such as variational
+from other areas such as variational calculus and my work jang's work and the
+calculus and my work jang's work and the pioner work of go and pin and you do
+them all follow the same method okay not sure why that's
+okay not sure why that's happening okay uh I guess um the key
+happening okay uh I guess um the key breakthrough in jang's work which I'll
+breakthrough in jang's work which I'll mention slightly more is to improve the
+mention slightly more is to improve the basic arithmetic information that goes
+basic arithmetic information that goes into this so the key breakthrough of
+Bomer Freelander fui and aan um was to improve the basic arithmetic information
+that went into the whole argument so J proves a stronger result about times and
+proves a stronger result about times and Artic progressions and then shows that
+Artic progressions and then shows that this stronger Artic information flows
+this stronger Artic information flows through the whole diagram and he
+through the whole diagram and he correspondingly gets a stronger result
+about small gaps between primes and this is is the key extra thing that Jang does
+is is the key extra thing that Jang does compared to the original work of go and
+compared to the original work of go and Pinon y that gets him boundary gaps
+Pinon y that gets him boundary gaps between primes however in my work the
+between primes however in my work the key modification is the Civ method at
+key modification is the Civ method at the heart of the method and my modif I
+modify the gpy C to make it more efficient at translating the results
+efficient at translating the results about primes in arithmetic progressions
+into the results about small Gap stre primes and it's this more efficient Civ
+primes and it's this more efficient Civ at the heart of the method which is the
+at the heart of the method which is the key modification
+okay so I'll now say a few words about the basic arithmetic input that goes in
+the basic arithmetic input that goes in for to the whole method about primes and
+the number of primes which are less than equal to X and in a progression so we
+equal to X and in a progression so we counting primes which are congruent to a
+counting primes which are congruent to a modular Q now it's quite easy to see
+that if a and Q have a common factor then there's essentially no primes in
+this set whatsoever so all the Primes in rest of you classes where a is co- Prime
+rest of you classes where a is co- Prime to Q
+and then the basic fistic is that the primes should be equally distributed in
+primes should be equally distributed in all these residue glasses so the number
+all these residue glasses so the number of primes in any given particular
+of primes in any given particular arithmetic progression module oq should
+arithmetic progression module oq should be roughly equal to the number of primes
+which are less than equal to x divided by the number of different residue
+classes and moreover this htic that the problem should be equidistributed we
+feel should hold for a really very wide range of values of x and q so Q can grow
+range of values of x and q so Q can grow with X and in particular be almost as
+large as X and we still expect this cisti to hold now if we actually want to
+cisti to hold now if we actually want to quantitively measure this heris stick we
+quantitively measure this heris stick we can let e of Q denote the error from
+this approximation over residue classes modular q
+modular q and
+the idea of a level of distribution so here we assign a parameter to the primes
+here we assign a parameter to the primes a score if you like between zero and one
+distributed how strong this equid distribution holds so we have we say the
+distribution holds so we have we say the primes have a level of distribution
+primes have a level of distribution Theta if when we average over when we
+sum over moduleq which are less than x^ Theta we get something which is small so
+Theta we get something which is small so this is saying that e of Q is small on
+average over Q less than x^ Theta if Theta is very small this indicates only
+Theta is very small this indicates only a weak level of equ distribution whereas
+a weak level of equ distribution whereas if Theta is large and this indicates a
+strong level of distribution and
+the key point that as to why this might be interesting to look at is the Bomer
+be interesting to look at is the Bomer vinard of theorem which is an
+vinard of theorem which is an unconditional result that shows that the
+unconditional result that shows that the primes of level of distribution Theta
+less than half and this is really a very deep result about the primes even if you
+deep result about the primes even if you assume the generalized dreaming
+hypothesis we don't know how to improve this and in particular the Bomer varda
+this and in particular the Bomer varda theorem can be thought of as a
+theorem can be thought of as a unconditional result saying that the
+unconditional result saying that the generalized dream and hypothesis is true
+generalized dream and hypothesis is true on average when we average over module
+EQ so this is really one of the deepest results we have about primes and this is
+results we have about primes and this is what's going to power our whole methods
+what's going to power our whole methods um it should be remarked that it's
+um it should be remarked that it's unconditional that primes have level of
+unconditional that primes have level of distribution Theta for any value of
+theta less than a half but we believe this should be able to be extended to
+this should be able to be extended to any value of theta which is strictly
+any value of theta which is strictly less than one and this is known as the
+conjecture now okay so that's all I'm going to say about primes and arithmetic
+going to say about primes and arithmetic progressions how do we translate these
+progressions how do we translate these results about primes in in arithmetic
+results about primes in in arithmetic progressions in particular the bom vard
+of THM into results about small gaps between PES they feel like very
+different objects and so the idea is to use some form of the gpy Civ method so
+use some form of the gpy Civ method so the basic idea here is that we fix from
+the basic idea here is that we fix from the outset some admiss admissible set H
+the outset some admiss admissible set H and we consider this following ratio so
+and we consider this following ratio so on the numerator we have some over
+on the numerator we have some over integers in some diadic region and at
+integers in some diadic region and at each in integer we count the number of
+these translators which are prime multiplied by some non- negative weights
+multiplied by some non- negative weights which at the moment are just think of as
+arbitrary non- negative integers and then we're going to compare this just
+W so if we normalize say that the sum of the WN is equal to one then this looks
+the WN is equal to one then this looks like a probability measure and we're
+like a probability measure and we're calculating the expected number of
+calculating the expected number of translates which are prime if we're
+translates which are prime if we're picking integers according to the
+picking integers according to the probability measure given by these
+probability measure given by these weights
+W and then the whole idea is just a very Elementary set of observations if we can
+get an ASM totic estimate for this sum s and in particular can show that this sum
+and in particular can show that this sum s is bigger than some test integer M
+s is bigger than some test integer M then at least one term n must make a
+then at least one term n must make a contribution where the term n
+contribution where the term n contributes more than M
+times what it contributes to the numerator compared to what it
+denominator but since the weights W and a non- negative if there's a
+contribution which is more than m to the numerator than it is to the denominator
+then this means at least n plus one of these translates n plus HR must be
+these translates n plus HR must be Primes
+and therefore if we can show that s is bigger than M for all large values of n
+bigger than M for all large values of n then we found infinitely many values of
+then we found infinitely many values of n for which at least n plus one of the
+translates are all prime but these are all primes in a band length interval and
+so in particular we've shown that we found infinitely many values of n such
+that there's n plus one primes in a bound length interval and so the limit
+bound length interval and so the limit for PN plus n minus PN is finite so just
+ratio s and for example if we can show that s is bigger than one for all large
+that s is bigger than one for all large values of capital N which is just the
+values of capital N which is just the region that we're averaging over then we
+region that we're averaging over then we show that we've shown that there's
+show that we've shown that there's infinitely many Bounder gaps between
+problems now this is all well and good but the question then is obviously well
+but the question then is obviously well how on Earth do you choose these weights
+how on Earth do you choose these weights WN we want these to be highly
+WN we want these to be highly concentrated and large when many of the
+translates the M plus h primes and we want them to be small small when few of
+want them to be small small when few of the translate of the M plus h times
+the translate of the M plus h times and the key idea of goon pin udum is to
+and the key idea of goon pin udum is to follow the So-Cal selberg C weights so
+follow the So-Cal selberg C weights so um selberg
+introduced um the selberg Civ which is a very effective means of getting an
+very effective means of getting an getting weights which are highly
+getting weights which are highly concentrated on prime numbers and in
+concentrated on prime numbers and in particular when you looking at anything
+things trying to be prime this is the best method we know about having simple
+best method we know about having simple to estimate weights which are highly
+to estimate weights which are highly concentrated on prime numbers so the
+concentrated on prime numbers so the prise formula aren't too important but
+the basic idea is that these weights WN are going to depend on small devices of
+are going to depend on small devices of this product of numbers which we want to
+be prime or very close to Prime
+and by restricting only to small devices we can estimate the the sums reasonably
+we can estimate the the sums reasonably accurately
+using our level of distribution style results um but because we're looking at
+results um but because we're looking at Prime devices of these numbers which we
+want to concentrate B Prime we can arrange these sums so that they're very
+arrange these sums so that they're very small when this product has many small
+small when this product has many small prime
+factors and it turns out that from the point of view of the cburg cve um this
+point of view of the cburg cve um this is a so-called K dimensional problem and
+is a so-called K dimensional problem and in many other K dimensional problems
+in many other K dimensional problems there's a black box essentially optimal
+there's a black box essentially optimal set of Weights so if we use these
+weights which are optimal in lots of other contexts we find that we want to
+other contexts we find that we want to choose weights which the precise form
+choose weights which the precise form again is slightly unimportant but it's
+again is slightly unimportant but it's an arithmetic function times some smooth
+an arithmetic function times some smooth cutter function to make everything easy
+to estimate and it turns out that if the if we assume that the primes of level of
+if we assume that the primes of level of distribution Theta and we consider a
+distribution Theta and we consider a large admissible set then with the this
+large admissible set then with the this standard choice of cellb if weights we
+standard choice of cellb if weights we can make this ratio s of Si is roughly
+equal to Theta the level of distribution now if we remember we
+wanted s to be strictly bigger than one to get Bounder gaps between primes but
+to get Bounder gaps between primes but Theta the level of distribution is this
+Theta the level of distribution is this parameter which is always going to be
+parameter which is always going to be between Z and one and even if we assume
+between Z and one and even if we assume the most optimistic hypotheses then
+Theta has to be less than one and so we're never going to be able to make S
+we're never going to be able to make S bigger than one so it seems that this
+bigger than one so it seems that this method really just doesn't quite work
+method really just doesn't quite work for getting Bounder gaps between
+for getting Bounder gaps between primes therefore it came as something of
+primes therefore it came as something of a surprise when gon pins andum showed
+a surprise when gon pins andum showed that if you modify the smooth cutter
+that if you modify the smooth cutter function here then actually you can do
+function here then actually you can do better and you can do better by a whole
+factor of two so if you optimize the smooth cutter function and choose this
+well then again if we look at a large admissible set and we assume the
+large admissible set and we assume the primes of level of distribution Theta
+primes of level of distribution Theta and we choose our parameters in our Civ
+optimally in terms of this level of distribution then we can make this ratio
+s of size about 2 * Theta now again we wanted to prove
+Bounder gaps between primes and we prove Bounder gaps between primes if we can
+one if we can take Theta to be strictly bigger than half and indeed gold and pum
+bigger than half and indeed gold and pum showed that if you assume the prime of
+showed that if you assume the prime of level of distribution strictly bigger
+level of distribution strictly bigger than half then there are infinitely many
+Bounder gaps between PS However unfortunately unconditionally we only
+know the bombard THM that we can take value of theta less than a half and so
+value of theta less than a half and so unconditionally we just failed to prove
+unconditionally we just failed to prove Bounder gaps between
+primes the key breakthrough in jang's work was to go slightly Beyond a half in
+work was to go slightly Beyond a half in the Bomer vinag theorem with a a couple
+the Bomer vinag theorem with a a couple of technical assumptions and because he
+of technical assumptions and because he was able to prove a level of
+distribution result that went slightly Beyond a half he was correspondingly
+able to make S slightly bigger than one and this is what let him get just over
+and this is what let him get just over the line and therefore prove that
+the line and therefore prove that there's infinitely many Bounder gaps
+there's infinitely many Bounder gaps between
+times however the key modification in my work is to use a generalized form of
+work is to use a generalized form of these silberg Civ RS so again this looks
+these silberg Civ RS so again this looks like a fairly messy complicated formula
+like a fairly messy complicated formula particularly if you're not familiar with
+particularly if you're not familiar with cves but before we had a one-dimensional
+cves but before we had a one-dimensional sum of small devices of this product of
+sum of small devices of this product of numbers which we like to be prime
+numbers which we like to be prime infinitely often and the key idea here
+infinitely often and the key idea here is instead of having a one-dimensional
+is instead of having a one-dimensional sum we're going to have a
+sum we're going to have a multi-dimensional sum where we summing
+over separately devisers D1 up to DK where di is a divisor of each of these
+terms M plus hi which we'd like to be F and so we've used these different linear
+and so we've used these different linear forms and we're now looking at devices
+forms and we're now looking at devices of these
+separately it's Uncle yeah it's unclear whether silberg meant that because of
+whether silberg meant that because of the extra flexibility you get from
+the extra flexibility you get from choosing these independently or whe or
+choosing these independently or whe or the extra flexibility you get from
+the extra flexibility you get from effectively having buying more room out
+effectively having buying more room out of your level of distribution cuz he was
+of your level of distribution cuz he was talking about the number of devices that
+talking about the number of devices that you have
+you have and right
+and right um yeah uh right
+so um yeah [Laughter]
+um yeah so the key new the key idea is to look at these multi-dimensional sums
+to look at these multi-dimensional sums over D1 devices D1 up to DK and we now
+have a smooth cutter function that depends on these devices separately and
+depends on these devices separately and as was mentioned these multi-dimensional
+as was mentioned these multi-dimensional weights aren't entirely new so sber
+weights aren't entirely new so sber could
+um so yeah my computer shouldn't have a screen safer so
+um uh yeah so these weights had been looked up before selberg had mentioned
+looked up before selberg had mentioned the possible use of these weights and
+the possible use of these weights and how they should in principle improve
+how they should in principle improve um improve results and similarly goon
+um improve results and similarly goon and udum in some of their early work had
+also looked at very similar style multi-dimensional weights but the key
+multi-dimensional weights but the key thing that we the key modification is
+that we're now moving to multi-dimensional weights and it's this
+flexibility that we allow this smooth cutter function to depend on our devices
+cutter function to depend on our devices separately rather than all together
+separately rather than all together which is going to be the key thing that
+lets us with
+so um yeah I guess again we're just going to Define these weights in terms
+going to Define these weights in terms of some K dimensional smooth cut of
+of some K dimensional smooth cut of function and then uh following the ideas
+function and then uh following the ideas of Goen pinch and your durum we don't
+want to impose too many restrictions on our choice of f we want to keep F fairly
+arbitrary and then optimize our choice of f afterwards once we know the form of
+so if we choose these weights in terms of some smooth K dimensional function f
+of some smooth K dimensional function f then we can get an ASM totic formula for
+this ratio s and if the primes have level of distribution Theta then we can
+level of distribution Theta then we can show that juing parameters dependent on
+show that juing parameters dependent on Theta we can make our ratio s equal to
+Theta / 2 time some K dimensional integral J of f in terms of our smooth
+integral J of f in terms of our smooth function f divided by some K dimensional
+function f divided by some K dimensional integral I of f in terms of our smooth
+function f but the key point is that J of F and I of f only depend on the size
+of our admissible set which is K and this smooth K dimensional function f and
+this smooth K dimensional function f and therefore we get an ASM totic ratio for
+therefore we get an ASM totic ratio for S and we want to choose a smooth
+S and we want to choose a smooth function f to make this ratio large but
+function f to make this ratio large but making the ratio of two k dimensional
+making the ratio of two k dimensional integrals large these are just
+explicitly given K dimensional integrals this no longer has anything to do with
+arithmetic or primes in it at all it's just a smooth optimization problem for
+just a smooth optimization problem for for
+analysis so if we put everything that we've seen so far together we get the
+we've seen so far together we get the fortim
+something it's 2K dimensional integrals but it's yeah it boils down to an ion
+but it's yeah it boils down to an ion value calculation yeah so if we put this
+value calculation yeah so if we put this all together we get um the key
+proposition from the Sip so if we assume that the primes of level of distribution
+that the primes of level of distribution Theta and we fix some admissible set h
+of side K and we then let MK be the supremum
+K and we then let MK be the supremum over all relevant smooth choices of our
+over all relevant smooth choices of our function f of this ratio of two k
+function f of this ratio of two k dimensional integrals J of F and I of
+f then if it's the case that this smooth optimization result is bigger than two
+optimization result is bigger than two times some test integer M divided by our
+level of distribution Theta then it's the case that there's infinitely many
+the case that there's infinitely many Ines n such that at least n plus one of
+and so the key point that I really want to emphasize here is we started out with
+to emphasize here is we started out with this very arithmetic problem about small
+this very arithmetic problem about small gaps between primes and this Civ
+gaps between primes and this Civ proposition has reduced our complicated
+proposition has reduced our complicated arithmetic problem purely down to a
+arithmetic problem purely down to a smooth optimization result as soon as we
+smooth optimization result as soon as we can show that MK is sufficiently large
+can show that MK is sufficiently large then this automatically gives us that
+then this automatically gives us that any admissible set contains primes and
+any admissible set contains primes and we get infinitely many Bounder gaps
+many primes if MK is large enough and so we've now completely reduced our whole
+we've now completely reduced our whole arithmetic problem to something that
+arithmetic problem to something that doesn't
+involve arithmetic at all it's just a smooth optimization problem it can be
+smooth optimization problem it can be tackled using variational calculus or
+tackled using variational calculus or calculating ion values and methods like
+calculating ion values and methods like this so how do we actually get a good
+lower Bound for Mk well I've claimed that there's these two relatively nice K
+that there's these two relatively nice K dimensional intercores expressions for f
+dimensional intercores expressions for f and we like to and maximizing this ratio
+corresponds to calculating the largest ion value of some linear operator
+ion value of some linear operator However unfortunately there's um two
+However unfortunately there's um two obstacles before we preventing us from
+obstacles before we preventing us from automatically using variational calculus
+automatically using variational calculus or solving the differential equation to
+um get a explicit answer the first of these is that this is a k dimensional
+these is that this is a k dimensional problem for arbitary K and our methods
+problem for arbitary K and our methods work quite well ex when we want explicit
+work quite well ex when we want explicit balance in a one-dimensional case but in
+balance in a one-dimensional case but in general in multi-dimensional cases it
+general in multi-dimensional cases it can be very difficult the second is a
+swept under the carpet that um we also have a restriction on the support of our
+have a restriction on the support of our smooth function f and naturally we have
+smooth function f and naturally we have now a restricted optimization problem
+and again this causes a few complications however it turns out that
+complications however it turns out that these complications aren't too
+these complications aren't too problematic so to get around the fact
+optimization we can cheat and reduce the whole thing down to a one-dimensional
+whole thing down to a one-dimensional optimization so we can just consider K
+optimization so we can just consider K dimensional functions F which look like
+dimensional functions F which look like a product of one fixed K dimensional
+and so if we restrict our attention to these we just want to get a lower bound
+but it's now only a onedimensional optimization this smooth function
+optimization this smooth function G now we still have this
+said in my paper in terms of uh how I approached this it was very much the
+approached this it was very much the case that um by looking at Loni
+case that um by looking at Loni multipliers and such you can quite
+multipliers and such you can quite easily convince yourself that um the
+easily convince yourself that um the original gpy weights even just in the
+one-dimensional case shouldn't be optimal and in the K dimensional case
+um convince yourself that if you have a smooth function f which satisfies your
+smooth function f which satisfies your igen value equation then V should be
+igen value equation then V should be essentially the or the globally optimal
+essentially the or the globally optimal cellb C weights suitably interpreted and
+cellb C weights suitably interpreted and then you can because you're wanting to
+then you can because you're wanting to maximize what's essentially a ratio of
+maximize what's essentially a ratio of two quadratic forms you can do certain
+two quadratic forms you can do certain numerical calculations and um when I
+numerical calculations and um when I struggled to solve the igen value
+struggled to solve the igen value equation I looked at some numerical
+equation I looked at some numerical things and this gave me hope that these
+were genuinely outperform in the original Goen pinch your deing weights
+original Goen pinch your deing weights by noticeable
+by noticeable amount yeah
+yeah um the yeah the sum of the variables is less than equal to one and
+each variable is non- negative yeah so
+yeah right so once I've made this reduction down to a one dimensional
+reduction down to a one dimensional Thing Once I made this restriction I'm
+Thing Once I made this restriction I'm no longer covering the gpy case and so
+no longer covering the gpy case and so it's possible that this is a bad thing
+it's possible that this is a bad thing to do and I'm going to do worse
+um yeah um yeah it's easy to see that you can put back in the gpy case and you
+you can put back in the gpy case and you get back exactly what gpy get but we're
+get back exactly what gpy get but we're now gambling and we're looking at a
+now gambling and we're looking at a one-dimensional smooth optimization
+although um if you look at numerical results yeah you feel that this is a
+results yeah you feel that this is a sacrifice that's worth
+sacrifice that's worth making um so this region RK is where
+making um so this region RK is where corresponds to when the sum of the
+corresponds to when the sum of the variables is relatively small and we can
+variables is relatively small and we can see that if G is suitably concentrated
+see that if G is suitably concentrated near zero then almost all the weight of
+near zero then almost all the weight of this function f is going to come when
+this function f is going to come when the variables are small and so in
+the variables are small and so in particular the sum of the variables is
+particular the sum of the variables is almost certainly going to be small and
+almost certainly going to be small and it therefore turns out that if you
+it therefore turns out that if you consider the center of mass of G squ
+consider the center of mass of G squ this is the correct measure for um
+this is the correct measure for um formalizing the idea of G being suitably
+formalizing the idea of G being suitably concentrated near zero and if this
+Center of mass of G2 is less than one then by concentration of measure style
+then by concentration of measure style arguments we expect it to be the case
+variables being less than equal to one can be dropped just at the cost of a
+small L and in particular you can do this and you find that if you restrict
+this and you find that if you restrict also the support of G to the interval 0
+also the support of G to the interval 0 up to T we get that MK now just has a
+or squ divided by the integral G ^2 minus some small error which is going
+^2 minus some small error which is going to be negligible provided the center of
+to be negligible provided the center of mass is strictly less than one and T is
+mass is strictly less than one and T is fairly small compared to K and this is
+now a nice simple one-dimensional optimization that has no restrictions on
+it and we can plug in our calculus of variation techniques and we get the nice
+variation techniques and we get the nice simple answer that the optimal function
+simple answer that the optimal function G is given by 1 / 1 plus a t for some
+constant a for all T in our range of support and therefore if we have our
+support and therefore if we have our function G defined in these in terms of
+function G defined in these in terms of these quantities capital and capital T
+and we choose capital A and capital T optimally in terms of K we get a lower
+optimally in terms of K we get a lower Bound for Mk and in particular our lower
+Bound for Mk and in particular our lower bound of MK is log Kus 2 log log K minus
+bound of MK is log Kus 2 log log K minus 2 and so it grows like log K and MK
+Infinity so if we put all this together we have our lower Bound for Mk which
+grows like log K and we have our key proposition from the Civ which says that
+proposition from the Civ which says that if MK is sufficiently large in terms of
+if MK is sufficiently large in terms of some test into ger our level of
+some test into ger our level of distribution Theta then we get many of
+distribution Theta then we get many of these translates which are
+primes our test integer yes um now finally
+um if we want to make all these primes as densely concentrated as possible we
+as densely concentrated as possible we want to find an amble set of size K
+which is contained in as short of an interval as possible and it turns out
+it's a fun exercise that if you take the first K primes which are all bigger than
+first K primes which are all bigger than k then this forms an admissible set and
+k then this forms an admissible set and by the prime number theorem we know that
+by the prime number theorem we know that this is going to be contained in the
+this is going to be contained in the interval of size K log K and finally
+interval of size K log K and finally what I mentioned before the Bomer vinard
+what I mentioned before the Bomer vinard theorem says we can take any value of
+theorem says we can take any value of theta Which is less than a half and if
+theta Which is less than a half and if we put all of these together we get the
+we put all of these together we get the upper bound that I claimed before that
+there's the limit for PN plus M minus PN is bound above by some constant time MB
+is bound above by some constant time MB * e 4 which is the main
+result um okay so that's the main result what about the secondary result about um
+what about the secondary result about um trying to get as good a possible
+trying to get as good a possible numerical result about um consecutive
+primes so this 600 result well we want to play exactly the same game and get a
+to play exactly the same game and get a lower Bound for Mk but now we want to be
+a bit more careful with our lbound FK and not make these relatively wasteful
+and not make these relatively wasteful choices of restricting to a
+choices of restricting to a onedimensional function and then just
+onedimensional function and then just throwing out the condition that on on
+throwing out the condition that on on the range of
+support and but because we're only looking at one specific case we're also
+happy to do a certain amount of numerical calculation to help us with
+numerical calculation to help us with this
+so well we want the basic idea is that we can look at polinomial approximations
+we can look at polinomial approximations to our smooth function f and it turns
+out that in these K dimensional integrals there's a lot of natural
+integrals there's a lot of natural Symmetry and so we can restrict our
+Symmetry and so we can restrict our attention just to symmetric functions F
+attention just to symmetric functions F and therefore symmetric polinomial
+and therefore symmetric polinomial approximations We Know by Stone V stra
+if we look at large enough polom approximations we can get an arbitrarily
+approximations we can get an arbitrarily good approximation to whatever the
+optimal function is and so we haven't really lost anything at all by just
+really lost anything at all by just looking at polinomial approximations
+looking at polinomial approximations here
+now any symmetric polinomial has is given by a polinomial expression itself
+given by a polinomial expression itself in the power power symmetric polinomial
+in the power power symmetric polinomial PJ which is just just the sum of each
+coordinate R to the J's power and for Simplicity I just consider polinomial
+Simplicity I just consider polinomial expressions in the first two power
+expressions in the first two power polinomial but naturally the method
+polinomial but naturally the method works for arbitrary polinomial
+approximations and then the key observation is that we can analytically
+observation is that we can analytically write down a very simple expression for
+write down a very simple expression for the integral over this polytope Arc for
+the integral over this polytope Arc for any
+monomial and so in particular if we write our polinomial approximations in
+write our polinomial approximations in this form
+we can analytically write down a simple expression given a choice of b i and CIS
+expression given a choice of b i and CIS for what the two quadratic forms are
+which is just going to be a quadratic form in these coefficients AI so if we
+form in these coefficients AI so if we choose the monomials which appear in our
+choose the monomials which appear in our polinomial approximations we can just
+polinomial approximations we can just explicitly write down what the integrals
+explicitly write down what the integrals for J of F and I of f are in terms of
+these coefficients and then we have two qu I forms in these coefficients which
+we want to optimize the ratio of and so I
+right yeah so um exactly so the reason for this for me
+um exactly so the reason for this for me Concentra on this form of um polinomial
+Concentra on this form of um polinomial was very much that gpy showed that you
+was very much that gpy showed that you could get exceptionally close to bound
+could get exceptionally close to bound gaps if you just look at the first
+naturally would expect that if we go slightly Beyond this we should be able
+to get over the line and in fact it shouldn't require too much effort for us
+shouldn't require too much effort for us to go beyond
+this so if we choose the shape of our polinomial um approximations because we
+polinomial um approximations because we can analytically write down these
+integrals over the polytope even if it's a 100 dimensional integral so we don't
+have to do any numerical 100 dimensional Integrations we can just write down what
+Integrations we can just write down what these two symmetric rational matrices A1
+these two symmetric rational matrices A1 A2 are given the coefficients of these
+quadratic forms and because we can do all of this analytically um it's now a
+all of this analytically um it's now a relatively easy calculation given our
+computed matrices A1 and A2 to find out what the maximum ratio of this is and in
+particular this ratio of two quadratic forms is maximized when a is an i Vector
+of a The Matrix A1 inverse A2 correspondent largest ion value and this
+correspondent largest ion value and this ratio here is given explicitly by the
+ratio here is given explicitly by the largest ion value of A1 inverse A2 so
+largest ion value of A1 inverse A2 so it's now just a ion Manu calculation of
+some matrices and in particular if we consider K to be
+and in particular if we consider K to be 105 and we consider degree six pols then
+we get to 42x 42 matrices and you can calculate what the largest icon value of
+calculate what the largest icon value of a18 inverse a two is and we get
+a18 inverse a two is and we get something which is just slightly bigger
+something which is just slightly bigger than four so the choice of KB and 105
+and the choice of degre six polinomial um is deliberately because we're now
+getting a bound which is slightly above four and so if we put everything that
+four and so if we put everything that we've just seen together we've shown
+that M15 is bigger than four and we call the key proposition that we had before
+the key proposition that we had before from the Civ if the primes have level of
+bigger than 2 / Theta then there's infinitely many integers n such that at
+least two of the translates n plus HR primes for any admissible set h of size
+primes for any admissible set h of size K
+an um so now um again we want to find a densest
+now um again we want to find a densest possible admissible set but it turns out
+possible admissible set but it turns out that Thomas and gmer has already done
+that Thomas and gmer has already done several computations um and has found
+several computations um and has found the optimally dense admissible sets for
+the optimally dense admissible sets for lots of values of K and in particular
+lots of values of K and in particular he's shown that the densest possible
+he's shown that the densest possible admissible set of size 105 is contained
+admissible set of size 105 is contained in the for not up to
+600 uh yes of it's essentially an exhaustive search I think quite lot of
+exhaustive search I think quite lot of computer power um so combining this with
+computer power um so combining this with the bomb vard theem that we can any
+the bomb vard theem that we can any value of theta Which is less than a half
+value of theta Which is less than a half we see we can glue together all the
+statements on this slide and we get that there's infinitely many pairs of primes
+there's infinitely many pairs of primes that differ by most
+that differ by most 600 so those are the two
+results however I'll say a few words about um going beyond all these ideas so
+about um going beyond all these ideas so we've got a lower Bound for Mk that
+we've got a lower Bound for Mk that grows like log K and so in particular as
+grows like log K and so in particular as K increases we've shown that MK tends to
+K increases we've shown that MK tends to infinity and so we could have done
+infinity and so we could have done exactly the same argument and any value
+exactly the same argument and any value of theta which is bigger than zero would
+of theta which is bigger than zero would have worked so if you remember before in
+have worked so if you remember before in the with the work of G and Pinson yum
+the fact that we could take Theta to be close to half was really a very critical
+close to half was really a very critical point in the method and the bomb vogr
+point in the method and the bomb vogr theorem is this very deep result taken
+theorem is this very deep result taken that we can have a level of distribution
+that we can have a level of distribution going up to a half but we don't need
+anything that strong any positive level of distribution would have worked um
+of distribution would have worked um absolutely fine and this makes the
+absolutely fine and this makes the method very very flexible to potentially
+method very very flexible to potentially lots of other situations with subsets of
+lots of other situations with subsets of primes that in if we look at um
+particular subsets of the primes we can often follow the ideas behind the proof
+often follow the ideas behind the proof of um the bom behav in a guard of
+theorem so roughly we need to get some ASM totic formula in arithmetic
+ASM totic formula in arithmetic progressions to relatively small modul
+and some sort of large Civ estima but um and we can plug these together but often
+we get a result of the same type but with a much weaker level of distribution
+with a much weaker level of distribution however for this method to work we
+however for this method to work we really don't need any positive level of
+um and so whilst before we had arguments that very critically depended on the
+that very critically depended on the level of distribution because this
+quantity MK tends to Infinity the level of distribution really works provided
+of distribution really works provided it's it's positive the whole argument
+it's it's positive the whole argument should go through exact the same way um
+we also have a certain amount of flexibility because um we can choose our
+flexibility because um we can choose our admissible sets to be whatever we like
+admissible sets to be whatever we like um provided they're sufficiently large
+um provided they're sufficiently large and so this gives a few amusing
+consequences I guess it should be mentioned that some of the amusing conse
+mentioned that some of the amusing conse cences were pointed out to me by Andrew
+cences were pointed out to me by Andrew Granville Tristan feberg and Jesse
+Granville Tristan feberg and Jesse thorner um so one amusing consequence
+thorner um so one amusing consequence there are arbitrary large sets of primes
+there are arbitrary large sets of primes such that any pair of the primes in this
+set differs in at most two decimal places
+um let DN denote the nth Prime Gap then there are arbitrary long strings of
+there are arbitrary long strings of increasing gaps between primes and
+increasing gaps between primes and similar there's arbitrarily long strings
+similar there's arbitrarily long strings of decreasing gaps between primes so it
+turns out that this was a problem of Eros that's now been
+Eros that's now been solved
+solved um we can
+look um we can look at primes and short intervals and for any large integer n we
+can show that there's a band length interval that contains M
+primes contained in the interval n up to n plus n 72th plus Epsilon now this is
+n plus n 72th plus Epsilon now this is slightly remarkable because we're only
+just able to show that primes even exist in these short intervals and so the fact
+in these short intervals and so the fact that we now automatically get
+that we now automatically get arbitrarily many primes in a band length
+right yeah so 71 12ths is essentially zero come just from straight from the
+zero dentity estimates and you can go below 712th by using Harmon style cves
+below 712th by using Harmon style cves where you give up an astics um
+but um because we have a positive Lev distribution at 712 we get um bound
+distribution at 712 we get um bound length intervals conveying
+length intervals conveying primes
+primes exactly
+um uh we can reprove some results following my Matrix method so given any
+following my Matrix method so given any pair of co-prime integers A and Q then
+pair of co-prime integers A and Q then there arbitrary long strings of
+there arbitrary long strings of consecutive primes which are all in the
+mod and so this was a theem of Daniel Shu using the Maya Matrix but exactly
+the same methods work here and we can also have them contained in a bounded
+yeah and yeah at the risk of fogging a dead horse
+yeah at the risk of fogging a dead horse and adding boundary gaps um again if we
+and adding boundary gaps um again if we take any positive definite binary
+take any positive definite binary quadratic form with fundamental disent
+then we have arbitrarily large sets of primes which are represented by this um
+primes which are represented by this um binary quadratic form and all of these
+contained in a b length in for and then this is just because um primes in with
+this is just because um primes in with chapar type type splitting conditions
+chapar type type splitting conditions again have a positive level of
+um so um that's roughly all I have to say so maybe I'll stop there thanks a
+say so maybe I'll stop there thanks a lot for
+lot for [Applause]
+so the same result works if you restrict your integers n that you looking at to
+your integers n that you looking at to be in any arithmetic progression so you
+be in any arithmetic progression so you can
+consider um ends where all the last 10 million digits are restricted to
+last 10 million digits are restricted to be ones and then you can consider the
+be ones and then you can consider the shifts of hi of the form 10 to the
+shifts of hi of the form 10 to the I um and and therefore you get
+I um and and therefore you get infinitely many primes where the last
+digits are all ones apart from one of them too because the shift by hi just
+them too because the shift by hi just adds one to one of the decimal places um
+adds one to one of the decimal places um obviously you have to be slightly
+careful to make sure you haven't triply made something multiple of three or
+made something multiple of three or something like that um
+but um yeah so they all have essentially exactly the same uh structure in the low
+exactly the same uh structure in the low digits you've fixing what the low digits
+are so you can say exactly but then the high digits are exactly the same because
+it's the same value of n that you're using each time so you can have the same
+thing but with um yeah there's arbitrarily large sets of primes where
+permutation of the digits of any other Prime and they can all be consecutive
+Prime and they can all be consecutive you can prove lots of sort of popular
+you can prove lots of sort of popular math type theor with that
+yeah um yeah so if I remember correctly they already had gaps of size six which
+they already had gaps of size six which is going to be the best you can get
+um yeah I thought they already had unconditionally gaps of size six with
+unconditionally gaps of size six with exactly two Prim
+exactly two Prim factors um so I
+mean yeah when when you apply the K dimensional Civ then um in the original
+GP I work um the primes have kind of weighted density roughly 1 overk um and
+weighted density roughly 1 overk um and this is why you just get a finite number
+of primes and numbers with r prime factors have weighted density log K to
+factors have weighted density log K to the power Rus one / k
+the power Rus one / k um right exactly so my methods naturally
+um right exactly so my methods naturally um give you an improvement of the factor
+have a density log k / K and numbers with two prime factors have a density
+with two prime factors have a density log k s ID k um and so correspondingly
+log k s ID k um and so correspondingly whenever they so I think Thor did their
+whenever they so I think Thor did their argument for numbers with exactly R
+argument for numbers with exactly R prime factors
+and in any case where Thorn rights r i can rewrite r with r minus one and
+can rewrite r with r minus one and essentially the same result holds so
+essentially the same result holds so after my Civic
+it roughly looks like now primes are behaving like numbers with exactly two
+behaving like numbers with exactly two prime factors behaved before and numbers
+prime factors behaved before and numbers with two point factors now behave like
+numbers with three point factors behave for and you kind of get the extra
+in In classical Civ applications I can't think of any at all because um the fact
+think of any at all because um the fact that this is a comparative Civ and
+you're um comparing integers in this Civ set compared to primes in this Civ set
+is very important for these new weights and um as I mentioned before the
+and um as I mentioned before the standard choice of sellberg cives is
+standard choice of sellberg cives is essentially optimal in most of the
+essentially optimal in most of the generic K dimensional um Civ situations
+generic K dimensional um Civ situations um I'm trying to think up I'm trying to
+um I'm trying to think up I'm trying to look for situations where um the natural
+generalization um might help in corresponding problems and you know I
+corresponding problems and you know I don't know if it helps in modification
+problems for example which have an obvious analogy with cives um but I
+obvious analogy with cives um but I can't give you now any neat example
+can't give you now any neat example where it work
+um well I mean it's equivalent to the Linea in certain ranges but not in the
+Linea in certain ranges but not in the whole range
+so uh one thing I haven't hav mentioned here but Terry to has set up a polymath
+here but Terry to has set up a polymath project looking at optimizing optimizing
+project looking at optimizing optimizing the arguments I presented here so
+um there's the parity problem in Civ methods which very roughly speaking
+means that it's very hard for Civ methods to tell between a number with an
+methods to tell between a number with an even number of Prim factors and a number
+even number of Prim factors and a number with an odd number of Prim factors and
+uh none of the methods here touch the parity problem at all and the problem um
+parity problem at all and the problem um gives you quite an explicit barrier to
+gives you quite an explicit barrier to these kinds of methods Ever Getting gaps
+these kinds of methods Ever Getting gaps below six now um as I mentioned if you
+you tend to get stronger results out and um in my paper originally i' shown that
+um in my paper originally i' shown that if you assume the Al Haram conjecture
+if you assume the Al Haram conjecture that the most optimistic conjecture on
+that the most optimistic conjecture on primes then you get infinitely many
+pairs of primes that differ by most 12 um as part of the polymath work um we've
+um as part of the polymath work um we've shown that if you assume a slightly
+shown that if you assume a slightly generalized form of the Haram conjecture
+generalized form of the Haram conjecture then you do get that there's infin many
+pairs of primes that differ by at most six so this is
+already it so it's this um conjecture of in the Bomer F landan paper on um
+in the Bomer F landan paper on um convolution sums but I
+guess you can think of it as not only does the harash Sham conjecture hold for
+does the harash Sham conjecture hold for primes but also numbers with exactly two
+primes but also numbers with exactly two prime factors or three prime factors or
+prime factors or three prime factors or four prime factors with a reasonable
+degree of flexibility in the terms of the uniformity of the location of the
+the uniformity of the location of the prime factors um so in that sense if you
+assume the most optimistic possible results about atic progressions we can
+results about atic progressions we can get to what we believe
+get to what we believe the strong the limit of the method
+um and we get to six and there's a big barrier to getting below six and we need
+barrier to getting below six and we need some massive new idea to get around Pary
+some massive new idea to get around Pary to get beyond that um I'm I guess for
+the numerical bound of 600 um I only took polinomial approximations
+um I only took polinomial approximations involving the first two power symetric
+involving the first two power symetric polinomial and I mentioned you can do
+polinomial and I mentioned you can do this with arbitrary ones so as part of
+this with arbitrary ones so as part of the polymath um they've thrown a big
+the polymath um they've thrown a big computer at the problem and instead of
+looking at 42x 42 the matrices you can look at 2,000 x 2000 matrices and and um
+look at 2,000 x 2000 matrices and and um throwing a a big computer at it you get
+throwing a a big computer at it you get down to about
+264 and if you um introduce a couple of new modifications to the Civ ideas as
+new modifications to the Civ ideas as well you can get this down to
+2502 what you do these are all provisional results that we're in the
+provisional results that we're in the process of writing up I
+process of writing up I guess um
+check well you can it it's relatively easy run
+the yeah so um I guess there's a few different big computers once you've
+different big computers once you've calculated the matrices it's um you
+calculated the matrices it's um you we're explicitly given a rational Vector
+we're explicitly given a rational Vector so if you believe the calculation of the
+so if you believe the calculation of the matrices then it's quite easy to check
+matrices then it's quite easy to check that you get something which is as big
+as you want it to be um however the calculating the matrices might take two
+calculating the matrices might take two days or something so
+um I don't I'm not a numerical guy so I don't really know um how one goes about
+don't really know um how one goes about checking a program that's run for two
+checking a program that's run for two days and has these huge mates

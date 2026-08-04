@@ -1,0 +1,302 @@
+[
+  {
+    "t_start": 0.6,
+    "t_end": 4.08,
+    "text": "okay let's do another classic proof for fun\\h and once again we'll talk about how to prove a\\h\\h"
+  },
+  {
+    "t_start": 4.08,
+    "t_end": 9.92,
+    "text": "statement by using contradiction and the statement\\h is that we will show there are infinitely many\\h\\h"
+  },
+  {
+    "t_start": 9.92,
+    "t_end": 16.6,
+    "text": "primes and by the way this right here was done\\h long time ago right by uket and it's just a\\h\\h"
+  },
+  {
+    "t_start": 16.6,
+    "t_end": 22.0,
+    "text": "classic proof that all the math major students\\h they have to see it first and you just picked\\h\\h"
+  },
+  {
+    "t_start": 22.0,
+    "t_end": 26.84,
+    "text": "up some techniques from this proof and maybe\\h later on when you trying to do sound statements\\h\\h"
+  },
+  {
+    "t_start": 26.84,
+    "t_end": 32.56,
+    "text": "you can use a similar technique or similar idea\\h anyway I will have to ask you guys first what\\h\\h"
+  },
+  {
+    "t_start": 32.56,
+    "t_end": 40.84,
+    "text": "does infinite mean infinite means not finite right\\h so as you can see this statement here it does have\\h\\h"
+  },
+  {
+    "t_start": 40.84,
+    "t_end": 46.36,
+    "text": "the word not just that in the previous video\\h I showed you guys how to prove a human being\\h\\h"
+  },
+  {
+    "t_start": 46.36,
+    "t_end": 54.36,
+    "text": "cannot fly so it's a good idea to try to start\\h off with a contradiction right so suppose for\\h\\h"
+  },
+  {
+    "t_start": 54.36,
+    "t_end": 61.68,
+    "text": "the osod and we'll see what will happen so let's\\h get going suppose for contradiction meaning that\\h\\h"
+  },
+  {
+    "t_start": 61.68,
+    "t_end": 71.72,
+    "text": "I would just say the opposite of this suppose we\\h only had finitely many prime numbers right so if\\h\\h"
+  },
+  {
+    "t_start": 71.72,
+    "t_end": 78.12,
+    "text": "this is the starting and now let's see what we can\\h get from there well since there are only finally\\h\\h"
+  },
+  {
+    "t_start": 78.12,
+    "t_end": 86.36,
+    "text": "many let's just write them down we'll just call\\h them to be P1 P2 P3 P4 and so on up to PN and N\\h\\h"
+  },
+  {
+    "t_start": 86.36,
+    "t_end": 92.92,
+    "text": "is just a POS the whole number I don't know what\\h n is it can be 1,000 it can be 5,000 I don't know\\h\\h"
+  },
+  {
+    "t_start": 92.92,
+    "t_end": 99.0,
+    "text": "but usually they just C it to be end right anyway\\h the important thing is that this are all the prime\\h\\h"
+  },
+  {
+    "t_start": 99.0,
+    "t_end": 105.76,
+    "text": "numbers that we have based on this assumption\\h and the hard part is based on this assumption\\h\\h"
+  },
+  {
+    "t_start": 105.76,
+    "t_end": 111.64,
+    "text": "all that we want to come with something just\\h like if you want to prove a human being cannot\\h\\h"
+  },
+  {
+    "t_start": 111.64,
+    "t_end": 118.2,
+    "text": "fly suppose the person can actually fly and you\\h have to think about what the ways to convince\\h\\h"
+  },
+  {
+    "t_start": 118.2,
+    "t_end": 124.84,
+    "text": "him he cannot fly right you have to think about a\\h way to mess it up ask him or her to jump off the\\h\\h"
+  },
+  {
+    "t_start": 124.84,
+    "t_end": 131.0,
+    "text": "building right that's why I told you guys in the\\h previous video but anyway this is the statement\\h\\h"
+  },
+  {
+    "t_start": 131.0,
+    "t_end": 137.4,
+    "text": "this is the approach that youle did long time\\h ago so here is the most important punch line\\h\\h"
+  },
+  {
+    "t_start": 137.4,
+    "t_end": 146.12,
+    "text": "we are going to consider Q which is this number\\h P1 * P2 * P3 * P4 and so on so on so on up to PN\\h\\h"
+  },
+  {
+    "t_start": 146.12,
+    "t_end": 151.8,
+    "text": "it's the product of all the prime numbers that we\\h had right here okay we just multiply all of the\\h\\h"
+  },
+  {
+    "t_start": 151.8,
+    "t_end": 160.16,
+    "text": "primes right here at the end we add a one to it\\h this number is the punch line all right and you\\h\\h"
+  },
+  {
+    "t_start": 160.16,
+    "t_end": 169.28,
+    "text": "see that first of all Q cannot be prime anymore\\h because Q is not the same as any of this and the\\h\\h"
+  },
+  {
+    "t_start": 169.28,
+    "t_end": 175.84,
+    "text": "way I wrote it down is Q doesn't belong to the set\\h of all the prime numbers that we listed earlier\\h\\h"
+  },
+  {
+    "t_start": 175.84,
+    "t_end": 184.24,
+    "text": "right Q is Q is not element Q doesn't belong to\\h the set of P1 P2 P3 P4 up to PN so just another\\h\\h"
+  },
+  {
+    "t_start": 184.24,
+    "t_end": 192.6,
+    "text": "way to say Q is not the same as one any of this\\h so since Q cannot be a prime anymore but we can\\h\\h"
+  },
+  {
+    "t_start": 192.6,
+    "t_end": 199.56,
+    "text": "say that Q will have a prime factor because it's\\h either you prime or you're not prime if you are\\h\\h"
+  },
+  {
+    "t_start": 199.56,
+    "t_end": 204.76,
+    "text": "not a prime number then you will have a prime\\h factor you can Factor it out right well we're\\h\\h"
+  },
+  {
+    "t_start": 204.76,
+    "t_end": 212.32,
+    "text": "just going to call the prime number to be p k okay\\h p subk okay and because this right here is just a\\h\\h"
+  },
+  {
+    "t_start": 212.32,
+    "t_end": 220.84,
+    "text": "prime factor prime factor so PK has to be one of\\h the prime numbers that we listed right here and\\h\\h"
+  },
+  {
+    "t_start": 220.84,
+    "t_end": 226.48,
+    "text": "once again this is notation PK is an element of\\h the set of all the prime numbers that we listed\\h\\h"
+  },
+  {
+    "t_start": 226.48,
+    "t_end": 238.64,
+    "text": "earlier right so PK is just as important as q\\h and now next board as we can see since PK is a\\h\\h"
+  },
+  {
+    "t_start": 238.64,
+    "t_end": 248.72,
+    "text": "factor of Q because we said so earlier and of\\h course PK is a factor of P1 P2 P3 and this are\\h\\h"
+  },
+  {
+    "t_start": 248.72,
+    "t_end": 257.56,
+    "text": "just multiplication up to PN PK is somewhere here\\h right PK is one of this prime numbers and when you\\h\\h"
+  },
+  {
+    "t_start": 257.56,
+    "t_end": 263.96,
+    "text": "multiply all of them together PK is of course a\\h factor of the product of all these numbers right\\h\\h"
+  },
+  {
+    "t_start": 263.96,
+    "t_end": 275.04,
+    "text": "all these prime numbers so since PK is a fact\\h of Q and like as P1 * P2 * da da da up to PN\\h\\h"
+  },
+  {
+    "t_start": 275.04,
+    "t_end": 287.04,
+    "text": "PK is also a factor of Q minus P1 P2 just up to\\h you multiply up to PQ PN I mean let me try again\\h\\h"
+  },
+  {
+    "t_start": 287.04,
+    "t_end": 297.68,
+    "text": "PK is a factor of Q minus P1 * P2 * P3 * d da da\\h * PN how do we know well you know P subk divides\\h\\h"
+  },
+  {
+    "t_start": 297.68,
+    "t_end": 304.28,
+    "text": "this likewise P subk divides that you can Factor\\h the PK so of course if device all that and don't\\h\\h"
+  },
+  {
+    "t_start": 304.28,
+    "t_end": 312.68,
+    "text": "let me please don't ask me to write L for this\\h it should be really clear right anyway now let's\\h\\h"
+  },
+  {
+    "t_start": 312.68,
+    "t_end": 320.96,
+    "text": "look at this number we know Q minus P1 P2 da PN\\h this right here is actually one how do we know\\h\\h"
+  },
+  {
+    "t_start": 320.96,
+    "t_end": 328.92,
+    "text": "because we can just look at the definition of q\\h and subtract this part on both sides right so Q\\h\\h"
+  },
+  {
+    "t_start": 328.92,
+    "t_end": 338.96,
+    "text": "minus p P 1 P2 P3 da da da PN is equal to one and\\h that's why I have right here is equal to one here\\h\\h"
+  },
+  {
+    "t_start": 338.96,
+    "t_end": 345.52,
+    "text": "is the contradiction let's look at this number on\\h the left hand side and as we talked about earlier\\h\\h"
+  },
+  {
+    "t_start": 345.52,
+    "t_end": 354.12,
+    "text": "PK is a factor of this so if you look at this and\\h divide it by PK and because this is equal to one\\h\\h"
+  },
+  {
+    "t_start": 354.12,
+    "t_end": 363.64,
+    "text": "so I should be able to divide the right hand side\\h by PK as well PK is a factor of this number right\\h\\h"
+  },
+  {
+    "t_start": 363.64,
+    "t_end": 371.64,
+    "text": "so you know after you divide the PK out this right\\h here it has to be an integer right and that's how\\h\\h"
+  },
+  {
+    "t_start": 371.64,
+    "t_end": 383.0,
+    "text": "you can just denote it this result has to be an\\h integer well 1 / PK this right here this cannot\\h\\h"
+  },
+  {
+    "t_start": 383.0,
+    "t_end": 398.08,
+    "text": "be an integer how come one is just one PK is a\\h prime number because b/ because since PK is a\\h\\h"
+  },
+  {
+    "t_start": 398.08,
+    "t_end": 406.68,
+    "text": "prime number and what's the smallest prime number\\h that we have two isn't it PK has to be greater\\h\\h"
+  },
+  {
+    "t_start": 406.68,
+    "t_end": 417.12,
+    "text": "than or equal to two and when you have one divided\\h by something that's not one or negative one this\\h\\h"
+  },
+  {
+    "t_start": 417.12,
+    "t_end": 423.32,
+    "text": "has to be a fraction meaning this this right here\\h cannot be in Z and you see the left hand side we\\h\\h"
+  },
+  {
+    "t_start": 423.32,
+    "t_end": 428.6,
+    "text": "said it to be it's an integer but the right hand\\h side it's not an integer once again because PK\\h\\h"
+  },
+  {
+    "t_start": 428.6,
+    "t_end": 435.48,
+    "text": "has to be bigger than equal to two so this is the\\h contradiction and how come we have this messed up\\h\\h"
+  },
+  {
+    "t_start": 435.48,
+    "t_end": 442.32,
+    "text": "part how come with this contradiction well because\\h our original assumption that we said there were\\h\\h"
+  },
+  {
+    "t_start": 442.32,
+    "t_end": 450.64,
+    "text": "only finally many prime numbers that was bad just\\h like if you say to a person that you can actually\\h\\h"
+  },
+  {
+    "t_start": 450.64,
+    "t_end": 460.48,
+    "text": "fly that's bad right so truth is in this case all\\h right we must have infinitely many prime numbers\\h\\h"
+  },
+  {
+    "t_start": 460.48,
+    "t_end": 471.4,
+    "text": "and we are done draw Square do this that's it\\h hopefully you guys like this video as [Music] well"
+  }
+]

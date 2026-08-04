@@ -1,0 +1,29 @@
+{
+  "slug": "optimization-operations-ai",
+  "videos": [
+    {
+      "id": "IHZwWFHWa-w",
+      "title": "3Blue1Brown — Gradient descent, how neural networks learn",
+      "has_transcript": true,
+      "chars": 20163,
+      "units": 14,
+      "url": "https://www.youtube.com/watch?v=IHZwWFHWa-w"
+    },
+    {
+      "id": "sDv4f4s2SB8",
+      "title": "StatQuest — Gradient Descent",
+      "has_transcript": true,
+      "chars": 17398,
+      "units": 16,
+      "url": "https://www.youtube.com/watch?v=sDv4f4s2SB8"
+    },
+    {
+      "id": "WUvTyaaNkzM",
+      "title": "3Blue1Brown — Essence of calculus (series / ch.1 derivative)",
+      "has_transcript": true,
+      "chars": 15797,
+      "units": 11,
+      "url": "https://www.youtube.com/watch?v=WUvTyaaNkzM"
+    }
+  ]
+}

@@ -1,0 +1,1662 @@
+[Applause]
+thank you very much John I not sure I'll
+possibly live up to what you expect but
+I'll give it a try um sounds like
+everybody can hear me is that right
+okay so this is the last of the
+seven Millennium talks and concerns a
+problem which had its origin in attempts
+to understand the distribution of prime
+numbers among the
+integers so so to begin with what I'm
+going to try to accomplish here is a
+crash course in basic prime number
+Theory
+um let me start with
+this definition I think that looks at
+least in focus on top I think for
+everybody
+okay so before we get to the technical
+details of the remont hypothesis we need
+to lay a little groundwork and um
+these ideas really go back to the
+ancient Greeks who formulated the notion
+of a prime number and prove some basic
+theorems about it about 2,300 years ago
+these are results which are recorded for
+example in ID's elements and remained a
+basic part of mathematics well into the
+Middle Ages so by a composite number in
+this talk I understand a positive
+integer n greater than or equal to
+two which can be factored as a product
+of two positive integers A and B and the
+important thing is that in this
+factorization A and B have to be smaller
+than n so you're decomposing a large
+number n as a product of two smaller
+numbers but of course some numbers don't
+have the property and those are the
+prime numbers and well from this
+definition probably everybody in the
+audience can start to make a simple
+table of
+primes um 15 obviously is comp it
+because you can readily Factor it is 3 *
+5 but 17 doesn't have that property you
+just have to think about the basic
+multiplication table to see that 99 is
+another composite number because it has
+a factorization into two smaller
+positive integers 9 * 11 of course 99 is
+also 1 * 99 but that one doesn't count
+right we have to factor them into
+smaller numbers always so when you try
+to factor 101 you find that it's not
+possible
+and so 101 is another prime number now
+probably most of you haven't bothered to
+sit down and look at lists of prime
+numbers or examine them under a
+microscope or in any other way for that
+matter so I made a brief list here of
+the first 200 primes that you can look
+at just to begin to get a feel for how
+they work so to speak um this little
+quote over here from ING Ham's text is
+also something that I've always liked um
+I think the last sentence is
+particularly apt the series of prime
+numbers exhibits great irregularity of
+detail but if you kind of stand back and
+look at it from a distance you see that
+it does have a certain well rough
+regularity that's hard to pin down and
+articulate but nevertheless leads to the
+possibility that perhaps some sort of
+theory could be developed about these
+numbers um if you take a look at the
+first 200 primes um I think you'll
+probably if you've even you know never
+seen this sort of mathematics before
+you'll you'll certainly come to the
+conclusion that it's hard to predict
+easily which numbers are going to be
+primes and which ones aren't for example
+um if you take a look at U at this row
+right here you see a list of primes from
+571 to 647 um you know you could puzzle
+over it for a long time and and not see
+any kind of pattern that would allow you
+to predict the next row for example I
+mean it's if you think about it really
+imposs possible but even if you've never
+thought about it and you try to puzzle
+out this sort of sequence and try to see
+what causes it to happen and which
+numbers are prime there's just really
+nothing that you can do except to go
+back to the original definition and
+ignore the whole list and and just you
+know if you want to find the next prime
+um these aren't going to be a lot of
+help the first few primes might help you
+but the the the ones that come just
+before it aren't aren't really going to
+enter in um if you
+extend the table substantially so
+here's a list of prime numbers that are
+a lot further out this list starts with
+the 1 billionth prime number um you'll
+see that again if you examine the table
+closely um there's a lot of irregularity
+for example um right in
+here you see two prime numbers that are
+separated by only
+two but I think these at the bottom are
+separated by 64 and and and these are
+consecutive primes I should add okay I
+mean I'm this is the one billionth Prime
+and this is the 1 billion and first
+Prime and so forth and it's just just
+just generally true if you look through
+this list you're going to have a hard
+time again predicting what's going to
+happen uh based on this sort of
+knowledge so in detail the primes behave
+in a very irregular way but on the other
+hand um you know there aren't gaps of a
+thous
+here or there aren't any other sort of
+eccentric pattern that you can really
+look at one might sort of say that the
+primes behave in a random way well
+except when they obviously do not um Let
+me clarify that a little bit you might
+think if you've never seen this sort of
+subject before that half the primes
+would be odd and half the primes would
+be even well but of course that's really
+obviously not possible because the even
+primes are divisible by two so two is
+the only even
+prime well you might think that the
+primes divide evenly into the residue
+classes one mod four and three mod four
+meaning about half the time when you
+divide a prime number by four the
+remainder is one and the other half of
+the time when you divide a prime by four
+the remainder is three in fact that can
+be made into a theorem and and that's
+more or less correct that they do
+randomly distribute into residue classes
+in that fashion in fact I'll say more
+bely how that works later
+on now um let me switch now to some more
+constructive results about
+primes so uh I sort of hesitate to prove
+theorems here but these theorems are
+about 2300 years old so somehow I feel
+like we can handle this so this first
+Lemma tells us the important fact that
+every integer n greater than or equal to
+two can be written as a product of prime
+numbers and the the proof is almost
+proves itself really uh Suppose there
+were some positive integer capital N
+which is not a product of prime numbers
+well then there'd have to be a smallest
+integer with that property and if we now
+call that capital N then you immediately
+see that capital N cannot itself be a
+prime otherwise you just write it as
+capital n and that would be it if it's
+not a prime then it has to factor into a
+product of two smaller numbers A and B
+since A and B are smaller than n and n
+was the smallest prime the smallest
+integer I should say which can't be
+written as as a product of
+primes it must happen that A and B can
+be written as a product of primes okay
+so we write a and b out here as I have a
+is P1 * P2 through PL so those are
+primes and B is also of course smaller
+than capital N so you can write that out
+as primes q1 Q2 through qm well then
+obviously all you have to do is just
+write a and b together and you've
+written capital n as a product of the
+P's time the q's so in
+fact we reach a contradiction capital N
+can be written as a product of primes
+and so the set of integers which cannot
+be written as a product primes must be
+empty okay and so that's essentially the
+proof of this LMA now from this LMA
+which as I say goes back to the ancient
+Greeks I mean the notation and the
+terminology of course is obviously
+modern but from this proposition one can
+prove the following important theorem
+that the set of prime numbers is
+infinite and the proof here is
+essentially the one that was given by
+ukul suppose contrary to the statement
+of the theorem that you thought P1 P2
+and PN was a complete list of all prime
+numbers well you could multiply P1 P2
+and so forth together and then you'd
+have a number that was divisible by all
+the Primes so if you add one and you
+form the number capital Q then you see
+the number capital Q could not be
+divisible by any of the primes on your
+list because you're always going to get
+the remainder
+one now but dmma tells us that all
+numbers including Q can be written
+somehow as a product of primes but the
+primes on your list P1 through PN won't
+work so therefore there must be other
+primes so the conclusion here is that no
+finite list of primes will ever do thus
+the set of primes must be infinite
+um we
+can take a hint from these results and
+try factoring integers in hopes of maybe
+finding some clues about how the primes
+work and how they distribute again I
+suppose General audience doesn't contain
+a lot of people who do this sort of
+thing but
+well here are some examples of
+factorizations of some um numbers that
+were
+selected by a very sophisticated random
+process to be odd
+numbers and not to be generated from any
+particular uh preconceived idea what
+numbers I wanted to appear here these
+are just random 40 digigit numbers and
+you can see that um well the theory
+tells us that there should be about four
+and a half prime factors for each number
+and that's a proximately what's
+happening of course there's some
+variation around that amount but um you
+know you can stare at this too just like
+a table of prime numbers and you don't
+really get much feel for what could be
+said other than the fact that there
+seems to be a certain Randomness or
+irregularity which perpetually seems to
+appear when you work with prime numbers
+Factor integers into primes measure how
+big they are and so forth after I made
+this it occurred to me that maybe it
+wasn't necessary to use any kind of
+sophisticated random process so um I
+tried this as an exercise just to factor
+some non-random numbers and so I to be
+simple-minded about it I just chose the
+digits to have a an obvious
+pattern and uh here are some examples of
+40 digit numbers which obviously don't
+appear to be random and their
+factorizations and you see it really
+didn't
+matter right you can't make a or I don't
+think it's very easy to make a special
+factorization pattern of any sort
+by choosing the digits you really I
+guess the bottom line is you can't tell
+if a number is prime by looking at its
+digits if the digits look sort of random
+and mixed up it might be prime or it
+might not be uh the factorization of the
+integer tends to have for 40 digigit
+numbers about four and a half to five
+prime factors on average but even if you
+were to take non-random numbers of this
+shape um the truth still is that the
+number of prime fact factors that appear
+seems to be about 4 and 1 half to five
+there's some variation around that of
+course this first number has quite a bit
+more um but here's one with only
+three okay um let me go on now to uh a
+further important theorem that's also
+won't be given with a proof here but um
+a further important theorem which comes
+from ID's
+elements this goes a little bit beyond
+the Lemma that I had put up here before
+and tells us that not only does each
+integer n greater than or equal to two
+split up as a product of prime numbers
+but this essentially happens in only one
+way and that turns out for uh an
+interpretation that ultimately leads to
+the remon hypothesis to be an absolutely
+essential
+observation so uh you could express it
+in several ways for example as I've
+indicated here the integer n can be
+written as a product of distinct prime
+numbers P1 P2 P3 and then I've
+introduced some exponents E1 E2 and so
+forth so the prime P1 appears in the
+factorization E1 times and so can be
+written in this fashion and to make sure
+that this is unique and the only way to
+do it so to speak um you would arrange
+the primes in increasing order so let P1
+say be the smallest of the primes that
+occur in the factorization of N and P2
+the second smallest and so forth and
+then if you enforce that restriction on
+the factorization you find that it's
+Unique that's going to come up later on
+in a crucial way now um one final remark
+here before we look at other
+matters um one might ask why exactly it
+is that mathematicians or number
+theorists in particular would be
+interested in primes there's probably
+some intrinsic reasons about the
+irregularity the essential beauty of the
+whole process that causes them to unfold
+but they also appear sometimes
+unexpectedly in basic problems for
+example let's consider this problem
+suppose we have a positive integer
+capital n and we'd like to write capital
+n as a sum of two squares you may
+remember that in Fernando vas's talk
+earlier in the spring something of the
+same sort appeared I think in his case
+he wanted capital N to be a prime and
+asked this question but this is a
+slightly Different Twist on the same
+basic theme suppose capital N is just
+some large positive integer and we'd
+like to know if you can write it as a
+sum of two
+squares well you know at first if you've
+never seen this sort of thing before I
+think you might suspect that um prime
+numbers don't enter into the problem
+because after all you're you're adding
+things together right you're you're
+taking X and multiplying it by itself to
+form X squ and you're doing the same
+thing to Y but then when you add them
+together there's there's nothing about
+being a prime that involves addition at
+least that appears to be the case from
+the
+definition and yet to solve this problem
+the critical step is to take the integer
+capital n and here I've I've Illustrated
+it with this moderately large number
+here the key step is to take the
+positive integer n and write it as a
+product of prime numbers and then what
+you do is you look through the odd
+primes and you pick out those that have
+remainder three when you divide them by
+four in other words they're congruent to
+three mod 4 and in this particular case
+three has that property and 23 has that
+property but the other odd primes um
+they're all congruent to one mod 4 okay
+second step you take a look at the
+exponent so little four here and little
+two there and if those exponents are
+even on the primes which are congruent
+to 3 mod 4
+then there must be a way of writing n as
+a sum of two squares but if any of these
+exponents on the primes 3 and 23 in this
+example would be odd then it's not
+possible to write n as a sum of two
+squares so in spite of the problem
+involving addition primes and the
+decomposition of n into prime factors
+plays a crucial role in the resolution
+of the problem in fact we could go on
+but I won't and even describe how you
+find two integers as I've done down at
+the bottom
+here with the property that the sum of
+their squares is equal to the original
+integer you can count the number of ways
+of doing this it's slightly complicated
+procedure but you can count this the
+number of ways of doing this um given
+the prime factorization initially for
+the number capital
+N now um eventually I want to get a
+little more modern history here um since
+these observations although this
+discussion of of writing an in to sum of
+two squares is more or less known to FMA
+in the Middle Ages um the theorems that
+I've quoted all go back to the ancient
+Greeks um here however are some problems
+about prime
+numbers which maybe some of you have
+seen before and are of a little bit more
+modern origin um the first one is the
+famous goldbach problem and I've quoted
+here uh with translation the actual
+letters that were exchanged between
+goldbach and Oiler in
+1742 um the question here is well
+ultimately can every even integer
+greater than or equal to four be written
+as a sum of two prime
+numbers as far as we know this appears
+to be correct Oiler in 1742 said says
+every even integer is a sum of two
+primes I regard this as a completely
+certain theorem although I cannot prove
+it well no one else has proved it either
+in the
+meantime uh what is known today due to
+very sophisticated s methods is that
+every even integer every even integer
+capital N can be written as a sum of two
+numbers one of which is a prime and the
+other one has at most two prime factors
+that's pretty close but it's actually
+about 10% of the way up Mount Everest uh
+the next step is is uh much much harder
+than all the steps that have gone before
+you might say um another problem which
+uh mathematically turns out actually to
+involve many of the same Tools in in
+attempts to resolve it is the so-called
+twin prime prime problem so if you look
+at tables of primes um you quickly
+observe that it seems that as far as
+they go there are examples that occur
+pretty regularly where p is a prime and
+then P plus 2 is also a prime so this is
+called a twin Prime and it's an old
+problem to prove that there are in fact
+infinitely many twin primes but this is
+still unsolved today um the best we know
+is somewhat analogous to our knowledge
+about the goldbach problem it's known
+that there are infinitely many primes P
+such that p+ 2 has at most two prime
+factors again but again the story is
+that uh while that's the result of many
+ingenious ideas to make the next number
+a prime so to make p plus 2 actually a
+prime is is again a big leap probably
+greater than than all the work that had
+been done
+previously um a third problem and I'll
+just mention briefly uh and this type of
+problem in number three here can be
+generalized well in fact they can all be
+generalized in various ways um in
+problem three I've written down an
+irreducible polinomial 2 + 1 and
+asked if there are infinitely many
+primes that can be written in that form
+so X would have to be a integer capital
+N so in other words are there infinitely
+many primes of the form n^2 plus one
+again this is an unsolved problem today
+uh but what is known about it is
+somewhat similar to what I described
+about the other problems um finally the
+fourth problem here is actually going to
+occupy me for much of the rest of the
+talk U this is a less specific problem
+but now comes closer to what ultimately
+the remon hypothesis is
+about um I'm going to Define pi of x to
+be the number of primes less than or
+equal to X so you pick X maybe x equal
+100 you count the number of primes up to
+X and that's the value of pi of X so in
+between two integers Pi of X is constant
+of course so its graph has a jump at a
+prime and then it's flat until you come
+to another Prime and then it jumps up
+again and so forth now because the
+primes behave in an irregular way Pi of
+X behaves in a pretty irregular way too
+and yet there are some things that um
+can be said about it um we'll take a
+look here well in fact maybe I'll just
+leave it for a minute or two we'll take
+a look at the graph of Pi of X and ALS
+Al some possible
+approximations to Pi of X that were
+found um while the most important one
+really was found by gaus so um roughly
+speaking the objective here is to try to
+find some simple let's say calculus type
+functions which give a good
+approximation to Pi of X but I'm leaving
+as a little vague what exactly that
+means uh to some extent you have to let
+the mathematics that unfolds guide you
+to how this is actually supposed to be
+interpreted
+okay now let me begin to describe some
+tools that have been discovered for use
+in prime number Theory I think perhaps
+the most important one is what is called
+the oiler product
+formula
+um now if you're not used to looking at
+this sort of thing this may seem uh well
+hard to look at but let me see if I can
+just help the process a little bit by
+explaining how it works because this is
+a really truly ingenious Discovery um to
+my way of thinking one of the most
+beautiful identities in
+mathematics this is a mechanism for
+encoding the fundamental theorem of
+arithmetic that I spoke about before as
+an identity between two
+functions now when Oiler did this this
+function which is defined by the
+infinite series up here is a function of
+the real variable s and in order to make
+sure that that infinite series converges
+and so actually defines a function of s
+it's necessary that s be greater than
+one it turns out that this very same
+function can be defined as a product
+over prime numbers well it's a little
+more complicated than that here we have
+a product of more infinite series but
+you'll notice
+this expression inside the first pair of
+parentheses depends on the first prime
+number
+two and the next expression depends on
+the next prime number three and then
+five and seven and 11 and 13 and 17 and
+so forth come next so in effect these
+functions of s that are appearing here
+depend on the prime numbers now why is
+this an
+identity well let's just see how you'd
+form the number one here well obviously
+if you're going to multiply all these
+things together you're going to take the
+one here and the one there and the one
+there and so forth and just take ones
+from all the infinite series that are
+occurring in here how do you get 1 over
+2 the S well that's probably clear by
+now you take 1 over 2 the S 2 is a prime
+and it appears here and then you take
+the one in all the other series let's
+skip up to 1/ 6 to the
+s well you think of the prime
+factorization of six it's 2 * 3 so
+therefore you take a look in the first
+series and you take 1/ 2 the S and then
+you take 1 over 3 to the S now you've
+got 1 over 6 to the S and then you take
+1's all the rest of the way how about 1
+over 9 to the S well 9 has a prime
+factorization into 3^ SAR so you take 1
+and then 1 over 3^ 2ar to the S is right
+here and then ones from all the other
+products well is it possible that you
+could get 1 9 to the s in some other
+fashion no the fundamental theorem tells
+us there's only one way to factor nine
+or indeed any other integer greater than
+or equal to two into prime factors or as
+is happening here into primes to
+powers that means that the numerators in
+these fractions are all going to be ones
+you see if there were three ways of
+producing 1 over 6 s then each of those
+three ways would produce 1 6 s and I'd
+add them up and I'd get 3 over 6 s but
+that's not how it works so what's
+happened here is that we've
+encoded the fundamental theorem of
+arithmetic into a
+function and if we write it a little
+differently and take this infinite
+series and write it down
+here as a sum with the index n and we
+can sum up these infinite series inside
+here and they sum up to 1us 1 P the S to
+the^ minus one it turns out and then we
+can introduce the capital Pi expression
+which indicates that you form a product
+over all these Expressions as P runs
+over the prime numbers P we see a
+fantastic
+identity now let me explain why this is
+so
+incredible let's suppose we want to
+solve a problem about prime
+numbers we take our problem about prime
+numbers and we try to reformulate it as
+a problem about this function of s that
+should be a reasonable thing to try to
+do because after all the Primes occur in
+this
+function now normally that would go
+nowhere because in order to find out any
+useful facts about this function
+apparently you got to know about primes
+but it's not so in this particular
+situation because you can trade in that
+representation and replace it by this
+representation over here because they
+Define the same
+function now there's no primes involved
+in the description of the function in
+this fashion so at least in principle
+you should be able to learn anything you
+want about this function without knowing
+anything about primes by using that
+representation this is a piece of
+mathematical magic in a sense that this
+should be able to happen because it's
+the key to discovering theorems about
+primes there's only one little problem
+however that
+occurs it turns out that while you now
+have an expression involving functions
+of
+s it's very tricky to extract prime
+number theorem or prime number
+information out of these functions when
+s is restricted to be greater than one
+and that restriction appears to be
+unavoidable because if s is not a real
+number bigger than one well they don't
+converge and so they don't Define any
+kind of a function so while this is a
+very ingenious idea it awaits one more
+good idea and that's what reman did
+Oiler was able to extract something out
+of this though if you take the limit as
+s approaches one some of you with a
+little knowledge of calculus will
+probably be able to work out the proof
+that the sum of the reciprocals diverges
+the sum of the reciprocals of the primes
+diverges so that's another proof that
+there are infinitely many primes but of
+course it says more than that there are
+infinitely many squares for example but
+the sum of the reciprocals of the
+squares
+converges so it means that there are a
+fair number of primes in some
+sense
+now the next great moment in prime
+number
+theory is due to Leandra but really more
+importantly to
+gaus gaus experimented with tables of
+prime
+numbers and after a good deal of thought
+and work and experimenting sort of seat
+of the pants
+mathematics he decided that the
+probability of A number being Prime if
+the number is out at about n is roughly
+1 over log n roughly and that motivated
+him to sum one over log n or as I've
+done here in the modern way of
+approaching this problem to integrate
+one over log
+T from zero up to X and take that as a
+rough approximation of Pi of
+X now um this might look a little funny
+here to split up the limit in this way
+this is a Koshi principal value type of
+integral um you shouldn't be too put off
+by the limit and the funny way of
+looking at if you haven't seen this for
+example in a calculus course it's just
+taking into account the fact that 1 over
+log one is zero and so I have to treat
+that point a little bit carefully here
+both gaus and Leandra were a bit vague
+about what they meant by an
+approximation to Pi of X but it seems
+pretty clear that they both thought in
+Gus's case that Pi of X over l i of X
+should approach one L of X is called the
+logarithmic integral of x um it turns
+out that the logarithmic integral and X
+over log X are essentially ASM totic to
+one another anyway so if you're only
+going to be interested in the value of
+these limits it doesn't make too much
+difference which one you choose but in
+retrospect it turns out that Li of X is
+a excellent approximation to Pi of X um
+here's a
+graph in which the top function is the
+logarithmic inter of X so that's a kind
+of calculus level function that
+increases nice and smoothly and the
+graph below it which is a step function
+of course is pi of X you'll see that uh
+it does indeed at least in the early
+going appear to be a pretty good
+approximation um here's the same
+information a bit further
+out so this is the primes between 10,000
+and
+10,300 and the line above it of course
+is the logarithmic integral of x
+I guess probably most of you would
+conjecture if you were asked that
+perhaps Li of X is always bigger than Pi
+of X um all the numerical evidence seems
+to indicate that's probably true and
+you'd be in good company gaus thought it
+was and even remon sort of said uh
+vaguely that there were reasons why the
+logarithmic of integral of x was
+probably bigger than Pi of X but it
+isn't so littlewood proved in 1914 that
+in fact the logarithmic integral graph
+and the pi of X graph oscillate back and
+forth infinitely
+often the first time Pi of X gets above
+the logarithmic integral of x is pretty
+big um today we know it's out around 10
+the 370th so it's way out
+beyond the range of
+computers um here's another way of
+looking at the issue um this is a pretty
+extensive
+table giving the values of Pi of X and
+the logarithmic integral of
+x um the bottom number here is is 10 the
+20th and that um as of a few years ago
+at least was as far pi as Pi of X had
+actually been calculated and if you take
+a look at this second table here at the
+bottom where I've given the difference
+between Li of X and Pi of X you can see
+that well roughly speaking the
+difference between the logarithmic
+integral of x and Pi of X is about
+square root of x um you know that
+because the square root of a 20-digit
+number is about a 10 digigit number and
+so forth and the number of digits here
+is usually less than or equal to half
+the number of digits over on the left so
+um that indicates that L of X and Pi ofx
+are pretty close
+together now
+um let me skip now to the work of Chev
+who considered also the problem of good
+approximations and I think I even have a
+a picture of
+him probably stared at ing's quote long
+enough
+here anyway there was
+Chev now Chev
+introduced another good idea instead of
+counting the number of primes up to X
+instead of working with pi of X chich
+Chev introduced a weighted Prime
+counting function which he called s of
+X well roughly speaking instead of
+counting one each time you come to a
+prime you count the logarithm of the
+Prime there's another little wrinkle too
+if you come to a Prime power a prime
+cubed you count the logarithm of of the
+Prime you throw away the cube so to
+speak um this simplifies matters because
+it turns out that if you have a result
+that tells you that Pi of X is
+approximately the logarithmic integral
+of x then you also know that s of X is
+approximately x x is a simpler function
+to work with than the logarithmic
+integral of x and so this is a desirable
+idea it's also desirable for another way
+for another reason um this contains the
+same magic that occurred in oil's
+identity
+um this is a an identity up at the top
+here that is Satisfied by the S function
+and you'll notice there's prime number
+information on the left hand
+side but there's no prime number
+information on the right hand side so in
+principle you should be able to extract
+information about s by this identity
+because you can analyze the right hand
+side without knowing anything about
+primes indeed the right hand side if you
+look at it is the logarithm of the
+integer part of X factorial and there
+are
+good estimates for that and well CH chb
+was aware of these things and turned the
+crank so to speak that comes from that
+formula and was able to give estimates
+for the size of s of X and therefore as
+I indicated in the previous remark he
+made an estimate for pi of X down here
+he showed that it was in between two
+multiples of the logarithmic integral of
+x and he also showed something else with
+his Machinery if the limit pi ofx over
+Li of X exists at all then it has to be
+one of course you can't deduce that from
+this inequality but by other means Chev
+was able to show that if the limit
+exists it has to be
+one okay now we come sort of closer to
+the main objective
+here and let me let chub chv give way to
+remon
+so reman had the excellent idea to
+reconsider
+Oilers basic
+formula his good idea was to
+replace the real variable s which has to
+be greater than one with a complex
+variable the real part of s s is now a
+complex number the real part of s he
+called Sigma the imaginary part he
+called T this slightly odd notation
+Whoever has stuck and is still
+used and this turns out to have
+important implications because as I said
+it's very hard to make use of this
+wonderful identity if s is just a real
+number bigger than one you can do
+something with it but not very much but
+if s is a complex variable a whole new
+set of tools in Machinery opens up to
+you and all of a sudden this becomes a
+really powerful tool in fact it leads
+ultimately to a kind of formula for the
+number of primes out to X or as it's
+usually organized one of the weighted
+Prime counting functions that I
+described um reman made a number of
+discoveries about this function of s
+which he called Zeta of s that name has
+also stuck indeed this is universally
+known as the remon zeta
+function the first observation was that
+the zeta function convert well I should
+say it this way the infinite series up
+here and also the infinite product
+converge now when the real part of the
+complex number s is greater than or
+equal to one um let me uh I mean you
+probably use this and we can come back
+to this in a second here um here's a
+brief model of the complex plane this is
+the same complex plane that has come up
+in some of the other talks uh
+right here for example is the number
+whose real part is two and whose
+imaginary part is 10 so that point I
+identify with the complex number 2 + 10
+I the other points of course are
+organized in a similar fashion and this
+is only part of the complex plane
+obviously there's also complex plane
+down below and and and off to the left
+and so forth but this is enough for my
+purposes here remon observed
+that the function he called the zeta
+function converges in this half plane so
+this is all of the complex numbers whose
+real part is bigger than one remember
+Oiler understood this as a function of
+the real variable so Oiler got it to
+define something only along the positive
+real axes here bigger than one reman is
+going out into the complex
+plane revon also discovered and I'll
+have to be a little brief about these
+things because they get a little
+technical that the zeta function has
+what's called a analytic continuation
+into the whole complex plane there's
+what's called a singularity at one but
+that's an understood sort of
+phenomenon and what that means is that
+although these Expressions no longer
+Define the zeta function out in the rest
+of the complex
+plane that's okay there are other
+Expressions which do Define the zeta
+function and this extension process is
+unique there is only one way to extend
+it into the rest of the complex plane
+and retain the property of being an
+analytic
+function reman also discovered a
+relationship between the value of the
+zeta function at s and the value at the
+point one minus
+s then he noticed and now he was a
+little more vague and didn't really
+Supply proofs he he definitely prove the
+functional equation and the analytic
+continuation but number three he was a
+little vague
+about he observed that the zeta function
+occasionally takes the value zero not in
+the part of the complex plane where it's
+defined in this fashion but over on the
+left hand side of the complex plane at
+min-2 -4 and - 6 and - 8 and so forth
+those are called the trivial zeros
+because they're easy to find um set
+those aside I'll just talk almost as if
+they don't exist the trivial zeros don't
+play much of a role they have a an
+important role but we understand them
+completely they're not mysterious and so
+we can set them aside for the purposes
+of this discussion more importantly he
+discovered that there were infinitely
+many
+zeros in the region of the complex plane
+described here in this
+set this is the set where the real part
+of Sigma is between zero and one so if
+we go back to the the complex plane here
+what he discovered is that
+um in this region in the complex plane
+which I'm shading in blue the so-called
+critical strip there were going to be
+infinitely many zeros in other words you
+you take a point in here and you plug it
+into the zeta function and you see if it
+comes up with a value zero and that's
+going to happen infinitely often for a
+certain set of points in this region you
+might ask why the zero is relevant in
+the first place that's a good question
+and it's going to be answered here in a
+moment but before we get to the precise
+reason reman also indicated a rough
+argument why the number of
+zeros up to height capital T so in other
+words if beta plus I gamma is a complex
+number which is a zero of the zeta
+function then since I'm only talking
+about the non-trivial zeros beta has to
+be between zero and
+one and the number gamma think of that
+as between zero and a big number capital
+T which you can name and then n of
+capital t is the number of zeros of the
+zeta function up to height capital T and
+reman indicated that it must satisfy
+this approximate formula here he was a
+little vague as to what this is supposed
+to mean but we now know in fact that n
+of T is exactly equal to that plus a
+pretty small expression that has to get
+added on as a sort of correction
+factor now we come to one of his most
+spectacular
+discoveries the reason that reman was
+interested in the zeros is exactly these
+formulas so reman sort of modified
+chev's weighted Prime counting function
+and defined a different weighted Prime
+counting function which he called
+Capital Pi of
+X so Capital Pi of X counts a one
+whenever you encounter a prime less than
+or equal to X if you encounter the
+square of a prime it counts 1/2 if you
+encounter the cube of a prime it counts
+1/3 so Capital Pi of X is a pretty good
+approximation to little Pi of X which
+just counts
+primes uh you can do this with little
+Prime with little Pi of X too but the
+formulas become very complicated and
+it's better to use a weighted function
+what reman discovered was this
+astonishing
+formula the number of primes up to X but
+counted in this weighted fashion is
+given by here is
+Gus's logarithmic integral of function
+which comes up for a very natural reason
+that Gus could not conceivably have
+imagined it comes up for a a complex and
+a technical complex analysis region that
+was a reason that that gaus did not uh
+have have the ability to comprehend
+let's just say and and I I I don't mean
+to take anything away from him gaus
+realized that Li of X was the right
+function when he was 15 years
+old but it's it seems borderline
+Clairvoyance that in fact remon's
+analytical Machinery revealed that L ofx
+was in fact right on the money that was
+exactly what should be used there
+nothing else is as good
+reman went on to form a sum over the Zer
+row these are the non-trivial zeros of
+the reman zeta
+function they appear here and make well
+it's a calculus type function but um
+it's a little awkward to deal with Well
+Log 2 is just a constant and then this
+object down at the end here is um a very
+small calculus type function that
+doesn't play too much of a a role it
+comes from the trivial
+zeros um here's a formula that was later
+found by Von Mangold who proved
+rigorously Ran's formula um this formula
+down here this explicit formula is for
+Chev Sai function and it's a lot easier
+to use in practice U this subject can
+get technically ferocious as it is so
+any attempts to simplify matters usually
+should be uh should be used um in this
+particular case s of x
+is X and then there's another sum over
+the zeros of the zeta function row those
+are the non-trivial zeros and you'll
+notice now that the expression is occur
+which is occurring here is X to the row
+over row that's a lot easier to handle
+than the logarithmic integral of x to
+the
+row they can both be done but this is
+this leads to sort of easier
+going now this is a sort of dream that
+was must have been shocking for any body
+to see for the first time because the
+prime counting functions behave in a
+irregular seemingly almost random way
+indecipherable no Elementary approach
+just using the integers and the
+definitions of primes seems to be able
+to reveal to this day that the zeros of
+the zeta function certain complex numers
+should come into play in describing this
+function and yet reman worked through
+these details reported the news news in
+one 8-page paper that he wrote in 1859
+and he didn't write another word about
+number
+Theory and this is prably one of at
+least in my opinion one of the most
+influential papers in number Theory ever
+written it took about 30 40 years for
+some of remon's ideas to actually get
+rigorous proofs usually at the hands of
+others there is one famous problem and
+of course that's the subject of this
+evening's lecture that reman
+left for the rest of us to work
+on he writes and now this requires a
+little
+interpretation reman spoke about the
+function Zeta 1 12 + i
+t the zeros of the zeta function occur
+in the strip in the complex plane where
+the real part is between zero and
+one but if you make this little change
+of variables that strip becomes a strip
+around the real axis
+reman wrote one finds in fact about this
+many real zeros he's speaking there of
+the number of zeros that occur with real
+part equal to a
+half so one finds in fact about this
+many real zeros Within These bounds and
+it is very probable that they are all
+that all the zeros are real that's the
+remon
+hypothesis so what he's saying is it's
+very
+probable that the non-trivial Zer of the
+zeta function have real part equal to a
+half so in other
+words they all lie on the center line
+let's go back to my complex plane again
+the blue region is the region where
+reman proved in effect that all the
+non-trivial zeros occur there's more of
+the blue region down below but this is
+enough for the purposes of my talk here
+reman is now going beyond that and
+asserting that in fact if you look at
+the center line
+here that in fact all the zeros occur on
+that Center
+Line well let's take a look here at a
+little
+evidence so here are the first 20 zeros
+of the remon zeta
+function and you see that reman was
+right on the money they're all on the
+half
+line but the evidence gets
+better now I can't of course produce two
+many zeros here in a short talk
+but here are the zeros of the zeta
+function numbered 10 12th + 1 out
+through 10 12th +
+20 and all the ones that came in between
+are on the half line too so so far he's
+doing
+great finally uh and this is now uh
+right out at the end of modern
+computational
+methods
+um here are the zeros of the zeta
+function and I should thank Andrew oito
+for most of this computer work here are
+the zeros of the zeta function between
+10 22nd + 1 and the 10 22nd + 20th Zer
+you can see if you study these numbers
+that um the zeros are going to be
+crawling along a little bit more slowly
+the further you get out there isn't any
+discernable pattern here except like the
+primes there's a kind of a irregularity
+of detail but then when you stand back
+and you look at a lot of them they seem
+to kind of flow together more or less
+smoothly more or
+less um let me return to
+the explicit formula
+the reason for studying the zeros of
+course as I said is that we have a a
+kind of magic tool here s of X is the
+weighted Prime counting function and
+it's given by a kind of well it's
+similar to a 4A Series has a lot in
+common with a 4A series but it has some
+differences too in which this sum
+appears provides us with a series in
+which the zeros row of the zeta function
+appear
+now s of X like Pi of X is constant
+between integers indeed between prime
+powers and so one might ask if you were
+to just use say the first 500 zeros or
+or anyway some subset of the zeros and
+truncate this sum and make it a finite
+expression and then you could compute an
+approximate graph of this s function one
+might ask what that looks like well
+here's what it looks
+like now this is a
+remarkable graph because this number
+right down here is exactly log 2 I'm
+looking at the S function of course in a
+region where we there are no Mysteries
+down near three four and five and so on
+you can also perform this activity
+further out for larger values of X but
+then you need more zeros so if you
+really want to see an accurate graph um
+I choose a values of X that are
+relatively modest this the Y value here
+is exactly log two Once I pass over
+three I get log 2 plus log three it's
+exactly that line Once I pass beyond
+four four isn't a prime but it's a Prime
+power so I got to add on another log two
+and that's exactly the right value
+you'll notice like a forier series
+there's a what's called a Gibbs
+phenomenon associated with these
+explicit formulas as the function tries
+to change its status from one constant
+value to another constant value and
+approaches a discontinuity um it it sort
+of gets ready to do that by uh
+fluctuating a little bit of course we
+could dampen that down in various ways
+but this exhibits exactly what happens
+when you truncate the approximate and
+and make an approximate functional
+equation now um
+here are some statements which are
+equivalent to the remon hypothesis so
+the first one is just the remon
+hypothesis plain and simple all the
+non-trivial zeros of the zeta function
+lie on the line real part of the zero
+equal
+1/2 but a consequence of that or if you
+want an equivalent
+statement would tell us that 's original
+notion that Pi of X is very nicely
+approximated by the logarithmic integral
+of x can be made in this precise fashion
+so for every positive number Epsilon no
+matter how small there's a constant that
+can be computed from Epsilon such that
+the distance from the approximation l i
+of x to Pi of X is
+well roughly speaking square root of x
+it's a little bit worse than
+that but roughly speaking the difference
+is about sare root of x exactly the same
+statement can be applied to the
+approximation of the weighted Prime
+counting function found by Chev that's
+well approximated by X and again the
+difference is roughly square root of
+x here's one down at the bottom which
+indicates that you could change the
+remon
+hypothesis what seems like in a rather
+drastic way and and still make a
+statement which turns out actually to be
+equivalent to it
+Define the muus
+function in this fashion it's minus1 to
+the m if n has exactly M distinct prime
+factors and zero otherwise and so when
+you take a look at mu of n you see what
+appears to be random choices of plus one
+minus one and zeros without any
+particular pattern at
+all the remon hypothesis would
+follow if you can prove that the value
+of this limit
+exists the series converges but
+conditionally
+the remon hypothesis would follow if you
+can prove that the value of this limit
+exists for all values of the real
+parameter Sigma which are bigger than a
+half and if the remon hypothesis is true
+then this limit exists for exactly those
+values of
+Sigma now I have to also say that while
+you can continue this with a list of
+things that seem to involve the zeta
+function in odd ways and make equivalent
+statements to the prime number the is a
+practical matter nobody has really used
+anything like this to to say anything
+particularly deep about the remon
+hypothesis other than this is an
+equivalent formulation of it but it
+doesn't seem to be shall we say a useful
+equivalent formulation not so far
+anyway now let me continue here with
+some results very briefly that I'll
+report after
+remon you recall on some of the previous
+slides in particular the one concerning
+Leandra and gaus that they had both more
+or less indicated that probably the
+ratio Pi of X over Li of X converges to
+one Chev proved remember that if it
+converges at all it's got to converge to
+one but Chev wasn't able to actually
+prove that the limit exists this problem
+was an important one at the end of the
+19th century that was finally solved by
+hadamard and de pan here's a picture of
+Ja hadamard
+and this became known as the prime
+number
+theorem and it remains a kind of a
+benchmark if you have some ideas about
+how to attack problems about primes
+especially the estimates for pi of x a
+good test is can you prove with your
+methods and your ideas the prime number
+theorem can you prove
+this lots of times you can't and so that
+says that your method is perhaps uh in
+need of more work but if you can prove
+this then people are going to be
+interested you got to have a fairly good
+idea to prove this fact in some fashion
+of course if your method is just to
+repeat the known proofs which involve
+The crucial fact that Zeta 1 + it t is
+not zero so that's no zeros on the one
+line that's a long ways from the remont
+hypothesis but it's a little information
+about the zeros um the the analytic
+proofs for a long time that we that were
+known up until about the 1940s all went
+through that step so they were all in a
+sense the same proof more about that in
+a minute um let me also remind you of
+the seemingly good conjecture that the
+logarithmic integral of x is always
+bigger than Pi of X I said that wasn't
+really true and that was established by
+littlewood in 1914 although gaus and
+reman had both voiced the opinion reman
+and sort of indirectly that probably Li
+of X was always bigger than Pi of X um
+in 1933 in spite of the date I've
+indicated here in
+1933 um skws who's a South African
+mathematician
+uh took on the problem of establishing
+an actual numerical value for
+Littlewoods theorem and he came up with
+this fantastic number which is called
+skews
+number um he announced this in 1933
+although the result was never published
+until 1955 I I don't know why um in 1933
+when GH Hardy saw this he remarked that
+it seemed that sk's number was the
+largest number that had ever actually
+been used with a definite
+purpose but it seems that with modern
+technology and in particular knowledge
+of the first zeros you can improve this
+rather a lot uh you can go all the way
+down to merely 10 ^
+371 as far as I know this is the
+greatest Sharp in of an upper Bound in
+the history of
+mathematics if you think about the size
+of skus number and experiment a little
+bit you will be
+impressed okay I just have a couple more
+remarks here about recent developments
+you know in the 20th century there are
+thousands of papers on prime
+numbers and it's not possible to mention
+many of them even some of the best ones
+because a certain amount of technical
+development has to be made and and so I
+can only speak about a few things that
+um well can be related at least
+to objects that have already occurred
+here um the first I want to mention is a
+result due to Ay selberg I got a picture
+of selberg here and selberg proved that
+in fact a positive
+proportion of the zeros of the zeta
+function occur on the half
+line that's a quite a ways from the
+remon hypothesis but it's
+encouraging so the precise statement is
+that if n0 of T is the number of zeros
+up to height T which have actually real
+part equal to a half so they're on the
+central
+line and N of t as before is the actual
+number of all the zeros up to height T
+then it turns out there's a positive
+constant C such that the number of zeros
+that uh are on the half line is actually
+greater than or equal to a constant
+times the total number of zeros so that
+constant is is the proportion of zeros
+that you can say are are on the half
+line uh the C in selberg's original
+result was quite small but in modern
+times the C has been increased and and
+the the best result now known is that
+you can take c equal to two fths so one
+way to say it would be that 40% of the
+zeros are in fact on the half line uh
+even if we proved 100% of the zeros were
+on the half line that's not the remon
+hypothesis there might just be one or
+two exceptions that are lost in the
+astics here but still it's
+encouraging um another event connected
+to selberg and also to Paul erish
+occurred in 1948 and this was quite a
+surprise to experts in the field when
+they found a proof of the prime number
+theorem remember I said that was sort of
+The Benchmark theorem if you can get
+that you must have introduced a good
+idea it had long been believed that it
+was in some sense impossible to prove
+the prime number theorem without making
+use of the zeta function but selberg and
+Erdos showed that that was not how
+things work they found a proof of the
+prime number theorem that just used
+calculus no zeta function appears in the
+proof and it's not a fake I mean there's
+no substitute you're not using functions
+that are are sort of disguised versions
+of the zeta function it's really
+different um this was quite a surprise
+and for a long time well maybe 20 25
+years it was sort of a popular idea that
+perhaps you could prove the remon
+hypothesis by studying the primes
+directly without the zeta function and
+then produce one of the good estimates
+that I showed on a previous transparency
+which would then imply the remon
+hypothesis and once you've got all the
+zeros on the half line then the remon
+zeta function is a much more powerful
+tool in a sense it sort of makes sense
+that such an attack on might work uh
+this view I think in modern times is not
+so popular
+um anyway it it it was popular for a
+while but I don't think too many people
+would would argue that today um well
+this may be partly because there's a a
+new popular approach that was discovered
+by Hugh
+Montgomery uh
+now this is probably the most
+technically complicated thing that I
+have here to describe let me also show
+you a picture of aish here
+so when Hugh was a graduate student he
+was thinking about the statistical
+distribution of the zeros of the zeta
+function and and this is kind of a rough
+description what he did was he studied
+the distances between the zeros and
+assume that the remon hypothesis is true
+not just the gaps between consecutive
+zeros occurred on my list but all the
+different lengths that you can make by
+taking the difference between two zeros
+or really between the imaginary parts of
+the zeros you can leave the half part
+out of
+it and he
+discovered roughly speaking that the
+forier transform of this distribution
+function could be
+identified and it was a sort of
+Elementary looking
+thing and then in a memorable
+conversation that he had at The
+Institute for advanced study with the
+physicist Freeman Dyson well he was
+explaining his resol to Dyson and Dyson
+said oh of course the limiting function
+is and then Dyson explained to Hugh what
+it must
+be naturally he was
+astounded and he said how did you
+know well he said you're Computing the
+pair correlation
+function it is also the pair correlation
+function of the igen value of a random
+permission
+Matrix wow uh that was a new connection
+between the zeros of the zeta function
+and ideas that had only been dimly
+thought about in the
+past to sort of compactify what's
+happened Hilbert and POA earlier in the
+20th century suggested the attractive
+possibility that the zeros of the zeta
+function are the igen values of some
+operator they didn't say what operator
+they didn't say what space this operator
+is supposed to act on but you can
+imagine that it's just a matrix let's
+say but an infinite
+Matrix and uh what Montgomery discovered
+was that well if you imagine that there
+is such an infinite Matrix and you
+imagine that the IJ entry of the Matrix
+is formed by some process that involves
+the distribution of primes you might
+from all I've said here this evening
+think that those entries the igj entry
+in The Matrix probably looks kind of
+random and you might look at the Matrix
+and notice that the ji
+entry is the complex conjugate of the IJ
+entry therefore the Matrix is her
+Mission therefore all of its igen values
+are real and therefore the remon
+hypothesis is a
+theorem there's a lot of imagining
+there but uh well that's the sort of
+thing that makes good mathematical
+research and I think that's about all I
+have to say thank you
+[Applause]
+any
+questions
+yes when
+youer zer there's some error bars there
+why are the ER bars entirely in
+imaginary Direction but not in the real
+direction oh uh it's it's known that
+they all fall on the half line because
+you can count the number of zeros that
+are on the half line because you can
+make a real valued function that will
+cross the x-axis exactly where there's a
+zero of the zeta function so you can
+count the number of zeros on the half
+line up to height T and the Von mangle
+formula gives you a formula for the
+number of zeros of any sort whatsoever
+up to he T and then match all the way
+along up to 10 to
+22nd yeah that's a good question yeah
+how many different proofs of the prime
+number made um well I I guess
+uh four is probably a reasonable
+statement
+although yeah four there are some
+similar two of them kind of based on
+similar ideas uh you know there's
+there's the analytic proof that uses the
+zeta function and there are many ways of
+doing that but at some point you got to
+use Zeta 1 plus it not zero and then
+there's the original selberg idea and
+there are two others that come from very
+clever ideas introduced to Civ Theory
+which normally doesn't produce astics it
+normally just produces
+inequalities uh well so three or four
+depending on how you want to
+count any other questions yes
+regarding the last
+IDE
+yes uh I I'm not aware of any
+experiments in that direction so far
+it's a plausible thing to
+try
+uh yeah the trouble I think is that you
+need some kind of scheme by which you're
+going to take the primes and build the
+operator
+and there are you know endless it's an
+open thing uh how do you do
+that
+well or to answer your question it's a
+plausible thing to try but to the best
+of my knowledge uh nothing too tangible
+has gone on in that direction so
+far yeah
+yes oh well
+uh okay there's some computational
+justification for this point of view but
+I mean I don't know any theorems in this
+direction are there any other questions
+yeah the hypothesis Prov false
+yeah you bet it would yeah either way it
+would be either way would be a terrific
+result
+uh it seems clear that uh it it
+requires I don't know quite how to say
+it but it probably requires mathematics
+we don't know how to articulate today
+evidently uh I don't think it's just a
+matter of using what we know in a clever
+way I think it requires another remon
+idea uh because very smart people have
+thought about it for quite a while and
+there are various ways of measuring
+progress and uh they don't stack up too
+well really the the zero free region of
+the critical strip in
+1906 is insignificantly different
+today it's a little better than it was
+in 1906 because of tremendous ingenious
+work on exponential sums but it it
+doesn't have any deep implications
+really other than it it shows the
+cleverness of people who work in the
+field but I mean it's
+still still uh about the same as it was
+in 1906 now selberg's result on the
+proportion of zeros and and the
+refinements thereof are are evidence in
+favor of it the computation is certainly
+evidence in favor of it there are also
+the so-called V remon hypotheses which
+are are a little technical to explain
+but there are objects similar to the
+remon zeta function that come from the
+theory of Curves over finite field and
+properly interpreted the remon
+hypothesis as a theorem in those
+cases but those objects from an
+analytical point of view are much much
+simpler things to work with than the
+zeta function
+is but they have the operator in most
+cases yeah yeah
+right just finite Dimension yeah
+yeah um all right one one
+more simpl I guess but um
+apart from the wonderful things that can
+call out is trying to prove this or
+proving it um does the remon hypothesis
+have any or the proving of it have any
+implications for actually finding primes
+or
+proving y see um not in a a real simple
+direct way U it it does have a lot of
+implications some of which are fairly
+technical to describe
+um the the thing I chose to do here was
+to discuss its implications for the
+prime counting functions because that
+was historically what I think reman was
+after and I think it still remains maybe
+the
+simplest basic number Theory problem
+that connects to the zeta function but
+the remon hypothesis for example has
+been discovered as an important problem
+in mathematical physics uh so there are
+a lot of different connections with
+other things now you specifically said
+methods for deciding if an integer is
+prime or not most simp yeah you know as
+a practical matter I
+don't maybe if you if you have just the
+right question of that sort yes but
+naively I I don't think it's there's an
+immediate
+connection oh now that's a different
+issue yeah yeah of course
+yeah well well don't forget to watch for
+the announcements next fall and maybe
+it's time to go and have some
+refreshments now
+[Applause]

@@ -1,0 +1,1262 @@
+[
+  {
+    "t_start": 0.46,
+    "t_end": 2.5,
+    "text": "It's fairly large. There are bigger ones."
+  },
+  {
+    "t_start": 2.5,
+    "t_end": 3.92,
+    "text": "But it's a nice big number, yep."
+  },
+  {
+    "t_start": 3.92,
+    "t_end": 6.359,
+    "text": "And it's a particular number, it's a number I've had"
+  },
+  {
+    "t_start": 6.359,
+    "t_end": 8.189,
+    "text": "some association with, you might say."
+  },
+  {
+    "t_start": 8.189,
+    "t_end": 11.42,
+    "text": "This number is 129 decimal digits long,"
+  },
+  {
+    "t_start": 11.78,
+    "t_end": 15.16,
+    "text": "so it's probably more than your calculator can handle easily."
+  },
+  {
+    "t_start": 15.16,
+    "t_end": 17.64,
+    "text": "Although maybe these days calculators are getting pretty smart."
+  },
+  {
+    "t_start": 17.64,
+    "t_end": 19.78,
+    "text": "But it's something a computer could work with easily,"
+  },
+  {
+    "t_start": 19.78,
+    "t_end": 23.68,
+    "text": "and in fact computers have, and might have good reasons to work with them."
+  },
+  {
+    "t_start": 23.68,
+    "t_end": 27.28,
+    "text": "This number has a history that goes back to the late '70s."
+  },
+  {
+    "t_start": 27.84,
+    "t_end": 30.64,
+    "text": "We created this number as a challenge."
+  },
+  {
+    "t_start": 30.86,
+    "t_end": 32.56,
+    "text": "I don't remember the number, I haven't memorized it."
+  },
+  {
+    "t_start": 32.72,
+    "t_end": 36.0,
+    "text": "So if you'd like I could read you a few of the digits. So, 114..."
+  },
+  {
+    "t_start": 36.0,
+    "t_end": 44.73,
+    "text": "3816257578888 (That's four eights in a row) 676692..."
+  },
+  {
+    "t_start": 44.73,
+    "t_end": 51.0,
+    "text": "357799761466 [deep breath] 120"
+  },
+  {
+    "t_start": 51.0,
+    "t_end": 52.0,
+    "text": "Brady: \"Haha, alright.\""
+  },
+  {
+    "t_start": 53.88,
+    "t_end": 54.64,
+    "text": "That's the first line."
+  },
+  {
+    "t_start": 54.7,
+    "t_end": 55.5,
+    "text": "Brady: \"How does it end?\""
+  },
+  {
+    "t_start": 55.5,
+    "t_end": 61.6,
+    "text": "And it goes on for a while and it ends 879543541."
+  },
+  {
+    "t_start": 61.66,
+    "t_end": 64.32,
+    "text": "So 129 digits all together."
+  },
+  {
+    "t_start": 64.32,
+    "t_end": 67.92,
+    "text": "We didn't read them all, but"
+  },
+  {
+    "t_start": 67.92,
+    "t_end": 69.479,
+    "text": "they're posted on my website if you want to see them."
+  },
+  {
+    "t_start": 69.479,
+    "t_end": 70.86,
+    "text": "They'll be in the description of the video,"
+  },
+  {
+    "t_start": 70.86,
+    "t_end": 72.54,
+    "text": "and this number has a name as well, so it's got a"
+  },
+  {
+    "t_start": 72.54,
+    "t_end": 73.95,
+    "text": "much shorter name than the number itself."
+  },
+  {
+    "t_start": 73.95,
+    "t_end": 77.189,
+    "text": "It's sometimes called RSA-129 because it has"
+  },
+  {
+    "t_start": 77.189,
+    "t_end": 78.58,
+    "text": "a hundred and twenty nine digits."
+  },
+  {
+    "t_start": 78.58,
+    "t_end": 81.14,
+    "text": "So RSA, those are the initials of three of us that worked on a"
+  },
+  {
+    "t_start": 81.18,
+    "t_end": 84.0,
+    "text": "interesting cryptographic system back in the '70s."
+  },
+  {
+    "t_start": 84.0,
+    "t_end": 86.78,
+    "text": "R is my first initial of my last name."
+  },
+  {
+    "t_start": 86.78,
+    "t_end": 89.54,
+    "text": "S is for Adi Shamir and A is for Len Adleman."
+  },
+  {
+    "t_start": 89.54,
+    "t_end": 92.12,
+    "text": "And the three of us invented a particular cyrptographic"
+  },
+  {
+    "t_start": 92.12,
+    "t_end": 95.9,
+    "text": "system that's based on big numbers like the one you just heard."
+  },
+  {
+    "t_start": 95.9,
+    "t_end": 97.48,
+    "text": "So where does this number come from?"
+  },
+  {
+    "t_start": 97.58,
+    "t_end": 101.28,
+    "text": "This number we created as part of an experiment to"
+  },
+  {
+    "t_start": 101.28,
+    "t_end": 103.74,
+    "text": "challenge, to find out more about the"
+  },
+  {
+    "t_start": 103.74,
+    "t_end": 105.54,
+    "text": "security of the cryptographic scheme"
+  },
+  {
+    "t_start": 105.54,
+    "t_end": 107.97,
+    "text": "that we proposed. The scheme that we proposed was"
+  },
+  {
+    "t_start": 107.97,
+    "t_end": 110.56,
+    "text": "based on products of large prime numbers."
+  },
+  {
+    "t_start": 110.56,
+    "t_end": 113.08,
+    "text": "So this number has an interesting property,"
+  },
+  {
+    "t_start": 113.08,
+    "t_end": 115.06,
+    "text": "it's the product of a large prime number p"
+  },
+  {
+    "t_start": 115.06,
+    "t_end": 117.32,
+    "text": "and another large prime number q."
+  },
+  {
+    "t_start": 117.6,
+    "t_end": 120.78,
+    "text": "And you multiply those two prime numbers together and you get this"
+  },
+  {
+    "t_start": 120.8,
+    "t_end": 122.56,
+    "text": "number RSA-129."
+  },
+  {
+    "t_start": 122.56,
+    "t_end": 124.7,
+    "text": "So that's why it was created, and we created it"
+  },
+  {
+    "t_start": 124.7,
+    "t_end": 126.84,
+    "text": "secretly choosing p, secretly choosing q."
+  },
+  {
+    "t_start": 126.85,
+    "t_end": 128.89,
+    "text": "In fact we forgot how we created p"
+  },
+  {
+    "t_start": 128.89,
+    "t_end": 131.89,
+    "text": "and how we created an q. Nobody should have"
+  },
+  {
+    "t_start": 131.89,
+    "t_end": 133.76,
+    "text": "known, and not even us actually"
+  },
+  {
+    "t_start": 133.76,
+    "t_end": 135.37,
+    "text": "after the number was created, what those"
+  },
+  {
+    "t_start": 135.37,
+    "t_end": 137.739,
+    "text": "numbers p and q were. They where multiplied"
+  },
+  {
+    "t_start": 137.739,
+    "t_end": 140.14,
+    "text": "together, they're uniquely determined by"
+  },
+  {
+    "t_start": 140.14,
+    "t_end": 142.33,
+    "text": "the product. There is only one p and one q that"
+  },
+  {
+    "t_start": 142.5,
+    "t_end": 144.52,
+    "text": "multiply together to give this number."
+  },
+  {
+    "t_start": 144.6,
+    "t_end": 146.94,
+    "text": "But the security of the cryptographic"
+  },
+  {
+    "t_start": 146.94,
+    "t_end": 148.81,
+    "text": "scheme that we proposed depends on"
+  },
+  {
+    "t_start": 148.81,
+    "t_end": 151.15,
+    "text": "assumptions like that, that nobody should be"
+  },
+  {
+    "t_start": 151.15,
+    "t_end": 154.82,
+    "text": "able to find out a p and a q from the product p times q."
+  },
+  {
+    "t_start": 154.82,
+    "t_end": 157.12,
+    "text": "Brady: \"Who generated the number? It was you, wasn't it?\""
+  },
+  {
+    "t_start": 157.12,
+    "t_end": 158.84,
+    "text": "Yes, Adi and Len and I did that."
+  },
+  {
+    "t_start": 158.84,
+    "t_end": 161.08,
+    "text": "We generated the number, we rolled some dice,"
+  },
+  {
+    "t_start": 161.08,
+    "t_end": 162.34,
+    "text": "we generated some random numbers"
+  },
+  {
+    "t_start": 162.34,
+    "t_end": 164.68,
+    "text": "and we multiplied on some prime numbers that"
+  },
+  {
+    "t_start": 164.68,
+    "t_end": 166.569,
+    "text": "were near the initial numbers we"
+  },
+  {
+    "t_start": 166.569,
+    "t_end": 169.0,
+    "text": "generated and then multiplied them together."
+  },
+  {
+    "t_start": 169.0,
+    "t_end": 170.68,
+    "text": "So we generated them, maybe in my"
+  },
+  {
+    "t_start": 170.68,
+    "t_end": 171.97,
+    "text": "subconscious somewhere it's there."
+  },
+  {
+    "t_start": 171.97,
+    "t_end": 173.12,
+    "text": "I doubt it."
+  },
+  {
+    "t_start": 173.12,
+    "t_end": 175.2,
+    "text": "Brady: \"But you didn't write them down on a scrap of paper?\""
+  },
+  {
+    "t_start": 175.2,
+    "t_end": 176.2,
+    "text": "We didn't write them down, no."
+  },
+  {
+    "t_start": 176.22,
+    "t_end": 178.86,
+    "text": "Brady: \"Why not? Why didn't you keep them in a safe or something"
+  },
+  {
+    "t_start": 178.86,
+    "t_end": 180.0,
+    "text": "so you knew the answer to the puzzle?\""
+  },
+  {
+    "t_start": 180.0,
+    "t_end": 182.32,
+    "text": "Well if the puzzle gets"
+  },
+  {
+    "t_start": 182.32,
+    "t_end": 184.78,
+    "text": "solved then we will find out the p and the q,"
+  },
+  {
+    "t_start": 184.78,
+    "t_end": 187.26,
+    "text": "and if the puzzle didn't get solved, that's fine."
+  },
+  {
+    "t_start": 187.26,
+    "t_end": 191.02,
+    "text": "Why risk having it get stolen or something if somebody broke"
+  },
+  {
+    "t_start": 191.02,
+    "t_end": 193.46,
+    "text": "into my wallet or wherever I would keep those numbers?"
+  },
+  {
+    "t_start": 193.76,
+    "t_end": 195.74,
+    "text": "Finding a prime number is not"
+  },
+  {
+    "t_start": 195.74,
+    "t_end": 197.0,
+    "text": "that hard actually. I mean you just"
+  },
+  {
+    "t_start": 197.019,
+    "t_end": 198.76,
+    "text": "need to find big numbers, and finding big"
+  },
+  {
+    "t_start": 198.76,
+    "t_end": 200.709,
+    "text": "numbers isn't that hard. Big random numbers"
+  },
+  {
+    "t_start": 200.709,
+    "t_end": 201.85,
+    "text": "aren't so hard you can roll some dice"
+  },
+  {
+    "t_start": 201.85,
+    "t_end": 204.1,
+    "text": "or use other methods."
+  },
+  {
+    "t_start": 204.1,
+    "t_end": 206.62,
+    "text": "So we can take some big random"
+  },
+  {
+    "t_start": 206.62,
+    "t_end": 208.239,
+    "text": "numbers and then you can see is that"
+  },
+  {
+    "t_start": 208.239,
+    "t_end": 210.819,
+    "text": "number prime? Well maybe not, maybe it's even"
+  },
+  {
+    "t_start": 210.82,
+    "t_end": 212.74,
+    "text": "so it's obviously not prime."
+  },
+  {
+    "t_start": 212.74,
+    "t_end": 214.74,
+    "text": "So maybe you can add 1 to it, and see if that number is prime."
+  },
+  {
+    "t_start": 214.75,
+    "t_end": 216.7,
+    "text": "And there's an easy test for primarily which I"
+  },
+  {
+    "t_start": 216.7,
+    "t_end": 218.709,
+    "text": "don't need to go into here."
+  },
+  {
+    "t_start": 218.709,
+    "t_end": 220.87,
+    "text": "But it's easy to test if a number's prime. And so you can"
+  },
+  {
+    "t_start": 220.87,
+    "t_end": 222.73,
+    "text": "just search a little bit, and primes are"
+  },
+  {
+    "t_start": 222.73,
+    "t_end": 225.1,
+    "text": "actually quite common. So it doesn't take"
+  },
+  {
+    "t_start": 225.1,
+    "t_end": 227.26,
+    "text": "much time to find a large prime number."
+  },
+  {
+    "t_start": 227.26,
+    "t_end": 229.0,
+    "text": "And then you got your number p and you can do the"
+  },
+  {
+    "t_start": 229.0,
+    "t_end": 230.26,
+    "text": "same thing start it with a different"
+  },
+  {
+    "t_start": 230.26,
+    "t_end": 232.54,
+    "text": "starting point to find your number q."
+  },
+  {
+    "t_start": 232.54,
+    "t_end": 234.67,
+    "text": "And then you've got a big prime number p and a big prime number q."
+  },
+  {
+    "t_start": 235.22,
+    "t_end": 236.9,
+    "text": "RSA was a response to an open"
+  },
+  {
+    "t_start": 236.92,
+    "t_end": 238.48,
+    "text": "problem posted by Diffie and Hellman."
+  },
+  {
+    "t_start": 238.84,
+    "t_end": 241.42,
+    "text": "Diffie and Hellman had this idea that you could have"
+  },
+  {
+    "t_start": 241.5,
+    "t_end": 244.02,
+    "text": "a way of doing cryptography called public key cryptography"
+  },
+  {
+    "t_start": 244.4,
+    "t_end": 245.96,
+    "text": "where you could tell somebody"
+  },
+  {
+    "t_start": 245.96,
+    "t_end": 247.72,
+    "text": "how to encrypt without telling them how to decrypt."
+  },
+  {
+    "t_start": 247.72,
+    "t_end": 249.43,
+    "text": "So the idea of RSA is that the"
+  },
+  {
+    "t_start": 249.43,
+    "t_end": 251.22,
+    "text": "core difficulty that you give an"
+  },
+  {
+    "t_start": 251.22,
+    "t_end": 253.82,
+    "text": "adversary is the product of factoring a large number."
+  },
+  {
+    "t_start": 254.02,
+    "t_end": 255.7,
+    "text": "And so you might choose two"
+  },
+  {
+    "t_start": 255.7,
+    "t_end": 256.86,
+    "text": "large prime numbers, multiply them"
+  },
+  {
+    "t_start": 256.87,
+    "t_end": 258.88,
+    "text": "together and post that as your public key."
+  },
+  {
+    "t_start": 258.88,
+    "t_end": 261.13,
+    "text": "So if I'm sending a message to you"
+  },
+  {
+    "t_start": 261.13,
+    "t_end": 263.35,
+    "text": "using your public key, and you've got"
+  },
+  {
+    "t_start": 263.35,
+    "t_end": 266.919,
+    "text": "posted as your public key the product of two prime factors"
+  },
+  {
+    "t_start": 266.919,
+    "t_end": 268.81,
+    "text": "you do yourself need to know those two"
+  },
+  {
+    "t_start": 268.81,
+    "t_end": 271.38,
+    "text": "prime factors in order to do the decryption effectively."
+  },
+  {
+    "t_start": 271.38,
+    "t_end": 272.84,
+    "text": "So you'd keep those secret."
+  },
+  {
+    "t_start": 272.84,
+    "t_end": 274.18,
+    "text": "That's your secret key."
+  },
+  {
+    "t_start": 274.18,
+    "t_end": 276.6,
+    "text": "You don't tell anybody. You need those to decrypt."
+  },
+  {
+    "t_start": 276.6,
+    "t_end": 278.16,
+    "text": "In the case of this challenge we"
+  },
+  {
+    "t_start": 278.16,
+    "t_end": 280.18,
+    "text": "weren't decrypting messages sent to us,"
+  },
+  {
+    "t_start": 280.18,
+    "t_end": 282.14,
+    "text": "so we didn't need to record the factors."
+  },
+  {
+    "t_start": 282.14,
+    "t_end": 283.6,
+    "text": "But in practice with RSA"
+  },
+  {
+    "t_start": 283.6,
+    "t_end": 285.85,
+    "text": "you'll need to have one party who knows"
+  },
+  {
+    "t_start": 285.85,
+    "t_end": 288.039,
+    "text": "the prime factors and everybody else who knows"
+  },
+  {
+    "t_start": 288.04,
+    "t_end": 290.46,
+    "text": "just the public key, the product of those two prime factors."
+  },
+  {
+    "t_start": 290.8,
+    "t_end": 292.69,
+    "text": "We came up with the idea and"
+  },
+  {
+    "t_start": 292.69,
+    "t_end": 295.6,
+    "text": "it seemed to work. It seemed to have the right kind of properties."
+  },
+  {
+    "t_start": 295.6,
+    "t_end": 297.58,
+    "text": "It gave the ability to post"
+  },
+  {
+    "t_start": 297.58,
+    "t_end": 298.98,
+    "text": "a public key in such a way that"
+  },
+  {
+    "t_start": 298.98,
+    "t_end": 300.56,
+    "text": "nobody could figure out how to decrypt"
+  },
+  {
+    "t_start": 300.56,
+    "t_end": 302.2,
+    "text": "something that was encrypted with that public key."
+  },
+  {
+    "t_start": 302.68,
+    "t_end": 306.88,
+    "text": "But there's a missing piece then, and still now, to some extent."
+  },
+  {
+    "t_start": 306.88,
+    "t_end": 309.14,
+    "text": "We don't really know how hard factoring"
+  },
+  {
+    "t_start": 309.14,
+    "t_end": 311.08,
+    "text": "the products of two large prime numbers is."
+  },
+  {
+    "t_start": 311.36,
+    "t_end": 313.58,
+    "text": "And so we set out a challenge."
+  },
+  {
+    "t_start": 313.58,
+    "t_end": 315.3,
+    "text": "And that was the first challenge. Actually there was"
+  },
+  {
+    "t_start": 315.31,
+    "t_end": 317.02,
+    "text": "many more challenges later."
+  },
+  {
+    "t_start": 317.02,
+    "t_end": 320.42,
+    "text": "A whole ladder and sequence of challenges, but RSA-129 was the first one."
+  },
+  {
+    "t_start": 320.42,
+    "t_end": 323.92,
+    "text": "And we said, you know, this we think is a hard problem."
+  },
+  {
+    "t_start": 324.26,
+    "t_end": 326.26,
+    "text": "We don't think you'll be able to solve that."
+  },
+  {
+    "t_start": 326.84,
+    "t_end": 328.78,
+    "text": "We put an estimate in a column,"
+  },
+  {
+    "t_start": 328.78,
+    "t_end": 330.72,
+    "text": "actually, that Martin Gardner wrote about this,"
+  },
+  {
+    "t_start": 330.72,
+    "t_end": 332.139,
+    "text": "estimating it would take"
+  },
+  {
+    "t_start": 332.139,
+    "t_end": 333.82,
+    "text": "40 quadrillion years to factor this"
+  },
+  {
+    "t_start": 333.82,
+    "t_end": 336.639,
+    "text": "particular product, RSA-129, and we"
+  },
+  {
+    "t_start": 336.639,
+    "t_end": 338.289,
+    "text": "offered a hundred dollars to anybody who"
+  },
+  {
+    "t_start": 338.289,
+    "t_end": 340.09,
+    "text": "could do it. And the goal there was just"
+  },
+  {
+    "t_start": 340.09,
+    "t_end": 341.6,
+    "text": "to learn about the difficulty of factoring."
+  },
+  {
+    "t_start": 341.6,
+    "t_end": 343.09,
+    "text": "If somebody could factor it, we'd say, well,"
+  },
+  {
+    "t_start": 343.09,
+    "t_end": 345.55,
+    "text": "you're off, Rivest and Shamir and Adleman, as to how hard"
+  },
+  {
+    "t_start": 345.55,
+    "t_end": 347.72,
+    "text": "factoring is. Maybe it's easier than you thought."
+  },
+  {
+    "t_start": 348.0,
+    "t_end": 350.9,
+    "text": "And so we offered a hundred dollar prize."
+  },
+  {
+    "t_start": 351.36,
+    "t_end": 353.8,
+    "text": "So at the time, it was an open problem,"
+  },
+  {
+    "t_start": 353.8,
+    "t_end": 356.2,
+    "text": "and still is an open problem as to how hard it is."
+  },
+  {
+    "t_start": 356.42,
+    "t_end": 358.56,
+    "text": "It was poorly studied at the time."
+  },
+  {
+    "t_start": 358.72,
+    "t_end": 360.34,
+    "text": "There were some papers published."
+  },
+  {
+    "t_start": 360.34,
+    "t_end": 361.93,
+    "text": "Not like now. After RSA"
+  },
+  {
+    "t_start": 361.93,
+    "t_end": 363.789,
+    "text": "factoring has become an object of much"
+  },
+  {
+    "t_start": 363.789,
+    "t_end": 366.38,
+    "text": "more study. But before then it was"
+  },
+  {
+    "t_start": 366.38,
+    "t_end": 368.36,
+    "text": "more of a curiosity, and a few"
+  },
+  {
+    "t_start": 368.42,
+    "t_end": 370.3,
+    "text": "people studied it. So we had to search"
+  },
+  {
+    "t_start": 370.3,
+    "t_end": 372.189,
+    "text": "around to find people who had thought about"
+  },
+  {
+    "t_start": 372.189,
+    "t_end": 374.18,
+    "text": "factoring. But it seems to be hard."
+  },
+  {
+    "t_start": 374.18,
+    "t_end": 375.7,
+    "text": "There were no good algorithms."
+  },
+  {
+    "t_start": 375.92,
+    "t_end": 378.58,
+    "text": "It's also the case that RSA is flexible in the sense that you"
+  },
+  {
+    "t_start": 378.58,
+    "t_end": 380.169,
+    "text": "can choose prime numbers of any length"
+  },
+  {
+    "t_start": 380.169,
+    "t_end": 382.719,
+    "text": "and build an RSA modulus that way."
+  },
+  {
+    "t_start": 382.719,
+    "t_end": 385.18,
+    "text": "So you can build numbers of products of"
+  },
+  {
+    "t_start": 385.18,
+    "t_end": 387.939,
+    "text": "250 digit primes, or 200 digit primes, or"
+  },
+  {
+    "t_start": 387.939,
+    "t_end": 390.669,
+    "text": "200 digit primes, or whatever you like."
+  },
+  {
+    "t_start": 390.669,
+    "t_end": 392.56,
+    "text": "You can make it much more challenging for"
+  },
+  {
+    "t_start": 392.56,
+    "t_end": 393.939,
+    "text": "the adversary by choosing the primes large,"
+  },
+  {
+    "t_start": 393.939,
+    "t_end": 395.71,
+    "text": "larger, so it seemed like factoring"
+  },
+  {
+    "t_start": 395.71,
+    "t_end": 397.419,
+    "text": "would be a good foundation,"
+  },
+  {
+    "t_start": 397.42,
+    "t_end": 400.68,
+    "text": "and the question really is, how big should the primes be chosen?"
+  },
+  {
+    "t_start": 400.68,
+    "t_end": 403.68,
+    "text": "So with RSA-129 it sat there for quite a while."
+  },
+  {
+    "t_start": 403.68,
+    "t_end": 406.0,
+    "text": "I mean we had that number was published"
+  },
+  {
+    "t_start": 406.0,
+    "t_end": 408.819,
+    "text": "in the late '70s. During the"
+  },
+  {
+    "t_start": 408.819,
+    "t_end": 412.36,
+    "text": "'80s, not much happened."
+  },
+  {
+    "t_start": 412.36,
+    "t_end": 414.909,
+    "text": "Computers started getting faster. The internet"
+  },
+  {
+    "t_start": 414.909,
+    "t_end": 417.069,
+    "text": "started happening. In the early '90s"
+  },
+  {
+    "t_start": 417.069,
+    "t_end": 419.589,
+    "text": "the web happened, you know, but that"
+  },
+  {
+    "t_start": 419.589,
+    "t_end": 421.72,
+    "text": "number was just sitting there, and"
+  },
+  {
+    "t_start": 422.08,
+    "t_end": 424.12,
+    "text": "seemingly ignored for a long time."
+  },
+  {
+    "t_start": 424.12,
+    "t_end": 429.44,
+    "text": "But then in '94 a team of researchers came up with a factorization."
+  },
+  {
+    "t_start": 430.3,
+    "t_end": 433.719,
+    "text": "And they used the increases in computer speed to factor"
+  },
+  {
+    "t_start": 433.719,
+    "t_end": 436.24,
+    "text": "the number. They use the internet to get"
+  },
+  {
+    "t_start": 436.24,
+    "t_end": 437.8,
+    "text": "a team of people all over the planet to"
+  },
+  {
+    "t_start": 437.8,
+    "t_end": 439.659,
+    "text": "factor the number. They used better"
+  },
+  {
+    "t_start": 439.659,
+    "t_end": 441.52,
+    "text": "algorithms to factor the number."
+  },
+  {
+    "t_start": 441.52,
+    "t_end": 442.779,
+    "text": "And after a lot of work they were able to"
+  },
+  {
+    "t_start": 442.779,
+    "t_end": 445.12,
+    "text": "produce the two prime factors that when"
+  },
+  {
+    "t_start": 445.12,
+    "t_end": 447.639,
+    "text": "multiplied together gave RSA-129."
+  },
+  {
+    "t_start": 447.64,
+    "t_end": 449.46,
+    "text": "And that was what a shock to us."
+  },
+  {
+    "t_start": 450.22,
+    "t_end": 452.78,
+    "text": "Brady: \"Was it? I mean, if everyone's working on the one"
+  },
+  {
+    "t_start": 452.78,
+    "t_end": 456.06,
+    "text": "specific case, I would have thought maybe it"
+  },
+  {
+    "t_start": 456.1,
+    "t_end": 458.44,
+    "text": "would be easier to crack, if all"
+  },
+  {
+    "t_start": 458.44,
+    "t_end": 459.98,
+    "text": "the people were looking at the one number.\""
+  },
+  {
+    "t_start": 460.44,
+    "t_end": 462.48,
+    "text": "You can sort of predict the growth of"
+  },
+  {
+    "t_start": 462.48,
+    "t_end": 464.319,
+    "text": "technology. So the the speed of computers"
+  },
+  {
+    "t_start": 464.319,
+    "t_end": 466.509,
+    "text": "you can predict. The amount of, the number"
+  },
+  {
+    "t_start": 466.509,
+    "t_end": 467.86,
+    "text": "of computers you can get together to"
+  },
+  {
+    "t_start": 467.86,
+    "t_end": 469.18,
+    "text": "work on a problem you can predict pretty well."
+  },
+  {
+    "t_start": 469.18,
+    "t_end": 471.189,
+    "text": "What you don't know how to predict so well"
+  },
+  {
+    "t_start": 471.189,
+    "t_end": 472.48,
+    "text": "is the better, the improvement"
+  },
+  {
+    "t_start": 472.54,
+    "t_end": 474.56,
+    "text": "in algorithms. And that's really what the key was here."
+  },
+  {
+    "t_start": 474.56,
+    "t_end": 475.72,
+    "text": "Better algorithms."
+  },
+  {
+    "t_start": 476.4,
+    "t_end": 478.06,
+    "text": "Brady: \"Did this, like, undermine anything?"
+  },
+  {
+    "t_start": 478.06,
+    "t_end": 480.46,
+    "text": "Or, like, where had the technology, where had cryptography"
+  },
+  {
+    "t_start": 480.46,
+    "t_end": 481.96,
+    "text": "gone since then?\""
+  },
+  {
+    "t_start": 482.46,
+    "t_end": 485.14,
+    "text": "Cryptography had evolved tremendously since then."
+  },
+  {
+    "t_start": 485.14,
+    "t_end": 487.88,
+    "text": "It was, it was a surprise to us."
+  },
+  {
+    "t_start": 487.88,
+    "t_end": 491.2,
+    "text": "It didn't mean that RSA was in any way disabled or dead,"
+  },
+  {
+    "t_start": 491.2,
+    "t_end": 494.0,
+    "text": "it just meant that numbers of that size shouldn't be used."
+  },
+  {
+    "t_start": 494.34,
+    "t_end": 496.36,
+    "text": "Those numbers were too short. The primes were too short."
+  },
+  {
+    "t_start": 496.36,
+    "t_end": 497.6,
+    "text": "And that was the lesson there."
+  },
+  {
+    "t_start": 497.9,
+    "t_end": 499.88,
+    "text": "And that was one of the things we wanted to learn from this"
+  },
+  {
+    "t_start": 499.88,
+    "t_end": 502.06,
+    "text": "challenge. Is that a reasonable size to use,"
+  },
+  {
+    "t_start": 502.069,
+    "t_end": 504.229,
+    "text": "or do you need to use larger numbers?"
+  },
+  {
+    "t_start": 504.229,
+    "t_end": 506.94,
+    "text": "People still use RSA, they just use larger numbers than this now."
+  },
+  {
+    "t_start": 507.48,
+    "t_end": 509.0,
+    "text": "So, instead of a 129 digit number"
+  },
+  {
+    "t_start": 509.08,
+    "t_end": 510.92,
+    "text": "they might use a 200 decimal digit number"
+  },
+  {
+    "t_start": 510.92,
+    "t_end": 513.44,
+    "text": "or a 300 decimal digit number, say."
+  },
+  {
+    "t_start": 513.76,
+    "t_end": 515.36,
+    "text": "So larger numbers seem to be immune"
+  },
+  {
+    "t_start": 515.36,
+    "t_end": 517.16,
+    "text": "from these kinds of attacks, still."
+  },
+  {
+    "t_start": 517.9,
+    "t_end": 520.18,
+    "text": "So we had offered a hundred dollars"
+  },
+  {
+    "t_start": 520.18,
+    "t_end": 523.56,
+    "text": "for the factoring of this, and so we had to pay up. And we did."
+  },
+  {
+    "t_start": 523.94,
+    "t_end": 525.56,
+    "text": "So, we wrote a cashier's check for a hundred dollars,"
+  },
+  {
+    "t_start": 525.56,
+    "t_end": 527.12,
+    "text": "and then gave it to the team of"
+  },
+  {
+    "t_start": 527.12,
+    "t_end": 530.46,
+    "text": "Derek Atkins, Michael Graff, Arjen Lenstra and Paul Leyland"
+  },
+  {
+    "t_start": 530.46,
+    "t_end": 531.56,
+    "text": "were the team that led this,"
+  },
+  {
+    "t_start": 531.56,
+    "t_end": 532.9,
+    "text": "there were many other people were involved as well,"
+  },
+  {
+    "t_start": 532.9,
+    "t_end": 535.7,
+    "text": "and so we wrote a hundred dollar cashier's check for them."
+  },
+  {
+    "t_start": 535.7,
+    "t_end": 537.18,
+    "text": "At the time I thought it"
+  },
+  {
+    "t_start": 537.18,
+    "t_end": 538.31,
+    "text": "was probably, and maybe still is, the"
+  },
+  {
+    "t_start": 538.31,
+    "t_end": 540.199,
+    "text": "cheapest purchase of lots and lots of"
+  },
+  {
+    "t_start": 540.199,
+    "t_end": 541.97,
+    "text": "computer time ever."
+  },
+  {
+    "t_start": 541.97,
+    "t_end": 543.74,
+    "text": "So it really, a hundred dollars for"
+  },
+  {
+    "t_start": 543.74,
+    "t_end": 546.28,
+    "text": "that much computing time was really quite a coup I thought."
+  },
+  {
+    "t_start": 547.76,
+    "t_end": 549.76,
+    "text": "How do you feel about quantum computing?"
+  },
+  {
+    "t_start": 549.76,
+    "t_end": 552.0,
+    "text": "So quantum computing seems to be"
+  },
+  {
+    "t_start": 552.0,
+    "t_end": 554.42,
+    "text": "coming along, people keep working on it,"
+  },
+  {
+    "t_start": 554.5,
+    "t_end": 557.28,
+    "text": "there's quite a bit of money involved on"
+  },
+  {
+    "t_start": 557.28,
+    "t_end": 560.16,
+    "text": "the research side of things. I would love"
+  },
+  {
+    "t_start": 560.16,
+    "t_end": 561.54,
+    "text": "to see it fall flat on its face and"
+  },
+  {
+    "t_start": 561.54,
+    "t_end": 563.88,
+    "text": "not work at all. It would be the demise"
+  },
+  {
+    "t_start": 563.88,
+    "t_end": 565.74,
+    "text": "of RSA should quantum computing happen."
+  },
+  {
+    "t_start": 566.62,
+    "t_end": 568.5,
+    "text": "Let's say you're the bank and you give"
+  },
+  {
+    "t_start": 568.5,
+    "t_end": 570.54,
+    "text": "out two numbers, they're public, so everyone"
+  },
+  {
+    "t_start": 570.54,
+    "t_end": 572.42,
+    "text": "can know them, they're not secret numbers"
+  },
+  {
+    "t_start": 572.42,
+    "t_end": 575.52,
+    "text": "and everyone can know them, and we choose the number three and the number ten."
+  },
+  {
+    "t_start": 575.52,
+    "t_end": 577.52,
+    "text": "The bank also have a secret number..."
+  }
+]

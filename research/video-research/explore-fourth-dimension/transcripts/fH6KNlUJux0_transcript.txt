@@ -1,0 +1,890 @@
+on behalf of the president of the Albert Einstein Society Professor OT who
+unfortunately cannot be with us today I would like to to welcome all of you uh
+would like to to welcome all of you uh to the Einstein lectures 2023 especially
+to the Einstein lectures 2023 especially I would like to welcome our young
+audience so at various levels from students but even uh maybe school kids
+students but even uh maybe school kids fans of math olympiads and whatsoever uh
+fans of math olympiads and whatsoever uh we welcome those who are attending today
+we welcome those who are attending today but also those who will watch the
+podcasts later because they cannot come today this is the 14th Edition of the
+today this is the 14th Edition of the Einstein lectures which are organized uh
+Einstein lectures which are organized uh jointly by the Albert Einstein society
+and the University of burn and which are in turn dedicated to physics mathematics
+in turn dedicated to physics mathematics and
+philosophy my name is Christiana treta I'm professor of mathematics here at the
+I'm professor of mathematics here at the University of burn and it is my great
+pleasure today to introduce the fifth Einstein lecturer in mathematics
+Einstein lecturer in mathematics professor Marina vasova from the EOL
+loan with just 39 years since two days if I found out correctly Marina is the
+if I found out correctly Marina is the youngest Einstein lecturer we've ever
+youngest Einstein lecturer we've ever had and also in other respects her life
+and career stand out she was born in Kiev and there her High talent in
+Kiev and there her High talent in mathematics was uh discovered and
+mathematics was uh discovered and supported early in school she competed
+supported early in school she competed in several domestic and international
+in several domestic and international math olympiads wrote her first research
+math olympiads wrote her first research paper when she was just 8
+21 then she obtained a master's degree in Germany uh from Kaiser laurn in
+2007 and then did a PhD back in KF at the National Academy of Sciences of
+the National Academy of Sciences of Ukraine um in
+2010 and she got another one from the University of Bon in in
+2013 only 3 years later well prepared of course uh from the PHD uh in March
+course uh from the PHD uh in March 2016 she had completed after some longer
+2016 she had completed after some longer research work before I assume uh the two
+research work before I assume uh the two research
+papers that got her to the Olympus of math six years
+later within a week in March she posted her Solutions of the sphere packing
+her Solutions of the sphere packing problem in dimensions 8 and 24 on
+problem in dimensions 8 and 24 on archive which is the free mathematical
+archive which is the free mathematical preprint server available to
+everyone and with these Solutions she stuned the entire mathematical
+Community um because they were so ingenious and elegant and of course
+because also so many other much more experienced researchers had tried to
+experienced researchers had tried to solve these problems before
+her then a whole Avalanche of prizes followed among them the salm prize in
+followed among them the salm prize in 2016 the clay research award in 2017 a
+2018 the FMA prize in 2019 a prize of the European math Society EMS in
+2020 and then in 2022 the fields medal the highest award in math for scientists
+the highest award in math for scientists on under the age of
+40 this Fields the fields medals there are four each four years they are
+are four each four years they are awarded by the international
+awarded by the international mathematical Union usually at the
+mathematicians as a treasurer of the Swiss math Society I had the great
+pleasure to be a member of the Swiss delegation to the IMU and Marina was
+delegation to the IMU and Marina was another
+delegate by chance um but of course nobody knew what would then happen and
+nobody knew what would then happen and so uh because I was there this took
+so uh because I was there this took place in
+helsinky but not within an ICM because the ICM was scheduled for July 2022 for
+the ICM was scheduled for July 2022 for St
+Petersburg but then Finland was so generous to jump in and hold the
+ceremony and at least the IMU assembly so this was how I came to be part of
+so this was how I came to be part of this award ceremony and it it is a
+this award ceremony and it it is a memorable moment uh in in my career to
+memorable moment uh in in my career to to to be there when Marina was awarded
+to to be there when Marina was awarded the prize and of course I took the
+the prize and of course I took the chance um after the award ceremony to
+invite her I'm not sure if at the time she was aware it's three lectures and
+she was aware it's three lectures and not just one um um but anyway we are
+not just one um um but anyway we are very very happy that you are here that
+very very happy that you are here that you accepted the invitation and we are
+very much looking forward forward to your talk on the sphere packing problem
+the stage is yours thank you very much for the
+here also thank you for the introduction and so today I will speak
+introduction and so today I will speak about the sphere packing
+problem and so let me start with explaining in very general words what
+explaining in very general words what this
+means uh so imagine that you have a very very big box
+maybe and an infinite supply of balls and then the question would be how many
+and then the question would be how many balls can you fit into the box and then
+if uh the box is much much bigger than the size of of each of these equal balls
+the size of of each of these equal balls uh then this becomes a question really
+uh then this becomes a question really of the not of the exact number but
+of the not of the exact number but rather the
+density uh so um then would know that the number of
+bolts inside of the box it will be roughly speaking the volume of this box
+roughly speaking the volume of this box divided or multiplied by some number
+divided or multiplied by some number this the density
+constant and so what we are interested in in in determine because there are
+many different shapes and sizes of boxes that we can consider but we would like
+that we can consider but we would like really to focus only on this one number
+really to focus only on this one number the
+density and so again to to to clarify what what what the rules of our games
+what what what the rules of our games are that all balls they hard balls they
+are that all balls they hard balls they all have the same size and they are
+allowed to touch each other and not allowed to
+so uh so here in this picture you see this like intuitive threedimensional
+picture that we have and now an interesting component that I would like
+interesting component that I would like to introduce is that also the notion of
+Dimension so what we can do we can consider this question not only in our
+consider this question not only in our favorite familiar threedimensional space
+favorite familiar threedimensional space but in different
+dimensions and so before we get to the dimension D let me start it easy with
+dimension D let me start it easy with Dimensions one two and three as those
+Dimensions one two and three as those are the dimensions we all know and
+understand and so what is the dimension in a very simple words this would be the
+in a very simple words this would be the uh our the number of degrees of freedom
+uh our the number of degrees of freedom to move in the space and so if we
+imagine that we live on a line then we have only one degree of Freedom we can
+have only one degree of Freedom we can move only forwards or
+backwards and so on the line the what is a ball for what is a one-dimensional
+a ball for what is a one-dimensional ball onedimensional ball it's an
+interval and line can be covered almost perfectly with intervals so we can think
+perfectly with intervals so we can think of this intervals that do not overlap
+of this intervals that do not overlap but only touch each other and they will
+but only touch each other and they will just cover all our line and so the
+just cover all our line and so the density of this onedimensional pecking
+would be one which is somehow the maximal possible density we could even
+maximal possible density we could even hope
+for and in dimension two we have two degrees of threedom we can move so to
+degrees of threedom we can move so to say here north east and south
+west um and what is a two-dimensional ball a two-dimensional ball it's a dis
+so here imagine that our two-dimensional space it would the surface of this table
+space it would the surface of this table and as a discs here you can imagine for
+and as a discs here you can imagine for example one Frank coins and that we are
+example one Frank coins and that we are piling this one Frank coins so that we
+would like to put as many coins as we can on the table and to cover as much of
+can and so after a little bit of experimenting you can come to the at
+experimenting you can come to the at least a hypothesis that probably this is
+least a hypothesis that probably this is the best way to Puck discs on the
+the best way to Puck discs on the surface space so into this regular
+surface space so into this regular triangular
+grid sometimes it's also called honeycomb lettuce and so if we put our
+honeycomb lettuce and so if we put our balls on the surface like our discs on
+balls on the surface like our discs on the surface of a table like this uh then
+they will cover not this time not 100% uh but a bit more than 90% of the
+surface and we even have this exact if you like mathematics and like
+exact if you like mathematics and like mathematical constants we even have this
+mathematical constants we even have this exact formula for this
+exact formula for this approximate
+can we do in dimension three probably you've all been to a grocery store and
+you've all been to a grocery store and you have seen their oranges piled in
+you have seen their oranges piled in pyramids and now if you think of this
+pyramids if they will be prolonged infinitely to the whole store then what
+infinitely to the whole store then what we will get would be this the perfect
+spare packing and if its density is about 74% or this exact constant Pi /
+about 74% or this exact constant Pi / Square Ro of
+18 and so historically the sphere packing in dimension three it was known
+packing in dimension three it was known as Kepler's conjecture so it was a long
+time ago when people became interested in this geometric question and the
+in this geometric question and the question of packing sphere seems very
+question of packing sphere seems very natural and I guess there are some a
+and pictures that show us that even in Ancient India people thought about this
+Ancient India people thought about this question I'm sure that this question
+question I'm sure that this question came over again again through the course
+came over again again through the course of history even though it's not my
+of history even though it's not my expertise domain but in to say in our
+expertise domain but in to say in our modern European history this can this
+modern European history this can this question is known as Kepler's conjecture
+question is known as Kepler's conjecture and so there is an interesting quite
+did uh so from what we know that uh at the uh 16th century
+um British Aristocrat had a great idea of invading Spain or at least somehow
+of invading Spain or at least somehow fighting seriously with Spain and so for
+fighting seriously with Spain and so for this if he wants to fight with another
+and he wanted to pack them into a ship as efficiently as possible so he asked
+as efficiently as possible so he asked his uh scientist Thomas ariot to tell
+him what is the most efficient way to pack cannon balls inside of a ship and
+pack cannon balls inside of a ship and Thomas arot he did not take this task
+Thomas arot he did not take this task slightly he actually thought about it
+slightly he actually thought about it and so we know about all this because
+the letters were preserved and he actually developed this theory of a
+actually developed this theory of a closed sphere packing he gave
+closed sphere packing he gave descriptions of what what the best
+descriptions of what what the best configurations would be and he found not
+on so he described all this in his letter but also this made him think
+letter but also this made him think about so packing cannon balls inside of
+about so packing cannon balls inside of the ships this made him think about
+the ships this made him think about condensed matter and this ancient idea
+that maybe matter around us consists of atoms and maybe atoms are pecked inside
+atoms and maybe atoms are pecked inside of
+matter in something like cannons inside of a cannonball so he he was thinking
+of a cannonball so he he was thinking about all this and he wrote a letter to
+and Kepler also thought that this is such a beautiful idea and the Christmas
+such a beautiful idea and the Christmas was coming and Kepler was supposed to
+was coming and Kepler was supposed to give a present to his
+friends and so to one of his friends he gave the following present so it was an
+gave the following present so it was an essay an essay of six cornered
+Snowflake and so here's the text he has written to his friend I think it's very
+written to his friend I think it's very uh somehow it's a nice coincidence that
+uh somehow it's a nice coincidence that we're also meeting around Christmas time
+we're also meeting around Christmas time so maybe if you are short in money and
+cannot buy a great present for your friends maybe you can just write an
+friends maybe you can just write an essay that would be quoted 400 years
+essay that would be quoted 400 years later so here you see somehow this is
+later so here you see somehow this is the
+dedication and also how the letter starts so the Kepler is at least as I
+starts so the Kepler is at least as I can I'm not a historian I'm not a
+can I'm not a historian I'm not a specialist in the renissance time or
+habits people had that time but it seems like an apology so he could not somehow
+like an apology so he could not somehow give him a present which would be of
+give him a present which would be of monetary value however he wrote an essay
+nothing so he tells like I just give you nothing and nothing is a 14 pages of a
+nothing and nothing is a 14 pages of a text where
+uh uh so I will just give you some some quotes the main topic so like now joking
+quotes the main topic so like now joking apart let's get back to
+apart let's get back to business and the business is the
+following so Kepler was walking on his outside and he have seen snow and
+his outside and he have seen snow and snowflakes and he made an observation
+snowflakes and he made an observation that all
+snowflakes uh they all are look like starlets and they have six corners so he
+starlets and they have six corners so he could not find a snowflake that has five
+could not find a snowflake that has five or seven but almost all of them had six
+or seven but almost all of them had six corners and he was thinking why why is
+corners and he was thinking why why is it like this and again as a per person
+Renaissance age he was would think that probably this has nothing to do with the
+probably this has nothing to do with the properties of water or properties of
+properties of water or properties of vapor because Vapor does not have
+nothing hexagonal About Vapor it's shapeless even though we know this he
+shapeless even though we know this he knew that time that snow comes from
+vapor and so he r that probably there should be an agent some agent which
+should be an agent some agent which really likes the beauty of hexagon that
+really likes the beauty of hexagon that forms snowflakes like this and so I
+forms snowflakes like this and so I leave it for you to decide how how close
+leave it for you to decide how how close does this bring us to atomistic Theory
+does this bring us to atomistic Theory or to the somehow formational principles
+or to the somehow formational principles of
+who study the work of Kepler they think they interpret this in the following way
+they interpret this in the following way but maybe I will just leave leave it to
+but maybe I will just leave leave it to you and so let's better come to
+mathematics so here the question is what is so special about
+hexagon and so one thing that Kepler things is special about hexagon
+Kepler things is special about hexagon are this optimiz geometric optimization
+are this optimiz geometric optimization problems the pecking
+problems the pecking problems so here he starts thinking
+problems and so this is how
+is how the one of the editions of his essay
+the one of the editions of his essay looked like and so what would be
+looked like and so what would be important for us are
+this sorry is this picture this diagram so here he thinks about how he could
+so here he thinks about how he could pack balls and he thinks of his diagram
+a shows us this rectangular Grid or Square grid
+Square grid and uh diagram B shows us this
+grid and so now out of these layers he will produce the dense pecking of uh
+will produce the dense pecking of uh balls
+and so this is what he writes again it's interesting that in the 17th century of
+of course people did not have all the mathematical Machinery we have now there
+mathematical Machinery we have now there was no algebraic notation there was no
+was no algebraic notation there was no how established language to speak about
+how established language to speak about geometry so it's all really more rather
+geometry so it's all really more rather poetry Than
+Mathematics and so what first was if he he suggest to do is so let's look at
+he suggest to do is so let's look at this uh diagram a
+this uh diagram a and
+let's build our sphere pecking from this uh flat layers and the first na thing to
+uh flat layers and the first na thing to do is just to put the one uh Square
+layer on the top of another so that each ball touches exactly one ball which
+each ball touches exactly one ball which is beneath and one ball which is below
+describes here so if we proceed like this of course he is if you understands
+this of course he is if you understands that we will not get the densest pecking
+that we will not get the densest pecking because we can apply somehow more
+because we can apply somehow more pressure to all this structure and then
+pressure to all this structure and then the all layers could slide and be dense
+come come and become dense denser together and so what he does He
+Arrangement so that each so to to put each uh ball of the higher configuration
+not at the top of a another Ball but rather in a deep hole and so here he
+rather in a deep hole and so here he writes that then
+somehow then the backing will be the tightest possible so that if no other
+tightest possible so that if no other Arrangement could be pellets could be
+stuffed into the same container so he just claims that this is then if we do
+just claims that this is then if we do it like this this would be the densest
+pecking and this is actually the end so Kepler is just very confident that this
+Kepler is just very confident that this is the densest
+pecking and again by the standards of science at his time this
+standards of science at his time this would was a absolutely reasonable thing
+to say so at that time people did not think so much about mathematical proofs
+and the rigor of mathematical proofs and this seems to be as such an self obvious
+this seems to be as such an self obvious statement and so
+what you so here are some pictures so here is the pecking which uh
+pictures so here is the pecking which uh um Kepler suggested to to build is to
+um Kepler suggested to to build is to take here are the these bows in layers
+Square grid and now for you see for each ball of the next layer we put it in this
+ball of the next layer we put it in this biggest hole between smallest
+layers between of previous smallest the we put it into these holes that uh are
+we put it into these holes that uh are created in the uh layer below
+and uh so here uh what what we see here is a
+uh so here uh what what we see here is a actually another
+construction and this construction looks in the following way so now you see that
+in the following way so now you see that if you want to arrange our
+uh discs on a plane then the this triangular grid it will be better than
+the square one it will be denser and so maybe if we start building our pecking
+maybe if we start building our pecking not from rectangular layers but from
+not from rectangular layers but from triangular
+layers maybe we can achieve something better and so here one problem comes
+that in the picture here if we put this balls of a next layer to these big holes
+balls of a next layer to these big holes of a previous layer then somehow
+of a previous layer then somehow miraculous ly there will be just enough
+space for if we just put this ball as low as we can there will be just enough
+low as we can there will be just enough space for the next ball in the hole
+here and for this oh sorry for the Triangular grid it is not the case Here
+Triangular grid it is not the case Here We cannot put one more ball into each
+We cannot put one more ball into each hole so that then there will be not
+hole so that then there will be not enough place for them to touch the
+enough place for them to touch the previous layer so we actually what we
+previous layer so we actually what we have to do we have to choose every
+have to do we have to choose every second second
+hole and uh uh so this way we see that we have
+uh uh so this way we see that we have these two constructions so the this
+these two constructions so the this construction number one which I already
+construction number one which I already described for you and so here each layer
+is less dense but the layers are very very CL closer together and the
+very CL closer together and the construction here when each layer is
+very dense but the layers are stay far farther away from each other and what I
+farther away from each other and what I do sometimes at this part of the lecture
+do sometimes at this part of the lecture I ask audience to
+vote which you think is denser is this denser or is this
+denser or is this denser so who thinks that this one
+is more dense okay and who would vote for this
+dense okay and who would vote for this one and who thinks that they actually
+equals okay so people who think that they are equally danc they are right and
+not only uh there is actually more to this story because these two uh peckings
+this story because these two uh peckings they're not only equally dense they are
+they're not only equally dense they are geometrically
+somehow difficult to see it from these pictures even if we try Imagining the
+pictures even if we try Imagining the packings for ourselves so let's um
+convince you that they did this same and these both uh constructions they lead to
+these both uh constructions they lead to they will lead to the same sphere
+packing so so so called this configuration is called the U phase the
+central uh uh cubic
+sorry CF uh Central cubic centered faced
+CF uh Central cubic centered faced lettuce sorry
+fa Central cubic L FCC lce yes fa faces Central cubic yes uh so what the name
+Central cubic yes uh so what the name comes from so we have this we we take a
+comes from so we have this we we take a usual cubic lce and how this one works
+usual cubic lce and how this one works so we think of our space as filled with
+so we think of our space as filled with cubes in a natural way we just put cubes
+cubes in a natural way we just put cubes one onto another and then put them in
+first like in a perfect square grid and then extend also in all the dimensions
+and so in will in the vertices of our cubes we will uh locate our balls and we
+cubes we will uh locate our balls and we will make the radio of our balls okay so
+the radio of our BS we will think about them a bit later we will fix them later
+them a bit later we will fix them later but this the configuration of uh
+the of the vertic of Cubes this what will give us the cubic
+lce and so we would like to put a red ball of some radius which we will choose
+ball of some radius which we will choose later and the center in
+here and but also we would like to make our configuration a bit more interesting
+our configuration a bit more interesting so we'll look at all the faces of all
+cubes and we will uh for each face we will choose its
+will choose its Center and we will put a blue ball with
+center which coincides with the center of the
+face and so this way uh we will and now we also think of this
+uh we will and now we also think of this configuration as being continued in all
+configuration as being continued in all somehow six uh directions so here and up
+somehow six uh directions so here and up down to the east to the South to the
+down to the east to the South to the sorry to the north to the South to the
+East and to the West
+um and so now we would have how can we see that this lettuce package
+see that this lettuce package is actually coincides with the two
+is actually coincides with the two packings we have constructed before so I
+packings we have constructed before so I suggest doing this by coloring the balls
+suggest doing this by coloring the balls in a different way and then we will see
+that it will coincide with two configurations that I proposed before so
+configurations that I proposed before so one way so this let's uh take our cubes
+so take two points which are at the well biggest possible distance so we choose
+biggest possible distance so we choose one of these main diagonals in the cube
+Cube and we will col draw the planes which are orthogonal to this main
+which are orthogonal to this main diagonal and we will color our balls
+again in Green in red and blue as I've done it in my previous picture and so
+done it in my previous picture and so then you can see that this picture here
+then you can see that this picture here actually is the same as this picture
+actually is the same as this picture here only rotated in the
+space and now is the same but configuration is the same it's only a
+and now what we can do we can do yet another coloring so now instead of
+another coloring so now instead of looking at this main diagonal we again
+look at our Cube and now we will look at the planes which are parallel to one of
+the planes which are parallel to one of the faces of our
+Cube and so this way you will see that the squares will emerge here here it is
+the squares will emerge here here it is this
+rotated square lce and so we will see that this pce picture it actually
+that this pce picture it actually coincides with this construction
+here and so these two configurations they're actually the same only rotated
+so maybe you can try to imagine how you rotate it and then you can also see that
+it's not that easy to do so we first probably we should give credit
+we first probably we should give credit to Kepler and to Thomas ariot for
+to Kepler and to Thomas ariot for describing these configurations to
+describing these configurations to finding them so long time ago and maybe
+also should not be that angry at mathematicians that it took them 400
+mathematicians that it took them 400 years to show that this configuration is
+so okay so here you can see this another beautiful uh sentence from the uh essay
+beautiful uh sentence from the uh essay by Kepler so here he writes this somehow
+without the so the triangle is impossible without the square and vice
+impossible without the square and vice versa so of course at that time
+versa so of course at that time so Pro probably what the Kepler would
+so Pro probably what the Kepler would imply by this sentence is something like
+imply by this sentence is something like what I showed you before so we start
+what I showed you before so we start with triangles and then we inevitably
+with triangles and then we inevitably build uh squares in other direction and
+doing this kind of packing we will still we will build the triangles but in yet
+we will build the triangles but in yet another Direction so
+and so now a few more demonstrations to to to show you that uh the geometric equ
+to to show you that uh the geometric equ optimization geometric equations can be
+optimization geometric equations can be very difficult and counterintuitive and
+very difficult and counterintuitive and not that easy
+for mathematicians to solve and so another problem which is actually an
+another problem which is actually an easier question easier than the fair
+easier question easier than the fair packing is so called the question about
+a kissing number so here again the
+uh the name of the subject comes from another Epoch so you see that people
+another Epoch so you see that people used to romanticize Geometry a lot and
+used to romanticize Geometry a lot and so here the question is the following so
+so here the question is the following so let's consider a ball for example this
+let's consider a ball for example this is a two- dimensional example so red
+dimensional balls are discs so we take a red ball and we want surround our red
+red ball and we want surround our red ball of radius one with blue balls of
+radius one and so our the rule is that each blue ball is supposed to touch the
+each blue ball is supposed to touch the red one so this is the condition that
+they always have to touch each of the blue balls has to touch the red one and
+the blue balls are not allowed to intersect and they are only allowed to
+other and so then the qu the kiss sync number would be the maximum number of
+blue balls that can surround a red ball like this and so in dimension six it's
+like this and so in dimension six it's not a very interesting problem
+uh so here so Dimension two is not a very interesting problem and here we
+very interesting problem and here we obviously have six blue balls touching
+blue discs touching the red one and already in dimension three the
+one and already in dimension three the question becomes much more interesting
+so and so this was a famous discussion between isak neon and David Gregory and
+between isak neon and David Gregory and so Isaak neuton thought that in
+so Isaak neuton thought that in dimension three the kissing number is 12
+dimension three the kissing number is 12 and the 12 it's easy to construct so
+what we do maybe you know a platonic body that has exactly 12
+body that has exactly 12 vertices so this is the
+easyon and so what we can do we can take the easyon and put a red ball
+the easyon and put a red ball into into its Center so we we choose a
+into into its Center so we we choose a red ball so that its Center coincides
+easyon and then we put blue balls so that their centers will coincide with
+that their centers will coincide with each of of the 12
+vertices and so then we we also choose the radius of radius of of all of our
+balls to be so that the red ball inside will just touch each of the blue balls
+will just touch each of the blue balls around it and so this way it's not kind
+around it and so this way it's not kind of an easy computation to see that if uh
+of an easy computation to see that if uh all blue balls touch the red one then
+all blue balls touch the red one then they will not touch each other they will
+they will not touch each other they will be they will not also intersect so they
+will be just comfortably sitting apart and this is a configuration for
+12 uh however in this we will see that there is still it seems like there
+is still plenty of space left so maybe if we choose configuration which is not
+if we choose configuration which is not so symmetrical maybe we can shift the
+so symmetrical maybe we can shift the balls blue balls around and still find a
+balls blue balls around and still find a place for the 13s and so David Gregory
+he thought that maybe if somebody tries really hard they could squeeze the 14th
+really hard they could squeeze the 14th ball
+in however he he could not produce this configuration himself but he thought
+configuration himself but he thought that maybe if somebody spends enough of
+possible and so now we know that Ison was right after all we know that Newton
+was right after all we know that Newton did have very good intuition for
+did have very good intuition for mathematics uh at the same time the
+mathematics uh at the same time the rigorous proof for for this geometric
+problem it took quite a long time to to find a proof like this and the first in
+find a proof like this and the first in somehow maybe still incomplete proofs
+were found in 19th century and then the rigorous proof was written down in 1950s
+rigorous proof was written down in 1950s so already the the last
+century and so here's another explanation so what is so hard about the
+explanation so what is so hard about the sphere packing problem and it's also
+sphere packing problem and it's also maybe something which is a bit
+maybe something which is a bit counterintuitive it's that I I've showed
+counterintuitive it's that I I've showed you these two different packings and
+you these two different packings and then I demonstrated that they actually
+then I demonstrated that they actually coincide and the they are geometrically
+coincide and the they are geometrically identical however in dimension three we
+identical however in dimension three we have uncountably many sphere packings
+which attain this the same maximal uh density and how it works here again our
+density and how it works here again our method of building peckings from layers
+method of building peckings from layers would work and so you remember at some
+point when we built new you uh our our packing from this triangular layers I
+packing from this triangular layers I have told you that we cannot put
+have told you that we cannot put U balls of of a new layer into each hole
+U balls of of a new layer into each hole between uh the balls of a previous layer
+shift we could put them either like this or like this and these choices we are
+or like this and these choices we are making them at each level and by making
+making them at each level and by making these different choices we can produce
+these different choices we can produce many many
+packings which would be geometrically unequivalent to each
+other and so it also explains why the sphere packing problem is mathematically
+sphere packing problem is mathematically a hard problem that's because we don't
+have only unique great solution we have many equal seemingly equally great
+many equal seemingly equally great Solutions and when optimization problem
+Solutions and when optimization problem has many solutions this is a this is a
+has many solutions this is a this is a difficult problem
+so now let me tell you a few words about mathematical
+proof uh so as I already told you for Kepler and Thomas Harriot they did not
+need they need did not need any proofs they could just somehow it was obvious
+they could just somehow it was obvious to them that this is the the best they
+can do can do they tried they are so smart and probably they would not have
+missed a better configuration and of course as mathematicians we want
+argument and so for many years what was a an example of mathematical rigor was
+a an example of mathematical rigor was the uh elements written by ukl and so
+the uh elements written by ukl and so here is one of the
+here is one of the oldest text that we have that contain
+oldest text that we have that contain some elements of a mathematical proof
+some elements of a mathematical proof and so of
+course and so as as a mathematicians when we want to prove something we don't
+when we want to prove something we don't want just to write somehow a poem or a
+text that would look be so convincing that everybody would be convinced we
+have very strict rules on what constitutes mathematical proof and maybe
+constitutes mathematical proof and maybe it's also an experience you have at some
+point in a high school when when you do study uh planimetry
+or geometry that inside of geometry you often have this argument on how to prove
+something how to prove a theorem so as we proceed in mathematics what we
+we proceed in mathematics what we usually have to do we have to establish
+exioms so to say ground rules what what constitutes a mathematical argument and
+constitutes a mathematical argument and what does not and also if we work with
+Geometry this would be points lines and planes and balls we have to Define we we
+planes and balls we have to Define we we have to first somehow give the
+have to first somehow give the properties which are aoms and then for
+properties which are aoms and then for things which are not the
+initial objects we have to give their proper definitions for example for the
+proper definitions for example for the sphere packing problem as a
+would have to really Define what is the density of a sphere pecking and then we
+density of a sphere pecking and then we would realize that actually not every
+would realize that actually not every configuration of bols has a well defined
+configuration of bols has a well defined density and I would have to play around
+density and I would have to play around with it but probably I will not do it in
+this series of like so you would just have to believe me that we work with
+have to believe me that we work with nice configurations where the density is
+nice configurations where the density is well defined and when we have our aoms
+and definitions we are good to prove theorems and so of course what
+theorems and so of course what mathematicians wanted to do for many
+mathematicians wanted to do for many centuries is to turn this one sentence
+theorem and there was a lot of effort and ideas and failed attempts
+and ideas and failed attempts and so finally the Kepler's conjecture
+1998 by American mathematician Thomas hailes and this also in itself this was
+hailes and this also in itself this was an interesting story as for for a long
+an interesting story as for for a long time people thought that this theorem is
+time people thought that this theorem is still out of of
+reach and then the strategy 1960s more or less the strategy
+strategy 1960s more or less the strategy was developed on how to tackle the
+problem however it still required a lot of computational
+of computational power and uh what Thomas haes did he uh
+power and uh what Thomas haes did he uh somehow pushed this uh really really
+somehow pushed this uh really really pushed on this
+strategy and so he reduced the spare packing problem in dimension three to a
+packing problem in dimension three to a number of U problems that can be
+number of U problems that can be resolved computationally either
+combinatorial problems or optimization problems and each of these problems
+could be used by computer and so his proof it was one of the first examples
+of a computer assisted proof and then it took mathematical Community quite a long
+took mathematical Community quite a long time and a big discussion on whether
+such proofs should be accepted is it still a proof how much computer
+still a proof how much computer assistance do we
+allow uh and another interesting thing is that referees were not somehow so
+is that referees were not somehow so scientists who were supposed to read the
+scientists who were supposed to read the paper and to say that it is correct
+after many years of work they could write okay we think that this paper is
+write okay we think that this paper is 99% correct but we cannot really follow
+99% correct but we cannot really follow all the details especially the things
+all the details especially the things which are in the done by programs it's
+too hard for us but okay 99% it's correct which is not so nice for
+correct which is not so nice for mathematics and then somehow what Tomas
+mathematics and then somehow what Tomas Hales did is he I think it's
+Hales did is he I think it's another
+another um
+great great achievement in history of mathematics he he would write a formal
+proof of his theorem and so this is another interesting thing that exist now
+another interesting thing that exist now is that uh so as I told you that
+mathematicians we do want to be like e want to be very rigorous we want to
+start with exioms and definitions and then very rigorously prove all our
+theorems and now we are at the point we can where we can actually write our
+proof as a computer program and then the compiler could check that each step is
+compiler could check that each step is indeed correct because yeah for referees
+indeed correct because yeah for referees they just may get old before they read
+they just may get old before they read paper till to the
+end uh at the same time and so now I think Thomas H was one of the first
+think Thomas H was one of the first people who would write a major modern
+people who would write a major modern mathematical result in this fashion and
+mathematical result in this fashion and uh now it seems that with all the
+advances this movement is get somehow more momentum more attention which is
+more momentum more attention which is also exciting and uh
+actually he wrote a formal proof of the sphere packing problem and the the whole
+sphere packing problem and the the whole project took him like almost 10 years so
+it was a really major major thing because to one of the important steps
+proof of his theorem he had to somehow formalize all the prerequisites because
+formalize all the prerequisites because as you know mathematicians were usually
+as you know mathematicians were usually r on work of other people and if we want
+have Pro to be checked by a computer we also have to explain to the computer all
+also have to explain to the computer all the previous work that has been
+the previous work that has been done and
+so and so okay so now we are as I told you the sphere packing problem in
+you the sphere packing problem in dimension one is Trivial in dimension
+two it's uh not trivial but still somehow simple and it was resolved long
+somehow simple and it was resolved long time ago what about in dimension three
+time ago what about in dimension three it was a really big adventure for
+it was a really big adventure for mathematicians for some many hundreds of
+mathematicians for some many hundreds of years but okay one two three seems like
+we ran out of Dimensions right we have no more degrees of freedom as human
+no more degrees of freedom as human beings and so here what comes to rescue
+beings and so here what comes to rescue is the mathematical
+obstruction and so here maybe let me a little bit justify to you why should we
+little bit justify to you why should we look in these higher dimensions and also
+look in these higher dimensions and also explain what are these higher Dimensions
+explain what are these higher Dimensions to me as a
+mathematician and so here maybe as a metaphor I would like to use this
+metaphor I would like to use this illustration to
+a book about Ellis Through The Looking who went through the Looking
+Glass um actually the book which was also written by a mathematician maybe
+also written by a mathematician maybe that's why it appeals to me so so much
+uh so we have somehow our experience from the everyday world and we are
+from the everyday world and we are intelligent creatures and of course we
+intelligent creatures and of course we use our intellect to uh to think about
+it to make our lives easier and then as we think about our everyday experience
+we think about our everyday experience we can also come up with abstractions I
+think people are also very good to to coming up with obstructions and some of
+coming up with obstructions and some of them are the obstructions I'm interested
+them are the obstructions I'm interested in are the mathematical ones and so we
+can bring our uh concepts of uh of real life into an abstract form
+and I would describe this process as going through a Looking Glass so we
+going through a Looking Glass so we started with something which was real
+started with something which was real then we think of its possible reflection
+then we think of its possible reflection in the world of ideas and now another
+step we do so now we try as mathematicians we start living on this
+mathematicians we start living on this side and this uh world of mathematical
+abstractions it is in some sense reflection of course of all our human
+reflection of course of all our human experience at the same time as in the
+experience at the same time as in the book about Ellis it is slightly
+book about Ellis it is slightly different
+the laws that govern there are different and so if as a human I have only three
+degrees of freedom to move myself on this side I might have more I just have
+this side I might have more I just have to find a correct mathematical
+to find a correct mathematical obstruction for
+that and so with Dimensions with mathematical Dimensions it's actually
+mathematical Dimensions it's actually very easy so as I already told you the
+dimension it's a number of degree of freedom and what it means it means that
+freedom and what it means it means that if I want to describe a point in space I
+coord coordinates so you can think of it as a GPS coordinates for example uh so
+as a GPS coordinates for example uh so here this is the point with coordinates
+here this is the point with coordinates so this is the origin and this is the
+1 and now if I think of a point as this somehow this row of its uh the list of
+somehow this row of its uh the list of its coordinates now Nothing Stops me
+its coordinates now Nothing Stops me from adding simply adding more numbers
+from adding simply adding more numbers to this
+list and that's it this is how Dimension is or ofan space is defined in
+is or ofan space is defined in mathematics and so here another thing
+mathematics and so here another thing which somehow often I think confuses
+which somehow often I think confuses people is that for example if we are
+physicists then our whatever we are working with is supposed to have
+working with is supposed to have physical meaning so some and very often
+physical meaning so some and very often in physics it's useful to introduce
+in physics it's useful to introduce extra Dimensions like Einstein he
+extra Dimensions like Einstein he introduced this fourth dimension which
+introduced this fourth dimension which would be
+time uh and as mathematician I don't somehow I have more freedom I have
+luxury to say I don't care about what First Dimension is the First Dimension
+First Dimension is the First Dimension it could be a time or I could add two
+more Dimensions or I could say that maybe my Dimensions they just some
+maybe my Dimensions they just some numbers on Excel sheet with salaries of
+numbers on Excel sheet with salaries of people working in the same organization
+people working in the same organization and it will be totally totally normal
+and it will be totally totally normal for mathematician I don't need to think
+for mathematician I don't need to think about an interpretation I just think
+about an interpretation I just think about the logical structure of things
+about the logical structure of things and it turns out that the sphere packing
+problem can be easily generalized to higher dimensions
+and so here the what we should do we have to define the D dimensional ukian
+have to define the D dimensional ukian space and so our points they are these
+space and so our points they are these lists of coordinates so if we have
+lists of coordinates so if we have Dimension D then we have D different
+Dimension D then we have D different coordinates each coordinat it's a real
+number and so now if you want to think about sare packing problem we need a bit
+about sare packing problem we need a bit more information uh so what if you want
+more information uh so what if you want to Define what a ball is so in diens in
+each Dimension the ball is a set of points which are at a certain distance
+at most certain distance from the center of the ball and so we already know what
+of the ball and so we already know what a point is what uh now we need to know
+what's the distance and so here we introduce the distance between point in
+introduce the distance between point in this way so this would be the usual
+lukian distance and probably if you remember the Pythagoras Theorem from
+remember the Pythagoras Theorem from school then you would recognize that
+school then you would recognize that this is exactly the Pythagoras in
+dimension two this would be exactly the Pythagoras Theorem which also works in
+Pythagoras Theorem which also works in dimension
+three but now we can actually introduce as many coordinates as as as we want as
+as many coordinates as as as we want as we have decided here and so this would
+be the distance between these two uh points and so maybe this is something of
+points and so maybe this is something of course Kepler would not have because he
+course Kepler would not have because he didn't at his time so the algebraic
+didn't at his time so the algebraic notation was not developed yet and it
+notation was not developed yet and it was not used systematically by
+was not used systematically by scientists at his time but we do have
+this luxury
+now and so now after we have defined what is the distance we can Define what
+is a ball so it would be a set of all points so if if you want to have a ball
+points so if if you want to have a ball of with centered point x and radius R it
+of with centered point x and radius R it would be just the set of all points
+would be just the set of all points which are a distance at most R from
+which are a distance at most R from point
+x and also somehow another thing which we need for our uh to define the the SP
+we need for our uh to define the the SP problem is the notion of volume it's a
+problem is the notion of volume it's a quite useful notion but I will not
+quite useful notion but I will not Somehow Here things get maybe way way
+too complicated I will not write it down but I will just tell you that there is a
+but I will just tell you that there is a meaningful mathematical way how to
+meaningful mathematical way how to define volume in higher
+uh uh Define these higher Dimensions what we can do with we can also think of
+what we can do with we can also think of configurations and it turns out that
+configurations and it turns out that mathematicians have this ability and in
+mathematicians have this ability and in dimensions for example up to 10 they
+dimensions for example up to 10 they have already listed uh the number of
+have already listed uh the number of configurations that they believe are
+configurations that they believe are optimal uh so it's somehow for so for
+optimal uh so it's somehow for so for the rows which are in green these are
+the rows which are in green these are the rows where we actually do know the
+answer in a sense that we have a mathematical proof that this
+mathematical proof that this configuration is optimal and those which
+are in Black uh these dimensions are still open so we
+they are optimal or not so maybe if there are young mathematicians in this
+there are young mathematicians in this room maybe they can choose one of their
+to try to start working on that and we also see that somehow also
+that and we also see that somehow also this table shows that uh the sphere
+packing in higher Dimensions has this very strange flavor is that each
+very strange flavor is that each Dimension it's always it's feels like a
+Dimension it's always it's feels like a completely new
+problem uh so in some Dimensions like in dimension one in dimension two uh like
+dimension one in dimension two uh like four eight we have only one
+four eight we have only one configuration unique configuration which
+configuration unique configuration which which does the job which is the best
+sphere packing and there are many dimensions which are more like our
+dimensions which are more like our favorite Dimension three where we have
+favorite Dimension three where we have this many many geometrically distinct
+this many many geometrically distinct configurations so we can do something
+similar to uh for example choosing stacking layers in different ways and we
+stacking layers in different ways and we will actually get not one answer but
+will actually get not one answer but many typically uncountably many
+answers and of course when Dimension becomes more than 10 then we lose
+becomes more than 10 then we lose somehow our confidence sometimes we
+still have great configurations but we don't have this confidence to say that
+they are really the
+really the best
+and so this is now the list of the dimensions where we exactly know what
+the optimal density is and so okay so as I told you the dimension one is Trivial
+I told you the dimension one is Trivial and dimension two it was not a very
+and dimension two it was not a very difficult question even though it was
+something think what was difficult forci is to decide which proofs are rigorous
+is to decide which proofs are rigorous and which are not because some of the
+proofs they were quite old and maybe there was still some hand waving there
+and probably in I think in one of my lectures actually I plan to demonstrate
+lectures actually I plan to demonstrate a simple because this proves they have
+a simple because this proves they have been some discussed and simplified a lot
+been some discussed and simplified a lot and maybe now we are at the uh moment
+when it's actually possible to explain to somebody who knows only school
+geometry to explain the proof so what I found in the literature for example
+found in the literature for example there is a two-page proof of
+there is a two-page proof of this result so my goal for this series
+this result so my goal for this series of lectures actually to demonstrate
+of lectures actually to demonstrate one of these short short
+proofs then there is a dimension three which I already told you that Dimension
+which I already told you that Dimension 3 is very complicated it's a dimension
+3 is very complicated it's a dimension where we have this uncountably many
+where we have this uncountably many Optimal Solutions and there is an
+Optimal Solutions and there is an computer assisted proof by Thomas Hales
+computer assisted proof by Thomas Hales and then there are two more Dimensions
+and then there are two more Dimensions where we know the answer this is my own
+work in dimension eight we have this unique configuration that was believed
+to be the best and I actually was able to prove that it is the best and proof
+to prove that it is the best and proof in dimension 8 turns out it was much
+in dimension 8 turns out it was much shorter so for example the proof in
+shorter so for example the proof in dimension three it is at least 100 P
+dimension three it is at least 100 P Pages text and also many
+many lines of code while uh this proof it took only like 20 pages and a small
+it took only like 20 pages and a small computer program to verify certain
+computer program to verify certain positivity condition and then working
+positivity condition and then working together with Henry Co naaf kummer
+together with Henry Co naaf kummer Steven Miller and danil renko we were
+Steven Miller and danil renko we were able to solve the spher packing problem
+able to solve the spher packing problem in
+dimension 24 because in dimension 24 we also have a exceptional o object soal
+also have a exceptional o object soal rich lce and it is the unique conf
+rich lce and it is the unique conf optimal configuration in
+optimal configuration in dimension
+so so here are my quarters so I decided to use this somehow opportunity to show
+to use this somehow opportunity to show them to you since we already see in
+have so eight minutes left H so let me tell you a little bit about this higher
+tell you a little bit about this higher dimensions and also a little advertise
+dimensions and also a little advertise the new lecture so some of these
+questions I will stop more in the future lectures so this is a uh so as I told
+lectures so this is a uh so as I told you in dimension 8 we have this this
+you in dimension 8 we have this this very special object the socalled E8
+very special object the socalled E8 lettuce and unfortunately it's very
+lettuce and unfortunately it's very difficult to visualize things in
+difficult to visualize things in dimension eight so here I'm using the
+trick so for example you can see my hand it's a three-dimensional object and if I
+it's a three-dimensional object and if I Rise it here in front of the projector
+Rise it here in front of the projector it will create a shadow and the shadow
+is two dimensional and also if I rotate my hand the shape of the Shadow will be
+my hand the shape of the Shadow will be changing
+and so what is here it's really it's also it's a threedimensional
+shadow of the shortest vectors of the E8 lettuce so what it means so you remember
+lettuce so what it means so you remember I told you about the kissing problem and
+so if you we have so here this is a kissing configuration which was uh
+constructed from the E8 lce so we choose one ball in the E8 uh ball backing and
+we will also look at all the ball balls which touch this one so we do not try to
+which touch this one so we do not try to visualize all the E8 lates but only one
+visualize all the E8 lates but only one ball and all other balls that touch
+it and it turns out that in dimension so for example in dimension three we could
+for example in dimension three we could have one disc could be touched by six
+others in dimension three one ball Can Be Touched by 12 others and in dimension
+eight uh one ball Can Be Touched by 240 other balls so this is somehow this
+240 other balls so this is somehow this strange behavior of high Dimensions so
+this is what high dimensions are about is in high Dimensions we just have much
+space and so now what what what is done here it's a projection from the eight
+here it's a projection from the eight dimensional space into some
+dimensional space into some three-dimensional
+Subspace uh so it's like a three-dimensional
+three-dimensional Shadow and of course here we also have
+a Subspace where we are projecting but this one was chosen so that the result
+this one was chosen so that the result is somehow
+symmetrical and uh the this model is Created from a uh from a Constructor
+which is called Zoom maybe if you have ever been to a math museum maybe you've
+ever been to a math museum maybe you've seen it so it's this kind of
+seen it so it's this kind of uh medium to create various
+uh medium to create various three-dimensional
+and so okay so here is another object the one which lives in dimension 24 and
+here I could not find this threedimensional model of this so this
+threedimensional model of this so this is a threedimensional
+uh two dimensional Shadow and by the way if you go to so as I told you like as
+if you go to so as I told you like as with my hand if I rotate my hand the
+shape of the Shadow will change so for example you if you go to YouTube there
+example you if you go to YouTube there are many many uh beautifully done videos
+are many many uh beautifully done videos of different projections for example of
+shortest Vector of E8 lce or shortest vectors of Le Lees that are projected on
+vectors of Le Lees that are projected on for example on a plane and then the
+for example on a plane and then the plane is changed so it is becomes a
+plane is changed so it is becomes a cartoon and some people are very skilled
+cartoon and some people are very skilled in drawing it beautifully and rendering
+in drawing it beautifully and rendering it so it's a bit like a screen saver so
+so of course like on one hand this um videos and pictures like this they can
+videos and pictures like this they can look very beautiful at the same time I
+look very beautiful at the same time I tell you as a mathematician
+tell you as a mathematician unfortunately these visualizations
+they're not extremely useful for understanding the geometry I still think
+the best way to understand these uh structures is the method of mathematical
+structures is the method of mathematical obstruction and visualization it's
+obstruction and visualization it's mostly for aesthetic purposes and for
+dimension in the least latest actually one uh one ball is touching almost
+almost uh uh 200,000 other balls so a bit a bit less than that so somehow you
+bit a bit less than that so somehow you see that somehow the dimensions they
+see that somehow the dimensions they really things in high dimension behave
+really things in high dimension behave very
+so maybe the last thing I would like to tell you also one one thing I would like
+to advertise for the future is the history of for example discovery of Lich
+history of for example discovery of Lich lettuce it's a very beautiful story and
+lettuce it's a very beautiful story and I think it is beautiful because the this
+mathematical object which has a lot of great properties and is loved by
+great properties and is loved by mathematician was actually first
+discovered by an engineer so this is Marcel oh not not by it was discover
+Marcel oh not not by it was discover sorry it was discovered actually it's Le
+lce it was discovered by John leech who's a Canadian mathematician but the
+who's a Canadian mathematician but the discovery of John leech was only
+discovery of John leech was only possible because of
+a work of Marcel Galay and Marcel galle he was not really a mathematician he was
+he was not really a mathematician he was an engineer
+and his motivation for studying such objects was very practical he was
+objects was very practical he was studying the error correcting codes and
+so he created a code which was called the Galay code and then his code was was
+the Galay code and then his code was was used by John leech to construct the Le
+lettuce which we are now using for sphere packing and then somehow same
+sphere packing and then somehow same object led to lot of discoveries in
+object led to lot of discoveries in mathematics which I hope I will speak a
+mathematics which I hope I will speak a little bit in one of my next
+little bit in one of my next lectures and so another topic I also
+lectures and so another topic I also would like to cover is the this
+would like to cover is the this connection between error correcting and
+connection between error correcting and sphere
+peckings uh so this would be the main Heroes of my
+so this would be the main Heroes of my uh uh talk of of my
+story and yes so this is somehow the what the error correcting means and how
+what the error correcting means and how it is Con connected to the sphere
+packing so this all will come in the future lectures and so this is somehow
+future lectures and so this is somehow the slide to tell you that error
+the slide to tell you that error correcting is very important and many of
+correcting is very important and many of the technical advances would not be
+the technical advances would not be possible uh without it and then again
+possible uh without it and then again maybe one thing I I should say that I am
+maybe one thing I I should say that I am a pure mathematician so my love for
+a pure mathematician so my love for sphere pecking does not come from this
+sphere pecking does not come from this great real life applications it actually
+great real life applications it actually comes from the intellectual beauty of it
+and also my belief that whenever some think is fundamental in science it will
+think is fundamental in science it will inevitably become useful in everyday
+inevitably become useful in everyday life as well
+so so now I'm think I'm ready to answer the questions thank you very
+the questions thank you very [Applause]
+[Applause] [Music]
+[Music] [Applause]

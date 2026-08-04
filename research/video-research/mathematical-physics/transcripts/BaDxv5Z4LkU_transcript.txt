@@ -1,0 +1,734 @@
+Okay, I think we're all settled down. Morning everybody. Uh my name is Martin
+Morning everybody. Uh my name is Martin Brides. I'm president of the Clay Maths
+Brides. I'm president of the Clay Maths Institute. Uh on behalf of the
+Institute. Uh on behalf of the institute, welcome to this uh what
+institute, welcome to this uh what should be two great days celebrating the
+should be two great days celebrating the 25th anniversary of the clay millennium
+25th anniversary of the clay millennium problems. I'm very much looking forward
+problems. I'm very much looking forward to it. Uh we have some wonderful
+to it. Uh we have some wonderful speakers lined up and so I won't detain
+speakers lined up and so I won't detain you from the mathematics. I'll ask
+you from the mathematics. I'll ask professor Jiglo Stafalani from MIT
+professor Jiglo Stafalani from MIT member of our scientific advisory board
+member of our scientific advisory board to introduce the first speaker.
+So thank you Martin for uh starting this wonderful meeting here. So it's my
+wonderful meeting here. So it's my pleasure to introduce Professor
+pleasure to introduce Professor Vladimir.
+He's a distinguished Mcnite University professor of mathematics at the
+University of Minnesota. He received his PhD from Charles University in Prague in
+PhD from Charles University in Prague in 1986 and has made profound contributions
+1986 and has made profound contributions in the general area of PTE in particular
+in the general area of PTE in particular calculus variation and in more in
+particular in the study of fluid mechanics and in fact he is an authority
+mechanics and in fact he is an authority in that area and we are very happy that
+he's here today. So among his rewards and prizes is a prize from the European
+and prizes is a prize from the European mathematical society, the humbled award,
+the neuro foundation prize. He was an ICM speaker and very recently in 2024 he
+ICM speaker and very recently in 2024 he was inducted in the American Academy of
+was inducted in the American Academy of Art and Sciences. So let's welcome
+professor Verak and he's going to talk to us about actually is giving us a
+to us about actually is giving us a report on the status of the knowledge
+report on the status of the knowledge stock problem.
+Thank you very much for the for the kind introduction.
+So uh I'd like to talk about the Navier Stokes uh problem.
+So we assume we have a domain occupied by the fluid. The fluid is modeled as a
+by the fluid. The fluid is modeled as a continuum and the velocity field is U.
+continuum and the velocity field is U. The pressure is P. And we assume the
+fluid is incompressible. And this is Navier Stokes equation with new being
+Navier Stokes equation with new being the viscosity. And the Millennium
+the viscosity. And the Millennium problem is formulated uh as a question
+about the Koshi problem for this equation given uh some initial velocity
+equation given uh some initial velocity with reasonable assumptions at time zero
+with reasonable assumptions at time zero which is smooth. uh does the equation uh
+which is smooth. uh does the equation uh predict a smooth solution of uh the
+So in this description as I mentioned we describe the fluid as a continuum. So if
+describe the fluid as a continuum. So if we take a point of the continuum x the
+trajectory of that point is computed from this OD. So we want to follow every
+principle and uh there is a nice geometric equation uh interpretation of
+geometric equation uh interpretation of the equation with new is equal to zero.
+the oiler equation that uh these mappings t to 5t which are volume
+mappings t to 5t which are volume preserving defomorphisms
+they are geodessics in the group of volume preserving defomorphisms equipped
+volume preserving defomorphisms equipped with natural metric.
+So I mentioned that we assume that uh the fluid is a continuum in this model
+the fluid is a continuum in this model but we know that actually there is some
+but we know that actually there is some atomic structure uh underneath and so we
+atomic structure uh underneath and so we can start for example from interacting
+can start for example from interacting particles and uh then there are two kind
+particles and uh then there are two kind of levels of emergence if I can use that
+of levels of emergence if I can use that language to get to the Navier Stokes to
+language to get to the Navier Stokes to to derive this uh from the particle
+trajectory. So there has been some tremendous uh progress on these are very
+tremendous uh progress on these are very difficult problems to derive uh say
+difficult problems to derive uh say Boltzman equation from interacting
+particles and then fluids equation from the Boltzman equation and uh recently
+the Boltzman equation and uh recently there has been some very uh important
+progress uh uh we uh uh and uh Zaher Hani and Lor Simon
+discuss this on on the PDE workshop. So we can uh essentially have uh three
+So we can uh essentially have uh three basic scenario for the for the mil
+scenarios for the millennium problem. So one is that okay if you have smooth data
+one is that okay if you have smooth data there is a smooth solution and that
+there is a smooth solution and that essentially means you can interpret it
+essentially means you can interpret it as the the world of the continuum model
+as the the world of the continuum model being closed and self-contained. Okay,
+being closed and self-contained. Okay, you don't need anything else just the
+continuum model to predict uh the future. Then the opposite scenario here
+future. Then the opposite scenario here number three is that uh you have
+number three is that uh you have singularities in the solutions and
+singularities in the solutions and moreover singularities cause
+non-uniqueness. Okay, that they generate non-uniqueness. So after the
+singularities appear, you can no longer the the model no longer predicts what is
+the the model no longer predicts what is happen. So in that sense is not closed
+and maybe you have to go to the models underneath to see what uh what happens.
+underneath to see what uh what happens. There is a interesting possibility in
+There is a interesting possibility in between so to speak that there are
+between so to speak that there are singularities but the equation still uh
+singularities but the equation still uh preserves its uniqueness. So so there
+are some such examples in PD that you can find a good class of solutions where
+can find a good class of solutions where this is the case. So that would be that
+this is the case. So that would be that would be uh another uh interesting
+would be uh another uh interesting scenario.
+Now usually when uh people talk about Navier stocks turbulence should be
+Navier stocks turbulence should be mentioned. So the tur the problem of
+mentioned. So the tur the problem of turbulence it has many aspects
+and the non-negligible one is it's a very practical the it's a very practical
+very practical the it's a very practical uh problem in in many respects. So if
+you imagine a flow like that uh it's very difficult to compute it uh on on a
+computer even on big computers and sometimes impossible uh because the the
+sometimes impossible uh because the the the structures are too fine you you
+would need too many points uh and the computers even the big ones cannot
+computers even the big ones cannot handle the the computations.
+So you can one way to think about the problem of turbulence is that you are
+problem of turbulence is that you are looking for another level of emergence
+looking for another level of emergence above the Navier Stokes equation. So in
+above the Navier Stokes equation. So in practice you are interested in these uh
+practice you are interested in these uh in these uh computations only in a
+like drag lift or or some momenta and you don't really want to know all the
+you don't really want to know all the details of the motion of every fluid
+details of the motion of every fluid particle right so the question is if you
+particles to navier stokes if you can go from navier stokes to another models
+from navier stokes to another models above it which uh uh which uh uh will
+above it which uh uh which uh uh will make the computation more feasible. So
+make the computation more feasible. So for that it's important to study
+for that it's important to study turbulence on a on a theoretical level
+turbulence on a on a theoretical level and recently there uh has been some uh
+Bedros uh Jacob Bedrosan is uh going to talk about it in the PTE workshop on on
+talk about it in the PTE workshop on on Friday.
+Friday. So
+what do we know about the equation? So the basic
+uh estimate which we have for the equation is the energy estimate. Very
+equation is the energy estimate. Very simple. Energy at time t1 is equal
+energy at time t2 plus the energy dissipated in between. And in the 1930s,
+Lar based the whole theory of existence of weak solutions on this uh inequality.
+of weak solutions on this uh inequality. So you can for example truncate the
+So you can for example truncate the equation to finite dimensions so that
+equation to finite dimensions so that you preserve the estimate. That's not
+you preserve the estimate. That's not hard. Then you have an OD with a
+existence for for the OD. Or you can use a more sophisticated approximation like
+a more sophisticated approximation like the one with epsilon here. uh due to LAR
+and Lar showed that when you have the these good uh approximate uh solutions
+these good uh approximate uh solutions you have enough compactness in uh in the
+obtain a weak solutions of of the equations. Okay. and then you can prove
+equations. Okay. and then you can prove some some uh partial regularity results
+some some uh partial regularity results for the for the solutions that also goes
+for the for the solutions that also goes uh back uh to uh to so what are the best
+uh back uh to uh to so what are the best solution solutions which we know uh uh
+as of now so let's say you start with smooth data say on a Taurus that's also
+smooth data say on a Taurus that's also one of the versions of the millennium
+one of the versions of the millennium problem And uh you have this sequence of
+approximate solutions uh u so for a certain time up to time say capital t
+certain time up to time say capital t here uh everything is nice uh the uh
+here uh everything is nice uh the uh approximate solutions converge to a
+smooth solutions you don't have to choose a subsequence any approximation
+will any decent approximation will converge to the solution so the equation
+converge to the solution so the equation is totally predictable in in that
+is totally predictable in in that interval. However, potentially we don't
+interval. However, potentially we don't know potentially you can form a
+after the singularity if you choose a subsequence.
+You can also produce a continuation of this smooth solution. So we have another
+this smooth solution. So we have another interval time interval where a
+subsequence will converge to a smooth solution. But the issue is that somebody
+solution. But the issue is that somebody else comes choose a different sub
+else comes choose a different sub subsequence and after the singularity
+subsequence and after the singularity maybe that different subsequence will
+converge to a different solution. We don't know. So that's the that's the big
+don't know. So that's the that's the big problem.
+So these solutions the the the best ones which are available uh sometimes I mean
+which are available uh sometimes I mean there is a much more technical
+description and my I'm a little bit uh imprecise here. There are for example
+imprecise here. There are for example differences about what you can prove uh
+differences about what you can prove uh for the LAR approximation and this for
+for the LAR approximation and this for approximation but let's not worry about
+these details now. So if you could uh if you could prove uniqueness for the larop
+you could prove uniqueness for the larop solutions that would clearly be the
+right notion you can compare it to the say fur series L2 theory obviously it's
+say fur series L2 theory obviously it's the right notion right it go we know
+the right notion right it go we know it's easy to show FIA series converges
+it's easy to show FIA series converges in L2 uh if you want to prove pointwise
+much more difficult right so you If you had uniqueness for a LAR hop solutions,
+had uniqueness for a LAR hop solutions, maybe you could say we have the right
+maybe you could say we have the right object. The LAR theory is relatively
+object. The LAR theory is relatively simple. Okay, you have it's quite
+simple. Okay, you have it's quite regular. So, we have the right object.
+Uh and regularity, okay, it's an interesting issue, but somewhat uh uh uh
+interesting issue, but somewhat uh uh uh somewhat similar to the pointwise uh
+convergence for for FIA series. So that that would be the case if we had
+I should say that uh that you can you can prove this in dimension two. So in
+can prove this in dimension two. So in dimension two you can prove laop
+solutions are unique. If you work a little more you can prove that larop
+little more you can prove that larop solutions are fully regular. So
+solutions are fully regular. So everything works uh perfectly in
+everything works uh perfectly in dimension two.
+Why is dimension three harder than uh dimension uh dimension two? What's the
+dimension uh dimension two? What's the difference?
+Okay. So when you when you do uh the estimates you use or the theory you use
+estimates you use or the theory you use essentially three ingredients. So one is
+essentially three ingredients. So one is the linear estimate
+and bootstrapping which essentially with some license to be imprecise tells you
+some license to be imprecise tells you that if the solution is of order one
+then the derivatives are also of order one modulus some constant. So this is a
+one modulus some constant. So this is a more precise estimate still probably not
+more precise estimate still probably not quite true but morally something like
+that should be true. Okay then you have the then you have the energy inequality.
+the then you have the energy inequality. Okay. And then you have the scaling
+symmetry. If u is a solution then for any lambda positive this is again a
+solution. So now assume you have uh a blow up so that by one the l infinity
+blow up so that by one the l infinity norm of u has to go to infinity as you
+norm of u has to go to infinity as you approach the blowup time. So we we take
+approach the blowup time. So we we take some large modulus m and look at the
+first time we uh we achieve that modulus. look at what is happening in
+modulus. look at what is happening in space at that time. So we have a peak in
+velocity field of height m and if you use uh the bootstrapping and scaling you
+use uh the bootstrapping and scaling you conclude that the peak has to be at
+least new over m wide. Okay, it's clear that it that it cannot be arbitrarily
+that it that it cannot be arbitrarily thin because then the viscosity would
+question is how how thick it has to be. And uh one way to see that this is the
+right number that this is uh the only kind of dimensionally consistent length
+kind of dimensionally consistent length you can get from the uh from the
+parameters which we had and you can also check it by going through the estimate.
+check it by going through the estimate. So now you have this peak you look at
+how much energy you have in the peak. So in dimension two so energy u ^2 right m
+in dimension two so energy u ^2 right m times the volume of the peak. So if d is
+times the volume of the peak. So if d is two you have m squ it it cancels with m
+two you have m squ it it cancels with m squ you have some fixed number. So you
+will have fixed amount of energy in arbitrarily small balls because the
+radius of the ball is 1 / m roughly speaking and m goes to infinity. So you
+speaking and m goes to infinity. So you have in two dimensions if you had blow
+have in two dimensions if you had blow up you would be concentrating energy in
+up you would be concentrating energy in arbitrary small ball. Not quite a
+arbitrary small ball. Not quite a contradiction but almost right. And if
+contradiction but almost right. And if you if you uh push further some uh
+you if you uh push further some uh embeddings uh and so life inequalities
+embeddings uh and so life inequalities you can bring it to a contradiction.
+you can bring it to a contradiction. Okay, that's one way to see it. You see
+in dimension three there is a huge difference because here we have two you
+difference because here we have two you have three you get something divided by
+peak goes to zero. So the viscosity and the existence of uh singularity doesn't
+the existence of uh singularity doesn't give you an easy contradiction.
+give you an easy contradiction. So there people have uh people have uh
+So there people have uh people have uh thought about this. Okay, what you can
+prove what you cannot prove by this energy estimates
+energy estimates and uh a nice model is due to territo
+and uh a nice model is due to territo called averaged Navier Stokes equation.
+called averaged Navier Stokes equation. So this uh nonlinear term resembles uh
+the uh resembles the Navier Stokes term in that it is quadratic and has the same
+in that it is quadratic and has the same strength in the in the in terms of
+derivatives as as what you have in Navier Stokes and in fact is obtained
+from Navier Stokes by some uh benign operation like shift scaling or some FA
+operation like shift scaling or some FA multipliers and and stuff like that. And
+multipliers and and stuff like that. And uh this equation as uh as was proved by
+uh this equation as uh as was proved by teraus blows up uh in dimension 3.
+I put here another example which is uh so so uh this model is not really a PTE
+so so uh this model is not really a PTE it's a non-local equation.
+This is a pure PTE. It should be simple. U is a vector field. No divergence free
+U is a vector field. No divergence free condition. You have an equation like
+that. Again you have the energy estimate and all the other properties which we
+and all the other properties which we have what is known about regularity of
+have what is known about regularity of this one as far as I know okay it's
+this one as far as I know okay it's regular in dimension two as before the
+regular in dimension two as before the same proof
+but in dimension higher than five you can prove it blows up uh in f from
+can prove it blows up uh in f from smooth data and uh not we don't know at
+smooth data and uh not we don't know at that about navier stocks we don't know
+that about navier stocks we don't know blow up of navier stocks in any
+but in dimension three and four we don't know this
+uh probably much simpler equation than Navier Stokes. We still don't know in
+Navier Stokes. We still don't know in dimension uh in dimension uh three and
+dimension uh in dimension uh three and four.
+Very interesting case is the fivedimensional steady state because
+fivedimensional steady state because that illustrates what uh what can happen
+So fivedimensional steady state uh you are in five dimensions. So the energy
+are in five dimensions. So the energy inequality is weaker than in dimension
+three. You try to uh give uh an argument based on the energy inequality. You find
+based on the energy inequality. You find there's no contradiction. So if you only
+there's no contradiction. So if you only use energy inequality, you cannot prove
+use energy inequality, you cannot prove regularity uh in this case. However,
+there is a hidden structure in for this one which is not obvious. Namely this
+quantity u ^2 over 2 + p it satisfies a maximum principle and you can leverage
+maximum principle and you can leverage that to scale invariant estimates to get
+that to scale invariant estimates to get full regularity. So existence of
+solutions with full regularity at least away from the boundary. So this was done
+in the 90s by in important works of Fresza and Rjichka and it also has
+Fresza and Rjichka and it also has relevance for the 3D Navier Stokes
+relevance for the 3D Navier Stokes equation because you can use uh their
+equation because you can use uh their idea to rule out self similar
+idea to rule out self similar singularities for Navier Stokes. So Lar
+singularities for Navier Stokes. So Lar tried to prove self similar
+tried to prove self similar singularities. Lar believed in uh in
+blow-ups and he tried to prove existence of self- similar singularities but you
+of self- similar singularities but you can rule them out based uh on this idea
+adapted to the axis symmetrical. I put out one more equation here just to show
+out one more equation here just to show that uh there is a lot of things we we
+that uh there is a lot of things we we don't know. Uh this is a 1D model
+don't know. Uh this is a 1D model equation. It's in one dimension
+fourth order uh and it has the same properties as Navier Stokes. Okay.
+Energy estimate scaling if you uh adjust it uh uh correctly. We can prove again
+it uh uh correctly. We can prove again partial regularity results for this the
+partial regularity results for this the same existence of LAROP solutions and so
+same existence of LAROP solutions and so on. But it is unknown even for this uh
+one-dimensional problem uh whether the equations uh are regular.
+So other another natural question for Nav Stokes equation is uh is this one.
+Nav Stokes equation is uh is this one. So we know how to do weak solutions.
+So we know how to do weak solutions. Okay, we can always produce weak
+Okay, we can always produce weak solutions.
+And if you have a parabolic equation or an elliptic equation, it's a good
+an elliptic equation, it's a good question whether all weak whether all
+question whether all weak whether all weak solutions are smooth. Right? So for
+system, linear Stoke system, you have the a version of the wild lema that any
+smooth. Is it true for Navier Stokes? So surprisingly this was open until 2017
+surprisingly this was open until 2017 when uh uh uh Tristan Buckmaster and
+when uh uh uh Tristan Buckmaster and Vlad Viko constructed a counter example
+Vlad Viko constructed a counter example by using uh uh the method of convex
+by using uh uh the method of convex integration which was brought to to this
+integration which was brought to to this fluid equation by Camilo Deellis and
+fluid equation by Camilo Deellis and Lazlo sheahidi
+and uh it's worth quoting from uh Groff's uh introduction.
+So he he writes there are systems of partial differential equations which
+have amazingly little visible effect on the functions solving the equation. To
+put it in another way, the solutions of such a system seem nearly unrestricted
+such a system seem nearly unrestricted by the equation they obey. So this is
+you can only you can only see that if you know how to construct these
+you know how to construct these solutions, right? It's a very difficult
+solutions, right? It's a very difficult to for example, the first example of
+to for example, the first example of this was uh in in the in the in the
+context of uh isometric embeddings and uh you would think that C1 isometric
+and uh you would think that C1 isometric embeddings are rigid. It's known that C2
+embeddings are rigid. It's known that C2 embeddings are rigid and if you didn't
+didn't know anything about the problem I would probably predict that C1 will also
+would probably predict that C1 will also be rigid. It's just kind of a matter of
+be rigid. It's just kind of a matter of technical only when you see these
+technical only when you see these construction you realize they are not
+rigid. So the and it's so it's far from obvious and something like that is true
+obvious and something like that is true for Navier Stokes. So once you know how
+for Navier Stokes. So once you know how to do it you can see that Gromoff is
+right. Right. But it's it's hard to construct these uh these solutions.
+LAROP uh uniqueness of the LAROP solution. Unfortunately the answer there
+is also negative. So this was done uh uh with uh when we have the right hand side
+with uh when we have the right hand side in 20 2021
+in 20 2021 uh uh by this team and uh uh that this
+uh uh by this team and uh uh that this is a paper and pence uh paper and pencil
+uh then uh yesterday we had a talk in the in the uh PTE section where Tom
+the in the uh PTE section where Tom presented a computer assisted proof
+without the uh forcing. So the answer is no. Also uh if you if you don't have uh
+no. Also uh if you if you don't have uh don't have any closing using some
+don't have any closing using some earlier ideas on the on the subject and
+uh this the non-uniqueness looks kind of unfixable in the sense that you have uh
+unfixable in the sense that you have uh that you have sequences of smooth
+that you have sequences of smooth solutions which converge for any
+positive time in smooth norm to your solutions u and V the initial data
+solutions u and V the initial data converge in L2 and in fact slightly
+converge in L2 and in fact slightly better but you have essentially this
+better but you have essentially this picture right from the beginning the
+solution separate and one way to think about it is that in the in the uh energy
+about it is that in the in the uh energy space if you think about the energy
+space you simply cannot extend the solution operator from smooth functions
+solution operator from smooth functions to the energy space in three dimensions
+you can extend to L2 but not in dimension three. Uh and in dimension two
+dimension three. Uh and in dimension two there is a there is a uh kind of uh
+trace of that if you try to extend the solution operator to L2 minus epsilon
+you cannot do it. Okay. So L2 is right uh uh at the at the edge where you can
+uh uh at the at the edge where you can extend the operator in a continuous way.
+extend the operator in a continuous way. There is another paper and pencil proof
+There is another paper and pencil proof uh of this non-uniqueness effect in a
+uh of this non-uniqueness effect in a slightly different setting. Uh so you
+slightly different setting. Uh so you can other than using the the uh LAR
+method you can try to prove the existence of the Navier Stokes equation
+existence of the Navier Stokes equation by Picard's iteration just the usual way
+we we do ODE. So you invert the linear operator, write the equation as a as a
+operator, write the equation as a as a put the nonlinearity on the right hand
+put the nonlinearity on the right hand side, write the equation as a fixed
+point theorem uh and try to find the right spaces.
+right spaces. So th this goes back to Ozin in in 1910
+So th this goes back to Ozin in in 1910 and uh in 1980s Kato uh proved that this
+and uh in 1980s Kato uh proved that this works uh for the LP space for initial
+data LD that's the optimal space scale invariant space. So you see in dimension
+invariant space. So you see in dimension two there is a good match L2 energy
+two there is a good match L2 energy space and R2 in dimension three you
+space and R2 in dimension three you would need for this L3 which you don't
+have. However, if you do have L3 estimates, you can proofregulate.
+Now, the best space where you can push this method was uh uh uh determined by
+this method was uh uh uh determined by Cohen Tataru in uh in 2002 is the space
+minus one. It contains for example derivatives of bounded functions. And so
+derivatives of bounded functions. And so if you use picard's iteration in this
+if you use picard's iteration in this space using their estimates you can show
+space using their estimates you can show that there is global existence for small
+that there is global existence for small data uh in this space and uh kullesco
+data uh in this space and uh kullesco and palask very recently showed that the
+and palask very recently showed that the smallness is essential that if you don't
+smallness is essential that if you don't have if you are above a certain
+same picture that you have two solutions which separate right from the beginning
+which separate right from the beginning in this space. So that's another uh
+in this space. So that's another uh another kind of indication that you
+another kind of indication that you cannot uh it's not possible to extend
+cannot uh it's not possible to extend these solutions operator to to broader
+these solutions operator to to broader scheme than what is already contained in
+So these were kind of uh I would say disappointing news. You you can the
+disappointing news. You you can the equation does not uh uh give you uh any
+equation does not uh uh give you uh any relief so to speak. So what uh what are
+the what are the possibility possibilities for good news?
+possibilities for good news? So
+one possibility is the that of okay maybe we have singularities maybe we
+even have non-uniqueness but it is non- generic. Okay, so we know such examples
+generic. Okay, so we know such examples for example from minimal surfaces. We
+for example from minimal surfaces. We know that zero sets of polomials of
+know that zero sets of polomials of complex polomials are minimal surfaces.
+complex polomials are minimal surfaces. They can have uh complex singularities
+but it's non-generic right if you slightly perturb the coefficients of the
+slightly perturb the coefficients of the polomial the singularity goes away. So
+situation to to have singularity some equation has to be satisfied or so for
+equation has to be satisfied or so for the uh for the mean curvature equation
+for the evolution equation also you can have many singularities many of similar
+singularities and so on but only very few are stable most of them are unstable
+few are stable most of them are unstable there is a great program by calling and
+there is a great program by calling and minikosi to study that and there are
+minikosi to study that and there are similar effects for for the uh Ginsburg
+similar effects for for the uh Ginsburg Londo equation again many singularities
+Londo equation again many singularities subsimilar most of them are unstable as
+uh in the evolution in the set of evolution equation it is not known about
+evolution equation it is not known about any important equation that all the sing
+any important equation that all the sing that singularities exists but all of
+that singularities exists but all of them are unstable there are some toy
+models where this can be shown but uh but uh okay maybe Navier Stokes is is
+but uh okay maybe Navier Stokes is is one of the important equations where you
+one of the important equations where you can sit
+you can formulate it in a very nice way also in the language of stochastic
+also in the language of stochastic forcing. So let me illustrate this on
+forcing. So let me illustrate this on this very simple model by uh David
+this very simple model by uh David Herszog and Jonathan Mattingley.
+If you have let's let's look at the OD z^ squ in the complex plane. Okay. So
+z^ squ in the complex plane. Okay. So forget epsilon okay set epsilon is equal
+forget epsilon okay set epsilon is equal to zero at the moment. So then it blows
+up if you start at the positive you can compute everything explicitly of course
+compute everything explicitly of course it blows up if you start at the at the
+but if you start away from the positive axis it doesn't blow up it goes to zero
+axis it doesn't blow up it goes to zero okay so you can say generically the
+solution does not blow up if you add random forcing so I write epsilon v w is
+random forcing so I write epsilon v w is the uh brownian motion in the complex
+plane you can show that uh there is a unique invariant measure for the process
+unique invariant measure for the process for the process and almost surely the
+trajectories don't blow up. Okay. So that's uh that's uh uh another way of
+that's uh that's uh uh another way of saying that the the singularities are
+non gen are non-generic so to speak and uh you can uh hope maybe that something
+uh you can uh hope maybe that something similar could be true for Navier Stokes
+similar could be true for Navier Stokes right you in uh you force Navier Stokes
+with some uh uh random forcing in low for modes similar similar to here and In
+for modes similar similar to here and In dimension two there is a result of heron
+dimension two there is a result of heron mutatingly that you this produces unique
+mutatingly that you this produces unique invariant measures
+and uh one could for example hope maybe that there is a s there is a similar
+that there is a s there is a similar situation and this as in this herzog
+mattingly model that in fact you can also do it in 3D despite uh uh possible
+also do it in 3D despite uh uh possible singularities if they would non-generic
+singularities if they would non-generic maybe this could still go through.
+maybe this could still go through. Okay, let's uh there were also there are
+Okay, let's uh there were also there are also many important results for the uh
+oiler equation which I would uh which I would like to discuss.
+would like to discuss. So you can you can view oiler equation
+So you can you can view oiler equation in several ways. It comes up very
+in several ways. It comes up very naturally in the context of Navir
+naturally in the context of Navir Stokes. one it's of course of great
+Stokes. one it's of course of great interest just to consider the same Koshi
+interest just to consider the same Koshi problem for zero viscosity okay that's
+problem for zero viscosity okay that's uh and in that case it's quite
+uh and in that case it's quite remarkable how much regularity does the
+remarkable how much regularity does the d does incompressibility give you if you
+d does incompressibility give you if you remove incompressibility
+like in the in the second model equation I was you know the the simplified Navier
+I was you know the the simplified Navier stol like looking naive equation if
+stol like looking naive equation if viscosity is equal to zero, no problem.
+viscosity is equal to zero, no problem. You immediately see there are
+You immediately see there are singularities. But somehow the
+divergence free condition has an unexpectedly strong regularizing effect
+it seems. So the Koshi problem is interesting but uh it's also interesting
+interesting but uh it's also interesting to look at uh to look at this from the
+consider this forced Navier Stokes. So f can be say stochastic or some fixed
+force in very smooth and so on. And you in turbulence theory one considers the
+in turbulence theory one considers the situation when new goes to zero the the
+corresponds to very turbulent solution Reynolds number going to infinity and
+Reynolds number going to infinity and there is a standard picture in the
+there is a standard picture in the phenomenological turbulence theory uh of
+what is happening. So the forcing uh injects energy at low for air modes. Say
+injects energy at low for air modes. Say this K is the wave number uh the the the
+this K is the wave number uh the the the modulus of the wave number on the Taurus
+So you inject energy in the low modes. Then the non nonlinearity moves the
+energy between the modes to higher and higher modes. As you as you get to high
+becomes very effective and the energy is dissipated in high modes and in this
+dissipated in high modes and in this so-called inertial range uh you have
+so-called inertial range uh you have kind of transfer of or flux of energy
+kind of transfer of or flux of energy from low lower modes to higher modes and
+from low lower modes to higher modes and uh standards assumption which seems to
+uh standards assumption which seems to be correct is that what is going on in
+the dis in this inertia range it does not really much depend on where you do
+not really much depend on where you do your cutoff. Okay. So, so the the
+your cutoff. Okay. So, so the the solution here the objects here don't
+solution here the objects here don't really care about where you do the the
+So, from that point of view, you can take new to infinity and the picture
+take new to infinity and the picture here should still essentially remain the
+here should still essentially remain the same. So this is of course uh
+same. So this is of course uh heristics and from phenomenological
+theory we cannot far beyond what we can do. Uh but nevertheless it predicts some
+do. Uh but nevertheless it predicts some interesting solutions of the limiting
+interesting solutions of the limiting field U.
+So the prediction for the limiting field U is that it solves the oiler equation
+U is that it solves the oiler equation dissipates energy and roughly speaking
+dissipates energy and roughly speaking with some imprecision is one/3 helder
+with some imprecision is one/3 helder continues. Okay that comes up uh that
+continues. Okay that comes up uh that comes up uh from this phenomenological
+theory. So now you can ask okay we cannot do the the whole thing completely
+cannot do the the whole thing completely right uh we cannot analyze the limit of
+Navier Stokes but can we at least construct the solutions of oiler
+construct the solutions of oiler equations that have these properties
+equations that have these properties okay so that's a more limited goal which
+and uh there has been uh there has been tremendous success in uh in this uh
+tremendous success in uh in this uh program over over the the the last
+program over over the the the last years.
+uh and again it's related to this uh Gromoff paper on uh on soft uh
+Gromoff paper on uh on soft uh differential equations that somehow if
+differential equations that somehow if you know how then you can construct many
+constructions are very difficult right you have to know how to do it so the
+you have to know how to do it so the first uh work on that was uh due to
+first uh work on that was uh due to Vladimir Schffer who proved uh the
+Vladimir Schffer who proved uh the existence of uh the existence of
+existence of uh the existence of solutions with compact support with just
+and then Camilo Dealis and Lassel Sheekah they they connected it these
+questions to they brought this uh method of convex integration to to the picture
+of convex integration to to the picture and uh using that there is a string of
+uh papers where uh people were getting better and better results
+uh until uh the the the the best result now I think is uh is uh uh the this last
+now I think is uh is uh uh the this last paper here. uh uh ma uh Matthew Novak
+paper here. uh uh ma uh Matthew Novak discussed this in the in the PTE uh
+discussed this in the in the PTE uh workshop and essentially we can uh we
+workshop and essentially we can uh we can uh get very close to to this uh to
+this type of solutions. So how should one think about uh about
+uh these uh solutions? One way to think about it I think is is
+So we have these uh interesting physical solutions which you get from the
+turbulence which are predicted by the phenomenological turbulence theory.
+But it's uh it's very difficult to construct uh this type of solutions in
+construct uh this type of solutions in the class of strong solutions. Right? We
+the class of strong solutions. Right? We only have a quite a limited repertoire
+only have a quite a limited repertoire of solutions to get close to to which
+which get close to to this uh uh what we what we expect from the phenomenological
+what we expect from the phenomenological uh theory. One interesting very
+uh theory. One interesting very interesting example is our works on
+which are perturbations of uh uh perturbations of uh shear flows.
+perturbations of uh shear flows. Uh but uh in general it's very difficult
+to to get uh these solutions. If you approach it from the from the
+If you approach it from the from the side of weak solutions,
+you can construct if you know how by these difficult constructions, you can
+these difficult constructions, you can construct many solutions
+construct many solutions and uh you
+you you can try to uh approximate better and better the properties which we which
+and better the properties which we which we want from these solutions. So you can
+view this like inner approximation. You you can try to on the strong side to get
+to these uh physics physical solutions interesting physical solutions. On the
+interesting physical solutions. On the weak side you can try to get to them
+from the uh as kind of like outer approximation. Maybe they don't satisfy
+all the properties but the hope is that eventually you get close to and then uh
+eventually you get close to and then uh maybe they you you there'll be some
+maybe they you you there'll be some convergence from inside and from the
+convergence from inside and from the outside.
+now to the to the Koshi problem for the for the oiler equation. So there has
+for the oiler equation. So there has been also tremendous uh uh tremendous
+progra progress on the Koshi problem for the for the uh oiler equation. If you
+the for the uh oiler equation. If you like the millennium type problem for the
+koshi for the oiler equation where you have initial datim and you try to see if
+have initial datim and you try to see if uh there is a smooth solutions
+and uh there is an important computation uh by guo and Tom how from 2013
+uh by guo and Tom how from 2013 where they identified an important
+scenario which played an important uh role in in developments of uh this uh
+uh role in in developments of uh this uh of of the regularity questions here and
+of of the regularity questions here and the scenario is relatively simple.
+That's the that's the strength of the scenario that there were attempts to to
+scenario that there were attempts to to compute blowup solution of oiler before
+compute blowup solution of oiler before but they were all much more complicated
+but they were all much more complicated and very difficult to analyze. So this
+and very difficult to analyze. So this uh scenario it does need a boundary. So
+it's in a domain in boundary. Uh but it's it's relatively simple. You uh you
+it's it's relatively simple. You uh you in this picture uh you you assume that
+uh say this this part above the dotted line is like your cup of tea and you
+stir your fluid in this way and you imagine you have another cup of tea from
+imagine you have another cup of tea from symmetrically placed below where you
+symmetrically placed below where you stir your fluid in the opposite way and
+then uh this uh flow generates the so-called secondary flow uh which looks
+like that. If you look at the cross-section, the secondary flow does
+cross-section, the secondary flow does that. So originally you have only
+rotation but eventually you you have this secondary flow which looks like
+this secondary flow which looks like that. And uh then the boundary provides
+that. And uh then the boundary provides you with an important uh constraint. The
+you with an important uh constraint. The points which are at the boundary have to
+stay at the boundary and they move towards this point symmetrically towards
+this point. And the question is whether the the only thing which keeps them from
+the the only thing which keeps them from colliding is the pressure. And the and
+colliding is the pressure. And the and the thing is if if the pressure is
+sufficiently strong to keep them from colliding. So in dimension two if you
+colliding. So in dimension two if you don't have the three-dimensional
+structure in dimension two it turns out the pressure is just strong enough to
+the pressure is just strong enough to prevent blow up and you have global
+prevent blow up and you have global existence for uh for the uh equation.
+existence for uh for the uh equation. But in dimension three this extra
+freedom which you have here or this extra push which you get from this uh
+extra push which you get from this uh third dimension is enough to to produce
+third dimension is enough to to produce blow up. The blow up is of the form
+which does not help you for navier stokes the velocity stays bounded. So if
+stokes the velocity stays bounded. So if you add viscosity the the singularity
+you add viscosity the the singularity will go away.
+But for oiler we can say at least for the domains with boundaries
+I should have mentioned that there is now a computer assisted proof by Jia
+now a computer assisted proof by Jia Chen and Tom how that uh this
+Chen and Tom how that uh this singularity happens.
+So uh another important uh development was a work by Tarak Elgeni
+was a work by Tarak Elgeni who proved the existence of
+singularities for oiler in the regime where the equation in is well posed. So
+where the equation in is well posed. So you have C1 alpha data. So that means
+you have C1 alpha data. So that means every term in the oiler equation is
+every term in the oiler equation is helder continuous. Okay. So, so this is
+helder continuous. Okay. So, so this is considered well posedness and in that
+class uh taken proof in in this is in 2019 blow up. So again this uh in this
+2019 blow up. So again this uh in this form of uh the singularity uh
+singularity questions for oiler equation we have a we have a positive answer. The
+we have a we have a positive answer. The idea is was very surprising.
+idea is was very surprising. He constructed the solutions in the
+so-called uh in the class of axis symmetric solution with no swirl where
+symmetric solution with no swirl where you have smooth solutions globally
+existing smooth solutions for smooth data because for smooth data so so for
+data because for smooth data so so for that equation it is known that this
+that equation it is known that this quantity moves with the flow so it's
+quantity moves with the flow so it's conserved omega omega is the vorticity
+conserved omega omega is the vorticity component here and this gives you
+component here and this gives you regularity for for smooth solutions But
+regularity for for smooth solutions But if the initial vorticity is only C1
+alpha, the quantity can go to infinity as you as you approach the the Z-axis
+and then the flow can bring particles from the Z-axis further into the into
+the flow into the into the body and you can leverage that. It's not easy. It's
+can leverage that. It's not easy. It's it's it's very difficult. Uh you can
+it's it's very difficult. Uh you can leverage that to to to get a
+singularity. So in in the end one ends up with a subsimilar singularity where
+up with a subsimilar singularity where vorticity is of class C alpha.
+Another uh interesting development uh uh uh Kavi Gomez Serrano talked about it
+the singularities uh discovered by Gualu and Tom How they come so they discovered
+and Tom How they come so they discovered a singularity but it is often the case
+a singularity but it is often the case for example for burgers equation
+nonlinear shreddinger equation and so on in many equations which have self-
+in many equations which have self- similar blowup that these self- similar
+similar blowup that these self- similar singularities they come in families okay
+singularities they come in families okay you have the stable then you have the
+next which is a bit unstable the next which is even more unstable and so on.
+which is even more unstable and so on. So they often come in in uh countable
+So they often come in in uh countable families. And so this team with uh Kavi
+mathematicians and deep mind they use uh uh they use neural nets to discover the
+uh they use neural nets to discover the higher singularities in the in the uh
+higher singularities in the in the uh Tomhau and Golo scenario and other
+Tomhau and Golo scenario and other equation. Another developments develop
+interesting development was that I mentioned that in 2D oiler the pressure
+mentioned that in 2D oiler the pressure is just enough to to prevent the
+is just enough to to prevent the regularity
+very narrowly. It almost blows up but just avoids uh the blow up in in this
+just avoids uh the blow up in in this scenario. So you can argue that if you
+scenario. So you can argue that if you change the biosavar law a little bit
+change the biosavar law a little bit which is the case for some important
+which is the case for some important equations in fluid mechanics right oiler
+equations in fluid mechanics right oiler equation has a certain relation between
+equation has a certain relation between vorticity and velocity and other
+important equation have another uh relation. So if oiler already is on the
+relation. So if oiler already is on the brink so to speak, you can argue if you
+brink so to speak, you can argue if you make the solution the biosavar law a
+make the solution the biosavar law a little bit less regularizing then you
+will have blow up and this is indeed the case as proved in this important paper.
+case as proved in this important paper. And then also earlier in the week, Diego
+Cordoba uh talked in the PDE uh uh workshop on another way to produce uh
+uh of the type that TK Elgen constructed this time uh with force.
+So all this again is essentially about singularity formation for oiler.
+about singularity formation for oiler. So do we have also news in the opposite
+direction? So there there are some important works which I which I would
+like to mention that uh that leverage in a novel way the dispersion in the oiler
+a novel way the dispersion in the oiler equation. So the oiler equation is very
+interesting interesting in that it and also Navier Stokes that in that it
+equation for example if you look at the oil 3D oiler equation you can find
+oil 3D oiler equation you can find inside nonlinear shreddinger okay the
+fully integraable nonlinear shreddinger equation sits inside the oiler equation
+equation sits inside the oiler equation if in some limiting regime
+if in some limiting regime Okay, you have uh various dispersive
+Okay, you have uh various dispersive equations which sit there inside Navier
+equations which sit there inside Navier Stokes. You also have many equations.
+You for example have the equation there for the curvature on the sphere. The the
+for the curvature on the sphere. The the equation of uh of uh conformal geometry
+of the sphere you have it inside Navier Stoke. So if you look at the if you look
+Stoke. So if you look at the if you look at the rotating fluids, you have inside
+them very interesting dispersive effects. And recently uh Yan Guo, Benois
+effects. And recently uh Yan Guo, Benois Pader and Claus Whitmer found a way to
+Pader and Claus Whitmer found a way to leverage this uh dispers dispersive
+leverage this uh dispers dispersive effect to produce global solutions of
+effect to produce global solutions of oiler in situations which uh were
+oiler in situations which uh were previously inaccessible and recently
+previously inaccessible and recently there is another generalization
+there is another generalization uh by by that by Ren and Kan to to the
+to the non-ymmetric situation. Okay. So, uh just to finish, let me let
+Okay. So, uh just to finish, let me let me finish with uh this slide. So, a
+history. Okay. So I think in the modern literature the first mention of the
+possibility of singularity formation is in a 1911 paper by Ozim where he where
+in a 1911 paper by Ozim where he where he constructs uh the solutions
+essentially by this uh Picard iteration is able to do it for a short time and in
+is able to do it for a short time and in a matter of fact he just states that we
+a matter of fact he just states that we don't know but it's conceivable able
+that uh for large data or larger time you can have singularity spontaneously
+forming in the fluid. Okay. Doesn't give his opinion on on whether or not this is
+his opinion on on whether or not this is true. Lar
+in 1934 he writes I have indicated a reason which makes me believe there are
+reason which makes me believe there are motions which become irregular in finite
+motions which become irregular in finite time. Unfortunately I have not uh been I
+time. Unfortunately I have not uh been I have not succeeded in creating an
+have not succeeded in creating an example of such a singularity. This was
+example of such a singularity. This was Larret and then Hop in uh 1951
+Larret and then Hop in uh 1951 wrote it is hard to believe that the
+wrote it is hard to believe that the initial value problem for the viscous
+initial value problem for the viscous fluid in dimension three could have more
+fluid in dimension three could have more than one solution and more work should
+than one solution and more work should be devoted to the study of the
+be devoted to the study of the uniqueness question. So we now know that
+uniqueness question. So we now know that at least in the energy class this is one
+does have non-uniqueness but of course if you go to a slightly more regular
+class it is still open if you have it and this is this graph represent my own
+and this is this graph represent my own personal uh impression of what the from
+personal uh impression of what the from reading the literature what the opinion
+reading the literature what the opinion in the community is about the regularity
+question. Okay. So I started here with Osin who was I think kind of agnostic
+then Lar he he kind of moved towards singularity and then uh at least that's
+singularity and then uh at least that's my impression maybe other people will
+my impression maybe other people will have a different impression. There was
+have a different impression. There was uh like in the second half of the last
+century there was like increasing uh opinion that the solutions are regular
+and for some reason now the the opinion is moving towards uh singularity. Okay.
+is moving towards uh singularity. Okay. So uh I venture to make a guess uh which
+uh the the most consistent with everything we know. Okay. So what do we
+know? We know we we never see singularities right in the numerical
+unless maybe if you really try hard some unstable situation and so on maybe we
+unstable situation and so on maybe we see something maybe can tell us
+see something maybe can tell us something about that. uh but generically
+something about that. uh but generically we don't see singularities
+yet nobody can prove regularity right and it's not that people would not try I
+and it's not that people would not try I mean all these uh mathematician nobody
+mean all these uh mathematician nobody can prove regularity so a consistent
+can prove regularity so a consistent conjecture would be that there are
+conjecture would be that there are singularities but they are all unstable
+singularities but they are all unstable so we don't see them okay that's all I
+want to say thank [Applause]

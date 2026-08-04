@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#fafbfc"/>
+  <text x="360" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#1a1a1a">Critical strip and critical line (schematic)</text>
+  <!-- axes -->
+  <line x1="80" y1="360" x2="680" y2="360" stroke="#333" stroke-width="1.5"/>
+  <line x1="200" y1="50" x2="200" y2="380" stroke="#333" stroke-width="1.5"/>
+  <text x="680" y="380" font-family="system-ui" font-size="12" fill="#333">Re(s)</text>
+  <text x="175" y="55" font-family="system-ui" font-size="12" fill="#333">Im(s)</text>
+  <!-- strip 0 to 1 -->
+  <rect x="200" y="70" width="200" height="290" fill="#e8f1fa" opacity="0.9"/>
+  <text x="300" y="100" text-anchor="middle" font-family="system-ui" font-size="12" fill="#004586">critical strip</text>
+  <text x="300" y="118" text-anchor="middle" font-family="system-ui" font-size="11" fill="#004586">0 &lt; Re(s) &lt; 1</text>
+  <!-- critical line -->
+  <line x1="300" y1="70" x2="300" y2="360" stroke="#c73e1d" stroke-width="2.5"/>
+  <text x="300" y="55" text-anchor="middle" font-family="system-ui" font-size="12" fill="#c73e1d" font-weight="600">Re(s) = 1/2</text>
+  <!-- zeros on line -->
+  <g fill="#c73e1d">
+    <circle cx="300" cy="140" r="5"/>
+    <circle cx="300" cy="175" r="5"/>
+    <circle cx="300" cy="210" r="5"/>
+    <circle cx="300" cy="250" r="5"/>
+    <circle cx="300" cy="285" r="5"/>
+    <circle cx="300" cy="320" r="5"/>
+  </g>
+  <!-- labels -->
+  <text x="200" y="395" text-anchor="middle" font-family="system-ui" font-size="11" fill="#333">0</text>
+  <text x="300" y="395" text-anchor="middle" font-family="system-ui" font-size="11" fill="#c73e1d">1/2</text>
+  <text x="400" y="395" text-anchor="middle" font-family="system-ui" font-size="11" fill="#333">1</text>
+  <text x="520" y="200" font-family="system-ui" font-size="13" fill="#333">RH: all non-trivial zeros</text>
+  <text x="520" y="220" font-family="system-ui" font-size="13" fill="#333">lie on the red line</text>
+  <text x="360" y="410" text-anchor="middle" font-family="system-ui" font-size="11" fill="#888">Schematic only — zeros not to scale.</text>
+</svg>

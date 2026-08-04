@@ -1,0 +1,1187 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 3.4,
+    "text": "[Translated by Grant Sanderson. Submit corrections at criblate.com] Today, you and I are going to get into divergence and curl."
+  },
+  {
+    "t_start": 5.82,
+    "t_end": 10.14,
+    "text": "To make sure we're all on the same page, let's begin by talking about vector fields."
+  },
+  {
+    "t_start": 10.76,
+    "t_end": 14.228,
+    "text": "Essentially a vector field is what you get if you associate each"
+  },
+  {
+    "t_start": 14.228,
+    "t_end": 17.48,
+    "text": "point in space with a vector, some magnitude and direction."
+  },
+  {
+    "t_start": 18.06,
+    "t_end": 21.986,
+    "text": "Maybe those vectors represent the velocities of particles of fluid at"
+  },
+  {
+    "t_start": 21.986,
+    "t_end": 25.911,
+    "text": "each point in space, or maybe they represent the force of gravity at"
+  },
+  {
+    "t_start": 25.911,
+    "t_end": 29.78,
+    "text": "many different points in space, or maybe a magnetic field strength."
+  },
+  {
+    "t_start": 30.68,
+    "t_end": 34.619,
+    "text": "Quick note on drawing these, often if you were to draw the vectors to scale,"
+  },
+  {
+    "t_start": 34.619,
+    "t_end": 37.677,
+    "text": "the longer ones end up just cluttering up the whole thing,"
+  },
+  {
+    "t_start": 37.677,
+    "t_end": 41.357,
+    "text": "so it's common to basically lie a little and artificially shorten ones"
+  },
+  {
+    "t_start": 41.357,
+    "t_end": 45.14,
+    "text": "that are too long, maybe using color to give some vague sense of length."
+  },
+  {
+    "t_start": 46.14,
+    "t_end": 49.78,
+    "text": "In principle, vector fields in physics might change over time."
+  },
+  {
+    "t_start": 50.14,
+    "t_end": 54.169,
+    "text": "In almost all real-world fluid flow, the velocities of particles in a given"
+  },
+  {
+    "t_start": 54.169,
+    "t_end": 58.36,
+    "text": "region of space will change over time in response to the surrounding context."
+  },
+  {
+    "t_start": 58.88,
+    "t_end": 61.74,
+    "text": "Wind is not a constant, it comes in gusts."
+  },
+  {
+    "t_start": 62.04,
+    "t_end": 66.52,
+    "text": "An electric field changes as the charged particles characterizing it move around."
+  },
+  {
+    "t_start": 67.54,
+    "t_end": 70.135,
+    "text": "But here we'll just be looking at static vector fields,"
+  },
+  {
+    "t_start": 70.135,
+    "t_end": 73.06,
+    "text": "which maybe you think of as describing a steady-state system."
+  },
+  {
+    "t_start": 73.96,
+    "t_end": 77.007,
+    "text": "Also, while such vectors could in principle be three-dimensional,"
+  },
+  {
+    "t_start": 77.007,
+    "t_end": 80.1,
+    "text": "or even higher, we're just going to be looking at two dimensions."
+  },
+  {
+    "t_start": 80.92,
+    "t_end": 84.653,
+    "text": "An important idea which regularly goes unsaid is that you can often"
+  },
+  {
+    "t_start": 84.653,
+    "t_end": 88.386,
+    "text": "understand a vector field which represents one physical phenomenon"
+  },
+  {
+    "t_start": 88.386,
+    "t_end": 92.62,
+    "text": "better by imagining what if it represented a different physical phenomenon."
+  },
+  {
+    "t_start": 93.36,
+    "t_end": 97.8,
+    "text": "What if these vectors describing gravitational force instead defined a fluid flow?"
+  },
+  {
+    "t_start": 98.24,
+    "t_end": 99.66,
+    "text": "What would that flow look like?"
+  },
+  {
+    "t_start": 100.04,
+    "t_end": 104.42,
+    "text": "And what can the properties of that flow tell us about the original gravitational force?"
+  },
+  {
+    "t_start": 105.04,
+    "t_end": 107.638,
+    "text": "And what if the vectors defining a fluid flow were thought"
+  },
+  {
+    "t_start": 107.638,
+    "t_end": 110.28,
+    "text": "of as describing the downhill direction of a certain hill?"
+  },
+  {
+    "t_start": 111.0,
+    "t_end": 112.36,
+    "text": "Does such a hill even exist?"
+  },
+  {
+    "t_start": 112.72,
+    "t_end": 115.78,
+    "text": "And if so, what does it tell us about the original flow?"
+  },
+  {
+    "t_start": 116.52,
+    "t_end": 118.84,
+    "text": "These sorts of questions can be surprisingly helpful."
+  },
+  {
+    "t_start": 119.24,
+    "t_end": 123.527,
+    "text": "For example, the ideas of divergence and curl are particularly viscerally understood"
+  },
+  {
+    "t_start": 123.527,
+    "t_end": 126.793,
+    "text": "when the vector field is thought of as representing fluid flow,"
+  },
+  {
+    "t_start": 126.793,
+    "t_end": 130.875,
+    "text": "even if the field you're looking at is really meant to describe something else,"
+  },
+  {
+    "t_start": 130.875,
+    "t_end": 132.1,
+    "text": "like an electric field."
+  },
+  {
+    "t_start": 135.52,
+    "t_end": 138.638,
+    "text": "Here, take a look at this vector field, and think of each"
+  },
+  {
+    "t_start": 138.638,
+    "t_end": 141.92,
+    "text": "vector as describing the velocity of a fluid at that point."
+  },
+  {
+    "t_start": 142.86,
+    "t_end": 147.22,
+    "text": "Notice that when you do this, that fluid behaves in a very strange, non-physical way."
+  },
+  {
+    "t_start": 147.96,
+    "t_end": 151.637,
+    "text": "Around some points, like these ones, the fluid seems to just spring into"
+  },
+  {
+    "t_start": 151.637,
+    "t_end": 155.16,
+    "text": "existence from nothingness, as if there's some kind of source there."
+  },
+  {
+    "t_start": 155.78,
+    "t_end": 158.217,
+    "text": "Some other points act more like sinks, where the"
+  },
+  {
+    "t_start": 158.217,
+    "t_end": 160.4,
+    "text": "fluid seems to disappear into nothingness."
+  },
+  {
+    "t_start": 161.12,
+    "t_end": 166.286,
+    "text": "The divergence of a vector field at a particular point of the plane tells you"
+  },
+  {
+    "t_start": 166.286,
+    "t_end": 171.72,
+    "text": "how much this imagined fluid tends to flow out of or into small regions near it."
+  },
+  {
+    "t_start": 172.26,
+    "t_end": 175.846,
+    "text": "For example, the divergence of our vector field evaluated at all"
+  },
+  {
+    "t_start": 175.846,
+    "t_end": 179.6,
+    "text": "of those points that act like sources will give a positive number."
+  },
+  {
+    "t_start": 181.18,
+    "t_end": 184.96,
+    "text": "And it doesn't just have to be that all of the fluid is flowing away from that point."
+  },
+  {
+    "t_start": 185.36,
+    "t_end": 189.467,
+    "text": "The divergence would also be positive if it was just that the fluid coming into"
+  },
+  {
+    "t_start": 189.467,
+    "t_end": 193.937,
+    "text": "it from one direction was slower than the flow coming out of it in another direction,"
+  },
+  {
+    "t_start": 193.937,
+    "t_end": 197.42,
+    "text": "since that would still insinuate a certain spontaneous generation."
+  },
+  {
+    "t_start": 200.08,
+    "t_end": 204.886,
+    "text": "Now on the flip side, if in a small region around a point there seems to be more fluid"
+  },
+  {
+    "t_start": 204.886,
+    "t_end": 209.86,
+    "text": "flowing into it than out of it, the divergence at that point would be a negative number."
+  },
+  {
+    "t_start": 212.58,
+    "t_end": 215.727,
+    "text": "Remember, this vector field is really a function that takes"
+  },
+  {
+    "t_start": 215.727,
+    "t_end": 218.98,
+    "text": "in 2-dimensional inputs and spits out 2-dimensional outputs."
+  },
+  {
+    "t_start": 224.1,
+    "t_end": 227.784,
+    "text": "The divergence of that vector field gives you a new function,"
+  },
+  {
+    "t_start": 227.784,
+    "t_end": 230.803,
+    "text": "one that takes in a single 2d point as its input,"
+  },
+  {
+    "t_start": 230.803,
+    "t_end": 234.608,
+    "text": "but its output depends on the behavior of the field in a small"
+  },
+  {
+    "t_start": 234.608,
+    "t_end": 236.54,
+    "text": "neighborhood around that point."
+  },
+  {
+    "t_start": 237.2,
+    "t_end": 241.589,
+    "text": "In this way it's analogous to a derivative, and that output is just a single number,"
+  },
+  {
+    "t_start": 241.589,
+    "t_end": 244.62,
+    "text": "measuring how much that point acts as a source or a sink."
+  },
+  {
+    "t_start": 245.28,
+    "t_end": 247.719,
+    "text": "I'm purposely delaying discussion of computations here,"
+  },
+  {
+    "t_start": 247.719,
+    "t_end": 250.38,
+    "text": "the understanding for what it represents is more important."
+  },
+  {
+    "t_start": 251.34,
+    "t_end": 254.387,
+    "text": "Notice, this means that for an actual physical fluid,"
+  },
+  {
+    "t_start": 254.387,
+    "t_end": 259.389,
+    "text": "like water rather than some imagined one used to illustrate an arbitrary vector field,"
+  },
+  {
+    "t_start": 259.389,
+    "t_end": 264.39,
+    "text": "then if that fluid is incompressible, the velocity vector field must have a divergence"
+  },
+  {
+    "t_start": 264.39,
+    "t_end": 265.54,
+    "text": "of zero everywhere."
+  },
+  {
+    "t_start": 266.2,
+    "t_end": 268.771,
+    "text": "That's an important constraint on what kinds of vector"
+  },
+  {
+    "t_start": 268.771,
+    "t_end": 271.2,
+    "text": "fields could solve real-world fluid flow problems."
+  },
+  {
+    "t_start": 272.38,
+    "t_end": 276.789,
+    "text": "For the curl at a given point, you also think about the fluid flow around it,"
+  },
+  {
+    "t_start": 276.789,
+    "t_end": 281.14,
+    "text": "but this time you ask how much that fluid tends to rotate around the point."
+  },
+  {
+    "t_start": 281.86,
+    "t_end": 285.299,
+    "text": "As in, if you were to drop a twig in the fluid at that point,"
+  },
+  {
+    "t_start": 285.299,
+    "t_end": 289.02,
+    "text": "somehow fixing its center in place, would it tend to spin around?"
+  },
+  {
+    "t_start": 289.98,
+    "t_end": 293.951,
+    "text": "Regions where that rotation is clockwise are said to have positive curl,"
+  },
+  {
+    "t_start": 293.951,
+    "t_end": 297.26,
+    "text": "and regions where it's counterclockwise have negative curl."
+  },
+  {
+    "t_start": 297.74,
+    "t_end": 300.494,
+    "text": "It doesn't have to be that all the vectors around the input are"
+  },
+  {
+    "t_start": 300.494,
+    "t_end": 303.38,
+    "text": "pointing counterclockwise, or all of them are pointing clockwise."
+  },
+  {
+    "t_start": 303.9,
+    "t_end": 309.327,
+    "text": "A point inside a region like this one, for example, would also have non-zero curl,"
+  },
+  {
+    "t_start": 309.327,
+    "t_end": 313.033,
+    "text": "since the flow is slow at the bottom, but quick up top,"
+  },
+  {
+    "t_start": 313.033,
+    "t_end": 315.68,
+    "text": "resulting in a net clockwise influence."
+  },
+  {
+    "t_start": 319.26,
+    "t_end": 322.301,
+    "text": "And really, true proper curl is a three-dimensional idea,"
+  },
+  {
+    "t_start": 322.301,
+    "t_end": 326.569,
+    "text": "one where you associate each point in 3D space with a new vector characterizing"
+  },
+  {
+    "t_start": 326.569,
+    "t_end": 330.41,
+    "text": "the rotation around that point, according to a certain right-hand rule,"
+  },
+  {
+    "t_start": 330.41,
+    "t_end": 334.784,
+    "text": "and I have plenty of content from my time at Khan Academy describing this in more"
+  },
+  {
+    "t_start": 334.784,
+    "t_end": 337.238,
+    "text": "detail if you want, but for our main purpose,"
+  },
+  {
+    "t_start": 337.238,
+    "t_end": 340.599,
+    "text": "I'll just be referring to the two-dimensional variant of curl,"
+  },
+  {
+    "t_start": 340.599,
+    "t_end": 345.24,
+    "text": "which associates each point in 2D space with a single number rather than a new vector."
+  },
+  {
+    "t_start": 347.9,
+    "t_end": 351.866,
+    "text": "As I said, even though these intuitions are given in the context of fluid flow,"
+  },
+  {
+    "t_start": 351.866,
+    "t_end": 355.38,
+    "text": "both of these ideas are significant for other sorts of vector fields."
+  },
+  {
+    "t_start": 355.98,
+    "t_end": 358.822,
+    "text": "One very important example is how electricity and"
+  },
+  {
+    "t_start": 358.822,
+    "t_end": 361.78,
+    "text": "magnetism are described by four special equations."
+  },
+  {
+    "t_start": 362.32,
+    "t_end": 364.885,
+    "text": "These are known as Maxwell's equations, and they're"
+  },
+  {
+    "t_start": 364.885,
+    "t_end": 367.3,
+    "text": "written in the language of divergence and curl."
+  },
+  {
+    "t_start": 367.9,
+    "t_end": 372.441,
+    "text": "This top one, for example, is Gauss's law, stating that the divergence of an"
+  },
+  {
+    "t_start": 372.441,
+    "t_end": 377.52,
+    "text": "electric field at a given point is proportional to the charge density at that point."
+  },
+  {
+    "t_start": 378.52,
+    "t_end": 382.884,
+    "text": "Unpacking the intuition for this, you might imagine positively charged regions"
+  },
+  {
+    "t_start": 382.884,
+    "t_end": 385.513,
+    "text": "as acting like sources of some imagined fluid,"
+  },
+  {
+    "t_start": 385.513,
+    "t_end": 389.15,
+    "text": "and negatively charged regions as being the sinks of that fluid,"
+  },
+  {
+    "t_start": 389.15,
+    "t_end": 392.283,
+    "text": "and throughout parts of space where there is no charge,"
+  },
+  {
+    "t_start": 392.283,
+    "t_end": 395.64,
+    "text": "the fluid would be flowing incompressibly, just like water."
+  },
+  {
+    "t_start": 396.48,
+    "t_end": 399.276,
+    "text": "Of course, there's not some literal electric fluid,"
+  },
+  {
+    "t_start": 399.276,
+    "t_end": 403.06,
+    "text": "but it's a very useful and pretty way to read an equation like this."
+  },
+  {
+    "t_start": 403.74,
+    "t_end": 407.706,
+    "text": "Similarly, another important equation is that the divergence of the"
+  },
+  {
+    "t_start": 407.706,
+    "t_end": 411.613,
+    "text": "magnetic field is zero everywhere, and you can understand that by"
+  },
+  {
+    "t_start": 411.613,
+    "t_end": 414.573,
+    "text": "saying that if the field represents a fluid flow,"
+  },
+  {
+    "t_start": 414.573,
+    "t_end": 418.48,
+    "text": "that fluid would be incompressible, with no sources and no sinks,"
+  },
+  {
+    "t_start": 418.48,
+    "t_end": 419.96,
+    "text": "it acts just like water."
+  },
+  {
+    "t_start": 420.74,
+    "t_end": 423.65,
+    "text": "This also has the interpretation that magnetic monopoles,"
+  },
+  {
+    "t_start": 423.65,
+    "t_end": 427.581,
+    "text": "something that acts just like a north or south end of a magnet in isolation,"
+  },
+  {
+    "t_start": 427.581,
+    "t_end": 431.41,
+    "text": "don't exist, there's nothing analogous to positive and negative charges in"
+  },
+  {
+    "t_start": 431.41,
+    "t_end": 432.38,
+    "text": "an electric field."
+  },
+  {
+    "t_start": 433.44,
+    "t_end": 436.961,
+    "text": "Likewise, the last two equations tell us that the way one of"
+  },
+  {
+    "t_start": 436.961,
+    "t_end": 440.54,
+    "text": "these fields changes depends on the curl of the other field."
+  },
+  {
+    "t_start": 441.32,
+    "t_end": 444.074,
+    "text": "And really, this is a purely three-dimensional idea,"
+  },
+  {
+    "t_start": 444.074,
+    "t_end": 447.622,
+    "text": "and a little outside of our main focus here, but the point is that"
+  },
+  {
+    "t_start": 447.622,
+    "t_end": 451.117,
+    "text": "divergence and curl arise in contexts that are unrelated to flow,"
+  },
+  {
+    "t_start": 451.117,
+    "t_end": 454.93,
+    "text": "and side note, the back and forth from these last two equations is what"
+  },
+  {
+    "t_start": 454.93,
+    "t_end": 456.36,
+    "text": "gives rise to light waves."
+  },
+  {
+    "t_start": 457.52,
+    "t_end": 460.378,
+    "text": "And quite often, these ideas are useful in contexts"
+  },
+  {
+    "t_start": 460.378,
+    "t_end": 463.18,
+    "text": "which don't even seem spatial in nature at first."
+  },
+  {
+    "t_start": 464.0,
+    "t_end": 467.885,
+    "text": "To take a classic example that students of differential equations often study,"
+  },
+  {
+    "t_start": 467.885,
+    "t_end": 471.97,
+    "text": "let's say that you wanted to track the population sizes of two different species,"
+  },
+  {
+    "t_start": 471.97,
+    "t_end": 474.46,
+    "text": "where maybe one of them is a predator of another."
+  },
+  {
+    "t_start": 475.22,
+    "t_end": 479.704,
+    "text": "The state of this system at a given time, meaning the two population sizes,"
+  },
+  {
+    "t_start": 479.704,
+    "t_end": 483.111,
+    "text": "could be thought of as a point in two-dimensional space,"
+  },
+  {
+    "t_start": 483.111,
+    "t_end": 486.22,
+    "text": "what you would call the phase space of this system."
+  },
+  {
+    "t_start": 486.9,
+    "t_end": 490.548,
+    "text": "For a given pair of population sizes, these populations may be inclined"
+  },
+  {
+    "t_start": 490.548,
+    "t_end": 494.094,
+    "text": "to change based on things like how reproductive are the two species,"
+  },
+  {
+    "t_start": 494.094,
+    "t_end": 497.28,
+    "text": "or just how much does one of them enjoy eating the other one."
+  },
+  {
+    "t_start": 499.2,
+    "t_end": 501.635,
+    "text": "These rates of change would typically be written"
+  },
+  {
+    "t_start": 501.635,
+    "t_end": 504.12,
+    "text": "analytically as a set of differential equations."
+  },
+  {
+    "t_start": 504.78,
+    "t_end": 507.513,
+    "text": "It's okay if you don't understand these particular equations,"
+  },
+  {
+    "t_start": 507.513,
+    "t_end": 510.2,
+    "text": "I'm just throwing them up for those of you who are curious,"
+  },
+  {
+    "t_start": 510.2,
+    "t_end": 513.56,
+    "text": "and because replacing variables with pictures makes me laugh a little bit."
+  },
+  {
+    "t_start": 514.3,
+    "t_end": 519.015,
+    "text": "But the relevance here is that a nice way to visualize what such a set of equations"
+  },
+  {
+    "t_start": 519.015,
+    "t_end": 524.071,
+    "text": "is really saying is to associate each point on the plane, each pair of population sizes,"
+  },
+  {
+    "t_start": 524.071,
+    "t_end": 527.82,
+    "text": "with a vector, indicating the rates of change for both variables."
+  },
+  {
+    "t_start": 528.66,
+    "t_end": 531.968,
+    "text": "For example, when there are lots of foxes, but relatively few rabbits,"
+  },
+  {
+    "t_start": 531.968,
+    "t_end": 539.482,
+    "text": "the number of foxes might tend to go down because of the constrained food supply,"
+  },
+  {
+    "t_start": 539.482,
+    "t_end": 543.64,
+    "text": "eaten by all of the foxes, potentially at a rate that's faster than they can reproduce."
+  },
+  {
+    "t_start": 544.44,
+    "t_end": 547.926,
+    "text": "So a given vector here is telling you how, and how quickly,"
+  },
+  {
+    "t_start": 547.926,
+    "t_end": 550.88,
+    "text": "a given pair of population sizes tends to change."
+  },
+  {
+    "t_start": 551.78,
+    "t_end": 555.848,
+    "text": "Notice, this is a case where the vector field is not about physical space,"
+  },
+  {
+    "t_start": 555.848,
+    "t_end": 560.576,
+    "text": "but instead it's a representation of a certain dynamic system that has two variables,"
+  },
+  {
+    "t_start": 560.576,
+    "t_end": 562.72,
+    "text": "and how that system evolves over time."
+  },
+  {
+    "t_start": 563.46,
+    "t_end": 565.98,
+    "text": "This can maybe also give a sense for why mathematicians"
+  },
+  {
+    "t_start": 565.98,
+    "t_end": 568.5,
+    "text": "care about studying the geometry of higher dimensions."
+  },
+  {
+    "t_start": 568.5,
+    "t_end": 571.32,
+    "text": "What if our system was tracking more than just two or three numbers?"
+  },
+  {
+    "t_start": 572.16,
+    "t_end": 575.967,
+    "text": "The flow associated with this field is called the phase flow for"
+  },
+  {
+    "t_start": 575.967,
+    "t_end": 579.536,
+    "text": "our differential equation, and it's a way to conceptualize,"
+  },
+  {
+    "t_start": 579.536,
+    "t_end": 583.76,
+    "text": "at a glance, how many possible starting states would evolve over time."
+  },
+  {
+    "t_start": 584.32,
+    "t_end": 588.78,
+    "text": "Operations like divergence and curl can help to inform you about the system."
+  },
+  {
+    "t_start": 589.34,
+    "t_end": 593.305,
+    "text": "Do the population sizes converge towards a particular pair of numbers,"
+  },
+  {
+    "t_start": 593.305,
+    "t_end": 596.08,
+    "text": "or are there some values they diverge away from?"
+  },
+  {
+    "t_start": 596.42,
+    "t_end": 600.64,
+    "text": "Are there cyclic patterns, and are those cycles stable or unstable?"
+  },
+  {
+    "t_start": 601.84,
+    "t_end": 605.744,
+    "text": "To be perfectly honest with you, for something like this you'd often want to bring"
+  },
+  {
+    "t_start": 605.744,
+    "t_end": 609.887,
+    "text": "in related tools beyond just divergence and curl, those would give you the full story,"
+  },
+  {
+    "t_start": 609.887,
+    "t_end": 613.743,
+    "text": "but the frame of mind that practice with these two ideas brings you carries over"
+  },
+  {
+    "t_start": 613.743,
+    "t_end": 617.6,
+    "text": "well to studying setups like this with similar pieces of mathematical machinery."
+  },
+  {
+    "t_start": 619.28,
+    "t_end": 621.471,
+    "text": "If you really want to get a handle on these ideas,"
+  },
+  {
+    "t_start": 621.471,
+    "t_end": 624.67,
+    "text": "you'd want to learn how to compute them and practice those computations,"
+  },
+  {
+    "t_start": 624.67,
+    "t_end": 628.22,
+    "text": "and I'll leave links to where you can learn about this and practice if you want."
+  },
+  {
+    "t_start": 628.68,
+    "t_end": 633.025,
+    "text": "Again, I did some videos and articles and worked examples for Khan Academy on this"
+  },
+  {
+    "t_start": 633.025,
+    "t_end": 637.74,
+    "text": "topic during my time there, so too much detail here will start to feel redundant for me."
+  },
+  {
+    "t_start": 637.98,
+    "t_end": 640.601,
+    "text": "But there is one thing worth bringing up, regarding"
+  },
+  {
+    "t_start": 640.601,
+    "t_end": 643.12,
+    "text": "the notation associated with these computations."
+  },
+  {
+    "t_start": 643.84,
+    "t_end": 648.521,
+    "text": "Commonly, the divergence is written as a dot product between this upside-down triangle"
+  },
+  {
+    "t_start": 648.521,
+    "t_end": 653.42,
+    "text": "thing and your vector field function, and the curl is written as a similar cross product."
+  },
+  {
+    "t_start": 654.22,
+    "t_end": 657.82,
+    "text": "Sometimes students are told that this is just a notational trick,"
+  },
+  {
+    "t_start": 657.82,
+    "t_end": 661.364,
+    "text": "each computation involves a certain sum of certain derivatives,"
+  },
+  {
+    "t_start": 661.364,
+    "t_end": 666.293,
+    "text": "and treating this upside-down triangle as if it was a vector of derivative operators can"
+  },
+  {
+    "t_start": 666.293,
+    "t_end": 668.84,
+    "text": "be a helpful way to keep everything straight."
+  },
+  {
+    "t_start": 669.62,
+    "t_end": 672.092,
+    "text": "But it is actually more than just a mnemonic device,"
+  },
+  {
+    "t_start": 672.092,
+    "t_end": 675.278,
+    "text": "there is a real connection between divergence and the dot product,"
+  },
+  {
+    "t_start": 675.278,
+    "t_end": 677.18,
+    "text": "and between curl and the cross product."
+  },
+  {
+    "t_start": 677.78,
+    "t_end": 680.969,
+    "text": "Even though we won't be doing practice computations here,"
+  },
+  {
+    "t_start": 680.969,
+    "t_end": 685.221,
+    "text": "I would like to give you at least some vague sense for how these four ideas"
+  },
+  {
+    "t_start": 685.221,
+    "t_end": 686.06,
+    "text": "are connected."
+  },
+  {
+    "t_start": 691.62,
+    "t_end": 695.8,
+    "text": "Imagine taking some small step from one point of your vector field to another."
+  },
+  {
+    "t_start": 696.58,
+    "t_end": 700.577,
+    "text": "The vector at this new point will likely be a little different from the one at"
+  },
+  {
+    "t_start": 700.577,
+    "t_end": 704.472,
+    "text": "the first point, there will be some change to the function after that step,"
+  },
+  {
+    "t_start": 704.472,
+    "t_end": 708.52,
+    "text": "which you might see by subtracting off your original vector from that new one."
+  },
+  {
+    "t_start": 709.0,
+    "t_end": 711.567,
+    "text": "And this kind of difference to your function over"
+  },
+  {
+    "t_start": 711.567,
+    "t_end": 714.5,
+    "text": "small steps is what differential calculus is all about."
+  },
+  {
+    "t_start": 715.5,
+    "t_end": 719.82,
+    "text": "The dot product gives you a measure of how aligned two vectors are, right?"
+  },
+  {
+    "t_start": 722.8,
+    "t_end": 727.632,
+    "text": "The dot product of your step vector with that difference vector it causes tends"
+  },
+  {
+    "t_start": 727.632,
+    "t_end": 732.28,
+    "text": "to be positive in regions where the divergence is positive, and vice versa."
+  },
+  {
+    "t_start": 732.94,
+    "t_end": 737.244,
+    "text": "In fact, in some sense, the divergence is a sort of average value for this"
+  },
+  {
+    "t_start": 737.244,
+    "t_end": 741.258,
+    "text": "dot product of a step with a change to the output it causes over all"
+  },
+  {
+    "t_start": 741.258,
+    "t_end": 745.62,
+    "text": "possible step directions, assuming that things are rescaled appropriately."
+  },
+  {
+    "t_start": 746.44,
+    "t_end": 751.814,
+    "text": "I mean, think about it, if a step in some direction causes a change to that vector in"
+  },
+  {
+    "t_start": 751.814,
+    "t_end": 756.239,
+    "text": "that same direction, this corresponds to a tendency for outward flow,"
+  },
+  {
+    "t_start": 756.239,
+    "t_end": 757.82,
+    "text": "for positive divergence."
+  },
+  {
+    "t_start": 758.56,
+    "t_end": 761.865,
+    "text": "And on the flip side, if those dot products tend to be negative,"
+  },
+  {
+    "t_start": 761.865,
+    "t_end": 765.635,
+    "text": "meaning the difference vector is pointing in the opposite direction from"
+  },
+  {
+    "t_start": 765.635,
+    "t_end": 770.18,
+    "text": "the step vector, that corresponds with a tendency for inward flow, negative divergence."
+  },
+  {
+    "t_start": 772.16,
+    "t_end": 777.247,
+    "text": "Similarly, remember that the cross product is a sort of measure for how perpendicular"
+  },
+  {
+    "t_start": 777.247,
+    "t_end": 782.333,
+    "text": "two vectors are, so the cross product of your step vector with the difference vector"
+  },
+  {
+    "t_start": 782.333,
+    "t_end": 787.48,
+    "text": "it causes tends to be positive in regions where the curl is positive, and vice versa."
+  },
+  {
+    "t_start": 788.1,
+    "t_end": 790.877,
+    "text": "You might think of the curl as a sort of average of"
+  },
+  {
+    "t_start": 790.877,
+    "t_end": 793.6,
+    "text": "this step vector difference vector cross product."
+  },
+  {
+    "t_start": 793.96,
+    "t_end": 798.884,
+    "text": "If a step in some direction corresponds to a change perpendicular to that step,"
+  },
+  {
+    "t_start": 798.884,
+    "t_end": 802.0,
+    "text": "that corresponds to a tendency for flow rotation."
+  },
+  {
+    "t_start": 808.62,
+    "t_end": 813.06,
+    "text": "So, typically this is the part where there might be some kind of sponsor message."
+  },
+  {
+    "t_start": 813.62,
+    "t_end": 817.487,
+    "text": "But one thing I want to do with the channel moving ahead is to stop doing sponsored"
+  },
+  {
+    "t_start": 817.487,
+    "t_end": 821.54,
+    "text": "content, and instead make things just about the direct relationship with the audience."
+  },
+  {
+    "t_start": 822.22,
+    "t_end": 824.852,
+    "text": "I mean that not only in the sense of the funding model,"
+  },
+  {
+    "t_start": 824.852,
+    "t_end": 828.92,
+    "text": "with direct support through Patreon, but also in the sense that I think these videos"
+  },
+  {
+    "t_start": 828.92,
+    "t_end": 832.94,
+    "text": "can better accomplish their goal if each one of them feels like it's just about you"
+  },
+  {
+    "t_start": 832.94,
+    "t_end": 835.62,
+    "text": "and me sharing in a love of math, with no other motive,"
+  },
+  {
+    "t_start": 835.62,
+    "t_end": 838.3,
+    "text": "especially in the cases where the viewers are students."
+  },
+  {
+    "t_start": 839.02,
+    "t_end": 842.42,
+    "text": "There are some other reasons, and I wrote up some of my full thoughts on this over on"
+  },
+  {
+    "t_start": 842.42,
+    "t_end": 845.1,
+    "text": "Patreon, which you certainly don't have to be a supporter to read,"
+  },
+  {
+    "t_start": 845.1,
+    "t_end": 846.22,
+    "text": "that's just where it lives."
+  },
+  {
+    "t_start": 846.78,
+    "t_end": 850.643,
+    "text": "I think advertising on the internet occupies a super wide spectrum,"
+  },
+  {
+    "t_start": 850.643,
+    "t_end": 855.66,
+    "text": "from truly degenerate clickbait up to genuinely well-aligned win-win-win partnerships."
+  },
+  {
+    "t_start": 856.46,
+    "t_end": 858.829,
+    "text": "I've always taken care only to do promotions for"
+  },
+  {
+    "t_start": 858.829,
+    "t_end": 861.0,
+    "text": "companies that I would genuinely recommend."
+  },
+  {
+    "t_start": 861.62,
+    "t_end": 865.366,
+    "text": "To take one example, you may have noticed that I did a number of promos for Brilliant,"
+  },
+  {
+    "t_start": 865.366,
+    "t_end": 867.98,
+    "text": "and it's really hard to imagine better alignment than that."
+  },
+  {
+    "t_start": 868.8,
+    "t_end": 871.192,
+    "text": "I try to inspire people to be interested in math,"
+  },
+  {
+    "t_start": 871.192,
+    "t_end": 873.925,
+    "text": "but I'm also a firm believer that videos aren't enough,"
+  },
+  {
+    "t_start": 873.925,
+    "t_end": 878.22,
+    "text": "that you need to actively solve problems, and here's a platform that provides practice."
+  },
+  {
+    "t_start": 878.76,
+    "t_end": 882.48,
+    "text": "And likewise for any others I've promoted too, I always make sure to feel good alignment."
+  },
+  {
+    "t_start": 882.48,
+    "t_end": 886.203,
+    "text": "But even still, even if you seek out the best possible partnerships,"
+  },
+  {
+    "t_start": 886.203,
+    "t_end": 889.543,
+    "text": "whenever advertising is in the equation, the incentives will"
+  },
+  {
+    "t_start": 889.543,
+    "t_end": 892.5,
+    "text": "always be to try reaching as many people as possible."
+  },
+  {
+    "t_start": 893.1,
+    "t_end": 897.027,
+    "text": "But when the model is more exclusively about a direct relationship with the audience,"
+  },
+  {
+    "t_start": 897.027,
+    "t_end": 899.753,
+    "text": "the incentives are pointed towards maximizing how valuable"
+  },
+  {
+    "t_start": 899.753,
+    "t_end": 901.74,
+    "text": "people find the experiences they're given."
+  },
+  {
+    "t_start": 902.44,
+    "t_end": 905.84,
+    "text": "I think those two goals are correlated, but not always perfectly."
+  },
+  {
+    "t_start": 906.44,
+    "t_end": 909.287,
+    "text": "I like to think that I'll always try to maximize the value of the"
+  },
+  {
+    "t_start": 909.287,
+    "t_end": 912.266,
+    "text": "experience no matter what, but for that matter I also like to think"
+  },
+  {
+    "t_start": 912.266,
+    "t_end": 915.42,
+    "text": "that I can consistently wake up early and resist eating too much sugar."
+  },
+  {
+    "t_start": 916.0,
+    "t_end": 918.96,
+    "text": "What matters more than wanting something is to actually align incentives."
+  },
+  {
+    "t_start": 920.0,
+    "t_end": 922.8,
+    "text": "Anyway, if you want to hear more of my thoughts, I'll link to the Patreon post."
+  },
+  {
+    "t_start": 923.36,
+    "t_end": 926.093,
+    "text": "And thank you again to existing supporters for making this possible,"
+  },
+  {
+    "t_start": 926.093,
+    "t_end": 927.42,
+    "text": "and I'll see you all next video."
+  }
+]

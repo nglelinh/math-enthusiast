@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ku_video_g_IaVepNDT4_1",
+    "t_start": 1.7,
+    "t_end": 95.3,
+    "type": "overview",
+    "summary": "A classical computer performs operations using classical bits, which can be either zero or one. Now in contrast, a quantum computer users quantum bits or qubits. And they can be both zero and one at the same time. And it is this that gives a quantum computer its superior computing power. There are a number of physical objects that can be used as a qubit. A single photon, a nucleus or an electron. I met up with researchers who were using the outermost electron in phosphorous as a qubit. But how does that work? Well, all electrons have magnetic fields, so they are basically like tiny bar magn…"
+  },
+  {
+    "id": "ku_video_g_IaVepNDT4_95",
+    "t_start": 95.3,
+    "t_end": 187.9,
+    "type": "overview",
+    "summary": "Now when you measure the spin it will be either up or down. But before you measure it, the electron can exist in what is called a quantum super position, where these coefficients indicate the relative probability of finding the electron in one state or the other. Now it is hard to imagine how this enables this incredible computing power of quantum computers without considering two interacting quantum bits. &gt;&gt; Hello. &gt;&gt; Hi. Now there are four possible states of these two electrons. &gt;&gt; You could think that, well, that is just like two bits of a classical computer, right? If …"
+  },
+  {
+    "id": "ku_video_g_IaVepNDT4_187",
+    "t_start": 187.9,
+    "t_end": 281.4,
+    "type": "overview",
+    "summary": "So this is how you understand why two qubits actually contain four bits of information. I need to give you four numbers to tell you the state of this system, whereas here I only need two. Now if we make three spins, we would have eight different states and it could give you eight different numbers to define the state of those three spins, whereas classical it is just three bits. If you keep going, what you find is that the amount of equivalent classical information contained by N qubits is two to the power N classical bits. And, of course, the power of exponentials tells you that once you h…"
+  },
+  {
+    "id": "ku_video_g_IaVepNDT4_281",
+    "t_start": 281.4,
+    "t_end": 375.2,
+    "type": "overview",
+    "summary": "a super position. You can only measure one of these basis states. &gt;&gt; Like down, down, up, up. &gt;&gt; Yeah. So what you want is to design the logical operations that you need to get to the final computational result in such a way that the final result is something you are able to measure, just a unique state. &gt;&gt; That is not trivial. And it is essentially ... I am kind of stretching things, but I guess it is to some degree the reason why quantum computers are not a replacement of classical computers. &gt;&gt; No, they are not. They are not universally faster. They are only faste…"
+  },
+  {
+    "id": "ku_video_g_IaVepNDT4_375",
+    "t_start": 375.2,
+    "t_end": 406.2,
+    "type": "overview",
+    "summary": "small. So the improvement is not in the speed of the individual operation. It is in the total number of operations you need to arrive at the result. But that is only the case in particular types of calculations, particular algorithms. It is not universally, which is why it is not a replacement of a classical computer."
+  }
+]

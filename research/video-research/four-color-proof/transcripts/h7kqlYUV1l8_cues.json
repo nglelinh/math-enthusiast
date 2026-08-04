@@ -1,0 +1,757 @@
+[
+  {
+    "t_start": 1.14,
+    "t_end": 2.34,
+    "text": "What do sudoku games,"
+  },
+  {
+    "t_start": 2.58,
+    "t_end": 3.841,
+    "text": "wedding seating plans,"
+  },
+  {
+    "t_start": 3.841,
+    "t_end": 7.265,
+    "text": "and assigning frequencies to radio stations all have in common."
+  },
+  {
+    "t_start": 7.265,
+    "t_end": 10.68,
+    "text": "They are all related to a well-known math problem,"
+  },
+  {
+    "t_start": 10.71,
+    "t_end": 12.03,
+    "text": "connected to maps."
+  },
+  {
+    "t_start": 12.6,
+    "t_end": 16.53,
+    "text": "A proof of this problem was the very first that relied heavily on a computer."
+  },
+  {
+    "t_start": 16.83,
+    "t_end": 22.013,
+    "text": "This breakthrough had a huge impact on the fields of mathematics and computer science."
+  },
+  {
+    "t_start": 22.41,
+    "t_end": 26.46,
+    "text": "But it also ignited decades of debate about the nature of mathematical proofs,"
+  },
+  {
+    "t_start": 26.67,
+    "t_end": 31.29,
+    "text": "the role of computers in the field, and what it means to be a mathematician."
+  },
+  {
+    "t_start": 33.06,
+    "t_end": 36.3,
+    "text": "The long and winding journey started with a simple question."
+  },
+  {
+    "t_start": 37.59,
+    "t_end": 40.62,
+    "text": "Imagine you had a blank map and you're a cartographer,"
+  },
+  {
+    "t_start": 40.62,
+    "t_end": 42.24,
+    "text": "and you wanted to color the map."
+  },
+  {
+    "t_start": 42.54,
+    "t_end": 47.22,
+    "text": "So one thing that might be important is that each region have its own color and"
+  },
+  {
+    "t_start": 47.23,
+    "t_end": 50.61,
+    "text": "that no two regions that share a border are the same color."
+  },
+  {
+    "t_start": 51.12,
+    "t_end": 53.49,
+    "text": "And so the question is, how many colors will you need?"
+  },
+  {
+    "t_start": 54.21,
+    "t_end": 57.15,
+    "text": "It sounds like a simple question. How hard can it be?"
+  },
+  {
+    "t_start": 57.66,
+    "t_end": 59.85,
+    "text": "History surrounding it is, without a doubt."
+  },
+  {
+    "t_start": 59.85,
+    "t_end": 62.58,
+    "text": "One of my favorite episodes in the history of math."
+  },
+  {
+    "t_start": 62.76,
+    "t_end": 65.01,
+    "text": "One might think that this problem came from cartographers,"
+  },
+  {
+    "t_start": 65.01,
+    "t_end": 67.223,
+    "text": "but there's really no evidence that mapmakers"
+  },
+  {
+    "t_start": 67.223,
+    "t_end": 69.526,
+    "text": "have been trying to minimize the number of colors."
+  },
+  {
+    "t_start": 69.536,
+    "t_end": 72.42,
+    "text": "Um, this really came from mathematicians."
+  },
+  {
+    "t_start": 73.11,
+    "t_end": 78.09,
+    "text": "In 1852, Augustus de Morgan, a professor at University College London,"
+  },
+  {
+    "t_start": 78.36,
+    "t_end": 81.6,
+    "text": "brought up the map coloring problem in a letter to his friend and the"
+  },
+  {
+    "t_start": 81.61,
+    "t_end": 84.268,
+    "text": "mathematician, Sir William Rowan Hamilton."
+  },
+  {
+    "t_start": 84.268,
+    "t_end": 88.56,
+    "text": "It was De Morgan's former student, Francis Guthrie, who first posed the question."
+  },
+  {
+    "t_start": 89.07,
+    "t_end": 93.2,
+    "text": "Guthrie had discovered that he could shade in all the counties in the United Kingdom"
+  },
+  {
+    "t_start": 93.2,
+    "t_end": 94.2,
+    "text": "with only four colors."
+  },
+  {
+    "t_start": 94.92,
+    "t_end": 99.06,
+    "text": "He wondered if this was the case for all maps. Regardless of the shape, size,"
+  },
+  {
+    "t_start": 99.09,
+    "t_end": 100.08,
+    "text": "and complexity."
+  },
+  {
+    "t_start": 100.8,
+    "t_end": 104.82,
+    "text": "The simplicity of the Four Color Theorem, that only four colors are needed to"
+  },
+  {
+    "t_start": 104.83,
+    "t_end": 105.803,
+    "text": "color any map,"
+  },
+  {
+    "t_start": 105.803,
+    "t_end": 108.123,
+    "text": "tantalized mathematicians."
+  },
+  {
+    "t_start": 108.123,
+    "t_end": 111.507,
+    "text": "However, early attempts to prove it failed."
+  },
+  {
+    "t_start": 111.507,
+    "t_end": 117.69,
+    "text": "27 years later, the first widely accepted proof came from the British barrister, Alfred Kempe."
+  },
+  {
+    "t_start": 118.11,
+    "t_end": 122.07,
+    "text": "His proof tackled the problem by analyzing how countries connect to each other."
+  },
+  {
+    "t_start": 122.46,
+    "t_end": 126.0,
+    "text": "To understand how Kemp and other mathematicians looked at this problem,"
+  },
+  {
+    "t_start": 126.3,
+    "t_end": 129.3,
+    "text": "it helps to strip away all unnecessary information."
+  },
+  {
+    "t_start": 130.14,
+    "t_end": 133.89,
+    "text": "We can replace each state by a vertex, a single point."
+  },
+  {
+    "t_start": 134.07,
+    "t_end": 136.83,
+    "text": "And if two regions neighbor each other,"
+  },
+  {
+    "t_start": 137.07,
+    "t_end": 141.54,
+    "text": "we can draw a line segment between those two vertices."
+  },
+  {
+    "t_start": 141.54,
+    "t_end": 142.56,
+    "text": "That's called an edge."
+  },
+  {
+    "t_start": 142.62,
+    "t_end": 145.67,
+    "text": "And so we turn this from a map coloring problem"
+  },
+  {
+    "t_start": 145.67,
+    "t_end": 147.825,
+    "text": "into a graph coloring problem."
+  },
+  {
+    "t_start": 147.825,
+    "t_end": 152.64,
+    "text": "Can we color the graph with four or fewer colors so that neighboring vertices"
+  },
+  {
+    "t_start": 152.65,
+    "t_end": 153.75,
+    "text": "are not the same color?"
+  },
+  {
+    "t_start": 154.5,
+    "t_end": 157.14,
+    "text": "This field of math is known as graph theory,"
+  },
+  {
+    "t_start": 157.44,
+    "t_end": 161.01,
+    "text": "and it helps mathematicians study the relationships between objects."
+  },
+  {
+    "t_start": 161.46,
+    "t_end": 163.35,
+    "text": "Converting maps to planar graphs,"
+  },
+  {
+    "t_start": 163.5,
+    "t_end": 168.15,
+    "text": "graphs that can be drawn in a flat plane with no edges crossing makes the four"
+  },
+  {
+    "t_start": 168.15,
+    "t_end": 170.16,
+    "text": "color theorem easier to analyze."
+  },
+  {
+    "t_start": 171.03,
+    "t_end": 175.35,
+    "text": "It turns out that two maps of different sizes and shapes can be represented by"
+  },
+  {
+    "t_start": 175.36,
+    "t_end": 176.79,
+    "text": "equivalent planar graphs."
+  },
+  {
+    "t_start": 177.06,
+    "t_end": 181.0,
+    "text": "All that matters is how the regions are connected and related to one another."
+  },
+  {
+    "t_start": 181.3,
+    "t_end": 185.17,
+    "text": "Focusing on only the connections within the maps helped Kempe discover key"
+  },
+  {
+    "t_start": 185.17,
+    "t_end": 187.09,
+    "text": "features that all maps share."
+  },
+  {
+    "t_start": 187.93,
+    "t_end": 189.578,
+    "text": "Regardless of how complicated,"
+  },
+  {
+    "t_start": 189.578,
+    "t_end": 195.55,
+    "text": "all maps have, at least one region that has 0, 1, 2, 3, 4,"
+  },
+  {
+    "t_start": 195.61,
+    "t_end": 196.813,
+    "text": "or 5 neighbors."
+  },
+  {
+    "t_start": 196.813,
+    "t_end": 199.42,
+    "text": "This is known as an unavoidable set."
+  },
+  {
+    "t_start": 201.34,
+    "t_end": 203.77,
+    "text": "Once Kempe had identified an unavoidable set,"
+  },
+  {
+    "t_start": 204.04,
+    "t_end": 206.23,
+    "text": "he set out to prove the Four Color Theorem."
+  },
+  {
+    "t_start": 206.53,
+    "t_end": 209.53,
+    "text": "To understand a surprising step of his method, first,"
+  },
+  {
+    "t_start": 209.53,
+    "t_end": 211.45,
+    "text": "assume that the theorem is false."
+  },
+  {
+    "t_start": 211.72,
+    "t_end": 214.78,
+    "text": "Kemp's proof is elegant and clever."
+  },
+  {
+    "t_start": 215.14,
+    "t_end": 219.58,
+    "text": "Suppose we cannot color every map with four or fewer colors,"
+  },
+  {
+    "t_start": 219.67,
+    "t_end": 221.89,
+    "text": "then there must be a smallest such map."
+  },
+  {
+    "t_start": 222.31,
+    "t_end": 224.11,
+    "text": "If the Four Color Theorem is false,"
+  },
+  {
+    "t_start": 224.29,
+    "t_end": 227.32,
+    "text": "there must be a graph that requires at least five colors."
+  },
+  {
+    "t_start": 227.71,
+    "t_end": 230.08,
+    "text": "This is known as a minimal counter example."
+  },
+  {
+    "t_start": 230.62,
+    "t_end": 234.435,
+    "text": "Kemp wanted to show that he could color this graph with four colors."
+  },
+  {
+    "t_start": 234.435,
+    "t_end": 235.21,
+    "text": "If he could,"
+  },
+  {
+    "t_start": 235.48,
+    "t_end": 239.099,
+    "text": "then a minimal counter example must not exist in the first place."
+  },
+  {
+    "t_start": 239.099,
+    "t_end": 240.01,
+    "text": "First,"
+  },
+  {
+    "t_start": 240.13,
+    "t_end": 244.409,
+    "text": "he found one vertex in that graph that had five or fewer neighbors and removed it."
+  },
+  {
+    "t_start": 244.409,
+    "t_end": 250.046,
+    "text": "Then he colored the graph with only four colors because the graph is smaller than the minimal counter example."
+  },
+  {
+    "t_start": 250.046,
+    "t_end": 253.18,
+    "text": "Next, he put the removed vertex back in."
+  },
+  {
+    "t_start": 253.66,
+    "t_end": 256.27,
+    "text": "If its neighbors show three or fewer colors,"
+  },
+  {
+    "t_start": 256.48,
+    "t_end": 258.73,
+    "text": "there is a color remaining to color the vertex."
+  },
+  {
+    "t_start": 259.39,
+    "t_end": 262.93,
+    "text": "But if the neighbors have all four colors, then there is a problem."
+  },
+  {
+    "t_start": 263.47,
+    "t_end": 267.67,
+    "text": "Kempe then created a method for recoloring the graph to free up a color for the"
+  },
+  {
+    "t_start": 267.67,
+    "t_end": 268.635,
+    "text": "remaining vertex."
+  },
+  {
+    "t_start": 268.635,
+    "t_end": 272.14,
+    "text": "This allowed him to recolor it with four colors again."
+  },
+  {
+    "t_start": 272.5,
+    "t_end": 274.39,
+    "text": "This showed that a minimal counter example,"
+  },
+  {
+    "t_start": 274.63,
+    "t_end": 278.62,
+    "text": "the smallest possible graph that needs five colors doesn't exist."
+  },
+  {
+    "t_start": 278.86,
+    "t_end": 281.74,
+    "text": "That meant the Four Color Theorem must be true."
+  },
+  {
+    "t_start": 283.93,
+    "t_end": 287.506,
+    "text": "Unfortunately, 11 years later, an error was discovered."
+  },
+  {
+    "t_start": 287.506,
+    "t_end": 291.604,
+    "text": "Mathematician Percy Haewood found that Kempe's recoloring technique worked"
+  },
+  {
+    "t_start": 291.604,
+    "t_end": 296.5,
+    "text": "when the removed vertex had four or fewer neighbors, but not when it had five."
+  },
+  {
+    "t_start": 297.01,
+    "t_end": 298.99,
+    "text": "When you read Haewood's writing,"
+  },
+  {
+    "t_start": 299.05,
+    "t_end": 302.08,
+    "text": "you could tell he feels bad for having discovered this flaw."
+  },
+  {
+    "t_start": 302.38,
+    "t_end": 305.053,
+    "text": "So the theorem was a conjecture once again."
+  },
+  {
+    "t_start": 305.053,
+    "t_end": 310.06,
+    "text": "For the next half century, mathematicians continued trying to prove the four color theorem."
+  },
+  {
+    "t_start": 310.57,
+    "t_end": 314.62,
+    "text": "They soon realized that any solution would require a two-pronged approach."
+  },
+  {
+    "t_start": 315.16,
+    "t_end": 318.22,
+    "text": "First, they needed to expand Kemp's unavoidable set."
+  },
+  {
+    "t_start": 319.18,
+    "t_end": 323.35,
+    "text": "This is a collection of configurations that if you have any graph,"
+  },
+  {
+    "t_start": 323.44,
+    "t_end": 326.68,
+    "text": "then one of these configurations must appear in your graph."
+  },
+  {
+    "t_start": 327.04,
+    "t_end": 330.91,
+    "text": "The more they looked, the bigger and more complicated these sets became."
+  },
+  {
+    "t_start": 331.48,
+    "t_end": 335.08,
+    "text": "The second task was to prove that these configurations were reducible,"
+  },
+  {
+    "t_start": 335.56,
+    "t_end": 338.71,
+    "text": "meaning that if a graph contained one of these configurations,"
+  },
+  {
+    "t_start": 338.83,
+    "t_end": 341.53,
+    "text": "then it could be colored with four or fewer colors."
+  },
+  {
+    "t_start": 342.37,
+    "t_end": 347.05,
+    "text": "And proving that these configurations were reducible also was"
+  },
+  {
+    "t_start": 347.05,
+    "t_end": 347.92,
+    "text": "harder and harder."
+  },
+  {
+    "t_start": 348.61,
+    "t_end": 351.94,
+    "text": "Fortunately, by the end of the 1960s and early seventies,"
+  },
+  {
+    "t_start": 352.12,
+    "t_end": 354.79,
+    "text": "computers were becoming faster and more powerful,"
+  },
+  {
+    "t_start": 355.15,
+    "t_end": 357.43,
+    "text": "opening the door to new possibilities."
+  },
+  {
+    "t_start": 357.74,
+    "t_end": 360.26,
+    "text": "Mathematicians realized that some of this work,"
+  },
+  {
+    "t_start": 360.26,
+    "t_end": 363.89,
+    "text": "which was very tedious and time consuming to do by hand,"
+  },
+  {
+    "t_start": 364.16,
+    "t_end": 368.39,
+    "text": "might be able to be accomplished by the use of these new computers."
+  },
+  {
+    "t_start": 368.84,
+    "t_end": 369.57,
+    "text": "At this point,"
+  },
+  {
+    "t_start": 369.57,
+    "t_end": 373.4,
+    "text": "there were several teams trying to solve the Four Color Problem using computers"
+  },
+  {
+    "t_start": 374.18,
+    "t_end": 378.23,
+    "text": "At the University of Illinois. Wolfgang Haken, a well-known topologist,"
+  },
+  {
+    "t_start": 378.35,
+    "t_end": 381.26,
+    "text": "teamed up with Kenneth Appel, a mathematics professor,"
+  },
+  {
+    "t_start": 381.35,
+    "t_end": 386.063,
+    "text": "and one of the only people who knew how to use the university's new high-powered computers."
+  },
+  {
+    "t_start": 386.063,
+    "t_end": 391.97,
+    "text": "In 1976, after about six months of work and more than a thousand hours of computer"
+  },
+  {
+    "t_start": 392.07,
+    "t_end": 394.49,
+    "text": "time, they proved the Four Color Theorem."
+  },
+  {
+    "t_start": 395.12,
+    "t_end": 398.24,
+    "text": "Haken and Appel found an unavoidable set consisting of"
+  },
+  {
+    "t_start": 398.24,
+    "t_end": 401.93,
+    "text": "1,936 reducible configurations."
+  },
+  {
+    "t_start": 402.2,
+    "t_end": 405.23,
+    "text": "Every map has to have at least one of these configurations,"
+  },
+  {
+    "t_start": 405.62,
+    "t_end": 409.46,
+    "text": "and any map that does can be colored with four or fewer colors."
+  },
+  {
+    "t_start": 410.12,
+    "t_end": 415.603,
+    "text": "Far too many for any human or even team of humans to check by hand."
+  },
+  {
+    "t_start": 416.6,
+    "t_end": 420.628,
+    "text": "At the time, computers were primarily used to perform mathematical calculations"
+  },
+  {
+    "t_start": 420.628,
+    "t_end": 426.229,
+    "text": "and not for what was considered the human endeavor of solving proofs in theoretical mathematics."
+  },
+  {
+    "t_start": 426.229,
+    "t_end": 429.56,
+    "text": "As the first major computer assisted proof,"
+  },
+  {
+    "t_start": 429.71,
+    "t_end": 433.7,
+    "text": "the Four Color Theorem raised questions about what actually counts as a proof."
+  },
+  {
+    "t_start": 433.97,
+    "t_end": 437.78,
+    "text": "Some researchers even questioned the legitimacy of Appel and Hakens' method."
+  },
+  {
+    "t_start": 438.74,
+    "t_end": 443.24,
+    "text": "But if we put ourselves back in the mindset of 1970s mathematicians,"
+  },
+  {
+    "t_start": 443.27,
+    "t_end": 447.92,
+    "text": "this idea that one of the most famous unsolved problems in history"
+  },
+  {
+    "t_start": 448.07,
+    "t_end": 451.85,
+    "text": "was solved by over a thousand hours of computer time,"
+  },
+  {
+    "t_start": 452.03,
+    "t_end": 456.2,
+    "text": "that seems sort of anticlimactic or not playing by the rules,"
+  },
+  {
+    "t_start": 456.2,
+    "t_end": 458.72,
+    "text": "these unstated rules that mathematicians have."
+  },
+  {
+    "t_start": 459.41,
+    "t_end": 462.5,
+    "text": "Some people thought that if a human couldn't read it from end to end,"
+  },
+  {
+    "t_start": 462.77,
+    "t_end": 465.144,
+    "text": "then it wasn't a legitimate proof."
+  },
+  {
+    "t_start": 465.144,
+    "t_end": 468.874,
+    "text": "But as time progressed, the use of computers and theoretical mathematics"
+  },
+  {
+    "t_start": 468.874,
+    "t_end": 470.69,
+    "text": "became more accepted."
+  },
+  {
+    "t_start": 471.35,
+    "t_end": 472.7,
+    "text": "As a younger generation got older,"
+  },
+  {
+    "t_start": 472.7,
+    "t_end": 476.579,
+    "text": "this newfangled technology just became the way that we did math."
+  },
+  {
+    "t_start": 476.579,
+    "t_end": 480.08,
+    "text": "And uh, today we're much more comfortable with it than we were at that time."
+  },
+  {
+    "t_start": 480.65,
+    "t_end": 485.39,
+    "text": "Today, mathematicians often use computers to check proofs of theorems or even to"
+  },
+  {
+    "t_start": 485.4,
+    "t_end": 486.74,
+    "text": "generate proofs themselves."
+  },
+  {
+    "t_start": 487.25,
+    "t_end": 491.39,
+    "text": "This fruitful and continuing marriage of mathematics and computers all started"
+  },
+  {
+    "t_start": 491.4,
+    "t_end": 494.63,
+    "text": "with a seemingly simple question of how to color maps."
+  },
+  {
+    "t_start": 495.17,
+    "t_end": 498.26,
+    "text": "Through the study of this problem"
+  },
+  {
+    "t_start": 498.35,
+    "t_end": 501.59,
+    "text": "mathematics was created and advanced in so many ways."
+  },
+  {
+    "t_start": 501.8,
+    "t_end": 505.481,
+    "text": "This was one of the major drivers of the study of graph theory"
+  },
+  {
+    "t_start": 505.481,
+    "t_end": 507.373,
+    "text": "or network theory."
+  },
+  {
+    "t_start": 507.44,
+    "t_end": 510.2,
+    "text": "The ideas behind these theories are now ubiquitous."
+  },
+  {
+    "t_start": 510.44,
+    "t_end": 514.19,
+    "text": "We use graphs and networks to describe the way disease spreads and the way"
+  },
+  {
+    "t_start": 514.19,
+    "t_end": 515.9,
+    "text": "computer networks are connected."
+  },
+  {
+    "t_start": 516.32,
+    "t_end": 520.49,
+    "text": "While the four color theorem might seem like a mathematical curiosity,"
+  },
+  {
+    "t_start": 520.7,
+    "t_end": 524.15,
+    "text": "it really did push the boundaries of mathematics forward."
+  }
+]

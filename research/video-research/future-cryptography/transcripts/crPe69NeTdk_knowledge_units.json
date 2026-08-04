@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ku_video_crPe69NeTdk_7",
+    "t_start": 7.7,
+    "t_end": 99.8,
+    "type": "overview",
+    "summary": "- Hi, I am Graham Steel, Head of Product for Cyber here at SandboxAQ, and today I am joined by Deirdre Connolly. Hi. You worked in cryptography for a number of years. Is it fair to say you are an influencer in cryptography? - One could use that term, - We may say that. Okay, awesome. Fantastic. Well thanks so much for joining me here today. So can you help us to understand where are we right now in the process of post quantum cryptography, PQC standardization in particular by the NIST organization? - Yes. US based National Institutes of Standard and Technology are trying to set up formal st…"
+  },
+  {
+    "id": "ku_video_crPe69NeTdk_99",
+    "t_start": 99.8,
+    "t_end": 139.7,
+    "type": "overview",
+    "summary": "to be finalized this year. There are still some other KEMs that are being discussed, but that's gonna take a little bit longer. So we'll have ML-KEM ready to go this year so that you can start swapping out things that might've used things like Elliptic curve, Diffie-Hellman for something that might use this KEM based on lattices or some sort of hybrid. - Right, right, right. So that term KEM, just get that like totally down. Yeah. So it's KEM, correct. Key Encapsulation Mechanism. Yes. Awesome. So don't forget to, to subscribe to the SandboxAQ Channel, make sure you don't miss a video. We'r…"
+  }
+]

@@ -1,0 +1,1152 @@
+[
+  {
+    "t_start": 10.629,
+    "t_end": 13.19,
+    "text": "Do you want to talk about a fourcolor theorem a bit and computer proofs? Is"
+  },
+  {
+    "t_start": 13.19,
+    "t_end": 16.23,
+    "text": "theorem a bit and computer proofs? Is that something you've got opinions on?"
+  },
+  {
+    "t_start": 16.23,
+    "t_end": 16.87,
+    "text": "that something you've got opinions on? And"
+  },
+  {
+    "t_start": 16.87,
+    "t_end": 21.67,
+    "text": "&gt;&gt; maybe even the capitalist sphere packing conjecture. You were involved with a"
+  },
+  {
+    "t_start": 21.67,
+    "t_end": 23.83,
+    "text": "conjecture. You were involved with a proof of that. The fourcolor theorem was"
+  },
+  {
+    "t_start": 23.83,
+    "t_end": 26.31,
+    "text": "proof of that. The fourcolor theorem was the first time"
+  },
+  {
+    "t_start": 26.31,
+    "t_end": 31.429,
+    "text": "that such discussions arose &gt;&gt; although we'd run into it in group"
+  },
+  {
+    "t_start": 31.429,
+    "t_end": 31.91,
+    "text": "&gt;&gt; although we'd run into it in group theory."
+  },
+  {
+    "t_start": 31.91,
+    "t_end": 41.51,
+    "text": "&gt;&gt; Hacken and appel I almost uh spoonize those two names proved it um"
+  },
+  {
+    "t_start": 41.51,
+    "t_end": 42.549,
+    "text": "those two names proved it um uh jointly."
+  },
+  {
+    "t_start": 42.549,
+    "t_end": 46.63,
+    "text": "&gt;&gt; So they reduced the proof to an enormous calculation which they did by machine."
+  },
+  {
+    "t_start": 46.63,
+    "t_end": 48.15,
+    "text": "calculation which they did by machine. &gt;&gt; They interacted with the machine."
+  },
+  {
+    "t_start": 48.15,
+    "t_end": 54.549,
+    "text": "&gt;&gt; They interacted with the machine. Basically, you have a part of the proof"
+  },
+  {
+    "t_start": 54.549,
+    "t_end": 60.15,
+    "text": "that says any map, any sufficiently large map, uh, must contain one of these"
+  },
+  {
+    "t_start": 60.15,
+    "t_end": 68.07,
+    "text": "then for each of those configurations, you have a reducibility thing that you"
+  },
+  {
+    "t_start": 68.07,
+    "t_end": 73.59,
+    "text": "can color this map if and only if you can color a rather smaller one. um and"
+  },
+  {
+    "t_start": 73.59,
+    "t_end": 76.07,
+    "text": "can color a rather smaller one. um and that you know putting those two things"
+  },
+  {
+    "t_start": 76.07,
+    "t_end": 82.469,
+    "text": "together you prove that there can't be a minimal counter example that needs more"
+  },
+  {
+    "t_start": 82.469,
+    "t_end": 86.95,
+    "text": "minimal counter example that needs more than four colors. Um and what happened"
+  },
+  {
+    "t_start": 86.95,
+    "t_end": 89.99,
+    "text": "than four colors. Um and what happened with the original proof is"
+  },
+  {
+    "t_start": 89.99,
+    "t_end": 92.39,
+    "text": "with the original proof is that they generated this list of"
+  },
+  {
+    "t_start": 92.39,
+    "t_end": 95.429,
+    "text": "that they generated this list of configurations to be proved reducible by"
+  },
+  {
+    "t_start": 95.429,
+    "t_end": 96.95,
+    "text": "configurations to be proved reducible by hand."
+  },
+  {
+    "t_start": 96.95,
+    "t_end": 103.109,
+    "text": "Um and then uh the machine they had a machine program that tested"
+  },
+  {
+    "t_start": 103.109,
+    "t_end": 105.35,
+    "text": "machine program that tested reducability."
+  },
+  {
+    "t_start": 105.35,
+    "t_end": 110.95,
+    "text": "Now as soon as this came out there was a tremendous amount of"
+  },
+  {
+    "t_start": 110.95,
+    "t_end": 113.83,
+    "text": "there was a tremendous amount of discussion in things like the scientific"
+  },
+  {
+    "t_start": 113.83,
+    "t_end": 117.19,
+    "text": "discussion in things like the scientific American and the new scientist and you"
+  },
+  {
+    "t_start": 117.19,
+    "t_end": 119.03,
+    "text": "American and the new scientist and you know in mathematics departments all over"
+  },
+  {
+    "t_start": 119.03,
+    "t_end": 121.99,
+    "text": "know in mathematics departments all over the place and the discussion rather"
+  },
+  {
+    "t_start": 121.99,
+    "t_end": 126.95,
+    "text": "the place and the discussion rather missed the point. The discussion was can"
+  },
+  {
+    "t_start": 126.95,
+    "t_end": 131.35,
+    "text": "call it a proof &gt;&gt; if the machine did it or if it was only"
+  },
+  {
+    "t_start": 131.35,
+    "t_end": 136.39,
+    "text": "&gt;&gt; or if no human could ever check it. &gt;&gt; Yeah. Or no human can check it and so"
+  },
+  {
+    "t_start": 136.39,
+    "t_end": 137.35,
+    "text": "&gt;&gt; Yeah. Or no human can check it and so on."
+  },
+  {
+    "t_start": 137.35,
+    "t_end": 144.79,
+    "text": "&gt;&gt; Um is it really a proof? The real problem was with the let's call it the"
+  },
+  {
+    "t_start": 144.79,
+    "t_end": 147.11,
+    "text": "problem was with the let's call it the hand component. I mean or the human"
+  },
+  {
+    "t_start": 147.11,
+    "t_end": 150.15,
+    "text": "hand component. I mean or the human components is perhaps a better word. Um"
+  },
+  {
+    "t_start": 150.15,
+    "t_end": 153.11,
+    "text": "components is perhaps a better word. Um the human component was unreliable."
+  },
+  {
+    "t_start": 153.11,
+    "t_end": 157.19,
+    "text": "Even when they announced the proof, [snorts] they were still finding cases"
+  },
+  {
+    "t_start": 157.19,
+    "t_end": 160.63,
+    "text": "[snorts] they were still finding cases that they'd missed. Um,"
+  },
+  {
+    "t_start": 160.63,
+    "t_end": 167.03,
+    "text": "but uh what happened is if you if you missed a case, you put it"
+  },
+  {
+    "t_start": 167.03,
+    "t_end": 169.509,
+    "text": "if you if you missed a case, you put it into the machine and then either it"
+  },
+  {
+    "t_start": 169.509,
+    "t_end": 171.83,
+    "text": "into the machine and then either it proved it reducible or it didn't counter"
+  },
+  {
+    "t_start": 171.83,
+    "t_end": 175.35,
+    "text": "proved it reducible or it didn't counter example. But then uh after you suppose"
+  },
+  {
+    "t_start": 175.35,
+    "t_end": 180.229,
+    "text": "example. But then uh after you suppose it didn't then you sort of asked well"
+  },
+  {
+    "t_start": 180.229,
+    "t_end": 182.71,
+    "text": "what's what are the next two faces around here like that splits it into"
+  },
+  {
+    "t_start": 182.71,
+    "t_end": 184.79,
+    "text": "around here like that splits it into three or four sub cases and you put"
+  },
+  {
+    "t_start": 184.79,
+    "t_end": 186.47,
+    "text": "three or four sub cases and you put those into the machine and the machine"
+  },
+  {
+    "t_start": 186.47,
+    "t_end": 193.589,
+    "text": "would check that they were all reducible or maybe one of them wasn't but then you"
+  },
+  {
+    "t_start": 193.589,
+    "t_end": 196.229,
+    "text": "do it again and it really is and they had accumulated"
+  },
+  {
+    "t_start": 196.229,
+    "t_end": 203.509,
+    "text": "a sort of familiarity with what the machine did and they saw sort of knew"
+  },
+  {
+    "t_start": 203.509,
+    "t_end": 207.19,
+    "text": "machine did and they saw sort of knew that uh they were just essentially"
+  },
+  {
+    "t_start": 207.19,
+    "t_end": 210.149,
+    "text": "that uh they were just essentially there. You know, if whatever case you"
+  },
+  {
+    "t_start": 210.149,
+    "t_end": 212.71,
+    "text": "there. You know, if whatever case you handled, you could it was either"
+  },
+  {
+    "t_start": 212.71,
+    "t_end": 217.27,
+    "text": "reducible or could be split into a few cases which maybe one of them needed to"
+  },
+  {
+    "t_start": 217.27,
+    "t_end": 219.43,
+    "text": "cases which maybe one of them needed to be split a bit more. But in any case, in"
+  },
+  {
+    "t_start": 219.43,
+    "t_end": 222.309,
+    "text": "be split a bit more. But in any case, in the end, they were all reducible. and"
+  },
+  {
+    "t_start": 222.309,
+    "t_end": 231.11,
+    "text": "they uh made the mistake in my view of announcing the result when in fact they"
+  },
+  {
+    "t_start": 231.11,
+    "t_end": 233.19,
+    "text": "announcing the result when in fact they were still finding errors but they were"
+  },
+  {
+    "t_start": 233.19,
+    "t_end": 235.35,
+    "text": "were still finding errors but they were eventually cleared up. The sort of"
+  },
+  {
+    "t_start": 235.35,
+    "t_end": 238.07,
+    "text": "eventually cleared up. The sort of public discussion of this never centered"
+  },
+  {
+    "t_start": 238.07,
+    "t_end": 243.27,
+    "text": "public discussion of this never centered on that. I mean the problems were not"
+  },
+  {
+    "t_start": 243.27,
+    "t_end": 247.91,
+    "text": "the were with the human part. The human path turned out to be highly unreliable"
+  },
+  {
+    "t_start": 247.91,
+    "t_end": 250.149,
+    "text": "path turned out to be highly unreliable as anybody with any any experience of"
+  },
+  {
+    "t_start": 250.149,
+    "t_end": 252.309,
+    "text": "as anybody with any any experience of mathematical proofs could have told you."
+  },
+  {
+    "t_start": 252.309,
+    "t_end": 260.229,
+    "text": "mathematical proofs could have told you. You know there was a man whose name I"
+  },
+  {
+    "t_start": 260.229,
+    "t_end": 263.35,
+    "text": "think was all a l a i e who had almost finished a proof at the time that"
+  },
+  {
+    "t_start": 263.35,
+    "t_end": 268.79,
+    "text": "&gt;&gt; a similar machine based proof that hacken and apple uh published their"
+  },
+  {
+    "t_start": 268.79,
+    "t_end": 274.95,
+    "text": "proof and he came up with his proof uh about within the next six months or"
+  },
+  {
+    "t_start": 274.95,
+    "t_end": 278.23,
+    "text": "uh about within the next six months or so and the original proof had about"
+  },
+  {
+    "t_start": 278.23,
+    "t_end": 285.189,
+    "text": "so and the original proof had about 2,000 cases to the tree 1900 and"
+  },
+  {
+    "t_start": 285.189,
+    "t_end": 289.749,
+    "text": "something um allow poof was a bit smaller you know and then eventually"
+  },
+  {
+    "t_start": 289.749,
+    "t_end": 294.15,
+    "text": "smaller you know and then eventually my colleague um here Paul Seymour at"
+  },
+  {
+    "t_start": 294.15,
+    "t_end": 295.749,
+    "text": "my colleague um here Paul Seymour at Princeton"
+  },
+  {
+    "t_start": 295.749,
+    "t_end": 297.35,
+    "text": "Princeton um"
+  },
+  {
+    "t_start": 297.35,
+    "t_end": 302.95,
+    "text": "mechanized the case discussion part &gt;&gt; so there's no human involvement"
+  },
+  {
+    "t_start": 302.95,
+    "t_end": 307.59,
+    "text": "&gt;&gt; no human interaction at all so to speak &gt;&gt; whereas mathematicians wanted to take it"
+  },
+  {
+    "t_start": 307.59,
+    "t_end": 309.27,
+    "text": "&gt;&gt; whereas mathematicians wanted to take it the other way"
+  },
+  {
+    "t_start": 309.27,
+    "t_end": 313.83,
+    "text": "&gt;&gt; yes I mean by the way I had ideas still have about proving the fourcolor"
+  },
+  {
+    "t_start": 313.83,
+    "t_end": 318.95,
+    "text": "have about proving the fourcolor theorem. But um but anyway,"
+  },
+  {
+    "t_start": 318.95,
+    "t_end": 322.15,
+    "text": "theorem. But um but anyway, Seymour reduced it to 640 something"
+  },
+  {
+    "t_start": 322.15,
+    "t_end": 329.43,
+    "text": "Seymour reduced it to 640 something cases. Uh and um moreover that has been"
+  },
+  {
+    "t_start": 329.43,
+    "t_end": 332.79,
+    "text": "cases. Uh and um moreover that has been sort of handched because no hand checked"
+  },
+  {
+    "t_start": 332.79,
+    "t_end": 335.189,
+    "text": "sort of handched because no hand checked the case discussion part has been hand"
+  },
+  {
+    "t_start": 335.189,
+    "t_end": 338.31,
+    "text": "the case discussion part has been hand checked. The reducibility"
+  },
+  {
+    "t_start": 338.31,
+    "t_end": 344.95,
+    "text": "was never a problem. You know, uh there are several different things uh programs"
+  },
+  {
+    "t_start": 344.95,
+    "t_end": 347.27,
+    "text": "are several different things uh programs have been written to check reducibility"
+  },
+  {
+    "t_start": 347.27,
+    "t_end": 351.59,
+    "text": "have been written to check reducibility and you couldn't run it on any one of"
+  },
+  {
+    "t_start": 351.59,
+    "t_end": 352.79,
+    "text": "them and it says it's reducible and they're using slightly different"
+  },
+  {
+    "t_start": 352.79,
+    "t_end": 359.67,
+    "text": "methods. The case that I was involved in rather reluctantly, but I wasn't really"
+  },
+  {
+    "t_start": 359.67,
+    "t_end": 365.67,
+    "text": "rather reluctantly, but I wasn't really involved was when this perhaps I won't"
+  },
+  {
+    "t_start": 365.67,
+    "t_end": 367.749,
+    "text": "mention the name. I mean you were involved in hails"
+  },
+  {
+    "t_start": 367.749,
+    "t_end": 369.189,
+    "text": "involved in hails sphere packing conjecture."
+  },
+  {
+    "t_start": 369.189,
+    "t_end": 373.99,
+    "text": "&gt;&gt; Another mathematician claimed to have a proof of the Kepler conjecture how"
+  },
+  {
+    "t_start": 373.99,
+    "t_end": 376.39,
+    "text": "proof of the Kepler conjecture how densely you could pack"
+  },
+  {
+    "t_start": 376.39,
+    "t_end": 382.309,
+    "text": "and well perhaps the nicest thing to say is it wasn't a proof and the claim"
+  },
+  {
+    "t_start": 382.309,
+    "t_end": 385.35,
+    "text": "is it wasn't a proof and the claim didn't stand up. It took quite a a loss"
+  },
+  {
+    "t_start": 385.35,
+    "t_end": 388.71,
+    "text": "didn't stand up. It took quite a a loss of discussion to sort of verify that."
+  },
+  {
+    "t_start": 388.71,
+    "t_end": 391.67,
+    "text": "of discussion to sort of verify that. &gt;&gt; But that was not a computer proof. I"
+  },
+  {
+    "t_start": 391.67,
+    "t_end": 397.749,
+    "text": "&gt;&gt; computers weren't an issue. Hales and his student Ferguson"
+  },
+  {
+    "t_start": 397.749,
+    "t_end": 401.59,
+    "text": "his student Ferguson eventually produced a proof that the"
+  },
+  {
+    "t_start": 401.59,
+    "t_end": 408.79,
+    "text": "Um and um on the other hand it started off the same kind of discussion again uh"
+  },
+  {
+    "t_start": 408.79,
+    "t_end": 413.51,
+    "text": "off the same kind of discussion again uh because it involved heavy computation. I"
+  },
+  {
+    "t_start": 413.51,
+    "t_end": 415.189,
+    "text": "because it involved heavy computation. I had"
+  },
+  {
+    "t_start": 415.189,
+    "t_end": 421.909,
+    "text": "I think it was a heart attack and I was recuperating from it in Princeton"
+  },
+  {
+    "t_start": 421.909,
+    "t_end": 427.43,
+    "text": "and I heard what the analysts of mathematics was proposing to do about"
+  },
+  {
+    "t_start": 427.43,
+    "t_end": 429.67,
+    "text": "mathematics was proposing to do about this Hales proof."
+  },
+  {
+    "t_start": 429.67,
+    "t_end": 436.23,
+    "text": "Um and I was so upset by it that I telephoned the chairman of the editorial"
+  },
+  {
+    "t_start": 436.23,
+    "t_end": 438.87,
+    "text": "telephoned the chairman of the editorial committee and suggested I come and make"
+  },
+  {
+    "t_start": 438.87,
+    "t_end": 443.35,
+    "text": "a presentation to try and stop them doing this. And what were they proposing"
+  },
+  {
+    "t_start": 443.35,
+    "t_end": 443.83,
+    "text": "doing this. And what were they proposing to do?"
+  },
+  {
+    "t_start": 443.83,
+    "t_end": 450.629,
+    "text": "&gt;&gt; Well, what they were proposing to do, and it's what they in the end did, and I"
+  },
+  {
+    "t_start": 450.629,
+    "t_end": 452.39,
+    "text": "I'm still upset about it. They refereed Hails's"
+  },
+  {
+    "t_start": 452.39,
+    "t_end": 457.99,
+    "text": "proof. Well, the Hails Ferguson proof, we should always include Ferguson."
+  },
+  {
+    "t_start": 457.99,
+    "t_end": 461.83,
+    "text": "we should always include Ferguson. Uh in two separate parts."
+  },
+  {
+    "t_start": 461.83,
+    "t_end": 467.51,
+    "text": "Uh in two separate parts. Uh one was the sort of theoretical"
+  },
+  {
+    "t_start": 467.51,
+    "t_end": 474.95,
+    "text": "um which they sent to a team of essentially Eastern European refu uh"
+  },
+  {
+    "t_start": 474.95,
+    "t_end": 480.39,
+    "text": "essentially Eastern European refu uh mathematicians, referees who um"
+  },
+  {
+    "t_start": 480.39,
+    "t_end": 486.15,
+    "text": "were had been interested working on similar problems themselves and so on"
+  },
+  {
+    "t_start": 486.15,
+    "t_end": 488.95,
+    "text": "similar problems themselves and so on and they issued a normal referees"
+  },
+  {
+    "t_start": 488.95,
+    "t_end": 492.869,
+    "text": "and they issued a normal referees report. But then the computational part"
+  },
+  {
+    "t_start": 492.869,
+    "t_end": 498.15,
+    "text": "report. But then the computational part uh they didn't quite do that with and it"
+  },
+  {
+    "t_start": 498.15,
+    "t_end": 500.869,
+    "text": "was published in another place and so on. And unfortunately"
+  },
+  {
+    "t_start": 500.869,
+    "t_end": 506.79,
+    "text": "on. And unfortunately the editorial comment about this sort of"
+  },
+  {
+    "t_start": 506.79,
+    "t_end": 508.39,
+    "text": "the editorial comment about this sort of um"
+  },
+  {
+    "t_start": 508.39,
+    "t_end": 514.149,
+    "text": "well left a number of people with the impression that this computational part"
+  },
+  {
+    "t_start": 514.149,
+    "t_end": 515.75,
+    "text": "impression that this computational part was"
+  },
+  {
+    "t_start": 515.75,
+    "t_end": 521.509,
+    "text": "Well, I mean to say it's not checked gives you the impression that it might"
+  },
+  {
+    "t_start": 521.509,
+    "t_end": 528.389,
+    "text": "be wrong, you know. Um, which I think was very misleading because what Hails"
+  },
+  {
+    "t_start": 528.389,
+    "t_end": 533.59,
+    "text": "was very misleading because what Hails did was um, in my view set a new"
+  },
+  {
+    "t_start": 533.59,
+    "t_end": 536.87,
+    "text": "did was um, in my view set a new standard for these computer assisted"
+  },
+  {
+    "t_start": 536.87,
+    "t_end": 540.79,
+    "text": "standard for these computer assisted proofs. Uh you can"
+  },
+  {
+    "t_start": 540.79,
+    "t_end": 542.55,
+    "text": "proofs. Uh you can discover,"
+  },
+  {
+    "t_start": 542.55,
+    "t_end": 550.15,
+    "text": "you know, you can go to their website or something and you can ask for when this"
+  },
+  {
+    "t_start": 550.15,
+    "t_end": 552.87,
+    "text": "something and you can ask for when this particular part of the"
+  },
+  {
+    "t_start": 552.87,
+    "t_end": 559.91,
+    "text": "uh the proof was discussed, you know, and you'll you'll they'll say August the"
+  },
+  {
+    "t_start": 559.91,
+    "t_end": 566.23,
+    "text": "and you'll you'll they'll say August the 12th, 19 90 something. And then you can"
+  },
+  {
+    "t_start": 566.23,
+    "t_end": 568.23,
+    "text": "have a complete log of all the interactions between the people and the"
+  },
+  {
+    "t_start": 568.23,
+    "t_end": 576.07,
+    "text": "interactions between the people and the machine on that date. And it amounted to"
+  },
+  {
+    "t_start": 576.07,
+    "t_end": 581.91,
+    "text": "And they there were two suppose the inequality is for two functions of one"
+  },
+  {
+    "t_start": 581.91,
+    "t_end": 587.91,
+    "text": "inequality is for two functions of one variable. f is always less than or equal"
+  },
+  {
+    "t_start": 587.91,
+    "t_end": 590.55,
+    "text": "to g you know then uh you divide the interval up into a finite number of"
+  },
+  {
+    "t_start": 590.55,
+    "t_end": 592.31,
+    "text": "interval up into a finite number of regions"
+  },
+  {
+    "t_start": 592.31,
+    "t_end": 598.47,
+    "text": "and you check that the inequality holds at all the division points and then you"
+  },
+  {
+    "t_start": 598.47,
+    "t_end": 600.63,
+    "text": "at all the division points and then you have bounds for the derivatives of the"
+  },
+  {
+    "t_start": 600.63,
+    "t_end": 603.11,
+    "text": "have bounds for the derivatives of the function which it not only holds but it"
+  },
+  {
+    "t_start": 603.11,
+    "t_end": 607.75,
+    "text": "holds with something to spur and it can't vary by more than so and so and so"
+  },
+  {
+    "t_start": 607.75,
+    "t_end": 610.47,
+    "text": "can't vary by more than so and so and so it's true on each sub interval"
+  },
+  {
+    "t_start": 610.47,
+    "t_end": 615.59,
+    "text": "&gt;&gt; and um but Then it goes further than that. They carefully use interval"
+  },
+  {
+    "t_start": 615.59,
+    "t_end": 619.829,
+    "text": "that. They carefully use interval arithmetic. So you know they don't just"
+  },
+  {
+    "t_start": 619.829,
+    "t_end": 627.91,
+    "text": "&gt;&gt; so they avoid any roundoff error &gt;&gt; real numbers with uh you know possible"
+  },
+  {
+    "t_start": 627.91,
+    "t_end": 631.99,
+    "text": "error marks attached to them and so on. And um my god you know the precautions"
+  },
+  {
+    "t_start": 631.99,
+    "t_end": 635.99,
+    "text": "And um my god you know the precautions they took were absolutely fantastic and"
+  },
+  {
+    "t_start": 635.99,
+    "t_end": 638.15,
+    "text": "they took were absolutely fantastic and you can examine any particular piece of"
+  },
+  {
+    "t_start": 638.15,
+    "t_end": 640.069,
+    "text": "you can examine any particular piece of it you like."
+  },
+  {
+    "t_start": 640.069,
+    "t_end": 646.63,
+    "text": "And um in my view, the annals took a wrong view,"
+  },
+  {
+    "t_start": 646.63,
+    "t_end": 652.23,
+    "text": "which is remarkable since they're a good journal, you know, of um what the"
+  },
+  {
+    "t_start": 652.23,
+    "t_end": 655.91,
+    "text": "journal, you know, of um what the referee's job is. It's a pity because we"
+  },
+  {
+    "t_start": 655.91,
+    "t_end": 657.99,
+    "text": "referee's job is. It's a pity because we should be celebrating"
+  },
+  {
+    "t_start": 657.99,
+    "t_end": 662.79,
+    "text": "should be celebrating the setting of a new standard for proofs"
+  },
+  {
+    "t_start": 662.79,
+    "t_end": 665.75,
+    "text": "&gt;&gt; and it probably is going to become a bigger question."
+  },
+  {
+    "t_start": 665.75,
+    "t_end": 670.15,
+    "text": "&gt;&gt; I don't know if you were involved in any computer proofs. I mean certainly the"
+  },
+  {
+    "t_start": 670.15,
+    "t_end": 673.269,
+    "text": "computer proofs. I mean certainly the work on large sporadic groups involved a"
+  },
+  {
+    "t_start": 673.269,
+    "t_end": 674.79,
+    "text": "work on large sporadic groups involved a lot of computation."
+  },
+  {
+    "t_start": 674.79,
+    "t_end": 675.11,
+    "text": "lot of computation. &gt;&gt; Yes."
+  },
+  {
+    "t_start": 675.11,
+    "t_end": 678.069,
+    "text": "&gt;&gt; Yes. &gt;&gt; I [snorts] don't know if J4 was computer"
+  },
+  {
+    "t_start": 678.069,
+    "t_end": 683.91,
+    "text": "&gt;&gt; Yes. Uh J4 was an example. I was in a way involved in J4. Didn't do any"
+  },
+  {
+    "t_start": 683.91,
+    "t_end": 685.59,
+    "text": "way involved in J4. Didn't do any programming or anything but um"
+  },
+  {
+    "t_start": 685.59,
+    "t_end": 690.71,
+    "text": "&gt;&gt; you were one of the authors of a paper. &gt;&gt; It was a fairly big computation."
+  },
+  {
+    "t_start": 690.71,
+    "t_end": 693.829,
+    "text": "&gt;&gt; It was a fairly big computation. However, I don't think any, you know, in"
+  },
+  {
+    "t_start": 693.829,
+    "t_end": 701.67,
+    "text": "However, I don't think any, you know, in that case or in any of the similar cases"
+  },
+  {
+    "t_start": 701.67,
+    "t_end": 708.47,
+    "text": "that you know involve these big groups that there is really any of this sort of"
+  },
+  {
+    "t_start": 708.47,
+    "t_end": 709.75,
+    "text": "supposed difficulty involving the machine, you know,"
+  },
+  {
+    "t_start": 709.75,
+    "t_end": 714.15,
+    "text": "&gt;&gt; when no one caused any problem in group fy. It was clear what the machine was"
+  },
+  {
+    "t_start": 714.15,
+    "t_end": 715.67,
+    "text": "fy. It was clear what the machine was doing"
+  },
+  {
+    "t_start": 715.67,
+    "t_end": 722.63,
+    "text": "in every case I think and it was doing things where you could reasonably expect"
+  },
+  {
+    "t_start": 722.63,
+    "t_end": 729.43,
+    "text": "things where you could reasonably expect that it was getting them right. You know"
+  },
+  {
+    "t_start": 729.43,
+    "t_end": 732.31,
+    "text": "they were sort of after all suppose um in a mathematical paper somebody has"
+  },
+  {
+    "t_start": 732.31,
+    "t_end": 735.19,
+    "text": "in a mathematical paper somebody has occasion to refer to the product of two"
+  },
+  {
+    "t_start": 735.19,
+    "t_end": 738.629,
+    "text": "occasion to refer to the product of two five-digit numbers and nobody feels oh I"
+  },
+  {
+    "t_start": 738.629,
+    "t_end": 740.55,
+    "text": "five-digit numbers and nobody feels oh I have to get out my calculating machine"
+  },
+  {
+    "t_start": 740.55,
+    "t_end": 745.59,
+    "text": "or my thing and check that the product of these two five-digit integers is the"
+  },
+  {
+    "t_start": 745.59,
+    "t_end": 750.629,
+    "text": "other one. It was the use of a computer for either the fourc color theorem of it"
+  },
+  {
+    "t_start": 750.629,
+    "t_end": 752.79,
+    "text": "for either the fourc color theorem of it Kepler conjecture very different from"
+  },
+  {
+    "t_start": 752.79,
+    "t_end": 755.67,
+    "text": "Kepler conjecture very different from that the machine was doing fairly"
+  },
+  {
+    "t_start": 755.67,
+    "t_end": 757.509,
+    "text": "that the machine was doing fairly straightforward calculations"
+  },
+  {
+    "t_start": 757.509,
+    "t_end": 762.23,
+    "text": "&gt;&gt; yes that that's what I think in all these group theoretical things you know"
+  },
+  {
+    "t_start": 762.23,
+    "t_end": 766.949,
+    "text": "these group theoretical things you know with many of them the essential part was"
+  },
+  {
+    "t_start": 766.949,
+    "t_end": 772.31,
+    "text": "&gt;&gt; or a multiplication of matrices &gt;&gt; that's routine and if you don't believe"
+  },
+  {
+    "t_start": 772.31,
+    "t_end": 775.509,
+    "text": "&gt;&gt; that's routine and if you don't believe the answer to so so and so's enumeration"
+  },
+  {
+    "t_start": 775.509,
+    "t_end": 776.87,
+    "text": "the answer to so so and so's enumeration You can do it on somebody else's"
+  },
+  {
+    "t_start": 776.87,
+    "t_end": 777.75,
+    "text": "You can do it on somebody else's program,"
+  },
+  {
+    "t_start": 777.75,
+    "t_end": 781.03,
+    "text": "&gt;&gt; but you're still left with a machine doing it at the end."
+  },
+  {
+    "t_start": 781.03,
+    "t_end": 784.069,
+    "text": "doing it at the end. &gt;&gt; Yes, you certainly are. Um,"
+  },
+  {
+    "t_start": 784.069,
+    "t_end": 786.389,
+    "text": "&gt;&gt; Yes, you certainly are. Um, and um"
+  },
+  {
+    "t_start": 786.389,
+    "t_end": 792.629,
+    "text": "I feel a little bit unhappy about some of those things. Um"
+  },
+  {
+    "t_start": 792.629,
+    "t_end": 796.949,
+    "text": "of those things. Um I suppose, you know, since I've gone on"
+  },
+  {
+    "t_start": 796.949,
+    "t_end": 799.35,
+    "text": "about the monster, uh"
+  },
+  {
+    "t_start": 799.35,
+    "t_end": 805.59,
+    "text": "you know, I I'm unhappy with the computations involved there. Even though"
+  },
+  {
+    "t_start": 805.59,
+    "t_end": 810.31,
+    "text": "computations involved there. Even though you know in in my version of Grace's"
+  },
+  {
+    "t_start": 810.31,
+    "t_end": 811.19,
+    "text": "construction and I think in Grace's original construction"
+  },
+  {
+    "t_start": 811.19,
+    "t_end": 816.629,
+    "text": "&gt;&gt; his version he said the computation was so large he had to do it by hand instead"
+  },
+  {
+    "t_start": 816.629,
+    "t_end": 818.55,
+    "text": "so large he had to do it by hand instead of by machine is his quote."
+  },
+  {
+    "t_start": 818.55,
+    "t_end": 825.67,
+    "text": "&gt;&gt; Yes that's true. when you um you know I've had various plans for studying the"
+  },
+  {
+    "t_start": 825.67,
+    "t_end": 827.35,
+    "text": "I've had various plans for studying the monster"
+  },
+  {
+    "t_start": 827.35,
+    "t_end": 836.31,
+    "text": "and um a lot of them you will remember Len Sutter mutual friend um he proved a"
+  },
+  {
+    "t_start": 836.31,
+    "t_end": 838.71,
+    "text": "Len Sutter mutual friend um he proved a lot of things about the monster by co-et"
+  },
+  {
+    "t_start": 838.71,
+    "t_end": 840.389,
+    "text": "lot of things about the monster by co-et enumerations"
+  },
+  {
+    "t_start": 840.389,
+    "t_end": 846.31,
+    "text": "but the final things you know to get to the monster itself"
+  },
+  {
+    "t_start": 846.31,
+    "t_end": 851.35,
+    "text": "&gt;&gt; was beyond too big to be done by machine it still is I think the big thing there"
+  },
+  {
+    "t_start": 851.35,
+    "t_end": 853.59,
+    "text": "it still is I think the big thing there was, you know, to find clever ways of"
+  },
+  {
+    "t_start": 853.59,
+    "t_end": 857.11,
+    "text": "was, you know, to find clever ways of thinking of it by hand. Um,"
+  },
+  {
+    "t_start": 857.11,
+    "t_end": 861.269,
+    "text": "Grace found a way of constructing it with no use of computation. I think"
+  },
+  {
+    "t_start": 861.269,
+    "t_end": 866.949,
+    "text": "with no use of computation. I think there may have been some trivial use. I"
+  },
+  {
+    "t_start": 866.949,
+    "t_end": 872.71,
+    "text": "don't know. Um, I simplified his construction. You know, I read his paper"
+  },
+  {
+    "t_start": 872.71,
+    "t_end": 875.43,
+    "text": "to see what to do &gt;&gt; and he gave you a road map for your"
+  },
+  {
+    "t_start": 875.43,
+    "t_end": 882.23,
+    "text": "&gt;&gt; and then I had this idea of using well Parker had the idea. Parker had this"
+  },
+  {
+    "t_start": 882.23,
+    "t_end": 888.069,
+    "text": "clever construction in terms of a loop which he there were two things wrong"
+  },
+  {
+    "t_start": 888.069,
+    "t_end": 892.389,
+    "text": "which he there were two things wrong with it. uh first of all he didn't feel"
+  },
+  {
+    "t_start": 892.389,
+    "t_end": 897.43,
+    "text": "to actually do it himself and then the other thing is he had the"
+  },
+  {
+    "t_start": 897.43,
+    "t_end": 900.629,
+    "text": "and then the other thing is he had the construction slightly wrong. Uh you"
+  },
+  {
+    "t_start": 900.629,
+    "t_end": 905.75,
+    "text": "construction slightly wrong. Uh you needed to do an extra twist but um"
+  },
+  {
+    "t_start": 905.75,
+    "t_end": 908.55,
+    "text": "needed to do an extra twist but um and you know he didn't find that twist"
+  },
+  {
+    "t_start": 908.55,
+    "t_end": 913.91,
+    "text": "and I did this was on the occasion when I was sitting outside while my wife was"
+  },
+  {
+    "t_start": 913.91,
+    "t_end": 916.23,
+    "text": "I was sitting outside while my wife was attending the lectures. It produced a"
+  },
+  {
+    "t_start": 916.23,
+    "t_end": 921.509,
+    "text": "attending the lectures. It produced a very simple construction in my view. Uh"
+  },
+  {
+    "t_start": 921.509,
+    "t_end": 923.829,
+    "text": "very simple construction in my view. Uh yeah. Well, you you know when you talk"
+  },
+  {
+    "t_start": 923.829,
+    "t_end": 925.269,
+    "text": "yeah. Well, you you know when you talk about the monster, it has a terrible"
+  },
+  {
+    "t_start": 925.269,
+    "t_end": 927.91,
+    "text": "about the monster, it has a terrible effect on me. I want to start thinking"
+  },
+  {
+    "t_start": 927.91,
+    "t_end": 932.44,
+    "text": "effect on me. I want to start thinking about it again, you know."
+  }
+]

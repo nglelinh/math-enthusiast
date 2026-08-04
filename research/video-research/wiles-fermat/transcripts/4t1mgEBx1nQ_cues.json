@@ -1,0 +1,3357 @@
+[
+  {
+    "t_start": 7.099,
+    "t_end": 11.39,
+    "text": "well thank you very much for that introduction and for the kind words it's"
+  },
+  {
+    "t_start": 11.39,
+    "t_end": 12.89,
+    "text": "introduction and for the kind words it's such a great honor and a great pleasure"
+  },
+  {
+    "t_start": 12.89,
+    "t_end": 19.4,
+    "text": "such a great honor and a great pleasure to be here in Oslo and to receive this"
+  },
+  {
+    "t_start": 19.4,
+    "t_end": 21.83,
+    "text": "prize I've realized that there may be many people in the audience who are not"
+  },
+  {
+    "t_start": 21.83,
+    "t_end": 25.4,
+    "text": "many people in the audience who are not fully trained number theorists let alone"
+  },
+  {
+    "t_start": 25.4,
+    "t_end": 30.999,
+    "text": "fully trained number theorists let alone fully trained mathematicians so it may"
+  },
+  {
+    "t_start": 30.999,
+    "t_end": 34.22,
+    "text": "be that you don't understand more than the opening descriptions of the problem"
+  },
+  {
+    "t_start": 34.22,
+    "t_end": 42.77,
+    "text": "and perhaps the first few things I say about them but there is no better way to"
+  },
+  {
+    "t_start": 42.77,
+    "t_end": 44.72,
+    "text": "about them but there is no better way to understand the mathematical experience"
+  },
+  {
+    "t_start": 44.72,
+    "t_end": 50.0,
+    "text": "understand the mathematical experience than to understand just the question and"
+  },
+  {
+    "t_start": 50.0,
+    "t_end": 54.38,
+    "text": "suffer every time we faced a new mathematical problem so I hope you'll"
+  },
+  {
+    "t_start": 54.38,
+    "t_end": 56.81,
+    "text": "mathematical problem so I hope you'll join the Jane enjoy the genuine"
+  },
+  {
+    "t_start": 56.81,
+    "t_end": 58.43,
+    "text": "join the Jane enjoy the genuine mathematical experience tour that will"
+  },
+  {
+    "t_start": 58.43,
+    "t_end": 68.51,
+    "text": "mathematical experience tour that will involve so this is the family occasion"
+  },
+  {
+    "t_start": 68.51,
+    "t_end": 73.67,
+    "text": "involve so this is the family occasion that X to the N plus y to the N equals"
+  },
+  {
+    "t_start": 73.67,
+    "t_end": 82.1,
+    "text": "should have no solutions as you all know FEM are annotated a copy of a Greek text"
+  },
+  {
+    "t_start": 82.1,
+    "t_end": 86.359,
+    "text": "FEM are annotated a copy of a Greek text of mathematics and in the margin he"
+  },
+  {
+    "t_start": 86.359,
+    "t_end": 94.069,
+    "text": "wrote it is impossible on the other hand to divide a cube into two cubes a fourth"
+  },
+  {
+    "t_start": 94.069,
+    "t_end": 97.069,
+    "text": "to divide a cube into two cubes a fourth power and to fourth powers or likewise"
+  },
+  {
+    "t_start": 97.069,
+    "t_end": 102.2,
+    "text": "any power higher than the fourth into two like powers for this truly I have a"
+  },
+  {
+    "t_start": 102.2,
+    "t_end": 105.139,
+    "text": "two like powers for this truly I have a wonderful proof but this margin is too"
+  },
+  {
+    "t_start": 105.139,
+    "t_end": 110.179,
+    "text": "wonderful proof but this margin is too small to contain it he wrote this we"
+  },
+  {
+    "t_start": 110.179,
+    "t_end": 114.289,
+    "text": "small to contain it he wrote this we don't actually know when because it was"
+  },
+  {
+    "t_start": 114.289,
+    "t_end": 117.94,
+    "text": "don't actually know when because it was only after he died that his son"
+  },
+  {
+    "t_start": 117.94,
+    "t_end": 121.34,
+    "text": "only after he died that his son republished the original Greek text with"
+  },
+  {
+    "t_start": 121.34,
+    "t_end": 128.029,
+    "text": "these marginal notes in 1670 and it is only through his son's intervention that"
+  },
+  {
+    "t_start": 128.029,
+    "t_end": 130.88,
+    "text": "only through his son's intervention that we can actually know what ephemeral is"
+  },
+  {
+    "t_start": 130.88,
+    "t_end": 131.84,
+    "text": "we can actually know what ephemeral is worsening"
+  },
+  {
+    "t_start": 131.84,
+    "t_end": 137.43,
+    "text": "so we can't precisely date it we don't really know whether he started to cross"
+  },
+  {
+    "t_start": 137.43,
+    "t_end": 138.68,
+    "text": "really know whether he started to cross this out"
+  },
+  {
+    "t_start": 138.68,
+    "t_end": 145.79,
+    "text": "but for a long time people assumed he did have a solution and tried to find"
+  },
+  {
+    "t_start": 145.79,
+    "t_end": 150.81,
+    "text": "did have a solution and tried to find that solution myself included so the"
+  },
+  {
+    "t_start": 150.81,
+    "t_end": 155.04,
+    "text": "case N equals two of course there are many many solutions we learn in high"
+  },
+  {
+    "t_start": 155.04,
+    "t_end": 157.44,
+    "text": "many many solutions we learn in high school 3 squared plus 4 squared equals 5"
+  },
+  {
+    "t_start": 157.44,
+    "t_end": 162.9,
+    "text": "squared 5 squared plus 12 squared equals 13 squared and so on these were known to"
+  },
+  {
+    "t_start": 162.9,
+    "t_end": 168.45,
+    "text": "13 squared and so on these were known to the ancient Babylonians work on this"
+  },
+  {
+    "t_start": 168.45,
+    "t_end": 174.99,
+    "text": "problem of trying to extend this or rather refute this in the general case"
+  },
+  {
+    "t_start": 174.99,
+    "t_end": 176.94,
+    "text": "rather refute this in the general case to show that there are no solutions for"
+  },
+  {
+    "t_start": 176.94,
+    "t_end": 180.47,
+    "text": "to show that there are no solutions for n greater than or equal to 3"
+  },
+  {
+    "t_start": 180.47,
+    "t_end": 186.57,
+    "text": "n greater than or equal to 3 generated an intern was inspired by many"
+  },
+  {
+    "t_start": 186.57,
+    "t_end": 191.64,
+    "text": "generated an intern was inspired by many developments in number theory the field"
+  },
+  {
+    "t_start": 191.64,
+    "t_end": 196.949,
+    "text": "developments in number theory the field of nama theory in some sense started"
+  },
+  {
+    "t_start": 196.949,
+    "t_end": 199.77,
+    "text": "with Famer himself and there's a clear division in the attempts to solve this"
+  },
+  {
+    "t_start": 199.77,
+    "t_end": 207.0,
+    "text": "division in the attempts to solve this problem which was parallel to a division"
+  },
+  {
+    "t_start": 207.0,
+    "t_end": 214.32,
+    "text": "studied by árbol so as you well know I will prove the in solve ability of the"
+  },
+  {
+    "t_start": 214.32,
+    "t_end": 216.42,
+    "text": "will prove the in solve ability of the general equation the general quintic and"
+  },
+  {
+    "t_start": 216.42,
+    "t_end": 218.93,
+    "text": "general equation the general quintic and more generally higher degree equations"
+  },
+  {
+    "t_start": 218.93,
+    "t_end": 225.03,
+    "text": "and that marked an end of hundreds of years of study of algebraic equations of"
+  },
+  {
+    "t_start": 225.03,
+    "t_end": 233.31,
+    "text": "years of study of algebraic equations of solving equations using radicals but"
+  },
+  {
+    "t_start": 233.31,
+    "t_end": 235.85,
+    "text": "this problem solving equations for radicals"
+  },
+  {
+    "t_start": 235.85,
+    "t_end": 241.29,
+    "text": "it's an algebraic answer to solving equations and what number theorists are"
+  },
+  {
+    "t_start": 241.29,
+    "t_end": 243.62,
+    "text": "equations and what number theorists are looking for is a much more arithmetic"
+  },
+  {
+    "t_start": 243.62,
+    "t_end": 248.46,
+    "text": "looking for is a much more arithmetic issue but actually we get stuck at the"
+  },
+  {
+    "t_start": 248.46,
+    "t_end": 253.979,
+    "text": "issue but actually we get stuck at the same point that was resolved by árbol so"
+  },
+  {
+    "t_start": 253.979,
+    "t_end": 258.27,
+    "text": "same point that was resolved by árbol so what if Emma actually achieve so what we"
+  },
+  {
+    "t_start": 258.27,
+    "t_end": 260.88,
+    "text": "what if Emma actually achieve so what we have written evidence for of the case is"
+  },
+  {
+    "t_start": 260.88,
+    "t_end": 265.5,
+    "text": "have written evidence for of the case is N equals 3 and N equals 4 so in the case"
+  },
+  {
+    "t_start": 265.5,
+    "t_end": 273.3,
+    "text": "three although it's not at all obvious you can restate the problem as showing"
+  },
+  {
+    "t_start": 273.3,
+    "t_end": 276.08,
+    "text": "you can restate the problem as showing that there is no right angled triangle"
+  },
+  {
+    "t_start": 276.08,
+    "t_end": 279.83,
+    "text": "that there is no right angled triangle where the sides have rational lengths"
+  },
+  {
+    "t_start": 279.83,
+    "t_end": 288.72,
+    "text": "where the sides have rational lengths all three sides and where the area is"
+  },
+  {
+    "t_start": 288.72,
+    "t_end": 291.14,
+    "text": "one so it's not obvious you use the formula for the area of a triangle and"
+  },
+  {
+    "t_start": 291.14,
+    "t_end": 294.81,
+    "text": "formula for the area of a triangle and you can deduce this using pythagoras"
+  },
+  {
+    "t_start": 294.81,
+    "t_end": 297.51,
+    "text": "you can deduce this using pythagoras theorem that it's equivalent to the case"
+  },
+  {
+    "t_start": 297.51,
+    "t_end": 303.54,
+    "text": "theorem that it's equivalent to the case N equals three of famous loss theorem so"
+  },
+  {
+    "t_start": 303.54,
+    "t_end": 307.05,
+    "text": "firm our claim this in letters several times in his life particularly letters"
+  },
+  {
+    "t_start": 307.05,
+    "t_end": 317.49,
+    "text": "times in his life particularly letters to Digby on khakha V the case N equals"
+  },
+  {
+    "t_start": 317.49,
+    "t_end": 320.07,
+    "text": "four he showed and actually described the proof the case actually something"
+  },
+  {
+    "t_start": 320.07,
+    "t_end": 327.27,
+    "text": "even stronger that the sum of two fourth powers is not a square Thermo describes"
+  },
+  {
+    "t_start": 327.27,
+    "t_end": 329.85,
+    "text": "powers is not a square Thermo describes the method and he called it the use of"
+  },
+  {
+    "t_start": 329.85,
+    "t_end": 334.77,
+    "text": "the method and he called it the use of infinite descent so unfortunately we"
+  },
+  {
+    "t_start": 334.77,
+    "t_end": 339.87,
+    "text": "know rather little about exactly how he wrote out his proofs who thought about"
+  },
+  {
+    "t_start": 339.87,
+    "t_end": 346.2,
+    "text": "wrote out his proofs who thought about his proofs because he was still living"
+  },
+  {
+    "t_start": 346.2,
+    "t_end": 352.8,
+    "text": "publication so in the Middle Ages when equations were being studied prior to"
+  },
+  {
+    "t_start": 352.8,
+    "t_end": 356.57,
+    "text": "equations were being studied prior to arbol in the 14th 15th centuries"
+  },
+  {
+    "t_start": 356.57,
+    "t_end": 359.07,
+    "text": "arbol in the 14th 15th centuries mathematicians in Italy would challenge"
+  },
+  {
+    "t_start": 359.07,
+    "t_end": 361.14,
+    "text": "mathematicians in Italy would challenge each other by having mathematical joules"
+  },
+  {
+    "t_start": 361.14,
+    "t_end": 367.5,
+    "text": "each other by having mathematical joules where they would set problems to each"
+  },
+  {
+    "t_start": 367.5,
+    "t_end": 374.07,
+    "text": "and their careers really depended on the outcomes of these duels and I'm sure you"
+  },
+  {
+    "t_start": 374.07,
+    "t_end": 377.25,
+    "text": "outcomes of these duels and I'm sure you know the famous history of the solution"
+  },
+  {
+    "t_start": 377.25,
+    "t_end": 384.33,
+    "text": "of the cubic well there was a certain leftover inheritance of this in the way"
+  },
+  {
+    "t_start": 384.33,
+    "t_end": 384.89,
+    "text": "leftover inheritance of this in the way fam'ly"
+  },
+  {
+    "t_start": 384.89,
+    "t_end": 391.88,
+    "text": "discussed mathematics he would issue challenges to other mathematicians"
+  },
+  {
+    "t_start": 391.88,
+    "t_end": 397.68,
+    "text": "particularly the English mathematicians which they stickily failed to understand"
+  },
+  {
+    "t_start": 397.68,
+    "t_end": 399.01,
+    "text": "which they stickily failed to understand or solve"
+  },
+  {
+    "t_start": 399.01,
+    "t_end": 404.29,
+    "text": "or solve most cases so that's part of the reason"
+  },
+  {
+    "t_start": 404.29,
+    "t_end": 408.089,
+    "text": "most cases so that's part of the reason that we don't have the detailed proofs"
+  },
+  {
+    "t_start": 408.089,
+    "t_end": 411.07,
+    "text": "that we don't have the detailed proofs because he said his results as"
+  },
+  {
+    "t_start": 411.07,
+    "t_end": 413.74,
+    "text": "because he said his results as challenges rather than explaining the"
+  },
+  {
+    "t_start": 413.74,
+    "t_end": 417.369,
+    "text": "challenges rather than explaining the proofs well this method of infinite"
+  },
+  {
+    "t_start": 417.369,
+    "t_end": 424.57,
+    "text": "descent I tried to trace where it came from and actually in 1636 family knew"
+  },
+  {
+    "t_start": 424.57,
+    "t_end": 425.95,
+    "text": "from and actually in 1636 family knew nothing of number theory"
+  },
+  {
+    "t_start": 425.95,
+    "t_end": 433.749,
+    "text": "he must have encountered some problems from the book of diophantus and his very"
+  },
+  {
+    "t_start": 433.749,
+    "t_end": 436.089,
+    "text": "from the book of diophantus and his very first question actually to rob evolve"
+  },
+  {
+    "t_start": 436.089,
+    "t_end": 438.73,
+    "text": "first question actually to rob evolve another French mathematician was"
+  },
+  {
+    "t_start": 438.73,
+    "t_end": 440.92,
+    "text": "another French mathematician was actually an extremely elementary"
+  },
+  {
+    "t_start": 440.92,
+    "t_end": 447.189,
+    "text": "question where he didn't understand the proof but it actually reduces to a very"
+  },
+  {
+    "t_start": 447.189,
+    "t_end": 450.249,
+    "text": "proof but it actually reduces to a very famous classical ancient classical proof"
+  },
+  {
+    "t_start": 450.249,
+    "t_end": 455.439,
+    "text": "famous classical ancient classical proof of the irrationality of the square root"
+  },
+  {
+    "t_start": 455.439,
+    "t_end": 457.719,
+    "text": "of two so just to give an idea of how infinite descent works I will show you"
+  },
+  {
+    "t_start": 457.719,
+    "t_end": 460.54,
+    "text": "infinite descent works I will show you how he might have thought of that proof"
+  },
+  {
+    "t_start": 460.54,
+    "t_end": 465.159,
+    "text": "how he might have thought of that proof in terms of of infinite descent so here"
+  },
+  {
+    "t_start": 465.159,
+    "t_end": 466.51,
+    "text": "in terms of of infinite descent so here is an actual proof for you"
+  },
+  {
+    "t_start": 466.51,
+    "t_end": 474.809,
+    "text": "theorem the square root of 2 is not a rational number so what you do is you"
+  },
+  {
+    "t_start": 474.809,
+    "t_end": 477.49,
+    "text": "rational number so what you do is you you start off by supposing the square"
+  },
+  {
+    "t_start": 477.49,
+    "t_end": 482.98,
+    "text": "you start off by supposing the square root of 2 is a rational number so you"
+  },
+  {
+    "t_start": 482.98,
+    "t_end": 485.85,
+    "text": "can write it as a quotient a over B where a and B are integers like"
+  },
+  {
+    "t_start": 485.85,
+    "t_end": 490.36,
+    "text": "where a and B are integers like 7-elevens whatever you choose a solution"
+  },
+  {
+    "t_start": 490.36,
+    "t_end": 498.1,
+    "text": "7-elevens whatever you choose a solution where a and B are both positive well you"
+  },
+  {
+    "t_start": 498.1,
+    "t_end": 503.23,
+    "text": "can rewrite that as a squared equals to B squared and now a is even because it's"
+  },
+  {
+    "t_start": 503.23,
+    "t_end": 510.309,
+    "text": "twice B squared so a is twice another integer substitute that in a equals to a"
+  },
+  {
+    "t_start": 510.309,
+    "t_end": 512.26,
+    "text": "integer substitute that in a equals to a zero in the original equation and you"
+  },
+  {
+    "t_start": 512.26,
+    "t_end": 516.79,
+    "text": "zero in the original equation and you get 4a 0 squared is 2 B squared cancel"
+  },
+  {
+    "t_start": 516.79,
+    "t_end": 525.91,
+    "text": "squared that now tells you that B is an even number so B is twice B 0 ok now you"
+  },
+  {
+    "t_start": 525.91,
+    "t_end": 528.38,
+    "text": "even number so B is twice B 0 ok now you do the same thing again so you"
+  },
+  {
+    "t_start": 528.38,
+    "t_end": 533.85,
+    "text": "do the same thing again so you substitute in B B's to be zero and you"
+  },
+  {
+    "t_start": 533.85,
+    "t_end": 537.019,
+    "text": "substitute in B B's to be zero and you get a zero squared is to be zero squared"
+  },
+  {
+    "t_start": 537.019,
+    "t_end": 539.28,
+    "text": "get a zero squared is to be zero squared and now you've got the square root of"
+  },
+  {
+    "t_start": 539.28,
+    "t_end": 543.06,
+    "text": "and now you've got the square root of two is actually a zero of a B zero so"
+  },
+  {
+    "t_start": 543.06,
+    "t_end": 544.29,
+    "text": "two is actually a zero of a B zero so what you've done is you've taken a"
+  },
+  {
+    "t_start": 544.29,
+    "t_end": 546.6,
+    "text": "what you've done is you've taken a solution to the equation and shown that"
+  },
+  {
+    "t_start": 546.6,
+    "t_end": 549.2,
+    "text": "solution to the equation and shown that actually there's a smaller solution and"
+  },
+  {
+    "t_start": 549.2,
+    "t_end": 558.3,
+    "text": "this new one has the a zero strictly smaller than a well then he says well a"
+  },
+  {
+    "t_start": 558.3,
+    "t_end": 560.19,
+    "text": "smaller than a well then he says well a smaller solution gives a contradiction"
+  },
+  {
+    "t_start": 560.19,
+    "t_end": 563.22,
+    "text": "smaller solution gives a contradiction because you can't keep getting smaller"
+  },
+  {
+    "t_start": 563.22,
+    "t_end": 569.73,
+    "text": "there's no infinite descent so this is not how this is typically presented but"
+  },
+  {
+    "t_start": 569.73,
+    "t_end": 576.96,
+    "text": "not how this is typically presented but I imagine this is how Pharma came to the"
+  },
+  {
+    "t_start": 576.96,
+    "t_end": 579.18,
+    "text": "idea of infinite descent and it's very striking that actually this idea of"
+  },
+  {
+    "t_start": 579.18,
+    "t_end": 581.7,
+    "text": "striking that actually this idea of infinite descent was basically the"
+  },
+  {
+    "t_start": 581.7,
+    "t_end": 589.2,
+    "text": "foundation of all attempts for on fam'ly until the late 19th century so now I'm"
+  },
+  {
+    "t_start": 589.2,
+    "t_end": 593.46,
+    "text": "until the late 19th century so now I'm going to jump mathematically to the next"
+  },
+  {
+    "t_start": 593.46,
+    "t_end": 597.41,
+    "text": "going to jump mathematically to the next successful partially successful attempt"
+  },
+  {
+    "t_start": 597.41,
+    "t_end": 603.57,
+    "text": "successful partially successful attempt which was by coma in the 1840s so there"
+  },
+  {
+    "t_start": 603.57,
+    "t_end": 608.22,
+    "text": "which was by coma in the 1840s so there was a lot of drama in this period where"
+  },
+  {
+    "t_start": 608.22,
+    "t_end": 611.04,
+    "text": "in the French Academy people announced proofs which were fallacious and there"
+  },
+  {
+    "t_start": 611.04,
+    "t_end": 616.23,
+    "text": "proofs which were fallacious and there was a lot of excitement but actually it"
+  },
+  {
+    "t_start": 616.23,
+    "t_end": 618.51,
+    "text": "was a lot of excitement but actually it turned out to be they turned out to be"
+  },
+  {
+    "t_start": 618.51,
+    "t_end": 623.64,
+    "text": "wrong and they were wrong in a way that had already actually been explained by"
+  },
+  {
+    "t_start": 623.64,
+    "t_end": 627.45,
+    "text": "had already actually been explained by coma and published previously a few"
+  },
+  {
+    "t_start": 627.45,
+    "t_end": 634.02,
+    "text": "years previously so the idea is you again try and find assume you have a"
+  },
+  {
+    "t_start": 634.02,
+    "t_end": 636.329,
+    "text": "again try and find assume you have a solution to the equation and then try"
+  },
+  {
+    "t_start": 636.329,
+    "t_end": 644.94,
+    "text": "and deduce from it a smaller solution so what you do is you take the equation the"
+  },
+  {
+    "t_start": 644.94,
+    "t_end": 649.98,
+    "text": "what you do is you take the equation the general equation so it said to the P is"
+  },
+  {
+    "t_start": 649.98,
+    "t_end": 652.59,
+    "text": "X to the P plus y to the P well that actually can be factored as a product of"
+  },
+  {
+    "t_start": 652.59,
+    "t_end": 656.76,
+    "text": "actually can be factored as a product of P factors like this where Zeta is e to"
+  },
+  {
+    "t_start": 656.76,
+    "t_end": 664.079,
+    "text": "P factors like this where Zeta is e to the 2 pi over P is a piece root of 1"
+  },
+  {
+    "t_start": 664.079,
+    "t_end": 672.66,
+    "text": "can just factor this as a product of linear factors now the idea is if you"
+  },
+  {
+    "t_start": 672.66,
+    "t_end": 677.55,
+    "text": "linear factors now the idea is if you take a number which is a p f-- power and"
+  },
+  {
+    "t_start": 677.55,
+    "t_end": 680.73,
+    "text": "you write it as a product of other numbers if those numbers are co-prime to"
+  },
+  {
+    "t_start": 680.73,
+    "t_end": 688.79,
+    "text": "numbers if those numbers are co-prime to each other then each one itself has to"
+  },
+  {
+    "t_start": 693.92,
+    "t_end": 696.15,
+    "text": "in terms of cubes if i take 8 times 27 that number there's no other way of"
+  },
+  {
+    "t_start": 696.15,
+    "t_end": 702.119,
+    "text": "breaking it up as a product of cubes what does that mean that means that"
+  },
+  {
+    "t_start": 702.119,
+    "t_end": 704.639,
+    "text": "what does that mean that means that essentially if these numbers are"
+  },
+  {
+    "t_start": 704.639,
+    "t_end": 706.92,
+    "text": "essentially if these numbers are co-prime to each other then each one"
+  },
+  {
+    "t_start": 706.92,
+    "t_end": 712.86,
+    "text": "co-prime to each other then each one should be a piece power well what we"
+  },
+  {
+    "t_start": 712.86,
+    "t_end": 720.869,
+    "text": "mean by P powers well we have to work in arithmetic of Z Zeta so we have to allow"
+  },
+  {
+    "t_start": 720.869,
+    "t_end": 722.759,
+    "text": "arithmetic of Z Zeta so we have to allow not just ordinary integers but"
+  },
+  {
+    "t_start": 722.759,
+    "t_end": 728.04,
+    "text": "not just ordinary integers but combinations of powers of Zeta and then"
+  },
+  {
+    "t_start": 728.04,
+    "t_end": 730.86,
+    "text": "combinations of powers of Zeta and then miraculously what you can do is you have"
+  },
+  {
+    "t_start": 730.86,
+    "t_end": 733.53,
+    "text": "miraculously what you can do is you have this completely formal identity X plus"
+  },
+  {
+    "t_start": 733.53,
+    "t_end": 740.91,
+    "text": "this completely formal identity X plus Zeta Y times 1 plus theta minus X plus"
+  },
+  {
+    "t_start": 740.91,
+    "t_end": 748.679,
+    "text": "what's the use of that well the point is that if each of these factors were peeth"
+  },
+  {
+    "t_start": 748.679,
+    "t_end": 754.829,
+    "text": "powers then this is a piece power times 1 plus theta minus a piece power is"
+  },
+  {
+    "t_start": 754.829,
+    "t_end": 759.53,
+    "text": "Theta times a piece power it's very similar to the original equation"
+  },
+  {
+    "t_start": 763.4,
+    "t_end": 765.68,
+    "text": "and the idea of Kama is well supposing we start with a solution here and now we"
+  },
+  {
+    "t_start": 765.68,
+    "t_end": 773.75,
+    "text": "in Z Zeta instead of a rational solution we can deduce that each these factors of"
+  },
+  {
+    "t_start": 773.75,
+    "t_end": 775.73,
+    "text": "we can deduce that each these factors of P powers and hence we get another"
+  },
+  {
+    "t_start": 775.73,
+    "t_end": 777.71,
+    "text": "P powers and hence we get another equation which is very close to the"
+  },
+  {
+    "t_start": 777.71,
+    "t_end": 782.48,
+    "text": "equation which is very close to the original one maybe we can use infinite"
+  },
+  {
+    "t_start": 782.48,
+    "t_end": 785.27,
+    "text": "original one maybe we can use infinite descent if we start with a solution we"
+  },
+  {
+    "t_start": 785.27,
+    "t_end": 787.64,
+    "text": "descent if we start with a solution we deduce in this way that there's actually"
+  },
+  {
+    "t_start": 787.64,
+    "t_end": 789.44,
+    "text": "deduce in this way that there's actually another solution which is smaller than"
+  },
+  {
+    "t_start": 789.44,
+    "t_end": 792.68,
+    "text": "another solution which is smaller than the original one and again try infinite"
+  },
+  {
+    "t_start": 792.68,
+    "t_end": 796.28,
+    "text": "the original one and again try infinite descent well at first sight this looks"
+  },
+  {
+    "t_start": 796.28,
+    "t_end": 801.47,
+    "text": "very tricky because this 1 plus Zeta is in the way the satyrs in the way but it"
+  },
+  {
+    "t_start": 801.47,
+    "t_end": 807.05,
+    "text": "in the way the satyrs in the way but it turns out that if you really study the"
+  },
+  {
+    "t_start": 807.05,
+    "t_end": 811.43,
+    "text": "arithmetic of Z Zeta you can make this work these are units 1 plus Zeta and"
+  },
+  {
+    "t_start": 811.43,
+    "t_end": 817.58,
+    "text": "Zeta are both actually units in this what we call ring of numbers and said"
+  },
+  {
+    "t_start": 817.58,
+    "t_end": 822.74,
+    "text": "what we call ring of numbers and said Zeta provided something it's true about"
+  },
+  {
+    "t_start": 822.74,
+    "t_end": 825.77,
+    "text": "Zeta provided something it's true about ideal class groups so the problem is"
+  },
+  {
+    "t_start": 825.77,
+    "t_end": 828.95,
+    "text": "ideal class groups so the problem is this principle that if you take a number"
+  },
+  {
+    "t_start": 828.95,
+    "t_end": 834.65,
+    "text": "this principle that if you take a number like 72 that it's 2 times 2 times 3"
+  },
+  {
+    "t_start": 834.65,
+    "t_end": 837.76,
+    "text": "like 72 that it's 2 times 2 times 3 times 2 times 2 times 2 times 3 times 3"
+  },
+  {
+    "t_start": 837.76,
+    "t_end": 844.54,
+    "text": "times 2 times 2 times 2 times 3 times 3 there's a unique way of factoring any"
+  },
+  {
+    "t_start": 844.54,
+    "t_end": 852.38,
+    "text": "in general in this arithmetic there's no unique way of factoring so this brought"
+  },
+  {
+    "t_start": 852.38,
+    "t_end": 856.61,
+    "text": "unique way of factoring so this brought come at a great development the"
+  },
+  {
+    "t_start": 856.61,
+    "t_end": 859.64,
+    "text": "come at a great development the invention and study of ideal class"
+  },
+  {
+    "t_start": 859.64,
+    "t_end": 868.28,
+    "text": "groups in general so the idea is you take ideals in this ring said Zeta that"
+  },
+  {
+    "t_start": 868.28,
+    "t_end": 872.96,
+    "text": "take ideals in this ring said Zeta that is abelian groups that sit between some"
+  },
+  {
+    "t_start": 872.96,
+    "t_end": 874.64,
+    "text": "is abelian groups that sit between some multiple of Z Zeta and said say to"
+  },
+  {
+    "t_start": 874.64,
+    "t_end": 878.87,
+    "text": "multiple of Z Zeta and said say to itself such that they're preserved under"
+  },
+  {
+    "t_start": 878.87,
+    "t_end": 881.81,
+    "text": "itself such that they're preserved under the action of the ring so alpha times"
+  },
+  {
+    "t_start": 881.81,
+    "t_end": 886.58,
+    "text": "the action of the ring so alpha times that a billion group is again inside the"
+  },
+  {
+    "t_start": 886.58,
+    "t_end": 890.87,
+    "text": "and then you have special ones which are called principle ideals which are just"
+  },
+  {
+    "t_start": 890.87,
+    "t_end": 894.769,
+    "text": "called principle ideals which are just multiples of one particular element so"
+  },
+  {
+    "t_start": 894.769,
+    "t_end": 896.75,
+    "text": "multiples of one particular element so in this way you have certain things"
+  },
+  {
+    "t_start": 896.75,
+    "t_end": 899.0,
+    "text": "in this way you have certain things attached to this new arithmetic this"
+  },
+  {
+    "t_start": 899.0,
+    "t_end": 902.59,
+    "text": "attached to this new arithmetic this arithmetic of Zedd Saito"
+  },
+  {
+    "t_start": 908.75,
+    "t_end": 910.519,
+    "text": "well what he he showed was that if you study what's called the ideal class"
+  },
+  {
+    "t_start": 910.519,
+    "t_end": 917.06,
+    "text": "study what's called the ideal class group that is the quotient of the group"
+  },
+  {
+    "t_start": 917.06,
+    "t_end": 922.16,
+    "text": "of ideals that were principal ideals it's not quite a group but the quotient"
+  },
+  {
+    "t_start": 922.16,
+    "t_end": 924.35,
+    "text": "it's not quite a group but the quotient is a group ideals mod principal ideals"
+  },
+  {
+    "t_start": 924.35,
+    "t_end": 929.87,
+    "text": "is a group ideals mod principal ideals he proved first that famous last theorem"
+  },
+  {
+    "t_start": 929.87,
+    "t_end": 935.24,
+    "text": "he proved first that famous last theorem is true if P doesn't divide the order of"
+  },
+  {
+    "t_start": 935.24,
+    "t_end": 938.24,
+    "text": "this group so he gave a very explicit criterion for proving Fermat's Last"
+  },
+  {
+    "t_start": 938.24,
+    "t_end": 943.31,
+    "text": "criterion for proving Fermat's Last Theorem well because it could be quite"
+  },
+  {
+    "t_start": 943.31,
+    "t_end": 946.13,
+    "text": "Theorem well because it could be quite hard to calculate this size of this"
+  },
+  {
+    "t_start": 946.13,
+    "t_end": 949.46,
+    "text": "hard to calculate this size of this class group so he gave a second"
+  },
+  {
+    "t_start": 949.46,
+    "t_end": 951.38,
+    "text": "class group so he gave a second criterion which is even more amazing in"
+  },
+  {
+    "t_start": 951.38,
+    "t_end": 955.67,
+    "text": "criterion which is even more amazing in a way which is that P divides this"
+  },
+  {
+    "t_start": 955.67,
+    "t_end": 958.73,
+    "text": "border of this class group if and only if P divides the product of these"
+  },
+  {
+    "t_start": 958.73,
+    "t_end": 965.93,
+    "text": "Bernoulli numbers b2 up to be P minus 3 these Bernoulli numbers are the numbers"
+  },
+  {
+    "t_start": 965.93,
+    "t_end": 970.91,
+    "text": "these Bernoulli numbers are the numbers you get by expanding T over e to the t"
+  },
+  {
+    "t_start": 970.91,
+    "t_end": 975.17,
+    "text": "minus 1 as a power series and they're the coefficients of that power series 1"
+  },
+  {
+    "t_start": 975.17,
+    "t_end": 981.37,
+    "text": "plus the sum of B MT to the M over N factorial so he gave this amazing"
+  },
+  {
+    "t_start": 981.37,
+    "t_end": 983.81,
+    "text": "factorial so he gave this amazing analysis not only of the equation but"
+  },
+  {
+    "t_start": 983.81,
+    "t_end": 987.38,
+    "text": "analysis not only of the equation but actually of the obstacle to to solving"
+  },
+  {
+    "t_start": 987.38,
+    "t_end": 991.1,
+    "text": "actually of the obstacle to to solving the equation"
+  },
+  {
+    "t_start": 995.3,
+    "t_end": 998.84,
+    "text": "all attempts at pheromones last serum up to the end of the near the end of the"
+  },
+  {
+    "t_start": 998.84,
+    "t_end": 1000.88,
+    "text": "to the end of the near the end of the 20th century really hinged on this"
+  },
+  {
+    "t_start": 1000.88,
+    "t_end": 1006.49,
+    "text": "technique and on trying to refine these properties of these class groups was the"
+  },
+  {
+    "t_start": 1006.49,
+    "t_end": 1007.9,
+    "text": "properties of these class groups was the something about class groups who are"
+  },
+  {
+    "t_start": 1007.9,
+    "t_end": 1013.56,
+    "text": "missing can you prove more about them because unfortunately this wasn't enough"
+  },
+  {
+    "t_start": 1013.56,
+    "t_end": 1021.97,
+    "text": "because unfortunately this wasn't enough it's very very hard to determine when P"
+  },
+  {
+    "t_start": 1021.97,
+    "t_end": 1028.0,
+    "text": "divides these and it certainly happens often in fact one of the things I"
+  },
+  {
+    "t_start": 1028.0,
+    "t_end": 1030.4,
+    "text": "often in fact one of the things I studied my last fling as it were with"
+  },
+  {
+    "t_start": 1030.4,
+    "t_end": 1033.07,
+    "text": "studied my last fling as it were with fellas Last Theorem by the old methods"
+  },
+  {
+    "t_start": 1033.07,
+    "t_end": 1036.28,
+    "text": "fellas Last Theorem by the old methods when I was working with Mazur at Harvard"
+  },
+  {
+    "t_start": 1036.28,
+    "t_end": 1039.1,
+    "text": "when I was working with Mazur at Harvard we analyzed the fine structure of this"
+  },
+  {
+    "t_start": 1039.1,
+    "t_end": 1043.27,
+    "text": "we analyzed the fine structure of this class group to actually determine a"
+  },
+  {
+    "t_start": 1043.27,
+    "t_end": 1046.21,
+    "text": "class group to actually determine a relation between each individual binary"
+  },
+  {
+    "t_start": 1046.21,
+    "t_end": 1052.0,
+    "text": "number and some piece of this class group but these methods were not enough"
+  },
+  {
+    "t_start": 1052.0,
+    "t_end": 1055.42,
+    "text": "group but these methods were not enough to actually master the original problem"
+  },
+  {
+    "t_start": 1055.42,
+    "t_end": 1058.63,
+    "text": "to actually master the original problem it's still there were gap between what"
+  },
+  {
+    "t_start": 1058.63,
+    "t_end": 1061.36,
+    "text": "it's still there were gap between what we could even hope to do and a"
+  },
+  {
+    "t_start": 1061.36,
+    "t_end": 1063.31,
+    "text": "we could even hope to do and a resolution of the problem by this method"
+  },
+  {
+    "t_start": 1063.31,
+    "t_end": 1072.07,
+    "text": "resolution of the problem by this method seemed completely inaccessible so this"
+  },
+  {
+    "t_start": 1072.07,
+    "t_end": 1077.74,
+    "text": "seemed completely inaccessible so this is as I said how how their subject"
+  },
+  {
+    "t_start": 1077.74,
+    "t_end": 1082.96,
+    "text": "proceeded for a long time now I've called this the abelian approach to"
+  },
+  {
+    "t_start": 1082.96,
+    "t_end": 1089.16,
+    "text": "farmers Last Theorem so why do I call it a billion what's it to do with our ball"
+  },
+  {
+    "t_start": 1089.16,
+    "t_end": 1095.49,
+    "text": "a billion what's it to do with our ball well it's to do with abelian extensions"
+  },
+  {
+    "t_start": 1095.49,
+    "t_end": 1100.39,
+    "text": "well it's to do with abelian extensions so árbol the named abelian is attached"
+  },
+  {
+    "t_start": 1100.39,
+    "t_end": 1103.39,
+    "text": "so árbol the named abelian is attached to extensions of the rationals or of"
+  },
+  {
+    "t_start": 1103.39,
+    "t_end": 1106.75,
+    "text": "to extensions of the rationals or of father fields where there is AG our"
+  },
+  {
+    "t_start": 1106.75,
+    "t_end": 1113.02,
+    "text": "father fields where there is AG our group and the action is a billion so for"
+  },
+  {
+    "t_start": 1113.02,
+    "t_end": 1116.44,
+    "text": "example here and we were using arithmetic with this Zeta or Zeta P I'm"
+  },
+  {
+    "t_start": 1116.44,
+    "t_end": 1122.11,
+    "text": "writing here P through to one so that's a root of this equation X to the P minus"
+  },
+  {
+    "t_start": 1122.11,
+    "t_end": 1124.15,
+    "text": "a root of this equation X to the P minus one over X minus one this"
+  },
+  {
+    "t_start": 1124.15,
+    "t_end": 1131.74,
+    "text": "well it's just another way of writing it from root of that serum so it's a"
+  },
+  {
+    "t_start": 1131.74,
+    "t_end": 1137.8,
+    "text": "billion because the gawe group of cues a to P over Q it's the rationals and join"
+  },
+  {
+    "t_start": 1137.8,
+    "t_end": 1141.61,
+    "text": "to P over Q it's the rationals and join the Zeta P is described as the abelian"
+  },
+  {
+    "t_start": 1141.61,
+    "t_end": 1149.61,
+    "text": "groups said mod P said across that's the multiplicative group of said mod p see"
+  },
+  {
+    "t_start": 1153.04,
+    "t_end": 1156.82,
+    "text": "how does that work well a typical autumn orphism in here will ten take Z P to"
+  },
+  {
+    "t_start": 1156.82,
+    "t_end": 1159.25,
+    "text": "orphism in here will ten take Z P to some other P through divinity it has to"
+  },
+  {
+    "t_start": 1159.25,
+    "t_end": 1169.3,
+    "text": "be a power of side V write it as the alpha power and that goes to L mod p so"
+  },
+  {
+    "t_start": 1169.3,
+    "t_end": 1171.09,
+    "text": "alpha power and that goes to L mod p so this this describes the Galois group"
+  },
+  {
+    "t_start": 1171.09,
+    "t_end": 1178.18,
+    "text": "explicitly and the gower group is abelian this describes it as an abelian"
+  },
+  {
+    "t_start": 1178.18,
+    "t_end": 1184.42,
+    "text": "abelian this describes it as an abelian group and this Sigma L came to be known"
+  },
+  {
+    "t_start": 1184.42,
+    "t_end": 1191.24,
+    "text": "much later if L as a prime is the Frobenius at L usually write it fro bell"
+  },
+  {
+    "t_start": 1194.49,
+    "t_end": 1202.919,
+    "text": "this for a long time became perhaps the central study of number theory partly"
+  },
+  {
+    "t_start": 1202.919,
+    "t_end": 1208.799,
+    "text": "inspired by a theorem of Kronecker and Weber they didn't work together in fact"
+  },
+  {
+    "t_start": 1208.799,
+    "t_end": 1214.71,
+    "text": "Weber they didn't work together in fact they were separated by quite a long time"
+  },
+  {
+    "t_start": 1214.71,
+    "t_end": 1218.34,
+    "text": "this took a long time to actually get properly approved that in fact all"
+  },
+  {
+    "t_start": 1218.34,
+    "t_end": 1220.5,
+    "text": "properly approved that in fact all abelian extensions of the rational"
+  },
+  {
+    "t_start": 1220.5,
+    "t_end": 1227.389,
+    "text": "numbers are generated by roots of one so that's two statements really one that"
+  },
+  {
+    "t_start": 1227.389,
+    "t_end": 1232.799,
+    "text": "feels generated by roots of one our abelian and that's the easy part and the"
+  },
+  {
+    "t_start": 1232.799,
+    "t_end": 1241.1,
+    "text": "abelian and that's the easy part and the hard part is that every abelian"
+  },
+  {
+    "t_start": 1245.279,
+    "t_end": 1247.019,
+    "text": "well this takes us the Kronecker weber theorem to nearly the end of the 19th"
+  },
+  {
+    "t_start": 1247.019,
+    "t_end": 1249.81,
+    "text": "theorem to nearly the end of the 19th century the first part of the 20th"
+  },
+  {
+    "t_start": 1249.81,
+    "t_end": 1252.45,
+    "text": "century the first part of the 20th century was spent in generalizing this"
+  },
+  {
+    "t_start": 1252.45,
+    "t_end": 1259.68,
+    "text": "abelian Theory to other fields and this is known as class field theory and this"
+  },
+  {
+    "t_start": 1259.68,
+    "t_end": 1264.09,
+    "text": "is known as class field theory and this is really the sort of centerpiece of of"
+  },
+  {
+    "t_start": 1264.09,
+    "t_end": 1265.32,
+    "text": "is really the sort of centerpiece of of number theory"
+  },
+  {
+    "t_start": 1265.32,
+    "t_end": 1271.83,
+    "text": "for much that certainly the first half of the 20th century so to describe a"
+  },
+  {
+    "t_start": 1271.83,
+    "t_end": 1273.57,
+    "text": "of the 20th century so to describe a billion extensions of any number fields"
+  },
+  {
+    "t_start": 1273.57,
+    "t_end": 1281.2,
+    "text": "billion extensions of any number fields let me just take an example whoops sorry"
+  },
+  {
+    "t_start": 1284.78,
+    "t_end": 1290.26,
+    "text": "by the cube root of two so what you want are a billion extensions of that field"
+  },
+  {
+    "t_start": 1290.26,
+    "t_end": 1296.0,
+    "text": "are a billion extensions of that field so it's actually very hard to write down"
+  },
+  {
+    "t_start": 1296.0,
+    "t_end": 1299.21,
+    "text": "so it's actually very hard to write down some simple description like using roots"
+  },
+  {
+    "t_start": 1299.21,
+    "t_end": 1301.37,
+    "text": "some simple description like using roots of unity so that we haven't really"
+  },
+  {
+    "t_start": 1301.37,
+    "t_end": 1304.46,
+    "text": "of unity so that we haven't really mastered in any generality although it's"
+  },
+  {
+    "t_start": 1304.46,
+    "t_end": 1307.73,
+    "text": "mastered in any generality although it's still a problem an open problem what we"
+  },
+  {
+    "t_start": 1307.73,
+    "t_end": 1313.16,
+    "text": "still a problem an open problem what we can say is what exists so we can say"
+  },
+  {
+    "t_start": 1313.16,
+    "t_end": 1315.44,
+    "text": "can say is what exists so we can say that there is an extension which is"
+  },
+  {
+    "t_start": 1315.44,
+    "t_end": 1320.81,
+    "text": "similar to Q's a tepee plays the same role and it has the property that the"
+  },
+  {
+    "t_start": 1320.81,
+    "t_end": 1322.88,
+    "text": "role and it has the property that the GAO a group of this field which I've"
+  },
+  {
+    "t_start": 1322.88,
+    "t_end": 1325.22,
+    "text": "GAO a group of this field which I've called F P so the FP just means it's"
+  },
+  {
+    "t_start": 1325.22,
+    "t_end": 1327.92,
+    "text": "called F P so the FP just means it's it's just a labeling for this field"
+  },
+  {
+    "t_start": 1327.92,
+    "t_end": 1333.71,
+    "text": "which I claim exists the GAO a group of FP over F is isomorphic to the integers"
+  },
+  {
+    "t_start": 1333.71,
+    "t_end": 1340.88,
+    "text": "of F modulo P times the integers of F the multiplicative group of that modulo"
+  },
+  {
+    "t_start": 1340.88,
+    "t_end": 1350.09,
+    "text": "the image of the units so Oh F of the integers that said cube root 2 and this"
+  },
+  {
+    "t_start": 1350.09,
+    "t_end": 1353.42,
+    "text": "integers that said cube root 2 and this group Oh F cross plus for the units or"
+  },
+  {
+    "t_start": 1353.42,
+    "t_end": 1360.05,
+    "text": "group Oh F cross plus for the units or the positive units of Oh F so this took"
+  },
+  {
+    "t_start": 1360.05,
+    "t_end": 1366.59,
+    "text": "the positive units of Oh F so this took the first 25 30 years of the 20th"
+  },
+  {
+    "t_start": 1366.59,
+    "t_end": 1368.48,
+    "text": "the first 25 30 years of the 20th century but to really formulate it well"
+  },
+  {
+    "t_start": 1368.48,
+    "t_end": 1372.79,
+    "text": "century but to really formulate it well took at least until the 50s even 60s"
+  },
+  {
+    "t_start": 1372.79,
+    "t_end": 1375.26,
+    "text": "took at least until the 50s even 60s it's much more complicated when the"
+  },
+  {
+    "t_start": 1375.26,
+    "t_end": 1381.35,
+    "text": "ideal class group of Oh F is not one so in the cases that fam I was worrying"
+  },
+  {
+    "t_start": 1381.35,
+    "t_end": 1384.2,
+    "text": "in the cases that fam I was worrying about I mean not fair mile but common"
+  },
+  {
+    "t_start": 1384.2,
+    "t_end": 1385.88,
+    "text": "about I mean not fair mile but common was worrying about it would be much more"
+  },
+  {
+    "t_start": 1385.88,
+    "t_end": 1389.299,
+    "text": "was worrying about it would be much more complicated"
+  },
+  {
+    "t_start": 1393.06,
+    "t_end": 1394.919,
+    "text": "so of course when you've spent so much time developing the theory of abelian"
+  },
+  {
+    "t_start": 1394.919,
+    "t_end": 1400.08,
+    "text": "time developing the theory of abelian extensions one wants to move on to the"
+  },
+  {
+    "t_start": 1400.08,
+    "t_end": 1407.999,
+    "text": "non abelian extensions and this is the great split and in the second half the"
+  },
+  {
+    "t_start": 1407.999,
+    "t_end": 1410.249,
+    "text": "great split and in the second half the 20th century a huge program was"
+  },
+  {
+    "t_start": 1410.249,
+    "t_end": 1413.159,
+    "text": "20th century a huge program was developed to try and understand these"
+  },
+  {
+    "t_start": 1413.159,
+    "t_end": 1415.44,
+    "text": "developed to try and understand these extensions so they're basically"
+  },
+  {
+    "t_start": 1415.44,
+    "t_end": 1421.799,
+    "text": "equations over the rationals are over another number field where the gower"
+  },
+  {
+    "t_start": 1421.799,
+    "t_end": 1428.72,
+    "text": "group is not a billion where it's perhaps even a non abelian simple group"
+  },
+  {
+    "t_start": 1428.72,
+    "t_end": 1434.48,
+    "text": "perhaps even a non abelian simple group and the fundamental description of this"
+  },
+  {
+    "t_start": 1434.48,
+    "t_end": 1437.279,
+    "text": "and the fundamental description of this what it should be it's still conjectural"
+  },
+  {
+    "t_start": 1437.279,
+    "t_end": 1438.899,
+    "text": "what it should be it's still conjectural it comes from what's called the"
+  },
+  {
+    "t_start": 1438.899,
+    "t_end": 1442.35,
+    "text": "it comes from what's called the Langlands program so there's a decisive"
+  },
+  {
+    "t_start": 1442.35,
+    "t_end": 1447.99,
+    "text": "Langlands program so there's a decisive shift to this in the 1960s and there are"
+  },
+  {
+    "t_start": 1447.99,
+    "t_end": 1452.43,
+    "text": "many people work on and we've made a little progress in this context but not"
+  },
+  {
+    "t_start": 1452.43,
+    "t_end": 1456.269,
+    "text": "little progress in this context but not very much moment it's actually easier to"
+  },
+  {
+    "t_start": 1456.269,
+    "t_end": 1460.32,
+    "text": "very much moment it's actually easier to describe the parallel progress that this"
+  },
+  {
+    "t_start": 1460.32,
+    "t_end": 1465.539,
+    "text": "generated on the Fermo problem itself so I'm going to switch back now so this was"
+  },
+  {
+    "t_start": 1465.539,
+    "t_end": 1468.33,
+    "text": "I'm going to switch back now so this was how number theory is developed but now"
+  },
+  {
+    "t_start": 1468.33,
+    "t_end": 1471.45,
+    "text": "how number theory is developed but now the non-abelian approach to to FEM I"
+  },
+  {
+    "t_start": 1471.45,
+    "t_end": 1476.97,
+    "text": "the non-abelian approach to to FEM I itself so this big breakthrough occurred"
+  },
+  {
+    "t_start": 1476.97,
+    "t_end": 1479.58,
+    "text": "itself so this big breakthrough occurred in 1985 and was suggested first by"
+  },
+  {
+    "t_start": 1479.58,
+    "t_end": 1487.32,
+    "text": "Gerhard Frey and then it was the actual connection was completed by ribbit a"
+  },
+  {
+    "t_start": 1487.32,
+    "t_end": 1492.33,
+    "text": "connection was completed by ribbit a year later so the idea is this and it's"
+  },
+  {
+    "t_start": 1492.33,
+    "t_end": 1497.19,
+    "text": "year later so the idea is this and it's a completely different idea supposing"
+  },
+  {
+    "t_start": 1497.19,
+    "t_end": 1506.82,
+    "text": "a completely different idea supposing you have a solution to a firm our"
+  },
+  {
+    "t_start": 1506.82,
+    "t_end": 1515.22,
+    "text": "PSC to the P P I'm just going to assume P is prime and famine is enough to do it"
+  },
+  {
+    "t_start": 1515.22,
+    "t_end": 1518.21,
+    "text": "P is prime and famine is enough to do it for prime exponents so we usually just"
+  },
+  {
+    "t_start": 1518.21,
+    "t_end": 1520.48,
+    "text": "for prime exponents so we usually just restrict to those"
+  },
+  {
+    "t_start": 1520.48,
+    "t_end": 1527.35,
+    "text": "then you manufacture artificially this new equation which is equation elliptic"
+  },
+  {
+    "t_start": 1527.35,
+    "t_end": 1535.3,
+    "text": "new equation which is equation elliptic curve y squared is X X minus a to the P"
+  },
+  {
+    "t_start": 1535.3,
+    "t_end": 1540.46,
+    "text": "X plus B to the P okay it seems harmless enough it's odd"
+  },
+  {
+    "t_start": 1540.46,
+    "t_end": 1542.2,
+    "text": "it seems harmless enough it's odd because you take the discriminant of"
+  },
+  {
+    "t_start": 1542.2,
+    "t_end": 1546.52,
+    "text": "this cubic it's the probe that's of course the product of the difference of"
+  },
+  {
+    "t_start": 1546.52,
+    "t_end": 1554.77,
+    "text": "the roots squared so it's a to the P B to the P and then a to the P plus P to P"
+  },
+  {
+    "t_start": 1554.77,
+    "t_end": 1559.21,
+    "text": "to the P and then a to the P plus P to P which is C to the P by hypothesis so the"
+  },
+  {
+    "t_start": 1559.21,
+    "t_end": 1562.74,
+    "text": "discriminant turns out to be a perfect piece power"
+  },
+  {
+    "t_start": 1565.84,
+    "t_end": 1571.0,
+    "text": "studied a lot and this seemed very odd to find a discriminant which is a"
+  },
+  {
+    "t_start": 1571.0,
+    "t_end": 1576.13,
+    "text": "perfect piece of power and in fact what Frye realized was that such a curve"
+  },
+  {
+    "t_start": 1576.13,
+    "t_end": 1579.76,
+    "text": "Frye realized was that such a curve should not exist discriminant should not"
+  },
+  {
+    "t_start": 1579.76,
+    "t_end": 1585.91,
+    "text": "should not exist discriminant should not be peeth powers so he proposed a way"
+  },
+  {
+    "t_start": 1585.91,
+    "t_end": 1589.24,
+    "text": "be peeth powers so he proposed a way that you might try and prove this it was"
+  },
+  {
+    "t_start": 1589.24,
+    "t_end": 1593.02,
+    "text": "that you might try and prove this it was a bit tenuous at first but ribbits as I"
+  },
+  {
+    "t_start": 1593.02,
+    "t_end": 1598.09,
+    "text": "a bit tenuous at first but ribbits as I said confirmed that in fact if you"
+  },
+  {
+    "t_start": 1598.09,
+    "t_end": 1599.83,
+    "text": "said confirmed that in fact if you assumed what's called the modularity"
+  },
+  {
+    "t_start": 1599.83,
+    "t_end": 1608.71,
+    "text": "conjecture the taniyama-shimura of a conjecture has various names then in"
+  },
+  {
+    "t_start": 1608.71,
+    "t_end": 1615.1,
+    "text": "fact you would have a concrete way of proving Fermat's Last Theorem if you"
+  },
+  {
+    "t_start": 1615.1,
+    "t_end": 1617.29,
+    "text": "proving Fermat's Last Theorem if you could show there's no elliptic curve"
+  },
+  {
+    "t_start": 1617.29,
+    "t_end": 1618.91,
+    "text": "could show there's no elliptic curve this form you prove Fermat's Last"
+  },
+  {
+    "t_start": 1618.91,
+    "t_end": 1620.8,
+    "text": "this form you prove Fermat's Last Theorem and to show there's no elliptic"
+  },
+  {
+    "t_start": 1620.8,
+    "t_end": 1623.74,
+    "text": "Theorem and to show there's no elliptic curve of this form you can use the"
+  },
+  {
+    "t_start": 1623.74,
+    "t_end": 1627.19,
+    "text": "curve of this form you can use the modularity conjecture so this gave a"
+  },
+  {
+    "t_start": 1627.19,
+    "t_end": 1634.23,
+    "text": "modularity conjecture so this gave a completely different approach so just to"
+  },
+  {
+    "t_start": 1634.23,
+    "t_end": 1640.06,
+    "text": "completely different approach so just to give a little hint about this I need to"
+  },
+  {
+    "t_start": 1640.06,
+    "t_end": 1646.06,
+    "text": "just say a tiny bit about elliptic curves again the origins of this subject"
+  },
+  {
+    "t_start": 1646.06,
+    "t_end": 1649.33,
+    "text": "curves again the origins of this subject are in arbol arbol was the first to"
+  },
+  {
+    "t_start": 1649.33,
+    "t_end": 1651.55,
+    "text": "are in arbol arbol was the first to really understand and talk about these"
+  },
+  {
+    "t_start": 1651.55,
+    "t_end": 1655.389,
+    "text": "really understand and talk about these doubly periodic functions"
+  },
+  {
+    "t_start": 1658.279,
+    "t_end": 1663.019,
+    "text": "he died at 26 maybe he could have done all this Pete lived longer it was so"
+  },
+  {
+    "t_start": 1663.019,
+    "t_end": 1668.599,
+    "text": "all this Pete lived longer it was so fast so supposing you take an equation"
+  },
+  {
+    "t_start": 1668.599,
+    "t_end": 1674.719,
+    "text": "fast so supposing you take an equation this form y squared is X cubed plus ax"
+  },
+  {
+    "t_start": 1674.719,
+    "t_end": 1676.759,
+    "text": "plus B what elliptic functions enable you to do is to describe the complex"
+  },
+  {
+    "t_start": 1676.759,
+    "t_end": 1685.299,
+    "text": "solutions to this as a group it's C modulo a lattice the lattice being just"
+  },
+  {
+    "t_start": 1685.299,
+    "t_end": 1692.839,
+    "text": "modulo a lattice the lattice being just an abelian group of the form set plus Z"
+  },
+  {
+    "t_start": 1692.839,
+    "t_end": 1695.869,
+    "text": "times another generator this tower is not itself rational and then this"
+  },
+  {
+    "t_start": 1695.869,
+    "t_end": 1701.06,
+    "text": "not itself rational and then this quotient actually forms the complex"
+  },
+  {
+    "t_start": 1701.06,
+    "t_end": 1706.339,
+    "text": "quotient actually forms the complex points of an of this curve well one"
+  },
+  {
+    "t_start": 1706.339,
+    "t_end": 1711.499,
+    "text": "thing that's very odd about this is that this is actually a group that's not at"
+  },
+  {
+    "t_start": 1711.499,
+    "t_end": 1712.759,
+    "text": "this is actually a group that's not at all obvious when you look at this"
+  },
+  {
+    "t_start": 1712.759,
+    "t_end": 1715.009,
+    "text": "all obvious when you look at this equation so the solutions to this"
+  },
+  {
+    "t_start": 1715.009,
+    "t_end": 1718.629,
+    "text": "equation so the solutions to this equation actually form an abelian group"
+  },
+  {
+    "t_start": 1718.629,
+    "t_end": 1724.82,
+    "text": "equation actually form an abelian group and if you draw seem odd the lattice in"
+  },
+  {
+    "t_start": 1724.82,
+    "t_end": 1732.649,
+    "text": "interior points with some of the boundary described like this okay in"
+  },
+  {
+    "t_start": 1732.649,
+    "t_end": 1736.159,
+    "text": "boundary described like this okay in particular you can ask about points on"
+  },
+  {
+    "t_start": 1736.159,
+    "t_end": 1738.919,
+    "text": "particular you can ask about points on this group of finite order and the"
+  },
+  {
+    "t_start": 1738.919,
+    "t_end": 1744.2,
+    "text": "points of order P to the N had the structure Zed mod P to the N Z plus Z"
+  },
+  {
+    "t_start": 1744.2,
+    "t_end": 1752.269,
+    "text": "mod P to the N said funnily enough this was something that baffled árbol for a"
+  },
+  {
+    "t_start": 1752.269,
+    "t_end": 1755.57,
+    "text": "was something that baffled árbol for a while he didn't understand why when he"
+  },
+  {
+    "t_start": 1755.57,
+    "t_end": 1761.509,
+    "text": "looked at this he got N squared roots instead of n roots I mean now it's clear"
+  },
+  {
+    "t_start": 1761.509,
+    "t_end": 1765.349,
+    "text": "instead of n roots I mean now it's clear but he wrote in his correspondence him"
+  },
+  {
+    "t_start": 1765.349,
+    "t_end": 1769.909,
+    "text": "but he wrote in his correspondence him he was mystified by this he understood"
+  },
+  {
+    "t_start": 1769.909,
+    "t_end": 1775.759,
+    "text": "he was mystified by this he understood it after a little while but so if this"
+  },
+  {
+    "t_start": 1775.759,
+    "t_end": 1777.349,
+    "text": "it after a little while but so if this equation is actually defined over the"
+  },
+  {
+    "t_start": 1777.349,
+    "t_end": 1783.56,
+    "text": "equation is actually defined over the rationals you can actually get the"
+  },
+  {
+    "t_start": 1783.56,
+    "t_end": 1784.87,
+    "text": "Galois action on these points so the gamma group"
+  },
+  {
+    "t_start": 1784.87,
+    "t_end": 1791.14,
+    "text": "the colonel of P to the N that's the C mod p to the anvils see my PT on the"
+  },
+  {
+    "t_start": 1791.14,
+    "t_end": 1795.52,
+    "text": "mod p to the anvils see my PT on the gawe group gives an action so it injects"
+  },
+  {
+    "t_start": 1795.52,
+    "t_end": 1802.53,
+    "text": "gawe group gives an action so it injects and she L to of said mod p TN said so"
+  },
+  {
+    "t_start": 1802.53,
+    "t_end": 1804.97,
+    "text": "and she L to of said mod p TN said so what does this okay this is background"
+  },
+  {
+    "t_start": 1804.97,
+    "t_end": 1807.43,
+    "text": "what does this okay this is background on elliptic curves we have quite good"
+  },
+  {
+    "t_start": 1807.43,
+    "t_end": 1813.36,
+    "text": "on elliptic curves we have quite good enough to understand how to apply this"
+  },
+  {
+    "t_start": 1821.68,
+    "t_end": 1826.36,
+    "text": "to the FEM I equation yet so I want to just specialize the case P equals three"
+  },
+  {
+    "t_start": 1826.36,
+    "t_end": 1833.55,
+    "text": "just specialize the case P equals three so this was some sense the first big"
+  },
+  {
+    "t_start": 1833.55,
+    "t_end": 1836.74,
+    "text": "so this was some sense the first big step well the first step of I described"
+  },
+  {
+    "t_start": 1836.74,
+    "t_end": 1839.68,
+    "text": "step well the first step of I described yesterday in tackling fair MA was to"
+  },
+  {
+    "t_start": 1839.68,
+    "t_end": 1843.13,
+    "text": "yesterday in tackling fair MA was to understand was to choose an arithmetic"
+  },
+  {
+    "t_start": 1843.13,
+    "t_end": 1846.16,
+    "text": "understand was to choose an arithmetic approach which as I said there's"
+  },
+  {
+    "t_start": 1846.16,
+    "t_end": 1848.47,
+    "text": "approach which as I said there's different ways of approaching this"
+  },
+  {
+    "t_start": 1848.47,
+    "t_end": 1850.51,
+    "text": "different ways of approaching this modularity conjecture through geometry"
+  },
+  {
+    "t_start": 1850.51,
+    "t_end": 1855.07,
+    "text": "modularity conjecture through geometry through arithmetic through analysis so I"
+  },
+  {
+    "t_start": 1855.07,
+    "t_end": 1862.89,
+    "text": "knew about but then the big choice was actually to go to P equals three because"
+  },
+  {
+    "t_start": 1865.54,
+    "t_end": 1871.56,
+    "text": "if you look at the three division points so I've put them on these are the nine"
+  },
+  {
+    "t_start": 1871.56,
+    "t_end": 1874.06,
+    "text": "three division points in here algebraically you can actually describe"
+  },
+  {
+    "t_start": 1874.06,
+    "t_end": 1878.23,
+    "text": "algebraically you can actually describe these if you take the equation y squared"
+  },
+  {
+    "t_start": 1878.23,
+    "t_end": 1879.94,
+    "text": "is X cubed plus ax plus B these are actually the points of inflection just"
+  },
+  {
+    "t_start": 1879.94,
+    "t_end": 1886.71,
+    "text": "actually the points of inflection just in classical calculus terms if you"
+  },
+  {
+    "t_start": 1886.71,
+    "t_end": 1889.21,
+    "text": "in classical calculus terms if you calculate the points of inflection of"
+  },
+  {
+    "t_start": 1889.21,
+    "t_end": 1894.16,
+    "text": "calculate the points of inflection of that equation remembering you're not"
+  },
+  {
+    "t_start": 1894.16,
+    "t_end": 1895.87,
+    "text": "that equation remembering you're not just talking about real points of"
+  },
+  {
+    "t_start": 1895.87,
+    "t_end": 1898.12,
+    "text": "just talking about real points of inflection there's actually eight of"
+  },
+  {
+    "t_start": 1898.12,
+    "t_end": 1902.26,
+    "text": "them and then you get a ninth one its infinity they actually themselves form a"
+  },
+  {
+    "t_start": 1902.26,
+    "t_end": 1908.59,
+    "text": "infinity they actually themselves form a group there's nine of them and they"
+  },
+  {
+    "t_start": 1908.59,
+    "t_end": 1913.63,
+    "text": "generate field Q III and the gawe group of Q III over Q then acts on GL two of"
+  },
+  {
+    "t_start": 1913.63,
+    "t_end": 1915.85,
+    "text": "of Q III over Q then acts on GL two of said mod three set so this is just the"
+  },
+  {
+    "t_start": 1915.85,
+    "t_end": 1918.14,
+    "text": "said mod three set so this is just the same as in the case P"
+  },
+  {
+    "t_start": 1918.14,
+    "t_end": 1926.06,
+    "text": "canapé I'm just specializing to P equals three what is special about this is that"
+  },
+  {
+    "t_start": 1926.06,
+    "t_end": 1930.56,
+    "text": "three what is special about this is that okay it's not a billion anymore this is"
+  },
+  {
+    "t_start": 1930.56,
+    "t_end": 1935.95,
+    "text": "not an abelian extension of the rationals but happily for me it's also a"
+  },
+  {
+    "t_start": 1935.95,
+    "t_end": 1939.83,
+    "text": "rationals but happily for me it's also a solvable group this group she also said"
+  },
+  {
+    "t_start": 1939.83,
+    "t_end": 1944.78,
+    "text": "solvable group this group she also said mod three said is actually a double"
+  },
+  {
+    "t_start": 1944.78,
+    "t_end": 1951.2,
+    "text": "cover of the symmetric group on four letters it's a solvable group so where"
+  },
+  {
+    "t_start": 1951.2,
+    "t_end": 1956.54,
+    "text": "letters it's a solvable group so where as arbol thought in terms of there was a"
+  },
+  {
+    "t_start": 1956.54,
+    "t_end": 1959.84,
+    "text": "as arbol thought in terms of there was a division between equations up to the"
+  },
+  {
+    "t_start": 1959.84,
+    "t_end": 1966.95,
+    "text": "Quint up to the quartic which where the equation was solvable and equations of"
+  },
+  {
+    "t_start": 1966.95,
+    "t_end": 1974.5,
+    "text": "equation was solvable and equations of high degree in language of Galois which"
+  },
+  {
+    "t_start": 1974.5,
+    "t_end": 1976.88,
+    "text": "might not be solvable I'm actually considering three distinctions as the"
+  },
+  {
+    "t_start": 1976.88,
+    "t_end": 1982.67,
+    "text": "abelian groups the solvable groups than the non solvable groups the non solvable"
+  },
+  {
+    "t_start": 1982.67,
+    "t_end": 1989.12,
+    "text": "groups are extremely difficult and as I said arithmetic hasn't got there yet but"
+  },
+  {
+    "t_start": 1989.12,
+    "t_end": 1991.67,
+    "text": "said arithmetic hasn't got there yet but this realization was that actually this"
+  },
+  {
+    "t_start": 1991.67,
+    "t_end": 1994.82,
+    "text": "this realization was that actually this in-between stage a solvable stage where"
+  },
+  {
+    "t_start": 1994.82,
+    "t_end": 2000.55,
+    "text": "in-between stage a solvable stage where I could perhaps squeeze through okay so"
+  },
+  {
+    "t_start": 2000.55,
+    "t_end": 2002.56,
+    "text": "I could perhaps squeeze through okay so that's elliptic curves and then the"
+  },
+  {
+    "t_start": 2002.56,
+    "t_end": 2004.96,
+    "text": "that's elliptic curves and then the modularity conjecture so I have to say"
+  },
+  {
+    "t_start": 2004.96,
+    "t_end": 2011.95,
+    "text": "what it is tries to link what are called modular forms or modular functions with"
+  },
+  {
+    "t_start": 2011.95,
+    "t_end": 2017.71,
+    "text": "modular forms or modular functions with elliptic curves so modular functions"
+  },
+  {
+    "t_start": 2017.71,
+    "t_end": 2019.42,
+    "text": "have been studied in the nineteenth century they're actually a"
+  },
+  {
+    "t_start": 2019.42,
+    "t_end": 2025.09,
+    "text": "generalization if you like of the exponential function the exponential"
+  },
+  {
+    "t_start": 2025.09,
+    "t_end": 2031.51,
+    "text": "function has the property that it's periodic if you take e to the 2 pi I"
+  },
+  {
+    "t_start": 2031.51,
+    "t_end": 2035.38,
+    "text": "periodic if you take e to the 2 pi I said it takes the same value when you"
+  },
+  {
+    "t_start": 2035.38,
+    "t_end": 2040.48,
+    "text": "move from Z to Z plus 1 I said plus 2 to Z plus 3 and so on and this is the basis"
+  },
+  {
+    "t_start": 2040.48,
+    "t_end": 2042.43,
+    "text": "Z plus 3 and so on and this is the basis of Fourier series and Fourier analysis"
+  },
+  {
+    "t_start": 2042.43,
+    "t_end": 2044.279,
+    "text": "of Fourier series and Fourier analysis and so on"
+  },
+  {
+    "t_start": 2044.279,
+    "t_end": 2050.2,
+    "text": "but again that is the abelian situation and the non-abelian situation is when"
+  },
+  {
+    "t_start": 2050.2,
+    "t_end": 2052.119,
+    "text": "and the non-abelian situation is when you move to functions which are"
+  },
+  {
+    "t_start": 2052.119,
+    "t_end": 2055.18,
+    "text": "you move to functions which are invariant not under Zed under the"
+  },
+  {
+    "t_start": 2055.18,
+    "t_end": 2060.94,
+    "text": "abelian group but under a non abelian group in this case a subgroup of SL to"
+  },
+  {
+    "t_start": 2060.94,
+    "t_end": 2064.99,
+    "text": "group in this case a subgroup of SL to set so these functions yes they have a"
+  },
+  {
+    "t_start": 2064.99,
+    "t_end": 2066.97,
+    "text": "set so these functions yes they have a Fourier series they are invariant on the"
+  },
+  {
+    "t_start": 2066.97,
+    "t_end": 2072.97,
+    "text": "Fourier series they are invariant on the sector's to set plus one but they also"
+  },
+  {
+    "t_start": 2072.97,
+    "t_end": 2078.089,
+    "text": "have this other property that if you take F of a a plus B over C Z plus D its"
+  },
+  {
+    "t_start": 2078.089,
+    "t_end": 2080.5,
+    "text": "take F of a a plus B over C Z plus D its well we allow something slightly more"
+  },
+  {
+    "t_start": 2080.5,
+    "t_end": 2086.649,
+    "text": "well we allow something slightly more general in the case we want is C to the"
+  },
+  {
+    "t_start": 2086.649,
+    "t_end": 2092.079,
+    "text": "Z plus d squared times F of Z that's whenever the matrix ABCD is an element"
+  },
+  {
+    "t_start": 2092.079,
+    "t_end": 2102.25,
+    "text": "of SL to Z with the C divisible by some integer n so for all ones that ABCD with"
+  },
+  {
+    "t_start": 2102.25,
+    "t_end": 2106.059,
+    "text": "integer n so for all ones that ABCD with C divisible by n and just as long as you"
+  },
+  {
+    "t_start": 2106.059,
+    "t_end": 2107.859,
+    "text": "C divisible by n and just as long as you can choose an end where it works that's"
+  },
+  {
+    "t_start": 2107.859,
+    "t_end": 2110.89,
+    "text": "can choose an end where it works that's what matters so this is a generalization"
+  },
+  {
+    "t_start": 2110.89,
+    "t_end": 2114.599,
+    "text": "what matters so this is a generalization the non abelian generalization of"
+  },
+  {
+    "t_start": 2114.599,
+    "t_end": 2118.21,
+    "text": "the non abelian generalization of exponential functions we get modular"
+  },
+  {
+    "t_start": 2118.21,
+    "t_end": 2122.26,
+    "text": "functions like this so everything is moving from the abelian situations for"
+  },
+  {
+    "t_start": 2122.26,
+    "t_end": 2130.299,
+    "text": "moving from the abelian situations for non abelian situation so the modularity"
+  },
+  {
+    "t_start": 2130.299,
+    "t_end": 2132.01,
+    "text": "conjecture of tonyamarie shamora was that there's some correspondence every"
+  },
+  {
+    "t_start": 2132.01,
+    "t_end": 2137.319,
+    "text": "time you have an elliptic curve over the rationals you can actually make a module"
+  },
+  {
+    "t_start": 2137.319,
+    "t_end": 2142.9,
+    "text": "rationals you can actually make a module form of wait - that's the two here so I"
+  },
+  {
+    "t_start": 2142.9,
+    "t_end": 2145.63,
+    "text": "have the final weight is but just means this factor here and some level that's"
+  },
+  {
+    "t_start": 2145.63,
+    "t_end": 2153.549,
+    "text": "the end so the way to means here on the level here it doesn't really matter in"
+  },
+  {
+    "t_start": 2153.549,
+    "t_end": 2156.66,
+    "text": "level here it doesn't really matter in detail at the moment what they are and"
+  },
+  {
+    "t_start": 2156.66,
+    "t_end": 2159.37,
+    "text": "detail at the moment what they are and what is this correspondence supposed to"
+  },
+  {
+    "t_start": 2159.37,
+    "t_end": 2164.079,
+    "text": "do it's supposed to say that when you take the gawe group from the gawe action"
+  },
+  {
+    "t_start": 2164.079,
+    "t_end": 2170.98,
+    "text": "on the p to the n division points so view that in CL 2 of 0 or P T&amp;Z because"
+  },
+  {
+    "t_start": 2170.98,
+    "t_end": 2174.339,
+    "text": "view that in CL 2 of 0 or P T&amp;Z because that's what the action on the p TN"
+  },
+  {
+    "t_start": 2174.339,
+    "t_end": 2177.04,
+    "text": "that's what the action on the p TN Division points looks like"
+  },
+  {
+    "t_start": 2177.04,
+    "t_end": 2183.53,
+    "text": "under that the Frobenius of L will I described to you earlier there's a"
+  },
+  {
+    "t_start": 2183.53,
+    "t_end": 2192.17,
+    "text": "notion of a Frobenius so I described it in the abelian setting on roots of unity"
+  },
+  {
+    "t_start": 2192.17,
+    "t_end": 2197.6,
+    "text": "in the abelian setting on roots of unity it takes data P 2 Zeta P to the L it's"
+  },
+  {
+    "t_start": 2197.6,
+    "t_end": 2200.39,
+    "text": "it takes data P 2 Zeta P to the L it's actually a bit more tricky to describe"
+  },
+  {
+    "t_start": 2200.39,
+    "t_end": 2202.67,
+    "text": "actually a bit more tricky to describe it in this non abelian setting but there"
+  },
+  {
+    "t_start": 2202.67,
+    "t_end": 2205.46,
+    "text": "it in this non abelian setting but there is a generalization due to frobenius has"
+  },
+  {
+    "t_start": 2205.46,
+    "t_end": 2211.55,
+    "text": "is a generalization due to frobenius has its name but for every prime L you have"
+  },
+  {
+    "t_start": 2211.55,
+    "t_end": 2213.86,
+    "text": "a Frobenius of L and under this correspondence it goes to an element"
+  },
+  {
+    "t_start": 2213.86,
+    "t_end": 2216.77,
+    "text": "correspondence it goes to an element with trace al al"
+  },
+  {
+    "t_start": 2216.77,
+    "t_end": 2225.41,
+    "text": "is the ail from here so the Fourier expansion of this function tells you"
+  },
+  {
+    "t_start": 2225.41,
+    "t_end": 2227.63,
+    "text": "expansion of this function tells you about the arithmetic of the elliptic"
+  },
+  {
+    "t_start": 2227.63,
+    "t_end": 2232.85,
+    "text": "curve so this is the arithmetic of the elliptic curve the gawe action on these"
+  },
+  {
+    "t_start": 2232.85,
+    "t_end": 2238.88,
+    "text": "elliptic curve the gawe action on these p to the n division points this is the"
+  },
+  {
+    "t_start": 2238.88,
+    "t_end": 2240.92,
+    "text": "modular form you look at its Fourier expansion and there's some magical"
+  },
+  {
+    "t_start": 2240.92,
+    "t_end": 2251.95,
+    "text": "relation between the Al here and the Frobenius in the arithmetic so this"
+  },
+  {
+    "t_start": 2251.95,
+    "t_end": 2254.72,
+    "text": "Frobenius in the arithmetic so this conjecture seemed when it was first"
+  },
+  {
+    "t_start": 2254.72,
+    "t_end": 2260.68,
+    "text": "conjecture seemed when it was first proposed in a vague form by taniyama"
+  },
+  {
+    "t_start": 2260.68,
+    "t_end": 2266.42,
+    "text": "proposed in a vague form by taniyama got made more precise with shamora but"
+  },
+  {
+    "t_start": 2266.42,
+    "t_end": 2270.2,
+    "text": "got made more precise with shamora but it was very paper of 1967 where he"
+  },
+  {
+    "t_start": 2270.2,
+    "t_end": 2274.91,
+    "text": "it was very paper of 1967 where he pinned down the level n and proved a"
+  },
+  {
+    "t_start": 2274.91,
+    "t_end": 2277.61,
+    "text": "pinned down the level n and proved a very beautiful theorem about it that"
+  },
+  {
+    "t_start": 2277.61,
+    "t_end": 2284.39,
+    "text": "enabled people to test it so they could test this conjecture numerically and"
+  },
+  {
+    "t_start": 2284.39,
+    "t_end": 2288.25,
+    "text": "test this conjecture numerically and they got overwhelming evidence people"
+  },
+  {
+    "t_start": 2288.25,
+    "t_end": 2291.93,
+    "text": "they got overwhelming evidence people were convinced this was true"
+  },
+  {
+    "t_start": 2291.93,
+    "t_end": 2298.47,
+    "text": "so now when ribbit had proved that the modularity conjecture this one implied"
+  },
+  {
+    "t_start": 2298.47,
+    "t_end": 2304.89,
+    "text": "fellas last theorem we now could be really confident the FAMAS last theorem"
+  },
+  {
+    "t_start": 2304.89,
+    "t_end": 2310.19,
+    "text": "really confident the FAMAS last theorem was true that it would be proved and"
+  },
+  {
+    "t_start": 2310.19,
+    "t_end": 2316.41,
+    "text": "was true that it would be proved and that it could be proved this way because"
+  },
+  {
+    "t_start": 2316.41,
+    "t_end": 2319.38,
+    "text": "this modularity conjecture it's not something mathematics can put aside"
+  },
+  {
+    "t_start": 2319.38,
+    "t_end": 2324.18,
+    "text": "Fama's last theorem could have been like perfect numbers it's put to one side and"
+  },
+  {
+    "t_start": 2324.18,
+    "t_end": 2326.37,
+    "text": "perfect numbers it's put to one side and we can get on with mathematics without"
+  },
+  {
+    "t_start": 2326.37,
+    "t_end": 2331.71,
+    "text": "we can get on with mathematics without it but we can't get on without this this"
+  },
+  {
+    "t_start": 2331.71,
+    "t_end": 2333.45,
+    "text": "is at the core of the transition of number theory from non abelian"
+  },
+  {
+    "t_start": 2333.45,
+    "t_end": 2338.46,
+    "text": "mathematics from a beam in mathematics to non abelian mathematics so famous"
+  },
+  {
+    "t_start": 2338.46,
+    "t_end": 2340.799,
+    "text": "to non abelian mathematics so famous Last Theorem was back right on center"
+  },
+  {
+    "t_start": 2340.799,
+    "t_end": 2348.599,
+    "text": "Last Theorem was back right on center stage okay so what is what is the"
+  },
+  {
+    "t_start": 2348.599,
+    "t_end": 2353.819,
+    "text": "stage okay so what is what is the outcome of this well as I said as soon"
+  },
+  {
+    "t_start": 2353.819,
+    "t_end": 2359.64,
+    "text": "outcome of this well as I said as soon as I heard that ribbit had proved this"
+  },
+  {
+    "t_start": 2359.64,
+    "t_end": 2362.039,
+    "text": "connection I was riveted and spent my time working on this so why does the"
+  },
+  {
+    "t_start": 2362.039,
+    "t_end": 2372.42,
+    "text": "case P equal three why is it so valuable well the point is what have we got so we"
+  },
+  {
+    "t_start": 2372.42,
+    "t_end": 2376.14,
+    "text": "well the point is what have we got so we have fry and then ribbet prove the"
+  },
+  {
+    "t_start": 2376.14,
+    "t_end": 2378.18,
+    "text": "have fry and then ribbet prove the modularity conjecture implies pheromones"
+  },
+  {
+    "t_start": 2378.18,
+    "t_end": 2383.849,
+    "text": "laughs theorem so now the problem just proved modularity conjecture okay and as"
+  },
+  {
+    "t_start": 2383.849,
+    "t_end": 2386.519,
+    "text": "proved modularity conjecture okay and as I said when I started trying this the"
+  },
+  {
+    "t_start": 2386.519,
+    "t_end": 2390.75,
+    "text": "I said when I started trying this the first after the first step and taking"
+  },
+  {
+    "t_start": 2390.75,
+    "t_end": 2393.12,
+    "text": "first after the first step and taking the right choice making the right choice"
+  },
+  {
+    "t_start": 2393.12,
+    "t_end": 2401.16,
+    "text": "the right choice making the right choice to go into arithmetic I think the first"
+  },
+  {
+    "t_start": 2401.16,
+    "t_end": 2406.17,
+    "text": "real conceptual conceptually important step is that if you look at the three"
+  },
+  {
+    "t_start": 2406.17,
+    "t_end": 2413.099,
+    "text": "through BG L too said mod three said p GL 2 said mod three said is isomorphic"
+  },
+  {
+    "t_start": 2413.099,
+    "t_end": 2420.45,
+    "text": "GL 2 said mod three said is isomorphic to s 4 this is a solvable group and when"
+  },
+  {
+    "t_start": 2420.45,
+    "t_end": 2423.089,
+    "text": "to s 4 this is a solvable group and when Langlands had proposed this general"
+  },
+  {
+    "t_start": 2423.089,
+    "t_end": 2425.47,
+    "text": "Langlands had proposed this general program for"
+  },
+  {
+    "t_start": 2425.47,
+    "t_end": 2433.34,
+    "text": "understanding non solvable extensions there was one case that he could really"
+  },
+  {
+    "t_start": 2433.34,
+    "t_end": 2437.74,
+    "text": "there was one case that he could really understand and that is precisely this"
+  },
+  {
+    "t_start": 2437.74,
+    "t_end": 2442.25,
+    "text": "understand and that is precisely this when you have gower groups of the"
+  },
+  {
+    "t_start": 2442.25,
+    "t_end": 2450.74,
+    "text": "rationals in two or even any on the field into a solvable subgroup of GL 2"
+  },
+  {
+    "t_start": 2450.74,
+    "t_end": 2462.74,
+    "text": "and s 4 is such a subgroup of p GL to s bar is such a subgroup so what Langlands"
+  },
+  {
+    "t_start": 2462.74,
+    "t_end": 2464.33,
+    "text": "bar is such a subgroup so what Langlands and actually this particular case is an"
+  },
+  {
+    "t_start": 2464.33,
+    "t_end": 2466.1,
+    "text": "and actually this particular case is an extension of Langdon's theorem by Gerry"
+  },
+  {
+    "t_start": 2466.1,
+    "t_end": 2468.68,
+    "text": "extension of Langdon's theorem by Gerry tunnel this is connected actually with"
+  },
+  {
+    "t_start": 2468.68,
+    "t_end": 2472.03,
+    "text": "tunnel this is connected actually with the modular form it's not the one that"
+  },
+  {
+    "t_start": 2472.03,
+    "t_end": 2474.68,
+    "text": "the modular form it's not the one that we want associated to an elliptic curve"
+  },
+  {
+    "t_start": 2474.68,
+    "t_end": 2476.56,
+    "text": "we want associated to an elliptic curve it doesn't solve the problem right off"
+  },
+  {
+    "t_start": 2476.56,
+    "t_end": 2481.97,
+    "text": "it doesn't solve the problem right off but at least it gives you some tenuous"
+  },
+  {
+    "t_start": 2481.97,
+    "t_end": 2489.29,
+    "text": "curves and this theory of modular forms he used based this on his theory of base"
+  },
+  {
+    "t_start": 2489.29,
+    "t_end": 2493.4,
+    "text": "he used based this on his theory of base change and it uses the fact as I said"
+  },
+  {
+    "t_start": 2493.4,
+    "t_end": 2499.34,
+    "text": "change and it uses the fact as I said that s4 is a solvable group so this this"
+  },
+  {
+    "t_start": 2499.34,
+    "t_end": 2505.58,
+    "text": "that s4 is a solvable group so this this was a remains the first step there is no"
+  },
+  {
+    "t_start": 2505.58,
+    "t_end": 2507.32,
+    "text": "was a remains the first step there is no way around this step at the moment we"
+  },
+  {
+    "t_start": 2507.32,
+    "t_end": 2511.61,
+    "text": "way around this step at the moment we have no way of jumping straight to non"
+  },
+  {
+    "t_start": 2511.61,
+    "t_end": 2515.09,
+    "text": "have no way of jumping straight to non solvable extensions the only entry point"
+  },
+  {
+    "t_start": 2515.09,
+    "t_end": 2522.08,
+    "text": "we have is why these solvable extensions in the middle so a billion extensions we"
+  },
+  {
+    "t_start": 2522.08,
+    "t_end": 2523.73,
+    "text": "in the middle so a billion extensions we understood in the first half the 20th"
+  },
+  {
+    "t_start": 2523.73,
+    "t_end": 2526.28,
+    "text": "understood in the first half the 20th century we've pushed that a little"
+  },
+  {
+    "t_start": 2526.28,
+    "t_end": 2529.19,
+    "text": "century we've pushed that a little further to these solvable extensions"
+  },
+  {
+    "t_start": 2529.19,
+    "t_end": 2534.5,
+    "text": "like s4 and we can use that to get a little bit further but we really have"
+  },
+  {
+    "t_start": 2534.5,
+    "t_end": 2540.17,
+    "text": "little bit further but we really have not mastered these completely in"
+  },
+  {
+    "t_start": 2540.17,
+    "t_end": 2546.98,
+    "text": "not mastered these completely in solvable extensions these simple groups"
+  },
+  {
+    "t_start": 2549.56,
+    "t_end": 2554.44,
+    "text": "well let me just say a few words about this generalization of Langlands which"
+  },
+  {
+    "t_start": 2554.44,
+    "t_end": 2560.9,
+    "text": "this generalization of Langlands which lots of people work on in number theory"
+  },
+  {
+    "t_start": 2560.9,
+    "t_end": 2563.329,
+    "text": "it's really as I said the the main thrust of modern number theory because"
+  },
+  {
+    "t_start": 2563.329,
+    "t_end": 2566.0,
+    "text": "thrust of modern number theory because even working on other problems like"
+  },
+  {
+    "t_start": 2566.0,
+    "t_end": 2570.589,
+    "text": "even working on other problems like elliptic curves and any kind of"
+  },
+  {
+    "t_start": 2570.589,
+    "t_end": 2574.28,
+    "text": "generalization of elliptic curves you want to solve equations you're going to"
+  },
+  {
+    "t_start": 2574.28,
+    "t_end": 2580.46,
+    "text": "want to solve equations you're going to have to use this ultimately so it's a"
+  },
+  {
+    "t_start": 2580.46,
+    "t_end": 2585.38,
+    "text": "remember class field theory describes a billion extensions here the problem is"
+  },
+  {
+    "t_start": 2585.38,
+    "t_end": 2589.75,
+    "text": "billion extensions here the problem is to describe all Galois extensions of the"
+  },
+  {
+    "t_start": 2589.75,
+    "t_end": 2593.21,
+    "text": "rationals or any number field and roughly speaking and I'm being little"
+  },
+  {
+    "t_start": 2593.21,
+    "t_end": 2598.37,
+    "text": "dishonest but roughly speaking it generalizes modular forms to automatic"
+  },
+  {
+    "t_start": 2598.37,
+    "t_end": 2601.339,
+    "text": "generalizes modular forms to automatic representations roughly speaking we use"
+  },
+  {
+    "t_start": 2601.339,
+    "t_end": 2603.32,
+    "text": "representations roughly speaking we use functions invariant instead of under"
+  },
+  {
+    "t_start": 2603.32,
+    "t_end": 2609.77,
+    "text": "functions invariant instead of under subgroups of sl2 but under subgroups of"
+  },
+  {
+    "t_start": 2609.77,
+    "t_end": 2611.69,
+    "text": "GL n to classify n dimensional representations of the Galois group so"
+  },
+  {
+    "t_start": 2611.69,
+    "t_end": 2617.599,
+    "text": "representations of the Galois group so it's a very beautiful idea that you can"
+  },
+  {
+    "t_start": 2617.599,
+    "t_end": 2623.51,
+    "text": "because you really have to use a Del's and pathetic representation theory but"
+  },
+  {
+    "t_start": 2623.51,
+    "t_end": 2631.52,
+    "text": "and pathetic representation theory but this is back to classical number theory"
+  },
+  {
+    "t_start": 2631.52,
+    "t_end": 2634.01,
+    "text": "where you use analysis and now also naturally representation theory to study"
+  },
+  {
+    "t_start": 2634.01,
+    "t_end": 2639.65,
+    "text": "naturally representation theory to study number fields we've been very lucky to"
+  },
+  {
+    "t_start": 2639.65,
+    "t_end": 2644.53,
+    "text": "have the assistance of algebraic geometry for 50 years and it's um"
+  },
+  {
+    "t_start": 2644.53,
+    "t_end": 2651.32,
+    "text": "the fact is Langlands proof did not use algebraic geometry it's just analysis"
+  },
+  {
+    "t_start": 2651.32,
+    "t_end": 2655.28,
+    "text": "algebraic geometry it's just analysis and representation Theory Lang was proof"
+  },
+  {
+    "t_start": 2655.28,
+    "t_end": 2663.89,
+    "text": "and representation Theory Lang was proof for the s4 case and this general case is"
+  },
+  {
+    "t_start": 2663.89,
+    "t_end": 2666.23,
+    "text": "still completely baffling to us so let me just mention there's a little"
+  },
+  {
+    "t_start": 2666.23,
+    "t_end": 2673.19,
+    "text": "progress so one of the simplest ones you might try and understand is the Gower"
+  },
+  {
+    "t_start": 2673.19,
+    "t_end": 2676.859,
+    "text": "might try and understand is the Gower group"
+  },
+  {
+    "t_start": 2679.51,
+    "t_end": 2686.74,
+    "text": "barbecue Tucci L too said model said so this group is not solvable but if you"
+  },
+  {
+    "t_start": 2686.74,
+    "t_end": 2688.63,
+    "text": "this group is not solvable but if you assume the determinant is odd and rows"
+  },
+  {
+    "t_start": 2688.63,
+    "t_end": 2691.57,
+    "text": "assume the determinant is odd and rows are reducible then row is associated to"
+  },
+  {
+    "t_start": 2691.57,
+    "t_end": 2698.23,
+    "text": "are reducible then row is associated to a modular form and the sort of way I've"
+  },
+  {
+    "t_start": 2698.23,
+    "t_end": 2703.06,
+    "text": "been describing the proof uses similar techniques again the entry point you"
+  },
+  {
+    "t_start": 2703.06,
+    "t_end": 2707.349,
+    "text": "techniques again the entry point you have to enter by this these solvable"
+  },
+  {
+    "t_start": 2707.349,
+    "t_end": 2709.92,
+    "text": "have to enter by this these solvable extensions so you enter this theory"
+  },
+  {
+    "t_start": 2709.92,
+    "t_end": 2714.19,
+    "text": "extensions so you enter this theory using Langlands theorem using also the"
+  },
+  {
+    "t_start": 2714.19,
+    "t_end": 2717.73,
+    "text": "using Langlands theorem using also the reducible case but then a very very"
+  },
+  {
+    "t_start": 2717.73,
+    "t_end": 2723.4,
+    "text": "reducible case but then a very very ingenious induction on primes they"
+  },
+  {
+    "t_start": 2723.4,
+    "t_end": 2725.64,
+    "text": "ingenious induction on primes they managed to push these techniques to"
+  },
+  {
+    "t_start": 2725.64,
+    "t_end": 2731.849,
+    "text": "managed to push these techniques to prove the modularity for Association to"
+  },
+  {
+    "t_start": 2731.849,
+    "t_end": 2734.2,
+    "text": "modular forms of these kinds of extensions so this corresponds to"
+  },
+  {
+    "t_start": 2734.2,
+    "t_end": 2739.329,
+    "text": "extensions of the rationals with certain kinds of Galois group sit inside gl2 of"
+  },
+  {
+    "t_start": 2739.329,
+    "t_end": 2745.15,
+    "text": "kinds of Galois group sit inside gl2 of said model set but this is still a very"
+  },
+  {
+    "t_start": 2745.15,
+    "t_end": 2749.26,
+    "text": "very special case of the language program unfortunately the method doesn't"
+  },
+  {
+    "t_start": 2749.26,
+    "t_end": 2754.329,
+    "text": "program unfortunately the method doesn't seem to work in the general case the"
+  },
+  {
+    "t_start": 2754.329,
+    "t_end": 2757.45,
+    "text": "general case would be gln or even any other group and any number field in"
+  },
+  {
+    "t_start": 2757.45,
+    "t_end": 2767.349,
+    "text": "place of the rationals so we are at a stage we've feel we've mastered abelian"
+  },
+  {
+    "t_start": 2767.349,
+    "t_end": 2770.26,
+    "text": "stage we've feel we've mastered abelian setting we would really love to"
+  },
+  {
+    "t_start": 2770.26,
+    "t_end": 2772.42,
+    "text": "setting we would really love to understand the non solvable"
+  },
+  {
+    "t_start": 2772.42,
+    "t_end": 2778.45,
+    "text": "even a simple group setting we're just piecing together some results about them"
+  },
+  {
+    "t_start": 2778.45,
+    "t_end": 2784.06,
+    "text": "piecing together some results about them the solvable case but we have a few"
+  },
+  {
+    "t_start": 2784.06,
+    "t_end": 2786.609,
+    "text": "the solvable case but we have a few isolated results like this in the"
+  },
+  {
+    "t_start": 2786.609,
+    "t_end": 2788.859,
+    "text": "isolated results like this in the genuinely non solvable case but we're"
+  },
+  {
+    "t_start": 2788.859,
+    "t_end": 2790.27,
+    "text": "genuinely non solvable case but we're still at the very beginning of this"
+  },
+  {
+    "t_start": 2790.27,
+    "t_end": 2793.079,
+    "text": "still at the very beginning of this great enterprise the Langlands program"
+  },
+  {
+    "t_start": 2793.079,
+    "t_end": 2796.41,
+    "text": "great enterprise the Langlands program thank you very much"
+  },
+  {
+    "t_start": 2796.41,
+    "t_end": 2812.89,
+    "text": "thank you very much [Applause]"
+  },
+  {
+    "t_start": 2826.8,
+    "t_end": 2854.25,
+    "text": "[Applause] we have time for some questions"
+  },
+  {
+    "t_start": 2856.86,
+    "t_end": 2861.31,
+    "text": "thank you very much for exciting lecture you mentioned that one of the key ideas"
+  },
+  {
+    "t_start": 2861.31,
+    "t_end": 2863.5,
+    "text": "and the whole presentation was Fry's idea to construct an elliptic curve"
+  },
+  {
+    "t_start": 2863.5,
+    "t_end": 2867.73,
+    "text": "which is now called the Phi curve so I told me at the time that he thought this"
+  },
+  {
+    "t_start": 2867.73,
+    "t_end": 2870.22,
+    "text": "told me at the time that he thought this was some kind of joke to reduce one"
+  },
+  {
+    "t_start": 2870.22,
+    "t_end": 2872.68,
+    "text": "was some kind of joke to reduce one unsolvable problem to an even more"
+  },
+  {
+    "t_start": 2872.68,
+    "t_end": 2874.75,
+    "text": "unsolvable problem to an even more difficult and more and solve of a"
+  },
+  {
+    "t_start": 2874.75,
+    "t_end": 2876.97,
+    "text": "difficult and more and solve of a problem obviously it was proved wrong"
+  },
+  {
+    "t_start": 2876.97,
+    "t_end": 2881.35,
+    "text": "problem obviously it was proved wrong but I would like to hear your idea and"
+  },
+  {
+    "t_start": 2881.35,
+    "t_end": 2883.12,
+    "text": "how much he perceives as a joke or whether you felt immediately this was"
+  },
+  {
+    "t_start": 2883.12,
+    "t_end": 2885.91,
+    "text": "whether you felt immediately this was realistic and there was a chance sorry"
+  },
+  {
+    "t_start": 2885.91,
+    "t_end": 2892.36,
+    "text": "who said it was a joke by himself he did well he felt it was a"
+  },
+  {
+    "t_start": 2892.36,
+    "t_end": 2894.88,
+    "text": "by himself he did well he felt it was a joke to reduce something unsolvable to"
+  },
+  {
+    "t_start": 2894.88,
+    "t_end": 2903.91,
+    "text": "something even harder yes I didn't know he said that but actually there was an"
+  },
+  {
+    "t_start": 2903.91,
+    "t_end": 2906.04,
+    "text": "he said that but actually there was an even more painful story I think that"
+  },
+  {
+    "t_start": 2906.04,
+    "t_end": 2909.82,
+    "text": "even more painful story I think that he'll aguar some years earlier had"
+  },
+  {
+    "t_start": 2909.82,
+    "t_end": 2912.34,
+    "text": "he'll aguar some years earlier had studied similar equations and had"
+  },
+  {
+    "t_start": 2912.34,
+    "t_end": 2917.94,
+    "text": "studied similar equations and had wondered if they were related to famine"
+  },
+  {
+    "t_start": 2917.94,
+    "t_end": 2923.35,
+    "text": "and he'd shown them to a very eminent mathematician who said that's ridiculous"
+  },
+  {
+    "t_start": 2923.35,
+    "t_end": 2930.96,
+    "text": "mathematician who said that's ridiculous he might be able to do far more that way"
+  },
+  {
+    "t_start": 2935.41,
+    "t_end": 2941.02,
+    "text": "according to him sir yeah yes I think that does happen I have to admit when"
+  },
+  {
+    "t_start": 2941.02,
+    "t_end": 2946.78,
+    "text": "fry made this proposition I actually was very skeptical not about"
+  },
+  {
+    "t_start": 2946.78,
+    "t_end": 2948.55,
+    "text": "I actually was very skeptical not about modularity conjecture but about what"
+  },
+  {
+    "t_start": 2948.55,
+    "t_end": 2953.92,
+    "text": "ribbit proved so I was very surprised we're very happy when ribbit proved it I"
+  },
+  {
+    "t_start": 2953.92,
+    "t_end": 2981.33,
+    "text": "we're very happy when ribbit proved it I thought it was just wishful thinking but"
+  },
+  {
+    "t_start": 2990.93,
+    "t_end": 2993.61,
+    "text": "yeah I would like to return to the elementary and the beginning yeah you"
+  },
+  {
+    "t_start": 2993.61,
+    "t_end": 2997.78,
+    "text": "elementary and the beginning yeah you said that thermo himself solve the"
+  },
+  {
+    "t_start": 2997.78,
+    "t_end": 3006.21,
+    "text": "problems for N equals equal to three and four and I suppose that after that there"
+  },
+  {
+    "t_start": 3006.21,
+    "t_end": 3011.0,
+    "text": "four and I suppose that after that there was a third for solving it for"
+  },
+  {
+    "t_start": 3011.0,
+    "t_end": 3017.12,
+    "text": "was a third for solving it for individual numbers or classes of numbers"
+  },
+  {
+    "t_start": 3021.12,
+    "t_end": 3027.48,
+    "text": "could you say a few words so how that yes the first one to really pick up on"
+  },
+  {
+    "t_start": 3027.48,
+    "t_end": 3030.69,
+    "text": "yes the first one to really pick up on it was Euler because the proof for N"
+  },
+  {
+    "t_start": 3030.69,
+    "t_end": 3032.81,
+    "text": "it was Euler because the proof for N equals three had not been written out so"
+  },
+  {
+    "t_start": 3032.81,
+    "t_end": 3038.82,
+    "text": "equals three had not been written out so Euler did the case N equals three I"
+  },
+  {
+    "t_start": 3038.82,
+    "t_end": 3040.26,
+    "text": "Euler did the case N equals three I think he made a mistake the first time"
+  },
+  {
+    "t_start": 3040.26,
+    "t_end": 3047.6,
+    "text": "but I think he corrected it so the next one was N equals five and that was very"
+  },
+  {
+    "t_start": 3047.6,
+    "t_end": 3051.36,
+    "text": "one was N equals five and that was very that was very tricky you can try and do"
+  },
+  {
+    "t_start": 3051.36,
+    "t_end": 3054.51,
+    "text": "it the same way but it's much more complicated and I believe the story is"
+  },
+  {
+    "t_start": 3054.51,
+    "t_end": 3062.9,
+    "text": "complicated and I believe the story is that I quite like this story with my age"
+  },
+  {
+    "t_start": 3062.9,
+    "t_end": 3066.36,
+    "text": "that dares lay with his early 20s and did one part of it the what's called the"
+  },
+  {
+    "t_start": 3066.36,
+    "t_end": 3073.38,
+    "text": "did one part of it the what's called the first case I think of the problem it's"
+  },
+  {
+    "t_start": 3073.38,
+    "t_end": 3076.44,
+    "text": "since I mean it's now called so he did one case but he didn't complete it but"
+  },
+  {
+    "t_start": 3076.44,
+    "t_end": 3083.19,
+    "text": "one case but he didn't complete it but he somehow was talking about it and a"
+  },
+  {
+    "t_start": 3083.19,
+    "t_end": 3085.32,
+    "text": "meet I believe it was at 70 years old I've got the right way around came in"
+  },
+  {
+    "t_start": 3085.32,
+    "t_end": 3088.49,
+    "text": "I've got the right way around came in and beat him to it so"
+  },
+  {
+    "t_start": 3090.59,
+    "t_end": 3093.83,
+    "text": "I think it's but those two so I think the case that equals five was done the"
+  },
+  {
+    "t_start": 3093.83,
+    "t_end": 3097.22,
+    "text": "the case that equals five was done the case N equals seven"
+  },
+  {
+    "t_start": 3097.22,
+    "t_end": 3102.98,
+    "text": "I think this precipitated the problems of the French Academy because I think"
+  },
+  {
+    "t_start": 3102.98,
+    "t_end": 3106.66,
+    "text": "of the French Academy because I think LeMay claimed a very complicated proof"
+  },
+  {
+    "t_start": 3106.66,
+    "t_end": 3108.89,
+    "text": "LeMay claimed a very complicated proof and was announcing it to the French"
+  },
+  {
+    "t_start": 3108.89,
+    "t_end": 3110.42,
+    "text": "and was announcing it to the French Academy and some of the other"
+  },
+  {
+    "t_start": 3110.42,
+    "t_end": 3113.48,
+    "text": "Academy and some of the other mathematicians like Co she got very"
+  },
+  {
+    "t_start": 3113.48,
+    "t_end": 3118.61,
+    "text": "excited and said yes I can do that too and I can do this and unfortunately I"
+  },
+  {
+    "t_start": 3118.61,
+    "t_end": 3120.26,
+    "text": "and I can do this and unfortunately I think there was this was where the"
+  },
+  {
+    "t_start": 3120.26,
+    "t_end": 3123.2,
+    "text": "think there was this was where the mistake was the unique factorization"
+  },
+  {
+    "t_start": 3123.2,
+    "t_end": 3131.3,
+    "text": "he hadn't sorted it out he'd made some assumptions so I think eventually the"
+  },
+  {
+    "t_start": 3131.3,
+    "t_end": 3135.8,
+    "text": "assumptions so I think eventually the case seven was done in hands-on methods"
+  },
+  {
+    "t_start": 3135.8,
+    "t_end": 3137.63,
+    "text": "case seven was done in hands-on methods but I've forgotten the details but"
+  },
+  {
+    "t_start": 3137.63,
+    "t_end": 3142.61,
+    "text": "anyway there was an attempt at various no prime numbers but then when comers"
+  },
+  {
+    "t_start": 3142.61,
+    "t_end": 3146.66,
+    "text": "no prime numbers but then when comers work became known comers methods did all"
+  },
+  {
+    "t_start": 3146.66,
+    "t_end": 3151.19,
+    "text": "work became known comers methods did all Prime's less than 100 except for 37 59"
+  },
+  {
+    "t_start": 3151.19,
+    "t_end": 3156.3,
+    "text": "Prime's less than 100 except for 37 59 and 67"
+  },
+  {
+    "t_start": 3161.5,
+    "t_end": 3165.839,
+    "text": "even be used to prove it worked for infinitely many primes I don't think so"
+  },
+  {
+    "t_start": 3165.839,
+    "t_end": 3171.73,
+    "text": "infinitely many primes I don't think so it's it's stalled I mean it looked very"
+  },
+  {
+    "t_start": 3171.73,
+    "t_end": 3182.03,
+    "text": "it's it's stalled I mean it looked very promising for a while but uninstall"
+  }
+]

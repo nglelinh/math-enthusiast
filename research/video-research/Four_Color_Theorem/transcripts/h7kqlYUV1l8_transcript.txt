@@ -1,0 +1,151 @@
+What do sudoku games,
+wedding seating plans,
+and assigning frequencies to radio stations all have in common.
+They are all related to a well-known math problem,
+connected to maps.
+A proof of this problem was the very first that relied heavily on a computer.
+This breakthrough had a huge impact on the fields of mathematics and computer science.
+But it also ignited decades of debate about the nature of mathematical proofs,
+the role of computers in the field, and what it means to be a mathematician.
+The long and winding journey started with a simple question.
+Imagine you had a blank map and you're a cartographer,
+and you wanted to color the map.
+So one thing that might be important is that each region have its own color and
+that no two regions that share a border are the same color.
+And so the question is, how many colors will you need?
+It sounds like a simple question. How hard can it be?
+History surrounding it is, without a doubt.
+One of my favorite episodes in the history of math.
+One might think that this problem came from cartographers,
+but there's really no evidence that mapmakers
+have been trying to minimize the number of colors.
+Um, this really came from mathematicians.
+In 1852, Augustus de Morgan, a professor at University College London,
+brought up the map coloring problem in a letter to his friend and the
+mathematician, Sir William Rowan Hamilton.
+It was De Morgan's former student, Francis Guthrie, who first posed the question.
+Guthrie had discovered that he could shade in all the counties in the United Kingdom
+with only four colors.
+He wondered if this was the case for all maps. Regardless of the shape, size,
+and complexity.
+The simplicity of the Four Color Theorem, that only four colors are needed to
+color any map,
+tantalized mathematicians.
+However, early attempts to prove it failed.
+27 years later, the first widely accepted proof came from the British barrister, Alfred Kempe.
+His proof tackled the problem by analyzing how countries connect to each other.
+To understand how Kemp and other mathematicians looked at this problem,
+it helps to strip away all unnecessary information.
+We can replace each state by a vertex, a single point.
+And if two regions neighbor each other,
+we can draw a line segment between those two vertices.
+That's called an edge.
+And so we turn this from a map coloring problem
+into a graph coloring problem.
+Can we color the graph with four or fewer colors so that neighboring vertices
+are not the same color?
+This field of math is known as graph theory,
+and it helps mathematicians study the relationships between objects.
+Converting maps to planar graphs,
+graphs that can be drawn in a flat plane with no edges crossing makes the four
+color theorem easier to analyze.
+It turns out that two maps of different sizes and shapes can be represented by
+equivalent planar graphs.
+All that matters is how the regions are connected and related to one another.
+Focusing on only the connections within the maps helped Kempe discover key
+features that all maps share.
+Regardless of how complicated,
+all maps have, at least one region that has 0, 1, 2, 3, 4,
+or 5 neighbors.
+This is known as an unavoidable set.
+Once Kempe had identified an unavoidable set,
+he set out to prove the Four Color Theorem.
+To understand a surprising step of his method, first,
+assume that the theorem is false.
+Kemp's proof is elegant and clever.
+Suppose we cannot color every map with four or fewer colors,
+then there must be a smallest such map.
+If the Four Color Theorem is false,
+there must be a graph that requires at least five colors.
+This is known as a minimal counter example.
+Kemp wanted to show that he could color this graph with four colors.
+If he could,
+then a minimal counter example must not exist in the first place.
+First,
+he found one vertex in that graph that had five or fewer neighbors and removed it.
+Then he colored the graph with only four colors because the graph is smaller than the minimal counter example.
+Next, he put the removed vertex back in.
+If its neighbors show three or fewer colors,
+there is a color remaining to color the vertex.
+But if the neighbors have all four colors, then there is a problem.
+Kempe then created a method for recoloring the graph to free up a color for the
+remaining vertex.
+This allowed him to recolor it with four colors again.
+This showed that a minimal counter example,
+the smallest possible graph that needs five colors doesn't exist.
+That meant the Four Color Theorem must be true.
+Unfortunately, 11 years later, an error was discovered.
+Mathematician Percy Haewood found that Kempe's recoloring technique worked
+when the removed vertex had four or fewer neighbors, but not when it had five.
+When you read Haewood's writing,
+you could tell he feels bad for having discovered this flaw.
+So the theorem was a conjecture once again.
+For the next half century, mathematicians continued trying to prove the four color theorem.
+They soon realized that any solution would require a two-pronged approach.
+First, they needed to expand Kemp's unavoidable set.
+This is a collection of configurations that if you have any graph,
+then one of these configurations must appear in your graph.
+The more they looked, the bigger and more complicated these sets became.
+The second task was to prove that these configurations were reducible,
+meaning that if a graph contained one of these configurations,
+then it could be colored with four or fewer colors.
+And proving that these configurations were reducible also was
+harder and harder.
+Fortunately, by the end of the 1960s and early seventies,
+computers were becoming faster and more powerful,
+opening the door to new possibilities.
+Mathematicians realized that some of this work,
+which was very tedious and time consuming to do by hand,
+might be able to be accomplished by the use of these new computers.
+At this point,
+there were several teams trying to solve the Four Color Problem using computers
+At the University of Illinois. Wolfgang Haken, a well-known topologist,
+teamed up with Kenneth Appel, a mathematics professor,
+and one of the only people who knew how to use the university's new high-powered computers.
+In 1976, after about six months of work and more than a thousand hours of computer
+time, they proved the Four Color Theorem.
+Haken and Appel found an unavoidable set consisting of
+1,936 reducible configurations.
+Every map has to have at least one of these configurations,
+and any map that does can be colored with four or fewer colors.
+Far too many for any human or even team of humans to check by hand.
+At the time, computers were primarily used to perform mathematical calculations
+and not for what was considered the human endeavor of solving proofs in theoretical mathematics.
+As the first major computer assisted proof,
+the Four Color Theorem raised questions about what actually counts as a proof.
+Some researchers even questioned the legitimacy of Appel and Hakens' method.
+But if we put ourselves back in the mindset of 1970s mathematicians,
+this idea that one of the most famous unsolved problems in history
+was solved by over a thousand hours of computer time,
+that seems sort of anticlimactic or not playing by the rules,
+these unstated rules that mathematicians have.
+Some people thought that if a human couldn't read it from end to end,
+then it wasn't a legitimate proof.
+But as time progressed, the use of computers and theoretical mathematics
+became more accepted.
+As a younger generation got older,
+this newfangled technology just became the way that we did math.
+And uh, today we're much more comfortable with it than we were at that time.
+Today, mathematicians often use computers to check proofs of theorems or even to
+generate proofs themselves.
+This fruitful and continuing marriage of mathematics and computers all started
+with a seemingly simple question of how to color maps.
+Through the study of this problem
+mathematics was created and advanced in so many ways.
+This was one of the major drivers of the study of graph theory
+or network theory.
+The ideas behind these theories are now ubiquitous.
+We use graphs and networks to describe the way disease spreads and the way
+computer networks are connected.
+While the four color theorem might seem like a mathematical curiosity,
+it really did push the boundaries of mathematics forward.

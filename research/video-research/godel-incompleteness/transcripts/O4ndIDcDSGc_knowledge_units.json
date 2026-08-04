@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ku_video_O4ndIDcDSGc_0",
+    "t_start": 0.0,
+    "t_end": 90.0,
+    "type": "overview",
+    "summary": "[Marcus du Sautoy] I've been quite obsessed with Gödel's incompleteness theorem for many years because it kind of places this extraordinary limitation on what we might be able to know in mathematics. In fact, it's quite an unnerving theorem because at its heart it says there might be conjectures out there about numbers, for example something like Goldbach's conjecture, that might actually be true So it might be true that every even number is the sum of two primes but maybe within the axiomatic system we have for mathematics, there isn't a proof of that. The real worry is what if there's a t…"
+  },
+  {
+    "id": "ku_video_O4ndIDcDSGc_90",
+    "t_start": 90.7,
+    "t_end": 181.4,
+    "type": "overview",
+    "summary": "Well, that's meant to be false. So it means the one on the other side is also false Oh, but we suppose that that was true, so that's false So the other side is true, which means that --and you get into this kind of infinite loop. Verbal paradoxes are fine because you don't expect every verbal sentence to have a truth value to it. But then, when I went up to university, I realized that [in] mathematics you can't have those; yet when I took this course on mathematical logic, and we learned about Gödel's incompleteness theorem, he used this kind of self-referential statement to really undermin…"
+  },
+  {
+    "id": "ku_video_O4ndIDcDSGc_181",
+    "t_start": 181.7,
+    "t_end": 274.4,
+    "type": "overview",
+    "summary": "So then you define the following number then the smallest number which cannot be defined in less than 20 words Now I think if you count add up, I've just defined that number in less than 20 words, and you go well That's a bit worrying because surely that is a sort of kind of number We might define the smallest number which has a certain property. So there was a real feeling that these paradoxes these set theoretic paradoxes were beginning to be a real challenge To mathematics at the turn of the 20th century and David Hilbert one of his big problems that he challenged mathematics with in the…"
+  },
+  {
+    "id": "ku_video_O4ndIDcDSGc_274",
+    "t_start": 274.4,
+    "t_end": 369.3,
+    "type": "overview",
+    "summary": "And I have rules which allow me to make deductions from those axioms And that's how mathematics works. Each time we make these logical deductions we expand the conclusions from these axioms. We can add new axioms if we feel like you know what we haven't actually captured the whole of mathematics and that was somehow the -- the mission was we want to have a set of axioms which are strong enough and that we believe are basic about numbers from which we can deduce all through statements that we will have a proof and so there was a feeling like well, yeah. Well, maybe we haven't got all of the …"
+  },
+  {
+    "id": "ku_video_O4ndIDcDSGc_369",
+    "t_start": 369.8,
+    "t_end": 459.2,
+    "type": "overview",
+    "summary": "false statements like \"17 is an even number\" will have a code number. OK so what do these code numbers look like? They're obviously whoppers. They're absolutely huge but it's a unique coding so every code number can be worked backwards into a statement -- not every number will have a meaningful mathematical statement but it's more interesting the other way: every mathematical statement will have a unique number associated with it A bit like how most things in a computer [have] zeroes and ones. Very good. So if I'm typing away and I write the name 'Gödel' that be changed into ASCII code. It …"
+  },
+  {
+    "id": "ku_video_O4ndIDcDSGc_460",
+    "t_start": 460.7,
+    "t_end": 550.4,
+    "type": "overview",
+    "summary": "So now Gödel challenges you with the following statement: \"This statement cannot be proved from the axioms that we have for our system of mathematics\" So this is actually something that has a code number We can talk about proof using numbers so this will be a statement that can be changed into a mathematical equation. Now this means because it's an equation in mathematics, it's either true or it's false So let's start by saying that the statement is false. That means that \"This statement is provable from the axioms\" is true, but a provable statement must be true So now we've started with so…"
+  },
+  {
+    "id": "ku_video_O4ndIDcDSGc_550",
+    "t_start": 550.9,
+    "t_end": 641.3,
+    "type": "overview",
+    "summary": "which cannot be proved true from the axioms of mathematics And that's exactly what Gödel wanted. He's now got a statement of mathematics which is true but cannot be proved. And you go hold on, how do we actually prove that was true? We just proved it's true. And it's very important to articulate what we have done is within a system of mathematics with certain axioms we found a true statement within there which can't be proved true within that system We've proved it's true by working outside the system and looking in because we can now add that as an axiom It's a true statement, so it won't …"
+  },
+  {
+    "id": "ku_video_O4ndIDcDSGc_641",
+    "t_start": 641.5,
+    "t_end": 733.5,
+    "type": "overview",
+    "summary": "but that won't help because he can keep on playing the same game It feels like though this problem is just restricted to this little self-referential corner, like it doesn't feel like this puts Goldbach out of reach and other things out of reach It's just this one little game you can play with referencing to itself This was mathematicians hope that, okay, there's some weird logical Gajillion sentences which who really cares about because they don't really have much mathematical content And I think people just hoped that things like Goldbach would not be one of these, but that hope was reall…"
+  },
+  {
+    "id": "ku_video_O4ndIDcDSGc_734",
+    "t_start": 734.1,
+    "t_end": 824.9,
+    "type": "overview",
+    "summary": "mathematical statement which doesn't have a proof, if we could prove that, that it doesn't have a proof weirdly this would prove that the Riemann hypothesis must be true Now you go ahh why? Because if the Riemann hypothesis is false this means there's actually a constructive way to find that. You can set computer off and eventually after a finite process if it's false it will find the reason why it's false So if it's false it must be provably false So if we find that Riemann is actually undecidable, cannot be proved from the axioms of mathematics, there's no way it can be false because that…"
+  },
+  {
+    "id": "ku_video_O4ndIDcDSGc_824",
+    "t_start": 824.9,
+    "t_end": 831.3,
+    "type": "overview",
+    "summary": "They should never have but I think that rather abstract idea of the unknown [it] is still quite an intriguing one"
+  }
+]

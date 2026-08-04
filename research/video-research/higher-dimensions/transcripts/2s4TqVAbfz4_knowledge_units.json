@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ku_video_2s4TqVAbfz4_0",
+    "t_start": 0.0,
+    "t_end": 92.6,
+    "type": "overview",
+    "summary": "[PROF SEQUIN]: What do you make of this? 5, 6, 3, 3. What do you think comes next? [BRADY]: I'm gonna go... 7! [PROF SEQUIN]: 7. No, actually, it is another 3. Now you have a guess at what's coming next. [BRADY]: 3. [PROF SEQUIN]: Good! Yes. As a matter of fact it continues to be 3, 3, 3. And you wonder, this is really a strange sequence, you know, what are we going to do with this? Well, this is the number of regular polytopes that exist in 3, 4, 5, 6, 7, 8, 9, and all higher dimensions. And that's what we are going to talk about today. Regular polytopes in N dimensions. A polytope is just…"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_92",
+    "t_start": 92.6,
+    "t_end": 187.3,
+    "type": "overview",
+    "summary": "not more, and not less...? Well, one way to do it is to look at the surface of these objects. So this dodecahedron, for instance, is made out of regular pentagons. And so all of these platonic solids are made out of regular polygons. So probably we should step down a dimension and look at what regular polygons are possible. Simplest one would be a regular equilateral triangle. Then we can do a square. Then we can do a pentagon. Then we can do an hexagon, and so on, and if you go all the way to infinity, we end up with something that looks like a circle. So there are infinitely many of these…"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_187",
+    "t_start": 187.3,
+    "t_end": 277.4,
+    "type": "overview",
+    "summary": "That would give us a tetrahedron. Okay, so next we can try to put four equilateral triangles around the shared vertex. And we can bring them together and make a four-sided pyramid. And, remember, to make it regular all of the dihedral angles here have to be exactly the same. So that means that the bottom now is a perfect square. We can take this square pyramid and match it with an identical square pyramid. So that makes the second platonic solid; the octahedron. Now we can try to take five of those and put them around a vertex. And this makes this five-sided pyramid — so it's completely sym…"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_277",
+    "t_start": 277.4,
+    "t_end": 369.7,
+    "type": "overview",
+    "summary": "So, unfortunately, it's totally flat. And so this doesn't really curve and it doesn't help you to make some kind of closed object. You can make a kitchen floor with that one. Now if we go to seven triangles, they don't even fit into the plane – it's kind of get the warped chip. And that is no good. So we're done with triangles. For now we have to go to squares. Fold them up, so basically three squares around the shared vertex leaves off an opening of 90 degrees. And we forcefully try to close this opening. And now we have a valid 3D corner. If you take a contraption like that, and match it …"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_369",
+    "t_start": 369.7,
+    "t_end": 463.0,
+    "type": "overview",
+    "summary": "Trying to put four of these pentagons around the corner exceeds a total of 360 degrees, so you already get something that's warped like a potato chip — and it's no good. We're done with pentagons! Hexagons! —Hexagons! —You know what happens with three hexagons, of course: three flat tiling. That's no good. What about heptagons? Well, they don't even verily fit into a plane. It's too much. So, from there on up, we're sort of done. Nothing new can happen. Now you know exactly why there are five platonic solids — and exactly five platonic solids. —Professor, is a sphere a platonic solid? —No, …"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_462",
+    "t_start": 463.0,
+    "t_end": 554.1,
+    "type": "overview",
+    "summary": "Each one of these four-dimensional regular polytopes is of an object that has, as a surface, a thick crust of three-dimensional platonic solids. And just like we made a cube out of squares, we're now trying to make a hypercube out of cubes in its surface. We used to take three squares, and then forcefully try to close this gap of ninety degrees. And by closing it, we force this corner to pop out of two dimension — become a three-dimensional valid polyhedral corner. And that's the corner of a cube. Now, we're doing exactly the same thing, except — think that behind each one of these squares,…"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_554",
+    "t_start": 554.1,
+    "t_end": 646.1,
+    "type": "overview",
+    "summary": "so there's ample room for these cubes to simply pop out and form a true four dimensional corner. [BRADY]: But to my three-dimensional eyes, he is sitting in 3D space... I'm like... how did that happen? But if I had four-dimensional eyes, I'd be thinking... [PROF SEQUIN]: That's correct. And now you're hitting on the real problem. So we can figure out that this must be possible, but then... can we visualize that? I mean, how do we know what these thing looks like...? Well... for that, we have to use some kind of a shadow, or a projection of a four-dimensional object down into three-dimension…"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_646",
+    "t_start": 646.1,
+    "t_end": 736.5,
+    "type": "overview",
+    "summary": "Alternatively, we can use a perspective projection — everything in the back would appear smaller. And we can look straight at the face. And by doing that, you know, the back face will be a smaller square (that's off) really behind the red square; and the green lines show kind of the depth going from the front to the back. And the same we can do with the complete cube. And we get, you know, in the back a smaller cube shown in blue, and then the edges that go from the front to the back are shown in green. So here is the oblique projection. You can see the fatter cubes being the ones in front,…"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_736",
+    "t_start": 736.5,
+    "t_end": 826.9,
+    "type": "overview",
+    "summary": "and then we push that one out and push that into a valid 4D corner. The simplest object to start with is the tetrahedron. The tetrahedron has a dihedral angle of 70 and a half degrees. We need at least three of these tetrahedrons around the edge to make a valid corner. Three, of course, fits very easily. Four fits. Even five fits, but just barely: we just have a few degrees left. And so, when we try to fit five tetrahedrons around this, we just get a little bit bending in four-dimensional space. And we will need  — as we will see — a whole lot of these tetrahedra (to) make it actually work …"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_826",
+    "t_start": 826.9,
+    "t_end": 918.5,
+    "type": "overview",
+    "summary": "Four tetrahedra around the corner, you know, we get this object here, okay? It's called the 'cross-polytope'. And it's actually the dual of the hypercube that we've seen before, okay?... So that's the cross-polytope — the second regular polytope in four dimensions. Five tetrahedra put around a shared edge — you get something that has a lot of tetrahedra. As a matter of fact, this thing has 600 tetrahedra. Most of them are so crunched up in the middle here because of the projection... and you just see one giant tetrahedra on the outside. And then, adjacent to each faces, you see smaller... f…"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_918",
+    "t_start": 918.5,
+    "t_end": 1012.2,
+    "type": "overview",
+    "summary": "It has a dihedral angle of 109 and a half degrees. So that's less than a hundred and twenty degrees here. And that means we can indeed fit three around a joint edge, and still leave a little bit open space, which we can squeeze out and make this then pop into the fourth dimension. And the result is what I believe to be the most beautiful four-dimensional regular polytope: the '24 Cell', made out of twenty-four octahedra. You can see the outermost octahedron, because I chose that to be, you know, preserved in the projection. But, then, you see these rather flattened octahedra: this one trian…"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_1012",
+    "t_start": 1012.2,
+    "t_end": 1102.6,
+    "type": "overview",
+    "summary": "in any one of the 48 possible positions. I live at the street address 11-52. And then I found out that this object has 1152 symmetries. I thought that somehow fate really meant me to be, you know, into geometry. The next one on the list is the dodecahedron, with a 116 and a half degrees of a dihedral angle. That is still less than 120 degrees, so we can still force three of them around an edge and then join it into a valid four-dimensional corner. It's not bending all that much, And so we will need a hundred and twenty of those objects in the crust to form a valid four-dimensional regular p…"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_1102",
+    "t_start": 1102.6,
+    "t_end": 1197.2,
+    "type": "overview",
+    "summary": "can I fit at least three of them around an edge so I can make a valid corner? Most of these regular polytopes in four dimensions are very round, and they're not very useful There are really only two of them that actually have some hope of generating a new regular polytope in higher dimension. One of them is the simplex, or the 5 Cell; and the other one is the hypercube. [Brady]: The other ones have got too shallow ... ? [PROF SEQUIN]: Yeah, the other ones have too shallow of dihedral angles, and they just don't make valid corners in the next higher dimension. And so, from five dimensions on…"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_1197",
+    "t_start": 1197.2,
+    "t_end": 1289.2,
+    "type": "overview",
+    "summary": "the geometry really sort of bogus at this point because it's so much distorted from what we originally have. And I have make a few more simplices in higher dimensions. You just need to always add one more vertex, and then figure out how to make a nice little graph that will get the right connectivity. So, this one has six vertices. I claim this is a projection of the 5D simplex. 'Cause the simplex also is the complete graph; every vertex is connected directly to every other vertex. And you can see in this case — you start at any one vertex, there're five edges going off, one to each of the …"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_1289",
+    "t_start": 1289.2,
+    "t_end": 1379.7,
+    "type": "overview",
+    "summary": "This one can again be connected to all the other vertices. And so now we have a complete graph of seven vertices. And that would be a nice model of a six-dimensional simplex. There is a second sequence that works for all dimensions. And it's called the 'measure polytope' or 'hypercube sequence'. The cube is the object with which we measure the volume of three-dimensional space. Just like the square is the geometrical element that we use to measure two-dimensional space. Similarly, the hypercube would measure four-dimensional space. So the measure polytopes are always the equivalent of a cub…"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_1379",
+    "t_start": 1379.7,
+    "t_end": 1470.3,
+    "type": "overview",
+    "summary": "which has thirty rhombic faces on the outside. But, on the inside, there's a whole lot of intersecting edges going on. And you may not like that. So it all depends on what you really want to get out of your model. In some sense, this makes a very nice sort of climbing structure for children. [Brady]: That's not very cuby though, is it? It's hard to see the cube. [PROF SEQUIN]: Yeah, for some angles, if you look at... here it looks like an oblique kind of squashed cube that starts with one of the cube face. Or a very flattened cube, you know, we have just like three faces here. And then on t…"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_1470",
+    "t_start": 1470.3,
+    "t_end": 1563.7,
+    "type": "overview",
+    "summary": "We also have the models that show the same relationship — not quite as obvious — in 4 dimensions. So here we have the measure polytope — the hypercube. And, if we take the eight cubes in the crust of the hypercube, and replace them by eight vertices, we get the corresponding measure polytope, which is the dual to this hypercube. [BRADY]: Evil twin! [PROF SEQUIN]: And the same principle goes on. It gets, you know, near impossible to kind of visualize in higher dimensions, but again, every measure polytope in d-dimension is made out of measure polytopes of d-minus-one-dimension. You replace e…"
+  },
+  {
+    "id": "ku_video_2s4TqVAbfz4_1563",
+    "t_start": 1563.7,
+    "t_end": 1576.7,
+    "type": "overview",
+    "summary": "Yes, you're inside the 120 cell space is entirely filled with dodecahedra because in this spherical space, dodecahedra tile space. It's non-Euclidean..."
+  }
+]

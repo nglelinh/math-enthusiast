@@ -1,0 +1,297 @@
+[
+  {
+    "t_start": 0.13,
+    "t_end": 3.86,
+    "text": "Pure mathematics, that is, math for its own sake,"
+  },
+  {
+    "t_start": 3.86,
+    "t_end": 6.7,
+    "text": "has produced fascinating patterns, such as erie"
+  },
+  {
+    "t_start": 6.7,
+    "t_end": 9.96,
+    "text": "strange attractors, or tables of knots."
+  },
+  {
+    "t_start": 9.96,
+    "t_end": 13.72,
+    "text": "Applied mathematics has been used in many areas, such as heat"
+  },
+  {
+    "t_start": 13.72,
+    "t_end": 15.75,
+    "text": "flow or turbulence."
+  },
+  {
+    "t_start": 15.75,
+    "t_end": 20.359,
+    "text": "There's one problem, however, which leaves mathematicians utterly defeated."
+  },
+  {
+    "t_start": 20.359,
+    "t_end": 24.65,
+    "text": "And it only involves simple arithmetic that a seven-year-old can follow."
+  },
+  {
+    "t_start": 24.65,
+    "t_end": 28.539,
+    "text": "This is definitely the simplest impossible problem."
+  },
+  {
+    "t_start": 28.539,
+    "t_end": 31.989,
+    "text": "Starting with a positive whole number n, let's produce a new number"
+  },
+  {
+    "t_start": 31.989,
+    "t_end": 36.53,
+    "text": "according to the following rule: if n is even, divide it by 2."
+  },
+  {
+    "t_start": 36.53,
+    "t_end": 39.94,
+    "text": "If it's odd, multiply by 3, then add 1."
+  },
+  {
+    "t_start": 39.94,
+    "t_end": 42.19,
+    "text": "For example, let's start with 10."
+  },
+  {
+    "t_start": 42.19,
+    "t_end": 45.32,
+    "text": "Since 10 is even, divide it by 2 to get 5."
+  },
+  {
+    "t_start": 45.32,
+    "t_end": 50.34,
+    "text": "5 is odd, so multiply it by 3 and add 1 to get 16."
+  },
+  {
+    "t_start": 50.34,
+    "t_end": 57.74,
+    "text": "Keep going to produce 8, 4, 2, 1, 4, 2, 1, etc."
+  },
+  {
+    "t_start": 57.74,
+    "t_end": 60.87,
+    "text": "This pattern of 4,2,1 repeats forever."
+  },
+  {
+    "t_start": 60.87,
+    "t_end": 62.81,
+    "text": "Well, this isn't hard."
+  },
+  {
+    "t_start": 62.81,
+    "t_end": 64.35,
+    "text": "So what's the problem?"
+  },
+  {
+    "t_start": 64.35,
+    "t_end": 69.15,
+    "text": "Try other starting numbers, like 11, 23, or 29."
+  },
+  {
+    "t_start": 69.15,
+    "t_end": 72.06,
+    "text": "They all eventually reach one."
+  },
+  {
+    "t_start": 72.06,
+    "t_end": 74.979,
+    "text": "This is the challenge; show that no matter which"
+  },
+  {
+    "t_start": 74.979,
+    "t_end": 79.579,
+    "text": "starting number you choose, the numbers will always reach one."
+  },
+  {
+    "t_start": 79.579,
+    "t_end": 83.159,
+    "text": "This problem drives mathematicians crazy because there don't"
+  },
+  {
+    "t_start": 83.159,
+    "t_end": 85.13,
+    "text": "seem to be any clear patterns."
+  },
+  {
+    "t_start": 85.13,
+    "t_end": 92.649,
+    "text": "Sure, some special numbers, such as 8192, which is a power of 2, collapse down to 1"
+  },
+  {
+    "t_start": 92.649,
+    "t_end": 95.909,
+    "text": "pretty quickly; it takes only 13 steps to get there."
+  },
+  {
+    "t_start": 95.909,
+    "t_end": 102.35,
+    "text": "However, if you start with 27, it takes 110 steps to reach the number 1."
+  },
+  {
+    "t_start": 102.35,
+    "t_end": 106.88,
+    "text": "A graph of the points when we start at 27 shows the erratic nature"
+  },
+  {
+    "t_start": 106.88,
+    "t_end": 108.119,
+    "text": "of these numbers."
+  },
+  {
+    "t_start": 108.119,
+    "t_end": 111.549,
+    "text": "The graph reaches its peak at 9232."
+  },
+  {
+    "t_start": 111.549,
+    "t_end": 115.689,
+    "text": "Of course researchers have used computers to help out."
+  },
+  {
+    "t_start": 115.689,
+    "t_end": 118.749,
+    "text": "You can click on this box to enter your own starting number"
+  },
+  {
+    "t_start": 118.749,
+    "t_end": 120.56,
+    "text": "and explore what happens."
+  },
+  {
+    "t_start": 120.56,
+    "t_end": 125.249,
+    "text": "To date, all starting numbers less than 5x2^60 have been checked"
+  },
+  {
+    "t_start": 125.249,
+    "t_end": 127.659,
+    "text": "and they all eventually reach one."
+  },
+  {
+    "t_start": 127.659,
+    "t_end": 131.47,
+    "text": "Of course this doesn't prove the conjecture for larger starting numbers,"
+  },
+  {
+    "t_start": 131.47,
+    "t_end": 135.6,
+    "text": "but it does mean that working by hand is not a good idea."
+  },
+  {
+    "t_start": 135.6,
+    "t_end": 140.05,
+    "text": "This impossible problem is usually called the 3x+1 problem, but it's"
+  },
+  {
+    "t_start": 140.05,
+    "t_end": 143.33,
+    "text": "also known as the Collatz Conjecture, named after Lothar"
+  },
+  {
+    "t_start": 143.33,
+    "t_end": 147.56,
+    "text": "Collatz who invented the problem back in the 1930s."
+  },
+  {
+    "t_start": 147.56,
+    "t_end": 150.17,
+    "text": "Other mathematicians who were intrigued by the problem"
+  },
+  {
+    "t_start": 150.17,
+    "t_end": 154.17,
+    "text": "mentioned it in their lectures, so this conjecture also became known as"
+  },
+  {
+    "t_start": 154.17,
+    "t_end": 160.05,
+    "text": "Hasse's problem, Kakutani\u2019s Problem, and Ulam's problem."
+  },
+  {
+    "t_start": 160.05,
+    "t_end": 164.87,
+    "text": "With all this interest, it was joked in 1960 that the 3x+1 problem"
+  },
+  {
+    "t_start": 164.87,
+    "t_end": 169.67,
+    "text": "was part of a conspiracy to slow down mathematical research in the U.S."
+  },
+  {
+    "t_start": 169.67,
+    "t_end": 172.47,
+    "text": "But getting back to the problem, what could happen if"
+  },
+  {
+    "t_start": 172.47,
+    "t_end": 175.84,
+    "text": "a starting number doesn't reach the cycle \\{{}4,2,1}?"
+  },
+  {
+    "t_start": 175.84,
+    "t_end": 180.09,
+    "text": "One possiblity is that it approaches some other cycle."
+  },
+  {
+    "t_start": 180.09,
+    "t_end": 185.78,
+    "text": "Advanced theory shows that any cycle besides \\{{}4,2,1} must have at least 10 billion"
+  },
+  {
+    "t_start": 185.78,
+    "t_end": 186.78,
+    "text": "numbers."
+  },
+  {
+    "t_start": 186.78,
+    "t_end": 189.96,
+    "text": "The only other possibility is that the numbers would get arbitrarily"
+  },
+  {
+    "t_start": 189.96,
+    "t_end": 191.97,
+    "text": "large and approach infinity."
+  },
+  {
+    "t_start": 191.97,
+    "t_end": 195.35,
+    "text": "But both of these scenarios are highly unlikely."
+  },
+  {
+    "t_start": 195.35,
+    "t_end": 198.43,
+    "text": "Over time, mathematicians have built complex theories"
+  },
+  {
+    "t_start": 198.43,
+    "t_end": 203.62,
+    "text": "to try to understand the 3x+1 problem, but they've made little progress."
+  },
+  {
+    "t_start": 203.62,
+    "t_end": 207.32,
+    "text": "Even the 20th century genius Paul Erdos said about this"
+  },
+  {
+    "t_start": 207.32,
+    "t_end": 210.93,
+    "text": "challenge, \"Mathematics is not yet ready for such problems\"."
+  },
+  {
+    "t_start": 210.93,
+    "t_end": 215.31,
+    "text": "But hey, but don't let me or Paul discourage you."
+  },
+  {
+    "t_start": 215.31,
+    "t_end": 229.29,
+    "text": "What can you see in this problem?"
+  }
+]

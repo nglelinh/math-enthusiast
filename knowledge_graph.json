@@ -1,0 +1,1178 @@
+{
+  "version": 1,
+  "concepts": [
+    {
+      "id": "fields_medal_2026_pardon",
+      "name": "John Pardon Fields Medal 2026",
+      "aliases": [
+        "Pardon 2026",
+        "Pardon symplectic Fields"
+      ],
+      "chapter": "02",
+      "lesson": "contents/en/chapter02/_posts/21-01-01-02_13_Pardon_Symplectic.md",
+      "sources": [
+        "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026",
+        "https://www.facebook.com/reel/1666056391140628"
+      ],
+      "tags": [
+        "fields-medal",
+        "symplectic-geometry"
+      ]
+    },
+    {
+      "id": "log_derived_regularity",
+      "name": "Log Derived Regularity Theorem",
+      "aliases": [
+        "logarithmic derived regularity",
+        "LogDSm moduli"
+      ],
+      "chapter": "02",
+      "lesson": "contents/en/chapter02/_posts/21-01-01-02_13_Pardon_Symplectic.md",
+      "sources": [
+        "https://www.facebook.com/reel/1666056391140628"
+      ],
+      "tags": [
+        "moduli",
+        "log-geometry",
+        "derived-geometry",
+        "in-progress"
+      ]
+    },
+    {
+      "id": "virtual_fundamental_cycles",
+      "name": "Virtual fundamental cycles",
+      "aliases": [
+        "virtual cycles"
+      ],
+      "chapter": "02",
+      "lesson": "contents/en/chapter02/_posts/21-01-01-02_13_Pardon_Symplectic.md",
+      "sources": [],
+      "tags": [
+        "symplectic-geometry",
+        "moduli"
+      ]
+    },
+    {
+      "id": "fukaya_categories",
+      "name": "Fukaya categories",
+      "aliases": [
+        "Fukaya category"
+      ],
+      "chapter": "02",
+      "lesson": "contents/en/chapter02/_posts/21-01-01-02_13_Pardon_Symplectic.md",
+      "sources": [],
+      "tags": [
+        "symplectic-geometry",
+        "mirror-symmetry"
+      ]
+    },
+    {
+      "id": "kakeya_conjecture",
+      "name": "Kakeya set conjecture",
+      "aliases": [
+        "Kakeya conjecture",
+        "phỏng đoán Kakeya"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=pxVMKoZsVc8",
+        "https://www.youtube.com/watch?v=XUkfpgFakMQ",
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU",
+        "https://www.youtube.com/watch?v=LJcWhcM4okQ",
+        "https://www.youtube.com/watch?v=FQXbRGmAbUY",
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI",
+        "https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/"
+      ],
+      "tags": [
+        "geometric-measure-theory",
+        "open-problems"
+      ]
+    },
+    {
+      "id": "wang_zahl_2025",
+      "name": "Wang–Zahl 3D Kakeya theorem (2025)",
+      "aliases": [
+        "Kakeya 3D proved 2025"
+      ],
+      "chapter": "02",
+      "lesson": "contents/en/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=pxVMKoZsVc8",
+        "https://arxiv.org/abs/2502.17655",
+        "https://www.youtube.com/watch?v=XUkfpgFakMQ",
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU",
+        "https://www.youtube.com/watch?v=LJcWhcM4okQ",
+        "https://www.youtube.com/watch?v=FQXbRGmAbUY",
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI",
+        "https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/"
+      ],
+      "tags": [
+        "kakeya",
+        "fields-medal"
+      ]
+    },
+    {
+      "id": "besicovitch_set",
+      "name": "Besicovitch set",
+      "aliases": [
+        "measure-zero Kakeya set"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=pxVMKoZsVc8",
+        "https://www.youtube.com/watch?v=XUkfpgFakMQ",
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU",
+        "https://www.youtube.com/watch?v=LJcWhcM4okQ",
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI",
+        "https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/"
+      ],
+      "tags": [
+        "kakeya"
+      ]
+    },
+    {
+      "id": "perron_tree",
+      "name": "Perron tree (Besicovitch construction)",
+      "aliases": [
+        "Perron-tree",
+        "cut-and-slide Kakeya"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=XUkfpgFakMQ",
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU"
+      ],
+      "tags": [
+        "kakeya",
+        "construction"
+      ]
+    },
+    {
+      "id": "minkowski_dimension",
+      "name": "Minkowski (box-counting) dimension",
+      "aliases": [
+        "box dimension",
+        "Minkowski dim"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=XUkfpgFakMQ",
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU",
+        "https://www.youtube.com/watch?v=LJcWhcM4okQ"
+      ],
+      "tags": [
+        "geometric-measure-theory"
+      ]
+    },
+    {
+      "id": "hausdorff_dimension",
+      "name": "Hausdorff dimension",
+      "aliases": [
+        "dim_H"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=XUkfpgFakMQ",
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU",
+        "https://www.youtube.com/watch?v=LJcWhcM4okQ",
+        "https://www.youtube.com/watch?v=FQXbRGmAbUY",
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI",
+        "https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/"
+      ],
+      "tags": [
+        "geometric-measure-theory"
+      ]
+    },
+    {
+      "id": "kakeya_needle_problem",
+      "name": "Kakeya needle problem (continuous motion)",
+      "aliases": [
+        "squeegee problem",
+        "continuous Kakeya needle"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU"
+      ],
+      "tags": [
+        "kakeya",
+        "construction"
+      ]
+    },
+    {
+      "id": "kakeya_fish",
+      "name": "Kakeya fish (three Perron trees)",
+      "aliases": [
+        "three-tree Kakeya construction"
+      ],
+      "chapter": "07",
+      "lesson": "contents/en/chapter07/_posts/21-01-01-07_02_Explore_Kakeya.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU"
+      ],
+      "tags": [
+        "kakeya",
+        "construction"
+      ]
+    },
+    {
+      "id": "parallel_transfer",
+      "name": "Parallel transfer (near-zero area swipe)",
+      "aliases": [
+        "magic parallel transfer",
+        "squeegee parallel move"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU"
+      ],
+      "tags": [
+        "kakeya"
+      ]
+    },
+    {
+      "id": "gauge_function",
+      "name": "Gauge function (Hausdorff measure)",
+      "aliases": [
+        "dimension function",
+        "gauge φ"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=LJcWhcM4okQ",
+        "https://www.youtube.com/watch?v=FQXbRGmAbUY"
+      ],
+      "tags": [
+        "geometric-measure-theory",
+        "hausdorff"
+      ]
+    },
+    {
+      "id": "hausdorff_measure",
+      "name": "Hausdorff measure H^s",
+      "aliases": [
+        "s-dimensional Hausdorff measure",
+        "H^s"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=LJcWhcM4okQ",
+        "https://www.youtube.com/watch?v=FQXbRGmAbUY"
+      ],
+      "tags": [
+        "geometric-measure-theory"
+      ]
+    },
+    {
+      "id": "mass_distribution_principle",
+      "name": "Mass Distribution Principle",
+      "aliases": [
+        "MDP",
+        "Frostman-type lower bound"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=FQXbRGmAbUY"
+      ],
+      "tags": [
+        "geometric-measure-theory",
+        "hausdorff"
+      ]
+    },
+    {
+      "id": "box_counting_upper_bound",
+      "name": "Covering upper bound for Hausdorff dimension",
+      "aliases": [
+        "log N / -log δ bound"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=FQXbRGmAbUY"
+      ],
+      "tags": [
+        "geometric-measure-theory",
+        "hausdorff"
+      ]
+    },
+    {
+      "id": "restriction_conjecture",
+      "name": "Fourier restriction conjecture",
+      "aliases": [
+        "restriction problem"
+      ],
+      "chapter": "02",
+      "lesson": "contents/en/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI",
+        "https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/"
+      ],
+      "tags": [
+        "harmonic-analysis",
+        "kakeya-tower"
+      ]
+    },
+    {
+      "id": "bochner_riesz",
+      "name": "Bochner–Riesz conjecture",
+      "aliases": [
+        "Bochner-Riesz"
+      ],
+      "chapter": "02",
+      "lesson": "contents/en/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI"
+      ],
+      "tags": [
+        "harmonic-analysis",
+        "kakeya-tower"
+      ]
+    },
+    {
+      "id": "local_smoothing",
+      "name": "Local smoothing conjecture",
+      "aliases": [
+        "local smoothing for waves"
+      ],
+      "chapter": "02",
+      "lesson": "contents/en/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI",
+        "https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/"
+      ],
+      "tags": [
+        "harmonic-analysis",
+        "pde",
+        "kakeya-tower"
+      ]
+    },
+    {
+      "id": "fefferman_kakeya",
+      "name": "Fefferman–Kakeya link (Fourier)",
+      "aliases": [
+        "Fefferman Fourier Kakeya"
+      ],
+      "chapter": "02",
+      "lesson": "contents/en/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI"
+      ],
+      "tags": [
+        "harmonic-analysis",
+        "history"
+      ]
+    },
+    {
+      "id": "induction_on_scales",
+      "name": "Induction on scales",
+      "aliases": [
+        "multiscale induction"
+      ],
+      "chapter": "02",
+      "lesson": "contents/en/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI"
+      ],
+      "tags": [
+        "kakeya",
+        "proof-method"
+      ]
+    },
+    {
+      "id": "p_vs_np",
+      "name": "P vs NP problem",
+      "aliases": [
+        "P versus NP",
+        "Millennium P vs NP"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_03_P_vs_NP.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=pQsdygaYcE4",
+        "https://www.claymath.org/millennium/p-vs-np/"
+      ],
+      "tags": [
+        "complexity",
+        "open-problems",
+        "millennium"
+      ]
+    },
+    {
+      "id": "class_p",
+      "name": "Complexity class P",
+      "aliases": [
+        "polynomial time"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_03_P_vs_NP.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=pQsdygaYcE4"
+      ],
+      "tags": [
+        "complexity"
+      ]
+    },
+    {
+      "id": "class_np",
+      "name": "Complexity class NP",
+      "aliases": [
+        "nondeterministic polynomial time"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_03_P_vs_NP.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=pQsdygaYcE4"
+      ],
+      "tags": [
+        "complexity"
+      ]
+    },
+    {
+      "id": "np_complete",
+      "name": "NP-completeness",
+      "aliases": [
+        "NP-complete",
+        "Cook–Levin"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_03_P_vs_NP.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=pQsdygaYcE4"
+      ],
+      "tags": [
+        "complexity"
+      ]
+    },
+    {
+      "id": "natural_proofs",
+      "name": "Natural proofs barrier",
+      "aliases": [
+        "Razborov–Rudich"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_03_P_vs_NP.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=pQsdygaYcE4"
+      ],
+      "tags": [
+        "complexity",
+        "barriers"
+      ]
+    },
+    {
+      "id": "mcsp",
+      "name": "Minimum Circuit Size Problem (MCSP)",
+      "aliases": [
+        "MCSP"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_03_P_vs_NP.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=pQsdygaYcE4"
+      ],
+      "tags": [
+        "complexity",
+        "metacomplexity"
+      ]
+    },
+    {
+      "id": "riemann_hypothesis",
+      "name": "Riemann Hypothesis",
+      "aliases": [
+        "RH",
+        "giả thuyết Riemann"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_02_Riemann_Hypothesis.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=zlm1aajH6gY",
+        "https://www.claymath.org/millennium/riemann-hypothesis/"
+      ],
+      "tags": [
+        "number-theory",
+        "open-problems",
+        "millennium"
+      ]
+    },
+    {
+      "id": "riemann_zeta",
+      "name": "Riemann zeta function",
+      "aliases": [
+        "zeta(s)",
+        "ζ(s)"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_02_Riemann_Hypothesis.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=zlm1aajH6gY"
+      ],
+      "tags": [
+        "number-theory",
+        "analytic"
+      ]
+    },
+    {
+      "id": "euler_product",
+      "name": "Euler product for zeta",
+      "aliases": [
+        "Euler product"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_02_Riemann_Hypothesis.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=zlm1aajH6gY"
+      ],
+      "tags": [
+        "number-theory"
+      ]
+    },
+    {
+      "id": "prime_number_theorem",
+      "name": "Prime number theorem",
+      "aliases": [
+        "PNT",
+        "π(x) ~ li(x)"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_02_Riemann_Hypothesis.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=zlm1aajH6gY"
+      ],
+      "tags": [
+        "number-theory"
+      ]
+    },
+    {
+      "id": "critical_strip",
+      "name": "Critical strip / critical line",
+      "aliases": [
+        "critical line Re(s)=1/2"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_02_Riemann_Hypothesis.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=zlm1aajH6gY"
+      ],
+      "tags": [
+        "number-theory"
+      ]
+    },
+    {
+      "id": "explicit_formula",
+      "name": "Explicit formula (primes ↔ zeros)",
+      "aliases": [
+        "Riemann–von Mangoldt explicit formula"
+      ],
+      "chapter": "01",
+      "lesson": "contents/en/chapter01/_posts/21-01-01-01_02_Riemann_Hypothesis.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=zlm1aajH6gY"
+      ],
+      "tags": [
+        "number-theory",
+        "analytic"
+      ]
+    },
+    {
+      "id": "gradient",
+      "name": "Gradient (∇f)",
+      "aliases": [
+        "grad",
+        "steepest ascent"
+      ],
+      "chapter": "03",
+      "lesson": "contents/en/chapter03/_posts/21-01-01-03_02_Calculus_Physics_Engineering.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=m_Psx7CdvDk"
+      ],
+      "tags": [
+        "vector-calculus"
+      ]
+    },
+    {
+      "id": "divergence",
+      "name": "Divergence (∇·v)",
+      "aliases": [
+        "div"
+      ],
+      "chapter": "03",
+      "lesson": "contents/en/chapter03/_posts/21-01-01-03_02_Calculus_Physics_Engineering.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=m_Psx7CdvDk"
+      ],
+      "tags": [
+        "vector-calculus"
+      ]
+    },
+    {
+      "id": "curl",
+      "name": "Curl (∇×v)",
+      "aliases": [
+        "rot",
+        "rotation"
+      ],
+      "chapter": "03",
+      "lesson": "contents/en/chapter03/_posts/21-01-01-03_02_Calculus_Physics_Engineering.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=m_Psx7CdvDk"
+      ],
+      "tags": [
+        "vector-calculus"
+      ]
+    },
+    {
+      "id": "vector_field",
+      "name": "Vector field",
+      "aliases": [
+        "vector-valued field"
+      ],
+      "chapter": "03",
+      "lesson": "contents/en/chapter03/_posts/21-01-01-03_02_Calculus_Physics_Engineering.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=m_Psx7CdvDk"
+      ],
+      "tags": [
+        "vector-calculus"
+      ]
+    },
+    {
+      "id": "scalar_field",
+      "name": "Scalar field",
+      "aliases": [],
+      "chapter": "03",
+      "lesson": "contents/en/chapter03/_posts/21-01-01-03_02_Calculus_Physics_Engineering.md",
+      "sources": [
+        "https://www.youtube.com/watch?v=m_Psx7CdvDk"
+      ],
+      "tags": [
+        "vector-calculus"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "virtual_fundamental_cycles",
+      "to": "fields_medal_2026_pardon",
+      "type": "related"
+    },
+    {
+      "from": "fukaya_categories",
+      "to": "fields_medal_2026_pardon",
+      "type": "related"
+    },
+    {
+      "from": "fields_medal_2026_pardon",
+      "to": "log_derived_regularity",
+      "type": "builds_on",
+      "notes": "ICM 2026 lecture content (in progress) on log/derived moduli regularity"
+    },
+    {
+      "from": "besicovitch_set",
+      "to": "kakeya_conjecture",
+      "type": "related"
+    },
+    {
+      "from": "kakeya_conjecture",
+      "to": "wang_zahl_2025",
+      "type": "builds_on"
+    },
+    {
+      "from": "wang_zahl_2025",
+      "to": "kakeya_conjecture",
+      "type": "builds_on",
+      "notes": "3D case of Kakeya set conjecture"
+    },
+    {
+      "from": "perron_tree",
+      "to": "besicovitch_set",
+      "type": "example_of"
+    },
+    {
+      "from": "minkowski_dimension",
+      "to": "kakeya_conjecture",
+      "type": "related"
+    },
+    {
+      "from": "hausdorff_dimension",
+      "to": "kakeya_conjecture",
+      "type": "related"
+    },
+    {
+      "from": "perron_tree",
+      "to": "kakeya_conjecture",
+      "type": "related"
+    },
+    {
+      "from": "parallel_transfer",
+      "to": "kakeya_needle_problem",
+      "type": "related"
+    },
+    {
+      "from": "perron_tree",
+      "to": "kakeya_needle_problem",
+      "type": "related"
+    },
+    {
+      "from": "kakeya_fish",
+      "to": "kakeya_needle_problem",
+      "type": "example_of"
+    },
+    {
+      "from": "kakeya_needle_problem",
+      "to": "besicovitch_set",
+      "type": "builds_on",
+      "notes": "Continuous arbitrarily-small area → limit measure-zero static set"
+    },
+    {
+      "from": "kakeya_needle_problem",
+      "to": "kakeya_conjecture",
+      "type": "related"
+    },
+    {
+      "from": "gauge_function",
+      "to": "hausdorff_measure",
+      "type": "prerequisite"
+    },
+    {
+      "from": "hausdorff_measure",
+      "to": "hausdorff_dimension",
+      "type": "builds_on"
+    },
+    {
+      "from": "box_counting_upper_bound",
+      "to": "hausdorff_dimension",
+      "type": "related",
+      "notes": "Upper bound via covering counts"
+    },
+    {
+      "from": "mass_distribution_principle",
+      "to": "hausdorff_dimension",
+      "type": "related",
+      "notes": "Lower bound tool"
+    },
+    {
+      "from": "mass_distribution_principle",
+      "to": "hausdorff_measure",
+      "type": "builds_on"
+    },
+    {
+      "from": "mass_distribution_principle",
+      "to": "kakeya_conjecture",
+      "type": "related",
+      "notes": "Lower-bound toolkit used in Kakeya-type GMT"
+    },
+    {
+      "from": "kakeya_conjecture",
+      "to": "restriction_conjecture",
+      "type": "related",
+      "notes": "Kakeya base of HA tower"
+    },
+    {
+      "from": "restriction_conjecture",
+      "to": "bochner_riesz",
+      "type": "related"
+    },
+    {
+      "from": "bochner_riesz",
+      "to": "local_smoothing",
+      "type": "related"
+    },
+    {
+      "from": "fefferman_kakeya",
+      "to": "kakeya_conjecture",
+      "type": "related"
+    },
+    {
+      "from": "fefferman_kakeya",
+      "to": "restriction_conjecture",
+      "type": "related"
+    },
+    {
+      "from": "induction_on_scales",
+      "to": "wang_zahl_2025",
+      "type": "related"
+    },
+    {
+      "from": "wang_zahl_2025",
+      "to": "restriction_conjecture",
+      "type": "related",
+      "notes": "3D Kakeya enables climbing the tower"
+    },
+    {
+      "from": "class_p",
+      "to": "class_np",
+      "type": "related",
+      "notes": "P ⊆ NP"
+    },
+    {
+      "from": "class_np",
+      "to": "p_vs_np",
+      "type": "related"
+    },
+    {
+      "from": "class_p",
+      "to": "p_vs_np",
+      "type": "related"
+    },
+    {
+      "from": "np_complete",
+      "to": "p_vs_np",
+      "type": "builds_on"
+    },
+    {
+      "from": "natural_proofs",
+      "to": "p_vs_np",
+      "type": "related"
+    },
+    {
+      "from": "mcsp",
+      "to": "p_vs_np",
+      "type": "related"
+    },
+    {
+      "from": "mcsp",
+      "to": "natural_proofs",
+      "type": "related"
+    },
+    {
+      "from": "euler_product",
+      "to": "riemann_zeta",
+      "type": "related"
+    },
+    {
+      "from": "riemann_zeta",
+      "to": "riemann_hypothesis",
+      "type": "builds_on"
+    },
+    {
+      "from": "critical_strip",
+      "to": "riemann_hypothesis",
+      "type": "related"
+    },
+    {
+      "from": "prime_number_theorem",
+      "to": "riemann_hypothesis",
+      "type": "related",
+      "notes": "RH refines PNT error"
+    },
+    {
+      "from": "explicit_formula",
+      "to": "riemann_hypothesis",
+      "type": "related"
+    },
+    {
+      "from": "explicit_formula",
+      "to": "prime_number_theorem",
+      "type": "related"
+    },
+    {
+      "from": "scalar_field",
+      "to": "gradient",
+      "type": "prerequisite"
+    },
+    {
+      "from": "vector_field",
+      "to": "divergence",
+      "type": "prerequisite"
+    },
+    {
+      "from": "vector_field",
+      "to": "curl",
+      "type": "prerequisite"
+    },
+    {
+      "from": "divergence",
+      "to": "gradient",
+      "type": "related",
+      "notes": "Both built from ∇; heat uses −∇T and div"
+    }
+  ],
+  "lessons": [
+    {
+      "path": "contents/en/chapter02/_posts/21-01-01-02_13_Pardon_Symplectic.md",
+      "title": "John Pardon: Symplectic Geometry and Topology (Fields Medal 2026)",
+      "chapter": "02",
+      "concepts": [
+        "fields_medal_2026_pardon",
+        "virtual_fundamental_cycles",
+        "fukaya_categories",
+        "log_derived_regularity"
+      ],
+      "sources": [
+        "https://www.facebook.com/reel/1666056391140628"
+      ]
+    },
+    {
+      "path": "contents/vi/chapter02/_posts/21-01-01-02_13_Pardon_Symplectic.md",
+      "title": "John Pardon: Hình học Symplectic và Tôpô (Huy chương Fields 2026)",
+      "chapter": "02",
+      "concepts": [
+        "fields_medal_2026_pardon",
+        "log_derived_regularity"
+      ],
+      "sources": [
+        "https://www.facebook.com/reel/1666056391140628"
+      ]
+    },
+    {
+      "path": "contents/en/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+      "title": "The Kakeya Conjecture",
+      "chapter": "01",
+      "concepts": [
+        "kakeya_conjecture",
+        "perron_tree",
+        "minkowski_dimension",
+        "hausdorff_dimension",
+        "besicovitch_set",
+        "wang_zahl_2025",
+        "kakeya_needle_problem",
+        "kakeya_fish",
+        "parallel_transfer",
+        "gauge_function",
+        "hausdorff_measure",
+        "mass_distribution_principle",
+        "box_counting_upper_bound",
+        "restriction_conjecture",
+        "bochner_riesz",
+        "local_smoothing",
+        "fefferman_kakeya",
+        "induction_on_scales"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=pxVMKoZsVc8",
+        "https://www.youtube.com/watch?v=XUkfpgFakMQ",
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU",
+        "https://www.youtube.com/watch?v=LJcWhcM4okQ",
+        "https://www.youtube.com/watch?v=FQXbRGmAbUY",
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI",
+        "https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/"
+      ]
+    },
+    {
+      "path": "contents/vi/chapter01/_posts/21-01-01-01_08_Kakeya_Conjecture.md",
+      "title": "Giả thuyết Kakeya",
+      "chapter": "01",
+      "concepts": [
+        "kakeya_conjecture",
+        "perron_tree",
+        "minkowski_dimension",
+        "hausdorff_dimension",
+        "besicovitch_set",
+        "wang_zahl_2025",
+        "kakeya_needle_problem",
+        "kakeya_fish",
+        "parallel_transfer",
+        "gauge_function",
+        "hausdorff_measure",
+        "mass_distribution_principle",
+        "box_counting_upper_bound",
+        "restriction_conjecture",
+        "bochner_riesz",
+        "local_smoothing",
+        "fefferman_kakeya",
+        "induction_on_scales"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=pxVMKoZsVc8",
+        "https://www.youtube.com/watch?v=XUkfpgFakMQ",
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU",
+        "https://www.youtube.com/watch?v=LJcWhcM4okQ",
+        "https://www.youtube.com/watch?v=FQXbRGmAbUY",
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI",
+        "https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/"
+      ]
+    },
+    {
+      "path": "contents/en/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md",
+      "title": "Hong Wang: Harmonic Analysis…",
+      "chapter": "02",
+      "concepts": [
+        "kakeya_conjecture",
+        "restriction_conjecture",
+        "bochner_riesz",
+        "local_smoothing",
+        "fefferman_kakeya",
+        "induction_on_scales"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=pxVMKoZsVc8",
+        "https://www.youtube.com/watch?v=XUkfpgFakMQ",
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU",
+        "https://www.youtube.com/watch?v=LJcWhcM4okQ",
+        "https://www.youtube.com/watch?v=FQXbRGmAbUY",
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI",
+        "https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/"
+      ]
+    },
+    {
+      "path": "contents/vi/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md",
+      "title": "Hong Wang: Giải tích Điều hòa…",
+      "chapter": "02",
+      "concepts": [
+        "kakeya_conjecture",
+        "restriction_conjecture",
+        "bochner_riesz",
+        "local_smoothing",
+        "fefferman_kakeya",
+        "induction_on_scales"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=pxVMKoZsVc8",
+        "https://www.youtube.com/watch?v=XUkfpgFakMQ",
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU",
+        "https://www.youtube.com/watch?v=LJcWhcM4okQ",
+        "https://www.youtube.com/watch?v=FQXbRGmAbUY",
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI",
+        "https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/"
+      ]
+    },
+    {
+      "path": "contents/en/chapter07/_posts/21-01-01-07_02_Explore_Kakeya.md",
+      "title": "Explore Kakeya",
+      "chapter": "07",
+      "concepts": [
+        "kakeya_conjecture",
+        "wang_zahl_2025",
+        "kakeya_needle_problem",
+        "kakeya_fish",
+        "parallel_transfer"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=XUkfpgFakMQ",
+        "https://www.youtube.com/watch?v=pxVMKoZsVc8",
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU",
+        "https://www.youtube.com/watch?v=LJcWhcM4okQ",
+        "https://www.youtube.com/watch?v=FQXbRGmAbUY",
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI",
+        "https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/"
+      ]
+    },
+    {
+      "path": "contents/vi/chapter07/_posts/21-01-01-07_02_Explore_Kakeya.md",
+      "title": "Explore Kakeya (VI)",
+      "chapter": "07",
+      "concepts": [
+        "kakeya_conjecture",
+        "wang_zahl_2025",
+        "kakeya_needle_problem",
+        "kakeya_fish",
+        "parallel_transfer"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=XUkfpgFakMQ",
+        "https://www.youtube.com/watch?v=pxVMKoZsVc8",
+        "https://www.youtube.com/watch?v=IM-n9c-ARHU",
+        "https://www.youtube.com/watch?v=LJcWhcM4okQ",
+        "https://www.youtube.com/watch?v=FQXbRGmAbUY",
+        "https://www.youtube.com/watch?v=5J3tYU_-IZI",
+        "https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/"
+      ]
+    },
+    {
+      "path": "contents/en/chapter01/_posts/21-01-01-01_03_P_vs_NP.md",
+      "title": "The P vs NP Problem",
+      "chapter": "01",
+      "concepts": [
+        "p_vs_np",
+        "class_p",
+        "class_np",
+        "np_complete",
+        "natural_proofs",
+        "mcsp"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=pQsdygaYcE4"
+      ]
+    },
+    {
+      "path": "contents/vi/chapter01/_posts/21-01-01-01_03_P_vs_NP.md",
+      "title": "Bài toán P đối với NP",
+      "chapter": "01",
+      "concepts": [
+        "p_vs_np",
+        "class_p",
+        "class_np",
+        "np_complete",
+        "natural_proofs",
+        "mcsp"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=pQsdygaYcE4"
+      ]
+    },
+    {
+      "path": "contents/en/chapter01/_posts/21-01-01-01_02_Riemann_Hypothesis.md",
+      "title": "The Riemann Hypothesis",
+      "chapter": "01",
+      "concepts": [
+        "riemann_hypothesis",
+        "riemann_zeta",
+        "euler_product",
+        "prime_number_theorem",
+        "critical_strip",
+        "explicit_formula"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=zlm1aajH6gY",
+        "https://www.claymath.org/millennium/riemann-hypothesis/"
+      ]
+    },
+    {
+      "path": "contents/vi/chapter01/_posts/21-01-01-01_02_Riemann_Hypothesis.md",
+      "title": "Giả thuyết Riemann",
+      "chapter": "01",
+      "concepts": [
+        "riemann_hypothesis",
+        "riemann_zeta",
+        "euler_product",
+        "prime_number_theorem",
+        "critical_strip",
+        "explicit_formula"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=zlm1aajH6gY",
+        "https://www.claymath.org/millennium/riemann-hypothesis/"
+      ]
+    },
+    {
+      "path": "contents/en/chapter03/_posts/21-01-01-03_02_Calculus_Physics_Engineering.md",
+      "title": "Calculus → Physics & Engineering",
+      "chapter": "03",
+      "concepts": [
+        "gradient",
+        "divergence",
+        "curl",
+        "vector_field",
+        "scalar_field"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=m_Psx7CdvDk"
+      ]
+    },
+    {
+      "path": "contents/vi/chapter03/_posts/21-01-01-03_02_Calculus_Physics_Engineering.md",
+      "title": "Giải tích → Vật lý & Kỹ thuật",
+      "chapter": "03",
+      "concepts": [
+        "gradient",
+        "divergence",
+        "curl",
+        "vector_field",
+        "scalar_field"
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=m_Psx7CdvDk"
+      ]
+    }
+  ]
+}

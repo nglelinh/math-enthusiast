@@ -1,0 +1,37 @@
+{
+  "slug": "godel-incompleteness",
+  "videos": [
+    {
+      "id": "O4ndIDcDSGc",
+      "title": "Numberphile — Gödel's Incompleteness Theorem (Marcus du Sautoy)",
+      "has_transcript": true,
+      "chars": 13203,
+      "units": 10,
+      "url": "https://www.youtube.com/watch?v=O4ndIDcDSGc"
+    },
+    {
+      "id": "I4pQbo5MQOs",
+      "title": "TED-Ed — Paradox at the heart of mathematics (du Sautoy)",
+      "has_transcript": true,
+      "chars": 4284,
+      "units": 4,
+      "url": "https://www.youtube.com/watch?v=I4pQbo5MQOs"
+    },
+    {
+      "id": "HeQX2HjkcNo",
+      "title": "Veritasium — Math's Fundamental Flaw (Gödel + undecidability arc)",
+      "has_transcript": true,
+      "chars": 28436,
+      "units": 22,
+      "url": "https://www.youtube.com/watch?v=HeQX2HjkcNo"
+    },
+    {
+      "id": "IuX8QMgy4qE",
+      "title": "Computerphile — Gödel's Incompleteness (Altenkirch / Lean)",
+      "has_transcript": true,
+      "chars": 20938,
+      "units": 13,
+      "url": "https://www.youtube.com/watch?v=IuX8QMgy4qE"
+    }
+  ]
+}

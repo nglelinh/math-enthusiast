@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="400" viewBox="0 0 480 400">
+  <rect width="480" height="400" fill="#fafbfc"/>
+  <text x="240" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1a1a">Modular arithmetic (clock face)</text>
+  <circle cx="240" cy="210" r="120" fill="#e8f1fa" stroke="#004586" stroke-width="2"/>
+  <circle cx="240" cy="210" r="4" fill="#004586"/>
+  <g font-family="system-ui" font-size="14" text-anchor="middle" fill="#004586">
+    <text x="240" y="105">0</text>
+    <text x="330" y="150">1</text>
+    <text x="355" y="220">2</text>
+    <text x="330" y="290">3</text>
+    <text x="240" y="330">4</text>
+    <text x="150" y="290">5</text>
+    <text x="125" y="220">6</text>
+    <text x="150" y="150">7</text>
+  </g>
+  <text x="240" y="375" text-anchor="middle" font-family="system-ui" font-size="12" fill="#444">Working mod 8: after 7 comes 0 again. Public-key crypto lives in such finite worlds (much larger moduli).</text>
+</svg>

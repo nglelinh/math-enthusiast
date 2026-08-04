@@ -1,0 +1,182 @@
+[
+  {
+    "t_start": 0.29,
+    "t_end": 6.57,
+    "text": "The goal here is to introduce the Ising model without going into details about its solution."
+  },
+  {
+    "t_start": 6.57,
+    "t_end": 12.68,
+    "text": "Suppose we have a system of N sites with two possible states. That could, for instance,"
+  },
+  {
+    "t_start": 12.68,
+    "t_end": 19.59,
+    "text": "represent localized spins 1/2, that can be either up or down. Importantly, any two neighboring"
+  },
+  {
+    "t_start": 19.59,
+    "t_end": 27.111,
+    "text": "sites are coupled via an interaction -J. In this way a positive value for J favors the"
+  },
+  {
+    "t_start": 27.111,
+    "t_end": 30.36,
+    "text": "parallel alignment of neighboring states."
+  },
+  {
+    "t_start": 30.36,
+    "t_end": 36.71,
+    "text": "Additionally we could think of a term to manipulate the state at each site individually. In the"
+  },
+  {
+    "t_start": 36.71,
+    "t_end": 42.4,
+    "text": "case of localized spins this can be achieved by an external magnetic field. For a thorough"
+  },
+  {
+    "t_start": 42.4,
+    "t_end": 48.99,
+    "text": "discussion check out our videos on non-interacting spins. Basically in the presence of a magnetic"
+  },
+  {
+    "t_start": 48.99,
+    "t_end": 53.32,
+    "text": "field the magnetic moments will tend to align."
+  },
+  {
+    "t_start": 53.32,
+    "t_end": 58.739,
+    "text": "The system can be described in terms of this Hamiltonian. The first term corresponds to"
+  },
+  {
+    "t_start": 58.739,
+    "t_end": 65.04,
+    "text": "the system coupling to an external magnetic field B. We rotated our point of view so that"
+  },
+  {
+    "t_start": 65.04,
+    "t_end": 71.85,
+    "text": "the B-field points in z-direction. gs and mu B are just numeric factors. If you want"
+  },
+  {
+    "t_start": 71.85,
+    "t_end": 77.299,
+    "text": "to find out more, they are called spin g-factor and Bohr magneton."
+  },
+  {
+    "t_start": 77.299,
+    "t_end": 83.049,
+    "text": "Note that the Hilbert space is spanned by states of all possible combinations of spin"
+  },
+  {
+    "t_start": 83.049,
+    "t_end": 91.87,
+    "text": "up and down at each site. Therefore, the Pauli matrix sigma z i reads up up - down down at"
+  },
+  {
+    "t_start": 91.87,
+    "t_end": 94.94,
+    "text": "site i. Thats all we need in order to understand the"
+  },
+  {
+    "t_start": 94.94,
+    "t_end": 101.5,
+    "text": "second term as well. It contains the coupling of neighboring sites, a sum over all nearest"
+  },
+  {
+    "t_start": 101.5,
+    "t_end": 108.63,
+    "text": "neighbors and the product of sigma matrices at site i and j. As mentioned a positive J"
+  },
+  {
+    "t_start": 108.63,
+    "t_end": 111.87,
+    "text": "will favor neighboring spins to be parallel."
+  },
+  {
+    "t_start": 111.87,
+    "t_end": 117.91,
+    "text": "It is now time to think of different geometries in which N sites may be arranged."
+  },
+  {
+    "t_start": 117.91,
+    "t_end": 124.21,
+    "text": "In one dimension, it is a simple chain, that could have free or periodic boundary conditions."
+  },
+  {
+    "t_start": 124.21,
+    "t_end": 130.389,
+    "text": "The 1d Ising model is solvable with pen and paper. Thew solution shows that it has no"
+  },
+  {
+    "t_start": 130.389,
+    "t_end": 137.18,
+    "text": "phase transition. The result was reported in 1924 by Ernst Ising in his thesis. The"
+  },
+  {
+    "t_start": 137.18,
+    "t_end": 142.93,
+    "text": "problem was originally posed by his supervisor Wilhelm Lenz. That’s the same physicist"
+  },
+  {
+    "t_start": 142.93,
+    "t_end": 145.349,
+    "text": "we know from Lenz’s rule."
+  },
+  {
+    "t_start": 145.349,
+    "t_end": 150.79,
+    "text": "In 2d, there are multiple ways to construct a lattice, which differ in the number of nearest"
+  },
+  {
+    "t_start": 150.79,
+    "t_end": 155.23,
+    "text": "neighbors. A simple way would be a 2d square lattice."
+  },
+  {
+    "t_start": 155.23,
+    "t_end": 162.79,
+    "text": "For historic reasons the exact solution for the 2d Ising model was given only much later"
+  },
+  {
+    "t_start": 162.79,
+    "t_end": 164.939,
+    "text": "in 1944 by Lars Onsager."
+  },
+  {
+    "t_start": 164.939,
+    "t_end": 171.819,
+    "text": "The Ising model in 3 and 4 dimensions is still under investigation, however the limit of"
+  },
+  {
+    "t_start": 171.819,
+    "t_end": 178.799,
+    "text": "large dimension can be described by a mean field approach. That is one site is described"
+  },
+  {
+    "t_start": 178.799,
+    "t_end": 183.079,
+    "text": "in an effective field construed by the surrounding sites."
+  },
+  {
+    "t_start": 183.079,
+    "t_end": 189.299,
+    "text": "The Ising model is still widely discussed despite of its age. A reason is surely that"
+  },
+  {
+    "t_start": 189.299,
+    "t_end": 195.18,
+    "text": "many problems can be mapped to the Ising model. For more details on how to solve the Ising"
+  },
+  {
+    "t_start": 195.18,
+    "t_end": 199.97,
+    "text": "model and where it might be applied, stay tuned. That’s pretty much it for this"
+  },
+  {
+    "t_start": 199.97,
+    "t_end": 201.139,
+    "text": "video."
+  }
+]

@@ -1,0 +1,303 @@
+[
+  {
+    "id": "ku_video_oqOyTdLsq3o_20",
+    "t_start": 20.8,
+    "t_end": 115.4,
+    "type": "overview",
+    "summary": "welcome everybody to today's lecture lecture by Albert Laszlo barabasi a very famous man in network Theory and a very famous man in network Theory and uh he'll tell you'll find out what network Theory it is I think or it does The Theory it is I think or it does The Theory of Everything Theory of Everything he has lots of awards I'd spend all my he has lots of awards I'd spend all my time listing them so I'll just do the time listing them so I'll just do the latest one that's the 2022 Julius Edgar Lillian Feld price from the American physical Society for from the American physical Society fo…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_115",
+    "t_start": 115.4,
+    "t_end": 206.4,
+    "type": "overview",
+    "summary": "Googling barabasi textbook I think so scale more scientifically than scale-free networks the robustness or vulnerability networks the robustness or vulnerability of networks against breakdowns like well I actually got to know about him first when his PhD dissertation was first when his PhD dissertation was published on Cambridge University publisher under the title of fractal Concepts Concepts in surface growth which I had the pleasure of reading on the subway on in Montreal many years ago the subway on in Montreal many years ago so I've known about him since then so so I've known about him…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_206",
+    "t_start": 206.4,
+    "t_end": 296.5,
+    "type": "overview",
+    "summary": "because networks kind of really Define our life in one way you know they Define our life in one way you know they Define our Communications and this is this is a our Communications and this is this is a stand-in for communication networks because what you see here is a map of the internet how the the notes of the the internet are connected to each other and that is the physical infrastructure that really allows us to have anything from vocals to social media and you name but Network science is also busy exploring the brain which is a kind of like how how actually the neurons are wired toget…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_296",
+    "t_start": 296.5,
+    "t_end": 391.9,
+    "type": "overview",
+    "summary": "do you eventually cure disease for kind of finding drugs drug targets and so on of finding drugs drug targets and so on a drug Target is a drug is nothing but a a drug Target is a drug is nothing but a chemical that that targets one of these chemical that that targets one of these nodes of this particular Network and really today Network science is focused on developing the tools how to focused on developing the tools how to characterize these networks how you mathematically describe them and how do you kind of understand more and more the you kind of understand more and more the functional…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_391",
+    "t_start": 391.9,
+    "t_end": 485.3,
+    "type": "overview",
+    "summary": "fresh PhD student uh uh at IBM TG Watson Research Center and for example Jons Research Center and for example Jons Federer was there as a visiting professor at that time or a visiting researcher and they wanted to develop a researcher and they wanted to develop a program on what else following porous media in that space and they taught some of the tools that I was bringing along may be relevant for that and and it was there at IBM kind of three months after there at IBM kind of three months after my arrival that one one night I said you my arrival that one one night I said you know like Chr…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_485",
+    "t_start": 485.3,
+    "t_end": 578.2,
+    "type": "overview",
+    "summary": "you need is the what we call the adjacency Matrix a gsnc matrix is a adjacency Matrix a gsnc matrix is a mathematician's way to say you know I mathematician's way to say you know I have a set of nodes and I have the sit set of connections between them and those connections could be directed or those connections could be directed or could be undirected could be weighted you name it but doesn't really matter at the end all the information I need to the end all the information I need to know about this network is encoded in know about this network is encoded in this particular Matrix or in tha…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_578",
+    "t_start": 578.2,
+    "t_end": 668.8,
+    "type": "overview",
+    "summary": "reason why the brain is not described because the brain is a physical Network where the links have a physical existence and the physical existence other right they cannot be in the same place in the same time so so the network place in the same time so so the network itself has a physical manifestation and of course physical networks have been around for a very very long time been around for a very very long time but only in the last five years have but only in the last five years have really the Technologies gotten to the point that we can map many of them out right particularly in the cas…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_668",
+    "t_start": 668.8,
+    "t_end": 759.9,
+    "type": "overview",
+    "summary": "individual neurons per se and again you see how crammed they are together and see how crammed they are together and and you can see how physical objects so much of our research on physical networks is really dominant motivated by networks is really dominant motivated by brain but brain is not the only system where we actually see physical networks there are many examples like that there are many examples like that Transportation networks is obviously one Transportation networks is obviously one of those right uh but those are but so is actually the vascular system the one that you see over …"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_759",
+    "t_start": 759.9,
+    "t_end": 852.5,
+    "type": "overview",
+    "summary": "we knew a lot about how to include space into the network description what is unique to physical networks however is the volume exclusion the idea however is the volume exclusion the idea that two nodes or two links cannot be at the same place at the same time and it cannot cross each other right so you cannot cross each other right so you cannot just reorganize the network the cannot just reorganize the network the way you want it because the physicality and the third thing that often happens in physical networks is there's a cost to it right there's a cost to build the neuron there's a co…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_852",
+    "t_start": 852.5,
+    "t_end": 944.8,
+    "type": "overview",
+    "summary": "nodes with springs and then actually you have a spring system and then you let it have a spring system and then you let it relax and that turns out to be the most relax and that turns out to be the most aesthetic way of laying out the network aesthetic way of laying out the network virtually all I mean all the tools that virtually all I mean all the tools that you will find that you can download on you will find that you can download on your laptop to visualize networks would your laptop to visualize networks would be of this kind in the sense that they would have the Springs but they don't…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_944",
+    "t_start": 944.8,
+    "t_end": 1035.9,
+    "type": "overview",
+    "summary": "and I call and then what you do is a tool set that comes from contents matter tool set that comes from contents matter so-called you know molecular dynamics that this is the energy of the system and you try to minimize it which means and you try to minimize it which means that you run some equations to find that minimum so the key here in this one is the fact that the notes and links cannot the fact that the notes and links cannot cross and let me just show you what that means this is the situation when the notes and links would allow to be notes and links would allow to be crossed so I jus…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_1035",
+    "t_start": 1035.9,
+    "t_end": 1130.6,
+    "type": "overview",
+    "summary": "and very very high energy then the code runs runs runs I said oh wait a second configuration this is a square lattice without knowing what the score lattice without knowing what the score lattice is right and eventually it starts to sort itself out and ends up in something that we recognize because that's what we that we recognize because that's what we gave it to him now this is easy right because we gave it to him something that we knew how it it to him something that we knew how it looked like looks like what happens when I give them something that we don't even know how it should look l…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_1130",
+    "t_start": 1130.6,
+    "t_end": 1223.2,
+    "type": "overview",
+    "summary": "result right so much so that we ended up 3D printing it and not only we ended up 3D printing it and not only we ended up 3D printing it but it actually now this 3D printing it but it actually now this print is owned by a museum at one of the it all the way there right so but fundamentally you know and and actually fundamentally you know and and actually the way the museum displays it and it's an art museum in karsh they do display together with the formula that produce together with the formula that produce that right because there is another story here right is that what does it mean for a…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_1223",
+    "t_start": 1223.2,
+    "t_end": 1313.9,
+    "type": "overview",
+    "summary": "here is is showing that right on the horizontal axis you have the link thickness on the vertical axis you have the total length of the link so after the total length of the link so after the layout how long are the cables and the layout how long are the cables and and on the on the left hand side what you see is the low density case right when when the the links are thin and when when the the links are thin and again every link can just go straight again every link can just go straight and reach its destination however if I and reach its destination however if I start thickening these links…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_1313",
+    "t_start": 1313.9,
+    "t_end": 1405.2,
+    "type": "overview",
+    "summary": "of them is the thin phase the sculpture that I showed you right when there's lots of space around and you can easily find your destination and there is a tick space when there is no space and you must curve a lot to really arrive to you must curve a lot to really arrive to your destination and what I find your destination and what I find fascinating about that is that in fascinating about that is that in contrast with the traditional pictures contrast with the traditional pictures we see about the the brain that the space the brain is not in this particular regime but rather the brain is re…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_1405",
+    "t_start": 1405.2,
+    "t_end": 1495.5,
+    "type": "overview",
+    "summary": "so so now we have a tool set right to go ahead and start building these different ahead and start building these different networks where the links do not cross each other and we want it to go a little bit deeper and say you know what kind of bit deeper and say you know what kind of mathematical tools can we bring to mathematical tools can we bring to understand how different how different physical networks relate to each other and one fundamental question is that if and one fundamental question is that if I give you two Network layouts are they I give you two Network layouts are they equiv…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_1495",
+    "t_start": 1495.5,
+    "t_end": 1589.6,
+    "type": "overview",
+    "summary": "right because all three are exactly the same network with the same connectivity same network with the same connectivity it's just the network layout is different so physicality is different so once you have a network you can have an infinite number of layouts but they're infinite number of layouts but they're not all acute they're not all of them different some of them are equivalent with each other and the question is how and for that we went back to mathematics particularly to not Fury and not theory has been dealing with that mostly in the case of the loops and that mostly in the case of…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_1589",
+    "t_start": 1589.6,
+    "t_end": 1682.7,
+    "type": "overview",
+    "summary": "you take your network and you decompose it into many many loops and for each pair of loop you see if there is a non-zero linking number between them so non-zero linking number between them so that's really kind of effectively it's a that's really kind of effectively it's a brute force method it's very time brute force method it's very time consuming to achieve that there's lots consuming to achieve that there's lots of literature about how you find the of literature about how you find the loops in a network systems because these are kind of Cycles in food webs and other places so so we in f…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_1682",
+    "t_start": 1682.7,
+    "t_end": 1774.1,
+    "type": "overview",
+    "summary": "the more entangled it becomes because the harder it is to disentangle and find the harder it is to disentangle and find the layout that would not be kind of the layout that would not be kind of messed up really now how many people are have a physics background in this audience so let's raise your head okay so we have at least two thirds or more so so if you uh so two thirds or more so so if you uh so for a physicist of course the question for a physicist of course the question is how could we mathematically describe that and there we had actually a lucky break in this story we said let's de…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_1774",
+    "t_start": 1774.1,
+    "t_end": 1867.6,
+    "type": "overview",
+    "summary": "two key consequences the first and most important is that in a way what you can think about it is that each tangle or each linking number is like a quantized each linking number is like a quantized energy brings your quantized energy energy you can generate and second it also led us to kind of develop a concept also led us to kind of develop a concept of a temperature of a physical Network of a temperature of a physical Network which captures how curvy the links are right how they're deviating from the straight line so zero temperature is straight line so zero temperature is when they're al…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_1867",
+    "t_start": 1867.6,
+    "t_end": 1957.8,
+    "type": "overview",
+    "summary": "equilibrium statistical mechanics to characterize how entangle this physical characterize how entangle this physical networks could be so that's one Journey that we can have actually in the physical networks but actually in the physical networks but the more recent Journey that we've been is to say can we find the simplest model where we can see what are the where we can see what are the consequences of the links cannot cross each other right so let's step back and say simplify the story even more don't say simplify the story even more don't even consider curving links consider even conside…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_1957",
+    "t_start": 1957.8,
+    "t_end": 2051.4,
+    "type": "overview",
+    "summary": "possible right you you put some notes in the space and I represent the notes as the space and I represent the notes as balls but you don't need to have you can balls but you don't need to have you can be points there right because the node be points there right because the node is not relevant here the links are going to be relevant only you can build the notes in but that's for the discussion notes in but that's for the discussion I'm going to have not going to be relevant and then you just pick a pair of notes notes here you have seven notes and you could have seven times seven over two n…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_2051",
+    "t_start": 2051.4,
+    "t_end": 2143.1,
+    "type": "overview",
+    "summary": "and and in that case you're back to what we call a random Network right because we call a random Network right because you're just purely taking pairs of notes you're just purely taking pairs of notes and randomly connecting them that model and randomly connecting them that model was actually studied and by Paul erdush and offered Rainey two mathematicians and it's called the erdo sharini model so and what happens in that case and here I'm showing you this is how many here I'm showing you this is how many links pairs of links I tried it to add links pairs of links I tried it to add in a cas…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_2143",
+    "t_start": 2143.1,
+    "t_end": 2238.6,
+    "type": "overview",
+    "summary": "much faster right for thicker lengths then the Collision happened immediately the reason I like to show this plot is because there are two things we need to because there are two things we need to pay attention for what happens here this pay attention for what happens here this is a jamming point right this means that the curve ended here because I cannot add more there right I pretty much I add more there right I pretty much I tried every single pair and every other pair I would try from now on will already have a conflict so this is what already have a conflict so this is what I call the …"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_2238",
+    "t_start": 2238.6,
+    "t_end": 2332.5,
+    "type": "overview",
+    "summary": "is to really look at not at this network but another graph which we call the but another graph which we call the metagraph what is a metagraph a metagraph is the notes of the metagraphs are the links of the original Network are the links of the original Network right one five one three four seven right these are so so we have as many nodes in the metagraph how many links potential links we could have had in the original one n times M minus one over original one n times M minus one over two and in the methograph two links are connected if they Collide right if you connected if they Collide r…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_2332",
+    "t_start": 2332.5,
+    "t_end": 2423.7,
+    "type": "overview",
+    "summary": "really exciting for us is because what you can convince easily yourself about you can convince easily yourself about that each physical manifestation each that each physical manifestation each physical Network that you can build that is a particular subset of notes on the metagraph to be more precise metagraph to be more precise each independent node set on the each independent node set on the metagraph is a physical Network what is metagraph is a physical Network what is an independent note set the independent node set is a notion that already exists for a long time in graph Theory which i…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_2423",
+    "t_start": 2423.7,
+    "t_end": 2516.1,
+    "type": "overview",
+    "summary": "is because this particular so-called independent sets problem has been really independent sets problem has been really an obsession of graph theory for the last 30 years and they really know a lot about that right you they know how to about that right you they know how to make calculations how to approximate it make calculations how to approximate it and and so on so we ended up taking and and so on so we ended up taking advantage of that so all the advantage of that so all the calculations I will show you now some calculations I will show you now some results are done thanks to the metagra…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_2516",
+    "t_start": 2516.1,
+    "t_end": 2608.3,
+    "type": "overview",
+    "summary": "really see the full scaling but it's just a technicality what really matters is that using the metagraph now we can analytically handle this rather massive analytically handle this rather massive physical glassy-like system and get physical glassy-like system and get analytical results out of it analytical results out of it now with that I would like to finish by telling you the final story something telling you the final story something that this is not yet published but it's interested in this story and I'm going to tell you something about that is not to tell you something about that is …"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_2608",
+    "t_start": 2608.3,
+    "t_end": 2699.4,
+    "type": "overview",
+    "summary": "between them right and then again don't allow a link if it collides with the allow a link if it collides with the previously existing links and when you do that you can do simulations and here the blue lines actually corresponds to the blue lines actually corresponds to pairs of notes that are really parallel pairs of notes that are really parallel to each other more so than what we to each other more so than what we expect by chance so we quickly showed expect by chance so we quickly showed simulation wise that just volume simulation wise that just volume exclusion leads to some degree of …"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_2699",
+    "t_start": 2699.4,
+    "t_end": 2791.1,
+    "type": "overview",
+    "summary": "right which said what happens obviously is that if you just start putting is that if you just start putting circles down first the circles don't see circles down first the circles don't see each other because there's enough empty each other because there's enough empty space right so you're putting down space right so you're putting down without noticing there's anybody else there but if you put enough it starts to be jamming that's harder and harder to be jamming that's harder and harder to put new circles right because not enough put new circles right because not enough space and therefor…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_2791",
+    "t_start": 2791.1,
+    "t_end": 2882.2,
+    "type": "overview",
+    "summary": "putting circles or spheres in three-dimensional space and the key is three-dimensional space and the key is that there are two parameters that really matter one of them if I throw a new Circle will I by chance hit another new Circle will I by chance hit another Circle what's the likelihood to do that Circle what's the likelihood to do that and that goes like Lambda Square this is what you see over here where Lambda is the diameter of the circle or the thickness of the link right and the other parameter which also matters is other parameter which also matters is the probability that that emp…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_2882",
+    "t_start": 2882.2,
+    "t_end": 2973.1,
+    "type": "overview",
+    "summary": "feathers law because these two scale exactly the same way in the case of exactly the same way in the case of physical networks now one over London one over Lambda Square separate and we have actually a new regime that emerges have actually a new regime that emerges over here which we know what it is over here which we know what it is actually this is again thanks to the actually this is again thanks to the mathematical Firepower that we have over mathematical Firepower that we have over there we're able to analytically derive to be a logarithmic regime and and we also think that this regime…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_2973",
+    "t_start": 2973.1,
+    "t_end": 3064.3,
+    "type": "overview",
+    "summary": "science in general the way you build the components together you assemble them components together you assemble them and you connect the pieces really makes a huge difference whether you can achieve something with that with that achieve something with that with that Network or not and so one of the places we're taking this world physical Network thinking is to say Nature has showed us how to build materials from short-range interactions materials from short-range interactions right because the atoms are really connected by shortage interactions and whether that's a crystalline or amorphous …"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_3064",
+    "t_start": 3064.3,
+    "t_end": 3151.6,
+    "type": "overview",
+    "summary": "Science which for me if we succeed would be a circle back because I started my be a circle back because I started my career really in Material Science and and now I'm back to Material Science a little bit with this particular project little bit with this particular project this is a dream but we're here to dream right and and and I'm hoping that say a few years from and I'm hoping that say a few years from now if I have to just to speak again about that and I will end with uh my collaborators on the physical Network project uh on the bottom line the three are the mathematicians uh yeah no s…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_3156",
+    "t_start": 3156.1,
+    "t_end": 3247.9,
+    "type": "overview",
+    "summary": "very good question we did not but others did uh so and I'm gonna go back to that so that's we've been the context right uh the question is for those of you who are on the internet are there new recipes coming out from this right and recipes coming out from this right and uh others did actually IBM ended up uh others did actually IBM ended up building a software that I think is building a software that I think is online available that uses the very same online available that uses the very same data and throws in a little bit of data and throws in a little bit of machine learning and it's and…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_3247",
+    "t_start": 3247.9,
+    "t_end": 3339.8,
+    "type": "overview",
+    "summary": "entangle itself so it will never find those communities that you see over there if you don't allow that even for the square lattice it will never be able the square lattice it will never be able to find the final the native figuration to find the final the native figuration with Outlet tunneling with Outlet tunneling yeah so you you talked about kind of that statistical mechanics of networks and you showed this sort of Gibbs distribution and then I think about the distribution and then I think about the question of equally probable microstates question of equally probable microstates and I …"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_3339",
+    "t_start": 3339.8,
+    "t_end": 3432.5,
+    "type": "overview",
+    "summary": "case of the physical Network systematograph it would make sense to systematograph it would make sense to use the mic uh the decor probable use the mic uh the decor probable microstates and in a way behind that microstates and in a way behind that calculation well we're not doing that calculation well we're not doing that because looking at the evolution but one because looking at the evolution but one could do that could do that okay okay yes so of course now networks are very important in machine learning and I important in machine learning and I wonder if like you use some of this techniq…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_3432",
+    "t_start": 3432.5,
+    "t_end": 3527.4,
+    "type": "overview",
+    "summary": "softwares is that the existing softwares can easily do like up to a thousand nodes and with some of efforts with a thousand to five thousand ten thousand but that's kind of some efforts isn't needed but beyond ten thousand we don't needed but beyond ten thousand we don't know how to actually visualize large know how to actually visualize large networks and simply the computers crack networks and simply the computers crack at that size and we were able to use now machine learning that all it does is that it takes those equations and that it takes those equations and accelerates the process s…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_3527",
+    "t_start": 3527.4,
+    "t_end": 3617.7,
+    "type": "overview",
+    "summary": "neural networks that URLs and a few others have actually pioneered now we have a way of really what we call embedding into the network and those are embedding into the network and those are much more predictive so there is a much more predictive so there is a that's really a massive change in that's really a massive change in machine learning that we can now use machine learning that we can now use network data and I think that's going to network data and I think that's going to come back to our regular problems as come back to our regular problems as well not only in the biological context…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_3617",
+    "t_start": 3617.7,
+    "t_end": 3708.4,
+    "type": "overview",
+    "summary": "without crossing the links and we got as far as to kind of start with a smaller stalled for no other reason but what the same student was responsible for the paper that just came out on the AI so so it got distracted but I am personally it got distracted but I am personally very excited about kind of exploring very excited about kind of exploring this higher Dimension and see whether this higher Dimension and see whether that's really an effective way for that's really an effective way for design disentangling networks and most design disentangling networks and most important how you bring …"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_3708",
+    "t_start": 3708.4,
+    "t_end": 3798.5,
+    "type": "overview",
+    "summary": "networks can well not networks but uh effectively knots can unknown themselves effectively knots can unknown themselves so I wonder if there's an upper critical Dimension above which you can say that networks can fully entangle themselves networks can fully entangle themselves and is that really four because four is really just one k for for a nod right and and could run actually and I've been and and could run actually and I've been actually asking a couple of uh uh not theorists whether because that theorem is really about the sir because the The Fury movies assumes that the networks are …"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_3798",
+    "t_start": 3798.5,
+    "t_end": 3890.3,
+    "type": "overview",
+    "summary": "to do okay but in principle you could right you could add the extra stiffness right you could add the extra stiffness there right and it would be interesting there right and it would be interesting to see what does it lead to right and to be honest we ever thought about it that's the honest answer right and how would that change and I'm totally excited for no other reason but totally excited for no other reason but from aesthetic purposes to kind of continue to play with it and see whether the networks will be different or more the networks will be different or more interesting that they ar…"
+  },
+  {
+    "id": "ku_video_oqOyTdLsq3o_3890",
+    "t_start": 3890.3,
+    "t_end": 3934.6,
+    "type": "overview",
+    "summary": "be the volume or the surface or the lint right and if the neuron is very long of course you would say that only link matters because everything gets phased out but when you look at the real structure they're much more complicated structure they're much more complicated in their very thick relative to the length and so there's perhaps surface minimization so we're exploring that minimization so we're exploring that using kind of two sets from String okay thanks thank you thanks everyone for being here for being here okay thank you again then [Applause] and also thank you to a very good audie…"
+  }
+]

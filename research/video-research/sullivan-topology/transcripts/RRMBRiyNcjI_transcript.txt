@@ -1,0 +1,697 @@
+so thank you
+so this idea of gathering chestnuts is to
+fields sometimes they took 10 12 years of thinking about things and every now
+of thinking about things and every now and then you would understand something
+and then you would understand something that's a chestnut okay
+that's a chestnut okay so
+i want to modify that impression uh
+impression uh so
+so uh
+i wanted to start with i know this is a mixed audience um so in terms of
+mixed audience um so in terms of experience so
+i think of mathematics as something built from concepts that young
+something built from concepts that young children
+even toddlers before they can speak understand
+understand space
+and then when they're a little older one two three right number everything is
+two three right number everything is built from that
+built from that so
+often these very sophisticated complicated webs of information
+complicated webs of information really have very
+really have very simplely stated underpinnings but it's
+spend a lot of effortless seemingly effortless time
+trying to understand it it takes a long time you know getting one every three
+time you know getting one every three years is good a good rate
+years is good a good rate okay
+okay so
+anthropology is a relatively recent branch
+branch it's
+it's has
+antecedents earlier than what i'm going to mention but the main
+to mention but the main point
+came around 1900 when enrique ray took space and broke it up into pieces
+took space and broke it up into pieces and then studied combinatorially how
+and then studied combinatorially how they fit together
+they fit together did some
+algebra you might say and then
+got interesting new invariants so the cliche which is correct
+the cliche which is correct that topologists don't know the
+difference between a donut and a
+coffee cup is true
+is true because
+you know a doughnut is sort of something that goes around like that
+that goes around like that is sort of solid
+is sort of solid but it has this hole in it you can sort
+link something around you know you can put your finger around it and
+put your finger around it and hold it right
+and a coffee cup let me try to draw a coffee cup
+let me try to draw a coffee cup it's thick it's not a surface right it
+it's thick it's not a surface right it has an inside it's like a mug right
+going around and then it has this sort of handle on
+and there are different shapes of coffee cups but they're all
+cups but they're all roughly the same you can deform one to
+and you notice this this main part of this cup can just be
+deformed down
+to this part of the donut i mean think of this handle as being this handle and
+of this handle as being this handle and then
+the rest of this just deforms down to this other piece here so you can deform
+this other piece here so you can deform a coffee cup to a doughnut so a
+a coffee cup to a doughnut so a topologist doesn't know the difference
+well that's correct i mean this is this is the this is the original idea of
+is the this is the original idea of topology you have shapes
+topology you have shapes some can be deformed to another now
+notice uh
+object like this is some kind of solid fruit cannot be deformed to one of these
+fruit cannot be deformed to one of these two objects because it doesn't have a
+two objects because it doesn't have a hole in it
+you can shrink this down to a little round ball if you want to
+round ball if you want to but you know you can't
+link something if you can't put your finger through it hold on to it you know
+if it were very slippery probably drop it
+probably drop it so
+and then you can imagine uh
+if you just you can imagine more examples of topology but i could start
+examples of topology but i could start spend the whole time on that i'm gonna
+i'm gonna go on though but this is so this is the first idea that there's
+so this is the first idea that there's some properties of
+some properties of pieces of space
+that distinguish them from other chunks of space and
+space up into these simple objects and then saw how they
+fit together combinatorially and then derived his information
+this information is now described in terms of homology
+in terms of homology homology classes
+homology classes for example of closed curves
+so you can you know you can take a curve in the complement of the coffee cup or
+in the complement of the coffee cup or the doughnut and you can
+you know it it actually may go like back through and around like this well then
+through and around like this well then that curve can be pulled off
+that curve can be pulled off so it doesn't really link
+but if it actually went through the hole and came back around and closed up then
+and came back around and closed up then you couldn't pull it off
+you couldn't pull it off or it could actually go around the hole
+you would associate this kind of a linking number which is two and it could
+linking number which is two and it could go around
+back and forth and so on in and out back and forth and every curve that in the
+and forth and every curve that in the complement of the doughnut has a linking
+complement of the doughnut has a linking number with the doughnut so this starts
+into the spatial discussion so the linking number
+and this is expressed formally
+in terms of homology which i don't define but
+it's a kind of method uh that does this
+okay so
+this first kind of simple idea that topologist doesn't know the difference
+topologist doesn't know the difference between a coffee cup and a donut is true
+and correctly describes something but
+that doesn't state what it means it means you can deform
+the coffee cup to the doughnut and the deformation comes next the next
+and the deformation comes next the next idea
+and and then the first idea that was formalized with the idea of
+formalized with the idea of linking numbers and homology ideas
+linking numbers and homology ideas okay so now
+so actually i wanted to mention since this is uh
+this is uh hubble week
+hubble week uh
+avo himself actually
+had his hands on this in 1826 75 years before prank array
+75 years before prank array made the introduction
+made the introduction in fact he
+exactly in this case when you have surfaces with multiple holes and stuff
+surfaces with multiple holes and stuff like that he actually uh
+was studying these with what which now are called abelian differentials a bell
+are called abelian differentials a bell becomes an adjective which in english
+becomes an adjective which in english comes out as
+abelians and it has to do with this homology this algebraic structure
+but he this was not formulated abstractly when he was doing it in
+but it was he actually was doing it without having the the abstraction about
+without having the the abstraction about what does it mean
+and he had these use these things called abelian differentials and then riemann
+abelian differentials and then riemann 30 years later 20 years later
+30 years later 20 years later developed it further and
+then eventually it was so ubiquitous that frank ray had to say
+ubiquitous that frank ray had to say what's going on in a general way so
+what's going on in a general way so that's better view of the history
+so oh yeah now today
+today or
+in the 20th century and then today is the 21st century but anyway during the
+the 21st century but anyway during the 20th century
+there was some enhancement of this idea and the enhancement
+and the enhancement has to do
+with these deformations that go between the coffee cup and the doughnut there's
+the coffee cup and the doughnut there's this deformation
+this deformation and this is a very important idea in
+in modern mathematics the idea you have objects that are equivalent
+but then there are the equivalences between the objects you have a way of
+between the objects you have a way of moving from one to the other and there
+might be another way of moving from one to the other and these two ways may be
+sort of equivalent or they may be very different if i want to get
+different if i want to get to you
+go this way around the table and those if you know if i have to slide things on
+if you know if i have to slide things on the floor i can't
+deform one to the other i don't have to go over but if i was forced to stay on
+the floor with very heavy chain or something
+something that would be an equivalent
+the idea of equivalences between things like the way you solve a problem might
+be inequivalent ways of solving a problem
+problem is important so that structure
+equivalences between equivalent things in this case the topological
+in this case the topological notion of a doughnut or a coffee cup
+is important and it
+now is beginning to permeate many different fields of mathematics
+mostly algebraic but i'm expecting it to finally get to
+really hardcore geometric and analytic things like partial differential
+things like partial differential equations it hasn't gotten there yet but
+wearing my glasses am i wearing my glasses no
+i've lost my glasses all right
+oh yeah okay i said that okay so
+so here's another picture uh right so
+so um let's
+simplify the above discussion let's imagine i have
+imagine i have two curves in space
+and we're now in space again so these are two curves in space that are linked
+are two curves in space that are linked that those two curves have linking
+number one oh
+thank you that's a cool thing you know when you get to be a certain age you you
+know can't read anymore but everybody your age or even
+be careful they have these reading glasses and so you borrow anybody's
+glasses and so you borrow anybody's glasses
+glasses let's see what if i missed anything
+and i can't read it actually
+okay okay thank you i can use this sure okay
+so now
+in mathematics you can also you know kind of change the rules i can move this
+kind of change the rules i can move this this bottom curve i can move it over
+and i can let it pass you know let it pass through this curve's imaginary so i
+pass through this curve's imaginary so i can let it pass through the curve change
+the linking number is only defined if you don't let it cross
+but if you let it cross then the link in there was not defined so i could you
+there was not defined so i could you know move this curve over to here
+know move this curve over to here and the motion would be like along a
+and the motion would be like along a cylinder
+so you'd have curves moving along like this right
+well the fact that the linking number is well defined means at some point this
+well defined means at some point this curve
+has to actually touch this curve so there's a moment there
+okay i mean if the linking number is non-zero and you move it over like that
+non-zero and you move it over like that it has to
+cut through the curve as many times as the linking number says
+the linking number says okay so this is a basic idea of topology
+and now uh
+you can do something interesting
+let's suppose link number is one and it only crosses one time you can sort of
+only crosses one time you can sort of let's imagine these curves have a
+let's imagine these curves have a direction
+and then when you get to the point where they intersect you can travel around
+they intersect you can travel around this moment this was like a movie of
+this moment this was like a movie of this curve moving to here you can go
+point of the movie in the direction of the curve and then this goes this
+direction is like this and then you then you go turn and you go around like that
+so you can make one curve out of
+this phenomenon of crossing and this gives you
+world where we formalized the idea of topology
+sort of an operation where you can take this family of this
+where you can take this family of this is like a family
+is like a family of closed curves
+everyone has heard the phrase string theory and of course nobody knows what
+theory and of course nobody knows what it is
+and i don't really know either but um
+this is a family of closed curves or strings closed strings
+and this is another this
+let's see what's the picture oh yeah here this is the family here's time zero
+here this is the family here's time zero of the family in time one of the family
+of the family in time one of the family and here's this other curve
+and here's this other curve which is just a point family
+which is just a point family anyway then
+you can intersect a family of curves with another family of curves and get
+with another family of curves and get for each point of intersection you can
+for each point of intersection you can get a third curve which is the
+get a third curve which is the combination of the two
+combination of the two so this is a very simple idea
+this was the subject of the lecture that was referred to 20
+his joint work with barbara trass seen over there
+first efforts to interest in me and now we have a child who's sitting somewhere
+we have a child who's sitting somewhere else is 20
+else is 20 anyway
+we made we made a little theory here which which is
+has the name called strength apology and it's the idea that you
+and it's the idea that you families of closed strings
+by this this is an example where here's a one-dimensional family in a zero
+a one-dimensional family in a zero dimensional family
+interacting because they're forced to interact by topology of the linking
+interact by topology of the linking and you can build
+and you can build an algebraic homological structure
+an algebraic homological structure on the space of all
+inside another big space so this is a topology with the word string in front
+topology with the word string in front of it
+of it okay
+and this was actually motivated by from my point of view and from morris
+point of view was because there was a conjecture of tariff about closed curves
+conjecture of tariff about closed curves on surfaces
+on surfaces and
+that conjecture literally turned out to be false we couldn't prove it one way or
+later moreover found a counter-example using computers program this you could
+program this structure on a computer she found an example now the curves were
+and this string topology generalized a very interesting theory
+very interesting theory by goldman
+from like around 85 and then extended by vladimir putia for in the in the late
+by vladimir putia for in the in the late 80s
+and then we did this work like in the late
+late 90s
+90s um
+it extended their work this was all in two dimensions
+on surfaces and this extended it to all dimensions by considering families
+it's a con the fact that there is this extension is because the equivalences
+extension is because the equivalences it's not just the equivalence classes or
+two things that are equivalent but the equivalence between them
+but the equivalence between them has part of the structure has something
+so this is an example of you might say a derived theory that looks deeper into
+derived theory that looks deeper into the information of topology
+the information of topology okay
+okay so let's see
+field of strength topology so this is like from
+around 98 and then 2002 it was developed further and that's
+further and that's i i talked about it here
+and then um and it became
+some other people um and many uh quite a few people were writing papers
+quite a few people were writing papers using using this basic structure
+and it was because it fit with algebra it turns out this idea of deforming
+it turns out this idea of deforming objects is very important in all parts
+objects is very important in all parts of mathematics to study how math objects
+of mathematics to study how math objects can be deformed
+and some deformations are trivial they don't really change things sometimes
+don't really change things sometimes they change some structure so
+families of structures is another important idea
+so if you want to scare a mathematician and he doesn't know whether you're a
+and he doesn't know whether you're a mathematician or not
+mathematician or not and you at cocktail party or something
+have you studied the modulized stack of that problem
+and that that's the secret word that we're all afraid of
+because it's very complicated when you start making equivalence classes it has
+start making equivalence classes it has so much structure
+so much structure only
+only only the super experts could understand
+but there's this idea of varying structures varying the
+information with moduli so and that started with riemann who followed a bell
+started with riemann who followed a bell and tools of a bell went into that
+that has a purely algebraic life and it turned out that algebraic
+life and it turned out that algebraic life fit very well with string topology
+life fit very well with string topology so a lot of people were
+so a lot of people were discussing it
+discussing it in terms of that algebraic discussion of
+that kind of went its course and it's still
+the sort of i would call the number aspect but the geometric aspect
+aspect but the geometric aspect has not been fully appreciated and used
+because you really have these pictures like you have knots in space and
+have a paper and and then and there's some sort of geometric aspect you know
+some sort of geometric aspect you know when this circle
+crosses through it's supposed to cross through transversally like that and it
+through transversally like that and it so it's a nice clean cut and when you
+look at the local structure it's the obvious thing of a plane intersecting a
+obvious thing of a plane intersecting a line and going through so somehow this
+line and going through so somehow this is the moment you might say this idea of
+that's it you know everyone thinks okay what's the big deal about that but
+what's the big deal about that but that's the most important thing
+that's the most important thing so
+appreciating that may take a few years i might say but
+might say but it is
+you find out this idea of transversality makes everything well defined and
+makes everything well defined and meaningful
+okay glasses again see what's next
+in this string topology i believe the algebraic aspects
+algebraic aspects are very interesting but they're
+there's more gold and then there are hills you might say
+from a geometrical point of view and one indication of this is a paper with
+indication of this is a paper with michael sullivan and two of our students
+michael sullivan and two of our students respectively two phd students where we
+respectively two phd students where we apply strength topology in this
+apply strength topology in this transversal sense where you kind of
+transversal sense where you kind of eliminate
+bad intersections you only consider these kind
+and then you can get many invariants of knots and links inside space so that's
+knots and links inside space so that's like
+an example of how you can do more with this string topology if you if you
+this string topology if you if you do if you remember the geometry
+okay so that's my first two pages
+two pages okay
+okay now
+or this picture of that when you pull something through
+that when you pull something through there has to be a point where they
+intersect in the motion was sort of motivated by
+my interest in fluid dynamics
+fluid dynamics and um
+i was astonished to find out in the 90s that uh
+a certain equation called the novel stokes equation in three dimensions
+stokes equation in three dimensions uh
+for so-called incompressible fluid motion
+and air is regarded as incompressible at some scale so it applies to air motion
+some scale so it applies to air motion too
+those equations that described it and they go back to euler 250 years
+they go back to euler 250 years weren't known to have solutions or
+weren't known to have solutions or what's the nature of the mathematical
+what's the nature of the mathematical structure and that astonished me because
+structure and that astonished me because these equations were used when i where i
+these equations were used when i where i grew up in texas
+in oil fields from the secondary recovery program when the pressure goes
+recovery program when the pressure goes down in the field you pump water in
+other points of the field to make the pressure build up you can pump more out
+pressure build up you can pump more out and you know you have to know where to
+and you know you have to know where to do it
+300 years before the pressure builds up enough to do it so you have to put it in
+enough to do it so you have to put it in the right place and you have to compute
+stuff and understand what's going on and
+actually 30 years later i was in saudi arabia and they were at the stage of
+arabia and they were at the stage of doing secondary recovery on their big
+doing secondary recovery on their big field so they were studying had the same
+problem so
+i was i said how can this not be known mathematically and uh so i started i i
+mathematically and uh so i started i i was going to try to solve it does that
+mean i've oh no okay
+reacting too fast here okay so uh
+so uh where was i oh yeah
+i was going to try to really solve it because the people that were working on
+because the people that were working on it were much better at analysis than
+it were much better at analysis than that you know the actual math problem is
+that you know the actual math problem is perfectly precisely stated
+and they couldn't do it i wanted to find out why they couldn't do it
+out why they couldn't do it or and maybe
+maybe there was a reformulation that was easier
+and you could do it maybe or maybe there was a reformulation that was both easier
+was a reformulation that was both easier and more useful because their
+and more useful because their formulation didn't have a practical
+formulation didn't have a practical question a criterion about
+question a criterion about okay you proved this thing exists but
+can you approximate it in
+you know less than the life of the universe or something like that or less
+universe or something like that or less than realistic time so you can use the
+information so could you find a practical version of
+since we now have all this computer ability which is very which is not that
+ability which is very which is not that great i mean it's great but it's not
+great i mean it's great but it's not that great because
+that great because you know
+physics happens at a scale from 33 zeros up
+computers in the linear scale and computers can go down to four or five
+scales down
+and then because if you do that in three dimensions that's 12 or 15 scales
+three dimensions that's 12 or 15 scales so
+that's like a trillion billion whatever and uh
+computer that that's it for computers i mean so
+we have a definite scale at which we can work there's a definite scale which it
+happens and then calculus
+the mathematician's wonderful creation goes down to infinitely many scales you
+f of x plus h minus f of x over h you let h go to zero
+you let h go to zero that means you're
+that means you're doing that
+doing that and
+it turns out to have fantastic consequences for all sorts of problems
+consequences for all sorts of problems but
+it's not realistic for this problem maybe maybe it is that's the problem
+maybe maybe it is that's the problem maybe it is maybe it isn't
+anyway we'd like to have a way of attacking this
+attacking this how much time do i have left
+20. 21 minutes
+i can choose all right
+all right so
+so okay so then
+so i started looking at this equation that defines this
+that defines this and
+you know you quickly find out where the issue is actually it took about six
+issue is actually it took about six months anyway an effortless an
+months anyway an effortless an effortless
+effortless six months okay the problem is that
+the problem is that the equation has a non-linear term you
+you have the time derivative is you know it's an evolution equation the fluid is
+it's pointing in some direction and then it starts evolving
+it starts evolving by a formula and the formula involves
+multiplying a derivative
+the motion times the motion the instantaneous motion
+a little bit more and so on
+and so on and that
+non-linear term that quadratic term is what makes the problem if you just
+if you just i mean this is completely elementary but if you just write down
+the equation x dot is equal to x times x
+just a real number that depends on t well then you can sort of draw a graph
+well then you can sort of draw a graph of it you start out at time zero
+of it you start out at time zero t equals 0 like it here
+t equals 0 like it here you can
+done first year calculus you can solve this equation you can find x of t so
+this equation you can find x of t so that the derivative is the square
+that the derivative is the square of x of t okay it's fun exercise
+you start out at some let this be the value well if you start
+x zero times zero is zero x as x dot is zero here's the solution
+zero here's the solution it just stays at zero if you start out
+then it turns out it starts increasing because x times x is positive so it
+because x times x is positive so it starts increasing and it turns out over
+starts increasing and it turns out over here at 1 over
+here at 1 over x naught
+x naught it goes
+off the page and then if you started out at a lower
+and then if you started out at a lower point
+point it would go
+off the page like that now this this inaugural stokes equation
+now this this inaugural stokes equation looks just like that
+it's sort of the time derivative is a product of two things so maybe
+product of two things so maybe it does that
+so but that's no good because that's not what fluids do they know what to do they
+what fluids do they know what to do they seem to go on forever
+seem to go on forever so
+but you know it's a much much more complicated x times x it's many
+complicated x times x it's many variables
+variables vectors that you're multiplying
+but one day i had the idea oh this is algebra
+even though the x here is in infinite dimensions it really is x times x
+dimensions it really is x times x sort of
+sort of and uh
+and uh it's algebra
+it's algebra so let me
+did we have that conversation three minutes ago
+minutes ago okay
+12 12 to no 16 to 19 minutes okay so let's see
+19 minutes okay so let's see okay
+okay oh i see okay all right so
+okay so it's like algebra but it's the the x here now has empty many components
+you have to understand functional analysis and so on and anyway it turns
+out that there may be directions where this
+and it turns out if you write down this is another negative
+is another negative chestnut
+if you write down a general equation like that with say a
+and these are vectors then it turns out generically and typically this happens
+generically and typically this happens so be a direction where it looks like
+exactly like this you can change coordinates it looks like this so it
+explodes in front of that time so that's a nice exercise at the next
+once you know it's true it's not that hard to prove if you just write down a
+like 10 of these equations where the right hand side is the sum of quadratic
+then with arbitrary coefficients if you vary if you just put on a computer
+vary if you just put on a computer a general example there would be a
+a general example there would be a direction
+where it looked like this so well that didn't work
+so well that didn't work but there's something more intricate
+but there's something more intricate going on
+going on because
+when you have vectors like this and you multiply them to get another vector
+multiply them to get another vector that
+that has
+if your space is 10 dimensional say you have ten components
+say you have ten components the number of different possibilities
+the number of different possibilities here is is like a thousand
+here is is like a thousand ten times ten times ten
+ten times ten times ten so
+because you have to give ten of these equations each one has about 100
+equations each one has about 100 coefficients
+and 10 variables so i'm doing things approximately
+approximately so
+on the other hand if you you might say well many of these different equations
+well many of these different equations are equivalent i can change coordinates
+are equivalent i can change coordinates by linear
+by linear by a matrix
+but you say how many matrices are there in 10 variables well it's 10 times 10 so
+in 10 variables well it's 10 times 10 so there's a hundred
+so you have a thousand different equations and you can
+equations and you can group them into groups that are
+involve a hundred components
+that still leaves you with a thousand minus a hundred nine hundred different
+minus a hundred nine hundred different types of equations
+and only one of them is the navier-stokes equation
+is the navier-stokes equation see so there are many other equations uh
+and it's it's special so
+i just said the typical one has this bad behavior but it's a special one i don't
+behavior but it's a special one i don't know which special one it is
+know which special one it is okay so that didn't work
+okay so that didn't work but uh
+okay so then
+so this lecture will finish in uh roslindale uh
+roslindale uh tomorrow
+there's a conference on computing and mathematics and stuff like
+that right yeah okay so um
+so then there's this idea uh that comes from physics
+from physics it's called separation of scales
+to save time i was i actually was going to give a precise definition and a
+to give a precise definition and a conjecture but i'll just say this that
+see when you see water i remember in i spent 81 in berkeley
+in boulder colorado and every day i'd walk past along the boulder creek
+walk past along the boulder creek and i'd look at the water there
+it's you know when i was far away i could the water's going like this
+could the water's going like this and then i'd walk over closer and it's
+and then i'd walk over closer and it's sort of
+and then i walk over closer and it's going like this
+going like this and you know
+and you know in other words i was amazed that it has
+at depending on how far away i am it has a sort of structure
+a sort of structure and
+when i go closer that structure is more refined
+and i see it has another structure but that other structure finder structure is
+that other structure finder structure is consistent with the quartus structure
+that's kind of the idea of separation of scales that there's some
+scales that there's some evolution at a coarse scale there's
+finer scale and these are somehow consistent whereas the inaugural stokes
+consistent whereas the inaugural stokes equation is only describing
+equation is only describing what's happening at the infinite scale
+physical reality because below 33 zeros one over thirty three zeros times a
+one over thirty three zeros times a centimeter
+there's no notion of distance according to quantum theory so
+so the idea of separation of scales that there is there are approximating
+there is there are approximating theories that uh
+and hopefully there are ones that are at our range of computation
+so we can so this is an industry that was one thing i was amazed about when
+was one thing i was amazed about when this founded these equations
+this founded these equations there's
+people all around the world are using these equations to compute fluids and
+these equations to compute fluids and specific problems the way blood flows
+specific problems the way blood flows through
+arteries in the heart because they could deal with aneurysms if a little
+deal with aneurysms if a little thing comes out
+a doctor can go in and leave that thing there and
+leave that thing there and support this part here
+support this part here with sowing and then
+there's some turbulence going around in here and the blood sort of flows through
+like that and the guys stabilize they can do 20 a day
+i've met a guy at a party once he's telling me this he could do 20 a day
+there are these walking dead men
+walking dead men persons
+and then you can do that and they understand how the fluid is turbulent in
+understand how the fluid is turbulent in here and then it flows by and uh
+here and then it flows by and uh i couldn't believe it i mean how can
+i couldn't believe it i mean how can they not know this equation
+they not know this equation uh
+has a math solution when it it's used and then they use it in oil well in the
+you know everywhere else weather prediction
+weather prediction they're not so good at weather
+and where hurricanes hit once in texas when
+once in texas when anyway that's the story
+we we have this notion of separation there is a notion of separating scales
+which has a math definition and so
+i sort of got this dream uh or conjecture that um
+conjecture that um there is a system of
+ode that will describe at a certain scale what this boulder creek was doing
+scale what this boulder creek was doing and then there's another one at a finer
+and then there's another one at a finer scale that still finite dimensional is
+scale that still finite dimensional is describing what's happening
+describing what's happening and these are all consistent and the
+limit of all this is this continuum famous equation called the
+continuum famous equation called the naughty stokes equation
+naughty stokes equation so
+eight minutes is that okay
+not sure yeah okay all right so
+so that would be the conjecture and then you would hope that not only would it
+you would hope that not only would it converge you could prove theorems and
+converge you could prove theorems and stuff like that but you could also put
+and compute what you wanted to know at the scale that you cared about
+the scale that you cared about and
+at the simon center which was mentioned before i've
+before i've talked to sasha abenov and zohar
+komargoski and
+got their perspective on this and they have a
+very different perspective that's helpful in thinking about things
+this way because of
+they understand what are the constants and where things are happening and
+and where things are happening and so
+optimistic that this is true so i make that so the conjecture is
+that so the conjecture is separation of scales exists
+three-dimensional fluid dynamics
+and well and then and then sort of a secret part of the conjecture and
+the ideas of quacker ray
+well i mentioned planker 8 started topology by breaking space up
+started topology by breaking space up into these pieces
+into these pieces and he also
+and then he studied combinatorially how they fit together
+they fit together and
+and now we we sort of know this kind of a trick i mean you usually think when
+a trick i mean you usually think when you break space up into pieces it says
+you break space up into pieces it says something like this
+something like this but now we know kind of a trick we also
+have to add pieces like this
+this is part of this secret idea
+secret idea so we're gonna actually it's like we
+lots of pieces of space that are overlapping so that
+overlapping so that the cracks between
+the cracks between the one layer of pieces are covered over
+you see how this
+there are four of these this is if you're doing
+this is if you're doing a surface but i'm imagining cubes in
+see these squares are kind of rigid but you know they could go like that and
+but you know they could go like that and then you know these can
+then you know these can go like that and like that and the whole
+go like that and like that and the whole thing it's kind of crinkly but then you
+sort of pretend there's another plaque here like
+when you do it i mean this is probably well known in
+well known in norway you have good roofs
+so you have another layer over the cracks of the first layer and
+its cracks the second layer's cracks are covered by the first layer stuff like
+that this is prank graduality actually it's part of that homology this is the
+sort of finer notion of pancreality so
+the idea is that the ideas of puncture will be a key to this so to study very
+will be a key to this so to study very carefully so this is you know you can
+carefully so this is you know you can take a region of space or make it
+take a region of space or make it periodic or something
+and get a finite picture of space and then go back to this algebra
+and then go back to this algebra and put in
+products have to do with and i'll go to three space now products have to do with
+three space now products have to do with like here's a two-dimensional element
+like here's a two-dimensional element and it can intersect
+two-dimensional element ah this is not a good picture
+so some people are paying attention good that's good news okay so
+see how they intersect like that's nice transversal intersection
+and then you sort of notice hey uh look at these two boundaries here
+at these two boundaries here they're linked curves
+oh wait a minute so this linking is somehow related oh and
+is somehow related oh and this
+you get one here and it's sort of like the way this one-dimensional thing
+intersects this two-dimensional thing that's that point that tells you the one
+and in fact it's symmetric you could look at this one
+you could look at this one and seeing how it intersects
+this one the boundary of this one how it intersects that one so this is all part
+x times x algebra x times here's an x and here's an x prime and x times x
+and here's an x prime and x times x prime is this thing this geometric
+prime is this thing this geometric element here
+so the idea is to go to finite dimensions
+go to finite dimensions take this algebraic equation
+take this algebraic equation and carefully study
+and carefully study how it looks in finite dimensions
+try to understand a very good picture and
+and prove things about it and then
+go to a finer scale and repeat it again and try to see that they're consistent
+and try to see that they're consistent so
+well i'm on the first half of the second paste and there's hardly anything on
+this so it's not bad so i think this is it gives you a flavor of what i'm trying
+it gives you a flavor of what i'm trying to do so the
+to do so the second chestnut is
+second chestnut is so to speak
+second or third chestnut is you have to think homologically but not
+you have to think homologically but not at the level of equivalence classes you
+at the level of equivalence classes you have to think at a level of geometry
+where the equivalences are part of the structure
+structure and then interpret the algebra
+in terms of this plank array idea of intersection
+idea of intersection and
+and linking
+linking and
+try to get an intelligent model at the finite scale
+an intelligent model at the finite scale such that when you
+such that when you subdivide and go to
+subdivide and go to smaller little cubes
+smaller little cubes overlapping and everything
+overlapping and everything the picture you get there is consistent
+that's my conjecture and this is the idea about how to use it which is these
+idea about how to use it which is these are these are using
+are these are using you might say using topology ideas
+to study this fluid mechanics problem in pde
+now i've been thinking about this for an effortless 30 years
+effortless 30 years okay thank you very much

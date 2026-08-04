@@ -1,0 +1,4910 @@
+very much so I'm going to try something
+very much so I'm going to try something
+very much so I'm going to try something
+which is not super nude but four years
+which is not super nude but four years
+which is not super nude but four years
+old it was a fun project and I think
+old it was a fun project and I think
+old it was a fun project and I think
+so it's kind of a very accessible
+um
+um
+um
+okay so um it's about a very notorious
+okay so um it's about a very notorious
+okay so um it's about a very notorious
+conjecture in mathematics one another
+conjecture in mathematics one another
+conjecture in mathematics one another
+contracts a lot of amateur interests
+contracts a lot of amateur interests
+contracts a lot of amateur interests
+actually
+actually
+actually
+um it's a
+um it's a
+um it's a
+collapse conjecture also the Syracuse
+collapse conjecture also the Syracuse
+collapse conjecture also the Syracuse
+conjecture Hailstone conjecture has many
+conjecture Hailstone conjecture has many
+conjecture Hailstone conjecture has many
+names
+names
+names
+um so this let me set up the uh the
+um so this let me set up the uh the
+um so this let me set up the uh the
+notation okay so we're working on
+notation okay so we're working on
+notation okay so we're working on
+electron on this of course
+electron on this of course
+electron on this of course
+um and
+um and
+um and
+um okay and so there's a collapse map on
+um okay and so there's a collapse map on
+um okay and so there's a collapse map on
+the positive effort numbers uh which is
+the positive effort numbers uh which is
+the positive effort numbers uh which is
+you take a number n as input and if it's
+you take a number n as input and if it's
+you take a number n as input and if it's
+even you divided by two make it smaller
+even you divided by two make it smaller
+even you divided by two make it smaller
+but if it's odd you make it bigger you
+but if it's odd you make it bigger you
+but if it's odd you make it bigger you
+multiply by three and you add one so it
+multiply by three and you add one so it
+multiply by three and you add one so it
+either gets bigger or smaller
+either gets bigger or smaller
+either gets bigger or smaller
+um and so this is just a map on on the
+um and so this is just a map on on the
+um and so this is just a map on on the
+positive natural numbers and you just
+positive natural numbers and you just
+positive natural numbers and you just
+iterate it so given any number n you can
+iterate it so given any number n you can
+iterate it so given any number n you can
+create the collapse orbit which is you
+create the collapse orbit which is you
+create the collapse orbit which is you
+just you just plug the number you apply
+just you just plug the number you apply
+just you just plug the number you apply
+this process over and over again and the
+this process over and over again and the
+this process over and over again and the
+sequence goes up and down
+sequence goes up and down
+sequence goes up and down
+um
+sequences because they look a little bit
+sequences because they look a little bit
+sequences because they look a little bit
+like how a Hailstone evolves in a cloud
+um and so you have this orbit which um
+um and so you have this orbit which um
+um and so you have this orbit which um
+and uh it's some it's some it could be
+and uh it's some it's some it could be
+and uh it's some it's some it could be
+periodically but of course every by the
+periodically but of course every by the
+periodically but of course every by the
+ordering principle had it has a minimum
+ordering principle had it has a minimum
+ordering principle had it has a minimum
+and so we defined the mineral value of
+and so we defined the mineral value of
+and so we defined the mineral value of
+the class oh but collapse Min of n to be
+the class oh but collapse Min of n to be
+the class oh but collapse Min of n to be
+the smallest value attained in essential
+the smallest value attained in essential
+the smallest value attained in essential
+okay so that's implementation here's
+okay so that's implementation here's
+okay so that's implementation here's
+some examples okay we plug in one one is
+some examples okay we plug in one one is
+some examples okay we plug in one one is
+odd so you multiply by three add one you
+odd so you multiply by three add one you
+odd so you multiply by three add one you
+get four uh four is even two divided by
+get four uh four is even two divided by
+get four uh four is even two divided by
+two
+two
+two
+um two is even divided by two you go
+um two is even divided by two you go
+um two is even divided by two you go
+back to one and so in this case the
+back to one and so in this case the
+back to one and so in this case the
+class is always just cycle one four two
+class is always just cycle one four two
+class is always just cycle one four two
+one four two one four two and the
+one four two one four two and the
+one four two one four two and the
+minimum element is one
+minimum element is one
+minimum element is one
+um slightly more advanced if you set up
+um slightly more advanced if you set up
+um slightly more advanced if you set up
+six six is even you go down to three
+six six is even you go down to three
+six six is even you go down to three
+three is odd you go up to ten tens even
+three is odd you go up to ten tens even
+three is odd you go up to ten tens even
+five up to 16 and then you divide divide
+five up to 16 and then you divide divide
+five up to 16 and then you divide divide
+divide divide and then now you repeat
+divide divide and then now you repeat
+divide divide and then now you repeat
+the 142 cycle that you did before so
+the 142 cycle that you did before so
+the 142 cycle that you did before so
+again the minimum element is one
+again the minimum element is one
+again the minimum element is one
+um now uh more interesting if you
+um now uh more interesting if you
+um now uh more interesting if you
+27 uh it goes up and down for
+27 uh it goes up and down for
+27 uh it goes up and down for
+quite a while
+quite a while
+quite a while
+um but actually it eventually uh after a
+um but actually it eventually uh after a
+um but actually it eventually uh after a
+lot of Adventures comes down to the one
+lot of Adventures comes down to the one
+lot of Adventures comes down to the one
+uh and then it just goes down to one
+uh and then it just goes down to one
+uh and then it just goes down to one
+over and over again
+over and over again
+over and over again
+okay so in fact um the conjunction is
+okay so in fact um the conjunction is
+okay so in fact um the conjunction is
+that this always happens
+that this always happens
+that this always happens
+that for any positive input uh you get
+that for any positive input uh you get
+that for any positive input uh you get
+back one dimension
+back one dimension
+back one dimension
+um so that's called the collapse
+um so that's called the collapse
+um so that's called the collapse
+conjecture what's the X plus one
+conjecture what's the X plus one
+conjecture what's the X plus one
+conjecture or the Syracuse conjecture
+conjecture or the Syracuse conjecture
+conjecture or the Syracuse conjecture
+um yeah
+um yeah
+um yeah
+um yeah as I said the uh this uh it's
+um yeah as I said the uh this uh it's
+um yeah as I said the uh this uh it's
+it's it's like saying that hailstones
+it's it's like saying that hailstones
+it's it's like saying that hailstones
+can cannot sort of fly up and down in
+can cannot sort of fly up and down in
+can cannot sort of fly up and down in
+the cloud forever they must eventually
+the cloud forever they must eventually
+the cloud forever they must eventually
+go hit the ground
+go hit the ground
+go hit the ground
+um yeah it is an example of what is uh
+um yeah it is an example of what is uh
+um yeah it is an example of what is uh
+what Factory in a nice article I think
+what Factory in a nice article I think
+what Factory in a nice article I think
+in the mathematical Market something
+in the mathematical Market something
+in the mathematical Market something
+called a mechanical disease
+called a mechanical disease
+called a mechanical disease
+um so a matter of disease is a
+um so a matter of disease is a
+um so a matter of disease is a
+mathematical problem but uh uh which is
+mathematical problem but uh uh which is
+mathematical problem but uh uh which is
+two criteria it's easier to State uh
+two criteria it's easier to State uh
+two criteria it's easier to State uh
+must seem accessible even I do it I'm
+must seem accessible even I do it I'm
+must seem accessible even I do it I'm
+not sure and must have been repeatedly
+not sure and must have been repeatedly
+not sure and must have been repeatedly
+solved many times Often by the same
+solved many times Often by the same
+solved many times Often by the same
+person so so this this conjective very
+person so so this this conjective very
+person so so this this conjective very
+much
+much
+much
+sort of captures all these three
+sort of captures all these three
+sort of captures all these three
+elements
+elements
+elements
+um when I first gave this talk it was
+um when I first gave this talk it was
+um when I first gave this talk it was
+right after it was early 2019
+right after it was early 2019
+right after it was early 2019
+um and uh and uh so of course the
+um and uh and uh so of course the
+um and uh and uh so of course the
+covid-19 Africa had come out so a nice
+covid-19 Africa had come out so a nice
+covid-19 Africa had come out so a nice
+way to describe the history of this
+way to describe the history of this
+way to describe the history of this
+subject is through epidemiology
+subject is through epidemiology
+subject is through epidemiology
+um so before that actually uh here is a
+um so before that actually uh here is a
+um so before that actually uh here is a
+next kcd comic about this conjecture um
+next kcd comic about this conjecture um
+next kcd comic about this conjecture um
+yeah so the glass conjecture states that
+yeah so the glass conjecture states that
+yeah so the glass conjecture states that
+if you pick a number and even divide by
+if you pick a number and even divide by
+if you pick a number and even divide by
+two it's like 1.391 and you'll get the
+two it's like 1.391 and you'll get the
+two it's like 1.391 and you'll get the
+species long enough eventually your
+species long enough eventually your
+species long enough eventually your
+friends will stop calling to see if you
+friends will stop calling to see if you
+friends will stop calling to see if you
+want to impact
+want to impact
+want to impact
+it is very addictive to yeah for example
+it is very addictive to yeah for example
+it is very addictive to yeah for example
+you can contact drawing these trees and
+you can contact drawing these trees and
+you can contact drawing these trees and
+staring into people patterns and so
+staring into people patterns and so
+staring into people patterns and so
+forth
+forth
+forth
+um
+um
+um
+okay so here is the epidemiology of this
+okay so here is the epidemiology of this
+okay so here is the epidemiology of this
+of this conjecture okay so uh okay so uh
+of this conjecture okay so uh okay so uh
+of this conjecture okay so uh okay so uh
+it was the first person to get infected
+it was the first person to get infected
+it was the first person to get infected
+by this problem was like collapse uh he
+by this problem was like collapse uh he
+by this problem was like collapse uh he
+he didn't publish anything at the time
+he didn't publish anything at the time
+he didn't publish anything at the time
+but he said in later reminiscence he
+but he said in later reminiscence he
+but he said in later reminiscence he
+said he started think about this in the
+said he started think about this in the
+said he started think about this in the
+30s uh but if he first started
+30s uh but if he first started
+30s uh but if he first started
+transmitting with other people at the
+transmitting with other people at the
+transmitting with other people at the
+ICM in 1950.
+also came up with the same problem in
+also came up with the same problem in
+also came up with the same problem in
+1950s
+1950s
+1950s
+um and then uh those big wave of
+um and then uh those big wave of
+um and then uh those big wave of
+infections uh people in Yale Chicago and
+infections uh people in Yale Chicago and
+infections uh people in Yale Chicago and
+Syracuse started thinking about it a lot
+Syracuse started thinking about it a lot
+Syracuse started thinking about it a lot
+of spices congestion
+of spices congestion
+of spices congestion
+um inspirative botanical Journal
+um inspirative botanical Journal
+um inspirative botanical Journal
+um yeah it was finally called the class
+um yeah it was finally called the class
+um yeah it was finally called the class
+conjecture in 70s uh coxida offered 50
+conjecture in 70s uh coxida offered 50
+conjecture in 70s uh coxida offered 50
+for a solution
+for a solution
+for a solution
+um and people started testing plus and
+um and people started testing plus and
+um and people started testing plus and
+lots of testing
+lots of testing
+lots of testing
+um so testing up to two to 24 in the 70s
+um so testing up to two to 24 in the 70s
+um so testing up to two to 24 in the 70s
+slightly larger sum for a solution uh
+slightly larger sum for a solution uh
+slightly larger sum for a solution uh
+Richard guy
+Richard guy
+Richard guy
+um
+um
+um
+said don't try to solve these problems
+said don't try to solve these problems
+said don't try to solve these problems
+and collapse was number two
+uh this I don't know uh but I uh well I
+uh this I don't know uh but I uh well I
+uh this I don't know uh but I uh well I
+can move someone on my phone can work us
+can move someone on my phone can work us
+can move someone on my phone can work us
+out
+out
+out
+uh uh I will try something for me to
+uh uh I will try something for me to
+uh uh I will try something for me to
+whatever it is okay
+whatever it is okay
+whatever it is okay
+um yeah 500 okay so according to Kevin
+um yeah 500 okay so according to Kevin
+um yeah 500 okay so according to Kevin
+Ford is he was he uh he said he wished
+Ford is he was he uh he said he wished
+Ford is he was he uh he said he wished
+he could offer a lot more uh for this
+he could offer a lot more uh for this
+he could offer a lot more uh for this
+one okay testing kept increasing
+one okay testing kept increasing
+one okay testing kept increasing
+um okay the uh episode first uh offered
+um okay the uh episode first uh offered
+um okay the uh episode first uh offered
+a large amount of money for this problem
+a large amount of money for this problem
+a large amount of money for this problem
+um okay so by the 10th Century there
+um okay so by the 10th Century there
+um okay so by the 10th Century there
+were already like 2 000 it was 200
+were already like 2 000 it was 200
+were already like 2 000 it was 200
+papers on on this uh on this problem uh
+papers on on this uh on this problem uh
+papers on on this uh on this problem uh
+legarius actually has this archive uh
+legarius actually has this archive uh
+legarius actually has this archive uh
+blueprint which is nothing but a
+blueprint which is nothing but a
+blueprint which is nothing but a
+business bibliography for all the papers
+business bibliography for all the papers
+business bibliography for all the papers
+on collapse up to this uh okay uh okay
+on collapse up to this uh okay uh okay
+on collapse up to this uh okay uh okay
+one more testing
+one more testing
+one more testing
+um okay and by the by in 10 more years
+um okay and by the by in 10 more years
+um okay and by the by in 10 more years
+there was a like um another 100 more
+there was a like um another 100 more
+there was a like um another 100 more
+papers and in fact at that point Lagos
+papers and in fact at that point Lagos
+papers and in fact at that point Lagos
+just gave up and this is I know I'm no
+just gave up and this is I know I'm no
+just gave up and this is I know I'm no
+longer going to try to uh to maintain
+longer going to try to uh to maintain
+longer going to try to uh to maintain
+this bibliography uh yeah so testing
+this bibliography uh yeah so testing
+this bibliography uh yeah so testing
+it's kept increasing all the time
+it's kept increasing all the time
+it's kept increasing all the time
+um and visibility also yeah so there was
+um and visibility also yeah so there was
+um and visibility also yeah so there was
+a video on this in the 20th in about two
+a video on this in the 20th in about two
+a video on this in the 20th in about two
+years ago which uh which received quite
+years ago which uh which received quite
+years ago which uh which received quite
+a lot of views on YouTube
+a lot of views on YouTube
+a lot of views on YouTube
+um and in fact there was a company
+um and in fact there was a company
+um and in fact there was a company
+actually that also offered quite a lot
+actually that also offered quite a lot
+actually that also offered quite a lot
+of money now um
+a lot of these companies say you can
+a lot of these companies say you can
+a lot of these companies say you can
+they'll offer that money but yeah only
+they'll offer that money but yeah only
+they'll offer that money but yeah only
+for two years or something because I
+for two years or something because I
+for two years or something because I
+have a time limit that's quite possible
+have a time limit that's quite possible
+have a time limit that's quite possible
+um I I have not looked yeah
+um I I have not looked yeah
+um I I have not looked yeah
+yeah I I don't think uh it's gonna be uh
+yeah I I don't think uh it's gonna be uh
+yeah I I don't think uh it's gonna be uh
+worth it to
+worth it to
+worth it to
+um okay
+um yeah I I would not actually recommend
+um yeah I I would not actually recommend
+um yeah I I would not actually recommend
+uh trying to claim this practice
+uh trying to claim this practice
+uh trying to claim this practice
+actually
+actually
+actually
+um all right so this this is
+um all right so this this is
+um all right so this this is
+okay here's some quotes uh so there's a
+okay here's some quotes uh so there's a
+okay here's some quotes uh so there's a
+quote from kakutari
+quote from kakutari
+quote from kakutari
+um uh during the first wave he said that
+um uh during the first wave he said that
+um uh during the first wave he said that
+okay for about a month everyone yeah
+okay for about a month everyone yeah
+okay for about a month everyone yeah
+what about no result a similar
+what about no result a similar
+what about no result a similar
+phenomenon happened when I mentioned at
+phenomenon happened when I mentioned at
+phenomenon happened when I mentioned at
+the University of Chicago uh a joke was
+the University of Chicago uh a joke was
+the University of Chicago uh a joke was
+me that this poem was part of a
+me that this poem was part of a
+me that this poem was part of a
+conspiracy just slow down mathematical
+conspiracy just slow down mathematical
+conspiracy just slow down mathematical
+research
+research
+research
+[Music]
+[Music]
+[Music]
+um
+um
+um
+such questions
+such questions
+such questions
+even in 2010 this is an extremely
+even in 2010 this is an extremely
+even in 2010 this is an extremely
+difficult problem completely out of
+difficult problem completely out of
+difficult problem completely out of
+reach of present-day mathematics
+reach of present-day mathematics
+reach of present-day mathematics
+um and I'm inclined to agree I mean
+um and I'm inclined to agree I mean
+um and I'm inclined to agree I mean
+there's there's maybe a tiny Epsilon
+there's there's maybe a tiny Epsilon
+there's there's maybe a tiny Epsilon
+chance that maybe you could disprove it
+chance that maybe you could disprove it
+chance that maybe you could disprove it
+in a very clever way but I don't think
+in a very clever way but I don't think
+in a very clever way but I don't think
+there's any way we could prove it with
+there's any way we could prove it with
+there's any way we could prove it with
+any one or techniques what's the
+any one or techniques what's the
+any one or techniques what's the
+motivation for us
+motivation for us
+motivation for us
+oh that was money now
+it's almost the simplest dynamical
+it's almost the simplest dynamical
+it's almost the simplest dynamical
+system that you could think of which
+system that you could think of which
+system that you could think of which
+which we don't understand
+which we don't understand
+which we don't understand
+um I mean the dynamic system is just so
+um I mean the dynamic system is just so
+um I mean the dynamic system is just so
+any map Performance face to itself in
+any map Performance face to itself in
+any map Performance face to itself in
+reading it and you know um and like the
+reading it and you know um and like the
+reading it and you know um and like the
+map is itself like you know you can
+map is itself like you know you can
+map is itself like you know you can
+describe it in two lines yeah it's
+describe it in two lines yeah it's
+describe it in two lines yeah it's
+completely adventure and we just do not
+completely adventure and we just do not
+completely adventure and we just do not
+know how to iterate
+know how to iterate
+know how to iterate
+um
+um
+um
+it is connected to other things
+it is connected to other things
+it is connected to other things
+um well it's not obvious initially uh so
+um well it's not obvious initially uh so
+um well it's not obvious initially uh so
+um yeah the attempts to just solve it
+um yeah the attempts to just solve it
+um yeah the attempts to just solve it
+have interested generated some
+have interested generated some
+have interested generated some
+interesting mathematics
+interesting mathematics
+interesting mathematics
+um but yeah I mean it I I think it's one
+um but yeah I mean it I I think it's one
+um but yeah I mean it I I think it's one
+of these things that just kind of taunts
+of these things that just kind of taunts
+of these things that just kind of taunts
+you I mean this is this is a problem
+you I mean this is this is a problem
+you I mean this is this is a problem
+which you know it looks simpler than
+which you know it looks simpler than
+which you know it looks simpler than
+many number Theory it's also hard too
+many number Theory it's also hard too
+many number Theory it's also hard too
+but um
+but um
+but um
+um you know it's just multiplication and
+um you know it's just multiplication and
+um you know it's just multiplication and
+division and like how hard can these
+division and like how hard can these
+division and like how hard can these
+natural numbers this is not the most
+natural numbers this is not the most
+natural numbers this is not the most
+advanced mathematics but still this is a
+advanced mathematics but still this is a
+advanced mathematics but still this is a
+problem which speaks to myself
+um
+um
+um
+yeah so uh that that said no it's not
+yeah so uh that that said no it's not
+yeah so uh that that said no it's not
+turning to you know to make a faster
+turning to you know to make a faster
+turning to you know to make a faster
+airplane you know if we solve this is
+okay
+okay
+okay
+um so there's a lot of partial results
+um so there's a lot of partial results
+um so there's a lot of partial results
+on this problem
+on this problem
+on this problem
+expected or something
+expected or something
+expected or something
+um so of course we have testing so if we
+um so of course we have testing so if we
+um so of course we have testing so if we
+tested up to about 10 to 20. every
+tested up to about 10 to 20. every
+tested up to about 10 to 20. every
+number up to our 10 to 20 you can do
+number up to our 10 to 20 you can do
+number up to our 10 to 20 you can do
+that eventually iterates to one
+that eventually iterates to one
+that eventually iterates to one
+um
+um
+um
+we had the cycle one four two one four
+we had the cycle one four two one four
+we had the cycle one four two one four
+two okay so
+two okay so
+two okay so
+um if there was any other cycle in this
+um if there was any other cycle in this
+um if there was any other cycle in this
+map that would already just put the
+map that would already just put the
+map that would already just put the
+conjunction
+conjunction
+conjunction
+um okay so so one way you could
+um okay so so one way you could
+um okay so so one way you could
+particularly just do the conjecture is
+particularly just do the conjecture is
+particularly just do the conjecture is
+Just Produce another cycle okay
+Just Produce another cycle okay
+Just Produce another cycle okay
+uh but um it's it almost suddenly isn't
+uh but um it's it almost suddenly isn't
+uh but um it's it almost suddenly isn't
+one
+one
+one
+um and just to give you one piece of
+um and just to give you one piece of
+um and just to give you one piece of
+evidence it is known that any such cycle
+evidence it is known that any such cycle
+evidence it is known that any such cycle
+has to have at least 17 million okay so
+has to have at least 17 million okay so
+has to have at least 17 million okay so
+you're not going to just Discover It by
+you're not going to just Discover It by
+you're not going to just Discover It by
+pen and paper uh I mean first of all
+pen and paper uh I mean first of all
+pen and paper uh I mean first of all
+your starting point has to be bigger
+your starting point has to be bigger
+your starting point has to be bigger
+than 10 by 20 and you have to wait and
+than 10 by 20 and you have to wait and
+than 10 by 20 and you have to wait and
+iterate at least 17 million times before
+iterate at least 17 million times before
+iterate at least 17 million times before
+you go back to where you started
+you go back to where you started
+you go back to where you started
+um so Cycles almost something don't
+um so Cycles almost something don't
+um so Cycles almost something don't
+exist but in principle that's one of
+exist but in principle that's one of
+exist but in principle that's one of
+your goodness
+your goodness
+your goodness
+you know
+you know
+you know
+um the context is normally true for a
+um the context is normally true for a
+um the context is normally true for a
+fair track of numbers
+fair track of numbers
+fair track of numbers
+um so we do know that if the number of
+um so we do know that if the number of
+um so we do know that if the number of
+numbers up to any large x for which the
+numbers up to any large x for which the
+numbers up to any large x for which the
+conjecture is true grows like a power of
+conjecture is true grows like a power of
+conjecture is true grows like a power of
+x x to the point E4 so there's a
+x x to the point E4 so there's a
+x x to the point E4 so there's a
+reasonable number solution a reasonable
+reasonable number solution a reasonable
+reasonable number solution a reasonable
+number of positive
+number of positive
+number of positive
+um solutions to this conjecture but of
+um solutions to this conjecture but of
+um solutions to this conjecture but of
+course we just need one instance where
+course we just need one instance where
+course we just need one instance where
+this doesn't happen
+um now uh you can generalize this
+um now uh you can generalize this
+um now uh you can generalize this
+conjecture so this conjecture what it's
+conjecture so this conjecture what it's
+conjecture so this conjecture what it's
+doing is splitting the actual numbers
+doing is splitting the actual numbers
+doing is splitting the actual numbers
+into two rescue prices the odd numbers
+into two rescue prices the odd numbers
+into two rescue prices the odd numbers
+and Eve numbers and applying a different
+and Eve numbers and applying a different
+and Eve numbers and applying a different
+F9 map on each one so even numbers you
+F9 map on each one so even numbers you
+F9 map on each one so even numbers you
+don't write two we all want you to do
+don't write two we all want you to do
+don't write two we all want you to do
+two X plus one so if you can consider
+two X plus one so if you can consider
+two X plus one so if you can consider
+generalized collapse
+classes and each one you apply an affine
+classes and each one you apply an affine
+classes and each one you apply an affine
+transformation and that's a map that you
+transformation and that's a map that you
+transformation and that's a map that you
+iterate it and you ask the same question
+iterate it and you ask the same question
+iterate it and you ask the same question
+um and sometimes with versatility
+um and sometimes with versatility
+um and sometimes with versatility
+sometimes there'll be a cycle other than
+sometimes there'll be a cycle other than
+sometimes there'll be a cycle other than
+a trivial cycle and so forth
+a trivial cycle and so forth
+a trivial cycle and so forth
+um but what is interesting is that
+um but what is interesting is that
+um but what is interesting is that
+actually this General classify is doing
+actually this General classify is doing
+actually this General classify is doing
+is um it's uh two incomplete like you
+is um it's uh two incomplete like you
+is um it's uh two incomplete like you
+can encode any two of the machine uh as
+can encode any two of the machine uh as
+can encode any two of the machine uh as
+sort of uh in this form and so there are
+sort of uh in this form and so there are
+sort of uh in this form and so there are
+you can explicitly write down Collective
+you can explicitly write down Collective
+you can explicitly write down Collective
+Maps I think there's one with maybe 50
+Maps I think there's one with maybe 50
+Maps I think there's one with maybe 50
+domestic conference classes and 50
+domestic conference classes and 50
+domestic conference classes and 50
+linear Transformations for which is this
+linear Transformations for which is this
+linear Transformations for which is this
+problem is actually undecidable in CSC
+problem is actually undecidable in CSC
+problem is actually undecidable in CSC
+so there was not only a general
+so there was not only a general
+so there was not only a general
+procedure
+procedure
+procedure
+um this is not a decidable theory of the
+um this is not a decidable theory of the
+um this is not a decidable theory of the
+generalized theory of class Maps so if
+generalized theory of class Maps so if
+generalized theory of class Maps so if
+you if you were to solve the collect
+you if you were to solve the collect
+you if you were to solve the collect
+injection you must do something specific
+injection you must do something specific
+injection you must do something specific
+to the publisher two and three you know
+to the publisher two and three you know
+to the publisher two and three you know
+as somebody specific to two business
+as somebody specific to two business
+as somebody specific to two business
+numbers
+numbers
+numbers
+um one observation I made many years ago
+um one observation I made many years ago
+um one observation I made many years ago
+is that if the conjecture is true it
+is that if the conjecture is true it
+is that if the conjecture is true it
+does have some number Theory
+does have some number Theory
+does have some number Theory
+consequences
+consequences
+consequences
+um it shows that there are no boundar
+um it shows that there are no boundar
+um it shows that there are no boundar
+gaps between palser 2 and powers of
+gaps between palser 2 and powers of
+gaps between palser 2 and powers of
+three that um that if you look at the
+three that um that if you look at the
+three that um that if you look at the
+differences between positive and
+differences between positive and
+differences between positive and
+positive three the gap between them must
+positive three the gap between them must
+positive three the gap between them must
+actually go after infinity as as you as
+actually go after infinity as as you as
+actually go after infinity as as you as
+you make the powers larger and larger
+you make the powers larger and larger
+you make the powers larger and larger
+because as it turns out if there was a
+because as it turns out if there was a
+because as it turns out if there was a
+power of two and a half three that were
+power of two and a half three that were
+power of two and a half three that were
+very very close to each other
+very very close to each other
+very very close to each other
+um you could convert that into a
+um you could convert that into a
+um you could convert that into a
+non-trivial Class Cycle okay there's a
+non-trivial Class Cycle okay there's a
+non-trivial Class Cycle okay there's a
+certain it's a certain amount of high
+certain it's a certain amount of high
+certain it's a certain amount of high
+school algebra and the visual principle
+school algebra and the visual principle
+school algebra and the visual principle
+um in fact actually uh the Gap must
+um in fact actually uh the Gap must
+um in fact actually uh the Gap must
+actually grow quite fast actually you
+actually grow quite fast actually you
+actually grow quite fast actually you
+can get more um some lower some more
+can get more um some lower some more
+can get more um some lower some more
+triple lower bets on on this that so you
+triple lower bets on on this that so you
+triple lower bets on on this that so you
+cannot get a power of two power three
+cannot get a power of two power three
+cannot get a power of two power three
+really close to each other if the class
+really close to each other if the class
+really close to each other if the class
+conjecture is true
+conjecture is true
+conjecture is true
+um now this type service is coming back
+um now this type service is coming back
+um now this type service is coming back
+to this observation because it was
+to this observation because it was
+to this observation because it was
+already known that there is a
+already known that there is a
+already known that there is a
+non-trivial gap between other two across
+non-trivial gap between other two across
+non-trivial gap between other two across
+of three um so there's a very famous
+of three um so there's a very famous
+of three um so there's a very famous
+result of Baker called Bakersfield on
+result of Baker called Bakersfield on
+result of Baker called Bakersfield on
+the filter essentially for that theorem
+the filter essentially for that theorem
+the filter essentially for that theorem
+but it's more about the Transcendence
+but it's more about the Transcendence
+but it's more about the Transcendence
+properties of logarithms in general but
+properties of logarithms in general but
+properties of logarithms in general but
+in particular one consequence is that uh
+in particular one consequence is that uh
+in particular one consequence is that uh
+log 2 and log 3 are the ratio is very
+log 2 and log 3 are the ratio is very
+log 2 and log 3 are the ratio is very
+far from being rational in a very
+far from being rational in a very
+far from being rational in a very
+quantitative sense and in particular um
+quantitative sense and in particular um
+quantitative sense and in particular um
+the corroborate as a quality of this big
+the corroborate as a quality of this big
+the corroborate as a quality of this big
+throughout Baker it is known that the
+throughout Baker it is known that the
+throughout Baker it is known that the
+gap between positive as do got into it
+gap between positive as do got into it
+gap between positive as do got into it
+um but we do not have any Elementary
+um but we do not have any Elementary
+um but we do not have any Elementary
+proof or okay technically Bakersfield
+proof or okay technically Bakersfield
+proof or okay technically Bakersfield
+you can get that from marvelous
+you can get that from marvelous
+you can get that from marvelous
+s unit theorem also but bake will give
+s unit theorem also but bake will give
+s unit theorem also but bake will give
+you an attractive okay yeah okay I guess
+you an attractive okay yeah okay I guess
+you an attractive okay yeah okay I guess
+ineffectively you could okay while I'm
+ineffectively you could okay while I'm
+ineffectively you could okay while I'm
+cleaning here okay uh would you classify
+cleaning here okay uh would you classify
+cleaning here okay uh would you classify
+the students as Elementary
+the students as Elementary
+the students as Elementary
+[Music]
+I guess as literally stated uh this may
+I guess as literally stated uh this may
+I guess as literally stated uh this may
+be uh doable yeah the actual lower Baron
+be uh doable yeah the actual lower Baron
+be uh doable yeah the actual lower Baron
+is actually uh exponential in air
+is actually uh exponential in air
+is actually uh exponential in air
+um
+um
+um
+closer to what Bakersfield right yeah it
+closer to what Bakersfield right yeah it
+closer to what Bakersfield right yeah it
+could be that literally the statement
+could be that literally the statement
+could be that literally the statement
+can be proven by more object techniques
+can be proven by more object techniques
+can be proven by more object techniques
+but the class contract actually implies
+but the class contract actually implies
+but the class contract actually implies
+um uh some further separation between
+um uh some further separation between
+um uh some further separation between
+these which for which the only numbers
+these which for which the only numbers
+these which for which the only numbers
+that I know of at least my biggest too
+that I know of at least my biggest too
+that I know of at least my biggest too
+um so this this one biggest thing was
+um so this this one biggest thing was
+um so this this one biggest thing was
+hard
+hard
+hard
+um I mean it's it's technically
+um I mean it's it's technically
+um I mean it's it's technically
+Elementary but uh yeah um
+Elementary but uh yeah um
+Elementary but uh yeah um
+pretty much anyone who you know any
+pretty much anyone who you know any
+pretty much anyone who you know any
+questions or service conjecture does not
+questions or service conjecture does not
+questions or service conjecture does not
+know what big is theorem and we're not
+know what big is theorem and we're not
+know what big is theorem and we're not
+sort of accidentally discovered
+sort of accidentally discovered
+sort of accidentally discovered
+I'll try and improve this so this I
+I'll try and improve this so this I
+I'll try and improve this so this I
+think it really rules out quite a lot of
+think it really rules out quite a lot of
+think it really rules out quite a lot of
+uh top attempts
+okay
+okay
+okay
+um
+um
+um
+okay so the problem is hard
+okay so the problem is hard
+okay so the problem is hard
+um
+the broadest reasonable conjecture you
+the broadest reasonable conjecture you
+the broadest reasonable conjecture you
+could make about all collapse type
+could make about all collapse type
+could make about all collapse type
+systems
+systems
+systems
+um
+um
+um
+a good question
+a good question
+a good question
+um there are some restricted
+um there are some restricted
+um there are some restricted
+generalizations
+um
+um
+um
+there is a heuristic which I will give
+there is a heuristic which I will give
+there is a heuristic which I will give
+in a few slides why we expect for the
+in a few slides why we expect for the
+in a few slides why we expect for the
+previous question it can actually be
+previous question it can actually be
+previous question it can actually be
+true uh but if for example your places
+true uh but if for example your places
+true uh but if for example your places
+five X plus one instead you just
+five X plus one instead you just
+five X plus one instead you just
+expected that it is not true that in
+expected that it is not true that in
+expected that it is not true that in
+fact most approach Infinity although we
+fact most approach Infinity although we
+fact most approach Infinity although we
+can't prove that either
+can't prove that either
+can't prove that either
+um so this is there is um
+um so this is there is um
+um so this is there is um
+uh and um there's a naive drift uh in
+uh and um there's a naive drift uh in
+uh and um there's a naive drift uh in
+the process that that you can compute
+the process that that you can compute
+the process that that you can compute
+and if this script is is negative uh in
+and if this script is is negative uh in
+and if this script is is negative uh in
+the logarithmic process then you should
+the logarithmic process then you should
+the logarithmic process then you should
+expect that you should but there's
+expect that you should but there's
+expect that you should but there's
+caveat I know exactly stated like a
+caveat I know exactly stated like a
+caveat I know exactly stated like a
+complete conjective given that that
+complete conjective given that that
+complete conjective given that that
+sometimes it was undecidable I think it
+sometimes it was undecidable I think it
+sometimes it was undecidable I think it
+is it is unrealistic to expect a
+is it is unrealistic to expect a
+is it is unrealistic to expect a
+sweeping uh what would you expect for
+sweeping uh what would you expect for
+sweeping uh what would you expect for
+the size of the set of exceptions when
+the size of the set of exceptions when
+the size of the set of exceptions when
+that drift is negative
+that drift is negative
+that drift is negative
+um right so uh what should be true and
+um right so uh what should be true and
+um right so uh what should be true and
+just negative that's Refinery mini
+just negative that's Refinery mini
+just negative that's Refinery mini
+balance cycles and everybody should get
+balance cycles and everybody should get
+balance cycles and everybody should get
+attracted to to those Cycles there
+attracted to to those Cycles there
+attracted to to those Cycles there
+should be no exceptions you know
+should be no exceptions you know
+should be no exceptions you know
+that's what I believe okay um yeah
+that's what I believe okay um yeah
+that's what I believe okay um yeah
+um yeah certainly you don't always
+um yeah certainly you don't always
+um yeah certainly you don't always
+expect just one the tracking cycle you
+expect just one the tracking cycle you
+expect just one the tracking cycle you
+can definitely create uh if you open up
+can definitely create uh if you open up
+can definitely create uh if you open up
+the negative numbers there's also some
+the negative numbers there's also some
+the negative numbers there's also some
+Cycles
+um but um
+yeah well okay well I'll get to you
+yeah well okay well I'll get to you
+yeah well okay well I'll get to you
+later
+later
+later
+all right um so
+all right um so
+all right um so
+um
+um
+um
+right so often what we do in another
+right so often what we do in another
+right so often what we do in another
+analysis we can't solve a problem but
+analysis we can't solve a problem but
+analysis we can't solve a problem but
+every single input maybe we can hope to
+every single input maybe we can hope to
+every single input maybe we can hope to
+do it for almost All Imports or
+do it for almost All Imports or
+do it for almost All Imports or
+something get 100 of the uh of the
+something get 100 of the uh of the
+something get 100 of the uh of the
+problem solved
+problem solved
+problem solved
+um and one approach is that um you know
+um and one approach is that um you know
+um and one approach is that um you know
+you don't actually need to to get the
+you don't actually need to to get the
+you don't actually need to to get the
+minimum value down to one okay um if you
+minimum value down to one okay um if you
+minimum value down to one okay um if you
+can show that every number other than
+can show that every number other than
+can show that every number other than
+one it relates to something strictly
+one it relates to something strictly
+one it relates to something strictly
+less than one
+less than one
+less than one
+um that is already enough because that
+um that is already enough because that
+um that is already enough because that
+guy wouldn't do it is
+strictly less yeah
+yes
+yes
+yes
+um so yeah in terms of that that's all
+um so yeah in terms of that that's all
+um so yeah in terms of that that's all
+we need to show
+we need to show
+we need to show
+um to uh to solve the problem but for
+um to uh to solve the problem but for
+um to uh to solve the problem but for
+the catch is you need to short for every
+the catch is you need to short for every
+the catch is you need to short for every
+single app
+single app
+single app
+um
+um
+um
+so Audrey Terrace is one of the first
+so Audrey Terrace is one of the first
+so Audrey Terrace is one of the first
+public papers on this where he made a uh
+public papers on this where he made a uh
+public papers on this where he made a uh
+quite simple but it looks like it almost
+quite simple but it looks like it almost
+quite simple but it looks like it almost
+solves a conjecture it says that for
+solves a conjecture it says that for
+solves a conjecture it says that for
+almost all and almost all inputs mapped
+almost all and almost all inputs mapped
+almost all and almost all inputs mapped
+to something smaller than itself so that
+to something smaller than itself so that
+to something smaller than itself so that
+the set of exceptions to this inequality
+the set of exceptions to this inequality
+the set of exceptions to this inequality
+has density zero and the natural numbers
+has density zero and the natural numbers
+has density zero and the natural numbers
+um so if we could get rid of this almost
+um so if we could get rid of this almost
+um so if we could get rid of this almost
+uh you've actually improve the
+uh you've actually improve the
+uh you've actually improve the
+conjecture as many of the audience knows
+conjecture as many of the audience knows
+conjecture as many of the audience knows
+it's a big difference between almost all
+it's a big difference between almost all
+it's a big difference between almost all
+all
+all
+all
+um okay but anyway uh but this is at
+um okay but anyway uh but this is at
+um okay but anyway uh but this is at
+least I thought it was all you can prove
+least I thought it was all you can prove
+least I thought it was all you can prove
+and you can start um improving it um so
+and you can start um improving it um so
+and you can start um improving it um so
+um in fact actually uh you can you can
+um in fact actually uh you can you can
+um in fact actually uh you can you can
+improve this band quite a bit okay so it
+improve this band quite a bit okay so it
+improve this band quite a bit okay so it
+was later observed by luge that actually
+was later observed by luge that actually
+was later observed by luge that actually
+uh not only is it true that were almost
+uh not only is it true that were almost
+uh not only is it true that were almost
+always you iterate something less than
+always you iterate something less than
+always you iterate something less than
+and you actually iterate to a power uh
+and you actually iterate to a power uh
+and you actually iterate to a power uh
+in less than one and you've got 0.869
+in less than one and you've got 0.869
+in less than one and you've got 0.869
+and this was improved
+and this was improved
+and this was improved
+2.7 I
+2.7 I
+2.7 I
+um and then things got stuck uh for uh
+um and then things got stuck uh for uh
+um and then things got stuck uh for uh
+for 20 years okay and so um you could
+for 20 years okay and so um you could
+for 20 years okay and so um you could
+get down to this level and then
+get down to this level and then
+get down to this level and then
+um it was no further progress
+um it was no further progress
+um it was no further progress
+um the way um okay this uh doesn't look
+um the way um okay this uh doesn't look
+um the way um okay this uh doesn't look
+like a pde to most people okay yeah but
+like a pde to most people okay yeah but
+like a pde to most people okay yeah but
+this this was how it reminded me
+this this was how it reminded me
+this this was how it reminded me
+of um results uh in um stochastic
+of um results uh in um stochastic
+of um results uh in um stochastic
+partial differential equations okay so
+partial differential equations okay so
+partial differential equations okay so
+um questionable equations is is a very
+um questionable equations is is a very
+um questionable equations is is a very
+complicated version of dynamic system
+complicated version of dynamic system
+complicated version of dynamic system
+where you have some initial data and you
+where you have some initial data and you
+where you have some initial data and you
+have that social equation and you get
+have that social equation and you get
+have that social equation and you get
+some solution at some later time you
+some solution at some later time you
+some solution at some later time you
+know um and it is a continuous one
+know um and it is a continuous one
+know um and it is a continuous one
+um and interdimensional but of the same
+um and interdimensional but of the same
+um and interdimensional but of the same
+same sort and there are many um results
+same sort and there are many um results
+same sort and there are many um results
+in the subject of the flavor of if you
+in the subject of the flavor of if you
+in the subject of the flavor of if you
+take some random input According to some
+take some random input According to some
+take some random input According to some
+natural measure then you can solve the
+natural measure then you can solve the
+natural measure then you can solve the
+equation for certain time and and you
+equation for certain time and and you
+equation for certain time and and you
+have what's called an almost sure local
+have what's called an almost sure local
+have what's called an almost sure local
+word portions result
+word portions result
+word portions result
+um and uh these sort of results kind of
+um and uh these sort of results kind of
+um and uh these sort of results kind of
+have that Spirit um what what the way
+have that Spirit um what what the way
+have that Spirit um what what the way
+that these methods work is that for
+that these methods work is that for
+that these methods work is that for
+short periods of time like small
+short periods of time like small
+short periods of time like small
+constant times log in you can actually
+constant times log in you can actually
+constant times log in you can actually
+understand behavior of this map for
+understand behavior of this map for
+understand behavior of this map for
+almost Orient statistically
+almost Orient statistically
+almost Orient statistically
+um and you can solve the Dynamics long
+um and you can solve the Dynamics long
+um and you can solve the Dynamics long
+enough to actually to get these sort of
+enough to actually to get these sort of
+enough to actually to get these sort of
+doubts
+doubts
+doubts
+um and so it
+um and so it
+um and so it
+isn't he he was working on this maybe 20
+isn't he he was working on this maybe 20
+isn't he he was working on this maybe 20
+years ago do you know what he did
+years ago do you know what he did
+years ago do you know what he did
+nothing come of that I think he claimed
+nothing come of that I think he claimed
+nothing come of that I think he claimed
+something uh yeah that means a bell I
+something uh yeah that means a bell I
+something uh yeah that means a bell I
+don't uh
+don't uh
+don't uh
+yeah
+yeah
+yeah
+um
+um
+um
+yeah I I I think a lot of people
+yeah I I I think a lot of people
+yeah I I I think a lot of people
+especially in dynamics that sort of
+especially in dynamics that sort of
+especially in dynamics that sort of
+secretly uh looked at us from you know I
+secretly uh looked at us from you know I
+secretly uh looked at us from you know I
+mean this uh it's very attempting to
+mean this uh it's very attempting to
+mean this uh it's very attempting to
+open up the bigger tool Dynamics and see
+open up the bigger tool Dynamics and see
+open up the bigger tool Dynamics and see
+if it helps
+if it helps
+if it helps
+um
+but in some cases once you have a local
+but in some cases once you have a local
+but in some cases once you have a local
+Almost sure where a person's result
+Almost sure where a person's result
+Almost sure where a person's result
+there are ways to extend into a global
+there are ways to extend into a global
+there are ways to extend into a global
+um
+um and so uh I started to see what
+um and so uh I started to see what
+um and so uh I started to see what
+whether you can
+whether you can
+whether you can
+um extend this analysis and I was able
+um extend this analysis and I was able
+um extend this analysis and I was able
+to do that
+to do that
+to do that
+um a couple years ago
+um a couple years ago
+um a couple years ago
+um so uh I can actually now improve that
+um so uh I can actually now improve that
+um so uh I can actually now improve that
+power into anything uh which isn't
+power into anything uh which isn't
+power into anything uh which isn't
+bounded okay so in fact what I can show
+bounded okay so in fact what I can show
+bounded okay so in fact what I can show
+is that is that for any function going
+is that is that for any function going
+is that is that for any function going
+to Infinity no matter how slow
+to Infinity no matter how slow
+to Infinity no matter how slow
+um eventually the collects orbit drops
+um eventually the collects orbit drops
+um eventually the collects orbit drops
+to less than F of n for almost all n
+to less than F of n for almost all n
+to less than F of n for almost all n
+okay so for example
+okay so for example
+okay so for example
+um almost all n will iterate to less
+um almost all n will iterate to less
+um almost all n will iterate to less
+than log okay okay so you know I wanted
+than log okay okay so you know I wanted
+than log okay okay so you know I wanted
+to give it to one and I can't hit one
+to give it to one and I can't hit one
+to give it to one and I can't hit one
+but in some sense I can get I can't even
+but in some sense I can get I can't even
+but in some sense I can get I can't even
+get bounded which would I would be very
+get bounded which would I would be very
+get bounded which would I would be very
+happy with um but I can get to the next
+happy with um but I can get to the next
+happy with um but I can get to the next
+best thing I can get uh arbitrarily
+best thing I can get uh arbitrarily
+best thing I can get uh arbitrarily
+close to one and still capture um almost
+close to one and still capture um almost
+close to one and still capture um almost
+all orbits
+all orbits
+all orbits
+um there's one little caveat which is
+um there's one little caveat which is
+um there's one little caveat which is
+technical uh here I could we conversion
+technical uh here I could we conversion
+technical uh here I could we conversion
+almost all it's it's uh it uses of
+almost all it's it's uh it uses of
+almost all it's it's uh it uses of
+natural density this is a technicality
+natural density this is a technicality
+natural density this is a technicality
+which I think can be removed with more
+which I think can be removed with more
+which I think can be removed with more
+work
+work
+work
+um but that's just it for the experts
+um but that's just it for the experts
+um but that's just it for the experts
+um
+um
+um
+okay so
+okay so
+okay so
+um yeah as I said this is analogous to
+um yeah as I said this is analogous to
+um yeah as I said this is analogous to
+what what's known as Almost sure almost
+what what's known as Almost sure almost
+what what's known as Almost sure almost
+Global reports in this results
+Global reports in this results
+Global reports in this results
+uh okay maybe since this isn't a PD
+uh okay maybe since this isn't a PD
+uh okay maybe since this isn't a PD
+audience maybe I want to elaborate
+audience maybe I want to elaborate
+audience maybe I want to elaborate
+further on that
+further on that
+further on that
+um this result has been generalized okay
+um this result has been generalized okay
+um this result has been generalized okay
+so actually I asked about sort of more
+so actually I asked about sort of more
+so actually I asked about sort of more
+General Maps what the the
+General Maps what the the
+General Maps what the the
+um
+um
+um
+okay so you can place two and three in
+okay so you can place two and three in
+okay so you can place two and three in
+in
+in
+in
+um
+um
+um
+um in this problem by other p's and q's
+um in this problem by other p's and q's
+um in this problem by other p's and q's
+okay so if you're divisible by P divided
+okay so if you're divisible by P divided
+okay so if you're divisible by P divided
+by P otherwise you um multiple acute and
+by P otherwise you um multiple acute and
+by P otherwise you um multiple acute and
+then add whatever is necessary to do to
+then add whatever is necessary to do to
+then add whatever is necessary to do to
+give you more poor p
+give you more poor p
+give you more poor p
+um and so that's a generalized collects
+um and so that's a generalized collects
+um and so that's a generalized collects
+map
+map
+map
+um and then uh uh concave's Greenfield
+um and then uh uh concave's Greenfield
+um and then uh uh concave's Greenfield
+who's not here today because uh and
+who's not here today because uh and
+who's not here today because uh and
+Madrid uh they generalize to the setting
+Madrid uh they generalize to the setting
+Madrid uh they generalize to the setting
+and they found a threshold so as long as
+and they found a threshold so as long as
+and they found a threshold so as long as
+the three is not too big uh as long as
+the three is not too big uh as long as
+the three is not too big uh as long as
+the uh being multiplied by is found by a
+the uh being multiplied by is found by a
+the uh being multiplied by is found by a
+specific number
+specific number
+specific number
+um the same result
+um the same result
+um the same result
+um and this is what's the universe
+um and this is what's the universe
+um and this is what's the universe
+doesn't drift to be negative we'll get
+doesn't drift to be negative we'll get
+doesn't drift to be negative we'll get
+to that
+to that
+to that
+um and uh numerically uh every time they
+um and uh numerically uh every time they
+um and uh numerically uh every time they
+they programs where Q was bigger than a
+they programs where Q was bigger than a
+they programs where Q was bigger than a
+special um
+so there is some sort of Threshold at
+so there is some sort of Threshold at
+so there is some sort of Threshold at
+least for the specific variation of
+least for the specific variation of
+least for the specific variation of
+collapse but from the most General class
+collapse but from the most General class
+collapse but from the most General class
+problem I don't think we can make a
+problem I don't think we can make a
+problem I don't think we can make a
+conjecture so the numeric means that
+conjecture so the numeric means that
+conjecture so the numeric means that
+this Overture is getting longer and
+this Overture is getting longer and
+this Overture is getting longer and
+longer it doesn't come back oh yes yeah
+longer it doesn't come back oh yes yeah
+longer it doesn't come back oh yes yeah
+um yeah
+um yeah
+um yeah
+you have no way of numerically proving
+you have no way of numerically proving
+you have no way of numerically proving
+that an order does not return to one
+that an order does not return to one
+that an order does not return to one
+other than being trapped in a cycle so
+other than being trapped in a cycle so
+other than being trapped in a cycle so
+that's the only person
+that's the only person
+that's the only person
+uh a cycle that we don't want
+uh a cycle that we don't want
+uh a cycle that we don't want
+okay
+okay
+okay
+all right um so I faced this into almost
+all right um so I faced this into almost
+all right um so I faced this into almost
+all um but it was later pointed out to
+all um but it was later pointed out to
+all um but it was later pointed out to
+me by Ben um Ben green that actually uh
+me by Ben um Ben green that actually uh
+me by Ben um Ben green that actually uh
+you could phrase this without any uh use
+you could phrase this without any uh use
+you could phrase this without any uh use
+of the word almost
+of the word almost
+of the word almost
+um so and another way of saying it is
+um so and another way of saying it is
+um so and another way of saying it is
+that um
+that um
+that um
+for absolutely one percent
+for absolutely one percent
+for absolutely one percent
+um uh actually I can actually get the um
+um uh actually I can actually get the um
+um uh actually I can actually get the um
+uh the the universe of this classmate
+uh the the universe of this classmate
+uh the the universe of this classmate
+bounded by constant not just some really
+bounded by constant not just some really
+bounded by constant not just some really
+slowly good question but a constant but
+slowly good question but a constant but
+slowly good question but a constant but
+the catch now is it's not for almost all
+the catch now is it's not for almost all
+the catch now is it's not for almost all
+you have to exclude now a positive
+you have to exclude now a positive
+you have to exclude now a positive
+proportion of the number so
+proportion of the number so
+proportion of the number so
+um so for 99 of natural numbers there's
+um so for 99 of natural numbers there's
+um so for 99 of natural numbers there's
+something about on this now you take
+something about on this now you take
+something about on this now you take
+bounded number for 19.9 you reach a
+bounded number for 19.9 you reach a
+bounded number for 19.9 you reach a
+larger boundary number that's what
+larger boundary number that's what
+larger boundary number that's what
+that's all called this turns out to be
+that's all called this turns out to be
+that's all called this turns out to be
+equivalent by some compactors argument
+equivalent by some compactors argument
+equivalent by some compactors argument
+through the previous thing I just said
+through the previous thing I just said
+through the previous thing I just said
+uh so um for people who like epsilence
+uh so um for people who like epsilence
+uh so um for people who like epsilence
+and Deltas this might be a better way of
+and Deltas this might be a better way of
+and Deltas this might be a better way of
+thinking about this
+thinking about this
+thinking about this
+um yeah so one quality by the way is
+um yeah so one quality by the way is
+um yeah so one quality by the way is
+that while I can't tell you that you hit
+that while I can't tell you that you hit
+that while I can't tell you that you hit
+one and I can't even tell you that a
+one and I can't even tell you that a
+one and I can't even tell you that a
+positive density of numbers hit one
+positive density of numbers hit one
+positive density of numbers hit one
+which would be a great result
+which would be a great result
+which would be a great result
+um I can tell you that there is some
+um I can tell you that there is some
+um I can tell you that there is some
+number uh there is some some absolute
+number uh there is some some absolute
+number uh there is some some absolute
+constant which is hit
+constant which is hit
+constant which is hit
+um plus effects from the time there is
+um plus effects from the time there is
+um plus effects from the time there is
+some number of which all orbits hit that
+some number of which all orbits hit that
+some number of which all orbits hit that
+number
+number
+number
+um so in principle actually uh you could
+um so in principle actually uh you could
+um so in principle actually uh you could
+now prove that that all numbers a
+now prove that that all numbers a
+now prove that that all numbers a
+positive portion are not saying one
+positive portion are not saying one
+positive portion are not saying one
+because uh it's possible that you can
+because uh it's possible that you can
+because uh it's possible that you can
+get a bound on the scene on the scene of
+get a bound on the scene on the scene of
+get a bound on the scene on the scene of
+actually you aren't able to find it
+actually you aren't able to find it
+actually you aren't able to find it
+exactly but you probably Bound by some
+exactly but you probably Bound by some
+exactly but you probably Bound by some
+computable and then you can show that
+computable and then you can show that
+computable and then you can show that
+every number applied threshold goes to
+every number applied threshold goes to
+every number applied threshold goes to
+one then you also have shown that that a
+one then you also have shown that that a
+one then you also have shown that that a
+positive fraction number one so that
+positive fraction number one so that
+positive fraction number one so that
+statement may actually be uh be decided
+statement may actually be uh be decided
+statement may actually be uh be decided
+although I think with the current
+although I think with the current
+although I think with the current
+balances
+balances
+balances
+actually do that okay
+um so in the rest of uh this talk I will
+um so in the rest of uh this talk I will
+um so in the rest of uh this talk I will
+talk about how we um uh we prove this
+talk about how we um uh we prove this
+talk about how we um uh we prove this
+theorem uh okay so there's a couple
+theorem uh okay so there's a couple
+theorem uh okay so there's a couple
+steps which will make no sense currently
+steps which will make no sense currently
+steps which will make no sense currently
+but hopefully uh uh this will I'll
+but hopefully uh uh this will I'll
+but hopefully uh uh this will I'll
+explain each of these things in turn
+explain each of these things in turn
+explain each of these things in turn
+um I'm first going to convert the
+um I'm first going to convert the
+um I'm first going to convert the
+collapse problem to a equivalent version
+collapse problem to a equivalent version
+collapse problem to a equivalent version
+which is also more study called the
+which is also more study called the
+which is also more study called the
+Syracuse form which is a bit more uh
+Syracuse form which is a bit more uh
+Syracuse form which is a bit more uh
+it's kind of a uh uh it's more uh
+it's kind of a uh uh it's more uh
+it's kind of a uh uh it's more uh
+periodically friendly somehow um there's
+periodically friendly somehow um there's
+periodically friendly somehow um there's
+there's various ways you can think about
+there's various ways you can think about
+there's various ways you can think about
+this question as a Innovation on the two
+this question as a Innovation on the two
+this question as a Innovation on the two
+addicts which somehow happens to be
+addicts which somehow happens to be
+addicts which somehow happens to be
+restricted to the images what
+restricted to the images what
+restricted to the images what
+nutritional three addicts it turns out
+nutritional three addicts it turns out
+nutritional three addicts it turns out
+the three attack and in some sense the
+the three attack and in some sense the
+the three attack and in some sense the
+whole problem is that the two experience
+whole problem is that the two experience
+whole problem is that the two experience
+um but there's a periodic version which
+um but there's a periodic version which
+um but there's a periodic version which
+is uh which is convenient
+is uh which is convenient
+is uh which is convenient
+um and so uh they saw this dynamical
+um and so uh they saw this dynamical
+um and so uh they saw this dynamical
+problem on the field on a free addict
+problem on the field on a free addict
+problem on the field on a free addict
+that you want to understand uh and this
+that you want to understand uh and this
+that you want to understand uh and this
+Dynamic component has a natural
+Dynamic component has a natural
+Dynamic component has a natural
+invariant measure which is kind of weird
+invariant measure which is kind of weird
+invariant measure which is kind of weird
+fractal measure
+fractal measure
+fractal measure
+um and we locate a measure and if you
+um and we locate a measure and if you
+um and we locate a measure and if you
+can show uh that the corresponding
+can show uh that the corresponding
+can show uh that the corresponding
+version of this version on the images
+version of this version on the images
+version of this version on the images
+are based it's almost an invariant
+are based it's almost an invariant
+are based it's almost an invariant
+measure in certain sets uh that actually
+measure in certain sets uh that actually
+measure in certain sets uh that actually
+solves the problem so it comes down to
+solves the problem so it comes down to
+solves the problem so it comes down to
+constructing a measure which is almost
+constructing a measure which is almost
+constructing a measure which is almost
+positive about the flow about the
+positive about the flow about the
+positive about the flow about the
+circles flow
+circles flow
+circles flow
+um and that you can
+um and that you can
+um and that you can
+it corresponds to establishing a certain
+it corresponds to establishing a certain
+it corresponds to establishing a certain
+mixing property of a certain specific
+mixing property of a certain specific
+mixing property of a certain specific
+family of measures on on
+family of measures on on
+family of measures on on
+finite secret groups so that this is
+finite secret groups so that this is
+finite secret groups so that this is
+very concrete measures that don't look
+very concrete measures that don't look
+very concrete measures that don't look
+like they can't do the original
+like they can't do the original
+like they can't do the original
+iteration
+iteration
+iteration
+um and they look like random sums um but
+um and they look like random sums um but
+um and they look like random sums um but
+of almost independent sums or Vena
+of almost independent sums or Vena
+of almost independent sums or Vena
+variables so they look quite tractable
+variables so they look quite tractable
+variables so they look quite tractable
+and you can use story analysis and you
+and you can use story analysis and you
+and you can use story analysis and you
+just need to understand if you get some
+just need to understand if you get some
+just need to understand if you get some
+some non-trivial Decay or furry
+some non-trivial Decay or furry
+some non-trivial Decay or furry
+coefficient of these measures uh you can
+coefficient of these measures uh you can
+coefficient of these measures uh you can
+make progress
+make progress
+make progress
+um and it turns out that uh there's
+um and it turns out that uh there's
+um and it turns out that uh there's
+enough structure it's very coefficients
+enough structure it's very coefficients
+enough structure it's very coefficients
+that you can um estimate this by
+that you can um estimate this by
+that you can um estimate this by
+something geometric and it all comes
+something geometric and it all comes
+something geometric and it all comes
+down to understanding whenever any more
+down to understanding whenever any more
+down to understanding whenever any more
+kids are trying so uh all right so I'll
+kids are trying so uh all right so I'll
+kids are trying so uh all right so I'll
+try to pass through these steps in turn
+try to pass through these steps in turn
+try to pass through these steps in turn
+okay so um the clock step splits this
+okay so um the clock step splits this
+okay so um the clock step splits this
+time between even numbers and odd
+time between even numbers and odd
+time between even numbers and odd
+numbers but actually most of the action
+numbers but actually most of the action
+numbers but actually most of the action
+happens of the odd one sorry even though
+happens of the odd one sorry even though
+happens of the odd one sorry even though
+it's dividing by two until it will have
+it's dividing by two until it will have
+it's dividing by two until it will have
+is divided by two until you're on
+is divided by two until you're on
+is divided by two until you're on
+um so really um the most interesting
+um so really um the most interesting
+um so really um the most interesting
+Dynamics happens on the odd numbers and
+Dynamics happens on the odd numbers and
+Dynamics happens on the odd numbers and
+so you can accelerate the collapse
+so you can accelerate the collapse
+so you can accelerate the collapse
+Dynamics by just sort of skipping all
+Dynamics by just sort of skipping all
+Dynamics by just sort of skipping all
+the even steps and just um you start an
+the even steps and just um you start an
+the even steps and just um you start an
+odd number and just iterate until you
+odd number and just iterate until you
+odd number and just iterate until you
+hit another odd number and just consider
+hit another odd number and just consider
+hit another odd number and just consider
+that map so there's an accelerated map
+that map so there's an accelerated map
+that map so there's an accelerated map
+which is now defined on the odd numbers
+which is now defined on the odd numbers
+which is now defined on the odd numbers
+and what it does is I take any odd
+and what it does is I take any odd
+and what it does is I take any odd
+number you mark obviously add one now
+number you mark obviously add one now
+number you mark obviously add one now
+it's even and then you just take out all
+it's even and then you just take out all
+it's even and then you just take out all
+the positive two so um you divide by two
+the positive two so um you divide by two
+the positive two so um you divide by two
+to the two valuations so you don't
+to the two valuations so you don't
+to the two valuations so you don't
+divide by all the positive two that
+divide by all the positive two that
+divide by all the positive two that
+divides three plus one until you get
+divides three plus one until you get
+divides three plus one until you get
+um your number and that spits out uh the
+um your number and that spits out uh the
+um your number and that spits out uh the
+Syracuse map okay
+Syracuse map okay
+Syracuse map okay
+um and so this is just an acceleration
+um and so this is just an acceleration
+um and so this is just an acceleration
+of the class map of the Syracuse orbit
+of the class map of the Syracuse orbit
+of the class map of the Syracuse orbit
+it says like it's just the odd elements
+it says like it's just the odd elements
+it says like it's just the odd elements
+of let's order it and they have the same
+of let's order it and they have the same
+of let's order it and they have the same
+minimum okay the minimum so that's um
+minimum okay the minimum so that's um
+minimum okay the minimum so that's um
+so if you want to solve the platform
+so if you want to solve the platform
+so if you want to solve the platform
+it's enough to just iterate this map and
+it's enough to just iterate this map and
+it's enough to just iterate this map and
+show that that everybody goes to one
+show that that everybody goes to one
+show that that everybody goes to one
+almost everybody goes to whatever
+almost everybody goes to whatever
+almost everybody goes to whatever
+threshold you want okay so um you can
+threshold you want okay so um you can
+threshold you want okay so um you can
+convert to the Syracuse file and so um
+convert to the Syracuse file and so um
+convert to the Syracuse file and so um
+the main theorem is basically that for
+the main theorem is basically that for
+the main theorem is basically that for
+almost all n Syracuse now eventually
+almost all n Syracuse now eventually
+almost all n Syracuse now eventually
+hits say less than one
+hits say less than one
+hits say less than one
+so this is an easy equivalent this this
+so this is an easy equivalent this this
+so this is an easy equivalent this this
+is this is not deep but but this is um
+is this is not deep but but this is um
+is this is not deep but but this is um
+a convenient population
+a convenient population
+a convenient population
+um
+um
+um
+so um because now I can explain the
+so um because now I can explain the
+so um because now I can explain the
+heuristics why
+heuristics why
+heuristics why
+why this map should uh should converge
+why this map should uh should converge
+why this map should uh should converge
+you see um the only thing difficult
+you see um the only thing difficult
+you see um the only thing difficult
+three and plus one is a map we won't
+three and plus one is a map we won't
+three and plus one is a map we won't
+understand okay the only thing difficult
+understand okay the only thing difficult
+understand okay the only thing difficult
+is this two evaluation how many times
+is this two evaluation how many times
+is this two evaluation how many times
+two divides three and plus one okay so
+two divides three and plus one okay so
+two divides three and plus one okay so
+um three of us will always be divisible
+um three of us will always be divisible
+um three of us will always be divisible
+by two once it is always Eden
+by two once it is always Eden
+by two once it is always Eden
+um about half the time it would just
+um about half the time it would just
+um about half the time it would just
+about four
+about four
+about four
+uh if you take a random order number
+uh if you take a random order number
+uh if you take a random order number
+three at one it will either be zero mod
+three at one it will either be zero mod
+three at one it will either be zero mod
+four or two by four and half the time it
+four or two by four and half the time it
+four or two by four and half the time it
+reduces by four uh one quarter of the
+reduces by four uh one quarter of the
+reduces by four uh one quarter of the
+time it would be for eight and so forth
+time it would be for eight and so forth
+time it would be for eight and so forth
+so there's two valuation uh
+so there's two valuation uh
+so there's two valuation uh
+heuristically uh we can model it by
+heuristically uh we can model it by
+heuristically uh we can model it by
+random variable so acoustically the
+random variable so acoustically the
+random variable so acoustically the
+number of times two divides a random odd
+number of times two divides a random odd
+number of times two divides a random odd
+number times three plus one is modeled
+number times three plus one is modeled
+number times three plus one is modeled
+by a geometric random variable geometric
+by a geometric random variable geometric
+by a geometric random variable geometric
+random variable geom2 is just a positive
+random variable geom2 is just a positive
+random variable geom2 is just a positive
+natural number where the probability
+natural number where the probability
+natural number where the probability
+that that is equal to ndk is two minus K
+that that is equal to ndk is two minus K
+that that is equal to ndk is two minus K
+so it's going to be one after time
+so it's going to be one after time
+so it's going to be one after time
+um two um
+okay so um and for large and this plus
+okay so um and for large and this plus
+okay so um and for large and this plus
+one is is lower order so basically
+one is is lower order so basically
+one is is lower order so basically
+roughly speaking what this map is doing
+roughly speaking what this map is doing
+roughly speaking what this map is doing
+so it's taking a number in walked by
+so it's taking a number in walked by
+so it's taking a number in walked by
+three and then divided by 2 to a random
+three and then divided by 2 to a random
+three and then divided by 2 to a random
+geometric random variable this is a
+geometric random variable this is a
+geometric random variable this is a
+random model for this uh for this
+random model for this uh for this
+random model for this uh for this
+process or in terms of logarithms if you
+process or in terms of logarithms if you
+process or in terms of logarithms if you
+take the log of of n the Syracuse map
+take the log of of n the Syracuse map
+take the log of of n the Syracuse map
+adds log 3 and then reduces um and then
+adds log 3 and then reduces um and then
+adds log 3 and then reduces um and then
+subtracts off
+subtracts off
+subtracts off
+some multiple Vlog too and the the model
+some multiple Vlog too and the the model
+some multiple Vlog too and the the model
+will log to these crackers is the
+will log to these crackers is the
+will log to these crackers is the
+geometric and global okay so this is a
+geometric and global okay so this is a
+geometric and global okay so this is a
+random walk okay yeah for so you log in
+random walk okay yeah for so you log in
+random walk okay yeah for so you log in
+you're just adding a random verb
+you're just adding a random verb
+you're just adding a random verb
+um and then the uh the big leap of faith
+um and then the uh the big leap of faith
+um and then the uh the big leap of faith
+here is that these vendors act like
+here is that these vendors act like
+here is that these vendors act like
+independent random variables that's a
+independent random variables that's a
+independent random variables that's a
+human array
+human array
+human array
+um and this found a verbal you can
+um and this found a verbal you can
+um and this found a verbal you can
+compute this expectation right so this
+compute this expectation right so this
+compute this expectation right so this
+is a vulnerable and it's if you if you
+is a vulnerable and it's if you if you
+is a vulnerable and it's if you if you
+just plug in a standard computation the
+just plug in a standard computation the
+just plug in a standard computation the
+expected value of the drift would be
+expected value of the drift would be
+expected value of the drift would be
+like of this random variable expectation
+like of this random variable expectation
+like of this random variable expectation
+is log three or four which happens to be
+is log three or four which happens to be
+is log three or four which happens to be
+negative so every time you apply a
+negative so every time you apply a
+negative so every time you apply a
+simple step on average you make it
+simple step on average you make it
+simple step on average you make it
+smaller so if you just sort of
+smaller so if you just sort of
+smaller so if you just sort of
+acoustically improve large numbers then
+acoustically improve large numbers then
+acoustically improve large numbers then
+everybody should just drift that to to a
+everybody should just drift that to to a
+everybody should just drift that to to a
+minimal value okay so so this is these
+minimal value okay so so this is these
+minimal value okay so so this is these
+are the heuristics and if you place
+are the heuristics and if you place
+are the heuristics and if you place
+three by five um the same heuristics
+three by five um the same heuristics
+three by five um the same heuristics
+would say that you should get positive
+would say that you should get positive
+would say that you should get positive
+drift and all that
+drift and all that
+drift and all that
+okay
+okay
+okay
+um yeah it's not clear
+um yeah it's not clear
+um yeah it's not clear
+um I think if you write down a name if
+um I think if you write down a name if
+um I think if you write down a name if
+you stick you could probably write some
+you stick you could probably write some
+you stick you could probably write some
+collect stuff for which this seriously
+collect stuff for which this seriously
+collect stuff for which this seriously
+doesn't work like if you have enough
+doesn't work like if you have enough
+doesn't work like if you have enough
+progressions you have to sort of treat
+progressions you have to sort of treat
+progressions you have to sort of treat
+it's possible that somehow the orbit the
+it's possible that somehow the orbit the
+it's possible that somehow the orbit the
+members some information about history
+members some information about history
+members some information about history
+and that this Independence assumption is
+and that this Independence assumption is
+and that this Independence assumption is
+not always
+not always
+not always
+yes the heuristic will also predict that
+yes the heuristic will also predict that
+yes the heuristic will also predict that
+it goes to one pretty quickly yes that's
+it goes to one pretty quickly yes that's
+it goes to one pretty quickly yes that's
+exponentially faster yes yes but yes
+exponentially faster yes yes but yes
+exponentially faster yes yes but yes
+um I guess uh it's not it's not written
+um I guess uh it's not it's not written
+um I guess uh it's not it's not written
+anywhere yes but it is believed that uh
+anywhere yes but it is believed that uh
+anywhere yes but it is believed that uh
+that the time to which one should be of
+that the time to which one should be of
+that the time to which one should be of
+the order will get yes
+the order will get yes
+the order will get yes
+um
+um
+um
+um yeah but that's not proven
+um yeah but that's not proven
+um yeah but that's not proven
+um the result I prove does show this in
+um the result I prove does show this in
+um the result I prove does show this in
+some sense uh for almost all and that is
+some sense uh for almost all and that is
+some sense uh for almost all and that is
+the case or that you can reach below
+the case or that you can reach below
+the case or that you can reach below
+this entire people forget and does it
+this entire people forget and does it
+this entire people forget and does it
+also give a prediction for the maximum
+also give a prediction for the maximum
+also give a prediction for the maximum
+value when you start from then what
+value when you start from then what
+value when you start from then what
+would be yes okay yeah so I think
+would be yes okay yeah so I think
+would be yes okay yeah so I think
+there's a paper of controvers and
+there's a paper of controvers and
+there's a paper of controvers and
+luxurious or maybe controversial uh that
+luxurious or maybe controversial uh that
+luxurious or maybe controversial uh that
+makes a prediction like this
+makes a prediction like this
+makes a prediction like this
+um yeah yeah you can use this random
+um yeah yeah you can use this random
+um yeah yeah you can use this random
+walk to make predictions because we
+walk to make predictions because we
+walk to make predictions because we
+understand random walks okay so uh yeah
+understand random walks okay so uh yeah
+understand random walks okay so uh yeah
+you can you can talk about statistics
+you can you can talk about statistics
+you can you can talk about statistics
+like time to hit one largest uh value
+like time to hit one largest uh value
+like time to hit one largest uh value
+and so forth and
+and so forth and
+and so forth and
+um numerically this it's pretty good
+um numerically this it's pretty good
+um numerically this it's pretty good
+yeah my numerics are not not nearly as
+yeah my numerics are not not nearly as
+yeah my numerics are not not nearly as
+as impressive but I was able to run this
+as impressive but I was able to run this
+as impressive but I was able to run this
+process like five times or something
+process like five times or something
+process like five times or something
+okay so
+okay so
+okay so
+um yeah I I put a random notes which I
+um yeah I I put a random notes which I
+um yeah I I put a random notes which I
+think I just okay I was even around
+think I just okay I was even around
+think I just okay I was even around
+I think it's not a generative end of our
+I think it's not a generative end of our
+I think it's not a generative end of our
+number and um and iterated a few times
+number and um and iterated a few times
+number and um and iterated a few times
+called it in log scale and this is just
+called it in log scale and this is just
+called it in log scale and this is just
+one of the uh Syracuse orbits it goes up
+one of the uh Syracuse orbits it goes up
+one of the uh Syracuse orbits it goes up
+and down uh plotted against the linear
+and down uh plotted against the linear
+and down uh plotted against the linear
+drift okay in this particular case it
+drift okay in this particular case it
+drift okay in this particular case it
+goes it stays above the derivative so it
+goes it stays above the derivative so it
+goes it stays above the derivative so it
+hits it on the nose but that was just
+hits it on the nose but that was just
+hits it on the nose but that was just
+this particular instance if you do many
+this particular instance if you do many
+this particular instance if you do many
+instances it looks like we're on a walk
+instances it looks like we're on a walk
+instances it looks like we're on a walk
+I should uh I've had better computer
+I should uh I've had better computer
+I should uh I've had better computer
+skills I've generated like 10 of these
+skills I've generated like 10 of these
+skills I've generated like 10 of these
+and superimpose them anyway
+and superimpose them anyway
+and superimpose them anyway
+um but yeah you can play with this and
+um but yeah you can play with this and
+um but yeah you can play with this and
+you get pretty convinced that this
+you get pretty convinced that this
+you get pretty convinced that this
+lineage of model is quite accurate
+okay so uh you would like to make this
+okay so uh you would like to make this
+okay so uh you would like to make this
+rigorous all right so
+rigorous all right so
+rigorous all right so
+um yeah so for a single um if you enjoy
+um yeah so for a single um if you enjoy
+um yeah so for a single um if you enjoy
+this once uh you can you can you can
+this once uh you can you can you can
+this once uh you can you can you can
+justify but adjust it quite easily but
+justify but adjust it quite easily but
+justify but adjust it quite easily but
+you want to do this many times so maybe
+you want to do this many times so maybe
+you want to do this many times so maybe
+you want to iterate there's no end times
+you want to iterate there's no end times
+you want to iterate there's no end times
+um and then what you find is that uh n
+um and then what you find is that uh n
+um and then what you find is that uh n
+times you multiply by Three Little M
+times you multiply by Three Little M
+times you multiply by Three Little M
+divided by two to some integer uh plus a
+divided by two to some integer uh plus a
+divided by two to some integer uh plus a
+little shift because there are these
+little shift because there are these
+little shift because there are these
+plus ones which are tiny initially but
+plus ones which are tiny initially but
+plus ones which are tiny initially but
+they do build up
+they do build up
+they do build up
+um but you can think about these Maps
+um but you can think about these Maps
+um but you can think about these Maps
+many times and you find that um main
+many times and you find that um main
+many times and you find that um main
+terms and multiply by 3D and over some
+terms and multiply by 3D and over some
+terms and multiply by 3D and over some
+power two and the power two that you
+power two and the power two that you
+power two and the power two that you
+divide by is the sum of the two
+divide by is the sum of the two
+divide by is the sum of the two
+valuations of things coming from all the
+valuations of things coming from all the
+valuations of things coming from all the
+previous Orbits for one
+previous Orbits for one
+previous Orbits for one
+so for each previous orbit you have to
+so for each previous orbit you have to
+so for each previous orbit you have to
+compute how many times
+compute how many times
+compute how many times
+um two devices according to add them all
+um two devices according to add them all
+um two devices according to add them all
+up that's what you divide by here
+up that's what you divide by here
+up that's what you divide by here
+um and then there's a little offset
+um and then there's a little offset
+um and then there's a little offset
+which is kind of small and it's it's
+which is kind of small and it's it's
+which is kind of small and it's it's
+some function of all these
+some function of all these
+some function of all these
+numbers okay so um this looks like a
+numbers okay so um this looks like a
+numbers okay so um this looks like a
+messy formula but as long as little n is
+messy formula but as long as little n is
+messy formula but as long as little n is
+small okay so if you're doing a short
+small okay so if you're doing a short
+small okay so if you're doing a short
+time analysis if you're only running
+time analysis if you're only running
+time analysis if you're only running
+this four times much smaller than say a
+this four times much smaller than say a
+this four times much smaller than say a
+small constant login
+small constant login
+small constant login
+um then one can show justify Elementary
+um then one can show justify Elementary
+um then one can show justify Elementary
+Brute Force actually but they're all
+Brute Force actually but they're all
+Brute Force actually but they're all
+these um round of apples they do
+these um round of apples they do
+these um round of apples they do
+actually behave like independent
+actually behave like independent
+actually behave like independent
+geometric vendor variables and there's a
+geometric vendor variables and there's a
+geometric vendor variables and there's a
+very good approximation and so uh this
+very good approximation and so uh this
+very good approximation and so uh this
+really the main term does look like um a
+really the main term does look like um a
+really the main term does look like um a
+random walk uh and uh and in particular
+random walk uh and uh and in particular
+random walk uh and uh and in particular
+some of these of these n numbers here is
+some of these of these n numbers here is
+some of these of these n numbers here is
+roughly about 2A with really high
+roughly about 2A with really high
+roughly about 2A with really high
+quality exponently high in middleware
+quality exponently high in middleware
+quality exponently high in middleware
+um and the arrow is quite small uh the
+um and the arrow is quite small uh the
+um and the arrow is quite small uh the
+area is is it will be bounded by the
+area is is it will be bounded by the
+area is is it will be bounded by the
+main term as long as you're in this
+main term as long as you're in this
+main term as long as you're in this
+short-term regime
+short-term regime
+short-term regime
+and so uh this this works quite well
+and so uh this this works quite well
+and so uh this this works quite well
+this approximation is very easy to
+this approximation is very easy to
+this approximation is very easy to
+applies for short times
+applies for short times
+applies for short times
+and uh yeah so in particular
+and uh yeah so in particular
+and uh yeah so in particular
+um you get this very good approximation
+um you get this very good approximation
+um you get this very good approximation
+that for short times the iterate it does
+that for short times the iterate it does
+that for short times the iterate it does
+behave like n times a very specific
+behave like n times a very specific
+behave like n times a very specific
+quantity of three quarters to the end
+quantity of three quarters to the end
+quantity of three quarters to the end
+which is drifting to zero
+which is drifting to zero
+which is drifting to zero
+um and this is and basically this is how
+um and this is and basically this is how
+um and this is and basically this is how
+Evolution correct were able to get the
+Evolution correct were able to get the
+Evolution correct were able to get the
+results that that you can get below into
+results that that you can get below into
+results that that you can get below into
+a certain product and the point eight
+a certain product and the point eight
+a certain product and the point eight
+something by the short time analysis
+something by the short time analysis
+something by the short time analysis
+but uh if you've tried to innovate this
+but uh if you've tried to innovate this
+but uh if you've tried to innovate this
+for a long time if you make the number
+for a long time if you make the number
+for a long time if you make the number
+of orbits bigger than a small concept
+of orbits bigger than a small concept
+of orbits bigger than a small concept
+login
+login
+login
+um then you it is no longer obvious at
+um then you it is no longer obvious at
+um then you it is no longer obvious at
+all that these um uh that these uh um
+all that these um uh that these uh um
+all that these um uh that these uh um
+valuations are independent uh also uh
+valuations are independent uh also uh
+valuations are independent uh also uh
+the uh this this collection term starts
+the uh this this collection term starts
+the uh this this collection term starts
+it was becoming big uh so this um this
+it was becoming big uh so this um this
+it was becoming big uh so this um this
+argument only seems to work directly for
+argument only seems to work directly for
+argument only seems to work directly for
+short times
+short times
+short times
+okay
+okay
+okay
+but um all right but there's this trick
+but um all right but there's this trick
+but um all right but there's this trick
+you can sometimes iterate a short time
+you can sometimes iterate a short time
+you can sometimes iterate a short time
+result even it only holds almost always
+result even it only holds almost always
+result even it only holds almost always
+to a long time ago but but you need one
+to a long time ago but but you need one
+to a long time ago but but you need one
+extra ingredient yeah so um like if you
+extra ingredient yeah so um like if you
+extra ingredient yeah so um like if you
+knew
+knew
+knew
+um okay for almost an iterated to enter
+um okay for almost an iterated to enter
+um okay for almost an iterated to enter
+a small power in the point back
+a small power in the point back
+a small power in the point back
+um you could then hope to iterate okay
+um you could then hope to iterate okay
+um you could then hope to iterate okay
+well okay so in most numbers and iterate
+well okay so in most numbers and iterate
+well okay so in most numbers and iterate
+to something less than 10.9 okay and
+to something less than 10.9 okay and
+to something less than 10.9 okay and
+let's call it a new number M well most
+let's call it a new number M well most
+let's call it a new number M well most
+numbers M here is
+like n to the point if you want
+like n to the point if you want
+like n to the point if you want
+um so if you are able you know so we
+um so if you are able you know so we
+um so if you are able you know so we
+should just be able to combine these two
+should just be able to combine these two
+should just be able to combine these two
+results and once you get a little bit of
+results and once you get a little bit of
+results and once you get a little bit of
+gain you should be able to bootstrap it
+gain you should be able to bootstrap it
+gain you should be able to bootstrap it
+and get and get a bigger game
+and get and get a bigger game
+and get and get a bigger game
+um and you could just keep hoping to
+um and you could just keep hoping to
+um and you could just keep hoping to
+iterate this and maybe get all the way
+iterate this and maybe get all the way
+iterate this and maybe get all the way
+down to one very close to one
+down to one very close to one
+down to one very close to one
+um but there is a serious obstruction
+um but there is a serious obstruction
+um but there is a serious obstruction
+and he's he's with almost starts
+and he's he's with almost starts
+and he's he's with almost starts
+becoming very annoying um so there is an
+becoming very annoying um so there is an
+becoming very annoying um so there is an
+exceptional set so there's an
+exceptional set so there's an
+exceptional set so there's an
+exceptional set of ends for which you do
+exceptional set of ends for which you do
+exceptional set of ends for which you do
+not go down to to end 0.9
+not go down to to end 0.9
+not go down to to end 0.9
+um and then of all the M's set of M's
+um and then of all the M's set of M's
+um and then of all the M's set of M's
+that also do not go down to Amazon like
+that also do not go down to Amazon like
+that also do not go down to Amazon like
+that and it could be that um that
+that and it could be that um that
+that and it could be that um that
+everybody in your first set
+everybody in your first set
+everybody in your first set
+um or almost everyone reverse it when
+um or almost everyone reverse it when
+um or almost everyone reverse it when
+you do the first iteration they all
+you do the first iteration they all
+you do the first iteration they all
+squeeze into the exceptional set of the
+squeeze into the exceptional set of the
+squeeze into the exceptional set of the
+second iteration and then you have no no
+second iteration and then you have no no
+second iteration and then you have no no
+more conclusion
+more conclusion
+more conclusion
+um and um the reason why this happens is
+um and um the reason why this happens is
+um and um the reason why this happens is
+because uh the uniform distribution um
+because uh the uniform distribution um
+because uh the uniform distribution um
+on electronics is not preserved by the
+on electronics is not preserved by the
+on electronics is not preserved by the
+uh silicosphate if you take a uniform
+uh silicosphate if you take a uniform
+uh silicosphate if you take a uniform
+distribution and you snap every number
+distribution and you snap every number
+distribution and you snap every number
+by the circus map you do not get the
+by the circus map you do not get the
+by the circus map you do not get the
+information and then and so because it's
+information and then and so because it's
+information and then and so because it's
+a different measure things that are
+a different measure things that are
+a different measure things that are
+small in one measure is not they not be
+small in one measure is not they not be
+small in one measure is not they not be
+small the other measure
+small the other measure
+small the other measure
+okay so the problem is that this measure
+okay so the problem is that this measure
+okay so the problem is that this measure
+is not invariant
+is not invariant
+is not invariant
+um in any reasonable sense I mean of
+um in any reasonable sense I mean of
+um in any reasonable sense I mean of
+course it's getting smaller so you can
+course it's getting smaller so you can
+course it's getting smaller so you can
+rescale but even any kind of normalized
+rescale but even any kind of normalized
+rescale but even any kind of normalized
+sets it does not converted
+sets it does not converted
+sets it does not converted
+um and so you cannot iterate unless you
+um and so you cannot iterate unless you
+um and so you cannot iterate unless you
+have something very measure
+have something very measure
+have something very measure
+um yeah so as I said uh this this map is
+um yeah so as I said uh this this map is
+um yeah so as I said uh this this map is
+quite biased it does not have uniform
+quite biased it does not have uniform
+quite biased it does not have uniform
+distribution to uniform distribution so
+distribution to uniform distribution so
+distribution to uniform distribution so
+so one very easy way to see this is that
+so one very easy way to see this is that
+so one very easy way to see this is that
+if you take any odd number and you play
+if you take any odd number and you play
+if you take any odd number and you play
+this map you'll of course still get
+this map you'll of course still get
+this map you'll of course still get
+outnumber uh but you will you cannot get
+outnumber uh but you will you cannot get
+outnumber uh but you will you cannot get
+a mobile of three uh because I think
+a mobile of three uh because I think
+a mobile of three uh because I think
+first one is never doing over three and
+first one is never doing over three and
+first one is never doing over three and
+divided by two won't fix that problem so
+divided by two won't fix that problem so
+divided by two won't fix that problem so
+uh immediately you leave one third of
+uh immediately you leave one third of
+uh immediately you leave one third of
+all the odd numbers okay the uh the most
+all the odd numbers okay the uh the most
+all the odd numbers okay the uh the most
+advocated so there's already a
+advocated so there's already a
+advocated so there's already a
+significant even just iterating this
+significant even just iterating this
+significant even just iterating this
+once creates a huge bias mod 3.
+once creates a huge bias mod 3.
+once creates a huge bias mod 3.
+um you're doing it twice uh creates some
+um you're doing it twice uh creates some
+um you're doing it twice uh creates some
+additional devices more than I uh three
+additional devices more than I uh three
+additional devices more than I uh three
+times increases more than what 27 and so
+times increases more than what 27 and so
+times increases more than what 27 and so
+forth so
+forth so
+forth so
+um there is no simple measure for which
+um there is no simple measure for which
+um there is no simple measure for which
+this is uh if you have any kind of
+this is uh if you have any kind of
+this is uh if you have any kind of
+variance but there is
+variance but there is
+variance but there is
+um some limiting Behavior okay so again
+um some limiting Behavior okay so again
+um some limiting Behavior okay so again
+this is the limit of my computer
+this is the limit of my computer
+this is the limit of my computer
+capabilities like I can uh I took all
+capabilities like I can uh I took all
+capabilities like I can uh I took all
+the autumns up to 10 to the four
+the autumns up to 10 to the four
+the autumns up to 10 to the four
+um and uh so you probably mod three and
+um and uh so you probably mod three and
+um and uh so you probably mod three and
+I'm surprisingly there it could just
+I'm surprisingly there it could just
+I'm surprisingly there it could just
+read more to it um but but if you apply
+read more to it um but but if you apply
+read more to it um but but if you apply
+one iteration circus map uh you lose all
+one iteration circus map uh you lose all
+one iteration circus map uh you lose all
+the models of options number than zero
+the models of options number than zero
+the models of options number than zero
+or three
+or three
+or three
+um there's still one third of them are
+um there's still one third of them are
+um there's still one third of them are
+one more three but then uh two thirds of
+one more three but then uh two thirds of
+one more three but then uh two thirds of
+them are two months so the circus map
+them are two months so the circus map
+them are two months so the circus map
+one iteration you're twice as likely to
+one iteration you're twice as likely to
+one iteration you're twice as likely to
+be two more three but you have to do one
+be two more three but you have to do one
+be two more three but you have to do one
+more three it's because the geometric
+more three it's because the geometric
+more three it's because the geometric
+renewable is twice as likely to be
+renewable is twice as likely to be
+renewable is twice as likely to be
+auditing
+auditing
+auditing
+um
+um
+um
+but then to stabilize it if you keep
+but then to stabilize it if you keep
+but then to stabilize it if you keep
+iterating uh that that's the
+iterating uh that that's the
+iterating uh that that's the
+distribution they get so so never zero
+distribution they get so so never zero
+distribution they get so so never zero
+um one more free one for the time two
+um one more free one for the time two
+um one more free one for the time two
+more three two first of the time
+more three two first of the time
+more three two first of the time
+um if you're on the same experiment mod
+um if you're on the same experiment mod
+um if you're on the same experiment mod
+um then it takes a bit more time to
+um then it takes a bit more time to
+um then it takes a bit more time to
+stabilize but but there is a limiting
+stabilize but but there is a limiting
+stabilize but but there is a limiting
+distribution selling others there's a
+distribution selling others there's a
+distribution selling others there's a
+certain percentage of numbers you get
+certain percentage of numbers you get
+certain percentage of numbers you get
+one one nine two mod nine nobody's three
+one one nine two mod nine nobody's three
+one one nine two mod nine nobody's three
+more nine four more nine and so forth so
+more nine four more nine and so forth so
+more nine four more nine and so forth so
+this is kind of rather wonky
+this is kind of rather wonky
+this is kind of rather wonky
+distribution that uh that this circles
+distribution that uh that this circles
+distribution that uh that this circles
+have converges to mod nine and then
+have converges to mod nine and then
+have converges to mod nine and then
+there's another one more 27 that begins
+there's another one more 27 that begins
+there's another one more 27 that begins
+to look kind of complicated
+to look kind of complicated
+to look kind of complicated
+um
+um
+um
+and um but you can work out why this is
+and um but you can work out why this is
+and um but you can work out why this is
+happening uh at least on the acoustic
+happening uh at least on the acoustic
+happening uh at least on the acoustic
+level uh and what uh what you find is
+level uh and what uh what you find is
+level uh and what uh what you find is
+that if you run the circus map a few
+that if you run the circus map a few
+that if you run the circus map a few
+times but you you just look at a mod uh
+times but you you just look at a mod uh
+times but you you just look at a mod uh
+mod some power of three
+mod some power of three
+mod some power of three
+um the distribution becomes non-uniform
+um the distribution becomes non-uniform
+um the distribution becomes non-uniform
+but it converges to a different measure
+but it converges to a different measure
+but it converges to a different measure
+uh what of course Syracuse measure so
+uh what of course Syracuse measure so
+uh what of course Syracuse measure so
+there's a natural invariant measure of
+there's a natural invariant measure of
+there's a natural invariant measure of
+um on the cyclic group and uh the way
+um on the cyclic group and uh the way
+um on the cyclic group and uh the way
+you define it is that you sample and
+you define it is that you sample and
+you define it is that you sample and
+copies n natural numbers randomly using
+copies n natural numbers randomly using
+copies n natural numbers randomly using
+stupid distribution
+stupid distribution
+stupid distribution
+you leads them to negative positive two
+you leads them to negative positive two
+you leads them to negative positive two
+and you take a certain combination of a
+and you take a certain combination of a
+and you take a certain combination of a
+negative positive two
+negative positive two
+negative positive two
+and this is some random regenerate
+and this is some random regenerate
+and this is some random regenerate
+number mod for yeah and this will give
+number mod for yeah and this will give
+number mod for yeah and this will give
+you some number here and so this is
+you some number here and so this is
+you some number here and so this is
+random variable which which will
+random variable which which will
+random variable which which will
+distribute it in some funny way okay
+distribute it in some funny way okay
+distribute it in some funny way okay
+like it will for example never be 1.3
+like it will for example never be 1.3
+like it will for example never be 1.3
+for instance
+for instance
+for instance
+um and this is the unique
+um and this is the unique
+um and this is the unique
+um inverting measure for the following
+um inverting measure for the following
+um inverting measure for the following
+process okay if you take a random number
+process okay if you take a random number
+process okay if you take a random number
+here you multiply it by three add one
+here you multiply it by three add one
+here you multiply it by three add one
+and the divide by your random power two
+and the divide by your random power two
+and the divide by your random power two
+so it's a random Markov chain
+so it's a random Markov chain
+so it's a random Markov chain
+um where the minor part two of this is
+um where the minor part two of this is
+um where the minor part two of this is
+uh drawn from this distribution
+uh drawn from this distribution
+uh drawn from this distribution
+um it's a it's a Markov process of
+um it's a it's a Markov process of
+um it's a it's a Markov process of
+exactly one a very measure and this is
+exactly one a very measure and this is
+exactly one a very measure and this is
+the distribution
+the distribution
+the distribution
+yeah
+yeah
+yeah
+so this is what um this process
+so this is what um this process
+so this is what um this process
+converted to periodically
+converted to periodically
+converted to periodically
+um and this should somehow be the only
+um and this should somehow be the only
+um and this should somehow be the only
+Ops um this should be the only
+Ops um this should be the only
+Ops um this should be the only
+um irregularity that you should have so
+um irregularity that you should have so
+um irregularity that you should have so
+um you could take all the numbers one to
+um you could take all the numbers one to
+um you could take all the numbers one to
+n and um and just bias them according to
+n and um and just bias them according to
+n and um and just bias them according to
+to this weight for some like little for
+to this weight for some like little for
+to this weight for some like little for
+some large little end and say okay um
+some large little end and say okay um
+some large little end and say okay um
+this this measure should be roughly
+this this measure should be roughly
+this this measure should be roughly
+invariant of the Silicon spot
+invariant of the Silicon spot
+invariant of the Silicon spot
+um and so if you try to run the previous
+um and so if you try to run the previous
+um and so if you try to run the previous
+argument I said before but instead of
+argument I said before but instead of
+argument I said before but instead of
+saying uniform distribution which is not
+saying uniform distribution which is not
+saying uniform distribution which is not
+quite true uh take a modified you know
+quite true uh take a modified you know
+quite true uh take a modified you know
+distribution where you wait things by
+distribution where you wait things by
+distribution where you wait things by
+this this periodic around the variable
+this this periodic around the variable
+this this periodic around the variable
+so um that turns out to work
+so um that turns out to work
+so um that turns out to work
+um
+um
+um
+uh there's three addict once you go to
+uh there's three addict once you go to
+uh there's three addict once you go to
+the Limit yeah yeah so so uh description
+the Limit yeah yeah so so uh description
+the Limit yeah yeah so so uh description
+yeah so so there is actually on the
+yeah so so there is actually on the
+yeah so so there is actually on the
+three addicts there is also a marker
+three addicts there is also a marker
+three addicts there is also a marker
+process like I said you might be at one
+process like I said you might be at one
+process like I said you might be at one
+divided by two whatever symbols formula
+divided by two whatever symbols formula
+divided by two whatever symbols formula
+foreign
+and I um
+and I um
+and I um
+I can say a little bit about it uh like
+I can say a little bit about it uh like
+I can say a little bit about it uh like
+uh so the main theme is I have a bit of
+uh so the main theme is I have a bit of
+uh so the main theme is I have a bit of
+furry regularity okay
+furry regularity okay
+furry regularity okay
+um which is what I need um I would like
+um which is what I need um I would like
+um which is what I need um I would like
+to know more about this measure you
+to know more about this measure you
+to know more about this measure you
+could say more things
+could say more things
+could say more things
+um but um yeah so there is a measure uh
+um but um yeah so there is a measure uh
+um but um yeah so there is a measure uh
+natural measure on the 3mx which is
+natural measure on the 3mx which is
+natural measure on the 3mx which is
+unique very much of a certain Market
+unique very much of a certain Market
+unique very much of a certain Market
+process
+process
+process
+um which is yeah in some sense the
+um which is yeah in some sense the
+um which is yeah in some sense the
+inverse limit of all these measures but
+inverse limit of all these measures but
+inverse limit of all these measures but
+um but you don't actually need to to you
+um but you don't actually need to to you
+um but you don't actually need to to you
+work in three addicts doesn't really
+work in three addicts doesn't really
+work in three addicts doesn't really
+help um back today yeah it's better to
+help um back today yeah it's better to
+help um back today yeah it's better to
+keep having fun
+keep having fun
+keep having fun
+um
+um
+um
+yeah so uh okay well there we go let's
+yeah so uh okay well there we go let's
+yeah so uh okay well there we go let's
+skip that slip it yeah but um
+skip that slip it yeah but um
+skip that slip it yeah but um
+the main theme we need actually is that
+the main theme we need actually is that
+the main theme we need actually is that
+there is a limit uh so
+there is a limit uh so
+there is a limit uh so
+um there is all these different measures
+um there is all these different measures
+um there is all these different measures
+on GMod completely n but um uh each each
+on GMod completely n but um uh each each
+on GMod completely n but um uh each each
+measure is different and they need to be
+measure is different and they need to be
+measure is different and they need to be
+compatible with each other
+compatible with each other
+compatible with each other
+to work and so if you try to follow make
+to work and so if you try to follow make
+to work and so if you try to follow make
+all this stuff rigorous and build an
+all this stuff rigorous and build an
+all this stuff rigorous and build an
+apparent measure using this these these
+apparent measure using this these these
+apparent measure using this these these
+these uh this bias Factor uh you find
+these uh this bias Factor uh you find
+these uh this bias Factor uh you find
+that
+that
+that
+um uh what you need in order for things
+um uh what you need in order for things
+um uh what you need in order for things
+to work
+to work
+to work
+it's the following fact that uh uh if
+it's the following fact that uh uh if
+it's the following fact that uh uh if
+you have two cyclic groups let's say a
+you have two cyclic groups let's say a
+you have two cyclic groups let's say a
+basically groups thing about NZ and then
+basically groups thing about NZ and then
+basically groups thing about NZ and then
+a small technical uh
+a small technical uh
+a small technical uh
+MZ then there's two measures uh there's
+MZ then there's two measures uh there's
+MZ then there's two measures uh there's
+the circus measure on the big group and
+the circus measure on the big group and
+the circus measure on the big group and
+the circus or a small group and the
+the circus or a small group and the
+the circus or a small group and the
+measure on the big group it does project
+measure on the big group it does project
+measure on the big group it does project
+down to the measure of the small group
+down to the measure of the small group
+down to the measure of the small group
+uh but it may not be uniform on the
+uh but it may not be uniform on the
+uh but it may not be uniform on the
+fibers okay so like it detects the
+fibers okay so like it detects the
+fibers okay so like it detects the
+uniform pullback of the small measure on
+uniform pullback of the small measure on
+uniform pullback of the small measure on
+the big measure so that every point on a
+the big measure so that every point on a
+the big measure so that every point on a
+smaller you just randomly pick up number
+smaller you just randomly pick up number
+smaller you just randomly pick up number
+fiber
+fiber
+fiber
+um you may not get back the of the
+um you may not get back the of the
+um you may not get back the of the
+original uh measure uh but what you need
+original uh measure uh but what you need
+original uh measure uh but what you need
+is that you should almost get the
+is that you should almost get the
+is that you should almost get the
+original measure back so um you want the
+original measure back so um you want the
+original measure back so um you want the
+um these these measures to um
+um yeah so um basically these measures
+um yeah so um basically these measures
+um yeah so um basically these measures
+should stabilize as as you keep adding
+should stabilize as as you keep adding
+should stabilize as as you keep adding
+more digits that that that each so
+more digits that that that each so
+more digits that that that each so
+there's a big event model three and then
+there's a big event model three and then
+there's a big event model three and then
+a smaller irregularity but just like
+a smaller irregularity but just like
+a smaller irregularity but just like
+about 27 so that's it but you need some
+about 27 so that's it but you need some
+about 27 so that's it but you need some
+some nice convergence rate of these
+some nice convergence rate of these
+some nice convergence rate of these
+measures
+measures
+measures
+um and so this turns out if you can do
+um and so this turns out if you can do
+um and so this turns out if you can do
+this then there's one page of argument
+this then there's one page of argument
+this then there's one page of argument
+foreign
+group Twisted by an additional factor
+group Twisted by an additional factor
+group Twisted by an additional factor
+that depends on on the first so it's
+that depends on on the first so it's
+that depends on on the first so it's
+kind of a skew sum of two separate
+kind of a skew sum of two separate
+kind of a skew sum of two separate
+measures so it's not quite the sum of
+measures so it's not quite the sum of
+measures so it's not quite the sum of
+independent variables but it's some sort
+independent variables but it's some sort
+independent variables but it's some sort
+of skill set
+of skill set
+of skill set
+um so that's not
+um so that's not
+um so that's not
+as nice as I'd like but this is still
+as nice as I'd like but this is still
+as nice as I'd like but this is still
+close enough to defend itself that fully
+close enough to defend itself that fully
+close enough to defend itself that fully
+analysis is also what your score
+analysis is also what your score
+analysis is also what your score
+um and to cut us a long story short you
+um and to cut us a long story short you
+um and to cut us a long story short you
+can start relating the Fourier
+can start relating the Fourier
+can start relating the Fourier
+coefficients all examples together and
+coefficients all examples together and
+coefficients all examples together and
+if you want at least this this Equity
+if you want at least this this Equity
+if you want at least this this Equity
+distribution it's mixing popular I
+distribution it's mixing popular I
+distribution it's mixing popular I
+mentioned it's enough to show that um
+mentioned it's enough to show that um
+mentioned it's enough to show that um
+the furry coefficients of this measure
+the furry coefficients of this measure
+the furry coefficients of this measure
+Decay but if you can show that every
+Decay but if you can show that every
+Decay but if you can show that every
+single Fourier cooperation other than
+single Fourier cooperation other than
+single Fourier cooperation other than
+the zero four coefficient well actually
+the zero four coefficient well actually
+the zero four coefficient well actually
+I have to explain three making sure that
+I have to explain three making sure that
+I have to explain three making sure that
+all the Fourier competitions that was
+all the Fourier competitions that was
+all the Fourier competitions that was
+measured Decay to follow me away
+measured Decay to follow me away
+measured Decay to follow me away
+um that turns out really good that's
+um that turns out really good that's
+um that turns out really good that's
+another kind of software regularity type
+another kind of software regularity type
+another kind of software regularity type
+type statement
+type statement
+type statement
+um and it comes from uh there's some
+um and it comes from uh there's some
+um and it comes from uh there's some
+conclusion identity that that lets you
+conclusion identity that that lets you
+conclusion identity that that lets you
+do this um it's simple for those of them
+do this um it's simple for those of them
+do this um it's simple for those of them
+out of control it's similar to why once
+out of control it's similar to why once
+out of control it's similar to why once
+once you have small forward coefficients
+once you have small forward coefficients
+once you have small forward coefficients
+You Can Count progress number three um
+so it's all about controlling photocopy
+so it's all about controlling photocopy
+so it's all about controlling photocopy
+to this measure
+to this measure
+to this measure
+now
+now
+now
+um this measure uh as I said it's a
+um this measure uh as I said it's a
+um this measure uh as I said it's a
+random variable which is kind of like
+random variable which is kind of like
+random variable which is kind of like
+the sum of of almost independent
+the sum of of almost independent
+the sum of of almost independent
+variables okay so there's coupling here
+variables okay so there's coupling here
+variables okay so there's coupling here
+okay so the A1 to ANS are independent
+okay so the A1 to ANS are independent
+okay so the A1 to ANS are independent
+but um a and appears in multiple times
+but um a and appears in multiple times
+but um a and appears in multiple times
+in some HTTP so if this isn't quite a
+in some HTTP so if this isn't quite a
+in some HTTP so if this isn't quite a
+somewhat independent amount of weapons
+somewhat independent amount of weapons
+somewhat independent amount of weapons
+but it's kind of this skew sum of
+but it's kind of this skew sum of
+but it's kind of this skew sum of
+independent variables there's some
+independent variables there's some
+independent variables there's some
+semi-independence in the structure and
+semi-independence in the structure and
+semi-independence in the structure and
+we want to control this this uh this um
+we want to control this this uh this um
+we want to control this this uh this um
+uh composition now if it was independent
+uh composition now if it was independent
+uh composition now if it was independent
+sum
+sum
+sum
+um then it's very possible how to deal
+um then it's very possible how to deal
+um then it's very possible how to deal
+with this okay if you're taking a public
+with this okay if you're taking a public
+with this okay if you're taking a public
+option of something independent
+option of something independent
+option of something independent
+intervals the expectation just factors
+intervals the expectation just factors
+intervals the expectation just factors
+into individual employee coefficiency
+into individual employee coefficiency
+into individual employee coefficiency
+um yeah and you can get you understand
+um yeah and you can get you understand
+um yeah and you can get you understand
+everything
+everything
+everything
+um so it's a skew thing
+um so it's a skew thing
+um so it's a skew thing
+um but what you can do is that you can
+um but what you can do is that you can
+um but what you can do is that you can
+refactor this this expression um so what
+refactor this this expression um so what
+refactor this this expression um so what
+I did
+I did
+I did
+was that I grouped the sum so all these
+was that I grouped the sum so all these
+was that I grouped the sum so all these
+independent variables equipment repairs
+independent variables equipment repairs
+independent variables equipment repairs
+um and you want to say two I call that a
+um and you want to say two I call that a
+um and you want to say two I call that a
+new value of B1 it's because A4 you
+new value of B1 it's because A4 you
+new value of B1 it's because A4 you
+could be into it new variable B3 and if
+could be into it new variable B3 and if
+could be into it new variable B3 and if
+you group these by pairs
+you group these by pairs
+you group these by pairs
+um so that the the independent amount of
+um so that the the independent amount of
+um so that the the independent amount of
+words are now just the sums B1 b2b5 and
+words are now just the sums B1 b2b5 and
+words are now just the sums B1 b2b5 and
+then maybe just the the even eight A2 A4
+then maybe just the the even eight A2 A4
+then maybe just the the even eight A2 A4
+A6 so you make a change of variables so
+A6 so you make a change of variables so
+A6 so you make a change of variables so
+you take the pair sums and then the
+you take the pair sums and then the
+you take the pair sums and then the
+every other A's then it turns out that
+every other A's then it turns out that
+every other A's then it turns out that
+you can rewrite this expression
+you can rewrite this expression
+you can rewrite this expression
+has a whole as a whole messy thing
+has a whole as a whole messy thing
+has a whole as a whole messy thing
+involving B's and then a few sums
+involving B's and then a few sums
+involving B's and then a few sums
+involving just the A's but the uh the
+involving just the A's but the uh the
+involving just the A's but the uh the
+thing is that by doing this the A's
+thing is that by doing this the A's
+thing is that by doing this the A's
+appear very rarely right in fact each A1
+appear very rarely right in fact each A1
+appear very rarely right in fact each A1
+appears one snap
+appears one snap
+appears one snap
+um in this stuff so uh you can view into
+um in this stuff so uh you can view into
+um in this stuff so uh you can view into
+some so that
+some so that
+some so that
+um so the bees are still very toppled
+um so the bees are still very toppled
+um so the bees are still very toppled
+together but once you condition the
+together but once you condition the
+together but once you condition the
+Beast to be fixed
+Beast to be fixed
+Beast to be fixed
+the A's give you Independents themselves
+the A's give you Independents themselves
+the A's give you Independents themselves
+so there is
+so there is
+so there is
+um so the whole thing is not like a a
+um so the whole thing is not like a a
+um so the whole thing is not like a a
+convolution but exactly average
+convolution but exactly average
+convolution but exactly average
+accomplishments um and you can still
+accomplishments um and you can still
+accomplishments um and you can still
+work with that um so if you want to get
+work with that um so if you want to get
+work with that um so if you want to get
+employee coefficients you can just
+employee coefficients you can just
+employee coefficients you can just
+freeze all the B's it's not going to
+freeze all the B's it's not going to
+freeze all the B's it's not going to
+just reasonable yeah to be like four or
+just reasonable yeah to be like four or
+just reasonable yeah to be like four or
+something uh or three okay and just and
+something uh or three okay and just and
+something uh or three okay and just and
+just look at this random sub
+just look at this random sub
+just look at this random sub
+so you can start doing you can start
+so you can start doing you can start
+so you can start doing you can start
+doing that and basically as long as
+doing that and basically as long as
+doing that and basically as long as
+these coefficients um don't are not in a
+these coefficients um don't are not in a
+these coefficients um don't are not in a
+bad location a kind of minor action
+bad location a kind of minor action
+bad location a kind of minor action
+subsets as long as these these
+subsets as long as these these
+subsets as long as these these
+coefficients are not too terrible this
+coefficients are not too terrible this
+coefficients are not too terrible this
+works and you get a lot of cancellation
+works and you get a lot of cancellation
+works and you get a lot of cancellation
+um
+um
+um
+so um basically if you run this you can
+so um basically if you run this you can
+so um basically if you run this you can
+actually get the kind of mixing you need
+actually get the kind of mixing you need
+actually get the kind of mixing you need
+unless your frequency is has a certain
+unless your frequency is has a certain
+unless your frequency is has a certain
+unfortunate coincidence which is that
+unfortunate coincidence which is that
+unfortunate coincidence which is that
+that uh that all these uh quantities
+that uh that all these uh quantities
+that uh that all these uh quantities
+that there's certain combinations of
+that there's certain combinations of
+that there's certain combinations of
+frequency with various random parts of
+frequency with various random parts of
+frequency with various random parts of
+two three which all um happen to be
+two three which all um happen to be
+two three which all um happen to be
+close to an image or many of them have
+close to an image or many of them have
+close to an image or many of them have
+equals then you don't get cancellation
+equals then you don't get cancellation
+equals then you don't get cancellation
+but in all other cases uh you get
+but in all other cases uh you get
+but in all other cases uh you get
+something good so this is this one bad
+something good so this is this one bad
+something good so this is this one bad
+case is that it is a certain random
+case is that it is a certain random
+case is that it is a certain random
+sequence of residue classes all hit or
+sequence of residue classes all hit or
+sequence of residue classes all hit or
+get very close to an integer um then
+get very close to an integer um then
+get very close to an integer um then
+then you're in trouble
+um so this problem okay but uh this is a
+um so this problem okay but uh this is a
+um so this problem okay but uh this is a
+much better problem to study okay so the
+much better problem to study okay so the
+much better problem to study okay so the
+form of Fourier analysis is that it's
+form of Fourier analysis is that it's
+form of Fourier analysis is that it's
+it's oscillary you're trying to control
+it's oscillary you're trying to control
+it's oscillary you're trying to control
+things that are application and caption
+things that are application and caption
+things that are application and caption
+cancellation can be quite difficult
+cancellation can be quite difficult
+cancellation can be quite difficult
+um the remaining problem is is
+um the remaining problem is is
+um the remaining problem is is
+non-canculative anymore okay we just
+non-canculative anymore okay we just
+non-canculative anymore okay we just
+need to show that we have some random
+need to show that we have some random
+need to show that we have some random
+process here uh and the official process
+process here uh and the official process
+process here uh and the official process
+avoids a certain bad set of positive
+avoids a certain bad set of positive
+avoids a certain bad set of positive
+density and this is something which
+density and this is something which
+density and this is something which
+um which doesn't have cancellation in it
+um which doesn't have cancellation in it
+um which doesn't have cancellation in it
+so it looks easier to study
+so it looks easier to study
+so it looks easier to study
+um so you can you can and and all the
+um so you can you can and and all the
+um so you can you can and and all the
+numbers you're dealing are very simple
+numbers you're dealing are very simple
+numbers you're dealing are very simple
+they're three to some power two to some
+they're three to some power two to some
+they're three to some power two to some
+two to negative power times your
+two to negative power times your
+two to negative power times your
+original
+original
+original
+so you can translate this into a very
+so you can translate this into a very
+so you can translate this into a very
+geometric problem
+geometric problem
+geometric problem
+um so what I did then is I transformed
+um so what I did then is I transformed
+um so what I did then is I transformed
+the problem you you
+the problem you you
+the problem you you
+um you you covered the letters you take
+um you you covered the letters you take
+um you you covered the letters you take
+a lot of Z2 and um
+a lot of Z2 and um
+a lot of Z2 and um
+um and you take a frequency and you look
+um and you take a frequency and you look
+um and you take a frequency and you look
+at certain powers of three powers of two
+at certain powers of three powers of two
+at certain powers of three powers of two
+and and you see whether this residue is
+and and you see whether this residue is
+and and you see whether this residue is
+close to an energy or not okay and
+close to an energy or not okay and
+close to an energy or not okay and
+usually it isn't but occasionally there
+usually it isn't but occasionally there
+usually it isn't but occasionally there
+are these bad points where this is
+are these bad points where this is
+are these bad points where this is
+really close adventure and you call
+really close adventure and you call
+really close adventure and you call
+those black okay uh and basically uh
+those black okay uh and basically uh
+those black okay uh and basically uh
+what I have is is that I um I have a
+what I have is is that I um I have a
+what I have is is that I um I have a
+renewable process I have this random
+renewable process I have this random
+renewable process I have this random
+walk where you're just adding increments
+walk where you're just adding increments
+walk where you're just adding increments
+there's a random walk in the play uh
+there's a random walk in the play uh
+there's a random walk in the play uh
+where where horizontally you're just
+where where horizontally you're just
+where where horizontally you're just
+moving one by one and vertically you're
+moving one by one and vertically you're
+moving one by one and vertically you're
+just adding an independent amount of
+just adding an independent amount of
+just adding an independent amount of
+variables um these bees are what are
+variables um these bees are what are
+variables um these bees are what are
+called a England plus one whenever a
+called a England plus one whenever a
+called a England plus one whenever a
+point
+point
+point
+uh
+uh
+uh
+what's the sum of two geometric random
+what's the sum of two geometric random
+what's the sum of two geometric random
+variables the sending to it but uh this
+variables the sending to it but uh this
+variables the sending to it but uh this
+is blanks for me right now
+is blanks for me right now
+is blanks for me right now
+um but anyway there's a there's a
+um but anyway there's a there's a
+um but anyway there's a there's a
+specific random walk and basically I
+specific random walk and basically I
+specific random walk and basically I
+want to show that that this random walk
+want to show that that this random walk
+want to show that that this random walk
+does not hit too many black points but
+does not hit too many black points but
+does not hit too many black points but
+it just needs a positive proportion of
+it just needs a positive proportion of
+it just needs a positive proportion of
+non-black points to be hit actually
+non-black points to be hit actually
+non-black points to be hit actually
+um and then I um every time you avoid
+um and then I um every time you avoid
+um and then I um every time you avoid
+this black set you get you get some
+this black set you get you get some
+this black set you get you get some
+cancellation
+cancellation
+cancellation
+okay so uh so basically uh I have to
+okay so uh so basically uh I have to
+okay so uh so basically uh I have to
+show that That Is Random work
+show that That Is Random work
+show that That Is Random work
+um
+um
+um
+um hits
+um hits
+um hits
+um avoids a lot of black points
+um avoids a lot of black points
+um avoids a lot of black points
+but enough if I didn't understand what
+but enough if I didn't understand what
+but enough if I didn't understand what
+these black points are this would be
+these black points are this would be
+these black points are this would be
+kind of hopeless but but there's
+kind of hopeless but but there's
+kind of hopeless but but there's
+actually a lot of structure in this set
+actually a lot of structure in this set
+actually a lot of structure in this set
+like if if this number is small then you
+like if if this number is small then you
+like if if this number is small then you
+adjust J by one then this number called
+adjust J by one then this number called
+adjust J by one then this number called
+nine times bigger it's it's also likely
+nine times bigger it's it's also likely
+nine times bigger it's it's also likely
+to be close to an integer so there's
+to be close to an integer so there's
+to be close to an integer so there's
+some stability of a set as you modify J
+some stability of a set as you modify J
+some stability of a set as you modify J
+and K and it turns out actually that
+and K and it turns out actually that
+and K and it turns out actually that
+um these sets uh organize themselves
+um these sets uh organize themselves
+um these sets uh organize themselves
+into lots of triangles um so it turns
+into lots of triangles um so it turns
+into lots of triangles um so it turns
+out that geometrically um the black set
+out that geometrically um the black set
+out that geometrically um the black set
+is very very nice it's actually a
+is very very nice it's actually a
+is very very nice it's actually a
+picture here
+picture here
+picture here
+um the black set actually splits up into
+um the black set actually splits up into
+um the black set actually splits up into
+a whole bunch of triangles
+a whole bunch of triangles
+a whole bunch of triangles
+um and the slope is like log to Vlog 3
+um and the slope is like log to Vlog 3
+um and the slope is like log to Vlog 3
+or something okay so
+or something okay so
+or something okay so
+um yeah all the numbers were three to a
+um yeah all the numbers were three to a
+um yeah all the numbers were three to a
+power times two to power of your
+power times two to power of your
+power times two to power of your
+original number is equal to integer
+original number is equal to integer
+original number is equal to integer
+turns out that this happens in some
+turns out that this happens in some
+turns out that this happens in some
+Union of rectangles strewn all over the
+Union of rectangles strewn all over the
+Union of rectangles strewn all over the
+place uh and you can um yeah and they're
+place uh and you can um yeah and they're
+place uh and you can um yeah and they're
+just they're separate from each other
+just they're separate from each other
+just they're separate from each other
+they have a certain shape you can use
+they have a certain shape you can use
+they have a certain shape you can use
+Baker steel and you get some balance on
+Baker steel and you get some balance on
+Baker steel and you get some balance on
+how big these these Traders can be and
+how big these these Traders can be and
+how big these these Traders can be and
+so forth but we understand this uh he's
+so forth but we understand this uh he's
+so forth but we understand this uh he's
+trying those very well and then we also
+trying those very well and then we also
+trying those very well and then we also
+have this renewal process where it's
+have this renewal process where it's
+have this renewal process where it's
+taking random walks and there's this
+taking random walks and there's this
+taking random walks and there's this
+random process of taking steps and
+random process of taking steps and
+random process of taking steps and
+basically uh what I need to show is that
+basically uh what I need to show is that
+basically uh what I need to show is that
+the sequence of random this random walk
+the sequence of random this random walk
+the sequence of random this random walk
+of red points is not contained well it
+of red points is not contained well it
+of red points is not contained well it
+spends at least one percent of its life
+spends at least one percent of its life
+spends at least one percent of its life
+outside these black triangles and that
+outside these black triangles and that
+outside these black triangles and that
+isn't enough cancellation to get me
+isn't enough cancellation to get me
+isn't enough cancellation to get me
+everything I need
+everything I need
+everything I need
+so this is really seems to a very
+so this is really seems to a very
+so this is really seems to a very
+geometric problem it looks nothing like
+geometric problem it looks nothing like
+geometric problem it looks nothing like
+original platform but this is something
+original platform but this is something
+original platform but this is something
+which uh involves things that that we
+which uh involves things that that we
+which uh involves things that that we
+sort of are comfortable dealing with you
+sort of are comfortable dealing with you
+sort of are comfortable dealing with you
+know random walks and triangles these
+know random walks and triangles these
+know random walks and triangles these
+are things that look like um tractable
+are things that look like um tractable
+are things that look like um tractable
+mathematics
+mathematics
+mathematics
+um and so uh the rest is just kind of
+um and so uh the rest is just kind of
+um and so uh the rest is just kind of
+cleaning up at this point
+cleaning up at this point
+cleaning up at this point
+um
+um
+um
+yeah so um it turns out that that each
+yeah so um it turns out that that each
+yeah so um it turns out that that each
+of these triangles uh is more separated
+of these triangles uh is more separated
+of these triangles uh is more separated
+from from all the other triangles if
+from from all the other triangles if
+from from all the other triangles if
+there's a certain mode of white around
+there's a certain mode of white around
+there's a certain mode of white around
+every single black triangle and so as a
+every single black triangle and so as a
+every single black triangle and so as a
+consequence every time you have a small
+consequence every time you have a small
+consequence every time you have a small
+black triangle maybe there's this random
+black triangle maybe there's this random
+black triangle maybe there's this random
+walk enters this triangle but it will
+walk enters this triangle but it will
+walk enters this triangle but it will
+exit and there'll be it will it will hit
+exit and there'll be it will it will hit
+exit and there'll be it will it will hit
+the mode and there'll be there will be
+the mode and there'll be there will be
+the mode and there'll be there will be
+some proportional time it will spin in
+some proportional time it will spin in
+some proportional time it will spin in
+white
+white
+white
+um so small black triangles are not
+um so small black triangles are not
+um so small black triangles are not
+really a problem um the enemy is a big
+really a problem um the enemy is a big
+really a problem um the enemy is a big
+black triangle like this where you could
+black triangle like this where you could
+black triangle like this where you could
+have a lot of
+have a lot of
+have a lot of
+um this adrenal walk is spending a lot
+um this adrenal walk is spending a lot
+um this adrenal walk is spending a lot
+of times at a triangle it maybe just
+of times at a triangle it maybe just
+of times at a triangle it maybe just
+briefly Ventures out the white with it
+briefly Ventures out the white with it
+briefly Ventures out the white with it
+is sucked up again by another triangle
+is sucked up again by another triangle
+is sucked up again by another triangle
+so the problem is that big black
+so the problem is that big black
+so the problem is that big black
+triangles uh if the value work is mostly
+triangles uh if the value work is mostly
+triangles uh if the value work is mostly
+contained in big black triangles there's
+contained in big black triangles there's
+contained in big black triangles there's
+a problem
+a problem
+a problem
+um but the one thing that saves us
+um but the one thing that saves us
+um but the one thing that saves us
+um I'm about to say in words is that big
+um I'm about to say in words is that big
+um I'm about to say in words is that big
+black tankers repel each other so like
+black tankers repel each other so like
+black tankers repel each other so like
+after after you exit this big black
+after after you exit this big black
+after after you exit this big black
+triangle there could be a big black
+triangle there could be a big black
+triangle there could be a big black
+triangle right above it that sucks up
+triangle right above it that sucks up
+triangle right above it that sucks up
+the uh um when walking and it could be
+the uh um when walking and it could be
+the uh um when walking and it could be
+another big black crime that does that
+another big black crime that does that
+another big black crime that does that
+but those two things like triangles have
+but those two things like triangles have
+but those two things like triangles have
+to be um destroyed from each other and
+to be um destroyed from each other and
+to be um destroyed from each other and
+so that's on the web no no no okay so
+so that's on the web no no no okay so
+so that's on the web no no no okay so
+they actually have to leave um
+they actually have to leave um
+they actually have to leave um
+yeah I'll talk to her later about that
+yeah I'll talk to her later about that
+yeah I'll talk to her later about that
+okay
+okay
+okay
+um
+um
+um
+so a bit back triangle it's possible
+so a bit back triangle it's possible
+so a bit back triangle it's possible
+that there's another big black triangle
+that there's another big black triangle
+that there's another big black triangle
+which could trap your animal and maybe
+which could trap your animal and maybe
+which could trap your animal and maybe
+there's two of them but because of the
+there's two of them but because of the
+there's two of them but because of the
+way things are oriented any two such
+way things are oriented any two such
+way things are oriented any two such
+triangles have to be separated by a
+triangles have to be separated by a
+triangles have to be separated by a
+white Gap
+white Gap
+white Gap
+and so you rather work that you're quite
+and so you rather work that you're quite
+and so you rather work that you're quite
+likely to go between these two big
+likely to go between these two big
+likely to go between these two big
+triangles and instead it is white region
+triangles and instead it is white region
+triangles and instead it is white region
+middle
+middle
+middle
+um and so because the black triangles
+um and so because the black triangles
+um and so because the black triangles
+are kind of very narrow and pointed at
+are kind of very narrow and pointed at
+are kind of very narrow and pointed at
+the bottom
+the bottom
+the bottom
+um you can't use these triangles to sort
+um you can't use these triangles to sort
+um you can't use these triangles to sort
+of mop up all the refugees that are
+of mop up all the refugees that are
+of mop up all the refugees that are
+actually this triangle here
+actually this triangle here
+actually this triangle here
+um and so if you run that argument you
+um and so if you run that argument you
+um and so if you run that argument you
+can actually say that that a positive
+can actually say that that a positive
+can actually say that that a positive
+fraction of this part with high
+fraction of this part with high
+fraction of this part with high
+probability has to actually spend spend
+probability has to actually spend spend
+probability has to actually spend spend
+its time in the good set of non-black
+its time in the good set of non-black
+its time in the good set of non-black
+points which will um and and this will
+points which will um and and this will
+points which will um and and this will
+give you enough decay in this foia
+give you enough decay in this foia
+give you enough decay in this foia
+coefficiency to solve the rest of the
+coefficiency to solve the rest of the
+coefficiency to solve the rest of the
+problem so that is how uh see that I
+problem so that is how uh see that I
+problem so that is how uh see that I
+think I'll skip that yeah okay so that
+think I'll skip that yeah okay so that
+think I'll skip that yeah okay so that
+is that is it
+is that is it
+is that is it
+[Applause]
+did I understand you correctly that even
+did I understand you correctly that even
+did I understand you correctly that even
+the more general setting PQ you don't
+the more general setting PQ you don't
+the more general setting PQ you don't
+have any certificate of having an
+have any certificate of having an
+have any certificate of having an
+infinite order in any example
+infinite order in any example
+infinite order in any example
+because yeah
+because yeah
+because yeah
+um so no explicit solutions that go from
+um so no explicit solutions that go from
+um so no explicit solutions that go from
+there
+there
+there
+I mean no certificate no proof that you
+I mean no certificate no proof that you
+I mean no certificate no proof that you
+got accepted are you missing uh
+got accepted are you missing uh
+got accepted are you missing uh
+a very important ingredient when it's
+a very important ingredient when it's
+a very important ingredient when it's
+false yeah
+false yeah
+false yeah
+um yeah I mean the the only way to
+um yeah I mean the the only way to
+um yeah I mean the the only way to
+disprove it is to produce a cycle
+disprove it is to produce a cycle
+disprove it is to produce a cycle
+I know of no other way to actually uh
+I know of no other way to actually uh
+I know of no other way to actually uh
+certify that that is
+did you use Bakersfield no actually it
+did you use Bakersfield no actually it
+did you use Bakersfield no actually it
+turns out uh Baker still is available
+turns out uh Baker still is available
+turns out uh Baker still is available
+and it does give you some upper bound on
+and it does give you some upper bound on
+and it does give you some upper bound on
+the sizes but we didn't use it you might
+the sizes but we didn't use it you might
+the sizes but we didn't use it you might
+find the Marla or actually Schmitz work
+find the Marla or actually Schmitz work
+find the Marla or actually Schmitz work
+more useful yeah on S units okay okay is
+more useful yeah on S units okay okay is
+more useful yeah on S units okay okay is
+it the number or the size of what's
+it the number or the size of what's
+it the number or the size of what's
+important to you the number of
+important to you the number of
+important to you the number of
+exceptions the number of solutions
+exceptions the number of solutions
+exceptions the number of solutions
+equals k
+equals k
+equals k
+um or the actual size of the solutions
+um or the actual size of the solutions
+um or the actual size of the solutions
+um the banker will give you an effective
+um the banker will give you an effective
+um the banker will give you an effective
+bound on two to the m and three to the F
+bound on two to the m and three to the F
+bound on two to the m and three to the F
+yeah so that would give me some bound I
+yeah so that would give me some bound I
+yeah so that would give me some bound I
+think if it's the number of them uh very
+think if it's the number of them uh very
+think if it's the number of them uh very
+good yes especially coming here for the
+good yes especially coming here for the
+good yes especially coming here for the
+s unit yeah um I mean we end up not
+s unit yeah um I mean we end up not
+s unit yeah um I mean we end up not
+using it so um I don't know how like
+using it so um I don't know how like
+using it so um I don't know how like
+I've had in terms of a density of black
+I've had in terms of a density of black
+I've had in terms of a density of black
+circles I it doesn't actually hook me uh
+circles I it doesn't actually hook me uh
+circles I it doesn't actually hook me uh
+as I said I kind of identity restricted
+as I said I kind of identity restricted
+as I said I kind of identity restricted
+to this this one path
+to this this one path
+to this this one path
+um and sort of knowing the global
+um and sort of knowing the global
+um and sort of knowing the global
+density didn't seem to be helpful
+density didn't seem to be helpful
+density didn't seem to be helpful
+um yeah I mean these are things like
+um yeah I mean these are things like
+um yeah I mean these are things like
+sort of theoretically useful uh for this
+sort of theoretically useful uh for this
+sort of theoretically useful uh for this
+problem
+problem
+problem
+I couldn't see a way to actually boost
+I couldn't see a way to actually boost
+I couldn't see a way to actually boost
+them so it was nice that they were there
+them so it was nice that they were there
+them so it was nice that they were there
+and it kind of gave me some extra
+and it kind of gave me some extra
+and it kind of gave me some extra
+reassurance but uh
+reassurance but uh
+reassurance but uh
+um in the end actually technically the
+um in the end actually technically the
+um in the end actually technically the
+proof is that completely Elementary it's
+proof is that completely Elementary it's
+proof is that completely Elementary it's
+50 pages but this this uh
+50 pages but this this uh
+50 pages but this this uh
+I mean you know
+um are you using calculation
+[Music]
+yep so if you take instead of random
+yep so if you take instead of random
+yep so if you take instead of random
+version of the problem where like for
+version of the problem where like for
+version of the problem where like for
+each and you fix the accessor from
+each and you fix the accessor from
+each and you fix the accessor from
+reparally from one two two and and get
+reparally from one two two and and get
+reparally from one two two and and get
+yourself these kind of random approve or
+yourself these kind of random approve or
+yourself these kind of random approve or
+cause problem is it much easier to
+cause problem is it much easier to
+cause problem is it much easier to
+answer whether there is a infinite orbit
+answer whether there is a infinite orbit
+answer whether there is a infinite orbit
+with like positive probability of zero
+with like positive probability of zero
+with like positive probability of zero
+percent all right I mean if you
+percent all right I mean if you
+percent all right I mean if you
+look at the Syracuse
+look at the Syracuse
+look at the Syracuse
+transformation
+transformation
+transformation
+if you don't take the two evaluation of
+if you don't take the two evaluation of
+if you don't take the two evaluation of
+the specific or three plus one but if
+the specific or three plus one but if
+the specific or three plus one but if
+the two valuation of a random number of
+the two valuation of a random number of
+the two valuation of a random number of
+the same size
+the same size
+the same size
+n plus one that's basically
+n plus one that's basically
+n plus one that's basically
+um
+yeah I mean like you're not flipping
+yeah I mean like you're not flipping
+yeah I mean like you're not flipping
+coin each time you step in the first
+coin each time you step in the first
+coin each time you step in the first
+to set a random set of rules and then
+to set a random set of rules and then
+to set a random set of rules and then
+with that fixed set of rules you want to
+with that fixed set of rules you want to
+with that fixed set of rules you want to
+save whether there is
+okay yeah so if you've uh okay if you
+okay yeah so if you've uh okay if you
+okay yeah so if you've uh okay if you
+average your if you take random
+average your if you take random
+average your if you take random
+parameters so you randomize two and
+parameters so you randomize two and
+parameters so you randomize two and
+three uh
+three uh
+three uh
+yeah we don't know how to take advantage
+yeah we don't know how to take advantage
+yeah we don't know how to take advantage
+of that type of randomness
+it's very large and that's as hard as as
+it's very large and that's as hard as as
+it's very large and that's as hard as as
+working deterministic parameters uh it's
+working deterministic parameters uh it's
+working deterministic parameters uh it's
+only a few bits of attributes now
+only a few bits of attributes now
+only a few bits of attributes now
+um if you get to random
+um if you get to random
+um if you get to random
+minimize n every time he passes through
+minimize n every time he passes through
+minimize n every time he passes through
+this then it becomes more like this is
+this then it becomes more like this is
+this then it becomes more like this is
+the script and you would expect this
+the script and you would expect this
+the script and you would expect this
+topic Behavior
+so how do you verify up to something
+so how do you verify up to something
+so how do you verify up to something
+like 10 to the 20 okay so as I said all
+like 10 to the 20 okay so as I said all
+like 10 to the 20 okay so as I said all
+you need to do is to show that um every
+you need to do is to show that um every
+you need to do is to show that um every
+number updated in the 20 maps to
+number updated in the 20 maps to
+number updated in the 20 maps to
+something smaller in itself
+something smaller in itself
+something smaller in itself
+now there are many concrete classes
+now there are many concrete classes
+now there are many concrete classes
+which is automatic foreign
+and so you know back before
+and so you know back before
+and so you know back before
+cryptocurrency was a thing uh their
+cryptocurrency was a thing uh their
+cryptocurrency was a thing uh their
+current CPU cycles that were sort of
+current CPU cycles that were sort of
+current CPU cycles that were sort of
+available for these sort of things
+available for these sort of things
+available for these sort of things
+unfortunately now uh now you can make
+unfortunately now uh now you can make
+unfortunately now uh now you can make
+money out it's obviously cycle is trying
+money out it's obviously cycle is trying
+money out it's obviously cycle is trying
+out that resource
+yes so I don't know if you said that so
+yes so I don't know if you said that so
+yes so I don't know if you said that so
+these Syracuse measure is an invariant
+these Syracuse measure is an invariant
+these Syracuse measure is an invariant
+of the circus map
+of the circus map
+of the circus map
+um it is invariant under the random
+um it is invariant under the random
+um it is invariant under the random
+model of the circus map uh where you
+model of the circus map uh where you
+model of the circus map uh where you
+take three plus one divided by two to a
+take three plus one divided by two to a
+take three plus one divided by two to a
+geometric random variable yeah so what I
+geometric random variable yeah so what I
+geometric random variable yeah so what I
+show is that in some sense it is kind of
+show is that in some sense it is kind of
+show is that in some sense it is kind of
+invariant you know but uh okay so
+invariant you know but uh okay so
+invariant you know but uh okay so
+there's a technical statement which I
+there's a technical statement which I
+there's a technical statement which I
+didn't say that they can also say end to
+didn't say that they can also say end to
+didn't say that they can also say end to
+it
+it
+it
+um it's not uniform but then you weight
+um it's not uniform but then you weight
+um it's not uniform but then you weight
+it by
+it by
+it by
+um a Syracuse of uh of the visual class
+um a Syracuse of uh of the visual class
+um a Syracuse of uh of the visual class
+mods with a little NC was for some
+mods with a little NC was for some
+mods with a little NC was for some
+little app you have to choose a little
+little app you have to choose a little
+little app you have to choose a little
+end but because the stability doesn't
+end but because the stability doesn't
+end but because the stability doesn't
+really matter which return you pick so
+really matter which return you pick so
+really matter which return you pick so
+this is measure from into two and then
+this is measure from into two and then
+this is measure from into two and then
+you you iterate it you iterate until you
+you you iterate it you iterate until you
+you you iterate it you iterate until you
+you hit some threshold like Inland 0.9
+you hit some threshold like Inland 0.9
+you hit some threshold like Inland 0.9
+um and then you you look at when you you
+um and then you you look at when you you
+um and then you you look at when you you
+laugh when you hit that look at night
+laugh when you hit that look at night
+laugh when you hit that look at night
+and uh my claim is is that the measure
+and uh my claim is is that the measure
+and uh my claim is is that the measure
+the first the first passage measure okay
+the first the first passage measure okay
+the first the first passage measure okay
+is basically the same measure that you
+is basically the same measure that you
+is basically the same measure that you
+started with just recently
+started with just recently
+started with just recently
+and retina which is like one of a log
+and retina which is like one of a log
+and retina which is like one of a log
+into a large part and then you that you
+into a large part and then you that you
+into a large part and then you that you
+can iterate and then you can get down to
+can iterate and then you can get down to
+can iterate and then you can get down to
+arbitrarily small
+arbitrarily small
+arbitrarily small
+um scales and the failure probability
+um scales and the failure probability
+um scales and the failure probability
+starts building up but if you're allowed
+starts building up but if you're allowed
+starts building up but if you're allowed
+to lose an Epsilon probability you can
+to lose an Epsilon probability you can
+to lose an Epsilon probability you can
+you can get down to advantages
+support I think um
+support I think um
+support I think um
+um like this measure should be uh
+um like this measure should be uh
+um like this measure should be uh
+supported on a very large fraction of
+supported on a very large fraction of
+supported on a very large fraction of
+the residue class I mean it avoids mod
+the residue class I mean it avoids mod
+the residue class I mean it avoids mod
+three but it should be concentrated on
+three but it should be concentrated on
+three but it should be concentrated on
+uh like three to one and steps on end of
+uh like three to one and steps on end of
+uh like three to one and steps on end of
+all the rescue classes with large uh
+all the rescue classes with large uh
+all the rescue classes with large uh
+large probability
+large probability
+large probability
+um so it's not going to be uniform but
+um so it's not going to be uniform but
+um so it's not going to be uniform but
+it should be somewhat somewhat very
+it should be somewhat somewhat very
+it should be somewhat somewhat very
+weakly athletic leadership myself
+weakly athletic leadership myself
+weakly athletic leadership myself
+if that's the case
+if that's the case
+if that's the case
+um I might one might be able to show
+um I might one might be able to show
+um I might one might be able to show
+that positive fraction of
+that positive fraction of
+that positive fraction of
+of numbers iterate to one I think I had
+of numbers iterate to one I think I had
+of numbers iterate to one I think I had
+tried some some argument that or maybe
+tried some some argument that or maybe
+tried some some argument that or maybe
+not positive factor but positive but
+not positive factor but positive but
+not positive factor but positive but
+full Dimension like excellent One X one
+full Dimension like excellent One X one
+full Dimension like excellent One X one
+minus Epsilon or numbers
+um
+um
+um
+yeah so
+yeah so
+yeah so
+um yeah there might be some further
+um yeah there might be some further
+um yeah there might be some further
+results you could you could squeeze up
+results you could you could squeeze up
+results you could you could squeeze up
+if you do more that's measured and
+again

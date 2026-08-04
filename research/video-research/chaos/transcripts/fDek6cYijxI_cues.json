@@ -1,0 +1,997 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 2.14,
+    "text": "Part of this video is sponsored by LastPass."
+  },
+  {
+    "t_start": 2.14,
+    "t_end": 4.56,
+    "text": "More about last pass at the end of the show."
+  },
+  {
+    "t_start": 4.56,
+    "t_end": 10.28,
+    "text": "The butter fly effect is the idea that the tiny causes, like a flay of a butter fly's wings in Brazil,"
+  },
+  {
+    "t_start": 10.28,
+    "t_end": 14.16,
+    "text": "can have huge effects, like setting off a tornado in Texas"
+  },
+  {
+    "t_start": 14.92,
+    "t_end": 20.04,
+    "text": "Now that idea comes straight from the title of a scientific paper published nearly 50 years ago"
+  },
+  {
+    "t_start": 20.04,
+    "t_end": 25.56,
+    "text": "and perhaps more than any other recent scientific concept, it has captured the public imagination"
+  },
+  {
+    "t_start": 25.56,
+    "t_end": 28.6,
+    "text": "I mean on IMDB there is not one but 61"
+  },
+  {
+    "t_start": 28.6,
+    "t_end": 33.48,
+    "text": "different movies, TV episodes, and short films with 'butterfly effect' in the title"
+  },
+  {
+    "t_start": 33.48,
+    "t_end": 39.4,
+    "text": "not to mention prominent references in movies like Jurassic Park, or in songs, books, and memes."
+  },
+  {
+    "t_start": 39.4,
+    "t_end": 41.08,
+    "text": "Oh the memes"
+  },
+  {
+    "t_start": 41.08,
+    "t_end": 43.8,
+    "text": "in pop culture the butterfly effect has come to mean"
+  },
+  {
+    "t_start": 43.8,
+    "t_end": 50.24,
+    "text": "that even tiny, seemingly insignificant choices you make can have huge consequences later on in your life"
+  },
+  {
+    "t_start": 50.24,
+    "t_end": 56.56,
+    "text": "and I think the reason people are so fascinated by the butterfly effect is because it gets at a fundamental question"
+  },
+  {
+    "t_start": 56.56,
+    "t_end": 60.04,
+    "text": "Which is, how well can we predict the future?"
+  },
+  {
+    "t_start": 60.04,
+    "t_end": 65.68,
+    "text": "Now the goal of this video is to answer that question by examining the science behind the butterfly effect"
+  },
+  {
+    "t_start": 66.08,
+    "t_end": 73.08,
+    "text": "so if you go back to the late 1600s, after Isaac Newton had come up with his laws of motion and universal gravitation,"
+  },
+  {
+    "t_start": 73.08,
+    "t_end": 75.08,
+    "text": "everything seemed predictable."
+  },
+  {
+    "t_start": 75.08,
+    "t_end": 78.48,
+    "text": "I mean we could explain the motions of all the planets and moons,"
+  },
+  {
+    "t_start": 78.48,
+    "t_end": 83.96,
+    "text": "we could predict eclipses and the appearances of comets with pinpoint accuracy centuries in advance"
+  },
+  {
+    "t_start": 83.96,
+    "t_end": 88.24,
+    "text": "French physicist Pierre-Simon Laplace summed it up in a famous thought experiment:"
+  },
+  {
+    "t_start": 88.24,
+    "t_end": 92.4,
+    "text": "he imagined a super-intelligent being, now called Laplace's demon,"
+  },
+  {
+    "t_start": 92.4,
+    "t_end": 95.56,
+    "text": "that knew everything about the current state of the universe:"
+  },
+  {
+    "t_start": 95.56,
+    "t_end": 100.04,
+    "text": "the positions and momenta of all the particles and how they interact"
+  },
+  {
+    "t_start": 100.52,
+    "t_end": 105.4,
+    "text": "if this intellect were vast enough to submit the data to analysis, he concluded,"
+  },
+  {
+    "t_start": 105.4,
+    "t_end": 110.12,
+    "text": "then the future, just like the past, would be present before its eyes"
+  },
+  {
+    "t_start": 110.68,
+    "t_end": 115.52,
+    "text": "This is total determinism: the view that the future is already fixed,"
+  },
+  {
+    "t_start": 115.52,
+    "t_end": 118.0,
+    "text": "We just have to wait for it to manifest itself"
+  },
+  {
+    "t_start": 118.52,
+    "t_end": 122.68,
+    "text": "I think if you've studied a bit of physics, this is the natural viewpoint to come away with"
+  },
+  {
+    "t_start": 122.68,
+    "t_end": 126.2,
+    "text": "I mean sure there's Heisenberg's uncertainty principle from quantum mechanics,"
+  },
+  {
+    "t_start": 126.2,
+    "t_end": 131.28,
+    "text": "Pretty insignificant on the scale of people."
+  },
+  {
+    "t_start": 131.76,
+    "t_end": 135.92,
+    "text": "Virtually all the problems I studied were ones that could be solved analytically"
+  },
+  {
+    "t_start": 135.92,
+    "t_end": 139.84,
+    "text": "like the motion of planets, or falling objects, or pendulums"
+  },
+  {
+    "t_start": 139.84,
+    "t_end": 144.96,
+    "text": "and speaking of pendulums I want to look at a case of a simple pendulum here"
+  },
+  {
+    "t_start": 144.96,
+    "t_end": 150.08,
+    "text": "to introduce an important representation of dynamical systems, which is phase space"
+  },
+  {
+    "t_start": 150.08,
+    "t_end": 154.0,
+    "text": "so some people may be familiar with position-time or velocity-time graphs"
+  },
+  {
+    "t_start": 154.0,
+    "t_end": 158.88,
+    "text": "but what if we wanted to make a 2d plot that represents every possible state of the pendulum?"
+  },
+  {
+    "t_start": 158.88,
+    "t_end": 161.8,
+    "text": "Every possible thing it could do in one graph"
+  },
+  {
+    "t_start": 161.8,
+    "t_end": 164.92,
+    "text": "well on the x-axis we can plot the angle of the pendulum,"
+  },
+  {
+    "t_start": 164.92,
+    "t_end": 167.08,
+    "text": "and on the y-axis its velocity."
+  },
+  {
+    "t_start": 167.08,
+    "t_end": 169.32,
+    "text": "And this is what's called phase space."
+  },
+  {
+    "t_start": 169.32,
+    "t_end": 173.0,
+    "text": "If the pendulum has friction it will eventually slow down and stop"
+  },
+  {
+    "t_start": 173.0,
+    "t_end": 176.28,
+    "text": "and this is shown in phase space by the inward spiral --"
+  },
+  {
+    "t_start": 176.28,
+    "t_end": 180.16,
+    "text": "the pendulum swings slower and less far each time"
+  },
+  {
+    "t_start": 180.16,
+    "t_end": 183.04,
+    "text": "and it doesn't really matter what the initial conditions are,"
+  },
+  {
+    "t_start": 183.04,
+    "t_end": 187.4,
+    "text": "we know that the final state will be the pendulum at rest hanging straight down"
+  },
+  {
+    "t_start": 187.4,
+    "t_end": 192.64,
+    "text": "and from the graph it looks like the system is attracted to the origin, that one fixed point"
+  },
+  {
+    "t_start": 192.64,
+    "t_end": 195.12,
+    "text": "so this is called a fixed point attractor"
+  },
+  {
+    "t_start": 195.12,
+    "t_end": 200.04,
+    "text": "now if the pendulum doesn't lose energy, well it swings back and forth the same way each time"
+  },
+  {
+    "t_start": 200.04,
+    "t_end": 202.2,
+    "text": "and in phase space we get a loop"
+  },
+  {
+    "t_start": 202.2,
+    "t_end": 208.2,
+    "text": "the pendulum is going fastest at the bottom but the swing is in opposite directions as it goes back and forth"
+  },
+  {
+    "t_start": 208.2,
+    "t_end": 212.24,
+    "text": "the closed loop tells us the motion is periodic and predictable"
+  },
+  {
+    "t_start": 212.24,
+    "t_end": 215.44,
+    "text": "anytime you see an image like this in phase space,"
+  },
+  {
+    "t_start": 215.44,
+    "t_end": 218.16,
+    "text": "you know that this system regularly repeats"
+  },
+  {
+    "t_start": 218.16,
+    "t_end": 220.6,
+    "text": "we can swing the pendulum with different amplitudes,"
+  },
+  {
+    "t_start": 220.6,
+    "t_end": 224.88,
+    "text": "but the picture in phase space is very similar, just a different sized loop"
+  },
+  {
+    "t_start": 224.88,
+    "t_end": 229.24,
+    "text": "now an important thing to note is that the curves never cross in phase space"
+  },
+  {
+    "t_start": 229.24,
+    "t_end": 233.6,
+    "text": "and that's because each point uniquely identifies the complete state of the system"
+  },
+  {
+    "t_start": 233.6,
+    "t_end": 236.12,
+    "text": "and that state has only one future"
+  },
+  {
+    "t_start": 236.12,
+    "t_end": 240.36,
+    "text": "so once you've defined the initial state, the entire future is determined"
+  },
+  {
+    "t_start": 240.92,
+    "t_end": 244.2,
+    "text": "now the pendulum can be well understood using Newtonian physics,"
+  },
+  {
+    "t_start": 244.2,
+    "t_end": 249.24,
+    "text": "but Newton himself was aware of problems that did not submit to his equations so easily,"
+  },
+  {
+    "t_start": 249.24,
+    "t_end": 251.48,
+    "text": "particularly the three-body problem."
+  },
+  {
+    "t_start": 251.48,
+    "t_end": 256.16,
+    "text": "so calculating the motion of the Earth around the Sun was simple enough with just those two bodies"
+  },
+  {
+    "t_start": 256.16,
+    "t_end": 258.64,
+    "text": "but add in one more, say the moon,"
+  },
+  {
+    "t_start": 258.64,
+    "t_end": 260.96,
+    "text": "and it became virtually impossible"
+  },
+  {
+    "t_start": 260.96,
+    "t_end": 265.72,
+    "text": "Newton told his friend Haley that the theory of the motions of the moon made his head ache,"
+  },
+  {
+    "t_start": 265.72,
+    "t_end": 269.44,
+    "text": "and kept him awake so often that he would think of it no more"
+  },
+  {
+    "t_start": 269.44,
+    "t_end": 273.6,
+    "text": "the problem, as would become clear to Henri Poincaré two hundred years later,"
+  },
+  {
+    "t_start": 273.6,
+    "t_end": 277.08,
+    "text": "was that there was no simple solution to the three-body problem"
+  },
+  {
+    "t_start": 277.08,
+    "t_end": 281.04,
+    "text": "Poincaré had glimpsed what later became known as chaos."
+  },
+  {
+    "t_start": 286.4,
+    "t_end": 289.28,
+    "text": "Chaos really came into focus in the 1960s,"
+  },
+  {
+    "t_start": 289.28,
+    "t_end": 294.04,
+    "text": "when meteorologist Ed Lorenz tried to make a basic computer simulation of the Earth's atmosphere"
+  },
+  {
+    "t_start": 294.04,
+    "t_end": 299.68,
+    "text": "he had 12 equations and 12 variables, things like temperature, pressure, humidity and so on"
+  },
+  {
+    "t_start": 299.68,
+    "t_end": 303.56,
+    "text": "and the computer would print out each time step as a row of 12 numbers"
+  },
+  {
+    "t_start": 303.56,
+    "t_end": 306.16,
+    "text": "so you could watch how they evolved over time"
+  },
+  {
+    "t_start": 306.16,
+    "t_end": 309.76,
+    "text": "now the breakthrough came when Lorenz wanted to redo a run"
+  },
+  {
+    "t_start": 309.76,
+    "t_end": 314.4,
+    "text": "but as a shortcut he entered the numbers from halfway through a previous printout"
+  },
+  {
+    "t_start": 314.4,
+    "t_end": 316.56,
+    "text": "and then he set the computer calculating"
+  },
+  {
+    "t_start": 316.56,
+    "t_end": 320.04,
+    "text": "he went off to get some coffee, and when he came back and saw the results,"
+  },
+  {
+    "t_start": 320.04,
+    "t_end": 321.84,
+    "text": "Lorenz was stunned."
+  },
+  {
+    "t_start": 321.84,
+    "t_end": 326.16,
+    "text": "The new run followed the old one for a short while but then it diverged"
+  },
+  {
+    "t_start": 326.16,
+    "t_end": 329.72,
+    "text": "and pretty soon it was describing a totally different state of the atmosphere"
+  },
+  {
+    "t_start": 329.72,
+    "t_end": 331.84,
+    "text": "I mean totally different weather"
+  },
+  {
+    "t_start": 331.84,
+    "t_end": 334.84,
+    "text": "Lorenz's first thought, of course, was that the computer had broken"
+  },
+  {
+    "t_start": 334.84,
+    "t_end": 336.6,
+    "text": "Maybe a vacuum tube had blown."
+  },
+  {
+    "t_start": 336.6,
+    "t_end": 337.72,
+    "text": "But none had."
+  },
+  {
+    "t_start": 338.12,
+    "t_end": 342.6,
+    "text": "The real reason for the difference came down to the fact that printer rounded to three decimal places"
+  },
+  {
+    "t_start": 342.6,
+    "t_end": 345.08,
+    "text": "whereas the computer calculated with six"
+  },
+  {
+    "t_start": 345.08,
+    "t_end": 347.76,
+    "text": "So when he entered those initial conditions,"
+  },
+  {
+    "t_start": 347.76,
+    "t_end": 350.52,
+    "text": "the difference of less than one part in a thousand"
+  },
+  {
+    "t_start": 350.52,
+    "t_end": 353.92,
+    "text": "created totally different weather just a short time into the future"
+  },
+  {
+    "t_start": 353.92,
+    "t_end": 357.76,
+    "text": "now Lorenz tried simplifying his equations and then simplifying them some more,"
+  },
+  {
+    "t_start": 357.76,
+    "t_end": 360.8,
+    "text": "down to just three equations and three variables"
+  },
+  {
+    "t_start": 360.8,
+    "t_end": 363.4,
+    "text": "which represented a toy model of convection:"
+  },
+  {
+    "t_start": 363.4,
+    "t_end": 367.84,
+    "text": "essentially a 2d slice of the atmosphere heated at the bottom and cooled at the top"
+  },
+  {
+    "t_start": 367.84,
+    "t_end": 370.72,
+    "text": "but again, he got the same type of behavior:"
+  },
+  {
+    "t_start": 370.72,
+    "t_end": 375.52,
+    "text": "if he changed the numbers just a tiny bit, results diverged dramatically."
+  },
+  {
+    "t_start": 375.52,
+    "t_end": 380.56,
+    "text": "Lorenz's system displayed what's become known as sensitive dependence on initial conditions,"
+  },
+  {
+    "t_start": 380.56,
+    "t_end": 382.68,
+    "text": "which is the hallmark of chaos"
+  },
+  {
+    "t_start": 382.68,
+    "t_end": 389.64,
+    "text": "now since Lorenz was working with three variables, we can plot the phase space of his system in three dimensions"
+  },
+  {
+    "t_start": 389.64,
+    "t_end": 393.84,
+    "text": "We can pick any point as our initial state and watch how it evolves."
+  },
+  {
+    "t_start": 393.84,
+    "t_end": 397.28,
+    "text": "Does our point move toward a fixed attractor?"
+  },
+  {
+    "t_start": 397.28,
+    "t_end": 398.44,
+    "text": "Or a repeating loop?"
+  },
+  {
+    "t_start": 399.16,
+    "t_end": 400.68,
+    "text": "It doesn't seem to"
+  },
+  {
+    "t_start": 400.68,
+    "t_end": 405.04,
+    "text": "In truth, our system will never revisit the same exact state again."
+  },
+  {
+    "t_start": 406.2,
+    "t_end": 410.44,
+    "text": "Here I actually started with three closely spaced initial states,"
+  },
+  {
+    "t_start": 410.44,
+    "t_end": 414.88,
+    "text": "and they've been evolving together so far, but now they're starting to diverge"
+  },
+  {
+    "t_start": 415.96,
+    "t_end": 420.84,
+    "text": "From being arbitrarily close together, they end up on totally different trajectories."
+  },
+  {
+    "t_start": 420.84,
+    "t_end": 424.04,
+    "text": "This is sensitive dependence on initial conditions in action."
+  },
+  {
+    "t_start": 424.72,
+    "t_end": 429.68,
+    "text": "Now I should point out that there is nothing random at all about this system of equations."
+  },
+  {
+    "t_start": 429.68,
+    "t_end": 432.8,
+    "text": "It's completely deterministic, just like the pendulum"
+  },
+  {
+    "t_start": 432.8,
+    "t_end": 436.92,
+    "text": "so if you could input exactly the same initial conditions"
+  },
+  {
+    "t_start": 436.92,
+    "t_end": 439.52,
+    "text": "you would get exactly the same result"
+  },
+  {
+    "t_start": 439.52,
+    "t_end": 443.52,
+    "text": "the problem is, unlike the pendulum, this system is chaotic"
+  },
+  {
+    "t_start": 443.52,
+    "t_end": 447.28,
+    "text": "so any difference in initial conditions, no matter how tiny,"
+  },
+  {
+    "t_start": 447.28,
+    "t_end": 450.68,
+    "text": "will be amplified to a totally different final state"
+  },
+  {
+    "t_start": 451.36,
+    "t_end": 457.48,
+    "text": "It seems like a paradox, but this system is both deterministic and unpredictable"
+  },
+  {
+    "t_start": 457.48,
+    "t_end": 462.52,
+    "text": "because in practice, you could never know the initial conditions with perfect accuracy,"
+  },
+  {
+    "t_start": 462.52,
+    "t_end": 465.2,
+    "text": "and I'm talking infinite decimal places."
+  },
+  {
+    "t_start": 465.72,
+    "t_end": 469.08,
+    "text": "But the result suggests why even today with huge supercomputers,"
+  },
+  {
+    "t_start": 469.08,
+    "t_end": 472.84,
+    "text": "it's so hard to forecast the weather more than a week in advance"
+  },
+  {
+    "t_start": 472.84,
+    "t_end": 477.04,
+    "text": "In fact, studies have shown that by the eighth day of a long-range forecast,"
+  },
+  {
+    "t_start": 477.04,
+    "t_end": 483.28,
+    "text": "the prediction is less accurate than if you just took the historical average conditions for that day"
+  },
+  {
+    "t_start": 483.28,
+    "t_end": 488.36,
+    "text": "and knowing about chaos, meteorologists no longer make just a single forecast"
+  },
+  {
+    "t_start": 488.36,
+    "t_end": 491.24,
+    "text": "instead they make ensemble forecasts,"
+  },
+  {
+    "t_start": 491.24,
+    "t_end": 493.88,
+    "text": "varying initial conditions and model parameters"
+  },
+  {
+    "t_start": 493.88,
+    "t_end": 496.68,
+    "text": "to create a set of predictions."
+  },
+  {
+    "t_start": 496.68,
+    "t_end": 501.56,
+    "text": "Now far from being the exception to the rule, chaotic systems have been turning up everywhere."
+  },
+  {
+    "t_start": 501.56,
+    "t_end": 506.6,
+    "text": "The double pendulum, just two simple pendulums connected together, is chaotic"
+  },
+  {
+    "t_start": 506.6,
+    "t_end": 509.8,
+    "text": "here two double pendulums have been released simultaneously"
+  },
+  {
+    "t_start": 509.8,
+    "t_end": 512.76,
+    "text": "with almost the same initial conditions"
+  },
+  {
+    "t_start": 512.76,
+    "t_end": 515.16,
+    "text": "but no matter how hard you try,"
+  },
+  {
+    "t_start": 515.16,
+    "t_end": 519.68,
+    "text": "you could never release a double pendulum and make it behave the same way twice."
+  },
+  {
+    "t_start": 519.68,
+    "t_end": 523.24,
+    "text": "its motion will forever be unpredictable"
+  },
+  {
+    "t_start": 523.92,
+    "t_end": 528.8,
+    "text": "you might think that chaos always requires a lot of energy or irregular motions,"
+  },
+  {
+    "t_start": 528.8,
+    "t_end": 535.92,
+    "text": "but this system of five fidgets spinners with repelling magnets in each of their arms is chaotic too"
+  },
+  {
+    "t_start": 535.92,
+    "t_end": 539.0,
+    "text": "At first glance the system seems to repeat regularly,"
+  },
+  {
+    "t_start": 539.0,
+    "t_end": 543.32,
+    "text": "but if you watch more closely, you'll notice some strange motions"
+  },
+  {
+    "t_start": 543.32,
+    "t_end": 545.52,
+    "text": "a spinner suddenly flips the other way"
+  },
+  {
+    "t_start": 546.12,
+    "t_end": 548.64,
+    "text": "Even our solar system is not predictable"
+  },
+  {
+    "t_start": 548.64,
+    "t_end": 553.08,
+    "text": "a study simulating our solar system for a hundred million years into the future"
+  },
+  {
+    "t_start": 553.08,
+    "t_end": 556.2,
+    "text": "found its behavior as a whole to be chaotic"
+  },
+  {
+    "t_start": 556.2,
+    "t_end": 559.76,
+    "text": "with a characteristic time of about four million years"
+  },
+  {
+    "t_start": 559.76,
+    "t_end": 563.4,
+    "text": "that means within say 10 or 15 million years,"
+  },
+  {
+    "t_start": 563.4,
+    "t_end": 568.52,
+    "text": "some planets or moons may have collided or been flung out of the solar system entirely."
+  },
+  {
+    "t_start": 569.0,
+    "t_end": 572.6,
+    "text": "The very system we think of as the model of order,"
+  },
+  {
+    "t_start": 572.6,
+    "t_end": 576.08,
+    "text": "is unpredictable on even modest timescales"
+  },
+  {
+    "t_start": 576.08,
+    "t_end": 578.56,
+    "text": "So how well can we predict the future?"
+  },
+  {
+    "t_start": 578.56,
+    "t_end": 581.6,
+    "text": "Not very well at all at least when it comes to chaotic systems"
+  },
+  {
+    "t_start": 581.6,
+    "t_end": 586.08,
+    "text": "The further into the future you try to predict the harder it becomes"
+  },
+  {
+    "t_start": 586.08,
+    "t_end": 590.28,
+    "text": "and past a certain point, predictions are no better than guesses."
+  },
+  {
+    "t_start": 590.28,
+    "t_end": 596.24,
+    "text": "The same is true when looking into the past of chaotic systems and trying to identify initial causes"
+  },
+  {
+    "t_start": 596.24,
+    "t_end": 602.8,
+    "text": "I think of it kind of like a fog that sets in the further we try to look into the future or into the past"
+  },
+  {
+    "t_start": 602.8,
+    "t_end": 606.88,
+    "text": "Chaos puts fundamental limits on what we can know about the future of systems"
+  },
+  {
+    "t_start": 606.88,
+    "t_end": 608.92,
+    "text": "and what we can say about their past"
+  },
+  {
+    "t_start": 609.36,
+    "t_end": 611.48,
+    "text": "But there is a silver lining"
+  },
+  {
+    "t_start": 611.48,
+    "t_end": 615.32,
+    "text": "Let's look again at the phase space of Lorenz's equations"
+  },
+  {
+    "t_start": 615.32,
+    "t_end": 619.64,
+    "text": "If we start with a whole bunch of different initial conditions and watch them evolve,"
+  },
+  {
+    "t_start": 619.64,
+    "t_end": 621.8,
+    "text": "initially the motion is messy."
+  },
+  {
+    "t_start": 621.8,
+    "t_end": 625.68,
+    "text": "But soon all the points have moved towards or onto an object"
+  },
+  {
+    "t_start": 625.68,
+    "t_end": 629.12,
+    "text": "the object, coincidentally, looks a bit like a butterfly."
+  },
+  {
+    "t_start": 629.12,
+    "t_end": 630.84,
+    "text": "it is the attractor"
+  },
+  {
+    "t_start": 630.84,
+    "t_end": 636.24,
+    "text": "For a large range of initial conditions, the system evolves into a state on this attractor"
+  },
+  {
+    "t_start": 636.24,
+    "t_end": 641.32,
+    "text": "Now remember: all the paths traced out here never cross and they never connect to form a loop,"
+  },
+  {
+    "t_start": 641.32,
+    "t_end": 647.28,
+    "text": "If they did then they would continue on that loop forever and the behavior would be periodic and predictable"
+  },
+  {
+    "t_start": 647.28,
+    "t_end": 652.56,
+    "text": "so each path here is actually an infinite curve in a finite space."
+  },
+  {
+    "t_start": 652.56,
+    "t_end": 654.24,
+    "text": "But how is that possible?"
+  },
+  {
+    "t_start": 654.24,
+    "t_end": 656.88,
+    "text": "Fractals. But that's a story for another video"
+  },
+  {
+    "t_start": 656.88,
+    "t_end": 659.68,
+    "text": "this particular attractor is called the Lorenz attractor,"
+  },
+  {
+    "t_start": 659.68,
+    "t_end": 662.56,
+    "text": "Probably the most famous example of a chaotic attractor"
+  },
+  {
+    "t_start": 662.56,
+    "t_end": 666.12,
+    "text": "though many others have been found for other systems of equations"
+  },
+  {
+    "t_start": 666.12,
+    "t_end": 668.48,
+    "text": "now if people have heard anything about the butterfly effect,"
+  },
+  {
+    "t_start": 668.48,
+    "t_end": 672.56,
+    "text": "it's usually about how tiny causes make the future unpredictable"
+  },
+  {
+    "t_start": 672.56,
+    "t_end": 679.48,
+    "text": "but the science behind the butterfly effect also reveals a deep and beautiful structure underlying the dynamics"
+  },
+  {
+    "t_start": 679.48,
+    "t_end": 683.52,
+    "text": "One that can provide useful insights into the behavior of a system"
+  },
+  {
+    "t_start": 683.52,
+    "t_end": 687.04,
+    "text": "So you can't predict how any individual state will evolve,"
+  },
+  {
+    "t_start": 687.04,
+    "t_end": 690.36,
+    "text": "but you can say how a collection of states evolves"
+  },
+  {
+    "t_start": 690.36,
+    "t_end": 693.36,
+    "text": "and, at least in the case of Lorenz's equations,"
+  },
+  {
+    "t_start": 693.36,
+    "t_end": 695.88,
+    "text": "they take the shape of a butterfly"
+  },
+  {
+    "t_start": 699.28,
+    "t_end": 702.04,
+    "text": "Hey this part of the video is sponsored by LastPass,"
+  },
+  {
+    "t_start": 702.04,
+    "t_end": 706.48,
+    "text": "the password manager with unlimited password storage and free cross-device sync"
+  },
+  {
+    "t_start": 706.48,
+    "t_end": 712.88,
+    "text": "before I used a password manager, I've got to admit, I used the same password for a lot of different accounts"
+  },
+  {
+    "t_start": 712.88,
+    "t_end": 716.64,
+    "text": "and I know that is incredibly dangerous because if even one of those sites got hacked,"
+  },
+  {
+    "t_start": 716.64,
+    "t_end": 719.8,
+    "text": "then all of my important accounts would be exposed"
+  },
+  {
+    "t_start": 719.8,
+    "t_end": 721.96,
+    "text": "Quite the butterfly effect."
+  },
+  {
+    "t_start": 721.96,
+    "t_end": 725.44,
+    "text": "LastPass auto generates strong passwords for you"
+  },
+  {
+    "t_start": 725.44,
+    "t_end": 729.0,
+    "text": "so you have a different, indecipherable code for each website"
+  },
+  {
+    "t_start": 729.0,
+    "t_end": 732.36,
+    "text": "and let's face it: if there's anything in your life that you want to be chaotic,"
+  },
+  {
+    "t_start": 732.36,
+    "t_end": 739.24,
+    "text": "the best part is because it autofills user names and passwords on websites"
+  },
+  {
+    "t_start": 739.24,
+    "t_end": 742.28,
+    "text": "or on iOS or Android apps and mobile sites,"
+  },
+  {
+    "t_start": 742.28,
+    "t_end": 747.16,
+    "text": "you never have to remember another password again. Not for the rest of your life"
+  },
+  {
+    "t_start": 747.16,
+    "t_end": 751.64,
+    "text": "and that means no more writing down passwords, no more getting locked out of accounts,"
+  },
+  {
+    "t_start": 751.64,
+    "t_end": 755.8,
+    "text": "no more password resets. You can use your brain for what it's meant to be doing."
+  },
+  {
+    "t_start": 755.8,
+    "t_end": 759.4,
+    "text": "and if you want extra features like advanced multi-factor authentication,"
+  },
+  {
+    "t_start": 759.4,
+    "t_end": 761.64,
+    "text": "you can upgrade to LastPass premium"
+  },
+  {
+    "t_start": 761.64,
+    "t_end": 763.28,
+    "text": "I got to say, it works like magic."
+  },
+  {
+    "t_start": 763.28,
+    "t_end": 766.12,
+    "text": "so put your passwords on autopilot with LastPass"
+  },
+  {
+    "t_start": 766.12,
+    "t_end": 767.84,
+    "text": "Click the link below to find out more,"
+  },
+  {
+    "t_start": 767.84,
+    "t_end": 770.8,
+    "text": "and thanks to LastPass for sponsoring this part of the video"
+  }
+]

@@ -1,0 +1,5347 @@
+[
+  {
+    "t_start": 8.23,
+    "t_end": 12.15,
+    "text": "very happy to be given the opportunity to introduce the first speaker"
+  },
+  {
+    "t_start": 12.15,
+    "t_end": 16.47,
+    "text": "and who's going to talk on one of the topics of one of the clay millennium"
+  },
+  {
+    "t_start": 16.47,
+    "t_end": 19.67,
+    "text": "topics of one of the clay millennium price problems peter constantine"
+  },
+  {
+    "t_start": 19.67,
+    "t_end": 25.429,
+    "text": "was educated at the university in bucharest and did his phd under shemel"
+  },
+  {
+    "t_start": 25.429,
+    "t_end": 26.15,
+    "text": "bucharest and did his phd under shemel agmon"
+  },
+  {
+    "t_start": 26.15,
+    "t_end": 31.83,
+    "text": "at the hebrew university in jerusalem after a long and distinguished career at"
+  },
+  {
+    "t_start": 31.83,
+    "t_end": 34.069,
+    "text": "after a long and distinguished career at the university of chicago he moved last"
+  },
+  {
+    "t_start": 34.069,
+    "t_end": 35.03,
+    "text": "the university of chicago he moved last year to"
+  },
+  {
+    "t_start": 35.03,
+    "t_end": 38.229,
+    "text": "princeton running into william martin and junior"
+  },
+  {
+    "t_start": 38.229,
+    "t_end": 45.83,
+    "text": "department and director of the program applied for computational mathematics"
+  },
+  {
+    "t_start": 45.83,
+    "t_end": 52.549,
+    "text": "applied for computational mathematics over these many years peter through his"
+  },
+  {
+    "t_start": 52.549,
+    "t_end": 53.75,
+    "text": "work on numerous uh aspects of the rigorous treatment of fluid"
+  },
+  {
+    "t_start": 53.75,
+    "t_end": 56.31,
+    "text": "the rigorous treatment of fluid mechanics and in particular turbulence"
+  },
+  {
+    "t_start": 56.31,
+    "t_end": 60.15,
+    "text": "mechanics and in particular turbulence has been inspiration and it's a great"
+  },
+  {
+    "t_start": 60.15,
+    "t_end": 70.83,
+    "text": "pleasure uh to introduce him and ask him to give his talk on another"
+  },
+  {
+    "t_start": 72.55,
+    "t_end": 78.789,
+    "text": "well thank you very much um i can i hope you can hear me do i'd like to"
+  },
+  {
+    "t_start": 78.789,
+    "t_end": 80.55,
+    "text": "i hope you can hear me do i'd like to see"
+  },
+  {
+    "t_start": 80.55,
+    "t_end": 84.789,
+    "text": "the board uh it's a great honor for me to be"
+  },
+  {
+    "t_start": 84.789,
+    "t_end": 91.19,
+    "text": "invited to speak here in particular uh in view of the great occasion we are"
+  },
+  {
+    "t_start": 91.19,
+    "t_end": 94.23,
+    "text": "in view of the great occasion we are celebrating uh the opening of"
+  },
+  {
+    "t_start": 94.23,
+    "t_end": 100.63,
+    "text": "celebrating uh the opening of the math institute and i think um"
+  },
+  {
+    "t_start": 100.63,
+    "t_end": 108.069,
+    "text": "with this occasion we have and i would like to thank the clay foundation for"
+  },
+  {
+    "t_start": 108.069,
+    "t_end": 110.469,
+    "text": "like to thank the clay foundation for for facilitating this week we have a"
+  },
+  {
+    "t_start": 110.469,
+    "t_end": 112.789,
+    "text": "for facilitating this week we have a wonderful workshop"
+  },
+  {
+    "t_start": 112.789,
+    "t_end": 116.95,
+    "text": "wonderful workshop on problems related to uh the navy"
+  },
+  {
+    "t_start": 116.95,
+    "t_end": 123.109,
+    "text": "and uh i think that um in some sense that justifies all this endeavor we are"
+  },
+  {
+    "t_start": 123.109,
+    "t_end": 123.91,
+    "text": "that justifies all this endeavor we are here"
+  },
+  {
+    "t_start": 123.91,
+    "t_end": 127.67,
+    "text": "uh to do math and that's what this building is about"
+  },
+  {
+    "t_start": 127.67,
+    "t_end": 136.229,
+    "text": "so i talked about the stocks equations and um i'm imagining an audience of"
+  },
+  {
+    "t_start": 136.229,
+    "t_end": 138.71,
+    "text": "and um i'm imagining an audience of mathematicians but not necessarily"
+  },
+  {
+    "t_start": 138.71,
+    "t_end": 141.43,
+    "text": "mathematicians but not necessarily although i see some"
+  },
+  {
+    "t_start": 141.43,
+    "t_end": 148.869,
+    "text": "some of my friends here um i'm imagining that some of you might"
+  },
+  {
+    "t_start": 148.869,
+    "t_end": 155.509,
+    "text": "i'm imagining that some of you might have wished to forget some of the"
+  },
+  {
+    "t_start": 155.509,
+    "t_end": 161.35,
+    "text": "analysis so i will try to remind you some of the basics"
+  },
+  {
+    "t_start": 162.79,
+    "t_end": 165.03,
+    "text": "i have a little bit of recommendation about introduction"
+  },
+  {
+    "t_start": 165.03,
+    "t_end": 172.869,
+    "text": "i was because you mentioned the fact that i this will be accessible to all"
+  },
+  {
+    "t_start": 172.869,
+    "t_end": 182.71,
+    "text": "that i this will be accessible to all um i'm hoping it will be accessible to"
+  },
+  {
+    "t_start": 186.07,
+    "t_end": 191.509,
+    "text": "so um here is the problem uh so um let me put it up a little bit"
+  },
+  {
+    "t_start": 191.509,
+    "t_end": 195.19,
+    "text": "uh so um let me put it up a little bit and then i'm gonna uh explain each third"
+  },
+  {
+    "t_start": 195.19,
+    "t_end": 198.39,
+    "text": "and then i'm gonna uh explain each third okay so this equations"
+  },
+  {
+    "t_start": 198.39,
+    "t_end": 203.509,
+    "text": "i'm i also would like to uh refer also to my colleagues the people"
+  },
+  {
+    "t_start": 203.509,
+    "t_end": 205.67,
+    "text": "refer also to my colleagues the people who are actually experts"
+  },
+  {
+    "t_start": 205.67,
+    "t_end": 210.149,
+    "text": "into the workshop and so forth um with a little patience at the end"
+  },
+  {
+    "t_start": 210.149,
+    "t_end": 213.83,
+    "text": "little patience at the end i will give them something this is after"
+  },
+  {
+    "t_start": 213.83,
+    "t_end": 217.35,
+    "text": "all the name of this meeting is a research conference so at"
+  },
+  {
+    "t_start": 217.35,
+    "t_end": 223.91,
+    "text": "i will give them something that is new fresh to buy by anyone in"
+  },
+  {
+    "t_start": 223.91,
+    "t_end": 226.47,
+    "text": "fresh to buy by anyone in order of months and the definition of"
+  },
+  {
+    "t_start": 226.47,
+    "t_end": 227.35,
+    "text": "order of months and the definition of the archive"
+  },
+  {
+    "t_start": 227.35,
+    "t_end": 234.71,
+    "text": "maybe two weeks ago so the problem let's see u is"
+  },
+  {
+    "t_start": 234.71,
+    "t_end": 238.63,
+    "text": "the problem let's see u is a velocity and it is a function"
+  },
+  {
+    "t_start": 238.63,
+    "t_end": 242.55,
+    "text": "a velocity and it is a function with values in r3 so it has three"
+  },
+  {
+    "t_start": 242.55,
+    "t_end": 251.19,
+    "text": "it depends on four variables x in r3 and time time is non-negative because of"
+  },
+  {
+    "t_start": 251.19,
+    "t_end": 254.149,
+    "text": "and time time is non-negative because of the way things are using the second this"
+  },
+  {
+    "t_start": 254.149,
+    "t_end": 254.869,
+    "text": "the way things are using the second this equation"
+  },
+  {
+    "t_start": 254.869,
+    "t_end": 261.749,
+    "text": "is the momentum balance of newton's law and um here the first term is the time"
+  },
+  {
+    "t_start": 261.749,
+    "t_end": 263.59,
+    "text": "and um here the first term is the time derivative of u which is the"
+  },
+  {
+    "t_start": 263.59,
+    "t_end": 265.11,
+    "text": "derivative of u which is the acceleration"
+  },
+  {
+    "t_start": 265.11,
+    "t_end": 272.55,
+    "text": "at the fixed point x uh this term is um a first order derivative"
+  },
+  {
+    "t_start": 272.55,
+    "t_end": 277.27,
+    "text": "this term is um a first order derivative so this little triangle is a derivative"
+  },
+  {
+    "t_start": 277.27,
+    "t_end": 279.27,
+    "text": "uh in each direction so you have three directions and this dot product means"
+  },
+  {
+    "t_start": 279.27,
+    "t_end": 280.23,
+    "text": "directions and this dot product means you want the"
+  },
+  {
+    "t_start": 280.23,
+    "t_end": 285.35,
+    "text": "you want the d x"
+  },
+  {
+    "t_start": 288.469,
+    "t_end": 290.39,
+    "text": "so it is vector field differentiating u itself so this is a"
+  },
+  {
+    "t_start": 290.39,
+    "t_end": 293.51,
+    "text": "itself so this is a if you want these are three equations"
+  },
+  {
+    "t_start": 293.51,
+    "t_end": 298.31,
+    "text": "okay new and you'll need to remember that mu is a number"
+  },
+  {
+    "t_start": 298.31,
+    "t_end": 304.629,
+    "text": "and it is the kinematic viscosity positive or zero number uh it has"
+  },
+  {
+    "t_start": 304.629,
+    "t_end": 306.71,
+    "text": "positive or zero number uh it has units of let's say length square over"
+  },
+  {
+    "t_start": 306.71,
+    "t_end": 308.629,
+    "text": "units of let's say length square over time so 10 meters square"
+  },
+  {
+    "t_start": 308.629,
+    "t_end": 311.83,
+    "text": "time so 10 meters square per second if you want the normal"
+  },
+  {
+    "t_start": 311.83,
+    "t_end": 319.35,
+    "text": "in this room maybe about 10-2 um this is the laplacian cartesian"
+  },
+  {
+    "t_start": 319.35,
+    "t_end": 321.11,
+    "text": "um this is the laplacian cartesian laplacian two derivatives in each"
+  },
+  {
+    "t_start": 321.11,
+    "t_end": 322.55,
+    "text": "laplacian two derivatives in each direction the trace of"
+  },
+  {
+    "t_start": 322.55,
+    "t_end": 328.23,
+    "text": "the hessian so you have a second order differential operator in"
+  },
+  {
+    "t_start": 328.23,
+    "t_end": 328.87,
+    "text": "a second order differential operator in x"
+  },
+  {
+    "t_start": 328.87,
+    "t_end": 333.35,
+    "text": "this is very different this here is the gradient of pressure"
+  },
+  {
+    "t_start": 333.35,
+    "t_end": 337.99,
+    "text": "it is a physical pressure but it's not the hydraulic pressure that you"
+  },
+  {
+    "t_start": 337.99,
+    "t_end": 342.87,
+    "text": "the hydraulic pressure that you can imagine that uh you know you learned"
+  },
+  {
+    "t_start": 342.87,
+    "t_end": 346.23,
+    "text": "in high school from toricelli and things like that it"
+  },
+  {
+    "t_start": 346.23,
+    "t_end": 349.59,
+    "text": "is a force because after all this is newton's"
+  },
+  {
+    "t_start": 349.59,
+    "t_end": 354.79,
+    "text": "acceleration equals force mass is one here that density is taken to be one so"
+  },
+  {
+    "t_start": 354.79,
+    "t_end": 355.909,
+    "text": "here that density is taken to be one so everything is normalized"
+  },
+  {
+    "t_start": 355.909,
+    "t_end": 361.189,
+    "text": "there so this is an internal force a force that keeps the fluid from"
+  },
+  {
+    "t_start": 361.189,
+    "t_end": 364.95,
+    "text": "force that keeps the fluid from breaking apart and"
+  },
+  {
+    "t_start": 364.95,
+    "t_end": 368.95,
+    "text": "maintains this other constraint here which is the divergence"
+  },
+  {
+    "t_start": 368.95,
+    "t_end": 372.469,
+    "text": "which is the divergence of the vector field being zero"
+  },
+  {
+    "t_start": 372.469,
+    "t_end": 377.749,
+    "text": "the one directional derivative in direction one of component one plus the"
+  },
+  {
+    "t_start": 377.749,
+    "t_end": 385.11,
+    "text": "direction direction derivative direction two of component"
+  },
+  {
+    "t_start": 385.11,
+    "t_end": 388.23,
+    "text": "and class d3 music so this is the tangent of the ex"
+  },
+  {
+    "t_start": 388.23,
+    "t_end": 392.39,
+    "text": "the fact so in other words this uh this whole description here if you want your"
+  },
+  {
+    "t_start": 392.39,
+    "t_end": 395.35,
+    "text": "whole description here if you want your description and a tangent space of a"
+  },
+  {
+    "t_start": 395.35,
+    "t_end": 396.95,
+    "text": "description and a tangent space of a infinity dimensional kind of"
+  },
+  {
+    "t_start": 396.95,
+    "t_end": 403.749,
+    "text": "statement the divergence is zero is really the tangent to the statement that"
+  },
+  {
+    "t_start": 403.749,
+    "t_end": 404.469,
+    "text": "really the tangent to the statement that volumes"
+  },
+  {
+    "t_start": 404.469,
+    "t_end": 410.87,
+    "text": "are not changed under this group of transformations a group of"
+  },
+  {
+    "t_start": 410.87,
+    "t_end": 411.99,
+    "text": "this group of transformations a group of volume preserving"
+  },
+  {
+    "t_start": 411.99,
+    "t_end": 415.67,
+    "text": "difficult mortises and this is a statement that has a tangent"
+  },
+  {
+    "t_start": 415.67,
+    "t_end": 418.95,
+    "text": "statement that has a tangent uh you're preserving volumes"
+  },
+  {
+    "t_start": 418.95,
+    "t_end": 425.99,
+    "text": "so this problem is it needs boundary conditions and we're gonna not"
+  },
+  {
+    "t_start": 425.99,
+    "t_end": 427.35,
+    "text": "boundary conditions and we're gonna not talk about that because that's"
+  },
+  {
+    "t_start": 427.35,
+    "t_end": 429.51,
+    "text": "talk about that because that's complicated so we're gonna imagine"
+  },
+  {
+    "t_start": 429.51,
+    "t_end": 433.589,
+    "text": "complicated so we're gonna imagine this to be decaying so the velocities"
+  },
+  {
+    "t_start": 433.589,
+    "t_end": 437.99,
+    "text": "flop to zero at infinity or we could pretend things are periodic"
+  },
+  {
+    "t_start": 437.99,
+    "t_end": 442.23,
+    "text": "pretend things are periodic in this stock and boundaries are"
+  },
+  {
+    "t_start": 442.23,
+    "t_end": 449.909,
+    "text": "and after all at the boundaries and we have to supplement the three"
+  },
+  {
+    "t_start": 449.909,
+    "t_end": 451.27,
+    "text": "and we have to supplement the three boundary conditions i"
+  },
+  {
+    "t_start": 451.27,
+    "t_end": 455.029,
+    "text": "mentioned we have to supplement it with initial conditions what happens at time"
+  },
+  {
+    "t_start": 455.029,
+    "t_end": 456.629,
+    "text": "initial conditions what happens at time equals zero because i said time"
+  },
+  {
+    "t_start": 456.629,
+    "t_end": 459.27,
+    "text": "equals zero because i said time is non-negative the reason there is an"
+  },
+  {
+    "t_start": 459.27,
+    "t_end": 461.749,
+    "text": "is non-negative the reason there is an arrow of time here and the arrow of time"
+  },
+  {
+    "t_start": 461.749,
+    "t_end": 467.029,
+    "text": "arrow of time here and the arrow of time time goes one way has to do with this"
+  },
+  {
+    "t_start": 467.029,
+    "t_end": 471.589,
+    "text": "because we have if you ignore the non-linear terms which are this guy in"
+  },
+  {
+    "t_start": 471.589,
+    "t_end": 473.27,
+    "text": "non-linear terms which are this guy in this guy the u dot gradu"
+  },
+  {
+    "t_start": 473.27,
+    "t_end": 476.629,
+    "text": "this guy the u dot gradu and graph p"
+  },
+  {
+    "t_start": 478.55,
+    "t_end": 482.07,
+    "text": "you have the parabolic equation and that has an arrow and that is a reflection of"
+  },
+  {
+    "t_start": 482.07,
+    "t_end": 488.629,
+    "text": "mixing molecular which you see um this term here u dot graph u together"
+  },
+  {
+    "t_start": 488.629,
+    "t_end": 490.309,
+    "text": "this term here u dot graph u together with the time derivative"
+  },
+  {
+    "t_start": 490.309,
+    "t_end": 493.67,
+    "text": "with the time derivative is called the material derivative so"
+  },
+  {
+    "t_start": 493.67,
+    "t_end": 498.15,
+    "text": "expresses actually time derivative acro along particle trajectories you can"
+  },
+  {
+    "t_start": 498.15,
+    "t_end": 498.869,
+    "text": "along particle trajectories you can imagine"
+  },
+  {
+    "t_start": 498.869,
+    "t_end": 502.869,
+    "text": "the flow moving and if you instead of sticking"
+  },
+  {
+    "t_start": 502.869,
+    "t_end": 507.27,
+    "text": "a point in space and letting the observing the flow past that point"
+  },
+  {
+    "t_start": 507.27,
+    "t_end": 510.79,
+    "text": "observing the flow past that point you can label the original position and"
+  },
+  {
+    "t_start": 510.79,
+    "t_end": 517.11,
+    "text": "with the flow and then the combination of these two things is the time"
+  },
+  {
+    "t_start": 517.11,
+    "t_end": 520.23,
+    "text": "that particle so it's the acceleration on that particle"
+  },
+  {
+    "t_start": 520.23,
+    "t_end": 525.11,
+    "text": "but viewed from a point in space this thing looks non-linear"
+  },
+  {
+    "t_start": 525.11,
+    "t_end": 529.35,
+    "text": "thing looks non-linear okay and it is about me so uh that's the"
+  },
+  {
+    "t_start": 529.35,
+    "t_end": 533.43,
+    "text": "and the problem is to study this equation its smoothness"
+  },
+  {
+    "t_start": 533.43,
+    "t_end": 536.47,
+    "text": "equation its smoothness of the solutions of this equation for"
+  },
+  {
+    "t_start": 536.47,
+    "t_end": 541.269,
+    "text": "initial data and i have here an eg so let me give you two kinds of examples"
+  },
+  {
+    "t_start": 541.269,
+    "t_end": 542.63,
+    "text": "let me give you two kinds of examples okay for a moment"
+  },
+  {
+    "t_start": 542.63,
+    "t_end": 548.07,
+    "text": "okay for a moment let's imagine that we are in uh"
+  },
+  {
+    "t_start": 551.67,
+    "t_end": 556.87,
+    "text": "master field okay uh in the street okay a few puppies sit here so that you"
+  },
+  {
+    "t_start": 556.87,
+    "t_end": 559.269,
+    "text": "okay a few puppies sit here so that you can see some nice colors"
+  },
+  {
+    "t_start": 559.269,
+    "t_end": 563.269,
+    "text": "we are on a highway but the highway is empty where a lot of green here okay"
+  },
+  {
+    "t_start": 563.269,
+    "t_end": 566.23,
+    "text": "empty where a lot of green here okay highway is empty and then there is a"
+  },
+  {
+    "t_start": 566.23,
+    "t_end": 568.79,
+    "text": "highway is empty and then there is a fast moving car and again we were about"
+  },
+  {
+    "t_start": 568.79,
+    "t_end": 576.389,
+    "text": "let's think it's a lamborghini and it moves like 200 kilometers an hour"
+  },
+  {
+    "t_start": 576.389,
+    "t_end": 579.509,
+    "text": "it moves like 200 kilometers an hour and there is nothing else okay uh"
+  },
+  {
+    "t_start": 579.509,
+    "t_end": 583.43,
+    "text": "and there is nothing else okay uh this creates a flow because i"
+  },
+  {
+    "t_start": 583.43,
+    "t_end": 584.79,
+    "text": "this creates a flow because i moved something and there is a"
+  },
+  {
+    "t_start": 584.79,
+    "t_end": 587.269,
+    "text": "moved something and there is a resistance in the air and things to"
+  },
+  {
+    "t_start": 587.269,
+    "t_end": 593.99,
+    "text": "um kind of like agitated and these are essentially the"
+  },
+  {
+    "t_start": 593.99,
+    "t_end": 596.15,
+    "text": "and these are essentially the realistic boundary conditions that we"
+  },
+  {
+    "t_start": 596.15,
+    "t_end": 598.15,
+    "text": "realistic boundary conditions that we are not talking about but you can"
+  },
+  {
+    "t_start": 598.15,
+    "t_end": 601.35,
+    "text": "imagine them also as an impulsive initial condition"
+  },
+  {
+    "t_start": 601.35,
+    "t_end": 604.71,
+    "text": "so you have a velocity if you are let's say within"
+  },
+  {
+    "t_start": 604.72,
+    "t_end": 609.43,
+    "text": "meters from the ground you have a velocity of about 100 kilometers an hour"
+  },
+  {
+    "t_start": 609.43,
+    "t_end": 612.87,
+    "text": "velocity of about 100 kilometers an hour at time zero the thing passes and then"
+  },
+  {
+    "t_start": 612.87,
+    "t_end": 615.43,
+    "text": "at time zero the thing passes and then things will settle down okay so that's"
+  },
+  {
+    "t_start": 615.43,
+    "t_end": 616.069,
+    "text": "things will settle down okay so that's really"
+  },
+  {
+    "t_start": 616.069,
+    "t_end": 620.87,
+    "text": "a large initial data another artificial data might be this"
+  },
+  {
+    "t_start": 620.87,
+    "t_end": 624.389,
+    "text": "data might be this so uh you have"
+  },
+  {
+    "t_start": 624.389,
+    "t_end": 630.87,
+    "text": "a large vortex and um this is in advances i think where total"
+  },
+  {
+    "t_start": 630.87,
+    "t_end": 632.069,
+    "text": "this is in advances i think where total and uh"
+  },
+  {
+    "t_start": 632.069,
+    "t_end": 635.509,
+    "text": "uh door opening campuses i think at this moment and"
+  },
+  {
+    "t_start": 635.509,
+    "t_end": 642.15,
+    "text": "you're um seeing a um incipient uh eternity now of course the navi stop"
+  },
+  {
+    "t_start": 642.15,
+    "t_end": 643.75,
+    "text": "uh eternity now of course the navi stop secretions as the way i"
+  },
+  {
+    "t_start": 643.75,
+    "t_end": 647.75,
+    "text": "described them they ignored a lot of details and this is really not a"
+  },
+  {
+    "t_start": 647.75,
+    "t_end": 649.19,
+    "text": "details and this is really not a complete description because there is"
+  },
+  {
+    "t_start": 649.19,
+    "t_end": 650.069,
+    "text": "complete description because there is moisture"
+  },
+  {
+    "t_start": 650.069,
+    "t_end": 653.509,
+    "text": "moisture there is a lot of other stuff going on"
+  },
+  {
+    "t_start": 653.509,
+    "t_end": 658.47,
+    "text": "so at this point you might think that this is going to be a very cute talk"
+  },
+  {
+    "t_start": 658.47,
+    "t_end": 664.069,
+    "text": "and uh uh those who all age know better so i apologize it's not gonna be a cute"
+  },
+  {
+    "t_start": 664.069,
+    "t_end": 665.43,
+    "text": "so i apologize it's not gonna be a cute dog so"
+  },
+  {
+    "t_start": 665.43,
+    "t_end": 670.069,
+    "text": "this is the end of the pictures [Music]"
+  },
+  {
+    "t_start": 670.069,
+    "t_end": 676.79,
+    "text": "so um i'm gonna motivate a little bit the issues"
+  },
+  {
+    "t_start": 676.79,
+    "t_end": 680.389,
+    "text": "a little bit the issues with some elements that come from"
+  },
+  {
+    "t_start": 680.389,
+    "t_end": 681.99,
+    "text": "with some elements that come from turbulence turbulence is a very"
+  },
+  {
+    "t_start": 681.99,
+    "t_end": 683.26,
+    "text": "turbulence turbulence is a very important"
+  },
+  {
+    "t_start": 683.26,
+    "t_end": 684.71,
+    "text": "important [Music]"
+  },
+  {
+    "t_start": 684.71,
+    "t_end": 690.79,
+    "text": "endeavor it has practical applications uh it has attempts to theory it is one"
+  },
+  {
+    "t_start": 690.79,
+    "t_end": 692.389,
+    "text": "uh it has attempts to theory it is one of the hardest"
+  },
+  {
+    "t_start": 692.389,
+    "t_end": 697.03,
+    "text": "the hardest non-linear problem and it is hard because it is at human level so"
+  },
+  {
+    "t_start": 697.03,
+    "t_end": 702.069,
+    "text": "the problems that have essentially a balance of scales and"
+  },
+  {
+    "t_start": 702.069,
+    "t_end": 706.79,
+    "text": "balance of scales and that have to do with intermediate scales"
+  },
+  {
+    "t_start": 706.79,
+    "t_end": 714.389,
+    "text": "difficult so i will mention a few things about turbulence and in particular i"
+  },
+  {
+    "t_start": 714.389,
+    "t_end": 715.19,
+    "text": "about turbulence and in particular i will mention"
+  },
+  {
+    "t_start": 715.19,
+    "t_end": 719.75,
+    "text": "a little more mathematical things about anomalous dissipation"
+  },
+  {
+    "t_start": 719.75,
+    "t_end": 724.71,
+    "text": "and then i will describe um elementary properties of the"
+  },
+  {
+    "t_start": 724.71,
+    "t_end": 726.389,
+    "text": "elementary properties of the navier-stokes equation"
+  },
+  {
+    "t_start": 726.389,
+    "t_end": 731.829,
+    "text": "euler equations as we know them and as i said for those patients and"
+  },
+  {
+    "t_start": 731.829,
+    "t_end": 733.75,
+    "text": "and as i said for those patients and interested in something relatively new"
+  },
+  {
+    "t_start": 733.75,
+    "t_end": 734.069,
+    "text": "interested in something relatively new and"
+  },
+  {
+    "t_start": 734.069,
+    "t_end": 741.03,
+    "text": "who know the equations i will show some computations and some formulas"
+  },
+  {
+    "t_start": 741.03,
+    "t_end": 741.829,
+    "text": "show some computations and some formulas for"
+  },
+  {
+    "t_start": 741.829,
+    "t_end": 745.19,
+    "text": "the pressure the pressure is a very important uh"
+  },
+  {
+    "t_start": 745.19,
+    "t_end": 748.389,
+    "text": "important uh thing in this turbulent field and in my"
+  },
+  {
+    "t_start": 748.389,
+    "t_end": 753.59,
+    "text": "and then i will uh end with a few words about outlooking which i'm going to move"
+  },
+  {
+    "t_start": 753.59,
+    "t_end": 754.949,
+    "text": "about outlooking which i'm going to move away a little bit from the navies"
+  },
+  {
+    "t_start": 754.949,
+    "t_end": 756.31,
+    "text": "away a little bit from the navies observations and"
+  },
+  {
+    "t_start": 756.31,
+    "t_end": 764.389,
+    "text": "a shuffle of maybe uh open directions so uh turbulence i'm quoting from a book"
+  },
+  {
+    "t_start": 764.389,
+    "t_end": 764.949,
+    "text": "so uh turbulence i'm quoting from a book by"
+  },
+  {
+    "t_start": 764.949,
+    "t_end": 771.67,
+    "text": "yuri alfred who is a a friend and and a a good theorist who the entire"
+  },
+  {
+    "t_start": 771.67,
+    "t_end": 772.069,
+    "text": "and a a good theorist who the entire life"
+  },
+  {
+    "t_start": 772.069,
+    "t_end": 778.15,
+    "text": "for working in terminus and the book is called turbulence and the legacy of"
+  },
+  {
+    "t_start": 778.15,
+    "t_end": 779.67,
+    "text": "called turbulence and the legacy of corporal world and it is"
+  },
+  {
+    "t_start": 779.67,
+    "t_end": 783.829,
+    "text": "corporal world and it is a wonderful book so these are supposed"
+  },
+  {
+    "t_start": 783.829,
+    "t_end": 790.87,
+    "text": "experimental laws so the first one you can read essentially says that if"
+  },
+  {
+    "t_start": 790.87,
+    "t_end": 793.829,
+    "text": "you can read essentially says that if everything is kept the same except for"
+  },
+  {
+    "t_start": 793.829,
+    "t_end": 795.75,
+    "text": "everything is kept the same except for viscosity which is lowered as much as"
+  },
+  {
+    "t_start": 795.75,
+    "t_end": 796.629,
+    "text": "viscosity which is lowered as much as possible"
+  },
+  {
+    "t_start": 796.629,
+    "t_end": 802.629,
+    "text": "is a theoretician okay so i'll explain that comment in a sec um the"
+  },
+  {
+    "t_start": 802.629,
+    "t_end": 804.389,
+    "text": "explain that comment in a sec um the energy dissipation"
+  },
+  {
+    "t_start": 804.389,
+    "t_end": 808.069,
+    "text": "energy dissipation mass behaves in the way consistent which"
+  },
+  {
+    "t_start": 808.069,
+    "t_end": 813.11,
+    "text": "uh with a finite positive limit so i said it's a theoretician because you"
+  },
+  {
+    "t_start": 813.11,
+    "t_end": 814.949,
+    "text": "said it's a theoretician because you know lower the viscosity very easily"
+  },
+  {
+    "t_start": 814.949,
+    "t_end": 816.069,
+    "text": "know lower the viscosity very easily because it discusses the material"
+  },
+  {
+    "t_start": 816.069,
+    "t_end": 817.35,
+    "text": "because it discusses the material property of the object"
+  },
+  {
+    "t_start": 817.35,
+    "t_end": 820.87,
+    "text": "but you can change other parameters and you'll see the reynolds number in a"
+  },
+  {
+    "t_start": 820.87,
+    "t_end": 821.67,
+    "text": "you'll see the reynolds number in a second"
+  },
+  {
+    "t_start": 821.67,
+    "t_end": 826.949,
+    "text": "so that you effectively lower the viscosity in numerically you can lower"
+  },
+  {
+    "t_start": 826.949,
+    "t_end": 832.71,
+    "text": "so here is the um energy dissipation per unit mass"
+  },
+  {
+    "t_start": 832.71,
+    "t_end": 836.069,
+    "text": "so the dissipation work means that i take minus"
+  },
+  {
+    "t_start": 836.069,
+    "t_end": 839.509,
+    "text": "okay so if the rate of change of the energy is negative and"
+  },
+  {
+    "t_start": 839.509,
+    "t_end": 845.75,
+    "text": "this becomes a positive quantity this is a verb location epsilon is not"
+  },
+  {
+    "t_start": 845.75,
+    "t_end": 849.43,
+    "text": "necessarily small and the statement is that epsilon is"
+  },
+  {
+    "t_start": 849.43,
+    "t_end": 855.91,
+    "text": "now the energy is measured in an average cell so you have here"
+  },
+  {
+    "t_start": 855.91,
+    "t_end": 856.949,
+    "text": "in an average cell so you have here let's say"
+  },
+  {
+    "t_start": 856.949,
+    "t_end": 862.79,
+    "text": "for now a queue which is the unit box in which the things are periodic so"
+  },
+  {
+    "t_start": 862.79,
+    "t_end": 864.629,
+    "text": "box in which the things are periodic so you need period box"
+  },
+  {
+    "t_start": 864.629,
+    "t_end": 867.67,
+    "text": "you need period box uh pretty soon it will be actually so"
+  },
+  {
+    "t_start": 867.67,
+    "t_end": 872.55,
+    "text": "uh the size of of the box or the volume is that cube"
+  },
+  {
+    "t_start": 872.55,
+    "t_end": 878.55,
+    "text": "and one half because it's kinetic energy this is the average kinetic energy"
+  },
+  {
+    "t_start": 878.55,
+    "t_end": 880.87,
+    "text": "this is the average kinetic energy and from the navier-stokes equation"
+  },
+  {
+    "t_start": 880.87,
+    "t_end": 883.189,
+    "text": "and from the navier-stokes equation exercise number one"
+  },
+  {
+    "t_start": 883.189,
+    "t_end": 888.15,
+    "text": "if you are allowed to do everything that you would like to do integrate by parts"
+  },
+  {
+    "t_start": 888.15,
+    "t_end": 896.15,
+    "text": "uh you get that this is equal to the average radian squared"
+  },
+  {
+    "t_start": 896.15,
+    "t_end": 899.189,
+    "text": "to the average radian squared divided by l and so forth times this"
+  },
+  {
+    "t_start": 899.189,
+    "t_end": 906.31,
+    "text": "viscosity so now let's read this again finite positive limit nu goes to zero"
+  },
+  {
+    "t_start": 906.31,
+    "t_end": 910.79,
+    "text": "finite positive limit nu goes to zero well i have a product of two numbers"
+  },
+  {
+    "t_start": 910.79,
+    "t_end": 913.829,
+    "text": "well i have a product of two numbers uh limit is positive"
+  },
+  {
+    "t_start": 913.829,
+    "t_end": 919.269,
+    "text": "one goes into it so maybe something becomes big here this gradient in"
+  },
+  {
+    "t_start": 919.269,
+    "t_end": 921.59,
+    "text": "becomes big here this gradient in velocity might have to become big"
+  },
+  {
+    "t_start": 921.59,
+    "t_end": 925.03,
+    "text": "velocity might have to become big okay in one way or another"
+  },
+  {
+    "t_start": 925.03,
+    "t_end": 926.949,
+    "text": "okay in one way or another the second law is called the two-thirds"
+  },
+  {
+    "t_start": 926.949,
+    "t_end": 929.35,
+    "text": "the second law is called the two-thirds novices um"
+  },
+  {
+    "t_start": 929.35,
+    "t_end": 935.43,
+    "text": "the following it again keeps prudent uh i'll explain the second that higher"
+  },
+  {
+    "t_start": 935.43,
+    "t_end": 936.47,
+    "text": "i'll explain the second that higher those numbers"
+  },
+  {
+    "t_start": 936.47,
+    "t_end": 940.47,
+    "text": "those numbers if you take the velocity increment i'm"
+  },
+  {
+    "t_start": 940.47,
+    "t_end": 943.829,
+    "text": "sorry equal and i wrote it with his notation v it's"
+  },
+  {
+    "t_start": 943.829,
+    "t_end": 948.87,
+    "text": "okay so that means i take you here minus u there and the distance between"
+  },
+  {
+    "t_start": 948.87,
+    "t_end": 956.47,
+    "text": "u there and the distance between here and there is l actually you project"
+  },
+  {
+    "t_start": 958.79,
+    "t_end": 960.069,
+    "text": "description and if they are separated by distance l"
+  },
+  {
+    "t_start": 960.069,
+    "t_end": 964.71,
+    "text": "that the expected behavior is too far two-thirds power"
+  },
+  {
+    "t_start": 964.71,
+    "t_end": 968.629,
+    "text": "two-thirds power so i explain here what the range number"
+  },
+  {
+    "t_start": 968.629,
+    "t_end": 975.99,
+    "text": "the product of the typical velocity well a typical glossy mate is the"
+  },
+  {
+    "t_start": 975.99,
+    "t_end": 978.949,
+    "text": "mean square velocity a typical length in the case of the lamborghini it was"
+  },
+  {
+    "t_start": 978.949,
+    "t_end": 980.55,
+    "text": "in the case of the lamborghini it was like 10 meters"
+  },
+  {
+    "t_start": 980.55,
+    "t_end": 985.269,
+    "text": "in the case of that tornado was a couple of hundred yards"
+  },
+  {
+    "t_start": 985.269,
+    "t_end": 991.189,
+    "text": "um and this guy okay the rainbow snapper is the most"
+  },
+  {
+    "t_start": 991.189,
+    "t_end": 991.99,
+    "text": "okay the rainbow snapper is the most important"
+  },
+  {
+    "t_start": 991.99,
+    "t_end": 997.269,
+    "text": "parameter of one two important parameters in turbulence and"
+  },
+  {
+    "t_start": 997.269,
+    "t_end": 999.269,
+    "text": "important parameters in turbulence and if reynolds number didn't exist we"
+  },
+  {
+    "t_start": 999.269,
+    "t_end": 1000.15,
+    "text": "if reynolds number didn't exist we couldn't"
+  },
+  {
+    "t_start": 1000.15,
+    "t_end": 1004.629,
+    "text": "uh do experiments with wind tunnels so the reynolds number allows you"
+  },
+  {
+    "t_start": 1004.629,
+    "t_end": 1008.87,
+    "text": "the reynolds number allows you to actually it reflects the scaling"
+  },
+  {
+    "t_start": 1008.87,
+    "t_end": 1014.389,
+    "text": "property so the equation it allows you to actually scale down things"
+  },
+  {
+    "t_start": 1014.389,
+    "t_end": 1016.15,
+    "text": "make an experiment at a certain scale and infer things about"
+  },
+  {
+    "t_start": 1016.15,
+    "t_end": 1019.43,
+    "text": "certain scale and infer things about larger scales so it is"
+  },
+  {
+    "t_start": 1019.43,
+    "t_end": 1022.15,
+    "text": "larger scales so it is reynolds number characterizes the regime"
+  },
+  {
+    "t_start": 1022.15,
+    "t_end": 1023.749,
+    "text": "reynolds number characterizes the regime in which you are"
+  },
+  {
+    "t_start": 1023.749,
+    "t_end": 1030.47,
+    "text": "so the statement that this goes like l perhaps is essentially in turbulence and"
+  },
+  {
+    "t_start": 1030.47,
+    "t_end": 1031.35,
+    "text": "perhaps is essentially in turbulence and this epsilon"
+  },
+  {
+    "t_start": 1031.35,
+    "t_end": 1039.75,
+    "text": "is the same epsilon from here so in turbulence the statement is that"
+  },
+  {
+    "t_start": 1039.75,
+    "t_end": 1041.59,
+    "text": "so in turbulence the statement is that what is differential analysis if you"
+  },
+  {
+    "t_start": 1041.59,
+    "t_end": 1044.39,
+    "text": "what is differential analysis if you think about epsilon being the rate of"
+  },
+  {
+    "t_start": 1044.39,
+    "t_end": 1049.19,
+    "text": "change of energy that's l square but t squared by another t and square over t"
+  },
+  {
+    "t_start": 1049.19,
+    "t_end": 1052.71,
+    "text": "squared by another t and square over t cubed and then you multiply by another l"
+  },
+  {
+    "t_start": 1052.71,
+    "t_end": 1056.39,
+    "text": "it becomes l cubed over t cubed and you want it to"
+  },
+  {
+    "t_start": 1056.39,
+    "t_end": 1063.43,
+    "text": "u n over t square so there's only two thirds power that can do that"
+  },
+  {
+    "t_start": 1065.99,
+    "t_end": 1068.31,
+    "text": "this is supposed to happen in the inertial range which means not really 12"
+  },
+  {
+    "t_start": 1068.31,
+    "t_end": 1070.15,
+    "text": "inertial range which means not really 12 to zero"
+  },
+  {
+    "t_start": 1070.15,
+    "t_end": 1075.029,
+    "text": "but for l larger than some cutoff the consequence or the equivalent way"
+  },
+  {
+    "t_start": 1075.029,
+    "t_end": 1081.029,
+    "text": "is the famous polymorph spectrum which is kind of a fourier transform of"
+  },
+  {
+    "t_start": 1081.029,
+    "t_end": 1081.669,
+    "text": "which is kind of a fourier transform of this"
+  },
+  {
+    "t_start": 1081.669,
+    "t_end": 1085.59,
+    "text": "in one dimension and correlations but never mind that says"
+  },
+  {
+    "t_start": 1085.59,
+    "t_end": 1092.47,
+    "text": "uh that the energies decays like wave number two minus five thirds"
+  },
+  {
+    "t_start": 1092.47,
+    "t_end": 1095.83,
+    "text": "wave number two minus five thirds and that's the same thing as this two"
+  },
+  {
+    "t_start": 1095.83,
+    "t_end": 1101.029,
+    "text": "epsilon comes and all is done by dimensional analysis if you wish"
+  },
+  {
+    "t_start": 1101.029,
+    "t_end": 1102.63,
+    "text": "dimensional analysis if you wish insisting that there is only one"
+  },
+  {
+    "t_start": 1102.63,
+    "t_end": 1104.63,
+    "text": "insisting that there is only one dimensional parameter"
+  },
+  {
+    "t_start": 1104.63,
+    "t_end": 1108.71,
+    "text": "dimensional parameter and that is it the only object that has"
+  },
+  {
+    "t_start": 1108.71,
+    "t_end": 1112.63,
+    "text": "is epsilon and then if you are talking about weight numbers they have dimension"
+  },
+  {
+    "t_start": 1112.63,
+    "t_end": 1114.63,
+    "text": "about weight numbers they have dimension of one more length"
+  },
+  {
+    "t_start": 1114.63,
+    "t_end": 1122.87,
+    "text": "and then uh things come out so the um spectrum also has a cutoff"
+  },
+  {
+    "t_start": 1122.87,
+    "t_end": 1125.75,
+    "text": "the um spectrum also has a cutoff as supposed to decay like this up to kd"
+  },
+  {
+    "t_start": 1125.75,
+    "t_end": 1128.15,
+    "text": "as supposed to decay like this up to kd and kd is a cut off where viscosity and"
+  },
+  {
+    "t_start": 1128.15,
+    "t_end": 1129.669,
+    "text": "and kd is a cut off where viscosity and thursday"
+  },
+  {
+    "t_start": 1129.669,
+    "t_end": 1135.029,
+    "text": "and at that top off you see again but you see now that the viscosity"
+  },
+  {
+    "t_start": 1135.029,
+    "t_end": 1136.39,
+    "text": "but you see now that the viscosity becomes very small"
+  },
+  {
+    "t_start": 1136.39,
+    "t_end": 1143.27,
+    "text": "this k d goes to infinity or l this l goes to zero so in some sense"
+  },
+  {
+    "t_start": 1143.27,
+    "t_end": 1146.39,
+    "text": "this l goes to zero so in some sense you are taking uh this law to"
+  },
+  {
+    "t_start": 1146.39,
+    "t_end": 1149.83,
+    "text": "you are taking uh this law to asymptotically becomes valid for all"
+  },
+  {
+    "t_start": 1149.83,
+    "t_end": 1153.669,
+    "text": "asymptotically becomes valid for all or this log asymptotically becomes valid"
+  },
+  {
+    "t_start": 1153.669,
+    "t_end": 1156.71,
+    "text": "for okay so there is a cut off viscous cut off at"
+  },
+  {
+    "t_start": 1156.71,
+    "t_end": 1160.15,
+    "text": "by the end and then things become analytics"
+  },
+  {
+    "t_start": 1160.15,
+    "t_end": 1165.669,
+    "text": "and so forth so that's uh those are let's say experimentally"
+  },
+  {
+    "t_start": 1165.669,
+    "t_end": 1169.11,
+    "text": "let's say experimentally verified uh to a very large degree so"
+  },
+  {
+    "t_start": 1169.11,
+    "t_end": 1172.87,
+    "text": "the quality of the experiments you know turbulence people like to fight"
+  },
+  {
+    "t_start": 1172.87,
+    "t_end": 1176.95,
+    "text": "and they they complain to each other about various details and so forth"
+  },
+  {
+    "t_start": 1176.95,
+    "t_end": 1179.99,
+    "text": "about various details and so forth by comparison to other experimental"
+  },
+  {
+    "t_start": 1179.99,
+    "t_end": 1180.87,
+    "text": "by comparison to other experimental areas"
+  },
+  {
+    "t_start": 1180.87,
+    "t_end": 1187.909,
+    "text": "of physics the quality of the agreement in the power law is outstanding"
+  },
+  {
+    "t_start": 1187.909,
+    "t_end": 1193.909,
+    "text": "in the power law is outstanding so they they fight about minor details"
+  },
+  {
+    "t_start": 1197.029,
+    "t_end": 1200.789,
+    "text": "so if you look at power spectra and or ranges of for instance for the"
+  },
+  {
+    "t_start": 1200.789,
+    "t_end": 1202.87,
+    "text": "or ranges of for instance for the nusselt number versus israeli number"
+  },
+  {
+    "t_start": 1202.87,
+    "t_end": 1206.63,
+    "text": "nusselt number versus israeli number there are like 13 orders of magnitude of"
+  },
+  {
+    "t_start": 1206.63,
+    "t_end": 1214.39,
+    "text": "so it's uh behooves us to explain this okay"
+  },
+  {
+    "t_start": 1214.39,
+    "t_end": 1217.51,
+    "text": "behooves us to explain this okay so here are some questions this is this"
+  },
+  {
+    "t_start": 1217.51,
+    "t_end": 1221.909,
+    "text": "studio is the existence of this product zero"
+  },
+  {
+    "t_start": 1221.909,
+    "t_end": 1227.19,
+    "text": "or not not not here i write it in a different way is there a viscosity"
+  },
+  {
+    "t_start": 1227.19,
+    "t_end": 1229.11,
+    "text": "different way is there a viscosity independent positive i mean"
+  },
+  {
+    "t_start": 1229.11,
+    "t_end": 1232.95,
+    "text": "energy transfer rate in the inertial range so inertial ranges this range of"
+  },
+  {
+    "t_start": 1232.95,
+    "t_end": 1234.07,
+    "text": "range so inertial ranges this range of wave numbers"
+  },
+  {
+    "t_start": 1234.07,
+    "t_end": 1239.27,
+    "text": "and you can think of the energy you can freely transform the thing and"
+  },
+  {
+    "t_start": 1239.27,
+    "t_end": 1241.669,
+    "text": "you can freely transform the thing and truncate that k and ask yourself"
+  },
+  {
+    "t_start": 1241.669,
+    "t_end": 1247.029,
+    "text": "truncate that k and ask yourself is there a transfer from k to higher"
+  },
+  {
+    "t_start": 1247.029,
+    "t_end": 1251.27,
+    "text": "case that doesn't change with k in which case i will have a"
+  },
+  {
+    "t_start": 1251.27,
+    "t_end": 1256.95,
+    "text": "non-activative um i will have a distinction of error"
+  },
+  {
+    "t_start": 1256.95,
+    "t_end": 1260.07,
+    "text": "the big problem is the velocity in obvious stocks"
+  },
+  {
+    "t_start": 1260.07,
+    "t_end": 1264.87,
+    "text": "so solutions smooth is the zero viscosity limit"
+  },
+  {
+    "t_start": 1264.87,
+    "t_end": 1269.029,
+    "text": "of the velocity further continuous with exponent one third that's this"
+  },
+  {
+    "t_start": 1269.029,
+    "t_end": 1270.149,
+    "text": "exponent one third that's this two-thirds law"
+  },
+  {
+    "t_start": 1270.149,
+    "t_end": 1277.83,
+    "text": "that uh uh frisch was mentioning the is law invisibility of the equations"
+  },
+  {
+    "t_start": 1277.83,
+    "t_end": 1284.07,
+    "text": "the is law invisibility of the equations the 3d euler equations or"
+  },
+  {
+    "t_start": 1284.07,
+    "t_end": 1286.149,
+    "text": "an energy dissipative version of the 3d order equations"
+  },
+  {
+    "t_start": 1286.149,
+    "t_end": 1290.31,
+    "text": "so these are ambiguous questions and i mean by that especially to my friends"
+  },
+  {
+    "t_start": 1290.31,
+    "t_end": 1292.39,
+    "text": "mean by that especially to my friends we've been there are versions and the"
+  },
+  {
+    "t_start": 1292.39,
+    "t_end": 1295.029,
+    "text": "we've been there are versions and the caveats and you have function spaces and"
+  },
+  {
+    "t_start": 1295.029,
+    "t_end": 1298.47,
+    "text": "caveats and you have function spaces and certain things are not um really um"
+  },
+  {
+    "t_start": 1298.47,
+    "t_end": 1301.35,
+    "text": "certain things are not um really um you can get both answers if you don't if"
+  },
+  {
+    "t_start": 1301.35,
+    "t_end": 1304.07,
+    "text": "you can get both answers if you don't if you're asking this baby"
+  },
+  {
+    "t_start": 1304.07,
+    "t_end": 1310.789,
+    "text": "but there are three progressions so um and now maybe there are some"
+  },
+  {
+    "t_start": 1310.789,
+    "t_end": 1311.909,
+    "text": "so um and now maybe there are some engineers and"
+  },
+  {
+    "t_start": 1311.909,
+    "t_end": 1315.27,
+    "text": "a real physicist in the audience i'm going to be a little"
+  },
+  {
+    "t_start": 1315.27,
+    "t_end": 1317.909,
+    "text": "going to be a little involved here i think the analysis"
+  },
+  {
+    "t_start": 1317.909,
+    "t_end": 1320.63,
+    "text": "involved here i think the analysis generates ideas"
+  },
+  {
+    "t_start": 1320.63,
+    "t_end": 1324.71,
+    "text": "and they're relevant to complex fluids with industry and biological"
+  },
+  {
+    "t_start": 1324.71,
+    "t_end": 1325.909,
+    "text": "with industry and biological applications"
+  },
+  {
+    "t_start": 1325.909,
+    "t_end": 1329.909,
+    "text": "uh if anything at all at the minimum they'll give you"
+  },
+  {
+    "t_start": 1329.909,
+    "t_end": 1335.27,
+    "text": "they'll give you better ways to compute to weather and"
+  },
+  {
+    "t_start": 1335.27,
+    "t_end": 1339.669,
+    "text": "to fluid structure interaction by which means actually having fluids interacting"
+  },
+  {
+    "t_start": 1339.669,
+    "t_end": 1340.71,
+    "text": "means actually having fluids interacting with flexible"
+  },
+  {
+    "t_start": 1340.71,
+    "t_end": 1345.19,
+    "text": "boundaries which have engineering and biological applications"
+  },
+  {
+    "t_start": 1345.19,
+    "t_end": 1349.029,
+    "text": "biological applications to astrophysics mhd that's magnificent"
+  },
+  {
+    "t_start": 1349.029,
+    "t_end": 1355.43,
+    "text": "plasma physics and energy so uh they are actually making progress"
+  },
+  {
+    "t_start": 1355.43,
+    "t_end": 1358.549,
+    "text": "uh they are actually making progress in analysis in pure analysis is gonna"
+  },
+  {
+    "t_start": 1358.549,
+    "t_end": 1360.47,
+    "text": "in analysis in pure analysis is gonna impact impact"
+  },
+  {
+    "t_start": 1360.47,
+    "t_end": 1368.39,
+    "text": "directions important applications so um there okay"
+  },
+  {
+    "t_start": 1368.39,
+    "t_end": 1371.909,
+    "text": "let's talk a little bit about the nominal dissipation of energy"
+  },
+  {
+    "t_start": 1371.909,
+    "t_end": 1376.87,
+    "text": "so there are two ways to pass through this limits first of all we can fix time"
+  },
+  {
+    "t_start": 1376.87,
+    "t_end": 1379.029,
+    "text": "this limits first of all we can fix time and chunk of time of our choice"
+  },
+  {
+    "t_start": 1379.029,
+    "t_end": 1382.31,
+    "text": "and chunk of time of our choice uh and then let this viscosity go to"
+  },
+  {
+    "t_start": 1382.31,
+    "t_end": 1385.75,
+    "text": "and ask ourselves the question of dissipation of energy"
+  },
+  {
+    "t_start": 1385.75,
+    "t_end": 1391.909,
+    "text": "if you formally take nu to zero you get an equation without that"
+  },
+  {
+    "t_start": 1391.909,
+    "t_end": 1393.35,
+    "text": "to zero you get an equation without that laplacian"
+  },
+  {
+    "t_start": 1393.35,
+    "t_end": 1396.95,
+    "text": "okay because mu is zero it multiplies the laplacian that is gone"
+  },
+  {
+    "t_start": 1396.95,
+    "t_end": 1400.789,
+    "text": "that is called the euler operation it's older than the navier stokes equation"
+  },
+  {
+    "t_start": 1400.789,
+    "t_end": 1407.669,
+    "text": "older than the navier stokes equation it actually is due to euler and it's"
+  },
+  {
+    "t_start": 1407.669,
+    "t_end": 1411.19,
+    "text": "um we'll talk about it pretty soon so there is a conjecture by osaka now"
+  },
+  {
+    "t_start": 1411.19,
+    "t_end": 1412.87,
+    "text": "so there is a conjecture by osaka now arsenal flagger"
+  },
+  {
+    "t_start": 1412.87,
+    "t_end": 1420.87,
+    "text": "conjecture is a few years older than kolmogorov's uh spectrum from auburn"
+  },
+  {
+    "t_start": 1420.87,
+    "t_end": 1424.95,
+    "text": "kolmogorov's uh spectrum from auburn but they didn't know he didn't know"
+  },
+  {
+    "t_start": 1427.269,
+    "t_end": 1428.39,
+    "text": "and the conjecture is in some sense related to that"
+  },
+  {
+    "t_start": 1428.39,
+    "t_end": 1434.95,
+    "text": "so the conjecture says that if you take euler equation no laplacian no viscosity"
+  },
+  {
+    "t_start": 1434.95,
+    "t_end": 1438.789,
+    "text": "euler equation no laplacian no viscosity uh the solutions will conserve energy if"
+  },
+  {
+    "t_start": 1438.789,
+    "t_end": 1444.07,
+    "text": "are smoother than c13 that means a third of a derivative"
+  },
+  {
+    "t_start": 1444.07,
+    "t_end": 1447.669,
+    "text": "for analysts we know how to take fractional derivatives uh"
+  },
+  {
+    "t_start": 1447.669,
+    "t_end": 1451.19,
+    "text": "fractional derivatives uh one way of thinking about it is uh you"
+  },
+  {
+    "t_start": 1451.19,
+    "t_end": 1456.23,
+    "text": "when you saw the two-thirds law of in the description of fish you take"
+  },
+  {
+    "t_start": 1456.23,
+    "t_end": 1458.39,
+    "text": "in the description of fish you take different differences and you ask"
+  },
+  {
+    "t_start": 1458.39,
+    "t_end": 1461.51,
+    "text": "different differences and you ask differences around a scale l to scale"
+  },
+  {
+    "t_start": 1461.51,
+    "t_end": 1466.39,
+    "text": "l to one third so if they're smoother than one third"
+  },
+  {
+    "t_start": 1466.39,
+    "t_end": 1471.43,
+    "text": "then solutions conserve energy and the conjecture keeps going and says"
+  },
+  {
+    "t_start": 1471.43,
+    "t_end": 1477.99,
+    "text": "for less than one third smooth solutions there will exist cs solutions for which"
+  },
+  {
+    "t_start": 1477.99,
+    "t_end": 1481.51,
+    "text": "there will exist cs solutions for which energy dissipated"
+  },
+  {
+    "t_start": 1484.95,
+    "t_end": 1487.11,
+    "text": "so the first part has been proved to a large degree in the sense that"
+  },
+  {
+    "t_start": 1487.11,
+    "t_end": 1492.149,
+    "text": "if you go this is a funny space it's a world record space but this has been"
+  },
+  {
+    "t_start": 1492.149,
+    "t_end": 1492.789,
+    "text": "world record space but this has been done"
+  },
+  {
+    "t_start": 1492.789,
+    "t_end": 1499.35,
+    "text": "uh in stages by gregory a by uh wayne on earth and myself richard robert"
+  },
+  {
+    "t_start": 1499.35,
+    "t_end": 1502.47,
+    "text": "wayne on earth and myself richard robert and then a bunch of friends more"
+  },
+  {
+    "t_start": 1502.47,
+    "t_end": 1505.909,
+    "text": "and then a bunch of friends more late later this is a complicated space"
+  },
+  {
+    "t_start": 1505.909,
+    "t_end": 1506.789,
+    "text": "late later this is a complicated space but let me say"
+  },
+  {
+    "t_start": 1506.789,
+    "t_end": 1510.07,
+    "text": "but let me say l3 we're going to encounter this and i"
+  },
+  {
+    "t_start": 1510.07,
+    "t_end": 1513.83,
+    "text": "these are lp spaces so you take the object is"
+  },
+  {
+    "t_start": 1513.83,
+    "t_end": 1520.71,
+    "text": "raising to the third power and integrate in time and the object is the norm of"
+  },
+  {
+    "t_start": 1520.71,
+    "t_end": 1524.549,
+    "text": "so the other third is this one there so it's a third derivative and then there"
+  },
+  {
+    "t_start": 1524.549,
+    "t_end": 1525.99,
+    "text": "it's a third derivative and then there are some feelings that"
+  },
+  {
+    "t_start": 1525.99,
+    "t_end": 1529.269,
+    "text": "if you don't know what they are forget about them but they say"
+  },
+  {
+    "t_start": 1529.269,
+    "t_end": 1532.47,
+    "text": "about them but they say if you are a little better than one"
+  },
+  {
+    "t_start": 1532.47,
+    "t_end": 1537.59,
+    "text": "very very very little that that's what all these streamings mean"
+  },
+  {
+    "t_start": 1537.59,
+    "t_end": 1544.63,
+    "text": "uh then uh the energy is comfortable and this is the easy part the hard part"
+  },
+  {
+    "t_start": 1544.63,
+    "t_end": 1547.83,
+    "text": "and this is the easy part the hard part uh is to find solutions that"
+  },
+  {
+    "t_start": 1547.83,
+    "t_end": 1551.59,
+    "text": "uh is to find solutions that um do not conserve energy and those"
+  },
+  {
+    "t_start": 1551.59,
+    "t_end": 1553.909,
+    "text": "um do not conserve energy and those uh first examples were given by vladimir"
+  },
+  {
+    "t_start": 1553.909,
+    "t_end": 1559.909,
+    "text": "uh first examples were given by vladimir sheffer"
+  },
+  {
+    "t_start": 1562.71,
+    "t_end": 1568.07,
+    "text": "that you can start from nothing have something and then nothing again so"
+  },
+  {
+    "t_start": 1568.07,
+    "t_end": 1568.87,
+    "text": "have something and then nothing again so it's a"
+  },
+  {
+    "t_start": 1568.87,
+    "t_end": 1573.59,
+    "text": "total unique non-uniqueness of the solution um"
+  },
+  {
+    "t_start": 1573.59,
+    "t_end": 1577.83,
+    "text": "and more recently the last uh let's say five six years"
+  },
+  {
+    "t_start": 1577.83,
+    "t_end": 1583.19,
+    "text": "uh there is a very great improvement of the situation so there is work by the"
+  },
+  {
+    "t_start": 1583.19,
+    "t_end": 1584.95,
+    "text": "the situation so there is work by the levy sensei"
+  },
+  {
+    "t_start": 1584.95,
+    "t_end": 1591.59,
+    "text": "um who went to scs spaces by using convex integration"
+  },
+  {
+    "t_start": 1591.59,
+    "t_end": 1592.47,
+    "text": "scs spaces by using convex integration ideas"
+  },
+  {
+    "t_start": 1592.47,
+    "t_end": 1596.47,
+    "text": "each principle and diminishing of nonlinear fluxes so these"
+  },
+  {
+    "t_start": 1596.47,
+    "t_end": 1601.51,
+    "text": "nonlinear fluxes so these are i both a conjunctions of ideas that"
+  },
+  {
+    "t_start": 1601.51,
+    "t_end": 1609.029,
+    "text": "and romo and uh the uh the school um and the school of people who do"
+  },
+  {
+    "t_start": 1609.029,
+    "t_end": 1615.11,
+    "text": "um and the school of people who do convex integration"
+  },
+  {
+    "t_start": 1618.07,
+    "t_end": 1619.19,
+    "text": "so um the current world record is one-fifth"
+  },
+  {
+    "t_start": 1619.19,
+    "t_end": 1627.35,
+    "text": "uh a little worse than one-fifth and this is due to phil isaac who's uh"
+  },
+  {
+    "t_start": 1627.35,
+    "t_end": 1632.549,
+    "text": "and moving to mit and his additional idea was this material derivative as we"
+  },
+  {
+    "t_start": 1632.549,
+    "t_end": 1633.029,
+    "text": "idea was this material derivative as we mentioned"
+  },
+  {
+    "t_start": 1633.029,
+    "t_end": 1636.549,
+    "text": "time derivative along particular trajectories is better"
+  },
+  {
+    "t_start": 1636.549,
+    "t_end": 1640.71,
+    "text": "trajectories is better behaved than the time period and that"
+  },
+  {
+    "t_start": 1640.71,
+    "t_end": 1646.87,
+    "text": "the ladies and second id were about 110 and then uh the situation is one fifth"
+  },
+  {
+    "t_start": 1646.87,
+    "t_end": 1652.63,
+    "text": "and then uh the situation is one fifth there is a long way to go between one"
+  },
+  {
+    "t_start": 1655.99,
+    "t_end": 1657.75,
+    "text": "because the new ideas are needed okay so that was if you fix time and"
+  },
+  {
+    "t_start": 1657.75,
+    "t_end": 1660.789,
+    "text": "so that was if you fix time and therefore you take viscosity to zero and"
+  },
+  {
+    "t_start": 1660.789,
+    "t_end": 1663.669,
+    "text": "therefore you take viscosity to zero and if there are no boundaries um periodic"
+  },
+  {
+    "t_start": 1663.669,
+    "t_end": 1665.35,
+    "text": "if there are no boundaries um periodic boundary conditions let's say"
+  },
+  {
+    "t_start": 1665.35,
+    "t_end": 1669.59,
+    "text": "then you end up with solving whatever equations lower laplacian and then"
+  },
+  {
+    "t_start": 1669.59,
+    "t_end": 1676.23,
+    "text": "equations lower laplacian and then then that's what's going on"
+  },
+  {
+    "t_start": 1676.23,
+    "t_end": 1679.51,
+    "text": "the other order is to take time to infinity first that's"
+  },
+  {
+    "t_start": 1679.51,
+    "t_end": 1680.31,
+    "text": "time to infinity first that's appropriate"
+  },
+  {
+    "t_start": 1680.31,
+    "t_end": 1687.43,
+    "text": "for experimental situations in let's say a finite region so you can imagine and"
+  },
+  {
+    "t_start": 1687.43,
+    "t_end": 1688.87,
+    "text": "a finite region so you can imagine and some of you may have actually"
+  },
+  {
+    "t_start": 1688.87,
+    "t_end": 1691.269,
+    "text": "some of you may have actually participated in these things uh"
+  },
+  {
+    "t_start": 1691.269,
+    "t_end": 1695.19,
+    "text": "participated in these things uh the taylor kwait experiment in which"
+  },
+  {
+    "t_start": 1695.19,
+    "t_end": 1699.59,
+    "text": "there are concentric cylinders one is rotated that's how you impart"
+  },
+  {
+    "t_start": 1699.59,
+    "t_end": 1703.99,
+    "text": "like the lamborghini except that it's a whole fleet of lamborghinis and they"
+  },
+  {
+    "t_start": 1703.99,
+    "t_end": 1706.149,
+    "text": "whole fleet of lamborghinis and they never stop"
+  },
+  {
+    "t_start": 1706.149,
+    "t_end": 1712.95,
+    "text": "so it's a sheer induced motion and then uh you swirl that thing uh"
+  },
+  {
+    "t_start": 1712.95,
+    "t_end": 1717.75,
+    "text": "and then uh you swirl that thing uh the motion if you you look uh they have"
+  },
+  {
+    "t_start": 1717.75,
+    "t_end": 1721.51,
+    "text": "nice glass walls you look at the fluid you see a sea of bubbles that"
+  },
+  {
+    "t_start": 1721.51,
+    "t_end": 1727.99,
+    "text": "anymore and um that is a permanent regime long-time behavior or"
+  },
+  {
+    "t_start": 1727.99,
+    "t_end": 1729.11,
+    "text": "a permanent regime long-time behavior or you can look at"
+  },
+  {
+    "t_start": 1729.11,
+    "t_end": 1732.389,
+    "text": "you can look at a really tailored convection in which"
+  },
+  {
+    "t_start": 1732.389,
+    "t_end": 1736.87,
+    "text": "heat from below a pot cool it from the top"
+  },
+  {
+    "t_start": 1736.87,
+    "t_end": 1740.549,
+    "text": "there is a lot of motion keeps fighting constantly"
+  },
+  {
+    "t_start": 1740.549,
+    "t_end": 1744.63,
+    "text": "after a while you reach what's called the permanent regime and that is why"
+  },
+  {
+    "t_start": 1744.63,
+    "t_end": 1748.63,
+    "text": "the permanent regime and that is why you are in a certain regime in which the"
+  },
+  {
+    "t_start": 1748.63,
+    "t_end": 1755.83,
+    "text": "with the fixed force fixed viscosity and you wait in things stabilizing more but"
+  },
+  {
+    "t_start": 1755.83,
+    "t_end": 1759.19,
+    "text": "you wait in things stabilizing more but do what they do and only then increase"
+  },
+  {
+    "t_start": 1759.19,
+    "t_end": 1760.71,
+    "text": "do what they do and only then increase the speed of rotation get the"
+  },
+  {
+    "t_start": 1760.71,
+    "t_end": 1762.549,
+    "text": "the speed of rotation get the lamborghinis to go faster"
+  },
+  {
+    "t_start": 1762.549,
+    "t_end": 1768.95,
+    "text": "heat a little stronger and see the limit of you go to zero so this is"
+  },
+  {
+    "t_start": 1768.95,
+    "t_end": 1771.11,
+    "text": "of you go to zero so this is described by selected stationary"
+  },
+  {
+    "t_start": 1771.11,
+    "t_end": 1775.51,
+    "text": "described by selected stationary statistical solutions by which i mean"
+  },
+  {
+    "t_start": 1775.51,
+    "t_end": 1777.35,
+    "text": "you take the solution i forgot maybe i didn't because it shouldn't"
+  },
+  {
+    "t_start": 1777.35,
+    "t_end": 1779.75,
+    "text": "maybe i didn't because it shouldn't depend on initial data"
+  },
+  {
+    "t_start": 1779.75,
+    "t_end": 1785.35,
+    "text": "that fix new you take a long time average maybe measure it with"
+  },
+  {
+    "t_start": 1785.35,
+    "t_end": 1787.909,
+    "text": "long time average maybe measure it with some functional"
+  },
+  {
+    "t_start": 1787.909,
+    "t_end": 1791.669,
+    "text": "some functional then you record that take very long time"
+  },
+  {
+    "t_start": 1791.669,
+    "t_end": 1798.87,
+    "text": "and only then take the limit to zero measure five goes to some numbers"
+  },
+  {
+    "t_start": 1798.87,
+    "t_end": 1803.35,
+    "text": "uh and this will end up by being an invasive statistical solution now that's"
+  },
+  {
+    "t_start": 1803.35,
+    "t_end": 1803.83,
+    "text": "invasive statistical solution now that's not"
+  },
+  {
+    "t_start": 1803.83,
+    "t_end": 1807.19,
+    "text": "the same as taking initial value problem for"
+  },
+  {
+    "t_start": 1807.19,
+    "t_end": 1812.87,
+    "text": "short time there are many more initial value problem solutions this"
+  },
+  {
+    "t_start": 1812.87,
+    "t_end": 1813.59,
+    "text": "initial value problem solutions this might select"
+  },
+  {
+    "t_start": 1813.59,
+    "t_end": 1819.99,
+    "text": "certain certain solutions okay the hobies okay so then another"
+  },
+  {
+    "t_start": 1819.99,
+    "t_end": 1822.149,
+    "text": "the hobies okay so then another dissipation for instance of energy would"
+  },
+  {
+    "t_start": 1822.149,
+    "t_end": 1822.95,
+    "text": "dissipation for instance of energy would be"
+  },
+  {
+    "t_start": 1822.95,
+    "t_end": 1826.87,
+    "text": "that in some average sense the quantity that's supposed to stay"
+  },
+  {
+    "t_start": 1826.87,
+    "t_end": 1832.63,
+    "text": "that's supposed to stay positive after a long time average stays"
+  },
+  {
+    "t_start": 1835.51,
+    "t_end": 1837.669,
+    "text": "all right in fact that is again the non-vanishing of flux of energy so we"
+  },
+  {
+    "t_start": 1837.669,
+    "t_end": 1838.31,
+    "text": "non-vanishing of flux of energy so we need to"
+  },
+  {
+    "t_start": 1838.31,
+    "t_end": 1841.909,
+    "text": "to make sure that we understand that we're talking about transfer of energy"
+  },
+  {
+    "t_start": 1841.909,
+    "t_end": 1842.549,
+    "text": "we're talking about transfer of energy to high"
+  },
+  {
+    "t_start": 1842.549,
+    "t_end": 1846.789,
+    "text": "frequencies and not just this quantity because there are situations in which"
+  },
+  {
+    "t_start": 1846.789,
+    "t_end": 1847.99,
+    "text": "because there are situations in which you can make this quantity go to"
+  },
+  {
+    "t_start": 1847.99,
+    "t_end": 1852.23,
+    "text": "you can make this quantity go to infinity there is no transfer of energy"
+  },
+  {
+    "t_start": 1853.99,
+    "t_end": 1855.909,
+    "text": "so accounts for excellence and open crowd"
+  },
+  {
+    "t_start": 1855.909,
+    "t_end": 1859.35,
+    "text": "so now i'm going to come back and remind everybody"
+  },
+  {
+    "t_start": 1859.35,
+    "t_end": 1863.029,
+    "text": "everybody some of the basic"
+  },
+  {
+    "t_start": 1865.99,
+    "t_end": 1866.789,
+    "text": "basic facts about nabioscope very basic so"
+  },
+  {
+    "t_start": 1866.789,
+    "t_end": 1870.95,
+    "text": "um there is this global weak solutions refinement energy of treating obvious"
+  },
+  {
+    "t_start": 1870.95,
+    "t_end": 1872.549,
+    "text": "refinement energy of treating obvious stocks equations this is the result"
+  },
+  {
+    "t_start": 1872.549,
+    "t_end": 1875.669,
+    "text": "stocks equations this is the result of john the ray around 1934"
+  },
+  {
+    "t_start": 1875.669,
+    "t_end": 1878.31,
+    "text": "of john the ray around 1934 so globally is in time and also"
+  },
+  {
+    "t_start": 1878.31,
+    "t_end": 1880.71,
+    "text": "so globally is in time and also arbitrary initial data in l2 square"
+  },
+  {
+    "t_start": 1880.71,
+    "t_end": 1881.99,
+    "text": "arbitrary initial data in l2 square integral"
+  },
+  {
+    "t_start": 1881.99,
+    "t_end": 1887.669,
+    "text": "we means uh the solutions satisfy the equations let's say as distributions"
+  },
+  {
+    "t_start": 1887.669,
+    "t_end": 1888.389,
+    "text": "equations let's say as distributions okay"
+  },
+  {
+    "t_start": 1888.389,
+    "t_end": 1892.07,
+    "text": "after we test them with something integrated"
+  },
+  {
+    "t_start": 1892.07,
+    "t_end": 1899.43,
+    "text": "so they are not classical solutions in existence uniqueness and regularization"
+  },
+  {
+    "t_start": 1899.43,
+    "t_end": 1902.63,
+    "text": "existence uniqueness and regularization or in other words smoothness of global"
+  },
+  {
+    "t_start": 1902.63,
+    "t_end": 1908.31,
+    "text": "is done in two dimensions this is a long story i cannot actually uh and i"
+  },
+  {
+    "t_start": 1908.31,
+    "t_end": 1910.07,
+    "text": "long story i cannot actually uh and i apologize to all my friends i'm going to"
+  },
+  {
+    "t_start": 1910.07,
+    "t_end": 1916.549,
+    "text": "apologize to all my friends i'm going to refer to all kind of results i cannot"
+  },
+  {
+    "t_start": 1919.99,
+    "t_end": 1923.19,
+    "text": "uh the same thing is true in two dimensions for euler equations no"
+  },
+  {
+    "t_start": 1923.19,
+    "t_end": 1924.63,
+    "text": "dimensions for euler equations no laplacian which is a"
+  },
+  {
+    "t_start": 1924.63,
+    "t_end": 1929.35,
+    "text": "let's say hardware problem uh smooth solutions they exist that i"
+  },
+  {
+    "t_start": 1929.35,
+    "t_end": 1933.99,
+    "text": "solutions they exist that i made to crazy a little different here"
+  },
+  {
+    "t_start": 1933.99,
+    "t_end": 1936.11,
+    "text": "because here if you start non-smooth to become smooth"
+  },
+  {
+    "t_start": 1936.11,
+    "t_end": 1937.669,
+    "text": "non-smooth to become smooth instantaneously"
+  },
+  {
+    "t_start": 1937.669,
+    "t_end": 1940.789,
+    "text": "instantaneously and uh that's why i think it's a good"
+  },
+  {
+    "t_start": 1940.789,
+    "t_end": 1945.35,
+    "text": "idea here you start smooth and that is this"
+  },
+  {
+    "t_start": 1948.789,
+    "t_end": 1949.43,
+    "text": "um if you have small data small reynolds number"
+  },
+  {
+    "t_start": 1949.43,
+    "t_end": 1957.83,
+    "text": "in appropriate sets then 3d problem is uh exists global smooth solutions"
+  },
+  {
+    "t_start": 1957.83,
+    "t_end": 1962.389,
+    "text": "is uh exists global smooth solutions uh for euler 3d euler these solutions"
+  },
+  {
+    "t_start": 1962.389,
+    "t_end": 1968.789,
+    "text": "smooth solutions for sure and uh a basic balance this is the energy"
+  },
+  {
+    "t_start": 1968.789,
+    "t_end": 1970.789,
+    "text": "uh a basic balance this is the energy balance if there are no forces that stir"
+  },
+  {
+    "t_start": 1970.789,
+    "t_end": 1971.59,
+    "text": "balance if there are no forces that stir the fluid"
+  },
+  {
+    "t_start": 1971.59,
+    "t_end": 1975.35,
+    "text": "the fluid the energy time t is less than the"
+  },
+  {
+    "t_start": 1975.35,
+    "t_end": 1979.35,
+    "text": "at time zero there is no increase in energy and the rate of"
+  },
+  {
+    "t_start": 1979.35,
+    "t_end": 1981.509,
+    "text": "energy and the rate of dissipation is proportionate as we saw"
+  },
+  {
+    "t_start": 1981.509,
+    "t_end": 1984.149,
+    "text": "dissipation is proportionate as we saw with the intelligence"
+  },
+  {
+    "t_start": 1984.149,
+    "t_end": 1988.71,
+    "text": "with the intelligence you know so"
+  },
+  {
+    "t_start": 1988.71,
+    "t_end": 1991.909,
+    "text": "what are the draw problems more precisely let's say"
+  },
+  {
+    "t_start": 1991.909,
+    "t_end": 1995.35,
+    "text": "precisely let's say let me put them both down"
+  },
+  {
+    "t_start": 1998.549,
+    "t_end": 2001.11,
+    "text": "so you fix initial data let's say that you are periodic or you are c zero"
+  },
+  {
+    "t_start": 2001.11,
+    "t_end": 2002.23,
+    "text": "that you are periodic or you are c zero infinity or decay"
+  },
+  {
+    "t_start": 2002.23,
+    "t_end": 2007.99,
+    "text": "um then your contact is supported and immediately smooth initial data let's"
+  },
+  {
+    "t_start": 2007.99,
+    "t_end": 2012.95,
+    "text": "say in order to make them divergence we pretend that they're curl of some smooth"
+  },
+  {
+    "t_start": 2012.95,
+    "t_end": 2014.87,
+    "text": "pretend that they're curl of some smooth vector"
+  },
+  {
+    "t_start": 2014.87,
+    "t_end": 2023.029,
+    "text": "solution of 3d euler here is 3d oiler without the laplacian with that initial"
+  },
+  {
+    "t_start": 2023.029,
+    "t_end": 2024.87,
+    "text": "without the laplacian with that initial data exists for all time and remains"
+  },
+  {
+    "t_start": 2024.87,
+    "t_end": 2026.07,
+    "text": "data exists for all time and remains good for all time"
+  },
+  {
+    "t_start": 2026.07,
+    "t_end": 2030.07,
+    "text": "and there's a great problem or does the solution of feeding obvious stocks"
+  },
+  {
+    "t_start": 2030.07,
+    "t_end": 2033.11,
+    "text": "solution of feeding obvious stocks equate to the same initial data here in"
+  },
+  {
+    "t_start": 2033.11,
+    "t_end": 2038.23,
+    "text": "oh it is for all time energy so for now is stokes we have parameters so if"
+  },
+  {
+    "t_start": 2038.23,
+    "t_end": 2039.99,
+    "text": "now is stokes we have parameters so if mu is given"
+  },
+  {
+    "t_start": 2039.99,
+    "t_end": 2043.19,
+    "text": "mu is given then you ask the question for all you"
+  },
+  {
+    "t_start": 2043.19,
+    "t_end": 2050.069,
+    "text": "okay smooth enough seizure infinity but now the two"
+  },
+  {
+    "t_start": 2050.069,
+    "t_end": 2054.149,
+    "text": "now the two problems are related"
+  },
+  {
+    "t_start": 2054.149,
+    "t_end": 2060.389,
+    "text": "and different i'm gonna start talking about how to graph these"
+  },
+  {
+    "t_start": 2060.389,
+    "t_end": 2061.27,
+    "text": "talking about how to graph these problems"
+  },
+  {
+    "t_start": 2061.27,
+    "t_end": 2065.03,
+    "text": "and i'll start with some things that make them related"
+  },
+  {
+    "t_start": 2065.03,
+    "t_end": 2068.23,
+    "text": "make them related a way to grab them in a way that looks"
+  },
+  {
+    "t_start": 2068.23,
+    "t_end": 2071.669,
+    "text": "and then i'll mention some differences so at this point"
+  },
+  {
+    "t_start": 2071.669,
+    "t_end": 2083.75,
+    "text": "so at this point uh where uh"
+  },
+  {
+    "t_start": 2086.23,
+    "t_end": 2088.149,
+    "text": "first of all there is an old result of qatar that for short time"
+  },
+  {
+    "t_start": 2088.149,
+    "t_end": 2091.19,
+    "text": "qatar that for short time oil solutions are smooth there is a no"
+  },
+  {
+    "t_start": 2091.19,
+    "t_end": 2094.55,
+    "text": "result of mine that for a long time if you fix initial"
+  },
+  {
+    "t_start": 2094.55,
+    "t_end": 2098.79,
+    "text": "and the time and if you know that the oiler is smooth"
+  },
+  {
+    "t_start": 2098.79,
+    "t_end": 2102.79,
+    "text": "oiler is smooth up to that time then for the same"
+  },
+  {
+    "t_start": 2102.79,
+    "t_end": 2107.75,
+    "text": "nami stops is smooth provided viscosity small enough"
+  },
+  {
+    "t_start": 2107.75,
+    "t_end": 2113.43,
+    "text": "and how small depends on time and on the entire euler solution"
+  },
+  {
+    "t_start": 2113.43,
+    "t_end": 2120.15,
+    "text": "so in particular there is a gap between small viscosity and large viscosity for"
+  },
+  {
+    "t_start": 2120.15,
+    "t_end": 2124.63,
+    "text": "small viscosity and large viscosity for small enough discuss depending on all"
+  },
+  {
+    "t_start": 2124.63,
+    "t_end": 2130.79,
+    "text": "these parameters we know regularity for large enough viscosity we know"
+  },
+  {
+    "t_start": 2130.79,
+    "t_end": 2135.91,
+    "text": "of that small renault number and there is this gap which i think is quite"
+  },
+  {
+    "t_start": 2135.91,
+    "t_end": 2137.75,
+    "text": "is this gap which i think is quite artificial and needs to be filled"
+  },
+  {
+    "t_start": 2137.75,
+    "t_end": 2141.349,
+    "text": "artificial and needs to be filled because that would be a weird situation"
+  },
+  {
+    "t_start": 2141.349,
+    "t_end": 2146.55,
+    "text": "you have but maybe not because you know there is not"
+  },
+  {
+    "t_start": 2146.55,
+    "t_end": 2151.109,
+    "text": "there is not initial data for initial data accounting"
+  },
+  {
+    "t_start": 2151.109,
+    "t_end": 2154.23,
+    "text": "there is a deeper relation because i'm talking about regulation and the deeper"
+  },
+  {
+    "t_start": 2154.23,
+    "t_end": 2155.75,
+    "text": "talking about regulation and the deeper regulation has to do with vortex"
+  },
+  {
+    "t_start": 2155.75,
+    "t_end": 2157.99,
+    "text": "regulation has to do with vortex dynamics definition of non-linearity and"
+  },
+  {
+    "t_start": 2157.99,
+    "t_end": 2160.39,
+    "text": "dynamics definition of non-linearity and vortex reconnection"
+  },
+  {
+    "t_start": 2160.39,
+    "t_end": 2165.51,
+    "text": "so i'll mention a few of that so the vorticity is the curl"
+  },
+  {
+    "t_start": 2165.51,
+    "t_end": 2170.31,
+    "text": "vorticity is the curl of the velocity so that the anti-semitic"
+  },
+  {
+    "t_start": 2170.31,
+    "t_end": 2174.31,
+    "text": "and it has an equation you take the gradient of the differentiate the"
+  },
+  {
+    "t_start": 2174.31,
+    "t_end": 2175.589,
+    "text": "gradient of the differentiate the magnesium equations"
+  },
+  {
+    "t_start": 2175.589,
+    "t_end": 2180.069,
+    "text": "the pressure disappears you have a piece here here is the material derivative in"
+  },
+  {
+    "t_start": 2180.069,
+    "t_end": 2180.55,
+    "text": "here here is the material derivative in other words"
+  },
+  {
+    "t_start": 2180.55,
+    "t_end": 2184.95,
+    "text": "there is transport here of the vorticity here is laplacian"
+  },
+  {
+    "t_start": 2184.95,
+    "t_end": 2189.67,
+    "text": "and there is this term here which is a very natural geometric"
+  },
+  {
+    "t_start": 2189.67,
+    "t_end": 2194.95,
+    "text": "term it's not um just an addition to the right hand side as many people in"
+  },
+  {
+    "t_start": 2194.95,
+    "t_end": 2196.23,
+    "text": "right hand side as many people in engineering and math"
+  },
+  {
+    "t_start": 2196.23,
+    "t_end": 2199.589,
+    "text": "think it is actually a very natural term that gives you some conservation"
+  },
+  {
+    "t_start": 2199.589,
+    "t_end": 2201.51,
+    "text": "that gives you some conservation constitutional circulation"
+  },
+  {
+    "t_start": 2201.51,
+    "t_end": 2208.55,
+    "text": "constitutional circulation but it is absent into d and that's why"
+  },
+  {
+    "t_start": 2208.55,
+    "t_end": 2212.87,
+    "text": "2b everything is fine and it's present in 3 so there is no"
+  },
+  {
+    "t_start": 2212.87,
+    "t_end": 2220.63,
+    "text": "because this guy's not there and in in 3d this is really"
+  },
+  {
+    "t_start": 2220.63,
+    "t_end": 2223.75,
+    "text": "in in 3d this is really essentially the problem and this problem"
+  },
+  {
+    "t_start": 2223.75,
+    "t_end": 2229.91,
+    "text": "or without viscosity so and also physically the"
+  },
+  {
+    "t_start": 2229.91,
+    "t_end": 2236.23,
+    "text": "goodies are the issue so vorticity is all i'm going to give you a"
+  },
+  {
+    "t_start": 2236.23,
+    "t_end": 2237.03,
+    "text": "vorticity is all i'm going to give you a a"
+  },
+  {
+    "t_start": 2237.03,
+    "t_end": 2240.95,
+    "text": "we're going to try to grab this problem three times and"
+  },
+  {
+    "t_start": 2240.95,
+    "t_end": 2245.03,
+    "text": "each time i'm going to say this is all because it is all the director criteria"
+  },
+  {
+    "t_start": 2245.03,
+    "t_end": 2245.829,
+    "text": "because it is all the director criteria so"
+  },
+  {
+    "t_start": 2245.829,
+    "t_end": 2253.349,
+    "text": "for the navi soaks equations if you knew that the l2 norm l to norm meaning"
+  },
+  {
+    "t_start": 2253.349,
+    "t_end": 2256.23,
+    "text": "that the l2 norm l to norm meaning integral of the square of the thing to"
+  },
+  {
+    "t_start": 2256.23,
+    "t_end": 2261.829,
+    "text": "the fourth power so integral of the square of the thing to one half"
+  },
+  {
+    "t_start": 2261.829,
+    "t_end": 2267.27,
+    "text": "in the fifth so 84 to the fourth power in time if that will"
+  },
+  {
+    "t_start": 2267.27,
+    "t_end": 2268.47,
+    "text": "to the fourth power in time if that will be fine"
+  },
+  {
+    "t_start": 2268.47,
+    "t_end": 2271.91,
+    "text": "and by finite i mean fine i don't know how finite"
+  },
+  {
+    "t_start": 2271.91,
+    "t_end": 2275.19,
+    "text": "it doesn't have to be smaller than something just fine"
+  },
+  {
+    "t_start": 2275.19,
+    "t_end": 2278.63,
+    "text": "something just fine then the solution at every angle of the"
+  },
+  {
+    "t_start": 2278.63,
+    "t_end": 2284.71,
+    "text": "is smooth what is known oh sorry the order in which i do this uh"
+  },
+  {
+    "t_start": 2284.71,
+    "t_end": 2286.23,
+    "text": "oh sorry the order in which i do this uh are the conditions so"
+  },
+  {
+    "t_start": 2286.23,
+    "t_end": 2289.27,
+    "text": "are the conditions so for euler is the famous bean cattlemen"
+  },
+  {
+    "t_start": 2289.27,
+    "t_end": 2294.39,
+    "text": "that says from the 70s that says this is essentially due to the array i mean"
+  },
+  {
+    "t_start": 2294.39,
+    "t_end": 2296.39,
+    "text": "essentially due to the array i mean i cannot give a reference it's"
+  },
+  {
+    "t_start": 2296.39,
+    "t_end": 2298.39,
+    "text": "i cannot give a reference it's essentially is the easiest to"
+  },
+  {
+    "t_start": 2298.39,
+    "t_end": 2303.99,
+    "text": "essentially is the easiest to show a criteria and everything can be"
+  },
+  {
+    "t_start": 2303.99,
+    "t_end": 2308.31,
+    "text": "so we have haida for euler it's a different quantity different"
+  },
+  {
+    "t_start": 2308.31,
+    "t_end": 2311.43,
+    "text": "it's a different quantity different promotion it's a stronger assumption in"
+  },
+  {
+    "t_start": 2311.43,
+    "t_end": 2315.109,
+    "text": "some sense and if this integral integral in time of"
+  },
+  {
+    "t_start": 2315.109,
+    "t_end": 2321.349,
+    "text": "is that infinity maximum verticity if that is finite that the solution is easy"
+  },
+  {
+    "t_start": 2321.349,
+    "t_end": 2326.23,
+    "text": "that is finite that the solution is easy what's known for euler"
+  },
+  {
+    "t_start": 2326.23,
+    "t_end": 2329.349,
+    "text": "what's known for euler nothing"
+  },
+  {
+    "t_start": 2331.67,
+    "t_end": 2333.03,
+    "text": "for an obvious stocks again this goes back to the rate"
+  },
+  {
+    "t_start": 2333.03,
+    "t_end": 2337.75,
+    "text": "in the integral of gradient u square and the integral of omega l to square the"
+  },
+  {
+    "t_start": 2337.75,
+    "t_end": 2342.79,
+    "text": "same thing so this is the dissipation of them okay"
+  },
+  {
+    "t_start": 2346.47,
+    "t_end": 2348.31,
+    "text": "um what is the story about your recommendation of knowledge let me go"
+  },
+  {
+    "t_start": 2348.31,
+    "t_end": 2349.75,
+    "text": "recommendation of knowledge let me go back a little bit"
+  },
+  {
+    "t_start": 2349.75,
+    "t_end": 2353.03,
+    "text": "back a little bit and remind you of"
+  },
+  {
+    "t_start": 2356.39,
+    "t_end": 2357.349,
+    "text": "this third the reason why this term is absent into d"
+  },
+  {
+    "t_start": 2357.349,
+    "t_end": 2363.91,
+    "text": "is geometric omega points up and the velocity depends on variables on"
+  },
+  {
+    "t_start": 2363.91,
+    "t_end": 2364.95,
+    "text": "and the velocity depends on variables on the ground"
+  },
+  {
+    "t_start": 2364.95,
+    "t_end": 2368.31,
+    "text": "the ground so the scalar product is zero because of"
+  },
+  {
+    "t_start": 2368.31,
+    "t_end": 2372.87,
+    "text": "omega is a vector that's parallel always to the same direction the direction"
+  },
+  {
+    "t_start": 2372.87,
+    "t_end": 2375.99,
+    "text": "to the same direction the direction perpendicular to the"
+  },
+  {
+    "t_start": 2375.99,
+    "t_end": 2378.39,
+    "text": "plane of motor so two dimensional motions are motions in a plane"
+  },
+  {
+    "t_start": 2378.39,
+    "t_end": 2384.31,
+    "text": "and there is a perpendicular vector so that in particular direction of"
+  },
+  {
+    "t_start": 2384.31,
+    "t_end": 2385.109,
+    "text": "so that in particular direction of vorticity"
+  },
+  {
+    "t_start": 2385.109,
+    "t_end": 2393.349,
+    "text": "is constant so chinese suprema 20 years ago had a theorem that says"
+  },
+  {
+    "t_start": 2393.349,
+    "t_end": 2394.87,
+    "text": "20 years ago had a theorem that says generalized in some sense the two"
+  },
+  {
+    "t_start": 2394.87,
+    "t_end": 2397.51,
+    "text": "generalized in some sense the two dimensional situation and i looked at"
+  },
+  {
+    "t_start": 2397.51,
+    "t_end": 2400.79,
+    "text": "dimensional situation and i looked at uh the directions field of vorticity so"
+  },
+  {
+    "t_start": 2400.79,
+    "t_end": 2402.39,
+    "text": "uh the directions field of vorticity so the vorticity normalized and"
+  },
+  {
+    "t_start": 2402.39,
+    "t_end": 2406.79,
+    "text": "the vorticity normalized and creates a a unit vector and if this is"
+  },
+  {
+    "t_start": 2406.79,
+    "t_end": 2410.39,
+    "text": "in regions of high vorticity so it doesn't have to be smooth where the"
+  },
+  {
+    "t_start": 2410.39,
+    "t_end": 2411.75,
+    "text": "doesn't have to be smooth where the vertices"
+  },
+  {
+    "t_start": 2411.75,
+    "t_end": 2415.109,
+    "text": "vertices might have trouble being defined there"
+  },
+  {
+    "t_start": 2415.109,
+    "t_end": 2421.67,
+    "text": "stops socially this has been improved over the years by a number of"
+  },
+  {
+    "t_start": 2421.67,
+    "t_end": 2422.71,
+    "text": "improved over the years by a number of threads"
+  },
+  {
+    "t_start": 2422.71,
+    "t_end": 2428.309,
+    "text": "removing the the smoothness here so we asked for liquids and then"
+  },
+  {
+    "t_start": 2428.309,
+    "t_end": 2430.39,
+    "text": "so we asked for liquids and then structures enough and so forth"
+  },
+  {
+    "t_start": 2430.39,
+    "t_end": 2435.75,
+    "text": "and uh recently by um rich who who did actually a very"
+  },
+  {
+    "t_start": 2435.75,
+    "t_end": 2438.55,
+    "text": "rich who who did actually a very interesting combination of coherent"
+  },
+  {
+    "t_start": 2438.55,
+    "t_end": 2439.19,
+    "text": "interesting combination of coherent patterns"
+  },
+  {
+    "t_start": 2439.19,
+    "t_end": 2443.109,
+    "text": "and the criticality of the creation i cannot get into that"
+  },
+  {
+    "t_start": 2443.109,
+    "t_end": 2446.15,
+    "text": "cannot get into that and at our workshop"
+  },
+  {
+    "t_start": 2446.15,
+    "t_end": 2451.43,
+    "text": "here i learned about the work of professor giga and his collaborator and"
+  },
+  {
+    "t_start": 2451.43,
+    "t_end": 2454.23,
+    "text": "professor giga and his collaborator and i haven't seen the preference so i'm"
+  },
+  {
+    "t_start": 2454.23,
+    "t_end": 2455.99,
+    "text": "hoping and having the right collaborators uh"
+  },
+  {
+    "t_start": 2455.99,
+    "t_end": 2459.67,
+    "text": "collaborators uh where he studied this problem with"
+  },
+  {
+    "t_start": 2459.67,
+    "t_end": 2463.43,
+    "text": "boundaries and all that's a big change and"
+  },
+  {
+    "t_start": 2463.43,
+    "t_end": 2470.79,
+    "text": "conclusion is the same uh so you have vortex reconnection is a"
+  },
+  {
+    "t_start": 2470.79,
+    "t_end": 2472.63,
+    "text": "uh so you have vortex reconnection is a regularizing mechanism so this is like"
+  },
+  {
+    "t_start": 2472.63,
+    "t_end": 2473.109,
+    "text": "regularizing mechanism so this is like this"
+  },
+  {
+    "t_start": 2473.109,
+    "t_end": 2476.63,
+    "text": "what happens let's let's tell you the story there is a story"
+  },
+  {
+    "t_start": 2476.63,
+    "t_end": 2481.99,
+    "text": "so um strong coherent vertices form so what that means is if you look at the"
+  },
+  {
+    "t_start": 2481.99,
+    "t_end": 2483.75,
+    "text": "what that means is if you look at the field of vorticity and you"
+  },
+  {
+    "t_start": 2483.75,
+    "t_end": 2487.19,
+    "text": "field of vorticity and you you paint in only the regions where the"
+  },
+  {
+    "t_start": 2487.19,
+    "t_end": 2490.55,
+    "text": "vorticity is more than 90 of its integral of the"
+  },
+  {
+    "t_start": 2490.55,
+    "t_end": 2497.589,
+    "text": "right so more 90 let's say than in the the um the l one norm okay okay the l"
+  },
+  {
+    "t_start": 2497.589,
+    "t_end": 2499.19,
+    "text": "the um the l one norm okay okay the l unknown the stocks actually is not"
+  },
+  {
+    "t_start": 2499.19,
+    "t_end": 2500.63,
+    "text": "unknown the stocks actually is not increasing so it's a very good"
+  },
+  {
+    "t_start": 2500.63,
+    "t_end": 2503.829,
+    "text": "increasing so it's a very good way of of uh quantifying this"
+  },
+  {
+    "t_start": 2503.829,
+    "t_end": 2507.589,
+    "text": "so we look at that and then people have actually numerics and then what"
+  },
+  {
+    "t_start": 2507.589,
+    "t_end": 2510.79,
+    "text": "actually numerics and then what they see is tubes intense tubes or"
+  },
+  {
+    "t_start": 2510.79,
+    "t_end": 2512.309,
+    "text": "they see is tubes intense tubes or vertices"
+  },
+  {
+    "t_start": 2512.309,
+    "t_end": 2517.91,
+    "text": "and uh the as they stretch because of circulation as you uh know"
+  },
+  {
+    "t_start": 2517.91,
+    "t_end": 2518.87,
+    "text": "because of circulation as you uh know from"
+  },
+  {
+    "t_start": 2518.87,
+    "t_end": 2525.19,
+    "text": "watching skating maybe there is a conservation of circulation"
+  },
+  {
+    "t_start": 2525.19,
+    "t_end": 2529.829,
+    "text": "the closed path of velocity does the faster it has to move"
+  },
+  {
+    "t_start": 2529.829,
+    "t_end": 2533.589,
+    "text": "faster it has to move um they strictly become coherent and"
+  },
+  {
+    "t_start": 2533.589,
+    "t_end": 2534.95,
+    "text": "um they strictly become coherent and straight intense"
+  },
+  {
+    "t_start": 2534.95,
+    "t_end": 2541.27,
+    "text": "narrow vortices and they approach and when they approach they violate the"
+  },
+  {
+    "t_start": 2541.27,
+    "t_end": 2542.71,
+    "text": "and when they approach they violate the smoothness assumptions"
+  },
+  {
+    "t_start": 2542.71,
+    "t_end": 2545.829,
+    "text": "because they would have the gradient in space of the direction"
+  },
+  {
+    "t_start": 2545.829,
+    "t_end": 2552.309,
+    "text": "go to infinity there if they would cross but they encounter the viscosity and"
+  },
+  {
+    "t_start": 2552.309,
+    "t_end": 2553.51,
+    "text": "but they encounter the viscosity and there is a bound"
+  },
+  {
+    "t_start": 2553.51,
+    "t_end": 2559.43,
+    "text": "weak bound that relates the viscosity the magnitude of the"
+  },
+  {
+    "t_start": 2559.43,
+    "t_end": 2564.95,
+    "text": "vorticity and this gradient of the sun and it says this integral space time is"
+  },
+  {
+    "t_start": 2564.95,
+    "t_end": 2565.43,
+    "text": "and it says this integral space time is less"
+  },
+  {
+    "t_start": 2565.43,
+    "t_end": 2568.79,
+    "text": "than the budget of energy that you have the original"
+  },
+  {
+    "t_start": 2568.79,
+    "t_end": 2573.43,
+    "text": "so this is the viscosity wants this guy to be finite"
+  },
+  {
+    "t_start": 2573.43,
+    "t_end": 2579.91,
+    "text": "when they approach they reconnect by the connection we mean that one arm"
+  },
+  {
+    "t_start": 2579.91,
+    "t_end": 2581.349,
+    "text": "by the connection we mean that one arm goes with another arm"
+  },
+  {
+    "t_start": 2581.349,
+    "t_end": 2585.99,
+    "text": "goes with another arm essentially they do one of these um"
+  },
+  {
+    "t_start": 2585.99,
+    "t_end": 2591.109,
+    "text": "move apart and then they detect it okay the reconnection is a topological change"
+  },
+  {
+    "t_start": 2591.109,
+    "t_end": 2594.95,
+    "text": "is not allowed in the other equations but it's perfectly allowed and happens a"
+  },
+  {
+    "t_start": 2594.95,
+    "t_end": 2596.95,
+    "text": "but it's perfectly allowed and happens a lot in viscous fluids"
+  },
+  {
+    "t_start": 2596.95,
+    "t_end": 2600.39,
+    "text": "lot in viscous fluids and this"
+  },
+  {
+    "t_start": 2600.39,
+    "t_end": 2603.589,
+    "text": "happens several times and if you don't fall everything goes down"
+  },
+  {
+    "t_start": 2603.589,
+    "t_end": 2607.51,
+    "text": "fall everything goes down so this is a scenario it's not a fear"
+  },
+  {
+    "t_start": 2607.51,
+    "t_end": 2612.309,
+    "text": "are an infinity bound on gradient or maybe herder on the gradient"
+  },
+  {
+    "t_start": 2612.309,
+    "t_end": 2614.87,
+    "text": "maybe herder on the gradient implies regularity and this pathetic"
+  },
+  {
+    "t_start": 2614.87,
+    "t_end": 2615.75,
+    "text": "implies regularity and this pathetic little bound"
+  },
+  {
+    "t_start": 2615.75,
+    "t_end": 2621.67,
+    "text": "on the gradient okay so this gap but i think there is physics behind it"
+  },
+  {
+    "t_start": 2621.67,
+    "t_end": 2623.589,
+    "text": "but i think there is physics behind it so another way you'll see at the end i'm"
+  },
+  {
+    "t_start": 2623.589,
+    "t_end": 2624.069,
+    "text": "so another way you'll see at the end i'm going to"
+  },
+  {
+    "t_start": 2624.069,
+    "t_end": 2628.79,
+    "text": "mention some stochastic things majority of events will be this event"
+  },
+  {
+    "t_start": 2628.79,
+    "t_end": 2632.95,
+    "text": "now i'm going to talk about why actually the two problems are different"
+  },
+  {
+    "t_start": 2632.95,
+    "t_end": 2637.109,
+    "text": "the two problems are different and in obvious stocks there is a famous"
+  },
+  {
+    "t_start": 2637.109,
+    "t_end": 2640.15,
+    "text": "condition so why they are different navier stokes is"
+  },
+  {
+    "t_start": 2640.15,
+    "t_end": 2645.51,
+    "text": "blow up for the momentum it's a blow up of a velocity velocity has to go"
+  },
+  {
+    "t_start": 2645.51,
+    "t_end": 2650.47,
+    "text": "into it euler is a blow up of gradients so that's a different thing so you'll"
+  },
+  {
+    "t_start": 2650.47,
+    "t_end": 2652.15,
+    "text": "so that's a different thing so you'll see here uh"
+  },
+  {
+    "t_start": 2652.15,
+    "t_end": 2658.23,
+    "text": "in obvious talks there are famous old conditions and i give only one of them"
+  },
+  {
+    "t_start": 2658.23,
+    "t_end": 2658.87,
+    "text": "conditions and i give only one of them due to"
+  },
+  {
+    "t_start": 2658.87,
+    "t_end": 2665.91,
+    "text": "uh prohibition languages we mentioned a lot of names so uh"
+  },
+  {
+    "t_start": 2665.91,
+    "t_end": 2669.349,
+    "text": "we mentioned a lot of names so uh brady and sari so that say that if the"
+  },
+  {
+    "t_start": 2669.349,
+    "t_end": 2670.71,
+    "text": "brady and sari so that say that if the maximum velocity"
+  },
+  {
+    "t_start": 2670.71,
+    "t_end": 2676.15,
+    "text": "is squared is time integrable then everything is fine"
+  },
+  {
+    "t_start": 2676.15,
+    "t_end": 2683.589,
+    "text": "and um this is for another stones and what's known uh which i call"
+  },
+  {
+    "t_start": 2683.589,
+    "t_end": 2687.99,
+    "text": "and what's known uh which i call or antarctica i mentioned a second"
+  },
+  {
+    "t_start": 2687.99,
+    "t_end": 2690.95,
+    "text": "or antarctica i mentioned a second what's known is that the time integral"
+  },
+  {
+    "t_start": 2690.95,
+    "t_end": 2691.27,
+    "text": "what's known is that the time integral of"
+  },
+  {
+    "t_start": 2691.27,
+    "t_end": 2694.63,
+    "text": "u you know infinity is bounded this is a very nice"
+  },
+  {
+    "t_start": 2694.63,
+    "t_end": 2697.91,
+    "text": "very nice bound actually it tells you that bounded"
+  },
+  {
+    "t_start": 2697.91,
+    "t_end": 2701.349,
+    "text": "by the energy budget by whatever energy you have initially"
+  },
+  {
+    "t_start": 2701.349,
+    "t_end": 2707.99,
+    "text": "so this tells you that you cannot carry any blood that occurs if you think it"
+  },
+  {
+    "t_start": 2707.99,
+    "t_end": 2710.23,
+    "text": "happens here it will happen at most at the distance it's a distance at the"
+  },
+  {
+    "t_start": 2710.23,
+    "t_end": 2711.75,
+    "text": "at the distance it's a distance at the distance that's prescribed"
+  },
+  {
+    "t_start": 2711.75,
+    "t_end": 2718.23,
+    "text": "distance that's prescribed after your cannot go back so you cannot"
+  },
+  {
+    "t_start": 2718.23,
+    "t_end": 2722.39,
+    "text": "miss catching um but there is a gap okay there is no such"
+  },
+  {
+    "t_start": 2722.39,
+    "t_end": 2726.39,
+    "text": "so there is another class so these are all classical functions that infinity"
+  },
+  {
+    "t_start": 2726.39,
+    "t_end": 2728.069,
+    "text": "all classical functions that infinity means bounded l3 means the"
+  },
+  {
+    "t_start": 2728.069,
+    "t_end": 2732.87,
+    "text": "means bounded l3 means the third power absolute value is integrable"
+  },
+  {
+    "t_start": 2732.87,
+    "t_end": 2740.55,
+    "text": "very important and this talk will become more and more important if the talk"
+  },
+  {
+    "t_start": 2740.55,
+    "t_end": 2745.51,
+    "text": "can go on a little longer um l3 so there is uh the"
+  },
+  {
+    "t_start": 2747.91,
+    "t_end": 2749.91,
+    "text": "the the protester in conditions go for other lps and m infinity"
+  },
+  {
+    "t_start": 2749.91,
+    "t_end": 2756.069,
+    "text": "but they stopped at l3 for a reason and that is that this is actually much"
+  },
+  {
+    "t_start": 2756.069,
+    "t_end": 2757.109,
+    "text": "and that is that this is actually much harder theorem"
+  },
+  {
+    "t_start": 2757.109,
+    "t_end": 2760.39,
+    "text": "harder theorem and it was proved uh essentially by"
+  },
+  {
+    "t_start": 2760.39,
+    "t_end": 2766.23,
+    "text": "contradiction uh not very long ago uh by escariza"
+  },
+  {
+    "t_start": 2766.23,
+    "t_end": 2768.47,
+    "text": "uh not very long ago uh by escariza and that says that if the maximum of the"
+  },
+  {
+    "t_start": 2768.47,
+    "t_end": 2774.95,
+    "text": "and that says that if the maximum of the l3 norm is bounded and things are okay"
+  },
+  {
+    "t_start": 2774.95,
+    "t_end": 2776.47,
+    "text": "and for l3 what's known easily by some interpolation and stuff"
+  },
+  {
+    "t_start": 2776.47,
+    "t_end": 2781.99,
+    "text": "um is that the entry norm is not bounded but rather integrable to the fourth part"
+  },
+  {
+    "t_start": 2781.99,
+    "t_end": 2784.39,
+    "text": "but rather integrable to the fourth part so there are always these tantalizing"
+  },
+  {
+    "t_start": 2784.39,
+    "t_end": 2785.91,
+    "text": "so there are always these tantalizing differences it's not like the thing is"
+  },
+  {
+    "t_start": 2785.91,
+    "t_end": 2786.63,
+    "text": "differences it's not like the thing is completely"
+  },
+  {
+    "t_start": 2786.63,
+    "t_end": 2791.589,
+    "text": "hopeless there is a finite distance you think especially if you're not an expert"
+  },
+  {
+    "t_start": 2791.589,
+    "t_end": 2793.43,
+    "text": "think especially if you're not an expert there's no such thing for euler and no"
+  },
+  {
+    "t_start": 2793.43,
+    "t_end": 2796.63,
+    "text": "there's no such thing for euler and no such thing for very good reason euler is"
+  },
+  {
+    "t_start": 2796.63,
+    "t_end": 2800.15,
+    "text": "not really controlled by velocity so the nia stokes"
+  },
+  {
+    "t_start": 2800.15,
+    "t_end": 2805.51,
+    "text": "is really very different because of that you need to create infinite momentum"
+  },
+  {
+    "t_start": 2805.51,
+    "t_end": 2810.23,
+    "text": "uh in the problem if it velocities and you might think at first well the number"
+  },
+  {
+    "t_start": 2810.23,
+    "t_end": 2811.51,
+    "text": "you might think at first well the number of men went to"
+  },
+  {
+    "t_start": 2811.51,
+    "t_end": 2817.589,
+    "text": "uh uh maybe 250 kilometers an hour and then things are going to settle down"
+  },
+  {
+    "t_start": 2817.589,
+    "t_end": 2819.27,
+    "text": "and then things are going to settle down after that so where is that infinite"
+  },
+  {
+    "t_start": 2819.27,
+    "t_end": 2820.95,
+    "text": "after that so where is that infinite velocity coming from when everything"
+  },
+  {
+    "t_start": 2820.95,
+    "t_end": 2822.23,
+    "text": "velocity coming from when everything settles up"
+  },
+  {
+    "t_start": 2822.23,
+    "t_end": 2829.51,
+    "text": "so um yeah we agree so that's a"
+  },
+  {
+    "t_start": 2829.51,
+    "t_end": 2831.19,
+    "text": "we agree so that's a physically hard to imagine well the"
+  },
+  {
+    "t_start": 2831.19,
+    "t_end": 2833.51,
+    "text": "physically hard to imagine well the other hand there are other experimental"
+  },
+  {
+    "t_start": 2833.51,
+    "t_end": 2836.95,
+    "text": "other hand there are other experimental data in which you can very easily see"
+  },
+  {
+    "t_start": 2836.95,
+    "t_end": 2837.829,
+    "text": "that infinite velocity and you'll do that every morning"
+  },
+  {
+    "t_start": 2837.829,
+    "t_end": 2840.95,
+    "text": "that every morning in your uh when you turn on the faucet"
+  },
+  {
+    "t_start": 2840.95,
+    "t_end": 2845.67,
+    "text": "falls out actually the pinch off ends up by having infinite velocity for a very"
+  },
+  {
+    "t_start": 2845.67,
+    "t_end": 2849.43,
+    "text": "by having infinite velocity for a very very very short time"
+  },
+  {
+    "t_start": 2852.47,
+    "t_end": 2853.829,
+    "text": "so burger's equation which is an equation that doesn't have the"
+  },
+  {
+    "t_start": 2853.829,
+    "t_end": 2857.109,
+    "text": "equation that doesn't have the incompressibility and doesn't have the"
+  },
+  {
+    "t_start": 2857.109,
+    "t_end": 2861.589,
+    "text": "pressure does not blow up if it has a viscosity and"
+  },
+  {
+    "t_start": 2861.589,
+    "t_end": 2865.91,
+    "text": "does blow up if if it hasn't so here is the burgers"
+  },
+  {
+    "t_start": 2865.91,
+    "t_end": 2870.39,
+    "text": "three dimensions and uh here it is there is no pressure there is no"
+  },
+  {
+    "t_start": 2870.39,
+    "t_end": 2876.23,
+    "text": "there is no pressure there is no divergence free if you erase"
+  },
+  {
+    "t_start": 2876.23,
+    "t_end": 2880.309,
+    "text": "this laplacian you shock you create discontinuous velocities"
+  },
+  {
+    "t_start": 2880.309,
+    "t_end": 2884.71,
+    "text": "if you restore the laplacian the solution is smooth and that is because"
+  },
+  {
+    "t_start": 2884.71,
+    "t_end": 2890.79,
+    "text": "solution is smooth and that is because there is a maximum principle it doesn't"
+  },
+  {
+    "t_start": 2893.349,
+    "t_end": 2894.79,
+    "text": "so for navier stokes the straightforward maximum principle that"
+  },
+  {
+    "t_start": 2894.79,
+    "t_end": 2898.23,
+    "text": "maximum principle that i was just mentioning is obstructed by"
+  },
+  {
+    "t_start": 2898.23,
+    "t_end": 2904.15,
+    "text": "i struggle to find the right words um i'm not saying that there is no"
+  },
+  {
+    "t_start": 2904.15,
+    "t_end": 2905.75,
+    "text": "um i'm not saying that there is no maximum principle"
+  },
+  {
+    "t_start": 2905.75,
+    "t_end": 2908.95,
+    "text": "maximum principle in other stocks simply we don't know how"
+  },
+  {
+    "t_start": 2908.95,
+    "t_end": 2912.309,
+    "text": "to find it maybe we don't know the right quantities um"
+  },
+  {
+    "t_start": 2912.309,
+    "t_end": 2916.549,
+    "text": "you know the lamborghini past we would like to say things go down"
+  },
+  {
+    "t_start": 2916.549,
+    "t_end": 2920.47,
+    "text": "but we don't know how to find it and the usual one which says the maximum"
+  },
+  {
+    "t_start": 2920.47,
+    "t_end": 2924.71,
+    "text": "usual one which says the maximum velocity goes down uh well you try it"
+  },
+  {
+    "t_start": 2924.71,
+    "t_end": 2929.829,
+    "text": "and the pressure is a non-local object so the pressure you'll see formulas for"
+  },
+  {
+    "t_start": 2929.829,
+    "t_end": 2931.589,
+    "text": "so the pressure you'll see formulas for the pressure the pressure doesn't depend"
+  },
+  {
+    "t_start": 2931.589,
+    "t_end": 2932.309,
+    "text": "the pressure the pressure doesn't depend on"
+  },
+  {
+    "t_start": 2932.309,
+    "t_end": 2935.51,
+    "text": "the point where you're sitting and because of that"
+  },
+  {
+    "t_start": 2935.51,
+    "t_end": 2941.829,
+    "text": "there you go so there are sufficient conditions based on the pressure now you"
+  },
+  {
+    "t_start": 2941.829,
+    "t_end": 2944.549,
+    "text": "conditions based on the pressure now you and i'm going to quote one very easy to"
+  },
+  {
+    "t_start": 2944.549,
+    "t_end": 2945.109,
+    "text": "and i'm going to quote one very easy to prove actually"
+  },
+  {
+    "t_start": 2945.109,
+    "t_end": 2948.309,
+    "text": "prove actually maybe i'll even show where it comes from"
+  },
+  {
+    "t_start": 2948.309,
+    "t_end": 2953.109,
+    "text": "by versailles in o2 that says if you take"
+  },
+  {
+    "t_start": 2953.109,
+    "t_end": 2956.79,
+    "text": "the time integral of the l3 norm of the pressure again"
+  },
+  {
+    "t_start": 2956.79,
+    "t_end": 2962.309,
+    "text": "this test e3 uh you take uh this squared and if you knew that that's"
+  },
+  {
+    "t_start": 2962.309,
+    "t_end": 2969.43,
+    "text": "and if you knew that that's uh integrable in time then u is smooth"
+  },
+  {
+    "t_start": 2969.43,
+    "t_end": 2973.109,
+    "text": "they show that actually you need only lower bounds you don't need"
+  },
+  {
+    "t_start": 2973.109,
+    "t_end": 2977.03,
+    "text": "lower bounds you don't need absolute value of t and that's a very"
+  },
+  {
+    "t_start": 2977.03,
+    "t_end": 2980.79,
+    "text": "interesting and harder theorem this upper bound things are very"
+  },
+  {
+    "t_start": 2980.79,
+    "t_end": 2985.75,
+    "text": "so uh here is why they come you can write down an equation for lq evolution"
+  },
+  {
+    "t_start": 2985.75,
+    "t_end": 2987.67,
+    "text": "write down an equation for lq evolution of the velocity come from the"
+  },
+  {
+    "t_start": 2987.67,
+    "t_end": 2991.75,
+    "text": "of the velocity come from the producer and conditions you have the"
+  },
+  {
+    "t_start": 2991.75,
+    "t_end": 2997.75,
+    "text": "of integrals of velocity to some power you take the time derivative of that eu"
+  },
+  {
+    "t_start": 2997.75,
+    "t_end": 2998.47,
+    "text": "you take the time derivative of that eu everybody"
+  },
+  {
+    "t_start": 2998.47,
+    "t_end": 3003.349,
+    "text": "else uh is either dead or benign and only the pressure survives the integer"
+  },
+  {
+    "t_start": 3003.349,
+    "t_end": 3003.829,
+    "text": "only the pressure survives the integer by"
+  },
+  {
+    "t_start": 3003.829,
+    "t_end": 3008.23,
+    "text": "parts the gradient of the pressure hide the gradients on velocity on the"
+  },
+  {
+    "t_start": 3008.23,
+    "t_end": 3012.63,
+    "text": "gradients that they are given by the viscosity end up with this inequality q"
+  },
+  {
+    "t_start": 3012.63,
+    "t_end": 3013.829,
+    "text": "viscosity end up with this inequality q is the power that you"
+  },
+  {
+    "t_start": 3013.829,
+    "t_end": 3018.23,
+    "text": "raised with u2 and if you're larger than two you recover very nicely then if you"
+  },
+  {
+    "t_start": 3018.23,
+    "t_end": 3019.03,
+    "text": "two you recover very nicely then if you is"
+  },
+  {
+    "t_start": 3019.03,
+    "t_end": 3022.15,
+    "text": "equal to two you don't have any growth and"
+  },
+  {
+    "t_start": 3022.15,
+    "t_end": 3025.99,
+    "text": "you pay a one over nix so obviously if you put"
+  },
+  {
+    "t_start": 3025.99,
+    "t_end": 3029.589,
+    "text": "you put q equals three uh you would integrate"
+  },
+  {
+    "t_start": 3029.589,
+    "t_end": 3033.67,
+    "text": "you get the finite quantity you get l3 to be bounded"
+  },
+  {
+    "t_start": 3033.67,
+    "t_end": 3038.71,
+    "text": "to be bounded and you apply the uh this carry as a"
+  },
+  {
+    "t_start": 3038.71,
+    "t_end": 3042.87,
+    "text": "that's basically how this uh which was around the same time"
+  },
+  {
+    "t_start": 3042.87,
+    "t_end": 3047.19,
+    "text": "around the same time um"
+  },
+  {
+    "t_start": 3050.95,
+    "t_end": 3054.63,
+    "text": "okay so now uh for those who are patient and uh are still with me"
+  },
+  {
+    "t_start": 3054.63,
+    "t_end": 3057.91,
+    "text": "and uh are still with me i'm gonna uh write down some formulas"
+  },
+  {
+    "t_start": 3057.91,
+    "t_end": 3061.51,
+    "text": "for the best now uh the uh treadmill ramp moves up a few"
+  },
+  {
+    "t_start": 3061.51,
+    "t_end": 3064.79,
+    "text": "and the degree of boredom will increase dramatically because i'm gonna"
+  },
+  {
+    "t_start": 3064.79,
+    "t_end": 3069.91,
+    "text": "write for me okay so uh those who are interested in these will be interested i"
+  },
+  {
+    "t_start": 3069.91,
+    "t_end": 3072.23,
+    "text": "interested in these will be interested i believe that are very interesting"
+  },
+  {
+    "t_start": 3072.23,
+    "t_end": 3076.47,
+    "text": "and very important so we start be taking this is the equation that the pressure"
+  },
+  {
+    "t_start": 3076.47,
+    "t_end": 3079.67,
+    "text": "this is the equation that the pressure satisfies both euler and obviously"
+  },
+  {
+    "t_start": 3079.67,
+    "t_end": 3082.47,
+    "text": "satisfies both euler and obviously it is the statement that the divergence"
+  },
+  {
+    "t_start": 3082.47,
+    "t_end": 3088.95,
+    "text": "in obvious stokes that momentum equation had a laplacian of a function with"
+  },
+  {
+    "t_start": 3088.95,
+    "t_end": 3090.069,
+    "text": "had a laplacian of a function with divergent zero"
+  },
+  {
+    "t_start": 3090.069,
+    "t_end": 3093.51,
+    "text": "and there were no boundary conditions so if you take the divergence of the"
+  },
+  {
+    "t_start": 3093.51,
+    "t_end": 3095.67,
+    "text": "if you take the divergence of the laplacian it goes inside the laplacian"
+  },
+  {
+    "t_start": 3095.67,
+    "t_end": 3096.069,
+    "text": "laplacian it goes inside the laplacian it"
+  },
+  {
+    "t_start": 3096.069,
+    "t_end": 3102.23,
+    "text": "vanishes so this is the equation and we don't have good boundary"
+  },
+  {
+    "t_start": 3102.23,
+    "t_end": 3103.19,
+    "text": "and we don't have good boundary conditions from the"
+  },
+  {
+    "t_start": 3103.19,
+    "t_end": 3106.71,
+    "text": "for the pressure except if we have a case when you say periodic or"
+  },
+  {
+    "t_start": 3106.71,
+    "t_end": 3108.829,
+    "text": "case when you say periodic or or uh infinity might be in"
+  },
+  {
+    "t_start": 3108.829,
+    "t_end": 3110.549,
+    "text": "or uh infinity might be in simplification"
+  },
+  {
+    "t_start": 3110.549,
+    "t_end": 3114.15,
+    "text": "so these are the equations and we're going to try to"
+  },
+  {
+    "t_start": 3114.15,
+    "t_end": 3119.27,
+    "text": "express p in terms of u locally okay so that's the news that's usually"
+  },
+  {
+    "t_start": 3119.27,
+    "t_end": 3120.87,
+    "text": "okay so that's the news that's usually surveying our local thing you can invert"
+  },
+  {
+    "t_start": 3120.87,
+    "t_end": 3123.67,
+    "text": "surveying our local thing you can invert this and get 1 over 4 pi"
+  },
+  {
+    "t_start": 3123.67,
+    "t_end": 3126.71,
+    "text": "this and get 1 over 4 pi integral x minus y right hand side y"
+  },
+  {
+    "t_start": 3126.71,
+    "t_end": 3128.23,
+    "text": "integral x minus y right hand side y okay that's a fundamental solution of"
+  },
+  {
+    "t_start": 3128.23,
+    "t_end": 3130.71,
+    "text": "okay that's a fundamental solution of the laplacian but that requires you to"
+  },
+  {
+    "t_start": 3130.71,
+    "t_end": 3132.79,
+    "text": "the laplacian but that requires you to know your velocity everywhere"
+  },
+  {
+    "t_start": 3132.79,
+    "t_end": 3138.069,
+    "text": "okay we don't want that so u is given divergence 3 at this point"
+  },
+  {
+    "t_start": 3138.069,
+    "t_end": 3139.91,
+    "text": "u is given divergence 3 at this point doesn't need to be a solution but of"
+  },
+  {
+    "t_start": 3139.91,
+    "t_end": 3141.829,
+    "text": "doesn't need to be a solution but of course we are thinking about solutions"
+  },
+  {
+    "t_start": 3141.829,
+    "t_end": 3145.27,
+    "text": "course we are thinking about solutions and we are going to take spherical"
+  },
+  {
+    "t_start": 3145.27,
+    "t_end": 3149.03,
+    "text": "averages this is all this will be on your test okay it is on"
+  },
+  {
+    "t_start": 3149.03,
+    "t_end": 3154.309,
+    "text": "maybe second year okay so um you take spherical averages it's a"
+  },
+  {
+    "t_start": 3154.309,
+    "t_end": 3155.349,
+    "text": "you take spherical averages it's a essentially uh"
+  },
+  {
+    "t_start": 3155.349,
+    "t_end": 3160.63,
+    "text": "essentially uh uh level of freeze john's book on on bd"
+  },
+  {
+    "t_start": 3160.63,
+    "t_end": 3163.589,
+    "text": "uh level of freeze john's book on on bd take certain averages of a denoted by"
+  },
+  {
+    "t_start": 3163.589,
+    "t_end": 3163.91,
+    "text": "take certain averages of a denoted by bar"
+  },
+  {
+    "t_start": 3163.91,
+    "t_end": 3167.19,
+    "text": "at distance r so this is the ball of radius r"
+  },
+  {
+    "t_start": 3167.19,
+    "t_end": 3170.63,
+    "text": "around my point x and i think it's very good average"
+  },
+  {
+    "t_start": 3170.63,
+    "t_end": 3174.309,
+    "text": "i'm gonna the only little trick i'm gonna do which is"
+  },
+  {
+    "t_start": 3174.309,
+    "t_end": 3178.39,
+    "text": "pure luck i think is that i'm not gonna talk about oppression"
+  },
+  {
+    "t_start": 3178.39,
+    "t_end": 3182.79,
+    "text": "i'm gonna take the pressure of the pressure average just add"
+  },
+  {
+    "t_start": 3182.79,
+    "t_end": 3186.79,
+    "text": "pressure average just add a thing to it and it turns out by that"
+  },
+  {
+    "t_start": 3186.79,
+    "t_end": 3192.87,
+    "text": "what is needed and this is actually what it is it is the average at the same"
+  },
+  {
+    "t_start": 3192.87,
+    "t_end": 3194.39,
+    "text": "what it is it is the average at the same distance r"
+  },
+  {
+    "t_start": 3194.39,
+    "t_end": 3197.99,
+    "text": "distance r of the velocity"
+  },
+  {
+    "t_start": 3200.63,
+    "t_end": 3201.109,
+    "text": "dotted into the direction so if i'm here i'm"
+  },
+  {
+    "t_start": 3201.109,
+    "t_end": 3204.549,
+    "text": "taking r direction i have a radius the velocity is a vector"
+  },
+  {
+    "t_start": 3204.549,
+    "t_end": 3209.43,
+    "text": "i projected that velocity on that radial direction it's called the"
+  },
+  {
+    "t_start": 3209.43,
+    "t_end": 3211.91,
+    "text": "radial direction it's called the longitudinal component or"
+  },
+  {
+    "t_start": 3211.91,
+    "t_end": 3219.03,
+    "text": "of the velocity and that is squared and averaged on the sphere so i call"
+  },
+  {
+    "t_start": 3219.03,
+    "t_end": 3219.91,
+    "text": "and averaged on the sphere so i call that v"
+  },
+  {
+    "t_start": 3219.91,
+    "t_end": 3225.109,
+    "text": "that v for about 3. this object will be bounded"
+  },
+  {
+    "t_start": 3227.99,
+    "t_end": 3229.99,
+    "text": "so there is once you do this there is a monotonicity lemma those of you who know"
+  },
+  {
+    "t_start": 3229.99,
+    "t_end": 3232.069,
+    "text": "monotonicity lemma those of you who know heretic equations monopolising dilemmas"
+  },
+  {
+    "t_start": 3232.069,
+    "t_end": 3233.27,
+    "text": "heretic equations monopolising dilemmas are an important thing"
+  },
+  {
+    "t_start": 3233.27,
+    "t_end": 3237.19,
+    "text": "and in this particular case i put quotations that really not monotonic"
+  },
+  {
+    "t_start": 3237.19,
+    "t_end": 3240.95,
+    "text": "quotations that really not monotonic but you have a local"
+  },
+  {
+    "t_start": 3240.95,
+    "t_end": 3247.109,
+    "text": "uh odes if you wish and this is uh on the web now and on my webpage so you"
+  },
+  {
+    "t_start": 3247.109,
+    "t_end": 3248.95,
+    "text": "on the web now and on my webpage so you take a point you take a place and you"
+  },
+  {
+    "t_start": 3248.95,
+    "t_end": 3249.349,
+    "text": "take a point you take a place and you take"
+  },
+  {
+    "t_start": 3249.349,
+    "t_end": 3255.67,
+    "text": "any solution including the harmonic pieces that are there i take any vector"
+  },
+  {
+    "t_start": 3255.67,
+    "t_end": 3257.27,
+    "text": "pieces that are there i take any vector and i compute"
+  },
+  {
+    "t_start": 3257.27,
+    "t_end": 3261.589,
+    "text": "the r derivative of this average pressure plus something"
+  },
+  {
+    "t_start": 3261.589,
+    "t_end": 3267.91,
+    "text": "and i get an equation and the equation has a nice symbol this is simply"
+  },
+  {
+    "t_start": 3267.91,
+    "t_end": 3270.95,
+    "text": "has a nice symbol this is simply the unit vector"
+  },
+  {
+    "t_start": 3273.349,
+    "t_end": 3279.19,
+    "text": "monomial this is the current or delta and this is the displacement between u"
+  },
+  {
+    "t_start": 3279.19,
+    "t_end": 3284.95,
+    "text": "so let me let me stop so uh this is it tells you that our derivative of the"
+  },
+  {
+    "t_start": 3284.95,
+    "t_end": 3287.27,
+    "text": "tells you that our derivative of the average pressure is proportional to"
+  },
+  {
+    "t_start": 3287.27,
+    "t_end": 3290.39,
+    "text": "average pressure is proportional to velocity increments integrated against"
+  },
+  {
+    "t_start": 3290.39,
+    "t_end": 3292.069,
+    "text": "velocity increments integrated against harmless things"
+  },
+  {
+    "t_start": 3292.069,
+    "t_end": 3298.15,
+    "text": "okay so uh here is sorry it's a horrible representation"
+  },
+  {
+    "t_start": 3298.15,
+    "t_end": 3300.23,
+    "text": "sorry it's a horrible representation formula with this representation formula"
+  },
+  {
+    "t_start": 3300.23,
+    "t_end": 3306.15,
+    "text": "formula with this representation formula number one tells you that p minus v"
+  },
+  {
+    "t_start": 3306.15,
+    "t_end": 3310.309,
+    "text": "bar is averages of squares of increments and all the"
+  },
+  {
+    "t_start": 3310.309,
+    "t_end": 3313.829,
+    "text": "is in the ball of radius r and r is arbitrary"
+  },
+  {
+    "t_start": 3313.829,
+    "t_end": 3319.349,
+    "text": "and i don't need to know anything outside so"
+  },
+  {
+    "t_start": 3321.67,
+    "t_end": 3324.23,
+    "text": "the in order to digest this for a second think in terms of orders of magnitude"
+  },
+  {
+    "t_start": 3324.23,
+    "t_end": 3328.95,
+    "text": "think in terms of orders of magnitude so it tells you that p minus p bar is of"
+  },
+  {
+    "t_start": 3328.95,
+    "t_end": 3332.549,
+    "text": "the order delta r u squared where delta r let's say is the supremum"
+  },
+  {
+    "t_start": 3332.549,
+    "t_end": 3336.549,
+    "text": "and a distance r i think that's modulus of the distance"
+  },
+  {
+    "t_start": 3336.549,
+    "t_end": 3340.87,
+    "text": "the vector u at distance r and vector u where i'm interested"
+  },
+  {
+    "t_start": 3340.87,
+    "t_end": 3347.67,
+    "text": "square that call that delta r of u and i have here that t minus t bar is of"
+  },
+  {
+    "t_start": 3347.67,
+    "t_end": 3348.71,
+    "text": "and i have here that t minus t bar is of the order delta r of"
+  },
+  {
+    "t_start": 3348.71,
+    "t_end": 3352.47,
+    "text": "the order delta r of u and this is an average dr overall the"
+  },
+  {
+    "t_start": 3352.47,
+    "t_end": 3357.51,
+    "text": "same thing so um the"
+  },
+  {
+    "t_start": 3360.069,
+    "t_end": 3360.789,
+    "text": "fact that p is arbitrary is reflected here because"
+  },
+  {
+    "t_start": 3360.789,
+    "t_end": 3367.67,
+    "text": "p is known after an harmonic function but for a harmonic function p minus p"
+  },
+  {
+    "t_start": 3367.67,
+    "t_end": 3370.15,
+    "text": "but for a harmonic function p minus p bar zero"
+  },
+  {
+    "t_start": 3370.15,
+    "t_end": 3373.27,
+    "text": "so this is determined by information of the pressure"
+  },
+  {
+    "t_start": 3373.27,
+    "t_end": 3378.309,
+    "text": "totally uh the information about the velocity totally and locally"
+  },
+  {
+    "t_start": 3378.309,
+    "t_end": 3381.51,
+    "text": "velocity totally and locally modulo"
+  },
+  {
+    "t_start": 3384.95,
+    "t_end": 3388.39,
+    "text": "now i said that p bar is bounded i like but uh it will be bounded in a second so"
+  },
+  {
+    "t_start": 3388.39,
+    "t_end": 3394.39,
+    "text": "wave function that looks like a ramp one up to one and then goes down to zero"
+  },
+  {
+    "t_start": 3394.39,
+    "t_end": 3396.39,
+    "text": "one up to one and then goes down to zero and then continues to zeros is"
+  },
+  {
+    "t_start": 3396.39,
+    "t_end": 3399.99,
+    "text": "and then continues to zeros is a"
+  },
+  {
+    "t_start": 3402.309,
+    "t_end": 3403.03,
+    "text": "great function and then i represent the pressure"
+  },
+  {
+    "t_start": 3403.03,
+    "t_end": 3409.109,
+    "text": "as now something really bounded beta and the rest which is an oscillation and"
+  },
+  {
+    "t_start": 3409.109,
+    "t_end": 3409.43,
+    "text": "the rest which is an oscillation and that"
+  },
+  {
+    "t_start": 3409.43,
+    "t_end": 3413.75,
+    "text": "is again one more average of p bar was a spherical average now this becomes an"
+  },
+  {
+    "t_start": 3413.75,
+    "t_end": 3416.47,
+    "text": "spherical average now this becomes an annular average so average on the"
+  },
+  {
+    "t_start": 3416.47,
+    "t_end": 3417.19,
+    "text": "annular average so average on the annulus"
+  },
+  {
+    "t_start": 3417.19,
+    "t_end": 3421.43,
+    "text": "of the pressure and now this is going to be used in a second"
+  },
+  {
+    "t_start": 3421.43,
+    "t_end": 3427.19,
+    "text": "is going to be bounded so pi is simply the average of that thing"
+  },
+  {
+    "t_start": 3427.19,
+    "t_end": 3427.91,
+    "text": "is simply the average of that thing before"
+  },
+  {
+    "t_start": 3427.91,
+    "t_end": 3431.27,
+    "text": "you don't need to remember anything of course but essentially here is the"
+  },
+  {
+    "t_start": 3431.27,
+    "t_end": 3433.27,
+    "text": "course but essentially here is the annulus"
+  },
+  {
+    "t_start": 3433.27,
+    "t_end": 3440.15,
+    "text": "you have the annulus you have increments of the velocity with respect to the"
+  },
+  {
+    "t_start": 3440.15,
+    "t_end": 3440.71,
+    "text": "center square that's what we need to remember"
+  },
+  {
+    "t_start": 3440.71,
+    "t_end": 3443.91,
+    "text": "you have a singular integral with a very nice symbol and"
+  },
+  {
+    "t_start": 3443.91,
+    "t_end": 3447.27,
+    "text": "nice symbol and very classical so"
+  },
+  {
+    "t_start": 3447.27,
+    "t_end": 3457.67,
+    "text": "we have some bounds okay so let's see when are supposed to end"
+  },
+  {
+    "t_start": 3461.829,
+    "t_end": 3462.63,
+    "text": "okay so let's go a little fast to the bounds"
+  },
+  {
+    "t_start": 3462.63,
+    "t_end": 3469.51,
+    "text": "and i promise this is bounded uh in two ways i have if i have only"
+  },
+  {
+    "t_start": 3469.51,
+    "t_end": 3471.109,
+    "text": "uh in two ways i have if i have only energy information remember that's"
+  },
+  {
+    "t_start": 3471.109,
+    "t_end": 3474.789,
+    "text": "energy information remember that's concerned both euler and other stones"
+  },
+  {
+    "t_start": 3474.789,
+    "t_end": 3479.51,
+    "text": "i pay a price of r minus three if i have h one information which is also"
+  },
+  {
+    "t_start": 3479.51,
+    "t_end": 3481.829,
+    "text": "h one information which is also integrable in time"
+  },
+  {
+    "t_start": 3481.829,
+    "t_end": 3488.309,
+    "text": "r minus one and this comes with and now if i take the representation"
+  },
+  {
+    "t_start": 3488.309,
+    "t_end": 3489.829,
+    "text": "and now if i take the representation that assumes"
+  },
+  {
+    "t_start": 3489.829,
+    "t_end": 3494.39,
+    "text": "that assumes decay at infinity only now i'm doing"
+  },
+  {
+    "t_start": 3495.91,
+    "t_end": 3498.309,
+    "text": "which means that the pressure is an expression in terms of freeze transforms"
+  },
+  {
+    "t_start": 3498.309,
+    "t_end": 3501.589,
+    "text": "expression in terms of freeze transforms and u then i get"
+  },
+  {
+    "t_start": 3501.589,
+    "t_end": 3504.39,
+    "text": "and u then i get uniform bounds just from pressure bonds"
+  },
+  {
+    "t_start": 3504.39,
+    "t_end": 3505.829,
+    "text": "uniform bounds just from pressure bonds uniform bonds"
+  },
+  {
+    "t_start": 3505.829,
+    "t_end": 3510.069,
+    "text": "that are known essentially for the pressure that do not depend on that"
+  },
+  {
+    "t_start": 3510.069,
+    "t_end": 3513.03,
+    "text": "pressure that do not depend on that and then i can interpolate between this"
+  },
+  {
+    "t_start": 3513.03,
+    "t_end": 3515.75,
+    "text": "and then i can interpolate between this and the electricity and i get any kind"
+  },
+  {
+    "t_start": 3515.75,
+    "t_end": 3522.23,
+    "text": "at the price that is circulating okay and then also i can get for the"
+  },
+  {
+    "t_start": 3522.23,
+    "t_end": 3526.23,
+    "text": "gradients uh a bound that is in terms of l3 and gradient two"
+  },
+  {
+    "t_start": 3526.23,
+    "t_end": 3530.39,
+    "text": "remember i care about l3 more than other spaces so"
+  },
+  {
+    "t_start": 3530.39,
+    "t_end": 3533.67,
+    "text": "give me a bounce of it how about the other guy"
+  },
+  {
+    "t_start": 3533.67,
+    "t_end": 3540.309,
+    "text": "the other guy is small so the other guy is small if the"
+  },
+  {
+    "t_start": 3540.309,
+    "t_end": 3541.27,
+    "text": "so the other guy is small if the velocity is"
+  },
+  {
+    "t_start": 3541.27,
+    "t_end": 3544.87,
+    "text": "being continuous in a very well simple way so this"
+  },
+  {
+    "t_start": 3544.87,
+    "t_end": 3550.47,
+    "text": "inferno needs to vanish with z at any decent rate"
+  },
+  {
+    "t_start": 3552.789,
+    "t_end": 3553.589,
+    "text": "because i'm having a singular integral here and"
+  },
+  {
+    "t_start": 3553.589,
+    "t_end": 3557.03,
+    "text": "here and this is the first bound and consequent"
+  },
+  {
+    "t_start": 3557.03,
+    "t_end": 3562.069,
+    "text": "that pi is like r squared times the gradient in any norm"
+  },
+  {
+    "t_start": 3562.069,
+    "t_end": 3566.309,
+    "text": "gradient in any norm okay and in particular for l3 which i"
+  },
+  {
+    "t_start": 3566.309,
+    "t_end": 3574.15,
+    "text": "r squared times laplacian but the laplacian actually"
+  },
+  {
+    "t_start": 3574.15,
+    "t_end": 3577.349,
+    "text": "we have also these bonds that are known for all the pressures that are in the"
+  },
+  {
+    "t_start": 3577.349,
+    "t_end": 3578.309,
+    "text": "for all the pressures that are in the minimum"
+  },
+  {
+    "t_start": 3578.309,
+    "t_end": 3583.03,
+    "text": "so first theoretical space tells me that the laplacian is integrable"
+  },
+  {
+    "t_start": 3583.03,
+    "t_end": 3589.19,
+    "text": "in weak solutions of other stocks only small power so that means that pi"
+  },
+  {
+    "t_start": 3589.19,
+    "t_end": 3593.19,
+    "text": "small power so that means that pi in l3 is less than a constant times r"
+  },
+  {
+    "t_start": 3593.19,
+    "t_end": 3597.03,
+    "text": "and that constant is almost everywhere finite in time"
+  },
+  {
+    "t_start": 3597.03,
+    "t_end": 3601.589,
+    "text": "but only because one third power of that is integrable in time"
+  },
+  {
+    "t_start": 3601.589,
+    "t_end": 3606.789,
+    "text": "so there are singular times and because of that i cannot say that this"
+  },
+  {
+    "t_start": 3606.789,
+    "t_end": 3608.309,
+    "text": "because of that i cannot say that this is less than one"
+  },
+  {
+    "t_start": 3608.309,
+    "t_end": 3613.67,
+    "text": "but if i knew something so these are not criteria for non-blow"
+  },
+  {
+    "t_start": 3613.67,
+    "t_end": 3615.43,
+    "text": "so these are not criteria for non-blow up for in terms of pi"
+  },
+  {
+    "t_start": 3615.43,
+    "t_end": 3618.95,
+    "text": "up for in terms of pi so the main idea is the following beta"
+  },
+  {
+    "t_start": 3618.95,
+    "t_end": 3620.789,
+    "text": "so the main idea is the following beta or base bounds which guarantee global"
+  },
+  {
+    "t_start": 3620.789,
+    "t_end": 3621.99,
+    "text": "or base bounds which guarantee global regularity"
+  },
+  {
+    "t_start": 3621.99,
+    "t_end": 3629.91,
+    "text": "so if i could ignore pi i'll be done and the other thing is pi is small for"
+  },
+  {
+    "t_start": 3629.91,
+    "t_end": 3631.589,
+    "text": "and the other thing is pi is small for smaller"
+  },
+  {
+    "t_start": 3631.589,
+    "t_end": 3638.549,
+    "text": "so lamborghini passed and we're done however you know we have uh to actually"
+  },
+  {
+    "t_start": 3638.549,
+    "t_end": 3641.67,
+    "text": "however you know we have uh to actually do the job so here is one"
+  },
+  {
+    "t_start": 3641.67,
+    "t_end": 3643.67,
+    "text": "do the job so here is one possibility imagine that in not only"
+  },
+  {
+    "t_start": 3643.67,
+    "t_end": 3645.19,
+    "text": "possibility imagine that in not only that i take r"
+  },
+  {
+    "t_start": 3645.19,
+    "t_end": 3649.19,
+    "text": "i'll take it as a function of time with pretend that the thing blows up at"
+  },
+  {
+    "t_start": 3649.19,
+    "t_end": 3650.069,
+    "text": "pretend that the thing blows up at capital t"
+  },
+  {
+    "t_start": 3650.069,
+    "t_end": 3653.589,
+    "text": "and i'll take it as a function of time that goes to zero at capital t"
+  },
+  {
+    "t_start": 3653.589,
+    "t_end": 3657.589,
+    "text": "that goes to zero at capital t but it will have to go to zero not too"
+  },
+  {
+    "t_start": 3657.589,
+    "t_end": 3660.95,
+    "text": "and then when i look inside pi i require all this"
+  },
+  {
+    "t_start": 3660.95,
+    "t_end": 3667.27,
+    "text": "to look at regions where the velocity is larger than some huge velocities"
+  },
+  {
+    "t_start": 3670.15,
+    "t_end": 3672.789,
+    "text": "and so i look there and i discover this helping square is fine"
+  },
+  {
+    "t_start": 3672.789,
+    "t_end": 3677.109,
+    "text": "helping square is fine then you is fine you and all the"
+  },
+  {
+    "t_start": 3677.109,
+    "t_end": 3681.03,
+    "text": "or if there exists a new like before and the same kind of r"
+  },
+  {
+    "t_start": 3681.03,
+    "t_end": 3686.95,
+    "text": "and i have a bound point wise at r of t that diminishes in time a"
+  },
+  {
+    "t_start": 3686.95,
+    "t_end": 3688.71,
+    "text": "at r of t that diminishes in time a bound in terms of beta so"
+  },
+  {
+    "t_start": 3688.71,
+    "t_end": 3693.91,
+    "text": "actually i'm saying pi is less than beta or maybe pi is less than beta plus u"
+  },
+  {
+    "t_start": 3693.91,
+    "t_end": 3699.589,
+    "text": "or maybe pi is less than let me square and another function that's in l2 of l3"
+  },
+  {
+    "t_start": 3699.589,
+    "t_end": 3701.67,
+    "text": "and another function that's in l2 of l3 okay whenever you result then you"
+  },
+  {
+    "t_start": 3701.67,
+    "t_end": 3702.87,
+    "text": "okay whenever you result then you receive"
+  },
+  {
+    "t_start": 3702.87,
+    "t_end": 3707.99,
+    "text": "receive so in particular if the steady condition"
+  },
+  {
+    "t_start": 3707.99,
+    "t_end": 3711.51,
+    "text": "so in particular if the steady condition in l6 is valid"
+  },
+  {
+    "t_start": 3711.51,
+    "t_end": 3714.95,
+    "text": "in l6 is valid on the region where velocity is large"
+  },
+  {
+    "t_start": 3714.95,
+    "t_end": 3719.51,
+    "text": "leds so those are essentially translating into"
+  },
+  {
+    "t_start": 3719.51,
+    "t_end": 3722.87,
+    "text": "translating into elementary really consequences of the"
+  },
+  {
+    "t_start": 3722.87,
+    "t_end": 3725.99,
+    "text": "and the common sense that in principle 5 should not"
+  },
+  {
+    "t_start": 3725.99,
+    "t_end": 3732.71,
+    "text": "so i would like to uh i have a couple more slides about outlook if you don't"
+  },
+  {
+    "t_start": 3732.71,
+    "t_end": 3735.349,
+    "text": "more slides about outlook if you don't mind"
+  },
+  {
+    "t_start": 3739.589,
+    "t_end": 3743.67,
+    "text": "so um i'm going to skip this okay so this is uh deserves a little"
+  },
+  {
+    "t_start": 3743.67,
+    "t_end": 3749.349,
+    "text": "so um there are other models so there is absence of adopulus"
+  },
+  {
+    "t_start": 3749.349,
+    "t_end": 3750.15,
+    "text": "so there is absence of adopulus dissipation"
+  },
+  {
+    "t_start": 3750.15,
+    "t_end": 3758.15,
+    "text": "dissipation in a molecule sqg"
+  },
+  {
+    "t_start": 3759.67,
+    "t_end": 3762.71,
+    "text": "there is presence of a normal dissipation in some dyadic models"
+  },
+  {
+    "t_start": 3762.71,
+    "t_end": 3764.549,
+    "text": "dissipation in some dyadic models that's worthwhile suggestive of energy"
+  },
+  {
+    "t_start": 3764.549,
+    "t_end": 3765.829,
+    "text": "that's worthwhile suggestive of energy collaborators"
+  },
+  {
+    "t_start": 3765.829,
+    "t_end": 3769.109,
+    "text": "so there are models in which you can construct this"
+  },
+  {
+    "t_start": 3769.109,
+    "t_end": 3773.109,
+    "text": "construct this non-vanishing flux to the other models"
+  },
+  {
+    "t_start": 3773.109,
+    "t_end": 3778.15,
+    "text": "breakdown for smoothness for our data in waterways"
+  },
+  {
+    "t_start": 3778.15,
+    "t_end": 3784.549,
+    "text": "with the recent work of a spanish i'll i'll i'll make charlie honorary spanish"
+  },
+  {
+    "t_start": 3784.549,
+    "t_end": 3785.43,
+    "text": "i'll i'll make charlie honorary spanish so then"
+  },
+  {
+    "t_start": 3785.43,
+    "t_end": 3793.27,
+    "text": "so then it's a standard group and uh"
+  },
+  {
+    "t_start": 3794.95,
+    "t_end": 3796.95,
+    "text": "they slow that i delight before small data in water which is very non-trivial"
+  },
+  {
+    "t_start": 3796.95,
+    "t_end": 3797.829,
+    "text": "data in water which is very non-trivial problems"
+  },
+  {
+    "t_start": 3797.829,
+    "t_end": 3803.51,
+    "text": "and these are recently solved when it comes to two"
+  },
+  {
+    "t_start": 3803.51,
+    "t_end": 3806.71,
+    "text": "recently solved when it comes to two dimensions which is harder"
+  },
+  {
+    "t_start": 3808.95,
+    "t_end": 3810.71,
+    "text": "i'm going to quote two large data which solutions that are really very special"
+  },
+  {
+    "t_start": 3810.71,
+    "t_end": 3811.43,
+    "text": "solutions that are really very special one is"
+  },
+  {
+    "t_start": 3811.43,
+    "t_end": 3815.51,
+    "text": "old by by by former student resnick which is really here in montpelier"
+  },
+  {
+    "t_start": 3815.51,
+    "t_end": 3819.109,
+    "text": "which is really here in montpelier and an amazing result for finnish model"
+  },
+  {
+    "t_start": 3819.109,
+    "t_end": 3820.789,
+    "text": "and an amazing result for finnish model for complex reads"
+  },
+  {
+    "t_start": 3820.789,
+    "t_end": 3828.069,
+    "text": "by another mass hoodie we wish we had this weak solutions in more equations"
+  },
+  {
+    "t_start": 3828.069,
+    "t_end": 3828.549,
+    "text": "this weak solutions in more equations for"
+  },
+  {
+    "t_start": 3828.549,
+    "t_end": 3832.549,
+    "text": "complex fluids but we don't know at this point"
+  },
+  {
+    "t_start": 3832.549,
+    "t_end": 3836.87,
+    "text": "and large data results of the kind that we would like here for dissipative"
+  },
+  {
+    "t_start": 3836.87,
+    "t_end": 3839.51,
+    "text": "we would like here for dissipative critical disability of sqg the results"
+  },
+  {
+    "t_start": 3839.51,
+    "t_end": 3841.589,
+    "text": "critical disability of sqg the results by kapari and vassar"
+  },
+  {
+    "t_start": 3841.589,
+    "t_end": 3844.87,
+    "text": "by kapari and vassar recent fish 2008 seven"
+  },
+  {
+    "t_start": 3844.87,
+    "t_end": 3848.15,
+    "text": "recent fish 2008 seven kisselet nazarov and volberg and we have"
+  },
+  {
+    "t_start": 3848.15,
+    "t_end": 3851.99,
+    "text": "much more later the result with people that i"
+  },
+  {
+    "t_start": 3851.99,
+    "t_end": 3855.829,
+    "text": "gives the proof from the book i'm allowed to say so"
+  },
+  {
+    "t_start": 3855.829,
+    "t_end": 3858.95,
+    "text": "allowed to say so based on the non-linear maximum"
+  },
+  {
+    "t_start": 3858.95,
+    "t_end": 3863.349,
+    "text": "there are results that take advantage of special structure for the pressure"
+  },
+  {
+    "t_start": 3863.349,
+    "t_end": 3868.39,
+    "text": "and prove no regularity for the so-called drinking integrations of"
+  },
+  {
+    "t_start": 3868.39,
+    "t_end": 3869.43,
+    "text": "the so-called drinking integrations of ocean"
+  },
+  {
+    "t_start": 3869.43,
+    "t_end": 3872.549,
+    "text": "circulation and these are results of tower and kitty"
+  },
+  {
+    "t_start": 3872.549,
+    "t_end": 3877.99,
+    "text": "a few years ago not too long ago um there is a result until it's a result"
+  },
+  {
+    "t_start": 3877.99,
+    "t_end": 3879.51,
+    "text": "um there is a result until it's a result with my student legal and"
+  },
+  {
+    "t_start": 3879.51,
+    "t_end": 3881.43,
+    "text": "with my student legal and ordering it's another complex model that"
+  },
+  {
+    "t_start": 3881.43,
+    "t_end": 3882.789,
+    "text": "ordering it's another complex model that is open"
+  },
+  {
+    "t_start": 3882.789,
+    "t_end": 3889.43,
+    "text": "kind of like they studied and uh very recently two"
+  },
+  {
+    "t_start": 3889.43,
+    "t_end": 3904.24,
+    "text": "uh very recently two amazing results about long time behavior"
+  },
+  {
+    "t_start": 3907.109,
+    "t_end": 3910.309,
+    "text": "about super exponential growth of gradients including euler by kisela"
+  },
+  {
+    "t_start": 3910.309,
+    "t_end": 3911.349,
+    "text": "gradients including euler by kisela transvera"
+  },
+  {
+    "t_start": 3911.349,
+    "t_end": 3916.87,
+    "text": "so these are amazing results and then there is numerical evidence"
+  },
+  {
+    "t_start": 3916.87,
+    "t_end": 3918.39,
+    "text": "and then there is numerical evidence right in our workshop"
+  },
+  {
+    "t_start": 3918.39,
+    "t_end": 3925.109,
+    "text": "by tom howe and uh all who are law uh about accessing mentally triggered"
+  },
+  {
+    "t_start": 3925.109,
+    "t_end": 3925.829,
+    "text": "uh about accessing mentally triggered blowouts"
+  },
+  {
+    "t_start": 3925.829,
+    "t_end": 3931.349,
+    "text": "due to boundary effects something that we didn't talk at all today"
+  },
+  {
+    "t_start": 3931.349,
+    "t_end": 3936.63,
+    "text": "so here are this is my last slide the i have three bullets here boundary"
+  },
+  {
+    "t_start": 3936.63,
+    "t_end": 3937.91,
+    "text": "i have three bullets here boundary effects it's not"
+  },
+  {
+    "t_start": 3937.91,
+    "t_end": 3941.829,
+    "text": "effects it's not only because of this recent work of uh"
+  },
+  {
+    "t_start": 3941.829,
+    "t_end": 3946.87,
+    "text": "uh vertices uh generated at a boundary all turbulence is generated at the"
+  },
+  {
+    "t_start": 3946.87,
+    "t_end": 3948.71,
+    "text": "all turbulence is generated at the boundary um the"
+  },
+  {
+    "t_start": 3948.71,
+    "t_end": 3952.069,
+    "text": "um i didn't talk about the zero viscosity between the"
+  },
+  {
+    "t_start": 3952.069,
+    "t_end": 3956.63,
+    "text": "presence of boundary that's an essential open problem and that"
+  },
+  {
+    "t_start": 3956.63,
+    "t_end": 3961.75,
+    "text": "is not understood this is a little hobby horse of mine stability implies"
+  },
+  {
+    "t_start": 3961.75,
+    "t_end": 3962.87,
+    "text": "horse of mine stability implies regularity"
+  },
+  {
+    "t_start": 3962.87,
+    "t_end": 3970.39,
+    "text": "um if you formulate it in some sense total stability of weak solutions uh"
+  },
+  {
+    "t_start": 3970.39,
+    "t_end": 3972.63,
+    "text": "total stability of weak solutions uh irregularities in other words the things"
+  },
+  {
+    "t_start": 3972.63,
+    "t_end": 3977.91,
+    "text": "irregularities in other words the things that you observe are the things that are"
+  },
+  {
+    "t_start": 3977.91,
+    "t_end": 3981.349,
+    "text": "observable but it has a little bit of beef uh not a whole"
+  },
+  {
+    "t_start": 3981.349,
+    "t_end": 3985.75,
+    "text": "and finally a stochastic description so by the there are stochastic descriptions"
+  },
+  {
+    "t_start": 3985.75,
+    "t_end": 3987.75,
+    "text": "by the there are stochastic descriptions meaning that you can represent"
+  },
+  {
+    "t_start": 3987.75,
+    "t_end": 3993.349,
+    "text": "the uh deterministic 90s stokes as an expected value of the stochastic process"
+  },
+  {
+    "t_start": 3993.349,
+    "t_end": 3996.39,
+    "text": "expected value of the stochastic process but there are also issues with enlarging"
+  },
+  {
+    "t_start": 3996.39,
+    "t_end": 3997.99,
+    "text": "but there are also issues with enlarging the whole description in which you allow"
+  },
+  {
+    "t_start": 3997.99,
+    "t_end": 3999.99,
+    "text": "the whole description in which you allow for stochastic forces the purpose of"
+  },
+  {
+    "t_start": 3999.99,
+    "t_end": 4000.549,
+    "text": "for stochastic forces the purpose of this"
+  },
+  {
+    "t_start": 4000.549,
+    "t_end": 4005.029,
+    "text": "would be perhaps to understand the statement of what are the chances"
+  },
+  {
+    "t_start": 4005.029,
+    "t_end": 4011.51,
+    "text": "of actually have the lamborghini pass and velocity going to infinity while"
+  },
+  {
+    "t_start": 4011.51,
+    "t_end": 4015.27,
+    "text": "and velocity going to infinity while on average goes down so"
+  },
+  {
+    "t_start": 4015.27,
+    "t_end": 4019.43,
+    "text": "on average goes down so can we actually if not prove that for"
+  },
+  {
+    "t_start": 4019.43,
+    "t_end": 4023.51,
+    "text": "can we actually understand that this is really what's normally happening"
+  },
+  {
+    "t_start": 4023.51,
+    "t_end": 4027.19,
+    "text": "and that will require a little bit of capacity so with that thank you very"
+  },
+  {
+    "t_start": 4027.19,
+    "t_end": 4036.63,
+    "text": "capacity so with that thank you very much for your attention"
+  },
+  {
+    "t_start": 4103.669,
+    "t_end": 4104.87,
+    "text": "the situation here is one in which we are dealing"
+  },
+  {
+    "t_start": 4104.87,
+    "t_end": 4108.95,
+    "text": "are dealing with that we are in bounds so the upper"
+  },
+  {
+    "t_start": 4108.95,
+    "t_end": 4114.95,
+    "text": "are done in the smooth catheter they are done for solutions that are"
+  },
+  {
+    "t_start": 4114.95,
+    "t_end": 4116.789,
+    "text": "they are done for solutions that are infinitely smooth and infinitely very"
+  },
+  {
+    "t_start": 4116.789,
+    "t_end": 4117.51,
+    "text": "infinitely smooth and infinitely very behaved"
+  },
+  {
+    "t_start": 4117.51,
+    "t_end": 4121.99,
+    "text": "and we would like to find out how well control they are"
+  },
+  {
+    "t_start": 4121.99,
+    "t_end": 4125.91,
+    "text": "on the other hand the weak solutions they are done in another class of"
+  },
+  {
+    "t_start": 4125.91,
+    "t_end": 4127.03,
+    "text": "they are done in another class of functions much"
+  },
+  {
+    "t_start": 4127.03,
+    "t_end": 4130.63,
+    "text": "functions much weaker but not so different and other"
+  },
+  {
+    "t_start": 4130.63,
+    "t_end": 4135.91,
+    "text": "i tend to try to prove things starting from smooth solutions and keep"
+  },
+  {
+    "t_start": 4135.91,
+    "t_end": 4137.349,
+    "text": "starting from smooth solutions and keep them smooth"
+  },
+  {
+    "t_start": 4137.349,
+    "t_end": 4141.51,
+    "text": "them smooth other people are looking at this larger"
+  },
+  {
+    "t_start": 4141.51,
+    "t_end": 4146.149,
+    "text": "of the solutions which are these weak solutions and try to"
+  },
+  {
+    "t_start": 4146.149,
+    "t_end": 4150.229,
+    "text": "solutions and try to discover new properties that would"
+  },
+  {
+    "t_start": 4150.229,
+    "t_end": 4153.669,
+    "text": "actually um diminish their complexity and find"
+  },
+  {
+    "t_start": 4153.669,
+    "t_end": 4157.189,
+    "text": "um that they're actually less complex and more intimate"
+  },
+  {
+    "t_start": 4157.189,
+    "t_end": 4163.99,
+    "text": "so i think that the frameworks are there so a framework would not save the"
+  },
+  {
+    "t_start": 4163.99,
+    "t_end": 4172.87,
+    "text": "there so a framework would not save the day"
+  }
+]

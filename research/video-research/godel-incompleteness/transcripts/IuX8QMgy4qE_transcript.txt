@@ -1,0 +1,281 @@
+Yeah, I thought uh I'd talk about uh Gur and uh his famous theorem, Gle's
+and uh his famous theorem, Gle's incompleteness theorem because it's
+something I I cover in my logic course at the very end and I think it's I mean
+at the very end and I think it's I mean it's quite fascinating and although I
+it's quite fascinating and although I think there are lots of people who who
+think there are lots of people who who think this is philosophically very I
+think this is philosophically very I mean have some conclusion whether God
+exists or stuff like this which I don't think is has anything to do uh with this
+think is has anything to do uh with this theorem. It's over over valued has a
+theorem. It's over over valued has a sort of populist uh account. Yeah.
+&gt;&gt; And okay. So I'm going to show my ignorance here though. Is this something
+ignorance here though. Is this something you can summarize before we go into the
+&gt;&gt; Yeah. I want to start with something which is hopefully which is quite
+which is hopefully which is quite simple.
+What I'm doing in my logic module which is called introduction to formal
+is called introduction to formal reasoning.
+uh we we learn how to use this tool here called lean which is an interactive
+called lean which is an interactive proof system. I think we have done
+proof system. I think we have done &gt;&gt; some videos about it already and so here
+P1 and P2. What does P1 say? P1 says for all natural numbers n + 0= n and P2 says
+all natural numbers n + 0= n and P2 says for all natural numbers N + N= N. So now
+which means I want either to prove them or prove the negation. So what I can do
+or prove the negation. So what I can do here in in lean I can prove P1 in two
+can prove the negation of P2 and here I use just the fact that if N is 1 then 1
+use just the fact that if N is 1 then 1 + 1 = 1 is two and that's uh no that
+even lean knows that this is not true. &gt;&gt; Okay.
+&gt;&gt; Okay. So here's my question. Is it true can I for any proposition P can I prove
+can I for any proposition P can I prove either P or not P? And that's a question
+which G or actually Hibbert already asked. So if I have a proposition P
+asked. So if I have a proposition P is my proof system good enough or
+is my proof system good enough or complete in in the sense that for any
+complete in in the sense that for any propositions I can either prove P or not
+P. I we've seen in these examples for P1 I can prove P and for P2 I can prove not
+I can prove P and for P2 I can prove not P. Right? But the question is can we do
+&gt;&gt; I'm guessing the answer is no. &gt;&gt; Yeah, you're you're as good as Google.
+&gt;&gt; Yeah, you're you're as good as Google. Let me let me let's look at at another
+Let me let me let's look at at another proposition. I'm not going into the
+proposition. I'm not going into the details here. So that's a famous problem
+details here. So that's a famous problem in computer science. It's actually the
+in computer science. It's actually the most famous famous problem. It's a
+most famous famous problem. It's a problem about problems. Sorry for the
+problem about problems. Sorry for the for the confusion.
+The problem is uh uh uh is a is a set of natural number a subset of natural
+numbers set of all even numbers and so on. Yeah. And now we can define the set
+on. Yeah. And now we can define the set P is a set of problems which we can
+solve on a on a touring machine in deterministic polomial time. Yeah. So
+deterministic polomial time. Yeah. So which is feasible. And then there is a a
+class NP which is the the set of problems which we can solve on a
+problems which we can solve on a nondeterministic touring machine in
+nondeterministic touring machine in polomial time. And yeah uh the problems
+easy problems u like yeah astonishingly this is recent result that the primes
+this is recent result that the primes are NP whereas NP are problems like uh I
+are NP whereas NP are problems like uh I give you a
+a formula in propositional logic find out whether there's a satisfying uh uh
+uh evaluation satisfying assignment of truth values Right? So that's quite hard
+truth values Right? So that's quite hard because they're exponentially 2 to the n
+because they're exponentially 2 to the n many lines in a tool table. Um so that
+usually requires exponential time. But on a nondeterministic touring machine
+you can solve it in polinomial time. Now the famous question is is P equal NP or
+is P not equal NP? And actually nobody knows. So nobody has a proof of either.
+knows. So nobody has a proof of either. That's why it's famous. You can $1
+That's why it's famous. You can $1 million by the way if you can.
+million by the way if you can. &gt;&gt; Okay.
+I'll nip home and see. &gt;&gt; Yeah. Yeah.
+&gt;&gt; Yeah. So, most people believe that P is not equal NP, but nobody has a proof.
+Neither is a proof of P equals NP. But I mean, most likely it's just because we
+I mean, most likely it's just because we are too stupid, right?
+are too stupid, right? We
+&gt;&gt; Well, we'll check GPT and see what comes out.
+&gt;&gt; That's a good always a good approach. Yeah, we should try this. Yeah,
+Yeah, we should try this. Yeah, &gt;&gt; I'm going to
+&gt;&gt; since we don't know, it could be that our proof system is not strong enough.
+our proof system is not strong enough. And this was something already observed
+And this was something already observed by Hbert, David Hbert, famous
+guy. But here he plays the role bit of the not so clever guy because he said,
+the not so clever guy because he said, "Yeah, I mean if we have a logical
+"Yeah, I mean if we have a logical system which is incomplete, we can just
+system which is incomplete, we can just add something and make it complete."
+Yeah. So maybe we have to add this as an axiom that P is not equal NP and then
+axiom that P is not equal NP and then then we are fine. Yeah. We decide this.
+then we are fine. Yeah. We decide this. And basically he thought if we have an
+And basically he thought if we have an incomplete system if we just add enough
+incomplete system if we just add enough exum we will make it complete.
+And now comes G. Yeah. So G defines a proposition G proposition so that we can
+proposition G proposition so that we can neither prove G nor we can prove not G.
+Okay. And he did this for the theory of uh arithmetic. So which is just a theory
+uh arithmetic. So which is just a theory of natural numbers with some basic axums
+of natural numbers with some basic axums about natural numbers. So let me yeah
+let me go outside of of lean and and let me construct uh a a good sentence right
+me construct uh a a good sentence right actually I have to move between lean and
+actually I have to move between lean and and paper but we'll do this. Okay.
+and paper but we'll do this. Okay. So if you look at at lean here when we
+you see this symbol here this turn style right it's called turn style because it
+looking at this G is such a proposition and we want that we're not able to prove
+and we want that we're not able to prove G and we also not able to prove not G.
+And so so what Gur was able to do he said in the theory of arithmetic and the
+said in the theory of arithmetic and the theory about natural numbers with some
+theory about natural numbers with some basic operations like addition and
+multiplication and some basic exums we can always find such a statement and
+can always find such a statement and even better he could also show that not
+even better he could also show that not only in arithmetic but anything which
+extends arithmetic which is for example lean we can define such a proposition.
+So how do we do this? Okay, so the first step in Google did is let's say P is any
+step in Google did is let's say P is any proposition then we have a natural
+proposition then we have a natural number which we which write here funny
+brackets P which is a natural number which represents this proposition. What
+does it mean? P here is some formula something which you have seen there for
+something which you have seen there for all X natural number X plus 0= X or and
+all X natural number X plus 0= X or and so on. And now we want to represent this
+so on. And now we want to represent this inside our system because the basic idea
+inside our system because the basic idea of girdle is that we always get this
+of girdle is that we always get this girdle sentence this sentence G if a
+system can talk about itself if you can sort of implement it in itself and the
+first idea is that we can represent these propositions as natural numbers.
+these propositions as natural numbers. Now you can think for a while how to do
+this but I'm claiming it's sort of obvious for any computer scientist
+obvious for any computer scientist because you can represent proposition as
+because you can represent proposition as some bytes in computer memory and some
+some bytes in computer memory and some byes are just a natural number just a
+byes are just a natural number just a number maybe a very big number but it's
+just a and we can also define when something is provable so let me let me
+let me say this let me just pretend I can do this I say I have a predicate or
+can do this I say I have a predicate or set of natural number which I call proof
+set of natural number which I call proof So the are the natural numbers which
+So the are the natural numbers which correspond to propositions we can prove.
+correspond to propositions we can prove. So what do you want to say? I want to
+say if I can prove a proposition P
+then it is the same as if I can prove inside my system that the code of P is
+inside my system that the code of P is in the set proof. Okay. So what I'm
+in the set proof. Okay. So what I'm saying here I can prove P
+if and only if I can prove that this the code of P is an element of my predicate
+of my set. So that means I can encode probability inside my my logical system
+probability inside my my logical system and uh and and Gur observed that you can
+do this in arithmetic with a bit of hacking. Uh you can just encode the the
+hacking. Uh you can just encode the the the probability
+of arithmetic inside of arithmetic. It's bit what we do in computer science
+bit what we do in computer science always you know you write a compiler for
+always you know you write a compiler for C in C. So here we we we define the
+C in C. So here we we we define the logical system of arithmetic within
+logical system of arithmetic within arithmetic. No big deal. It's it's
+arithmetic. No big deal. It's it's hacky. Yeah. Like hell because you have
+hacky. Yeah. Like hell because you have to do lots of encoding, lots of
+to do lots of encoding, lots of twiddling, but it's it's not impossible.
+twiddling, but it's it's not impossible. It's I I don't want to write it down. I
+mean I can't because it would take long time. Okay. Now let me let me go a
+time. Okay. Now let me let me go a little bit further and let's say uh we
+little bit further and let's say uh we really want to think about predicates.
+If you have a predicate Q which is a set of natural number. Okay. So we we can do
+of natural number. Okay. So we we can do this. So here we do this for P is a
+proposition but I can also do this for predicates on natural numbers. So I have
+predicates on natural numbers. So I have this predicate proof two which is like
+proof but with a parameter. And what do I want to say? If Q is is a predicate on
+I want to say? If Q is is a predicate on natural numbers or a set of natural
+natural numbers or a set of natural numbers, then I know that I can prove Q
+numbers, then I know that I can prove Q of N if and only if I can prove proof
+What I want to say is if the pair of the code for Q in the number n is in proof
+code for Q in the number n is in proof two. So what proof two is is a bit of a
+variation of proof. for proof is just for for propositions.
+But if we can encode proposition, we can also encode predicates. So predicates
+also encode predicates. So predicates are just subsets of natural numbers
+are just subsets of natural numbers which we can define here. And we now say
+I have a code for every predicate such that I can prove q of n if and only
+uh the spare qn is in my proof predicate. So it's a bit of a refinement
+of the first that I can do this not just for propositions but also for predicates
+for propositions but also for predicates which are proposition depending on some
+which are proposition depending on some values right
+and now if I can do this I can define something weird and this is a set of
+something weird and this is a set of natural numbers I define in lean and
+natural numbers I define in lean and this is the set of of quotes such that
+this is the set of of quotes such that you cannot prove that that n comma n is
+you cannot prove that that n comma n is not in in this in this relation proof
+not in in this in this relation proof two. What does this mean? And it it
+means that that if n is a code of a proposition then the proposition applied
+proposition then the proposition applied to its own code. You you take like you
+take a program and you feed it its own input. Yeah. This is the technique of
+input. Yeah. This is the technique of diagonalization which we use in in lots
+diagonalization which we use in in lots of situations. So we say so v is a set
+of natural numbers that if n is a code of a of a of a predicate and I apply it
+of a of a of a predicate and I apply it to itself then it should not be
+to itself then it should not be probable. Okay. So it's it's a set of
+probable. Okay. So it's it's a set of quotes for predicates
+quotes for predicates which if applied to their own code
+are not provable. &gt;&gt; This reminds me a little bit of the
+&gt;&gt; Yes. Yes. It's the same idea. It's like it proves something different with the
+it proves something different with the same technique. The technique is called
+same technique. The technique is called diagonalization. And we use it for lots
+diagonalization. And we use it for lots of things. We use for for the for the
+of things. We use for for the for the undecidability.
+But we also use it to prove that uh so that there more than one infinite set.
+that there more than one infinite set. Yeah. the set of uh uncountable and
+uncountable sets is bigger than the set of countable. So they're infinitely
+of countable. So they're infinitely infinitities is the same idea. Okay. So
+so now if I have the set V then something I can define a girdle sentence
+something I can define a girdle sentence and the girdle sentence is just so if I
+the question is is Viet an element of Viet? So is a code of viet an element of
+Viet? So is a code of viet an element of the set v. Now by the definition of v
+the set v. Now by the definition of v this is the case if v code of v is not
+this is the case if v code of v is not in proof two. And now by the definition
+in proof two. And now by the definition of proof two this is the case if and
+only if not the course of weird is an element of the predicate weird. Right?
+element of the predicate weird. Right? What did I do? I said when is we an
+element of weird? I look up the definition. It's the case if if the
+definition. It's the case if if the could of v applied to v is not an
+but by by by the property that proof two really corresponds to provability
+this is the case okay now I should have done a turn star this is provable if
+this is provable if and only if this is provable so the situation I have weird
+provable so the situation I have weird and weird is provable if not weird and
+and weird is provable if not weird and weird is provable And that means that
+is a good sentence because now I can prove G if and only I I can prove not G.
+prove G if and only I I can prove not G. Yeah. So G is a is is a statement that V
+Yeah. So G is a is is a statement that V is provable for its own code. That is
+is provable for its own code. That is provable if and only if the negation is
+provable. Now that means if I could prove G then I can prove not G and then
+prove G then I can prove not G and then I can prove false. It means my system is
+and if I can prove not G I can prove G and also means my system is
+inconsistent. So this sentence G is such a sentence where you cannot prove it and
+a sentence where you cannot prove it and you cannot prove its negation.
+you cannot prove its negation. &gt;&gt; So is that the incompleteness?
+&gt;&gt; So is that the incompleteness? &gt;&gt; That's the incompleteness theorem. It's
+Yes. Uh there is a second one which says uh that uh you you you cannot prove now
+uh that uh you you you cannot prove now we can we can talk about the system in
+we can we can talk about the system in itself. Right. And we can ask the
+is is false not provable? Yeah. If false is provable that means the system is
+inconsistent. And and the question is can we prove that we cannot prove false?
+can we prove that we cannot prove false? So not prove
+false. Can we prove in a system that it's consistent? And it turns out and
+it's consistent? And it turns out and this is the second incompleteness
+theorem which relies on the first one is we cannot prove this either. We we we in
+particular we cannot prove which is not surprising. I mean if you have a logical
+surprising. I mean if you have a logical system so so it's like pulling your
+system so so it's like pulling your yourself out of the swamp you know
+yourself out of the swamp you know proving
+proving in the system itself that the system is consistent
+and that's not possible. So that's is the second incompleteness theorem and it
+the second incompleteness theorem and it how to prove it is by taking the first
+encode the proof of the first one inside arithmetic. So it's getting I mean it's
+arithmetic. So it's getting I mean it's not technically complicated but you
+not technically complicated but you start to lose track on the levels you
+know I'm talking about the system talking about itself.
+talking about itself. &gt;&gt; Yeah it's I'm getting inception vibes.
+&gt;&gt; getting what vibes? Oh, do you remember the film Inception?
+&gt;&gt; Okay. Which is a little bit cliche, but you know, dream inside a dream inside a
+you know, dream inside a dream inside a dream.
+&gt;&gt; Yes. That's exactly what going on. And it's it's it's it's
+just keeping track all the levels makes it makes it confusing. Yeah.
+&gt;&gt; But let me say a few more things about this incompleteness theorem. Uh first of
+this incompleteness theorem. Uh first of all, it applies to arithmetic. But if
+all, it applies to arithmetic. But if you look at the proof, it's actually
+you look at the proof, it's actually also works for any system which includes
+also works for any system which includes arithmetic.
+So so so it it it doesn't help like Hbert hoped that the uh to make the
+Hbert hoped that the uh to make the system stronger because this defect
+system stronger because this defect always remains you. It doesn't matter
+always remains you. It doesn't matter how strong you you make it you always
+how strong you you make it you always get this incompleteness
+but you can make it weaker. Yeah. So uh in g observed this incompleteness
+theorem all you need is addition and multiplication which is quite clever
+multiplication which is quite clever hack. Yeah.
+Um but if you leave multiplication out then it's complete. Yeah. But then you
+then it's complete. Yeah. But then you cannot do as much in particular in this
+cannot do as much in particular in this system uh is called presber arithmetic
+system uh is called presber arithmetic it cannot talk about itself because
+obviously if it could talk about itself it would be incomplete. Yeah. But it's
+it would be incomplete. Yeah. But it's useful for for some things
+system which are complete. So for example if you if you encode the the
+logic of the real numbers the the the field of the real numbers. Yeah. Uh it
+field of the real numbers. Yeah. Uh it turns out that this is complete.
+turns out that this is complete. So that because because you don't have
+the natural numbers you cannot do this programming stuff. Yeah. just with the
+programming stuff. Yeah. just with the real numbers and the real numbers on its
+real numbers and the real numbers on its on its own are complete. Yeah. And
+another example is geometric ge geometric geometry
+geometric geometry geometry.
+uh uh so Uklides uh it was the first aum system formulated for about lines and
+system formulated for about lines and lines being in parallel and cutting each
+the exoms of of geometry are actually complete but again and just with lines
+complete but again and just with lines and points you cannot talk about itself.
+and points you cannot talk about itself. So it's it's a weak system. Yeah.
+it is. on that sphere. If Sha and I start walking due north and we keep our
+start walking due north and we keep our angles with the equator rigidly the same
+angles with the equator rigidly the same as each other, then the innate curvature

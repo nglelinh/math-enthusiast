@@ -1,0 +1,945 @@
+you yeah yeah that's right you too how you been
+[Music] I let you get ready for call
+maybe the okay I guess I'll get started be a minute early so give the speaker
+more time so yeah it's my pleasure to uh welcome you all to the eecs colloquium
+today uh and it's a privilege to really introduce a speaker who really needs uh
+no introduction at all uh but I'll and he's also asked me to keep it brief so
+he has more time for the talk but let me quickly say uh that AI vidron uh is is a
+quickly say uh that AI vidron uh is is a legend in the field of theoretical
+legend in the field of theoretical computer science uh he is uh the Herbert
+Mass professor at the school of mathematics at The Institute for
+mathematics at The Institute for advanced study in Princeton his wide-
+advanced study in Princeton his wide- ranging work has made you know seminal
+ranging work has made you know seminal uh contributions to almost all aspects
+uh contributions to almost all aspects of uh Theory uh theoretical CS
+of uh Theory uh theoretical CS complexity Theory algorithms and
+complexity Theory algorithms and optimization role of Randomness in
+cryptography uh parallel and distributed comp computation pseudo Randomness
+comp computation pseudo Randomness combinatorics graph Theory you name it
+um ABI has made um a great um uh contributions and um as as a theorist
+you can uh he has won perhaps the three biggest Awards a theoretical computer
+scientist can dream of uh which is the Nina prize the kth prize and uh recently
+Nina prize the kth prize and uh recently last year um the touring award it's like
+the Nobel Prize for computing and as if that is not enough uh he is also a
+that is not enough uh he is also a winner of the Abel prize know kind of
+winner of the Abel prize know kind of the Nobel Prize for mathematics and uh
+the Nobel Prize for mathematics and uh yeah so so it's an incredible honor to
+yeah so so it's an incredible honor to have ai uh speak uh today and I'll also
+have ai uh speak uh today and I'll also mention that beyond all his distinguish
+mention that beyond all his distinguish thing one of the amazing things he's
+thing one of the amazing things he's extremely approachable and uh his legacy
+extremely approachable and uh his legacy touches uh so many postdocs who have
+gone through his group at the IAS in Princeton and uh so it's a real pleasure
+Princeton and uh so it's a real pleasure to introduce Al and he will tell us
+to introduce Al and he will tell us today about Alan turing's works
+coming it's always a pleasure to be here and so uh what I want to tell you about
+and so uh what I want to tell you about today is yeah iing you know computer
+today is yeah iing you know computer scientist you go through this education
+scientist you go through this education and of course you learn about
+'s paper on the T machine and then um I thought I knew what I should
+then um I thought I knew what I should about him I read couple of more papers
+and then touring me when had mentioned I got this touring award then I thought I
+got this touring award then I thought I should do justice to my knowledge of and
+should do justice to my knowledge of and uring and I spent a couple of months uh
+just reading almost everything Ro and I just want to tell you about this
+just want to tell you about this experience um so
+I'm not going to talk about his life very short life with a tragic end that
+very short life with a tragic end that I'm sure you all know I want talk only
+I'm sure you all know I want talk only about his work this is more or less his
+about his work this is more or less his academic
+CV where he spent time during his career and I more or less tell you about one
+and I more or less tell you about one paper from uh each period I could have
+paper from uh each period I could have given a 3our talk a 5 hour talk but I
+restrict this to one hour talk uh that plenty of stuff I'm not going to mention
+plenty of stuff I'm not going to mention I'm not going to mention any practical
+work and he did a lot of course he buil computers and he wrote about building
+computers he programmed a lot and he wrote about the practice of programming
+wrote about the practice of programming when there were no computers and people
+when there were no computers and people just started doing
+this um as an underground he put the one of the most General forms of the Central
+and I'm not going to tell you about this uh he wrote a seminar paper on numerical
+uh he wrote a seminar paper on numerical analysis where he defined condition
+number he did it yes and he devised what we call DEC composition not going to
+we call DEC composition not going to talk about this he work of course on
+talk about this he work of course on encryption he
+was obsessed with teaching for computers to play chess and he was even more
+to play chess and he was even more obsess with the uh trying to refuse the
+obsess with the uh trying to refuse the r hypothesis by trying to find the zero
+not talk about this you can ask me at the end if you want so I want to start
+by the paper you all know but I want to so about this paper I'll talk about it
+so about this paper I'll talk about it and I'll talk about things I thought and
+some work that we in the field did following it or inspired by it or or
+following it or inspired by it or or things he would have love to know I
+think so this is a famous paper on computable numbers the with application
+computable numbers the with application to the child problem easily the most
+written um he did it when he was a fellow in Cambridge fellow he was just
+fellow in Cambridge fellow he was just finishing his undergrad but this was
+finishing his undergrad but this was like a post if you will on the strength
+put um so you all know what in this paper uh the way he got to this question
+paper uh the way he got to this question is the he took a
+Marx Newman's course a topologist interested in the
+foundations and who told them about Hilbert's dream the famous dream on the
+Hilbert's dream the famous dream on the foundation that everything true in
+mathematics is provable and that everything provable can be obtained the
+everything provable can be obtained the proof can be obtained by a decision
+procedure this dream was famously sheltered completely first G by
+sheltered completely first G by incompleteness the and then t
+incompleteness the and then t undecidability
+undecidability the
+uh he wrote it up and gave it to Marx Newman who looked at this and says just
+Newman who looked at this and says just a few weeks ago I got a paper from U
+a few weeks ago I got a paper from U alono church in Princeton who proved the
+alono church in Princeton who proved the same theorem on
+decidability uh but nevertheless as a good Mentor and Max Newman was a mentor
+good Mentor and Max Newman was a mentor to during all his life really he did two
+to during all his life really he did two things the first was right to the editor
+things the first was right to the editor of the London Mass Society saying yes
+of the London Mass Society saying yes this result is known was proven already
+this result is known was proven already but that's a completely different proof
+but that's a completely different proof a
+fundamental paper with of a fundamental result you must publish it and it was
+and the second thing he says look you shouldn't be in Cambridge you should be
+shouldn't be in Cambridge you should be in Princeton where everybody is uh
+in Princeton where everybody is uh working on these uh computability
+issues and wrot the chair to ask him to take him as a g student and he did in
+take him as a g student and he did in this win we'll talk about that next
+this win we'll talk about that next soon so what's the what's so fundamental
+soon so what's the what's so fundamental well in order to sh his dream you need a
+formal model of what computation is it didn't exist it didn't exist you somehow
+didn't exist it didn't exist you somehow need to define a notion that captures
+compute that was the question and of course people were occupied by this
+course people were occupied by this because of hbert G has his definition
+because of hbert G has his definition church has his own definition and T came
+up with what we are familiar with completely different than them this very
+completely different than them this very Elementary primitive device which we
+Elementary primitive device which we today call a touring machine suggesting
+today call a touring machine suggesting that this is this is it this is
+computation now G and church saw this and immediately agreed they said T's
+and immediately agreed they said T's definition is the right model in fact
+definition is the right model in fact the name t machine was SP by
+church and uh what you need to do when you introduce such a you know a formal
+you introduce such a you know a formal definition of a such a vast notion you
+need to argue that this it is it captures everything possibly computable
+captures everything possibly computable this what we call today CH do in cities
+and and the way tring argues this and this is common to all this paper is with
+generality uh he gives three different types of arguments why this is it uh why
+types of arguments why this is it uh why it captur everything possible but first
+it captur everything possible but first he wants to say this emulates human uh
+computers now you may not know this especially the young ones that the
+especially the young ones that the computer was a job descrip in this day
+mainly of women who did calculation that was what was called
+computer he shows how in this in fact inspired him uh how what we do when we
+inspired him uh how what we do when we compute is doable on his machine then he
+compute is doable on his machine then he shows that a large bunch of things that
+shows that a large bunch of things that you might want to compute like the
+you might want to compute like the digits of pi and E and various other
+digits of pi and E and various other constant V functions and so on it gives
+device and uh finally the third type of argument is that this equivalent to
+argument is that this equivalent to other Notions proposed in fact the two
+other Notions proposed in fact the two Notions uh once he realized that CH
+Notions uh once he realized that CH wrote this paper and he found out about
+this he did lots of things without knowing about the background so when he
+knowing about the background so when he realized this he shows that in power
+realized this he shows that in power this equivalent to Lambda calul two
+this equivalent to Lambda calul two theive function
+now this was the birth of uh theory of computation why because it's a
+mathematical model once you have a mathematical model you can do math with
+mathematical model you can do math with computation but actually it is far more
+than that because the model is so simple and gives you a exact meaning to a unit
+and gives you a exact meaning to a unit of time and exact meaning to a unit of
+space you can start quantify the resources allocated by different
+algorithms and in fact soon after or not soon few decades after uh has man turn
+soon few decades after uh has man turn took it up and Define these complexity
+took it up and Define these complexity classes and from these two we have now I
+ones uh we have a complexity zo of complexity classes we quantify all sorts
+complexity classes we quantify all sorts of resources in all sorts of
+ped the theorem is that there is this problem mathematical problem the housing
+problem mathematical problem the housing problem that cannot be solv by a
+computer in ter you know lemman term it says that debugging programs is
+impossible to solve by computers I love the way Christ Papa Demetrius talks
+the way Christ Papa Demetrius talks about it he say that computer science as
+a field was born aware of its limitations not everything can be done
+limitations not everything can be done by computers in fact the most most basic
+by computers in fact the most most basic problem in computer science cannot be
+problem in computer science cannot be done and he says that unlike let's say
+them centuries or millania to discover limitations like the uncertainty
+principle of the second law of Thermodynamics uh this is a huge impact
+Thermodynamics uh this is a huge impact on mathematics because now you have the
+on mathematics because now you have the mathematical standard to judge whether
+mathematical standard to judge whether certain mathematical problems are
+understandable by humans or not can compute the object relevant to these
+fields he initiated this in his way on the we problem in semi groups and then
+the we problem in semi groups and then others uh novikov and the others prove
+the same for work problem in group basic problems in mathematics cannot be solved
+problems in mathematics cannot be solved by computers so they particular they can
+by computers so they particular they can be no complete Theory explaining them
+be no complete Theory explaining them characterizing them and much later it
+took many years uh to prove that basic problem in number Theory like solving
+problem in number Theory like solving polinomial equations in integers cannot
+polinomial equations in integers cannot be done by computers and all of these
+are are done by reductions to the Hing problem so they are done by designing
+algorithms and of course there are algorithms also in the positive side
+algorithms also in the positive side people try to prove that other Central
+people try to prove that other Central structures in mathematics can be
+structures in mathematics can be understood algori teally
+tski did it for the first order theory of the real hen did it for in topology F
+of the real hen did it for in topology F nothingness and I should stress that the
+nothingness and I should stress that the algorithmic point of view entering MTH
+algorithmic point of view entering MTH resulted in lot of new structural
+resulted in lot of new structural understanding the techniques developed
+understanding the techniques developed like quantifier elimination and normal
+sures for these algorithms are fundamental for uh the the not only for
+now how would it prove it we all know how he proved it uh he designed first of
+how he proved it uh he designed first of all in the paper the universal touring
+all in the paper the universal touring machine namely a machine that can
+machine namely a machine that can simulate other machines and realizing
+simulate other machines and realizing the
+pro programs that data are the same thing you can run machines on the
+thing you can run machines on the universal machine and therefore you can
+universal machine and therefore you can simulate uh them and then you can
+diagonalize against them as we all know the proof
+sure and uh this proof technique is became a major proof technique for the
+became a major proof technique for the field simulation and
+diagonalization this is a way that we first prove result in computational
+complexity in the same paper as M St showed that more time buys you more
+computation power more space buys you more computation power exactly using his
+more computation power exactly using his Techni technique and I want to stress
+Techni technique and I want to stress his says that this simulation of touring
+his says that this simulation of touring machines by Universal T machine is an
+machines by Universal T machine is an efficient procedure that's that's the
+reason you can even have this quantization uh this was taken to more
+quantization uh this was taken to more elaborate forms of this so it was such
+how many people this is not taught anymore that previous s was already Sol
+anymore that previous s was already Sol if you care about linear time rather
+if you care about linear time rather than polinomial time so we know using
+than polinomial time so we know using cing technique even results like n
+cing technique even results like n determinism is more powerful than
+determinism is more powerful than determinism in
+L uh during you know you might wonder and I a lot of things I didn't know
+and I a lot of things I didn't know where does nondeterminism come from as a
+where does nondeterminism come from as a basic notion in in the field and uh the
+basic notion in in the field and uh the way you learn I learned it and many
+other is that there the famous the ren SC paper on AATA and they Define this
+SC paper on AATA and they Define this notion but actually if you look at J's
+notion but actually if you look at J's paper uh it tells you in this paper uh
+paper uh it tells you in this paper uh the S the paper is going to talk about
+where every move is determined uniquely by the current configuration but it says
+by the current configuration but it says that it's also interesting I will not
+that it's also interesting I will not discuss it here to consider Choice
+discuss it here to consider Choice machines what Choice machine the next
+machines what Choice machine the next state is not fully
+specified by the configuration and then some external agent must tell you what
+some external agent must tell you what to do so he defines nondeterministic
+to do so he defines nondeterministic machine explicitly and moreover it tells
+machine explicitly and moreover it tells you why it defin it he defined it in
+order to discuss acatic system in order to discuss proof systems so here is
+about computation telling us that the contrast between the two is something
+contrast between the two is something Central and worthy of study and he was
+Central and worthy of study and he was interested in it in particular in fact
+you might view his result as separation between proofs and computations because
+between proofs and computations because theive sets are what's provable by
+theive sets are what's provable by computable by Finance algorithms and
+computable by Finance algorithms and theable are those sets probable to
+theable are those sets probable to finite algorithms or verified by finite
+finite algorithms or verified by finite algorithm so it Prov that the two are
+the Same by the hting problem and what we
+are you know major motivating force of our field is the analog for uh efficient
+our field is the analog for uh efficient algorithm that's a polinomial Time
+algorithm uh the first paper defining NP Cooks paper famous paper is actually
+boring from touring the title is actually the complexity of C improving
+actually the complexity of C improving uh procedures
+of course one thing I I believe T would have loved to see is that how far we
+have loved to see is that how far we have taken this contrast between proofs
+have taken this contrast between proofs and computations what kind of different
+and computations what kind of different Notions of proof system we invented in
+since uh this paper you are all well maybe maybe many of you are not familiar
+maybe maybe many of you are not familiar with all these acronyms each represents
+with all these acronyms each represents a different type of post systems post
+a different type of post systems post system them and these are
+system them and these are characterization we understand uh fully
+characterization we understand uh fully the except for
+the except for PP the power of this very important and
+system okay so this was about the first paper it's it's a paper that after you
+paper it's it's a paper that after you write one you don't need to do anything
+continued uh he moved to Princeton as I told you and uh um went to work with the
+told you and uh um went to work with the chair there were many other people doing
+chair there were many other people doing uh computability issues although he
+uh computability issues although he didn't talk to many he was he didn't
+prin but he was a CI there he was a g student he was there two years old
+student he was there two years old the C is called the systems of logic
+the C is called the systems of logic based on
+ordinance and I'll tell you one thing from the CI that many of you are
+from the CI that many of you are familiar with he invented another
+fundamental notion that we are uh living with and playing with uh all the time
+this is a notion of an oracle so he suggest let's suppose we are supplied
+suggest let's suppose we are supplied with some unspecified means of solving
+with some unspecified means of solving some number theoretic problem mainly a
+decision problem and a kind of Oracle as it were so he is even inventing the name
+it were so he is even inventing the name for it and let's study this the reason
+he was looking at this is to see whether undesirability is the end of the story
+undesirability is the end of the story suppose you can Sol UND disability can
+suppose you can Sol UND disability can you solve then every other problem and
+yeah this is so we denote it usually with the suers this is a machine with an
+oracle or in general you can take a class of machine with oracles from
+class of machine with oracles from another
+class this had an huge impact on recous Theory uh people define generalizations
+Theory uh people define generalizations of these basic classes R in re whole
+hierarchy and pro uh that they are all distinct this proof is of course again
+distinct this proof is of course again using T technique of simulation
+polinomial time analog of these classes were also defined as the polinomial time
+were also defined as the polinomial time hierarchy but here we don't have any
+hierarchy but here we don't have any separation we don't know that any of
+so they are defined by oracles but oracles come in in another surprising
+way in as an excuse for understanding why we cannot prove this so why why is
+why we cannot prove this so why why is it that I told you about this time
+hierarchy this te technique of twing simulation diation works why can we use
+simulation diation works why can we use it to prove be different than NP any
+it to prove be different than NP any separation this came in the
+brilliant paper of Baker G Sol said look this technique is oblivious to oracles
+this technique is oblivious to oracles if we prove something for twoing
+if we prove something for twoing machines Without orles You Pro the same
+thing if you add the same Oracle and uh that's one property of the technique on
+that's one property of the technique on the other hand they Supply orles which
+the other hand they Supply orles which can either separate or make equal p and
+can either separate or make equal p and NP in other words if equation has this
+NP in other words if equation has this property that can be yes or no with
+property that can be yes or no with different Oracles this technique don't
+different Oracles this technique don't work so or apply the excuse and this led
+the field into this uh uh I guess contemplative uh State of Mind where you
+contemplative uh State of Mind where you inspect your own
+introspective uh inspect your uh limitation when you cannot do
+your uh limitation when you cannot do something try to explain it that we call
+something try to explain it that we call barrier result so this was the first
+barrier result so this was the first barrier results and now many others in
+barrier results and now many others in the field they usually not only Supply
+the field they usually not only Supply excuses but maybe provide ways to go
+excuses but maybe provide ways to go around the excuses and sometime we can
+around the excuses and sometime we can bypass uh barrier so oracles they are
+bypass uh barrier so oracles they are absolutely
+fundamental okay let me move to the next stage of his life the war broke out
+stage of his life the war broke out 1939 and uh he has taken a codebreaking
+1939 and uh he has taken a codebreaking course uh the previous year and he
+Hut 8 famous Hut 8 to work on Breaking the Enigma cod in particular the naval
+Enigma C of the nazzi so I'm sure you all know the story uh you know after the
+all know the story uh you know after the Nazis took over Europe England was
+Nazis took over Europe England was isolated and was totally dependent on
+isolated and was totally dependent on supplies from the us both food
+supplies from the us both food munition uh weapons everything so there
+were convoys of ships going from the US to England with all these things and the
+to England with all these things and the Atlantic was infested with OTS there
+were maybe 60 70 in the beginning of the war there were 400 at the end of the war
+war there were 400 at the end of the war and they were sinking uh you know these
+and they were sinking uh you know these Convoy ships right and left was a
+Convoy ships right and left was a real major major thing the cracking of
+real major major thing the cracking of the Enigma was by T his friends was
+contribution to story in World War II no less so people know this story and they
+less so people know this story and they know that the I know you can represent
+know that the I know you can represent it as the competition between two
+it as the competition between two machines the Enigma machine and the bomb
+machines the Enigma machine and the bomb this kind of device that was searching
+this kind of device that was searching through Keys very fast keys to the
+through Keys very fast keys to the Enigma machine uh very quickly and
+Enigma machine uh very quickly and that's usually how the story is told and
+that's how I knew it but like you know
+fight between these two machines but what I didn't realize is
+machines but what I didn't realize is how much Theory uh went into this and I
+must say that it's s of shocking to think I'll show you what theory I'm
+think I'll show you what theory I'm talking about but um surprising to think
+talking about but um surprising to think that t had the presence of Mind during
+that t had the presence of Mind during this extremely precious time where you
+know these ships were sinking to you know in order to enhance this process of
+know in order to enhance this process of searching for the right sheit to go and
+searching for the right sheit to go and do math because this would be
+do math because this would be foundational to improving the efficiency
+foundational to improving the efficiency so I'll tell you about his work in these
+information theory in the field and I would like to put papers of touring but
+would like to put papers of touring but there are none he wrote
+there are none he wrote several you know lecture notes and
+various notes uh but never Lish them of course most the main secret is the '90s
+course most the main secret is the '90s but luckily good J good who worked with
+but luckily good J good who worked with him in hot eight wrote papers on this so
+I'll tell you about this two Notions work of evidence and population
+frequencies I'll be brief and maybe you will not understand everything there but
+will not understand everything there but that's not important I want to stress
+the theory so good just to make sure that it's doing work good himself tells
+that it's doing work good himself tells you it is about the second notion it
+in the next slide was suggested to me by touring he showed it to me he showed me
+touring he showed it to me he showed me the proof he showed me uh you know he
+paper but he allowed me to publish it he also on the first notion of weight of
+evidence good WR the Ser at the end of the year there a whole Theory there and
+the year there a whole Theory there and he says the this theem was they
+he says the this theem was they suggested by curing and the other one
+was sest and so on so curing was the the leader of this project let me tell you
+leader of this project let me tell you briefly about these two
+Notions what are population frequencies the most basic problem in statistics you
+the most basic problem in statistics you have a sample of uh n items I samples
+from some Distribution unnown on some alphabet okay so you uh and and you ask
+suppose you look at par item which appears K times in the sample what
+probability do you believe it has in the distribution and you would all say and I
+distribution and you would all say and I would say k over of course end of story
+but that's not the answer it's not the answer because it's not the type of
+situation that we are normally uh thinking about this is more like you
+walk in the forest and you see two zebras one giraffe and one lion and I
+zebras one giraffe and one lion and I ask you what's the probability of a lion
+these animals you didn't see at all so this is the situation here the sigma the
+this is the situation here the sigma the alphabet is all the German
+far larger than the temple size so what do you do here's what you do this called
+do you do here's what you do this called today the good test which good say that
+today the good test which good say that t shows him suppose that n subk is the
+exactly then you do this don't try to digest itough it makes sense to do
+digest itough it makes sense to do afterwards it's really ingenious it's
+not k/n it's k + 1/ n but you taper it down by n subk + 1/ n subk it's really
+down by n subk + 1/ n subk it's really it's sort of magical and there are
+it's sort of magical and there are examples you can do but let's not go
+examples you can do but let's not go there I just want to say that uh we know
+they all knew that it should be smooth also it's smooth is a smooth
+version uh it took many years to show that this is the best you can do the
+formula small formula is the best you can do for any distribution this will
+can do for any distribution this will give you as closest estimate as can be
+hoped for um and uh this is just one example you know we connections of DCs
+example you know we connections of DCs and statistics are now abound and this
+and statistics are now abound and this is another field which started by uh
+is another field which started by uh maturing the other notion is another
+maturing the other notion is another thing you are extremely familiar with uh
+thing you are extremely familiar with uh another basic question there are two
+distributions p and Q and I give you a sample from P how much do you learn to
+you know how much more uh convince are you that the underlying distribution is
+you that the underlying distribution is p given this one
+and uh you know how do you quantify this and C suggest to study this random
+variable log P of X over Q of X this is in early 40s right uh it Sugg just to
+in early 40s right uh it Sugg just to study this random variable of
+course we all know this expectation of this random variable we call it K
+this random variable we call it K Divergence Library Divergence but it was
+Divergence Library Divergence but it was there already they do much more than
+higher moments they have a bunch of beautiful theor some of them were later
+beautiful theor some of them were later discovered independently when wild
+discovered independently when wild developed sequential analysis sequential
+developed sequential analysis sequential analysis is simply statistics where the
+sample side is not fixed in advance but you learn more and more this is what
+you learn more and more this is what they need to learn as they will
+they need to learn as they will gathering information from breaking
+gathering information from breaking messages by Enigma
+all right we are done so we are switching context very quickly I have
+switching context very quickly I have two more papers to discuss so
+that's okay I hope you you get a sense of the immense variety that of things
+that doing considered and here we mve to his the famous paper on AI he after the
+war he went to London to build the ace computer for the government he was very
+computer for the government he was very unhappy there uh they didn't let him do
+unhappy there uh they didn't let him do what he wants to and then Marx Newman
+what he wants to and then Marx Newman same one called him to Manchester where
+same one called him to Manchester where he was building another computer the
+he was building another computer the Manchester
+baby uh and I want to stress it's pretty amazing already in
+1953 there was a position called reader of the theory of
+position called reader of the theory of computation a reader this is England
+computation a reader this is England right professor of the theory of
+right professor of the theory of computation uh Turing was given this
+computation uh Turing was given this position with the salary boost so the
+position with the salary boost so the value Theory um and during this period
+value Theory um and during this period he the paper Computing machinery and
+not just this paper you sure some of you know and I w't talk a little bit about
+know and I w't talk a little bit about this because there are things in this
+this because there are things in this paper that you won't know you know about
+paper that you won't know you know about the imitation game I'll get there but
+the imitation game I'll get there but there are plenty more that maybe you
+didn't realize what there and lot of the things that are there are there mainly
+things that are there are there mainly because during like in many
+because during like in many papers not only set up Notions and the
+papers not only set up Notions and the fundamental Notions but already wants to
+fundamental Notions but already wants to argue why his Notions are the right ones
+or important ones and he prepares for arguments from other scientists in this
+arguments from other scientists in this case he got lots of arguments there were
+many debates he he held with other people other scientists in different
+people other scientists in different fields both in writing and on the BBC
+Radio so he prepares a bunch of arguments this leads him to say things
+arguments this leads him to say things that you know are not about intelligence
+that you know are not about intelligence are absolutely fundamental for us first
+are absolutely fundamental for us first thing is he introduces again you wonder
+thing is he introduces again you wonder who introduced first formally
+publicistic algorithm this is doing in this paper uh he Sugg just you know
+this paper uh he Sugg just you know another type of machine you can consider
+another type of machine you can consider touring machine with a random element so
+touring machine with a random element so flip coins for some of your moves he
+flip coins for some of your moves he suggest it he suggest how to do it and
+suggest it he suggest how to do it and he suggest in other places other means
+he suggest in other places other means physical means of generating random
+physical means of generating random numbers so publicistic machines are
+numbers so publicistic machines are defined in this paper moreover sudo
+Randomness is already explored in this paper uh by the way publicity algorithms
+paper uh by the way publicity algorithms are defined because he wants to convince
+are defined because he wants to convince the
+audience say that um machines don't have to be predictable people say machines
+to be predictable people say machines will never have intelligence they are
+always predictable so they are not but he also once Randomness is in he wants
+he also once Randomness is in he wants to understand sud sudo Randomness so the
+to understand sud sudo Randomness so the first thing he said is that it is not
+first thing he said is that it is not normally possible to determine from
+observing a machine whether it is used in Randomness or not because how do you
+in Randomness or not because how do you tell if this is it or maybe it is just
+tell if this is it or maybe it is just using in some way the you know digits of
+using in some way the you know digits of P but even more fundamentally he makes
+P but even more fundamentally he makes the formal definition of a sudo random
+the formal definition of a sudo random generator sudo random function generator
+generator sudo random function generator this is a quoted in the famous paper of
+gold mikali where they formally Define this notion and they quote him he says
+exactly what they say gives their definition I set up on the Manchester
+definition I set up on the Manchester computer a small program using only
+computer a small program using only thousand units of storage whereby a
+thousand units of storage whereby a machine is supplied with
+116 uh figure number and outputs another 16 digit number I would defy anyone to
+16 digit number I would defy anyone to predict the value of this function of
+this program on any unseen input so that's basically the definition of sudo
+that's basically the definition of sudo functions if you throw in polinomial Di
+functions if you throw in polinomial Di and blah blah blah whatever we need but
+and blah blah blah whatever we need but that's basically is the definition so he
+that's basically is the definition so he already sees um or gets right the
+already sees um or gets right the definition that we are all using in
+definition that we are all using in cryptography uh that's about Randomness
+cryptography uh that's about Randomness and Randomness now uh he talks of course
+education and I I want to stress I mean in many of these papers you really have
+in many of these papers you really have to think I mean we are born into this
+to think I mean we are born into this computer age you have to think there
+computer age you have to think there were no computers basically no computers
+were no computers basically no computers and the computers that were start people
+started building after the war had mostly one
+purpose clearly military purpose trajectories of missiles and stuff like
+trajectories of missiles and stuff like that also IBM were developing computers
+that also IBM were developing computers for business purposes but you seem to
+for business purposes but you seem to have been the only one to think
+have been the only one to think immediately that if these machines exist
+immediately that if these machines exist they may think like us and he's
+they may think like us and he's advocating this point of view that's the
+advocating this point of view that's the purpose of his paper completely you know
+purpose of his paper completely you know against the current of uh
+activity uh he did many things he says many things in this he was very obsessed
+with analogies with the brain uh he wanted to know he believed that
+wanted to know he believed that intelligence in particular depends on
+how much memory you can have in a computer and he was asking his biologist
+computer and he was asking his biologist friends about sizes of human and other
+friends about sizes of human and other brains
+he needs to give about people you know arguing that how can machine learn and
+arguing that how can machine learn and he tell them machine learns because a
+he tell them machine learns because a machine is the argument was it's fully
+machine is the argument was it's fully prescribed it has a program he say sure
+prescribed it has a program he say sure but you know program can change itself
+but you know program can change itself and becomes a new program so all sorts
+of things we are we take for granted today and uh which yeah he first put it
+down on paper he argues very uh forcefully that uh you know against
+forcefully that uh you know against the complaint that the machine might
+machines might a you expect machines to be for forse proof uh like you going
+be for forse proof uh like you going into a car you don't want it to break
+wheel to the right but he says that uh if you want to be an INT if you want an
+if you want to be an INT if you want an intelligent machine you must allow it to
+must allow machines to do that he talks about uh the education of machines and
+about uh the education of machines and he says well like child uh
+he says well like child uh learning we are born with some initial
+learning we are born with some initial state of mind or initial programming the
+state of mind or initial programming the machine but then there are two kinds and
+machine but then there are two kinds and he distinguish them of sources of
+he distinguish them of sources of learning one is experience from whatever
+learning one is experience from whatever the environment is doing but the other
+the environment is doing but the other is education we should teach the machine
+like we teach children it was interesting during the time I was
+interesting during the time I was reading this I got valiant's new book on
+educability uh and uh where he mentions of course this statement by jri and say
+of course this statement by jri and say that in the history of machine learning
+that in the history of machine learning of course now everything changed but uh
+of course now everything changed but uh people didn't talk much about education
+and I was thinking to myself that in general in this uh comments you made you
+general in this uh comments you made you would have loved to read this book or
+errors are fundamental or the book about Circuit of the Mind where the analogies
+Circuit of the Mind where the analogies to the brain this is only vant work
+there are many of course us literature that and works that he would have loved
+that and works that he would have loved to know
+to know about
+um finally I'm getting to his main point his definition of intelligence and uh
+his definition of intelligence and uh it's again his pose is beautiful and
+it's pleasure to read he starts the paper by saying you know how do you
+paper by saying you know how do you study the question can machine
+think say well you can do what the philosophers have always done you define
+philosophers have always done you define this notion what is a machine what is it
+this notion what is a machine what is it to think and uh yeah we start discussing
+to think and uh yeah we start discussing this but he said immediately we run into
+this but he said immediately we run into problems because you will not agree with
+problems because you will not agree with my definition and we start argue about
+my definition and we start argue about the definition says instead we should
+the definition says instead we should just test it so he's rejecting the
+philosophical point of view of defining this because definitions they may not be
+this because definitions they may not be testable for fiber they don't have a
+testable for fiber they don't have a universal meaning we still argue about
+universal meaning we still argue about them and instead of that he's suggesting
+them and instead of that he's suggesting subjective behavioral definition that of
+subjective behavioral definition that of course you know and we go through uh
+these may be you know precise testable operational useful and as we shall see
+operational useful and as we shall see revolutionary so let me first tell you
+revolutionary so let me first tell you what I'm sure you know the famous
+what I'm sure you know the famous imitation game this is his way of
+imitation game this is his way of testing whether a robot or program are
+testing whether a robot or program are you intelligent or can converse with
+you intelligent or can converse with humans of course in today's chatboard
+world the issue is not whether it can be done but just the definition itself the
+done but just the definition itself the imitation game he sets up two parallel
+imitation game he sets up two parallel words in which a
+referee and you allow many referees a referee interact with one of them
+referee interact with one of them doesn't always whom and the end should
+doesn't always whom and the end should say you know I believe this is a machine
+or or just give a confidence La give number between zero and one and the way
+number between zero and one and the way you would Define intelligence is you
+know that the robo is intelligence if in this two words the referee any referee
+any human referee in t definition cannot distinguish the two the two numbers are
+distinguish the two the two numbers are very close to each other so that is
+want to tell you about how we in theoretical computer science use this
+theoretical computer science use this Paradigm paradig
+is the two things are the same if they cannot be told apart very simply by what
+cannot be told apart very simply by what by a reasonable test reason number to
+by a reasonable test reason number to the
+tasket so this I want to demonstrate the power of this Paradigm in current TS
+power of this Paradigm in current TS which has amazing impact on everything
+which has amazing impact on everything I'll give three examples very briefly um
+I'll give three examples very briefly um from crypto from sudom and from privacy
+from crypto from sudom and from privacy that I'm sure many of you have seen
+fundamental definitions in which the imitation game Paradigm is
+used and uh just to comment which is uh I guess uh is sort of obvious but has to
+I guess uh is sort of obvious but has to be repeated uh especially to students I
+be repeated uh especially to students I think is that well our field I think is
+think is that well our field I think is primarily a definition of field and
+Mathematics as well and when you have the right definitions the right Notions
+the right definitions the right Notions this is the primary objective once you
+have this often you know the right theorems theories constructions follow
+theorems theories constructions follow so we'll see some definitions using the
+game uh in cryptography what's the basic problem the basic problem is you get
+problem the basic problem is you get some encryption function what do you
+some encryption function what do you want to know whether it's aure right
+want to know whether it's aure right protect the messages so what is secure
+protect the messages so what is secure here is the famous goldbuster m
+here is the famous goldbuster m definition of secure semantic security
+definition of secure semantic security it's done by an immitation game so set
+up a limitation game between what the encryption of two different machines any
+encryption of two different machines any two different messages any two m0 and
+N1 you let the encryption encrypt them and then you send it to an arbitrary
+this adversary is efficient and it should tell whether it's m0 or M1 and if
+should tell whether it's m0 or M1 and if if the output of this machine any such
+if the output of this machine any such machine is very close and it's close
+machine is very close and it's close regardless of which two messages you
+regardless of which two messages you enry then you call the encryption
+enry then you call the encryption function secure this is a definition
+function secure this is a definition universally used in cryptography this
+universally used in cryptography this definition tells you immediately that
+definition tells you immediately that encryption secure encryption must be
+encryption secure encryption must be probabilistic the terministic function
+probabilistic the terministic function will never pass this
+test and of course we have a way of um you know making this definition real
+you know making this definition real under various
+assumptions uh this is true not just for encryption but any cryptographic
+argue the security of a given protocol let's say which runs on the internet you
+let's say which runs on the internet you want to say that some set of players
+maybe with bad players uh part of them cannot get any more information than
+cannot get any more information than they should uh you set up a limitation
+you what is it imitating against you dream up an ideal word and a word let's
+dream up an ideal word and a word let's say where there is a trusted party which
+say where there is a trusted party which I called here the
+government uh where you have the protocol that everybody send their
+information to the trusted party and you get back everybody gets back what they
+should if for every set of players this is the definition every set of players
+is the definition every set of players the communication it sees is IND
+the communication it sees is IND distinguish isable in these two
+different worlds then this p is secure because cannot be distinguished from
+because cannot be distinguished from pool played in the ideal situation so
+cryptography in a study of Randomness this is critical how do we say that the
+this is critical how do we say that the distribution when do we say that
+distribution is to the Rond again we run an imitation game against the uniform
+distribution which is the Paradigm of a perfect Randomness and if no efficient
+perfect Randomness and if no efficient algorithm can tell apart these two then
+algorithm can tell apart these two then you call it as random as the uniform
+you call it as random as the uniform distribution finally the last example
+distribution finally the last example I'm running through them quickly but I'm
+I'm running through them quickly but I'm sure they are
+know uh privacy uh the basic question there the database you want to know
+whether it safe for you to participate in this data of records of many people
+in this data of records of many people and the idea of
+filtering answers to queries using no is you know half a century old but there
+you know half a century old but there was no formal definition of when you uh
+was no formal definition of when you uh say that this is private and how private
+say that this is private and how private it is such a mechanism until this famous
+two decades ago I should say we said that such a fys mechanism is private if
+that such a fys mechanism is private if whenever you take two databases
+arbitrary two databases that depend defer only in one position adjacent
+databases let's say they defer on my name if whatever query is being asked
+name if whatever query is being asked and gets an answer using this filtering
+and gets an answer using this filtering mechanism no algorithm can you know this
+mechanism no algorithm can you know this all these ques cannot distinguish they
+all these ques cannot distinguish they behave the same on the two databases
+behave the same on the two databases then I'm happy to participate because
+then I'm happy to participate because clearly
+nothing is learned about me in particular so again limitation game
+particular so again limitation game serves as a uh bed for the definition of
+serves as a uh bed for the definition of a fundamental
+notion okay so I have five minutes for my last uh paper and this is a paper he
+my last uh paper and this is a paper he still in
+Manchester uh it's about morphogenesis he wrote a paper called the chemical
+he wrote a paper called the chemical basis of morphogenesis
+now I don't know if you knew that he did biology uh you not just L the paper on
+biology uh you not just L the paper on biology this is one of the most grossed
+biology this is one of the most grossed papers in biologies ever okay it's not
+papers in biologies ever okay it's not just an arbitary paper has the
+just an arbitary paper has the 20,000
+references uh and I want to tell you in a couple of slides what's in this paper
+a couple of slides what's in this paper so this is totally different than
+so this is totally different than anything else is there so what's the
+is one of the most fundamental problem in biology and here is the problem I
+in biology and here is the problem I mean I'm sure you see the problem right
+on you know we all start or Mama start from the same kind of starting point a
+from the same kind of starting point a homogeneous fertilized egg something
+homogeneous fertilized egg something totally
+symmetric how did it get to be the Z I mean what how you know what explain the
+mean what how you know what explain the stripes so forget the stripes what
+explain the head the tail the legs the body Direction all these things change
+body Direction all these things change from this little
+ball and it didn't just change I mean all Z balls look alike right it changes
+all Z balls look alike right it changes in a predictable way there not just that
+in a predictable way there not just that asymmetry happens this may happen
+asymmetry happens this may happen randomly it's the same asymmetry
+persistent how does it happen so I don't know about you I mean I look at this
+know about you I mean I look at this kind of problem even though I read the
+paper I read this kind of problem I saw my hands up and I move to an easier one
+my hands up and I move to an easier one like P versus MP or
+like P versus MP or something yeah what do you do what do
+something yeah what do you do what do you do and it's amazing I mean like in
+the computability paper he put his finger on a really simple very very
+finger on a really simple very very simple elegant model explaining this and
+this is one of the you know use the main explanations we have for morphogenesis I
+explanations we have for morphogenesis I want tell you the
+mod so here the again he wres beautifully it say you know in section
+beautifully it say you know in section mathematical model of the growing embryo
+will be described so no less I'm going to describe the development of an embryo
+to describe the development of an embryo in the
+womb the model will be a simplification and idealization and consequently a
+falsification it is to be hoped that the features retained for discussion are
+features retained for discussion are those of greatest importance in the
+present state of knowledge okay so I don't know a better introduction of a
+don't know a better introduction of a student in The Sciences to what the
+student in The Sciences to what the scientific method is than this paragraph
+scientific method is than this paragraph anyway here is the
+embryo a ring of cells so he's suggesting a model call uh reaction
+diffusion model it's a chemical model uh and uh he simplifies the embryo to be a
+and uh he simplifies the embryo to be a ring of
+ring of s uh he does the studies both uh discret
+s uh he does the studies both uh discret and continuous one I should this is a
+and continuous one I should this is a mathematical paper the plenty of f
+mathematical paper the plenty of f analysis
+analysis [Music]
+and spherical harmonics but he write it both to a biological audience and a
+mathematical one and it takes a lot of patience in having simple examples uh in
+patience in having simple examples uh in order to demonstrate the general
+results uh what the model like the state of the system is the quantities of
+morphogens in this cell so morphogens is the chemicals so you have chemicals a b
+the chemicals so you have chemicals a b let's say you know how many there are in
+system uh and the model says that you alternate two parts two you know Europe
+alternate two parts two you know Europe is alternating two kind of things one is
+a chemical reaction between the chemicals in each cell
+independently and then diffusion between neighboring cells to get equilibrium of
+neighboring cells to get equilibrium of the quantities and they happen in some
+the quantities and they happen in some given rate that's the
+information and initially it's a completely symmetric situation okay they
+completely symmetric situation okay they each have the same quantity of a and of
+I said and the point is that you know they have the same quantities but we are
+they have the same quantities but we are in life you know you cannot have the
+in life you know you cannot have the same number of molecules exactly of A
+same number of molecules exactly of A and B this situation happens to be in
+some cases instable so it's it's an equilibrium but it's not a stable
+equilibrium but it's not a stable equilibrium tiny tiny changes will start
+equilibrium tiny tiny changes will start something happening and then he analyzes
+something happening and then he analyzes this mathematically and he shows how
+symmetry breaks and not just symmetry breaks but our structure emerges that
+particular form it can be you know periodic structure or you have a you
+periodic structure or you have a you know uh moving uh so he analyzes all
+know uh moving uh so he analyzes all possible uh structure that emerges in uh
+possible uh structure that emerges in uh some of these cases uh there are several
+things to stress but in particular it's clear that he was thinking about what we
+clear that he was thinking about what we are doing a lot with many other Sciences
+are doing a lot with many other Sciences today
+this is a computational model he stresses that the stage Next Step
+stresses that the stage Next Step follows deterministically from the
+computational model and then the last slide I have is that tell you what he uh
+slide I have is that tell you what he uh analyzes what he
+uh studed so first I want to say this is you know nothing less than a cellular
+you know nothing less than a cellular automat
+right the model that we believe was invented by for he already has it
+invented by for he already has it various forms of s automata the first
+various forms of s automata the first one so he studed the two dimensional
+one so he studed the two dimensional ring of cells as I told you he stud in
+order to explain what's called phot taxis like the placement of leaves
+around the stem or more what really intrigued him is this hylight sort of a
+intrigued him is this hylight sort of a SE creature that if you cut it in the
+SE creature that if you cut it in the stem then you you see a ring of cells he
+stem then you you see a ring of cells he said now
+these tentacles will grow but they will not grow out of every cell in the circle
+not grow out of every cell in the circle they grow out of some of them there'll
+be five or six why how does it happen even though it's all symmetric so this
+even though it's all symmetric so this this paper explains this he really goes
+this paper explains this he really goes for the embryo when threedimensional
+model he's trying to explain the you know people with kids who know it better
+than people without kids you may know that in the first uh two weeks the fetus
+that in the first uh two weeks the fetus is in a blastula stage where you know
+is in a blastula stage where you know the cell is dividing but still looks
+the cell is dividing but still looks like a ball of s and then in the third
+week you know something happen the direction is formed really the spine
+direction is formed really the spine form moves to the gastation to the Gast
+form moves to the gastation to the Gast phase and he does the analysis of the
+threedimensional case and he predicts and shows how gastation arises and he
+planer greed in order to understand dling you know the Pates of color and uh
+dling you know the Pates of color and uh here he doesn't mathematically analyze
+it but he actually just run simulations on the M Manchester machine he had every
+on the M Manchester machine he had every Sunday night and every Thursday night
+the computer was hit and he was working on night programming and simulating and
+on night programming and simulating and and doing also chess Ando but okay so uh
+and doing also chess Ando but okay so uh yeah as I mentioned you know we do uh uh
+yeah as I mentioned you know we do uh uh lot of following following in
+lot of following following in interaction with you know almost all
+Sciences so summarizing uh
+yeah it's it's just beautiful it's hard to describe so it's OB
+I say some obvious things what a a great thinker was and the impact he he managed
+thinker was and the impact he he managed to have uh you get a sense from
+to have uh you get a sense from different reading different things that
+different reading different things that he was at the same time clearly you saw
+most basically but he had a very strong philosophical band and was interested in
+philosophical band and was interested in the you know sort of higher level issues
+but you Al when you read his work on computers and on programming you
+understand what the Hecker was I mean he was interested in electromechanical
+was interested in electromechanical properties of all the devices that he
+was uh he needed for these early computers and he was an AV
+computers and he was an AV programmer uh very
+diverse uh he yeah as you saw he contemplated things he consider
+contemplated things he consider fundamental and
+uh he seemed to have been totally Fearless uh I told you when discussing
+Fearless uh I told you when discussing the war that he understood that the
+the war that he understood that the theoretical understanding is primary to
+theoretical understanding is primary to implementation you'll be much better off
+implementation you'll be much better off uh if you first have a
+uh if you first have a theory uh he was very critical very
+theory uh he was very critical very judgmental and he was brutally honest
+you see this in the artificial intelligence paper it's really
+interesting that I told you he responses to various objections about
+responses to various objections about intelligence of machines but he also
+intelligence of machines but he also evaluates his responses he says in this
+case let's say the theological objection my argument
+shatters there but on another issue another kind of objection I have this
+another kind of objection I have this response is not so strong i' better
+response is not so strong i' better improve it so he's critical on himself
+improve it so he's critical on himself yeah he's his Clarity of thinking is
+yeah he's his Clarity of thinking is just amazing and also the clarity of his
+this think Einstein said that models should be as simple as possible but not
+should be as simple as possible but not simpler and I think yeah his mother
+simpler and I think yeah his mother suddenly fit the bit
+and he wrot very few papers and he WR them only after he was completely you
+them only after he was completely you know he exhausted what he know okay
+know he exhausted what he know okay that's my favorite last slide
+that's my favorite last slide anybody want want to read not about
+anybody want want to read not about paper touring but about complexity
+Theory and doesn't know I I heard the conversation here the before the talk of
+conversation here the before the talk of someone coming from a very different
+someone coming from a very different area maybe literature anyway that's an
+area maybe literature anyway that's an invitation to my feet thank you
+thanks Sai for the inspiring distillation of tuning's Legacy have
+distillation of tuning's Legacy have time for a couple of questions I know
+people next next yeah let them leave and
+then in your reading of curing did you encounter any non interaction with
+encounter any non interaction with quantum mechanics
+sorry sorry um thank you so much for the awesome talk uh when you were talking
+awesome talk uh when you were talking about like the the use of the imitation
+about like the the use of the imitation game in some of theph groups you note
+that sorry sorry the definition um we talk about how the the definitions make
+talk about how the the definitions make sure that only like a non-determined
+sure that only like a non-determined procedure would be able to satisfy them
+just and you think the the case of the original Imitation G again there's no
+original Imitation G again there's no nothing about
+nothing about DET no
+also and we also know the end of the story The Last
+CP anyway was important to me
+for okay um so when to wrote his paper about Randomness and computation did he
+about Randomness and computation did he refer back to his non-deterministic
+refer back to his non-deterministic machines because that seems obvious but
+there would be an obvious connection to put Randomness at the non-deterministic
+put Randomness at the non-deterministic points absolutely
+question thanks for the talk you mentioned that in
+1930s um G toring and church um each came up with their own version of model
+came up with their own version of model of computation so why did gero and
+of computation so why did gero and church think that tyan model is more
+church think that tyan model is more like is better
+I don't have it in front of me so I can't quote it exactly but he says where
+can't quote it exactly but he says where he's developing the turing machine in
+he's developing the turing machine in that paper he says the very first
+sentence um he's very interested in computable real
+numbers um and that's the motivation for what he's doing but he's not going to
+what he's doing but he's not going to talk about it in this paper he'll do it
+talk about it in this paper he'll do it other times now his definition at the
+other times now his definition at the beginning is one that other people
+picked up later people like Marian pel called uh computable uh real analysis I
+called uh computable uh real analysis I think it's recursive analysis where they
+think it's recursive analysis where they talk about real real computation over
+talk about real real computation over this numbers that you can actually
+generate let's say with Oracle um and he never ever talks about it ever again the
+never ever talks about it ever again the only time he talks about real
+only time he talks about real computation is a paper that you didn't
+talk about it's his 48 paper where he talks you call numeric analysis where he
+talks you call numeric analysis where he actually does talk about Computing over
+actually does talk about Computing over the real numbers and he doesn't he
+the real numbers and he doesn't he explicitly does not talk about his
+explicitly does not talk about his original paper he talks about let's
+original paper he talks about let's assume we have a real number a and a
+together let's assume we have an A and A B and we can multiply them together
+B and we can multiply them together let's look at matrices and actually so
+let's look at matrices and actually so when he comes back to real computation
+when he comes back to real computation he totally discards his initial sentence
+he totally discards his initial sentence in that that most important paper
+and his notion of condition there is exactly the correct notion to convert a
+exactly the correct notion to convert a real computation to discrete
+computation and that's a jender that is in fact the importance of that paper
+in fact the importance of that paper we'll talk about it
+all right so um okay maybe one more question and
+then uh maybe this is a little bit of a speculative question but if if Turing
+speculative question but if if Turing had had another 10 or 30 years of of
+mathematical life what what directions might he have been pursued or maybe in
+might he have been pursued or maybe in then the very very concrete version of
+then the very very concrete version of that is did he have students
+I ask two questions about so first one is you mention
+that atast the question San
+Francisco yeah I think it's CED it's recorded because
+CED it's recorded because I it
+depends better the second time I enjoy yeah you heard it you heard it the first
+yeah you heard it you heard it the first first time I think the first time yeah
+yeah before I gave it to a Jun
+yeah back I will walk with them yeah I walk with how long are you around uh we
+walk with how long are you around uh we are here till Friday okay do you want to
+meet we have some send me email okay I'll send you email okay I have to go
+yeah yeah good to see you yeah I was wondering if I see you now you're here
+okay so the first question is for T Test those kind of
+security yeah so like does that mean like if we if people do Safety Research
+like if we if people do Safety Research they usually need to evaluate their
+they usually need to evaluate their approach against some efficient
+algorithm or some no it's just a definition it's just a definition and
+definition it's just a definition and now you people design encryption schemes
+now you people design encryption schemes and you want to test them this
+definition so as you probably know most encryption schemes are based on some
+encryption schemes are based on some mathematical assumptions like that
+factor integers is difficult so what you need to prove that meet the definition
+need to prove that meet the definition you say if there was some efficient
+you say if there was some efficient procedure distinguishing two
+messages then you could break Factor all so we don't really have a attack model
+so we don't really have a attack model no no no it's just a reduction the
+no no no it's just a reduction the definition allows you to to perform
+definition allows you to to perform reduction to say I I if if it violated
+the definition it will violate an assumption that's very clean and easy to
+understand that's how it work and the other thing is like how do we know the p
+peopleim yes this is theu they say there's a non difference
+And1 how how like for example they use one way they get one no no they don't
+one way they get one no no they don't use they just say hypothetically suppose
+use they just say hypothetically suppose my crypto system could be broken broken
+my crypto system could be broken broken means the definition could be broken
+namely I have an algorithm of this efficient that
+can say whether it's m M1 is Advantage with a gap of let's say one of okay okay
+with a gap of let's say one of okay okay the this will be a violation
+and then they prove that if there was such a hypothetical argum algorithm they
+could use it in a clever way and suddenly they get the factor algorithm I
+suddenly they get the factor algorithm I see so they prove they need to prove
+see so they prove they need to prove there is a gap first no they need to

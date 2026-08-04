@@ -1,0 +1,29 @@
+{
+  "slug": "quantum-information",
+  "videos": [
+    {
+      "id": "g_IaVepNDT4",
+      "title": "Veritasium — How does a quantum computer work?",
+      "has_transcript": true,
+      "chars": 5915,
+      "units": 5,
+      "url": "https://www.youtube.com/watch?v=g_IaVepNDT4"
+    },
+    {
+      "id": "zNzzGgr2mhk",
+      "title": "Veritasium — How to make a quantum bit",
+      "has_transcript": true,
+      "chars": 8029,
+      "units": 6,
+      "url": "https://www.youtube.com/watch?v=zNzzGgr2mhk"
+    },
+    {
+      "id": "MvSYyxZcAr8",
+      "title": "Ronald de Wolf — Intro to Quantum Computing (lecture 1)",
+      "has_transcript": true,
+      "chars": 90755,
+      "units": 62,
+      "url": "https://www.youtube.com/watch?v=MvSYyxZcAr8"
+    }
+  ]
+}

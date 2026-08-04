@@ -1,0 +1,1092 @@
+[
+  {
+    "t_start": 1.9100000000000001,
+    "t_end": 1.92,
+    "text": "hello everyone welcome back to wrath of"
+  },
+  {
+    "t_start": 1.92,
+    "t_end": 3.949,
+    "text": "hello everyone welcome back to wrath of math I'm your host Sean Ian's in today's"
+  },
+  {
+    "t_start": 3.949,
+    "t_end": 3.959,
+    "text": "math I'm your host Sean Ian's in today's"
+  },
+  {
+    "t_start": 3.959,
+    "t_end": 5.93,
+    "text": "math I'm your host Sean Ian's in today's video we will be proving that there are"
+  },
+  {
+    "t_start": 5.93,
+    "t_end": 5.9399999999999995,
+    "text": "video we will be proving that there are"
+  },
+  {
+    "t_start": 5.9399999999999995,
+    "t_end": 7.9399999999999995,
+    "text": "video we will be proving that there are an infinite amount of prime numbers"
+  },
+  {
+    "t_start": 7.9399999999999995,
+    "t_end": 7.95,
+    "text": "an infinite amount of prime numbers"
+  },
+  {
+    "t_start": 7.95,
+    "t_end": 10.759,
+    "text": "an infinite amount of prime numbers seems like a super important result so"
+  },
+  {
+    "t_start": 10.759,
+    "t_end": 10.769,
+    "text": "seems like a super important result so"
+  },
+  {
+    "t_start": 10.769,
+    "t_end": 12.44,
+    "text": "seems like a super important result so you would think that it might be kind of"
+  },
+  {
+    "t_start": 12.44,
+    "t_end": 12.45,
+    "text": "you would think that it might be kind of"
+  },
+  {
+    "t_start": 12.45,
+    "t_end": 14.839,
+    "text": "you would think that it might be kind of challenging to prove because it's such a"
+  },
+  {
+    "t_start": 14.839,
+    "t_end": 14.849,
+    "text": "challenging to prove because it's such a"
+  },
+  {
+    "t_start": 14.849,
+    "t_end": 17.57,
+    "text": "challenging to prove because it's such a fantastic and fundamental result but it"
+  },
+  {
+    "t_start": 17.57,
+    "t_end": 17.58,
+    "text": "fantastic and fundamental result but it"
+  },
+  {
+    "t_start": 17.58,
+    "t_end": 19.64,
+    "text": "fantastic and fundamental result but it is not it's very easy and it's very cool"
+  },
+  {
+    "t_start": 19.64,
+    "t_end": 19.65,
+    "text": "is not it's very easy and it's very cool"
+  },
+  {
+    "t_start": 19.65,
+    "t_end": 21.29,
+    "text": "is not it's very easy and it's very cool so let's get right into it proving that"
+  },
+  {
+    "t_start": 21.29,
+    "t_end": 21.3,
+    "text": "so let's get right into it proving that"
+  },
+  {
+    "t_start": 21.3,
+    "t_end": 23.81,
+    "text": "so let's get right into it proving that there are infinite prime numbers and as"
+  },
+  {
+    "t_start": 23.81,
+    "t_end": 23.82,
+    "text": "there are infinite prime numbers and as"
+  },
+  {
+    "t_start": 23.82,
+    "t_end": 25.189,
+    "text": "there are infinite prime numbers and as usual I'm not going to write out the"
+  },
+  {
+    "t_start": 25.189,
+    "t_end": 25.199,
+    "text": "usual I'm not going to write out the"
+  },
+  {
+    "t_start": 25.199,
+    "t_end": 26.839,
+    "text": "usual I'm not going to write out the whole proof formally I will just walk"
+  },
+  {
+    "t_start": 26.839,
+    "t_end": 26.849,
+    "text": "whole proof formally I will just walk"
+  },
+  {
+    "t_start": 26.849,
+    "t_end": 28.58,
+    "text": "whole proof formally I will just walk you through it and if you're looking to"
+  },
+  {
+    "t_start": 28.58,
+    "t_end": 28.59,
+    "text": "you through it and if you're looking to"
+  },
+  {
+    "t_start": 28.59,
+    "t_end": 30.679,
+    "text": "you through it and if you're looking to write the proof formally these lessons"
+  },
+  {
+    "t_start": 30.679,
+    "t_end": 30.689,
+    "text": "write the proof formally these lessons"
+  },
+  {
+    "t_start": 30.689,
+    "t_end": 32.089,
+    "text": "write the proof formally these lessons should give you a perfectly good idea of"
+  },
+  {
+    "t_start": 32.089,
+    "t_end": 32.099,
+    "text": "should give you a perfectly good idea of"
+  },
+  {
+    "t_start": 32.099,
+    "t_end": 34.31,
+    "text": "should give you a perfectly good idea of how to do so so for starters we're going"
+  },
+  {
+    "t_start": 34.31,
+    "t_end": 34.32,
+    "text": "how to do so so for starters we're going"
+  },
+  {
+    "t_start": 34.32,
+    "t_end": 35.93,
+    "text": "how to do so so for starters we're going to assume the opposite of what we're"
+  },
+  {
+    "t_start": 35.93,
+    "t_end": 35.94,
+    "text": "to assume the opposite of what we're"
+  },
+  {
+    "t_start": 35.94,
+    "t_end": 37.549,
+    "text": "to assume the opposite of what we're trying to prove is true so we're going"
+  },
+  {
+    "t_start": 37.549,
+    "t_end": 37.559,
+    "text": "trying to prove is true so we're going"
+  },
+  {
+    "t_start": 37.559,
+    "t_end": 39.74,
+    "text": "trying to prove is true so we're going to assume that there are a finite number"
+  },
+  {
+    "t_start": 39.74,
+    "t_end": 39.75,
+    "text": "to assume that there are a finite number"
+  },
+  {
+    "t_start": 39.75,
+    "t_end": 42.17,
+    "text": "to assume that there are a finite number of primes so we're assuming there's a"
+  },
+  {
+    "t_start": 42.17,
+    "t_end": 42.18,
+    "text": "of primes so we're assuming there's a"
+  },
+  {
+    "t_start": 42.18,
+    "t_end": 44.69,
+    "text": "of primes so we're assuming there's a finite number we'll say n of primes that"
+  },
+  {
+    "t_start": 44.69,
+    "t_end": 44.7,
+    "text": "finite number we'll say n of primes that"
+  },
+  {
+    "t_start": 44.7,
+    "t_end": 47.54,
+    "text": "finite number we'll say n of primes that means there are n Prime's some finite"
+  },
+  {
+    "t_start": 47.54,
+    "t_end": 47.55,
+    "text": "means there are n Prime's some finite"
+  },
+  {
+    "t_start": 47.55,
+    "t_end": 50.389,
+    "text": "means there are n Prime's some finite number so let's take the product of all"
+  },
+  {
+    "t_start": 50.389,
+    "t_end": 50.399,
+    "text": "number so let's take the product of all"
+  },
+  {
+    "t_start": 50.399,
+    "t_end": 53.36,
+    "text": "number so let's take the product of all those Prime's P sub 1 multiplied by P"
+  },
+  {
+    "t_start": 53.36,
+    "t_end": 53.37,
+    "text": "those Prime's P sub 1 multiplied by P"
+  },
+  {
+    "t_start": 53.37,
+    "t_end": 57.26,
+    "text": "those Prime's P sub 1 multiplied by P sub 2 multiplied by P sub 3 all the way"
+  },
+  {
+    "t_start": 57.26,
+    "t_end": 57.27,
+    "text": "sub 2 multiplied by P sub 3 all the way"
+  },
+  {
+    "t_start": 57.27,
+    "t_end": 60.74,
+    "text": "sub 2 multiplied by P sub 3 all the way up to multiplying by P sub n the nth"
+  },
+  {
+    "t_start": 60.74,
+    "t_end": 60.75,
+    "text": "up to multiplying by P sub n the nth"
+  },
+  {
+    "t_start": 60.75,
+    "t_end": 63.29,
+    "text": "up to multiplying by P sub n the nth prime which based on our assumption that"
+  },
+  {
+    "t_start": 63.29,
+    "t_end": 63.3,
+    "text": "prime which based on our assumption that"
+  },
+  {
+    "t_start": 63.3,
+    "t_end": 64.49,
+    "text": "prime which based on our assumption that there's n Prime's"
+  },
+  {
+    "t_start": 64.49,
+    "t_end": 64.5,
+    "text": "there's n Prime's"
+  },
+  {
+    "t_start": 64.5,
+    "t_end": 66.59,
+    "text": "there's n Prime's is our last prime so we are multiplying"
+  },
+  {
+    "t_start": 66.59,
+    "t_end": 66.6,
+    "text": "is our last prime so we are multiplying"
+  },
+  {
+    "t_start": 66.6,
+    "t_end": 69.02,
+    "text": "is our last prime so we are multiplying all Prime's together I'll put a little"
+  },
+  {
+    "t_start": 69.02,
+    "t_end": 69.03,
+    "text": "all Prime's together I'll put a little"
+  },
+  {
+    "t_start": 69.03,
+    "t_end": 71.33,
+    "text": "all Prime's together I'll put a little multiplication symbol there too we're"
+  },
+  {
+    "t_start": 71.33,
+    "t_end": 71.34,
+    "text": "multiplication symbol there too we're"
+  },
+  {
+    "t_start": 71.34,
+    "t_end": 74.179,
+    "text": "multiplication symbol there too we're going to take this number and add 1 to"
+  },
+  {
+    "t_start": 74.179,
+    "t_end": 74.189,
+    "text": "going to take this number and add 1 to"
+  },
+  {
+    "t_start": 74.189,
+    "t_end": 76.07,
+    "text": "going to take this number and add 1 to it and we're going to say that this"
+  },
+  {
+    "t_start": 76.07,
+    "t_end": 76.08,
+    "text": "it and we're going to say that this"
+  },
+  {
+    "t_start": 76.08,
+    "t_end": 79.64,
+    "text": "it and we're going to say that this number is equal to P so P is equal to"
+  },
+  {
+    "t_start": 79.64,
+    "t_end": 79.65,
+    "text": "number is equal to P so P is equal to"
+  },
+  {
+    "t_start": 79.65,
+    "t_end": 82.07,
+    "text": "number is equal to P so P is equal to the product of all of our primes some"
+  },
+  {
+    "t_start": 82.07,
+    "t_end": 82.08,
+    "text": "the product of all of our primes some"
+  },
+  {
+    "t_start": 82.08,
+    "t_end": 85.19,
+    "text": "the product of all of our primes some finite number n of primes plus 1 so now"
+  },
+  {
+    "t_start": 85.19,
+    "t_end": 85.2,
+    "text": "finite number n of primes plus 1 so now"
+  },
+  {
+    "t_start": 85.2,
+    "t_end": 87.53,
+    "text": "finite number n of primes plus 1 so now notice that PN is our largest prime"
+  },
+  {
+    "t_start": 87.53,
+    "t_end": 87.54,
+    "text": "notice that PN is our largest prime"
+  },
+  {
+    "t_start": 87.54,
+    "t_end": 90.05,
+    "text": "notice that PN is our largest prime right it's our last prime we also know"
+  },
+  {
+    "t_start": 90.05,
+    "t_end": 90.06,
+    "text": "right it's our last prime we also know"
+  },
+  {
+    "t_start": 90.06,
+    "t_end": 92.63,
+    "text": "right it's our last prime we also know that P is bigger than any of the Prime's"
+  },
+  {
+    "t_start": 92.63,
+    "t_end": 92.64,
+    "text": "that P is bigger than any of the Prime's"
+  },
+  {
+    "t_start": 92.64,
+    "t_end": 94.88,
+    "text": "that P is bigger than any of the Prime's because it's the product of all of them"
+  },
+  {
+    "t_start": 94.88,
+    "t_end": 94.89,
+    "text": "because it's the product of all of them"
+  },
+  {
+    "t_start": 94.89,
+    "t_end": 97.88,
+    "text": "because it's the product of all of them plus 1 so it's absolutely bigger than"
+  },
+  {
+    "t_start": 97.88,
+    "t_end": 97.89,
+    "text": "plus 1 so it's absolutely bigger than"
+  },
+  {
+    "t_start": 97.89,
+    "t_end": 99.59,
+    "text": "plus 1 so it's absolutely bigger than every single prime number that we have"
+  },
+  {
+    "t_start": 99.59,
+    "t_end": 99.6,
+    "text": "every single prime number that we have"
+  },
+  {
+    "t_start": 99.6,
+    "t_end": 101.749,
+    "text": "every single prime number that we have therefore by the fundamental theorem of"
+  },
+  {
+    "t_start": 101.749,
+    "t_end": 101.759,
+    "text": "therefore by the fundamental theorem of"
+  },
+  {
+    "t_start": 101.759,
+    "t_end": 104.12,
+    "text": "therefore by the fundamental theorem of arithmetic it must be divisible by at"
+  },
+  {
+    "t_start": 104.12,
+    "t_end": 104.13,
+    "text": "arithmetic it must be divisible by at"
+  },
+  {
+    "t_start": 104.13,
+    "t_end": 106.73,
+    "text": "arithmetic it must be divisible by at least one of our Prime's so we can say"
+  },
+  {
+    "t_start": 106.73,
+    "t_end": 106.74,
+    "text": "least one of our Prime's so we can say"
+  },
+  {
+    "t_start": 106.74,
+    "t_end": 110.27,
+    "text": "least one of our Prime's so we can say that some prime P sub M divides our"
+  },
+  {
+    "t_start": 110.27,
+    "t_end": 110.28,
+    "text": "that some prime P sub M divides our"
+  },
+  {
+    "t_start": 110.28,
+    "t_end": 112.85,
+    "text": "that some prime P sub M divides our number P however we see that no matter"
+  },
+  {
+    "t_start": 112.85,
+    "t_end": 112.86,
+    "text": "number P however we see that no matter"
+  },
+  {
+    "t_start": 112.86,
+    "t_end": 115.969,
+    "text": "number P however we see that no matter what prime number we divide P by we will"
+  },
+  {
+    "t_start": 115.969,
+    "t_end": 115.979,
+    "text": "what prime number we divide P by we will"
+  },
+  {
+    "t_start": 115.979,
+    "t_end": 118.58,
+    "text": "what prime number we divide P by we will have a remainder of 1 no matter what"
+  },
+  {
+    "t_start": 118.58,
+    "t_end": 118.59,
+    "text": "have a remainder of 1 no matter what"
+  },
+  {
+    "t_start": 118.59,
+    "t_end": 121.52,
+    "text": "have a remainder of 1 no matter what because P is defined by being a multiple"
+  },
+  {
+    "t_start": 121.52,
+    "t_end": 121.53,
+    "text": "because P is defined by being a multiple"
+  },
+  {
+    "t_start": 121.53,
+    "t_end": 125.06,
+    "text": "because P is defined by being a multiple of every single prime plus 1 so it's one"
+  },
+  {
+    "t_start": 125.06,
+    "t_end": 125.07,
+    "text": "of every single prime plus 1 so it's one"
+  },
+  {
+    "t_start": 125.07,
+    "t_end": 127.94,
+    "text": "of every single prime plus 1 so it's one more than a multiple of any prime number"
+  },
+  {
+    "t_start": 127.94,
+    "t_end": 127.95,
+    "text": "more than a multiple of any prime number"
+  },
+  {
+    "t_start": 127.95,
+    "t_end": 132.589,
+    "text": "more than a multiple of any prime number so P is equal to P sub M times some"
+  },
+  {
+    "t_start": 132.589,
+    "t_end": 132.599,
+    "text": "so P is equal to P sub M times some"
+  },
+  {
+    "t_start": 132.599,
+    "t_end": 133.61,
+    "text": "so P is equal to P sub M times some integer K"
+  },
+  {
+    "t_start": 133.61,
+    "t_end": 133.62,
+    "text": "integer K"
+  },
+  {
+    "t_start": 133.62,
+    "t_end": 137.24,
+    "text": "integer K plus one therefore this prime number"
+  },
+  {
+    "t_start": 137.24,
+    "t_end": 137.25,
+    "text": "plus one therefore this prime number"
+  },
+  {
+    "t_start": 137.25,
+    "t_end": 140.449,
+    "text": "plus one therefore this prime number piece of M doesn't divide P which is a"
+  },
+  {
+    "t_start": 140.449,
+    "t_end": 140.459,
+    "text": "piece of M doesn't divide P which is a"
+  },
+  {
+    "t_start": 140.459,
+    "t_end": 143.089,
+    "text": "piece of M doesn't divide P which is a contradiction and therefore our original"
+  },
+  {
+    "t_start": 143.089,
+    "t_end": 143.099,
+    "text": "contradiction and therefore our original"
+  },
+  {
+    "t_start": 143.099,
+    "t_end": 144.559,
+    "text": "contradiction and therefore our original assumption that there's a finite number"
+  },
+  {
+    "t_start": 144.559,
+    "t_end": 144.569,
+    "text": "assumption that there's a finite number"
+  },
+  {
+    "t_start": 144.569,
+    "t_end": 146.96,
+    "text": "assumption that there's a finite number of primes must be false"
+  },
+  {
+    "t_start": 146.96,
+    "t_end": 146.97,
+    "text": "of primes must be false"
+  },
+  {
+    "t_start": 146.97,
+    "t_end": 149.18,
+    "text": "of primes must be false therefore there are an infinite number"
+  },
+  {
+    "t_start": 149.18,
+    "t_end": 149.19,
+    "text": "therefore there are an infinite number"
+  },
+  {
+    "t_start": 149.19,
+    "t_end": 150.229,
+    "text": "therefore there are an infinite number of primes"
+  },
+  {
+    "t_start": 150.229,
+    "t_end": 150.239,
+    "text": "of primes"
+  },
+  {
+    "t_start": 150.239,
+    "t_end": 151.699,
+    "text": "of primes so just to walk you through that one"
+  },
+  {
+    "t_start": 151.699,
+    "t_end": 151.709,
+    "text": "so just to walk you through that one"
+  },
+  {
+    "t_start": 151.709,
+    "t_end": 153.83,
+    "text": "so just to walk you through that one more time we suppose for the sake of"
+  },
+  {
+    "t_start": 153.83,
+    "t_end": 153.84,
+    "text": "more time we suppose for the sake of"
+  },
+  {
+    "t_start": 153.84,
+    "t_end": 155.78,
+    "text": "more time we suppose for the sake of contradiction there's a finite number n"
+  },
+  {
+    "t_start": 155.78,
+    "t_end": 155.79,
+    "text": "contradiction there's a finite number n"
+  },
+  {
+    "t_start": 155.79,
+    "t_end": 159.11,
+    "text": "contradiction there's a finite number n of primes we let some number P be the"
+  },
+  {
+    "t_start": 159.11,
+    "t_end": 159.12,
+    "text": "of primes we let some number P be the"
+  },
+  {
+    "t_start": 159.12,
+    "t_end": 163.52,
+    "text": "of primes we let some number P be the product of all N Prime's plus 1 then we"
+  },
+  {
+    "t_start": 163.52,
+    "t_end": 163.53,
+    "text": "product of all N Prime's plus 1 then we"
+  },
+  {
+    "t_start": 163.53,
+    "t_end": 165.5,
+    "text": "product of all N Prime's plus 1 then we know that P is bigger than all of our"
+  },
+  {
+    "t_start": 165.5,
+    "t_end": 165.51,
+    "text": "know that P is bigger than all of our"
+  },
+  {
+    "t_start": 165.51,
+    "t_end": 167.39,
+    "text": "know that P is bigger than all of our prime numbers because it's the product"
+  },
+  {
+    "t_start": 167.39,
+    "t_end": 167.4,
+    "text": "prime numbers because it's the product"
+  },
+  {
+    "t_start": 167.4,
+    "t_end": 168.41,
+    "text": "prime numbers because it's the product of all of them"
+  },
+  {
+    "t_start": 168.41,
+    "t_end": 168.42,
+    "text": "of all of them"
+  },
+  {
+    "t_start": 168.42,
+    "t_end": 170.78,
+    "text": "of all of them with an additional one added to boot so"
+  },
+  {
+    "t_start": 170.78,
+    "t_end": 170.79,
+    "text": "with an additional one added to boot so"
+  },
+  {
+    "t_start": 170.79,
+    "t_end": 171.979,
+    "text": "with an additional one added to boot so we know it's bigger than all of them"
+  },
+  {
+    "t_start": 171.979,
+    "t_end": 171.989,
+    "text": "we know it's bigger than all of them"
+  },
+  {
+    "t_start": 171.989,
+    "t_end": 174.02,
+    "text": "we know it's bigger than all of them therefore by the fundamental theorem of"
+  },
+  {
+    "t_start": 174.02,
+    "t_end": 174.03,
+    "text": "therefore by the fundamental theorem of"
+  },
+  {
+    "t_start": 174.03,
+    "t_end": 176.059,
+    "text": "therefore by the fundamental theorem of arithmetic which says that every number"
+  },
+  {
+    "t_start": 176.059,
+    "t_end": 176.069,
+    "text": "arithmetic which says that every number"
+  },
+  {
+    "t_start": 176.069,
+    "t_end": 178.19,
+    "text": "arithmetic which says that every number either is prime or can be uniquely"
+  },
+  {
+    "t_start": 178.19,
+    "t_end": 178.2,
+    "text": "either is prime or can be uniquely"
+  },
+  {
+    "t_start": 178.2,
+    "t_end": 180.86,
+    "text": "either is prime or can be uniquely factored into Prime's we know that at"
+  },
+  {
+    "t_start": 180.86,
+    "t_end": 180.87,
+    "text": "factored into Prime's we know that at"
+  },
+  {
+    "t_start": 180.87,
+    "t_end": 183.199,
+    "text": "factored into Prime's we know that at least one of our prime numbers has to"
+  },
+  {
+    "t_start": 183.199,
+    "t_end": 183.209,
+    "text": "least one of our prime numbers has to"
+  },
+  {
+    "t_start": 183.209,
+    "t_end": 185.569,
+    "text": "least one of our prime numbers has to divide P however because of how we"
+  },
+  {
+    "t_start": 185.569,
+    "t_end": 185.579,
+    "text": "divide P however because of how we"
+  },
+  {
+    "t_start": 185.579,
+    "t_end": 188.78,
+    "text": "divide P however because of how we defined P we know that P is one greater"
+  },
+  {
+    "t_start": 188.78,
+    "t_end": 188.79,
+    "text": "defined P we know that P is one greater"
+  },
+  {
+    "t_start": 188.79,
+    "t_end": 192.35,
+    "text": "defined P we know that P is one greater than a multiple of any single one of our"
+  },
+  {
+    "t_start": 192.35,
+    "t_end": 192.36,
+    "text": "than a multiple of any single one of our"
+  },
+  {
+    "t_start": 192.36,
+    "t_end": 194.75,
+    "text": "than a multiple of any single one of our Prime's therefore by definition of"
+  },
+  {
+    "t_start": 194.75,
+    "t_end": 194.76,
+    "text": "Prime's therefore by definition of"
+  },
+  {
+    "t_start": 194.76,
+    "t_end": 198.05,
+    "text": "Prime's therefore by definition of divides P sub m does not divide P"
+  },
+  {
+    "t_start": 198.05,
+    "t_end": 198.06,
+    "text": "divides P sub m does not divide P"
+  },
+  {
+    "t_start": 198.06,
+    "t_end": 201.11,
+    "text": "divides P sub m does not divide P because P is equal to one greater than a"
+  },
+  {
+    "t_start": 201.11,
+    "t_end": 201.12,
+    "text": "because P is equal to one greater than a"
+  },
+  {
+    "t_start": 201.12,
+    "t_end": 204.17,
+    "text": "because P is equal to one greater than a multiple of any prime that we have and"
+  },
+  {
+    "t_start": 204.17,
+    "t_end": 204.18,
+    "text": "multiple of any prime that we have and"
+  },
+  {
+    "t_start": 204.18,
+    "t_end": 206.21,
+    "text": "multiple of any prime that we have and that's a contradiction because we have"
+  },
+  {
+    "t_start": 206.21,
+    "t_end": 206.22,
+    "text": "that's a contradiction because we have"
+  },
+  {
+    "t_start": 206.22,
+    "t_end": 210.02,
+    "text": "that's a contradiction because we have both P sub M divides P and P is one"
+  },
+  {
+    "t_start": 210.02,
+    "t_end": 210.03,
+    "text": "both P sub M divides P and P is one"
+  },
+  {
+    "t_start": 210.03,
+    "t_end": 212.9,
+    "text": "both P sub M divides P and P is one greater than a multiple of P sub M which"
+  },
+  {
+    "t_start": 212.9,
+    "t_end": 212.91,
+    "text": "greater than a multiple of P sub M which"
+  },
+  {
+    "t_start": 212.91,
+    "t_end": 215.059,
+    "text": "greater than a multiple of P sub M which means the piece of m does not divide P"
+  },
+  {
+    "t_start": 215.059,
+    "t_end": 215.069,
+    "text": "means the piece of m does not divide P"
+  },
+  {
+    "t_start": 215.069,
+    "t_end": 217.25,
+    "text": "means the piece of m does not divide P that's our contradiction which lets us"
+  },
+  {
+    "t_start": 217.25,
+    "t_end": 217.26,
+    "text": "that's our contradiction which lets us"
+  },
+  {
+    "t_start": 217.26,
+    "t_end": 219.44,
+    "text": "that's our contradiction which lets us know that our initial assumption has to"
+  },
+  {
+    "t_start": 219.44,
+    "t_end": 219.45,
+    "text": "know that our initial assumption has to"
+  },
+  {
+    "t_start": 219.45,
+    "t_end": 221.599,
+    "text": "know that our initial assumption has to be false and therefore the opposite is"
+  },
+  {
+    "t_start": 221.599,
+    "t_end": 221.609,
+    "text": "be false and therefore the opposite is"
+  },
+  {
+    "t_start": 221.609,
+    "t_end": 221.9,
+    "text": "be false and therefore the opposite is true"
+  },
+  {
+    "t_start": 221.9,
+    "t_end": 221.91,
+    "text": "true"
+  },
+  {
+    "t_start": 221.91,
+    "t_end": 223.52,
+    "text": "true and that's how you prove that there's an"
+  },
+  {
+    "t_start": 223.52,
+    "t_end": 223.53,
+    "text": "and that's how you prove that there's an"
+  },
+  {
+    "t_start": 223.53,
+    "t_end": 225.08,
+    "text": "and that's how you prove that there's an infinite number of primes there's tons"
+  },
+  {
+    "t_start": 225.08,
+    "t_end": 225.09,
+    "text": "infinite number of primes there's tons"
+  },
+  {
+    "t_start": 225.09,
+    "t_end": 226.61,
+    "text": "infinite number of primes there's tons of ways to do it this is just one of the"
+  },
+  {
+    "t_start": 226.61,
+    "t_end": 226.62,
+    "text": "of ways to do it this is just one of the"
+  },
+  {
+    "t_start": 226.62,
+    "t_end": 228.47,
+    "text": "of ways to do it this is just one of the ways you can I'll probably show a few"
+  },
+  {
+    "t_start": 228.47,
+    "t_end": 228.48,
+    "text": "ways you can I'll probably show a few"
+  },
+  {
+    "t_start": 228.48,
+    "t_end": 229.879,
+    "text": "ways you can I'll probably show a few others as time goes forward let me know"
+  },
+  {
+    "t_start": 229.879,
+    "t_end": 229.889,
+    "text": "others as time goes forward let me know"
+  },
+  {
+    "t_start": 229.889,
+    "t_end": 230.78,
+    "text": "others as time goes forward let me know in the comments if you have any"
+  },
+  {
+    "t_start": 230.78,
+    "t_end": 230.79,
+    "text": "in the comments if you have any"
+  },
+  {
+    "t_start": 230.79,
+    "t_end": 233.21,
+    "text": "in the comments if you have any questions about the video I think it's a"
+  },
+  {
+    "t_start": 233.21,
+    "t_end": 233.22,
+    "text": "questions about the video I think it's a"
+  },
+  {
+    "t_start": 233.22,
+    "t_end": 234.83,
+    "text": "questions about the video I think it's a little bit of a wordy proof to explain"
+  },
+  {
+    "t_start": 234.83,
+    "t_end": 234.84,
+    "text": "little bit of a wordy proof to explain"
+  },
+  {
+    "t_start": 234.84,
+    "t_end": 237.05,
+    "text": "little bit of a wordy proof to explain so I hope you understood it but let me"
+  },
+  {
+    "t_start": 237.05,
+    "t_end": 237.06,
+    "text": "so I hope you understood it but let me"
+  },
+  {
+    "t_start": 237.06,
+    "t_end": 238.43,
+    "text": "so I hope you understood it but let me know if you need anything clarified or"
+  },
+  {
+    "t_start": 238.43,
+    "t_end": 238.44,
+    "text": "know if you need anything clarified or"
+  },
+  {
+    "t_start": 238.44,
+    "t_end": 239.599,
+    "text": "know if you need anything clarified or if you have any other video requests"
+  },
+  {
+    "t_start": 239.599,
+    "t_end": 239.609,
+    "text": "if you have any other video requests"
+  },
+  {
+    "t_start": 239.609,
+    "t_end": 241.009,
+    "text": "if you have any other video requests thank you very much for watching I'll"
+  },
+  {
+    "t_start": 241.009,
+    "t_end": 241.019,
+    "text": "thank you very much for watching I'll"
+  },
+  {
+    "t_start": 241.019,
+    "t_end": 242.0,
+    "text": "thank you very much for watching I'll see you next time and be sure to"
+  },
+  {
+    "t_start": 242.0,
+    "t_end": 242.01,
+    "text": "see you next time and be sure to"
+  },
+  {
+    "t_start": 242.01,
+    "t_end": 243.68,
+    "text": "see you next time and be sure to subscribe to the swankiest math videos"
+  },
+  {
+    "t_start": 243.68,
+    "t_end": 243.69,
+    "text": "subscribe to the swankiest math videos"
+  },
+  {
+    "t_start": 243.69,
+    "t_end": 247.11,
+    "text": "subscribe to the swankiest math videos on the internet"
+  },
+  {
+    "t_start": 250.74,
+    "t_end": 250.75,
+    "text": "all the way up here dear won't you"
+  },
+  {
+    "t_start": 250.75,
+    "t_end": 255.37,
+    "text": "all the way up here dear won't you please come to you live it up here"
+  },
+  {
+    "t_start": 255.37,
+    "t_end": 255.38,
+    "text": "please come to you live it up here"
+  },
+  {
+    "t_start": 255.38,
+    "t_end": 259.3,
+    "text": "please come to you live it up here there's a light where I found that"
+  },
+  {
+    "t_start": 259.3,
+    "t_end": 259.31,
+    "text": "there's a light where I found that"
+  },
+  {
+    "t_start": 259.31,
+    "t_end": 264.46,
+    "text": "there's a light where I found that erases it makes"
+  }
+]

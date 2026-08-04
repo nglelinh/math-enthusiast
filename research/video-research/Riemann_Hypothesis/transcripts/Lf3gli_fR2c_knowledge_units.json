@@ -1,0 +1,212 @@
+[
+  {
+    "id": "ku_video_Lf3gli_fR2c_1",
+    "t_start": 1.2,
+    "t_end": 92.8,
+    "type": "overview",
+    "summary": "[Applause] [Applause] thank you very much John I not sure I'll thank you very much John I not sure I'll thank you very much John I not sure I'll possibly live up to what you expect but possibly live up to what you expect but possibly live up to what you expect but I'll give it a try um sounds like I'll give it a try um sounds like I'll give it a try um sounds like everybody can hear me is that right okay so this is the last of the okay so this is the last of the seven Millennium talks and concerns a seven Millennium talks and concerns a seven Millennium talks and concerns a problem which had i…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_92",
+    "t_start": 92.8,
+    "t_end": 185.7,
+    "type": "overview",
+    "summary": "two which can be factored as a product two which can be factored as a product of two positive integers A and B and the of two positive integers A and B and the of two positive integers A and B and the important thing is that in this important thing is that in this important thing is that in this factorization A and B have to be smaller factorization A and B have to be smaller factorization A and B have to be smaller than n so you're decomposing a large than n so you're decomposing a large than n so you're decomposing a large number n as a product of two smaller number n as a product of two sma…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_185",
+    "t_start": 185.7,
+    "t_end": 277.2,
+    "type": "overview",
+    "summary": "numbers exhibits great irregularity of numbers exhibits great irregularity of detail but if you kind of stand back and detail but if you kind of stand back and detail but if you kind of stand back and look at it from a distance you see that look at it from a distance you see that look at it from a distance you see that it does have a certain well rough it does have a certain well rough it does have a certain well rough regularity that's hard to pin down and regularity that's hard to pin down and regularity that's hard to pin down and articulate but nevertheless leads to the articulate but neve…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_277",
+    "t_start": 277.2,
+    "t_end": 369.6,
+    "type": "overview",
+    "summary": "here's a list of prime numbers that are here's a list of prime numbers that are a lot further out this list starts with a lot further out this list starts with a lot further out this list starts with the 1 billionth prime number um you'll the 1 billionth prime number um you'll the 1 billionth prime number um you'll see that again if you examine the table see that again if you examine the table see that again if you examine the table closely um there's a lot of irregularity closely um there's a lot of irregularity closely um there's a lot of irregularity for example um right in for example um r…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_369",
+    "t_start": 369.6,
+    "t_end": 461.2,
+    "type": "overview",
+    "summary": "classes one mod four and three mod four classes one mod four and three mod four meaning about half the time when you meaning about half the time when you meaning about half the time when you divide a prime number by four the divide a prime number by four the divide a prime number by four the remainder is one and the other half of remainder is one and the other half of remainder is one and the other half of the time when you divide a prime by four the time when you divide a prime by four the time when you divide a prime by four the remainder is three in fact that can the remainder is three in f…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_461",
+    "t_start": 461.2,
+    "t_end": 552.1,
+    "type": "overview",
+    "summary": "primes it must happen that A and B can primes it must happen that A and B can be written as a product of primes okay be written as a product of primes okay be written as a product of primes okay so we write a and b out here as I have a so we write a and b out here as I have a so we write a and b out here as I have a is P1 * P2 through PL so those are is P1 * P2 through PL so those are is P1 * P2 through PL so those are primes and B is also of course smaller primes and B is also of course smaller primes and B is also of course smaller than capital N so you can write that out than capital N so y…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_552",
+    "t_start": 552.1,
+    "t_end": 642.9,
+    "type": "overview",
+    "summary": "one now but dmma tells us that all one now but dmma tells us that all numbers including Q can be written numbers including Q can be written numbers including Q can be written somehow as a product of primes but the somehow as a product of primes but the somehow as a product of primes but the primes on your list P1 through PN won't primes on your list P1 through PN won't primes on your list P1 through PN won't work so therefore there must be other work so therefore there must be other work so therefore there must be other primes so the conclusion here is that no primes so the conclusion here is …"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_642",
+    "t_start": 642.9,
+    "t_end": 736.3,
+    "type": "overview",
+    "summary": "seems to be a certain Randomness or seems to be a certain Randomness or irregularity which perpetually seems to irregularity which perpetually seems to irregularity which perpetually seems to appear when you work with prime numbers appear when you work with prime numbers appear when you work with prime numbers Factor integers into primes measure how Factor integers into primes measure how Factor integers into primes measure how big they are and so forth after I made big they are and so forth after I made big they are and so forth after I made this it occurred to me that maybe it this it occurr…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_736",
+    "t_start": 736.3,
+    "t_end": 829.2,
+    "type": "overview",
+    "summary": "three okay um let me go on now to uh a three okay um let me go on now to uh a further important theorem that's also further important theorem that's also further important theorem that's also won't be given with a proof here but um won't be given with a proof here but um won't be given with a proof here but um a further important theorem which comes a further important theorem which comes a further important theorem which comes from ID's from ID's from ID's elements this goes a little bit beyond elements this goes a little bit beyond elements this goes a little bit beyond the Lemma that I had …"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_829",
+    "t_start": 829.2,
+    "t_end": 921.0,
+    "type": "overview",
+    "summary": "matters um one might ask why exactly it matters um one might ask why exactly it is that mathematicians or number is that mathematicians or number is that mathematicians or number theorists in particular would be theorists in particular would be theorists in particular would be interested in primes there's probably interested in primes there's probably interested in primes there's probably some intrinsic reasons about the some intrinsic reasons about the some intrinsic reasons about the irregularity the essential beauty of the irregularity the essential beauty of the irregularity the essential …"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_920",
+    "t_start": 921.0,
+    "t_end": 1011.6,
+    "type": "overview",
+    "summary": "positive integer n and write it as a positive integer n and write it as a product of prime numbers and then what product of prime numbers and then what product of prime numbers and then what you do is you look through the odd you do is you look through the odd you do is you look through the odd primes and you pick out those that have primes and you pick out those that have primes and you pick out those that have remainder three when you divide them by remainder three when you divide them by remainder three when you divide them by four in other words they're congruent to four in other words the…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_1011",
+    "t_start": 1011.6,
+    "t_end": 1103.2,
+    "type": "overview",
+    "summary": "the prime factorization initially for the prime factorization initially for the number capital N now um eventually I want to get a N now um eventually I want to get a little more modern history here um since little more modern history here um since little more modern history here um since these observations although this these observations although this these observations although this discussion of of writing an in to sum of discussion of of writing an in to sum of discussion of of writing an in to sum of two squares is more or less known to FMA two squares is more or less known to FMA two sq…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_1103",
+    "t_start": 1103.2,
+    "t_end": 1195.3,
+    "type": "overview",
+    "summary": "capital N can be written as a sum of two capital N can be written as a sum of two numbers one of which is a prime and the numbers one of which is a prime and the numbers one of which is a prime and the other one has at most two prime factors other one has at most two prime factors other one has at most two prime factors that's pretty close but it's actually that's pretty close but it's actually that's pretty close but it's actually about 10% of the way up Mount Everest uh about 10% of the way up Mount Everest uh about 10% of the way up Mount Everest uh the next step is is uh much much harder t…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_1195",
+    "t_start": 1195.3,
+    "t_end": 1286.0,
+    "type": "overview",
+    "summary": "generalized in various ways um in generalized in various ways um in problem three I've written down an problem three I've written down an problem three I've written down an irreducible polinomial 2 + 1 and irreducible polinomial 2 + 1 and irreducible polinomial 2 + 1 and asked if there are infinitely many asked if there are infinitely many asked if there are infinitely many primes that can be written in that form primes that can be written in that form primes that can be written in that form so X would have to be a integer capital so X would have to be a integer capital so X would have to be a…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_1285",
+    "t_start": 1286.0,
+    "t_end": 1378.0,
+    "type": "overview",
+    "summary": "leave it for a minute or two we'll take leave it for a minute or two we'll take a look at the graph of Pi of X and ALS a look at the graph of Pi of X and ALS a look at the graph of Pi of X and ALS Al some possible Al some possible Al some possible approximations to Pi of X that were approximations to Pi of X that were approximations to Pi of X that were found um while the most important one found um while the most important one found um while the most important one really was found by gaus so um roughly really was found by gaus so um roughly really was found by gaus so um roughly speaking the …"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_1377",
+    "t_start": 1378.0,
+    "t_end": 1469.1,
+    "type": "overview",
+    "summary": "infinite series up here is a function of infinite series up here is a function of the real variable s and in order to make the real variable s and in order to make the real variable s and in order to make sure that that infinite series converges sure that that infinite series converges sure that that infinite series converges and so actually defines a function of s and so actually defines a function of s and so actually defines a function of s it's necessary that s be greater than one it turns out that this very same one it turns out that this very same function can be defined as a product fun…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_1469",
+    "t_start": 1469.1,
+    "t_end": 1559.5,
+    "type": "overview",
+    "summary": "skip up to 1/ 6 to the skip up to 1/ 6 to the s well you think of the prime s well you think of the prime s well you think of the prime factorization of six it's 2 * 3 so factorization of six it's 2 * 3 so factorization of six it's 2 * 3 so therefore you take a look in the first therefore you take a look in the first therefore you take a look in the first series and you take 1/ 2 the S and then series and you take 1/ 2 the S and then series and you take 1/ 2 the S and then you take 1 over 3 to the S now you've you take 1 over 3 to the S now you've you take 1 over 3 to the S now you've got 1 ov…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_1559",
+    "t_start": 1559.5,
+    "t_end": 1653.8,
+    "type": "overview",
+    "summary": "here and they sum up to 1us 1 P the S to here and they sum up to 1us 1 P the S to the^ minus one it turns out and then we the^ minus one it turns out and then we the^ minus one it turns out and then we can introduce the capital Pi expression can introduce the capital Pi expression can introduce the capital Pi expression which indicates that you form a product which indicates that you form a product which indicates that you form a product over all these Expressions as P runs over all these Expressions as P runs over all these Expressions as P runs over the prime numbers P we see a over the prim…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_1653",
+    "t_start": 1653.8,
+    "t_end": 1744.3,
+    "type": "overview",
+    "summary": "s it's very tricky to extract prime s it's very tricky to extract prime number theorem or prime number number theorem or prime number number theorem or prime number information out of these functions when information out of these functions when information out of these functions when s is restricted to be greater than one s is restricted to be greater than one s is restricted to be greater than one and that restriction appears to be and that restriction appears to be and that restriction appears to be unavoidable because if s is not a real unavoidable because if s is not a real unavoidable bec…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_1744",
+    "t_start": 1744.3,
+    "t_end": 1834.8,
+    "type": "overview",
+    "summary": "probability of A number being Prime if probability of A number being Prime if the number is out at about n is roughly the number is out at about n is roughly the number is out at about n is roughly 1 over log n roughly and that motivated 1 over log n roughly and that motivated 1 over log n roughly and that motivated him to sum one over log n or as I've him to sum one over log n or as I've him to sum one over log n or as I've done here in the modern way of done here in the modern way of done here in the modern way of approaching this problem to integrate approaching this problem to integrate ap…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_1834",
+    "t_start": 1834.8,
+    "t_end": 1926.9,
+    "type": "overview",
+    "summary": "increases nice and smoothly and the increases nice and smoothly and the graph below it which is a step function graph below it which is a step function graph below it which is a step function of course is pi of X you'll see that uh of course is pi of X you'll see that uh of course is pi of X you'll see that uh it does indeed at least in the early it does indeed at least in the early it does indeed at least in the early going appear to be a pretty good going appear to be a pretty good going appear to be a pretty good approximation um here's the same approximation um here's the same approximatio…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_1926",
+    "t_start": 1926.9,
+    "t_end": 2018.4,
+    "type": "overview",
+    "summary": "x um the bottom number here is is 10 the x um the bottom number here is is 10 the 20th and that um as of a few years ago 20th and that um as of a few years ago 20th and that um as of a few years ago at least was as far pi as Pi of X had at least was as far pi as Pi of X had at least was as far pi as Pi of X had actually been calculated and if you take actually been calculated and if you take actually been calculated and if you take a look at this second table here at the a look at this second table here at the a look at this second table here at the bottom where I've given the difference botto…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_2018",
+    "t_start": 2018.4,
+    "t_end": 2109.1,
+    "type": "overview",
+    "summary": "counting function which he called s of counting function which he called s of X well roughly speaking instead of X well roughly speaking instead of X well roughly speaking instead of counting one each time you come to a counting one each time you come to a counting one each time you come to a prime you count the logarithm of the prime you count the logarithm of the prime you count the logarithm of the Prime there's another little wrinkle too Prime there's another little wrinkle too Prime there's another little wrinkle too if you come to a Prime power a prime if you come to a Prime power a prim…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_2109",
+    "t_start": 2109.1,
+    "t_end": 2199.6,
+    "type": "overview",
+    "summary": "formula and was able to give estimates formula and was able to give estimates for the size of s of X and therefore as for the size of s of X and therefore as for the size of s of X and therefore as I indicated in the previous remark he I indicated in the previous remark he I indicated in the previous remark he made an estimate for pi of X down here made an estimate for pi of X down here made an estimate for pi of X down here he showed that it was in between two he showed that it was in between two he showed that it was in between two multiples of the logarithmic integral of multiples of the lo…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_2199",
+    "t_start": 2199.6,
+    "t_end": 2292.5,
+    "type": "overview",
+    "summary": "important implications because as I said important implications because as I said it's very hard to make use of this it's very hard to make use of this it's very hard to make use of this wonderful identity if s is just a real wonderful identity if s is just a real wonderful identity if s is just a real number bigger than one you can do number bigger than one you can do number bigger than one you can do something with it but not very much but something with it but not very much but something with it but not very much but if s is a complex variable a whole new if s is a complex variable a whole …"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_2292",
+    "t_start": 2292.5,
+    "t_end": 2382.7,
+    "type": "overview",
+    "summary": "identify with the complex number 2 + 10 identify with the complex number 2 + 10 I the other points of course are I the other points of course are I the other points of course are organized in a similar fashion and this organized in a similar fashion and this organized in a similar fashion and this is only part of the complex plane is only part of the complex plane is only part of the complex plane obviously there's also complex plane obviously there's also complex plane obviously there's also complex plane down below and and and off to the left down below and and and off to the left down below…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_2382",
+    "t_start": 2382.7,
+    "t_end": 2475.1,
+    "type": "overview",
+    "summary": "function reman also discovered a function reman also discovered a relationship between the value of the relationship between the value of the relationship between the value of the zeta function at s and the value at the zeta function at s and the value at the zeta function at s and the value at the point one minus point one minus point one minus s then he noticed and now he was a s then he noticed and now he was a s then he noticed and now he was a little more vague and didn't really little more vague and didn't really little more vague and didn't really Supply proofs he he definitely prove th…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_2475",
+    "t_start": 2475.1,
+    "t_end": 2566.4,
+    "type": "overview",
+    "summary": "infinitely many zeros in other words you infinitely many zeros in other words you you take a point in here and you plug it you take a point in here and you plug it you take a point in here and you plug it into the zeta function and you see if it into the zeta function and you see if it into the zeta function and you see if it comes up with a value zero and that's comes up with a value zero and that's comes up with a value zero and that's going to happen infinitely often for a going to happen infinitely often for a going to happen infinitely often for a certain set of points in this region you …"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_2566",
+    "t_start": 2566.4,
+    "t_end": 2652.8,
+    "type": "overview",
+    "summary": "interested in the zeros is exactly these interested in the zeros is exactly these formulas so reman sort of modified formulas so reman sort of modified formulas so reman sort of modified chev's weighted Prime counting function chev's weighted Prime counting function chev's weighted Prime counting function and defined a different weighted Prime and defined a different weighted Prime and defined a different weighted Prime counting function which he called counting function which he called counting function which he called Capital Pi of Capital Pi of Capital Pi of X so Capital Pi of X counts a on…"
+  },
+  {
+    "id": "ku_video_Lf3gli_fR2c_2656",
+    "t_start": 2656.9,
+    "t_end": 2748.9,
+    "type": "overview",
+    "summary": "old but it's it seems borderline old but it's it seems borderline Clairvoyance that in fact remon's Clairvoyance that in fact remon's Clairvoyance that in fact remon's analytical Machinery revealed that L ofx analytical Machinery revealed that L ofx analytical Machinery revealed that L ofx was in fact right on the money that was was in fact right on the money that was was in fact right on the money that was exactly what should be used there exactly what should be used there exactly what should be used there nothing else is as good nothing else is as good nothing else is as good reman went on t…"
+  }
+]

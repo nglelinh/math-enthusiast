@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ku_video_qr6ZbYancMY_1",
+    "t_start": 1.8,
+    "t_end": 92.5,
+    "type": "overview",
+    "summary": "theorems my very biased collection of course today I would like to talk about course today I would like to talk about as we packing or um more appropriately as we packing or um more appropriately maybe bold packing we will see what that actually means and it's kind of this idea that um we are looking for the idea that um we are looking for the analog of well bees like to build their analog of well bees like to build their honeycombs right um and they are really honeycombs right um and they are really really efficient and there's a good really efficient and there's a good reason why they are…"
+  },
+  {
+    "id": "ku_video_qr6ZbYancMY_92",
+    "t_start": 92.5,
+    "t_end": 185.3,
+    "type": "overview",
+    "summary": "following slides. Actually we want to fill them with balls not with spheres. fill them with balls not with spheres. So the difference between a sphere and a ball is that one is hollow and the other one isn't. So um a ball is like a cannon one isn't. So um a ball is like a cannon ball. It's really pretty heavy and filled and has volume and a sphere is kind of the surface of the bowl. But kind of the surface of the bowl. But anyway it's called sphere packing. I anyway it's called sphere packing. I shouldn't complain and I will go with the name sphere packing but packing would be more appropri…"
+  },
+  {
+    "id": "ku_video_qr6ZbYancMY_185",
+    "t_start": 185.3,
+    "t_end": 276.5,
+    "type": "overview",
+    "summary": "So this is not really a dense packing. So you can't do this. So we assume here So you can't do this. So we assume here that all spheres have a fixed radius. that all spheres have a fixed radius. And of course then we can just assume And of course then we can just assume that they have radius one. And well it that they have radius one. And well it depends really on the box. So, if you depends really on the box. So, if you vary the dimension of the box a little vary the dimension of the box a little bit, as you can see, it actually might bit, as you can see, it actually might um it's a little…"
+  },
+  {
+    "id": "ku_video_qr6ZbYancMY_276",
+    "t_start": 276.5,
+    "t_end": 370.6,
+    "type": "overview",
+    "summary": "be setup is a little bit more like a like a a six like a hexagon and hexagons of course you can use them to fill space really you can use them to fill space really really efficiently with density 100% really efficiently with density 100% right so you could really to fill the whole space but we are asking you a slightly different question you would like to fill it um with spheres and the way to do it is kind of to to uh to make way to do it is kind of to to uh to make it like this well this is a really bad it like this well this is a really bad drawing but they should touch uh so to drawing …"
+  },
+  {
+    "id": "ku_video_qr6ZbYancMY_370",
+    "t_start": 370.6,
+    "t_end": 463.6,
+    "type": "overview",
+    "summary": "is kind of the main polygon or one of the most important polygons in the plain the most important polygons in the plain case here. Of course our space here is a It's very nice. So this is relatively easy to prove. And then you might go on nice problem for a while. So next case would be R3. And in R3 you might come up would be R3. And in R3 you might come up with a conjecture very quickly. So it's with a conjecture very quickly. So it's called Kepler's conjecture. So this left hand side is stolen from Kept Kepler's original paper. Although I must admit at original paper. Although I must admi…"
+  },
+  {
+    "id": "ku_video_qr6ZbYancMY_463",
+    "t_start": 463.6,
+    "t_end": 555.4,
+    "type": "overview",
+    "summary": "of what Kepler conjectured and it took quite a it's really hard to prove this quite a it's really hard to prove this and the problem are those random and the problem are those random arrangements. You could think of okay sure this works pretty well you can come up with this strategy pretty fast and up with this strategy pretty fast and you've seen this before. So yeah you you've seen this before. So yeah you would conjecture that this might be the would conjecture that this might be the best one. Um but to rule out the random those balls like a random arrangement of cannonballs that actuall…"
+  },
+  {
+    "id": "ku_video_qr6ZbYancMY_555",
+    "t_start": 555.4,
+    "t_end": 648.5,
+    "type": "overview",
+    "summary": "ago. So what can we say about this problem? So if you already get stuck in problem? So if you already get stuck in dimension three, you might think there's dimension three, you might think there's absolutely nothing I can say. So what absolutely nothing I can say. So what can I say about dimension four, five, maybe nothing. But it turns out that we can actually say at least a little bit. can actually say at least a little bit. And this is the theorem for today. So And this is the theorem for today. So the the solution to the sphere packing problem is known not in many dimensions. I must adm…"
+  },
+  {
+    "id": "ku_video_qr6ZbYancMY_648",
+    "t_start": 648.5,
+    "t_end": 738.8,
+    "type": "overview",
+    "summary": "in three dimensions. So you have certain space points and you assume that the space points and you assume that the spheres need to be centered around those spheres need to be centered around those lettuce points. You can still vary the lettuce points. You can still vary the letters but the spheres are kind of letters but the spheres are kind of bound to the letters. Then this is bound to the letters. Then this is actually really relatively easy to prove. So it makes my life much easier and quite a bit is known. So the various and quite a bit is known. So the various dimensions are given by …"
+  },
+  {
+    "id": "ku_video_qr6ZbYancMY_738",
+    "t_start": 738.8,
+    "t_end": 832.4,
+    "type": "overview",
+    "summary": "with random points are lettuce packings and that's what happens here and that's and that's what happens here and that's why you see those those lettucees which why you see those those lettucees which are which are known to be extremely efficient and they are really one of these miraculous objects in mathematics. They just pop out out of nowhere and then they're most efficient in a certain then they're most efficient in a certain sense. It's not much different from a hexagon. It's just a hexagon is also very miraculous. Just does the job. It's very miraculous. Just does the job. It's just a …"
+  },
+  {
+    "id": "ku_video_qr6ZbYancMY_832",
+    "t_start": 832.4,
+    "t_end": 922.4,
+    "type": "overview",
+    "summary": "and um if you would like to think of it as an object in eight space, so this is as an object in eight space, so this is an eight dimensional object. It's not so an eight dimensional object. It's not so easy to think of. I just uh copied the matrix here. So it's it's a latice. So the the Z times points spent by the the the Z times points spent by the vectors by the uh what is it the column actually the lattice. And if you look at the entries, it's absolutely not clear why it should be in any way a nice blice. But honestly, if you look at the blice. But honestly, if you look at the whatever t…"
+  },
+  {
+    "id": "ku_video_qr6ZbYancMY_922",
+    "t_start": 922.4,
+    "t_end": 969.3,
+    "type": "overview",
+    "summary": "whatever box or something is a much more complicated problem actually. So um just complicated problem actually. So um just let's stay with the space and it's only known in very small dimensions and the kind of the point is the reason why it's because we're super lucky and in this case kind of there is no random packing case kind of there is no random packing if you want or no really efficient if you want or no really efficient random packing. Of course, there is a random packing um which is better than a packing on a lettuce. And the lettuce packing on a lettuce. And the lettuce packings ar…"
+  }
+]

@@ -2,7 +2,34 @@
 
 ## Project
 
-Jekyll 4.3 multilingual course template (English/Vietnamese). Built on the Lanyon theme, deployed to GitHub Pages via GitHub Actions. Uses custom Jekyll plugins for language switching and URL redirects.
+**Math Enthusiast** — bilingual (English/Vietnamese) Jekyll course exploring modern mathematics through problems, breakthroughs, applications, beautiful ideas, famous proofs, future frontiers, and open explorations. Built on the Lanyon theme, deployed to GitHub Pages via GitHub Actions. Uses custom Jekyll plugins for language switching and URL redirects.
+
+### Course sections (chapters)
+
+| Chapter | English | Vietnamese |
+|---------|---------|------------|
+| 01 | Great Problems in Mathematics | Những Bài Toán Lớn Của Toán Học |
+| 02 | Fields Medal & Modern Mathematics | Huy chương Fields và Toán học Hiện đại |
+| 03 | Mathematics That Changed the World | Toán Học Làm Thay Đổi Thế Giới |
+| 04 | Beautiful Mathematics | Toán Học Đẹp |
+| 05 | Mathematics Through Famous Proofs | Toán Học Qua Các Chứng Minh Nổi Tiếng |
+| 06 | Mathematics of the Future | Toán Học Của Tương Lai |
+| 07 | Mathematical Explorations | Khám Phá Toán Học |
+| 08 | Abel Prize & Lifetime Mathematics | Giải Abel và Toán học Trọn đời |
+| 09 | Turing Award & Computational Mathematics | Giải Turing và Toán học Tính toán |
+
+Regenerate bulk structure from `scripts/generate_course_content.py` if needed; prefer editing individual lesson files for content polish.
+
+### Seminar design (taught offering)
+
+| File | Role |
+|------|------|
+| `course_passport.yaml` | LOs, assessments A1–A6, 15-week schedule |
+| `syllabus.md` | Student-facing syllabus (fill institutional brackets) |
+| `assignments/` | Briefs + rubrics for A1–A6 |
+| `design_rationale.md` / `alignment_report.md` | Design history |
+
+Flagship deep reads (required): RH (ch01), Wang/Kakeya (ch02), crypto (ch03), infinity (ch04), Euclid+Cantor (ch05), math of AI (ch06), Collatz studio (ch07).
 
 ## Commands
 
@@ -45,16 +72,17 @@ After changing `_config.yml`, restart Jekyll.
 
 ## Configuration
 
-Edit `_config.yml` before first use:
+Site identity in `_config.yml` (already set for Math Enthusiast):
 
-- `title`, `description`, `url`, `baseurl`, `imgurl` — site identity and asset paths
+- `title`: Math Enthusiast; `baseurl`: `/math-enthusiast`
+- `url`: `https://nglelinh.github.io`
 - `languages` / `default_lang` — `["en", "vi"]`, default `"en"`
-- `t.en.*` / `t.vi.*` — UI translation strings (`home`, `chapters`, `required`, `optional`, `switch_language`, etc.)
-- `author.name` / `author.email` — instructor contact
+- `t.en.*` / `t.vi.*` — UI translation strings
+- `author.name` — Nguyen Le Linh
 
-Also update:
+Also keep in sync:
 
-- `_layouts/default.html` line 24 — GitHub repo link (`your-username/your-repo-name`)
+- `_layouts/default.html` — GitHub repo link (`nglelinh/math-enthusiast`)
 - `AUTHORS.md` — instructor bio
 
 ## Content Structure
@@ -75,7 +103,6 @@ owner: Author Name
 lang: en                # 'en' or 'vi'
 categories:
 - chapterXX             # Must match chapter directory name
-lesson_type: required   # 'required' or 'optional' (shows badge in sidebar)
 ---
 ```
 

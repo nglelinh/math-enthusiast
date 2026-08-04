@@ -1,0 +1,1237 @@
+[HOST] First talk of the morning on high-dimensional
+geometry and concentration.
+Thanks.
+[LECTURER] So this lecture is about multiplying two
+polynomials given by their coefficients.
+So, let's say A of X is A0 plus A1X plus up to, you know,
+there's always a problem.
+Should I stop at N minus one or N?
+Anyway
+And then there's another one here,
+and I want to multiply them
+very fast.
+How fast can you do it?
+Sorry, this was the lecture I gave yesterday--
+--at at in-- uh, Algebra.
+No, today's morning's talks are about--
+But if you want to see that again-- --we can.
+It's fresh.
+High-dimensional geometry, and concentration.
+I will avoid the question of what this has to do
+with data science.
+I'm sure there are very good answers.
+One drawback of using the board is that I don't get
+to put down an outline of the talk, but I guess we
+should do that anyway, right?
+So you know which parts you can skip out for.
+Is this--
+So, here's a rough outline.
+Please interrupt at any point.
+I have several examples to work out.
+Some more laborious than others, and we can certainly
+go different ways.
+But here's the outline.
+So, sort of one general theme is that you've got
+lots of these points in high-dimensional space or a
+distribution in high-dimensional space data, right?
+And is there some structure that will make things easier for us?
+So, an aspect that we'll try to address is the
+volume distribution.
+Just think of it as our distribution of mass.
+Can you say something about this in general?
+So to understand this, we'll do a few examples
+and then we'll get to the Brunn-Minkowski theorem,
+which I will prove and then apply to get two different
+interesting results.
+So, two apps.
+And then the Prakopa-- Leibler theorem,
+which is takes us from convex bodies to lo-- to functions.
+And apply that once or twice, I forget, but one or two apps.
+And
+then uh, concentration of of of Lipschitz functions, functions
+that don't change too much over, over reasonable distributions.
+Uh, so the classical version being Lévy's
+conc-- concentration or,
+or Lévy concentration, I guess.
+And then from this, we'll go to the existence of
+large Euclidean sections in, in these high-dimensional
+distributions or sets.
+So what's often called a Dvoretzky or generalized
+Dvoretzky theorem.
+Dvoretzky.
+And then we'll take another look at the last two topics
+and go to isoperimetry
+in high dimension.
+So, that's the plan I've laid out so far.
+If we run out of topics, we can branch further.
+Okay.
+So just to seen you know, the question you're asking
+is what structure in high dimensions makes
+problems tractable?
+That's sort of one entry point, one motivation
+for the structure.
+And the empirical answer seems to be some type of,
+so structure for tractability.
+And this is only an empirical answer.
+It's convexity, and I'll put that
+in quotes 'cause it comes in different
+guises and its extensions.
+Now, this is certainly not a complete answer,
+and just so I say it at least once for example,
+if you want to solve linear equations over GF2,
+I don't know how to do it with a convex method, but as far as
+I know that's the only convex.
+So anyway, this is the
+empirical answer.
+So, this seems to be a useful thing to study
+And so we'll do that.
+So very quick one-time recap.
+So, we say K is convex and K is a subset of
+N-dimensional Euclidean space.
+Dimension will be N, and which means that
+if two points are in the set, then the--
+--segment is also in the set.
+So, this buys us a lot of things, but let's see.
+The first couple of examples I want to do are about
+Let's recap a couple of facts in high dimension 'cause
+things change a little bit, the phenomenon changes
+a bit with dimension.
+So, fact one is just that most of the volume,
+and this has actually got little to do with convexity,
+is near the boundary, so
+I want to quantify this.
+Uh, so you, you have some set, I'll call it K here, but it
+doesn't have to be convex.
+And by near the boundary, I mean suppose you look at a scaling of
+this, 1 minus epsilon K, and all we're saying is that the volume
+of 1 minus epsilon K, now this is n dimensional volume,
+is 1 minus epsilon to the n times the volume of K.
+So, if epsilon is already, like, 1 over n, you're getting a
+constant fraction of the volume.
+Right?
+So this is already a constant fraction.
+Okay.
+So, you know, if you had some body,
+you just shrink it, let's say it contains
+the unit ball, you shrink this by literally a 1 minus
+1 over n factor, so the width of this is actually less than
+1 over n because I said it contains the unit ball, right?
+Uh, uh--
+[AUDIENCE MEMBER] It's more.
+[LECTURER] More.
+Yeah.
+It's--.
+It's just a factor of 1 minus 1 over n,
+so then you already catch half the volume.
+Okay?
+So most of it is near the boundary.
+This is actually, maybe the second-most famous quote,
+you know the most famous one is "One small step for man,".
+Yeah.
+The second one is by Imre Baranya, "Everything
+interesting in a convex body happens near its boundary."
+And the third one, you know, everyone knows the third one?
+It's by Kamal Jain, "If my laptop can't do it,
+the universe can't do it."
+Or, actually he said the market, but--
+Okay.
+This is fact one.
+Okay, great.
+Now, fact two, so keep in mind
+fact one because t-- will play a role in
+fact two, I guess I'll, This is visible still?
+Yeah?
+Okay.
+Fact two
+is, uh-- or maybe, maybe I should be smart.
+Fact two is that most of a--
+I'll start with a ball, and I mean a Euclidean
+ball if I don't specify, is near a central hyperplane.
+And
+this again we will quantify, so I'm just talking about the
+Euclidean ball, the Euclidean norm less than equal to one.
+And take any central hyperplane--.
+--going through the origin, so n minus one dimensional
+hyperplane, and we want to say that most of the mass
+is near this, in a band, in a narrow band around it.
+Okay, so let's quantify this as well.
+Just to get familiar with these volume computations.
+So, if I consider a section at distance, say, T, and
+look at the section there, this is the section here,
+that's a lower dimensional ball, one with a lower dimensional
+ball, and its radius is square root of 1 minus T squared.
+So, if I look at the volume of the section at zero, right,
+versus the volume of the section at distance T from the origin,
+this is the radius has changed from one to square root of 1
+minus T squared, so the volume, since these are n minus one
+dimensional objects now, it's going to scale as 1
+minus T squared to the half to the power of n
+minus one, so this much.
+So that's the rate at which it's scaling which
+is about E to the minus,
+So, it's all a familiar quantity, is nT squared, okay?
+Like a Gaussian.
+It's dropping off.
+So now, if I put T as one over root n, you already get about
+half, it's dropped by half, and it's dropping geometrically,
+so by the time you reach constant over root n distance,
+so now we go to these bands, and this thickness here is
+only about one over root n, you already picked up half the mass.
+Ball of radius one, one over root n you've
+picked up half the mass.
+There was nothing special about this choice of hyperplane,
+so it's true for every central hyperplane.
+So, you know, there are sort
+of two in quotes, paradoxes, here, right?
+How can you be both near the boundary and near
+the central hyperplane, if you haven't thought
+in high dimension before.
+You're welcome to answer, or, I don't know.
+I mean, it's not uh, yeah uh--.
+Yeah.
+So it's because well even in this, within this
+band most of the mass is actually near the boundary,
+so there's no contradiction.
+I mean, this, the band also
+has boundary, and if you look
+at those sections everything's near
+the boundary.
+You could pose this in a slightly different
+way which is to say, suppose I had two of
+these bands, right?
+Where is the intersection?
+It's also near the boundary and indeed.
+Okay?
+So, no contradiction
+But, yes, it's, it gets highly concentrated.
+Okay I want to just, while we're doing this
+we can see that these computations also let
+us talk about what's the volume of the cap,
+so what's outside this distance, and so that drops off roughly
+like this, E to the minus nT squared over two because it's
+determined essentially by the bounding section, and after
+that it's dropping out fast.
+But now you can ask this more generally, let's say,
+let me take a different shape, say a cube,
+so that we can do the computations
+explicitly again, and I take some direction,
+some unit vector, say, use the unit vector,
+and we ask what's the distribution of mass along
+U?, okay, same type of question.
+So now we're asking what is the probability that for a
+random X from the cube
+U.X is, let's say, greater than T?
+And it's again, centered at the
+origin, okay?
+And U is a unit vector.
+Okay, so it asks this, and now this again,
+we can-- we can-- we can do using basic
+Chernoff style bounds because the excess-- uh the--
+the coordinates of the cube are independent.
+The excise are independent.
+And so again, this will also fall
+like E to the minus nT squared over 2.
+No n now because these are unit vectors.
+Did I get that right?
+[AUDIENCE MEMBER] Could you explain it again?
+No
+[LECTURER] Yeah, U is a unit vector
+And I picked uh, X from the unit
+hypercube here.
+So the variance of this, you know, expected-- Divide by n?
+[AUDIENCE MEMBER] Minus T squared over 2.
+I think this is okay because it's Lipschitz
+function, so it's--
+Yeah.
+--some concentration.
+[LECTURER] So just saying that if you go out, so the
+standard deviation is one.
+If you go out T standard deviations,
+you will get E to the minus T squared over 2.
+Okay?
+So you have this similar phenomenon here.
+[AUDIENCE MEMBER] Mm-hmm.
+I'm sorry, going back to
+the previous example with the two bands--
+[LECTURER] Yeah.
+[AUDIENCE MEMBER] How come the intersection is on the boundary?
+I mean, at least in the picture it seems, at least
+the boundary is not--
+Oh,
+But this picture
+[LECTURER] Is so low dimensional, right?
+Yeah, of course, but--
+So if you're in very high dimension-- Mm-hmm.
+Think of the band, not as a band through the ball,
+but just as an actual ring.
+Mm-hmm.
+Okay, a lower dimension ring.
+Oh, I see.
+[AUDIENCE MEMBER] Okay, thank you.
+Because
+[LECTURER] That's where most of the mass is.
+[AUDIENCE MEMBER] I see, thanks.
+[LECTURER] Most means overwhelming.
+Yeah.
+[AUDIENCE MEMBER] So I'm sorry--
+[LECTURER] Yes.
+[AUDIENCE MEMBER] --you might have mentioned this already.
+I came in a little bit late.
+What's the measure you're using for the ball at
+[LECTURER] The moment?
+At the moment it's just Euclidean volume.
+Okay.
+Yeah.
+Right,
+Yeah.
+We will talk about general measures.
+Sure.
+Yeah.
+Okay.
+So these raise certain natural general questions, right?
+I mean is something like this going to be true for some family
+of bodies and distributions?
+What can we say?
+What rates do we get?
+These are still questions being pursued by the field
+in full generality, but we have some nice answers and
+some nice tools to get there.
+The first of these is perhaps a-- a the Brunn-Minkowski
+inqua-- uh theorem.
+Theorem Brunn Minkowski.
+And to state the theorem, I have to develop one tool,
+which is how to add two of these sets.
+So suppose I have two sets, A, B, and these,
+we're not saying anything about convex, they're just compact,
+so I can talk about their volume and they're bounded
+and they are subsets of R^N.
+So with their Minkowski sum
+something you would've seen if you've been doing you
+know um, lower bounds also.
+A plus B is just the set of all X plus Y where X
+is an A and Y is an E.
+So if I were to add a square plus a circle, I get you know,
+I'll start with the square and add a little circle.
+Just add a circle to every point of the square.
+Okay?
+The position of the circle doesn't matter, right?
+These things are, it's independent
+of their position, you're just adding
+a circle per square you get the same thing.
+Additive combinatorics.
+This is additive geometry.
+Yeah.
+So okay, so given this and then scaling of
+course is well defined.
+If I want to talk about scaling a set where Lambda
+is just a-- a-- a-- a--
+uh, then this is just a set of Lambda X, where X is in A.
+Okay.
+So the motivation for the theorem is if I have two sets
+and they have volume now I take their sum like this or take a
+convex combination of them, what's the volume going to be?
+Okay.
+Can you ad-- so that could
+be very d-- many very different
+things depending on the shapes of the sets,
+but you expect that it shouldn't be too small
+because you're taking too m-- all these combinations, right?
+The set size of this sum shouldn't be too small.
+That's--
+That's what the theorem is going to say, that for A,
+B subset of R^N and compact
+and Lambda is the multiple convex combination multiplier,
+the volume of Lambda_A plus 1 minus Lambda_B to the 1 over
+N is at least Lambda times volume of A to the 1 over
+N plus 1 minus Lambda times volume of B to the 1 over N.
+Okay, so the volume to the 1 over N function
+is concave, right?
+Well, we'll get to that in a minute, but this is just a--
+This is a statement about two sets right
+now and any multiplier.
+Now, I equivalently, right?
+So let's prove this.
+It's you know, boot camp, we get to stay a few proofs back, yeah?
+But you can always give me the signal to speed up
+if you've seen the proof in the previous lectures.
+I don't think you have, right?
+Yeah, okay.
+Yeah, so by just replacing Lambda_A by A and 1
+minus Lambda_B by B, it's sufficient to
+prove that volume of--
+A sorry, A plus B to the one over N is at least
+Lambda volume of A.
+[AUDIENCE MEMBER] Um-- No lambda?
+[LECTURER] No lambda.
+What should I have there?
+[AUDIENCE MEMBER] One over N2.
+[LECTURER] Yeah. Plus--
+Okay, that's what I want.
+Got it.
+Good.
+So how should we do this?
+To prove, suffices to show this.
+So, first let's do it for a very simple family of bodies,
+which will be just cuboids--
+Right.
+--so boxes.
+And so suppose A is just a cuboid where the axis
+lengths are A1, A2, and so on, so it's zero A1 cross so on.
+And B similarly has access lengths B1 through BN.
+Okay, then the inequality we want to prove is what?
+An A plus B is just a box with lengths AI plus BI.
+So the inequality we wanna prove is just product
+over I of AI plus BI
+to the one over N is at least product over I of AI to the
+one over N plus product over I, BI to the one over N.
+Almost familiar, right?
+Yeah.
+So, well, yeah, it is.
+So let's just divide.
+So what you want is that this is at least
+AI over AI plus BI to the one over N.
+So far so good.
+And here I need to show this.
+Now we'll use the what inequality?
+Kinda fun if you haven't seen it before, but, Right,
+there's a product and there's a sum, so we'll turn this
+product into a sum.
+But what I want to say is that this is dominated by
+the sum over I of these things, one over N times that.
+Mm-hmm.
+Okay?
+So AI over AI plus BI, just arithmetic mean is
+bigger than geometric mean.
+These are all non-negative numbers,
+and same thing for that, so I might as well
+put it over here.
+And so this is one
+And that's good.
+Okay, so it's true for boxes but we have to,
+we want to show it for arbitrary sets with volume.
+Now, one way to define volume is divide space into boxes
+and count all the boxes that are fully contained.
+And then you take the size of the boxes down
+to zero and you multiply by the volume of each box.
+So that's one way to define volume, in fact.
+So, it'll be enough for us to show this for a union of boxes.
+A is a union of boxes and B is a union of boxes.
+Then we'd like to show that this inequality still holds.
+[AUDIENCE MEMBER] That's what we're gonna do.
+[LECTURER] Okay?
+Let's do
+[AUDIENCE MEMBER] That.
+[LECTURER] Yeah, so how should we
+do it if A is a union of boxes?
+So the boxes that constitute A themselves, A are disjoint,
+to show that this holds for the union of boxes.
+So it's gonna be by induction on the total number.
+So this is for a finite union.
+That's good enough for taking the limit.
+So we want to show that for any finite union,
+so let's say the total number of boxes is some number, and
+we're going to do an induction on the number of these boxes.
+Okay, so for one box, we already know
+it's true, right?
+Or even one box each.
+So one box each, we have it.
+So the base case is done.
+So now for the inductive case, you just need a way to cut
+it into smaller numbers of boxes, right?
+So I've got bo-- boxes of, for A.
+Yeah, now I'm just thinking of them as a union of boxes, right?
+They don't even have to make up a--
+Remember, it's just a compact set.
+It doesn't have to be connected.
+And then we have boxes for B, I don't know, there somewhere.
+And how should I do induction?
+Right, we have to somehow partition them to get two sets
+with fewer numbers of boxes so I can apply the same lemma.
+So simple claim is that there exists an axis-parallel cut,
+parallel hyperplane
+such that--
+So let's just take the boxes for A, such that each side contains
+at least one complete box.
+Each side of H, say H is the hyperplane, contains
+one complete box of A.
+Okay?
+So is that clear?
+In one dimension it's clear, right?
+'cause otherwise they're all going to be
+intersecting pairwise.
+Okay, so what about in higher dimension?
+Pretend all these are the same color.
+They're all A plus N. Yeah?
+[AUDIENCE MEMBER] Project so we project to one dimension?
+[LECTURER] Yes, but you know, they might-- Oh,
+[AUDIENCE MEMBER] Intersect,
+[LECTURER] Yeah.
+Yeah.
+Yeah, we want that, what we want is a cut.
+So in this picture, for example, this would be good, right?
+And this is great, it gives a complete partition.
+But even this would be good because this has one complete
+box here and one complete box.
+Now the point is that, why you're saying
+there exists one.
+You see, in one, if I just sweep
+in one direction, there might not be one
+And it could be that all the boxes are intersecting
+along one hyperplane.
+So, it could be that no matter where you go,
+you're not able to get a complete box on both sides.
+So, right?
+But that means that there is, yes?
+So the second, just to clarify--
+Yeah.
+The second line, the vertical one
+that you drew, does not have
+each complete box of type--
+of the blue-- I don't need
+of both types.
+Sorry.
+So this claim is only about one type.
+Oh, okay.
+Yeah.
+Just for one type.
+So, yeah,
+Yeah.
+I should draw another figure with the same colors.
+It's
+But yeah.
+So-- It seems
+[AUDIENCE MEMBER] Like it should be the case that
+for every pair of boxes, there exists an axis-parallel
+hyperplane that separates them.
+[LECTURER] Sure, yes.
+But--
+That would
+[AUDIENCE MEMBER] Imply this.
+[LECTURER] Right.
+So he's saying just take two boxes-- Very nice.
+There's gonna be a plane that separates them.
+[AUDIENCE MEMBER] Right.
+[LECTURER] Otherwise you know, they have a point in common.
+Yeah.
+Very good.
+Okay, good.
+So we have at least-- Question.
+One hyperplane cut which separates this.
+So let's just apply that.
+[AUDIENCE MEMBER] I think you need to separate a complete box
+of A from a complete box of B, otherwise you can take a
+hyperplane to be way off to the side that has all
+whole boxes on one side--
+[LECTURER] No, we need a complete
+box o-- on both sides of the pla-- of the cut.
+[AUDIENCE MEMBER] Okay, but that's not what
+your claim says.
+[LECTURER] It says each side of the hyperplane
+has one complete box.
+[AUDIENCE MEMBER] Each side, nevermind.
+Okay, yeah.
+Yeah, right.
+[LECTURER] Okay, so let's say we've got
+this cut and there is at least one complete
+box here, but, of course, there could be lots of
+boxes that are partially going this way, right?
+And there's at least one complete box here.
+Now this is just A so far.
+I get to place B.
+Now, first for these boxes that are being intersected,
+we'll just break them up into two, right?
+So each side still has fewer boxes because
+you've lost one box, you might have kept the rest.
+Okay, and what about B?
+So what we'll do with B is, remember,
+we get to place B anywhere we want, 'cause A and B,
+their relative placement doesn't matter for the
+purpose of the volume.
+So we wanna place B with the following convenient constraint.
+And B, maybe all of them intersect, I don't care.
+They, B, maybe all of
+them intersect, but the constraint for B
+is the following, that, And, you know, they might overlap,
+doesn't really matter.
+The constraint for B is that, so this hyperplane H is
+such that, let's call one side A plus and B plus.
+I really should stick to the colors, huh?
+And then A minus and B minus.
+[AUDIENCE MEMBER] So we're cutting B also
+by the same hyperplane?
+[LECTURER] Yes.
+There's only one hyperplane, which was the one we chose
+for the purpose of cutting A, and now I'm just taking all of
+B's arrangement and placing it in a, in a certain way.
+Okay, translating it to place in a certain way.
+In fact, just a translation.
+And the translation is such that the volume of A plus, let's say,
+divided by the volume of B plus, this ratio is equal to the
+volume of A minus divided by volume of it, B minus.
+Right?
+So same as volume of A over B.
+We're just keeping the fraction of volume on
+both two sides the same.
+That's it.
+So that obviously exists just by translation of B.
+Okay, now that we have that, we can go back to the proof.
+We want to bound what?
+The volume of A plus B
+to the 1 over N. Where A is the union
+of all the boxes within.
+So it's at least going to be, let's just use the lower
+bound we get from each side separately.
+That's all.
+So it's at least going to be the volume of A plus B plus to
+the 1 over N, A minus plus B
+[AUDIENCE MEMBER] Minus to the 1 over
+[LECTURER] N. Now we can use
+induction because these have fewer
+numbers of boxes, and we know that this
+is at least volume of A plus to the 1 over N.
+[AUDIENCE MEMBER] Okay?
+Okay, so could you repeat the definition
+of A plus and A minus?
+[LECTURER] Whatever falls on one side of the hyperplane
+is A plus, whatever falls on the other side is A minus.
+For boxes that intersect, we cut them and placed-- Okay, thanks.
+The portion of them.
+[HOST] Mm-hmm.
+So--
+Sorry, I guess you need a little remark that A plus
+plus B plus and A minus plus B minus don't exist.
+[LECTURER] Are disjoint, yes.
+Yeah, are disjoint.
+But because of the we can, these volumes are not overlapping,
+they're actually separate
+[AUDIENCE MEMBER] Volumes.
+Right, good.
+Yeah.
+[LECTURER] Okay.
+So here, what should we do here?
+Let's say I take a volume of B plus to the 1 over N.
+So then I've got, uh--
+[AUDIENCE MEMBER] Right.
+[LECTURER] That's all good.
+We'll do the same thing here.
+This proof will finish on this board, so don't be
+alarmed.
+Was the-- why, what is the
+point of this?
+It's
+[AUDIENCE MEMBER] Into the parenthesis.
+[LECTURER] So these-- Yeah, these are-- they're the same,
+and they're the same as volume of A or volume of B-- --right?
+But, so therefore we've got-- --one plus volume of A over
+volume of B, both one over ns, times volume of B plus, volume
+of B minus to the one over n.
+Um--
+Am I doing something fishy?
+[HOST] So
+[AUDIENCE MEMBER] All that is times, is the line of B--
+It's
+[HOST] Okay if it's n, but--
+I mean, it's still one over n is concave, right?
+Yeah,
+[LECTURER] Yeah.
+--volume of B concave?
+Right, right.
+So, so all I'm saying is that this plus this is at-- so I
+should make this an equality.
+Volume of-- no.
+One over n?
+No, I can't do that.
+[AUDIENCE MEMBER] Why not?
+I mean, to the one over n.
+[LECTURER] To the one over n, yes.
+Okay, and so now we've got what
+we want.
+Okay.
+So it's just an induction on the number of balls.
+[AUDIENCE MEMBER] So you're--
+Why were you able to do a first equality X to the n plus--
+[LECTURER] This one here?
+[AUDIENCE MEMBER] No, the first one.
+X to
+[LECTURER] The n-- This one here?
+[AUDIENCE MEMBER] No, one more.
+So we need two more.
+Here?
+That one.
+[LECTURER] Oh, because we're saying
+that the volume-- --contributed by A plus,
+plus B plus, and A minus, plus B minus are
+[AUDIENCE MEMBER] Disjoint.
+Yes.
+Volume of A plus B, this is just the number-- Oh, right.
+[LECTURER] Of x and y.
+We're not over counting any volume, but that was
+the remark that I made.
+[HOST] Got it.
+Okay.
+Wait, that's not completely obvious.
+It's, so you just take the hyperplane to be less
+than or equal to zero--
+[LECTURER] Yeah.
+[HOST] --then it's clear on this side you get positive
+coordinates, and it's better.
+Oh,
+[LECTURER] Yeah.
+Right, right.
+Taking this hyperplane to be whatever-- Just--
+--x1 equal to zero.
+Then there is no interference of intersection between
+these masses.
+[AUDIENCE MEMBER] So how do you guarantee this
+hyperplane always exists, that it satisfies that ratio?
+[LECTURER] Yeah.
+So we, you see, the relative placement
+of A and B doesn't matter.
+Okay.
+So we pick the hyperplanes to subdivide A so that we
+get one complete box on each side, and then of course,
+we can translate A so that this hyperplane is at zero.
+Okay.
+Now we take B, and we can do
+whatever we want with it.
+[AUDIENCE MEMBER] Translation, rotation?
+[LECTURER] Not rotation.
+We-- sure, sure-- Translation?
+--actually, we can do any of that, but all, all translations,
+all that'll matter.
+So you start completely on one side-- Mm-hmm.
+--and you move it till you get the right ratio.
+I see.
+Okay.
+Intermediate value theorem.
+Okay.
+Okay, so this is Brune Minkowski.
+Let's see a couple of applications of it,
+and then we'll go to the next step.
+So one application is to, again, to talk about the distribution
+of mass of convex bodies, like we were doing with
+the early examples.
+Right?
+So what, if you had
+a convex body, convex set here, okay, and I'm interested in the
+distribution of mass along some direction, say this direction.
+Like, what is the distribution of mass of
+these sections as you go along?
+Okay?
+Now so let's look at these sections.
+There's a section at each position along this axis, and
+let's say, think of that as a, and this section is A of say
+x. It's a section at x.
+Now the section, and this is A of y,
+these are n minus one dimensional sections.
+The section at lambda x plus one minus lambda y,
+right?
+So this section here, convex combination of
+these, lambda is in zero, one-- --contains lambda times the
+section at x plus one minus lambda times the section at y.
+Still just by convexity, right?
+So the, by convexity, every combination of
+these two sections must be in the set.
+This combination always gives you sections exactly on this
+set, so this must be true.
+Therefore, the volume of this section A at the convex
+combination is how much?
+Just using this and applying Brune Minkowski to this set--
+One over n. --which is a con-- uh, which is a convex co--
+Minkowski combination of two sets gives us that this volume
+to the one over n minus one, because these are n minus
+one dimensional sections, is at least lambda times
+the volume of Ax to the one over n minus one--
+--plus one minus lambda times the volume of Ay to
+the one over n minus one.
+Okay?
+So the volume at a combination section,
+convex combination section, to the one over n minus one
+is a concave function.
+There's an even nicer way to interpret this, which is,
+let's do the following symmetrization where we replace
+each section-- with a ball, n minus one dimensional
+ball of the same volume and centered on this line.
+So we're going from this--
+--to this picture, where this section Ax
+an n minus one dimensional ball, and, and so on.
+Okay?
+And they're all centered.
+Now, each of these has a radius, right?
+Let's call that radius function R of x.
+What does this say about the radius function?
+Concave.
+The radius function is concave because volume to the one over
+N minus one will be some fixed function of N times the radius.
+The volume is radius to the N minus one for now.
+We turn it into that literally be saying,
+setting the volumes equal.
+So, the conclusion, corollary, the radius function along
+any projection is concave.
+[AUDIENCE MEMBER] Sorry, what is this, these
+three picture circles--
+Oh, sorry.
+Indicate?
+This
+[LECTURER] Section here, which was some arbitrary
+convex body-- Uh-huh. --I'm replacing it with
+a N minus one dimensional sphere of the same volume.
+So--
+Okay.
+Right?
+And it has some radius.
+So now it's a completely along this axis, it's a
+spherically symmetric picture.
+So, there, that gives you
+Now I can erase these and just look at the radius function.
+And this
+[AUDIENCE MEMBER] So the radius function is the volume of the
+cross-section-- To the one over N. One over N minus one?
+[LECTURER] Yes.
+[AUDIENCE MEMBER] Okay.
+[LECTURER] Up to constant.
+Doesn't, constant doesn't matter.
+Yeah, so, the definition of the radius function is
+just volume of A of X to the one over N minus one,
+because it's the radius of it's proportional to the radius
+of a N minus one dimensional ball with the same volume.
+Okay?
+But this is what we have in mind when we see convex, right?
+You can't have dips-- Mm-hmm.
+--when you go along any direction,
+and that's true in this formal sense.
+Yeah.
+Okay.
+[AUDIENCE MEMBER] Question.
+[LECTURER] Yeah.
+[AUDIENCE MEMBER] Is there some interpretation to what this is
+the radius of or something?
+[LECTURER] This ball.
+So imagine that I replaced I don't know, you have a cube.
+I'm going along some direction of the cube.
+Say even an axis parallel direction first.
+Replace each lower dimensional cube
+with a ball that has some radius.
+Along an axis direction, that's constant.
+So
+[AUDIENCE MEMBER] Is it, is this telling me something
+about the shape of the original convex body?
+[LECTURER] Oh, the
+only in terms of how it's increasing and decreasing, yeah.
+In this one, this one-dimensional
+projection, it's capturing the one-dimensional projection.
+It's capturing this marginal.
+Yeah.
+So second application of this perhaps
+this is a corollary, the second application
+is a theorem on its own.
+[AUDIENCE MEMBER] Does the radius function say
+something about like the expected distance from the
+center conditioned on what section you're on or something?
+[LECTURER] Unfortunately not, because when you place it like
+a sphere here, like a ball, you actually bring it as
+close as possible to the origin for the same volume.
+Among, you know, it brings it as
+close as possible.
+So if you replaced, say, a cube section with a
+ball section, right, the distances will shrink.
+For the same volume, you know, this, say volume one,
+the cube only needs to have side length one,
+and the ball will have radius constant through 10.
+And yeah, it's uh, so, so, could give some rough
+estimate, but in general, no, it's not like that.
+Okay.
+So here is a second application which
+will address some of these issues.
+It's it's called Grünbaum's theorem which says that uh,
+if you take any convex body-- So
+it's Rn.
+--Then
+Any half space containing its center of gravity
+for any half space
+containing
+center of gravity of
+K, any half space H, say, the volume of H intersect
+K, so the volume of, in the half space,
+is at least one over E times the volume of K.
+You can't get too little volume on either side of
+the center of gravity.
+So, if you have this picture here, here's
+the center of gravity.
+I take any cut, each side has at
+least one over E.
+[AUDIENCE MEMBER] It's constantly dependent of N.
+[LECTURER] Yeah.
+And there, the function actually,
+there is a function of N.
+We'll derive it.
+But it tends to one over E when N goes to infinity.
+Yeah.
+[AUDIENCE MEMBER] Is it tight?
+What?
+Is it
+[LECTURER] Tight?
+Yeah.
+So for any fixed dimension, it's slightly better than this.
+But this theorem is also true, for example,
+I haven't yet introduced log concave functions,
+but it's also true for any log concave function,
+and then indeed you get one over E.
+You can just take, for example, the exponential
+distribution-- Mm-hmm.
+--in one dimension.
+Okay, so we have all the tools we need to prove this.
+In fact, we just need the Brunn Minkowski theorem.
+How should we proceed?
+This is at heart a one-dimensional problem.
+Yes.
+[AUDIENCE MEMBER] It could be that for sets
+it's strictly larger?
+[LECTURER] It is, it depending on
+the dimension.
+[AUDIENCE MEMBER] No, I mean like one over E plus 0.01.
+[LECTURER] Oh, no, no, no.
+No.
+For
+[AUDIENCE MEMBER] Sets because if you cut the distribution,
+like I mean just a uniform distribution in compact sets.
+[LECTURER] Yeah, no, it's still going to be,
+we'll see what it's gonna be.
+It's gonna be one minus one over N plus one to the N.
+[AUDIENCE MEMBER] This is the proof that there is a, No,
+[LECTURER] There's a set like this.
+An
+[AUDIENCE MEMBER] Example for--
+[LECTURER] No, we, we will derive the
+worst example.
+[AUDIENCE MEMBER] Ah, okay.
+[LECTURER] We will derive.
+Not just a bound.
+So you will be completely happy by then.
+[AUDIENCE MEMBER] Thank you.
+[LECTURER] Is it your birthday or--?
+So what should we do?
+What should step one be?
+I claim this is a one-dimensional
+problem, which dimension?
+We have fixed the hyperplane edge.
+[AUDIENCE MEMBER] So--
+[LECTURER] We might as well fix it because we want to
+prove it for everyone, yes?
+[AUDIENCE MEMBER] Normal to the--
+[LECTURER] Normal to the hyperplane.
+Let's look at the direction normal to the hyperplane, okay?
+And then what should we do?
+We're interested in the mass, let's say on one side,
+let's say on the left.
+I want to prove the mass on the left is at
+least one over E, right?
+So and then I'm making sure it passes through
+the center of gravity, so the expectation is, is here.
+Now let's simplify this body, right?
+Because we only care about this one-dimensional margin.
+How should we simplify it?
+[AUDIENCE MEMBER] By doing that you're getting.
+[LECTURER] Yes.
+So we'll do this symmetrization which will take us to something
+that maybe looks like that
+And I don't know, like that, okay?
+But now it's a symmetric object.
+Still a convex body in n dimension, but every
+cross section is just a ball of different radius.
+Okay, so now this and further this is concave.
+This radius is actually concave, okay?
+And we have the center of gravity somewhere.
+Now I want to do two operations just so it doesn't seem like
+I'm gonna convert this into the worst possible body.
+I will show that for the worst body, you know,
+sometimes you get to do this.
+The proof actually takes you to the worst example.
+So what do you imagine the worst example is?
+I mean, it's not gonna be a cube, right?
+For a cube, you cut in
+the middle, you're always gonna
+get half-half, right?
+It should be some kind of asymmetric body.
+Cone?
+Not quite.
+We have a question.
+[AUDIENCE MEMBER] So you're having these volumes that
+you have, one is an N minus one-dimensional volume,
+the other is an N dimensional volume?
+[LECTURER] So, every section is N
+minus one-dimensional.
+The volume of the whole thing is just the integral of those
+N minus one-dimensional volumes.
+[AUDIENCE MEMBER] N dimensional.
+So in the inequality above that you're proving--
+These are N
+[LECTURER] Dimensional.
+[AUDIENCE MEMBER] This is half space, not N dimensional.
+Oh, that's a half space, okay.
+Good.
+Yeah,
+[LECTURER] Sorry, half space.
+Okay, okay.
+Yeah.
+[AUDIENCE MEMBER] Yeah, yeah, right, right, right.
+[LECTURER] Yeah, yeah.
+So we're talking about this half
+[AUDIENCE MEMBER] Space.
+Okay.
+Is it a cone for this
+[LECTURER] One?
+Yeah,
+Yeah.
+So we'll reduce this to a cone, okay?
+Right, so even in two dimensions,
+if you took a triangle and cut through the center of
+gravity, you don't get half.
+You get a little bit less than half.
+[AUDIENCE MEMBER] What's the definition of the center of
+gravity according to-- Oh,
+[LECTURER] Good.
+The center of gravity-- According to--
+Yeah.
+The center of gravity is just, imagine the uniform, this is a
+compact, it's a convex body, it's a compact set, the--
+we can talk about its uh the uniform distribution over this.
+So I just mean the integral over all points in your set
+of the uniform distribution.
+So one over volume of K times, literally the average
+of all the points.
+Okay, so
+Yeah.
+So for even a triangle, you see this is similar, right?
+This picture is similar, you might remember that
+this distance is two third of the total.
+If I cut through the center.
+So this volume is going to be how much?
+Four ninths.
+Not half, but four ninths.
+Ninths, okay, yes.
+You're scaling the whole triangle down by two thirds.
+So here, what we're gonna do is replace first the
+left half with a cone.
+Okay?
+So that cone will keep the same base here,
+but I'm gonna make it a complete cone-- Right.
+--like that.
+Of
+So the volume of this cone is the same as the volume of the,
+whatever was on the left with the same base.
+Now I claim the center of gravity, maybe it moved,
+which way will it move?
+To the right?
+I've created mass to the left.
+Oh, I see.
+To the right, that's a, I think that's a song pop up.
+But yeah, there we go further.
+Right is usually, no.
+Okay, so what should we do with the right half now?
+[AUDIENCE MEMBER] Warp it to the right to bounce it?
+[LECTURER] So what I wanna do is make this continue
+this cone as far as I need to, to make it a cone.
+And the volume is still the same.
+Now you can do this.
+Why?
+Because it's concave, right?
+What you're doing here is a convex extension
+of what you have left, so you, it's allowed to do it.
+This func-- radius function is concave,
+it'll never overshoot your picture.
+Okay?
+So now you've got a cone and again,
+the center of gravity might have moved left
+which only makes matters worse for you potentially.
+So let's assume there was no change, we've got a cone,
+now I have to do the computation for a cone.
+And this is just a perfectly symmetric cone, so the center
+of gravity will be a distance N over N plus one from here.
+So you're shrinking it by one minus
+I mean, this is N over N plus one of the total
+to the power of N.
+That's the ratio.
+Which is bigger than one over E. I can put strictly for any.
+[AUDIENCE MEMBER] And that's the tightest?
+[LECTURER] That's the tightest.
+[AUDIENCE MEMBER] Can I-- Bing.
+Can I ask a question?
+[LECTURER] Yeah.
+If
+[AUDIENCE MEMBER] You choose this direction at random
+through the center of mass--
+Yes.
+--then
+It's more than one over E?
+[LECTURER] Oh, then it will
+be concentrated near one half.
+[AUDIENCE MEMBER] It becomes one half.
+[LECTURER] And we will prove that by the end
+of the text because then you need a concentration,
+it will be near one half because its expectation is
+one half and we'll concentrate near its expectation for
+the random height.
+[AUDIENCE MEMBER] This is the worst case then?
+[LECTURER] This is exactly.
+So even for a cone, if I were to pick it
+randomly, you will be very close to one half.
+Very close.
+Within, yeah.
+[AUDIENCE MEMBER] What's the proper angle for the cones in
+order to make it worst case?
+It
+[LECTURER] Doesn't matter.
+[AUDIENCE MEMBER] Every cone's the same?
+[LECTURER] Yeah.
+Because it's a scaling there.
+All we've used is the scaling.
+[AUDIENCE MEMBER] So is the center of gravity
+the point that maximizes this one over E factor?
+[LECTURER] I'm not sure what you mean.
+[AUDIENCE MEMBER] Oh,
+[LECTURER] Yeah.
+Oh, I see.
+So
+[AUDIENCE MEMBER] It shows a different point on you know,
+like a characteristic of Oh, I see.
+[LECTURER] So what is the best point and so that any
+cut through it maximizes the--
+Yeah.
+I, no, I don't know the answer to that,
+but I think it should be different for different bodies.
+Yeah.
+So I have no reason why it should be center of gravity.
+Yeah.
+[AUDIENCE MEMBER] But the so the,
+[LECTURER] It's a good question.
+[AUDIENCE MEMBER] Yeah.
+[LECTURER] So I have five more minutes, right?
+So maybe I'll start off on the, on, on on Prekopva-Leinler.
+We're planning to prove it.
+Its proof will just use Brunn Minkowski.
+Okay.
+So at least I can state the theorem here, begin the proof,
+we'll continue with that.
+And so
+Yeah.
+And of course any other questions are welcome.
+So now we move to functions from, I mean,
+we were dealing with functions, but zero one functions.
+One if you're in the set, zero if you're outside the set.
+Now we're gonna move to more general functions.
+And so the statement of the Prekopva-Leinler theorem
+which is equivalent one to the Brunn Minkowski,
+you can prove one from the other and both ways
+is is is the following.
+You have three functions now, F, G, H, which are n
+dimensional and non-negative.
+And they have the following property that at any point
+and for any lambda, which is again like
+a convex multiplier, H of lambda X plus one minus
+lambda Y is at least F of X to the power lambda times G of Y
+to the power one minus lambda.
+That's the assumption on these functions.
+So the function value of this, the log of H, is at
+least the average of these.
+Okay?
+Under these assumptions, we get that the integral
+of H on all of RN
+is at least the integral of F to the lambda times
+the integral of G to the lambda one minus lambda.
+That's the conclusion.
+So maybe since we won't have time to actually
+prove it before the break, what I can instead do is
+the first application.
+Like why does this make sense?
+Right?
+So application one is the following.
+So if you had just one function F, we say it's log-concave if
+its logarithm is concave.
+So F is a function from RN to non-negative numbers,
+and it satisfies this property that F of any convex combination
+is at least the geometric average at the two points
+that you're combining, right?
+So the log of F is concave.
+These functions show up everywhere.
+You know, the indicator
+functions of convex bodies,
+Gaussian densities, you know, anything with a convex function
+E to the minus convex function here is log-concave.
+You can multiply them.
+Clearly if you multiply, you'll still preserve this property.
+Multiplication is preserves log concavity.
+What is this telling us?
+Prekopva-leinler implies that, so this is, that
+marginals are log-concave.
+So, you know, if you take a
+Gaussian and you project it,
+you get a Gaussian distribution still.
+Log-concave, it's still true.
+It could be a very complicated, I mean if you take a convex
+body, project it, it's not a convex body anymore.
+But if you think of it as a function, it's still a
+log-concave function, and more generally or
+equivalently, convolutions.
+So convolution of two log-concave functions
+preserves log concavity.
+Okay?
+So to see the first one, apply this lemma with FGH equal to F.
+This is satisfied by definition of log concavity.
+And now it's saying that you get to do this.
+But before you apply, let's say I want to prove
+that a particular marginal, say a marginal along X1
+up to XK is log-concave.
+So I just integrate away XK plus one to
+[AUDIENCE MEMBER] Xn.
+What's the definition of a marginal?
+[LECTURER] This is it.
+You pick so capital F of X1 through XK is equal to this.
+This is the marginal along X1 through XK.
+Okay.
+You could do margins along, and so it's like a
+projection, right?
+You're projecting to the first K coordinates,
+and the claim is that projection preserves log concavity.
+Why?
+Apply this, right?
+You do, you define
+this function here.
+You can see that this F satisfies what we want.
+Therefore, the integrals up to fix X1 through XK,
+and for each fixed X1 through XK, Prekopva-Leinler tells you
+that you satisfy what you want.
+Therefore, capital F is log-concave.
+Convolution
+proof is very similar.
+What is convolution?
+And I'll stop there.
+Convolution is integral of F of say Z times G of X minus Z, GZ.
+Okay?
+And this integral is over Z.
+This is the function value at sum X.
+And we want to say that if F and G are both log-concave, then
+capital F is also log-concave.
+Why?
+Think of this product function as one log-concave function,
+say capital G of X and Z.
+And it's log-concave because this is log-concave
+And that's log-concave, the product is log-concave.
+And now capital F is just a marginal.
+You're integrating away half the whatever one
+subset of the coordinates, half the coordinates.
+So convolution is log-concave projections of log-concave
+functions of log-concave, which is a very useful property.
+Yes?
+[AUDIENCE MEMBER] So in the statement of the theorem,
+can we replace our N with any subset we are integrating on?
+Instead of integrating over RN, could it be any
+[LECTURER] Set?
+Um, maybe I'll answer it in the second half
+because we'll prove it.
+Okay.
+And then we will, let's check.
+It'll be an interactive check.
+I guess we'll stop here.
+(applause)
+(background chatter)

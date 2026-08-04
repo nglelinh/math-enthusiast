@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ku_video_fNk_zzaMoSs_0",
+    "t_start": 0.0,
+    "t_end": 93.6,
+    "type": "overview",
+    "summary": "[Translated by Grant Sanderson. Submit corrections at criblate.com] The fundamental, root-of-it-all building block for linear algebra is the vector. So it's worth making sure that we're all on the same page about what exactly a vector is. You see, broadly speaking, there are three distinct but related ideas about vectors, which I'll call the physics student perspective, the computer science student perspective, and the mathematician's perspective. The physics student perspective is that vectors are arrows pointing in space. What defines a given vector is its length and the direction it's po…"
+  },
+  {
+    "id": "ku_video_fNk_zzaMoSs_93",
+    "t_start": 93.6,
+    "t_end": 185.5,
+    "type": "overview",
+    "summary": "two vectors and multiplying a vector by a number, operations that I'll talk about later on in this video. The details of this view are rather abstract, and I actually think it's healthy to ignore it until the last video of this series, favoring a more concrete setting in the interim. But the reason I bring it up here is that it hints at the fact that the ideas of vector addition and multiplication by numbers will play an important role throughout linear algebra. But before I talk about those operations, let's just settle in on a specific thought to have in mind when I say the word vector. G…"
+  },
+  {
+    "id": "ku_video_fNk_zzaMoSs_186",
+    "t_start": 186.4,
+    "t_end": 275.6,
+    "type": "overview",
+    "summary": "After choosing an arbitrary length to represent one, you make tick marks on each axis to represent this distance. When I want to convey the idea of 2D space as a whole, which you'll see comes up a lot in these videos, I'll extend these tick marks to make grid lines, but right now, they'll actually get a little bit in the way. The coordinates of a vector is a pair of numbers that basically gives instructions for how to get from the tail of that vector at the origin to its tip. The first number tells you how far to walk along the x-axis, negative numbers indicating leftward motion, and the se…"
+  },
+  {
+    "id": "ku_video_fNk_zzaMoSs_276",
+    "t_start": 276.9,
+    "t_end": 371.6,
+    "type": "overview",
+    "summary": "All right, so back to vector addition and multiplication by numbers. After all, every topic in linear algebra is going to center around these two operations. Luckily, each one's pretty straightforward to define. Let's say we have two vectors, one pointing up and a little to the right, and the other one pointing right and down a bit. To add these two vectors, move the second one so that its tail sits at the tip of the first one. Then, if you draw a new vector from the tail of the first one to where the tip of the second one sits, that new vector is their sum. This definition of addition, by …"
+  },
+  {
+    "id": "ku_video_fNk_zzaMoSs_371",
+    "t_start": 371.6,
+    "t_end": 461.1,
+    "type": "overview",
+    "summary": "negative 1. When you take the vector sum using this tip-to-tail method, you can think of a four-step path from the origin to the tip of the second vector. Walk 1 to the right, then 2 up, then 3 to the right, then 1 down. Reorganizing these steps so that you first do all of the rightward motion, then do all the vertical motion, you can read it as saying first move 1 plus 3 to the right, then move 2 minus 1 up. So the new vector has coordinates 1 plus 3 and 2 plus negative 1. In general, vector addition in this list of numbers conception looks like matching up their terms and adding each one …"
+  },
+  {
+    "id": "ku_video_fNk_zzaMoSs_461",
+    "t_start": 461.9,
+    "t_end": 551.4,
+    "type": "overview",
+    "summary": "In fact, throughout linear algebra, one of the main things that numbers do is scale vectors, so it's common to use the word scalar pretty much interchangeably with the word number. Numerically, stretching out a vector by a factor of, say, 2, corresponds with multiplying each of its components by that factor, 2. So in the conception of vectors as lists of numbers, multiplying a given vector by a scalar means multiplying each one of those components by that scalar. You'll see in the following videos what I mean when I say linear algebra topics tend to revolve around these two fundamental oper…"
+  },
+  {
+    "id": "ku_video_fNk_zzaMoSs_552",
+    "t_start": 552.3,
+    "t_end": 591.8,
+    "type": "overview",
+    "summary": "When I do math-y animations, for example, I start by thinking about what's actually going on in space, and then get the computer to represent things numerically, thereby figuring out where to place the pixels on the screen. And doing that usually relies on a lot of linear algebra understanding. So there are your vector basics, and in the next video I'll start getting into some pretty neat concepts surrounding vectors like span, bases, and linear dependence. See you then!"
+  }
+]

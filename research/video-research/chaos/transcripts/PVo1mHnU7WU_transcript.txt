@@ -1,0 +1,231 @@
+The thing that I'll be talking about today is the logistic map.
+And it's really simple.
+It's like shockingly simple.
+So this is just 1D.
+We say Xn plus 1 is R. That'll be a parameter.
+We could vary Xn times 1 minus Xn.
+This was created to be like a discrete population dynamics model, similar to the logistic equation.
+If you remember the logistic equation, that was a differential equation, but it had a right-hand side that looked something like this, where there was like a carrying capacity for population.
+But here, the space of X, we're normalizing so that it just goes from zero and one.
+So we're talking about the interval zero to one.
+What is r?
+If you were to plot this, you can plot xn plus one.
+So this is a bit like if you remember the graphical method for one-dimensional differential equations.
+Well, here we're plotting the map.
+There's zero, there's one.
+So here's xn.
+Everything has to be between zero and one.
+We're only allowing between zero and one.
+Where does this peak?
+It actually peaks at the halfway mark.
+So one half, it's a parabola, goes up from zero and then it goes up.
+Back down to zero symmetrically.
+And it peaks at r over four.
+We want the map to go from zero to one to zero and one.
+So we want xn plus one to be somewhere inside the unit interval.
+And for that to happen, we need that this peak be one or below.
+So it's conventional to let the parameter be something less than four.
+But greater than zero.
+And physically, this is supposed to represent the reproductive capacity of the population.
+It was first in a paper by Robert May, 1976, in Nature.
+It has some interesting name.
+Simple mathematical models with very complicated dynamics.
+And it's now become a classic.
+He talks about first order and he called them difference equations.
+And maybe that's a term you've heard or used in addition to iterated map, or I think recursion relations are also used.
+So he wrote this, right?
+That's what we're looking at.
+He called the parameter a and referred to time, the discrete time as t. We're going to refer to the discrete time as little n and use r as our bifurcation parameter.
+Robert May was a, I think, trained in physics, but then was in biology departments and
+Sort of a father of mathematical ecology.
+So it's become this classic.
+This is where the logistic map was introduced.
+In some sense, it's the simplest nonlinear map because all it has is a quadratic nonlinearity.
+Xn plus 1 equals, if we were to write it out, it's Rxn minus Rxn squared.
+If it was just Rxn, then it'd be a linear map, easier to analyze, but it's not linear.
+What happens?
+What's the big deal with this map?
+You can pick an initial condition, x0, which has to be somewhere in this interval between 0 and 1, and then you would write, you know, x1 equals...
+R, X naught, one minus X naught.
+And then you'd say, well, X two, whatever you get for X one, right?
+So this is, it's really simple to code up as a for loop and then plot it.
+R, X one, one minus X one, and so on.
+And then you could just see what happens.
+So we'll do that for some initial conditions.
+I'll sketch some here, but then we'll even see it numerically.
+You could pretty easily find numerical tools online for the logistic map because it's so well known.
+The parameter is going to play a big role.
+Bifurcations are very important here.
+If we were to look at what happens with r equals 0.5, along this axis, the horizontal axis, this will be the discrete time n. So there'll be time 0.
+And the interval over here will be, I'll be plotting xn, has to be between zero and one.
+It turns out for any initial condition for 0.5, you will get something like this.
+So here's our initial condition, and then this will just get lower and lower and lower.
+And really the map only spits out these points.
+Xn goes to zero for any x0, so any initial condition.
+As n goes to infinity.
+So x equals zero is a fixed point of the map.
+You might put it that way, at least for this value of r. Now, sometimes people will connect the dots, but that's just to guide your eye.
+The map only spits out points, but if I wanted to guide your eye, I would draw straight segments between these.
+And you can get an idea of what's happening.
+And you can demonstrate that it goes to zero.
+We could think of this also in terms of the cobweb plot.
+If you remember the cobweb plot where we write Xn, Xn plus one, we draw the diagonal, 45 diagonal line.
+Let's call this 1, 1, 0, 0.
+For r 0.5, this thing rises to only the level of, what, r over 4, so that's 1 eighth.
+So it's not going to be very high.
+It's going to be, it never actually,
+Other than at the origin, it does not intersect that 45 degree angle line.
+So according to the cobweb plot construction, if we started with some initial condition, we would go up to the curve, and that tells us where to go.
+We go from there horizontally to this 45 degree line, and then this would take us down to this point.
+I kind of have to zoom in here.
+Ooh, look at that.
+Look what I can do.
+And then we would go across to here.
+And you can kind of see the cobweb plot is just taking us into the origin.
+And this will happen no matter where we start.
+So I'm just using the same rules for the cobweb plot that I did before when we were talking about the Lorenz map.
+So that's for r equals 0.5.
+What about for something a bit bigger?
+So I'll look at r equals 2.8.
+This is what we get for the orbit.
+If we start somewhere, I'll start at some other initial condition.
+Remember, this only goes from between 0 and 1.
+If I start, say, here, the next iterate gets a little bit further up.
+And then I go...
+Up somewhere but then i go down and that just sort of dampens out until i reach a fixed point and again the map only spits out the points we could draw lines to connect it to guide your eye and you can see hopefully what's happening it looks like it overshoots but then eventually settles down to a fixed point that's non-zero x n goes to x star as
+And goes to infinity and X star is not zero.
+So there's some non-zero fixed point that shows up.
+And it's the same X star for any initial condition.
+And remember the range for R.
+Like I said, it's conventionally taken to be from zero to four.
+And I'm picking these strange values.
+What about r equals 3.3?
+We do the same kind of diagram.
+So this is xn goes between zero and one.
+Here's what we would find.
+Start with some initial condition.
+What we would get is that this will go up and eventually it'll settle down.
+On a cycle, so it's going between two points over and over again.
+So this is like the discrete map version of a limit cycle.
+Instead of being a fixed point, we settle onto a cycle.
+It jumps between the same two points as n goes to infinity.
+And this is independent of the initial condition.
+So you take any initial condition, it'll...
+It'll settle on this.
+We call this a period two orbit, or you could call it a period two cycle.
+And it's also stable.
+It is the attractor.
+It's the attractor because an open set, but actually every initial condition ends up there and you get this repeating.
+So Xn plus two equals Xn as n goes to infinity.
+All right, if this is X and then it's just going between the two.
+So that's interesting.
+What if we turn this knob a little bit higher?
+R equals 3.5.
+We get something that settles on a cycle, but it settles on something where it goes down and then up and then down and then higher.
+And then it repeats that down, up, kind of down, up.
+It's a lot easier if I connect points, maybe even zoom in.
+So it's repeating, but it's not repeating every two iterates.
+It's repeating every four iterates.
+So we would call this a period four cycle.
+So that's interesting.
+What happened to three?
+We had, in this case, we had period-doubling.
+And period-doubling will be sort of one of the main phenomena that goes on here.
+You can find these numerically.
+Some of them you can find analytically.
+But think of just you tune R and you look for the value of R where a stable two to the N cycle first occurs.
+As we turn this knob even further, we'll go from a period four cycle to a period eight.
+Period 16 and so on.
+And I'll call the special value of r, I'll call it rn.
+It's the value of r where a stable 2 to the n cycle first occurs.
+So it turns out, if you notice what we had up here, at least for r 2.8, we didn't have one.
+It was just a fixed point.
+For our 3.3, we did have a stable 2 cycle.
+So that means 2 to the 1.
+So R1, that happens at three and that can be shown.
+So a period two cycle is born.
+R2 occurs at, so that would mean a two to the two cycle or a four cycle, 3.449.
+If we keep continuing this, R3 is at 3.54409.
+So that's a period eight cycle.
+Two to the three is eight.
+Another period-doubling at 3.5644 and so on.
+What is going on with this sequence?
+It's looking like it's converging to something.
+So R to the 5, that would be where there's a 32 cycle, is 3.568759.
+It looks like it's converging to something close to like 3.57.
+It actually is.
+So if we were to look at what's going on, Rn converges essentially geometrically to some point called R infinity, which Robert May in the paper referred to as the accumulation point.
+If we were to sketch the interval, this is r. We could draw r1 and everything.
+At this point, this is, let's call this the accumulation point.
+Everything's going towards r infinity.
+So here is, say, rn.
+Here's rn minus 1.
+So we have the length of that first gap between the values.
+The next value, Rn plus one, is a smaller gap, and the gaps keep getting smaller and smaller, and it's kind of hard to draw, but it all accumulates at that point, R infinity.
+If you look at the ratio of Rn minus Rn minus one, so the longer gap,
+Divided by the size of the smaller gap.
+As n goes to infinity, the ratio of those gaps becomes a fixed number.
+4.6692.
+Something, something, something.
+And we'll see more about what that number is right now.
+Let's just say it's a mystery.
+It's sometimes called delta, but that's what's going on.
+R-infinity is something really close to 3.57.
+There's still plenty of room between r-infinity and 4, so you might wonder what's going on there.
+Actually, a shocking amount of stuff happens.
+So what was drawn, what's been drawn, and it's now become a pretty...
+Topics include Poincaré-Bendixson, Dulac's criterion, strange attractors, Abraham, Shaw, Hamiltonian dynamics, Euler, rotation matrices, Lagrange, Duffing, Pooincare, Lyapunov, Lorenz, Hamilton-Jacobi, Noether, taffy-pulling machine.
+Topics include Poincaré-Bendixson, Dulac's criterion, strange attractors, Hamilton-Jacobi, Noether, taffy-pulling machine.
+So we're plotting all the points on the attractor.
+So what have we shown up above?
+Well, for point five, we were at zero.
+So this only goes between zero and one.
+This is what's happening at point five.
+Right, we just, we were at zero.
+In fact, we stay at zero until the value one.
+And at the point one, zero still is a fixed point.
+It's an unstable fixed point.
+So we might draw that as dashed.
+What we really care about is where the points are.
+There's the branch that shoots off.
+And we looked at 2.8 and that's just a point.
+It's just a fixed point.
+But then at three, this bifurcates into two branches.
+So if you remember where we were at 3.3, this isn't going to be completely to scale, but we had two points.
+There's actually a branch coming off that fixed point that goes between those two points.
+There's still an unstable point, but it's unstable, so you wouldn't observe it.
+So it's usually not depicted in this thing that would be called the
+Bifurcation diagram of the logistic map.
+At 3.5, we had four points, and that's because somewhere in there was R2, and that's where there's a splitting again.
+We call this the period-doubling.
+And this period-doubling keeps happening at each of those values of Rn.
+So it's hard to depict.
+So I zoom in here.
+Where were we?
+3.5, I think.
+So there's more and more splittings.
+You could just think of there being little, it looks like a tree with branches.
+And eventually, right, there's a R infinity.
+You hit R infinity and all these branchings just go into a mess of chaos.
+I'll just show what look like tons of little branchings.
+And then we have
+And then here's the weird thing.
+There's a window later on.
+There's several windows.
+There's an infinite number of windows, but there are big windows of going from chaos back to periodic behavior.
+This is depicting chaos, and then we have periodic window.
+And the kind of biggest periodic window has period three.
+It shows some period three orbits.
+Those branch, and then there's chaos again, and then there's windows.
+This diagram is an intermingling of chaotic and periodic windows.
+This was surprising.
+Why would such a simple map, in some sense the simplest non-linear map, show such rich behavior?
+But there it is.
+It's real.
+In fact, this point where the kind of biggest periodic window shows up occurs at 1 plus 2 square root 2, which is about 3.82.
+And that's where the period 3 stable attractor was born.
+It turns out you can find attractors of any period.
+So give me any integer for some parameter value, there will be an attractor that has that period.
+Because in this region that I've called chaos, there's actually periodic windows inside there.
+They might be infinitesimally wide, but they're there.
+There's a lot to unpack here and try to understand.

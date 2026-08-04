@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ku_video_1CCZkHPrhzk_0",
+    "t_start": 0.3,
+    "t_end": 91.9,
+    "type": "overview",
+    "summary": "The goal here is to introduce the Ising model without going into details about its solution. Suppose we have a system of N sites with two possible states. That could, for instance, represent localized spins 1/2, that can be either up or down. Importantly, any two neighboring sites are coupled via an interaction -J. In this way a positive value for J favors the parallel alignment of neighboring states. Additionally we could think of a term to manipulate the state at each site individually. In the case of localized spins this can be achieved by an external magnetic field. For a thorough discu…"
+  },
+  {
+    "id": "ku_video_1CCZkHPrhzk_91",
+    "t_start": 91.9,
+    "t_end": 183.1,
+    "type": "overview",
+    "summary": "site i. Thats all we need in order to understand the second term as well. It contains the coupling of neighboring sites, a sum over all nearest neighbors and the product of sigma matrices at site i and j. As mentioned a positive J will favor neighboring spins to be parallel. It is now time to think of different geometries in which N sites may be arranged. In one dimension, it is a simple chain, that could have free or periodic boundary conditions. The 1d Ising model is solvable with pen and paper. Thew solution shows that it has no phase transition. The result was reported in 1924 by Ernst …"
+  },
+  {
+    "id": "ku_video_1CCZkHPrhzk_183",
+    "t_start": 183.1,
+    "t_end": 201.1,
+    "type": "overview",
+    "summary": "The Ising model is still widely discussed despite of its age. A reason is surely that many problems can be mapped to the Ising model. For more details on how to solve the Ising model and where it might be applied, stay tuned. That’s pretty much it for this video."
+  }
+]

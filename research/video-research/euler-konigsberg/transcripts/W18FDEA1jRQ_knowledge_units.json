@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ku_video_W18FDEA1jRQ_0",
+    "t_start": 0.3,
+    "t_end": 90.5,
+    "type": "overview",
+    "summary": "People living in Königsberg, in what is now Russia or Poland... Hard to say which. They had seven bridges across two shores of the Pregel River and there's [sic] two islands! An island over here... Bluh Bank over here, bank over here. And they've got it set up so that there's seven bridges. One, two... So you could go, you know, you'll wanna walk over this way. You could take a horse and bug over to that side, and cross over here. One, two, three, four, five, six, seven bridges! People argued: \"Can you take a Sunday walk and just cross every bridge once?\" So, I wanna go out someday and just…"
+  },
+  {
+    "id": "ku_video_W18FDEA1jRQ_90",
+    "t_start": 90.9,
+    "t_end": 180.4,
+    "type": "overview",
+    "summary": "he says, Trying to solve it, one at a time, doesn't tell us anything new. It's today what we would call a numerical solution. That might give you an answer, but it doesn't give you understanding. He's saying, \"Hm, how do I do this, ahn?\" And then, he says, \"Think about ordinary bridges.\" Every time I walk across a bridge onto an island, I go from Blue to Polka Dot Land... Oh, Blue to Polka Dot Land, the Red Shore over to Polka Dot Land... Oh, okay. Euler resigned concentrating on the bridges, starts saying, \"Look at the islands, look at the landmasses.\" \"Let's label those and think about th…"
+  },
+  {
+    "id": "ku_video_W18FDEA1jRQ_182",
+    "t_start": 182.3,
+    "t_end": 273.4,
+    "type": "overview",
+    "summary": "Let's start from C to D. Po po popopo... Ok, that's legal. So I have C -&gt; D. Then I go from D to B. Oh, it's D -&gt; B. Every time I get from one to another, from one landmass to another landmass, I can make a list -- of -- my -- travels. Oh! Oops, stay out of the water! Euler says, \"This means that\" \"if I have even number of bridges,\" \"one-one,\" \"going into and out of an island,\" \"that's completely legal.\" I can go right through the island if I have four bridges... Oh, you can come across here, come across here, back, over, and back. But an *odd* number of bridges... Okay... I can come …"
+  },
+  {
+    "id": "ku_video_W18FDEA1jRQ_274",
+    "t_start": 274.1,
+    "t_end": 369.7,
+    "type": "overview",
+    "summary": "\"to any or from any island, I have to either\" \"or end my walk at that location.\" Right now, island A has two bridges going to it. That means, oh, if I do not start on this island, I can just traverse it. You know, Euler goes on and says, \"And if I start in that island,\" \"I can go around -- blah, blah, blah\" \"Vu vu vuf -- and return to it.\" Even numbered islands, islands that have an even number of bridges going to 'em. I've got it made! This makes it possible for me to -- to -- to-- almost eliminate them from my thought process. And it works whether it's two, four, or even... Or even six. O…"
+  },
+  {
+    "id": "ku_video_W18FDEA1jRQ_369",
+    "t_start": 369.7,
+    "t_end": 461.2,
+    "type": "overview",
+    "summary": "I can start on one, traverse around, and then end on the other one. Now, let's go back to what was really happening in Königsberg around 1725. Seven bridges, remember? Wasn't arranged like this. It was... One, two, three, four, five, six, seven. Ok. Let me see... [splashing water sound] Let me see how I'm doing. This section, the Red Shore, what he calls C, I have -- one, two -- three bridges from. [Brady]: Odd. Oh, it's and odd number! Odd number! Okay. How about D? Let go over D, island D. One, two -- three bridges. Oh, this is odd. How about... The North Shore, B? One, two, three -- odd …"
+  },
+  {
+    "id": "ku_video_W18FDEA1jRQ_461",
+    "t_start": 461.5,
+    "t_end": 553.3,
+    "type": "overview",
+    "summary": "Not only there are not seven bridges, the city of Königsberg doesn't exist. It's been renamed to Kaliningrad. It's a part of Russia today. Or I think the Baltic Fleet works out of there. And there's five bridges. Well... Suppose you're sitting around in today's city. Could you do this? Well, before even trying, let's just note: C over here, node C, this landmass of C, has two bridges today. An even number. Over there, the landmass B, the blue one, has one, two bridges from it. What about island A? One, two, three bridges, an odd number. Island D -- one, two -- three bridges. Oh! Thus, today…"
+  },
+  {
+    "id": "ku_video_W18FDEA1jRQ_553",
+    "t_start": 553.5,
+    "t_end": 643.6,
+    "type": "overview",
+    "summary": "Started there, ended there. Euler has told us that, if there are exactly two islands that have an odd number of bridges, you have to start on one of them and end on the other one. If there were three islands that had, each had an odd number of bridges, no way! You couldn't solve the problem. However, if each island had an even number of bridges... Suppose next week there's an earthquake. At the Baltic Sea, it knocks down one bridge. Now, every landmass has two bridges going to it. And even I can figure it out, oh, yeah, I can traverse them all. Here's the first one, here's the second one, h…"
+  },
+  {
+    "id": "ku_video_W18FDEA1jRQ_643",
+    "t_start": 643.9,
+    "t_end": 736.8,
+    "type": "overview",
+    "summary": "but we have to start on an odd-numbered place and end on an odd number. So, I'm on the odd-numbered C, there's only one bridge, one is an odd number. Okay -- (po po po po!) Got to D. D is an even one. Oh, ok. I'll walk across this one. (Pop pa!) And then I get to B and, oh, I can walk across this. I end up on an odd-bridged island and have completed traversed it. If all the islands have an even number of bridges, even everywhere! Then, we're even-Steven, piece of cake. You can make this traverse and everybody in the saloon, in their Sunday walks, they're happy! What if there's only one odd-…"
+  },
+  {
+    "id": "ku_video_W18FDEA1jRQ_737",
+    "t_start": 737.0,
+    "t_end": 826.5,
+    "type": "overview",
+    "summary": "Discrete mathematics and computer science... Discrete mathematics with ducks... You can't touch a book on this without turning to a page that has Euler on it! And sure enough, over here, \"The Swiss mathematician, Leonhard Euler, solves this problem -- blah blah blah\" Euler invented graph theory. This is the first time, 1830 [sic], that graph theory has been thought of. And instead of analyzing this as a \"let's walk across bridges\", Euler recognized that... That connections from one place to another were central to a part of mathematics. Even cooler than that! Euler said, \"This is a geometri…"
+  },
+  {
+    "id": "ku_video_W18FDEA1jRQ_827",
+    "t_start": 827.2,
+    "t_end": 881.4,
+    "type": "overview",
+    "summary": "[Credits] Thank you to Audible for supporting this video. Audible is the top provider of audio books and other spoken material with a dizzying number of titles covering almost anything you can think of. If you don't believe me, here are just seven bridge books you might enjoy listening to. Bridge of Spies, The Ice Bridge, Bridge to Terabithia, A Bridge Too Far, The Invisible Bridge, Bridget Jone's Diary and, my personal favorite on this list, The Great Bridge: The epic history of the building of the Brooklin Bridge. And I've said bridge a lot of times. If you'd like to listen to any other b…"
+  }
+]

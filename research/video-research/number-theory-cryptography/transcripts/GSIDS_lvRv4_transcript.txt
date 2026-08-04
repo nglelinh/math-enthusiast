@@ -1,0 +1,165 @@
+The thing I wanted to talk about today, um...
+One of the things
+is a.. the coolness that is public-private key cryptography
+The basic idea of how it works
+I think is uh...
+is just cool and such clever idea that I want to explain it
+So everyone is familiar with the basic idea of crypto, where
+you umm
+You have a secret key
+You used that to
+encode some information which converts it from a readable format to
+garr
+garbage effectively
+ah.. it looks like a random noise
+You then transfer it to somebody else
+and they then able to decrypt it and get the message out
+and anyone who is listening here on your communication
+um...
+isn't able to find out anything about the information that you are communicating
+the way
+you intuitively think about, especially if you
+doing these simple codes, something like caesar cypher that you might do
+when you are a kid
+there's one
+there's one secret that you both have, right, this...this is a symmetric system
+so you have got
+your message saying HELLO
+and then you do some process to it
+to convert it
+using a key
+that some secret piece of information
+which then converts this into nonsense
+and then you send this
+to the other person
+and they decrypt it
+with the process that kind of same process in reverse
+using the same key
+and then again HELLO
+backout at the other end
+and that's nice and simple it works
+um... and it was once
+sort of only way people did this
+but it has a problem which is
+you both need to know what this key is
+so if it is you and me. And we want to communicate with one another privately
+we have to agree on  a key
+that's nobody else gonna guess
+and we have to share it with one anther
+um
+so  we might meet in the park in secret and exchange envelopes
+or whatever
+this is the kind of things spy used to do, right
+and the problem with that is
+first its very inconvinient
+second, you sometimes can't do it, might be physically separated
+or we want to do something over internet
+and we never met
+the problem is that how do I send this key to you
+without just sending the key in the clear, as  it were unencrypted
+inorder for us to share the key safely
+we need a secure encrypted connection
+but we can't establish a secure encrypted connection without a key
+there's a way of solving this problem
+which is asymmetric encryption
+um...where what you do is generate two keys
+key a
+and key b
+let's just call then and i m drawing a line
+asymmetric system you have two keys
+and then basically it's same as before
+you have got your message
+says hello
+you encrypt it with key a
+to say
+whatever it was that I decided it was
+and then back out you get HELLO again
+and decryption in this case uses key b
+you can't guess one key from other
+but they are linked in such a way that
+anything you encrypt with key a can only be decrypted with key b
+and anything you encrypt with key b can only be decrypted with key a
+so there's two
+and what you do is
+you generate a pair of these keys, which is called key pair
+and
+you just pick one of them
+and say
+this is my public key
+right and your public key
+is public
+you publish it everywhere
+you put it
+you put it at the end of emails
+your forum posts
+you...you upload it to keyserver
+just specialized serve system designed for
+storing, securely storing people public keys
+basic idea is it's everywhere out
+there in the world with your name on it
+the private key
+is the other key of this pair
+that one you keep absolutely secret
+you can do some cool things with this once you have system setup
+i have a key pair
+you have a key pair
+we both have one another public key
+so now if you want to send me a message
+i don't have to share anything with you
+you just know my public key
+encrypt something with my public key
+send it to me
+you know i can decrypt it
+because i have my private key
+and then there's another thing you can do with this
+which is
+if i encrypt something with my private key
+and then publish it
+now on the surface you may think what is the point
+of encrypting it
+with your private key
+because your public key is out there and anything can decrypt it
+so why bother encrypting
+but
+the fact that it can be decrypted with your public key
+means it must have been encrypted with your private key
+which it must have been you who made the message
+because only you have your private key
+cryptographically you can be certain
+that it's an authentic message really from that person
+so the best thing is that when I do both
+where i encrypt something from my private key
+and then your public key
+and then send it to you
+and if we communicate like this
+i know that no body else gonna read the message
+you know that no body else can read the message
+you know that message is come from me, not an impostor
+you also know that the message hasn't been modified
+because any modification to the message also require the keys
+that's a great secure system and
+we didn't have to meet up in the park
+in a secret way
+and exchange any information or anything
+we never have met
+i need to make clear here that I have oversimplified in various ways
+people who understands cryptography will be quiet
+upset
+probably
+by now
+but guys this is
+this is why people don't use crypto
+because we make it to complicated
+core concept is simple
+and basic stuff isn't it difficult to use
+and everyone should
+when you put envelope in the post
+you kind of assume
+you lick the things to seal it
+and if it's been open
+people will know it's been open
+and there is laws about this
+and we have to know these stuffs
+when you communicate in the clear
+you know anyone and his dog can know exactly what you're sending to everyone
+and there's no reason to allow that

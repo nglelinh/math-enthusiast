@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ku_video_macM_MtS_w4_0",
+    "t_start": 0.0,
+    "t_end": 95.2,
+    "type": "overview",
+    "summary": "Today we are going to be talking about a problem in logic and how in solving that problem, Alan Turing almost inadvertently invented the modern digital computer. So we start back at the beginning of the 20th century, where mathematicians had posed this problem - in logic we're interested in finding \"Do these premises entail this conclusion?\" So premises are the bits you start off with in an argument they are your -- the bits you know at the beginning or your assumptions and the conclusion is the bit you want to establish the bit that you reason to with your argument and we want to know is t…"
+  },
+  {
+    "id": "ku_video_macM_MtS_w4_95",
+    "t_start": 95.2,
+    "t_end": 187.7,
+    "type": "overview",
+    "summary": "something about every possible program you can't run through every program one by one but Turing came up with a brilliant solution his idea goes something like this suppose we have a program and let's just draw it as a black box it's going to take some inputs and it's going to give us some outputs our program is going to solve some problem a problem like \"Do the premises entail the conclusion\" we ask it a question and it will give us an answer yes or no now here's another question we can ask let's look at all of those possible programs and we're just thinking of them as black boxes at the m…"
+  },
+  {
+    "id": "ku_video_macM_MtS_w4_188",
+    "t_start": 188.3,
+    "t_end": 283.4,
+    "type": "overview",
+    "summary": "\"Do these premises entail this conclusion?\" is very similar to this halting problem in fact if we can solve the logical problem then we can solve the halting problem will this program halt on this input so the clever part of Turing's proof is to show that it's impossible for any machine however clever it is to solve the halting problem that is to tell us whether a given machine with a given input will halt or not - and here's how he did it let's suppose we've got a machine or a program that solves the problem for us it solves the halting problem don't worry about how it works let's just thi…"
+  },
+  {
+    "id": "ku_video_macM_MtS_w4_283",
+    "t_start": 283.4,
+    "t_end": 373.1,
+    "type": "overview",
+    "summary": "in here so the question I'm now asking is I'm feeding h+ into itself so i'm asking the question \"Does h+ halt given input h+?\" and here's where it all goes wrong because if h plus does halt we get a yes answer but then it loops forever so it doesn't halt on the other hand if it doesn't halt we get a no answer but then it halts so if it does halt then it doesn't halt but if it doesn't halt then it does halt. Either way we get a contradiction it's a paradox but what that shows is we started off assuming that we can solve the problem we've ended up with a paradox so our assumption was bad it t…"
+  }
+]

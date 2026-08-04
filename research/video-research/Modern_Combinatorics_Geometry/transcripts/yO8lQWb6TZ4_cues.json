@@ -1,0 +1,377 @@
+[
+  {
+    "t_start": 29.99,
+    "t_end": 31.429,
+    "text": "in mathematics you want to know what is true and"
+  },
+  {
+    "t_start": 31.429,
+    "t_end": 36.47,
+    "text": "why it's true it's often hard to go straight from"
+  },
+  {
+    "t_start": 36.47,
+    "t_end": 39.0,
+    "text": "it's often hard to go straight from where you are to where you want to go"
+  },
+  {
+    "t_start": 39.0,
+    "t_end": 42.15,
+    "text": "where you are to where you want to go [Music]"
+  },
+  {
+    "t_start": 42.15,
+    "t_end": 54.869,
+    "text": "each one of us has to find our own way"
+  },
+  {
+    "t_start": 57.27,
+    "t_end": 58.47,
+    "text": "the boundary between knowing and not knowing is"
+  },
+  {
+    "t_start": 58.47,
+    "t_end": 64.469,
+    "text": "so clear in mathematics you can almost see this mysterious"
+  },
+  {
+    "t_start": 64.469,
+    "t_end": 70.469,
+    "text": "our brain secretly operates if you think about something long enough"
+  },
+  {
+    "t_start": 70.469,
+    "t_end": 75.84,
+    "text": "if you think about something long enough you cross that line of understanding"
+  },
+  {
+    "t_start": 78.31,
+    "t_end": 83.99,
+    "text": "when i was young math was like a far away land"
+  },
+  {
+    "t_start": 83.99,
+    "t_end": 86.87,
+    "text": "math was like a far away land surrounded by giant walls that"
+  },
+  {
+    "t_start": 86.87,
+    "t_end": 89.749,
+    "text": "surrounded by giant walls that i could not climb"
+  },
+  {
+    "t_start": 89.749,
+    "t_end": 95.35,
+    "text": "i grew up in korea and i dreamed of becoming a poet"
+  },
+  {
+    "t_start": 95.35,
+    "t_end": 98.68,
+    "text": "i dreamed of becoming a poet to express the inexpressible"
+  },
+  {
+    "t_start": 98.68,
+    "t_end": 100.149,
+    "text": "to express the inexpressible [Music]"
+  },
+  {
+    "t_start": 100.149,
+    "t_end": 101.03,
+    "text": "[Music] i"
+  },
+  {
+    "t_start": 101.03,
+    "t_end": 107.99,
+    "text": "eventually learned that mathematics is a way of doing that"
+  },
+  {
+    "t_start": 110.63,
+    "t_end": 114.31,
+    "text": "now i am a professor of mathematics at princeton university"
+  },
+  {
+    "t_start": 121.19,
+    "t_end": 125.27,
+    "text": "my way was to build spaces from combinatorial objects"
+  },
+  {
+    "t_start": 129.83,
+    "t_end": 132.15,
+    "text": "once you have a space to move around you can use your geometric intuition to"
+  },
+  {
+    "t_start": 132.15,
+    "t_end": 134.79,
+    "text": "you can use your geometric intuition to extract information"
+  },
+  {
+    "t_start": 134.79,
+    "t_end": 138.39,
+    "text": "extract information hidden in the original combinatorial"
+  },
+  {
+    "t_start": 138.39,
+    "t_end": 143.35,
+    "text": "a good example of my work is the proof of the darling wilson conjecture that's"
+  },
+  {
+    "t_start": 143.35,
+    "t_end": 148.07,
+    "text": "of the darling wilson conjecture that's an old question and the easy special"
+  },
+  {
+    "t_start": 148.07,
+    "t_end": 149.83,
+    "text": "case of it is the following problem in plain geometry"
+  },
+  {
+    "t_start": 149.83,
+    "t_end": 153.03,
+    "text": "plain geometry take a finite set of points on a plane"
+  },
+  {
+    "t_start": 153.03,
+    "t_end": 158.71,
+    "text": "connect every pair of points by a line do we always get at least as many lines"
+  },
+  {
+    "t_start": 158.71,
+    "t_end": 160.309,
+    "text": "do we always get at least as many lines as points"
+  },
+  {
+    "t_start": 160.309,
+    "t_end": 165.43,
+    "text": "dowling and wilson predicted that the answer is yes for points in an arbitrary"
+  },
+  {
+    "t_start": 165.43,
+    "t_end": 166.55,
+    "text": "answer is yes for points in an arbitrary dimension"
+  },
+  {
+    "t_start": 166.55,
+    "t_end": 173.03,
+    "text": "given dimension with that of a complementary dimension connected by"
+  },
+  {
+    "t_start": 173.03,
+    "t_end": 179.19,
+    "text": "part of the initial point set the conjecture can be formulated purely"
+  },
+  {
+    "t_start": 179.19,
+    "t_end": 181.67,
+    "text": "the conjecture can be formulated purely in the realm of discrete mathematics"
+  },
+  {
+    "t_start": 181.67,
+    "t_end": 184.63,
+    "text": "in the realm of discrete mathematics but it's hard to prove within that same"
+  },
+  {
+    "t_start": 184.63,
+    "t_end": 190.71,
+    "text": "so my collaborators and i imagine the space whose geometry untangles that"
+  },
+  {
+    "t_start": 190.71,
+    "t_end": 192.229,
+    "text": "space whose geometry untangles that difficulty"
+  },
+  {
+    "t_start": 192.229,
+    "t_end": 196.63,
+    "text": "this imagine space has properties that are very similar to spaces that are"
+  },
+  {
+    "t_start": 196.63,
+    "t_end": 199.75,
+    "text": "are very similar to spaces that are familiar and more visible to us"
+  },
+  {
+    "t_start": 199.75,
+    "t_end": 200.47,
+    "text": "familiar and more visible to us and"
+  },
+  {
+    "t_start": 200.47,
+    "t_end": 205.19,
+    "text": "those properties allowed us to answer the original question using a totally"
+  },
+  {
+    "t_start": 205.19,
+    "t_end": 207.27,
+    "text": "the original question using a totally different type of intuition"
+  },
+  {
+    "t_start": 207.27,
+    "t_end": 210.949,
+    "text": "different type of intuition this is what happened in the case of"
+  },
+  {
+    "t_start": 210.949,
+    "t_end": 216.84,
+    "text": "darling wilson's conjecture and to a large extent mason's conjecture"
+  },
+  {
+    "t_start": 216.84,
+    "t_end": 220.47,
+    "text": "large extent mason's conjecture [Music]"
+  },
+  {
+    "t_start": 223.67,
+    "t_end": 227.75,
+    "text": "i construct and analyze and wander in the geometric realm of my"
+  },
+  {
+    "t_start": 227.75,
+    "t_end": 231.83,
+    "text": "and when it becomes three o'clock i go to pick up my kids from the elementary"
+  },
+  {
+    "t_start": 231.83,
+    "t_end": 233.79,
+    "text": "to pick up my kids from the elementary school"
+  },
+  {
+    "t_start": 233.79,
+    "t_end": 237.35,
+    "text": "school [Music]"
+  },
+  {
+    "t_start": 241.509,
+    "t_end": 244.39,
+    "text": "it really wakes me up my wife naong is the most important person in my life"
+  },
+  {
+    "t_start": 244.39,
+    "t_end": 246.71,
+    "text": "the most important person in my life she's my friend and"
+  },
+  {
+    "t_start": 246.71,
+    "t_end": 248.149,
+    "text": "she's my friend and companion and"
+  },
+  {
+    "t_start": 248.149,
+    "t_end": 254.869,
+    "text": "she's always there for us my older son dan we do a little bit of"
+  },
+  {
+    "t_start": 254.869,
+    "t_end": 256.39,
+    "text": "my older son dan we do a little bit of math together"
+  },
+  {
+    "t_start": 256.39,
+    "t_end": 260.31,
+    "text": "math together is it 30 yep"
+  },
+  {
+    "t_start": 262.15,
+    "t_end": 263.43,
+    "text": "can i start here no"
+  },
+  {
+    "t_start": 263.43,
+    "t_end": 267.749,
+    "text": "you're not done yet he enjoys posing problems and"
+  },
+  {
+    "t_start": 267.749,
+    "t_end": 271.59,
+    "text": "watching other people solve them it's like a puzzle and"
+  },
+  {
+    "t_start": 271.59,
+    "t_end": 273.43,
+    "text": "it's like a puzzle and there's great joy in it"
+  },
+  {
+    "t_start": 273.43,
+    "t_end": 278.23,
+    "text": "there's great joy in it high five okay"
+  },
+  {
+    "t_start": 280.79,
+    "t_end": 282.5,
+    "text": "my younger son sol he just started walking"
+  },
+  {
+    "t_start": 282.5,
+    "t_end": 286.629,
+    "text": "he just started walking [Music]"
+  },
+  {
+    "t_start": 286.629,
+    "t_end": 292.53,
+    "text": "after dinner we change into our pajamas and go to bed"
+  },
+  {
+    "t_start": 294.31,
+    "t_end": 297.909,
+    "text": "and then we repeat the whole thing [Music]"
+  },
+  {
+    "t_start": 297.909,
+    "t_end": 306.469,
+    "text": "there is beauty in this repetition [Music]"
+  },
+  {
+    "t_start": 308.87,
+    "t_end": 315.51,
+    "text": "princeton is one of the best towns in the world to be a mathematician and"
+  },
+  {
+    "t_start": 315.51,
+    "t_end": 319.83,
+    "text": "the world to be a mathematician and it's a peaceful place to raise our"
+  },
+  {
+    "t_start": 319.83,
+    "t_end": 324.79,
+    "text": "every one of my works could not have been done without the help and influence"
+  },
+  {
+    "t_start": 324.79,
+    "t_end": 327.43,
+    "text": "been done without the help and influence of my collaborators"
+  },
+  {
+    "t_start": 327.43,
+    "t_end": 328.71,
+    "text": "of my collaborators being a"
+  },
+  {
+    "t_start": 328.71,
+    "t_end": 332.71,
+    "text": "part of a giant network of very good people"
+  },
+  {
+    "t_start": 332.71,
+    "t_end": 339.99,
+    "text": "gives me the freedom that i could not imagine before i became a"
+  },
+  {
+    "t_start": 339.99,
+    "t_end": 345.99,
+    "text": "on clear days i can see that i'm a small and simple part"
+  },
+  {
+    "t_start": 345.99,
+    "t_end": 353.11,
+    "text": "big and complex ancient structure in some mysterious way"
+  },
+  {
+    "t_start": 353.11,
+    "t_end": 357.59,
+    "text": "in some mysterious way we are connected to each other"
+  },
+  {
+    "t_start": 357.59,
+    "t_end": 371.35,
+    "text": "and we grow from that connection"
+  }
+]

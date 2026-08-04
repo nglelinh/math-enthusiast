@@ -1,0 +1,148 @@
+Consider this lake flowing. If I gave you the velocity and pressure at every
+you the velocity and pressure at every single point, would you be able to
+single point, would you be able to predict how the lake flows over time?
+predict how the lake flows over time? This question points to the Navia Stokes
+This question points to the Navia Stokes equations, a set of equations that can
+equations, a set of equations that can describe any fluid you can think of from
+water to air to honey to so on. You might have heard of these equations
+because they're a part of the Millennium Prize problems. A collection of seven
+Prize problems. A collection of seven incredibly important and difficult
+incredibly important and difficult mathematical problems. A correct
+solution to any of these seven problems is awarded a million dollar cash prize.
+is awarded a million dollar cash prize. Today, let's talk about this particular
+Today, let's talk about this particular problem. The existence and smoothness of
+problem. The existence and smoothness of the Navia Stokes equation. The Navia
+the Navia Stokes equation. The Navia Stokes equations are probably one of the
+equations for fluid mechanics. They're used to forecast the weather, model
+used to forecast the weather, model airplanes and rockets, and predict water
+airplanes and rockets, and predict water currents. Despite their extensive usage,
+currents. Despite their extensive usage, there's still not that much we know
+speaking. But first, let's talk about what these equations actually are. For
+the purpose of this video, I'm going to make a few assumptions about the fluid
+make a few assumptions about the fluid we're talking about. The first
+we're talking about. The first assumption is that the fluid is
+assumption is that the fluid is Newtonian. There was a really good
+Newtonian. There was a really good answer on Stack Exchange that explained
+what it meant for a fluid to be Newtonian, but let me just summarize it
+for you. When we call a fluid Newtonian, it means that the rate at which we apply
+some sheer stress has no effect on its viscosity. An example from this answer
+viscosity. An example from this answer on stack exchange is ketchup. When we
+on stack exchange is ketchup. When we have difficulty removing ketchup from a
+have difficulty removing ketchup from a bottle, something we all do is hit the
+bottom of the bottle and the ketchup comes out with ease. Looking at
+comes out with ease. Looking at ketchup's sheer rate versus viscosity
+graph, we can see that hitting the bottle, which increases the shear rate,
+bottle, which increases the shear rate, decreases its viscosity, which lets the
+The second assumption is that the fluid is incompressible. It means exactly what
+is incompressible. It means exactly what you think. If I compress the fluid that
+is at pressure, there's no considerable variation in the volume of the fluid.
+The last assumption is that the fluid is isothermal. This just means that as the
+fluid flows, there's no loss or gain of heat. And this takes us to the Navia
+heat. And this takes us to the Navia Stokes equations. As daunting as they
+Stokes equations. As daunting as they may seem, they're actually based on
+may seem, they're actually based on quite well-known physics properties.
+Note that when we talk about fluids, we typically talk about an infinite decimal
+typically talk about an infinite decimal volume of fluid. And so we're trying to
+describe the motion of each individual molecule rather than the fluid as a
+This first equation right here tells us that mass is conserved within the fluid.
+that mass is conserved within the fluid. The operator here is called the
+The operator here is called the divergence of a vector field. The vector
+divergence of a vector field. The vector field in this case u is the velocity
+A vector field is what you get when you assign every single point in space to a
+assign every single point in space to a vector. Vector fields can describe many
+vector. Vector fields can describe many things from fluids to electric fields to
+things from fluids to electric fields to gravitational fields and so on. The
+gravitational fields and so on. The divergence of a vector field is an
+operator that tells us how much a point tends to divert vectors away from it.
+tends to divert vectors away from it. Consider this vector field. It appears
+Consider this vector field. It appears that vectors seem to be moving away from
+the origin. This indicates positive divergence.
+Similarly, this vector field seems to have vectors that flow into the origin.
+have vectors that flow into the origin. This indicates negative divergence.
+Numerically, we write the divergence as a dotproduct between the gradient vector
+a dotproduct between the gradient vector and its vector field. This fantastic
+and its vector field. This fantastic video by 31bound explains why. So, if
+video by 31bound explains why. So, if you're interested, check it out.
+In terms of fluids, the divergence of a vector field indicates how much or how
+vector field indicates how much or how little a point acts as a source of a
+little a point acts as a source of a fluid. If we imagine water in some area,
+fluid. If we imagine water in some area, it's impossible for the water to simply
+it's impossible for the water to simply disappear. It could either change forms
+disappear. It could either change forms but mass is never destroyed and thus the
+divergence across the fluid has to be zero. And hence the first Navia Stokes
+zero. And hence the first Navia Stokes equation.
+The second equation is just a rewritten version of Newton's second law. If you
+version of Newton's second law. If you remember, Newton's second law tells us
+remember, Newton's second law tells us that the sum of forces acting on a body
+can be written as its mass time the acceleration.
+of a fluid, let's see how we can derive the second Navia Stokes equation. First
+the second Navia Stokes equation. First of all, since we're considering each
+of all, since we're considering each individual point, let's replace mass
+individual point, let's replace mass with density. The mathematical reason
+behind doing this is that to consider each individual point, we have to divide
+each individual point, we have to divide by volume. And mass by volume is equal
+by volume. And mass by volume is equal to density. Next, let's consider
+to density. Next, let's consider acceleration.
+Well, we have the velocity vector field U. And we know that the acceleration is
+vector field. So we can replace a with du by dt. A quick side note, you might
+see this part written as d u by del t plus u.grad u. This is essentially the
+plus u.grad u. This is essentially the same thing. When we expand du by dt, we
+same thing. When we expand du by dt, we use the chain rule which gives us this
+use the chain rule which gives us this other expression.
+Now we need to consider what are all the forces acting on this molecule of a
+forces acting on this molecule of a fluid.
+We can break this down into internal forces which are forces exerted by the
+forces which are forces exerted by the molecule of the fluid itself and
+molecule of the fluid itself and external forces which are forces exerted
+external forces which are forces exerted by some external object. The first
+internal force we take into account is pressure. Consider drinking from a
+straw. Sucking on the end of a straw creates an area of low pressure which
+creates an area of low pressure which forces the drink to move from the area
+forces the drink to move from the area of high pressure which is below to the
+area of lower pressure. This force is dependent on the change in pressure or
+dependent on the change in pressure or the pressure gradient which we can write
+The second force we factor in is friction or viscosity. If I pour water
+into a cup, the water moves quite fast. Whereas if I'm pouring honey, it moves
+Whereas if I'm pouring honey, it moves quite slow. This is because there's a
+quite slow. This is because there's a lot more friction between the molecules
+lot more friction between the molecules of honey compared to the molecules of
+water. The mathematical way of writing this force for Newtonian fluids is this
+this force for Newtonian fluids is this expression right here. I'm not going to
+expression right here. I'm not going to go into depth as to how this equation
+arises, but I've left a few resources you can use to read up about this.
+you can use to read up about this. And finally, to account for the external
+And finally, to account for the external forces, we just denote any external
+forces, we just denote any external force by the letter F.
+It's pretty common that gravity is the only external force. So, we sometimes
+only external force. So, we sometimes write row * G instead of F.
+And this is why the Navia Stokes equations can model any fluid. There's
+equations can model any fluid. There's simply two fundamental laws of physics
+simply two fundamental laws of physics written out for fluids. So why do these
+equations have a million-doll prize attached to it? Well, to answer that,
+attached to it? Well, to answer that, let's just look at the actual problem
+from the Clay Math Institute. It goes as follows. To give reasonable leeway to
+follows. To give reasonable leeway to solvers while retaining the heart of the
+solvers while retaining the heart of the problem, we ask for a proof of one of
+The first two questions ask for a smooth solution to the Navia Stokes equations.
+solution to the Navia Stokes equations. Let's break down what this means. When
+Let's break down what this means. When we say that a solution is smooth,
+we say that a solution is smooth, mathematically it means that the
+mathematically it means that the solution is differentiable. Chaotic
+doesn't mean that it's random. It simply means that if I slightly change the
+means that if I slightly change the initial condition, it results in a large
+initial condition, it results in a large change in the outcome. And this is where
+the question gets incredibly difficult. Sure, the Navia Stokes equations lets us
+take some state of a fluid and let us predict what will happen in the future.
+predict what will happen in the future. But the chaotic nature of the fluids
+But the chaotic nature of the fluids with turbulence makes it incredibly hard
+with turbulence makes it incredibly hard to make long-term predictions. This is
+to make long-term predictions. This is why we can't predict the weather for
+why we can't predict the weather for more than 7 days.
+This is also why we can't predict when we're going to have turbulence on an
+we're going to have turbulence on an airplane.
+Despite this, the Na'vi Stokes equations are incredibly useful. They're used
+are incredibly useful. They're used extensively to model aerodynamic
+objects. For example, a plane or a car. Like I mentioned before, the weather
+forecast also relies on the Naver Stokes equations. It still remains one of the
+equations. It still remains one of the most important partial differential
+most important partial differential equations ever. Thanks for watching.

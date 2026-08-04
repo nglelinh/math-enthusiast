@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ku_video_qGYDQWm49wU_2",
+    "t_start": 2.1,
+    "t_end": 96.1,
+    "type": "overview",
+    "summary": "one all right today we're going to be one all right today we're going to be talking about caner diagonalization talking about caner diagonalization talking about caner diagonalization argument in order to talk about this argument in order to talk about this argument in order to talk about this argument we have to go over some key argument we have to go over some key argument we have to go over some key Concepts the first which we'll talk Concepts the first which we'll talk Concepts the first which we'll talk about is on toone correspondence so about is on toone correspondence so about is on to…"
+  },
+  {
+    "id": "ku_video_qGYDQWm49wU_100",
+    "t_start": 100.1,
+    "t_end": 191.8,
+    "type": "overview",
+    "summary": "set 1 2 3 which is certainly finite set 1 2 3 which is certainly finite because as you can see there's only because as you can see there's only because as you can see there's only three elements three elements three elements and the cardinality of this would then and the cardinality of this would then and the cardinality of this would then be three as well or a set is countable be three as well or a set is countable be three as well or a set is countable if it shares a one toone correspondence if it shares a one toone correspondence if it shares a one toone correspondence with the set of posit…"
+  },
+  {
+    "id": "ku_video_qGYDQWm49wU_191",
+    "t_start": 191.8,
+    "t_end": 284.3,
+    "type": "overview",
+    "summary": "take the inverse of the function which take the inverse of the function which doesn't change anything and then map doesn't change anything and then map doesn't change anything and then map back so then I'm I've just shown that back so then I'm I've just shown that back so then I'm I've just shown that the set of positive integers is countable Okay so we've just shown that countable Okay so we've just shown that the set of positive integers is the set of positive integers is the set of positive integers is countable and remember back we said that countable and remember back we said that countab…"
+  },
+  {
+    "id": "ku_video_qGYDQWm49wU_284",
+    "t_start": 284.3,
+    "t_end": 379.9,
+    "type": "overview",
+    "summary": "countable Let's uh let's isolate a countable Let's uh let's isolate a smaller set so the set from 0 to one of smaller set so the set from 0 to one of smaller set so the set from 0 to one of real real real numbers is certainly a numbers is certainly a numbers is certainly a subset of the entire real domain so if subset of the entire real domain so if subset of the entire real domain so if the set of reals is countable then the set of reals is countable then the set of reals is countable then certainly the set from 0 to one is also certainly the set from 0 to one is also certainly the set from 0…"
+  },
+  {
+    "id": "ku_video_qGYDQWm49wU_384",
+    "t_start": 384.3,
+    "t_end": 475.2,
+    "type": "overview",
+    "summary": "of this set 0 1 2 3 4 5 6 7 8 of this set 0 1 2 3 4 5 6 7 8 nine all right now we're going to nine all right now we're going to nine all right now we're going to declare a new number a we're going to declare a new number a we're going to declare a new number a we're going to Define it similarly to the RS above such Define it similarly to the RS above such Define it similarly to the RS above such that 0 a sub 1 a sub 2 a sub 3 a sub4 that 0 a sub 1 a sub 2 a sub 3 a sub4 that 0 a sub 1 a sub 2 a sub 3 a sub4 and so on correspond to the digits so and so on correspond to the digits so and so on c…"
+  },
+  {
+    "id": "ku_video_qGYDQWm49wU_475",
+    "t_start": 475.2,
+    "t_end": 540.3,
+    "type": "overview",
+    "summary": "that a as some R subn then we would have that a as some R subn then we would have a new diagonal which would yield a a new diagonal which would yield a a new diagonal which would yield a different a all right we've just shown different a all right we've just shown different a all right we've just shown the set of numbers between 0 and one is the set of numbers between 0 and one is the set of numbers between 0 and one is uncountable and we know that that's a uncountable and we know that that's a uncountable and we know that that's a subset of all real numbers consequently subset of all real num…"
+  }
+]

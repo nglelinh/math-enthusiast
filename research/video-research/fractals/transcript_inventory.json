@@ -1,0 +1,29 @@
+{
+  "slug": "fractals",
+  "videos": [
+    {
+      "id": "FFftmWSzgmk",
+      "title": "Numberphile — What's so special about the Mandelbrot Set?",
+      "has_transcript": true,
+      "chars": 19015,
+      "units": 11,
+      "url": "https://www.youtube.com/watch?v=FFftmWSzgmk"
+    },
+    {
+      "id": "kbKtFN71Lfs",
+      "title": "Numberphile — Chaos Game",
+      "has_transcript": true,
+      "chars": 10001,
+      "units": 6,
+      "url": "https://www.youtube.com/watch?v=kbKtFN71Lfs"
+    },
+    {
+      "id": "x-DgL49CFlM",
+      "title": "Numberphile — Space-Filling Curves",
+      "has_transcript": true,
+      "chars": 9464,
+      "units": 6,
+      "url": "https://www.youtube.com/watch?v=x-DgL49CFlM"
+    }
+  ]
+}

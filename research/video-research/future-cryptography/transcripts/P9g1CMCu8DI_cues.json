@@ -1,0 +1,1107 @@
+[
+  {
+    "t_start": 2.47,
+    "t_end": 4.71,
+    "text": "In this video, I'll update you on the current landscape of post-quantum"
+  },
+  {
+    "t_start": 4.71,
+    "t_end": 7.03,
+    "text": "current landscape of post-quantum cryptography standards."
+  },
+  {
+    "t_start": 7.03,
+    "t_end": 11.11,
+    "text": "I'll begin with the most influential initiative, the NIST standardization"
+  },
+  {
+    "t_start": 11.11,
+    "t_end": 12.59,
+    "text": "initiative, the NIST standardization process,"
+  },
+  {
+    "t_start": 12.59,
+    "t_end": 17.71,
+    "text": "and then summarize how international standards bodies and national agencies"
+  },
+  {
+    "t_start": 17.71,
+    "t_end": 19.79,
+    "text": "standards bodies and national agencies are aligning their efforts around these"
+  },
+  {
+    "t_start": 19.79,
+    "t_end": 23.03,
+    "text": "are aligning their efforts around these new quantum-safe algorithms."
+  },
+  {
+    "t_start": 23.03,
+    "t_end": 27.07,
+    "text": "This is a rapidly evolving field, and many additional standards are expected"
+  },
+  {
+    "t_start": 27.07,
+    "t_end": 31.75,
+    "text": "many additional standards are expected to be finalized and published in the"
+  },
+  {
+    "t_start": 31.75,
+    "t_end": 36.31,
+    "text": "Standards play a critical role in ensuring that the cryptography we rely"
+  },
+  {
+    "t_start": 36.31,
+    "t_end": 39.91,
+    "text": "ensuring that the cryptography we rely on is secure, interoperable, and widely"
+  },
+  {
+    "t_start": 39.91,
+    "t_end": 41.75,
+    "text": "on is secure, interoperable, and widely trusted."
+  },
+  {
+    "t_start": 41.75,
+    "t_end": 45.83,
+    "text": "Developing these standards takes time, usually many years,"
+  },
+  {
+    "t_start": 45.83,
+    "t_end": 51.39,
+    "text": "and benefits greatly from rigorous review by experts around the globe."
+  },
+  {
+    "t_start": 51.39,
+    "t_end": 53.67,
+    "text": "review by experts around the globe. The most influential effort in PQC"
+  },
+  {
+    "t_start": 53.67,
+    "t_end": 55.83,
+    "text": "The most influential effort in PQC standardization comes from the US"
+  },
+  {
+    "t_start": 55.83,
+    "t_end": 58.07,
+    "text": "standardization comes from the US government's National Institute of"
+  },
+  {
+    "t_start": 58.07,
+    "t_end": 65.47,
+    "text": "Standards and Technology, or NIST. Many organizations, including ETSI, ISO,"
+  },
+  {
+    "t_start": 65.47,
+    "t_end": 69.11,
+    "text": "Many organizations, including ETSI, ISO, IETF, and national agencies worldwide"
+  },
+  {
+    "t_start": 69.11,
+    "t_end": 71.03,
+    "text": "IETF, and national agencies worldwide are also preparing standards that are"
+  },
+  {
+    "t_start": 71.03,
+    "t_end": 74.35,
+    "text": "are also preparing standards that are closely aligned with the NIST standards."
+  },
+  {
+    "t_start": 74.35,
+    "t_end": 76.07,
+    "text": "closely aligned with the NIST standards. This alignment helps maintain"
+  },
+  {
+    "t_start": 76.07,
+    "t_end": 81.83,
+    "text": "This alignment helps maintain consistency and trust across the global"
+  },
+  {
+    "t_start": 81.83,
+    "t_end": 85.99,
+    "text": "cryptographic ecosystem. Broadly speaking, there are two kinds of"
+  },
+  {
+    "t_start": 85.99,
+    "t_end": 90.63,
+    "text": "Core cryptography standards specify the cryptographic primitives, including key"
+  },
+  {
+    "t_start": 90.63,
+    "t_end": 92.71,
+    "text": "cryptographic primitives, including key encapsulation mechanisms, signature"
+  },
+  {
+    "t_start": 92.71,
+    "t_end": 97.83,
+    "text": "schemes, and hybrid schemes, which securely combine a conventional scheme"
+  },
+  {
+    "t_start": 97.83,
+    "t_end": 103.91,
+    "text": "securely combine a conventional scheme with a newer one that is quantum-safe."
+  },
+  {
+    "t_start": 103.91,
+    "t_end": 105.79,
+    "text": "Migration guidance provides roadmaps that help organizations transition"
+  },
+  {
+    "t_start": 105.79,
+    "t_end": 110.79,
+    "text": "that help organizations transition safely to quantum-safe cryptography."
+  },
+  {
+    "t_start": 114.23,
+    "t_end": 116.87,
+    "text": "Back in 2016, NIST invited proposals for quantum-resistant signature and key"
+  },
+  {
+    "t_start": 116.87,
+    "t_end": 119.87,
+    "text": "quantum-resistant signature and key encapsulation algorithms."
+  },
+  {
+    "t_start": 119.87,
+    "t_end": 124.83,
+    "text": "encapsulation algorithms. There are three main evaluation criteria"
+  },
+  {
+    "t_start": 124.83,
+    "t_end": 129.59,
+    "text": "were the following: security against classical as well as"
+  },
+  {
+    "t_start": 129.59,
+    "t_end": 136.35,
+    "text": "cost, which cover things like sizes of public keys, signatures, and ciphertext,"
+  },
+  {
+    "t_start": 136.35,
+    "t_end": 141.35,
+    "text": "public keys, signatures, and ciphertext, efficiency of public key operations,"
+  },
+  {
+    "t_start": 141.35,
+    "t_end": 143.15,
+    "text": "namely key encapsulation and signature verification,"
+  },
+  {
+    "t_start": 143.15,
+    "t_end": 148.27,
+    "text": "and private key operations, namely key generation, key decapsulation, and"
+  },
+  {
+    "t_start": 148.27,
+    "t_end": 150.39,
+    "text": "generation, key decapsulation, and signature generation,"
+  },
+  {
+    "t_start": 150.39,
+    "t_end": 154.11,
+    "text": "signature generation, and algorithm and implementation"
+  },
+  {
+    "t_start": 154.11,
+    "t_end": 160.91,
+    "text": "suitability for secure and efficient implementation on a wide variety of"
+  },
+  {
+    "t_start": 160.91,
+    "t_end": 162.91,
+    "text": "implementation on a wide variety of platforms, including constrained"
+  },
+  {
+    "t_start": 162.91,
+    "t_end": 167.91,
+    "text": "platforms, including constrained environments such as smart cards,"
+  },
+  {
+    "t_start": 167.91,
+    "t_end": 172.51,
+    "text": "amenability to parallelization, and ease of incorporation into existing"
+  },
+  {
+    "t_start": 172.51,
+    "t_end": 180.27,
+    "text": "simplicity of the design, and whether licensing or patent issues"
+  },
+  {
+    "t_start": 180.27,
+    "t_end": 184.99,
+    "text": "By the first deadline, NIST had received 69 submissions from around the world for"
+  },
+  {
+    "t_start": 184.99,
+    "t_end": 187.07,
+    "text": "69 submissions from around the world for round one."
+  },
+  {
+    "t_start": 187.07,
+    "t_end": 192.07,
+    "text": "After over a year of intensive public scrutiny and analysis, during which time"
+  },
+  {
+    "t_start": 192.07,
+    "t_end": 193.99,
+    "text": "scrutiny and analysis, during which time flaws and weaknesses were exposed in"
+  },
+  {
+    "t_start": 193.99,
+    "t_end": 195.63,
+    "text": "flaws and weaknesses were exposed in many proposals,"
+  },
+  {
+    "t_start": 195.63,
+    "t_end": 200.27,
+    "text": "many proposals, NIST selected 26 submissions for round"
+  },
+  {
+    "t_start": 200.27,
+    "t_end": 205.31,
+    "text": "In July 2020, seven submissions were selected for round three, and a further"
+  },
+  {
+    "t_start": 205.31,
+    "t_end": 207.509,
+    "text": "selected for round three, and a further eight were designated as alternate"
+  },
+  {
+    "t_start": 207.509,
+    "t_end": 210.67,
+    "text": "eight were designated as alternate candidates."
+  },
+  {
+    "t_start": 213.47,
+    "t_end": 215.229,
+    "text": "Meanwhile, in October 2020, NIST released a standard for stateful"
+  },
+  {
+    "t_start": 215.229,
+    "t_end": 217.75,
+    "text": "released a standard for stateful hash-based signature schemes."
+  },
+  {
+    "t_start": 217.75,
+    "t_end": 222.15,
+    "text": "hash-based signature schemes. The standard was outside the main PQC"
+  },
+  {
+    "t_start": 222.15,
+    "t_end": 227.83,
+    "text": "Finally, on July the 5th, 2022, the key encapsulation scheme Kyber,"
+  },
+  {
+    "t_start": 227.83,
+    "t_end": 232.79,
+    "text": "along with the signature schemes Dilithium, Falcon, and Sphinx+ were"
+  },
+  {
+    "t_start": 232.79,
+    "t_end": 236.83,
+    "text": "Dilithium, Falcon, and Sphinx+ were officially chosen for standardization."
+  },
+  {
+    "t_start": 236.83,
+    "t_end": 242.87,
+    "text": "officially chosen for standardization. As of March 2026, NIST has published"
+  },
+  {
+    "t_start": 242.87,
+    "t_end": 249.23,
+    "text": "NIST special publication 800-208, released in October 2020,"
+  },
+  {
+    "t_start": 249.23,
+    "t_end": 251.87,
+    "text": "released in October 2020, specifies the hash-based Leighton-Micali"
+  },
+  {
+    "t_start": 251.87,
+    "t_end": 257.069,
+    "text": "specifies the hash-based Leighton-Micali and extended Merkle signature schemes."
+  },
+  {
+    "t_start": 257.069,
+    "t_end": 259.349,
+    "text": "These signature schemes are considered extremely conservative from a security"
+  },
+  {
+    "t_start": 259.349,
+    "t_end": 261.27,
+    "text": "extremely conservative from a security point of view."
+  },
+  {
+    "t_start": 261.27,
+    "t_end": 266.909,
+    "text": "The resistance to both classical and quantum attacks is well understood."
+  },
+  {
+    "t_start": 266.909,
+    "t_end": 269.63,
+    "text": "quantum attacks is well understood. However, they are stateful, meaning that"
+  },
+  {
+    "t_start": 269.63,
+    "t_end": 272.47,
+    "text": "However, they are stateful, meaning that implementers must carefully track usage"
+  },
+  {
+    "t_start": 272.47,
+    "t_end": 278.95,
+    "text": "implementers must carefully track usage to ensure that the same one-time signing"
+  },
+  {
+    "t_start": 281.31,
+    "t_end": 283.43,
+    "text": "The next major milestone was in August of 13, 2024,"
+  },
+  {
+    "t_start": 283.43,
+    "t_end": 287.47,
+    "text": "when NIST released three Federal Information Processing Standards, also"
+  },
+  {
+    "t_start": 287.47,
+    "t_end": 290.03,
+    "text": "Information Processing Standards, also known as FIPS."
+  },
+  {
+    "t_start": 290.03,
+    "t_end": 294.67,
+    "text": "FIPS 203 specifies Kyber, a lattice-based key encapsulation"
+  },
+  {
+    "t_start": 294.67,
+    "t_end": 302.15,
+    "text": "mechanism used for key establishment. The official name for Kyber is ML-KEM."
+  },
+  {
+    "t_start": 302.15,
+    "t_end": 304.75,
+    "text": "The official name for Kyber is ML-KEM. FIPS 204 specifies Dilithium, a"
+  },
+  {
+    "t_start": 304.75,
+    "t_end": 307.71,
+    "text": "FIPS 204 specifies Dilithium, a lattice-based signature scheme."
+  },
+  {
+    "t_start": 307.71,
+    "t_end": 312.27,
+    "text": "lattice-based signature scheme. The official name for Dilithium is"
+  },
+  {
+    "t_start": 312.27,
+    "t_end": 319.19,
+    "text": "Finally, FIPS 205 describes SPHINCS+, a stateless hash-based signature scheme."
+  },
+  {
+    "t_start": 319.19,
+    "t_end": 324.07,
+    "text": "stateless hash-based signature scheme. The official name for SPHINCS+ is"
+  },
+  {
+    "t_start": 324.07,
+    "t_end": 329.03,
+    "text": "While SPHINCS+ offers strong security under well-studied assumptions, it has"
+  },
+  {
+    "t_start": 329.03,
+    "t_end": 331.39,
+    "text": "under well-studied assumptions, it has larger signatures and is much slower"
+  },
+  {
+    "t_start": 331.39,
+    "t_end": 333.27,
+    "text": "larger signatures and is much slower than Dilithium."
+  },
+  {
+    "t_start": 333.27,
+    "t_end": 339.99,
+    "text": "As a result, it is expected to see more limited deployment in practice."
+  },
+  {
+    "t_start": 342.07,
+    "t_end": 343.83,
+    "text": "NIST is also working to standardize several additional quantum-safe"
+  },
+  {
+    "t_start": 343.83,
+    "t_end": 345.51,
+    "text": "several additional quantum-safe algorithms."
+  },
+  {
+    "t_start": 345.51,
+    "t_end": 350.55,
+    "text": "One of these efforts is FIPS 206, which specifies Falcon, a lattice-based"
+  },
+  {
+    "t_start": 350.55,
+    "t_end": 352.91,
+    "text": "specifies Falcon, a lattice-based signature scheme."
+  },
+  {
+    "t_start": 352.91,
+    "t_end": 359.27,
+    "text": "Falcon's primary advantage over Dilithium is its much smaller public"
+  },
+  {
+    "t_start": 359.27,
+    "t_end": 363.91,
+    "text": "However, it relies on floating-point arithmetic, which is not supported in"
+  },
+  {
+    "t_start": 363.91,
+    "t_end": 366.23,
+    "text": "arithmetic, which is not supported in all processors, and can create"
+  },
+  {
+    "t_start": 366.23,
+    "t_end": 368.95,
+    "text": "all processors, and can create implementation challenges for validation"
+  },
+  {
+    "t_start": 368.95,
+    "t_end": 371.07,
+    "text": "implementation challenges for validation and protection against side-channel"
+  },
+  {
+    "t_start": 371.07,
+    "t_end": 372.87,
+    "text": "and protection against side-channel attacks."
+  },
+  {
+    "t_start": 372.87,
+    "t_end": 378.11,
+    "text": "The first draft of FIPS 206 has already been finalized and is expected to be"
+  },
+  {
+    "t_start": 378.11,
+    "t_end": 380.31,
+    "text": "been finalized and is expected to be released very soon."
+  },
+  {
+    "t_start": 380.31,
+    "t_end": 385.67,
+    "text": "released very soon. The official name for Falcon is FN-DSA."
+  },
+  {
+    "t_start": 387.23,
+    "t_end": 393.79,
+    "text": "Another algorithm moving towards standardization is HQC, short for"
+  },
+  {
+    "t_start": 396.23,
+    "t_end": 399.07,
+    "text": "This is a code-based KEM selected by NIST in March 2025."
+  },
+  {
+    "t_start": 399.07,
+    "t_end": 403.51,
+    "text": "Its security is based on the difficulty of solving the syndrome decoding problem"
+  },
+  {
+    "t_start": 403.51,
+    "t_end": 406.63,
+    "text": "of solving the syndrome decoding problem for quasi-cyclic codes."
+  },
+  {
+    "t_start": 406.63,
+    "t_end": 411.59,
+    "text": "A key advantage of HQC is that it relies on a completely different security"
+  },
+  {
+    "t_start": 411.59,
+    "t_end": 413.51,
+    "text": "on a completely different security assumption than Kyber,"
+  },
+  {
+    "t_start": 413.51,
+    "t_end": 418.19,
+    "text": "making it a viable backup option should weaknesses in Kyber be discovered in the"
+  },
+  {
+    "t_start": 418.19,
+    "t_end": 420.19,
+    "text": "weaknesses in Kyber be discovered in the future."
+  },
+  {
+    "t_start": 420.19,
+    "t_end": 425.11,
+    "text": "Meanwhile, NIST is also running a competition focused on alternative"
+  },
+  {
+    "t_start": 425.11,
+    "t_end": 427.75,
+    "text": "competition focused on alternative quantum-safe signature schemes."
+  },
+  {
+    "t_start": 427.75,
+    "t_end": 432.43,
+    "text": "The goal is to standardize one or more signature schemes that do not rely on"
+  },
+  {
+    "t_start": 432.43,
+    "t_end": 434.95,
+    "text": "signature schemes that do not rely on structured lattices as Dilithium and"
+  },
+  {
+    "t_start": 434.95,
+    "t_end": 439.55,
+    "text": "structured lattices as Dilithium and Falcon do, and that offers small public"
+  },
+  {
+    "t_start": 439.55,
+    "t_end": 446.71,
+    "text": "along with fast verification. As of March 2026, 14 candidate signature"
+  },
+  {
+    "t_start": 446.71,
+    "t_end": 449.51,
+    "text": "As of March 2026, 14 candidate signature schemes are under evaluation."
+  },
+  {
+    "t_start": 449.51,
+    "t_end": 451.43,
+    "text": "schemes are under evaluation. Two are code-based."
+  },
+  {
+    "t_start": 451.43,
+    "t_end": 453.71,
+    "text": "Two are code-based. One isogeny-based."
+  },
+  {
+    "t_start": 453.71,
+    "t_end": 458.75,
+    "text": "One is lattice-based. Five are MPC in the head."
+  },
+  {
+    "t_start": 458.75,
+    "t_end": 461.15,
+    "text": "Five are MPC in the head. Four are multivariate."
+  },
+  {
+    "t_start": 461.15,
+    "t_end": 465.03,
+    "text": "Four are multivariate. And one is symmetric based."
+  },
+  {
+    "t_start": 467.99,
+    "t_end": 473.99,
+    "text": "ETSI, the European Telecommunications Standards Institute, operates a quantum"
+  },
+  {
+    "t_start": 473.99,
+    "t_end": 479.71,
+    "text": "safe cryptography working group. Unlike NIST, ETSI does not design new"
+  },
+  {
+    "t_start": 479.71,
+    "t_end": 484.47,
+    "text": "Instead, they focus on practical deployment guidance, interoperability,"
+  },
+  {
+    "t_start": 484.47,
+    "t_end": 487.03,
+    "text": "deployment guidance, interoperability, and system integration."
+  },
+  {
+    "t_start": 487.03,
+    "t_end": 491.75,
+    "text": "ISO, the International Organization for Standardization, is also developing"
+  },
+  {
+    "t_start": 491.75,
+    "t_end": 496.23,
+    "text": "Standardization, is also developing standards for quantum safe KEMs and"
+  },
+  {
+    "t_start": 496.23,
+    "t_end": 500.35,
+    "text": "Although draft documents are not publicly available, several documents"
+  },
+  {
+    "t_start": 500.35,
+    "t_end": 504.83,
+    "text": "publicly available, several documents indicate that in addition to Kyber,"
+  },
+  {
+    "t_start": 504.83,
+    "t_end": 510.19,
+    "text": "ISO is evaluating additional KEMs, including Classic McEliece, a code-based"
+  },
+  {
+    "t_start": 510.19,
+    "t_end": 511.27,
+    "text": "including Classic McEliece, a code-based KEM,"
+  },
+  {
+    "t_start": 511.27,
+    "t_end": 516.55,
+    "text": "FrodoKEM, which is based on unstructured lattices in contrast to the structured"
+  },
+  {
+    "t_start": 516.55,
+    "t_end": 525.03,
+    "text": "lattices in contrast to the structured lattices used in Kyber and Dilithium,"
+  },
+  {
+    "t_start": 527.31,
+    "t_end": 529.15,
+    "text": "Let's turn now to the IETF, the organization responsible for the"
+  },
+  {
+    "t_start": 529.15,
+    "t_end": 534.87,
+    "text": "protocols that power the internet. Within the IETF, the Crypto Forum"
+  },
+  {
+    "t_start": 534.87,
+    "t_end": 538.15,
+    "text": "Within the IETF, the Crypto Forum Research Group, known as CFRG,"
+  },
+  {
+    "t_start": 538.15,
+    "t_end": 541.51,
+    "text": "has been playing a leading role in preparing the internet for the"
+  },
+  {
+    "t_start": 541.51,
+    "t_end": 544.07,
+    "text": "preparing the internet for the post-quantum era."
+  },
+  {
+    "t_start": 544.07,
+    "t_end": 548.51,
+    "text": "Its work focuses not only on standardizing quantum safe algorithms,"
+  },
+  {
+    "t_start": 548.51,
+    "t_end": 552.19,
+    "text": "standardizing quantum safe algorithms, but also providing guidance for"
+  },
+  {
+    "t_start": 552.19,
+    "t_end": 558.11,
+    "text": "integrating them into real-world systems, such as TLS, SSH, and PKI."
+  },
+  {
+    "t_start": 558.11,
+    "t_end": 559.63,
+    "text": "systems, such as TLS, SSH, and PKI. The group also provides practical"
+  },
+  {
+    "t_start": 559.63,
+    "t_end": 563.23,
+    "text": "The group also provides practical recommendations aimed at engineers."
+  },
+  {
+    "t_start": 563.23,
+    "t_end": 567.55,
+    "text": "recommendations aimed at engineers. Two relevant RFCs have already been"
+  },
+  {
+    "t_start": 567.55,
+    "t_end": 574.23,
+    "text": "RFC 8391, which specifies XMSS, the extended Merkle signature scheme,"
+  },
+  {
+    "t_start": 574.23,
+    "t_end": 579.07,
+    "text": "extended Merkle signature scheme, and RFC 8554, which specifies the"
+  },
+  {
+    "t_start": 579.07,
+    "t_end": 581.39,
+    "text": "Leighton and McAuley hash-based signature scheme."
+  },
+  {
+    "t_start": 581.39,
+    "t_end": 584.83,
+    "text": "signature scheme. Meanwhile, a large body of work is"
+  },
+  {
+    "t_start": 584.83,
+    "t_end": 590.27,
+    "text": "Current drafts cover post-quantum algorithms, including Kyber, Dilithium,"
+  },
+  {
+    "t_start": 590.27,
+    "t_end": 592.71,
+    "text": "algorithms, including Kyber, Dilithium, Sphinx+, Falcon,"
+  },
+  {
+    "t_start": 592.71,
+    "t_end": 598.19,
+    "text": "FrodoKem, and Classic McEliece. Another major focus is hybrid"
+  },
+  {
+    "t_start": 598.19,
+    "t_end": 600.03,
+    "text": "Another major focus is hybrid cryptography, which bridges the"
+  },
+  {
+    "t_start": 600.03,
+    "t_end": 602.87,
+    "text": "cryptography, which bridges the transition to post-quantum cryptography"
+  },
+  {
+    "t_start": 602.87,
+    "t_end": 608.03,
+    "text": "transition to post-quantum cryptography by securely combining a quantum-safe"
+  },
+  {
+    "t_start": 608.03,
+    "t_end": 613.55,
+    "text": "mechanism with a classical one. For example, by pairing Kyber with"
+  },
+  {
+    "t_start": 613.55,
+    "t_end": 618.55,
+    "text": "Hybrid KEMs provide security even if one of the component KEMs is later found to"
+  },
+  {
+    "t_start": 618.55,
+    "t_end": 620.31,
+    "text": "of the component KEMs is later found to be flawed."
+  },
+  {
+    "t_start": 620.31,
+    "t_end": 627.99,
+    "text": "Hybrid KEM IETF drafts include post-quantum hybrid ECDHE ML-KEM key"
+  },
+  {
+    "t_start": 627.99,
+    "t_end": 631.67,
+    "text": "post-quantum hybrid ECDHE ML-KEM key agreement for TLS 1.3,"
+  },
+  {
+    "t_start": 631.67,
+    "t_end": 637.91,
+    "text": "hybrid key exchange in TLS 1.3, hybrid post-quantum transition key"
+  },
+  {
+    "t_start": 637.91,
+    "t_end": 640.75,
+    "text": "hybrid post-quantum transition key encapsulation mechanisms,"
+  },
+  {
+    "t_start": 640.75,
+    "t_end": 648.03,
+    "text": "and post-quantum transition hybrid key exchange with ML-KEM in SSH."
+  },
+  {
+    "t_start": 648.03,
+    "t_end": 650.91,
+    "text": "exchange with ML-KEM in SSH. Practical guidance documents include"
+  },
+  {
+    "t_start": 650.91,
+    "t_end": 653.87,
+    "text": "Practical guidance documents include post-quantum cryptography for engineers,"
+  },
+  {
+    "t_start": 653.87,
+    "t_end": 658.07,
+    "text": "post-quantum cryptography for engineers, guidance for migration to post-quantum"
+  },
+  {
+    "t_start": 658.07,
+    "t_end": 667.35,
+    "text": "recommendations for TLS applications, and many more drafts are in progress."
+  },
+  {
+    "t_start": 669.11,
+    "t_end": 671.71,
+    "text": "Elsewhere in the world, national cybersecurity agencies are also moving"
+  },
+  {
+    "t_start": 671.71,
+    "t_end": 674.11,
+    "text": "cybersecurity agencies are also moving quickly to prepare for the post-quantum"
+  },
+  {
+    "t_start": 674.11,
+    "t_end": 675.79,
+    "text": "quickly to prepare for the post-quantum era."
+  },
+  {
+    "t_start": 675.79,
+    "t_end": 680.11,
+    "text": "Many national strategies are closely aligned with the NIST standards,"
+  },
+  {
+    "t_start": 680.11,
+    "t_end": 681.31,
+    "text": "aligned with the NIST standards, including"
+  },
+  {
+    "t_start": 681.31,
+    "t_end": 687.95,
+    "text": "the Canadian Centre for Cyber Security, the UK's National Cyber Security Centre,"
+  },
+  {
+    "t_start": 687.95,
+    "t_end": 690.07,
+    "text": "the UK's National Cyber Security Centre, Japan's CRYPTREC,"
+  },
+  {
+    "t_start": 690.07,
+    "t_end": 695.83,
+    "text": "and the German Federal Office for Information Security or BSI."
+  },
+  {
+    "t_start": 695.83,
+    "t_end": 702.59,
+    "text": "Information Security or BSI. The BSI also recommends the classical"
+  },
+  {
+    "t_start": 702.59,
+    "t_end": 707.03,
+    "text": "McEliece CHEM and FrodoKEM. Some countries are pursuing their own"
+  },
+  {
+    "t_start": 707.03,
+    "t_end": 713.11,
+    "text": "Among them is South Korea, which in January of 2026 announced four PQC"
+  },
+  {
+    "t_start": 713.11,
+    "t_end": 714.75,
+    "text": "January of 2026 announced four PQC standards."
+  },
+  {
+    "t_start": 714.75,
+    "t_end": 719.91,
+    "text": "The signature schemes AIMER and HETE, the former following the MPC and the"
+  },
+  {
+    "t_start": 719.91,
+    "t_end": 724.07,
+    "text": "the former following the MPC and the head strategy and only using symmetric"
+  },
+  {
+    "t_start": 724.07,
+    "t_end": 728.71,
+    "text": "and the latter being lattice-based with smaller public keys and signatures than"
+  },
+  {
+    "t_start": 728.71,
+    "t_end": 730.39,
+    "text": "smaller public keys and signatures than Dilithium."
+  },
+  {
+    "t_start": 730.39,
+    "t_end": 736.19,
+    "text": "And two lattice-based KEMs, NTRU Plus and SMOD T."
+  },
+  {
+    "t_start": 736.19,
+    "t_end": 741.63,
+    "text": "Finally, China is developing its own PQC standards coordinated by the Institute"
+  },
+  {
+    "t_start": 741.63,
+    "t_end": 745.43,
+    "text": "standards coordinated by the Institute of Commercial Cryptography Standards."
+  },
+  {
+    "t_start": 745.43,
+    "t_end": 750.87,
+    "text": "of Commercial Cryptography Standards. Here's a table that compares public key"
+  },
+  {
+    "t_start": 750.87,
+    "t_end": 755.95,
+    "text": "and ciphertext sizes for Kyber, FrodoKEM, Classic McEliece, and HQC."
+  },
+  {
+    "t_start": 755.95,
+    "t_end": 758.55,
+    "text": "FrodoKEM, Classic McEliece, and HQC. For reference, the classical ECDH key"
+  },
+  {
+    "t_start": 758.55,
+    "t_end": 761.11,
+    "text": "For reference, the classical ECDH key agreement scheme using the P-256"
+  },
+  {
+    "t_start": 761.11,
+    "t_end": 764.55,
+    "text": "agreement scheme using the P-256 elliptic curve is also included."
+  },
+  {
+    "t_start": 764.55,
+    "t_end": 770.23,
+    "text": "Recall that NIST security levels 1 and 2 roughly correspond to the 128-bit"
+  },
+  {
+    "t_start": 770.23,
+    "t_end": 773.87,
+    "text": "roughly correspond to the 128-bit security level."
+  },
+  {
+    "t_start": 776.91,
+    "t_end": 779.67,
+    "text": "As you can see, all post-quantum KEMs have larger public keys and ciphertexts"
+  },
+  {
+    "t_start": 779.67,
+    "t_end": 781.75,
+    "text": "have larger public keys and ciphertexts than ECDH."
+  },
+  {
+    "t_start": 781.75,
+    "t_end": 787.829,
+    "text": "Classic McEliece has small ciphertexts but very large public keys."
+  },
+  {
+    "t_start": 787.829,
+    "t_end": 789.99,
+    "text": "but very large public keys. In terms of performance, Kyber's"
+  },
+  {
+    "t_start": 789.99,
+    "t_end": 792.87,
+    "text": "In terms of performance, Kyber's encapsulation and decapsulation speeds"
+  },
+  {
+    "t_start": 792.87,
+    "t_end": 797.71,
+    "text": "encapsulation and decapsulation speeds are roughly comparable to those of ECDH,"
+  },
+  {
+    "t_start": 797.71,
+    "t_end": 801.51,
+    "text": "making it one of the fastest post-quantum alternatives."
+  },
+  {
+    "t_start": 803.829,
+    "t_end": 806.23,
+    "text": "Here's a table that compares performance metrics for the elliptic curve EdDSA"
+  },
+  {
+    "t_start": 806.23,
+    "t_end": 807.91,
+    "text": "metrics for the elliptic curve EdDSA signature scheme,"
+  },
+  {
+    "t_start": 807.91,
+    "t_end": 809.63,
+    "text": "signature scheme, RSA signing,"
+  },
+  {
+    "t_start": 809.63,
+    "t_end": 811.03,
+    "text": "RSA signing, Dilithium,"
+  },
+  {
+    "t_start": 811.03,
+    "t_end": 812.43,
+    "text": "Dilithium, Falcon,"
+  },
+  {
+    "t_start": 812.43,
+    "t_end": 820.07,
+    "text": "Dilithium's signing and verification speeds are broadly comparable to those"
+  },
+  {
+    "t_start": 820.07,
+    "t_end": 822.91,
+    "text": "speeds are broadly comparable to those of EDDSA."
+  },
+  {
+    "t_start": 822.91,
+    "t_end": 827.15,
+    "text": "Falcon offers slower signing, but faster verification."
+  },
+  {
+    "t_start": 827.15,
+    "t_end": 833.31,
+    "text": "While SPHINCS+ is slow for both signing and verification."
+  },
+  {
+    "t_start": 835.67,
+    "t_end": 837.47,
+    "text": "In terms of size, Dilithium has relatively large public keys and"
+  },
+  {
+    "t_start": 837.47,
+    "t_end": 839.43,
+    "text": "relatively large public keys and signatures."
+  },
+  {
+    "t_start": 839.43,
+    "t_end": 842.55,
+    "text": "signatures. Falcon's keys and signatures are"
+  },
+  {
+    "t_start": 842.55,
+    "t_end": 846.91,
+    "text": "though still quite a bit larger than EDDSA's."
+  },
+  {
+    "t_start": 846.91,
+    "t_end": 853.19,
+    "text": "SPHINCS+ by contrast has small public keys, but very large signatures."
+  },
+  {
+    "t_start": 853.19,
+    "t_end": 855.31,
+    "text": "keys, but very large signatures. You can find performance metrics for"
+  },
+  {
+    "t_start": 855.31,
+    "t_end": 857.39,
+    "text": "You can find performance metrics for these signature schemes at the higher"
+  },
+  {
+    "t_start": 857.39,
+    "t_end": 860.67,
+    "text": "these signature schemes at the higher NIST security levels at this website."
+  },
+  {
+    "t_start": 860.67,
+    "t_end": 863.11,
+    "text": "NIST security levels at this website. And also for the other signature schemes"
+  },
+  {
+    "t_start": 863.11,
+    "t_end": 865.15,
+    "text": "And also for the other signature schemes that are still under consideration for"
+  },
+  {
+    "t_start": 865.15,
+    "t_end": 867.91,
+    "text": "that are still under consideration for standardization."
+  },
+  {
+    "t_start": 867.91,
+    "t_end": 875.07,
+    "text": "All right. So, this concludes my summary of PQC standards as of March 2026."
+  },
+  {
+    "t_start": 875.07,
+    "t_end": 877.39,
+    "text": "of PQC standards as of March 2026. Of course, this is a rapidly evolving"
+  },
+  {
+    "t_start": 877.39,
+    "t_end": 878.67,
+    "text": "Of course, this is a rapidly evolving field."
+  },
+  {
+    "t_start": 878.67,
+    "t_end": 885.23,
+    "text": "Many additional standards are expected to be finalized and published in the"
+  },
+  {
+    "t_start": 885.23,
+    "t_end": 889.11,
+    "text": "I'll continue to track these developments and share important updates"
+  },
+  {
+    "t_start": 889.11,
+    "t_end": 892.2,
+    "text": "developments and share important updates in the comments below."
+  }
+]

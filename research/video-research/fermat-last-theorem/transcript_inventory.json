@@ -1,0 +1,29 @@
+{
+  "slug": "fermat-last-theorem",
+  "videos": [
+    {
+      "id": "qiNcEguuFSA",
+      "title": "Numberphile — Fermat's Last Theorem",
+      "has_transcript": true,
+      "chars": 9555,
+      "units": 7,
+      "url": "https://www.youtube.com/watch?v=qiNcEguuFSA"
+    },
+    {
+      "id": "nUN4NDVIfVI",
+      "title": "Numberphile — Bridges to Fermat's Last Theorem (Ken Ribet)",
+      "has_transcript": true,
+      "chars": 24704,
+      "units": 19,
+      "url": "https://www.youtube.com/watch?v=nUN4NDVIfVI"
+    },
+    {
+      "id": "NPOw4iIxN6o",
+      "title": "Fermat’s Last Theorem (with Ken Ribet) - Numberphile Podcast",
+      "has_transcript": true,
+      "chars": 67848,
+      "units": 32,
+      "url": "https://www.youtube.com/watch?v=NPOw4iIxN6o"
+    }
+  ]
+}

@@ -1,0 +1,464 @@
+# Course Passport — Math Enthusiast
+# Schema: teaching-skills course_passport_schema.md (passport_version 1.0)
+# Confirmed professor decisions (2026-08-03):
+#   audience = undergraduate seminar
+#   modality = taught course with deliverables
+#   depth strategy = flagship-per-section first
+#   proceed with passport + LOs
+
+passport_version: "1.0"
+course:
+  code: "[NEEDS PROFESSOR INPUT: institutional course code]"
+  title: "Math Enthusiast"
+  discipline: "Mathematics"
+  level: "undergraduate-seminar"
+  credits: 3
+  modality: "in-person"            # weekly seminar; materials bilingual EN/VI on course site
+  class_size: 18                   # seminar cap; adjust to department policy
+  contact_hours_per_week: 2.5      # one 150-minute weekly seminar (adjust if 2×75)
+  weeks: 15
+  language_of_instruction: "English"
+  materials_languages: ["en", "vi"]
+  prerequisites:
+    - "One year of university calculus (or equivalent comfort with proofs at introductory level)"
+    - "Willingness to read carefully; no prior harmonic analysis or algebraic geometry required"
+  institution_constraints:
+    - "Discussion- and writing-intensive seminar; flagship-depth readings rather than full textbook drills"
+    - "Site content is a bilingual map; only flagship lessons are required deep reads each week"
+
+term_calendar:
+  start_date: null                 # [NEEDS PROFESSOR INPUT: term start ISO date]
+  end_date: null
+  holidays: []
+  exam_weeks: [W15]                # no sit-down final; W15 is submission / synthesis week
+  add_drop_deadline: "[NEEDS PROFESSOR INPUT: registrar add/drop deadline]"
+  withdrawal_deadline: "[NEEDS PROFESSOR INPUT: registrar withdrawal deadline]"
+
+learner_profile:
+  prior_knowledge: >-
+    Undergraduates (typically year 2–4) with calculus and some exposure to proofs
+    (discrete math, linear algebra, or analysis-lite). Comfort with definitions varies.
+    Not assumed: measure theory, algebraic geometry, or research-level number theory.
+  motivation_context: >-
+    Elective or seminar toward a math/CS/physics major or for students who want a
+    map of modern mathematics beyond the standard computational syllabus. Curiosity-driven;
+    some intend research exposure, others interdisciplinary literacy.
+  known_difficulties:
+    - "Confusing popular slogans with precise mathematical statements"
+    - "Treating measure zero as 'dimension zero' (size notions)"
+    - "Wanting a full technical proof when the learning goal is the idea of the proof"
+    - "Passive reading without forming questions or conjectures"
+    - "Uneven bilingual depth if only one language is updated"
+  accessibility_needs: "unknown"
+  cohort_evidence: null
+
+learning_outcomes:
+  - id: LO1
+    statement: >-
+      Explain a major open (or recently resolved) mathematical problem: state it precisely
+      enough for a peer, identify why it is difficult, and name at least one mathematical
+      tool or theory developed around it—without claiming a full solution.
+    bloom_level: understand
+    assessed_by: [A2, A3, A6]
+    taught_in: [W1, W2, W3, W4, W5]
+  - id: LO2
+    statement: >-
+      Distinguish and compare different notions of mathematical "size" (e.g. Lebesgue measure
+      vs Hausdorff/Minkowski dimension, or analogous pairs) using Kakeya sets or another
+      course example, and correct the misconception that measure zero implies lower dimension.
+    bloom_level: analyze
+    assessed_by: [A2, A3, A5]
+    taught_in: [W4, W5, W11]
+  - id: LO3
+    statement: >-
+      Reconstruct the core idea of a famous proof or breakthrough (logical skeleton and key
+      insight) in a short narrative that a classmate could follow, distinguishing idea from
+      technical detail.
+    bloom_level: analyze
+    assessed_by: [A2, A4, A6]
+    taught_in: [W5, W8, W9]
+  - id: LO4
+    statement: >-
+      Relate a classical mathematical field from the course map (e.g. number theory, linear
+      algebra, probability, graph theory) to a named modern application or technology, with
+      a correct one-step mechanism (not only a buzzword).
+    bloom_level: apply
+    assessed_by: [A2, A6]
+    taught_in: [W6, W10]
+  - id: LO5
+    statement: >-
+      Design and carry out a small mathematical exploration: formulate a question or conjecture,
+      document experiments or examples, and report what was learned including failed attempts.
+    bloom_level: create
+    assessed_by: [A5]
+    taught_in: [W11, W12, W13, W14]
+  - id: LO6
+    statement: >-
+      Critique a popular or secondary exposition of a mathematical breakthrough for precision
+      versus hype, citing at least one place where wording overstates or understates the theorem.
+    bloom_level: evaluate
+    assessed_by: [A1, A6]
+    taught_in: [W1, W5, W10, W14]
+
+assessment_plan:
+  # Weights: 15 + 15 + 15 + 15 + 25 + 15 = 100
+  - id: A1
+    type: participation
+    title: "Seminar participation & discussion leadership"
+    weight: 15
+    outcomes_assessed: [LO6, LO1]
+    week: "W2–W14 (ongoing; each student co-leads or opens one discussion once)"
+    ai_resilience: reviewed          # live seminar — Tier P by construction
+    artifact_ref: "assignments/A1_participation.md"
+  - id: A2
+    type: homework
+    title: "Reading responses (6 assigned; best 5 count)"
+    weight: 15
+    outcomes_assessed: [LO1, LO2, LO3, LO4]
+    week: "W2 / W3 / W4 / W6 / W8 / W10 (best 5 of 6)"
+    ai_resilience: reviewed          # Tier D: disclosure required; pass/revise specs
+    artifact_ref: "assignments/A2_reading_responses.md"
+  - id: A3
+    type: paper
+    title: "Open-problem brief (~1200–1500 words)"
+    weight: 15
+    outcomes_assessed: [LO1, LO2]
+    week: W5
+    ai_resilience: reviewed          # process note + source list; no pure chat dump
+    artifact_ref: "assignments/A3_open_problem_brief.md"
+  - id: A4
+    type: paper
+    title: "Proof-idea narrative (~1200–1500 words)"
+    weight: 15
+    outcomes_assessed: [LO3]
+    week: W9
+    ai_resilience: reviewed
+    artifact_ref: "assignments/A4_proof_idea_narrative.md"
+  - id: A5
+    type: portfolio
+    title: "Exploration portfolio (staged: proposal W11 · log W13 · report W15)"
+    weight: 25
+    outcomes_assessed: [LO5, LO2]
+    week: "W11 / W13 / W15 (milestones)"
+    ai_resilience: redesigned        # staged process evidence; log is primary evidence
+    artifact_ref: "assignments/A5_exploration_portfolio.md"
+  - id: A6
+    type: paper
+    title: "Synthesis essay: personal map of modern mathematics + critique (~1500–2000 words)"
+    weight: 15
+    outcomes_assessed: [LO1, LO3, LO4, LO6]
+    week: W15
+    ai_resilience: reviewed          # Tier O-friendly: judgment beyond tools; process note
+    artifact_ref: "assignments/A6_synthesis_essay.md"
+
+schedule:
+  - id: W1
+    topic: "Course map & how mathematicians talk — what is Math Enthusiast?"
+    outcomes: [LO1, LO6]
+    activities:
+      - "Walk the seven-section map on the course site"
+      - "Seminar norms; AI tiers; reading-response specs"
+    assessments_due: []
+    artifact_refs:
+      - "home/_posts/21-01-20-introduction.md"
+      - "home/_posts/21-01-20-contents.md"
+    flagship: null
+  - id: W2
+    topic: "Great problems I — flagship: a Millennium-scale question"
+    outcomes: [LO1]
+    activities:
+      - "Deep read: Riemann Hypothesis flagship"
+      - "Discussion: statement vs slogan"
+    assessments_due: [A2]
+    artifact_refs:
+      - "contents/en/chapter01/"
+    flagship: "ch01_great_problem"   # DONE: Riemann Hypothesis (EN+VI)
+  - id: W3
+    topic: "Great problems II — hardness, partial progress, surrounding theory"
+    outcomes: [LO1]
+    activities:
+      - "Compare two problems from ch.01 (short map entries + one deep)"
+      - "Workshop: draft problem-statement paragraphs"
+    assessments_due: [A2]
+    artifact_refs:
+      - "contents/en/chapter01/"
+    flagship: null
+  - id: W4
+    topic: "Fields Medal mathematics — flagship: Kakeya, tubes, dimension"
+    outcomes: [LO1, LO2]
+    activities:
+      - "Deep read: Hong Wang / Kakeya 3D essay"
+      - "Board work: measure zero ≠ low dimension"
+    assessments_due: [A2]
+    artifact_refs:
+      - "contents/en/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md"
+      - "img/chapter_img/"
+    flagship: "ch02_wang_kakeya"     # EXISTS (gold standard)
+  - id: W5
+    topic: "Breakthroughs & public math writing — open-problem brief due"
+    outcomes: [LO1, LO2, LO3, LO6]
+    activities:
+      - "Peer critique of popular expositions (Quanta, etc.)"
+      - "Brief A3 due; short oral shares"
+    assessments_due: [A3]
+    artifact_refs:
+      - "contents/en/chapter02/"
+    flagship: null
+  - id: W6
+    topic: "Mathematics that changed the world — flagship application thread"
+    outcomes: [LO4]
+    activities:
+      - "Deep read: Number Theory → Cryptography flagship"
+      - "Mechanism diagram workshop"
+    assessments_due: [A2]
+    artifact_refs:
+      - "contents/en/chapter03/"
+    flagship: "ch03_application"     # DONE
+  - id: W7
+    topic: "Beautiful mathematics — ideas for their own sake"
+    outcomes: [LO1, LO2]
+    activities:
+      - "Deep read: Infinity flagship"
+      - "Gallery walk of visual ideas"
+    assessments_due: []
+    artifact_refs:
+      - "contents/en/chapter04/"
+    flagship: "ch04_beautiful"       # DONE
+  - id: W8
+    topic: "Mathematics through famous proofs — flagship proof ideas"
+    outcomes: [LO3]
+    activities:
+      - "Deep read: Euclid and Cantor proof-ideas flagship"
+      - "Proof-idea outline practice"
+    assessments_due: [A2]
+    artifact_refs:
+      - "contents/en/chapter05/"
+    flagship: "ch05_proofs"          # DONE
+  - id: W9
+    topic: "Proof narratives workshop — proof-idea paper due"
+    outcomes: [LO3]
+    activities:
+      - "Peer review of A4 drafts; idea vs detail checklist"
+    assessments_due: [A4]
+    artifact_refs: []
+    flagship: null
+  - id: W10
+    topic: "Mathematics of the future — frontiers & critique"
+    outcomes: [LO4, LO6]
+    activities:
+      - "Deep read: Mathematics of AI flagship"
+      - "Critique exercise: hype vs theorem"
+    assessments_due: [A2]
+    artifact_refs:
+      - "contents/en/chapter06/"
+    flagship: "ch06_future"          # DONE
+  - id: W11
+    topic: "Mathematical explorations launch — portfolio proposal"
+    outcomes: [LO5, LO2]
+    activities:
+      - "Deep read: Collatz exploration studio guide (A5)"
+      - "A5 proposal due"
+    assessments_due: [A5]
+    artifact_refs:
+      - "contents/en/chapter07/"
+    flagship: "ch07_exploration"     # DONE: Collatz studio
+  - id: W12
+    topic: "Exploration studio — experiments & failed attempts"
+    outcomes: [LO5]
+    activities:
+      - "Studio time; instructor conferences; log check-in"
+    assessments_due: []
+    artifact_refs: []
+    flagship: null
+  - id: W13
+    topic: "Exploration mid-share — process log due"
+    outcomes: [LO5]
+    activities:
+      - "5-minute process shares; peer feedback on methods"
+    assessments_due: [A5]
+    artifact_refs: []
+    flagship: null
+  - id: W14
+    topic: "Synthesis seminar — personal maps of modern mathematics"
+    outcomes: [LO5, LO6]
+    activities:
+      - "Draft A6 peer critique; return to course map"
+    assessments_due: []
+    artifact_refs:
+      - "home/_posts/21-01-20-contents.md"
+    flagship: null
+  - id: W15
+    tag: logistics
+    topic: "Final submissions — exploration report + synthesis essay"
+    outcomes: []
+    activities:
+      - "No new content; optional office-hour block"
+    assessments_due: [A5, A6]
+    artifact_refs: []
+    flagship: null
+
+policies:
+  grading_scheme: >-
+    Final grade = weighted sum per assessment_plan (A1–A6). Reading responses (A2) use
+    pass/revise against a posted spec (precise statement or claim; engagement with the
+    flagship reading; one genuine question). Best 5 of 6 count. Letter cutoffs:
+    [NEEDS PROFESSOR INPUT: institutional letter scale] — default suggestion A≥93, A- 90–92,
+    B+ 87–89, B 83–86, B- 80–82, C+ 77–79, C 70–76, D 60–69, F<60, no curve unless department requires.
+  late_policy: >-
+    Papers and portfolio milestones (A3, A4, A5, A6): 3 free late days pooled across the
+    term (max 2 on one artifact); then −1/3 letter grade per day up to 3 days, then not
+    accepted without documented exception. Reading responses (A2): no late work — best-of-6
+    absorbs misses. Participation (A1) cannot be made up by late submission.
+  ai_use_policy: >-
+    Tier P (live, unaided): A1 seminar participation and discussion leadership.
+    Tier D (tools allowed with disclosure): A2 reading responses, A3 open-problem brief,
+    A4 proof-idea narrative — short disclosure (tool, prompt intent, what you changed);
+    non-disclosure when required is an integrity matter.
+    Tier O (AI collaboration expected; graded on judgment beyond the tool): A6 synthesis
+    essay — required process note on verification and what you added.
+    A5 exploration portfolio: generative AI may help with coding/plotting if disclosed;
+    the research log of your own experiments is the primary evidence and must be authentic.
+    Full table to appear in syllabus.md.
+  integrity_policy: "[NEEDS PROFESSOR INPUT: link to institutional academic integrity policy]"
+  attendance_policy: >-
+    Seminar depends on presence and preparation. More than two unexcused absences requires
+    a meeting with the instructor. Discussion leadership (A1) requires attendance that week.
+    Quality of engagement with readings and peers is assessed, not volume of talk.
+
+content_build_plan:
+  strategy: flagship-per-section-first
+  status:
+    ch01_great_problem: done   # Riemann Hypothesis flagship (EN+VI), 2026-08-03
+    ch02_wang_kakeya: done
+    ch03_application: done
+    ch04_beautiful: done
+    ch05_proofs: done
+    ch06_future: done
+    ch07_exploration: done
+  note: >-
+    Short map-entry posts may remain thin; required deep reads are the flagships listed
+    in schedule[]. Build EN+VI together for each flagship.
+
+workload_audit:
+  estimated_hours_per_week: 7.5
+  credit_hour_target: 7.5          # 2.5 contact + ~5 out-of-class (3-credit seminar convention)
+  status: within_range
+  constants_used: >-
+    Flagship deep read ~2500–3500 words dense math exposition @ ~100–150 wpm with
+    re-read ≈ 2.0–2.5 h; short map entries ≈ 0.5 h; reading response ≈ 1.0 h;
+    major paper weeks amortized ≈ 2–3 h/week additional across term; exploration
+    studio weeks higher (~9–10 h). Average across 15 weeks ≈ 7–8 h total effort.
+
+gates:
+  alignment_gate:
+    status: pass_with_warnings
+    last_run: "2026-08-03"
+    findings:
+      - check_id: A1
+        severity: resolved
+        detail: "LO1–LO6 each have non-empty assessed_by"
+      - check_id: A2
+        severity: resolved
+        detail: "LO1–LO6 each have non-empty taught_in"
+      - check_id: A3
+        severity: resolved
+        detail: "A1–A6 each have outcomes_assessed referencing existing LO ids; weights sum 100"
+      - check_id: B1
+        severity: resolved
+        detail: "Outcomes use measurable verbs (explain, distinguish/compare, reconstruct, relate, design, critique)"
+      - check_id: B2
+        severity: resolved
+        detail: "bloom_level declared for every LO"
+      - check_id: C1
+        severity: resolved
+        detail: "Weights 15+15+15+15+25+15 = 100"
+      - check_id: C2
+        severity: resolved
+        detail: "Max single weight is A5 at 25% (<40%)"
+      - check_id: C3
+        severity: resolved
+        detail: "A2 low-stakes responses begin W2 before first major paper A3 at W5"
+      - check_id: D1
+        severity: resolved
+        detail: "workload_audit.estimated_hours_per_week = 7.5"
+      - check_id: A4
+        severity: WARN
+        detail: "W15 is logistics-tagged with empty outcomes (allowed)"
+        dismissed: null
+      - check_id: INST
+        severity: WARN
+        detail: "course.code, term dates, letter scale, integrity URL still [NEEDS PROFESSOR INPUT]"
+        dismissed: null
+  quality_gate:
+    status: not_run
+    last_run: null
+    findings: []
+
+artifacts:
+  - path: "alignment_report.md"
+    type: alignment_report
+    produced_by: course-designer
+    stage: 1
+    confirmed_by_professor: false
+  - path: "course_passport.yaml"
+    type: course_passport
+    produced_by: course-designer
+    stage: 1
+    confirmed_by_professor: false   # set true when professor accepts this design
+  - path: "syllabus.md"
+    type: syllabus
+    produced_by: course-designer
+    stage: 1
+    confirmed_by_professor: false
+  - path: "assignments/"
+    type: assessment_briefs
+    produced_by: course-designer
+    stage: 1
+    confirmed_by_professor: false
+  - path: "design_rationale.md"
+    type: design_rationale
+    produced_by: course-designer
+    stage: 1
+    confirmed_by_professor: false
+  - path: "contents/en/chapter02/_posts/21-01-01-02_15_Wang_Harmonic_Analysis.md"
+    type: flagship_lesson
+    produced_by: content
+    stage: 2
+    confirmed_by_professor: false
+  - path: "contents/en/chapter01/_posts/21-01-01-01_02_Riemann_Hypothesis.md"
+    type: flagship_lesson
+    produced_by: content
+    stage: 2
+    confirmed_by_professor: false
+  - path: "contents/vi/chapter01/_posts/21-01-01-01_02_Riemann_Hypothesis.md"
+    type: flagship_lesson
+    produced_by: content
+    stage: 2
+    confirmed_by_professor: false
+  - path: "contents/en/chapter03/_posts/21-01-01-03_05_Number_Theory_Cryptography.md"
+    type: flagship_lesson
+    produced_by: content
+    stage: 2
+    confirmed_by_professor: false
+  - path: "contents/en/chapter04/_posts/21-01-01-04_02_Infinity.md"
+    type: flagship_lesson
+    produced_by: content
+    stage: 2
+    confirmed_by_professor: false
+  - path: "contents/en/chapter05/_posts/21-01-01-05_02_Euclid_Infinite_Primes.md"
+    type: flagship_lesson
+    produced_by: content
+    stage: 2
+    confirmed_by_professor: false
+  - path: "contents/en/chapter06/_posts/21-01-01-06_02_Mathematics_of_AI.md"
+    type: flagship_lesson
+    produced_by: content
+    stage: 2
+    confirmed_by_professor: false
+  - path: "contents/en/chapter07/_posts/21-01-01-07_09_Explore_Iteration.md"
+    type: flagship_lesson
+    produced_by: content
+    stage: 2
+    confirmed_by_professor: false
+
+iteration_history: []

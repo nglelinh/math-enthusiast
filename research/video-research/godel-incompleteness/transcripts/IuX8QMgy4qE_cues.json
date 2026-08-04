@@ -1,0 +1,1407 @@
+[
+  {
+    "t_start": 3.27,
+    "t_end": 6.15,
+    "text": "Yeah, I thought uh I'd talk about uh Gur and uh his famous theorem, Gle's"
+  },
+  {
+    "t_start": 6.15,
+    "t_end": 8.71,
+    "text": "and uh his famous theorem, Gle's incompleteness theorem because it's"
+  },
+  {
+    "t_start": 8.71,
+    "t_end": 14.31,
+    "text": "something I I cover in my logic course at the very end and I think it's I mean"
+  },
+  {
+    "t_start": 14.31,
+    "t_end": 17.67,
+    "text": "at the very end and I think it's I mean it's quite fascinating and although I"
+  },
+  {
+    "t_start": 17.67,
+    "t_end": 20.63,
+    "text": "it's quite fascinating and although I think there are lots of people who who"
+  },
+  {
+    "t_start": 20.63,
+    "t_end": 23.59,
+    "text": "think there are lots of people who who think this is philosophically very I"
+  },
+  {
+    "t_start": 23.59,
+    "t_end": 25.75,
+    "text": "think this is philosophically very I mean have some conclusion whether God"
+  },
+  {
+    "t_start": 25.75,
+    "t_end": 31.589,
+    "text": "exists or stuff like this which I don't think is has anything to do uh with this"
+  },
+  {
+    "t_start": 31.589,
+    "t_end": 34.31,
+    "text": "think is has anything to do uh with this theorem. It's over over valued has a"
+  },
+  {
+    "t_start": 34.31,
+    "t_end": 37.91,
+    "text": "theorem. It's over over valued has a sort of populist uh account. Yeah."
+  },
+  {
+    "t_start": 37.91,
+    "t_end": 41.19,
+    "text": "&gt;&gt; And okay. So I'm going to show my ignorance here though. Is this something"
+  },
+  {
+    "t_start": 41.19,
+    "t_end": 44.709,
+    "text": "ignorance here though. Is this something you can summarize before we go into the"
+  },
+  {
+    "t_start": 44.709,
+    "t_end": 48.069,
+    "text": "&gt;&gt; Yeah. I want to start with something which is hopefully which is quite"
+  },
+  {
+    "t_start": 48.069,
+    "t_end": 50.95,
+    "text": "which is hopefully which is quite simple."
+  },
+  {
+    "t_start": 50.95,
+    "t_end": 54.869,
+    "text": "What I'm doing in my logic module which is called introduction to formal"
+  },
+  {
+    "t_start": 54.869,
+    "t_end": 56.389,
+    "text": "is called introduction to formal reasoning."
+  },
+  {
+    "t_start": 56.389,
+    "t_end": 61.59,
+    "text": "uh we we learn how to use this tool here called lean which is an interactive"
+  },
+  {
+    "t_start": 61.59,
+    "t_end": 63.51,
+    "text": "called lean which is an interactive proof system. I think we have done"
+  },
+  {
+    "t_start": 63.51,
+    "t_end": 68.55,
+    "text": "proof system. I think we have done &gt;&gt; some videos about it already and so here"
+  },
+  {
+    "t_start": 68.55,
+    "t_end": 76.55,
+    "text": "P1 and P2. What does P1 say? P1 says for all natural numbers n + 0= n and P2 says"
+  },
+  {
+    "t_start": 76.55,
+    "t_end": 81.429,
+    "text": "all natural numbers n + 0= n and P2 says for all natural numbers N + N= N. So now"
+  },
+  {
+    "t_start": 81.429,
+    "t_end": 86.71,
+    "text": "which means I want either to prove them or prove the negation. So what I can do"
+  },
+  {
+    "t_start": 86.71,
+    "t_end": 93.99,
+    "text": "or prove the negation. So what I can do here in in lean I can prove P1 in two"
+  },
+  {
+    "t_start": 93.99,
+    "t_end": 100.069,
+    "text": "can prove the negation of P2 and here I use just the fact that if N is 1 then 1"
+  },
+  {
+    "t_start": 100.069,
+    "t_end": 107.03,
+    "text": "use just the fact that if N is 1 then 1 + 1 = 1 is two and that's uh no that"
+  },
+  {
+    "t_start": 107.03,
+    "t_end": 107.429,
+    "text": "even lean knows that this is not true. &gt;&gt; Okay."
+  },
+  {
+    "t_start": 107.429,
+    "t_end": 115.749,
+    "text": "&gt;&gt; Okay. So here's my question. Is it true can I for any proposition P can I prove"
+  },
+  {
+    "t_start": 115.749,
+    "t_end": 123.109,
+    "text": "can I for any proposition P can I prove either P or not P? And that's a question"
+  },
+  {
+    "t_start": 123.109,
+    "t_end": 128.71,
+    "text": "which G or actually Hibbert already asked. So if I have a proposition P"
+  },
+  {
+    "t_start": 128.71,
+    "t_end": 131.19,
+    "text": "asked. So if I have a proposition P is my proof system good enough or"
+  },
+  {
+    "t_start": 131.19,
+    "t_end": 133.99,
+    "text": "is my proof system good enough or complete in in the sense that for any"
+  },
+  {
+    "t_start": 133.99,
+    "t_end": 136.47,
+    "text": "complete in in the sense that for any propositions I can either prove P or not"
+  },
+  {
+    "t_start": 136.47,
+    "t_end": 142.07,
+    "text": "P. I we've seen in these examples for P1 I can prove P and for P2 I can prove not"
+  },
+  {
+    "t_start": 142.07,
+    "t_end": 147.35,
+    "text": "I can prove P and for P2 I can prove not P. Right? But the question is can we do"
+  },
+  {
+    "t_start": 147.35,
+    "t_end": 153.91,
+    "text": "&gt;&gt; I'm guessing the answer is no. &gt;&gt; Yeah, you're you're as good as Google."
+  },
+  {
+    "t_start": 153.91,
+    "t_end": 155.91,
+    "text": "&gt;&gt; Yeah, you're you're as good as Google. Let me let me let's look at at another"
+  },
+  {
+    "t_start": 155.91,
+    "t_end": 157.589,
+    "text": "Let me let me let's look at at another proposition. I'm not going into the"
+  },
+  {
+    "t_start": 157.589,
+    "t_end": 159.509,
+    "text": "proposition. I'm not going into the details here. So that's a famous problem"
+  },
+  {
+    "t_start": 159.509,
+    "t_end": 161.509,
+    "text": "details here. So that's a famous problem in computer science. It's actually the"
+  },
+  {
+    "t_start": 161.509,
+    "t_end": 163.589,
+    "text": "in computer science. It's actually the most famous famous problem. It's a"
+  },
+  {
+    "t_start": 163.589,
+    "t_end": 165.35,
+    "text": "most famous famous problem. It's a problem about problems. Sorry for the"
+  },
+  {
+    "t_start": 165.35,
+    "t_end": 167.43,
+    "text": "problem about problems. Sorry for the for the confusion."
+  },
+  {
+    "t_start": 167.43,
+    "t_end": 173.35,
+    "text": "The problem is uh uh uh is a is a set of natural number a subset of natural"
+  },
+  {
+    "t_start": 173.35,
+    "t_end": 181.27,
+    "text": "numbers set of all even numbers and so on. Yeah. And now we can define the set"
+  },
+  {
+    "t_start": 181.27,
+    "t_end": 187.35,
+    "text": "on. Yeah. And now we can define the set P is a set of problems which we can"
+  },
+  {
+    "t_start": 187.35,
+    "t_end": 190.47,
+    "text": "solve on a on a touring machine in deterministic polomial time. Yeah. So"
+  },
+  {
+    "t_start": 190.47,
+    "t_end": 197.35,
+    "text": "deterministic polomial time. Yeah. So which is feasible. And then there is a a"
+  },
+  {
+    "t_start": 197.35,
+    "t_end": 199.03,
+    "text": "class NP which is the the set of problems which we can solve on a"
+  },
+  {
+    "t_start": 199.03,
+    "t_end": 200.949,
+    "text": "problems which we can solve on a nondeterministic touring machine in"
+  },
+  {
+    "t_start": 200.949,
+    "t_end": 205.83,
+    "text": "nondeterministic touring machine in polomial time. And yeah uh the problems"
+  },
+  {
+    "t_start": 205.83,
+    "t_end": 213.27,
+    "text": "easy problems u like yeah astonishingly this is recent result that the primes"
+  },
+  {
+    "t_start": 213.27,
+    "t_end": 217.91,
+    "text": "this is recent result that the primes are NP whereas NP are problems like uh I"
+  },
+  {
+    "t_start": 217.91,
+    "t_end": 221.03,
+    "text": "are NP whereas NP are problems like uh I give you a"
+  },
+  {
+    "t_start": 221.03,
+    "t_end": 228.07,
+    "text": "a formula in propositional logic find out whether there's a satisfying uh uh"
+  },
+  {
+    "t_start": 228.07,
+    "t_end": 234.149,
+    "text": "uh evaluation satisfying assignment of truth values Right? So that's quite hard"
+  },
+  {
+    "t_start": 234.149,
+    "t_end": 236.63,
+    "text": "truth values Right? So that's quite hard because they're exponentially 2 to the n"
+  },
+  {
+    "t_start": 236.63,
+    "t_end": 242.71,
+    "text": "because they're exponentially 2 to the n many lines in a tool table. Um so that"
+  },
+  {
+    "t_start": 242.71,
+    "t_end": 244.949,
+    "text": "usually requires exponential time. But on a nondeterministic touring machine"
+  },
+  {
+    "t_start": 244.949,
+    "t_end": 251.35,
+    "text": "you can solve it in polinomial time. Now the famous question is is P equal NP or"
+  },
+  {
+    "t_start": 251.35,
+    "t_end": 257.43,
+    "text": "is P not equal NP? And actually nobody knows. So nobody has a proof of either."
+  },
+  {
+    "t_start": 257.43,
+    "t_end": 258.949,
+    "text": "knows. So nobody has a proof of either. That's why it's famous. You can $1"
+  },
+  {
+    "t_start": 258.949,
+    "t_end": 260.629,
+    "text": "That's why it's famous. You can $1 million by the way if you can."
+  },
+  {
+    "t_start": 260.629,
+    "t_end": 261.509,
+    "text": "million by the way if you can. &gt;&gt; Okay."
+  },
+  {
+    "t_start": 261.509,
+    "t_end": 263.189,
+    "text": "I'll nip home and see. &gt;&gt; Yeah. Yeah."
+  },
+  {
+    "t_start": 263.189,
+    "t_end": 269.35,
+    "text": "&gt;&gt; Yeah. So, most people believe that P is not equal NP, but nobody has a proof."
+  },
+  {
+    "t_start": 269.35,
+    "t_end": 275.909,
+    "text": "Neither is a proof of P equals NP. But I mean, most likely it's just because we"
+  },
+  {
+    "t_start": 275.909,
+    "t_end": 278.31,
+    "text": "I mean, most likely it's just because we are too stupid, right?"
+  },
+  {
+    "t_start": 278.31,
+    "t_end": 278.79,
+    "text": "are too stupid, right? We"
+  },
+  {
+    "t_start": 278.79,
+    "t_end": 281.27,
+    "text": "&gt;&gt; Well, we'll check GPT and see what comes out."
+  },
+  {
+    "t_start": 281.27,
+    "t_end": 284.469,
+    "text": "&gt;&gt; That's a good always a good approach. Yeah, we should try this. Yeah,"
+  },
+  {
+    "t_start": 284.469,
+    "t_end": 285.27,
+    "text": "Yeah, we should try this. Yeah, &gt;&gt; I'm going to"
+  },
+  {
+    "t_start": 285.27,
+    "t_end": 288.71,
+    "text": "&gt;&gt; since we don't know, it could be that our proof system is not strong enough."
+  },
+  {
+    "t_start": 288.71,
+    "t_end": 290.629,
+    "text": "our proof system is not strong enough. And this was something already observed"
+  },
+  {
+    "t_start": 290.629,
+    "t_end": 292.55,
+    "text": "And this was something already observed by Hbert, David Hbert, famous"
+  },
+  {
+    "t_start": 292.55,
+    "t_end": 299.99,
+    "text": "guy. But here he plays the role bit of the not so clever guy because he said,"
+  },
+  {
+    "t_start": 299.99,
+    "t_end": 302.629,
+    "text": "the not so clever guy because he said, \"Yeah, I mean if we have a logical"
+  },
+  {
+    "t_start": 302.629,
+    "t_end": 305.35,
+    "text": "\"Yeah, I mean if we have a logical system which is incomplete, we can just"
+  },
+  {
+    "t_start": 305.35,
+    "t_end": 307.749,
+    "text": "system which is incomplete, we can just add something and make it complete.\""
+  },
+  {
+    "t_start": 307.749,
+    "t_end": 312.07,
+    "text": "Yeah. So maybe we have to add this as an axiom that P is not equal NP and then"
+  },
+  {
+    "t_start": 312.07,
+    "t_end": 315.59,
+    "text": "axiom that P is not equal NP and then then we are fine. Yeah. We decide this."
+  },
+  {
+    "t_start": 315.59,
+    "t_end": 317.749,
+    "text": "then we are fine. Yeah. We decide this. And basically he thought if we have an"
+  },
+  {
+    "t_start": 317.749,
+    "t_end": 319.67,
+    "text": "And basically he thought if we have an incomplete system if we just add enough"
+  },
+  {
+    "t_start": 319.67,
+    "t_end": 323.11,
+    "text": "incomplete system if we just add enough exum we will make it complete."
+  },
+  {
+    "t_start": 323.11,
+    "t_end": 331.35,
+    "text": "And now comes G. Yeah. So G defines a proposition G proposition so that we can"
+  },
+  {
+    "t_start": 331.35,
+    "t_end": 338.87,
+    "text": "proposition G proposition so that we can neither prove G nor we can prove not G."
+  },
+  {
+    "t_start": 338.87,
+    "t_end": 342.95,
+    "text": "Okay. And he did this for the theory of uh arithmetic. So which is just a theory"
+  },
+  {
+    "t_start": 342.95,
+    "t_end": 347.189,
+    "text": "uh arithmetic. So which is just a theory of natural numbers with some basic axums"
+  },
+  {
+    "t_start": 347.189,
+    "t_end": 350.469,
+    "text": "of natural numbers with some basic axums about natural numbers. So let me yeah"
+  },
+  {
+    "t_start": 350.469,
+    "t_end": 359.189,
+    "text": "let me go outside of of lean and and let me construct uh a a good sentence right"
+  },
+  {
+    "t_start": 359.189,
+    "t_end": 361.67,
+    "text": "me construct uh a a good sentence right actually I have to move between lean and"
+  },
+  {
+    "t_start": 361.67,
+    "t_end": 366.15,
+    "text": "actually I have to move between lean and and paper but we'll do this. Okay."
+  },
+  {
+    "t_start": 366.15,
+    "t_end": 371.35,
+    "text": "and paper but we'll do this. Okay. So if you look at at lean here when we"
+  },
+  {
+    "t_start": 371.35,
+    "t_end": 376.469,
+    "text": "you see this symbol here this turn style right it's called turn style because it"
+  },
+  {
+    "t_start": 376.469,
+    "t_end": 382.79,
+    "text": "looking at this G is such a proposition and we want that we're not able to prove"
+  },
+  {
+    "t_start": 382.79,
+    "t_end": 390.07,
+    "text": "and we want that we're not able to prove G and we also not able to prove not G."
+  },
+  {
+    "t_start": 390.07,
+    "t_end": 392.23,
+    "text": "And so so what Gur was able to do he said in the theory of arithmetic and the"
+  },
+  {
+    "t_start": 392.23,
+    "t_end": 395.27,
+    "text": "said in the theory of arithmetic and the theory about natural numbers with some"
+  },
+  {
+    "t_start": 395.27,
+    "t_end": 397.189,
+    "text": "theory about natural numbers with some basic operations like addition and"
+  },
+  {
+    "t_start": 397.189,
+    "t_end": 402.469,
+    "text": "multiplication and some basic exums we can always find such a statement and"
+  },
+  {
+    "t_start": 402.469,
+    "t_end": 405.029,
+    "text": "can always find such a statement and even better he could also show that not"
+  },
+  {
+    "t_start": 405.029,
+    "t_end": 407.27,
+    "text": "even better he could also show that not only in arithmetic but anything which"
+  },
+  {
+    "t_start": 407.27,
+    "t_end": 414.39,
+    "text": "extends arithmetic which is for example lean we can define such a proposition."
+  },
+  {
+    "t_start": 414.39,
+    "t_end": 422.87,
+    "text": "So how do we do this? Okay, so the first step in Google did is let's say P is any"
+  },
+  {
+    "t_start": 422.87,
+    "t_end": 426.469,
+    "text": "step in Google did is let's say P is any proposition then we have a natural"
+  },
+  {
+    "t_start": 426.469,
+    "t_end": 429.43,
+    "text": "proposition then we have a natural number which we which write here funny"
+  },
+  {
+    "t_start": 429.43,
+    "t_end": 433.67,
+    "text": "brackets P which is a natural number which represents this proposition. What"
+  },
+  {
+    "t_start": 433.67,
+    "t_end": 437.67,
+    "text": "does it mean? P here is some formula something which you have seen there for"
+  },
+  {
+    "t_start": 437.67,
+    "t_end": 441.83,
+    "text": "something which you have seen there for all X natural number X plus 0= X or and"
+  },
+  {
+    "t_start": 441.83,
+    "t_end": 444.15,
+    "text": "all X natural number X plus 0= X or and so on. And now we want to represent this"
+  },
+  {
+    "t_start": 444.15,
+    "t_end": 446.55,
+    "text": "so on. And now we want to represent this inside our system because the basic idea"
+  },
+  {
+    "t_start": 446.55,
+    "t_end": 448.87,
+    "text": "inside our system because the basic idea of girdle is that we always get this"
+  },
+  {
+    "t_start": 448.87,
+    "t_end": 451.99,
+    "text": "of girdle is that we always get this girdle sentence this sentence G if a"
+  },
+  {
+    "t_start": 451.99,
+    "t_end": 458.79,
+    "text": "system can talk about itself if you can sort of implement it in itself and the"
+  },
+  {
+    "t_start": 458.79,
+    "t_end": 461.189,
+    "text": "first idea is that we can represent these propositions as natural numbers."
+  },
+  {
+    "t_start": 461.189,
+    "t_end": 464.629,
+    "text": "these propositions as natural numbers. Now you can think for a while how to do"
+  },
+  {
+    "t_start": 464.629,
+    "t_end": 466.309,
+    "text": "this but I'm claiming it's sort of obvious for any computer scientist"
+  },
+  {
+    "t_start": 466.309,
+    "t_end": 468.87,
+    "text": "obvious for any computer scientist because you can represent proposition as"
+  },
+  {
+    "t_start": 468.87,
+    "t_end": 471.909,
+    "text": "because you can represent proposition as some bytes in computer memory and some"
+  },
+  {
+    "t_start": 471.909,
+    "t_end": 474.309,
+    "text": "some bytes in computer memory and some byes are just a natural number just a"
+  },
+  {
+    "t_start": 474.309,
+    "t_end": 480.39,
+    "text": "byes are just a natural number just a number maybe a very big number but it's"
+  },
+  {
+    "t_start": 480.39,
+    "t_end": 482.869,
+    "text": "just a and we can also define when something is provable so let me let me"
+  },
+  {
+    "t_start": 482.869,
+    "t_end": 488.469,
+    "text": "let me say this let me just pretend I can do this I say I have a predicate or"
+  },
+  {
+    "t_start": 488.469,
+    "t_end": 490.869,
+    "text": "can do this I say I have a predicate or set of natural number which I call proof"
+  },
+  {
+    "t_start": 490.869,
+    "t_end": 493.43,
+    "text": "set of natural number which I call proof So the are the natural numbers which"
+  },
+  {
+    "t_start": 493.43,
+    "t_end": 495.51,
+    "text": "So the are the natural numbers which correspond to propositions we can prove."
+  },
+  {
+    "t_start": 495.51,
+    "t_end": 500.469,
+    "text": "correspond to propositions we can prove. So what do you want to say? I want to"
+  },
+  {
+    "t_start": 500.469,
+    "t_end": 503.189,
+    "text": "say if I can prove a proposition P"
+  },
+  {
+    "t_start": 503.189,
+    "t_end": 511.029,
+    "text": "then it is the same as if I can prove inside my system that the code of P is"
+  },
+  {
+    "t_start": 511.029,
+    "t_end": 513.67,
+    "text": "inside my system that the code of P is in the set proof. Okay. So what I'm"
+  },
+  {
+    "t_start": 513.67,
+    "t_end": 517.43,
+    "text": "in the set proof. Okay. So what I'm saying here I can prove P"
+  },
+  {
+    "t_start": 517.43,
+    "t_end": 524.389,
+    "text": "if and only if I can prove that this the code of P is an element of my predicate"
+  },
+  {
+    "t_start": 524.389,
+    "t_end": 531.75,
+    "text": "of my set. So that means I can encode probability inside my my logical system"
+  },
+  {
+    "t_start": 531.75,
+    "t_end": 536.07,
+    "text": "probability inside my my logical system and uh and and Gur observed that you can"
+  },
+  {
+    "t_start": 536.07,
+    "t_end": 539.03,
+    "text": "do this in arithmetic with a bit of hacking. Uh you can just encode the the"
+  },
+  {
+    "t_start": 539.03,
+    "t_end": 541.19,
+    "text": "hacking. Uh you can just encode the the the probability"
+  },
+  {
+    "t_start": 541.19,
+    "t_end": 547.269,
+    "text": "of arithmetic inside of arithmetic. It's bit what we do in computer science"
+  },
+  {
+    "t_start": 547.269,
+    "t_end": 549.59,
+    "text": "bit what we do in computer science always you know you write a compiler for"
+  },
+  {
+    "t_start": 549.59,
+    "t_end": 553.35,
+    "text": "always you know you write a compiler for C in C. So here we we we define the"
+  },
+  {
+    "t_start": 553.35,
+    "t_end": 556.07,
+    "text": "C in C. So here we we we define the logical system of arithmetic within"
+  },
+  {
+    "t_start": 556.07,
+    "t_end": 558.389,
+    "text": "logical system of arithmetic within arithmetic. No big deal. It's it's"
+  },
+  {
+    "t_start": 558.389,
+    "t_end": 560.949,
+    "text": "arithmetic. No big deal. It's it's hacky. Yeah. Like hell because you have"
+  },
+  {
+    "t_start": 560.949,
+    "t_end": 562.47,
+    "text": "hacky. Yeah. Like hell because you have to do lots of encoding, lots of"
+  },
+  {
+    "t_start": 562.47,
+    "t_end": 565.35,
+    "text": "to do lots of encoding, lots of twiddling, but it's it's not impossible."
+  },
+  {
+    "t_start": 565.35,
+    "t_end": 569.35,
+    "text": "twiddling, but it's it's not impossible. It's I I don't want to write it down. I"
+  },
+  {
+    "t_start": 569.35,
+    "t_end": 573.91,
+    "text": "mean I can't because it would take long time. Okay. Now let me let me go a"
+  },
+  {
+    "t_start": 573.91,
+    "t_end": 576.47,
+    "text": "time. Okay. Now let me let me go a little bit further and let's say uh we"
+  },
+  {
+    "t_start": 576.47,
+    "t_end": 578.15,
+    "text": "little bit further and let's say uh we really want to think about predicates."
+  },
+  {
+    "t_start": 578.15,
+    "t_end": 584.07,
+    "text": "If you have a predicate Q which is a set of natural number. Okay. So we we can do"
+  },
+  {
+    "t_start": 584.07,
+    "t_end": 587.91,
+    "text": "of natural number. Okay. So we we can do this. So here we do this for P is a"
+  },
+  {
+    "t_start": 587.91,
+    "t_end": 590.87,
+    "text": "proposition but I can also do this for predicates on natural numbers. So I have"
+  },
+  {
+    "t_start": 590.87,
+    "t_end": 593.509,
+    "text": "predicates on natural numbers. So I have this predicate proof two which is like"
+  },
+  {
+    "t_start": 593.509,
+    "t_end": 598.79,
+    "text": "proof but with a parameter. And what do I want to say? If Q is is a predicate on"
+  },
+  {
+    "t_start": 598.79,
+    "t_end": 600.31,
+    "text": "I want to say? If Q is is a predicate on natural numbers or a set of natural"
+  },
+  {
+    "t_start": 600.31,
+    "t_end": 605.43,
+    "text": "natural numbers or a set of natural numbers, then I know that I can prove Q"
+  },
+  {
+    "t_start": 605.43,
+    "t_end": 612.15,
+    "text": "numbers, then I know that I can prove Q of N if and only if I can prove proof"
+  },
+  {
+    "t_start": 612.15,
+    "t_end": 618.71,
+    "text": "What I want to say is if the pair of the code for Q in the number n is in proof"
+  },
+  {
+    "t_start": 618.71,
+    "t_end": 624.389,
+    "text": "code for Q in the number n is in proof two. So what proof two is is a bit of a"
+  },
+  {
+    "t_start": 624.389,
+    "t_end": 626.63,
+    "text": "variation of proof. for proof is just for for propositions."
+  },
+  {
+    "t_start": 626.63,
+    "t_end": 631.35,
+    "text": "But if we can encode proposition, we can also encode predicates. So predicates"
+  },
+  {
+    "t_start": 631.35,
+    "t_end": 633.67,
+    "text": "also encode predicates. So predicates are just subsets of natural numbers"
+  },
+  {
+    "t_start": 633.67,
+    "t_end": 641.43,
+    "text": "are just subsets of natural numbers which we can define here. And we now say"
+  },
+  {
+    "t_start": 641.43,
+    "t_end": 646.87,
+    "text": "I have a code for every predicate such that I can prove q of n if and only"
+  },
+  {
+    "t_start": 646.87,
+    "t_end": 651.99,
+    "text": "uh the spare qn is in my proof predicate. So it's a bit of a refinement"
+  },
+  {
+    "t_start": 651.99,
+    "t_end": 656.23,
+    "text": "of the first that I can do this not just for propositions but also for predicates"
+  },
+  {
+    "t_start": 656.23,
+    "t_end": 658.31,
+    "text": "for propositions but also for predicates which are proposition depending on some"
+  },
+  {
+    "t_start": 658.31,
+    "t_end": 661.11,
+    "text": "which are proposition depending on some values right"
+  },
+  {
+    "t_start": 661.11,
+    "t_end": 667.67,
+    "text": "and now if I can do this I can define something weird and this is a set of"
+  },
+  {
+    "t_start": 667.67,
+    "t_end": 669.75,
+    "text": "something weird and this is a set of natural numbers I define in lean and"
+  },
+  {
+    "t_start": 669.75,
+    "t_end": 672.389,
+    "text": "natural numbers I define in lean and this is the set of of quotes such that"
+  },
+  {
+    "t_start": 672.389,
+    "t_end": 675.99,
+    "text": "this is the set of of quotes such that you cannot prove that that n comma n is"
+  },
+  {
+    "t_start": 675.99,
+    "t_end": 678.31,
+    "text": "you cannot prove that that n comma n is not in in this in this relation proof"
+  },
+  {
+    "t_start": 678.31,
+    "t_end": 682.63,
+    "text": "not in in this in this relation proof two. What does this mean? And it it"
+  },
+  {
+    "t_start": 682.63,
+    "t_end": 686.47,
+    "text": "means that that if n is a code of a proposition then the proposition applied"
+  },
+  {
+    "t_start": 686.47,
+    "t_end": 690.949,
+    "text": "proposition then the proposition applied to its own code. You you take like you"
+  },
+  {
+    "t_start": 690.949,
+    "t_end": 693.03,
+    "text": "take a program and you feed it its own input. Yeah. This is the technique of"
+  },
+  {
+    "t_start": 693.03,
+    "t_end": 695.35,
+    "text": "input. Yeah. This is the technique of diagonalization which we use in in lots"
+  },
+  {
+    "t_start": 695.35,
+    "t_end": 701.67,
+    "text": "diagonalization which we use in in lots of situations. So we say so v is a set"
+  },
+  {
+    "t_start": 701.67,
+    "t_end": 704.87,
+    "text": "of natural numbers that if n is a code of a of a of a predicate and I apply it"
+  },
+  {
+    "t_start": 704.87,
+    "t_end": 707.35,
+    "text": "of a of a of a predicate and I apply it to itself then it should not be"
+  },
+  {
+    "t_start": 707.35,
+    "t_end": 711.03,
+    "text": "to itself then it should not be probable. Okay. So it's it's a set of"
+  },
+  {
+    "t_start": 711.03,
+    "t_end": 713.11,
+    "text": "probable. Okay. So it's it's a set of quotes for predicates"
+  },
+  {
+    "t_start": 713.11,
+    "t_end": 717.509,
+    "text": "quotes for predicates which if applied to their own code"
+  },
+  {
+    "t_start": 717.509,
+    "t_end": 720.31,
+    "text": "are not provable. &gt;&gt; This reminds me a little bit of the"
+  },
+  {
+    "t_start": 720.31,
+    "t_end": 723.91,
+    "text": "&gt;&gt; Yes. Yes. It's the same idea. It's like it proves something different with the"
+  },
+  {
+    "t_start": 723.91,
+    "t_end": 725.509,
+    "text": "it proves something different with the same technique. The technique is called"
+  },
+  {
+    "t_start": 725.509,
+    "t_end": 727.829,
+    "text": "same technique. The technique is called diagonalization. And we use it for lots"
+  },
+  {
+    "t_start": 727.829,
+    "t_end": 729.67,
+    "text": "diagonalization. And we use it for lots of things. We use for for the for the"
+  },
+  {
+    "t_start": 729.67,
+    "t_end": 731.35,
+    "text": "of things. We use for for the for the undecidability."
+  },
+  {
+    "t_start": 731.35,
+    "t_end": 736.629,
+    "text": "But we also use it to prove that uh so that there more than one infinite set."
+  },
+  {
+    "t_start": 736.629,
+    "t_end": 739.67,
+    "text": "that there more than one infinite set. Yeah. the set of uh uncountable and"
+  },
+  {
+    "t_start": 739.67,
+    "t_end": 743.269,
+    "text": "uncountable sets is bigger than the set of countable. So they're infinitely"
+  },
+  {
+    "t_start": 743.269,
+    "t_end": 750.87,
+    "text": "of countable. So they're infinitely infinitities is the same idea. Okay. So"
+  },
+  {
+    "t_start": 750.87,
+    "t_end": 753.91,
+    "text": "so now if I have the set V then something I can define a girdle sentence"
+  },
+  {
+    "t_start": 753.91,
+    "t_end": 760.79,
+    "text": "something I can define a girdle sentence and the girdle sentence is just so if I"
+  },
+  {
+    "t_start": 760.79,
+    "t_end": 767.99,
+    "text": "the question is is Viet an element of Viet? So is a code of viet an element of"
+  },
+  {
+    "t_start": 767.99,
+    "t_end": 771.35,
+    "text": "Viet? So is a code of viet an element of the set v. Now by the definition of v"
+  },
+  {
+    "t_start": 771.35,
+    "t_end": 776.389,
+    "text": "the set v. Now by the definition of v this is the case if v code of v is not"
+  },
+  {
+    "t_start": 776.389,
+    "t_end": 779.03,
+    "text": "this is the case if v code of v is not in proof two. And now by the definition"
+  },
+  {
+    "t_start": 779.03,
+    "t_end": 785.59,
+    "text": "in proof two. And now by the definition of proof two this is the case if and"
+  },
+  {
+    "t_start": 785.59,
+    "t_end": 788.389,
+    "text": "only if not the course of weird is an element of the predicate weird. Right?"
+  },
+  {
+    "t_start": 788.389,
+    "t_end": 792.87,
+    "text": "element of the predicate weird. Right? What did I do? I said when is we an"
+  },
+  {
+    "t_start": 792.87,
+    "t_end": 795.59,
+    "text": "element of weird? I look up the definition. It's the case if if the"
+  },
+  {
+    "t_start": 795.59,
+    "t_end": 801.75,
+    "text": "definition. It's the case if if the could of v applied to v is not an"
+  },
+  {
+    "t_start": 801.75,
+    "t_end": 807.509,
+    "text": "but by by by the property that proof two really corresponds to provability"
+  },
+  {
+    "t_start": 807.509,
+    "t_end": 811.75,
+    "text": "this is the case okay now I should have done a turn star this is provable if"
+  },
+  {
+    "t_start": 811.75,
+    "t_end": 819.35,
+    "text": "this is provable if and only if this is provable so the situation I have weird"
+  },
+  {
+    "t_start": 819.35,
+    "t_end": 821.99,
+    "text": "provable so the situation I have weird and weird is provable if not weird and"
+  },
+  {
+    "t_start": 821.99,
+    "t_end": 827.43,
+    "text": "and weird is provable if not weird and weird is provable And that means that"
+  },
+  {
+    "t_start": 827.43,
+    "t_end": 837.35,
+    "text": "is a good sentence because now I can prove G if and only I I can prove not G."
+  },
+  {
+    "t_start": 837.35,
+    "t_end": 842.069,
+    "text": "prove G if and only I I can prove not G. Yeah. So G is a is is a statement that V"
+  },
+  {
+    "t_start": 842.069,
+    "t_end": 844.23,
+    "text": "Yeah. So G is a is is a statement that V is provable for its own code. That is"
+  },
+  {
+    "t_start": 844.23,
+    "t_end": 849.75,
+    "text": "is provable for its own code. That is provable if and only if the negation is"
+  },
+  {
+    "t_start": 849.75,
+    "t_end": 853.189,
+    "text": "provable. Now that means if I could prove G then I can prove not G and then"
+  },
+  {
+    "t_start": 853.189,
+    "t_end": 857.43,
+    "text": "prove G then I can prove not G and then I can prove false. It means my system is"
+  },
+  {
+    "t_start": 857.43,
+    "t_end": 862.71,
+    "text": "and if I can prove not G I can prove G and also means my system is"
+  },
+  {
+    "t_start": 862.71,
+    "t_end": 869.59,
+    "text": "inconsistent. So this sentence G is such a sentence where you cannot prove it and"
+  },
+  {
+    "t_start": 869.59,
+    "t_end": 871.189,
+    "text": "a sentence where you cannot prove it and you cannot prove its negation."
+  },
+  {
+    "t_start": 871.189,
+    "t_end": 872.71,
+    "text": "you cannot prove its negation. &gt;&gt; So is that the incompleteness?"
+  },
+  {
+    "t_start": 872.71,
+    "t_end": 877.43,
+    "text": "&gt;&gt; So is that the incompleteness? &gt;&gt; That's the incompleteness theorem. It's"
+  },
+  {
+    "t_start": 877.43,
+    "t_end": 885.43,
+    "text": "Yes. Uh there is a second one which says uh that uh you you you cannot prove now"
+  },
+  {
+    "t_start": 885.43,
+    "t_end": 887.269,
+    "text": "uh that uh you you you cannot prove now we can we can talk about the system in"
+  },
+  {
+    "t_start": 887.269,
+    "t_end": 891.59,
+    "text": "we can we can talk about the system in itself. Right. And we can ask the"
+  },
+  {
+    "t_start": 891.59,
+    "t_end": 896.629,
+    "text": "is is false not provable? Yeah. If false is provable that means the system is"
+  },
+  {
+    "t_start": 896.629,
+    "t_end": 900.949,
+    "text": "inconsistent. And and the question is can we prove that we cannot prove false?"
+  },
+  {
+    "t_start": 900.949,
+    "t_end": 903.75,
+    "text": "can we prove that we cannot prove false? So not prove"
+  },
+  {
+    "t_start": 903.75,
+    "t_end": 910.069,
+    "text": "false. Can we prove in a system that it's consistent? And it turns out and"
+  },
+  {
+    "t_start": 910.069,
+    "t_end": 911.269,
+    "text": "it's consistent? And it turns out and this is the second incompleteness"
+  },
+  {
+    "t_start": 911.269,
+    "t_end": 916.71,
+    "text": "theorem which relies on the first one is we cannot prove this either. We we we in"
+  },
+  {
+    "t_start": 916.71,
+    "t_end": 920.949,
+    "text": "particular we cannot prove which is not surprising. I mean if you have a logical"
+  },
+  {
+    "t_start": 920.949,
+    "t_end": 924.15,
+    "text": "surprising. I mean if you have a logical system so so it's like pulling your"
+  },
+  {
+    "t_start": 924.15,
+    "t_end": 926.949,
+    "text": "system so so it's like pulling your yourself out of the swamp you know"
+  },
+  {
+    "t_start": 926.949,
+    "t_end": 928.47,
+    "text": "yourself out of the swamp you know proving"
+  },
+  {
+    "t_start": 928.47,
+    "t_end": 932.71,
+    "text": "proving in the system itself that the system is consistent"
+  },
+  {
+    "t_start": 932.71,
+    "t_end": 940.47,
+    "text": "and that's not possible. So that's is the second incompleteness theorem and it"
+  },
+  {
+    "t_start": 940.47,
+    "t_end": 945.11,
+    "text": "the second incompleteness theorem and it how to prove it is by taking the first"
+  },
+  {
+    "t_start": 945.11,
+    "t_end": 951.99,
+    "text": "encode the proof of the first one inside arithmetic. So it's getting I mean it's"
+  },
+  {
+    "t_start": 951.99,
+    "t_end": 953.91,
+    "text": "arithmetic. So it's getting I mean it's not technically complicated but you"
+  },
+  {
+    "t_start": 953.91,
+    "t_end": 957.189,
+    "text": "not technically complicated but you start to lose track on the levels you"
+  },
+  {
+    "t_start": 957.189,
+    "t_end": 958.55,
+    "text": "know I'm talking about the system talking about itself."
+  },
+  {
+    "t_start": 958.55,
+    "t_end": 963.67,
+    "text": "talking about itself. &gt;&gt; Yeah it's I'm getting inception vibes."
+  },
+  {
+    "t_start": 963.67,
+    "t_end": 966.31,
+    "text": "&gt;&gt; getting what vibes? Oh, do you remember the film Inception?"
+  },
+  {
+    "t_start": 966.31,
+    "t_end": 972.069,
+    "text": "&gt;&gt; Okay. Which is a little bit cliche, but you know, dream inside a dream inside a"
+  },
+  {
+    "t_start": 972.069,
+    "t_end": 972.389,
+    "text": "you know, dream inside a dream inside a dream."
+  },
+  {
+    "t_start": 972.389,
+    "t_end": 976.79,
+    "text": "&gt;&gt; Yes. That's exactly what going on. And it's it's it's it's"
+  },
+  {
+    "t_start": 976.79,
+    "t_end": 982.949,
+    "text": "just keeping track all the levels makes it makes it confusing. Yeah."
+  },
+  {
+    "t_start": 982.949,
+    "t_end": 988.629,
+    "text": "&gt;&gt; But let me say a few more things about this incompleteness theorem. Uh first of"
+  },
+  {
+    "t_start": 988.629,
+    "t_end": 991.43,
+    "text": "this incompleteness theorem. Uh first of all, it applies to arithmetic. But if"
+  },
+  {
+    "t_start": 991.43,
+    "t_end": 993.91,
+    "text": "all, it applies to arithmetic. But if you look at the proof, it's actually"
+  },
+  {
+    "t_start": 993.91,
+    "t_end": 997.189,
+    "text": "you look at the proof, it's actually also works for any system which includes"
+  },
+  {
+    "t_start": 997.189,
+    "t_end": 998.71,
+    "text": "also works for any system which includes arithmetic."
+  },
+  {
+    "t_start": 998.71,
+    "t_end": 1005.189,
+    "text": "So so so it it it doesn't help like Hbert hoped that the uh to make the"
+  },
+  {
+    "t_start": 1005.189,
+    "t_end": 1008.389,
+    "text": "Hbert hoped that the uh to make the system stronger because this defect"
+  },
+  {
+    "t_start": 1008.389,
+    "t_end": 1010.069,
+    "text": "system stronger because this defect always remains you. It doesn't matter"
+  },
+  {
+    "t_start": 1010.069,
+    "t_end": 1012.87,
+    "text": "always remains you. It doesn't matter how strong you you make it you always"
+  },
+  {
+    "t_start": 1012.87,
+    "t_end": 1015.749,
+    "text": "how strong you you make it you always get this incompleteness"
+  },
+  {
+    "t_start": 1015.749,
+    "t_end": 1022.23,
+    "text": "but you can make it weaker. Yeah. So uh in g observed this incompleteness"
+  },
+  {
+    "t_start": 1022.23,
+    "t_end": 1026.39,
+    "text": "theorem all you need is addition and multiplication which is quite clever"
+  },
+  {
+    "t_start": 1026.39,
+    "t_end": 1028.39,
+    "text": "multiplication which is quite clever hack. Yeah."
+  },
+  {
+    "t_start": 1028.39,
+    "t_end": 1035.829,
+    "text": "Um but if you leave multiplication out then it's complete. Yeah. But then you"
+  },
+  {
+    "t_start": 1035.829,
+    "t_end": 1038.47,
+    "text": "then it's complete. Yeah. But then you cannot do as much in particular in this"
+  },
+  {
+    "t_start": 1038.47,
+    "t_end": 1041.669,
+    "text": "cannot do as much in particular in this system uh is called presber arithmetic"
+  },
+  {
+    "t_start": 1041.669,
+    "t_end": 1043.35,
+    "text": "system uh is called presber arithmetic it cannot talk about itself because"
+  },
+  {
+    "t_start": 1043.35,
+    "t_end": 1046.949,
+    "text": "obviously if it could talk about itself it would be incomplete. Yeah. But it's"
+  },
+  {
+    "t_start": 1046.949,
+    "t_end": 1049.75,
+    "text": "it would be incomplete. Yeah. But it's useful for for some things"
+  },
+  {
+    "t_start": 1049.75,
+    "t_end": 1057.51,
+    "text": "system which are complete. So for example if you if you encode the the"
+  },
+  {
+    "t_start": 1057.51,
+    "t_end": 1063.19,
+    "text": "logic of the real numbers the the the field of the real numbers. Yeah. Uh it"
+  },
+  {
+    "t_start": 1063.19,
+    "t_end": 1066.23,
+    "text": "field of the real numbers. Yeah. Uh it turns out that this is complete."
+  },
+  {
+    "t_start": 1066.23,
+    "t_end": 1068.31,
+    "text": "turns out that this is complete. So that because because you don't have"
+  },
+  {
+    "t_start": 1068.31,
+    "t_end": 1072.95,
+    "text": "the natural numbers you cannot do this programming stuff. Yeah. just with the"
+  },
+  {
+    "t_start": 1072.95,
+    "t_end": 1075.43,
+    "text": "programming stuff. Yeah. just with the real numbers and the real numbers on its"
+  },
+  {
+    "t_start": 1075.43,
+    "t_end": 1081.51,
+    "text": "real numbers and the real numbers on its on its own are complete. Yeah. And"
+  },
+  {
+    "t_start": 1081.51,
+    "t_end": 1084.47,
+    "text": "another example is geometric ge geometric geometry"
+  },
+  {
+    "t_start": 1084.47,
+    "t_end": 1086.47,
+    "text": "geometric geometry geometry."
+  },
+  {
+    "t_start": 1086.47,
+    "t_end": 1092.47,
+    "text": "uh uh so Uklides uh it was the first aum system formulated for about lines and"
+  },
+  {
+    "t_start": 1092.47,
+    "t_end": 1098.07,
+    "text": "system formulated for about lines and lines being in parallel and cutting each"
+  },
+  {
+    "t_start": 1098.07,
+    "t_end": 1104.87,
+    "text": "the exoms of of geometry are actually complete but again and just with lines"
+  },
+  {
+    "t_start": 1104.87,
+    "t_end": 1107.59,
+    "text": "complete but again and just with lines and points you cannot talk about itself."
+  },
+  {
+    "t_start": 1107.59,
+    "t_end": 1117.75,
+    "text": "and points you cannot talk about itself. So it's it's a weak system. Yeah."
+  },
+  {
+    "t_start": 1122.23,
+    "t_end": 1125.83,
+    "text": "it is. on that sphere. If Sha and I start walking due north and we keep our"
+  },
+  {
+    "t_start": 1125.83,
+    "t_end": 1128.47,
+    "text": "start walking due north and we keep our angles with the equator rigidly the same"
+  },
+  {
+    "t_start": 1128.47,
+    "t_end": 1135.84,
+    "text": "angles with the equator rigidly the same as each other, then the innate curvature"
+  }
+]

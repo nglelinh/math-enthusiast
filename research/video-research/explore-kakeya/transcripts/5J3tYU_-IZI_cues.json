@@ -1,0 +1,4022 @@
+[
+  {
+    "t_start": 2.95,
+    "t_end": 2.96,
+    "text": "There's a deceptively simple problem"
+  },
+  {
+    "t_start": 2.96,
+    "t_end": 5.19,
+    "text": "There's a deceptively simple problem that's tormented mathematicians for 50"
+  },
+  {
+    "t_start": 5.19,
+    "t_end": 5.2,
+    "text": "that's tormented mathematicians for 50"
+  },
+  {
+    "t_start": 5.2,
+    "t_end": 8.31,
+    "text": "that's tormented mathematicians for 50 years. Suppose you have a needle. What's"
+  },
+  {
+    "t_start": 8.31,
+    "t_end": 8.32,
+    "text": "years. Suppose you have a needle. What's"
+  },
+  {
+    "t_start": 8.32,
+    "t_end": 10.31,
+    "text": "years. Suppose you have a needle. What's the smallest area you can sweep out by"
+  },
+  {
+    "t_start": 10.31,
+    "t_end": 10.32,
+    "text": "the smallest area you can sweep out by"
+  },
+  {
+    "t_start": 10.32,
+    "t_end": 13.03,
+    "text": "the smallest area you can sweep out by rotating it in all directions? This may"
+  },
+  {
+    "t_start": 13.03,
+    "t_end": 13.04,
+    "text": "rotating it in all directions? This may"
+  },
+  {
+    "t_start": 13.04,
+    "t_end": 15.03,
+    "text": "rotating it in all directions? This may seem like a fun exercise in geometry,"
+  },
+  {
+    "t_start": 15.03,
+    "t_end": 15.04,
+    "text": "seem like a fun exercise in geometry,"
+  },
+  {
+    "t_start": 15.04,
+    "t_end": 16.71,
+    "text": "seem like a fun exercise in geometry, but by posing a similar question,"
+  },
+  {
+    "t_start": 16.71,
+    "t_end": 16.72,
+    "text": "but by posing a similar question,"
+  },
+  {
+    "t_start": 16.72,
+    "t_end": 18.87,
+    "text": "but by posing a similar question, researchers have uncovered a vast trove"
+  },
+  {
+    "t_start": 18.87,
+    "t_end": 18.88,
+    "text": "researchers have uncovered a vast trove"
+  },
+  {
+    "t_start": 18.88,
+    "t_end": 21.189,
+    "text": "researchers have uncovered a vast trove of mathematics. We're talking about the"
+  },
+  {
+    "t_start": 21.189,
+    "t_end": 21.199,
+    "text": "of mathematics. We're talking about the"
+  },
+  {
+    "t_start": 21.199,
+    "t_end": 23.59,
+    "text": "of mathematics. We're talking about the CAA conjecture, the first step in a"
+  },
+  {
+    "t_start": 23.59,
+    "t_end": 23.6,
+    "text": "CAA conjecture, the first step in a"
+  },
+  {
+    "t_start": 23.6,
+    "t_end": 25.349,
+    "text": "CAA conjecture, the first step in a tower of conjectures that form some of"
+  },
+  {
+    "t_start": 25.349,
+    "t_end": 25.359,
+    "text": "tower of conjectures that form some of"
+  },
+  {
+    "t_start": 25.359,
+    "t_end": 27.269,
+    "text": "tower of conjectures that form some of the biggest open problems in harmonic"
+  },
+  {
+    "t_start": 27.269,
+    "t_end": 27.279,
+    "text": "the biggest open problems in harmonic"
+  },
+  {
+    "t_start": 27.279,
+    "t_end": 29.269,
+    "text": "the biggest open problems in harmonic analysis. The study of the mathematics"
+  },
+  {
+    "t_start": 29.269,
+    "t_end": 29.279,
+    "text": "analysis. The study of the mathematics"
+  },
+  {
+    "t_start": 29.279,
+    "t_end": 31.669,
+    "text": "analysis. The study of the mathematics of signals and waves. Everything's"
+  },
+  {
+    "t_start": 31.669,
+    "t_end": 31.679,
+    "text": "of signals and waves. Everything's"
+  },
+  {
+    "t_start": 31.679,
+    "t_end": 33.75,
+    "text": "of signals and waves. Everything's resting on this ca conjecture. So"
+  },
+  {
+    "t_start": 33.75,
+    "t_end": 33.76,
+    "text": "resting on this ca conjecture. So"
+  },
+  {
+    "t_start": 33.76,
+    "t_end": 35.67,
+    "text": "resting on this ca conjecture. So there's a chance if that's wrong, then"
+  },
+  {
+    "t_start": 35.67,
+    "t_end": 35.68,
+    "text": "there's a chance if that's wrong, then"
+  },
+  {
+    "t_start": 35.68,
+    "t_end": 37.83,
+    "text": "there's a chance if that's wrong, then the whole tower of implications kind of"
+  },
+  {
+    "t_start": 37.83,
+    "t_end": 37.84,
+    "text": "the whole tower of implications kind of"
+  },
+  {
+    "t_start": 37.84,
+    "t_end": 40.229,
+    "text": "the whole tower of implications kind of collapses, right? Everything fails."
+  },
+  {
+    "t_start": 40.229,
+    "t_end": 40.239,
+    "text": "collapses, right? Everything fails."
+  },
+  {
+    "t_start": 40.239,
+    "t_end": 42.47,
+    "text": "collapses, right? Everything fails. >> For decades, higher dimensional cases of"
+  },
+  {
+    "t_start": 42.47,
+    "t_end": 42.48,
+    "text": ">> For decades, higher dimensional cases of"
+  },
+  {
+    "t_start": 42.48,
+    "t_end": 44.389,
+    "text": ">> For decades, higher dimensional cases of the CA conjecture have eluded the"
+  },
+  {
+    "t_start": 44.389,
+    "t_end": 44.399,
+    "text": "the CA conjecture have eluded the"
+  },
+  {
+    "t_start": 44.399,
+    "t_end": 46.79,
+    "text": "the CA conjecture have eluded the world's greatest mathematical minds. But"
+  },
+  {
+    "t_start": 46.79,
+    "t_end": 46.8,
+    "text": "world's greatest mathematical minds. But"
+  },
+  {
+    "t_start": 46.8,
+    "t_end": 49.35,
+    "text": "world's greatest mathematical minds. But in early 2025, two mathematicians"
+  },
+  {
+    "t_start": 49.35,
+    "t_end": 49.36,
+    "text": "in early 2025, two mathematicians"
+  },
+  {
+    "t_start": 49.36,
+    "t_end": 51.83,
+    "text": "in early 2025, two mathematicians published a once- ina century proof"
+  },
+  {
+    "t_start": 51.83,
+    "t_end": 51.84,
+    "text": "published a once- ina century proof"
+  },
+  {
+    "t_start": 51.84,
+    "t_end": 53.91,
+    "text": "published a once- ina century proof >> in harmonic analysis. This is probably"
+  },
+  {
+    "t_start": 53.91,
+    "t_end": 53.92,
+    "text": ">> in harmonic analysis. This is probably"
+  },
+  {
+    "t_start": 53.92,
+    "t_end": 56.549,
+    "text": ">> in harmonic analysis. This is probably the biggest development in at least 20"
+  },
+  {
+    "t_start": 56.549,
+    "t_end": 56.559,
+    "text": "the biggest development in at least 20"
+  },
+  {
+    "t_start": 56.559,
+    "t_end": 58.79,
+    "text": "the biggest development in at least 20 years. You really try hard to to not let"
+  },
+  {
+    "t_start": 58.79,
+    "t_end": 58.8,
+    "text": "years. You really try hard to to not let"
+  },
+  {
+    "t_start": 58.8,
+    "t_end": 60.229,
+    "text": "years. You really try hard to to not let yourself get carried away by the"
+  },
+  {
+    "t_start": 60.229,
+    "t_end": 60.239,
+    "text": "yourself get carried away by the"
+  },
+  {
+    "t_start": 60.239,
+    "t_end": 61.189,
+    "text": "yourself get carried away by the excitement."
+  },
+  {
+    "t_start": 61.189,
+    "t_end": 61.199,
+    "text": "excitement."
+  },
+  {
+    "t_start": 61.199,
+    "t_end": 63.11,
+    "text": "excitement. >> The result has profound connections to"
+  },
+  {
+    "t_start": 63.11,
+    "t_end": 63.12,
+    "text": ">> The result has profound connections to"
+  },
+  {
+    "t_start": 63.12,
+    "t_end": 65.109,
+    "text": ">> The result has profound connections to open questions about the behavior of the"
+  },
+  {
+    "t_start": 65.109,
+    "t_end": 65.119,
+    "text": "open questions about the behavior of the"
+  },
+  {
+    "t_start": 65.119,
+    "t_end": 67.59,
+    "text": "open questions about the behavior of the Fier transform, differential equations,"
+  },
+  {
+    "t_start": 67.59,
+    "t_end": 67.6,
+    "text": "Fier transform, differential equations,"
+  },
+  {
+    "t_start": 67.6,
+    "t_end": 70.39,
+    "text": "Fier transform, differential equations, and much more. But what is the CA"
+  },
+  {
+    "t_start": 70.39,
+    "t_end": 70.4,
+    "text": "and much more. But what is the CA"
+  },
+  {
+    "t_start": 70.4,
+    "t_end": 72.63,
+    "text": "and much more. But what is the CA conjecture? How did a problem about"
+  },
+  {
+    "t_start": 72.63,
+    "t_end": 72.64,
+    "text": "conjecture? How did a problem about"
+  },
+  {
+    "t_start": 72.64,
+    "t_end": 74.71,
+    "text": "conjecture? How did a problem about spinning a needle become a cornerstone"
+  },
+  {
+    "t_start": 74.71,
+    "t_end": 74.72,
+    "text": "spinning a needle become a cornerstone"
+  },
+  {
+    "t_start": 74.72,
+    "t_end": 77.51,
+    "text": "spinning a needle become a cornerstone of modern analysis and geometry? And"
+  },
+  {
+    "t_start": 77.51,
+    "t_end": 77.52,
+    "text": "of modern analysis and geometry? And"
+  },
+  {
+    "t_start": 77.52,
+    "t_end": 79.109,
+    "text": "of modern analysis and geometry? And what are some of the ideas behind the"
+  },
+  {
+    "t_start": 79.109,
+    "t_end": 79.119,
+    "text": "what are some of the ideas behind the"
+  },
+  {
+    "t_start": 79.119,
+    "t_end": 82.789,
+    "text": "what are some of the ideas behind the new groundbreaking proof?"
+  },
+  {
+    "t_start": 82.789,
+    "t_end": 82.799,
+    "text": "new groundbreaking proof?"
+  },
+  {
+    "t_start": 82.799,
+    "t_end": 86.07,
+    "text": "new groundbreaking proof? In 1917, Japanese mathematician Suichi"
+  },
+  {
+    "t_start": 86.07,
+    "t_end": 86.08,
+    "text": "In 1917, Japanese mathematician Suichi"
+  },
+  {
+    "t_start": 86.08,
+    "t_end": 87.99,
+    "text": "In 1917, Japanese mathematician Suichi Kaya was pondering the geometric"
+  },
+  {
+    "t_start": 87.99,
+    "t_end": 88.0,
+    "text": "Kaya was pondering the geometric"
+  },
+  {
+    "t_start": 88.0,
+    "t_end": 90.469,
+    "text": "Kaya was pondering the geometric properties of space."
+  },
+  {
+    "t_start": 90.469,
+    "t_end": 90.479,
+    "text": "properties of space."
+  },
+  {
+    "t_start": 90.479,
+    "t_end": 92.469,
+    "text": "properties of space. He considered an infinitely thin needle"
+  },
+  {
+    "t_start": 92.469,
+    "t_end": 92.479,
+    "text": "He considered an infinitely thin needle"
+  },
+  {
+    "t_start": 92.479,
+    "t_end": 95.03,
+    "text": "He considered an infinitely thin needle on a desk. Spin it around and you get a"
+  },
+  {
+    "t_start": 95.03,
+    "t_end": 95.04,
+    "text": "on a desk. Spin it around and you get a"
+  },
+  {
+    "t_start": 95.04,
+    "t_end": 96.63,
+    "text": "on a desk. Spin it around and you get a circle."
+  },
+  {
+    "t_start": 96.63,
+    "t_end": 96.64,
+    "text": "circle."
+  },
+  {
+    "t_start": 96.64,
+    "t_end": 98.789,
+    "text": "circle. If you rotate it like this, you get a"
+  },
+  {
+    "t_start": 98.789,
+    "t_end": 98.799,
+    "text": "If you rotate it like this, you get a"
+  },
+  {
+    "t_start": 98.799,
+    "t_end": 101.19,
+    "text": "If you rotate it like this, you get a different shape, a deltoid with an area"
+  },
+  {
+    "t_start": 101.19,
+    "t_end": 101.2,
+    "text": "different shape, a deltoid with an area"
+  },
+  {
+    "t_start": 101.2,
+    "t_end": 104.069,
+    "text": "different shape, a deltoid with an area half that of the circles."
+  },
+  {
+    "t_start": 104.069,
+    "t_end": 104.079,
+    "text": "half that of the circles."
+  },
+  {
+    "t_start": 104.079,
+    "t_end": 105.83,
+    "text": "half that of the circles. These shapes would come to be known as"
+  },
+  {
+    "t_start": 105.83,
+    "t_end": 105.84,
+    "text": "These shapes would come to be known as"
+  },
+  {
+    "t_start": 105.84,
+    "t_end": 109.03,
+    "text": "These shapes would come to be known as CA sets. So the CA problem is"
+  },
+  {
+    "t_start": 109.03,
+    "t_end": 109.04,
+    "text": "CA sets. So the CA problem is"
+  },
+  {
+    "t_start": 109.04,
+    "t_end": 111.59,
+    "text": "CA sets. So the CA problem is understanding how small these sets can"
+  },
+  {
+    "t_start": 111.59,
+    "t_end": 111.6,
+    "text": "understanding how small these sets can"
+  },
+  {
+    "t_start": 111.6,
+    "t_end": 114.389,
+    "text": "understanding how small these sets can be because they contain lines in every"
+  },
+  {
+    "t_start": 114.389,
+    "t_end": 114.399,
+    "text": "be because they contain lines in every"
+  },
+  {
+    "t_start": 114.399,
+    "t_end": 116.55,
+    "text": "be because they contain lines in every possible direction. We expect that they"
+  },
+  {
+    "t_start": 116.55,
+    "t_end": 116.56,
+    "text": "possible direction. We expect that they"
+  },
+  {
+    "t_start": 116.56,
+    "t_end": 118.31,
+    "text": "possible direction. We expect that they can't be too small. Russian"
+  },
+  {
+    "t_start": 118.31,
+    "t_end": 118.32,
+    "text": "can't be too small. Russian"
+  },
+  {
+    "t_start": 118.32,
+    "t_end": 120.95,
+    "text": "can't be too small. Russian mathematician Abraham Besovich became"
+  },
+  {
+    "t_start": 120.95,
+    "t_end": 120.96,
+    "text": "mathematician Abraham Besovich became"
+  },
+  {
+    "t_start": 120.96,
+    "t_end": 123.429,
+    "text": "mathematician Abraham Besovich became captivated by the CAA problem. Just 2"
+  },
+  {
+    "t_start": 123.429,
+    "t_end": 123.439,
+    "text": "captivated by the CAA problem. Just 2"
+  },
+  {
+    "t_start": 123.439,
+    "t_end": 125.19,
+    "text": "captivated by the CAA problem. Just 2 years later, he found a surprising"
+  },
+  {
+    "t_start": 125.19,
+    "t_end": 125.2,
+    "text": "years later, he found a surprising"
+  },
+  {
+    "t_start": 125.2,
+    "t_end": 127.35,
+    "text": "years later, he found a surprising answer. If you take a complicated set of"
+  },
+  {
+    "t_start": 127.35,
+    "t_end": 127.36,
+    "text": "answer. If you take a complicated set of"
+  },
+  {
+    "t_start": 127.36,
+    "t_end": 130.15,
+    "text": "answer. If you take a complicated set of U-turns, you can cover no space at all."
+  },
+  {
+    "t_start": 130.15,
+    "t_end": 130.16,
+    "text": "U-turns, you can cover no space at all."
+  },
+  {
+    "t_start": 130.16,
+    "t_end": 131.91,
+    "text": "U-turns, you can cover no space at all. >> He showed that in fact you can construct"
+  },
+  {
+    "t_start": 131.91,
+    "t_end": 131.92,
+    "text": ">> He showed that in fact you can construct"
+  },
+  {
+    "t_start": 131.92,
+    "t_end": 134.15,
+    "text": ">> He showed that in fact you can construct cure sets that have arbitrarily small"
+  },
+  {
+    "t_start": 134.15,
+    "t_end": 134.16,
+    "text": "cure sets that have arbitrarily small"
+  },
+  {
+    "t_start": 134.16,
+    "t_end": 136.71,
+    "text": "cure sets that have arbitrarily small area, even zero area. This is quite"
+  },
+  {
+    "t_start": 136.71,
+    "t_end": 136.72,
+    "text": "area, even zero area. This is quite"
+  },
+  {
+    "t_start": 136.72,
+    "t_end": 138.229,
+    "text": "area, even zero area. This is quite counterintuitive."
+  },
+  {
+    "t_start": 138.229,
+    "t_end": 138.239,
+    "text": "counterintuitive."
+  },
+  {
+    "t_start": 138.239,
+    "t_end": 140.15,
+    "text": "counterintuitive. This is one of the sets that Bezakovich"
+  },
+  {
+    "t_start": 140.15,
+    "t_end": 140.16,
+    "text": "This is one of the sets that Bezakovich"
+  },
+  {
+    "t_start": 140.16,
+    "t_end": 142.15,
+    "text": "This is one of the sets that Bezakovich created. How could the shape have a"
+  },
+  {
+    "t_start": 142.15,
+    "t_end": 142.16,
+    "text": "created. How could the shape have a"
+  },
+  {
+    "t_start": 142.16,
+    "t_end": 144.949,
+    "text": "created. How could the shape have a total area of zero? It seems that"
+  },
+  {
+    "t_start": 144.949,
+    "t_end": 144.959,
+    "text": "total area of zero? It seems that"
+  },
+  {
+    "t_start": 144.959,
+    "t_end": 147.67,
+    "text": "total area of zero? It seems that something about CATs are still large,"
+  },
+  {
+    "t_start": 147.67,
+    "t_end": 147.68,
+    "text": "something about CATs are still large,"
+  },
+  {
+    "t_start": 147.68,
+    "t_end": 150.55,
+    "text": "something about CATs are still large, just not in the usual sense of area. We"
+  },
+  {
+    "t_start": 150.55,
+    "t_end": 150.56,
+    "text": "just not in the usual sense of area. We"
+  },
+  {
+    "t_start": 150.56,
+    "t_end": 152.309,
+    "text": "just not in the usual sense of area. We need a different way to describe how the"
+  },
+  {
+    "t_start": 152.309,
+    "t_end": 152.319,
+    "text": "need a different way to describe how the"
+  },
+  {
+    "t_start": 152.319,
+    "t_end": 154.71,
+    "text": "need a different way to describe how the shape fills space. We need the notion of"
+  },
+  {
+    "t_start": 154.71,
+    "t_end": 154.72,
+    "text": "shape fills space. We need the notion of"
+  },
+  {
+    "t_start": 154.72,
+    "t_end": 157.99,
+    "text": "shape fills space. We need the notion of dimensionality."
+  },
+  {
+    "t_start": 160.229,
+    "t_end": 160.239,
+    "text": "Dimensions describe how many independent"
+  },
+  {
+    "t_start": 160.239,
+    "t_end": 162.07,
+    "text": "Dimensions describe how many independent directions or degrees of freedom an"
+  },
+  {
+    "t_start": 162.07,
+    "t_end": 162.08,
+    "text": "directions or degrees of freedom an"
+  },
+  {
+    "t_start": 162.08,
+    "t_end": 164.79,
+    "text": "directions or degrees of freedom an object has in space. A point has zero"
+  },
+  {
+    "t_start": 164.79,
+    "t_end": 164.8,
+    "text": "object has in space. A point has zero"
+  },
+  {
+    "t_start": 164.8,
+    "t_end": 167.99,
+    "text": "object has in space. A point has zero dimensions. A line has one. A plane has"
+  },
+  {
+    "t_start": 167.99,
+    "t_end": 168.0,
+    "text": "dimensions. A line has one. A plane has"
+  },
+  {
+    "t_start": 168.0,
+    "t_end": 171.67,
+    "text": "dimensions. A line has one. A plane has two. A cube has three. But it's also"
+  },
+  {
+    "t_start": 171.67,
+    "t_end": 171.68,
+    "text": "two. A cube has three. But it's also"
+  },
+  {
+    "t_start": 171.68,
+    "t_end": 173.35,
+    "text": "two. A cube has three. But it's also possible for shapes to have fractional"
+  },
+  {
+    "t_start": 173.35,
+    "t_end": 173.36,
+    "text": "possible for shapes to have fractional"
+  },
+  {
+    "t_start": 173.36,
+    "t_end": 175.67,
+    "text": "possible for shapes to have fractional dimensions. Some fractals, for example,"
+  },
+  {
+    "t_start": 175.67,
+    "t_end": 175.68,
+    "text": "dimensions. Some fractals, for example,"
+  },
+  {
+    "t_start": 175.68,
+    "t_end": 177.589,
+    "text": "dimensions. Some fractals, for example, have a dimension that's between 1 and"
+  },
+  {
+    "t_start": 177.589,
+    "t_end": 177.599,
+    "text": "have a dimension that's between 1 and"
+  },
+  {
+    "t_start": 177.599,
+    "t_end": 179.43,
+    "text": "have a dimension that's between 1 and two."
+  },
+  {
+    "t_start": 179.43,
+    "t_end": 179.44,
+    "text": "two."
+  },
+  {
+    "t_start": 179.44,
+    "t_end": 181.67,
+    "text": "two. To study fractals, mathematician Herman"
+  },
+  {
+    "t_start": 181.67,
+    "t_end": 181.68,
+    "text": "To study fractals, mathematician Herman"
+  },
+  {
+    "t_start": 181.68,
+    "t_end": 183.83,
+    "text": "To study fractals, mathematician Herman Mancowski defined a new notion of"
+  },
+  {
+    "t_start": 183.83,
+    "t_end": 183.84,
+    "text": "Mancowski defined a new notion of"
+  },
+  {
+    "t_start": 183.84,
+    "t_end": 185.91,
+    "text": "Mancowski defined a new notion of dimension that we now call the Manowski"
+  },
+  {
+    "t_start": 185.91,
+    "t_end": 185.92,
+    "text": "dimension that we now call the Manowski"
+  },
+  {
+    "t_start": 185.92,
+    "t_end": 188.149,
+    "text": "dimension that we now call the Manowski dimension. The Manowski dimension"
+  },
+  {
+    "t_start": 188.149,
+    "t_end": 188.159,
+    "text": "dimension. The Manowski dimension"
+  },
+  {
+    "t_start": 188.159,
+    "t_end": 190.149,
+    "text": "dimension. The Manowski dimension measures how many boxes of a given size"
+  },
+  {
+    "t_start": 190.149,
+    "t_end": 190.159,
+    "text": "measures how many boxes of a given size"
+  },
+  {
+    "t_start": 190.159,
+    "t_end": 192.47,
+    "text": "measures how many boxes of a given size are needed to cover a set. For this"
+  },
+  {
+    "t_start": 192.47,
+    "t_end": 192.48,
+    "text": "are needed to cover a set. For this"
+  },
+  {
+    "t_start": 192.48,
+    "t_end": 194.71,
+    "text": "are needed to cover a set. For this reason, it's also known as the box"
+  },
+  {
+    "t_start": 194.71,
+    "t_end": 194.72,
+    "text": "reason, it's also known as the box"
+  },
+  {
+    "t_start": 194.72,
+    "t_end": 196.79,
+    "text": "reason, it's also known as the box counting dimension."
+  },
+  {
+    "t_start": 196.79,
+    "t_end": 196.8,
+    "text": "counting dimension."
+  },
+  {
+    "t_start": 196.8,
+    "t_end": 198.79,
+    "text": "counting dimension. Say you have boxes that are each a tenth"
+  },
+  {
+    "t_start": 198.79,
+    "t_end": 198.8,
+    "text": "Say you have boxes that are each a tenth"
+  },
+  {
+    "t_start": 198.8,
+    "t_end": 201.03,
+    "text": "Say you have boxes that are each a tenth of a unit wide. Now you have a line"
+  },
+  {
+    "t_start": 201.03,
+    "t_end": 201.04,
+    "text": "of a unit wide. Now you have a line"
+  },
+  {
+    "t_start": 201.04,
+    "t_end": 203.19,
+    "text": "of a unit wide. Now you have a line segment of length one. You'll need at"
+  },
+  {
+    "t_start": 203.19,
+    "t_end": 203.2,
+    "text": "segment of length one. You'll need at"
+  },
+  {
+    "t_start": 203.2,
+    "t_end": 206.47,
+    "text": "segment of length one. You'll need at least 10 boxes to cover it."
+  },
+  {
+    "t_start": 206.47,
+    "t_end": 206.48,
+    "text": "least 10 boxes to cover it."
+  },
+  {
+    "t_start": 206.48,
+    "t_end": 208.55,
+    "text": "least 10 boxes to cover it. But if you have a square of area 1,"
+  },
+  {
+    "t_start": 208.55,
+    "t_end": 208.56,
+    "text": "But if you have a square of area 1,"
+  },
+  {
+    "t_start": 208.56,
+    "t_end": 211.35,
+    "text": "But if you have a square of area 1, you'll need 10 squared or 100 boxes to"
+  },
+  {
+    "t_start": 211.35,
+    "t_end": 211.36,
+    "text": "you'll need 10 squared or 100 boxes to"
+  },
+  {
+    "t_start": 211.36,
+    "t_end": 213.91,
+    "text": "you'll need 10 squared or 100 boxes to cover it. The manowski dimension is the"
+  },
+  {
+    "t_start": 213.91,
+    "t_end": 213.92,
+    "text": "cover it. The manowski dimension is the"
+  },
+  {
+    "t_start": 213.92,
+    "t_end": 216.71,
+    "text": "cover it. The manowski dimension is the value of this exponent. So the line"
+  },
+  {
+    "t_start": 216.71,
+    "t_end": 216.72,
+    "text": "value of this exponent. So the line"
+  },
+  {
+    "t_start": 216.72,
+    "t_end": 218.949,
+    "text": "value of this exponent. So the line segment has a Minowski dimension of 1"
+  },
+  {
+    "t_start": 218.949,
+    "t_end": 218.959,
+    "text": "segment has a Minowski dimension of 1"
+  },
+  {
+    "t_start": 218.959,
+    "t_end": 221.91,
+    "text": "segment has a Minowski dimension of 1 because the exponent here is one. The"
+  },
+  {
+    "t_start": 221.91,
+    "t_end": 221.92,
+    "text": "because the exponent here is one. The"
+  },
+  {
+    "t_start": 221.92,
+    "t_end": 225.75,
+    "text": "because the exponent here is one. The square has a Minowski dimension of two."
+  },
+  {
+    "t_start": 225.75,
+    "t_end": 225.76,
+    "text": "square has a Minowski dimension of two."
+  },
+  {
+    "t_start": 225.76,
+    "t_end": 227.27,
+    "text": "square has a Minowski dimension of two. But a fractal curve might have a"
+  },
+  {
+    "t_start": 227.27,
+    "t_end": 227.28,
+    "text": "But a fractal curve might have a"
+  },
+  {
+    "t_start": 227.28,
+    "t_end": 229.589,
+    "text": "But a fractal curve might have a Manowski dimension between 1 and two"
+  },
+  {
+    "t_start": 229.589,
+    "t_end": 229.599,
+    "text": "Manowski dimension between 1 and two"
+  },
+  {
+    "t_start": 229.599,
+    "t_end": 231.35,
+    "text": "Manowski dimension between 1 and two because of the number of boxes needed to"
+  },
+  {
+    "t_start": 231.35,
+    "t_end": 231.36,
+    "text": "because of the number of boxes needed to"
+  },
+  {
+    "t_start": 231.36,
+    "t_end": 232.65,
+    "text": "because of the number of boxes needed to cover it."
+  },
+  {
+    "t_start": 232.65,
+    "t_end": 232.66,
+    "text": "cover it."
+  },
+  {
+    "t_start": 232.66,
+    "t_end": 234.39,
+    "text": "cover it. [Music]"
+  },
+  {
+    "t_start": 234.39,
+    "t_end": 234.4,
+    "text": "[Music]"
+  },
+  {
+    "t_start": 234.4,
+    "t_end": 236.949,
+    "text": "[Music] Later, mathematician Felix Hausdorf"
+  },
+  {
+    "t_start": 236.949,
+    "t_end": 236.959,
+    "text": "Later, mathematician Felix Hausdorf"
+  },
+  {
+    "t_start": 236.959,
+    "t_end": 239.03,
+    "text": "Later, mathematician Felix Hausdorf refined Manowsk's way of measuring the"
+  },
+  {
+    "t_start": 239.03,
+    "t_end": 239.04,
+    "text": "refined Manowsk's way of measuring the"
+  },
+  {
+    "t_start": 239.04,
+    "t_end": 241.429,
+    "text": "refined Manowsk's way of measuring the dimensions of irregular sets. We call"
+  },
+  {
+    "t_start": 241.429,
+    "t_end": 241.439,
+    "text": "dimensions of irregular sets. We call"
+  },
+  {
+    "t_start": 241.439,
+    "t_end": 243.429,
+    "text": "dimensions of irregular sets. We call this different formulation the housedorf"
+  },
+  {
+    "t_start": 243.429,
+    "t_end": 243.439,
+    "text": "this different formulation the housedorf"
+  },
+  {
+    "t_start": 243.439,
+    "t_end": 245.429,
+    "text": "this different formulation the housedorf dimension. Roughly speaking, it's the"
+  },
+  {
+    "t_start": 245.429,
+    "t_end": 245.439,
+    "text": "dimension. Roughly speaking, it's the"
+  },
+  {
+    "t_start": 245.439,
+    "t_end": 247.27,
+    "text": "dimension. Roughly speaking, it's the same idea as box counting. But whereas"
+  },
+  {
+    "t_start": 247.27,
+    "t_end": 247.28,
+    "text": "same idea as box counting. But whereas"
+  },
+  {
+    "t_start": 247.28,
+    "t_end": 248.869,
+    "text": "same idea as box counting. But whereas in box counting all the pixels of the"
+  },
+  {
+    "t_start": 248.869,
+    "t_end": 248.879,
+    "text": "in box counting all the pixels of the"
+  },
+  {
+    "t_start": 248.879,
+    "t_end": 251.19,
+    "text": "in box counting all the pixels of the same size, you allow some regions of"
+  },
+  {
+    "t_start": 251.19,
+    "t_end": 251.2,
+    "text": "same size, you allow some regions of"
+  },
+  {
+    "t_start": 251.2,
+    "t_end": 252.949,
+    "text": "same size, you allow some regions of space to use big boxes and some region"
+  },
+  {
+    "t_start": 252.949,
+    "t_end": 252.959,
+    "text": "space to use big boxes and some region"
+  },
+  {
+    "t_start": 252.959,
+    "t_end": 257.349,
+    "text": "space to use big boxes and some region to use small boxes."
+  },
+  {
+    "t_start": 260.55,
+    "t_end": 260.56,
+    "text": "In the 1970s, mathematician Roy Davies"
+  },
+  {
+    "t_start": 260.56,
+    "t_end": 262.39,
+    "text": "In the 1970s, mathematician Roy Davies began exploring the complicated"
+  },
+  {
+    "t_start": 262.39,
+    "t_end": 262.4,
+    "text": "began exploring the complicated"
+  },
+  {
+    "t_start": 262.4,
+    "t_end": 265.35,
+    "text": "began exploring the complicated irregular geometry of CATS using these"
+  },
+  {
+    "t_start": 265.35,
+    "t_end": 265.36,
+    "text": "irregular geometry of CATS using these"
+  },
+  {
+    "t_start": 265.36,
+    "t_end": 267.83,
+    "text": "irregular geometry of CATS using these new approaches to dimension. He"
+  },
+  {
+    "t_start": 267.83,
+    "t_end": 267.84,
+    "text": "new approaches to dimension. He"
+  },
+  {
+    "t_start": 267.84,
+    "t_end": 269.749,
+    "text": "new approaches to dimension. He wondered, what's the smallest possible"
+  },
+  {
+    "t_start": 269.749,
+    "t_end": 269.759,
+    "text": "wondered, what's the smallest possible"
+  },
+  {
+    "t_start": 269.759,
+    "t_end": 273.27,
+    "text": "wondered, what's the smallest possible dimension for a CA set? To see how we"
+  },
+  {
+    "t_start": 273.27,
+    "t_end": 273.28,
+    "text": "dimension for a CA set? To see how we"
+  },
+  {
+    "t_start": 273.28,
+    "t_end": 275.03,
+    "text": "dimension for a CA set? To see how we tackled the question, let's take each"
+  },
+  {
+    "t_start": 275.03,
+    "t_end": 275.04,
+    "text": "tackled the question, let's take each"
+  },
+  {
+    "t_start": 275.04,
+    "t_end": 276.95,
+    "text": "tackled the question, let's take each line segment and fatten it up a little"
+  },
+  {
+    "t_start": 276.95,
+    "t_end": 276.96,
+    "text": "line segment and fatten it up a little"
+  },
+  {
+    "t_start": 276.96,
+    "t_end": 279.83,
+    "text": "line segment and fatten it up a little bit. Your set now consists of extremely"
+  },
+  {
+    "t_start": 279.83,
+    "t_end": 279.84,
+    "text": "bit. Your set now consists of extremely"
+  },
+  {
+    "t_start": 279.84,
+    "t_end": 282.629,
+    "text": "bit. Your set now consists of extremely thin rectangles. Davies carefully"
+  },
+  {
+    "t_start": 282.629,
+    "t_end": 282.639,
+    "text": "thin rectangles. Davies carefully"
+  },
+  {
+    "t_start": 282.639,
+    "t_end": 284.79,
+    "text": "thin rectangles. Davies carefully calculated the area of the intersection"
+  },
+  {
+    "t_start": 284.79,
+    "t_end": 284.8,
+    "text": "calculated the area of the intersection"
+  },
+  {
+    "t_start": 284.8,
+    "t_end": 287.03,
+    "text": "calculated the area of the intersection between pairs of rectangles depending on"
+  },
+  {
+    "t_start": 287.03,
+    "t_end": 287.04,
+    "text": "between pairs of rectangles depending on"
+  },
+  {
+    "t_start": 287.04,
+    "t_end": 289.35,
+    "text": "between pairs of rectangles depending on their angle. He then summed this"
+  },
+  {
+    "t_start": 289.35,
+    "t_end": 289.36,
+    "text": "their angle. He then summed this"
+  },
+  {
+    "t_start": 289.36,
+    "t_end": 292.31,
+    "text": "their angle. He then summed this quantity over all pairs of rectangles."
+  },
+  {
+    "t_start": 292.31,
+    "t_end": 292.32,
+    "text": "quantity over all pairs of rectangles."
+  },
+  {
+    "t_start": 292.32,
+    "t_end": 294.07,
+    "text": "quantity over all pairs of rectangles. He concluded that most pairs of"
+  },
+  {
+    "t_start": 294.07,
+    "t_end": 294.08,
+    "text": "He concluded that most pairs of"
+  },
+  {
+    "t_start": 294.08,
+    "t_end": 296.87,
+    "text": "He concluded that most pairs of rectangles have small intersections."
+  },
+  {
+    "t_start": 296.87,
+    "t_end": 296.88,
+    "text": "rectangles have small intersections."
+  },
+  {
+    "t_start": 296.88,
+    "t_end": 298.71,
+    "text": "rectangles have small intersections. This forces the union of all of the"
+  },
+  {
+    "t_start": 298.71,
+    "t_end": 298.72,
+    "text": "This forces the union of all of the"
+  },
+  {
+    "t_start": 298.72,
+    "t_end": 300.79,
+    "text": "This forces the union of all of the rectangles to be large and spread out in"
+  },
+  {
+    "t_start": 300.79,
+    "t_end": 300.8,
+    "text": "rectangles to be large and spread out in"
+  },
+  {
+    "t_start": 300.8,
+    "t_end": 303.27,
+    "text": "rectangles to be large and spread out in space. In effect, a geometric"
+  },
+  {
+    "t_start": 303.27,
+    "t_end": 303.28,
+    "text": "space. In effect, a geometric"
+  },
+  {
+    "t_start": 303.28,
+    "t_end": 305.59,
+    "text": "space. In effect, a geometric requirement that limits how much you can"
+  },
+  {
+    "t_start": 305.59,
+    "t_end": 305.6,
+    "text": "requirement that limits how much you can"
+  },
+  {
+    "t_start": 305.6,
+    "t_end": 308.87,
+    "text": "requirement that limits how much you can compress a CAT. Davies proved that every"
+  },
+  {
+    "t_start": 308.87,
+    "t_end": 308.88,
+    "text": "compress a CAT. Davies proved that every"
+  },
+  {
+    "t_start": 308.88,
+    "t_end": 311.35,
+    "text": "compress a CAT. Davies proved that every two-dimensional CA set has a housedorf"
+  },
+  {
+    "t_start": 311.35,
+    "t_end": 311.36,
+    "text": "two-dimensional CA set has a housedorf"
+  },
+  {
+    "t_start": 311.36,
+    "t_end": 313.11,
+    "text": "two-dimensional CA set has a housedorf and manowski dimension of two."
+  },
+  {
+    "t_start": 313.11,
+    "t_end": 313.12,
+    "text": "and manowski dimension of two."
+  },
+  {
+    "t_start": 313.12,
+    "t_end": 315.43,
+    "text": "and manowski dimension of two. >> These CA sets can have small area but"
+  },
+  {
+    "t_start": 315.43,
+    "t_end": 315.44,
+    "text": ">> These CA sets can have small area but"
+  },
+  {
+    "t_start": 315.44,
+    "t_end": 316.79,
+    "text": ">> These CA sets can have small area but they have to be full-dimensional"
+  },
+  {
+    "t_start": 316.79,
+    "t_end": 316.8,
+    "text": "they have to be full-dimensional"
+  },
+  {
+    "t_start": 316.8,
+    "t_end": 318.55,
+    "text": "they have to be full-dimensional objects. So they have to be"
+  },
+  {
+    "t_start": 318.55,
+    "t_end": 318.56,
+    "text": "objects. So they have to be"
+  },
+  {
+    "t_start": 318.56,
+    "t_end": 321.35,
+    "text": "objects. So they have to be two-dimensional. By reframing the CAA"
+  },
+  {
+    "t_start": 321.35,
+    "t_end": 321.36,
+    "text": "two-dimensional. By reframing the CAA"
+  },
+  {
+    "t_start": 321.36,
+    "t_end": 323.43,
+    "text": "two-dimensional. By reframing the CAA problem in terms of dimension, Davies"
+  },
+  {
+    "t_start": 323.43,
+    "t_end": 323.44,
+    "text": "problem in terms of dimension, Davies"
+  },
+  {
+    "t_start": 323.44,
+    "t_end": 325.27,
+    "text": "problem in terms of dimension, Davies laid the foundation for the CAA"
+  },
+  {
+    "t_start": 325.27,
+    "t_end": 325.28,
+    "text": "laid the foundation for the CAA"
+  },
+  {
+    "t_start": 325.28,
+    "t_end": 327.51,
+    "text": "laid the foundation for the CAA conjecture which generalizes his claim"
+  },
+  {
+    "t_start": 327.51,
+    "t_end": 327.52,
+    "text": "conjecture which generalizes his claim"
+  },
+  {
+    "t_start": 327.52,
+    "t_end": 330.07,
+    "text": "conjecture which generalizes his claim to all dimensions. It says that every"
+  },
+  {
+    "t_start": 330.07,
+    "t_end": 330.08,
+    "text": "to all dimensions. It says that every"
+  },
+  {
+    "t_start": 330.08,
+    "t_end": 333.029,
+    "text": "to all dimensions. It says that every CAT in n spatial dimensions must also"
+  },
+  {
+    "t_start": 333.029,
+    "t_end": 333.039,
+    "text": "CAT in n spatial dimensions must also"
+  },
+  {
+    "t_start": 333.039,
+    "t_end": 336.469,
+    "text": "CAT in n spatial dimensions must also have Howdorf and Manowski dimension N."
+  },
+  {
+    "t_start": 336.469,
+    "t_end": 336.479,
+    "text": "have Howdorf and Manowski dimension N."
+  },
+  {
+    "t_start": 336.479,
+    "t_end": 338.95,
+    "text": "have Howdorf and Manowski dimension N. In other words, a CATE must always have"
+  },
+  {
+    "t_start": 338.95,
+    "t_end": 338.96,
+    "text": "In other words, a CATE must always have"
+  },
+  {
+    "t_start": 338.96,
+    "t_end": 340.469,
+    "text": "In other words, a CATE must always have the same dimension as the space it"
+  },
+  {
+    "t_start": 340.469,
+    "t_end": 340.479,
+    "text": "the same dimension as the space it"
+  },
+  {
+    "t_start": 340.479,
+    "t_end": 344.79,
+    "text": "the same dimension as the space it inhabits, even if its area is zero."
+  },
+  {
+    "t_start": 344.79,
+    "t_end": 344.8,
+    "text": "inhabits, even if its area is zero."
+  },
+  {
+    "t_start": 344.8,
+    "t_end": 347.189,
+    "text": "inhabits, even if its area is zero. Intuitively, this makes sense. To have"
+  },
+  {
+    "t_start": 347.189,
+    "t_end": 347.199,
+    "text": "Intuitively, this makes sense. To have"
+  },
+  {
+    "t_start": 347.199,
+    "t_end": 349.11,
+    "text": "Intuitively, this makes sense. To have lines going everywhere, you need a lot"
+  },
+  {
+    "t_start": 349.11,
+    "t_end": 349.12,
+    "text": "lines going everywhere, you need a lot"
+  },
+  {
+    "t_start": 349.12,
+    "t_end": 351.83,
+    "text": "lines going everywhere, you need a lot of something. But while this statement"
+  },
+  {
+    "t_start": 351.83,
+    "t_end": 351.84,
+    "text": "of something. But while this statement"
+  },
+  {
+    "t_start": 351.84,
+    "t_end": 354.15,
+    "text": "of something. But while this statement may seem simple, mathematicians have"
+  },
+  {
+    "t_start": 354.15,
+    "t_end": 354.16,
+    "text": "may seem simple, mathematicians have"
+  },
+  {
+    "t_start": 354.16,
+    "t_end": 355.99,
+    "text": "may seem simple, mathematicians have struggled to prove it. Once you"
+  },
+  {
+    "t_start": 355.99,
+    "t_end": 356.0,
+    "text": "struggled to prove it. Once you"
+  },
+  {
+    "t_start": 356.0,
+    "t_end": 357.67,
+    "text": "struggled to prove it. Once you formulate the problem in a particular"
+  },
+  {
+    "t_start": 357.67,
+    "t_end": 357.68,
+    "text": "formulate the problem in a particular"
+  },
+  {
+    "t_start": 357.68,
+    "t_end": 358.79,
+    "text": "formulate the problem in a particular way, it really becomes about"
+  },
+  {
+    "t_start": 358.79,
+    "t_end": 358.8,
+    "text": "way, it really becomes about"
+  },
+  {
+    "t_start": 358.8,
+    "t_end": 360.39,
+    "text": "way, it really becomes about understanding how lines can intersect"
+  },
+  {
+    "t_start": 360.39,
+    "t_end": 360.4,
+    "text": "understanding how lines can intersect"
+  },
+  {
+    "t_start": 360.4,
+    "t_end": 362.23,
+    "text": "understanding how lines can intersect and cross over one another. That seems"
+  },
+  {
+    "t_start": 362.23,
+    "t_end": 362.24,
+    "text": "and cross over one another. That seems"
+  },
+  {
+    "t_start": 362.24,
+    "t_end": 363.99,
+    "text": "and cross over one another. That seems like a very elementary thing, but"
+  },
+  {
+    "t_start": 363.99,
+    "t_end": 364.0,
+    "text": "like a very elementary thing, but"
+  },
+  {
+    "t_start": 364.0,
+    "t_end": 365.27,
+    "text": "like a very elementary thing, but nevertheless, it's taken an immense"
+  },
+  {
+    "t_start": 365.27,
+    "t_end": 365.28,
+    "text": "nevertheless, it's taken an immense"
+  },
+  {
+    "t_start": 365.28,
+    "t_end": 366.95,
+    "text": "nevertheless, it's taken an immense amount of work to to understand this"
+  },
+  {
+    "t_start": 366.95,
+    "t_end": 366.96,
+    "text": "amount of work to to understand this"
+  },
+  {
+    "t_start": 366.96,
+    "t_end": 368.39,
+    "text": "amount of work to to understand this problem."
+  },
+  {
+    "t_start": 368.39,
+    "t_end": 368.4,
+    "text": "problem."
+  },
+  {
+    "t_start": 368.4,
+    "t_end": 370.15,
+    "text": "problem. >> That same year, Davies published his"
+  },
+  {
+    "t_start": 370.15,
+    "t_end": 370.16,
+    "text": ">> That same year, Davies published his"
+  },
+  {
+    "t_start": 370.16,
+    "t_end": 371.99,
+    "text": ">> That same year, Davies published his paper, Charles Fefferman made a"
+  },
+  {
+    "t_start": 371.99,
+    "t_end": 372.0,
+    "text": "paper, Charles Fefferman made a"
+  },
+  {
+    "t_start": 372.0,
+    "t_end": 373.749,
+    "text": "paper, Charles Fefferman made a startling discovery that would transform"
+  },
+  {
+    "t_start": 373.749,
+    "t_end": 373.759,
+    "text": "startling discovery that would transform"
+  },
+  {
+    "t_start": 373.759,
+    "t_end": 376.469,
+    "text": "startling discovery that would transform the CAA conjecture from a curiosity to a"
+  },
+  {
+    "t_start": 376.469,
+    "t_end": 376.479,
+    "text": "the CAA conjecture from a curiosity to a"
+  },
+  {
+    "t_start": 376.479,
+    "t_end": 378.79,
+    "text": "the CAA conjecture from a curiosity to a mathematical juggernaut."
+  },
+  {
+    "t_start": 378.79,
+    "t_end": 378.8,
+    "text": "mathematical juggernaut."
+  },
+  {
+    "t_start": 378.8,
+    "t_end": 380.55,
+    "text": "mathematical juggernaut. Fefferman was working on the Fier"
+  },
+  {
+    "t_start": 380.55,
+    "t_end": 380.56,
+    "text": "Fefferman was working on the Fier"
+  },
+  {
+    "t_start": 380.56,
+    "t_end": 382.55,
+    "text": "Fefferman was working on the Fier transform, a powerful tool from the"
+  },
+  {
+    "t_start": 382.55,
+    "t_end": 382.56,
+    "text": "transform, a powerful tool from the"
+  },
+  {
+    "t_start": 382.56,
+    "t_end": 384.79,
+    "text": "transform, a powerful tool from the field of harmonic analysis that allows"
+  },
+  {
+    "t_start": 384.79,
+    "t_end": 384.8,
+    "text": "field of harmonic analysis that allows"
+  },
+  {
+    "t_start": 384.8,
+    "t_end": 386.629,
+    "text": "field of harmonic analysis that allows mathematicians to study complicated"
+  },
+  {
+    "t_start": 386.629,
+    "t_end": 386.639,
+    "text": "mathematicians to study complicated"
+  },
+  {
+    "t_start": 386.639,
+    "t_end": 388.71,
+    "text": "mathematicians to study complicated signals or functions by writing them as"
+  },
+  {
+    "t_start": 388.71,
+    "t_end": 388.72,
+    "text": "signals or functions by writing them as"
+  },
+  {
+    "t_start": 388.72,
+    "t_end": 390.55,
+    "text": "signals or functions by writing them as sums of sine waves with different"
+  },
+  {
+    "t_start": 390.55,
+    "t_end": 390.56,
+    "text": "sums of sine waves with different"
+  },
+  {
+    "t_start": 390.56,
+    "t_end": 393.67,
+    "text": "sums of sine waves with different frequencies. The Furer transforms a very"
+  },
+  {
+    "t_start": 393.67,
+    "t_end": 393.68,
+    "text": "frequencies. The Furer transforms a very"
+  },
+  {
+    "t_start": 393.68,
+    "t_end": 396.79,
+    "text": "frequencies. The Furer transforms a very fundamental concept in mathematics. It's"
+  },
+  {
+    "t_start": 396.79,
+    "t_end": 396.8,
+    "text": "fundamental concept in mathematics. It's"
+  },
+  {
+    "t_start": 396.8,
+    "t_end": 398.469,
+    "text": "fundamental concept in mathematics. It's basically ubiquitous. There are"
+  },
+  {
+    "t_start": 398.469,
+    "t_end": 398.479,
+    "text": "basically ubiquitous. There are"
+  },
+  {
+    "t_start": 398.479,
+    "t_end": 399.749,
+    "text": "basically ubiquitous. There are surprising connections where you"
+  },
+  {
+    "t_start": 399.749,
+    "t_end": 399.759,
+    "text": "surprising connections where you"
+  },
+  {
+    "t_start": 399.759,
+    "t_end": 401.67,
+    "text": "surprising connections where you wouldn't initially imagine the Fer"
+  },
+  {
+    "t_start": 401.67,
+    "t_end": 401.68,
+    "text": "wouldn't initially imagine the Fer"
+  },
+  {
+    "t_start": 401.68,
+    "t_end": 402.95,
+    "text": "wouldn't initially imagine the Fer transform to play a role, but it"
+  },
+  {
+    "t_start": 402.95,
+    "t_end": 402.96,
+    "text": "transform to play a role, but it"
+  },
+  {
+    "t_start": 402.96,
+    "t_end": 404.79,
+    "text": "transform to play a role, but it nevertheless does."
+  },
+  {
+    "t_start": 404.79,
+    "t_end": 404.8,
+    "text": "nevertheless does."
+  },
+  {
+    "t_start": 404.8,
+    "t_end": 407.029,
+    "text": "nevertheless does. >> Here's what Feerman wanted to know. If"
+  },
+  {
+    "t_start": 407.029,
+    "t_end": 407.039,
+    "text": ">> Here's what Feerman wanted to know. If"
+  },
+  {
+    "t_start": 407.039,
+    "t_end": 408.87,
+    "text": ">> Here's what Feerman wanted to know. If you're given just some of your functions"
+  },
+  {
+    "t_start": 408.87,
+    "t_end": 408.88,
+    "text": "you're given just some of your functions"
+  },
+  {
+    "t_start": 408.88,
+    "t_end": 411.189,
+    "text": "you're given just some of your functions frequencies, can you reverse the Fier"
+  },
+  {
+    "t_start": 411.189,
+    "t_end": 411.199,
+    "text": "frequencies, can you reverse the Fier"
+  },
+  {
+    "t_start": 411.199,
+    "t_end": 413.189,
+    "text": "frequencies, can you reverse the Fier transform to rebuild your original"
+  },
+  {
+    "t_start": 413.189,
+    "t_end": 413.199,
+    "text": "transform to rebuild your original"
+  },
+  {
+    "t_start": 413.199,
+    "t_end": 416.07,
+    "text": "transform to rebuild your original function? Mathematicians already knew"
+  },
+  {
+    "t_start": 416.07,
+    "t_end": 416.08,
+    "text": "function? Mathematicians already knew"
+  },
+  {
+    "t_start": 416.08,
+    "t_end": 418.39,
+    "text": "function? Mathematicians already knew how to do this in dimension one. But"
+  },
+  {
+    "t_start": 418.39,
+    "t_end": 418.4,
+    "text": "how to do this in dimension one. But"
+  },
+  {
+    "t_start": 418.4,
+    "t_end": 420.39,
+    "text": "how to do this in dimension one. But what about higher dimensions?"
+  },
+  {
+    "t_start": 420.39,
+    "t_end": 420.4,
+    "text": "what about higher dimensions?"
+  },
+  {
+    "t_start": 420.4,
+    "t_end": 422.55,
+    "text": "what about higher dimensions? >> So it seems very intuitive and natural"
+  },
+  {
+    "t_start": 422.55,
+    "t_end": 422.56,
+    "text": ">> So it seems very intuitive and natural"
+  },
+  {
+    "t_start": 422.56,
+    "t_end": 425.43,
+    "text": ">> So it seems very intuitive and natural that you could it recover the function,"
+  },
+  {
+    "t_start": 425.43,
+    "t_end": 425.44,
+    "text": "that you could it recover the function,"
+  },
+  {
+    "t_start": 425.44,
+    "t_end": 428.55,
+    "text": "that you could it recover the function, but then Charles Fman disproved it. And"
+  },
+  {
+    "t_start": 428.55,
+    "t_end": 428.56,
+    "text": "but then Charles Fman disproved it. And"
+  },
+  {
+    "t_start": 428.56,
+    "t_end": 430.79,
+    "text": "but then Charles Fman disproved it. And so this was a big surprise."
+  },
+  {
+    "t_start": 430.79,
+    "t_end": 430.8,
+    "text": "so this was a big surprise."
+  },
+  {
+    "t_start": 430.8,
+    "t_end": 432.23,
+    "text": "so this was a big surprise. >> So that was already a surprising result."
+  },
+  {
+    "t_start": 432.23,
+    "t_end": 432.24,
+    "text": ">> So that was already a surprising result."
+  },
+  {
+    "t_start": 432.24,
+    "t_end": 433.67,
+    "text": ">> So that was already a surprising result. But what was also surprising was the way"
+  },
+  {
+    "t_start": 433.67,
+    "t_end": 433.68,
+    "text": "But what was also surprising was the way"
+  },
+  {
+    "t_start": 433.68,
+    "t_end": 436.15,
+    "text": "But what was also surprising was the way he did it. He used the solution to the"
+  },
+  {
+    "t_start": 436.15,
+    "t_end": 436.16,
+    "text": "he did it. He used the solution to the"
+  },
+  {
+    "t_start": 436.16,
+    "t_end": 438.07,
+    "text": "he did it. He used the solution to the CA needle problem."
+  },
+  {
+    "t_start": 438.07,
+    "t_end": 438.08,
+    "text": "CA needle problem."
+  },
+  {
+    "t_start": 438.08,
+    "t_end": 440.07,
+    "text": "CA needle problem. >> In a shock to the mathematical world,"
+  },
+  {
+    "t_start": 440.07,
+    "t_end": 440.08,
+    "text": ">> In a shock to the mathematical world,"
+  },
+  {
+    "t_start": 440.08,
+    "t_end": 441.67,
+    "text": ">> In a shock to the mathematical world, there was suddenly an intimate link"
+  },
+  {
+    "t_start": 441.67,
+    "t_end": 441.68,
+    "text": "there was suddenly an intimate link"
+  },
+  {
+    "t_start": 441.68,
+    "t_end": 444.15,
+    "text": "there was suddenly an intimate link between harmonic analysis and the CAA"
+  },
+  {
+    "t_start": 444.15,
+    "t_end": 444.16,
+    "text": "between harmonic analysis and the CAA"
+  },
+  {
+    "t_start": 444.16,
+    "t_end": 444.95,
+    "text": "between harmonic analysis and the CAA conjecture."
+  },
+  {
+    "t_start": 444.95,
+    "t_end": 444.96,
+    "text": "conjecture."
+  },
+  {
+    "t_start": 444.96,
+    "t_end": 446.79,
+    "text": "conjecture. >> So it was a fundamental new connection."
+  },
+  {
+    "t_start": 446.79,
+    "t_end": 446.8,
+    "text": ">> So it was a fundamental new connection."
+  },
+  {
+    "t_start": 446.8,
+    "t_end": 448.79,
+    "text": ">> So it was a fundamental new connection. It became increasingly clear that the"
+  },
+  {
+    "t_start": 448.79,
+    "t_end": 448.8,
+    "text": "It became increasingly clear that the"
+  },
+  {
+    "t_start": 448.8,
+    "t_end": 450.309,
+    "text": "It became increasingly clear that the path forward to solving these questions"
+  },
+  {
+    "t_start": 450.309,
+    "t_end": 450.319,
+    "text": "path forward to solving these questions"
+  },
+  {
+    "t_start": 450.319,
+    "t_end": 451.99,
+    "text": "path forward to solving these questions in analysis was was to understand"
+  },
+  {
+    "t_start": 451.99,
+    "t_end": 452.0,
+    "text": "in analysis was was to understand"
+  },
+  {
+    "t_start": 452.0,
+    "t_end": 453.589,
+    "text": "in analysis was was to understand geometry."
+  },
+  {
+    "t_start": 453.589,
+    "t_end": 453.599,
+    "text": "geometry."
+  },
+  {
+    "t_start": 453.599,
+    "t_end": 455.43,
+    "text": "geometry. >> Many top mathematicians began to"
+  },
+  {
+    "t_start": 455.43,
+    "t_end": 455.44,
+    "text": ">> Many top mathematicians began to"
+  },
+  {
+    "t_start": 455.44,
+    "t_end": 458.309,
+    "text": ">> Many top mathematicians began to investigate CATES, finding far-reaching"
+  },
+  {
+    "t_start": 458.309,
+    "t_end": 458.319,
+    "text": "investigate CATES, finding far-reaching"
+  },
+  {
+    "t_start": 458.319,
+    "t_end": 460.15,
+    "text": "investigate CATES, finding far-reaching connections to open problems in other"
+  },
+  {
+    "t_start": 460.15,
+    "t_end": 460.16,
+    "text": "connections to open problems in other"
+  },
+  {
+    "t_start": 460.16,
+    "t_end": 462.87,
+    "text": "connections to open problems in other fields. On top of the CAA conjecture,"
+  },
+  {
+    "t_start": 462.87,
+    "t_end": 462.88,
+    "text": "fields. On top of the CAA conjecture,"
+  },
+  {
+    "t_start": 462.88,
+    "t_end": 464.87,
+    "text": "fields. On top of the CAA conjecture, they built a hierarchy of conjectures"
+  },
+  {
+    "t_start": 464.87,
+    "t_end": 464.88,
+    "text": "they built a hierarchy of conjectures"
+  },
+  {
+    "t_start": 464.88,
+    "t_end": 466.469,
+    "text": "they built a hierarchy of conjectures about the higherdimensional behavior of"
+  },
+  {
+    "t_start": 466.469,
+    "t_end": 466.479,
+    "text": "about the higherdimensional behavior of"
+  },
+  {
+    "t_start": 466.479,
+    "t_end": 469.749,
+    "text": "about the higherdimensional behavior of the Fier transform and related ideas. On"
+  },
+  {
+    "t_start": 469.749,
+    "t_end": 469.759,
+    "text": "the Fier transform and related ideas. On"
+  },
+  {
+    "t_start": 469.759,
+    "t_end": 471.43,
+    "text": "the Fier transform and related ideas. On the first level is the restriction"
+  },
+  {
+    "t_start": 471.43,
+    "t_end": 471.44,
+    "text": "the first level is the restriction"
+  },
+  {
+    "t_start": 471.44,
+    "t_end": 473.43,
+    "text": "the first level is the restriction conjecture which asks how the Fier"
+  },
+  {
+    "t_start": 473.43,
+    "t_end": 473.44,
+    "text": "conjecture which asks how the Fier"
+  },
+  {
+    "t_start": 473.44,
+    "t_end": 475.27,
+    "text": "conjecture which asks how the Fier transform behaves when we look at it on"
+  },
+  {
+    "t_start": 475.27,
+    "t_end": 475.28,
+    "text": "transform behaves when we look at it on"
+  },
+  {
+    "t_start": 475.28,
+    "t_end": 478.79,
+    "text": "transform behaves when we look at it on a curved surface like a sphere."
+  },
+  {
+    "t_start": 478.79,
+    "t_end": 478.8,
+    "text": "a curved surface like a sphere."
+  },
+  {
+    "t_start": 478.8,
+    "t_end": 481.11,
+    "text": "a curved surface like a sphere. Then there's the Bachner Ree conjecture"
+  },
+  {
+    "t_start": 481.11,
+    "t_end": 481.12,
+    "text": "Then there's the Bachner Ree conjecture"
+  },
+  {
+    "t_start": 481.12,
+    "t_end": 483.11,
+    "text": "Then there's the Bachner Ree conjecture which asks whether we can use the Fier"
+  },
+  {
+    "t_start": 483.11,
+    "t_end": 483.12,
+    "text": "which asks whether we can use the Fier"
+  },
+  {
+    "t_start": 483.12,
+    "t_end": 485.11,
+    "text": "which asks whether we can use the Fier transform to clean up and smooth out the"
+  },
+  {
+    "t_start": 485.11,
+    "t_end": 485.12,
+    "text": "transform to clean up and smooth out the"
+  },
+  {
+    "t_start": 485.12,
+    "t_end": 487.43,
+    "text": "transform to clean up and smooth out the edges of a signal without accidentally"
+  },
+  {
+    "t_start": 487.43,
+    "t_end": 487.44,
+    "text": "edges of a signal without accidentally"
+  },
+  {
+    "t_start": 487.44,
+    "t_end": 490.15,
+    "text": "edges of a signal without accidentally introducing noise or distortion."
+  },
+  {
+    "t_start": 490.15,
+    "t_end": 490.16,
+    "text": "introducing noise or distortion."
+  },
+  {
+    "t_start": 490.16,
+    "t_end": 492.23,
+    "text": "introducing noise or distortion. And at the very top is the local"
+  },
+  {
+    "t_start": 492.23,
+    "t_end": 492.24,
+    "text": "And at the very top is the local"
+  },
+  {
+    "t_start": 492.24,
+    "t_end": 494.309,
+    "text": "And at the very top is the local smoothing conjecture, a problem about"
+  },
+  {
+    "t_start": 494.309,
+    "t_end": 494.319,
+    "text": "smoothing conjecture, a problem about"
+  },
+  {
+    "t_start": 494.319,
+    "t_end": 496.629,
+    "text": "smoothing conjecture, a problem about differential equations. It's a deep"
+  },
+  {
+    "t_start": 496.629,
+    "t_end": 496.639,
+    "text": "differential equations. It's a deep"
+  },
+  {
+    "t_start": 496.639,
+    "t_end": 498.95,
+    "text": "differential equations. It's a deep question about how waves propagate in"
+  },
+  {
+    "t_start": 498.95,
+    "t_end": 498.96,
+    "text": "question about how waves propagate in"
+  },
+  {
+    "t_start": 498.96,
+    "t_end": 500.07,
+    "text": "question about how waves propagate in space."
+  },
+  {
+    "t_start": 500.07,
+    "t_end": 500.08,
+    "text": "space."
+  },
+  {
+    "t_start": 500.08,
+    "t_end": 501.99,
+    "text": "space. >> So there are very very deep connections"
+  },
+  {
+    "t_start": 501.99,
+    "t_end": 502.0,
+    "text": ">> So there are very very deep connections"
+  },
+  {
+    "t_start": 502.0,
+    "t_end": 504.39,
+    "text": ">> So there are very very deep connections between the CA problem and propagation"
+  },
+  {
+    "t_start": 504.39,
+    "t_end": 504.4,
+    "text": "between the CA problem and propagation"
+  },
+  {
+    "t_start": 504.4,
+    "t_end": 505.749,
+    "text": "between the CA problem and propagation of waves."
+  },
+  {
+    "t_start": 505.749,
+    "t_end": 505.759,
+    "text": "of waves."
+  },
+  {
+    "t_start": 505.759,
+    "t_end": 508.15,
+    "text": "of waves. >> If the CA conjecture is false, then so"
+  },
+  {
+    "t_start": 508.15,
+    "t_end": 508.16,
+    "text": ">> If the CA conjecture is false, then so"
+  },
+  {
+    "t_start": 508.16,
+    "t_end": 509.589,
+    "text": ">> If the CA conjecture is false, then so are the statements above and the"
+  },
+  {
+    "t_start": 509.589,
+    "t_end": 509.599,
+    "text": "are the statements above and the"
+  },
+  {
+    "t_start": 509.599,
+    "t_end": 514.23,
+    "text": "are the statements above and the hierarchy."
+  },
+  {
+    "t_start": 516.31,
+    "t_end": 516.32,
+    "text": "If it's true, then the methods used to"
+  },
+  {
+    "t_start": 516.32,
+    "t_end": 517.99,
+    "text": "If it's true, then the methods used to prove it could also help attack the"
+  },
+  {
+    "t_start": 517.99,
+    "t_end": 518.0,
+    "text": "prove it could also help attack the"
+  },
+  {
+    "t_start": 518.0,
+    "t_end": 519.99,
+    "text": "prove it could also help attack the conjectures above it. It became"
+  },
+  {
+    "t_start": 519.99,
+    "t_end": 520.0,
+    "text": "conjectures above it. It became"
+  },
+  {
+    "t_start": 520.0,
+    "t_end": 521.43,
+    "text": "conjectures above it. It became increasingly important to understand"
+  },
+  {
+    "t_start": 521.43,
+    "t_end": 521.44,
+    "text": "increasingly important to understand"
+  },
+  {
+    "t_start": 521.44,
+    "t_end": 523.269,
+    "text": "increasingly important to understand this CA conjecture because it's part of"
+  },
+  {
+    "t_start": 523.269,
+    "t_end": 523.279,
+    "text": "this CA conjecture because it's part of"
+  },
+  {
+    "t_start": 523.279,
+    "t_end": 525.59,
+    "text": "this CA conjecture because it's part of a whole family of of really difficult"
+  },
+  {
+    "t_start": 525.59,
+    "t_end": 525.6,
+    "text": "a whole family of of really difficult"
+  },
+  {
+    "t_start": 525.6,
+    "t_end": 527.35,
+    "text": "a whole family of of really difficult conjectures in many fields."
+  },
+  {
+    "t_start": 527.35,
+    "t_end": 527.36,
+    "text": "conjectures in many fields."
+  },
+  {
+    "t_start": 527.36,
+    "t_end": 529.67,
+    "text": "conjectures in many fields. >> In the decades following Davies's proof,"
+  },
+  {
+    "t_start": 529.67,
+    "t_end": 529.68,
+    "text": ">> In the decades following Davies's proof,"
+  },
+  {
+    "t_start": 529.68,
+    "t_end": 531.269,
+    "text": ">> In the decades following Davies's proof, mathematicians set their sights on"
+  },
+  {
+    "t_start": 531.269,
+    "t_end": 531.279,
+    "text": "mathematicians set their sights on"
+  },
+  {
+    "t_start": 531.279,
+    "t_end": 533.35,
+    "text": "mathematicians set their sights on proving the CAA conjecture in dimensions"
+  },
+  {
+    "t_start": 533.35,
+    "t_end": 533.36,
+    "text": "proving the CAA conjecture in dimensions"
+  },
+  {
+    "t_start": 533.36,
+    "t_end": 535.03,
+    "text": "proving the CAA conjecture in dimensions beyond 2D."
+  },
+  {
+    "t_start": 535.03,
+    "t_end": 535.04,
+    "text": "beyond 2D."
+  },
+  {
+    "t_start": 535.04,
+    "t_end": 536.71,
+    "text": "beyond 2D. >> The big difference is the family of"
+  },
+  {
+    "t_start": 536.71,
+    "t_end": 536.72,
+    "text": ">> The big difference is the family of"
+  },
+  {
+    "t_start": 536.72,
+    "t_end": 538.389,
+    "text": ">> The big difference is the family of different directions in three dimensions"
+  },
+  {
+    "t_start": 538.389,
+    "t_end": 538.399,
+    "text": "different directions in three dimensions"
+  },
+  {
+    "t_start": 538.399,
+    "t_end": 539.91,
+    "text": "different directions in three dimensions is much richer and much more"
+  },
+  {
+    "t_start": 539.91,
+    "t_end": 539.92,
+    "text": "is much richer and much more"
+  },
+  {
+    "t_start": 539.92,
+    "t_end": 541.829,
+    "text": "is much richer and much more complicated. And as a consequence of"
+  },
+  {
+    "t_start": 541.829,
+    "t_end": 541.839,
+    "text": "complicated. And as a consequence of"
+  },
+  {
+    "t_start": 541.839,
+    "t_end": 543.75,
+    "text": "complicated. And as a consequence of this, there's a lot of phenomena that"
+  },
+  {
+    "t_start": 543.75,
+    "t_end": 543.76,
+    "text": "this, there's a lot of phenomena that"
+  },
+  {
+    "t_start": 543.76,
+    "t_end": 545.35,
+    "text": "this, there's a lot of phenomena that occur in three dimensions that you don't"
+  },
+  {
+    "t_start": 545.35,
+    "t_end": 545.36,
+    "text": "occur in three dimensions that you don't"
+  },
+  {
+    "t_start": 545.36,
+    "t_end": 548.07,
+    "text": "occur in three dimensions that you don't really see at all in two dimensions."
+  },
+  {
+    "t_start": 548.07,
+    "t_end": 548.08,
+    "text": "really see at all in two dimensions."
+  },
+  {
+    "t_start": 548.08,
+    "t_end": 551.11,
+    "text": "really see at all in two dimensions. The 3D CA conjecture says that every CAA"
+  },
+  {
+    "t_start": 551.11,
+    "t_end": 551.12,
+    "text": "The 3D CA conjecture says that every CAA"
+  },
+  {
+    "t_start": 551.12,
+    "t_end": 553.91,
+    "text": "The 3D CA conjecture says that every CAA set in 3D has Manowski and Howdorf"
+  },
+  {
+    "t_start": 553.91,
+    "t_end": 553.92,
+    "text": "set in 3D has Manowski and Howdorf"
+  },
+  {
+    "t_start": 553.92,
+    "t_end": 555.99,
+    "text": "set in 3D has Manowski and Howdorf dimension 3."
+  },
+  {
+    "t_start": 555.99,
+    "t_end": 556.0,
+    "text": "dimension 3."
+  },
+  {
+    "t_start": 556.0,
+    "t_end": 557.67,
+    "text": "dimension 3. To understand what that means, let's"
+  },
+  {
+    "t_start": 557.67,
+    "t_end": 557.68,
+    "text": "To understand what that means, let's"
+  },
+  {
+    "t_start": 557.68,
+    "t_end": 561.03,
+    "text": "To understand what that means, let's return to the 2D CAT. Recall that Davies"
+  },
+  {
+    "t_start": 561.03,
+    "t_end": 561.04,
+    "text": "return to the 2D CAT. Recall that Davies"
+  },
+  {
+    "t_start": 561.04,
+    "t_end": 563.75,
+    "text": "return to the 2D CAT. Recall that Davies thickened these lines into rectangles."
+  },
+  {
+    "t_start": 563.75,
+    "t_end": 563.76,
+    "text": "thickened these lines into rectangles."
+  },
+  {
+    "t_start": 563.76,
+    "t_end": 566.31,
+    "text": "thickened these lines into rectangles. Now, let's move into 3D space. If we"
+  },
+  {
+    "t_start": 566.31,
+    "t_end": 566.32,
+    "text": "Now, let's move into 3D space. If we"
+  },
+  {
+    "t_start": 566.32,
+    "t_end": 568.23,
+    "text": "Now, let's move into 3D space. If we pursue the same strategy, we get a"
+  },
+  {
+    "t_start": 568.23,
+    "t_end": 568.24,
+    "text": "pursue the same strategy, we get a"
+  },
+  {
+    "t_start": 568.24,
+    "t_end": 572.07,
+    "text": "pursue the same strategy, we get a collection of extremely thin tubes."
+  },
+  {
+    "t_start": 572.07,
+    "t_end": 572.08,
+    "text": "collection of extremely thin tubes."
+  },
+  {
+    "t_start": 572.08,
+    "t_end": 575.43,
+    "text": "collection of extremely thin tubes. In 2D, these lines often intersect, but"
+  },
+  {
+    "t_start": 575.43,
+    "t_end": 575.44,
+    "text": "In 2D, these lines often intersect, but"
+  },
+  {
+    "t_start": 575.44,
+    "t_end": 578.389,
+    "text": "In 2D, these lines often intersect, but in 3D, the tubes rarely intersect."
+  },
+  {
+    "t_start": 578.389,
+    "t_end": 578.399,
+    "text": "in 3D, the tubes rarely intersect."
+  },
+  {
+    "t_start": 578.399,
+    "t_end": 581.11,
+    "text": "in 3D, the tubes rarely intersect. >> They tend to miss each other. And in the"
+  },
+  {
+    "t_start": 581.11,
+    "t_end": 581.12,
+    "text": ">> They tend to miss each other. And in the"
+  },
+  {
+    "t_start": 581.12,
+    "t_end": 582.55,
+    "text": ">> They tend to miss each other. And in the Kaic conjecture, what you're trying to"
+  },
+  {
+    "t_start": 582.55,
+    "t_end": 582.56,
+    "text": "Kaic conjecture, what you're trying to"
+  },
+  {
+    "t_start": 582.56,
+    "t_end": 584.71,
+    "text": "Kaic conjecture, what you're trying to prove, what it really boils down to is"
+  },
+  {
+    "t_start": 584.71,
+    "t_end": 584.72,
+    "text": "prove, what it really boils down to is"
+  },
+  {
+    "t_start": 584.72,
+    "t_end": 586.71,
+    "text": "prove, what it really boils down to is showing that if you have a collection of"
+  },
+  {
+    "t_start": 586.71,
+    "t_end": 586.72,
+    "text": "showing that if you have a collection of"
+  },
+  {
+    "t_start": 586.72,
+    "t_end": 588.31,
+    "text": "showing that if you have a collection of tubes pointing in different directions,"
+  },
+  {
+    "t_start": 588.31,
+    "t_end": 588.32,
+    "text": "tubes pointing in different directions,"
+  },
+  {
+    "t_start": 588.32,
+    "t_end": 591.11,
+    "text": "tubes pointing in different directions, then they can't intersect very much."
+  },
+  {
+    "t_start": 591.11,
+    "t_end": 591.12,
+    "text": "then they can't intersect very much."
+  },
+  {
+    "t_start": 591.12,
+    "t_end": 592.47,
+    "text": "then they can't intersect very much. It's not enough just to say you have"
+  },
+  {
+    "t_start": 592.47,
+    "t_end": 592.48,
+    "text": "It's not enough just to say you have"
+  },
+  {
+    "t_start": 592.48,
+    "t_end": 594.63,
+    "text": "It's not enough just to say you have many lines, but you have to have this"
+  },
+  {
+    "t_start": 594.63,
+    "t_end": 594.64,
+    "text": "many lines, but you have to have this"
+  },
+  {
+    "t_start": 594.64,
+    "t_end": 596.15,
+    "text": "many lines, but you have to have this special property that the lines point in"
+  },
+  {
+    "t_start": 596.15,
+    "t_end": 596.16,
+    "text": "special property that the lines point in"
+  },
+  {
+    "t_start": 596.16,
+    "t_end": 597.67,
+    "text": "special property that the lines point in different directions. And that turns out"
+  },
+  {
+    "t_start": 597.67,
+    "t_end": 597.68,
+    "text": "different directions. And that turns out"
+  },
+  {
+    "t_start": 597.68,
+    "t_end": 599.43,
+    "text": "different directions. And that turns out to be surprisingly difficult to actually"
+  },
+  {
+    "t_start": 599.43,
+    "t_end": 599.44,
+    "text": "to be surprisingly difficult to actually"
+  },
+  {
+    "t_start": 599.44,
+    "t_end": 601.43,
+    "text": "to be surprisingly difficult to actually exploit. You can't just consider one"
+  },
+  {
+    "t_start": 601.43,
+    "t_end": 601.44,
+    "text": "exploit. You can't just consider one"
+  },
+  {
+    "t_start": 601.44,
+    "t_end": 603.19,
+    "text": "exploit. You can't just consider one configuration. You have to consider all"
+  },
+  {
+    "t_start": 603.19,
+    "t_end": 603.2,
+    "text": "configuration. You have to consider all"
+  },
+  {
+    "t_start": 603.2,
+    "t_end": 605.509,
+    "text": "configuration. You have to consider all possible ways you can arrange these"
+  },
+  {
+    "t_start": 605.509,
+    "t_end": 605.519,
+    "text": "possible ways you can arrange these"
+  },
+  {
+    "t_start": 605.519,
+    "t_end": 606.949,
+    "text": "possible ways you can arrange these needles in different regions. And"
+  },
+  {
+    "t_start": 606.949,
+    "t_end": 606.959,
+    "text": "needles in different regions. And"
+  },
+  {
+    "t_start": 606.959,
+    "t_end": 608.31,
+    "text": "needles in different regions. And there's there's an infinite number"
+  },
+  {
+    "t_start": 608.31,
+    "t_end": 608.32,
+    "text": "there's there's an infinite number"
+  },
+  {
+    "t_start": 608.32,
+    "t_end": 609.829,
+    "text": "there's there's an infinite number basically of all these configurations."
+  },
+  {
+    "t_start": 609.829,
+    "t_end": 609.839,
+    "text": "basically of all these configurations."
+  },
+  {
+    "t_start": 609.839,
+    "t_end": 611.509,
+    "text": "basically of all these configurations. And you want to show that every single"
+  },
+  {
+    "t_start": 611.509,
+    "t_end": 611.519,
+    "text": "And you want to show that every single"
+  },
+  {
+    "t_start": 611.519,
+    "t_end": 613.75,
+    "text": "And you want to show that every single one of these has to occupy a large"
+  },
+  {
+    "t_start": 613.75,
+    "t_end": 613.76,
+    "text": "one of these has to occupy a large"
+  },
+  {
+    "t_start": 613.76,
+    "t_end": 614.949,
+    "text": "one of these has to occupy a large amount of space."
+  },
+  {
+    "t_start": 614.949,
+    "t_end": 614.959,
+    "text": "amount of space."
+  },
+  {
+    "t_start": 614.959,
+    "t_end": 617.59,
+    "text": "amount of space. >> For a decade, Terrence Tao and dozens of"
+  },
+  {
+    "t_start": 617.59,
+    "t_end": 617.6,
+    "text": ">> For a decade, Terrence Tao and dozens of"
+  },
+  {
+    "t_start": 617.6,
+    "t_end": 619.269,
+    "text": ">> For a decade, Terrence Tao and dozens of other mathematicians refined"
+  },
+  {
+    "t_start": 619.269,
+    "t_end": 619.279,
+    "text": "other mathematicians refined"
+  },
+  {
+    "t_start": 619.279,
+    "t_end": 621.269,
+    "text": "other mathematicians refined increasingly creative approaches to the"
+  },
+  {
+    "t_start": 621.269,
+    "t_end": 621.279,
+    "text": "increasingly creative approaches to the"
+  },
+  {
+    "t_start": 621.279,
+    "t_end": 621.99,
+    "text": "increasingly creative approaches to the problem."
+  },
+  {
+    "t_start": 621.99,
+    "t_end": 622.0,
+    "text": "problem."
+  },
+  {
+    "t_start": 622.0,
+    "t_end": 623.67,
+    "text": "problem. >> People were stuck for a long time. I"
+  },
+  {
+    "t_start": 623.67,
+    "t_end": 623.68,
+    "text": ">> People were stuck for a long time. I"
+  },
+  {
+    "t_start": 623.68,
+    "t_end": 625.03,
+    "text": ">> People were stuck for a long time. I spent many years working on this"
+  },
+  {
+    "t_start": 625.03,
+    "t_end": 625.04,
+    "text": "spent many years working on this"
+  },
+  {
+    "t_start": 625.04,
+    "t_end": 626.79,
+    "text": "spent many years working on this problem, but we were missing big chunks"
+  },
+  {
+    "t_start": 626.79,
+    "t_end": 626.8,
+    "text": "problem, but we were missing big chunks"
+  },
+  {
+    "t_start": 626.8,
+    "t_end": 629.67,
+    "text": "problem, but we were missing big chunks of the program."
+  },
+  {
+    "t_start": 629.67,
+    "t_end": 629.68,
+    "text": "of the program."
+  },
+  {
+    "t_start": 629.68,
+    "t_end": 633.35,
+    "text": "of the program. >> In 2022, Hong Wang and Joshua Zal joined"
+  },
+  {
+    "t_start": 633.35,
+    "t_end": 633.36,
+    "text": ">> In 2022, Hong Wang and Joshua Zal joined"
+  },
+  {
+    "t_start": 633.36,
+    "t_end": 635.43,
+    "text": ">> In 2022, Hong Wang and Joshua Zal joined the effort to crack the CAA conjecture"
+  },
+  {
+    "t_start": 635.43,
+    "t_end": 635.44,
+    "text": "the effort to crack the CAA conjecture"
+  },
+  {
+    "t_start": 635.44,
+    "t_end": 637.269,
+    "text": "the effort to crack the CAA conjecture in 3D."
+  },
+  {
+    "t_start": 637.269,
+    "t_end": 637.279,
+    "text": "in 3D."
+  },
+  {
+    "t_start": 637.279,
+    "t_end": 639.11,
+    "text": "in 3D. First, they set out to prove that the"
+  },
+  {
+    "t_start": 639.11,
+    "t_end": 639.12,
+    "text": "First, they set out to prove that the"
+  },
+  {
+    "t_start": 639.12,
+    "t_end": 641.67,
+    "text": "First, they set out to prove that the conjecture was true for a subset of CAA"
+  },
+  {
+    "t_start": 641.67,
+    "t_end": 641.68,
+    "text": "conjecture was true for a subset of CAA"
+  },
+  {
+    "t_start": 641.68,
+    "t_end": 644.63,
+    "text": "conjecture was true for a subset of CAA sets that mathematicians call sticky."
+  },
+  {
+    "t_start": 644.63,
+    "t_end": 644.64,
+    "text": "sets that mathematicians call sticky."
+  },
+  {
+    "t_start": 644.64,
+    "t_end": 646.23,
+    "text": "sets that mathematicians call sticky. This means that if two tubes are"
+  },
+  {
+    "t_start": 646.23,
+    "t_end": 646.24,
+    "text": "This means that if two tubes are"
+  },
+  {
+    "t_start": 646.24,
+    "t_end": 647.91,
+    "text": "This means that if two tubes are pointing in the same direction, then"
+  },
+  {
+    "t_start": 647.91,
+    "t_end": 647.92,
+    "text": "pointing in the same direction, then"
+  },
+  {
+    "t_start": 647.92,
+    "t_end": 649.75,
+    "text": "pointing in the same direction, then they also have to be located close to"
+  },
+  {
+    "t_start": 649.75,
+    "t_end": 649.76,
+    "text": "they also have to be located close to"
+  },
+  {
+    "t_start": 649.76,
+    "t_end": 652.47,
+    "text": "they also have to be located close to each other in space."
+  },
+  {
+    "t_start": 652.47,
+    "t_end": 652.48,
+    "text": "each other in space."
+  },
+  {
+    "t_start": 652.48,
+    "t_end": 654.23,
+    "text": "each other in space. This property makes the geometry of"
+  },
+  {
+    "t_start": 654.23,
+    "t_end": 654.24,
+    "text": "This property makes the geometry of"
+  },
+  {
+    "t_start": 654.24,
+    "t_end": 656.23,
+    "text": "This property makes the geometry of sticky sets more structured and"
+  },
+  {
+    "t_start": 656.23,
+    "t_end": 656.24,
+    "text": "sticky sets more structured and"
+  },
+  {
+    "t_start": 656.24,
+    "t_end": 658.63,
+    "text": "sticky sets more structured and predictable than non-sticky sets."
+  },
+  {
+    "t_start": 658.63,
+    "t_end": 658.64,
+    "text": "predictable than non-sticky sets."
+  },
+  {
+    "t_start": 658.64,
+    "t_end": 660.71,
+    "text": "predictable than non-sticky sets. >> If you assume stickiness, then you have"
+  },
+  {
+    "t_start": 660.71,
+    "t_end": 660.72,
+    "text": ">> If you assume stickiness, then you have"
+  },
+  {
+    "t_start": 660.72,
+    "t_end": 663.509,
+    "text": ">> If you assume stickiness, then you have a lot of information like the the set is"
+  },
+  {
+    "t_start": 663.509,
+    "t_end": 663.519,
+    "text": "a lot of information like the the set is"
+  },
+  {
+    "t_start": 663.519,
+    "t_end": 665.75,
+    "text": "a lot of information like the the set is quite rigid. Assuming stickiness is"
+  },
+  {
+    "t_start": 665.75,
+    "t_end": 665.76,
+    "text": "quite rigid. Assuming stickiness is"
+  },
+  {
+    "t_start": 665.76,
+    "t_end": 668.23,
+    "text": "quite rigid. Assuming stickiness is intuitively easier to prove."
+  },
+  {
+    "t_start": 668.23,
+    "t_end": 668.24,
+    "text": "intuitively easier to prove."
+  },
+  {
+    "t_start": 668.24,
+    "t_end": 670.87,
+    "text": "intuitively easier to prove. >> In 2022, the pair proved the conjecture"
+  },
+  {
+    "t_start": 670.87,
+    "t_end": 670.88,
+    "text": ">> In 2022, the pair proved the conjecture"
+  },
+  {
+    "t_start": 670.88,
+    "t_end": 673.19,
+    "text": ">> In 2022, the pair proved the conjecture was true for sticky sets."
+  },
+  {
+    "t_start": 673.19,
+    "t_end": 673.2,
+    "text": "was true for sticky sets."
+  },
+  {
+    "t_start": 673.2,
+    "t_end": 674.71,
+    "text": "was true for sticky sets. >> That was really strong evidence that"
+  },
+  {
+    "t_start": 674.71,
+    "t_end": 674.72,
+    "text": ">> That was really strong evidence that"
+  },
+  {
+    "t_start": 674.72,
+    "t_end": 676.069,
+    "text": ">> That was really strong evidence that they were closing in on the go. They"
+  },
+  {
+    "t_start": 676.069,
+    "t_end": 676.079,
+    "text": "they were closing in on the go. They"
+  },
+  {
+    "t_start": 676.079,
+    "t_end": 677.75,
+    "text": "they were closing in on the go. They they had handled the most difficult case"
+  },
+  {
+    "t_start": 677.75,
+    "t_end": 677.76,
+    "text": "they had handled the most difficult case"
+  },
+  {
+    "t_start": 677.76,
+    "t_end": 679.35,
+    "text": "they had handled the most difficult case of the problem. And then they needed"
+  },
+  {
+    "t_start": 679.35,
+    "t_end": 679.36,
+    "text": "of the problem. And then they needed"
+  },
+  {
+    "t_start": 679.36,
+    "t_end": 681.19,
+    "text": "of the problem. And then they needed some argument to also deal with the"
+  },
+  {
+    "t_start": 681.19,
+    "t_end": 681.2,
+    "text": "some argument to also deal with the"
+  },
+  {
+    "t_start": 681.2,
+    "t_end": 683.59,
+    "text": "some argument to also deal with the non-sticky case."
+  },
+  {
+    "t_start": 683.59,
+    "t_end": 683.6,
+    "text": "non-sticky case."
+  },
+  {
+    "t_start": 683.6,
+    "t_end": 686.069,
+    "text": "non-sticky case. >> Non-sticky sets exhibit an irregular"
+  },
+  {
+    "t_start": 686.069,
+    "t_end": 686.079,
+    "text": ">> Non-sticky sets exhibit an irregular"
+  },
+  {
+    "t_start": 686.079,
+    "t_end": 688.389,
+    "text": ">> Non-sticky sets exhibit an irregular geometry with tubes scattered in all"
+  },
+  {
+    "t_start": 688.389,
+    "t_end": 688.399,
+    "text": "geometry with tubes scattered in all"
+  },
+  {
+    "t_start": 688.399,
+    "t_end": 691.75,
+    "text": "geometry with tubes scattered in all directions. To tackle them, Wong and Z"
+  },
+  {
+    "t_start": 691.75,
+    "t_end": 691.76,
+    "text": "directions. To tackle them, Wong and Z"
+  },
+  {
+    "t_start": 691.76,
+    "t_end": 693.11,
+    "text": "directions. To tackle them, Wong and Z started with the discovery from"
+  },
+  {
+    "t_start": 693.11,
+    "t_end": 693.12,
+    "text": "started with the discovery from"
+  },
+  {
+    "t_start": 693.12,
+    "t_end": 695.35,
+    "text": "started with the discovery from mathematician Larry Guth who showed that"
+  },
+  {
+    "t_start": 695.35,
+    "t_end": 695.36,
+    "text": "mathematician Larry Guth who showed that"
+  },
+  {
+    "t_start": 695.36,
+    "t_end": 697.19,
+    "text": "mathematician Larry Guth who showed that any counterexample to the Kaya"
+  },
+  {
+    "t_start": 697.19,
+    "t_end": 697.2,
+    "text": "any counterexample to the Kaya"
+  },
+  {
+    "t_start": 697.2,
+    "t_end": 698.87,
+    "text": "any counterexample to the Kaya conjecture needed to have a special"
+  },
+  {
+    "t_start": 698.87,
+    "t_end": 698.88,
+    "text": "conjecture needed to have a special"
+  },
+  {
+    "t_start": 698.88,
+    "t_end": 702.23,
+    "text": "conjecture needed to have a special property called graininess."
+  },
+  {
+    "t_start": 702.23,
+    "t_end": 702.24,
+    "text": "property called graininess."
+  },
+  {
+    "t_start": 702.24,
+    "t_end": 704.55,
+    "text": "property called graininess. Graininess is a forced consequence of"
+  },
+  {
+    "t_start": 704.55,
+    "t_end": 704.56,
+    "text": "Graininess is a forced consequence of"
+  },
+  {
+    "t_start": 704.56,
+    "t_end": 706.71,
+    "text": "Graininess is a forced consequence of trying to compress all directions into a"
+  },
+  {
+    "t_start": 706.71,
+    "t_end": 706.72,
+    "text": "trying to compress all directions into a"
+  },
+  {
+    "t_start": 706.72,
+    "t_end": 709.67,
+    "text": "trying to compress all directions into a small CA set. The set develops small"
+  },
+  {
+    "t_start": 709.67,
+    "t_end": 709.68,
+    "text": "small CA set. The set develops small"
+  },
+  {
+    "t_start": 709.68,
+    "t_end": 712.389,
+    "text": "small CA set. The set develops small regions called grains where many tubes"
+  },
+  {
+    "t_start": 712.389,
+    "t_end": 712.399,
+    "text": "regions called grains where many tubes"
+  },
+  {
+    "t_start": 712.399,
+    "t_end": 713.509,
+    "text": "regions called grains where many tubes overlap."
+  },
+  {
+    "t_start": 713.509,
+    "t_end": 713.519,
+    "text": "overlap."
+  },
+  {
+    "t_start": 713.519,
+    "t_end": 715.11,
+    "text": "overlap. >> And we spent quite a bit of time trying"
+  },
+  {
+    "t_start": 715.11,
+    "t_end": 715.12,
+    "text": ">> And we spent quite a bit of time trying"
+  },
+  {
+    "t_start": 715.12,
+    "t_end": 717.03,
+    "text": ">> And we spent quite a bit of time trying to understand how these grains interact"
+  },
+  {
+    "t_start": 717.03,
+    "t_end": 717.04,
+    "text": "to understand how these grains interact"
+  },
+  {
+    "t_start": 717.04,
+    "t_end": 718.389,
+    "text": "to understand how these grains interact with each other."
+  },
+  {
+    "t_start": 718.389,
+    "t_end": 718.399,
+    "text": "with each other."
+  },
+  {
+    "t_start": 718.399,
+    "t_end": 720.949,
+    "text": "with each other. >> Studying grains imposed a structure that"
+  },
+  {
+    "t_start": 720.949,
+    "t_end": 720.959,
+    "text": ">> Studying grains imposed a structure that"
+  },
+  {
+    "t_start": 720.959,
+    "t_end": 723.75,
+    "text": ">> Studying grains imposed a structure that Wang and Z could exploit. They proved"
+  },
+  {
+    "t_start": 723.75,
+    "t_end": 723.76,
+    "text": "Wang and Z could exploit. They proved"
+  },
+  {
+    "t_start": 723.76,
+    "t_end": 725.829,
+    "text": "Wang and Z could exploit. They proved that grains from one part of the Kaya"
+  },
+  {
+    "t_start": 725.829,
+    "t_end": 725.839,
+    "text": "that grains from one part of the Kaya"
+  },
+  {
+    "t_start": 725.839,
+    "t_end": 727.75,
+    "text": "that grains from one part of the Kaya set could not have large intersections"
+  },
+  {
+    "t_start": 727.75,
+    "t_end": 727.76,
+    "text": "set could not have large intersections"
+  },
+  {
+    "t_start": 727.76,
+    "t_end": 730.79,
+    "text": "set could not have large intersections with grains from another part."
+  },
+  {
+    "t_start": 730.79,
+    "t_end": 730.8,
+    "text": "with grains from another part."
+  },
+  {
+    "t_start": 730.8,
+    "t_end": 732.55,
+    "text": "with grains from another part. Then they expanded their proof with an"
+  },
+  {
+    "t_start": 732.55,
+    "t_end": 732.56,
+    "text": "Then they expanded their proof with an"
+  },
+  {
+    "t_start": 732.56,
+    "t_end": 735.19,
+    "text": "Then they expanded their proof with an argument called induction on scales."
+  },
+  {
+    "t_start": 735.19,
+    "t_end": 735.2,
+    "text": "argument called induction on scales."
+  },
+  {
+    "t_start": 735.2,
+    "t_end": 737.269,
+    "text": "argument called induction on scales. >> There has been this dream to prove this"
+  },
+  {
+    "t_start": 737.269,
+    "t_end": 737.279,
+    "text": ">> There has been this dream to prove this"
+  },
+  {
+    "t_start": 737.279,
+    "t_end": 738.79,
+    "text": ">> There has been this dream to prove this CA conjecture by what's called induction"
+  },
+  {
+    "t_start": 738.79,
+    "t_end": 738.8,
+    "text": "CA conjecture by what's called induction"
+  },
+  {
+    "t_start": 738.8,
+    "t_end": 741.75,
+    "text": "CA conjecture by what's called induction on scales. It's a way to get from um A"
+  },
+  {
+    "t_start": 741.75,
+    "t_end": 741.76,
+    "text": "on scales. It's a way to get from um A"
+  },
+  {
+    "t_start": 741.76,
+    "t_end": 744.23,
+    "text": "on scales. It's a way to get from um A to B when A very far apart by just just"
+  },
+  {
+    "t_start": 744.23,
+    "t_end": 744.24,
+    "text": "to B when A very far apart by just just"
+  },
+  {
+    "t_start": 744.24,
+    "t_end": 745.59,
+    "text": "to B when A very far apart by just just little steps."
+  },
+  {
+    "t_start": 745.59,
+    "t_end": 745.6,
+    "text": "little steps."
+  },
+  {
+    "t_start": 745.6,
+    "t_end": 747.43,
+    "text": "little steps. >> Previous attempts to prove the CA"
+  },
+  {
+    "t_start": 747.43,
+    "t_end": 747.44,
+    "text": ">> Previous attempts to prove the CA"
+  },
+  {
+    "t_start": 747.44,
+    "t_end": 749.509,
+    "text": ">> Previous attempts to prove the CA conjecture with the induction on scales"
+  },
+  {
+    "t_start": 749.509,
+    "t_end": 749.519,
+    "text": "conjecture with the induction on scales"
+  },
+  {
+    "t_start": 749.519,
+    "t_end": 751.35,
+    "text": "conjecture with the induction on scales had resulted in inefficiencies and"
+  },
+  {
+    "t_start": 751.35,
+    "t_end": 751.36,
+    "text": "had resulted in inefficiencies and"
+  },
+  {
+    "t_start": 751.36,
+    "t_end": 753.91,
+    "text": "had resulted in inefficiencies and losses. A classic example is the game"
+  },
+  {
+    "t_start": 753.91,
+    "t_end": 753.92,
+    "text": "losses. A classic example is the game"
+  },
+  {
+    "t_start": 753.92,
+    "t_end": 755.509,
+    "text": "losses. A classic example is the game Chinese whispers where you get a lot of"
+  },
+  {
+    "t_start": 755.509,
+    "t_end": 755.519,
+    "text": "Chinese whispers where you get a lot of"
+  },
+  {
+    "t_start": 755.519,
+    "t_end": 757.99,
+    "text": "Chinese whispers where you get a lot of people in a row and someone whispers a"
+  },
+  {
+    "t_start": 757.99,
+    "t_end": 758.0,
+    "text": "people in a row and someone whispers a"
+  },
+  {
+    "t_start": 758.0,
+    "t_end": 759.35,
+    "text": "people in a row and someone whispers a sentence to the next person who whispers"
+  },
+  {
+    "t_start": 759.35,
+    "t_end": 759.36,
+    "text": "sentence to the next person who whispers"
+  },
+  {
+    "t_start": 759.36,
+    "t_end": 761.67,
+    "text": "sentence to the next person who whispers a sentence to the next person. Um, if"
+  },
+  {
+    "t_start": 761.67,
+    "t_end": 761.68,
+    "text": "a sentence to the next person. Um, if"
+  },
+  {
+    "t_start": 761.68,
+    "t_end": 763.269,
+    "text": "a sentence to the next person. Um, if they had perfect reproduction, then by"
+  },
+  {
+    "t_start": 763.269,
+    "t_end": 763.279,
+    "text": "they had perfect reproduction, then by"
+  },
+  {
+    "t_start": 763.279,
+    "t_end": 764.949,
+    "text": "they had perfect reproduction, then by then by induction the person at the end"
+  },
+  {
+    "t_start": 764.949,
+    "t_end": 764.959,
+    "text": "then by induction the person at the end"
+  },
+  {
+    "t_start": 764.959,
+    "t_end": 766.949,
+    "text": "then by induction the person at the end would have exactly the same sentence as"
+  },
+  {
+    "t_start": 766.949,
+    "t_end": 766.959,
+    "text": "would have exactly the same sentence as"
+  },
+  {
+    "t_start": 766.959,
+    "t_end": 768.79,
+    "text": "would have exactly the same sentence as what they started with. But if you only"
+  },
+  {
+    "t_start": 768.79,
+    "t_end": 768.8,
+    "text": "what they started with. But if you only"
+  },
+  {
+    "t_start": 768.8,
+    "t_end": 771.59,
+    "text": "what they started with. But if you only have even a tiny amount of of of loss in"
+  },
+  {
+    "t_start": 771.59,
+    "t_end": 771.6,
+    "text": "have even a tiny amount of of of loss in"
+  },
+  {
+    "t_start": 771.6,
+    "t_end": 773.75,
+    "text": "have even a tiny amount of of of loss in each transmission step, then the end"
+  },
+  {
+    "t_start": 773.75,
+    "t_end": 773.76,
+    "text": "each transmission step, then the end"
+  },
+  {
+    "t_start": 773.76,
+    "t_end": 776.629,
+    "text": "each transmission step, then the end result can can be can be worthless or or"
+  },
+  {
+    "t_start": 776.629,
+    "t_end": 776.639,
+    "text": "result can can be can be worthless or or"
+  },
+  {
+    "t_start": 776.639,
+    "t_end": 778.629,
+    "text": "result can can be can be worthless or or at least hilarious."
+  },
+  {
+    "t_start": 778.629,
+    "t_end": 778.639,
+    "text": "at least hilarious."
+  },
+  {
+    "t_start": 778.639,
+    "t_end": 780.949,
+    "text": "at least hilarious. Wang and Z figured out that graininess"
+  },
+  {
+    "t_start": 780.949,
+    "t_end": 780.959,
+    "text": "Wang and Z figured out that graininess"
+  },
+  {
+    "t_start": 780.959,
+    "t_end": 783.829,
+    "text": "Wang and Z figured out that graininess was the key to controlling these losses."
+  },
+  {
+    "t_start": 783.829,
+    "t_end": 783.839,
+    "text": "was the key to controlling these losses."
+  },
+  {
+    "t_start": 783.839,
+    "t_end": 786.31,
+    "text": "was the key to controlling these losses. To understand how, recall that CATEST"
+  },
+  {
+    "t_start": 786.31,
+    "t_end": 786.32,
+    "text": "To understand how, recall that CATEST"
+  },
+  {
+    "t_start": 786.32,
+    "t_end": 789.19,
+    "text": "To understand how, recall that CATEST are irregular. At small scales, the"
+  },
+  {
+    "t_start": 789.19,
+    "t_end": 789.2,
+    "text": "are irregular. At small scales, the"
+  },
+  {
+    "t_start": 789.2,
+    "t_end": 792.15,
+    "text": "are irregular. At small scales, the tubes interact in unpredictable ways."
+  },
+  {
+    "t_start": 792.15,
+    "t_end": 792.16,
+    "text": "tubes interact in unpredictable ways."
+  },
+  {
+    "t_start": 792.16,
+    "t_end": 793.99,
+    "text": "tubes interact in unpredictable ways. For example, it's possible to imagine"
+  },
+  {
+    "t_start": 793.99,
+    "t_end": 794.0,
+    "text": "For example, it's possible to imagine"
+  },
+  {
+    "t_start": 794.0,
+    "t_end": 795.99,
+    "text": "For example, it's possible to imagine regions where the tubes overlap too"
+  },
+  {
+    "t_start": 795.99,
+    "t_end": 796.0,
+    "text": "regions where the tubes overlap too"
+  },
+  {
+    "t_start": 796.0,
+    "t_end": 798.55,
+    "text": "regions where the tubes overlap too efficiently, allowing a 3D CAT to"
+  },
+  {
+    "t_start": 798.55,
+    "t_end": 798.56,
+    "text": "efficiently, allowing a 3D CAT to"
+  },
+  {
+    "t_start": 798.56,
+    "t_end": 800.389,
+    "text": "efficiently, allowing a 3D CAT to squeeze into a smaller dimensional"
+  },
+  {
+    "t_start": 800.389,
+    "t_end": 800.399,
+    "text": "squeeze into a smaller dimensional"
+  },
+  {
+    "t_start": 800.399,
+    "t_end": 801.91,
+    "text": "squeeze into a smaller dimensional space."
+  },
+  {
+    "t_start": 801.91,
+    "t_end": 801.92,
+    "text": "space."
+  },
+  {
+    "t_start": 801.92,
+    "t_end": 804.31,
+    "text": "space. If this were to happen too much, the CA"
+  },
+  {
+    "t_start": 804.31,
+    "t_end": 804.32,
+    "text": "If this were to happen too much, the CA"
+  },
+  {
+    "t_start": 804.32,
+    "t_end": 807.11,
+    "text": "If this were to happen too much, the CA conjecture would be false."
+  },
+  {
+    "t_start": 807.11,
+    "t_end": 807.12,
+    "text": "conjecture would be false."
+  },
+  {
+    "t_start": 807.12,
+    "t_end": 809.269,
+    "text": "conjecture would be false. Instead of studying how tubes overlap,"
+  },
+  {
+    "t_start": 809.269,
+    "t_end": 809.279,
+    "text": "Instead of studying how tubes overlap,"
+  },
+  {
+    "t_start": 809.279,
+    "t_end": 811.75,
+    "text": "Instead of studying how tubes overlap, Wong and Zaul analyzed grains. They"
+  },
+  {
+    "t_start": 811.75,
+    "t_end": 811.76,
+    "text": "Wong and Zaul analyzed grains. They"
+  },
+  {
+    "t_start": 811.76,
+    "t_end": 813.829,
+    "text": "Wong and Zaul analyzed grains. They showed that no point in space can lie in"
+  },
+  {
+    "t_start": 813.829,
+    "t_end": 813.839,
+    "text": "showed that no point in space can lie in"
+  },
+  {
+    "t_start": 813.839,
+    "t_end": 815.75,
+    "text": "showed that no point in space can lie in too many grains."
+  },
+  {
+    "t_start": 815.75,
+    "t_end": 815.76,
+    "text": "too many grains."
+  },
+  {
+    "t_start": 815.76,
+    "t_end": 817.43,
+    "text": "too many grains. This imposed a limit on how much the"
+  },
+  {
+    "t_start": 817.43,
+    "t_end": 817.44,
+    "text": "This imposed a limit on how much the"
+  },
+  {
+    "t_start": 817.44,
+    "t_end": 819.67,
+    "text": "This imposed a limit on how much the tubes could overlap and how much the set"
+  },
+  {
+    "t_start": 819.67,
+    "t_end": 819.68,
+    "text": "tubes could overlap and how much the set"
+  },
+  {
+    "t_start": 819.68,
+    "t_end": 821.67,
+    "text": "tubes could overlap and how much the set could be compressed."
+  },
+  {
+    "t_start": 821.67,
+    "t_end": 821.68,
+    "text": "could be compressed."
+  },
+  {
+    "t_start": 821.68,
+    "t_end": 824.069,
+    "text": "could be compressed. Wang and Z used this structure to tame"
+  },
+  {
+    "t_start": 824.069,
+    "t_end": 824.079,
+    "text": "Wang and Z used this structure to tame"
+  },
+  {
+    "t_start": 824.079,
+    "t_end": 826.87,
+    "text": "Wang and Z used this structure to tame the chaos as they changed scale. And so"
+  },
+  {
+    "t_start": 826.87,
+    "t_end": 826.88,
+    "text": "the chaos as they changed scale. And so"
+  },
+  {
+    "t_start": 826.88,
+    "t_end": 829.19,
+    "text": "the chaos as they changed scale. And so you can slightly increase with each time"
+  },
+  {
+    "t_start": 829.19,
+    "t_end": 829.2,
+    "text": "you can slightly increase with each time"
+  },
+  {
+    "t_start": 829.2,
+    "t_end": 832.069,
+    "text": "you can slightly increase with each time you run this argument uh your best"
+  },
+  {
+    "t_start": 832.069,
+    "t_end": 832.079,
+    "text": "you run this argument uh your best"
+  },
+  {
+    "t_start": 832.079,
+    "t_end": 834.629,
+    "text": "you run this argument uh your best estimate on the dimension of kaya sets"
+  },
+  {
+    "t_start": 834.629,
+    "t_end": 834.639,
+    "text": "estimate on the dimension of kaya sets"
+  },
+  {
+    "t_start": 834.639,
+    "t_end": 835.91,
+    "text": "estimate on the dimension of kaya sets until eventually you get all the way up"
+  },
+  {
+    "t_start": 835.91,
+    "t_end": 835.92,
+    "text": "until eventually you get all the way up"
+  },
+  {
+    "t_start": 835.92,
+    "t_end": 836.87,
+    "text": "until eventually you get all the way up to three."
+  },
+  {
+    "t_start": 836.87,
+    "t_end": 836.88,
+    "text": "to three."
+  },
+  {
+    "t_start": 836.88,
+    "t_end": 838.71,
+    "text": "to three. >> They gradually raise the known lower"
+  },
+  {
+    "t_start": 838.71,
+    "t_end": 838.72,
+    "text": ">> They gradually raise the known lower"
+  },
+  {
+    "t_start": 838.72,
+    "t_end": 840.949,
+    "text": ">> They gradually raise the known lower bound on the dimension step by step"
+  },
+  {
+    "t_start": 840.949,
+    "t_end": 840.959,
+    "text": "bound on the dimension step by step"
+  },
+  {
+    "t_start": 840.959,
+    "t_end": 843.11,
+    "text": "bound on the dimension step by step until they prove the kaya conjecture in"
+  },
+  {
+    "t_start": 843.11,
+    "t_end": 843.12,
+    "text": "until they prove the kaya conjecture in"
+  },
+  {
+    "t_start": 843.12,
+    "t_end": 846.55,
+    "text": "until they prove the kaya conjecture in manowski and howdorf dimension 3."
+  },
+  {
+    "t_start": 846.55,
+    "t_end": 846.56,
+    "text": "manowski and howdorf dimension 3."
+  },
+  {
+    "t_start": 846.56,
+    "t_end": 848.15,
+    "text": "manowski and howdorf dimension 3. >> It's kind of the way math should work."
+  },
+  {
+    "t_start": 848.15,
+    "t_end": 848.16,
+    "text": ">> It's kind of the way math should work."
+  },
+  {
+    "t_start": 848.16,
+    "t_end": 849.75,
+    "text": ">> It's kind of the way math should work. Everyone contributes some partial"
+  },
+  {
+    "t_start": 849.75,
+    "t_end": 849.76,
+    "text": "Everyone contributes some partial"
+  },
+  {
+    "t_start": 849.76,
+    "t_end": 851.509,
+    "text": "Everyone contributes some partial result. It all gets synthesized at the"
+  },
+  {
+    "t_start": 851.509,
+    "t_end": 851.519,
+    "text": "result. It all gets synthesized at the"
+  },
+  {
+    "t_start": 851.519,
+    "t_end": 853.509,
+    "text": "result. It all gets synthesized at the end. So it's very satisfying."
+  },
+  {
+    "t_start": 853.509,
+    "t_end": 853.519,
+    "text": "end. So it's very satisfying."
+  },
+  {
+    "t_start": 853.519,
+    "t_end": 855.35,
+    "text": "end. So it's very satisfying. Mathematicians are hopeful that they can"
+  },
+  {
+    "t_start": 855.35,
+    "t_end": 855.36,
+    "text": "Mathematicians are hopeful that they can"
+  },
+  {
+    "t_start": 855.36,
+    "t_end": 857.43,
+    "text": "Mathematicians are hopeful that they can use the result to help build up proofs"
+  },
+  {
+    "t_start": 857.43,
+    "t_end": 857.44,
+    "text": "use the result to help build up proofs"
+  },
+  {
+    "t_start": 857.44,
+    "t_end": 859.67,
+    "text": "use the result to help build up proofs of the more ambitious conjectures above"
+  },
+  {
+    "t_start": 859.67,
+    "t_end": 859.68,
+    "text": "of the more ambitious conjectures above"
+  },
+  {
+    "t_start": 859.68,
+    "t_end": 860.15,
+    "text": "of the more ambitious conjectures above it."
+  },
+  {
+    "t_start": 860.15,
+    "t_end": 860.16,
+    "text": "it."
+  },
+  {
+    "t_start": 860.16,
+    "t_end": 861.829,
+    "text": "it. >> It doesn't fully solve the remaining"
+  },
+  {
+    "t_start": 861.829,
+    "t_end": 861.839,
+    "text": ">> It doesn't fully solve the remaining"
+  },
+  {
+    "t_start": 861.839,
+    "t_end": 863.59,
+    "text": ">> It doesn't fully solve the remaining questions, but it kind of knocks out"
+  },
+  {
+    "t_start": 863.59,
+    "t_end": 863.6,
+    "text": "questions, but it kind of knocks out"
+  },
+  {
+    "t_start": 863.6,
+    "t_end": 865.43,
+    "text": "questions, but it kind of knocks out half the difficulty. It's now given us a"
+  },
+  {
+    "t_start": 865.43,
+    "t_end": 865.44,
+    "text": "half the difficulty. It's now given us a"
+  },
+  {
+    "t_start": 865.44,
+    "t_end": 867.03,
+    "text": "half the difficulty. It's now given us a lot more confidence that all these"
+  },
+  {
+    "t_start": 867.03,
+    "t_end": 867.04,
+    "text": "lot more confidence that all these"
+  },
+  {
+    "t_start": 867.04,
+    "t_end": 868.55,
+    "text": "lot more confidence that all these beautiful conjectures we have that"
+  },
+  {
+    "t_start": 868.55,
+    "t_end": 868.56,
+    "text": "beautiful conjectures we have that"
+  },
+  {
+    "t_start": 868.56,
+    "t_end": 870.629,
+    "text": "beautiful conjectures we have that they're going to hopefully be true."
+  },
+  {
+    "t_start": 870.629,
+    "t_end": 870.639,
+    "text": "they're going to hopefully be true."
+  },
+  {
+    "t_start": 870.639,
+    "t_end": 871.99,
+    "text": "they're going to hopefully be true. People are just going to start climbing"
+  },
+  {
+    "t_start": 871.99,
+    "t_end": 872.0,
+    "text": "People are just going to start climbing"
+  },
+  {
+    "t_start": 872.0,
+    "t_end": 874.15,
+    "text": "People are just going to start climbing this hierarchy and I think one by one"
+  },
+  {
+    "t_start": 874.15,
+    "t_end": 874.16,
+    "text": "this hierarchy and I think one by one"
+  },
+  {
+    "t_start": 874.16,
+    "t_end": 875.59,
+    "text": "this hierarchy and I think one by one these other conjectures are going to"
+  },
+  {
+    "t_start": 875.59,
+    "t_end": 875.6,
+    "text": "these other conjectures are going to"
+  },
+  {
+    "t_start": 875.6,
+    "t_end": 877.67,
+    "text": "these other conjectures are going to either be solved completely or we'll see"
+  },
+  {
+    "t_start": 877.67,
+    "t_end": 877.68,
+    "text": "either be solved completely or we'll see"
+  },
+  {
+    "t_start": 877.68,
+    "t_end": 879.92,
+    "text": "either be solved completely or we'll see a lot of dramatic progress."
+  },
+  {
+    "t_start": 879.92,
+    "t_end": 879.93,
+    "text": "a lot of dramatic progress."
+  },
+  {
+    "t_start": 879.93,
+    "t_end": 898.1,
+    "text": "a lot of dramatic progress. [Music]"
+  }
+]

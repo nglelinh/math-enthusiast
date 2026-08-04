@@ -1,0 +1,155 @@
+(Intro music)
+Hi, I am Agustin Rayo.
+I'm an associate professor[br]of philosophy at MIT,
+and today I want to[br]talk about how there are
+some infinities that[br]are bigger than others.
+So, a first exercise to see why[br]some infinities are bigger
+than others is to think[br]about Hilbert's Hotel.
+So Hilbert's Hotel is like an[br]ordinary hotel, except that
+instead of having finitely many rooms
+like most hotels, it has[br]infinitely many rooms.
+So we can draw this.
+We're just having a very long rectangle
+with lots of rooms, and we're going to
+number each room with a natural number.
+So, the first natural number is[br]zero, after that comes one
+and two and three and four[br]and five and so forth.
+And I'm going to assume that this[br]hotel is completely full.
+So in other words, every[br]room has a person inside it.
+So we're going to draw a[br]person inside each room.
+And I'm going to assume that these
+various persons are numbered, too.
+So maybe each of them is holding
+a piece of paper with a number.
+The person in room zero has a[br]piece of paper with zero on it,
+the person in room one[br]has a piece of paper
+with the number one in it, and so forth.
+So now ask yourself this question:
+what would happen if an extra person
+were to come to the hotel?
+Could they be accommodated?
+Now, in a finite hotel, the answer is "No,"
+because all the rooms[br]are already occupied,
+and we can assume that[br]these are prickly guests
+and don't want to share rooms.
+But in an infinite hotel, it can be done.
+So think of it this way.
+We can just ask each person[br]to move one room to the right.
+and Miss One, who's now in[br]room one, moves to room two,
+and two moves to three,[br]and three moves to four,
+and four moves to five, and so forth.
+So then the result is that[br]all of our original guests
+are in rooms, but our[br]first room is vacant,
+because now there's nobody in room zero,
+so we can welcome our additional guest.
+One thing that's amazing[br]and worth emphasizing
+is that the hotel was[br]full at the beginning,
+and we could still fit in more people.
+That's amazing, but true.
+Part of the reason that's[br]possible is that there are two
+things that come together[br]in the finite case,
+but need to be kept apart[br]in the infinite case.
+So in the finite case, if you have a set
+and you add some extra things to the set,
+the set you get is bigger[br]than the original one,
+but in the infinite case,[br]that's not necessarily true,
+because have your[br]original set just consist
+of the original hotel guests,[br]and then add one more.
+The new set isn't bigger, in[br]the sense that you can still
+put each element of the new set
+into a different room in your hotel.
+So if you measure size in[br]terms of how big a hotel
+you would need to accommodate[br]the members of the set,
+then we need to conclude[br]that the set of the original
+guests, and the set of the original guests
+plus one, are of the same size.
+Crazy! It's this amazing thing.
+And if you think of it, you[br]can see that we could have
+accommodated any finite[br]number of new guests, too,
+because suppose we get seven[br]hundred new guests.
+Then we can just ask each[br]of our original guests
+to move seven hundred[br]rooms to the right.
+But wait! What if we got[br]infinitely many new guests?
+OK, so suppose that we have[br]infinitely many new guests,
+and they too are numbered[br]with the natural numbers,
+so the first one is holding[br]zero, and the second one
+is holding a one, and the next one
+is holding the two, and so forth.
+How could we accommodate them?
+Well, we can do it like this.
+We just ask each of our[br]original guests to move
+to the result of multiplying[br]their current room by two.
+So the guy in zero goes to two times
+zero equals zero, so he stays.
+The person in one moves to one times two,
+that's two, so she moves one to the right.
+The person in two moves to[br]two times two, that's four.
+She moves two to the right, and so forth.
+So the result of this is[br]that all the old guests
+are occupying even-numbered rooms,
+and all of the odd-numbered[br]rooms are free,
+so we can ask each of the new guests
+to go to an odd-numbered room.
+Which one?
+They can just look at their[br]number, multiply it by two,
+and add one, and they can go to that room.
+So here's the lesson of this.
+The lesson of this is that[br]if we have an infinite hotel,
+we can accommodate one copy[br]of the natural numbers,
+but we can also accommodate two copies
+of the natural numbers, and in fact,
+we can accommodate as many copies
+of the natural numbers as[br]there are natural numbers.
+But before tackling that question,
+it's useful to consider a different one,
+and this is the first of[br]two wonderful theorems
+that were proved by Georg[br]Cantor in the nineteenth century.
+The first theorem is that you[br]can put the rational numbers
+in one-one correspondence[br]with the natural numbers.
+Now, what is a rational number?
+A rational number is a number[br]of the form "a/b,"
+where "a" and "b" are[br]both natural numbers,
+and we assume that "b" is not zero.
+So what Cantor did is[br]show that we can pair up
+the natural numbers with the rational[br]numbers with no remainder.
+Every natural number gets[br]a unique rational number,
+and every rational number gets a unique
+natural number and nobody's left out.
+So here's how to do it.
+We simply draw a matrix.
+Each column is going to[br]correspond to a numerator,
+and each row is going to[br]correspond to a denominator.
+So this is how you fill out the matrix.
+And so forth.
+So you can see that every[br]rational number is on this matrix,
+because remember, you[br]get a rational number
+by taking a natural number and dividing it
+by a natural number different from zero.
+Suppose your rational number is[br]seventeen divided by ninety-four.
+In order to find the cell that[br]corresponds to that number,
+just go to the column that's[br]labeled "seventeen,"
+and to the row that's labeled[br]"ninety-four,"
+and that's where your[br]number is going to be.
+So every rational number is on the matrix.
+So what Cantor discovered[br]is that you can assign
+a natural number to each[br]cell, and here's how to do it.
+Just diagonalize. So[br]have this one be zero,
+and this one, one. And[br]two, and three, and four,
+and five, and six, and seven,[br]and eight, and so forth.
+Using this system, every rational number
+got assigned a natural number.
+So now we can come back to our hotel.
+So remember, our question[br]was "How could you fit
+infinitely many infinities[br]into your hotel?"
+Well, now we have a way of doing it.
+So, think of each column on our matrix
+as corresponding to one[br]infinity of new guests.
+In order to decide which[br]room to send a person to,
+all you need to do is use Cantor's trick.
+So, assign a natural number to each cell
+in the matrix, and ask the person to go
+to the room corresponding to that number.
+So there, we fit infinitely new
+infinities of guests into our hotel.
+Amazing!
+Subtitles by the Amara.org community

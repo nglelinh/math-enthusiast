@@ -1,0 +1,467 @@
+[
+  {
+    "t_start": 1.72,
+    "t_end": 7.37,
+    "text": "A classical computer performs operations using classical bits, which can be either zero or"
+  },
+  {
+    "t_start": 7.37,
+    "t_end": 8.37,
+    "text": "one."
+  },
+  {
+    "t_start": 8.37,
+    "t_end": 12.85,
+    "text": "Now in contrast, a quantum computer users quantum bits or qubits."
+  },
+  {
+    "t_start": 12.85,
+    "t_end": 16.44,
+    "text": "And they can be both zero and one at the same time."
+  },
+  {
+    "t_start": 16.44,
+    "t_end": 21.179,
+    "text": "And it is this that gives a quantum computer its superior computing power."
+  },
+  {
+    "t_start": 21.179,
+    "t_end": 24.56,
+    "text": "There are a number of physical objects that can be used as a qubit."
+  },
+  {
+    "t_start": 24.56,
+    "t_end": 28.589,
+    "text": "A single photon, a nucleus or an electron."
+  },
+  {
+    "t_start": 28.589,
+    "t_end": 33.75,
+    "text": "I met up with researchers who were using the outermost electron in phosphorous as a qubit."
+  },
+  {
+    "t_start": 33.75,
+    "t_end": 35.12,
+    "text": "But how does that work?"
+  },
+  {
+    "t_start": 35.12,
+    "t_end": 40.69,
+    "text": "Well, all electrons have magnetic fields, so they are basically like tiny bar magnets."
+  },
+  {
+    "t_start": 40.69,
+    "t_end": 43.07,
+    "text": "And this property is called spin."
+  },
+  {
+    "t_start": 43.07,
+    "t_end": 47.89,
+    "text": "If you place them in a magnetic field they will align with that field, just like a compass"
+  },
+  {
+    "t_start": 47.89,
+    "t_end": 50.68,
+    "text": "needle lines up with the magnetic field of the earth."
+  },
+  {
+    "t_start": 50.68,
+    "t_end": 55.76,
+    "text": "Now this is the lowest energy state, so you could call it the zero state or we call it"
+  },
+  {
+    "t_start": 55.76,
+    "t_end": 58.0,
+    "text": "for the electron, spin down."
+  },
+  {
+    "t_start": 58.0,
+    "t_end": 62.71,
+    "text": "Now you can put it in a one state, or spin up, but that takes some energy."
+  },
+  {
+    "t_start": 62.71,
+    "t_end": 66.97,
+    "text": "&gt;&gt; If you took out the glass from your compass you could turn the needle the other way, but"
+  },
+  {
+    "t_start": 66.97,
+    "t_end": 69.0,
+    "text": "you would have to apply some force to it."
+  },
+  {
+    "t_start": 69.0,
+    "t_end": 73.11,
+    "text": "You have to push it to flip to the other side."
+  },
+  {
+    "t_start": 73.11,
+    "t_end": 75.32,
+    "text": "And that is the highest energy state."
+  },
+  {
+    "t_start": 75.32,
+    "t_end": 81.5,
+    "text": "In principle, if you were so delicate to really put it exactly against the magnetic field,"
+  },
+  {
+    "t_start": 81.5,
+    "t_end": 82.85,
+    "text": "it would stay there."
+  },
+  {
+    "t_start": 82.85,
+    "t_end": 85.31,
+    "text": "&gt;&gt; Now so far this is basically just like a classical bit."
+  },
+  {
+    "t_start": 85.31,
+    "t_end": 90.69,
+    "text": "It has got two states, spin up and spin down, which are like the classical one and zero."
+  },
+  {
+    "t_start": 90.69,
+    "t_end": 95.28,
+    "text": "But the funny thing about quantum objects is that thy can be in both states at once."
+  },
+  {
+    "t_start": 95.28,
+    "t_end": 98.99,
+    "text": "Now when you measure the spin it will be either up or down."
+  },
+  {
+    "t_start": 98.99,
+    "t_end": 103.92,
+    "text": "But before you measure it, the electron can exist in what is called a quantum super position,"
+  },
+  {
+    "t_start": 103.92,
+    "t_end": 107.979,
+    "text": "where these coefficients indicate the relative probability of finding the electron in one"
+  },
+  {
+    "t_start": 107.979,
+    "t_end": 109.5,
+    "text": "state or the other."
+  },
+  {
+    "t_start": 109.5,
+    "t_end": 113.87,
+    "text": "Now it is hard to imagine how this enables this incredible computing power of quantum"
+  },
+  {
+    "t_start": 113.87,
+    "t_end": 118.09,
+    "text": "computers without considering two interacting quantum bits."
+  },
+  {
+    "t_start": 118.09,
+    "t_end": 119.09,
+    "text": "&gt;&gt; Hello."
+  },
+  {
+    "t_start": 119.09,
+    "t_end": 120.09,
+    "text": "&gt;&gt; Hi."
+  },
+  {
+    "t_start": 120.09,
+    "t_end": 124.28,
+    "text": "Now there are four possible states of these two electrons."
+  },
+  {
+    "t_start": 124.28,
+    "t_end": 129.03,
+    "text": "&gt;&gt; You could think that, well, that is just like two bits of a classical computer, right?"
+  },
+  {
+    "t_start": 129.03,
+    "t_end": 134.66,
+    "text": "If you have two bits you can write zero, zero; zero, one; one, zero; one, one."
+  },
+  {
+    "t_start": 134.66,
+    "t_end": 135.66,
+    "text": "Right?"
+  },
+  {
+    "t_start": 135.66,
+    "t_end": 138.05,
+    "text": "There is four numbers."
+  },
+  {
+    "t_start": 138.05,
+    "t_end": 139.68,
+    "text": "But these are still just two bits of information."
+  },
+  {
+    "t_start": 139.68,
+    "t_end": 140.68,
+    "text": "Right?"
+  },
+  {
+    "t_start": 140.68,
+    "t_end": 145.93,
+    "text": "All I need to say to determine which one of the four numbers you have in your computer"
+  },
+  {
+    "t_start": 145.93,
+    "t_end": 150.98,
+    "text": "code is the value of the first bit and the value of the second bit."
+  },
+  {
+    "t_start": 150.98,
+    "t_end": 159.83,
+    "text": "Here, instead, quantum mechanics allows me to make super position of each one of these"
+  },
+  {
+    "t_start": 159.83,
+    "t_end": 161.63,
+    "text": "four states."
+  },
+  {
+    "t_start": 161.63,
+    "t_end": 167.26,
+    "text": "So I can write a quantum mechanical state, which is perfectly legitimate, that is some"
+  },
+  {
+    "t_start": 167.26,
+    "t_end": 174.069,
+    "text": "coefficient times this plus some coefficient times that plus some coefficient times that"
+  },
+  {
+    "t_start": 174.069,
+    "t_end": 181.62,
+    "text": "So determine the state of this two spin system, I need to give you four numbers, four coefficients,"
+  },
+  {
+    "t_start": 181.62,
+    "t_end": 187.879,
+    "text": "whereas in the classical example of the two bits, I only need to give you two bits."
+  },
+  {
+    "t_start": 187.879,
+    "t_end": 193.989,
+    "text": "So this is how you understand why two qubits actually contain four bits of information."
+  },
+  {
+    "t_start": 193.989,
+    "t_end": 198.23,
+    "text": "I need to give you four numbers to tell you the state of this system, whereas here I only"
+  },
+  {
+    "t_start": 198.23,
+    "t_end": 199.23,
+    "text": "need two."
+  },
+  {
+    "t_start": 199.23,
+    "t_end": 204.55,
+    "text": "Now if we make three spins, we would have eight different states and it could give you"
+  },
+  {
+    "t_start": 204.55,
+    "t_end": 210.011,
+    "text": "eight different numbers to define the state of those three spins, whereas classical it"
+  },
+  {
+    "t_start": 210.011,
+    "t_end": 211.41,
+    "text": "is just three bits."
+  },
+  {
+    "t_start": 211.41,
+    "t_end": 217.48,
+    "text": "If you keep going, what you find is that the amount of equivalent classical information"
+  },
+  {
+    "t_start": 217.48,
+    "t_end": 225.0,
+    "text": "contained by N qubits is two to the power N classical bits."
+  },
+  {
+    "t_start": 225.0,
+    "t_end": 233.55,
+    "text": "And, of course, the power of exponentials tells you that once you have, let’s say,"
+  },
+  {
+    "t_start": 233.55,
+    "t_end": 241.459,
+    "text": "300 of those qubits in what we call the folient angle state, so you must be able to create"
+  },
+  {
+    "t_start": 241.459,
+    "t_end": 246.099,
+    "text": "these really crazy states where there is a super position of all three angles being one"
+  },
+  {
+    "t_start": 246.099,
+    "t_end": 252.629,
+    "text": "way and another way and another way and so on, then you have like two to the 300 classical"
+  },
+  {
+    "t_start": 252.629,
+    "t_end": 257.309,
+    "text": "bits, which is as many particles as there are in the universe."
+  },
+  {
+    "t_start": 257.309,
+    "t_end": 262.57,
+    "text": "&gt;&gt; But there is a catch, although the qubits can exist in any combination of states, when"
+  },
+  {
+    "t_start": 262.57,
+    "t_end": 265.78,
+    "text": "they are measured they must fall into one of the basis states."
+  },
+  {
+    "t_start": 265.78,
+    "t_end": 269.62,
+    "text": "And all the other information about the state before the measurement is lost."
+  },
+  {
+    "t_start": 269.62,
+    "t_end": 276.37,
+    "text": "&gt;&gt; So you don’t want generally to have as the final result of your quantum computation"
+  },
+  {
+    "t_start": 276.37,
+    "t_end": 281.4,
+    "text": "something that is a very complicated super positional state, because our cannot measure"
+  },
+  {
+    "t_start": 281.4,
+    "t_end": 282.4,
+    "text": "a super position."
+  },
+  {
+    "t_start": 282.4,
+    "t_end": 284.979,
+    "text": "You can only measure one of these basis states."
+  },
+  {
+    "t_start": 284.979,
+    "t_end": 287.759,
+    "text": "&gt;&gt; Like down, down, up, up."
+  },
+  {
+    "t_start": 287.759,
+    "t_end": 288.759,
+    "text": "&gt;&gt; Yeah."
+  },
+  {
+    "t_start": 288.759,
+    "t_end": 297.16,
+    "text": "So what you want is to design the logical operations that you need to get to the final"
+  },
+  {
+    "t_start": 297.16,
+    "t_end": 302.82,
+    "text": "computational result in such a way that the final result is something you are able to"
+  },
+  {
+    "t_start": 302.82,
+    "t_end": 305.59,
+    "text": "measure, just a unique state."
+  },
+  {
+    "t_start": 305.59,
+    "t_end": 307.88,
+    "text": "&gt;&gt; That is not trivial."
+  },
+  {
+    "t_start": 307.88,
+    "t_end": 314.07,
+    "text": "And it is essentially ... I am kind of stretching things, but I guess it is to some degree the"
+  },
+  {
+    "t_start": 314.07,
+    "t_end": 318.91,
+    "text": "reason why quantum computers are not a replacement of classical computers."
+  },
+  {
+    "t_start": 318.91,
+    "t_end": 320.91,
+    "text": "&gt;&gt; No, they are not."
+  },
+  {
+    "t_start": 320.91,
+    "t_end": 323.06,
+    "text": "They are not universally faster."
+  },
+  {
+    "t_start": 323.06,
+    "t_end": 330.68,
+    "text": "They are only faster for special types of calculations where you can use the fact that"
+  },
+  {
+    "t_start": 330.68,
+    "t_end": 335.56,
+    "text": "you have all these quantum super positions available to you at the same time, to do some"
+  },
+  {
+    "t_start": 335.56,
+    "t_end": 337.949,
+    "text": "kind of computational parallelism."
+  },
+  {
+    "t_start": 337.949,
+    "t_end": 344.919,
+    "text": "If you just want to watch a video in high definition or browse the internet or write"
+  },
+  {
+    "t_start": 344.919,
+    "t_end": 351.8,
+    "text": "some documenting work, they are not going to give you any particular improvement if"
+  },
+  {
+    "t_start": 351.8,
+    "t_end": 356.65,
+    "text": "you need to use a classical algorithm to get the result."
+  },
+  {
+    "t_start": 356.65,
+    "t_end": 361.52,
+    "text": "So you should not think of a quantum computer as something where every operation is faster."
+  },
+  {
+    "t_start": 361.52,
+    "t_end": 366.27,
+    "text": "In fact, every operation is probably going to be slower than in the computer you have"
+  },
+  {
+    "t_start": 366.27,
+    "t_end": 367.27,
+    "text": "at your desk."
+  },
+  {
+    "t_start": 367.27,
+    "t_end": 375.169,
+    "text": "But it is a computer where the number of operations required to arrive at the result is exponentially"
+  },
+  {
+    "t_start": 375.169,
+    "t_end": 376.44,
+    "text": "small."
+  },
+  {
+    "t_start": 376.44,
+    "t_end": 379.639,
+    "text": "So the improvement is not in the speed of the individual operation."
+  },
+  {
+    "t_start": 379.639,
+    "t_end": 384.27,
+    "text": "It is in the total number of operations you need to arrive at the result."
+  },
+  {
+    "t_start": 384.27,
+    "t_end": 388.789,
+    "text": "But that is only the case in particular types of calculations, particular algorithms."
+  },
+  {
+    "t_start": 388.789,
+    "t_end": 406.23,
+    "text": "It is not universally, which is why it is not a replacement of a classical computer."
+  }
+]

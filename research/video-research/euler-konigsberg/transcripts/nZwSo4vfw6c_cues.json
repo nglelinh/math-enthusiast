@@ -1,0 +1,352 @@
+[
+  {
+    "t_start": 8.671,
+    "t_end": 13.634,
+    "text": "You'd have a hard time finding Königsberg on any modern maps,"
+  },
+  {
+    "t_start": 13.843,
+    "t_end": 17.346,
+    "text": "but one particular quirk in its geography"
+  },
+  {
+    "t_start": 17.346,
+    "t_end": 21.309,
+    "text": "has made it one of the most famous cities in mathematics."
+  },
+  {
+    "t_start": 21.893,
+    "t_end": 26.147,
+    "text": "The medieval German city lay on both sides of the Pregel River."
+  },
+  {
+    "t_start": 26.147,
+    "t_end": 28.775,
+    "text": "At the center were two large islands."
+  },
+  {
+    "t_start": 28.816,
+    "t_end": 33.112,
+    "text": "The two islands were connected to each other and to the river banks"
+  },
+  {
+    "t_start": 33.112,
+    "t_end": 34.739,
+    "text": "by seven bridges."
+  },
+  {
+    "t_start": 35.74,
+    "t_end": 41.079,
+    "text": "Carl Gottlieb Ehler, a mathematician who later became the mayor of a nearby town,"
+  },
+  {
+    "t_start": 41.079,
+    "t_end": 43.998,
+    "text": "grew obsessed with these islands and bridges."
+  },
+  {
+    "t_start": 44.165,
+    "t_end": 46.918,
+    "text": "He kept coming back to a single question:"
+  },
+  {
+    "t_start": 46.918,
+    "t_end": 50.963,
+    "text": "Which route would allow someone to cross all seven bridges"
+  },
+  {
+    "t_start": 51.047,
+    "t_end": 54.383,
+    "text": "without crossing any of them more than once?"
+  },
+  {
+    "t_start": 54.842,
+    "t_end": 56.302,
+    "text": "Think about it for a moment."
+  },
+  {
+    "t_start": 63.768,
+    "t_end": 64.769,
+    "text": "Give up?"
+  },
+  {
+    "t_start": 64.769,
+    "t_end": 65.812,
+    "text": "You should."
+  },
+  {
+    "t_start": 65.895,
+    "t_end": 67.188,
+    "text": "It's not possible."
+  },
+  {
+    "t_start": 67.188,
+    "t_end": 72.485,
+    "text": "But attempting to explain why led famous mathematician Leonhard Euler"
+  },
+  {
+    "t_start": 72.61,
+    "t_end": 75.613,
+    "text": "to invent a new field of mathematics."
+  },
+  {
+    "t_start": 75.696,
+    "t_end": 78.616,
+    "text": "Carl wrote to Euler for help with the problem."
+  },
+  {
+    "t_start": 78.616,
+    "t_end": 82.912,
+    "text": "Euler first dismissed the question as having nothing to do with math."
+  },
+  {
+    "t_start": 83.162,
+    "t_end": 85.039,
+    "text": "But the more he wrestled with it,"
+  },
+  {
+    "t_start": 85.039,
+    "t_end": 88.543,
+    "text": "the more it seemed there might be something there after all."
+  },
+  {
+    "t_start": 89.085,
+    "t_end": 92.839,
+    "text": "The answer he came up with had to do with a type of geometry"
+  },
+  {
+    "t_start": 92.839,
+    "t_end": 98.177,
+    "text": "that did not quite exist yet, what he called the Geometry of Position,"
+  },
+  {
+    "t_start": 98.302,
+    "t_end": 100.68,
+    "text": "now known as Graph Theory."
+  },
+  {
+    "t_start": 101.889,
+    "t_end": 103.432,
+    "text": "Euler's first insight"
+  },
+  {
+    "t_start": 103.432,
+    "t_end": 108.521,
+    "text": "was that the route taken between entering an island or a riverbank and leaving it"
+  },
+  {
+    "t_start": 108.604,
+    "t_end": 110.273,
+    "text": "didn't actually matter."
+  },
+  {
+    "t_start": 110.273,
+    "t_end": 114.402,
+    "text": "Thus, the map could be simplified with each of the four landmasses"
+  },
+  {
+    "t_start": 114.402,
+    "t_end": 116.529,
+    "text": "represented as a single point,"
+  },
+  {
+    "t_start": 116.529,
+    "t_end": 118.739,
+    "text": "what we now call a node,"
+  },
+  {
+    "t_start": 118.99,
+    "t_end": 123.369,
+    "text": "with lines, or edges, between them to represent the bridges."
+  },
+  {
+    "t_start": 123.661,
+    "t_end": 129.208,
+    "text": "And this simplified graph allows us to easily count the degrees of each node."
+  },
+  {
+    "t_start": 129.292,
+    "t_end": 132.712,
+    "text": "That's the number of bridges each land mass touches."
+  },
+  {
+    "t_start": 132.837,
+    "t_end": 134.38,
+    "text": "Why do the degrees matter?"
+  },
+  {
+    "t_start": 134.38,
+    "t_end": 136.799,
+    "text": "Well, according to the rules of the challenge,"
+  },
+  {
+    "t_start": 136.799,
+    "t_end": 140.511,
+    "text": "once travelers arrive onto a landmass by one bridge,"
+  },
+  {
+    "t_start": 140.511,
+    "t_end": 143.431,
+    "text": "they would have to leave it via a different bridge."
+  },
+  {
+    "t_start": 143.431,
+    "t_end": 148.144,
+    "text": "In other words, the bridges leading to and from each node on any route"
+  },
+  {
+    "t_start": 148.144,
+    "t_end": 150.438,
+    "text": "must occur in distinct pairs,"
+  },
+  {
+    "t_start": 150.438,
+    "t_end": 154.108,
+    "text": "meaning that the number of bridges touching each landmass visited"
+  },
+  {
+    "t_start": 154.233,
+    "t_end": 155.568,
+    "text": "must be even."
+  },
+  {
+    "t_start": 156.068,
+    "t_end": 159.947,
+    "text": "The only possible exceptions would be the locations of the beginning"
+  },
+  {
+    "t_start": 159.947,
+    "t_end": 161.657,
+    "text": "and end of the walk."
+  },
+  {
+    "t_start": 161.908,
+    "t_end": 166.829,
+    "text": "Looking at the graph, it becomes apparent that all four nodes have an odd degree."
+  },
+  {
+    "t_start": 166.996,
+    "t_end": 169.123,
+    "text": "So no matter which path is chosen,"
+  },
+  {
+    "t_start": 169.123,
+    "t_end": 172.919,
+    "text": "at some point, a bridge will have to be crossed twice."
+  },
+  {
+    "t_start": 174.045,
+    "t_end": 177.632,
+    "text": "Euler used this proof to formulate a general theory"
+  },
+  {
+    "t_start": 177.632,
+    "t_end": 181.302,
+    "text": "that applies to all graphs with two or more nodes."
+  },
+  {
+    "t_start": 181.594,
+    "t_end": 185.806,
+    "text": "A Eulerian path that visits each edge only once"
+  },
+  {
+    "t_start": 185.806,
+    "t_end": 188.851,
+    "text": "is only possible in one of two scenarios."
+  },
+  {
+    "t_start": 189.227,
+    "t_end": 193.564,
+    "text": "The first is when there are exactly two nodes of odd degree,"
+  },
+  {
+    "t_start": 193.564,
+    "t_end": 195.775,
+    "text": "meaning all the rest are even."
+  },
+  {
+    "t_start": 196.108,
+    "t_end": 199.32,
+    "text": "There, the starting point is one of the odd nodes,"
+  },
+  {
+    "t_start": 199.32,
+    "t_end": 201.197,
+    "text": "and the end point is the other."
+  },
+  {
+    "t_start": 202.365,
+    "t_end": 205.785,
+    "text": "The second is when all the nodes are of even degree."
+  },
+  {
+    "t_start": 206.077,
+    "t_end": 210.498,
+    "text": "Then, the Eulerian path will start and stop in the same location,"
+  },
+  {
+    "t_start": 210.623,
+    "t_end": 213.834,
+    "text": "which also makes it something called a Eulerian circuit."
+  },
+  {
+    "t_start": 214.543,
+    "t_end": 218.047,
+    "text": "So how might you create a Eulerian path in Königsberg?"
+  },
+  {
+    "t_start": 218.047,
+    "t_end": 219.048,
+    "text": "It's simple."
+  },
+  {
+    "t_start": 219.048,
+    "t_end": 221.217,
+    "text": "Just remove any one bridge."
+  },
+  {
+    "t_start": 221.384,
+    "t_end": 225.429,
+    "text": "And it turns out, history created a Eulerian path of its own."
+  },
+  {
+    "t_start": 225.763,
+    "t_end": 230.518,
+    "text": "During World War II, the Soviet Air Force destroyed two of the city's bridges,"
+  },
+  {
+    "t_start": 230.518,
+    "t_end": 233.312,
+    "text": "making a Eulerian path easily possible."
+  },
+  {
+    "t_start": 233.479,
+    "t_end": 236.774,
+    "text": "Though, to be fair, that probably wasn't their intention."
+  },
+  {
+    "t_start": 237.024,
+    "t_end": 240.486,
+    "text": "These bombings pretty much wiped Königsberg off the map,"
+  },
+  {
+    "t_start": 240.611,
+    "t_end": 244.573,
+    "text": "and it was later rebuilt as the Russian city of Kaliningrad."
+  },
+  {
+    "t_start": 244.824,
+    "t_end": 248.995,
+    "text": "So while Königsberg and her seven bridges may not be around anymore,"
+  },
+  {
+    "t_start": 249.078,
+    "t_end": 253.291,
+    "text": "they will be remembered throughout history by the seemingly trivial riddle"
+  },
+  {
+    "t_start": 253.291,
+    "t_end": 257.586,
+    "text": "which led to the emergence of a whole new field of mathematics."
+  }
+]

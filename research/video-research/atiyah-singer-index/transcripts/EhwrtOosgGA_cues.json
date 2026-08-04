@@ -1,0 +1,2177 @@
+[
+  {
+    "t_start": 2.47,
+    "t_end": 3.35,
+    "text": "sorry to interrupt oh sorry it's just going to say if we're"
+  },
+  {
+    "t_start": 3.35,
+    "t_end": 5.51,
+    "text": "going to say if we're recording or not you know that's that's"
+  },
+  {
+    "t_start": 5.51,
+    "t_end": 6.63,
+    "text": "recording or not you know that's that's that's okay you can"
+  },
+  {
+    "t_start": 6.63,
+    "t_end": 16.31,
+    "text": "mentioning this or you can you can mention it uh during the break right"
+  },
+  {
+    "t_start": 16.31,
+    "t_end": 19.429,
+    "text": "mention it uh during the break right okay uh so let's start with"
+  },
+  {
+    "t_start": 19.429,
+    "t_end": 24.63,
+    "text": "okay uh so let's start with um"
+  },
+  {
+    "t_start": 28.15,
+    "t_end": 44.15,
+    "text": "so maybe just some general remarks on ntsc gear index theorem"
+  },
+  {
+    "t_start": 44.15,
+    "t_end": 48.389,
+    "text": "ntsc gear index theorem um so"
+  },
+  {
+    "t_start": 48.389,
+    "t_end": 54.31,
+    "text": "the problem is uh i mean you can approach the subject"
+  },
+  {
+    "t_start": 54.31,
+    "t_end": 60.389,
+    "text": "from many different angles so the way i like to present it is"
+  },
+  {
+    "t_start": 60.389,
+    "t_end": 67.35,
+    "text": "so the way i like to present it is imagine you have a linear operator"
+  },
+  {
+    "t_start": 72.789,
+    "t_end": 78.39,
+    "text": "uh i like to call it an operator so for me linear maps and linear operators"
+  },
+  {
+    "t_start": 78.39,
+    "t_end": 84.31,
+    "text": "for me linear maps and linear operators or operators are the same thing"
+  },
+  {
+    "t_start": 87.35,
+    "t_end": 90.789,
+    "text": "so imagine you have a linear map but between two vector spaces and imagine"
+  },
+  {
+    "t_start": 90.789,
+    "t_end": 93.109,
+    "text": "between two vector spaces and imagine you are interested in uh"
+  },
+  {
+    "t_start": 93.109,
+    "t_end": 98.069,
+    "text": "you are interested in uh solving the following equation df"
+  },
+  {
+    "t_start": 104.31,
+    "t_end": 105.51,
+    "text": "so when you have a inhomogeneous equation like that"
+  },
+  {
+    "t_start": 105.51,
+    "t_end": 110.55,
+    "text": "the f equal to g you might be interested in knowing for example"
+  },
+  {
+    "t_start": 110.55,
+    "t_end": 116.789,
+    "text": "in knowing for example dimension of kernel of p"
+  },
+  {
+    "t_start": 120.709,
+    "t_end": 122.63,
+    "text": "um but i can tell you that except when these guys are finite"
+  },
+  {
+    "t_start": 122.63,
+    "t_end": 123.91,
+    "text": "except when these guys are finite dimensional"
+  },
+  {
+    "t_start": 123.91,
+    "t_end": 128.63,
+    "text": "computing dimension of kernel is a very hard problem"
+  },
+  {
+    "t_start": 128.63,
+    "t_end": 131.83,
+    "text": "and the reason i mean at least one reason for this big"
+  },
+  {
+    "t_start": 131.83,
+    "t_end": 139.43,
+    "text": "hard problem is that this is not a continuous function in d"
+  },
+  {
+    "t_start": 139.43,
+    "t_end": 144.229,
+    "text": "not a continuous function in d so so so let me just say not"
+  },
+  {
+    "t_start": 144.229,
+    "t_end": 157.03,
+    "text": "so so so let me just say not a continuous function"
+  },
+  {
+    "t_start": 157.03,
+    "t_end": 163.91,
+    "text": "now of course i have to tell you um what i mean by continuous function"
+  },
+  {
+    "t_start": 163.91,
+    "t_end": 166.309,
+    "text": "um what i mean by continuous function in d because d after all is just an"
+  },
+  {
+    "t_start": 166.309,
+    "t_end": 167.91,
+    "text": "in d because d after all is just an operator but imagine"
+  },
+  {
+    "t_start": 167.91,
+    "t_end": 171.11,
+    "text": "operator but imagine there is a space that you can choose"
+  },
+  {
+    "t_start": 171.11,
+    "t_end": 177.27,
+    "text": "uh from and if you change these slowly uh from one point to another"
+  },
+  {
+    "t_start": 177.27,
+    "t_end": 178.149,
+    "text": "slowly uh from one point to another point"
+  },
+  {
+    "t_start": 178.149,
+    "t_end": 181.43,
+    "text": "uh it could happen that this dimension is not"
+  },
+  {
+    "t_start": 181.43,
+    "t_end": 187.03,
+    "text": "uh there are jumps in the dimension you can easily construct examples of this"
+  },
+  {
+    "t_start": 187.03,
+    "t_end": 189.43,
+    "text": "can easily construct examples of this so that's that's one reason why this"
+  },
+  {
+    "t_start": 189.43,
+    "t_end": 190.149,
+    "text": "so that's that's one reason why this quantity"
+  },
+  {
+    "t_start": 190.149,
+    "t_end": 194.309,
+    "text": "quantity is kind of hard to compute"
+  },
+  {
+    "t_start": 196.39,
+    "t_end": 198.47,
+    "text": "and in a similar way i mean the things that's related to g"
+  },
+  {
+    "t_start": 198.47,
+    "t_end": 203.83,
+    "text": "that's related to g is about what conditions g has to"
+  },
+  {
+    "t_start": 203.83,
+    "t_end": 208.47,
+    "text": "so if you think about the number of conditions that g has to satisfy"
+  },
+  {
+    "t_start": 208.47,
+    "t_end": 218.229,
+    "text": "conditions that g has to satisfy this is related to co-kernel of this map"
+  },
+  {
+    "t_start": 227.11,
+    "t_end": 227.67,
+    "text": "i mean i can give a very simple example uh"
+  },
+  {
+    "t_start": 227.67,
+    "t_end": 230.869,
+    "text": "let's look at this example uh for example"
+  },
+  {
+    "t_start": 230.869,
+    "t_end": 234.309,
+    "text": "just even finite dimensional case this is a story"
+  },
+  {
+    "t_start": 234.309,
+    "t_end": 238.149,
+    "text": "is a story this story can happen imagine you have a"
+  },
+  {
+    "t_start": 238.149,
+    "t_end": 247.11,
+    "text": "family of operators like this is epsilon 0 0 1 so epsilon is between 1 and for"
+  },
+  {
+    "t_start": 247.11,
+    "t_end": 247.75,
+    "text": "0 0 1 so epsilon is between 1 and for example"
+  },
+  {
+    "t_start": 247.75,
+    "t_end": 254.789,
+    "text": "0. you see a dimension of kernel of epsilon"
+  },
+  {
+    "t_start": 254.789,
+    "t_end": 261.909,
+    "text": "i mean d epsilon d that's equal to well i mean if epsilon"
+  },
+  {
+    "t_start": 261.909,
+    "t_end": 262.95,
+    "text": "that's equal to well i mean if epsilon is not zero"
+  },
+  {
+    "t_start": 262.95,
+    "t_end": 266.469,
+    "text": "is not zero this this operator is injected this is"
+  },
+  {
+    "t_start": 266.469,
+    "t_end": 270.39,
+    "text": "so if epsilon is positive but all of a sudden"
+  },
+  {
+    "t_start": 270.39,
+    "t_end": 275.59,
+    "text": "at zero this this is zero its dimension is picks up a kernel and this cable is"
+  },
+  {
+    "t_start": 275.59,
+    "t_end": 279.59,
+    "text": "is picks up a kernel and this cable is one dimensional so"
+  },
+  {
+    "t_start": 282.15,
+    "t_end": 286.55,
+    "text": "you see this function as a function of epsilon which is kind of a space of"
+  },
+  {
+    "t_start": 286.55,
+    "t_end": 290.629,
+    "text": "it's not continuous right you can easily construct the example for the second"
+  },
+  {
+    "t_start": 290.629,
+    "t_end": 292.31,
+    "text": "construct the example for the second type"
+  },
+  {
+    "t_start": 292.31,
+    "t_end": 297.909,
+    "text": "so these things individually they are not topologically invariant we"
+  },
+  {
+    "t_start": 297.909,
+    "t_end": 298.469,
+    "text": "they are not topologically invariant we say"
+  },
+  {
+    "t_start": 298.469,
+    "t_end": 303.67,
+    "text": "this kernel and cocaine are not topological environments"
+  },
+  {
+    "t_start": 303.67,
+    "t_end": 309.67,
+    "text": "topological environments okay but what was discovered a long time"
+  },
+  {
+    "t_start": 309.67,
+    "t_end": 313.029,
+    "text": "ago is that"
+  },
+  {
+    "t_start": 315.189,
+    "t_end": 317.51,
+    "text": "the difference for some classes of operations the difference"
+  },
+  {
+    "t_start": 317.51,
+    "t_end": 324.79,
+    "text": "operations the difference changes continuously so let me"
+  },
+  {
+    "t_start": 324.79,
+    "t_end": 329.029,
+    "text": "put it here but for some operators at least"
+  },
+  {
+    "t_start": 339.27,
+    "t_end": 342.79,
+    "text": "kernel of the minus dimension of of d which is"
+  },
+  {
+    "t_start": 342.79,
+    "t_end": 349.11,
+    "text": "of d which is denoted by index of e"
+  },
+  {
+    "t_start": 351.35,
+    "t_end": 352.629,
+    "text": "amazingly and this is not an obvious fact at all"
+  },
+  {
+    "t_start": 352.629,
+    "t_end": 356.629,
+    "text": "fact at all amazingly this number in many situations"
+  },
+  {
+    "t_start": 356.629,
+    "t_end": 365.43,
+    "text": "good situations i should say is continuous"
+  },
+  {
+    "t_start": 372.23,
+    "t_end": 373.35,
+    "text": "i mean when i say it's continuous i mean is continuous"
+  },
+  {
+    "t_start": 373.35,
+    "t_end": 379.909,
+    "text": "for a large or for a known at least class of operators that we have to"
+  },
+  {
+    "t_start": 379.909,
+    "t_end": 381.59,
+    "text": "class of operators that we have to specify later on"
+  },
+  {
+    "t_start": 381.59,
+    "t_end": 385.67,
+    "text": "specify later on we have to say what p is what w is and"
+  },
+  {
+    "t_start": 385.67,
+    "t_end": 393.749,
+    "text": "good these are so that this makes it continuous so this is by itself"
+  },
+  {
+    "t_start": 393.749,
+    "t_end": 405.83,
+    "text": "continuous so this is by itself is an amazing fact and this number is"
+  },
+  {
+    "t_start": 409.35,
+    "t_end": 413.99,
+    "text": "if you look at it like this it's it's a very general uh"
+  },
+  {
+    "t_start": 413.99,
+    "t_end": 418.95,
+    "text": "problem general phenomenon uh you can even study it as part of"
+  },
+  {
+    "t_start": 418.95,
+    "t_end": 421.749,
+    "text": "even study it as part of kind of internet dimensional lia algebra"
+  },
+  {
+    "t_start": 421.749,
+    "t_end": 423.029,
+    "text": "kind of internet dimensional lia algebra and"
+  },
+  {
+    "t_start": 423.029,
+    "t_end": 426.629,
+    "text": "you can prove some fun theorems with that or in"
+  },
+  {
+    "t_start": 426.629,
+    "t_end": 430.79,
+    "text": "functional analysis for example we can study these things in the context of"
+  },
+  {
+    "t_start": 430.79,
+    "t_end": 435.029,
+    "text": "study these things in the context of hyperspaces um but that's not what"
+  },
+  {
+    "t_start": 435.029,
+    "t_end": 438.79,
+    "text": "hyperspaces um but that's not what a tsunami experiment is about"
+  },
+  {
+    "t_start": 438.79,
+    "t_end": 446.07,
+    "text": "the discovery of atucker is that there are some situations where"
+  },
+  {
+    "t_start": 446.07,
+    "t_end": 449.67,
+    "text": "there are some situations where this kind of index"
+  },
+  {
+    "t_start": 449.67,
+    "t_end": 452.95,
+    "text": "this kind of index can be related to geometry and topology"
+  },
+  {
+    "t_start": 452.95,
+    "t_end": 465.029,
+    "text": "manifolds so let me then write it like this"
+  },
+  {
+    "t_start": 465.029,
+    "t_end": 468.55,
+    "text": "write it like this um"
+  },
+  {
+    "t_start": 475.83,
+    "t_end": 479.27,
+    "text": "so by the way before i go on so this is a an integer value"
+  },
+  {
+    "t_start": 479.27,
+    "t_end": 483.27,
+    "text": "a an integer value quantity right i mean it just uh takes"
+  },
+  {
+    "t_start": 483.27,
+    "t_end": 489.029,
+    "text": "so it means that on kind of open subsets of the space of these"
+  },
+  {
+    "t_start": 489.029,
+    "t_end": 493.99,
+    "text": "uh this is actually constant that's one reason we call this a topological"
+  },
+  {
+    "t_start": 493.99,
+    "t_end": 494.71,
+    "text": "reason we call this a topological invariant"
+  },
+  {
+    "t_start": 494.71,
+    "t_end": 499.11,
+    "text": "it's uh it's it's it's an integer valued environment and it's not"
+  },
+  {
+    "t_start": 499.11,
+    "t_end": 504.07,
+    "text": "changing under at least a small perturbations or variations"
+  },
+  {
+    "t_start": 504.07,
+    "t_end": 516.389,
+    "text": "perturbations or variations so it's a topological impact"
+  },
+  {
+    "t_start": 520.79,
+    "t_end": 525.59,
+    "text": "okay so now what is discovered this was around 1961"
+  },
+  {
+    "t_start": 528.949,
+    "t_end": 538.389,
+    "text": "was that there are many examples of such these in geometry"
+  },
+  {
+    "t_start": 556.55,
+    "t_end": 561.509,
+    "text": "um they can be expressed as index"
+  },
+  {
+    "t_start": 577.67,
+    "t_end": 581.19,
+    "text": "as index of an operating and not only that"
+  },
+  {
+    "t_start": 581.19,
+    "t_end": 584.949,
+    "text": "but in those situations that they they were they could find"
+  },
+  {
+    "t_start": 584.949,
+    "t_end": 589.509,
+    "text": "were they could find a an alternative formula for computing"
+  },
+  {
+    "t_start": 589.509,
+    "t_end": 593.35,
+    "text": "because computing the index it means you're computing an"
+  },
+  {
+    "t_start": 593.35,
+    "t_end": 597.03,
+    "text": "you're computing an invariant a topological environment for"
+  },
+  {
+    "t_start": 597.03,
+    "t_end": 602.31,
+    "text": "but in many cases it's kind of hopeless to go through this"
+  },
+  {
+    "t_start": 602.31,
+    "t_end": 606.87,
+    "text": "to go through this original definition because uh it's hard"
+  },
+  {
+    "t_start": 606.87,
+    "t_end": 611.19,
+    "text": "to compute uh the difference uh sort of computer"
+  },
+  {
+    "t_start": 611.19,
+    "t_end": 614.47,
+    "text": "but there's an alternative formula because it's a topological"
+  },
+  {
+    "t_start": 614.47,
+    "t_end": 622.31,
+    "text": "invariant that kind of lends itself to being computable in close forms"
+  },
+  {
+    "t_start": 622.31,
+    "t_end": 626.389,
+    "text": "being computable in close forms so let me give you an example as a"
+  },
+  {
+    "t_start": 626.389,
+    "t_end": 634.069,
+    "text": "so that you see what i'm talking about so here's example one"
+  },
+  {
+    "t_start": 647.829,
+    "t_end": 654.47,
+    "text": "that's euler characteristic for example okay so um all the characteristic"
+  },
+  {
+    "t_start": 654.47,
+    "t_end": 655.35,
+    "text": "uh well i mean okay so i mean imagine you have a"
+  },
+  {
+    "t_start": 655.35,
+    "t_end": 661.99,
+    "text": "smooth uh closed or manifold and you know the euler characteristic there"
+  },
+  {
+    "t_start": 661.99,
+    "t_end": 663.59,
+    "text": "you know the euler characteristic there are many definitions for euler"
+  },
+  {
+    "t_start": 663.59,
+    "t_end": 665.35,
+    "text": "are many definitions for euler characteristics like"
+  },
+  {
+    "t_start": 665.35,
+    "t_end": 671.59,
+    "text": "m so one definition could be something like alternating sums of beta"
+  },
+  {
+    "t_start": 671.59,
+    "t_end": 673.11,
+    "text": "something like alternating sums of beta numbers right so this is"
+  },
+  {
+    "t_start": 673.11,
+    "t_end": 676.949,
+    "text": "numbers right so this is d0 minus p1 plus"
+  },
+  {
+    "t_start": 676.949,
+    "t_end": 684.949,
+    "text": "d0 minus p1 plus e2 plus 1 minus"
+  },
+  {
+    "t_start": 688.55,
+    "t_end": 698.949,
+    "text": "okay so what di is the id number"
+  },
+  {
+    "t_start": 702.71,
+    "t_end": 706.55,
+    "text": "and as you know this is a dimension of we can define it in many ways"
+  },
+  {
+    "t_start": 706.55,
+    "t_end": 708.79,
+    "text": "of we can define it in many ways but this is the dimension of for example"
+  },
+  {
+    "t_start": 708.79,
+    "t_end": 710.79,
+    "text": "but this is the dimension of for example some homology group"
+  },
+  {
+    "t_start": 710.79,
+    "t_end": 718.23,
+    "text": "h i of n and coefficients for example over r"
+  },
+  {
+    "t_start": 719.99,
+    "t_end": 721.67,
+    "text": "you can take many different types of homology groups but"
+  },
+  {
+    "t_start": 721.67,
+    "t_end": 725.35,
+    "text": "homology groups but take your favorite they're all the same"
+  },
+  {
+    "t_start": 725.35,
+    "t_end": 732.31,
+    "text": "and this is a this is an integer that basically counts the number of i"
+  },
+  {
+    "t_start": 732.31,
+    "t_end": 734.15,
+    "text": "that basically counts the number of i dimensional holes"
+  },
+  {
+    "t_start": 734.15,
+    "t_end": 742.069,
+    "text": "dimensional holes in your space and this alternating sound"
+  },
+  {
+    "t_start": 745.35,
+    "t_end": 748.47,
+    "text": "better number of me sorry is is the order characteristic of the mind"
+  },
+  {
+    "t_start": 748.47,
+    "t_end": 752.629,
+    "text": "order characteristic of the mind so um now uh"
+  },
+  {
+    "t_start": 752.629,
+    "t_end": 755.91,
+    "text": "so um now uh this cayenne is actually is is"
+  },
+  {
+    "t_start": 755.91,
+    "t_end": 763.19,
+    "text": "this cayenne is actually is is is an index"
+  },
+  {
+    "t_start": 774.55,
+    "t_end": 781.67,
+    "text": "so what operator is it uh so in my general"
+  },
+  {
+    "t_start": 781.67,
+    "t_end": 785.99,
+    "text": "uh so in my general definition i have operator d and then i"
+  },
+  {
+    "t_start": 785.99,
+    "t_end": 792.069,
+    "text": "spaces v and w's and so the question is what are these operators in this case"
+  },
+  {
+    "t_start": 792.069,
+    "t_end": 793.11,
+    "text": "what are these operators in this case right"
+  },
+  {
+    "t_start": 793.11,
+    "t_end": 797.67,
+    "text": "right well in this case"
+  },
+  {
+    "t_start": 800.949,
+    "t_end": 803.829,
+    "text": "the operator d is something that we can write as"
+  },
+  {
+    "t_start": 814.71,
+    "t_end": 819.11,
+    "text": "direct sum of say even"
+  },
+  {
+    "t_start": 822.389,
+    "t_end": 825.509,
+    "text": "forms on space m i zero"
+  },
+  {
+    "t_start": 825.509,
+    "t_end": 829.269,
+    "text": "m i zero or whatever"
+  },
+  {
+    "t_start": 829.269,
+    "t_end": 833.829,
+    "text": "so this is a space of even forms uh there are differential forms"
+  },
+  {
+    "t_start": 833.829,
+    "t_end": 837.03,
+    "text": "there are differential forms two um"
+  },
+  {
+    "t_start": 837.03,
+    "t_end": 845.03,
+    "text": "two um cod forms but direct sum of all of them"
+  },
+  {
+    "t_start": 848.87,
+    "t_end": 862.949,
+    "text": "okay so please there is this d is the wrong differential"
+  },
+  {
+    "t_start": 864.949,
+    "t_end": 866.31,
+    "text": "so this is a generalization of the gradient uh"
+  },
+  {
+    "t_start": 866.31,
+    "t_end": 870.23,
+    "text": "gradient uh or or or divergence or"
+  },
+  {
+    "t_start": 870.23,
+    "t_end": 874.23,
+    "text": "or or or divergence or actually gradient operator for example"
+  },
+  {
+    "t_start": 874.23,
+    "t_end": 878.389,
+    "text": "you can think of takes a p form sends it to p plus one"
+  },
+  {
+    "t_start": 878.389,
+    "t_end": 890.71,
+    "text": "and this this star is the i joint uh which is the um"
+  },
+  {
+    "t_start": 894.31,
+    "t_end": 904.79,
+    "text": "you can define this this star if m is a romanian manifold if"
+  },
+  {
+    "t_start": 906.79,
+    "t_end": 908.71,
+    "text": "there are some details here that i will cover later on but let me just"
+  },
+  {
+    "t_start": 908.71,
+    "t_end": 913.189,
+    "text": "cover later on but let me just uh briefly mention uh fix onion"
+  },
+  {
+    "t_start": 913.189,
+    "t_end": 924.069,
+    "text": "uh briefly mention uh fix onion patrick"
+  },
+  {
+    "t_start": 927.75,
+    "t_end": 931.189,
+    "text": "then we'll see actually there is a rather deep result of uh"
+  },
+  {
+    "t_start": 931.189,
+    "t_end": 938.31,
+    "text": "rather deep result of uh geometry anthropology of manifolds that"
+  },
+  {
+    "t_start": 938.31,
+    "t_end": 944.31,
+    "text": "uh implies that uh so this is basically uh hodge theorem"
+  },
+  {
+    "t_start": 946.31,
+    "t_end": 951.509,
+    "text": "this result later on as i said so this hash theorem basically implies"
+  },
+  {
+    "t_start": 951.509,
+    "t_end": 952.23,
+    "text": "so this hash theorem basically implies that"
+  },
+  {
+    "t_start": 952.23,
+    "t_end": 960.389,
+    "text": "that index of this d"
+  },
+  {
+    "t_start": 963.509,
+    "t_end": 968.47,
+    "text": "index of t is equal to indeed euler characteristic of them"
+  },
+  {
+    "t_start": 968.47,
+    "t_end": 978.87,
+    "text": "indeed euler characteristic of them right"
+  },
+  {
+    "t_start": 982.23,
+    "t_end": 989.35,
+    "text": "we are saying that yeah i mean okay so this index uh that we have some kind of"
+  },
+  {
+    "t_start": 989.35,
+    "t_end": 990.389,
+    "text": "this index uh that we have some kind of abstract"
+  },
+  {
+    "t_start": 990.389,
+    "t_end": 994.949,
+    "text": "definition at first now becomes something very very concrete"
+  },
+  {
+    "t_start": 994.949,
+    "t_end": 998.55,
+    "text": "something very very concrete it measures euler characteristic of the"
+  },
+  {
+    "t_start": 998.55,
+    "t_end": 1004.71,
+    "text": "if you apply this to this operator but that's not index theorem right this"
+  },
+  {
+    "t_start": 1004.71,
+    "t_end": 1006.23,
+    "text": "but that's not index theorem right this is just an observation"
+  },
+  {
+    "t_start": 1006.23,
+    "t_end": 1011.11,
+    "text": "is just an observation this is easy to see that the the"
+  },
+  {
+    "t_start": 1011.11,
+    "t_end": 1016.47,
+    "text": "of tiers singer for example at first they had other observations but this is"
+  },
+  {
+    "t_start": 1016.47,
+    "t_end": 1017.749,
+    "text": "they had other observations but this is one of the things that"
+  },
+  {
+    "t_start": 1017.749,
+    "t_end": 1020.31,
+    "text": "one of the things that they noticed they can they can observe"
+  },
+  {
+    "t_start": 1020.31,
+    "t_end": 1025.829,
+    "text": "they noticed they can they can observe but that's not in the experiment"
+  },
+  {
+    "t_start": 1025.829,
+    "t_end": 1027.829,
+    "text": "so what is index theorem um there was an earlier result that"
+  },
+  {
+    "t_start": 1027.829,
+    "t_end": 1030.39,
+    "text": "there was an earlier result that calculated order characteristic in terms"
+  },
+  {
+    "t_start": 1030.39,
+    "t_end": 1030.63,
+    "text": "calculated order characteristic in terms of"
+  },
+  {
+    "t_start": 1030.63,
+    "t_end": 1036.829,
+    "text": "immanuel metric so this was an old result"
+  },
+  {
+    "t_start": 1040.23,
+    "t_end": 1045.669,
+    "text": "essentially due to girls on a and uh another guy"
+  },
+  {
+    "t_start": 1067.35,
+    "t_end": 1070.39,
+    "text": "so imagine you have a closed oriented romanian surface"
+  },
+  {
+    "t_start": 1070.39,
+    "t_end": 1074.789,
+    "text": "oriented romanian surface so we take a closed oriented surface"
+  },
+  {
+    "t_start": 1074.789,
+    "t_end": 1079.669,
+    "text": "plus an imagined metric on the surface so imagine you have this"
+  },
+  {
+    "t_start": 1079.669,
+    "t_end": 1085.59,
+    "text": "with several holes and you uh kind of put it in a space and then it"
+  },
+  {
+    "t_start": 1085.59,
+    "t_end": 1086.71,
+    "text": "kind of put it in a space and then it absorbs"
+  },
+  {
+    "t_start": 1086.71,
+    "t_end": 1090.39,
+    "text": "absorbs it it gets a metric from the ambient"
+  },
+  {
+    "t_start": 1090.39,
+    "t_end": 1097.029,
+    "text": "there is a way of measuring distances on on this m"
+  },
+  {
+    "t_start": 1101.51,
+    "t_end": 1105.51,
+    "text": "uh by finding uh like uh shortest path that lies on the space and you measure"
+  },
+  {
+    "t_start": 1105.51,
+    "t_end": 1111.27,
+    "text": "as a path in the space but it has to be always on the surface so that gives you"
+  },
+  {
+    "t_start": 1111.27,
+    "t_end": 1113.029,
+    "text": "always on the surface so that gives you a romanian metric and this is the"
+  },
+  {
+    "t_start": 1113.029,
+    "t_end": 1114.15,
+    "text": "a romanian metric and this is the demanding metric"
+  },
+  {
+    "t_start": 1114.15,
+    "t_end": 1120.83,
+    "text": "that comes here and the ghost community theorem says that"
+  },
+  {
+    "t_start": 1121.99,
+    "t_end": 1129.27,
+    "text": "coyotes in this case is one over two pi integral"
+  },
+  {
+    "t_start": 1129.27,
+    "t_end": 1137.35,
+    "text": "over m now let me tell you what this k is this k is the gauss curvature"
+  },
+  {
+    "t_start": 1137.35,
+    "t_end": 1140.39,
+    "text": "is this k is the gauss curvature of m so this"
+  },
+  {
+    "t_start": 1140.39,
+    "t_end": 1147.23,
+    "text": "of m so this is the girl's"
+  },
+  {
+    "t_start": 1155.909,
+    "t_end": 1159.19,
+    "text": "and this d a is area element so it just basically uh gives you a way of"
+  },
+  {
+    "t_start": 1159.19,
+    "t_end": 1163.35,
+    "text": "measuring areas if you integrate for example if k"
+  },
+  {
+    "t_start": 1163.35,
+    "t_end": 1167.59,
+    "text": "if you integrate d a over n you get the whole area of the surface but in general"
+  },
+  {
+    "t_start": 1167.59,
+    "t_end": 1168.71,
+    "text": "whole area of the surface but in general we have the integrate"
+  },
+  {
+    "t_start": 1168.71,
+    "t_end": 1174.47,
+    "text": "k against this area element so this is if you want this is some sort"
+  },
+  {
+    "t_start": 1174.47,
+    "t_end": 1175.029,
+    "text": "so this is if you want this is some sort of"
+  },
+  {
+    "t_start": 1175.029,
+    "t_end": 1181.75,
+    "text": "average curvature of uh your space"
+  },
+  {
+    "t_start": 1181.75,
+    "t_end": 1188.23,
+    "text": "of your surface uh divided by two pi you get uh euler characteristics"
+  },
+  {
+    "t_start": 1188.23,
+    "t_end": 1190.39,
+    "text": "you get uh euler characteristics so this is the classic two-dimensional"
+  },
+  {
+    "t_start": 1190.39,
+    "t_end": 1192.23,
+    "text": "so this is the classic two-dimensional gaussian nature"
+  },
+  {
+    "t_start": 1192.23,
+    "t_end": 1197.59,
+    "text": "and so now by this observation this is actually equal to"
+  },
+  {
+    "t_start": 1197.59,
+    "t_end": 1200.95,
+    "text": "actually equal to index of"
+  },
+  {
+    "t_start": 1204.31,
+    "t_end": 1209.029,
+    "text": "d so now this is the side this result"
+  },
+  {
+    "t_start": 1211.99,
+    "t_end": 1213.59,
+    "text": "is a kind of prototype at your senior index theorem now"
+  },
+  {
+    "t_start": 1213.59,
+    "t_end": 1221.11,
+    "text": "because we have an operator its index is this invariant that's fine"
+  },
+  {
+    "t_start": 1221.11,
+    "t_end": 1224.71,
+    "text": "its index is this invariant that's fine but it's given by this explicit"
+  },
+  {
+    "t_start": 1224.71,
+    "t_end": 1228.47,
+    "text": "but it's given by this explicit differential form which is kda"
+  },
+  {
+    "t_start": 1228.47,
+    "t_end": 1234.31,
+    "text": "and this is what actually senior index theorem tries to achieve in"
+  },
+  {
+    "t_start": 1234.31,
+    "t_end": 1235.43,
+    "text": "index theorem tries to achieve in general"
+  },
+  {
+    "t_start": 1235.43,
+    "t_end": 1242.149,
+    "text": "for general manifolds and for general say elliptic operators on manifolds and"
+  },
+  {
+    "t_start": 1242.149,
+    "t_end": 1244.39,
+    "text": "say elliptic operators on manifolds and vector bundles and all these things"
+  },
+  {
+    "t_start": 1244.39,
+    "t_end": 1247.51,
+    "text": "vector bundles and all these things okay but this is a in prototype"
+  },
+  {
+    "t_start": 1247.51,
+    "t_end": 1256.87,
+    "text": "okay but this is a in prototype exterior so in general"
+  },
+  {
+    "t_start": 1262.47,
+    "t_end": 1265.83,
+    "text": "this goes 180 ohms so if you have mg which is a say"
+  },
+  {
+    "t_start": 1265.83,
+    "t_end": 1275.27,
+    "text": "which is a say closed romanian manifolds"
+  },
+  {
+    "t_start": 1290.789,
+    "t_end": 1294.149,
+    "text": "um then uh this general goes for natherum"
+  },
+  {
+    "t_start": 1297.59,
+    "t_end": 1301.83,
+    "text": "says that in this generality also i am there is some constant which"
+  },
+  {
+    "t_start": 1301.83,
+    "t_end": 1305.11,
+    "text": "i am there is some constant which i don't know right now i don't remember"
+  },
+  {
+    "t_start": 1305.11,
+    "t_end": 1308.47,
+    "text": "i don't know right now i don't remember so let's call it some constant say c to"
+  },
+  {
+    "t_start": 1308.47,
+    "t_end": 1314.87,
+    "text": "then there is integral of some differential form which i"
+  },
+  {
+    "t_start": 1314.87,
+    "t_end": 1319.27,
+    "text": "differential form which i write it by this i i call"
+  },
+  {
+    "t_start": 1322.549,
+    "t_end": 1326.31,
+    "text": "and there is a way of constructing a two and four uh and then if you integrate"
+  },
+  {
+    "t_start": 1326.31,
+    "t_end": 1330.549,
+    "text": "and four uh and then if you integrate is two and four on the manifold you get"
+  },
+  {
+    "t_start": 1330.549,
+    "t_end": 1334.23,
+    "text": "all your characters and this is also an example of a"
+  },
+  {
+    "t_start": 1334.23,
+    "t_end": 1339.669,
+    "text": "what uh tlc approved uh covers this as a very very special case"
+  },
+  {
+    "t_start": 1339.669,
+    "t_end": 1343.19,
+    "text": "very very special case but this theorem was a very hard theorem"
+  },
+  {
+    "t_start": 1343.19,
+    "t_end": 1350.31,
+    "text": "so this was around this result was around 1870s"
+  },
+  {
+    "t_start": 1350.31,
+    "t_end": 1354.149,
+    "text": "remember it was after gaussian when this was eventually"
+  },
+  {
+    "t_start": 1354.149,
+    "t_end": 1363.029,
+    "text": "groomed in this form but this result was around the 1930s"
+  },
+  {
+    "t_start": 1363.029,
+    "t_end": 1369.27,
+    "text": "and then there was a there was a very uh kind of uh nice proof after after"
+  },
+  {
+    "t_start": 1369.27,
+    "t_end": 1376.789,
+    "text": "after it was discovered and put by other people there was a nice group by chern"
+  },
+  {
+    "t_start": 1376.789,
+    "t_end": 1382.47,
+    "text": "around 1914 14 43 maybe or something"
+  },
+  {
+    "t_start": 1385.99,
+    "t_end": 1386.39,
+    "text": "so it took quite some time to first of all"
+  },
+  {
+    "t_start": 1386.39,
+    "t_end": 1390.23,
+    "text": "guess what the form of this differential form should be"
+  },
+  {
+    "t_start": 1390.23,
+    "t_end": 1396.549,
+    "text": "and how to generalize this now it is a remarkable theorem right because"
+  },
+  {
+    "t_start": 1396.549,
+    "t_end": 1397.51,
+    "text": "it is a remarkable theorem right because your metric"
+  },
+  {
+    "t_start": 1397.51,
+    "t_end": 1402.63,
+    "text": "could change you can you can you can have you can bend the surface in any"
+  },
+  {
+    "t_start": 1402.63,
+    "t_end": 1405.43,
+    "text": "have you can bend the surface in any special way around here or there and"
+  },
+  {
+    "t_start": 1405.43,
+    "t_end": 1406.149,
+    "text": "special way around here or there and then"
+  },
+  {
+    "t_start": 1406.149,
+    "t_end": 1410.549,
+    "text": "what what happens is that some places gets bigger curvature if you bend it"
+  },
+  {
+    "t_start": 1410.549,
+    "t_end": 1411.909,
+    "text": "gets bigger curvature if you bend it sharp"
+  },
+  {
+    "t_start": 1411.909,
+    "t_end": 1416.549,
+    "text": "faster way and then if you flat the surface in some areas in the smooth very"
+  },
+  {
+    "t_start": 1416.549,
+    "t_end": 1418.31,
+    "text": "surface in some areas in the smooth very flattering"
+  },
+  {
+    "t_start": 1418.31,
+    "t_end": 1422.149,
+    "text": "it doesn't change this topological environment which is"
+  },
+  {
+    "t_start": 1422.149,
+    "t_end": 1426.71,
+    "text": "environment which is euler characteristic always you can"
+  },
+  {
+    "t_start": 1426.71,
+    "t_end": 1429.99,
+    "text": "integrate curvature and you always get the same so here also"
+  },
+  {
+    "t_start": 1429.99,
+    "t_end": 1436.549,
+    "text": "form very much depends on the metric it will change from metric to metric but"
+  },
+  {
+    "t_start": 1436.549,
+    "t_end": 1437.51,
+    "text": "it will change from metric to metric but its integral"
+  },
+  {
+    "t_start": 1437.51,
+    "t_end": 1443.11,
+    "text": "its integral does it and gives you some"
+  },
+  {
+    "t_start": 1446.47,
+    "t_end": 1449.99,
+    "text": "so this was a kind of another clue for athena that uh"
+  },
+  {
+    "t_start": 1449.99,
+    "t_end": 1454.31,
+    "text": "for athena that uh there should be a formula i mean they"
+  },
+  {
+    "t_start": 1454.31,
+    "t_end": 1461.269,
+    "text": "other clues uh i should say but this is in hindsight and they eventually"
+  },
+  {
+    "t_start": 1461.269,
+    "t_end": 1462.95,
+    "text": "in hindsight and they eventually more or less immediately understood that"
+  },
+  {
+    "t_start": 1462.95,
+    "t_end": 1468.149,
+    "text": "more or less immediately understood that this also is covered by the journal"
+  },
+  {
+    "t_start": 1473.51,
+    "t_end": 1478.39,
+    "text": "but now there is another example which we also cover later in the course"
+  },
+  {
+    "t_start": 1481.35,
+    "t_end": 1482.549,
+    "text": "this is um there's a very famous theorem in"
+  },
+  {
+    "t_start": 1482.549,
+    "t_end": 1496.71,
+    "text": "women's surface theory it's called riemann rock theorem"
+  },
+  {
+    "t_start": 1499.909,
+    "t_end": 1500.47,
+    "text": "the situation is a bit like here except that"
+  },
+  {
+    "t_start": 1500.47,
+    "t_end": 1506.47,
+    "text": "now you start not just with the surface and the romanian metric actually you"
+  },
+  {
+    "t_start": 1506.47,
+    "t_end": 1509.909,
+    "text": "and the romanian metric actually you start with the surface"
+  },
+  {
+    "t_start": 1513.029,
+    "t_end": 1515.59,
+    "text": "and the complex structure and you pick some points"
+  },
+  {
+    "t_start": 1515.59,
+    "t_end": 1525.269,
+    "text": "on the surface with some weights um so this is uh say sigma now maybe m"
+  },
+  {
+    "t_start": 1529.51,
+    "t_end": 1531.11,
+    "text": "so pick a divisor i mean the terminology the classic terminology is called"
+  },
+  {
+    "t_start": 1531.11,
+    "t_end": 1533.83,
+    "text": "the classic terminology is called divisor"
+  },
+  {
+    "t_start": 1537.11,
+    "t_end": 1538.87,
+    "text": "and then so what is device the divisor is just"
+  },
+  {
+    "t_start": 1538.87,
+    "t_end": 1546.31,
+    "text": "a choice of finite number of points and some labels integers attached"
+  },
+  {
+    "t_start": 1546.31,
+    "t_end": 1552.87,
+    "text": "some labels integers attached so d is equal to"
+  },
+  {
+    "t_start": 1552.87,
+    "t_end": 1556.87,
+    "text": "some np and then p so it's a formal sum"
+  },
+  {
+    "t_start": 1556.87,
+    "t_end": 1559.909,
+    "text": "so it's a formal sum which is np's or zero except"
+  },
+  {
+    "t_start": 1559.909,
+    "t_end": 1563.99,
+    "text": "which is np's or zero except for finite number of uh listings"
+  },
+  {
+    "t_start": 1563.99,
+    "t_end": 1569.029,
+    "text": "for finite number of uh listings places this is called the divisor"
+  },
+  {
+    "t_start": 1569.029,
+    "t_end": 1573.35,
+    "text": "places this is called the divisor the riemann rock term uh in for for"
+  },
+  {
+    "t_start": 1573.35,
+    "t_end": 1581.51,
+    "text": "it says uh l of d minus l of k minus t"
+  },
+  {
+    "t_start": 1589.83,
+    "t_end": 1597.35,
+    "text": "minus uh genus g plus one"
+  },
+  {
+    "t_start": 1600.39,
+    "t_end": 1603.75,
+    "text": "okay so let me um explain a little bit of this you see"
+  },
+  {
+    "t_start": 1603.75,
+    "t_end": 1605.83,
+    "text": "a little bit of this you see uh what is nice about riemann rock"
+  },
+  {
+    "t_start": 1605.83,
+    "t_end": 1607.35,
+    "text": "uh what is nice about riemann rock theorem is that in this"
+  },
+  {
+    "t_start": 1607.35,
+    "t_end": 1614.149,
+    "text": "case actually the left hand side you see there is a difference of two numbers"
+  },
+  {
+    "t_start": 1617.75,
+    "t_end": 1621.19,
+    "text": "so if uh atheian singer understood that this can also be interpreted"
+  },
+  {
+    "t_start": 1621.19,
+    "t_end": 1629.59,
+    "text": "as index of an operator okay so this is actually equal to index"
+  },
+  {
+    "t_start": 1634.149,
+    "t_end": 1637.43,
+    "text": "of some operator d for some b uh that depends on the riemann surface"
+  },
+  {
+    "t_start": 1637.43,
+    "t_end": 1637.99,
+    "text": "uh that depends on the riemann surface that d"
+  },
+  {
+    "t_start": 1637.99,
+    "t_end": 1645.83,
+    "text": "depends on the linear surface and depends on the divisor"
+  },
+  {
+    "t_start": 1645.83,
+    "t_end": 1650.63,
+    "text": "we will see exactly how okay so now what is l of d"
+  },
+  {
+    "t_start": 1653.99,
+    "t_end": 1659.269,
+    "text": "this dimension of some space of"
+  },
+  {
+    "t_start": 1672.549,
+    "t_end": 1673.029,
+    "text": "you see this d you have to take that some"
+  },
+  {
+    "t_start": 1673.029,
+    "t_end": 1677.19,
+    "text": "points are designated and some integers are attached"
+  },
+  {
+    "t_start": 1677.19,
+    "t_end": 1680.47,
+    "text": "are attached so we are looking at metamorphic"
+  },
+  {
+    "t_start": 1680.47,
+    "t_end": 1684.95,
+    "text": "functions whose poles are not too bad whose poles"
+  },
+  {
+    "t_start": 1684.95,
+    "t_end": 1687.99,
+    "text": "actually stronger than np at those points"
+  },
+  {
+    "t_start": 1687.99,
+    "t_end": 1691.19,
+    "text": "points so they can have poles only at this"
+  },
+  {
+    "t_start": 1691.19,
+    "t_end": 1697.59,
+    "text": "and they don't have poles and riemann rock shows that this number is finite"
+  },
+  {
+    "t_start": 1697.59,
+    "t_end": 1700.71,
+    "text": "rock shows that this number is finite now this l of k minus t this k"
+  },
+  {
+    "t_start": 1700.71,
+    "t_end": 1704.31,
+    "text": "now this l of k minus t this k is not curvature by the way this k is"
+  },
+  {
+    "t_start": 1704.31,
+    "t_end": 1713.51,
+    "text": "so this is called canonical divisor this is another device that is called"
+  },
+  {
+    "t_start": 1715.669,
+    "t_end": 1717.11,
+    "text": "we will see that later on it doesn't matter"
+  },
+  {
+    "t_start": 1717.11,
+    "t_end": 1720.389,
+    "text": "but again once you fix that this is defined"
+  },
+  {
+    "t_start": 1720.389,
+    "t_end": 1723.99,
+    "text": "another space of the dimension of another"
+  },
+  {
+    "t_start": 1723.99,
+    "t_end": 1729.59,
+    "text": "space of metamorphic function that has this particular relation to this device"
+  },
+  {
+    "t_start": 1729.59,
+    "t_end": 1731.11,
+    "text": "this particular relation to this device so basically this result"
+  },
+  {
+    "t_start": 1731.11,
+    "t_end": 1737.669,
+    "text": "tries to count number of metamorphic functions of certain time on"
+  },
+  {
+    "t_start": 1737.669,
+    "t_end": 1739.269,
+    "text": "metamorphic functions of certain time on your limits"
+  },
+  {
+    "t_start": 1739.269,
+    "t_end": 1742.549,
+    "text": "your limits now look at let's look at the right hand"
+  },
+  {
+    "t_start": 1742.549,
+    "t_end": 1746.71,
+    "text": "the right hand side is completely topological"
+  },
+  {
+    "t_start": 1746.71,
+    "t_end": 1753.43,
+    "text": "this g is the genus of the surface and this is the of t is the sum of"
+  },
+  {
+    "t_start": 1753.43,
+    "t_end": 1757.59,
+    "text": "and this is the of t is the sum of energy again we will see that"
+  },
+  {
+    "t_start": 1757.59,
+    "t_end": 1760.149,
+    "text": "energy again we will see that this has very nice interpretation in"
+  },
+  {
+    "t_start": 1760.149,
+    "t_end": 1761.11,
+    "text": "this has very nice interpretation in terms of"
+  },
+  {
+    "t_start": 1761.11,
+    "t_end": 1769.35,
+    "text": "uh some line bundles on on the space that you can attach to this d and"
+  },
+  {
+    "t_start": 1769.35,
+    "t_end": 1773.029,
+    "text": "that you can attach to this d and this becomes an example of a tier single"
+  },
+  {
+    "t_start": 1773.029,
+    "t_end": 1777.029,
+    "text": "this becomes an example of a tier single index field"
+  },
+  {
+    "t_start": 1780.31,
+    "t_end": 1781.269,
+    "text": "so this is so dream and rock but then of course"
+  },
+  {
+    "t_start": 1781.269,
+    "t_end": 1784.389,
+    "text": "there is a much more general riemann rock term which"
+  },
+  {
+    "t_start": 1784.389,
+    "t_end": 1791.59,
+    "text": "works for complex monopoles of any dimension compare complex"
+  },
+  {
+    "t_start": 1791.59,
+    "t_end": 1797.59,
+    "text": "and instead of these divisors you have these holomorphic vector boundaries on"
+  },
+  {
+    "t_start": 1797.59,
+    "t_end": 1799.029,
+    "text": "these holomorphic vector boundaries on the manifold"
+  },
+  {
+    "t_start": 1799.029,
+    "t_end": 1802.23,
+    "text": "the manifold and that result also is a special case"
+  },
+  {
+    "t_start": 1802.23,
+    "t_end": 1809.43,
+    "text": "uh at a single index so this sort of quantities is computed by a"
+  },
+  {
+    "t_start": 1809.43,
+    "t_end": 1810.549,
+    "text": "this sort of quantities is computed by a testing index"
+  },
+  {
+    "t_start": 1810.549,
+    "t_end": 1818.31,
+    "text": "in that case the right hand side is the right hand side of the"
+  },
+  {
+    "t_start": 1818.31,
+    "t_end": 1823.51,
+    "text": "so what we are trying to do in this course now is to"
+  },
+  {
+    "t_start": 1823.51,
+    "t_end": 1828.389,
+    "text": "course now is to look at some of the necessary background"
+  },
+  {
+    "t_start": 1828.389,
+    "t_end": 1832.549,
+    "text": "now one of the backgrounds that you're going to start"
+  },
+  {
+    "t_start": 1832.549,
+    "t_end": 1839.75,
+    "text": "immediately is the way to construct these operators d right"
+  },
+  {
+    "t_start": 1839.75,
+    "t_end": 1849.83,
+    "text": "these operators d right are there any questions"
+  },
+  {
+    "t_start": 1852.95,
+    "t_end": 1855.99,
+    "text": "okay so um so before i stop uh just advertising"
+  },
+  {
+    "t_start": 1855.99,
+    "t_end": 1863.19,
+    "text": "stop uh just advertising uh what's our first goal"
+  },
+  {
+    "t_start": 1874.389,
+    "t_end": 1875.11,
+    "text": "so we want to create a large supply of these"
+  },
+  {
+    "t_start": 1875.11,
+    "t_end": 1887.669,
+    "text": "good operators d these are called the derived operators"
+  },
+  {
+    "t_start": 1891.029,
+    "t_end": 1895.83,
+    "text": "supply of such these which are good and at your single index theorem applies to"
+  },
+  {
+    "t_start": 1895.83,
+    "t_end": 1897.59,
+    "text": "at your single index theorem applies to those operators"
+  },
+  {
+    "t_start": 1897.59,
+    "t_end": 1906.87,
+    "text": "those operators so this gives us these good d's"
+  },
+  {
+    "t_start": 1906.87,
+    "t_end": 1910.549,
+    "text": "so this gives us these good d's so we want to understand"
+  },
+  {
+    "t_start": 1910.549,
+    "t_end": 1917.43,
+    "text": "uh how to construct these vlog operators and what we can do with them"
+  },
+  {
+    "t_start": 1917.43,
+    "t_end": 1921.99,
+    "text": "and what we can do with them so just"
+  },
+  {
+    "t_start": 1924.789,
+    "t_end": 1927.029,
+    "text": "very quickly the one of the ideas of the rock operations is this"
+  },
+  {
+    "t_start": 1927.029,
+    "t_end": 1932.31,
+    "text": "on a flat space the lock operator is the square root of the laplacian"
+  },
+  {
+    "t_start": 1932.31,
+    "t_end": 1941.35,
+    "text": "square root of the laplacian okay so on flat space"
+  },
+  {
+    "t_start": 1945.35,
+    "t_end": 1947.43,
+    "text": "uh d squared is it is an operator that satisfies this equation remember this"
+  },
+  {
+    "t_start": 1947.43,
+    "t_end": 1948.389,
+    "text": "satisfies this equation remember this equation"
+  },
+  {
+    "t_start": 1948.389,
+    "t_end": 1955.35,
+    "text": "as a kind of kind of symbol or mean"
+  },
+  {
+    "t_start": 1955.35,
+    "t_end": 1961.669,
+    "text": "symbol or mean if you d squared is equal to delta"
+  },
+  {
+    "t_start": 1972.07,
+    "t_end": 1975.509,
+    "text": "so this is equal to minus now remember we are on flat space so laplacian is"
+  },
+  {
+    "t_start": 1975.509,
+    "t_end": 1982.23,
+    "text": "very easy here so this is uh d 2"
+  },
+  {
+    "t_start": 1982.23,
+    "t_end": 1989.59,
+    "text": "plus b 2 d x 2 squared plus b n"
+  },
+  {
+    "t_start": 1989.59,
+    "t_end": 1992.95,
+    "text": "x 2 squared plus b n e x m squared"
+  },
+  {
+    "t_start": 1992.95,
+    "t_end": 1999.99,
+    "text": "it's just uh the standard laplacian and i put minus sign here uh"
+  },
+  {
+    "t_start": 1999.99,
+    "t_end": 2003.43,
+    "text": "and i put minus sign here uh so d tries uh to"
+  },
+  {
+    "t_start": 2003.43,
+    "t_end": 2005.99,
+    "text": "so d tries uh to write down a first order differential"
+  },
+  {
+    "t_start": 2005.99,
+    "t_end": 2008.23,
+    "text": "write down a first order differential operator that satisfies this"
+  },
+  {
+    "t_start": 2008.23,
+    "t_end": 2013.909,
+    "text": "so d if you want you can try something like this sigma"
+  },
+  {
+    "t_start": 2013.909,
+    "t_end": 2018.95,
+    "text": "you can try something like this sigma gamma mu dbx"
+  },
+  {
+    "t_start": 2018.95,
+    "t_end": 2019.3,
+    "text": "gamma mu dbx mu"
+  },
+  {
+    "t_start": 2019.3,
+    "t_end": 2022.23,
+    "text": "mu [Music]"
+  },
+  {
+    "t_start": 2022.23,
+    "t_end": 2028.23,
+    "text": "mu from 1 to n you can try your hand with such"
+  },
+  {
+    "t_start": 2028.23,
+    "t_end": 2029.75,
+    "text": "you can try your hand with such operators"
+  },
+  {
+    "t_start": 2029.75,
+    "t_end": 2036.95,
+    "text": "and then if you square this uh well i mean"
+  },
+  {
+    "t_start": 2036.95,
+    "t_end": 2044.83,
+    "text": "what's the square of this guy the score of this guy is going to be equal to"
+  },
+  {
+    "t_start": 2048.79,
+    "t_end": 2052.23,
+    "text": "mu i mean gamma mu gamma u plus"
+  },
+  {
+    "t_start": 2052.23,
+    "t_end": 2057.16,
+    "text": "gamma u plus gamma nu gamma mu"
+  },
+  {
+    "t_start": 2058.829,
+    "t_end": 2066.23,
+    "text": "d dx mu into dx into dx new"
+  },
+  {
+    "t_start": 2066.23,
+    "t_end": 2069.75,
+    "text": "mu into dx into dx new right"
+  },
+  {
+    "t_start": 2072.79,
+    "t_end": 2078.31,
+    "text": "equal to that and then you get the relations that you get these"
+  },
+  {
+    "t_start": 2078.31,
+    "t_end": 2086.829,
+    "text": "you get the relations that you get these relations which are called three-fourth"
+  },
+  {
+    "t_start": 2095.669,
+    "t_end": 2099.43,
+    "text": "which is gamma mu gamma nu plus m1 mmu"
+  },
+  {
+    "t_start": 2099.43,
+    "t_end": 2106.31,
+    "text": "is equal to minus 2 delta mu u right because these guys are"
+  },
+  {
+    "t_start": 2106.31,
+    "t_end": 2110.31,
+    "text": "delta mu u right because these guys are 0 and there are no mixed"
+  },
+  {
+    "t_start": 2110.31,
+    "t_end": 2112.31,
+    "text": "0 and there are no mixed operations here i mean partial"
+  },
+  {
+    "t_start": 2112.31,
+    "t_end": 2113.589,
+    "text": "operations here i mean partial derivatives"
+  },
+  {
+    "t_start": 2113.589,
+    "t_end": 2123.99,
+    "text": "just pure square partial derivatives and this imposes this relation"
+  },
+  {
+    "t_start": 2127.03,
+    "t_end": 2133.109,
+    "text": "what does these relations tell you it just tells you that if you want to solve"
+  },
+  {
+    "t_start": 2133.109,
+    "t_end": 2136.55,
+    "text": "just tells you that if you want to solve this equation"
+  },
+  {
+    "t_start": 2138.55,
+    "t_end": 2140.55,
+    "text": "for some first order partial differential operators"
+  },
+  {
+    "t_start": 2140.55,
+    "t_end": 2145.349,
+    "text": "differential operators you cannot find your operator within the"
+  },
+  {
+    "t_start": 2145.349,
+    "t_end": 2151.43,
+    "text": "operators with coefficients uh as real numbers or complex numbers there"
+  },
+  {
+    "t_start": 2151.43,
+    "t_end": 2152.069,
+    "text": "as real numbers or complex numbers there are no"
+  },
+  {
+    "t_start": 2152.069,
+    "t_end": 2155.829,
+    "text": "sets of complex numbers that satisfy this equation"
+  },
+  {
+    "t_start": 2155.829,
+    "t_end": 2160.39,
+    "text": "except that n is equal to one so n equal to one is totally trivial"
+  },
+  {
+    "t_start": 2160.39,
+    "t_end": 2163.67,
+    "text": "to one is totally trivial of course it's already a square of d dx"
+  },
+  {
+    "t_start": 2163.67,
+    "t_end": 2168.71,
+    "text": "i d dx one square right so we are not interested in that we want to go"
+  },
+  {
+    "t_start": 2168.71,
+    "t_end": 2173.829,
+    "text": "dimension two and above that if you want to go dimension 2 and above that"
+  },
+  {
+    "t_start": 2173.829,
+    "t_end": 2177.43,
+    "text": "to go dimension 2 and above that you cannot have these equations"
+  },
+  {
+    "t_start": 2177.43,
+    "t_end": 2185.829,
+    "text": "satisfied by any set of complex numbers so this was one of the big obstacles"
+  },
+  {
+    "t_start": 2185.829,
+    "t_end": 2190.71,
+    "text": "so this was one of the big obstacles knew that he had to find this kind of"
+  },
+  {
+    "t_start": 2190.71,
+    "t_end": 2197.589,
+    "text": "but there was an obstacle but then he noticed he had some amazing"
+  },
+  {
+    "t_start": 2197.589,
+    "t_end": 2198.63,
+    "text": "but then he noticed he had some amazing insight"
+  },
+  {
+    "t_start": 2198.63,
+    "t_end": 2203.19,
+    "text": "after thinking about the problem for a long time the insight was that"
+  },
+  {
+    "t_start": 2203.19,
+    "t_end": 2209.51,
+    "text": "long time the insight was that these equations can be solved within the"
+  },
+  {
+    "t_start": 2213.829,
+    "t_end": 2218.71,
+    "text": "this was a this was a big big discovery so um"
+  },
+  {
+    "t_start": 2225.829,
+    "t_end": 2226.47,
+    "text": "so as i said they are called of course i mean"
+  },
+  {
+    "t_start": 2226.47,
+    "t_end": 2229.99,
+    "text": "maybe i shouldn't say of course but mathematicians were here before"
+  },
+  {
+    "t_start": 2229.99,
+    "t_end": 2237.19,
+    "text": "mathematicians were here before physicists so clifford and hamilton"
+  },
+  {
+    "t_start": 2237.19,
+    "t_end": 2240.31,
+    "text": "and kaylee and some other guys have already talked deep and long about"
+  },
+  {
+    "t_start": 2240.31,
+    "t_end": 2243.349,
+    "text": "issues and in particular they have considered such"
+  },
+  {
+    "t_start": 2243.349,
+    "t_end": 2249.43,
+    "text": "relations especially clifford and that's why they're called clifford algebra"
+  },
+  {
+    "t_start": 2249.43,
+    "t_end": 2254.829,
+    "text": "relations so our first goal is to analyze these"
+  },
+  {
+    "t_start": 2260.87,
+    "t_end": 2262.47,
+    "text": "and find all possible solutions to such such equations"
+  },
+  {
+    "t_start": 2262.47,
+    "t_end": 2268.829,
+    "text": "such equations so rule one is"
+  },
+  {
+    "t_start": 2278.71,
+    "t_end": 2280.79,
+    "text": "in other words we want to find all possible incarnations"
+  },
+  {
+    "t_start": 2280.79,
+    "t_end": 2284.87,
+    "text": "possible incarnations of clifford algebra relations all"
+  },
+  {
+    "t_start": 2284.87,
+    "t_end": 2288.47,
+    "text": "that satisfy these equations for all possible values of"
+  },
+  {
+    "t_start": 2288.47,
+    "t_end": 2295.589,
+    "text": "n so this is a purely algebraic problem purely algebra problem right so that's"
+  },
+  {
+    "t_start": 2295.589,
+    "t_end": 2296.23,
+    "text": "purely algebra problem right so that's one"
+  },
+  {
+    "t_start": 2296.23,
+    "t_end": 2302.15,
+    "text": "one one thing and second problem is that"
+  },
+  {
+    "t_start": 2306.23,
+    "t_end": 2312.31,
+    "text": "is good only on flat space if your space is curved as we are"
+  },
+  {
+    "t_start": 2312.31,
+    "t_end": 2313.99,
+    "text": "if your space is curved as we are interested in as you saw"
+  },
+  {
+    "t_start": 2313.99,
+    "t_end": 2319.349,
+    "text": "interested in as you saw and if it has curvature then this"
+  },
+  {
+    "t_start": 2319.349,
+    "t_end": 2322.71,
+    "text": "relation is not good still we are interested in something"
+  },
+  {
+    "t_start": 2322.71,
+    "t_end": 2325.99,
+    "text": "similar to this so we want to define dirac operators in"
+  },
+  {
+    "t_start": 2325.99,
+    "t_end": 2331.589,
+    "text": "general on canvas spaces so our goal is"
+  },
+  {
+    "t_start": 2361.349,
+    "t_end": 2365.43,
+    "text": "and for this you will see that we have to introduce some gadgets"
+  },
+  {
+    "t_start": 2365.43,
+    "t_end": 2369.349,
+    "text": "we have to introduce some gadgets called spinners so we need"
+  },
+  {
+    "t_start": 2369.349,
+    "t_end": 2376.95,
+    "text": "called spinners so we need spinners spring groups"
+  },
+  {
+    "t_start": 2379.589,
+    "t_end": 2385.349,
+    "text": "and they give rise to the lock operators in general"
+  },
+  {
+    "t_start": 2388.15,
+    "t_end": 2390.31,
+    "text": "so that's that's that's our first goal um"
+  },
+  {
+    "t_start": 2390.31,
+    "t_end": 2394.15,
+    "text": "we have to solve both problems there's a purely algebraic problem"
+  },
+  {
+    "t_start": 2394.15,
+    "t_end": 2399.19,
+    "text": "purely algebraic problem and there's a second problem which is a"
+  },
+  {
+    "t_start": 2399.19,
+    "t_end": 2407.27,
+    "text": "topological and uh it's manifold so we'll solve this"
+  },
+  {
+    "t_start": 2410.55,
+    "t_end": 2413.75,
+    "text": "as our first goal as i said the key the clue maintained in all of this"
+  },
+  {
+    "t_start": 2413.75,
+    "t_end": 2416.069,
+    "text": "the clue maintained in all of this uh luckily one and two are actually"
+  },
+  {
+    "t_start": 2416.069,
+    "t_end": 2417.829,
+    "text": "uh luckily one and two are actually related problems"
+  },
+  {
+    "t_start": 2417.829,
+    "t_end": 2421.27,
+    "text": "related problems uh we can solve both problems within one"
+  },
+  {
+    "t_start": 2421.27,
+    "t_end": 2433.43,
+    "text": "context that's the context of clipboard us"
+  },
+  {
+    "t_start": 2437.43,
+    "t_end": 2441.27,
+    "text": "so that's where we start editing uh to to sort of gradually unravel"
+  },
+  {
+    "t_start": 2441.27,
+    "t_end": 2446.309,
+    "text": "uh to to sort of gradually unravel this uh to your senior index firm you"
+  },
+  {
+    "t_start": 2446.309,
+    "t_end": 2449.67,
+    "text": "as i said there are different openings to the subject you can"
+  },
+  {
+    "t_start": 2449.67,
+    "t_end": 2454.069,
+    "text": "to the subject you can reach it from different angles but this"
+  },
+  {
+    "t_start": 2454.069,
+    "t_end": 2464.309,
+    "text": "the one that right now seems to be quite reasonable so i will stop the"
+  }
+]

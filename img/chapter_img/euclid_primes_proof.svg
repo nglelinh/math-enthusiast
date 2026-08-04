@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+  <rect width="720" height="300" fill="#fafbfc"/>
+  <text x="360" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1a1a">Euclid’s idea: one new prime from any finite list</text>
+  <text x="360" y="70" text-anchor="middle" font-family="system-ui" font-size="14" fill="#333">Suppose primes are only p₁, p₂, …, pₖ</text>
+  <rect x="160" y="100" width="400" height="60" rx="8" fill="#e8f1fa" stroke="#004586" stroke-width="2"/>
+  <text x="360" y="138" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#004586">N = p₁ p₂ ⋯ pₖ + 1</text>
+  <text x="360" y="200" text-anchor="middle" font-family="system-ui" font-size="13" fill="#333">N &gt; 1 ⇒ has a prime factor q</text>
+  <text x="360" y="230" text-anchor="middle" font-family="system-ui" font-size="13" fill="#c73e1d">q cannot be any pᵢ (each leaves remainder 1)</text>
+  <text x="360" y="270" text-anchor="middle" font-family="system-ui" font-size="13" fill="#0a6b4a">Contradiction ⇒ infinitely many primes</text>
+</svg>

@@ -1,0 +1,37 @@
+{
+  "slug": "fourier-signal-processing",
+  "videos": [
+    {
+      "id": "r6sGWTCMz2k",
+      "title": "3Blue1Brown — But what is a Fourier series?",
+      "has_transcript": true,
+      "chars": 24386,
+      "units": 17,
+      "url": "https://www.youtube.com/watch?v=r6sGWTCMz2k"
+    },
+    {
+      "id": "spUNpyF58BY",
+      "title": "3Blue1Brown — But what is the Fourier Transform?",
+      "has_transcript": true,
+      "chars": 19065,
+      "units": 13,
+      "url": "https://www.youtube.com/watch?v=spUNpyF58BY"
+    },
+    {
+      "id": "nmgFG7PUHfo",
+      "title": "Veritasium — The Most Underrated Algorithm (FFT)",
+      "has_transcript": true,
+      "chars": 24489,
+      "units": 18,
+      "url": "https://www.youtube.com/watch?v=nmgFG7PUHfo"
+    },
+    {
+      "id": "Jv5FU8oUWEY",
+      "title": "Zach Star — Nyquist–Shannon Sampling Theorem intuition",
+      "has_transcript": true,
+      "chars": 14111,
+      "units": 8,
+      "url": "https://www.youtube.com/watch?v=Jv5FU8oUWEY"
+    }
+  ]
+}

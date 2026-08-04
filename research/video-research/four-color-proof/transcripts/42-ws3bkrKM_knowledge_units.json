@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ku_video_42-ws3bkrKM_2",
+    "t_start": 2.7,
+    "t_end": 93.6,
+    "type": "overview",
+    "summary": "this episode is supported by Skillshare hi guys Jade here today I wanted to talk called the for color map theorem it's really cool because it was the first really cool because it was the first beta theorem to be proven with the help of a computer it caused a lot of controversy because basically no one controversy because basically no one could understand it this raised a lot of mathematics and what really counts as a proof it also shines a big uncomfortable proof it also shines a big uncomfortable light on the limits we may have as light on the limits we may have as humans and asks whether …"
+  },
+  {
+    "id": "ku_video_42-ws3bkrKM_93",
+    "t_start": 93.6,
+    "t_end": 187.4,
+    "type": "overview",
+    "summary": "it states given a plane separated into regions the regions may be colored using regions the regions may be colored using no more than five colors in such a way that no two adjacent regions received the same color so when proving a theorem often use our induction contradictions and invariants luckily for us this proof and invariants luckily for us this proof involves all three so let's briefly go involves all three so let's briefly go through what they all mean before we through what they all mean before we start proof by induction is just showing start proof by induction is just showing tha…"
+  },
+  {
+    "id": "ku_video_42-ws3bkrKM_187",
+    "t_start": 187.4,
+    "t_end": 278.1,
+    "type": "overview",
+    "summary": "a bajillion jillion plus one but if we minus a bajillion jillion from both minus a bajillion jillion from both sides we're left with zero is greater sides we're left with zero is greater than one which is a contradiction this than one which is a contradiction this argument could be used for any number argument could be used for any number therefore no biggest number exists the therefore no biggest number exists the third technique is invariant an invariant is the property that stays the same even when other things in your system change for example in Euclidean geometry the angles of a trian…"
+  },
+  {
+    "id": "ku_video_42-ws3bkrKM_278",
+    "t_start": 278.1,
+    "t_end": 371.4,
+    "type": "overview",
+    "summary": "to solve okay if it makes the calculations easier oh let it slide cool calculations easier oh let it slide cool as I was saying we only care about two things how many countries and the borders that connect them so let's borders that connect them so let's transform this map into what's called a transform this map into what's called a graph we can replace all the countries graph we can replace all the countries with dots or vertices as they say and with dots or vertices as they say and all the borders with lines that we're all the borders with lines that we're going to call edges when the edg…"
+  },
+  {
+    "id": "ku_video_42-ws3bkrKM_371",
+    "t_start": 371.4,
+    "t_end": 462.9,
+    "type": "overview",
+    "summary": "colorable step two is a bit hotter than step one so here's a graph and let's say it has n plus 1 number of vertices it doesn't matter about the actual number of vertices since the rule is supposed to apply to any graph if we go back to to apply to any graph if we go back to the latter analogy it's just like saying the latter analogy it's just like saying it doesn't matter what rung you're on as long as you show you can get to the next one so now if we assume that graphs that one so now if we assume that graphs that have n number of vertices of 5 colorable have n number of vertices of 5 colo…"
+  },
+  {
+    "id": "ku_video_42-ws3bkrKM_462",
+    "t_start": 462.9,
+    "t_end": 557.5,
+    "type": "overview",
+    "summary": "them in a cyclic manner one two three four five right now all the numbered vertices are taking up all five colors green red yellow blue and purple and so green red yellow blue and purple and so we can't bring our remove vertex V back we can't bring our remove vertex V back without breaking the point color theorem without breaking the point color theorem we've got to somehow arrange them so that they only take out four colors to do this let's look at one and three and do this let's look at one and three and highlight all the vertices the same highlight all the vertices the same color as them…"
+  },
+  {
+    "id": "ku_video_42-ws3bkrKM_557",
+    "t_start": 557.5,
+    "t_end": 649.3,
+    "type": "overview",
+    "summary": "this with any vertex that has five or less neighbors so how do we know we can less neighbors so how do we know we can always find such a vertex well now it's always find such a vertex well now it's time for our last proof technique time for our last proof technique invariants let's bring in an invariant called the Euler characteristic the Euler characteristic is a rule that for every connected planar graph the number of vertices minus the number of edges plus the number of faces is always equal to 2 the number of faces is always equal to 2 if we start with a vertex on the outer if we start …"
+  },
+  {
+    "id": "ku_video_42-ws3bkrKM_649",
+    "t_start": 649.3,
+    "t_end": 741.6,
+    "type": "overview",
+    "summary": "two-thirds the number of edges so if we plug this inequality into Euler's characteristic we get that the number of vertices minus edges plus two-thirds the vertices minus edges plus two-thirds the number of edges is greater than or equal to two if we simplify x three and rearrange we get that the number of rearrange we get that the number of edges is less than or equal to three edges is less than or equal to three times the number of vertices minus six times the number of vertices minus six all right now let's compare this with all right now let's compare this with our assumption the turkey…"
+  },
+  {
+    "id": "ku_video_42-ws3bkrKM_741",
+    "t_start": 741.6,
+    "t_end": 832.3,
+    "type": "overview",
+    "summary": "edges and faces were all just standings for countries and their borders we proved that yes any map can be colored using only 5 colors with no two adjacent using only 5 colors with no two adjacent countries being the same color so the 5 color theorem is true for a so we can finally answer Guthrie's question oh hey finally answer Guthrie's question oh hey no con he's for colors but can we extend our proof to four colors then well the reason this proof works so well is reason this proof works so well is because of the fact that we can always because of the fact that we can always find a vertex…"
+  },
+  {
+    "id": "ku_video_42-ws3bkrKM_832",
+    "t_start": 832.3,
+    "t_end": 922.5,
+    "type": "overview",
+    "summary": "basically it means if they start with five colors you can always make the five colors you can always make the number of vertices smaller while still number of vertices smaller while still needing five colors but of course if you keep making the graph smaller you'll eventually end up with a graph with four and therefore for colorable which would be on this side of the line so that be on this side of the line so that means that if all these graphs did in means that if all these graphs did in fact have this special property of fact have this special property of reducibility they would all have…"
+  },
+  {
+    "id": "ku_video_42-ws3bkrKM_922",
+    "t_start": 922.5,
+    "t_end": 1014.2,
+    "type": "overview",
+    "summary": "from all that and Daniel Cohen said the mission of mathematics is understanding mission of mathematics is understanding admitting these computer shenanigans to admitting these computer shenanigans to the ranks of mathematics would only the ranks of mathematics would only leave us intellectually unfulfilled and leave us intellectually unfulfilled and you have to admit they're kind of right but this raises some very interesting questions about the nature of questions about the nature of mathematics who judges whether or not mathematics who judges whether or not something is a proof are we bei…"
+  },
+  {
+    "id": "ku_video_42-ws3bkrKM_1014",
+    "t_start": 1014.2,
+    "t_end": 1104.5,
+    "type": "overview",
+    "summary": "that they could do a better job at showing what they're actually trying to show you this is why even the most well-designed metro maps are terrible as well-designed metro maps are terrible as walking guides if you're interested since this video is made as part of a collaboration head over to my channel cannabis to find out more I've linked that video in the description so make that video in the description so make sure to check it out right after this sure to check it out right after this the for color map theorem would never the for color map theorem would never have been solved if it wasn…"
+  },
+  {
+    "id": "ku_video_42-ws3bkrKM_1104",
+    "t_start": 1104.5,
+    "t_end": 1119.7,
+    "type": "overview",
+    "summary": "in-depth I hope it wasn't depths enough because I don't think I could make more because I don't think I could make more in depth videos than this but anyway in depth videos than this but anyway feedback is always appreciated um that's feedback is always appreciated um that's it for me it for me bye"
+  }
+]

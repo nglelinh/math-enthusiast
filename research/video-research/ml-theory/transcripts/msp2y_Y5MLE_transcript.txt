@@ -1,0 +1,916 @@
+well thank you so much for coming here tonight to uh listen to a talk about
+tonight to uh listen to a talk about mathematics I'm Jim Carlson president of
+mathematics I'm Jim Carlson president of the clay Mathematics Institute which is
+the clay Mathematics Institute which is uh located on one Bow Street right by
+however you wish to locate it um the clay Mathematics Institute is dedicated
+clay Mathematics Institute is dedicated to furthering the creation and
+to furthering the creation and dissemination of mathematics it was
+dissemination of mathematics it was formed due to the generosity of Landon
+Clay uh among our many activities are a series of public lectures we generally
+series of public lectures we generally hold two each year one at Harvard one at
+hold two each year one at Harvard one at MIT uh the spring public lecture will be
+at MIT and our speaker will be ingred does who I think should be viewed as the
+does who I think should be viewed as the mother of wavelets which is a a branch
+mother of wavelets which is a a branch of mathematics that it has had truly
+of mathematics that it has had truly astounding
+applications get the right set of notes Here it helps um so tonight we're having
+Here it helps um so tonight we're having our lecture here at uh the mathematics
+our lecture here at uh the mathematics Department uh sponsored by the
+Department uh sponsored by the mathematics Department of Harvard
+University we're very very grateful for their hospitality and for this wonderful
+center our speaker tonight is Michael sipser he is chair of the mathematics
+sipser he is chair of the mathematics Department of
+MIT uh which has two branches the Applied Mathematics and the pure
+mathematics group he will speak on the P versus NP problem I won't say anything
+versus NP problem I won't say anything about it because uh Michael can say it
+much better than I can uh Michael was an undergraduate at Cornell University he
+received his PhD at Berkeley and since 1980 he has been at MIT he's taught many
+1980 he has been at MIT he's taught many courses there including everything from
+courses there including everything from basic calculus to graduate courses in
+complexity he also the author of a widely used textbook introduction to the
+widely used textbook introduction to the theory of complexity his research
+theory of complexity his research interests are largely in the area of
+it's a great pleasure to welcome Michael sipser who will speak to us about the P
+sipser who will speak to us about the P versus NP problem Michael thank
+y uh great so um you know thank you all for coming thanks to the clay Institute
+for coming thanks to the clay Institute for hosting this wonderful uh series of
+for hosting this wonderful uh series of public lectures and Mathematics I think
+public lectures and Mathematics I think it's a great thing um and uh thanks you
+to see such a good turnout for math talk um about my favorite topic the P versus
+um about my favorite topic the P versus MP question um so let me tell you first
+I'm going to jump right in tell you a little bit about that it's a it's a
+little bit about that it's a it's a problem in Computer Science and
+Mathematics um and it concerns the amount of time you need to solve
+the amount of time you need to solve various problems on a computer now even
+various problems on a computer now even though computer is very
+fast um for certain kinds of problems they seem to take a long time and it's
+they seem to take a long time and it's not really well understood why that is
+not really well understood why that is so we're going to explore that let's
+so we're going to explore that let's we'll start off with something
+we'll start off with something simple let's take the problem
+simple let's take the problem um 7 * 13 that's an example of something
+multiplication just for you know in case you're just getting up to speed the
+you're just getting up to speed the answer is 91 um and uh if you look at
+answer is 91 um and uh if you look at the reverse
+problem given the product 91 and you want to try to find the two numbers that
+want to try to find the two numbers that multiply together to give that result
+multiply together to give that result the those are called the factors of 91
+the those are called the factors of 91 you could either do that by remembering
+the previous slide or you could just start out with the number 91 and figure
+start out with the number 91 and figure out what those factors are
+out what those factors are directly see 7 * 13 give you 91 now
+let's look at a slightly bigger
+example now uh probably this not this is one that you're not going to do in your
+head and if you're uh normal person uh but if you fed it into a
+but if you fed it into a computer you would get the answer out
+computer you would get the answer out and what's amazing is that the answer
+second but let's take a look at something more interesting what happens
+something more interesting what happens if you look at the reverse problem the
+product well we already know what the answer is but suppose you didn't write
+answer is but suppose you didn't write it down from the previous SL
+it down from the previous SL you just went directly from
+you just went directly from this let's see oops this uh product this
+this let's see oops this uh product this product here in blue to the and you
+wanted to figure out what the two factors
+were okay so that's something you could solve on a computer and actually
+Somebody went went ahead and did that um but the difference between this problem
+but the difference between this problem and the previous one is that it takes a
+longer in fact it was 20 computer computer years of effort required to
+solve this problem now you may ask why would somebody care and and put all that
+would somebody care and and put all that effort in well for one thing we're
+effort in well for one thing we're mathematicians and you know it's because
+mathematicians and you know it's because it's there um another reason is somebody
+$220,000 to do that believe it or not this is true um and you may think well
+this is true um and you may think well why would somebody pay $220,000 to
+why would somebody pay $220,000 to factor a
+number and you know how how can we get a piece of that uh so well I mean you can
+piece of that uh so well I mean you can I mean here's another number $30,000 in
+I mean here's another number $30,000 in fact no no one knows um
+fact no no one knows um the
+uh no one knows the factors of this problem so if you want to turn on your
+problem so if you want to turn on your computers and you know want to spend
+previous one it's going to be more than 20 computer years probably a lot more um
+20 computer years probably a lot more um but you can earn $30,000 that way now
+but you can earn $30,000 that way now why in the world is somebody spending
+why in the world is somebody spending that kind of money to fact numbers well
+that kind of money to fact numbers well this is actually comes from this company
+called RSA and you can just Google it on if you Google you know the RSA factoring
+if you Google you know the RSA factoring challenge you will um find that you'll
+challenge you will um find that you'll find this number the previous number and
+find this number the previous number and a whole list of other numbers which are
+$50,000 $100,000 $200,000 this is all true um and the reason why the RSA
+true um and the reason why the RSA company is spending that kind of money
+company is spending that kind of money to factor numbers is not so much because
+factorization but they're interested in getting a handle on the progress that
+getting a handle on the progress that people are making in factoring numbers
+people are making in factoring numbers because factoring is essential to their
+because factoring is essential to their business they're in the business of
+business they're in the business of cryptography designing secret codes for
+cryptography designing secret codes for secure communication between computers
+called the RSA code is really based on factoring so if somebody figures a way
+factoring so if somebody figures a way of factoring quickly it will break their
+of factoring quickly it will break their code that's something they want to know
+code that's something they want to know about
+obviously so um that's why uh RSA is interested in
+um that's why uh RSA is interested in factoring now the question is why is
+factoring so hard to solve what why does why is factoring Tak such a long time to
+solve on a computer well um the reason for that is in contrast with
+for that is in contrast with multiplication we can kind of Zoom right
+multiplication we can kind of Zoom right in on the answer and for factoring all
+in on the answer and for factoring all we know how to do is to search for the
+answer given your number that you want to factor you try dividing by two by
+three you can confine yourself just to the prime numbers to save yourself a
+little bit of time anyway and you try you know dividing by five seven if at
+you know dividing by five seven if at any point you find a number find one of
+any point you find a number find one of those numbers that divide evenly into
+those numbers that divide evenly into the number you're trying to factor then
+you've got a factor and you can stop there um but otherwise you just have to
+there um but otherwise you just have to keep going on and on and
+on the number of possible factors that you might have to search through
+you might have to search through for
+um factorization problems of the sort I just described is absolutely
+astronomical and that's why it takes even super fast computers a very long
+even super fast computers a very long time to solve that
+problem um so the the the process of searching for the answer over a large
+searching for the answer over a large space of Poss abilities kind of one by
+space of Poss abilities kind of one by one in a Mindless way is we call Brute
+Force search and that process is very slow if you have a lot of possibilities
+slow if you have a lot of possibilities that you need to search
+that you need to search through um now the interesting question
+through um now the interesting question here is do you really need to
+search or is there some way of solving say the factoring problem that Zooms in
+say the factoring problem that Zooms in on the answer without
+searching that would be amazing and in fact we don't know the answer to that
+fact we don't know the answer to that question seems like factoring needs
+searching at least as far as we know I mean you can do some things that are
+mean you can do some things that are some some improvements on the
+simple-minded method that I gave you and cut down the search space somewhat but
+cut down the search space somewhat but the only Al the only procedures that we
+the only Al the only procedures that we know still involve searching through a
+know still involve searching through a lot of
+possibilities we don't know if you can eliminate that or
+not let's turn to another example here's a example I called a cleck problem so
+you're given a network here of nodes and nodes of little circles and lines which
+nodes of little circles and lines which might represent something else say for
+example the nodes might represent the uh uh the members of the math department at
+uh the members of the math department at MIT okay and we'll draw a line I'll
+MIT okay and we'll draw a line I'll leave off the names uh we'll draw a line
+connecting two nodes if those two faculty members are
+friends okay so you can see we have a pretty friendly Department more or less
+um and what I'm interested in doing you know sometimes host parties now and then
+know sometimes host parties now and then and you'd like to invite people over to
+and you'd like to invite people over to your home who are all mutual friends one
+your home who are all mutual friends one another okay
+connected or a group of nodes who are all connected by lines with one another
+is called a click so over here we have a three click this a four click four nodes
+three click this a four click four nodes all connected by lines and so on and if
+what I'm interested in doing is finding Among The Faculty among these nodes
+Among The Faculty among these nodes groups which form clicks presumably as
+large as I can get so I can have a decent sized party so you know over here
+decent sized party so you know over here I got a a three
+click down here I got a four click question is is that the best I can
+click question is is that the best I can do or maybe can I find a bigger click
+than that
+well you're really quick you can see that in fact there is a five cleak in
+that in fact there is a five cleak in this graph here it is maybe a little
+and but the point is that if you want to try to find a cleck say in a bigger
+try to find a cleck say in a bigger graph here's a graph with even more
+here's a network or graph with even more nodes the number of possibilities say if
+nodes the number of possibilities say if you want to look for a click say of
+here um that's not a click but if you sort of want to try to find one perhaps
+sort of want to try to find one perhaps with eight nodes in it you just have to
+as far as we know you have to search through all possible subsets of eight
+through all possible subsets of eight nodes to see if any one of them turns
+out to be a click and the number of possibilities that you would have to go
+possibilities that you would have to go through to do that is large and in fact
+if you had instead of just a 100 nodes that I as I've described here if you had
+hundreds of nodes which is still a pretty Modas sized problem and you tried
+pretty Modas sized problem and you tried to find the biggest click possible or
+to find the biggest click possible or you know some Target Siz click of a you
+know of a reasonably decent size it would take centuries maybe even
+would take centuries maybe even Millennia of computer time to search
+Millennia of computer time to search through all the
+possibilities you see it's a very similar kind of situation with factoring
+similar kind of situation with factoring and it's even more similar in that you
+can ask the same question do you really need to search or is there some way to
+need to search or is there some way to zoom in on those on that big
+click quickly without searching we don't know so both the click and the factoring
+problem are examples of what I would call needle in the Hast stack
+problems you know in case you're not familiar with Hy stack here's here's an
+familiar with Hy stack here's here's an example um big pile of hay and somewhere
+needle H to search for that needle as you can imagine it's going to take a
+long time here's a cartoon sort of giving the idea somebody actually found
+giving the idea somebody actually found the needle but after searching so um
+it's amazing what you can find on the internet these days uh
+um you know in the case of you know this sort
+of uh example of looking for a needle in a hay
+a hay stack um here's here's on my model of a
+stack um if you want to you can ask that the problem is searching necessary to
+the problem is searching necessary to find the
+find the needle
+well perhaps you have the magnet
+then Bingo you get the needle right away you don't you don't have to search at
+all so the question that we're asking in the case of factoring and click is there
+the case of factoring and click is there some kind of mathematical analog to the
+some kind of mathematical analog to the magnet that pulls out the answer without
+magnet that pulls out the answer without having to search for it in neither of
+those cases do we know and in fact that phenomenon is very very pervasive it's
+phenomenon is very very pervasive it's very widespread spread throughout
+very widespread spread throughout problem in Engineering in in economics
+problem in Engineering in in economics in optimization and in science for
+example if you looking at problems involving scheduling classes or exams
+involving scheduling classes or exams where you're trying to minimize the
+where you're trying to minimize the number of
+conflicts the only way to to to do that which finds the best possible answer
+which finds the best possible answer involves searching through large numbers
+involves searching through large numbers of schedules or if you want to color a
+map with a smallest number of colors so that no two adjoining adjacent countries
+that no two adjoining adjacent countries end up with the same color
+you might have to search through a lot of possible colorings in order to find
+of possible colorings in order to find the one that's the best possible or if
+the one that's the best possible or if you know there's a problem in
+computational biology where you given a protein sequence and you're trying to
+protein sequence and you're trying to find the configuration that that
+sequence will fold up into to give you a sense of how of the function of that
+sense of how of the function of that protein inside the
+cell would be great if we could solve that on a computer but the only way that
+that on a computer but the only way that we know how to do it would involve
+we know how to do it would involve trying to search through all possible
+trying to search through all possible configurations of the protein takes to
+configurations of the protein takes to long this is a real practical problem
+long this is a real practical problem that people would love to be able to
+that people would love to be able to solve it's just beyond our computational
+solve it's just beyond our computational ability to solve it by searching and no
+one knows if there's a you know if there's a faster way another problem of
+interest to mathematicians is the problem of theorem
+proving another searching type problem if I want to know is there a proof of a
+if I want to know is there a proof of a theorem of a certain length so okay you
+theorem of a certain length so okay you know I given some mathematical
+know I given some mathematical statements say and I want to know is
+which is at most 100 Pages well I could do that in principle
+Pages well I could do that in principle by a computer I can make that check by
+possible proof of 100 pages long and seeing if any one of them one of them
+seeing if any one of them one of them actually works but of course that's
+time is there some way to find that proof more directly no one knows would
+proof more directly no one knows would seem incredible if there was but we
+seem incredible if there was but we don't know we don't have a proof that
+don't know we don't have a proof that you and there it goes on and on there
+you and there it goes on and on there are many other problems of this kind
+are many other problems of this kind where searching seems to be necessary
+but we don't have a proof that it really is so that's the P versus NP question
+is so that's the P versus NP question sort of informally speaking can we solve
+sort of informally speaking can we solve searching problems without
+searching okay I'll say more about that in a second but um let me
+in a second but um let me first help you to see or explain where
+first help you to see or explain where the terminology P versus NP comes from
+the terminology P versus NP comes from comes from these two CL
+comes from these two CL of problems called p and
+NP um P stands for the problems that you can solve quickly the so-called
+polinomial time problems and I'm I don't want to get too technical about it but
+want to get too technical about it but for our point of view polinomial time
+for our point of view polinomial time where you you're you're considering how
+long the procedure is going to run in terms of the length of the input to the
+terms of the length of the input to the procedure and it only Grows by a
+procedure and it only Grows by a polinomial number of steps compared with
+polinomial number of steps compared with um an exponential number of steps which
+is what you would need if you had a a searching problem polinomial time is
+searching problem polinomial time is considered fast so the P problems are
+the ones we consider to be quickly solvable those are the ones that don't
+searching in contrast with the NP problems those are the
+problems which in addition to that are problems that might involve
+searching okay so the P problems are the problems that can solve quickly the NP
+involve searching as well and it but it's searching of a particular kind this
+it's searching of a particular kind this is a little bit of a tricky point that
+these are problems where you can solve them by searching but once you found the
+answer you can check that it's right quickly so finding it might be hard but
+quickly so finding it might be hard but checking it is easy so what I mean by
+that is think of the examples of factoring and
+Le those are both NP problems so in the case of factoring it might be hard to
+case of factoring it might be hard to find the factors but once I found them I
+find the factors but once I found them I can check that they work just by
+can check that they work just by multiplying them together and seeing if
+multiplying them together and seeing if I get the right
+result so checking is easy that's the essence of NP same with click if I'm
+essence of NP same with click if I'm trying to determine does my NE you know
+trying to determine does my NE you know is there a n within my network are there
+is there a n within my network are there a hundred nodes that form a click that
+a hundred nodes that form a click that are all connected to one another it
+might take me a long time to find it but once I have found it I can check that it
+once I have found it I can check that it works that it's really a 100 nodes that
+works that it's really a 100 nodes that they really are connected with one
+another and so on that check I can do easily that's the essence of NP which
+easily that's the essence of NP which stands for non-deterministic polinomial
+stands for non-deterministic polinomial time um that you can you may not be able
+to find the answer quickly but you can check it quickly so in term visually
+check it quickly so in term visually speaking both of these uh classes are
+speaking both of these uh classes are classes of computational problems
+um the NP problems are the ones that where you can check them easily the P
+where you can check them easily the P problems are the ones where you can
+question is are those two classes the same is checking easily checkable
+same is checking easily checkable problems the same thing as easily
+problems because the easily easily checkable problems are the ones that you
+searching so if the two classes p and NP are the same that says that any problem
+are the same that says that any problem that you can solve with searching you
+that you can solve with searching you can also solve without searching so
+searching is always can always be eliminated if P equals
+different from NP then we know that there are certain checkable problems
+which are not certain easily checkable problems which are not easily solvable
+and so that tells us that there were certain problems that really require
+certain problems that really require searching can't be eliminated
+so if you didn't follow that exactly all thing to remember is that either P
+thing to remember is that either P equals NP which means you can always
+equals NP which means you can always eliminate searching or p is different
+eliminate searching or p is different from NP which tells you that sometimes
+from NP which tells you that sometimes searching is necessary and can't be
+eliminated okay which is the latter is what we expect to be true but we don't
+know how to show it okay so
+it okay so this either or situation is unresolved
+time okay let me tell you a little bit about the history of the
+about the history of the problem in the literature anyway the you
+subject uh goes back to the mid 1960s when various mostly mathematicians
+1960s when various mostly mathematicians started looking at you know the compu
+the emerging computer technology and started building a mathematical theory
+started building a mathematical theory around it and they did things like um uh
+defining what means for various in coming up with formal models of
+coming up with formal models of computers and measuring the amount of
+time that those models of computers need to solve various kinds of problems they
+to solve various kinds of problems they basically set up the mathematical
+framework of the theory and proved a bunch of interesting theorems at the
+bunch of interesting theorems at the same time now some years after that in
+1970s there were several papers by cook Lev and and carp which established the P
+Lev and and carp which established the P versus NP question as an important one
+versus NP question as an important one and and sort of this companion notion of
+and and sort of this companion notion of NP completeness which I'll talk about in
+NP completeness which I'll talk about in a bit so it really in the literature the
+P versus NP question traces its roots back to the early
+1970s okay but about 15 years ago an amazing Discovery was
+made turns out that in the correspondence between two
+mathematicians the whole idea of P versus NP had been explored back in 1956
+and that was this letter that girdle wrote to Van noyman which was discovered
+archives so here is a copy of the letter um I'll actually explore some
+details of the letter in a minute for one thing it's in German so that's a
+also a little hard to read from back there but we'll we'll look at it in a
+there but we'll we'll look at it in a bit more detail but just you know in
+case you don't know who girdle and vanman were um girdle was is considered
+vanman were um girdle was is considered to be the greatest logician of the 20th
+to be the greatest logician of the 20th century in the
+1930s he had a whole series of absolutely remarkable mathematical
+breakthroughs one of one of which is the incompleteness theorem which tells you
+incompleteness theorem which tells you that in any reasonable mathematical
+that in any reasonable mathematical system there are certain true statements
+system there are certain true statements which cannot be proven to be true within
+certain mathematicians of that day because they had believed belied that
+because they had believed belied that anything any mathematical question would
+anything any mathematical question would ultimately be resolved if he just worked
+wasn't true there are some things that are some in some sense can might never
+be known um this happens to be the H 100th anniversary anniversary of his
+birth at the same time as being the 50th anniversary of that letter so it's nice
+anniversary of that letter so it's nice time to talk about
+time to talk about it um John Van noyman was a great
+it um John Van noyman was a great tremendously versatile mathematician who
+tremendously versatile mathematician who worked in a whole bunch of different
+and as well as in physics and in other fields he um he was uh at the Manhattan
+fields he um he was uh at the Manhattan Project um and he was also a one of a
+very early computer scientist and is known for example for this so van noyman
+known for example for this so van noyman architecture that's uh you know sort of
+architecture that's uh you know sort of the way pretty much all computers are
+the way pretty much all computers are set up today is the idea of a stored
+program uh
+computer so let's look back again at his letter and I hope this comes through
+letter and I hope this comes through we'll see um I want I sort of focus in
+on a few sort of key pieces of the letter
+um so it starts off liba her vanman this is the salutation Dear Mr vanoyan um and
+is the salutation Dear Mr vanoyan um and here's the uh date March 20th
+here's the uh date March 20th 1956 and Prince
+now and one thing that's sort of curious is both girdle and vanman were at The
+is both girdle and vanman were at The Institute for advanced study at
+Institute for advanced study at Princeton presumably with offices down
+Princeton presumably with offices down the hall from one another um so it's
+sort of strange that girl is writing voman a letter like this um however you
+voman a letter like this um however you know one does have to point out that
+know one does have to point out that uh uh van noyman was very sick at the
+uh uh van noyman was very sick at the time in fact was dying and died within a
+around maybe he was at home or maybe in the hospital don't know um so that may
+the hospital don't know um so that may have been why he wrote wrote him a
+have been why he wrote wrote him a letter in fact the beginning part of the
+letter in fact the beginning part of the letter the first page uh of the letter
+girdle's hopes that he recovers and so on but then he turns to a mathematical
+on but then he turns to a mathematical question and this is the mathematical
+question and this is the mathematical question he talks about the vano he says
+suppose you know we have a machine he doesn't use the word computer
+machine he doesn't use the word computer just machine um and machine can he
+just machine um and machine can he actually uses word it's amazingly modern
+actually uses word it's amazingly modern language in this whole letter you have
+language in this whole letter you have to read the whole thing to appreciate it
+to read the whole thing to appreciate it um but it's it's very phrased in a very
+um but it's it's very phrased in a very modern terminology which didn't exist
+back then I mean he was just making this all up um for the first time really but
+all up um for the first time really but um he says suppose we have a machine
+um he says suppose we have a machine which can tell whether a mathematical
+which can tell whether a mathematical statement has a proof of length n for
+how much time does that machine need and remember that's the question we talked
+remember that's the question we talked about just a few slides back this is a
+machine can certainly get the answer but it would have to search through all
+it would have to search through all possible proofs of length n and that
+possible proofs of length n and that would take a long time so here is what
+says you know def Fraga East blah blah blah the question
+blah the question is
+translated how fast does Fe ofen grow for an opal machine and you can sort of
+see it I think if you can read the uh the hand handwriting there um f of n is
+the hand handwriting there um f of n is the amount of uh time the machine know
+the amount of uh time the machine know needs to to make this test of whether
+needs to to make this test of whether the math ma mathematical statement has a
+the math ma mathematical statement has a proof of length
+n so in other words if F of n is
+words if F of n is polinomial then this problem is is
+polinomial then this problem is is becomes in P if F of n is more than
+then it's not in P so in fact really what this thing is saying this this this
+what this thing is saying this this this little section here is the P versus NP
+there kind of amazing that in in a very real sense the the P ver NP question has
+real sense the the P ver NP question has been explicitly stated in this
+letter then he goes on to talk about that this would be uh very important to
+that this would be uh very important to resolve this question it's a very
+resolve this question it's a very significant uh uh one way or the other
+significant uh uh one way or the other other um and over here
+oops he refers to bossen probin which I think Loosely translates to brute force
+think Loosely translates to brute force or exhaustive search I think it
+or exhaustive search I think it literally means something like blind or
+literally means something like blind or or bar
+trying but you know it's he's aware of this issue of exhaustive search as you
+this issue of exhaustive search as you know the uh what would is if if you
+anything um to to uh to test if this this proof of length n
+existed and then he goes on to mention the problem of testing
+perality and in fact how many steps you need to solve in general finite
+need to solve in general finite combinatorial
+problems such as like you know he doesn't say this but you the finite
+doesn't say this but you the finite comori finite combinatorial problems
+would be like the Click problem or scheduling problem or stuff like that so
+he really has a vision
+of what's important about this question and and and really kind of predicted
+and and and really kind of predicted where the field is going where the field
+went over the next you know 15 20 years it's just I think an amazing document in
+it's just I think an amazing document in the history of science that this that
+this thing was discovered um anyway uh so in the 50 years since girdle's letter
+so in the 50 years since girdle's letter um P versus NP question has kind of
+um P versus NP question has kind of ained a certain almost Mythic status
+ained a certain almost Mythic status within computer science field within
+within computer science field within theoretical computer science it's kind
+of now thought of as the Holy Grail problem of theoretical computer science
+problem of theoretical computer science and also within the mathematical
+and also within the mathematical Community it's it's considered to be one
+Community it's it's considered to be one of the great problems in contemporary
+of the great problems in contemporary mathematics um you know the
+mathematics um you know the clay Institute
+clay Institute has uh been responsible for this list of
+uh math problems this I guess they organized a committee of folks and I'm
+organized a committee of folks and I'm not sure I know the whole full
+not sure I know the whole full background but they there was a uh group
+background but they there was a uh group of mathematicians who put this list
+of mathematicians who put this list together um in the year
+2000 sort of um patterned after the list that Hilbert put together a century
+that Hilbert put together a century before and these are great unsolved
+before and these are great unsolved problems of mathematics today which kind
+mathematicians for the coming century um and as you can see p versus NP Pro the P
+and as you can see p versus NP Pro the P vers NP problem is one of the problems
+vers NP problem is one of the problems on this list I was happy to see that um
+and uh one thing that's different between the clay list and the Hilbert
+between the clay list and the Hilbert list is that the clay Institute is also
+offering a million dollars for the solution to any one of these problems so
+um and you might notice that the top problem on the list has a little check
+problem on the list has a little check mark there it doesn't have a bullet
+mark there it doesn't have a bullet anymore because that problem has
+anymore because that problem has actually been solved um you probably
+know uh the story of Pearlman I'm not going to get into that whole complicated
+going to get into that whole complicated mess uh but he uh didn't accept the
+mess uh but he uh didn't accept the fields medal um uh few month ago or so
+fields medal um uh few month ago or so and um even though he's the one who
+and um even though he's the one who solved this problem and it's not known
+solved this problem and it's not known yet whether he's going to accept a
+yet whether he's going to accept a million dollars that has not been um
+million dollars that has not been um there's a sort of a two-year delay
+there's a sort of a two-year delay before they uh before they give the the
+before they uh before they give the the million dollars out I guess it's a
+little bit more than just uh you know got to be careful with those million
+got to be careful with those million bucks
+bucks uh so
+um uh um so anyway that's you know I had to
+uh um so anyway that's you know I had to guess I bet he'll he'll accept this one
+guess I bet he'll he'll accept this one um but but I actually I really maybe not
+um but but I actually I really maybe not who's to say
+um so yeah oh yeah so before I get to that I want to say one thing about P
+that I want to say one thing about P versus NP getting back to that
+question some sense you know P versus NP question said do you really need to
+question said do you really need to search when you have a searching
+problem and you know in some sense you know if you're you might think that's
+kind of obvious obviously you need to search if you have a searching problem
+search if you have a searching problem and you know believe it or not I get a
+couple of times a year I get a manuscript of someone purporting to
+manuscript of someone purporting to solve the P versus MP
+solve the P versus MP question some reason I'm
+question some reason I'm a I get sent these things I don't know
+why um
+and they uh they
+invariably even though they're like 40 pages long all they the the the essence
+pages long all they the the the essence of it is the problem's obviously
+of it is the problem's obviously true that's the content pretty much
+true that's the content pretty much always in these papers and you know
+always in these papers and you know there's a lot of complicated calculation
+but they basically all say well you have to solve these problems by searching and
+to solve these problems by searching and searching takes a long time calculate
+searching takes a long time calculate calculate
+calculate um so um what I want to show you is that
+um so um what I want to show you is that sometimes you can avoid searching where
+sometimes you can avoid searching where you might think you would otherwise need
+you might think you would otherwise need it and I'm not going to be able to do
+that in detail because it would get too technical but I want to give you a bit
+technical but I want to give you a bit of a flavor of why how that might happen
+of a flavor of why how that might happen and that's the case of testing whether a
+prime okay so this is actually the one of the problems that you know the
+of the problems that you know the problem that girdle mentioned in his
+letter um as one that might seem to require searching and at superficially
+require searching and at superficially the only way the way you would test if a
+would factor a number you would do trial division of lots of possibilities and if
+you if you fail to find a factor then you know the number is prime if you find
+a factor you know it's not Prime but there that's very slow as I pointed out
+there that's very slow as I pointed out that searching type method but there's a
+that searching type method but there's a there we now know that there are
+there we now know that there are dramatically faster ways of testing if a
+dramatically faster ways of testing if a number is prime and I give you a little
+flavor of how that goes um and the B these all sort of rest on a centuries
+these all sort of rest on a centuries old theorem due to
+Forma um in number Theory and you know this is as technical as the talk is
+this is as technical as the talk is going to get so I would say this is a
+technical I keep on pointing at my my laptop there which I know you can't
+see uh um this is a
+a uh
+uh [Music]
+uh okay let's just let's let me walk you through this I
+mean it's worth trying to figure to understand in this because it's very
+nice so try try to bear with me what this theorem says is that if you have a
+this theorem says is that if you have a prime number
+P like take seven for example and you have a natural number a less than P like
+have a natural number a less than P like take two for example so P equal to 7 a
+equal to two then if you raise a to the P minus
+one power you always get one modulo p and
+power you always get one modulo p and saying that in
+English it says that if you take the number a which is two in our example you
+number a which is two in our example you raise it to the P minus one power then
+raise it to the P minus one power then you divide by P and take the remainder
+you divide by P and take the remainder so throw away the quotient only look at
+so throw away the quotient only look at the remainder after you do the division
+you always get one for the remainder so let's actually walk ourselves through an
+let's actually walk ourselves through an example so
+if p is seven and a is two as I mentioned you raise two which is a to
+mentioned you raise two which is a to the 7 minus 1 or 6 power which is 64
+seven and take the remainder now 63 is a multiple of seven so 64 has a remainder
+multiple of seven so 64 has a remainder one when you divide by seven
+one when you divide by seven works okay and it works whenever you
+works okay and it works whenever you meet the conditions of the theorem for
+meet the conditions of the theorem for any Prime and any a and and and any such
+any Prime and any a and and and any such a you're always going to get one which
+think big deal but it's kind of amazing that this works if you actually try it
+that this works if you actually try it out in a bunch of examples
+and just in contrast if you try an example where the where p is not
+prime you'll see it fails to work so if you take P equal to 15 and a equal to
+you take P equal to 15 and a equal to two then you raise two to the 14th power
+16384 and you divide by 15 and take the remainder you get four which is not
+one so you see that equation fails in the case where can fail anyway when in
+the case where can fail anyway when in the case where p is not Prime and what's
+calculation that I just did proves to you that 15 isn't Prime of course we
+you that 15 isn't Prime of course we knew that
+already but this proves it to you in a different
+way it doesn't prove it to you by exhibiting the factors 3 * 5 of P it
+proves it to you by saying well P fails to have a property that we know prime
+to have a property that we know prime numbers have and therefore it can't be
+numbers have and therefore it can't be Prime
+and the thing is is that you can use this as a basis of a
+test basis of an algorithm which can test primality
+algorithm which can test primality without going through the factorization
+process and in fact you know initially it was a randomized algorithm and since
+it was a randomized algorithm and since you know it's been since sort of
+you with lots of additional ideas been made into a deterministic algorithm and
+made into a deterministic algorithm and now we know that the problem of testing
+of a numberers prime can be solved quickly in polinomial
+time okay so searching can be eliminated okay now let me tell you a
+eliminated okay now let me tell you a little bit about this notion of NP
+little bit about this notion of NP completeness
+um all right um I would say NP completeness was was perhaps the first
+completeness was was perhaps the first and maybe the only important step that's
+been made towards solving the pnnp question and it's a it's a nice kind of
+explainable idea it's kind of amazing in its own right but NP completeness is is
+its own right but NP completeness is is this it tells you that the the that the
+this it tells you that the the that the problems in NP these searching problems
+problems in NP these searching problems are in many cases linked to one
+another and what I mean by that is if you find a way of solving the click
+you find a way of solving the click problem remember this you know this
+problem remember this you know this problem with the net network of nodes if
+you can find a way of solving that problem without
+searching you immediately get a way of solving the factoring problem without
+solving the factoring problem without searching even though those two problems
+searching even though those two problems don't look anything like one another
+don't look anything like one another whatsoever a fast way of soling Click
+whatsoever a fast way of soling Click will immediately translate into a fast
+will immediately translate into a fast way of solving Factory why would that be
+true well the reason for that is that there are these
+Transformers that can convert factoring problems into click
+problems so if you have a fast way of solving the click problem and you want
+solving the click problem and you want to solve your factoring problem you just
+Transformer Transformer thinks around thinks for a
+I can do that again if you want and the nice thing about the click
+want and the nice thing about the click problem that gets spit out is that if
+problem that gets spit out is that if you find a large
+click in that Network that gets produced it immediately translates into the
+factors of the original factoring problem so you get the idea that's why
+problem so you get the idea that's why these The Click problem is related to
+these The Click problem is related to the factoring problem this way and
+the factoring problem this way and incidentally the reverse transformation
+incidentally the reverse transformation is not known to be true so we don't know
+how to convert click problems into factoring problems only only this way
+factoring problems only only this way however click is
+still this this phenomenon is not unique to factoring in that you can convert any
+to factoring in that you can convert any NP problem to a click
+problem so what that tells you is that CLE The Click problems in some sense the
+CLE The Click problems in some sense the granddaddy of all problems in NP because
+granddaddy of all problems in NP because you can convert any NP problem into a
+solve The Click problem quickly you can solve any NP problem quickly and then P
+solve any NP problem quickly and then P equals
+NP that's what it means for click to be n it's not the only one there are many
+n it's not the only one there are many other problems which are NP complete but
+other problems which are NP complete but click is a you know one of the problem
+we were looking at okay um oh yeah so let me also mention a little bit more
+so let me also mention a little bit more about NP just to sort of clarify what's
+going on with NP a bit you know I said that NP are the problems that where you
+that NP are the problems that where you can solve by searching but where you can
+quickly so just to contrast that there are certain problems that you can solve
+are certain problems that you can solve by be able to check the answer quickly
+by be able to check the answer quickly it's not a given that just because you
+it's not a given that just because you can solve it by searching that you can
+can solve it by searching that you can always check the answer correctly
+always check the answer correctly um so take the case of
+um so take the case of Chess and you want to
+know which side would win under optimal play if both sides played perfectly
+play if both sides played perfectly would white win would black win or would
+would white win would black win or would it be a
+draw Nobody Knows the answer to that problem in principle you could figure it
+problem in principle you could figure it out by going through the entire game
+out by going through the entire game tree of all the possible games that you
+could have in chess but that's an astronomically big number you
+know and would take horrendous mendous amount of time longer than the lifetime
+amount of time longer than the lifetime of the
+of the Universe um and so it's not practical to
+do that um but moreover suppose you did it
+that um but moreover suppose you did it and you determined white has a a forced
+and you determined white has a a forced win if the both sides play optimally now
+win if the both sides play optimally now you want to convince me of
+that now now you want to um check that that's the right answer there's no
+way to check it is to essentially walk through all the whole thing do the whole
+through all the whole thing do the whole thing over
+again okay so that's in contrast if I'm trying to get the the sense that this is
+trying to get the the sense that this is a search seeing which side has the win
+a search seeing which side has the win under optimal play is a searching
+under optimal play is a searching problem but it's not an NP type
+searching problem it's kind of in some worse than NP because you don't even
+worse than NP because you don't even have this feature that you can check the
+answer quickly okay so just sort of summarizing
+quickly okay so just sort of summarizing some of the information that we've been
+some of the information that we've been discussing recently we have the classes
+discussing recently we have the classes p and NP and the four
+p and NP and the four um um problems that we've discussed
+um um problems that we've discussed multiplication factoring click and
+multiplication factoring click and optimal game strategies are kind of
+outside of NP click and factoring are in NP but not known to be NP and actually
+NP but not known to be NP and actually in all of these cases this is just
+in all of these cases this is just conjectured the conjectured picture
+things may uh collapse down um and multiplication is known to be in P now
+multiplication is known to be in P now complexity theorists have
+been uh working on the P versus NP question you know for 30 years or so but
+question you know for 30 years or so but they've been doing lots of other stuff
+they've been doing lots of other stuff too not just beating our heads against
+too not just beating our heads against the wall on just that one problem the
+the wall on just that one problem the whole time um and one of the things that
+devise even more complexity classes and in in in fact a rich system of classes
+in in in fact a rich system of classes that capture all sorts of features of
+that capture all sorts of features of complexity of different problems so
+there's actually a rather Rich kind of um I don't know what to call it uh uh
+um I don't know what to call it uh uh classification system for computational
+problems according to all sorts of different parameters the amount of time
+different parameters the amount of time you need the amount of space you need
+whether that you can solve it more quickly with parallelism or Randomness
+quickly with parallelism or Randomness and so on um and it's been populated by
+these are real problems that people are interested in solving that uh occur as
+interested in solving that uh occur as far as we know it within this
+far as we know it within this hierarchy now and I also want to mention
+hierarchy now and I also want to mention that this hierarchy is by no means a
+that this hierarchy is by no means a static object the things are changing
+certainly if P was proved equal to NP that would affect this radically um but
+that would affect this radically um but there are changes that are occurring
+there are changes that are occurring every few years as new discoveries are
+being made so for example if you we focus our attention on the primality
+focus our attention on the primality problem you know as I just mentioned
+problem you know as I just mentioned it's now known to be in P but if we just
+years we would only know that primality would be solvable in what's called
+would be solvable in what's called randomized polinomial
+time and it was this result that came out in 2002 that moved primality down
+out in 2002 that moved primality down one step lower in the
+so got this P versus NP problem what can we do about it you know um for one thing
+we do about it you know um for one thing you know I I write on the side how do we
+prove P different from NP that partly reflects my bias I don't believe P
+equals NP I don't believe that we can solve search problems without searching
+solve search problems without searching I believe that as most you know I'm not
+unique most of the other people in the field feel the same way that some of
+problems really do require searching we just don't know how to prove
+just don't know how to prove that and then why why
+that and then why why why is it so hard to
+prove well um the reason is
+algorithms can operate in very clever unforeseen ways just like in the
+testing there's all sorts of devil fish bizarre ways of solving problems
+that we might not have thought of and it's very difficult to prove that none
+of those can possibly work in a sense by proving that none of those can work the
+proving that none of those can work the computer kind of becomes your
+adversary you want to show that this potentially fish clever machine no
+potentially fish clever machine no matter matter what complicated thing it
+matter matter what complicated thing it gets programmed to do it's not going to
+be able to successfully solve one of these searching problems it's such a
+these searching problems it's such a rich class of possibilities very hard to
+rich class of possibilities very hard to get your hands on that and show that
+none of those can work so what do we do so here's a strategy that myself and
+so here's a strategy that myself and some other people have taken on over the
+some other people have taken on over the years is try to limit the power of the
+years is try to limit the power of the Machine by kind of handicapping it in
+Machine by kind of handicapping it in some way
+okay and then for this handicap machine it can't run anymore it can only
+it can't run anymore it can only limp and when you have a machine that
+can only limp maybe you have an advantage in being able to prove it's
+advantage in being able to prove it's going to have you know you're limiting
+the kinds of operations it can do you're limiting Its Behavior in a certain way
+limiting Its Behavior in a certain way and maybe for these limited machines you
+and maybe for these limited machines you have a better chance of proving that
+have a better chance of proving that they really do need to search there are
+they really do need to search there are fewer clever things they they can do
+fewer clever things they they can do if
+if you are
+further until you've got the thing so limited that you can finally say
+limited that you can finally say something and hopefully you get some
+insight by doing that and then maybe you can start eliminating these limitations
+can start eliminating these limitations and work your way up because it's hard
+nothing you would like to break it down into a series of steps if you can and
+one by one and hopefully you can build back up to being getting an idea of how
+to tackle a general machine which is unlimited that's the Hope
+unlimited that's the Hope anyway
+approach well you know here's a in combination with that here's an approach
+combination with that here's an approach that people take is they try to figure
+finding an input to the machine on which the machine would fail so here's you
+the machine would fail so here's you know
+a a machine that operates quickly it doesn't search so presumably this
+doesn't search so presumably this machine is not able to solve say the
+problem but how do you prove that it doesn't Sol can't solve The Click
+problem you know if it's not able to search well you want to find some kind
+of an input an example of a click problem which particularly
+difficult and you know you're more likely to find difficult
+problems so saying it somewhat mathematically if you're trying to
+mathematically if you're trying to exhibit the difference between
+exhibit the difference between polinomial time and exponential time
+Behavior you're better off looking at large n because then the the difference
+large n because then the the difference becomes even more
+clear and kind of carrying that to the extreme it might make mathematical sense
+extreme it might make mathematical sense to try to run the computer on infinite
+to try to run the computer on infinite inputs if you could make sense of
+that and I think in some ways you can and maybe by running the thing on
+can and maybe by running the thing on input infinite inputs you can get some
+input infinite inputs you can get some insight into what makes the problems
+hard and learn something back about the finite case you know again none of these
+finite case you know again none of these things have paid off otherwise I would
+things have paid off otherwise I would be giving a different talk today um but
+be giving a different talk today um but those are ideas that people have
+those are ideas that people have tried um
+okay so drawing to the end of my talk um will the P versus then be question ever
+will the P versus then be question ever be solved it seems clear that the
+be solved it seems clear that the collection of techniques that we have at
+collection of techniques that we have at present is inade is inadequate we're
+going to have to develop new methods in order to be able to to to tackle the P
+order to be able to to to tackle the P versus MP question let me just tell you
+versus MP question let me just tell you mean I'm personally an optimist um that
+it will be solved one day let me tell you a little story about that when I was
+you a little story about that when I was a graduate student back in the mid 70s
+a graduate student back in the mid 70s um I made a
+bet with one of my fellow graduate students happens to be Len Adelman who
+students happens to be Len Adelman who was the a from the RSA code this is
+was the a from the RSA code this is before RSA code was developed which
+before RSA code was developed which stands for revest Shamir and Adeline to
+stands for revest Shamir and Adeline to give everybody credit by the way uh if
+give everybody credit by the way uh if they're
+they're here uh so
+um so Len I I made a bet with Len Adelman we were both thinking about the
+Adelman we were both thinking about the P versus MP question this is you know 30
+years ago um and I made the Bold claim that the P versus NP question would be
+that the P versus NP question would be solved by the year
+2000 and I bet Len an ounce of gold which was a lot of money for a
+gold which was a lot of money for a graduate
+graduate student
+student um
+um well I paid off
+luckily the price of gold when I was a graduate student was around $700 an
+ounce now it's around $600 an ounce when I paid off it was around $250 an ounce
+I paid off it was around $250 an ounce so I got lucky there but
+so I got lucky there but um
+uh but you know that's uh anyway that's that's my story
+that's my story um and uh
+I don't know I think you know I'm still hopeful that you know we'll see the
+solution I I it's a great problem and and I'm looking forward to to seeing
+and I'm looking forward to to seeing what happens with it um so that's end of
+I'd like to thank uh Michael for a really fine talk and uh I think we can
+take a few questions yeah
+yeah sure I mean there's you know if you're willing to settle for less than
+you're willing to settle for less than the best in many different senses then
+the best in many different senses then you can solve these problems in some
+you can solve these problems in some cases quickly um so if you're willing to
+cases quickly um so if you're willing to settle for an approximate solution
+settle for an approximate solution instead of finding the biggest click
+instead of finding the biggest click well click is probably not the best
+example but I mean there are other because in the case in some cases um
+because in the case in some cases um it's known that even getting an
+it's known that even getting an approximate answer is as hard as getting
+be a better example I'm not an expert on approximation algorithms but there are
+approximation algorithms but there are cases where if you're willing to settle
+for an approximation to the best solution then you can do it quickly
+solution then you can do it quickly um uh
+but yeah so maybe I should just leave it at that does that is that good enough
+at that does that is that good enough for your yeah
+yes uh this is soduku sodoku whatever it's called yes
+it's called yes I I um is that NP complete I yes
+I I um is that NP complete I yes yes thank
+you actually I don't know but it's claimed that the answer is yes yes in
+claimed that the answer is yes yes in the back there no you
+computer that can solve it well I mean if there is a distributed computer with
+if there is a distributed computer with a moderate amount
+of um processors you could simulate that with a ordinary sequential you know
+with a ordinary sequential you know single processor computer just by you
+know H that one one machine just taking you know pretending to be each one of
+you know pretending to be each one of those distributed machines one at a time
+those distributed machines one at a time so it's not going to change things
+so it's not going to change things tremendously unless you have an enormous
+tremendously unless you have an enormous number of distributed machines available
+number of distributed machines available to you like an exponential number of
+so yeah then that case the problem would be simplified but it you know in a sense
+be simplified but it you know in a sense that is an impractical number of
+that is an impractical number of machines to throw at the problem you
+machines to throw at the problem you know you talking about you know instead
+know you talking about you know instead of working for 20 computer years of
+of working for 20 computer years of effort you might have to have you know
+effort you might have to have you know um quadrillions of computers or more
+um quadrillions of computers or more than that you know work working in
+than that you know work working in parallel so it's you know it's it
+parallel so it's you know it's it doesn't really buyue anything um that
+doesn't really buyue anything um that that's going to change the picture
+yeah I was trying to be careful when I made my actual statements to about NP so
+made my actual statements to about NP so the question is I mean there were two
+the question is I mean there were two slightly variations of one another in
+terms of the click problem am I just looking for the largest possible click
+looking for the largest possible click in the network or am I looking for a
+click of a certain specified Target size the the latter is the one that's in
+size the the latter is the one that's in NP the other one is not an NP problem
+because you can't check that you have you can't check that you actually found
+um that's not an NP type check uh to make um but if you can solve one of them
+make um but if you can solve one of them without searching you can solve the
+without searching you can solve the other one without searching they're both
+problems and I was sort of using them interchangeably depending upon you know
+interchangeably depending upon you know what sort of worked best in the
+sentence one last Pro one last question
+that's a great question I like that what makes me think you know because girdle
+makes me think you know because girdle had mentioned that uh there are certain
+had mentioned that uh there are certain questions which are you know perhaps
+questions which are you know perhaps unsolvable in in mathematical systems
+unsolvable in in mathematical systems maybe P versus NP is one of them and
+certainly there are people in the community who subscribe to that
+possibility and who think in fact P versus NP may be just one of those
+versus NP may be just one of those questions that can't be resolved um
+there's no at least in terms of proving it one way or the other um and you know
+it one way or the other um and you know I can argue that both
+ways my personal view is that you know it's a very concrete downto Earth kind
+of a question um it's not the type of question that you would normally think
+question that you would normally think of as being one which is independent of
+of as being one which is independent of axioms like the Axiom of choice or you
+know um the Continuum hypothesis which concerns Infinity and things that are
+concerns Infinity and things that are very far away from ordinary intuition
+very far away from ordinary intuition it's a very kind of concrete question P
+versus NP and for that reason I think
+reason I think it's you know
+anything to back this up but I think that kind of a question is more likely
+that kind of a question is more likely to be one that's going to get resolvable
+to be one that's going to get resolvable within our axima system on the other
+within our axima system on the other hand there is something kind of somewhat
+hand there is something kind of somewhat close to the foundations of mathema
+ICS in the P versus NP question you know just by virtue of thinking that girle
+just by virtue of thinking that girle himself who was a logician was thinking
+himself who was a logician was thinking about it when you're thinking about
+about it when you're thinking about algorithms it's close closely related to
+algorithms it's close closely related to the notion of proof and then you're
+talking about logic and it is true that questions and logic are more likely to
+questions and logic are more likely to run into this danger of unprovability
+run into this danger of unprovability and so that gives a little bit of
+credence to that possibility but my personal View and it's just a just an
+personal View and it's just a just an opinion because nobody knows
+that that it is solvable and that will be solved someday though I'm not taking
+be solved someday though I'm not taking any more
+bets well thank you thank you very much for
+for coming thank

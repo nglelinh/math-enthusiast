@@ -1,0 +1,37 @@
+{
+  "slug": "Green_Tao",
+  "videos": [
+    {
+      "id": "XWF1BuJ0Sfc",
+      "title": "Terence Tao — Long arithmetic progressions in the primes [ICM 2006]",
+      "has_transcript": true,
+      "chars": 79184,
+      "units": 39,
+      "url": "https://www.youtube.com/watch?v=XWF1BuJ0Sfc"
+    },
+    {
+      "id": "KgcDTcAwLJA",
+      "title": "Yufei Zhao — Green–Tao and relative Szemerédi",
+      "has_transcript": true,
+      "chars": 50337,
+      "units": 30,
+      "url": "https://www.youtube.com/watch?v=KgcDTcAwLJA"
+    },
+    {
+      "id": "PtsrAw1LR3E",
+      "title": "Terence Tao: Structure and Randomness in the Prime Numbers, UCLA",
+      "has_transcript": true,
+      "chars": 63577,
+      "units": 32,
+      "url": "https://www.youtube.com/watch?v=PtsrAw1LR3E"
+    },
+    {
+      "id": "e2V5U8Gwebc",
+      "title": "Tao — Structure and Randomness (Northwestern public lecture)",
+      "has_transcript": true,
+      "chars": 76579,
+      "units": 37,
+      "url": "https://www.youtube.com/watch?v=e2V5U8Gwebc"
+    }
+  ]
+}

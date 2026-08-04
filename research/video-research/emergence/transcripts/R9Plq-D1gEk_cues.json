@@ -1,0 +1,1172 @@
+[
+  {
+    "t_start": 0.089,
+    "t_end": 2.04,
+    "text": "You know- whether it's a game or not is"
+  },
+  {
+    "t_start": 2.04,
+    "t_end": 4.77,
+    "text": "another funny thing but I call it a no"
+  },
+  {
+    "t_start": 4.77,
+    "t_end": 7.62,
+    "text": "player game. I read a book called"
+  },
+  {
+    "t_start": 7.62,
+    "t_end": 10.349,
+    "text": "Automata Studies, a whole series of"
+  },
+  {
+    "t_start": 10.349,
+    "t_end": 12.48,
+    "text": "interesting things about automatic"
+  },
+  {
+    "t_start": 12.48,
+    "t_end": 15.71,
+    "text": "machines, the automaton. In particular,"
+  },
+  {
+    "t_start": 15.71,
+    "t_end": 19.67,
+    "text": "John von Neumann had been interested in"
+  },
+  {
+    "t_start": 19.67,
+    "t_end": 22.619,
+    "text": "colonising the planets. You see, you can't"
+  },
+  {
+    "t_start": 22.619,
+    "t_end": 26.449,
+    "text": "afford to take humans out to the planets;"
+  },
+  {
+    "t_start": 26.449,
+    "t_end": 28.98,
+    "text": "it's a long way away, you've got to carry"
+  },
+  {
+    "t_start": 28.98,
+    "t_end": 31.65,
+    "text": "more food and everything than the weight"
+  },
+  {
+    "t_start": 31.65,
+    "t_end": 33.63,
+    "text": "of the human by a long way. By the way,"
+  },
+  {
+    "t_start": 33.63,
+    "t_end": 36.989,
+    "text": "you've also got to equip your planet"
+  },
+  {
+    "t_start": 36.989,
+    "t_end": 39.03,
+    "text": "with an atmosphere and von Neumann's"
+  },
+  {
+    "t_start": 39.03,
+    "t_end": 43.26,
+    "text": "idea was that you first send some"
+  },
+  {
+    "t_start": 43.26,
+    "t_end": 47.969,
+    "text": "machines over. His model was that you're"
+  },
+  {
+    "t_start": 47.969,
+    "t_end": 51.12,
+    "text": "really going to send them to Mars; and"
+  },
+  {
+    "t_start": 51.12,
+    "t_end": 52.739,
+    "text": "Mars is called the Red Planet,"
+  },
+  {
+    "t_start": 52.739,
+    "t_end": 55.68,
+    "text": "and that's because it's got a lot of"
+  },
+  {
+    "t_start": 55.68,
+    "t_end": 58.859,
+    "text": "iron ore, basically rust. And so what"
+  },
+  {
+    "t_start": 58.859,
+    "t_end": 62.37,
+    "text": "these machines do is initially, well a"
+  },
+  {
+    "t_start": 62.37,
+    "t_end": 64.71,
+    "text": "whole lot of stages but a big"
+  },
+  {
+    "t_start": 64.71,
+    "t_end": 68.22,
+    "text": "important stage, is they smelt the iron"
+  },
+  {
+    "t_start": 68.22,
+    "t_end": 71.31,
+    "text": "ore and get iron. And then, they're quite"
+  },
+  {
+    "t_start": 71.31,
+    "t_end": 73.95,
+    "text": "clever machines, they start using this"
+  },
+  {
+    "t_start": 73.95,
+    "t_end": 76.799,
+    "text": "iron ore to build new machines whose job"
+  },
+  {
+    "t_start": 76.799,
+    "t_end": 79.86,
+    "text": "is to smelt more iron ore and so on."
+  },
+  {
+    "t_start": 79.86,
+    "t_end": 83.49,
+    "text": "Not only are you doing that but rust"
+  },
+  {
+    "t_start": 83.49,
+    "t_end": 87.509,
+    "text": "is iron oxide and so when you separate"
+  },
+  {
+    "t_start": 87.509,
+    "t_end": 90.81,
+    "text": "this into the iron you get oxygen out of it,"
+  },
+  {
+    "t_start": 90.81,
+    "t_end": 93.27,
+    "text": "and so now you can build up an"
+  },
+  {
+    "t_start": 93.27,
+    "t_end": 95.52,
+    "text": "atmosphere containing oxygen. I don't"
+  },
+  {
+    "t_start": 95.52,
+    "t_end": 98.43,
+    "text": "think he helped to equip the whole of"
+  },
+  {
+    "t_start": 98.43,
+    "t_end": 101.13,
+    "text": "Mars with such an atmosphere, but maybe"
+  },
+  {
+    "t_start": 101.13,
+    "t_end": 103.46,
+    "text": "you have some kind of shell or dome and"
+  },
+  {
+    "t_start": 103.46,
+    "t_end": 105.899,
+    "text": "in that dome you can have an atmosphere."
+  },
+  {
+    "t_start": 105.899,
+    "t_end": 109.079,
+    "text": "And then after considerable time when"
+  },
+  {
+    "t_start": 109.079,
+    "t_end": 111.329,
+    "text": "these machines have all been chugging away and"
+  },
+  {
+    "t_start": 111.329,
+    "t_end": 113.689,
+    "text": "making more machines and so on and"
+  },
+  {
+    "t_start": 113.689,
+    "t_end": 116.159,
+    "text": "smelting more iron and producing more"
+  },
+  {
+    "t_start": 116.159,
+    "t_end": 119.64,
+    "text": "oxygen you send the guys over -us, you"
+  },
+  {
+    "t_start": 119.64,
+    "t_end": 123.96,
+    "text": "know. Then he realised that you had to"
+  },
+  {
+    "t_start": 123.96,
+    "t_end": 127.74,
+    "text": "have a machine capable of building a"
+  },
+  {
+    "t_start": 127.74,
+    "t_end": 130.89,
+    "text": "copy of itself, and that seems a bit"
+  },
+  {
+    "t_start": 130.89,
+    "t_end": 132.74,
+    "text": "difficult."
+  },
+  {
+    "t_start": 132.74,
+    "t_end": 135.05,
+    "text": "Maybe in order to build a machine you"
+  },
+  {
+    "t_start": 135.05,
+    "t_end": 137.51,
+    "text": "need a more complicated machine; and in"
+  },
+  {
+    "t_start": 137.51,
+    "t_end": 139.25,
+    "text": "order to build that more complicated"
+  },
+  {
+    "t_start": 139.25,
+    "t_end": 141.17,
+    "text": "machine you still need an even more"
+  },
+  {
+    "t_start": 141.17,
+    "t_end": 145.16,
+    "text": "complicated machine. But von Neumann"
+  },
+  {
+    "t_start": 145.16,
+    "t_end": 149.27,
+    "text": "thought no maybe that's not so, and and"
+  },
+  {
+    "t_start": 149.27,
+    "t_end": 152.18,
+    "text": "he proved it wasn't so. He proved it,"
+  },
+  {
+    "t_start": 152.18,
+    "t_end": 154.19,
+    "text": "really, I don't know whether he was aware"
+  },
+  {
+    "t_start": 154.19,
+    "t_end": 158.03,
+    "text": "of this by copying what's done to us"
+  },
+  {
+    "t_start": 158.03,
+    "t_end": 162.26,
+    "text": "with RNA and DNA. Inside every cell of"
+  },
+  {
+    "t_start": 162.26,
+    "t_end": 166.52,
+    "text": "your body you've got some RNA molecules"
+  },
+  {
+    "t_start": 166.52,
+    "t_end": 169.67,
+    "text": "and they contain complete instructions"
+  },
+  {
+    "t_start": 169.67,
+    "t_end": 172.7,
+    "text": "for building another one, a copy of you. I"
+  },
+  {
+    "t_start": 172.7,
+    "t_end": 176.84,
+    "text": "call that the tape; you know, so"
+  },
+  {
+    "t_start": 176.84,
+    "t_end": 178.79,
+    "text": "you have a machine and you put a tape in"
+  },
+  {
+    "t_start": 178.79,
+    "t_end": 180.86,
+    "text": "this and it builds a copy of whatever"
+  },
+  {
+    "t_start": 180.86,
+    "t_end": 184.87,
+    "text": "machine is specified by that tape. And"
+  },
+  {
+    "t_start": 184.87,
+    "t_end": 187.67,
+    "text": "then if you can do that, and it's fairly"
+  },
+  {
+    "t_start": 187.67,
+    "t_end": 190.22,
+    "text": "easy to do that in a way, you can now"
+  },
+  {
+    "t_start": 190.22,
+    "t_end": 193.75,
+    "text": "feed it with a copy of its own tape and"
+  },
+  {
+    "t_start": 193.75,
+    "t_end": 196.49,
+    "text": "then you can build- in that way you can"
+  },
+  {
+    "t_start": 196.49,
+    "t_end": 199.15,
+    "text": "manage to design a machine and a tape"
+  },
+  {
+    "t_start": 199.15,
+    "t_end": 202.07,
+    "text": "which will build a copy of that machine"
+  },
+  {
+    "t_start": 202.07,
+    "t_end": 205.07,
+    "text": "and copy its own tapes as it will build a"
+  },
+  {
+    "t_start": 205.07,
+    "t_end": 208.01,
+    "text": "copy of itself. Von Neumann's machine, each"
+  },
+  {
+    "t_start": 208.01,
+    "t_end": 212.9,
+    "text": "square had 29 states - in the game of life"
+  },
+  {
+    "t_start": 212.9,
+    "t_end": 215.63,
+    "text": "you only have two states, on and off, or"
+  },
+  {
+    "t_start": 215.63,
+    "t_end": 217.4,
+    "text": "live and dead whatever you want to call"
+  },
+  {
+    "t_start": 217.4,
+    "t_end": 219.44,
+    "text": "them. In von Neumann's you had"
+  },
+  {
+    "t_start": 219.44,
+    "t_end": 222.11,
+    "text": "29 states, if you wanted it to do"
+  },
+  {
+    "t_start": 222.11,
+    "t_end": 224.72,
+    "text": "something different, to have some other"
+  },
+  {
+    "t_start": 224.72,
+    "t_end": 227.33,
+    "text": "facility, just added a few more states. In"
+  },
+  {
+    "t_start": 227.33,
+    "t_end": 230.33,
+    "text": "other words his machine was designed. Now"
+  },
+  {
+    "t_start": 230.33,
+    "t_end": 233.45,
+    "text": "my life game wasn't designed, I just sort"
+  },
+  {
+    "t_start": 233.45,
+    "t_end": 236.27,
+    "text": "of thought if you couldn't predict what"
+  },
+  {
+    "t_start": 236.27,
+    "t_end": 239.18,
+    "text": "it did then probably that's because it"
+  },
+  {
+    "t_start": 239.18,
+    "t_end": 240.59,
+    "text": "was capable of doing anything."
+  },
+  {
+    "t_start": 240.59,
+    "t_end": 244.55,
+    "text": "For about 18 months of coffee times - and"
+  },
+  {
+    "t_start": 244.55,
+    "t_end": 248.36,
+    "text": "I'm not sure that you know we used- I'm"
+  },
+  {
+    "t_start": 248.36,
+    "t_end": 250.22,
+    "text": "sure that we didn't use every coffee"
+  },
+  {
+    "t_start": 250.22,
+    "t_end": 255.77,
+    "text": "time - we tinkered with the rules. The"
+  },
+  {
+    "t_start": 255.77,
+    "t_end": 258.1,
+    "text": "rules as they finally came out where: if"
+  },
+  {
+    "t_start": 258.1,
+    "t_end": 262.43,
+    "text": "you have exactly three live- if you're"
+  },
+  {
+    "t_start": 262.43,
+    "t_end": 264.85,
+    "text": "empty or dead or whatever it is"
+  },
+  {
+    "t_start": 264.85,
+    "t_end": 266.53,
+    "text": "and you have exactly three live"
+  },
+  {
+    "t_start": 266.53,
+    "t_end": 268.81,
+    "text": "neighbours then something gets born"
+  },
+  {
+    "t_start": 268.81,
+    "t_end": 273.69,
+    "text": "there at the next time. If you are alive"
+  },
+  {
+    "t_start": 273.69,
+    "t_end": 276.25,
+    "text": "and you have two or three live"
+  },
+  {
+    "t_start": 276.25,
+    "t_end": 278.5,
+    "text": "neighbours then you survive; I"
+  },
+  {
+    "t_start": 278.5,
+    "t_end": 280.6,
+    "text": "mentioned a birth rule first, to be"
+  },
+  {
+    "t_start": 280.6,
+    "t_end": 283.96,
+    "text": "born you need exactly three live"
+  },
+  {
+    "t_start": 283.96,
+    "t_end": 286.48,
+    "text": "neighbours, to survive you need either"
+  },
+  {
+    "t_start": 286.48,
+    "t_end": 288.79,
+    "text": "two or three. - (Brady: So there were other)"
+  },
+  {
+    "t_start": 288.79,
+    "t_end": 290.26,
+    "text": "(iterations of the game, it could have)"
+  },
+  {
+    "t_start": 290.26,
+    "t_end": 292.69,
+    "text": "(been different?) - Yeah indeed; you know, what"
+  },
+  {
+    "t_start": 292.69,
+    "t_end": 295.15,
+    "text": "was different for quite a long time we"
+  },
+  {
+    "t_start": 295.15,
+    "t_end": 297.7,
+    "text": "tinkered with these rules and finally"
+  },
+  {
+    "t_start": 297.7,
+    "t_end": 300.31,
+    "text": "came up with the ones I said. And they"
+  },
+  {
+    "t_start": 300.31,
+    "t_end": 303.28,
+    "text": "really seemed to have very nice"
+  },
+  {
+    "t_start": 303.28,
+    "t_end": 306.25,
+    "text": "properties, namely didn't seem to be able"
+  },
+  {
+    "t_start": 306.25,
+    "t_end": 308.16,
+    "text": "to predict what would happen. And"
+  },
+  {
+    "t_start": 308.16,
+    "t_end": 310.92,
+    "text": "in the end we succeeded in proving"
+  },
+  {
+    "t_start": 310.92,
+    "t_end": 313.33,
+    "text": "essentially anything could happen, these"
+  },
+  {
+    "t_start": 313.33,
+    "t_end": 315.1,
+    "text": "things could do any kind of computation you"
+  },
+  {
+    "t_start": 315.1,
+    "t_end": 318.51,
+    "text": "wanted to do. You could design"
+  },
+  {
+    "t_start": 318.51,
+    "t_end": 321.94,
+    "text": "configurations that rebuilt themselves"
+  },
+  {
+    "t_start": 321.94,
+    "t_end": 324.49,
+    "text": "or built more complicated machines than"
+  },
+  {
+    "t_start": 324.49,
+    "t_end": 326.95,
+    "text": "themselves, all sorts of things. - (You had)"
+  },
+  {
+    "t_start": 326.95,
+    "t_end": 328.3,
+    "text": "(no computers when you were doing this)"
+  },
+  {
+    "t_start": 328.3,
+    "t_end": 331.45,
+    "text": "(early work?) - No computers at all. After a"
+  },
+  {
+    "t_start": 331.45,
+    "t_end": 334.33,
+    "text": "time there was a computer which had a"
+  },
+  {
+    "t_start": 334.33,
+    "t_end": 337.93,
+    "text": "screen, the PDP8, and before it the"
+  },
+  {
+    "t_start": 337.93,
+    "t_end": 340.56,
+    "text": "PDP7; I've forgotten what those PDPs-"
+  },
+  {
+    "t_start": 340.56,
+    "t_end": 343.42,
+    "text": "probably the DP is data processing or"
+  },
+  {
+    "t_start": 343.42,
+    "t_end": 345.49,
+    "text": "something. And then somebody immediately"
+  },
+  {
+    "t_start": 345.49,
+    "t_end": 348.87,
+    "text": "programmed the game of life for it."
+  },
+  {
+    "t_start": 348.87,
+    "t_end": 352.36,
+    "text": "But the initial thinking was all done"
+  },
+  {
+    "t_start": 352.36,
+    "t_end": 355.06,
+    "text": "before then. I told Martin Gardner about"
+  },
+  {
+    "t_start": 355.06,
+    "t_end": 356.38,
+    "text": "it, he's the person who ran this"
+  },
+  {
+    "t_start": 356.38,
+    "t_end": 358.0,
+    "text": "mathematical games column in the"
+  },
+  {
+    "t_start": 358.0,
+    "t_end": 361.51,
+    "text": "Scientific American for 25 or 30 years. I"
+  },
+  {
+    "t_start": 361.51,
+    "t_end": 363.82,
+    "text": "thought it would interest people, I"
+  },
+  {
+    "t_start": 363.82,
+    "t_end": 365.23,
+    "text": "didn't think it would interest people-"
+  },
+  {
+    "t_start": 365.23,
+    "t_end": 367.63,
+    "text": "his readers as much as it actually did."
+  },
+  {
+    "t_start": 367.63,
+    "t_end": 370.18,
+    "text": "Well first of all his first column in"
+  },
+  {
+    "t_start": 370.18,
+    "t_end": 372.07,
+    "text": "the Scientific American was considerably"
+  },
+  {
+    "t_start": 372.07,
+    "t_end": 375.01,
+    "text": "before this about hexaflexagons,"
+  },
+  {
+    "t_start": 375.01,
+    "t_end": 380.62,
+    "text": "and it got more reader mail than any"
+  },
+  {
+    "t_start": 380.62,
+    "t_end": 383.29,
+    "text": "previous article in the entire hundred"
+  },
+  {
+    "t_start": 383.29,
+    "t_end": 386.11,
+    "text": "and something year old history of the"
+  },
+  {
+    "t_start": 386.11,
+    "t_end": 388.06,
+    "text": "magazine up to that time, and so the"
+  },
+  {
+    "t_start": 388.06,
+    "t_end": 391.33,
+    "text": "editors wanted him to write a monthly"
+  },
+  {
+    "t_start": 391.33,
+    "t_end": 396.22,
+    "text": "column. And he said he said to me that he"
+  },
+  {
+    "t_start": 396.22,
+    "t_end": 398.88,
+    "text": "was so broke that he just said yes"
+  },
+  {
+    "t_start": 398.88,
+    "t_end": 401.17,
+    "text": "before he knew whether he could write a"
+  },
+  {
+    "t_start": 401.17,
+    "t_end": 404.11,
+    "text": "monthly column. But anyway he wrote that"
+  },
+  {
+    "t_start": 404.11,
+    "t_end": 406.15,
+    "text": "monthly column very successfully and"
+  },
+  {
+    "t_start": 406.15,
+    "t_end": 408.4,
+    "text": "then when the life game came up"
+  },
+  {
+    "t_start": 408.4,
+    "t_end": 409.33,
+    "text": "guess what?"
+  },
+  {
+    "t_start": 409.33,
+    "t_end": 412.12,
+    "text": "That got more reader correspondence that"
+  },
+  {
+    "t_start": 412.12,
+    "t_end": 414.25,
+    "text": "anything in the entire history of the"
+  },
+  {
+    "t_start": 414.25,
+    "t_end": 417.37,
+    "text": "magazine including this hexaflexagon"
+  },
+  {
+    "t_start": 417.37,
+    "t_end": 419.65,
+    "text": "column. From my point of view though it"
+  },
+  {
+    "t_start": 419.65,
+    "t_end": 422.16,
+    "text": "wasn't real mathematics. It was"
+  },
+  {
+    "t_start": 422.16,
+    "t_end": 425.56,
+    "text": "flattering to have so many readers"
+  },
+  {
+    "t_start": 425.56,
+    "t_end": 430.3,
+    "text": "interested in it and so on and but I I"
+  },
+  {
+    "t_start": 430.3,
+    "t_end": 432.52,
+    "text": "personally didn't think all that much of"
+  },
+  {
+    "t_start": 432.52,
+    "t_end": 435.1,
+    "text": "it, but it's nice you know, it's nice to"
+  },
+  {
+    "t_start": 435.1,
+    "t_end": 438.34,
+    "text": "have other people value something that"
+  },
+  {
+    "t_start": 438.34,
+    "t_end": 440.43,
+    "text": "you know I didn't really value in a way."
+  },
+  {
+    "t_start": 440.43,
+    "t_end": 443.44,
+    "text": "Overall now that I'm getting old I'm"
+  },
+  {
+    "t_start": 443.44,
+    "t_end": 447.16,
+    "text": "really very pleased that this did happen,"
+  },
+  {
+    "t_start": 447.16,
+    "t_end": 449.77,
+    "text": "it's one incident in my mathematical"
+  },
+  {
+    "t_start": 449.77,
+    "t_end": 454.12,
+    "text": "life and I shouldn't be so annoyed about"
+  },
+  {
+    "t_start": 454.12,
+    "t_end": 456.81,
+    "text": "it and I'm trying not to be."
+  },
+  {
+    "t_start": 457.95,
+    "t_end": 460.3,
+    "text": "(Has it been built upon? Is it one of-)"
+  },
+  {
+    "t_start": 460.3,
+    "t_end": 462.76,
+    "text": "(the mathematics and-) - No it's"
+  },
+  {
+    "t_start": 462.76,
+    "t_end": 464.77,
+    "text": "finished. I mean that's another thing"
+  },
+  {
+    "t_start": 464.77,
+    "t_end": 467.41,
+    "text": "really; you can build upon it in the"
+  },
+  {
+    "t_start": 467.41,
+    "t_end": 469.29,
+    "text": "following sense, you can study particular"
+  },
+  {
+    "t_start": 469.29,
+    "t_end": 471.46,
+    "text": "configurations, you can find the"
+  },
+  {
+    "t_start": 471.46,
+    "t_end": 473.35,
+    "text": "alternative rules that still have the"
+  },
+  {
+    "t_start": 473.35,
+    "t_end": 477.58,
+    "text": "same properties and so on - but nothing I"
+  },
+  {
+    "t_start": 477.58,
+    "t_end": 479.83,
+    "text": "think that followed on, it was just as"
+  },
+  {
+    "t_start": 479.83,
+    "t_end": 482.35,
+    "text": "interesting as the basic fact that this"
+  },
+  {
+    "t_start": 482.35,
+    "t_end": 486.06,
+    "text": "set of rules did exist fairly simple and"
+  },
+  {
+    "t_start": 486.06,
+    "t_end": 488.98,
+    "text": "have these astonishing properties which"
+  },
+  {
+    "t_start": 488.98,
+    "t_end": 490.78,
+    "text": "weren't astonishing to me. Some"
+  },
+  {
+    "t_start": 490.78,
+    "t_end": 493.39,
+    "text": "configurations just died off, after a"
+  },
+  {
+    "t_start": 493.39,
+    "t_end": 495.43,
+    "text": "time there's nothing left on the board."
+  },
+  {
+    "t_start": 495.43,
+    "t_end": 497.77,
+    "text": "Some configurations seem to go on"
+  },
+  {
+    "t_start": 497.77,
+    "t_end": 501.52,
+    "text": "forever. Can you tell which of those is"
+  },
+  {
+    "t_start": 501.52,
+    "t_end": 505.06,
+    "text": "going to happen? Well not really. If you"
+  },
+  {
+    "t_start": 505.06,
+    "t_end": 509.32,
+    "text": "if you put put a configuration on the"
+  },
+  {
+    "t_start": 509.32,
+    "t_end": 514.18,
+    "text": "follow it, and after a thousand moves it"
+  },
+  {
+    "t_start": 514.18,
+    "t_end": 515.95,
+    "text": "hasn't died off,"
+  },
+  {
+    "t_start": 515.95,
+    "t_end": 517.87,
+    "text": "oh well maybe it's going to die off next"
+  },
+  {
+    "t_start": 517.87,
+    "t_end": 520.24,
+    "text": "move. There's no way of telling, no"
+  },
+  {
+    "t_start": 520.24,
+    "t_end": 522.519,
+    "text": "algorithmic way of telling whether a"
+  },
+  {
+    "t_start": 522.519,
+    "t_end": 524.67,
+    "text": "thing is definitely going to die off."
+  },
+  {
+    "t_start": 524.67,
+    "t_end": 527.23,
+    "text": "Following it you see doesn't tell you. If"
+  },
+  {
+    "t_start": 527.23,
+    "t_end": 529.63,
+    "text": "you follow it for a thousand moves and"
+  },
+  {
+    "t_start": 529.63,
+    "t_end": 532.81,
+    "text": "it hasn't died off yet well maybe it'll"
+  },
+  {
+    "t_start": 532.81,
+    "t_end": 534.639,
+    "text": "die off in a million moves or a billion"
+  },
+  {
+    "t_start": 534.639,
+    "t_end": 537.13,
+    "text": "moves or a gazillion moves - whatever that"
+  },
+  {
+    "t_start": 537.13,
+    "t_end": 541.81,
+    "text": "is. And we do know - and this is not"
+  },
+  {
+    "t_start": 541.81,
+    "t_end": 545.68,
+    "text": "due to me its a theorem of mathematical"
+  },
+  {
+    "t_start": 545.68,
+    "t_end": 549.37,
+    "text": "logic dating from the 1930s - the Halting"
+  },
+  {
+    "t_start": 549.37,
+    "t_end": 552.31,
+    "text": "Problem, there's no way of absolutely"
+  },
+  {
+    "t_start": 552.31,
+    "t_end": 554.86,
+    "text": "guaranteeing to tell whether a thing"
+  },
+  {
+    "t_start": 554.86,
+    "t_end": 556.69,
+    "text": "will go on forever or fade away"
+  },
+  {
+    "t_start": 556.69,
+    "t_end": 558.73,
+    "text": "completely, that's one of the astonishing"
+  },
+  {
+    "t_start": 558.73,
+    "t_end": 561.1,
+    "text": "properties. You would think that if a"
+  },
+  {
+    "t_start": 561.1,
+    "t_end": 563.82,
+    "text": "thing is governed by very simple rules"
+  },
+  {
+    "t_start": 563.82,
+    "t_end": 566.11,
+    "text": "there would be a very simple way of"
+  },
+  {
+    "t_start": 566.11,
+    "t_end": 569.019,
+    "text": "telling whether this very simple thing"
+  },
+  {
+    "t_start": 569.019,
+    "t_end": 571.42,
+    "text": "is a consequence of those very simple"
+  },
+  {
+    "t_start": 571.42,
+    "t_end": 573.73,
+    "text": "rules, but there isn't a way of telling."
+  },
+  {
+    "t_start": 573.73,
+    "t_end": 575.47,
+    "text": "(Has the inventor of game of life or)"
+  },
+  {
+    "t_start": 575.47,
+    "t_end": 577.87,
+    "text": "(people who've studied a deeply have a)"
+  },
+  {
+    "t_start": 577.87,
+    "t_end": 579.639,
+    "text": "(deeper understanding? Like can you look)"
+  },
+  {
+    "t_start": 579.639,
+    "t_end": 582.93,
+    "text": "(at a configuration and see something or does it still baffle you too?)"
+  },
+  {
+    "t_start": 583.89,
+    "t_end": 587.199,
+    "text": "Well I might be able to sort of recognise some"
+  },
+  {
+    "t_start": 587.199,
+    "t_end": 589.18,
+    "text": "little portion of it and say, well that's"
+  },
+  {
+    "t_start": 589.18,
+    "t_end": 590.769,
+    "text": "not going to have any effect we can"
+  },
+  {
+    "t_start": 590.769,
+    "t_end": 592.99,
+    "text": "proceed as if that's not there because"
+  },
+  {
+    "t_start": 592.99,
+    "t_end": 596.23,
+    "text": "it's going to die in 23 moves anyway. But"
+  },
+  {
+    "t_start": 596.23,
+    "t_end": 600.24,
+    "text": "no in general no you can't. I mean this"
+  },
+  {
+    "t_start": 600.24,
+    "t_end": 603.01,
+    "text": "condition, you know, you cannot tell is"
+  },
+  {
+    "t_start": 603.01,
+    "t_end": 606.49,
+    "text": "not a question of not being able to tell"
+  },
+  {
+    "t_start": 606.49,
+    "t_end": 608.17,
+    "text": "because you haven't got a big enough"
+  },
+  {
+    "t_start": 608.17,
+    "t_end": 611.8,
+    "text": "brain or something; it is an absolute"
+  },
+  {
+    "t_start": 611.8,
+    "t_end": 614.279,
+    "text": "condition you know doesn't matter how clever you are,"
+  },
+  {
+    "t_start": 614.279,
+    "t_end": 617.05,
+    "text": "there's no guaranteed way of telling."
+  },
+  {
+    "t_start": 617.05,
+    "t_end": 620.5,
+    "text": "Okay, I don't hate it. - (But you don't love it?)"
+  },
+  {
+    "t_start": 620.5,
+    "t_end": 623.48,
+    "text": "No I don't love it, I really don't."
+  },
+  {
+    "t_start": 626.01,
+    "t_end": 628.2,
+    "text": "Yes it made me happy, it's the only one of"
+  },
+  {
+    "t_start": 628.2,
+    "t_end": 632.76,
+    "text": "those different things. I, you know, I sit"
+  },
+  {
+    "t_start": 632.76,
+    "t_end": 635.13,
+    "text": "in a corridor in the mathematics"
+  },
+  {
+    "t_start": 635.13,
+    "t_end": 639.18,
+    "text": "department in Princeton and I think"
+  },
+  {
+    "t_start": 639.18,
+    "t_end": 643.44,
+    "text": "about things and I imagine that the"
+  },
+  {
+    "t_start": 643.44,
+    "t_end": 645.69,
+    "text": "young graduate students there think, you know,"
+  },
+  {
+    "t_start": 645.69,
+    "t_end": 647.339,
+    "text": "this guy's a loony, he did something good"
+  },
+  {
+    "t_start": 647.339,
+    "t_end": 651.48,
+    "text": "once and I don't care, I really don't care."
+  },
+  {
+    "t_start": 651.48,
+    "t_end": 654.12,
+    "text": "I've been released from worrying about"
+  },
+  {
+    "t_start": 654.12,
+    "t_end": 656.1,
+    "text": "what other people think about about me."
+  },
+  {
+    "t_start": 656.1,
+    "t_end": 659.49,
+    "text": "I'm often said, I've said for 25 or 30"
+  },
+  {
+    "t_start": 659.49,
+    "t_end": 662.67,
+    "text": "years, that the one thing I'd really like"
+  },
+  {
+    "t_start": 662.67,
+    "t_end": 666.32,
+    "text": "to know before I die is-"
+  }
+]

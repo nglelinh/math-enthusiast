@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ku_video_IM-n9c-ARHU_5",
+    "t_start": 5.8,
+    "t_end": 98.3,
+    "type": "overview",
+    "summary": "I'm assuming everybody here also watches Numberphile Giuseppe, we're watching Numberphile. Oh yeah Numberphile is great. So just in case you don't watch numberphile You really should and we've got it was one of our recommended channels up there Now recently Numberphile posted a video just a couple of days ago about the very very famous Kakeya needle problem, it was great as usual, but it got a bit technical in parts and Quite a few people actually got lost and so we had a challenge from some of our viewers who also watch Numberphile to see whether we could do it a little bit simpler and Maybe …"
+  },
+  {
+    "id": "ku_video_IM-n9c-ARHU_98",
+    "t_start": 98.9,
+    "t_end": 189.9,
+    "type": "overview",
+    "summary": "That will get like one more area, but now it's a slightly strange question What's the minimal area we can create like this so how can we get from left to right and create minimal wiping area? Okay, and it might seem that well I mean there was the square at the beginning, and there's this arrow here actually the same area. oh yeah, yeah Yeah, this one's a little bit bigger. Well. It isn't well anyway, maybe maybe the guys can sort it out the comments again Why are these two areas the same? Okay, now it turns out that you can actually make it a lot smaller than this And I'll just show you what t…"
+  },
+  {
+    "id": "ku_video_IM-n9c-ARHU_189",
+    "t_start": 189.9,
+    "t_end": 279.9,
+    "type": "overview",
+    "summary": "You can see it's... smaller. It's smaller and make sure we can make it even smaller. Can you imagine? How can we make it even smaller? And Giuseppe hasn't actually seen this before so just think about it. How can we make it even smaller? Yeah, so we just go way higher. The higher we go the smaller the angle will be. That's right. So the first move You just go higher up, okay? So you just go higher up and then these angles will get smaller actually it's pretty obvious that these two angles are always going to be the same much and So um you know they simultaneously get smaller okay, and I now if…"
+  },
+  {
+    "id": "ku_video_IM-n9c-ARHU_280",
+    "t_start": 280.6,
+    "t_end": 371.8,
+    "type": "overview",
+    "summary": "for the worst possible scenario Where we kind of have? This as the initial position and as the final position we kind of have to the whole thing kind of turned 180 degrees So what we're requiring here. Is that during the motion We are going through 180 degrees before we can come back to what we started with up here And that's basically the Kakeya needle problem. It asks if we want to do this. What's the smallest area I can create?okay? The answer is also pretty surprising, but let's see how Anybody taken off the street like an expert in this would solve the problem of turning like from here to…"
+  },
+  {
+    "id": "ku_video_IM-n9c-ARHU_372",
+    "t_start": 372.0,
+    "t_end": 463.5,
+    "type": "overview",
+    "summary": "And now we can actually compare the areas of those two guys and so the area of that one here is 0.7 something and the area of this one here is 0.57 so it's actually a lot better and for some Setup, this is actually the best so if you've got like aiming for an area That's swept, that doesn't have any kind of indentation or like you know then this is one's actually the best But if you are a little bit more relaxed about what you can do There's actually better ways of doing this and the problem is like a hundred years old and even then they came up with Think better and I'll show you what they ca…"
+  },
+  {
+    "id": "ku_video_IM-n9c-ARHU_463",
+    "t_start": 463.5,
+    "t_end": 555.1,
+    "type": "overview",
+    "summary": "is always touching all three sides. Yep, always! Okay, now The thing is, you know it's a hundred years old, at some point of time they actually figure out we can do even better You can do it significantly better and here's what we do So we'll start out with the same triangle that we'll just use to kind of swipe things out, okay and now we'll cut this into little triangles, so the Basis of all those little triangles are the same width We'll cut it apart like this and overlap those little triangles and overlap more and overlap more okay? So now we've gone from a equilateral triangle to a shape t…"
+  },
+  {
+    "id": "ku_video_IM-n9c-ARHU_555",
+    "t_start": 555.7,
+    "t_end": 648.5,
+    "type": "overview",
+    "summary": "You know edge okay? So in yellow, and now [we're] these two guys here in in the tree well the Brown Triangle is here and The blue triangle is there and obviously those two yellow lines are they parallel They are parallel obviously, it's going to be important for later again, okay now We're going to start turning our needle in here, or our squeegee So for me the squeegee for you know the usual celibates It's a needle that's being turned in the plane okay, so there is the squeegee and we're turning it no problem What's on the left and on the right now obviously here is stuck, right? There's actu…"
+  },
+  {
+    "id": "ku_video_IM-n9c-ARHU_649",
+    "t_start": 649.4,
+    "t_end": 740.7,
+    "type": "overview",
+    "summary": "So almost there and just the last What and with wipe sixty degrees if it sort of [wycliffe] degrees? Okay, well with [sixty] degrees, but we need 180 so what do we do next well? We bring a second tree in okay, so a second tree like this [sixty] degrees and Then we make a transfer using the same kind of Magic move and again Imagine that this is really pushed out forever right and coming back and we're starting our second 60 degrees and just keep on going like this and we get a 120 and we need a third tree And I'm just to see what the whole figure here looks like So that's the whole thing you kn…"
+  },
+  {
+    "id": "ku_video_IM-n9c-ARHU_740",
+    "t_start": 741.0,
+    "t_end": 836.0,
+    "type": "overview",
+    "summary": "you know really really far. We can make everything Inside here as small as we want so give me any positive number Doesn't matter how small it is, I can arrange this whole set up here so the total area swept by the squeegee throughout the movement is Smack on this number or less So the number of tree the number of trees will still be three But then what increases as we're getting smaller and smaller is the number of branches. The number of branches. That's right yeah So that's basically one branch or well one tip Little triangle that we're using, so there's going to be a lot more tips a lot mor…"
+  },
+  {
+    "id": "ku_video_IM-n9c-ARHU_837",
+    "t_start": 837.2,
+    "t_end": 928.9,
+    "type": "overview",
+    "summary": "He's actually interested in these sorts of things. I mean it might seem like a pretty trivial problem You know it's cute, but I mean, what does that all to do with real maths well? It's kind of the starting point for some really really deep stuff, that actually quite a few of these Fields medallists are are interested in. And I'm going to do a provide some links down here at the bottom to some survey articles by Terry Tao. An Australian Fields medallist who talks about this stuff and he just have a look at it and kind of get a feel for what's going on and so there were two things that made Num…"
+  },
+  {
+    "id": "ku_video_IM-n9c-ARHU_929",
+    "t_start": 929.3,
+    "t_end": 1000.6,
+    "type": "overview",
+    "summary": "So we are just getting close to zero this thing. They're really interested in has area zero and also, what it still has is basically like a line segment of unit lengths in every single direction right so I mean As we turn around we can kind of see like the individual moments that it kind of moves You can see like one line segment pointing this way, one line segment pointing this way, one outside, so in all possible directions We've got line segments here in our constructions, but the total area is still positive. So what they're getting there is something that has Zero area it still has all li…"
+  }
+]

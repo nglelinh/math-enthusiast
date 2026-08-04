@@ -1,0 +1,655 @@
+if it's odd you want to multiply by
+three and add one in either case take
+the resulting number and then
+iterate so for example if you start with
+three that's odd goes to 10 by the
+mapping that's even cut it in half and
+so on and so forth and you see that this
+421 pattern will just iterate
+forever so the question is do each of
+the positive integers eventually iterate
+to one
+that's the problem I've explained it to
+each of my children when they were seven
+or eight years old they worked on it for
+about a day and moved on I haven't moved
+on and I'll say something about the
+history of this problem as well um all
+right so first um there's two or three
+different notations which are used in
+the literature um the old one is C of X
+and this is just as I described it on
+the last slide but we can compress the
+Dynamics a little bit if you start with
+X as an odd number you get this but if x
+is odd you can see 3x + 1 will be even
+so you know your next step will be
+dividing by two so why don't we just
+divide by two right away and that will
+compress the Dynamics so you can see
+this is the old iteration I had and in
+the compressed Dynamics it just makes
+our life a little a little tidier
+so any positive integer must iterate
+under this map T to one of the
+following so and now instead of having
+421 421 forever now it'll just oscillate
+between two and one that's called the
+trivial cycle and we expect that's the
+conjecture that everything will
+eventually enter the trivial
+cycle but there could be a non-trivial
+cycle and I'll have something to say
+about that or you can have some orbit
+which marches off to infinity and it
+won't March off monotonically you can
+show that any starting any starting on
+number has to hit an even eventually and
+so it will come down but um but it could
+kind of do do this kind of thing and and
+keep growing in the
+limit I should say um so most of the
+papers that are written on this topic
+use the T form the compressed dynamics
+that I just mentioned some paper a few
+papers still use that older notation and
+then a very few papers use the most
+quote unquote optimally compressed
+notation you'll take an an odd
+number sorry if your number is even you
+don't just divide by two you divide by
+as many twos as possible to get it down
+to an odd and so people just look at the
+Dynamics on the odd integers under this
+map but counting exactly how many twos
+will divide into it is not a need
+process and so it makes it harder to do
+analysis on okay well as you might have
+guessed some people have looked at
+numerical investigations I have some
+various records to report in 2000 using
+14.4 CPU years um just a little over 10
+to the 17 so all numbers up to there
+were checked yes they do iterate to one
+eventually in 2003 there's a Dutch
+mathematician who who um who set up a
+distributed computer project and so you
+know people will come in and check a
+certain range and he's gotten it a bit
+High about twice as high and then um uh
+the same person who worked on this he's
+gone quite a bit higher still this took
+81.1 CPU years but if you're going to
+Infinity this still isn't very far at
+all is it so you know we still have a
+long ways to go actually when it was
+first up there I was very impressed cuz
+I thought that you were going to say if
+n is bigger than some number like exuse
+number some number we don't know it
+explicitly then the conjecture is
+true I don't know of such a result that
+would now I understand large is yes it's
+a matter large is all in the eye of the
+beholder that's right and just by
+curiosity when you start with the
+numbers like that how big do the steps
+show let me let me show you an example
+so even so there there's three
+Expressions which are used in in
+measuring what happens with the starting
+number so um don't don't read all this
+let me just describe it in Lay terms so
+stopping time means you start with a
+number n and the stopping time is the
+number of iterations you need to get
+below where you started the minimum
+number of steps so if you started with
+an even number the stopping time is one
+okay because you will go down the total
+stopping time of n is the number of
+steps it takes to get to one the minimum
+number of steps and of course if it
+never reaches one if the conjecture is
+false then the total stopping time will
+be Infinity for that starting point and
+then the height is the maximum you hit
+before you come down and even with a
+modest number like
+27 it takes 96 iterations before you
+jump below 27 111 iterates to get to one
+and you can get as high as
+9,232
+so this is part of what makes this
+problem so difficult is there's not
+really nice constraints about what can
+happen on the inters they can really
+kind of seem to get out of control until
+they maybe start collapsing down to what
+they we expect them to could you just
+remind me as T the one where you've
+divided 3x + 1 by 2 yes yes and that's
+the
+one 96% of the slides we'll worry about
+okay so just keep that that mapping in
+mind so the stopping time and again
+there's a lot of nomenclature on here um
+what is the take-home message on this
+slide this statement is basically saying
+almost all integers have a a a finite
+stopping time almost all integers will
+get below where they started now that's
+not all it's almost all in a density
+sense
+so this is I would say probably about
+the strongest result there is on the
+3x+1 problem one thing that drives
+people like me bananas is that as
+opposed to most other well-known
+conjectures that have pretty solid
+partial results at least I feel the 3x
++1 problem has almost no good partial
+results and this I would say is probably
+one of the strongest if not the
+strongest partial
+results um if there was some kind of
+Randomness going on and this is gets a
+little philosophical into the problem
+because this is a completely
+deterministic problem but people have
+used sarcastic approaches to look at it
+and to see some kind of order if there
+was some kind of if you've iterated for
+a while and you've gotten so mixed up
+you don't know which way you're going
+you have a 50/50 chance of going up or
+down at each step if you reach that that
+point then with this kind of quote
+unquote Randomness it takes
+approximately 9 to 10 steps to get below
+where you started and this matches de
+this matches decently well with uh what
+is experimentally observed so you know
+you would expect all right on average it
+takes this many steps to get below where
+you started if we could prove that all
+numbers had a finite stopping time then
+by induction you would be done because
+you get finite number of steps below and
+you just keep going down and you're done
+everything has to um get to one but this
+is only assuming a certain kind of
+Randomness is built
+in the total stoping you do have a htic
+proof that's right there are humoristic
+arguments it looks pretty random to me
+CU it looks pretty random that's right
+but and and here again D I have to say
+but it's not approved okay so I said
+this yesterday it did approve form all
+right not a formal proof um the the
+total stopping time let me remind you
+that's the number of steps starting at n
+uh Sigma Infinity of n is the number of
+steps you need to get down to one the
+minimum number of steps and people have
+looked at What's this called gamma of n
+the stopping time ratio we're going to
+divide that by the natural log of N and
+we can get some kind of bounds on this
+kind of thing thing um log of two and
+log of three come up with some frequency
+for people who are trying to do analysis
+on this problem not surprisingly because
+we're more or less multiplying by three
+and dividing by two RN is the ratio of
+the number of odd iterates versus all
+all the iterates we've gotten um up to a
+point
+so we've we've got something there's a
+lower bound and there's an upper Bound
+for this for the stopping time ratio so
+something Times log of n kind of makes
+sense for the total stopping time but
+again we just have these kind of rough
+rough her istics going on
+here um more specifically this is what I
+was saying a moment ago suppose you had
+roughly a 50/50 chance of going up or
+down if you pick up large some large
+number and then Watch What Happens um
+then that then that that r I talked
+about um theoretically is exactly this
+value it's been shown with stochastic
+models that the limb soup of these guys
+is bounded by this quantity and the
+closest that come to it with this
+particular starting number this people
+have done a lot of experiments um with
+this particular starting number that's
+about the closest we can get to
+41 so and this is pushing kind of this
+Randomness as far as so far as I've seen
+people like Jeff laras and Applegate
+have worked on
+this um somebody called this a global
+statistic suppose I start at the value
+um A1 and it takes me P iterates to get
+down to one so let's label these numbers
+A1 A2 up to AP and we'll create this
+expression here notice it's a quadratic
+polom of the A's on top and on the
+bottom and the authors were able to
+prove that this ratio no matter what you
+start with has to lie between these two
+fractions which are relatively
+close and these bounds the lower and
+upper bounds are sharp because if you
+start with either of these particular
+starting numbers for a given K as K or n
+tend to Infinity you approach the lower
+bound or the upper bound but you know
+this is a pretty tight Gap here so it's
+suggesting there is some order going on
+here there is some order in the tool
+stopping time maybe there's even better
+quote unquote Global statistics out
+there let me talk about the origin of
+this problem a little bit so it's
+traditionally credited to loar Kos he
+was at
+hborg and Kos apparently was interested
+in graphs graph Theory problems and he
+was looking at various graphs and
+directed graphs and looking at Cycles
+within them and he had he had um a
+particular graph and everything seemed
+to land in one cycle and so he wanted to
+come up with something simpler he was he
+looked at this particular function which
+is similar in spirit to our T function
+um a little more complicated and each of
+these Expressions depending on which
+modulo class you're in works out to be
+an integer and he saw that this seemed
+to be complicated so he said what is a
+simpler problem I can build the simplest
+problem I can build that still captures
+the complex dynamics that he seen here
+and that's when he got to this so-called
+3x+1
+function so K never published anything
+on it because as he said he obtained no
+results and I would say join the club
+there's lots of people who have worked
+on this and have gotten no results but
+there are other names for this problem
+sometimes called H's
+algorithm Syracuse problem because this
+problem made the rounds in different
+schools okay but it's got all kinds of
+different names thit is a little this is
+a little bit funny sir Brian Thwaites
+who's a British mathematician and he was
+a teacher in the 50s and he claimed um
+it was a hot summer day and his students
+were bored and he had to kind of keep
+them motivated so he thought about this
+exact problem the 3x+1 problem and he
+gave it to his students just to work on
+and they had fun before before the class
+was over so he claims to have originated
+it and he can say the exact hour of a
+particular day and so he claims to be
+the author of it nobody really thinks of
+th now everybody credits it to colot but
+it didn't stop the weights um from
+sometime in the early 90s writing a
+paper called my
+conjecture come hos got an algorithm
+everybody else got a problem I don't
+know that's yeah that's funny it's uh
+well maybe H doesn't have any problems
+so well it's the number Theory H
+yeah kakani got inut for erotic Theory I
+think it's the erotic Theory yeah yeah
+so I mean this problem kind of got
+popularized it he claim no not
+originated not originated but
+popular so somebody would hear it and
+there's yeah so Stam was the same he
+didn't claim to have vented it but he
+popularized it so there's a funny quote
+about the popularization for about a
+month everybody at Yale worked on it
+with no results similar phenomenon
+happened at Chicago a joke was made this
+problem was part of a
+conspiracy
+research and to some extent it's
+true um if you um keeping in line with
+kot's motivation there's the so-called
+kot graph and this is a sketch du to
+Kat and you can see he's writing in
+German
+here for for n odd
+and half n for n even and he's got his
+little kind of tree here or or graph
+which he's generating a cleaner portion
+of of that can be written like this but
+of course you know this this tree is
+going on forever and so you need a very
+iter it
+backwards right right so he yeah he here
+you see the cycle and he's using the
+cmap that I talked about on the first
+slide and he's generating it backwards
+and he was interested in our magic 27
+that I talked about and you see it got
+so much he's got dot dot dots in here
+and so on and eventually comes
+down all right predecessor sets so one
+significant piece of U analysis that uh
+a German mathematician named gin worked
+on he looked at what are the so-called
+predecessor sets so um again let let me
+try to say this without worrying about
+all the notation um with a number a what
+are all the numbers above it which will
+eventually hit a that is if you made the
+graph like I had on the last slide what
+is all the what are all the branches and
+leaves above that point so that's the
+predecessors of a and then this Zu sub a
+a of X is the predecessors of a which
+are below a value
+X and um at some point some people
+started looking at Z sub one ofx that is
+what are the numbers which iterate to
+one but are below X and the question is
+could we get this greater than or equal
+to X the C for some positive variable C
+and in 79 it was shown there exists a
+positive C so that this holds for x
+sufficiently
+large and then in 90 it was sharpened
+that I can get an exact value of c025
+and then Higher and Higher and Higher
+and this is the best that I know of to
+date so we're trying to get these again
+it's like saying how much of the tree do
+I know will be coming down to one and so
+so you see it's one then you P it as
+eventually I guess so yeah I mean you
+can't get c equal yeah C equals 1 for
+sufficiently large yes that would prove
+it so you do
+have yeah but it's but 84 is kind of far
+away from one we think it's close to one
+but it's still to me this in a certain
+sense is no better than the density
+result I mentioned
+earlier okay um some people have tried
+looking at the problem by reducing the
+problem to different residue classes so
+if I can prove the conjecture if I start
+with numbers in certain residue classes
+would that be sufficient to prove it for
+all starting numbers so obviously if I
+prove it for all odd numbers I will be
+done if you do it for 4K + 1 numbers
+congruent to 1 mod 4 you'd be done 4K +
+3 this guy and for any J you can prove
+this guy and since I can make this J as
+large as I want I can get the um the the
+density to be as small as I like but
+still all of these have positive density
+so a question which which hung around
+for some time was is there some set of
+zero density which would be sufficient
+if you can prove 3x + one on that set it
+proves it everywhere so here's a a zero
+density type result but it involves a
+different function a more complicated
+function so this function r r of n says
+if divides n then just return n/
+11 if 15 divides n and none of the above
+and not this case then do this to it and
+you have this finite number of of
+branches that come out so it's a much
+more complicated
+function but the claim was the 3x + 1
+conjecture is true if and only if the
+orbits of this function if you start at
+any power of two iterates to the number
+of Two And since this set has zero
+density then this is like a zero D this
+is like a zero density result if I can
+prove that the r orbits of any power of
+two eventually get the two I would be
+done and this set has zero density the
+problem though is that this is a much
+more complicated function to evaluate
+even to if you start with 2 3 equal to 8
+it takes 50 iterates to get down to
+too so whether this is really helpful is
+not really quite clear um what's helpful
+with this approach though I'll point out
+is it gets rid of that plus one part 3x
++ one the plus one you know is just a
+pain in the ass to deal with all right
+you try iterating it and if you didn't
+have the plus one you're just
+multiplying by threes and dividing by
+twos and you've got some you've got some
+structure you could deal with but that
+plus one just just creates a lot of
+headache this at least you've gotten rid
+of the plus one part but all these notas
+um create problem with analysis so all
+right let's move on let's talk about
+Cycles remember I said earlier that we
+have two options we either approach the
+trivial cycle one two we approach a
+non-trivial cycle or we approach
+Infinity so let's talk about Cycles so
+suppose I have a cycle of points that is
+I start at one number in the cycle and
+after a finite number of iterations I
+come back to where I start if I divide
+it in the even number of terms the even
+terms and the odd terms in the cycle
+here's a cute little exercise if you you
+want to feel like you're making progress
+on this problem this is not hard to
+prove okay but it takes a little bit of
+thought if you sum the even terms in the
+cycle it's equal to the sum of the odd
+terms plus the number of odd
+terms and there are other results if you
+have a cycle
+then you must have some integers and be
+able to express a number like this um
+the only circuit is the trivial circuit
+a Circ a one circuit means you just go
+up and you just come down and you're
+done and you've entered a cycle a two
+circuit means you go up and down and up
+and down and then you you're back to
+where you started with so it's it's been
+shown this is the only one circuit there
+are no two circuits but again there's
+lots of other stuff to worry
+about other stuff with Cycles so this is
+this is um this is all I would say
+another very interesting helpful result
+related to the conjecture so if you had
+a cycle and the smallest term was M
+Small M and the largest term was capital
+M then you can bound the total number of
+terms in the cycle divided by the number
+of odd terms by these two quantities
+here
+here so this tells you if you had a
+large cycle if you if the terms were
+very big in your cycle this tells you
+that this ratio is approximately log of
+3 base 2 this is um an rational number
+and so um people have used diophantine
+approximation um to say what can I say
+about this ratio and it forces the
+number of terms in the cycle to have
+different forms this was a result in '
+93 this was a stronger result in '97 and
+these forms which were generated were
+based on the lower bounds for um if I
+know if I have a cycle I showed this
+numerical computations from before so
+the numerical computations help generate
+the size of these numbers if we have
+even higher lower bounds it's going to
+get even bigger numbers coming up here
+so amongst other things this tells me if
+I had a non-trivial cycle the length has
+to be at least 272 million long so if
+some of you are trying to scribble to
+find an example on the back of an
+envelope you need a pretty big envelope
+okay all right the problem has had a lot
+of Allure that's none to say Paul arish
+said mathematics is not yet ready for
+such
+problems and he's quoted because other
+people have asked him about it uh asked
+him about it after such quotes and he
+would say things like oh it's hopeless
+absolutely hopeless he refers to such
+problems as diseases really yeah yeah
+well I I know of people who have really
+consumed a lot of time on this problem
+without really getting too far so myself
+included okay there are prizes okay so
+especially if there are students in the
+audience um you are aware like the clay
+maath Institute has some prize problems
+things like for the remon hypothesis P
+versus NP um existence of solutions to
+navier Stokes equations but you may not
+know that there is prize money for the
+3x+1
+problem Paul erish offered $500 himself
+and remember sir Brian th he offered a
+th000 British pounds now the first first
+two have passed away and I'm guessing
+the third one has by now so there might
+not even be anyone okay I I think Ron
+Graham Ron Graham said a long time ago
+he would honor Paul a dishes but I don't
+even know if he still does that so don't
+don't hold your breath okay um all right
+there's a so-called week 3x + one
+problem so you start with um you build a
+multiplicative semi group that's
+generated by these fractions here and of
+course you see the three and the two it
+has that 3x + one smell to it so you you
+take these numbers you build a
+multiplicative
+semigroup the wex week 3x +1 problem
+says that the set s contains every
+positive integer and it's been proven
+that the 3x + 1 conjecture implies the
+weak 3x +1 conjecture I hope the graphic
+helps you see what I think of as the
+relative strengths of these two
+different
+problems um and the weak 3x + one
+problem was proven in
+2006 all right well at least at least
+it's not false because that would imply
+this is false and nobody believes this
+is
+false um so what what do you do when you
+can't prove something well some people
+including myself have tried to extend
+the problem to larger spaces so instead
+of just working on the positive integers
+what if we just look at all the integers
+keep the same map but now you're just
+allowing it to work on all the integers
+and you have three new Cycles you have
+this very simple one you have this with
+three terms and this one with a few more
+terms and it's conjectured that there
+are no other Cycles no other Cycles on
+all the integers besides these three and
+the one with one two and that's it and
+I'll just point out that going to the
+negative integers
+working on is equivalent to looking at
+the so-called 3x minus one problem and
+I'll talk about that kind of thing in a
+moment or
+two um extending beyond the integers um
+a few people have looked at the Ring of
+two attic
+integers and so you've got the same kind
+of map as before and it's shown that
+from a dynamical perspective this map is
+conjugate to a shift map via this
+conjugate see and I don't want you to
+to get get get stuck on that too much
+but there's been some interesting work
+to do with looking at this conjugacy and
+now if you look at rational numbers
+who's in reduced form whose's denom who
+have odd denominators it ends up the 3x
++1 problem is equivalent to these other
+kinds of things so some stuff with this
+two attic analysis have been studied but
+as far as I understand it's kind of come
+to a standstill for several years now
+and not more progress is being done but
+this is a reformulation in a different
+sense how about extending it to the
+whole real line this is uh from a paper
+that I wrote um in the
+mid90s so my idea was we know that when
+X is even I divide by two when it's odd
+I want this expression so I'm going to
+interpolate this this Branch function
+with cosine and
+S and so on the integers I get exactly
+what I want but I've got a function that
+works off the integers as well for any
+real
+number so this map has certain
+interesting properties the reason I
+wanted to do this is because there's a
+lot of you know it's a well-developed
+area studying real dynamics and I
+thought I can use the tools of real
+dynamics to help me get some information
+about the iterates of this mapping so
+any cycle in the positive inte you can
+show as locally attractive if you have a
+cycle close by real numbers have to get
+sucked into it um there it appears to be
+only only two attracting Cycles there's
+the trivial cycle and then there's this
+other funny two cycle which is off the
+integers for people who know Dynamics
+this map has what we call negative
+Schwarz and derivative which is
+important it means that we only need to
+be looking at the critical points of
+this function to understand the
+long-term Dynamics and indeed I I could
+show that the 3x +1 conjecture is
+equivalent to showing that the critical
+points of this function um all iterate
+to one two unfortunately there are an
+infinite number of critical points so is
+this any easier than studying the
+original problem I did some more
+analysis and I I I maybe in interest

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ku_video_p_di4Zn4wz4_0",
+    "t_start": 0.0,
+    "t_end": 90.1,
+    "type": "overview",
+    "summary": "[Submit subtitle corrections at criblate.com] Taking a quote from Stephen Strogatz, since Newton, mankind has come to realize that the laws of physics are always expressed in the language of differential equations. Of course, this language is spoken well beyond the boundaries of physics as well, and being able to speak it and read it adds a new color to how you view the world around you. In the next few videos, I want to give a sort of tour of this topic. The aim is to give a big picture view of what this piece of math is all about, while at the same time being happy to dig into the details…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_90",
+    "t_start": 90.8,
+    "t_end": 187.2,
+    "type": "overview",
+    "summary": "Partial differential equations are something we'll be looking at more closely in the next video. You often think of them as involving a whole continuum of values changing with time, like the temperature at every point of a solid body, Ordinary differential equations, our focus for now, involve only a finite collection of values changing with time. And it doesn't have to be time per se, your one independent variable could be something else, but things changing with time are the prototypical and most common example of differential equations. Physics offers a nice playground for us here, with …"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_190",
+    "t_start": 190.0,
+    "t_end": 285.8,
+    "type": "overview",
+    "summary": "For compactness, let's write the first derivative as y-dot and the second derivative as y-double-dot. Our equation says that y-double-dot is equal to negative g, a simple constant. This is one we can solve by integrating, which is essentially working the question backwards. First, to find velocity, you ask, what function has negative g as a derivative? Well, it's negative g times t, or more specifically, negative gt plus the initial velocity. Notice that there are many functions with this particular derivative, so you have an extra degree of freedom which is determined by an initial conditi…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_285",
+    "t_start": 285.8,
+    "t_end": 376.2,
+    "type": "overview",
+    "summary": "so you have this dance between two mutually interacting variables, reminiscent of the dance between the two moving bodies which they describe. This is reflective of the fact that often in differential equations, the puzzles you face involve finding a function whose derivative and or higher order derivatives are defined in terms of the function itself. In physics it's most common to work with second order differential equations, which means the highest derivative you find in this expression is a second derivative. Higher order differential equations would be ones involving third derivatives,…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_376",
+    "t_start": 376.2,
+    "t_end": 470.1,
+    "type": "overview",
+    "summary": "where l is the length of the pendulum and g is the strength of gravity. However, these formulas are actually lies, or rather, approximations which only work in the realm of small angles. If you were to go and measure an actual pendulum, what you'd find is that as you pull it out farther, the period is longer than what the high school physics formulas would suggest. And when you pull it out really far, this value of theta plotted versus time doesn't even look like a sine wave anymore. To understand what's really going on, first things first, let's set up the differential equation. We'll meas…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_470",
+    "t_start": 470.1,
+    "t_end": 562.8,
+    "type": "overview",
+    "summary": "and negative when it's swung to the left. This minus sign in the acceleration indicates that it's always pointed in the opposite direction from displacement. So what we have is that the second derivative of x, the acceleration, is negative g times sine of theta. As always, it's nice to do a quick gut check that our formula makes physical sense. When theta is zero, sine of zero is zero, so there's no acceleration in the direction of movement. When theta is 90 degrees, sine of theta is 1, so the acceleration is the same as it would be for freefall. Alright, that checks out. And because x is L…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_563",
+    "t_start": 563.5,
+    "t_end": 657.4,
+    "type": "overview",
+    "summary": "If that sounds odd, consider the fact that here, the sine function is taking theta as an input, but in the approximate solution you might see in a physics class, theta itself is oscillating as the output of a sine function. Clearly something fishy is afoot. One thing I like about this example is that, even though it's comparatively simple, it exposes an important truth about differential equations that you need to grapple with. They're really freaking hard to solve. In this case, if we remove that dampening term, we can just barely write down an analytic solution, but it's hilariously compl…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_657",
+    "t_start": 657.4,
+    "t_end": 747.9,
+    "type": "overview",
+    "summary": "equations alone. Let me walk through what that might look like with a pendulum. What do you hold in your head, or what visualization can you get some software to pull up for you, to understand the many possible ways that a pendulum, governed by these laws, might evolve depending on its starting conditions? You might be tempted to try imagining the graph of theta vs. t, and somehow interpreting how this slope, position, and curvature all interrelate with each other. However, what will turn out to be both easier and more general is to start by visualizing all possible states in a two-dimensio…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_750",
+    "t_start": 750.1,
+    "t_end": 841.0,
+    "type": "overview",
+    "summary": "Notice how at the start, as theta decreases, theta dot, the y-coordinate, gets more negative. Which makes sense, because the pendulum moves faster in the leftward direction as it approaches the bottom. Keep in mind, even though the velocity vector on this pendulum is pointed to the left, the value of that velocity is always being represented by the vertical component of our space. It's important to remind yourself that this state space is an abstract thing, and is distinct from the physical space where the pendulum itself lives and moves. Since we're modeling this as losing some of its ener…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_843",
+    "t_start": 843.8,
+    "t_end": 934.2,
+    "type": "overview",
+    "summary": "Take a moment to interpret what this is saying. The first component for this rate of change vector is theta dot, which is also a coordinate in our space. The higher up we are in the diagram, the more the point tends to move to the right, and the lower we are, the more it tends to move to the left. The vertical component is theta double dot, which our differential equation lets us rewrite entirely in terms of theta and theta dot itself. In other words, the first derivative of our state vector is some function of that vector itself, with most of the intricacy tied up in that second coordinate…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_934",
+    "t_start": 934.2,
+    "t_end": 1026.2,
+    "type": "overview",
+    "summary": "our point in this space will move along some trajectory in such a way that at every moment, the velocity of that point matches the vector from this field. And again, keep in mind, this velocity is not the same thing as the physical velocity of the pendulum, it's a more abstract rate of change, encoding the rates of change for both theta and theta dot. You might find it fun to pause for a moment and think through what exactly some of these trajectory lines say about the possible ways the pendulum evolves from different starting conditions. For example, in regions where theta dot is quite hig…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_1026",
+    "t_start": 1026.2,
+    "t_end": 1117.9,
+    "type": "overview",
+    "summary": "can be a great way to build an intuition for how they behave. What's wonderful is that any system of ordinary differential equations can be described by a vector field like this, so it's a very general way to get a feel for them. Usually, though, they have many more dimensions. For example, consider the famous three-body problem, which is to predict how three masses in three-dimensional space evolve if they act on each other with gravity, and if you know their initial positions and velocities. Each mass has three coordinates describing its position, and three more describing its momentum. S…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_1117",
+    "t_start": 1117.9,
+    "t_end": 1210.6,
+    "type": "overview",
+    "summary": "namely a space whose axes represent position and momentum. So a physicist would agree that the 18-dimensional space describing the three-body problem is a phase space, but they might ask that we make a couple of modifications to our pendulum setup for it to properly deserve the term. For those of you who just watched the block collision video, the planes we worked with there would be called phase spaces by math folk, though a physicist might prefer other terminology. Just know that the specific meaning may depend on your context. It may seem like a simple idea, depending on how well indoctr…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_1210",
+    "t_start": 1210.6,
+    "t_end": 1301.2,
+    "type": "overview",
+    "summary": "consider the question of stability. The origin of our space corresponds to the pendulum standing still, and so does this point over here, representing when the pendulum is perfectly balanced upright. These are the so-called fixed points of our system, and one natural question to ask is whether or not they're stable, that is, will tiny nudges to the system result in a state that tends back towards that fixed point, or away from it? Physical intuition for the pendulum makes the answer here kind of obvious, but how would you think about stability just looking at the equations, say if they aros…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_1301",
+    "t_start": 1301.2,
+    "t_end": 1393.7,
+    "type": "overview",
+    "summary": "companion seems interested in you, but decrease when they seem colder. 00:21:46,450 --&gt; 00:21:44,350 That is, the rate of change for your love is proportional to their feelings for you. But this sweetheart of yours is precisely the opposite, strangely attracted to you when you seem uninterested, but turned off once you seem too keen. The phase space for these equations looks very similar to the center part of your pendulum diagram. The two of you will go back and forth between affection and repulsion in an endless cycle. A metaphor of pendulum swings in your feelings would not just be ap…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_1394",
+    "t_start": 1394.4,
+    "t_end": 1486.4,
+    "type": "overview",
+    "summary": "The basic idea is that if you're at some point in this phase diagram, take a step based on the vector you're sitting on for a small time step, delta t. Specifically, take a step equal to delta t times that vector. As a reminder, in drawing these vector fields, the magnitude for each vector has been artificially scaled down to prevent clutter. When you do this repeatedly, your final location will be an approximation of theta t, where t is the sum of all those time steps. If you think about what's being shown right now, though, and what that would imply for the pendulum's movement, you'd prob…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_1487",
+    "t_start": 1487.0,
+    "t_end": 1577.6,
+    "type": "overview",
+    "summary": "Next, write a loop that corresponds to taking many little time steps between 0 and time t, each of size delta t, which I'm setting here to be 0.01. In each step of this loop, increase theta by theta dot times delta t, and increase theta dot by theta double dot times delta t, where theta double dot can be computed based on the differential equation. After all these little time steps, simply return the value of theta. This is called solving a differential equation numerically. Numerical methods can get way more sophisticated and intricate than this to better balance the tradeoff between accur…"
+  },
+  {
+    "id": "ku_video_p_di4Zn4wz4_1577",
+    "t_start": 1577.6,
+    "t_end": 1613.6,
+    "type": "overview",
+    "summary": "result in wildly different trajectories. We've even built some good understanding for why this happens. The three-body problem, for example, is known to have seeds of chaos within it. So looking back at the quote from earlier, it seems almost cruel of the universe to fill its language with riddles that we either can't solve, or where we know that any solution would be useless for long-term prediction anyway. It is cruel, but then again it should also be reassuring. It gives some hope that the complexity we see in the world around us can be studied somewhere in this math, and that it's not h…"
+  }
+]

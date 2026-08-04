@@ -1,0 +1,962 @@
+so it's a tremendous pleasure and honor to be here uh this is an amazing
+occasion uh on the birth of not one but two a periodic mono tiles and to have
+two a periodic mono tiles and to have the opportunity to introduce uh the
+subject for the third time perhaps today but it's new for uh many of the people
+in the audience and so uh and then of course to participate in this panel so
+course to participate in this panel so and above all to be on the team that to
+really to see this these tiles sort of emerge see their birth up close has been
+emerge see their birth up close has been quite quite nice so I've been involved
+in this subject area since I was a wee one in some sense and so uh this feels
+one in some sense and so uh this feels sort of like the culmination of really
+sort of like the culmination of really Decades of questions in some sense so so
+what are the Hat inspector a periodic monotols of course if you were here
+today earlier you you got a big dose of all of this so this will be a bit of a
+repetition but for this is for a wider audience and um
+will be seen elsewhere so we all saw this wonderful movie that
+we all saw this wonderful movie that Craig produced and we'll come back to it
+Craig produced and we'll come back to it so it's not just one
+uh monotol or two but actually in some sense an infinite family of
+sense an infinite family of combinatorially equivalent monetiles
+you know we should avoid using technical jargon unnecessarily but it's helpful
+jargon unnecessarily but it's helpful sometimes so a monotile is just a way of
+referring to a shape that you can actually fit together to form copies of
+actually fit together to form copies of the entire plane it's a tile it's one
+tile that can form copies of the entire plane and a typical monotile might be
+plane and a typical monotile might be able to form many different tilings so
+able to form many different tilings so this L tile certainly can it can file or
+this L tile certainly can it can file or chair toe as is more usually called
+chair toe as is more usually called perhaps so it can form periodic tilings
+and we can tell that this is a periodic tiling because there's a translation or
+whole invariant or does not change it as a whole you can see every once in a
+a whole you can see every once in a while as a some point in this movie
+let's just pause it for a second so obviously not everywhere but every
+so obviously not everywhere but every once in a while
+um you know it's everything lines up and everything lines up again and so in this
+sense it's periodic equivalently that means that there's some well it's
+uh but that there's some chunk that can be repeated to form a tiling of the hole
+be repeated to form a tiling of the hole actually it's not equivalent quite
+actually it's not equivalent quite because in the picture I've shown
+because in the picture I've shown there's just one set of translations
+there's just one set of translations that would leave the you know that would
+that would leave the you know that would you could shift the whole tiling over
+and have everything line up but in fact you can do that in multiple directions
+you can do that in multiple directions and in that way you can find a finite
+and uh so of course you can see what clearly that finite chunk is it's this
+clearly that finite chunk is it's this pair here
+pair here okay
+this a tiling is another tiling by the L tile or chair tile that appears to be
+tile or chair tile that appears to be non-periodic or maybe it doesn't appear
+non-periodic or maybe it doesn't appear to be non-periodic
+you see that the same pieces appear over and over again it's certainly repetitive
+and over again it's certainly repetitive in some very strong sense but any
+in some very strong sense but any translation
+no matter where I stopped this movie something will be out of sync so like
+something will be out of sync so like there for example quite sorry
+there for example quite sorry um
+there you know you can get some of it to line up and if I go a little further I
+might get even more of it to line up and I'm not you know there I've gotten quite
+I'm not you know there I've gotten quite a bit of it to line up you can get
+arbitrarily small amounts of it to not line up but you'll never be able to have
+everything line up entirely and I'll explain the principle behind this which
+explain the principle behind this which is the same that underlies the hat and
+so it's important to realize that being periodic or non-periodic is a global
+periodic or non-periodic is a global property of the entire infinite plane
+you would never be able to detect this in a finite human manner you'd have to
+in a finite human manner you'd have to have some rules for describing the
+have some rules for describing the entire tiling to be able to decide
+entire tiling to be able to decide whether or not it's periodic or
+whether or not it's periodic or non-periodic and in particular just to
+non-periodic and in particular just to emphasize that this seems period this
+emphasize that this seems period this seems non-periodic you can certainly
+make a non-periodic tiling by taking those rectangles and then just flipping
+those rectangles and then just flipping some of them over randomly if you do
+that you can expect that there'd be no way that you you know that if it's
+completely random any shift was you know will be detectable because nothing will
+ever quite repeat but on the other hand you really do have to look at the entire
+just with a little bit bigger chunk than was uh that was repeated than what was
+was uh that was repeated than what was on the screen so it's a global property
+the trick is and this seemed like a miracle to me when I first learned of it
+miracle to me when I first learned of it and honestly it still seems like a
+and honestly it still seems like a miracle and we should all pause no
+miracle and we should all pause no matter how well acquainted we are with
+this idea to just be in awe really of how remarkable a property this might be
+how remarkable a property this might be that a set of tiles or a tile
+whether it's one tile or many is a periodic if it can form these
+non-periodic tilings sorry it can form tilings but only these non-periodic ones
+that it can never form a periodic tiling in some sense this requires that just by
+in some sense this requires that just by the tiles fitting together neighbor to
+neighbor that this disrupts order at all scales that there'd be no period at you
+scales that there'd be no period at you know a foot across a mile across light
+know a foot across a mile across light year across 10 to the 100th times the
+width of the universe across because we're mathematicians and so but it's
+important to realize that the L tile is not an aperotic monoton because it can
+not an aperotic monoton because it can also form it can form non-periodic
+tilings but also form periodic ones the ltyl is not an aperiodic monotol it
+requires to be aperiodic that it can only form these non-periodic tilings
+that's a really subtle point and it really is often missed in the popular
+press I think the popular press did a pretty good job honestly because every
+single interview any of us had we like just hammered this point over hammered
+make sure but there were still plenty of you can find easily accounts of the Hat
+you can find easily accounts of the Hat where this point was missed
+um that the point of is that it cannot it's not just they can form non-periodic
+it's not just they can form non-periodic tilings but it can only form
+tilings but it can only form non-periodic tilings the Hat the altile
+non-periodic tilings the Hat the altile is not it's not an Einstein and I'm sure
+um we are mostly acquainted with this term
+which is due to Ludwig donzer and he you know if you look over the last few
+know if you look over the last few months we saw enormous amount of
+months we saw enormous amount of publicity about the hat and the Specter
+publicity about the hat and the Specter and particularly the the Einstein uh you
+know silly things with like Einstein wearing a hat and so on and you might
+really was a cheap trick and it was on purpose Ludwig Dons are introduced the
+purpose Ludwig Dons are introduced the term Einstein about 30 years ago
+term Einstein about 30 years ago precisely so that we get people excited
+precisely so that we get people excited I suppose and it worked because look we
+have all these stupid pictures of Einstein with that
+Einstein with that and so uh
+and then it's quite incredible that this would even be possible and the original
+would even be possible and the original conjecture which is if you see here it
+conjecture which is if you see here it says what appears to be quite a
+says what appears to be quite a reasonable conjecture
+I won't decode what's said there in this talk tomorrow morning I'll go into this
+talk tomorrow morning I'll go into this a bit more
+but what seems to be a reasonable conjecture is that there's no such thing
+conjecture is that there's no such thing as an aperiodic set of tiles
+as an aperiodic set of tiles he was interested in this because if
+he was interested in this because if there were no such thing as an aperiodic
+there were no such thing as an aperiodic set of tiles there'd be a decision
+set of tiles there'd be a decision procedure that could answer the
+procedure that could answer the following question in finite time it
+could answer yes or no you take in a set of tiles and you answer a finite amount
+of tiles and you answer a finite amount of time yes they do tile or no they do
+of time yes they do tile or no they do not tile if they don't tile that's it's
+not tile if they don't tile that's it's easy to check not easy but with a
+easy to check not easy but with a appropriate Computer Resources you just
+appropriate Computer Resources you just enumerate larger and larger patches and
+enumerate larger and larger patches and eventually you'll run out and you'll
+know the answer no in finite time but it's not really obvious how you would
+it's not really obvious how you would tell if a tile tiles or tiles tile emits
+tell if a tile tiles or tiles tile emits a tiling at all because you just make
+bigger and bigger patches and maybe you haven't crashed yet
+so but he observed that if there's no such thing as an aperonic tiling tile
+such thing as an aperonic tiling tile set of tiles that is to say if every set
+of tiles either admitted a periodic tiling or did not admit a tiling at all
+then you'd simply have this dumb procedure of enumerating larger and
+because not only would it tell you if you failed to have a tile link because
+you failed to have a tile link because you'd run out of patches but also you
+could check along the way to see if you have a finite patch that could be then
+have a finite patch that could be then repeated
+repeated so
+he was hopeful in some sense that no such thing would exist and that there
+such thing would exist and that there would be a decision procedure it would
+would be a decision procedure it would have helped his other work
+tremendous luck for us within a few years his student Robert Berger found
+years his student Robert Berger found this incredible set of this oft-quoted
+I think we just love that number because it's like so you know look what we did
+we got it down from twenty thousand to six to two and now to one so but Burgers
+six to two and now to one so but Burgers it's hierarchical construction which I'm
+it's hierarchical construction which I'm going to describe shortly is really
+going to describe shortly is really foundationally important in the sense
+foundationally important in the sense that over the next 60 years now I guess
+uh some very large percentage of the known constructions really rest on this
+idea of burgers and that's not to say that's the only method at all in fact in
+that's the only method at all in fact in the new paper in the Hat construction
+the new paper in the Hat construction there's a Joseph Myers had as a brand
+there's a Joseph Myers had as a brand new way of proving a periodicity but
+new way of proving a periodicity but there's remarkably few methods known and
+there's remarkably few methods known and uh in some sense a very large part of my
+career has basically been studying just this one idea Burgers what's Burgers
+this one idea Burgers what's Burgers hierarchical method
+and so let me show you with the L tile because I thought I like the LT quite a
+because I thought I like the LT quite a bit obviously so the ltile is not an
+bit obviously so the ltile is not an aperiodic monotile but this is how you
+aperiodic monotile but this is how you can form non-periodic so-called
+hierarchical tilings with it using what we might call a tiling substitution rule
+we might call a tiling substitution rule this vocabulary all sort of changed over
+this vocabulary all sort of changed over the decades but this is the way I like
+so we can take this shape and we can rep we can inflate it
+the process again and do this process again and in this way we can make larger
+again and in this way we can make larger and larger super tiles it's not obvious
+and larger super tiles it's not obvious in fact it's
+it well it might seem obvious in fact if it seems obvious that's terrific because
+it seemed like you can make larger and larger super tiles that seems reasonable
+larger super tiles that seems reasonable to expect that you can then therefore
+cover the entire plane in some sense with an infinite super tile and that's
+with an infinite super tile and that's true but it's not obvious it sounds
+true but it's not obvious it sounds obvious but there's some subtleties here
+obvious but there's some subtleties here but basically you can imagine that this
+eventually get a tiling of the entire plane in fact you get as many tilings of
+plane in fact you get as many tilings of the plane
+that all look just like this as there are real numbers there's this
+are real numbers there's this uncountably infinitely many l tilings
+uncountably infinitely many l tilings with this exact same structure
+and what is this structure it's that every individual tile not just this red
+every individual tile not just this red one but any tile you would pick
+one but any tile you would pick lies within a unique
+of four tiles which is a an l and then those four lie in a unique cluster here
+those four lie in a unique cluster here shown in tan of what we might call a
+and that that clust the four of those lie in a unique third low second level
+lie in a unique third low second level third level fourth level and so on
+now this doesn't mean that the ltile is apiotic at all it just means that this
+apiotic at all it just means that this is a way of making non-periodic
+is a way of making non-periodic structures
+and why is this non-periodic so if we paint on back these lines we
+so if we paint on back these lines we can see
+this is now we can see this is with the hierarchical structure highlighted but
+it was always there whether it was highlighted or not you can reconstruct
+highlighted or not you can reconstruct it just because every L lies in a unique
+super tile lies within a unique Next Level unique next level
+Level unique next level with these lines it's more it's a little
+sort of structure at all possible scales and in particular suppose that you have
+and in particular suppose that you have a translation that you're interested in
+a translation that you're interested in suppose that you believe that maybe that
+suppose that you believe that maybe that shift
+which is obviously not going to leave the tiling alone that you'll obviously
+the tiling alone that you'll obviously be able to tell something moved with
+be able to tell something moved with that particular crazy shift
+but any shift you possibly could care about no matter how big particularly so
+about no matter how big particularly so whether it's a foot across a mile across
+whether it's a foot across a mile across a light year across
+you know vastly bigger than the universe across there's some L tile that's bigger
+across there's some L tile that's bigger than that
+and remember that this these hierarchies or hierarchies are unique
+that you can uniquely reconstruct the position of any tile within this
+position of any tile within this hierarchy of super tiles so suppose this
+then you move it over something has to be out of sync because if some if
+tile would land on top of itself in some way and in particular then you just I
+way and in particular then you just I wish I had made it I wasn't able to
+wish I had made it I wasn't able to manage the I'm sorry about this slide it
+manage the I'm sorry about this slide it didn't quite line up I'd like to have it
+line up at least a little bit so that some tile was lined up but you can
+some tile was lined up but you can imagine
+that some tile here uh here's the pointer
+if I can make it work that's some so suppose that that tile would actually
+suppose that that tile would actually lined up with itself that this tile
+would then lie in two different hierarchies of else
+but it doesn't it only lies in one the Ergo this didn't really happen
+so hierarchical tilings of this kind with the tiles organized into larger
+with the tiles organized into larger copies of themselves and Etc
+copies of themselves and Etc are necessarily non-periodic that is to
+are necessarily non-periodic that is to say I guess I should say hierarchically
+say I guess I should say hierarchically organized into uniquely organized into
+organized into uniquely organized into larger copies of themselves but that's
+or non-periodic now the ltol is not an a periodic monoton but nonetheless we can
+periodic monoton but nonetheless we can imitate that structure in some cases
+um in the Hat tile we don't have to go through any contortions with some other
+through any contortions with some other examples we don't
+have to worry about this quite so much but for the L tiles it turns out that
+but for the L tiles it turns out that these two tiles even though they don't
+these two tiles even though they don't look like L tiles when they fit together
+they can only create this ltile structure in the following way so just
+structure in the following way so just by some
+brute force uh non-interest not very easy to explain or interesting to
+explain but just chasing down the possibilities literally just decide like
+possibilities literally just decide like in this fit this way this way this way
+in this fit this way this way this way it finds that this tile can only form
+and these colored regions are sort of active in the sense of determining
+active in the sense of determining further structure that's
+so they can only do this and then those in turn can only organize up another
+in turn can only organize up another level so this is just chasing it down
+level so this is just chasing it down there's no real reason other than it
+there's no real reason other than it were like you just argue for 10 pages
+were like you just argue for 10 pages that it works
+and literally this is actually a remarkably complicated proof for this
+remarkably complicated proof for this little guy
+which is itself kind of interesting and uh and then those can only in turn
+form larger and if you squint you can see that
+the if you just sort of erase all the extraneous markings you can reconstruct
+extraneous markings you can reconstruct underneath that this hierarchy of L's
+underneath that this hierarchy of L's that may or may not be real clear but
+you can kind of begin to see some of that
+and so these guys are aperiodic because they
+structure and this is really Berger's idea going back to the very beginning of
+idea going back to the very beginning of the field
+of course we have the magical Penrose ROMs with the hierarchy of pentagons
+ROMs with the hierarchy of pentagons upon pentagons
+we have an example by Amman who this remarkable example and there's many more
+remarkable example and there's many more and of course the natural question is
+okay we started with thousands of tiles quickly Berger got this to uh under 200
+I believe and then quickly down to six and then two and for decades it remained
+and then two and for decades it remained at two and of course we ask naturally
+answer now but you didn't a few weeks ago and is there an aperiodic monotile
+ago and is there an aperiodic monotile in particular or is there an Einstein
+so that's how it was and then where are you Dave where's Dave where
+where are you Dave where's Dave where yeah let's give them a hand is he here
+I don't see him there he is There's the Man okay so all
+right so thanks Dave
+really thanks I really really honestly on behalf of all of us really most
+sincerely thank you because this is a big deal actually can we just do that
+big deal actually can we just do that again let's now we know where it is
+I won't make us do that a third time but you know I feel it so uh we got the
+you know I feel it so uh we got the story a little earlier this afternoon
+story a little earlier this afternoon from Craig but of course uh uh many are
+new here so this is the first uh as I understand it the first computer
+generated patch of hats out to some distance using Craig's
+software for I guess it's discovering hash numbers would be a characterization
+hash numbers would be a characterization of it and I find it quite remarkable
+of it and I find it quite remarkable honestly that just staring at this thing
+honestly that just staring at this thing quickly you guys found this
+from the distance you know like a mirage and there we have some structure to work
+and there we have some structure to work with
+and soon after noticing that this can be discovered this can be decomposed this
+discovered this can be decomposed this can actually be handled differently so
+out in the lobby we have a different method of of composing the hats into
+method of of composing the hats into larger and larger structures which I
+larger and larger structures which I think probably will could ultimately
+lead to a proof similar to that of the Specter if somebody will pursue that but
+Specter if somebody will pursue that but this is the proof we have in the paper
+this is the proof we have in the paper so that these tiles uh by Brute Force
+so that these tiles uh by Brute Force checked can be checked that they can
+only form configurations that can be decomposed into these four chunks here
+decomposed into these four chunks here that this that this stuff here is is
+uniquely determined that it's it's just force that you can always do that and
+then these in turn have this nice hierarchical structure right out the
+hierarchical structure right out the gate so it's a little this is a pretty
+slide to look at at a glance you have to really study it but essentially at the
+really study it but essentially at the upper left
+we have uh we have a little guy that's inflated to a bigger chunk to a bigger
+inflated to a bigger chunk to a bigger chunk to a bigger chunk still it's the
+exact same phenomenon of having these hierarchical uh structures and for the
+hierarchical uh structures and for the exact same reason this is non-periodic
+exact same reason this is non-periodic that there'd be
+uh whatever scale you consider this at there's some larger super tile than that
+there's some larger super tile than that scale
+and immediately we saw this phenomenal arrang like this is like within 48 hours
+arrang like this is like within 48 hours or something right we started to see
+or something right we started to see this incredible so I mean it's it's I've
+this incredible so I mean it's it's I've never it's just astonishing and of
+never it's just astonishing and of course everybody agrees that it's a
+shirt so somehow they uh no but I mean it's funny to see your emails because
+it's funny to see your emails because you and Dave both thought it was assured
+you and Dave both thought it was assured initially and then
+backed into a hat but it but anyway it is a hat it's a hat and that's the story
+is a hat it's a hat and that's the story and we're sticking with it so we
+and we're sticking with it so we immediately saw this wonderful example
+and I guess we should remind ourselves of this I'll I'll put a little blurb up
+of this I'll I'll put a little blurb up of that at the end and incredible
+of that at the end and incredible examples and this uh amazing
+examples and this uh amazing thing so you can get yourself a beer and
+um and then just to quickly say something about this that Joseph soon
+something about this that Joseph soon noticed this combinatorial equivalence
+family and that remarkably that led to a whole nother proof a whole new style of
+whole nother proof a whole new style of proof of apriadicity which itself is
+proof of apriadicity which itself is very exciting
+and of course the question came up of whether or not we should allow
+whether or not we should allow Reflections I think this is a beautiful
+Reflections I think this is a beautiful beautiful
+um graphic by yoshiarakai and in particular if it's really two shapes
+then why is it so hard to tell the difference you know really I think this
+difference you know really I think this is also kind of a compelling argument
+is also kind of a compelling argument for being one shape but just on that
+for being one shape but just on that note not to sound too defensive about it
+note not to sound too defensive about it but even Euclid himself and and not none
+but even Euclid himself and and not none other than proper the fourth proposition
+other than proper the fourth proposition and the first book of Euclid's elements
+quite clearly takes Reflections to mean the same he talks about the when two
+the same he talks about the when two triangles are equivalent and it's
+triangles are equivalent and it's obvious he means Reflections now that
+obvious he means Reflections now that may sound a little defensive that's fine
+may sound a little defensive that's fine because quickly we took care of the
+because quickly we took care of the situation and uh thanks to Dave noticing
+situation and uh thanks to Dave noticing that the Specter the so-called Specter
+might work so this is a variation it's of course in the movie it's right in the
+of course in the movie it's right in the middle when all of the edge lengths are
+equivalent you have the possibility of not reflecting and still have and just
+by a miracle let's just face it it is there's no reason to ex like come into
+there's no reason to ex like come into this with the expectation that any of
+this with the expectation that any of this would have worked right I don't
+this would have worked right I don't think
+think not this maybe next time but they um
+but by some miracle so it has enough Flex it has too much flexibility if you
+but if you don't flip it over then now suddenly magically you've removed just
+suddenly magically you've removed just enough flexibility that suddenly it's an
+and uh because it's chiral you can modify the edges with even more exciting
+modify the edges with even more exciting possibilities
+and so here's another Yoshi drawing here's rob batauer it really is a
+here's rob batauer it really is a specter
+this is a absolutely beautiful uh piece of cloth by I believe Ellie Baker
+and this is coming up I don't know if I've got the money right I forgot to ask
+I've got the money right I forgot to ask is this right so the Einstein Matt Hat
+is this right so the Einstein Matt Hat awards are coming up with uh with real
+awards are coming up with uh with real cash prizes I'm not actually quite sure
+cash prizes I'm not actually quite sure if that's right but it's really a
+if that's right but it's really a substantial amount of money that's not
+substantial amount of money that's not all for one prize but distributed across
+all for one prize but distributed across there'll be a contest for school
+there'll be a contest for school children in the UK in the U.S
+children in the UK in the U.S what's that
+yeah I know I actually I apologize to everybody here in everybody British here
+everybody here in everybody British here but I couldn't you'll have to tell me
+where the pound key is I'm so sorry I meant to do that and I just uh
+I meant to do that and I just uh forgot so anyway that's all I have to
+say to introduce this wonderful wonderful uh topic to you and uh thank
+you very much [Applause]
+let me first of all start with a question that kind of acknowledges the
+question that kind of acknowledges the uh
+um what time was already mentioning if uh tremendous public interest uh into
+uh tremendous public interest uh into this discovery
+um so what do you think about this particular mathematical story has made
+particular mathematical story has made it so interesting to just about anybody
+and is this something that we could ever repeat
+well I think the thing is it's very easy to understand what you're doing I mean a
+to understand what you're doing I mean a lot of mathematics you have to explain
+lot of mathematics you have to explain this and the the other thing before
+this and the the other thing before people know what you've really done
+people know what you've really done whereas in this case you can cheat the
+necessarily see that it covers the whole play and that's a little trickier
+play and that's a little trickier you can't necessarily see that if it
+you can't necessarily see that if it covers the whole plane it's not doing it
+but the idea is a very simple one so I think that's why it catches on
+think that's why it catches on certainly most mathematical ideas you
+certainly most mathematical ideas you have to do a lot of explaining what
+and a lot of Prior understanding of what kind of mathematics goes into it
+kind of mathematics goes into it so I think that's this one reason
+I agree with that completely and I think along with that is the fact that you can
+do it you can cut these out and you can play with them and see how they fit
+together and how they don't fit together and get some understanding that way
+and get some understanding that way which is very unusual I'm thinking
+which is very unusual I'm thinking comparison of this wonderful Discovery
+comparison of this wonderful Discovery with the proof of fair Mars Last Theorem
+which was a great great uh event in mathematics too but you can't sit and
+mathematics too but you can't sit and play with fairness there very well uh
+play with fairness there very well uh this one anybody can take that shape and
+this one anybody can take that shape and cut it out and make cookies and eat them
+cut it out and make cookies and eat them whatever you need to do but you can uh
+you can get your hands on them literally and I think that gives it gives not only
+and I think that gives it gives not only understanding but also appreciation
+uh yeah fall yeah it also helps the era we're in where it has been so easy to
+both by releasing the paper in a way that people could see and software
+anybody could play with and we live in an age where all of these incredible
+an age where all of these incredible tools laser cutters 3D printers are
+tools laser cutters 3D printers are immediately accessible to so many people
+immediately accessible to so many people so that even makes it easier to to do
+that kind of playing around I've signed many physical tiles
+I would just like to add I would just oh sorry I would just like to add though
+that it's just astonishing isn't it I mean I I can't I certainly can't think
+of anything like it and I don't expect to see anything like it I don't know but
+have made it their own and the the level at which like people have really taken
+at which like people have really taken possession of it
+in their hearts in some fundamental way that um I don't think I've been
+that um I don't think I've been associated with anything that has
+associated with anything that has perhaps the same possibility of some
+perhaps the same possibility of some permanence in this world and universe
+permanence in this world and universe it's remarkable
+um so let me follow up on that this is like a a personal conundrum um so when
+like a a personal conundrum um so when you go around and you meet people most
+you go around and you meet people most of them friends they say some
+of them friends they say some mathematicians anyway so I'd have to
+mathematicians anyway so I'd have to talk to people who are not my
+um but um if you do and you say that they're a mathematician then the
+they're a mathematician then the response is often oh I was never any
+um or people feel they're mathematics somehow abstract and it's out there and
+somehow abstract and it's out there and um something that not anybody not just
+anybody can enjoy so can you give me a good response to that what should I tell
+good response to that what should I tell people what should I say
+so what was it I didn't quite get what the question was sorry oh what do you
+the question was sorry oh what do you respond to people when they
+mathematics that it's oh I see for them you're saying they never was any good at
+you're saying they never was any good at mathematics for example yeah yes well I
+mathematics for example yeah yes well I can sort of understand it I mean I'm
+passion I think if you are interested in mathematics there is a certain passion
+mathematics there is a certain passion one has for the subject
+one has for the subject which I find quite understandable if
+which I find quite understandable if somebody doesn't have that passion and
+somebody doesn't have that passion and when is something a beautiful idea or
+when is it something a little bit obscure and not have anything directly
+obscure and not have anything directly connected with everyday life
+huge amount to do with everyday life but I think that's to see directly what it
+I think that's to see directly what it does is not easy
+does is not easy so I think that's the best I can do for
+did you want anybody else I guess I guess it's my I'm now currently working
+guess it's my I'm now currently working at momath and so I suppose it's my job
+to help people think Math is fun but it's a difficult question right because
+it's a difficult question right because as mathematicians to engage in
+different than the kind of ways that we encourage people to approach mathematics
+encourage people to approach mathematics as a friendly kind of endeavor and I
+can't really square that Circle I don't really know somehow though cert
+really know somehow though cert obviously it's possible to enjoy
+obviously it's possible to enjoy mathematical ideas as a as a consumer as
+mathematical ideas as a as a consumer as it were and participate fully but um
+I don't know mathematics is hard what can you say
+it's fun and it's hard but I think every subject is hard if you're
+I think every subject is hard if you're really studying it and I think that
+really studying it and I think that maybe culturally people are
+think that they can't do math and therefore it's okay to say that so the
+people have come up to me and say I can't oh you do man I can't do math and
+can't do history yeah I I never could do French I couldn't speak German I mean we
+French I couldn't speak German I mean we don't say things like that usually but
+don't say things like that usually but it's the same Spirit if you feel if
+that's how you feel and I think that people who think they can't do math
+people who think they can't do math don't know what they're talking about
+don't know what they're talking about literally
+literally [Laughter]
+I understand the the motivation for outreach and I do it too I don't do it
+um that being said right so it's not a problem we know how to solve we've been
+problem we know how to solve we've been we've been every year we bring our hands
+at the University how do we get more people to love well computer science how
+people to love well computer science how do we get more people obsessed with it
+the way we are and of course what would success look like were we
+what would success look like were we going to make everybody into a computer
+going to make everybody into a computer scientist no that we need historians we
+need people who can like fix my toilet because I certainly can right and that's
+because I certainly can right and that's fine we need people to do all the things
+at best I would just hope that we don't have people walking around thinking you
+have people walking around thinking you know I can't do math and therefore it is
+detestable somehow I don't mind if people can't do math as long as they can
+something people care about and that it ought to be done even if not by them
+mathematics needs to be done we need to keep on discovering we need to get on
+somehow the society has a at large to agree with us right otherwise they won't
+agree with us right otherwise they won't let us do that
+let us do that yeah
+that's very important but I think there is something which is a a love of the
+is something which is a a love of the subject which not everybody has
+subject which not everybody has so it's not just that it's useful and so
+on I'm sure it is but not all mathematics that's just probably most of
+mathematics that's just probably most of the mathematics that's done in
+doesn't have any direct use to anything but occasionally you'll find something
+but occasionally you'll find something which does but that's not the reason you
+so it's there is something beyond the utility in the subject which I think is
+utility in the subject which I think is is really important
+that certain people seem to have a love of the subject and certain people don't
+of the subject and certain people don't and I don't know that I need an act
+I don't have an explanation for that it just seems to be a fact of life
+just seems to be a fact of life so we just have to make most of our
+um also it's not always the same you see there's different kinds of mathematics
+you see some people are very Visual and like geometrical things and some people
+don't like that they like to work out conceptual ideas and algebra and things
+conceptual ideas and algebra and things like that so you don't directly have
+something visual so it's not there are different qualities in mathematics which
+different qualities in mathematics which attract different people in different
+about what was it made people so excited about this well they wouldn't be so
+about this well they wouldn't be so excited about some other equally
+excited about some other equally important maybe Discovery but this one
+important maybe Discovery but this one has really generated enthusiasm around
+has really generated enthusiasm around the world
+talking about the monotile um you say okay the geometry of it and
+um you say okay the geometry of it and the beauty of it and the width you can
+make it your own by eating it if you like
+um so what about the area of sort of apiatric order crystallography what
+apiatric order crystallography what about that makes it fascinating to you
+and what what about that do you think you could give to a non-specialist
+you could give to a non-specialist to take home
+well of course a lot of the patterns are very attractive and repeating patterns
+very attractive and repeating patterns have a an appeal
+and then these things don't repeat I'm not sure what to say
+not sure what to say um
+so it can't be just repeating patterns which have an appeal but there's a
+which have an appeal but there's a certain
+getting something complicated out of something so simple
+I think has an attractive about attractiveness about it
+attractiveness about it uh
+this is a difficult question why certain things are appealing
+things are appealing in mathematics is a difficult
+I don't think there's a simple answer to that question yeah it comes under
+personal tastes right there is that but then there's something Beyond it too I
+then there's something Beyond it too I think
+think um
+yeah somehow mathematicians tend to converge to the same problems we all
+consider the same problems to be interesting and important right it does
+interesting and important right it does happen
+sure so there's something Universal about it yes
+well I'm not so sure I mean one thing about this particular subject is that
+about this particular subject is that often it's like too tangible some sense
+often it's like too tangible some sense for many mathematicians taste you know
+for many mathematicians taste you know you can touch it you can play with it
+you can touch it you can play with it you can even explain it to people what
+but but clearly the the you know it's just these fascinating patterns we I
+just these fascinating patterns we I mean it's just human beings we enjoy
+repetition is even more appealing this tension between order and disorder we
+tension between order and disorder we see across the Arts and every number any
+number of ways there is a sort of mathematical snobbery I would say
+if it's a little too easy that's right proper mathematics absolutely yes
+proper mathematics absolutely yes yeah
+um yeah okay um so um the heart was discovered the
+um so um the heart was discovered the hat and the Specter
+hat and the Specter um were discovered by
+um Dave who doesn't have any form of mathematical training which is wonderful
+mathematical training which is wonderful um and um I'm just wondering what you
+can mention this but um if if you might have something in mind of other uh
+have something in mind of other uh discoveries in our area
+or other areas where somebody who's a non-specialist has found
+non-specialist has found well I'm taking the same area because it
+Dave Smith because there was Robert their man who who had no mathematical
+their man who who had no mathematical training and he worked in the post
+office and then I think for a while and then he got fired or something I can't
+remember but he produced these very remarkable
+remarkable um
+non-periodic some of the ones we've seen on earlier and he had no training at all
+on earlier and he had no training at all so I don't think
+so I don't think it's so surprising
+I think what's also not so surprising is that this is an area
+where you can see what's going on without having a deep breath you don't
+without having a deep breath you don't need to know sophisticated mathematical
+need to know sophisticated mathematical ideas to appreciate it
+so it is something accessible in that sense somebody can play around
+um John Taylor and other there were other people also who had no particular
+other people also who had no particular mathematical training in this area they
+mathematical training in this area they could make genuine progress
+but if you're trying to do some you know comology Theory or something much more
+comology Theory or something much more sophisticated it's not so easy to see
+sophisticated it's not so easy to see how
+actually I'm not not such a good example of that one in some respects but um you
+of that one in some respects but um you can you can appreciate it
+can you can appreciate it certain without knowing what you're
+doing yeah
+I mean some of Usher's remarkable pictures to exhibit certain
+remarkable pictures to exhibit certain mathematical ideas which are
+mathematical ideas which are not easy to appreciate
+Robert's an interesting case uh do you remember I don't remember he had a few
+remember I don't remember he had a few years of University mathematics uh no
+not not a few no he he uh yeah I'm sorry I'm sorry yeah go ahead
+yeah I'm sorry I'm sorry yeah go ahead I'll I'll take it back okay I'll get
+I'll I'll take it back okay I'll get back don't Robert was a child prodigy
+um but also very difficult complicated person and every every college but one I
+person and every every college but one I think that he applied to
+um they invited him to apply and then when they interviewed him
+they told him not to but he did go to one and unfortunately he was thrown out
+after two years because he never went to a class and never did any work and they
+a class and never did any work and they just said that was enough and so then he
+got the job at the post office because he liked sorting mail he thought it was
+he liked sorting mail he thought it was a good thing to do and he uh he also
+knew it was a civil service job but he couldn't be fired from it
+lots of spare time he read Martin Gardner's column and tried to answer the
+Gardner's column and tried to answer the question that Gardner post and that
+included quite a bit of geometry and he actually solved some of those problems
+actually solved some of those problems not just on the on the period aperiodic
+not just on the on the period aperiodic times and then when he read that uh
+discovered aperectiles and Gardner said he would report on them later Ammon
+wrote to Gardner said oh I did too and he sent in here which then Gardner sent
+he sent in here which then Gardner sent to you didn't he and you saw that and
+to you didn't he and you saw that and they were essentially the same yes I was
+they were essentially the same yes I was interested in the history of that
+because I mean I've had my well the cuts and dots and put some tiles and uh
+and dots and put some tiles and uh I didn't publish it certainly for a
+I didn't publish it certainly for a while and then John Conway got
+interested and he had a long discussion with Martin Gardner and that was the
+with Martin Gardner and that was the source of the Scientific American
+article now at a certain time a little after that not very long after that I
+after that not very long after that I had a letter which Martin Gardner
+Gardner passed over to me and he didn't understand what this person was saying
+understand what this person was saying did it make sense and I looked at him
+and I said yes he's rediscovered the rhombus time that's right and this was
+rhombus time that's right and this was Robert Downey actually I'm not even
+Robert Downey actually I'm not even totally sure whether he rediscovered it
+totally sure whether he rediscovered it or had it first
+I don't know what the history of this is I've had the impression that he'd picked
+I've had the impression that he'd picked up on it from a sort of hint in Martin
+he'd had he indicated that he was going to do something a little unusual in the
+to do something a little unusual in the next one whether that was enough hint to
+next one whether that was enough hint to get Robert down and started on it I
+get Robert down and started on it I didn't think that's probably right well
+didn't think that's probably right well I the best I know I knew him and I
+wrote about him so that's why I'm saying what I think he was meant uh that he had
+what I think he was meant uh that he had been playing with this and then when he
+been playing with this and then when he read that that you were going that
+Gardner was going to publisher about yours he thought that he should make his
+yours he thought that he should make his known also
+so it wasn't that that announcement that said oh I should think up a periodic
+that and what he was doing he came to it from a very different perspective than
+from a very different perspective than anybody else until until much later and
+anybody else until until much later and that was he was interested in printing
+color printing and he noticed that they used five different colors of ink and uh
+used five different colors of ink and uh the the way that these came in lines on
+the the way that these came in lines on the printed page to be yellow blinds and
+the printed page to be yellow blinds and then there'd be red lines crossing and
+blue lines I didn't that's just how he described it I don't know that uh myself
+described it I don't know that uh myself but anyway he said he looked at that and
+but anyway he said he looked at that and he looked at the way these lines were
+intersecting there were five different colors and the way they were
+intersecting and each there were two kinds of intersections and he began
+kinds of intersections and he began playing with that amazing and that so in
+a way he was anticipating the high dimensional approach to it but he never
+dimensional approach to it but he never thought that way and one evening I
+actually had him at my house with uh mg de bruyne who did pioneer the pilot
+de bruyne who did pioneer the pilot five-dimensional approach I haven't
+five-dimensional approach I haven't thought that was nonsense
+like a mathematician but he was thinking and he was thinking about how the kinds
+of these five different sets of lines intersected
+he certainly did it in a very different way from from my Approach yeah yes yeah
+way from from my Approach yeah yes yeah yes so he can just to clarify you're
+saying he had no idea of any of the previous literature and the only hint
+previous literature and the only hint that he had was that this cryptic note
+that he had was that this cryptic note in a Martin Gardner column that
+far as I know it's already done the work he'd already got the word but completely
+he'd already got the word but completely independent of oh yeah burger and
+independent of oh yeah burger and everybody you know he was just
+everybody you know he was just interested in that he got interested
+interested in that he got interested who's interested in dinosaurs
+to get back to the original question uh there's a bit more to say so about the
+contributions by non-mathematicians to the field we've already mentioned Robert
+we mentioned uh Joan Taylor uh there also is famously Marjorie rice who
+also is famously Marjorie rice who discovered again in response to a Martin
+discovered again in response to a Martin Gardner column uh that was cataloging
+Gardner column uh that was cataloging convex pentagons that could tile the
+convex pentagons that could tile the plane in different ways and I think
+plane in different ways and I think Gardner was reporting on who's whose
+result at the time Jensen nurse I don't remember exactly saying here they are we
+remember exactly saying here they are we found all nine or all eight of them or
+found all nine or all eight of them or something and and murder just went off
+something and and murder just went off and again not a mathematician by
+and again not a mathematician by training I think nothing Beyond High
+training I think nothing Beyond High School mathematics uh uh came up by
+School mathematics uh uh came up by doodling around with a few more three
+three or four more types to add to the list and that became an ongoing problem
+list and that became an ongoing problem in mathematics that we now believe has
+in mathematics that we now believe has been finally solved in the last couple
+of years by Michael Rao uh who who I was actually Casey Mann who discovered and
+actually Casey Mann who discovered and collaborators who discovered the 15th
+type of Pentagon that tiles the plane and then Michael had this ingenious
+and then Michael had this ingenious computer search that we believe has
+proven that those are all the ones that can exist which is actually a little
+can exist which is actually a little disappointing because I saw the 15th I'm
+disappointing because I saw the 15th I'm like oh cool there's going to be more
+like oh cool there's going to be more and then Michael's like no sorry that's
+and then Michael's like no sorry that's that really was it we found them so
+that really was it we found them so that's Marjorie rice and I in in the
+that's Marjorie rice and I in in the last couple of months musing on this
+last couple of months musing on this question of the contributions by amateur
+question of the contributions by amateur mathematicians I really feel like I want
+mathematicians I really feel like I want to include Escher in that list and I
+think Roger hinted at that I mean in some sense Escher was the most
+some sense Escher was the most inspirational source of uh of of tiling
+inspirational source of uh of of tiling ideas and certainly had a profound
+ideas and certainly had a profound influence on my life just discovering
+Usher as a little kid and and you know carrying around a lot of those drawings
+carrying around a lot of those drawings in my head all the way through you know
+and and then being dragged into tiling theory in graduate school and and tying
+theory in graduate school and and tying that back to my love of Usher so and he
+was definitely not a mathematician but made really cool contributions that
+made really cool contributions that filtered back into math afterwards
+filtered back into math afterwards an interesting question he doesn't
+claimed not to be a mathematician yes he obviously had a very deep a really good
+obviously had a very deep a really good mathematical mind yes
+of the people that we just discussed I mean I mean so there's a clearly trained
+mean I mean so there's a clearly trained as a mathematician going to school
+as a mathematician going to school learning lots of comology and stuff like
+that as one thing but but all of these people are mathematicians Dave you are I
+people are mathematicians Dave you are I mean it's just just how we discuss it
+mean it's just just how we discuss it and it's a little it's it's unfortunate
+and it's a little it's it's unfortunate that the word amateur has
+really been debased in English and the French one of the French reporters that
+French one of the French reporters that we were talking to amateur apparently
+means what it used to in French I don't know if anyone can confirm that or not
+know if anyone can confirm that or not but truly a lover of the subject and a
+but truly a lover of the subject and a passionate
+passionate so
+so in Heritage said that um it would have been it is surprising that somebody
+have been it is surprising that somebody was not a mathematician mathematician
+was not a mathematician mathematician found the monophile
+um but that it would have been even more surprising he was a mathematician so is
+surprising he was a mathematician so is that is there another problem that you
+that is there another problem that you kind of can see that's probably going to
+have an amateur solver in the near future
+in the near future you think it's all about somebody who's
+yes absolutely yeah yeah so there's a whole there's all range like well this
+whole there's all range like well this is only two monotiles come on people get
+is only two monotiles come on people get to work yourself and then and then of
+to work yourself and then and then of course there's all kinds of other
+course there's all kinds of other related these kinds like with just
+related these kinds like with just within tiling there's other kinds of
+within tiling there's other kinds of these Hands-On combinatorial questions
+like can we get the H number up and so forth so in fact yeah haitian's problem
+is one of my personal favorites in case you weren't here for the rest of the day
+you weren't here for the rest of the day it's like take a shape surrounded by a
+it's like take a shape surrounded by a layer of copies surround that by a layer
+surround that by layer if a shape doesn't tile how many layers are
+possible and the answer is we don't know but it's at least six and six isn't a
+but it's at least six and six isn't a very big number
+um and and this is uh in fact I mean this is something Davis worked on as
+well I had written this paper that did this enormous computer search that like
+this enormous computer search that like burned through who knows how many tons
+burned through who knows how many tons of CO2 to you know to like find no new
+results like I got up to Hash number four and meanwhile Dave sent an email to
+four and meanwhile Dave sent an email to the tiling mailing list that a lot of
+the tiling mailing list that a lot of people in the room are so anyway here's
+people in the room are so anyway here's some examples of nation number five that
+some examples of nation number five that I found just by playing around so it is
+shape over there that nobody thought to look at that would break the records for
+look at that would break the records for Haitian numbers or for isohedral numbers
+Haitian numbers or for isohedral numbers uh is another one we've talked about
+hopefully they will yeah um so good luck to everybody
+I I know that we've heard some answers to this question already uh but maybe
+let me just repeat this question before the path was found did you think that
+the path was found did you think that there would be did you think that there
+um and then did you think it would be like this no I thought it was quite
+like this no I thought it was quite possible there would be one but not that
+possible there would be one but not that you see what's interesting about these
+you see what's interesting about these hats I haven't heard its stress but
+hats I haven't heard its stress but they are based on a periodic letters you
+they are based on a periodic letters you can take the ordinary last equilateral
+can take the ordinary last equilateral triangles and each triangle you split
+triangles and each triangle you split into three parts by taking the center
+into three parts by taking the center and dropping a perpendicular to each
+and dropping a perpendicular to each Edge so you have a quadrilateral and all
+of these are made out of those quadrilaterals and that quadrilateral
+pattern is completely uniform and uh it's a tiling regular tiling and the hat
+it's a tiling regular tiling and the hat I think uses eight of them in the
+Specter of ten is it I can't remember um but they have a different character
+um but they have a different character from the ones that I was playing around
+from the ones that I was playing around with it's completely different because
+with it's completely different because they had no such basic
+um periodic lattice so you one might ask a question and are there monotones which
+a question and are there monotones which are
+based on not having a basic uh periodic lattice underlying them I mean there are
+lattice underlying them I mean there are other questions one might certainly ask
+other questions one might certainly ask about this
+but you're quite sort of simple straightforward questions
+so um anybody else wanna weigh in on was it likely
+um for many many years I mean obviously I find it likely enough that it was
+I find it likely enough that it was worth looking for them
+um I would never have said there I would never have conjecture that there does
+not exist in a periodic momentiles absolutely willing to believe I mean
+it's bad luck that it we we spent as many decades as we did unable to find
+many decades as we did unable to find one but that is certainly not by any
+one but that is certainly not by any means proof that it can't exist
+um the only thing that I I strongly believed was a proof of non-existence
+believed was a proof of non-existence would be much much more difficult
+then a proof of this particular shape is a periodic so I'm I'm glad you know that
+a periodic so I'm I'm glad you know that we we live in the good Universe where
+we we live in the good Universe where euclidean geometry is obliged us with a
+euclidean geometry is obliged us with a shape that we can study relatively
+shape that we can study relatively easily in the end once we knew what it
+so unfortunately I'm on record for having conjectured that there's no
+having conjectured that there's no substance
+in a more naive part of my life and in fact now I understand something which I
+fact now I understand something which I call Conway's presumption which is a way
+kinds of issues kick in and with I mean it's very straightforward when you have
+it's very straightforward when you have sort of a certain threshold of
+complexity you might as well just bet on it sort of continuing and paying out
+and that the least you won't be likely to be contradicted just because exactly
+to be contradicted just because exactly what you say it's very hard to prove
+there's a limit on the complexity of the situation but then honestly I think uh
+situation but then honestly I think uh looking back we're sort of reviewing my
+looking back we're sort of reviewing my notes for this conference and so on I
+notes for this conference and so on I see this kind of gradual progression you
+see this kind of gradual progression you know like oh well maybe Conway's
+know like oh well maybe Conway's presumption tells us that and so really
+presumption tells us that and so really about a year ago you know I was asked by
+a friend if I thought and so I had at that time you know he reminded me I had
+said yes I thought maybe maybe but that certainly would be much more
+it's just this is not really what we were look expecting you know so for sure
+were look expecting you know so for sure but on the other hand this does point to
+but on the other hand this does point to some possibilities the like perhaps
+some possibilities the like perhaps finding other highly symmetrical
+lattices and tilings for example let me just put this out there folks the
+just put this out there folks the truncated octahedron has some nice
+chopped up ways of chopping it up and perhaps recombining some pieces out of
+perhaps recombining some pieces out of that to form some three-dimensional
+that to form some three-dimensional analogues of this thing that might be
+this might point to some future directions
+from my own perspective I mean what was really the original I mean the whole
+idea is original but the what was really different is to use this particular kind
+different is to use this particular kind of lattice I mean those you know
+of lattice I mean those you know triangles and hexagons and things like
+triangles and hexagons and things like that obvious lattices which don't get
+that obvious lattices which don't get you very far
+you very far or squares
+whereas here if there's a richness which which you don't see that's true
+yeah that's one going up a dimension well that's another question yes and no
+well that's another question yes and no I it is I mean we and we have looked
+Myers look way out down the list of those and never found any a periodicity
+and we can say I posteriorate the this kite grid has a little bit more richness
+kite grid has a little bit more richness on the other hand we've looked quite far
+on the other hand we've looked quite far down the list of polykites as well and
+down the list of polykites as well and we haven't found any other aperiodic
+we haven't found any other aperiodic monotones so
+it's obviously more flexible than hexagons or squares because here's the
+hexagons or squares because here's the proof of that but
+in in the limit right it could it is theoretically possible this is just
+theoretically possible this is just purely anomalous we have we have we
+don't know like is there going to be a 50 kite that is also a periodic like if
+50 kite that is also a periodic like if if this was somehow the right space of
+if this was somehow the right space of shapes to Surge I would have hoped to
+shapes to Surge I would have hoped to find another aperiodic monotonial maybe
+find another aperiodic monotonial maybe like a 20 kite or a 21 kite or a 16 kite
+but I can tell you with certainty that they don't exist
+so I I don't know I I want to believe polychics are somehow special but I
+polychics are somehow special but I actually know don't know if that's true
+and maybe we need to look again in a totally different bin of shapes if we're
+totally different bin of shapes if we're going to try to find more monetize so we
+going to try to find more monetize so we actually had a question from the
+actually had a question from the audience
+about this they were asking whether it's possible to carve out more mono tiles
+possible to carve out more mono tiles from other polygons maybe some other
+regular Tidings of the plane so well whoever asks that should get to work I
+whoever asks that should get to work I mean that's the obvious question
+again I see no reason why it shouldn't be true particularly given that the the
+be true particularly given that the the hat is like
+kind of dumb it's just this random blog right like what quoting uh Jim prop uh
+right like what quoting uh Jim prop uh did was it you or Natalie said pointed
+did was it you or Natalie said pointed out like you know mundane and that's how
+out like you know mundane and that's how I described it in the paper it's mundane
+I described it in the paper it's mundane there's you can't look at this shape and
+there's you can't look at this shape and predict the the level of complexity that
+predict the the level of complexity that arises from it yeah
+um yeah I mean yeah if I had shown it to you you're like you know so what right
+it's not special so yeah where should we look right what what other we don't know
+look right what what other we don't know and that's part of the reason why it
+and that's part of the reason why it took so long to find so um uh we should
+took so long to find so um uh we should perhaps move on to a question from the
+perhaps move on to a question from the audience soon but uh let's finish up by
+audience soon but uh let's finish up by asking
+um in your experience what is it that leads to a break for a result what do
+leads to a break for a result what do you have to do to get something amazing
+you have to do to get something amazing done
+done foreign
+the whole trouble is there isn't a rule like that if there was a an easy rule to
+like that if there was a an easy rule to say here's where you make the
+say here's where you make the breakthroughs it wouldn't be a proper
+breakthroughs it wouldn't be a proper breakthrough these are ideas which come
+breakthrough these are ideas which come from who knows where you're not
+from who knows where you're not clearly
+coming out of something people already knew about because that's what we mean
+knew about because that's what we mean by breakthrough after all isn't it
+so I would say no to that one there's nothing yeah well there was something
+as I understand it Dave did do something had an intention and deliberate space in
+had an intention and deliberate space in which he was searching and of course it
+you know nobody a priori could say well this is going to work out but there was
+this is going to work out but there was an idea
+I didn't you know that systematic approach so I don't know what it's worth
+you you I don't I I had no useful advice like you can't
+I I had no useful advice like you can't plan I mean you can you can
+plan I mean you can you can work around the problem
+so that when the inspiration comes you're prepared for it and I think all
+you're prepared for it and I think all of us who worked on this paper were
+of us who worked on this paper were lucky enough to be in that position like
+lucky enough to be in that position like you know
+Joseph and I had both studied writing computer algorithms to classify shapes
+properties we had the right mental and software toolkit so that if someone
+software toolkit so that if someone handed us the shape we could say aha
+okay now I just put it into my my Pipeline and I get an answer at the
+Pipeline and I get an answer at the other end but I mean it came out of
+but as one a member a person was not on that team uh I just want to say that it
+that team uh I just want to say that it was an amazing group and I think that
+was an amazing group and I think that this has had a played a huge role in its
+this has had a played a huge role in its success in finding this and its
+success in finding this and its properties is the fact that the four of
+properties is the fact that the four of you brought such different strengths to
+you brought such different strengths to it and different backgrounds to it and
+not only that you were amazing in Sharing all this with each other and
+Sharing all this with each other and with everybody else and putting things
+with everybody else and putting things online and making them accessible and
+that's a big part of the success too well let me just give credit to Craig
+well let me just give credit to Craig for all of that I mean particularly all
+for all of that I mean particularly all the tools and software and animations
+the tools and software and animations and so forth that are on your website or
+largely is that's fun it's YouTube and it's a H enjoy one day
+it's YouTube and it's a H enjoy one day but it took all four backgrounds and
+but it took all four backgrounds and perspectives to be able to make this
+breakthrough you had to be willing to mess around how many mathematicians will
+mess around how many mathematicians will really spend time doing that just
+really spend time doing that just playing with shapes and looking to see
+playing with shapes and looking to see what happens that's part of it but then
+what happens that's part of it but then also knowing how to computerize and be
+also knowing how to computerize and be able to give yeah it was really
+able to give yeah it was really complementary yes yeah it's kind of
+complementary yes yeah it's kind of magical yeah
+so that's a secret get three collaborators
+yeah make good connections um thank you very much for
+um all of the uh thoughts that you've shared but I think it's time for us to
+shared but I think it's time for us to start uh wrapping up so uh can I just
+start uh wrapping up so uh can I just have a round of applause for the funnel
+have a round of applause for the funnel [Applause]

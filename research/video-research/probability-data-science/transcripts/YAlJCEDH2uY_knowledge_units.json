@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ku_video_YAlJCEDH2uY_3",
+    "t_start": 3.8,
+    "t_end": 97.8,
+    "type": "overview",
+    "summary": "Even if you're not normal, the average the average is normal. Hello, I'm Josh Starmer and welcome to StatQuest. Today we're going to talk StatQuest. Today we're going to talk about the central limit theorem and it's about the central limit theorem and it's going to be clearly explained. Note, for this StatQuest to make any sense at all, you should be familiar sense at all, you should be familiar with the normal distribution. If not, with the normal distribution. If not, check out the normal distribution It would also be helpful if you were familiar with the concept of sampling familiar with…"
+  },
+  {
+    "id": "ku_video_YAlJCEDH2uY_97",
+    "t_start": 97.8,
+    "t_end": 188.8,
+    "type": "overview",
+    "summary": "And on the right, we can draw a histogram of the mean value. Since we only have one mean value, the histogram isn't very interesting. histogram isn't very interesting. But after we collect 10 more samples and collect 10 more means, the histogram starts to look a little Here's the histogram after collecting 20 samples and calculating 20 means. samples and calculating 20 means. 30 means, 50 means, 60 means, 70 means, 80 means, 90 means, 60 means, 70 means, 80 means, 90 means, and 100 means. After adding 100 means to the histogram, it's pretty easy to see that these means it's pretty easy to s…"
+  },
+  {
+    "id": "ku_video_YAlJCEDH2uY_188",
+    "t_start": 188.8,
+    "t_end": 279.4,
+    "type": "overview",
+    "summary": "This time, we'll start with an exponential distribution. Just like before, we can collect 20 random samples from this exponential random samples from this exponential distribution. And just like before, we can calculate the mean of the 20 samples. And lastly, we can draw a histogram of that mean over here on the right. that mean over here on the right. After we collect 10 samples and After we collect 10 samples and calculate 10 means, the histogram starts calculate 10 means, the histogram starts to look a little more interesting. to look a little more interesting. Here's the histogram after…"
+  },
+  {
+    "id": "ku_video_YAlJCEDH2uY_279",
+    "t_start": 279.4,
+    "t_end": 370.2,
+    "type": "overview",
+    "summary": "from an exponential distribution are also normally distributed. Well, it turns out that it doesn't matter what distribution you start with. matter what distribution you start with. If you collect samples from those If you collect samples from those distributions, the means will be normally distributed. Yes, there's a little asterisk here that Yes, there's a little asterisk here that means there's some fine print that will For now, just know it's really fine print and not worth spending too much print and not worth spending too much time worrying about. time worrying about. Double bam! Cool.…"
+  },
+  {
+    "id": "ku_video_YAlJCEDH2uY_370",
+    "t_start": 370.2,
+    "t_end": 451.1,
+    "type": "overview",
+    "summary": "that uses the sample mean. Triple bam! Note, out there in the wild, some folks say that in order for the central limit say that in order for the central limit theorem to be true, the sample size must theorem to be true, the sample size must be at least 30. This is just a rule of thumb and generally considered safe. However, as you can see in the examples here where I use a sample size of 20, here where I use a sample size of 20, the rule was meant to be broken. the rule was meant to be broken. Here's the fine print. In order for the central limit theorem to work at all, you have to be able …"
+  }
+]

@@ -1,0 +1,5382 @@
+[
+  {
+    "t_start": 403.11,
+    "t_end": 404.43,
+    "text": "It's working now. Okay."
+  },
+  {
+    "t_start": 404.43,
+    "t_end": 405.31,
+    "text": "Okay. So,"
+  },
+  {
+    "t_start": 405.31,
+    "t_end": 406.43,
+    "text": "So, um"
+  },
+  {
+    "t_start": 406.43,
+    "t_end": 409.79,
+    "text": "Should we start? Okay."
+  },
+  {
+    "t_start": 409.79,
+    "t_end": 412.27,
+    "text": "Okay. Um"
+  },
+  {
+    "t_start": 412.27,
+    "t_end": 418.91,
+    "text": "Al- Alan Bordin, a university professor at the University"
+  },
+  {
+    "t_start": 418.91,
+    "t_end": 423.11,
+    "text": "university professor at the University of Toronto, will introduce the"
+  },
+  {
+    "t_start": 423.11,
+    "t_end": 424.39,
+    "text": "uh the speaker. Thank you."
+  },
+  {
+    "t_start": 424.39,
+    "t_end": 425.47,
+    "text": "Thank you. Um"
+  },
+  {
+    "t_start": 425.47,
+    "t_end": 431.43,
+    "text": "I don't know. I think I'm more nervous than Avi."
+  },
+  {
+    "t_start": 431.43,
+    "t_end": 432.75,
+    "text": "I think I'm more nervous than Avi. Uh"
+  },
+  {
+    "t_start": 432.75,
+    "t_end": 437.83,
+    "text": "is my uh honor and great pleasure to introduce Avi Wigderson, the recipient"
+  },
+  {
+    "t_start": 437.83,
+    "t_end": 442.27,
+    "text": "introduce Avi Wigderson, the recipient of the 2023 Turing Award."
+  },
+  {
+    "t_start": 442.27,
+    "t_end": 447.47,
+    "text": "Avi's seminal work spans the most fundamental areas of"
+  },
+  {
+    "t_start": 447.47,
+    "t_end": 450.51,
+    "text": "fundamental areas of computer science as well as pure"
+  },
+  {
+    "t_start": 450.51,
+    "t_end": 454.99,
+    "text": "which is not to say that theoretical computer science is impure."
+  },
+  {
+    "t_start": 454.99,
+    "t_end": 459.59,
+    "text": "Avi's work is foundational, for example, with respect to expanders, communication"
+  },
+  {
+    "t_start": 459.59,
+    "t_end": 461.47,
+    "text": "with respect to expanders, communication complexity, proof complexity,"
+  },
+  {
+    "t_start": 461.47,
+    "t_end": 468.11,
+    "text": "zero-knowledge proofs, cryptography, randomness extraction, and perhaps most"
+  },
+  {
+    "t_start": 468.11,
+    "t_end": 473.15,
+    "text": "notably in arithmetic and Boolean complexity theory, and in particular in"
+  },
+  {
+    "t_start": 473.15,
+    "t_end": 477.15,
+    "text": "His work, spanning decades of thought, has given us great evidence that"
+  },
+  {
+    "t_start": 477.15,
+    "t_end": 478.87,
+    "text": "has given us great evidence that polynomial-time algorithms can be"
+  },
+  {
+    "t_start": 478.87,
+    "t_end": 480.43,
+    "text": "polynomial-time algorithms can be derandomized,"
+  },
+  {
+    "t_start": 480.43,
+    "t_end": 483.95,
+    "text": "a result that still seems counterintuitive and against what was"
+  },
+  {
+    "t_start": 483.95,
+    "t_end": 485.87,
+    "text": "counterintuitive and against what was the common wisdom."
+  },
+  {
+    "t_start": 485.87,
+    "t_end": 489.71,
+    "text": "I could ask here who hasn't been motivated by Avi's work in their papers"
+  },
+  {
+    "t_start": 489.71,
+    "t_end": 491.47,
+    "text": "motivated by Avi's work in their papers and courses."
+  },
+  {
+    "t_start": 491.47,
+    "t_end": 494.79,
+    "text": "The Turing Award can be added to Avi also being the recipient of the"
+  },
+  {
+    "t_start": 494.79,
+    "t_end": 497.67,
+    "text": "also being the recipient of the Nevanlinna Prize, and the"
+  },
+  {
+    "t_start": 497.67,
+    "t_end": 503.07,
+    "text": "viewed at the time as the Fields Prize for our field, and the Abel Prize in"
+  },
+  {
+    "t_start": 503.07,
+    "t_end": 505.67,
+    "text": "for our field, and the Abel Prize in mathematics, as many as well as many"
+  },
+  {
+    "t_start": 505.67,
+    "t_end": 511.59,
+    "text": "other deserved awards. And Avi is the first person to win both the Abel Prize"
+  },
+  {
+    "t_start": 511.59,
+    "t_end": 514.23,
+    "text": "first person to win both the Abel Prize and the Turing Award."
+  },
+  {
+    "t_start": 514.23,
+    "t_end": 518.23,
+    "text": "Perhaps as important as his research is Avi's role as a leader"
+  },
+  {
+    "t_start": 518.23,
+    "t_end": 520.07,
+    "text": "Avi's role as a leader of our community, and especially his"
+  },
+  {
+    "t_start": 520.07,
+    "t_end": 524.79,
+    "text": "of our community, and especially his mentoring of young men and not-so-young"
+  },
+  {
+    "t_start": 524.79,
+    "t_end": 527.71,
+    "text": "Good chance that Avi has written a letter for many here for a faculty"
+  },
+  {
+    "t_start": 527.71,
+    "t_end": 530.27,
+    "text": "letter for many here for a faculty position or a promotion or an award or"
+  },
+  {
+    "t_start": 530.27,
+    "t_end": 532.07,
+    "text": "position or a promotion or an award or maybe all three."
+  },
+  {
+    "t_start": 532.07,
+    "t_end": 535.95,
+    "text": "If you're in theoretical computer science, good probability Avi has been"
+  },
+  {
+    "t_start": 535.95,
+    "t_end": 539.71,
+    "text": "science, good probability Avi has been asked to write a letter for you, but"
+  },
+  {
+    "t_start": 539.71,
+    "t_end": 542.11,
+    "text": "this isn't a random process. Everybody wants Avi's opinion."
+  },
+  {
+    "t_start": 542.11,
+    "t_end": 546.11,
+    "text": "Everybody wants Avi's opinion. My wife and I have known Avi and Edna"
+  },
+  {
+    "t_start": 546.11,
+    "t_end": 547.95,
+    "text": "for over 40 years. Their generosity"
+  },
+  {
+    "t_start": 547.95,
+    "t_end": 553.79,
+    "text": "and personally and their hospitality in Princeton or Israel is extraordinary."
+  },
+  {
+    "t_start": 553.79,
+    "t_end": 557.15,
+    "text": "Avi and Edna have a wonderful family with three great children doing their"
+  },
+  {
+    "t_start": 557.15,
+    "t_end": 559.95,
+    "text": "with three great children doing their own things. Eyal, a winemaker, Edna, a"
+  },
+  {
+    "t_start": 559.95,
+    "t_end": 561.83,
+    "text": "own things. Eyal, a winemaker, Edna, a trauma counselor, and Yuval, a"
+  },
+  {
+    "t_start": 561.83,
+    "t_end": 563.39,
+    "text": "trauma counselor, and Yuval, a mathematician,"
+  },
+  {
+    "t_start": 563.39,
+    "t_end": 568.67,
+    "text": "with whom Avi has three publications. Glad Edna and her husband can be here"
+  },
+  {
+    "t_start": 568.67,
+    "t_end": 570.59,
+    "text": "Glad Edna and her husband can be here today."
+  },
+  {
+    "t_start": 570.59,
+    "t_end": 573.79,
+    "text": "Let me write just one personal experience about Avi."
+  },
+  {
+    "t_start": 573.79,
+    "t_end": 579.47,
+    "text": "Avi spent a summer visiting Toronto, and we once and we once went to a water"
+  },
+  {
+    "t_start": 579.47,
+    "t_end": 584.51,
+    "text": "Those who know Avi's older son, Eyal, know that he does things most of us"
+  },
+  {
+    "t_start": 584.51,
+    "t_end": 586.03,
+    "text": "wouldn't even try thinking of."
+  },
+  {
+    "t_start": 586.03,
+    "t_end": 590.55,
+    "text": "There was a very high, steep slide at the park, and of course Eyal, then 7"
+  },
+  {
+    "t_start": 590.55,
+    "t_end": 592.63,
+    "text": "the park, and of course Eyal, then 7 years old, did that slide a couple of"
+  },
+  {
+    "t_start": 592.63,
+    "t_end": 594.95,
+    "text": "years old, did that slide a couple of times encouraging Avi to do it. Now,"
+  },
+  {
+    "t_start": 594.95,
+    "t_end": 596.99,
+    "text": "times encouraging Avi to do it. Now, this is one of those slides, you know,"
+  },
+  {
+    "t_start": 596.99,
+    "t_end": 597.91,
+    "text": "this is one of those slides, you know, it's"
+  },
+  {
+    "t_start": 597.91,
+    "t_end": 601.35,
+    "text": "you climb and as you take off you leave the slide."
+  },
+  {
+    "t_start": 601.35,
+    "t_end": 605.51,
+    "text": "And it feels like it's probably only a second, but it feels like eternity."
+  },
+  {
+    "t_start": 605.51,
+    "t_end": 610.39,
+    "text": "And I I don't know if Avi would really want to do this slide, but finally guilt"
+  },
+  {
+    "t_start": 610.39,
+    "t_end": 613.03,
+    "text": "want to do this slide, but finally guilt or loyalty, you you choose which it he"
+  },
+  {
+    "t_start": 613.03,
+    "t_end": 616.99,
+    "text": "or loyalty, you you choose which it he made this he did the slide and I and he"
+  },
+  {
+    "t_start": 616.99,
+    "t_end": 618.87,
+    "text": "survived. Um"
+  },
+  {
+    "t_start": 618.87,
+    "t_end": 624.11,
+    "text": "And perhaps that is so that is why he is so willing to take risks in his research"
+  },
+  {
+    "t_start": 624.11,
+    "t_end": 626.07,
+    "text": "so willing to take risks in his research working on the most foundational"
+  },
+  {
+    "t_start": 626.07,
+    "t_end": 628.23,
+    "text": "working on the most foundational problems in computer science."
+  },
+  {
+    "t_start": 628.23,
+    "t_end": 656.83,
+    "text": "Please welcome the recipient of the 2023 Turing Award, Professor Avi Wigderson."
+  },
+  {
+    "t_start": 658.99,
+    "t_end": 660.87,
+    "text": "Thank you. Uh thanks Alan for this introduction. I'm really glad to be"
+  },
+  {
+    "t_start": 660.87,
+    "t_end": 662.11,
+    "text": "introduction. I'm really glad to be here."
+  },
+  {
+    "t_start": 662.11,
+    "t_end": 666.43,
+    "text": "STOC is really my home community. I've been coming here since"
+  },
+  {
+    "t_start": 666.43,
+    "t_end": 669.35,
+    "text": "community. I've been coming here since 1980s, STOC and FOCS conferences, maybe"
+  },
+  {
+    "t_start": 669.35,
+    "t_end": 671.63,
+    "text": "1980s, STOC and FOCS conferences, maybe not as long as Alan did,"
+  },
+  {
+    "t_start": 671.63,
+    "t_end": 674.63,
+    "text": "not as long as Alan did, but probably more longer than most of"
+  },
+  {
+    "t_start": 674.63,
+    "t_end": 681.75,
+    "text": "to give this lecture. I want to tell you about my experience in the last 6 weeks"
+  },
+  {
+    "t_start": 681.75,
+    "t_end": 684.67,
+    "text": "about my experience in the last 6 weeks preparing this talk. Uh"
+  },
+  {
+    "t_start": 684.67,
+    "t_end": 690.31,
+    "text": "so there's a brilliant idea. You know, what do you talk about for the"
+  },
+  {
+    "t_start": 690.31,
+    "t_end": 694.99,
+    "text": "why not talk about Alan Turing? And you know, as as many of you maybe I thought"
+  },
+  {
+    "t_start": 694.99,
+    "t_end": 699.23,
+    "text": "know, as as many of you maybe I thought I you know, I learned about him. I heard"
+  },
+  {
+    "t_start": 699.23,
+    "t_end": 703.35,
+    "text": "and I know a lot and then I started reading and I discovered how much I"
+  },
+  {
+    "t_start": 703.35,
+    "t_end": 706.95,
+    "text": "reading and I discovered how much I don't know. And I'll share with you some"
+  },
+  {
+    "t_start": 706.95,
+    "t_end": 709.829,
+    "text": "of this. Um"
+  },
+  {
+    "t_start": 711.91,
+    "t_end": 713.43,
+    "text": "I I will not talk about his personal life at all."
+  },
+  {
+    "t_start": 713.43,
+    "t_end": 716.43,
+    "text": "life at all. Uh there's a lot to say. It's a short"
+  },
+  {
+    "t_start": 716.43,
+    "t_end": 719.51,
+    "text": "tragic and and"
+  },
+  {
+    "t_start": 719.51,
+    "t_end": 726.67,
+    "text": "I will just talk about professional matters. This is more or less his uh"
+  },
+  {
+    "t_start": 726.67,
+    "t_end": 732.59,
+    "text": "CV where he spent time. I'll tell you about only one or two papers from each"
+  },
+  {
+    "t_start": 732.59,
+    "t_end": 735.15,
+    "text": "about only one or two papers from each period and I will tell you about you"
+  },
+  {
+    "t_start": 735.15,
+    "t_end": 742.63,
+    "text": "reading it about what did our community do with these ideas? He had profound"
+  },
+  {
+    "t_start": 742.63,
+    "t_end": 745.75,
+    "text": "do with these ideas? He had profound ideas on many subjects. Amazingly many"
+  },
+  {
+    "t_start": 745.75,
+    "t_end": 749.71,
+    "text": "ideas on many subjects. Amazingly many subjects. You'll see some of this"
+  },
+  {
+    "t_start": 749.71,
+    "t_end": 755.75,
+    "text": "yeah, I think he would have loved to see what we are doing."
+  },
+  {
+    "t_start": 755.75,
+    "t_end": 756.91,
+    "text": "what we are doing. And"
+  },
+  {
+    "t_start": 756.91,
+    "t_end": 760.23,
+    "text": "we obviously are inspired by what he was doing."
+  },
+  {
+    "t_start": 760.23,
+    "t_end": 761.39,
+    "text": "doing. Uh"
+  },
+  {
+    "t_start": 761.39,
+    "t_end": 768.71,
+    "text": "wouldn't I could have talked an hour, 3 hours, 5 hours about what I read. I'll"
+  },
+  {
+    "t_start": 768.71,
+    "t_end": 770.87,
+    "text": "hours, 5 hours about what I read. I'll just have an hour. I will not mention"
+  },
+  {
+    "t_start": 770.87,
+    "t_end": 773.07,
+    "text": "just have an hour. I will not mention anything practical like his work on"
+  },
+  {
+    "t_start": 773.07,
+    "t_end": 775.07,
+    "text": "anything practical like his work on building computers or computer"
+  },
+  {
+    "t_start": 775.07,
+    "t_end": 776.51,
+    "text": "building computers or computer evolution."
+  },
+  {
+    "t_start": 776.51,
+    "t_end": 780.23,
+    "text": "About his work on programming and programming practice which is"
+  },
+  {
+    "t_start": 780.23,
+    "t_end": 782.79,
+    "text": "programming practice which is you know, it's really amazing how much"
+  },
+  {
+    "t_start": 782.79,
+    "t_end": 787.39,
+    "text": "and wrote about this. His work on the central limit theorem as an undergrad,"
+  },
+  {
+    "t_start": 787.39,
+    "t_end": 790.19,
+    "text": "central limit theorem as an undergrad, his work on numerical analysis inventing"
+  },
+  {
+    "t_start": 790.19,
+    "t_end": 792.67,
+    "text": "his work on numerical analysis inventing LU decomposition, condition number. You"
+  },
+  {
+    "t_start": 792.67,
+    "t_end": 794.39,
+    "text": "LU decomposition, condition number. You may have not known that."
+  },
+  {
+    "t_start": 794.39,
+    "t_end": 796.87,
+    "text": "may have not known that. His work on encryption, on programming"
+  },
+  {
+    "t_start": 796.87,
+    "t_end": 798.07,
+    "text": "His work on encryption, on programming chess,"
+  },
+  {
+    "t_start": 798.07,
+    "t_end": 804.23,
+    "text": "uh on the Riemann hypothesis which he was obsessed with. You can ask me at the"
+  },
+  {
+    "t_start": 804.23,
+    "t_end": 808.59,
+    "text": "I will not mention this because I don't have time. So let me start."
+  },
+  {
+    "t_start": 808.59,
+    "t_end": 811.59,
+    "text": "have time. So let me start. Uh the first period is his"
+  },
+  {
+    "t_start": 811.59,
+    "t_end": 814.43,
+    "text": "Uh the first period is his time in Cambridge and"
+  },
+  {
+    "t_start": 814.43,
+    "t_end": 818.95,
+    "text": "here I want to talk about the obvious uh candidate, probably the paper I'll"
+  },
+  {
+    "t_start": 818.95,
+    "t_end": 820.67,
+    "text": "uh candidate, probably the paper I'll talk about longest even though you"
+  },
+  {
+    "t_start": 820.67,
+    "t_end": 821.99,
+    "text": "talk about longest even though you probably know"
+  },
+  {
+    "t_start": 821.99,
+    "t_end": 825.829,
+    "text": "uh most about on computable numbers with an application to the"
+  },
+  {
+    "t_start": 825.829,
+    "t_end": 827.43,
+    "text": "an application to the Entscheidungsproblem."
+  },
+  {
+    "t_start": 827.43,
+    "t_end": 835.15,
+    "text": "Probably the most paper with the largest influence ever on the world."
+  },
+  {
+    "t_start": 838.829,
+    "t_end": 844.27,
+    "text": "uh by Max Newman, a topologist was interested in foundations on Hilbert's"
+  },
+  {
+    "t_start": 844.27,
+    "t_end": 848.63,
+    "text": "uh you know, work on foundations of mathematics and he was describing to the"
+  },
+  {
+    "t_start": 848.63,
+    "t_end": 852.03,
+    "text": "mathematics and he was describing to the students Hilbert's dream basically of"
+  },
+  {
+    "t_start": 852.03,
+    "t_end": 855.19,
+    "text": "students Hilbert's dream basically of having firm foundations for math."
+  },
+  {
+    "t_start": 855.19,
+    "t_end": 861.39,
+    "text": "So you want to take a theory and prove that it is really a foundation. So you"
+  },
+  {
+    "t_start": 861.39,
+    "t_end": 863.67,
+    "text": "that it is really a foundation. So you want to say that it's complete, anything"
+  },
+  {
+    "t_start": 863.67,
+    "t_end": 865.75,
+    "text": "want to say that it's complete, anything that's provable it proves"
+  },
+  {
+    "t_start": 865.75,
+    "t_end": 867.91,
+    "text": "that's provable it proves it's consistent, no contradictions,"
+  },
+  {
+    "t_start": 867.91,
+    "t_end": 872.63,
+    "text": "it's consistent, no contradictions, otherwise one will be trivial."
+  },
+  {
+    "t_start": 872.63,
+    "t_end": 875.069,
+    "text": "And that if something is provable, there's a mechanical procedure"
+  },
+  {
+    "t_start": 875.069,
+    "t_end": 878.79,
+    "text": "there's a mechanical procedure that's his word in German though"
+  },
+  {
+    "t_start": 878.79,
+    "t_end": 883.99,
+    "text": "uh to to generate a proof. Of course, as we all know, Gödel killed"
+  },
+  {
+    "t_start": 883.99,
+    "t_end": 885.59,
+    "text": "Of course, as we all know, Gödel killed the first two"
+  },
+  {
+    "t_start": 885.59,
+    "t_end": 887.03,
+    "text": "the first two and"
+  },
+  {
+    "t_start": 887.03,
+    "t_end": 891.069,
+    "text": "Turing in this paper killed the third one. That's the Entscheidungsproblem,"
+  },
+  {
+    "t_start": 891.069,
+    "t_end": 895.55,
+    "text": "one. That's the Entscheidungsproblem, the decision problem. He proved that you"
+  },
+  {
+    "t_start": 895.55,
+    "t_end": 902.069,
+    "text": "So he killed Hilbert's dream completely, that was the last nail. But you know, he"
+  },
+  {
+    "t_start": 902.069,
+    "t_end": 904.75,
+    "text": "that was the last nail. But you know, he came to Max Newman with his paper after"
+  },
+  {
+    "t_start": 904.75,
+    "t_end": 906.15,
+    "text": "came to Max Newman with his paper after he wrote it"
+  },
+  {
+    "t_start": 906.15,
+    "t_end": 908.31,
+    "text": "he wrote it and uh"
+  },
+  {
+    "t_start": 908.31,
+    "t_end": 913.51,
+    "text": "Max Newman just got you know, a few weeks before got a letter from Alonzo"
+  },
+  {
+    "t_start": 913.51,
+    "t_end": 916.67,
+    "text": "weeks before got a letter from Alonzo Church in Princeton with a paper proving"
+  },
+  {
+    "t_start": 916.67,
+    "t_end": 918.27,
+    "text": "Church in Princeton with a paper proving the same result,"
+  },
+  {
+    "t_start": 918.27,
+    "t_end": 926.47,
+    "text": "And as a good mentor, he was a good mentor to Turing throughout his life. Uh"
+  },
+  {
+    "t_start": 926.47,
+    "t_end": 931.31,
+    "text": "mentor to Turing throughout his life. Uh He did two things. First of all, he was"
+  },
+  {
+    "t_start": 931.31,
+    "t_end": 932.59,
+    "text": "the editor of the London Math Society that uh"
+  },
+  {
+    "t_start": 932.59,
+    "t_end": 937.39,
+    "text": "you know, yes, this result is known already, but there's a completely"
+  },
+  {
+    "t_start": 937.39,
+    "t_end": 940.91,
+    "text": "already, but there's a completely different proof here and we need to"
+  },
+  {
+    "t_start": 940.91,
+    "t_end": 945.11,
+    "text": "And he also told Alonzo Church sending him Turing's paper"
+  },
+  {
+    "t_start": 945.11,
+    "t_end": 950.59,
+    "text": "uh advocating Turing's point of view and also knowing that Princeton at the time"
+  },
+  {
+    "t_start": 950.59,
+    "t_end": 955.55,
+    "text": "also knowing that Princeton at the time was the hub of this you know, logic"
+  },
+  {
+    "t_start": 955.55,
+    "t_end": 959.27,
+    "text": "foundations work, uh he asked him to take Turing as a"
+  },
+  {
+    "t_start": 959.27,
+    "t_end": 960.39,
+    "text": "graduate student, which"
+  },
+  {
+    "t_start": 960.39,
+    "t_end": 964.11,
+    "text": "which is what Turing wanted."
+  },
+  {
+    "t_start": 964.11,
+    "t_end": 968.43,
+    "text": "The main question that Turing and anybody working on this has to ask"
+  },
+  {
+    "t_start": 968.43,
+    "t_end": 970.63,
+    "text": "anybody working on this has to ask themselves is what is computation? What"
+  },
+  {
+    "t_start": 970.63,
+    "t_end": 973.19,
+    "text": "themselves is what is computation? What is a mechanical procedure?"
+  },
+  {
+    "t_start": 973.19,
+    "t_end": 977.949,
+    "text": "So this is a question and it's you know, almost you know, it's hard to"
+  },
+  {
+    "t_start": 977.949,
+    "t_end": 980.51,
+    "text": "you know, almost you know, it's hard to think of something more fundamental more"
+  },
+  {
+    "t_start": 980.51,
+    "t_end": 982.15,
+    "text": "think of something more fundamental more fundamental."
+  },
+  {
+    "t_start": 982.15,
+    "t_end": 983.71,
+    "text": "fundamental. Uh"
+  },
+  {
+    "t_start": 983.71,
+    "t_end": 991.99,
+    "text": "mean? And people suggested things. Naturally, Gödel and Herbrand and others"
+  },
+  {
+    "t_start": 991.99,
+    "t_end": 995.23,
+    "text": "Naturally, Gödel and Herbrand and others suggested notion of recursive functions."
+  },
+  {
+    "t_start": 995.23,
+    "t_end": 995.829,
+    "text": "suggested notion of recursive functions. Uh"
+  },
+  {
+    "t_start": 995.829,
+    "t_end": 1000.55,
+    "text": "Church developed this lambda calculus uh from the early '30s"
+  },
+  {
+    "t_start": 1000.55,
+    "t_end": 1001.75,
+    "text": "uh from the early '30s and"
+  },
+  {
+    "t_start": 1001.75,
+    "t_end": 1006.79,
+    "text": "uh as capturing computation. And Turing, as we all know, came up with something"
+  },
+  {
+    "t_start": 1006.79,
+    "t_end": 1008.67,
+    "text": "as we all know, came up with something completely different, completely"
+  },
+  {
+    "t_start": 1008.67,
+    "t_end": 1013.15,
+    "text": "completely different, completely elementary, amazingly beautiful,"
+  },
+  {
+    "t_start": 1013.15,
+    "t_end": 1017.829,
+    "text": "it is remarkable that you know, just as this came out, both Church and Gödel"
+  },
+  {
+    "t_start": 1017.829,
+    "t_end": 1018.949,
+    "text": "this came out, both Church and Gödel said"
+  },
+  {
+    "t_start": 1018.949,
+    "t_end": 1024.99,
+    "text": "Turing's model is the right model. They immediately recognized it as the"
+  },
+  {
+    "t_start": 1024.99,
+    "t_end": 1026.949,
+    "text": "They immediately recognized it as the most natural thing capturing"
+  },
+  {
+    "t_start": 1026.949,
+    "t_end": 1028.59,
+    "text": "most natural thing capturing computation."
+  },
+  {
+    "t_start": 1028.59,
+    "t_end": 1029.87,
+    "text": "computation. Uh"
+  },
+  {
+    "t_start": 1029.87,
+    "t_end": 1035.71,
+    "text": "And they actually Church was the person who named it a Turing machine. It's"
+  },
+  {
+    "t_start": 1035.71,
+    "t_end": 1038.27,
+    "text": "who named it a Turing machine. It's really a classic STOC paper. It"
+  },
+  {
+    "t_start": 1038.27,
+    "t_end": 1041.15,
+    "text": "really a classic STOC paper. It introduces a completely new model. And"
+  },
+  {
+    "t_start": 1041.15,
+    "t_end": 1045.71,
+    "text": "now you have to argue that it does what it should, it captures computation. And"
+  },
+  {
+    "t_start": 1045.71,
+    "t_end": 1050.27,
+    "text": "it should, it captures computation. And Turing, like in many other papers, goes"
+  },
+  {
+    "t_start": 1050.27,
+    "t_end": 1055.03,
+    "text": "to the length of explaining this in every possible way. First of all, so you"
+  },
+  {
+    "t_start": 1055.03,
+    "t_end": 1059.19,
+    "text": "want to argue that this captures anything that is computable in any way."
+  },
+  {
+    "t_start": 1059.19,
+    "t_end": 1063.11,
+    "text": "and he says I'll give you three different reasons, different kinds of"
+  },
+  {
+    "t_start": 1063.11,
+    "t_end": 1065.11,
+    "text": "different reasons, different kinds of reasons. One"
+  },
+  {
+    "t_start": 1065.11,
+    "t_end": 1071.55,
+    "text": "is that it emulates the way computers work. Well, computer was the name of a"
+  },
+  {
+    "t_start": 1071.55,
+    "t_end": 1074.47,
+    "text": "work. Well, computer was the name of a profession, of a human profession, of"
+  },
+  {
+    "t_start": 1074.47,
+    "t_end": 1077.91,
+    "text": "profession, of a human profession, of somebody who does these calculations,"
+  },
+  {
+    "t_start": 1077.91,
+    "t_end": 1078.59,
+    "text": "mainly women. Uh"
+  },
+  {
+    "t_start": 1078.59,
+    "t_end": 1084.55,
+    "text": "and he just that's the reason he thought of this. That's he said that's how we"
+  },
+  {
+    "t_start": 1084.55,
+    "t_end": 1086.03,
+    "text": "calculate, maybe on a sheet of paper with squares"
+  },
+  {
+    "t_start": 1086.03,
+    "t_end": 1089.55,
+    "text": "and he makes it one-dimensional. Well, you know the whole story. That's one"
+  },
+  {
+    "t_start": 1089.55,
+    "t_end": 1090.87,
+    "text": "you know the whole story. That's one explanation."
+  },
+  {
+    "t_start": 1090.87,
+    "t_end": 1094.27,
+    "text": "explanation. Second is let me show you how to"
+  },
+  {
+    "t_start": 1094.27,
+    "t_end": 1100.55,
+    "text": "you know, any number, any infinite reel which is like a Boolean function,"
+  },
+  {
+    "t_start": 1100.55,
+    "t_end": 1105.59,
+    "text": "uh pi, e, many other, you know, Bessel functions, all sorts of uh since he"
+  },
+  {
+    "t_start": 1105.59,
+    "t_end": 1107.35,
+    "text": "functions, all sorts of uh since he gives programs for them."
+  },
+  {
+    "t_start": 1107.35,
+    "t_end": 1112.47,
+    "text": "And the third, once he knew that Church proved, you know, undecidability using a"
+  },
+  {
+    "t_start": 1112.47,
+    "t_end": 1114.63,
+    "text": "proved, you know, undecidability using a different framework, he showed that this"
+  },
+  {
+    "t_start": 1114.63,
+    "t_end": 1117.149,
+    "text": "different framework, he showed that this is equivalent. In fact, it's equivalent"
+  },
+  {
+    "t_start": 1117.149,
+    "t_end": 1123.87,
+    "text": "also to Gödel's model. So as we like, a model is good if it's equivalent to very"
+  },
+  {
+    "t_start": 1123.87,
+    "t_end": 1127.63,
+    "text": "model is good if it's equivalent to very different manifestations of it."
+  },
+  {
+    "t_start": 1129.35,
+    "t_end": 1134.79,
+    "text": "field. This is where, you know, we have a mathematical model of a computer. So"
+  },
+  {
+    "t_start": 1134.79,
+    "t_end": 1138.07,
+    "text": "a mathematical model of a computer. So we can do math."
+  },
+  {
+    "t_start": 1139.79,
+    "t_end": 1145.83,
+    "text": "complexity theory is already embedded in this model because there is a definite"
+  },
+  {
+    "t_start": 1145.83,
+    "t_end": 1147.31,
+    "text": "this model because there is a definite mathematical"
+  },
+  {
+    "t_start": 1147.31,
+    "t_end": 1153.71,
+    "text": "precise notion of a unit of time and of a unit of space. And so we can define"
+  },
+  {
+    "t_start": 1153.71,
+    "t_end": 1156.31,
+    "text": "a unit of space. And so we can define these classes as Hartmanis and Stearns"
+  },
+  {
+    "t_start": 1156.31,
+    "t_end": 1157.31,
+    "text": "these classes as Hartmanis and Stearns did."
+  },
+  {
+    "t_start": 1157.31,
+    "t_end": 1162.669,
+    "text": "Uh time classes, space we can count exactly how much an algorithm spends and"
+  },
+  {
+    "t_start": 1162.669,
+    "t_end": 1165.55,
+    "text": "exactly how much an algorithm spends and of course, these were just the"
+  },
+  {
+    "t_start": 1165.55,
+    "t_end": 1168.19,
+    "text": "of course, these were just the first complexity classes and since then"
+  },
+  {
+    "t_start": 1168.19,
+    "t_end": 1170.11,
+    "text": "first complexity classes and since then we have a zoo of them"
+  },
+  {
+    "t_start": 1170.11,
+    "t_end": 1173.19,
+    "text": "we have a zoo of them that Scott started maintaining about 20"
+  },
+  {
+    "t_start": 1173.19,
+    "t_end": 1176.71,
+    "text": "that Scott started maintaining about 20 years ago."
+  },
+  {
+    "t_start": 1180.31,
+    "t_end": 1183.23,
+    "text": "The main result is uh undecidability result. So what he shows"
+  },
+  {
+    "t_start": 1183.23,
+    "t_end": 1186.19,
+    "text": "undecidability result. So what he shows is that you all know and learn in"
+  },
+  {
+    "t_start": 1186.19,
+    "t_end": 1190.55,
+    "text": "classes that no algorithm can solve the halting problem,"
+  },
+  {
+    "t_start": 1190.55,
+    "t_end": 1192.03,
+    "text": "halting problem, which in"
+  },
+  {
+    "t_start": 1192.03,
+    "t_end": 1197.67,
+    "text": "plain language to any personal programs means that you cannot"
+  },
+  {
+    "t_start": 1197.67,
+    "t_end": 1199.19,
+    "text": "personal programs means that you cannot debug."
+  },
+  {
+    "t_start": 1199.19,
+    "t_end": 1204.47,
+    "text": "There's no way to always debug computer programs automatically debugging."
+  },
+  {
+    "t_start": 1204.47,
+    "t_end": 1209.39,
+    "text": "Which I love the way that Christos Papadimitriou explained this. He says"
+  },
+  {
+    "t_start": 1209.39,
+    "t_end": 1214.23,
+    "text": "Papadimitriou explained this. He says that computer science was born here and"
+  },
+  {
+    "t_start": 1214.23,
+    "t_end": 1216.43,
+    "text": "it was born already aware of its limitations. Computers cannot solve"
+  },
+  {
+    "t_start": 1216.43,
+    "t_end": 1223.23,
+    "text": "problem of the field cannot be solved by computers. As opposed to let's say"
+  },
+  {
+    "t_start": 1223.23,
+    "t_end": 1226.91,
+    "text": "computers. As opposed to let's say physics which was born and then several"
+  },
+  {
+    "t_start": 1226.91,
+    "t_end": 1229.43,
+    "text": "physics which was born and then several thousands years later they discovered"
+  },
+  {
+    "t_start": 1229.43,
+    "t_end": 1232.27,
+    "text": "thousands years later they discovered uncertainty principle or the second law"
+  },
+  {
+    "t_start": 1232.27,
+    "t_end": 1234.43,
+    "text": "uncertainty principle or the second law of thermodynamics. They had to discover"
+  },
+  {
+    "t_start": 1234.43,
+    "t_end": 1236.11,
+    "text": "of thermodynamics. They had to discover quantum mechanics"
+  },
+  {
+    "t_start": 1236.11,
+    "t_end": 1238.91,
+    "text": "quantum mechanics other limitations."
+  },
+  {
+    "t_start": 1238.91,
+    "t_end": 1243.43,
+    "text": "Uh it's hard to underestimate and it's not stressed enough I think in the"
+  },
+  {
+    "t_start": 1243.43,
+    "t_end": 1244.75,
+    "text": "not stressed enough I think in the courses"
+  },
+  {
+    "t_start": 1244.75,
+    "t_end": 1249.59,
+    "text": "what impact it has on mathematics. Mathematics was always computational. I"
+  },
+  {
+    "t_start": 1249.59,
+    "t_end": 1255.15,
+    "text": "Mathematics was always computational. I always maintain this. Mathematicians are"
+  },
+  {
+    "t_start": 1255.15,
+    "t_end": 1259.15,
+    "text": "computer scientists from Euclid on. Uh but this has an amazing effect"
+  },
+  {
+    "t_start": 1259.15,
+    "t_end": 1259.91,
+    "text": "because uh"
+  },
+  {
+    "t_start": 1259.91,
+    "t_end": 1264.95,
+    "text": "it offers a way to say when can you understand a mathematical problem? Can"
+  },
+  {
+    "t_start": 1264.95,
+    "t_end": 1270.11,
+    "text": "understand a mathematical problem? Can you prove theorems in this theory? Basic"
+  },
+  {
+    "t_start": 1270.11,
+    "t_end": 1274.51,
+    "text": "theorems in this theory. Hilbert believed everything can but now"
+  },
+  {
+    "t_start": 1274.51,
+    "t_end": 1279.59,
+    "text": "So people started doing algorithms. These are decidability proofs. Some"
+  },
+  {
+    "t_start": 1279.59,
+    "t_end": 1282.63,
+    "text": "These are decidability proofs. Some problems and some basic problems are,"
+  },
+  {
+    "t_start": 1282.63,
+    "t_end": 1285.23,
+    "text": "problems and some basic problems are, you know, decidable. For example, Tarski"
+  },
+  {
+    "t_start": 1285.23,
+    "t_end": 1290.07,
+    "text": "you know, decidable. For example, Tarski developed uh you know, his quantifier"
+  },
+  {
+    "t_start": 1290.07,
+    "t_end": 1295.15,
+    "text": "structure in mathematics in order to prove decidability results like the"
+  },
+  {
+    "t_start": 1295.15,
+    "t_end": 1300.31,
+    "text": "first order theory of the reals. Tarski developed quantifier elimination,"
+  },
+  {
+    "t_start": 1300.31,
+    "t_end": 1304.99,
+    "text": "Tarski developed quantifier elimination, very basic technique. Haken developed"
+  },
+  {
+    "t_start": 1304.99,
+    "t_end": 1306.31,
+    "text": "the theory of normal surfaces in order to prove that"
+  },
+  {
+    "t_start": 1306.31,
+    "t_end": 1312.19,
+    "text": "uh deciding unknottedness of knots is decidable. On the other hand"
+  },
+  {
+    "t_start": 1312.19,
+    "t_end": 1316.43,
+    "text": "other people, starting with Turing actually, went to show that basic"
+  },
+  {
+    "t_start": 1316.43,
+    "t_end": 1318.99,
+    "text": "actually, went to show that basic problems in math are undecidable, having"
+  },
+  {
+    "t_start": 1318.99,
+    "t_end": 1321.27,
+    "text": "problems in math are undecidable, having having nothing to do with computation."
+  },
+  {
+    "t_start": 1321.27,
+    "t_end": 1323.11,
+    "text": "having nothing to do with computation. These are word problems starting with"
+  },
+  {
+    "t_start": 1323.11,
+    "t_end": 1325.59,
+    "text": "These are word problems starting with semigroups and then uh"
+  },
+  {
+    "t_start": 1325.59,
+    "t_end": 1327.43,
+    "text": "semigroups and then uh famously in groups."
+  },
+  {
+    "t_start": 1327.43,
+    "t_end": 1333.47,
+    "text": "And in the '70s this took quite a bit uh because there are the reductions to"
+  },
+  {
+    "t_start": 1333.47,
+    "t_end": 1335.03,
+    "text": "uh because there are the reductions to the halting problem are more"
+  },
+  {
+    "t_start": 1335.03,
+    "t_end": 1337.95,
+    "text": "the halting problem are more sophisticated. Matiyasevich proved that"
+  },
+  {
+    "t_start": 1337.95,
+    "t_end": 1343.59,
+    "text": "sophisticated. Matiyasevich proved that the polynomial equations cannot be"
+  },
+  {
+    "t_start": 1346.11,
+    "t_end": 1346.99,
+    "text": "The technique that Hilbert that"
+  },
+  {
+    "t_start": 1346.99,
+    "t_end": 1352.95,
+    "text": "Turing developed is something we, you know, could immediately use. Of course"
+  },
+  {
+    "t_start": 1352.95,
+    "t_end": 1358.27,
+    "text": "know, could immediately use. Of course uh in the paper we have the notion that"
+  },
+  {
+    "t_start": 1358.27,
+    "t_end": 1360.47,
+    "text": "program is data and therefore we can treat programs as input to other"
+  },
+  {
+    "t_start": 1360.47,
+    "t_end": 1362.91,
+    "text": "treat programs as input to other programs and therefore we can"
+  },
+  {
+    "t_start": 1362.91,
+    "t_end": 1370.03,
+    "text": "diagonalize. This is a proof technique and while he uses it for undecidability"
+  },
+  {
+    "t_start": 1370.03,
+    "t_end": 1372.43,
+    "text": "and while he uses it for undecidability he stresses that this simulation is"
+  },
+  {
+    "t_start": 1372.43,
+    "t_end": 1377.59,
+    "text": "efficient. He says that to run a program on a universal machine doesn't take much"
+  },
+  {
+    "t_start": 1377.59,
+    "t_end": 1380.03,
+    "text": "on a universal machine doesn't take much longer than it takes on, you know, to"
+  },
+  {
+    "t_start": 1380.03,
+    "t_end": 1381.43,
+    "text": "longer than it takes on, you know, to run on its own."
+  },
+  {
+    "t_start": 1381.43,
+    "t_end": 1388.11,
+    "text": "So this was again taken in many instances to prove the time hierarchy"
+  },
+  {
+    "t_start": 1388.11,
+    "t_end": 1391.31,
+    "text": "instances to prove the time hierarchy theorem. More time buys you more"
+  },
+  {
+    "t_start": 1391.31,
+    "t_end": 1397.15,
+    "text": "functions you can compute. More space buys you more functions you can compute."
+  },
+  {
+    "t_start": 1397.15,
+    "t_end": 1402.63,
+    "text": "And then this was extended with more sophistication like to non-deterministic"
+  },
+  {
+    "t_start": 1402.63,
+    "t_end": 1407.23,
+    "text": "time hierarchy of Cook and to a result that I don't know how many people in the"
+  },
+  {
+    "t_start": 1407.23,
+    "t_end": 1408.35,
+    "text": "that I don't know how many people in the audience"
+  },
+  {
+    "t_start": 1408.35,
+    "t_end": 1408.91,
+    "text": "audience uh"
+  },
+  {
+    "t_start": 1408.91,
+    "t_end": 1414.75,
+    "text": "are aware of but to a linear time version of the P versus NP question. In"
+  },
+  {
+    "t_start": 1414.75,
+    "t_end": 1417.79,
+    "text": "version of the P versus NP question. In linear time non-deterministic"
+  },
+  {
+    "t_start": 1417.79,
+    "t_end": 1421.99,
+    "text": "linear time non-deterministic uh non-determinism buys you more power."
+  },
+  {
+    "t_start": 1421.99,
+    "t_end": 1423.87,
+    "text": "Again, very sophisticated diagonalization plus"
+  },
+  {
+    "t_start": 1423.87,
+    "t_end": 1425.59,
+    "text": "diagonalization plus uh"
+  },
+  {
+    "t_start": 1425.59,
+    "t_end": 1430.79,
+    "text": "uh clever combinatorial result. Anyway this was"
+  },
+  {
+    "t_start": 1430.79,
+    "t_end": 1436.83,
+    "text": "combinatorial result. Anyway this was Turing offered us started being used all"
+  },
+  {
+    "t_start": 1436.83,
+    "t_end": 1437.51,
+    "text": "over the place till today. Uh"
+  },
+  {
+    "t_start": 1437.51,
+    "t_end": 1442.71,
+    "text": "one thing that I don't think that is recognized by any by many. I actually"
+  },
+  {
+    "t_start": 1442.71,
+    "t_end": 1444.31,
+    "text": "recognized by any by many. I actually asked the cup the"
+  },
+  {
+    "t_start": 1444.31,
+    "t_end": 1448.99,
+    "text": "asked the cup the on Saturday and he didn't know it. Uh"
+  },
+  {
+    "t_start": 1448.99,
+    "t_end": 1454.07,
+    "text": "where does it come from? Who introduced this first? Well, obviously Turing."
+  },
+  {
+    "t_start": 1454.07,
+    "t_end": 1455.15,
+    "text": "this first? Well, obviously Turing. Uh"
+  },
+  {
+    "t_start": 1455.15,
+    "t_end": 1460.39,
+    "text": "he says in the paper, \"Look, uh the machines I'm defining are"
+  },
+  {
+    "t_start": 1460.39,
+    "t_end": 1465.669,
+    "text": "completely determined. The next step follows directly from the current state"
+  },
+  {
+    "t_start": 1465.669,
+    "t_end": 1467.669,
+    "text": "follows directly from the current state and I call these automatic machines A"
+  },
+  {
+    "t_start": 1467.669,
+    "t_end": 1470.35,
+    "text": "and I call these automatic machines A machines. But there is this paragraph"
+  },
+  {
+    "t_start": 1470.35,
+    "t_end": 1473.11,
+    "text": "machines. But there is this paragraph which he doesn't pursue later but he"
+  },
+  {
+    "t_start": 1473.11,
+    "t_end": 1475.39,
+    "text": "which he doesn't pursue later but he says there's another version we can"
+  },
+  {
+    "t_start": 1475.39,
+    "t_end": 1479.03,
+    "text": "says there's another version we can consider choice machines, C machines."
+  },
+  {
+    "t_start": 1479.03,
+    "t_end": 1480.91,
+    "text": "consider choice machines, C machines. That the motion is only partially"
+  },
+  {
+    "t_start": 1480.91,
+    "t_end": 1483.83,
+    "text": "That the motion is only partially determined by the current configuration"
+  },
+  {
+    "t_start": 1483.83,
+    "t_end": 1486.07,
+    "text": "determined by the current configuration and there are some choices and somebody"
+  },
+  {
+    "t_start": 1486.07,
+    "t_end": 1490.07,
+    "text": "and there are some choices and somebody has to make these choices. And not only"
+  },
+  {
+    "t_start": 1490.07,
+    "t_end": 1495.79,
+    "text": "computation here but tell you why. Why? Because this captures what happens"
+  },
+  {
+    "t_start": 1495.79,
+    "t_end": 1497.75,
+    "text": "Why? Because this captures what happens in proof systems."
+  },
+  {
+    "t_start": 1497.75,
+    "t_end": 1501.87,
+    "text": "This is the essence of efficient verification of a proof. That's what"
+  },
+  {
+    "t_start": 1501.87,
+    "t_end": 1504.91,
+    "text": "verification of a proof. That's what happens in non-deterministic machines."
+  },
+  {
+    "t_start": 1504.91,
+    "t_end": 1510.27,
+    "text": "happens in non-deterministic machines. And of course this was taken again"
+  },
+  {
+    "t_start": 1510.27,
+    "t_end": 1517.23,
+    "text": "non-determinism and determinism uh first of all is captured by his well, I would"
+  },
+  {
+    "t_start": 1517.23,
+    "t_end": 1519.35,
+    "text": "of all is captured by his well, I would say that in our field uh"
+  },
+  {
+    "t_start": 1519.35,
+    "t_end": 1522.23,
+    "text": "say that in our field uh uh Cook was the most logical"
+  },
+  {
+    "t_start": 1522.23,
+    "t_end": 1526.51,
+    "text": "uh of the, you know, of the people who started the NP-completeness. His paper"
+  },
+  {
+    "t_start": 1526.51,
+    "t_end": 1530.47,
+    "text": "started the NP-completeness. His paper on NP-completeness in fact is called the"
+  },
+  {
+    "t_start": 1530.47,
+    "t_end": 1531.83,
+    "text": "complexity of theorem proving procedures."
+  },
+  {
+    "t_start": 1531.83,
+    "t_end": 1537.55,
+    "text": "And then later with Rachel uh the last session was on proof"
+  },
+  {
+    "t_start": 1537.55,
+    "t_end": 1541.35,
+    "text": "Uh he introduces this approach to propositional uh"
+  },
+  {
+    "t_start": 1541.35,
+    "t_end": 1547.87,
+    "text": "you know, basically making the point all proof systems in the world in all the"
+  },
+  {
+    "t_start": 1547.87,
+    "t_end": 1553.35,
+    "text": "math books they have one thing in common, verification must be efficient."
+  },
+  {
+    "t_start": 1553.35,
+    "t_end": 1558.47,
+    "text": "common, verification must be efficient. So Turing's result can be viewed as"
+  },
+  {
+    "t_start": 1558.47,
+    "t_end": 1563.83,
+    "text": "uh two notions, computation versus uh verification in the case of finite"
+  },
+  {
+    "t_start": 1563.83,
+    "t_end": 1565.43,
+    "text": "uh verification in the case of finite algorithms."
+  },
+  {
+    "t_start": 1565.43,
+    "t_end": 1566.03,
+    "text": "algorithms. Uh"
+  },
+  {
+    "t_start": 1566.03,
+    "t_end": 1569.91,
+    "text": "and of course what we are trying to do since then"
+  },
+  {
+    "t_start": 1569.91,
+    "t_end": 1574.07,
+    "text": "is trying to prove the efficient analog of this. So"
+  },
+  {
+    "t_start": 1574.07,
+    "t_end": 1579.27,
+    "text": "uh separate efficient verification from efficient computation."
+  },
+  {
+    "t_start": 1579.27,
+    "t_end": 1583.71,
+    "text": "I think that one of the really great achievements of this field"
+  },
+  {
+    "t_start": 1583.71,
+    "t_end": 1586.47,
+    "text": "really great achievements of this field has been not only to"
+  },
+  {
+    "t_start": 1586.47,
+    "t_end": 1591.71,
+    "text": "uh work on this problem but pursue the notion of efficient verification to"
+  },
+  {
+    "t_start": 1591.71,
+    "t_end": 1593.91,
+    "text": "notion of efficient verification to amazing diversity"
+  },
+  {
+    "t_start": 1593.91,
+    "t_end": 1594.79,
+    "text": "amazing diversity uh"
+  },
+  {
+    "t_start": 1594.79,
+    "t_end": 1600.31,
+    "text": "and extending this to interactive verification, probabilistic"
+  },
+  {
+    "t_start": 1600.31,
+    "t_end": 1605.03,
+    "text": "interactive verification, probabilistic verification, quantum verification and"
+  },
+  {
+    "t_start": 1605.03,
+    "t_end": 1605.87,
+    "text": "there is this amazing uh"
+  },
+  {
+    "t_start": 1605.87,
+    "t_end": 1611.11,
+    "text": "set of works and all the works that preceded them in which we not only"
+  },
+  {
+    "t_start": 1611.11,
+    "t_end": 1613.27,
+    "text": "preceded them in which we not only understand uh you know, have different"
+  },
+  {
+    "t_start": 1613.27,
+    "t_end": 1615.63,
+    "text": "understand uh you know, have different notions of proof systems but we also"
+  },
+  {
+    "t_start": 1615.63,
+    "t_end": 1618.47,
+    "text": "notions of proof systems but we also have exact characterizations of all of"
+  },
+  {
+    "t_start": 1618.47,
+    "t_end": 1620.95,
+    "text": "have exact characterizations of all of them well, except for NP"
+  },
+  {
+    "t_start": 1620.95,
+    "t_end": 1623.43,
+    "text": "them well, except for NP in terms of their computational power."
+  },
+  {
+    "t_start": 1623.43,
+    "t_end": 1628.51,
+    "text": "in terms of their computational power. And for NP we have the PCP theorem which"
+  },
+  {
+    "t_start": 1628.51,
+    "t_end": 1629.59,
+    "text": "is a pretty good alternative. Um"
+  },
+  {
+    "t_start": 1629.59,
+    "t_end": 1632.43,
+    "text": "Um so"
+  },
+  {
+    "t_start": 1634.59,
+    "t_end": 1640.35,
+    "text": "I could talk much more about this paper but I should stop and move to the next"
+  },
+  {
+    "t_start": 1640.35,
+    "t_end": 1644.15,
+    "text": "phase of Turing's life. I'll if okay by all of you ask me questions"
+  },
+  {
+    "t_start": 1644.15,
+    "t_end": 1645.31,
+    "text": "at the end. So uh"
+  },
+  {
+    "t_start": 1645.31,
+    "t_end": 1648.43,
+    "text": "I make it to the end. Uh"
+  },
+  {
+    "t_start": 1648.43,
+    "t_end": 1653.31,
+    "text": "Valerie promised me there is an infinite time for questions at the end."
+  },
+  {
+    "t_start": 1653.31,
+    "t_end": 1654.79,
+    "text": "time for questions at the end. Um"
+  },
+  {
+    "t_start": 1654.79,
+    "t_end": 1660.99,
+    "text": "Okay. As I said, Turing went from uh Cambridge to Princeton to do his PhD"
+  },
+  {
+    "t_start": 1660.99,
+    "t_end": 1662.55,
+    "text": "uh Cambridge to Princeton to do his PhD with uh"
+  },
+  {
+    "t_start": 1662.55,
+    "t_end": 1669.47,
+    "text": "Church. This was the hub of logic. Uh Church was there, Kleene and Rosser who"
+  },
+  {
+    "t_start": 1669.47,
+    "t_end": 1671.31,
+    "text": "Church was there, Kleene and Rosser who were his"
+  },
+  {
+    "t_start": 1671.31,
+    "t_end": 1676.99,
+    "text": "computability theory and recursion theory. Was there. Von Neumann was"
+  },
+  {
+    "t_start": 1676.99,
+    "t_end": 1680.47,
+    "text": "theory. Was there. Von Neumann was there. Was very interested in Gödel's"
+  },
+  {
+    "t_start": 1680.47,
+    "t_end": 1684.47,
+    "text": "work and Turing's work and Gödel was partly there"
+  },
+  {
+    "t_start": 1684.47,
+    "t_end": 1685.35,
+    "text": "once. Uh"
+  },
+  {
+    "t_start": 1685.35,
+    "t_end": 1690.43,
+    "text": "Turing was there. Actually he didn't interact with them that much. Uh I think"
+  },
+  {
+    "t_start": 1690.43,
+    "t_end": 1691.27,
+    "text": "it was Yeah."
+  },
+  {
+    "t_start": 1691.27,
+    "t_end": 1691.91,
+    "text": "Yeah. Uh"
+  },
+  {
+    "t_start": 1691.91,
+    "t_end": 1696.71,
+    "text": "he even talks about this but let me skip. Anyway, he also sees this. He sees"
+  },
+  {
+    "t_start": 1696.71,
+    "t_end": 1699.19,
+    "text": "skip. Anyway, he also sees this. He sees this in a paper called systems of logic"
+  },
+  {
+    "t_start": 1699.19,
+    "t_end": 1701.47,
+    "text": "this in a paper called systems of logic based on on ordinals"
+  },
+  {
+    "t_start": 1701.47,
+    "t_end": 1705.39,
+    "text": "in which he was trying to do whether some you can do something about"
+  },
+  {
+    "t_start": 1705.39,
+    "t_end": 1709.03,
+    "text": "some you can do something about undecidability or about incompleteness."
+  },
+  {
+    "t_start": 1709.03,
+    "t_end": 1713.39,
+    "text": "undecidability or about incompleteness. What happens for example if you give"
+  },
+  {
+    "t_start": 1713.39,
+    "t_end": 1715.63,
+    "text": "your computer the ability to solve the halting problem? Can then maybe it"
+  },
+  {
+    "t_start": 1715.63,
+    "t_end": 1717.669,
+    "text": "halting problem? Can then maybe it solves everything?"
+  },
+  {
+    "t_start": 1717.669,
+    "t_end": 1723.83,
+    "text": "solves everything? So he introduces what we all know and"
+  },
+  {
+    "t_start": 1723.83,
+    "t_end": 1728.79,
+    "text": "He says, \"Let us I mean he writes beautifully. I love his writing."
+  },
+  {
+    "t_start": 1728.79,
+    "t_end": 1733.19,
+    "text": "Let us say suppose that we are supplied with some unspecified means of solving a"
+  },
+  {
+    "t_start": 1733.19,
+    "t_end": 1736.55,
+    "text": "with some unspecified means of solving a number theoretic problem like halting."
+  },
+  {
+    "t_start": 1736.55,
+    "t_end": 1737.27,
+    "text": "number theoretic problem like halting. Uh"
+  },
+  {
+    "t_start": 1737.27,
+    "t_end": 1741.83,
+    "text": "a kind of oracle as it were.\" So he introduces not just the concept but the"
+  },
+  {
+    "t_start": 1741.83,
+    "t_end": 1743.669,
+    "text": "introduces not just the concept but the name we use."
+  },
+  {
+    "t_start": 1743.669,
+    "t_end": 1749.71,
+    "text": "With the help of the oracle we could uh imagine new kind of machine, call it"
+  },
+  {
+    "t_start": 1749.71,
+    "t_end": 1754.669,
+    "text": "having as one of its fundamental processes one fundamental operation"
+  },
+  {
+    "t_start": 1754.669,
+    "t_end": 1759.669,
+    "text": "processes one fundamental operation giving a query to this oracle."
+  },
+  {
+    "t_start": 1759.669,
+    "t_end": 1764.47,
+    "text": "Many uh it has a huge influence on recursion theory and computability"
+  },
+  {
+    "t_start": 1764.47,
+    "t_end": 1771.23,
+    "text": "recursion theory and computability theory before complexity theory."
+  },
+  {
+    "t_start": 1771.23,
+    "t_end": 1774.71,
+    "text": "But uh Turing points post uh you'll see in the next slide but anyway"
+  },
+  {
+    "t_start": 1774.71,
+    "t_end": 1779.63,
+    "text": "he mentions that Turing in the thesis introduces a technique that they all"
+  },
+  {
+    "t_start": 1779.63,
+    "t_end": 1783.79,
+    "text": "introduces a technique that they all know. He basically shows that you can"
+  },
+  {
+    "t_start": 1783.79,
+    "t_end": 1784.99,
+    "text": "also diagonalize against oracle machines."
+  },
+  {
+    "t_start": 1784.99,
+    "t_end": 1788.27,
+    "text": "machines. And this is used. It's used"
+  },
+  {
+    "t_start": 1788.27,
+    "t_end": 1791.63,
+    "text": "uh establishing a hierarchy of unsolvability"
+  },
+  {
+    "t_start": 1791.63,
+    "t_end": 1795.31,
+    "text": "unsolvability during the grades or the arithmetic"
+  },
+  {
+    "t_start": 1795.31,
+    "t_end": 1801.03,
+    "text": "Uh was first defined by uh the number of quantifiers in uh"
+  },
+  {
+    "t_start": 1801.03,
+    "t_end": 1803.15,
+    "text": "uh the number of quantifiers in uh logical formulas by Kleene, but then"
+  },
+  {
+    "t_start": 1803.15,
+    "t_end": 1806.07,
+    "text": "logical formulas by Kleene, but then Post realized that can be used can be"
+  },
+  {
+    "t_start": 1806.07,
+    "t_end": 1809.43,
+    "text": "Post realized that can be used can be defined by oracles. So, you really"
+  },
+  {
+    "t_start": 1809.43,
+    "t_end": 1812.55,
+    "text": "defined by oracles. So, you really define the ice level using giving an"
+  },
+  {
+    "t_start": 1812.55,
+    "t_end": 1814.39,
+    "text": "define the ice level using giving an oracle of the previous level to the"
+  },
+  {
+    "t_start": 1814.39,
+    "t_end": 1816.03,
+    "text": "oracle of the previous level to the basic machine."
+  },
+  {
+    "t_start": 1816.03,
+    "t_end": 1818.11,
+    "text": "basic machine. And uh"
+  },
+  {
+    "t_start": 1818.11,
+    "t_end": 1825.11,
+    "text": "using, you know, Turing's technique, uh we know that uh they all proved that uh"
+  },
+  {
+    "t_start": 1825.11,
+    "t_end": 1826.63,
+    "text": "we know that uh they all proved that uh all the"
+  },
+  {
+    "t_start": 1826.63,
+    "t_end": 1830.83,
+    "text": "Of course, there are inclusions going upwards, and all these classes are"
+  },
+  {
+    "t_start": 1830.83,
+    "t_end": 1833.23,
+    "text": "upwards, and all these classes are distinct. We know that."
+  },
+  {
+    "t_start": 1833.23,
+    "t_end": 1838.71,
+    "text": "Of course, in our world, the efficient version was introduced in"
+  },
+  {
+    "t_start": 1838.71,
+    "t_end": 1842.83,
+    "text": "the efficient version was introduced in the '70s by Meyer and Stockmeyer. This"
+  },
+  {
+    "t_start": 1842.83,
+    "t_end": 1846.95,
+    "text": "is the polynomial time hierarchy. It looks exactly the same, usually with a"
+  },
+  {
+    "t_start": 1846.95,
+    "t_end": 1852.15,
+    "text": "Where at the bottom we have P and NP and P. And here, in contrast, we don't have"
+  },
+  {
+    "t_start": 1852.15,
+    "t_end": 1853.87,
+    "text": "P. And here, in contrast, we don't have separation. We don't have a single"
+  },
+  {
+    "t_start": 1853.87,
+    "t_end": 1855.31,
+    "text": "separation. We don't have a single separation."
+  },
+  {
+    "t_start": 1855.31,
+    "t_end": 1860.47,
+    "text": "But, we have oracle excuses for our failures."
+  },
+  {
+    "t_start": 1860.47,
+    "t_end": 1867.47,
+    "text": "these classes, they are used also to have excuses. As again, I'm sure you all"
+  },
+  {
+    "t_start": 1867.47,
+    "t_end": 1870.15,
+    "text": "have excuses. As again, I'm sure you all know, the fundamental paper of Baker,"
+  },
+  {
+    "t_start": 1870.15,
+    "t_end": 1875.43,
+    "text": "know, the fundamental paper of Baker, Gill, and Solovay uh says, you know, ask"
+  },
+  {
+    "t_start": 1875.43,
+    "t_end": 1881.71,
+    "text": "Thorne, and Cook, and so on for short of proving P different than NP? And the"
+  },
+  {
+    "t_start": 1881.71,
+    "t_end": 1883.63,
+    "text": "proving P different than NP? And the answer, because"
+  },
+  {
+    "t_start": 1883.63,
+    "t_end": 1889.19,
+    "text": "you can make P either equal and P or unequal and P with"
+  },
+  {
+    "t_start": 1889.19,
+    "t_end": 1893.31,
+    "text": "and with different oracles, and the diagonalization simulation"
+  },
+  {
+    "t_start": 1893.31,
+    "t_end": 1896.75,
+    "text": "diagonalization simulation diagonalization technique doesn't"
+  },
+  {
+    "t_start": 1896.75,
+    "t_end": 1901.59,
+    "text": "So, you cannot use these techniques. And this is the first barrier result. And"
+  },
+  {
+    "t_start": 1901.59,
+    "t_end": 1903.87,
+    "text": "this is the first barrier result. And we, of course, became enamored of"
+  },
+  {
+    "t_start": 1903.87,
+    "t_end": 1906.35,
+    "text": "we, of course, became enamored of barrier results. And"
+  },
+  {
+    "t_start": 1906.35,
+    "t_end": 1910.39,
+    "text": "uh being introspective, I think that's another very important property of our"
+  },
+  {
+    "t_start": 1910.39,
+    "t_end": 1913.39,
+    "text": "another very important property of our community that we are introspective, and"
+  },
+  {
+    "t_start": 1913.39,
+    "t_end": 1918.51,
+    "text": "community that we are introspective, and when we fail to do something, we look"
+  },
+  {
+    "t_start": 1918.51,
+    "t_end": 1924.59,
+    "text": "not only switch to other problems. Uh and we have So, these excuses are, of"
+  },
+  {
+    "t_start": 1924.59,
+    "t_end": 1926.51,
+    "text": "Uh and we have So, these excuses are, of course, very fundamental and useful"
+  },
+  {
+    "t_start": 1926.51,
+    "t_end": 1932.23,
+    "text": "because we try to collect the techniques used in order, in particular, proving"
+  },
+  {
+    "t_start": 1932.23,
+    "t_end": 1937.11,
+    "text": "used in order, in particular, proving lower bounds. And see what, you know,"
+  },
+  {
+    "t_start": 1937.11,
+    "t_end": 1943.87,
+    "text": "uh barrier of Baker, Gill, and Solovay, there are others, the natural proofs of"
+  },
+  {
+    "t_start": 1943.87,
+    "t_end": 1947.15,
+    "text": "there are others, the natural proofs of Razborov and Rudich, algebraization."
+  },
+  {
+    "t_start": 1947.15,
+    "t_end": 1952.03,
+    "text": "And from these, you know, understanding these barriers, sometimes we can surpass"
+  },
+  {
+    "t_start": 1952.03,
+    "t_end": 1953.55,
+    "text": "these barriers, sometimes we can surpass them, and there are several results,"
+  },
+  {
+    "t_start": 1953.55,
+    "t_end": 1956.03,
+    "text": "them, and there are several results, notably Ryan Williams'"
+  },
+  {
+    "t_start": 1956.03,
+    "t_end": 1960.43,
+    "text": "uh you know, lower bound for ACC. Uh and then we get stuck again. We"
+  },
+  {
+    "t_start": 1960.43,
+    "t_end": 1962.83,
+    "text": "Uh and then we get stuck again. We invent new barriers, and hopefully"
+  },
+  {
+    "t_start": 1962.83,
+    "t_end": 1966.75,
+    "text": "invent new barriers, and hopefully continue to uh good end."
+  },
+  {
+    "t_start": 1968.91,
+    "t_end": 1972.95,
+    "text": "Uh I want to move to the next phase of Turing's life, which is"
+  },
+  {
+    "t_start": 1972.95,
+    "t_end": 1977.99,
+    "text": "uh the period of World War II. As uh again, I'm sure you know, at least from"
+  },
+  {
+    "t_start": 1977.99,
+    "t_end": 1979.19,
+    "text": "again, I'm sure you know, at least from the movie,"
+  },
+  {
+    "t_start": 1979.19,
+    "t_end": 1984.83,
+    "text": "uh he spent his years just as the war broke out, he enlisted in Bletchley"
+  },
+  {
+    "t_start": 1984.83,
+    "t_end": 1989.07,
+    "text": "broke out, he enlisted in Bletchley Park. He actually the year before he"
+  },
+  {
+    "t_start": 1989.07,
+    "t_end": 1991.47,
+    "text": "took a code-breaking class. Uh and"
+  },
+  {
+    "t_start": 1991.47,
+    "t_end": 1992.63,
+    "text": "Uh and uh went"
+  },
+  {
+    "t_start": 1992.63,
+    "t_end": 1998.35,
+    "text": "to Bletchley Park, was assigned to Hut uh Hut 8, famous Hut 8, where they were"
+  },
+  {
+    "t_start": 1998.35,
+    "t_end": 2001.39,
+    "text": "uh Hut 8, famous Hut 8, where they were assigned to break the naval Enigma code."
+  },
+  {
+    "t_start": 2001.39,
+    "t_end": 2003.31,
+    "text": "assigned to break the naval Enigma code. There were many Enigma machines"
+  },
+  {
+    "t_start": 2003.31,
+    "t_end": 2007.11,
+    "text": "There were many Enigma machines different used by different parts of uh"
+  },
+  {
+    "t_start": 2007.11,
+    "t_end": 2008.99,
+    "text": "different used by different parts of uh of the German army."
+  },
+  {
+    "t_start": 2008.99,
+    "t_end": 2015.23,
+    "text": "Uh and famously, they cracked it. And something which Churchill called the"
+  },
+  {
+    "t_start": 2015.23,
+    "t_end": 2018.03,
+    "text": "something which Churchill called the greatest single contribution to victory"
+  },
+  {
+    "t_start": 2018.03,
+    "t_end": 2022.79,
+    "text": "greatest single contribution to victory in World War II. This is no mean feat"
+  },
+  {
+    "t_start": 2022.79,
+    "t_end": 2026.63,
+    "text": "because World War II Yeah, was a yeah, unfortunately, a"
+  },
+  {
+    "t_start": 2026.63,
+    "t_end": 2028.43,
+    "text": "glorious war. Uh"
+  },
+  {
+    "t_start": 2028.43,
+    "t_end": 2034.669,
+    "text": "It's uh The main problem was that England, after"
+  },
+  {
+    "t_start": 2034.669,
+    "t_end": 2036.87,
+    "text": "The main problem was that England, after uh the Germans took over all of Europe,"
+  },
+  {
+    "t_start": 2036.87,
+    "t_end": 2040.31,
+    "text": "uh the Germans took over all of Europe, was totally dependent on convoys of food"
+  },
+  {
+    "t_start": 2040.31,
+    "t_end": 2042.87,
+    "text": "was totally dependent on convoys of food and supplies and ammunition and weapons"
+  },
+  {
+    "t_start": 2042.87,
+    "t_end": 2049.23,
+    "text": "and supplies and ammunition and weapons from the US. So, there were convoys with"
+  },
+  {
+    "t_start": 2049.23,
+    "t_end": 2051.43,
+    "text": "shipping these to England from the US, and the Atlantic was infested with"
+  },
+  {
+    "t_start": 2051.43,
+    "t_end": 2058.75,
+    "text": "U-boats. The beginning of the war, there were 60. At the end of the war, there"
+  },
+  {
+    "t_start": 2058.75,
+    "t_end": 2061.99,
+    "text": "were something like 400. And ships were being, you know, uh"
+  },
+  {
+    "t_start": 2061.99,
+    "t_end": 2064.51,
+    "text": "being, you know, uh torpedoed."
+  },
+  {
+    "t_start": 2064.51,
+    "t_end": 2068.11,
+    "text": "torpedoed. You know, many a month. Uh"
+  },
+  {
+    "t_start": 2068.11,
+    "t_end": 2074.51,
+    "text": "problem. I cannot imagine the pressure of people who had to, you know, who knew"
+  },
+  {
+    "t_start": 2074.51,
+    "t_end": 2076.669,
+    "text": "of people who had to, you know, who knew about these and had to defend against"
+  },
+  {
+    "t_start": 2076.669,
+    "t_end": 2079.03,
+    "text": "about these and had to defend against this. And"
+  },
+  {
+    "t_start": 2079.03,
+    "t_end": 2083.909,
+    "text": "you can think of it as a war between uh two machines, the Enigma encryption"
+  },
+  {
+    "t_start": 2083.909,
+    "t_end": 2085.95,
+    "text": "uh two machines, the Enigma encryption machine and the Bombe, what's so-called"
+  },
+  {
+    "t_start": 2085.95,
+    "t_end": 2091.83,
+    "text": "machine and the Bombe, what's so-called the Bombe, which was actually"
+  },
+  {
+    "t_start": 2091.83,
+    "t_end": 2094.55,
+    "text": "initially designed by by uh Polish mathematicians and imported just a month"
+  },
+  {
+    "t_start": 2094.55,
+    "t_end": 2096.63,
+    "text": "mathematicians and imported just a month before the war, the knowledge was"
+  },
+  {
+    "t_start": 2096.63,
+    "t_end": 2098.91,
+    "text": "before the war, the knowledge was imported to French and British"
+  },
+  {
+    "t_start": 2098.91,
+    "t_end": 2100.51,
+    "text": "imported to French and British intelligence."
+  },
+  {
+    "t_start": 2100.51,
+    "t_end": 2106.15,
+    "text": "Uh that was the improved in the work of uh in Bletchley Park."
+  },
+  {
+    "t_start": 2106.15,
+    "t_end": 2274.27,
+    "text": "And uh what this machine did is essentially brute force"
+  },
+  {
+    "t_start": 2277.07,
+    "t_end": 2282.15,
+    "text": "search, mechanical alphabet. Okay? And ask you,"
+  },
+  {
+    "t_start": 2282.15,
+    "t_end": 2287.91,
+    "text": "that the next one will be uh an item that appears k time in the"
+  },
+  {
+    "t_start": 2287.91,
+    "t_end": 2289.39,
+    "text": "uh an item that appears k time in the sample?"
+  },
+  {
+    "t_start": 2289.39,
+    "t_end": 2293.15,
+    "text": "So, you want to estimate P of k, probability of seeing something which"
+  },
+  {
+    "t_start": 2293.15,
+    "t_end": 2297.43,
+    "text": "probability of seeing something which appears an item s which appears k time"
+  },
+  {
+    "t_start": 2297.43,
+    "t_end": 2304.27,
+    "text": "answer will be k over n. What's the big deal? Well, the big deal is that this is"
+  },
+  {
+    "t_start": 2304.27,
+    "t_end": 2306.27,
+    "text": "deal? Well, the big deal is that this is a setting which we don't normally"
+  },
+  {
+    "t_start": 2306.27,
+    "t_end": 2308.87,
+    "text": "a setting which we don't normally consider, where the alphabet is"
+  },
+  {
+    "t_start": 2308.87,
+    "t_end": 2311.39,
+    "text": "consider, where the alphabet is something like all German words."
+  },
+  {
+    "t_start": 2311.39,
+    "t_end": 2314.43,
+    "text": "something like all German words. The alphabet is far larger than the"
+  },
+  {
+    "t_start": 2314.43,
+    "t_end": 2320.27,
+    "text": "Okay? In fact, you don't see most of the items that exist there in the"
+  },
+  {
+    "t_start": 2320.27,
+    "t_end": 2325.87,
+    "text": "uh you know, in the universe. So, what estimate would you give? Now, it's not"
+  },
+  {
+    "t_start": 2325.87,
+    "t_end": 2326.99,
+    "text": "estimate would you give? Now, it's not clear."
+  },
+  {
+    "t_start": 2326.99,
+    "t_end": 2333.59,
+    "text": "I'll Here's the formula. It's called the Good-Turing test. Uh it looks like this."
+  },
+  {
+    "t_start": 2333.59,
+    "t_end": 2340.11,
+    "text": "Good-Turing test. Uh it looks like this. If you have n sub k species or items"
+  },
+  {
+    "t_start": 2340.11,
+    "t_end": 2343.59,
+    "text": "which appear k times each, then this is a formula. It looks very unintuitive at"
+  },
+  {
+    "t_start": 2343.59,
+    "t_end": 2345.75,
+    "text": "a formula. It looks very unintuitive at first glance. Instead of k over n, you"
+  },
+  {
+    "t_start": 2345.75,
+    "t_end": 2350.39,
+    "text": "have k plus one over n. So, it sometime somehow gives a larger number there, but"
+  },
+  {
+    "t_start": 2350.39,
+    "t_end": 2357.11,
+    "text": "you weight down by the number of times you see species of k plus one times over"
+  },
+  {
+    "t_start": 2357.11,
+    "t_end": 2359.23,
+    "text": "you see species of k plus one times over the number of times you see, you know,"
+  },
+  {
+    "t_start": 2359.23,
+    "t_end": 2364.95,
+    "text": "the number of times you see, you know, species of which appear k times each."
+  },
+  {
+    "t_start": 2364.95,
+    "t_end": 2370.63,
+    "text": "Uh I won't uh elaborate now. There's a good uh reason to do it. They understood"
+  },
+  {
+    "t_start": 2370.63,
+    "t_end": 2372.91,
+    "text": "good uh reason to do it. They understood that you should also smooth it."
+  },
+  {
+    "t_start": 2372.91,
+    "t_end": 2377.15,
+    "text": "And uh they didn't prove anything as far as I know about this. The first proof"
+  },
+  {
+    "t_start": 2377.15,
+    "t_end": 2381.19,
+    "text": "as I know about this. The first proof came out in 2015 that this is optimal."
+  },
+  {
+    "t_start": 2381.19,
+    "t_end": 2384.71,
+    "text": "came out in 2015 that this is optimal. So, it's the best estimate you can have,"
+  },
+  {
+    "t_start": 2384.71,
+    "t_end": 2387.55,
+    "text": "So, it's the best estimate you can have, no matter what the distribution D is."
+  },
+  {
+    "t_start": 2387.55,
+    "t_end": 2391.67,
+    "text": "It looks a bit weird because if you know D, you know exactly. But, you don't know"
+  },
+  {
+    "t_start": 2391.67,
+    "t_end": 2395.59,
+    "text": "D, you know exactly. But, you don't know exactly. It may be that the distribution"
+  },
+  {
+    "t_start": 2395.59,
+    "t_end": 2400.03,
+    "text": "assigns two items different probabilities, but they appear both K"
+  },
+  {
+    "t_start": 2400.03,
+    "t_end": 2407.07,
+    "text": "Anyway, this is optimal. And uh here again, thinking about what we do"
+  },
+  {
+    "t_start": 2407.07,
+    "t_end": 2410.19,
+    "text": "uh here again, thinking about what we do on this obviously, we do a lot. I mean,"
+  },
+  {
+    "t_start": 2410.19,
+    "t_end": 2411.35,
+    "text": "there's uh"
+  },
+  {
+    "t_start": 2411.35,
+    "t_end": 2415.59,
+    "text": "more and more connections of uh you know, theoretical computer science and"
+  },
+  {
+    "t_start": 2415.59,
+    "t_end": 2418.03,
+    "text": "know, theoretical computer science and statistics and distribution testing and"
+  },
+  {
+    "t_start": 2418.03,
+    "t_end": 2422.07,
+    "text": "statistics and distribution testing and learning. We have instance optimal"
+  },
+  {
+    "t_start": 2422.07,
+    "t_end": 2423.35,
+    "text": "results like this one. We have robust results"
+  },
+  {
+    "t_start": 2423.35,
+    "t_end": 2426.63,
+    "text": "with the errors and you know, there are plenty of"
+  },
+  {
+    "t_start": 2426.63,
+    "t_end": 2432.23,
+    "text": "there's plenty of beautiful work. The second is what they call weight of"
+  },
+  {
+    "t_start": 2432.23,
+    "t_end": 2434.39,
+    "text": "The second is what they call weight of evidence, and you'll recognize it"
+  },
+  {
+    "t_start": 2434.39,
+    "t_end": 2436.87,
+    "text": "evidence, and you'll recognize it immediately. What's the problem?"
+  },
+  {
+    "t_start": 2436.87,
+    "t_end": 2443.99,
+    "text": "that you want to distinguish. You get X, a sample X from P, and the question is"
+  },
+  {
+    "t_start": 2443.99,
+    "t_end": 2446.95,
+    "text": "a sample X from P, and the question is how much information do you get from it"
+  },
+  {
+    "t_start": 2446.95,
+    "t_end": 2448.91,
+    "text": "how much information do you get from it convincing you that it's actually from"
+  },
+  {
+    "t_start": 2448.91,
+    "t_end": 2455.39,
+    "text": "convincing you that it's actually from P? How much does it confirm P over Q?"
+  },
+  {
+    "t_start": 2455.39,
+    "t_end": 2457.07,
+    "text": "And Turing suggests to study this particular"
+  },
+  {
+    "t_start": 2457.07,
+    "t_end": 2458.19,
+    "text": "particular uh"
+  },
+  {
+    "t_start": 2458.19,
+    "t_end": 2462.43,
+    "text": "random variable, which is called W by them. Uh"
+  },
+  {
+    "t_start": 2462.43,
+    "t_end": 2467.15,
+    "text": "log P of X over Q of X. Of course, you recognize this."
+  },
+  {
+    "t_start": 2467.15,
+    "t_end": 2471.39,
+    "text": "Uh he suggests studying this distribution. And it's familiar because"
+  },
+  {
+    "t_start": 2471.39,
+    "t_end": 2473.87,
+    "text": "distribution. And it's familiar because the expectation of this distribution is"
+  },
+  {
+    "t_start": 2473.87,
+    "t_end": 2476.51,
+    "text": "the expectation of this distribution is what we now called KL divergence."
+  },
+  {
+    "t_start": 2476.51,
+    "t_end": 2481.83,
+    "text": "We call KL divergence, which was you know, defined much later. But, I always"
+  },
+  {
+    "t_start": 2481.83,
+    "t_end": 2483.39,
+    "text": "know, defined much later. But, I always thought that the expectation is"
+  },
+  {
+    "t_start": 2483.39,
+    "t_end": 2488.75,
+    "text": "everything. I knew KL divergence, but in fact Turing studies and good, they study"
+  },
+  {
+    "t_start": 2488.75,
+    "t_end": 2491.55,
+    "text": "fact Turing studies and good, they study higher moments. And they get uh you"
+  },
+  {
+    "t_start": 2491.55,
+    "t_end": 2493.87,
+    "text": "higher moments. And they get uh you know, amazingly beautiful theorems about"
+  },
+  {
+    "t_start": 2493.87,
+    "t_end": 2497.35,
+    "text": "know, amazingly beautiful theorems about them that are not taught at least in our"
+  },
+  {
+    "t_start": 2497.35,
+    "t_end": 2498.03,
+    "text": "community, I think. Uh"
+  },
+  {
+    "t_start": 2498.03,
+    "t_end": 2504.07,
+    "text": "some of these form the the basis of what's called sequential analysis theory"
+  },
+  {
+    "t_start": 2504.07,
+    "t_end": 2507.99,
+    "text": "what's called sequential analysis theory that was developed by by Wald and after"
+  },
+  {
+    "t_start": 2507.99,
+    "t_end": 2512.95,
+    "text": "Sequential analysis is basically what do you do when the sample size is not"
+  },
+  {
+    "t_start": 2512.95,
+    "t_end": 2520.23,
+    "text": "You get more and more samples, and you have to update your uh work. This is a"
+  },
+  {
+    "t_start": 2520.23,
+    "t_end": 2523.75,
+    "text": "fundamental theory in statistics, and many of the theorems were already proved"
+  },
+  {
+    "t_start": 2523.75,
+    "t_end": 2524.55,
+    "text": "by Turing and uh"
+  },
+  {
+    "t_start": 2524.55,
+    "t_end": 2531.55,
+    "text": "his collaborators during the war. And of course, there is that use the"
+  },
+  {
+    "t_start": 2531.55,
+    "t_end": 2537.51,
+    "text": "cracking the Enigma and uh on developing theories that Good Luck wrote maybe"
+  },
+  {
+    "t_start": 2537.51,
+    "t_end": 2540.75,
+    "text": "theories that Good Luck wrote maybe dozens of papers on."
+  },
+  {
+    "t_start": 2540.75,
+    "t_end": 2546.79,
+    "text": "dozens of papers on. Okay. How am I doing with time?"
+  },
+  {
+    "t_start": 2546.79,
+    "t_end": 2550.47,
+    "text": "Uh I had the Well, I don't know. I'll go on. I'll finish in"
+  },
+  {
+    "t_start": 2550.47,
+    "t_end": 2553.23,
+    "text": "an hour. Uh"
+  },
+  {
+    "t_start": 2555.99,
+    "t_end": 2558.63,
+    "text": "Okay. So, I want to move So, after the war, Turing went to London actually for"
+  },
+  {
+    "t_start": 2558.63,
+    "t_end": 2561.07,
+    "text": "war, Turing went to London actually for 3 years trying to build the ACE"
+  },
+  {
+    "t_start": 2561.07,
+    "t_end": 2564.03,
+    "text": "3 years trying to build the ACE computer, definitely designing it."
+  },
+  {
+    "t_start": 2564.03,
+    "t_end": 2568.63,
+    "text": "And then left in frustration because the government was not really and his you"
+  },
+  {
+    "t_start": 2568.63,
+    "t_end": 2573.59,
+    "text": "know, the engineers uh were not really excited about his ideas. They thought"
+  },
+  {
+    "t_start": 2573.59,
+    "t_end": 2575.51,
+    "text": "excited about his ideas. They thought they were too elaborate."
+  },
+  {
+    "t_start": 2575.51,
+    "t_end": 2577.23,
+    "text": "they were too elaborate. Uh"
+  },
+  {
+    "t_start": 2577.23,
+    "t_end": 2582.35,
+    "text": "Anyway, he went to Max Newman, who was in Manchester at the time trying to"
+  },
+  {
+    "t_start": 2582.35,
+    "t_end": 2584.31,
+    "text": "in Manchester at the time trying to build his own computer, what became the"
+  },
+  {
+    "t_start": 2584.31,
+    "t_end": 2586.79,
+    "text": "build his own computer, what became the Manchester Baby and the Manchester"
+  },
+  {
+    "t_start": 2586.79,
+    "t_end": 2588.87,
+    "text": "Manchester Baby and the Manchester series of computers."
+  },
+  {
+    "t_start": 2588.87,
+    "t_end": 2594.63,
+    "text": "series of computers. Uh one anecdote, a thing that I learned"
+  },
+  {
+    "t_start": 2594.63,
+    "t_end": 2600.71,
+    "text": "you know, he was appointed leader of theory of computation. So, this I think"
+  },
+  {
+    "t_start": 2600.71,
+    "t_end": 2602.75,
+    "text": "theory of computation. So, this I think is a leader, of course, is professor in"
+  },
+  {
+    "t_start": 2602.75,
+    "t_end": 2606.35,
+    "text": "is a leader, of course, is professor in England. Uh it was the prestigious"
+  },
+  {
+    "t_start": 2606.35,
+    "t_end": 2608.71,
+    "text": "England. Uh it was the prestigious position. He got a huge salary increase"
+  },
+  {
+    "t_start": 2608.71,
+    "t_end": 2611.51,
+    "text": "position. He got a huge salary increase in that that time. I know that this is"
+  },
+  {
+    "t_start": 2611.51,
+    "t_end": 2613.51,
+    "text": "in that that time. I know that this is the year before he died. This is the"
+  },
+  {
+    "t_start": 2613.51,
+    "t_end": 2615.75,
+    "text": "the year before he died. This is the year after his trial."
+  },
+  {
+    "t_start": 2615.75,
+    "t_end": 2616.99,
+    "text": "year after his trial. And"
+  },
+  {
+    "t_start": 2616.99,
+    "t_end": 2617.87,
+    "text": "And uh"
+  },
+  {
+    "t_start": 2617.87,
+    "t_end": 2622.47,
+    "text": "you know, for gross indecency, but the British court, the university ignored"
+  },
+  {
+    "t_start": 2622.47,
+    "t_end": 2626.75,
+    "text": "British court, the university ignored all of this. They promoted him and gave"
+  },
+  {
+    "t_start": 2626.75,
+    "t_end": 2634.23,
+    "text": "Uh I want to talk about two papers from this period, and that's will be the end."
+  },
+  {
+    "t_start": 2634.23,
+    "t_end": 2639.51,
+    "text": "this period, and that's will be the end. Uh one of them you all know and heard"
+  },
+  {
+    "t_start": 2639.51,
+    "t_end": 2641.71,
+    "text": "of. This is his paper on intelligence. He wrote several papers. He actually"
+  },
+  {
+    "t_start": 2641.71,
+    "t_end": 2647.23,
+    "text": "He wrote several papers. He actually gave several lectures, uh and he even"
+  },
+  {
+    "t_start": 2647.23,
+    "t_end": 2652.03,
+    "text": "both lectures and debates with others about the idea of machines and"
+  },
+  {
+    "t_start": 2652.03,
+    "t_end": 2653.51,
+    "text": "about the idea of machines and intelligence."
+  },
+  {
+    "t_start": 2653.51,
+    "t_end": 2657.79,
+    "text": "Uh and I want to tell you about this paper. I'll get to the imitation game."
+  },
+  {
+    "t_start": 2657.79,
+    "t_end": 2659.03,
+    "text": "paper. I'll get to the imitation game. You won't You all know about the"
+  },
+  {
+    "t_start": 2659.03,
+    "t_end": 2660.67,
+    "text": "You won't You all know about the imitation game."
+  },
+  {
+    "t_start": 2660.67,
+    "t_end": 2664.83,
+    "text": "Uh certainly from the movie and probably before the movie."
+  },
+  {
+    "t_start": 2664.83,
+    "t_end": 2670.07,
+    "text": "But, I want to tell you about other things in this paper that I had no idea"
+  },
+  {
+    "t_start": 2670.07,
+    "t_end": 2674.83,
+    "text": "So, first, he introduces probabilistic algorithms."
+  },
+  {
+    "t_start": 2674.83,
+    "t_end": 2678.39,
+    "text": "So, this also something he thought about. It appears in other papers,"
+  },
+  {
+    "t_start": 2678.39,
+    "t_end": 2681.59,
+    "text": "about. It appears in other papers, previous papers. It's very clear there."
+  },
+  {
+    "t_start": 2681.59,
+    "t_end": 2682.95,
+    "text": "previous papers. It's very clear there. All these things that I'll tell you"
+  },
+  {
+    "t_start": 2682.95,
+    "t_end": 2687.15,
+    "text": "All these things that I'll tell you about are part of an argument why"
+  },
+  {
+    "t_start": 2687.15,
+    "t_end": 2689.55,
+    "text": "about are part of an argument why it's not unreasonable to think that"
+  },
+  {
+    "t_start": 2689.55,
+    "t_end": 2692.27,
+    "text": "it's not unreasonable to think that machines can think."
+  },
+  {
+    "t_start": 2692.27,
+    "t_end": 2698.43,
+    "text": "He actually prepares a whole set of answers to potential criticisms,"
+  },
+  {
+    "t_start": 2698.43,
+    "t_end": 2700.95,
+    "text": "set of answers to potential criticisms, which he knew he would get about this"
+  },
+  {
+    "t_start": 2700.95,
+    "t_end": 2702.95,
+    "text": "which he knew he would get about this this idea. Another paper of his is"
+  },
+  {
+    "t_start": 2702.95,
+    "t_end": 2706.11,
+    "text": "this idea. Another paper of his is called the theoretical theory of machine"
+  },
+  {
+    "t_start": 2706.11,
+    "t_end": 2708.39,
+    "text": "called the theoretical theory of machine intelligence. Anyway,"
+  },
+  {
+    "t_start": 2708.39,
+    "t_end": 2712.55,
+    "text": "here he says clearly, \"An interesting variant of the idea of the digital"
+  },
+  {
+    "t_start": 2712.55,
+    "t_end": 2716.51,
+    "text": "computer.\" You have to think when you read these papers that there were no"
+  },
+  {
+    "t_start": 2716.51,
+    "t_end": 2718.43,
+    "text": "read these papers that there were no computers."
+  },
+  {
+    "t_start": 2718.43,
+    "t_end": 2721.59,
+    "text": "computers. There was no practice. There was no"
+  },
+  {
+    "t_start": 2721.59,
+    "t_end": 2726.27,
+    "text": "nothing. He thought about it all before anybody"
+  },
+  {
+    "t_start": 2726.27,
+    "t_end": 2730.47,
+    "text": "And uh he says there's the idea of having a random element. So,"
+  },
+  {
+    "t_start": 2730.47,
+    "t_end": 2737.51,
+    "text": "having a random element. So, instructions can be thrown a die and put"
+  },
+  {
+    "t_start": 2737.51,
+    "t_end": 2742.03,
+    "text": "He in other papers, he suggested various Also here, he says maybe an electronic"
+  },
+  {
+    "t_start": 2742.03,
+    "t_end": 2744.43,
+    "text": "Also here, he says maybe an electronic process. He in other papers and actually"
+  },
+  {
+    "t_start": 2744.43,
+    "t_end": 2747.95,
+    "text": "process. He in other papers and actually in devices he designed and built,"
+  },
+  {
+    "t_start": 2747.95,
+    "t_end": 2751.349,
+    "text": "in devices he designed and built, uh he is using thermal noise,"
+  },
+  {
+    "t_start": 2751.349,
+    "t_end": 2752.99,
+    "text": "uh he is using thermal noise, you know, or less with radium. He"
+  },
+  {
+    "t_start": 2752.99,
+    "t_end": 2754.99,
+    "text": "you know, or less with radium. He suggests all these other"
+  },
+  {
+    "t_start": 2754.99,
+    "t_end": 2760.27,
+    "text": "uh ideas for generating randomness. So, he thought about that as well."
+  },
+  {
+    "t_start": 2760.27,
+    "t_end": 2762.71,
+    "text": "So, he thought about that as well. He thought about pseudo randomness."
+  },
+  {
+    "t_start": 2762.71,
+    "t_end": 2764.31,
+    "text": "He thought about pseudo randomness. He says"
+  },
+  {
+    "t_start": 2764.31,
+    "t_end": 2768.83,
+    "text": "it's all in the same paper. It's not normally possible to determine from"
+  },
+  {
+    "t_start": 2768.83,
+    "t_end": 2771.19,
+    "text": "normally possible to determine from observing a machine whether it has a"
+  },
+  {
+    "t_start": 2771.19,
+    "t_end": 2777.47,
+    "text": "random element or for a similar effect can be produced by such devices making"
+  },
+  {
+    "t_start": 2777.47,
+    "t_end": 2779.63,
+    "text": "can be produced by such devices making choices which depend on the digits of"
+  },
+  {
+    "t_start": 2779.63,
+    "t_end": 2781.51,
+    "text": "choices which depend on the digits of pi."
+  },
+  {
+    "t_start": 2781.51,
+    "t_end": 2785.87,
+    "text": "So, he already tell you here is something that's probably pseudo random."
+  },
+  {
+    "t_start": 2785.87,
+    "t_end": 2790.95,
+    "text": "something that's probably pseudo random. You cannot distinguish it from random."
+  },
+  {
+    "t_start": 2790.95,
+    "t_end": 2792.11,
+    "text": "Uh not only that, again,"
+  },
+  {
+    "t_start": 2792.11,
+    "t_end": 2798.95,
+    "text": "this quote is already quoted in the famous GMM paper GGM paper on random"
+  },
+  {
+    "t_start": 2798.95,
+    "t_end": 2802.27,
+    "text": "famous GMM paper GGM paper on random functions pseudo random functions. Uh"
+  },
+  {
+    "t_start": 2802.27,
+    "t_end": 2807.87,
+    "text": "functions pseudo random functions. Uh they noticed it, and it's you know,"
+  },
+  {
+    "t_start": 2807.87,
+    "t_end": 2809.43,
+    "text": "precisely fitting their paper. He says the following."
+  },
+  {
+    "t_start": 2809.43,
+    "t_end": 2813.95,
+    "text": "Uh I have set up on the Manchester computer a small program using only"
+  },
+  {
+    "t_start": 2813.95,
+    "t_end": 2816.59,
+    "text": "computer a small program using only 1,000 units of storage, whereby a"
+  },
+  {
+    "t_start": 2816.59,
+    "t_end": 2819.75,
+    "text": "1,000 units of storage, whereby a machine supplied with 16 figure number"
+  },
+  {
+    "t_start": 2819.75,
+    "t_end": 2824.51,
+    "text": "machine supplied with 16 figure number replies in 2 seconds with another 16"
+  },
+  {
+    "t_start": 2824.51,
+    "t_end": 2830.31,
+    "text": "I will define anyone to learn from these replies sufficient about the program to"
+  },
+  {
+    "t_start": 2830.31,
+    "t_end": 2832.31,
+    "text": "replies sufficient about the program to be able to predict"
+  },
+  {
+    "t_start": 2832.31,
+    "t_end": 2835.11,
+    "text": "be able to predict another value."
+  },
+  {
+    "t_start": 2835.11,
+    "t_end": 2839.43,
+    "text": "That's the definition of a pseudo random function. It's there. Of course, he's"
+  },
+  {
+    "t_start": 2839.43,
+    "t_end": 2845.59,
+    "text": "using it to argue that machines can be unpredictable. People, you know, and in"
+  },
+  {
+    "t_start": 2845.59,
+    "t_end": 2848.03,
+    "text": "unpredictable. People, you know, and in his many arguments,"
+  },
+  {
+    "t_start": 2848.03,
+    "t_end": 2852.31,
+    "text": "uh with others, people say machines, you know, are totally predictable. They are"
+  },
+  {
+    "t_start": 2852.31,
+    "t_end": 2854.99,
+    "text": "know, are totally predictable. They are thinking maybe of a cow or"
+  },
+  {
+    "t_start": 2854.99,
+    "t_end": 2857.15,
+    "text": "thinking maybe of a cow or I don't know."
+  },
+  {
+    "t_start": 2857.15,
+    "t_end": 2862.83,
+    "text": "I don't know. Um So, anyway, he had this already in"
+  },
+  {
+    "t_start": 2862.83,
+    "t_end": 2868.59,
+    "text": "Okay. Another thing he had, which again at the time is completely radical."
+  },
+  {
+    "t_start": 2868.59,
+    "t_end": 2871.27,
+    "text": "at the time is completely radical. Everybody was building computers all"
+  },
+  {
+    "t_start": 2871.27,
+    "t_end": 2874.349,
+    "text": "Everybody was building computers all over the world to do what?"
+  },
+  {
+    "t_start": 2874.349,
+    "t_end": 2875.91,
+    "text": "over the world to do what? Military"
+  },
+  {
+    "t_start": 2875.91,
+    "t_end": 2883.349,
+    "text": "uh purposes mainly. IBM also was doing it for businesses, but to, you know,"
+  },
+  {
+    "t_start": 2883.349,
+    "t_end": 2886.51,
+    "text": "it for businesses, but to, you know, compute things. And Turing thought, \"No,"
+  },
+  {
+    "t_start": 2886.51,
+    "t_end": 2888.75,
+    "text": "compute things. And Turing thought, \"No, we should teach them. They should learn,"
+  },
+  {
+    "t_start": 2888.75,
+    "t_end": 2892.43,
+    "text": "we should teach them. They should learn, and we should teach them.\" And he's"
+  },
+  {
+    "t_start": 2892.43,
+    "t_end": 2897.31,
+    "text": "Uh he was obsessed with the amount of storage machines can have in order to"
+  },
+  {
+    "t_start": 2897.31,
+    "t_end": 2899.11,
+    "text": "storage machines can have in order to think. He was very interested with"
+  },
+  {
+    "t_start": 2899.11,
+    "t_end": 2901.83,
+    "text": "think. He was very interested with biologists, what's the size of a human"
+  },
+  {
+    "t_start": 2901.83,
+    "t_end": 2904.87,
+    "text": "biologists, what's the size of a human brain? How much memory does it have?"
+  },
+  {
+    "t_start": 2904.87,
+    "t_end": 2907.63,
+    "text": "brain? How much memory does it have? He explains to everybody that thinks"
+  },
+  {
+    "t_start": 2907.63,
+    "t_end": 2909.59,
+    "text": "He explains to everybody that thinks machines you know,"
+  },
+  {
+    "t_start": 2909.59,
+    "t_end": 2915.87,
+    "text": "if you tell them to multiply two numbers, they will give you the result."
+  },
+  {
+    "t_start": 2915.87,
+    "t_end": 2918.15,
+    "text": "numbers, they will give you the result. How can they learn? Well, he said they"
+  },
+  {
+    "t_start": 2918.15,
+    "t_end": 2919.99,
+    "text": "How can they learn? Well, he said they learn very simply because they can"
+  },
+  {
+    "t_start": 2919.99,
+    "t_end": 2922.11,
+    "text": "learn very simply because they can change their own instructions. He's"
+  },
+  {
+    "t_start": 2922.11,
+    "t_end": 2924.03,
+    "text": "change their own instructions. He's thinking of that already then. People"
+  },
+  {
+    "t_start": 2924.03,
+    "t_end": 2926.23,
+    "text": "thinking of that already then. People didn't think like that."
+  },
+  {
+    "t_start": 2926.23,
+    "t_end": 2928.07,
+    "text": "didn't think like that. He's uh"
+  },
+  {
+    "t_start": 2928.07,
+    "t_end": 2933.87,
+    "text": "Again, this is in arguments. People say machines may"
+  },
+  {
+    "t_start": 2933.87,
+    "t_end": 2938.63,
+    "text": "People say machines may you know, they always produce you know,"
+  },
+  {
+    "t_start": 2938.63,
+    "t_end": 2943.67,
+    "text": "Uh and you don't tolerate it if they make errors. He said, \"If a machine is"
+  },
+  {
+    "t_start": 2943.67,
+    "t_end": 2946.51,
+    "text": "make errors. He said, \"If a machine is expected to be infallible, it cannot be"
+  },
+  {
+    "t_start": 2946.51,
+    "t_end": 2948.19,
+    "text": "expected to be infallible, it cannot be intelligent.\""
+  },
+  {
+    "t_start": 2948.19,
+    "t_end": 2952.87,
+    "text": "He already proceeds to think that, you know, we should think of learning and"
+  },
+  {
+    "t_start": 2952.87,
+    "t_end": 2955.31,
+    "text": "know, we should think of learning and allowing machines to learn."
+  },
+  {
+    "t_start": 2955.31,
+    "t_end": 2960.11,
+    "text": "And uh he's talking about not only learning machine learning from"
+  },
+  {
+    "t_start": 2960.11,
+    "t_end": 2964.63,
+    "text": "experience. So, in this analogy to child learning, he says, \"Okay, we are born"
+  },
+  {
+    "t_start": 2964.63,
+    "t_end": 2967.19,
+    "text": "learning, he says, \"Okay, we are born with a brain. It's an initial state of"
+  },
+  {
+    "t_start": 2967.19,
+    "t_end": 2969.19,
+    "text": "with a brain. It's an initial state of mind. And then there are two types of"
+  },
+  {
+    "t_start": 2969.19,
+    "t_end": 2973.67,
+    "text": "mind. And then there are two types of experiences. One is we are educated by"
+  },
+  {
+    "t_start": 2973.67,
+    "t_end": 2978.63,
+    "text": "experiences. One is we are educated by elders, and the other is we experience"
+  },
+  {
+    "t_start": 2978.63,
+    "t_end": 2983.39,
+    "text": "And it's funny while I was doing preparing the talk, I got the"
+  },
+  {
+    "t_start": 2983.39,
+    "t_end": 2984.43,
+    "text": "preparing the talk, I got the uh"
+  },
+  {
+    "t_start": 2984.43,
+    "t_end": 2989.23,
+    "text": "Leslie Valiant's new book on the learnability where he said explicitly,"
+  },
+  {
+    "t_start": 2989.23,
+    "t_end": 2992.95,
+    "text": "learnability where he said explicitly, you know, the Turing of course knew"
+  },
+  {
+    "t_start": 2992.95,
+    "t_end": 2998.15,
+    "text": "about this. Turing talks about the education of machines and it was not"
+  },
+  {
+    "t_start": 2998.15,
+    "t_end": 2999.19,
+    "text": "picked up much in the theory of learning."
+  },
+  {
+    "t_start": 2999.19,
+    "t_end": 3002.75,
+    "text": "Of course, we have lots of theories about learning from distribution and so"
+  },
+  {
+    "t_start": 3002.75,
+    "t_end": 3003.63,
+    "text": "about learning from distribution and so on."
+  },
+  {
+    "t_start": 3003.63,
+    "t_end": 3008.11,
+    "text": "And in fact, I was thinking about Valiant's previous books, one of the,"
+  },
+  {
+    "t_start": 3008.11,
+    "t_end": 3009.83,
+    "text": "Valiant's previous books, one of the, you know, on the"
+  },
+  {
+    "t_start": 3009.83,
+    "t_end": 3016.71,
+    "text": "circuits of the brain from 20, 25 years ago. And then on the pack learning uh"
+  },
+  {
+    "t_start": 3016.71,
+    "t_end": 3019.23,
+    "text": "ago. And then on the pack learning uh theory and book and I was thinking"
+  },
+  {
+    "t_start": 3019.23,
+    "t_end": 3021.23,
+    "text": "theory and book and I was thinking Turing would have been, you know, really"
+  },
+  {
+    "t_start": 3021.23,
+    "t_end": 3023.47,
+    "text": "Turing would have been, you know, really happy to see how"
+  },
+  {
+    "t_start": 3023.47,
+    "t_end": 3028.83,
+    "text": "how developed, how elaborate his ideas were were carried out to be by Valiant"
+  },
+  {
+    "t_start": 3028.83,
+    "t_end": 3031.27,
+    "text": "were were carried out to be by Valiant and of course many others."
+  },
+  {
+    "t_start": 3031.27,
+    "t_end": 3033.31,
+    "text": "and of course many others. Okay, finally I get to"
+  },
+  {
+    "t_start": 3033.31,
+    "t_end": 3034.55,
+    "text": "Okay, finally I get to uh this"
+  },
+  {
+    "t_start": 3034.55,
+    "t_end": 3036.03,
+    "text": "uh this uh"
+  },
+  {
+    "t_start": 3036.03,
+    "t_end": 3039.43,
+    "text": "Turing test, uh imitation game."
+  },
+  {
+    "t_start": 3039.43,
+    "t_end": 3041.35,
+    "text": "imitation game. So,"
+  },
+  {
+    "t_start": 3041.35,
+    "t_end": 3045.43,
+    "text": "he writes again in this uh beautiful style saying, \"Uh how do we"
+  },
+  {
+    "t_start": 3045.43,
+    "t_end": 3047.63,
+    "text": "beautiful style saying, \"Uh how do we study such a question? Can machines"
+  },
+  {
+    "t_start": 3047.63,
+    "t_end": 3048.67,
+    "text": "study such a question? Can machines think?\""
+  },
+  {
+    "t_start": 3048.67,
+    "t_end": 3051.35,
+    "text": "And he says, \"Well, there's a"
+  },
+  {
+    "t_start": 3051.35,
+    "t_end": 3057.23,
+    "text": "natural approach that I can define for you what a machine is. I can define to"
+  },
+  {
+    "t_start": 3057.23,
+    "t_end": 3060.75,
+    "text": "And then you'll start arguing with me that you don't agree with this"
+  },
+  {
+    "t_start": 3060.75,
+    "t_end": 3063.15,
+    "text": "that you don't agree with this definition and we get nowhere."
+  },
+  {
+    "t_start": 3063.15,
+    "t_end": 3064.83,
+    "text": "definition and we get nowhere. So, instead,"
+  },
+  {
+    "t_start": 3064.83,
+    "t_end": 3068.03,
+    "text": "So, instead, let me suggest something else. Let's"
+  },
+  {
+    "t_start": 3068.03,
+    "t_end": 3073.71,
+    "text": "if a machine thinks. So, the first idea is basically the objective uh you know,"
+  },
+  {
+    "t_start": 3073.71,
+    "t_end": 3076.23,
+    "text": "is basically the objective uh you know, philosophically, the ontological"
+  },
+  {
+    "t_start": 3076.23,
+    "t_end": 3077.03,
+    "text": "philosophically, the ontological uh"
+  },
+  {
+    "t_start": 3077.03,
+    "t_end": 3082.91,
+    "text": "style. But these definitions may not be well agreed upon, be testable, be"
+  },
+  {
+    "t_start": 3082.91,
+    "t_end": 3085.15,
+    "text": "well agreed upon, be testable, be falsifiable, have universal meaning and"
+  },
+  {
+    "t_start": 3085.15,
+    "t_end": 3090.43,
+    "text": "falsifiable, have universal meaning and so on. And instead, he's suggesting a"
+  },
+  {
+    "t_start": 3090.43,
+    "t_end": 3096.43,
+    "text": "This may be made precise, testable, operational, useful, and we'll see uh"
+  },
+  {
+    "t_start": 3096.43,
+    "t_end": 3098.55,
+    "text": "operational, useful, and we'll see uh evolutionary. Anyway, what is the"
+  },
+  {
+    "t_start": 3098.55,
+    "t_end": 3103.39,
+    "text": "evolutionary. Anyway, what is the imitation game? You've all seen it. You"
+  },
+  {
+    "t_start": 3103.39,
+    "t_end": 3109.31,
+    "text": "two scenarios, two objects, in this case a human and a robot, and uh you want to"
+  },
+  {
+    "t_start": 3109.31,
+    "t_end": 3111.63,
+    "text": "a human and a robot, and uh you want to test maybe intelligence or maybe the"
+  },
+  {
+    "t_start": 3111.63,
+    "t_end": 3113.71,
+    "text": "test maybe intelligence or maybe the ability to converse."
+  },
+  {
+    "t_start": 3113.71,
+    "t_end": 3118.55,
+    "text": "ability to converse. And uh you think of these two worlds in"
+  },
+  {
+    "t_start": 3118.55,
+    "t_end": 3124.23,
+    "text": "uh a person in this case who doesn't know which world it is put in,"
+  },
+  {
+    "t_start": 3124.23,
+    "t_end": 3126.31,
+    "text": "know which world it is put in, communicates with these objects and then"
+  },
+  {
+    "t_start": 3126.31,
+    "t_end": 3129.51,
+    "text": "communicates with these objects and then decides, gives a number between zero and"
+  },
+  {
+    "t_start": 3129.51,
+    "t_end": 3132.91,
+    "text": "saying, let's say, \"I think this is a human.\""
+  },
+  {
+    "t_start": 3132.91,
+    "t_end": 3139.99,
+    "text": "uh and this number will be P0 in the left and P1 in the right. And you call"
+  },
+  {
+    "t_start": 3139.99,
+    "t_end": 3142.23,
+    "text": "left and P1 in the right. And you call the robot successful or intelligent or"
+  },
+  {
+    "t_start": 3142.23,
+    "t_end": 3147.43,
+    "text": "the robot successful or intelligent or whatever you like if, no matter what"
+  },
+  {
+    "t_start": 3147.43,
+    "t_end": 3155.67,
+    "text": "but as long as the two numbers P0 and P1, the two worlds look almost identical"
+  },
+  {
+    "t_start": 3155.67,
+    "t_end": 3159.31,
+    "text": "P1, the two worlds look almost identical to the referee, to every referee, then"
+  },
+  {
+    "t_start": 3159.31,
+    "t_end": 3161.63,
+    "text": "to the referee, to every referee, then you say indistinguishable and then, you"
+  },
+  {
+    "t_start": 3161.63,
+    "t_end": 3163.31,
+    "text": "you say indistinguishable and then, you know, this object, in this case the"
+  },
+  {
+    "t_start": 3163.31,
+    "t_end": 3166.27,
+    "text": "know, this object, in this case the robot, passes the test."
+  },
+  {
+    "t_start": 3166.27,
+    "t_end": 3167.79,
+    "text": "robot, passes the test. Now,"
+  },
+  {
+    "t_start": 3167.79,
+    "t_end": 3174.79,
+    "text": "there were many, many arguments about this. Books were written and you know,"
+  },
+  {
+    "t_start": 3174.79,
+    "t_end": 3179.55,
+    "text": "imitation game. I don't want to talk about that. I will talk about what we"
+  },
+  {
+    "t_start": 3179.55,
+    "t_end": 3185.19,
+    "text": "We fell in love with the imitation game, sometimes subconsciously."
+  },
+  {
+    "t_start": 3185.19,
+    "t_end": 3191.59,
+    "text": "precise imitation games. We basically picked on this paradigm, this"
+  },
+  {
+    "t_start": 3191.59,
+    "t_end": 3194.03,
+    "text": "picked on this paradigm, this indistinguishability paradigm."
+  },
+  {
+    "t_start": 3194.03,
+    "t_end": 3199.15,
+    "text": "indistinguishability paradigm. Two things are the same if they cannot"
+  },
+  {
+    "t_start": 3199.15,
+    "t_end": 3204.59,
+    "text": "a reasonable test. Reasonable has to, you know, refer to the uh notion at"
+  },
+  {
+    "t_start": 3204.59,
+    "t_end": 3205.83,
+    "text": "you know, refer to the uh notion at hand."
+  },
+  {
+    "t_start": 3205.83,
+    "t_end": 3210.51,
+    "text": "And one key thing about this uh I think about Turing and I think about all the"
+  },
+  {
+    "t_start": 3210.51,
+    "t_end": 3213.11,
+    "text": "about Turing and I think about all the work done in the field, often the most"
+  },
+  {
+    "t_start": 3213.11,
+    "t_end": 3215.83,
+    "text": "work done in the field, often the most important step is making the right"
+  },
+  {
+    "t_start": 3215.83,
+    "t_end": 3220.55,
+    "text": "important step is making the right notion, defining the right notion. Once"
+  },
+  {
+    "t_start": 3220.55,
+    "t_end": 3226.07,
+    "text": "you know, the rest of the theory, theorems, proofs, constructions follow."
+  },
+  {
+    "t_start": 3226.07,
+    "t_end": 3231.71,
+    "text": "theorems, proofs, constructions follow. And in this case, I'll just demonstrate"
+  },
+  {
+    "t_start": 3231.71,
+    "t_end": 3233.91,
+    "text": "in a minute or two the power of this particular paradigm, the imitation game"
+  },
+  {
+    "t_start": 3233.91,
+    "t_end": 3239.59,
+    "text": "particular paradigm, the imitation game paradigm, and how it enables this uh you"
+  },
+  {
+    "t_start": 3239.59,
+    "t_end": 3243.03,
+    "text": "know, amazing both scientific, mathematical, technological, societal"
+  },
+  {
+    "t_start": 3243.03,
+    "t_end": 3250.03,
+    "text": "pseudorandomness, and in privacy. You have seen it all, but maybe not in these"
+  },
+  {
+    "t_start": 3250.03,
+    "t_end": 3252.55,
+    "text": "have seen it all, but maybe not in these pictures. I want to show them all as"
+  },
+  {
+    "t_start": 3252.55,
+    "t_end": 3256.23,
+    "text": "pictures. I want to show them all as imitation game, not the central notion."
+  },
+  {
+    "t_start": 3256.23,
+    "t_end": 3261.67,
+    "text": "imitation game, not the central notion. Here is in cryptography, the most basic"
+  },
+  {
+    "t_start": 3261.67,
+    "t_end": 3263.79,
+    "text": "notion in this seminal paper uh which put cryptography on"
+  },
+  {
+    "t_start": 3263.79,
+    "t_end": 3265.91,
+    "text": "uh which put cryptography on mathematical foundations of Goldwasser"
+  },
+  {
+    "t_start": 3265.91,
+    "t_end": 3270.95,
+    "text": "and Micali, you say, \"When is an encryption scheme secure? Well, give me"
+  },
+  {
+    "t_start": 3270.95,
+    "t_end": 3273.39,
+    "text": "encryption scheme secure? Well, give me two encryptions of two different"
+  },
+  {
+    "t_start": 3273.39,
+    "t_end": 3279.47,
+    "text": "messages, any two different messages, and subject them to any polynomial time"
+  },
+  {
+    "t_start": 3279.47,
+    "t_end": 3280.55,
+    "text": "test. If"
+  },
+  {
+    "t_start": 3280.55,
+    "t_end": 3286.87,
+    "text": "then we call it secure.\" It looks like a very strong definition."
+  },
+  {
+    "t_start": 3286.87,
+    "t_end": 3288.59,
+    "text": "It looks like a very strong definition. Of course, they also showed that you can"
+  },
+  {
+    "t_start": 3288.59,
+    "t_end": 3290.79,
+    "text": "Of course, they also showed that you can achieve it under"
+  },
+  {
+    "t_start": 3290.79,
+    "t_end": 3296.99,
+    "text": "Uh it's an amazing you know, there are so many things that follow from this"
+  },
+  {
+    "t_start": 3296.99,
+    "t_end": 3299.11,
+    "text": "so many things that follow from this definition. For example, the fact that"
+  },
+  {
+    "t_start": 3299.11,
+    "t_end": 3301.55,
+    "text": "definition. For example, the fact that encryption must be probabilistic."
+  },
+  {
+    "t_start": 3301.55,
+    "t_end": 3305.79,
+    "text": "This tells you, if it was deterministic, you would try, you know, both and see"
+  },
+  {
+    "t_start": 3305.79,
+    "t_end": 3307.91,
+    "text": "you would try, you know, both and see which one is encrypted."
+  },
+  {
+    "t_start": 3307.91,
+    "t_end": 3308.91,
+    "text": "which one is encrypted. Anyway,"
+  },
+  {
+    "t_start": 3308.91,
+    "t_end": 3312.63,
+    "text": "secure encryption is defined this way, but in fact, almost every notion in"
+  },
+  {
+    "t_start": 3312.63,
+    "t_end": 3314.87,
+    "text": "but in fact, almost every notion in cryptography is defined by an imitation"
+  },
+  {
+    "t_start": 3314.87,
+    "t_end": 3319.59,
+    "text": "cryptography is defined by an imitation game. If you want to know if a protocol"
+  },
+  {
+    "t_start": 3319.59,
+    "t_end": 3323.59,
+    "text": "computation, you want to know if a protocol is secure, let's say a protocol"
+  },
+  {
+    "t_start": 3323.59,
+    "t_end": 3329.91,
+    "text": "protocol is secure, let's say a protocol for elections, you just subject it to an"
+  },
+  {
+    "t_start": 3329.91,
+    "t_end": 3332.07,
+    "text": "imitation game against some ideal. What would be the ideal would be having a"
+  },
+  {
+    "t_start": 3332.07,
+    "t_end": 3339.63,
+    "text": "would be the ideal would be having a trusted party that which I call the"
+  },
+  {
+    "t_start": 3342.03,
+    "t_end": 3344.15,
+    "text": "uh we I'm sure you noticed already that this is not the presidential debate"
+  },
+  {
+    "t_start": 3344.15,
+    "t_end": 3347.39,
+    "text": "this is not the presidential debate which is happening."
+  },
+  {
+    "t_start": 3349.27,
+    "t_end": 3353.23,
+    "text": "Maybe they are discussing similar things. Uh"
+  },
+  {
+    "t_start": 3357.03,
+    "t_end": 3361.03,
+    "text": "You you simply uh compare your protocols to the ideal situation allowing an"
+  },
+  {
+    "t_start": 3361.03,
+    "t_end": 3366.23,
+    "text": "efficient algorithm to look at a subset of players, maybe some of them bad, and"
+  },
+  {
+    "t_start": 3366.23,
+    "t_end": 3368.51,
+    "text": "of players, maybe some of them bad, and look at their communication in the ideal"
+  },
+  {
+    "t_start": 3368.51,
+    "t_end": 3374.03,
+    "text": "look at their communication in the ideal case and in the protocol. And if you"
+  },
+  {
+    "t_start": 3374.03,
+    "t_end": 3376.27,
+    "text": "cannot distinguish, then, you know, you cannot, then it's the ideal."
+  },
+  {
+    "t_start": 3376.27,
+    "t_end": 3380.79,
+    "text": "cannot, then it's the ideal. Two things that look the same are the"
+  },
+  {
+    "t_start": 3383.87,
+    "t_end": 3384.55,
+    "text": "Pseudorandomness, we, you know, uh"
+  },
+  {
+    "t_start": 3384.55,
+    "t_end": 3390.27,
+    "text": "how do we define a distribution that is anti-coins as pseudorandom? Simply let"
+  },
+  {
+    "t_start": 3390.27,
+    "t_end": 3391.95,
+    "text": "anti-coins as pseudorandom? Simply let any algorithm,"
+  },
+  {
+    "t_start": 3391.95,
+    "t_end": 3395.83,
+    "text": "you know, do with them what they like, an efficient algorithm, and produce"
+  },
+  {
+    "t_start": 3395.83,
+    "t_end": 3400.79,
+    "text": "something. And if it behaves like these gold coins, like a uniform distribution,"
+  },
+  {
+    "t_start": 3400.79,
+    "t_end": 3402.43,
+    "text": "gold coins, like a uniform distribution, indistinguishable from the uniform"
+  },
+  {
+    "t_start": 3402.43,
+    "t_end": 3406.27,
+    "text": "distribution, then we call it pseudorandom. And you know what happened"
+  },
+  {
+    "t_start": 3406.27,
+    "t_end": 3408.71,
+    "text": "pseudorandom. And you know what happened with that."
+  },
+  {
+    "t_start": 3408.71,
+    "t_end": 3415.27,
+    "text": "Privacy. So, the seminal notion by now of differential privacy is again, I"
+  },
+  {
+    "t_start": 3415.27,
+    "t_end": 3421.47,
+    "text": "mean, an imitation game. When is there a way to filter a database to various"
+  },
+  {
+    "t_start": 3421.47,
+    "t_end": 3423.43,
+    "text": "way to filter a database to various queries"
+  },
+  {
+    "t_start": 3423.43,
+    "t_end": 3428.51,
+    "text": "private, differentially private? You simply set up an imitation game saying,"
+  },
+  {
+    "t_start": 3428.51,
+    "t_end": 3430.99,
+    "text": "simply set up an imitation game saying, \"Here are two databases that differ only"
+  },
+  {
+    "t_start": 3430.99,
+    "t_end": 3432.83,
+    "text": "\"Here are two databases that differ only in one record,"
+  },
+  {
+    "t_start": 3432.83,
+    "t_end": 3439.15,
+    "text": "maybe of Jane Doe, but on what a single record. These are adjacent databases."
+  },
+  {
+    "t_start": 3439.15,
+    "t_end": 3444.19,
+    "text": "And you want this for any pair of adjacent databases, for any query that"
+  },
+  {
+    "t_start": 3444.19,
+    "t_end": 3447.47,
+    "text": "adjacent databases, for any query that is allowable, after this filter, the"
+  },
+  {
+    "t_start": 3447.47,
+    "t_end": 3449.99,
+    "text": "is allowable, after this filter, the answer to the queries indistinguishable."
+  },
+  {
+    "t_start": 3449.99,
+    "t_end": 3454.39,
+    "text": "answer to the queries indistinguishable. If it is, then Jane Doe should be happy"
+  },
+  {
+    "t_start": 3454.39,
+    "t_end": 3460.39,
+    "text": "cannot be leaked. So again, that's an imitation game and I"
+  },
+  {
+    "t_start": 3460.39,
+    "t_end": 3462.03,
+    "text": "So again, that's an imitation game and I could give many"
+  },
+  {
+    "t_start": 3462.03,
+    "t_end": 3466.71,
+    "text": "other examples in a longer lecture. I give about this just this"
+  },
+  {
+    "t_start": 3466.71,
+    "t_end": 3468.07,
+    "text": "give about this just this uh"
+  },
+  {
+    "t_start": 3468.07,
+    "t_end": 3474.07,
+    "text": "bit of imitation games. You can describe the regularity lemma as an imitation"
+  },
+  {
+    "t_start": 3474.07,
+    "t_end": 3479.71,
+    "text": "the regularity lemma as an imitation game and there are many, you know, other"
+  },
+  {
+    "t_start": 3479.71,
+    "t_end": 3485.79,
+    "text": "I want to move finally the last five minutes to the uh one of the last papers"
+  },
+  {
+    "t_start": 3485.79,
+    "t_end": 3486.87,
+    "text": "minutes to the uh one of the last papers that"
+  },
+  {
+    "t_start": 3486.87,
+    "t_end": 3492.39,
+    "text": "Turing wrote. Uh also in Manchester."
+  },
+  {
+    "t_start": 3492.39,
+    "t_end": 3497.79,
+    "text": "it's a paper in biology. It's called The Chemical Basis of"
+  },
+  {
+    "t_start": 3497.79,
+    "t_end": 3500.15,
+    "text": "It's called The Chemical Basis of Morphogenesis. I wonder how many people"
+  },
+  {
+    "t_start": 3500.15,
+    "t_end": 3501.91,
+    "text": "Morphogenesis. I wonder how many people heard about this paper."
+  },
+  {
+    "t_start": 3501.91,
+    "t_end": 3504.87,
+    "text": "heard about this paper. Raise your hands."
+  },
+  {
+    "t_start": 3505.87,
+    "t_end": 3507.47,
+    "text": "Okay. So,"
+  },
+  {
+    "t_start": 3507.47,
+    "t_end": 3513.83,
+    "text": "never heard of this. So, this is not just a paper in biology. This is one of"
+  },
+  {
+    "t_start": 3513.83,
+    "t_end": 3516.23,
+    "text": "just a paper in biology. This is one of the most quoted, one of the"
+  },
+  {
+    "t_start": 3516.23,
+    "t_end": 3524.83,
+    "text": "most referenced papers in biology. It's like 20,000 references."
+  },
+  {
+    "t_start": 3526.47,
+    "t_end": 3531.75,
+    "text": "it's about the problem that, you know, well, I told you about many other"
+  },
+  {
+    "t_start": 3531.75,
+    "t_end": 3534.23,
+    "text": "problems he thought about, but this seems to be really far off"
+  },
+  {
+    "t_start": 3534.23,
+    "t_end": 3537.83,
+    "text": "uh most of the things he thought about. Actually, if you read about his life,"
+  },
+  {
+    "t_start": 3537.83,
+    "t_end": 3541.15,
+    "text": "Actually, if you read about his life, you know that he was very interested in"
+  },
+  {
+    "t_start": 3541.15,
+    "t_end": 3542.79,
+    "text": "nature. Uh"
+  },
+  {
+    "t_start": 3542.79,
+    "t_end": 3547.83,
+    "text": "and he was very avid chemist and he had a lab at home."
+  },
+  {
+    "t_start": 3547.83,
+    "t_end": 3549.79,
+    "text": "a lab at home. Uh"
+  },
+  {
+    "t_start": 3549.79,
+    "t_end": 3554.87,
+    "text": "He was doing many experiments. He wrote the paper explaining the"
+  },
+  {
+    "t_start": 3554.87,
+    "t_end": 3560.39,
+    "text": "following problem. So, it's the most one of the most basic problems in biology"
+  },
+  {
+    "t_start": 3560.39,
+    "t_end": 3561.83,
+    "text": "of the most basic problems in biology is this, you know, you look at this"
+  },
+  {
+    "t_start": 3561.83,
+    "t_end": 3564.19,
+    "text": "is this, you know, you look at this picture, you say, \"What's going on?\""
+  },
+  {
+    "t_start": 3564.19,
+    "t_end": 3567.31,
+    "text": "picture, you say, \"What's going on?\" Something is wrong here, right?"
+  },
+  {
+    "t_start": 3567.31,
+    "t_end": 3573.27,
+    "text": "How come this came to be? I mean, after all, zebras, all mammals and many other"
+  },
+  {
+    "t_start": 3573.27,
+    "t_end": 3575.11,
+    "text": "all, zebras, all mammals and many other creatures"
+  },
+  {
+    "t_start": 3575.11,
+    "t_end": 3583.51,
+    "text": "emerge from a completely symmetric homogeneous beginning, a fertilized egg."
+  },
+  {
+    "t_start": 3583.51,
+    "t_end": 3585.19,
+    "text": "homogeneous beginning, a fertilized egg. How do you get this?"
+  },
+  {
+    "t_start": 3585.19,
+    "t_end": 3589.95,
+    "text": "You know, this the stripes, I don't know, the legs, the head, the tail, the"
+  },
+  {
+    "t_start": 3589.95,
+    "t_end": 3593.07,
+    "text": "know, the legs, the head, the tail, the body direction. It's not just that"
+  },
+  {
+    "t_start": 3593.07,
+    "t_end": 3596.07,
+    "text": "body direction. It's not just that asymmetry arises from symmetry."
+  },
+  {
+    "t_start": 3596.07,
+    "t_end": 3599.63,
+    "text": "asymmetry arises from symmetry. It's not just asymmetry. All zebras look"
+  },
+  {
+    "t_start": 3599.63,
+    "t_end": 3603.87,
+    "text": "alike, right? We recognize zebras or you recognize"
+  },
+  {
+    "t_start": 3603.87,
+    "t_end": 3608.79,
+    "text": "So, it's really about how does different structures and what kind of"
+  },
+  {
+    "t_start": 3608.79,
+    "t_end": 3614.47,
+    "text": "different structures and what kind of this different structures can later"
+  },
+  {
+    "t_start": 3614.47,
+    "t_end": 3618.07,
+    "text": "So, I don't know if I was faced with this problem, I wouldn't know what to"
+  },
+  {
+    "t_start": 3618.07,
+    "t_end": 3620.55,
+    "text": "this problem, I wouldn't know what to do. I'd move to, you know,"
+  },
+  {
+    "t_start": 3620.55,
+    "t_end": 3625.07,
+    "text": "do. I'd move to, you know, previous example, which looks easier."
+  },
+  {
+    "t_start": 3626.83,
+    "t_end": 3629.79,
+    "text": "And here's what Turing does. I mean, I think it's uh, you know, mind-boggling."
+  },
+  {
+    "t_start": 3629.79,
+    "t_end": 3633.35,
+    "text": "think it's uh, you know, mind-boggling. Okay. So, I'll tell you a little bit on"
+  },
+  {
+    "t_start": 3633.35,
+    "t_end": 3634.23,
+    "text": "your welcome to it. He says"
+  },
+  {
+    "t_start": 3634.23,
+    "t_end": 3640.71,
+    "text": "he does also the boldness is amazing. In the section, a mathematical model of a"
+  },
+  {
+    "t_start": 3640.71,
+    "t_end": 3643.95,
+    "text": "the section, a mathematical model of a growing embryo will be described. Okay,"
+  },
+  {
+    "t_start": 3643.95,
+    "t_end": 3645.83,
+    "text": "growing embryo will be described. Okay, growing embryo."
+  },
+  {
+    "t_start": 3645.83,
+    "t_end": 3650.31,
+    "text": "The model will be a simplification and then an idealization and"
+  },
+  {
+    "t_start": 3650.31,
+    "t_end": 3653.23,
+    "text": "and then an idealization and consequently a falsification."
+  },
+  {
+    "t_start": 3653.23,
+    "t_end": 3657.87,
+    "text": "It is to be hoped that the features retained for discussion are those of"
+  },
+  {
+    "t_start": 3657.87,
+    "t_end": 3660.19,
+    "text": "retained for discussion are those of greatest importance in the present state"
+  },
+  {
+    "t_start": 3660.19,
+    "t_end": 3661.39,
+    "text": "greatest importance in the present state of knowledge."
+  },
+  {
+    "t_start": 3661.39,
+    "t_end": 3664.67,
+    "text": "of knowledge. And given the number of references of"
+  },
+  {
+    "t_start": 3664.67,
+    "t_end": 3668.07,
+    "text": "yeah, it is hoped that it is materialized."
+  },
+  {
+    "t_start": 3668.07,
+    "t_end": 3672.35,
+    "text": "Here's a longer description. Uh, he calls this the,"
+  },
+  {
+    "t_start": 3672.35,
+    "t_end": 3676.55,
+    "text": "you know, it's a theory this morphogenesis is the emergence of these"
+  },
+  {
+    "t_start": 3676.55,
+    "t_end": 3680.27,
+    "text": "morphogenesis is the emergence of these rich rich structures from homogeneity."
+  },
+  {
+    "t_start": 3680.27,
+    "t_end": 3687.63,
+    "text": "Well, it's based on chemicals, which he calls morphogens, and the system is"
+  },
+  {
+    "t_start": 3687.63,
+    "t_end": 3689.19,
+    "text": "calls morphogens, and the system is called a reaction-diffusion. I'll"
+  },
+  {
+    "t_start": 3689.19,
+    "t_end": 3696.27,
+    "text": "called a reaction-diffusion. I'll explain it in a second. Uh, it's just uh"
+  },
+  {
+    "t_start": 3696.27,
+    "t_end": 3697.71,
+    "text": "nice to read. He's uh, you know, um"
+  },
+  {
+    "t_start": 3697.71,
+    "t_end": 3700.03,
+    "text": "um uh"
+  },
+  {
+    "t_start": 3700.03,
+    "t_end": 3705.99,
+    "text": "uh Yeah, he says that uh we we consider it in some detail in the case of an"
+  },
+  {
+    "t_start": 3705.99,
+    "t_end": 3709.07,
+    "text": "it in some detail in the case of an isolated ring of cells."
+  },
+  {
+    "t_start": 3709.07,
+    "t_end": 3711.43,
+    "text": "isolated ring of cells. A mathematically convenient though"
+  },
+  {
+    "t_start": 3711.43,
+    "t_end": 3714.39,
+    "text": "A mathematically convenient though biologically unusual system."
+  },
+  {
+    "t_start": 3714.39,
+    "t_end": 3718.59,
+    "text": "Uh, but anyway, this investigation is concerned with the onset onset of"
+  },
+  {
+    "t_start": 3718.59,
+    "t_end": 3720.67,
+    "text": "concerned with the onset onset of instability and"
+  },
+  {
+    "t_start": 3720.67,
+    "t_end": 3725.75,
+    "text": "in you know, changing from the initial homogeneous state, but"
+  },
+  {
+    "t_start": 3725.75,
+    "t_end": 3731.71,
+    "text": "he figures out six essentially different forms that the long-term structure may"
+  },
+  {
+    "t_start": 3731.71,
+    "t_end": 3734.67,
+    "text": "forms that the long-term structure may take, which has patterns in it. For"
+  },
+  {
+    "t_start": 3734.67,
+    "t_end": 3736.91,
+    "text": "take, which has patterns in it. For example, stationary waves. We'll see"
+  },
+  {
+    "t_start": 3736.91,
+    "t_end": 3737.83,
+    "text": "example, stationary waves. We'll see them."
+  },
+  {
+    "t_start": 3737.83,
+    "t_end": 3744.91,
+    "text": "So, what's the model? The model is, you know, an a cellular ring of cells,"
+  },
+  {
+    "t_start": 3744.91,
+    "t_end": 3746.83,
+    "text": "you know, an a cellular ring of cells, you know, completely homogeneous in"
+  },
+  {
+    "t_start": 3746.83,
+    "t_end": 3748.35,
+    "text": "you know, completely homogeneous in itself."
+  },
+  {
+    "t_start": 3748.35,
+    "t_end": 3748.95,
+    "text": "itself. Uh,"
+  },
+  {
+    "t_start": 3748.95,
+    "t_end": 3752.55,
+    "text": "Uh, he considers both a discrete setting and"
+  },
+  {
+    "t_start": 3752.55,
+    "t_end": 3756.23,
+    "text": "continuous setting, analyzes them both mathematically."
+  },
+  {
+    "t_start": 3756.23,
+    "t_end": 3763.23,
+    "text": "Uh, a state is simply the quantity of the different chemicals in"
+  },
+  {
+    "t_start": 3763.23,
+    "t_end": 3764.71,
+    "text": "quantity of the different chemicals in every cell."
+  },
+  {
+    "t_start": 3764.71,
+    "t_end": 3770.91,
+    "text": "Okay, that's a state. I'll tell you there's, you know, 9 mg of A and 2 mg of"
+  },
+  {
+    "t_start": 3770.91,
+    "t_end": 3772.99,
+    "text": "there's, you know, 9 mg of A and 2 mg of B in this cell and so on."
+  },
+  {
+    "t_start": 3772.99,
+    "t_end": 3775.43,
+    "text": "B in this cell and so on. And"
+  },
+  {
+    "t_start": 3775.43,
+    "t_end": 3781.71,
+    "text": "the way this evolves is by reaction and diffusion. Reaction happens in the cell,"
+  },
+  {
+    "t_start": 3781.71,
+    "t_end": 3783.63,
+    "text": "diffusion. Reaction happens in the cell, a chemical reaction between whatever"
+  },
+  {
+    "t_start": 3783.63,
+    "t_end": 3785.23,
+    "text": "a chemical reaction between whatever chemicals are there."
+  },
+  {
+    "t_start": 3785.23,
+    "t_end": 3788.11,
+    "text": "chemicals are there. Diffusion happens if"
+  },
+  {
+    "t_start": 3788.11,
+    "t_end": 3792.79,
+    "text": "your concentration in one cell is different than the concentration, let's"
+  },
+  {
+    "t_start": 3792.79,
+    "t_end": 3797.43,
+    "text": "different than the concentration, let's say, of chemical A in the other, then"
+  },
+  {
+    "t_start": 3797.43,
+    "t_end": 3798.71,
+    "text": "there's some diffusion to make them similar"
+  },
+  {
+    "t_start": 3798.71,
+    "t_end": 3803.43,
+    "text": "at some rate. This is the only input. Of course, the initial state, you give the"
+  },
+  {
+    "t_start": 3803.43,
+    "t_end": 3806.67,
+    "text": "course, the initial state, you give the same amount of chemicals in every cell,"
+  },
+  {
+    "t_start": 3806.67,
+    "t_end": 3809.07,
+    "text": "same amount of chemicals in every cell, so it's completely homogeneous."
+  },
+  {
+    "t_start": 3809.07,
+    "t_end": 3811.87,
+    "text": "so it's completely homogeneous. And then he says, now what's the"
+  },
+  {
+    "t_start": 3811.87,
+    "t_end": 3817.83,
+    "text": "And it's amazing how, you know, we could take it as a, you know, fantastic"
+  },
+  {
+    "t_start": 3817.83,
+    "t_end": 3821.27,
+    "text": "take it as a, you know, fantastic illustration of uh computational lens on"
+  },
+  {
+    "t_start": 3821.27,
+    "t_end": 3825.23,
+    "text": "illustration of uh computational lens on the sciences, in this case on biology."
+  },
+  {
+    "t_start": 3825.23,
+    "t_end": 3826.55,
+    "text": "He explains that this is basically a computer."
+  },
+  {
+    "t_start": 3826.55,
+    "t_end": 3831.99,
+    "text": "What happens is that from one state, we derive the state immediately after by"
+  },
+  {
+    "t_start": 3831.99,
+    "t_end": 3833.95,
+    "text": "derive the state immediately after by simple local rule."
+  },
+  {
+    "t_start": 3833.95,
+    "t_end": 3838.83,
+    "text": "Whatever happens inside the cell and between two different cells."
+  },
+  {
+    "t_start": 3838.83,
+    "t_end": 3840.47,
+    "text": "between two different cells. And uh"
+  },
+  {
+    "t_start": 3840.47,
+    "t_end": 3845.63,
+    "text": "what happens is, as I said, quantities change in a reaction in the cell,"
+  },
+  {
+    "t_start": 3845.63,
+    "t_end": 3850.39,
+    "text": "but initially they're all the same, and then by diffusion between the cells. His"
+  },
+  {
+    "t_start": 3850.39,
+    "t_end": 3852.63,
+    "text": "then by diffusion between the cells. His only point is that this"
+  },
+  {
+    "t_start": 3852.63,
+    "t_end": 3854.31,
+    "text": "only point is that this stable"
+  },
+  {
+    "t_start": 3854.31,
+    "t_end": 3860.55,
+    "text": "uh equilibrium uh this equilibrium is unstable. If there's slight differences,"
+  },
+  {
+    "t_start": 3860.55,
+    "t_end": 3864.99,
+    "text": "unstable. If there's slight differences, and of course they won't be the exact"
+  },
+  {
+    "t_start": 3864.99,
+    "t_end": 3870.27,
+    "text": "same amount, then some instability will occur, and then in the long term, not"
+  },
+  {
+    "t_start": 3870.27,
+    "t_end": 3872.31,
+    "text": "only symmetry breaks, but structures emerge, and you can actually quantify"
+  },
+  {
+    "t_start": 3872.31,
+    "t_end": 3876.19,
+    "text": "emerge, and you can actually quantify and describe them. Let me show you this"
+  },
+  {
+    "t_start": 3876.19,
+    "t_end": 3880.39,
+    "text": "He actually considers not only a ring of cells, he considers also a sphere, a"
+  },
+  {
+    "t_start": 3880.39,
+    "t_end": 3882.15,
+    "text": "cells, he considers also a sphere, a three-dimensional model, and he"
+  },
+  {
+    "t_start": 3882.15,
+    "t_end": 3884.15,
+    "text": "three-dimensional model, and he considers lattices,"
+  },
+  {
+    "t_start": 3884.15,
+    "t_end": 3886.67,
+    "text": "considers lattices, and he studies them all."
+  },
+  {
+    "t_start": 3886.67,
+    "t_end": 3892.15,
+    "text": "in fact, he invents cellular automata before, you know, Ulam and von Neumann."
+  },
+  {
+    "t_start": 3892.15,
+    "t_end": 3894.79,
+    "text": "before, you know, Ulam and von Neumann. This these are cellular automata."
+  },
+  {
+    "t_start": 3894.79,
+    "t_end": 3897.03,
+    "text": "This these are cellular automata. In the, you know, two-dimensional model,"
+  },
+  {
+    "t_start": 3897.03,
+    "t_end": 3900.03,
+    "text": "In the, you know, two-dimensional model, he explains uh what's called the"
+  },
+  {
+    "t_start": 3900.03,
+    "t_end": 3902.71,
+    "text": "he explains uh what's called the phyllotaxis, this uh, you know, why do"
+  },
+  {
+    "t_start": 3902.71,
+    "t_end": 3905.27,
+    "text": "phyllotaxis, this uh, you know, why do leaves grow in some parts of some"
+  },
+  {
+    "t_start": 3905.27,
+    "t_end": 3909.59,
+    "text": "leaves grow in some parts of some directions and not in others. He was"
+  },
+  {
+    "t_start": 3909.59,
+    "t_end": 3914.87,
+    "text": "Fibonacci things. In fact, he got to the ring model by looking at this hydra."
+  },
+  {
+    "t_start": 3914.87,
+    "t_end": 3917.47,
+    "text": "ring model by looking at this hydra. This is a tiny"
+  },
+  {
+    "t_start": 3917.47,
+    "t_end": 3920.67,
+    "text": "This is a tiny uh marine uh creature."
+  },
+  {
+    "t_start": 3920.67,
+    "t_end": 3926.71,
+    "text": "And if you cut it, if you cut the stem, then again the tentacles will grow. So,"
+  },
+  {
+    "t_start": 3926.71,
+    "t_end": 3928.71,
+    "text": "then again the tentacles will grow. So, when you cut it, it's a ring."
+  },
+  {
+    "t_start": 3928.71,
+    "t_end": 3930.67,
+    "text": "when you cut it, it's a ring. And he asked, why will the tentacles"
+  },
+  {
+    "t_start": 3930.67,
+    "t_end": 3932.67,
+    "text": "And he asked, why will the tentacles grow from this place and not from that"
+  },
+  {
+    "t_start": 3932.67,
+    "t_end": 3933.87,
+    "text": "grow from this place and not from that place?"
+  },
+  {
+    "t_start": 3933.87,
+    "t_end": 3939.55,
+    "text": "He explains this. In the three-dimensional case, he was"
+  },
+  {
+    "t_start": 3939.55,
+    "t_end": 3942.39,
+    "text": "In the three-dimensional case, he was really interested in embryos."
+  },
+  {
+    "t_start": 3942.39,
+    "t_end": 3946.55,
+    "text": "really interested in embryos. As some of you, I'm sure, know,"
+  },
+  {
+    "t_start": 3946.55,
+    "t_end": 3950.83,
+    "text": "especially parents, uh the fetus evolves in us initially,"
+  },
+  {
+    "t_start": 3950.83,
+    "t_end": 3955.03,
+    "text": "uh, you know, cells the fertilized eggs divide, and for a while it's a"
+  },
+  {
+    "t_start": 3955.03,
+    "t_end": 3957.39,
+    "text": "divide, and for a while it's a homogeneous ball of cells."
+  },
+  {
+    "t_start": 3957.39,
+    "t_end": 3963.47,
+    "text": "And this is a blastula. In some place, the gastrulation happens, and"
+  },
+  {
+    "t_start": 3963.47,
+    "t_end": 3967.07,
+    "text": "symmetry breaks, and a direction is formed, basically the direction of the"
+  },
+  {
+    "t_start": 3967.07,
+    "t_end": 3968.51,
+    "text": "formed, basically the direction of the spine."
+  },
+  {
+    "t_start": 3968.51,
+    "t_end": 3974.67,
+    "text": "So, how does this happen? Well, he has this model can explain gastrulation."
+  },
+  {
+    "t_start": 3974.67,
+    "t_end": 3977.31,
+    "text": "this model can explain gastrulation. And third object he was really"
+  },
+  {
+    "t_start": 3977.31,
+    "t_end": 3979.39,
+    "text": "And third object he was really interested in is this dappling, these"
+  },
+  {
+    "t_start": 3979.39,
+    "t_end": 3980.63,
+    "text": "interested in is this dappling, these patches."
+  },
+  {
+    "t_start": 3980.63,
+    "t_end": 3985.63,
+    "text": "And here he doesn't analyze this mathematically. The first two he does."
+  },
+  {
+    "t_start": 3985.63,
+    "t_end": 3991.03,
+    "text": "Uh, he he even so patient to biologists, he says, okay, here is some mathematical"
+  },
+  {
+    "t_start": 3991.03,
+    "t_end": 3993.91,
+    "text": "he says, okay, here is some mathematical formulas. Uh, this may not be familiar."
+  },
+  {
+    "t_start": 3993.91,
+    "t_end": 3996.11,
+    "text": "formulas. Uh, this may not be familiar. Maybe you don't know about uh, you know,"
+  },
+  {
+    "t_start": 3996.11,
+    "t_end": 4001.23,
+    "text": "Maybe you don't know about uh, you know, Fourier analysis, or you don't know"
+  },
+  {
+    "t_start": 4001.23,
+    "t_end": 4007.07,
+    "text": "about spherical harmonics. I'll explain it with simple examples. Uh, I mean, he"
+  },
+  {
+    "t_start": 4007.07,
+    "t_end": 4010.11,
+    "text": "he explains actually the first model just with two chemicals, one reaction,"
+  },
+  {
+    "t_start": 4010.11,
+    "t_end": 4011.75,
+    "text": "just with two chemicals, one reaction, and just controlling the different"
+  },
+  {
+    "t_start": 4011.75,
+    "t_end": 4016.51,
+    "text": "rates, which can happen with changes of temperature, he gets, I don't know,"
+  },
+  {
+    "t_start": 4016.51,
+    "t_end": 4017.349,
+    "text": "temperature, he gets, I don't know, these"
+  },
+  {
+    "t_start": 4017.349,
+    "t_end": 4020.79,
+    "text": "stationary waves of uh pattern."
+  },
+  {
+    "t_start": 4020.79,
+    "t_end": 4026.27,
+    "text": "The dappling in the So, the last is thing like the"
+  },
+  {
+    "t_start": 4026.27,
+    "t_end": 4032.349,
+    "text": "flat part of the cow, he simulates on the Manchester computer. He had reserved"
+  },
+  {
+    "t_start": 4032.349,
+    "t_end": 4034.47,
+    "text": "the Manchester computer. He had reserved every Sunday night, every Thursday"
+  },
+  {
+    "t_start": 4034.47,
+    "t_end": 4035.59,
+    "text": "every Sunday night, every Thursday night."
+  },
+  {
+    "t_start": 4035.59,
+    "t_end": 4039.47,
+    "text": "He had the computer for himself. He was working all night doing simulations,"
+  },
+  {
+    "t_start": 4039.47,
+    "t_end": 4041.39,
+    "text": "working all night doing simulations, writing programs."
+  },
+  {
+    "t_start": 4041.39,
+    "t_end": 4042.43,
+    "text": "writing programs. Uh,"
+  },
+  {
+    "t_start": 4042.43,
+    "t_end": 4050.11,
+    "text": "and generated this uh by simulation. Anyway,"
+  },
+  {
+    "t_start": 4052.83,
+    "t_end": 4055.91,
+    "text": "what we do with this, we do uh yeah, we follow him also here. Of"
+  },
+  {
+    "t_start": 4055.91,
+    "t_end": 4057.349,
+    "text": "course, many"
+  },
+  {
+    "t_start": 4057.349,
+    "t_end": 4062.95,
+    "text": "uh former members are doing collaborations, introducing"
+  },
+  {
+    "t_start": 4062.95,
+    "t_end": 4067.27,
+    "text": "the computational point of view in biology, economics. We had a great talk"
+  },
+  {
+    "t_start": 4067.27,
+    "t_end": 4070.07,
+    "text": "biology, economics. We had a great talk this morning from Michael Feldman about"
+  },
+  {
+    "t_start": 4070.07,
+    "t_end": 4070.71,
+    "text": "this morning from Michael Feldman about uh"
+  },
+  {
+    "t_start": 4070.71,
+    "t_end": 4073.51,
+    "text": "uh contracts"
+  },
+  {
+    "t_start": 4073.51,
+    "t_end": 4074.83,
+    "text": "contracts and"
+  },
+  {
+    "t_start": 4074.83,
+    "t_end": 4079.51,
+    "text": "computer science point of contact, social science, physics, math, and"
+  },
+  {
+    "t_start": 4079.51,
+    "t_end": 4081.07,
+    "text": "social science, physics, math, and anything else."
+  },
+  {
+    "t_start": 4081.07,
+    "t_end": 4082.39,
+    "text": "anything else. Uh,"
+  },
+  {
+    "t_start": 4082.39,
+    "t_end": 4085.99,
+    "text": "there are collaborations, cross-fertilization."
+  },
+  {
+    "t_start": 4085.99,
+    "t_end": 4087.43,
+    "text": "cross-fertilization. Uh"
+  },
+  {
+    "t_start": 4087.43,
+    "t_end": 4091.27,
+    "text": "I think that we are seeing only the beginning. We know only the beginning of"
+  },
+  {
+    "t_start": 4091.27,
+    "t_end": 4092.55,
+    "text": "beginning. We know only the beginning of this uh"
+  },
+  {
+    "t_start": 4092.55,
+    "t_end": 4099.63,
+    "text": "I'm sure some of these uh fields are very old, much older than"
+  },
+  {
+    "t_start": 4099.63,
+    "t_end": 4101.51,
+    "text": "fields are very old, much older than computer science, and some are"
+  },
+  {
+    "t_start": 4101.51,
+    "t_end": 4106.789,
+    "text": "computer science, and some are conservative and don't, you know, are"
+  },
+  {
+    "t_start": 4106.789,
+    "t_end": 4111.99,
+    "text": "you know, to think about their systems as computational or information"
+  },
+  {
+    "t_start": 4111.99,
+    "t_end": 4117.51,
+    "text": "processes, but by now our theory and methodology of the field is"
+  },
+  {
+    "t_start": 4117.51,
+    "t_end": 4123.349,
+    "text": "uh I think elaborate and deep, and we have an understanding that can be and is"
+  },
+  {
+    "t_start": 4123.349,
+    "t_end": 4126.27,
+    "text": "have an understanding that can be and is useful to lots of the scientists,"
+  },
+  {
+    "t_start": 4126.27,
+    "t_end": 4129.07,
+    "text": "useful to lots of the scientists, especially in the modeling and analysis."
+  },
+  {
+    "t_start": 4129.07,
+    "t_end": 4130.07,
+    "text": "especially in the modeling and analysis. Um"
+  },
+  {
+    "t_start": 4130.07,
+    "t_end": 4131.07,
+    "text": "Um and"
+  },
+  {
+    "t_start": 4131.07,
+    "t_end": 4134.87,
+    "text": "yeah, we live I'm sure we'll see much more of this."
+  },
+  {
+    "t_start": 4134.87,
+    "t_end": 4139.19,
+    "text": "Okay, so let me end here. Uh, yeah, it's sort of hard to"
+  },
+  {
+    "t_start": 4139.19,
+    "t_end": 4140.59,
+    "text": "Uh, yeah, it's sort of hard to summarize."
+  },
+  {
+    "t_start": 4140.59,
+    "t_end": 4145.03,
+    "text": "I think it's the best advice I can give you is is to read his papers. He writes"
+  },
+  {
+    "t_start": 4145.03,
+    "t_end": 4146.87,
+    "text": "you is is to read his papers. He writes so beautifully."
+  },
+  {
+    "t_start": 4146.87,
+    "t_end": 4151.789,
+    "text": "Uh, clearly, you know, a great thinker and"
+  },
+  {
+    "t_start": 4151.789,
+    "t_end": 4154.91,
+    "text": "a great thinker and with an amazing amazing impact"
+  },
+  {
+    "t_start": 4154.91,
+    "t_end": 4157.349,
+    "text": "with an amazing amazing impact on the world, on the what"
+  },
+  {
+    "t_start": 4157.349,
+    "t_end": 4159.349,
+    "text": "on the world, on the what we are experiencing."
+  },
+  {
+    "t_start": 4159.349,
+    "t_end": 4165.11,
+    "text": "I think it's it's really I didn't know that. And again, from reading, you see"
+  },
+  {
+    "t_start": 4165.11,
+    "t_end": 4169.07,
+    "text": "that. And again, from reading, you see uh his different paths. I mean, he he"
+  },
+  {
+    "t_start": 4169.07,
+    "t_end": 4171.749,
+    "text": "uh his different paths. I mean, he he loved math and, you know, things like"
+  },
+  {
+    "t_start": 4171.749,
+    "t_end": 4174.23,
+    "text": "loved math and, you know, things like number theory. Uh, he's a real"
+  },
+  {
+    "t_start": 4174.23,
+    "t_end": 4176.15,
+    "text": "number theory. Uh, he's a real mathematician. He proved, as an"
+  },
+  {
+    "t_start": 4176.15,
+    "t_end": 4178.829,
+    "text": "mathematician. He proved, as an undergraduate, he proved the strongest"
+  },
+  {
+    "t_start": 4178.829,
+    "t_end": 4185.03,
+    "text": "form of the, uh, law of large the, you know, central limit theorem. Only it was"
+  },
+  {
+    "t_start": 4185.03,
+    "t_end": 4187.47,
+    "text": "know, central limit theorem. Only it was proved 10 10 years earlier. But he was"
+  },
+  {
+    "t_start": 4187.47,
+    "t_end": 4188.91,
+    "text": "proved 10 10 years earlier. But he was an undergrad."
+  },
+  {
+    "t_start": 4188.91,
+    "t_end": 4191.03,
+    "text": "an undergrad. Uh,"
+  },
+  {
+    "t_start": 4191.03,
+    "t_end": 4195.15,
+    "text": "he, uh, was a scientist, as you saw in the last, was really interested in"
+  },
+  {
+    "t_start": 4195.15,
+    "t_end": 4197.31,
+    "text": "the last, was really interested in nature and modeling nature."
+  },
+  {
+    "t_start": 4197.31,
+    "t_end": 4201.23,
+    "text": "He clearly has a very strong philosophical bent from the Turing"
+  },
+  {
+    "t_start": 4201.23,
+    "t_end": 4204.07,
+    "text": "philosophical bent from the Turing machine paper and uh, his intelligence"
+  },
+  {
+    "t_start": 4204.07,
+    "t_end": 4208.75,
+    "text": "paper. Uh, and he was really a hacker and an engineer. I mean, I didn't tell"
+  },
+  {
+    "t_start": 4208.75,
+    "t_end": 4213.31,
+    "text": "and an engineer. I mean, I didn't tell you I said I'm not going to talk about"
+  },
+  {
+    "t_start": 4213.31,
+    "t_end": 4215.71,
+    "text": "partial things, but actually really cared about building devices and the,"
+  },
+  {
+    "t_start": 4215.71,
+    "t_end": 4219.55,
+    "text": "cared about building devices and the, you know, he cared about uh,"
+  },
+  {
+    "t_start": 4219.55,
+    "t_end": 4223.27,
+    "text": "understanding to the very detailed the, uh,"
+  },
+  {
+    "t_start": 4223.27,
+    "t_end": 4231.31,
+    "text": "material and materials that will be used in memory for computers or in designing"
+  },
+  {
+    "t_start": 4231.31,
+    "t_end": 4237.71,
+    "text": "in memory for computers or in designing the Delilah. Well, let me not talk about"
+  },
+  {
+    "t_start": 4237.71,
+    "t_end": 4239.15,
+    "text": "this. Uh, an encryption machine. Yeah, pretty amazing."
+  },
+  {
+    "t_start": 4239.15,
+    "t_end": 4245.23,
+    "text": "Uh, he, yeah, managed to, uh, you know, study really a"
+  },
+  {
+    "t_start": 4245.23,
+    "t_end": 4247.91,
+    "text": "you know, study really a stunning variety of fundamental issues."
+  },
+  {
+    "t_start": 4247.91,
+    "t_end": 4249.39,
+    "text": "stunning variety of fundamental issues. And"
+  },
+  {
+    "t_start": 4249.39,
+    "t_end": 4253.23,
+    "text": "with each of them, really deeply. I mean, getting to the heart of many of"
+  },
+  {
+    "t_start": 4253.23,
+    "t_end": 4256.31,
+    "text": "mean, getting to the heart of many of these things. I think it's it's hard to"
+  },
+  {
+    "t_start": 4256.31,
+    "t_end": 4261.19,
+    "text": "these things. I think it's it's hard to imagine how fearless, I mean, it's hard"
+  },
+  {
+    "t_start": 4261.19,
+    "t_end": 4268.23,
+    "text": "nothing. He was willing to go anywhere. Uh, he really had a deep desire to"
+  },
+  {
+    "t_start": 4268.23,
+    "t_end": 4271.19,
+    "text": "understand it to understand these and, of course, use the value of theory."
+  },
+  {
+    "t_start": 4271.19,
+    "t_end": 4274.31,
+    "text": "of course, use the value of theory. Uh, it's, again, really interesting"
+  },
+  {
+    "t_start": 4274.31,
+    "t_end": 4277.79,
+    "text": "reading his papers. In many of them, there are, you know, not many. He didn't"
+  },
+  {
+    "t_start": 4277.79,
+    "t_end": 4279.95,
+    "text": "there are, you know, not many. He didn't write many papers. There are there are"
+  },
+  {
+    "t_start": 4279.95,
+    "t_end": 4284.43,
+    "text": "write many papers. There are there are controversial models. And he takes, you"
+  },
+  {
+    "t_start": 4284.43,
+    "t_end": 4287.39,
+    "text": "controversial models. And he takes, you know, great care to think about what"
+  },
+  {
+    "t_start": 4287.39,
+    "t_end": 4292.87,
+    "text": "know, great care to think about what others might, you know, say about these"
+  },
+  {
+    "t_start": 4292.87,
+    "t_end": 4298.35,
+    "text": "objections or criticisms. And already said, \"If you say this, here's my"
+  },
+  {
+    "t_start": 4298.35,
+    "t_end": 4303.63,
+    "text": "answer. And if you say this, here's my answer.\" So, in the intelligence paper,"
+  },
+  {
+    "t_start": 4303.63,
+    "t_end": 4305.35,
+    "text": "answer.\" So, in the intelligence paper, it's it's amazing. He says, \"If you are"
+  },
+  {
+    "t_start": 4305.35,
+    "t_end": 4306.83,
+    "text": "it's it's amazing. He says, \"If you are a theologian,"
+  },
+  {
+    "t_start": 4306.83,
+    "t_end": 4309.55,
+    "text": "you know, and you have this point of view, let me answer you as a"
+  },
+  {
+    "t_start": 4309.55,
+    "t_end": 4311.19,
+    "text": "view, let me answer you as a theologian.\""
+  },
+  {
+    "t_start": 4311.19,
+    "t_end": 4317.11,
+    "text": "And he's really honest. I mean, he criticizes himself and says, \"This is a"
+  },
+  {
+    "t_start": 4317.11,
+    "t_end": 4322.75,
+    "text": "criticizes himself and says, \"This is a weak argument. I answer you, but this is"
+  },
+  {
+    "t_start": 4322.75,
+    "t_end": 4323.79,
+    "text": "not such a strong argument.\" It's Yeah."
+  },
+  {
+    "t_start": 4323.79,
+    "t_end": 4330.35,
+    "text": "Uh, very, you know, very clear thinker and the way he writes, clarify as this."
+  },
+  {
+    "t_start": 4330.35,
+    "t_end": 4331.63,
+    "text": "and the way he writes, clarify as this. And,"
+  },
+  {
+    "t_start": 4331.63,
+    "t_end": 4337.83,
+    "text": "uh, goes for, as you saw, really really simple models. Simple models. Einstein"
+  },
+  {
+    "t_start": 4337.83,
+    "t_end": 4343.55,
+    "text": "simple models. Simple models. Einstein said is famous for saying, \"Everything"
+  },
+  {
+    "t_start": 4343.55,
+    "t_end": 4348.83,
+    "text": "should be made as simple as possible, but not simpler.\" And I think that, uh,"
+  },
+  {
+    "t_start": 4348.83,
+    "t_end": 4354.35,
+    "text": "Turing agreed. And, uh, yeah, and he"
+  },
+  {
+    "t_start": 4354.35,
+    "t_end": 4362.19,
+    "text": "Before he Before he took out the paper, he said everything he could say about."
+  },
+  {
+    "t_start": 4362.19,
+    "t_end": 4364.63,
+    "text": "he said everything he could say about. He He thought it out and said, \"That's"
+  },
+  {
+    "t_start": 4364.63,
+    "t_end": 4368.75,
+    "text": "He He thought it out and said, \"That's all I have to say. Now you you'll deal"
+  },
+  {
+    "t_start": 4368.75,
+    "t_end": 4376.67,
+    "text": "Anyway, uh, thank you. I'll end with my my usual last slide of every uh, every"
+  },
+  {
+    "t_start": 4376.67,
+    "t_end": 4378.11,
+    "text": "my usual last slide of every uh, every talk."
+  },
+  {
+    "t_start": 4378.11,
+    "t_end": 4384.03,
+    "text": "Uh, by now, I think most people know about this book, but uh, yeah."
+  },
+  {
+    "t_start": 4384.03,
+    "t_end": 4405.79,
+    "text": "about this book, but uh, yeah. Thank you very much."
+  },
+  {
+    "t_start": 4411.27,
+    "t_end": 4412.51,
+    "text": "We have some people with microphones here."
+  },
+  {
+    "t_start": 4412.51,
+    "t_end": 4425.83,
+    "text": "Yep. Okay. Does anyone have any questions?"
+  },
+  {
+    "t_start": 4432.47,
+    "t_end": 4439.91,
+    "text": "the dinner we opened at 7:30 at the restaurant, Glowbal, which is a"
+  },
+  {
+    "t_start": 4439.91,
+    "t_end": 4442.15,
+    "text": "restaurant, Glowbal, which is a 10-minute walk away from here."
+  },
+  {
+    "t_start": 4442.15,
+    "t_end": 4443.27,
+    "text": "10-minute walk away from here. Um,"
+  },
+  {
+    "t_start": 4443.27,
+    "t_end": 4450.19,
+    "text": "I don't have directions. Everybody have a phone?"
+  },
+  {
+    "t_start": 4452.79,
+    "t_end": 4453.95,
+    "text": "That's your question. Yeah, that's good. Um,"
+  },
+  {
+    "t_start": 4453.95,
+    "t_end": 4459.39,
+    "text": "does somebody want to give directions? I don't uh, I I I think Bruce, do you want"
+  },
+  {
+    "t_start": 4459.39,
+    "t_end": 4464.75,
+    "text": "I I thought people are intelligent enough to find the restaurant. So, those"
+  },
+  {
+    "t_start": 4464.75,
+    "t_end": 4466.63,
+    "text": "enough to find the restaurant. So, those there will still be hungry. Who's going"
+  },
+  {
+    "t_start": 4466.63,
+    "t_end": 4467.67,
+    "text": "there will still be hungry. Who's going to tell people how to get there?"
+  },
+  {
+    "t_start": 4467.67,
+    "t_end": 4468.67,
+    "text": "to tell people how to get there? Anyway,"
+  },
+  {
+    "t_start": 4468.67,
+    "t_end": 4471.99,
+    "text": "Okay, Bruce. There, you can have a microphone."
+  },
+  {
+    "t_start": 4471.99,
+    "t_end": 4475.19,
+    "text": "microphone. At least you know what streets to go by"
+  },
+  {
+    "t_start": 4475.19,
+    "t_end": 4480.55,
+    "text": "to say. I think it's quite"
+  },
+  {
+    "t_start": 4483.59,
+    "t_end": 4486.83,
+    "text": "Okay, so I believe that Igor sent out an email either last night or this morning"
+  },
+  {
+    "t_start": 4486.83,
+    "t_end": 4488.91,
+    "text": "email either last night or this morning mentioning the name of the restaurant"
+  },
+  {
+    "t_start": 4488.91,
+    "t_end": 4494.35,
+    "text": "and the address. So, my first suggestion is that you just, uh, put that address"
+  },
+  {
+    "t_start": 4494.35,
+    "t_end": 4497.63,
+    "text": "is that you just, uh, put that address into your favorite mapping software."
+  },
+  {
+    "t_start": 4497.63,
+    "t_end": 4504.43,
+    "text": "Um, my informal directions are that the restaurant is on Georgia It's called"
+  },
+  {
+    "t_start": 4504.43,
+    "t_end": 4510.03,
+    "text": "restaurant is on Georgia It's called Glowbal, g l g l o w b a l."
+  },
+  {
+    "t_start": 4510.03,
+    "t_end": 4512.79,
+    "text": "Glowbal, g l g l o w b a l. It's on Georgia Street, uh, at the"
+  },
+  {
+    "t_start": 4512.79,
+    "t_end": 4514.63,
+    "text": "It's on Georgia Street, uh, at the corner of Seymour."
+  },
+  {
+    "t_start": 4514.63,
+    "t_end": 4521.43,
+    "text": "So, if you go out from the main lobby, you want to go north on Burrard. So,"
+  },
+  {
+    "t_start": 4521.43,
+    "t_end": 4523.71,
+    "text": "you want to go north on Burrard. So, turn right. Then, when you get to"
+  },
+  {
+    "t_start": 4523.71,
+    "t_end": 4528.39,
+    "text": "turn right. Then, when you get to Georgia, turn right. If you go out the"
+  },
+  {
+    "t_start": 4528.39,
+    "t_end": 4532.99,
+    "text": "uh, you know, from the, uh, other end entrance on Hornby Street, turn left on"
+  },
+  {
+    "t_start": 4532.99,
+    "t_end": 4539.35,
+    "text": "entrance on Hornby Street, turn left on Hornby Street. Then, when you get to"
+  },
+  {
+    "t_start": 4539.35,
+    "t_end": 4546.11,
+    "text": "for go past Granville, uh, go past Richards, you'll get to Seymour. And,"
+  },
+  {
+    "t_start": 4546.11,
+    "t_end": 4547.91,
+    "text": "Richards, you'll get to Seymour. And, uh, I believe it's on the south"
+  },
+  {
+    "t_start": 4547.91,
+    "t_end": 4550.39,
+    "text": "uh, I believe it's on the south southeast corner there. And, yeah, it's"
+  },
+  {
+    "t_start": 4550.39,
+    "t_end": 4555.76,
+    "text": "southeast corner there. And, yeah, it's kind of a massive place. It's hard to"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ku_video_nmgFG7PUHfo_0",
+    "t_start": 0.1,
+    "t_end": 91.6,
+    "type": "overview",
+    "summary": "This is a video about the most important algorithm of all time, the Fast Fourier Transform or FFT. I mean, you use it all the time including right now to watch this video and it's used in radar and sonar, 5G and WiFi. Basically, anytime a signal is processed, there's a good chance that a Fast Fourier Transform is involved. But on top of all this, the FFT was discovered by scientists trying to detect covert nuclear weapons tests. And if they had discovered it sooner, it may have put a stop to the nuclear arms race. You know I always assumed that the nuclear arms race was inevitable, that onc…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_91",
+    "t_start": 91.6,
+    "t_end": 183.5,
+    "type": "overview",
+    "summary": "and it proposed that an international body would control all radioactive materials on earth, from mining to refining to using these materials for peaceful purposes as a nuclear power generation. But the Soviets rejected the proposal. They saw it as just another ploy to maintain American nuclear dominance and so the global nuclear arms race began. To develop new nuclear weapons required extensive testing and most of it was done in remote places like the Arctic or the South Pacific Islands. The U.S. also created a nuclear testing site in Nevada, the radioactive products of which blew across t…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_183",
+    "t_start": 183.5,
+    "t_end": 275.7,
+    "type": "overview",
+    "summary": "but they were wrong. (bomb blasts) It released two and a half times that due to unanticipated reactions with lithium-7. And as a result, more radioactive material was created and it rained down over a much larger area than planned. Residents of neighboring atolls were only evacuated three days later suffering from radiation sickness. And further east, the 23 crew of a Japanese fishing boat were caught in a flurry of radioactive white ash. And by that evening, they were suffering from acute radiation syndrome. One of the crew died from ensuing complications six months later. - [Reporter] As …"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_276",
+    "t_start": 277.0,
+    "t_end": 368.7,
+    "type": "overview",
+    "summary": "But there was a big problem with negotiating a comprehensive test ban which is how do you know that the other side will hold up their end of the bargain? The U.S. worried that the Soviets would continue testing covertly and leapfrog them technologically and the Soviets similarly distrusted the U.S.. So to address these concerns, they convened the Conference of Experts to Study the Possibility of Detecting Violations of a Possible Agreement on Suspension of Nuclear Tests. Seriously, that was the name, I am not making this up. Now detecting atmospheric tests was fairly straightforward. The ra…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_368",
+    "t_start": 368.7,
+    "t_end": 460.9,
+    "type": "overview",
+    "summary": "to reliably detect underground detonations. Following the Geneva meeting, American and Soviet scientists formed a working group to discuss the issue and their idea was to use seismometers located outside the countries where nukes were being tested to detect the faint ground vibrations caused by explosions. The problem was how do you distinguish a nuclear test from an earthquake? Every day around the world, there are close to 300 earthquakes with a magnitude of three or greater. In addition, part of the purpose of detecting your adversaries tests is to spy on them, to know how big of an expl…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_460",
+    "t_start": 460.9,
+    "t_end": 553.6,
+    "type": "overview",
+    "summary": "and nothing like its component parts. There are some elegant ways to understand how Fourier transforms work, shout out to the awesome video by 3Blue1Brown. But I wanna take more of a brute force approach. If you wanna know how much of a particular sine wave is in a signal, just multiply the signal by the sine wave at each point and then add up the area under the curve. As a simple example, say our signal is just a sine wave with a certain frequency but pretend we don't know that and we're trying to figure out which sine waves add to make it up. Well, if you multiply this signal by a sine wa…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_553",
+    "t_start": 553.6,
+    "t_end": 646.9,
+    "type": "overview",
+    "summary": "of the signal it will correlate with the signal producing a non-zero area. And the size of this area tells you the relative amplitude of that frequency sine wave in the signal. Repeat this process for all frequencies of sine waves and you get the frequency spectrum. Essentially which frequencies are present and in what proportions. Now so far I've only talked about sine waves but if the signal is a cosine wave, then even if you multiply it by a sine wave of the exact same frequency, the area under the curve will be zero. So for each frequency, we actually need to multiply by a sine wave and…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_646",
+    "t_start": 646.9,
+    "t_end": 737.5,
+    "type": "overview",
+    "summary": "wasn't the accuracy of the seismometers, it was the vast amounts of computation required to Fourier transform the seismometer signals. Here's an example seismometer signal and its Fourier transform. Thus far I've been thinking about signals as infinite continuous waves and when you take their Fourier transform, you get an infinite continuous frequency spectrum. But real world signals are not like that. They are finite and made up of individual samples or data points. Even though a seismometer signal looks smooth and continuous, it doesn't record ground motion with infinite precision. There …"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_737",
+    "t_start": 737.5,
+    "t_end": 831.4,
+    "type": "overview",
+    "summary": "So this lowers the frequency resolution. The shorter the signal, the wider each frequency bin is. The lowest non-zero frequency you can effectively measure is one whose period is equal to the duration of the signal. And the higher frequency bins are just integer multiples of this frequency. So they fit two, three, four, and so on periods in the duration of the signal. The total number of frequency bins is equal to the number of samples in the signal. So if the signal is made up of eight samples, then the transform has eight frequency bins going from zero up to seven times the fundamental fr…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_831",
+    "t_start": 831.4,
+    "t_end": 923.1,
+    "type": "overview",
+    "summary": "and then repeat the process for two hertz, three hertz, and so on, up to seven hertz. And you have the discreet Fourier transform of this really simple signal. Now this process works fine in principle and you could use it to calculate all discrete Fourier transforms. But the problem is it requires way too many calculations. To complete one discrete Fourier transform requires multiplying N data points by N different frequency waves. So N squared complex multiplications. Now this is doable for eight samples but if you had say a million samples, that would require a million squared or one tril…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_923",
+    "t_start": 923.1,
+    "t_end": 1014.9,
+    "type": "overview",
+    "summary": "but what he was actually doing was working on discreet Fourier transforms. At the end of the meeting, Garwin asked Tukey what he had worked out and he was shocked to learn that Tukey knew a way to compute discreet Fourier transforms with many fewer computations. It would mean that the calculation that would've taken over three years could be done in just 35 minutes. This has aptly become known as the Fast Fourier Transform. So here is how it works. Consider the example from before with eight samples. Each of those data points must be multiplied by the eight different frequency waves. Here I…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_1014",
+    "t_start": 1014.9,
+    "t_end": 1106.9,
+    "type": "overview",
+    "summary": "the greater the savings. A signal with a thousand samples would require 100 times fewer calculations and a million samples would require 50,000 times fewer calculations. But how do you know which calculations are redundant? Well, take your samples and split them into even and odd index points. You still need to multiply each of these by the eight different frequency waves. But now let's look only at the even points and compare the first four frequencies to the second four frequencies. And what you find is that in each case at the location of the samples, the values of the two sine waves are…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_1106",
+    "t_start": 1106.9,
+    "t_end": 1197.2,
+    "type": "overview",
+    "summary": "until you're down to single data points. At each split, you can exploit the symmetries of sinusoidal functions to cut the number of calculations in half. And that is how the Fast Fourier Transform reduces N squared calculations down to NlogN. And it's why today whenever anyone takes a Fourier transform, it's almost always done as a Fast Fourier Transform. Garwin approached an IBM researcher, James Cooley to program a computer to run the FFT algorithm but he didn't tell him the reason was to detect underground Soviet nuclear tests. He said it was to work out the spins in a crystal of helium-…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_1197",
+    "t_start": 1197.2,
+    "t_end": 1289.5,
+    "type": "overview",
+    "summary": "70,000 nuclear warheads were in existence. Total expenditure on nukes in the 20th century is estimated at around $10 trillion each for the U.S. and the Soviet Union adjusting for inflation. If only scientists had been confident in their ability to remotely detect underground tests in the early 1960s, then a comprehensive test ban could have been reached, stopping the nuclear arms race before it really got going. To check how realistic this is, I asked Richard Garwin himself. - Well, it's a good story. - It would've helped and it might have turned the tide. - But that would've required an ea…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_1289",
+    "t_start": 1289.5,
+    "t_end": 1380.2,
+    "type": "overview",
+    "summary": "of his collected works and it was written with non-standard notation in a 19th century version of Latin. What do you think would've happened if Gauss had realized the significance of his discovery and had published it in a way that others could understand? With our modern network of seismometers and computing and the Fast Fourier Transform, today, we have the ability to detect magnitude three events which correspond to a one kilo ton or so explosion, basically anywhere on earth. Following Cooley and Tukey's paper, the use of FFTs exploded and they are the basis for most compression algorith…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_1380",
+    "t_start": 1380.2,
+    "t_end": 1472.1,
+    "type": "overview",
+    "summary": "so you can see them but if I don't, then it's clear most of the values, especially toward the edges are very small and these correspond to high frequencies. And what this means is that you can throw out a lot of the information in the transformed image say 99% of it. But when you invert that result, you still get a fairly good representation of the original image. So on your computer, most of the images will be saved in this form as a two dimensional Fast Fourier Transform and then when you wanna look at the picture again, the computer simply inverts the transform. There are so many applica…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_1472",
+    "t_start": 1472.1,
+    "t_end": 1562.8,
+    "type": "overview",
+    "summary": "to make a difference in the world. So what do you wanna do with all that time? Now the name of this video sponsor is 80,000 Hours referencing the amount of impact you can have, the amount of hours you spend at work, and they are not selling anything. 80,000 Hours is a nonprofit that helps people find fulfilling careers that make a positive impact. The typical advice from career centers or aptitude tests really just focuses on finding a job that fits your personal preferences. But what if you care more about doing good? Well, they won't really know what to tell you besides a few well known p…"
+  },
+  {
+    "id": "ku_video_nmgFG7PUHfo_1562",
+    "t_start": 1562.8,
+    "t_end": 1592.5,
+    "type": "overview",
+    "summary": "that goes beyond empty cliches like follow your passion, then check out 80,000 Hours. Everything they provide from their podcast to their job board is free forever. If you join the newsletter right now, you'll also get a free copy of their in-depth career guide sent right to your inbox. So to get started on a career that tackles the world's most pressing problems, sign up now at 80000hours.org/veritasium. I will put that link down in the description. So I wanna thank 80,000 Hours for sponsoring this part of the video and I wanna thank you for watching."
+  }
+]

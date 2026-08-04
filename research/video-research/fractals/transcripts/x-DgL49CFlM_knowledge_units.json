@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ku_video_x-DgL49CFlM_0",
+    "t_start": 0.0,
+    "t_end": 90.6,
+    "type": "overview",
+    "summary": "So we're going to talk about space-filling curves. So... already that sounds sort of, counter-intuitive, like a curve, is like a one, like its a very skinny one-dimensional thing but space is like... ...two-dimensional or something so how can you have a curve? That fills up everything in space? So... We're going to build a curve starting with something very simple and then we're going to sort of change it. Uh, so, lets start with, this curve here. So this is three sides of square. So at the moment this is really not very, space-filling, right? Its just three lines, so we need to kind of mak…"
+  },
+  {
+    "id": "ku_video_x-DgL49CFlM_90",
+    "t_start": 90.6,
+    "t_end": 180.7,
+    "type": "overview",
+    "summary": "And then in each one of these squares I need to put this thing here, so let me... ...make a... ...a grid. And then I just have to turn things the right way again. So I wanna take this thing, and rotate it and put it here. So its gonna start like that... ...and its gonna end like that. And in the middle its going to do this... And its gonna do this... And let's connect them up with red, 'cos... OK so we got that shape, and then this one over here, let's do this one next 'cos its easy 'cos its just, its just the reflection of this one... OK so connect them up, boop, boop, boop. And then these…"
+  },
+  {
+    "id": "ku_video_x-DgL49CFlM_181",
+    "t_start": 181.2,
+    "t_end": 271.5,
+    "type": "overview",
+    "summary": "...in a, rigorous way which, I'm not going to get into, but, actually what happens when you go infinitely far, this, curve, hits every point of the square. So somehow, at the limit, when you get infinitely far, boom, you've got everything. This construction is not just used for this sort of infinite thing, this is also... ...um, you know, a, uh, way to, sort of pack, sort of two-dimensional data, in a one-dimensional order, right? So, s'pose you have, a bunch of two-dimensional data, and you need to store it in some linear order, but you also want this bit of data, and this bit of data, the…"
+  },
+  {
+    "id": "ku_video_x-DgL49CFlM_271",
+    "t_start": 271.5,
+    "t_end": 360.8,
+    "type": "overview",
+    "summary": "you've got the original curve, and then... Well so you can see there's like a band here, that's just a sort of, intermediate band but then the next band down, So two down, is the next step of the sequence. It's probably a little hard to see, but it starts here, and then it goes across, and then up, and then back,  and then it goes up... It does that curve that we had before. And then, it just keeps going down, so another two steps, and another two steps. So there's the bottom, that's, that's quite far along, in the, let's see how many, so the first step, second step,  third step, this is th…"
+  },
+  {
+    "id": "ku_video_x-DgL49CFlM_361",
+    "t_start": 361.6,
+    "t_end": 454.4,
+    "type": "overview",
+    "summary": "But right, when you ex-, sort of extrude it through space,  you get this, this, cool, uh, this cool shape. Somebody, somebody once described this to me as a sky-scraper going for a walk. It's sort of a nice image. Recognize this shape? That would be the, uh, Sierpinski Triangle, except there's a curve called the Sierpinski Arrowhead Curve. Let's turn it around... So it starts with, again this is smoothed off a little bit, but it starts with three sides of a hexagon... ...and then... ... well it gets more squiggly, um, but yeah you end up with... ... the, uh, something that looks like the Si…"
+  },
+  {
+    "id": "ku_video_x-DgL49CFlM_454",
+    "t_start": 454.4,
+    "t_end": 541.3,
+    "type": "overview",
+    "summary": "And you get this very squiggly curve that is filling three-dimensional space. Or a three-dimensional cube. So one of the, sort of, really interesting things about this, is like, so I, I, I'd seen this thing for like, I dunno, a year or two, sitting on my computer screen as this, rigid, perfect mathematical object. And then, so, you know I order it and I take it out of the box, And it's springy! I had no idea it was gonna do that. It's, it's incredibly springy, like you can use, you can even... ...wear it as a kind of uncomfortable bracelet. Um, but yeah... This one you can see that it's a c…"
+  }
+]

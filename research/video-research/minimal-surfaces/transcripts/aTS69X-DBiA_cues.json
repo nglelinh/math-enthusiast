@@ -1,0 +1,4817 @@
+[
+  {
+    "t_start": 2.419,
+    "t_end": 4.16,
+    "text": "okay thank you very much for the very nice introduction it's a great pleasure"
+  },
+  {
+    "t_start": 4.16,
+    "t_end": 5.63,
+    "text": "nice introduction it's a great pleasure to be here in this prestigious"
+  },
+  {
+    "t_start": 5.63,
+    "t_end": 13.49,
+    "text": "University and in this prestigious venue to give you an idea about the research"
+  },
+  {
+    "t_start": 13.49,
+    "t_end": 14.9,
+    "text": "to give you an idea about the research that I've been doing actually in the"
+  },
+  {
+    "t_start": 14.9,
+    "t_end": 21.41,
+    "text": "that I've been doing actually in the last ten years and so this is actually a"
+  },
+  {
+    "t_start": 21.41,
+    "t_end": 23.48,
+    "text": "talk which is thought for non mathematicians in principle at least at"
+  },
+  {
+    "t_start": 23.48,
+    "t_end": 29.99,
+    "text": "the beginning so the idea is that I want to convey idea some ideas of our subject"
+  },
+  {
+    "t_start": 29.99,
+    "t_end": 32.87,
+    "text": "to convey idea some ideas of our subject to scientists and maybe also to just"
+  },
+  {
+    "t_start": 32.87,
+    "t_end": 34.13,
+    "text": "to scientists and maybe also to just some people to have some familiarity"
+  },
+  {
+    "t_start": 34.13,
+    "t_end": 37.94,
+    "text": "some people to have some familiarity with certain mathematical concepts only"
+  },
+  {
+    "t_start": 37.94,
+    "t_end": 43.729,
+    "text": "something for the experts I mean I hope this is going to be fine most likely I"
+  },
+  {
+    "t_start": 43.729,
+    "t_end": 46.18,
+    "text": "this is going to be fine most likely I will make myself not understandable by"
+  },
+  {
+    "t_start": 46.18,
+    "t_end": 48.83,
+    "text": "will make myself not understandable by the non experts and boring to the"
+  },
+  {
+    "t_start": 48.83,
+    "t_end": 52.189,
+    "text": "the non experts and boring to the experience but ok so that's life so"
+  },
+  {
+    "t_start": 52.189,
+    "t_end": 55.189,
+    "text": "experience but ok so that's life so let's start with telling you what is"
+  },
+  {
+    "t_start": 55.189,
+    "t_end": 58.939,
+    "text": "let's start with telling you what is this plateaus problem like pretty much"
+  },
+  {
+    "t_start": 58.939,
+    "t_end": 62.209,
+    "text": "this plateaus problem like pretty much everything in mathematics it is not"
+  },
+  {
+    "t_start": 62.209,
+    "t_end": 64.28,
+    "text": "everything in mathematics it is not named after the person who really first"
+  },
+  {
+    "t_start": 64.28,
+    "t_end": 66.53,
+    "text": "named after the person who really first invented the problem actually the"
+  },
+  {
+    "t_start": 66.53,
+    "t_end": 72.02,
+    "text": "plateaus problem was first posed by Lagrange but nonetheless so there's"
+  },
+  {
+    "t_start": 72.02,
+    "t_end": 76.52,
+    "text": "something very nice that you can do so take a wire dip it in a bucket of soap"
+  },
+  {
+    "t_start": 76.52,
+    "t_end": 82.429,
+    "text": "of water and pull it out okay you will see that the wire spends I mean if you"
+  },
+  {
+    "t_start": 82.429,
+    "t_end": 84.62,
+    "text": "see that the wire spends I mean if you do it carefully if they do if you do it"
+  },
+  {
+    "t_start": 84.62,
+    "t_end": 90.499,
+    "text": "take the wire out of the soap water you will see that there is a soap film which"
+  },
+  {
+    "t_start": 90.499,
+    "t_end": 93.35,
+    "text": "will see that there is a soap film which is attaching to the wire and the soap"
+  },
+  {
+    "t_start": 93.35,
+    "t_end": 99.35,
+    "text": "is attaching to the wire and the soap film makes interesting shape so it's"
+  },
+  {
+    "t_start": 99.35,
+    "t_end": 103.37,
+    "text": "film makes interesting shape so it's fragile that's sufficiently stable okay"
+  },
+  {
+    "t_start": 103.37,
+    "t_end": 104.87,
+    "text": "fragile that's sufficiently stable okay so the mathematical question that goes"
+  },
+  {
+    "t_start": 104.87,
+    "t_end": 109.73,
+    "text": "so the mathematical question that goes under the name of plateaus problem is"
+  },
+  {
+    "t_start": 109.73,
+    "t_end": 115.639,
+    "text": "soap film so the contribution of Plateau who was a Belgian physicist working in"
+  },
+  {
+    "t_start": 115.639,
+    "t_end": 122.12,
+    "text": "the 19th century was to give a very nice and elegant answer to this problem so if"
+  },
+  {
+    "t_start": 122.12,
+    "t_end": 126.2,
+    "text": "and elegant answer to this problem so if you look at the surface which is which"
+  },
+  {
+    "t_start": 126.2,
+    "t_end": 131.869,
+    "text": "you look at the surface which is which is realized by a soap film you will"
+  },
+  {
+    "t_start": 131.869,
+    "t_end": 134.0,
+    "text": "is realized by a soap film you will actually find a"
+  },
+  {
+    "t_start": 134.0,
+    "t_end": 139.55,
+    "text": "the surface which minimizes the area among all possible surfaces which spend"
+  },
+  {
+    "t_start": 139.55,
+    "t_end": 146.0,
+    "text": "that same wire okay so if you want to be a little bit more precise actually that"
+  },
+  {
+    "t_start": 146.0,
+    "t_end": 147.86,
+    "text": "a little bit more precise actually that is a local minimizer not a global"
+  },
+  {
+    "t_start": 147.86,
+    "t_end": 151.16,
+    "text": "minimizer I mean that is what the physical principle tells you if you want"
+  },
+  {
+    "t_start": 151.16,
+    "t_end": 155.839,
+    "text": "physical principle tells you if you want to be maybe even more precise what it"
+  },
+  {
+    "t_start": 155.839,
+    "t_end": 159.14,
+    "text": "of the area functional so that is for the experts and maybe for the physicists"
+  },
+  {
+    "t_start": 159.14,
+    "t_end": 164.39,
+    "text": "the experts and maybe for the physicists who are in the audience okay so"
+  },
+  {
+    "t_start": 164.39,
+    "t_end": 166.309,
+    "text": "therefore you can state what is called the classical plateau problem the"
+  },
+  {
+    "t_start": 166.309,
+    "t_end": 170.66,
+    "text": "original plateau problem so I give you a wire in the three-dimensional space a"
+  },
+  {
+    "t_start": 170.66,
+    "t_end": 175.13,
+    "text": "wire in the three-dimensional space a wire in that three-dimensional space is"
+  },
+  {
+    "t_start": 175.13,
+    "t_end": 178.13,
+    "text": "a curve and I'm looking for a two-dimensional surface which spans this"
+  },
+  {
+    "t_start": 178.13,
+    "t_end": 183.68,
+    "text": "two-dimensional surface which spans this wire and which minimizes the area among"
+  },
+  {
+    "t_start": 183.68,
+    "t_end": 185.059,
+    "text": "all two-dimensional surfaces which span this wire so this is the original"
+  },
+  {
+    "t_start": 185.059,
+    "t_end": 187.78,
+    "text": "this wire so this is the original plateau problem now there's a famous"
+  },
+  {
+    "t_start": 187.78,
+    "t_end": 191.599,
+    "text": "plateau problem now there's a famous saying bye-bye good in German it sounds"
+  },
+  {
+    "t_start": 191.599,
+    "t_end": 194.69,
+    "text": "saying bye-bye good in German it sounds like this the mathematical z-9 up from"
+  },
+  {
+    "t_start": 194.69,
+    "t_end": 197.78,
+    "text": "like this the mathematical z-9 up from those Man Ray that is to even suitable"
+  },
+  {
+    "t_start": 197.78,
+    "t_end": 200.449,
+    "text": "those Man Ray that is to even suitable sets in a cine - process and also bodies"
+  },
+  {
+    "t_start": 200.449,
+    "t_end": 203.36,
+    "text": "sets in a cine - process and also bodies the scans it was sadness so if you"
+  },
+  {
+    "t_start": 203.36,
+    "t_end": 205.46,
+    "text": "the scans it was sadness so if you translate it it's the following saying"
+  },
+  {
+    "t_start": 205.46,
+    "t_end": 208.55,
+    "text": "translate it it's the following saying so the mathematicians are like French so"
+  },
+  {
+    "t_start": 208.55,
+    "t_end": 211.129,
+    "text": "so the mathematicians are like French so you talk to them they translate what you"
+  },
+  {
+    "t_start": 211.129,
+    "t_end": 212.0,
+    "text": "you talk to them they translate what you were saying"
+  },
+  {
+    "t_start": 212.0,
+    "t_end": 216.559,
+    "text": "in their own language and all of a sudden it's something completely"
+  },
+  {
+    "t_start": 216.559,
+    "t_end": 221.18,
+    "text": "different so in fact what we call plateaus problem in the mathematical"
+  },
+  {
+    "t_start": 221.18,
+    "t_end": 229.039,
+    "text": "instead of being given a curve which is a one-dimensional object you are given a"
+  },
+  {
+    "t_start": 229.039,
+    "t_end": 231.68,
+    "text": "a one-dimensional object you are given a general surface a general M dimensional"
+  },
+  {
+    "t_start": 231.68,
+    "t_end": 239.78,
+    "text": "surface so M is the arbitrary dimension of course it cannot be just a completely"
+  },
+  {
+    "t_start": 239.78,
+    "t_end": 241.58,
+    "text": "of course it cannot be just a completely general surface of reasons the wire is"
+  },
+  {
+    "t_start": 241.58,
+    "t_end": 245.629,
+    "text": "general surface of reasons the wire is what we call a closed surface right so"
+  },
+  {
+    "t_start": 245.629,
+    "t_end": 249.47,
+    "text": "attaching I mean if you just put a piece of metal like a line of metal inside you"
+  },
+  {
+    "t_start": 249.47,
+    "t_end": 250.909,
+    "text": "of metal like a line of metal inside you will see you you get it outside and"
+  },
+  {
+    "t_start": 250.909,
+    "t_end": 255.11,
+    "text": "there is no soap film okay so it's a it's what a mathematician would would"
+  },
+  {
+    "t_start": 255.11,
+    "t_end": 259.909,
+    "text": "call an M dimensional surface which is a boundary okay so that that's the name"
+  },
+  {
+    "t_start": 259.909,
+    "t_end": 262.85,
+    "text": "boundary okay so that that's the name for the title of the talk boundaries"
+  },
+  {
+    "t_start": 262.85,
+    "t_end": 264.74,
+    "text": "for the title of the talk boundaries okay so you're given an M dimensional"
+  },
+  {
+    "t_start": 264.74,
+    "t_end": 267.34,
+    "text": "okay so you're given an M dimensional boundary and you are now not"
+  },
+  {
+    "t_start": 267.34,
+    "t_end": 273.64,
+    "text": "maybe in a very high dimensional space I mean maybe the space has 17 dimensions"
+  },
+  {
+    "t_start": 273.64,
+    "t_end": 276.52,
+    "text": "mean maybe the space has 17 dimensions say and it's not even our usual"
+  },
+  {
+    "t_start": 276.52,
+    "t_end": 278.29,
+    "text": "say and it's not even our usual Euclidean space is what people actually"
+  },
+  {
+    "t_start": 278.29,
+    "t_end": 280.57,
+    "text": "Euclidean space is what people actually call every Mannion manifold so some"
+  },
+  {
+    "t_start": 280.57,
+    "t_end": 282.55,
+    "text": "call every Mannion manifold so some ambient geometry which is not"
+  },
+  {
+    "t_start": 282.55,
+    "t_end": 289.96,
+    "text": "necessarily flat like our space and now what you are looking for is a surface of"
+  },
+  {
+    "t_start": 289.96,
+    "t_end": 291.94,
+    "text": "what you are looking for is a surface of one dimension more so here you had"
+  },
+  {
+    "t_start": 291.94,
+    "t_end": 294.01,
+    "text": "one dimension more so here you had two-dimensional surfaces here you have M"
+  },
+  {
+    "t_start": 294.01,
+    "t_end": 295.84,
+    "text": "two-dimensional surfaces here you have M plus one dimensional surfaces which are"
+  },
+  {
+    "t_start": 295.84,
+    "t_end": 301.18,
+    "text": "in your ambient space which are in some sense spanning your boundary so they are"
+  },
+  {
+    "t_start": 301.18,
+    "t_end": 303.19,
+    "text": "sense spanning your boundary so they are attached to the boundary and which"
+  },
+  {
+    "t_start": 303.19,
+    "t_end": 305.89,
+    "text": "attached to the boundary and which minimize the area or the volume the n"
+  },
+  {
+    "t_start": 305.89,
+    "t_end": 310.72,
+    "text": "plus 1 dimensional area or volume among all possible surfaces which spend that"
+  },
+  {
+    "t_start": 310.72,
+    "t_end": 315.1,
+    "text": "all possible surfaces which spend that boundary ok so of course one of them I"
+  },
+  {
+    "t_start": 315.1,
+    "t_end": 320.86,
+    "text": "mean one of the things that you could ask is you know why ok the two"
+  },
+  {
+    "t_start": 320.86,
+    "t_end": 325.93,
+    "text": "motivated it has some interest some obvious interest if you're interested in"
+  },
+  {
+    "t_start": 325.93,
+    "t_end": 328.75,
+    "text": "obvious interest if you're interested in certain type of physics why are you"
+  },
+  {
+    "t_start": 328.75,
+    "t_end": 330.13,
+    "text": "certain type of physics why are you actually wondering about this very"
+  },
+  {
+    "t_start": 330.13,
+    "t_end": 336.97,
+    "text": "general question ok so let me give you a few answers so first of all it is a"
+  },
+  {
+    "t_start": 336.97,
+    "t_end": 338.86,
+    "text": "few answers so first of all it is a prototypical prototypical problem of"
+  },
+  {
+    "t_start": 338.86,
+    "t_end": 345.76,
+    "text": "what people call calculus of variations okay so in the calculus of variations"
+  },
+  {
+    "t_start": 345.76,
+    "t_end": 351.13,
+    "text": "called an energy it assigns a number in a class of objects and your interest is"
+  },
+  {
+    "t_start": 351.13,
+    "t_end": 353.38,
+    "text": "a class of objects and your interest is in the objects which minimize this"
+  },
+  {
+    "t_start": 353.38,
+    "t_end": 358.51,
+    "text": "quantity okay so of course usually this part it is called the energy because you"
+  },
+  {
+    "t_start": 358.51,
+    "t_end": 361.18,
+    "text": "part it is called the energy because you have in mind some system in the Natural"
+  },
+  {
+    "t_start": 361.18,
+    "t_end": 365.79,
+    "text": "have in mind some system in the Natural Sciences or some physical system and the"
+  },
+  {
+    "t_start": 365.79,
+    "t_end": 369.85,
+    "text": "minimizer of the energy actually characterized the stable the stable"
+  },
+  {
+    "t_start": 369.85,
+    "t_end": 374.74,
+    "text": "points of the system right so it's physically highly motivated and it's a"
+  },
+  {
+    "t_start": 374.74,
+    "t_end": 376.24,
+    "text": "physically highly motivated and it's a prototypical problem because it's very"
+  },
+  {
+    "t_start": 376.24,
+    "t_end": 379.45,
+    "text": "prototypical problem because it's very easy to state in geometric languages so"
+  },
+  {
+    "t_start": 379.45,
+    "t_end": 381.01,
+    "text": "in mathematics often you take prototypical problems as a starting"
+  },
+  {
+    "t_start": 381.01,
+    "t_end": 382.51,
+    "text": "prototypical problems as a starting point for your investigations because"
+  },
+  {
+    "t_start": 382.51,
+    "t_end": 384.1,
+    "text": "point for your investigations because you hope to develop techniques to"
+  },
+  {
+    "t_start": 384.1,
+    "t_end": 385.75,
+    "text": "you hope to develop techniques to understand the prototypical problem"
+  },
+  {
+    "t_start": 385.75,
+    "t_end": 392.23,
+    "text": "which will actually be available for much more general problems so it has a"
+  },
+  {
+    "t_start": 392.23,
+    "t_end": 397.45,
+    "text": "certain mathematical elegance which might you make think that if you develop"
+  },
+  {
+    "t_start": 397.45,
+    "t_end": 398.92,
+    "text": "might you make think that if you develop something for this problem then you can"
+  },
+  {
+    "t_start": 398.92,
+    "t_end": 401.46,
+    "text": "something for this problem then you can solve many others which are similar"
+  },
+  {
+    "t_start": 401.46,
+    "t_end": 404.95,
+    "text": "solve many others which are similar it has actually very many geometrical"
+  },
+  {
+    "t_start": 404.95,
+    "t_end": 408.55,
+    "text": "it has actually very many geometrical applications so again in mathematics in"
+  },
+  {
+    "t_start": 408.55,
+    "t_end": 411.1,
+    "text": "applications so again in mathematics in geometry what happens is that area"
+  },
+  {
+    "t_start": 411.1,
+    "t_end": 413.89,
+    "text": "geometry what happens is that area minimizing surfaces so minimum or"
+  },
+  {
+    "t_start": 413.89,
+    "t_end": 416.14,
+    "text": "minimizing surfaces so minimum or solutions of the plateau problem they"
+  },
+  {
+    "t_start": 416.14,
+    "t_end": 419.379,
+    "text": "solutions of the plateau problem they are natural candidates to for instance"
+  },
+  {
+    "t_start": 419.379,
+    "t_end": 426.939,
+    "text": "cut more complicated and in spaces in to simpler pieces I mean at the point that"
+  },
+  {
+    "t_start": 426.939,
+    "t_end": 429.79,
+    "text": "simpler pieces I mean at the point that this is an remark for mathematicians of"
+  },
+  {
+    "t_start": 429.79,
+    "t_end": 434.05,
+    "text": "this is an remark for mathematicians of course at the point that for instance if"
+  },
+  {
+    "t_start": 434.05,
+    "t_end": 435.82,
+    "text": "you take the famous resolution of the touchstones geometry zation conjecture"
+  },
+  {
+    "t_start": 435.82,
+    "t_end": 439.33,
+    "text": "touchstones geometry zation conjecture for three dimensional manifolds there"
+  },
+  {
+    "t_start": 439.33,
+    "t_end": 441.58,
+    "text": "are actually steps that precisely use this idea I mean three dimensional"
+  },
+  {
+    "t_start": 441.58,
+    "t_end": 443.65,
+    "text": "this idea I mean three dimensional ambient spaces which sometimes are cut"
+  },
+  {
+    "t_start": 443.65,
+    "t_end": 446.56,
+    "text": "ambient spaces which sometimes are cut into simpler pieces and you have to"
+  },
+  {
+    "t_start": 446.56,
+    "t_end": 448.18,
+    "text": "into simpler pieces and you have to think that the surface is along which"
+  },
+  {
+    "t_start": 448.18,
+    "t_end": 449.8,
+    "text": "think that the surface is along which you are actually cutting your space as"
+  },
+  {
+    "t_start": 449.8,
+    "t_end": 452.2,
+    "text": "you are actually cutting your space as surfaces which minimize the area so"
+  },
+  {
+    "t_start": 452.2,
+    "t_end": 458.74,
+    "text": "there are some situations in which you do this another thing actually the fancy"
+  },
+  {
+    "t_start": 458.74,
+    "t_end": 460.45,
+    "text": "do this another thing actually the fancy high dimensional version has very"
+  },
+  {
+    "t_start": 460.45,
+    "t_end": 461.89,
+    "text": "high dimensional version has very surprising connections with modern"
+  },
+  {
+    "t_start": 461.89,
+    "t_end": 466.39,
+    "text": "surprising connections with modern theoretical physics so in string theory"
+  },
+  {
+    "t_start": 466.39,
+    "t_end": 472.06,
+    "text": "things which are called D branes and actually you know most Biton invariants"
+  },
+  {
+    "t_start": 472.06,
+    "t_end": 473.469,
+    "text": "actually you know most Biton invariants for distance count a certain type of"
+  },
+  {
+    "t_start": 473.469,
+    "t_end": 475.27,
+    "text": "for distance count a certain type of area minimizing surfaces in certain"
+  },
+  {
+    "t_start": 475.27,
+    "t_end": 483.64,
+    "text": "minimizing surfaces and they are in very high dimension and codimension okay so"
+  },
+  {
+    "t_start": 483.64,
+    "t_end": 485.529,
+    "text": "high dimension and codimension okay so now this is another simple geometric"
+  },
+  {
+    "t_start": 485.529,
+    "t_end": 487.33,
+    "text": "now this is another simple geometric example of what I understand by a"
+  },
+  {
+    "t_start": 487.33,
+    "t_end": 490.749,
+    "text": "example of what I understand by a general ambient manifold and minimizing"
+  },
+  {
+    "t_start": 490.749,
+    "t_end": 496.23,
+    "text": "general ambient manifold and minimizing the area so here you have a donut"
+  },
+  {
+    "t_start": 496.23,
+    "t_end": 499.39,
+    "text": "so what mathematicians called a torus okay so actually more precisely you"
+  },
+  {
+    "t_start": 499.39,
+    "t_end": 501.01,
+    "text": "okay so actually more precisely you don't have the donut but just the outer"
+  },
+  {
+    "t_start": 501.01,
+    "t_end": 503.439,
+    "text": "don't have the donut but just the outer surface of a doughnut okay so it's a"
+  },
+  {
+    "t_start": 503.439,
+    "t_end": 507.04,
+    "text": "surface of a doughnut okay so it's a two-dimensional surface and imagine that"
+  },
+  {
+    "t_start": 507.04,
+    "t_end": 511.27,
+    "text": "two-dimensional surface and imagine that you put actually an elastic wire around"
+  },
+  {
+    "t_start": 511.27,
+    "t_end": 516.76,
+    "text": "you just stretch in elastic I mean you think it's a very small elastic you put"
+  },
+  {
+    "t_start": 516.76,
+    "t_end": 518.709,
+    "text": "think it's a very small elastic you put it around this surface and then you let"
+  },
+  {
+    "t_start": 518.709,
+    "t_end": 521.86,
+    "text": "it around this surface and then you let it go okay so the elastic we try"
+  },
+  {
+    "t_start": 521.86,
+    "t_end": 523.329,
+    "text": "it go okay so the elastic we try actually to minimize the length of"
+  },
+  {
+    "t_start": 523.329,
+    "t_end": 528.94,
+    "text": "course you cannot I mean if if the donut is sufficiently solid it cannot go"
+  },
+  {
+    "t_start": 528.94,
+    "t_end": 531.76,
+    "text": "is sufficiently solid it cannot go inside so the elastic will stabilize"
+  },
+  {
+    "t_start": 531.76,
+    "t_end": 533.199,
+    "text": "inside so the elastic will stabilize among occur"
+  },
+  {
+    "t_start": 533.199,
+    "t_end": 538.129,
+    "text": "which in a sense minimizes the length among all curves which cannot be"
+  },
+  {
+    "t_start": 538.129,
+    "t_end": 543.65,
+    "text": "shrinked to a point by staying over this surface so this is an example in which"
+  },
+  {
+    "t_start": 543.65,
+    "t_end": 546.29,
+    "text": "surface so this is an example in which we have a simple situation so the"
+  },
+  {
+    "t_start": 546.29,
+    "t_end": 548.03,
+    "text": "we have a simple situation so the minimizer is actually one dimensional"
+  },
+  {
+    "t_start": 548.03,
+    "t_end": 553.9,
+    "text": "the ambient geometry is two-dimensional and you see a simple geometric problem"
+  },
+  {
+    "t_start": 553.9,
+    "t_end": 558.35,
+    "text": "actually pops out naturally okay now of course it's a little bit more difficult"
+  },
+  {
+    "t_start": 558.35,
+    "t_end": 559.819,
+    "text": "course it's a little bit more difficult to understand what is a nambian"
+  },
+  {
+    "t_start": 559.819,
+    "t_end": 562.16,
+    "text": "to understand what is a nambian three-dimensional space which is not our"
+  },
+  {
+    "t_start": 562.16,
+    "t_end": 565.97,
+    "text": "usual nucleon space and what is a 2-dimensional minimizer inside okay that"
+  },
+  {
+    "t_start": 565.97,
+    "t_end": 572.18,
+    "text": "is a bit more difficult to draw so of course if you if you look at it from the"
+  },
+  {
+    "t_start": 572.18,
+    "t_end": 573.53,
+    "text": "course if you if you look at it from the point of view of mathematicians there"
+  },
+  {
+    "t_start": 573.53,
+    "t_end": 579.05,
+    "text": "would like to ask at the beginning so if you want to solve this problem what"
+  },
+  {
+    "t_start": 579.05,
+    "t_end": 581.569,
+    "text": "you want to solve this problem what should you understand as a surface so"
+  },
+  {
+    "t_start": 581.569,
+    "t_end": 584.629,
+    "text": "should you understand as a surface so what is a surface in particular what"
+  },
+  {
+    "t_start": 584.629,
+    "t_end": 586.85,
+    "text": "what is a surface in particular what should should you consider only surfaces"
+  },
+  {
+    "t_start": 586.85,
+    "t_end": 588.499,
+    "text": "should should you consider only surfaces which are nice they're smooth they're"
+  },
+  {
+    "t_start": 588.499,
+    "t_end": 591.05,
+    "text": "which are nice they're smooth they're regular or should you actually consider"
+  },
+  {
+    "t_start": 591.05,
+    "t_end": 593.72,
+    "text": "regular or should you actually consider also surfaces which have corners should"
+  },
+  {
+    "t_start": 593.72,
+    "t_end": 597.53,
+    "text": "also surfaces which have corners should you consider surfaces which have cusps"
+  },
+  {
+    "t_start": 597.53,
+    "t_end": 599.96,
+    "text": "or not in your own problem so it's a very natural question if you start"
+  },
+  {
+    "t_start": 599.96,
+    "t_end": 603.199,
+    "text": "very natural question if you start introducing surfaces which are rough how"
+  },
+  {
+    "t_start": 603.199,
+    "t_end": 606.74,
+    "text": "introducing surfaces which are rough how rough can you take them can you take"
+  },
+  {
+    "t_start": 606.74,
+    "t_end": 611.21,
+    "text": "factors for instance when you have surfaces which are quite general what"
+  },
+  {
+    "t_start": 611.21,
+    "t_end": 612.829,
+    "text": "surfaces which are quite general what does it mean that actually your surface"
+  },
+  {
+    "t_start": 612.829,
+    "t_end": 614.72,
+    "text": "does it mean that actually your surface spends your boundary this is another"
+  },
+  {
+    "t_start": 614.72,
+    "t_end": 617.99,
+    "text": "spends your boundary this is another fundamental question a third fundamental"
+  },
+  {
+    "t_start": 617.99,
+    "t_end": 622.639,
+    "text": "fundamental question a third fundamental question is what is the area of the very"
+  },
+  {
+    "t_start": 622.639,
+    "t_end": 628.009,
+    "text": "you compute it and then there are the typical questions that actually the the"
+  },
+  {
+    "t_start": 628.009,
+    "t_end": 630.439,
+    "text": "typical questions that actually the the mathematicians like so there are these"
+  },
+  {
+    "t_start": 630.439,
+    "t_end": 632.3,
+    "text": "mathematicians like so there are these existence questions so can you prove"
+  },
+  {
+    "t_start": 632.3,
+    "t_end": 635.629,
+    "text": "that there is a minimizer I mean often for people in Natural Sciences that that"
+  },
+  {
+    "t_start": 635.629,
+    "t_end": 638.24,
+    "text": "for people in Natural Sciences that that looks like a weird question because"
+  },
+  {
+    "t_start": 638.24,
+    "t_end": 640.46,
+    "text": "looks like a weird question because often the answer of the mathematician is"
+  },
+  {
+    "t_start": 640.46,
+    "t_end": 644.809,
+    "text": "often the answer of the mathematician is that there is a minimizer's for for some"
+  },
+  {
+    "t_start": 644.809,
+    "t_end": 648.259,
+    "text": "reason and the answer that there is a minimizer is completely irrelevant for"
+  },
+  {
+    "t_start": 648.259,
+    "t_end": 652.129,
+    "text": "finding the minimizer or for having an algorithm which gives you the minimizer"
+  },
+  {
+    "t_start": 652.129,
+    "t_end": 655.069,
+    "text": "algorithm which gives you the minimizer so give birth to to his students used to"
+  },
+  {
+    "t_start": 655.069,
+    "t_end": 661.22,
+    "text": "so give birth to to his students used to give the following example so if you are"
+  },
+  {
+    "t_start": 661.22,
+    "t_end": 664.4,
+    "text": "sitting in a room that is certainly somebody who has the maximum amount of"
+  },
+  {
+    "t_start": 664.4,
+    "t_end": 666.5,
+    "text": "somebody who has the maximum amount of hair because"
+  },
+  {
+    "t_start": 666.5,
+    "t_end": 672.98,
+    "text": "churches finally many people somebody has the maximum and so it's an existence"
+  },
+  {
+    "t_start": 672.98,
+    "t_end": 679.31,
+    "text": "mathematics but it's in some sense and interesting also right of course there"
+  },
+  {
+    "t_start": 679.31,
+    "t_end": 683.12,
+    "text": "interesting also right of course there are also the people who have least"
+  },
+  {
+    "t_start": 683.12,
+    "t_end": 684.86,
+    "text": "amount of hair and they are easier to identify reasons here it's very easy to"
+  },
+  {
+    "t_start": 684.86,
+    "t_end": 688.64,
+    "text": "identify reasons here it's very easy to identify them now after you have proven"
+  },
+  {
+    "t_start": 688.64,
+    "t_end": 691.76,
+    "text": "identify them now after you have proven though what if a minimizer exists you"
+  },
+  {
+    "t_start": 691.76,
+    "t_end": 695.36,
+    "text": "can ask deeper questions so what is the shape of the minimizer and it happens"
+  },
+  {
+    "t_start": 695.36,
+    "t_end": 697.73,
+    "text": "shape of the minimizer and it happens often that actually your existence proof"
+  },
+  {
+    "t_start": 697.73,
+    "t_end": 700.85,
+    "text": "often that actually your existence proof is giving you some insight what is the"
+  },
+  {
+    "t_start": 700.85,
+    "t_end": 702.53,
+    "text": "is giving you some insight what is the shape of a minimizer one basic question"
+  },
+  {
+    "t_start": 702.53,
+    "t_end": 705.26,
+    "text": "shape of a minimizer one basic question for instance is can the minimizer itself"
+  },
+  {
+    "t_start": 705.26,
+    "t_end": 710.51,
+    "text": "for instance is can the minimizer itself have singularities right so is it a nice"
+  },
+  {
+    "t_start": 710.51,
+    "t_end": 712.04,
+    "text": "regular surface or is it not I mean these are all very deep questions and"
+  },
+  {
+    "t_start": 712.04,
+    "t_end": 714.62,
+    "text": "these are all very deep questions and and and mathematicians actually wrote"
+  },
+  {
+    "t_start": 714.62,
+    "t_end": 721.01,
+    "text": "books and tons of papers on them there is a extensive literature so let me go"
+  },
+  {
+    "t_start": 721.01,
+    "t_end": 725.6,
+    "text": "is a extensive literature so let me go very easy on you and just look at a very"
+  },
+  {
+    "t_start": 725.6,
+    "t_end": 731.72,
+    "text": "picture so say that you have the easiest situation so in the easiest situation"
+  },
+  {
+    "t_start": 731.72,
+    "t_end": 736.97,
+    "text": "you can think that you have a zero dimensional boundary so dots and then we"
+  },
+  {
+    "t_start": 736.97,
+    "t_end": 738.98,
+    "text": "dimensional boundary so dots and then we are looking for a one dimensional object"
+  },
+  {
+    "t_start": 738.98,
+    "t_end": 742.01,
+    "text": "are looking for a one dimensional object which is connecting the dots you are"
+  },
+  {
+    "t_start": 742.01,
+    "t_end": 743.51,
+    "text": "which is connecting the dots you are looking for a one dimensional object"
+  },
+  {
+    "t_start": 743.51,
+    "t_end": 744.95,
+    "text": "looking for a one dimensional object which is connecting the dots and which"
+  },
+  {
+    "t_start": 744.95,
+    "t_end": 749.96,
+    "text": "is minimizing the length okay so this sounds very abstract but you can simply"
+  },
+  {
+    "t_start": 749.96,
+    "t_end": 751.28,
+    "text": "sounds very abstract but you can simply think about the following so here you"
+  },
+  {
+    "t_start": 751.28,
+    "t_end": 756.62,
+    "text": "have three cities okay and you want to build a railway and you want to be in"
+  },
+  {
+    "t_start": 756.62,
+    "t_end": 758.15,
+    "text": "build a railway and you want to be in the railway which connects the three"
+  },
+  {
+    "t_start": 758.15,
+    "t_end": 763.28,
+    "text": "the railway which connects the three cities and has the minimal length okay"
+  },
+  {
+    "t_start": 763.28,
+    "t_end": 764.81,
+    "text": "so this is an example so this is a minimal railway which is connecting"
+  },
+  {
+    "t_start": 764.81,
+    "t_end": 768.98,
+    "text": "these three cities you also see a motivation for considering a geometry"
+  },
+  {
+    "t_start": 768.98,
+    "t_end": 770.36,
+    "text": "motivation for considering a geometry which is different from your usual"
+  },
+  {
+    "t_start": 770.36,
+    "t_end": 775.22,
+    "text": "geometry so this is something which will be very very useful if your earth is"
+  },
+  {
+    "t_start": 775.22,
+    "t_end": 777.05,
+    "text": "be very very useful if your earth is completely flat but earth is not"
+  },
+  {
+    "t_start": 777.05,
+    "t_end": 780.53,
+    "text": "completely flat if you have mountains in the middle probably this is not going to"
+  },
+  {
+    "t_start": 780.53,
+    "t_end": 782.39,
+    "text": "the middle probably this is not going to be the best choice anyway right because"
+  },
+  {
+    "t_start": 782.39,
+    "t_end": 786.62,
+    "text": "you have to go up and go down so you're actually using more length than what you"
+  },
+  {
+    "t_start": 786.62,
+    "t_end": 789.19,
+    "text": "actually using more length than what you actually see in practice on your own"
+  },
+  {
+    "t_start": 789.19,
+    "t_end": 794.3,
+    "text": "actually see in practice on your own chart on your own map okay unless this"
+  },
+  {
+    "t_start": 794.3,
+    "t_end": 796.67,
+    "text": "chart on your own map okay unless this is an example and in this example it's"
+  },
+  {
+    "t_start": 796.67,
+    "t_end": 799.26,
+    "text": "is an example and in this example it's very easy to understand what you"
+  },
+  {
+    "t_start": 799.26,
+    "t_end": 805.2,
+    "text": "you what what is your context what is your framework so you have dots you are"
+  },
+  {
+    "t_start": 805.2,
+    "t_end": 806.85,
+    "text": "your framework so you have dots you are connecting them with a network and"
+  },
+  {
+    "t_start": 806.85,
+    "t_end": 810.84,
+    "text": "network you can think it's just made of straight lines so all these straight"
+  },
+  {
+    "t_start": 810.84,
+    "t_end": 816.81,
+    "text": "you cannot have just two groups and what you want to do is one that the straight"
+  },
+  {
+    "t_start": 816.81,
+    "t_end": 818.64,
+    "text": "you want to do is one that the straight lines contain these three dots and"
+  },
+  {
+    "t_start": 818.64,
+    "t_end": 825.45,
+    "text": "minimize the total length and that is a framework for solving your problem okay"
+  },
+  {
+    "t_start": 825.45,
+    "t_end": 828.75,
+    "text": "framework for solving your problem okay so this framework actually shows you"
+  },
+  {
+    "t_start": 828.75,
+    "t_end": 830.88,
+    "text": "so this framework actually shows you immediately that singularities can occur"
+  },
+  {
+    "t_start": 830.88,
+    "t_end": 839.28,
+    "text": "immediately that singularities can occur right so here you have a tripod junction"
+  },
+  {
+    "t_start": 839.28,
+    "t_end": 841.47,
+    "text": "so for instance it's a point where if your train is going through it it's"
+  },
+  {
+    "t_start": 841.47,
+    "t_end": 843.33,
+    "text": "your train is going through it it's probably a very good place where to put"
+  },
+  {
+    "t_start": 843.33,
+    "t_end": 845.54,
+    "text": "probably a very good place where to put an intermediate station okay"
+  },
+  {
+    "t_start": 845.54,
+    "t_end": 849.27,
+    "text": "so that for instance your train can decide to go in one direction or to go"
+  },
+  {
+    "t_start": 849.27,
+    "t_end": 854.01,
+    "text": "decide to go in one direction or to go in the other direction so this is the"
+  },
+  {
+    "t_start": 854.01,
+    "t_end": 855.42,
+    "text": "first things that you learn so singularities are actually likely to"
+  },
+  {
+    "t_start": 855.42,
+    "t_end": 861.93,
+    "text": "occur that is also a motivation to why you should ask a question like what is"
+  },
+  {
+    "t_start": 861.93,
+    "t_end": 863.37,
+    "text": "the type of surfaces that you want to consider even in that in this very"
+  },
+  {
+    "t_start": 863.37,
+    "t_end": 868.08,
+    "text": "simple situation you will see that there are singularities now it's a clear"
+  },
+  {
+    "t_start": 868.08,
+    "t_end": 871.86,
+    "text": "framework but you have to say that it avoids several challenges so it's a"
+  },
+  {
+    "t_start": 871.86,
+    "t_end": 875.84,
+    "text": "clear framework that it has been used to give solutions to the plateau problem in"
+  },
+  {
+    "t_start": 875.84,
+    "t_end": 878.61,
+    "text": "give solutions to the plateau problem in very high dimension and code dimension"
+  },
+  {
+    "t_start": 878.61,
+    "t_end": 881.88,
+    "text": "very high dimension and code dimension so it's a way that you use a path that"
+  },
+  {
+    "t_start": 881.88,
+    "t_end": 883.77,
+    "text": "you can take even the in the higher dimensional case but there are some"
+  },
+  {
+    "t_start": 883.77,
+    "t_end": 887.58,
+    "text": "things that it does not face okay so of course the first thing that you see is"
+  },
+  {
+    "t_start": 887.58,
+    "t_end": 890.07,
+    "text": "course the first thing that you see is that it's using polygonal curves that"
+  },
+  {
+    "t_start": 890.07,
+    "t_end": 893.4,
+    "text": "that it's using polygonal curves that will not be okay in general so surfaces"
+  },
+  {
+    "t_start": 893.4,
+    "t_end": 895.05,
+    "text": "if you if you're looking at two-dimensional surfaces which span and"
+  },
+  {
+    "t_start": 895.05,
+    "t_end": 897.18,
+    "text": "two-dimensional surfaces which span and wire right you will immediately realize"
+  },
+  {
+    "t_start": 897.18,
+    "t_end": 900.51,
+    "text": "if you just make very few experiments that you will not get polygonal surfaces"
+  },
+  {
+    "t_start": 900.51,
+    "t_end": 904.2,
+    "text": "that you will not get polygonal surfaces you will get actually services which"
+  },
+  {
+    "t_start": 904.2,
+    "t_end": 907.05,
+    "text": "Bend so the higher dimensional case is certainly much more complicated but not"
+  },
+  {
+    "t_start": 907.05,
+    "t_end": 913.11,
+    "text": "certainly much more complicated but not only that so there are two points which"
+  },
+  {
+    "t_start": 913.11,
+    "t_end": 916.59,
+    "text": "are not faced by by this framework and it's the orientation problem and the"
+  },
+  {
+    "t_start": 916.59,
+    "t_end": 922.2,
+    "text": "it's the orientation problem and the multiplicity problem so this can be"
+  },
+  {
+    "t_start": 922.2,
+    "t_end": 928.85,
+    "text": "example so let me twist the problem a little bit so let me say that instead of"
+  },
+  {
+    "t_start": 928.85,
+    "t_end": 931.17,
+    "text": "little bit so let me say that instead of instead of bending in vague ways you"
+  },
+  {
+    "t_start": 931.17,
+    "t_end": 933.27,
+    "text": "instead of bending in vague ways you have the following situation so you have"
+  },
+  {
+    "t_start": 933.27,
+    "t_end": 937.08,
+    "text": "have the following situation so you have some factories which are producing some"
+  },
+  {
+    "t_start": 937.08,
+    "t_end": 941.64,
+    "text": "some factories which are producing some Goods here so these are the factories"
+  },
+  {
+    "t_start": 941.64,
+    "t_end": 944.73,
+    "text": "and you have some cities when you actually want to distribute the goods so"
+  },
+  {
+    "t_start": 944.73,
+    "t_end": 946.32,
+    "text": "actually want to distribute the goods so the dots now they are slightly different"
+  },
+  {
+    "t_start": 946.32,
+    "t_end": 950.91,
+    "text": "the dots now they are slightly different so for instance you see that this dot is"
+  },
+  {
+    "t_start": 950.91,
+    "t_end": 955.44,
+    "text": "here and the reason is that because this Factory is producing twice as much goods"
+  },
+  {
+    "t_start": 955.44,
+    "t_end": 960.69,
+    "text": "Factory is producing twice as much goods as this factory over here okay now you"
+  },
+  {
+    "t_start": 960.69,
+    "t_end": 964.74,
+    "text": "are the person owning the factories you have trucks you're not using the railway"
+  },
+  {
+    "t_start": 964.74,
+    "t_end": 968.61,
+    "text": "your trucks in such a way that they distribute your goods to the cities okay"
+  },
+  {
+    "t_start": 968.61,
+    "t_end": 971.7,
+    "text": "distribute your goods to the cities okay so let's say that each city is consuming"
+  },
+  {
+    "t_start": 971.7,
+    "t_end": 975.36,
+    "text": "so let's say that each city is consuming a unit of one so you have one consumer"
+  },
+  {
+    "t_start": 975.36,
+    "t_end": 981.51,
+    "text": "one consumer one consumer you have a factory which produces two and you have"
+  },
+  {
+    "t_start": 981.51,
+    "t_end": 987.0,
+    "text": "factory which produces two and you have a factory which produces one okay and"
+  },
+  {
+    "t_start": 987.0,
+    "t_end": 988.11,
+    "text": "now you want to minimize the rolls the amount of Road that the trucks are"
+  },
+  {
+    "t_start": 988.11,
+    "t_end": 991.23,
+    "text": "amount of Road that the trucks are actually going to use okay of course"
+  },
+  {
+    "t_start": 991.23,
+    "t_end": 993.12,
+    "text": "actually going to use okay of course what you do what you do the very same"
+  },
+  {
+    "t_start": 993.12,
+    "t_end": 997.26,
+    "text": "this very simple solution you take one truck here and you should sit and you"
+  },
+  {
+    "t_start": 997.26,
+    "t_end": 999.3,
+    "text": "truck here and you should sit and you shoot it to the closest city right it"
+  },
+  {
+    "t_start": 999.3,
+    "t_end": 1005.87,
+    "text": "from here to this dot and the truck from here to that dot now what do you do over"
+  },
+  {
+    "t_start": 1005.87,
+    "t_end": 1008.42,
+    "text": "here to that dot now what do you do over here so you use two trucks because you"
+  },
+  {
+    "t_start": 1008.42,
+    "t_end": 1012.89,
+    "text": "have to reach two cities and you just go directly with one track to that city and"
+  },
+  {
+    "t_start": 1012.89,
+    "t_end": 1015.11,
+    "text": "directly with one track to that city and directly to with another truck to the"
+  },
+  {
+    "t_start": 1015.11,
+    "t_end": 1019.84,
+    "text": "directly to with another truck to the other city now if you had a railway you"
+  },
+  {
+    "t_start": 1019.84,
+    "t_end": 1022.34,
+    "text": "would build a railway up to here and then have an intermediate station and"
+  },
+  {
+    "t_start": 1022.34,
+    "t_end": 1026.96,
+    "text": "then distribute to other railways in two different directions but now you have"
+  },
+  {
+    "t_start": 1026.96,
+    "t_end": 1032.059,
+    "text": "trucks of course you can make the trucks go along together for a certain piece of"
+  },
+  {
+    "t_start": 1032.059,
+    "t_end": 1037.16,
+    "text": "the road and then bifurcate at a certain point but that is not effective in terms"
+  },
+  {
+    "t_start": 1037.16,
+    "t_end": 1039.559,
+    "text": "point but that is not effective in terms of costs because you are moving two"
+  },
+  {
+    "t_start": 1039.559,
+    "t_end": 1045.74,
+    "text": "trucks and each of them they are taking a longer load okay so if you want to"
+  },
+  {
+    "t_start": 1045.74,
+    "t_end": 1047.449,
+    "text": "a longer load okay so if you want to model this situation it means that if"
+  },
+  {
+    "t_start": 1047.449,
+    "t_end": 1050.09,
+    "text": "model this situation it means that if you make a connection which is a tripod"
+  },
+  {
+    "t_start": 1050.09,
+    "t_end": 1053.96,
+    "text": "you make a connection which is a tripod junction over here you have to take into"
+  },
+  {
+    "t_start": 1053.96,
+    "t_end": 1055.88,
+    "text": "account that for a certain amount of Road actually you're going with two"
+  },
+  {
+    "t_start": 1055.88,
+    "t_end": 1059.87,
+    "text": "trucks on the same road but with two trucks so that road actually should"
+  },
+  {
+    "t_start": 1059.87,
+    "t_end": 1065.49,
+    "text": "trucks so that road actually should count for two and that is what I mean by"
+  },
+  {
+    "t_start": 1065.49,
+    "t_end": 1070.08,
+    "text": "this you can do in higher dimension as well it's a little bit more complicated"
+  },
+  {
+    "t_start": 1070.08,
+    "t_end": 1075.6,
+    "text": "well it's a little bit more complicated though so let me give you a very simple"
+  },
+  {
+    "t_start": 1075.6,
+    "t_end": 1083.52,
+    "text": "example so you have this wire over here and this wire over here and they have an"
+  },
+  {
+    "t_start": 1083.52,
+    "t_end": 1086.34,
+    "text": "and this wire over here and they have an orientation which I call negative so"
+  },
+  {
+    "t_start": 1086.34,
+    "t_end": 1088.32,
+    "text": "orientation which I call negative so this is like negative oriented and this"
+  },
+  {
+    "t_start": 1088.32,
+    "t_end": 1094.23,
+    "text": "is positively oriented okay if you have this situation an oriented surface which"
+  },
+  {
+    "t_start": 1094.23,
+    "t_end": 1098.4,
+    "text": "this situation an oriented surface which is spending this wire is a piece of a"
+  },
+  {
+    "t_start": 1098.4,
+    "t_end": 1102.47,
+    "text": "catenoid so you have to imagine that here there is a surface of revolution"
+  },
+  {
+    "t_start": 1102.47,
+    "t_end": 1110.28,
+    "text": "which looks like a band cone right so you have to imagine a cone or a piece of"
+  },
+  {
+    "t_start": 1110.28,
+    "t_end": 1111.84,
+    "text": "you have to imagine a cone or a piece of a cone which is connecting these two"
+  },
+  {
+    "t_start": 1111.84,
+    "t_end": 1117.96,
+    "text": "circles and then you bend it a little bit because by bending it a little bit"
+  },
+  {
+    "t_start": 1117.96,
+    "t_end": 1120.48,
+    "text": "you're actually saving area okay and this is allowed because these two disks"
+  },
+  {
+    "t_start": 1120.48,
+    "t_end": 1123.0,
+    "text": "this is allowed because these two disks these two curves have opposite"
+  },
+  {
+    "t_start": 1123.0,
+    "t_end": 1128.49,
+    "text": "orientation but if you have two curves which are oriented in the same way would"
+  },
+  {
+    "t_start": 1128.49,
+    "t_end": 1131.46,
+    "text": "which are oriented in the same way would be like having two factories in your"
+  },
+  {
+    "t_start": 1131.46,
+    "t_end": 1133.41,
+    "text": "be like having two factories in your problem before and you don't want to"
+  },
+  {
+    "t_start": 1133.41,
+    "t_end": 1134.94,
+    "text": "problem before and you don't want to connect the factory with another factor"
+  },
+  {
+    "t_start": 1134.94,
+    "t_end": 1139.2,
+    "text": "connect the factory with another factor you want actually to connect the factory"
+  },
+  {
+    "t_start": 1139.2,
+    "t_end": 1141.38,
+    "text": "with the city okay so if you have two curves which have the same orientation"
+  },
+  {
+    "t_start": 1141.38,
+    "t_end": 1144.33,
+    "text": "curves which have the same orientation the solution of your plateau problem"
+  },
+  {
+    "t_start": 1144.33,
+    "t_end": 1149.28,
+    "text": "the solution of your plateau problem would be to film one curve with the disc"
+  },
+  {
+    "t_start": 1149.28,
+    "t_end": 1155.1,
+    "text": "which you see over here and to film another curve with another disc okay so"
+  },
+  {
+    "t_start": 1155.1,
+    "t_end": 1159.21,
+    "text": "another curve with another disc okay so this is a solution what we call the"
+  },
+  {
+    "t_start": 1159.21,
+    "t_end": 1163.11,
+    "text": "oriented Plateau problem we cannot simply take arbitrary pieces of the"
+  },
+  {
+    "t_start": 1163.11,
+    "t_end": 1165.18,
+    "text": "simply take arbitrary pieces of the curves and connecting them they have to"
+  },
+  {
+    "t_start": 1165.18,
+    "t_end": 1167.82,
+    "text": "curves and connecting them they have to have a compatibility condition okay as"
+  },
+  {
+    "t_start": 1167.82,
+    "t_end": 1174.54,
+    "text": "have a compatibility condition okay as before you had a compatibility condition"
+  },
+  {
+    "t_start": 1174.54,
+    "t_end": 1178.08,
+    "text": "although it looks a little bit weird it's actually something which in nature"
+  },
+  {
+    "t_start": 1178.08,
+    "t_end": 1181.85,
+    "text": "it's actually something which in nature happens so if you are dipping two"
+  },
+  {
+    "t_start": 1181.85,
+    "t_end": 1191.22,
+    "text": "circles in support and you take them out you actually find two disks now if you"
+  },
+  {
+    "t_start": 1191.22,
+    "t_end": 1193.89,
+    "text": "you actually find two disks now if you are connecting the two wires with a"
+  },
+  {
+    "t_start": 1193.89,
+    "t_end": 1199.21,
+    "text": "are connecting the two wires with a little tube and you pull it out then in"
+  },
+  {
+    "t_start": 1199.21,
+    "t_end": 1206.14,
+    "text": "annoyed in some situation you see this in some other situations you actually"
+  },
+  {
+    "t_start": 1206.14,
+    "t_end": 1207.1,
+    "text": "see the two disks so both situations occur in nature"
+  },
+  {
+    "t_start": 1207.1,
+    "t_end": 1212.14,
+    "text": "in fact okay so now this entire dimension takes into account for"
+  },
+  {
+    "t_start": 1212.14,
+    "t_end": 1213.7,
+    "text": "dimension takes into account for orientation now do the following"
+  },
+  {
+    "t_start": 1213.7,
+    "t_end": 1215.71,
+    "text": "orientation now do the following experiment so you have your solution"
+  },
+  {
+    "t_start": 1215.71,
+    "t_end": 1221.44,
+    "text": "over here and your solution over here in both situations take your circles and"
+  },
+  {
+    "t_start": 1221.44,
+    "t_end": 1230.289,
+    "text": "both situations take your circles and slide them down until they touch okay so"
+  },
+  {
+    "t_start": 1230.289,
+    "t_end": 1237.72,
+    "text": "in this situation you have the upper disc which is moving close to the lower"
+  },
+  {
+    "t_start": 1237.72,
+    "t_end": 1242.2,
+    "text": "disc so when the truth when the two circles become co-planner you find the"
+  },
+  {
+    "t_start": 1242.2,
+    "t_end": 1246.52,
+    "text": "circles become co-planner you find the outer disk and a superposition of the"
+  },
+  {
+    "t_start": 1246.52,
+    "t_end": 1251.74,
+    "text": "inner disc and the outer disc at a certain point okay here the surface is"
+  },
+  {
+    "t_start": 1251.74,
+    "t_end": 1256.779,
+    "text": "empty on the top so you only have the lateral surface when you are sliding the"
+  },
+  {
+    "t_start": 1256.779,
+    "t_end": 1259.81,
+    "text": "lateral surface when you are sliding the top circle towards the lower circle when"
+  },
+  {
+    "t_start": 1259.81,
+    "t_end": 1263.14,
+    "text": "top circle towards the lower circle when you become co-planner okay your surface"
+  },
+  {
+    "t_start": 1263.14,
+    "t_end": 1266.049,
+    "text": "you become co-planner okay your surface will degenerate into a corona that is"
+  },
+  {
+    "t_start": 1266.049,
+    "t_end": 1271.96,
+    "text": "into an inner disc weed out the outer disk okay so now imagine that you have"
+  },
+  {
+    "t_start": 1271.96,
+    "t_end": 1273.94,
+    "text": "disk okay so now imagine that you have slide the circle until they become"
+  },
+  {
+    "t_start": 1273.94,
+    "t_end": 1275.95,
+    "text": "slide the circle until they become co-planner and look at them from above"
+  },
+  {
+    "t_start": 1275.95,
+    "t_end": 1281.68,
+    "text": "co-planner and look at them from above okay if you look at them from above you"
+  },
+  {
+    "t_start": 1281.68,
+    "t_end": 1287.649,
+    "text": "see a circle with a hole okay so the white hole means that your surface is"
+  },
+  {
+    "t_start": 1287.649,
+    "t_end": 1292.659,
+    "text": "white hole means that your surface is only this Corona in the right you will"
+  },
+  {
+    "t_start": 1292.659,
+    "t_end": 1294.73,
+    "text": "only this Corona in the right you will see the collapsing of the two disks so"
+  },
+  {
+    "t_start": 1294.73,
+    "t_end": 1302.049,
+    "text": "you an outer disk which is counted with multiplicity one and then a core I mean"
+  },
+  {
+    "t_start": 1302.049,
+    "t_end": 1307.149,
+    "text": "multiplicity one and then a core I mean this is the black core that I have draw"
+  },
+  {
+    "t_start": 1307.149,
+    "t_end": 1312.31,
+    "text": "in here that core is the superposition of the two disks okay you should count"
+  },
+  {
+    "t_start": 1312.31,
+    "t_end": 1317.049,
+    "text": "it twice so the inner core has multiplicity two so now you have an"
+  },
+  {
+    "t_start": 1317.049,
+    "t_end": 1319.029,
+    "text": "multiplicity two so now you have an interesting situation so the boundary so"
+  },
+  {
+    "t_start": 1319.029,
+    "t_end": 1322.0,
+    "text": "interesting situation so the boundary so your wire is this disc and this disc"
+  },
+  {
+    "t_start": 1322.0,
+    "t_end": 1327.88,
+    "text": "over here I mean this circle and this circle that is the boundary and here"
+  },
+  {
+    "t_start": 1327.88,
+    "t_end": 1334.01,
+    "text": "this circle in one case we will say that the boundary points are one-sided right"
+  },
+  {
+    "t_start": 1334.01,
+    "t_end": 1339.98,
+    "text": "so the surface is always on this boundary the surface is always lying on"
+  },
+  {
+    "t_start": 1339.98,
+    "t_end": 1345.14,
+    "text": "boundary the surface is always lying on this side on this boundary the surface"
+  },
+  {
+    "t_start": 1345.14,
+    "t_end": 1347.63,
+    "text": "is always lied on the other side but when you are sitting at the boundary you"
+  },
+  {
+    "t_start": 1347.63,
+    "t_end": 1350.93,
+    "text": "when you are sitting at the boundary you always see a surface on your right maybe"
+  },
+  {
+    "t_start": 1350.93,
+    "t_end": 1355.61,
+    "text": "always see a surface on your right maybe or your left depending on where you are"
+  },
+  {
+    "t_start": 1355.61,
+    "t_end": 1358.0,
+    "text": "and you see nothing on your left so these are one-sided boundary points in"
+  },
+  {
+    "t_start": 1358.0,
+    "t_end": 1360.95,
+    "text": "these are one-sided boundary points in this example if you're sitting at this"
+  },
+  {
+    "t_start": 1360.95,
+    "t_end": 1366.26,
+    "text": "point you are one sided so you see your surface on one side of yourself and you"
+  },
+  {
+    "t_start": 1366.26,
+    "t_end": 1372.98,
+    "text": "see nothing on the other side but if you are sitting at the boundary between the"
+  },
+  {
+    "t_start": 1372.98,
+    "t_end": 1376.1,
+    "text": "are sitting at the boundary between the black region and the shaded region you"
+  },
+  {
+    "t_start": 1376.1,
+    "t_end": 1381.56,
+    "text": "will see surface on both sides of you only on one side you will see a surface"
+  },
+  {
+    "t_start": 1381.56,
+    "t_end": 1387.23,
+    "text": "counted twice on the other side you will see a surface counted once okay so these"
+  },
+  {
+    "t_start": 1387.23,
+    "t_end": 1392.29,
+    "text": "see a surface counted once okay so these points we will call them two-sided and"
+  },
+  {
+    "t_start": 1392.29,
+    "t_end": 1394.79,
+    "text": "points we will call them two-sided and what we conclude from these examples is"
+  },
+  {
+    "t_start": 1394.79,
+    "t_end": 1396.77,
+    "text": "what we conclude from these examples is that actually the oriented plateaus"
+  },
+  {
+    "t_start": 1396.77,
+    "t_end": 1400.61,
+    "text": "that actually the oriented plateaus problem admits minimizer's which have"
+  },
+  {
+    "t_start": 1400.61,
+    "t_end": 1404.27,
+    "text": "two sided boundaries okay and this will be very relevant for what I'm going to"
+  },
+  {
+    "t_start": 1404.27,
+    "t_end": 1410.81,
+    "text": "be very relevant for what I'm going to tell you in a few slides okay so what I"
+  },
+  {
+    "t_start": 1410.81,
+    "t_end": 1412.88,
+    "text": "tell you in a few slides okay so what I mean what what have mathematicians done"
+  },
+  {
+    "t_start": 1412.88,
+    "t_end": 1418.31,
+    "text": "then in this situation okay so back in the 60s and 70s through the code through"
+  },
+  {
+    "t_start": 1418.31,
+    "t_end": 1419.63,
+    "text": "the 60s and 70s through the code through the major contributions of three"
+  },
+  {
+    "t_start": 1419.63,
+    "t_end": 1427.64,
+    "text": "mathematicians so the Georgie in Italy and federal and Fleming in the United"
+  },
+  {
+    "t_start": 1427.64,
+    "t_end": 1433.67,
+    "text": "States so these mathematicians funded the theory of integral carbons so what"
+  },
+  {
+    "t_start": 1433.67,
+    "t_end": 1436.01,
+    "text": "did they do what did they do so they defined the most general surfaces with"
+  },
+  {
+    "t_start": 1436.01,
+    "t_end": 1439.34,
+    "text": "defined the most general surfaces with orientation which have finite area and"
+  },
+  {
+    "t_start": 1439.34,
+    "t_end": 1444.47,
+    "text": "which have oriented boundary with finite area okay so in our previous situations"
+  },
+  {
+    "t_start": 1444.47,
+    "t_end": 1447.77,
+    "text": "area okay so in our previous situations we have a curve of finite length which"
+  },
+  {
+    "t_start": 1447.77,
+    "t_end": 1449.96,
+    "text": "we have a curve of finite length which is bounding a minimizer this minimizer"
+  },
+  {
+    "t_start": 1449.96,
+    "t_end": 1455.03,
+    "text": "is an oriented two-dimensional surface with finite area okay so you could ask"
+  },
+  {
+    "t_start": 1455.03,
+    "t_end": 1457.28,
+    "text": "with finite area okay so you could ask what is the most general object which I"
+  },
+  {
+    "t_start": 1457.28,
+    "t_end": 1459.8,
+    "text": "what is the most general object which I can define with this idea so how rough"
+  },
+  {
+    "t_start": 1459.8,
+    "t_end": 1463.76,
+    "text": "can define with this idea so how rough can they be how singular and the answer"
+  },
+  {
+    "t_start": 1463.76,
+    "t_end": 1466.07,
+    "text": "is in this theory which is called the theory of integral currents"
+  },
+  {
+    "t_start": 1466.07,
+    "t_end": 1473.93,
+    "text": "general objects they actually proved two theorems so the first theorem is an"
+  },
+  {
+    "t_start": 1473.93,
+    "t_end": 1478.97,
+    "text": "existence theorem so the theorem says the space of integral cabins is closed"
+  },
+  {
+    "t_start": 1478.97,
+    "t_end": 1480.65,
+    "text": "the space of integral cabins is closed and compact so these are certain"
+  },
+  {
+    "t_start": 1480.65,
+    "t_end": 1483.04,
+    "text": "and compact so these are certain mathematical properties which ensure you"
+  },
+  {
+    "t_start": 1483.04,
+    "t_end": 1488.3,
+    "text": "mathematical properties which ensure you one thing for any reasonable boundary"
+  },
+  {
+    "t_start": 1488.3,
+    "t_end": 1493.49,
+    "text": "one thing for any reasonable boundary oriented boundary in a reasonable"
+  },
+  {
+    "t_start": 1493.49,
+    "t_end": 1496.37,
+    "text": "Romanian ambient space so in a reasonable geometry there is always a"
+  },
+  {
+    "t_start": 1496.37,
+    "t_end": 1498.44,
+    "text": "reasonable geometry there is always a solution of the oriented plateau problem"
+  },
+  {
+    "t_start": 1498.44,
+    "t_end": 1500.93,
+    "text": "solution of the oriented plateau problem so there is always a generalized surface"
+  },
+  {
+    "t_start": 1500.93,
+    "t_end": 1503.36,
+    "text": "so there is always a generalized surface and oriented generalized surface which"
+  },
+  {
+    "t_start": 1503.36,
+    "t_end": 1506.09,
+    "text": "and oriented generalized surface which is the absolute minimum of the area"
+  },
+  {
+    "t_start": 1506.09,
+    "t_end": 1508.43,
+    "text": "is the absolute minimum of the area functional which is therefore a"
+  },
+  {
+    "t_start": 1508.43,
+    "t_end": 1510.35,
+    "text": "functional which is therefore a candidate solution for your classical"
+  },
+  {
+    "t_start": 1510.35,
+    "t_end": 1514.51,
+    "text": "candidate solution for your classical plateau problem so that's one theorem"
+  },
+  {
+    "t_start": 1514.51,
+    "t_end": 1517.25,
+    "text": "plateau problem so that's one theorem okay the second theorem is more"
+  },
+  {
+    "t_start": 1517.25,
+    "t_end": 1518.27,
+    "text": "okay the second theorem is more difficult to explain"
+  },
+  {
+    "t_start": 1518.27,
+    "t_end": 1523.13,
+    "text": "so for mathematicians the second theorem is saying that the space of integral"
+  },
+  {
+    "t_start": 1523.13,
+    "t_end": 1528.17,
+    "text": "of your initial problem so what are what what exactly does this theorem says so"
+  },
+  {
+    "t_start": 1528.17,
+    "t_end": 1534.47,
+    "text": "space of surfaces that you have defined is slightly more general than the space"
+  },
+  {
+    "t_start": 1534.47,
+    "t_end": 1537.26,
+    "text": "is slightly more general than the space of usual surfaces it's the minimal"
+  },
+  {
+    "t_start": 1537.26,
+    "t_end": 1540.62,
+    "text": "of usual surfaces it's the minimal generalization that you can use to prove"
+  },
+  {
+    "t_start": 1540.62,
+    "t_end": 1545.42,
+    "text": "generalization that you can use to prove that theorem so it's true you admitted"
+  },
+  {
+    "t_start": 1545.42,
+    "t_end": 1548.69,
+    "text": "surfaces which have a certain type of singularities but you didn't get too"
+  },
+  {
+    "t_start": 1548.69,
+    "t_end": 1551.63,
+    "text": "singularities but you didn't get too much junk okay the least amount of junk"
+  },
+  {
+    "t_start": 1551.63,
+    "t_end": 1553.4,
+    "text": "much junk okay the least amount of junk and irregular surfaces that you can"
+  },
+  {
+    "t_start": 1553.4,
+    "t_end": 1560.0,
+    "text": "include in your theory to have a nice problem in the calculus of variations so"
+  },
+  {
+    "t_start": 1560.0,
+    "t_end": 1561.29,
+    "text": "problem in the calculus of variations so these are the two theorems which are"
+  },
+  {
+    "t_start": 1561.29,
+    "t_end": 1566.93,
+    "text": "fundamental and for the experts this is I mean here I'm just giving a poor man"
+  },
+  {
+    "t_start": 1566.93,
+    "t_end": 1569.23,
+    "text": "I mean here I'm just giving a poor man version of the compactness theorem and"
+  },
+  {
+    "t_start": 1569.23,
+    "t_end": 1573.32,
+    "text": "version of the compactness theorem and here I'm doing I'm giving a corollary or"
+  },
+  {
+    "t_start": 1573.32,
+    "t_end": 1582.71,
+    "text": "a poor man corollary of the deformation lemma your famous theorems okay now what"
+  },
+  {
+    "t_start": 1582.71,
+    "t_end": 1586.52,
+    "text": "lemma your famous theorems okay now what happens so you have general surfaces and"
+  },
+  {
+    "t_start": 1586.52,
+    "t_end": 1589.88,
+    "text": "happens so you have general surfaces and now you have a minimizer you want to"
+  },
+  {
+    "t_start": 1589.88,
+    "t_end": 1593.57,
+    "text": "shape of this minimizer so for instance what is the type of singularities that"
+  },
+  {
+    "t_start": 1593.57,
+    "t_end": 1595.67,
+    "text": "what is the type of singularities that might occur maybe they don't talk her I"
+  },
+  {
+    "t_start": 1595.67,
+    "t_end": 1597.35,
+    "text": "might occur maybe they don't talk her I mean maybe you minimize the area and you"
+  },
+  {
+    "t_start": 1597.35,
+    "t_end": 1600.0,
+    "text": "mean maybe you minimize the area and you always find something regular"
+  },
+  {
+    "t_start": 1600.0,
+    "t_end": 1605.669,
+    "text": "always find something regular okay so the answer is yes actually they"
+  },
+  {
+    "t_start": 1605.669,
+    "t_end": 1608.61,
+    "text": "okay so the answer is yes actually they always say I mean that there are in in"
+  },
+  {
+    "t_start": 1608.61,
+    "t_end": 1610.59,
+    "text": "always say I mean that there are in in most situations there are there might be"
+  },
+  {
+    "t_start": 1610.59,
+    "t_end": 1614.76,
+    "text": "most situations there are there might be singularities so one interesting"
+  },
+  {
+    "t_start": 1614.76,
+    "t_end": 1617.34,
+    "text": "singularities so one interesting situation and the best-studied situation"
+  },
+  {
+    "t_start": 1617.34,
+    "t_end": 1620.46,
+    "text": "situation and the best-studied situation is the so called code I mentioned one"
+  },
+  {
+    "t_start": 1620.46,
+    "t_end": 1622.289,
+    "text": "case so what does it mean could I mention one case this is very similar to"
+  },
+  {
+    "t_start": 1622.289,
+    "t_end": 1624.659,
+    "text": "mention one case this is very similar to the original Plateau problem so your"
+  },
+  {
+    "t_start": 1624.659,
+    "t_end": 1628.02,
+    "text": "the original Plateau problem so your ambient space has one dimension more"
+  },
+  {
+    "t_start": 1628.02,
+    "t_end": 1630.63,
+    "text": "ambient space has one dimension more than your minimizer so for instance the"
+  },
+  {
+    "t_start": 1630.63,
+    "t_end": 1631.86,
+    "text": "than your minimizer so for instance the plateau problem is in the three"
+  },
+  {
+    "t_start": 1631.86,
+    "t_end": 1633.659,
+    "text": "plateau problem is in the three dimensional space you look for two"
+  },
+  {
+    "t_start": 1633.659,
+    "t_end": 1636.06,
+    "text": "dimensional space you look for two dimensional surfaces which minimize the"
+  },
+  {
+    "t_start": 1636.06,
+    "t_end": 1641.25,
+    "text": "area so the minimizer as dimension to the ambien surf the ambient geometry has"
+  },
+  {
+    "t_start": 1641.25,
+    "t_end": 1643.65,
+    "text": "the ambien surf the ambient geometry has dimension three so one less so this is"
+  },
+  {
+    "t_start": 1643.65,
+    "t_end": 1646.47,
+    "text": "dimension three so one less so this is called code I mentioned one now in code"
+  },
+  {
+    "t_start": 1646.47,
+    "t_end": 1651.39,
+    "text": "called code I mentioned one now in code I mention one a famous example was given"
+  },
+  {
+    "t_start": 1651.39,
+    "t_end": 1656.909,
+    "text": "Giusti in 1970 actually the example was written down by Simons and it's the fort"
+  },
+  {
+    "t_start": 1656.909,
+    "t_end": 1659.94,
+    "text": "written down by Simons and it's the fort called the simons cone and what these"
+  },
+  {
+    "t_start": 1659.94,
+    "t_end": 1661.409,
+    "text": "called the simons cone and what these people what these three famous"
+  },
+  {
+    "t_start": 1661.409,
+    "t_end": 1664.59,
+    "text": "people what these three famous mathematicians did they proved that this"
+  },
+  {
+    "t_start": 1664.59,
+    "t_end": 1667.26,
+    "text": "mathematicians did they proved that this corn the corn actually has a very simple"
+  },
+  {
+    "t_start": 1667.26,
+    "t_end": 1670.289,
+    "text": "corn the corn actually has a very simple formula so this formula gives you a"
+  },
+  {
+    "t_start": 1670.289,
+    "t_end": 1672.69,
+    "text": "formula so this formula gives you a seven dimensional surface in the eight"
+  },
+  {
+    "t_start": 1672.69,
+    "t_end": 1676.11,
+    "text": "seven dimensional surface in the eight dimensional space it has a singularity"
+  },
+  {
+    "t_start": 1676.11,
+    "t_end": 1678.09,
+    "text": "dimensional space it has a singularity in the origin so when all the"
+  },
+  {
+    "t_start": 1678.09,
+    "t_end": 1680.1,
+    "text": "in the origin so when all the coordinates are equal to zero you get"
+  },
+  {
+    "t_start": 1680.1,
+    "t_end": 1685.74,
+    "text": "the tip of the cone if you want and this object is actually a minimizer of the"
+  },
+  {
+    "t_start": 1685.74,
+    "t_end": 1688.86,
+    "text": "object is actually a minimizer of the area but so what do I mean by a"
+  },
+  {
+    "t_start": 1688.86,
+    "t_end": 1695.039,
+    "text": "infinite cone so you cut it with a very large sphere when you cut it you find"
+  },
+  {
+    "t_start": 1695.039,
+    "t_end": 1698.4,
+    "text": "large sphere when you cut it you find the boundary and your cone is the only"
+  },
+  {
+    "t_start": 1698.4,
+    "t_end": 1701.33,
+    "text": "the boundary and your cone is the only way of continuing your boundary inside"
+  },
+  {
+    "t_start": 1701.33,
+    "t_end": 1705.539,
+    "text": "way of continuing your boundary inside by minimizing the area so there is no"
+  },
+  {
+    "t_start": 1705.539,
+    "t_end": 1711.39,
+    "text": "other minimizer is even the unique minimizer okay and it has a singularity"
+  },
+  {
+    "t_start": 1711.39,
+    "t_end": 1714.51,
+    "text": "at the origin so it's a seven dimensional space a seven dimensional"
+  },
+  {
+    "t_start": 1714.51,
+    "t_end": 1722.07,
+    "text": "solution of the oriented plateau problem in eight dimensions and it has a point"
+  },
+  {
+    "t_start": 1722.07,
+    "t_end": 1723.57,
+    "text": "singularity okay even in higher codimension actually you have"
+  },
+  {
+    "t_start": 1723.57,
+    "t_end": 1729.539,
+    "text": "singularities you have many even more so Federer in 1979 and gave an example of a"
+  },
+  {
+    "t_start": 1729.539,
+    "t_end": 1731.61,
+    "text": "Federer in 1979 and gave an example of a two-dimensional surface so the surface"
+  },
+  {
+    "t_start": 1731.61,
+    "t_end": 1733.409,
+    "text": "two-dimensional surface so the surface is very steady"
+  },
+  {
+    "t_start": 1733.409,
+    "t_end": 1738.419,
+    "text": "very low dimension but it's in the fourth dimensional space so the space is"
+  },
+  {
+    "t_start": 1738.419,
+    "t_end": 1742.129,
+    "text": "fourth dimensional space so the space is two dimensions more than the minimizer"
+  },
+  {
+    "t_start": 1742.129,
+    "t_end": 1747.479,
+    "text": "the surface you can write it in complex coordinates and so in complex notation"
+  },
+  {
+    "t_start": 1747.479,
+    "t_end": 1750.509,
+    "text": "coordinates and so in complex notation this is the equation which is satisfied"
+  },
+  {
+    "t_start": 1750.509,
+    "t_end": 1754.039,
+    "text": "this is the equation which is satisfied by the coordinates so you see that you"
+  },
+  {
+    "t_start": 1754.039,
+    "t_end": 1756.719,
+    "text": "have one single equation but this is these are complex numbers so if you"
+  },
+  {
+    "t_start": 1756.719,
+    "t_end": 1759.629,
+    "text": "these are complex numbers so if you write the equation for the real part and"
+  },
+  {
+    "t_start": 1759.629,
+    "t_end": 1764.219,
+    "text": "write the equation for the real part and the equation for the imaginary part you"
+  },
+  {
+    "t_start": 1764.219,
+    "t_end": 1767.159,
+    "text": "equations in four unknowns gives you two degrees of freedom this should be a"
+  },
+  {
+    "t_start": 1767.159,
+    "t_end": 1768.81,
+    "text": "degrees of freedom this should be a two-dimensional surface in the four"
+  },
+  {
+    "t_start": 1768.81,
+    "t_end": 1774.839,
+    "text": "dimensional space and it has again a singularity at the origin okay now this"
+  },
+  {
+    "t_start": 1774.839,
+    "t_end": 1781.43,
+    "text": "is very nice but of course although the singularities exist they are very small"
+  },
+  {
+    "t_start": 1781.43,
+    "t_end": 1787.169,
+    "text": "so you could ask the next question which is okay maybe there are similarities but"
+  },
+  {
+    "t_start": 1787.169,
+    "t_end": 1789.709,
+    "text": "is okay maybe there are similarities but how large are these singularities and"
+  },
+  {
+    "t_start": 1789.709,
+    "t_end": 1792.209,
+    "text": "how large are these singularities and the first very nice theorem which was"
+  },
+  {
+    "t_start": 1792.209,
+    "t_end": 1797.039,
+    "text": "the first very nice theorem which was proved in the 1970s by the cumulated"
+  },
+  {
+    "t_start": 1797.039,
+    "t_end": 1800.729,
+    "text": "work of several people starting with the georgy and then going on with flaming"
+  },
+  {
+    "t_start": 1800.729,
+    "t_end": 1803.759,
+    "text": "georgy and then going on with flaming anger and Simons and Federer is that in"
+  },
+  {
+    "t_start": 1803.759,
+    "t_end": 1806.94,
+    "text": "anger and Simons and Federer is that in Co dimension 1 the Simon's cone is the"
+  },
+  {
+    "t_start": 1806.94,
+    "t_end": 1810.829,
+    "text": "Co dimension 1 the Simon's cone is the first occurrence of a singularity so the"
+  },
+  {
+    "t_start": 1810.829,
+    "t_end": 1814.44,
+    "text": "first occurrence of a singularity so the singularities can have dimension em the"
+  },
+  {
+    "t_start": 1814.44,
+    "t_end": 1819.989,
+    "text": "singularities can have dimension em the dimension of the minimizer -7 so if you"
+  },
+  {
+    "t_start": 1819.989,
+    "t_end": 1826.68,
+    "text": "a point but if you have a 6 dimensional surface which minimizes the area in the"
+  },
+  {
+    "t_start": 1826.68,
+    "t_end": 1829.68,
+    "text": "surface which minimizes the area in the seven dimensional space the singularity"
+  },
+  {
+    "t_start": 1829.68,
+    "t_end": 1835.739,
+    "text": "this means it has to be the empty set so there are no singularities you actually"
+  },
+  {
+    "t_start": 1835.739,
+    "t_end": 1841.109,
+    "text": "there are no singularities you actually smooth now in the higher dimension"
+  },
+  {
+    "t_start": 1841.109,
+    "t_end": 1842.879,
+    "text": "smooth now in the higher dimension that's also another theorem that tells"
+  },
+  {
+    "t_start": 1842.879,
+    "t_end": 1847.919,
+    "text": "you and this theorem is by undrained in 1980 it tells you that also the example"
+  },
+  {
+    "t_start": 1847.919,
+    "t_end": 1851.159,
+    "text": "1980 it tells you that also the example of Federer is optimal so in higher"
+  },
+  {
+    "t_start": 1851.159,
+    "t_end": 1853.499,
+    "text": "of Federer is optimal so in higher codimension an n-dimensional minimizer"
+  },
+  {
+    "t_start": 1853.499,
+    "t_end": 1859.259,
+    "text": "codimension an n-dimensional minimizer has a singularity which has dimension at"
+  },
+  {
+    "t_start": 1859.259,
+    "t_end": 1862.529,
+    "text": "most n minus 2 so if you have a two-dimensional surface the singularity"
+  },
+  {
+    "t_start": 1862.529,
+    "t_end": 1867.12,
+    "text": "two-dimensional surface the singularity can only be 0 dimensional so can only be"
+  },
+  {
+    "t_start": 1867.12,
+    "t_end": 1871.38,
+    "text": "it's very nice because it tells you that you have the examples and that you have"
+  },
+  {
+    "t_start": 1871.38,
+    "t_end": 1876.63,
+    "text": "you have the examples and that you have also a full answer on how large the"
+  },
+  {
+    "t_start": 1876.63,
+    "t_end": 1879.72,
+    "text": "singularities could be so the examples are the first or the easiest singularity"
+  },
+  {
+    "t_start": 1879.72,
+    "t_end": 1881.039,
+    "text": "are the first or the easiest singularity examples that you can imagine there's"
+  },
+  {
+    "t_start": 1881.039,
+    "t_end": 1884.909,
+    "text": "examples that you can imagine there's nothing more complicated than that okay"
+  },
+  {
+    "t_start": 1884.909,
+    "t_end": 1887.669,
+    "text": "nothing more complicated than that okay so now there are some issues with this"
+  },
+  {
+    "t_start": 1887.669,
+    "t_end": 1890.46,
+    "text": "though could I mention one is well understood so it's a theory it's a"
+  },
+  {
+    "t_start": 1890.46,
+    "t_end": 1894.6,
+    "text": "understood so it's a theory it's a theorem which is streamlined it has a"
+  },
+  {
+    "t_start": 1894.6,
+    "t_end": 1898.56,
+    "text": "textbooks I mean I can give you several references it's the textbooks for well"
+  },
+  {
+    "t_start": 1898.56,
+    "t_end": 1900.51,
+    "text": "references it's the textbooks for well advanced mathematics students but it's a"
+  },
+  {
+    "t_start": 1900.51,
+    "t_end": 1904.62,
+    "text": "advanced mathematics students but it's a textbook anyway I mean you can learn it"
+  },
+  {
+    "t_start": 1904.62,
+    "t_end": 1906.69,
+    "text": "for instance in your master studies at the University I mean maybe if you're"
+  },
+  {
+    "t_start": 1906.69,
+    "t_end": 1908.19,
+    "text": "the University I mean maybe if you're brave even you know in your bachelor"
+  },
+  {
+    "t_start": 1908.19,
+    "t_end": 1910.49,
+    "text": "brave even you know in your bachelor studies that show starts maybe to be a"
+  },
+  {
+    "t_start": 1910.49,
+    "t_end": 1912.84,
+    "text": "studies that show starts maybe to be a little bit exaggerated but in master"
+  },
+  {
+    "t_start": 1912.84,
+    "t_end": 1915.93,
+    "text": "little bit exaggerated but in master studies for sure there are several"
+  },
+  {
+    "t_start": 1915.93,
+    "t_end": 1917.789,
+    "text": "studies for sure there are several powerful generalizations and it has"
+  },
+  {
+    "t_start": 1917.789,
+    "t_end": 1919.14,
+    "text": "powerful generalizations and it has actually been applied in several"
+  },
+  {
+    "t_start": 1919.14,
+    "t_end": 1924.21,
+    "text": "actually been applied in several situations I mean it has been applied"
+  },
+  {
+    "t_start": 1924.21,
+    "t_end": 1925.32,
+    "text": "even to very famous problems in mathematical physics"
+  },
+  {
+    "t_start": 1925.32,
+    "t_end": 1928.62,
+    "text": "so for instance the positive mass theorem in general relativity is proved"
+  },
+  {
+    "t_start": 1928.62,
+    "t_end": 1935.19,
+    "text": "theorem in general relativity is proved by using this theorem any that had a"
+  },
+  {
+    "t_start": 1935.19,
+    "t_end": 1939.06,
+    "text": "mathematical literature so the ideas of the proof has been used have been used"
+  },
+  {
+    "t_start": 1939.06,
+    "t_end": 1942.27,
+    "text": "the proof has been used have been used in several places now in higher per"
+  },
+  {
+    "t_start": 1942.27,
+    "t_end": 1943.77,
+    "text": "in several places now in higher per dimension the situation is completely"
+  },
+  {
+    "t_start": 1943.77,
+    "t_end": 1950.039,
+    "text": "different so first of all Allen's proof is scary so it's it was at the beginning"
+  },
+  {
+    "t_start": 1950.039,
+    "t_end": 1951.659,
+    "text": "is scary so it's it was at the beginning when he wrote it one thousand seven"
+  },
+  {
+    "t_start": 1951.659,
+    "t_end": 1953.299,
+    "text": "when he wrote it one thousand seven hundred twenty eight pages"
+  },
+  {
+    "t_start": 1953.299,
+    "t_end": 1959.61,
+    "text": "it was never checked by anybody it has not been published in a journal it has"
+  },
+  {
+    "t_start": 1959.61,
+    "t_end": 1965.789,
+    "text": "been collected in a book which is very fat book of a thousand pages because the"
+  },
+  {
+    "t_start": 1965.789,
+    "t_end": 1974.61,
+    "text": "fat book of a thousand pages because the font is very very tiny and the pages are"
+  },
+  {
+    "t_start": 1974.61,
+    "t_end": 1977.37,
+    "text": "large and it is available but probably nobody has checked it there were no"
+  },
+  {
+    "t_start": 1977.37,
+    "t_end": 1980.37,
+    "text": "nobody has checked it there were no generalizations up to some few years ago"
+  },
+  {
+    "t_start": 1980.37,
+    "t_end": 1985.23,
+    "text": "generalizations up to some few years ago and people would even scare to apply it"
+  },
+  {
+    "t_start": 1985.23,
+    "t_end": 1986.669,
+    "text": "for instance I mentioned the gromov-witten invariants so there was a"
+  },
+  {
+    "t_start": 1986.669,
+    "t_end": 1988.409,
+    "text": "gromov-witten invariants so there was a famous mathematician who wanted to apply"
+  },
+  {
+    "t_start": 1988.409,
+    "t_end": 1989.76,
+    "text": "famous mathematician who wanted to apply it but of course you're scary you're"
+  },
+  {
+    "t_start": 1989.76,
+    "t_end": 1991.26,
+    "text": "it but of course you're scary you're applying a proof about one thousand"
+  },
+  {
+    "t_start": 1991.26,
+    "t_end": 1992.58,
+    "text": "applying a proof about one thousand seven hundred pages that nobody has"
+  },
+  {
+    "t_start": 1992.58,
+    "t_end": 1994.5,
+    "text": "seven hundred pages that nobody has checked so what happens if actually the"
+  },
+  {
+    "t_start": 1994.5,
+    "t_end": 2000.77,
+    "text": "checked so what happens if actually the proof is wrong and you want actually to"
+  },
+  {
+    "t_start": 2000.77,
+    "t_end": 2004.41,
+    "text": "infer some consequences of the proof okay so so so family was mentioning that"
+  },
+  {
+    "t_start": 2004.41,
+    "t_end": 2008.94,
+    "text": "okay so so so family was mentioning that one of my works has been in the last"
+  },
+  {
+    "t_start": 2008.94,
+    "t_end": 2011.4,
+    "text": "year's to actually produce a shorter proof so together with my former PhD"
+  },
+  {
+    "t_start": 2011.4,
+    "t_end": 2013.53,
+    "text": "proof so together with my former PhD student Emmanuel Espada wrote from 2009"
+  },
+  {
+    "t_start": 2013.53,
+    "t_end": 2015.78,
+    "text": "student Emmanuel Espada wrote from 2009 to 2015 we have produced actually a"
+  },
+  {
+    "t_start": 2015.78,
+    "t_end": 2018.66,
+    "text": "to 2015 we have produced actually a shorter proof in five papers but your"
+  },
+  {
+    "t_start": 2018.66,
+    "t_end": 2022.77,
+    "text": "shorter proof in five papers but your papers on normal size and this has"
+  },
+  {
+    "t_start": 2022.77,
+    "t_end": 2025.35,
+    "text": "papers on normal size and this has actually some added value so there are"
+  },
+  {
+    "t_start": 2025.35,
+    "t_end": 2027.81,
+    "text": "actually some added value so there are some generalizations I don't want to go"
+  },
+  {
+    "t_start": 2027.81,
+    "t_end": 2031.83,
+    "text": "through all of them I mean you see somehow the people who were involved and"
+  },
+  {
+    "t_start": 2031.83,
+    "t_end": 2034.86,
+    "text": "somehow the people who were involved and there are a few others that are coming I"
+  },
+  {
+    "t_start": 2034.86,
+    "t_end": 2036.42,
+    "text": "there are a few others that are coming I mean if I had more time I would explain"
+  },
+  {
+    "t_start": 2036.42,
+    "t_end": 2038.04,
+    "text": "mean if I had more time I would explain you what are these generalizations over"
+  },
+  {
+    "t_start": 2038.04,
+    "t_end": 2042.51,
+    "text": "you what are these generalizations over here but let me not go over this let me"
+  },
+  {
+    "t_start": 2042.51,
+    "t_end": 2048.12,
+    "text": "that by building upon this work we can actually tackle new open questions so in"
+  },
+  {
+    "t_start": 2048.12,
+    "t_end": 2050.85,
+    "text": "actually tackle new open questions so in particular one very nice question"
+  },
+  {
+    "t_start": 2050.85,
+    "t_end": 2058.5,
+    "text": "of anguillan so at the very end of the book he asks the following open problem"
+  },
+  {
+    "t_start": 2058.5,
+    "t_end": 2061.53,
+    "text": "book he asks the following open problem so it's a very natural geometric problem"
+  },
+  {
+    "t_start": 2061.53,
+    "t_end": 2064.05,
+    "text": "so it's a very natural geometric problem so assume that you have your boundary"
+  },
+  {
+    "t_start": 2064.05,
+    "t_end": 2068.13,
+    "text": "so assume that you have your boundary and that your boundary has only"
+  },
+  {
+    "t_start": 2068.13,
+    "t_end": 2073.89,
+    "text": "surface and it consists of one piece so in mathematics we say it's a connected"
+  },
+  {
+    "t_start": 2073.89,
+    "t_end": 2078.36,
+    "text": "in mathematics we say it's a connected surface now the question is the"
+  },
+  {
+    "t_start": 2078.36,
+    "t_end": 2083.97,
+    "text": "minimizer does it consist of also one single piece or does it consist of maybe"
+  },
+  {
+    "t_start": 2083.97,
+    "t_end": 2088.02,
+    "text": "single piece or does it consist of maybe more pieces now intuitively what you"
+  },
+  {
+    "t_start": 2088.02,
+    "t_end": 2090.09,
+    "text": "more pieces now intuitively what you would believe is that yes it should"
+  },
+  {
+    "t_start": 2090.09,
+    "t_end": 2093.27,
+    "text": "would believe is that yes it should consist of a single piece and the idea"
+  },
+  {
+    "t_start": 2093.27,
+    "t_end": 2096.33,
+    "text": "consist of a single piece and the idea would be something like this that every"
+  },
+  {
+    "t_start": 2096.33,
+    "t_end": 2099.42,
+    "text": "would be something like this that every regular piece should actually touch the"
+  },
+  {
+    "t_start": 2099.42,
+    "t_end": 2102.42,
+    "text": "regular piece should actually touch the boundary and since the boundary is one"
+  },
+  {
+    "t_start": 2102.42,
+    "t_end": 2104.31,
+    "text": "boundary and since the boundary is one single piece once it touches the"
+  },
+  {
+    "t_start": 2104.31,
+    "t_end": 2109.41,
+    "text": "boundary it actually touches the whole boundary now your piece reasonably will"
+  },
+  {
+    "t_start": 2109.41,
+    "t_end": 2114.57,
+    "text": "boundary now your piece reasonably will have the boundary I mean if your please"
+  },
+  {
+    "t_start": 2114.57,
+    "t_end": 2119.73,
+    "text": "has multiplicity 12 to your boundary will be taken with multiplicity 2 okay"
+  },
+  {
+    "t_start": 2119.73,
+    "t_end": 2124.32,
+    "text": "now if you have several pieces with multiplicity 2 3 4 whatever the total"
+  },
+  {
+    "t_start": 2124.32,
+    "t_end": 2127.89,
+    "text": "multiplicity 2 3 4 whatever the total area is the sum of the areas of all"
+  },
+  {
+    "t_start": 2127.89,
+    "t_end": 2129.51,
+    "text": "area is the sum of the areas of all pieces counted with the respective"
+  },
+  {
+    "t_start": 2129.51,
+    "t_end": 2132.74,
+    "text": "pieces counted with the respective multiplicity but one single piece"
+  },
+  {
+    "t_start": 2132.74,
+    "t_end": 2138.05,
+    "text": "counted with multiplicity one is already bounding your boundary so of course that"
+  },
+  {
+    "t_start": 2138.05,
+    "t_end": 2143.21,
+    "text": "bounding your boundary so of course that one has much less area than the sum of"
+  },
+  {
+    "t_start": 2143.21,
+    "t_end": 2149.0,
+    "text": "the sum of all of them so it should be of one single piece now why does he ask"
+  },
+  {
+    "t_start": 2149.0,
+    "t_end": 2150.53,
+    "text": "of one single piece now why does he ask actually this question because you could"
+  },
+  {
+    "t_start": 2150.53,
+    "t_end": 2154.67,
+    "text": "actually this question because you could say okay so this proof is convincing but"
+  },
+  {
+    "t_start": 2154.67,
+    "t_end": 2156.109,
+    "text": "if you want to formalize that is one problem so for instance one thing which"
+  },
+  {
+    "t_start": 2156.109,
+    "t_end": 2159.5,
+    "text": "problem so for instance one thing which looks very simple is the following thing"
+  },
+  {
+    "t_start": 2159.5,
+    "t_end": 2163.49,
+    "text": "looks very simple is the following thing over here so I'm just saying the regular"
+  },
+  {
+    "t_start": 2163.49,
+    "t_end": 2165.349,
+    "text": "pieces of the minimizer with different multiplicity should be totally separated"
+  },
+  {
+    "t_start": 2165.349,
+    "t_end": 2170.57,
+    "text": "multiplicity should be totally separated so they should be really things which"
+  },
+  {
+    "t_start": 2170.57,
+    "t_end": 2173.14,
+    "text": "are far apart that's not obvious so if you remember the example of the"
+  },
+  {
+    "t_start": 2173.14,
+    "t_end": 2179.48,
+    "text": "configuration of the tripod Junction okay so here you have a tripod junction"
+  },
+  {
+    "t_start": 2179.48,
+    "t_end": 2183.349,
+    "text": "junction I told you here you have the two tracks and they are bifurcating into"
+  },
+  {
+    "t_start": 2183.349,
+    "t_end": 2185.12,
+    "text": "two tracks and they are bifurcating into one track over here and one track over"
+  },
+  {
+    "t_start": 2185.12,
+    "t_end": 2191.39,
+    "text": "multiplicity one here you have a piece with multiplicity one and here you have"
+  },
+  {
+    "t_start": 2191.39,
+    "t_end": 2196.13,
+    "text": "with multiplicity one and here you have a place with multiplicity two but there"
+  },
+  {
+    "t_start": 2196.13,
+    "t_end": 2202.82,
+    "text": "exiting so this point over here is not the boundary point so the idea that each"
+  },
+  {
+    "t_start": 2202.82,
+    "t_end": 2205.67,
+    "text": "the boundary point so the idea that each single piece should touch the boundary"
+  },
+  {
+    "t_start": 2205.67,
+    "t_end": 2210.95,
+    "text": "single piece should touch the boundary and should touch only the boundary and"
+  },
+  {
+    "t_start": 2210.95,
+    "t_end": 2212.24,
+    "text": "bound that particular boundary and be completely separated from the other"
+  },
+  {
+    "t_start": 2212.24,
+    "t_end": 2217.18,
+    "text": "completely separated from the other pieces is not correct actually the"
+  },
+  {
+    "t_start": 2217.18,
+    "t_end": 2223.46,
+    "text": "singularities so that might happen now although that is true so you see"
+  },
+  {
+    "t_start": 2223.46,
+    "t_end": 2227.27,
+    "text": "something like this so here you have a one-dimensional example and you have a"
+  },
+  {
+    "t_start": 2227.27,
+    "t_end": 2230.72,
+    "text": "one-dimensional example and you have a point singularity so the reality is that"
+  },
+  {
+    "t_start": 2230.72,
+    "t_end": 2233.66,
+    "text": "point singularity so the reality is that the singularities can jump I mean the"
+  },
+  {
+    "t_start": 2233.66,
+    "t_end": 2237.829,
+    "text": "the singularities can jump I mean the multiplicities can jump but they can"
+  },
+  {
+    "t_start": 2237.829,
+    "t_end": 2243.95,
+    "text": "sufficiently large if you are looking at lines the multiplicities can jump at"
+  },
+  {
+    "t_start": 2243.95,
+    "t_end": 2249.05,
+    "text": "points but if you are looking at surfaces the multiplicity can only jump"
+  },
+  {
+    "t_start": 2249.05,
+    "t_end": 2253.099,
+    "text": "surfaces the multiplicity can only jump along curves so your singularity where"
+  },
+  {
+    "t_start": 2253.099,
+    "t_end": 2255.53,
+    "text": "along curves so your singularity where your multiplicity is jumping should be"
+  },
+  {
+    "t_start": 2255.53,
+    "t_end": 2259.04,
+    "text": "your multiplicity is jumping should be at least of dimension 1 less the"
+  },
+  {
+    "t_start": 2259.04,
+    "t_end": 2263.9,
+    "text": "at least of dimension 1 less the dimension of your surface okay"
+  },
+  {
+    "t_start": 2263.9,
+    "t_end": 2263.91,
+    "text": "dimension of your surface okay"
+  },
+  {
+    "t_start": 2266.509,
+    "t_end": 2271.759,
+    "text": "can jump at interiors in Euler it is but the singularities must be large in an M"
+  },
+  {
+    "t_start": 2271.759,
+    "t_end": 2274.43,
+    "text": "the singularities must be large in an M dimensional surface the multiplicity can"
+  },
+  {
+    "t_start": 2274.43,
+    "t_end": 2282.38,
+    "text": "jump only along M minus 1 dimensional singularities but and then told you that"
+  },
+  {
+    "t_start": 2282.38,
+    "t_end": 2286.509,
+    "text": "singularities but and then told you that the singularities in the interior have"
+  },
+  {
+    "t_start": 2286.509,
+    "t_end": 2292.789,
+    "text": "dimension at most M minus 2 so there are not enough singularities in the interior"
+  },
+  {
+    "t_start": 2292.789,
+    "t_end": 2295.819,
+    "text": "not enough singularities in the interior to allow to the multiplicity to jump so"
+  },
+  {
+    "t_start": 2295.819,
+    "t_end": 2298.009,
+    "text": "to allow to the multiplicity to jump so this point a that is that every single"
+  },
+  {
+    "t_start": 2298.009,
+    "t_end": 2301.19,
+    "text": "this point a that is that every single piece every single regular piece as its"
+  },
+  {
+    "t_start": 2301.19,
+    "t_end": 2302.72,
+    "text": "piece every single regular piece as its own multiplicity and it's kind of"
+  },
+  {
+    "t_start": 2302.72,
+    "t_end": 2304.46,
+    "text": "own multiplicity and it's kind of separated from the other pieces is"
+  },
+  {
+    "t_start": 2304.46,
+    "t_end": 2307.039,
+    "text": "separated from the other pieces is essentially correct so they can join on"
+  },
+  {
+    "t_start": 2307.039,
+    "t_end": 2308.93,
+    "text": "essentially correct so they can join on for instance two-dimensional pieces can"
+  },
+  {
+    "t_start": 2308.93,
+    "t_end": 2313.49,
+    "text": "for instance two-dimensional pieces can join on points but I can not join on"
+  },
+  {
+    "t_start": 2313.49,
+    "t_end": 2319.549,
+    "text": "boundary lines so that tells you that the first part of the intuitive proof is"
+  },
+  {
+    "t_start": 2319.549,
+    "t_end": 2323.12,
+    "text": "the first part of the intuitive proof is correct now what about the other two"
+  },
+  {
+    "t_start": 2323.12,
+    "t_end": 2326.359,
+    "text": "parts so what about my claims at the boundary so I have my regular pieces"
+  },
+  {
+    "t_start": 2326.359,
+    "t_end": 2330.74,
+    "text": "which are separated but I told you they are regular inside I don't didn't tell"
+  },
+  {
+    "t_start": 2330.74,
+    "t_end": 2332.269,
+    "text": "are regular inside I don't didn't tell you anything on how they touch the"
+  },
+  {
+    "t_start": 2332.269,
+    "t_end": 2335.359,
+    "text": "you anything on how they touch the boundary right so so far I only cared"
+  },
+  {
+    "t_start": 2335.359,
+    "t_end": 2337.819,
+    "text": "boundary right so so far I only cared about interior singularities or interior"
+  },
+  {
+    "t_start": 2337.819,
+    "t_end": 2344.539,
+    "text": "about interior singularities or interior regular points but never about boundary"
+  },
+  {
+    "t_start": 2344.539,
+    "t_end": 2348.259,
+    "text": "regular points ok so this is a simple remark so the program the proof would be"
+  },
+  {
+    "t_start": 2348.259,
+    "t_end": 2352.099,
+    "text": "remark so the program the proof would be correct if the boundary is taken in a"
+  },
+  {
+    "t_start": 2352.099,
+    "t_end": 2359.39,
+    "text": "regular range so what do we understand by a regular way the sheet is coming and"
+  },
+  {
+    "t_start": 2359.39,
+    "t_end": 2361.039,
+    "text": "it stops nicely at this curve ok it doesn't make some sort of fractal"
+  },
+  {
+    "t_start": 2361.039,
+    "t_end": 2362.99,
+    "text": "doesn't make some sort of fractal construction towards this curve it's not"
+  },
+  {
+    "t_start": 2362.99,
+    "t_end": 2364.94,
+    "text": "construction towards this curve it's not kind of bending crazy or doing things"
+  },
+  {
+    "t_start": 2364.94,
+    "t_end": 2368.66,
+    "text": "kind of bending crazy or doing things like that now there's a very nice"
+  },
+  {
+    "t_start": 2368.66,
+    "t_end": 2370.549,
+    "text": "like that now there's a very nice theorem this was a fundamental result in"
+  },
+  {
+    "t_start": 2370.549,
+    "t_end": 2375.289,
+    "text": "theorem this was a fundamental result in the 1980s and it actually tells you in"
+  },
+  {
+    "t_start": 2375.289,
+    "t_end": 2376.519,
+    "text": "Co dimension 1 I mean in the situation which was very understood in the"
+  },
+  {
+    "t_start": 2376.519,
+    "t_end": 2379.37,
+    "text": "which was very understood in the interior actually there are no singular"
+  },
+  {
+    "t_start": 2379.37,
+    "t_end": 2381.499,
+    "text": "interior actually there are no singular points at the boundary ok so if the"
+  },
+  {
+    "t_start": 2381.499,
+    "t_end": 2384.019,
+    "text": "points at the boundary ok so if the boundary is nice the surface the"
+  },
+  {
+    "t_start": 2384.019,
+    "t_end": 2389.45,
+    "text": "minimizer arrives at the boundary nicely there can be interior similar points but"
+  },
+  {
+    "t_start": 2389.45,
+    "t_end": 2390.829,
+    "text": "there can be interior similar points but then this means the interior similar"
+  },
+  {
+    "t_start": 2390.829,
+    "t_end": 2393.829,
+    "text": "then this means the interior similar points have to be at a certain distance"
+  },
+  {
+    "t_start": 2393.829,
+    "t_end": 2395.839,
+    "text": "from the boundary you cannot have singular points which are getting closer"
+  },
+  {
+    "t_start": 2395.839,
+    "t_end": 2401.72,
+    "text": "this was a fantastic result and it tells you that the answer to on this question"
+  },
+  {
+    "t_start": 2401.72,
+    "t_end": 2409.1,
+    "text": "you that the answer to on this question is yes in the case of hyper surfaces but"
+  },
+  {
+    "t_start": 2409.1,
+    "t_end": 2416.09,
+    "text": "higher Co dimension so even for the mathematicians even real analytic curves"
+  },
+  {
+    "t_start": 2416.09,
+    "t_end": 2418.25,
+    "text": "mathematicians even real analytic curves in the four dimensional space can"
+  },
+  {
+    "t_start": 2418.25,
+    "t_end": 2420.41,
+    "text": "in the four dimensional space can actually have boundary singularities so"
+  },
+  {
+    "t_start": 2420.41,
+    "t_end": 2426.71,
+    "text": "even the best-behaved curves can have boundary singularities for the oriented"
+  },
+  {
+    "t_start": 2426.71,
+    "t_end": 2430.85,
+    "text": "boundary singularities for the oriented plateau problem and the four we cannot"
+  },
+  {
+    "t_start": 2430.85,
+    "t_end": 2434.63,
+    "text": "hope to prove the theorem of hard and sign okay now there's a good news so"
+  },
+  {
+    "t_start": 2434.63,
+    "t_end": 2439.1,
+    "text": "there is a simple remark that you can do by using the theory which exists up to"
+  },
+  {
+    "t_start": 2439.1,
+    "t_end": 2440.57,
+    "text": "by using the theory which exists up to now I mean it's it's it's a proof of"
+  },
+  {
+    "t_start": 2440.57,
+    "t_end": 2445.07,
+    "text": "alpha page so it's a remark that I've made together with these friends of mine"
+  },
+  {
+    "t_start": 2445.07,
+    "t_end": 2447.08,
+    "text": "made together with these friends of mine we do the Felipe's unity channel is"
+  },
+  {
+    "t_start": 2447.08,
+    "t_end": 2452.3,
+    "text": "amassed such a see this year and the remark is that actually you don't need"
+  },
+  {
+    "t_start": 2452.3,
+    "t_end": 2455.14,
+    "text": "remark is that actually you don't need the boundary to be completely regular"
+  },
+  {
+    "t_start": 2455.14,
+    "t_end": 2461.45,
+    "text": "you need one single regular point at the boundary so one place where the surface"
+  },
+  {
+    "t_start": 2461.45,
+    "t_end": 2465.61,
+    "text": "boundary so one place where the surface is reasonable at your boundary and then"
+  },
+  {
+    "t_start": 2465.61,
+    "t_end": 2467.93,
+    "text": "is reasonable at your boundary and then the answer to unrest question is"
+  },
+  {
+    "t_start": 2467.93,
+    "t_end": 2473.15,
+    "text": "the answer to unrest question is positive so problem although it looks"
+  },
+  {
+    "t_start": 2473.15,
+    "t_end": 2478.91,
+    "text": "very strange up to now the situation of the literature is that in general you"
+  },
+  {
+    "t_start": 2478.91,
+    "t_end": 2482.3,
+    "text": "the literature is that in general you don't know that there is a singular"
+  },
+  {
+    "t_start": 2482.3,
+    "t_end": 2484.67,
+    "text": "point at the boundary where your minimizer is reasonable it might"
+  },
+  {
+    "t_start": 2484.67,
+    "t_end": 2487.82,
+    "text": "minimizer is reasonable it might actually be that all the boundary"
+  },
+  {
+    "t_start": 2487.82,
+    "t_end": 2490.31,
+    "text": "actually be that all the boundary consists of singularities you have kind"
+  },
+  {
+    "t_start": 2490.31,
+    "t_end": 2495.22,
+    "text": "consists of singularities you have kind of a scary fractal behavior at all the"
+  },
+  {
+    "t_start": 2495.22,
+    "t_end": 2498.11,
+    "text": "boundary points so which is kind of completely opposite to what we know in"
+  },
+  {
+    "t_start": 2498.11,
+    "t_end": 2500.12,
+    "text": "completely opposite to what we know in the interior where we know that the"
+  },
+  {
+    "t_start": 2500.12,
+    "t_end": 2504.29,
+    "text": "the interior where we know that the singularities are actually few okay so"
+  },
+  {
+    "t_start": 2504.29,
+    "t_end": 2507.44,
+    "text": "singularities are actually few okay so now remember the following so it because"
+  },
+  {
+    "t_start": 2507.44,
+    "t_end": 2512.29,
+    "text": "this is going to be very relevant for the next 10 minutes so in this business"
+  },
+  {
+    "t_start": 2512.29,
+    "t_end": 2516.49,
+    "text": "the next 10 minutes so in this business boundary points might be two sided and"
+  },
+  {
+    "t_start": 2516.49,
+    "t_end": 2521.69,
+    "text": "might be one sided and actually what happens is that the two sided situation"
+  },
+  {
+    "t_start": 2521.69,
+    "t_end": 2523.19,
+    "text": "happens is that the two sided situation is what is clearly creating really lot"
+  },
+  {
+    "t_start": 2523.19,
+    "t_end": 2529.85,
+    "text": "is what is clearly creating really lot of problems and that is because it was"
+  },
+  {
+    "t_start": 2529.85,
+    "t_end": 2530.46,
+    "text": "known since the PhD theses of another famous man"
+  },
+  {
+    "t_start": 2530.46,
+    "t_end": 2538.44,
+    "text": "in addition Villar learned that if you can exclude two-sided boundary points so"
+  },
+  {
+    "t_start": 2538.44,
+    "t_end": 2544.26,
+    "text": "can exclude two-sided boundary points so at every point of your boundary the"
+  },
+  {
+    "t_start": 2544.26,
+    "t_end": 2549.63,
+    "text": "right or your left but it cannot be on both sides then actually that point or"
+  },
+  {
+    "t_start": 2549.63,
+    "t_end": 2553.05,
+    "text": "both sides then actually that point or the whole boundary has to be regular so"
+  },
+  {
+    "t_start": 2553.05,
+    "t_end": 2556.68,
+    "text": "the whole boundary has to be regular so now this seems a nasty strong assumption"
+  },
+  {
+    "t_start": 2556.68,
+    "t_end": 2560.28,
+    "text": "now this seems a nasty strong assumption but it's not so there are a lot of"
+  },
+  {
+    "t_start": 2560.28,
+    "t_end": 2562.32,
+    "text": "situations where your action can't you can actually ensure that there are no"
+  },
+  {
+    "t_start": 2562.32,
+    "t_end": 2564.96,
+    "text": "can actually ensure that there are no two-sided points a priori so let me give"
+  },
+  {
+    "t_start": 2564.96,
+    "t_end": 2567.69,
+    "text": "two-sided points a priori so let me give you an example so assume for instance"
+  },
+  {
+    "t_start": 2567.69,
+    "t_end": 2570.0,
+    "text": "you an example so assume for instance you are in three-dimension and your"
+  },
+  {
+    "t_start": 2570.0,
+    "t_end": 2578.31,
+    "text": "curve is lying on a sphere so your curve is lying on a convex surface okay so"
+  },
+  {
+    "t_start": 2578.31,
+    "t_end": 2579.71,
+    "text": "is lying on a convex surface okay so there is something which is called"
+  },
+  {
+    "t_start": 2579.71,
+    "t_end": 2582.359,
+    "text": "there is something which is called maximum principle or barrier argument"
+  },
+  {
+    "t_start": 2582.359,
+    "t_end": 2585.87,
+    "text": "maximum principle or barrier argument which guarantee is that your minimizer"
+  },
+  {
+    "t_start": 2585.87,
+    "t_end": 2589.92,
+    "text": "has to be only on this side I mean the minimize that cannot go outside of the"
+  },
+  {
+    "t_start": 2589.92,
+    "t_end": 2594.359,
+    "text": "minimize that cannot go outside of the sphere it has to be only on the inside"
+  },
+  {
+    "t_start": 2594.359,
+    "t_end": 2600.15,
+    "text": "actually that you are one sided and so it guarantees by allah's theorem that"
+  },
+  {
+    "t_start": 2600.15,
+    "t_end": 2603.089,
+    "text": "it guarantees by allah's theorem that you're actually regular okay so as I"
+  },
+  {
+    "t_start": 2603.089,
+    "t_end": 2604.95,
+    "text": "you're actually regular okay so as I said the core of the argument is that"
+  },
+  {
+    "t_start": 2604.95,
+    "t_end": 2609.329,
+    "text": "said the core of the argument is that the convex surface acts as a barrier and"
+  },
+  {
+    "t_start": 2609.329,
+    "t_end": 2611.46,
+    "text": "it tells you right away if you're sitting at the point of the boundary you"
+  },
+  {
+    "t_start": 2611.46,
+    "t_end": 2616.8,
+    "text": "sitting at the point of the boundary you just look at the point in such a way"
+  },
+  {
+    "t_start": 2616.8,
+    "t_end": 2621.75,
+    "text": "that the outside of the sphere is lying on the left and the inside of the sphere"
+  },
+  {
+    "t_start": 2621.75,
+    "t_end": 2623.46,
+    "text": "is lying on the right and then the maximum principle the barrier argument"
+  },
+  {
+    "t_start": 2623.46,
+    "t_end": 2625.2,
+    "text": "maximum principle the barrier argument actually guarantees there's no surface"
+  },
+  {
+    "t_start": 2625.2,
+    "t_end": 2632.329,
+    "text": "on this side it has to be in here so the surface is never going to be two-sided I"
+  },
+  {
+    "t_start": 2632.329,
+    "t_end": 2634.89,
+    "text": "surface is never going to be two-sided I mean it sounds easy actually this part"
+  },
+  {
+    "t_start": 2634.89,
+    "t_end": 2639.98,
+    "text": "mean it sounds easy actually this part of the PhD this is of build so it's not"
+  },
+  {
+    "t_start": 2639.98,
+    "t_end": 2645.42,
+    "text": "now in our standard Euclidean space you can actually use this idea to find at"
+  },
+  {
+    "t_start": 2645.42,
+    "t_end": 2647.609,
+    "text": "can actually use this idea to find at least some boundary point I mean say"
+  },
+  {
+    "t_start": 2647.609,
+    "t_end": 2653.73,
+    "text": "that they give you a curve okay I sit say in the middle of the curve somewhere"
+  },
+  {
+    "t_start": 2653.73,
+    "t_end": 2659.0,
+    "text": "say in the middle of the curve somewhere say in the origin the curve is around me"
+  },
+  {
+    "t_start": 2659.0,
+    "t_end": 2664.079,
+    "text": "I can look at the most distant point at the most distant point there is a sphere"
+  },
+  {
+    "t_start": 2664.079,
+    "t_end": 2668.459,
+    "text": "in such a way that the curve is all on this side of the sphere and that sphere"
+  },
+  {
+    "t_start": 2668.459,
+    "t_end": 2673.469,
+    "text": "actually acts as a barrier and it tells me that that point can only be one sided"
+  },
+  {
+    "t_start": 2673.469,
+    "t_end": 2677.219,
+    "text": "me that that point can only be one sided and if that point can only be one sided"
+  },
+  {
+    "t_start": 2677.219,
+    "t_end": 2680.249,
+    "text": "our last theorem actually tells me that that point is regular so here is an"
+  },
+  {
+    "t_start": 2680.249,
+    "t_end": 2682.559,
+    "text": "that point is regular so here is an illustration I mean I was trying to draw"
+  },
+  {
+    "t_start": 2682.559,
+    "t_end": 2687.359,
+    "text": "illustration I mean I was trying to draw this I mean it's the old surface see I"
+  },
+  {
+    "t_start": 2687.359,
+    "t_end": 2691.38,
+    "text": "mean this is where the the curve should lie if it were on the sphere and this is"
+  },
+  {
+    "t_start": 2691.38,
+    "t_end": 2697.109,
+    "text": "getting inside I mean it's a kind of spike okay allas theorem will tell you I"
+  },
+  {
+    "t_start": 2697.109,
+    "t_end": 2699.269,
+    "text": "spike okay allas theorem will tell you I don't know anything about this spike in"
+  },
+  {
+    "t_start": 2699.269,
+    "t_end": 2704.729,
+    "text": "don't know anything about this spike in this spike actually the surface might be"
+  },
+  {
+    "t_start": 2704.729,
+    "t_end": 2711.779,
+    "text": "the curve is all lying on the other side on these points actually I'm regular so"
+  },
+  {
+    "t_start": 2711.779,
+    "t_end": 2713.999,
+    "text": "on these points actually I'm regular so now this means in our situation in the"
+  },
+  {
+    "t_start": 2713.999,
+    "t_end": 2715.559,
+    "text": "now this means in our situation in the classical space in the classical"
+  },
+  {
+    "t_start": 2715.559,
+    "t_end": 2720.839,
+    "text": "Euclidean space I know that there is at least one boundary regular point by a"
+  },
+  {
+    "t_start": 2720.839,
+    "t_end": 2726.12,
+    "text": "least one boundary regular point by a last you know okay so in the standard"
+  },
+  {
+    "t_start": 2726.12,
+    "t_end": 2727.439,
+    "text": "last you know okay so in the standard Euclidean space there is always an"
+  },
+  {
+    "t_start": 2727.439,
+    "t_end": 2728.4,
+    "text": "Euclidean space there is always an outermost point"
+  },
+  {
+    "t_start": 2728.4,
+    "t_end": 2732.809,
+    "text": "and Alice theorem actually guarantees that that point is a boundary regular"
+  },
+  {
+    "t_start": 2732.809,
+    "t_end": 2737.91,
+    "text": "that that point is a boundary regular point that is the upshot however you"
+  },
+  {
+    "t_start": 2737.91,
+    "t_end": 2742.14,
+    "text": "point that is the upshot however you need the concept of most distant point"
+  },
+  {
+    "t_start": 2742.14,
+    "t_end": 2743.64,
+    "text": "you need the convex of a concept of convex surface which is kind of"
+  },
+  {
+    "t_start": 2743.64,
+    "t_end": 2749.189,
+    "text": "enclosing your object and that is only available in some special geometries so"
+  },
+  {
+    "t_start": 2749.189,
+    "t_end": 2756.539,
+    "text": "but if you have a general geometry it is not and you might wonder how likely it"
+  },
+  {
+    "t_start": 2756.539,
+    "t_end": 2758.549,
+    "text": "not and you might wonder how likely it is that your geometry allows for these"
+  },
+  {
+    "t_start": 2758.549,
+    "t_end": 2762.959,
+    "text": "is that your geometry allows for these barriers and actually the answer is that"
+  },
+  {
+    "t_start": 2762.959,
+    "t_end": 2765.479,
+    "text": "it's very unlikely usually you don't have these barriers as soon as you have"
+  },
+  {
+    "t_start": 2765.479,
+    "t_end": 2768.749,
+    "text": "have these barriers as soon as you have for instance an ambient manifold which"
+  },
+  {
+    "t_start": 2768.749,
+    "t_end": 2772.289,
+    "text": "for instance an ambient manifold which is not infinite I mean an ambient"
+  },
+  {
+    "t_start": 2772.289,
+    "t_end": 2777.15,
+    "text": "bounded and closed like it would be a normal fear for instance then you cannot"
+  },
+  {
+    "t_start": 2777.15,
+    "t_end": 2779.699,
+    "text": "normal fear for instance then you cannot apply this argument and you are left"
+  },
+  {
+    "t_start": 2779.699,
+    "t_end": 2781.829,
+    "text": "apply this argument and you are left with the problem that you don't know"
+  },
+  {
+    "t_start": 2781.829,
+    "t_end": 2785.009,
+    "text": "with the problem that you don't know whether there are boundary regular"
+  },
+  {
+    "t_start": 2785.009,
+    "t_end": 2791.249,
+    "text": "points at all okay so we have been working at this problem since four years"
+  },
+  {
+    "t_start": 2791.249,
+    "t_end": 2795.209,
+    "text": "working at this problem since four years I think five years Annaliza suggesting"
+  },
+  {
+    "t_start": 2795.209,
+    "t_end": 2797.27,
+    "text": "I think five years Annaliza suggesting we are writing what on a"
+  },
+  {
+    "t_start": 2797.27,
+    "t_end": 2801.62,
+    "text": "we are writing what on a our calls the I mean our own personal"
+  },
+  {
+    "t_start": 2801.62,
+    "t_end": 2803.81,
+    "text": "our calls the I mean our own personal version of Tolstoy's war and peace"
+  },
+  {
+    "t_start": 2803.81,
+    "t_end": 2807.59,
+    "text": "version of Tolstoy's war and peace because it's a pretty long work but it's"
+  },
+  {
+    "t_start": 2807.59,
+    "t_end": 2809.51,
+    "text": "because it's a pretty long work but it's all written we are to feeding it and it"
+  },
+  {
+    "t_start": 2809.51,
+    "t_end": 2811.79,
+    "text": "all written we are to feeding it and it actually proves the following so in any"
+  },
+  {
+    "t_start": 2811.79,
+    "t_end": 2815.93,
+    "text": "actually proves the following so in any situation in any ambient geometry for"
+  },
+  {
+    "t_start": 2815.93,
+    "t_end": 2820.96,
+    "text": "any dimension in Co dimension the regular points at the boundary are dense"
+  },
+  {
+    "t_start": 2820.96,
+    "t_end": 2823.85,
+    "text": "regular points at the boundary are dense its dense relatively open set that's"
+  },
+  {
+    "t_start": 2823.85,
+    "t_end": 2826.46,
+    "text": "its dense relatively open set that's what we would say in mathematics in"
+  },
+  {
+    "t_start": 2826.46,
+    "t_end": 2828.98,
+    "text": "what we would say in mathematics in laymen words that means the"
+  },
+  {
+    "t_start": 2828.98,
+    "t_end": 2830.93,
+    "text": "laymen words that means the singularities the boundary irregular"
+  },
+  {
+    "t_start": 2830.93,
+    "t_end": 2838.13,
+    "text": "points can only be a scattered set so it can only occur in relatively few points"
+  },
+  {
+    "t_start": 2838.13,
+    "t_end": 2841.73,
+    "text": "can only occur in relatively few points relatively few in the topological sense"
+  },
+  {
+    "t_start": 2841.73,
+    "t_end": 2843.98,
+    "text": "so it's a kind of powder which is scattered around it doesn't have any"
+  },
+  {
+    "t_start": 2843.98,
+    "t_end": 2849.29,
+    "text": "bulk and so since it does not have any bulk it tells you there are a lot of"
+  },
+  {
+    "t_start": 2849.29,
+    "t_end": 2851.96,
+    "text": "bulk it tells you there are a lot of regular points at least that is one but"
+  },
+  {
+    "t_start": 2851.96,
+    "t_end": 2854.57,
+    "text": "regular points at least that is one but there are actually many and you have to"
+  },
+  {
+    "t_start": 2854.57,
+    "t_end": 2855.53,
+    "text": "there are actually many and you have to notice that it tells you something"
+  },
+  {
+    "t_start": 2855.53,
+    "t_end": 2858.26,
+    "text": "notice that it tells you something interesting even in the old case even in"
+  },
+  {
+    "t_start": 2858.26,
+    "t_end": 2865.79,
+    "text": "interesting even in the old case even in the Euclidian case so Ireland in this"
+  },
+  {
+    "t_start": 2865.79,
+    "t_end": 2873.11,
+    "text": "situation was telling you these points are regular and here who knows our"
+  },
+  {
+    "t_start": 2873.11,
+    "t_end": 2876.11,
+    "text": "are regular and here who knows our theorem is telling you here there might"
+  },
+  {
+    "t_start": 2876.11,
+    "t_end": 2881.42,
+    "text": "theorem is telling you here there might be singular points but they are few so"
+  },
+  {
+    "t_start": 2881.42,
+    "t_end": 2883.88,
+    "text": "be singular points but they are few so even in here in the portion of the curve"
+  },
+  {
+    "t_start": 2883.88,
+    "t_end": 2886.52,
+    "text": "even in here in the portion of the curve to which I cannot apply a large argument"
+  },
+  {
+    "t_start": 2886.52,
+    "t_end": 2890.48,
+    "text": "to which I cannot apply a large argument I will find a lot of regular points so"
+  },
+  {
+    "t_start": 2890.48,
+    "t_end": 2897.62,
+    "text": "it's giving you actually an interesting information even in that case ok that is"
+  },
+  {
+    "t_start": 2897.62,
+    "t_end": 2901.64,
+    "text": "information even in that case ok that is the theorem now another thing which you"
+  },
+  {
+    "t_start": 2901.64,
+    "t_end": 2904.79,
+    "text": "the theorem now another thing which you should actually be aware of is that we"
+  },
+  {
+    "t_start": 2904.79,
+    "t_end": 2906.89,
+    "text": "should actually be aware of is that we found out that the boundary regularity"
+  },
+  {
+    "t_start": 2906.89,
+    "t_end": 2909.71,
+    "text": "found out that the boundary regularity is much more trickier than is much it's"
+  },
+  {
+    "t_start": 2909.71,
+    "t_end": 2914.36,
+    "text": "is much more trickier than is much it's much more tricky than the interior"
+  },
+  {
+    "t_start": 2914.36,
+    "t_end": 2919.52,
+    "text": "two-dimensional surfaces I told you that the singularity can hold only half"
+  },
+  {
+    "t_start": 2919.52,
+    "t_end": 2926.57,
+    "text": "dimension 0 but I can actually do something much stronger I can tell you"
+  },
+  {
+    "t_start": 2926.57,
+    "t_end": 2930.89,
+    "text": "if there is a singular point the singular point is there isolated all"
+  },
+  {
+    "t_start": 2930.89,
+    "t_end": 2936.17,
+    "text": "point everything is regular now this is a theorem which was claimed by Chang in"
+  },
+  {
+    "t_start": 2936.17,
+    "t_end": 2938.839,
+    "text": "a theorem which was claimed by Chang in 1988 and in fact he provide he provided"
+  },
+  {
+    "t_start": 2938.839,
+    "t_end": 2941.089,
+    "text": "1988 and in fact he provide he provided the correct proof but the correct proof"
+  },
+  {
+    "t_start": 2941.089,
+    "t_end": 2945.74,
+    "text": "which was missing one ingredient okay so if you literally read the paper of chunk"
+  },
+  {
+    "t_start": 2945.74,
+    "t_end": 2948.529,
+    "text": "if you literally read the paper of chunk it would tell you okay so here there's"
+  },
+  {
+    "t_start": 2948.529,
+    "t_end": 2952.96,
+    "text": "it would tell you okay so here there's 80 pages proof but you should read the"
+  },
+  {
+    "t_start": 2952.96,
+    "t_end": 2959.42,
+    "text": "1,700 pages of Amran redo it in a way and after after you have redone it in a"
+  },
+  {
+    "t_start": 2959.42,
+    "t_end": 2964.67,
+    "text": "and after after you have redone it in a way you start with my proof and I"
+  },
+  {
+    "t_start": 2964.67,
+    "t_end": 2969.559,
+    "text": "manual Spadaro and Lucas Paulo or we can actually build this missing pieces by"
+  },
+  {
+    "t_start": 2969.559,
+    "t_end": 2972.049,
+    "text": "actually build this missing pieces by modifying our proof of annelids theorem"
+  },
+  {
+    "t_start": 2972.049,
+    "t_end": 2976.01,
+    "text": "modifying our proof of annelids theorem instead of going through the 1,700 pages"
+  },
+  {
+    "t_start": 2976.01,
+    "t_end": 2978.38,
+    "text": "okay so we have provided somehow a written confirmation that this missing"
+  },
+  {
+    "t_start": 2978.38,
+    "t_end": 2984.44,
+    "text": "piece actually can be proved okay the situation is different at the boundary"
+  },
+  {
+    "t_start": 2984.44,
+    "t_end": 2989.45,
+    "text": "situation is different at the boundary so at the boundary I can have singular"
+  },
+  {
+    "t_start": 2989.45,
+    "t_end": 2993.74,
+    "text": "I mean singular points which are the limit of a sequence of singular points"
+  },
+  {
+    "t_start": 2993.74,
+    "t_end": 2995.75,
+    "text": "limit of a sequence of singular points so I cannot claim that around that"
+  },
+  {
+    "t_start": 2995.75,
+    "t_end": 2997.309,
+    "text": "so I cannot claim that around that singular point that is a neighborhood"
+  },
+  {
+    "t_start": 2997.309,
+    "t_end": 2999.26,
+    "text": "singular point that is a neighborhood where all the other guys around the"
+  },
+  {
+    "t_start": 2999.26,
+    "t_end": 2999.859,
+    "text": "where all the other guys around the irregular"
+  },
+  {
+    "t_start": 2999.859,
+    "t_end": 3006.549,
+    "text": "okay so I have infinitely many singular points which are converging to it so in"
+  },
+  {
+    "t_start": 3006.549,
+    "t_end": 3008.65,
+    "text": "the interior I have locally only finitely many singularities because I"
+  },
+  {
+    "t_start": 3008.65,
+    "t_end": 3010.45,
+    "text": "finitely many singularities because I cannot converge with a singularity"
+  },
+  {
+    "t_start": 3010.45,
+    "t_end": 3018.579,
+    "text": "this is false which actually tells you that our theorem is possibly harder than"
+  },
+  {
+    "t_start": 3018.579,
+    "t_end": 3020.109,
+    "text": "that our theorem is possibly harder than the one at the interior so there's"
+  },
+  {
+    "t_start": 3020.109,
+    "t_end": 3021.73,
+    "text": "the one at the interior so there's something more mysterious going on that"
+  },
+  {
+    "t_start": 3021.73,
+    "t_end": 3024.88,
+    "text": "something more mysterious going on that we have not completely understood okay"
+  },
+  {
+    "t_start": 3024.88,
+    "t_end": 3031.269,
+    "text": "we have not completely understood okay so now this since I have some fellows"
+  },
+  {
+    "t_start": 3031.269,
+    "t_end": 3038.829,
+    "text": "equations here so the last four slides are for them okay so if you I mean if"
+  },
+  {
+    "t_start": 3038.829,
+    "t_end": 3041.319,
+    "text": "are for them okay so if you I mean if you are just not a mathematician not yet"
+  },
+  {
+    "t_start": 3041.319,
+    "t_end": 3042.64,
+    "text": "you are just not a mathematician not yet a professional mathematician and you're"
+  },
+  {
+    "t_start": 3042.64,
+    "t_end": 3044.92,
+    "text": "a professional mathematician and you're not understanding these slides don't"
+  },
+  {
+    "t_start": 3044.92,
+    "t_end": 3045.22,
+    "text": "not understanding these slides don't worry"
+  },
+  {
+    "t_start": 3045.22,
+    "t_end": 3049.93,
+    "text": "so I'm not saying you should sort of switch off the brain because maybe you"
+  },
+  {
+    "t_start": 3049.93,
+    "t_end": 3052.42,
+    "text": "switch off the brain because maybe you you have enough calculus to understand"
+  },
+  {
+    "t_start": 3052.42,
+    "t_end": 3055.75,
+    "text": "something but I mean this is more for experts because they have been sitting"
+  },
+  {
+    "t_start": 3055.75,
+    "t_end": 3060.549,
+    "text": "experts because they have been sitting here for 45 minutes listening to me I"
+  },
+  {
+    "t_start": 3060.549,
+    "t_end": 3064.64,
+    "text": "automatically some mathematics some formulas okay so I cannot of course give"
+  },
+  {
+    "t_start": 3064.64,
+    "t_end": 3072.17,
+    "text": "for this because it's a very complicated thing but I can give you a very nice"
+  },
+  {
+    "t_start": 3072.17,
+    "t_end": 3081.47,
+    "text": "differential equations which is really cute okay so let me state something"
+  },
+  {
+    "t_start": 3081.47,
+    "t_end": 3084.89,
+    "text": "cute okay so let me state something which is an exercise essentially okay"
+  },
+  {
+    "t_start": 3084.89,
+    "t_end": 3086.93,
+    "text": "which is an exercise essentially okay well for the plus in partial"
+  },
+  {
+    "t_start": 3086.93,
+    "t_end": 3088.549,
+    "text": "well for the plus in partial differential equations is certainly an"
+  },
+  {
+    "t_start": 3088.549,
+    "t_end": 3092.69,
+    "text": "differential equations is certainly an exercise so consider the harmonic"
+  },
+  {
+    "t_start": 3092.69,
+    "t_end": 3096.14,
+    "text": "exercise so consider the harmonic function on one some domain some open"
+  },
+  {
+    "t_start": 3096.14,
+    "t_end": 3101.69,
+    "text": "domain okay so you have a function which solves Laplace U equals zero assume the"
+  },
+  {
+    "t_start": 3101.69,
+    "t_end": 3105.17,
+    "text": "solves Laplace U equals zero assume the origin is in your domain and assume your"
+  },
+  {
+    "t_start": 3105.17,
+    "t_end": 3107.599,
+    "text": "origin is in your domain and assume your function vanishes at the origin so it's"
+  },
+  {
+    "t_start": 3107.599,
+    "t_end": 3114.859,
+    "text": "a zero the origin is a zero of U now assume the origin is actually a zero of"
+  },
+  {
+    "t_start": 3114.859,
+    "t_end": 3120.49,
+    "text": "assume the origin is actually a zero of infinite order so the function U of X"
+  },
+  {
+    "t_start": 3120.49,
+    "t_end": 3125.99,
+    "text": "vanishing faster than any polynomial than any model at the point zero okay"
+  },
+  {
+    "t_start": 3125.99,
+    "t_end": 3127.64,
+    "text": "than any model at the point zero okay then the exercise is to prove that you"
+  },
+  {
+    "t_start": 3127.64,
+    "t_end": 3131.15,
+    "text": "then the exercise is to prove that you vanishes identically and of course a"
+  },
+  {
+    "t_start": 3131.15,
+    "t_end": 3132.23,
+    "text": "vanishes identically and of course a good student would solve it immediately"
+  },
+  {
+    "t_start": 3132.23,
+    "t_end": 3135.589,
+    "text": "good student would solve it immediately I mean a good student would tell you"
+  },
+  {
+    "t_start": 3135.589,
+    "t_end": 3142.549,
+    "text": "analytic if it is real analytic in a neighborhood of 0 it has a power series"
+  },
+  {
+    "t_start": 3142.549,
+    "t_end": 3150.319,
+    "text": "neighborhood of 0 it has a power series expansion if the power series has one"
+  },
+  {
+    "t_start": 3150.319,
+    "t_end": 3154.43,
+    "text": "non-trivial polynomial okay then it's vanishing at that order if it vanishes"
+  },
+  {
+    "t_start": 3154.43,
+    "t_end": 3155.93,
+    "text": "at all the order that means that all polynomial in the power series expansion"
+  },
+  {
+    "t_start": 3155.93,
+    "t_end": 3161.75,
+    "text": "polynomial in the power series expansion is trivial and the for the power series"
+  },
+  {
+    "t_start": 3161.75,
+    "t_end": 3163.13,
+    "text": "function is identically 0 and in the neighborhood of your point you have to"
+  },
+  {
+    "t_start": 3163.13,
+    "t_end": 3166.64,
+    "text": "be 0 of course you don't have to vanish on the whole Omega because maybe Omega"
+  },
+  {
+    "t_start": 3166.64,
+    "t_end": 3170.539,
+    "text": "on the whole Omega because maybe Omega is disconnected ok so that's nice but"
+  },
+  {
+    "t_start": 3170.539,
+    "t_end": 3175.01,
+    "text": "is disconnected ok so that's nice but it's a complicated proof because it has"
+  },
+  {
+    "t_start": 3175.01,
+    "t_end": 3178.299,
+    "text": "it's a complicated proof because it has to go through the theorem in which you"
+  },
+  {
+    "t_start": 3178.299,
+    "t_end": 3181.19,
+    "text": "to go through the theorem in which you prove that a harmonic function is not"
+  },
+  {
+    "t_start": 3181.19,
+    "t_end": 3184.269,
+    "text": "prove that a harmonic function is not analytic which is non-trivial"
+  },
+  {
+    "t_start": 3184.269,
+    "t_end": 3189.38,
+    "text": "so that's actually a solution which only uses calculus to I mean only uses"
+  },
+  {
+    "t_start": 3189.38,
+    "t_end": 3191.66,
+    "text": "uses calculus to I mean only uses calculus to without any regularity any"
+  },
+  {
+    "t_start": 3191.66,
+    "t_end": 3195.44,
+    "text": "ok and the solution is the following and in fact it's a by"
+  },
+  {
+    "t_start": 3195.44,
+    "t_end": 3203.96,
+    "text": "product or balance theorem so look at this function so this function is a"
+  },
+  {
+    "t_start": 3203.96,
+    "t_end": 3208.1,
+    "text": "function of the radius R so you integrate over the ball the directly"
+  },
+  {
+    "t_start": 3208.1,
+    "t_end": 3210.32,
+    "text": "integrate over the ball the directly energy and you multiply by R and you"
+  },
+  {
+    "t_start": 3210.32,
+    "t_end": 3213.08,
+    "text": "energy and you multiply by R and you integrate over the sphere modules of U"
+  },
+  {
+    "t_start": 3213.08,
+    "t_end": 3216.38,
+    "text": "integrate over the sphere modules of U squared okay this function as long as it"
+  },
+  {
+    "t_start": 3216.38,
+    "t_end": 3217.4,
+    "text": "squared okay this function as long as it is defined I mean you might have"
+  },
+  {
+    "t_start": 3217.4,
+    "t_end": 3220.94,
+    "text": "is defined I mean you might have problems defining it because in"
+  },
+  {
+    "t_start": 3220.94,
+    "t_end": 3225.56,
+    "text": "principle you have not yet proven that your harmonic function cannot vanish on"
+  },
+  {
+    "t_start": 3225.56,
+    "t_end": 3227.66,
+    "text": "your harmonic function cannot vanish on the boundary but okay let's assume that"
+  },
+  {
+    "t_start": 3227.66,
+    "t_end": 3230.06,
+    "text": "the boundary but okay let's assume that it's easy to prove so this function is"
+  },
+  {
+    "t_start": 3230.06,
+    "t_end": 3233.39,
+    "text": "it's easy to prove so this function is actually monotone non increasing okay in"
+  },
+  {
+    "t_start": 3233.39,
+    "t_end": 3236.66,
+    "text": "actually monotone non increasing okay in particular since it is monotone non"
+  },
+  {
+    "t_start": 3236.66,
+    "t_end": 3243.26,
+    "text": "increasing you can take the limit as R goes to 0 and the limit as R goes to"
+  },
+  {
+    "t_start": 3243.26,
+    "t_end": 3244.94,
+    "text": "zero is finite now it's not that difficult I mean it's it's it's it's a"
+  },
+  {
+    "t_start": 3244.94,
+    "t_end": 3246.92,
+    "text": "difficult I mean it's it's it's it's a pretty tough exercise but the solution"
+  },
+  {
+    "t_start": 3246.92,
+    "t_end": 3250.43,
+    "text": "pretty tough exercise but the solution is very easy so it's a perfect exercise"
+  },
+  {
+    "t_start": 3250.43,
+    "t_end": 3256.61,
+    "text": "monotone is not easy but once I show you the proof the proof is only a simple"
+  },
+  {
+    "t_start": 3256.61,
+    "t_end": 3257.96,
+    "text": "the proof the proof is only a simple computation mean it's a half a page"
+  },
+  {
+    "t_start": 3257.96,
+    "t_end": 3260.99,
+    "text": "computation mean it's a half a page computation now the very nice"
+  },
+  {
+    "t_start": 3260.99,
+    "t_end": 3262.79,
+    "text": "computation now the very nice observation which is also elementary is"
+  },
+  {
+    "t_start": 3262.79,
+    "t_end": 3271.34,
+    "text": "observation which is also elementary is that this number which is the limit is a"
+  },
+  {
+    "t_start": 3271.34,
+    "t_end": 3275.24,
+    "text": "positive integral and it is the degree of the first non-trivial polynomial in"
+  },
+  {
+    "t_start": 3275.24,
+    "t_end": 3280.31,
+    "text": "the Taylor expansion I mean with one caveat you don't need to know that the"
+  },
+  {
+    "t_start": 3280.31,
+    "t_end": 3286.76,
+    "text": "function is we are analytic to show that the function cannot vanish faster than a"
+  },
+  {
+    "t_start": 3286.76,
+    "t_end": 3288.26,
+    "text": "the function cannot vanish faster than a polynomial with that degree you can"
+  },
+  {
+    "t_start": 3288.26,
+    "t_end": 3294.04,
+    "text": "prove it in an elementary way okay and this is I mean it's a very simple is"
+  },
+  {
+    "t_start": 3294.04,
+    "t_end": 3296.69,
+    "text": "this is I mean it's a very simple is absolutely beautiful piece of work and"
+  },
+  {
+    "t_start": 3296.69,
+    "t_end": 3299.72,
+    "text": "absolutely beautiful piece of work and this very simple first building block is"
+  },
+  {
+    "t_start": 3299.72,
+    "t_end": 3302.66,
+    "text": "this very simple first building block is the starting point for hundreds 1,700"
+  },
+  {
+    "t_start": 3302.66,
+    "t_end": 3304.73,
+    "text": "the starting point for hundreds 1,700 pages proof but it's a simple"
+  },
+  {
+    "t_start": 3304.73,
+    "t_end": 3307.15,
+    "text": "pages proof but it's a simple observations half a page computation"
+  },
+  {
+    "t_start": 3307.15,
+    "t_end": 3309.38,
+    "text": "observations half a page computation okay now there's something similar in"
+  },
+  {
+    "t_start": 3309.38,
+    "t_end": 3315.17,
+    "text": "okay now there's something similar in our work at the boundary so I modified"
+  },
+  {
+    "t_start": 3315.17,
+    "t_end": 3318.95,
+    "text": "in the following way I give you a boundary point and I assume that the"
+  },
+  {
+    "t_start": 3318.95,
+    "t_end": 3321.23,
+    "text": "boundary point and I assume that the function not always not only is an ad"
+  },
+  {
+    "t_start": 3321.23,
+    "t_end": 3325.04,
+    "text": "function not always not only is an ad monic function but it also is 0 at the"
+  },
+  {
+    "t_start": 3325.04,
+    "t_end": 3328.88,
+    "text": "now assume of course that your barber is not bounded is not a big"
+  },
+  {
+    "t_start": 3328.88,
+    "t_end": 3330.56,
+    "text": "not bounded is not a big otherwise the harmonic function would be"
+  },
+  {
+    "t_start": 3330.56,
+    "t_end": 3332.9,
+    "text": "otherwise the harmonic function would be identically zero okay but imagine your"
+  },
+  {
+    "t_start": 3332.9,
+    "t_end": 3334.43,
+    "text": "identically zero okay but imagine your harmonic function is defined on the"
+  },
+  {
+    "t_start": 3334.43,
+    "t_end": 3339.92,
+    "text": "upper half plane and it's very Shing on a line okay now the theorem is still"
+  },
+  {
+    "t_start": 3339.92,
+    "t_end": 3342.23,
+    "text": "a line okay now the theorem is still true if the function vanishes at"
+  },
+  {
+    "t_start": 3342.23,
+    "t_end": 3348.98,
+    "text": "infinite order at this point okay then it is identically 0 at that point and if"
+  },
+  {
+    "t_start": 3348.98,
+    "t_end": 3350.96,
+    "text": "it is identically 0 at that point and if you have a function which is harmonic on"
+  },
+  {
+    "t_start": 3350.96,
+    "t_end": 3353.06,
+    "text": "you have a function which is harmonic on the upper half plane of course your"
+  },
+  {
+    "t_start": 3353.06,
+    "t_end": 3354.29,
+    "text": "the upper half plane of course your smart student would give the following"
+  },
+  {
+    "t_start": 3354.29,
+    "t_end": 3357.8,
+    "text": "smart student would give the following proof you make spots reflection and you"
+  },
+  {
+    "t_start": 3357.8,
+    "t_end": 3359.6,
+    "text": "proof you make spots reflection and you produce in our monic function on the"
+  },
+  {
+    "t_start": 3359.6,
+    "t_end": 3363.5,
+    "text": "produce in our monic function on the whole plane which is which has 0 of"
+  },
+  {
+    "t_start": 3363.5,
+    "t_end": 3366.38,
+    "text": "whole plane which is which has 0 of infinite order at that point ok but now"
+  },
+  {
+    "t_start": 3366.38,
+    "t_end": 3368.06,
+    "text": "infinite order at that point ok but now it's more tricky because if your"
+  },
+  {
+    "t_start": 3368.06,
+    "t_end": 3370.7,
+    "text": "it's more tricky because if your boundary Omega is not flat you cannot"
+  },
+  {
+    "t_start": 3370.7,
+    "t_end": 3373.16,
+    "text": "boundary Omega is not flat you cannot use fast deflection principle but you"
+  },
+  {
+    "t_start": 3373.16,
+    "t_end": 3377.3,
+    "text": "use fast deflection principle but you can try to use it but then you have to"
+  },
+  {
+    "t_start": 3377.3,
+    "t_end": 3380.75,
+    "text": "different you have to use shadow theory I'm not saying you cannot modify that"
+  },
+  {
+    "t_start": 3380.75,
+    "t_end": 3384.98,
+    "text": "proof so that it works but it's going to be more complicated ok and now I give"
+  },
+  {
+    "t_start": 3384.98,
+    "t_end": 3386.69,
+    "text": "be more complicated ok and now I give you a slick proof and the slick proof is"
+  },
+  {
+    "t_start": 3386.69,
+    "t_end": 3389.21,
+    "text": "you a slick proof and the slick proof is a consequence of our theorem although"
+  },
+  {
+    "t_start": 3389.21,
+    "t_end": 3391.91,
+    "text": "it's a Khan service of our theorem that will arise after five years of work I"
+  },
+  {
+    "t_start": 3391.91,
+    "t_end": 3393.29,
+    "text": "will arise after five years of work I mean we had written all the proof and"
+  },
+  {
+    "t_start": 3393.29,
+    "t_end": 3395.09,
+    "text": "mean we had written all the proof and then we have realized this theorem which"
+  },
+  {
+    "t_start": 3395.09,
+    "t_end": 3397.61,
+    "text": "then we have realized this theorem which is a very nice computation so the"
+  },
+  {
+    "t_start": 3397.61,
+    "t_end": 3401.9,
+    "text": "is a very nice computation so the theorem tells you modify your frequency"
+  },
+  {
+    "t_start": 3401.9,
+    "t_end": 3405.29,
+    "text": "theorem tells you modify your frequency function of a line so your function I of"
+  },
+  {
+    "t_start": 3405.29,
+    "t_end": 3410.06,
+    "text": "so here you have the integral of a test function Phi I will tell you what it is"
+  },
+  {
+    "t_start": 3410.06,
+    "t_end": 3412.28,
+    "text": "function Phi I will tell you what it is and here there is something which looks"
+  },
+  {
+    "t_start": 3412.28,
+    "t_end": 3419.18,
+    "text": "and here there is something which looks like a distance from zero ok so this is"
+  },
+  {
+    "t_start": 3419.18,
+    "t_end": 3426.62,
+    "text": "numerator and here is what you have actually at the denominator now provided"
+  },
+  {
+    "t_start": 3426.62,
+    "t_end": 3428.03,
+    "text": "actually at the denominator now provided you have the following properties so"
+  },
+  {
+    "t_start": 3428.03,
+    "t_end": 3435.26,
+    "text": "you have the following properties so provided v is decreasing so phi prime is"
+  },
+  {
+    "t_start": 3435.26,
+    "t_end": 3436.85,
+    "text": "provided v is decreasing so phi prime is less or equal than zero it's a function"
+  },
+  {
+    "t_start": 3436.85,
+    "t_end": 3438.26,
+    "text": "less or equal than zero it's a function of one real variable because this"
+  },
+  {
+    "t_start": 3438.26,
+    "t_end": 3441.4,
+    "text": "of one real variable because this function D is like a distance function"
+  },
+  {
+    "t_start": 3441.4,
+    "t_end": 3445.79,
+    "text": "function D is like a distance function provided this distance function as the"
+  },
+  {
+    "t_start": 3445.79,
+    "t_end": 3449.87,
+    "text": "property that the gradient of D is tangent to the boundary and provided"
+  },
+  {
+    "t_start": 3449.87,
+    "t_end": 3451.58,
+    "text": "tangent to the boundary and provided that this distance function behaves like"
+  },
+  {
+    "t_start": 3451.58,
+    "t_end": 3453.86,
+    "text": "that this distance function behaves like modules of X as importantly around zero"
+  },
+  {
+    "t_start": 3453.86,
+    "t_end": 3455.57,
+    "text": "modules of X as importantly around zero I mean I could be precise about this I"
+  },
+  {
+    "t_start": 3455.57,
+    "t_end": 3457.93,
+    "text": "I mean I could be precise about this I mean it for the experts it needs the"
+  },
+  {
+    "t_start": 3457.93,
+    "t_end": 3459.17,
+    "text": "mean it for the experts it needs the func"
+  },
+  {
+    "t_start": 3459.17,
+    "t_end": 3466.73,
+    "text": "the first derivative and the second derivative to have the same asymptotic"
+  },
+  {
+    "t_start": 3466.73,
+    "t_end": 3468.47,
+    "text": "decay or blow-up of modules of the corresponding derivatives of modules of"
+  },
+  {
+    "t_start": 3468.47,
+    "t_end": 3475.24,
+    "text": "X okay you can perturb it by a higher power okay provided you have these three"
+  },
+  {
+    "t_start": 3475.24,
+    "t_end": 3479.54,
+    "text": "power okay provided you have these three these three properties then that"
+  },
+  {
+    "t_start": 3479.54,
+    "t_end": 3485.18,
+    "text": "function is actually monotone and that function can substitute Enron's function"
+  },
+  {
+    "t_start": 3485.18,
+    "t_end": 3493.22,
+    "text": "function can substitute Enron's function in the proof of the exercise in the"
+  },
+  {
+    "t_start": 3493.22,
+    "t_end": 3496.46,
+    "text": "solution of the exercise and producing three functions producing two functions"
+  },
+  {
+    "t_start": 3496.46,
+    "t_end": 3500.81,
+    "text": "three functions producing two functions so Phi and D with these three properties"
+  },
+  {
+    "t_start": 3500.81,
+    "t_end": 3502.37,
+    "text": "is a very simple calculus exercise as long as your boundaries sufficient"
+  },
+  {
+    "t_start": 3502.37,
+    "t_end": 3507.74,
+    "text": "protection so you have to produce a kind of distorted distance function okay so"
+  },
+  {
+    "t_start": 3507.74,
+    "t_end": 3509.45,
+    "text": "of distorted distance function okay so the nice observation is that actually"
+  },
+  {
+    "t_start": 3509.45,
+    "t_end": 3514.4,
+    "text": "this is a strict generalization of Ayn Rand's theorem because it works in the"
+  },
+  {
+    "t_start": 3514.4,
+    "t_end": 3516.92,
+    "text": "Rand's theorem because it works in the interior and Ayn Rand's function is a"
+  },
+  {
+    "t_start": 3516.92,
+    "t_end": 3518.84,
+    "text": "interior and Ayn Rand's function is a particular case so animal function is"
+  },
+  {
+    "t_start": 3518.84,
+    "t_end": 3523.04,
+    "text": "the particular case in which Phi of X is the indicator function of the ball of"
+  },
+  {
+    "t_start": 3523.04,
+    "t_end": 3527.72,
+    "text": "radius 1 then this bulk integral is literally the same integral as we saw"
+  },
+  {
+    "t_start": 3527.72,
+    "t_end": 3529.73,
+    "text": "literally the same integral as we saw before and this integral down"
+  },
+  {
+    "t_start": 3529.73,
+    "t_end": 3536.39,
+    "text": "degenerates to a surface integral ok and in endurance frequency function the"
+  },
+  {
+    "t_start": 3536.39,
+    "t_end": 3542.96,
+    "text": "distance X is exactly modules of X ok so there is no asymptotics it's exactly the"
+  },
+  {
+    "t_start": 3542.96,
+    "t_end": 3544.49,
+    "text": "there is no asymptotics it's exactly the precise modulus of X and then you"
+  },
+  {
+    "t_start": 3544.49,
+    "t_end": 3547.01,
+    "text": "precise modulus of X and then you recover actually Ambulance function ok"
+  },
+  {
+    "t_start": 3547.01,
+    "t_end": 3566.17,
+    "text": "recover actually Ambulance function ok and with this thank you very much for"
+  }
+]

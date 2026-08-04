@@ -1,0 +1,212 @@
+[
+  {
+    "id": "ku_video_RRMBRiyNcjI_2",
+    "t_start": 2.6,
+    "t_end": 93.0,
+    "type": "overview",
+    "summary": "so thank you so this idea of gathering chestnuts is to fields sometimes they took 10 12 years of thinking about things and every now of thinking about things and every now and then you would understand something and then you would understand something that's a chestnut okay that's a chestnut okay so i want to modify that impression uh impression uh so so uh i wanted to start with i know this is a mixed audience um so in terms of mixed audience um so in terms of experience so i think of mathematics as something built from concepts that young something built from concepts that young children …"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_92",
+    "t_start": 93.0,
+    "t_end": 186.8,
+    "type": "overview",
+    "summary": "okay so anthropology is a relatively recent branch branch it's it's has antecedents earlier than what i'm going to mention but the main to mention but the main point came around 1900 when enrique ray took space and broke it up into pieces took space and broke it up into pieces and then studied combinatorially how and then studied combinatorially how they fit together they fit together did some algebra you might say and then got interesting new invariants so the cliche which is correct the cliche which is correct that topologists don't know the difference between a donut and a coffee cup is …"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_186",
+    "t_start": 186.8,
+    "t_end": 280.9,
+    "type": "overview",
+    "summary": "of this handle as being this handle and then the rest of this just deforms down to this other piece here so you can deform this other piece here so you can deform a coffee cup to a doughnut so a a coffee cup to a doughnut so a topologist doesn't know the difference well that's correct i mean this is this is the this is the original idea of is the this is the original idea of topology you have shapes topology you have shapes some can be deformed to another now notice uh object like this is some kind of solid fruit cannot be deformed to one of these fruit cannot be deformed to one of these tw…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_280",
+    "t_start": 280.9,
+    "t_end": 371.4,
+    "type": "overview",
+    "summary": "in terms of homology homology classes homology classes for example of closed curves so you can you know you can take a curve in the complement of the coffee cup or in the complement of the coffee cup or the doughnut and you can you know it it actually may go like back through and around like this well then through and around like this well then that curve can be pulled off that curve can be pulled off so it doesn't really link but if it actually went through the hole and came back around and closed up then and came back around and closed up then you couldn't pull it off you couldn't pull it…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_371",
+    "t_start": 371.4,
+    "t_end": 462.8,
+    "type": "overview",
+    "summary": "the coffee cup to the doughnut and the deformation comes next the next and the deformation comes next the next idea and and then the first idea that was formalized with the idea of formalized with the idea of linking numbers and homology ideas linking numbers and homology ideas okay so now so actually i wanted to mention since this is uh this is uh hubble week hubble week uh avo himself actually had his hands on this in 1826 75 years before prank array 75 years before prank array made the introduction made the introduction in fact he exactly in this case when you have surfaces with multiple…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_462",
+    "t_start": 462.8,
+    "t_end": 555.3,
+    "type": "overview",
+    "summary": "30 years later 20 years later developed it further and then eventually it was so ubiquitous that frank ray had to say ubiquitous that frank ray had to say what's going on in a general way so what's going on in a general way so that's better view of the history so oh yeah now today today or in the 20th century and then today is the 21st century but anyway during the the 21st century but anyway during the 20th century there was some enhancement of this idea and the enhancement and the enhancement has to do with these deformations that go between the coffee cup and the doughnut there's the cof…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_555",
+    "t_start": 555.3,
+    "t_end": 642.4,
+    "type": "overview",
+    "summary": "be inequivalent ways of solving a problem problem is important so that structure equivalences between equivalent things in this case the topological in this case the topological notion of a doughnut or a coffee cup is important and it now is beginning to permeate many different fields of mathematics mostly algebraic but i'm expecting it to finally get to really hardcore geometric and analytic things like partial differential things like partial differential equations it hasn't gotten there yet but wearing my glasses am i wearing my glasses no i've lost my glasses all right oh yeah okay i sa…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_645",
+    "t_start": 645.5,
+    "t_end": 736.5,
+    "type": "overview",
+    "summary": "so here's another picture uh right so so um let's simplify the above discussion let's imagine i have imagine i have two curves in space and we're now in space again so these are two curves in space that are linked are two curves in space that are linked that those two curves have linking number one oh thank you that's a cool thing you know when you get to be a certain age you you know can't read anymore but everybody your age or even be careful they have these reading glasses and so you borrow anybody's glasses and so you borrow anybody's glasses glasses let's see what if i missed anything …"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_736",
+    "t_start": 736.5,
+    "t_end": 829.2,
+    "type": "overview",
+    "summary": "know move this curve over to here and the motion would be like along a and the motion would be like along a cylinder so you'd have curves moving along like this right well the fact that the linking number is well defined means at some point this well defined means at some point this curve has to actually touch this curve so there's a moment there okay i mean if the linking number is non-zero and you move it over like that non-zero and you move it over like that it has to cut through the curve as many times as the linking number says the linking number says okay so this is a basic idea of to…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_829",
+    "t_start": 829.2,
+    "t_end": 919.2,
+    "type": "overview",
+    "summary": "sort of an operation where you can take this family of this where you can take this family of this is like a family is like a family of closed curves everyone has heard the phrase string theory and of course nobody knows what theory and of course nobody knows what it is and i don't really know either but um this is a family of closed curves or strings closed strings and this is another this let's see what's the picture oh yeah here this is the family here's time zero here this is the family here's time zero of the family in time one of the family of the family in time one of the family and …"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_920",
+    "t_start": 920.2,
+    "t_end": 1015.7,
+    "type": "overview",
+    "summary": "we made we made a little theory here which which is has the name called strength apology and it's the idea that you and it's the idea that you families of closed strings by this this is an example where here's a one-dimensional family in a zero a one-dimensional family in a zero dimensional family interacting because they're forced to interact by topology of the linking interact by topology of the linking and you can build and you can build an algebraic homological structure an algebraic homological structure on the space of all inside another big space so this is a topology with the word s…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_1015",
+    "t_start": 1015.7,
+    "t_end": 1105.1,
+    "type": "overview",
+    "summary": "by vladimir putia for in the in the late 80s and then we did this work like in the late late 90s 90s um it extended their work this was all in two dimensions on surfaces and this extended it to all dimensions by considering families it's a con the fact that there is this extension is because the equivalences extension is because the equivalences it's not just the equivalence classes or two things that are equivalent but the equivalence between them but the equivalence between them has part of the structure has something so this is an example of you might say a derived theory that looks deep…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_1107",
+    "t_start": 1107.8,
+    "t_end": 1199.2,
+    "type": "overview",
+    "summary": "and it was because it fit with algebra it turns out this idea of deforming it turns out this idea of deforming objects is very important in all parts objects is very important in all parts of mathematics to study how math objects of mathematics to study how math objects can be deformed and some deformations are trivial they don't really change things sometimes don't really change things sometimes they change some structure so families of structures is another important idea so if you want to scare a mathematician and he doesn't know whether you're a and he doesn't know whether you're a math…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_1199",
+    "t_start": 1199.2,
+    "t_end": 1294.3,
+    "type": "overview",
+    "summary": "the sort of i would call the number aspect but the geometric aspect aspect but the geometric aspect has not been fully appreciated and used because you really have these pictures like you have knots in space and have a paper and and then and there's some sort of geometric aspect you know some sort of geometric aspect you know when this circle crosses through it's supposed to cross through transversally like that and it through transversally like that and it so it's a nice clean cut and when you look at the local structure it's the obvious thing of a plane intersecting a obvious thing of a p…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_1294",
+    "t_start": 1294.3,
+    "t_end": 1384.1,
+    "type": "overview",
+    "summary": "indication of this is a paper with michael sullivan and two of our students michael sullivan and two of our students respectively two phd students where we respectively two phd students where we apply strength topology in this apply strength topology in this transversal sense where you kind of transversal sense where you kind of eliminate bad intersections you only consider these kind and then you can get many invariants of knots and links inside space so that's knots and links inside space so that's like an example of how you can do more with this string topology if you if you this string …"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_1386",
+    "t_start": 1386.1,
+    "t_end": 1474.3,
+    "type": "overview",
+    "summary": "those equations that described it and they go back to euler 250 years they go back to euler 250 years weren't known to have solutions or weren't known to have solutions or what's the nature of the mathematical what's the nature of the mathematical structure and that astonished me because structure and that astonished me because these equations were used when i where i these equations were used when i where i grew up in texas in oil fields from the secondary recovery program when the pressure goes recovery program when the pressure goes down in the field you pump water in other points of the…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_1476",
+    "t_start": 1477.0,
+    "t_end": 1567.9,
+    "type": "overview",
+    "summary": "maybe there was a reformulation that was easier and you could do it maybe or maybe there was a reformulation that was both easier was a reformulation that was both easier and more useful because their and more useful because their formulation didn't have a practical formulation didn't have a practical question a criterion about question a criterion about okay you proved this thing exists but can you approximate it in you know less than the life of the universe or something like that or less universe or something like that or less than realistic time so you can use the information so could y…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_1567",
+    "t_start": 1567.9,
+    "t_end": 1663.0,
+    "type": "overview",
+    "summary": "it turns out to have fantastic consequences for all sorts of problems consequences for all sorts of problems but it's not realistic for this problem maybe maybe it is that's the problem maybe maybe it is that's the problem maybe it is maybe it isn't anyway we'd like to have a way of attacking this attacking this how much time do i have left 20. 21 minutes i can choose all right all right so so okay so then so i started looking at this equation that defines this that defines this and you know you quickly find out where the issue is actually it took about six issue is actually it took about s…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_1663",
+    "t_start": 1663.0,
+    "t_end": 1753.8,
+    "type": "overview",
+    "summary": "if you just i mean this is completely elementary but if you just write down the equation x dot is equal to x times x just a real number that depends on t well then you can sort of draw a graph well then you can sort of draw a graph of it you start out at time zero of it you start out at time zero t equals 0 like it here t equals 0 like it here you can done first year calculus you can solve this equation you can find x of t so this equation you can find x of t so that the derivative is the square that the derivative is the square of x of t okay it's fun exercise you start out at some let thi…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_1753",
+    "t_start": 1753.8,
+    "t_end": 1849.9,
+    "type": "overview",
+    "summary": "so but that's no good because that's not what fluids do they know what to do they what fluids do they know what to do they seem to go on forever seem to go on forever so but you know it's a much much more complicated x times x it's many complicated x times x it's many variables variables vectors that you're multiplying but one day i had the idea oh this is algebra even though the x here is in infinite dimensions it really is x times x dimensions it really is x times x sort of sort of and uh and uh it's algebra it's algebra so let me did we have that conversation three minutes ago minutes ag…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_1849",
+    "t_start": 1849.9,
+    "t_end": 1943.9,
+    "type": "overview",
+    "summary": "generically and typically this happens so be a direction where it looks like exactly like this you can change coordinates it looks like this so it explodes in front of that time so that's a nice exercise at the next once you know it's true it's not that hard to prove if you just write down a like 10 of these equations where the right hand side is the sum of quadratic then with arbitrary coefficients if you vary if you just put on a computer vary if you just put on a computer a general example there would be a a general example there would be a direction where it looked like this so well tha…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_1943",
+    "t_start": 1943.9,
+    "t_end": 2038.3,
+    "type": "overview",
+    "summary": "in 10 variables well it's 10 times 10 so there's a hundred so you have a thousand different equations and you can equations and you can group them into groups that are involve a hundred components that still leaves you with a thousand minus a hundred nine hundred different minus a hundred nine hundred different types of equations and only one of them is the navier-stokes equation is the navier-stokes equation see so there are many other equations uh and it's it's special so i just said the typical one has this bad behavior but it's a special one i don't behavior but it's a special one i don…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_2041",
+    "t_start": 2041.1,
+    "t_end": 2133.2,
+    "type": "overview",
+    "summary": "see when you see water i remember in i spent 81 in berkeley in boulder colorado and every day i'd walk past along the boulder creek walk past along the boulder creek and i'd look at the water there it's you know when i was far away i could the water's going like this could the water's going like this and then i'd walk over closer and it's and then i'd walk over closer and it's sort of and then i walk over closer and it's going like this going like this and you know and you know in other words i was amazed that it has at depending on how far away i am it has a sort of structure a sort of str…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_2133",
+    "t_start": 2133.2,
+    "t_end": 2225.1,
+    "type": "overview",
+    "summary": "and hopefully there are ones that are at our range of computation so we can so this is an industry that was one thing i was amazed about when was one thing i was amazed about when this founded these equations this founded these equations there's people all around the world are using these equations to compute fluids and these equations to compute fluids and specific problems the way blood flows specific problems the way blood flows through arteries in the heart because they could deal with aneurysms if a little deal with aneurysms if a little thing comes out a doctor can go in and leave tha…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_2227",
+    "t_start": 2227.6,
+    "t_end": 2318.0,
+    "type": "overview",
+    "summary": "we we have this notion of separation there is a notion of separating scales which has a math definition and so i sort of got this dream uh or conjecture that um conjecture that um there is a system of ode that will describe at a certain scale what this boulder creek was doing scale what this boulder creek was doing and then there's another one at a finer and then there's another one at a finer scale that still finite dimensional is scale that still finite dimensional is describing what's happening describing what's happening and these are all consistent and the limit of all this is this con…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_2317",
+    "t_start": 2318.0,
+    "t_end": 2410.3,
+    "type": "overview",
+    "summary": "and where things are happening and so optimistic that this is true so i make that so the conjecture is that so the conjecture is separation of scales exists three-dimensional fluid dynamics and well and then and then sort of a secret part of the conjecture and the ideas of quacker ray well i mentioned planker 8 started topology by breaking space up started topology by breaking space up into these pieces into these pieces and he also and then he studied combinatorially how they fit together they fit together and and now we we sort of know this kind of a trick i mean you usually think when a …"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_2410",
+    "t_start": 2410.3,
+    "t_end": 2500.4,
+    "type": "overview",
+    "summary": "overlapping so that the cracks between the cracks between the one layer of pieces are covered over you see how this there are four of these this is if you're doing this is if you're doing a surface but i'm imagining cubes in see these squares are kind of rigid but you know they could go like that and but you know they could go like that and then you know these can then you know these can go like that and like that and the whole go like that and like that and the whole thing it's kind of crinkly but then you sort of pretend there's another plaque here like when you do it i mean this is proba…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_2501",
+    "t_start": 2501.7,
+    "t_end": 2595.6,
+    "type": "overview",
+    "summary": "two-dimensional element ah this is not a good picture so some people are paying attention good that's good news okay so see how they intersect like that's nice transversal intersection and then you sort of notice hey uh look at these two boundaries here at these two boundaries here they're linked curves oh wait a minute so this linking is somehow related oh and is somehow related oh and this you get one here and it's sort of like the way this one-dimensional thing intersects this two-dimensional thing that's that point that tells you the one and in fact it's symmetric you could look at this…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_2598",
+    "t_start": 2598.9,
+    "t_end": 2687.8,
+    "type": "overview",
+    "summary": "go to a finer scale and repeat it again and try to see that they're consistent and try to see that they're consistent so well i'm on the first half of the second paste and there's hardly anything on this so it's not bad so i think this is it gives you a flavor of what i'm trying it gives you a flavor of what i'm trying to do so the to do so the second chestnut is second chestnut is so to speak second or third chestnut is you have to think homologically but not you have to think homologically but not at the level of equivalence classes you at the level of equivalence classes you have to thin…"
+  },
+  {
+    "id": "ku_video_RRMBRiyNcjI_2690",
+    "t_start": 2690.3,
+    "t_end": 2701.4,
+    "type": "overview",
+    "summary": "to study this fluid mechanics problem in pde now i've been thinking about this for an effortless 30 years effortless 30 years okay thank you very much"
+  }
+]

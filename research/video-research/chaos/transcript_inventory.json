@@ -1,0 +1,61 @@
+{
+  "slug": "chaos",
+  "videos": [
+    {
+      "id": "fDek6cYijxI",
+      "title": "Veritasium — Chaos: The Science of the Butterfly Effect",
+      "has_transcript": true,
+      "chars": 12775,
+      "units": 9,
+      "url": "https://www.youtube.com/watch?v=fDek6cYijxI"
+    },
+    {
+      "id": "kbKtFN71Lfs",
+      "title": "Numberphile — Chaos Game",
+      "has_transcript": true,
+      "chars": 10001,
+      "units": 6,
+      "url": "https://www.youtube.com/watch?v=kbKtFN71Lfs"
+    },
+    {
+      "id": "PVo1mHnU7WU",
+      "title": "Logistic Map Explained (Strogatz Ch.10 culture) — Shane Ross lectures / Cornell culture",
+      "has_transcript": true,
+      "chars": 13339,
+      "units": 12,
+      "url": "https://www.youtube.com/watch?v=PVo1mHnU7WU"
+    },
+    {
+      "id": "_z-e7N99-rI",
+      "title": "The Logistic Map: Attractors, Bifurcation, and Chaos (Part 1 of 2)",
+      "has_transcript": true,
+      "chars": 6922,
+      "units": 4,
+      "url": "https://www.youtube.com/watch?v=_z-e7N99-rI"
+    },
+    {
+      "id": "VjP90rwpBwU",
+      "title": "Josh Kastorf — The Lorenz Attractor Explained",
+      "has_transcript": true,
+      "chars": 1927,
+      "units": 1,
+      "url": "https://www.youtube.com/watch?v=VjP90rwpBwU"
+    },
+    {
+      "id": "p_di4Zn4wz4",
+      "title": "3Blue1Brown / related dynamics visuals",
+      "has_transcript": true,
+      "chars": 26148,
+      "units": 18,
+      "url": "https://www.youtube.com/watch?v=p_di4Zn4wz4"
+    },
+    {
+      "id": "ETrYE4MdoLQ",
+      "title": "Numberphile — The Feigenbaum Constant math videos",
+      "has_transcript": true,
+      "chars": 21391,
+      "units": 13,
+      "url": "https://www.youtube.com/watch?v=ETrYE4MdoLQ"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+thank you very much so I am going to spend the next 15 minutes giving a
+spend the next 15 minutes giving a simplified account of the mathematics
+for which Andrew Wiles has just won this year's árbol prize so let's go straight
+year's árbol prize so let's go straight to the citation the citation says it's
+to the citation the citation says it's read it out for his stunning proof of
+Fermat's Last Theorem by way of the modularity conjecture for semi-stable
+elliptic curves opening a new era in number theory now there are two elements
+number theory now there are two elements in this statement that I want to
+in this statement that I want to highlight firmers Last Theorem
+and the modularity conjecture I will explain what both of these things are
+explain what both of these things are how they relate to each other and the
+how they relate to each other and the work and the role of Andrew Wiles so
+beginning let's start with Pythagoras theorem this is the most famous theorem
+in mathematics it is rhetorically the right-angled triangles the square on the
+squares on the other two sides so if the hypotenuse is said Z the other two sides
+hypotenuse is said Z the other two sides of X&amp;Y it says that x squared plus y
+of X&amp;Y it says that x squared plus y squared is equal to Z squared now if
+squared is equal to Z squared now if there are whole numbers such that whole
+there are whole numbers such that whole numbers x y&amp;z such that that equation is
+satisfied we call these numbers Pythagorean triples there the whole
+numbers solutions for x squared plus y squared equals Z squared for example
+most simply 3 4 or 5 because 3 squared which is 9 add 4 squared which is 16
+which is 9 add 4 squared which is 16 equals 25 which is 5 squared it also
+works with 5 12 and 13 and this big number here in fact there an infinite
+number here in fact there an infinite number of Pythagorean triples and it's
+number of Pythagorean triples and it's something that people mathematicians
+especially are very interested in now pierre de 5 Pierre de Fermat very famous
+pierre de 5 Pierre de Fermat very famous French 17th century mathematician in
+his day job he was a judge he's a judge in Toulouse in the South of France and
+in Toulouse in the South of France and when he came home at night he wasn't
+when he came home at night he wasn't supposed to go around mixing with with
+supposed to go around mixing with with people who might be sentencing
+so he did lots of mathematics in fact he correspondent with the greatest
+mathematicians of his day and came up with lots of amazing massive himself
+with lots of amazing massive himself he's known nicknamed the prince of
+he's known nicknamed the prince of amateurs so he was looking at
+amateurs so he was looking at Pythagorean theorem triples and then
+wondered what happens if I even turned the knob up rather than x squared plus y
+squared equals Z squared what about X cubed plus y cubed equals Z cubed
+are there any whole number solutions couldn't find any what about X to the 4
+likewise X 5 was white the 5ik keep on going and then we come to his statement
+going and then we come to his statement of the theorem he wrote this statement
+of the theorem he wrote this statement which we now know is fermat's last
+the N plus YP l equals ed the N has no whole number solutions when n is bigger
+than 2 now he didn't do like what a mathematician would do these days which
+mathematician would do these days which is right the theorem and then prove it
+he actually was reading this book here the arithmetic Abay Diophantus for a
+the arithmetic Abay Diophantus for a famous Greek mathematician and on a
+famous Greek mathematician and on a section about Pythagorean triples he
+section about Pythagorean triples he wrote this statement and then the
+wrote this statement and then the sentence I have a truly marvelous
+sentence I have a truly marvelous demonstration of this proposition which
+this margin is too narrow to contain possibly the most famous line in all of
+possibly the most famous line in all of the Mayor was non-mathematical line in
+all of mathematics and the reason why we call it the last theorem it wasn't the
+last thing he did it was the last thing to be resolved because you know famous
+to be resolved because you know famous math position says he has a truly
+math position says he has a truly marvelous demonstration other
+mathematicians are going to want to try and find it but no one can find it after
+a hundred years to 200 years after 300 years the middle of the 20th century it
+years the middle of the 20th century it was the most famous unsolved problem in
+was the most famous unsolved problem in mathematics in fact it was the subject
+of books and in 1963 when Andrew Wiles was 10 years old he went and got one of
+these books out the library is called the last problem and he discovered about
+the last problem and he discovered about this and he said I knew from that moment
+on I would never let it go farmers lost theorem I had
+to solve it so as well as an incredible mathematical journey the story of
+Angela's proof of Fermat's Last Theorem is a wonderfully inspiring personal
+journey also now the proof that he found was not something that you could well
+was not something that you could well the thermo definitely could put in a
+the thermo definitely could put in a margin but that therm ah there's no way
+margin but that therm ah there's no way he could have known and is now assumed
+he could have known and is now assumed that firm R was mistaken by saying that
+that firm R was mistaken by saying that he had a truly marvelous demonstration
+he had a truly marvelous demonstration because the mathematics required to
+because the mathematics required to solve it was what only developed
+solve it was what only developed discovered way after Fermat died and the
+discovered way after Fermat died and the two areas of mass that were used one
+two areas of mass that were used one elliptic curves we heard that in the
+elliptic curves we heard that in the citation elliptic curves out of the
+other modular forms so I'm going to explain it a little bit about these two
+explain it a little bit about these two types of mathematics so an elliptic
+curve well it comes from an ellipse what's an ellipse an ellipse you can't
+see it very well there but the the paths of the planets planets orbit in ellipses
+of the planets planets orbit in ellipses and at the late 18th century
+mathematicians try to work in at the distance along ellipses came up with
+another type of curve now that which is an equation so it's not an ellipse it's
+an equation so it's not an ellipse it's an elliptic curve and it's sort of the
+equals x ax cube plus ax plus B where a and B are constants and what do they
+and B are constants and what do they look like well you can map these if you
+look like well you can map these if you want you can draw these on X Y axis and
+that's what they look like but if you want to analyze them using complex
+want to analyze them using complex numbers which is a little bit more
+numbers which is a little bit more complex complicated area of mathematics
+complex complicated area of mathematics you can see them in kind of 3d and the
+solutions there look a bit like this which this is a kind of doughnut that
+we've sliced and I don't if you recognize that slice in a figure of
+eight because that is exactly the figure of eight that árbol was drawing in his
+of eight that árbol was drawing in his famous lemniscate which is on norwegian
+famous lemniscate which is on norwegian 20 kronor coins
+okay that's elliptic curves through this kind of interesting curve that come from
+kind of interesting curve that come from ellipses a modular form a totally
+ellipses a modular form a totally different type of mathematics modular
+there has an extremely high number of symmetries what's a mapping a mapping is
+symmetries what's a mapping a mapping is just something that you take a point
+from one place and you put it somewhere else
+it's a Maps something from here to here but think about two different types of
+but think about two different types of mappings now imagine Li what this plane
+mappings now imagine Li what this plane here in two different colors and the
+here in two different colors and the mapping is going to be take any point
+mapping is going to be take any point and then move it one horizontally to the
+and then move it one horizontally to the right so just say a point was here it
+here he would map to there this is one type of mapping the plus one the mapping
+type of mapping the plus one the mapping there's a different type of mapping that
+takes any point inside the blue hemisphere or hemisphere so semicircle
+hemisphere or hemisphere so semicircle the view semicircle and maps it to a
+outside it likewise any point in the red would be mapped into the semi circle mix
+would be mapped into the semi circle mix these two together combine them and you
+these two together combine them and you get this image here and the symmetries
+get this image here and the symmetries that you see in this image are exactly
+the same symmetries that you get in certain types of modular forms
+okay so elliptic curves modular forms totally different different areas of
+totally different different areas of mathematics thought up by different
+terminology to solve different problems at different times now in the 1950s to
+Japanese mathematicians Yutaka taniyama and Girish camera for the first time
+thought you know what maybe these two areas these two kind of art separate
+joined or that are actually kind of the same thing in the in certain senses they
+same thing in the in certain senses they thought that every elliptic curve could
+thought that every elliptic curve could be associated with its own modular form
+okay what's this got to do with Fermat's Last Theorem nothing yes let's look back
+Last Theorem nothing yes let's look back at Talmud Last Theorem the equation X
+the n plus white the N equals NP n has no whole number solutions for n is
+no whole number solutions for n is bigger than 2 now everyone was trying to
+bigger than 2 now everyone was trying to prove it because Fermat said it was true
+prove it because Fermat said it was true this is conjecture but just say it was
+false there's also the chance that it was false so let's say let's say it's
+was false so let's say let's say it's false so if it's false then there is a
+solution to that equation for n is bigger than two let's imagine a solution
+bigger than two let's imagine a solution let's call it this so there's big a to
+the big n plus B TN plus soufiane for some ABC and n bigger than two well in
+the mid-80s ago had Frye a German mathematician took that and managed to
+mathematician took that and managed to create this equation here and as that
+that's an elliptic curve if something is weird about this elliptic curve it looks
+like it has no modular form something that was confirmed by Ken ribbit a
+that was confirmed by Ken ribbit a couple of years later but hang on look
+couple of years later but hang on look what we've got if M is Last Theorem is
+what we've got if M is Last Theorem is false
+there's a solution to that then we get an elliptic curve has no modular form
+an elliptic curve has no modular form but that means the taniyama-shimura
+conjecture must be false because the Talley Amish American gesture says that
+Talley Amish American gesture says that every elliptic curve does have a modular
+every elliptic curve does have a modular form and there's a bit of basic logic
+B is false so if thermos our theorem as false means that the Tammy Amish America
+false means that the Tammy Amish America Jetta is false you can do the
+contrapositive argument which would be that if the Toni AMA conjecture is true
+is also true so this work in the 1980s translated or replace the problem or
+rewrote the problem of solving thermos Last Theorem to the problem of solving
+conjecture that shows that every elliptic curve has a modular form and
+elliptic curve has a modular form and this is something just because it was
+this is something just because it was associate it didn't make it any easier
+possibly the fact that it was related to Fermat mended it was also we didn't have
+the mathematical tools to be able to solve it but Andrew Wiles solved it how
+solve it but Andrew Wiles solved it how did he do this is a very simplified
+did he do this is a very simplified account of how you solve it because it
+account of how you solve it because it turns out that every elliptic curve you
+turns out that every elliptic curve you can produce a series of numbers from it
+can produce a series of numbers from it kind of like it's DNA
+kind of like it's DNA long string of numbers you get that if
+more advanced people in the audience from this solutions in modular modular
+from this solutions in modular modular arithmetic on the side of the modular
+forms you can also get a kind of DNA produced there which are the
+produced there which are the coefficients of its Fourier Fourier
+expansion and what Andrew Wiles did inventing a whole new way of a whole new
+inventing a whole new way of a whole new toolkit as we call it was to show that
+you could match the DNA of one to the DNA they were basically identical so
+once he had solved it there's no longer a conjecture it's called a theorem and
+it's called the modularity theorem hey there's another amazing thing about this
+there's another amazing thing about this underworlds solution which is not just
+underworlds solution which is not just the mathematics it's how he did it
+the mathematics it's how he did it because normally when you do maths it's
+because normally when you do maths it's collaborative you talk to people Andrew
+collaborative you talk to people Andrew Wiles spent seven years solving the
+problem on his own he didn't tell anyone else apart from his wife and in 1993
+else apart from his wife and in 1993 when he had the solution he then
+when he had the solution he then announced it to Cheers
+here the picture at lecture at a conference in Cambridge it made him
+conference in Cambridge it made him become the most famous mathematician of
+the age really and he was on the front cover of the New York Times pretty much
+cover of the New York Times pretty much all the major newspapers of the world
+all the major newspapers of the world but then there was a problem a few
+months later again a little flaw in the proof was discovered so he went back and
+proof was discovered so he went back and a year later with the help of a student
+a year later with the help of a student Richard Taylor managed to fix it and
+Richard Taylor managed to fix it and then in 1995 the final proof was
+then in 1995 the final proof was published and just to show that the
+published and just to show that the amazing kind of personal journey that he
+amazing kind of personal journey that he went on because not only is it
+went on because not only is it incredible to solve to attack a problem
+incredible to solve to attack a problem like this and get that far but to find a
+focus and the stamina to actually solve it to fix the mistake is almost unheard
+it to fix the mistake is almost unheard of in mathematics so let's just finish
+of in mathematics so let's just finish again with summing up and the citation
+again with summing up and the citation because yes what he did was prove
+because yes what he did was prove Fermat's Last Theorem but really he
+Fermat's Last Theorem but really he proved something
+deeper which is the modularity conjectural modularity theorem because
+it linked these two will confirm that there was this connection between these
+there was this connection between these two until then thought this different
+two until then thought this different part of mathematics and through the
+part of mathematics and through the toolkit that he invented it has opened
+toolkit that he invented it has opened up whole new areas of number theory and
+up whole new areas of number theory and mathematics itself thank you very much
+mathematics itself thank you very much [Applause]
+[Applause] [Music]

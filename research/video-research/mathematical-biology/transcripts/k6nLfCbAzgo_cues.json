@@ -1,0 +1,1512 @@
+[
+  {
+    "t_start": 0.26,
+    "t_end": 3.0,
+    "text": "Hey everyone, not a typical Numberphile video for obvious reasons."
+  },
+  {
+    "t_start": 3.0,
+    "t_end": 7.0,
+    "text": "Ben Sparks, who ironically is the person who lives closest to me,"
+  },
+  {
+    "t_start": 7.0,
+    "t_end": 11.44,
+    "text": "he's only about 40 miles, uhhhh, I think he's that way,"
+  },
+  {
+    "t_start": 12.14,
+    "t_end": 16.98,
+    "text": "But he's at home at the moment. So am I, but we're gonna have a talk via technology"
+  },
+  {
+    "t_start": 16.98,
+    "t_end": 20.54,
+    "text": "hopefully. And what are we talking about Ben? What are we gonna try and discuss?"
+  },
+  {
+    "t_start": 20.549,
+    "t_end": 24.0,
+    "text": "I think there's a lot of videos and chat out there about how"
+  },
+  {
+    "t_start": 24.16,
+    "t_end": 28.74,
+    "text": "mathematicians are modeling the spread of the COVID-19 virus."
+  },
+  {
+    "t_start": 29.02,
+    "t_end": 33.54,
+    "text": "And it's kind of like this sort of halcyon days for mathematical modellers. Despite it being a horrible circumstance,"
+  },
+  {
+    "t_start": 33.62,
+    "t_end": 39.28,
+    "text": "everybody is queuing up to ask the mathematicians' opinion on what's going to happen next. And I guess it's a shout out, mathematical"
+  },
+  {
+    "t_start": 39.54,
+    "t_end": 45.02,
+    "text": "modelling is what helps us predict what happens in the world, in general. What I wanted to show you was a"
+  },
+  {
+    "t_start": 45.12,
+    "t_end": 47.04,
+    "text": "way of using one of the standard"
+  },
+  {
+    "t_start": 47.04,
+    "t_end": 51.2,
+    "text": "models of disease spread on a free piece of software that people can just try"
+  },
+  {
+    "t_start": 51.4,
+    "t_end": 57.28,
+    "text": "themselves and see that the modelling that people are doing to predict this is, it's kind of accessible."
+  },
+  {
+    "t_start": 57.28,
+    "t_end": 60.04,
+    "text": "- I see you've got the honorary brown paper"
+  },
+  {
+    "t_start": 60.04,
+    "t_end": 62.98,
+    "text": "- Needs must, we've got to do something properly Numberphile"
+  },
+  {
+    "t_start": 63.03,
+    "t_end": 67.11,
+    "text": "I actually don't have any physical brown paper that I could find so I had to, you know,"
+  },
+  {
+    "t_start": 67.11,
+    "t_end": 70.6,
+    "text": "get a screen grab of brown paper and put it in GeoGebra"
+  },
+  {
+    "t_start": 70.7,
+    "t_end": 75.0,
+    "text": "Which I'm going to use to show you a model of a disease spread. Um, I hope -"
+  },
+  {
+    "t_start": 75.5,
+    "t_end": 79.679,
+    "text": "- And is that is an image taken from an actual Numberphile brown paper? - An actual Numberphile brown paper, yeah"
+  },
+  {
+    "t_start": 79.71,
+    "t_end": 81.71,
+    "text": "I mean, spared no expense here."
+  },
+  {
+    "t_start": 83.14,
+    "t_end": 87.209,
+    "text": "So, I'm gonna try and build you a mathematical file in this program called GeoGebra"
+  },
+  {
+    "t_start": 87.21,
+    "t_end": 89.909,
+    "text": "Which anyone can try and follow along with, the program's free."
+  },
+  {
+    "t_start": 89.909,
+    "t_end": 93.239,
+    "text": "So grab it if you want to try it. The three variables"
+  },
+  {
+    "t_start": 93.24,
+    "t_end": 96.629,
+    "text": "I'm going to use I've written on the screen already, um, just checking you can see that all right"
+  },
+  {
+    "t_start": 96.67,
+    "t_end": 98.67,
+    "text": "I've got \"S\" for \"susceptible\","
+  },
+  {
+    "t_start": 99.28,
+    "t_end": 101.28,
+    "text": "meaning a bunch of people that are"
+  },
+  {
+    "t_start": 101.4,
+    "t_end": 105.9,
+    "text": "possibly able to get a disease; \"I\" for \"infected\", people who have got the disease,"
+  },
+  {
+    "t_start": 105.9,
+    "t_end": 110.7,
+    "text": "and \"R\" for recovered by which I mean are not infected anymore."
+  },
+  {
+    "t_start": 111.34,
+    "t_end": 114.329,
+    "text": "To be honest, that doesn't necessarily mean recovered, right? um"
+  },
+  {
+    "t_start": 115.119,
+    "t_end": 119.129,
+    "text": "They may be dead, which means they're not gonna be infectious anymore"
+  },
+  {
+    "t_start": 119.13,
+    "t_end": 122.699,
+    "text": "and that's the sad truth of modelling diseases like this, is that"
+  },
+  {
+    "t_start": 123.25,
+    "t_end": 126.779,
+    "text": "there are two ways out: you recover or you don't, but either way you stop infecting people."
+  },
+  {
+    "t_start": 127.09,
+    "t_end": 128.97,
+    "text": "I'm gonna use \"R\" for \"recovered\","
+  },
+  {
+    "t_start": 128.97,
+    "t_end": 130.27,
+    "text": "some people call it \"removed\","
+  },
+  {
+    "t_start": 130.27,
+    "t_end": 133.709,
+    "text": "but I will forget to say that word,  so I'm going to use \"recovered\" as long as you know what I mean"
+  },
+  {
+    "t_start": 133.959,
+    "t_end": 141.748,
+    "text": "and we're gonna build up, like all good mathematical models, some sort of simple, almost naïve assumptions of how diseases spread"
+  },
+  {
+    "t_start": 142.629,
+    "t_end": 146.998,
+    "text": "and follow the mathematical consequences of those simple things just to make a prediction,"
+  },
+  {
+    "t_start": 147.129,
+    "t_end": 153.268,
+    "text": "and actually GeoGebra will do the lifting, the heavy lifting, for us. So, happy for me. Let's start chatting maths."
+  },
+  {
+    "t_start": 154.54,
+    "t_end": 161.099,
+    "text": "Okay, I'm gonna set up a population of size 1, this sounds a little bit confusing, and I'm typing into the top thing here"
+  },
+  {
+    "t_start": 161.099,
+    "t_end": 163.408,
+    "text": "n equals 1 which means"
+  },
+  {
+    "t_start": 163.81,
+    "t_end": 170.849,
+    "text": "I'm using like my entire population to mean like 100% so zero to one measures some fraction of the population and the whole population is"
+  },
+  {
+    "t_start": 170.849,
+    "t_end": 175.649,
+    "text": "size 1. You can do these models with a large number, but it- everything just scales"
+  },
+  {
+    "t_start": 175.65,
+    "t_end": 181.26,
+    "text": "So I'm just gonna go with between 0 and 1, which is why my graph is 0 and 1 about here on the screen."
+  },
+  {
+    "t_start": 182.53,
+    "t_end": 187.799,
+    "text": "I'm also gonna set up some initial setup. So presumably there are some infected people in my population"
+  },
+  {
+    "t_start": 187.8,
+    "t_end": 190.68,
+    "text": "Otherwise, you've got to be asking why you'd be doing the model"
+  },
+  {
+    "t_start": 190.68,
+    "t_end": 196.84,
+    "text": "So I'm gonna start some values of infected, and susceptible and recovered, and the infected I'm going to call \"Istart\","
+  },
+  {
+    "t_start": 198.1,
+    "t_end": 204.66,
+    "text": "not meaning me starting, I mean the number of infected people at the start of this, I'm going to call 1%, which is 0.01"
+  },
+  {
+    "t_start": 205.28,
+    "t_end": 207.659,
+    "text": "and everyone else is therefore susceptible."
+  },
+  {
+    "t_start": 207.659,
+    "t_end": 213.328,
+    "text": "So those susceptible people at the start is gonna be N, the total number of people, take away \"Istart\""
+  },
+  {
+    "t_start": 213.669,
+    "t_end": 218.309,
+    "text": "And that gives us 99% susceptible. That's because no one of this stage has recovered"
+  },
+  {
+    "t_start": 218.31,
+    "t_end": 223.739,
+    "text": "So \"Rstart\" is 0. And those are like my initial conditions for a model. It all looks a bit cryptic."
+  },
+  {
+    "t_start": 224.019,
+    "t_end": 229.0,
+    "text": "I'm basically programming in maths. I'm gonna set up 2, 3 more variables in fact"
+  },
+  {
+    "t_start": 229.049,
+    "t_end": 232.138,
+    "text": "which we'll use in a minute and it'll feel a bit arcane until you realise why, but I'm gonna use"
+  },
+  {
+    "t_start": 232.359,
+    "t_end": 235.529,
+    "text": "sliders for this, so there's a slider tool here. I'm just gonna put it here."
+  },
+  {
+    "t_start": 235.53,
+    "t_end": 241.109,
+    "text": "This slider is gonna represent how quickly this disease gets transmitted. Like, the infection rate."
+  },
+  {
+    "t_start": 242.829,
+    "t_end": 247.049,
+    "text": "So I'm making a slider. It won't do anything yet, but you can see I can change this number"
+  },
+  {
+    "t_start": 248.229,
+    "t_end": 250.229,
+    "text": "It's gonna be something to do with how quickly it"
+  },
+  {
+    "t_start": 250.689,
+    "t_end": 254.758,
+    "text": "infects people, and I get another slider for how quickly people recover from this disease."
+  },
+  {
+    "t_start": 256.09,
+    "t_end": 262.619,
+    "text": "Which is gonna be smaller, 'cause it takes a while to recover from diseases. Otherwise, they usually don't really register in any model."
+  },
+  {
+    "t_start": 262.62,
+    "t_end": 265.0,
+    "text": "- What are the units of time here Ben?"
+  },
+  {
+    "t_start": 265.0,
+    "t_end": 268.62,
+    "text": "- It doesn't actually matter. So we could pick a unit and run with it,"
+  },
+  {
+    "t_start": 269.38,
+    "t_end": 274.049,
+    "text": "let's say days, but I'm not necessarily gonna have the numbers right to model this in days,"
+  },
+  {
+    "t_start": 274.05,
+    "t_end": 276.03,
+    "text": "but then, if you change the unit of time"
+  },
+  {
+    "t_start": 276.03,
+    "t_end": 280.41,
+    "text": "you'd just have to change these parameters to reflect that. And we can do some- because they're on sliders"
+  },
+  {
+    "t_start": 280.41,
+    "t_end": 285.94,
+    "text": "we can do the playing around with it later on to see if we can change the units. - (Brady: Okay, and at the moment, they're called a and b?)"
+  },
+  {
+    "t_start": 285.94,
+    "t_end": 287.639,
+    "text": "- a and b, yeah"
+  },
+  {
+    "t_start": 287.639,
+    "t_end": 291.389,
+    "text": "I can give them different names if you like. - (Brady: Just to really help me remember what they are)"
+  },
+  {
+    "t_start": 291.82,
+    "t_end": 296.04,
+    "text": "- Well, yeah, let's rename it. Let's call this transmission,"
+  },
+  {
+    "t_start": 296.04,
+    "t_end": 297.34,
+    "text": "just call it transm."
+  },
+  {
+    "t_start": 297.42,
+    "t_end": 304.18,
+    "text": "All coding has to have horrible names right, but I still want to type in really long names all the time. Let's call it recov"
+  },
+  {
+    "t_start": 304.18,
+    "t_end": 306.26,
+    "text": "so I've got a transmission rate and recovery rate."
+  },
+  {
+    "t_start": 306.61,
+    "t_end": 310.169,
+    "text": "And I'm gonna use them to build some naive models. One more parameter I need, which is"
+  },
+  {
+    "t_start": 310.36,
+    "t_end": 313.8,
+    "text": "how long I'm gonna let the model run for. You'll see why this is useful later"
+  },
+  {
+    "t_start": 314.32,
+    "t_end": 318.6,
+    "text": "I'm gonna call this the max time. I'm gonna go up to about 20 for now."
+  },
+  {
+    "t_start": 318.9,
+    "t_end": 320.46,
+    "text": "Okay, good, now we're into the real maths."
+  },
+  {
+    "t_start": 320.46,
+    "t_end": 325.049,
+    "text": "What I'm gonna do is set up three what they call \"differential equations\", which sounds scarier than it should"
+  },
+  {
+    "t_start": 325.66,
+    "t_end": 331.38,
+    "text": "but these are equations which tell us the sort of \"naive\" assumptions we're going to make about these three numbers."
+  },
+  {
+    "t_start": 332.139,
+    "t_end": 335.609,
+    "text": "What I want to know in the end is: what these numbers are over time"
+  },
+  {
+    "t_start": 335.61,
+    "t_end": 338.37,
+    "text": "How many susceptible? How many are infected? And how many are recovered?"
+  },
+  {
+    "t_start": 338.889,
+    "t_end": 344.879,
+    "text": "But what I can't tell you is straight away what those numbers are. I can guess though at how quickly they're going to change depending on"
+  },
+  {
+    "t_start": 344.88,
+    "t_end": 349.349,
+    "text": "various things, so I'm going to write down three equations, which tell me about the rate of change of these things."
+  },
+  {
+    "t_start": 349.93,
+    "t_end": 353.159,
+    "text": "The first one is called \"S' \" I'm gonna call it \"S' \""
+  },
+  {
+    "t_start": 353.919,
+    "t_end": 356.399,
+    "text": "And that is sort of mathematical code for"
+  },
+  {
+    "t_start": 356.4,
+    "t_end": 363.479,
+    "text": "If you were gonna write it longhand, maybe \"ds/dt\" if you know any calculus, that's the derivative of s with respect to time"
+  },
+  {
+    "t_start": 363.55,
+    "t_end": 369.15,
+    "text": "But in everyday language it's the rate of change of the number of susceptible people - how quickly it's changing."
+  },
+  {
+    "t_start": 370.0,
+    "t_end": 371.43,
+    "text": "And it's gonna depend on time"
+  },
+  {
+    "t_start": 371.43,
+    "t_end": 373.859,
+    "text": "So this bit looks technical, but I'm typing in a bunch of variables"
+  },
+  {
+    "t_start": 374.02,
+    "t_end": 378.9,
+    "text": "The rate of change of susceptible people depends on time and the number of susceptibles and the number of infecteds"
+  },
+  {
+    "t_start": 378.99,
+    "t_end": 381.599,
+    "text": "And the number of recovereds. All of these things might affect that"
+  },
+  {
+    "t_start": 382.21,
+    "t_end": 385.68,
+    "text": "but in practice and here, this is the first time we actually get some maths written on the screen:"
+  },
+  {
+    "t_start": 386.38,
+    "t_end": 391.949,
+    "text": "The rate of change of susceptibles is negative because the number of susceptible people will go down"
+  },
+  {
+    "t_start": 392.59,
+    "t_end": 395.5,
+    "text": "because they're getting infected. Does that bit make sense?"
+  },
+  {
+    "t_start": 395.6,
+    "t_end": 397.9,
+    "text": "- And we're working on this assumption that once you've been infected,"
+  },
+  {
+    "t_start": 398.44,
+    "t_end": 401.099,
+    "text": "if you've recovered or died you can't get it again?"
+  },
+  {
+    "t_start": 401.139,
+    "t_end": 401.8,
+    "text": "- Yeah."
+  },
+  {
+    "t_start": 401.8,
+    "t_end": 407.759,
+    "text": "We are assuming in this particular model of disease that once you've infected and recovered you are now sort of immune in some sense"
+  },
+  {
+    "t_start": 408.129,
+    "t_end": 409.689,
+    "text": "So you don't become susceptible again."
+  },
+  {
+    "t_start": 409.689,
+    "t_end": 416.369,
+    "text": "The thing is that if you've got loads of susceptible people and a few infected people, at first anyway, the susceptible people go down"
+  },
+  {
+    "t_start": 416.37,
+    "t_end": 420.75,
+    "text": "so what I'm expecting here is a negative rate of change, which is why I've wrote a negative sign at the top of the screen there."
+  },
+  {
+    "t_start": 421.36,
+    "t_end": 427.02,
+    "text": "And it's going to depend on three things. One is the parameter \"a\" which I've called transm now"
+  },
+  {
+    "t_start": 427.02,
+    "t_end": 427.99,
+    "text": "transm."
+  },
+  {
+    "t_start": 427.99,
+    "t_end": 429.99,
+    "text": "the transmission rate,"
+  },
+  {
+    "t_start": 430.0,
+    "t_end": 436.829,
+    "text": "and that will also depend on how many people are susceptible. So if there's lots of susceptible people you can imagine we're gonna"
+  },
+  {
+    "t_start": 437.349,
+    "t_end": 444.539,
+    "text": "lose them to the infections quite quickly and also depend on how many infected people there are. So this is relatively simple"
+  },
+  {
+    "t_start": 444.539,
+    "t_end": 449.759,
+    "text": "there's a number, the transmission rate, multiplied by the susceptible people multiplied by the infected people"
+  },
+  {
+    "t_start": 450.789,
+    "t_end": 454.438,
+    "text": "and it's negative because the susceptible people are going down. They're gonna turn into infected people"
+  },
+  {
+    "t_start": 454.99,
+    "t_end": 458.849,
+    "text": "So there's my first equation. It's a differential equation. It's a rate equation -"
+  },
+  {
+    "t_start": 458.849,
+    "t_end": 463.709,
+    "text": "that's what it means by a differential equation. We need to do two more for the other two variables and it's not too bad"
+  },
+  {
+    "t_start": 463.71,
+    "t_end": 465.71,
+    "text": "so I'm gonna go with I next."
+  },
+  {
+    "t_start": 466.719,
+    "t_end": 470.309,
+    "text": "I' is gonna depend on the same four possibilities here"
+  },
+  {
+    "t_start": 470.56,
+    "t_end": 474.76,
+    "text": "But this time, the first bit's obvious because if people were susceptible,"
+  },
+  {
+    "t_start": 474.76,
+    "t_end": 478.56,
+    "text": "and that's what this first equation we typed in was capturing,"
+  },
+  {
+    "t_start": 478.569,
+    "t_end": 483.209,
+    "text": "They're going to become infected next. So anything that's gone away from susceptible has become infected"
+  },
+  {
+    "t_start": 483.21,
+    "t_end": 486.96,
+    "text": "So it's exactly the same as what I just wrote down but this time positive."
+  },
+  {
+    "t_start": 488.92,
+    "t_end": 492.98,
+    "text": "So you can see it's the same thing: transmission rate times S times I but this time it's not got a negative sign"
+  },
+  {
+    "t_start": 492.98,
+    "t_end": 497.4,
+    "text": "because the infected people are going up, presumably, if they're moving from susceptible to infected"
+  },
+  {
+    "t_start": 497.86,
+    "t_end": 503.699,
+    "text": "However, I hope we are aware that some people can recover? And so that will cause the number infecteds to go down"
+  },
+  {
+    "t_start": 503.83,
+    "t_end": 509.129,
+    "text": "so I need a negative bit and this is where the recovery bit comes in. I've call it recov, is that right?"
+  },
+  {
+    "t_start": 510.039,
+    "t_end": 514.948,
+    "text": "and that will depend on how many people are infected. The more people that are infected the more people that can recover, obviously"
+  },
+  {
+    "t_start": 515.769,
+    "t_end": 518.669,
+    "text": "At a certain rate so that's got the I number in there as well"
+  },
+  {
+    "t_start": 518.669,
+    "t_end": 523.6,
+    "text": "- I notice you're not attaching any, like, weightings or anything to these, to these numbers - No"
+  },
+  {
+    "t_start": 523.6,
+    "t_end": 525.6,
+    "text": "- It all seems like a really one-to-one... - Well,"
+  },
+  {
+    "t_start": 525.62,
+    "t_end": 530.54,
+    "text": "there are two weightings. The two weightings are these precise numbers: transm - transmission rate - and recovery rate."
+  },
+  {
+    "t_start": 531.339,
+    "t_end": 535.768,
+    "text": "So there are weightings, but I'm trying to keep the model simple so there's like this - at the moment"
+  },
+  {
+    "t_start": 535.769,
+    "t_end": 541.109,
+    "text": "it's 3.2. And that'll affect how many people are going to move from susceptible to infected"
+  },
+  {
+    "t_start": 541.81,
+    "t_end": 545.369,
+    "text": "and the recovery rate is going to affect how many people move from infected to recovered."
+  },
+  {
+    "t_start": 545.88,
+    "t_end": 548.16,
+    "text": "So those are the weightings if you like, but they're the only"
+  },
+  {
+    "t_start": 548.16,
+    "t_end": 553.96,
+    "text": "parameters. And this is the thing with models - you start simple and you realise that even simple models can capture behavior and then you"
+  },
+  {
+    "t_start": 553.98,
+    "t_end": 556.949,
+    "text": "upgrade the models, which will be a whole week's course instead of a single video"
+  },
+  {
+    "t_start": 557.98,
+    "t_end": 561.87,
+    "text": "Let's do one more equation, which is the R'. The rate of change of recovered people"
+  },
+  {
+    "t_start": 563.11,
+    "t_end": 565.379,
+    "text": "So the same four variables in here and this time"
+  },
+  {
+    "t_start": 566.079,
+    "t_end": 571.318,
+    "text": "It's a simple end again because anyone who's infected and now recovered is going to move into this category"
+  },
+  {
+    "t_start": 571.66,
+    "t_end": 577.439,
+    "text": "so it's precisely the term I just had at the end of the infected rate but this time positive so the recov"
+  },
+  {
+    "t_start": 578.259,
+    "t_end": 580.259,
+    "text": "multiplied by the number of infected."
+  },
+  {
+    "t_start": 580.569,
+    "t_end": 585.058,
+    "text": "So actually there are only two terms in this: there's the negative version in the susceptible to"
+  },
+  {
+    "t_start": 585.43,
+    "t_end": 596.189,
+    "text": "and then the effective one you've got in the negative people that's recovering from infected to recovered. So again sums up to negative there and positive there"
+  },
+  {
+    "t_start": 596.92,
+    "t_end": 600.12,
+    "text": "So that was that. That was the hard bit and that's the modeling bit"
+  },
+  {
+    "t_start": 600.12,
+    "t_end": 604.889,
+    "text": "That's what mathematicians get paid for to come up with these models. To be honest, they're not rocket science. They're,"
+  },
+  {
+    "t_start": 605.769,
+    "t_end": 608.188,
+    "text": "sensible guesses at how things might behave."
+  },
+  {
+    "t_start": 608.769,
+    "t_end": 612.299,
+    "text": "Solving these equations is a different matter; before we do that I'm just going to change the color"
+  },
+  {
+    "t_start": 612.3,
+    "t_end": 614.309,
+    "text": "So we can keep track of this. So susceptible we made blue,"
+  },
+  {
+    "t_start": 615.22,
+    "t_end": 620.73,
+    "text": "infected we had a sort of browny-red and recovered let's go with green. Is that all right? Can you see those colours okay?"
+  },
+  {
+    "t_start": 620.73,
+    "t_end": 624.8,
+    "text": "- Ben's colourblind by the way people, which is why he's asking me all the time. - [Both]: *laugh*"
+  },
+  {
+    "t_start": 625.8,
+    "t_end": 626.8,
+    "text": "Brady: He got no idea"
+  },
+  {
+    "t_start": 627.2,
+    "t_end": 634.26,
+    "text": "- I , Ihad a long chat with Brady about: is that actually red? Anyway, we're gonna go with this. We've got a browny-red infected colour, which is,"
+  },
+  {
+    "t_start": 634.26,
+    "t_end": 636.02,
+    "text": "you know, maybe suitable."
+  },
+  {
+    "t_start": 636.32,
+    "t_end": 640.8,
+    "text": "So if you want to solve differential equations, then you need to go and study some serious maths"
+  },
+  {
+    "t_start": 640.8,
+    "t_end": 646.469,
+    "text": "and I'm not here to teach you to solve differential equations. What's nice about mathematicians is that they have programmed computers to do"
+  },
+  {
+    "t_start": 647.05,
+    "t_end": 652.439,
+    "text": "numerical solutions just like a calculator can solve equations for you, GeoGebra here can solve differential equations."
+  },
+  {
+    "t_start": 653.52,
+    "t_end": 656.22,
+    "text": "So I'm gonna type in here is a command called \"Nsolve\""
+  },
+  {
+    "t_start": 656.64,
+    "t_end": 658.64,
+    "text": "in fact there it is, \"NSolveODE\""
+  },
+  {
+    "t_start": 659.1,
+    "t_end": 665.56,
+    "text": "The ODE stands for Ordinary Differential Equation, mathematicians are as bad as everyone else at coming up with acronyms that no one"
+  },
+  {
+    "t_start": 665.82,
+    "t_end": 670.28,
+    "text": "recognises, but ordinary differential equation in this case is system of three differential equations,"
+  },
+  {
+    "t_start": 671.34,
+    "t_end": 674.54,
+    "text": "and this command is just gonna spit out the solution. So this is the exciting bit"
+  },
+  {
+    "t_start": 674.55,
+    "t_end": 677.88,
+    "text": "you just get to type it in and it should do all the work for us."
+  },
+  {
+    "t_start": 678.16,
+    "t_end": 681.509,
+    "text": "First of all, I need a list of derivatives and that's the three things I just typed in"
+  },
+  {
+    "t_start": 681.51,
+    "t_end": 686.549,
+    "text": "These are rate equations or derivatives. In GeoGebra we need curly brackets for a list"
+  },
+  {
+    "t_start": 686.65,
+    "t_end": 691.259,
+    "text": "So it's S' I called it, and then I' and then R', close that list"
+  },
+  {
+    "t_start": 691.84,
+    "t_end": 695.609,
+    "text": "It asks for the initial x-coordinate and on our scale x-axis is time"
+  },
+  {
+    "t_start": 695.61,
+    "t_end": 697.61,
+    "text": "so we're gonna start at time zero."
+  },
+  {
+    "t_start": 697.66,
+    "t_end": 702.449,
+    "text": "And we will a list of initial y-coordinates, or in this case the initial values of our three functions"
+  },
+  {
+    "t_start": 702.55,
+    "t_end": 705.93,
+    "text": "And those are the things I set up at the very beginning. So let's go in the same order"
+  },
+  {
+    "t_start": 706.51,
+    "t_end": 710.549,
+    "text": "Sstart - the number of people starting susceptible"
+  },
+  {
+    "t_start": 711.25,
+    "t_end": 714.66,
+    "text": "and then Istart, I think I did that order, and then Rstart"
+  },
+  {
+    "t_start": 715.74,
+    "t_end": 722.76,
+    "text": "Finally, I need a final x-coordinate and this is why I set up a max time thing, because it's gonna tell me how long to"
+  },
+  {
+    "t_start": 722.76,
+    "t_end": 726.42,
+    "text": "go on the simulation for now. Now it's already done something. That's my command"
+  },
+  {
+    "t_start": 726.42,
+    "t_end": 729.719,
+    "text": "That's the sort of magic of using a piece of software to solve an equation for you"
+  },
+  {
+    "t_start": 729.72,
+    "t_end": 735.479,
+    "text": "If I hit return, it has done three things which look kind of down here. They don't look very complete yet"
+  },
+  {
+    "t_start": 735.88,
+    "t_end": 738.06,
+    "text": "But can you see that one of them's going down,"
+  },
+  {
+    "t_start": 738.12,
+    "t_end": 742.84,
+    "text": "one of them's going up and one's going up a little bit more slowly? They're all black. We'll sort out the colours because"
+  },
+  {
+    "t_start": 742.86,
+    "t_end": 747.58,
+    "text": "GeoGebra doesn't do the colours for us, I wish it did frankly for my own colour vision deficiency"
+  },
+  {
+    "t_start": 747.58,
+    "t_end": 752.52,
+    "text": "But I can also increase the time it, it carries on, so you can see this is the important bit. When I crank up the time"
+  },
+  {
+    "t_start": 752.52,
+    "t_end": 755.009,
+    "text": "you see how these things develop over time."
+  },
+  {
+    "t_start": 756.67,
+    "t_end": 760.889,
+    "text": "And actually it'd be much nicer to see this with colour so let's rewind that and put some colours on the first one"
+  },
+  {
+    "t_start": 760.889,
+    "t_end": 765.34,
+    "text": "it solved is S, so let's rename that to be S and make it"
+  },
+  {
+    "t_start": 766.12,
+    "t_end": 772.18,
+    "text": "excitingly blue. I don't know why blue is exciting. The next one is our browny-red,"
+  },
+  {
+    "t_start": 773.17,
+    "t_end": 775.469,
+    "text": "rename that to be Infected"
+  },
+  {
+    "t_start": 776.38,
+    "t_end": 778.78,
+    "text": "and finally we've got Recovered"
+  },
+  {
+    "t_start": 780.28,
+    "t_end": 782.28,
+    "text": "And that was a green"
+  },
+  {
+    "t_start": 784.3,
+    "t_end": 788.84,
+    "text": "Can I click? Yeah. And finally let's just make them nice and thick."
+  },
+  {
+    "t_start": 789.24,
+    "t_end": 794.76,
+    "text": "And now we can see - I could even just animate this and right-click and animate it and you see what happens to the numbers of"
+  },
+  {
+    "t_start": 794.76,
+    "t_end": 799.65,
+    "text": "Susceptible, Infected, and Recovered over time. This might be worth guessing what you think will happen, but let's just click go."
+  },
+  {
+    "t_start": 807.42,
+    "t_end": 813.649,
+    "text": "And so what I hope you're seeing is, this red graph has been in the news a lot - this bump of"
+  },
+  {
+    "t_start": 814.199,
+    "t_end": 816.678,
+    "text": "infected people - which does tail off again -"
+  },
+  {
+    "t_start": 817.259,
+    "t_end": 819.979,
+    "text": "but it's nice that GeoGebra is just doing this for us"
+  },
+  {
+    "t_start": 820.5,
+    "t_end": 822.42,
+    "text": "(Brady: You're going back in time now.)"
+  },
+  {
+    "t_start": 822.42,
+    "t_end": 825.82,
+    "text": "- Ben: Yeah. I've got to change of properties of the number here to stop it oscillating"
+  },
+  {
+    "t_start": 825.959,
+    "t_end": 828.589,
+    "text": "but yeah, you can go and tinker with this yourself"
+  },
+  {
+    "t_start": 829.8,
+    "t_end": 832.189,
+    "text": "That's what it starts with. The number of susceptible people goes down"
+  },
+  {
+    "t_start": 832.189,
+    "t_end": 836.118,
+    "text": "infecteds goes up and people do start recovering enough of for the infecteds to jump off."
+  },
+  {
+    "t_start": 836.119,
+    "t_end": 841.459,
+    "text": "but it's how high that bump is that's really what's causing all the headlines at the moment 'cause if that bump of infected people"
+  },
+  {
+    "t_start": 841.58,
+    "t_end": 848.0,
+    "text": "- The red bump. That's when the number of infected people is at its highest, the red bump is at its peak. - Yeah"
+  },
+  {
+    "t_start": 848.54,
+    "t_end": 854.14,
+    "text": "And according to this model which is going between zero and 100% like almost 80% of the population got it at once."
+  },
+  {
+    "t_start": 854.61,
+    "t_end": 858.139,
+    "text": "And that's obviously if you project that to our NHS, that's a problem."
+  },
+  {
+    "t_start": 858.509,
+    "t_end": 862.549,
+    "text": "Which is what - we've just started this week of lockdown in the UK"
+  },
+  {
+    "t_start": 862.579,
+    "t_end": 869.149,
+    "text": "I mean it's unprecedented because they're trying to stop this bump from dominating the entirety of all hospital"
+  },
+  {
+    "t_start": 870.48,
+    "t_end": 871.799,
+    "text": "intensive care beds."
+  },
+  {
+    "t_start": 871.799,
+    "t_end": 876.859,
+    "text": "But now we've done it, and this is the nice thing about doing a model, is that we can change these parameters"
+  },
+  {
+    "t_start": 876.959,
+    "t_end": 882.649,
+    "text": "So I said this- - We can flatten the curve! - We can flatten the curve, we can squash the bubble,"
+  },
+  {
+    "t_start": 882.649,
+    "t_end": 885.289,
+    "text": "whatever you want to call it and there are two ways according to our model, right?"
+  },
+  {
+    "t_start": 885.29,
+    "t_end": 887.569,
+    "text": "Let's crank up the time so we've got enough model"
+  },
+  {
+    "t_start": 888.24,
+    "t_end": 890.659,
+    "text": "We can decrease the transmission rate"
+  },
+  {
+    "t_start": 891.209,
+    "t_end": 893.808,
+    "text": "Which means like stop people from talking to each other"
+  },
+  {
+    "t_start": 893.91,
+    "t_end": 898.759,
+    "text": "social distancing, all that stuff. And if I start knocking that down, if I just kind of animate that down you can see"
+  },
+  {
+    "t_start": 898.76,
+    "t_end": 905.38,
+    "text": "what's happening to the model there. - (Brady: As you lower the transmission rate that red bump gets lower)"
+  },
+  {
+    "t_start": 905.38,
+    "t_end": 908.52,
+    "text": "- Gets lower, yeah - (Brady: And that means there are fewer people all needing the hospital at once?)"
+  },
+  {
+    "t_start": 908.9,
+    "t_end": 913.22,
+    "text": "- Exactly. We're squashing the bubble a bit, flattening the curve and that's kind of what we're trying to do at the moment."
+  },
+  {
+    "t_start": 913.22,
+    "t_end": 917.12,
+    "text": "And you can see that this model lets us try and see how much you have to do that"
+  },
+  {
+    "t_start": 917.12,
+    "t_end": 920.54,
+    "text": "and you see that eventually if you reduce this rate hugely"
+  },
+  {
+    "t_start": 921.42,
+    "t_end": 926.599,
+    "text": "Not only do you flatten the curve, you also stop everyone from getting the disease in the long run."
+  },
+  {
+    "t_start": 926.79,
+    "t_end": 930.169,
+    "text": "We can crank up the maximum time. I may go off the edge of our"
+  },
+  {
+    "t_start": 930.839,
+    "t_end": 936.398,
+    "text": "pre-arranged paper here, but let's just see what happens. I crank up time and see what we see here."
+  },
+  {
+    "t_start": 937.279,
+    "t_end": 942.368,
+    "text": "So this is settled down now and not everyone has the disease so maybe 10% this blue line susceptibles,"
+  },
+  {
+    "t_start": 942.369,
+    "t_end": 944.329,
+    "text": "there's still 10% people susceptible in the long run"
+  },
+  {
+    "t_start": 944.329,
+    "t_end": 948.758,
+    "text": "but they've never got the disease and that, is kind of what we're praying for because some people"
+  },
+  {
+    "t_start": 949.309,
+    "t_end": 951.459,
+    "text": "won't survive this disease and if we can stop"
+  },
+  {
+    "t_start": 952.1,
+    "t_end": 955.389,
+    "text": "at least like maybe 10% of the most vulnerable from getting it, that would be great."
+  },
+  {
+    "t_start": 955.509,
+    "t_end": 960.248,
+    "text": "You see why reducing the transmission rate doesn't just squash the curve it also reduces"
+  },
+  {
+    "t_start": 960.249,
+    "t_end": 962.844,
+    "text": "the number people actually getting the disease in the long run"
+  },
+  {
+    "t_start": 962.844,
+    "t_end": 968.24,
+    "text": "- And of course a vaccine may be developed  in the interim in which case the susceptible people can be made susceptible..."
+  },
+  {
+    "t_start": 968.36,
+    "t_end": 972.24,
+    "text": "- Absolutely, you can take them out of the equation entirely if you vaccinate them."
+  },
+  {
+    "t_start": 972.24,
+    "t_end": 977.04,
+    "text": "I mean you can also increase the recovery rate if you crank up the way the people recover"
+  },
+  {
+    "t_start": 977.04,
+    "t_end": 980.28,
+    "text": "you can see that increasing that flattens the curve as well"
+  },
+  {
+    "t_start": 980.28,
+    "t_end": 982.54,
+    "text": "but that's much harder to do. The NHS is doing that,"
+  },
+  {
+    "t_start": 982.54,
+    "t_end": 984.939,
+    "text": "they're trying to keep people healthy and recover quickly in hospital"
+  },
+  {
+    "t_start": 985.34,
+    "t_end": 990.34,
+    "text": "But in practice we know that it takes at least a week or so to get over this thing and sometimes a lot longer"
+  },
+  {
+    "t_start": 990.46,
+    "t_end": 994.98,
+    "text": "- There aren't treatments or cures that can really help us move that slider very much."
+  },
+  {
+    "t_start": 994.98,
+    "t_end": 997.6,
+    "text": "- Exactly, yeah. We'll do our level best obviously in the NHS"
+  },
+  {
+    "t_start": 997.6,
+    "t_end": 1002.04,
+    "text": "but we can't control it very well and what you might have heard some people talking about on the"
+  },
+  {
+    "t_start": 1002.559,
+    "t_end": 1006.389,
+    "text": "sort of chat shows about modelling this stuff is something called R_0"
+  },
+  {
+    "t_start": 1006.97,
+    "t_end": 1010.679,
+    "text": "which is the sort of rate of infection is actually a comparison of these two numbers"
+  },
+  {
+    "t_start": 1010.68,
+    "t_end": 1016.16,
+    "text": "So it's one divided by the other. If I do transmission divided by recov"
+  },
+  {
+    "t_start": 1016.66,
+    "t_end": 1019.12,
+    "text": "That number - let's just crank it onto the screen there"
+  },
+  {
+    "t_start": 1020.44,
+    "t_end": 1023.0,
+    "text": "(Brady: We should call it R_0 for the sake of, uh - )"
+  },
+  {
+    "t_start": 1023.12,
+    "t_end": 1025.08,
+    "text": "Yeah, let's call R_0, that sounds sensible, you know."
+  },
+  {
+    "t_start": 1026.46,
+    "t_end": 1031.58,
+    "text": "It's confusing calling it R_0 sometimes because it might also refer to the Rstart"
+  },
+  {
+    "t_start": 1031.68,
+    "t_end": 1033.14,
+    "text": "which was...but anyway,"
+  },
+  {
+    "t_start": 1033.149,
+    "t_end": 1037.2,
+    "text": "this is R_0 meaning some sort of reproduction rate and you can see that, umm"
+  },
+  {
+    "t_start": 1040.569,
+    "t_end": 1044.459,
+    "text": "we think the R_0 for the COVID-19 is about three, perhaps?"
+  },
+  {
+    "t_start": 1044.98,
+    "t_end": 1049.349,
+    "text": "And it's kind of like a ratio of these two things, but this is possibly a good model for our disease"
+  },
+  {
+    "t_start": 1049.349,
+    "t_end": 1051.98,
+    "text": "we're looking at now - and obviously we haven't sorted out the units of time,"
+  },
+  {
+    "t_start": 1051.98,
+    "t_end": 1055.84,
+    "text": "but even - maybe it's about right. The number of days might spike in about two weeks"
+  },
+  {
+    "t_start": 1056.86,
+    "t_end": 1058.299,
+    "text": "from when things start off"
+  },
+  {
+    "t_start": 1058.299,
+    "t_end": 1064.439,
+    "text": "I'm not doing a full analysis, but you can see that even in a free piece of software with three basic differential equations"
+  },
+  {
+    "t_start": 1064.44,
+    "t_end": 1070.74,
+    "text": "It solves it for you and you can begin to get a predicting model that tells us what's going to happen in the future"
+  },
+  {
+    "t_start": 1071.5,
+    "t_end": 1077.24,
+    "text": "- Ben, the transmission rate, like, you're moving it like a slider,"
+  },
+  {
+    "t_start": 1077.24,
+    "t_end": 1080.22,
+    "text": "it's like almost like an abstraction you can just play with. - Yeah, yep"
+  },
+  {
+    "t_start": 1080.28,
+    "t_end": 1086.54,
+    "text": "- How do the modellers go change that number based on things like \"We're going to close the cinemas\","
+  },
+  {
+    "t_start": 1086.54,
+    "t_end": 1091.62,
+    "text": "\"We're going to close the schools, We're going to stop people, we're going to keep people in their house for two weeks or three weeks.\""
+  },
+  {
+    "t_start": 1091.62,
+    "t_end": 1096.9,
+    "text": "How do those real-world interactions turn into a number?"
+  },
+  {
+    "t_start": 1096.9,
+    "t_end": 1101.24,
+    "text": "Well, this is where there's a lot of argument out there in the press right? This is guesswork."
+  },
+  {
+    "t_start": 1101.25,
+    "t_end": 1106.08,
+    "text": "We don't know what the transmission rate and recovery times are, they're not written in the back of a textbook."
+  },
+  {
+    "t_start": 1106.42,
+    "t_end": 1109.259,
+    "text": "All we can do is estimate them from the data we get"
+  },
+  {
+    "t_start": 1109.57,
+    "t_end": 1113.159,
+    "text": "from say, China, who've been dealing with it longer than the rest of the world,"
+  },
+  {
+    "t_start": 1113.52,
+    "t_end": 1119.02,
+    "text": "which is why the data from China is super valuable and also why we need to know whether we can trust it."
+  },
+  {
+    "t_start": 1119.5,
+    "t_end": 1123.46,
+    "text": "So you go and get data from China and then maybe Italy and then maybe Iran"
+  },
+  {
+    "t_start": 1123.46,
+    "t_end": 1128.44,
+    "text": "and then you ask serious questions about whether that data is reliable, to build your models on."
+  },
+  {
+    "t_start": 1129.22,
+    "t_end": 1134.61,
+    "text": "And then you start saying \"Well if we social isolate maybe we can reduce this by a certain amount\", and you have to look at other"
+  },
+  {
+    "t_start": 1134.61,
+    "t_end": 1139.559,
+    "text": "studies that have been done to see how much certain actions will reduce that. But it is guesswork,"
+  },
+  {
+    "t_start": 1139.56,
+    "t_end": 1144.62,
+    "text": "this is why having a model is super important because you can't do the guesswork live,"
+  },
+  {
+    "t_start": 1144.62,
+    "t_end": 1149.34,
+    "text": "and wait to see if everyone dies because that's just not how things should run."
+  },
+  {
+    "t_start": 1149.34,
+    "t_end": 1155.58,
+    "text": "- One thing that was absolutely clear though is no matter what happened, whenever you slid the transmission down,"
+  },
+  {
+    "t_start": 1155.86,
+    "t_end": 1160.0,
+    "text": "the red bump flattened. - Yeah, and it flattens a lot."
+  },
+  {
+    "t_start": 1160.0,
+    "t_end": 1163.18,
+    "text": "- Even if we don't know how much it's flattening, it does flatten it."
+  },
+  {
+    "t_start": 1163.18,
+    "t_end": 1165.68,
+    "text": "- Absolutely. And the more we can flatten it the better."
+  },
+  {
+    "t_start": 1165.68,
+    "t_end": 1171.02,
+    "text": "The actual details of exactly what numbers we need to keep our society safe is guesswork from everybody"
+  },
+  {
+    "t_start": 1171.4,
+    "t_end": 1177.58,
+    "text": "which is why, I mean, the government has got a difficult job - and everybody is going to be second guessing them, including experts"
+  },
+  {
+    "t_start": 1177.88,
+    "t_end": 1180.6,
+    "text": "and including the experts that they're relying on for their information."
+  },
+  {
+    "t_start": 1180.6,
+    "t_end": 1184.44,
+    "text": "But it's important stuff and for once you've got a listen to the mathematicians"
+  },
+  {
+    "t_start": 1185.02,
+    "t_end": 1187.77,
+    "text": "because they're the only ones with the access to this model to predict what will happen"
+  },
+  {
+    "t_start": 1187.77,
+    "t_end": 1190.94,
+    "text": "- Oh, and Numberphile viewers now can make their own model."
+  },
+  {
+    "t_start": 1190.94,
+    "t_end": 1193.28,
+    "text": "- And Numberphile videos, 'cause they're all going to be making their own model"
+  },
+  {
+    "t_start": 1193.42,
+    "t_end": 1197.04,
+    "text": "So there is a file I made earlier which I'll, umm - this file here,"
+  },
+  {
+    "t_start": 1197.04,
+    "t_end": 1201.42,
+    "text": "which I just put a little animation on so you can see these numbers tracking over time."
+  },
+  {
+    "t_start": 1202.21,
+    "t_end": 1204.539,
+    "text": "And this one I have left it as a and b"
+  },
+  {
+    "t_start": 1204.54,
+    "t_end": 1208.98,
+    "text": "but people can make their own and come up with their own labels on this and actually I think realizing that the model is"
+  },
+  {
+    "t_start": 1209.16,
+    "t_end": 1213.54,
+    "text": "within their own grasp is - certainly it's kind of useful for me. I'm a mathematician"
+  },
+  {
+    "t_start": 1213.82,
+    "t_end": 1216.58,
+    "text": "but I have to go and dig up my knowledge on these things and think,"
+  },
+  {
+    "t_start": 1216.58,
+    "t_end": 1220.04,
+    "text": "\"ah, how do I program this?\" And it turns out to be not that hard particularly if the"
+  },
+  {
+    "t_start": 1220.39,
+    "t_end": 1222.9,
+    "text": "computer will do the grunt work of solving the things for you."
+  },
+  {
+    "t_start": 1222.9,
+    "t_end": 1227.58,
+    "text": "- Ben, as a math guy, as you've been following this pandemic as it unfolds"
+  },
+  {
+    "t_start": 1227.58,
+    "t_end": 1230.74,
+    "text": "and the way it's been covered in the media and social media and things like that -"
+  },
+  {
+    "t_start": 1230.89,
+    "t_end": 1237.39,
+    "text": "how have you felt about the way that lay people are grasping the mathematics? And how well do you think it's being explained?"
+  },
+  {
+    "t_start": 1237.39,
+    "t_end": 1242.42,
+    "text": "- I think it's hard to explain well, because like all maths it needs a bit of a run-up."
+  },
+  {
+    "t_start": 1242.42,
+    "t_end": 1245.0,
+    "text": "Even in this description I've been talking about differential equations."
+  },
+  {
+    "t_start": 1245.01,
+    "t_end": 1249.15,
+    "text": "If you're not sure what a rate of change or what differentiation is,"
+  },
+  {
+    "t_start": 1249.15,
+    "t_end": 1253.2,
+    "text": "then that run-up needs to happen to make you comfortable with the rest of the explanation."
+  },
+  {
+    "t_start": 1253.32,
+    "t_end": 1258.0,
+    "text": "But the number of people who have been talking about exponential growth, logarithmic scales"
+  },
+  {
+    "t_start": 1258.3,
+    "t_end": 1264.8,
+    "text": "which most Numberphile viewers will be familiar with, it turns out they're desperately important to discuss the sort of epidemics that we're seeing."
+  },
+  {
+    "t_start": 1265.62,
+    "t_end": 1271.46,
+    "text": "So it's been fascinating and sobering to realise sometimes in our mathematical world"
+  },
+  {
+    "t_start": 1271.52,
+    "t_end": 1275.36,
+    "text": "we think we live in these abstract things, but this is desperately important in a very real-life way."
+  },
+  {
+    "t_start": 1275.36,
+    "t_end": 1279.26,
+    "text": "So that's both exciting for me as a maths educator, like people realise"
+  },
+  {
+    "t_start": 1279.26,
+    "t_end": 1285.56,
+    "text": "this is important, and sobering because it does seem to be the crises when we notice that it's important."
+  },
+  {
+    "t_start": 1285.76,
+    "t_end": 1289.62,
+    "text": "When everything is running normally, we don't really notice that these models are important."
+  },
+  {
+    "t_start": 1290.58,
+    "t_end": 1294.26,
+    "text": "- So in the video description for this video,"
+  },
+  {
+    "t_start": 1294.26,
+    "t_end": 1300.0,
+    "text": "I'm going to put some links to some files from Ben, more stuff that you can tweak and play around with. I'm also going to"
+  },
+  {
+    "t_start": 1300.0,
+    "t_end": 1303.14,
+    "text": "link to some other YouTube videos that have been made by other"
+  },
+  {
+    "t_start": 1303.18,
+    "t_end": 1307.22,
+    "text": "creators that are really good about what's going on with the Coronavirus and the pandemic."
+  },
+  {
+    "t_start": 1307.22,
+    "t_end": 1313.22,
+    "text": "But Ben, I want you to stay inside and go and wash your hands. - You too, Brady."
+  },
+  {
+    "t_start": 1314.84,
+    "t_end": 1320.64,
+    "text": "[Preview of next video]: A test, and you get that letter in the mail saying \"You have tested positive for this disease.\""
+  },
+  {
+    "t_start": 1320.7,
+    "t_end": 1328.3,
+    "text": "If you get that letter, if you're anything like me, your stomach falls into your feet and you start to worry. A question that"
+  },
+  {
+    "t_start": 1328.46,
+    "t_end": 1335.1,
+    "text": "mathematics can help us answer is, how worried do you really need to be? Maybe very worried, maybe not at all."
+  }
+]

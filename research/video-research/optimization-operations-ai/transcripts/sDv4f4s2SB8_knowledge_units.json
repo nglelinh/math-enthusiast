@@ -1,0 +1,114 @@
+[
+  {
+    "id": "ku_video_sDv4f4s2SB8_0",
+    "t_start": 0.7,
+    "t_end": 95.1,
+    "type": "overview",
+    "summary": "Gradient Descent is decent at estimating parameters. StatQuest! Hello! I'm Josh Starmer and welcome to StatQuest. Today we're going to learn about Gradient Descent and we're going to go through the algorithm step by step. Note: this StatQuest assumes you already understand the basics of least squares and linear regression, so if you're not already down with that, check out the Quest. In statistics, machine learning, and other data science fields, we optimize a lot of stuff. When we fit a line with linear regression, we optimize the intercept and the slope. When we use logistic regression, w…"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_96",
+    "t_start": 96.2,
+    "t_end": 194.0,
+    "type": "overview",
+    "summary": "If we fit a line to the data and someone tells us that they weigh 1.5, we can use the line to predict that they will be 1.9 tall. So let's learn how Gradient Descent can fit a line to data by finding the optimal values for the intercept and the slope. Actually, we'll start by using Gradient Descent to find the intercept. Then, once we understand how Gradient Descent works, we'll use it to solve for the intercept and the slope. So, for now, let's just plug in the Least Squares estimate for the slope, 0.64, and we'll use Gradient Descent to find the optimal value for the intercept. The first …"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_194",
+    "t_start": 194.0,
+    "t_end": 284.3,
+    "type": "overview",
+    "summary": "height, the point on the line, by plugging weight equals 0.5 into the equation for the line. And the predicted height is 0.32. The residual is the difference between the observed height and the predicted height, so we calculate the difference between 1.4 and 0.32, and that gives us 1.1 for the residual. Here's the square of the first residual. The second residual is 0.4. and the third residual is 1.3. In the end, 3.1 is the sum of the squared residuals. Now, just for fun, we can plot that value on a graph. This graph has the sum of squared residuals on the y-axis, and different values for t…"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_285",
+    "t_start": 285.9,
+    "t_end": 379.7,
+    "type": "overview",
+    "summary": "Of the points that we calculated for the graph, this one has the lowest sum of squared residuals. But is it the best we can do? What if the best value for the intercept is somewhere between these values? A slow and painful method for finding the minimal sum of the squared residuals is to plug and chug a bunch more values for the intercept. Don't despair! Gradient Descent is way more efficient. Gradient Descent only does a few calculations far from the optimal solution, and increases the number of calculations closer to the optimal value. In other words, gradient descent identifies the optim…"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_379",
+    "t_start": 379.8,
+    "t_end": 470.3,
+    "type": "overview",
+    "summary": "this is their observed height and this is their predicted height. Note: we can now plug in any value for the intercept and get a new predicted height. Now let's focus on the second data point. Just like before, the residual is the difference between the observed height, which is 1.9, and the predicted height, which comes from the equation for the line. Snd since this individual weighs 2.3, we replace weight with 2.3. Now let's focus on the last person. Again, the residual is the difference between the observed height, which is 3.2, and the predicted height, which comes from the equation for…"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_470",
+    "t_start": 470.3,
+    "t_end": 563.8,
+    "type": "overview",
+    "summary": "the derivative of the first part, plus the derivative of the second part, plus the derivative of the third part. Let's start by taking the derivative of the first part. First, we'll move this part of the equation up here, so that we have room to work. To take the derivative of this we need to apply the chain rule. So we start by moving the square to the front and multiply that by the derivative of the stuff inside the parentheses. These parts don't contain a term for the intercept, so they go away. Then we simplify by multiplying two by negative one. And this is the derivative of the first …"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_567",
+    "t_start": 567.6,
+    "t_end": 659.0,
+    "type": "overview",
+    "summary": "This makes Gradient Descent very useful when it is not possible to solve for where the derivative equals zero. And this is why Gradient Descent can be used in so many different situations. Bam! Remember, we started by setting the intercept to a random number. In this case that was zero. So we plug zero into the derivative and we get negative 5.7. So, when the intercept equals 0, the slope of the curve equals negative 5.7. Note: the closer we get to the optimal value for the intercept, the closer the slope of the curve gets to zero. This means that when the slope of the curve is close to zer…"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_660",
+    "t_start": 660.3,
+    "t_end": 751.6,
+    "type": "overview",
+    "summary": "When the intercept equals 0, the step size equals negative 5.7. With the step size, we can calculate a new intercept. The new intercept is the old intercept minus the step size. So we plug in the numbers, and the new intercept equals 0.57. Bam! In one big step, we moved much closer to the optimal value for the intercept. Going back to the original data and the original line, with the intercept equals 0, we can see how much the residuals shrink when the intercept equals 0.57. Now let's take another step closer to the optimal value for the intercept. To take another step, we go back to the de…"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_753",
+    "t_start": 753.0,
+    "t_end": 844.8,
+    "type": "overview",
+    "summary": "Notice that the first step was relatively large, compared to the second step. Now let's calculate the derivative at the new intercept: and we get negative 0.9. The step size equals negative 0.09, and the new intercept equals 0.89. Now we increase the intercept from 0.8 to 0.89, then we take another step and the new intercept equals 0.92. And then we take another step, and the new intercept equals 0.94. And then we take another step, and the new intercept equals 0.95. Notice how each step gets smaller and smaller the closer we get to the bottom of the curve. After six steps, the gradient asc…"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_845",
+    "t_start": 845.7,
+    "t_end": 937.7,
+    "type": "overview",
+    "summary": "So if this slope equals 0.009, then we would plug in 0.009 for the slope and 0.1 for the learning rate and get 0.0009, which is smaller than 0.001, so gradient descent would stop. That said, gradient descent also includes a limit on the number of steps it will take before giving up. In practice, the maximum number of steps equals 1000 or greater. So, even if the step size is large, if there have been more than the maximum number of steps, gradient descent will stop. Okay, let's review what we've learned so far. The first thing we did is decide to use the sum of the squared residuals as the …"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_940",
+    "t_start": 940.8,
+    "t_end": 1032.5,
+    "type": "overview",
+    "summary": "Double bam! Now that we understand how gradient descent can calculate the intercept, let's talk about how to estimate the intercept and the slope. Just like before, we'll use the sum of the squared residuals as the loss function. This is a 3D graph of the loss function for the different values for the intercept and the slope. This axis is the sum of the squared residuals, this axis represents different values for the slope, and this axis represents different values for the intercept. We want to find the values for the intercept and slope that give us the minimum sum of the squared residuals…"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_1032",
+    "t_start": 1032.5,
+    "t_end": 1119.8,
+    "type": "overview",
+    "summary": "the slope like a constant, and the derivative of a constant is zero. So, we end up with negative one, just like before. Then we simplify by multiplying two by negative one. And this is the derivative of the first part. So we plug it in. Likewise, we replace these terms with their derivatives. So this whole thing is the derivative of the sum of squared residuals with respect to the intercept. Now let's take the derivative of the sum of the squared residuals with respect to the slope. Just like before, we take the derivative of each part and, just like before, we'll use the chain rule to move…"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_1123",
+    "t_start": 1123.0,
+    "t_end": 1213.9,
+    "type": "overview",
+    "summary": "And this is the derivative of the first part. So we plug it in. Likewise, we replace these terms with their derivatives. Again, 2.3 and 2.9 are in bold to remind us that they are the weights of the second and third samples. Here's the derivative of the sum of the squared residuals with respect to the intercept, and here's the derivative with respect to the slope. Note: when you have two or more derivatives of the same function they are called a gradient. We will use this gradient to descend to the lowest point in the loss function, which, in this case, is the sum of the squared residuals. T…"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_1219",
+    "t_start": 1219.1,
+    "t_end": 1311.8,
+    "type": "overview",
+    "summary": "Note: The larger learning rate that we used in the first example doesn't work this time. Even after a bunch of steps, Gradient Descent doesn't arrive at the correct answer. This means that Gradient Descent can be very sensitive to the learning rate. The good news is that, in practice, a reasonable learning rate can be determined automatically by starting large and getting smaller with each step. So, in theory, you shouldn't have to worry too much about the learning rate. Anyway, we do the math and get two step sizes. Now we calculate the new intercept and new slope by plugging in the old in…"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_1313",
+    "t_start": 1313.2,
+    "t_end": 1404.0,
+    "type": "overview",
+    "summary": "Triple bam! Note: the sum of the squared residuals is just one type of Loss Function. However, there are tons of other loss functions that work with other types of data. Regardless of which Loss Function you use, Gradient Descent works the same way. Step 1: take the derivative of the loss function for each parameter in it. In fancy machine learning lingo, take the gradient of the loss function. Step 2: pick random values for the parameters. Step 3: plug the parameter values into the derivatives (ahem, the gradient). Step 4: calculate the step sizes. Step 5: calculate the new parameters. Now…"
+  },
+  {
+    "id": "ku_video_sDv4f4s2SB8_1404",
+    "t_start": 1404.1,
+    "t_end": 1431.6,
+    "type": "overview",
+    "summary": "Stochastic Gradient Descent sounds fancy, but it's no big deal. Hooray! We've made it to the end of another exciting StatQuest. If you like this StatQuest and want to see more, please subscribe. And if you want to support StatQuest, well, consider buying one or two of my original songs, or buying a StatQuest t-shirt or hoodie. The links are in the description below. Alright, until next time. Quest on!"
+  }
+]

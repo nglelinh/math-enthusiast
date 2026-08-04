@@ -1,0 +1,2462 @@
+[
+  {
+    "t_start": 0.06,
+    "t_end": 3.63,
+    "text": "- This is the most dangerous problem in mathematics,"
+  },
+  {
+    "t_start": 3.63,
+    "t_end": 6.06,
+    "text": "one that young mathematicians are warned"
+  },
+  {
+    "t_start": 6.06,
+    "t_end": 8.05,
+    "text": "not to waste their time on."
+  },
+  {
+    "t_start": 8.05,
+    "t_end": 9.52,
+    "text": "It's a simple conjecture"
+  },
+  {
+    "t_start": 9.52,
+    "t_end": 11.7,
+    "text": "that not even the world's best mathematicians"
+  },
+  {
+    "t_start": 11.7,
+    "t_end": 13.33,
+    "text": "have been able to solve."
+  },
+  {
+    "t_start": 13.33,
+    "t_end": 16.167,
+    "text": "Paul Erdos, a famous mathematician, said,"
+  },
+  {
+    "t_start": 16.167,
+    "t_end": 20.107,
+    "text": "\"Mathematics is not yet ripe enough for such questions.\""
+  },
+  {
+    "t_start": 21.16,
+    "t_end": 22.95,
+    "text": "Here's how it works."
+  },
+  {
+    "t_start": 22.95,
+    "t_end": 25.29,
+    "text": "Pick a number, any number."
+  },
+  {
+    "t_start": 25.29,
+    "t_end": 26.23,
+    "text": "Seven?"
+  },
+  {
+    "t_start": 26.23,
+    "t_end": 27.39,
+    "text": "Good choice."
+  },
+  {
+    "t_start": 27.39,
+    "t_end": 29.64,
+    "text": "Okay, we're gonna apply two rules."
+  },
+  {
+    "t_start": 29.64,
+    "t_end": 33.21,
+    "text": "If the number is odd, we multiply by three and add one."
+  },
+  {
+    "t_start": 33.21,
+    "t_end": 37.31,
+    "text": "So three times seven is 21, plus one is 22."
+  },
+  {
+    "t_start": 37.31,
+    "t_end": 40.39,
+    "text": "If the number is even, we divide by two."
+  },
+  {
+    "t_start": 40.39,
+    "t_end": 43.51,
+    "text": "So 22 divided by two is 11."
+  },
+  {
+    "t_start": 43.51,
+    "t_end": 46.22,
+    "text": "Now, we keep applying these two rules."
+  },
+  {
+    "t_start": 46.22,
+    "t_end": 50.75,
+    "text": "11 is odd, so we multiply by 3, 33, and add 1, 34."
+  },
+  {
+    "t_start": 50.75,
+    "t_end": 54.35,
+    "text": "Even, divide by two, 17, odd."
+  },
+  {
+    "t_start": 54.35,
+    "t_end": 58.0,
+    "text": "Multiply by 3, 51, add 1, 52, even."
+  },
+  {
+    "t_start": 58.0,
+    "t_end": 60.86,
+    "text": "Divide by two, 26, still even."
+  },
+  {
+    "t_start": 60.86,
+    "t_end": 63.76,
+    "text": "Divide by two, 13, odd."
+  },
+  {
+    "t_start": 63.76,
+    "t_end": 66.97,
+    "text": "So we multiply by 3, 39, add one, and that's 40,"
+  },
+  {
+    "t_start": 66.97,
+    "t_end": 69.7,
+    "text": "which is even, so we divide by two, 20,"
+  },
+  {
+    "t_start": 69.7,
+    "t_end": 73.87,
+    "text": "divide by two, 10, divide by two, five, odd."
+  },
+  {
+    "t_start": 73.87,
+    "t_end": 77.1,
+    "text": "Multiply by three, 15, add one, 16,"
+  },
+  {
+    "t_start": 77.1,
+    "t_end": 82.1,
+    "text": "divide by two that's eight, and then four, two, and one."
+  },
+  {
+    "t_start": 82.3,
+    "t_end": 85.22,
+    "text": "Now, one is odd, so we multiply by three and add one,"
+  },
+  {
+    "t_start": 85.22,
+    "t_end": 86.51,
+    "text": "which equals four."
+  },
+  {
+    "t_start": 86.51,
+    "t_end": 89.29,
+    "text": "But four goes to two, goes to one,"
+  },
+  {
+    "t_start": 89.29,
+    "t_end": 93.19,
+    "text": "so we're in a loop, and the lowest number is one."
+  },
+  {
+    "t_start": 93.19,
+    "t_end": 95.28,
+    "text": "Now, the conjecture is this:"
+  },
+  {
+    "t_start": 95.28,
+    "t_end": 98.35,
+    "text": "every positive integer, if you apply these rules,"
+  },
+  {
+    "t_start": 98.35,
+    "t_end": 102.77,
+    "text": "will eventually end up in the four, two, one loop."
+  },
+  {
+    "t_start": 102.77,
+    "t_end": 105.29,
+    "text": "This is commonly called the Collatz conjecture"
+  },
+  {
+    "t_start": 105.29,
+    "t_end": 107.47,
+    "text": "after German mathematician, Luther Collatz,"
+  },
+  {
+    "t_start": 107.47,
+    "t_end": 109.93,
+    "text": "who may have come up with it in the 1930s."
+  },
+  {
+    "t_start": 109.93,
+    "t_end": 113.31,
+    "text": "But the problem has many origin stories and many names."
+  },
+  {
+    "t_start": 113.31,
+    "t_end": 115.47,
+    "text": "It's also known as the Ulam conjecture,"
+  },
+  {
+    "t_start": 115.47,
+    "t_end": 117.79,
+    "text": "Kakutani's problem, Thwaites conjecture,"
+  },
+  {
+    "t_start": 117.79,
+    "t_end": 120.27,
+    "text": "Hasse's algorithm, the Syracuse problem,"
+  },
+  {
+    "t_start": 120.27,
+    "t_end": 122.62,
+    "text": "and simply 3N+1."
+  },
+  {
+    "t_start": 122.62,
+    "t_end": 125.55,
+    "text": "Why is 3x+1 so famous?"
+  },
+  {
+    "t_start": 125.55,
+    "t_end": 127.01,
+    "text": "- Among professional mathematicians,"
+  },
+  {
+    "t_start": 127.01,
+    "t_end": 129.43,
+    "text": "maybe it's not famous but infamous,"
+  },
+  {
+    "t_start": 129.43,
+    "t_end": 133.13,
+    "text": "in the sense that if someone actually admits in public"
+  },
+  {
+    "t_start": 133.13,
+    "t_end": 134.15,
+    "text": "that they're working on it,"
+  },
+  {
+    "t_start": 134.15,
+    "t_end": 135.564,
+    "text": "then there's something wrong with them."
+  },
+  {
+    "t_start": 135.564,
+    "t_end": 137.33,
+    "text": "(laughs)"
+  },
+  {
+    "t_start": 137.33,
+    "t_end": 140.01,
+    "text": "- [Narrator] The numbers you get by applying 3x+1"
+  },
+  {
+    "t_start": 140.01,
+    "t_end": 142.25,
+    "text": "are called hailstone numbers,"
+  },
+  {
+    "t_start": 142.25,
+    "t_end": 143.985,
+    "text": "because they go up and down"
+  },
+  {
+    "t_start": 143.985,
+    "t_end": 146.6,
+    "text": "like hailstones in a thundercloud,"
+  },
+  {
+    "t_start": 146.6,
+    "t_end": 150.06,
+    "text": "but eventually, they all fall down to one,"
+  },
+  {
+    "t_start": 150.06,
+    "t_end": 152.73,
+    "text": "or at least we think they do."
+  },
+  {
+    "t_start": 152.73,
+    "t_end": 153.9,
+    "text": "You can think of the numbers"
+  },
+  {
+    "t_start": 153.9,
+    "t_end": 156.88,
+    "text": "as representing the height above the ground in meters."
+  },
+  {
+    "t_start": 156.88,
+    "t_end": 160.85,
+    "text": "So a number like 26 would start 26 meters above the ground."
+  },
+  {
+    "t_start": 160.85,
+    "t_end": 162.62,
+    "text": "And if you apply 3x+1,"
+  },
+  {
+    "t_start": 162.62,
+    "t_end": 165.03,
+    "text": "it rises up as high as 40 meters."
+  },
+  {
+    "t_start": 165.03,
+    "t_end": 168.31,
+    "text": "And, in total, it takes 10 steps to get to one."
+  },
+  {
+    "t_start": 168.31,
+    "t_end": 171.67,
+    "text": "So 10 is called its total stopping time."
+  },
+  {
+    "t_start": 171.67,
+    "t_end": 174.33,
+    "text": "But take the very next number, 27,"
+  },
+  {
+    "t_start": 174.33,
+    "t_end": 177.61,
+    "text": "and it bounces around all over the place."
+  },
+  {
+    "t_start": 177.61,
+    "t_end": 181.327,
+    "text": "In fact, it climbs all the way up to 9,232."
+  },
+  {
+    "t_start": 183.37,
+    "t_end": 187.43,
+    "text": "As an altitude, that is higher than Mount Everest,"
+  },
+  {
+    "t_start": 187.43,
+    "t_end": 191.42,
+    "text": "before it too falls back to the ground."
+  },
+  {
+    "t_start": 191.42,
+    "t_end": 196.42,
+    "text": "In total, it takes 111 steps for 27 to get down to one"
+  },
+  {
+    "t_start": 196.48,
+    "t_end": 199.66,
+    "text": "and end up in the four, two, one loop."
+  },
+  {
+    "t_start": 199.66,
+    "t_end": 202.83,
+    "text": "The paths that different numbers take vary so widely,"
+  },
+  {
+    "t_start": 202.83,
+    "t_end": 205.12,
+    "text": "even numbers right next to each other."
+  },
+  {
+    "t_start": 205.12,
+    "t_end": 209.14,
+    "text": "So how do you even start to make progress on this problem?"
+  },
+  {
+    "t_start": 209.14,
+    "t_end": 211.45,
+    "text": "Well, honestly, mathematicians struggled."
+  },
+  {
+    "t_start": 211.45,
+    "t_end": 212.55,
+    "text": "- People just decided"
+  },
+  {
+    "t_start": 212.55,
+    "t_end": 214.33,
+    "text": "that this was something invented by the Soviets"
+  },
+  {
+    "t_start": 214.33,
+    "t_end": 217.6,
+    "text": "to slow down U.S. science,"
+  },
+  {
+    "t_start": 217.6,
+    "t_end": 219.23,
+    "text": "and it was doing a good job at it"
+  },
+  {
+    "t_start": 219.23,
+    "t_end": 221.22,
+    "text": "'cause everybody's sitting there twiddling their thumbs"
+  },
+  {
+    "t_start": 221.22,
+    "t_end": 224.17,
+    "text": "and making no progress on this trivial thing"
+  },
+  {
+    "t_start": 224.17,
+    "t_end": 226.08,
+    "text": "that you can tell a school of children."
+  },
+  {
+    "t_start": 226.08,
+    "t_end": 227.21,
+    "text": "- [Narrator] Jeffrey Lagarias"
+  },
+  {
+    "t_start": 227.21,
+    "t_end": 229.81,
+    "text": "is the world authority on 3x+1."
+  },
+  {
+    "t_start": 229.81,
+    "t_end": 233.44,
+    "text": "- The first time I met him I was a senior in college,"
+  },
+  {
+    "t_start": 233.44,
+    "t_end": 237.69,
+    "text": "and he pulled me aside and he said, \"Don't do this."
+  },
+  {
+    "t_start": 237.69,
+    "t_end": 238.78,
+    "text": "Don't work on this problem."
+  },
+  {
+    "t_start": 238.78,
+    "t_end": 240.94,
+    "text": "If you want to have a career,"
+  },
+  {
+    "t_start": 240.94,
+    "t_end": 244.98,
+    "text": "do not start spending time writing about this"
+  },
+  {
+    "t_start": 244.98,
+    "t_end": 247.23,
+    "text": "or publishing any papers about this."
+  },
+  {
+    "t_start": 247.23,
+    "t_end": 250.37,
+    "text": "Do real math for a while to establish yourself.\""
+  },
+  {
+    "t_start": 250.37,
+    "t_end": 252.65,
+    "text": "- [Narrator] Alex Kontorovich didn't listen."
+  },
+  {
+    "t_start": 252.65,
+    "t_end": 254.34,
+    "text": "He and Yakov Sinai"
+  },
+  {
+    "t_start": 254.34,
+    "t_end": 256.89,
+    "text": "looked at the paths of the hailstone numbers."
+  },
+  {
+    "t_start": 256.89,
+    "t_end": 258.34,
+    "text": "Were there any patterns?"
+  },
+  {
+    "t_start": 258.34,
+    "t_end": 260.42,
+    "text": "But obviously all of them ended up at one."
+  },
+  {
+    "t_start": 260.42,
+    "t_end": 263.74,
+    "text": "But what about the paths they take to get there?"
+  },
+  {
+    "t_start": 263.74,
+    "t_end": 266.61,
+    "text": "The pattern is randomness."
+  },
+  {
+    "t_start": 266.61,
+    "t_end": 270.01,
+    "text": "Here is the sequence of a large number chosen at random."
+  },
+  {
+    "t_start": 270.01,
+    "t_end": 272.05,
+    "text": "The graph peaks and then drop so low"
+  },
+  {
+    "t_start": 272.05,
+    "t_end": 274.72,
+    "text": "that you can't really see what's happening at this scale."
+  },
+  {
+    "t_start": 274.72,
+    "t_end": 276.32,
+    "text": "But if you take the logarithm,"
+  },
+  {
+    "t_start": 276.32,
+    "t_end": 280.02,
+    "text": "you find this wiggly graph with a downward trend."
+  },
+  {
+    "t_start": 280.02,
+    "t_end": 282.95,
+    "text": "It looks like the stock market on a bad day."
+  },
+  {
+    "t_start": 282.95,
+    "t_end": 285.01,
+    "text": "And this is no coincidence."
+  },
+  {
+    "t_start": 285.01,
+    "t_end": 288.56,
+    "text": "Both are examples of geometric Brownian motion."
+  },
+  {
+    "t_start": 288.56,
+    "t_end": 291.87,
+    "text": "That means if you take the log and remove the linear trend,"
+  },
+  {
+    "t_start": 291.87,
+    "t_end": 293.91,
+    "text": "the fluctuations are random."
+  },
+  {
+    "t_start": 293.91,
+    "t_end": 295.71,
+    "text": "It's like flipping a coin each step."
+  },
+  {
+    "t_start": 295.71,
+    "t_end": 298.03,
+    "text": "If the coin is heads, the line goes up,"
+  },
+  {
+    "t_start": 298.03,
+    "t_end": 300.07,
+    "text": "tails, it goes down."
+  },
+  {
+    "t_start": 300.07,
+    "t_end": 303.91,
+    "text": "3x+1 is just like the random wiggles of the stock market."
+  },
+  {
+    "t_start": 303.91,
+    "t_end": 305.06,
+    "text": "Over long-enough periods,"
+  },
+  {
+    "t_start": 305.06,
+    "t_end": 307.32,
+    "text": "the stock market tends to trend upwards,"
+  },
+  {
+    "t_start": 307.32,
+    "t_end": 309.883,
+    "text": "while 3x+1 trends down."
+  },
+  {
+    "t_start": 310.74,
+    "t_end": 312.47,
+    "text": "Another way to analyze 3x+1"
+  },
+  {
+    "t_start": 312.47,
+    "t_end": 315.09,
+    "text": "is by looking at the leading digit of each number"
+  },
+  {
+    "t_start": 315.09,
+    "t_end": 316.37,
+    "text": "in a sequence."
+  },
+  {
+    "t_start": 316.37,
+    "t_end": 319.02,
+    "text": "Here are the hailstone numbers starting with three"
+  },
+  {
+    "t_start": 319.02,
+    "t_end": 320.41,
+    "text": "as the seed."
+  },
+  {
+    "t_start": 320.41,
+    "t_end": 322.72,
+    "text": "And we can count up how many numbers start with a one,"
+  },
+  {
+    "t_start": 322.72,
+    "t_end": 324.27,
+    "text": "how many start with a two,"
+  },
+  {
+    "t_start": 324.27,
+    "t_end": 328.06,
+    "text": "how many start with a three, and so on to make a histogram."
+  },
+  {
+    "t_start": 328.06,
+    "t_end": 329.89,
+    "text": "We can do the same thing for the sequence"
+  },
+  {
+    "t_start": 329.89,
+    "t_end": 332.99,
+    "text": "that starts with four, and that's a short one,"
+  },
+  {
+    "t_start": 332.99,
+    "t_end": 337.99,
+    "text": "and for the sequences that start with five, six, and seven."
+  },
+  {
+    "t_start": 338.19,
+    "t_end": 339.97,
+    "text": "Again, for each sequence,"
+  },
+  {
+    "t_start": 339.97,
+    "t_end": 341.62,
+    "text": "we're just counting up how many numbers"
+  },
+  {
+    "t_start": 341.62,
+    "t_end": 343.86,
+    "text": "start with each digit, one through nine,"
+  },
+  {
+    "t_start": 343.86,
+    "t_end": 346.78,
+    "text": "and adding that to our histogram."
+  },
+  {
+    "t_start": 346.78,
+    "t_end": 349.64,
+    "text": "If you keep doing this for more and more numbers,"
+  },
+  {
+    "t_start": 349.64,
+    "t_end": 353.69,
+    "text": "eventually the histogram settles into a stable pattern."
+  },
+  {
+    "t_start": 353.69,
+    "t_end": 356.07,
+    "text": "For the first billion sequences,"
+  },
+  {
+    "t_start": 356.07,
+    "t_end": 360.7,
+    "text": "you'll find one is by far the most common leading digit."
+  },
+  {
+    "t_start": 360.7,
+    "t_end": 364.2,
+    "text": "30% of all numbers start with one,"
+  },
+  {
+    "t_start": 364.2,
+    "t_end": 369.03,
+    "text": "around 17.5% start with two, 12% start with three,"
+  },
+  {
+    "t_start": 369.03,
+    "t_end": 371.71,
+    "text": "and the frequency decreases for higher digits."
+  },
+  {
+    "t_start": 371.71,
+    "t_end": 375.67,
+    "text": "Fewer than 5% of all the numbers start with nine."
+  },
+  {
+    "t_start": 375.67,
+    "t_end": 379.25,
+    "text": "Now, this pattern is not unique to 3x+1."
+  },
+  {
+    "t_start": 379.25,
+    "t_end": 381.67,
+    "text": "It actually comes up everywhere,"
+  },
+  {
+    "t_start": 381.67,
+    "t_end": 383.63,
+    "text": "from the populations of countries,"
+  },
+  {
+    "t_start": 383.63,
+    "t_end": 385.33,
+    "text": "to the value of companies,"
+  },
+  {
+    "t_start": 385.33,
+    "t_end": 388.3,
+    "text": "all the physical constants and the Fibonacci numbers,"
+  },
+  {
+    "t_start": 388.3,
+    "t_end": 390.07,
+    "text": "just to name a few."
+  },
+  {
+    "t_start": 390.07,
+    "t_end": 394.2,
+    "text": "The distribution is known as Benford's law,"
+  },
+  {
+    "t_start": 394.2,
+    "t_end": 396.98,
+    "text": "and it is even used to detect fraud."
+  },
+  {
+    "t_start": 396.98,
+    "t_end": 398.75,
+    "text": "If all the numbers on your income tax forms"
+  },
+  {
+    "t_start": 398.75,
+    "t_end": 399.77,
+    "text": "obey Benford's law,"
+  },
+  {
+    "t_start": 399.77,
+    "t_end": 402.03,
+    "text": "then, well, you're probably being honest."
+  },
+  {
+    "t_start": 402.03,
+    "t_end": 404.72,
+    "text": "If not, you may be hiding something."
+  },
+  {
+    "t_start": 404.72,
+    "t_end": 406.4,
+    "text": "In elections, Benford's law can be used"
+  },
+  {
+    "t_start": 406.4,
+    "t_end": 408.07,
+    "text": "to spot irregularities,"
+  },
+  {
+    "t_start": 408.07,
+    "t_end": 410.42,
+    "text": "though you have to apply it correctly."
+  },
+  {
+    "t_start": 410.42,
+    "t_end": 413.03,
+    "text": "Benford's law works best when the numbers involved"
+  },
+  {
+    "t_start": 413.03,
+    "t_end": 415.2,
+    "text": "span several orders of magnitude"
+  },
+  {
+    "t_start": 415.2,
+    "t_end": 417.82,
+    "text": "as they do for 3x+1."
+  },
+  {
+    "t_start": 417.82,
+    "t_end": 419.99,
+    "text": "But Benford's law can't tell us"
+  },
+  {
+    "t_start": 419.99,
+    "t_end": 421.71,
+    "text": "whether all numbers will end up"
+  },
+  {
+    "t_start": 421.71,
+    "t_end": 424.8,
+    "text": "in the four, two, one loop or not."
+  },
+  {
+    "t_start": 424.8,
+    "t_end": 427.97,
+    "text": "For that, we need a different sort of analysis."
+  },
+  {
+    "t_start": 427.97,
+    "t_end": 428.82,
+    "text": "Now, at first glance,"
+  },
+  {
+    "t_start": 428.82,
+    "t_end": 431.66,
+    "text": "it seems strange that when you apply 3x+1,"
+  },
+  {
+    "t_start": 431.66,
+    "t_end": 433.93,
+    "text": "all numbers should end up at one."
+  },
+  {
+    "t_start": 433.93,
+    "t_end": 436.57,
+    "text": "I mean, consider that there are the same number"
+  },
+  {
+    "t_start": 436.57,
+    "t_end": 438.81,
+    "text": "of odd and even numbers,"
+  },
+  {
+    "t_start": 438.81,
+    "t_end": 441.33,
+    "text": "but odd numbers are more than tripled,"
+  },
+  {
+    "t_start": 441.33,
+    "t_end": 444.4,
+    "text": "while even numbers are only cut in half."
+  },
+  {
+    "t_start": 444.4,
+    "t_end": 447.0,
+    "text": "Therefore, it seems like every sequence on average"
+  },
+  {
+    "t_start": 447.0,
+    "t_end": 449.4,
+    "text": "should grow, not shrink."
+  },
+  {
+    "t_start": 449.4,
+    "t_end": 450.67,
+    "text": "But here's the catch."
+  },
+  {
+    "t_start": 450.67,
+    "t_end": 452.76,
+    "text": "Every time you multiply an odd number by three"
+  },
+  {
+    "t_start": 452.76,
+    "t_end": 456.76,
+    "text": "and then add one, it will always become an even number,"
+  },
+  {
+    "t_start": 456.76,
+    "t_end": 460.0,
+    "text": "and that means the next step is to divide by two."
+  },
+  {
+    "t_start": 460.0,
+    "t_end": 463.55,
+    "text": "So odd numbers are not actually tripled by 3x+1."
+  },
+  {
+    "t_start": 463.55,
+    "t_end": 466.69,
+    "text": "They're increased by a factor of about three over two."
+  },
+  {
+    "t_start": 466.69,
+    "t_end": 467.96,
+    "text": "I'm neglecting the plus one"
+  },
+  {
+    "t_start": 467.96,
+    "t_end": 471.17,
+    "text": "because it's insignificant for large numbers."
+  },
+  {
+    "t_start": 471.17,
+    "t_end": 473.82,
+    "text": "And 3/2 is actually the most"
+  },
+  {
+    "t_start": 473.82,
+    "t_end": 477.16,
+    "text": "an odd number can grow in one step."
+  },
+  {
+    "t_start": 477.16,
+    "t_end": 479.69,
+    "text": "Think of the path from one odd number in a sequence"
+  },
+  {
+    "t_start": 479.69,
+    "t_end": 481.43,
+    "text": "to the next odd number."
+  },
+  {
+    "t_start": 481.43,
+    "t_end": 483.42,
+    "text": "After multiplying by three and adding one,"
+  },
+  {
+    "t_start": 483.42,
+    "t_end": 485.29,
+    "text": "you have an even number."
+  },
+  {
+    "t_start": 485.29,
+    "t_end": 486.76,
+    "text": "And 50% of the time,"
+  },
+  {
+    "t_start": 486.76,
+    "t_end": 490.22,
+    "text": "dividing by two brings you back to an odd number."
+  },
+  {
+    "t_start": 490.22,
+    "t_end": 492.89,
+    "text": "But a quarter of the time, you can divide by four"
+  },
+  {
+    "t_start": 492.89,
+    "t_end": 494.64,
+    "text": "before you get to the next odd number."
+  },
+  {
+    "t_start": 494.64,
+    "t_end": 496.54,
+    "text": "So, for a quarter of numbers,"
+  },
+  {
+    "t_start": 496.54,
+    "t_end": 498.0,
+    "text": "the next one in the sequence"
+  },
+  {
+    "t_start": 498.0,
+    "t_end": 501.21,
+    "text": "will be 3/4 of its initial value."
+  },
+  {
+    "t_start": 501.21,
+    "t_end": 503.39,
+    "text": "An 1/8 the time, you can divide by eight"
+  },
+  {
+    "t_start": 503.39,
+    "t_end": 505.14,
+    "text": "before getting to the next odd number,"
+  },
+  {
+    "t_start": 505.14,
+    "t_end": 509.27,
+    "text": "and 1/16 of the time, you can divide by 16 and so on."
+  },
+  {
+    "t_start": 509.27,
+    "t_end": 511.42,
+    "text": "If you take the geometric mean,"
+  },
+  {
+    "t_start": 511.42,
+    "t_end": 514.64,
+    "text": "you find, on average, to get from one odd number"
+  },
+  {
+    "t_start": 514.64,
+    "t_end": 518.1,
+    "text": "to the next one, you multiply by three over four,"
+  },
+  {
+    "t_start": 518.1,
+    "t_end": 519.92,
+    "text": "which is less than one."
+  },
+  {
+    "t_start": 519.92,
+    "t_end": 521.61,
+    "text": "So statistically speaking,"
+  },
+  {
+    "t_start": 521.61,
+    "t_end": 525.92,
+    "text": "3x+1 sequences are more likely to shrink than grow."
+  },
+  {
+    "t_start": 525.92,
+    "t_end": 528.35,
+    "text": "Take 341 for example,"
+  },
+  {
+    "t_start": 528.35,
+    "t_end": 532.25,
+    "text": "multiply by three and add one, you get 1,024,"
+  },
+  {
+    "t_start": 532.25,
+    "t_end": 534.34,
+    "text": "which you can divide by two"
+  },
+  {
+    "t_start": 534.34,
+    "t_end": 536.9,
+    "text": "and then divide by two again, and again,"
+  },
+  {
+    "t_start": 536.9,
+    "t_end": 538.42,
+    "text": "and again, and again,"
+  },
+  {
+    "t_start": 538.42,
+    "t_end": 541.743,
+    "text": "10 times in total until you're down to one."
+  },
+  {
+    "t_start": 542.62,
+    "t_end": 546.06,
+    "text": "One way to visualize these paths of numbers in 3x+1"
+  },
+  {
+    "t_start": 546.06,
+    "t_end": 547.93,
+    "text": "is simply to show how each number"
+  },
+  {
+    "t_start": 547.93,
+    "t_end": 550.36,
+    "text": "connects to the next one in its sequence."
+  },
+  {
+    "t_start": 550.36,
+    "t_end": 553.15,
+    "text": "This is called a directed graph."
+  },
+  {
+    "t_start": 553.15,
+    "t_end": 556.43,
+    "text": "It looks like a tree or a series of little streams"
+  },
+  {
+    "t_start": 556.43,
+    "t_end": 558.17,
+    "text": "that flow into each other."
+  },
+  {
+    "t_start": 558.17,
+    "t_end": 559.74,
+    "text": "If the conjecture is true,"
+  },
+  {
+    "t_start": 559.74,
+    "t_end": 562.24,
+    "text": "it means that every single number"
+  },
+  {
+    "t_start": 562.24,
+    "t_end": 564.15,
+    "text": "is connected to this graph."
+  },
+  {
+    "t_start": 564.15,
+    "t_end": 567.54,
+    "text": "Every tiny stream all the way out to infinity"
+  },
+  {
+    "t_start": 567.54,
+    "t_end": 572.54,
+    "text": "eventually flows into the massive river of four, two, one."
+  },
+  {
+    "t_start": 574.0,
+    "t_end": 576.9,
+    "text": "Some mathematicians have modified this visualization"
+  },
+  {
+    "t_start": 576.9,
+    "t_end": 579.56,
+    "text": "by rotating the graph at each number;"
+  },
+  {
+    "t_start": 579.56,
+    "t_end": 581.4,
+    "text": "anticlockwise if it's an odd number,"
+  },
+  {
+    "t_start": 581.4,
+    "t_end": 583.81,
+    "text": "and clockwise if it's even."
+  },
+  {
+    "t_start": 583.81,
+    "t_end": 586.11,
+    "text": "And then you end up with a structure"
+  },
+  {
+    "t_start": 586.11,
+    "t_end": 589.86,
+    "text": "that looks like a coral or seaweed."
+  },
+  {
+    "t_start": 589.86,
+    "t_end": 591.93,
+    "text": "And by adjusting the degree of rotation"
+  },
+  {
+    "t_start": 591.93,
+    "t_end": 593.46,
+    "text": "for odd and even numbers,"
+  },
+  {
+    "t_start": 593.46,
+    "t_end": 597.543,
+    "text": "you can create these beautiful, organic-looking shapes."
+  },
+  {
+    "t_start": 598.9,
+    "t_end": 601.89,
+    "text": "Now, there are two ways the conjecture could be false."
+  },
+  {
+    "t_start": 601.89,
+    "t_end": 604.32,
+    "text": "There could be a number somewhere, some seed,"
+  },
+  {
+    "t_start": 604.32,
+    "t_end": 606.26,
+    "text": "that starts a sequence of numbers"
+  },
+  {
+    "t_start": 606.26,
+    "t_end": 608.85,
+    "text": "that grows to infinity."
+  },
+  {
+    "t_start": 608.85,
+    "t_end": 610.26,
+    "text": "For whatever reason,"
+  },
+  {
+    "t_start": 610.26,
+    "t_end": 612.96,
+    "text": "it doesn't obey the same numerical gravity"
+  },
+  {
+    "t_start": 612.96,
+    "t_end": 614.71,
+    "text": "as all of the other numbers."
+  },
+  {
+    "t_start": 614.71,
+    "t_end": 618.05,
+    "text": "Another possibility is there exists a sequence of numbers"
+  },
+  {
+    "t_start": 618.05,
+    "t_end": 620.53,
+    "text": "that forms a closed loop."
+  },
+  {
+    "t_start": 620.53,
+    "t_end": 622.0,
+    "text": "All the numbers in this loop"
+  },
+  {
+    "t_start": 622.0,
+    "t_end": 625.23,
+    "text": "would be unconnected to the main graph."
+  },
+  {
+    "t_start": 625.23,
+    "t_end": 626.91,
+    "text": "But thus far, no loop"
+  },
+  {
+    "t_start": 626.91,
+    "t_end": 630.53,
+    "text": "or sequence that shoots off to infinity has been found."
+  },
+  {
+    "t_start": 630.53,
+    "t_end": 631.95,
+    "text": "And not for lack of trying,"
+  },
+  {
+    "t_start": 631.95,
+    "t_end": 634.57,
+    "text": "mathematicians have tested by brute force"
+  },
+  {
+    "t_start": 634.57,
+    "t_end": 637.16,
+    "text": "every single number up to two to the 68."
+  },
+  {
+    "t_start": 637.16,
+    "t_end": 642.16,
+    "text": "That's 295,147,905,179,352,825,856 numbers."
+  },
+  {
+    "t_start": 649.06,
+    "t_end": 652.65,
+    "text": "We know, for certain, that every single one of those numbers"
+  },
+  {
+    "t_start": 652.65,
+    "t_end": 655.31,
+    "text": "eventually comes back down to one."
+  },
+  {
+    "t_start": 655.31,
+    "t_end": 658.64,
+    "text": "We have tested nearly 300 quintillion numbers,"
+  },
+  {
+    "t_start": 658.64,
+    "t_end": 661.56,
+    "text": "and none of them disproves the conjecture."
+  },
+  {
+    "t_start": 661.56,
+    "t_end": 663.46,
+    "text": "In fact, given this information,"
+  },
+  {
+    "t_start": 663.46,
+    "t_end": 665.53,
+    "text": "mathematicians calculate that any loop"
+  },
+  {
+    "t_start": 665.53,
+    "t_end": 666.94,
+    "text": "other than four, two, one"
+  },
+  {
+    "t_start": 666.94,
+    "t_end": 671.53,
+    "text": "must be at least 186 billion numbers long."
+  },
+  {
+    "t_start": 671.53,
+    "t_end": 674.81,
+    "text": "So, it seems pretty likely that the conjecture is true,"
+  },
+  {
+    "t_start": 674.81,
+    "t_end": 676.95,
+    "text": "but this doesn't prove it."
+  },
+  {
+    "t_start": 676.95,
+    "t_end": 679.48,
+    "text": "One way mathematicians have attempted to prove it"
+  },
+  {
+    "t_start": 679.48,
+    "t_end": 681.72,
+    "text": "is by making a scatterplot"
+  },
+  {
+    "t_start": 681.72,
+    "t_end": 683.91,
+    "text": "with all the seed numbers on the x-axis"
+  },
+  {
+    "t_start": 683.91,
+    "t_end": 687.1,
+    "text": "and a number from each seeds sequence on the y-axis."
+  },
+  {
+    "t_start": 687.1,
+    "t_end": 690.89,
+    "text": "Now, if you can show that in every 3x+1 sequence"
+  },
+  {
+    "t_start": 690.89,
+    "t_end": 694.2,
+    "text": "there is a number that is smaller than the original seed,"
+  },
+  {
+    "t_start": 694.2,
+    "t_end": 696.95,
+    "text": "well then you have proven the Collatz conjecture,"
+  },
+  {
+    "t_start": 696.95,
+    "t_end": 698.71,
+    "text": "because whatever number you pick,"
+  },
+  {
+    "t_start": 698.71,
+    "t_end": 701.29,
+    "text": "you know it will at some point get smaller,"
+  },
+  {
+    "t_start": 701.29,
+    "t_end": 704.6,
+    "text": "and that smaller number as a seed also gets smaller,"
+  },
+  {
+    "t_start": 704.6,
+    "t_end": 706.83,
+    "text": "and so on down to one,"
+  },
+  {
+    "t_start": 706.83,
+    "t_end": 709.7,
+    "text": "meaning the only way any sequence can end"
+  },
+  {
+    "t_start": 709.7,
+    "t_end": 713.04,
+    "text": "is in the four, two, one loop."
+  },
+  {
+    "t_start": 713.04,
+    "t_end": 716.12,
+    "text": "This has not yet been shown."
+  },
+  {
+    "t_start": 716.12,
+    "t_end": 720.2,
+    "text": "But, in 1976, Riho Terras was able to show"
+  },
+  {
+    "t_start": 720.2,
+    "t_end": 722.92,
+    "text": "that almost all Collatz sequences"
+  },
+  {
+    "t_start": 722.92,
+    "t_end": 725.54,
+    "text": "reach a point below their initial value."
+  },
+  {
+    "t_start": 725.54,
+    "t_end": 727.89,
+    "text": "In 1979, this limit was reduced"
+  },
+  {
+    "t_start": 727.89,
+    "t_end": 729.15,
+    "text": "with almost all numbers"
+  },
+  {
+    "t_start": 729.15,
+    "t_end": 732.37,
+    "text": "going to less than X to the power of 0.869."
+  },
+  {
+    "t_start": 732.37,
+    "t_end": 734.08,
+    "text": "And then in 1994,"
+  },
+  {
+    "t_start": 734.08,
+    "t_end": 735.26,
+    "text": "it was further lowered"
+  },
+  {
+    "t_start": 735.26,
+    "t_end": 739.42,
+    "text": "to less than X to the power of 0.7925."
+  },
+  {
+    "t_start": 739.42,
+    "t_end": 741.95,
+    "text": "In this case, the term almost all numbers"
+  },
+  {
+    "t_start": 741.95,
+    "t_end": 744.72,
+    "text": "has a technical mathematical definition."
+  },
+  {
+    "t_start": 744.72,
+    "t_end": 746.97,
+    "text": "It means that as the numbers you're looking at"
+  },
+  {
+    "t_start": 746.97,
+    "t_end": 748.77,
+    "text": "go to infinity,"
+  },
+  {
+    "t_start": 748.77,
+    "t_end": 752.533,
+    "text": "the fraction that end up under the curve goes to one."
+  },
+  {
+    "t_start": 753.76,
+    "t_end": 755.18,
+    "text": "Then in 2019,"
+  },
+  {
+    "t_start": 755.18,
+    "t_end": 757.26,
+    "text": "one of the world's greatest living mathematicians,"
+  },
+  {
+    "t_start": 757.26,
+    "t_end": 760.81,
+    "text": "Terry Tao, was able to show 3x+1 obeys"
+  },
+  {
+    "t_start": 760.81,
+    "t_end": 763.3,
+    "text": "even stricter criteria."
+  },
+  {
+    "t_start": 763.3,
+    "t_end": 766.9,
+    "text": "He showed almost all numbers will end up smaller"
+  },
+  {
+    "t_start": 766.9,
+    "t_end": 769.81,
+    "text": "than any arbitrary function f of x"
+  },
+  {
+    "t_start": 769.81,
+    "t_end": 772.13,
+    "text": "so long as that function goes to infinity"
+  },
+  {
+    "t_start": 772.13,
+    "t_end": 774.22,
+    "text": "as x goes to infinity."
+  },
+  {
+    "t_start": 774.22,
+    "t_end": 777.5,
+    "text": "But the function can rise as slowly as you like."
+  },
+  {
+    "t_start": 777.5,
+    "t_end": 782.5,
+    "text": "So, log x is an example, or log, log, log x works too,"
+  },
+  {
+    "t_start": 782.53,
+    "t_end": 784.96,
+    "text": "or log, log, log, log x."
+  },
+  {
+    "t_start": 784.96,
+    "t_end": 787.54,
+    "text": "What this means is, for almost all numbers,"
+  },
+  {
+    "t_start": 787.54,
+    "t_end": 791.66,
+    "text": "you can guarantee that there is an arbitrarily small number"
+  },
+  {
+    "t_start": 791.66,
+    "t_end": 793.99,
+    "text": "somewhere in its sequence."
+  },
+  {
+    "t_start": 793.99,
+    "t_end": 796.867,
+    "text": "In a public talk he gave in 2020, Terry Tao said,"
+  },
+  {
+    "t_start": 796.867,
+    "t_end": 798.81,
+    "text": "\"This is about as close as one can get"
+  },
+  {
+    "t_start": 798.81,
+    "t_end": 802.69,
+    "text": "to the Collatz conjecture without actually solving it.\""
+  },
+  {
+    "t_start": 802.69,
+    "t_end": 807.32,
+    "text": "This is an impressive result, but it's still not a proof."
+  },
+  {
+    "t_start": 807.32,
+    "t_end": 810.44,
+    "text": "So why can't we prove the conjecture true?"
+  },
+  {
+    "t_start": 810.44,
+    "t_end": 813.01,
+    "text": "Could it be because it's not true?"
+  },
+  {
+    "t_start": 813.01,
+    "t_end": 814.9,
+    "text": "I mean, everyone is trying to prove it true,"
+  },
+  {
+    "t_start": 814.9,
+    "t_end": 818.54,
+    "text": "which means almost no one is looking for counterexamples."
+  },
+  {
+    "t_start": 818.54,
+    "t_end": 820.97,
+    "text": "- It had happened to me just two years ago,"
+  },
+  {
+    "t_start": 820.97,
+    "t_end": 822.7,
+    "text": "where there was something I was trying to prove,"
+  },
+  {
+    "t_start": 822.7,
+    "t_end": 825.643,
+    "text": "that I was trying for three years to prove,"
+  },
+  {
+    "t_start": 826.52,
+    "t_end": 828.94,
+    "text": "and I couldn't get it to work."
+  },
+  {
+    "t_start": 828.94,
+    "t_end": 830.37,
+    "text": "And then I found a counterexample,"
+  },
+  {
+    "t_start": 830.37,
+    "t_end": 832.07,
+    "text": "and then I realized what the correct statement"
+  },
+  {
+    "t_start": 832.07,
+    "t_end": 832.903,
+    "text": "should have been."
+  },
+  {
+    "t_start": 832.903,
+    "t_end": 835.28,
+    "text": "And then a month later, I proved the correct statement."
+  },
+  {
+    "t_start": 835.28,
+    "t_end": 837.13,
+    "text": "Maybe we should be spending more energy"
+  },
+  {
+    "t_start": 837.13,
+    "t_end": 839.9,
+    "text": "looking for counterexamples than we're currently spending."
+  },
+  {
+    "t_start": 839.9,
+    "t_end": 841.59,
+    "text": "- [Narrator] I mean, remember how the number 27"
+  },
+  {
+    "t_start": 841.59,
+    "t_end": 845.41,
+    "text": "grows all the way to 9,232?"
+  },
+  {
+    "t_start": 845.41,
+    "t_end": 849.03,
+    "text": "Here is a plot of seed numbers up to 10,000,"
+  },
+  {
+    "t_start": 849.03,
+    "t_end": 851.73,
+    "text": "with the largest number reached for each seed"
+  },
+  {
+    "t_start": 851.73,
+    "t_end": 853.77,
+    "text": "plotted on the y-axis."
+  },
+  {
+    "t_start": 853.77,
+    "t_end": 856.06,
+    "text": "The y-axis stops at a 100,000,"
+  },
+  {
+    "t_start": 856.06,
+    "t_end": 859.21,
+    "text": "but not all numbers can be shown at this scale."
+  },
+  {
+    "t_start": 859.21,
+    "t_end": 864.21,
+    "text": "The seed 9,663, for example, climbs as high as 27 million."
+  },
+  {
+    "t_start": 866.09,
+    "t_end": 867.71,
+    "text": "And as yet, no one has proven"
+  },
+  {
+    "t_start": 867.71,
+    "t_end": 871.32,
+    "text": "why a number couldn't just shoot off to infinity."
+  },
+  {
+    "t_start": 871.32,
+    "t_end": 874.483,
+    "text": "And it would take only one to disprove the conjecture,"
+  },
+  {
+    "t_start": 875.46,
+    "t_end": 878.26,
+    "text": "or some set of numbers could be part of a loop"
+  },
+  {
+    "t_start": 878.26,
+    "t_end": 879.98,
+    "text": "not connected to the main graph."
+  },
+  {
+    "t_start": 879.98,
+    "t_end": 884.29,
+    "text": "As far as we know, there is only one loop: four, two, one."
+  },
+  {
+    "t_start": 884.29,
+    "t_end": 885.96,
+    "text": "But something strange happens"
+  },
+  {
+    "t_start": 885.96,
+    "t_end": 888.41,
+    "text": "if you include negative numbers."
+  },
+  {
+    "t_start": 888.41,
+    "t_end": 891.95,
+    "text": "Applying the same 3x+1 rules as before,"
+  },
+  {
+    "t_start": 891.95,
+    "t_end": 894.8,
+    "text": "there is not one loop, not two loops,"
+  },
+  {
+    "t_start": 894.8,
+    "t_end": 898.15,
+    "text": "but three independent loops of numbers."
+  },
+  {
+    "t_start": 898.15,
+    "t_end": 903.15,
+    "text": "And they start at low values like -17 and -5."
+  },
+  {
+    "t_start": 903.29,
+    "t_end": 905.63,
+    "text": "Why should there be disconnected loops"
+  },
+  {
+    "t_start": 905.63,
+    "t_end": 907.43,
+    "text": "on the negative side of the number line,"
+  },
+  {
+    "t_start": 907.43,
+    "t_end": 910.05,
+    "text": "but not on the positive side?"
+  },
+  {
+    "t_start": 910.05,
+    "t_end": 912.11,
+    "text": "Now, one of the most convincing pieces of evidence"
+  },
+  {
+    "t_start": 912.11,
+    "t_end": 914.36,
+    "text": "supporting the conjecture is Terry Tao's proof"
+  },
+  {
+    "t_start": 914.36,
+    "t_end": 916.91,
+    "text": "that almost all numbers have a number in their sequence"
+  },
+  {
+    "t_start": 916.91,
+    "t_end": 919.15,
+    "text": "that is arbitrarily small."
+  },
+  {
+    "t_start": 919.15,
+    "t_end": 922.87,
+    "text": "But proving that almost all numbers obey this criteria"
+  },
+  {
+    "t_start": 922.87,
+    "t_end": 926.273,
+    "text": "isn't the same thing as proving that all numbers do."
+  },
+  {
+    "t_start": 927.52,
+    "t_end": 931.94,
+    "text": "How many numbers between one and 100 are perfect squares?"
+  },
+  {
+    "t_start": 931.94,
+    "t_end": 933.87,
+    "text": "The answer is 10."
+  },
+  {
+    "t_start": 933.87,
+    "t_end": 937.94,
+    "text": "So, 10% of numbers up to 100 are perfect squares."
+  },
+  {
+    "t_start": 937.94,
+    "t_end": 941.84,
+    "text": "How many numbers between one and 1,000 are perfect squares?"
+  },
+  {
+    "t_start": 941.84,
+    "t_end": 943.93,
+    "text": "The answer is 31."
+  },
+  {
+    "t_start": 943.93,
+    "t_end": 948.53,
+    "text": "So only 3.1% of the numbers up to 1,000 are perfect squares."
+  },
+  {
+    "t_start": 948.53,
+    "t_end": 952.69,
+    "text": "And the higher you go, the smaller this percentage becomes,"
+  },
+  {
+    "t_start": 952.69,
+    "t_end": 954.8,
+    "text": "such that in the limit, you could say"
+  },
+  {
+    "t_start": 954.8,
+    "t_end": 958.12,
+    "text": "almost all numbers are not perfect squares."
+  },
+  {
+    "t_start": 958.12,
+    "t_end": 959.38,
+    "text": "The fraction of numbers"
+  },
+  {
+    "t_start": 959.38,
+    "t_end": 961.54,
+    "text": "that are not perfect squares goes to one"
+  },
+  {
+    "t_start": 961.54,
+    "t_end": 964.08,
+    "text": "as X goes to infinity."
+  },
+  {
+    "t_start": 964.08,
+    "t_end": 965.29,
+    "text": "And yet we know"
+  },
+  {
+    "t_start": 965.29,
+    "t_end": 967.58,
+    "text": "there are an infinite number of perfect squares"
+  },
+  {
+    "t_start": 967.58,
+    "t_end": 969.94,
+    "text": "and we know exactly where they are."
+  },
+  {
+    "t_start": 969.94,
+    "t_end": 971.7,
+    "text": "Now, we've tested by brute force"
+  },
+  {
+    "t_start": 971.7,
+    "t_end": 973.35,
+    "text": "all numbers up to two to the 68,"
+  },
+  {
+    "t_start": 973.35,
+    "t_end": 975.54,
+    "text": "and they all obey the Collatz conjecture."
+  },
+  {
+    "t_start": 975.54,
+    "t_end": 977.67,
+    "text": "And you might be thinking that, well, we should have found"
+  },
+  {
+    "t_start": 977.67,
+    "t_end": 979.87,
+    "text": "a counterexample by this point."
+  },
+  {
+    "t_start": 979.87,
+    "t_end": 983.83,
+    "text": "But on the scale of all numbers, two to the 68 is nothing."
+  },
+  {
+    "t_start": 983.83,
+    "t_end": 986.27,
+    "text": "I mean, the Polya conjecture proposed in 1919"
+  },
+  {
+    "t_start": 986.27,
+    "t_end": 987.53,
+    "text": "by George Polya"
+  },
+  {
+    "t_start": 987.53,
+    "t_end": 990.1,
+    "text": "asserted that the majority of natural numbers"
+  },
+  {
+    "t_start": 990.1,
+    "t_end": 994.36,
+    "text": "up to any given number have an odd number of prime factors."
+  },
+  {
+    "t_start": 994.36,
+    "t_end": 996.49,
+    "text": "The conjecture was eventually proven false"
+  },
+  {
+    "t_start": 996.49,
+    "t_end": 999.13,
+    "text": "by C. Brian Haselgrove in 1958"
+  },
+  {
+    "t_start": 999.13,
+    "t_end": 1001.61,
+    "text": "when he identified a counterexample."
+  },
+  {
+    "t_start": 1001.61,
+    "t_end": 1004.27,
+    "text": "What's remarkable is the value of this counterexample"
+  },
+  {
+    "t_start": 1004.27,
+    "t_end": 1008.01,
+    "text": "was 1.845 times 10 to the 361."
+  },
+  {
+    "t_start": 1008.01,
+    "t_end": 1010.95,
+    "text": "That's some 10 to 340 times bigger"
+  },
+  {
+    "t_start": 1010.95,
+    "t_end": 1014.3,
+    "text": "than all the numbers checked for 3x+1."
+  },
+  {
+    "t_start": 1014.3,
+    "t_end": 1015.9,
+    "text": "One way to think about 3x+1"
+  },
+  {
+    "t_start": 1015.9,
+    "t_end": 1019.73,
+    "text": "is as though it's a simple program run on a turing machine."
+  },
+  {
+    "t_start": 1019.73,
+    "t_end": 1023.22,
+    "text": "The seed number is the input to the machine."
+  },
+  {
+    "t_start": 1023.22,
+    "t_end": 1025.05,
+    "text": "So in this picture, two to the 68"
+  },
+  {
+    "t_start": 1025.05,
+    "t_end": 1028.68,
+    "text": "is simply an input tape 68 squares long."
+  },
+  {
+    "t_start": 1028.68,
+    "t_end": 1031.63,
+    "text": "You can think of them as a string of ones and zeros"
+  },
+  {
+    "t_start": 1031.63,
+    "t_end": 1033.95,
+    "text": "or black and white squares."
+  },
+  {
+    "t_start": 1033.95,
+    "t_end": 1036.49,
+    "text": "Saying the machine has transformed every input"
+  },
+  {
+    "t_start": 1036.49,
+    "t_end": 1039.54,
+    "text": "up to this 68 square taped down to one"
+  },
+  {
+    "t_start": 1039.54,
+    "t_end": 1041.39,
+    "text": "should not give you a lot of confidence"
+  },
+  {
+    "t_start": 1041.39,
+    "t_end": 1044.34,
+    "text": "that it will do so for all inputs."
+  },
+  {
+    "t_start": 1044.34,
+    "t_end": 1045.91,
+    "text": "In fact, it's fairly simple"
+  },
+  {
+    "t_start": 1045.91,
+    "t_end": 1047.49,
+    "text": "to calculate a number that shows"
+  },
+  {
+    "t_start": 1047.49,
+    "t_end": 1050.88,
+    "text": "any arbitrary behavior you like, so long as it is finite."
+  },
+  {
+    "t_start": 1050.88,
+    "t_end": 1053.33,
+    "text": "But if you want a number that increases by three over two"
+  },
+  {
+    "t_start": 1053.33,
+    "t_end": 1056.37,
+    "text": "five consecutive times, you can calculate that number."
+  },
+  {
+    "t_start": 1056.37,
+    "t_end": 1058.27,
+    "text": "If you want a number that climbs by three over two"
+  },
+  {
+    "t_start": 1058.27,
+    "t_end": 1061.98,
+    "text": "10 times in a row, or 100 times or 1,000 times,"
+  },
+  {
+    "t_start": 1061.98,
+    "t_end": 1064.53,
+    "text": "you can easily calculate those numbers."
+  },
+  {
+    "t_start": 1064.53,
+    "t_end": 1066.81,
+    "text": "But after the finite section you specify,"
+  },
+  {
+    "t_start": 1066.81,
+    "t_end": 1068.46,
+    "text": "you have no more control."
+  },
+  {
+    "t_start": 1068.46,
+    "t_end": 1072.69,
+    "text": "And every that has ever been tested, always falls to one."
+  },
+  {
+    "t_start": 1072.69,
+    "t_end": 1074.3,
+    "text": "If there is a counterexample,"
+  },
+  {
+    "t_start": 1074.3,
+    "t_end": 1077.65,
+    "text": "it's virtually impossible that someone's gonna guess it."
+  },
+  {
+    "t_start": 1077.65,
+    "t_end": 1079.47,
+    "text": "And the space of all possibilities"
+  },
+  {
+    "t_start": 1079.47,
+    "t_end": 1082.52,
+    "text": "is too big to search exhaustively by brute force."
+  },
+  {
+    "t_start": 1082.52,
+    "t_end": 1085.18,
+    "text": "- Two to the 1,000 is not a searchable space."
+  },
+  {
+    "t_start": 1085.18,
+    "t_end": 1086.32,
+    "text": "So, if we're gonna find it,"
+  },
+  {
+    "t_start": 1086.32,
+    "t_end": 1089.15,
+    "text": "we have to find it by some intelligent process"
+  },
+  {
+    "t_start": 1089.15,
+    "t_end": 1091.53,
+    "text": "and not by guess and check."
+  },
+  {
+    "t_start": 1091.53,
+    "t_end": 1095.35,
+    "text": "I had been on team 3x+1 for 20 years."
+  },
+  {
+    "t_start": 1095.35,
+    "t_end": 1098.68,
+    "text": "And then this point of view,"
+  },
+  {
+    "t_start": 1098.68,
+    "t_end": 1101.853,
+    "text": "I realized that, what do we really know?"
+  },
+  {
+    "t_start": 1103.4,
+    "t_end": 1105.75,
+    "text": "It's very hard to prove a theorem that's false."
+  },
+  {
+    "t_start": 1107.47,
+    "t_end": 1109.51,
+    "text": "And so, could it be that everyone is struggling"
+  },
+  {
+    "t_start": 1109.51,
+    "t_end": 1112.7,
+    "text": "to prove this thing because it's not actually true?"
+  },
+  {
+    "t_start": 1112.7,
+    "t_end": 1115.92,
+    "text": "And two to the 60 is not a lot of evidence."
+  },
+  {
+    "t_start": 1115.92,
+    "t_end": 1119.45,
+    "text": "And even the statistical version is maybe true"
+  },
+  {
+    "t_start": 1119.45,
+    "t_end": 1122.76,
+    "text": "and not evidence for the non-existence"
+  },
+  {
+    "t_start": 1122.76,
+    "t_end": 1127.76,
+    "text": "of a divergent trajectory somewhere in the 3x+1 sequence."
+  },
+  {
+    "t_start": 1128.06,
+    "t_end": 1130.41,
+    "text": "- Of course there is another option,"
+  },
+  {
+    "t_start": 1130.41,
+    "t_end": 1132.62,
+    "text": "and that is that we'll never know,"
+  },
+  {
+    "t_start": 1132.62,
+    "t_end": 1135.13,
+    "text": "that the problem is undecidable."
+  },
+  {
+    "t_start": 1135.13,
+    "t_end": 1140.13,
+    "text": "In 1987, John Conway created a generalization of 3x+1."
+  },
+  {
+    "t_start": 1140.15,
+    "t_end": 1143.47,
+    "text": "It was a mathematical machine that he called FRACTRAN."
+  },
+  {
+    "t_start": 1143.47,
+    "t_end": 1147.48,
+    "text": "And he was able to show this machine is turing-complete,"
+  },
+  {
+    "t_start": 1147.48,
+    "t_end": 1151.26,
+    "text": "which means it can do anything a modern computer can do,"
+  },
+  {
+    "t_start": 1151.26,
+    "t_end": 1154.44,
+    "text": "but it also means that it's subject to the halting problem,"
+  },
+  {
+    "t_start": 1154.44,
+    "t_end": 1156.81,
+    "text": "a chance that the machine never stops running"
+  },
+  {
+    "t_start": 1156.81,
+    "t_end": 1159.63,
+    "text": "and so doesn't give you an output."
+  },
+  {
+    "t_start": 1159.63,
+    "t_end": 1161.07,
+    "text": "And this does not prove"
+  },
+  {
+    "t_start": 1161.07,
+    "t_end": 1164.27,
+    "text": "that 3x+1 is also subject to the halting problem,"
+  },
+  {
+    "t_start": 1164.27,
+    "t_end": 1166.67,
+    "text": "but it is possible that given what we know,"
+  },
+  {
+    "t_start": 1166.67,
+    "t_end": 1171.01,
+    "text": "we may never prove the Collatz conjecture true or false."
+  },
+  {
+    "t_start": 1171.01,
+    "t_end": 1172.36,
+    "text": "- You're gonna be taught in school"
+  },
+  {
+    "t_start": 1172.36,
+    "t_end": 1175.5,
+    "text": "that we know a bunch of stuff, and it's a lie."
+  },
+  {
+    "t_start": 1175.5,
+    "t_end": 1176.48,
+    "text": "They're all lies."
+  },
+  {
+    "t_start": 1176.48,
+    "t_end": 1178.68,
+    "text": "Here's this stupid little problem."
+  },
+  {
+    "t_start": 1178.68,
+    "t_end": 1181.87,
+    "text": "Come on, really we can't solve this?"
+  },
+  {
+    "t_start": 1181.87,
+    "t_end": 1183.14,
+    "text": "Really?"
+  },
+  {
+    "t_start": 1183.14,
+    "t_end": 1186.87,
+    "text": "You know, it just shows that math is hard."
+  },
+  {
+    "t_start": 1186.87,
+    "t_end": 1188.84,
+    "text": "If anything, it shows that all of the things"
+  },
+  {
+    "t_start": 1188.84,
+    "t_end": 1191.01,
+    "text": "that we can solve are miracles."
+  },
+  {
+    "t_start": 1191.01,
+    "t_end": 1192.98,
+    "text": "We have no right to have solutions"
+  },
+  {
+    "t_start": 1192.98,
+    "t_end": 1194.74,
+    "text": "to all of these other problems."
+  },
+  {
+    "t_start": 1194.74,
+    "t_end": 1196.19,
+    "text": "- For my whole life,"
+  },
+  {
+    "t_start": 1196.19,
+    "t_end": 1199.65,
+    "text": "I've thought of numbers as these incredibly regular things"
+  },
+  {
+    "t_start": 1199.65,
+    "t_end": 1202.78,
+    "text": "full of patterns, symmetry, and repetition."
+  },
+  {
+    "t_start": 1202.78,
+    "t_end": 1204.45,
+    "text": "But what I'm realizing only now"
+  },
+  {
+    "t_start": 1204.45,
+    "t_end": 1207.33,
+    "text": "is just how peculiar numbers really are."
+  },
+  {
+    "t_start": 1207.33,
+    "t_end": 1210.44,
+    "text": "You can see this most clearly in the coral representation."
+  },
+  {
+    "t_start": 1210.44,
+    "t_end": 1212.74,
+    "text": "From a simple mathematical operation"
+  },
+  {
+    "t_start": 1212.74,
+    "t_end": 1215.76,
+    "text": "comes something intricate, organic-looking,"
+  },
+  {
+    "t_start": 1215.76,
+    "t_end": 1219.03,
+    "text": "and, thus far, intractable to us."
+  },
+  {
+    "t_start": 1219.03,
+    "t_end": 1221.52,
+    "text": "Do all numbers connect to the structure,"
+  },
+  {
+    "t_start": 1221.52,
+    "t_end": 1225.26,
+    "text": "or is there some unique filament, a spindly little thread,"
+  },
+  {
+    "t_start": 1225.26,
+    "t_end": 1227.04,
+    "text": "that doesn't connect to any of this,"
+  },
+  {
+    "t_start": 1227.04,
+    "t_end": 1229.05,
+    "text": "that runs off to infinity?"
+  },
+  {
+    "t_start": 1229.05,
+    "t_end": 1231.76,
+    "text": "And why is it so hard to tell?"
+  },
+  {
+    "t_start": 1231.76,
+    "t_end": 1233.727,
+    "text": "I think that's why Paul Erdos said,"
+  },
+  {
+    "t_start": 1233.727,
+    "t_end": 1237.992,
+    "text": "\"Mathematics is not yet ripe enough for such questions.\""
+  },
+  {
+    "t_start": 1237.992,
+    "t_end": 1240.659,
+    "text": "(gentle music)"
+  },
+  {
+    "t_start": 1242.65,
+    "t_end": 1244.59,
+    "text": "What I love about 3x+1"
+  },
+  {
+    "t_start": 1244.59,
+    "t_end": 1247.3,
+    "text": "is it's a problem almost anyone can understand"
+  },
+  {
+    "t_start": 1247.3,
+    "t_end": 1248.69,
+    "text": "and play around with."
+  },
+  {
+    "t_start": 1248.69,
+    "t_end": 1250.92,
+    "text": "And actually trying to figure things out for yourself"
+  },
+  {
+    "t_start": 1250.92,
+    "t_end": 1252.82,
+    "text": "is the best way to learn,"
+  },
+  {
+    "t_start": 1252.82,
+    "t_end": 1254.69,
+    "text": "which is why I subscribed to Brilliant,"
+  },
+  {
+    "t_start": 1254.69,
+    "t_end": 1256.57,
+    "text": "the sponsor of this video."
+  },
+  {
+    "t_start": 1256.57,
+    "t_end": 1259.78,
+    "text": "Now, recently, Brilliant have upped their interactivity."
+  },
+  {
+    "t_start": 1259.78,
+    "t_end": 1261.67,
+    "text": "For example, here is a great lesson"
+  },
+  {
+    "t_start": 1261.67,
+    "t_end": 1263.55,
+    "text": "on the Pythagorean theorem."
+  },
+  {
+    "t_start": 1263.55,
+    "t_end": 1265.84,
+    "text": "So, you don't just remember the formula,"
+  },
+  {
+    "t_start": 1265.84,
+    "t_end": 1268.43,
+    "text": "but you really understand what it means."
+  },
+  {
+    "t_start": 1268.43,
+    "t_end": 1270.66,
+    "text": "Now, Brilliant is a website and an app"
+  },
+  {
+    "t_start": 1270.66,
+    "t_end": 1272.24,
+    "text": "designed to get you thinking deeply"
+  },
+  {
+    "t_start": 1272.24,
+    "t_end": 1274.91,
+    "text": "by engaging you in problem-solving."
+  },
+  {
+    "t_start": 1274.91,
+    "t_end": 1277.0,
+    "text": "It's one thing to read through a textbook"
+  },
+  {
+    "t_start": 1277.0,
+    "t_end": 1278.34,
+    "text": "and think that you get it,"
+  },
+  {
+    "t_start": 1278.34,
+    "t_end": 1280.48,
+    "text": "but it's quite another to play with interactives"
+  },
+  {
+    "t_start": 1280.48,
+    "t_end": 1282.61,
+    "text": "and actually test yourself as you go,"
+  },
+  {
+    "t_start": 1282.61,
+    "t_end": 1284.93,
+    "text": "and Brilliant curates the experiences"
+  },
+  {
+    "t_start": 1284.93,
+    "t_end": 1287.89,
+    "text": "so they get more and more challenging over time."
+  },
+  {
+    "t_start": 1287.89,
+    "t_end": 1290.7,
+    "text": "There's always a helpful tip or explanation"
+  },
+  {
+    "t_start": 1290.7,
+    "t_end": 1292.96,
+    "text": "that takes your understanding to the next level."
+  },
+  {
+    "t_start": 1292.96,
+    "t_end": 1294.34,
+    "text": "I'd highly recommend their course"
+  },
+  {
+    "t_start": 1294.34,
+    "t_end": 1296.22,
+    "text": "on mathematical fundamentals,"
+  },
+  {
+    "t_start": 1296.22,
+    "t_end": 1298.9,
+    "text": "which now has even more interactivity"
+  },
+  {
+    "t_start": 1298.9,
+    "t_end": 1302.34,
+    "text": "and it has topics that are relevant to all areas of STEM"
+  },
+  {
+    "t_start": 1302.34,
+    "t_end": 1306.34,
+    "text": "and algorithm fundamentals for anyone interested in coding."
+  },
+  {
+    "t_start": 1306.34,
+    "t_end": 1308.51,
+    "text": "It's great to have a resource like this"
+  },
+  {
+    "t_start": 1308.51,
+    "t_end": 1311.86,
+    "text": "to inspire you to learn something new every single day."
+  },
+  {
+    "t_start": 1311.86,
+    "t_end": 1312.99,
+    "text": "I try to start off my day"
+  },
+  {
+    "t_start": 1312.99,
+    "t_end": 1315.18,
+    "text": "by challenging myself with Brilliant."
+  },
+  {
+    "t_start": 1315.18,
+    "t_end": 1316.63,
+    "text": "And so if you'd like to join me"
+  },
+  {
+    "t_start": 1316.63,
+    "t_end": 1319.0,
+    "text": "and a community of 8 million other learners,"
+  },
+  {
+    "t_start": 1319.0,
+    "t_end": 1321.91,
+    "text": "go to brilliant.org/veritasium."
+  },
+  {
+    "t_start": 1321.91,
+    "t_end": 1324.11,
+    "text": "I will put that link down in the description."
+  },
+  {
+    "t_start": 1324.11,
+    "t_end": 1326.49,
+    "text": "So I wanna thank Brilliant for sponsoring this video,"
+  },
+  {
+    "t_start": 1326.49,
+    "t_end": 1328.653,
+    "text": "and I wanna thank you for watching."
+  }
+]

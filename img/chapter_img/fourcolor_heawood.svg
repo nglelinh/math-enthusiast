@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="140" viewBox="0 0 480 140">
+  <rect width="480" height="140" fill="#fafbfc"/>
+  <text x="16" y="28" font-family="Georgia, serif" font-size="14" fill="#222">Heawood number for genus g</text>
+  <text x="40" y="75" font-family="serif" font-size="18" fill="#004586">⌊(7 + √(1+48g))/2⌋</text>
+  <text x="16" y="115" font-size="12" fill="#444">g=0 (sphere/plane): 4 ··· g=1 (torus): 7 ··· higher surfaces need more colors.</text>
+</svg>

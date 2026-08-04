@@ -1,0 +1,100 @@
+[
+  {
+    "id": "ku_video_48sCx-wBs34_0",
+    "t_start": 0.0,
+    "t_end": 91.5,
+    "type": "overview",
+    "summary": "A portion of this video was sponsored by lastpass This video is about a pattern people thought was impossible, and a material that wasn't supposed to exist. The story begins over 400 years ago in Prague I'm now in Prague and the Czech Republic, which is perhaps my favorite European city that I've visited so far. I'm going to visit the Kepler museum, because he's one of the most famous scientists who lived and worked around Prague. I want to tell you five things about Johannes Kepler that are essential to our story. Number one: Kepler is most famous for figuring out that the shapes of planet…"
+  },
+  {
+    "id": "ku_video_48sCx-wBs34_91",
+    "t_start": 91.5,
+    "t_end": 183.7,
+    "type": "overview",
+    "summary": "So this allowed him to put a unique platonic solid between each of the planetary spheres Essentially he used them as spacers He carefully selected the order of the platonic solids so that the distances between planets would match astronomical observations as closely as possible He had this deep abiding belief that there was some geometric regularity in the universe and of course there is. Just not this. Two: Kepler's attraction to geometry extended to more practical questions like, How do you stack cannonballs so they take up the least space on a ship's deck? By 1611 Kepler had an answer: h…"
+  },
+  {
+    "id": "ku_video_48sCx-wBs34_183",
+    "t_start": 183.7,
+    "t_end": 274.6,
+    "type": "overview",
+    "summary": "for if it happens by chance why do they not fall just as well with five corners, or with seven Why always with six? In Kepler's day, there was no real theory of atoms or molecules or how they self-arrange into crystals but Kepler seemed to be on the verge of understanding this I mean he speculates about the smallest natural unit of a liquid like water, essentially a water molecule, and how these tiny units could stack together mechanically to form the hexagonal crystal Not unlike the hexagonal close-packed cannonballs Four: Kepler knew that regular hexagons can cover a flat surface perfectl…"
+  },
+  {
+    "id": "ku_video_48sCx-wBs34_274",
+    "t_start": 274.6,
+    "t_end": 367.9,
+    "type": "overview",
+    "summary": "But that didn't stop Kepler from trying See this pattern right here? He published it in his book harmonics mundi or harmony of the world it has a certain five-fold symmetry, but not exactly, and it's not entirely clear how you would continue this pattern to tile the whole plane There are an infinite number of shapes that can tile the plane periodically There are also an infinite number of shapes that can tile the plane periodically or non-periodically For example, isosceles triangles can tile the plane periodically but if you rotate a pair of triangles, well then the pattern is no longer pe…"
+  },
+  {
+    "id": "ku_video_48sCx-wBs34_367",
+    "t_start": 367.9,
+    "t_end": 459.3,
+    "type": "overview",
+    "summary": "His student, Robert Burger, found a set of 20426 tiles that could tile the plane but only non-periodically think about that for a second: here we have a finite set of tiles Okay it's a large number, but it's finite. And it can tile all the way out to infinity without ever repeating the same pattern there's no way even to force them to tile periodically and a set of tiles like this that can only tile the plane non-periodically is called an aperiodic tiling and mathematicians wanted to know, Were there aperiodic tilings that required fewer tiles? Well Robert Burger himself found a set with on…"
+  },
+  {
+    "id": "ku_video_48sCx-wBs34_459",
+    "t_start": 459.3,
+    "t_end": 551.9,
+    "type": "overview",
+    "summary": "But Penrose didn't stop there: He subdivided the pentagons again Now some of the gaps are large enough that you can use pentagons to fill in part of them and the remaining holes you're left with are just rhombuses, stars, and a fraction of a star that penrose calls a justice cap. You can keep subdividing indefinitely, and you will only ever find these shapes So with just these pieces, you can tile the plane aperiodically With an almost five-fold symmetry. The fifth thing about Johannes Kepler is that if you take his pentagon pattern, and you overlay it on top of Penrose's, The two match up …"
+  },
+  {
+    "id": "ku_video_48sCx-wBs34_551",
+    "t_start": 551.9,
+    "t_end": 644.8,
+    "type": "overview",
+    "summary": "and that's where the patterns do match up. And as I rotate around you can see the light spots move in and get smaller and then at a certain point they move out and get bigger and what I want to do is try to enlarge one of these bright spots, and see how big of a matching section I can find oh yes yes! It's like all of a sudden everything is illuminated I love it So these patterns are perfectly matching up here here here here and here but not along these radial lines and that is why they look dark. So what this shows us is that you can't ever match any section perfectly to one beneath it: Th…"
+  },
+  {
+    "id": "ku_video_48sCx-wBs34_645",
+    "t_start": 645.6,
+    "t_end": 740.3,
+    "type": "overview",
+    "summary": "Oh man. Come on If you stare at a pattern of kites and darts you'll start to notice all kinds of regularities like stars and suns but look closer and they don't quite repeat in the way you'd expect them to these two tiles create an ever-changing pattern that extends out to infinity without repeating Does this mean there is only one pattern of kites and darts and every picture that we see is just a portion of that overall singular pattern? Well the answer is no. There are actually an uncountably infinite number of different patterns of kites and darts that tile the entire plane and it gets w…"
+  },
+  {
+    "id": "ku_video_48sCx-wBs34_740",
+    "t_start": 740.3,
+    "t_end": 831.3,
+    "type": "overview",
+    "summary": "but just by looking at them, you could never tell them apart Now what if we count up all the kites and darts in this pattern? Well I get 440 kites and 272 darts. Does that ratio ring any bells? Well if you divide one by the other you get 1.618 That is the golden ratio. So why does the golden ratio appear in this pattern? Well as you know it contains a kind of five-fold symmetry and of all the irrational constants, the golden ratio phi is the most five-ish of the constants. I mean you can express the golden ratio as 0.5 plus 5 to the power of 0.5 times 0.5 The golden ratio is also heavily as…"
+  },
+  {
+    "id": "ku_video_48sCx-wBs34_831",
+    "t_start": 831.3,
+    "t_end": 921.6,
+    "type": "overview",
+    "summary": "And it goes deeper: If you draw on the tiles not curves but these particular straight lines, well now when you put the pattern together you see something interesting they all connect up perfectly into straight lines there are five sets of parallel lines this is a kind of proof of the five-fold symmetry of the pattern but it is not perfectly regular take a look at any one set of parallel lines. You'll notice there are two different spacings. Call them long and short From the bottom we have long short long short long long.. wait that breaks the pattern These gaps don't follow a periodic patte…"
+  },
+  {
+    "id": "ku_video_48sCx-wBs34_921",
+    "t_start": 921.6,
+    "t_end": 1008.0,
+    "type": "overview",
+    "summary": "Just as the fundamental symmetries of the shapes that tile the plane had been worked out much earlier, the basic unit cells that compose all crystals were well established. There are 14 of them and no one had ever seen a crystal that failed to fit one of these patterns. And there was another problem Crystals are built by putting atoms and molecules together locally, whereas Penrose tilings -- well, they seem to require some sort of long range coordination. Take this pattern for example You could put a dart over here and continue to tile out to infinity. No problems. Or you could put a kite …"
+  },
+  {
+    "id": "ku_video_48sCx-wBs34_1014",
+    "t_start": 1014.4,
+    "t_end": 1112.1,
+    "type": "overview",
+    "summary": "that is essentially solid material at the smallest scales, and he found that locally, they like to form icosahedrons but this was known to be the most forbidden shape because it is full of five-fold symmetries. So the question they posed was, how big can these icosahedrons get? They thought maybe 10 atoms or 100 atoms, but inspired by Penrose tilings, they designed a new kind of structure. A 3D analog of Penrose tilings now known as a quasi-crystal. And they simulated how x-rays would diffract off such a structure and they found a pattern with rings of 10 points, reflecting the five-fold sy…"
+  },
+  {
+    "id": "ku_video_48sCx-wBs34_1112",
+    "t_start": 1112.1,
+    "t_end": 1204.9,
+    "type": "overview",
+    "summary": "One of the seminal papers on quasi crystals was called De Nive Quinquangula: on the pentagonal snowflake in a shout out to Kepler. Now not everyone was delighted at the announcement of quasi crystals, a material that up until then people thought totally defied the laws of nature. Double Nobel Prize winner Linus Pauling famously remarked, \"There are no quasi crystals, only quasi scientists\" burn But uh Shechtman got the last laugh. He was awarded the Nobel Prize for chemistry in 2011 and quasi crystals have since been grown with beautiful dodecahedral shapes they are currently being explored…"
+  },
+  {
+    "id": "ku_video_48sCx-wBs34_1204",
+    "t_start": 1204.9,
+    "t_end": 1271.5,
+    "type": "overview",
+    "summary": "or worry about getting locked out of your accounts and number two: some of you have not yet signed up, hence this reminder that your accounts will be more secure and your brain less cluttered when you put your passwords on autopilot with lastpass They give you unlimited password storage, free cross-device sync and even password sharing If you ever need to give someone else access to one of your accounts. Lastpass autofills your credentials on mobile sites and apps for ios and android and it is so fast and easy when you open an app or site, Lastpass fills in your username and password in an …"
+  }
+]

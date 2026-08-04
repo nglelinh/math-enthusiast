@@ -9,7 +9,7 @@ hidden: true
 
 # How to Contribute
 
-We welcome contributions from the community! Whether you want to fix a typo, add an example, or contribute a whole new chapter, your help is appreciated.
+We welcome contributions to Math Enthusiast! Whether you want to fix a typo, deepen an essay, add an exploration prompt, or improve a translation, your help is appreciated.
 
 ## Ways to Contribute
 

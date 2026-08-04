@@ -1,0 +1,471 @@
+KR: Well, the usual way that people, um, discuss it is to talk about perfect squares first.
+So, if you have studied the Pythagorean Theorem
+there's a formula that the square of the hypotenuse is the sum of the two squares of the
+sides of a right triangle. So you might ask if the, err,
+the sides of a right triangle are whole numbers
+might it happen that the hypotenuse
+is also a whole number. They're called Pythagorean triples and the Greeks
+figured out all of the Pythagorean Triples. Okay, so what happened next is
+I think it must have been very natural to look at the equation
+A to the fourth plus B fourth equals C to the fourth.
+And so on. So, this is now in the realm of algebra
+and you can plug in values for 'A' and 'B' you'll see that, err,
+these equations, infinite number of equations, seem
+not to have solutions. Well, so the story is that
+Fermat was reading the text of Diophantus,
+who was the Greek mathematician best known for this type of problem.
+And in the margin of his copy
+of Diophantus, he wrote some marginal note saying
+that I can prove it for higher exponents bigger than two there are no positive
+integer solutions
+and then famously he said but my solution
+is too long to write in this margin.
+And in his copy of Diophantus which was
+inherited by Fermat's son Samuel de Fermat
+there are many, many marginal notes and Samuel published a revised version,
+annotated version of Diophatus's
+Book in which all his father's writings are
+reproduced. And the reason that Fermat's Last Theorem was called Fermat's Last
+Theorem, is that all the previously on examined marginal notes
+proved to be correct for they were, ermm
+prove to be correct or incorrect mostly correct by
+mathematicians after the seventeenth-century and there was this
+only one assertion that remained it was the last one was hit list.
+And you know again, I'm not an expert in
+the history of mathematics but I think most people
+are convinced that when Fermat was a mature mathematician he realized he
+did have no proof
+of this thing that he wrote in the marginal note and in fact
+later in his life he devoted a lot of attention
+to special cases of that type of equation.
+It's not just the cubes but it's the cubes the fourth powers and the fifth powers
+and so on.
+And Fermat himself later in his life
+took care the fourth powers.
+Well, the cubes certainly must've
+bothered him because after all he knew about squares and he knew about fourth
+powers and cubes,
+you know, right in the middle.
+BH: The theory is that there is no solution.
+There's no whole number solution.
+KR: That's right.
+BH: Would it have been or wouldn't it have been more exciting or more
+attractive to a mathematician
+to prove him wrong and to find these three numbers that you could plug in that would
+do it? Would that have been more triumphant?
+KR: Well, it would have been-
+would have been very exciting and would have made lots of news.
+And then the proof, so to speak, would have been simply
+on a single counter-example that would have fit,
+you know, very neatly in a newspaper column, you known, there would have been
+some story, you know.
+'Mathematician in Australia finds the first counter-example to Fermat's Last
+Theorem'.  Certainly was big news either way.
+Ermm, the main thing about Fermat's Last Theorem is that over the centuries it
+gave rise to a tremendous amount
+of new, and fruitful mathematics. That people really develop new techniques to try to
+solve that equation
+that proved to be, you know,
+infinitely versatile. BH: So a bit like going to the moon and let[ting] them develop other
+lots of other technologies along the way. This was for
+going to the moon. KR: That's a-that's a fine analogy. I mean,
+you, when you formulate a problem in mathematics no one knows
+whether this problem will really be helpful for mathematics as a general enterprise.
+And, you know, for whatever reason Fermat's equation
+has led to tremendous amount of- of new mathematics
+KR: So, when I was a graduate student. We're talking, you know, roughly forty years ago or
+forty-five years ago. Fermat's Last Theorem was kinda
+some curiosity. Everybody knew about the problem but no one really had any
+approach to it and there was no
+kinda fundamental reason why the problem was going to have a positive solution.
+And when I was a student there was a tremendous interest in what are called
+elliptic curves and it was realized
+around nineteen sixty-eight, nineteen sixty-nine, nineteen seventy
+by André Weil and Goro Shimura in Princeton
+who built on work of Yutaka Taniyama who was his
+buddy in Tokyo in the nineteen-fifties. Taniyama
+had passed away and there was this gradual understanding that elliptic
+curves really were related
+modular forms and again that was some completely
+are apparently inaccessible outstanding conjecture
+analysts thought to be incredibly hard conjecture. And then
+in the early nineteen-eighties a mathematician came around, and I say that
+literally because you know he was sitting here in this office
+his name is Gerhard Frey. At the time he was at the University
+of Saarland in Saarbrücken on
+and he came-  BH: Is that a famous one? I don't know that one.
+KR: Well, um, I didn't know it either and came around and he had
+the scheme for relating Fermat's Last Theorem
+and the modularity conjecture. Somehow he
+realized for the first time that,
+um, if- if he had a solution to Fermat's equation
+this would give him an elliptic curve which apparently
+could never be modular. I was a little skeptical
+because I knew that some of the things that he said
+that he needed in his argument, um, were very hard.
+Well, for me a really important thing was
+in nineteen eighty-five Jean-Pierre Serre, who was
+one of my mathematical heroes in Paris sat down and kind of tried to
+distill everything that had been said about the Prey's idea
+and he came out with a very clear
+letter and this letter basically said if you can prove this tiny little result
+which he called epsilon because the number
+in calculus, epsilon is a small number. He said if you can prove this tiny little epsilon
+then you can really show that on the modularity conjecture, which he called
+Weil at the time,
+implies Fermat's Last Theorem. So, epsilon
+became, for me, a holy grail because
+not only was it something fairly well encapsulated and very
+clear, and this was the kind of thing that I'd thought about before
+without success but nonetheless while thinking about yet another
+problem, it occurred to me that I really had some new information that I could
+possibly bring to bear on this epsilon.
+When I first did was say to myself: "What's the simplest possible case where I can
+think about this? What's the simplest possible prediction?"
+I tried to settle that. I said "Well, you know, if you have to start somewhere.
+can I-" Well, I know about this simplest case
+so I have this thing in my mind and I thought about it,
+off and on, during the academic year-
+nineteen eighty-five and eighty-six.
+And during this year I was teaching calculus and I was busy with things, there are,
+you know, colleagues come in and they want you to be on committees. And finally, um,
+my final grades were submitted in May nineteen eighty-six and I started thinking about this
+problem again, first when I was on the east coast for a while,
+going to Europe on and I found myself in Paris. And finally I found myself
+at an empty desk and on the Max Planck Institute in Bonn
+where I can just sit and think and I thought about this
+yet again - BH: Is that what you do? Do you just sit at a desk with your head and your hands, and
+think, think, think, I mean - what if I was a fly on the wall
+when you were trying to crack this problem. What would I have seen? What was it looked like?
+Well, it's probably not have probably had a pad of paper in front of me and a
+pencil
+or a pen we didn't really have computers quite yet although they were starting to come,
+and when you visit some institute you don't have all your stuff with you don't
+have lots of books you don't have all your paraphernalia. So I was really just kind
+of sitting there
+like that, and I started writing, you know. And I-
+If you look in my office you'll find lots of old pads where I sit and write,
+and, you know, a page might start what do we know what are we trying to do
+summarize the situation so far. "Let's- let's try this",
+and to my astonishment,
+I was finally able to-
+to cracked that problem - the simplest case of that epsilon.
+BH: It's like inspiration comes at preordained times. Like you sit down and say, okay
+for the next two hours before I make my friend Bob a hot dog,
+I'm gonna have an inspiration and trying to solve the problem, and that's when it happens. It doesn't
+happen on time, so you're lying on bed- Oh it can, I mean, if you if you think about something very
+intensively then you can just carry around with you
+and you know lots of my colleagues say that while they're swimming
+had some insight or you know lots of people say in the middle of the night
+they jumped up and they said my god you know why don't I try a minus sign instead of
+instead of a plus sign
+and this- this can indeed happen, you know.
+BH: Not for you though. You are an at-the-desk kind of guy?
+I-I think in this particular situation I was at the desk
+I knew for the first time that
+I could do something that I hadn't done before
+that no one had done before. This is a special case is this so-called
+epsilon, And I kinda wrote and rewrote it just to make sure I was really right.
+And finally, using a very first Macintosh that I had access to
+I typed out a letter to Barry Mazur at Harvard,
+and I sent him this letter explaining what I had done.
+the general case. I couldn't see what to do and then fortunately,
+there was an international congress of mathematicians.
+They occur once every four years on the campus
+of UC Berkeley. So I was right here. I came back in August
+for this International Congress and Barry Mazur was there.
+And on I spoke to him,
+and I said Barry I sent you this letter explaining how I did a special case, and
+I really wonder, you know, what I have to do now in the general case.
+And he looked at me completely quizzically. He said: "Well, you've already done the
+general case."
+and basically, he-
+when he read my letter to seemed obvious to him that there was this extra little thing
+you carry alone as a supplemental object. And this extra thing which is
+do the bookkeeping. And,
+so we sat down at this Caffe Strada which is at the corner of the
+Berkeley campus, and we had a Cappuccino and he
+kinda said well you just carry this and run with you
+and I was astonished you know it's like this
+amazing moment were all the sudden I realized
+that in principle at least there was no obstacle to proving this
+epsilon conjecture. I mean, it like, you know, my god, you know, it's some
+special thing, you know, an angel comes down and the light shines from the heavens
+or something. So this was really quite a thing
+and on since or my colleagues
+were walking around the campus in this big international congress I
+kind of told, you know, a number of them that
+I have done this thing. You know of course in beginning I was cautious I said well
+I think I've done this thing, and- but people kept
+running up to me. They said was it really true you've done epsilon? I
+lived in a world and think I still do were
+my colleagues are very generous with attributions and praise and there isn't
+too much of this kinda race to be the first to publish and
+people basically- I had little fear that someone would try to scoop me
+on the other hand what was a little worrisome
+was that I hadn't written down all the details, you know, so I kinda written down
+very closely the special case. But
+I hadn't kind of worried about writing thing more generally
+so what happened was that during the year
+following that, nineteen 86-87
+there was a special program on algebraic geometry and arithmetic geometry
+at the Mathematical Sciences Research Institute in Berkeley,
+the MSRI. So I was up there with my callings and
+I gave lectures every week I gave another lecture I was kinda giving like
+a min course on
+my proof and
+when I wasn't lecturing I was furiously typing
+into the computer to try to expand and revise
+my manuscript in kinda more and more details got put in.
+There were certainly people in the audience who were appropriately
+skeptical. They asked me hard questions and I didn't always know the answer to our
+questions you know
+like "How do we really know that this thing is in
+such-and-such way", and I would say well you know this was proved in the
+1960s by Grothendieck but it
+isn't quite written down in the place you expect
+then I have find the argument. Well epsilon is small. It was clearly a misnomer.
+And let me just get up and pull off a
+reprint. Here's my article. It was published in 1990
+which really makes
+are a lot of time between 1986 and 1990.
+BH: How many pages?  It's like a book. Well it's a
+more than a pamphlet. If you open up this paper
+on the very first or second page there's
+Fermat's equation and an elliptic curve
+but then they disappear. If you look at the actual
+article it's more about the technicalities of the subject. It was a
+big deal in mathematics. It got
+write ups in the press, including Science magazine
+if I'm not mistaken.
+You know, whenever there's a serious announcement,
+of a major theorem that gets a lot of attention. And
+people stop what they're doing to try to see
+what the basis of proof is.
+BH: who called this Ribet Theorem?
+you know obviously it to make that name that is above all
+other whenever addition both well the
+yeah that's right so you certainly there there's a general
+aversion to naming things after yourself very often people
+give lectures and I'll say such-and-such the room and princes the right name the
+person
+who on proves it and if it's a fair amount they prove themselves
+in typically right there the first initial their last name
+or something like that for all say they don't on
+they have no attribution listeners understand all this is the fear that the
+persons
+is providing in this lecture. - You've done this thing
+which is important if you have a bridge between two things which
+no other which also Granja. - Well that's right so the
+um what what I when I showed was that this modularity
+conjecture which was thought to be was was felt to be true
+but um wasn't expected to be provable
+I show that that thing actually implies there was less there
+I think the main takeaway from my theorem was
+that since the very conjecture
+short on the OMA was likely to be true that now you should think that for miles
+last year it was likely to be true
+for example it probably wouldn't have been a really
+good idea to spend a lot of computing power looking for a counterexample
+farrell's less there well as anyone else who's in the room
+well I was the whole thing so any Wells you know coursing
+came around a few times I guess but basically he was holed up in his attic
+and I didn't know that and I think most people didn't know that
+so he was on I mean it's his I'm
+it's a statement that he was certainly intrigued by Fermat's last theorem
+as a child and then as soon as he heard about this
+Ridge he decided to try to prove the modularity theorem
+because of its relation to the Fermat's last theorem.
+so was it is a sort of the situation that Andrew Wiles
+wanted to prove Fermat's last theorem by any means possible he given him the means
+that's what he says I mean if this is surprising to me because
+modularity theorem by itself is a tremendous price
+and you know it seems kind of strange that you needed
+the motivation to Fermats to go and try to prove it if you thought that
+there was some way
+side well anyway that's that's that's that's what he says
+yet we were all together meaning kinda lots of people in the subject in a
+conference in Cambridge England
+in June 1993 and usually go to a conference and you see the list speakers
+and you know you speaker has an hour
+and the thing and then set up so that Andrew Wiles had three hours
+I'm so here's the organizers he said I have something I want to discuss it will
+take me three hours and I like those slots
+I said okay from and then
+in the first lecture you could see he was proving
+He was trying to prove the modularity of some class elliptic curves but
+the class elliptic curves at least in the first lecture had
+no intersection with the class that you needed for Fermat's last theorem
+within the second lecture got a lot closer and
+it became more and more parents have people at the conference
+third lecture he was going to be able to do enough
+to get fair was last year the crowd was growing so love the mathematicians
+you know brought their colleagues who happen to be in Cambridge in
+you know some other family members and
+I think there was a little doubt that he would announce approval for was left
+there I'm so I
+can i sat in the front row center and brought my camera and snap the picture of him
+I wasn't another moment when you know those cuts time stop
+and when I first realized what was going to happen ..
+and then you know when it actually did happen there was this some
+frends of activity I mean the director
+love of the Isaac Newton Institute
+where these lectures were held on
+had ordered a case a Napa Valley brute champagne
+for the end the lecture is after the lecture we came out into the
+you know common area only is all the champagne flutes were
+produced in his bottle started popping
+you know this is kinda really an amazing thing between that time when you-
+originally published a paper and this lecture it was a cold or write you a
+nasty lol nah to work
+not a word you know it i no idea what he was doing
+on you he whole who absolutely
+he was so he was a a friend and a colleague I first met him when he was a
+graduate student in Cambridge
+he was one of the first people that I invited came to spend a week and gave a
+lecture to
+on do you that delight he kept a secret that make a surprise I
+to this day you battle by I'm using a little collegiate
+you're telling me when you thought you open your running around telling
+everyone
+NEC said well it's very unusual behavior
+and the you know you can say in retrospect that it was really
+um justified because he was afraid that people would kind of jump all over it
+because %uh the important so
+the modularity conjecture and fair I was last there
+on button he did not on
+tell me what he was doing he did from
+confide in to this calling to princeton as he was giving
+is graduate course where he was working out the ideas
+that on were instrumental in this paper I think it was only a few days later
+that I got a copy of this manuscript
+and the manuscript was very thick
+nose like 300 pages from
+single space you know typeset by
+test mathematics typesetting program and
+on we were supposed to
+be the referee is on
+looking at different parts of the paper and I was assigned to a par
+that be turn out to be problem-free arm
+and I'm the cats look at a park but
+turn out to have problems a problem was there shattering
+for you a do you like that doesn't make you think this is good
+I like the reader a lot about it really deflating up to I have
+champagne mean finding the problem well
+from want more of the aspects of the whole thing is that I had gone out
+pretty for a limb
+from telling everybody that Andrew Wiles improve this thing
+on in the way that started was that
+when the New York Times first heard about his announcement may ask to speak
+to him and returns me and said
+and you know you speak to Gina Kolata so I went
+and on went upstairs and
+spoke to her for a very long time explaining the whole thing
+and then I'm somehow the media kept calling me
+because it was understood from that somehow I was is designated spokesperson
+so I nice spent the entire summer
+I'm lecturing about his theorem
+and
+I'm fielding phone calls from I'm the press
+hello for was announcement cast
+oh I think it was like two weeks what happens in mathematics is if if you have
+a proof that seems to really be
+on seems to have a lot or
+from internal logic
+to it and there's something that's wrong with the proof
+your immediate reaction is to say well
+you know this is just some technical problem that I need to fix
+and I think that are Andrew Wiles when he
+found out about the gap arm expected that you would be able to repair insured
+so it really took a while before there was some
+realization on his part that this was a serious problem
+couldn't be fixed on immediately just by their
+tools improper if you love the person who was taking all the calls from the
+press
+whatever reason did that mean you will you are contacting
+and while get updates on the game because my i don't know what to tell
+them what
+we call him but those you want to say it was a
+he gone right not especially Inc he kind of went dark
+he was working on on mathematics and
+I wasn't wasn't getting a lot of information out of him at that time
+you know it was all poison about right i mean
+I'm wasn't clear whether or not this will get repaired or not
+and then you know wonderfully it turned out that there was
+this so repair to the proof
+from release in completely new insight actually by Andrew Wiles and Richard
+Taylor
+who work together over the summer and this will be the summer
+1994 and they
+had a or preprint out
+in in the fall 1994 really explain their new method in which is now
+call Taylor Wiles method and that
+really I'm circumvented a lot or the more complicated arguments in the
+original
+preprint and the two articles were published together
+on the following summer which is a summer 1995 in the annals of mathematics
+it was a relief but it was it was not our
+kinda joyous relief you know and Richard Taylor came to me one day
+again MSRI where I happen to be in
+fall far 1994 any sand
+we have some good news for you and then
+on the next day and make up in this paper so that was kinda very good
+and you know I don't remember there being
+a huge celebration on the moment
+the releases that reprint been just kinda gradually build people understand
+that the proof is complete
+and then there was a very large instructional conference at Boston
+University in summer
+1995 different people got up and explain the different
+elements approve well it was a fabulous pieces mathematics
+arm as impressed arm with by
+what what I did and presses I am by my my own were coming
+I'm even much more impressed by what they did
+on they had some really knew inside and
+this inside has I'm percolated through
+our whole subject for the last twenty years arm
+one way to say what they did is they showed
+that somehow modularity is contagious
+in the sense that if you have something that hope has a little pieces that the
+you can parlay that into modularity over forty first evolved Wiles was
+obviously intensely driven to do this he was
+really motivated and he said you know I'm gonna do this one way or another
+and me brought in all sorts a
+different techniques that hadn't been related
+on to the the problem before
+on what some what's amazing for example there's a whole subject an algebraic
+geometry call deformation theory
+that was going on when I was a graduate student that I didn't learn
+I thought that was really far removed from anything involving
+elliptic curves and on in
+the years before wells announcement Harry Mazer
+had developed this new technique of deformation theory in gallery
+presentations and it turned out to be exactly what
+Wiles needed the language in the techniques the median
+for his discussion on and so
+you know something that seems to be far away technically turn out to be crucial
+well I think I'm you know just informally everyone refer to it as the
+Fermat's last theorem
+but in fact when you when you look at the article just like my article was
+something internal to
+on series modular forms and get our presentations and Wiles article in my
+article share
+the trait that for was a question covers exactly once in the article in the
+beginning
+and then you get down to the real stuff on very happy with the
+recognition that I've gotten and I
+very proud of what I did and be I
+when students come and my classes they may know about my
+role for Fermat's last theorem. A lot of them have seen the
+video that was broadcast on over and BBC
+and a I think you know if you do something very very very very famous and
+you have an encore problem
+where people saying you know what great thing you're going to do next
+and I try to be on more or less a normal guy
+and
+not you know walk around with angels on your shoulder
+britt to rediscover what FAMAS proof might it be
+is that they have widely-helds that he had done it already disclaim lot
+was he telling the truth ? I think by the time we get to 20th century it's quite
+clear
+that this is an incredibly complex problem.

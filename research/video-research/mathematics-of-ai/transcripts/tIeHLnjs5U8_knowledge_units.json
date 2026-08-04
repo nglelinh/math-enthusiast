@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ku_video_tIeHLnjs5U8_0",
+    "t_start": 0.0,
+    "t_end": 92.2,
+    "type": "overview",
+    "summary": "[Submit subtitle corrections at criblate.com] The hard assumption here is that you've watched part 3, giving an intuitive walkthrough of the backpropagation algorithm. Here we get a little more formal and dive into the relevant calculus. It's normal for this to be at least a little confusing, so the mantra to regularly pause and ponder certainly applies as much here as anywhere else. Our main goal is to show how people in machine learning commonly think about the chain rule from calculus in the context of networks, which has a different feel from how most introductory calculus courses approach…"
+  },
+  {
+    "id": "ku_video_tIeHLnjs5U8_92",
+    "t_start": 92.8,
+    "t_end": 185.0,
+    "type": "overview",
+    "summary": "So the cost of this network for a single training example is a^(L - y) squared. We'll denote the cost of that one training example as C0. As a reminder, this last activation is determined by a weight, which I'm going to call w(L), times the previous neuron's activation plus some bias, which I'll call b(L). And then you pump that through some special nonlinear function like the sigmoid or ReLU. It's actually going to make things easier for us if we give a special name to this weighted sum, like z, with the same superscript as the relevant activations. This is a lot of terms, and a way you might…"
+  },
+  {
+    "id": "ku_video_tIeHLnjs5U8_184",
+    "t_start": 185.0,
+    "t_end": 276.2,
+    "type": "overview",
+    "summary": "whatever the resulting nudge to the cost is. What we want is their ratio. Conceptually, this tiny nudge to w(L) causes some nudge to z(L), which in turn causes some nudge to a(L), which directly influences the cost. So we break things up by first looking at the ratio of a tiny change to z(L) to this tiny change w(L), that is, the derivative of z(L) with respect to w(L). Likewise, you then consider the ratio of the change to a(L) to the tiny change in z(L) that caused it, as well as the ratio between the final nudge to C and this intermediate nudge to a(L). This right here is the chain rule, wh…"
+  },
+  {
+    "id": "ku_video_tIeHLnjs5U8_277",
+    "t_start": 277.2,
+    "t_end": 370.3,
+    "type": "overview",
+    "summary": "And the derivative of z(L) with respect to w(L)... In this case comes out to be a(L-1). Now I don't know about you, but I think it's easy to get stuck head down in the formulas without taking a moment to sit back and remind yourself of what they all mean. In the case of this last derivative, the amount that the small nudge to the weight influenced the last layer depends on how strong the previous neuron is. Remember, this is where the neurons-that-fire-together-wire-together idea comes in. And all of this is the derivative with respect to w(L) only of the cost for a specific single training ex…"
+  },
+  {
+    "id": "ku_video_tIeHLnjs5U8_370",
+    "t_start": 370.3,
+    "t_end": 461.1,
+    "type": "overview",
+    "summary": "you can see how sensitive this cost function is to the activation of the previous layer. Namely, this initial derivative in the chain rule expression, the sensitivity of z to the previous activation, comes out to be the weight w(L). And again, even though we're not going to be able to directly influence that previous layer activation, it's helpful to keep track of, because now we can just keep iterating this same chain rule idea backwards to see how sensitive the cost function is to previous weights and previous biases. And you might think this is an overly simple example, since all layers hav…"
+  },
+  {
+    "id": "ku_video_tIeHLnjs5U8_461",
+    "t_start": 461.1,
+    "t_end": 552.9,
+    "type": "overview",
+    "summary": "the edge connecting this kth neuron to the jth neuron, w(L)_jk. Those indices might feel a little backwards at first, but it lines up with how you'd index the weight matrix I talked about in the part 1 video. Just as before, it's still nice to give a name to the relevant weighted sum, like z, so that the activation of the last layer is just your special function, like the sigmoid, applied to z. You can see what I mean, where all of these are essentially the same equations we had before in the one-neuron-per-layer case, it's just that it looks a little more complicated. And indeed, the chain-ru…"
+  },
+  {
+    "id": "ku_video_tIeHLnjs5U8_553",
+    "t_start": 553.9,
+    "t_end": 582.7,
+    "type": "overview",
+    "summary": "So pat yourself on the back! If all of this makes sense, you have now looked deep into the heart of backpropagation, the workhorse behind how neural networks learn. These chain rule expressions give you the derivatives that determine each component in the gradient that helps minimize the cost of the network by repeatedly stepping downhill. If you sit back and think about all that, this is a lot of layers of complexity to wrap your mind around, so don't worry if it takes time for your mind to digest it all."
+  }
+]

@@ -1,0 +1,435 @@
+sorry to interrupt oh sorry it's just going to say if we're
+going to say if we're recording or not you know that's that's
+recording or not you know that's that's that's okay you can
+mentioning this or you can you can mention it uh during the break right
+mention it uh during the break right okay uh so let's start with
+okay uh so let's start with um
+so maybe just some general remarks on ntsc gear index theorem
+ntsc gear index theorem um so
+the problem is uh i mean you can approach the subject
+from many different angles so the way i like to present it is
+so the way i like to present it is imagine you have a linear operator
+uh i like to call it an operator so for me linear maps and linear operators
+for me linear maps and linear operators or operators are the same thing
+so imagine you have a linear map but between two vector spaces and imagine
+between two vector spaces and imagine you are interested in uh
+you are interested in uh solving the following equation df
+so when you have a inhomogeneous equation like that
+the f equal to g you might be interested in knowing for example
+in knowing for example dimension of kernel of p
+um but i can tell you that except when these guys are finite
+except when these guys are finite dimensional
+computing dimension of kernel is a very hard problem
+and the reason i mean at least one reason for this big
+hard problem is that this is not a continuous function in d
+not a continuous function in d so so so let me just say not
+so so so let me just say not a continuous function
+now of course i have to tell you um what i mean by continuous function
+um what i mean by continuous function in d because d after all is just an
+in d because d after all is just an operator but imagine
+operator but imagine there is a space that you can choose
+uh from and if you change these slowly uh from one point to another
+slowly uh from one point to another point
+uh it could happen that this dimension is not
+uh there are jumps in the dimension you can easily construct examples of this
+can easily construct examples of this so that's that's one reason why this
+so that's that's one reason why this quantity
+quantity is kind of hard to compute
+and in a similar way i mean the things that's related to g
+that's related to g is about what conditions g has to
+so if you think about the number of conditions that g has to satisfy
+conditions that g has to satisfy this is related to co-kernel of this map
+i mean i can give a very simple example uh
+let's look at this example uh for example
+just even finite dimensional case this is a story
+is a story this story can happen imagine you have a
+family of operators like this is epsilon 0 0 1 so epsilon is between 1 and for
+0 0 1 so epsilon is between 1 and for example
+0. you see a dimension of kernel of epsilon
+i mean d epsilon d that's equal to well i mean if epsilon
+that's equal to well i mean if epsilon is not zero
+is not zero this this operator is injected this is
+so if epsilon is positive but all of a sudden
+at zero this this is zero its dimension is picks up a kernel and this cable is
+is picks up a kernel and this cable is one dimensional so
+you see this function as a function of epsilon which is kind of a space of
+it's not continuous right you can easily construct the example for the second
+construct the example for the second type
+so these things individually they are not topologically invariant we
+they are not topologically invariant we say
+this kernel and cocaine are not topological environments
+topological environments okay but what was discovered a long time
+ago is that
+the difference for some classes of operations the difference
+operations the difference changes continuously so let me
+put it here but for some operators at least
+kernel of the minus dimension of of d which is
+of d which is denoted by index of e
+amazingly and this is not an obvious fact at all
+fact at all amazingly this number in many situations
+good situations i should say is continuous
+i mean when i say it's continuous i mean is continuous
+for a large or for a known at least class of operators that we have to
+class of operators that we have to specify later on
+specify later on we have to say what p is what w is and
+good these are so that this makes it continuous so this is by itself
+continuous so this is by itself is an amazing fact and this number is
+if you look at it like this it's it's a very general uh
+problem general phenomenon uh you can even study it as part of
+even study it as part of kind of internet dimensional lia algebra
+kind of internet dimensional lia algebra and
+you can prove some fun theorems with that or in
+functional analysis for example we can study these things in the context of
+study these things in the context of hyperspaces um but that's not what
+hyperspaces um but that's not what a tsunami experiment is about
+the discovery of atucker is that there are some situations where
+there are some situations where this kind of index
+this kind of index can be related to geometry and topology
+manifolds so let me then write it like this
+write it like this um
+so by the way before i go on so this is a an integer value
+a an integer value quantity right i mean it just uh takes
+so it means that on kind of open subsets of the space of these
+uh this is actually constant that's one reason we call this a topological
+reason we call this a topological invariant
+it's uh it's it's it's an integer valued environment and it's not
+changing under at least a small perturbations or variations
+perturbations or variations so it's a topological impact
+okay so now what is discovered this was around 1961
+was that there are many examples of such these in geometry
+um they can be expressed as index
+as index of an operating and not only that
+but in those situations that they they were they could find
+were they could find a an alternative formula for computing
+because computing the index it means you're computing an
+you're computing an invariant a topological environment for
+but in many cases it's kind of hopeless to go through this
+to go through this original definition because uh it's hard
+to compute uh the difference uh sort of computer
+but there's an alternative formula because it's a topological
+invariant that kind of lends itself to being computable in close forms
+being computable in close forms so let me give you an example as a
+so that you see what i'm talking about so here's example one
+that's euler characteristic for example okay so um all the characteristic
+uh well i mean okay so i mean imagine you have a
+smooth uh closed or manifold and you know the euler characteristic there
+you know the euler characteristic there are many definitions for euler
+are many definitions for euler characteristics like
+m so one definition could be something like alternating sums of beta
+something like alternating sums of beta numbers right so this is
+numbers right so this is d0 minus p1 plus
+d0 minus p1 plus e2 plus 1 minus
+okay so what di is the id number
+and as you know this is a dimension of we can define it in many ways
+of we can define it in many ways but this is the dimension of for example
+but this is the dimension of for example some homology group
+h i of n and coefficients for example over r
+you can take many different types of homology groups but
+homology groups but take your favorite they're all the same
+and this is a this is an integer that basically counts the number of i
+that basically counts the number of i dimensional holes
+dimensional holes in your space and this alternating sound
+better number of me sorry is is the order characteristic of the mind
+order characteristic of the mind so um now uh
+so um now uh this cayenne is actually is is
+this cayenne is actually is is is an index
+so what operator is it uh so in my general
+uh so in my general definition i have operator d and then i
+spaces v and w's and so the question is what are these operators in this case
+what are these operators in this case right
+right well in this case
+the operator d is something that we can write as
+direct sum of say even
+forms on space m i zero
+m i zero or whatever
+so this is a space of even forms uh there are differential forms
+there are differential forms two um
+two um cod forms but direct sum of all of them
+okay so please there is this d is the wrong differential
+so this is a generalization of the gradient uh
+gradient uh or or or divergence or
+or or or divergence or actually gradient operator for example
+you can think of takes a p form sends it to p plus one
+and this this star is the i joint uh which is the um
+you can define this this star if m is a romanian manifold if
+there are some details here that i will cover later on but let me just
+cover later on but let me just uh briefly mention uh fix onion
+uh briefly mention uh fix onion patrick
+then we'll see actually there is a rather deep result of uh
+rather deep result of uh geometry anthropology of manifolds that
+uh implies that uh so this is basically uh hodge theorem
+this result later on as i said so this hash theorem basically implies
+so this hash theorem basically implies that
+that index of this d
+index of t is equal to indeed euler characteristic of them
+indeed euler characteristic of them right
+we are saying that yeah i mean okay so this index uh that we have some kind of
+this index uh that we have some kind of abstract
+definition at first now becomes something very very concrete
+something very very concrete it measures euler characteristic of the
+if you apply this to this operator but that's not index theorem right this
+but that's not index theorem right this is just an observation
+is just an observation this is easy to see that the the
+of tiers singer for example at first they had other observations but this is
+they had other observations but this is one of the things that
+one of the things that they noticed they can they can observe
+they noticed they can they can observe but that's not in the experiment
+so what is index theorem um there was an earlier result that
+there was an earlier result that calculated order characteristic in terms
+calculated order characteristic in terms of
+immanuel metric so this was an old result
+essentially due to girls on a and uh another guy
+so imagine you have a closed oriented romanian surface
+oriented romanian surface so we take a closed oriented surface
+plus an imagined metric on the surface so imagine you have this
+with several holes and you uh kind of put it in a space and then it
+kind of put it in a space and then it absorbs
+absorbs it it gets a metric from the ambient
+there is a way of measuring distances on on this m
+uh by finding uh like uh shortest path that lies on the space and you measure
+as a path in the space but it has to be always on the surface so that gives you
+always on the surface so that gives you a romanian metric and this is the
+a romanian metric and this is the demanding metric
+that comes here and the ghost community theorem says that
+coyotes in this case is one over two pi integral
+over m now let me tell you what this k is this k is the gauss curvature
+is this k is the gauss curvature of m so this
+of m so this is the girl's
+and this d a is area element so it just basically uh gives you a way of
+measuring areas if you integrate for example if k
+if you integrate d a over n you get the whole area of the surface but in general
+whole area of the surface but in general we have the integrate
+k against this area element so this is if you want this is some sort
+so this is if you want this is some sort of
+average curvature of uh your space
+of your surface uh divided by two pi you get uh euler characteristics
+you get uh euler characteristics so this is the classic two-dimensional
+so this is the classic two-dimensional gaussian nature
+and so now by this observation this is actually equal to
+actually equal to index of
+d so now this is the side this result
+is a kind of prototype at your senior index theorem now
+because we have an operator its index is this invariant that's fine
+its index is this invariant that's fine but it's given by this explicit
+but it's given by this explicit differential form which is kda
+and this is what actually senior index theorem tries to achieve in
+index theorem tries to achieve in general
+for general manifolds and for general say elliptic operators on manifolds and
+say elliptic operators on manifolds and vector bundles and all these things
+vector bundles and all these things okay but this is a in prototype
+okay but this is a in prototype exterior so in general
+this goes 180 ohms so if you have mg which is a say
+which is a say closed romanian manifolds
+um then uh this general goes for natherum
+says that in this generality also i am there is some constant which
+i am there is some constant which i don't know right now i don't remember
+i don't know right now i don't remember so let's call it some constant say c to
+then there is integral of some differential form which i
+differential form which i write it by this i i call
+and there is a way of constructing a two and four uh and then if you integrate
+and four uh and then if you integrate is two and four on the manifold you get
+all your characters and this is also an example of a
+what uh tlc approved uh covers this as a very very special case
+very very special case but this theorem was a very hard theorem
+so this was around this result was around 1870s
+remember it was after gaussian when this was eventually
+groomed in this form but this result was around the 1930s
+and then there was a there was a very uh kind of uh nice proof after after
+after it was discovered and put by other people there was a nice group by chern
+around 1914 14 43 maybe or something
+so it took quite some time to first of all
+guess what the form of this differential form should be
+and how to generalize this now it is a remarkable theorem right because
+it is a remarkable theorem right because your metric
+could change you can you can you can have you can bend the surface in any
+have you can bend the surface in any special way around here or there and
+special way around here or there and then
+what what happens is that some places gets bigger curvature if you bend it
+gets bigger curvature if you bend it sharp
+faster way and then if you flat the surface in some areas in the smooth very
+surface in some areas in the smooth very flattering
+it doesn't change this topological environment which is
+environment which is euler characteristic always you can
+integrate curvature and you always get the same so here also
+form very much depends on the metric it will change from metric to metric but
+it will change from metric to metric but its integral
+its integral does it and gives you some
+so this was a kind of another clue for athena that uh
+for athena that uh there should be a formula i mean they
+other clues uh i should say but this is in hindsight and they eventually
+in hindsight and they eventually more or less immediately understood that
+more or less immediately understood that this also is covered by the journal
+but now there is another example which we also cover later in the course
+this is um there's a very famous theorem in
+women's surface theory it's called riemann rock theorem
+the situation is a bit like here except that
+now you start not just with the surface and the romanian metric actually you
+and the romanian metric actually you start with the surface
+and the complex structure and you pick some points
+on the surface with some weights um so this is uh say sigma now maybe m
+so pick a divisor i mean the terminology the classic terminology is called
+the classic terminology is called divisor
+and then so what is device the divisor is just
+a choice of finite number of points and some labels integers attached
+some labels integers attached so d is equal to
+some np and then p so it's a formal sum
+so it's a formal sum which is np's or zero except
+which is np's or zero except for finite number of uh listings
+for finite number of uh listings places this is called the divisor
+places this is called the divisor the riemann rock term uh in for for
+it says uh l of d minus l of k minus t
+minus uh genus g plus one
+okay so let me um explain a little bit of this you see
+a little bit of this you see uh what is nice about riemann rock
+uh what is nice about riemann rock theorem is that in this
+case actually the left hand side you see there is a difference of two numbers
+so if uh atheian singer understood that this can also be interpreted
+as index of an operator okay so this is actually equal to index
+of some operator d for some b uh that depends on the riemann surface
+uh that depends on the riemann surface that d
+depends on the linear surface and depends on the divisor
+we will see exactly how okay so now what is l of d
+this dimension of some space of
+you see this d you have to take that some
+points are designated and some integers are attached
+are attached so we are looking at metamorphic
+functions whose poles are not too bad whose poles
+actually stronger than np at those points
+points so they can have poles only at this
+and they don't have poles and riemann rock shows that this number is finite
+rock shows that this number is finite now this l of k minus t this k
+now this l of k minus t this k is not curvature by the way this k is
+so this is called canonical divisor this is another device that is called
+we will see that later on it doesn't matter
+but again once you fix that this is defined
+another space of the dimension of another
+space of metamorphic function that has this particular relation to this device
+this particular relation to this device so basically this result
+tries to count number of metamorphic functions of certain time on
+metamorphic functions of certain time on your limits
+your limits now look at let's look at the right hand
+the right hand side is completely topological
+this g is the genus of the surface and this is the of t is the sum of
+and this is the of t is the sum of energy again we will see that
+energy again we will see that this has very nice interpretation in
+this has very nice interpretation in terms of
+uh some line bundles on on the space that you can attach to this d and
+that you can attach to this d and this becomes an example of a tier single
+this becomes an example of a tier single index field
+so this is so dream and rock but then of course
+there is a much more general riemann rock term which
+works for complex monopoles of any dimension compare complex
+and instead of these divisors you have these holomorphic vector boundaries on
+these holomorphic vector boundaries on the manifold
+the manifold and that result also is a special case
+uh at a single index so this sort of quantities is computed by a
+this sort of quantities is computed by a testing index
+in that case the right hand side is the right hand side of the
+so what we are trying to do in this course now is to
+course now is to look at some of the necessary background
+now one of the backgrounds that you're going to start
+immediately is the way to construct these operators d right
+these operators d right are there any questions
+okay so um so before i stop uh just advertising
+stop uh just advertising uh what's our first goal
+so we want to create a large supply of these
+good operators d these are called the derived operators
+supply of such these which are good and at your single index theorem applies to
+at your single index theorem applies to those operators
+those operators so this gives us these good d's
+so this gives us these good d's so we want to understand
+uh how to construct these vlog operators and what we can do with them
+and what we can do with them so just
+very quickly the one of the ideas of the rock operations is this
+on a flat space the lock operator is the square root of the laplacian
+square root of the laplacian okay so on flat space
+uh d squared is it is an operator that satisfies this equation remember this
+satisfies this equation remember this equation
+as a kind of kind of symbol or mean
+symbol or mean if you d squared is equal to delta
+so this is equal to minus now remember we are on flat space so laplacian is
+very easy here so this is uh d 2
+plus b 2 d x 2 squared plus b n
+x 2 squared plus b n e x m squared
+it's just uh the standard laplacian and i put minus sign here uh
+and i put minus sign here uh so d tries uh to
+so d tries uh to write down a first order differential
+write down a first order differential operator that satisfies this
+so d if you want you can try something like this sigma
+you can try something like this sigma gamma mu dbx
+gamma mu dbx mu
+mu [Music]
+mu from 1 to n you can try your hand with such
+you can try your hand with such operators
+and then if you square this uh well i mean
+what's the square of this guy the score of this guy is going to be equal to
+mu i mean gamma mu gamma u plus
+gamma u plus gamma nu gamma mu
+d dx mu into dx into dx new
+mu into dx into dx new right
+equal to that and then you get the relations that you get these
+you get the relations that you get these relations which are called three-fourth
+which is gamma mu gamma nu plus m1 mmu
+is equal to minus 2 delta mu u right because these guys are
+delta mu u right because these guys are 0 and there are no mixed
+0 and there are no mixed operations here i mean partial
+operations here i mean partial derivatives
+just pure square partial derivatives and this imposes this relation
+what does these relations tell you it just tells you that if you want to solve
+just tells you that if you want to solve this equation
+for some first order partial differential operators
+differential operators you cannot find your operator within the
+operators with coefficients uh as real numbers or complex numbers there
+as real numbers or complex numbers there are no
+sets of complex numbers that satisfy this equation
+except that n is equal to one so n equal to one is totally trivial
+to one is totally trivial of course it's already a square of d dx
+i d dx one square right so we are not interested in that we want to go
+dimension two and above that if you want to go dimension 2 and above that
+to go dimension 2 and above that you cannot have these equations
+satisfied by any set of complex numbers so this was one of the big obstacles
+so this was one of the big obstacles knew that he had to find this kind of
+but there was an obstacle but then he noticed he had some amazing
+but then he noticed he had some amazing insight
+after thinking about the problem for a long time the insight was that
+long time the insight was that these equations can be solved within the
+this was a this was a big big discovery so um
+so as i said they are called of course i mean
+maybe i shouldn't say of course but mathematicians were here before
+mathematicians were here before physicists so clifford and hamilton
+and kaylee and some other guys have already talked deep and long about
+issues and in particular they have considered such
+relations especially clifford and that's why they're called clifford algebra
+relations so our first goal is to analyze these
+and find all possible solutions to such such equations
+such equations so rule one is
+in other words we want to find all possible incarnations
+possible incarnations of clifford algebra relations all
+that satisfy these equations for all possible values of
+n so this is a purely algebraic problem purely algebra problem right so that's
+purely algebra problem right so that's one
+one one thing and second problem is that
+is good only on flat space if your space is curved as we are
+if your space is curved as we are interested in as you saw
+interested in as you saw and if it has curvature then this
+relation is not good still we are interested in something
+similar to this so we want to define dirac operators in
+general on canvas spaces so our goal is
+and for this you will see that we have to introduce some gadgets
+we have to introduce some gadgets called spinners so we need
+called spinners so we need spinners spring groups
+and they give rise to the lock operators in general
+so that's that's that's our first goal um
+we have to solve both problems there's a purely algebraic problem
+purely algebraic problem and there's a second problem which is a
+topological and uh it's manifold so we'll solve this
+as our first goal as i said the key the clue maintained in all of this
+the clue maintained in all of this uh luckily one and two are actually
+uh luckily one and two are actually related problems
+related problems uh we can solve both problems within one
+context that's the context of clipboard us
+so that's where we start editing uh to to sort of gradually unravel
+uh to to sort of gradually unravel this uh to your senior index firm you
+as i said there are different openings to the subject you can
+to the subject you can reach it from different angles but this
+the one that right now seems to be quite reasonable so i will stop the

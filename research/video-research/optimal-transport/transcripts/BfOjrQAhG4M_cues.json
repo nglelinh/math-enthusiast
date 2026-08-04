@@ -1,0 +1,1297 @@
+[
+  {
+    "t_start": 4.15,
+    "t_end": 5.749,
+    "text": "okay so we've seen that optimal transport"
+  },
+  {
+    "t_start": 5.749,
+    "t_end": 9.19,
+    "text": "can well that can be formulated as a linear program"
+  },
+  {
+    "t_start": 9.19,
+    "t_end": 15.509,
+    "text": "that it can be solved by network flow problem but that this linear programming"
+  },
+  {
+    "t_start": 15.509,
+    "t_end": 16.95,
+    "text": "problem but that this linear programming formulation"
+  },
+  {
+    "t_start": 16.95,
+    "t_end": 23.269,
+    "text": "also has you know it is the exact thing um it is it gives us the best solution"
+  },
+  {
+    "t_start": 23.269,
+    "t_end": 25.99,
+    "text": "um it is it gives us the best solution for the problem that we're asking but"
+  },
+  {
+    "t_start": 25.99,
+    "t_end": 27.67,
+    "text": "for the problem that we're asking but sometimes we're not so sure about which"
+  },
+  {
+    "t_start": 27.67,
+    "t_end": 29.429,
+    "text": "sometimes we're not so sure about which problem we should be asking"
+  },
+  {
+    "t_start": 29.429,
+    "t_end": 33.11,
+    "text": "problem we should be asking the costs of transporting"
+  },
+  {
+    "t_start": 33.11,
+    "t_end": 36.15,
+    "text": "the costs of transporting things from somewhere to somewhere"
+  },
+  {
+    "t_start": 36.15,
+    "t_end": 40.79,
+    "text": "if estimated by neural network the costs themselves are not completely reliable"
+  },
+  {
+    "t_start": 40.79,
+    "t_end": 44.709,
+    "text": "themselves are not completely reliable and so perhaps we will be fine with an"
+  },
+  {
+    "t_start": 44.709,
+    "t_end": 50.229,
+    "text": "solution if it is much much faster if in addition it is differentiable and"
+  },
+  {
+    "t_start": 50.229,
+    "t_end": 52.069,
+    "text": "if in addition it is differentiable and has utter nice properties"
+  },
+  {
+    "t_start": 52.069,
+    "t_end": 55.51,
+    "text": "has utter nice properties and this is a strategy giving you all of"
+  },
+  {
+    "t_start": 55.51,
+    "t_end": 62.389,
+    "text": "is what i want to discuss now namely discrete optimal transport"
+  },
+  {
+    "t_start": 62.389,
+    "t_end": 65.91,
+    "text": "namely discrete optimal transport using sinkhorn iterations sinkhorn"
+  },
+  {
+    "t_start": 65.91,
+    "t_end": 71.19,
+    "text": "iterations have been known since at least the 60s and they were"
+  },
+  {
+    "t_start": 71.19,
+    "t_end": 73.03,
+    "text": "since at least the 60s and they were you know picked up repeatedly in machine"
+  },
+  {
+    "t_start": 73.03,
+    "t_end": 75.27,
+    "text": "you know picked up repeatedly in machine learning but"
+  },
+  {
+    "t_start": 75.27,
+    "t_end": 78.63,
+    "text": "this is the paper that i'm referring to in particular"
+  },
+  {
+    "t_start": 78.63,
+    "t_end": 83.03,
+    "text": "which you know focused on it or brought attention to it again"
+  },
+  {
+    "t_start": 83.03,
+    "t_end": 89.51,
+    "text": "in the context of optimal transport all right here is a reminder of what we"
+  },
+  {
+    "t_start": 89.51,
+    "t_end": 91.03,
+    "text": "all right here is a reminder of what we said at the end of"
+  },
+  {
+    "t_start": 91.03,
+    "t_end": 94.149,
+    "text": "said at the end of the last lecture and"
+  },
+  {
+    "t_start": 94.149,
+    "t_end": 102.95,
+    "text": "one way forward here is to use entropic regularization what does that mean"
+  },
+  {
+    "t_start": 102.95,
+    "t_end": 107.51,
+    "text": "regularization what does that mean it is perhaps best explained by"
+  },
+  {
+    "t_start": 107.51,
+    "t_end": 111.35,
+    "text": "it is perhaps best explained by this picture here taken from this"
+  },
+  {
+    "t_start": 111.35,
+    "t_end": 116.63,
+    "text": "this picture here taken from this book of peri"
+  },
+  {
+    "t_start": 119.99,
+    "t_end": 123.99,
+    "text": "so let's say that we have a triangular feasible region here"
+  },
+  {
+    "t_start": 123.99,
+    "t_end": 127.27,
+    "text": "a triangular feasible region here we're looking for the sweetest spot"
+  },
+  {
+    "t_start": 127.27,
+    "t_end": 129.589,
+    "text": "we're looking for the sweetest spot in this permissible region to solve a"
+  },
+  {
+    "t_start": 129.589,
+    "t_end": 130.79,
+    "text": "in this permissible region to solve a linear program"
+  },
+  {
+    "t_start": 130.79,
+    "t_end": 137.51,
+    "text": "the linear program has a cost vector like so and well the sweetest spot"
+  },
+  {
+    "t_start": 137.51,
+    "t_end": 139.589,
+    "text": "like so and well the sweetest spot given this feasible region and given"
+  },
+  {
+    "t_start": 139.589,
+    "t_end": 140.949,
+    "text": "given this feasible region and given this cost vector"
+  },
+  {
+    "t_start": 140.949,
+    "t_end": 146.869,
+    "text": "is this corner of the polytope remember solutions are always at a"
+  },
+  {
+    "t_start": 146.869,
+    "t_end": 148.229,
+    "text": "remember solutions are always at a corner of a polytope"
+  },
+  {
+    "t_start": 148.229,
+    "t_end": 155.11,
+    "text": "corner of a polytope or at most on the face of a of a"
+  },
+  {
+    "t_start": 158.55,
+    "t_end": 165.75,
+    "text": "you also see color coded the cost where here red is better"
+  },
+  {
+    "t_start": 165.75,
+    "t_end": 170.15,
+    "text": "and blue is worse now one can add"
+  },
+  {
+    "t_start": 170.15,
+    "t_end": 177.27,
+    "text": "now one can add a little bit of negative entropy or"
+  },
+  {
+    "t_start": 177.27,
+    "t_end": 182.71,
+    "text": "a lot of it as as a regularizer and"
+  },
+  {
+    "t_start": 185.91,
+    "t_end": 192.07,
+    "text": "add this p log p term to the originally linear objective"
+  },
+  {
+    "t_start": 192.07,
+    "t_end": 201.19,
+    "text": "to the originally linear objective and you get a mixed objective function"
+  },
+  {
+    "t_start": 203.99,
+    "t_end": 204.309,
+    "text": "this mixed objective function will have an"
+  },
+  {
+    "t_start": 204.309,
+    "t_end": 212.71,
+    "text": "optimum which no longer lies on a corner of your polyhedron"
+  },
+  {
+    "t_start": 212.71,
+    "t_end": 220.149,
+    "text": "so you remember that if the cost vector if it pointed here we found this corner"
+  },
+  {
+    "t_start": 220.149,
+    "t_end": 221.75,
+    "text": "if it pointed here we found this corner as optimal solution"
+  },
+  {
+    "t_start": 221.75,
+    "t_end": 228.869,
+    "text": "if the cost vector pointed there we would have found that corner as an"
+  },
+  {
+    "t_start": 228.869,
+    "t_end": 230.55,
+    "text": "we would have found that corner as an optimal solution"
+  },
+  {
+    "t_start": 230.55,
+    "t_end": 235.11,
+    "text": "optimal solution and well if we add the entropic"
+  },
+  {
+    "t_start": 235.11,
+    "t_end": 242.789,
+    "text": "then under the blue vector we will find this solution"
+  },
+  {
+    "t_start": 242.789,
+    "t_end": 246.309,
+    "text": "we will find this solution and under the green cost vector we will"
+  },
+  {
+    "t_start": 246.309,
+    "t_end": 252.869,
+    "text": "that solution so practically the same or almost the same solution or"
+  },
+  {
+    "t_start": 252.869,
+    "t_end": 256.789,
+    "text": "the same or almost the same solution or let's say as we change the cost vector"
+  },
+  {
+    "t_start": 256.789,
+    "t_end": 261.27,
+    "text": "uh changes smoothly and does not you know suddenly jump"
+  },
+  {
+    "t_start": 261.27,
+    "t_end": 267.99,
+    "text": "from one corner to another corner and that is desirable if we want to be"
+  },
+  {
+    "t_start": 267.99,
+    "t_end": 269.11,
+    "text": "and that is desirable if we want to be able to end to end"
+  },
+  {
+    "t_start": 269.11,
+    "t_end": 273.11,
+    "text": "able to end to end train such systems"
+  },
+  {
+    "t_start": 276.469,
+    "t_end": 281.189,
+    "text": "a disadvantage is that if you think of the corners of this"
+  },
+  {
+    "t_start": 281.189,
+    "t_end": 288.39,
+    "text": "meaning that there is or is not flow or assignment"
+  },
+  {
+    "t_start": 288.39,
+    "t_end": 293.189,
+    "text": "or is not flow or assignment or let's say flow between source element"
+  },
+  {
+    "t_start": 293.189,
+    "t_end": 298.31,
+    "text": "and the sync element um if we have the solution in the inside"
+  },
+  {
+    "t_start": 298.31,
+    "t_end": 305.51,
+    "text": "of this polytope it means that we get really dense solutions out"
+  },
+  {
+    "t_start": 305.51,
+    "t_end": 312.469,
+    "text": "that we get really dense solutions out so what do i mean by that in the optimal"
+  },
+  {
+    "t_start": 316.629,
+    "t_end": 318.79,
+    "text": "we saw one so for these source and target distributions"
+  },
+  {
+    "t_start": 318.79,
+    "t_end": 319.99,
+    "text": "these source and target distributions and for that"
+  },
+  {
+    "t_start": 319.99,
+    "t_end": 325.51,
+    "text": "transport cost matrix shown on the right the resulting optimal solution was the"
+  },
+  {
+    "t_start": 325.51,
+    "t_end": 326.469,
+    "text": "the resulting optimal solution was the transport plan"
+  },
+  {
+    "t_start": 326.469,
+    "t_end": 331.67,
+    "text": "shown on the left and well the most striking thing is that actually most of"
+  },
+  {
+    "t_start": 331.67,
+    "t_end": 333.27,
+    "text": "striking thing is that actually most of the elements in the transport plan"
+  },
+  {
+    "t_start": 333.27,
+    "t_end": 340.07,
+    "text": "are zero or in other words we looked at this dark blue element here"
+  },
+  {
+    "t_start": 340.07,
+    "t_end": 341.189,
+    "text": "we looked at this dark blue element here before"
+  },
+  {
+    "t_start": 341.189,
+    "t_end": 345.67,
+    "text": "before the dark blue element some of it went"
+  },
+  {
+    "t_start": 345.67,
+    "t_end": 349.11,
+    "text": "here excuse me some of it went to the second"
+  },
+  {
+    "t_start": 349.11,
+    "t_end": 352.87,
+    "text": "and some of it went to the fourth pin and"
+  },
+  {
+    "t_start": 352.87,
+    "t_end": 357.11,
+    "text": "none of it went anywhere else exactly none of it"
+  },
+  {
+    "t_start": 357.11,
+    "t_end": 360.15,
+    "text": "if we now use this entropy regularization"
+  },
+  {
+    "t_start": 360.15,
+    "t_end": 364.71,
+    "text": "regularization well we will push a little bit of it"
+  },
+  {
+    "t_start": 364.71,
+    "t_end": 372.39,
+    "text": "and a little bit over there and a little bit over there so we will get"
+  },
+  {
+    "t_start": 372.39,
+    "t_end": 373.43,
+    "text": "a much smoother solutions where each source bin"
+  },
+  {
+    "t_start": 373.43,
+    "t_end": 381.35,
+    "text": "contributes to every target bin and well this can be a problem and"
+  },
+  {
+    "t_start": 381.35,
+    "t_end": 383.35,
+    "text": "and well this can be a problem and depending on what you want which is why"
+  },
+  {
+    "t_start": 383.35,
+    "t_end": 384.469,
+    "text": "depending on what you want which is why i'm mentioning it here"
+  },
+  {
+    "t_start": 384.469,
+    "t_end": 387.749,
+    "text": "i'm mentioning it here explicitly"
+  },
+  {
+    "t_start": 391.27,
+    "t_end": 395.189,
+    "text": "why is that so i've here shown you a one-dimensional example so"
+  },
+  {
+    "t_start": 395.189,
+    "t_end": 399.909,
+    "text": "a one-dimensional example so let's say that"
+  },
+  {
+    "t_start": 403.029,
+    "t_end": 407.11,
+    "text": "here is my feasible region let's say the feasible"
+  },
+  {
+    "t_start": 407.11,
+    "t_end": 414.87,
+    "text": "is given by everything to the right of"
+  },
+  {
+    "t_start": 414.87,
+    "t_end": 418.79,
+    "text": "the zero that would be my feasible region and in this one dimensional"
+  },
+  {
+    "t_start": 418.79,
+    "t_end": 420.87,
+    "text": "region and in this one dimensional optimization problem"
+  },
+  {
+    "t_start": 420.87,
+    "t_end": 424.39,
+    "text": "optimization problem my cost vector is just a scalar number"
+  },
+  {
+    "t_start": 424.39,
+    "t_end": 428.469,
+    "text": "it says that the further right i go the higher the cost"
+  },
+  {
+    "t_start": 428.469,
+    "t_end": 431.589,
+    "text": "so my linear programming solution in this case would be at"
+  },
+  {
+    "t_start": 431.589,
+    "t_end": 435.029,
+    "text": "this case would be at zero because i want to make the cost as"
+  },
+  {
+    "t_start": 435.029,
+    "t_end": 441.51,
+    "text": "but i cannot go to the left of zero so my linear programming solution here"
+  },
+  {
+    "t_start": 441.51,
+    "t_end": 442.55,
+    "text": "so my linear programming solution here would be at"
+  },
+  {
+    "t_start": 442.55,
+    "t_end": 449.11,
+    "text": "zero if i now add a little bit of negative entropy"
+  },
+  {
+    "t_start": 449.11,
+    "t_end": 452.15,
+    "text": "add a little bit of negative entropy um so p log p which"
+  },
+  {
+    "t_start": 452.15,
+    "t_end": 457.35,
+    "text": "um so p log p which is the green curve that i've shown there"
+  },
+  {
+    "t_start": 457.35,
+    "t_end": 465.11,
+    "text": "then this curve will have an infinite slope at the origin"
+  },
+  {
+    "t_start": 465.11,
+    "t_end": 469.51,
+    "text": "an infinite slope at the origin that means if we make an infinitesimally"
+  },
+  {
+    "t_start": 469.51,
+    "t_end": 473.51,
+    "text": "away to from zero in the positive direction"
+  },
+  {
+    "t_start": 473.51,
+    "t_end": 477.51,
+    "text": "the gain from the organization term because it has an infinite"
+  },
+  {
+    "t_start": 477.51,
+    "t_end": 482.869,
+    "text": "because it has an infinite negative slope will be much larger than"
+  },
+  {
+    "t_start": 482.869,
+    "t_end": 489.27,
+    "text": "and the result is that my optimum solution will move away from"
+  },
+  {
+    "t_start": 489.27,
+    "t_end": 491.51,
+    "text": "my optimum solution will move away from the boundary"
+  },
+  {
+    "t_start": 491.51,
+    "t_end": 495.27,
+    "text": "so in fact here if my cost factor has a slope of plus one"
+  },
+  {
+    "t_start": 495.27,
+    "t_end": 499.35,
+    "text": "then i would look for the place where the the cost and the"
+  },
+  {
+    "t_start": 499.35,
+    "t_end": 506.469,
+    "text": "which would be at the point where this has a slope of minus -1 so probably"
+  },
+  {
+    "t_start": 506.469,
+    "t_end": 509.029,
+    "text": "this has a slope of minus -1 so probably the optimum solution would be"
+  },
+  {
+    "t_start": 509.029,
+    "t_end": 513.67,
+    "text": "the optimum solution would be no longer zero but round about here"
+  },
+  {
+    "t_start": 515.19,
+    "t_end": 518.07,
+    "text": "and this was a one-dimensional example but the same holds in higher dimensions"
+  },
+  {
+    "t_start": 518.07,
+    "t_end": 521.35,
+    "text": "but the same holds in higher dimensions okay so if you look at the black thing"
+  },
+  {
+    "t_start": 521.35,
+    "t_end": 524.79,
+    "text": "the linear programming formulation of optimal transport"
+  },
+  {
+    "t_start": 524.79,
+    "t_end": 530.55,
+    "text": "that we saw before again p was the matrix describing the"
+  },
+  {
+    "t_start": 530.55,
+    "t_end": 531.99,
+    "text": "p was the matrix describing the transportation plan"
+  },
+  {
+    "t_start": 531.99,
+    "t_end": 536.63,
+    "text": "transportation plan c was the matrix describing the cost"
+  },
+  {
+    "t_start": 536.63,
+    "t_end": 542.15,
+    "text": "vector and we now add to it this green term"
+  },
+  {
+    "t_start": 542.15,
+    "t_end": 547.11,
+    "text": "and we now add to it this green term and the main thing you see here is plp"
+  },
+  {
+    "t_start": 550.31,
+    "t_end": 556.63,
+    "text": "a user choice or you know this factor gamma uh which the user needs to"
+  },
+  {
+    "t_start": 556.63,
+    "t_end": 557.19,
+    "text": "factor gamma uh which the user needs to determine"
+  },
+  {
+    "t_start": 557.19,
+    "t_end": 560.55,
+    "text": "how big do we want to make this contribution"
+  },
+  {
+    "t_start": 560.55,
+    "t_end": 568.15,
+    "text": "and there is a minus one in there which is in there just to make the math"
+  },
+  {
+    "t_start": 568.15,
+    "t_end": 571.75,
+    "text": "which is in there just to make the math nicer okay"
+  },
+  {
+    "t_start": 571.75,
+    "t_end": 575.75,
+    "text": "nicer okay as you will see in a moment"
+  },
+  {
+    "t_start": 578.31,
+    "t_end": 579.59,
+    "text": "so to solve this kind of optimization problem"
+  },
+  {
+    "t_start": 579.59,
+    "t_end": 587.269,
+    "text": "one way forward is to formulate the lagrangian so the lagrangian"
+  },
+  {
+    "t_start": 587.269,
+    "t_end": 592.07,
+    "text": "lagrangian so the lagrangian depends on my original variable that i"
+  },
+  {
+    "t_start": 592.07,
+    "t_end": 599.03,
+    "text": "but also on lagrange multiplier here vectors of lagrange multipliers"
+  },
+  {
+    "t_start": 599.03,
+    "t_end": 605.269,
+    "text": "and in this lagrangian i have copied down the objective"
+  },
+  {
+    "t_start": 605.269,
+    "t_end": 606.79,
+    "text": "i have copied down the objective function"
+  },
+  {
+    "t_start": 606.79,
+    "t_end": 611.269,
+    "text": "and then there are these extra terms lagrange multiplier"
+  },
+  {
+    "t_start": 611.269,
+    "t_end": 619.19,
+    "text": "times constraint so the p times 1 should be a"
+  },
+  {
+    "t_start": 619.19,
+    "t_end": 623.509,
+    "text": "times 1 should be a so here this one is again the"
+  },
+  {
+    "t_start": 629.35,
+    "t_end": 631.03,
+    "text": "this was the normalization constraint that our transport plan"
+  },
+  {
+    "t_start": 631.03,
+    "t_end": 639.19,
+    "text": "should transport everything away from a and it should bring everything we need"
+  },
+  {
+    "t_start": 639.19,
+    "t_end": 646.79,
+    "text": "constraints are now no longer constraints but are added to the"
+  },
+  {
+    "t_start": 646.79,
+    "t_end": 650.949,
+    "text": "and then you differentiate this lagrangian with respect to the variable"
+  },
+  {
+    "t_start": 650.949,
+    "t_end": 654.63,
+    "text": "lagrangian with respect to the variable that we want to optimize over and i'm"
+  },
+  {
+    "t_start": 654.63,
+    "t_end": 658.949,
+    "text": "quickly because i still want to talk about wasserstein guns later today"
+  },
+  {
+    "t_start": 658.949,
+    "t_end": 665.829,
+    "text": "you can study this in more detail but um you know the this funny minus one that"
+  },
+  {
+    "t_start": 665.829,
+    "t_end": 667.35,
+    "text": "you know the this funny minus one that you saw earlier in the objective"
+  },
+  {
+    "t_start": 667.35,
+    "t_end": 670.55,
+    "text": "you saw earlier in the objective it nicely cancels and"
+  },
+  {
+    "t_start": 670.55,
+    "t_end": 674.389,
+    "text": "it nicely cancels and you are left with this and if you"
+  },
+  {
+    "t_start": 674.389,
+    "t_end": 683.269,
+    "text": "you find that the optimal transport plan is given by a product of three things"
+  },
+  {
+    "t_start": 683.269,
+    "t_end": 688.389,
+    "text": "is given by a product of three things namely an exponentiated um"
+  },
+  {
+    "t_start": 688.389,
+    "t_end": 693.03,
+    "text": "negative lagrange multiplier where we again have in the denominator"
+  },
+  {
+    "t_start": 693.03,
+    "t_end": 698.15,
+    "text": "again have in the denominator this gamma so"
+  },
+  {
+    "t_start": 702.63,
+    "t_end": 707.11,
+    "text": "something like temperature now we have the exponentiated element of the"
+  },
+  {
+    "t_start": 707.11,
+    "t_end": 714.15,
+    "text": "and the other lagrange multiplier and we can just"
+  },
+  {
+    "t_start": 716.15,
+    "t_end": 721.59,
+    "text": "u this is an element of a vector v and this matrix here we call it a kernel"
+  },
+  {
+    "t_start": 721.59,
+    "t_end": 722.389,
+    "text": "and this matrix here we call it a kernel matrix"
+  },
+  {
+    "t_start": 722.389,
+    "t_end": 727.43,
+    "text": "element of a curl matrix k and so overall"
+  },
+  {
+    "t_start": 727.43,
+    "t_end": 734.15,
+    "text": "this is a true statement the trouble being that well it depends"
+  },
+  {
+    "t_start": 734.15,
+    "t_end": 736.069,
+    "text": "the trouble being that well it depends on these lagrange multipliers alpha and"
+  },
+  {
+    "t_start": 736.069,
+    "t_end": 739.829,
+    "text": "on these lagrange multipliers alpha and beta which we do not know"
+  },
+  {
+    "t_start": 742.87,
+    "t_end": 745.91,
+    "text": "and now you know what what happens is the munchausen thing the thing you don't"
+  },
+  {
+    "t_start": 745.91,
+    "t_end": 751.269,
+    "text": "the munchausen thing the thing you don't know you guess it somehow"
+  },
+  {
+    "t_start": 751.269,
+    "t_end": 757.03,
+    "text": "get a new update from which you improve your estimate of alpha and beta"
+  },
+  {
+    "t_start": 757.03,
+    "t_end": 758.949,
+    "text": "improve your estimate of alpha and beta or the exponentiated versions"
+  },
+  {
+    "t_start": 758.949,
+    "t_end": 763.75,
+    "text": "or the exponentiated versions and you iterate okay this is the basic"
+  },
+  {
+    "t_start": 766.79,
+    "t_end": 771.19,
+    "text": "so here in more detail these were the normalization constraints"
+  },
+  {
+    "t_start": 775.19,
+    "t_end": 778.87,
+    "text": "so we know that p times 1 should be a and p transpose one"
+  },
+  {
+    "t_start": 778.87,
+    "t_end": 784.069,
+    "text": "should be a and p transpose one should be b and"
+  },
+  {
+    "t_start": 791.99,
+    "t_end": 795.829,
+    "text": "in in terms of vector matrix products it is this where this funny notation"
+  },
+  {
+    "t_start": 795.829,
+    "t_end": 797.19,
+    "text": "it is this where this funny notation here means"
+  },
+  {
+    "t_start": 797.19,
+    "t_end": 803.269,
+    "text": "this is an element-wise product so k was a matrix v was a vector so the"
+  },
+  {
+    "t_start": 803.269,
+    "t_end": 805.03,
+    "text": "so k was a matrix v was a vector so the entire thing is a vector"
+  },
+  {
+    "t_start": 805.03,
+    "t_end": 809.03,
+    "text": "u was also a vector and so i'm here taking the element-wise product"
+  },
+  {
+    "t_start": 809.03,
+    "t_end": 812.15,
+    "text": "taking the element-wise product of the vector on the left and of the"
+  },
+  {
+    "t_start": 812.15,
+    "t_end": 816.23,
+    "text": "vector on the right and now solving this respect with"
+  },
+  {
+    "t_start": 816.23,
+    "t_end": 819.75,
+    "text": "which involves the lagrange multipliers alpha we get"
+  },
+  {
+    "t_start": 819.75,
+    "t_end": 825.509,
+    "text": "something which so a is known this is the stuff we wanted to transport"
+  },
+  {
+    "t_start": 825.509,
+    "t_end": 826.79,
+    "text": "this is the stuff we wanted to transport away b"
+  },
+  {
+    "t_start": 826.79,
+    "t_end": 829.829,
+    "text": "is known this is the stuff where we wanted to"
+  },
+  {
+    "t_start": 829.829,
+    "t_end": 835.11,
+    "text": "stuff to end up k is known as the exponentiated"
+  },
+  {
+    "t_start": 835.11,
+    "t_end": 840.87,
+    "text": "cost matrix and the v and u are unknown and you see that the update equation for"
+  },
+  {
+    "t_start": 840.87,
+    "t_end": 844.87,
+    "text": "you depends on v and the update equation for v depends on"
+  },
+  {
+    "t_start": 844.87,
+    "t_end": 848.47,
+    "text": "you and you can now iterate this and you will"
+  },
+  {
+    "t_start": 848.47,
+    "t_end": 855.99,
+    "text": "a stationary point and overall this gives you"
+  },
+  {
+    "t_start": 855.99,
+    "t_end": 860.47,
+    "text": "overall this gives you a very fast algorithm"
+  },
+  {
+    "t_start": 860.47,
+    "t_end": 863.59,
+    "text": "a very fast algorithm so um"
+  },
+  {
+    "t_start": 863.59,
+    "t_end": 867.99,
+    "text": "here from this paper that i cited earlier"
+  },
+  {
+    "t_start": 867.99,
+    "t_end": 872.87,
+    "text": "we see how much stuff you want to transport away"
+  },
+  {
+    "t_start": 872.87,
+    "t_end": 880.31,
+    "text": "and want to transport somewhere so the biggest thing here is histograms"
+  },
+  {
+    "t_start": 880.31,
+    "t_end": 880.87,
+    "text": "so the biggest thing here is histograms with"
+  },
+  {
+    "t_start": 880.87,
+    "t_end": 888.069,
+    "text": "4 000 items or bins and the execution time here"
+  },
+  {
+    "t_start": 888.069,
+    "t_end": 893.99,
+    "text": "is a logarithmic so you can see that this is something like you know"
+  },
+  {
+    "t_start": 893.99,
+    "t_end": 896.87,
+    "text": "that this is something like you know three orders of magnitude faster than"
+  },
+  {
+    "t_start": 896.87,
+    "t_end": 898.949,
+    "text": "three orders of magnitude faster than a previous algorithm which already was"
+  },
+  {
+    "t_start": 898.949,
+    "t_end": 900.31,
+    "text": "a previous algorithm which already was was not"
+  },
+  {
+    "t_start": 900.31,
+    "t_end": 906.949,
+    "text": "was not bad and because these are all matrix vector operations they are"
+  },
+  {
+    "t_start": 906.949,
+    "t_end": 908.87,
+    "text": "all matrix vector operations they are very gpu friendly"
+  },
+  {
+    "t_start": 908.87,
+    "t_end": 914.71,
+    "text": "so if you do it on gpu and you are about an order of magnitude faster than"
+  },
+  {
+    "t_start": 914.71,
+    "t_end": 915.91,
+    "text": "about an order of magnitude faster than if you do this on"
+  },
+  {
+    "t_start": 915.91,
+    "t_end": 918.949,
+    "text": "if you do this on on cpu"
+  },
+  {
+    "t_start": 922.15,
+    "t_end": 926.069,
+    "text": "now there was this fudge factor gamma you know which looked a little bit"
+  },
+  {
+    "t_start": 926.069,
+    "t_end": 933.03,
+    "text": "like a temperature and here you see its effect"
+  },
+  {
+    "t_start": 936.069,
+    "t_end": 939.67,
+    "text": "let the temperature go towards zero you approximate the exact solution so shown"
+  },
+  {
+    "t_start": 939.67,
+    "t_end": 939.99,
+    "text": "approximate the exact solution so shown here"
+  },
+  {
+    "t_start": 939.99,
+    "t_end": 944.31,
+    "text": "by the way you know what is this diagram this is the stuff"
+  },
+  {
+    "t_start": 944.31,
+    "t_end": 947.67,
+    "text": "this is the stuff this is our source this is our sink and"
+  },
+  {
+    "t_start": 947.67,
+    "t_end": 955.59,
+    "text": "p is our transport plan so where stuff goes and"
+  },
+  {
+    "t_start": 955.59,
+    "t_end": 959.43,
+    "text": "in the one dimensional case here for these absolutely continuous"
+  },
+  {
+    "t_start": 959.43,
+    "t_end": 960.55,
+    "text": "these absolutely continuous distributions"
+  },
+  {
+    "t_start": 960.55,
+    "t_end": 964.31,
+    "text": "and the optimal transport plan would really be zero"
+  },
+  {
+    "t_start": 964.31,
+    "t_end": 972.31,
+    "text": "outside a you know this curve here and"
+  },
+  {
+    "t_start": 972.31,
+    "t_end": 975.67,
+    "text": "curve here and so the one extreme if you let gamma go"
+  },
+  {
+    "t_start": 975.67,
+    "t_end": 983.269,
+    "text": "you approach the exact solution the other extreme if you let"
+  },
+  {
+    "t_start": 983.269,
+    "t_end": 986.71,
+    "text": "gamma go to infinity well this thing here is just the outer"
+  },
+  {
+    "t_start": 986.71,
+    "t_end": 993.829,
+    "text": "of the two limiting distributions this is always a valid transport plan"
+  },
+  {
+    "t_start": 993.829,
+    "t_end": 997.03,
+    "text": "this is always a valid transport plan yeah so if somebody asks you to come up"
+  },
+  {
+    "t_start": 997.03,
+    "t_end": 1000.47,
+    "text": "a valid transport plan you know without doing any math"
+  },
+  {
+    "t_start": 1000.47,
+    "t_end": 1004.55,
+    "text": "doing any math there's always this solution which just"
+  },
+  {
+    "t_start": 1004.55,
+    "t_end": 1007.829,
+    "text": "means well you know it's a stupid solution but"
+  },
+  {
+    "t_start": 1007.829,
+    "t_end": 1014.47,
+    "text": "let's say you take this you take a shovel and the bit of mass at"
+  },
+  {
+    "t_start": 1014.47,
+    "t_end": 1016.79,
+    "text": "you take a shovel and the bit of mass at this location"
+  },
+  {
+    "t_start": 1016.79,
+    "t_end": 1022.31,
+    "text": "you doggedly distribute it according to you know where the target"
+  },
+  {
+    "t_start": 1022.31,
+    "t_end": 1023.35,
+    "text": "according to you know where the target distribution"
+  },
+  {
+    "t_start": 1023.35,
+    "t_end": 1034.549,
+    "text": "wants it so if i if i cut across this"
+  },
+  {
+    "t_start": 1039.029,
+    "t_end": 1042.47,
+    "text": "distribution here i find just the thing at the top yeah and vice versa"
+  },
+  {
+    "t_start": 1042.47,
+    "t_end": 1049.35,
+    "text": "so and now i mixed up source and target but you take a little bit of dirt from"
+  },
+  {
+    "t_start": 1049.35,
+    "t_end": 1050.549,
+    "text": "but you take a little bit of dirt from the source"
+  },
+  {
+    "t_start": 1050.549,
+    "t_end": 1053.909,
+    "text": "and you distribute it perfectly according to"
+  },
+  {
+    "t_start": 1053.909,
+    "t_end": 1057.99,
+    "text": "where the target wants it but regardless of what you do with"
+  },
+  {
+    "t_start": 1057.99,
+    "t_end": 1061.59,
+    "text": "all the other yeah so this is the stupid solution but this one you reach"
+  },
+  {
+    "t_start": 1061.59,
+    "t_end": 1065.19,
+    "text": "solution but this one you reach in the limit of infinite temperature"
+  },
+  {
+    "t_start": 1065.19,
+    "t_end": 1068.549,
+    "text": "in the limit of infinite temperature now the number of iterations that you"
+  },
+  {
+    "t_start": 1068.549,
+    "t_end": 1076.95,
+    "text": "need depends on this temperature now if you want to be really close to"
+  },
+  {
+    "t_start": 1080.31,
+    "t_end": 1084.31,
+    "text": "to the exact solution you have to choose a small gamma and you see that working"
+  },
+  {
+    "t_start": 1084.31,
+    "t_end": 1087.35,
+    "text": "with a small gamma is more expensive than working with a"
+  },
+  {
+    "t_start": 1087.35,
+    "t_end": 1091.51,
+    "text": "large gamma"
+  },
+  {
+    "t_start": 1094.789,
+    "t_end": 1098.95,
+    "text": "so the thing is fast as it is it can be made faster still"
+  },
+  {
+    "t_start": 1098.95,
+    "t_end": 1102.07,
+    "text": "it can be made faster still if in these matrix vector operations you"
+  },
+  {
+    "t_start": 1102.07,
+    "t_end": 1102.95,
+    "text": "if in these matrix vector operations you don't use"
+  },
+  {
+    "t_start": 1102.95,
+    "t_end": 1106.23,
+    "text": "don't use the full matrix and the full vector but"
+  },
+  {
+    "t_start": 1106.23,
+    "t_end": 1110.789,
+    "text": "subsample both and how to do that is describe for example"
+  },
+  {
+    "t_start": 1110.789,
+    "t_end": 1113.83,
+    "text": "describe for example in this paper here"
+  },
+  {
+    "t_start": 1116.95,
+    "t_end": 1120.07,
+    "text": "and it is also differentiable why because we the entire"
+  },
+  {
+    "t_start": 1120.07,
+    "t_end": 1126.87,
+    "text": "way or to the solution is just you know a long series of matrix vector"
+  },
+  {
+    "t_start": 1126.87,
+    "t_end": 1129.27,
+    "text": "you know a long series of matrix vector products element wise or are in the"
+  },
+  {
+    "t_start": 1129.27,
+    "t_end": 1131.11,
+    "text": "products element wise or are in the conventional sense"
+  },
+  {
+    "t_start": 1131.11,
+    "t_end": 1136.63,
+    "text": "and such linear operations are something that you can formally you"
+  },
+  {
+    "t_start": 1136.63,
+    "t_end": 1139.27,
+    "text": "are something that you can formally you know write as a new network"
+  },
+  {
+    "t_start": 1139.27,
+    "t_end": 1141.27,
+    "text": "know write as a new network is anyway it's something that you can"
+  },
+  {
+    "t_start": 1141.27,
+    "t_end": 1143.27,
+    "text": "is anyway it's something that you can always differentiate"
+  },
+  {
+    "t_start": 1143.27,
+    "t_end": 1148.39,
+    "text": "always differentiate through so in summary the synchron"
+  },
+  {
+    "t_start": 1148.39,
+    "t_end": 1150.71,
+    "text": "iterations are fast they're differentiable and they're"
+  },
+  {
+    "t_start": 1150.71,
+    "t_end": 1152.47,
+    "text": "they're differentiable and they're approximate"
+  },
+  {
+    "t_start": 1152.47,
+    "t_end": 1157.83,
+    "text": "which sometimes is good if you want this smoothness with respect"
+  },
+  {
+    "t_start": 1157.83,
+    "t_end": 1158.87,
+    "text": "if you want this smoothness with respect to the cost"
+  },
+  {
+    "t_start": 1158.87,
+    "t_end": 1164.07,
+    "text": "it's sometimes bad in particular if you care about getting spar solutions out"
+  },
+  {
+    "t_start": 1164.07,
+    "t_end": 1167.99,
+    "text": "care about getting spar solutions out you know this is not what you get here"
+  },
+  {
+    "t_start": 1167.99,
+    "t_end": 1174.47,
+    "text": "but this is a very nice solver for discrete optimal transport and again"
+  },
+  {
+    "t_start": 1174.47,
+    "t_end": 1180.71,
+    "text": "discrete optimal transport and again the reference for"
+  },
+  {
+    "t_start": 1183.909,
+    "t_end": 1187.029,
+    "text": "this work is here but it's also very nicely described in this book by"
+  },
+  {
+    "t_start": 1187.029,
+    "t_end": 1193.84,
+    "text": "nicely described in this book by perry and kotori what you find in the"
+  }
+]

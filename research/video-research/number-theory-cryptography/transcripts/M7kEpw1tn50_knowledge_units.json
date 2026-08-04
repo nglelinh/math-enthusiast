@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ku_video_M7kEpw1tn50_0",
+    "t_start": 0.7,
+    "t_end": 91.4,
+    "type": "overview",
+    "summary": "DR. JAMES GRIME: So I've got a very big number to show you today used by NatWest Bank so that you can send them your secret bank details. It starts 2 3 4 5 3 6 7 6 2 8-- [MULTIPLE CLIPS OF NUMBERS BEING COUNTED AT THE SAME TIME] --7. Did you get that, or do you want me to repeat it? So this number that we are reading out is 617 digits long. All banks have similar numbers when you want to send them your credit card details. This is not a secret number. In fact, your computer will download this number when it wants to send your credit card details. It's there to find. This is public. So this cod…"
+  },
+  {
+    "id": "ku_video_M7kEpw1tn50_91",
+    "t_start": 91.4,
+    "t_end": 182.6,
+    "type": "overview",
+    "summary": "that, well, one person could steal someone else's box and use the key to unlock it and read their secrets. That would be terrible. We can't do that. So what the banks do, same sort of idea but instead of giving out keys, they give out padlocks. So they give everyone a box. You've got a secret. Put it inside the box. Lock it not with a key but with a padlock. It goes click. It's snapped shut. Once it's locked and snapped shut, you don't have the padlock key, so you can't reverse it. You can't open it up. So if someone steals your box, they don't have the key either. They've got padlock, but the…"
+  },
+  {
+    "id": "ku_video_M7kEpw1tn50_182",
+    "t_start": 182.6,
+    "t_end": 273.9,
+    "type": "overview",
+    "summary": "Simple stuff. C is 3, D is 4. Now I'm going to turn it into a code, and I'm going to use the number 3. Now there are some codes that would just add 3, or there are some codes that would multiply by 3. What we're going to do is raise to the power 3, so we're going to cube these numbers here. Let's do that. So I get 2 cubed, which is 8. 1 cubed, which is 1. 5 cubed is 125. And 6 cubed, 216. The final step is to use the second number, the number 10. I'm going to divide by 10, and I'm going to look at the remainder. So if I take something like 512, when I divide by 10, it would be 51 10's and 2 le…"
+  },
+  {
+    "id": "ku_video_M7kEpw1tn50_273",
+    "t_start": 273.9,
+    "t_end": 365.4,
+    "type": "overview",
+    "summary": "We divide by 10, and find the remainder. And then the decoder will turn that into letters, which is B, and he gets the message back again, BAD CHEF. Now that's just a taste of how it works. That's the process that your computer does every time you buy something on Amazon or eBay. One of the important numbers in this code was this 10. Now this 10 was made by multiplying two prime numbers together-- 2 times 5 are prime numbers. Multiply them together and you get 10. Now that massive number that I showed you that NatWest uses is the same idea. It's two massive prime numbers multiplied together. T…"
+  },
+  {
+    "id": "ku_video_M7kEpw1tn50_365",
+    "t_start": 365.4,
+    "t_end": 456.1,
+    "type": "overview",
+    "summary": "its original primes. A few years ago, a team of academics managed to break the 768-bit number. It took this team of academics with all their resources two years to break at 768-bit key. And they said that to break what we use now, which is about 1,024, would take thousands of times longer. But given the speed of technology, they reckon that this sort of code, 1,024-bit, could be broken within a few years, they said. They said that a few years ago. So this should now start to be replaced. Gmail still uses this, but this should be replaced. And as you can see, NatWest have done that. All the ban…"
+  },
+  {
+    "id": "ku_video_M7kEpw1tn50_456",
+    "t_start": 456.1,
+    "t_end": 548.2,
+    "type": "overview",
+    "summary": "And it's going to be a prime number, so p for prime. I'm going to raise it to a power, and I'm going to takeaway x. This is a multiple of p, the prime number. Let me do an example. What I mean is if you took a number like 4, and then I took a prime number like 5, and then I takeaway 4, I would get 4 to the power 5, which is 1,024, takeaway 4, which is 1,020. And that is a multiple of 5, but that would be guaranteed. You're guaranteed to have a multiple of 5. Now you can imagine that in the 17th century when Fermat came up with this factor, people said, well, very nice mathematical fact, but th…"
+  },
+  {
+    "id": "ku_video_M7kEpw1tn50_548",
+    "t_start": 548.2,
+    "t_end": 560.8,
+    "type": "overview",
+    "summary": "inside the Bank of England gold bullion vault, where they have a couple hundred billion pounds worth of gold lying around. That's not something you see every day. The link is here on the screen and below the video."
+  }
+]

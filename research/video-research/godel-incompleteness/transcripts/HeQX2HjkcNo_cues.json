@@ -1,0 +1,1577 @@
+[
+  {
+    "t_start": 0.934,
+    "t_end": 4.095,
+    "text": "There is a hole at the bottom of math"
+  },
+  {
+    "t_start": 4.095,
+    "t_end": 9.12,
+    "text": "a hole that means we will never know everything with certainty"
+  },
+  {
+    "t_start": 9.12,
+    "t_end": 14.225,
+    "text": "There will always be true statements that cannot be proven."
+  },
+  {
+    "t_start": 14.225,
+    "t_end": 17.453,
+    "text": "Now no one knows what those statements are exactly"
+  },
+  {
+    "t_start": 17.453,
+    "t_end": 20.997,
+    "text": "but they could be something like the Twin Prime Conjecture."
+  },
+  {
+    "t_start": 20.997,
+    "t_end": 27.36,
+    "text": "Twin primes are prime numbers that are separated by just one number like 11 and 13, or 17 and 19."
+  },
+  {
+    "t_start": 27.92,
+    "t_end": 34.4,
+    "text": "And as you go up the number line primes occur less frequently and twin primes are rarer still."
+  },
+  {
+    "t_start": 34.4,
+    "t_end": 38.075,
+    "text": "But the Twin Prime Conjecture is that there are infinitely many twin primes."
+  },
+  {
+    "t_start": 38.075,
+    "t_end": 41.463,
+    "text": "You never run out them."
+  },
+  {
+    "t_start": 41.463,
+    "t_end": 46.571,
+    "text": "As of right now no one has proven this conjecture true or false."
+  },
+  {
+    "t_start": 46.571,
+    "t_end": 51.12,
+    "text": "But the crazy thing is this: we may never know"
+  },
+  {
+    "t_start": 51.12,
+    "t_end": 57.28,
+    "text": "because what has been proven is that in any system of mathematics where you can do basic arithmetic"
+  },
+  {
+    "t_start": 57.28,
+    "t_end": 63.133,
+    "text": "there will always be true statements that are impossible to prove."
+  },
+  {
+    "t_start": 63.133,
+    "t_end": 66.88,
+    "text": "That is life."
+  },
+  {
+    "t_start": 67.36,
+    "t_end": 73.52,
+    "text": "Specifically this is the Game of Life, created in 1970 by mathematician John Conway"
+  },
+  {
+    "t_start": 73.52,
+    "t_end": 80.32,
+    "text": "Sadly he passed away in 2020 from covet 19. Conway's game of life is played on an"
+  },
+  {
+    "t_start": 80.32,
+    "t_end": 87.36,
+    "text": "infinite grid of square cells each of which is either live or dead and there are only two rules"
+  },
+  {
+    "t_start": 88.24,
+    "t_end": 95.6,
+    "text": "one any dead cell with exactly three neighbors comes to life and two any living cell with less"
+  },
+  {
+    "t_start": 95.6,
+    "t_end": 101.68,
+    "text": "than two or more than three neighbors dies once you've set up the initial arrangement of cells"
+  },
+  {
+    "t_start": 102.32,
+    "t_end": 106.56,
+    "text": "the two rules are applied to create the next generation and then the one after that"
+  },
+  {
+    "t_start": 106.56,
+    "t_end": 112.64,
+    "text": "and the one after that and so on it's totally automatic Conway called it a zero player game"
+  },
+  {
+    "t_start": 113.36,
+    "t_end": 118.88,
+    "text": "but even though the rules are simple the game itself can generate a wide variety of behavior"
+  },
+  {
+    "t_start": 119.44,
+    "t_end": 125.68,
+    "text": "some patterns are stable once they arise they never change others oscillate back and forth in a"
+  },
+  {
+    "t_start": 125.68,
+    "t_end": 133.68,
+    "text": "loop a few can travel across the grid forever like this glider here many patterns just fizzle out"
+  },
+  {
+    "t_start": 138.08,
+    "t_end": 143.76,
+    "text": "but a few keep growing forever they keep generating new cells"
+  },
+  {
+    "t_start": 145.28,
+    "t_end": 148.88,
+    "text": "now you would think that given the simple rules of the game you could just"
+  },
+  {
+    "t_start": 148.88,
+    "t_end": 153.6,
+    "text": "look at any pattern and determine what will happen to it will it eventually reach a steady state"
+  },
+  {
+    "t_start": 154.88,
+    "t_end": 161.52,
+    "text": "or will it keep growing without limit but it turns out this question is impossible to answer"
+  },
+  {
+    "t_start": 162.32,
+    "t_end": 168.32,
+    "text": "the ultimate fate of a pattern in Conway's game of life is undecidable meaning there"
+  },
+  {
+    "t_start": 168.32,
+    "t_end": 173.36,
+    "text": "is no possible algorithm that is guaranteed to answer the question in a finite amount of time"
+  },
+  {
+    "t_start": 174.16,
+    "t_end": 178.4,
+    "text": "you could always just try running the pattern and see what happens i mean the rules of the game are"
+  },
+  {
+    "t_start": 178.4,
+    "t_end": 184.0,
+    "text": "a kind of algorithm after all but that's not guaranteed to give you an answer either because"
+  },
+  {
+    "t_start": 184.0,
+    "t_end": 188.48,
+    "text": "even if you run it for a million generations you won't be able to say whether it'll last"
+  },
+  {
+    "t_start": 188.48,
+    "t_end": 193.04,
+    "text": "forever or just 2 million generations or a billion or a googleplex"
+  },
+  {
+    "t_start": 194.08,
+    "t_end": 201.28,
+    "text": "is there something special about the game of life that makes it undecidable nope there are actually"
+  },
+  {
+    "t_start": 201.28,
+    "t_end": 208.08,
+    "text": "a huge number of systems that are undecidable like Wang tiles quantum physics airline ticketing"
+  },
+  {
+    "t_start": 208.08,
+    "t_end": 216.88,
+    "text": "systems and even magic the gathering to understand how undecidability shows up in all of these places"
+  },
+  {
+    "t_start": 216.88,
+    "t_end": 222.48,
+    "text": "we have to go back 150 years to a full-blown revolt in mathematics"
+  },
+  {
+    "t_start": 225.28,
+    "t_end": 231.28,
+    "text": "in 1874 Georg Cantor a german mathematician published a paper that launched a new branch"
+  },
+  {
+    "t_start": 231.28,
+    "t_end": 237.36,
+    "text": "of mathematics called set theory a set is just a well-defined collection of things"
+  },
+  {
+    "t_start": 237.36,
+    "t_end": 243.28,
+    "text": "so the two shoes on your feet are a set as are all the planetariums in the world there's a set"
+  },
+  {
+    "t_start": 243.28,
+    "t_end": 249.44,
+    "text": "with nothing in it the empty set and a set with everything in it now Cantor was thinking about"
+  },
+  {
+    "t_start": 249.44,
+    "t_end": 257.12,
+    "text": "sets of numbers like natural numbers positive integers like 1 2 3 4 and so on and real numbers"
+  },
+  {
+    "t_start": 257.12,
+    "t_end": 263.76,
+    "text": "which include fractions like a third five halves and also irrational numbers like pi e"
+  },
+  {
+    "t_start": 263.76,
+    "t_end": 268.88,
+    "text": "and the square root of two basically any number that can be represented as an infinite decimal"
+  },
+  {
+    "t_start": 270.24,
+    "t_end": 277.04,
+    "text": "he wondered are there more natural numbers or more real numbers between zero and one"
+  },
+  {
+    "t_start": 278.0,
+    "t_end": 283.04,
+    "text": "the answer might seem obvious there are an infinite number of each so both sets"
+  },
+  {
+    "t_start": 283.04,
+    "t_end": 289.2,
+    "text": "should be the same size but to check this logic canter imagined writing down an infinite list"
+  },
+  {
+    "t_start": 289.2,
+    "t_end": 294.16,
+    "text": "matching up each natural number on one side with a real number between zero and one on the other"
+  },
+  {
+    "t_start": 294.8,
+    "t_end": 300.48,
+    "text": "now since each real number is an infinite decimal there is no first one so we can just write them"
+  },
+  {
+    "t_start": 300.48,
+    "t_end": 306.24,
+    "text": "down in any random order the key is to make sure we get them all with no duplicates and line them"
+  },
+  {
+    "t_start": 306.24,
+    "t_end": 313.44,
+    "text": "up one to one with an integer if we can do that with none left over well then we know that the"
+  },
+  {
+    "t_start": 313.44,
+    "t_end": 320.16,
+    "text": "set of natural numbers and the set of real numbers between 0 and 1 are the same size so assume we've"
+  },
+  {
+    "t_start": 320.16,
+    "t_end": 326.88,
+    "text": "done that we have a complete infinite list with each integer acting like an index number a unique"
+  },
+  {
+    "t_start": 326.88,
+    "t_end": 334.48,
+    "text": "identifier for each real number on the list now Cantor says start writing down a new real number"
+  },
+  {
+    "t_start": 334.48,
+    "t_end": 340.16,
+    "text": "and the way we're going to do it is by taking the first digit of the first number and adding one"
+  },
+  {
+    "t_start": 340.8,
+    "t_end": 351.76,
+    "text": "third number add one and keep doing this all the way down the list if the digit is a nine just roll"
+  },
+  {
+    "t_start": 351.76,
+    "t_end": 358.72,
+    "text": "it back to an eight and by the end of this process you'll have a real number between zero and one but"
+  },
+  {
+    "t_start": 358.72,
+    "t_end": 365.44,
+    "text": "here's the thing this number won't appear anywhere on our list it's different from the first number"
+  },
+  {
+    "t_start": 365.44,
+    "t_end": 369.36,
+    "text": "in the first decimal place different from the second number in the second decimal place and"
+  },
+  {
+    "t_start": 369.36,
+    "t_end": 375.84,
+    "text": "so on down the line it has to be different from every number on the list by at least one digit"
+  },
+  {
+    "t_start": 375.84,
+    "t_end": 382.24,
+    "text": "the number on the diagonal that's why this is called Cantor's diagonalization proof"
+  },
+  {
+    "t_start": 382.8,
+    "t_end": 389.84,
+    "text": "it shows there must be more real numbers between 0 and 1 then there are natural numbers extending"
+  },
+  {
+    "t_start": 389.84,
+    "t_end": 398.0,
+    "text": "out to infinity so not all infinities are the same size Cantor call these countable and uncountable"
+  },
+  {
+    "t_start": 398.0,
+    "t_end": 403.68,
+    "text": "infinities respectively and in fact there are many more uncountable infinities which are even larger"
+  },
+  {
+    "t_start": 404.64,
+    "t_end": 409.68,
+    "text": "now Cantor's work was just the latest blow to mathematics for 2000 years Euclid's elements"
+  },
+  {
+    "t_start": 409.68,
+    "t_end": 415.2,
+    "text": "were considered the bedrock of the discipline but at the turn of the 19th century Lobashevsky and"
+  },
+  {
+    "t_start": 415.2,
+    "t_end": 420.8,
+    "text": "gauss discovered non-Euclidean geometries and this prompted mathematicians to examine more"
+  },
+  {
+    "t_start": 420.8,
+    "t_end": 427.52,
+    "text": "closely the foundations of their field and they did not like what they saw the idea of a limit"
+  },
+  {
+    "t_start": 427.52,
+    "t_end": 433.36,
+    "text": "at the heart of calculus turned out to be poorly defined and now Cantor was showing that infinity"
+  },
+  {
+    "t_start": 433.36,
+    "t_end": 439.36,
+    "text": "itself was much more complex than anyone had imagined in all this upheaval mathematics"
+  },
+  {
+    "t_start": 439.36,
+    "t_end": 444.56,
+    "text": "fractured and a huge debate broke out among mathematicians at the end of the 1800s on the"
+  },
+  {
+    "t_start": 444.56,
+    "t_end": 450.24,
+    "text": "one side were the intuitionists who thought that Cantor's work was nonsense they were convinced"
+  },
+  {
+    "t_start": 450.24,
+    "t_end": 456.4,
+    "text": "that math was a pure creation of the human mind and that infinities like Cantors weren't real"
+  },
+  {
+    "t_start": 457.2,
+    "t_end": 462.64,
+    "text": "Henri Poincaré said that later generations will regard set theory as a disease from which one"
+  },
+  {
+    "t_start": 462.64,
+    "t_end": 469.76,
+    "text": "has recovered Leopold Kronecker called Cantor a scientific charlatan and a corrupter of the youth"
+  },
+  {
+    "t_start": 469.76,
+    "t_end": 475.6,
+    "text": "and he worked to keep Cantor from getting a job he wanted on the other side were the formalists"
+  },
+  {
+    "t_start": 475.6,
+    "t_end": 480.64,
+    "text": "they thought that math could be put on absolutely secure logical foundations through Cantor's set"
+  },
+  {
+    "t_start": 480.64,
+    "t_end": 486.0,
+    "text": "theory the informal leader of the formalists was the german mathematician David Hilbert"
+  },
+  {
+    "t_start": 486.56,
+    "t_end": 492.0,
+    "text": "Hilbert was a living legend a hugely influential mathematician who had worked in nearly every area"
+  },
+  {
+    "t_start": 492.0,
+    "t_end": 497.92,
+    "text": "of mathematics he almost beat Einstein to the punch on general relativity he developed entirely"
+  },
+  {
+    "t_start": 497.92,
+    "t_end": 502.88,
+    "text": "new mathematical concepts that were crucial for quantum mechanics and he knew that Cantor's work"
+  },
+  {
+    "t_start": 502.88,
+    "t_end": 508.56,
+    "text": "was brilliant Hilbert was convinced that a more formal and rigorous system of mathematical proof"
+  },
+  {
+    "t_start": 508.56,
+    "t_end": 514.0,
+    "text": "based on set theory could solve all the issues that had cropped up in math over the last century"
+  },
+  {
+    "t_start": 514.0,
+    "t_end": 519.6,
+    "text": "and most other mathematicians agreed with him no one shall expel us from the paradise that Cantor"
+  },
+  {
+    "t_start": 519.6,
+    "t_end": 526.88,
+    "text": "has created Hilbert declared but in 1901 Bertrand Russell pointed out a serious problem in Cantor's"
+  },
+  {
+    "t_start": 526.88,
+    "t_end": 532.8,
+    "text": "set theory Russell knew that if sets can contain anything they can contain other sets or even"
+  },
+  {
+    "t_start": 532.8,
+    "t_end": 539.12,
+    "text": "themselves for example the set of all sets must contain itself as does the set of sets with more"
+  },
+  {
+    "t_start": 539.12,
+    "t_end": 543.84,
+    "text": "than five elements in them you could even talk about the set of all sets that contain themselves"
+  },
+  {
+    "t_start": 544.72,
+    "t_end": 551.6,
+    "text": "but this leads straight to a problem what about r the set of all sets that don't contain themselves"
+  },
+  {
+    "t_start": 552.32,
+    "t_end": 558.8,
+    "text": "if r doesn't contain itself well then it must contain itself but if r does contain itself"
+  },
+  {
+    "t_start": 558.8,
+    "t_end": 567.12,
+    "text": "then by definition it must not contain itself so r contains itself if and only if it doesn't Russell"
+  },
+  {
+    "t_start": 567.12,
+    "t_end": 573.44,
+    "text": "had found another paradox of self-reference and he later explained his paradox using a hairy"
+  },
+  {
+    "t_start": 573.44,
+    "t_end": 579.6,
+    "text": "analogy let's say there's a village populated entirely by grown men with a strange law against"
+  },
+  {
+    "t_start": 579.6,
+    "t_end": 584.72,
+    "text": "beards specifically the law states that the village barber must shave all and only those men"
+  },
+  {
+    "t_start": 584.72,
+    "t_end": 591.12,
+    "text": "of the village who do not shave themselves but the barber himself lives in the village too of course"
+  },
+  {
+    "t_start": 591.12,
+    "t_end": 597.92,
+    "text": "and he's a man so who shaves him if he doesn't shave himself then the barber has to shave him"
+  },
+  {
+    "t_start": 598.48,
+    "t_end": 603.52,
+    "text": "but the barber can't shave himself because the barber doesn't shave anyone who shaves themselves"
+  },
+  {
+    "t_start": 603.52,
+    "t_end": 610.24,
+    "text": "so the barber must shave himself if and only if he doesn't shave himself it's a contradiction"
+  },
+  {
+    "t_start": 611.36,
+    "t_end": 615.92,
+    "text": "the intuitionists rejoiced at Russell's paradox thinking it had proven set theory"
+  },
+  {
+    "t_start": 615.92,
+    "t_end": 620.8,
+    "text": "hopelessly flawed but zermelo and other mathematicians from Hilbert school"
+  },
+  {
+    "t_start": 620.8,
+    "t_end": 626.56,
+    "text": "solved the problem by restricting the concept of a set so the collection of all sets for example is"
+  },
+  {
+    "t_start": 626.56,
+    "t_end": 631.04,
+    "text": "not a set anymore and neither is the collection of all sets which don't contain themselves"
+  },
+  {
+    "t_start": 631.6,
+    "t_end": 635.76,
+    "text": "this eliminated the paradoxes that come with self-reference Hilbert and"
+  },
+  {
+    "t_start": 635.76,
+    "t_end": 641.92,
+    "text": "the formalists lived to fight another day but self-reference refused to die quite that easily"
+  },
+  {
+    "t_start": 643.76,
+    "t_end": 648.88,
+    "text": "fast forward to the 1960s and mathematician Hao Wang was looking at square tiles with different"
+  },
+  {
+    "t_start": 648.88,
+    "t_end": 654.24,
+    "text": "colors on each side like these the rules were that touching edges must be the same color"
+  },
+  {
+    "t_start": 654.24,
+    "t_end": 660.32,
+    "text": "and you can't rotate or reflect tiles only slide them around the question was if you're given an"
+  },
+  {
+    "t_start": 660.32,
+    "t_end": 666.16,
+    "text": "arbitrary set of these tiles can you tell if they will tile the plane that is will they connect"
+  },
+  {
+    "t_start": 666.16,
+    "t_end": 673.04,
+    "text": "up with no gaps all the way out to infinity it turns out you can't tell for an arbitrary set of"
+  },
+  {
+    "t_start": 673.04,
+    "t_end": 680.24,
+    "text": "tiles whether they will tile the plane or not the problem is undecidable just like the fate"
+  },
+  {
+    "t_start": 680.24,
+    "t_end": 686.88,
+    "text": "of a pattern in Conway's game of life in fact it's exactly the same problem and that problem"
+  },
+  {
+    "t_start": 686.88,
+    "t_end": 692.64,
+    "text": "ultimately comes from self-reference as Hilbert and the formalists were about to discover"
+  },
+  {
+    "t_start": 693.84,
+    "t_end": 698.08,
+    "text": "Hilbert wanted to secure the foundations of mathematics by developing a new system for"
+  },
+  {
+    "t_start": 698.08,
+    "t_end": 704.08,
+    "text": "mathematical proofs systems of proof were an old idea going back to the ancient greeks a system of"
+  },
+  {
+    "t_start": 704.08,
+    "t_end": 709.6,
+    "text": "proof starts with axioms basic statements that are assumed to be true like a straight line can"
+  },
+  {
+    "t_start": 709.6,
+    "t_end": 715.12,
+    "text": "be drawn between any two points proofs are then constructed from those axioms using rules of"
+  },
+  {
+    "t_start": 715.12,
+    "t_end": 720.88,
+    "text": "inference methods for using existing statements to derive new statements and these are chosen to"
+  },
+  {
+    "t_start": 720.88,
+    "t_end": 727.44,
+    "text": "preserve truth the existing statements are true then so are the new ones Hilbert wanted a formal"
+  },
+  {
+    "t_start": 727.44,
+    "t_end": 732.96,
+    "text": "system of proof a symbolic logical language with a rigid set of manipulation rules for those symbols"
+  },
+  {
+    "t_start": 733.6,
+    "t_end": 738.4,
+    "text": "logical and mathematical statements could then be translated into this system if you drop a"
+  },
+  {
+    "t_start": 738.4,
+    "t_end": 746.0,
+    "text": "book then it will fall would be a then b and no human is immortal would be expressed like this"
+  },
+  {
+    "t_start": 748.08,
+    "t_end": 752.8,
+    "text": "Hilbert and the formalists wanted to express the axioms of mathematics as symbolic statements"
+  },
+  {
+    "t_start": 752.8,
+    "t_end": 757.52,
+    "text": "in a formal system and set up the rules of inference as the system's rules for"
+  },
+  {
+    "t_start": 757.52,
+    "t_end": 762.24,
+    "text": "symbol manipulation so Russell along with Alfred North Whitehead"
+  },
+  {
+    "t_start": 762.24,
+    "t_end": 766.4,
+    "text": "developed a formal system like this in their three-volume Principia Mathematica"
+  },
+  {
+    "t_start": 766.4,
+    "t_end": 774.8,
+    "text": "published in 1913. Principia Mathematica is vast a total of nearly 2 000 pages of dense mathematical"
+  },
+  {
+    "t_start": 774.8,
+    "t_end": 782.48,
+    "text": "notation it takes 762 pages just to get to a complete proof that one plus one equals two"
+  },
+  {
+    "t_start": 783.04,
+    "t_end": 788.88,
+    "text": "at which point Russell and Whitehead dryly note the above proposition is occasionally useful"
+  },
+  {
+    "t_start": 789.76,
+    "t_end": 793.76,
+    "text": "the authors had originally planned a fourth volume but unsurprisingly"
+  },
+  {
+    "t_start": 793.76,
+    "t_end": 800.0,
+    "text": "they were too worn out to complete it so yes the notation is dense and exhausting but it is"
+  },
+  {
+    "t_start": 800.0,
+    "t_end": 807.28,
+    "text": "also exact unlike ordinary languages it leaves no room for errors or fuzzy logic to creep in"
+  },
+  {
+    "t_start": 808.08,
+    "t_end": 813.84,
+    "text": "and most importantly it allows you to prove properties of the formal system itself"
+  },
+  {
+    "t_start": 816.08,
+    "t_end": 820.72,
+    "text": "there were three big questions that Hilbert wanted answered about mathematics"
+  },
+  {
+    "t_start": 820.72,
+    "t_end": 828.72,
+    "text": "number one is math complete meaning is there a way to prove every true statement does every true"
+  },
+  {
+    "t_start": 828.72,
+    "t_end": 836.56,
+    "text": "statement have a proof number two is mathematics consistent meaning is it free of contradictions"
+  },
+  {
+    "t_start": 836.56,
+    "t_end": 843.2,
+    "text": "i mean if you can simultaneously prove a and not a then that's a real problem because you can prove"
+  },
+  {
+    "t_start": 843.2,
+    "t_end": 850.8,
+    "text": "anything at all and number three is math decidable meaning is there an algorithm that"
+  },
+  {
+    "t_start": 850.8,
+    "t_end": 857.36,
+    "text": "can always determine whether a statement follows from the axioms now Hilbert was convinced that"
+  },
+  {
+    "t_start": 857.36,
+    "t_end": 865.36,
+    "text": "the answers to all three of these questions was yes at a major conference in 1930 Hilbert gave"
+  },
+  {
+    "t_start": 865.36,
+    "t_end": 871.76,
+    "text": "a fiery speech about these questions he ended it with a line that summed up his formalist dream in"
+  },
+  {
+    "t_start": 871.76,
+    "t_end": 879.52,
+    "text": "opposition to the foolish ignorabimus which means we will not know our slogan shall be we must know we"
+  },
+  {
+    "t_start": 879.52,
+    "t_end": 888.8,
+    "text": "will know these words are literally on his grave but by the time Hilbert gave this speech his dream"
+  },
+  {
+    "t_start": 888.8,
+    "t_end": 894.48,
+    "text": "was already crumbling just the day before at a small meeting at the same conference a 24 year old"
+  },
+  {
+    "t_start": 894.48,
+    "t_end": 899.84,
+    "text": "logician named Kurt Gödel explained that he had found the answer to the first of Hilbert's three"
+  },
+  {
+    "t_start": 899.84,
+    "t_end": 906.72,
+    "text": "big questions about completeness and the answer was no a complete formal system of mathematics"
+  },
+  {
+    "t_start": 906.72,
+    "t_end": 912.32,
+    "text": "was impossible the only person who paid much attention was John von Neumann one of Hilbert's"
+  },
+  {
+    "t_start": 912.32,
+    "t_end": 917.84,
+    "text": "former students who pulled Gödel aside to ask a few questions but the next year Gödel published"
+  },
+  {
+    "t_start": 917.84,
+    "t_end": 925.84,
+    "text": "a proof of his incompleteness theorem and this time everyone including Hilbert took notice"
+  },
+  {
+    "t_start": 929.04,
+    "t_end": 935.68,
+    "text": "this is how Gödel's proof works Gödel wanted to use logic and mathematics"
+  },
+  {
+    "t_start": 935.68,
+    "t_end": 943.36,
+    "text": "to answer questions about the very system of logic and mathematics and so he took"
+  },
+  {
+    "t_start": 943.36,
+    "t_end": 949.84,
+    "text": "all these basic symbols of a mathematical system and then he gave each one a number"
+  },
+  {
+    "t_start": 951.12,
+    "t_end": 957.76,
+    "text": "this is known as the symbol's Gödel number so the symbol for not gets the number one"
+  },
+  {
+    "t_start": 958.64,
+    "t_end": 965.76,
+    "text": "or has the Gödel number two if then it's Gödel number three now if you're expressing all of these"
+  },
+  {
+    "t_start": 965.76,
+    "t_end": 971.76,
+    "text": "symbols with numbers then what do you do about the numbers themselves well zero gets its own"
+  },
+  {
+    "t_start": 971.76,
+    "t_end": 978.4,
+    "text": "Gödel number six and if you want to write a one you just put this successor symbol next to it the"
+  },
+  {
+    "t_start": 978.4,
+    "t_end": 985.76,
+    "text": "immediate successor of zero is 1. and if you want to write 2 then you have to write ss0"
+  },
+  {
+    "t_start": 986.56,
+    "t_end": 990.64,
+    "text": "and that represents 2 and so on so you could represent any positive integer this way"
+  },
+  {
+    "t_start": 991.44,
+    "t_end": 995.84,
+    "text": "granted it is cumbersome but it works and that is the point of this system"
+  },
+  {
+    "t_start": 996.56,
+    "t_end": 1002.08,
+    "text": "so now that we have Gödel numbers for all of the basic symbols and all of the numbers we might"
+  },
+  {
+    "t_start": 1002.08,
+    "t_end": 1010.0,
+    "text": "want to use we can start to write equations like we could write zero equals zero so these"
+  },
+  {
+    "t_start": 1010.0,
+    "t_end": 1019.36,
+    "text": "symbols have the Gödel numbers six five six and we can actually create a new card that represents"
+  },
+  {
+    "t_start": 1019.36,
+    "t_end": 1027.12,
+    "text": "this equation zero equals zero and the way we do it is we take the prime numbers starting at 2"
+  },
+  {
+    "t_start": 1027.12,
+    "t_end": 1034.0,
+    "text": "and we raise each one to the power of the Gödel number of the symbol in our equation so we have"
+  },
+  {
+    "t_start": 1034.0,
+    "t_end": 1041.2,
+    "text": "2 to the power of 6 times 3 to the power of 5 times 5 to the power of 6 equals 243 million"
+  },
+  {
+    "t_start": 1041.92,
+    "t_end": 1049.2,
+    "text": "so 243 million is the Gödel number of the whole equation zero equals"
+  },
+  {
+    "t_start": 1049.2,
+    "t_end": 1056.0,
+    "text": "zero we can write down Gödel numbers for any set of symbols that you can imagine"
+  },
+  {
+    "t_start": 1056.0,
+    "t_end": 1062.88,
+    "text": "so really this is an infinite deck of cards where any set of symbols that you want to write down"
+  },
+  {
+    "t_start": 1062.88,
+    "t_end": 1068.4,
+    "text": "in a sequence you can represent with a unique Gödel number and the beauty of this Gödel"
+  },
+  {
+    "t_start": 1068.4,
+    "t_end": 1075.28,
+    "text": "number is you can do a prime factorization of it and you can work out exactly what symbols made up"
+  },
+  {
+    "t_start": 1075.84,
+    "t_end": 1081.2,
+    "text": "this card so in this whole pack of cards there are going to be true statements"
+  },
+  {
+    "t_start": 1081.2,
+    "t_end": 1087.52,
+    "text": "and there are going to be false statements so how do you prove that something is true well you need"
+  },
+  {
+    "t_start": 1087.52,
+    "t_end": 1094.72,
+    "text": "to go to the axioms the axioms also have their own Gödel numbers which are formed in the same way"
+  },
+  {
+    "t_start": 1095.36,
+    "t_end": 1104.48,
+    "text": "so here's an axiom which says not the successor of any number x equals zero which makes sense because"
+  },
+  {
+    "t_start": 1104.48,
+    "t_end": 1109.92,
+    "text": "in this system there are no negative numbers and so the successor of any number cannot be zero"
+  },
+  {
+    "t_start": 1110.48,
+    "t_end": 1118.4,
+    "text": "so we can put down this axiom and then we can substitute in zero for x saying that one does not"
+  },
+  {
+    "t_start": 1118.4,
+    "t_end": 1126.0,
+    "text": "equal zero and we've created a proof this is the simplest proof i can think of that shows that one"
+  },
+  {
+    "t_start": 1126.0,
+    "t_end": 1134.16,
+    "text": "does not equal zero now this card for the proof of one does not equal zero gets its own Gödel number"
+  },
+  {
+    "t_start": 1134.16,
+    "t_end": 1139.12,
+    "text": "and the way we calculate this Gödel number is just as before we take the prime numbers"
+  },
+  {
+    "t_start": 1139.12,
+    "t_end": 1148.64,
+    "text": "and we raise 2 to the power of the axiom times 3 to the power of 1 does not equal 0 and we get"
+  },
+  {
+    "t_start": 1148.64,
+    "t_end": 1154.56,
+    "text": "a tremendously large number it would have 73 million digits if you calculated it all out so"
+  },
+  {
+    "t_start": 1154.56,
+    "t_end": 1162.16,
+    "text": "i've just left it here in exponential notation as you can see these numbers get very large and so"
+  },
+  {
+    "t_start": 1162.16,
+    "t_end": 1167.12,
+    "text": "you might want to start just calling them by letters so we could say this one is Gödel"
+  },
+  {
+    "t_start": 1167.12,
+    "t_end": 1175.52,
+    "text": "number a this is Gödel number b Gödel number c and so on Gödel goes to all this trouble to find"
+  },
+  {
+    "t_start": 1176.16,
+    "t_end": 1185.36,
+    "text": "this card which says there is no proof for the statement with Gödel number g the trick is"
+  },
+  {
+    "t_start": 1186.4,
+    "t_end": 1193.28,
+    "text": "that the Gödel number of this card is g so what this statement is really saying"
+  },
+  {
+    "t_start": 1193.28,
+    "t_end": 1200.4,
+    "text": "is this card is unprovable there is no proof anywhere in our infinite deck for this card"
+  },
+  {
+    "t_start": 1201.2,
+    "t_end": 1204.4,
+    "text": "now think about it if it's false and there is a proof"
+  },
+  {
+    "t_start": 1205.04,
+    "t_end": 1212.08,
+    "text": "then what you have just proven is there is no proof so you're stuck with a contradiction"
+  },
+  {
+    "t_start": 1214.32,
+    "t_end": 1220.8,
+    "text": "that would mean the mathematical system is inconsistent the other alternative is that"
+  },
+  {
+    "t_start": 1220.8,
+    "t_end": 1226.0,
+    "text": "this card is true there is no proof for the statement with Gödel number g but that means"
+  },
+  {
+    "t_start": 1226.72,
+    "t_end": 1233.36,
+    "text": "this mathematical system has true statements in it that have no proof so your mathematical"
+  },
+  {
+    "t_start": 1233.36,
+    "t_end": 1240.48,
+    "text": "system is incomplete and that is Gödel's incompleteness theorem this is how he shows"
+  },
+  {
+    "t_start": 1240.48,
+    "t_end": 1247.6,
+    "text": "that any basic mathematical system that can do fundamental arithmetic will always have statements"
+  },
+  {
+    "t_start": 1247.6,
+    "t_end": 1255.84,
+    "text": "within it which are true but which have no proof there's a line in the tv show the office that"
+  },
+  {
+    "t_start": 1255.84,
+    "t_end": 1261.28,
+    "text": "echoes the self-referential paradox of Gödel's proof jim is my enemy but it turns out the jim"
+  },
+  {
+    "t_start": 1261.28,
+    "t_end": 1267.76,
+    "text": "is also his own worst enemy and the enemy of my enemy is my friend so jim is actually my friend"
+  },
+  {
+    "t_start": 1269.84,
+    "t_end": 1273.04,
+    "text": "but because he is his own worst enemy the enemy"
+  },
+  {
+    "t_start": 1273.04,
+    "t_end": 1277.92,
+    "text": "of my friend is my enemy so actually jim is my enemy but"
+  },
+  {
+    "t_start": 1282.8,
+    "t_end": 1288.48,
+    "text": "Gödel's incompleteness theorem means that truth and provability are not at all the same"
+  },
+  {
+    "t_start": 1288.48,
+    "t_end": 1294.24,
+    "text": "thing Hilbert was wrong there will always be true statements about mathematics that just cannot"
+  },
+  {
+    "t_start": 1294.24,
+    "t_end": 1299.76,
+    "text": "be proven now Hilbert could console himself with the hope that at least we could still prove maths"
+  },
+  {
+    "t_start": 1299.76,
+    "t_end": 1304.96,
+    "text": "consistent that is free of contradictions but then Gödel published his second"
+  },
+  {
+    "t_start": 1304.96,
+    "t_end": 1309.68,
+    "text": "incompleteness theorem in which he showed that any consistent formal system of math"
+  },
+  {
+    "t_start": 1309.68,
+    "t_end": 1316.8,
+    "text": "cannot prove its own consistency so taken together Gödel's two incompleteness theorems say that the"
+  },
+  {
+    "t_start": 1316.8,
+    "t_end": 1323.04,
+    "text": "best you can hope for is a consistent yet incomplete system of math but a system like"
+  },
+  {
+    "t_start": 1323.04,
+    "t_end": 1328.72,
+    "text": "that cannot prove its own consistency so some contradiction could always crop up in the future"
+  },
+  {
+    "t_start": 1328.72,
+    "t_end": 1333.76,
+    "text": "revealing that the system you'd been working with had been inconsistent the whole time and that"
+  },
+  {
+    "t_start": 1333.76,
+    "t_end": 1339.92,
+    "text": "leaves only the third and final big question from Hilbert is mathematics decidable that is is there"
+  },
+  {
+    "t_start": 1339.92,
+    "t_end": 1346.32,
+    "text": "an algorithm that can always determine whether a statement follows from the axioms and in 1936"
+  },
+  {
+    "t_start": 1346.32,
+    "t_end": 1352.64,
+    "text": "Alan Turing found a way to settle this question but to do it he had to invent the modern computer"
+  },
+  {
+    "t_start": 1354.64,
+    "t_end": 1359.76,
+    "text": "in his time computers weren't machines they were people often women who carried"
+  },
+  {
+    "t_start": 1359.76,
+    "t_end": 1365.68,
+    "text": "out long and tedious calculations Turing imagined an entirely mechanical computer"
+  },
+  {
+    "t_start": 1365.68,
+    "t_end": 1371.52,
+    "text": "he wanted it to be powerful enough to perform any computation imaginable but simple enough that you"
+  },
+  {
+    "t_start": 1371.52,
+    "t_end": 1377.76,
+    "text": "could reason through its operation so he came up with a machine that takes as input an infinitely"
+  },
+  {
+    "t_start": 1377.76,
+    "t_end": 1384.96,
+    "text": "long tape of square cells each containing a zero or a one the machine has a read write head that"
+  },
+  {
+    "t_start": 1384.96,
+    "t_end": 1392.16,
+    "text": "can read one digit at a time then it can perform one of only a few tasks overwrite a new value"
+  },
+  {
+    "t_start": 1393.04,
+    "t_end": 1399.6,
+    "text": "move left move right or simply halt halting means the program has run"
+  },
+  {
+    "t_start": 1399.6,
+    "t_end": 1405.44,
+    "text": "to completion the program consists of a set of internal instructions you can think of it like"
+  },
+  {
+    "t_start": 1405.44,
+    "t_end": 1410.88,
+    "text": "a flow chart that tells the machine what to do based on the digit it reads and its internal state"
+  },
+  {
+    "t_start": 1412.48,
+    "t_end": 1417.2,
+    "text": "you could imagine exporting these instructions to any other Turing machine which would then perform"
+  },
+  {
+    "t_start": 1417.2,
+    "t_end": 1423.92,
+    "text": "in exactly the same way as the first although this sounds simple a Turing machine's arbitrarily"
+  },
+  {
+    "t_start": 1423.92,
+    "t_end": 1430.88,
+    "text": "large memory and program mean it can execute any computable algorithm if given enough time from"
+  },
+  {
+    "t_start": 1430.88,
+    "t_end": 1437.28,
+    "text": "addition and subtraction to the entire youtube algorithm it can do anything a modern computer can"
+  },
+  {
+    "t_start": 1438.48,
+    "t_end": 1444.08,
+    "text": "that's what made the Turing machine so useful in answering Hilbert's question on decidability when"
+  },
+  {
+    "t_start": 1444.08,
+    "t_end": 1450.16,
+    "text": "a touring machine halts the program has finished running and the tape is the output but sometimes a"
+  },
+  {
+    "t_start": 1450.16,
+    "t_end": 1456.4,
+    "text": "touring machine never halts maybe it gets stuck in an infinite loop is it possible to tell beforehand"
+  },
+  {
+    "t_start": 1456.4,
+    "t_end": 1462.4,
+    "text": "if a program will halt or not on a particular input Turing realized this halting problem"
+  },
+  {
+    "t_start": 1462.4,
+    "t_end": 1466.96,
+    "text": "was very similar to the decidability problem if he could find a way to figure out if a Turing"
+  },
+  {
+    "t_start": 1466.96,
+    "t_end": 1472.56,
+    "text": "machine would halt then it would also be possible to decide if a statement followed from the axioms"
+  },
+  {
+    "t_start": 1473.28,
+    "t_end": 1477.92,
+    "text": "for example you could solve the twin prime conjecture by writing a Turing machine program"
+  },
+  {
+    "t_start": 1477.92,
+    "t_end": 1487.36,
+    "text": "using the rules of inference then it constructs all theorems that can be produced in one step"
+  },
+  {
+    "t_start": 1487.36,
+    "t_end": 1492.8,
+    "text": "from those and so on each time it generates a new theorem it checks if it's the twin prime"
+  },
+  {
+    "t_start": 1492.8,
+    "t_end": 1500.08,
+    "text": "conjecture and if it is it halts if not it never halts so if you could solve the halting problem"
+  },
+  {
+    "t_start": 1500.08,
+    "t_end": 1504.48,
+    "text": "you could solve the twin prime conjecture and all sorts of other unsolved questions"
+  },
+  {
+    "t_start": 1505.28,
+    "t_end": 1510.4,
+    "text": "so Turing said let's assume we can make a machine h that can determine whether any"
+  },
+  {
+    "t_start": 1510.4,
+    "t_end": 1516.72,
+    "text": "Turing machine will halt or not on a particular input you insert the program and its input"
+  },
+  {
+    "t_start": 1516.72,
+    "t_end": 1524.24,
+    "text": "and h simulates what will happen printing out either halts or never halts for now we don't worry"
+  },
+  {
+    "t_start": 1524.24,
+    "t_end": 1530.8,
+    "text": "about how h works we just know that it always works it always gives you the right answer now"
+  },
+  {
+    "t_start": 1530.8,
+    "t_end": 1537.36,
+    "text": "we can modify the h machine by adding additional components one if it receives the output halts"
+  },
+  {
+    "t_start": 1537.36,
+    "t_end": 1544.4,
+    "text": "immediately goes into an infinite loop another if it receives never holds then it immediately halts"
+  },
+  {
+    "t_start": 1545.2,
+    "t_end": 1553.44,
+    "text": "we can call this entire new machine h plus and we can export the program for that entire machine"
+  },
+  {
+    "t_start": 1554.8,
+    "t_end": 1561.44,
+    "text": "now what happens if we give this machine its own code both as program and input"
+  },
+  {
+    "t_start": 1562.16,
+    "t_end": 1569.6,
+    "text": "well now h is simulating what h plus would do given its own input essentially h"
+  },
+  {
+    "t_start": 1569.6,
+    "t_end": 1576.24,
+    "text": "has to determine the behavior of a machine that it itself is a part of in this exact"
+  },
+  {
+    "t_start": 1576.24,
+    "t_end": 1585.6,
+    "text": "circumstance if h concludes that h plus never halts well this makes h plus immediately halt"
+  },
+  {
+    "t_start": 1588.64,
+    "t_end": 1597.84,
+    "text": "if h thinks h plus will halt well then that necessarily forces h plus to loop"
+  },
+  {
+    "t_start": 1598.96,
+    "t_end": 1606.4,
+    "text": "whatever output the halting machine h gives it turns out to be wrong there's a contradiction"
+  },
+  {
+    "t_start": 1607.12,
+    "t_end": 1613.68,
+    "text": "the only explanation can be that a machine like h can't exist there's no way to tell in general"
+  },
+  {
+    "t_start": 1613.68,
+    "t_end": 1622.4,
+    "text": "if a touring machine will halt or not on a given input and this means mathematics is undecidable"
+  },
+  {
+    "t_start": 1622.4,
+    "t_end": 1628.16,
+    "text": "there is no algorithm that can always determine whether a statement is derivable from the axioms"
+  },
+  {
+    "t_start": 1628.16,
+    "t_end": 1633.6,
+    "text": "so something like the twin prime conjecture might be unsolvable we might never know"
+  },
+  {
+    "t_start": 1634.32,
+    "t_end": 1640.88,
+    "text": "whether there are infinite twin primes or not the problem of undecidability even crops up"
+  },
+  {
+    "t_start": 1640.88,
+    "t_end": 1646.24,
+    "text": "in physical systems in quantum mechanics one of the most important properties of a many-body"
+  },
+  {
+    "t_start": 1646.24,
+    "t_end": 1651.52,
+    "text": "system is the difference in energy between its ground state and its first excited state"
+  },
+  {
+    "t_start": 1651.52,
+    "t_end": 1657.84,
+    "text": "this is known as the spectral gap some systems have a significant spectral gap whereas others"
+  },
+  {
+    "t_start": 1657.84,
+    "t_end": 1664.08,
+    "text": "are gapless there are a continuum of energy levels all the way down to the ground state and this is"
+  },
+  {
+    "t_start": 1664.08,
+    "t_end": 1669.04,
+    "text": "important because at low temperatures gapless quantum systems can undergo phase transitions"
+  },
+  {
+    "t_start": 1669.04,
+    "t_end": 1674.24,
+    "text": "while gapped systems cannot they don't have the energy needed to overcome the spectral gap"
+  },
+  {
+    "t_start": 1674.96,
+    "t_end": 1682.0,
+    "text": "but figuring out if a system is gapped or gapless has long been known to be a very difficult"
+  },
+  {
+    "t_start": 1682.0,
+    "t_end": 1690.08,
+    "text": "problem only recently in 2015 did mathematicians prove that in general the spectral gap question"
+  },
+  {
+    "t_start": 1690.08,
+    "t_end": 1697.84,
+    "text": "is undecidable to quote the authors even a perfect complete description of the microscopic"
+  },
+  {
+    "t_start": 1697.84,
+    "t_end": 1703.84,
+    "text": "interactions between a material's particles is not always enough to deduce its macroscopic properties"
+  },
+  {
+    "t_start": 1704.4,
+    "t_end": 1709.84,
+    "text": "now remember that Turing designed his machines to be as powerful computers as it is possible to make"
+  },
+  {
+    "t_start": 1710.72,
+    "t_end": 1716.48,
+    "text": "to this day the best computational systems are those that can do everything a touring machine can"
+  },
+  {
+    "t_start": 1716.48,
+    "t_end": 1722.32,
+    "text": "this is called touring completeness and it turns out there are many such during complete systems"
+  },
+  {
+    "t_start": 1723.12,
+    "t_end": 1729.28,
+    "text": "although they are powerful every touring complete system comes with a catch its own analog of the"
+  },
+  {
+    "t_start": 1729.28,
+    "t_end": 1735.76,
+    "text": "halting problem some undecidable property of the system Wang tiles are touring complete their"
+  },
+  {
+    "t_start": 1735.76,
+    "t_end": 1741.92,
+    "text": "halting problem is whether or not they'll tile the plane complex quantum systems are Turing complete"
+  },
+  {
+    "t_start": 1741.92,
+    "t_end": 1747.52,
+    "text": "and their halting problem is the spectral gap question and the game of life is Turing complete"
+  },
+  {
+    "t_start": 1747.52,
+    "t_end": 1753.68,
+    "text": "its halting problem is literally whether or not it halts there are many more examples"
+  },
+  {
+    "t_start": 1753.68,
+    "t_end": 1759.52,
+    "text": "of this like airline ticketing systems magic the gathering powerpoint slides and excel spreadsheets"
+  },
+  {
+    "t_start": 1759.52,
+    "t_end": 1765.52,
+    "text": "nearly every programming language in existence is designed to be Turing complete but in theory we"
+  },
+  {
+    "t_start": 1765.52,
+    "t_end": 1769.84,
+    "text": "only need one programming language because well you can program anything at all using"
+  },
+  {
+    "t_start": 1769.84,
+    "t_end": 1782.24,
+    "text": "any Turing complete system so here's a touring machine inside the game of life and since the"
+  },
+  {
+    "t_start": 1782.24,
+    "t_end": 1793.84,
+    "text": "game of life is itself touring complete it should be capable of simulating itself and indeed it is"
+  },
+  {
+    "t_start": 1796.0,
+    "t_end": 1807.84,
+    "text": "this is the game of life running on the game of life"
+  },
+  {
+    "t_start": 1809.68,
+    "t_end": 1815.12,
+    "text": "the real legacy of David Hilbert's dream is all of our modern computational devices"
+  },
+  {
+    "t_start": 1816.8,
+    "t_end": 1822.08,
+    "text": "Kurt Gödel suffered bouts of mental instability later in life convinced that people were trying"
+  },
+  {
+    "t_start": 1822.08,
+    "t_end": 1831.36,
+    "text": "to poison him he refused to eat eventually starving himself to death Hilbert died in 1943"
+  },
+  {
+    "t_start": 1831.36,
+    "t_end": 1841.12,
+    "text": "his epitaph was his slogan from 1930. we must know we will know the truth is we don't know sometimes"
+  },
+  {
+    "t_start": 1841.12,
+    "t_end": 1848.72,
+    "text": "we can't know but in trying to find out we can discover new things things that change the world"
+  },
+  {
+    "t_start": 1849.6,
+    "t_end": 1854.64,
+    "text": "Alan Turing put his ideas about computing to practical use in world war ii leading the team"
+  },
+  {
+    "t_start": 1854.64,
+    "t_end": 1859.12,
+    "text": "at Bletchley Park that built real calculating machines to crack nazi codes for the allies"
+  },
+  {
+    "t_start": 1859.68,
+    "t_end": 1863.84,
+    "text": "by one estimate the intelligence Turing and his colleagues gathered from decrypted messages"
+  },
+  {
+    "t_start": 1864.4,
+    "t_end": 1870.56,
+    "text": "shortened the war by two to four years after the war Turing and John von Neumann designed"
+  },
+  {
+    "t_start": 1870.56,
+    "t_end": 1876.08,
+    "text": "the first true programmable electronic computer eniac based on touring's designs"
+  },
+  {
+    "t_start": 1876.64,
+    "t_end": 1879.84,
+    "text": "but Turing didn't live to see his ideas develop much further"
+  },
+  {
+    "t_start": 1880.48,
+    "t_end": 1886.56,
+    "text": "in 1952 the british government convicted him of gross indecency upon learning he was gay he was"
+  },
+  {
+    "t_start": 1886.56,
+    "t_end": 1892.48,
+    "text": "stripped of his security clearance and forced to take hormones in 1954 he committed suicide"
+  },
+  {
+    "t_start": 1896.32,
+    "t_end": 1901.12,
+    "text": "touring changed the world he is widely considered to be the most important founding"
+  },
+  {
+    "t_start": 1901.12,
+    "t_end": 1906.24,
+    "text": "figure in computer science all modern computers are descended from his designs"
+  },
+  {
+    "t_start": 1906.96,
+    "t_end": 1911.52,
+    "text": "but touring's ideas about computability came from his concept of the Turing machine"
+  },
+  {
+    "t_start": 1912.08,
+    "t_end": 1918.4,
+    "text": "which came from thinking about Hilbert's question is math decidable so touring's code breaking"
+  },
+  {
+    "t_start": 1918.4,
+    "t_end": 1925.68,
+    "text": "machines and indeed all modern computers stem from the weird paradoxes that arise from self-reference"
+  },
+  {
+    "t_start": 1927.84,
+    "t_end": 1933.84,
+    "text": "there is a hole at the bottom of math a hole that means we will never know everything with certainty"
+  },
+  {
+    "t_start": 1934.4,
+    "t_end": 1937.84,
+    "text": "there will always be true statements that cannot be proven"
+  },
+  {
+    "t_start": 1938.64,
+    "t_end": 1942.0,
+    "text": "and you might think this realization would have driven mathematicians mad"
+  },
+  {
+    "t_start": 1942.0,
+    "t_end": 1947.6,
+    "text": "and led to the disintegration of the entire mathematical enterprise but instead thinking"
+  },
+  {
+    "t_start": 1947.6,
+    "t_end": 1953.12,
+    "text": "about this problem transformed the concept of infinity changed the course of a world war"
+  },
+  {
+    "t_start": 1953.76,
+    "t_end": 1961.84,
+    "text": "and led directly to the invention of the device you're watching this on right now"
+  },
+  {
+    "t_start": 1967.2,
+    "t_end": 1971.76,
+    "text": "hey this video was sponsored by brilliant a website full of interactive courses and quizzes"
+  },
+  {
+    "t_start": 1971.76,
+    "t_end": 1977.04,
+    "text": "that delve deep into topics like math physics and computer science now if you've gotten this far"
+  },
+  {
+    "t_start": 1977.04,
+    "t_end": 1981.68,
+    "text": "into this video you're likely someone who would love brilliant i've been going through their"
+  },
+  {
+    "t_start": 1981.68,
+    "t_end": 1987.44,
+    "text": "logic course and it's really got me thinking the problems start out easy but get more and"
+  },
+  {
+    "t_start": 1987.44,
+    "t_end": 1992.16,
+    "text": "more challenging as you develop your understanding and that's what i love about the site i love how"
+  },
+  {
+    "t_start": 1992.16,
+    "t_end": 1998.0,
+    "text": "it guides you not by telling you exactly but by exposing you to increasingly sophisticated puzzles"
+  },
+  {
+    "t_start": 1998.0,
+    "t_end": 2002.48,
+    "text": "and at the end i feel like i've worked it out for myself which essentially i have through"
+  },
+  {
+    "t_start": 2002.48,
+    "t_end": 2006.96,
+    "text": "their carefully curated selection of problems and with helpful hints and explanations for"
+  },
+  {
+    "t_start": 2006.96,
+    "t_end": 2012.16,
+    "text": "when i get stuck now there were a lot of things i wanted to include in this video but couldn't"
+  },
+  {
+    "t_start": 2012.16,
+    "t_end": 2018.08,
+    "text": "because it's already over half an hour long so if you want to explore these ideas further i'd highly"
+  },
+  {
+    "t_start": 2018.08,
+    "t_end": 2023.2,
+    "text": "recommend their courses on number theory and computer science fundamentals for viewers of this"
+  },
+  {
+    "t_start": 2023.2,
+    "t_end": 2028.72,
+    "text": "channel brilliant are offering 20 off an annual subscription to the first 200 people to sign up"
+  },
+  {
+    "t_start": 2028.72,
+    "t_end": 2034.48,
+    "text": "just go to brilliant.org veritasium and i will put that link down in the description"
+  },
+  {
+    "t_start": 2034.48,
+    "t_end": 2039.04,
+    "text": "so i want to thank brilliant for sponsoring veritasium and i want to thank you for watching"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "slug": "higher-dimensions",
+  "videos": [
+    {
+      "id": "zwAD6dRSVyI",
+      "title": "3Blue1Brown — Thinking visually about higher dimensions",
+      "has_transcript": true,
+      "chars": 23073,
+      "units": 17,
+      "url": "https://www.youtube.com/watch?v=zwAD6dRSVyI"
+    },
+    {
+      "id": "2s4TqVAbfz4",
+      "title": "Numberphile — Perfect Shapes in Higher Dimensions / higher-D culture",
+      "has_transcript": true,
+      "chars": 26922,
+      "units": 18,
+      "url": "https://www.youtube.com/watch?v=2s4TqVAbfz4"
+    },
+    {
+      "id": "CVOr7f_VALc",
+      "title": "Numberphile — The Puzzling Fourth Dimension and Do in the Fourth Dimension talks",
+      "has_transcript": true,
+      "chars": 15168,
+      "units": 11,
+      "url": "https://www.youtube.com/watch?v=CVOr7f_VALc"
+    },
+    {
+      "id": "fNk_zzaMoSs",
+      "title": "3Blue1Brown — Essence of linear algebra (n-D vectors)",
+      "has_transcript": true,
+      "chars": 10011,
+      "units": 7,
+      "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+    }
+  ]
+}

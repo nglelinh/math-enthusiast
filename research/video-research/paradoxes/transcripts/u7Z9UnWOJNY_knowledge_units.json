@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ku_video_u7Z9UnWOJNY_0",
+    "t_start": 0.3,
+    "t_end": 92.2,
+    "type": "overview",
+    "summary": "DR. JAMES GRIME: So Zeno's paradox is a problem that's not just of interest to mathematicians, like myself. But it's also of interest to physicists and philosophers. And it has been for thousands of years. So Zeno was a Greek philosopher. He lived 2,500 years ago. And he came up with a list of paradoxes. There's about nine of these paradoxes. The ones I want to talk about, though, are kind of similar. The first one, though, I love, because there's a nice little story with it. So the first one is called Achilles and the Tortoise. You've got Achilles and the tortoise in a race. Now, the torto…"
+  },
+  {
+    "id": "ku_video_u7Z9UnWOJNY_92",
+    "t_start": 92.2,
+    "t_end": 186.8,
+    "type": "overview",
+    "summary": "Another of these paradoxes is basically the same, but it's a bit simpler. I'm holding my hands apart like that. I'm going to move my right hand towards my left hand so that they clap. Now, when I do that-- actually, you can think of it like I'm halving the distance. I then halve the distance again and then halve the distance again and again and again and again. And I halve the distance an infinite number of times, infinitely many times. So does that mean my hands never clap? Is there some sort of force field here stopping my hands meeting? Well, obviously, they do. This is the paradox. So w…"
+  },
+  {
+    "id": "ku_video_u7Z9UnWOJNY_186",
+    "t_start": 186.8,
+    "t_end": 280.2,
+    "type": "overview",
+    "summary": "And then you keep doing this forever, halving the distance forever. Let's say this does have a value. Let's give it a value. Let's call it S-- S for sum. Here's a trick that you can do. I'm going to multiply the whole thing by 1/2. So if I multiply the left hand side by 1/2, you get 1/2 of S. On the right hand side, I'm going to multiply So 1 multiplied by 1/2 is 1/2. I'm just going to write that there-- going to leave a little gap. Now, I'm going to multiply the 1/2 by 1/2, which gives me 1/4. And I'm doing it by term by term, so 1/4 times 1/2 is 1/8, and 1/8 by 1/2 is 1/16. Now, I'm going…"
+  },
+  {
+    "id": "ku_video_u7Z9UnWOJNY_280",
+    "t_start": 280.2,
+    "t_end": 370.7,
+    "type": "overview",
+    "summary": "Even though it's an infinite process, your hands do travel 2 meters. Now, time is important, as well. If each step was taking a second, then that's an infinite number of seconds, or if it was longer than a second. So you would complete your 2 meters, but it takes an infinite amount of time to complete your 2 meters. So time is important as well. So let's say we'll do it a little bit faster than that. So I'm going to move 1 meter per second. It's the same, working out. If I halve the distance, that would take me 1 second. And then I halved the distance again-- it would take me 1/2 second, th…"
+  },
+  {
+    "id": "ku_video_u7Z9UnWOJNY_370",
+    "t_start": 370.7,
+    "t_end": 463.6,
+    "type": "overview",
+    "summary": "infinite process. Now, an infinite process doesn't have a last step. So how can something without a last step be completed? And that's the paradox. BRADY HARAN: What is the-- and is there a solution? DR. JAMES GRIME: I have no easy answers for you here. This is a paradox that has baffled philosophers and mathematicians for 2,500 years. I wrestle with it as well. There are greater minds than you and I that have wrestled with this problem in the last 2,500 years. If this melts your brain, don't worry. You are in very good company. BRADY HARAN: Some of these numbers where the digits apparently…"
+  },
+  {
+    "id": "ku_video_u7Z9UnWOJNY_463",
+    "t_start": 463.6,
+    "t_end": 559.1,
+    "type": "overview",
+    "summary": "from drawing it. In the same way, there's nothing stopping me from clapping my hands. You can think of this as an infinite process. I'm halving the distance an infinite number of times. But I can still clap my hands. So these 19th century mathematicians had to work out when these infinite sums behaved well and when they behaved badly. And so there's a lot of technical detail behind that. And it just turned out to be rigorous and consistent, which is very important. But some of the tests that you can use to prove that something is a well-behaved sum-- well, they're quite easy. I'll show you …"
+  },
+  {
+    "id": "ku_video_u7Z9UnWOJNY_559",
+    "t_start": 559.1,
+    "t_end": 649.2,
+    "type": "overview",
+    "summary": "These are all halves, actually. You get a common factor of 1/2-- common ratio of 1/2 for each one. That passes the test. And that's what this is. This is a test. So it passes the test. This is well-behaved. If this was bigger than 1, then it's not well-behaved. And that could mean-- well, it could mean it goes on to infinity. Or it could mean it's periodic or does something else weird. So it's not well-behaved. And the other case is if this number was equal to 1, we don't know. It could be well-behaved or not. It depends. So r equals to 1, we're not sure. BRADY HARAN: What's a series where …"
+  },
+  {
+    "id": "ku_video_u7Z9UnWOJNY_649",
+    "t_start": 649.2,
+    "t_end": 724.3,
+    "type": "overview",
+    "summary": "This is well-behaved, our example. And it's called convergent. My question to physicists is if we were literal about this and considered the real world so that we are actually dividing a distance repeatedly in half over and over again infinitely many times, or dividing the time it takes to complete each step infinitely many times so it's getting quicker, can you do that? Can you divide space and time infinitely many times? I don't know the answer to that. So I want a physicist to tell me. We're in slightly the area of calculus, as well, which some of you may meet when you get higher up at s…"
+  }
+]

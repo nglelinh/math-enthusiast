@@ -1,0 +1,37 @@
+{
+  "slug": "explore-sphere-packing",
+  "videos": [
+    {
+      "id": "fH6KNlUJux0",
+      "title": "Einstein Lectures — Viazovska: The sphere packing problem",
+      "has_transcript": true,
+      "chars": 63906,
+      "units": 39,
+      "url": "https://www.youtube.com/watch?v=fH6KNlUJux0"
+    },
+    {
+      "id": "VR3Ezxo5wo8",
+      "title": "Introduction to the sphere packing problem, Maryna Viazovska, 1/4.",
+      "has_transcript": true,
+      "chars": 34998,
+      "units": 42,
+      "url": "https://www.youtube.com/watch?v=VR3Ezxo5wo8"
+    },
+    {
+      "id": "mf_XOB7594c",
+      "title": "Viazovska — Simons Lecture Day 1 (MIT)",
+      "has_transcript": true,
+      "chars": 47718,
+      "units": 45,
+      "url": "https://www.youtube.com/watch?v=mf_XOB7594c"
+    },
+    {
+      "id": "mceaM2_zQd8",
+      "title": "Numberphile — Perfect Shapes in Higher Dimensions (packing link)",
+      "has_transcript": true,
+      "chars": 9787,
+      "units": 7,
+      "url": "https://www.youtube.com/watch?v=mceaM2_zQd8"
+    }
+  ]
+}

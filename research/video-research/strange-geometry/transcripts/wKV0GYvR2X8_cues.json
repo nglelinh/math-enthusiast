@@ -1,0 +1,552 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 3.46,
+    "text": "We'll start very slowly, but don't worry we'll speed up in a moment."
+  },
+  {
+    "t_start": 3.46,
+    "t_end": 10.12,
+    "text": "A strip of paper and I glue the ends into a loop.  A straight loop."
+  },
+  {
+    "t_start": 10.12,
+    "t_end": 16.6,
+    "text": "And I cut it along the centre line.  Well, what's going to happen?  Everyone can guess what's going to happen."
+  },
+  {
+    "t_start": 16.6,
+    "t_end": 20.16,
+    "text": "In fact everyone knows with total conviction what's going to happen."
+  },
+  {
+    "t_start": 20.16,
+    "t_end": 22.28,
+    "text": "It splits into two halves."
+  },
+  {
+    "t_start": 22.28,
+    "t_end": 27.16,
+    "text": "Next, we're going to make the famous object Möbius strip."
+  },
+  {
+    "t_start": 27.16,
+    "t_end": 32.0,
+    "text": "Now that's one twist - 180 degrees - and glue the ends."
+  },
+  {
+    "t_start": 32.0,
+    "t_end": 36.32,
+    "text": "And this is the well-known object which only has one face and so forth."
+  },
+  {
+    "t_start": 36.32,
+    "t_end": 40.24,
+    "text": "What's going to happen if we cut this along the centre line?"
+  },
+  {
+    "t_start": 45.76,
+    "t_end": 49.84,
+    "text": "And unlike the previous case it does not fall into two pieces."
+  },
+  {
+    "t_start": 50.12,
+    "t_end": 56.4,
+    "text": "Now, so far so good.  And people might say I've already done that and so forth, I've seen it in books."
+  },
+  {
+    "t_start": 56.4,
+    "t_end": 62.54,
+    "text": "But even professionals mathematicians often don't realize how many twists there are in this resulting object."
+  },
+  {
+    "t_start": 62.54,
+    "t_end": 70.4,
+    "text": "In this configuration we see all the twists are in the upper half of the strip and the lower half has no twists."
+  },
+  {
+    "t_start": 70.4,
+    "t_end": 73.68,
+    "text": "Let's count the number of twists this object has."
+  },
+  {
+    "t_start": 73.68,
+    "t_end": 76.98,
+    "text": "In order to do so I'm going to apply the violence and I'm not going to move."
+  },
+  {
+    "t_start": 76.98,
+    "t_end": 82.5,
+    "text": "Cutting the lower half and start untwisting the top one."
+  },
+  {
+    "t_start": 83.04,
+    "t_end": 84.36,
+    "text": "Still twisted obviously."
+  },
+  {
+    "t_start": 84.36,
+    "t_end": 88.94,
+    "text": "Two, three, it's side but still twisted."
+  },
+  {
+    "t_start": 89.32,
+    "t_end": 91.32,
+    "text": "Four, and finally it's straight."
+  },
+  {
+    "t_start": 91.32,
+    "t_end": 92.62,
+    "text": "That's not what I wanted to show you."
+  },
+  {
+    "t_start": 92.62,
+    "t_end": 94.0,
+    "text": "What I wanted to show you is something different."
+  },
+  {
+    "t_start": 94.0,
+    "t_end": 97.56,
+    "text": "What we want to do is to glue together those strips."
+  },
+  {
+    "t_start": 97.56,
+    "t_end": 99.32,
+    "text": "For example that's straight against straight."
+  },
+  {
+    "t_start": 99.32,
+    "t_end": 101.32,
+    "text": "glued at right angles to each other."
+  },
+  {
+    "t_start": 101.32,
+    "t_end": 105.34,
+    "text": "and what we're going to do is cut this kind of object"
+  },
+  {
+    "t_start": 105.34,
+    "t_end": 108.58,
+    "text": "all the way around the centre line, all the way around the centre line"
+  },
+  {
+    "t_start": 108.58,
+    "t_end": 111.6,
+    "text": "Not only straight ones but also with glued Möbius strips."
+  },
+  {
+    "t_start": 111.6,
+    "t_end": 115.1,
+    "text": "So there are four possibilities: straight against straight"
+  },
+  {
+    "t_start": 115.1,
+    "t_end": 117.96,
+    "text": "Straight against Möbius, and Möbius against Möbius."
+  },
+  {
+    "t_start": 117.96,
+    "t_end": 124.24,
+    "text": "And now you're thinking that Tadashi can't count because there are only three cases but actually there are four because when you do Möbius against Möbius"
+  },
+  {
+    "t_start": 124.24,
+    "t_end": 130.08,
+    "text": "Those two Möbius strips could be of the same chirality, that is they might be twisted in the same direction"
+  },
+  {
+    "t_start": 130.08,
+    "t_end": 134.0,
+    "text": "or they can have opposite chirality, that is they are twisted in opposite cases."
+  },
+  {
+    "t_start": 134.0,
+    "t_end": 137.28,
+    "text": "Clearly, maybe they will produce different results so we have to be careful."
+  },
+  {
+    "t_start": 137.36,
+    "t_end": 145.94,
+    "text": "Straight against straight. Here is a cross and I glue the ends, that's one straight strip for us."
+  },
+  {
+    "t_start": 146.0,
+    "t_end": 148.0,
+    "text": "And the other strip"
+  },
+  {
+    "t_start": 149.16,
+    "t_end": 150.0,
+    "text": "like so"
+  },
+  {
+    "t_start": 150.0,
+    "t_end": 155.06,
+    "text": "By the way a little bit of engineering advice if you want to show this to friends and family it's very tempting"
+  },
+  {
+    "t_start": 155.06,
+    "t_end": 160.96,
+    "text": "to make the strips loop and then glue them at right angles, but then it become really difficult actually."
+  },
+  {
+    "t_start": 160.96,
+    "t_end": 166.82,
+    "text": "You have to go in there and glue and it's nasty. So it's much better to make a cross and then glue the ends."
+  },
+  {
+    "t_start": 166.94,
+    "t_end": 171.08,
+    "text": "By cutting all the way around one centre line and all the way around the other centre line"
+  },
+  {
+    "t_start": 171.08,
+    "t_end": 173.68,
+    "text": "somewhere in the middle you have to make a cross cut"
+  },
+  {
+    "t_start": 173.68,
+    "t_end": 177.84,
+    "text": "But in order to make the suspense last, I'm going to leave the cross cut until the end."
+  },
+  {
+    "t_start": 177.84,
+    "t_end": 182.6,
+    "text": "So here I started cutting one of the loops all the way along the centre line"
+  },
+  {
+    "t_start": 185.54,
+    "t_end": 188.26,
+    "text": "And the other loop along the centre line."
+  },
+  {
+    "t_start": 188.26,
+    "t_end": 192.42,
+    "text": "Also all the way around but leaving the cross cut until the end."
+  },
+  {
+    "t_start": 193.82,
+    "t_end": 200.32,
+    "text": "This is the picture just as we are about to finish cutting. You can see this was one untwisted loop"
+  },
+  {
+    "t_start": 200.32,
+    "t_end": 212.9,
+    "text": "Okay, now, earlier when we had a single untwisted ordinary loop and when we cut it along the centre line"
+  },
+  {
+    "t_start": 212.9,
+    "t_end": 215.5,
+    "text": "it just split in two halves, the results of which are visible here."
+  },
+  {
+    "t_start": 215.5,
+    "t_end": 217.5,
+    "text": "What's going to happen this time?"
+  },
+  {
+    "t_start": 217.5,
+    "t_end": 222.72,
+    "text": "Easily, I'm going to cut this, finish cutting it and chopping it, chop, chop."
+  },
+  {
+    "t_start": 222.72,
+    "t_end": 226.1,
+    "text": "And what I manage is a flat square!"
+  },
+  {
+    "t_start": 226.1,
+    "t_end": 229.28,
+    "text": "Hmm, that's funny. Flat square. What happened?"
+  },
+  {
+    "t_start": 229.28,
+    "t_end": 233.64,
+    "text": "Okay. We'll come back to that in a moment. But let's try the next case."
+  },
+  {
+    "t_start": 233.64,
+    "t_end": 237.14,
+    "text": "Let's try straight against Möbius"
+  },
+  {
+    "t_start": 237.34,
+    "t_end": 242.88,
+    "text": "That's a straight strip. And then the other one I'm going to twist once into a Möbius strip."
+  },
+  {
+    "t_start": 242.96,
+    "t_end": 247.9,
+    "text": "And by which I mean twist one and then glue the ends, okay."
+  },
+  {
+    "t_start": 247.9,
+    "t_end": 254.0,
+    "text": "This object is generally different from the previous one so when I cut this object along the centre line like this."
+  },
+  {
+    "t_start": 254.0,
+    "t_end": 256.0,
+    "text": "It should produce something, hopefully, different."
+  },
+  {
+    "t_start": 256.0,
+    "t_end": 262.34,
+    "text": "Let's try it again. As usual in order to make the suspense last I'm going to leave the cross cut until the end."
+  },
+  {
+    "t_start": 262.34,
+    "t_end": 264.34,
+    "text": "And then now the other loop"
+  },
+  {
+    "t_start": 264.34,
+    "t_end": 266.34,
+    "text": "Let's cut along the centre line"
+  },
+  {
+    "t_start": 266.34,
+    "t_end": 271.3,
+    "text": "Cut, cut, cut. And that's the picture that we have."
+  },
+  {
+    "t_start": 271.82,
+    "t_end": 276.26,
+    "text": "As we are about to finish cutting so we can see that this was a straight loop"
+  },
+  {
+    "t_start": 276.26,
+    "t_end": 281.7,
+    "text": "which has been cut along the centre line. And that was the Möbius"
+  },
+  {
+    "t_start": 281.7,
+    "t_end": 285.44,
+    "text": "And this, as we say, is different from the previous one"
+  },
+  {
+    "t_start": 285.44,
+    "t_end": 288.34,
+    "text": "straight against straight because of this twist."
+  },
+  {
+    "t_start": 288.34,
+    "t_end": 291.68,
+    "text": "Now what's going to happen when I cut finish cutting everything?"
+  },
+  {
+    "t_start": 291.72,
+    "t_end": 297.2,
+    "text": "Are you ready? Am finally finish cutting and what we've managed is"
+  },
+  {
+    "t_start": 299.58,
+    "t_end": 300.82,
+    "text": "again a flat square!"
+  },
+  {
+    "t_start": 300.82,
+    "t_end": 304.8,
+    "text": "Well that was disappointing or interestingly disappointing."
+  },
+  {
+    "t_start": 304.8,
+    "t_end": 307.68,
+    "text": "Well maybe we are getting a flat square every single time."
+  },
+  {
+    "t_start": 307.68,
+    "t_end": 311.9,
+    "text": "Straight against straight: flat square. Straight against Möbius: flat square again."
+  },
+  {
+    "t_start": 311.9,
+    "t_end": 317.64,
+    "text": "Let's now do Möbius against Möbius. But now we'll do two Möbiuses of opposite chiralities,"
+  },
+  {
+    "t_start": 317.64,
+    "t_end": 320.2,
+    "text": "that is twisted in opposite ways."
+  },
+  {
+    "t_start": 320.2,
+    "t_end": 324.72,
+    "text": "Now if you want to show this off to friends and family you have to remember that this is opposite."
+  },
+  {
+    "t_start": 324.72,
+    "t_end": 328.06,
+    "text": "And in order to do so you have to exercise your short term memory."
+  },
+  {
+    "t_start": 328.06,
+    "t_end": 333.42,
+    "text": "Here, first let's glue this by twisting this piece"
+  },
+  {
+    "t_start": 333.42,
+    "t_end": 336.54,
+    "text": "clockwise, in a right handed screw fashion."
+  },
+  {
+    "t_start": 336.54,
+    "t_end": 338.54,
+    "text": "and make a Möbius."
+  },
+  {
+    "t_start": 338.54,
+    "t_end": 340.54,
+    "text": "And you have to remember this."
+  },
+  {
+    "t_start": 341.34,
+    "t_end": 342.54,
+    "text": "So that's one."
+  },
+  {
+    "t_start": 342.54,
+    "t_end": 345.28,
+    "text": "In a moment, when I'm about to close the other one."
+  },
+  {
+    "t_start": 345.28,
+    "t_end": 348.14,
+    "text": "Wait what have I just done? Is it clockwise or anti-clockwise?"
+  },
+  {
+    "t_start": 348.14,
+    "t_end": 348.98,
+    "text": "What was it?"
+  },
+  {
+    "t_start": 348.98,
+    "t_end": 356.38,
+    "text": "Well it was clockwise, so this time you have to spin it counter clockwise"
+  },
+  {
+    "t_start": 356.38,
+    "t_end": 359.6,
+    "text": "or anti-clockwise if you're looking at it from the other side of the Atlantic."
+  },
+  {
+    "t_start": 359.6,
+    "t_end": 362.54,
+    "text": "In a left handed screw fashion and then close the ends."
+  },
+  {
+    "t_start": 362.54,
+    "t_end": 365.74,
+    "text": "Glue the ends together and that's the other piece."
+  },
+  {
+    "t_start": 365.74,
+    "t_end": 368.72,
+    "text": "Two Möbius strips that have opposite chiralities"
+  },
+  {
+    "t_start": 368.72,
+    "t_end": 370.72,
+    "text": "that are glued at right angles to each other"
+  },
+  {
+    "t_start": 370.72,
+    "t_end": 371.7,
+    "text": "It's a rather beautiful thing."
+  },
+  {
+    "t_start": 371.7,
+    "t_end": 375.44,
+    "text": "And although this is strickly not necessary from the mathematical point of view,"
+  },
+  {
+    "t_start": 375.44,
+    "t_end": 378.22,
+    "text": "I'm going to reinforce these pieces from the back because"
+  },
+  {
+    "t_start": 378.22,
+    "t_end": 380.94,
+    "text": "that is going to be better for the resulting sculpture later on"
+  },
+  {
+    "t_start": 380.94,
+    "t_end": 384.16,
+    "text": "And this is a present for everyone."
+  },
+  {
+    "t_start": 384.16,
+    "t_end": 388.08,
+    "text": "And all the way around the other loop."
+  },
+  {
+    "t_start": 388.6,
+    "t_end": 391.56,
+    "text": "Leaving the cross cut until the end as usual."
+  },
+  {
+    "t_start": 392.14,
+    "t_end": 397.66,
+    "text": "Are you ready? So nothing up here, nothing up here. And what the image is is a present for all of you."
+  },
+  {
+    "t_start": 397.66,
+    "t_end": 403.78,
+    "text": "And I finish cutting. I finish cutting and I told you this is applicable, an applied mathematics,"
+  },
+  {
+    "t_start": 403.78,
+    "t_end": 408.2,
+    "text": "what the emerges is amazingly,"
+  },
+  {
+    "t_start": 408.2,
+    "t_end": 410.2,
+    "text": "a pair of linked hearts!"
+  },
+  {
+    "t_start": 410.2,
+    "t_end": 415.28,
+    "text": "So you can see, it is an applicable mathematics as you can see and you can apply it in all sorts of contexts."
+  },
+  {
+    "t_start": 415.28,
+    "t_end": 417.28,
+    "text": "And I hope you make good use of it."
+  },
+  {
+    "t_start": 422.26,
+    "t_end": 424.46,
+    "text": "Now let's understand why we get the flat square."
+  },
+  {
+    "t_start": 424.46,
+    "t_end": 430.72,
+    "text": "Until now, in a silly attempt at fair tricks, I was leaving the cross cut until the end"
+  },
+  {
+    "t_start": 430.72,
+    "t_end": 437.5,
+    "text": "A good point of view however, a good way to think about this is to cut one of the pieces completely around."
+  },
+  {
+    "t_start": 437.5,
+    "t_end": 439.5,
+    "text": "four and finally it's straight."
+  },
+  {
+    "t_start": 439.5,
+    "t_end": 443.12,
+    "text": "So the object had four twists not two."
+  },
+  {
+    "t_start": 443.8,
+    "t_end": 450.64,
+    "text": "Where do the extra two twists come from? Do you know? As I say, we seemed to have proved, a moment ago,"
+  },
+  {
+    "t_start": 450.64,
+    "t_end": 455.68,
+    "text": "that the object should have two twists but it had four twists it comes from the following interesting effect."
+  }
+]

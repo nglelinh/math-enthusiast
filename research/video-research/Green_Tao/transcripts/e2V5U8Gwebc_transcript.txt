@@ -1,0 +1,1017 @@
+there other little I know about Terren to because I'm a developmental
+to because I'm a developmental psychologist and he was part of a
+psychologist and he was part of a um um well you may or may not know this
+um um well you may or may not know this but he was a subject in a very famous la
+but he was a subject in a very famous la itudinal study of exceptionally gifted
+itudinal study of exceptionally gifted children and he scored 760 on the math
+8 um and he was the youngest participant in the international mathematical
+started there doing that at age 10 and won his first gold medal by age 13 the
+won his first gold medal by age 13 the youngest ever um and he began to teach
+youngest ever um and he began to teach high school calculus at age
+8 but one thing I want to point out is not all child prodigies and math
+not all child prodigies and math olympiads become Terry
+to um there are many children who perform very well in um not not many
+perform very well in um not not many exceptionally small number of child but
+exceptionally small number of child but but who don't go on to be gifted
+interesting thing not all very gifted children become very gifted creative
+Scholars so it's a um that's part of what makes this parents so extremely
+what makes this parents so extremely special um now what he's done since um
+special um now what he's done since um teaching calculus at age8 has been to
+his work has covered a broad SWA of mathematics including major advances in
+mathematics including major advances in partial differential equations harmonic
+analysis combinator and number theory he has won numerous prizes in fact I could
+has won numerous prizes in fact I could be here all afternoon listing the prizes
+be here all afternoon listing the prizes but among others the Salem prize the bue
+but among others the Salem prize the bue prize the fields medal which is wild
+widely considered the top honor a mathematician can receive and now of
+mathematician can receive and now of course the emers prize here at
+course the emers prize here at Northwestern University now Terry I've
+heard that you've become such a regular at the math department lunch table and
+at the math department lunch table and have already spoken in three different
+have already spoken in three different departmental seminars so the department
+departmental seminars so the department feels that you've more than earned
+feels that you've more than earned honorary membership and asked me to give
+honorary membership and asked me to give you a math department T-shirt to confirm
+you a math department T-shirt to confirm that so if you could so if you could
+that so if you could so if you could come on up here and get your math
+congratulations for the Nemer prize and your M nem prize all right
+your M nem prize all right welcome well thank you very much that
+welcome well thank you very much that was a very
+nice very nice introduction uh I should clarify I was not teaching calculus at
+calculus a slight distinction but um okay it's anyway um no it's it's great
+to be here i' I've had a lot of fun already and it's a and whe the weather's
+already and it's a and whe the weather's a nice change in Los Angeles um anyway
+so um I'm here to talk about uh to give sort of
+non-technical talk on one of my favorite areas of mathematics which is Prim
+areas of mathematics which is Prim number
+theory of number Theory it's one of the oldest subjects in mathematics you over
+oldest subjects in mathematics you over 2,000 years old uh but we're still uh
+2,000 years old uh but we're still uh working on it we've made a lot of
+progress but there's still a lot of problems out there that um even some
+problems out there that um even some that are very old that we still can't
+that are very old that we still can't solve but we we are we have made
+progress in recent years uh it's a huge subject and as I said there's thousands
+subject and as I said there's thousands of years of work and there's no way I
+can tell you everything in one hour um so this is uh this this talk is sort of
+so this is uh this this talk is sort of like uh like if if uh if you want to go
+like uh like if if uh if you want to go see Paris and and I just show you the
+know so the budget tour uh version of of of of things it's it's it's it's just a
+of of things it's it's it's it's just a taste of of what's going on it's but uh
+hopefully you get some idea of this subject okay um so it's prime number
+subject okay um so it's prime number theory of course is a stud stud of prime
+theory of course is a stud stud of prime numbers so just remind you what a prime
+number is oops
+dangerous so so a prime number is the um is any natural number greater than one
+we don't consider one to be a prime which can't be factored into two smaller
+which can't be factored into two smaller numbers so six for example is not prime
+numbers so six for example is not prime because it's 2 * 3 and here are the
+because it's 2 * 3 and here are the first 100 or so primes in the background
+first 100 or so primes in the background uh and here is one of of the biggest
+uh and here is one of of the biggest primes ever found I think that's yeah
+primes ever found I think that's yeah that's still the largest prime uh known
+that's still the largest prime uh known um it's so there's there's a lot of
+um it's so there's there's a lot of these primes um so these numbers have
+these primes um so these numbers have been studied ever since the ancient
+Greeks um and even the Greeks knew uh quite a bit about prime numbers uh in
+quite a bit about prime numbers uh in particular they they proved two
+particular they they proved two important um two important
+results um which you probably know from High School um the first is the
+High School um the first is the fundamental FM of arithmetic uh which it
+fundamental FM of arithmetic uh which it first appears in uh U's elements around
+first appears in uh U's elements around 300 BC uh it tells you that so not every
+actually be split up into primes so a number like 30 is not prime but you can
+number like 30 is not prime but you can write it as 2 * 3 * 5 and so every
+write it as 2 * 3 * 5 and so every natural number can be split up as a
+natural number can be split up as a product of primes and there's basically
+only one way to do that other than rearrangement of course 30 is also 5 * 3
+rearrangement of course 30 is also 5 * 3 * 2 you can rearrange the numbers but
+other than that that's the only way you can Factor uh any number into primes and
+can Factor uh any number into primes and that's got the fundamental theorem of
+that's got the fundamental theorem of arithmetic um then the second basic
+arithmetic um then the second basic theorem that was known back to the in
+the Greeks uh to the Greeks is uid theorem is that there's a um there's a
+theorem is that there's a um there's a lot of prime numbers there are
+lot of prime numbers there are infinitely many prime numbers prime
+infinitely many prime numbers prime numbers never
+end so these are the two basic theorems um about prime numbers the two classical
+um about prime numbers the two classical theorems so the fundamental theorem
+tells you that every number uh can be split up into primes here a few numbers
+split up into primes here a few numbers and um here they are split up into
+primes so if you like um uh you can think of the primes as like the atomic
+think of the primes as like the atomic elements of integer multiplication just
+like every molecule can be spit up into atoms every integer can can be split up
+into primes um so if you want to study multiplication in the natural numbers uh
+multiplication in the natural numbers uh the primes become very um uh fundamental
+I mean just like Atomic elements at natural in
+chemistry and incidentally this is this is the reason why uh we don't consider
+one a prime number I mean we used to until about two or 300 years ago um if
+until about two or 300 years ago um if you consider one one a prime number then
+you consider one one a prime number then the fundamental them of calcul of um
+the fundamental them of calcul of um arithmetic is not true because you can
+split up say six is 2 * 3 or 2 * 3 * 1 2 * 3 * 1 * 1 and then you no longer have
+* 3 * 1 * 1 and then you no longer have what's called unique factorization and
+what's called unique factorization and so the the fundamental theorem breaks
+down and we really like the fundamental theorem of arithmetic so uh so it was
+theorem of arithmetic so uh so it was decided at some point that we just do
+decided at some point that we just do not consider one to be a prime number um
+not consider one to be a prime number um I mean we can do that you know I mean um
+I mean we can do that you know I mean um you know we can Define whatever we want
+but okay so the the natural definition of a prime uh excludes
+of a prime uh excludes one okay um so ukls theorem there's
+one okay um so ukls theorem there's infinite many primes um I'll actually
+give you the proof of this theorem uh just because I think it's it's it's it's
+complete proof I'll give in this talk um you can prove it in several ways but um
+you can prove it in several ways but um uh but the way I present is uh is what's
+uh but the way I present is uh is what's is an argument of reductive ad absurdum
+is an argument of reductive ad absurdum proof by contradiction so you prove
+proof by contradiction so you prove something is true by showing that it
+argument so we want to show that there's infinitely many primes how do you show
+infinitely many primes how do you show that so you assume it's false suppose
+that so you assume it's false suppose for sake of contradiction um that
+for sake of contradiction um that there's only finally many primes that
+there's only finally many primes that the primes go on for a certain while and
+then they stop uh so just suppose hypothetically of course this is not
+true but suppose that two three and five were the only primes that uh uh just for
+there okay so suppose that these are the only primes that are out there and so
+only primes that are out there and so there's a finite number of primes you
+call them P1 up to PN and then what you do is that you multiply them together
+do is that you multiply them together you take all your primes you multiply
+them together P1 * P2 * P3 up to PN and then you add one more uh and then you
+get a new number so for instance if the only primes you knew which two three and
+only primes you knew which two three and five you multiply them together you get
+30 you add one you get 31 and that's a new number it may or may not be prime um
+new number it may or may not be prime um but it's certainly certainly bigger than
+one because you added one to a number that was already bigger than was already
+that was already bigger than was already at least one um but it's not divis
+not divisible by by any of the primes and you're assuming that these are all
+and you're assuming that these are all the Primes that are out there so you you
+divisible by any Prime but uh that contradicts the fundamental theorem of
+contradicts the fundamental theorem of arithmetic
+number can be split up into primes and but then we find a contradiction and so
+but then we find a contradiction and so uh because there's a uh because the
+uh because there's a uh because the fundamental authentic is true we can't
+fundamental authentic is true we can't actually have finite many
+primes so that's a funny argument you know I mean it does it it tells you
+know I mean it does it it tells you there's infinitely many primes but it
+there's infinitely many primes but it doesn't tell you where they are it just
+tells you that there can't be finely many primes um but it is a beautiful
+many primes um but it is a beautiful argument um the great um British
+mathematician G Hardy had a quote about this he said that reductor ad absurdum
+this he said that reductor ad absurdum which uid loves so much is one of
+which uid loves so much is one of mathematician's finest weapons it is a
+mathematician's finest weapons it is a finer gabit far finer Gambit than any
+finer gabit far finer Gambit than any chess Gambit in chess you can sacrifice
+chess Gambit in chess you can sacrifice a porn or a piece but a mathematician
+a porn or a piece but a mathematician offers the entire game and you can still
+so yeah so many of the most powerful arguments in mathematics are indirect
+arguments in mathematics are indirect like this redu adop
+sodum so these are the two fundamental theorems two basic theorems of of prime
+theorems two basic theorems of of prime number Theory the fundamental theorem of
+arithmetic and ukids Theorem the fundamental theorem remember tells us
+that every number can be facted into primes at least in principle um but like
+primes at least in principle um but like UK theem it doesn't it's it's it's um it
+UK theem it doesn't it's it's it's um it just tells you that every number can be
+factored it doesn't really tell you how uh or I mean you could Factor just by
+Brute Force just patiently trying to factor split up your number into factors
+but if you take a really big number like numbers of 200 digits or so we know that
+numbers of 200 digits or so we know that eventually if you had you know infinite
+eventually if you had you know infinite amounts of of time you could eventually
+Factor any number into primes but we don't know how to uh we don't know even
+don't know how to uh we don't know even with the best computers uh how to factor
+number in um in a large amount of of time in in a reasonable amount of time
+you know like in a day or something but that's a good thing
+actually it's good that we can't do that um because a lot of modern cryptography
+um because a lot of modern cryptography relies on that that if you want to um
+buy something on the Internet and you want to have a a secure transaction or
+you want to use your ATM machine without your uh your your your PIN number being
+your uh your your your PIN number being snooped um these are encoded by by
+snooped um these are encoded by by cryptographic algorithms the most famous
+cryptographic algorithms the most famous one is called the irsa algorithm and
+Data um in such a way that um the only that they can't or at least we believe
+that they can't or at least we believe they can't be um they can't be decoded
+they can't be um they can't be decoded unless uh you are able to somehow Factor
+amount of time and no one knows how to do that or at least if if they do they
+do that or at least if if they do they aren't telling us um but uh okay but but
+aren't telling us um but uh okay but but you know the the algorithms to secure
+you know the the algorithms to secure ATM machines for example have never been
+ATM machines for example have never been cracked um I mean um I mean there are
+other ways to steal from Banks and so forth but but but but but cryptography
+forth but but but but but cryptography is not is not the weak
+okay so um the fundamental theorem tells you in principle that numbers can be
+you in principle that numbers can be factored doesn't tell you how uh very
+similarly uh uid theem tells you this this um there are infinitely many primes
+this um there are infinitely many primes so in particular there are arbitr large
+primes so somewhere out there there's a Prime bigger than a billion bigger than
+a trillion bigger than 10 100 so forth but it doesn't tell you how to find them
+but it doesn't tell you how to find them um and so it's it's actually quite hard
+um and so it's it's actually quite hard to find very large primes um although we
+we have found some reasonbly large primes the uh the biggest Prime I ever
+primes the uh the biggest Prime I ever found uh was uh is this number here to
+43,800 69 sorry minus one uh that's a that's a reasonbly large number it's 12
+that's a reasonbly large number it's 12 million or so digits long uh and that
+million or so digits long uh and that was proven to be prime um by by What's
+was proven to be prime um by by What's called the the gimps project great
+internet missen Prime survey um and it's not a single computer but it was a whole
+not a single computer but it was a whole it was it was distributed over the
+entire internet well not the entire internet but but but but many many
+computers over the Internet uh each so of searching uh different ranges uh and
+of searching uh different ranges uh and doing different parts of calculation in
+fact I think the one of the final calculations was actually done at my
+home University UCLA I was quite proud of that um and in the background this is
+of that um and in the background this is this is apparently a map of the internet
+um I don't exactly know what it represents but it look pretty pretty so
+represents but it look pretty pretty so I put it as a as a background there
+um okay but you see so there are infin there are infin many primes but it's
+really hard to get your hands on a single one a single large one um it's
+single one a single large one um it's it's different from say the square
+numbers you know 1 14 n and so forth I mean it's it's very easy to find a large
+mean it's it's very easy to find a large square number you just take any big
+Square large square number but to find a large prime number it's it's much harder
+large prime number it's it's much harder we don't have any quick way to get our
+hands on on a large prime number and because the primes do weird things you
+because the primes do weird things you know um they don't form a nice regular
+know um they don't form a nice regular pattern like they do with the square
+pattern like they do with the square numbers sometimes they cluster close
+together sometimes they have big gaps and we don't completely understand uh
+and we don't completely understand uh What uh how how I mean we we have
+guesses as as to how how they are structured but we can't prove certain
+structured but we can't prove certain things um in particular certain patterns
+things um in particular certain patterns we don't know what patterns uh the
+primes have and don't have at least we can't prove them um uh which patterns
+the PS have so uh for example um there's a very basic an old conjecture about um
+a very basic an old conjecture about um about the primes which um May in fact
+even go back to uclid although I think the first recorded instances back in the
+the first recorded instances back in the 18th century uh it's called the sh Prime
+conjecture U which is uh so we know there infin many primes P um but uh
+could there be infin many what are called twin primes which are pairs of
+primes which are which p p plus two that differ by exactly two um so over on the
+differ by exactly two um so over on the uh in the background I showed you the
+uh in the background I showed you the first few twin primes three and five are
+first few twin primes three and five are twin primes 11 and 13 are twin primes
+1607 1609 twin primes we found a lot of twin primes uh the largest pair of twin
+twin primes uh the largest pair of twin primes ever found is is this Beast over
+primes ever found is is this Beast over here uh found Again by by computer
+search uh about 100,000 digits long for both both pairs um and as far as we know
+both both pairs um and as far as we know that could be the last one um you know
+uh we don't know whether we we we strongly believe that it continues on
+forever um but uh we can't prove that this that's the biggest number that we
+this that's the biggest number that we can actually
+can actually find
+um yeah so the the primes are weird patterns that we that we don't fully
+patterns that we that we don't fully understand so the famous Hungarian
+mathematician has quote that God may not play dice to the universe this a quote
+play dice to the universe this a quote of erish of Einstein but something
+of erish of Einstein but something strange is going on with the prime
+um so yeah we we believe actually the primes are distributed kind of randomly
+in a certain sense that uh kind of like the digits of pi 3.14159 and so forth we
+the digits of pi 3.14159 and so forth we we believe these numbers have no pattern
+we believe these numbers have no pattern um and to some extent we also believe uh
+in a certain sense that the primes also um obey uh no no patents other than the
+um obey uh no no patents other than the ones we we we already understand I'll
+ones we we we already understand I'll get to that point a bit later um so this
+may seem like some sort of academic thing you know I mean the the um the uh
+thing you know I mean the the um the uh um you know the Greek studied primes not
+useful for anything I think just because they were pretty um but it is actually
+they were pretty um but it is actually it has turned out that uh the random
+it has turned out that uh the random properties of prime numbers have
+properties of prime numbers have actually become very very important um
+actually become very very important um uh and as I said it particularly in
+cryptography and in a type of Crypt cryptography called public key
+cryptography which uh secures all kinds of things yeah such as ATM machines or
+Internet so let me tell you what publicy cryptography is so I'll describe by an
+cryptography is so I'll describe by an analogy so it it secures data but rather
+analogy so it it secures data but rather than data let's talk something physical
+than data let's talk something physical um suppose you have two uh people uh and
+Alison Bob uh don't ask me why um and uh suppose that Alice uh has some box of of
+suppose that Alice uh has some box of of valuables which are called G for obscure
+valuables which are called G for obscure reason um to uh and Alice wants to send
+reason um to uh and Alice wants to send G to her friend Bob okay it doesn't
+G to her friend Bob okay it doesn't really matter what's in the box but but
+really matter what's in the box but but just imagine is valuable okay uh and
+just imagine is valuable okay uh and she's going to mail uh this to uh to Bob
+she's going to mail uh this to uh to Bob okay uh okay but she's worried that she
+doesn't trust the US Postal Service or uh or whoever is taking the mail and uh
+take out what's inside so she wants to secure the Box okay so of course what
+secure the Box okay so of course what she can do is that she can put a lock
+say put a pad loock on the box and send over Bob a locked box um but uh um but
+over Bob a locked box um but uh um but then but Bob doesn't have the key to
+this this lock okay so Bob just get a lock box let's assume for sake of
+lock box let's assume for sake of argument that the box is unbreakable um
+argument that the box is unbreakable um now of course you could then send the
+that the key could be intercepted and the Box can be intercepted and then and
+then the uh um and then whoever is intercepting could could take the
+contents okay so um yeah so how do you you know if you haven't you know of
+course if Bob already had a key to your lock or something it would be fine but
+lock or something it would be fine but suppose you you've never actually
+suppose you you've never actually exchanged anything with Bob before you
+this is the first time you're communicating with Bob you want to send
+uh somehow a lock box and the key at the same time or without ever having any um
+same time or without ever having any um risk of interception
+so how would you do this so um yeah it's a little tricky to actually do this
+securely you can do it uh but it does it does take a little bit of effort and
+does take a little bit of effort and there's a number of solutions to this
+there's a number of solutions to this puzzle um so one solution is what's
+puzzle um so one solution is what's called a three pass
+protocol um so what you can do is uh Alice can take a box G and lock it and
+Alice can take a box G and lock it and then you have a locked box which are
+called G to a um for reasons that will become a little clearer later um and
+become a little clearer later um and then she'll send Bob this locked box G
+then she'll send Bob this locked box G to the a now Bob as I said can't uh
+can't uh do anything with this box because it's Hees he doesn't have a key
+because it's Hees he doesn't have a key only Alice has Ace key uh but what Bob
+puts his own lock on it so now it's doubly locked he's got two pad loocks on
+doubly locked he's got two pad loocks on it A and B so I call it usually ab and
+it A and B so I call it usually ab and uh and now she sends the box back with
+uh and now she sends the box back with two locks on it okay so Alice gets back
+two locks on it okay so Alice gets back the same box now has two locks on it
+it's got her lock and and uh and Bob's lock
+now alas can't do anything about Bob's log it doesn't Bob's key but she does
+so she can take off her own lock now only be's lock is on it send it back
+and with be lock and he has the key for that so he can unlock that okay and then
+he gets back the Box okay uh this is called a three pass protocol you have to
+called a three pass protocol you have to pass the box back three times um I
+understand this this protocol is actually used actually by the military
+sometimes yeah have some secret documents and they can't send them
+documents and they can't send them electronically they they they uh they
+actually do this um at least so I'm told okay so um yeah so if you have an EAS
+okay so um yeah so if you have an EAS dropper and the easo is always called
+Eve uh if you have an EAS dropper uh who opens all the opens all the mail between
+opens all the opens all the mail between Alice and Bob Eve gets to see three
+locked boxes at at no stage can she actually get the the original unlocked
+box um even if she consum a copy copy all all the boxes that she's getting she
+all all the boxes that she's getting she she never gets the keys so she can't do
+boxes okay so that was a physical analogy um to public cryptography but
+exactly the same algorithm uh you can do it digitally you know I mean and and you
+it digitally you know I mean and and you can you can encode um numerical data you
+can you can encode um numerical data you know such as a credit card number by
+technique and this particular um if you do that in this particular case you get
+What's called the Massi system it's related to a more famous system called
+the Diffy helmet uh key exchange system um and it's it's it's a very
+system um and it's it's it's a very similar protocol um Alice has some
+similar protocol um Alice has some secret number G like a credit card
+secret number G like a credit card number that she wants to send to to to
+number that she wants to send to to to Bob um so to to um to do this uh Alice
+and Bob have to first talk U speak publicly you know over open channels to
+publicly you know over open channels to agree on a very large Prime and this
+agree on a very large Prime and this Prime will become important bit later so
+Prime will become important bit later so they agree on Prime P okay and and use
+droper will know what p is p is public um but that's fine so then uh Alice
+um but that's fine so then uh Alice takes her secret number G and she locks
+takes her secret number G and she locks it and the way she locks it is that she
+raises G to the power a just you know g g times G times G * a times and this you
+g times G times G * a times and this you can do fairly quickly um but then you uh
+you have to scramble it a little bit uh if if if if you send G A it turns out
+if if if if you send G A it turns out you can use logarithms in that you get
+you can use logarithms in that you get back G again uh you you you um you don't
+back G again uh you you you um you don't just send G A you you you divide G by by
+P and take the remainder and that gives you sort of a scrambled version of G A
+you sort of a scrambled version of G A and you send that scrambled number over
+and you send that scrambled number over to Bob as a that's a sort of locked
+to Bob as a that's a sort of locked version of
+G Bob takes that number which he can't decode yet but then he locks he locks it
+decode yet but then he locks he locks it himself and um by raising that number to
+himself and um by raising that number to another Power B which is its own secret
+another Power B which is its own secret number and takes mod
+P and then sends it that scramble number back to Alice then Alice unlocks her
+side of the number by taking an eighth roote and there's a way to take eighth
+roote and there's a way to take eighth root when you have uh uh only know the
+root when you have uh uh only know the modp remainder this is something you
+learn in number Theory uh then you have then only Bob's Lock is left on it then
+then only Bob's Lock is left on it then you take the number back uh and then Bob
+can take a be root and and uh recover the original number okay and this this
+the original number okay and this this this is the protocol
+um and uh you need this this large p as I said before if you if you don't
+I said before if you if you don't scramble things using this large P then
+scramble things using this large P then the data that the E Shopper sees G the a
+the data that the E Shopper sees G the a g a b g the B uh if you use logarithms
+you can take that information and actually recover G from it by some
+actually recover G from it by some mathematics but if you have the if you
+have that if you scramble things by Lo by by this Prime p no one knows how to
+do that uh because no one how to take logarithms uh in base P
+logarithms uh in base P properly modular
+P so uh this is an algorithm that's actually used in um in various protocols
+actually used in um in various protocols I think IRC for example uses that
+I think IRC for example uses that particular protocol um for secure chat
+particular protocol um for secure chat rooms um so we believe that um these
+dropping in the sense that if an East dropper sees all this data going back
+dropper sees all this data going back and forth and has only a reasonable
+amount of computer power uh not with an infinite amount of power you can break
+basically any code um but with with a finite amount with a reasonable amount
+finite amount with a reasonable amount we believe that these particular codes
+we believe that these particular codes are pretty much
+unbreakable but we it's not yet proven that these things are secure and this is
+that these things are secure and this is this is actually a very very important
+this is actually a very very important problem in complexity Theory to to
+problem in complexity Theory to to actually show that certain problems are
+actually show that certain problems are so hard that that they can't be be
+so hard that that they can't be be solved uh using some any reasonable
+solved uh using some any reasonable amount of computer time this like one of
+amount of computer time this like one of the basic problems in in um in um and
+the basic problems in in um in um and computer science theoretical computer
+computer science theoretical computer science and uh one of the the
+called the P equal NP problem which you may have heard about uh which I want to
+say much about here uh except to say that uh the clay math Institute back in
+2000 had a um offered these seven Millennium challenge price problems for
+Millennium challenge price problems for what they what they consider the seven
+what they what they consider the seven most important problems in mathematics
+in it one of them is solved uh but the other six are open and this this is one
+other six are open and this this is one of the
+of the six
+this algorith is secure but we do have some some fairly weak partial results so
+some some fairly weak partial results so this this but uh I have one which I fond
+thing we do know is that um if you look at at this data that since like sent
+back and forth g a b g a We do know that if you if you you set up your protocol
+correctly then um if you look at the most significant digits of these three
+most significant digits of these three numbers um so not not the least
+numbers um so not not the least significant but the most significant
+just the top 10 or top 100 digits that are passed back and forth we know that
+are passed back and forth we know that those numbers are uniformly distributed
+those numbers are uniformly distributed basically what that means is that they
+basically what that means is that they look like random noise and that's good
+look like random noise and that's good because if it's if it's because you
+because if it's if it's because you can't decode anything from random noise
+if you apply any decoding Al algor random noise you just get more random
+random noise you just get more random noise garbage in garbage out um this
+noise garbage in garbage out um this doesn't tell you the whole thing is
+doesn't tell you the whole thing is secure because the the least significant
+secure because the the least significant digits could and in fact do contain um
+potentially Crack the Code but we at least know that they that just knowing
+that the top digits you have security uh so that's that's the result of Jean Bain
+so that's that's the result of Jean Bain from about six years seven years
+from about six years seven years ago okay so it's partial evidence
+ago okay so it's partial evidence towards the security of this
+algorithm okay um and more generally I mean it's it's it's it's because the
+the primes mix up um this algorithm like creat what looks like random noise when
+creat what looks like random noise when when when when you when you when you use
+when when when you when you when you use it and we strongly believe that that's
+basically all that each will see just a whole string of random random noise but
+whole string of random random noise but we can't prove
+that um yeah so there's a lot of Randomness in the primes uh well at
+Randomness in the primes uh well at least what looks like Randomness because
+least what looks like Randomness because of primes are not actually random there
+of primes are not actually random there there's there's no dice you have to roll
+there's there's no dice you have to roll or coins you have to flip to create the
+kind of random and unstructured um in particular there was no good formula for
+particular there was no good formula for the nth Prime um so you know as just
+there's a very easy form for the N square number the N square number is n
+squ but the the N prime number there was no exact formula other than we can call
+no exact formula other than we can call P sub n it doesn't really help anybody
+P sub n it doesn't really help anybody okay it um okay there there there is no
+okay it um okay there there there is no good formula for for the N Prime at
+good formula for for the N Prime at least no good exact
+formula although rather amazingly there is a very accurate approximate formula
+um which is a very famous theorem called the prime number theorem uh which is uh
+often called the most important theorem in number Theory um and it's a it's it's
+in number Theory um and it's a it's it's a a statement that the nth prime number
+we don't know it exactly but we know that it's approximately n * the natural
+logarithm of n for large n so the TR theth prime number is roughly a trillion
+theth prime number is roughly a trillion times natural log of a
+trillion um in the background here I think this uh the uh the dotted line um
+number and the solid line is a plot of n log n so I mean they're not exactly the
+log n so I mean they're not exactly the same but they they're pretty
+same but they they're pretty close
+close um so uh there was the okay um there's a
+um so uh there was the okay um there's a there's a more precise formula that we
+there's a more precise formula that we believe to be true which is more
+believe to be true which is more technical I won't write down here uh the
+technical I won't write down here uh the statement is known as the r hypothesis
+statement is known as the r hypothesis which is equivalent to knowing a more
+which is equivalent to knowing a more precise formula for the for the uh for
+precise formula for the for the uh for the nth Prime uh it remains unsolved
+here's someone having a go at it he didn't do it but um um okay but uh
+didn't do it but um um okay but uh that's another one of the claim price
+that's another one of the claim price problems actually another million dollar
+problems actually another million dollar prize problem for the correct solution
+of the rean hypothesis but I won't be talking about that much here okay um I
+talking about that much here okay um I mean that actually is the r hypothesis
+mean that actually is the r hypothesis actually is somewhere on the back of the
+advisers for that movie okay um so the primum theorem it's it's a much more
+advanced theorem than the um UK ucum tells you that there's infinite many
+tells you that there's infinite many primes the prim the tells you where
+those infin many primes are in some sense and uh it's it's as I said it's
+sense and uh it's it's as I said it's one of the landmark achievements of
+number Theory uh the proof is much more complicated um but I want to show you um
+complicated um but I want to show you um sort of a gist of the proof because it
+sort of a gist of the proof because it it I mean it's it's it shows you what a
+more modern mathematical proof looks like well it's it's 100 years old now
+proof so the way you show that the nth prime number is in loging it's it's
+really quite weird um what you do is that you think of the primes as a as a
+that you think of the primes as a as a function or you like as a wave or as a
+think of it as as a sound wave and and uh the precise name for the sound wave
+uh the precise name for the sound wave is called the bangod function and this
+is called the bangod function and this this is this is a wave which is loud
+whenever you're at a prime time and not okay at a time which is prime not prime
+okay at a time which is prime not prime okay and uh and quiet at other times so
+at time one it's it's quiet then two three four five six 7 8 9 10 11 and so
+three four five six 7 8 9 10 11 and so forth um okay so this is very specific
+forth um okay so this is very specific sound wave if you wish uh that you can
+sound wave if you wish uh that you can create um which has nice properties um
+is that you sort of listen to it um and the way you listen to it mathematically
+the way you listen to it mathematically is that you take what's called a f
+technically it's a variant of a for trans mean transform but never mind um
+trans mean transform but never mind um but you you you listen to this wave and
+but you you you listen to this wave and if you do some spectral analysis you
+if you do some spectral analysis you find that it has these various um notes
+oscillations in the um uh in them which you can uh discern with a f Transformer
+you can uh discern with a f Transformer and you get these uh sort of
+notes um in uh uh when you when you do this analysis and the notes have a name
+this analysis and the notes have a name they're called the zeros of the reman
+they're called the zeros of the reman zeta function and every time you have a
+zero somewhere uh that's like a note which is which is saying that the primes
+which is which is saying that the primes are doing some oscillation of some sort
+are doing some oscillation of some sort and then another Prime is giving you
+and then another Prime is giving you another zero is giving you another
+oscillation um so there's all these hidden patterns in the primes each one
+coming from one of these zeros this is something called the music of the primes
+something called the music of the primes um you can actually get sound files
+um you can actually get sound files listening to this music it doesn't
+listening to this music it doesn't actually sound very musical uh but you
+actually sound very musical uh but you can it
+can it is
+um okay so there are certain not and there are ones that are louder than
+others and the loud ones will create so much fluctuation in the graph of the nth
+much fluctuation in the graph of the nth Prime that the prime number three would
+start failing um so you have to show at some point that certain very loud notes
+some point that certain very loud notes actually do not actually appear in this
+the hard bit okay and this this takes a certain amount of effort um but once you
+certain amount of effort um but once you can exclude certain really loud notes in
+can exclude certain really loud notes in this music then uh you know that um you
+this music then uh you know that um you can analyze the original Soundwave using
+can analyze the original Soundwave using uh for analysis or other things like for
+uh for analysis or other things like for analysis normally you use cont
+analysis normally you use cont integration which is related tool and
+integration which is related tool and you get back to pan
+theorem okay um so I just I mean this is only the be sketch of proof but I just
+only the be sketch of proof but I just wanted to show you that you know our
+wanted to show you that you know our techniques have become somewhat more
+techniques have become somewhat more advanced since uid stay improving
+advanced since uid stay improving things okay so the the prime number
+things okay so the the prime number theorem tells us that we know something
+theorem tells us that we know something about the large scale structure of prime
+about the large scale structure of prime so the nth Prime is about Nal log n n *
+log n um and log is increasing rather slow SL so that means that the primes on
+slow SL so that means that the primes on average are getting further and further
+average are getting further and further spaced apart so there is some sort of
+sort of spreading out a little bit um but that doesn't tell you everything
+that that at small scales you you still have a lot of weird stuff going on so um
+have a lot of weird stuff going on so um okay so we have this picture here um
+okay so we have this picture here um this picture here is describing the
+this picture here is describing the first um all the Primes up to the number
+um so the way it works is that um every dot every so this the screen is divided
+dot every so this the screen is divided into pixels SCE um and the black dots
+are non- primes so I don't know maybe only the people in the front row can see
+only the people in the front row can see it but there are these two black dots in
+the corner that are adjacent to each other they touch each other um
+what the uh where's my mouse there are two right there uh that touch each other
+two right there uh that touch each other those are the primes two and three okay
+those are the primes two and three okay those are the only two primes actually
+seven and 11 and so forth and it just keeps running on and on and on um and so
+keeps running on and on and on um and so you noce a few things about about this
+you noce a few things about about this pattern uh firstly it's not really a
+pattern I mean there it's it's got all kinds of random stuff in it um it does
+kinds of random stuff in it um it does spread out it gets a little bit spasser
+spread out it gets a little bit spasser as as you go down and down it spreads
+as as you go down and down it spreads out a little bit but not but not by very
+out a little bit but not but not by very much but it's it's definitely much
+denser up up on top than it is on the bottom and that's the prime number the
+bottom and that's the prime number the in
+action um you there are some other things going on though um I mean primes
+things going on though um I mean primes are not completely random the for
+example the primes tend to be odd um so uh with one exception okay so so you can
+uh with one exception okay so so you can see that because you can see that uh
+see that because you can see that uh only every other column actually has has
+only every other column actually has has primes in it um you know this there's
+completely white um and the only even prime is two which is up there okay so
+prime is two which is up there okay so this the uh so all all the Primes are
+odd uh you can similarly show that all the Primes are adjacent to mulle of six
+the Primes are adjacent to mulle of six um with two exceptions two and three but
+um with two exceptions two and three but every other Prime is next to M six uh
+and if you look at the last digit of a prime it's always 1 37 or9 with two
+prime it's always 1 37 or9 with two exceptions again and five um and what
+exceptions again and five um and what that means is is that there are certain
+that means is is that there are certain so um you see this it's not just every
+some there these thick lines that are missing and there's also some diagonal
+missing and there's also some diagonal lines you can see that are missing and
+those are things like the mules of of three mes of five mes of of of seven
+three mes of five mes of of of seven those those are cutting out various um
+left is Swiss cheese sort of thing and that's what's left is are the primes um
+so there are some patterns in the primes you know certain things just don't don't
+don't occur um but uh okay but other than that it looks kind of random I mean
+than that it looks kind of random I mean it um it it it other than those patterns
+it um it it it other than those patterns it does look like someone just sort of
+dots um and there's a way to make mathematically precise what it means you
+mathematically precise what it means you know we believe the primes are sort of
+uniformly distributed once you uh you get rid of sort of these these these
+get rid of sort of these these these obvious patterns in
+them um so we we the primes are this sort of fascinating combination of three
+sort of fascinating combination of three things there's this large scale
+things there's this large scale structure coming from Prim number
+theorem there's this um local what we call local structure coming from the
+fact that they don't like being odd or being too far away from M of six and so
+forth and then there's all this Randomness which we sort of partly
+Randomness which we sort of partly understand um and basically what we've
+been what prime theory has been doing is combining these facts in ingenious ways
+combining these facts in ingenious ways to to to to learn more about the primes
+to to to to learn more about the primes and and things related to the primes and
+so you get uh you get a bunch of non-trivial
+theorems um for example here is one theorem uh it's called vinegar theorem
+theorem uh it's called vinegar theorem proven in 37 by the Russian
+proven in 37 by the Russian mathematician Ivan
+vov so um it's as it has to do what numbers are the sum of three primes so
+numbers are the sum of three primes so since primes tend to be odd you only
+since primes tend to be odd you only really want to consider odd numbers
+really want to consider odd numbers because those those are numbers that
+have the best chance of being some of three primes um and his theorem is that
+three primes um and his theorem is that every odd number that's large enough if
+every odd number that's large enough if that Beyond a certain point every large
+primes uh this uh is is part of a famous of goldark which as far as I know is is
+of goldark which as far as I know is is the only um uh conjecture in mathematics
+the only um uh conjecture in mathematics actually make it to a title of a
+actually make it to a title of a bestselling novel um anyway um but goach
+what had two conjectures an even and odd conjecture the the the odd conjecture is
+conjecture the the the odd conjecture is the conjecture that every odd number
+bigger than five in fact should be the sum of three primes um so you know like
+sum of three primes um so you know like 11 for example is um 7 plus 2 plus 2 um
+11 for example is um 7 plus 2 plus 2 um so uh we don't know that yet so vinard
+theum tells you that if n is big enough every odd number is is the sum of three
+every odd number is is the sum of three primes um how big is big enough uh
+primes um how big is big enough uh vinegar actually didn't say uh people
+eventually worked out what it was and uh and it was some enormous number Beyond
+and it was some enormous number Beyond which was Prime and people started
+lowering this uh the best record we know right now is any number larger than 10
+right now is any number larger than 10 1346 is odd number is the sum of of
+1346 is odd number is the sum of of three primes um we also know that every
+three primes um we also know that every number less than 10 20 uh sum of is the
+different method um but uh there so in some sense there's only a finite number
+some sense there's only a finite number of Cases left to check before can I can
+of Cases left to check before can I can prove this conjecture but uh it's still
+prove this conjecture but uh it's still a little bit some way off
+a little bit some way off unfortunately
+um okay um another theorem uh is quite famous is Chen's theorem it's the
+closest we have it's the nearest myth we have to the twin Prime conjecture to
+that there is infin many primes P such that P plus 2 is also Prime uh we can't
+that P plus 2 is also Prime uh we can't prove that yet um but what we can prove
+prove that yet um but what we can prove is sort of a near Miss uh we do know
+such that people two is what we call an almost Prime it's either a prime or the
+almost Prime it's either a prime or the product of two primes so it's it's it's
+sort of get it all the way down to to to to to just to no factors whatsoever uh
+and there's a good reason for that it's very annoying actually and no one knows
+very annoying actually and no one knows how to get around that problem it's
+how to get around that problem it's called the parody problem um and okay
+called the parody problem um and okay it's it's it's a rather sophisticated
+elementary proof but it's it's a very long Elementary proof the uh the main
+long Elementary proof the uh the main tool is uh is what is uh it's what's
+called Civ Theory and it's a way of thinking about the primes as being as
+simplest Civ that you know of is uh the C roses which you hopefully still learn
+the Primes up to say 64 uh you can write down all the numbers from 64 okay so one
+down all the numbers from 64 okay so one is not prime so you don't ignore one you
+is not prime so you don't ignore one you take two and you delete all the
+multiples of two cross them out and then take three delete all mules of three you
+take three delete all mules of three you cross those out multiples of five and
+multiples of seven you cross out all these numbers and actually that's that's
+these numbers and actually that's that's enough actually if you're just
+interested in primes up to 64 that everybody left those are all the Primes
+everybody left those are all the Primes remaining um and um that's that's a very
+remaining um and um that's that's a very simple C there are much more advanced
+simple C there are much more advanced cves that that give you things like the
+cves that that give you things like the Primes from uh more complicated
+Primes from uh more complicated operations than just sort of Crossing
+out big rows of numbers but things like that and this is this is the basic tool
+that and this is this is the basic tool that's used
+there okay uh here is one of my own theorems with Ben green uh proven now
+theorems with Ben green uh proven now seven years ago okay flies um yeah so
+seven years ago okay flies um yeah so it's about so as said we we don't know
+um so there are certain patterns that we don't understand in the prime like twins
+don't understand in the prime like twins we we we still don't understand twins in
+the prims at all but certain other patterns for other for uh uh there are
+patterns for other for uh uh there are certain patterns that that have enough
+certain patterns that that have enough sort of degrees of freedom somehow that
+that we we can we can control them um and those are the arthic so for example
+progressions in the primes that that we know that there uh we can find um
+know that there uh we can find um progressions of primes equally spaced
+wish so for example 3 five and seven is a progression of primes because 3 five
+a progression of primes because 3 five and S equally spaced that's the
+and S equally spaced that's the progressional length three uh
+progression length five is 5 11 17 20 3 29 they're all Space by six um if you
+29 they're all Space by six um if you want a longer progression you have to
+want a longer progression you have to search for longer it takes uh what what
+search for longer it takes uh what what I've listed down here are the first uh
+progressions of Any Given length known so I think the yeah so the first
+progression length 10 I think starts at at a at a six digit number and so people
+at a at a six digit number and so people have been you know uh so there's a lot
+of uh amateur uh number theorist actually using powerful computers to
+actually using powerful computers to search for progressions among other
+search for progressions among other things the uh the longest progression
+things the uh the longest progression found is of 26 and it's this enormous
+thing um but that's that that's the largest that's actually been found
+largest that's actually been found numerically we have a the that says that
+in principle uh this just goes on forever although we we don't say where
+forever although we we don't say where they are just like you could the we
+don't say where the primes are but we say there there's infinitely many of
+say there there's infinitely many of these
+things um now the proof of this guy is certainly too technical to to give here
+certainly too technical to to give here um but um okay well all right um I'll
+um but um okay well all right um I'll just say some words which probably not
+very helpful but uh as I said I mean the primes as you saw in the previous slide
+primes as you saw in the previous slide they have some some structure to them
+they have some some structure to them like you know they don't they they like
+like you know they don't they they like being odd they don't like being far away
+from 6 and so forth they have some structure but then then there's a part
+structure but then then there's a part which is random um and there's a way in
+which you can sort of split up the primes into a structured part sort of
+very a very evenly spaced part and the sud random part which is which is going
+sud random part which is which is going and so there's a very tech technical way
+to split them up and you can show that that both of these parts somehow
+that both of these parts somehow generate progressions that that if
+you're very periodic then you have lots of progressions and you're very random
+of progressions and you're very random you also have lot of progressions and
+because you have these two sources of generic progressions then no matter how
+generic progressions then no matter how the prime actually divided between the
+the prime actually divided between the structured and sud random uh splitting
+structured and sud random uh splitting you can actually create progressions
+okay uh in either case so that's that doesn't do any justice at all to the
+doesn't do any justice at all to the proof but that's that's sort of the uh
+um okay so um that's a typical Z so that was in 2004 people are still working on
+was in 2004 people are still working on these sort of things um yeah finding
+these sort of things um yeah finding more patterns in the primes
+more patterns in the primes understanding how they distributed um
+for example um a few years ago I uh I Pro the analog of that result for what
+Pro the analog of that result for what was called the Garian primes which has a
+was called the Garian primes which has a two-dimensional or complex number
+version of the Prime so the primes are this onedimensional set they live on the
+this onedimensional set they live on the integers um there are these things
+integers um there are these things called the Galan integers numbers
+complex numbers whose real and maging parts are both integers there's Gan
+Prime these a gan in that can't be factored into smaller Gan inages uh here
+factored into smaller Gan inages uh here are the here's a diagram actually of the
+are the here's a diagram actually of the it's a plot of the first few Gan um
+constellation of stars um and so you can ask what are called constellations in
+here um so the way I describe this often is is if you go is uh um in the movie A
+is is if you go is uh um in the movie A Beautiful M which actually that that
+short a few slides back was taken from uh so Russ Crow plays this mathematician
+uh so Russ Crow plays this mathematician John Nash um and um at one point he's
+John Nash um and um at one point he's trying to impress his girlfriend um and
+trying to impress his girlfriend um and uh uh and they're looking out the nice
+sky and uh he asked his girlfriend to uh to name a shape any shape and I think he
+names an umbrella and so he he looks at the sky and then he points out you know
+six or seven stars that make the shape of an umbrella okay and the girlfriend
+of an umbrella okay and the girlfriend is impressed apparently um so all right
+is impressed apparently um so all right uh so so that's just one scene in um in
+in in the movie uh so what I proved is that you can actually pull off that
+wanted to do so you know if if you uh okay that's not it's not a practical
+application to be honest but okay but um you know if you give any shape like such
+you know if you give any shape like such as an umbrella well one carier the
+as an umbrella well one carier the points actually have to be irrational
+points actually have to be irrational have to be rationally coordinates uh
+then somewhere in in the in in this constellation you can find some some set
+which actually have that shape of of the umbrella somewhere in fact there will be
+umbrella somewhere in fact there will be infinitely many copies of that one shape
+infinitely many copies of that one shape um and that's actually a two-dimensional
+um and that's actually a two-dimensional version of my previous
+version of my previous with Ben and it's it's proven in the
+same way um there's many other uh uh results
+way um there's many other uh uh results okay close with one one result which we
+okay close with one one result which we actually just finished proving last year
+actually just finished proving last year uh Ben green and tamas Zigler uh using
+uh Ben green and tamas Zigler uh using uh uh techniques from aoic Theory which
+uh uh techniques from aoic Theory which is a whole area of mathematics which I
+won't discuss here um that we can not only now say that there's infinitely
+many patterns of a certain type in the primes we can actually count how many
+primes we can actually count how many there are um it's uh and this is
+there are um it's uh and this is actually how how we prove that these
+actually how how we prove that these things exist is is by counting them it's
+things exist is is by counting them it's like if you have a box and you can't
+like if you have a box and you can't open it but you want to know that
+there's something in it you know I mean if you can't open it there are lots of
+indirect ways to say that the box contains something and and and one of
+them is sort of to weigh the box and compare against the weight of an empty
+compare against the weight of an empty box and if it's bigger then then there's
+box and if it's bigger then then there's something in the Box doesn't tell you
+what it is but it tells you uh uh sort of at least how many or how much stuff
+of at least how many or how much stuff there is inside there and that's kind of
+there is inside there and that's kind of what we can do with the primes with
+what we can do with the primes with things like progressions in the primes
+things like progressions in the primes we can't actually find any single
+progression but we can sort of weigh all the progressions in in in a big box of
+the progressions in in in a big box of integers and uh and from that number we
+integers and uh and from that number we can actually get information about how
+can actually get information about how many of these things there
+are all right so you know for example we can count as as an example how many
+can count as as an example how many progressions are Le four Primes from 1
+progressions are Le four Primes from 1 to n and there's a certain formulas it
+turns out uh uh from from one to n okay but uh this is a very typical thing we
+but uh this is a very typical thing we can prove and it has to do with with
+can prove and it has to do with with Dynamics on things like a Taurus which
+Dynamics on things like a Taurus which is a it's a nice little story but
+is a it's a nice little story but certainly not one I can give here
+certainly not one I can give here anyway uh I am done so thank you very
+hello thank you for your lecture uh have you has anyone been doing any study of
+you has anyone been doing any study of the the relationship between the time to
+the the relationship between the time to calculate the primes and the time to
+crack crypto cryptographic algorithms
+um well the time to sorry to to find primes uh
+the time to sorry to to find primes uh yeah that's uh there they're slightly
+yeah that's uh there they're slightly related it's more important for for
+related it's more important for for cracking codes is is that is that the is
+cracking codes is is that is that the is the time needed to factor a large number
+it's some of the mathematics is shared with the mathematics to actually find
+with the mathematics to actually find large primes but but the two are
+large primes but but the two are slightly different um yeah so this great
+slightly different um yeah so this great this this big internet search to find
+this this big internet search to find larger and larger primes that they don't
+larger and larger primes that they don't directly uh um
+um um they don't um improve our ability to actually crack uh crack codes uh
+other than like if you can refine the algorithms for doing one thing then you
+algorithms for doing one thing then you probably refine use the same tricks to
+speed up the the other it's yeah um I mean these sort of things are often used
+mean these sort of things are often used to Benchmark um sort of the the speed of
+to Benchmark um sort of the the speed of algorithms like or speed of
+algorithms like or speed of supercomputers um that's that's that's
+that's a I mean that's actually probably the most most useful aspect of of these
+the most most useful aspect of of these sort of competitions to find the largest
+prime and so forth it's not because largest prime would actually be sort of
+largest prime would actually be sort of useful but yeah it's because they sort
+useful but yeah it's because they sort of advances a computer
+technology and littlewood conject an Astic for the number of Twi
+M um can you shed any light on that Astic estimate with these methods um
+Astic estimate with these methods um further yeah we we are not able to to
+further yeah we we are not able to to touch the Trin primes directly there are
+touch the Trin primes directly there are there are upper bounds on how many TR PS
+there are which is within a constant factor of of that estimate for larger
+factor of of that estimate for larger patterns like progression length four
+patterns like progression length four um um for patterns we have what
+basically two degrees of freedom the problem with PR primes is that is that
+problem with PR primes is that is that they only one degree of Freedom there's
+only one number P then that determines everything progressions have got two two
+everything progressions have got two two parameters they got their base point in
+the spacing it's got two two degrees of freedom and basically roughly speaking
+any pattern with two or more degrees of freedom we have a chance of counting um
+freedom we have a chance of counting um and for that there is an analogous
+and for that there is an analogous conjecture little with that predicts how
+conjecture little with that predicts how many of these things there are and our
+theor is actually that that conject is correct so if you're counting patterns
+with two or more degrees of freedom uh what the the highly L conjecture is is
+what the the highly L conjecture is is is proven for one for one parameter
+is proven for one for one parameter pattern like twins we we still it's it's
+pattern like twins we we still it's it's still way off
+approximation uh curve does that deviate more and more as you get to larger end
+more and more as you get to larger end oh yeah um I forgot to uh to show yeah
+oh yeah um I forgot to uh to show yeah um it does
+um yeah um if you assume the reman hypothesis there is actually a more
+hypothesis there is actually a more advant more refined formula more
+complicated than n logn which is a much better approximation I I forgot to to
+better approximation I I forgot to to show you there's a third line which is
+very hard to see because it's a dash line it's almost on top of the dott line
+line it's almost on top of the dott line and this is the the prediction given by
+the women hypothesis which is and Numerica is very very close to the um to
+the actual um uh to the actual prediction it's uh it's it's reasonably
+good so um if you look at the form for the N Prime the error is something like
+the N Prime the error is something like square root of n so it still grows but
+relative to its size it goes It goes a lot less so if you if you have a if you
+lot less so if you if you have a if you applied n equals a trillion then it
+applied n equals a trillion then it gives you the first six digits of the
+gives you the first six digits of the trillionth Prime accurately but not the
+trillionth Prime accurately but not the last
+six Ladi first
+either the gold bar um theorem or one of the clay institutes um of course of
+course I would be interested um you know so but it's um you you know this um you
+so but it's um you you know this um you know okay but I I I have no idea you
+know I've certainly tried on occasion you know but you know if you don't have
+you know but you know if you don't have if you don't have a special weigh in you
+you just sort of sit and you wait until you have some inspiration or something
+you have some inspiration or something um you
+um a lot of people including myself think of um solving mathematical
+problems as like trying to to reach a climb a cliff you know to get to a
+certain point uh um and um you know there are some Cliffs where there are
+these obvious places along the way where you can first climb a small way and then
+then you you can work in stages um and so you can make all those partial
+so you can make all those partial progress and eventually get your way
+progress and eventually get your way towards the top uh but problems like
+towards the top uh but problems like these clay problems I mean they're like
+nothing um uh in between um or you can get like a very short distance but then
+get like a very short distance but then there's a huge gap and you know it
+there's a huge gap and you know it doesn't matter how strong or how you
+doesn't matter how strong or how you know how high you can jump or something
+it doesn't really help um you know unless you can find some some secret way
+unless you can find some some secret way around or something but um you know but
+I don't know you know if if if I knew of then I would work on this but uh it yeah
+it's occupational hazard to to work too hard on on difficult problems you you
+hard on on difficult problems you you can actually get a little bit obsessed
+one so I know you've done research in a variety of areas but do you have like a
+variety of areas but do you have like a favorite branch of mathematics uh it
+favorite branch of mathematics uh it changes from year to year actually uh
+changes from year to year actually uh you know I I I don't know I mean it
+you know I I I don't know I mean it depends on what what I discover and and
+depends on what what I discover and and what who I who I work with and um yeah
+so you know I mean so I spent several years doing number thetic sort of things
+years doing number thetic sort of things actually nowadays I actually do I'm
+actually more involved in other things random Matrix theory for instance um
+random Matrix theory for instance um yeah or it just it's just whatever you
+yeah or it just it's just whatever you know I mean whatever problems come up
+know I mean whatever problems come up often when you solve one problem other
+often when you solve one problem other problems have naturally come up
+um um after you you've solved your first problem then you just get LED naturally
+problem then you just get LED naturally in interesting directions I don't know
+what I'll be working on five years from now actually and that's kind of the way
+now actually and that's kind of the way I like it
+actually can you say something about uh large gaps in the prime sequence do they
+large gaps in the prime sequence do they occur earlier than they should or than
+occur earlier than they should or than they required to
+occur um yeah this this there's a little bit of irregularity um in there yeah
+bit of irregularity um in there yeah there there there's work on that which I
+there there there's work on that which I by Granville and sound which I don't
+quite remember exactly the the context um yeah if the primes are really random
+like log in squar that's s the guess but um uh there's a refinement there there's
+some funny um there's some funny extra patent that times obey which shifts that
+patent that times obey which shifts that by a constant I forget exactly what what
+by a constant I forget exactly what what the uh uh what what the uh the details
+are um there's a paper of of of grandor sound that that studies this but I don't
+sound that that studies this but I don't I don't have the details at my
+oh oh um like he mentioned I know you're notable one of the reasons you're
+notable is that you've contributed a lot in a number of fields and over subfields
+in a number of fields and over subfields of mathematics and I was wondering
+of mathematics and I was wondering whether working in different fields
+you'll kind of sometimes get an Insight in one field and feel that'll help you
+in one field and feel that'll help you with a problem you're working at another
+with a problem you're working at another like how much of that is your brain
+like how much of that is your brain working out different parts and being
+working out different parts and being able to help itself across different
+able to help itself across different types of thinking well I mean this
+types of thinking well I mean this that's actually the main reason why I
+that's actually the main reason why I work in that many fields is that I I I I
+work in that many fields is that I I I I work in one field and then I talk to a
+friend a colleague who's working in another field and and it turns out that
+another field and and it turns out that the methods that that were useful for
+the methods that that were useful for what I was doing could possibly be
+what I was doing could possibly be useful for what they're doing or vice
+versa and I so um so I end up collaborating with them often most of my
+collaborating with them often most of my work is joint work of other people um
+many of them often are much more expert in the field of they're working than I
+in the field of they're working than I am but uh but but I I I may have bought
+am but uh but but I I I may have bought something from a different area um yeah
+something from a different area um yeah so it's um um yeah so it's uh I mean
+collaborative I mean it's it's it's it used to be that there isolated people
+sitting in in in you know towels or something I thinking about uh really
+hard problems I mean there's still a little bit of that but but but really
+little bit of that but but but really much a lot of progress now is is just
+different areas bringing together tools from from many different parts of math
+sometimes uh besides benchmarking and cryptography what are some applications
+cryptography what are some applications like real applications of prime numbers
+I mean um
+okay those are the major ones um yeah I um yeah there are some I
+mean well there there is that but um yeah I mean there's there's a there's
+um yeah I mean there's there's a there's a lot of coding things that are not
+exactly cryptography but um for example cell phones you know
+um you can have 100 cell phones go off in in a room and you hundred different
+in in a room and you hundred different conversations and they don't interview
+conversations and they don't interview with each other and there there's no
+partly because that they're all gone digital now rather than analog but
+digital now rather than analog but because but also because they they have
+voice signals in such a way that they're very well separated from each other each
+very well separated from each other each each different voice signal is channel
+is is is very separated and the um many of the constructions of um of of how to
+of the constructions of um of of how to separate these codes are are very number
+separate these codes are are very number theoretic and and they use properties of
+theoretic and and they use properties of the primes um so uh I mean it's still
+coding it's still cryptography in some sense but not so the classical code
+sense but not so the classical code breaking type um so certainly signal
+breaking type um so certainly signal processing these things come
+up hello oh um I kind of feel like the the finale is sort of a bummer because
+the finale is sort of a bummer because you're saying that as you go out to
+you're saying that as you go out to Infinity the distribution of the primes
+Infinity the distribution of the primes becomes uniformly distributed and uh
+it kind of reminds me like the end of Butch casting in Sundance Kid I I want a
+Butch casting in Sundance Kid I I want a formula right to be able to compute the
+formula right to be able to compute the nth Prime so uh can you you said that
+nth Prime so uh can you you said that the primes are separable into some
+pseudo random set and some maybe like nice looking set what does the nice
+nice looking set what does the nice looking part look like
+um okay so this is this is uh uh it looks a bit technical really but it it
+uh so you know the c osines um that you take all the integers and you Chu out M
+take all the integers and you Chu out M of two three five and seven so forth if
+of two three five and seven so forth if you do that a lot um like if you if you
+you do that a lot um like if you if you if you if you start the numers one to
+end you check out all the M primes after root n you get you get the primes but if
+you if you only apply the algorithm a short distance like you you say 100
+times you you take the first 100 primes and you check out the M of the first 100
+primes that gives you uh this much simpler set than the whole primes itself
+simpler set than the whole primes itself and that's roughly what the structured
+set looks like um it's sort of a weighted version of that but it's um the
+way I start to think about the primes is is it's it's a sculpture which is formed
+is it's it's a sculpture which is formed by taking a big block of of granite
+which is like like the whole primes and then you get a big Mallet and you Lop
+take and then you Lop off all the um M of three and five and seven but after a
+of three and five and seven but after a while um you're Ling of much smaller set
+while um you're Ling of much smaller set the M of 37 it's much smaller set so you
+set and then you take out you drop your chisel and you take out a needle and you
+chisel and you take out a needle and you sort of take out these little smaller
+cheese sort of object with lots and lots of holes in it I mean initially it's got
+lots of structure it's a very clean you know like the odd numbers are a very
+numbers that are odd and cop to three is also fairly simple but I guess worse and
+worse and at it's at the end when you keep knocking out these tiny little mbls
+keep knocking out these tiny little mbls all over the place that that's the part
+all over the place that that's the part we don't understand very at all and
+we don't understand very at all and that's that's s the sud random
+part I think we'll stop now so we can have a reception next room you're all
+have a reception next room you're all welcome to join us but let's give
+welcome to join us but let's give another round of applause for our

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ku_video_ZYkZws-23R8_1",
+    "t_start": 1.9,
+    "t_end": 92.6,
+    "type": "overview",
+    "summary": "hello everyone welcome back to wrath of hello everyone welcome back to wrath of math I'm your host Sean Ian's in today's math I'm your host Sean Ian's in today's math I'm your host Sean Ian's in today's video we will be proving that there are video we will be proving that there are video we will be proving that there are an infinite amount of prime numbers an infinite amount of prime numbers an infinite amount of prime numbers seems like a super important result so seems like a super important result so seems like a super important result so you would think that it might be kind of you would t…"
+  },
+  {
+    "id": "ku_video_ZYkZws-23R8_92",
+    "t_start": 92.6,
+    "t_end": 183.2,
+    "type": "overview",
+    "summary": "that P is bigger than any of the Prime's that P is bigger than any of the Prime's because it's the product of all of them because it's the product of all of them because it's the product of all of them plus 1 so it's absolutely bigger than plus 1 so it's absolutely bigger than plus 1 so it's absolutely bigger than every single prime number that we have every single prime number that we have every single prime number that we have therefore by the fundamental theorem of therefore by the fundamental theorem of therefore by the fundamental theorem of arithmetic it must be divisible by at arithmeti…"
+  },
+  {
+    "id": "ku_video_ZYkZws-23R8_183",
+    "t_start": 183.2,
+    "t_end": 264.5,
+    "type": "overview",
+    "summary": "least one of our prime numbers has to least one of our prime numbers has to divide P however because of how we divide P however because of how we divide P however because of how we defined P we know that P is one greater defined P we know that P is one greater defined P we know that P is one greater than a multiple of any single one of our than a multiple of any single one of our than a multiple of any single one of our Prime's therefore by definition of Prime's therefore by definition of Prime's therefore by definition of divides P sub m does not divide P divides P sub m does not divide P div…"
+  }
+]

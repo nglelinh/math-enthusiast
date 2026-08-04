@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ku_video_QbUPfMXXQIY_2",
+    "t_start": 3.0,
+    "t_end": 93.6,
+    "type": "overview",
+    "summary": "so here's my implementation of uh the boids flocking simulation which a million people have done over the years um so there's one void and it's sort of um so there's one void and it's sort of moving randomly and it's avoiding some moving randomly and it's avoiding some obstacles but what gets really interesting is when we put a lot together they behave like a flock of together they behave like a flock of birds or fish or whatever you want um birds or fish or whatever you want um and they do this with a couple of and they do this with a couple of different rules uh that when combined togethe…"
+  },
+  {
+    "id": "ku_video_QbUPfMXXQIY_93",
+    "t_start": 93.6,
+    "t_end": 185.8,
+    "type": "overview",
+    "summary": "rule there's a cohesion rule they take that same um grouping that same uh radius around themselves of friends and average around themselves of friends and average their positions they say okay for all their positions they say okay for all the the boids around me roughly wears the the boids around me roughly wears the center of all of them and they seek towards that a little bit so there's also a balancing Force against that if they get two close to all the other voids that are near them they they back voids that are near them they they back away they avoid crowding so you can see little fis…"
+  },
+  {
+    "id": "ku_video_QbUPfMXXQIY_185",
+    "t_start": 185.8,
+    "t_end": 221.4,
+    "type": "overview",
+    "summary": "turn these rules back on and lay down a bunch um barriers for them to avoid and lay down a bunch more voids and you'll see down a bunch more voids and you'll see lots of interesting stuff happen they lots of interesting stuff happen they void areas stick back void areas stick back together all sorts of stuff so if you want to uh download and play with this uh it's on my GitHub linked with this uh it's on my GitHub linked here or in the description"
+  }
+]

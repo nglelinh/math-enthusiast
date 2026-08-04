@@ -1,0 +1,1307 @@
+[
+  {
+    "t_start": 2.75,
+    "t_end": 5.03,
+    "text": "if a surface is bounded by two circles one on top of the other what is the"
+  },
+  {
+    "t_start": 5.03,
+    "t_end": 6.95,
+    "text": "one on top of the other what is the configuration that gives the least"
+  },
+  {
+    "t_start": 6.95,
+    "t_end": 13.15,
+    "text": "surface area this question belongs to a class of problems known as plate problem"
+  },
+  {
+    "t_start": 13.15,
+    "t_end": 16.189,
+    "text": "class of problems known as plate problem which asks for any given boundary what"
+  },
+  {
+    "t_start": 16.189,
+    "t_end": 17.95,
+    "text": "which asks for any given boundary what is the surface with that boundary that"
+  },
+  {
+    "t_start": 17.95,
+    "t_end": 24.07,
+    "text": "has the least surface area the solution is called a minimal surface because it"
+  },
+  {
+    "t_start": 24.07,
+    "t_end": 29.55,
+    "text": "is called a minimal surface because it has minimal surface area this might just"
+  },
+  {
+    "t_start": 29.55,
+    "t_end": 33.31,
+    "text": "be a fun maths problem to play around but animal surfaces do occur in nature"
+  },
+  {
+    "t_start": 33.31,
+    "t_end": 38.709,
+    "text": "if you dip metal wires Twisted in some shape into a soap solution and then take"
+  },
+  {
+    "t_start": 38.709,
+    "t_end": 45.83,
+    "text": "shape into a soap solution and then take it out a soap film will be formed the"
+  },
+  {
+    "t_start": 45.83,
+    "t_end": 48.43,
+    "text": "film itself forms a minimal surface so it seems like nature can solve this"
+  },
+  {
+    "t_start": 48.43,
+    "t_end": 54.59,
+    "text": "it seems like nature can solve this problem for us but how does nature or"
+  },
+  {
+    "t_start": 54.59,
+    "t_end": 59.549,
+    "text": "problem once we know that we can build some algorithms to solve plateau's"
+  },
+  {
+    "t_start": 59.549,
+    "t_end": 62.709,
+    "text": "some algorithms to solve plateau's problem by simulating the physics"
+  },
+  {
+    "t_start": 62.709,
+    "t_end": 67.67,
+    "text": "however there is a bit of a disclaimer before we start the minimal surfaces we"
+  },
+  {
+    "t_start": 67.67,
+    "t_end": 73.35,
+    "text": "will discuss in the remainder of this video are only local Minima in the sense"
+  },
+  {
+    "t_start": 73.35,
+    "t_end": 75.95,
+    "text": "video are only local Minima in the sense that if you slightly distort the surface"
+  },
+  {
+    "t_start": 75.95,
+    "t_end": 82.749,
+    "text": "that if you slightly distort the surface you end up with more area but it's not"
+  },
+  {
+    "t_start": 82.749,
+    "t_end": 84.99,
+    "text": "necessarily a global minimum with that let's see how physics forces the soap"
+  },
+  {
+    "t_start": 84.99,
+    "t_end": 90.469,
+    "text": "film to take the shape of a minimal surface let's say this is the current"
+  },
+  {
+    "t_start": 90.469,
+    "t_end": 92.87,
+    "text": "surface let's say this is the current configuration of the soap film and we"
+  },
+  {
+    "t_start": 92.87,
+    "t_end": 94.59,
+    "text": "configuration of the soap film and we want to figure out how a particular"
+  },
+  {
+    "t_start": 94.59,
+    "t_end": 100.23,
+    "text": "Point evolves to do that we consider the forces acting on an infinitesimally"
+  },
+  {
+    "t_start": 100.23,
+    "t_end": 106.069,
+    "text": "small piece of the surface close to the point generally surface tension will try"
+  },
+  {
+    "t_start": 106.069,
+    "t_end": 111.789,
+    "text": "point generally surface tension will try to pull this piece of surface outwards"
+  },
+  {
+    "t_start": 111.789,
+    "t_end": 117.31,
+    "text": "pulling the piece towards other parts of the surface it turns out that the force"
+  },
+  {
+    "t_start": 117.31,
+    "t_end": 122.789,
+    "text": "the surface it turns out that the force acting on a very small piece of the"
+  },
+  {
+    "t_start": 122.789,
+    "t_end": 126.069,
+    "text": "boundary say with length DL has a magnitude to gamma multiplied by the"
+  },
+  {
+    "t_start": 126.069,
+    "t_end": 131.47,
+    "text": "length where gamma is the surface tension a constant that depends on the"
+  },
+  {
+    "t_start": 131.47,
+    "t_end": 135.71,
+    "text": "tension a constant that depends on the material in this case soap while two is"
+  },
+  {
+    "t_start": 135.71,
+    "t_end": 137.91,
+    "text": "material in this case soap while two is because we are actually dealing with two"
+  },
+  {
+    "t_start": 137.91,
+    "t_end": 141.07,
+    "text": "because we are actually dealing with two layers or two surfaces here as an"
+  },
+  {
+    "t_start": 141.07,
+    "t_end": 143.589,
+    "text": "layers or two surfaces here as an illustration of this a soap film like"
+  },
+  {
+    "t_start": 143.589,
+    "t_end": 149.27,
+    "text": "this has one side facing the outside air but there is also another side facing"
+  },
+  {
+    "t_start": 149.27,
+    "t_end": 152.07,
+    "text": "but there is also another side facing the cavity in the middle so for our"
+  },
+  {
+    "t_start": 152.07,
+    "t_end": 156.309,
+    "text": "the cavity in the middle so for our purposes there are two surfaces or two"
+  },
+  {
+    "t_start": 156.309,
+    "t_end": 159.309,
+    "text": "purposes there are two surfaces or two interfaces so that's the magnitude done"
+  },
+  {
+    "t_start": 159.309,
+    "t_end": 161.79,
+    "text": "interfaces so that's the magnitude done what about the direction well the force"
+  },
+  {
+    "t_start": 161.79,
+    "t_end": 167.149,
+    "text": "what about the direction well the force should be tangent to the surface so it"
+  },
+  {
+    "t_start": 167.149,
+    "t_end": 170.07,
+    "text": "should lie on the tangent plane this means the force is perpendicular to n"
+  },
+  {
+    "t_start": 170.07,
+    "t_end": 175.149,
+    "text": "the normal Vector at this point it will make sense shortly why we want to make"
+  },
+  {
+    "t_start": 175.149,
+    "t_end": 176.03,
+    "text": "make sense shortly why we want to make this"
+  },
+  {
+    "t_start": 176.03,
+    "t_end": 181.71,
+    "text": "observation on the other hand the force should be perpendicular to the boundary"
+  },
+  {
+    "t_start": 181.71,
+    "t_end": 188.509,
+    "text": "let's name this small Vector along the boundary t with length DL so T is a unit"
+  },
+  {
+    "t_start": 188.509,
+    "t_end": 191.869,
+    "text": "boundary t with length DL so T is a unit Vector that just encodes the direction"
+  },
+  {
+    "t_start": 191.869,
+    "t_end": 196.869,
+    "text": "Vector that just encodes the direction so f is perpendicular to both t and n"
+  },
+  {
+    "t_start": 196.869,
+    "t_end": 198.63,
+    "text": "so f is perpendicular to both t and n and because t and n are also"
+  },
+  {
+    "t_start": 198.63,
+    "t_end": 200.67,
+    "text": "and because t and n are also perpendicular to each other the"
+  },
+  {
+    "t_start": 200.67,
+    "t_end": 207.07,
+    "text": "direction is given by the cross product of t and n combined with the magnitude"
+  },
+  {
+    "t_start": 207.07,
+    "t_end": 209.789,
+    "text": "of t and n combined with the magnitude we found previously we see that the"
+  },
+  {
+    "t_start": 209.789,
+    "t_end": 215.67,
+    "text": "we found previously we see that the Force Vector f is 2 gamma * T CR n"
+  },
+  {
+    "t_start": 215.67,
+    "t_end": 218.55,
+    "text": "Force Vector f is 2 gamma * T CR n DL but this is just for a very small"
+  },
+  {
+    "t_start": 218.55,
+    "t_end": 220.71,
+    "text": "DL but this is just for a very small part of the boundary if we want to"
+  },
+  {
+    "t_start": 220.71,
+    "t_end": 222.789,
+    "text": "part of the boundary if we want to consider the effects along the full"
+  },
+  {
+    "t_start": 222.789,
+    "t_end": 225.589,
+    "text": "consider the effects along the full boundary then we need to integrate"
+  },
+  {
+    "t_start": 225.589,
+    "t_end": 227.35,
+    "text": "boundary then we need to integrate essentially summing up all these"
+  },
+  {
+    "t_start": 227.35,
+    "t_end": 230.03,
+    "text": "essentially summing up all these contributions from Tiny bits of the"
+  },
+  {
+    "t_start": 230.03,
+    "t_end": 235.11,
+    "text": "boundary the next step is to compute this integral which we will do in a"
+  },
+  {
+    "t_start": 235.11,
+    "t_end": 238.149,
+    "text": "this integral which we will do in a minute after Computing the integral we"
+  },
+  {
+    "t_start": 238.149,
+    "t_end": 243.71,
+    "text": "will divide this total four by the area of this small piece of surface so that"
+  },
+  {
+    "t_start": 243.71,
+    "t_end": 246.789,
+    "text": "of this small piece of surface so that we get pressure the reason we consider"
+  },
+  {
+    "t_start": 246.789,
+    "t_end": 251.429,
+    "text": "pressure rather than force is that if you shrink the surface towards the Red"
+  },
+  {
+    "t_start": 251.429,
+    "t_end": 258.15,
+    "text": "Dot the net force becomes closer and closer to zero due to symmetry while net"
+  },
+  {
+    "t_start": 258.15,
+    "t_end": 264.07,
+    "text": "closer to zero due to symmetry while net force from surface tension goes to zero"
+  },
+  {
+    "t_start": 264.07,
+    "t_end": 266.15,
+    "text": "pressure that is the force per area turns out to tend to a finite"
+  },
+  {
+    "t_start": 266.15,
+    "t_end": 269.83,
+    "text": "turns out to tend to a finite generically nonzero Vector this allows"
+  },
+  {
+    "t_start": 269.83,
+    "t_end": 276.55,
+    "text": "generically nonzero Vector this allows is to Define pressure acting at a point"
+  },
+  {
+    "t_start": 276.55,
+    "t_end": 278.95,
+    "text": "on the surface so from now on we will consider this as an infinitesimally"
+  },
+  {
+    "t_start": 278.95,
+    "t_end": 283.95,
+    "text": "small piece of the surface to compute the limit so we will focus on the net"
+  },
+  {
+    "t_start": 283.95,
+    "t_end": 288.39,
+    "text": "the limit so we will focus on the net force first and divide by area later we"
+  },
+  {
+    "t_start": 288.39,
+    "t_end": 291.35,
+    "text": "force first and divide by area later we can separate the vector n into a sum of"
+  },
+  {
+    "t_start": 291.35,
+    "t_end": 295.469,
+    "text": "can separate the vector n into a sum of two vectors n not and Delta n where n"
+  },
+  {
+    "t_start": 295.469,
+    "t_end": 297.629,
+    "text": "two vectors n not and Delta n where n not is the normal Vector in the middle"
+  },
+  {
+    "t_start": 297.629,
+    "t_end": 299.99,
+    "text": "not is the normal Vector in the middle of that piece of the surface and the"
+  },
+  {
+    "t_start": 299.99,
+    "t_end": 304.909,
+    "text": "Delta n would be the difference between the normal Vector at the boundary and"
+  },
+  {
+    "t_start": 304.909,
+    "t_end": 311.11,
+    "text": "that in the middle the reason we want to separate is that this part sees n not as"
+  },
+  {
+    "t_start": 311.11,
+    "t_end": 313.71,
+    "text": "separate is that this part sees n not as a constant Vector in a sense that it"
+  },
+  {
+    "t_start": 313.71,
+    "t_end": 315.55,
+    "text": "a constant Vector in a sense that it doesn't depend on where you are at the"
+  },
+  {
+    "t_start": 315.55,
+    "t_end": 320.909,
+    "text": "doesn't depend on where you are at the boundary so you can pull this out of the"
+  },
+  {
+    "t_start": 320.909,
+    "t_end": 326.23,
+    "text": "integrant and we are left with an integral of TDL cross n not but what is"
+  },
+  {
+    "t_start": 326.23,
+    "t_end": 329.27,
+    "text": "integral of TDL cross n not but what is this integral well it is just adding up"
+  },
+  {
+    "t_start": 329.27,
+    "t_end": 332.189,
+    "text": "this integral well it is just adding up these small vectors along the boundary"
+  },
+  {
+    "t_start": 332.189,
+    "t_end": 334.35,
+    "text": "these small vectors along the boundary because they form a closed loop adding"
+  },
+  {
+    "t_start": 334.35,
+    "t_end": 340.15,
+    "text": "because they form a closed loop adding them up just yields a zero Vector so"
+  },
+  {
+    "t_start": 340.15,
+    "t_end": 345.909,
+    "text": "vanishes but the total force on this piece of surface isn't just T cross n KN"
+  },
+  {
+    "t_start": 345.909,
+    "t_end": 347.749,
+    "text": "piece of surface isn't just T cross n KN sure this part is zero as we just"
+  },
+  {
+    "t_start": 347.749,
+    "t_end": 350.309,
+    "text": "sure this part is zero as we just discussed but we still have the other"
+  },
+  {
+    "t_start": 350.309,
+    "t_end": 353.51,
+    "text": "discussed but we still have the other integral to compute now remember we are"
+  },
+  {
+    "t_start": 353.51,
+    "t_end": 355.67,
+    "text": "integral to compute now remember we are considering this an infinitesimally"
+  },
+  {
+    "t_start": 355.67,
+    "t_end": 360.629,
+    "text": "considering this an infinitesimally small piece of the surface so we will do"
+  },
+  {
+    "t_start": 360.629,
+    "t_end": 367.79,
+    "text": "of the result remember that we want to find the limit of this integral per area"
+  },
+  {
+    "t_start": 367.79,
+    "t_end": 374.51,
+    "text": "find the limit of this integral per area on the surface so even if we have an"
+  },
+  {
+    "t_start": 374.51,
+    "t_end": 381.15,
+    "text": "area goes to zero we are okay with only using an approximation of the integral"
+  },
+  {
+    "t_start": 381.15,
+    "t_end": 387.67,
+    "text": "so how do we approximate this integral the trick is to realize that both T and"
+  },
+  {
+    "t_start": 387.67,
+    "t_end": 390.909,
+    "text": "the trick is to realize that both T and Delta n can be close ly approximated to"
+  },
+  {
+    "t_start": 390.909,
+    "t_end": 394.51,
+    "text": "Delta n can be close ly approximated to lie on the tangent plane at the Red Dot"
+  },
+  {
+    "t_start": 394.51,
+    "t_end": 400.11,
+    "text": "lie on the tangent plane at the Red Dot for the vector T it is a bit more"
+  },
+  {
+    "t_start": 400.11,
+    "t_end": 407.07,
+    "text": "is so small that even if we project onto the tangent Lane T hasn't changed much"
+  },
+  {
+    "t_start": 407.07,
+    "t_end": 410.11,
+    "text": "the tangent Lane T hasn't changed much and in fact the same in this"
+  },
+  {
+    "t_start": 410.11,
+    "t_end": 412.909,
+    "text": "and in fact the same in this illustration What about Delta n the"
+  },
+  {
+    "t_start": 412.909,
+    "t_end": 418.39,
+    "text": "difference between n at the boundary and the N knot in the middle the normal"
+  },
+  {
+    "t_start": 418.39,
+    "t_end": 423.869,
+    "text": "Vector is confined to have its tip on the unit sphere because it has length"
+  },
+  {
+    "t_start": 423.869,
+    "t_end": 426.869,
+    "text": "the unit sphere because it has length one the normal vectors n would in"
+  },
+  {
+    "t_start": 426.869,
+    "t_end": 432.749,
+    "text": "one the normal vectors n would in general deviate from n knot a little bit"
+  },
+  {
+    "t_start": 432.749,
+    "t_end": 435.749,
+    "text": "and the change Delta n can be approximated to lie on the tangent plane"
+  },
+  {
+    "t_start": 435.749,
+    "t_end": 442.589,
+    "text": "of the sphere however this tangent plane of the sphere is perpendicular to n knot"
+  },
+  {
+    "t_start": 442.589,
+    "t_end": 447.39,
+    "text": "of the sphere is perpendicular to n knot which is in turn perpendicular to the"
+  },
+  {
+    "t_start": 447.39,
+    "t_end": 450.39,
+    "text": "tangent plane of the surface at that point so we can EAS easily translate"
+  },
+  {
+    "t_start": 450.39,
+    "t_end": 452.71,
+    "text": "point so we can EAS easily translate that Vector back onto the tangent plane"
+  },
+  {
+    "t_start": 452.71,
+    "t_end": 459.51,
+    "text": "that Vector back onto the tangent plane of the surface with all that both the"
+  },
+  {
+    "t_start": 459.51,
+    "t_end": 462.55,
+    "text": "vectors T and Delta n can be well approximated to lie on the tangent plane"
+  },
+  {
+    "t_start": 462.55,
+    "t_end": 467.99,
+    "text": "approximated to lie on the tangent plane so let's focus on the tangent plane the"
+  },
+  {
+    "t_start": 467.99,
+    "t_end": 470.869,
+    "text": "small piece of the surface can now be projected entirely flat on this tangent"
+  },
+  {
+    "t_start": 470.869,
+    "t_end": 478.11,
+    "text": "projected entirely flat on this tangent plane and the vector T * DL will be a"
+  },
+  {
+    "t_start": 478.11,
+    "t_end": 484.749,
+    "text": "Delta n is just some Vector on the plane the magnitude of the cross product would"
+  },
+  {
+    "t_start": 484.749,
+    "t_end": 490.589,
+    "text": "the magnitude of the cross product would be the product of the lengths of these"
+  },
+  {
+    "t_start": 490.589,
+    "t_end": 497.35,
+    "text": "angle between the vectors equivalently if we Define a vector B perpendicular to"
+  },
+  {
+    "t_start": 497.35,
+    "t_end": 499.749,
+    "text": "if we Define a vector B perpendicular to this boundary then because the angle"
+  },
+  {
+    "t_start": 499.749,
+    "t_end": 506.39,
+    "text": "between Delta n and B is now Pi / 2 minus Theta we can rewrite the magnitude"
+  },
+  {
+    "t_start": 506.39,
+    "t_end": 509.71,
+    "text": "minus Theta we can rewrite the magnitude as the product of the length and cosine"
+  },
+  {
+    "t_start": 509.71,
+    "t_end": 513.11,
+    "text": "as the product of the length and cosine of this included angle in other words"
+  },
+  {
+    "t_start": 513.11,
+    "t_end": 515.709,
+    "text": "of this included angle in other words this magnitude can be Rewritten as the"
+  },
+  {
+    "t_start": 515.709,
+    "t_end": 518.55,
+    "text": "this magnitude can be Rewritten as the dot product the dotproduct of B and"
+  },
+  {
+    "t_start": 518.55,
+    "t_end": 520.469,
+    "text": "dot product the dotproduct of B and Delta n *"
+  },
+  {
+    "t_start": 520.469,
+    "t_end": 525.949,
+    "text": "DL so that's the magnitude of the vector what about the direction of the cross"
+  },
+  {
+    "t_start": 525.949,
+    "t_end": 532.11,
+    "text": "what about the direction of the cross product because both T and Delta n are"
+  },
+  {
+    "t_start": 532.11,
+    "t_end": 534.75,
+    "text": "on a plane the direction must be perpendicular to this plane in this case"
+  },
+  {
+    "t_start": 534.75,
+    "t_end": 540.43,
+    "text": "perpendicular to this plane in this case if you follow the right hand rule it"
+  },
+  {
+    "t_start": 540.43,
+    "t_end": 542.87,
+    "text": "points into the screen if we go back to the whole picture and use the right hand"
+  },
+  {
+    "t_start": 542.87,
+    "t_end": 545.67,
+    "text": "the whole picture and use the right hand rule again more precisely the direction"
+  },
+  {
+    "t_start": 545.67,
+    "t_end": 550.11,
+    "text": "rule again more precisely the direction is opposite to n not most importantly"
+  },
+  {
+    "t_start": 550.11,
+    "t_end": 553.67,
+    "text": "is opposite to n not most importantly the direction is constant so during the"
+  },
+  {
+    "t_start": 553.67,
+    "t_end": 558.23,
+    "text": "the direction is constant so during the approximation we can pull it out of the"
+  },
+  {
+    "t_start": 558.23,
+    "t_end": 565.269,
+    "text": "integral B do Delta n the dot product itself can be viewed as the flux from"
+  },
+  {
+    "t_start": 565.269,
+    "t_end": 568.19,
+    "text": "itself can be viewed as the flux from Delta N Out of the small piece of the"
+  },
+  {
+    "t_start": 568.19,
+    "t_end": 572.79,
+    "text": "Delta N Out of the small piece of the boundary the integral wants us to add up"
+  },
+  {
+    "t_start": 572.79,
+    "t_end": 578.71,
+    "text": "all the flux contributions along the boundary so the integral is the total"
+  },
+  {
+    "t_start": 578.71,
+    "t_end": 581.55,
+    "text": "flux of Delta n across the boundary ultimately we want to compute"
+  },
+  {
+    "t_start": 581.55,
+    "t_end": 588.509,
+    "text": "the limit of this integral per area when the area tends to zero which is almost"
+  },
+  {
+    "t_start": 588.509,
+    "t_end": 591.47,
+    "text": "the area tends to zero which is almost exactly the definition of"
+  },
+  {
+    "t_start": 591.47,
+    "t_end": 595.59,
+    "text": "exactly the definition of Divergence or you can use the Divergence"
+  },
+  {
+    "t_start": 595.59,
+    "t_end": 601.23,
+    "text": "this this Divergence is double what's called mean curvature of the surface at"
+  },
+  {
+    "t_start": 601.23,
+    "t_end": 604.87,
+    "text": "called mean curvature of the surface at the point and is denoted as 2"
+  },
+  {
+    "t_start": 604.87,
+    "t_end": 607.829,
+    "text": "the point and is denoted as 2 h mean curvature was mentioned in the"
+  },
+  {
+    "t_start": 607.829,
+    "t_end": 610.069,
+    "text": "h mean curvature was mentioned in the previous video for those who have"
+  },
+  {
+    "t_start": 610.069,
+    "t_end": 614.829,
+    "text": "watched the previous video see if you can figure out why this Divergence is"
+  },
+  {
+    "t_start": 614.829,
+    "t_end": 617.509,
+    "text": "can figure out why this Divergence is double the mean curvature perhaps also"
+  },
+  {
+    "t_start": 617.509,
+    "t_end": 624.829,
+    "text": "using this video on the intuition of Trace anyway the whole story is to First"
+  },
+  {
+    "t_start": 624.829,
+    "t_end": 627.23,
+    "text": "Trace anyway the whole story is to First compute the net force on a small piece"
+  },
+  {
+    "t_start": 627.23,
+    "t_end": 629.55,
+    "text": "compute the net force on a small piece of the surface which can then be"
+  },
+  {
+    "t_start": 629.55,
+    "t_end": 631.71,
+    "text": "of the surface which can then be approximated with an integral that can"
+  },
+  {
+    "t_start": 631.71,
+    "t_end": 634.829,
+    "text": "approximated with an integral that can be interpreted as the total flux of"
+  },
+  {
+    "t_start": 634.829,
+    "t_end": 637.75,
+    "text": "be interpreted as the total flux of Delta n across the boundary when we"
+  },
+  {
+    "t_start": 637.75,
+    "t_end": 640.31,
+    "text": "Delta n across the boundary when we finally divide by area to obtain the"
+  },
+  {
+    "t_start": 640.31,
+    "t_end": 642.75,
+    "text": "finally divide by area to obtain the pressure at the point we know that the"
+  },
+  {
+    "t_start": 642.75,
+    "t_end": 647.949,
+    "text": "pressure at the point we know that the flux per area tends to 2 AG 2 times the"
+  },
+  {
+    "t_start": 647.949,
+    "t_end": 652.59,
+    "text": "curvature so the pressure at a point is perpendicular to the surface with"
+  },
+  {
+    "t_start": 652.59,
+    "t_end": 658.71,
+    "text": "Direction n not and the magnitude is proportional to the mean curvature the"
+  },
+  {
+    "t_start": 658.71,
+    "t_end": 662.87,
+    "text": "proportional to the mean curvature the soap film evolves under this pressure"
+  },
+  {
+    "t_start": 662.87,
+    "t_end": 664.75,
+    "text": "soap film evolves under this pressure this calculation only considers the"
+  },
+  {
+    "t_start": 664.75,
+    "t_end": 667.99,
+    "text": "this calculation only considers the surface tension in general you might"
+  },
+  {
+    "t_start": 667.99,
+    "t_end": 669.629,
+    "text": "surface tension in general you might have to consider something like"
+  },
+  {
+    "t_start": 669.629,
+    "t_end": 672.87,
+    "text": "have to consider something like atmospheric pressure however in the case"
+  },
+  {
+    "t_start": 672.87,
+    "t_end": 678.71,
+    "text": "atmospheric pressure however in the case of soap films both surfaces face the air"
+  },
+  {
+    "t_start": 678.71,
+    "t_end": 680.829,
+    "text": "so the air pressure from both sides cancel and this is really all the"
+  },
+  {
+    "t_start": 680.829,
+    "t_end": 686.31,
+    "text": "pressure there is but why does this mean that the surfaces formed will have"
+  },
+  {
+    "t_start": 686.31,
+    "t_end": 689.59,
+    "text": "that the surfaces formed will have minimal surface area here is some"
+  },
+  {
+    "t_start": 689.59,
+    "t_end": 691.87,
+    "text": "minimal surface area here is some intuition the mean curvature is"
+  },
+  {
+    "t_start": 691.87,
+    "t_end": 696.55,
+    "text": "intuition the mean curvature is proportional to the Divergence of Delta"
+  },
+  {
+    "t_start": 696.55,
+    "t_end": 699.59,
+    "text": "n if the normal vectors at the neighboring points Point generally away"
+  },
+  {
+    "t_start": 699.59,
+    "t_end": 701.949,
+    "text": "neighboring points Point generally away from n like in this"
+  },
+  {
+    "t_start": 701.949,
+    "t_end": 704.829,
+    "text": "from n like in this illustration then Delta N Point"
+  },
+  {
+    "t_start": 704.829,
+    "t_end": 707.55,
+    "text": "illustration then Delta N Point generally away from the origin so the"
+  },
+  {
+    "t_start": 707.55,
+    "t_end": 711.15,
+    "text": "generally away from the origin so the Divergence is positive the negative sign"
+  },
+  {
+    "t_start": 711.15,
+    "t_end": 713.35,
+    "text": "Divergence is positive the negative sign means the pressure acts in the opposite"
+  },
+  {
+    "t_start": 713.35,
+    "t_end": 719.55,
+    "text": "means the pressure acts in the opposite direction of n KN at the Red Dot but in"
+  },
+  {
+    "t_start": 719.55,
+    "t_end": 722.269,
+    "text": "general should be n the normal noral Vector at that point when pressure is"
+  },
+  {
+    "t_start": 722.269,
+    "t_end": 725.55,
+    "text": "Vector at that point when pressure is applied so the pressure acting on this"
+  },
+  {
+    "t_start": 725.55,
+    "t_end": 728.55,
+    "text": "applied so the pressure acting on this piece of the surface Point generally"
+  },
+  {
+    "t_start": 728.55,
+    "t_end": 731.389,
+    "text": "piece of the surface Point generally downward more precisely while the"
+  },
+  {
+    "t_start": 731.389,
+    "t_end": 733.71,
+    "text": "downward more precisely while the neighboring normal vectors point away"
+  },
+  {
+    "t_start": 733.71,
+    "t_end": 739.11,
+    "text": "neighboring normal vectors point away from n notot because of this negative"
+  },
+  {
+    "t_start": 739.11,
+    "t_end": 746.269,
+    "text": "sign pressure from different places Point into each other and push this"
+  },
+  {
+    "t_start": 746.269,
+    "t_end": 751.71,
+    "text": "decreases on the other hand let's say the surface looks like this instead in"
+  },
+  {
+    "t_start": 751.71,
+    "t_end": 753.55,
+    "text": "the surface looks like this instead in which case the neighboring normal"
+  },
+  {
+    "t_start": 753.55,
+    "t_end": 755.75,
+    "text": "which case the neighboring normal vectors Point into each other and"
+  },
+  {
+    "t_start": 755.75,
+    "t_end": 761.55,
+    "text": "towards and not so the Divergence of Delta n which generally points back"
+  },
+  {
+    "t_start": 761.55,
+    "t_end": 764.87,
+    "text": "Delta n which generally points back towards the origin is negative so the"
+  },
+  {
+    "t_start": 764.87,
+    "t_end": 768.75,
+    "text": "towards the origin is negative so the mean curvature being half of that is"
+  },
+  {
+    "t_start": 768.75,
+    "t_end": 773.949,
+    "text": "negative but the negative sign suggest that the pressure points in the same"
+  },
+  {
+    "t_start": 773.949,
+    "t_end": 780.47,
+    "text": "direction as n so the pressure vectors also Point into each other other again"
+  },
+  {
+    "t_start": 780.47,
+    "t_end": 784.35,
+    "text": "also Point into each other other again decreasing area whichever case it is the"
+  },
+  {
+    "t_start": 784.35,
+    "t_end": 787.15,
+    "text": "decreasing area whichever case it is the pressure vectors Point into each other"
+  },
+  {
+    "t_start": 787.15,
+    "t_end": 792.87,
+    "text": "pressure vectors Point into each other to decrease the area this means that if"
+  },
+  {
+    "t_start": 792.87,
+    "t_end": 798.91,
+    "text": "surface configuration the pressure is zero otherwise the pressure keeps"
+  },
+  {
+    "t_start": 798.91,
+    "t_end": 800.35,
+    "text": "zero otherwise the pressure keeps decreasing the"
+  },
+  {
+    "t_start": 800.35,
+    "t_end": 805.389,
+    "text": "area this suggests that the mean curvature on minimal surfaces need to"
+  },
+  {
+    "t_start": 805.389,
+    "t_end": 808.43,
+    "text": "curvature on minimal surfaces need to vanish anyway this is how nature of"
+  },
+  {
+    "t_start": 808.43,
+    "t_end": 811.43,
+    "text": "vanish anyway this is how nature of physics solves plateau's problem how do"
+  },
+  {
+    "t_start": 811.43,
+    "t_end": 813.75,
+    "text": "physics solves plateau's problem how do we actually simulate this process to"
+  },
+  {
+    "t_start": 813.75,
+    "t_end": 815.79,
+    "text": "we actually simulate this process to solve plateau's problem"
+  },
+  {
+    "t_start": 815.79,
+    "t_end": 821.269,
+    "text": "ourselves naively you might think that pressure is force per area and from"
+  },
+  {
+    "t_start": 821.269,
+    "t_end": 824.79,
+    "text": "pressure is force per area and from Newton's Laws FAL ma pressure should be"
+  },
+  {
+    "t_start": 824.79,
+    "t_end": 827.35,
+    "text": "Newton's Laws FAL ma pressure should be proportional to the acceleration of the"
+  },
+  {
+    "t_start": 827.35,
+    "t_end": 832.15,
+    "text": "proportional to the acceleration of the Red Dot if this is true then simulating"
+  },
+  {
+    "t_start": 832.15,
+    "t_end": 837.15,
+    "text": "acceleration the second derivative of the position Vector X to be negative"
+  },
+  {
+    "t_start": 837.15,
+    "t_end": 841.99,
+    "text": "the position Vector X to be negative beta hn for some positive constant beta"
+  },
+  {
+    "t_start": 841.99,
+    "t_end": 844.99,
+    "text": "beta hn for some positive constant beta such an evolution is named hyperbolic"
+  },
+  {
+    "t_start": 844.99,
+    "t_end": 851.91,
+    "text": "mean curvature flow and seems to be how soap films actually behave however there"
+  },
+  {
+    "t_start": 851.91,
+    "t_end": 854.15,
+    "text": "soap films actually behave however there are physical systems where it is the"
+  },
+  {
+    "t_start": 854.15,
+    "t_end": 856.67,
+    "text": "are physical systems where it is the velocity that is proportional to mean"
+  },
+  {
+    "t_start": 856.67,
+    "t_end": 858.829,
+    "text": "velocity that is proportional to mean curvature which leads to the first"
+  },
+  {
+    "t_start": 858.829,
+    "t_end": 861.629,
+    "text": "curvature which leads to the first derivative being negative beta hn"
+  },
+  {
+    "t_start": 861.629,
+    "t_end": 864.749,
+    "text": "derivative being negative beta hn instead and the resulting evolution is"
+  },
+  {
+    "t_start": 864.749,
+    "t_end": 870.31,
+    "text": "just called the mean curvature flow this turns out to be what's happening in an"
+  },
+  {
+    "t_start": 870.31,
+    "t_end": 873.15,
+    "text": "turns out to be what's happening in an annealing pure metal like"
+  },
+  {
+    "t_start": 873.15,
+    "t_end": 879.269,
+    "text": "aluminium which I honestly don't know too much about regardless the general"
+  },
+  {
+    "t_start": 879.269,
+    "t_end": 881.829,
+    "text": "too much about regardless the general procedure to solving plateau's problem"
+  },
+  {
+    "t_start": 881.829,
+    "t_end": 886.069,
+    "text": "procedure to solving plateau's problem would be to start with some initial"
+  },
+  {
+    "t_start": 886.069,
+    "t_end": 892.749,
+    "text": "vectors to be X and then you have two choices either you evolve the velocity"
+  },
+  {
+    "t_start": 892.749,
+    "t_end": 895.15,
+    "text": "choices either you evolve the velocity to be proportional to mean curvature in"
+  },
+  {
+    "t_start": 895.15,
+    "t_end": 900.79,
+    "text": "which case you choose mean curvature flow or the acceleration is proportional"
+  },
+  {
+    "t_start": 900.79,
+    "t_end": 906.829,
+    "text": "flow or the acceleration is proportional to mean curvature that is you choose the"
+  },
+  {
+    "t_start": 906.829,
+    "t_end": 909.43,
+    "text": "hyperbolic mean curvature flow at the end we hopefully approach the steady"
+  },
+  {
+    "t_start": 909.43,
+    "t_end": 911.99,
+    "text": "end we hopefully approach the steady state solution which is a minimal"
+  },
+  {
+    "t_start": 911.99,
+    "t_end": 915.509,
+    "text": "state solution which is a minimal surface having mean curvature zero"
+  },
+  {
+    "t_start": 915.509,
+    "t_end": 921.23,
+    "text": "however choosing that initial surface requires some Ingenuity or at least some"
+  },
+  {
+    "t_start": 921.23,
+    "t_end": 924.03,
+    "text": "requires some Ingenuity or at least some luck because if you don't choose your"
+  },
+  {
+    "t_start": 924.03,
+    "t_end": 926.509,
+    "text": "luck because if you don't choose your initial surface carefully like in this"
+  },
+  {
+    "t_start": 926.509,
+    "t_end": 932.79,
+    "text": "case where the neck is a bit too thin there can be singularities being formed"
+  },
+  {
+    "t_start": 932.79,
+    "t_end": 937.23,
+    "text": "there can be singularities being formed in this case the soap film pinches off"
+  },
+  {
+    "t_start": 937.23,
+    "t_end": 942.71,
+    "text": "surfaces the conditions for existence of such singularities are a hot topic of"
+  },
+  {
+    "t_start": 942.71,
+    "t_end": 945.23,
+    "text": "such singularities are a hot topic of research on the mathematical side of"
+  },
+  {
+    "t_start": 945.23,
+    "t_end": 950.309,
+    "text": "things even on the physical side of things there is still plenty of research"
+  },
+  {
+    "t_start": 950.309,
+    "t_end": 953.47,
+    "text": "things there is still plenty of research into exactly how this instability"
+  },
+  {
+    "t_start": 953.47,
+    "t_end": 956.43,
+    "text": "into exactly how this instability arises perhaps a bit more surprisingly"
+  },
+  {
+    "t_start": 956.43,
+    "t_end": 959.069,
+    "text": "arises perhaps a bit more surprisingly this procedure is also useful in"
+  },
+  {
+    "t_start": 959.069,
+    "t_end": 962.189,
+    "text": "this procedure is also useful in computer Graphics if we choose the path"
+  },
+  {
+    "t_start": 962.189,
+    "t_end": 965.15,
+    "text": "computer Graphics if we choose the path of mean curvature flow but not go all"
+  },
+  {
+    "t_start": 965.15,
+    "t_end": 967.67,
+    "text": "of mean curvature flow but not go all the way through the surface will just"
+  },
+  {
+    "t_start": 967.67,
+    "t_end": 970.67,
+    "text": "the way through the surface will just become smoother there is a great stack"
+  },
+  {
+    "t_start": 970.67,
+    "t_end": 973.15,
+    "text": "become smoother there is a great stack exchange answer on how to implement it"
+  },
+  {
+    "t_start": 973.15,
+    "t_end": 976.189,
+    "text": "exchange answer on how to implement it on Mathematica Linked In the description"
+  },
+  {
+    "t_start": 976.189,
+    "t_end": 978.23,
+    "text": "on Mathematica Linked In the description the reason for this smoothing behavior"
+  },
+  {
+    "t_start": 978.23,
+    "t_end": 981.829,
+    "text": "the reason for this smoothing behavior is a bit complicated but intuitively if"
+  },
+  {
+    "t_start": 981.829,
+    "t_end": 987.47,
+    "text": "is a bit complicated but intuitively if the surface has a huge bump in it then"
+  },
+  {
+    "t_start": 987.47,
+    "t_end": 995.79,
+    "text": "away from n a lot so the mean curvature has a very large magnitude the pressure"
+  },
+  {
+    "t_start": 995.79,
+    "t_end": 998.189,
+    "text": "has a very large magnitude the pressure which is proportional to H then points"
+  },
+  {
+    "t_start": 998.189,
+    "t_end": 1001.79,
+    "text": "which is proportional to H then points down also at a great magnitude thereby"
+  },
+  {
+    "t_start": 1001.79,
+    "t_end": 1003.87,
+    "text": "down also at a great magnitude thereby smoothing this bump"
+  },
+  {
+    "t_start": 1003.87,
+    "t_end": 1009.47,
+    "text": "quickly so even though we start off with a fairly simple sounding problem the"
+  },
+  {
+    "t_start": 1009.47,
+    "t_end": 1013.59,
+    "text": "plateau problem where we want to find the configuration that has the least"
+  },
+  {
+    "t_start": 1013.59,
+    "t_end": 1019.03,
+    "text": "the configuration that has the least surface area there are still lots to"
+  },
+  {
+    "t_start": 1019.03,
+    "t_end": 1021.91,
+    "text": "explore we even somehow also solve problem in 3D Graphics given the"
+  },
+  {
+    "t_start": 1021.91,
+    "t_end": 1024.35,
+    "text": "problem in 3D Graphics given the richness of this subject it might be"
+  },
+  {
+    "t_start": 1024.35,
+    "t_end": 1027.35,
+    "text": "richness of this subject it might be surprising to know that actually there"
+  },
+  {
+    "t_start": 1027.35,
+    "t_end": 1029.789,
+    "text": "surprising to know that actually there is some kind of general formula for"
+  },
+  {
+    "t_start": 1029.789,
+    "t_end": 1032.51,
+    "text": "is some kind of general formula for minimal Services something that we will"
+  },
+  {
+    "t_start": 1032.51,
+    "t_end": 1035.909,
+    "text": "minimal Services something that we will explore in the next video as always"
+  },
+  {
+    "t_start": 1035.909,
+    "t_end": 1038.029,
+    "text": "explore in the next video as always thanks to these patrons and don't forget"
+  },
+  {
+    "t_start": 1038.029,
+    "t_end": 1045.68,
+    "text": "thanks to these patrons and don't forget to like subscribe and comment see you"
+  }
+]

@@ -1,0 +1,1115 @@
+oh [Music]
+[Music] now
+so uh good afternoon everybody uh according to the uh Auditorium clock
+according to the uh Auditorium clock it's now 3
+p.m. and I'd like to uh welcome everybody to today's Ed lecture
+welcome everybody to today's Ed lecture my name is Rasmus Larson I'm the
+my name is Rasmus Larson I'm the university proost and I have the honor
+university proost and I have the honor of bidding welcome to uh everybody here
+today so as you all know the a uh lecture series is a lecture Series where
+lecture series is a lecture Series where we invite the most influential
+scientists of the world to come to DTU and tell uh DTU staff and students about
+their research and hopefully to uh in Inspire them we are luy today to have uh
+Inspire them we are luy today to have uh Professor Albert llo barassi with us
+Professor bassi is with uh Northeastern University Harvard University and also
+University Harvard University and also the central EUR European University so
+the topic of today as you can see is Network science a topic that emerges in
+Network science a topic that emerges in many of the fields that we are
+many of the fields that we are interested at at at
+DTU uh and I would also like to mention that um it became C certainly apparent
+that um it became C certainly apparent to all of us during the pandemic that
+that Network science was import and uh colleagues here at DTU also made
+uh colleagues here at DTU also made considerable effort there and provided
+advice to our government uh on how the um the reaction of the population were
+um the reaction of the population were to the restrictions that were uh imposed
+and I'm also mentioning the pandemic because I know Professor barassi himself
+because I know Professor barassi himself did important work uh during the covid n
+19 uh pandemic but in order to make a prop
+uh introduction to uh professor barasi and the scientific field I'd like to
+and the scientific field I'd like to invite our colleague Professor Sun
+invite our colleague Professor Sun Leeman from DCU compute himself a
+Leeman from DCU compute himself a network scientist uh to come up here and
+introduce Professor barazi
+yes all right thank you so much Rasmus it is my great honor great pleasure to
+it is my great honor great pleasure to introduce llo as you can see on the
+introduce llo as you can see on the slides he is a professor at many
+slides he is a professor at many prestigious institutions he's also the
+author of bestselling books he is the initiator of startups I could start to
+initiator of startups I could start to list the prizes and there's a lot of
+them uh so he has kind of the whole package but maybe what I want to say
+package but maybe what I want to say something about because I've looked a
+something about because I've looked a lot at his work is the incredible
+quality and richness of his ideas of the sheer creativity and I really me mean it
+sheer creativity and I really me mean it I I kind of thought about this before I
+I I kind of thought about this before I was going to speak and and I wrote down
+science of success Network Med medicine the science of control in networks and
+the science of control in networks and many
+more and probably I forgot some so sorry Loa and and I know this is kind of like
+Loa and and I know this is kind of like a crude thing to do but I went on Google
+th000 papers it's unbelievable right or at least the citations
+um and I think that that is such a wild impact and such an imprint on the world
+impact and such an imprint on the world and the thing that ties all of this
+the thing that ties all these different kind of themes ranging from medicine to
+kind of themes ranging from medicine to human Mobility really is the network
+human Mobility really is the network science and that's what we're lucky that
+science and that's what we're lucky that he's here to talk about today so without
+he's here to talk about today so without any further Ado llo uh please take it
+any further Ado llo uh please take it away
+away [Applause]
+thank you Sun can you hear me is this working okay so the the microphone is
+working I think now that the former part is over I can take my jacket off right
+is over I can take my jacket off right and and let's get to the subject and
+and and let's get to the subject and it's a pleasure to be here and I
+particularly you know thanks to the pandemic and many other things it's
+pandemic and many other things it's wonderful to have so many people
+actually in the room and we're back to kind of intellectual discourses and I
+think that's one of the biggest values and and I'm very honored to be giving
+and and I'm very honored to be giving the the earth leure I obviously like
+the the earth leure I obviously like everybody else checked out who else
+everybody else checked out who else spoke before me and and and you know
+spoke before me and and and you know it's it's a very distinguish group of
+it's it's a very distinguish group of people so I'm I'm hoping that I will
+help you continue that line so and let's talk about networks in general so my
+goal is to give you a mosaic of why networks are important right and how do
+networks are important right and how do we think about them and the best way to
+kind of fix our ideas is to to speak about some specific networks that really
+about some specific networks that really determine our life and shape our life
+and one of them is obviously the infrastructural networks but pretty much
+infrastructural networks but pretty much all our
+network what you see here which is an early map of the internet telling us how
+early map of the internet telling us how the different routers are connected to
+the different routers are connected to that that map is almost 20 years old now
+fundamental idea that the reason we are in the 21st century able to communicate
+in the 21st century able to communicate and get bits of information from very
+and get bits of information from very far away parts of the world in an
+instant is because we have a a globe spanning Communication System
+infrastructure A system that allow us with the speed of light to exchange
+with the speed of light to exchange information and this system can only
+work as a network right so if you want to kind of think about infrastructure
+to kind of think about infrastructure system there's no way you can avoid
+system there's no way you can avoid Network thinking and network ideas but
+Network thinking and network ideas but we don't have to think of the globe we
+can also think a little smaller like what's happening within our brain right
+what's happening within our brain right and and fundamentally the very idea that
+and and fundamentally the very idea that we have Consciousness that we can think
+we can reason that we exist and so uh uh intellectually is driven by this massive
+Network that is within our brain and of course everybody knows that the brain is
+a network right actually the very very first Nobel Prize in medicine was given
+first Nobel Prize in medicine was given to Rah who actually showed us the first
+changing now in the last kind of five to 10 years is that for the first time we
+10 years is that for the first time we have maps of those networks right before
+like we had just pictures of the neurons but what's changing really fundamentally
+but what's changing really fundamentally now is that we started to have for some
+organisms ful neuron level maps that I think would be really transform ative to
+think would be really transform ative to the way we think about brain science and
+Consciousness but for our purposes the world complexity of thinking and
+world complexity of thinking and Consciousness is driven by an underlying
+Consciousness is driven by an underlying Network and let's go even smaller scale
+right within each of our cell and every cell there's a very very complex network
+cell there's a very very complex network of how proteins interact with each other
+of how proteins interact with each other as well as a complex network of
+as well as a complex network of chemicals that are processing the food
+chemicals that are processing the food that you normally consume and turns into
+and what you see here is a network that we stare a lot in my lab because about
+we stare a lot in my lab because about half of my lab is focused on network
+half of my lab is focused on network medicine this is the protein interaction
+medicine this is the protein interaction Network within the human cell and these
+proteins through which the proteins by binding to each other each other they
+binding to each other each other they assemble L machineries that are really
+assemble L machineries that are really responsible for many of the processes
+the cell carries uh uh with us so what I wanted to kind of give you with this the
+wanted to kind of give you with this the example and I could probably continue
+example and I could probably continue for half an hour just giving more and
+trade networks social networks the abuse social media and so on but I wanted to
+social media and so on but I wanted to kind of give fix this idea that there
+kind of give fix this idea that there are these totally different networks at
+are these totally different networks at different
+scales that have apparently nothing to do each other right and the question the
+do each other right and the question the challenge for Network science is that
+challenge for Network science is that how do you develop a framework of
+thinking how do you develop a theory that allows you to think simultaneously
+that allows you to think simultaneously about the network within your C where
+about the network within your C where tiny molecules are binding to each other
+tiny molecules are binding to each other or the neural network within your brain
+or the neural network within your brain or uh Communications networks all
+actually the Galaxy networks in the universe so where do we start the
+process and that process obviously started way before I was even born and
+it started with two Hungarian mathematicians for work and many others
+mathematicians for work and many others but they had a particular imprint Paul
+but they had a particular imprint Paul arush and Alfred Ry you may have heard
+arush and Alfred Ry you may have heard of Paul arush he was this very
+of Paul arush he was this very charismatic mathematician who really
+didn't have a home he would travel from from University to University and to
+colleagues to colleague and he would say my brain is open let's solve some math
+my brain is open let's solve some math problems and he would stay about 5 days
+problems and he would stay about 5 days which is how long they can actually
+which is how long they can actually suffer him around because he would wake
+suffer him around because he would wake up at 5:00 and start making no is let's
+prove some and but Paul in off I mean the many other things they have done
+they were also one of the first to start thinking deeply mathematically how a
+thinking deeply mathematically how a network looks like and their argument
+network looks like and their argument was very simple and very reasonable they
+was very simple and very reasonable they said well you know we see all of these
+complicated networks around us and in their first paper they brought the
+their first paper they brought the example of biological networks neural
+example of biological networks neural networks as well as Transportation
+networks and they said you know they're very complicated and they almost look
+random so why don't we just assume that they are random right so and and they
+they are random right so and and they said how would a randomly wired Network
+said how would a randomly wired Network would look like and they said well the
+start with a bunch of notes and you take every pair of note and you connect them
+with a certain predefined probability P that is let the dice decide whether
+that is let the dice decide whether somebody's connected or not and if you
+somebody's connected or not and if you use the dice say with probability one
+use the dice say with probability one one over six you decide every uh you
+pair every uh node you will end up with a little object like that and this is
+a little object like that and this is what we call a random Network and what
+what we call a random Network and what they did in the subsequent years is that
+they did in the subsequent years is that in in through about eight papers they
+in in through about eight papers they ended up explaining many of the
+properties of how a large random Network would behave and how would you describe
+would behave and how would you describe it
+mathematically and among the many many results they have explored one of them
+results they have explored one of them is very important for us today which is
+is very important for us today which is what we call the degree distribution the
+what we call the degree distribution the degree is the mathematician's way of
+links a note has right and and so you see in some of the notes have degree one
+see in some of the notes have degree one because they connect to one other one
+some have as many as four and hence if you want to characterize a large Network
+you want to characterize a large Network you don't look at individual nodes you
+look at the distribution of them and you can easily show for this random Network
+can easily show for this random Network that the degree distribution is a very
+that the degree distribution is a very peaked one follows what we call a Pon
+majority of the notes have roughly the same number of links around the peak of
+hard to find kind of deviations from the average because it decays exponentially
+as you get away from that right so that was kind of the image they had and that
+was kind of the image they had and that model laid unchallenged till pretty much
+model laid unchallenged till pretty much the end of 1990s and was rediscovered
+the end of 1990s and was rediscovered independently in many areas so
+independently in many areas so sociologist use the version of the
+sociologist use the version of the random model Network model to think
+random model Network model to think about small words behavior and social
+about small words behavior and social networks ecologists have used random
+networks ecologists have used random networks effect to describe food webs
+and so on and so forth we call this network uini model because they really
+network uini model because they really put their imprint onto that and so I
+question is what happened at the end of 1990s well the model stood but it was
+1990s well the model stood but it was really never challenged by data and the
+end of 1990s thanks to the internet we started to have access to large Network
+started to have access to large Network maps and we could start asking the
+maps and we could start asking the questions how do real networks look like
+questions how do real networks look like and that's where my research actually
+begins here as well in 1998 actually we started to kind of we i' been looking
+started to kind of we i' been looking for a network to map out and we ended up
+wordwide web because the notes we know that there are documents right and they
+that there are documents right and they are connected to each other by URLs and
+engine actually or a robot but it goes by different names that would start from
+by different names that would start from a page and it would just collect all the
+links and go to the next page and so on this is the tools that actually roughly
+this is the tools that actually roughly the same time that Google was developing
+the search engine were kind of running the same code within our lab right and
+and through that process we ended up creating a map a local map of the word
+creating a map a local map of the word vi appap and you can kind of see it over
+video of it right that was one of the maps we ended up mapping out again of
+maps we ended up mapping out again of how the networks are connected to how
+the notes are connected to each other what was our expectation well we thought
+what was our expectation well we thought the word w should be random right
+the word w should be random right because you are so different from each
+because you are so different from each other and everybody puts links on their
+other and everybody puts links on their web page that pertain to their personal
+web page that pertain to their personal interest some people care about
+sociology others about Sumo wrestling yet others about physics and the links
+yet others about physics and the links you put on your personal web page really
+you put on your personal web page really follow your interest so therefore and
+follow your interest so therefore and your interest is so different looks
+random to an outside Observer so we should expect a random network with a
+should expect a random network with a Plus on degree distribution to our great
+Plus on degree distribution to our great surprise we ended up finding a very
+different function what we call a power LW distribution and what you see here is
+a log lock scale version of the probability that a randomly chosen
+we have to put it on the log lock scales for reason they're going to be obvious
+for reason they're going to be obvious in a second in a log loog scale the fact
+in a second in a log loog scale the fact that the EMP data lines up as a straight
+describes the behavior that how how many nodes have degree one 10 100 or 10,000
+nodes have degree one 10 100 or 10,000 or 100,000 follows a very simple
+function like K to the minus 2 gamma over there is 2 and then you would say
+over there is 2 and then you would say okay well you just discovered a
+okay well you just discovered a different function than what you
+expected what's the big deal here right and the big deal here is that that power
+and the big deal here is that that power low is fundamentally different from the
+low is fundamentally different from the poone that was our expectation that was
+really used in all models before and the reason why it's different is because in
+reason why it's different is because in a power law
+distribution you have an exponentially decaying function which means it's very
+decaying function which means it's very very rare to find notes that are much
+bigger than the average however in the power law the fat tail of the
+power law the fat tail of the distribution tells us that it's very
+distribution tells us that it's very common to have outliers very very
+connected nodes and you can see that in distribution we easily find notes with
+distribution we easily find notes with with thousands of links and actually we
+have even 10,000 links in this particular case so effectively what the
+power law is telling us that in real networks you have highly connected nodes
+networks you have highly connected nodes or hubs nodes that have an exceptionally
+very very large number of notes together and when you look at the map you see
+those hops you see a few notes that connect an exceptional large number of
+connect an exceptional large number of other links those type of hubs would be
+simply forbidden in a random Network now you may ask okay you just discovered
+now you may ask okay you just discovered that the word wi web is different from
+that the word wi web is different from your
+expectation why do we care well things got really excited when we and others
+got really excited when we and others started to look at other networks not
+started to look at other networks not just the wordwide map and then we
+just the wordwide map and then we started to see the same features over
+and over remember this map this is the map of the internet and when you look at
+many small degree notes and you see a few major hubs that holding the vaulting
+few major hubs that holding the vaulting together and indeed kind of a few months
+after our paper came out a very famous paper Now by futos futos and futos came
+paper Now by futos futos and futos came out three brothers yes computer
+out three brothers yes computer scientists different universities and
+infrastructure at the router level also has this power lad distribution and just
+has this power lad distribution and just to get the language right we ended up
+to get the language right we ended up naming these networks as the powerload
+naming these networks as the powerload degree distribution scale free Networks
+degree distribution scale free Networks because in a random Network the average
+degree acts like a scale everybody is similar to the average one right in a
+scale-free network you have all the different skilles coexisting together
+different skilles coexisting together you can't pick one node and say that's
+what's going to be typical in this network so what futos and futos and
+futos have shown is that the internet itself is scale free but then of course
+an abundance of data came out this is a data set that I will speak a little bit
+organizational map of a small company or midsize company in Hungary where the
+midsize company in Hungary where the notes are individuals schors correspond
+notes are individuals schors correspond to different regions of the company
+where they work on and the notes size corresponds to the degree so you can see
+corresponds to the degree so you can see the high degree notes and you can kind
+of see that you don't have everybody to be a right there are a few major hubs
+be a right there are a few major hubs that seem to be talking to just about
+that seem to be talking to just about everyone and they're holding the uh the
+everyone and they're holding the uh the organizations together and when people
+organizations together and when people are able to map out large organizations
+like IBM has done a massive mapping process of its own organization with at
+process of its own organization with at that time 400,000 employees you find
+that time 400,000 employees you find really a gorgeous scale-free Network
+really a gorgeous scale-free Network emerging but let's go beyond
+emerging but let's go beyond organizations this is I picked this
+example because this is a Scandinavian Swedish early social networking site
+before Facebook or in parallel with that was emerging pom.com it's a dating site
+was emerging pom.com it's a dating site and and uh and you know whether you look
+and and uh and you know whether you look at the number of contacts or people in
+your guest book or flirts they had you had different ways of kind of connecting
+had different ways of kind of connecting to each other you had always the same
+power LW emerging telling us that most people have very few contacts and if you
+people have very few contacts and if you have an exceptional number of one number
+have an exceptional number of one number of them and of course if you would look
+is available you would find exactly the same thing and we know and we feel that
+same thing and we know and we feel that right there are a few people like Obama
+right there are a few people like Obama to to others who have hundreds of
+to to others who have hundreds of millions of followers right and of
+course most of us have very few so so this emerges clearly in social media as
+this emerges clearly in social media as well and let me tell you now another
+well and let me tell you now another Scandinavian example that is turned out
+Scandinavian example that is turned out to be very very interesting and
+fundamental and it's also fun fun its way which is the Swedish sex web right
+way which is the Swedish sex web right which is like in Sweden when AIDS
+which is like in Sweden when AIDS started to become kind of an important
+started to become kind of an important issue in the 1990s Sweden has done a
+issue in the 1990s Sweden has done a major survey of understanding the sexual
+habits of the country which means that effectively they interviewed about 4,700
+Suites of a very wide age group and uh and asked them lots of questions there's
+and asked them lots of questions there's a big beautiful book called sex in
+a big beautiful book called sex in Sweden it's a good coffee Coffee House
+Sweden it's a good coffee Coffee House reading
+right that that kind of summarizes those results and
+and what that was published for a while but then Eric Yus who's a who's a
+but then Eric Yus who's a who's a sociologist who kind of was following
+sociologist who kind of was following the network science development
+he kind of realized that when you plot the the distribution of how many sexual
+the the distribution of how many sexual partners everybody had whether it's the
+partners everybody had whether it's the yearly number that they were asked they
+yearly number that they were asked they were asked how many they partner they
+had during the last year and how many did they have throughout lifetime when
+did they have throughout lifetime when you plot it you don't find a gaan
+you plot it you don't find a gaan distribution or a poon as indicative of
+distribution or a poon as indicative of a pure random process but you find a
+a pure random process but you find a power L distribution telling us that the
+power L distribution telling us that the vast majority of the people had one to
+10 sexual partners during the Lifetime and then of course a few that have tens
+thousands and you may kind of think what is what that by itself is not surprising
+is what that by itself is not surprising because there are professionals out
+there right what is interesting is that it's a continuous distribution it's not
+it's a continuous distribution it's not there is one group there and everybody
+else is nice behaving right but there is a continuous distribution there and it's
+a continuous distribution there and it's a fat tail distribution and of course if
+you think about it what this means it means that there are sexual hubs and you
+know why is that important for AIDS right or any sexually or any sexual
+right or any sexually or any sexual transmitted diseases and then we'll get
+to that a little bit into that when we talk about epidemics so this result was
+talk about epidemics so this result was very interesting it came out in nature
+very interesting it came out in nature it was ridiculed by the epidemological
+it was ridiculed by the epidemological community partly because oh sweets are
+community partly because oh sweets are like that right and partly that the
+like that right and partly that the sample is not right and everything but
+then it initiated a huge amount of research in many different countries
+from Africa to the Li less liberal Sweden UK uh and us and the data was
+Sweden UK uh and us and the data was actually the same all over the world
+actually the same all over the world right so this this is not something
+right so this this is not something specific to Sweden it is actually
+specific to Sweden it is actually emerging in all different uh National
+data sets and we'll come back to the consequences of that uh in a second and
+consequences of that uh in a second and then I'm going to give you one final
+then I'm going to give you one final example I believe which is all the
+networks I spoke so far about is somehow human-made networks right communication
+it sounds like there's something that we do to create hops but it's not the case
+do to create hops but it's not the case so what you have here is a little
+so what you have here is a little segment of the chemical Network a
+segment of the chemical Network a metabolic Network within your cells if
+you had lunch that's the network that is processing and turning the whatever if
+processing and turning the whatever if you had the fish right they will have to
+be turned into ATP because your cell don't understand fish they only
+understand ATP and ADP and there's also another Network within your cell the one
+another Network within your cell the one that I showed you earlier the big blue
+BL Network which is the protein interaction Network many years ago was
+interaction Network many years ago was first available for yeast today it's
+available for humans both of these networks once the data became available
+turned out to be scale free meaning that the vast majority of chemicals are very
+the vast majority of chemicals are very specific to the to some few processes
+they only interact with a few others or they participate in one or two or maybe
+they participate in one or two or maybe three or four reactions but there are
+three or four reactions but there are hubs in the cell uh in the metabolic
+Network your hubs are ATP ADP water carbon dioxide and a couple of other
+carbon dioxide and a couple of other essential molecules that participate in
+essential molecules that participate in many many reactions in the prote
+of wellknown uh cups there mostly what we call transcription factors and what I
+we call transcription factors and what I want to kind of emphasize with this is
+want to kind of emphasize with this is that think about it how mindboggling
+that think about it how mindboggling this is networks that have absolutely
+nothing to do with each other within the cell that has developed over 4 billion
+cell that has developed over 4 billion years right and the internet we built in
+years right and the internet we built in the last 60 years and the word vi that
+has a history of maybe 30 years and the Twitter that's by maybe 20 or 15 years
+Twitter that's by maybe 20 or 15 years old or whatever they all converge to the
+old or whatever they all converge to the same underlying architecture and that
+same underlying architecture and that was really the initial mystery of
+was really the initial mystery of network science is that how is it
+network science is that how is it possible that these networks whose notes
+possible that these networks whose notes are really So Different At scale and
+are really So Different At scale and purpose and so are the links develop
+architectures and that was a challenge that I was trying to address early on
+when we realized Iz this what we call universality physicists call
+universality the fact that these different processes have similar uh uh
+different processes have similar uh uh patterns of kind of structural patterns
+patterns of kind of structural patterns and so where does it come from that's
+questions why can the random Network model predict the existence of the Hops
+model predict the existence of the Hops what's missing from that model that it
+what's missing from that model that it doesn't allow for hubs and that came
+then came a very interesting insights that there are two fundamental
+that there are two fundamental difference between between the AR and R
+difference between between the AR and R or the random Network model and the real
+networks and the first is that the random Network model assumes that you
+random Network model assumes that you have a bunch of noes that you know
+already and you just have to connect them right which the inner the the
+them right which the inner the the Assumption behind that is that your set
+of notes is static and your goal is simply find a clever way of wiring them
+together in reality however most networks that exist are there didn't
+come out by having a notes to begin with right they really grew one node at a
+right they really grew one node at a time think about the worldwide web right
+time think about the worldwide web right now has trillions of web pages out there
+was one web page team burner Le famous web page back in CERN in Geneva so the
+web page back in CERN in Geneva so the question how did we go from one to
+question how did we go from one to trillion one note at a time always
+trillion one note at a time always adding new noes to the system so this is
+what I call growth that the real networks are always the result of some
+would model that is to say well I have a small Network and then new nodes come in
+small Network and then new nodes come in and try to connect to the existing nodes
+and try to connect to the existing nodes like that node right so that's the first
+model and uh real networks the fact that real networks always grow and expand and
+real networks always grow and expand and change the second one however is that
+the random Network model tells us a very precise prec uh uh uh recipe how are you
+precise prec uh uh uh recipe how are you going to connect your new node just
+going to connect your new node just randomly right pick any node and connect
+however what we started seeing in real networks that that assumption is
+violated there is a preference towards the more connected notes think about the
+the more connected notes think about the word vi again more than a trillion Pages
+out there how many do you know personally few hundred at most and whom
+personally few hundred at most and whom do you know right you know Amazon you
+know uh Google you know Facebook you know so and what is common between them
+know so and what is common between them they're hugely connected notes and it's
+they're hugely connected notes and it's easy to see from a search perspective
+easy to see from a search perspective that the more links a node has the more
+that the more links a node has the more likely that you will ever encounter it
+likely that you will ever encounter it and and hence you know only to you
+is what we said that the new nodes when they come into the system they prefer to
+they come into the system they prefer to connect to the highly connected nodes
+easier to find right and this is what we called preferential attachment and the
+called preferential attachment and the way we mathematically formulated this is
+to say the probability Pi that you will connect to a node with degree Ki is just
+connect to a node with degree Ki is just proportional to KI the more links the
+proportional to KI the more links the node has the more likely that will
+when this new node comes in it could connect to a node with degree 2 or a new
+degree four but it's just twice as likely to connect to the degree four
+than the degree 2 but it's allowed it could occasionally connect to the degree
+could occasionally connect to the degree tool in the same way that you can
+connect to your best friend's web page and you would be the only one connecting
+and you would be the only one connecting to that right but that's perfectly
+to that right but that's perfectly allowed according to this
+probability if you put these two pieces together grow and preferential
+attachment interestingly you will start seeing the Hops emerging in the system
+because as the new nodes come in they tend to seek out the big more connected
+tend to seek out the big more connected notes and that the the more connected
+notes and that the the more connected nodes grow faster than the rest of them
+right and the reach gets richer phenomena turns on and naturally hubs
+will emerge in the system and if you just consider these two phenomena only
+these two you do nothing else you would find that the network that emerges has a
+find that the network that emerges has a beautiful power lad distribution as far
+as you go depending on how briig Network you can grow so what for me what's kind
+you can grow so what for me what's kind of after so many years is still amazing
+of after so many years is still amazing in this story is that these two simple
+in this story is that these two simple principles are able to kind of address
+principles are able to kind of address the architecture through so many
+different systems and don't get me wrong in real systems there's so many other
+in real systems there's so many other stuff happening right links could be
+stuff happening right links could be rewired links could disappear nodes
+could disappear uh and yet what we learned over the last 20 years is that
+learned over the last 20 years is that as long as the network is growing and as
+as long as the network is growing and as long as there is preferential attachment
+actually be scale free and that's what and so little is required for the hubs
+and so little is required for the hubs to emerge right and that's the reason
+to emerge right and that's the reason why so different networks end up kind of
+why so different networks end up kind of converging to the same underlying
+converging to the same underlying architecture because these two
+conditions are satisfied in all of them now now that we have a mechanism
+you would say why do we care do hops really matter how do they change the way
+really matter how do they change the way we think about and these is these
+networks behave and what I'm going to do is I'm going to give you a few stories
+that tell us how important it is actually to have these hubs in the
+actually to have these hubs in the system and how they alter the behavior
+system and how they alter the behavior of the system and first I'm going to
+robustness why do we care about Network robustness because many complex systems
+robustness because many complex systems that are network like or virtually all
+suffer from the problem that nodes and links could break and the question is
+and links affects the structure of the system and its integrity and its ability
+to function and and so one way to test that is to start with the simple Network
+that is to start with the simple Network that I uh uh U I built earlier let's see
+that I uh uh U I built earlier let's see now I think it's going to happen not yet
+with this little Network and we start randomly removing notes and what you see
+randomly removing notes and what you see is you kind of Follow that process is
+is you kind of Follow that process is that as I'm removing notes obviously
+when I remove a note the links disappear so the wall network is shrinking but in
+so the wall network is shrinking but in an odd way the network doesn't simply
+want to break apart and this is not just the video based observations one of the
+the video based observations one of the things that we noticed actually back in
+things that we noticed actually back in kind of 2000 is that these type of uh
+scale free networks have an amazing property that they are very very robust
+property that they are very very robust to random
+failur and which means that you can remove 95% of the notes and the
+remove 95% of the notes and the remaining 5% are still together why is
+remaining 5% are still together why is that because of the Hops because we have
+that because of the Hops because we have a hierarchy of bigger and smaller hops
+a hierarchy of bigger and smaller hops in the system and many many small nodes
+in the system and many many small nodes but because we have many many small noes
+in the system when you randomly break nodes down you're most likely going to
+nodes down you're most likely going to break a small Noe down right because
+there's so much of them and when you do that the network will shrink the biggest
+that the network will shrink the biggest notes will also get a little smaller
+because they lost some links but they will not affect the Integrity of the
+will not affect the Integrity of the system and even if you accidentally hit
+system and even if you accidentally hit one of the bigger hops there are other
+one of the bigger hops there are other hops to kind of maintain the
+connectivity of the system so and this is not just a claim we actually showed
+is not just a claim we actually showed that indeed the critical point at which
+that indeed the critical point at which these networks break down because of the
+these networks break down because of the hubs converges to one and I'll tell you
+hubs converges to one and I'll tell you that in the next slide of what's the
+that in the next slide of what's the mathematics behind that but then there's
+a price we pay for that and maybe I click too early what if you don't remove
+click too early what if you don't remove the notes but you go on attack you
+the notes but you go on attack you remove the biggest note and then the
+remove the biggest note and then the next biggest note and then the next
+biggest note so let's be really malicious and in no time you are
+malicious and in no time you are actually seeing the network breaking
+apart so we started from the same network and let me see if I could stop
+network and let me see if I could stop this and and and even like a little bit
+this and and and even like a little bit earlier right and let's look at the
+left I removed 30 notes and the network is still together on the right hand side
+is still together on the right hand side I removed only 11 notes and the network
+I removed only 11 notes and the network is broken into tiny pieces and this is
+is broken into tiny pieces and this is indeed a real feature of large scale
+indeed a real feature of large scale free networks and many real networks
+free networks and many real networks that they're very very robust to failur
+that they're very very robust to failur but they're very fragile to attacks
+looks like and you start removing the Hops the system is so dependent on the
+Hops the system is so dependent on the Hops that the network will break into
+time pieces this is what we call the Achilles heel of scale free networks if
+Achilles heel of scale free networks if you know the structure you know who the
+you know the structure you know who the Hops are you can destroy them very
+easily but of course this is good news and bad news in many ways but most of
+the time good news which is partly explaining say why is it that when
+explaining say why is it that when somebody you know like goes on a
+somebody you know like goes on a vacation the organization doesn't break
+apart immediately doesn't stop working it explains why is it that as I'm giving
+a talk there are probably millions of errors in my cell the molecule is not
+errors in my cell the molecule is not arriving to the right place to the
+reaction and yet I'm able to continue talking right so in a way it tells us
+really that there is this inherent robustness built into the structure of
+robustness built into the structure of the
+network and of course there is some price for it right which is the attack
+failure in tolerance and that could also be good news in some cases because we
+could use that feature to really kill organisms that we don't want around like
+organisms that we don't want around like bacteria and so on now that's one aspect
+bacteria and so on now that's one aspect of why the network matters let me give
+of why the network matters let me give you another example that seems to be
+you another example that seems to be very different but it's very closely
+related which is epidemics right we all came out from a from a major epidemic
+the covid one but it turns out that 20 years before the com epidemic Network
+years before the com epidemic Network scientist particular alandro vinani my
+scientist particular alandro vinani my colleague actually in Boston and ROM
+colleague actually in Boston and ROM Pasto saturas have really started
+thinking deeply about what M how the structure affects the network and what's
+structure affects the network and what's interesting is that they realized that
+virtually all the models that existed for epidemic spreading were based on a
+for epidemic spreading were based on a random Network model and you know and
+random Network model and you know and that's because they no one had any
+that's because they no one had any better and the way epidemics kind of
+looks at it is to say well I have what we call a spreading rate of the virus
+we call a spreading rate of the virus which is L which is the likelihood that
+which is L which is the likelihood that if you are actually come close to
+if you are actually come close to someone who is infected you will also
+someone who is infected you will also get infected right and and the question
+get infected right and and the question is depending on what that spreading rate
+is depending on what that spreading rate what fraction of the population would be
+what fraction of the population would be infected and a key fundamental result of
+infected and a key fundamental result of epidemic spreading based on which all
+epidemic spreading based on which all methods to eradicate epidemics is really
+methods to eradicate epidemics is really rely on is the the finding that there is
+a critical Lambda meaning that if the spreading rate is under a threshold the
+because if it's very hard to spread then then it just people going to get cured
+then it just people going to get cured or die before they could pass it on
+or die before they could pass it on and this is the basis why we're told to
+and this is the basis why we're told to use condom against AIDS right because
+it's not only protects you but it will decrease the epidemic threshold so that
+decrease the epidemic threshold so that eventually the disease would die out but
+it didn't work right in a sense that that the AIDS epidemic was a good
+example that uh that it was AIDS virus is very hard to pass on right and I
+is very hard to pass on right and I don't going to give you actually any
+don't going to give you actually any ideas but typical statistics shows that
+ideas but typical statistics shows that it takes about 300 sexual intercourses
+on so it's very hard to pass it on right yet it spread like crazy so based on the
+yet it spread like crazy so based on the epidemic models it should was way under
+epidemic models it should was way under the spreading rate of critical threshold
+the spreading rate of critical threshold and it did and yet it spread why because
+and it did and yet it spread why because the network is not random right because
+we're not have we not everybody has the same number of sexual partners right as
+same number of sexual partners right as I showed you earlier but rather it's a
+I showed you earlier but rather it's a scale-free network and one of the
+features of scale free networks is that the second moment of the distribution
+the vid is very very large it goes to Infinity in a large system and you could
+Infinity in a large system and you could analytically show that the critical
+point at which the net the the disease disappears is really the average degree
+disappears is really the average degree divided by the second moment however
+divided by the second moment however this this is this quantity is finite in
+this this is this quantity is finite in a random Network in a scale free network
+K Square goes to Infinity which means critical points goes to zero which is we
+let's see so the curve is like that so the epidemic threshold actually
+disappears so even a very weakly uh kind of infectious epidemic can and will
+of infectious epidemic can and will spread because it will eventually get
+spread because it will eventually get into the Hops and the Hops will infect
+into the Hops and the Hops will infect lots of other nodes and the Hops will
+infection they would always kind of be as a reservoir for the disease and this
+as a reservoir for the disease and this was a game changer in the way we think
+about diseases and this was the first time when we saw how important these
+time when we saw how important these Hops and the network structure is really
+to understand them and of course it was on this background that Alexandro vinani
+on this background that Alexandro vinani ended up developing a wall network based
+ended up developing a wall network based method about 15 years ago to predict
+method about 15 years ago to predict epidemics and so when and the first it
+was Ted actually in the uh in the H1 N1 epidemic in 2009 where he predicted that
+epidemic in 2009 where he predicted that the virus that starts from Mexico will
+the virus that starts from Mexico will actually pick up and this this is
+many people and how many cities will be infected so this was a simulation done
+infected so this was a simulation done in 2009 and he predicted for the age one
+and one that the virus will peak in November which was a very unexpected
+November which was a very unexpected prediction because most influenza like
+prediction because most influenza like viruses Peak out on the Western
+viruses Peak out on the Western emisphere in January or December and
+emisphere in January or December and everybody ridiculed him back in June
+everybody ridiculed him back in June when he published that and he was
+absolutely right and that had major policy cons consequences because there
+policy cons consequences because there was actually a vaccine against that
+against the age one and one well not a vaccine but well actually was a vaccine
+vaccine but well actually was a vaccine for that but that was only arriving to
+predicting it's going to be too late and it was too late right and why was this
+different is because the virus didn't start out from Southeast Asia as most
+start out from Southeast Asia as most influenza viruses do but came from
+influenza viruses do but came from Mexico and therefore had a different
+Mexico and therefore had a different route on the network what really matters
+route on the network what really matters here is that in 2009 starting from 2009
+here is that in 2009 starting from 2009 we have a very accurate network-based
+we have a very accurate network-based prediction of how viruses will spread
+prediction of how viruses will spread and that was the reason why in 2019
+December in our Institute where Alexander works now we were already
+Alexander works now we were already freaked out about age one and one right
+freaked out about age one and one right and we were shopping like a a months be
+like a month before the closedown happened and I remember that I was
+happened and I remember that I was supposed to be giving this talk this
+very talk in March 2020 and I remember sending an email to the organizers right
+sending an email to the organizers right to say hey are you sure you're going to
+do it and I was told yes everything is okay in
+right and we said no our data doesn't show and we have a track of females and
+then even a week before the talk I said it's not going to happen then I was told
+it's not going to happen then I was told it is going to happen and then three
+days before the talk it was cancelled so that's why we're here today
+cancelled so that's why we're here today so and and sure enough you know Alex
+so and and sure enough you know Alex Pani became the White House modeler and
+Pani became the White House modeler and this is already the age1 N1 model
+actually of how this is spreading and the one of the reason we were able to
+manage the kind of uh and to make rational decisions is because the tool
+rational decisions is because the tool set was ready and available and he kind
+set was ready and available and he kind of everybody could run it for their own
+of everybody could run it for their own country and I'm sure many of you were
+country and I'm sure many of you were involved actually doing it here and of
+involved actually doing it here and of course this was a very interesting
+Moment Like a tragic moment for society but a great moment in for for Network
+science because everyone became a network scientist right at the dining
+network scientist right at the dining table people were talking about
+table people were talking about reproduction rate and the role of the
+reproduction rate and the role of the hubs and contract tracing things you
+hubs and contract tracing things you were using language that previously six
+were using language that previously six months before you could only hear at the
+network science conference right so let me okay are we 55 minutes
+into it or how are we doing time wise no we're good right yes perfect yeah so let
+we're good right yes perfect yeah so let me switch gears now and what I wanted to
+me switch gears now and what I wanted to show here is that the network structure
+show here is that the network structure does matter right and if you do have the
+wrong structure you do make wrong predictions as epidemology has been
+predictions as epidemology has been doing pretty much since 2001 when
+doing pretty much since 2001 when Alexander wani came along and said
+Alexander wani came along and said listen these networks on which epidemics
+listen these networks on which epidemics are spreading are not random networks
+are spreading are not random networks and then you revise the W theur and
+thanks to that we have now much more accurate models but what I want to do
+next is to go even more precise and not just simply talk about the role of the
+just simply talk about the role of the house but could we really use to make
+house but could we really use to make falsifiable predictions about uh uh real
+falsifiable predictions about uh uh real systems and I had the pleasure to kind
+of uh be part of a line of research where I couldn't believe it even today
+where I couldn't believe it even today how far we got with that which is the
+control control is your ability to kind of fully control the behavior of the
+system a typical car had about five to 6,000 components the electric car is
+6,000 components the electric car is much lower it's a, 1,500 right what's
+much lower it's a, 1,500 right what's interesting about the car is that when
+interesting about the car is that when you drive a car you're not thinking
+you drive a car you're not thinking about 6,000 components you're only
+about 6,000 components you're only controlling the behavior of the steering
+wheel the gas pedal and the brake and through that you're controlling the rest
+through that you're controlling the rest of the car all the pieces all the 6,000
+of the car all the pieces all the 6,000 pieces are controlled by these three
+pieces are controlled by these three components and so much so that I would
+urge you not to buy a car that doesn't have that property right so the question
+is how is that possible and the reason why it's possible is because the car has
+been engineered to really be controllable from these three points
+controllable from these three points right because at the end behind the
+network behind the car you have a very very complicated Network what I would
+like to do today is to pose a challenge what if you inverse the problem here is
+what if you inverse the problem here is a wiring diagram of a vehicle happens to
+a wiring diagram of a vehicle happens to be a motorcycle the car would be too big
+to show right could you find out the three components from which you can you
+three components from which you can you can control the rest of this
+I'm sure many are here you could point to the right place right but this is the
+to the right place right but this is the type of challenge we often have in
+type of challenge we often have in science we're given a massive network of
+science we're given a massive network of subcellular uh uh interactions or or uh
+subcellular uh uh interactions or or uh a network of organization and we would
+like to find out how is this system controlling itself and does it control
+itself so this is a journey that we've been doing for many years is to try to
+been doing for many years is to try to understand how how do you control a
+network and we had lots of help from engineering because there's a there's a
+whole field of engineering called control theory that has a formal theory
+control theory that has a formal theory of control and what is important about
+control that we're not talking anymore about the structure as well we're
+talking about the behavior of the system so on each node now you need to have
+that I'm going to go describe as an X right is the traffic on the Node on on
+right is the traffic on the Node on on the street the the number of molecules
+the street the the number of molecules created per second in that chemical
+reaction whatever that is right or the firing rate of the neuron in that moment
+through a network and the activity of each node is not only determined by its
+each node is not only determined by its own desires but also by the activity of
+own desires but also by the activity of the nodes that are feeding it with
+the nodes that are feeding it with traffic or so on so there's a formal
+traffic or so on so there's a formal description it's called a linear uh uh
+model that tells us that you know how my behavior as a note changes in function
+behavior as a note changes in function of whom I'm connected to and formally
+of whom I'm connected to and formally the way you would describe it is that
+the way you would describe it is that you say I have a tiny Network each Noe
+has this variable on it and I'm connected so I have a network structure
+which is this Matrix a and then control comes in by saying I'm able to go ahead
+comes in by saying I'm able to go ahead and inject signals in certain points by
+and inject signals in certain points by controlling those points like pushing
+the gas pedal from that right and and that signal only comes on that selected
+that signal only comes on that selected point and the question is could I
+point and the question is could I control from say these two notes the
+rest of the notes and the answer was actually given by Rudolf Colman in 1963
+actually given by Rudolf Colman in 1963 who set up what we call the Karman
+who set up what we call the Karman criteria which allows us to really
+criteria which allows us to really calculate whether you can control a node
+calculate whether you can control a node from not from that particular point and
+from not from that particular point and just to give you an idea this is not a
+trivial problem control is not just simply getting a signal somewhere it's
+simply getting a signal somewhere it's to get unique signal so if you look at
+the control theory textbook you would find this system is controllable I'm
+sending signal on the top and there are time delays between the nodes and I can
+make the last node X3 and X2 to go anything that I wanted by by setting the
+anything that I wanted by by setting the right signal at the top so I can control
+the full system based on the Cara criteria but Cara criteria would tell us
+criteria but Cara criteria would tell us that this system is not controllable and
+the reason why it's not controllable is that yes I'm sending one node one signal
+that yes I'm sending one node one signal to the main node but I have no control
+independent control between X2 and X3 they are correlated right they they work
+they are correlated right they they work in tandem they go up and down together
+and so how would you control a system like that you need one more signal right
+like that you need one more signal right you need to break that s
+you need to break that s and and generally Karma criteria tells
+us how whether a system is controllable or not in 2011 we had a paper where we
+or not in 2011 we had a paper where we managed to show that you can actually
+managed to show that you can actually identify who are the control nodes in a
+identify who are the control nodes in a system in a very efficient way by
+system in a very efficient way by mapping it into another Network problem
+mapping it into another Network problem so-called matching problem that graph
+theor study I don't want to go into the solution to that even though that was
+solution to that even though that was the beauty of the problem right of how
+the beauty of the problem right of how you identify the control nodes but what
+it did for us really is that if you start from this network and say whether
+nodes in the system here I'm showing you as a vibrating noes those those noes
+that are not from which you cannot control the rest of the network just to
+give you an idea that most notes are not control notes and next I'm going to turn
+control notes and next I'm going to turn on uh the the control notes and the red
+pulsating are those that AR the control noes why am i showing you this because
+noes why am i showing you this because now we have a very efficient algorithm
+now we have a very efficient algorithm thanks to merging Network science with
+thanks to merging Network science with control theory to to really tell you
+what are the notes from which you can control a system now the question is how
+control a system now the question is how do you know that you are right you have
+do you know that you are right you have a beautiful mathematical theorem that
+a beautiful mathematical theorem that works maybe for electrical circuits but
+works maybe for electrical circuits but is this a general theory and and this is
+is this a general theory and and this is where we actually got lucky because we
+where we actually got lucky because we were able to show experimentally that
+this works and we did so by focusing on the cgant C is a little war that is on
+the earth if you take a pile of Earth there will be thousands of it in there
+and it doesn't it it's not a very smart animal it has only 300 neurons and only
+a thousand uh cells all together but it still does lots of things for example it
+still does lots of things for example it doesn't like to be touched so when you
+doesn't like to be touched so when you touch it like here it will turn around
+touch it like here it will turn around and run away all right so no no
+and run away all right so no no caressing with with cant right and and
+and biologists have worked a lot in particular neuroscientist to understand
+particular neuroscientist to understand how does it do it right with the
+Thousand cells and 300 neurons and the model they came up it is shown over here
+right there are what we call Sensory neurons along the body of the animal
+these are the sensory inputs there is a 300 neurons well there are these neurons
+300 neurons well there are these neurons that are kind of what we call the
+control system and they send signal to the muscles which are along the body and
+the muscles which are along the body and the then you know when the right signal
+the then you know when the right signal comes they say oh somebody touched me I
+comes they say oh somebody touched me I got to change Direction go in opposite
+got to change Direction go in opposite direction so this why do we know that
+direction so this why do we know that because there is 30 years of
+because there is 30 years of experimentation that mapped out every
+single neuron that is involved in that pathway what so this is a close problem
+pathway what so this is a close problem many Nobel prizes given for that but
+many Nobel prizes given for that but here's what's interesting when you
+actually look at the wiring diagram of that neural network it doesn't look like
+that neural network it doesn't look like that nice pathway it looks like that
+right and here I'm highlighting those neurons in Orange that were on the
+neurons in Orange that were on the previous image right so they don't just
+previous image right so they don't just do that pathway they're connected to
+do that pathway they're connected to dozens of other neurons and and and so
+dozens of other neurons and and and so how do you go from this to this other
+right and could we use Network science and control theory to do that and the
+and control theory to do that and the answer was yes and the principle that we
+remember I showed you that this one on the left is not controllable by the one
+the left is not controllable by the one on the right is controllable right
+because I have a symmetry breaking it turns out can generalize to say uh it's
+turns out can generalize to say uh it's a little bit the kindergarten problem
+it's a very rly kindergarten where if you have fewer teachers than kids you
+you have fewer teachers than kids you can't control the class right and you
+must have more teachers than kids in order to have full control and and it
+order to have full control and and it turns out this this principle can be
+turns out this this principle can be applied by applying the control
+equations to this massive Network that I showed you earlier and then we ask the
+showed you earlier and then we ask the question if I remove a node which is
+question if I remove a node which is what experimentally the neuroscientists
+do and that's how they they discover the neuron is involved in something will it
+neuron is involved in something will it affect the animal's ability to control
+affect the animal's ability to control its muscles and we did that exercise we
+its muscles and we did that exercise we realized that the vast majority of the
+neurons if ablated which means that you burn them out doesn't affect the control
+burn them out doesn't affect the control of the muscles of the 279 neurons only
+12 neurons had the effect that they will affect mobility and you know this was a
+affect mobility and you know this was a pure prediction from applying Network
+pure prediction from applying Network science and control uh to the neural
+about this prediction it wasn't tell us like here are the most likely neurons
+like here are the most likely neurons who would do that no it said only these
+12 and no one else right and when we looked into the
+literature this prediction recover 30 years of experimentation we got exactly
+years of experimentation we got exactly the same neurons as the 30 years of
+experiments have provided us plus one that was not known
+experimentally which was a very peripheral ER and nobody thought we
+peripheral ER and nobody thought we should actually ever check it
+should actually ever check it experimentally so we ended up convincing
+experimentally so we ended up convincing actually a colleague of ours uh well
+actually a colleague of ours uh well actually from Cambridge University in UK
+actually from Cambridge University in UK a neuroscientist to do the experiment
+a neuroscientist to do the experiment and this is what we were predicting
+and this is what we were predicting actually uh in this case that that this
+actually uh in this case that that this neuron which is in the middle if you
+knock it out will affect the muscle's ability to control themselves and sure
+enough it worked and the reason I'm really excited about that is not because
+really excited about that is not because we got another nature paper out of it
+we got another nature paper out of it but this was a full you know falsifiable
+but this was a full you know falsifiable prediction right we made a very precise
+prediction no ambiguity out and then we stayed on the site for six months to do
+the experiments and hoping we'll be right and we were right right and not
+only that there were other layers of the prediction that was pretty much on the
+prediction that was pretty much on the money that they were able to ex
+money that they were able to ex experimentally so this is just to show
+experimentally so this is just to show the evolution of how far you can take
+the evolution of how far you can take this type of thinking that knowing the
+this type of thinking that knowing the netor work structure you can actually
+netor work structure you can actually make now not just kind of ranking things
+who is the most problematic but very accurate prediction if you combine it
+accurate prediction if you combine it with tools of engineering since we're in
+with tools of engineering since we're in engineering school and let me end with
+one piece of research that we are also doing still in the lab and it's very
+doing still in the lab and it's very active which again shows the value of
+active which again shows the value of network science which is Network
+rethinking of how the cell works from the network perspective and the reason
+why this is important is because the Human Genome Project has provided us the
+list of genes which is to say it provided us the nodes but they never
+gave us the links right how they interact with each other and this is
+interact with each other and this is equivalent with giving you the
+equivalent with giving you the proverbial phone book that doesn't exist
+proverbial phone book that doesn't exist any longer but you remember those times
+any longer but you remember those times we have the phone book with the
+everyone right and I say here is copenhagen's phone book can you tell me
+copenhagen's phone book can you tell me how the City Works and can you tell me
+would say I have no idea unless you also give me a map right of how the roades
+give me a map right of how the roades and where the notes and things like that
+and where the notes and things like that and genomics didn't give us the map it
+just gave us the list of the names and and and the addresses and network
+medicine is out there to try to address that and we have at Harvard a division
+that and we have at Harvard a division of network medicine that has more than
+of network medicine that has more than 200 researchers working on using these
+200 researchers working on using these ideas to further human health and their
+ideas to further human health and their major successes of that one of them
+is that how do you think about disease in the context of a network like that
+and one of the key discoveries was that when you look at the disease genes and
+genes that are involved in asthma which is you know respiratory disease they're
+is you know respiratory disease they're not randomly distributed they all tend
+not randomly distributed they all tend to clung together right and the reason
+to clung together right and the reason is because Asma is really a breakdown of
+is because Asma is really a breakdown of a part of the network and those who are
+part of that they could actually break down in many different ways and this is
+down in many different ways and this is what we call a disease module and we can
+what we call a disease module and we can use these type of tools to really
+use these type of tools to really identify the network neighborhood where
+Asma Lally resides in the cell and then once you have that neighborhood then you
+once you have that neighborhood then you can start designing drugs because the
+can start designing drugs because the drugs have to hit there in that
+neighborhood you can try think about drug repurposing opportunity treatments
+and so on because it's a flashlight effect right now you can ignore the rest
+effect right now you can ignore the rest of the network and just focus on that
+of the network and just focus on that neighborhood and that's very manageable
+and this has let to some major successes one of them we actually when Co started
+one of them we actually when Co started my lab I was leading a collaboration
+my lab I was leading a collaboration between multiple Labs at Harvard MIT
+between multiple Labs at Harvard MIT Boston
+University uh where where we ended up using these tools to predict what of the
+using these tools to predict what of the existing drugs about 6,000 drugs would
+be effective against Co and then our colleagues at Boston University ended up
+colleagues at Boston University ended up experimentally testing that and showing
+experimentally testing that and showing how good our predictions are and this
+was very interesting because this was before the vaccine became available and
+before the vaccine became available and at that time it wasn't at all obvious
+at that time it wasn't at all obvious how long will the vaccine take remember
+how long will the vaccine take remember the predictions that it may take
+sometimes two to five years to get or 10 years to get a vaccine a successful one
+so this was at that moment at the early stages the only path to go forward is to
+stages the only path to go forward is to find existing drugs you couldn't develop
+find existing drugs you couldn't develop new drugs because it takes 10 years to
+approve a drug right so so we ended up doing that but the but the one that
+doing that but the but the one that actually now affects many patients which
+actually now affects many patients which is a network based pred itions is a
+is a network based pred itions is a company that I founded several years ago
+company that I founded several years ago that uses Network Tools to predict what
+that uses Network Tools to predict what drug will work for you as a patient and
+this is a major problem because for example when it comes to ra rat cisis
+example when it comes to ra rat cisis typically the doctors say okay you have
+the disease and let me start giving you a set of drugs one by one and come back
+then come back again six months later if it didn't work I give you another one
+it didn't work I give you another one and using Network Tools we can actually
+and using Network Tools we can actually take out that guessing process
+and we can just purely tell you this drug will work for you and the other one
+doesn't and this is a tool that is already available every every week
+actually thousands of patients are using that in the United States it's just been
+there's the same type of tools now were used in my lab and I didn't have a
+used in my lab and I didn't have a chance to talk about it is to say how
+chance to talk about it is to say how the food molecules that you eat actually
+the food molecules that you eat actually are perturbing the network and using
+are perturbing the network and using that we can actually predict what
+that we can actually predict what molecules in your food are healthy and
+molecules in your food are healthy and they could even cure disease food at
+they could even cure disease food at drug and which are the mo molecules that
+drug and which are the mo molecules that can actually affect particular cellular
+can actually affect particular cellular processes towards creating disease so
+this is a general tool that cannot be only used in medicine but can be also
+used in nutrition and the way we think about how you know what is the healthy
+about how you know what is the healthy food or not so this is probably a good
+stop and uh what I would like to finish is this particular slide which is you
+see two materials here one of one is a soft and malleable material which is uh
+soft and malleable material which is uh which is graphite right your pencil pin
+uh is from that and the other one next to it is Diamond which is the strongest
+to it is Diamond which is the strongest material we have on Earth and how
+material we have on Earth and how amazing the fact that they're made
+amazing the fact that they're made exactly of the same
+atoms and what's the difference between them and it's obviously the network
+them and it's obviously the network right the way the net the carbon atoms
+right the way the net the carbon atoms are wired together can give you to a
+very soft and Mell material which we price because of of softness so we can
+price because of of softness so we can write with it or it can give you the
+convince you a little bit is that not only the fact that most complex system
+only the fact that most complex system we care about are really network-based
+we care about are really network-based systems and we must use a network
+framework to understand that but the really the structure matters right and
+really the structure matters right and you cannot really have a hope of
+understanding these complex systems unless you start first mapping out the
+systems robustness and I showed you how we talked about spreading how important
+we talked about spreading how important is the structure for how the things are
+spreading I we talked about controllability allow us to make very
+controllability allow us to make very precise predictions of who is involved
+precise predictions of who is involved in the brain on in specific processes
+in the brain on in specific processes and it affects res resilience and
+observability and many other things so at the end you know in the era of
+at the end you know in the era of complex systems there is no more way of
+complex systems there is no more way of understanding complex systems unless you
+understanding complex systems unless you start with the basic bics and the basics
+care about and once you got more or less that right you can start asking higher
+that right you can start asking higher level questions of network Dynamics and
+so on but the Journey of understanding complexity really goes through networks
+and I'll end here I'm just going to put this slide on and say it takes always a
+this slide on and say it takes always a village right but I messed it up so uh
+village right but I messed it up so uh this would be of course the very the all
+this would be of course the very the all important an acknowledgements like and
+important an acknowledgements like and thank you very much for
+attention all right so we're on the hour but we're going to take time for just a
+couple of uh questions from you before ending if you need to sneak out please
+do so quietly um I know there's one question question that you all have on
+question question that you all have on your mind so I'm just going to answer
+that ahead of time right uh sex in Sweden uh published by rout you can get
+Sweden uh published by rout you can get for 8 bucks on Amazon just um covering
+for 8 bucks on Amazon just um covering that one uh but then I think I'm going
+that one uh but then I think I'm going to hand it off to everyone in the in the
+to hand it off to everyone in the in the room and uh so raise your hand and uh
+room and uh so raise your hand and uh we'll take a couple of
+questions yeah yeah I'm good I'm good thank
+you thank you interesting talk I have a question about climate change mhm did
+question about climate change mhm did anyone work on climate change and trying
+to do Network science in it yes they there there is a lure they're not too
+there there is a lure they're not too big and and it's very special right so I
+big and and it's very special right so I know of a couple of major papers that
+know of a couple of major papers that looked at networks they build from from
+looked at networks they build from from correl correlations in the in the kind
+of weather patterns around the world and and they use that one to say that they
+and they use that one to say that they can make actually more accurate
+can make actually more accurate prediction about weather events and
+outliers and so on obviously if you want to study climate change you want to go
+to study climate change you want to go to the root of the problems and look
+to the root of the problems and look build a massive Network like sun and
+build a massive Network like sun and others are building here for Denmark for
+others are building here for Denmark for all the people but to all the factors
+all the people but to all the factors that affect climate change I'm not aware
+that affect climate change I'm not aware of anybody is doing that or anybody
+would have the data but obviously if we want to solve now climate change we need
+want to solve now climate change we need to have a massive Network
+it was very interesting I was wondering when you want to map a network and you
+when you want to map a network and you have only partial information you don't
+have the full information uh is there some way of uh some way of limit or some
+some way of uh some way of limit or some uh some methods uh to uh to to predict
+because none of the networks that we have around us are ever complete right
+have around us are ever complete right with a few exceptions I think the C
+with a few exceptions I think the C Elegance map thanks to many many
+people's map has is been accurate and complete as far as we know so the
+complete as far as we know so the question is what do we do when we don't
+question is what do we do when we don't get the net an incomp when we get an
+first what we you need is that there are quite a number of inference tools that
+quite a number of inference tools that are aiming to infer missing links from
+are aiming to infer missing links from the network structure and network
+topology and particularly in the met in the prote interaction Network that have
+the prote interaction Network that have been studied over and over and
+world literature and now that AI is coming along they're many others so if
+coming along they're many others so if you look for Network inference you will
+you look for Network inference you will actually find many papers but there's
+actually find many papers but there's another route that we have often taken
+another route that we have often taken when we cannot do that right which is to
+matter for the problem at hand right and for control it matters a lot for example
+for control it matters a lot for example but for many other processes as long as
+but for many other processes as long as you say the behavior that I care about
+you say the behavior that I care about is doesn't seem to be dependent on the
+is doesn't seem to be dependent on the networking completeness then you're good
+networking completeness then you're good and you can easily test that by simply
+taking the existing map which is inherently incomplete and removing
+further notes and links and if the behavior that you care about is really
+behavior that you care about is really unchanged then really you're talking
+unchanged then really you're talking about something that is robust to that
+about something that is robust to that incompleteness of course you don't want
+incompleteness of course you don't want to remove too much because then you
+these are the two routes you can choose and the third rout of course is is much
+and the third rout of course is is much more massive efforts to map out more
+accurately yeah yes hi thank you for your presentation um I was just
+wondering if you could maybe tell us a little bit more about the tool that you
+little bit more about the tool that you made for arthritis and how that connects
+made for arthritis and how that connects to network science sure absolutely so uh
+to network science sure absolutely so uh it's a very interesting one why do we
+it's a very interesting one why do we need a network science tool because in
+need a network science tool because in the age of AI couldn't AI tell you what
+the age of AI couldn't AI tell you what drug will work for you or not and it can
+accept that you have 20,000 cells and you have at most a few hundred patients
+to train on and what is what we call overfitting in the case of the AI right
+overfitting in the case of the AI right that you will build a tool that would
+that you will build a tool that would work perfectly but will never work for
+work perfectly but will never work for other people who are outside of your
+other people who are outside of your pool it's a wellknown problem so what do
+pool it's a wellknown problem so what do you have to do you have to restrict the
+number of proteins or the genes or that you are looking at so what we do is that
+you are looking at so what we do is that we use Network science to restrict the
+we use Network science to restrict the number of genes that are involved in the
+disease and in this case I believe we restricted to 16 proteins and and their
+restricted to 16 proteins and and their expression patterns and then once you
+restricted to 16 you can now tray for this 16 and AI that is accurately and
+this 16 and AI that is accurately and transforms for another one so at the end
+transforms for another one so at the end what the Network science tools is is the
+what the Network science tools is is the flashlight right that's what it offers
+flashlight right that's what it offers is to say you don't have to worry about
+the wall cell because there's so much going on when it comes to arisis these
+going on when it comes to arisis these are the 16 biomarkers that really matter
+are the 16 biomarkers that really matter you would say in the biological language
+you would say in the biological language right and then now that I have 16 then I
+right and then now that I have 16 then I can train a very straightfor AI method
+can train a very straightfor AI method on the 16s and is hugely
+on the 16s and is hugely productive
+sure all right right I think we've reached the end of the questions so then
+reached the end of the questions so then I would just like to ask everyone to
+I would just like to ask everyone to thank uh llo one more time and thank you
+thank uh llo one more time and thank you all for
+coming just before uh ending in uh here thank you very much llo on behalf of DTU
+PL the event on behalf of all of us here in the auditorium and those who are
+listening in on online and those that will view the lecture after we have
+published uh it thank you and as a small token of our appreciation a little uh
+token of our appreciation a little uh momento to take uh to take back home
+momento to take uh to take back home thank you thank you I hope it's danis
+thank you thank you I hope it's danis chocolate right
+now the lecture is over the program in the auditorium is finished but there's
+the auditorium is finished but there's an opportunity to stay a little longer
+an opportunity to stay a little longer outside there's a small reception and
+you can uh continue to debate and discuss uh what you have heard in here
+discuss uh what you have heard in here thank you very much
+oh [Music]

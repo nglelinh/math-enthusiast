@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280">
+  <rect width="560" height="280" fill="#fafbfc"/>
+  <text x="20" y="28" font-family="Georgia, serif" font-size="15" fill="#222">Thurston’s eight geometries (labels only)</text>
+  <g font-family="sans-serif" font-size="12" fill="#222">
+    <rect x="20" y="50" width="120" height="40" rx="6" fill="#e8f1fb" stroke="#004586"/>
+    <text x="80" y="75" text-anchor="middle">Spherical S³</text>
+    <rect x="150" y="50" width="120" height="40" rx="6" fill="#e8f1fb" stroke="#004586"/>
+    <text x="210" y="75" text-anchor="middle">Euclidean E³</text>
+    <rect x="280" y="50" width="120" height="40" rx="6" fill="#e8f1fb" stroke="#004586"/>
+    <text x="340" y="75" text-anchor="middle">Hyperbolic H³</text>
+    <rect x="410" y="50" width="130" height="40" rx="6" fill="#fff5e6" stroke="#b35c00"/>
+    <text x="475" y="75" text-anchor="middle">S² × ℝ</text>
+    <rect x="20" y="110" width="120" height="40" rx="6" fill="#fff5e6" stroke="#b35c00"/>
+    <text x="80" y="135" text-anchor="middle">H² × ℝ</text>
+    <rect x="150" y="110" width="120" height="40" rx="6" fill="#f3e8fb" stroke="#6b2d8b"/>
+    <text x="210" y="135" text-anchor="middle">˜SL₂(ℝ)</text>
+    <rect x="280" y="110" width="120" height="40" rx="6" fill="#f3e8fb" stroke="#6b2d8b"/>
+    <text x="340" y="135" text-anchor="middle">Nil</text>
+    <rect x="410" y="110" width="130" height="40" rx="6" fill="#f3e8fb" stroke="#6b2d8b"/>
+    <text x="475" y="135" text-anchor="middle">Sol</text>
+  </g>
+  <text x="20" y="190" font-family="sans-serif" font-size="13" fill="#444">Geometrization: cut M³ into pieces, each admitting one model geometry.</text>
+  <text x="20" y="215" font-family="sans-serif" font-size="13" fill="#444">Poincaré: if π₁(M)=0 then only the spherical geometry remains → M ≅ S³.</text>
+  <text x="20" y="250" font-family="sans-serif" font-size="12" fill="#666">Schematic labels — not drawings of the geometries themselves.</text>
+</svg>

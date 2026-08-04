@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ku_video_p1KkXA0vKsQ_0",
+    "t_start": 0.0,
+    "t_end": 91.6,
+    "type": "overview",
+    "summary": "(Intro music) Hi, I am Agustin Rayo. I'm an associate professor[br]of philosophy at MIT, and today I want to[br]talk about how there are some infinities that[br]are bigger than others. So, a first exercise to see why[br]some infinities are bigger than others is to think[br]about Hilbert's Hotel. So Hilbert's Hotel is like an[br]ordinary hotel, except that instead of having finitely many rooms like most hotels, it has[br]infinitely many rooms. So we can draw this. We're just having a very long rectangle with lots of rooms, and we're going to number each room with a natural number. So, the fi…"
+  },
+  {
+    "id": "ku_video_p1KkXA0vKsQ_91",
+    "t_start": 91.6,
+    "t_end": 181.9,
+    "type": "overview",
+    "summary": "the person in room one[br]has a piece of paper with the number one in it, and so forth. So now ask yourself this question: what would happen if an extra person were to come to the hotel? Could they be accommodated? Now, in a finite hotel, the answer is \"No,\" because all the rooms[br]are already occupied, and we can assume that[br]these are prickly guests and don't want to share rooms. But in an infinite hotel, it can be done. So think of it this way. We can just ask each person[br]to move one room to the right. and Miss One, who's now in[br]room one, moves to room two, and two moves to thre…"
+  },
+  {
+    "id": "ku_video_p1KkXA0vKsQ_182",
+    "t_start": 182.9,
+    "t_end": 275.3,
+    "type": "overview",
+    "summary": "So in the finite case, if you have a set and you add some extra things to the set, the set you get is bigger[br]than the original one, but in the infinite case,[br]that's not necessarily true, because have your[br]original set just consist of the original hotel guests,[br]and then add one more. The new set isn't bigger, in[br]the sense that you can still put each element of the new set into a different room in your hotel. So if you measure size in[br]terms of how big a hotel you would need to accommodate[br]the members of the set, then we need to conclude[br]that the set of the original gue…"
+  },
+  {
+    "id": "ku_video_p1KkXA0vKsQ_275",
+    "t_start": 275.3,
+    "t_end": 369.9,
+    "type": "overview",
+    "summary": "is holding the two, and so forth. How could we accommodate them? Well, we can do it like this. We just ask each of our[br]original guests to move to the result of multiplying[br]their current room by two. So the guy in zero goes to two times zero equals zero, so he stays. The person in one moves to one times two, that's two, so she moves one to the right. The person in two moves to[br]two times two, that's four. She moves two to the right, and so forth. So the result of this is[br]that all the old guests are occupying even-numbered rooms, and all of the odd-numbered[br]rooms are free, so we…"
+  },
+  {
+    "id": "ku_video_p1KkXA0vKsQ_370",
+    "t_start": 371.0,
+    "t_end": 444.9,
+    "type": "overview",
+    "summary": "The first theorem is that you[br]can put the rational numbers in one-one correspondence[br]with the natural numbers. Now, what is a rational number? A rational number is a number[br]of the form \"a/b,\" where \"a\" and \"b\" are[br]both natural numbers, and we assume that \"b\" is not zero. So what Cantor did is[br]show that we can pair up the natural numbers with the rational[br]numbers with no remainder. Every natural number gets[br]a unique rational number, and every rational number gets a unique natural number and nobody's left out. So here's how to do it. We simply draw a matrix. Each column i…"
+  },
+  {
+    "id": "ku_video_p1KkXA0vKsQ_468",
+    "t_start": 468.1,
+    "t_end": 560.9,
+    "type": "overview",
+    "summary": "And so forth. So you can see that every[br]rational number is on this matrix, because remember, you[br]get a rational number by taking a natural number and dividing it by a natural number different from zero. Suppose your rational number is[br]seventeen divided by ninety-four. In order to find the cell that[br]corresponds to that number, just go to the column that's[br]labeled \"seventeen,\" and to the row that's labeled[br]\"ninety-four,\" and that's where your[br]number is going to be. So every rational number is on the matrix. So what Cantor discovered[br]is that you can assign a natural num…"
+  },
+  {
+    "id": "ku_video_p1KkXA0vKsQ_560",
+    "t_start": 560.9,
+    "t_end": 587.1,
+    "type": "overview",
+    "summary": "all you need to do is use Cantor's trick. So, assign a natural number to each cell in the matrix, and ask the person to go to the room corresponding to that number. So there, we fit infinitely new infinities of guests into our hotel. Amazing! Subtitles by the Amara.org community"
+  }
+]

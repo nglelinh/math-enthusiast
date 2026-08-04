@@ -1,0 +1,1277 @@
+[
+  {
+    "t_start": 0.24,
+    "t_end": 3.0,
+    "text": "Big news in maths! There's a new tile in town;"
+  },
+  {
+    "t_start": 3.0,
+    "t_end": 6.48,
+    "text": "so we've come to the town of Newtyle to see what it's all about."
+  },
+  {
+    "t_start": 10.62,
+    "t_end": 15.36,
+    "text": "So you know your regular floor tiles? How they you know they go over and over, they"
+  },
+  {
+    "t_start": 15.36,
+    "t_end": 20.94,
+    "text": "cover the entire plane with a pattern? This new tile goes infinitely but with no repeats."
+  },
+  {
+    "t_start": 21.78,
+    "t_end": 27.96,
+    "text": "Happy new tile! Okay, so an aperiodic monotile - what's this all about? We need to break that word"
+  },
+  {
+    "t_start": 27.96,
+    "t_end": 34.86,
+    "text": "down. First of all we need to understand what tiling is or tessellation; so let's look at- I"
+  },
+  {
+    "t_start": 34.86,
+    "t_end": 40.2,
+    "text": "mean probably the most simple shape that tiles, triangle. When we tessellate triangles it tends"
+  },
+  {
+    "t_start": 40.2,
+    "t_end": 46.98,
+    "text": "to be a kind of one up, one down, tooth situation going on. And every single triangle tessellates."
+  },
+  {
+    "t_start": 46.98,
+    "t_end": 52.5,
+    "text": "even the scalene ones. And what that means is that they fit together beautifully like you would see"
+  },
+  {
+    "t_start": 52.5,
+    "t_end": 59.82,
+    "text": "on a pavement or a wall - no gaps and no overlaps. So those are the the two main rules: they fit together,"
+  },
+  {
+    "t_start": 59.82,
+    "t_end": 65.16,
+    "text": "no gaps, no overlaps. So every single triangle tessellates, every single quadrilateral tessellates;"
+  },
+  {
+    "t_start": 65.16,
+    "t_end": 72.3,
+    "text": "so if we were to find a kind of new tiling that had a new property where it wasn't periodic"
+  },
+  {
+    "t_start": 72.3,
+    "t_end": 79.32,
+    "text": "it would have to at least be five sides. So- - (Brady: Hang on, periodic?) - Yes, okay, periodic - the second part of this."
+  },
+  {
+    "t_start": 79.32,
+    "t_end": 85.92,
+    "text": "If you can tessellate in such a way that there is translational symmetry, so the same section repeats"
+  },
+  {
+    "t_start": 85.92,
+    "t_end": 92.28,
+    "text": "over and over again - ooh second colour. This section here, I can pick that up and move it over and it looks"
+  },
+  {
+    "t_start": 92.28,
+    "t_end": 99.36,
+    "text": "exactly the same as this section down here. Okay. So this is periodic because it has translational"
+  },
+  {
+    "t_start": 99.36,
+    "t_end": 104.16,
+    "text": "symmetry, it's got a regular repeating pattern over and over again; you can see how you would"
+  },
+  {
+    "t_start": 104.16,
+    "t_end": 109.08,
+    "text": "take even just a section of two of them, section of three of them, any arbitrary amount and you can"
+  },
+  {
+    "t_start": 109.08,
+    "t_end": 115.56,
+    "text": "find another patch that looks exactly the same and you can pick the entire tessellation up - so this is"
+  },
+  {
+    "t_start": 115.56,
+    "t_end": 122.94,
+    "text": "what we mean by global. The entire tessellation up, move it all over, and maybe up 1, up 2, and"
+  },
+  {
+    "t_start": 122.94,
+    "t_end": 128.16,
+    "text": "it will look exactly the same, fit in exactly where it was before. - (For different shapes presumably that)"
+  },
+  {
+    "t_start": 128.16,
+    "t_end": 134.46,
+    "text": "(repeatable bit can be more and more complicated I imagine?) - Yeah it can. So I think that's called"
+  },
+  {
+    "t_start": 134.46,
+    "t_end": 141.72,
+    "text": "a primitive unit? If you have an interesting combination that you can move around - hexagons"
+  },
+  {
+    "t_start": 141.72,
+    "t_end": 146.04,
+    "text": "looks quite cool, but you could do it with one hexagon as well. Animation guy: have fun with that."
+  },
+  {
+    "t_start": 152.52,
+    "t_end": 156.0,
+    "text": "Mathematicians have discovered a brand new kind of tile."
+  },
+  {
+    "t_start": 158.322,
+    "t_end": 168.54,
+    "text": "(This is periodic?) - Yes, this is periodic and it's a tiling. What we are aiming for is an aperiodic tiling and"
+  },
+  {
+    "t_start": 168.54,
+    "t_end": 173.88,
+    "text": "we have tons of them actually; they've existed for a long time. I guess the most famous one-"
+  },
+  {
+    "t_start": 175.92,
+    "t_end": 181.722,
+    "text": "(You've got the Penrose tiling?) - Yeah I really didn't think this would go out of date."
+  },
+  {
+    "t_start": 181.722,
+    "t_end": 189.06,
+    "text": "(But it did.) - I- I am shocked by the news but surprised and you know I've got more space. The Penrose tiling"
+  },
+  {
+    "t_start": 189.06,
+    "t_end": 197.16,
+    "text": "is - was - the the lowest amount of tiles that we could have which made this aperiodicity happen."
+  },
+  {
+    "t_start": 197.16,
+    "t_end": 204.6,
+    "text": "It forced aperiodicity to happen. So the Penrose tiling is either made of kites and darts or a kind"
+  },
+  {
+    "t_start": 204.6,
+    "t_end": 211.32,
+    "text": "of wide rhombus and a thinner rhombus. On their own they definitely tile periodically; but with"
+  },
+  {
+    "t_start": 211.32,
+    "t_end": 215.46,
+    "text": "the Penrose tiling it's a set of the two of them, so you need two tiles to make it happen,"
+  },
+  {
+    "t_start": 215.46,
+    "t_end": 220.26,
+    "text": "and there's these- they're called matching rules. So sometimes you can do it with little notches"
+  },
+  {
+    "t_start": 220.26,
+    "t_end": 228.0,
+    "text": "and it forces you to tile them in such a way that there will never be a translational symmetry. So"
+  },
+  {
+    "t_start": 228.0,
+    "t_end": 232.32,
+    "text": "you pick the whole thing up, you move it around, it never looks the same. You might notice that there"
+  },
+  {
+    "t_start": 232.32,
+    "t_end": 238.08,
+    "text": "are some bits which look like they repeat. I do love that his name is Penrose; it's got this kind"
+  },
+  {
+    "t_start": 238.08,
+    "t_end": 244.14,
+    "text": "of pentagonal rose motif that comes up. How come if you can see repeats we're saying it's non-repeating?"
+  },
+  {
+    "t_start": 244.14,
+    "t_end": 249.54,
+    "text": "It's okay to have local repeats, those little bits that look the same, but if you were to pick up the"
+  },
+  {
+    "t_start": 249.54,
+    "t_end": 254.88,
+    "text": "whole tessellation - move it around and try and find somewhere else it fits - you're not gonna find it. So"
+  },
+  {
+    "t_start": 254.88,
+    "t_end": 260.52,
+    "text": "Penrose needed to - and this was an open problem for a long time - could it even be done? Absolute"
+  },
+  {
+    "t_start": 260.52,
+    "t_end": 266.16,
+    "text": "mystery. Mathematicians didn't know if there could be an aperiodic tiling. Then when they found them"
+  },
+  {
+    "t_start": 266.16,
+    "t_end": 272.52,
+    "text": "they needed much much much more than 2. I think the first set was over 20,000 tiles. And then it"
+  },
+  {
+    "t_start": 272.52,
+    "t_end": 278.76,
+    "text": "was a kind of one upping between mathematicians; you know, who can get it down to 11? Who can get"
+  },
+  {
+    "t_start": 278.76,
+    "t_end": 284.58,
+    "text": "it down to 6? And so you've got all of these different Berger tiles, Wang tiles, then Penrose"
+  },
+  {
+    "t_start": 284.58,
+    "t_end": 291.36,
+    "text": "got it down to 2. Which he said, I believe in the podcast, that he was surprised how easy it was."
+  },
+  {
+    "t_start": 292.62,
+    "t_end": 298.62,
+    "text": "To which I say, how come it took so long to find just the 1? The mono tile then? - (So after)"
+  },
+  {
+    "t_start": 298.62,
+    "t_end": 304.2,
+    "text": "(the Penrose tiling was there like a big race for a mono tile? Was this- was this the thing people)"
+  },
+  {
+    "t_start": 304.2,
+    "t_end": 308.952,
+    "text": "(were looking for? Or had people sort of left this area of research and thought 2 was as good as it gets?)"
+  },
+  {
+    "t_start": 308.952,
+    "t_end": 316.2,
+    "text": "I think people wanted to find it but the faith wasn't there. I certainly did not believe"
+  },
+  {
+    "t_start": 316.2,
+    "t_end": 321.24,
+    "text": "that it was possible. You know I'm a little bit younger, so I was not around in the the 60s and"
+  },
+  {
+    "t_start": 321.24,
+    "t_end": 328.08,
+    "text": "the 70s when there was this big tiling boom. And I convinced myself that if I had been around in the"
+  },
+  {
+    "t_start": 328.08,
+    "t_end": 333.54,
+    "text": "70s all of this amazing tiling mathematical fame was ripe for the picking and I absolutely would"
+  },
+  {
+    "t_start": 333.54,
+    "t_end": 340.26,
+    "text": "have staked my claim and found a cool tile. And now I know for a certain that's not true because here"
+  },
+  {
+    "t_start": 340.26,
+    "t_end": 347.4,
+    "text": "I am in the year 2023, this incredibly simple shape was just waiting to be found and I did"
+  },
+  {
+    "t_start": 347.4,
+    "t_end": 354.42,
+    "text": "not find it. I'm a mathematician and there's just been a new tile discovered. Mathematicians have"
+  },
+  {
+    "t_start": 354.42,
+    "t_end": 361.08,
+    "text": "been looking for it for about 60 years. So it's called The Hat. - (Do you think it looks like a hat?)"
+  },
+  {
+    "t_start": 361.08,
+    "t_end": 368.94,
+    "text": "I can see it as a hat. I I did actually- I asked Craig Kaplan who was part of the team, because"
+  },
+  {
+    "t_start": 368.94,
+    "t_end": 374.58,
+    "text": "clearly it looks like a t-shirt, an untucked t-shirt. So I asked him why hat instead of"
+  },
+  {
+    "t_start": 374.58,
+    "t_end": 380.04,
+    "text": "t-shirt and it was just a case of ergonomics; um it's much easier to write the word hat over and"
+  },
+  {
+    "t_start": 380.04,
+    "t_end": 385.44,
+    "text": "over again and if you squint it does look like a hat. I don't think he he even saw that it was"
+  },
+  {
+    "t_start": 385.44,
+    "t_end": 390.06,
+    "text": "clearly t-shirt shaped beforehand, but there's plenty of artworks of it looking like a t-shirt."
+  },
+  {
+    "t_start": 390.06,
+    "t_end": 395.22,
+    "text": "So this is the solution, this is what we've posed as the solution to the Einstein problem"
+  },
+  {
+    "t_start": 396.54,
+    "t_end": 404.82,
+    "text": "um which is a pun yep - um meaning one stone. We can now tile the entire plane, the infinite plane,"
+  },
+  {
+    "t_start": 404.82,
+    "t_end": 411.54,
+    "text": "without any translational symmetry and only this one stone. You won't be able to find another place"
+  },
+  {
+    "t_start": 411.54,
+    "t_end": 419.04,
+    "text": "that's exactly the same. And it's a result so nicely proved it twice. - (Is it one stone?) - I mean...I"
+  },
+  {
+    "t_start": 419.04,
+    "t_end": 425.76,
+    "text": "just want to say that I love it, I think it's the best. I believe that this counts as one stone."
+  },
+  {
+    "t_start": 427.02,
+    "t_end": 431.58,
+    "text": "When you look at the tiling - so here's a little bit of a tiling I made earlier -"
+  },
+  {
+    "t_start": 431.58,
+    "t_end": 438.3,
+    "text": "the purple ones you might notice they are flipped over. So I mean I could take this this purple one"
+  },
+  {
+    "t_start": 438.3,
+    "t_end": 444.6,
+    "text": "out here and if I try and put them directly on top they don't entirely line up because they are"
+  },
+  {
+    "t_start": 444.6,
+    "t_end": 449.82,
+    "text": "in fact mirror images. Some of them are flipped over; the tiling wouldn't work if there weren't"
+  },
+  {
+    "t_start": 449.82,
+    "t_end": 454.14,
+    "text": "some flipped over. I still think it's a mono tile, I believe that we've titled the entire"
+  },
+  {
+    "t_start": 454.14,
+    "t_end": 460.08,
+    "text": "plane with one shape. Uh there are there are some camps where people don't want the the flipped"
+  },
+  {
+    "t_start": 460.08,
+    "t_end": 465.84,
+    "text": "over tile. The ratio between the flipped over tiles to the the regular forward-the-way tiles"
+  },
+  {
+    "t_start": 466.38,
+    "t_end": 472.38,
+    "text": "- you're not ready for this - it's the golden ratio to the power of 4 to 1."
+  },
+  {
+    "t_start": 473.7,
+    "t_end": 479.34,
+    "text": "(There's obviously a good reason for that hidden in the maths) - It's to do with eigenvectors yeah."
+  },
+  {
+    "t_start": 480.12,
+    "t_end": 488.16,
+    "text": "So for every 1 flipped over tile you need roughly 6 forward tiles; but that roughly 6"
+  },
+  {
+    "t_start": 488.16,
+    "t_end": 493.2,
+    "text": "is actually the golden ratio to the power of 4. It would have to be irrational for an aperiodic."
+  },
+  {
+    "t_start": 493.2,
+    "t_end": 500.88,
+    "text": "Hello! Future Ayliean here but only one week in the future. So just after we finished filming this"
+  },
+  {
+    "t_start": 500.88,
+    "t_end": 509.88,
+    "text": "video, the same team discovered this: the ultimate monotile. It tiles aperiodically but with no"
+  },
+  {
+    "t_start": 509.88,
+    "t_end": 515.82,
+    "text": "cheeky reflections, it's a twist on the original. And future-future Ayliean will tell you about it as"
+  },
+  {
+    "t_start": 515.82,
+    "t_end": 521.76,
+    "text": "soon as I can but right now I'm gonna hand back to past Ayliean to tell you about the old new monotile."
+  },
+  {
+    "t_start": 522.48,
+    "t_end": 526.32,
+    "text": "(You said something about they proved it twice? Because this does seem like it'll be something)"
+  },
+  {
+    "t_start": 526.32,
+    "t_end": 533.4,
+    "text": "(that would be hard to prove) - Umm yeah and I feel like hard to prove but almost one of them is"
+  },
+  {
+    "t_start": 533.4,
+    "t_end": 540.18,
+    "text": "inevitable. So there's the standard proof which a lot of other aperiodic titles use, which involves"
+  },
+  {
+    "t_start": 540.18,
+    "t_end": 547.8,
+    "text": "super tiles and meta tiles. So it's not the first tile which is- is a singular tile which can do"
+  },
+  {
+    "t_start": 547.8,
+    "t_end": 556.5,
+    "text": "aperiodic tiling. - (What?!) - To be very precise, there are just maybe infinitely - definitely infinitely -"
+  },
+  {
+    "t_start": 556.5,
+    "t_end": 561.12,
+    "text": "many other tiles that have this property. Let's look at one of them at least. Here's"
+  },
+  {
+    "t_start": 561.12,
+    "t_end": 566.76,
+    "text": "a puzzle from this very old book: a farmer had a square field but had to sell a quarter of it."
+  },
+  {
+    "t_start": 566.76,
+    "t_end": 572.4,
+    "text": "This quarter is gone. When he died his four sons split up the remainder in four equal portions"
+  },
+  {
+    "t_start": 572.4,
+    "t_end": 578.88,
+    "text": "and each piece had exactly the same shape. How did they do it? Do you want to have a go? - (I'm wondering)"
+  },
+  {
+    "t_start": 578.88,
+    "t_end": 583.98,
+    "text": "(if it's going to involve triangles?) - A lot of people go for that first of all. - Yeah? But no?"
+  },
+  {
+    "t_start": 584.88,
+    "t_end": 590.1,
+    "text": "So if you do the triangles you can split it into four triangles which are all 1, 1,"
+  },
+  {
+    "t_start": 590.1,
+    "t_end": 595.32,
+    "text": "root two right angle triangles but two of them are bigger and we want to make sure that everyone gets"
+  },
+  {
+    "t_start": 595.32,
+    "t_end": 600.66,
+    "text": "the the same share here. It's worth having a few seconds to think about this, it's a nice puzzle."
+  },
+  {
+    "t_start": 603.24,
+    "t_end": 608.28,
+    "text": "Looks like a fairly old set of tiles in Newtyle. We'll update it? Okay."
+  },
+  {
+    "t_start": 609.72,
+    "t_end": 612.0,
+    "text": "(You found a four leaf clover?) - Oh course I found a four leaf clover - (You just saw it?)"
+  },
+  {
+    "t_start": 612.0,
+    "t_end": 615.297,
+    "text": "Yeah it's right there, you see? - (How did you just see that?)"
+  },
+  {
+    "t_start": 615.66,
+    "t_end": 620.82,
+    "text": "I'm gonna leave this right here. The way that we're gonna do this, not immediately obvious, but we're"
+  },
+  {
+    "t_start": 620.82,
+    "t_end": 625.5,
+    "text": "going to take this shape that was left over, it's called the L-shaped triominal, and we're going to"
+  },
+  {
+    "t_start": 625.5,
+    "t_end": 630.6,
+    "text": "make a smaller version of it. So I've split it up, there's a smaller version there, and then I'm gonna"
+  },
+  {
+    "t_start": 630.6,
+    "t_end": 635.76,
+    "text": "split it like this. And now we've got four of the same shape so all of the sons are happy, they've"
+  },
+  {
+    "t_start": 635.76,
+    "t_end": 640.26,
+    "text": "all got the same size, the same shape piece. You might notice, because they're all the same shape as"
+  },
+  {
+    "t_start": 640.26,
+    "t_end": 646.86,
+    "text": "the larger shape we can do that again but smaller. I could take this one here and I could split that"
+  },
+  {
+    "t_start": 646.86,
+    "t_end": 654.42,
+    "text": "up, put another L shape on there. And I could keep that going for as long as I like. Oh do you know"
+  },
+  {
+    "t_start": 654.42,
+    "t_end": 660.24,
+    "text": "what these are called? Because they're a tile that replicates themselves they're called a rep-tile"
+  },
+  {
+    "t_start": 662.7,
+    "t_end": 670.74,
+    "text": "Okay so this has the the property that we're looking for; this creates an aperiodic tiling."
+  },
+  {
+    "t_start": 670.74,
+    "t_end": 675.42,
+    "text": "(That feels like it's repeat-y but it's not) - Yeah, well you- it's got the same thing where you know"
+  },
+  {
+    "t_start": 675.42,
+    "t_end": 681.42,
+    "text": "you pick it up, you move it around, you can't um you can't translate it - no translational"
+  },
+  {
+    "t_start": 681.42,
+    "t_end": 689.34,
+    "text": "symmetry. A lot of them have this kind of locally repeating motifs; it feels repeat-y. You know, when"
+  },
+  {
+    "t_start": 689.34,
+    "t_end": 694.86,
+    "text": "you think about an aperiodic tiling you might think oh this is gonna go into absolute chaos;"
+  },
+  {
+    "t_start": 694.86,
+    "t_end": 701.46,
+    "text": "there's a surprising amount of structure involved in aperiodicity because- I mean aperiodicity is"
+  },
+  {
+    "t_start": 701.46,
+    "t_end": 705.72,
+    "text": "almost like a border case. You've got things which don't tile at all, they leave gaps, they"
+  },
+  {
+    "t_start": 705.72,
+    "t_end": 711.3,
+    "text": "leave overlaps; things which periodically tile, you know they've got a good strong tiling - squares,"
+  },
+  {
+    "t_start": 711.3,
+    "t_end": 718.98,
+    "text": "rectangles, I mean any quadrilateral - and then right on the line between tiling periodically and not"
+  },
+  {
+    "t_start": 718.98,
+    "t_end": 726.36,
+    "text": "tiling at all you have aperiodic tiles. So so it's it's a very difficult boundary edge case to find"
+  },
+  {
+    "t_start": 726.36,
+    "t_end": 731.52,
+    "text": "and so there is a lot of structure involved in making this happen. - (Why has this thing here even)"
+  },
+  {
+    "t_start": 731.52,
+    "t_end": 737.76,
+    "text": "(made news? What's so special about these Einstein tile things?) - Okay so this shape here, yes it can"
+  },
+  {
+    "t_start": 737.76,
+    "t_end": 742.98,
+    "text": "aperiodically tile as can many other shapes. I really hope that your animation person puts"
+  },
+  {
+    "t_start": 742.98,
+    "t_end": 748.56,
+    "text": "a pinwheel tailing in? They're very nice. And that's just a triangle and we've spoken about"
+  },
+  {
+    "t_start": 748.56,
+    "t_end": 756.78,
+    "text": "those. So these can tile periodically. I could if I want take some L shapes and I could take"
+  },
+  {
+    "t_start": 756.78,
+    "t_end": 762.06,
+    "text": "another L shape and kind of fit them together like this and I could keep that going, and this"
+  },
+  {
+    "t_start": 762.06,
+    "t_end": 770.46,
+    "text": "would make a periodic tile. So what's the new thing is that this can't. You can try as hard as"
+  },
+  {
+    "t_start": 770.46,
+    "t_end": 776.34,
+    "text": "you want but you will never be able to get this to periodically tile - and that's how it was discovered."
+  },
+  {
+    "t_start": 776.34,
+    "t_end": 783.12,
+    "text": "So David Smith who is a geometry hobbyist, he was playing around with these different shapes,"
+  },
+  {
+    "t_start": 783.12,
+    "t_end": 789.3,
+    "text": "kind of came across what what this is called the polykite and tried to tile it in a periodic way"
+  },
+  {
+    "t_start": 789.3,
+    "t_end": 794.58,
+    "text": "and couldn't. And he thought okay this must be some sort of issue, maybe I'm not looking"
+  },
+  {
+    "t_start": 794.58,
+    "t_end": 800.88,
+    "text": "large enough, there'll be- there will be a way to tile it periodically I just can't find it. And"
+  },
+  {
+    "t_start": 800.88,
+    "t_end": 806.1,
+    "text": "so he struggled; tried and tried and tried. Then thought maybe it's something to do with Heesch"
+  },
+  {
+    "t_start": 806.1,
+    "t_end": 810.12,
+    "text": "numbers? Don't quote me on this but I think it's an infinite Heesch number, I think you can circle around"
+  },
+  {
+    "t_start": 810.12,
+    "t_end": 816.6,
+    "text": "infinitely. But he he at one point thought maybe it's a tile with a very large Heesch number - which I"
+  },
+  {
+    "t_start": 816.6,
+    "t_end": 822.9,
+    "text": "want to add in because I like the little like pop animation sound that goes with your Heesch tilings."
+  },
+  {
+    "t_start": 825.78,
+    "t_end": 831.72,
+    "text": "He then passed on to Craig Kaplan and said, I've got this shape and I'm trying as hard as I can"
+  },
+  {
+    "t_start": 831.72,
+    "t_end": 837.66,
+    "text": "to make it tile periodically and I can't. And so that was when they started looking"
+  },
+  {
+    "t_start": 837.66,
+    "t_end": 843.42,
+    "text": "at the computer proofs, kind of running through could a computer figure out how to make this tile"
+  },
+  {
+    "t_start": 843.42,
+    "t_end": 851.64,
+    "text": "periodically? Still no; and at that point we have to start looking at actual mathematical proofs"
+  },
+  {
+    "t_start": 851.64,
+    "t_end": 858.96,
+    "text": "of this being the solution to the Einstein problem. It is the one stone which will not"
+  },
+  {
+    "t_start": 858.96,
+    "t_end": 865.08,
+    "text": "tile periodically. There is a new tile that has been invented and we're handing them out"
+  },
+  {
+    "t_start": 865.08,
+    "t_end": 870.78,
+    "text": "obviously because we're in Newtyle. Are you a fan of maths at all? - (Can you fit them together?)"
+  },
+  {
+    "t_start": 872.28,
+    "t_end": 877.98,
+    "text": "Oh nice! - (Well done. So the thing that's special is that it can only be used for that one style)"
+  },
+  {
+    "t_start": 877.98,
+    "t_end": 883.08,
+    "text": "(of thing? There are lots of things that can do aperiodic tiling but they also do periodic.) - Yes"
+  },
+  {
+    "t_start": 883.08,
+    "t_end": 892.68,
+    "text": "(I'm with you) - This does aperiodic and that's it. It has been proved twice - very very cool. And the"
+  },
+  {
+    "t_start": 892.68,
+    "t_end": 899.64,
+    "text": "first proof involves a situation like this where we build up meta tiles and super tiles and we"
+  },
+  {
+    "t_start": 899.64,
+    "t_end": 906.66,
+    "text": "show that they create a structure which forces aperiodicity. The second one is brand new and"
+  },
+  {
+    "t_start": 906.66,
+    "t_end": 914.04,
+    "text": "um unseen before. So the idea with meta tiles - and I think I will go back to this this kind of L chair"
+  },
+  {
+    "t_start": 914.04,
+    "t_end": 919.68,
+    "text": "aperiodicity. We've looked at them going down the way and that's kind of a rabbit hole that could go"
+  },
+  {
+    "t_start": 919.68,
+    "t_end": 924.84,
+    "text": "down and down forever. I could keep splitting each of these L shapes into more and more L shapes. It"
+  },
+  {
+    "t_start": 924.84,
+    "t_end": 930.24,
+    "text": "could also go the other direction, can start with an L shape and ask myself where does this"
+  },
+  {
+    "t_start": 930.24,
+    "t_end": 936.72,
+    "text": "sit as part of a larger L-shaped tiling? So that's taking the the L-shaped triomino and then building"
+  },
+  {
+    "t_start": 936.72,
+    "t_end": 943.26,
+    "text": "out the way. So what we've done for - and I say we, I was not part of this team at all - but what"
+  },
+  {
+    "t_start": 943.26,
+    "t_end": 951.24,
+    "text": "humans as- well I mean it's a new a new stride in human knowledge. So what humans"
+  },
+  {
+    "t_start": 951.24,
+    "t_end": 961.44,
+    "text": "have done is take the the hat tile and then build it into meta tiles which look like this. The first"
+  },
+  {
+    "t_start": 961.44,
+    "t_end": 967.2,
+    "text": "meta tile is just that the hat on its own but it has a kind of triangle that goes around it."
+  },
+  {
+    "t_start": 967.2,
+    "t_end": 972.3,
+    "text": "Then two of the tiles together like this. There is kind of four points around it that you can join"
+  },
+  {
+    "t_start": 972.3,
+    "t_end": 978.96,
+    "text": "together to make it look like a parallelogram. There is another one very similar which makes"
+  },
+  {
+    "t_start": 978.96,
+    "t_end": 986.82,
+    "text": "sort of a weird pentagon. The F cluster - P was taken so this is this is the F. And then this one's"
+  },
+  {
+    "t_start": 986.82,
+    "t_end": 992.28,
+    "text": "my favourite one, this involves three together and this is the one that includes the backwards. So"
+  },
+  {
+    "t_start": 992.28,
+    "t_end": 998.58,
+    "text": "yes okay so we've got right hand shirt tucked in and then the rest are left-hand shirts tucked in."
+  },
+  {
+    "t_start": 1000.14,
+    "t_end": 1005.12,
+    "text": "We have just actually been building a wall for a few days yeah and this is basically what"
+  },
+  {
+    "t_start": 1005.12,
+    "t_end": 1009.8,
+    "text": "I've been doing, so you're giving me a lot of PTSD just with tiles. - So we have the meta tile which"
+  },
+  {
+    "t_start": 1009.8,
+    "t_end": 1015.74,
+    "text": "- the H meta tile because obviously hexagon - it is a little bit of an unusual hexagon in"
+  },
+  {
+    "t_start": 1015.74,
+    "t_end": 1021.92,
+    "text": "that it's it's irregular so three shorter, three longer. And for the substitution rules for this"
+  },
+  {
+    "t_start": 1021.92,
+    "t_end": 1029.24,
+    "text": "one our hexagon would then be replaced with a combination of three more hexagons, a few of the"
+  },
+  {
+    "t_start": 1029.24,
+    "t_end": 1035.72,
+    "text": "pentagons, and just one of the triangles and it'll look like this. Drawing skills engage."
+  },
+  {
+    "t_start": 1041.72,
+    "t_end": 1050.3,
+    "text": "So we're saying anytime you see this hexagon shape, replace that with this"
+  },
+  {
+    "t_start": 1050.3,
+    "t_end": 1057.86,
+    "text": "kind of combination of: three more hexagons, a few pentagons, few parallelograms and then the"
+  },
+  {
+    "t_start": 1057.86,
+    "t_end": 1062.18,
+    "text": "triangle which remember represents just one hat. Then fill it all in with hats. So"
+  },
+  {
+    "t_start": 1062.18,
+    "t_end": 1067.34,
+    "text": "finding a substitution tiling that makes aperiodicity; you know we've had them before,"
+  },
+  {
+    "t_start": 1067.34,
+    "t_end": 1073.4,
+    "text": "but finding one that then is all- could be all filled in with the one same tile,"
+  },
+  {
+    "t_start": 1074.6,
+    "t_end": 1082.34,
+    "text": "brand new. Those four meta tiles, they then create another kind of tiling called super tiles. And"
+  },
+  {
+    "t_start": 1082.34,
+    "t_end": 1088.34,
+    "text": "this process of kind of the structure going out and out means that every single one of the"
+  },
+  {
+    "t_start": 1088.34,
+    "t_end": 1095.06,
+    "text": "hats you could locate where it is by looking at its neighbours. Maybe we should do that with the"
+  },
+  {
+    "t_start": 1095.06,
+    "t_end": 1101.24,
+    "text": "L shape. So in this level where we've broken it down once we've got tiling 1, 2, 3, 4."
+  },
+  {
+    "t_start": 1101.24,
+    "t_end": 1106.34,
+    "text": "And although all the tiles are the same we can tell where they are. If I were to apply this to"
+  },
+  {
+    "t_start": 1106.34,
+    "t_end": 1113.78,
+    "text": "what would be the metatile version of this where they're broken down again, I can have 1, 2, 3,"
+  },
+  {
+    "t_start": 1113.78,
+    "t_end": 1121.52,
+    "text": "4 but these are all in cluster 1. So I can say okay this is tile 1,2 for example. I could give"
+  },
+  {
+    "t_start": 1121.52,
+    "t_end": 1127.4,
+    "text": "it a kind of set of coordinates that means I can always find exactly where it is. And that"
+  },
+  {
+    "t_start": 1127.4,
+    "t_end": 1135.5,
+    "text": "forces aperiodicity because it means each tile- it only has one place that it fits in. It's it's"
+  },
+  {
+    "t_start": 1135.5,
+    "t_end": 1141.38,
+    "text": "unique, it's supposed to be there, I can locate it and I can say this is the tile, it exists exactly"
+  },
+  {
+    "t_start": 1141.38,
+    "t_end": 1147.74,
+    "text": "here and even though I'm looking at an infinite plane of tilings I know where I am because I know"
+  },
+  {
+    "t_start": 1147.74,
+    "t_end": 1154.82,
+    "text": "which cluster, which super tile, which meta tile - I can locate the address of this exact tile. There"
+  },
+  {
+    "t_start": 1154.82,
+    "t_end": 1160.1,
+    "text": "are no tiles which have the same address and so it causes this aperiodicity. That's- that's the"
+  },
+  {
+    "t_start": 1160.1,
+    "t_end": 1165.32,
+    "text": "one that makes more sense, and that's um a type of proof that has been used for aperiodicity before."
+  },
+  {
+    "t_start": 1165.32,
+    "t_end": 1173.72,
+    "text": "But - there is another. I think individual tiles it's something like 300. Nicely done! Well done"
+  },
+  {
+    "t_start": 1173.72,
+    "t_end": 1179.54,
+    "text": "I'm particularly good at this - there's one. I actually do think it is part of being good at maths, I think"
+  },
+  {
+    "t_start": 1179.54,
+    "t_end": 1187.7,
+    "text": "it's to do with recognising the the patterns. So the second proof involves a second tile."
+  },
+  {
+    "t_start": 1188.42,
+    "t_end": 1195.14,
+    "text": "When they discovered the hat - and by they I mean David Smith - discovered the hat he also discovered"
+  },
+  {
+    "t_start": 1195.14,
+    "t_end": 1200.18,
+    "text": "another tile which is made by putting kites together called the turtle. - (Oh yeah I'm seeing that)"
+  },
+  {
+    "t_start": 1200.18,
+    "t_end": 1205.64,
+    "text": "You see it as a turtle? Yeah so here's the turtle. When they were first discovered this one"
+  },
+  {
+    "t_start": 1205.64,
+    "t_end": 1211.04,
+    "text": "is made out of eight kites joins together; this one is made of ten kites joined together. So they"
+  },
+  {
+    "t_start": 1211.04,
+    "t_end": 1217.22,
+    "text": "were treated as separate entities but they are in fact one and the same as part of a continuum. If"
+  },
+  {
+    "t_start": 1217.22,
+    "t_end": 1222.62,
+    "text": "you look at the angles, you know we've got right angle down here, a reflex three-quarter angle or"
+  },
+  {
+    "t_start": 1222.62,
+    "t_end": 1228.08,
+    "text": "inverted right angle over here. The angles are the same as we work the way around, the lengths are"
+  },
+  {
+    "t_start": 1228.08,
+    "t_end": 1233.96,
+    "text": "different. So if you consider the lengths on the classic hat - it's a classic now - they're all either"
+  },
+  {
+    "t_start": 1233.96,
+    "t_end": 1240.74,
+    "text": "1 or root 3. Again there's a lot of like cheating going on but I prefer to think of it as-"
+  },
+  {
+    "t_start": 1242.12,
+    "t_end": 1247.4,
+    "text": "I don't know, just I wish I had something philosophical to say. It's not cheating"
+  },
+  {
+    "t_start": 1247.4,
+    "t_end": 1252.92,
+    "text": "it's making it work. So um all of the lengths are either 1 or root 3 apart from one of them"
+  },
+  {
+    "t_start": 1252.92,
+    "t_end": 1259.64,
+    "text": "which is 2. But you can think of it as two 1s joined together. So we have the hat and we have"
+  },
+  {
+    "t_start": 1259.64,
+    "t_end": 1267.5,
+    "text": "the turtle and they are part of a continuum of shapes. If you took all of the edge lengths and"
+  },
+  {
+    "t_start": 1267.5,
+    "t_end": 1272.84,
+    "text": "kind of pushed them down so that you made some of them smaller and some of them bigger depending on"
+  },
+  {
+    "t_start": 1272.84,
+    "t_end": 1279.44,
+    "text": "which way you go you get two boundaries. So you get a chevron and you get what's called a comet"
+  },
+  {
+    "t_start": 1279.44,
+    "t_end": 1284.18,
+    "text": "shape. So we'll look at the chevron and the comet. They tile periodically and there's a middle one"
+  },
+  {
+    "t_start": 1284.18,
+    "t_end": 1288.98,
+    "text": "as well right in the middle which looks like a mix between a hat and a turtle which also tiles"
+  },
+  {
+    "t_start": 1288.98,
+    "t_end": 1296.48,
+    "text": "periodically. The underlying grid for the chevron and the underlying grid for the comet; although"
+  },
+  {
+    "t_start": 1296.48,
+    "t_end": 1304.04,
+    "text": "they're both triangular, the the ratios don't match up, so the lengths don't match. And it means"
+  },
+  {
+    "t_start": 1304.04,
+    "t_end": 1308.36,
+    "text": "you can't you can't rectify them, you can't put them together, they could never- you could never"
+  },
+  {
+    "t_start": 1308.36,
+    "t_end": 1313.52,
+    "text": "put the chevron onto the comet grid, you couldn't put the comet on the chevron grid with the same"
+  },
+  {
+    "t_start": 1313.52,
+    "t_end": 1320.12,
+    "text": "area and have them line up with the the lattice points which is the nice bits on the grid. What"
+  },
+  {
+    "t_start": 1320.12,
+    "t_end": 1326.48,
+    "text": "that means is that all of the shapes in between - like I said aperiodicity is a boundary case -"
+  },
+  {
+    "t_start": 1326.48,
+    "t_end": 1333.98,
+    "text": "all of the shapes in between the periodic points they fall into this no man's land of aperiodicity."
+  },
+  {
+    "t_start": 1335.06,
+    "t_end": 1340.82,
+    "text": "(So does that mean like there are lots and lots of different shapes not- that are not hats or t-shirts)"
+  },
+  {
+    "t_start": 1340.82,
+    "t_end": 1346.52,
+    "text": "(that do this?) - Yep. - (Then why do they pick that particular one to release to the world? Why is that)"
+  },
+  {
+    "t_start": 1346.52,
+    "t_end": 1353.72,
+    "text": "(one getting all the fame?) - I imagine because you can draw it really nicely on a grid of- a dual grid of"
+  },
+  {
+    "t_start": 1353.72,
+    "t_end": 1359.06,
+    "text": "hexagons and triangles together. Something very fun to do with any pattern is to try and find the dual;"
+  },
+  {
+    "t_start": 1360.08,
+    "t_end": 1366.14,
+    "text": "um which is like it's evil twin. If you take the midpoint of each of the shapes and then"
+  },
+  {
+    "t_start": 1366.14,
+    "t_end": 1371.84,
+    "text": "you join them together you'll get another grid. And so in this case the dual of the triangular"
+  },
+  {
+    "t_start": 1371.84,
+    "t_end": 1377.48,
+    "text": "tiling is this hexagon grid, and vice versa. So the these are where the kites come from;"
+  },
+  {
+    "t_start": 1378.38,
+    "t_end": 1384.14,
+    "text": "um the hat is made out of eight of these. If you see the kite that's created by two dual grids"
+  },
+  {
+    "t_start": 1384.14,
+    "t_end": 1388.7,
+    "text": "together, the hat is made out of eight of them joined together. So that was where it came from."
+  },
+  {
+    "t_start": 1388.7,
+    "t_end": 1394.16,
+    "text": "(So it was sitting in front of our faces) - Yeah it's like right there. Yeah yeah I really kicked myself."
+  },
+  {
+    "t_start": 1394.16,
+    "t_end": 1401.66,
+    "text": "(It was waiting to be found, in plain sight) - Yep but don't worry we've got it now. You can see"
+  },
+  {
+    "t_start": 1401.66,
+    "t_end": 1407.06,
+    "text": "that's the- oh it's this way round one. - (So I always thought the reason that it would have)"
+  },
+  {
+    "t_start": 1407.06,
+    "t_end": 1413.12,
+    "text": "(this aperiodic tiling was because things were constantly rotating at like irrational angles)"
+  },
+  {
+    "t_start": 1413.12,
+    "t_end": 1417.38,
+    "text": "(or something, never to repeat. But it's actually quite an orderly pattern.) - Yeah you know there's"
+  },
+  {
+    "t_start": 1417.38,
+    "t_end": 1423.5,
+    "text": "a weird thing, it is a very orderly pattern. I think that there's only six orientations that"
+  },
+  {
+    "t_start": 1423.5,
+    "t_end": 1427.4,
+    "text": "it would be at, but it doesn't even make use of all of the orientations that could on this grid"
+  },
+  {
+    "t_start": 1427.4,
+    "t_end": 1433.04,
+    "text": "it just sits at six different orientations, the 60 degrees. - (How did you feel about the announcement?)"
+  },
+  {
+    "t_start": 1433.7,
+    "t_end": 1442.04,
+    "text": "First of all incredibly excited; then then I worried a little bit about the fact that my tattoo"
+  },
+  {
+    "t_start": 1442.04,
+    "t_end": 1450.74,
+    "text": "was now out of date - um but overall I was really happy. I never thought that I would be alive at"
+  },
+  {
+    "t_start": 1450.74,
+    "t_end": 1457.7,
+    "text": "a time that something so significant happened um in terms of maths. I mean we've had way too"
+  },
+  {
+    "t_start": 1457.7,
+    "t_end": 1463.52,
+    "text": "many once in a lifetime events in a bad way and I thought- I just thought, oh my gosh this is this"
+  },
+  {
+    "t_start": 1463.52,
+    "t_end": 1471.08,
+    "text": "is genuinely a once in a lifetime event. For me to be alive during aperiodic monotile time"
+  },
+  {
+    "t_start": 1471.98,
+    "t_end": 1477.32,
+    "text": "- overjoyed. And then immediately the first thing that I wanted to do was turn it into Truchet"
+  },
+  {
+    "t_start": 1477.32,
+    "t_end": 1482.9,
+    "text": "tiles. That was an instant thought and then I went to Twitter and saw someone had already done it. But"
+  },
+  {
+    "t_start": 1482.9,
+    "t_end": 1487.88,
+    "text": "luckily they're nice, they do look really good, I enjoy the Truchet tile version of the hat."
+  },
+  {
+    "t_start": 1487.88,
+    "t_end": 1496.745,
+    "text": "- Who's invented this then? - So David Smith discovered it and then three other mathematicians: Joseph Myers, Chaim Goodman-Strauss"
+  },
+  {
+    "t_start": 1496.745,
+    "t_end": 1502.46,
+    "text": "and Craig Kaplan proved that there's definitely not going to be any repeats, yeah. Do you"
+  },
+  {
+    "t_start": 1502.46,
+    "t_end": 1509.72,
+    "text": "know what it would be called to find an aperiodic monotile which needs no reflection? - (I don't know)"
+  },
+  {
+    "t_start": 1509.72,
+    "t_end": 1516.38,
+    "text": "(but I can tell from your face it's going to be a pun) - It's a vampire tile - because it has no reflection?"
+  },
+  {
+    "t_start": 1518.06,
+    "t_end": 1522.56,
+    "text": "Check links in all the usual places for some extra footage and proofs from this interview"
+  },
+  {
+    "t_start": 1522.56,
+    "t_end": 1528.74,
+    "text": "with Ayliean. Plus we've got an extra interview with Craig Kaplan, one of the researchers who"
+  },
+  {
+    "t_start": 1528.74,
+    "t_end": 1533.84,
+    "text": "made these amazing discoveries. - It's a wild ride, it's completely unlikely and"
+  },
+  {
+    "t_start": 1533.84,
+    "t_end": 1541.1,
+    "text": "should not be taken as a model for how scientific discovery ever happens, it's completely ridiculous. - And yes we'll"
+  },
+  {
+    "t_start": 1541.1,
+    "t_end": 1546.2,
+    "text": "get to that even newer tile as soon as we can. Meanwhile if puzzles and patterns are"
+  },
+  {
+    "t_start": 1546.2,
+    "t_end": 1550.34,
+    "text": "your thing, maybe you're the sort of person who could end up having a career with today's"
+  },
+  {
+    "t_start": 1550.34,
+    "t_end": 1556.22,
+    "text": "episode sponsor Jane Street. Jane Street's a research-based trading firm with offices all"
+  },
+  {
+    "t_start": 1556.22,
+    "t_end": 1563.72,
+    "text": "across the globe - although perhaps not in Newtyle, population 800, just yet. Go to their website, check"
+  },
+  {
+    "t_start": 1563.72,
+    "t_end": 1569.72,
+    "text": "out the Join Jane Street section for vacancies, internships, and some free and fun introductory"
+  },
+  {
+    "t_start": 1569.72,
+    "t_end": 1574.82,
+    "text": "programs for students. Could be something right up your alley. Jane Street's a great place to work"
+  },
+  {
+    "t_start": 1574.82,
+    "t_end": 1579.68,
+    "text": "and they think the sort of people who like Numberphile videos might also be the sort of people who"
+  },
+  {
+    "t_start": 1579.68,
+    "t_end": 1585.08,
+    "text": "want a career in their offices around the world. janestreet.com is the place to check them out."
+  },
+  {
+    "t_start": 1591.38,
+    "t_end": 1596.9,
+    "text": "That is the sneaky matching rules that Penrose tiles use, just hidden as an"
+  },
+  {
+    "t_start": 1596.9,
+    "t_end": 1601.34,
+    "text": "underlying grid. - It was exciting to be a part of it and I am just so grateful"
+  },
+  {
+    "t_start": 1601.34,
+    "t_end": 1606.2,
+    "text": "that that it's causing excitement out in the world. If it causes anybody to be"
+  },
+  {
+    "t_start": 1606.2,
+    "t_end": 1610.34,
+    "text": "you know one little bit more interested in mathematics, you know then that's fantastic."
+  }
+]

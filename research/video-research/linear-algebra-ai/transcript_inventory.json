@@ -1,0 +1,45 @@
+{
+  "slug": "linear-algebra-ai",
+  "videos": [
+    {
+      "id": "aircAruvnKk",
+      "title": "3Blue1Brown — But what is a neural network?",
+      "has_transcript": true,
+      "chars": 18430,
+      "units": 12,
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk"
+    },
+    {
+      "id": "IHZwWFHWa-w",
+      "title": "3Blue1Brown — Gradient descent, how neural networks learn",
+      "has_transcript": true,
+      "chars": 20163,
+      "units": 14,
+      "url": "https://www.youtube.com/watch?v=IHZwWFHWa-w"
+    },
+    {
+      "id": "Ilg3gGewQ5U",
+      "title": "3Blue1Brown — What is backpropagation really doing?",
+      "has_transcript": true,
+      "chars": 12746,
+      "units": 9,
+      "url": "https://www.youtube.com/watch?v=Ilg3gGewQ5U"
+    },
+    {
+      "id": "fNk_zzaMoSs",
+      "title": "3Blue1Brown — Essence of linear algebra (n-D vectors)",
+      "has_transcript": true,
+      "chars": 10011,
+      "units": 7,
+      "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+    },
+    {
+      "id": "J7DzL2_Na80",
+      "title": "MIT OCW 18.06 Strang — Geometry of linear equations",
+      "has_transcript": true,
+      "chars": 35057,
+      "units": 26,
+      "url": "https://www.youtube.com/watch?v=J7DzL2_Na80"
+    }
+  ]
+}

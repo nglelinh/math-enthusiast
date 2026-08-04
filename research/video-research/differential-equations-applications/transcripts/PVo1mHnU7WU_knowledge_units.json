@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ku_video_PVo1mHnU7WU_0",
+    "t_start": 0.0,
+    "t_end": 90.0,
+    "type": "overview",
+    "summary": "The thing that I'll be talking about today is the logistic map. And it's really simple. It's like shockingly simple. So this is just 1D. We say Xn plus 1 is R. That'll be a parameter. We could vary Xn times 1 minus Xn. This was created to be like a discrete population dynamics model, similar to the logistic equation. If you remember the logistic equation, that was a differential equation, but it had a right-hand side that looked something like this, where there was like a carrying capacity for population. But here, the space of X, we're normalizing so that it just goes from zero and one. So…"
+  },
+  {
+    "id": "ku_video_PVo1mHnU7WU_90",
+    "t_start": 90.6,
+    "t_end": 180.6,
+    "type": "overview",
+    "summary": "And for that to happen, we need that this peak be one or below. So it's conventional to let the parameter be something less than four. But greater than zero. And physically, this is supposed to represent the reproductive capacity of the population. It was first in a paper by Robert May, 1976, in Nature. It has some interesting name. Simple mathematical models with very complicated dynamics. And it's now become a classic. He talks about first order and he called them difference equations. And maybe that's a term you've heard or used in addition to iterated map, or I think recursion relations…"
+  },
+  {
+    "id": "ku_video_PVo1mHnU7WU_180",
+    "t_start": 180.9,
+    "t_end": 274.7,
+    "type": "overview",
+    "summary": "Sort of a father of mathematical ecology. So it's become this classic. This is where the logistic map was introduced. In some sense, it's the simplest nonlinear map because all it has is a quadratic nonlinearity. Xn plus 1 equals, if we were to write it out, it's Rxn minus Rxn squared. If it was just Rxn, then it'd be a linear map, easier to analyze, but it's not linear. What happens? What's the big deal with this map? You can pick an initial condition, x0, which has to be somewhere in this interval between 0 and 1, and then you would write, you know, x1 equals... R, X naught, one minus X n…"
+  },
+  {
+    "id": "ku_video_PVo1mHnU7WU_276",
+    "t_start": 276.8,
+    "t_end": 370.4,
+    "type": "overview",
+    "summary": "And the interval over here will be, I'll be plotting xn, has to be between zero and one. It turns out for any initial condition for 0.5, you will get something like this. So here's our initial condition, and then this will just get lower and lower and lower. And really the map only spits out these points. Xn goes to zero for any x0, so any initial condition. As n goes to infinity. So x equals zero is a fixed point of the map. You might put it that way, at least for this value of r. Now, sometimes people will connect the dots, but that's just to guide your eye. The map only spits out points,…"
+  },
+  {
+    "id": "ku_video_PVo1mHnU7WU_370",
+    "t_start": 370.6,
+    "t_end": 467.8,
+    "type": "overview",
+    "summary": "Other than at the origin, it does not intersect that 45 degree angle line. So according to the cobweb plot construction, if we started with some initial condition, we would go up to the curve, and that tells us where to go. We go from there horizontally to this 45 degree line, and then this would take us down to this point. I kind of have to zoom in here. Ooh, look at that. Look what I can do. And then we would go across to here. And you can kind of see the cobweb plot is just taking us into the origin. And this will happen no matter where we start. So I'm just using the same rules for the …"
+  },
+  {
+    "id": "ku_video_PVo1mHnU7WU_467",
+    "t_start": 467.8,
+    "t_end": 559.0,
+    "type": "overview",
+    "summary": "And goes to infinity and X star is not zero. So there's some non-zero fixed point that shows up. And it's the same X star for any initial condition. And remember the range for R. Like I said, it's conventionally taken to be from zero to four. And I'm picking these strange values. What about r equals 3.3? We do the same kind of diagram. So this is xn goes between zero and one. Here's what we would find. Start with some initial condition. What we would get is that this will go up and eventually it'll settle down. On a cycle, so it's going between two points over and over again. So this is lik…"
+  },
+  {
+    "id": "ku_video_PVo1mHnU7WU_559",
+    "t_start": 559.9,
+    "t_end": 652.0,
+    "type": "overview",
+    "summary": "We get something that settles on a cycle, but it settles on something where it goes down and then up and then down and then higher. And then it repeats that down, up, kind of down, up. It's a lot easier if I connect points, maybe even zoom in. So it's repeating, but it's not repeating every two iterates. It's repeating every four iterates. So we would call this a period four cycle. So that's interesting. What happened to three? We had, in this case, we had period-doubling. And period-doubling will be sort of one of the main phenomena that goes on here. You can find these numerically. Some o…"
+  },
+  {
+    "id": "ku_video_PVo1mHnU7WU_652",
+    "t_start": 652.0,
+    "t_end": 753.6,
+    "type": "overview",
+    "summary": "R2 occurs at, so that would mean a two to the two cycle or a four cycle, 3.449. If we keep continuing this, R3 is at 3.54409. So that's a period eight cycle. Two to the three is eight. Another period-doubling at 3.5644 and so on. What is going on with this sequence? It's looking like it's converging to something. So R to the 5, that would be where there's a 32 cycle, is 3.568759. It looks like it's converging to something close to like 3.57. It actually is. So if we were to look at what's going on, Rn converges essentially geometrically to some point called R infinity, which Robert May in t…"
+  },
+  {
+    "id": "ku_video_PVo1mHnU7WU_754",
+    "t_start": 754.3,
+    "t_end": 847.0,
+    "type": "overview",
+    "summary": "If you look at the ratio of Rn minus Rn minus one, so the longer gap, Divided by the size of the smaller gap. As n goes to infinity, the ratio of those gaps becomes a fixed number. 4.6692. Something, something, something. And we'll see more about what that number is right now. Let's just say it's a mystery. It's sometimes called delta, but that's what's going on. R-infinity is something really close to 3.57. There's still plenty of room between r-infinity and 4, so you might wonder what's going on there. Actually, a shocking amount of stuff happens. So what was drawn, what's been drawn, and…"
+  },
+  {
+    "id": "ku_video_PVo1mHnU7WU_847",
+    "t_start": 847.1,
+    "t_end": 937.6,
+    "type": "overview",
+    "summary": "Right, we just, we were at zero. In fact, we stay at zero until the value one. And at the point one, zero still is a fixed point. It's an unstable fixed point. So we might draw that as dashed. What we really care about is where the points are. There's the branch that shoots off. And we looked at 2.8 and that's just a point. It's just a fixed point. But then at three, this bifurcates into two branches. So if you remember where we were at 3.3, this isn't going to be completely to scale, but we had two points. There's actually a branch coming off that fixed point that goes between those two po…"
+  },
+  {
+    "id": "ku_video_PVo1mHnU7WU_937",
+    "t_start": 937.5,
+    "t_end": 1027.5,
+    "type": "overview",
+    "summary": "And then here's the weird thing. There's a window later on. There's several windows. There's an infinite number of windows, but there are big windows of going from chaos back to periodic behavior. This is depicting chaos, and then we have periodic window. And the kind of biggest periodic window has period three. It shows some period three orbits. Those branch, and then there's chaos again, and then there's windows. This diagram is an intermingling of chaotic and periodic windows. This was surprising. Why would such a simple map, in some sense the simplest non-linear map, show such rich beha…"
+  },
+  {
+    "id": "ku_video_PVo1mHnU7WU_1032",
+    "t_start": 1032.5,
+    "t_end": 1035.1,
+    "type": "overview",
+    "summary": "There's a lot to unpack here and try to understand."
+  }
+]

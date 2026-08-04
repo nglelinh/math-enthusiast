@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ku_video_dJUEkjxylBw_0",
+    "t_start": 0.0,
+    "t_end": 94.0,
+    "type": "overview",
+    "summary": "I haven't really thought about this, so be prepared for some vigorous hand waving. But my understanding of P, NP is that there are a group of problems which we'll call \"P type\" problems: polynomial-time type problems and these are problems that are relatively easy to solve, and then there is another group of problems called non-polynomial (NP) and these are really hard to solve, okay? Factoring is one of them, you know, if I say to you - what are the factors of 15? You can pretty quickly tell me that was 3 and 5. If i gave you a 10 or 20 or a 100 digit number, factoring becomes really hard.…"
+  },
+  {
+    "id": "ku_video_dJUEkjxylBw_93",
+    "t_start": 94.0,
+    "t_end": 184.3,
+    "type": "overview",
+    "summary": "don't know about? That is obviously really important for computer scientists because there are hard problems they're working on if there are shortcuts that could make them easy that would be a dream. So NP -- hard, easy to check P-type -- pretty easy to do and easy to check. Are they fundamentally different? Are they divided? or are they somehow.. could NP become P-type if we were smart enough? Now I'm interested in this because I've read a book about the Simpsons and in the Simpsons one of their Halloween episodes \"Treehouse of Horror VI\", one of the writers, David X. Cohen. Back then he w…"
+  },
+  {
+    "id": "ku_video_dJUEkjxylBw_184",
+    "t_start": 184.3,
+    "t_end": 277.2,
+    "type": "overview",
+    "summary": "It's not him it's another writer Jeff Westbrook who was a Yale professor of computer science before becoming a Simpsons and Futurama writer and Simpsons writer. In Futurama there is a scene where Fry and Amy are hiding in a cupboard and behind them there are files and books and cans and there are two files and one is labeled P in one is labeled NP. So I think what Jeff Westbrook is saying is P and NP are fundamentally different and they're in separate folders and you have to keep them in separate folders because you can never turn an NP type problem into a P problem, so in Futurama we get t…"
+  },
+  {
+    "id": "ku_video_dJUEkjxylBw_277",
+    "t_start": 277.2,
+    "t_end": 348.1,
+    "type": "overview",
+    "summary": "my understanding is, and I'm ready for the comments to correct me on this, the problem increases in difficulty in a non-polynomial way that's where the NP bit comes in. So it's the way the problem gets harder, the rate at which it gets harder, is what defines it as a truly difficult problem. We'd like to thank audible.com for sponsoring this Computerphile video, and if you'd like to check out a huge range of audiobooks go to audible.com/computerphile and you can download one for free. We would like to recommend Simon's book \"The Simpsons and their mathematical secrets\". We think both Comput…"
+  }
+]

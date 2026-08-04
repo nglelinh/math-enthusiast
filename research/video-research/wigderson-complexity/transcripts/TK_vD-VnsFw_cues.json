@@ -1,0 +1,387 @@
+[
+  {
+    "t_start": 10.31,
+    "t_end": 11.669,
+    "text": "Avi, it's my honor as your friend and as director of the Institute for Advanced"
+  },
+  {
+    "t_start": 11.669,
+    "t_end": 18.79,
+    "text": "Study to congratulate you on winning the 2023 ACM AM touring award. My heartiest"
+  },
+  {
+    "t_start": 18.79,
+    "t_end": 20.55,
+    "text": "2023 ACM AM touring award. My heartiest congratulations on behalf of all of our"
+  },
+  {
+    "t_start": 20.55,
+    "t_end": 21.429,
+    "text": "congratulations on behalf of all of our colleagues."
+  },
+  {
+    "t_start": 21.429,
+    "t_end": 29.349,
+    "text": "Thank you very much. Avi you are I think the only person who's won the Abel prize"
+  },
+  {
+    "t_start": 29.349,
+    "t_end": 32.229,
+    "text": "the only person who's won the Abel prize in mathematics and the touring prize in"
+  },
+  {
+    "t_start": 32.229,
+    "t_end": 33.99,
+    "text": "in mathematics and the touring prize in computing computer science. Are you a"
+  },
+  {
+    "t_start": 33.99,
+    "t_end": 40.63,
+    "text": "mathematician or a computer scientist? I am both a mathematician and a computer"
+  },
+  {
+    "t_start": 40.63,
+    "t_end": 42.63,
+    "text": "scientist. I'm a theoretical computer science which means I study the"
+  },
+  {
+    "t_start": 42.63,
+    "t_end": 45.27,
+    "text": "science which means I study the mathematical foundations of the field of"
+  },
+  {
+    "t_start": 45.27,
+    "t_end": 49.91,
+    "text": "mathematical foundations of the field of computing. So as a working researcher"
+  },
+  {
+    "t_start": 49.91,
+    "t_end": 55.27,
+    "text": "what I do is proof theorems like any mathematician in this sense my field is"
+  },
+  {
+    "t_start": 55.27,
+    "t_end": 58.15,
+    "text": "mathematician in this sense my field is a sub field of mathematics. However, the"
+  },
+  {
+    "t_start": 58.15,
+    "t_end": 60.549,
+    "text": "a sub field of mathematics. However, the main notion we are trying to understand"
+  },
+  {
+    "t_start": 60.549,
+    "t_end": 63.349,
+    "text": "main notion we are trying to understand is computation and uh since it's"
+  },
+  {
+    "t_start": 63.349,
+    "t_end": 68.07,
+    "text": "is computation and uh since it's computation uh many things computers do"
+  },
+  {
+    "t_start": 68.07,
+    "t_end": 70.63,
+    "text": "that's uh what we are trying to understand computational processes in"
+  },
+  {
+    "t_start": 70.63,
+    "t_end": 78.07,
+    "text": "computing networks but also in nature natural processes can be viewed as"
+  },
+  {
+    "t_start": 78.07,
+    "t_end": 80.31,
+    "text": "natural processes can be viewed as computers. Computational processes are"
+  },
+  {
+    "t_start": 80.31,
+    "t_end": 85.27,
+    "text": "computers. Computational processes are everywhere and this notion of what is"
+  },
+  {
+    "t_start": 85.27,
+    "t_end": 88.55,
+    "text": "computation, what is its power in various different contexts. What are the"
+  },
+  {
+    "t_start": 88.55,
+    "t_end": 94.63,
+    "text": "various different contexts. What are the limitations? What are the properties? Is"
+  },
+  {
+    "t_start": 94.63,
+    "t_end": 99.109,
+    "text": "it private? Is it hiding secrets? Is it fair? Is it cheap? What are the"
+  },
+  {
+    "t_start": 99.109,
+    "t_end": 105.67,
+    "text": "that's what we are studying and as such we are part of the big field of computer"
+  },
+  {
+    "t_start": 105.67,
+    "t_end": 107.429,
+    "text": "we are part of the big field of computer science. You wrote a book called"
+  },
+  {
+    "t_start": 107.429,
+    "t_end": 109.91,
+    "text": "science. You wrote a book called mathematics plus computation in which"
+  },
+  {
+    "t_start": 109.91,
+    "t_end": 114.63,
+    "text": "you talked about how computation theory of computing can provide insight into"
+  },
+  {
+    "t_start": 114.63,
+    "t_end": 117.27,
+    "text": "of computing can provide insight into lots of other natural processes physics"
+  },
+  {
+    "t_start": 117.27,
+    "t_end": 119.429,
+    "text": "lots of other natural processes physics biology quantum information quantum"
+  },
+  {
+    "t_start": 119.429,
+    "t_end": 124.63,
+    "text": "processes. So it's conceivable that a Nobel you've already got the you've"
+  },
+  {
+    "t_start": 124.63,
+    "t_end": 128.63,
+    "text": "already got the touring that a Nobel could go to innovations in theory of"
+  },
+  {
+    "t_start": 128.63,
+    "t_end": 131.029,
+    "text": "could go to innovations in theory of computing applied to a given natural"
+  },
+  {
+    "t_start": 131.029,
+    "t_end": 133.19,
+    "text": "computing applied to a given natural science physics biology. Which one do"
+  },
+  {
+    "t_start": 133.19,
+    "t_end": 136.15,
+    "text": "science physics biology. Which one do you think is most amendable? It's quite"
+  },
+  {
+    "t_start": 136.15,
+    "t_end": 139.19,
+    "text": "you think is most amendable? It's quite conceivable. I mean the number and the"
+  },
+  {
+    "t_start": 139.19,
+    "t_end": 141.67,
+    "text": "conceivable. I mean the number and the depth of collaborations of theoretical"
+  },
+  {
+    "t_start": 141.67,
+    "t_end": 143.35,
+    "text": "depth of collaborations of theoretical computer scientists, complexity"
+  },
+  {
+    "t_start": 143.35,
+    "t_end": 149.11,
+    "text": "theorists with various branches of the sciences with physics, with biology,"
+  },
+  {
+    "t_start": 149.11,
+    "t_end": 154.309,
+    "text": "with social sciences, with economics is vast and growing in all of them. The"
+  },
+  {
+    "t_start": 154.309,
+    "t_end": 157.27,
+    "text": "vast and growing in all of them. The point of view, the computational view of"
+  },
+  {
+    "t_start": 157.27,
+    "t_end": 159.67,
+    "text": "point of view, the computational view of natural processes or man-made processes,"
+  },
+  {
+    "t_start": 159.67,
+    "t_end": 163.11,
+    "text": "natural processes or man-made processes, gossip on the internet is also such a"
+  },
+  {
+    "t_start": 163.11,
+    "t_end": 166.869,
+    "text": "Bacteria and petrol dishes are also such a process and so on."
+  },
+  {
+    "t_start": 166.869,
+    "t_end": 171.27,
+    "text": "The institute has a very long tradition in a way in theory of computing. You"
+  },
+  {
+    "t_start": 171.27,
+    "t_end": 174.55,
+    "text": "might say it's one of the founding with good's work which inspired touring's"
+  },
+  {
+    "t_start": 174.55,
+    "t_end": 178.63,
+    "text": "good's work which inspired touring's work which inspired forman's work and"
+  },
+  {
+    "t_start": 178.63,
+    "t_end": 180.63,
+    "text": "you are in some sense part of this tradition. What makes the institute such"
+  },
+  {
+    "t_start": 180.63,
+    "t_end": 184.79,
+    "text": "tradition. What makes the institute such a good place for the work you're trying"
+  },
+  {
+    "t_start": 184.79,
+    "t_end": 189.75,
+    "text": "Well, I don't know that it makes this particular work easy to do. It makes any"
+  },
+  {
+    "t_start": 189.75,
+    "t_end": 195.19,
+    "text": "particular work easy to do. It makes any work easy to do. you are the institute"
+  },
+  {
+    "t_start": 195.19,
+    "t_end": 197.67,
+    "text": "you are free to do what you like it's conducive to I think any researcher who"
+  },
+  {
+    "t_start": 197.67,
+    "t_end": 200.149,
+    "text": "conducive to I think any researcher who is here it's really"
+  },
+  {
+    "t_start": 200.149,
+    "t_end": 207.11,
+    "text": "you have won so many awards for the path you have chosen theory of computing do"
+  },
+  {
+    "t_start": 207.11,
+    "t_end": 209.11,
+    "text": "you have chosen theory of computing do you now think standing where you are"
+  },
+  {
+    "t_start": 209.11,
+    "t_end": 211.43,
+    "text": "you now think standing where you are that you might have chosen a different"
+  },
+  {
+    "t_start": 211.43,
+    "t_end": 215.83,
+    "text": "when I went to college I I thought I wanted to do mathematics my parents"
+  },
+  {
+    "t_start": 215.83,
+    "t_end": 217.83,
+    "text": "wanted to do mathematics my parents actually suggested that maybe I should"
+  },
+  {
+    "t_start": 217.83,
+    "t_end": 219.589,
+    "text": "actually suggested that maybe I should go to computer science because maybe"
+  },
+  {
+    "t_start": 219.589,
+    "t_end": 223.509,
+    "text": "I'll have some things to do when I graduate and there'll be plenty of math."
+  },
+  {
+    "t_start": 223.509,
+    "t_end": 225.509,
+    "text": "graduate and there'll be plenty of math. Anyway, it was there that I discovered"
+  },
+  {
+    "t_start": 225.509,
+    "t_end": 227.99,
+    "text": "Anyway, it was there that I discovered that I'm attracted naturally to the"
+  },
+  {
+    "t_start": 227.99,
+    "t_end": 230.55,
+    "text": "that I'm attracted naturally to the mathematical side of computer science"
+  },
+  {
+    "t_start": 230.55,
+    "t_end": 236.71,
+    "text": "and this is a field I chose and that's where I stayed this four decades and I'm"
+  },
+  {
+    "t_start": 236.71,
+    "t_end": 238.949,
+    "text": "where I stayed this four decades and I'm extremely happy that I had such luck"
+  },
+  {
+    "t_start": 238.949,
+    "t_end": 240.789,
+    "text": "extremely happy that I had such luck choosing this area. I wouldn't change"
+  },
+  {
+    "t_start": 240.789,
+    "t_end": 248.309,
+    "text": "with all the virtues that one can hope for for a research area. It contains an"
+  },
+  {
+    "t_start": 248.309,
+    "t_end": 250.47,
+    "text": "for for a research area. It contains an amazing collection of deep and"
+  },
+  {
+    "t_start": 250.47,
+    "t_end": 253.35,
+    "text": "amazing collection of deep and intellectually fundamental questions"
+  },
+  {
+    "t_start": 253.35,
+    "t_end": 261.189,
+    "text": "that are important to uh to people to science to life to technology. They are"
+  },
+  {
+    "t_start": 261.189,
+    "t_end": 263.59,
+    "text": "science to life to technology. They are an amazing set of brilliant people who"
+  },
+  {
+    "t_start": 263.59,
+    "t_end": 265.67,
+    "text": "an amazing set of brilliant people who are in this field and they're not just"
+  },
+  {
+    "t_start": 265.67,
+    "t_end": 267.67,
+    "text": "are in this field and they're not just brilliant they are exceedingly nice."
+  },
+  {
+    "t_start": 267.67,
+    "t_end": 272.55,
+    "text": "brilliant they are exceedingly nice. Somehow the atmosphere in this field is"
+  },
+  {
+    "t_start": 272.55,
+    "t_end": 276.79,
+    "text": "friends have been students of mine or collaborators of mine. It's hard to"
+  },
+  {
+    "t_start": 276.79,
+    "t_end": 278.55,
+    "text": "collaborators of mine. It's hard to imagine that I would find anything"
+  },
+  {
+    "t_start": 278.55,
+    "t_end": 279.749,
+    "text": "imagine that I would find anything better anywhere."
+  },
+  {
+    "t_start": 279.749,
+    "t_end": 285.639,
+    "text": "I'm glad you made the right choice. I definitely did. Yeah."
+  }
+]

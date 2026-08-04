@@ -1,0 +1,4582 @@
+[
+  {
+    "t_start": 36.79,
+    "t_end": 40.549,
+    "text": "well thank you so much for coming here tonight to uh listen to a talk about"
+  },
+  {
+    "t_start": 40.549,
+    "t_end": 42.83,
+    "text": "tonight to uh listen to a talk about mathematics I'm Jim Carlson president of"
+  },
+  {
+    "t_start": 42.83,
+    "t_end": 45.029,
+    "text": "mathematics I'm Jim Carlson president of the clay Mathematics Institute which is"
+  },
+  {
+    "t_start": 45.029,
+    "t_end": 51.229,
+    "text": "the clay Mathematics Institute which is uh located on one Bow Street right by"
+  },
+  {
+    "t_start": 51.229,
+    "t_end": 57.229,
+    "text": "however you wish to locate it um the clay Mathematics Institute is dedicated"
+  },
+  {
+    "t_start": 57.229,
+    "t_end": 59.43,
+    "text": "clay Mathematics Institute is dedicated to furthering the creation and"
+  },
+  {
+    "t_start": 59.43,
+    "t_end": 61.99,
+    "text": "to furthering the creation and dissemination of mathematics it was"
+  },
+  {
+    "t_start": 61.99,
+    "t_end": 65.83,
+    "text": "dissemination of mathematics it was formed due to the generosity of Landon"
+  },
+  {
+    "t_start": 65.83,
+    "t_end": 71.51,
+    "text": "Clay uh among our many activities are a series of public lectures we generally"
+  },
+  {
+    "t_start": 71.51,
+    "t_end": 75.31,
+    "text": "series of public lectures we generally hold two each year one at Harvard one at"
+  },
+  {
+    "t_start": 75.31,
+    "t_end": 80.789,
+    "text": "hold two each year one at Harvard one at MIT uh the spring public lecture will be"
+  },
+  {
+    "t_start": 80.789,
+    "t_end": 85.789,
+    "text": "at MIT and our speaker will be ingred does who I think should be viewed as the"
+  },
+  {
+    "t_start": 85.789,
+    "t_end": 88.31,
+    "text": "does who I think should be viewed as the mother of wavelets which is a a branch"
+  },
+  {
+    "t_start": 88.31,
+    "t_end": 90.149,
+    "text": "mother of wavelets which is a a branch of mathematics that it has had truly"
+  },
+  {
+    "t_start": 90.149,
+    "t_end": 93.51,
+    "text": "of mathematics that it has had truly astounding"
+  },
+  {
+    "t_start": 95.55,
+    "t_end": 98.749,
+    "text": "applications get the right set of notes Here it helps um so tonight we're having"
+  },
+  {
+    "t_start": 98.749,
+    "t_end": 101.429,
+    "text": "Here it helps um so tonight we're having our lecture here at uh the mathematics"
+  },
+  {
+    "t_start": 101.429,
+    "t_end": 103.19,
+    "text": "our lecture here at uh the mathematics Department uh sponsored by the"
+  },
+  {
+    "t_start": 103.19,
+    "t_end": 104.35,
+    "text": "Department uh sponsored by the mathematics Department of Harvard"
+  },
+  {
+    "t_start": 104.35,
+    "t_end": 110.95,
+    "text": "University we're very very grateful for their hospitality and for this wonderful"
+  },
+  {
+    "t_start": 110.95,
+    "t_end": 117.109,
+    "text": "center our speaker tonight is Michael sipser he is chair of the mathematics"
+  },
+  {
+    "t_start": 117.109,
+    "t_end": 118.35,
+    "text": "sipser he is chair of the mathematics Department of"
+  },
+  {
+    "t_start": 118.35,
+    "t_end": 122.35,
+    "text": "MIT uh which has two branches the Applied Mathematics and the pure"
+  },
+  {
+    "t_start": 122.35,
+    "t_end": 128.229,
+    "text": "mathematics group he will speak on the P versus NP problem I won't say anything"
+  },
+  {
+    "t_start": 128.229,
+    "t_end": 130.949,
+    "text": "versus NP problem I won't say anything about it because uh Michael can say it"
+  },
+  {
+    "t_start": 130.949,
+    "t_end": 136.79,
+    "text": "much better than I can uh Michael was an undergraduate at Cornell University he"
+  },
+  {
+    "t_start": 136.79,
+    "t_end": 143.15,
+    "text": "received his PhD at Berkeley and since 1980 he has been at MIT he's taught many"
+  },
+  {
+    "t_start": 143.15,
+    "t_end": 145.27,
+    "text": "1980 he has been at MIT he's taught many courses there including everything from"
+  },
+  {
+    "t_start": 145.27,
+    "t_end": 148.83,
+    "text": "courses there including everything from basic calculus to graduate courses in"
+  },
+  {
+    "t_start": 148.83,
+    "t_end": 153.869,
+    "text": "complexity he also the author of a widely used textbook introduction to the"
+  },
+  {
+    "t_start": 153.869,
+    "t_end": 156.19,
+    "text": "widely used textbook introduction to the theory of complexity his research"
+  },
+  {
+    "t_start": 156.19,
+    "t_end": 160.19,
+    "text": "theory of complexity his research interests are largely in the area of"
+  },
+  {
+    "t_start": 160.19,
+    "t_end": 167.149,
+    "text": "it's a great pleasure to welcome Michael sipser who will speak to us about the P"
+  },
+  {
+    "t_start": 167.149,
+    "t_end": 176.509,
+    "text": "sipser who will speak to us about the P versus NP problem Michael thank"
+  },
+  {
+    "t_start": 180.03,
+    "t_end": 185.99,
+    "text": "y uh great so um you know thank you all for coming thanks to the clay Institute"
+  },
+  {
+    "t_start": 185.99,
+    "t_end": 188.39,
+    "text": "for coming thanks to the clay Institute for hosting this wonderful uh series of"
+  },
+  {
+    "t_start": 188.39,
+    "t_end": 189.869,
+    "text": "for hosting this wonderful uh series of public lectures and Mathematics I think"
+  },
+  {
+    "t_start": 189.869,
+    "t_end": 197.39,
+    "text": "public lectures and Mathematics I think it's a great thing um and uh thanks you"
+  },
+  {
+    "t_start": 197.39,
+    "t_end": 202.509,
+    "text": "to see such a good turnout for math talk um about my favorite topic the P versus"
+  },
+  {
+    "t_start": 202.509,
+    "t_end": 207.229,
+    "text": "um about my favorite topic the P versus MP question um so let me tell you first"
+  },
+  {
+    "t_start": 207.229,
+    "t_end": 208.869,
+    "text": "I'm going to jump right in tell you a little bit about that it's a it's a"
+  },
+  {
+    "t_start": 208.869,
+    "t_end": 211.429,
+    "text": "little bit about that it's a it's a problem in Computer Science and"
+  },
+  {
+    "t_start": 211.429,
+    "t_end": 218.149,
+    "text": "Mathematics um and it concerns the amount of time you need to solve"
+  },
+  {
+    "t_start": 218.149,
+    "t_end": 220.19,
+    "text": "the amount of time you need to solve various problems on a computer now even"
+  },
+  {
+    "t_start": 220.19,
+    "t_end": 222.27,
+    "text": "various problems on a computer now even though computer is very"
+  },
+  {
+    "t_start": 222.27,
+    "t_end": 228.07,
+    "text": "fast um for certain kinds of problems they seem to take a long time and it's"
+  },
+  {
+    "t_start": 228.07,
+    "t_end": 232.03,
+    "text": "they seem to take a long time and it's not really well understood why that is"
+  },
+  {
+    "t_start": 232.03,
+    "t_end": 234.55,
+    "text": "not really well understood why that is so we're going to explore that let's"
+  },
+  {
+    "t_start": 234.55,
+    "t_end": 237.309,
+    "text": "so we're going to explore that let's we'll start off with something"
+  },
+  {
+    "t_start": 237.309,
+    "t_end": 240.71,
+    "text": "we'll start off with something simple let's take the problem"
+  },
+  {
+    "t_start": 240.71,
+    "t_end": 247.19,
+    "text": "simple let's take the problem um 7 * 13 that's an example of something"
+  },
+  {
+    "t_start": 247.19,
+    "t_end": 253.229,
+    "text": "multiplication just for you know in case you're just getting up to speed the"
+  },
+  {
+    "t_start": 253.229,
+    "t_end": 259.59,
+    "text": "you're just getting up to speed the answer is 91 um and uh if you look at"
+  },
+  {
+    "t_start": 259.59,
+    "t_end": 261.51,
+    "text": "answer is 91 um and uh if you look at the reverse"
+  },
+  {
+    "t_start": 261.51,
+    "t_end": 266.83,
+    "text": "problem given the product 91 and you want to try to find the two numbers that"
+  },
+  {
+    "t_start": 266.83,
+    "t_end": 269.55,
+    "text": "want to try to find the two numbers that multiply together to give that result"
+  },
+  {
+    "t_start": 269.55,
+    "t_end": 272.39,
+    "text": "multiply together to give that result the those are called the factors of 91"
+  },
+  {
+    "t_start": 272.39,
+    "t_end": 273.83,
+    "text": "the those are called the factors of 91 you could either do that by remembering"
+  },
+  {
+    "t_start": 273.83,
+    "t_end": 279.51,
+    "text": "the previous slide or you could just start out with the number 91 and figure"
+  },
+  {
+    "t_start": 279.51,
+    "t_end": 281.79,
+    "text": "start out with the number 91 and figure out what those factors are"
+  },
+  {
+    "t_start": 281.79,
+    "t_end": 288.27,
+    "text": "out what those factors are directly see 7 * 13 give you 91 now"
+  },
+  {
+    "t_start": 288.27,
+    "t_end": 293.51,
+    "text": "let's look at a slightly bigger"
+  },
+  {
+    "t_start": 296.99,
+    "t_end": 302.749,
+    "text": "example now uh probably this not this is one that you're not going to do in your"
+  },
+  {
+    "t_start": 302.749,
+    "t_end": 304.43,
+    "text": "head and if you're uh normal person uh but if you fed it into a"
+  },
+  {
+    "t_start": 304.43,
+    "t_end": 307.029,
+    "text": "but if you fed it into a computer you would get the answer out"
+  },
+  {
+    "t_start": 307.029,
+    "t_end": 313.029,
+    "text": "computer you would get the answer out and what's amazing is that the answer"
+  },
+  {
+    "t_start": 313.029,
+    "t_end": 317.11,
+    "text": "second but let's take a look at something more interesting what happens"
+  },
+  {
+    "t_start": 317.11,
+    "t_end": 323.909,
+    "text": "something more interesting what happens if you look at the reverse problem the"
+  },
+  {
+    "t_start": 323.909,
+    "t_end": 328.51,
+    "text": "product well we already know what the answer is but suppose you didn't write"
+  },
+  {
+    "t_start": 328.51,
+    "t_end": 330.27,
+    "text": "answer is but suppose you didn't write it down from the previous SL"
+  },
+  {
+    "t_start": 330.27,
+    "t_end": 334.029,
+    "text": "it down from the previous SL you just went directly from"
+  },
+  {
+    "t_start": 334.029,
+    "t_end": 337.99,
+    "text": "you just went directly from this let's see oops this uh product this"
+  },
+  {
+    "t_start": 337.99,
+    "t_end": 341.71,
+    "text": "this let's see oops this uh product this product here in blue to the and you"
+  },
+  {
+    "t_start": 341.71,
+    "t_end": 343.029,
+    "text": "wanted to figure out what the two factors"
+  },
+  {
+    "t_start": 343.029,
+    "t_end": 347.309,
+    "text": "were okay so that's something you could solve on a computer and actually"
+  },
+  {
+    "t_start": 347.309,
+    "t_end": 352.629,
+    "text": "Somebody went went ahead and did that um but the difference between this problem"
+  },
+  {
+    "t_start": 352.629,
+    "t_end": 356.83,
+    "text": "but the difference between this problem and the previous one is that it takes a"
+  },
+  {
+    "t_start": 359.629,
+    "t_end": 361.909,
+    "text": "longer in fact it was 20 computer computer years of effort required to"
+  },
+  {
+    "t_start": 361.909,
+    "t_end": 365.87,
+    "text": "solve this problem now you may ask why would somebody care and and put all that"
+  },
+  {
+    "t_start": 365.87,
+    "t_end": 367.469,
+    "text": "would somebody care and and put all that effort in well for one thing we're"
+  },
+  {
+    "t_start": 367.469,
+    "t_end": 369.27,
+    "text": "effort in well for one thing we're mathematicians and you know it's because"
+  },
+  {
+    "t_start": 369.27,
+    "t_end": 374.749,
+    "text": "mathematicians and you know it's because it's there um another reason is somebody"
+  },
+  {
+    "t_start": 374.749,
+    "t_end": 380.07,
+    "text": "$220,000 to do that believe it or not this is true um and you may think well"
+  },
+  {
+    "t_start": 380.07,
+    "t_end": 382.15,
+    "text": "this is true um and you may think well why would somebody pay $220,000 to"
+  },
+  {
+    "t_start": 382.15,
+    "t_end": 383.11,
+    "text": "why would somebody pay $220,000 to factor a"
+  },
+  {
+    "t_start": 383.11,
+    "t_end": 389.629,
+    "text": "number and you know how how can we get a piece of that uh so well I mean you can"
+  },
+  {
+    "t_start": 389.629,
+    "t_end": 393.11,
+    "text": "piece of that uh so well I mean you can I mean here's another number $30,000 in"
+  },
+  {
+    "t_start": 393.11,
+    "t_end": 396.95,
+    "text": "I mean here's another number $30,000 in fact no no one knows um"
+  },
+  {
+    "t_start": 396.95,
+    "t_end": 398.79,
+    "text": "fact no no one knows um the"
+  },
+  {
+    "t_start": 398.79,
+    "t_end": 404.15,
+    "text": "uh no one knows the factors of this problem so if you want to turn on your"
+  },
+  {
+    "t_start": 404.15,
+    "t_end": 407.79,
+    "text": "problem so if you want to turn on your computers and you know want to spend"
+  },
+  {
+    "t_start": 407.79,
+    "t_end": 413.95,
+    "text": "previous one it's going to be more than 20 computer years probably a lot more um"
+  },
+  {
+    "t_start": 413.95,
+    "t_end": 416.909,
+    "text": "20 computer years probably a lot more um but you can earn $30,000 that way now"
+  },
+  {
+    "t_start": 416.909,
+    "t_end": 418.309,
+    "text": "but you can earn $30,000 that way now why in the world is somebody spending"
+  },
+  {
+    "t_start": 418.309,
+    "t_end": 421.029,
+    "text": "why in the world is somebody spending that kind of money to fact numbers well"
+  },
+  {
+    "t_start": 421.029,
+    "t_end": 422.79,
+    "text": "that kind of money to fact numbers well this is actually comes from this company"
+  },
+  {
+    "t_start": 422.79,
+    "t_end": 427.95,
+    "text": "called RSA and you can just Google it on if you Google you know the RSA factoring"
+  },
+  {
+    "t_start": 427.95,
+    "t_end": 431.749,
+    "text": "if you Google you know the RSA factoring challenge you will um find that you'll"
+  },
+  {
+    "t_start": 431.749,
+    "t_end": 434.029,
+    "text": "challenge you will um find that you'll find this number the previous number and"
+  },
+  {
+    "t_start": 434.029,
+    "t_end": 439.309,
+    "text": "find this number the previous number and a whole list of other numbers which are"
+  },
+  {
+    "t_start": 439.309,
+    "t_end": 443.99,
+    "text": "$50,000 $100,000 $200,000 this is all true um and the reason why the RSA"
+  },
+  {
+    "t_start": 443.99,
+    "t_end": 446.189,
+    "text": "true um and the reason why the RSA company is spending that kind of money"
+  },
+  {
+    "t_start": 446.189,
+    "t_end": 451.07,
+    "text": "company is spending that kind of money to factor numbers is not so much because"
+  },
+  {
+    "t_start": 451.07,
+    "t_end": 456.71,
+    "text": "factorization but they're interested in getting a handle on the progress that"
+  },
+  {
+    "t_start": 456.71,
+    "t_end": 458.869,
+    "text": "getting a handle on the progress that people are making in factoring numbers"
+  },
+  {
+    "t_start": 458.869,
+    "t_end": 460.749,
+    "text": "people are making in factoring numbers because factoring is essential to their"
+  },
+  {
+    "t_start": 460.749,
+    "t_end": 464.149,
+    "text": "because factoring is essential to their business they're in the business of"
+  },
+  {
+    "t_start": 464.149,
+    "t_end": 467.79,
+    "text": "business they're in the business of cryptography designing secret codes for"
+  },
+  {
+    "t_start": 467.79,
+    "t_end": 470.39,
+    "text": "cryptography designing secret codes for secure communication between computers"
+  },
+  {
+    "t_start": 470.39,
+    "t_end": 476.11,
+    "text": "called the RSA code is really based on factoring so if somebody figures a way"
+  },
+  {
+    "t_start": 476.11,
+    "t_end": 478.71,
+    "text": "factoring so if somebody figures a way of factoring quickly it will break their"
+  },
+  {
+    "t_start": 478.71,
+    "t_end": 479.99,
+    "text": "of factoring quickly it will break their code that's something they want to know"
+  },
+  {
+    "t_start": 479.99,
+    "t_end": 480.83,
+    "text": "code that's something they want to know about"
+  },
+  {
+    "t_start": 480.83,
+    "t_end": 488.869,
+    "text": "obviously so um that's why uh RSA is interested in"
+  },
+  {
+    "t_start": 488.869,
+    "t_end": 492.029,
+    "text": "um that's why uh RSA is interested in factoring now the question is why is"
+  },
+  {
+    "t_start": 492.029,
+    "t_end": 500.55,
+    "text": "factoring so hard to solve what why does why is factoring Tak such a long time to"
+  },
+  {
+    "t_start": 500.55,
+    "t_end": 502.309,
+    "text": "solve on a computer well um the reason for that is in contrast with"
+  },
+  {
+    "t_start": 502.309,
+    "t_end": 504.189,
+    "text": "for that is in contrast with multiplication we can kind of Zoom right"
+  },
+  {
+    "t_start": 504.189,
+    "t_end": 507.39,
+    "text": "multiplication we can kind of Zoom right in on the answer and for factoring all"
+  },
+  {
+    "t_start": 507.39,
+    "t_end": 510.95,
+    "text": "in on the answer and for factoring all we know how to do is to search for the"
+  },
+  {
+    "t_start": 510.95,
+    "t_end": 516.79,
+    "text": "answer given your number that you want to factor you try dividing by two by"
+  },
+  {
+    "t_start": 516.79,
+    "t_end": 523.11,
+    "text": "three you can confine yourself just to the prime numbers to save yourself a"
+  },
+  {
+    "t_start": 523.11,
+    "t_end": 526.35,
+    "text": "little bit of time anyway and you try you know dividing by five seven if at"
+  },
+  {
+    "t_start": 526.35,
+    "t_end": 528.47,
+    "text": "you know dividing by five seven if at any point you find a number find one of"
+  },
+  {
+    "t_start": 528.47,
+    "t_end": 531.03,
+    "text": "any point you find a number find one of those numbers that divide evenly into"
+  },
+  {
+    "t_start": 531.03,
+    "t_end": 533.31,
+    "text": "those numbers that divide evenly into the number you're trying to factor then"
+  },
+  {
+    "t_start": 533.31,
+    "t_end": 538.91,
+    "text": "you've got a factor and you can stop there um but otherwise you just have to"
+  },
+  {
+    "t_start": 538.91,
+    "t_end": 540.91,
+    "text": "there um but otherwise you just have to keep going on and on and"
+  },
+  {
+    "t_start": 540.91,
+    "t_end": 547.11,
+    "text": "on the number of possible factors that you might have to search through"
+  },
+  {
+    "t_start": 547.11,
+    "t_end": 549.269,
+    "text": "you might have to search through for"
+  },
+  {
+    "t_start": 549.269,
+    "t_end": 555.15,
+    "text": "um factorization problems of the sort I just described is absolutely"
+  },
+  {
+    "t_start": 555.15,
+    "t_end": 559.47,
+    "text": "astronomical and that's why it takes even super fast computers a very long"
+  },
+  {
+    "t_start": 559.47,
+    "t_end": 562.11,
+    "text": "even super fast computers a very long time to solve that"
+  },
+  {
+    "t_start": 562.11,
+    "t_end": 568.269,
+    "text": "problem um so the the the process of searching for the answer over a large"
+  },
+  {
+    "t_start": 568.269,
+    "t_end": 570.949,
+    "text": "searching for the answer over a large space of Poss abilities kind of one by"
+  },
+  {
+    "t_start": 570.949,
+    "t_end": 575.91,
+    "text": "space of Poss abilities kind of one by one in a Mindless way is we call Brute"
+  },
+  {
+    "t_start": 575.91,
+    "t_end": 578.389,
+    "text": "Force search and that process is very slow if you have a lot of possibilities"
+  },
+  {
+    "t_start": 578.389,
+    "t_end": 579.79,
+    "text": "slow if you have a lot of possibilities that you need to search"
+  },
+  {
+    "t_start": 579.79,
+    "t_end": 582.87,
+    "text": "that you need to search through um now the interesting question"
+  },
+  {
+    "t_start": 582.87,
+    "t_end": 586.19,
+    "text": "through um now the interesting question here is do you really need to"
+  },
+  {
+    "t_start": 586.19,
+    "t_end": 593.15,
+    "text": "search or is there some way of solving say the factoring problem that Zooms in"
+  },
+  {
+    "t_start": 593.15,
+    "t_end": 595.63,
+    "text": "say the factoring problem that Zooms in on the answer without"
+  },
+  {
+    "t_start": 595.63,
+    "t_end": 603.79,
+    "text": "searching that would be amazing and in fact we don't know the answer to that"
+  },
+  {
+    "t_start": 603.79,
+    "t_end": 606.71,
+    "text": "fact we don't know the answer to that question seems like factoring needs"
+  },
+  {
+    "t_start": 606.71,
+    "t_end": 610.43,
+    "text": "searching at least as far as we know I mean you can do some things that are"
+  },
+  {
+    "t_start": 610.43,
+    "t_end": 611.829,
+    "text": "mean you can do some things that are some some improvements on the"
+  },
+  {
+    "t_start": 611.829,
+    "t_end": 615.67,
+    "text": "simple-minded method that I gave you and cut down the search space somewhat but"
+  },
+  {
+    "t_start": 615.67,
+    "t_end": 617.43,
+    "text": "cut down the search space somewhat but the only Al the only procedures that we"
+  },
+  {
+    "t_start": 617.43,
+    "t_end": 618.949,
+    "text": "the only Al the only procedures that we know still involve searching through a"
+  },
+  {
+    "t_start": 618.949,
+    "t_end": 619.99,
+    "text": "know still involve searching through a lot of"
+  },
+  {
+    "t_start": 619.99,
+    "t_end": 623.59,
+    "text": "possibilities we don't know if you can eliminate that or"
+  },
+  {
+    "t_start": 623.59,
+    "t_end": 629.55,
+    "text": "not let's turn to another example here's a example I called a cleck problem so"
+  },
+  {
+    "t_start": 629.55,
+    "t_end": 635.03,
+    "text": "you're given a network here of nodes and nodes of little circles and lines which"
+  },
+  {
+    "t_start": 635.03,
+    "t_end": 636.91,
+    "text": "nodes of little circles and lines which might represent something else say for"
+  },
+  {
+    "t_start": 636.91,
+    "t_end": 643.55,
+    "text": "example the nodes might represent the uh uh the members of the math department at"
+  },
+  {
+    "t_start": 643.55,
+    "t_end": 647.79,
+    "text": "uh the members of the math department at MIT okay and we'll draw a line I'll"
+  },
+  {
+    "t_start": 647.79,
+    "t_end": 655.31,
+    "text": "MIT okay and we'll draw a line I'll leave off the names uh we'll draw a line"
+  },
+  {
+    "t_start": 655.31,
+    "t_end": 657.23,
+    "text": "connecting two nodes if those two faculty members are"
+  },
+  {
+    "t_start": 657.23,
+    "t_end": 663.31,
+    "text": "friends okay so you can see we have a pretty friendly Department more or less"
+  },
+  {
+    "t_start": 663.31,
+    "t_end": 667.99,
+    "text": "um and what I'm interested in doing you know sometimes host parties now and then"
+  },
+  {
+    "t_start": 667.99,
+    "t_end": 669.509,
+    "text": "know sometimes host parties now and then and you'd like to invite people over to"
+  },
+  {
+    "t_start": 669.509,
+    "t_end": 672.99,
+    "text": "and you'd like to invite people over to your home who are all mutual friends one"
+  },
+  {
+    "t_start": 672.99,
+    "t_end": 676.23,
+    "text": "your home who are all mutual friends one another okay"
+  },
+  {
+    "t_start": 676.23,
+    "t_end": 682.79,
+    "text": "connected or a group of nodes who are all connected by lines with one another"
+  },
+  {
+    "t_start": 682.79,
+    "t_end": 688.75,
+    "text": "is called a click so over here we have a three click this a four click four nodes"
+  },
+  {
+    "t_start": 688.75,
+    "t_end": 693.31,
+    "text": "three click this a four click four nodes all connected by lines and so on and if"
+  },
+  {
+    "t_start": 693.31,
+    "t_end": 695.59,
+    "text": "what I'm interested in doing is finding Among The Faculty among these nodes"
+  },
+  {
+    "t_start": 695.59,
+    "t_end": 698.269,
+    "text": "Among The Faculty among these nodes groups which form clicks presumably as"
+  },
+  {
+    "t_start": 698.269,
+    "t_end": 702.03,
+    "text": "large as I can get so I can have a decent sized party so you know over here"
+  },
+  {
+    "t_start": 702.03,
+    "t_end": 704.03,
+    "text": "decent sized party so you know over here I got a a three"
+  },
+  {
+    "t_start": 704.03,
+    "t_end": 710.59,
+    "text": "click down here I got a four click question is is that the best I can"
+  },
+  {
+    "t_start": 710.59,
+    "t_end": 714.23,
+    "text": "click question is is that the best I can do or maybe can I find a bigger click"
+  },
+  {
+    "t_start": 714.23,
+    "t_end": 715.87,
+    "text": "than that"
+  },
+  {
+    "t_start": 715.87,
+    "t_end": 722.91,
+    "text": "well you're really quick you can see that in fact there is a five cleak in"
+  },
+  {
+    "t_start": 722.91,
+    "t_end": 728.43,
+    "text": "that in fact there is a five cleak in this graph here it is maybe a little"
+  },
+  {
+    "t_start": 728.43,
+    "t_end": 733.03,
+    "text": "and but the point is that if you want to try to find a cleck say in a bigger"
+  },
+  {
+    "t_start": 733.03,
+    "t_end": 736.829,
+    "text": "try to find a cleck say in a bigger graph here's a graph with even more"
+  },
+  {
+    "t_start": 736.829,
+    "t_end": 741.389,
+    "text": "here's a network or graph with even more nodes the number of possibilities say if"
+  },
+  {
+    "t_start": 741.389,
+    "t_end": 745.67,
+    "text": "nodes the number of possibilities say if you want to look for a click say of"
+  },
+  {
+    "t_start": 745.67,
+    "t_end": 752.189,
+    "text": "here um that's not a click but if you sort of want to try to find one perhaps"
+  },
+  {
+    "t_start": 752.189,
+    "t_end": 756.269,
+    "text": "sort of want to try to find one perhaps with eight nodes in it you just have to"
+  },
+  {
+    "t_start": 756.269,
+    "t_end": 758.15,
+    "text": "as far as we know you have to search through all possible subsets of eight"
+  },
+  {
+    "t_start": 758.15,
+    "t_end": 762.55,
+    "text": "through all possible subsets of eight nodes to see if any one of them turns"
+  },
+  {
+    "t_start": 762.55,
+    "t_end": 763.829,
+    "text": "out to be a click and the number of possibilities that you would have to go"
+  },
+  {
+    "t_start": 763.829,
+    "t_end": 770.069,
+    "text": "possibilities that you would have to go through to do that is large and in fact"
+  },
+  {
+    "t_start": 770.069,
+    "t_end": 773.189,
+    "text": "if you had instead of just a 100 nodes that I as I've described here if you had"
+  },
+  {
+    "t_start": 773.189,
+    "t_end": 775.189,
+    "text": "hundreds of nodes which is still a pretty Modas sized problem and you tried"
+  },
+  {
+    "t_start": 775.189,
+    "t_end": 778.23,
+    "text": "pretty Modas sized problem and you tried to find the biggest click possible or"
+  },
+  {
+    "t_start": 778.23,
+    "t_end": 783.87,
+    "text": "to find the biggest click possible or you know some Target Siz click of a you"
+  },
+  {
+    "t_start": 783.87,
+    "t_end": 785.79,
+    "text": "know of a reasonably decent size it would take centuries maybe even"
+  },
+  {
+    "t_start": 785.79,
+    "t_end": 788.75,
+    "text": "would take centuries maybe even Millennia of computer time to search"
+  },
+  {
+    "t_start": 788.75,
+    "t_end": 790.629,
+    "text": "Millennia of computer time to search through all the"
+  },
+  {
+    "t_start": 790.629,
+    "t_end": 794.55,
+    "text": "possibilities you see it's a very similar kind of situation with factoring"
+  },
+  {
+    "t_start": 794.55,
+    "t_end": 799.71,
+    "text": "similar kind of situation with factoring and it's even more similar in that you"
+  },
+  {
+    "t_start": 799.71,
+    "t_end": 803.43,
+    "text": "can ask the same question do you really need to search or is there some way to"
+  },
+  {
+    "t_start": 803.43,
+    "t_end": 807.55,
+    "text": "need to search or is there some way to zoom in on those on that big"
+  },
+  {
+    "t_start": 810.949,
+    "t_end": 816.11,
+    "text": "click quickly without searching we don't know so both the click and the factoring"
+  },
+  {
+    "t_start": 816.11,
+    "t_end": 818.189,
+    "text": "problem are examples of what I would call needle in the Hast stack"
+  },
+  {
+    "t_start": 818.189,
+    "t_end": 822.949,
+    "text": "problems you know in case you're not familiar with Hy stack here's here's an"
+  },
+  {
+    "t_start": 822.949,
+    "t_end": 826.71,
+    "text": "familiar with Hy stack here's here's an example um big pile of hay and somewhere"
+  },
+  {
+    "t_start": 826.71,
+    "t_end": 831.23,
+    "text": "needle H to search for that needle as you can imagine it's going to take a"
+  },
+  {
+    "t_start": 831.23,
+    "t_end": 833.23,
+    "text": "long time here's a cartoon sort of giving the idea somebody actually found"
+  },
+  {
+    "t_start": 833.23,
+    "t_end": 837.31,
+    "text": "giving the idea somebody actually found the needle but after searching so um"
+  },
+  {
+    "t_start": 837.31,
+    "t_end": 842.79,
+    "text": "it's amazing what you can find on the internet these days uh"
+  },
+  {
+    "t_start": 844.59,
+    "t_end": 848.59,
+    "text": "um you know in the case of you know this sort"
+  },
+  {
+    "t_start": 848.59,
+    "t_end": 852.949,
+    "text": "of uh example of looking for a needle in a hay"
+  },
+  {
+    "t_start": 852.949,
+    "t_end": 857.389,
+    "text": "a hay stack um here's here's on my model of a"
+  },
+  {
+    "t_start": 857.389,
+    "t_end": 863.949,
+    "text": "stack um if you want to you can ask that the problem is searching necessary to"
+  },
+  {
+    "t_start": 863.949,
+    "t_end": 865.35,
+    "text": "the problem is searching necessary to find the"
+  },
+  {
+    "t_start": 865.35,
+    "t_end": 867.509,
+    "text": "find the needle"
+  },
+  {
+    "t_start": 867.509,
+    "t_end": 873.23,
+    "text": "well perhaps you have the magnet"
+  },
+  {
+    "t_start": 873.23,
+    "t_end": 877.269,
+    "text": "then Bingo you get the needle right away you don't you don't have to search at"
+  },
+  {
+    "t_start": 877.269,
+    "t_end": 883.71,
+    "text": "all so the question that we're asking in the case of factoring and click is there"
+  },
+  {
+    "t_start": 883.71,
+    "t_end": 886.59,
+    "text": "the case of factoring and click is there some kind of mathematical analog to the"
+  },
+  {
+    "t_start": 886.59,
+    "t_end": 889.389,
+    "text": "some kind of mathematical analog to the magnet that pulls out the answer without"
+  },
+  {
+    "t_start": 889.389,
+    "t_end": 891.55,
+    "text": "magnet that pulls out the answer without having to search for it in neither of"
+  },
+  {
+    "t_start": 891.55,
+    "t_end": 898.35,
+    "text": "those cases do we know and in fact that phenomenon is very very pervasive it's"
+  },
+  {
+    "t_start": 898.35,
+    "t_end": 899.749,
+    "text": "phenomenon is very very pervasive it's very widespread spread throughout"
+  },
+  {
+    "t_start": 899.749,
+    "t_end": 903.269,
+    "text": "very widespread spread throughout problem in Engineering in in economics"
+  },
+  {
+    "t_start": 903.269,
+    "t_end": 908.389,
+    "text": "problem in Engineering in in economics in optimization and in science for"
+  },
+  {
+    "t_start": 908.389,
+    "t_end": 910.71,
+    "text": "example if you looking at problems involving scheduling classes or exams"
+  },
+  {
+    "t_start": 910.71,
+    "t_end": 911.87,
+    "text": "involving scheduling classes or exams where you're trying to minimize the"
+  },
+  {
+    "t_start": 911.87,
+    "t_end": 913.03,
+    "text": "where you're trying to minimize the number of"
+  },
+  {
+    "t_start": 913.03,
+    "t_end": 917.71,
+    "text": "conflicts the only way to to to do that which finds the best possible answer"
+  },
+  {
+    "t_start": 917.71,
+    "t_end": 919.35,
+    "text": "which finds the best possible answer involves searching through large numbers"
+  },
+  {
+    "t_start": 919.35,
+    "t_end": 924.67,
+    "text": "involves searching through large numbers of schedules or if you want to color a"
+  },
+  {
+    "t_start": 924.67,
+    "t_end": 926.99,
+    "text": "map with a smallest number of colors so that no two adjoining adjacent countries"
+  },
+  {
+    "t_start": 926.99,
+    "t_end": 929.949,
+    "text": "that no two adjoining adjacent countries end up with the same color"
+  },
+  {
+    "t_start": 929.949,
+    "t_end": 933.509,
+    "text": "you might have to search through a lot of possible colorings in order to find"
+  },
+  {
+    "t_start": 933.509,
+    "t_end": 936.03,
+    "text": "of possible colorings in order to find the one that's the best possible or if"
+  },
+  {
+    "t_start": 936.03,
+    "t_end": 936.99,
+    "text": "the one that's the best possible or if you know there's a problem in"
+  },
+  {
+    "t_start": 936.99,
+    "t_end": 940.749,
+    "text": "computational biology where you given a protein sequence and you're trying to"
+  },
+  {
+    "t_start": 940.749,
+    "t_end": 942.269,
+    "text": "protein sequence and you're trying to find the configuration that that"
+  },
+  {
+    "t_start": 942.269,
+    "t_end": 946.87,
+    "text": "sequence will fold up into to give you a sense of how of the function of that"
+  },
+  {
+    "t_start": 946.87,
+    "t_end": 948.79,
+    "text": "sense of how of the function of that protein inside the"
+  },
+  {
+    "t_start": 948.79,
+    "t_end": 952.59,
+    "text": "cell would be great if we could solve that on a computer but the only way that"
+  },
+  {
+    "t_start": 952.59,
+    "t_end": 954.389,
+    "text": "that on a computer but the only way that we know how to do it would involve"
+  },
+  {
+    "t_start": 954.389,
+    "t_end": 956.15,
+    "text": "we know how to do it would involve trying to search through all possible"
+  },
+  {
+    "t_start": 956.15,
+    "t_end": 959.15,
+    "text": "trying to search through all possible configurations of the protein takes to"
+  },
+  {
+    "t_start": 959.15,
+    "t_end": 961.23,
+    "text": "configurations of the protein takes to long this is a real practical problem"
+  },
+  {
+    "t_start": 961.23,
+    "t_end": 962.59,
+    "text": "long this is a real practical problem that people would love to be able to"
+  },
+  {
+    "t_start": 962.59,
+    "t_end": 965.15,
+    "text": "that people would love to be able to solve it's just beyond our computational"
+  },
+  {
+    "t_start": 965.15,
+    "t_end": 968.99,
+    "text": "solve it's just beyond our computational ability to solve it by searching and no"
+  },
+  {
+    "t_start": 968.99,
+    "t_end": 972.59,
+    "text": "one knows if there's a you know if there's a faster way another problem of"
+  },
+  {
+    "t_start": 972.59,
+    "t_end": 975.15,
+    "text": "interest to mathematicians is the problem of theorem"
+  },
+  {
+    "t_start": 975.15,
+    "t_end": 980.71,
+    "text": "proving another searching type problem if I want to know is there a proof of a"
+  },
+  {
+    "t_start": 980.71,
+    "t_end": 983.55,
+    "text": "if I want to know is there a proof of a theorem of a certain length so okay you"
+  },
+  {
+    "t_start": 983.55,
+    "t_end": 985.35,
+    "text": "theorem of a certain length so okay you know I given some mathematical"
+  },
+  {
+    "t_start": 985.35,
+    "t_end": 989.11,
+    "text": "know I given some mathematical statements say and I want to know is"
+  },
+  {
+    "t_start": 989.11,
+    "t_end": 994.829,
+    "text": "which is at most 100 Pages well I could do that in principle"
+  },
+  {
+    "t_start": 994.829,
+    "t_end": 998.189,
+    "text": "Pages well I could do that in principle by a computer I can make that check by"
+  },
+  {
+    "t_start": 998.189,
+    "t_end": 1001.99,
+    "text": "possible proof of 100 pages long and seeing if any one of them one of them"
+  },
+  {
+    "t_start": 1001.99,
+    "t_end": 1003.749,
+    "text": "seeing if any one of them one of them actually works but of course that's"
+  },
+  {
+    "t_start": 1003.749,
+    "t_end": 1011.23,
+    "text": "time is there some way to find that proof more directly no one knows would"
+  },
+  {
+    "t_start": 1011.23,
+    "t_end": 1013.03,
+    "text": "proof more directly no one knows would seem incredible if there was but we"
+  },
+  {
+    "t_start": 1013.03,
+    "t_end": 1014.069,
+    "text": "seem incredible if there was but we don't know we don't have a proof that"
+  },
+  {
+    "t_start": 1014.069,
+    "t_end": 1016.23,
+    "text": "don't know we don't have a proof that you and there it goes on and on there"
+  },
+  {
+    "t_start": 1016.23,
+    "t_end": 1018.189,
+    "text": "you and there it goes on and on there are many other problems of this kind"
+  },
+  {
+    "t_start": 1018.189,
+    "t_end": 1021.23,
+    "text": "are many other problems of this kind where searching seems to be necessary"
+  },
+  {
+    "t_start": 1021.23,
+    "t_end": 1026.51,
+    "text": "but we don't have a proof that it really is so that's the P versus NP question"
+  },
+  {
+    "t_start": 1026.51,
+    "t_end": 1030.069,
+    "text": "is so that's the P versus NP question sort of informally speaking can we solve"
+  },
+  {
+    "t_start": 1030.069,
+    "t_end": 1034.71,
+    "text": "sort of informally speaking can we solve searching problems without"
+  },
+  {
+    "t_start": 1037.51,
+    "t_end": 1040.39,
+    "text": "searching okay I'll say more about that in a second but um let me"
+  },
+  {
+    "t_start": 1040.39,
+    "t_end": 1043.75,
+    "text": "in a second but um let me first help you to see or explain where"
+  },
+  {
+    "t_start": 1043.75,
+    "t_end": 1047.39,
+    "text": "first help you to see or explain where the terminology P versus NP comes from"
+  },
+  {
+    "t_start": 1047.39,
+    "t_end": 1049.35,
+    "text": "the terminology P versus NP comes from comes from these two CL"
+  },
+  {
+    "t_start": 1049.35,
+    "t_end": 1051.11,
+    "text": "comes from these two CL of problems called p and"
+  },
+  {
+    "t_start": 1051.11,
+    "t_end": 1058.59,
+    "text": "NP um P stands for the problems that you can solve quickly the so-called"
+  },
+  {
+    "t_start": 1058.59,
+    "t_end": 1062.23,
+    "text": "polinomial time problems and I'm I don't want to get too technical about it but"
+  },
+  {
+    "t_start": 1062.23,
+    "t_end": 1065.39,
+    "text": "want to get too technical about it but for our point of view polinomial time"
+  },
+  {
+    "t_start": 1065.39,
+    "t_end": 1067.63,
+    "text": "for our point of view polinomial time where you you're you're considering how"
+  },
+  {
+    "t_start": 1067.63,
+    "t_end": 1072.75,
+    "text": "long the procedure is going to run in terms of the length of the input to the"
+  },
+  {
+    "t_start": 1072.75,
+    "t_end": 1074.11,
+    "text": "terms of the length of the input to the procedure and it only Grows by a"
+  },
+  {
+    "t_start": 1074.11,
+    "t_end": 1077.07,
+    "text": "procedure and it only Grows by a polinomial number of steps compared with"
+  },
+  {
+    "t_start": 1077.07,
+    "t_end": 1081.23,
+    "text": "polinomial number of steps compared with um an exponential number of steps which"
+  },
+  {
+    "t_start": 1081.23,
+    "t_end": 1084.11,
+    "text": "is what you would need if you had a a searching problem polinomial time is"
+  },
+  {
+    "t_start": 1084.11,
+    "t_end": 1089.75,
+    "text": "searching problem polinomial time is considered fast so the P problems are"
+  },
+  {
+    "t_start": 1089.75,
+    "t_end": 1091.909,
+    "text": "the ones we consider to be quickly solvable those are the ones that don't"
+  },
+  {
+    "t_start": 1091.909,
+    "t_end": 1097.07,
+    "text": "searching in contrast with the NP problems those are the"
+  },
+  {
+    "t_start": 1097.07,
+    "t_end": 1104.83,
+    "text": "problems which in addition to that are problems that might involve"
+  },
+  {
+    "t_start": 1108.27,
+    "t_end": 1112.909,
+    "text": "searching okay so the P problems are the problems that can solve quickly the NP"
+  },
+  {
+    "t_start": 1112.909,
+    "t_end": 1118.11,
+    "text": "involve searching as well and it but it's searching of a particular kind this"
+  },
+  {
+    "t_start": 1118.11,
+    "t_end": 1123.35,
+    "text": "it's searching of a particular kind this is a little bit of a tricky point that"
+  },
+  {
+    "t_start": 1123.35,
+    "t_end": 1129.23,
+    "text": "these are problems where you can solve them by searching but once you found the"
+  },
+  {
+    "t_start": 1129.23,
+    "t_end": 1133.23,
+    "text": "answer you can check that it's right quickly so finding it might be hard but"
+  },
+  {
+    "t_start": 1133.23,
+    "t_end": 1137.71,
+    "text": "quickly so finding it might be hard but checking it is easy so what I mean by"
+  },
+  {
+    "t_start": 1137.71,
+    "t_end": 1139.87,
+    "text": "that is think of the examples of factoring and"
+  },
+  {
+    "t_start": 1139.87,
+    "t_end": 1145.71,
+    "text": "Le those are both NP problems so in the case of factoring it might be hard to"
+  },
+  {
+    "t_start": 1145.71,
+    "t_end": 1148.789,
+    "text": "case of factoring it might be hard to find the factors but once I found them I"
+  },
+  {
+    "t_start": 1148.789,
+    "t_end": 1151.19,
+    "text": "find the factors but once I found them I can check that they work just by"
+  },
+  {
+    "t_start": 1151.19,
+    "t_end": 1152.75,
+    "text": "can check that they work just by multiplying them together and seeing if"
+  },
+  {
+    "t_start": 1152.75,
+    "t_end": 1154.27,
+    "text": "multiplying them together and seeing if I get the right"
+  },
+  {
+    "t_start": 1154.27,
+    "t_end": 1159.95,
+    "text": "result so checking is easy that's the essence of NP same with click if I'm"
+  },
+  {
+    "t_start": 1159.95,
+    "t_end": 1162.549,
+    "text": "essence of NP same with click if I'm trying to determine does my NE you know"
+  },
+  {
+    "t_start": 1162.549,
+    "t_end": 1164.87,
+    "text": "trying to determine does my NE you know is there a n within my network are there"
+  },
+  {
+    "t_start": 1164.87,
+    "t_end": 1167.35,
+    "text": "is there a n within my network are there a hundred nodes that form a click that"
+  },
+  {
+    "t_start": 1167.35,
+    "t_end": 1168.87,
+    "text": "a hundred nodes that form a click that are all connected to one another it"
+  },
+  {
+    "t_start": 1168.87,
+    "t_end": 1173.23,
+    "text": "might take me a long time to find it but once I have found it I can check that it"
+  },
+  {
+    "t_start": 1173.23,
+    "t_end": 1175.43,
+    "text": "once I have found it I can check that it works that it's really a 100 nodes that"
+  },
+  {
+    "t_start": 1175.43,
+    "t_end": 1176.87,
+    "text": "works that it's really a 100 nodes that they really are connected with one"
+  },
+  {
+    "t_start": 1176.87,
+    "t_end": 1183.149,
+    "text": "another and so on that check I can do easily that's the essence of NP which"
+  },
+  {
+    "t_start": 1183.149,
+    "t_end": 1184.83,
+    "text": "easily that's the essence of NP which stands for non-deterministic polinomial"
+  },
+  {
+    "t_start": 1184.83,
+    "t_end": 1190.31,
+    "text": "stands for non-deterministic polinomial time um that you can you may not be able"
+  },
+  {
+    "t_start": 1190.31,
+    "t_end": 1192.669,
+    "text": "to find the answer quickly but you can check it quickly so in term visually"
+  },
+  {
+    "t_start": 1192.669,
+    "t_end": 1196.549,
+    "text": "check it quickly so in term visually speaking both of these uh classes are"
+  },
+  {
+    "t_start": 1196.549,
+    "t_end": 1199.909,
+    "text": "speaking both of these uh classes are classes of computational problems"
+  },
+  {
+    "t_start": 1199.909,
+    "t_end": 1207.23,
+    "text": "um the NP problems are the ones that where you can check them easily the P"
+  },
+  {
+    "t_start": 1207.23,
+    "t_end": 1210.31,
+    "text": "where you can check them easily the P problems are the ones where you can"
+  },
+  {
+    "t_start": 1210.31,
+    "t_end": 1217.83,
+    "text": "question is are those two classes the same is checking easily checkable"
+  },
+  {
+    "t_start": 1217.83,
+    "t_end": 1220.95,
+    "text": "same is checking easily checkable problems the same thing as easily"
+  },
+  {
+    "t_start": 1220.95,
+    "t_end": 1225.669,
+    "text": "problems because the easily easily checkable problems are the ones that you"
+  },
+  {
+    "t_start": 1225.669,
+    "t_end": 1231.07,
+    "text": "searching so if the two classes p and NP are the same that says that any problem"
+  },
+  {
+    "t_start": 1231.07,
+    "t_end": 1232.63,
+    "text": "are the same that says that any problem that you can solve with searching you"
+  },
+  {
+    "t_start": 1232.63,
+    "t_end": 1236.99,
+    "text": "that you can solve with searching you can also solve without searching so"
+  },
+  {
+    "t_start": 1236.99,
+    "t_end": 1240.789,
+    "text": "searching is always can always be eliminated if P equals"
+  },
+  {
+    "t_start": 1244.029,
+    "t_end": 1248.35,
+    "text": "different from NP then we know that there are certain checkable problems"
+  },
+  {
+    "t_start": 1248.35,
+    "t_end": 1254.63,
+    "text": "which are not certain easily checkable problems which are not easily solvable"
+  },
+  {
+    "t_start": 1254.63,
+    "t_end": 1257.029,
+    "text": "and so that tells us that there were certain problems that really require"
+  },
+  {
+    "t_start": 1257.029,
+    "t_end": 1260.549,
+    "text": "certain problems that really require searching can't be eliminated"
+  },
+  {
+    "t_start": 1260.549,
+    "t_end": 1266.35,
+    "text": "so if you didn't follow that exactly all thing to remember is that either P"
+  },
+  {
+    "t_start": 1266.35,
+    "t_end": 1268.43,
+    "text": "thing to remember is that either P equals NP which means you can always"
+  },
+  {
+    "t_start": 1268.43,
+    "t_end": 1270.43,
+    "text": "equals NP which means you can always eliminate searching or p is different"
+  },
+  {
+    "t_start": 1270.43,
+    "t_end": 1272.51,
+    "text": "eliminate searching or p is different from NP which tells you that sometimes"
+  },
+  {
+    "t_start": 1272.51,
+    "t_end": 1276.51,
+    "text": "from NP which tells you that sometimes searching is necessary and can't be"
+  },
+  {
+    "t_start": 1278.99,
+    "t_end": 1282.149,
+    "text": "eliminated okay which is the latter is what we expect to be true but we don't"
+  },
+  {
+    "t_start": 1282.149,
+    "t_end": 1285.47,
+    "text": "know how to show it okay so"
+  },
+  {
+    "t_start": 1285.47,
+    "t_end": 1290.71,
+    "text": "it okay so this either or situation is unresolved"
+  },
+  {
+    "t_start": 1290.71,
+    "t_end": 1295.11,
+    "text": "time okay let me tell you a little bit about the history of the"
+  },
+  {
+    "t_start": 1295.11,
+    "t_end": 1300.43,
+    "text": "about the history of the problem in the literature anyway the you"
+  },
+  {
+    "t_start": 1300.43,
+    "t_end": 1306.99,
+    "text": "subject uh goes back to the mid 1960s when various mostly mathematicians"
+  },
+  {
+    "t_start": 1306.99,
+    "t_end": 1311.43,
+    "text": "1960s when various mostly mathematicians started looking at you know the compu"
+  },
+  {
+    "t_start": 1311.43,
+    "t_end": 1312.99,
+    "text": "the emerging computer technology and started building a mathematical theory"
+  },
+  {
+    "t_start": 1312.99,
+    "t_end": 1322.71,
+    "text": "started building a mathematical theory around it and they did things like um uh"
+  },
+  {
+    "t_start": 1322.71,
+    "t_end": 1324.269,
+    "text": "defining what means for various in coming up with formal models of"
+  },
+  {
+    "t_start": 1324.269,
+    "t_end": 1326.23,
+    "text": "coming up with formal models of computers and measuring the amount of"
+  },
+  {
+    "t_start": 1326.23,
+    "t_end": 1330.39,
+    "text": "time that those models of computers need to solve various kinds of problems they"
+  },
+  {
+    "t_start": 1330.39,
+    "t_end": 1331.95,
+    "text": "to solve various kinds of problems they basically set up the mathematical"
+  },
+  {
+    "t_start": 1331.95,
+    "t_end": 1334.789,
+    "text": "framework of the theory and proved a bunch of interesting theorems at the"
+  },
+  {
+    "t_start": 1334.789,
+    "t_end": 1339.909,
+    "text": "bunch of interesting theorems at the same time now some years after that in"
+  },
+  {
+    "t_start": 1339.909,
+    "t_end": 1346.269,
+    "text": "1970s there were several papers by cook Lev and and carp which established the P"
+  },
+  {
+    "t_start": 1346.269,
+    "t_end": 1348.35,
+    "text": "Lev and and carp which established the P versus NP question as an important one"
+  },
+  {
+    "t_start": 1348.35,
+    "t_end": 1350.029,
+    "text": "versus NP question as an important one and and sort of this companion notion of"
+  },
+  {
+    "t_start": 1350.029,
+    "t_end": 1351.669,
+    "text": "and and sort of this companion notion of NP completeness which I'll talk about in"
+  },
+  {
+    "t_start": 1351.669,
+    "t_end": 1356.909,
+    "text": "NP completeness which I'll talk about in a bit so it really in the literature the"
+  },
+  {
+    "t_start": 1356.909,
+    "t_end": 1360.43,
+    "text": "P versus NP question traces its roots back to the early"
+  },
+  {
+    "t_start": 1364.269,
+    "t_end": 1367.19,
+    "text": "1970s okay but about 15 years ago an amazing Discovery was"
+  },
+  {
+    "t_start": 1367.19,
+    "t_end": 1372.19,
+    "text": "made turns out that in the correspondence between two"
+  },
+  {
+    "t_start": 1372.19,
+    "t_end": 1380.39,
+    "text": "mathematicians the whole idea of P versus NP had been explored back in 1956"
+  },
+  {
+    "t_start": 1382.71,
+    "t_end": 1386.99,
+    "text": "and that was this letter that girdle wrote to Van noyman which was discovered"
+  },
+  {
+    "t_start": 1386.99,
+    "t_end": 1393.47,
+    "text": "archives so here is a copy of the letter um I'll actually explore some"
+  },
+  {
+    "t_start": 1393.47,
+    "t_end": 1398.47,
+    "text": "details of the letter in a minute for one thing it's in German so that's a"
+  },
+  {
+    "t_start": 1398.47,
+    "t_end": 1401.149,
+    "text": "also a little hard to read from back there but we'll we'll look at it in a"
+  },
+  {
+    "t_start": 1401.149,
+    "t_end": 1405.149,
+    "text": "there but we'll we'll look at it in a bit more detail but just you know in"
+  },
+  {
+    "t_start": 1405.149,
+    "t_end": 1409.39,
+    "text": "case you don't know who girdle and vanman were um girdle was is considered"
+  },
+  {
+    "t_start": 1409.39,
+    "t_end": 1411.63,
+    "text": "vanman were um girdle was is considered to be the greatest logician of the 20th"
+  },
+  {
+    "t_start": 1411.63,
+    "t_end": 1413.43,
+    "text": "to be the greatest logician of the 20th century in the"
+  },
+  {
+    "t_start": 1413.43,
+    "t_end": 1418.47,
+    "text": "1930s he had a whole series of absolutely remarkable mathematical"
+  },
+  {
+    "t_start": 1418.47,
+    "t_end": 1423.39,
+    "text": "breakthroughs one of one of which is the incompleteness theorem which tells you"
+  },
+  {
+    "t_start": 1423.39,
+    "t_end": 1425.71,
+    "text": "incompleteness theorem which tells you that in any reasonable mathematical"
+  },
+  {
+    "t_start": 1425.71,
+    "t_end": 1428.99,
+    "text": "that in any reasonable mathematical system there are certain true statements"
+  },
+  {
+    "t_start": 1428.99,
+    "t_end": 1432.63,
+    "text": "system there are certain true statements which cannot be proven to be true within"
+  },
+  {
+    "t_start": 1432.63,
+    "t_end": 1440.269,
+    "text": "certain mathematicians of that day because they had believed belied that"
+  },
+  {
+    "t_start": 1440.269,
+    "t_end": 1442.87,
+    "text": "because they had believed belied that anything any mathematical question would"
+  },
+  {
+    "t_start": 1442.87,
+    "t_end": 1447.63,
+    "text": "anything any mathematical question would ultimately be resolved if he just worked"
+  },
+  {
+    "t_start": 1447.63,
+    "t_end": 1454.269,
+    "text": "wasn't true there are some things that are some in some sense can might never"
+  },
+  {
+    "t_start": 1454.269,
+    "t_end": 1456.43,
+    "text": "be known um this happens to be the H 100th anniversary anniversary of his"
+  },
+  {
+    "t_start": 1456.43,
+    "t_end": 1460.909,
+    "text": "birth at the same time as being the 50th anniversary of that letter so it's nice"
+  },
+  {
+    "t_start": 1460.909,
+    "t_end": 1463.11,
+    "text": "anniversary of that letter so it's nice time to talk about"
+  },
+  {
+    "t_start": 1463.11,
+    "t_end": 1468.71,
+    "text": "time to talk about it um John Van noyman was a great"
+  },
+  {
+    "t_start": 1468.71,
+    "t_end": 1470.75,
+    "text": "it um John Van noyman was a great tremendously versatile mathematician who"
+  },
+  {
+    "t_start": 1470.75,
+    "t_end": 1474.149,
+    "text": "tremendously versatile mathematician who worked in a whole bunch of different"
+  },
+  {
+    "t_start": 1474.149,
+    "t_end": 1481.11,
+    "text": "and as well as in physics and in other fields he um he was uh at the Manhattan"
+  },
+  {
+    "t_start": 1481.11,
+    "t_end": 1487.99,
+    "text": "fields he um he was uh at the Manhattan Project um and he was also a one of a"
+  },
+  {
+    "t_start": 1487.99,
+    "t_end": 1490.83,
+    "text": "very early computer scientist and is known for example for this so van noyman"
+  },
+  {
+    "t_start": 1490.83,
+    "t_end": 1493.59,
+    "text": "known for example for this so van noyman architecture that's uh you know sort of"
+  },
+  {
+    "t_start": 1493.59,
+    "t_end": 1496.149,
+    "text": "architecture that's uh you know sort of the way pretty much all computers are"
+  },
+  {
+    "t_start": 1496.149,
+    "t_end": 1499.269,
+    "text": "the way pretty much all computers are set up today is the idea of a stored"
+  },
+  {
+    "t_start": 1499.269,
+    "t_end": 1500.19,
+    "text": "program uh"
+  },
+  {
+    "t_start": 1500.19,
+    "t_end": 1505.029,
+    "text": "computer so let's look back again at his letter and I hope this comes through"
+  },
+  {
+    "t_start": 1505.029,
+    "t_end": 1510.23,
+    "text": "letter and I hope this comes through we'll see um I want I sort of focus in"
+  },
+  {
+    "t_start": 1510.23,
+    "t_end": 1513.35,
+    "text": "on a few sort of key pieces of the letter"
+  },
+  {
+    "t_start": 1518.07,
+    "t_end": 1523.63,
+    "text": "um so it starts off liba her vanman this is the salutation Dear Mr vanoyan um and"
+  },
+  {
+    "t_start": 1523.63,
+    "t_end": 1526.87,
+    "text": "is the salutation Dear Mr vanoyan um and here's the uh date March 20th"
+  },
+  {
+    "t_start": 1526.87,
+    "t_end": 1529.07,
+    "text": "here's the uh date March 20th 1956 and Prince"
+  },
+  {
+    "t_start": 1529.07,
+    "t_end": 1533.51,
+    "text": "now and one thing that's sort of curious is both girdle and vanman were at The"
+  },
+  {
+    "t_start": 1533.51,
+    "t_end": 1534.669,
+    "text": "is both girdle and vanman were at The Institute for advanced study at"
+  },
+  {
+    "t_start": 1534.669,
+    "t_end": 1536.83,
+    "text": "Institute for advanced study at Princeton presumably with offices down"
+  },
+  {
+    "t_start": 1536.83,
+    "t_end": 1542.35,
+    "text": "Princeton presumably with offices down the hall from one another um so it's"
+  },
+  {
+    "t_start": 1542.35,
+    "t_end": 1545.029,
+    "text": "sort of strange that girl is writing voman a letter like this um however you"
+  },
+  {
+    "t_start": 1545.029,
+    "t_end": 1548.59,
+    "text": "voman a letter like this um however you know one does have to point out that"
+  },
+  {
+    "t_start": 1548.59,
+    "t_end": 1551.59,
+    "text": "know one does have to point out that uh uh van noyman was very sick at the"
+  },
+  {
+    "t_start": 1551.59,
+    "t_end": 1556.19,
+    "text": "uh uh van noyman was very sick at the time in fact was dying and died within a"
+  },
+  {
+    "t_start": 1556.19,
+    "t_end": 1560.029,
+    "text": "around maybe he was at home or maybe in the hospital don't know um so that may"
+  },
+  {
+    "t_start": 1560.029,
+    "t_end": 1561.389,
+    "text": "the hospital don't know um so that may have been why he wrote wrote him a"
+  },
+  {
+    "t_start": 1561.389,
+    "t_end": 1564.389,
+    "text": "have been why he wrote wrote him a letter in fact the beginning part of the"
+  },
+  {
+    "t_start": 1564.389,
+    "t_end": 1569.31,
+    "text": "letter in fact the beginning part of the letter the first page uh of the letter"
+  },
+  {
+    "t_start": 1569.31,
+    "t_end": 1574.789,
+    "text": "girdle's hopes that he recovers and so on but then he turns to a mathematical"
+  },
+  {
+    "t_start": 1574.789,
+    "t_end": 1576.75,
+    "text": "on but then he turns to a mathematical question and this is the mathematical"
+  },
+  {
+    "t_start": 1576.75,
+    "t_end": 1582.549,
+    "text": "question and this is the mathematical question he talks about the vano he says"
+  },
+  {
+    "t_start": 1582.549,
+    "t_end": 1587.909,
+    "text": "suppose you know we have a machine he doesn't use the word computer"
+  },
+  {
+    "t_start": 1587.909,
+    "t_end": 1591.43,
+    "text": "machine he doesn't use the word computer just machine um and machine can he"
+  },
+  {
+    "t_start": 1591.43,
+    "t_end": 1594.789,
+    "text": "just machine um and machine can he actually uses word it's amazingly modern"
+  },
+  {
+    "t_start": 1594.789,
+    "t_end": 1596.35,
+    "text": "actually uses word it's amazingly modern language in this whole letter you have"
+  },
+  {
+    "t_start": 1596.35,
+    "t_end": 1598.47,
+    "text": "language in this whole letter you have to read the whole thing to appreciate it"
+  },
+  {
+    "t_start": 1598.47,
+    "t_end": 1600.47,
+    "text": "to read the whole thing to appreciate it um but it's it's very phrased in a very"
+  },
+  {
+    "t_start": 1600.47,
+    "t_end": 1602.909,
+    "text": "um but it's it's very phrased in a very modern terminology which didn't exist"
+  },
+  {
+    "t_start": 1602.909,
+    "t_end": 1607.789,
+    "text": "back then I mean he was just making this all up um for the first time really but"
+  },
+  {
+    "t_start": 1607.789,
+    "t_end": 1610.51,
+    "text": "all up um for the first time really but um he says suppose we have a machine"
+  },
+  {
+    "t_start": 1610.51,
+    "t_end": 1613.75,
+    "text": "um he says suppose we have a machine which can tell whether a mathematical"
+  },
+  {
+    "t_start": 1613.75,
+    "t_end": 1618.99,
+    "text": "which can tell whether a mathematical statement has a proof of length n for"
+  },
+  {
+    "t_start": 1618.99,
+    "t_end": 1623.07,
+    "text": "how much time does that machine need and remember that's the question we talked"
+  },
+  {
+    "t_start": 1623.07,
+    "t_end": 1627.47,
+    "text": "remember that's the question we talked about just a few slides back this is a"
+  },
+  {
+    "t_start": 1627.47,
+    "t_end": 1630.63,
+    "text": "machine can certainly get the answer but it would have to search through all"
+  },
+  {
+    "t_start": 1630.63,
+    "t_end": 1632.35,
+    "text": "it would have to search through all possible proofs of length n and that"
+  },
+  {
+    "t_start": 1632.35,
+    "t_end": 1637.11,
+    "text": "possible proofs of length n and that would take a long time so here is what"
+  },
+  {
+    "t_start": 1637.11,
+    "t_end": 1642.23,
+    "text": "says you know def Fraga East blah blah blah the question"
+  },
+  {
+    "t_start": 1642.23,
+    "t_end": 1643.99,
+    "text": "blah the question is"
+  },
+  {
+    "t_start": 1643.99,
+    "t_end": 1648.99,
+    "text": "translated how fast does Fe ofen grow for an opal machine and you can sort of"
+  },
+  {
+    "t_start": 1648.99,
+    "t_end": 1655.75,
+    "text": "see it I think if you can read the uh the hand handwriting there um f of n is"
+  },
+  {
+    "t_start": 1655.75,
+    "t_end": 1659.99,
+    "text": "the hand handwriting there um f of n is the amount of uh time the machine know"
+  },
+  {
+    "t_start": 1659.99,
+    "t_end": 1662.99,
+    "text": "the amount of uh time the machine know needs to to make this test of whether"
+  },
+  {
+    "t_start": 1662.99,
+    "t_end": 1665.389,
+    "text": "needs to to make this test of whether the math ma mathematical statement has a"
+  },
+  {
+    "t_start": 1665.389,
+    "t_end": 1667.23,
+    "text": "the math ma mathematical statement has a proof of length"
+  },
+  {
+    "t_start": 1667.23,
+    "t_end": 1672.87,
+    "text": "n so in other words if F of n is"
+  },
+  {
+    "t_start": 1672.87,
+    "t_end": 1675.029,
+    "text": "words if F of n is polinomial then this problem is is"
+  },
+  {
+    "t_start": 1675.029,
+    "t_end": 1678.75,
+    "text": "polinomial then this problem is is becomes in P if F of n is more than"
+  },
+  {
+    "t_start": 1678.75,
+    "t_end": 1684.669,
+    "text": "then it's not in P so in fact really what this thing is saying this this this"
+  },
+  {
+    "t_start": 1684.669,
+    "t_end": 1689.63,
+    "text": "what this thing is saying this this this little section here is the P versus NP"
+  },
+  {
+    "t_start": 1689.63,
+    "t_end": 1695.63,
+    "text": "there kind of amazing that in in a very real sense the the P ver NP question has"
+  },
+  {
+    "t_start": 1695.63,
+    "t_end": 1697.789,
+    "text": "real sense the the P ver NP question has been explicitly stated in this"
+  },
+  {
+    "t_start": 1697.789,
+    "t_end": 1703.669,
+    "text": "letter then he goes on to talk about that this would be uh very important to"
+  },
+  {
+    "t_start": 1703.669,
+    "t_end": 1705.47,
+    "text": "that this would be uh very important to resolve this question it's a very"
+  },
+  {
+    "t_start": 1705.47,
+    "t_end": 1708.149,
+    "text": "resolve this question it's a very significant uh uh one way or the other"
+  },
+  {
+    "t_start": 1708.149,
+    "t_end": 1714.59,
+    "text": "significant uh uh one way or the other other um and over here"
+  },
+  {
+    "t_start": 1714.59,
+    "t_end": 1721.509,
+    "text": "oops he refers to bossen probin which I think Loosely translates to brute force"
+  },
+  {
+    "t_start": 1721.509,
+    "t_end": 1723.43,
+    "text": "think Loosely translates to brute force or exhaustive search I think it"
+  },
+  {
+    "t_start": 1723.43,
+    "t_end": 1725.43,
+    "text": "or exhaustive search I think it literally means something like blind or"
+  },
+  {
+    "t_start": 1725.43,
+    "t_end": 1727.11,
+    "text": "literally means something like blind or or bar"
+  },
+  {
+    "t_start": 1727.11,
+    "t_end": 1732.19,
+    "text": "trying but you know it's he's aware of this issue of exhaustive search as you"
+  },
+  {
+    "t_start": 1732.19,
+    "t_end": 1736.19,
+    "text": "this issue of exhaustive search as you know the uh what would is if if you"
+  },
+  {
+    "t_start": 1736.19,
+    "t_end": 1743.47,
+    "text": "anything um to to uh to test if this this proof of length n"
+  },
+  {
+    "t_start": 1743.47,
+    "t_end": 1749.59,
+    "text": "existed and then he goes on to mention the problem of testing"
+  },
+  {
+    "t_start": 1749.59,
+    "t_end": 1755.509,
+    "text": "perality and in fact how many steps you need to solve in general finite"
+  },
+  {
+    "t_start": 1755.509,
+    "t_end": 1757.389,
+    "text": "need to solve in general finite combinatorial"
+  },
+  {
+    "t_start": 1757.389,
+    "t_end": 1761.23,
+    "text": "problems such as like you know he doesn't say this but you the finite"
+  },
+  {
+    "t_start": 1761.23,
+    "t_end": 1763.509,
+    "text": "doesn't say this but you the finite comori finite combinatorial problems"
+  },
+  {
+    "t_start": 1763.509,
+    "t_end": 1770.63,
+    "text": "would be like the Click problem or scheduling problem or stuff like that so"
+  },
+  {
+    "t_start": 1770.63,
+    "t_end": 1772.269,
+    "text": "he really has a vision"
+  },
+  {
+    "t_start": 1772.269,
+    "t_end": 1776.63,
+    "text": "of what's important about this question and and and really kind of predicted"
+  },
+  {
+    "t_start": 1776.63,
+    "t_end": 1778.549,
+    "text": "and and and really kind of predicted where the field is going where the field"
+  },
+  {
+    "t_start": 1778.549,
+    "t_end": 1784.269,
+    "text": "went over the next you know 15 20 years it's just I think an amazing document in"
+  },
+  {
+    "t_start": 1784.269,
+    "t_end": 1785.83,
+    "text": "it's just I think an amazing document in the history of science that this that"
+  },
+  {
+    "t_start": 1785.83,
+    "t_end": 1794.63,
+    "text": "this thing was discovered um anyway uh so in the 50 years since girdle's letter"
+  },
+  {
+    "t_start": 1794.63,
+    "t_end": 1798.029,
+    "text": "so in the 50 years since girdle's letter um P versus NP question has kind of"
+  },
+  {
+    "t_start": 1798.029,
+    "t_end": 1800.509,
+    "text": "um P versus NP question has kind of ained a certain almost Mythic status"
+  },
+  {
+    "t_start": 1800.509,
+    "t_end": 1802.43,
+    "text": "ained a certain almost Mythic status within computer science field within"
+  },
+  {
+    "t_start": 1802.43,
+    "t_end": 1806.87,
+    "text": "within computer science field within theoretical computer science it's kind"
+  },
+  {
+    "t_start": 1806.87,
+    "t_end": 1809.35,
+    "text": "of now thought of as the Holy Grail problem of theoretical computer science"
+  },
+  {
+    "t_start": 1809.35,
+    "t_end": 1811.269,
+    "text": "problem of theoretical computer science and also within the mathematical"
+  },
+  {
+    "t_start": 1811.269,
+    "t_end": 1813.789,
+    "text": "and also within the mathematical Community it's it's considered to be one"
+  },
+  {
+    "t_start": 1813.789,
+    "t_end": 1816.87,
+    "text": "Community it's it's considered to be one of the great problems in contemporary"
+  },
+  {
+    "t_start": 1816.87,
+    "t_end": 1819.75,
+    "text": "of the great problems in contemporary mathematics um you know the"
+  },
+  {
+    "t_start": 1819.75,
+    "t_end": 1822.75,
+    "text": "mathematics um you know the clay Institute"
+  },
+  {
+    "t_start": 1822.75,
+    "t_end": 1828.47,
+    "text": "clay Institute has uh been responsible for this list of"
+  },
+  {
+    "t_start": 1828.47,
+    "t_end": 1833.269,
+    "text": "uh math problems this I guess they organized a committee of folks and I'm"
+  },
+  {
+    "t_start": 1833.269,
+    "t_end": 1834.23,
+    "text": "organized a committee of folks and I'm not sure I know the whole full"
+  },
+  {
+    "t_start": 1834.23,
+    "t_end": 1837.31,
+    "text": "not sure I know the whole full background but they there was a uh group"
+  },
+  {
+    "t_start": 1837.31,
+    "t_end": 1839.789,
+    "text": "background but they there was a uh group of mathematicians who put this list"
+  },
+  {
+    "t_start": 1839.789,
+    "t_end": 1842.23,
+    "text": "of mathematicians who put this list together um in the year"
+  },
+  {
+    "t_start": 1842.23,
+    "t_end": 1848.87,
+    "text": "2000 sort of um patterned after the list that Hilbert put together a century"
+  },
+  {
+    "t_start": 1848.87,
+    "t_end": 1851.71,
+    "text": "that Hilbert put together a century before and these are great unsolved"
+  },
+  {
+    "t_start": 1851.71,
+    "t_end": 1854.11,
+    "text": "before and these are great unsolved problems of mathematics today which kind"
+  },
+  {
+    "t_start": 1854.11,
+    "t_end": 1860.549,
+    "text": "mathematicians for the coming century um and as you can see p versus NP Pro the P"
+  },
+  {
+    "t_start": 1860.549,
+    "t_end": 1861.789,
+    "text": "and as you can see p versus NP Pro the P vers NP problem is one of the problems"
+  },
+  {
+    "t_start": 1861.789,
+    "t_end": 1867.35,
+    "text": "vers NP problem is one of the problems on this list I was happy to see that um"
+  },
+  {
+    "t_start": 1867.35,
+    "t_end": 1869.789,
+    "text": "and uh one thing that's different between the clay list and the Hilbert"
+  },
+  {
+    "t_start": 1869.789,
+    "t_end": 1875.029,
+    "text": "between the clay list and the Hilbert list is that the clay Institute is also"
+  },
+  {
+    "t_start": 1875.029,
+    "t_end": 1879.75,
+    "text": "offering a million dollars for the solution to any one of these problems so"
+  },
+  {
+    "t_start": 1879.75,
+    "t_end": 1883.75,
+    "text": "um and you might notice that the top problem on the list has a little check"
+  },
+  {
+    "t_start": 1883.75,
+    "t_end": 1885.029,
+    "text": "problem on the list has a little check mark there it doesn't have a bullet"
+  },
+  {
+    "t_start": 1885.029,
+    "t_end": 1886.19,
+    "text": "mark there it doesn't have a bullet anymore because that problem has"
+  },
+  {
+    "t_start": 1886.19,
+    "t_end": 1888.75,
+    "text": "anymore because that problem has actually been solved um you probably"
+  },
+  {
+    "t_start": 1888.75,
+    "t_end": 1893.83,
+    "text": "know uh the story of Pearlman I'm not going to get into that whole complicated"
+  },
+  {
+    "t_start": 1893.83,
+    "t_end": 1898.47,
+    "text": "going to get into that whole complicated mess uh but he uh didn't accept the"
+  },
+  {
+    "t_start": 1898.47,
+    "t_end": 1903.669,
+    "text": "mess uh but he uh didn't accept the fields medal um uh few month ago or so"
+  },
+  {
+    "t_start": 1903.669,
+    "t_end": 1905.549,
+    "text": "fields medal um uh few month ago or so and um even though he's the one who"
+  },
+  {
+    "t_start": 1905.549,
+    "t_end": 1908.95,
+    "text": "and um even though he's the one who solved this problem and it's not known"
+  },
+  {
+    "t_start": 1908.95,
+    "t_end": 1910.19,
+    "text": "solved this problem and it's not known yet whether he's going to accept a"
+  },
+  {
+    "t_start": 1910.19,
+    "t_end": 1913.47,
+    "text": "yet whether he's going to accept a million dollars that has not been um"
+  },
+  {
+    "t_start": 1913.47,
+    "t_end": 1914.95,
+    "text": "million dollars that has not been um there's a sort of a two-year delay"
+  },
+  {
+    "t_start": 1914.95,
+    "t_end": 1919.35,
+    "text": "there's a sort of a two-year delay before they uh before they give the the"
+  },
+  {
+    "t_start": 1919.35,
+    "t_end": 1923.83,
+    "text": "before they uh before they give the the million dollars out I guess it's a"
+  },
+  {
+    "t_start": 1923.83,
+    "t_end": 1925.149,
+    "text": "little bit more than just uh you know got to be careful with those million"
+  },
+  {
+    "t_start": 1925.149,
+    "t_end": 1926.99,
+    "text": "got to be careful with those million bucks"
+  },
+  {
+    "t_start": 1926.99,
+    "t_end": 1931.669,
+    "text": "bucks uh so"
+  },
+  {
+    "t_start": 1931.669,
+    "t_end": 1936.83,
+    "text": "um uh um so anyway that's you know I had to"
+  },
+  {
+    "t_start": 1936.83,
+    "t_end": 1939.23,
+    "text": "uh um so anyway that's you know I had to guess I bet he'll he'll accept this one"
+  },
+  {
+    "t_start": 1939.23,
+    "t_end": 1942.389,
+    "text": "guess I bet he'll he'll accept this one um but but I actually I really maybe not"
+  },
+  {
+    "t_start": 1942.389,
+    "t_end": 1945.75,
+    "text": "um but but I actually I really maybe not who's to say"
+  },
+  {
+    "t_start": 1945.75,
+    "t_end": 1951.509,
+    "text": "um so yeah oh yeah so before I get to that I want to say one thing about P"
+  },
+  {
+    "t_start": 1951.509,
+    "t_end": 1953.95,
+    "text": "that I want to say one thing about P versus NP getting back to that"
+  },
+  {
+    "t_start": 1953.95,
+    "t_end": 1959.669,
+    "text": "question some sense you know P versus NP question said do you really need to"
+  },
+  {
+    "t_start": 1959.669,
+    "t_end": 1962.669,
+    "text": "question said do you really need to search when you have a searching"
+  },
+  {
+    "t_start": 1962.669,
+    "t_end": 1969.269,
+    "text": "problem and you know in some sense you know if you're you might think that's"
+  },
+  {
+    "t_start": 1969.269,
+    "t_end": 1971.389,
+    "text": "kind of obvious obviously you need to search if you have a searching problem"
+  },
+  {
+    "t_start": 1971.389,
+    "t_end": 1976.87,
+    "text": "search if you have a searching problem and you know believe it or not I get a"
+  },
+  {
+    "t_start": 1976.87,
+    "t_end": 1978.669,
+    "text": "couple of times a year I get a manuscript of someone purporting to"
+  },
+  {
+    "t_start": 1978.669,
+    "t_end": 1980.43,
+    "text": "manuscript of someone purporting to solve the P versus MP"
+  },
+  {
+    "t_start": 1980.43,
+    "t_end": 1982.669,
+    "text": "solve the P versus MP question some reason I'm"
+  },
+  {
+    "t_start": 1982.669,
+    "t_end": 1986.59,
+    "text": "question some reason I'm a I get sent these things I don't know"
+  },
+  {
+    "t_start": 1986.59,
+    "t_end": 1988.549,
+    "text": "why um"
+  },
+  {
+    "t_start": 1988.549,
+    "t_end": 1993.909,
+    "text": "and they uh they"
+  },
+  {
+    "t_start": 1993.909,
+    "t_end": 2000.629,
+    "text": "invariably even though they're like 40 pages long all they the the the essence"
+  },
+  {
+    "t_start": 2000.629,
+    "t_end": 2003.789,
+    "text": "pages long all they the the the essence of it is the problem's obviously"
+  },
+  {
+    "t_start": 2003.789,
+    "t_end": 2006.629,
+    "text": "of it is the problem's obviously true that's the content pretty much"
+  },
+  {
+    "t_start": 2006.629,
+    "t_end": 2008.11,
+    "text": "true that's the content pretty much always in these papers and you know"
+  },
+  {
+    "t_start": 2008.11,
+    "t_end": 2010.789,
+    "text": "always in these papers and you know there's a lot of complicated calculation"
+  },
+  {
+    "t_start": 2010.789,
+    "t_end": 2013.909,
+    "text": "but they basically all say well you have to solve these problems by searching and"
+  },
+  {
+    "t_start": 2013.909,
+    "t_end": 2015.909,
+    "text": "to solve these problems by searching and searching takes a long time calculate"
+  },
+  {
+    "t_start": 2015.909,
+    "t_end": 2017.23,
+    "text": "searching takes a long time calculate calculate"
+  },
+  {
+    "t_start": 2017.23,
+    "t_end": 2024.669,
+    "text": "calculate um so um what I want to show you is that"
+  },
+  {
+    "t_start": 2024.669,
+    "t_end": 2027.07,
+    "text": "um so um what I want to show you is that sometimes you can avoid searching where"
+  },
+  {
+    "t_start": 2027.07,
+    "t_end": 2029.07,
+    "text": "sometimes you can avoid searching where you might think you would otherwise need"
+  },
+  {
+    "t_start": 2029.07,
+    "t_end": 2032.43,
+    "text": "you might think you would otherwise need it and I'm not going to be able to do"
+  },
+  {
+    "t_start": 2032.43,
+    "t_end": 2033.71,
+    "text": "that in detail because it would get too technical but I want to give you a bit"
+  },
+  {
+    "t_start": 2033.71,
+    "t_end": 2037.029,
+    "text": "technical but I want to give you a bit of a flavor of why how that might happen"
+  },
+  {
+    "t_start": 2037.029,
+    "t_end": 2042.389,
+    "text": "of a flavor of why how that might happen and that's the case of testing whether a"
+  },
+  {
+    "t_start": 2045.269,
+    "t_end": 2046.71,
+    "text": "prime okay so this is actually the one of the problems that you know the"
+  },
+  {
+    "t_start": 2046.71,
+    "t_end": 2049.109,
+    "text": "of the problems that you know the problem that girdle mentioned in his"
+  },
+  {
+    "t_start": 2049.109,
+    "t_end": 2054.31,
+    "text": "letter um as one that might seem to require searching and at superficially"
+  },
+  {
+    "t_start": 2054.31,
+    "t_end": 2057.669,
+    "text": "require searching and at superficially the only way the way you would test if a"
+  },
+  {
+    "t_start": 2057.669,
+    "t_end": 2061.589,
+    "text": "would factor a number you would do trial division of lots of possibilities and if"
+  },
+  {
+    "t_start": 2061.589,
+    "t_end": 2068.149,
+    "text": "you if you fail to find a factor then you know the number is prime if you find"
+  },
+  {
+    "t_start": 2068.149,
+    "t_end": 2070.669,
+    "text": "a factor you know it's not Prime but there that's very slow as I pointed out"
+  },
+  {
+    "t_start": 2070.669,
+    "t_end": 2072.349,
+    "text": "there that's very slow as I pointed out that searching type method but there's a"
+  },
+  {
+    "t_start": 2072.349,
+    "t_end": 2074.829,
+    "text": "that searching type method but there's a there we now know that there are"
+  },
+  {
+    "t_start": 2074.829,
+    "t_end": 2077.03,
+    "text": "there we now know that there are dramatically faster ways of testing if a"
+  },
+  {
+    "t_start": 2077.03,
+    "t_end": 2082.19,
+    "text": "dramatically faster ways of testing if a number is prime and I give you a little"
+  },
+  {
+    "t_start": 2082.19,
+    "t_end": 2084.75,
+    "text": "flavor of how that goes um and the B these all sort of rest on a centuries"
+  },
+  {
+    "t_start": 2084.75,
+    "t_end": 2087.43,
+    "text": "these all sort of rest on a centuries old theorem due to"
+  },
+  {
+    "t_start": 2087.43,
+    "t_end": 2092.99,
+    "text": "Forma um in number Theory and you know this is as technical as the talk is"
+  },
+  {
+    "t_start": 2092.99,
+    "t_end": 2098.15,
+    "text": "this is as technical as the talk is going to get so I would say this is a"
+  },
+  {
+    "t_start": 2098.15,
+    "t_end": 2105.31,
+    "text": "technical I keep on pointing at my my laptop there which I know you can't"
+  },
+  {
+    "t_start": 2105.31,
+    "t_end": 2107.15,
+    "text": "see uh um this is a"
+  },
+  {
+    "t_start": 2107.15,
+    "t_end": 2108.15,
+    "text": "a uh"
+  },
+  {
+    "t_start": 2108.15,
+    "t_end": 2112.349,
+    "text": "uh [Music]"
+  },
+  {
+    "t_start": 2114.109,
+    "t_end": 2118.51,
+    "text": "uh okay let's just let's let me walk you through this I"
+  },
+  {
+    "t_start": 2118.51,
+    "t_end": 2122.51,
+    "text": "mean it's worth trying to figure to understand in this because it's very"
+  },
+  {
+    "t_start": 2122.51,
+    "t_end": 2126.99,
+    "text": "nice so try try to bear with me what this theorem says is that if you have a"
+  },
+  {
+    "t_start": 2126.99,
+    "t_end": 2128.91,
+    "text": "this theorem says is that if you have a prime number"
+  },
+  {
+    "t_start": 2128.91,
+    "t_end": 2136.71,
+    "text": "P like take seven for example and you have a natural number a less than P like"
+  },
+  {
+    "t_start": 2136.71,
+    "t_end": 2140.069,
+    "text": "have a natural number a less than P like take two for example so P equal to 7 a"
+  },
+  {
+    "t_start": 2140.069,
+    "t_end": 2146.55,
+    "text": "equal to two then if you raise a to the P minus"
+  },
+  {
+    "t_start": 2146.55,
+    "t_end": 2152.309,
+    "text": "one power you always get one modulo p and"
+  },
+  {
+    "t_start": 2152.309,
+    "t_end": 2153.87,
+    "text": "power you always get one modulo p and saying that in"
+  },
+  {
+    "t_start": 2153.87,
+    "t_end": 2158.87,
+    "text": "English it says that if you take the number a which is two in our example you"
+  },
+  {
+    "t_start": 2158.87,
+    "t_end": 2161.069,
+    "text": "number a which is two in our example you raise it to the P minus one power then"
+  },
+  {
+    "t_start": 2161.069,
+    "t_end": 2164.349,
+    "text": "raise it to the P minus one power then you divide by P and take the remainder"
+  },
+  {
+    "t_start": 2164.349,
+    "t_end": 2165.99,
+    "text": "you divide by P and take the remainder so throw away the quotient only look at"
+  },
+  {
+    "t_start": 2165.99,
+    "t_end": 2167.91,
+    "text": "so throw away the quotient only look at the remainder after you do the division"
+  },
+  {
+    "t_start": 2167.91,
+    "t_end": 2174.43,
+    "text": "you always get one for the remainder so let's actually walk ourselves through an"
+  },
+  {
+    "t_start": 2174.43,
+    "t_end": 2176.51,
+    "text": "let's actually walk ourselves through an example so"
+  },
+  {
+    "t_start": 2176.51,
+    "t_end": 2182.71,
+    "text": "if p is seven and a is two as I mentioned you raise two which is a to"
+  },
+  {
+    "t_start": 2182.71,
+    "t_end": 2189.63,
+    "text": "mentioned you raise two which is a to the 7 minus 1 or 6 power which is 64"
+  },
+  {
+    "t_start": 2192.15,
+    "t_end": 2199.19,
+    "text": "seven and take the remainder now 63 is a multiple of seven so 64 has a remainder"
+  },
+  {
+    "t_start": 2199.19,
+    "t_end": 2202.23,
+    "text": "multiple of seven so 64 has a remainder one when you divide by seven"
+  },
+  {
+    "t_start": 2202.23,
+    "t_end": 2205.15,
+    "text": "one when you divide by seven works okay and it works whenever you"
+  },
+  {
+    "t_start": 2205.15,
+    "t_end": 2206.63,
+    "text": "works okay and it works whenever you meet the conditions of the theorem for"
+  },
+  {
+    "t_start": 2206.63,
+    "t_end": 2210.03,
+    "text": "meet the conditions of the theorem for any Prime and any a and and and any such"
+  },
+  {
+    "t_start": 2210.03,
+    "t_end": 2213.309,
+    "text": "any Prime and any a and and and any such a you're always going to get one which"
+  },
+  {
+    "t_start": 2213.309,
+    "t_end": 2216.19,
+    "text": "think big deal but it's kind of amazing that this works if you actually try it"
+  },
+  {
+    "t_start": 2216.19,
+    "t_end": 2218.03,
+    "text": "that this works if you actually try it out in a bunch of examples"
+  },
+  {
+    "t_start": 2218.03,
+    "t_end": 2222.829,
+    "text": "and just in contrast if you try an example where the where p is not"
+  },
+  {
+    "t_start": 2222.829,
+    "t_end": 2228.43,
+    "text": "prime you'll see it fails to work so if you take P equal to 15 and a equal to"
+  },
+  {
+    "t_start": 2228.43,
+    "t_end": 2232.829,
+    "text": "you take P equal to 15 and a equal to two then you raise two to the 14th power"
+  },
+  {
+    "t_start": 2232.829,
+    "t_end": 2241.23,
+    "text": "16384 and you divide by 15 and take the remainder you get four which is not"
+  },
+  {
+    "t_start": 2241.23,
+    "t_end": 2247.03,
+    "text": "one so you see that equation fails in the case where can fail anyway when in"
+  },
+  {
+    "t_start": 2247.03,
+    "t_end": 2252.43,
+    "text": "the case where can fail anyway when in the case where p is not Prime and what's"
+  },
+  {
+    "t_start": 2252.43,
+    "t_end": 2257.589,
+    "text": "calculation that I just did proves to you that 15 isn't Prime of course we"
+  },
+  {
+    "t_start": 2257.589,
+    "t_end": 2259.589,
+    "text": "you that 15 isn't Prime of course we knew that"
+  },
+  {
+    "t_start": 2259.589,
+    "t_end": 2263.51,
+    "text": "already but this proves it to you in a different"
+  },
+  {
+    "t_start": 2263.51,
+    "t_end": 2268.95,
+    "text": "way it doesn't prove it to you by exhibiting the factors 3 * 5 of P it"
+  },
+  {
+    "t_start": 2268.95,
+    "t_end": 2273.91,
+    "text": "proves it to you by saying well P fails to have a property that we know prime"
+  },
+  {
+    "t_start": 2273.91,
+    "t_end": 2276.63,
+    "text": "to have a property that we know prime numbers have and therefore it can't be"
+  },
+  {
+    "t_start": 2276.63,
+    "t_end": 2279.069,
+    "text": "numbers have and therefore it can't be Prime"
+  },
+  {
+    "t_start": 2279.069,
+    "t_end": 2283.109,
+    "text": "and the thing is is that you can use this as a basis of a"
+  },
+  {
+    "t_start": 2283.109,
+    "t_end": 2289.109,
+    "text": "test basis of an algorithm which can test primality"
+  },
+  {
+    "t_start": 2289.109,
+    "t_end": 2291.109,
+    "text": "algorithm which can test primality without going through the factorization"
+  },
+  {
+    "t_start": 2291.109,
+    "t_end": 2295.87,
+    "text": "process and in fact you know initially it was a randomized algorithm and since"
+  },
+  {
+    "t_start": 2295.87,
+    "t_end": 2298.15,
+    "text": "it was a randomized algorithm and since you know it's been since sort of"
+  },
+  {
+    "t_start": 2298.15,
+    "t_end": 2303.309,
+    "text": "you with lots of additional ideas been made into a deterministic algorithm and"
+  },
+  {
+    "t_start": 2303.309,
+    "t_end": 2306.67,
+    "text": "made into a deterministic algorithm and now we know that the problem of testing"
+  },
+  {
+    "t_start": 2306.67,
+    "t_end": 2308.349,
+    "text": "of a numberers prime can be solved quickly in polinomial"
+  },
+  {
+    "t_start": 2308.349,
+    "t_end": 2313.87,
+    "text": "time okay so searching can be eliminated okay now let me tell you a"
+  },
+  {
+    "t_start": 2313.87,
+    "t_end": 2316.27,
+    "text": "eliminated okay now let me tell you a little bit about this notion of NP"
+  },
+  {
+    "t_start": 2316.27,
+    "t_end": 2318.99,
+    "text": "little bit about this notion of NP completeness"
+  },
+  {
+    "t_start": 2318.99,
+    "t_end": 2325.71,
+    "text": "um all right um I would say NP completeness was was perhaps the first"
+  },
+  {
+    "t_start": 2325.71,
+    "t_end": 2332.069,
+    "text": "completeness was was perhaps the first and maybe the only important step that's"
+  },
+  {
+    "t_start": 2332.069,
+    "t_end": 2335.43,
+    "text": "been made towards solving the pnnp question and it's a it's a nice kind of"
+  },
+  {
+    "t_start": 2335.43,
+    "t_end": 2340.71,
+    "text": "explainable idea it's kind of amazing in its own right but NP completeness is is"
+  },
+  {
+    "t_start": 2340.71,
+    "t_end": 2345.47,
+    "text": "its own right but NP completeness is is this it tells you that the the that the"
+  },
+  {
+    "t_start": 2345.47,
+    "t_end": 2348.829,
+    "text": "this it tells you that the the that the problems in NP these searching problems"
+  },
+  {
+    "t_start": 2348.829,
+    "t_end": 2353.47,
+    "text": "problems in NP these searching problems are in many cases linked to one"
+  },
+  {
+    "t_start": 2357.71,
+    "t_end": 2360.55,
+    "text": "another and what I mean by that is if you find a way of solving the click"
+  },
+  {
+    "t_start": 2360.55,
+    "t_end": 2362.71,
+    "text": "you find a way of solving the click problem remember this you know this"
+  },
+  {
+    "t_start": 2362.71,
+    "t_end": 2365.99,
+    "text": "problem remember this you know this problem with the net network of nodes if"
+  },
+  {
+    "t_start": 2365.99,
+    "t_end": 2368.63,
+    "text": "you can find a way of solving that problem without"
+  },
+  {
+    "t_start": 2368.63,
+    "t_end": 2375.19,
+    "text": "searching you immediately get a way of solving the factoring problem without"
+  },
+  {
+    "t_start": 2375.19,
+    "t_end": 2378.589,
+    "text": "solving the factoring problem without searching even though those two problems"
+  },
+  {
+    "t_start": 2378.589,
+    "t_end": 2381.47,
+    "text": "searching even though those two problems don't look anything like one another"
+  },
+  {
+    "t_start": 2381.47,
+    "t_end": 2384.109,
+    "text": "don't look anything like one another whatsoever a fast way of soling Click"
+  },
+  {
+    "t_start": 2384.109,
+    "t_end": 2386.23,
+    "text": "whatsoever a fast way of soling Click will immediately translate into a fast"
+  },
+  {
+    "t_start": 2386.23,
+    "t_end": 2392.63,
+    "text": "will immediately translate into a fast way of solving Factory why would that be"
+  },
+  {
+    "t_start": 2392.63,
+    "t_end": 2394.91,
+    "text": "true well the reason for that is that there are these"
+  },
+  {
+    "t_start": 2394.91,
+    "t_end": 2402.109,
+    "text": "Transformers that can convert factoring problems into click"
+  },
+  {
+    "t_start": 2402.109,
+    "t_end": 2406.75,
+    "text": "problems so if you have a fast way of solving the click problem and you want"
+  },
+  {
+    "t_start": 2406.75,
+    "t_end": 2413.75,
+    "text": "solving the click problem and you want to solve your factoring problem you just"
+  },
+  {
+    "t_start": 2416.03,
+    "t_end": 2419.069,
+    "text": "Transformer Transformer thinks around thinks for a"
+  },
+  {
+    "t_start": 2432.03,
+    "t_end": 2434.27,
+    "text": "I can do that again if you want and the nice thing about the click"
+  },
+  {
+    "t_start": 2434.27,
+    "t_end": 2436.99,
+    "text": "want and the nice thing about the click problem that gets spit out is that if"
+  },
+  {
+    "t_start": 2436.99,
+    "t_end": 2439.109,
+    "text": "problem that gets spit out is that if you find a large"
+  },
+  {
+    "t_start": 2439.109,
+    "t_end": 2445.15,
+    "text": "click in that Network that gets produced it immediately translates into the"
+  },
+  {
+    "t_start": 2445.15,
+    "t_end": 2451.03,
+    "text": "factors of the original factoring problem so you get the idea that's why"
+  },
+  {
+    "t_start": 2451.03,
+    "t_end": 2452.67,
+    "text": "problem so you get the idea that's why these The Click problem is related to"
+  },
+  {
+    "t_start": 2452.67,
+    "t_end": 2454.03,
+    "text": "these The Click problem is related to the factoring problem this way and"
+  },
+  {
+    "t_start": 2454.03,
+    "t_end": 2455.91,
+    "text": "the factoring problem this way and incidentally the reverse transformation"
+  },
+  {
+    "t_start": 2455.91,
+    "t_end": 2459.349,
+    "text": "incidentally the reverse transformation is not known to be true so we don't know"
+  },
+  {
+    "t_start": 2459.349,
+    "t_end": 2461.589,
+    "text": "how to convert click problems into factoring problems only only this way"
+  },
+  {
+    "t_start": 2461.589,
+    "t_end": 2462.91,
+    "text": "factoring problems only only this way however click is"
+  },
+  {
+    "t_start": 2462.91,
+    "t_end": 2469.79,
+    "text": "still this this phenomenon is not unique to factoring in that you can convert any"
+  },
+  {
+    "t_start": 2469.79,
+    "t_end": 2472.829,
+    "text": "to factoring in that you can convert any NP problem to a click"
+  },
+  {
+    "t_start": 2472.829,
+    "t_end": 2479.349,
+    "text": "problem so what that tells you is that CLE The Click problems in some sense the"
+  },
+  {
+    "t_start": 2479.349,
+    "t_end": 2482.349,
+    "text": "CLE The Click problems in some sense the granddaddy of all problems in NP because"
+  },
+  {
+    "t_start": 2482.349,
+    "t_end": 2486.19,
+    "text": "granddaddy of all problems in NP because you can convert any NP problem into a"
+  },
+  {
+    "t_start": 2486.19,
+    "t_end": 2491.67,
+    "text": "solve The Click problem quickly you can solve any NP problem quickly and then P"
+  },
+  {
+    "t_start": 2491.67,
+    "t_end": 2494.63,
+    "text": "solve any NP problem quickly and then P equals"
+  },
+  {
+    "t_start": 2498.349,
+    "t_end": 2500.51,
+    "text": "NP that's what it means for click to be n it's not the only one there are many"
+  },
+  {
+    "t_start": 2500.51,
+    "t_end": 2502.23,
+    "text": "n it's not the only one there are many other problems which are NP complete but"
+  },
+  {
+    "t_start": 2502.23,
+    "t_end": 2509.349,
+    "text": "other problems which are NP complete but click is a you know one of the problem"
+  },
+  {
+    "t_start": 2509.349,
+    "t_end": 2511.75,
+    "text": "we were looking at okay um oh yeah so let me also mention a little bit more"
+  },
+  {
+    "t_start": 2511.75,
+    "t_end": 2513.63,
+    "text": "so let me also mention a little bit more about NP just to sort of clarify what's"
+  },
+  {
+    "t_start": 2513.63,
+    "t_end": 2518.71,
+    "text": "going on with NP a bit you know I said that NP are the problems that where you"
+  },
+  {
+    "t_start": 2518.71,
+    "t_end": 2522.75,
+    "text": "that NP are the problems that where you can solve by searching but where you can"
+  },
+  {
+    "t_start": 2522.75,
+    "t_end": 2527.71,
+    "text": "quickly so just to contrast that there are certain problems that you can solve"
+  },
+  {
+    "t_start": 2527.71,
+    "t_end": 2531.03,
+    "text": "are certain problems that you can solve by be able to check the answer quickly"
+  },
+  {
+    "t_start": 2531.03,
+    "t_end": 2532.55,
+    "text": "by be able to check the answer quickly it's not a given that just because you"
+  },
+  {
+    "t_start": 2532.55,
+    "t_end": 2533.87,
+    "text": "it's not a given that just because you can solve it by searching that you can"
+  },
+  {
+    "t_start": 2533.87,
+    "t_end": 2536.55,
+    "text": "can solve it by searching that you can always check the answer correctly"
+  },
+  {
+    "t_start": 2536.55,
+    "t_end": 2542.03,
+    "text": "always check the answer correctly um so take the case of"
+  },
+  {
+    "t_start": 2542.03,
+    "t_end": 2544.19,
+    "text": "um so take the case of Chess and you want to"
+  },
+  {
+    "t_start": 2544.19,
+    "t_end": 2551.79,
+    "text": "know which side would win under optimal play if both sides played perfectly"
+  },
+  {
+    "t_start": 2551.79,
+    "t_end": 2554.47,
+    "text": "play if both sides played perfectly would white win would black win or would"
+  },
+  {
+    "t_start": 2554.47,
+    "t_end": 2556.309,
+    "text": "would white win would black win or would it be a"
+  },
+  {
+    "t_start": 2556.309,
+    "t_end": 2563.15,
+    "text": "draw Nobody Knows the answer to that problem in principle you could figure it"
+  },
+  {
+    "t_start": 2563.15,
+    "t_end": 2567.67,
+    "text": "problem in principle you could figure it out by going through the entire game"
+  },
+  {
+    "t_start": 2567.67,
+    "t_end": 2572.109,
+    "text": "out by going through the entire game tree of all the possible games that you"
+  },
+  {
+    "t_start": 2572.109,
+    "t_end": 2575.069,
+    "text": "could have in chess but that's an astronomically big number you"
+  },
+  {
+    "t_start": 2575.069,
+    "t_end": 2579.349,
+    "text": "know and would take horrendous mendous amount of time longer than the lifetime"
+  },
+  {
+    "t_start": 2579.349,
+    "t_end": 2580.309,
+    "text": "amount of time longer than the lifetime of the"
+  },
+  {
+    "t_start": 2580.309,
+    "t_end": 2586.23,
+    "text": "of the Universe um and so it's not practical to"
+  },
+  {
+    "t_start": 2586.23,
+    "t_end": 2591.99,
+    "text": "do that um but moreover suppose you did it"
+  },
+  {
+    "t_start": 2591.99,
+    "t_end": 2595.589,
+    "text": "that um but moreover suppose you did it and you determined white has a a forced"
+  },
+  {
+    "t_start": 2595.589,
+    "t_end": 2598.51,
+    "text": "and you determined white has a a forced win if the both sides play optimally now"
+  },
+  {
+    "t_start": 2598.51,
+    "t_end": 2600.309,
+    "text": "win if the both sides play optimally now you want to convince me of"
+  },
+  {
+    "t_start": 2600.309,
+    "t_end": 2606.47,
+    "text": "that now now you want to um check that that's the right answer there's no"
+  },
+  {
+    "t_start": 2606.47,
+    "t_end": 2612.03,
+    "text": "way to check it is to essentially walk through all the whole thing do the whole"
+  },
+  {
+    "t_start": 2612.03,
+    "t_end": 2613.99,
+    "text": "through all the whole thing do the whole thing over"
+  },
+  {
+    "t_start": 2613.99,
+    "t_end": 2618.95,
+    "text": "again okay so that's in contrast if I'm trying to get the the sense that this is"
+  },
+  {
+    "t_start": 2618.95,
+    "t_end": 2621.75,
+    "text": "trying to get the the sense that this is a search seeing which side has the win"
+  },
+  {
+    "t_start": 2621.75,
+    "t_end": 2623.39,
+    "text": "a search seeing which side has the win under optimal play is a searching"
+  },
+  {
+    "t_start": 2623.39,
+    "t_end": 2625.47,
+    "text": "under optimal play is a searching problem but it's not an NP type"
+  },
+  {
+    "t_start": 2625.47,
+    "t_end": 2629.43,
+    "text": "searching problem it's kind of in some worse than NP because you don't even"
+  },
+  {
+    "t_start": 2629.43,
+    "t_end": 2632.79,
+    "text": "worse than NP because you don't even have this feature that you can check the"
+  },
+  {
+    "t_start": 2632.79,
+    "t_end": 2637.87,
+    "text": "answer quickly okay so just sort of summarizing"
+  },
+  {
+    "t_start": 2637.87,
+    "t_end": 2639.349,
+    "text": "quickly okay so just sort of summarizing some of the information that we've been"
+  },
+  {
+    "t_start": 2639.349,
+    "t_end": 2641.109,
+    "text": "some of the information that we've been discussing recently we have the classes"
+  },
+  {
+    "t_start": 2641.109,
+    "t_end": 2644.51,
+    "text": "discussing recently we have the classes p and NP and the four"
+  },
+  {
+    "t_start": 2644.51,
+    "t_end": 2647.75,
+    "text": "p and NP and the four um um problems that we've discussed"
+  },
+  {
+    "t_start": 2647.75,
+    "t_end": 2650.03,
+    "text": "um um problems that we've discussed multiplication factoring click and"
+  },
+  {
+    "t_start": 2650.03,
+    "t_end": 2654.589,
+    "text": "multiplication factoring click and optimal game strategies are kind of"
+  },
+  {
+    "t_start": 2654.589,
+    "t_end": 2660.069,
+    "text": "outside of NP click and factoring are in NP but not known to be NP and actually"
+  },
+  {
+    "t_start": 2660.069,
+    "t_end": 2661.67,
+    "text": "NP but not known to be NP and actually in all of these cases this is just"
+  },
+  {
+    "t_start": 2661.67,
+    "t_end": 2663.75,
+    "text": "in all of these cases this is just conjectured the conjectured picture"
+  },
+  {
+    "t_start": 2663.75,
+    "t_end": 2669.63,
+    "text": "things may uh collapse down um and multiplication is known to be in P now"
+  },
+  {
+    "t_start": 2669.63,
+    "t_end": 2671.79,
+    "text": "multiplication is known to be in P now complexity theorists have"
+  },
+  {
+    "t_start": 2671.79,
+    "t_end": 2678.069,
+    "text": "been uh working on the P versus NP question you know for 30 years or so but"
+  },
+  {
+    "t_start": 2678.069,
+    "t_end": 2679.309,
+    "text": "question you know for 30 years or so but they've been doing lots of other stuff"
+  },
+  {
+    "t_start": 2679.309,
+    "t_end": 2680.95,
+    "text": "they've been doing lots of other stuff too not just beating our heads against"
+  },
+  {
+    "t_start": 2680.95,
+    "t_end": 2682.39,
+    "text": "too not just beating our heads against the wall on just that one problem the"
+  },
+  {
+    "t_start": 2682.39,
+    "t_end": 2687.309,
+    "text": "the wall on just that one problem the whole time um and one of the things that"
+  },
+  {
+    "t_start": 2687.309,
+    "t_end": 2694.99,
+    "text": "devise even more complexity classes and in in in fact a rich system of classes"
+  },
+  {
+    "t_start": 2694.99,
+    "t_end": 2697.79,
+    "text": "in in in fact a rich system of classes that capture all sorts of features of"
+  },
+  {
+    "t_start": 2697.79,
+    "t_end": 2700.51,
+    "text": "that capture all sorts of features of complexity of different problems so"
+  },
+  {
+    "t_start": 2700.51,
+    "t_end": 2707.79,
+    "text": "there's actually a rather Rich kind of um I don't know what to call it uh uh"
+  },
+  {
+    "t_start": 2707.79,
+    "t_end": 2710.349,
+    "text": "um I don't know what to call it uh uh classification system for computational"
+  },
+  {
+    "t_start": 2710.349,
+    "t_end": 2713.23,
+    "text": "problems according to all sorts of different parameters the amount of time"
+  },
+  {
+    "t_start": 2713.23,
+    "t_end": 2716.15,
+    "text": "different parameters the amount of time you need the amount of space you need"
+  },
+  {
+    "t_start": 2716.15,
+    "t_end": 2718.589,
+    "text": "whether that you can solve it more quickly with parallelism or Randomness"
+  },
+  {
+    "t_start": 2718.589,
+    "t_end": 2725.109,
+    "text": "quickly with parallelism or Randomness and so on um and it's been populated by"
+  },
+  {
+    "t_start": 2725.109,
+    "t_end": 2730.91,
+    "text": "these are real problems that people are interested in solving that uh occur as"
+  },
+  {
+    "t_start": 2730.91,
+    "t_end": 2734.27,
+    "text": "interested in solving that uh occur as far as we know it within this"
+  },
+  {
+    "t_start": 2734.27,
+    "t_end": 2736.39,
+    "text": "far as we know it within this hierarchy now and I also want to mention"
+  },
+  {
+    "t_start": 2736.39,
+    "t_end": 2737.99,
+    "text": "hierarchy now and I also want to mention that this hierarchy is by no means a"
+  },
+  {
+    "t_start": 2737.99,
+    "t_end": 2741.23,
+    "text": "that this hierarchy is by no means a static object the things are changing"
+  },
+  {
+    "t_start": 2741.23,
+    "t_end": 2747.829,
+    "text": "certainly if P was proved equal to NP that would affect this radically um but"
+  },
+  {
+    "t_start": 2747.829,
+    "t_end": 2748.91,
+    "text": "that would affect this radically um but there are changes that are occurring"
+  },
+  {
+    "t_start": 2748.91,
+    "t_end": 2752.27,
+    "text": "there are changes that are occurring every few years as new discoveries are"
+  },
+  {
+    "t_start": 2752.27,
+    "t_end": 2754.349,
+    "text": "being made so for example if you we focus our attention on the primality"
+  },
+  {
+    "t_start": 2754.349,
+    "t_end": 2757.309,
+    "text": "focus our attention on the primality problem you know as I just mentioned"
+  },
+  {
+    "t_start": 2757.309,
+    "t_end": 2763.43,
+    "text": "problem you know as I just mentioned it's now known to be in P but if we just"
+  },
+  {
+    "t_start": 2766.43,
+    "t_end": 2768.99,
+    "text": "years we would only know that primality would be solvable in what's called"
+  },
+  {
+    "t_start": 2768.99,
+    "t_end": 2771.27,
+    "text": "would be solvable in what's called randomized polinomial"
+  },
+  {
+    "t_start": 2771.27,
+    "t_end": 2778.109,
+    "text": "time and it was this result that came out in 2002 that moved primality down"
+  },
+  {
+    "t_start": 2778.109,
+    "t_end": 2783.39,
+    "text": "out in 2002 that moved primality down one step lower in the"
+  },
+  {
+    "t_start": 2785.91,
+    "t_end": 2791.589,
+    "text": "so got this P versus NP problem what can we do about it you know um for one thing"
+  },
+  {
+    "t_start": 2791.589,
+    "t_end": 2794.95,
+    "text": "we do about it you know um for one thing you know I I write on the side how do we"
+  },
+  {
+    "t_start": 2794.95,
+    "t_end": 2797.109,
+    "text": "prove P different from NP that partly reflects my bias I don't believe P"
+  },
+  {
+    "t_start": 2797.109,
+    "t_end": 2801.309,
+    "text": "equals NP I don't believe that we can solve search problems without searching"
+  },
+  {
+    "t_start": 2801.309,
+    "t_end": 2804.309,
+    "text": "solve search problems without searching I believe that as most you know I'm not"
+  },
+  {
+    "t_start": 2804.309,
+    "t_end": 2808.63,
+    "text": "unique most of the other people in the field feel the same way that some of"
+  },
+  {
+    "t_start": 2808.63,
+    "t_end": 2813.51,
+    "text": "problems really do require searching we just don't know how to prove"
+  },
+  {
+    "t_start": 2813.51,
+    "t_end": 2817.39,
+    "text": "just don't know how to prove that and then why why"
+  },
+  {
+    "t_start": 2817.39,
+    "t_end": 2822.47,
+    "text": "that and then why why why is it so hard to"
+  },
+  {
+    "t_start": 2822.47,
+    "t_end": 2828.069,
+    "text": "prove well um the reason is"
+  },
+  {
+    "t_start": 2837.91,
+    "t_end": 2843.67,
+    "text": "algorithms can operate in very clever unforeseen ways just like in the"
+  },
+  {
+    "t_start": 2843.67,
+    "t_end": 2850.99,
+    "text": "testing there's all sorts of devil fish bizarre ways of solving problems"
+  },
+  {
+    "t_start": 2850.99,
+    "t_end": 2857.27,
+    "text": "that we might not have thought of and it's very difficult to prove that none"
+  },
+  {
+    "t_start": 2857.27,
+    "t_end": 2864.549,
+    "text": "of those can possibly work in a sense by proving that none of those can work the"
+  },
+  {
+    "t_start": 2864.549,
+    "t_end": 2870.23,
+    "text": "proving that none of those can work the computer kind of becomes your"
+  },
+  {
+    "t_start": 2873.309,
+    "t_end": 2876.63,
+    "text": "adversary you want to show that this potentially fish clever machine no"
+  },
+  {
+    "t_start": 2876.63,
+    "t_end": 2880.069,
+    "text": "potentially fish clever machine no matter matter what complicated thing it"
+  },
+  {
+    "t_start": 2880.069,
+    "t_end": 2884.39,
+    "text": "matter matter what complicated thing it gets programmed to do it's not going to"
+  },
+  {
+    "t_start": 2884.39,
+    "t_end": 2886.91,
+    "text": "be able to successfully solve one of these searching problems it's such a"
+  },
+  {
+    "t_start": 2886.91,
+    "t_end": 2888.75,
+    "text": "these searching problems it's such a rich class of possibilities very hard to"
+  },
+  {
+    "t_start": 2888.75,
+    "t_end": 2890.549,
+    "text": "rich class of possibilities very hard to get your hands on that and show that"
+  },
+  {
+    "t_start": 2890.549,
+    "t_end": 2895.99,
+    "text": "none of those can work so what do we do so here's a strategy that myself and"
+  },
+  {
+    "t_start": 2895.99,
+    "t_end": 2898.349,
+    "text": "so here's a strategy that myself and some other people have taken on over the"
+  },
+  {
+    "t_start": 2898.349,
+    "t_end": 2901.95,
+    "text": "some other people have taken on over the years is try to limit the power of the"
+  },
+  {
+    "t_start": 2901.95,
+    "t_end": 2904.309,
+    "text": "years is try to limit the power of the Machine by kind of handicapping it in"
+  },
+  {
+    "t_start": 2904.309,
+    "t_end": 2909.39,
+    "text": "Machine by kind of handicapping it in some way"
+  },
+  {
+    "t_start": 2911.71,
+    "t_end": 2915.03,
+    "text": "okay and then for this handicap machine it can't run anymore it can only"
+  },
+  {
+    "t_start": 2915.03,
+    "t_end": 2919.349,
+    "text": "it can't run anymore it can only limp and when you have a machine that"
+  },
+  {
+    "t_start": 2919.349,
+    "t_end": 2922.15,
+    "text": "can only limp maybe you have an advantage in being able to prove it's"
+  },
+  {
+    "t_start": 2922.15,
+    "t_end": 2924.829,
+    "text": "advantage in being able to prove it's going to have you know you're limiting"
+  },
+  {
+    "t_start": 2924.829,
+    "t_end": 2928.549,
+    "text": "the kinds of operations it can do you're limiting Its Behavior in a certain way"
+  },
+  {
+    "t_start": 2928.549,
+    "t_end": 2930.349,
+    "text": "limiting Its Behavior in a certain way and maybe for these limited machines you"
+  },
+  {
+    "t_start": 2930.349,
+    "t_end": 2933.03,
+    "text": "and maybe for these limited machines you have a better chance of proving that"
+  },
+  {
+    "t_start": 2933.03,
+    "t_end": 2935.03,
+    "text": "have a better chance of proving that they really do need to search there are"
+  },
+  {
+    "t_start": 2935.03,
+    "t_end": 2938.63,
+    "text": "they really do need to search there are fewer clever things they they can do"
+  },
+  {
+    "t_start": 2938.63,
+    "t_end": 2939.349,
+    "text": "fewer clever things they they can do if"
+  },
+  {
+    "t_start": 2939.349,
+    "t_end": 2942.71,
+    "text": "if you are"
+  },
+  {
+    "t_start": 2945.67,
+    "t_end": 2950.15,
+    "text": "further until you've got the thing so limited that you can finally say"
+  },
+  {
+    "t_start": 2950.15,
+    "t_end": 2952.39,
+    "text": "limited that you can finally say something and hopefully you get some"
+  },
+  {
+    "t_start": 2952.39,
+    "t_end": 2958.549,
+    "text": "insight by doing that and then maybe you can start eliminating these limitations"
+  },
+  {
+    "t_start": 2958.549,
+    "t_end": 2963.069,
+    "text": "can start eliminating these limitations and work your way up because it's hard"
+  },
+  {
+    "t_start": 2963.069,
+    "t_end": 2968.789,
+    "text": "nothing you would like to break it down into a series of steps if you can and"
+  },
+  {
+    "t_start": 2968.789,
+    "t_end": 2975.349,
+    "text": "one by one and hopefully you can build back up to being getting an idea of how"
+  },
+  {
+    "t_start": 2975.349,
+    "t_end": 2977.51,
+    "text": "to tackle a general machine which is unlimited that's the Hope"
+  },
+  {
+    "t_start": 2977.51,
+    "t_end": 2982.03,
+    "text": "unlimited that's the Hope anyway"
+  },
+  {
+    "t_start": 2986.23,
+    "t_end": 2990.109,
+    "text": "approach well you know here's a in combination with that here's an approach"
+  },
+  {
+    "t_start": 2990.109,
+    "t_end": 2994.67,
+    "text": "combination with that here's an approach that people take is they try to figure"
+  },
+  {
+    "t_start": 2994.67,
+    "t_end": 3000.91,
+    "text": "finding an input to the machine on which the machine would fail so here's you"
+  },
+  {
+    "t_start": 3000.91,
+    "t_end": 3002.23,
+    "text": "the machine would fail so here's you know"
+  },
+  {
+    "t_start": 3002.23,
+    "t_end": 3007.349,
+    "text": "a a machine that operates quickly it doesn't search so presumably this"
+  },
+  {
+    "t_start": 3007.349,
+    "t_end": 3010.19,
+    "text": "doesn't search so presumably this machine is not able to solve say the"
+  },
+  {
+    "t_start": 3010.19,
+    "t_end": 3013.589,
+    "text": "problem but how do you prove that it doesn't Sol can't solve The Click"
+  },
+  {
+    "t_start": 3013.589,
+    "t_end": 3020.069,
+    "text": "problem you know if it's not able to search well you want to find some kind"
+  },
+  {
+    "t_start": 3020.069,
+    "t_end": 3023.95,
+    "text": "of an input an example of a click problem which particularly"
+  },
+  {
+    "t_start": 3026.95,
+    "t_end": 3031.47,
+    "text": "difficult and you know you're more likely to find difficult"
+  },
+  {
+    "t_start": 3031.47,
+    "t_end": 3035.789,
+    "text": "problems so saying it somewhat mathematically if you're trying to"
+  },
+  {
+    "t_start": 3035.789,
+    "t_end": 3037.349,
+    "text": "mathematically if you're trying to exhibit the difference between"
+  },
+  {
+    "t_start": 3037.349,
+    "t_end": 3039.43,
+    "text": "exhibit the difference between polinomial time and exponential time"
+  },
+  {
+    "t_start": 3039.43,
+    "t_end": 3044.71,
+    "text": "Behavior you're better off looking at large n because then the the difference"
+  },
+  {
+    "t_start": 3044.71,
+    "t_end": 3046.47,
+    "text": "large n because then the the difference becomes even more"
+  },
+  {
+    "t_start": 3046.47,
+    "t_end": 3054.15,
+    "text": "clear and kind of carrying that to the extreme it might make mathematical sense"
+  },
+  {
+    "t_start": 3054.15,
+    "t_end": 3059.19,
+    "text": "extreme it might make mathematical sense to try to run the computer on infinite"
+  },
+  {
+    "t_start": 3059.19,
+    "t_end": 3062.829,
+    "text": "to try to run the computer on infinite inputs if you could make sense of"
+  },
+  {
+    "t_start": 3062.829,
+    "t_end": 3069.63,
+    "text": "that and I think in some ways you can and maybe by running the thing on"
+  },
+  {
+    "t_start": 3069.63,
+    "t_end": 3071.75,
+    "text": "can and maybe by running the thing on input infinite inputs you can get some"
+  },
+  {
+    "t_start": 3071.75,
+    "t_end": 3074.349,
+    "text": "input infinite inputs you can get some insight into what makes the problems"
+  },
+  {
+    "t_start": 3074.349,
+    "t_end": 3079.589,
+    "text": "hard and learn something back about the finite case you know again none of these"
+  },
+  {
+    "t_start": 3079.589,
+    "t_end": 3081.069,
+    "text": "finite case you know again none of these things have paid off otherwise I would"
+  },
+  {
+    "t_start": 3081.069,
+    "t_end": 3083.069,
+    "text": "things have paid off otherwise I would be giving a different talk today um but"
+  },
+  {
+    "t_start": 3083.069,
+    "t_end": 3085.069,
+    "text": "be giving a different talk today um but those are ideas that people have"
+  },
+  {
+    "t_start": 3085.069,
+    "t_end": 3088.51,
+    "text": "those are ideas that people have tried um"
+  },
+  {
+    "t_start": 3088.51,
+    "t_end": 3095.19,
+    "text": "okay so drawing to the end of my talk um will the P versus then be question ever"
+  },
+  {
+    "t_start": 3095.19,
+    "t_end": 3098.39,
+    "text": "will the P versus then be question ever be solved it seems clear that the"
+  },
+  {
+    "t_start": 3098.39,
+    "t_end": 3100.309,
+    "text": "be solved it seems clear that the collection of techniques that we have at"
+  },
+  {
+    "t_start": 3100.309,
+    "t_end": 3102.23,
+    "text": "collection of techniques that we have at present is inade is inadequate we're"
+  },
+  {
+    "t_start": 3102.23,
+    "t_end": 3105.789,
+    "text": "going to have to develop new methods in order to be able to to to tackle the P"
+  },
+  {
+    "t_start": 3105.789,
+    "t_end": 3107.589,
+    "text": "order to be able to to to tackle the P versus MP question let me just tell you"
+  },
+  {
+    "t_start": 3107.589,
+    "t_end": 3110.069,
+    "text": "versus MP question let me just tell you mean I'm personally an optimist um that"
+  },
+  {
+    "t_start": 3110.069,
+    "t_end": 3113.27,
+    "text": "it will be solved one day let me tell you a little story about that when I was"
+  },
+  {
+    "t_start": 3113.27,
+    "t_end": 3117.75,
+    "text": "you a little story about that when I was a graduate student back in the mid 70s"
+  },
+  {
+    "t_start": 3117.75,
+    "t_end": 3120.309,
+    "text": "a graduate student back in the mid 70s um I made a"
+  },
+  {
+    "t_start": 3120.309,
+    "t_end": 3125.75,
+    "text": "bet with one of my fellow graduate students happens to be Len Adelman who"
+  },
+  {
+    "t_start": 3125.75,
+    "t_end": 3130.39,
+    "text": "students happens to be Len Adelman who was the a from the RSA code this is"
+  },
+  {
+    "t_start": 3130.39,
+    "t_end": 3134.309,
+    "text": "was the a from the RSA code this is before RSA code was developed which"
+  },
+  {
+    "t_start": 3134.309,
+    "t_end": 3136.47,
+    "text": "before RSA code was developed which stands for revest Shamir and Adeline to"
+  },
+  {
+    "t_start": 3136.47,
+    "t_end": 3138.63,
+    "text": "stands for revest Shamir and Adeline to give everybody credit by the way uh if"
+  },
+  {
+    "t_start": 3138.63,
+    "t_end": 3139.51,
+    "text": "give everybody credit by the way uh if they're"
+  },
+  {
+    "t_start": 3139.51,
+    "t_end": 3144.789,
+    "text": "they're here uh so"
+  },
+  {
+    "t_start": 3147.39,
+    "t_end": 3148.75,
+    "text": "um so Len I I made a bet with Len Adelman we were both thinking about the"
+  },
+  {
+    "t_start": 3148.75,
+    "t_end": 3156.069,
+    "text": "Adelman we were both thinking about the P versus MP question this is you know 30"
+  },
+  {
+    "t_start": 3156.069,
+    "t_end": 3158.109,
+    "text": "years ago um and I made the Bold claim that the P versus NP question would be"
+  },
+  {
+    "t_start": 3158.109,
+    "t_end": 3162.67,
+    "text": "that the P versus NP question would be solved by the year"
+  },
+  {
+    "t_start": 3167.51,
+    "t_end": 3169.549,
+    "text": "2000 and I bet Len an ounce of gold which was a lot of money for a"
+  },
+  {
+    "t_start": 3169.549,
+    "t_end": 3171.03,
+    "text": "gold which was a lot of money for a graduate"
+  },
+  {
+    "t_start": 3171.03,
+    "t_end": 3172.549,
+    "text": "graduate student"
+  },
+  {
+    "t_start": 3172.549,
+    "t_end": 3174.43,
+    "text": "student um"
+  },
+  {
+    "t_start": 3174.43,
+    "t_end": 3179.15,
+    "text": "um well I paid off"
+  },
+  {
+    "t_start": 3182.19,
+    "t_end": 3183.99,
+    "text": "luckily the price of gold when I was a graduate student was around $700 an"
+  },
+  {
+    "t_start": 3183.99,
+    "t_end": 3191.15,
+    "text": "ounce now it's around $600 an ounce when I paid off it was around $250 an ounce"
+  },
+  {
+    "t_start": 3191.15,
+    "t_end": 3194.87,
+    "text": "I paid off it was around $250 an ounce so I got lucky there but"
+  },
+  {
+    "t_start": 3194.87,
+    "t_end": 3196.789,
+    "text": "so I got lucky there but um"
+  },
+  {
+    "t_start": 3196.789,
+    "t_end": 3203.43,
+    "text": "uh but you know that's uh anyway that's that's my story"
+  },
+  {
+    "t_start": 3203.43,
+    "t_end": 3206.75,
+    "text": "that's my story um and uh"
+  },
+  {
+    "t_start": 3206.75,
+    "t_end": 3211.99,
+    "text": "I don't know I think you know I'm still hopeful that you know we'll see the"
+  },
+  {
+    "t_start": 3211.99,
+    "t_end": 3214.51,
+    "text": "solution I I it's a great problem and and I'm looking forward to to seeing"
+  },
+  {
+    "t_start": 3214.51,
+    "t_end": 3224.75,
+    "text": "and I'm looking forward to to seeing what happens with it um so that's end of"
+  },
+  {
+    "t_start": 3238.309,
+    "t_end": 3244.789,
+    "text": "I'd like to thank uh Michael for a really fine talk and uh I think we can"
+  },
+  {
+    "t_start": 3244.789,
+    "t_end": 3273.87,
+    "text": "take a few questions yeah"
+  },
+  {
+    "t_start": 3277.03,
+    "t_end": 3278.75,
+    "text": "yeah sure I mean there's you know if you're willing to settle for less than"
+  },
+  {
+    "t_start": 3278.75,
+    "t_end": 3282.95,
+    "text": "you're willing to settle for less than the best in many different senses then"
+  },
+  {
+    "t_start": 3282.95,
+    "t_end": 3285.43,
+    "text": "the best in many different senses then you can solve these problems in some"
+  },
+  {
+    "t_start": 3285.43,
+    "t_end": 3288.43,
+    "text": "you can solve these problems in some cases quickly um so if you're willing to"
+  },
+  {
+    "t_start": 3288.43,
+    "t_end": 3290.15,
+    "text": "cases quickly um so if you're willing to settle for an approximate solution"
+  },
+  {
+    "t_start": 3290.15,
+    "t_end": 3292.549,
+    "text": "settle for an approximate solution instead of finding the biggest click"
+  },
+  {
+    "t_start": 3292.549,
+    "t_end": 3295.47,
+    "text": "instead of finding the biggest click well click is probably not the best"
+  },
+  {
+    "t_start": 3295.47,
+    "t_end": 3298.39,
+    "text": "example but I mean there are other because in the case in some cases um"
+  },
+  {
+    "t_start": 3298.39,
+    "t_end": 3300.309,
+    "text": "because in the case in some cases um it's known that even getting an"
+  },
+  {
+    "t_start": 3300.309,
+    "t_end": 3302.47,
+    "text": "it's known that even getting an approximate answer is as hard as getting"
+  },
+  {
+    "t_start": 3302.47,
+    "t_end": 3309.27,
+    "text": "be a better example I'm not an expert on approximation algorithms but there are"
+  },
+  {
+    "t_start": 3309.27,
+    "t_end": 3313.309,
+    "text": "approximation algorithms but there are cases where if you're willing to settle"
+  },
+  {
+    "t_start": 3313.309,
+    "t_end": 3316.589,
+    "text": "for an approximation to the best solution then you can do it quickly"
+  },
+  {
+    "t_start": 3316.589,
+    "t_end": 3320.19,
+    "text": "solution then you can do it quickly um uh"
+  },
+  {
+    "t_start": 3320.19,
+    "t_end": 3325.39,
+    "text": "but yeah so maybe I should just leave it at that does that is that good enough"
+  },
+  {
+    "t_start": 3325.39,
+    "t_end": 3352.23,
+    "text": "at that does that is that good enough for your yeah"
+  },
+  {
+    "t_start": 3355.349,
+    "t_end": 3357.67,
+    "text": "yes uh this is soduku sodoku whatever it's called yes"
+  },
+  {
+    "t_start": 3357.67,
+    "t_end": 3362.95,
+    "text": "it's called yes I I um is that NP complete I yes"
+  },
+  {
+    "t_start": 3362.95,
+    "t_end": 3367.27,
+    "text": "I I um is that NP complete I yes yes thank"
+  },
+  {
+    "t_start": 3369.67,
+    "t_end": 3371.95,
+    "text": "you actually I don't know but it's claimed that the answer is yes yes in"
+  },
+  {
+    "t_start": 3371.95,
+    "t_end": 3387.19,
+    "text": "claimed that the answer is yes yes in the back there no you"
+  },
+  {
+    "t_start": 3389.99,
+    "t_end": 3393.549,
+    "text": "computer that can solve it well I mean if there is a distributed computer with"
+  },
+  {
+    "t_start": 3393.549,
+    "t_end": 3395.51,
+    "text": "if there is a distributed computer with a moderate amount"
+  },
+  {
+    "t_start": 3395.51,
+    "t_end": 3402.75,
+    "text": "of um processors you could simulate that with a ordinary sequential you know"
+  },
+  {
+    "t_start": 3402.75,
+    "t_end": 3405.549,
+    "text": "with a ordinary sequential you know single processor computer just by you"
+  },
+  {
+    "t_start": 3405.549,
+    "t_end": 3410.589,
+    "text": "know H that one one machine just taking you know pretending to be each one of"
+  },
+  {
+    "t_start": 3410.589,
+    "t_end": 3412.47,
+    "text": "you know pretending to be each one of those distributed machines one at a time"
+  },
+  {
+    "t_start": 3412.47,
+    "t_end": 3414.23,
+    "text": "those distributed machines one at a time so it's not going to change things"
+  },
+  {
+    "t_start": 3414.23,
+    "t_end": 3417.029,
+    "text": "so it's not going to change things tremendously unless you have an enormous"
+  },
+  {
+    "t_start": 3417.029,
+    "t_end": 3419.549,
+    "text": "tremendously unless you have an enormous number of distributed machines available"
+  },
+  {
+    "t_start": 3419.549,
+    "t_end": 3423.43,
+    "text": "number of distributed machines available to you like an exponential number of"
+  },
+  {
+    "t_start": 3423.43,
+    "t_end": 3428.51,
+    "text": "so yeah then that case the problem would be simplified but it you know in a sense"
+  },
+  {
+    "t_start": 3428.51,
+    "t_end": 3431.43,
+    "text": "be simplified but it you know in a sense that is an impractical number of"
+  },
+  {
+    "t_start": 3431.43,
+    "t_end": 3433.309,
+    "text": "that is an impractical number of machines to throw at the problem you"
+  },
+  {
+    "t_start": 3433.309,
+    "t_end": 3435.39,
+    "text": "machines to throw at the problem you know you talking about you know instead"
+  },
+  {
+    "t_start": 3435.39,
+    "t_end": 3438.39,
+    "text": "know you talking about you know instead of working for 20 computer years of"
+  },
+  {
+    "t_start": 3438.39,
+    "t_end": 3441.95,
+    "text": "of working for 20 computer years of effort you might have to have you know"
+  },
+  {
+    "t_start": 3441.95,
+    "t_end": 3444.829,
+    "text": "effort you might have to have you know um quadrillions of computers or more"
+  },
+  {
+    "t_start": 3444.829,
+    "t_end": 3447.23,
+    "text": "um quadrillions of computers or more than that you know work working in"
+  },
+  {
+    "t_start": 3447.23,
+    "t_end": 3450.27,
+    "text": "than that you know work working in parallel so it's you know it's it"
+  },
+  {
+    "t_start": 3450.27,
+    "t_end": 3453.549,
+    "text": "parallel so it's you know it's it doesn't really buyue anything um that"
+  },
+  {
+    "t_start": 3453.549,
+    "t_end": 3461.15,
+    "text": "doesn't really buyue anything um that that's going to change the picture"
+  },
+  {
+    "t_start": 3477.75,
+    "t_end": 3482.67,
+    "text": "yeah I was trying to be careful when I made my actual statements to about NP so"
+  },
+  {
+    "t_start": 3482.67,
+    "t_end": 3484.349,
+    "text": "made my actual statements to about NP so the question is I mean there were two"
+  },
+  {
+    "t_start": 3484.349,
+    "t_end": 3486.47,
+    "text": "the question is I mean there were two slightly variations of one another in"
+  },
+  {
+    "t_start": 3486.47,
+    "t_end": 3490.309,
+    "text": "terms of the click problem am I just looking for the largest possible click"
+  },
+  {
+    "t_start": 3490.309,
+    "t_end": 3495.67,
+    "text": "looking for the largest possible click in the network or am I looking for a"
+  },
+  {
+    "t_start": 3495.67,
+    "t_end": 3498.39,
+    "text": "click of a certain specified Target size the the latter is the one that's in"
+  },
+  {
+    "t_start": 3498.39,
+    "t_end": 3502.99,
+    "text": "size the the latter is the one that's in NP the other one is not an NP problem"
+  },
+  {
+    "t_start": 3502.99,
+    "t_end": 3506.63,
+    "text": "because you can't check that you have you can't check that you actually found"
+  },
+  {
+    "t_start": 3506.63,
+    "t_end": 3512.95,
+    "text": "um that's not an NP type check uh to make um but if you can solve one of them"
+  },
+  {
+    "t_start": 3512.95,
+    "t_end": 3514.27,
+    "text": "make um but if you can solve one of them without searching you can solve the"
+  },
+  {
+    "t_start": 3514.27,
+    "t_end": 3518.99,
+    "text": "without searching you can solve the other one without searching they're both"
+  },
+  {
+    "t_start": 3518.99,
+    "t_end": 3522.47,
+    "text": "problems and I was sort of using them interchangeably depending upon you know"
+  },
+  {
+    "t_start": 3522.47,
+    "t_end": 3528.43,
+    "text": "interchangeably depending upon you know what sort of worked best in the"
+  },
+  {
+    "t_start": 3528.43,
+    "t_end": 3531.91,
+    "text": "sentence one last Pro one last question"
+  },
+  {
+    "t_start": 3541.47,
+    "t_end": 3543.51,
+    "text": "that's a great question I like that what makes me think you know because girdle"
+  },
+  {
+    "t_start": 3543.51,
+    "t_end": 3547.549,
+    "text": "makes me think you know because girdle had mentioned that uh there are certain"
+  },
+  {
+    "t_start": 3547.549,
+    "t_end": 3549.67,
+    "text": "had mentioned that uh there are certain questions which are you know perhaps"
+  },
+  {
+    "t_start": 3549.67,
+    "t_end": 3552.27,
+    "text": "questions which are you know perhaps unsolvable in in mathematical systems"
+  },
+  {
+    "t_start": 3552.27,
+    "t_end": 3556.51,
+    "text": "unsolvable in in mathematical systems maybe P versus NP is one of them and"
+  },
+  {
+    "t_start": 3556.51,
+    "t_end": 3558.99,
+    "text": "certainly there are people in the community who subscribe to that"
+  },
+  {
+    "t_start": 3558.99,
+    "t_end": 3563.39,
+    "text": "possibility and who think in fact P versus NP may be just one of those"
+  },
+  {
+    "t_start": 3563.39,
+    "t_end": 3565.75,
+    "text": "versus NP may be just one of those questions that can't be resolved um"
+  },
+  {
+    "t_start": 3565.75,
+    "t_end": 3570.789,
+    "text": "there's no at least in terms of proving it one way or the other um and you know"
+  },
+  {
+    "t_start": 3570.789,
+    "t_end": 3572.47,
+    "text": "it one way or the other um and you know I can argue that both"
+  },
+  {
+    "t_start": 3572.47,
+    "t_end": 3580.829,
+    "text": "ways my personal view is that you know it's a very concrete downto Earth kind"
+  },
+  {
+    "t_start": 3580.829,
+    "t_end": 3585.99,
+    "text": "of a question um it's not the type of question that you would normally think"
+  },
+  {
+    "t_start": 3585.99,
+    "t_end": 3588.349,
+    "text": "question that you would normally think of as being one which is independent of"
+  },
+  {
+    "t_start": 3588.349,
+    "t_end": 3595.029,
+    "text": "of as being one which is independent of axioms like the Axiom of choice or you"
+  },
+  {
+    "t_start": 3595.029,
+    "t_end": 3596.67,
+    "text": "know um the Continuum hypothesis which concerns Infinity and things that are"
+  },
+  {
+    "t_start": 3596.67,
+    "t_end": 3598.789,
+    "text": "concerns Infinity and things that are very far away from ordinary intuition"
+  },
+  {
+    "t_start": 3598.789,
+    "t_end": 3604.109,
+    "text": "very far away from ordinary intuition it's a very kind of concrete question P"
+  },
+  {
+    "t_start": 3604.109,
+    "t_end": 3606.67,
+    "text": "versus NP and for that reason I think"
+  },
+  {
+    "t_start": 3606.67,
+    "t_end": 3609.51,
+    "text": "reason I think it's you know"
+  },
+  {
+    "t_start": 3609.51,
+    "t_end": 3613.91,
+    "text": "anything to back this up but I think that kind of a question is more likely"
+  },
+  {
+    "t_start": 3613.91,
+    "t_end": 3617.069,
+    "text": "that kind of a question is more likely to be one that's going to get resolvable"
+  },
+  {
+    "t_start": 3617.069,
+    "t_end": 3620.63,
+    "text": "to be one that's going to get resolvable within our axima system on the other"
+  },
+  {
+    "t_start": 3620.63,
+    "t_end": 3623.789,
+    "text": "within our axima system on the other hand there is something kind of somewhat"
+  },
+  {
+    "t_start": 3623.789,
+    "t_end": 3627.109,
+    "text": "hand there is something kind of somewhat close to the foundations of mathema"
+  },
+  {
+    "t_start": 3627.109,
+    "t_end": 3632.19,
+    "text": "ICS in the P versus NP question you know just by virtue of thinking that girle"
+  },
+  {
+    "t_start": 3632.19,
+    "t_end": 3633.75,
+    "text": "just by virtue of thinking that girle himself who was a logician was thinking"
+  },
+  {
+    "t_start": 3633.75,
+    "t_end": 3635.19,
+    "text": "himself who was a logician was thinking about it when you're thinking about"
+  },
+  {
+    "t_start": 3635.19,
+    "t_end": 3637.39,
+    "text": "about it when you're thinking about algorithms it's close closely related to"
+  },
+  {
+    "t_start": 3637.39,
+    "t_end": 3639.19,
+    "text": "algorithms it's close closely related to the notion of proof and then you're"
+  },
+  {
+    "t_start": 3639.19,
+    "t_end": 3644.19,
+    "text": "talking about logic and it is true that questions and logic are more likely to"
+  },
+  {
+    "t_start": 3644.19,
+    "t_end": 3647.43,
+    "text": "questions and logic are more likely to run into this danger of unprovability"
+  },
+  {
+    "t_start": 3647.43,
+    "t_end": 3652.39,
+    "text": "run into this danger of unprovability and so that gives a little bit of"
+  },
+  {
+    "t_start": 3652.39,
+    "t_end": 3654.39,
+    "text": "credence to that possibility but my personal View and it's just a just an"
+  },
+  {
+    "t_start": 3654.39,
+    "t_end": 3656.789,
+    "text": "personal View and it's just a just an opinion because nobody knows"
+  },
+  {
+    "t_start": 3656.789,
+    "t_end": 3662.51,
+    "text": "that that it is solvable and that will be solved someday though I'm not taking"
+  },
+  {
+    "t_start": 3662.51,
+    "t_end": 3665.829,
+    "text": "be solved someday though I'm not taking any more"
+  },
+  {
+    "t_start": 3668.029,
+    "t_end": 3669.87,
+    "text": "bets well thank you thank you very much for"
+  },
+  {
+    "t_start": 3669.87,
+    "t_end": 3684.91,
+    "text": "for coming thank"
+  }
+]

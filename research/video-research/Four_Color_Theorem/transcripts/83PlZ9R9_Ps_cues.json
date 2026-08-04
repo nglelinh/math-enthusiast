@@ -1,0 +1,3612 @@
+[
+  {
+    "t_start": 3.2,
+    "t_end": 7.97,
+    "text": "good afternoon let me welcome you to the second event in the four-color fest let"
+  },
+  {
+    "t_start": 7.97,
+    "t_end": 9.799,
+    "text": "second event in the four-color fest let me remind you after after today's"
+  },
+  {
+    "t_start": 9.799,
+    "t_end": 16.01,
+    "text": "lecture there is a reception from 5:00 to 7:00 in Atlas Campbell Alumni Center"
+  },
+  {
+    "t_start": 16.01,
+    "t_end": 17.45,
+    "text": "to 7:00 in Atlas Campbell Alumni Center which is the building directly behind"
+  },
+  {
+    "t_start": 17.45,
+    "t_end": 19.13,
+    "text": "which is the building directly behind this one you can't miss it"
+  },
+  {
+    "t_start": 19.13,
+    "t_end": 21.859,
+    "text": "this one you can't miss it and the events tomorrow are the igl lab"
+  },
+  {
+    "t_start": 21.859,
+    "t_end": 27.41,
+    "text": "and the events tomorrow are the igl lab will also be in the same in that place"
+  },
+  {
+    "t_start": 27.41,
+    "t_end": 30.259,
+    "text": "from 10:00 to 12:00 and the concert a portrait in four colors which will"
+  },
+  {
+    "t_start": 30.259,
+    "t_end": 31.97,
+    "text": "portrait in four colors which will feature an original composition by"
+  },
+  {
+    "t_start": 31.97,
+    "t_end": 36.979,
+    "text": "feature an original composition by rudolf Hakan and a virtuoso display of"
+  },
+  {
+    "t_start": 36.979,
+    "t_end": 41.479,
+    "text": "rudolf Hakan and a virtuoso display of the how can configure board continuum so"
+  },
+  {
+    "t_start": 41.479,
+    "t_end": 42.91,
+    "text": "the how can configure board continuum so it's a great pleasure today to introduce"
+  },
+  {
+    "t_start": 42.91,
+    "t_end": 45.799,
+    "text": "it's a great pleasure today to introduce our speaker Andrew Appel who's Eugene"
+  },
+  {
+    "t_start": 45.799,
+    "t_end": 47.72,
+    "text": "our speaker Andrew Appel who's Eugene Higgins professor of computer science at"
+  },
+  {
+    "t_start": 47.72,
+    "t_end": 49.97,
+    "text": "Higgins professor of computer science at Princeton University he was chairman of"
+  },
+  {
+    "t_start": 49.97,
+    "t_end": 56.18,
+    "text": "Princeton University he was chairman of the department from 9 2009 to 2015 he is"
+  },
+  {
+    "t_start": 56.18,
+    "t_end": 62.18,
+    "text": "Computing Machinery he's the author of several books such as modern compiler"
+  },
+  {
+    "t_start": 62.18,
+    "t_end": 65.509,
+    "text": "several books such as modern compiler implementation in ml I found out what ml"
+  },
+  {
+    "t_start": 65.509,
+    "t_end": 69.17,
+    "text": "implementation in ml I found out what ml is today he's the author of over 120"
+  },
+  {
+    "t_start": 69.17,
+    "t_end": 74.359,
+    "text": "is today he's the author of over 120 papers he has had 21 PhD students his"
+  },
+  {
+    "t_start": 74.359,
+    "t_end": 75.74,
+    "text": "papers he has had 21 PhD students his main interests are software verification"
+  },
+  {
+    "t_start": 75.74,
+    "t_end": 78.82,
+    "text": "main interests are software verification and machine proofs computer security and"
+  },
+  {
+    "t_start": 78.82,
+    "t_end": 82.88,
+    "text": "and machine proofs computer security and technology policy he's also he's well"
+  },
+  {
+    "t_start": 82.88,
+    "t_end": 88.84,
+    "text": "technology policy he's also he's well known in the latter category if his work"
+  },
+  {
+    "t_start": 88.84,
+    "t_end": 91.28,
+    "text": "on the security of voting machines I understand I understand that progress is"
+  },
+  {
+    "t_start": 91.28,
+    "t_end": 96.89,
+    "text": "understand I understand that progress is being made in the New Jersey Legislature"
+  },
+  {
+    "t_start": 96.89,
+    "t_end": 105.36,
+    "text": "and today he will talk about graph coloring and machine proofs"
+  },
+  {
+    "t_start": 109.18,
+    "t_end": 113.02,
+    "text": "or can it really be a proof if you can't check it by machine and I'll start with"
+  },
+  {
+    "t_start": 113.02,
+    "t_end": 114.7,
+    "text": "check it by machine and I'll start with Alfred B Kemp who you heard about"
+  },
+  {
+    "t_start": 114.7,
+    "t_end": 119.23,
+    "text": "Alfred B Kemp who you heard about yesterday in 1876 he proved Kemp's"
+  },
+  {
+    "t_start": 119.23,
+    "t_end": 122.08,
+    "text": "yesterday in 1876 he proved Kemp's universality theorem so here's a linkage"
+  },
+  {
+    "t_start": 122.08,
+    "t_end": 124.15,
+    "text": "universality theorem so here's a linkage system it's got some things pivoted to"
+  },
+  {
+    "t_start": 124.15,
+    "t_end": 126.37,
+    "text": "system it's got some things pivoted to the plane and other rigid bars pivoted"
+  },
+  {
+    "t_start": 126.37,
+    "t_end": 130.87,
+    "text": "the plane and other rigid bars pivoted to each other and here it shows that one"
+  },
+  {
+    "t_start": 130.87,
+    "t_end": 133.12,
+    "text": "of these pivots is tracing out a straight line segment right so from only"
+  },
+  {
+    "t_start": 133.12,
+    "t_end": 138.1,
+    "text": "straight line segment right so from only pivots you can get straight lines and he"
+  },
+  {
+    "t_start": 138.1,
+    "t_end": 139.83,
+    "text": "proved that any algebraic curve can be drawn by one of these pivot systems"
+  },
+  {
+    "t_start": 139.83,
+    "t_end": 142.96,
+    "text": "drawn by one of these pivot systems except that his proof was invalid so it"
+  },
+  {
+    "t_start": 142.96,
+    "t_end": 144.73,
+    "text": "except that his proof was invalid so it was proved a hundred and you know"
+  },
+  {
+    "t_start": 144.73,
+    "t_end": 146.98,
+    "text": "was proved a hundred and you know twenty-eight later it's 26 years later"
+  },
+  {
+    "t_start": 146.98,
+    "t_end": 151.48,
+    "text": "by Popovich and Milson that's not your professor kovitch that's the brother of"
+  },
+  {
+    "t_start": 151.48,
+    "t_end": 158.29,
+    "text": "professor kovitch that's the brother of your professor Kapp of itch okay"
+  },
+  {
+    "t_start": 158.29,
+    "t_end": 161.77,
+    "text": "so no problem he moved on to prove the four-color theorem that any map can be"
+  },
+  {
+    "t_start": 161.77,
+    "t_end": 163.6,
+    "text": "four-color theorem that any map can be colored with no more than four colors"
+  },
+  {
+    "t_start": 163.6,
+    "t_end": 165.34,
+    "text": "colored with no more than four colors here I draw the maps in the sort of"
+  },
+  {
+    "t_start": 165.34,
+    "t_end": 167.11,
+    "text": "here I draw the maps in the sort of graph theory style where you color the"
+  },
+  {
+    "t_start": 167.11,
+    "t_end": 169.51,
+    "text": "graph theory style where you color the nodes and there are interference edges"
+  },
+  {
+    "t_start": 169.51,
+    "t_end": 176.86,
+    "text": "so but of course there was a bug in that proof too that was found as Robin Wilson"
+  },
+  {
+    "t_start": 176.86,
+    "t_end": 180.6,
+    "text": "proof too that was found as Robin Wilson explained to yesterday by Percy Haywood"
+  },
+  {
+    "t_start": 180.6,
+    "t_end": 187.449,
+    "text": "explained to yesterday by Percy Haywood so let me talk about Alfred Kemp's graph"
+  },
+  {
+    "t_start": 187.449,
+    "t_end": 190.54,
+    "text": "coloring result because it actually continues to have importance in computer"
+  },
+  {
+    "t_start": 190.54,
+    "t_end": 196.75,
+    "text": "continues to have importance in computer science today and here's a theorem every"
+  },
+  {
+    "t_start": 196.75,
+    "t_end": 198.729,
+    "text": "science today and here's a theorem every planar graph has at least one node of"
+  },
+  {
+    "t_start": 198.729,
+    "t_end": 199.93,
+    "text": "planar graph has at least one node of degree less than six"
+  },
+  {
+    "t_start": 199.93,
+    "t_end": 204.97,
+    "text": "that's provable from Euler's formula about the number of vertices and the"
+  },
+  {
+    "t_start": 204.97,
+    "t_end": 211.6,
+    "text": "number of edges and the number of faces in a graph so the average degree of the"
+  },
+  {
+    "t_start": 211.6,
+    "t_end": 216.97,
+    "text": "must be some node of degree 5 or less and if you remove one node from a planar"
+  },
+  {
+    "t_start": 216.97,
+    "t_end": 219.43,
+    "text": "and if you remove one node from a planar graph the result is a planar graph"
+  },
+  {
+    "t_start": 219.43,
+    "t_end": 222.28,
+    "text": "graph the result is a planar graph because you're only taking away stuff"
+  },
+  {
+    "t_start": 222.28,
+    "t_end": 224.41,
+    "text": "because you're only taking away stuff and this leads to an algorithm for"
+  },
+  {
+    "t_start": 224.41,
+    "t_end": 227.199,
+    "text": "and this leads to an algorithm for coloring graphs so here's how do you six"
+  },
+  {
+    "t_start": 227.199,
+    "t_end": 229.69,
+    "text": "coloring graphs so here's how do you six color a planar graph every planar graph"
+  },
+  {
+    "t_start": 229.69,
+    "t_end": 233.59,
+    "text": "color a planar graph every planar graph has at least one vertex of degree less"
+  },
+  {
+    "t_start": 233.59,
+    "t_end": 235.52,
+    "text": "than or equal to five and remove this vertex color the rest of the gray"
+  },
+  {
+    "t_start": 235.52,
+    "t_end": 238.19,
+    "text": "vertex color the rest of the gray F recursively with a recursive call to"
+  },
+  {
+    "t_start": 238.19,
+    "t_end": 240.02,
+    "text": "F recursively with a recursive call to the same algorithm and then put the"
+  },
+  {
+    "t_start": 240.02,
+    "t_end": 243.41,
+    "text": "the same algorithm and then put the vertex back and when you put it back it"
+  },
+  {
+    "t_start": 243.41,
+    "t_end": 247.55,
+    "text": "vertices which use up at most five colors from your palette and so you can"
+  },
+  {
+    "t_start": 247.55,
+    "t_end": 250.309,
+    "text": "colors from your palette and so you can use the sixth color for this vertex so"
+  },
+  {
+    "t_start": 250.309,
+    "t_end": 252.89,
+    "text": "use the sixth color for this vertex so here's an example note C has degree less"
+  },
+  {
+    "t_start": 252.89,
+    "t_end": 257.99,
+    "text": "here's an example note C has degree less than six remove it now by induction"
+  },
+  {
+    "t_start": 257.99,
+    "t_end": 261.229,
+    "text": "than six remove it now by induction color the rest of the graph and then"
+  },
+  {
+    "t_start": 261.229,
+    "t_end": 263.3,
+    "text": "color the rest of the graph and then when we put node C back we can certainly"
+  },
+  {
+    "t_start": 263.3,
+    "t_end": 265.97,
+    "text": "when we put node C back we can certainly find a color because it's only adjacent"
+  },
+  {
+    "t_start": 265.97,
+    "t_end": 269.12,
+    "text": "to five other nodes so they can have at most five other colors between them and"
+  },
+  {
+    "t_start": 269.12,
+    "t_end": 271.64,
+    "text": "most five other colors between them and so we can use the sixth color to color"
+  },
+  {
+    "t_start": 271.64,
+    "t_end": 277.64,
+    "text": "so we can use the sixth color to color node C okay now so that was"
+  },
+  {
+    "t_start": 277.64,
+    "t_end": 279.95,
+    "text": "node C okay now so that was straightforward that's how to six color"
+  },
+  {
+    "t_start": 279.95,
+    "t_end": 284.33,
+    "text": "straightforward that's how to six color a planar graph here's kemp's for"
+  },
+  {
+    "t_start": 284.33,
+    "t_end": 289.28,
+    "text": "coloring algorithm so if you find a node of degree one or degree two or degree"
+  },
+  {
+    "t_start": 289.28,
+    "t_end": 294.44,
+    "text": "three you can use the algorithm I just showed you for a degree 4 you can use"
+  },
+  {
+    "t_start": 294.44,
+    "t_end": 295.94,
+    "text": "showed you for a degree 4 you can use the method of Kempe chains"
+  },
+  {
+    "t_start": 295.94,
+    "t_end": 302.24,
+    "text": "so here's oops there we are the method of Kempe chains suppose when you put"
+  },
+  {
+    "t_start": 302.24,
+    "t_end": 308.78,
+    "text": "node K back it's adjacent to nodes of four different colors so then take node"
+  },
+  {
+    "t_start": 308.78,
+    "t_end": 314.81,
+    "text": "four different colors so then take node D and recolor it red but that means you"
+  },
+  {
+    "t_start": 314.81,
+    "t_end": 320.63,
+    "text": "you have to color this one red and this one green and if it chains all the way"
+  },
+  {
+    "t_start": 320.63,
+    "t_end": 323.48,
+    "text": "one green and if it chains all the way back to node J and that didn't work but"
+  },
+  {
+    "t_start": 323.48,
+    "t_end": 326.69,
+    "text": "back to node J and that didn't work but if that happens then there can be no"
+  },
+  {
+    "t_start": 326.69,
+    "t_end": 328.969,
+    "text": "if that happens then there can be no chain of blue and yellow between G and B"
+  },
+  {
+    "t_start": 328.969,
+    "t_end": 332.12,
+    "text": "chain of blue and yellow between G and B so that's the Kempe chain argument and"
+  },
+  {
+    "t_start": 332.12,
+    "t_end": 333.86,
+    "text": "so that's the Kempe chain argument and it works just fine"
+  },
+  {
+    "t_start": 333.86,
+    "t_end": 339.38,
+    "text": "it works just fine so to prove the the four node case you"
+  },
+  {
+    "t_start": 339.38,
+    "t_end": 342.5,
+    "text": "use Kemp chains and then to prove the five node case it's very straightforward"
+  },
+  {
+    "t_start": 342.5,
+    "t_end": 344.09,
+    "text": "five node case it's very straightforward you just used a method of simultaneous"
+  },
+  {
+    "t_start": 344.09,
+    "t_end": 347.96,
+    "text": "you just used a method of simultaneous Kemp chains which is unsound as shown by"
+  },
+  {
+    "t_start": 347.96,
+    "t_end": 350.59,
+    "text": "Kemp chains which is unsound as shown by Haywood in 1890"
+  },
+  {
+    "t_start": 350.59,
+    "t_end": 355.59,
+    "text": "Haywood in 1890 okay so Kemp really did end up"
+  },
+  {
+    "t_start": 355.59,
+    "t_end": 357.05,
+    "text": "okay so Kemp really did end up successfully proving the six color"
+  },
+  {
+    "t_start": 357.05,
+    "t_end": 361.76,
+    "text": "theorem because that method works to six color graph and Haywood really showed in"
+  },
+  {
+    "t_start": 361.76,
+    "t_end": 367.49,
+    "text": "color graph and Haywood really showed in 1890 that five color theorem is sound"
+  },
+  {
+    "t_start": 367.49,
+    "t_end": 369.35,
+    "text": "1890 that five color theorem is sound but the four color theorem"
+  },
+  {
+    "t_start": 369.35,
+    "t_end": 376.659,
+    "text": "was not proved for a while and during the 20th century the method of"
+  },
+  {
+    "t_start": 376.659,
+    "t_end": 382.279,
+    "text": "the 20th century the method of unavoidable sets was developed so this"
+  },
+  {
+    "t_start": 382.279,
+    "t_end": 389.77,
+    "text": "unavoidable sets was developed so this history of unavoidable sets is from a"
+  },
+  {
+    "t_start": 389.77,
+    "t_end": 392.689,
+    "text": "paper by Appel and Haken submitted in 1974 and it's not my father's"
+  },
+  {
+    "t_start": 392.689,
+    "t_end": 394.49,
+    "text": "1974 and it's not my father's handwriting so it must be Wolfgang's I"
+  },
+  {
+    "t_start": 394.49,
+    "t_end": 397.7,
+    "text": "handwriting so it must be Wolfgang's I think and and it shows that Franklin had"
+  },
+  {
+    "t_start": 397.7,
+    "t_end": 400.309,
+    "text": "think and and it shows that Franklin had this unavoidable set so that set by"
+  },
+  {
+    "t_start": 400.309,
+    "t_end": 402.589,
+    "text": "this unavoidable set so that set by Franklin every planar graph must have"
+  },
+  {
+    "t_start": 402.589,
+    "t_end": 406.939,
+    "text": "one of those configurations in it and if you could find a way to somehow remove"
+  },
+  {
+    "t_start": 406.939,
+    "t_end": 408.439,
+    "text": "you could find a way to somehow remove the configuration color to the rest of"
+  },
+  {
+    "t_start": 408.439,
+    "t_end": 414.469,
+    "text": "thing then that would be a proof of the four color theorem but unfortunately not"
+  },
+  {
+    "t_start": 414.469,
+    "t_end": 416.48,
+    "text": "four color theorem but unfortunately not every configuration in Franklin's"
+  },
+  {
+    "t_start": 416.48,
+    "t_end": 421.61,
+    "text": "unavoidable set was reducible in that way and lebesgue had another unavoidable"
+  },
+  {
+    "t_start": 421.61,
+    "t_end": 429.589,
+    "text": "way and lebesgue had another unavoidable set in 1940 HISHE had an unavoidable set"
+  },
+  {
+    "t_start": 429.589,
+    "t_end": 436.129,
+    "text": "in 1969 with you know 25 configurations in it almost all of which were reducible"
+  },
+  {
+    "t_start": 436.129,
+    "t_end": 442.76,
+    "text": "and then in 1970 he had an unavoidable set of 8,000 configurations that look"
+  },
+  {
+    "t_start": 442.76,
+    "t_end": 448.369,
+    "text": "set of 8,000 configurations that look like they might be reducible right so so"
+  },
+  {
+    "t_start": 448.369,
+    "t_end": 455.089,
+    "text": "like they might be reducible right so so this was the progress up to 1970 that if"
+  },
+  {
+    "t_start": 455.089,
+    "t_end": 457.999,
+    "text": "you could find an unavoidable set of reducible configurations that would"
+  },
+  {
+    "t_start": 457.999,
+    "t_end": 464.39,
+    "text": "prove the four-color theorem and so he said well someday computers might be"
+  },
+  {
+    "t_start": 464.39,
+    "t_end": 466.189,
+    "text": "said well someday computers might be powerful enough to find an unavoidable"
+  },
+  {
+    "t_start": 466.189,
+    "t_end": 469.49,
+    "text": "powerful enough to find an unavoidable set of perhaps 10,000 reducible"
+  },
+  {
+    "t_start": 469.49,
+    "t_end": 473.629,
+    "text": "set of perhaps 10,000 reducible configurations okay so Kenneth Appel and"
+  },
+  {
+    "t_start": 473.629,
+    "t_end": 476.269,
+    "text": "configurations okay so Kenneth Appel and Wolfgang Haken in 1972 decided to"
+  },
+  {
+    "t_start": 476.269,
+    "t_end": 479.54,
+    "text": "Wolfgang Haken in 1972 decided to estimate how many configurations might"
+  },
+  {
+    "t_start": 479.54,
+    "t_end": 485.42,
+    "text": "estimate how many configurations might be in an unavoidable set of reducible"
+  },
+  {
+    "t_start": 485.42,
+    "t_end": 487.219,
+    "text": "configurations and in what year will future computers be fast enough to"
+  },
+  {
+    "t_start": 487.219,
+    "t_end": 492.23,
+    "text": "future computers be fast enough to calculate this and they concluded in"
+  },
+  {
+    "t_start": 492.23,
+    "t_end": 497.68,
+    "text": "calculate this and they concluded in this paper they submitted in 1974 that"
+  },
+  {
+    "t_start": 497.68,
+    "t_end": 500.54,
+    "text": "this paper they submitted in 1974 that it might be about 2000 configurations"
+  },
+  {
+    "t_start": 500.54,
+    "t_end": 508.61,
+    "text": "and the year in which computers would be powerful enough to do it well as 1972"
+  },
+  {
+    "t_start": 512.85,
+    "t_end": 518.22,
+    "text": "well okay so then they got to work and between 1974 and 1976 they calculated an"
+  },
+  {
+    "t_start": 518.22,
+    "t_end": 521.33,
+    "text": "between 1974 and 1976 they calculated an unavoidable set of approximately 2000"
+  },
+  {
+    "t_start": 521.33,
+    "t_end": 525.45,
+    "text": "unavoidable set of approximately 2000 configurations and the reducibility"
+  },
+  {
+    "t_start": 525.45,
+    "t_end": 532.17,
+    "text": "proof for each configuration is a case analysis on about two hundred thousand"
+  },
+  {
+    "t_start": 532.17,
+    "t_end": 534.72,
+    "text": "analysis on about two hundred thousand cases right so for a configuration of"
+  },
+  {
+    "t_start": 534.72,
+    "t_end": 536.31,
+    "text": "cases right so for a configuration of ring size fourteen as Robin Wilson"
+  },
+  {
+    "t_start": 536.31,
+    "t_end": 539.57,
+    "text": "ring size fourteen as Robin Wilson explained yesterday you need to sort of"
+  },
+  {
+    "t_start": 539.57,
+    "t_end": 542.7,
+    "text": "explained yesterday you need to sort of case analysis over fourteen quantified"
+  },
+  {
+    "t_start": 542.7,
+    "t_end": 547.02,
+    "text": "case analysis over fourteen quantified variables of four colors and it's you"
+  },
+  {
+    "t_start": 547.02,
+    "t_end": 551.91,
+    "text": "can't write that down by hand and you don't even want to print it out from a"
+  },
+  {
+    "t_start": 551.91,
+    "t_end": 553.29,
+    "text": "don't even want to print it out from a computer but you could have a computer"
+  },
+  {
+    "t_start": 553.29,
+    "t_end": 558.21,
+    "text": "computer but you could have a computer program which my father along with John"
+  },
+  {
+    "t_start": 558.21,
+    "t_end": 560.61,
+    "text": "program which my father along with John Koch a computer science graduate student"
+  },
+  {
+    "t_start": 560.61,
+    "t_end": 564.15,
+    "text": "Koch a computer science graduate student wrote in Fortran and IBM assembly"
+  },
+  {
+    "t_start": 564.15,
+    "t_end": 566.94,
+    "text": "wrote in Fortran and IBM assembly language that would check the two"
+  },
+  {
+    "t_start": 566.94,
+    "t_end": 576.45,
+    "text": "ninety of the nineteen hundred and thirty six configurations and a lot of"
+  },
+  {
+    "t_start": 576.45,
+    "t_end": 580.38,
+    "text": "thirty six configurations and a lot of the work was done my father used this"
+  },
+  {
+    "t_start": 580.38,
+    "t_end": 583.44,
+    "text": "the work was done my father used this teletype ASR thirty three terminal this"
+  },
+  {
+    "t_start": 583.44,
+    "t_end": 586.61,
+    "text": "teletype ASR thirty three terminal this is a electromechanical printing terminal"
+  },
+  {
+    "t_start": 586.61,
+    "t_end": 589.29,
+    "text": "is a electromechanical printing terminal connected by telephone from southeast"
+  },
+  {
+    "t_start": 589.29,
+    "t_end": 592.14,
+    "text": "connected by telephone from southeast Urbana to the University computer on"
+  },
+  {
+    "t_start": 592.14,
+    "t_end": 594.87,
+    "text": "Urbana to the University computer on campus it communicates with the central"
+  },
+  {
+    "t_start": 594.87,
+    "t_end": 597.93,
+    "text": "computer at the rate of a hundred and ten bits per second so if you're used to"
+  },
+  {
+    "t_start": 597.93,
+    "t_end": 600.84,
+    "text": "ten bits per second so if you're used to 50 megabits per second then just divided"
+  },
+  {
+    "t_start": 600.84,
+    "t_end": 603.3,
+    "text": "50 megabits per second then just divided by you know half a million or something"
+  },
+  {
+    "t_start": 603.3,
+    "t_end": 606.24,
+    "text": "by you know half a million or something and ok and it's very loud it was sitting"
+  },
+  {
+    "t_start": 606.24,
+    "t_end": 608.13,
+    "text": "and ok and it's very loud it was sitting right under my bedroom in my father's"
+  },
+  {
+    "t_start": 608.13,
+    "t_end": 614.03,
+    "text": "right under my bedroom in my father's study at all hours of the morning ok and"
+  },
+  {
+    "t_start": 614.03,
+    "t_end": 618.96,
+    "text": "study at all hours of the morning ok and you know in April Fool's Day of 1975"
+  },
+  {
+    "t_start": 618.96,
+    "t_end": 620.67,
+    "text": "you know in April Fool's Day of 1975 about halfway through that second"
+  },
+  {
+    "t_start": 620.67,
+    "t_end": 622.92,
+    "text": "about halfway through that second two-year period the mathematical games"
+  },
+  {
+    "t_start": 622.92,
+    "t_end": 627.06,
+    "text": "two-year period the mathematical games column in Scientific American had this"
+  },
+  {
+    "t_start": 627.06,
+    "t_end": 631.92,
+    "text": "column in Scientific American had this map by you know that Martin Gardner put"
+  },
+  {
+    "t_start": 631.92,
+    "t_end": 635.05,
+    "text": "in his mathematical games column and said well a five color map has been"
+  },
+  {
+    "t_start": 635.05,
+    "t_end": 639.04,
+    "text": "can't be colored with four colors and when that arrived in the house in the"
+  },
+  {
+    "t_start": 639.04,
+    "t_end": 642.19,
+    "text": "when that arrived in the house in the mail my father went down to his study"
+  },
+  {
+    "t_start": 642.19,
+    "t_end": 646.3,
+    "text": "and he did not come out until he had colored it okay"
+  },
+  {
+    "t_start": 646.3,
+    "t_end": 652.69,
+    "text": "colored it okay so in 1976 Appel and Haken completed the"
+  },
+  {
+    "t_start": 652.69,
+    "t_end": 654.76,
+    "text": "so in 1976 Appel and Haken completed the for the proof of the four color theorem"
+  },
+  {
+    "t_start": 654.76,
+    "t_end": 658.57,
+    "text": "for the proof of the four color theorem based on approximately 1900 of these"
+  },
+  {
+    "t_start": 658.57,
+    "t_end": 661.54,
+    "text": "based on approximately 1900 of these configurations and as Robin Wilson"
+  },
+  {
+    "t_start": 661.54,
+    "t_end": 664.51,
+    "text": "configurations and as Robin Wilson explained the dark dots indicate nodes"
+  },
+  {
+    "t_start": 664.51,
+    "t_end": 671.98,
+    "text": "explained the dark dots indicate nodes of degree 5 and the the simple vertices"
+  },
+  {
+    "t_start": 671.98,
+    "t_end": 677.47,
+    "text": "are nodes of degree 6 and the unshown edges are out to the ring and so on and"
+  },
+  {
+    "t_start": 677.47,
+    "t_end": 679.75,
+    "text": "so forth and there is a reducibility argument for any possible coloring of"
+  },
+  {
+    "t_start": 679.75,
+    "t_end": 681.25,
+    "text": "argument for any possible coloring of the ring the computer program could"
+  },
+  {
+    "t_start": 681.25,
+    "t_end": 684.91,
+    "text": "calculate that you could replace this configuration with a smaller one and"
+  },
+  {
+    "t_start": 684.91,
+    "t_end": 688.3,
+    "text": "then when you have to put it back you can recolor in such a way that you can"
+  },
+  {
+    "t_start": 688.3,
+    "t_end": 690.1,
+    "text": "can recolor in such a way that you can find colors for the nodes in the"
+  },
+  {
+    "t_start": 690.1,
+    "t_end": 694.36,
+    "text": "find colors for the nodes in the configuration and then famously the"
+  },
+  {
+    "t_start": 694.36,
+    "t_end": 701.55,
+    "text": "postage meter of the math department of the university of illinois advertised"
+  },
+  {
+    "t_start": 701.55,
+    "t_end": 704.47,
+    "text": "this big result on their postage meter back one first-class postage was 13"
+  },
+  {
+    "t_start": 704.47,
+    "t_end": 709.45,
+    "text": "back one first-class postage was 13 cents and Robin Wilson reported that the"
+  },
+  {
+    "t_start": 709.45,
+    "t_end": 711.64,
+    "text": "cents and Robin Wilson reported that the various Appel and Haken children spent"
+  },
+  {
+    "t_start": 711.64,
+    "t_end": 713.59,
+    "text": "various Appel and Haken children spent many hours proofreading the"
+  },
+  {
+    "t_start": 713.59,
+    "t_end": 722.29,
+    "text": "configurations with apologies to Robin Wilson he was misinformed it was only"
+  },
+  {
+    "t_start": 722.29,
+    "t_end": 723.76,
+    "text": "Wilson he was misinformed it was only two of the children"
+  },
+  {
+    "t_start": 723.76,
+    "t_end": 728.77,
+    "text": "Laurel Appel and Dorothea Hakan they did all of this work really the boys slacked"
+  },
+  {
+    "t_start": 728.77,
+    "t_end": 732.84,
+    "text": "all of this work really the boys slacked off and hardly did anything"
+  },
+  {
+    "t_start": 735.76,
+    "t_end": 737.74,
+    "text": "okay so what does it mean the computer printed out lists of numbers it didn't"
+  },
+  {
+    "t_start": 737.74,
+    "t_end": 739.12,
+    "text": "printed out lists of numbers it didn't have a graphic printer that could print"
+  },
+  {
+    "t_start": 739.12,
+    "t_end": 742.42,
+    "text": "have a graphic printer that could print out configurations like this so they had"
+  },
+  {
+    "t_start": 742.42,
+    "t_end": 744.55,
+    "text": "out configurations like this so they had to check that the list of numbers"
+  },
+  {
+    "t_start": 744.55,
+    "t_end": 746.68,
+    "text": "to check that the list of numbers correspond it to the configuration and"
+  },
+  {
+    "t_start": 746.68,
+    "t_end": 748.21,
+    "text": "correspond it to the configuration and that their configurations proved"
+  },
+  {
+    "t_start": 748.21,
+    "t_end": 754.26,
+    "text": "reducible correspond it to the configurations in unavoidable set and so"
+  },
+  {
+    "t_start": 754.26,
+    "t_end": 759.57,
+    "text": "configurations in unavoidable set and so Laurel Appel aged 13 and Dorothea Hakan"
+  },
+  {
+    "t_start": 759.57,
+    "t_end": 762.13,
+    "text": "a couple of years older spent months correcting typographical errors and"
+  },
+  {
+    "t_start": 762.13,
+    "t_end": 768.12,
+    "text": "bringing the more serious errors to the attention of their fathers and by around"
+  },
+  {
+    "t_start": 768.12,
+    "t_end": 771.22,
+    "text": "attention of their fathers and by around the middle of July the proof was"
+  },
+  {
+    "t_start": 771.22,
+    "t_end": 781.15,
+    "text": "completed and the the checking of the configurations was completed and the"
+  },
+  {
+    "t_start": 781.15,
+    "t_end": 782.59,
+    "text": "result was announced and then the mathematicians went around the country"
+  },
+  {
+    "t_start": 782.59,
+    "t_end": 789.67,
+    "text": "giving talks about the result and Armen Hakan who was in a graduate student at"
+  },
+  {
+    "t_start": 789.67,
+    "t_end": 792.76,
+    "text": "Hakan who was in a graduate student at Stanford gave a talk explaining how the"
+  },
+  {
+    "t_start": 792.76,
+    "t_end": 797.74,
+    "text": "Stanford gave a talk explaining how the result worked and you know people under"
+  },
+  {
+    "t_start": 797.74,
+    "t_end": 801.22,
+    "text": "result worked and you know people under 40 well the people over 40 couldn't"
+  },
+  {
+    "t_start": 801.22,
+    "t_end": 803.08,
+    "text": "40 well the people over 40 couldn't believe you could trust that some"
+  },
+  {
+    "t_start": 803.08,
+    "t_end": 804.82,
+    "text": "believe you could trust that some computer calculations could be a proof"
+  },
+  {
+    "t_start": 804.82,
+    "t_end": 808.45,
+    "text": "computer calculations could be a proof and the people under 40 couldn't trust"
+  },
+  {
+    "t_start": 808.45,
+    "t_end": 815.82,
+    "text": "the part that was 700 pages of hand calculations and lists of configurations"
+  },
+  {
+    "t_start": 819.01,
+    "t_end": 825.07,
+    "text": "history of the four-color theorem and it continued in 1996 Robertson and Sanders"
+  },
+  {
+    "t_start": 825.07,
+    "t_end": 828.28,
+    "text": "continued in 1996 Robertson and Sanders and Seymour and Thomas redid the Appel"
+  },
+  {
+    "t_start": 828.28,
+    "t_end": 829.78,
+    "text": "and Seymour and Thomas redid the Appel and Haken proof with only 600"
+  },
+  {
+    "t_start": 829.78,
+    "t_end": 833.85,
+    "text": "and Haken proof with only 600 configurations and a sort of improved"
+  },
+  {
+    "t_start": 833.85,
+    "t_end": 841.23,
+    "text": "version of the same basic recipe and then I'll talk later about Gontier in"
+  },
+  {
+    "t_start": 841.23,
+    "t_end": 845.44,
+    "text": "then I'll talk later about Gontier in 2006 but there's another history"
+  },
+  {
+    "t_start": 845.44,
+    "t_end": 852.73,
+    "text": "oops I want to tell which is about computing and calculation so Leibniz his"
+  },
+  {
+    "t_start": 852.73,
+    "t_end": 855.31,
+    "text": "computing and calculation so Leibniz his dream was you know can we mechanize"
+  },
+  {
+    "t_start": 855.31,
+    "t_end": 858.16,
+    "text": "dream was you know can we mechanize mathematics and Babbage started trying"
+  },
+  {
+    "t_start": 858.16,
+    "t_end": 864.1,
+    "text": "to mechanize calculation and Hilbert was really interested in mechanizing proof"
+  },
+  {
+    "t_start": 864.1,
+    "t_end": 864.67,
+    "text": "really interested in mechanizing proof so the"
+  },
+  {
+    "t_start": 864.67,
+    "t_end": 870.87,
+    "text": "just turn the crank and get the proof out for your theorem or the definite"
+  },
+  {
+    "t_start": 870.87,
+    "t_end": 873.48,
+    "text": "out for your theorem or the definite information that the conjecture is not"
+  },
+  {
+    "t_start": 873.48,
+    "t_end": 878.71,
+    "text": "information that the conjecture is not true and so Goodell in 1929 or so it's"
+  },
+  {
+    "t_start": 878.71,
+    "t_end": 881.38,
+    "text": "true and so Goodell in 1929 or so it's already demonstrated that you know"
+  },
+  {
+    "t_start": 881.38,
+    "t_end": 882.76,
+    "text": "already demonstrated that you know there's some problems they're entering"
+  },
+  {
+    "t_start": 882.76,
+    "t_end": 890.139,
+    "text": "in 1936 demonstrated that there are no decision procedures and in the process"
+  },
+  {
+    "t_start": 890.139,
+    "t_end": 891.88,
+    "text": "decision procedures and in the process of demonstrating that Turing had to"
+  },
+  {
+    "t_start": 891.88,
+    "t_end": 894.73,
+    "text": "of demonstrating that Turing had to invent computers the concept of"
+  },
+  {
+    "t_start": 894.73,
+    "t_end": 898.72,
+    "text": "invent computers the concept of general-purpose computing and and a"
+  },
+  {
+    "t_start": 898.72,
+    "t_end": 904.57,
+    "text": "general-purpose computing and and a consequence of Turing result is that"
+  },
+  {
+    "t_start": 904.57,
+    "t_end": 906.579,
+    "text": "there must be some short theorem statements whose smallest proof is"
+  },
+  {
+    "t_start": 906.579,
+    "t_end": 915.81,
+    "text": "actually quite long which is you know noticeable so then von Neumann and"
+  },
+  {
+    "t_start": 915.81,
+    "t_end": 919.06,
+    "text": "noticeable so then von Neumann and others UNIVAC honeywell IBM started"
+  },
+  {
+    "t_start": 919.06,
+    "t_end": 923.41,
+    "text": "others UNIVAC honeywell IBM started building computers which was useful to"
+  },
+  {
+    "t_start": 923.41,
+    "t_end": 924.91,
+    "text": "building computers which was useful to people trying to prove the four-color"
+  },
+  {
+    "t_start": 924.91,
+    "t_end": 932.949,
+    "text": "theorem and in the 1970s there are two parts of computer science that I want to"
+  },
+  {
+    "t_start": 932.949,
+    "t_end": 936.49,
+    "text": "parts of computer science that I want to talk about one is at IBM Research having"
+  },
+  {
+    "t_start": 936.49,
+    "t_end": 938.949,
+    "text": "talk about one is at IBM Research having to do with optimizing compilers and the"
+  },
+  {
+    "t_start": 938.949,
+    "t_end": 945.88,
+    "text": "to do with optimizing compilers and the other was at Edinboro having to do with"
+  },
+  {
+    "t_start": 945.88,
+    "t_end": 948.519,
+    "text": "logic and proof so Johncock was one of the most influential computer architects"
+  },
+  {
+    "t_start": 948.519,
+    "t_end": 953.74,
+    "text": "the most influential computer architects of the 20th century and one of the most"
+  },
+  {
+    "t_start": 953.74,
+    "t_end": 957.79,
+    "text": "compiler is the thing that translates your source program your Fortran program"
+  },
+  {
+    "t_start": 957.79,
+    "t_end": 963.4,
+    "text": "your source program your Fortran program or whatever to machine language konk was"
+  },
+  {
+    "t_start": 963.4,
+    "t_end": 966.329,
+    "text": "a member in the 1960s of the team that built the Fortran H the IBM Fortran H"
+  },
+  {
+    "t_start": 966.329,
+    "t_end": 969.819,
+    "text": "built the Fortran H the IBM Fortran H optimizing compiler which was actually"
+  },
+  {
+    "t_start": 969.819,
+    "t_end": 978.79,
+    "text": "optimizing compiler which was actually used by Appel in the four color theorem"
+  },
+  {
+    "t_start": 978.79,
+    "t_end": 980.71,
+    "text": "and one of the problems in writing an optimizing compiler is register"
+  },
+  {
+    "t_start": 980.71,
+    "t_end": 988.78,
+    "text": "allocation problem on the left you have some program with variables G H F e m"
+  },
+  {
+    "t_start": 988.78,
+    "t_end": 991.449,
+    "text": "some program with variables G H F e m and so on and on the right you have the"
+  },
+  {
+    "t_start": 991.449,
+    "t_end": 995.41,
+    "text": "and so on and on the right you have the resources of the machine you have some"
+  },
+  {
+    "t_start": 995.41,
+    "t_end": 996.35,
+    "text": "small number of fast registers and a large number of"
+  },
+  {
+    "t_start": 996.35,
+    "t_end": 1000.519,
+    "text": "slow indexable memory locations and you want to decide which variables to keep"
+  },
+  {
+    "t_start": 1000.519,
+    "t_end": 1008.91,
+    "text": "want to decide which variables to keep in registers and which variables can go"
+  },
+  {
+    "t_start": 1008.91,
+    "t_end": 1013.15,
+    "text": "in memory and so I shocked Chandra having seen these talks about the four"
+  },
+  {
+    "t_start": 1013.15,
+    "t_end": 1015.94,
+    "text": "having seen these talks about the four color theorem and Kemp's algorithm for"
+  },
+  {
+    "t_start": 1015.94,
+    "t_end": 1021.16,
+    "text": "color theorem and Kemp's algorithm for coloring graphs and you know I said well"
+  },
+  {
+    "t_start": 1021.16,
+    "t_end": 1023.4,
+    "text": "maybe graph coloring is a good abstraction for the register allocation"
+  },
+  {
+    "t_start": 1023.4,
+    "t_end": 1028.329,
+    "text": "abstraction for the register allocation problem and maybe we could color those"
+  },
+  {
+    "t_start": 1028.329,
+    "t_end": 1030.699,
+    "text": "graphs by finding low degree nodes and removing them and coloring the rest of"
+  },
+  {
+    "t_start": 1030.699,
+    "t_end": 1039.309,
+    "text": "the graph and then putting them back so so he asked gregory chaitin to do it and"
+  },
+  {
+    "t_start": 1039.309,
+    "t_end": 1043.12,
+    "text": "so he asked gregory chaitin to do it and shaitan says you know i didn't know"
+  },
+  {
+    "t_start": 1043.12,
+    "t_end": 1044.829,
+    "text": "shaitan says you know i didn't know about this stuff my field is information"
+  },
+  {
+    "t_start": 1044.829,
+    "t_end": 1048.429,
+    "text": "about this stuff my field is information theory really but a schock Chandra"
+  },
+  {
+    "t_start": 1048.429,
+    "t_end": 1051.37,
+    "text": "theory really but a schock Chandra suggested to Johncock to ask me to do"
+  },
+  {
+    "t_start": 1051.37,
+    "t_end": 1055.18,
+    "text": "suggested to Johncock to ask me to do this coloring algorithm and of course"
+  },
+  {
+    "t_start": 1055.18,
+    "t_end": 1057.61,
+    "text": "this coloring algorithm and of course everybody at the time knew about the"
+  },
+  {
+    "t_start": 1057.61,
+    "t_end": 1063.28,
+    "text": "Appel and Haken result so this was one of the most influential papers in the"
+  },
+  {
+    "t_start": 1063.28,
+    "t_end": 1065.38,
+    "text": "of the most influential papers in the field of computer science register"
+  },
+  {
+    "t_start": 1065.38,
+    "t_end": 1074.5,
+    "text": "allocation via coloring that register allocation can be viewed as a graph"
+  },
+  {
+    "t_start": 1074.5,
+    "t_end": 1076.21,
+    "text": "coloring problem and two nodes are connected by an edge if the quantities"
+  },
+  {
+    "t_start": 1076.21,
+    "t_end": 1077.89,
+    "text": "connected by an edge if the quantities interfere with each other that is if"
+  },
+  {
+    "t_start": 1077.89,
+    "t_end": 1079.69,
+    "text": "interfere with each other that is if they are simultaneously live at some"
+  },
+  {
+    "t_start": 1079.69,
+    "t_end": 1081.34,
+    "text": "they are simultaneously live at some point in the program and that the"
+  },
+  {
+    "t_start": 1081.34,
+    "t_end": 1087.01,
+    "text": "algorithm you use for coloring the graph is Kemp's algorithm for vi coloring a"
+  },
+  {
+    "t_start": 1087.01,
+    "t_end": 1097.12,
+    "text": "so here's live ranges the variable G is defined at the second line and I have an"
+  },
+  {
+    "t_start": 1097.12,
+    "t_end": 1099.28,
+    "text": "defined at the second line and I have an inaccuracy there it's it's used in the"
+  },
+  {
+    "t_start": 1099.28,
+    "t_end": 1104.98,
+    "text": "inaccuracy there it's it's used in the fourth line so the live range of G is"
+  },
+  {
+    "t_start": 1104.98,
+    "t_end": 1112.36,
+    "text": "range of K is from line 0 to line 3 roughly and then it's dead for a while"
+  },
+  {
+    "t_start": 1112.36,
+    "t_end": 1117.73,
+    "text": "roughly and then it's dead for a while and then it's live again down below and"
+  },
+  {
+    "t_start": 1117.73,
+    "t_end": 1119.409,
+    "text": "if two variables are not live at the same time you can put them in the same"
+  },
+  {
+    "t_start": 1119.409,
+    "t_end": 1121.299,
+    "text": "same time you can put them in the same register the register can be"
+  },
+  {
+    "t_start": 1121.299,
+    "t_end": 1124.18,
+    "text": "representing one variable for a while and then another variable later"
+  },
+  {
+    "t_start": 1124.18,
+    "t_end": 1129.22,
+    "text": "and then another variable later so shaytans abstraction was too"
+  },
+  {
+    "t_start": 1129.22,
+    "t_end": 1131.62,
+    "text": "so shaytans abstraction was too understand which pairs of variables"
+  },
+  {
+    "t_start": 1131.62,
+    "t_end": 1136.78,
+    "text": "understand which pairs of variables interfere with each other that is their"
+  },
+  {
+    "t_start": 1136.78,
+    "t_end": 1139.9,
+    "text": "live ranges overlap and then to construct an undirected graph with an"
+  },
+  {
+    "t_start": 1139.9,
+    "t_end": 1145.24,
+    "text": "construct an undirected graph with an edge between any pair of nodes variable"
+  },
+  {
+    "t_start": 1145.24,
+    "t_end": 1147.789,
+    "text": "names whose live ranges overlap so that's the interference graph I'll talk"
+  },
+  {
+    "t_start": 1147.789,
+    "t_end": 1153.13,
+    "text": "just look at the solid edges so there's a graph now these graphs don't have to"
+  },
+  {
+    "t_start": 1153.13,
+    "t_end": 1154.87,
+    "text": "a graph now these graphs don't have to be planar there's no particular reason"
+  },
+  {
+    "t_start": 1154.87,
+    "t_end": 1156.31,
+    "text": "be planar there's no particular reason that register interference graph they're"
+  },
+  {
+    "t_start": 1156.31,
+    "t_end": 1161.65,
+    "text": "that register interference graph they're planar and in fact if you have lots of"
+  },
+  {
+    "t_start": 1161.65,
+    "t_end": 1166.48,
+    "text": "the same time and so you've got a clique of you know size 100 where each node has"
+  },
+  {
+    "t_start": 1166.48,
+    "t_end": 1168.669,
+    "text": "of you know size 100 where each node has degree 99 and there's no guarantee that"
+  },
+  {
+    "t_start": 1168.669,
+    "t_end": 1174.85,
+    "text": "degree 99 and there's no guarantee that there's a small degree node alright so"
+  },
+  {
+    "t_start": 1174.85,
+    "t_end": 1178.409,
+    "text": "here is chayton's heuristic hack of kemp's algorithm to mostly k color a"
+  },
+  {
+    "t_start": 1178.409,
+    "t_end": 1184.69,
+    "text": "graph whether it's planar or not and k the number of colors you have is equal"
+  },
+  {
+    "t_start": 1184.69,
+    "t_end": 1188.98,
+    "text": "to the number of registers on your machine so some machines only have four"
+  },
+  {
+    "t_start": 1188.98,
+    "t_end": 1192.88,
+    "text": "machine so some machines only have four registers and some machines have six"
+  },
+  {
+    "t_start": 1192.88,
+    "t_end": 1198.25,
+    "text": "registers so whatever your K is is there a vertex of degree less than K if so"
+  },
+  {
+    "t_start": 1198.25,
+    "t_end": 1201.1,
+    "text": "a vertex of degree less than K if so remove this vertex color the rest of the"
+  },
+  {
+    "t_start": 1201.1,
+    "t_end": 1203.289,
+    "text": "remove this vertex color the rest of the graph put it back and you will be"
+  },
+  {
+    "t_start": 1203.289,
+    "t_end": 1205.03,
+    "text": "graph put it back and you will be guaranteed to find a color for the node"
+  },
+  {
+    "t_start": 1205.03,
+    "t_end": 1208.39,
+    "text": "guaranteed to find a color for the node that you put back if there is no degree"
+  },
+  {
+    "t_start": 1208.39,
+    "t_end": 1215.86,
+    "text": "that you put back if there is no degree a no node of low degree pick some vertex"
+  },
+  {
+    "t_start": 1215.86,
+    "t_end": 1221.5,
+    "text": "several other nodes color the rest of the graph as best you can and now you"
+  },
+  {
+    "t_start": 1221.5,
+    "t_end": 1225.13,
+    "text": "the graph as best you can and now you put it back if it's well it's when you"
+  },
+  {
+    "t_start": 1225.13,
+    "t_end": 1229.78,
+    "text": "put it back it's going to be adjacent to greater than or equal to K vertices so"
+  },
+  {
+    "t_start": 1229.78,
+    "t_end": 1232.659,
+    "text": "greater than or equal to K vertices so if those vertices happen to have among"
+  },
+  {
+    "t_start": 1232.659,
+    "t_end": 1234.909,
+    "text": "if those vertices happen to have among them less than K colors you'll be able"
+  },
+  {
+    "t_start": 1234.909,
+    "t_end": 1240.97,
+    "text": "them less than K colors you'll be able to find a color for it and if not leave"
+  },
+  {
+    "t_start": 1240.97,
+    "t_end": 1243.19,
+    "text": "it uncoloured that's the great thing about register allocation if you leave"
+  },
+  {
+    "t_start": 1243.19,
+    "t_end": 1244.45,
+    "text": "about register allocation if you leave it on colored that means you're storing"
+  },
+  {
+    "t_start": 1244.45,
+    "t_end": 1246.61,
+    "text": "it on colored that means you're storing this local variable in memory where it's"
+  },
+  {
+    "t_start": 1246.61,
+    "t_end": 1251.409,
+    "text": "this local variable in memory where it's slower instead of a register where it's"
+  },
+  {
+    "t_start": 1251.409,
+    "t_end": 1254.47,
+    "text": "fast but the program will still run so we can get away with this simple hack we"
+  },
+  {
+    "t_start": 1254.47,
+    "t_end": 1256.98,
+    "text": "we can get away with this simple hack we don't even need Kempe chains let alone"
+  },
+  {
+    "t_start": 1256.98,
+    "t_end": 1259.18,
+    "text": "don't even need Kempe chains let alone simultaneous Kempe chains which would"
+  },
+  {
+    "t_start": 1259.18,
+    "t_end": 1263.42,
+    "text": "simultaneous Kempe chains which would have been a big worry so here's how do"
+  },
+  {
+    "t_start": 1263.42,
+    "t_end": 1268.73,
+    "text": "this graph okay if I have a three register machine find a low degree node"
+  },
+  {
+    "t_start": 1268.73,
+    "t_end": 1271.25,
+    "text": "register machine find a low degree node degree less than three remove it push"
+  },
+  {
+    "t_start": 1271.25,
+    "t_end": 1275.24,
+    "text": "degree less than three remove it push its name on the stack right fine that"
+  },
+  {
+    "t_start": 1275.24,
+    "t_end": 1282.64,
+    "text": "lowered the degree of no it'd be in load node M right find a low degree node H"
+  },
+  {
+    "t_start": 1282.64,
+    "t_end": 1286.34,
+    "text": "node M right find a low degree node H remove it put it on the stack that"
+  },
+  {
+    "t_start": 1286.34,
+    "t_end": 1292.4,
+    "text": "lowered the degree of G now it has degree 2 we can remove it now there's no"
+  },
+  {
+    "t_start": 1292.4,
+    "t_end": 1294.47,
+    "text": "degree 2 we can remove it now there's no low degree node every node has degree at"
+  },
+  {
+    "t_start": 1294.47,
+    "t_end": 1298.64,
+    "text": "low degree node every node has degree at least three so we'll pick a node there's"
+  },
+  {
+    "t_start": 1298.64,
+    "t_end": 1301.13,
+    "text": "some heuristics for which node to pick but doesn't matter we'll pick K remove"
+  },
+  {
+    "t_start": 1301.13,
+    "t_end": 1304.01,
+    "text": "but doesn't matter we'll pick K remove it push it on the stack this is actually"
+  },
+  {
+    "t_start": 1304.01,
+    "t_end": 1306.62,
+    "text": "it push it on the stack this is actually Briggs's adjustment of chaitin's"
+  },
+  {
+    "t_start": 1306.62,
+    "t_end": 1312.32,
+    "text": "algorithm color the rest of the graph as I've shown so we've pushed all the nodes"
+  },
+  {
+    "t_start": 1312.32,
+    "t_end": 1316.97,
+    "text": "I've shown so we've pushed all the nodes on the stack and now we can put them"
+  },
+  {
+    "t_start": 1316.97,
+    "t_end": 1319.34,
+    "text": "back in reverse order coloring them so each time we color a node it's adjacent"
+  },
+  {
+    "t_start": 1319.34,
+    "t_end": 1325.37,
+    "text": "each time we color a node it's adjacent to less than K colored nodes so we can"
+  },
+  {
+    "t_start": 1325.37,
+    "t_end": 1328.25,
+    "text": "find a color except when we get here this was the node that had look it's got"
+  },
+  {
+    "t_start": 1328.25,
+    "t_end": 1331.25,
+    "text": "this was the node that had look it's got degree three of colored nodes but by a"
+  },
+  {
+    "t_start": 1331.25,
+    "t_end": 1332.99,
+    "text": "degree three of colored nodes but by a happy coincidence two of them are"
+  },
+  {
+    "t_start": 1332.99,
+    "t_end": 1336.32,
+    "text": "colored the same so we don't have to store this variable in memory we can put"
+  },
+  {
+    "t_start": 1336.32,
+    "t_end": 1340.46,
+    "text": "store this variable in memory we can put it in a register so we give it a color"
+  },
+  {
+    "t_start": 1340.46,
+    "t_end": 1345.29,
+    "text": "finish coloring the graph that's chaitin's algorithm and Briggs in 1984"
+  },
+  {
+    "t_start": 1345.29,
+    "t_end": 1348.44,
+    "text": "chaitin's algorithm and Briggs in 1984 published an improvement of chaitin's"
+  },
+  {
+    "t_start": 1348.44,
+    "t_end": 1350.63,
+    "text": "published an improvement of chaitin's algorithm that does coalescing and"
+  },
+  {
+    "t_start": 1350.63,
+    "t_end": 1352.34,
+    "text": "algorithm that does coalescing and improved spilling"
+  },
+  {
+    "t_start": 1352.34,
+    "t_end": 1355.73,
+    "text": "here's coalescing look at that assignment statement in the original"
+  },
+  {
+    "t_start": 1355.73,
+    "t_end": 1363.74,
+    "text": "program D gets the value of C we move C to D now if we could manage to color C"
+  },
+  {
+    "t_start": 1363.74,
+    "t_end": 1366.02,
+    "text": "to D now if we could manage to color C and D the same that is allocate them"
+  },
+  {
+    "t_start": 1366.02,
+    "t_end": 1367.91,
+    "text": "and D the same that is allocate them into the same register then we don't"
+  },
+  {
+    "t_start": 1367.91,
+    "t_end": 1369.53,
+    "text": "into the same register then we don't need to have that move instruction"
+  },
+  {
+    "t_start": 1369.53,
+    "t_end": 1373.1,
+    "text": "because their register is just moving to itself and we can delete an instruction"
+  },
+  {
+    "t_start": 1373.1,
+    "t_end": 1374.99,
+    "text": "itself and we can delete an instruction from the program so these dotted line"
+  },
+  {
+    "t_start": 1374.99,
+    "t_end": 1377.57,
+    "text": "from the program so these dotted line edges in the graph are coalesced nodes"
+  },
+  {
+    "t_start": 1377.57,
+    "t_end": 1382.79,
+    "text": "edges in the graph are coalesced nodes move nodes excuse me move edges that we"
+  },
+  {
+    "t_start": 1382.79,
+    "t_end": 1388.94,
+    "text": "desire to color J and be the same if possible and we desire to color D and C"
+  },
+  {
+    "t_start": 1388.94,
+    "t_end": 1395.06,
+    "text": "reduction is coalesced move edge C D so it has merge those nodes together if"
+  },
+  {
+    "t_start": 1395.06,
+    "t_end": 1397.55,
+    "text": "it has merge those nodes together if there's no interference edge from C to D"
+  },
+  {
+    "t_start": 1397.55,
+    "t_end": 1400.22,
+    "text": "there's no interference edge from C to D and if the coalescent know it CD would"
+  },
+  {
+    "t_start": 1400.22,
+    "t_end": 1402.56,
+    "text": "and if the coalescent know it CD would have degree less than K because you"
+  },
+  {
+    "t_start": 1402.56,
+    "t_end": 1405.23,
+    "text": "have degree less than K because you don't want to remove moves at the"
+  },
+  {
+    "t_start": 1405.23,
+    "t_end": 1406.88,
+    "text": "don't want to remove moves at the expense of more loads and stores that"
+  },
+  {
+    "t_start": 1406.88,
+    "t_end": 1409.55,
+    "text": "expense of more loads and stores that would be a disaster all right so that's"
+  },
+  {
+    "t_start": 1409.55,
+    "t_end": 1413.72,
+    "text": "would be a disaster all right so that's Briggs's algorithm then while George and"
+  },
+  {
+    "t_start": 1413.72,
+    "t_end": 1416.66,
+    "text": "Briggs's algorithm then while George and I published an improvement to Briggs's"
+  },
+  {
+    "t_start": 1416.66,
+    "t_end": 1418.67,
+    "text": "I published an improvement to Briggs's algorithm that interleaves the"
+  },
+  {
+    "t_start": 1418.67,
+    "t_end": 1424.16,
+    "text": "coalescing operations with the kemp reduction operations and also introduces"
+  },
+  {
+    "t_start": 1424.16,
+    "t_end": 1428.96,
+    "text": "another form of coalescing which i call george reduction because lao invented it"
+  },
+  {
+    "t_start": 1428.96,
+    "t_end": 1433.91,
+    "text": "george reduction because lao invented it not me which you can coalesce c and d if"
+  },
+  {
+    "t_start": 1433.91,
+    "t_end": 1435.35,
+    "text": "there's no interference edge and if the neighbors of d are a subset of the"
+  },
+  {
+    "t_start": 1435.35,
+    "t_end": 1438.62,
+    "text": "neighbors of C then you cannot be increasing the chromatic number of this"
+  },
+  {
+    "t_start": 1438.62,
+    "t_end": 1443.87,
+    "text": "graph by doing that okay so that's our version of Briggs's version of chayton's"
+  },
+  {
+    "t_start": 1443.87,
+    "t_end": 1450.47,
+    "text": "version of Briggs's version of chayton's version of kemp's algorithm and we"
+  },
+  {
+    "t_start": 1450.47,
+    "t_end": 1452.6,
+    "text": "published it in 1996 and this is one of the most widely used algorithms in"
+  },
+  {
+    "t_start": 1452.6,
+    "t_end": 1454.61,
+    "text": "the most widely used algorithms in compilers today for register allocation"
+  },
+  {
+    "t_start": 1454.61,
+    "t_end": 1461.63,
+    "text": "compilers today for register allocation and if you use GCC or whatever you're"
+  },
+  {
+    "t_start": 1461.63,
+    "t_end": 1463.69,
+    "text": "probably using this algorithm ok that was fun"
+  },
+  {
+    "t_start": 1463.69,
+    "t_end": 1470.89,
+    "text": "so that's compilers and computing but let me tell now another history about"
+  },
+  {
+    "t_start": 1470.89,
+    "t_end": 1476.42,
+    "text": "let me tell now another history about logic and proof so in the 1970s Dijkstra"
+  },
+  {
+    "t_start": 1476.42,
+    "t_end": 1479.36,
+    "text": "logic and proof so in the 1970s Dijkstra and Floyd and became interested in"
+  },
+  {
+    "t_start": 1479.36,
+    "t_end": 1481.94,
+    "text": "and Floyd and became interested in how do you prove that a program is"
+  },
+  {
+    "t_start": 1481.94,
+    "t_end": 1488.45,
+    "text": "program verification and that is proofs by hand of course and and then Robin"
+  },
+  {
+    "t_start": 1488.45,
+    "t_end": 1491.26,
+    "text": "by hand of course and and then Robin Milner did something interesting so"
+  },
+  {
+    "t_start": 1491.26,
+    "t_end": 1496.76,
+    "text": "Milner did something interesting so Dijkstra and Floyd and had logics"
+  },
+  {
+    "t_start": 1496.76,
+    "t_end": 1500.06,
+    "text": "Dijkstra and Floyd and had logics for proving programs correct generally"
+  },
+  {
+    "t_start": 1500.06,
+    "t_end": 1506.09,
+    "text": "for proving programs correct generally it's called logic now but all of"
+  },
+  {
+    "t_start": 1506.09,
+    "t_end": 1512.0,
+    "text": "logic was developed around 1970 1971 so really contemporaneously with the"
+  },
+  {
+    "t_start": 1512.0,
+    "t_end": 1518.75,
+    "text": "four-color work and in 1977 or say Oh David Greaves a professor at Cornell"
+  },
+  {
+    "t_start": 1518.75,
+    "t_end": 1522.98,
+    "text": "wrote to my father and said could I get a copy of your reducibility program so"
+  },
+  {
+    "t_start": 1522.98,
+    "t_end": 1528.02,
+    "text": "that I can prove it correct so my father sent him a pile of Fortran and assembly"
+  },
+  {
+    "t_start": 1528.02,
+    "t_end": 1531.349,
+    "text": "sent him a pile of Fortran and assembly language angries said oh well never mind"
+  },
+  {
+    "t_start": 1531.349,
+    "t_end": 1534.579,
+    "text": "language angries said oh well never mind because because that program was not"
+  },
+  {
+    "t_start": 1534.579,
+    "t_end": 1540.619,
+    "text": "well not only was the program not really written in a style that it was easy to"
+  },
+  {
+    "t_start": 1540.619,
+    "t_end": 1542.959,
+    "text": "prove correct but does technology the science of proving programs correct was"
+  },
+  {
+    "t_start": 1542.959,
+    "t_end": 1553.31,
+    "text": "in its infancy in the 1970s it just was not practical to do in around 1978 so 77"
+  },
+  {
+    "t_start": 1553.31,
+    "t_end": 1554.899,
+    "text": "not practical to do in around 1978 so 77 78 very contemporaneously with the"
+  },
+  {
+    "t_start": 1554.899,
+    "t_end": 1556.609,
+    "text": "78 very contemporaneously with the four-color work Robin Milner was"
+  },
+  {
+    "t_start": 1556.609,
+    "t_end": 1561.229,
+    "text": "four-color work Robin Milner was interested in LCF logic for computable"
+  },
+  {
+    "t_start": 1561.229,
+    "t_end": 1566.06,
+    "text": "functions what kind of logic can you machine check about computable functions"
+  },
+  {
+    "t_start": 1566.06,
+    "t_end": 1571.549,
+    "text": "and he built this thing called a proof assistant Edinborough LCF and in a proof"
+  },
+  {
+    "t_start": 1571.549,
+    "t_end": 1573.109,
+    "text": "assistant Edinborough LCF and in a proof assistant you used a computer you"
+  },
+  {
+    "t_start": 1573.109,
+    "t_end": 1578.539,
+    "text": "construct proofs by hand but they are checked by machine checking proofs by"
+  },
+  {
+    "t_start": 1578.539,
+    "t_end": 1584.599,
+    "text": "machine goes back to girdle and Turing and there's a programming language that"
+  },
+  {
+    "t_start": 1584.599,
+    "t_end": 1588.139,
+    "text": "and there's a programming language that comes with it a tactic language that"
+  },
+  {
+    "t_start": 1588.139,
+    "t_end": 1593.45,
+    "text": "allows you to write little programs to help with the trivial parts so that was"
+  },
+  {
+    "t_start": 1593.45,
+    "t_end": 1595.82,
+    "text": "very influential there have been hundreds well maybe one hundred dozens"
+  },
+  {
+    "t_start": 1595.82,
+    "t_end": 1600.549,
+    "text": "hundreds well maybe one hundred dozens of proof assistants built since then I"
+  },
+  {
+    "t_start": 1600.549,
+    "t_end": 1602.629,
+    "text": "of proof assistants built since then I pretty much do all my research these"
+  },
+  {
+    "t_start": 1602.629,
+    "t_end": 1606.169,
+    "text": "pretty much do all my research these days in a proof assistant so let me"
+  },
+  {
+    "t_start": 1606.169,
+    "t_end": 1607.969,
+    "text": "days in a proof assistant so let me demonstrate how a proof assistant works"
+  },
+  {
+    "t_start": 1607.969,
+    "t_end": 1612.589,
+    "text": "demonstrate how a proof assistant works this is the proof assistant"
+  },
+  {
+    "t_start": 1612.589,
+    "t_end": 1618.019,
+    "text": "developed in France from eighteen from 1989 to the present and here I have at"
+  },
+  {
+    "t_start": 1618.019,
+    "t_end": 1621.349,
+    "text": "1989 to the present and here I have at the top left my program and proof script"
+  },
+  {
+    "t_start": 1621.349,
+    "t_end": 1626.45,
+    "text": "and on the top right I have the proof assistant tells me what I am required to"
+  },
+  {
+    "t_start": 1626.45,
+    "t_end": 1628.279,
+    "text": "assistant tells me what I am required to prove and on the Left I have a"
+  },
+  {
+    "t_start": 1628.279,
+    "t_end": 1631.339,
+    "text": "prove and on the Left I have a definition of the piano numbers right a"
+  },
+  {
+    "t_start": 1631.339,
+    "t_end": 1635.69,
+    "text": "number is either a 0 or the successor of some other number and I have a function"
+  },
+  {
+    "t_start": 1635.69,
+    "t_end": 1641.57,
+    "text": "I call ad it's a program it takes a and B which are natural numbers and by case"
+  },
+  {
+    "t_start": 1641.57,
+    "t_end": 1646.879,
+    "text": "analysis on a if a is 0 it returns B and if a is the successor of a prime then it"
+  },
+  {
+    "t_start": 1646.879,
+    "t_end": 1651.589,
+    "text": "if a is the successor of a prime then it returns the successor of ad a prime B so"
+  },
+  {
+    "t_start": 1651.589,
+    "t_end": 1653.45,
+    "text": "it's a recursive function but it's well-founded recursion it's structurally"
+  },
+  {
+    "t_start": 1653.45,
+    "t_end": 1658.579,
+    "text": "well-founded recursion it's structurally recursive on the structure of a so it's"
+  },
+  {
+    "t_start": 1658.579,
+    "t_end": 1663.9,
+    "text": "theorem about this program I can prove that ad is associative for all a B and C"
+  },
+  {
+    "t_start": 1663.9,
+    "t_end": 1671.25,
+    "text": "a of AD BC equals a dove and a B and C everything in green has been accepted so"
+  },
+  {
+    "t_start": 1671.25,
+    "t_end": 1673.71,
+    "text": "everything in green has been accepted so far by the proof assistance proof"
+  },
+  {
+    "t_start": 1673.71,
+    "t_end": 1678.33,
+    "text": "checker now I want to write the proof because it says all right that's what"
+  },
+  {
+    "t_start": 1678.33,
+    "t_end": 1679.71,
+    "text": "because it says all right that's what you claim you're going to prove on the"
+  },
+  {
+    "t_start": 1679.71,
+    "t_end": 1682.14,
+    "text": "you claim you're going to prove on the upper right this is your proof goal you"
+  },
+  {
+    "t_start": 1682.14,
+    "t_end": 1684.53,
+    "text": "upper right this is your proof goal you must prove this so I'm gonna prove it by"
+  },
+  {
+    "t_start": 1684.53,
+    "t_end": 1687.66,
+    "text": "must prove this so I'm gonna prove it by to prove a quantified formula for all I"
+  },
+  {
+    "t_start": 1687.66,
+    "t_end": 1689.34,
+    "text": "to prove a quantified formula for all I could say well let's assume I have"
+  },
+  {
+    "t_start": 1689.34,
+    "t_end": 1692.85,
+    "text": "could say well let's assume I have arbitrary a and B and C so intros"
+  },
+  {
+    "t_start": 1692.85,
+    "t_end": 1694.5,
+    "text": "arbitrary a and B and C so intros this tactic on the left that's just"
+  },
+  {
+    "t_start": 1694.5,
+    "t_end": 1698.49,
+    "text": "about to appear I type in the word intros period and I hit enter and it"
+  },
+  {
+    "t_start": 1698.49,
+    "t_end": 1704.67,
+    "text": "moves a and C and B and C above the line and other assumptions okay so I'll do"
+  },
+  {
+    "t_start": 1704.67,
+    "t_end": 1709.68,
+    "text": "induction on a so this is case analysis on a and here you see I've written the"
+  },
+  {
+    "t_start": 1709.68,
+    "t_end": 1712.35,
+    "text": "on a and here you see I've written the rest of the proof but only the green"
+  },
+  {
+    "t_start": 1712.35,
+    "t_end": 1717.15,
+    "text": "rest of the proof but only the green part has been accepted by the proof"
+  },
+  {
+    "t_start": 1717.15,
+    "t_end": 1722.52,
+    "text": "button so one step at a time it will accept the rest of the proof so the"
+  },
+  {
+    "t_start": 1722.52,
+    "t_end": 1729.6,
+    "text": "first case ad Oh add BC equals ad of Adobe see if I simplify the definition"
+  },
+  {
+    "t_start": 1729.6,
+    "t_end": 1735.15,
+    "text": "of ad oh right by its definition you can see it returns the second argument so if"
+  },
+  {
+    "t_start": 1735.15,
+    "t_end": 1737.81,
+    "text": "see it returns the second argument so if I call simple as I'm doing right here"
+  },
+  {
+    "t_start": 1737.81,
+    "t_end": 1740.55,
+    "text": "I call simple as I'm doing right here this is my remaining proof goal it has"
+  },
+  {
+    "t_start": 1740.55,
+    "t_end": 1742.86,
+    "text": "this is my remaining proof goal it has simplified down to that add BC equals ad"
+  },
+  {
+    "t_start": 1742.86,
+    "t_end": 1745.56,
+    "text": "simplified down to that add BC equals ad BC and this is obviously true but"
+  },
+  {
+    "t_start": 1745.56,
+    "t_end": 1746.94,
+    "text": "BC and this is obviously true but obvious doesn't help it has to actually"
+  },
+  {
+    "t_start": 1746.94,
+    "t_end": 1749.25,
+    "text": "obvious doesn't help it has to actually be valid but it is valid by reflexivity"
+  },
+  {
+    "t_start": 1749.25,
+    "t_end": 1754.98,
+    "text": "of equality so I do that now in the second case the inductive case I have ad"
+  },
+  {
+    "t_start": 1754.98,
+    "t_end": 1760.62,
+    "text": "of successor of a and so on and if I simplify that by the definition of ad it"
+  },
+  {
+    "t_start": 1760.62,
+    "t_end": 1762.66,
+    "text": "simplify that by the definition of ad it simplifies to this and then I apply"
+  },
+  {
+    "t_start": 1762.66,
+    "t_end": 1764.82,
+    "text": "simplifies to this and then I apply reflexivity of equality and well it"
+  },
+  {
+    "t_start": 1764.82,
+    "t_end": 1767.31,
+    "text": "reflexivity of equality and well it turns out reflexivity ecologies invalid"
+  },
+  {
+    "t_start": 1767.31,
+    "t_end": 1769.32,
+    "text": "turns out reflexivity ecologies invalid one very important property of proof"
+  },
+  {
+    "t_start": 1769.32,
+    "t_end": 1772.02,
+    "text": "one very important property of proof assistance is they will reject invalid"
+  },
+  {
+    "t_start": 1772.02,
+    "t_end": 1772.52,
+    "text": "assistance is they will reject invalid proofs"
+  },
+  {
+    "t_start": 1772.52,
+    "t_end": 1778.92,
+    "text": "that's the whole point okay so I will undo that attempt at reflexivity because"
+  },
+  {
+    "t_start": 1778.92,
+    "t_end": 1781.65,
+    "text": "undo that attempt at reflexivity because I don't have equals here and I'll"
+  },
+  {
+    "t_start": 1781.65,
+    "t_end": 1784.86,
+    "text": "I don't have equals here and I'll rewrite by the induction hypothesis iha"
+  },
+  {
+    "t_start": 1784.86,
+    "t_end": 1791.61,
+    "text": "is the name of the induction hypothesis here and it shows that for the smaller a"
+  },
+  {
+    "t_start": 1791.61,
+    "t_end": 1797.37,
+    "text": "rewrite by that equality in the thing that's below the line then this is my"
+  },
+  {
+    "t_start": 1797.37,
+    "t_end": 1801.21,
+    "text": "that's below the line then this is my goal and that is identical things on"
+  },
+  {
+    "t_start": 1801.21,
+    "t_end": 1802.53,
+    "text": "goal and that is identical things on left and right and that proves by"
+  },
+  {
+    "t_start": 1802.53,
+    "t_end": 1804.75,
+    "text": "left and right and that proves by reflectivity so there is a proof in a"
+  },
+  {
+    "t_start": 1804.75,
+    "t_end": 1808.17,
+    "text": "reflectivity so there is a proof in a proof assistant and that's a machine"
+  },
+  {
+    "t_start": 1808.17,
+    "t_end": 1814.38,
+    "text": "proof assistant and that's a machine checked proof and Robert Milner's"
+  },
+  {
+    "t_start": 1814.38,
+    "t_end": 1818.22,
+    "text": "observation and that of many other people census machine check proofs are"
+  },
+  {
+    "t_start": 1818.22,
+    "t_end": 1819.81,
+    "text": "people census machine check proofs are really good for theorems about computer"
+  },
+  {
+    "t_start": 1819.81,
+    "t_end": 1827.94,
+    "text": "programs so one thing about a theorem about a computer program the theorem is"
+  },
+  {
+    "t_start": 1827.94,
+    "t_end": 1830.25,
+    "text": "here's a program and it's correct so that it is it has this observable"
+  },
+  {
+    "t_start": 1830.25,
+    "t_end": 1831.66,
+    "text": "that it is it has this observable behavior in terms of its input and"
+  },
+  {
+    "t_start": 1831.66,
+    "t_end": 1834.72,
+    "text": "behavior in terms of its input and output now many theorems in mathematics"
+  },
+  {
+    "t_start": 1834.72,
+    "t_end": 1837.06,
+    "text": "output now many theorems in mathematics are beautiful and their proofs are"
+  },
+  {
+    "t_start": 1837.06,
+    "t_end": 1839.46,
+    "text": "are beautiful and their proofs are instructive but theorems about computer"
+  },
+  {
+    "t_start": 1839.46,
+    "t_end": 1841.02,
+    "text": "instructive but theorems about computer programs are usually their statements"
+  },
+  {
+    "t_start": 1841.02,
+    "t_end": 1846.18,
+    "text": "it's supposed to do that that's not a very interesting theorem although it may"
+  },
+  {
+    "t_start": 1846.18,
+    "t_end": 1850.71,
+    "text": "very interesting theorem although it may be a very useful theorem and its proof"
+  },
+  {
+    "t_start": 1850.71,
+    "t_end": 1852.69,
+    "text": "may not be instructive it may be long and have many cases and no graduate"
+  },
+  {
+    "t_start": 1852.69,
+    "t_end": 1853.89,
+    "text": "and have many cases and no graduate student would want to have to referee"
+  },
+  {
+    "t_start": 1853.89,
+    "t_end": 1858.54,
+    "text": "that proof and even a 13 year old girl couldn't be convinced to check all the"
+  },
+  {
+    "t_start": 1858.54,
+    "t_end": 1863.7,
+    "text": "couldn't be convinced to check all the cases so so but it's it's really useful"
+  },
+  {
+    "t_start": 1863.7,
+    "t_end": 1865.74,
+    "text": "cases so so but it's it's really useful in software verification and software"
+  },
+  {
+    "t_start": 1865.74,
+    "t_end": 1870.48,
+    "text": "in software verification and software verification is what I do these days so"
+  },
+  {
+    "t_start": 1870.48,
+    "t_end": 1873.35,
+    "text": "here are some landmark results in software verification xavier de huaah at"
+  },
+  {
+    "t_start": 1873.35,
+    "t_end": 1877.13,
+    "text": "software verification xavier de huaah at INRIA built an optimizing c compiler"
+  },
+  {
+    "t_start": 1877.13,
+    "t_end": 1879.9,
+    "text": "INRIA built an optimizing c compiler that's proved correct in the clock proof"
+  },
+  {
+    "t_start": 1879.9,
+    "t_end": 1884.07,
+    "text": "that's proved correct in the clock proof assistant and he has just been named a"
+  },
+  {
+    "t_start": 1884.07,
+    "t_end": 1886.02,
+    "text": "assistant and he has just been named a professor in the college de france which"
+  },
+  {
+    "t_start": 1886.02,
+    "t_end": 1890.91,
+    "text": "professor in the college de france which is a extremely prominent French academic"
+  },
+  {
+    "t_start": 1890.91,
+    "t_end": 1893.52,
+    "text": "is a extremely prominent French academic position Gerwin Klein in Australia"
+  },
+  {
+    "t_start": 1893.52,
+    "t_end": 1896.73,
+    "text": "position Gerwin Klein in Australia proved the correctness and security of"
+  },
+  {
+    "t_start": 1896.73,
+    "t_end": 1899.82,
+    "text": "proved the correctness and security of an operating system microkernel using a"
+  },
+  {
+    "t_start": 1899.82,
+    "t_end": 1902.79,
+    "text": "an operating system microkernel using a different proof assistant and my former"
+  },
+  {
+    "t_start": 1902.79,
+    "t_end": 1905.97,
+    "text": "different proof assistant and my former student zhang chao at yale proved the"
+  },
+  {
+    "t_start": 1905.97,
+    "t_end": 1908.76,
+    "text": "student zhang chao at yale proved the correctness and security of operating"
+  },
+  {
+    "t_start": 1908.76,
+    "t_end": 1912.18,
+    "text": "correctness and security of operating system hypervisor kernel recently in the"
+  },
+  {
+    "t_start": 1912.18,
+    "t_end": 1913.77,
+    "text": "system hypervisor kernel recently in the kakapo phasis tent and i've been"
+  },
+  {
+    "t_start": 1913.77,
+    "t_end": 1917.01,
+    "text": "kakapo phasis tent and i've been laboring away in this field for about 20"
+  },
+  {
+    "t_start": 1917.01,
+    "t_end": 1923.85,
+    "text": "so i proved that a certain ml compiler generates safe machine language code in"
+  },
+  {
+    "t_start": 1923.85,
+    "t_end": 1927.84,
+    "text": "generates safe machine language code in 2005 I have framework for proving the"
+  },
+  {
+    "t_start": 1927.84,
+    "t_end": 1930.33,
+    "text": "2005 I have framework for proving the correctness of C programs"
+  },
+  {
+    "t_start": 1930.33,
+    "t_end": 1935.19,
+    "text": "I prove that a certain cryptographic authentication protocol is both"
+  },
+  {
+    "t_start": 1935.19,
+    "t_end": 1940.53,
+    "text": "correctly implemented and gives you a pseudo-random function with a certain"
+  },
+  {
+    "t_start": 1940.53,
+    "t_end": 1949.16,
+    "text": "guaranteed along with some colleagues of course so that's the third history of"
+  },
+  {
+    "t_start": 1949.16,
+    "t_end": 1953.82,
+    "text": "course so that's the third history of software verification and if you have a"
+  },
+  {
+    "t_start": 1953.82,
+    "t_end": 1956.19,
+    "text": "software verification and if you have a proof of correctness of a program that's"
+  },
+  {
+    "t_start": 1956.19,
+    "t_end": 1959.46,
+    "text": "proof of correctness of a program that's by hand we don't believe it because by"
+  },
+  {
+    "t_start": 1959.46,
+    "t_end": 1961.17,
+    "text": "by hand we don't believe it because by the time somebody finishes refereeing"
+  },
+  {
+    "t_start": 1961.17,
+    "t_end": 1964.8,
+    "text": "that proof the program will have been maintained so it's a different program"
+  },
+  {
+    "t_start": 1964.8,
+    "t_end": 1968.04,
+    "text": "maintained so it's a different program and proofs by machine you can maintain"
+  },
+  {
+    "t_start": 1968.04,
+    "t_end": 1969.9,
+    "text": "and proofs by machine you can maintain the proof by machine along with the"
+  },
+  {
+    "t_start": 1969.9,
+    "t_end": 1977.4,
+    "text": "program and you can check that the proof still corresponds to the program and so"
+  },
+  {
+    "t_start": 1977.4,
+    "t_end": 1979.92,
+    "text": "on and so forth okay three different histories now let's link them together"
+  },
+  {
+    "t_start": 1979.92,
+    "t_end": 1985.29,
+    "text": "remember the under four T's could not be convinced that a proof that big by hand"
+  },
+  {
+    "t_start": 1985.29,
+    "t_end": 1987.66,
+    "text": "convinced that a proof that big by hand was correct what is it magical about the"
+  },
+  {
+    "t_start": 1987.66,
+    "t_end": 1991.53,
+    "text": "was correct what is it magical about the under four T's in 1976 they were born"
+  },
+  {
+    "t_start": 1991.53,
+    "t_end": 1994.74,
+    "text": "under four T's in 1976 they were born after Touring's result Turing's result"
+  },
+  {
+    "t_start": 1994.74,
+    "t_end": 2000.68,
+    "text": "was 1936 he showed what a computer is and what proof checking by computer is"
+  },
+  {
+    "t_start": 2000.68,
+    "t_end": 2002.51,
+    "text": "and anybody born since then has been willing to accept that that's actually"
+  },
+  {
+    "t_start": 2002.51,
+    "t_end": 2010.63,
+    "text": "willing to accept that that's actually meaningful and so by now that's people"
+  },
+  {
+    "t_start": 2010.63,
+    "t_end": 2016.22,
+    "text": "so George Gontier said why can't we check the entire four-color theorem"
+  },
+  {
+    "t_start": 2016.22,
+    "t_end": 2021.35,
+    "text": "inside the proof assistant both the reducibility which had already been"
+  },
+  {
+    "t_start": 2021.35,
+    "t_end": 2024.68,
+    "text": "checked by a Fortran program but the Fortran program had not been proved"
+  },
+  {
+    "t_start": 2024.68,
+    "t_end": 2029.9,
+    "text": "correct and discharging which had been done you know partly by program at some"
+  },
+  {
+    "t_start": 2029.9,
+    "t_end": 2036.23,
+    "text": "point and partly by hand so his proof is entirely inside the cockpit assistant he"
+  },
+  {
+    "t_start": 2036.23,
+    "t_end": 2038.9,
+    "text": "entirely inside the cockpit assistant he has a program to do reducibility just"
+  },
+  {
+    "t_start": 2038.9,
+    "t_end": 2042.68,
+    "text": "has a program to do reducibility just like vacation Appel and Haken but his"
+  },
+  {
+    "t_start": 2042.68,
+    "t_end": 2044.51,
+    "text": "like vacation Appel and Haken but his program is proved correct in Cocke and"
+  },
+  {
+    "t_start": 2044.51,
+    "t_end": 2048.47,
+    "text": "then runs in Cocke and he has the discharging proved correct and so on and"
+  },
+  {
+    "t_start": 2048.47,
+    "t_end": 2055.24,
+    "text": "discharging proved correct and so on and so forth so here's the main statement of"
+  },
+  {
+    "t_start": 2055.24,
+    "t_end": 2060.649,
+    "text": "countries on the map of course he pretty soon converts this to graphs and he"
+  },
+  {
+    "t_start": 2060.649,
+    "t_end": 2061.77,
+    "text": "soon converts this to graphs and he converts the graph to something"
+  },
+  {
+    "t_start": 2061.77,
+    "t_end": 2064.8,
+    "text": "else but his main theorem really is about countries on the map and to define"
+  },
+  {
+    "t_start": 2064.8,
+    "t_end": 2070.14,
+    "text": "about countries on the map and to define the map to define the plane you need"
+  },
+  {
+    "t_start": 2070.14,
+    "t_end": 2076.23,
+    "text": "numbers in about a hundred lines of the logic of caulk and then he defines what"
+  },
+  {
+    "t_start": 2076.23,
+    "t_end": 2078.78,
+    "text": "logic of caulk and then he defines what is a map and a simple map and the color"
+  },
+  {
+    "t_start": 2078.78,
+    "t_end": 2083.7,
+    "text": "ability of a map in about 40 lines of elementary topology written down in the"
+  },
+  {
+    "t_start": 2083.7,
+    "t_end": 2085.56,
+    "text": "elementary topology written down in the language of the proof assistant and"
+  },
+  {
+    "t_start": 2085.56,
+    "t_end": 2090.93,
+    "text": "then he states the theorem for any real model and any M that's a map in that"
+  },
+  {
+    "t_start": 2090.93,
+    "t_end": 2095.97,
+    "text": "real model and if M is a simple map then it's colorable with four colors and then"
+  },
+  {
+    "t_start": 2095.97,
+    "t_end": 2098.16,
+    "text": "it's colorable with four colors and then the proof is sixty thousand lines of"
+  },
+  {
+    "t_start": 2098.16,
+    "t_end": 2101.28,
+    "text": "the proof is sixty thousand lines of caulk which can't have a mistake in it"
+  },
+  {
+    "t_start": 2101.28,
+    "t_end": 2102.75,
+    "text": "caulk which can't have a mistake in it because every line of it is checked by"
+  },
+  {
+    "t_start": 2102.75,
+    "t_end": 2104.58,
+    "text": "because every line of it is checked by the proof assistant as I showed earlier"
+  },
+  {
+    "t_start": 2104.58,
+    "t_end": 2110.97,
+    "text": "the proof assistant as I showed earlier in the slide so that's a very nice"
+  },
+  {
+    "t_start": 2110.97,
+    "t_end": 2117.51,
+    "text": "the four color theorem ok so if you are concerned well if you're under 80 so you"
+  },
+  {
+    "t_start": 2117.51,
+    "t_end": 2119.85,
+    "text": "concerned well if you're under 80 so you were concerned that the by hand part of"
+  },
+  {
+    "t_start": 2119.85,
+    "t_end": 2122.07,
+    "text": "were concerned that the by hand part of the Appel and Haken four color theorem"
+  },
+  {
+    "t_start": 2122.07,
+    "t_end": 2126.18,
+    "text": "the Appel and Haken four color theorem might have a bug in it you need not be"
+  },
+  {
+    "t_start": 2126.18,
+    "t_end": 2127.68,
+    "text": "concerned anymore because there is a version of that theorem that's entirely"
+  },
+  {
+    "t_start": 2127.68,
+    "t_end": 2129.23,
+    "text": "version of that theorem that's entirely checked by machine"
+  },
+  {
+    "t_start": 2129.23,
+    "t_end": 2135.3,
+    "text": "checked by machine okay let's unify computing with software"
+  },
+  {
+    "t_start": 2135.3,
+    "t_end": 2137.76,
+    "text": "okay let's unify computing with software verification and the four color theorem"
+  },
+  {
+    "t_start": 2137.76,
+    "t_end": 2146.31,
+    "text": "so a few years ago I thought you know the one part of the compiler that is not"
+  },
+  {
+    "t_start": 2146.31,
+    "t_end": 2148.86,
+    "text": "the one part of the compiler that is not formally verified is the register"
+  },
+  {
+    "t_start": 2148.86,
+    "t_end": 2152.79,
+    "text": "allocator and i know how to do graph coloring register allocation I published"
+  },
+  {
+    "t_start": 2152.79,
+    "t_end": 2156.78,
+    "text": "coloring register allocation I published a paper about that and I know how to do"
+  },
+  {
+    "t_start": 2156.78,
+    "t_end": 2161.97,
+    "text": "fun to write a paper in which I could cite some results from 1977 by Appel and"
+  },
+  {
+    "t_start": 2161.97,
+    "t_end": 2166.17,
+    "text": "cite some results from 1977 by Appel and Haken so we just took the kemp's"
+  },
+  {
+    "t_start": 2166.17,
+    "t_end": 2169.05,
+    "text": "Haken so we just took the kemp's algorithm or rather the Appel and George"
+  },
+  {
+    "t_start": 2169.05,
+    "t_end": 2171.3,
+    "text": "algorithm or rather the Appel and George version of the brig's version of the"
+  },
+  {
+    "t_start": 2171.3,
+    "t_end": 2176.3,
+    "text": "version of the brig's version of the chaiten version of kemp's algorithm for"
+  },
+  {
+    "t_start": 2176.3,
+    "t_end": 2178.5,
+    "text": "graph coloring with coalescing and Sandrine Bazzi of the University of"
+  },
+  {
+    "t_start": 2178.5,
+    "t_end": 2183.57,
+    "text": "Rennes and her student been well Robbie odd we proved it correct in the kakapo"
+  },
+  {
+    "t_start": 2183.57,
+    "t_end": 2188.82,
+    "text": "odd we proved it correct in the kakapo fascist tent so we merged those and that"
+  },
+  {
+    "t_start": 2188.82,
+    "t_end": 2192.05,
+    "text": "fascist tent so we merged those and that was great fun"
+  },
+  {
+    "t_start": 2192.05,
+    "t_end": 2198.95,
+    "text": "in mathematics sometimes people even resort to machine checked proof even in"
+  },
+  {
+    "t_start": 2198.95,
+    "t_end": 2208.91,
+    "text": "the 21st century so in 1990 well Kepler in 1611 wasn't originally Kepler it was"
+  },
+  {
+    "t_start": 2208.91,
+    "t_end": 2210.47,
+    "text": "in 1611 wasn't originally Kepler it was somebody else but somebody else wrote to"
+  },
+  {
+    "t_start": 2210.47,
+    "t_end": 2212.99,
+    "text": "somebody else but somebody else wrote to Kepler and Kepler is more famous said"
+  },
+  {
+    "t_start": 2212.99,
+    "t_end": 2215.51,
+    "text": "Kepler and Kepler is more famous said the closest way you could pack spheres"
+  },
+  {
+    "t_start": 2215.51,
+    "t_end": 2219.38,
+    "text": "the closest way you could pack spheres is this picture shown like you might"
+  },
+  {
+    "t_start": 2219.38,
+    "t_end": 2221.45,
+    "text": "is this picture shown like you might stack a pyramid of oranges and why were"
+  },
+  {
+    "t_start": 2221.45,
+    "t_end": 2224.81,
+    "text": "stack a pyramid of oranges and why were they interested in this in 1611 because"
+  },
+  {
+    "t_start": 2224.81,
+    "t_end": 2229.07,
+    "text": "they interested in this in 1611 because oranges weren't easy to find in Europe"
+  },
+  {
+    "t_start": 2229.07,
+    "t_end": 2231.2,
+    "text": "in 1611 they were interested in the atomic theory of matter and these close"
+  },
+  {
+    "t_start": 2231.2,
+    "t_end": 2233.36,
+    "text": "atomic theory of matter and these close packings are directly relevant to the"
+  },
+  {
+    "t_start": 2233.36,
+    "t_end": 2235.4,
+    "text": "packings are directly relevant to the atomic theory of matter so Kepler"
+  },
+  {
+    "t_start": 2235.4,
+    "t_end": 2236.87,
+    "text": "atomic theory of matter so Kepler conjectured that there's no denser"
+  },
+  {
+    "t_start": 2236.87,
+    "t_end": 2244.37,
+    "text": "packing than this and it was unsolved for almost 400 years until Thomas Hales"
+  },
+  {
+    "t_start": 2244.37,
+    "t_end": 2248.48,
+    "text": "for almost 400 years until Thomas Hales of the University of Chicago submitted"
+  },
+  {
+    "t_start": 2248.48,
+    "t_end": 2253.63,
+    "text": "of the University of Chicago submitted for publication a proof partly by hand"
+  },
+  {
+    "t_start": 2253.63,
+    "t_end": 2256.55,
+    "text": "and partly by computer that had thousands of planar graphed graphs each"
+  },
+  {
+    "t_start": 2256.55,
+    "t_end": 2259.55,
+    "text": "thousands of planar graphed graphs each with a computerized case analysis"
+  },
+  {
+    "t_start": 2259.55,
+    "t_end": 2262.25,
+    "text": "with a computerized case analysis calculation does that sound familiar"
+  },
+  {
+    "t_start": 2262.25,
+    "t_end": 2266.02,
+    "text": "calculation does that sound familiar okay and although a mathematician in"
+  },
+  {
+    "t_start": 2266.02,
+    "t_end": 2268.52,
+    "text": "okay and although a mathematician in 1976 could just barely get away with"
+  },
+  {
+    "t_start": 2268.52,
+    "t_end": 2270.5,
+    "text": "1976 could just barely get away with submitting a proof that had thousands of"
+  },
+  {
+    "t_start": 2270.5,
+    "t_end": 2275.12,
+    "text": "submitting a proof that had thousands of planar graphs with a big part of the"
+  },
+  {
+    "t_start": 2275.12,
+    "t_end": 2277.13,
+    "text": "proof by hand and a program that did some calculations on each one the"
+  },
+  {
+    "t_start": 2277.13,
+    "t_end": 2280.25,
+    "text": "some calculations on each one the referee said we pretty much believe this"
+  },
+  {
+    "t_start": 2280.25,
+    "t_end": 2282.8,
+    "text": "referee said we pretty much believe this we're 99% certain it's correct but it's"
+  },
+  {
+    "t_start": 2282.8,
+    "t_end": 2288.5,
+    "text": "we're 99% certain it's correct but it's too big for us to have real confidence"
+  },
+  {
+    "t_start": 2288.5,
+    "t_end": 2293.06,
+    "text": "about so its status as a proof was in doubt for a few years so Hales decided"
+  },
+  {
+    "t_start": 2293.06,
+    "t_end": 2297.08,
+    "text": "doubt for a few years so Hales decided let's prove it correct and and in a"
+  },
+  {
+    "t_start": 2297.08,
+    "t_end": 2299.27,
+    "text": "let's prove it correct and and in a proof assistant essentially just as"
+  },
+  {
+    "t_start": 2299.27,
+    "t_end": 2301.61,
+    "text": "proof assistant essentially just as Gontier had been doing for the"
+  },
+  {
+    "t_start": 2301.61,
+    "t_end": 2304.97,
+    "text": "Gontier had been doing for the four-color theorem so he did this it"
+  },
+  {
+    "t_start": 2304.97,
+    "t_end": 2311.2,
+    "text": "took 10 years and this is the team right sometimes machine check proof is a big"
+  },
+  {
+    "t_start": 2311.2,
+    "t_end": 2314.57,
+    "text": "sometimes machine check proof is a big engineering enterprise and if you've"
+  },
+  {
+    "t_start": 2314.57,
+    "t_end": 2319.01,
+    "text": "ever stayed to the very end of a animated movie these days and you see"
+  },
+  {
+    "t_start": 2319.01,
+    "t_end": 2320.99,
+    "text": "animated movie these days and you see the long list of credits of all of the"
+  },
+  {
+    "t_start": 2320.99,
+    "t_end": 2322.97,
+    "text": "the long list of credits of all of the engineers this one animated the"
+  },
+  {
+    "t_start": 2322.97,
+    "t_end": 2331.58,
+    "text": "this one drew the sketches right this was the team it's proved you can't pack"
+  },
+  {
+    "t_start": 2331.58,
+    "t_end": 2333.86,
+    "text": "was the team it's proved you can't pack things any more densely than that and"
+  },
+  {
+    "t_start": 2333.86,
+    "t_end": 2336.44,
+    "text": "things any more densely than that and everybody knows it now even people under"
+  },
+  {
+    "t_start": 2336.44,
+    "t_end": 2343.61,
+    "text": "everybody knows it now even people under 80 okay so I'm pretty much done graph"
+  },
+  {
+    "t_start": 2343.61,
+    "t_end": 2345.77,
+    "text": "80 okay so I'm pretty much done graph coloring with or without proofs is very"
+  },
+  {
+    "t_start": 2345.77,
+    "t_end": 2348.02,
+    "text": "coloring with or without proofs is very useful in computer science and it was"
+  },
+  {
+    "t_start": 2348.02,
+    "t_end": 2349.43,
+    "text": "useful in computer science and it was brought to the attention of computer"
+  },
+  {
+    "t_start": 2349.43,
+    "t_end": 2354.47,
+    "text": "brought to the attention of computer science by the big splashy result in"
+  },
+  {
+    "t_start": 2354.47,
+    "t_end": 2356.24,
+    "text": "1976 the four-color theorem but the algorithm we use really dates back"
+  },
+  {
+    "t_start": 2356.24,
+    "t_end": 2359.69,
+    "text": "algorithm we use really dates back tonight to 1879 Kemp"
+  },
+  {
+    "t_start": 2359.69,
+    "t_end": 2366.14,
+    "text": "computer check proofs are widespread and important in computer science so in my"
+  },
+  {
+    "t_start": 2366.14,
+    "t_end": 2371.81,
+    "text": "important in computer science so in my part of computer science many of the"
+  },
+  {
+    "t_start": 2371.81,
+    "t_end": 2377.33,
+    "text": "sort of top refereed venues asked for machine checked proofs it's not always"
+  },
+  {
+    "t_start": 2377.33,
+    "t_end": 2379.28,
+    "text": "machine checked proofs it's not always mandatory to submit them but if you"
+  },
+  {
+    "t_start": 2379.28,
+    "t_end": 2382.22,
+    "text": "mandatory to submit them but if you submit them then the referees will"
+  },
+  {
+    "t_start": 2382.22,
+    "t_end": 2384.47,
+    "text": "submit them then the referees will actually examine the machine check proof"
+  },
+  {
+    "t_start": 2384.47,
+    "t_end": 2388.55,
+    "text": "actually examine the machine check proof to see that the statement of the theorem"
+  },
+  {
+    "t_start": 2388.55,
+    "t_end": 2392.06,
+    "text": "to what you claimed in the paper and then they'll run the machine check proof"
+  },
+  {
+    "t_start": 2392.06,
+    "t_end": 2399.74,
+    "text": "then they'll run the machine check proof in the proof assistant and this spring"
+  },
+  {
+    "t_start": 2399.74,
+    "t_end": 2402.83,
+    "text": "in May or so my student and I submitted a paper for publication and it was about"
+  },
+  {
+    "t_start": 2402.83,
+    "t_end": 2405.32,
+    "text": "a paper for publication and it was about a certain compiler optimization"
+  },
+  {
+    "t_start": 2405.32,
+    "t_end": 2411.08,
+    "text": "machine check proof but we didn't send it in with the paper because there"
+  },
+  {
+    "t_start": 2411.08,
+    "t_end": 2417.38,
+    "text": "submission form to do that and in July we got the referee reports and said we"
+  },
+  {
+    "t_start": 2417.38,
+    "t_end": 2418.52,
+    "text": "we got the referee reports and said we are willing to accept this paper"
+  },
+  {
+    "t_start": 2418.52,
+    "t_end": 2420.59,
+    "text": "are willing to accept this paper provided that you immediately send us"
+  },
+  {
+    "t_start": 2420.59,
+    "t_end": 2426.74,
+    "text": "run it and check it which we did and the paper has been published so it's part of"
+  },
+  {
+    "t_start": 2426.74,
+    "t_end": 2431.75,
+    "text": "paper has been published so it's part of the it's part of the ethos of certain"
+  },
+  {
+    "t_start": 2431.75,
+    "t_end": 2437.8,
+    "text": "parts of computer science now that your proofs should be machine checked and I"
+  },
+  {
+    "t_start": 2437.8,
+    "t_end": 2440.39,
+    "text": "proofs should be machine checked and I get advertisements companies looking for"
+  },
+  {
+    "t_start": 2440.39,
+    "t_end": 2445.58,
+    "text": "get advertisements companies looking for jobs for industrial proof engineers"
+  },
+  {
+    "t_start": 2445.58,
+    "t_end": 2447.68,
+    "text": "these are people that can formalize the mathematics of computer science for"
+  },
+  {
+    "t_start": 2447.68,
+    "t_end": 2453.38,
+    "text": "machine checked proofs for you know operating systems and file systems and"
+  },
+  {
+    "t_start": 2453.38,
+    "t_end": 2453.74,
+    "text": "operating systems and file systems and compiled"
+  },
+  {
+    "t_start": 2453.74,
+    "t_end": 2460.43,
+    "text": "and so on and computer check proofs are even sometimes becoming important in"
+  },
+  {
+    "t_start": 2460.43,
+    "t_end": 2464.06,
+    "text": "even sometimes becoming important in mathematics thank you"
+  },
+  {
+    "t_start": 2464.06,
+    "t_end": 2485.37,
+    "text": "mathematics thank you [Applause]"
+  },
+  {
+    "t_start": 2492.609,
+    "t_end": 2499.02,
+    "text": "no is the proof assistant so it's it's the program that checks proofs"
+  },
+  {
+    "t_start": 2505.48,
+    "t_end": 2510.91,
+    "text": "every line of it has been checked by the kernel of the proof assistant right"
+  },
+  {
+    "t_start": 2510.91,
+    "t_end": 2515.92,
+    "text": "kernel of the proof assistant right so the point of the machine check proof"
+  },
+  {
+    "t_start": 2515.92,
+    "t_end": 2518.049,
+    "text": "is that I can only construct valid proofs that 60,000 lines is the"
+  },
+  {
+    "t_start": 2518.049,
+    "t_end": 2524.319,
+    "text": "construction of a valid proof if I had a mistake or if don t I had a mistake in"
+  },
+  {
+    "t_start": 2524.319,
+    "t_end": 2532.079,
+    "text": "kernel the proof checker part of it would catch the mistake and so we need"
+  },
+  {
+    "t_start": 2532.079,
+    "t_end": 2536.319,
+    "text": "would catch the mistake and so we need how to find the proof oh well here's how"
+  },
+  {
+    "t_start": 2536.319,
+    "t_end": 2539.609,
+    "text": "how to find the proof oh well here's how Gontier did it he read Robertson's paper"
+  },
+  {
+    "t_start": 2539.609,
+    "t_end": 2544.839,
+    "text": "Gontier did it he read Robertson's paper okay and the way Robertson did it is he"
+  },
+  {
+    "t_start": 2544.839,
+    "t_end": 2548.25,
+    "text": "read up Ellen Hawkins paper right so it's still mathematics"
+  },
+  {
+    "t_start": 2548.25,
+    "t_end": 2553.9,
+    "text": "you know Turing prove that you're not gonna be able to write a program that"
+  },
+  {
+    "t_start": 2553.9,
+    "t_end": 2557.47,
+    "text": "gonna be able to write a program that finds your proofs for you in general but"
+  },
+  {
+    "t_start": 2557.47,
+    "t_end": 2565.51,
+    "text": "finds your proofs for you in general but you can certainly check your proofs so"
+  },
+  {
+    "t_start": 2565.51,
+    "t_end": 2569.319,
+    "text": "you can certainly check your proofs so the question is the question is who is a"
+  },
+  {
+    "t_start": 2569.319,
+    "t_end": 2579.29,
+    "text": "the question is the question is who is a proof check"
+  },
+  {
+    "t_start": 2591.39,
+    "t_end": 2595.41,
+    "text": "right right okay so the question is the question is why should we trust the"
+  },
+  {
+    "t_start": 2595.41,
+    "t_end": 2599.82,
+    "text": "so there's been a lot of work in that area I've done some of it myself"
+  },
+  {
+    "t_start": 2599.82,
+    "t_end": 2610.17,
+    "text": "area I've done some of it myself actually for example in 2004 or so I had"
+  },
+  {
+    "t_start": 2610.17,
+    "t_end": 2611.94,
+    "text": "actually for example in 2004 or so I had a machine checked proof done in the"
+  },
+  {
+    "t_start": 2611.94,
+    "t_end": 2614.07,
+    "text": "a machine checked proof done in the twelfth proof checker and I said okay"
+  },
+  {
+    "t_start": 2614.07,
+    "t_end": 2622.11,
+    "text": "under what basis do I trust the twelfth proof checker so what I did is I first i"
+  },
+  {
+    "t_start": 2622.11,
+    "t_end": 2623.55,
+    "text": "proof checker so what I did is I first i read the refereed paper in the"
+  },
+  {
+    "t_start": 2623.55,
+    "t_end": 2629.13,
+    "text": "scientific literature that explained the logic underlying 12 and the algorithm"
+  },
+  {
+    "t_start": 2629.13,
+    "t_end": 2635.46,
+    "text": "logic underlying 12 and the algorithm for proof checking in 12 which was"
+  },
+  {
+    "t_start": 2635.46,
+    "t_end": 2638.25,
+    "text": "written by two of the most careful computer scientists i know bob harper"
+  },
+  {
+    "t_start": 2638.25,
+    "t_end": 2644.55,
+    "text": "and frank Fenig and then i said ok can i implement an independent checker using"
+  },
+  {
+    "t_start": 2644.55,
+    "t_end": 2649.14,
+    "text": "implement an independent checker using this algorithm as a computer program and"
+  },
+  {
+    "t_start": 2649.14,
+    "t_end": 2652.02,
+    "text": "how long is that computer program and the answer was 800 lines so now I've"
+  },
+  {
+    "t_start": 2652.02,
+    "t_end": 2653.46,
+    "text": "the answer was 800 lines so now I've reduced the problem to trusting that"
+  },
+  {
+    "t_start": 2653.46,
+    "t_end": 2656.96,
+    "text": "reduced the problem to trusting that this 800 lines correctly implements that"
+  },
+  {
+    "t_start": 2656.96,
+    "t_end": 2659.67,
+    "text": "this 800 lines correctly implements that algorithm and that the referees of that"
+  },
+  {
+    "t_start": 2659.67,
+    "t_end": 2664.77,
+    "text": "algorithm and that the referees of that paper and the authors of it are"
+  },
+  {
+    "t_start": 2664.77,
+    "t_end": 2669.12,
+    "text": "trustworthy in that the algorithm is a logic that's consistent okay and then"
+  },
+  {
+    "t_start": 2669.12,
+    "t_end": 2673.2,
+    "text": "you can inspect the 800 lines and the translation of that by the untrustworthy"
+  },
+  {
+    "t_start": 2673.2,
+    "t_end": 2674.88,
+    "text": "translation of that by the untrustworthy compiler to assembly language to make"
+  },
+  {
+    "t_start": 2674.88,
+    "t_end": 2677.63,
+    "text": "compiler to assembly language to make sure that just this once - compiler"
+  },
+  {
+    "t_start": 2677.63,
+    "t_end": 2683.97,
+    "text": "ok so that was a way that I could trust my big hundred thousand line proof"
+  },
+  {
+    "t_start": 2683.97,
+    "t_end": 2689.7,
+    "text": "because it was checked by my 800 line proof checker and the 800 lines is"
+  },
+  {
+    "t_start": 2689.7,
+    "t_end": 2691.47,
+    "text": "proof checker and the 800 lines is trustworthy because it's a clear"
+  },
+  {
+    "t_start": 2691.47,
+    "t_end": 2696.09,
+    "text": "transcription of an algorithm in a refereed journal ok about three years"
+  },
+  {
+    "t_start": 2696.09,
+    "t_end": 2699.69,
+    "text": "refereed journal ok about three years later christian urban said alright let's"
+  },
+  {
+    "t_start": 2699.69,
+    "t_end": 2701.58,
+    "text": "later christian urban said alright let's take that algorithm from the refereed"
+  },
+  {
+    "t_start": 2701.58,
+    "t_end": 2708.54,
+    "text": "take that algorithm from the refereed journal and check the proof that it's"
+  },
+  {
+    "t_start": 2708.54,
+    "t_end": 2709.4,
+    "text": "sound in a proof checker a different proof checker"
+  },
+  {
+    "t_start": 2709.4,
+    "t_end": 2714.62,
+    "text": "proof checker and he found a bug in the proof it was a"
+  },
+  {
+    "t_start": 2714.62,
+    "t_end": 2722.0,
+    "text": "and he found a bug in the proof it was a small bug in one lemma of the proof and"
+  },
+  {
+    "t_start": 2722.0,
+    "t_end": 2724.52,
+    "text": "the theorem was still sound so so does that make us more confident or less it"
+  },
+  {
+    "t_start": 2724.52,
+    "t_end": 2726.86,
+    "text": "that make us more confident or less it makes me plenty continent so there's"
+  },
+  {
+    "t_start": 2726.86,
+    "t_end": 2732.73,
+    "text": "makes me plenty continent so there's lots of good research in in representing"
+  },
+  {
+    "t_start": 2732.73,
+    "t_end": 2736.88,
+    "text": "lots of good research in in representing proof logics in meta logics and proving"
+  },
+  {
+    "t_start": 2736.88,
+    "t_end": 2738.86,
+    "text": "proof logics in meta logics and proving the soundness of the meta logic checkers"
+  },
+  {
+    "t_start": 2738.86,
+    "t_end": 2740.33,
+    "text": "the soundness of the meta logic checkers there's always going to be some amount"
+  },
+  {
+    "t_start": 2740.33,
+    "t_end": 2742.88,
+    "text": "there's always going to be some amount of circularity there nothing's perfect"
+  },
+  {
+    "t_start": 2742.88,
+    "t_end": 2749.36,
+    "text": "but in many cases we can have great confidence in these small programs that"
+  },
+  {
+    "t_start": 2749.36,
+    "t_end": 2762.26,
+    "text": "confidence in these small programs that check proofs yes so you said if I heard"
+  },
+  {
+    "t_start": 2762.26,
+    "t_end": 2764.69,
+    "text": "check proofs yes so you said if I heard you correctly that now when you publish"
+  },
+  {
+    "t_start": 2764.69,
+    "t_end": 2767.9,
+    "text": "you correctly that now when you publish a proof it's customary to release the"
+  },
+  {
+    "t_start": 2767.9,
+    "t_end": 2771.68,
+    "text": "a proof it's customary to release the code for example or expect to have it"
+  },
+  {
+    "t_start": 2771.68,
+    "t_end": 2773.6,
+    "text": "checked by a proof checker as you as part of the publication process in the"
+  },
+  {
+    "t_start": 2773.6,
+    "t_end": 2776.21,
+    "text": "part of the publication process in the field of programming languages which has"
+  },
+  {
+    "t_start": 2776.21,
+    "t_end": 2778.19,
+    "text": "field of programming languages which has higher standards of accuracy than"
+  },
+  {
+    "t_start": 2778.19,
+    "t_end": 2785.69,
+    "text": "higher standards of accuracy than mathematics let me read you something"
+  },
+  {
+    "t_start": 2785.69,
+    "t_end": 2788.06,
+    "text": "mathematics let me read you something that I had a similar conversation with"
+  },
+  {
+    "t_start": 2788.06,
+    "t_end": 2789.68,
+    "text": "that I had a similar conversation with Tom Hales about three years ago I'm"
+  },
+  {
+    "t_start": 2789.68,
+    "t_end": 2791.27,
+    "text": "Tom Hales about three years ago I'm looking at his email response now and"
+  },
+  {
+    "t_start": 2791.27,
+    "t_end": 2794.63,
+    "text": "looking at his email response now and he's quoting the AMS ethical guidelines"
+  },
+  {
+    "t_start": 2794.63,
+    "t_end": 2796.34,
+    "text": "he's quoting the AMS ethical guidelines saying that mathematicians have a"
+  },
+  {
+    "t_start": 2796.34,
+    "t_end": 2798.74,
+    "text": "saying that mathematicians have a responsibility to publish full details"
+  },
+  {
+    "t_start": 2798.74,
+    "t_end": 2800.54,
+    "text": "responsibility to publish full details of results that are announced without"
+  },
+  {
+    "t_start": 2800.54,
+    "t_end": 2803.81,
+    "text": "of results that are announced without unreasonable delay I would put the code"
+  },
+  {
+    "t_start": 2803.81,
+    "t_end": 2809.96,
+    "text": "unreasonable delay I would put the code in that in that category okay so about"
+  },
+  {
+    "t_start": 2809.96,
+    "t_end": 2817.61,
+    "text": "four years ago the top conferences in my end of computer science decided to have"
+  },
+  {
+    "t_start": 2817.61,
+    "t_end": 2820.94,
+    "text": "end of computer science decided to have an explicit artifact evaluation process"
+  },
+  {
+    "t_start": 2820.94,
+    "t_end": 2826.46,
+    "text": "an explicit artifact evaluation process so if your scientific claim is based on"
+  },
+  {
+    "t_start": 2826.46,
+    "t_end": 2829.07,
+    "text": "a proof you could submit a machine checked proof script if your scientific"
+  },
+  {
+    "t_start": 2829.07,
+    "t_end": 2831.56,
+    "text": "checked proof script if your scientific claim is about the high performance of"
+  },
+  {
+    "t_start": 2831.56,
+    "t_end": 2833.39,
+    "text": "claim is about the high performance of some compiler optimization you could"
+  },
+  {
+    "t_start": 2833.39,
+    "t_end": 2836.75,
+    "text": "some compiler optimization you could submit the compiler and the test suite"
+  },
+  {
+    "t_start": 2836.75,
+    "t_end": 2839.84,
+    "text": "which is not a proof at all it's an experimental artifact and the artifact"
+  },
+  {
+    "t_start": 2839.84,
+    "t_end": 2842.97,
+    "text": "experimental artifact and the artifact evaluation committee will examine the"
+  },
+  {
+    "t_start": 2842.97,
+    "t_end": 2847.17,
+    "text": "to see if that it relates to the claim being made and that actually does run"
+  },
+  {
+    "t_start": 2847.17,
+    "t_end": 2850.349,
+    "text": "being made and that actually does run and and so on so and then the artifact"
+  },
+  {
+    "t_start": 2850.349,
+    "t_end": 2856.44,
+    "text": "and and so on so and then the artifact itself is public so that's that's how it"
+  },
+  {
+    "t_start": 2856.44,
+    "t_end": 2864.96,
+    "text": "works in in scientific fields of endeavor"
+  }
+]

@@ -1,0 +1,278 @@
+theorems my very biased collection of course today I would like to talk about
+course today I would like to talk about as we packing or um more appropriately
+as we packing or um more appropriately maybe bold packing we will see what that
+actually means and it's kind of this idea that um we are looking for the
+idea that um we are looking for the analog of well bees like to build their
+analog of well bees like to build their honeycombs right um and they are really
+honeycombs right um and they are really really efficient and there's a good
+really efficient and there's a good reason why they are efficient so the
+crucial polygon in kind of plain geometry and well we don't want to use
+hexagons we want to use spheres hence the name sphere packing and kind of look
+the name sphere packing and kind of look for the same properties to have a very
+for the same properties to have a very very dense uh packing in three space or
+very dense uh packing in three space or four space or five space or n space in
+four space or five space or n space in general so let me just try um start and
+problem I will run mathematica in a second but basically Basically, what you
+should think is that you have some region and my region in a second will be
+region and my region in a second will be R to the N or R3 or whatever. Um, in
+this picture, it's like this little box here. It's it's a box, right? So, whoop.
+Um, that's a very bad box, but you know how this is a really really bad box, but
+you know how a box looks like. And you would like to fill it with sweeters. And
+would like to fill it with sweeters. And actually you will see that in some of
+actually you will see that in some of the pictures that I have on the
+the pictures that I have on the following slides. Actually we want to
+following slides. Actually we want to fill them with balls not with spheres.
+fill them with balls not with spheres. So the difference between a sphere and a
+ball is that one is hollow and the other one isn't. So um a ball is like a cannon
+one isn't. So um a ball is like a cannon ball. It's really pretty heavy and
+filled and has volume and a sphere is kind of the surface of the bowl. But
+kind of the surface of the bowl. But anyway it's called sphere packing. I
+anyway it's called sphere packing. I shouldn't complain and I will go with
+the name sphere packing but packing would be more appropriate. So you would
+like to fill whatever kind of what I like in this case here the box or R n or
+like in this case here the box or R n or whatever you want to fill it with three
+whatever you want to fill it with three years such that um yeah you fill the
+most space so you have the highest density of spheres within space that's
+kind of the problem um and it's not so not so easy and it kind of depends on um
+really depends on the type of things you would like to fill your space with and
+would like to fill your space with and also on the space. So let me just run
+also on the space. So let me just run Mathematica. So here's a Mathematica
+Mathematica. So here's a Mathematica demonstration. It's of course linked in
+demonstration. It's of course linked in the description. And there are different
+the description. And there are different ways of filling. Well, they have various
+ways of filling. Well, they have various names. And if you click on them, they
+vary a little bit. So here this one here. And up here you can see how kind
+can also turn it a little bit. So SC and face centered FCC. That's a little bit
+different as you can see. Um and it kind of varies a little bit. So more like a
+hexagonal packing. So more like a hexagon here. So those are kind of the
+packings. And as you can see um the box is a little bit small for this packing.
+So this is not really a dense packing. So you can't do this. So we assume here
+So you can't do this. So we assume here that all spheres have a fixed radius.
+that all spheres have a fixed radius. And of course then we can just assume
+And of course then we can just assume that they have radius one. And well it
+that they have radius one. And well it depends really on the box. So, if you
+depends really on the box. So, if you vary the dimension of the box a little
+vary the dimension of the box a little bit, as you can see, it actually might
+bit, as you can see, it actually might um it's a little bit slowish. It really
+um it's a little bit slowish. It really could change here. And as you can see,
+could change here. And as you can see, those numbers here will change. So, it
+those numbers here will change. So, it really depends not just on the type of
+really depends not just on the type of object you would like to fill space
+object you would like to fill space with. We'll show you hexagons in a
+with. We'll show you hexagons in a second, but also kind of what type of
+space you would like to fill. I hope the problem is now reasonably clear. So a
+problem is now reasonably clear. So a pretty simple question, very very
+innocent question. So you would like to fill a certain type of space and maybe
+fill a certain type of space and maybe the easiest one to start with would be
+the easiest one to start with would be just the whole space itself. So just
+our world here you would like to fill it with spheres of the same radius. And you
+with spheres of the same radius. And you ask the question what is the well
+ask the question what is the well filling with with highest density. So um
+filling with with highest density. So um we have seen different types of
+we have seen different types of arranging the spheres in the
+to find the one that is densest right sounds like a very innocent question and
+it really sounds like there should be a nice solution in particular if you start
+nice solution in particular if you start trying um the two dimensional case so in
+answer is the hexagon of filling the bees do well maybe strictly speaking the
+bees do well maybe strictly speaking the be setup is a little bit more like a
+be setup is a little bit more like a like a a six
+like a hexagon and hexagons of course you can use them to fill space really
+you can use them to fill space really really efficiently with density 100%
+really efficiently with density 100% right so you could really to fill the
+whole space but we are asking you a slightly different question you would
+like to fill it um with spheres and the way to do it is kind of to to uh to make
+way to do it is kind of to to uh to make it like this well this is a really bad
+it like this well this is a really bad drawing but they should touch uh so to
+drawing but they should touch uh so to kind of arrange the spheres along the
+kind of arrange the spheres along the hexagon as in the picture in the middle
+hexagon as in the picture in the middle as in this picture here and then you
+kind of can fill space pretty pretty efficiently. So um in this filling you
+efficiently. So um in this filling you fill about 90% of space. 90% of space
+will be occupied by your spheres or as I said before by by your bowls actually
+90% of space will be occupied by your balls. Anyway, I will stay with spheres
+balls. Anyway, I will stay with spheres here, which is pretty good. And the
+here, which is pretty good. And the point is, of course, kind of to prove
+that there is no other kind of random arrangement if you want of spheres that
+arrangement if you want of spheres that do does a better job, right? There could
+do does a better job, right? There could be some principle there could be some
+be some principle there could be some crazy random arrangement of spheres,
+whatever how it looks like that does actually a better job. Um, but in this
+case, it's not so hard to show that this is not not the case. So with this 91% or
+is not not the case. So with this 91% or whatever it is roughly this is as good
+as it gets right. So you can fill 91% of space and the filling that does the job
+is the one that kind of be these use. Uh so the hex hexagon as I said the hexagon
+is kind of the main polygon or one of the most important polygons in the plain
+the most important polygons in the plain case here. Of course our space here is a
+It's very nice. So this is relatively easy to prove. And then you might go on
+nice problem for a while. So next case would be R3. And in R3 you might come up
+would be R3. And in R3 you might come up with a conjecture very quickly. So it's
+with a conjecture very quickly. So it's called Kepler's conjecture. So this left
+hand side is stolen from Kept Kepler's original paper. Although I must admit at
+original paper. Although I must admit at Kepler's time people weren't writing
+books. So I think it's stolen from a book of Kepler and Kepler kind of makes
+book of Kepler and Kepler kind of makes this conjecture that the cannonballs
+this conjecture that the cannonballs stacking. So now it's balls right. So
+the cannonballs and I would like to fill all of our world with cannonballs and um
+all of our world with cannonballs and um kappa conjectures that this face
+can see on the right hand side here that all of us are very familiar with is the
+all of us are very familiar with is the most efficient one. Certainly it is
+efficient. So that's not so hard to see. So in this case it it drops quite a bit.
+So it's only around 70% 75% of space that is filled. Uh contrast to the 90%
+that is filled. Uh contrast to the 90% before or 91 whatever it was. Um but
+before or 91 whatever it was. Um but it's still quite very efficient and
+people use it all the time not just with Kellen balls maybe I've seen stacked
+oranges or something. Uh so this is kind of what Kepler conjectured and it took
+of what Kepler conjectured and it took quite a it's really hard to prove this
+quite a it's really hard to prove this and the problem are those random
+and the problem are those random arrangements. You could think of okay
+sure this works pretty well you can come up with this strategy pretty fast and
+up with this strategy pretty fast and you've seen this before. So yeah you
+you've seen this before. So yeah you would conjecture that this might be the
+would conjecture that this might be the best one. Um but to rule out the random
+those balls like a random arrangement of cannonballs that actually does a better
+cannonballs that actually does a better job. That's not so easy and it's it's
+really not so easy to see and one of the main problems is that well first of all
+main problems is that well first of all um there might not be a unique one that
+does it. So here are actually two. So there's also a hexagonal one which is
+there's also a hexagonal one which is not illustrated in the pictures but
+which was illustrated in the Mathematica demonstration. So if you want to go back
+and find the hexagonal packing, you can do that. That's that's very nice about
+do that. That's that's very nice about videos, right? Just go back and ignore
+videos, right? Just go back and ignore what I'm going to say anyway. Well, you
+what I'm going to say anyway. Well, you can ignore what I'm going to say in any
+case. not not not even for when you're watching this video. But anyway, so the
+watching this video. But anyway, so the point is there's not a unique solution.
+point is there's not a unique solution. And even if you find one that looks very
+good, there might still be this option that there's some really really crazy
+arrangement that it's really really even hard to imagine or almost impossible to
+hard to imagine or almost impossible to imagine which still does a better job.
+So this is extremely hard to prove and it took a long long time to prove it. So
+if you Google Kepler's conjecture, there's a lot of resources about
+there's a lot of resources about Kepler's conjecture. It was really a
+breakthrough when it was proven uh not very long ago actually. So compared to
+very long ago actually. So compared to Kepler which was quite quite a while
+ago. So what can we say about this problem? So if you already get stuck in
+problem? So if you already get stuck in dimension three, you might think there's
+dimension three, you might think there's absolutely nothing I can say. So what
+absolutely nothing I can say. So what can I say about dimension four, five,
+maybe nothing. But it turns out that we can actually say at least a little bit.
+can actually say at least a little bit. And this is the theorem for today. So
+And this is the theorem for today. So the the solution to the sphere packing
+problem is known not in many dimensions. I must admit most of them are very very
+I must admit most of them are very very low dimensional but there were some
+low dimensional but there were some really really recent breakthroughs 2016
+really really recent breakthroughs 2016 2015ish
+um which proved it in dimensions 8 and 24 which is sounds really random. I
+we'll comment on dimensions 8 and 24 in a second but we know it from the beast
+a second but we know it from the beast in dimension two. So dimension one I
+leave it to you. dimension one is not so very interesting um and we know it by
+very interesting um and we know it by Keplas's conjecture which was really
+three and we kind of know it in those dimensions and I haven't really checked
+dimensions and I haven't really checked the latest literature but at one point
+the latest literature but at one point it just will break down so we only
+it just will break down so we only really know it for for low dimensions
+and the problem is as you can see this in this little table down here um and
+in this little table down here um and also in my folk conjecture or in the
+folk conjecture whatever is that as soon as you restrict to a letter, so a nice
+as you restrict to a letter, so a nice lettuce like like R2 Z2. So Z2 lettuce
+would be this one. Um you can imagine a Z3 lettuce which is just the same thing
+Z3 lettuce which is just the same thing in three dimensions. So you have certain
+in three dimensions. So you have certain space points and you assume that the
+space points and you assume that the spheres need to be centered around those
+spheres need to be centered around those lettuce points. You can still vary the
+lettuce points. You can still vary the letters but the spheres are kind of
+letters but the spheres are kind of bound to the letters. Then this is
+bound to the letters. Then this is actually really relatively easy to
+prove. So it makes my life much easier and quite a bit is known. So the various
+and quite a bit is known. So the various dimensions are given by various versions
+of dugan diagrams. If you have seen this for example in type here it's the E8 and
+for example in type here it's the E8 and there's this famous letters in dimension
+there's this famous letters in dimension 24 which is just ridiculous. It's just a
+24 which is just ridiculous. It's just a miracle that exists which is called the
+leech latis. But as soon as you release this very very rigid setup of I putting
+this very very rigid setup of I putting my my middle midpoints of my spheres on
+my my middle midpoints of my spheres on the lettuce points it is really really
+the lettuce points it is really really hard to prove and not really much is
+known and kind of the conjecture the folk conjecture which makes this whole
+folk conjecture which makes this whole problem so complicated is that as soon
+as you gain go in high enough dimensions then probably the latis packing which is
+then probably the latis packing which is the one you can easy prove. So the most
+find. Um in contrast to the most efficient packing which could be kind of
+efficient packing which could be kind of a random arrangement. Um this is really
+a random arrangement. Um this is really hard to find and in higher dimensions
+hard to find and in higher dimensions it's most likely that the uh most dense
+it's most likely that the uh most dense packing is actually kind of a random
+packing is actually kind of a random packing and we are just extremely lucky
+packing and we are just extremely lucky in dimensions 8 and 24 and also in the
+in dimensions 8 and 24 and also in the low dimensions that actually uh the
+low dimensions that actually uh the densest packings so general packings
+with random points are lettuce packings and that's what happens here and that's
+and that's what happens here and that's why you see those those lettucees which
+why you see those those lettucees which are which are known to be extremely
+efficient and they are really one of these miraculous objects in mathematics.
+They just pop out out of nowhere and then they're most efficient in a certain
+then they're most efficient in a certain sense. It's not much different from a
+hexagon. It's just a hexagon is also very miraculous. Just does the job. It's
+very miraculous. Just does the job. It's just a higher dimension version if you
+just a higher dimension version if you want. And it's kind of hard to think
+want. And it's kind of hard to think about it and it's way more surprising if
+about it and it's way more surprising if you see a 24dimensional version of the
+you see a 24dimensional version of the hexagon which doesn't really look like
+hexagon which doesn't really look like hexagon anymore. It's it's really
+different but still it's does kind of does the same job. if you want.
+does the same job. if you want. Anyway, um so what I'm going to explain
+Anyway, um so what I'm going to explain last so this was a theorem. I would like
+to highlight a little bit uh those E8 and the leech lattice. So um certainly I
+and the leech lattice. So um certainly I should do a different video on those. So
+should do a different video on those. So they're really really interesting and it
+they're really really interesting and it was roughly around the same time as I
+said when people proved that. It's really really recent for mathematics.
+really really recent for mathematics. It's 2016 and they really gives the
+densest packing by just stacking the spheres on the lattice. So the midpoints
+spheres on the lattice. So the midpoints on the spheres on the lattice and while
+not going too much into details here they are really really important objects
+they are really really important objects kind of they kind of pop up randomly in
+going to explain in a different video. Uh for now just for example that people
+Uh for now just for example that people actually built a projection of E8 out of
+actually built a projection of E8 out of out of I think it's cord or something.
+and um if you would like to think of it as an object in eight space, so this is
+as an object in eight space, so this is an eight dimensional object. It's not so
+an eight dimensional object. It's not so easy to think of. I just uh copied the
+matrix here. So it's it's a latice. So the the Z times points spent by the
+the the Z times points spent by the vectors by the uh what is it the column
+actually the lattice. And if you look at the entries, it's absolutely not clear
+why it should be in any way a nice blice. But honestly, if you look at the
+blice. But honestly, if you look at the whatever the end points of a hexagon in
+whatever the end points of a hexagon in coordinates, it's also not quite clear
+coordinates, it's also not quite clear why the hexagon should be a good object
+to study. It's kind of the same here. So, it's a little bit miraculous what
+So, it's a little bit miraculous what happens to those E8 letters and the
+happens to those E8 letters and the leech letters. And I should go into more
+leech letters. And I should go into more details, but the point here is that in
+details, but the point here is that in dimensions 8 and 24, we are still kind
+dimensions 8 and 24, we are still kind of lucky. This is kind of the the law of
+of lucky. This is kind of the the law of small numbers. We are very lucky here.
+small numbers. We are very lucky here. And the densest backing is not random.
+And the densest backing is not random. It's one of those lettuce backings and
+It's one of those lettuce backings and it's well with faith with the midpoint
+it's well with faith with the midpoint centered on those E8 or leech lattice
+centered on those E8 or leech lattice whatever it is depends on whether it's
+whatever it is depends on whether it's dimension 8 or dimension 24. Anyway, so
+dimension 8 or dimension 24. Anyway, so let me wrap up. So the theorem here
+doesn't have any nice name. Let me just call it this weird packing theorem is um
+call it this weird packing theorem is um to find the densest packing in your
+to find the densest packing in your favorite dimension and just pack the
+favorite dimension and just pack the whole space. Just packing a specific um
+whatever box or something is a much more complicated problem actually. So um just
+complicated problem actually. So um just let's stay with the space and it's only
+known in very small dimensions and the kind of the point is the reason why it's
+because we're super lucky and in this case kind of there is no random packing
+case kind of there is no random packing if you want or no really efficient
+if you want or no really efficient random packing. Of course, there is a
+random packing um which is better than a packing on a lettuce. And the lettuce
+packing on a lettuce. And the lettuce packings are just easy in some sense to
+packings are just easy in some sense to find and they're usually related to very
+find and they're usually related to very important structures in mathematics like
+important structures in mathematics like the lettuce is coming from the Dukan
+the lettuce is coming from the Dukan diagrams or the leech lettuce. In any
+case, I hope you enjoy lettucees. I mean, I hope you enjoyed this video and

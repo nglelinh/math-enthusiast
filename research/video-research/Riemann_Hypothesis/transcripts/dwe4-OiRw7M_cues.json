@@ -1,0 +1,1097 @@
+[
+  {
+    "t_start": 0.04,
+    "t_end": 4.32,
+    "text": "So we're going to be talking about uh some\\h new world records uh going 23% beyond the\\h\\h"
+  },
+  {
+    "t_start": 4.32,
+    "t_end": 9.24,
+    "text": "Riemann Hypothesis. So the Riemann Hypothesis is\\h one of the great problems in mathematics with\\h\\h"
+  },
+  {
+    "t_start": 9.24,
+    "t_end": 12.88,
+    "text": "a million dollar prize if you solve it. But\\h before I get ahead of myself, let's just talk\\h\\h"
+  },
+  {
+    "t_start": 12.88,
+    "t_end": 21.56,
+    "text": "about our favorite numbers - the primes. So the\\h sequence begins just with 2, 3, 5, 7, 11, 13, 17, 19,\\h\\h"
+  },
+  {
+    "t_start": 21.56,
+    "t_end": 27.24,
+    "text": "23 and so on. So we know by Euclid the sequence of\\h primes goes on forever but famously the primes\\h\\h"
+  },
+  {
+    "t_start": 27.24,
+    "t_end": 31.76,
+    "text": "are really known for being mysterious and having\\h a lot of complexity so maybe a simpler thing we could\\h\\h"
+  },
+  {
+    "t_start": 31.76,
+    "t_end": 37.12,
+    "text": "look at is just the last digit. So consider just\\h lopping off the other digits and just considering\\h\\h"
+  },
+  {
+    "t_start": 37.12,
+    "t_end": 41.88,
+    "text": "the ones at the end. So it starts off the same; for\\h the single digit primes 2, 3, 5, 7 and once we get to\\h\\h"
+  },
+  {
+    "t_start": 41.88,
+    "t_end": 46.12,
+    "text": "11 we just keep the 1 at the end. 13 we just keep\\h the 3 at the end, 17 we just keep the 7 at\\h\\h"
+  },
+  {
+    "t_start": 46.12,
+    "t_end": 53.12,
+    "text": "the end and so on. So Brady I'm not so fast writing\\h all these numbers down, especially if they go on\\h\\h"
+  },
+  {
+    "t_start": 53.12,
+    "t_end": 57.32,
+    "text": "forever, maybe with some help of a computer maybe\\h we can speed up this process. Let's just consider\\h\\h"
+  },
+  {
+    "t_start": 57.32,
+    "t_end": 63.4,
+    "text": "looking at the list of prime numbers up to 100. So\\h it starts off as before - 2, 3, 5, 7 - but then it goes up\\h\\h"
+  },
+  {
+    "t_start": 63.4,
+    "t_end": 67.8,
+    "text": "to 97, so that's the largest prime up to 100. So we\\h look at the last digit of these primes, it starts\\h\\h"
+  },
+  {
+    "t_start": 67.8,
+    "t_end": 73.4,
+    "text": "off again 2, 3, 5, 7 - but then at the end when we're\\h throwing off we get 89 becomes a 9, 97 becomes a\\h\\h"
+  },
+  {
+    "t_start": 73.4,
+    "t_end": 77.52,
+    "text": "7. The advantage of a computer here is that we can\\h just change one character and instead of looking\\h\\h"
+  },
+  {
+    "t_start": 77.52,
+    "t_end": 81.96,
+    "text": "at primes up to 100 we could look up primes\\h to 500 and just generates that list uh pretty\\h\\h"
+  },
+  {
+    "t_start": 81.96,
+    "t_end": 86.6,
+    "text": "readily. And if we do the same thing, just looking\\h at the last digit, we get this uh longer table of\\h\\h"
+  },
+  {
+    "t_start": 86.6,
+    "t_end": 92.2,
+    "text": "data. As a mathematician once you see a table of\\h data your ears perk up and you ask uh you know are\\h\\h"
+  },
+  {
+    "t_start": 92.2,
+    "t_end": 97.96,
+    "text": "there any patterns in this data? Um so Brady maybe\\h if we stare at this table maybe some thoughts\\hare"
+  },
+  {
+    "t_start": 97.96,
+    "t_end": 103.24,
+    "text": "going to emerge; which numbers occur frequently?\\h Are there any numbers that don't occur? You see\\h\\h"
+  },
+  {
+    "t_start": 103.24,
+    "t_end": 108.0,
+    "text": "anything? - (Brady: There are no even numbers except for the\\h2 at the start.) - And that's because?"
+  },
+  {
+    "t_start": 108.0,
+    "t_end": 112.72,
+    "text": "(It would be\\hdivisible by 2.) - Right right. So if a number ends\\h in a 2, ends in an even number, then the whole\\h\\h"
+  },
+  {
+    "t_start": 112.72,
+    "t_end": 118.48,
+    "text": "number itself is even. By a similar argument, maybe\\h a bit more subtle, there are no 5s in this list\\h\\h"
+  },
+  {
+    "t_start": 118.48,
+    "t_end": 123.32,
+    "text": "after the the first 5 because if a number ends\\h in a 5 then the whole number itself has to be\\h\\h"
+  },
+  {
+    "t_start": 123.32,
+    "t_end": 130.52,
+    "text": "divisible by 5. - (Same for 0?) - Yeah so 0 is a double whammy; it hits us both with being even\\h\\h"
+  },
+  {
+    "t_start": 130.52,
+    "t_end": 136.12,
+    "text": "and also being a multiple of 5. So what we've\\h just shown here by this argument is that we only\\h\\h"
+  },
+  {
+    "t_start": 136.12,
+    "t_end": 141.4,
+    "text": "have a few options here for the digits that can\\h appear in this list. So so after the single digit\\h\\h"
+  },
+  {
+    "t_start": 141.4,
+    "t_end": 147.12,
+    "text": "numbers eventually it's either going to be a 1 or a 3 or a 7 or a 9. And here the point that\\h\\h"
+  },
+  {
+    "t_start": 147.12,
+    "t_end": 152.8,
+    "text": "you've just figured out is that the number 10, the\\h base is equal to 2 times 5 so we've just eliminated\\h\\h"
+  },
+  {
+    "t_start": 152.8,
+    "t_end": 157.44,
+    "text": "all the digits that have a 2 in it or a 5 in it. - (Okay so we've got these four numbers; the next)\\h\\h"
+  },
+  {
+    "t_start": 157.44,
+    "t_end": 162.36,
+    "text": "(question I guess people ask is which are most\\hcommon?) - Yeah I mean that's that's the that's the\\h\\h"
+  },
+  {
+    "t_start": 162.36,
+    "t_end": 167.96,
+    "text": "question. So a natural thing to do is to maybe plot\\h these numbers on a histogram; so let's look at the\\h\\h"
+  },
+  {
+    "t_start": 167.96,
+    "t_end": 173.72,
+    "text": "numbers up to 100 and look at the digits. So as we\\h said before there's going to be only one instance\\h\\h"
+  },
+  {
+    "t_start": 173.72,
+    "t_end": 178.72,
+    "text": "of a 2 in this, and we put them into bins, say one\\h instance of a 2. Similarly there's only one\\h\\h"
+  },
+  {
+    "t_start": 178.72,
+    "t_end": 183.92,
+    "text": "instance of a 5 and all the other numbers up to\\h 100 are either going to have a 1, a 3, a 7 or a\\h\\h"
+  },
+  {
+    "t_start": 183.92,
+    "t_end": 188.2,
+    "text": "9. One of the great advantages of a computer is you\\h can just change one character again and generate\\h\\h"
+  },
+  {
+    "t_start": 188.2,
+    "t_end": 192.76,
+    "text": "a lot more data. So if we look at numbers up to 1,000 we can get these bar charts where these\\h\\h"
+  },
+  {
+    "t_start": 192.76,
+    "t_end": 197.12,
+    "text": "single entries are getting slimmer and slimmer\\h and these other four bars are getting taller and\\h\\h"
+  },
+  {
+    "t_start": 197.12,
+    "t_end": 201.68,
+    "text": "taller. And maybe if we go very far, let's say we\\h go out to a million, we look at the primes up to\\h\\h"
+  },
+  {
+    "t_start": 201.68,
+    "t_end": 206.76,
+    "text": "a million and look at their last digit there's\\h just a tiny sliver corresponding to 2; a tiny\\h\\h"
+  },
+  {
+    "t_start": 206.76,
+    "t_end": 211.28,
+    "text": "sliver corresponding to 5 and then all these\\h other four options seems to be almost the same\\h\\h"
+  },
+  {
+    "t_start": 211.28,
+    "t_end": 217.76,
+    "text": "height. So roughly uh a 25% chance of getting a\\h 1 as a last digit of a prime, same for 3,"
+  },
+  {
+    "t_start": 217.76,
+    "t_end": 222.28,
+    "text": "same for 7, same for 9. So there's an equal\\h chance to get any of these four options. That is no\\h\\h"
+  },
+  {
+    "t_start": 222.28,
+    "t_end": 226.56,
+    "text": "coincidence Brady, this is the prime number theorem\\h in action. We've been playing this game, this fun\\h\\h"
+  },
+  {
+    "t_start": 226.56,
+    "t_end": 230.72,
+    "text": "little game, uh looking at the last digit, but\\h really we've been using the fact that we have\\h\\h"
+  },
+  {
+    "t_start": 230.72,
+    "t_end": 235.04,
+    "text": "you know 10 fingers on our hands; but we can look\\h at other bases. You know, for example computers work\\h\\h"
+  },
+  {
+    "t_start": 235.04,
+    "t_end": 241.68,
+    "text": "in base 2, all their uh data stored with 1s and\\h 0s, so we we can play the same game uh looking\\h\\h"
+  },
+  {
+    "t_start": 241.68,
+    "t_end": 247.28,
+    "text": "at the last digit uh in other bases. Let's just\\h change one line of code and now uh maybe we get\\h\\h"
+  },
+  {
+    "t_start": 247.28,
+    "t_end": 253.08,
+    "text": "something uh a bit less interesting here so we get\\h uh our first uh entry is a 0 corresponding to\\h\\h"
+  },
+  {
+    "t_start": 253.08,
+    "t_end": 258.8,
+    "text": "the prime 2 and then all the other primes have\\h their last digit 1 in binary. So this just means\\h\\h"
+  },
+  {
+    "t_start": 258.8,
+    "t_end": 263.4,
+    "text": "that all the primes after 2 are odd. Maybe this\\h wasn't as interesting but the next interesting\\h\\h"
+  },
+  {
+    "t_start": 263.4,
+    "t_end": 270.04,
+    "text": "thing we could look at is maybe uh base 3 so\\h we just increase by one and we look at the prime\\h\\h"
+  },
+  {
+    "t_start": 270.04,
+    "t_end": 275.16,
+    "text": "written in ternary and just extract the last digit.\\h So as before we just have a 0 corresponding\\h\\h"
+  },
+  {
+    "t_start": 275.16,
+    "t_end": 279.8,
+    "text": "in this case to the number 3 itself but all\\h the other options for the primes are going to be\\h\\h"
+  },
+  {
+    "t_start": 279.8,
+    "t_end": 285.04,
+    "text": "either a 1 or a 2 for their last digit in ternary. And so this really again suggests, why don't we\\h\\h"
+  },
+  {
+    "t_start": 285.04,
+    "t_end": 289.48,
+    "text": "play the same game, now look in base 3, maybe\\h the numbers up to 1,000 - there's going to be\\h\\h"
+  },
+  {
+    "t_start": 289.48,
+    "t_end": 295.08,
+    "text": "one number, namely 3, that has the last digit 0 but\\h all other numbers are either going to have a 1"
+  },
+  {
+    "t_start": 295.08,
+    "t_end": 301.32,
+    "text": "or a 2. And again these are very much dominating.\\h Maybe if we go up to a million again we see that\\h\\h"
+  },
+  {
+    "t_start": 301.32,
+    "t_end": 306.24,
+    "text": "the heights of these two options - almost 50/50\\h split. And again this is no coincidence Brady. So\\h\\h"
+  },
+  {
+    "t_start": 306.24,
+    "t_end": 311.8,
+    "text": "you could pick your favorite base, I don't know\\h say 101, uh and you can have play a similar game:\\h\\h"
+  },
+  {
+    "t_start": 311.8,
+    "t_end": 318.88,
+    "text": "you look at all the last digits of primes uh in\\h base 101 let's say numbers up to 5 million and you\\h\\h"
+  },
+  {
+    "t_start": 318.88,
+    "t_end": 324.44,
+    "text": "can get a nice uh roughly uniform distribution. And\\h maybe there's a bit of wiggle room at the top but\\h\\h"
+  },
+  {
+    "t_start": 324.44,
+    "t_end": 329.08,
+    "text": "as the numbers get larger and larger the wiggles\\h start to to to damp out and you get this result."
+  },
+  {
+    "t_start": 329.08,
+    "t_end": 336.6,
+    "text": "So Brady this is uh kind of a a fun illustration of\\h one of the deep results in mathematics, the prime\\h\\h"
+  },
+  {
+    "t_start": 336.6,
+    "t_end": 341.0,
+    "text": "number theorem. So people on the channel may be\\h familiar, in this case the prime number theorem for\\h\\h"
+  },
+  {
+    "t_start": 341.0,
+    "t_end": 346.6,
+    "text": "arithmetic progressions; which says the last digit\\h of a prime in any base you pick eventually tends\\h\\h"
+  },
+  {
+    "t_start": 346.6,
+    "t_end": 352.48,
+    "text": "to have an even chance. And that's of course unless\\h there is some clear reason why there's a violation.\\h"
+  },
+  {
+    "t_start": 352.48,
+    "t_end": 357.92,
+    "text": "So in the case of an even digit; so as long as\\h the digit has no shared factors with the base\\h\\h"
+  },
+  {
+    "t_start": 357.92,
+    "t_end": 363.84,
+    "text": "we expect an even spread across all options. So\\h maybe to be a bit more precise as a mathematician\\h\\h"
+  },
+  {
+    "t_start": 363.84,
+    "t_end": 369.32,
+    "text": "I just want to introduce some math notation: pi\\h of x here is the number of primes up to x and the\\h\\h"
+  },
+  {
+    "t_start": 369.32,
+    "t_end": 373.92,
+    "text": "more precise count that we are interested in is\\h looking at the number of primes up to x that have\\h\\h"
+  },
+  {
+    "t_start": 373.92,
+    "t_end": 379.64,
+    "text": "last digit a in base b. - (Pi has nothing to do with\\hpi pi?) - Right. So this is one of those things where\\h\\h"
+  },
+  {
+    "t_start": 379.64,
+    "t_end": 385.68,
+    "text": "mathematicians uh are overloaded with notation\\h at any time and maybe at some point in 1700s\\h\\h"
+  },
+  {
+    "t_start": 385.68,
+    "t_end": 390.48,
+    "text": "people decided you know this was a a convenient\\h letter to to use for primes; the same uh the same\\h\\h"
+  },
+  {
+    "t_start": 390.48,
+    "t_end": 396.24,
+    "text": "consonant uh, but yeah it's kind of a stretch. So\\hthis is the number primes up to x that have last\\h\\h"
+  },
+  {
+    "t_start": 396.24,
+    "t_end": 400.92,
+    "text": "digit equal to a and this is written in base b.\\h The result of the prime number theorem tells us\\h\\h"
+  },
+  {
+    "t_start": 400.92,
+    "t_end": 406.16,
+    "text": "in a more precise way that each of these options\\h for digits occur with roughly equal frequency. So\\h\\h"
+  },
+  {
+    "t_start": 406.16,
+    "t_end": 413.2,
+    "text": "for any choice of digit and base, pi of x b comma a\\h we have this approximate relation that this count\\h\\h"
+  },
+  {
+    "t_start": 413.2,
+    "t_end": 421.56,
+    "text": "is asymptotic to pi of x over phi of b. So here phi\\h of b is the Euler phi function which just counts;\\h"
+  },
+  {
+    "t_start": 421.56,
+    "t_end": 427.12,
+    "text": "so phi of b is just counting the number of possible\\h digits we can use. So the number of digits, a, that\\h\\h"
+  },
+  {
+    "t_start": 427.12,
+    "t_end": 434.56,
+    "text": "have no uh shared factors with b. So in maybe\\h the mathematical lingo we say that the gcd, the\\h\\h"
+  },
+  {
+    "t_start": 434.56,
+    "t_end": 439.36,
+    "text": "greatest common divisor, of a and b is equal to\\h 1. Yeah so this is a a nice piece of mathematics\\h\\h"
+  },
+  {
+    "t_start": 439.36,
+    "t_end": 445.68,
+    "text": "that holds eventually so as x gets larger. But a\\h natural question Brady is maybe you're a little\\h\\h"
+  },
+  {
+    "t_start": 445.68,
+    "t_end": 449.56,
+    "text": "bit impatient and you want to know, you know, how\\h long do I have to wait uh for this to kick in and\\h\\h"
+  },
+  {
+    "t_start": 449.56,
+    "t_end": 453.703,
+    "text": "those bars start to even out? - (I mean that depends\\h how you define even out as well doesn't it?)"
+  },
+  {
+    "t_start": 453.703,
+    "t_end": 458.96,
+    "text": "Right I\\hmean so so there are certainly very technical- like\\h various levels of technicality how you want to be\\h\\h"
+  },
+  {
+    "t_start": 458.96,
+    "t_end": 463.72,
+    "text": "precise; but morally speaking all we want to know\\h is how long do we have to go along the number line\\h\\h"
+  },
+  {
+    "t_start": 463.72,
+    "t_end": 469.08,
+    "text": "to really start to see uh these numbers evening\\h out. But we've now just with this uh seemingly\\h\\h"
+  },
+  {
+    "t_start": 469.08,
+    "t_end": 473.2,
+    "text": "innocuous question, really gotten thrown in the\\h deep end. Think of you know people playing around\\h\\h"
+  },
+  {
+    "t_start": 473.2,
+    "t_end": 478.72,
+    "text": "on the shore at the beach, maybe you go snorkeling\\h and around some coral, but somehow you took a deep\\h\\h"
+  },
+  {
+    "t_start": 478.72,
+    "t_end": 482.16,
+    "text": "dive and somehow you're now at the bottom of\\h the Marianas trench, you're at the deepest of\\h\\h"
+  },
+  {
+    "t_start": 482.16,
+    "t_end": 486.52,
+    "text": "the deep in mathematics - we've now gotten to the\\h Riemann Hypothesis. Okay so I really want to narrow in\\h\\h"
+  },
+  {
+    "t_start": 486.52,
+    "t_end": 491.92,
+    "text": "on this this key relationship in the prime number\\h theorem which is saying the digits really even out\\h\\h"
+  },
+  {
+    "t_start": 491.92,
+    "t_end": 496.16,
+    "text": "in their distribution among the primes, so let's\\h give this a start here. So the Riemann Hypothesis\\h\\h"
+  },
+  {
+    "t_start": 496.16,
+    "t_end": 500.96,
+    "text": "really has to do with answering the how soon\\h question about star. So the Riemann Hypothesis\\h\\h"
+  },
+  {
+    "t_start": 500.96,
+    "t_end": 507.84,
+    "text": "tells us that star will hold once we get roughly\\h speaking uh x being larger than the base squared.\\h"
+  },
+  {
+    "t_start": 507.84,
+    "t_end": 512.76,
+    "text": "So this is a key threshold; so in other words the\\h Riemann hypothesis - or more precisely the generalized\\h\\h"
+  },
+  {
+    "t_start": 512.76,
+    "t_end": 518.8,
+    "text": "Riemann hypothesis - says that this relationship star\\h holds for bases b that are less than the square root\\h\\h"
+  },
+  {
+    "t_start": 518.8,
+    "t_end": 523.84,
+    "text": "of x, as x tends to infinity. In other words the prime\\h number theorem is telling us a a nice relationship\\h\\h"
+  },
+  {
+    "t_start": 523.84,
+    "t_end": 530.64,
+    "text": "that exists among primes for any base b we we\\h choose; maybe 10, maybe 3, maybe 101. But the\\h\\h"
+  },
+  {
+    "t_start": 530.64,
+    "t_end": 535.72,
+    "text": "Riemann hypothesis is really telling us that we can get\\h the same phenomenon occurring even if we allow the\\h\\h"
+  },
+  {
+    "t_start": 535.72,
+    "t_end": 540.04,
+    "text": "size of our base to grow moderately with x, with\\h the size of the numbers. - (I've made videos about)\\h\\h"
+  },
+  {
+    "t_start": 540.04,
+    "t_end": 546.84,
+    "text": "(the Riemann hypothesis before - and I don't pretend to\\h understand it - but I've seen graphs and critical)"
+  },
+  {
+    "t_start": 546.84,
+    "t_end": 551.64,
+    "text": "(strips and and all these different numbers but\\h I've never heard anything about the last digits of)"
+  },
+  {
+    "t_start": 551.64,
+    "t_end": 558.16,
+    "text": "(numbers or bases) - Right. I mean there are many ways to\\h approach this uh great trench of the Riemann hypothesis."
+  },
+  {
+    "t_start": 558.16,
+    "t_end": 563.72,
+    "text": "So one of the kind of links with uh the other for-\\h perhaps more standard technical formulation of\\h\\h"
+  },
+  {
+    "t_start": 563.72,
+    "t_end": 570.2,
+    "text": "the Riemann hypothesis has to do uh with the zeros\\h of the Riemann-Zeta function so-called and their\\h\\h"
+  },
+  {
+    "t_start": 570.2,
+    "t_end": 576.92,
+    "text": "placement on so-called the critical line of 1/2.\\h And it is no coincidence that the critical line of\\h\\h"
+  },
+  {
+    "t_start": 576.92,
+    "t_end": 583.68,
+    "text": "1/2 is the same constant of 1/2 occurring in this\\h threshold of the square root of x. So these are- these\\h\\h"
+  },
+  {
+    "t_start": 583.68,
+    "t_end": 589.4,
+    "text": "two relationships are intimately linked in this\\hway. But I- I think this is a I guess a\\h\\h"
+  },
+  {
+    "t_start": 589.4,
+    "t_end": 593.96,
+    "text": "more down to Earth way to kind of talk about the\\h Riemann hypothesis. - (Okay) - So obviously the Riemann"
+  },
+  {
+    "t_start": 593.96,
+    "t_end": 600.0,
+    "text": "hypothesis is one of these kind of white whales\\h of mathematics that is still unsolved today. But\\h\\h"
+  },
+  {
+    "t_start": 600.0,
+    "t_end": 605.688,
+    "text": "amazingly in the 1960s mathematicians were able\\h to prove an average version of this result. \\h"
+  },
+  {
+    "t_start": 605.688,
+    "t_end": 614.88,
+    "text": "Bombieri\\hand Vinogradov in 1965 they were able to show that\\h this relationship star holds for almost all bases\\h\\h"
+  },
+  {
+    "t_start": 614.88,
+    "t_end": 624.12,
+    "text": "b. I'm meaning that this relationship holds for\\h over 99.9% of b's up to this Riemann hypothesis\\h\\h"
+  },
+  {
+    "t_start": 624.12,
+    "t_end": 629.52,
+    "text": "range - square root of x. When I first heard about this\\h result in uh my first year of uh grad school I\\h\\h"
+  },
+  {
+    "t_start": 629.52,
+    "t_end": 635.48,
+    "text": "thought it was- I mean absolutely stunning because\\h uh I I somehow felt like the Riemann hypothesis was\\h\\h"
+  },
+  {
+    "t_start": 635.48,
+    "t_end": 639.48,
+    "text": "you know somehow unobtainable and no one's\\h really been able to say anything about it; and so\\h\\h"
+  },
+  {
+    "t_start": 639.48,
+    "t_end": 644.68,
+    "text": "I feel when I first learned about it I was almost\\h feeling like uh someone's keeping this from me. So\\h\\h"
+  },
+  {
+    "t_start": 644.68,
+    "t_end": 648.44,
+    "text": "I I really feel someone should have told me about\\h this earlier. And the way I like to think about\\h\\h"
+  },
+  {
+    "t_start": 648.44,
+    "t_end": 654.76,
+    "text": "this result, this over 99% result, maybe an analogy\\h with with cleaning cleaning tools. You know if you\\h\\h"
+  },
+  {
+    "t_start": 654.76,
+    "t_end": 659.04,
+    "text": "want to clean around the house, maybe you want to\\h sanitize your hands, you get Purell. Or if you uh want\\h\\h"
+  },
+  {
+    "t_start": 659.04,
+    "t_end": 663.48,
+    "text": "wanted to clean your countertop you get Lysol.\\h It says on the label if you read it, cleans over\\h\\h"
+  },
+  {
+    "t_start": 663.48,
+    "t_end": 668.52,
+    "text": "99% of germs right. So this is their real real\\h selling point; and this is because you know for\\h\\h"
+  },
+  {
+    "t_start": 668.52,
+    "t_end": 673.92,
+    "text": "work around the house 99% of germs is really more\\h than okay. And it's only really in kind of extreme\\h\\h"
+  },
+  {
+    "t_start": 673.92,
+    "t_end": 679.56,
+    "text": "ideal circumstances like being a hospital, in a\\h hospital where you need a a full sterile room,\\h\\h"
+  },
+  {
+    "t_start": 679.56,
+    "t_end": 684.48,
+    "text": "uh to get that 100%. And so by the same token as\\h mathematicians uh the Riemann hypothesis is really\\h\\h"
+  },
+  {
+    "t_start": 684.48,
+    "t_end": 689.6,
+    "text": "this kind of Ideal scenario uh getting a full\\h result that we want to hold but for most practical\\h\\h"
+  },
+  {
+    "t_start": 689.6,
+    "t_end": 695.76,
+    "text": "purposes as a mathematician, in my research, the\\h Bombieri-Vinogradov theorem is this completely adequate\\h\\h"
+  },
+  {
+    "t_start": 695.76,
+    "t_end": 700.72,
+    "text": "substitute uh for application- for a lot of\\happlications. - (I'm not having that Jared.) \\h"
+  },
+  {
+    "t_start": 700.72,
+    "t_end": 707.44,
+    "text": "(I'm not having that. Because in the infinite- because\\h in the infinite world of numbers 99% isn't)\\h\\h"
+  },
+  {
+    "t_start": 707.44,
+    "t_end": 713.08,
+    "text": "(that much. Like there's still a lot of numbers that\\h it doesn't work for.) - That is definitely true and\\h\\h"
+  },
+  {
+    "t_start": 713.08,
+    "t_end": 716.84,
+    "text": "obviously this is part of the conceptual reason\\h why we want to have a complete understanding;\\h\\h"
+  },
+  {
+    "t_start": 716.84,
+    "t_end": 723.36,
+    "text": "but in one of the kind of facets of the Riemann hypothesis is that people have proven many\\h\\h"
+  },
+  {
+    "t_start": 723.36,
+    "t_end": 730.36,
+    "text": "results uh with the initial caveat 'assume the Riemann hypothesis then..' And there were many results in the\\h\\h"
+  },
+  {
+    "t_start": 730.36,
+    "t_end": 738.72,
+    "text": "1960s that went from a conditional uh hypothesis\\h to uh complete ironclad theorem once this uh\\h\\h"
+  },
+  {
+    "t_start": 738.72,
+    "t_end": 745.8,
+    "text": "result came out; and it turns out in some technical\\h settings it is enough to just know this 99%\\h\\h"
+  },
+  {
+    "t_start": 745.8,
+    "t_end": 752.36,
+    "text": "version to get the desired end goal if you were\\h using the Riemann hypothesis implicitly in your work.\\h\\h"
+  },
+  {
+    "t_start": 752.36,
+    "t_end": 760.84,
+    "text": "(But if they found uh a power, an exponent, where Fermat's\\hLast Theorem broke; there was like one number out)"
+  },
+  {
+    "t_start": 760.84,
+    "t_end": 766.32,
+    "text": "(there where Andrew Wiles- this building wouldn't be\\h named after Andrew Wiles) - Yeah yeah. So you know as a\\h\\h"
+  },
+  {
+    "t_start": 766.32,
+    "t_end": 770.72,
+    "text": "mathematician you really want to get that complete\\h understanding and exceptional cases can really uh\\h\\h"
+  },
+  {
+    "t_start": 770.72,
+    "t_end": 776.12,
+    "text": "be important, and so this also ties in with uh\\h previous uh things on the channel about Siegel"
+  },
+  {
+    "t_start": 776.12,
+    "t_end": 782.8,
+    "text": "zeros which are these potential real uh monsters\\h is uh trying to thwart the Riemann hypothesis. Before\\h\\h"
+  },
+  {
+    "t_start": 782.8,
+    "t_end": 788.72,
+    "text": "this I mean I just want to emphasize how kind of\\h amazing I find this, because before this result no\\h\\h"
+  },
+  {
+    "t_start": 788.72,
+    "t_end": 794.0,
+    "text": "one really knew anything. Like you couldn't- uh you\\h couldn't really say uh much at all, uh and really\\h\\h"
+  },
+  {
+    "t_start": 794.0,
+    "t_end": 799.28,
+    "text": "taking the statistical perspective uh has really\\h been leading to a flourishing in in mathematical\\h\\h"
+  },
+  {
+    "t_start": 799.28,
+    "t_end": 805.36,
+    "text": "research. So this is well not again the the ideal\\h scenario but for most practical purposes as\\h\\h"
+  },
+  {
+    "t_start": 805.36,
+    "t_end": 810.901,
+    "text": "a working mathematician around the house uh this\\h this is really kind of an important uh tool in the toolkit."
+  },
+  {
+    "t_start": 810.901,
+    "t_end": 816.44,
+    "text": "- (Okay I believe you) - So now we get- now we\\h get to the real uh the real beans. Once presented with\\h\\h"
+  },
+  {
+    "t_start": 816.44,
+    "t_end": 821.72,
+    "text": "this result, and if we're if we're only looking at\\h some of the bases and not all, a question comes up,\\h\\h"
+  },
+  {
+    "t_start": 821.72,
+    "t_end": 826.24,
+    "text": "another question. We asked how soon? But if we're\\h only looking at some of the bases can we go even\\h\\h"
+  },
+  {
+    "t_start": 826.24,
+    "t_end": 831.4,
+    "text": "sooner? Can we get a rate of convergence faster\\h than what the Riemann hypothesis is predicting?\\h"
+  },
+  {
+    "t_start": 831.4,
+    "t_end": 838.28,
+    "text": "So can we get uh bases b that are beyond this\\h square root x barrier? So in other words Brady\\h\\h"
+  },
+  {
+    "t_start": 838.28,
+    "t_end": 846.24,
+    "text": "I'm asking to go beyond the Riemann hypothesis. It was\\huh remarkable results in the 1980s that actually\\h\\h"
+  },
+  {
+    "t_start": 846.24,
+    "t_end": 853.12,
+    "text": "first uh made a proof of concept showing we have\\hthis- - (What is x again? Remind me what x actually is?)"
+  },
+  {
+    "t_start": 853.12,
+    "t_end": 857.36,
+    "text": "So x is the size of the numbers- the size of the\\h primes were going up to. So sometimes it was like\\h\\h"
+  },
+  {
+    "t_start": 857.36,
+    "t_end": 864.44,
+    "text": "100, sometimes 1,000 or a million. And this\\h gets these- these uh bar charts get more and more\\h\\h"
+  },
+  {
+    "t_start": 864.44,
+    "t_end": 871.12,
+    "text": "refined as as x gets larger. But really the the\\h meat and potatoes of the question is how soon?\\h\\h"
+  },
+  {
+    "t_start": 871.12,
+    "t_end": 877.16,
+    "text": "Can we go even sooner? - (That's how soon they start\\h evening? But how are you defining evening?)\\h\\h"
+  },
+  {
+    "t_start": 877.16,
+    "t_end": 884.24,
+    "text": "Yeah so I mean uh you can measure - and for example look\\h at the difference between uh the desired quantity\\h\\h"
+  },
+  {
+    "t_start": 884.24,
+    "t_end": 889.2,
+    "text": "and then the the expected average. And then- so you\\h know in statistics you have the concept of a a\\h\\h"
+  },
+  {
+    "t_start": 889.2,
+    "t_end": 894.32,
+    "text": "mean or kind of the average of a distribution and\\h then also the variance or the standard deviation.\\h"
+  },
+  {
+    "t_start": 894.32,
+    "t_end": 898.48,
+    "text": "And so you can ask more technical questions about\\h looking at the standard deviation, this is really\\h\\h"
+  },
+  {
+    "t_start": 898.48,
+    "t_end": 903.08,
+    "text": "what the Riemann hypothesis is all about. So this\\h is kind of the second order question about the\\h\\h"
+  },
+  {
+    "t_start": 903.08,
+    "t_end": 909.88,
+    "text": "distribution of primes. So we have this of course\\h uh result from 1965 which gets this uh Riemann"
+  },
+  {
+    "t_start": 909.88,
+    "t_end": 916.72,
+    "text": "hypothesis on average bound. But this was improved\\h remarkably in the 1980s, getting exponents up to x\\h\\h"
+  },
+  {
+    "t_start": 916.72,
+    "t_end": 923.8,
+    "text": "to the 0.571. So the way to interpret this Brady,\\h this breakthrough, is we went 15% beyond the \\h"
+  },
+  {
+    "t_start": 923.8,
+    "t_end": 930.08,
+    "text": "Riemann hypothesis. And this result really for almost 40\\h years was the state-of-the-art going beyond the"
+  },
+  {
+    "t_start": 930.08,
+    "t_end": 935.56,
+    "text": "Riemann hypothesis until about two years ago where James\\h Maynard uh actually extended this result. So in\\h\\h"
+  },
+  {
+    "t_start": 935.56,
+    "t_end": 940.72,
+    "text": "2021 he found that there were some bases that\\h you could take all the way up to x the 0.60. So\\h\\h"
+  },
+  {
+    "t_start": 940.72,
+    "t_end": 946.92,
+    "text": "in other words we can go up to 20% beyond the\\h Riemann hypothesis. So after almost a four decade\\h\\h"
+  },
+  {
+    "t_start": 946.92,
+    "t_end": 954.12,
+    "text": "uh hiatus uh there's been progress on the problem\\h by James Mayard who- fans of the channel. - (He's up-)"
+  },
+  {
+    "t_start": 954.12,
+    "t_end": 959.36,
+    "text": "(He's up there somewhere! His office is up there. We\\h should have got him in here) - Yeah and so today I'm\\h\\h"
+  },
+  {
+    "t_start": 959.36,
+    "t_end": 967.92,
+    "text": "happy to say that we can get even further up to\\h b up to 0.617 - in other words we can go 23% beyond\\h\\h"
+  },
+  {
+    "t_start": 967.92,
+    "t_end": 975.08,
+    "text": "the Riemann hypothesis. - (What does that mean?) - So this means that there are some bases b of up to this\\h\\h"
+  },
+  {
+    "t_start": 975.08,
+    "t_end": 982.2,
+    "text": "size going beyond the Riemann hypothesis range, for\\h which the primes in that base have their digits\\h\\h"
+  },
+  {
+    "t_start": 982.2,
+    "t_end": 988.12,
+    "text": "being kind of nicely uh distributed as we would\\h expect. So we only have to wait a shorter amount\\h\\h"
+  },
+  {
+    "t_start": 988.12,
+    "t_end": 993.92,
+    "text": "of time, 23% uh less time than we would expect from\\h the Riemann hypothesis- - (Before they start flattening out)"
+  },
+  {
+    "t_start": 993.92,
+    "t_end": 999.44,
+    "text": "Before they- so so this is kind of a savings of time uh\\h in one sense; in other words we can take more bases\\h\\h"
+  },
+  {
+    "t_start": 999.44,
+    "t_end": 1007.12,
+    "text": "and this result is holding for for more uh base b\\hexpansions. - (Do we know what any of these bases are?)\\h\\h"
+  },
+  {
+    "t_start": 1007.12,
+    "t_end": 1013.48,
+    "text": "Uh so that's one of uh maybe the kind of aspects\\h of this more statistical approach is that we're\\h\\h"
+  },
+  {
+    "t_start": 1013.48,
+    "t_end": 1017.12,
+    "text": "looking at families of numbers. And so one of the\\h insights, all all the way going back to the"
+  },
+  {
+    "t_start": 1017.12,
+    "t_end": 1021.68,
+    "text": "Bombieri-Vinogradov theorem, is that if you look at collections\\h of numbers or families of numbers together you\\h\\h"
+  },
+  {
+    "t_start": 1021.68,
+    "t_end": 1025.92,
+    "text": "can gain additional insights that might not\\h be as apparent from looking at an individual\\h\\h"
+  },
+  {
+    "t_start": 1025.92,
+    "t_end": 1032.24,
+    "text": "number. So we can't necessarily pinpoint an exact\\h b that this holds but we can still have a family\\h\\h"
+  },
+  {
+    "t_start": 1032.24,
+    "t_end": 1037.76,
+    "text": "uh that's of a larger size. And again maybe in in\\h an ideal scenario we can try to prove the Riemann"
+  },
+  {
+    "t_start": 1037.76,
+    "t_end": 1043.0,
+    "text": "hypothesis and we can prove these nice results for\\h every single b; but in many practical applications\\h\\h"
+  },
+  {
+    "t_start": 1043.0,
+    "t_end": 1047.6,
+    "text": "these kinds of results are are very useful. We'd\\h actually expect this to hold for all the bases\\h\\h"
+  },
+  {
+    "t_start": 1047.6,
+    "t_end": 1053.92,
+    "text": "but that's again beyond what- so even if you prove\\h the Riemann hypothesis this would be a question yet\\h\\h"
+  },
+  {
+    "t_start": 1053.92,
+    "t_end": 1058.48,
+    "text": "beyond what we can do there. So that's maybe far\\h off in the distance for future generations to\\h\\h"
+  },
+  {
+    "t_start": 1058.48,
+    "t_end": 1063.96,
+    "text": "think about. But at least from a statistical point\\h of view this is uh I feel making good progress.\\h\\h"
+  },
+  {
+    "t_start": 1063.96,
+    "t_end": 1070.16,
+    "text": "(We know that it holds for base 2, 3, 4) - Yeah\\hso for any- for any individual fixed number, already\\h\\h"
+  },
+  {
+    "t_start": 1070.16,
+    "t_end": 1075.64,
+    "text": "the prime number theorem is telling us that we get\\h this nice convergence. But it's only when the bases\\h\\h"
+  },
+  {
+    "t_start": 1075.64,
+    "t_end": 1082.28,
+    "text": "are allowed to grow moderately um we we want to be\\h able to quantify that rate of growth. So uh already\\h\\h"
+  },
+  {
+    "t_start": 1082.28,
+    "t_end": 1089.4,
+    "text": "we know even by the Siegel\u2013Walfisz theorem which\\h was proven over about 100 years ago we can allow\\h\\h"
+  },
+  {
+    "t_start": 1089.4,
+    "t_end": 1095.4,
+    "text": "the base to grow logarithmically or very very\\h slowly with x and not run into trouble, but really\\h\\h"
+  },
+  {
+    "t_start": 1095.4,
+    "t_end": 1100.48,
+    "text": "you you have to assume these very heavyweight\\h conjectures like the Riemann hypothesis if you\\h\\h"
+  },
+  {
+    "t_start": 1100.48,
+    "t_end": 1107.32,
+    "text": "want an individual b to be growing uh like up to\\h the square root of x. These kinds of results uh I feel\\h\\h"
+  },
+  {
+    "t_start": 1107.32,
+    "t_end": 1112.88,
+    "text": "have a very uh beautiful aspect where they connect\\h so that the proof ideas that go into them connect\\h\\h"
+  },
+  {
+    "t_start": 1112.88,
+    "t_end": 1119.2,
+    "text": "a wide range of ideas across maybe seemingly\\h disparate areas of math. So on the one hand uh some\\h\\h"
+  },
+  {
+    "t_start": 1119.2,
+    "t_end": 1124.6,
+    "text": "ideas that go into this relate to modular forms,\\h these kind of exotic objects uh that actually\\h\\h"
+  },
+  {
+    "t_start": 1124.6,
+    "t_end": 1130.56,
+    "text": "ended up playing a crucial role for example in\\h Fermat's last theorem proven by Andrew Wiles and has led\\h\\h"
+  },
+  {
+    "t_start": 1130.56,
+    "t_end": 1137.8,
+    "text": "to the Langlands programs. Um on the other hand\\h uh it uses results from algebra geometry; uh more\\h\\h"
+  },
+  {
+    "t_start": 1137.8,
+    "t_end": 1143.24,
+    "text": "specifically the the Weil bound and the Deligne bound,\\h from the so-called Riemann hypothesis for curves\\h\\h"
+  },
+  {
+    "t_start": 1143.24,
+    "t_end": 1148.8,
+    "text": "over finite fields uh which is itself another\\h story for another time. But I just want to convey\\h\\h"
+  },
+  {
+    "t_start": 1148.8,
+    "t_end": 1154.32,
+    "text": "the sense that a lot of- uh there's a confluence\\h of a lot of ideas coming together just to uh make\\h\\h"
+  },
+  {
+    "t_start": 1154.32,
+    "t_end": 1159.4,
+    "text": "progress on understanding the distribution of\\h just the primes. And as a just a last shout out,\\h"
+  },
+  {
+    "t_start": 1159.4,
+    "t_end": 1164.48,
+    "text": "so I wanted to say that there seems to be a kind\\h of nice revival in this field of studying these\\h\\h"
+  },
+  {
+    "t_start": 1164.48,
+    "t_end": 1170.12,
+    "text": "questions uh in the last maybe decade where there\\h before had been something something of a lull;\\h\\h"
+  },
+  {
+    "t_start": 1170.12,
+    "t_end": 1177.0,
+    "text": "I just wanted to shout out some people, who are\\h\\h"
+  },
+  {
+    "t_start": 1177.0,
+    "t_end": 1181.08,
+    "text": "who have been uh doing some interesting work and\\h we've been having a nice discussion. So it's really\\h\\h"
+  },
+  {
+    "t_start": 1181.08,
+    "t_end": 1187.4,
+    "text": "good to see this uh flourishing of this this\\h subject. ...100. Between 1 and 1,000, between 1"
+  },
+  {
+    "t_start": 1187.4,
+    "t_end": 1195.4,
+    "text": "and 1 million. For any uh n between one and n using\\h his zeta function. Which is absolutely astonishing\\h\\h"
+  },
+  {
+    "t_start": 1195.4,
+    "t_end": 1200.48,
+    "text": "because if you think about zeta function, something\\h has to do with complex numbers and with analytic\\h\\h"
+  },
+  {
+    "t_start": 1200.48,
+    "t_end": 1204.68,
+    "text": "continuation and so on and so forth. So it's a\\h particular branch of mathematics which is called\\h\\h"
+  },
+  {
+    "t_start": 1204.68,
+    "t_end": 1210.88,
+    "text": "complex analysis. But prime numbers live in a\\h different branch of mathematics. - It tells us things\\h"
+  },
+  {
+    "t_start": 1210.88,
+    "t_end": 1215.84,
+    "text": "we already suspect because we sort of believe the\\h Riemann hypothesis is true but there are things we can't\\h\\h"
+  },
+  {
+    "t_start": 1215.84,
+    "t_end": 1222.08,
+    "text": "prove. So for example how many primes are there\\h up to a trillion? We have a formula for that that\\h\\h"
+  },
+  {
+    "t_start": 1222.08,
+    "t_end": 1226.96,
+    "text": "we believe is true but we can only prove that\\h formula if we know the Riemann hypothesis is true."
+  }
+]

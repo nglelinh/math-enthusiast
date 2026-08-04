@@ -1,0 +1,221 @@
+hey it's Nathan and I wanted to tell you
+more about H Dimension today or like in
+in particular like how we work with it
+or some tools that we use in order to
+estimate
+it there's certain things about this
+definition that make it hard to
+calculate so in particular if you have
+to have a Delta cover of a um well then
+your cover elements they don't have
+fixed size they could be a varying size
+so estimates can can get weird there and
+then the other thing is that you're
+doing this limit of an infam of stuff
+and it's always weird to wrap your head
+around things when you have multiple
+limits and supremum and infam and limb
+soups and lims running around the first
+place to start is to work with upper
+bounds and in particular uh this is this
+is not super difficult this is probably
+the easier thing to work with when
+you're doing estimates because uh the
+following proposition of the following
+estimate method that I'm going to prove
+uh just uses the fact that you're
+covering with finitely many things
+suppose a can be covered with n subk
+sets of diameter at most Delta subk
+where Delta subk goes to zero as K goes
+to Infinity then the hosf dimension is
+less than or equal to the Limit inferior
+as K goes to Infinity of log n subk over
+negative log Delta subk so the proof
+here doesn't use any like special
+measure Theory things it's really just
+about understanding what it means to
+have a Delta cover and what the
+definition of hdor Dimension uh what the
+pieces are of it so this proof starts
+just by noting that n subk and Delta
+subk Define a Delta subk cover of a so
+the Delta k s dimensional hos dorf outer
+measure of a which is equal to that
+definition above just without the limit
+as Delta goes to zero is going to be
+less than or equal to NK * Delta subk to
+the S and this is because uh the infimum
+over all Delta covers is going to be
+less than the value that you get out for
+one particular Delta cover we can then
+go ahead and suppose that for some s a
+positive real number the S dimensional
+hos dorf measure of a is going to be
+greater than one then well for K large
+enough one is going to be less than the
+estim dimensional hos dorf measure of a
+which is going to be less than or equal
+to the Delta k s dimensional hos dorf
+outer measure of a for for K large
+enough as Delta K goes to zero and then
+from the thing that we said about the
+Delta k s dimensional hoso outer measure
+and this inequality we've derived we can
+go ahead and say that 1 is less than or
+equal to n subk * Delta subk to the S
+power and then taking logarithms this
+says that Z is less L than log n subk
+plus s log Delta subk which implies that
+minus log n subk over log Delta subk is
+greater than S and the thing to note
+here is that for K large enough because
+Delta sub K goes to zero as K goes to
+Infinity Delta sub K is going to be less
+than one which means that log Delta subk
+is going to be less than zero hence the
+inequality sign flipping here
+then since s doesn't depend on K we can
+go ahead and take a limit inferior of
+both sides the only change that this
+will make is that we'll have a limit
+inferior on the left and the inequality
+will go from a greater than to being a
+greater than or equal to and so then
+that means that the hosr dimension of a
+is going to be less than or equal to the
+Limit inferior as K goes to Infinity of
+minus log n subk over log Delta subk
+because when you take those supremum
+over s's the log ratio of those NK and
+Delta K things do not depend on S so we
+have upper bounds now or we have a
+method for figuring out an upper Bound
+for the hosr dimension the next thing to
+do is to show that there are methods for
+calculating lower bounds of H Dimension
+and in general this is usually harder
+because if you're looking at the
+definition of hraf Dimension you're
+doing this limit of an inferior thing
+you're always making things as small as
+possible possible it's hard to think
+about finding something that is smaller
+than that quote unquote smallest
+possible thing the theem that I'm going
+to present here is going to be the mass
+distribution principle there are other
+Mass distribution methods for estimating
+hos Dimension but this one in particular
+gives a lower bound uh and it just
+requires some comfort with measure
+Theory so let mu be a measure supported
+on a subset of X with 0 less than mu of
+a less than infinity and suppose that
+for some s greater than zero there
+exists a c greater than zero and Epsilon
+greater than zero such that the measure
+of U is less than or equal to C * the
+diameter of U to the s for every U
+subset of X such that the diameter of U
+is less than Epsilon so if you can find
+sets within your metric space that are
+small enough you can uh get under the
+gauge function up to a constant by using
+the measure of that set is what this
+says so if you fit that condition that
+is if you can find a finite measure that
+lets you
+underestimate the gauge function up to a
+constant multiple by that measure that
+you're working with then what the
+theorem says is that the S dimensional
+hosf measure of a is going to be greater
+than or equal to Mu of a over C and by
+Consequence the s for the gauge function
+where the measure does this particular
+thing is going going to be less than or
+equal to the actual HR dimension of a so
+to go ahead and do this we start the
+proof by taking any cover of a that fits
+the conditions in this proof I'm going
+to Interchange Delta and Epsilon because
+there's in the statement of the theorem
+the small thing is the Epsilon in hos
+Dimension the small stuff is the stuff
+that's in the Delta cover so I'll be
+using Delta instead of Epsilon here for
+the condition so if the use of I's is a
+cover of a that fits the condition then
+a by definition of a cover is a subset
+of the Union of all of those uis then
+from our measure that we found the
+condition on that zero is going to be
+less than strictly the measure of the
+whole set a which is then less than the
+measure of the Union of that stuff that
+covers it because the covering is a
+superet which is then less than or equal
+to the sum of all the measures of those
+open sets which is then less than or
+equal to the sum of the measure of all
+of those uis by countable sub add it and
+then that's going to be less than or
+equal to C * the sum of the diameters of
+those U sub I cover elements to the S
+power as I ranges from one to Infinity
+because of the condition put on the
+cover if you go ahead and divide C from
+both sides you get the measure of a over
+C is less than or equal to the sum
+that's associated to that gauge function
+and noticing that we can go ahead and
+take an infimum over covers and since
+the left hand side does not depend on
+the cover used the infam only pops up on
+the right hand side and it makes the
+less than a less than or equal to and
+then further limiting this Delta to zero
+since again the left hand side does not
+depend on that Delta we'll get the
+s-dimensional hos dorf measure of a is
+greater than or equal to the measure of
+a over c as desired now since the
+measure of a is greater than zero and C
+is also greater than zero we know that
+the measure of a over C is positive and
+so we have an s-dimensional hos dorf
+measure that evaluates to something that
+is greater than or equal to something
+that is strictly greater than zero so we
+know that the S dimensional hosr measure
+for that particular s must either be
+infinity or some finite value between
+that thing greater than zero and
+infinity because of how the Huff
+Dimension does that jump thing and hence
+that means that the hosr dimension of a
+is
+greater than or equal to S anyhow that's
+all for this one I might revisit H Dr
+Dimension at some point in the future in
+terms of like techniques used to
+estimate it I'm going to do next time's
+video is also going to be hru Dimension
+and flavor too um but after that I'm
+going to talk about some of my research
+style stuff um in a more intuitive way
+so uh yes if you enjoy this math stuff
+and want see more of the math things
+that I put on the Internet or want to
+hear about how math Academia stuff is
+going for me I put that all on this
+channel uh so you can subscribe for that
+uh if you enjoyed this video give it a
+thumbs up and you can comment things
+down below if you uh have Corrections
+comments concerns or just things that
+you want me to cover in the future I
+appreciate it um but anyway yep that's
+it as always I am Nathan this one was
+chalk and I will see you next time

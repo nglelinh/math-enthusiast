@@ -1,0 +1,99 @@
+[
+  {
+    "id": "094y1Z2wpJg",
+    "title": "The Simplest Math Problem No One Can Solve - Collatz Conjecture",
+    "duration_sec": 1329,
+    "caption_file": "094y1Z2wpJg.en.srt",
+    "transcript_chars": 19608,
+    "cue_count": 492,
+    "status": "ok"
+  },
+  {
+    "id": "5mFpVDpKX70",
+    "title": "UNCRACKABLE? The Collatz Conjecture - Numberphile",
+    "duration_sec": 472,
+    "caption_file": "5mFpVDpKX70.en.srt",
+    "transcript_chars": 7275,
+    "cue_count": 101,
+    "status": "ok"
+  },
+  {
+    "id": "LqKpkdRRLZw",
+    "title": "Collatz Conjecture in Color - Numberphile",
+    "duration_sec": 377,
+    "caption_file": "LqKpkdRRLZw.en.vtt",
+    "transcript_chars": 5508,
+    "cue_count": 97,
+    "status": "ok"
+  },
+  {
+    "id": "Lr6qc_9M0Ks",
+    "title": "How accurate is Veritasium about the Collatz 3x+1 Problem?",
+    "duration_sec": 1605,
+    "caption_file": "Lr6qc_9M0Ks.en.vtt",
+    "transcript_chars": 18985,
+    "cue_count": 1278,
+    "status": "ok"
+  },
+  {
+    "id": "O2_h3z1YgEU",
+    "title": "Collatz Conjecture (extra footage) - Numberphile",
+    "duration_sec": 361,
+    "caption_file": "O2_h3z1YgEU.en.srt",
+    "transcript_chars": 5464,
+    "cue_count": 292,
+    "status": "ok"
+  },
+  {
+    "id": "X2p5eMWyaFs",
+    "title": "Day 2 - The notorious Collatz conjecture - Terence Tao",
+    "duration_sec": 3002,
+    "caption_file": "X2p5eMWyaFs.en.srt",
+    "transcript_chars": 38371,
+    "cue_count": 2502,
+    "status": "ok"
+  },
+  {
+    "id": "k-dtx8s2ehM",
+    "title": "Almost all Collatz Orbits Attain Almost Bounded Values - Terence Tao",
+    "duration_sec": 3661,
+    "caption_file": "k-dtx8s2ehM.en.vtt",
+    "transcript_chars": 56245,
+    "cue_count": 3243,
+    "status": "ok"
+  },
+  {
+    "id": "m4CjXk_b8zo",
+    "title": "The Simplest Impossible Problem",
+    "duration_sec": 236,
+    "caption_file": "m4CjXk_b8zo.en.srt",
+    "transcript_chars": 3072,
+    "cue_count": 59,
+    "status": "ok"
+  },
+  {
+    "id": "t1I9uHF9X5Y",
+    "title": "The 3x+1 Problem: Status and Recent Work Part 1",
+    "duration_sec": 1799,
+    "caption_file": "t1I9uHF9X5Y.en.srt",
+    "transcript_chars": 24168,
+    "cue_count": 1304,
+    "status": "ok"
+  },
+  {
+    "id": "vT4VJyXWHlo",
+    "title": "The surprisingly hard math problem - Collatz conjecture explained | Terence Tao and Lex Fridman",
+    "duration_sec": 452,
+    "caption_file": "vT4VJyXWHlo.en.srt",
+    "transcript_chars": 7445,
+    "cue_count": 394,
+    "status": "ok"
+  },
+  {
+    "id": "wH141HLD57o",
+    "title": "An Hour of Coloring the Collatz Conjecture",
+    "duration_sec": 3827,
+    "status": "no_captions",
+    "note": "Main video: https://youtu.be/LqKpkdRRLZw\nColoring by Tiffany Arment: https://twitter.com/tiffanyarment\n\nOur previous Collatz Conjecture video: https://youtu.be/5mFpVDpKX70\n\nThe Collatz Colouring image"
+  }
+]

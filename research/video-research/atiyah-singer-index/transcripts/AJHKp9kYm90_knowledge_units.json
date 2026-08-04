@@ -1,0 +1,429 @@
+[
+  {
+    "id": "ku_video_AJHKp9kYm90_18",
+    "t_start": 18.9,
+    "t_end": 109.2,
+    "type": "overview",
+    "summary": "Yeah, ladies and gentlemen, we start the lecture which we propose to in four great founders of index theory. So, there was Atiyah, Singer, Bott, and Hirzebruch. And Singer just passed away about a month ago. And we passed away about a month ago. And we So, this last last one of the four So, this last last one of the four founders. his student, so we are glad that he can come to give a talk. come to give a talk. And um this is a lectures organized by CMSA in uh Harvard and also Tsinghua in uh Harvard and also Tsinghua University in uh China. So, we have uh um uh Kumaran Waafa to chair this u…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_109",
+    "t_start": 109.2,
+    "t_end": 203.3,
+    "type": "overview",
+    "summary": "mentioned, is Singer was his PhD advisor. And also, he worked with Bott as an undergraduate when he was at Harvard. In undergraduate when he was at Harvard. In fact, I have very pleasant memories of a fact, I have very pleasant memories of a course we both took together with Bott course we both took together with Bott in 1981, 40 years ago. Uh so, it's a pleasure to listen to Dan's talk, whose title is the Dan's talk, whose title is the Atiyah-Singer index theorem. And then, please, if you have any questions during the talk, feel free to questions during the talk, feel free to write your qu…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_203",
+    "t_start": 203.3,
+    "t_end": 293.4,
+    "type": "overview",
+    "summary": "right away that I might not get the history quite right, and I might bend a And I'm also going to in the talk stay close to the work of these four uh honorees, as well as some of the work directly uh influenced by them. But directly uh influenced by them. But index theory has many tentacles. It index theory has many tentacles. It inspired many different uh new fields of mathematics, and I couldn't possibly even touch on those in couldn't possibly even touch on those in the talk. So, we'll start with that, and then a few variations. Again, that'll be very few variations. Again, that'll be ve…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_293",
+    "t_start": 293.4,
+    "t_end": 384.3,
+    "type": "overview",
+    "summary": "formula. So, Riemann, in fact, computed an inequality for that dimension, and then Roch found the error term. And so, what's computed the error term. And so, what's computed is the difference of two dimensions. And as it goes. And the right-hand side then is a topological invariant. It has the is a topological invariant. It has the genus of the surface, which is the number of holes, and the degree of the divisor, which is just the sum of these divisor, which is just the sum of these integers. So, the general problem, in a language that came much much much later, is that we replace the curve…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_386",
+    "t_start": 386.6,
+    "t_end": 479.6,
+    "type": "overview",
+    "summary": "And so, the story uh with the gang of four begins with Hirzebruch, who in the four begins with Hirzebruch, who in the early 1950s applied what was very new at early 1950s applied what was very new at the time, namely Thom's theory of the time, namely Thom's theory of cobordism, as well as sheaf theory. He combined those and the theory of characteristic those and the theory of characteristic classes, which also was fairly new at classes, which also was fairly new at the time, to solve this Riemann-Roch problem, meaning to give a formula for the uh this Euler Euler characteristic. He also com…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_479",
+    "t_start": 479.6,
+    "t_end": 574.0,
+    "type": "overview",
+    "summary": "and Hirzebruch made a study of these kinds of genera of manifolds. And the one that's associated to the vector bundle V is the Chern to the vector bundle V is the Chern character class. That's the sum of the character class. That's the sum of the exponentials of the X's. And that, of course, is named after Chern. That was around um before that. Chern. That was around um before that. And so, Hirzebruch's theorem then is And so, Hirzebruch's theorem then is that the Euler characteristic of the that the Euler characteristic of the holomorphic vector bundle is the product of this Todd genus and…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_574",
+    "t_start": 574.0,
+    "t_end": 665.5,
+    "type": "overview",
+    "summary": "second, then this is a product of ratios of an odd-degree polynomial in the numerator, and again, an odd polynomial or odd power series in the denominator. or odd power series in the denominator. And so, the ratio is even, which means it's a function of the squares of the Y's. And that means that when we write it in terms of characteristic classes, it's a terms of characteristic classes, it's a polynomial now in the Pontryagin polynomial now in the Pontryagin classes. And what Hirzebruch noticed is that if you take on a complex manifold, if you you take on a complex manifold, if you take th…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_665",
+    "t_start": 665.5,
+    "t_end": 756.7,
+    "type": "overview",
+    "summary": "A-hat genus, and ask whether that evaluated on the fundamental class is an evaluated on the fundamental class is an integer. And in the special case when you can take C to be zero, well, that means that take C to be zero, well, that means that the second Stiefel-Whitney class vanishes, and that they knew already from work of Borel and before that um from work of Borel and before that um that having a vanishing second that having a vanishing second Stiefel-Whitney class means that the And so, the question is, is the A-hat genus of a spin manifold an integer? genus of a spin manifold an integ…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_759",
+    "t_start": 759.8,
+    "t_end": 850.1,
+    "type": "overview",
+    "summary": "So, by the end of the decade, in um that problem was solved. And so, you see that problem was solved. And so, you see that already that still in 1959 in joint that already that still in 1959 in joint work with Borel, he's still posing it as that this A-hat genus with the lifted class, lift of the second class, lift of the second Stiefel-Whitney class should be an integer, and in the particular case of a spin manifold that um we should get an spin manifold that um we should get an integer. And in fact, in dimensions 4 integer. And in fact, in dimensions 4 mod 8, an an additional um mod 8, an…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_850",
+    "t_start": 850.1,
+    "t_end": 942.8,
+    "type": "overview",
+    "summary": "One is he introduced the idea of K-theory, and in his case, the K-theory K-theory, and in his case, the K-theory of sheaves, and re-expressed what the of sheaves, and re-expressed what the Riemann-Roch theorem is in terms of Riemann-Roch theorem is in terms of K-theory. And the second is he went from a single manifold to a family of manifolds, to manifold to a family of manifolds, to geometry over a base, if you like. the K-theory. X again is a complex manifold, projective variety. manifold, projective variety. And he attaches to it an abelian group So, he takes equivalence classes of sheav…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_942",
+    "t_start": 942.8,
+    "t_end": 1034.3,
+    "type": "overview",
+    "summary": "sections of that sheaf over this fiber. Well, we can't do it quite point by point. We have to do it on open sets of the base. So, on open sets, we take the the base. So, on open sets, we take the global sheaves, and that makes, if we take Q equal zero, that makes a presheaf on S, which we can convert into a sheaf. on S, which we can convert into a sheaf. So, we can do that not just with the but with the higher cohomology as well. And so, sheaves have this property that And so, sheaves have this property that they push forward naturally, and it's in they push forward naturally, and it's in v…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_1034",
+    "t_start": 1034.3,
+    "t_end": 1129.4,
+    "type": "overview",
+    "summary": "you specialize to the case when S is a point, Why? Well, if S is a point, then uh this Todd genus is just one, so that's out. Todd genus is just one, so that's out. This push forward is exactly the This push forward is exactly the quantity, this alternating sum of quantity, this alternating sum of cohomologies as a virtual vector space, cohomologies as a virtual vector space, and taking its Chern character is and taking its Chern character is exactly the dimension. So, this is exactly the dimension. So, this is exactly the quantity in the the Euler characteristic of the of the um if if the …"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_1129",
+    "t_start": 1129.4,
+    "t_end": 1219.8,
+    "type": "overview",
+    "summary": "of the real orthogonal group, and we like to call that the Bott song, Z Z mod Z2 Z2 0 Z 0 0 0 Z, I guess, is the word that we usually that we usually uh say it. Okay. So, Grothendieck's work and Bott's work, which I don't have time in this talk to talk about how Bott got that result, which is through Morse theory, result, which is through Morse theory, so that's a beautiful story so that's a beautiful story uh in and of itself. And this work of Bott and then of Grothendieck was used as the cornerstone Grothendieck was used as the cornerstone of topological K-theory. of topological K-theory.…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_1221",
+    "t_start": 1222.0,
+    "t_end": 1313.2,
+    "type": "overview",
+    "summary": "And now a vector bundle is a locally trivial family of vector spaces, so trivial family of vector spaces, so pictured here for example. pictured here for example. And Vect of X be the the set of isomorphism classes of such the set of isomorphism classes of such vector bundles. So, we could do this over the reals, we could do it over the complexes. Here, I just said it over the reals. And what structure does this have? Well, And what structure does this have? Well, if we're given two vector bundles, we if we're given two vector bundles, we can take the direct sum. can take the direct sum. An…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_1313",
+    "t_start": 1313.2,
+    "t_end": 1403.4,
+    "type": "overview",
+    "summary": "bundle on the left at time zero and the vector bundle on the right at time one isomorphic? Well, we can choose, it's a contractible choice, we can choose a contractible choice, we can choose a covariant derivative on this vector covariant derivative on this vector bundle, on this total vector bundle over So, we introduce then the differential equation of parallel transport. Namely, equation of parallel transport. Namely, if I start with a point in the total then that sits over a point in the base. And we can look at this axis of the And we can look at this axis of the cylinder and we can li…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_1403",
+    "t_start": 1403.4,
+    "t_end": 1494.8,
+    "type": "overview",
+    "summary": "virtual additive inverses. And so, that becomes then the group KO of X. And there's as usual a reduced group And there's as usual a reduced group where we mod out by the the homology of a point, the KO theory of a point, which is to say we ignore Now, why is this linked to Bott periodicity? Well, the claim is that if we look at the vector bundles on a sphere, those are related to the homotopy groups of in the real case, the homotopy groups of the orthogonal group. So, how do you get a vector bundle on a Well, we can take a trivial bundle, just say just say R N for some N on the upper hemisp…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_1494",
+    "t_start": 1494.8,
+    "t_end": 1585.2,
+    "type": "overview",
+    "summary": "functions, they lead to isomorphic bundles. And so, that's the basic clutching. We have to arrange that the rank be zero So, just around this time, maybe a little before, Bott and Puppe and others little before, Bott and Puppe and others had developed some general kinds of had developed some general kinds of exact sequences and ideas in algebraic exact sequences and ideas in algebraic topology. And so, it was natural then to introduce, although I think still very introduce, although I think still very novel at the time, to introduce these KO in particular in negative degrees by taking the v…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_1585",
+    "t_start": 1585.2,
+    "t_end": 1678.2,
+    "type": "overview",
+    "summary": "Grothendieck and the interaction between Atiyah, Hirzebruch, and Grothendieck. Atiyah, Hirzebruch, and Grothendieck. And the first thing that they did with it was to attack then the Riemann-Roch problem in the context the Riemann-Roch problem in the context of smooth manifolds to try to get an analog for smooth manifolds of what Grothendieck had done for um Grothendieck had done for um for complex manifolds. for complex manifolds. And so, this I think is their very first in uh K-theory from 1959. And as I said, the years '59 from 1959. And as I said, the years '59 to '62, they developed man…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_1678",
+    "t_start": 1678.2,
+    "t_end": 1769.8,
+    "type": "overview",
+    "summary": "So, cohomology classes generally pull back under maps. They don't push back under maps. They don't push forward. Homology classes push forward. forward. Homology classes push forward. But if we use Poincaré duality, we can class and push it forward. That's one way we can define this push forward map Now, what Atiyah and Hirzebruch wanted to do, I think, is to define a similar push forward on vector bundles on K-theory. That was of course the ingredient that Grothendieck had in terms of sheaves. Grothendieck had in terms of sheaves. But vector bundles don't push forward. But vector bundles d…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_1769",
+    "t_start": 1769.8,
+    "t_end": 1861.4,
+    "type": "overview",
+    "summary": "and the sphere and we can just project back to S. K-theory here is a matter of what happens when you cross with a sphere. happens when you cross with a sphere. Well, that's Bott periodicity. Well, that's Bott periodicity. So, the push forward here certainly uh was known at that point. But the push forward here was not known, and um um Yeah, so Yeah, so maybe it's worth just saying a little So here, if we imagine is the manifold that we're embedding in, the manifold that we're embedding in, and here's our submanifold and here's our submanifold X. Then the strategy, and this is what they did …"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_1861",
+    "t_start": 1861.4,
+    "t_end": 1955.2,
+    "type": "overview",
+    "summary": "normal bundle. We'd like to tensor it with some canonical bundle here that is with some canonical bundle here that is compactly supported on each fiber. compactly supported on each fiber. Compactly supported in K-theory. does. That's how the Thom isomorphism in cohomology works. And that's how you can cohomology works. And that's how you can think of defining also the push forward think of defining also the push forward in cohomology using that Thom class. in cohomology using that Thom class. But what was missing at this time is the That came a little bit later. And knowing that Thom class …"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_1955",
+    "t_start": 1955.2,
+    "t_end": 2049.7,
+    "type": "overview",
+    "summary": "then the A-hat genus of a point is one. The Chern character becomes the The Chern character becomes the dimension. And so, well, it's again dimension in quotes. If you interpret this push quotes. If you interpret this push forward as being um that's now an forward as being um that's now an element of the KO-theory of a point. And element of the KO-theory of a point. And so dimension just means that the KO-theory of a point is an integer. So we know the left-hand side is an we know the left-hand side is an integer. And now the right-hand side is exactly, if we take um eta to be uh one, then …"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_2049",
+    "t_start": 2049.7,
+    "t_end": 2142.6,
+    "type": "overview",
+    "summary": "So that relationship gives you a strong feeling of the relation between the spin feeling of the relation between the spin group and the A-hat genus. And that was used already in '59 in the Riemann-Roch theorems. theorems. Okay. But still, that wasn't satisfactory, as I said, in part because there was no push forward on K-theory. And so in particular pushed for an analytic interpretation. And um I think both Atiyah and And um I think both Atiyah and Hirzebruch were asking for an analytic Hirzebruch were asking for an analytic interpretation really in view of the interpretation really in view…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_2142",
+    "t_start": 2142.6,
+    "t_end": 2233.6,
+    "type": "overview",
+    "summary": "were being played around with are all expressible in terms of harmonic forms. expressible in terms of harmonic forms. So the Euler number, which is in a sense the earliest of the indices, the alternating sum of dimensions of the cohomologies, well, by the theorems of de Rham and of Hodge the theorems of de Rham and of Hodge combined, we can identify that with the combined, we can identify that with the alternating sum of the dimensions of the alternating sum of the dimensions of the spaces of harmonic forms. The signature I mentioned that Hirzebruch did, that's also a difference Hirzebruch …"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_2233",
+    "t_start": 2233.6,
+    "t_end": 2324.9,
+    "type": "overview",
+    "summary": "story really starts with Hirzebruch in '54 based on the work of Thom that came And as I said, Grothendieck and Bott, on which topological K-theory was based, uh which topological K-theory was based, uh came in '57. And topological K-theory And this is where then Singer enters the story in '62, when he um arrived in story in '62, when he um arrived in Oxford at the beginning of the year for Oxford at the beginning of the year for a sabbatical. And Atiyah immediately a sabbatical. And Atiyah immediately asked him this question, why is the A-hat genus of a spin manifold an integer? So what Sin…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_2324",
+    "t_start": 2324.9,
+    "t_end": 2420.4,
+    "type": "overview",
+    "summary": "in Euclidean space, rather than Minkowski space-time, so more relevant Minkowski space-time, so more relevant for what we're saying in Riemannian for what we're saying in Riemannian geometry, he's looking for a first-order geometry, he's looking for a first-order differential operator. So it has this differential operator. So it has this form, whose um square is the Laplace operator. And here I've written the Laplace And here I've written the Laplace operator. So if you just write that equation, you get an algebraic equation on these get an algebraic equation on these coefficients gamma. So…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_2423",
+    "t_start": 2423.7,
+    "t_end": 2519.8,
+    "type": "overview",
+    "summary": "And whichever sign we take, the uh spin group sits inside the Clifford algebra. group sits inside the Clifford algebra. So, the Clifford algebra is actually Z2 graded because these relations are quadratic, and the spin group sits quadratic, and the spin group sits inside the even part. inside the even part. And you should compare this to the orthogonal group sitting inside the algebra the algebra of n by n matrices. Okay. So, there's an analogy like that. For example, a representation of the For example, a representation of the orthogonal group you might get by taking orthogonal group you m…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_2519",
+    "t_start": 2519.8,
+    "t_end": 2611.4,
+    "type": "overview",
+    "summary": "that algebra of operators on this module commutes with the spin group. And so, we commutes with the spin group. And so, we could use that algebra to reduce the could use that algebra to reduce the representation. Or, we could just keep the algebra around and remember that we should think around and remember that we should think of it relative, so to speak, to the of it relative, so to speak, to the action of that algebra. And that's action of that algebra. And that's really the nice point of view. So, in a sense, this was known already and what Atiyah-Bott-Shapiro did, but and what Atiyah-B…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_2611",
+    "t_start": 2611.4,
+    "t_end": 2705.9,
+    "type": "overview",
+    "summary": "whole vector space Rn sits inside. So, we just take the coordinates of the point on the sphere, the XIs, we multiply by the gammas, and just the rules of the Clifford algebra tell you that this um gives you an isomorphism. that this um gives you an isomorphism. It's an invertible transformation. that allows us to clutch together a vector bundle from E0 on the top and E1 vector bundle from E0 on the top and E1 on the bottom to get in the reduced K-theory, we just make it of zero rank like that. make it of zero rank like that. And so, that's the construction then in And so, that's the constru…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_2707",
+    "t_start": 2707.4,
+    "t_end": 2800.2,
+    "type": "overview",
+    "summary": "geometry is of Levi-Civita that we have a connection, these horizontal planes in a connection, these horizontal planes in this principal bundle, the Levi-Civita connection, and that gives us for each point here we can take the basis vectors point here we can take the basis vectors downstairs and lift them to be downstairs and lift them to be horizontal. And that gives us these canonical vector fields, tautological horizontal vector fields, tautological horizontal vector fields on the total space of this frame Now, if the manifold is spin, then um we have a double cover of this frame bundle,…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_2800",
+    "t_start": 2800.2,
+    "t_end": 2892.4,
+    "type": "overview",
+    "summary": "So, if we look on the frame bundle, instead of these coordinate vector instead of these coordinate vector fields, we now have these tautological and we want to take a map again to this Clifford module, but we have to keep in Clifford module, but we have to keep in mind that we want something on the base, mind that we want something on the base, and so the spin group acts here, the and so the spin group acts here, the spin group acts here, and so we look at Those are essentially functions on the base twisted, so sections of a vector base twisted, so sections of a vector bundle over the base,…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_2894",
+    "t_start": 2894.9,
+    "t_end": 2985.7,
+    "type": "overview",
+    "summary": "So, that's uh as I understand it really what uh the first thing that they what uh the first thing that they they learned and how they got to the index theorem. Okay. So, I want to say a little bit more about um about the analytic side of the index theorem and why this is an index. theorem and why this is an index. And so, that's recalling uh Fredholm And so, that's recalling uh Fredholm operators. A Fredholm operator between operators. A Fredholm operator between Hilbert spaces is an operator where the where the the operator has finite dimensional kernel and finite dimensional cokernel, and…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_2987",
+    "t_start": 2987.6,
+    "t_end": 3079.1,
+    "type": "overview",
+    "summary": "So just a historical note, but I won't go through it, is that the first um go through it, is that the first um index problem, it seems historically, is index problem, it seems historically, is this Toeplitz operator on the disk and this Toeplitz operator on the disk and it dates from 1920. Um Fritz Noether, who was a son of the Max Noether that occurred uh previously, the the brother occurred uh previously, the the brother of Emmy Noether. And uh apparently it was he who really made this Fredholm index and found uh made this Fredholm index and found uh this first problem or some equivalent …"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_3079",
+    "t_start": 3079.1,
+    "t_end": 3171.3,
+    "type": "overview",
+    "summary": "bundle, on the total space of the cotangent bundle, for each cotangent vector, I get a linear map. That's what the A is, a linear map from E0 to E1. So we have this family of linear maps on the cotangent bundle and the ellipticity condition says that these maps are um isomorphisms away from the zero section. isomorphisms away from the zero section. And furthermore, the form of this tells that on a given fiber, these maps are polynomial of degree m. So that's what the symbol is. And um on a compact manifold, an And um on a compact manifold, an elliptic differential operator is elliptic diffe…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_3171",
+    "t_start": 3171.3,
+    "t_end": 3265.9,
+    "type": "overview",
+    "summary": "really they proved again later in 62. The announcement is in 63. The announcement is in 63. And they start with Gelfand's problem, And they start with Gelfand's problem, the general problem of investigating uh the general problem of investigating uh the index of an elliptic operator. And as they say, they give a general formula for the index. So it's not just for Dirac operators and in fact, it's not even just for And so here's their theorem in that announcement and it's really following Hirzebruch and the proof followed Hirzebruch. They give a formula in terms in terms of characteristic cl…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_3265",
+    "t_start": 3265.9,
+    "t_end": 3356.9,
+    "type": "overview",
+    "summary": "being the analytic index, which takes an operator with that symbol, an elliptic operator with that symbol, an elliptic operator, and takes the uh numerical operator, and takes the uh numerical index. And then there's the topological index. And the topological index is the kind of And the topological index is the kind of push forward that um Bott paper. Well, we didn't see, but I mentioned. Using the Thom class, you can mentioned. Using the Thom class, you can do that on the cotangent bundle. do that on the cotangent bundle. And so their general index theorem is And so their general index th…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_3356",
+    "t_start": 3356.9,
+    "t_end": 3447.4,
+    "type": "overview",
+    "summary": "pseudo-differential operators, but they run through the whole theory, not just the the first announcement and then through all the variations. So that was a fairly new theory in the theory of uh theory of uh of differential equations with lots of people contributing. Um Seeley, for people contributing. Um Seeley, for example, Kohn-Nirenberg and several example, Kohn-Nirenberg and several people at that time. Finally, if we have a spin manifold, then we can take the elliptic operator then we can take the elliptic operator to always be a Dirac operator to always be a Dirac operator and a Dira…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_3447",
+    "t_start": 3447.4,
+    "t_end": 3541.8,
+    "type": "overview",
+    "summary": "time, I'm going to really go fairly quickly. I don't think I really have time for for these. So one variation is that you these. So one variation is that you could have a equivariant version of the could have a equivariant version of the um of the index theorem where you have a group acting everywhere. And in fact, there's a really a generalization of that due to Atiyah and generalization of that due to Atiyah and Bott called the Atiyah-Bott fixed point Bott called the Atiyah-Bott fixed point theorem. And so in this theorem, we have a single diffeomorphism of a manifold and it's diffeomorph…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_3541",
+    "t_start": 3541.8,
+    "t_end": 3632.2,
+    "type": "overview",
+    "summary": "developments is that when you apply this to the signature operator on various to the signature operator on various particular manifolds, like lens spaces, particular manifolds, like lens spaces, projective spaces, Brieskorn varieties projective spaces, Brieskorn varieties and algebraic surfaces, and algebraic surfaces, then there's a relation with number And Hirzebruch and Zagier worked out many many of those things and those many many of those things and those again have an echo a little bit later. There's also a theorem with boundary. So remember the Russian school was very remember the R…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_3632",
+    "t_start": 3632.2,
+    "t_end": 3725.3,
+    "type": "overview",
+    "summary": "well, they won't have local boundary conditions because they have no such trivialization of the symbol on the boundary. So, the index, again, once you realize that, the index is again the Swan Care that, the index is again the Swan Care map applied to the relative symbol. Okay. Finally, an important variation for us is the index theorem for for us is the index theorem for families, again, following Grothendieck families, again, following Grothendieck to do geometry over a base. topological theorem, applies to general elliptic operators, but I'll say it here elliptic operators, but I'll say …"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_3725",
+    "t_start": 3725.3,
+    "t_end": 3816.4,
+    "type": "overview",
+    "summary": "agree. In other words, if we take the Dirac operator coupled to E, then the Dirac operator coupled to E, then the index of that family of Dirac operators index of that family of Dirac operators is uh the push forward of that vector Okay. So, again, there are many, many more variations, and I just wanted to more variations, and I just wanted to give some feel, but I do want to turn now to the second theme of the talk, which is the the years after this, starting the late '60s and '70s, really immediately turned from these global immediately turned from these global topological invariants to l…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_3816",
+    "t_start": 3816.4,
+    "t_end": 3909.2,
+    "type": "overview",
+    "summary": "out of the complete spectrum. And that can be encoded also in a zeta uh which appeared, I think, in Ed Witten's talk in this series a couple Witten's talk in this series a couple weeks ago, as well. And those are weeks ago, as well. And those are related by a Mellin transform. So, each of these has a kind of important analytic expression. kind of important analytic expression. For the zeta function, it's the For the zeta function, it's the meromorphic continuation. When you take meromorphic continuation. When you take this trace, it converges as long as the real part of S is uh quite large,…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_3909",
+    "t_start": 3909.2,
+    "t_end": 4000.4,
+    "type": "overview",
+    "summary": "geometric invariants that are made just in the neighborhood of X. So, it just depends on a finite jet of X. Depending on how far we go in the X. Depending on how far we go in the asymptotic expansion, we get a bigger asymptotic expansion, we get a bigger and bigger jet. And these local invariants of the operator, which are these endomorphisms operator, which are these endomorphisms of the fiber, are computed in terms of the operator, as I say, and that gives the heat kernel. Gives the asymptotic expansion for the heat kernel. So, Atiyah and Bott, in their paper about the fixed point theorem…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_4000",
+    "t_start": 4000.4,
+    "t_end": 4091.3,
+    "type": "overview",
+    "summary": "operator isomorphically to the lambda eigenspace for the other one. So, these eigenspaces, in a sense, cancel by the first-order operator P, cancel by the first-order operator P, except for the kernel. And so, if we want the index, we can subtract and get the index, no matter subtract and get the index, no matter how many higher eigenvalues we include. how many higher eigenvalues we include. So, therefore, we get index formulas as long as we include the higher eigenvalues in a convergent way. So, for eigenvalues in a convergent way. So, for example, the zeta function can be used to make a f…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_4091",
+    "t_start": 4091.3,
+    "t_end": 4184.1,
+    "type": "overview",
+    "summary": "Mark Kac, around that time, asked, \"What are the eigenvalues of the Laplace are the eigenvalues of the Laplace operator on a Riemannian manifold tell operator on a Riemannian manifold tell you about the manifold?\" you about the manifold?\" And Hermann Weyl, well, growth of the eigenvalues, which has to do with the leading term here, the A0, that that gives you the volume of X. You can compute the volume from that leading McKean and Singer, in a paper of 1967, they computed the next coefficient that they computed the next coefficient that gives you the scalar curvature. gives you the scalar c…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_4187",
+    "t_start": 4187.1,
+    "t_end": 4280.0,
+    "type": "overview",
+    "summary": "In that case Gauss-Bonnet. So Patodi, So Patodi, um, which you see here, this is the early 70s, Patodi proved, uh, that conjecture and he proved the analog for Riemann-Roch and then it was Gil- for Riemann-Roch and then it was Gil- Gilkey in his thesis who did the same Gilkey in his thesis who did the same for the signature operator. for the signature operator. And, um, Atiyah-Bott and Patodi then wrote an exposition of Gilkey's thesis, that was exposition of Gilkey's thesis, that was Gilkey's thesis and a general local Gilkey's thesis and a general local index theorem. So one way to say it…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_4280",
+    "t_start": 4280.0,
+    "t_end": 4373.0,
+    "type": "overview",
+    "summary": "which may be you don't need. And so the theorem that Gilkey proves And so the theorem that Gilkey proves is that a natural differential form in is that a natural differential form in the sense, which is regular and the sense, which is regular and homogeneous, as long as this weight is homogeneous, as long as this weight is non-negative, then the only non-negative, then the only possibilities are these Chern-Weil forms So that led to the local index theorem, which I guess I didn't write, that we which I guess I didn't write, that we always have that convergence, um, and we can identify then …"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_4372",
+    "t_start": 4373.0,
+    "t_end": 4464.4,
+    "type": "overview",
+    "summary": "then we can integrate the Gauss curvature still over the surface, but curvature still over the surface, but that's not an integer, that's not equal that's not an integer, that's not equal to the Euler number. There's a boundary term that comes in, which is the total geodesic curvature of the boundary. So recall the signature theorem is telling us the signature, for example, of a four manifold is the integral of a certain Chern-Weil form, the Chern-Weil certain Chern-Weil form, the Chern-Weil form of the first Pontryagin class divided by three. And now if you have a manifold with boundary an…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_4464",
+    "t_start": 4464.4,
+    "t_end": 4557.9,
+    "type": "overview",
+    "summary": "condition. So as I said before, there are no local boundary conditions for are no local boundary conditions for Dirac operators and the first example is Dirac operators and the first example is the d-bar operator. the d-bar operator. So if we just look at the operator d by functions on the unit disk just in the complex numbers, then, um, of course, the kernel of that are the holomorphic functions. And so if are the holomorphic functions. And so if we just think of polynomials, we get an we just think of polynomials, we get an infinite dimensional space of infinite dimensional space of holom…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_4557",
+    "t_start": 4557.9,
+    "t_end": 4649.6,
+    "type": "overview",
+    "summary": "that's a global boundary condition. So Atiyah-Bott-Singer introduced that So Atiyah-Bott-Singer introduced that quite generally, for example, for Dirac where what plays the role of, uh, splitting the Fourier series is the operator. So there's a boundary Dirac operator, which is self-adjoint. It has operator, which is self-adjoint. It has a spectrum. That spectrum now goes, a spectrum. That spectrum now goes, uh, from minus infinity to infinity and you cut the spectrum and then, uh, again, ask that the boundary values live again, ask that the boundary values live here. So that's a kind of Fo…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_4649",
+    "t_start": 4649.6,
+    "t_end": 4740.2,
+    "type": "overview",
+    "summary": "And the value at zero, morally if s is zero, is the difference in dimensions of zero, is the difference in dimensions of the positive and negative eigenspaces, the positive and negative eigenspaces, so the spectral asymmetry. And so they proved then that if you put the boundary, uh, conditions, you could the boundary, uh, conditions, you could find, well, first of all, this eta find, well, first of all, this eta invariant for the signature operator is the signature defect, and secondly, if you define the Dirac operator in general you define the Dirac operator in general for having this, uh,…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_4740",
+    "t_start": 4740.2,
+    "t_end": 4835.4,
+    "type": "overview",
+    "summary": "we get this geodesic curvature, which is, um, defined mod ones. So that was generalized in the early 70s So that was generalized in the early 70s by Chern and Simons to give secondary by Chern and Simons to give secondary invariants for all, um, the Chern-Weil invariants for all, um, the Chern-Weil numbers of a manifold built out of, say, And what the eta invariants are then are the corresponding secondary invariants the corresponding secondary invariants in K-theory. So, if you take the index theorem that Atiyah-Patodi-Singer proved, and you reduce mod 1, you get rid of the index, which is…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_4835",
+    "t_start": 4835.4,
+    "t_end": 4925.5,
+    "type": "overview",
+    "summary": "living in well, K minus N if we're in N dimensions, but we're supposed to be in dimensions, but we're supposed to be in odd dimensions here. And so, this index odd dimensions here. And so, this index is in odd K-theory. And this odd K-theory of the base has in a sense a lowest piece. We can pick off a lowest piece, which is an element of H1 with integer an element of H1 with integer coefficients. And what's an element in H1? Well, that's a homotopy class of maps to the that's a homotopy class of maps to the circle. That's what a class in H1 is. So, the topological index gives us this So, th…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_4925",
+    "t_start": 4925.5,
+    "t_end": 5016.0,
+    "type": "overview",
+    "summary": "So, that's a kind of curvature, if you like, the differential of that map. So, this is for a family of odd-dimensional manifolds, and for a odd-dimensional manifolds, and for a family of even-dimensional manifolds, we where we start with the numerical index. That's the lowest piece, class in H0. That's the lowest piece, class in H0. It's a function to the integers, again It's a function to the integers, again locally constant on the base. But now you can also pick off this H2. Really better, we would remember the two Really better, we would remember the two together. And what's a class in H…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_5015",
+    "t_start": 5016.0,
+    "t_end": 5106.9,
+    "type": "overview",
+    "summary": "information, for example, the holonomy. And there's a holonomy formula, which is exactly in terms of these eta invariants, the Atiyah-Patodi-Singer eta invariants, the Atiyah-Patodi-Singer eta invariants. So, here again is a geometric refinement of the topological index theory. of the topological index theory. Now, um that was inspired at this time that these developments of Quillen and so on these developments of Quillen and so on were inspired in the mid '80s by um were inspired in the mid '80s by um a formula of of Witten, which has to do a formula of of Witten, which has to do with anom…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_5106",
+    "t_start": 5106.9,
+    "t_end": 5199.6,
+    "type": "overview",
+    "summary": "equations and many, many things that followed from that. In the '80s, there was a more quantum application, which again uh started with application, which again uh started with uh Atiyah and Singer, and it has to do with anomalies. And maybe I'll just uh And maybe I'll just uh say a word about about that. About what an anomaly is. And just from a more modern point of view, and then uh a more modern point of view, and then uh we'll try to end there. we'll try to end there. So, So, um mechanics, is really projective. We usually say that there's a Hilbert space, a linear space of states, but i…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_5199",
+    "t_start": 5199.6,
+    "t_end": 5291.7,
+    "type": "overview",
+    "summary": "class in some group cohomology, depending on the kind of group, with And so, I just want to point out that we started with a representation, which is started with a representation, which is higher dimensional, non-Abelian group, higher dimensional, non-Abelian group, and we're getting to this group C star. And this obstruction class that's measuring the projectivity is really one degree up, H2 rather than H1. H1 would be just a representation, H1. H1 would be just a representation, but now an Abelian representation, a but now an Abelian representation, a character. this kind of thing is is …"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_5291",
+    "t_start": 5291.7,
+    "t_end": 5382.8,
+    "type": "overview",
+    "summary": "the electron in the Dirac equation, and subsequently, the model for other uh And so, that's the kind of problem that Atiyah and Singer considered that was Atiyah and Singer considered that was very much considered by the physicists very much considered by the physicists at the time. And they pointed out the relation to um to Dirac operators, which of course was already in Dirac, but to the family of Dirac operators by the other parameters in the theory, and to this uh index. And also to the determinant, in fact, of the also to the determinant, in fact, of the index. And so, that story has e…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_5382",
+    "t_start": 5382.8,
+    "t_end": 5475.5,
+    "type": "overview",
+    "summary": "can I will ask you what you wanted to cover since since we now have time a cover since since we now have time a little bit more. I was just going to tell you a um the kind of modern version what followed the kind of modern version what followed from uh this initial link that from uh this initial link that Atiyah-Singer made with the index Atiyah-Singer made with the index theorem with the anomalies of spinner So, just to point out a general formula that uh Mike Hopkins and I gave not so that uh Mike Hopkins and I gave not so long ago for the anomaly of a spinner field. So, if you start with…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_5475",
+    "t_start": 5475.5,
+    "t_end": 5568.1,
+    "type": "overview",
+    "summary": "one and so that's what I said about the anomaly, the projectivity is one degree anomaly, the projectivity is one degree higher than the dimension of the theory. higher than the dimension of the theory. So, it's really a cohomology class of And now the ingredients that go into it are the ones that, as you say, are are the ones that, as you say, are timeless of this index theory. The K-theory, certainly, is part of it. The Atiyah-Bott-Shapiro map that really The Atiyah-Bott-Shapiro map that really is the symbol of the Dirac operator. is the symbol of the Dirac operator. This is the Dirac oper…"
+  },
+  {
+    "id": "ku_video_AJHKp9kYm90_5568",
+    "t_start": 5568.1,
+    "t_end": 5582.2,
+    "type": "overview",
+    "summary": "Thank you. Very nice. Kumaran. Thank you. Hope to see you soon. Likewise. Yeah, soon. Okay, great. Bye. Bye. Take care. Thank you, everybody. Thank you. Stay safe."
+  }
+]

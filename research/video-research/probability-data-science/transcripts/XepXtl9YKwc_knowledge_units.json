@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ku_video_XepXtl9YKwc_9",
+    "t_start": 9.8,
+    "t_end": 100.5,
+    "type": "overview",
+    "summary": "it's bad to the bone. StatQuest, check it out. StatQuest, check it out. It's bad to the bone. Hello, and welcome to StatQuest. StatQuest is brought to you by the friendly folks in the genetics department at the University of North Carolina at Chapel Hill. Today, we're going to be talking about Let's say we weighed a bunch of mice. The goal of maximum likelihood is to The goal of maximum likelihood is to find the optimal way to fit a find the optimal way to fit a distribution to the data. There are lots of different types of distributions for different types of Here's a normal distribution. …"
+  },
+  {
+    "id": "ku_video_XepXtl9YKwc_100",
+    "t_start": 100.5,
+    "t_end": 193.1,
+    "type": "overview",
+    "summary": "set, most of the mice weigh close to the average. We also expect the measurements to be relatively symmetrical around the mean. relatively symmetrical around the mean. Although the measurements are not perfectly symmetrical around the mean, they are not crazy skewed to one side, either. This is pretty good. Normal distributions come in all kinds Normal distributions come in all kinds of shapes and sizes. of shapes and sizes. They can be skinny, They can be skinny, medium, or large-boned. Once we settle on the shape, we have to figure out where to center the thing. figure out where to center…"
+  },
+  {
+    "id": "ku_video_XepXtl9YKwc_193",
+    "t_start": 193.1,
+    "t_end": 285.6,
+    "type": "overview",
+    "summary": "observing these weights is relatively high. If we kept shifting the normal distribution over, then the probability or likelihood of observing these measurements would go observing these measurements would go down again. We can plot the likelihood of observing the data over the location of the center the data over the location of the center of the distribution. We start on the left side and we calculate the likelihood of observing calculate the likelihood of observing the data, and then we shift the distribution to the right and recalculate. We just do this all the way Once we've tried all t…"
+  },
+  {
+    "id": "ku_video_XepXtl9YKwc_285",
+    "t_start": 285.6,
+    "t_end": 373.4,
+    "type": "overview",
+    "summary": "maximizes the likelihood of observing the weights we measured. This is the normal distribution that has been fit to the data by using the been fit to the data by using the maximum likelihood estimations for the maximum likelihood estimations for the mean and the standard deviation. Now, when someone says that they have the maximum likelihood estimates for the the maximum likelihood estimates for the mean or the standard deviation or for you know that they found the value for the mean or the standard deviation or for whatever that maximizes the likelihood that you observed the things likelih…"
+  }
+]

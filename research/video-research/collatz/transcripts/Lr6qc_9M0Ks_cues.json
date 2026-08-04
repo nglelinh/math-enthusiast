@@ -1,0 +1,6392 @@
+[
+  {
+    "t_start": 3.03,
+    "t_end": 3.04,
+    "text": "hi so veritasium just uploaded a video"
+  },
+  {
+    "t_start": 3.04,
+    "t_end": 5.51,
+    "text": "hi so veritasium just uploaded a video on the so-called 3x plus one problem"
+  },
+  {
+    "t_start": 5.51,
+    "t_end": 5.52,
+    "text": "on the so-called 3x plus one problem"
+  },
+  {
+    "t_start": 5.52,
+    "t_end": 8.15,
+    "text": "on the so-called 3x plus one problem here's a snippet from that video of"
+  },
+  {
+    "t_start": 8.15,
+    "t_end": 8.16,
+    "text": "here's a snippet from that video of"
+  },
+  {
+    "t_start": 8.16,
+    "t_end": 8.629,
+    "text": "here's a snippet from that video of course"
+  },
+  {
+    "t_start": 8.629,
+    "t_end": 8.639,
+    "text": "course"
+  },
+  {
+    "t_start": 8.639,
+    "t_end": 11.19,
+    "text": "course there is another option and that is that"
+  },
+  {
+    "t_start": 11.19,
+    "t_end": 11.2,
+    "text": "there is another option and that is that"
+  },
+  {
+    "t_start": 11.2,
+    "t_end": 12.47,
+    "text": "there is another option and that is that we'll never know"
+  },
+  {
+    "t_start": 12.47,
+    "t_end": 12.48,
+    "text": "we'll never know"
+  },
+  {
+    "t_start": 12.48,
+    "t_end": 16.15,
+    "text": "we'll never know that the problem is undecidable in 1987"
+  },
+  {
+    "t_start": 16.15,
+    "t_end": 16.16,
+    "text": "that the problem is undecidable in 1987"
+  },
+  {
+    "t_start": 16.16,
+    "t_end": 18.71,
+    "text": "that the problem is undecidable in 1987 john conway created a generalization of"
+  },
+  {
+    "t_start": 18.71,
+    "t_end": 18.72,
+    "text": "john conway created a generalization of"
+  },
+  {
+    "t_start": 18.72,
+    "t_end": 19.91,
+    "text": "john conway created a generalization of three x plus one"
+  },
+  {
+    "t_start": 19.91,
+    "t_end": 19.92,
+    "text": "three x plus one"
+  },
+  {
+    "t_start": 19.92,
+    "t_end": 21.67,
+    "text": "three x plus one it was a mathematical machine that he"
+  },
+  {
+    "t_start": 21.67,
+    "t_end": 21.68,
+    "text": "it was a mathematical machine that he"
+  },
+  {
+    "t_start": 21.68,
+    "t_end": 23.189,
+    "text": "it was a mathematical machine that he called fractron"
+  },
+  {
+    "t_start": 23.189,
+    "t_end": 23.199,
+    "text": "called fractron"
+  },
+  {
+    "t_start": 23.199,
+    "t_end": 25.83,
+    "text": "called fractron and he was able to show this machine is"
+  },
+  {
+    "t_start": 25.83,
+    "t_end": 25.84,
+    "text": "and he was able to show this machine is"
+  },
+  {
+    "t_start": 25.84,
+    "t_end": 27.269,
+    "text": "and he was able to show this machine is touring complete"
+  },
+  {
+    "t_start": 27.269,
+    "t_end": 27.279,
+    "text": "touring complete"
+  },
+  {
+    "t_start": 27.279,
+    "t_end": 29.509,
+    "text": "touring complete which means it can do anything a modern"
+  },
+  {
+    "t_start": 29.509,
+    "t_end": 29.519,
+    "text": "which means it can do anything a modern"
+  },
+  {
+    "t_start": 29.519,
+    "t_end": 31.029,
+    "text": "which means it can do anything a modern computer can do"
+  },
+  {
+    "t_start": 31.029,
+    "t_end": 31.039,
+    "text": "computer can do"
+  },
+  {
+    "t_start": 31.039,
+    "t_end": 33.03,
+    "text": "computer can do but it also means that it's subject to"
+  },
+  {
+    "t_start": 33.03,
+    "t_end": 33.04,
+    "text": "but it also means that it's subject to"
+  },
+  {
+    "t_start": 33.04,
+    "t_end": 34.229,
+    "text": "but it also means that it's subject to the halting problem"
+  },
+  {
+    "t_start": 34.229,
+    "t_end": 34.239,
+    "text": "the halting problem"
+  },
+  {
+    "t_start": 34.239,
+    "t_end": 36.229,
+    "text": "the halting problem a chance that the machine never stops"
+  },
+  {
+    "t_start": 36.229,
+    "t_end": 36.239,
+    "text": "a chance that the machine never stops"
+  },
+  {
+    "t_start": 36.239,
+    "t_end": 37.99,
+    "text": "a chance that the machine never stops running and so doesn't give you"
+  },
+  {
+    "t_start": 37.99,
+    "t_end": 38.0,
+    "text": "running and so doesn't give you"
+  },
+  {
+    "t_start": 38.0,
+    "t_end": 40.95,
+    "text": "running and so doesn't give you an output and this does not prove that"
+  },
+  {
+    "t_start": 40.95,
+    "t_end": 40.96,
+    "text": "an output and this does not prove that"
+  },
+  {
+    "t_start": 40.96,
+    "t_end": 42.069,
+    "text": "an output and this does not prove that three x plus one is"
+  },
+  {
+    "t_start": 42.069,
+    "t_end": 42.079,
+    "text": "three x plus one is"
+  },
+  {
+    "t_start": 42.079,
+    "t_end": 44.229,
+    "text": "three x plus one is also subject to the halting problem but"
+  },
+  {
+    "t_start": 44.229,
+    "t_end": 44.239,
+    "text": "also subject to the halting problem but"
+  },
+  {
+    "t_start": 44.239,
+    "t_end": 46.47,
+    "text": "also subject to the halting problem but it is possible that given what we know"
+  },
+  {
+    "t_start": 46.47,
+    "t_end": 46.48,
+    "text": "it is possible that given what we know"
+  },
+  {
+    "t_start": 46.48,
+    "t_end": 48.31,
+    "text": "it is possible that given what we know we may never prove the callouts"
+  },
+  {
+    "t_start": 48.31,
+    "t_end": 48.32,
+    "text": "we may never prove the callouts"
+  },
+  {
+    "t_start": 48.32,
+    "t_end": 49.51,
+    "text": "we may never prove the callouts conjecture true"
+  },
+  {
+    "t_start": 49.51,
+    "t_end": 49.52,
+    "text": "conjecture true"
+  },
+  {
+    "t_start": 49.52,
+    "t_end": 52.79,
+    "text": "conjecture true or false okay so i want to discuss"
+  },
+  {
+    "t_start": 52.79,
+    "t_end": 52.8,
+    "text": "or false okay so i want to discuss"
+  },
+  {
+    "t_start": 52.8,
+    "t_end": 55.83,
+    "text": "or false okay so i want to discuss what veritasium said about being subject"
+  },
+  {
+    "t_start": 55.83,
+    "t_end": 55.84,
+    "text": "what veritasium said about being subject"
+  },
+  {
+    "t_start": 55.84,
+    "t_end": 57.51,
+    "text": "what veritasium said about being subject to the halting problem"
+  },
+  {
+    "t_start": 57.51,
+    "t_end": 57.52,
+    "text": "to the halting problem"
+  },
+  {
+    "t_start": 57.52,
+    "t_end": 60.389,
+    "text": "to the halting problem which does not imply that the problem is"
+  },
+  {
+    "t_start": 60.389,
+    "t_end": 60.399,
+    "text": "which does not imply that the problem is"
+  },
+  {
+    "t_start": 60.399,
+    "t_end": 61.75,
+    "text": "which does not imply that the problem is undecidable so"
+  },
+  {
+    "t_start": 61.75,
+    "t_end": 61.76,
+    "text": "undecidable so"
+  },
+  {
+    "t_start": 61.76,
+    "t_end": 63.43,
+    "text": "undecidable so what are all these terms mean so that we"
+  },
+  {
+    "t_start": 63.43,
+    "t_end": 63.44,
+    "text": "what are all these terms mean so that we"
+  },
+  {
+    "t_start": 63.44,
+    "t_end": 65.59,
+    "text": "what are all these terms mean so that we have a consistent definition"
+  },
+  {
+    "t_start": 65.59,
+    "t_end": 65.6,
+    "text": "have a consistent definition"
+  },
+  {
+    "t_start": 65.6,
+    "t_end": 68.71,
+    "text": "have a consistent definition here so undecidable for most practical"
+  },
+  {
+    "t_start": 68.71,
+    "t_end": 68.72,
+    "text": "here so undecidable for most practical"
+  },
+  {
+    "t_start": 68.72,
+    "t_end": 69.83,
+    "text": "here so undecidable for most practical purposes"
+  },
+  {
+    "t_start": 69.83,
+    "t_end": 69.84,
+    "text": "purposes"
+  },
+  {
+    "t_start": 69.84,
+    "t_end": 73.19,
+    "text": "purposes means that there is no algorithm"
+  },
+  {
+    "t_start": 73.19,
+    "t_end": 73.2,
+    "text": "means that there is no algorithm"
+  },
+  {
+    "t_start": 73.2,
+    "t_end": 75.91,
+    "text": "means that there is no algorithm for that particular problem okay so"
+  },
+  {
+    "t_start": 75.91,
+    "t_end": 75.92,
+    "text": "for that particular problem okay so"
+  },
+  {
+    "t_start": 75.92,
+    "t_end": 78.149,
+    "text": "for that particular problem okay so there's just no algorithm to solve this"
+  },
+  {
+    "t_start": 78.149,
+    "t_end": 78.159,
+    "text": "there's just no algorithm to solve this"
+  },
+  {
+    "t_start": 78.159,
+    "t_end": 79.99,
+    "text": "there's just no algorithm to solve this problem whatever that means"
+  },
+  {
+    "t_start": 79.99,
+    "t_end": 80.0,
+    "text": "problem whatever that means"
+  },
+  {
+    "t_start": 80.0,
+    "t_end": 83.19,
+    "text": "problem whatever that means okay so an algorithm"
+  },
+  {
+    "t_start": 83.19,
+    "t_end": 83.2,
+    "text": "okay so an algorithm"
+  },
+  {
+    "t_start": 83.2,
+    "t_end": 85.83,
+    "text": "okay so an algorithm for those who don't know means that"
+  },
+  {
+    "t_start": 85.83,
+    "t_end": 85.84,
+    "text": "for those who don't know means that"
+  },
+  {
+    "t_start": 85.84,
+    "t_end": 88.55,
+    "text": "for those who don't know means that there's some kind of input"
+  },
+  {
+    "t_start": 88.55,
+    "t_end": 88.56,
+    "text": "there's some kind of input"
+  },
+  {
+    "t_start": 88.56,
+    "t_end": 91.99,
+    "text": "there's some kind of input and there's some kind of output"
+  },
+  {
+    "t_start": 91.99,
+    "t_end": 92.0,
+    "text": "and there's some kind of output"
+  },
+  {
+    "t_start": 92.0,
+    "t_end": 95.109,
+    "text": "and there's some kind of output and there's some kind of process in"
+  },
+  {
+    "t_start": 95.109,
+    "t_end": 95.119,
+    "text": "and there's some kind of process in"
+  },
+  {
+    "t_start": 95.119,
+    "t_end": 96.31,
+    "text": "and there's some kind of process in between"
+  },
+  {
+    "t_start": 96.31,
+    "t_end": 96.32,
+    "text": "between"
+  },
+  {
+    "t_start": 96.32,
+    "t_end": 100.31,
+    "text": "between and very importantly that process takes"
+  },
+  {
+    "t_start": 100.31,
+    "t_end": 100.32,
+    "text": "and very importantly that process takes"
+  },
+  {
+    "t_start": 100.32,
+    "t_end": 104.069,
+    "text": "and very importantly that process takes finite time whatever that process is"
+  },
+  {
+    "t_start": 104.069,
+    "t_end": 104.079,
+    "text": "finite time whatever that process is"
+  },
+  {
+    "t_start": 104.079,
+    "t_end": 107.59,
+    "text": "finite time whatever that process is okay so there's a finite input of finite"
+  },
+  {
+    "t_start": 107.59,
+    "t_end": 107.6,
+    "text": "okay so there's a finite input of finite"
+  },
+  {
+    "t_start": 107.6,
+    "t_end": 108.55,
+    "text": "okay so there's a finite input of finite size"
+  },
+  {
+    "t_start": 108.55,
+    "t_end": 108.56,
+    "text": "size"
+  },
+  {
+    "t_start": 108.56,
+    "t_end": 110.789,
+    "text": "size then there's some computational process"
+  },
+  {
+    "t_start": 110.789,
+    "t_end": 110.799,
+    "text": "then there's some computational process"
+  },
+  {
+    "t_start": 110.799,
+    "t_end": 113.03,
+    "text": "then there's some computational process that takes a finite amount of time"
+  },
+  {
+    "t_start": 113.03,
+    "t_end": 113.04,
+    "text": "that takes a finite amount of time"
+  },
+  {
+    "t_start": 113.04,
+    "t_end": 115.109,
+    "text": "that takes a finite amount of time for some definition a finite amount of"
+  },
+  {
+    "t_start": 115.109,
+    "t_end": 115.119,
+    "text": "for some definition a finite amount of"
+  },
+  {
+    "t_start": 115.119,
+    "t_end": 117.27,
+    "text": "for some definition a finite amount of time and then some output is produced"
+  },
+  {
+    "t_start": 117.27,
+    "t_end": 117.28,
+    "text": "time and then some output is produced"
+  },
+  {
+    "t_start": 117.28,
+    "t_end": 120.469,
+    "text": "time and then some output is produced okay so an algorithm"
+  },
+  {
+    "t_start": 120.469,
+    "t_end": 120.479,
+    "text": "okay so an algorithm"
+  },
+  {
+    "t_start": 120.479,
+    "t_end": 123.35,
+    "text": "okay so an algorithm then needs to correctly answer the"
+  },
+  {
+    "t_start": 123.35,
+    "t_end": 123.36,
+    "text": "then needs to correctly answer the"
+  },
+  {
+    "t_start": 123.36,
+    "t_end": 124.389,
+    "text": "then needs to correctly answer the question"
+  },
+  {
+    "t_start": 124.389,
+    "t_end": 124.399,
+    "text": "question"
+  },
+  {
+    "t_start": 124.399,
+    "t_end": 127.429,
+    "text": "question whatever it is for any possible input"
+  },
+  {
+    "t_start": 127.429,
+    "t_end": 127.439,
+    "text": "whatever it is for any possible input"
+  },
+  {
+    "t_start": 127.439,
+    "t_end": 129.43,
+    "text": "whatever it is for any possible input over whatever the space that we're"
+  },
+  {
+    "t_start": 129.43,
+    "t_end": 129.44,
+    "text": "over whatever the space that we're"
+  },
+  {
+    "t_start": 129.44,
+    "t_end": 130.15,
+    "text": "over whatever the space that we're working with"
+  },
+  {
+    "t_start": 130.15,
+    "t_end": 130.16,
+    "text": "working with"
+  },
+  {
+    "t_start": 130.16,
+    "t_end": 133.35,
+    "text": "working with is so what is the three x plus one"
+  },
+  {
+    "t_start": 133.35,
+    "t_end": 133.36,
+    "text": "is so what is the three x plus one"
+  },
+  {
+    "t_start": 133.36,
+    "t_end": 134.309,
+    "text": "is so what is the three x plus one problem"
+  },
+  {
+    "t_start": 134.309,
+    "t_end": 134.319,
+    "text": "problem"
+  },
+  {
+    "t_start": 134.319,
+    "t_end": 137.589,
+    "text": "problem so let's describe that problem"
+  },
+  {
+    "t_start": 137.589,
+    "t_end": 137.599,
+    "text": "so let's describe that problem"
+  },
+  {
+    "t_start": 137.599,
+    "t_end": 141.11,
+    "text": "so let's describe that problem so the input here there's only one input"
+  },
+  {
+    "t_start": 141.11,
+    "t_end": 141.12,
+    "text": "so the input here there's only one input"
+  },
+  {
+    "t_start": 141.12,
+    "t_end": 144.309,
+    "text": "so the input here there's only one input is going to be some number n"
+  },
+  {
+    "t_start": 144.309,
+    "t_end": 144.319,
+    "text": "is going to be some number n"
+  },
+  {
+    "t_start": 144.319,
+    "t_end": 148.15,
+    "text": "is going to be some number n which is going to be an integer"
+  },
+  {
+    "t_start": 149.67,
+    "t_end": 149.68,
+    "text": "so the thing is that there can actually"
+  },
+  {
+    "t_start": 149.68,
+    "t_end": 152.07,
+    "text": "so the thing is that there can actually be multiple ways of representing this"
+  },
+  {
+    "t_start": 152.07,
+    "t_end": 152.08,
+    "text": "be multiple ways of representing this"
+  },
+  {
+    "t_start": 152.08,
+    "t_end": 153.11,
+    "text": "be multiple ways of representing this but this is the way that i'm going to"
+  },
+  {
+    "t_start": 153.11,
+    "t_end": 153.12,
+    "text": "but this is the way that i'm going to"
+  },
+  {
+    "t_start": 153.12,
+    "t_end": 154.15,
+    "text": "but this is the way that i'm going to represent it"
+  },
+  {
+    "t_start": 154.15,
+    "t_end": 154.16,
+    "text": "represent it"
+  },
+  {
+    "t_start": 154.16,
+    "t_end": 156.63,
+    "text": "represent it and then the output here let's say is"
+  },
+  {
+    "t_start": 156.63,
+    "t_end": 156.64,
+    "text": "and then the output here let's say is"
+  },
+  {
+    "t_start": 156.64,
+    "t_end": 159.19,
+    "text": "and then the output here let's say is some kind of boolean"
+  },
+  {
+    "t_start": 159.19,
+    "t_end": 159.2,
+    "text": "some kind of boolean"
+  },
+  {
+    "t_start": 159.2,
+    "t_end": 161.67,
+    "text": "some kind of boolean and we know what the boolean actually"
+  },
+  {
+    "t_start": 161.67,
+    "t_end": 161.68,
+    "text": "and we know what the boolean actually"
+  },
+  {
+    "t_start": 161.68,
+    "t_end": 163.589,
+    "text": "and we know what the boolean actually means but i might as well just describe"
+  },
+  {
+    "t_start": 163.589,
+    "t_end": 163.599,
+    "text": "means but i might as well just describe"
+  },
+  {
+    "t_start": 163.599,
+    "t_end": 166.63,
+    "text": "means but i might as well just describe what it actually means so this boolean"
+  },
+  {
+    "t_start": 166.63,
+    "t_end": 166.64,
+    "text": "what it actually means so this boolean"
+  },
+  {
+    "t_start": 166.64,
+    "t_end": 167.27,
+    "text": "what it actually means so this boolean is going to be"
+  },
+  {
+    "t_start": 167.27,
+    "t_end": 167.28,
+    "text": "is going to be"
+  },
+  {
+    "t_start": 167.28,
+    "t_end": 170.79,
+    "text": "is going to be true if f"
+  },
+  {
+    "t_start": 170.79,
+    "t_end": 170.8,
+    "text": "true if f"
+  },
+  {
+    "t_start": 170.8,
+    "t_end": 172.55,
+    "text": "true if f um actually i'm going to say it this way"
+  },
+  {
+    "t_start": 172.55,
+    "t_end": 172.56,
+    "text": "um actually i'm going to say it this way"
+  },
+  {
+    "t_start": 172.56,
+    "t_end": 176.07,
+    "text": "um actually i'm going to say it this way if the trajectory"
+  },
+  {
+    "t_start": 179.509,
+    "t_end": 179.519,
+    "text": "of n is"
+  },
+  {
+    "t_start": 179.519,
+    "t_end": 184.39,
+    "text": "of n is um reaches one"
+  },
+  {
+    "t_start": 184.39,
+    "t_end": 184.4,
+    "text": "um reaches one"
+  },
+  {
+    "t_start": 184.4,
+    "t_end": 186.79,
+    "text": "um reaches one so what does that mean so the trajectory"
+  },
+  {
+    "t_start": 186.79,
+    "t_end": 186.8,
+    "text": "so what does that mean so the trajectory"
+  },
+  {
+    "t_start": 186.8,
+    "t_end": 189.11,
+    "text": "so what does that mean so the trajectory refers to the collapse trajectory so"
+  },
+  {
+    "t_start": 189.11,
+    "t_end": 189.12,
+    "text": "refers to the collapse trajectory so"
+  },
+  {
+    "t_start": 189.12,
+    "t_end": 191.27,
+    "text": "refers to the collapse trajectory so that's what the 3x plus 1 actually"
+  },
+  {
+    "t_start": 191.27,
+    "t_end": 191.28,
+    "text": "that's what the 3x plus 1 actually"
+  },
+  {
+    "t_start": 191.28,
+    "t_end": 192.71,
+    "text": "that's what the 3x plus 1 actually refers to"
+  },
+  {
+    "t_start": 192.71,
+    "t_end": 192.72,
+    "text": "refers to"
+  },
+  {
+    "t_start": 192.72,
+    "t_end": 195.03,
+    "text": "refers to so the trajectory i'm going to define as"
+  },
+  {
+    "t_start": 195.03,
+    "t_end": 195.04,
+    "text": "so the trajectory i'm going to define as"
+  },
+  {
+    "t_start": 195.04,
+    "t_end": 196.71,
+    "text": "so the trajectory i'm going to define as a function f"
+  },
+  {
+    "t_start": 196.71,
+    "t_end": 196.72,
+    "text": "a function f"
+  },
+  {
+    "t_start": 196.72,
+    "t_end": 199.509,
+    "text": "a function f which is going to be uh defined for some"
+  },
+  {
+    "t_start": 199.509,
+    "t_end": 199.519,
+    "text": "which is going to be uh defined for some"
+  },
+  {
+    "t_start": 199.519,
+    "t_end": 199.99,
+    "text": "which is going to be uh defined for some number"
+  },
+  {
+    "t_start": 199.99,
+    "t_end": 200.0,
+    "text": "number"
+  },
+  {
+    "t_start": 200.0,
+    "t_end": 203.75,
+    "text": "number x to be one of two possibilities which"
+  },
+  {
+    "t_start": 203.75,
+    "t_end": 203.76,
+    "text": "x to be one of two possibilities which"
+  },
+  {
+    "t_start": 203.76,
+    "t_end": 207.27,
+    "text": "x to be one of two possibilities which is three x plus one or x over two"
+  },
+  {
+    "t_start": 207.27,
+    "t_end": 207.28,
+    "text": "is three x plus one or x over two"
+  },
+  {
+    "t_start": 207.28,
+    "t_end": 210.07,
+    "text": "is three x plus one or x over two depending on whether the number x is odd"
+  },
+  {
+    "t_start": 210.07,
+    "t_end": 210.08,
+    "text": "depending on whether the number x is odd"
+  },
+  {
+    "t_start": 210.08,
+    "t_end": 210.789,
+    "text": "depending on whether the number x is odd so"
+  },
+  {
+    "t_start": 210.789,
+    "t_end": 210.799,
+    "text": "so"
+  },
+  {
+    "t_start": 210.799,
+    "t_end": 214.55,
+    "text": "so the the 3x plus 1 case is if"
+  },
+  {
+    "t_start": 214.55,
+    "t_end": 214.56,
+    "text": "the the 3x plus 1 case is if"
+  },
+  {
+    "t_start": 214.56,
+    "t_end": 217.75,
+    "text": "the the 3x plus 1 case is if um if x is odd"
+  },
+  {
+    "t_start": 217.75,
+    "t_end": 217.76,
+    "text": "um if x is odd"
+  },
+  {
+    "t_start": 217.76,
+    "t_end": 221.509,
+    "text": "um if x is odd and then x over 2 if x is even"
+  },
+  {
+    "t_start": 221.509,
+    "t_end": 221.519,
+    "text": "and then x over 2 if x is even"
+  },
+  {
+    "t_start": 221.519,
+    "t_end": 224.949,
+    "text": "and then x over 2 if x is even okay and the trajectory just refers to"
+  },
+  {
+    "t_start": 224.949,
+    "t_end": 224.959,
+    "text": "okay and the trajectory just refers to"
+  },
+  {
+    "t_start": 224.959,
+    "t_end": 227.43,
+    "text": "okay and the trajectory just refers to starting with the number n applying f to"
+  },
+  {
+    "t_start": 227.43,
+    "t_end": 227.44,
+    "text": "starting with the number n applying f to"
+  },
+  {
+    "t_start": 227.44,
+    "t_end": 229.75,
+    "text": "starting with the number n applying f to it the result over and over and over and"
+  },
+  {
+    "t_start": 229.75,
+    "t_end": 229.76,
+    "text": "it the result over and over and over and"
+  },
+  {
+    "t_start": 229.76,
+    "t_end": 230.47,
+    "text": "it the result over and over and over and over"
+  },
+  {
+    "t_start": 230.47,
+    "t_end": 230.48,
+    "text": "over"
+  },
+  {
+    "t_start": 230.48,
+    "t_end": 233.19,
+    "text": "over and if it eventually reaches one then we"
+  },
+  {
+    "t_start": 233.19,
+    "t_end": 233.2,
+    "text": "and if it eventually reaches one then we"
+  },
+  {
+    "t_start": 233.2,
+    "t_end": 234.47,
+    "text": "and if it eventually reaches one then we will say yes"
+  },
+  {
+    "t_start": 234.47,
+    "t_end": 234.48,
+    "text": "will say yes"
+  },
+  {
+    "t_start": 234.48,
+    "t_end": 238.309,
+    "text": "will say yes and then false otherwise okay"
+  },
+  {
+    "t_start": 238.309,
+    "t_end": 238.319,
+    "text": "and then false otherwise okay"
+  },
+  {
+    "t_start": 238.319,
+    "t_end": 241.91,
+    "text": "and then false otherwise okay so the question that we want to answer"
+  },
+  {
+    "t_start": 241.91,
+    "t_end": 241.92,
+    "text": "so the question that we want to answer"
+  },
+  {
+    "t_start": 241.92,
+    "t_end": 242.309,
+    "text": "so the question that we want to answer is"
+  },
+  {
+    "t_start": 242.309,
+    "t_end": 242.319,
+    "text": "is"
+  },
+  {
+    "t_start": 242.319,
+    "t_end": 245.35,
+    "text": "is is there any integer in for which the"
+  },
+  {
+    "t_start": 245.35,
+    "t_end": 245.36,
+    "text": "is there any integer in for which the"
+  },
+  {
+    "t_start": 245.36,
+    "t_end": 245.99,
+    "text": "is there any integer in for which the result"
+  },
+  {
+    "t_start": 245.99,
+    "t_end": 246.0,
+    "text": "result"
+  },
+  {
+    "t_start": 246.0,
+    "t_end": 249.75,
+    "text": "result is false okay so then"
+  },
+  {
+    "t_start": 249.75,
+    "t_end": 249.76,
+    "text": "is false okay so then"
+  },
+  {
+    "t_start": 249.76,
+    "t_end": 253.03,
+    "text": "is false okay so then the question is well how is the out"
+  },
+  {
+    "t_start": 253.03,
+    "t_end": 253.04,
+    "text": "the question is well how is the out"
+  },
+  {
+    "t_start": 253.04,
+    "t_end": 256.55,
+    "text": "the question is well how is the out the problem actually represented here so"
+  },
+  {
+    "t_start": 256.55,
+    "t_end": 256.56,
+    "text": "the problem actually represented here so"
+  },
+  {
+    "t_start": 256.56,
+    "t_end": 260.469,
+    "text": "the problem actually represented here so the thing is that we might be able to"
+  },
+  {
+    "t_start": 260.469,
+    "t_end": 260.479,
+    "text": "the thing is that we might be able to"
+  },
+  {
+    "t_start": 260.479,
+    "t_end": 264.15,
+    "text": "the thing is that we might be able to figure out whether a particular integer"
+  },
+  {
+    "t_start": 264.15,
+    "t_end": 264.16,
+    "text": "figure out whether a particular integer"
+  },
+  {
+    "t_start": 264.16,
+    "t_end": 267.99,
+    "text": "figure out whether a particular integer um gives a true value"
+  },
+  {
+    "t_start": 267.99,
+    "t_end": 268.0,
+    "text": "um gives a true value"
+  },
+  {
+    "t_start": 268.0,
+    "t_end": 271.43,
+    "text": "um gives a true value or not so the question is is there some"
+  },
+  {
+    "t_start": 271.43,
+    "t_end": 271.44,
+    "text": "or not so the question is is there some"
+  },
+  {
+    "t_start": 271.44,
+    "t_end": 273.67,
+    "text": "or not so the question is is there some integer n for which there's a false"
+  },
+  {
+    "t_start": 273.67,
+    "t_end": 273.68,
+    "text": "integer n for which there's a false"
+  },
+  {
+    "t_start": 273.68,
+    "t_end": 275.189,
+    "text": "integer n for which there's a false value that it outputs"
+  },
+  {
+    "t_start": 275.189,
+    "t_end": 275.199,
+    "text": "value that it outputs"
+  },
+  {
+    "t_start": 275.199,
+    "t_end": 277.909,
+    "text": "value that it outputs so one thing that you might try is let's"
+  },
+  {
+    "t_start": 277.909,
+    "t_end": 277.919,
+    "text": "so one thing that you might try is let's"
+  },
+  {
+    "t_start": 277.919,
+    "t_end": 278.55,
+    "text": "so one thing that you might try is let's suppose"
+  },
+  {
+    "t_start": 278.55,
+    "t_end": 278.56,
+    "text": "suppose"
+  },
+  {
+    "t_start": 278.56,
+    "t_end": 282.629,
+    "text": "suppose that suppose and actually i'm going to"
+  },
+  {
+    "t_start": 282.629,
+    "t_end": 282.639,
+    "text": "that suppose and actually i'm going to"
+  },
+  {
+    "t_start": 282.639,
+    "t_end": 285.11,
+    "text": "that suppose and actually i'm going to give this a name so this is going to be"
+  },
+  {
+    "t_start": 285.11,
+    "t_end": 285.12,
+    "text": "give this a name so this is going to be"
+  },
+  {
+    "t_start": 285.12,
+    "t_end": 288.95,
+    "text": "give this a name so this is going to be uh an algorithm i'm going to call single"
+  },
+  {
+    "t_start": 288.95,
+    "t_end": 288.96,
+    "text": "uh an algorithm i'm going to call single"
+  },
+  {
+    "t_start": 288.96,
+    "t_end": 292.629,
+    "text": "uh an algorithm i'm going to call single of n so we're going to suppose that the"
+  },
+  {
+    "t_start": 292.629,
+    "t_end": 292.639,
+    "text": "of n so we're going to suppose that the"
+  },
+  {
+    "t_start": 292.639,
+    "t_end": 293.909,
+    "text": "of n so we're going to suppose that the single"
+  },
+  {
+    "t_start": 293.909,
+    "t_end": 293.919,
+    "text": "single"
+  },
+  {
+    "t_start": 293.919,
+    "t_end": 299.51,
+    "text": "single function the single problem is decidable"
+  },
+  {
+    "t_start": 302.79,
+    "t_end": 302.8,
+    "text": "meaning that there is some algorithm for"
+  },
+  {
+    "t_start": 302.8,
+    "t_end": 304.87,
+    "text": "meaning that there is some algorithm for it"
+  },
+  {
+    "t_start": 304.87,
+    "t_end": 304.88,
+    "text": "it"
+  },
+  {
+    "t_start": 304.88,
+    "t_end": 308.79,
+    "text": "it al for single"
+  },
+  {
+    "t_start": 308.79,
+    "t_end": 308.8,
+    "text": "al for single"
+  },
+  {
+    "t_start": 308.8,
+    "t_end": 311.83,
+    "text": "al for single so for any particular integer n i can"
+  },
+  {
+    "t_start": 311.83,
+    "t_end": 311.84,
+    "text": "so for any particular integer n i can"
+  },
+  {
+    "t_start": 311.84,
+    "t_end": 312.629,
+    "text": "so for any particular integer n i can figure out"
+  },
+  {
+    "t_start": 312.629,
+    "t_end": 312.639,
+    "text": "figure out"
+  },
+  {
+    "t_start": 312.639,
+    "t_end": 314.87,
+    "text": "figure out whether its trajectory actually reaches"
+  },
+  {
+    "t_start": 314.87,
+    "t_end": 314.88,
+    "text": "whether its trajectory actually reaches"
+  },
+  {
+    "t_start": 314.88,
+    "t_end": 315.83,
+    "text": "whether its trajectory actually reaches one"
+  },
+  {
+    "t_start": 315.83,
+    "t_end": 315.84,
+    "text": "one"
+  },
+  {
+    "t_start": 315.84,
+    "t_end": 318.79,
+    "text": "one the problem is that i can figure out"
+  },
+  {
+    "t_start": 318.79,
+    "t_end": 318.8,
+    "text": "the problem is that i can figure out"
+  },
+  {
+    "t_start": 318.8,
+    "t_end": 321.51,
+    "text": "the problem is that i can figure out whether one integer reaches one"
+  },
+  {
+    "t_start": 321.51,
+    "t_end": 321.52,
+    "text": "whether one integer reaches one"
+  },
+  {
+    "t_start": 321.52,
+    "t_end": 323.99,
+    "text": "whether one integer reaches one but i don't know whether there exists"
+  },
+  {
+    "t_start": 323.99,
+    "t_end": 324.0,
+    "text": "but i don't know whether there exists"
+  },
+  {
+    "t_start": 324.0,
+    "t_end": 325.11,
+    "text": "but i don't know whether there exists some number"
+  },
+  {
+    "t_start": 325.11,
+    "t_end": 325.12,
+    "text": "some number"
+  },
+  {
+    "t_start": 325.12,
+    "t_end": 328.31,
+    "text": "some number n for which the trajectory never reaches"
+  },
+  {
+    "t_start": 328.31,
+    "t_end": 328.32,
+    "text": "n for which the trajectory never reaches"
+  },
+  {
+    "t_start": 328.32,
+    "t_end": 330.31,
+    "text": "n for which the trajectory never reaches one whether there's some kind of loop or"
+  },
+  {
+    "t_start": 330.31,
+    "t_end": 330.32,
+    "text": "one whether there's some kind of loop or"
+  },
+  {
+    "t_start": 330.32,
+    "t_end": 331.11,
+    "text": "one whether there's some kind of loop or whether"
+  },
+  {
+    "t_start": 331.11,
+    "t_end": 331.12,
+    "text": "whether"
+  },
+  {
+    "t_start": 331.12,
+    "t_end": 334.39,
+    "text": "whether it goes off to infinity or something"
+  },
+  {
+    "t_start": 334.39,
+    "t_end": 334.4,
+    "text": "it goes off to infinity or something"
+  },
+  {
+    "t_start": 334.4,
+    "t_end": 339.029,
+    "text": "it goes off to infinity or something so this does not imply or"
+  },
+  {
+    "t_start": 339.029,
+    "t_end": 339.039,
+    "text": "so this does not imply or"
+  },
+  {
+    "t_start": 339.039,
+    "t_end": 342.23,
+    "text": "so this does not imply or does not immediately imply that"
+  },
+  {
+    "t_start": 342.23,
+    "t_end": 342.24,
+    "text": "does not immediately imply that"
+  },
+  {
+    "t_start": 342.24,
+    "t_end": 345.35,
+    "text": "does not immediately imply that three x plus one is"
+  },
+  {
+    "t_start": 345.35,
+    "t_end": 345.36,
+    "text": "three x plus one is"
+  },
+  {
+    "t_start": 345.36,
+    "t_end": 348.79,
+    "text": "three x plus one is decidable"
+  },
+  {
+    "t_start": 351.35,
+    "t_end": 351.36,
+    "text": "okay and you may think okay well then"
+  },
+  {
+    "t_start": 351.36,
+    "t_end": 352.629,
+    "text": "okay and you may think okay well then it's undecidable then"
+  },
+  {
+    "t_start": 352.629,
+    "t_end": 352.639,
+    "text": "it's undecidable then"
+  },
+  {
+    "t_start": 352.639,
+    "t_end": 356.15,
+    "text": "it's undecidable then but we can't actually say that so"
+  },
+  {
+    "t_start": 356.15,
+    "t_end": 356.16,
+    "text": "but we can't actually say that so"
+  },
+  {
+    "t_start": 356.16,
+    "t_end": 359.189,
+    "text": "but we can't actually say that so subject to the halting problem is a"
+  },
+  {
+    "t_start": 359.189,
+    "t_end": 359.199,
+    "text": "subject to the halting problem is a"
+  },
+  {
+    "t_start": 359.199,
+    "t_end": 360.55,
+    "text": "subject to the halting problem is a little wishy-washy"
+  },
+  {
+    "t_start": 360.55,
+    "t_end": 360.56,
+    "text": "little wishy-washy"
+  },
+  {
+    "t_start": 360.56,
+    "t_end": 363.27,
+    "text": "little wishy-washy if there was a reduction from the"
+  },
+  {
+    "t_start": 363.27,
+    "t_end": 363.28,
+    "text": "if there was a reduction from the"
+  },
+  {
+    "t_start": 363.28,
+    "t_end": 364.71,
+    "text": "if there was a reduction from the halting problem"
+  },
+  {
+    "t_start": 364.71,
+    "t_end": 364.72,
+    "text": "halting problem"
+  },
+  {
+    "t_start": 364.72,
+    "t_end": 366.23,
+    "text": "halting problem then that would imply that it's"
+  },
+  {
+    "t_start": 366.23,
+    "t_end": 366.24,
+    "text": "then that would imply that it's"
+  },
+  {
+    "t_start": 366.24,
+    "t_end": 367.749,
+    "text": "then that would imply that it's undecidable but"
+  },
+  {
+    "t_start": 367.749,
+    "t_end": 367.759,
+    "text": "undecidable but"
+  },
+  {
+    "t_start": 367.759,
+    "t_end": 370.469,
+    "text": "undecidable but for this specific problem there isn't"
+  },
+  {
+    "t_start": 370.469,
+    "t_end": 370.479,
+    "text": "for this specific problem there isn't"
+  },
+  {
+    "t_start": 370.479,
+    "t_end": 371.59,
+    "text": "for this specific problem there isn't such a reduction"
+  },
+  {
+    "t_start": 371.59,
+    "t_end": 371.6,
+    "text": "such a reduction"
+  },
+  {
+    "t_start": 371.6,
+    "t_end": 374.79,
+    "text": "such a reduction the reference to conway's work is an"
+  },
+  {
+    "t_start": 374.79,
+    "t_end": 374.8,
+    "text": "the reference to conway's work is an"
+  },
+  {
+    "t_start": 374.8,
+    "t_end": 377.11,
+    "text": "the reference to conway's work is an actual reduction from the halting"
+  },
+  {
+    "t_start": 377.11,
+    "t_end": 377.12,
+    "text": "actual reduction from the halting"
+  },
+  {
+    "t_start": 377.12,
+    "t_end": 378.469,
+    "text": "actual reduction from the halting problem and that's why that"
+  },
+  {
+    "t_start": 378.469,
+    "t_end": 378.479,
+    "text": "problem and that's why that"
+  },
+  {
+    "t_start": 378.479,
+    "t_end": 382.07,
+    "text": "problem and that's why that generalized problem is undecidable"
+  },
+  {
+    "t_start": 382.07,
+    "t_end": 382.08,
+    "text": "generalized problem is undecidable"
+  },
+  {
+    "t_start": 382.08,
+    "t_end": 384.629,
+    "text": "generalized problem is undecidable whereas this one may or may not be as"
+  },
+  {
+    "t_start": 384.629,
+    "t_end": 384.639,
+    "text": "whereas this one may or may not be as"
+  },
+  {
+    "t_start": 384.639,
+    "t_end": 386.55,
+    "text": "whereas this one may or may not be as veritasium says"
+  },
+  {
+    "t_start": 386.55,
+    "t_end": 386.56,
+    "text": "veritasium says"
+  },
+  {
+    "t_start": 386.56,
+    "t_end": 389.11,
+    "text": "veritasium says but again it really depends on the"
+  },
+  {
+    "t_start": 389.11,
+    "t_end": 389.12,
+    "text": "but again it really depends on the"
+  },
+  {
+    "t_start": 389.12,
+    "t_end": 389.99,
+    "text": "but again it really depends on the encoding"
+  },
+  {
+    "t_start": 389.99,
+    "t_end": 390.0,
+    "text": "encoding"
+  },
+  {
+    "t_start": 390.0,
+    "t_end": 393.67,
+    "text": "encoding let me give you an example so"
+  },
+  {
+    "t_start": 393.67,
+    "t_end": 393.68,
+    "text": "let me give you an example so"
+  },
+  {
+    "t_start": 393.68,
+    "t_end": 396.07,
+    "text": "let me give you an example so of why the generalized problem can be"
+  },
+  {
+    "t_start": 396.07,
+    "t_end": 396.08,
+    "text": "of why the generalized problem can be"
+  },
+  {
+    "t_start": 396.08,
+    "t_end": 398.39,
+    "text": "of why the generalized problem can be undecidable but the specific problem can"
+  },
+  {
+    "t_start": 398.39,
+    "t_end": 398.4,
+    "text": "undecidable but the specific problem can"
+  },
+  {
+    "t_start": 398.4,
+    "t_end": 399.83,
+    "text": "undecidable but the specific problem can be decidable"
+  },
+  {
+    "t_start": 399.83,
+    "t_end": 399.84,
+    "text": "be decidable"
+  },
+  {
+    "t_start": 399.84,
+    "t_end": 403.35,
+    "text": "be decidable so we he mentioned these things called"
+  },
+  {
+    "t_start": 403.35,
+    "t_end": 403.36,
+    "text": "so we he mentioned these things called"
+  },
+  {
+    "t_start": 403.36,
+    "t_end": 406.15,
+    "text": "so we he mentioned these things called turing machines"
+  },
+  {
+    "t_start": 406.15,
+    "t_end": 406.16,
+    "text": "turing machines"
+  },
+  {
+    "t_start": 406.16,
+    "t_end": 410.07,
+    "text": "turing machines which are these tapes with some cells in"
+  },
+  {
+    "t_start": 410.07,
+    "t_end": 410.08,
+    "text": "which are these tapes with some cells in"
+  },
+  {
+    "t_start": 410.08,
+    "t_end": 410.95,
+    "text": "which are these tapes with some cells in them"
+  },
+  {
+    "t_start": 410.95,
+    "t_end": 410.96,
+    "text": "them"
+  },
+  {
+    "t_start": 410.96,
+    "t_end": 414.15,
+    "text": "them and a tape head that looks at particular"
+  },
+  {
+    "t_start": 414.15,
+    "t_end": 414.16,
+    "text": "and a tape head that looks at particular"
+  },
+  {
+    "t_start": 414.16,
+    "t_end": 415.11,
+    "text": "and a tape head that looks at particular cells"
+  },
+  {
+    "t_start": 415.11,
+    "t_end": 415.12,
+    "text": "cells"
+  },
+  {
+    "t_start": 415.12,
+    "t_end": 417.43,
+    "text": "cells and it moves left to right depending on"
+  },
+  {
+    "t_start": 417.43,
+    "t_end": 417.44,
+    "text": "and it moves left to right depending on"
+  },
+  {
+    "t_start": 417.44,
+    "t_end": 418.55,
+    "text": "and it moves left to right depending on what the cells are"
+  },
+  {
+    "t_start": 418.55,
+    "t_end": 418.56,
+    "text": "what the cells are"
+  },
+  {
+    "t_start": 418.56,
+    "t_end": 420.79,
+    "text": "what the cells are and some finite state control that's"
+  },
+  {
+    "t_start": 420.79,
+    "t_end": 420.8,
+    "text": "and some finite state control that's"
+  },
+  {
+    "t_start": 420.8,
+    "t_end": 422.79,
+    "text": "and some finite state control that's controlling this whole thing"
+  },
+  {
+    "t_start": 422.79,
+    "t_end": 422.8,
+    "text": "controlling this whole thing"
+  },
+  {
+    "t_start": 422.8,
+    "t_end": 425.51,
+    "text": "controlling this whole thing and one of the questions centralized"
+  },
+  {
+    "t_start": 425.51,
+    "t_end": 425.52,
+    "text": "and one of the questions centralized"
+  },
+  {
+    "t_start": 425.52,
+    "t_end": 427.27,
+    "text": "and one of the questions centralized questions"
+  },
+  {
+    "t_start": 427.27,
+    "t_end": 427.28,
+    "text": "questions"
+  },
+  {
+    "t_start": 427.28,
+    "t_end": 432.469,
+    "text": "questions is um well actually i'll call it halt"
+  },
+  {
+    "t_start": 432.469,
+    "t_end": 432.479,
+    "text": "is um well actually i'll call it halt"
+  },
+  {
+    "t_start": 432.479,
+    "t_end": 436.469,
+    "text": "is um well actually i'll call it halt so given some turing machine m"
+  },
+  {
+    "t_start": 436.469,
+    "t_end": 436.479,
+    "text": "so given some turing machine m"
+  },
+  {
+    "t_start": 436.479,
+    "t_end": 439.67,
+    "text": "so given some turing machine m on input let's say w"
+  },
+  {
+    "t_start": 439.67,
+    "t_end": 439.68,
+    "text": "on input let's say w"
+  },
+  {
+    "t_start": 439.68,
+    "t_end": 442.71,
+    "text": "on input let's say w does m halt"
+  },
+  {
+    "t_start": 442.71,
+    "t_end": 442.72,
+    "text": "does m halt"
+  },
+  {
+    "t_start": 442.72,
+    "t_end": 446.469,
+    "text": "does m halt or stop on w so there are special states"
+  },
+  {
+    "t_start": 446.469,
+    "t_end": 446.479,
+    "text": "or stop on w so there are special states"
+  },
+  {
+    "t_start": 446.479,
+    "t_end": 447.029,
+    "text": "or stop on w so there are special states that"
+  },
+  {
+    "t_start": 447.029,
+    "t_end": 447.039,
+    "text": "that"
+  },
+  {
+    "t_start": 447.039,
+    "t_end": 449.83,
+    "text": "that if you enter them will have the machine"
+  },
+  {
+    "t_start": 449.83,
+    "t_end": 449.84,
+    "text": "if you enter them will have the machine"
+  },
+  {
+    "t_start": 449.84,
+    "t_end": 451.029,
+    "text": "if you enter them will have the machine automatically stop"
+  },
+  {
+    "t_start": 451.029,
+    "t_end": 451.039,
+    "text": "automatically stop"
+  },
+  {
+    "t_start": 451.039,
+    "t_end": 453.27,
+    "text": "automatically stop and so what we want to know is when we"
+  },
+  {
+    "t_start": 453.27,
+    "t_end": 453.28,
+    "text": "and so what we want to know is when we"
+  },
+  {
+    "t_start": 453.28,
+    "t_end": 455.83,
+    "text": "and so what we want to know is when we start this machine up on this input w"
+  },
+  {
+    "t_start": 455.83,
+    "t_end": 455.84,
+    "text": "start this machine up on this input w"
+  },
+  {
+    "t_start": 455.84,
+    "t_end": 458.55,
+    "text": "start this machine up on this input w do we ever hit one of those halt states"
+  },
+  {
+    "t_start": 458.55,
+    "t_end": 458.56,
+    "text": "do we ever hit one of those halt states"
+  },
+  {
+    "t_start": 458.56,
+    "t_end": 460.07,
+    "text": "do we ever hit one of those halt states and this problem"
+  },
+  {
+    "t_start": 460.07,
+    "t_end": 460.08,
+    "text": "and this problem"
+  },
+  {
+    "t_start": 460.08,
+    "t_end": 461.83,
+    "text": "and this problem um and i've done it on the channel many"
+  },
+  {
+    "t_start": 461.83,
+    "t_end": 461.84,
+    "text": "um and i've done it on the channel many"
+  },
+  {
+    "t_start": 461.84,
+    "t_end": 464.869,
+    "text": "um and i've done it on the channel many times is undecidable that one actually"
+  },
+  {
+    "t_start": 464.869,
+    "t_end": 464.879,
+    "text": "times is undecidable that one actually"
+  },
+  {
+    "t_start": 464.879,
+    "t_end": 466.469,
+    "text": "times is undecidable that one actually is undecidable"
+  },
+  {
+    "t_start": 466.469,
+    "t_end": 466.479,
+    "text": "is undecidable"
+  },
+  {
+    "t_start": 466.479,
+    "t_end": 469.749,
+    "text": "is undecidable okay provably but let's"
+  },
+  {
+    "t_start": 469.749,
+    "t_end": 469.759,
+    "text": "okay provably but let's"
+  },
+  {
+    "t_start": 469.759,
+    "t_end": 473.11,
+    "text": "okay provably but let's consider a variant so this is something"
+  },
+  {
+    "t_start": 473.11,
+    "t_end": 473.12,
+    "text": "consider a variant so this is something"
+  },
+  {
+    "t_start": 473.12,
+    "t_end": 478.39,
+    "text": "consider a variant so this is something called a linear bounded automaton"
+  },
+  {
+    "t_start": 478.39,
+    "t_end": 478.4,
+    "text": "called a linear bounded automaton"
+  },
+  {
+    "t_start": 478.4,
+    "t_end": 481.589,
+    "text": "called a linear bounded automaton so what is a linear bounded automaton so"
+  },
+  {
+    "t_start": 481.589,
+    "t_end": 481.599,
+    "text": "so what is a linear bounded automaton so"
+  },
+  {
+    "t_start": 481.599,
+    "t_end": 482.15,
+    "text": "so what is a linear bounded automaton so it's this"
+  },
+  {
+    "t_start": 482.15,
+    "t_end": 482.16,
+    "text": "it's this"
+  },
+  {
+    "t_start": 482.16,
+    "t_end": 485.029,
+    "text": "it's this exact same thing as a turing machine so"
+  },
+  {
+    "t_start": 485.029,
+    "t_end": 485.039,
+    "text": "exact same thing as a turing machine so"
+  },
+  {
+    "t_start": 485.039,
+    "t_end": 487.189,
+    "text": "exact same thing as a turing machine so we have some tape and some cells"
+  },
+  {
+    "t_start": 487.189,
+    "t_end": 487.199,
+    "text": "we have some tape and some cells"
+  },
+  {
+    "t_start": 487.199,
+    "t_end": 490.39,
+    "text": "we have some tape and some cells and we have again the tape head there"
+  },
+  {
+    "t_start": 490.39,
+    "t_end": 490.4,
+    "text": "and we have again the tape head there"
+  },
+  {
+    "t_start": 490.4,
+    "t_end": 493.189,
+    "text": "and we have again the tape head there but here we are going to have the the"
+  },
+  {
+    "t_start": 493.189,
+    "t_end": 493.199,
+    "text": "but here we are going to have the the"
+  },
+  {
+    "t_start": 493.199,
+    "t_end": 493.589,
+    "text": "but here we are going to have the the tape"
+  },
+  {
+    "t_start": 493.589,
+    "t_end": 493.599,
+    "text": "tape"
+  },
+  {
+    "t_start": 493.599,
+    "t_end": 496.869,
+    "text": "tape be fixed in size so the"
+  },
+  {
+    "t_start": 496.869,
+    "t_end": 496.879,
+    "text": "be fixed in size so the"
+  },
+  {
+    "t_start": 496.879,
+    "t_end": 500.629,
+    "text": "be fixed in size so the string w here is occupying"
+  },
+  {
+    "t_start": 500.629,
+    "t_end": 500.639,
+    "text": "string w here is occupying"
+  },
+  {
+    "t_start": 500.639,
+    "t_end": 503.27,
+    "text": "string w here is occupying at least at the start the cells of the"
+  },
+  {
+    "t_start": 503.27,
+    "t_end": 503.28,
+    "text": "at least at the start the cells of the"
+  },
+  {
+    "t_start": 503.28,
+    "t_end": 504.309,
+    "text": "at least at the start the cells of the tape"
+  },
+  {
+    "t_start": 504.309,
+    "t_end": 504.319,
+    "text": "tape"
+  },
+  {
+    "t_start": 504.319,
+    "t_end": 507.35,
+    "text": "tape and we have two additional cells at the"
+  },
+  {
+    "t_start": 507.35,
+    "t_end": 507.36,
+    "text": "and we have two additional cells at the"
+  },
+  {
+    "t_start": 507.36,
+    "t_end": 508.23,
+    "text": "and we have two additional cells at the end"
+  },
+  {
+    "t_start": 508.23,
+    "t_end": 508.24,
+    "text": "end"
+  },
+  {
+    "t_start": 508.24,
+    "t_end": 510.309,
+    "text": "end which i'm going to have special symbols"
+  },
+  {
+    "t_start": 510.309,
+    "t_end": 510.319,
+    "text": "which i'm going to have special symbols"
+  },
+  {
+    "t_start": 510.319,
+    "t_end": 511.67,
+    "text": "which i'm going to have special symbols there although it's not important what"
+  },
+  {
+    "t_start": 511.67,
+    "t_end": 511.68,
+    "text": "there although it's not important what"
+  },
+  {
+    "t_start": 511.68,
+    "t_end": 512.389,
+    "text": "there although it's not important what they are"
+  },
+  {
+    "t_start": 512.389,
+    "t_end": 512.399,
+    "text": "they are"
+  },
+  {
+    "t_start": 512.399,
+    "t_end": 515.99,
+    "text": "they are to denote the ends of the the input"
+  },
+  {
+    "t_start": 515.99,
+    "t_end": 516.0,
+    "text": "to denote the ends of the the input"
+  },
+  {
+    "t_start": 516.0,
+    "t_end": 519.11,
+    "text": "to denote the ends of the the input and the question here i'm going to call"
+  },
+  {
+    "t_start": 519.11,
+    "t_end": 519.12,
+    "text": "and the question here i'm going to call"
+  },
+  {
+    "t_start": 519.12,
+    "t_end": 522.63,
+    "text": "and the question here i'm going to call halt 4 lbas"
+  },
+  {
+    "t_start": 522.63,
+    "t_end": 522.64,
+    "text": "halt 4 lbas"
+  },
+  {
+    "t_start": 522.64,
+    "t_end": 526.389,
+    "text": "halt 4 lbas is given some lba"
+  },
+  {
+    "t_start": 526.389,
+    "t_end": 526.399,
+    "text": "is given some lba"
+  },
+  {
+    "t_start": 526.399,
+    "t_end": 530.07,
+    "text": "is given some lba and a string w does"
+  },
+  {
+    "t_start": 530.07,
+    "t_end": 530.08,
+    "text": "and a string w does"
+  },
+  {
+    "t_start": 530.08,
+    "t_end": 534.47,
+    "text": "and a string w does this lba i'm going to call m halt"
+  },
+  {
+    "t_start": 534.47,
+    "t_end": 534.48,
+    "text": "this lba i'm going to call m halt"
+  },
+  {
+    "t_start": 534.48,
+    "t_end": 538.79,
+    "text": "this lba i'm going to call m halt on w and this one is decidable"
+  },
+  {
+    "t_start": 538.79,
+    "t_end": 538.8,
+    "text": "on w and this one is decidable"
+  },
+  {
+    "t_start": 538.8,
+    "t_end": 543.269,
+    "text": "on w and this one is decidable because um if we have"
+  },
+  {
+    "t_start": 543.269,
+    "t_end": 543.279,
+    "text": "because um if we have"
+  },
+  {
+    "t_start": 543.279,
+    "t_end": 546.949,
+    "text": "because um if we have so let's say that the length of w is n"
+  },
+  {
+    "t_start": 546.949,
+    "t_end": 546.959,
+    "text": "so let's say that the length of w is n"
+  },
+  {
+    "t_start": 546.959,
+    "t_end": 549.829,
+    "text": "so let's say that the length of w is n so because we can't allocate additional"
+  },
+  {
+    "t_start": 549.829,
+    "t_end": 549.839,
+    "text": "so because we can't allocate additional"
+  },
+  {
+    "t_start": 549.839,
+    "t_end": 551.03,
+    "text": "so because we can't allocate additional cells here"
+  },
+  {
+    "t_start": 551.03,
+    "t_end": 551.04,
+    "text": "cells here"
+  },
+  {
+    "t_start": 551.04,
+    "t_end": 553.03,
+    "text": "cells here that means that and there are finite"
+  },
+  {
+    "t_start": 553.03,
+    "t_end": 553.04,
+    "text": "that means that and there are finite"
+  },
+  {
+    "t_start": 553.04,
+    "t_end": 554.79,
+    "text": "that means that and there are finite number of things that can appear in each"
+  },
+  {
+    "t_start": 554.79,
+    "t_end": 554.8,
+    "text": "number of things that can appear in each"
+  },
+  {
+    "t_start": 554.8,
+    "t_end": 555.67,
+    "text": "number of things that can appear in each cell"
+  },
+  {
+    "t_start": 555.67,
+    "t_end": 555.68,
+    "text": "cell"
+  },
+  {
+    "t_start": 555.68,
+    "t_end": 559.11,
+    "text": "cell there are a finite number"
+  },
+  {
+    "t_start": 559.11,
+    "t_end": 559.12,
+    "text": "there are a finite number"
+  },
+  {
+    "t_start": 559.12,
+    "t_end": 562.31,
+    "text": "there are a finite number of configurations of this"
+  },
+  {
+    "t_start": 562.31,
+    "t_end": 562.32,
+    "text": "of configurations of this"
+  },
+  {
+    "t_start": 562.32,
+    "t_end": 565.59,
+    "text": "of configurations of this lba in total and so what we can do"
+  },
+  {
+    "t_start": 565.59,
+    "t_end": 565.6,
+    "text": "lba in total and so what we can do"
+  },
+  {
+    "t_start": 565.6,
+    "t_end": 568.79,
+    "text": "lba in total and so what we can do is simulate this lba for that amount of"
+  },
+  {
+    "t_start": 568.79,
+    "t_end": 568.8,
+    "text": "is simulate this lba for that amount of"
+  },
+  {
+    "t_start": 568.8,
+    "t_end": 569.19,
+    "text": "is simulate this lba for that amount of time"
+  },
+  {
+    "t_start": 569.19,
+    "t_end": 569.2,
+    "text": "time"
+  },
+  {
+    "t_start": 569.2,
+    "t_end": 571.19,
+    "text": "time and if it hasn't stopped at this point"
+  },
+  {
+    "t_start": 571.19,
+    "t_end": 571.2,
+    "text": "and if it hasn't stopped at this point"
+  },
+  {
+    "t_start": 571.2,
+    "t_end": 572.87,
+    "text": "and if it hasn't stopped at this point it never will stop"
+  },
+  {
+    "t_start": 572.87,
+    "t_end": 572.88,
+    "text": "it never will stop"
+  },
+  {
+    "t_start": 572.88,
+    "t_end": 574.63,
+    "text": "it never will stop because it must have repeated the"
+  },
+  {
+    "t_start": 574.63,
+    "t_end": 574.64,
+    "text": "because it must have repeated the"
+  },
+  {
+    "t_start": 574.64,
+    "t_end": 576.55,
+    "text": "because it must have repeated the configuration at some point"
+  },
+  {
+    "t_start": 576.55,
+    "t_end": 576.56,
+    "text": "configuration at some point"
+  },
+  {
+    "t_start": 576.56,
+    "t_end": 579.75,
+    "text": "configuration at some point okay so the generalized problem here i'm"
+  },
+  {
+    "t_start": 579.75,
+    "t_end": 579.76,
+    "text": "okay so the generalized problem here i'm"
+  },
+  {
+    "t_start": 579.76,
+    "t_end": 580.79,
+    "text": "okay so the generalized problem here i'm going to call halt"
+  },
+  {
+    "t_start": 580.79,
+    "t_end": 580.8,
+    "text": "going to call halt"
+  },
+  {
+    "t_start": 580.8,
+    "t_end": 583.91,
+    "text": "going to call halt is undecidable but since an lba"
+  },
+  {
+    "t_start": 583.91,
+    "t_end": 583.92,
+    "text": "is undecidable but since an lba"
+  },
+  {
+    "t_start": 583.92,
+    "t_end": 585.99,
+    "text": "is undecidable but since an lba already is a turing machine that just"
+  },
+  {
+    "t_start": 585.99,
+    "t_end": 586.0,
+    "text": "already is a turing machine that just"
+  },
+  {
+    "t_start": 586.0,
+    "t_end": 587.19,
+    "text": "already is a turing machine that just happens to have special"
+  },
+  {
+    "t_start": 587.19,
+    "t_end": 587.2,
+    "text": "happens to have special"
+  },
+  {
+    "t_start": 587.2,
+    "t_end": 590.949,
+    "text": "happens to have special behavior is decidable"
+  },
+  {
+    "t_start": 590.949,
+    "t_end": 590.959,
+    "text": "behavior is decidable"
+  },
+  {
+    "t_start": 590.959,
+    "t_end": 594.47,
+    "text": "behavior is decidable so that of course does not mean that"
+  },
+  {
+    "t_start": 594.47,
+    "t_end": 594.48,
+    "text": "so that of course does not mean that"
+  },
+  {
+    "t_start": 594.48,
+    "t_end": 597.67,
+    "text": "so that of course does not mean that three x plus one is undecidable or"
+  },
+  {
+    "t_start": 597.67,
+    "t_end": 597.68,
+    "text": "three x plus one is undecidable or"
+  },
+  {
+    "t_start": 597.68,
+    "t_end": 600.31,
+    "text": "three x plus one is undecidable or or decidable or not i'm claiming here"
+  },
+  {
+    "t_start": 600.31,
+    "t_end": 600.32,
+    "text": "or decidable or not i'm claiming here"
+  },
+  {
+    "t_start": 600.32,
+    "t_end": 600.87,
+    "text": "or decidable or not i'm claiming here that it's"
+  },
+  {
+    "t_start": 600.87,
+    "t_end": 600.88,
+    "text": "that it's"
+  },
+  {
+    "t_start": 600.88,
+    "t_end": 603.67,
+    "text": "that it's not undecidable which means that it is"
+  },
+  {
+    "t_start": 603.67,
+    "t_end": 603.68,
+    "text": "not undecidable which means that it is"
+  },
+  {
+    "t_start": 603.68,
+    "t_end": 605.19,
+    "text": "not undecidable which means that it is decidable"
+  },
+  {
+    "t_start": 605.19,
+    "t_end": 605.2,
+    "text": "decidable"
+  },
+  {
+    "t_start": 605.2,
+    "t_end": 608.63,
+    "text": "decidable under certain definitions of what it"
+  },
+  {
+    "t_start": 608.63,
+    "t_end": 608.64,
+    "text": "under certain definitions of what it"
+  },
+  {
+    "t_start": 608.64,
+    "t_end": 611.03,
+    "text": "under certain definitions of what it means to represent this problem"
+  },
+  {
+    "t_start": 611.03,
+    "t_end": 611.04,
+    "text": "means to represent this problem"
+  },
+  {
+    "t_start": 611.04,
+    "t_end": 614.63,
+    "text": "means to represent this problem okay so here if we represent this"
+  },
+  {
+    "t_start": 614.63,
+    "t_end": 614.64,
+    "text": "okay so here if we represent this"
+  },
+  {
+    "t_start": 614.64,
+    "t_end": 616.71,
+    "text": "okay so here if we represent this problem in a different way"
+  },
+  {
+    "t_start": 616.71,
+    "t_end": 616.72,
+    "text": "problem in a different way"
+  },
+  {
+    "t_start": 616.72,
+    "t_end": 619.75,
+    "text": "problem in a different way then it is decidable but if we represent"
+  },
+  {
+    "t_start": 619.75,
+    "t_end": 619.76,
+    "text": "then it is decidable but if we represent"
+  },
+  {
+    "t_start": 619.76,
+    "t_end": 621.829,
+    "text": "then it is decidable but if we represent it in this particular way"
+  },
+  {
+    "t_start": 621.829,
+    "t_end": 621.839,
+    "text": "it in this particular way"
+  },
+  {
+    "t_start": 621.839,
+    "t_end": 624.87,
+    "text": "it in this particular way it may or may not be decidable"
+  },
+  {
+    "t_start": 624.87,
+    "t_end": 624.88,
+    "text": "it may or may not be decidable"
+  },
+  {
+    "t_start": 624.88,
+    "t_end": 628.389,
+    "text": "it may or may not be decidable in a certain sense so let me give you"
+  },
+  {
+    "t_start": 628.389,
+    "t_end": 628.399,
+    "text": "in a certain sense so let me give you"
+  },
+  {
+    "t_start": 628.399,
+    "t_end": 631.43,
+    "text": "in a certain sense so let me give you um a proof quote unquote so this is a"
+  },
+  {
+    "t_start": 631.43,
+    "t_end": 631.44,
+    "text": "um a proof quote unquote so this is a"
+  },
+  {
+    "t_start": 631.44,
+    "t_end": 632.949,
+    "text": "um a proof quote unquote so this is a proof"
+  },
+  {
+    "t_start": 632.949,
+    "t_end": 632.959,
+    "text": "proof"
+  },
+  {
+    "t_start": 632.959,
+    "t_end": 636.47,
+    "text": "proof that the three x plus one problem"
+  },
+  {
+    "t_start": 636.47,
+    "t_end": 636.48,
+    "text": "that the three x plus one problem"
+  },
+  {
+    "t_start": 636.48,
+    "t_end": 640.23,
+    "text": "that the three x plus one problem is decidable"
+  },
+  {
+    "t_start": 642.87,
+    "t_end": 642.88,
+    "text": "and it's actually very very short so"
+  },
+  {
+    "t_start": 642.88,
+    "t_end": 643.91,
+    "text": "and it's actually very very short so what i'm going to do is i'm going to"
+  },
+  {
+    "t_start": 643.91,
+    "t_end": 643.92,
+    "text": "what i'm going to do is i'm going to"
+  },
+  {
+    "t_start": 643.92,
+    "t_end": 645.829,
+    "text": "what i'm going to do is i'm going to define a language so if you don't know"
+  },
+  {
+    "t_start": 645.829,
+    "t_end": 645.839,
+    "text": "define a language so if you don't know"
+  },
+  {
+    "t_start": 645.839,
+    "t_end": 648.63,
+    "text": "define a language so if you don't know what that is that's a set of strings"
+  },
+  {
+    "t_start": 648.63,
+    "t_end": 648.64,
+    "text": "what that is that's a set of strings"
+  },
+  {
+    "t_start": 648.64,
+    "t_end": 650.87,
+    "text": "what that is that's a set of strings and it's going to be one of two"
+  },
+  {
+    "t_start": 650.87,
+    "t_end": 650.88,
+    "text": "and it's going to be one of two"
+  },
+  {
+    "t_start": 650.88,
+    "t_end": 651.829,
+    "text": "and it's going to be one of two possibilities"
+  },
+  {
+    "t_start": 651.829,
+    "t_end": 651.839,
+    "text": "possibilities"
+  },
+  {
+    "t_start": 651.839,
+    "t_end": 655.19,
+    "text": "possibilities so it's going to be zero or one and it's"
+  },
+  {
+    "t_start": 655.19,
+    "t_end": 655.2,
+    "text": "so it's going to be zero or one and it's"
+  },
+  {
+    "t_start": 655.2,
+    "t_end": 656.15,
+    "text": "so it's going to be zero or one and it's going to be the"
+  },
+  {
+    "t_start": 656.15,
+    "t_end": 656.16,
+    "text": "going to be the"
+  },
+  {
+    "t_start": 656.16,
+    "t_end": 660.949,
+    "text": "going to be the zero case uh otherwise"
+  },
+  {
+    "t_start": 660.949,
+    "t_end": 660.959,
+    "text": "zero case uh otherwise"
+  },
+  {
+    "t_start": 660.959,
+    "t_end": 662.79,
+    "text": "zero case uh otherwise the opposite condition of what the 1 is"
+  },
+  {
+    "t_start": 662.79,
+    "t_end": 662.8,
+    "text": "the opposite condition of what the 1 is"
+  },
+  {
+    "t_start": 662.8,
+    "t_end": 664.87,
+    "text": "the opposite condition of what the 1 is going to be and then the one condition"
+  },
+  {
+    "t_start": 664.87,
+    "t_end": 664.88,
+    "text": "going to be and then the one condition"
+  },
+  {
+    "t_start": 664.88,
+    "t_end": 668.31,
+    "text": "going to be and then the one condition is going to be if the 3"
+  },
+  {
+    "t_start": 668.31,
+    "t_end": 668.32,
+    "text": "is going to be if the 3"
+  },
+  {
+    "t_start": 668.32,
+    "t_end": 673.19,
+    "text": "is going to be if the 3 x plus 1 conjecture"
+  },
+  {
+    "t_start": 676.63,
+    "t_end": 676.64,
+    "text": "is true so if this"
+  },
+  {
+    "t_start": 676.64,
+    "t_end": 679.91,
+    "text": "is true so if this conjecture is true i i.e"
+  },
+  {
+    "t_start": 679.91,
+    "t_end": 679.92,
+    "text": "conjecture is true i i.e"
+  },
+  {
+    "t_start": 679.92,
+    "t_end": 682.47,
+    "text": "conjecture is true i i.e all of the the trajectories eventually"
+  },
+  {
+    "t_start": 682.47,
+    "t_end": 682.48,
+    "text": "all of the the trajectories eventually"
+  },
+  {
+    "t_start": 682.48,
+    "t_end": 683.35,
+    "text": "all of the the trajectories eventually reach one"
+  },
+  {
+    "t_start": 683.35,
+    "t_end": 683.36,
+    "text": "reach one"
+  },
+  {
+    "t_start": 683.36,
+    "t_end": 685.509,
+    "text": "reach one then this language is going to be set to"
+  },
+  {
+    "t_start": 685.509,
+    "t_end": 685.519,
+    "text": "then this language is going to be set to"
+  },
+  {
+    "t_start": 685.519,
+    "t_end": 686.79,
+    "text": "then this language is going to be set to one okay"
+  },
+  {
+    "t_start": 686.79,
+    "t_end": 686.8,
+    "text": "one okay"
+  },
+  {
+    "t_start": 686.8,
+    "t_end": 690.55,
+    "text": "one okay so i'm representing this language"
+  },
+  {
+    "t_start": 690.55,
+    "t_end": 690.56,
+    "text": "so i'm representing this language"
+  },
+  {
+    "t_start": 690.56,
+    "t_end": 694.23,
+    "text": "so i'm representing this language as a set of strings either zero or one"
+  },
+  {
+    "t_start": 694.23,
+    "t_end": 694.24,
+    "text": "as a set of strings either zero or one"
+  },
+  {
+    "t_start": 694.24,
+    "t_end": 696.23,
+    "text": "as a set of strings either zero or one depending on whether the conjecture is"
+  },
+  {
+    "t_start": 696.23,
+    "t_end": 696.24,
+    "text": "depending on whether the conjecture is"
+  },
+  {
+    "t_start": 696.24,
+    "t_end": 697.43,
+    "text": "depending on whether the conjecture is true okay"
+  },
+  {
+    "t_start": 697.43,
+    "t_end": 697.44,
+    "text": "true okay"
+  },
+  {
+    "t_start": 697.44,
+    "t_end": 699.59,
+    "text": "true okay so it's either the case that the"
+  },
+  {
+    "t_start": 699.59,
+    "t_end": 699.6,
+    "text": "so it's either the case that the"
+  },
+  {
+    "t_start": 699.6,
+    "t_end": 701.43,
+    "text": "so it's either the case that the conjecture is true or it isn't"
+  },
+  {
+    "t_start": 701.43,
+    "t_end": 701.44,
+    "text": "conjecture is true or it isn't"
+  },
+  {
+    "t_start": 701.44,
+    "t_end": 704.389,
+    "text": "conjecture is true or it isn't it's not some weird combination of like"
+  },
+  {
+    "t_start": 704.389,
+    "t_end": 704.399,
+    "text": "it's not some weird combination of like"
+  },
+  {
+    "t_start": 704.399,
+    "t_end": 706.31,
+    "text": "it's not some weird combination of like true and false or whatever"
+  },
+  {
+    "t_start": 706.31,
+    "t_end": 706.32,
+    "text": "true and false or whatever"
+  },
+  {
+    "t_start": 706.32,
+    "t_end": 709.509,
+    "text": "true and false or whatever it either is true or it is not true"
+  },
+  {
+    "t_start": 709.509,
+    "t_end": 709.519,
+    "text": "it either is true or it is not true"
+  },
+  {
+    "t_start": 709.519,
+    "t_end": 711.19,
+    "text": "it either is true or it is not true because it's just a statement about"
+  },
+  {
+    "t_start": 711.19,
+    "t_end": 711.2,
+    "text": "because it's just a statement about"
+  },
+  {
+    "t_start": 711.2,
+    "t_end": 712.949,
+    "text": "because it's just a statement about integers okay"
+  },
+  {
+    "t_start": 712.949,
+    "t_end": 712.959,
+    "text": "integers okay"
+  },
+  {
+    "t_start": 712.959,
+    "t_end": 715.99,
+    "text": "integers okay um although the truth of that is"
+  },
+  {
+    "t_start": 715.99,
+    "t_end": 716.0,
+    "text": "um although the truth of that is"
+  },
+  {
+    "t_start": 716.0,
+    "t_end": 717.43,
+    "text": "um although the truth of that is actually much more complicated that i'm"
+  },
+  {
+    "t_start": 717.43,
+    "t_end": 717.44,
+    "text": "actually much more complicated that i'm"
+  },
+  {
+    "t_start": 717.44,
+    "t_end": 717.829,
+    "text": "actually much more complicated that i'm making"
+  },
+  {
+    "t_start": 717.829,
+    "t_end": 717.839,
+    "text": "making"
+  },
+  {
+    "t_start": 717.839,
+    "t_end": 719.99,
+    "text": "making out here there's a reddit discussion i'm"
+  },
+  {
+    "t_start": 719.99,
+    "t_end": 720.0,
+    "text": "out here there's a reddit discussion i'm"
+  },
+  {
+    "t_start": 720.0,
+    "t_end": 721.509,
+    "text": "out here there's a reddit discussion i'm going to link in the video description"
+  },
+  {
+    "t_start": 721.509,
+    "t_end": 721.519,
+    "text": "going to link in the video description"
+  },
+  {
+    "t_start": 721.519,
+    "t_end": 723.59,
+    "text": "going to link in the video description about this but the thing is this"
+  },
+  {
+    "t_start": 723.59,
+    "t_end": 723.6,
+    "text": "about this but the thing is this"
+  },
+  {
+    "t_start": 723.6,
+    "t_end": 724.87,
+    "text": "about this but the thing is this conjecture is either"
+  },
+  {
+    "t_start": 724.87,
+    "t_end": 724.88,
+    "text": "conjecture is either"
+  },
+  {
+    "t_start": 724.88,
+    "t_end": 728.23,
+    "text": "conjecture is either true or it's not true okay or maybe"
+  },
+  {
+    "t_start": 728.23,
+    "t_end": 728.24,
+    "text": "true or it's not true okay or maybe"
+  },
+  {
+    "t_start": 728.24,
+    "t_end": 730.389,
+    "text": "true or it's not true okay or maybe it exists outside of our set system but"
+  },
+  {
+    "t_start": 730.389,
+    "t_end": 730.399,
+    "text": "it exists outside of our set system but"
+  },
+  {
+    "t_start": 730.399,
+    "t_end": 731.829,
+    "text": "it exists outside of our set system but the thing is it's either"
+  },
+  {
+    "t_start": 731.829,
+    "t_end": 731.839,
+    "text": "the thing is it's either"
+  },
+  {
+    "t_start": 731.839,
+    "t_end": 734.629,
+    "text": "the thing is it's either true or false we may not be able to"
+  },
+  {
+    "t_start": 734.629,
+    "t_end": 734.639,
+    "text": "true or false we may not be able to"
+  },
+  {
+    "t_start": 734.639,
+    "t_end": 735.269,
+    "text": "true or false we may not be able to prove"
+  },
+  {
+    "t_start": 735.269,
+    "t_end": 735.279,
+    "text": "prove"
+  },
+  {
+    "t_start": 735.279,
+    "t_end": 738.15,
+    "text": "prove that it's true or false but it is true"
+  },
+  {
+    "t_start": 738.15,
+    "t_end": 738.16,
+    "text": "that it's true or false but it is true"
+  },
+  {
+    "t_start": 738.16,
+    "t_end": 740.389,
+    "text": "that it's true or false but it is true or false regardless of that"
+  },
+  {
+    "t_start": 740.389,
+    "t_end": 740.399,
+    "text": "or false regardless of that"
+  },
+  {
+    "t_start": 740.399,
+    "t_end": 743.67,
+    "text": "or false regardless of that so in in either case here whether this"
+  },
+  {
+    "t_start": 743.67,
+    "t_end": 743.68,
+    "text": "so in in either case here whether this"
+  },
+  {
+    "t_start": 743.68,
+    "t_end": 744.87,
+    "text": "so in in either case here whether this language is zero"
+  },
+  {
+    "t_start": 744.87,
+    "t_end": 744.88,
+    "text": "language is zero"
+  },
+  {
+    "t_start": 744.88,
+    "t_end": 747.99,
+    "text": "language is zero or one whichever one of the case it is"
+  },
+  {
+    "t_start": 747.99,
+    "t_end": 748.0,
+    "text": "or one whichever one of the case it is"
+  },
+  {
+    "t_start": 748.0,
+    "t_end": 751.11,
+    "text": "or one whichever one of the case it is there is a decider for this language"
+  },
+  {
+    "t_start": 751.11,
+    "t_end": 751.12,
+    "text": "there is a decider for this language"
+  },
+  {
+    "t_start": 751.12,
+    "t_end": 757.11,
+    "text": "there is a decider for this language okay so no matter what happens"
+  },
+  {
+    "t_start": 761.269,
+    "t_end": 761.279,
+    "text": "l is decidable why is it decidable"
+  },
+  {
+    "t_start": 761.279,
+    "t_end": 764.47,
+    "text": "l is decidable why is it decidable because the there's one possible decider"
+  },
+  {
+    "t_start": 764.47,
+    "t_end": 764.48,
+    "text": "because the there's one possible decider"
+  },
+  {
+    "t_start": 764.48,
+    "t_end": 766.389,
+    "text": "because the there's one possible decider that says zero"
+  },
+  {
+    "t_start": 766.389,
+    "t_end": 766.399,
+    "text": "that says zero"
+  },
+  {
+    "t_start": 766.399,
+    "t_end": 770.15,
+    "text": "that says zero on on all inputs just say zero and"
+  },
+  {
+    "t_start": 770.15,
+    "t_end": 770.16,
+    "text": "on on all inputs just say zero and"
+  },
+  {
+    "t_start": 770.16,
+    "t_end": 772.15,
+    "text": "on on all inputs just say zero and and on all inputs just say one there's"
+  },
+  {
+    "t_start": 772.15,
+    "t_end": 772.16,
+    "text": "and on all inputs just say one there's"
+  },
+  {
+    "t_start": 772.16,
+    "t_end": 773.829,
+    "text": "and on all inputs just say one there's another decider that just says"
+  },
+  {
+    "t_start": 773.829,
+    "t_end": 773.839,
+    "text": "another decider that just says"
+  },
+  {
+    "t_start": 773.839,
+    "t_end": 776.87,
+    "text": "another decider that just says one so i have two possible deciders"
+  },
+  {
+    "t_start": 776.87,
+    "t_end": 776.88,
+    "text": "one so i have two possible deciders"
+  },
+  {
+    "t_start": 776.88,
+    "t_end": 780.069,
+    "text": "one so i have two possible deciders that could exist here for this so"
+  },
+  {
+    "t_start": 780.069,
+    "t_end": 780.079,
+    "text": "that could exist here for this so"
+  },
+  {
+    "t_start": 780.079,
+    "t_end": 782.55,
+    "text": "that could exist here for this so the language of just zero there's a"
+  },
+  {
+    "t_start": 782.55,
+    "t_end": 782.56,
+    "text": "the language of just zero there's a"
+  },
+  {
+    "t_start": 782.56,
+    "t_end": 783.91,
+    "text": "the language of just zero there's a decider for that"
+  },
+  {
+    "t_start": 783.91,
+    "t_end": 783.92,
+    "text": "decider for that"
+  },
+  {
+    "t_start": 783.92,
+    "t_end": 785.35,
+    "text": "decider for that the language of just one there's a"
+  },
+  {
+    "t_start": 785.35,
+    "t_end": 785.36,
+    "text": "the language of just one there's a"
+  },
+  {
+    "t_start": 785.36,
+    "t_end": 787.19,
+    "text": "the language of just one there's a decider for that"
+  },
+  {
+    "t_start": 787.19,
+    "t_end": 787.2,
+    "text": "decider for that"
+  },
+  {
+    "t_start": 787.2,
+    "t_end": 790.23,
+    "text": "decider for that and so wherever the case"
+  },
+  {
+    "t_start": 790.23,
+    "t_end": 790.24,
+    "text": "and so wherever the case"
+  },
+  {
+    "t_start": 790.24,
+    "t_end": 792.069,
+    "text": "and so wherever the case whether whether the conjecture's true or"
+  },
+  {
+    "t_start": 792.069,
+    "t_end": 792.079,
+    "text": "whether whether the conjecture's true or"
+  },
+  {
+    "t_start": 792.079,
+    "t_end": 795.19,
+    "text": "whether whether the conjecture's true or not one of those two deciders is correct"
+  },
+  {
+    "t_start": 795.19,
+    "t_end": 795.2,
+    "text": "not one of those two deciders is correct"
+  },
+  {
+    "t_start": 795.2,
+    "t_end": 797.11,
+    "text": "not one of those two deciders is correct i do not know which one is the case"
+  },
+  {
+    "t_start": 797.11,
+    "t_end": 797.12,
+    "text": "i do not know which one is the case"
+  },
+  {
+    "t_start": 797.12,
+    "t_end": 799.19,
+    "text": "i do not know which one is the case because otherwise i would"
+  },
+  {
+    "t_start": 799.19,
+    "t_end": 799.2,
+    "text": "because otherwise i would"
+  },
+  {
+    "t_start": 799.2,
+    "t_end": 801.59,
+    "text": "because otherwise i would hand in my solution and get millions of"
+  },
+  {
+    "t_start": 801.59,
+    "t_end": 801.6,
+    "text": "hand in my solution and get millions of"
+  },
+  {
+    "t_start": 801.6,
+    "t_end": 802.389,
+    "text": "hand in my solution and get millions of dollars of"
+  },
+  {
+    "t_start": 802.389,
+    "t_end": 802.399,
+    "text": "dollars of"
+  },
+  {
+    "t_start": 802.399,
+    "t_end": 805.75,
+    "text": "dollars of fans and all that but the thing is there"
+  },
+  {
+    "t_start": 805.75,
+    "t_end": 805.76,
+    "text": "fans and all that but the thing is there"
+  },
+  {
+    "t_start": 805.76,
+    "t_end": 808.949,
+    "text": "fans and all that but the thing is there is a decider for this this language this"
+  },
+  {
+    "t_start": 808.949,
+    "t_end": 808.959,
+    "text": "is a decider for this this language this"
+  },
+  {
+    "t_start": 808.959,
+    "t_end": 810.55,
+    "text": "is a decider for this this language this language l right here"
+  },
+  {
+    "t_start": 810.55,
+    "t_end": 810.56,
+    "text": "language l right here"
+  },
+  {
+    "t_start": 810.56,
+    "t_end": 813.67,
+    "text": "language l right here not necessarily the problem although the"
+  },
+  {
+    "t_start": 813.67,
+    "t_end": 813.68,
+    "text": "not necessarily the problem although the"
+  },
+  {
+    "t_start": 813.68,
+    "t_end": 816.47,
+    "text": "not necessarily the problem although the language corresponds one-to-one with"
+  },
+  {
+    "t_start": 816.47,
+    "t_end": 816.48,
+    "text": "language corresponds one-to-one with"
+  },
+  {
+    "t_start": 816.48,
+    "t_end": 818.55,
+    "text": "language corresponds one-to-one with whether the conjecture is true"
+  },
+  {
+    "t_start": 818.55,
+    "t_end": 818.56,
+    "text": "whether the conjecture is true"
+  },
+  {
+    "t_start": 818.56,
+    "t_end": 821.269,
+    "text": "whether the conjecture is true so there is a decider for this language"
+  },
+  {
+    "t_start": 821.269,
+    "t_end": 821.279,
+    "text": "so there is a decider for this language"
+  },
+  {
+    "t_start": 821.279,
+    "t_end": 822.389,
+    "text": "so there is a decider for this language no matter what"
+  },
+  {
+    "t_start": 822.389,
+    "t_end": 822.399,
+    "text": "no matter what"
+  },
+  {
+    "t_start": 822.399,
+    "t_end": 825.75,
+    "text": "no matter what guaranteed however the problem"
+  },
+  {
+    "t_start": 825.75,
+    "t_end": 825.76,
+    "text": "guaranteed however the problem"
+  },
+  {
+    "t_start": 825.76,
+    "t_end": 830.069,
+    "text": "guaranteed however the problem lies in determining whether or not the"
+  },
+  {
+    "t_start": 830.069,
+    "t_end": 830.079,
+    "text": "lies in determining whether or not the"
+  },
+  {
+    "t_start": 830.079,
+    "t_end": 833.03,
+    "text": "lies in determining whether or not the language is actually zero or not so it's"
+  },
+  {
+    "t_start": 833.03,
+    "t_end": 833.04,
+    "text": "language is actually zero or not so it's"
+  },
+  {
+    "t_start": 833.04,
+    "t_end": 835.99,
+    "text": "language is actually zero or not so it's a little bit of a pedantic definition"
+  },
+  {
+    "t_start": 835.99,
+    "t_end": 836.0,
+    "text": "a little bit of a pedantic definition"
+  },
+  {
+    "t_start": 836.0,
+    "t_end": 838.949,
+    "text": "a little bit of a pedantic definition but the thing is that this problem"
+  },
+  {
+    "t_start": 838.949,
+    "t_end": 838.959,
+    "text": "but the thing is that this problem"
+  },
+  {
+    "t_start": 838.959,
+    "t_end": 839.75,
+    "text": "but the thing is that this problem phrased in"
+  },
+  {
+    "t_start": 839.75,
+    "t_end": 839.76,
+    "text": "phrased in"
+  },
+  {
+    "t_start": 839.76,
+    "t_end": 842.629,
+    "text": "phrased in this way is decidable and you can"
+  },
+  {
+    "t_start": 842.629,
+    "t_end": 842.639,
+    "text": "this way is decidable and you can"
+  },
+  {
+    "t_start": 842.639,
+    "t_end": 843.35,
+    "text": "this way is decidable and you can substitute"
+  },
+  {
+    "t_start": 843.35,
+    "t_end": 843.36,
+    "text": "substitute"
+  },
+  {
+    "t_start": 843.36,
+    "t_end": 845.829,
+    "text": "substitute anything that you want here like whether"
+  },
+  {
+    "t_start": 845.829,
+    "t_end": 845.839,
+    "text": "anything that you want here like whether"
+  },
+  {
+    "t_start": 845.839,
+    "t_end": 846.71,
+    "text": "anything that you want here like whether the"
+  },
+  {
+    "t_start": 846.71,
+    "t_end": 846.72,
+    "text": "the"
+  },
+  {
+    "t_start": 846.72,
+    "t_end": 849.829,
+    "text": "the nth digit of whether the string zero to"
+  },
+  {
+    "t_start": 849.829,
+    "t_end": 849.839,
+    "text": "nth digit of whether the string zero to"
+  },
+  {
+    "t_start": 849.839,
+    "t_end": 850.23,
+    "text": "nth digit of whether the string zero to the n"
+  },
+  {
+    "t_start": 850.23,
+    "t_end": 850.24,
+    "text": "the n"
+  },
+  {
+    "t_start": 850.24,
+    "t_end": 853.43,
+    "text": "the n is in the pi representation or something"
+  },
+  {
+    "t_start": 853.43,
+    "t_end": 853.44,
+    "text": "is in the pi representation or something"
+  },
+  {
+    "t_start": 853.44,
+    "t_end": 856.55,
+    "text": "is in the pi representation or something or whether we will ever find life on"
+  },
+  {
+    "t_start": 856.55,
+    "t_end": 856.56,
+    "text": "or whether we will ever find life on"
+  },
+  {
+    "t_start": 856.56,
+    "t_end": 858.47,
+    "text": "or whether we will ever find life on extraterrestrial planets whatever"
+  },
+  {
+    "t_start": 858.47,
+    "t_end": 858.48,
+    "text": "extraterrestrial planets whatever"
+  },
+  {
+    "t_start": 858.48,
+    "t_end": 860.47,
+    "text": "extraterrestrial planets whatever condition that you want here"
+  },
+  {
+    "t_start": 860.47,
+    "t_end": 860.48,
+    "text": "condition that you want here"
+  },
+  {
+    "t_start": 860.48,
+    "t_end": 863.67,
+    "text": "condition that you want here that condition is decidable no matter"
+  },
+  {
+    "t_start": 863.67,
+    "t_end": 863.68,
+    "text": "that condition is decidable no matter"
+  },
+  {
+    "t_start": 863.68,
+    "t_end": 865.829,
+    "text": "that condition is decidable no matter what if you can phrase it here"
+  },
+  {
+    "t_start": 865.829,
+    "t_end": 865.839,
+    "text": "what if you can phrase it here"
+  },
+  {
+    "t_start": 865.839,
+    "t_end": 868.87,
+    "text": "what if you can phrase it here okay so if phrase in this way"
+  },
+  {
+    "t_start": 868.87,
+    "t_end": 868.88,
+    "text": "okay so if phrase in this way"
+  },
+  {
+    "t_start": 868.88,
+    "t_end": 871.99,
+    "text": "okay so if phrase in this way this problem is decidable however"
+  },
+  {
+    "t_start": 871.99,
+    "t_end": 872.0,
+    "text": "this problem is decidable however"
+  },
+  {
+    "t_start": 872.0,
+    "t_end": 875.269,
+    "text": "this problem is decidable however if phrased in a different way uh"
+  },
+  {
+    "t_start": 875.269,
+    "t_end": 875.279,
+    "text": "if phrased in a different way uh"
+  },
+  {
+    "t_start": 875.279,
+    "t_end": 877.75,
+    "text": "if phrased in a different way uh corresponding to a different language it"
+  },
+  {
+    "t_start": 877.75,
+    "t_end": 877.76,
+    "text": "corresponding to a different language it"
+  },
+  {
+    "t_start": 877.76,
+    "t_end": 878.389,
+    "text": "corresponding to a different language it may or"
+  },
+  {
+    "t_start": 878.389,
+    "t_end": 878.399,
+    "text": "may or"
+  },
+  {
+    "t_start": 878.399,
+    "t_end": 881.59,
+    "text": "may or may not be decidable so it remains to be"
+  },
+  {
+    "t_start": 881.59,
+    "t_end": 881.6,
+    "text": "may not be decidable so it remains to be"
+  },
+  {
+    "t_start": 881.6,
+    "t_end": 882.71,
+    "text": "may not be decidable so it remains to be seen whether or not"
+  },
+  {
+    "t_start": 882.71,
+    "t_end": 882.72,
+    "text": "seen whether or not"
+  },
+  {
+    "t_start": 882.72,
+    "t_end": 886.71,
+    "text": "seen whether or not this phrasing is undecidable"
+  },
+  {
+    "t_start": 886.71,
+    "t_end": 886.72,
+    "text": "this phrasing is undecidable"
+  },
+  {
+    "t_start": 886.72,
+    "t_end": 889.67,
+    "text": "this phrasing is undecidable so the if the single problem is"
+  },
+  {
+    "t_start": 889.67,
+    "t_end": 889.68,
+    "text": "so the if the single problem is"
+  },
+  {
+    "t_start": 889.68,
+    "t_end": 890.71,
+    "text": "so the if the single problem is decidable"
+  },
+  {
+    "t_start": 890.71,
+    "t_end": 890.72,
+    "text": "decidable"
+  },
+  {
+    "t_start": 890.72,
+    "t_end": 893.43,
+    "text": "decidable the three x plus one may or may not"
+  },
+  {
+    "t_start": 893.43,
+    "t_end": 893.44,
+    "text": "the three x plus one may or may not"
+  },
+  {
+    "t_start": 893.44,
+    "t_end": 893.99,
+    "text": "the three x plus one may or may not because"
+  },
+  {
+    "t_start": 893.99,
+    "t_end": 894.0,
+    "text": "because"
+  },
+  {
+    "t_start": 894.0,
+    "t_end": 896.79,
+    "text": "because that is a statement about infinite sets"
+  },
+  {
+    "t_start": 896.79,
+    "t_end": 896.8,
+    "text": "that is a statement about infinite sets"
+  },
+  {
+    "t_start": 896.8,
+    "t_end": 897.189,
+    "text": "that is a statement about infinite sets of"
+  },
+  {
+    "t_start": 897.189,
+    "t_end": 897.199,
+    "text": "of"
+  },
+  {
+    "t_start": 897.199,
+    "t_end": 900.949,
+    "text": "of of of integers if it's proven"
+  },
+  {
+    "t_start": 900.949,
+    "t_end": 900.959,
+    "text": "of of integers if it's proven"
+  },
+  {
+    "t_start": 900.959,
+    "t_end": 904.389,
+    "text": "of of integers if it's proven that up let's just say that we"
+  },
+  {
+    "t_start": 904.389,
+    "t_end": 904.399,
+    "text": "that up let's just say that we"
+  },
+  {
+    "t_start": 904.399,
+    "t_end": 907.43,
+    "text": "that up let's just say that we um make some progress on the problem"
+  },
+  {
+    "t_start": 907.43,
+    "t_end": 907.44,
+    "text": "um make some progress on the problem"
+  },
+  {
+    "t_start": 907.44,
+    "t_end": 910.949,
+    "text": "um make some progress on the problem and we are able to show that the three x"
+  },
+  {
+    "t_start": 910.949,
+    "t_end": 910.959,
+    "text": "and we are able to show that the three x"
+  },
+  {
+    "t_start": 910.959,
+    "t_end": 912.55,
+    "text": "and we are able to show that the three x plus one conjecture is"
+  },
+  {
+    "t_start": 912.55,
+    "t_end": 912.56,
+    "text": "plus one conjecture is"
+  },
+  {
+    "t_start": 912.56,
+    "t_end": 916.31,
+    "text": "plus one conjecture is true from some number up"
+  },
+  {
+    "t_start": 916.31,
+    "t_end": 916.32,
+    "text": "true from some number up"
+  },
+  {
+    "t_start": 916.32,
+    "t_end": 919.269,
+    "text": "true from some number up so let's say like 10 to 10 to the 10 to"
+  },
+  {
+    "t_start": 919.269,
+    "t_end": 919.279,
+    "text": "so let's say like 10 to 10 to the 10 to"
+  },
+  {
+    "t_start": 919.279,
+    "t_end": 921.269,
+    "text": "so let's say like 10 to 10 to the 10 to the 10 to the 10 or whatever"
+  },
+  {
+    "t_start": 921.269,
+    "t_end": 921.279,
+    "text": "the 10 to the 10 or whatever"
+  },
+  {
+    "t_start": 921.279,
+    "t_end": 923.75,
+    "text": "the 10 to the 10 or whatever so just some big number from that point"
+  },
+  {
+    "t_start": 923.75,
+    "t_end": 923.76,
+    "text": "so just some big number from that point"
+  },
+  {
+    "t_start": 923.76,
+    "t_end": 924.47,
+    "text": "so just some big number from that point upward"
+  },
+  {
+    "t_start": 924.47,
+    "t_end": 924.48,
+    "text": "upward"
+  },
+  {
+    "t_start": 924.48,
+    "t_end": 926.87,
+    "text": "upward the conjecture is true and so the"
+  },
+  {
+    "t_start": 926.87,
+    "t_end": 926.88,
+    "text": "the conjecture is true and so the"
+  },
+  {
+    "t_start": 926.88,
+    "t_end": 928.79,
+    "text": "the conjecture is true and so the conjecture needs to be proven"
+  },
+  {
+    "t_start": 928.79,
+    "t_end": 928.8,
+    "text": "conjecture needs to be proven"
+  },
+  {
+    "t_start": 928.8,
+    "t_end": 932.15,
+    "text": "conjecture needs to be proven for the remaining numbers"
+  },
+  {
+    "t_start": 932.15,
+    "t_end": 932.16,
+    "text": "for the remaining numbers"
+  },
+  {
+    "t_start": 932.16,
+    "t_end": 935.03,
+    "text": "for the remaining numbers then it actually turns out to be"
+  },
+  {
+    "t_start": 935.03,
+    "t_end": 935.04,
+    "text": "then it actually turns out to be"
+  },
+  {
+    "t_start": 935.04,
+    "t_end": 936.949,
+    "text": "then it actually turns out to be decidable in that case"
+  },
+  {
+    "t_start": 936.949,
+    "t_end": 936.959,
+    "text": "decidable in that case"
+  },
+  {
+    "t_start": 936.959,
+    "t_end": 940.15,
+    "text": "decidable in that case because think about what happens"
+  },
+  {
+    "t_start": 940.15,
+    "t_end": 940.16,
+    "text": "because think about what happens"
+  },
+  {
+    "t_start": 940.16,
+    "t_end": 943.829,
+    "text": "because think about what happens so if actually i'll write it down"
+  },
+  {
+    "t_start": 943.829,
+    "t_end": 943.839,
+    "text": "so if actually i'll write it down"
+  },
+  {
+    "t_start": 943.839,
+    "t_end": 946.069,
+    "text": "so if actually i'll write it down so let's let's assume this so let's"
+  },
+  {
+    "t_start": 946.069,
+    "t_end": 946.079,
+    "text": "so let's let's assume this so let's"
+  },
+  {
+    "t_start": 946.079,
+    "t_end": 947.91,
+    "text": "so let's let's assume this so let's assume"
+  },
+  {
+    "t_start": 947.91,
+    "t_end": 947.92,
+    "text": "assume"
+  },
+  {
+    "t_start": 947.92,
+    "t_end": 950.64,
+    "text": "assume three x plus one is true"
+  },
+  {
+    "t_start": 950.64,
+    "t_end": 950.65,
+    "text": "three x plus one is true"
+  },
+  {
+    "t_start": 950.65,
+    "t_end": 951.91,
+    "text": "three x plus one is true [Music]"
+  },
+  {
+    "t_start": 951.91,
+    "t_end": 951.92,
+    "text": "[Music]"
+  },
+  {
+    "t_start": 951.92,
+    "t_end": 955.35,
+    "text": "[Music] for all n at least some"
+  },
+  {
+    "t_start": 955.35,
+    "t_end": 955.36,
+    "text": "for all n at least some"
+  },
+  {
+    "t_start": 955.36,
+    "t_end": 959.03,
+    "text": "for all n at least some big constant here so n and zero"
+  },
+  {
+    "t_start": 959.03,
+    "t_end": 959.04,
+    "text": "big constant here so n and zero"
+  },
+  {
+    "t_start": 959.04,
+    "t_end": 962.87,
+    "text": "big constant here so n and zero is a big number possibly"
+  },
+  {
+    "t_start": 962.87,
+    "t_end": 962.88,
+    "text": "is a big number possibly"
+  },
+  {
+    "t_start": 962.88,
+    "t_end": 965.35,
+    "text": "is a big number possibly so i'm assuming that this is the case i"
+  },
+  {
+    "t_start": 965.35,
+    "t_end": 965.36,
+    "text": "so i'm assuming that this is the case i"
+  },
+  {
+    "t_start": 965.36,
+    "t_end": 967.67,
+    "text": "so i'm assuming that this is the case i we i don't think this is the actual case"
+  },
+  {
+    "t_start": 967.67,
+    "t_end": 967.68,
+    "text": "we i don't think this is the actual case"
+  },
+  {
+    "t_start": 967.68,
+    "t_end": 969.269,
+    "text": "we i don't think this is the actual case but let's just assume that this is the"
+  },
+  {
+    "t_start": 969.269,
+    "t_end": 969.279,
+    "text": "but let's just assume that this is the"
+  },
+  {
+    "t_start": 969.279,
+    "t_end": 971.269,
+    "text": "but let's just assume that this is the case then"
+  },
+  {
+    "t_start": 971.269,
+    "t_end": 971.279,
+    "text": "case then"
+  },
+  {
+    "t_start": 971.279,
+    "t_end": 974.79,
+    "text": "case then what i claim to be true is"
+  },
+  {
+    "t_start": 974.79,
+    "t_end": 974.8,
+    "text": "what i claim to be true is"
+  },
+  {
+    "t_start": 974.8,
+    "t_end": 980.949,
+    "text": "what i claim to be true is is that 3x plus 1 is decidable"
+  },
+  {
+    "t_start": 984.55,
+    "t_end": 984.56,
+    "text": "why is that the case well what we can do"
+  },
+  {
+    "t_start": 984.56,
+    "t_end": 988.15,
+    "text": "why is that the case well what we can do is let's run our single"
+  },
+  {
+    "t_start": 988.15,
+    "t_end": 988.16,
+    "text": "is let's run our single"
+  },
+  {
+    "t_start": 988.16,
+    "t_end": 990.55,
+    "text": "is let's run our single um or we don't even need to run the"
+  },
+  {
+    "t_start": 990.55,
+    "t_end": 990.56,
+    "text": "um or we don't even need to run the"
+  },
+  {
+    "t_start": 990.56,
+    "t_end": 992.47,
+    "text": "um or we don't even need to run the single algorithm even if it doesn't"
+  },
+  {
+    "t_start": 992.47,
+    "t_end": 992.48,
+    "text": "single algorithm even if it doesn't"
+  },
+  {
+    "t_start": 992.48,
+    "t_end": 993.43,
+    "text": "single algorithm even if it doesn't exist"
+  },
+  {
+    "t_start": 993.43,
+    "t_end": 993.44,
+    "text": "exist"
+  },
+  {
+    "t_start": 993.44,
+    "t_end": 996.629,
+    "text": "exist we can actually just simulate the three"
+  },
+  {
+    "t_start": 996.629,
+    "t_end": 996.639,
+    "text": "we can actually just simulate the three"
+  },
+  {
+    "t_start": 996.639,
+    "t_end": 998.069,
+    "text": "we can actually just simulate the three x plus one problem"
+  },
+  {
+    "t_start": 998.069,
+    "t_end": 998.079,
+    "text": "x plus one problem"
+  },
+  {
+    "t_start": 998.079,
+    "t_end": 1001.67,
+    "text": "x plus one problem long enough so let's let's"
+  },
+  {
+    "t_start": 1001.67,
+    "t_end": 1001.68,
+    "text": "long enough so let's let's"
+  },
+  {
+    "t_start": 1001.68,
+    "t_end": 1007.43,
+    "text": "long enough so let's let's solve the three x plus one problem"
+  },
+  {
+    "t_start": 1010.949,
+    "t_end": 1010.959,
+    "text": "oh that was awful handwriting so let's"
+  },
+  {
+    "t_start": 1010.959,
+    "t_end": 1015.03,
+    "text": "oh that was awful handwriting so let's solve 3x plus 1 on some number n"
+  },
+  {
+    "t_start": 1015.03,
+    "t_end": 1015.04,
+    "text": "solve 3x plus 1 on some number n"
+  },
+  {
+    "t_start": 1015.04,
+    "t_end": 1017.749,
+    "text": "solve 3x plus 1 on some number n then what we're going to do is have a"
+  },
+  {
+    "t_start": 1017.749,
+    "t_end": 1017.759,
+    "text": "then what we're going to do is have a"
+  },
+  {
+    "t_start": 1017.759,
+    "t_end": 1019.269,
+    "text": "then what we're going to do is have a while true loop"
+  },
+  {
+    "t_start": 1019.269,
+    "t_end": 1019.279,
+    "text": "while true loop"
+  },
+  {
+    "t_start": 1019.279,
+    "t_end": 1021.829,
+    "text": "while true loop so i'm just going to write the usual"
+  },
+  {
+    "t_start": 1021.829,
+    "t_end": 1021.839,
+    "text": "so i'm just going to write the usual"
+  },
+  {
+    "t_start": 1021.839,
+    "t_end": 1023.91,
+    "text": "so i'm just going to write the usual algorithm for the 3x plus one problem"
+  },
+  {
+    "t_start": 1023.91,
+    "t_end": 1023.92,
+    "text": "algorithm for the 3x plus one problem"
+  },
+  {
+    "t_start": 1023.92,
+    "t_end": 1027.99,
+    "text": "algorithm for the 3x plus one problem so if n is odd"
+  },
+  {
+    "t_start": 1027.99,
+    "t_end": 1028.0,
+    "text": "so if n is odd"
+  },
+  {
+    "t_start": 1028.0,
+    "t_end": 1032.309,
+    "text": "so if n is odd we'll set n to be three n plus one"
+  },
+  {
+    "t_start": 1032.309,
+    "t_end": 1032.319,
+    "text": "we'll set n to be three n plus one"
+  },
+  {
+    "t_start": 1032.319,
+    "t_end": 1038.47,
+    "text": "we'll set n to be three n plus one otherwise set n to be n over two then"
+  },
+  {
+    "t_start": 1038.47,
+    "t_end": 1038.48,
+    "text": "otherwise set n to be n over two then"
+  },
+  {
+    "t_start": 1038.48,
+    "t_end": 1042.23,
+    "text": "otherwise set n to be n over two then what we can do is if it escapes"
+  },
+  {
+    "t_start": 1042.23,
+    "t_end": 1042.24,
+    "text": "what we can do is if it escapes"
+  },
+  {
+    "t_start": 1042.24,
+    "t_end": 1045.429,
+    "text": "what we can do is if it escapes this bound right here so like in the 3n"
+  },
+  {
+    "t_start": 1045.429,
+    "t_end": 1045.439,
+    "text": "this bound right here so like in the 3n"
+  },
+  {
+    "t_start": 1045.439,
+    "t_end": 1048.87,
+    "text": "this bound right here so like in the 3n plus 1 case if it goes way up past the"
+  },
+  {
+    "t_start": 1048.87,
+    "t_end": 1048.88,
+    "text": "plus 1 case if it goes way up past the"
+  },
+  {
+    "t_start": 1048.88,
+    "t_end": 1052.95,
+    "text": "plus 1 case if it goes way up past the n 0 bound assuming that this is true"
+  },
+  {
+    "t_start": 1052.95,
+    "t_end": 1052.96,
+    "text": "n 0 bound assuming that this is true"
+  },
+  {
+    "t_start": 1052.96,
+    "t_end": 1054.87,
+    "text": "n 0 bound assuming that this is true then we know we don't need to check"
+  },
+  {
+    "t_start": 1054.87,
+    "t_end": 1054.88,
+    "text": "then we know we don't need to check"
+  },
+  {
+    "t_start": 1054.88,
+    "t_end": 1057.19,
+    "text": "then we know we don't need to check anymore because"
+  },
+  {
+    "t_start": 1057.19,
+    "t_end": 1057.2,
+    "text": "anymore because"
+  },
+  {
+    "t_start": 1057.2,
+    "t_end": 1059.029,
+    "text": "anymore because assuming that this is true once you hit"
+  },
+  {
+    "t_start": 1059.029,
+    "t_end": 1059.039,
+    "text": "assuming that this is true once you hit"
+  },
+  {
+    "t_start": 1059.039,
+    "t_end": 1060.23,
+    "text": "assuming that this is true once you hit past this point"
+  },
+  {
+    "t_start": 1060.23,
+    "t_end": 1060.24,
+    "text": "past this point"
+  },
+  {
+    "t_start": 1060.24,
+    "t_end": 1062.15,
+    "text": "past this point then that means that the trajectory"
+  },
+  {
+    "t_start": 1062.15,
+    "t_end": 1062.16,
+    "text": "then that means that the trajectory"
+  },
+  {
+    "t_start": 1062.16,
+    "t_end": 1064.07,
+    "text": "then that means that the trajectory eventually reaches one"
+  },
+  {
+    "t_start": 1064.07,
+    "t_end": 1064.08,
+    "text": "eventually reaches one"
+  },
+  {
+    "t_start": 1064.08,
+    "t_end": 1067.59,
+    "text": "eventually reaches one so in here what we can do squeezed into"
+  },
+  {
+    "t_start": 1067.59,
+    "t_end": 1067.6,
+    "text": "so in here what we can do squeezed into"
+  },
+  {
+    "t_start": 1067.6,
+    "t_end": 1068.71,
+    "text": "so in here what we can do squeezed into there"
+  },
+  {
+    "t_start": 1068.71,
+    "t_end": 1068.72,
+    "text": "there"
+  },
+  {
+    "t_start": 1068.72,
+    "t_end": 1072.47,
+    "text": "there so if um n is bigger than"
+  },
+  {
+    "t_start": 1072.47,
+    "t_end": 1072.48,
+    "text": "so if um n is bigger than"
+  },
+  {
+    "t_start": 1072.48,
+    "t_end": 1075.99,
+    "text": "so if um n is bigger than n0 at that point after the update then"
+  },
+  {
+    "t_start": 1075.99,
+    "t_end": 1076.0,
+    "text": "n0 at that point after the update then"
+  },
+  {
+    "t_start": 1076.0,
+    "t_end": 1080.71,
+    "text": "n0 at that point after the update then we can return uh true"
+  },
+  {
+    "t_start": 1080.71,
+    "t_end": 1080.72,
+    "text": "we can return uh true"
+  },
+  {
+    "t_start": 1080.72,
+    "t_end": 1083.19,
+    "text": "we can return uh true okay or some terminating condition or"
+  },
+  {
+    "t_start": 1083.19,
+    "t_end": 1083.2,
+    "text": "okay or some terminating condition or"
+  },
+  {
+    "t_start": 1083.2,
+    "t_end": 1084.31,
+    "text": "okay or some terminating condition or whatever"
+  },
+  {
+    "t_start": 1084.31,
+    "t_end": 1084.32,
+    "text": "whatever"
+  },
+  {
+    "t_start": 1084.32,
+    "t_end": 1087.27,
+    "text": "whatever okay and i guarantee that this runs in a"
+  },
+  {
+    "t_start": 1087.27,
+    "t_end": 1087.28,
+    "text": "okay and i guarantee that this runs in a"
+  },
+  {
+    "t_start": 1087.28,
+    "t_end": 1088.95,
+    "text": "okay and i guarantee that this runs in a finite amount of time so"
+  },
+  {
+    "t_start": 1088.95,
+    "t_end": 1088.96,
+    "text": "finite amount of time so"
+  },
+  {
+    "t_start": 1088.96,
+    "t_end": 1092.87,
+    "text": "finite amount of time so i claim that this this thing is an"
+  },
+  {
+    "t_start": 1092.87,
+    "t_end": 1092.88,
+    "text": "i claim that this this thing is an"
+  },
+  {
+    "t_start": 1092.88,
+    "t_end": 1094.15,
+    "text": "i claim that this this thing is an algorithm so"
+  },
+  {
+    "t_start": 1094.15,
+    "t_end": 1094.16,
+    "text": "algorithm so"
+  },
+  {
+    "t_start": 1094.16,
+    "t_end": 1096.95,
+    "text": "algorithm so it does halt in a finite amount of time"
+  },
+  {
+    "t_start": 1096.95,
+    "t_end": 1096.96,
+    "text": "it does halt in a finite amount of time"
+  },
+  {
+    "t_start": 1096.96,
+    "t_end": 1098.23,
+    "text": "it does halt in a finite amount of time because"
+  },
+  {
+    "t_start": 1098.23,
+    "t_end": 1098.24,
+    "text": "because"
+  },
+  {
+    "t_start": 1098.24,
+    "t_end": 1101.11,
+    "text": "because uh think about what happens and in fact"
+  },
+  {
+    "t_start": 1101.11,
+    "t_end": 1101.12,
+    "text": "uh think about what happens and in fact"
+  },
+  {
+    "t_start": 1101.12,
+    "t_end": 1102.31,
+    "text": "uh think about what happens and in fact i'm going to draw it out so"
+  },
+  {
+    "t_start": 1102.31,
+    "t_end": 1102.32,
+    "text": "i'm going to draw it out so"
+  },
+  {
+    "t_start": 1102.32,
+    "t_end": 1104.95,
+    "text": "i'm going to draw it out so let's depict all integers like this and"
+  },
+  {
+    "t_start": 1104.95,
+    "t_end": 1104.96,
+    "text": "let's depict all integers like this and"
+  },
+  {
+    "t_start": 1104.96,
+    "t_end": 1106.31,
+    "text": "let's depict all integers like this and let's say"
+  },
+  {
+    "t_start": 1106.31,
+    "t_end": 1106.32,
+    "text": "let's say"
+  },
+  {
+    "t_start": 1106.32,
+    "t_end": 1111.029,
+    "text": "let's say that the n zero guy is right there"
+  },
+  {
+    "t_start": 1111.029,
+    "t_end": 1111.039,
+    "text": "that the n zero guy is right there"
+  },
+  {
+    "t_start": 1111.039,
+    "t_end": 1114.39,
+    "text": "that the n zero guy is right there so and then let's say that"
+  },
+  {
+    "t_start": 1114.39,
+    "t_end": 1114.4,
+    "text": "so and then let's say that"
+  },
+  {
+    "t_start": 1114.4,
+    "t_end": 1116.87,
+    "text": "so and then let's say that uh the integer n that we're given is"
+  },
+  {
+    "t_start": 1116.87,
+    "t_end": 1116.88,
+    "text": "uh the integer n that we're given is"
+  },
+  {
+    "t_start": 1116.88,
+    "t_end": 1117.669,
+    "text": "uh the integer n that we're given is right there"
+  },
+  {
+    "t_start": 1117.669,
+    "t_end": 1117.679,
+    "text": "right there"
+  },
+  {
+    "t_start": 1117.679,
+    "t_end": 1121.19,
+    "text": "right there well if n zero if we're given a number"
+  },
+  {
+    "t_start": 1121.19,
+    "t_end": 1121.2,
+    "text": "well if n zero if we're given a number"
+  },
+  {
+    "t_start": 1121.2,
+    "t_end": 1123.19,
+    "text": "well if n zero if we're given a number bigger than n zero then this is already"
+  },
+  {
+    "t_start": 1123.19,
+    "t_end": 1123.2,
+    "text": "bigger than n zero then this is already"
+  },
+  {
+    "t_start": 1123.2,
+    "t_end": 1124.15,
+    "text": "bigger than n zero then this is already true"
+  },
+  {
+    "t_start": 1124.15,
+    "t_end": 1124.16,
+    "text": "true"
+  },
+  {
+    "t_start": 1124.16,
+    "t_end": 1125.75,
+    "text": "true but then let's suppose that we have some"
+  },
+  {
+    "t_start": 1125.75,
+    "t_end": 1125.76,
+    "text": "but then let's suppose that we have some"
+  },
+  {
+    "t_start": 1125.76,
+    "t_end": 1127.27,
+    "text": "but then let's suppose that we have some number n well"
+  },
+  {
+    "t_start": 1127.27,
+    "t_end": 1127.28,
+    "text": "number n well"
+  },
+  {
+    "t_start": 1127.28,
+    "t_end": 1130.47,
+    "text": "number n well obviously wherever this number is it"
+  },
+  {
+    "t_start": 1130.47,
+    "t_end": 1130.48,
+    "text": "obviously wherever this number is it"
+  },
+  {
+    "t_start": 1130.48,
+    "t_end": 1130.95,
+    "text": "obviously wherever this number is it could"
+  },
+  {
+    "t_start": 1130.95,
+    "t_end": 1130.96,
+    "text": "could"
+  },
+  {
+    "t_start": 1130.96,
+    "t_end": 1133.029,
+    "text": "could uh go down and back up down and back up"
+  },
+  {
+    "t_start": 1133.029,
+    "t_end": 1133.039,
+    "text": "uh go down and back up down and back up"
+  },
+  {
+    "t_start": 1133.039,
+    "t_end": 1134.39,
+    "text": "uh go down and back up down and back up down and back up"
+  },
+  {
+    "t_start": 1134.39,
+    "t_end": 1134.4,
+    "text": "down and back up"
+  },
+  {
+    "t_start": 1134.4,
+    "t_end": 1136.71,
+    "text": "down and back up but it can only do so a finite number of"
+  },
+  {
+    "t_start": 1136.71,
+    "t_end": 1136.72,
+    "text": "but it can only do so a finite number of"
+  },
+  {
+    "t_start": 1136.72,
+    "t_end": 1137.669,
+    "text": "but it can only do so a finite number of times"
+  },
+  {
+    "t_start": 1137.669,
+    "t_end": 1137.679,
+    "text": "times"
+  },
+  {
+    "t_start": 1137.679,
+    "t_end": 1139.909,
+    "text": "times okay so it can only do so a finite"
+  },
+  {
+    "t_start": 1139.909,
+    "t_end": 1139.919,
+    "text": "okay so it can only do so a finite"
+  },
+  {
+    "t_start": 1139.919,
+    "t_end": 1141.43,
+    "text": "okay so it can only do so a finite number of times"
+  },
+  {
+    "t_start": 1141.43,
+    "t_end": 1141.44,
+    "text": "number of times"
+  },
+  {
+    "t_start": 1141.44,
+    "t_end": 1144.39,
+    "text": "number of times um before it either repeats a number"
+  },
+  {
+    "t_start": 1144.39,
+    "t_end": 1144.4,
+    "text": "um before it either repeats a number"
+  },
+  {
+    "t_start": 1144.4,
+    "t_end": 1145.43,
+    "text": "um before it either repeats a number down here"
+  },
+  {
+    "t_start": 1145.43,
+    "t_end": 1145.44,
+    "text": "down here"
+  },
+  {
+    "t_start": 1145.44,
+    "t_end": 1147.75,
+    "text": "down here or it escapes the bound up here so if it"
+  },
+  {
+    "t_start": 1147.75,
+    "t_end": 1147.76,
+    "text": "or it escapes the bound up here so if it"
+  },
+  {
+    "t_start": 1147.76,
+    "t_end": 1148.87,
+    "text": "or it escapes the bound up here so if it escapes the bound"
+  },
+  {
+    "t_start": 1148.87,
+    "t_end": 1148.88,
+    "text": "escapes the bound"
+  },
+  {
+    "t_start": 1148.88,
+    "t_end": 1151.11,
+    "text": "escapes the bound according to this then that means that"
+  },
+  {
+    "t_start": 1151.11,
+    "t_end": 1151.12,
+    "text": "according to this then that means that"
+  },
+  {
+    "t_start": 1151.12,
+    "t_end": 1153.029,
+    "text": "according to this then that means that the trajectory eventually reaches one"
+  },
+  {
+    "t_start": 1153.029,
+    "t_end": 1153.039,
+    "text": "the trajectory eventually reaches one"
+  },
+  {
+    "t_start": 1153.039,
+    "t_end": 1154.47,
+    "text": "the trajectory eventually reaches one so the only thing that we actually need"
+  },
+  {
+    "t_start": 1154.47,
+    "t_end": 1154.48,
+    "text": "so the only thing that we actually need"
+  },
+  {
+    "t_start": 1154.48,
+    "t_end": 1157.59,
+    "text": "so the only thing that we actually need to check is that it actually reaches one"
+  },
+  {
+    "t_start": 1157.59,
+    "t_end": 1157.6,
+    "text": "to check is that it actually reaches one"
+  },
+  {
+    "t_start": 1157.6,
+    "t_end": 1160.31,
+    "text": "to check is that it actually reaches one and if it reaches one that obviously is"
+  },
+  {
+    "t_start": 1160.31,
+    "t_end": 1160.32,
+    "text": "and if it reaches one that obviously is"
+  },
+  {
+    "t_start": 1160.32,
+    "t_end": 1160.95,
+    "text": "and if it reaches one that obviously is true"
+  },
+  {
+    "t_start": 1160.95,
+    "t_end": 1160.96,
+    "text": "true"
+  },
+  {
+    "t_start": 1160.96,
+    "t_end": 1162.87,
+    "text": "true but if it repeats a number then it"
+  },
+  {
+    "t_start": 1162.87,
+    "t_end": 1162.88,
+    "text": "but if it repeats a number then it"
+  },
+  {
+    "t_start": 1162.88,
+    "t_end": 1164.63,
+    "text": "but if it repeats a number then it obviously is false"
+  },
+  {
+    "t_start": 1164.63,
+    "t_end": 1164.64,
+    "text": "obviously is false"
+  },
+  {
+    "t_start": 1164.64,
+    "t_end": 1166.789,
+    "text": "obviously is false so let's modify our algorithm to take"
+  },
+  {
+    "t_start": 1166.789,
+    "t_end": 1166.799,
+    "text": "so let's modify our algorithm to take"
+  },
+  {
+    "t_start": 1166.799,
+    "t_end": 1168.23,
+    "text": "so let's modify our algorithm to take care of this"
+  },
+  {
+    "t_start": 1168.23,
+    "t_end": 1168.24,
+    "text": "care of this"
+  },
+  {
+    "t_start": 1168.24,
+    "t_end": 1170.789,
+    "text": "care of this so what i'm going to do is i'm going to"
+  },
+  {
+    "t_start": 1170.789,
+    "t_end": 1170.799,
+    "text": "so what i'm going to do is i'm going to"
+  },
+  {
+    "t_start": 1170.799,
+    "t_end": 1175.909,
+    "text": "so what i'm going to do is i'm going to move all of this down"
+  },
+  {
+    "t_start": 1178.31,
+    "t_end": 1178.32,
+    "text": "so here i'm going to say if n is bigger"
+  },
+  {
+    "t_start": 1178.32,
+    "t_end": 1179.51,
+    "text": "so here i'm going to say if n is bigger than n0"
+  },
+  {
+    "t_start": 1179.51,
+    "t_end": 1179.52,
+    "text": "than n0"
+  },
+  {
+    "t_start": 1179.52,
+    "t_end": 1183.11,
+    "text": "than n0 return true because obviously that that"
+  },
+  {
+    "t_start": 1183.11,
+    "t_end": 1183.12,
+    "text": "return true because obviously that that"
+  },
+  {
+    "t_start": 1183.12,
+    "t_end": 1185.11,
+    "text": "return true because obviously that that claim is true"
+  },
+  {
+    "t_start": 1185.11,
+    "t_end": 1185.12,
+    "text": "claim is true"
+  },
+  {
+    "t_start": 1185.12,
+    "t_end": 1188.23,
+    "text": "claim is true um okay so then"
+  },
+  {
+    "t_start": 1188.23,
+    "t_end": 1188.24,
+    "text": "um okay so then"
+  },
+  {
+    "t_start": 1188.24,
+    "t_end": 1191.75,
+    "text": "um okay so then now what do we need to do uh so this is"
+  },
+  {
+    "t_start": 1191.75,
+    "t_end": 1191.76,
+    "text": "now what do we need to do uh so this is"
+  },
+  {
+    "t_start": 1191.76,
+    "t_end": 1193.11,
+    "text": "now what do we need to do uh so this is handling a particular number"
+  },
+  {
+    "t_start": 1193.11,
+    "t_end": 1193.12,
+    "text": "handling a particular number"
+  },
+  {
+    "t_start": 1193.12,
+    "t_end": 1195.27,
+    "text": "handling a particular number n obviously but we'll be able to handle"
+  },
+  {
+    "t_start": 1195.27,
+    "t_end": 1195.28,
+    "text": "n obviously but we'll be able to handle"
+  },
+  {
+    "t_start": 1195.28,
+    "t_end": 1197.43,
+    "text": "n obviously but we'll be able to handle every possible number eventually"
+  },
+  {
+    "t_start": 1197.43,
+    "t_end": 1197.44,
+    "text": "every possible number eventually"
+  },
+  {
+    "t_start": 1197.44,
+    "t_end": 1200.07,
+    "text": "every possible number eventually so if n is bigger than n0 then we can"
+  },
+  {
+    "t_start": 1200.07,
+    "t_end": 1200.08,
+    "text": "so if n is bigger than n0 then we can"
+  },
+  {
+    "t_start": 1200.08,
+    "t_end": 1201.27,
+    "text": "so if n is bigger than n0 then we can return true"
+  },
+  {
+    "t_start": 1201.27,
+    "t_end": 1201.28,
+    "text": "return true"
+  },
+  {
+    "t_start": 1201.28,
+    "t_end": 1204.31,
+    "text": "return true otherwise we need to keep a track of"
+  },
+  {
+    "t_start": 1204.31,
+    "t_end": 1204.32,
+    "text": "otherwise we need to keep a track of"
+  },
+  {
+    "t_start": 1204.32,
+    "t_end": 1206.87,
+    "text": "otherwise we need to keep a track of all the integers we've ever seen so i'm"
+  },
+  {
+    "t_start": 1206.87,
+    "t_end": 1206.88,
+    "text": "all the integers we've ever seen so i'm"
+  },
+  {
+    "t_start": 1206.88,
+    "t_end": 1208.31,
+    "text": "all the integers we've ever seen so i'm going to make a list called"
+  },
+  {
+    "t_start": 1208.31,
+    "t_end": 1208.32,
+    "text": "going to make a list called"
+  },
+  {
+    "t_start": 1208.32,
+    "t_end": 1210.789,
+    "text": "going to make a list called scene just a list i'm going to write it"
+  },
+  {
+    "t_start": 1210.789,
+    "t_end": 1210.799,
+    "text": "scene just a list i'm going to write it"
+  },
+  {
+    "t_start": 1210.799,
+    "t_end": 1212.47,
+    "text": "scene just a list i'm going to write it in python syntax"
+  },
+  {
+    "t_start": 1212.47,
+    "t_end": 1212.48,
+    "text": "in python syntax"
+  },
+  {
+    "t_start": 1212.48,
+    "t_end": 1213.909,
+    "text": "in python syntax then what i'm going to do is i'm going"
+  },
+  {
+    "t_start": 1213.909,
+    "t_end": 1213.919,
+    "text": "then what i'm going to do is i'm going"
+  },
+  {
+    "t_start": 1213.919,
+    "t_end": 1216.789,
+    "text": "then what i'm going to do is i'm going to seen"
+  },
+  {
+    "t_start": 1220.71,
+    "t_end": 1220.72,
+    "text": "plus equal and using python syntax"
+  },
+  {
+    "t_start": 1220.72,
+    "t_end": 1225.27,
+    "text": "plus equal and using python syntax although it's not super important"
+  },
+  {
+    "t_start": 1228.95,
+    "t_end": 1228.96,
+    "text": "so then what i'm going to do is if"
+  },
+  {
+    "t_start": 1228.96,
+    "t_end": 1231.11,
+    "text": "so then what i'm going to do is if i'm going to check if this is already in"
+  },
+  {
+    "t_start": 1231.11,
+    "t_end": 1231.12,
+    "text": "i'm going to check if this is already in"
+  },
+  {
+    "t_start": 1231.12,
+    "t_end": 1233.029,
+    "text": "i'm going to check if this is already in there you can use a set to make this a"
+  },
+  {
+    "t_start": 1233.029,
+    "t_end": 1233.039,
+    "text": "there you can use a set to make this a"
+  },
+  {
+    "t_start": 1233.039,
+    "t_end": 1234.47,
+    "text": "there you can use a set to make this a little faster but"
+  },
+  {
+    "t_start": 1234.47,
+    "t_end": 1234.48,
+    "text": "little faster but"
+  },
+  {
+    "t_start": 1234.48,
+    "t_end": 1237.59,
+    "text": "little faster but so if the number n that we just"
+  },
+  {
+    "t_start": 1237.59,
+    "t_end": 1237.6,
+    "text": "so if the number n that we just"
+  },
+  {
+    "t_start": 1237.6,
+    "t_end": 1239.669,
+    "text": "so if the number n that we just created right here has already been seen"
+  },
+  {
+    "t_start": 1239.669,
+    "t_end": 1239.679,
+    "text": "created right here has already been seen"
+  },
+  {
+    "t_start": 1239.679,
+    "t_end": 1240.87,
+    "text": "created right here has already been seen before so"
+  },
+  {
+    "t_start": 1240.87,
+    "t_end": 1240.88,
+    "text": "before so"
+  },
+  {
+    "t_start": 1240.88,
+    "t_end": 1244.23,
+    "text": "before so if n is in the steam list"
+  },
+  {
+    "t_start": 1244.23,
+    "t_end": 1244.24,
+    "text": "if n is in the steam list"
+  },
+  {
+    "t_start": 1244.24,
+    "t_end": 1246.149,
+    "text": "if n is in the steam list then that means that there is a loop in"
+  },
+  {
+    "t_start": 1246.149,
+    "t_end": 1246.159,
+    "text": "then that means that there is a loop in"
+  },
+  {
+    "t_start": 1246.159,
+    "t_end": 1248.39,
+    "text": "then that means that there is a loop in the trajectory and we'll never reach one"
+  },
+  {
+    "t_start": 1248.39,
+    "t_end": 1248.4,
+    "text": "the trajectory and we'll never reach one"
+  },
+  {
+    "t_start": 1248.4,
+    "t_end": 1252.87,
+    "text": "the trajectory and we'll never reach one obviously so i'm going to return false"
+  },
+  {
+    "t_start": 1255.27,
+    "t_end": 1255.28,
+    "text": "so whichever is the case well here this"
+  },
+  {
+    "t_start": 1255.28,
+    "t_end": 1257.75,
+    "text": "so whichever is the case well here this takes a finite amount of time obviously"
+  },
+  {
+    "t_start": 1257.75,
+    "t_end": 1257.76,
+    "text": "takes a finite amount of time obviously"
+  },
+  {
+    "t_start": 1257.76,
+    "t_end": 1259.75,
+    "text": "takes a finite amount of time obviously well here i claim that we're going to"
+  },
+  {
+    "t_start": 1259.75,
+    "t_end": 1259.76,
+    "text": "well here i claim that we're going to"
+  },
+  {
+    "t_start": 1259.76,
+    "t_end": 1261.51,
+    "text": "well here i claim that we're going to retur we're going to return true or"
+  },
+  {
+    "t_start": 1261.51,
+    "t_end": 1261.52,
+    "text": "retur we're going to return true or"
+  },
+  {
+    "t_start": 1261.52,
+    "t_end": 1262.07,
+    "text": "retur we're going to return true or return"
+  },
+  {
+    "t_start": 1262.07,
+    "t_end": 1262.08,
+    "text": "return"
+  },
+  {
+    "t_start": 1262.08,
+    "t_end": 1264.63,
+    "text": "return false in a finite amount of time because"
+  },
+  {
+    "t_start": 1264.63,
+    "t_end": 1264.64,
+    "text": "false in a finite amount of time because"
+  },
+  {
+    "t_start": 1264.64,
+    "t_end": 1266.07,
+    "text": "false in a finite amount of time because if we do"
+  },
+  {
+    "t_start": 1266.07,
+    "t_end": 1266.08,
+    "text": "if we do"
+  },
+  {
+    "t_start": 1266.08,
+    "t_end": 1267.83,
+    "text": "if we do suppose that we can't well that means"
+  },
+  {
+    "t_start": 1267.83,
+    "t_end": 1267.84,
+    "text": "suppose that we can't well that means"
+  },
+  {
+    "t_start": 1267.84,
+    "t_end": 1269.669,
+    "text": "suppose that we can't well that means that we spend an infinite amount of time"
+  },
+  {
+    "t_start": 1269.669,
+    "t_end": 1269.679,
+    "text": "that we spend an infinite amount of time"
+  },
+  {
+    "t_start": 1269.679,
+    "t_end": 1270.47,
+    "text": "that we spend an infinite amount of time down here well"
+  },
+  {
+    "t_start": 1270.47,
+    "t_end": 1270.48,
+    "text": "down here well"
+  },
+  {
+    "t_start": 1270.48,
+    "t_end": 1271.669,
+    "text": "down here well there are only a finite number of"
+  },
+  {
+    "t_start": 1271.669,
+    "t_end": 1271.679,
+    "text": "there are only a finite number of"
+  },
+  {
+    "t_start": 1271.679,
+    "t_end": 1273.75,
+    "text": "there are only a finite number of integers down here so"
+  },
+  {
+    "t_start": 1273.75,
+    "t_end": 1273.76,
+    "text": "integers down here so"
+  },
+  {
+    "t_start": 1273.76,
+    "t_end": 1276.23,
+    "text": "integers down here so either we will escape the bound at which"
+  },
+  {
+    "t_start": 1276.23,
+    "t_end": 1276.24,
+    "text": "either we will escape the bound at which"
+  },
+  {
+    "t_start": 1276.24,
+    "t_end": 1276.789,
+    "text": "either we will escape the bound at which point"
+  },
+  {
+    "t_start": 1276.789,
+    "t_end": 1276.799,
+    "text": "point"
+  },
+  {
+    "t_start": 1276.799,
+    "t_end": 1280.63,
+    "text": "point the assumption kicks in or we"
+  },
+  {
+    "t_start": 1280.63,
+    "t_end": 1280.64,
+    "text": "the assumption kicks in or we"
+  },
+  {
+    "t_start": 1280.64,
+    "t_end": 1282.23,
+    "text": "the assumption kicks in or we repeat an integer that we've already"
+  },
+  {
+    "t_start": 1282.23,
+    "t_end": 1282.24,
+    "text": "repeat an integer that we've already"
+  },
+  {
+    "t_start": 1282.24,
+    "t_end": 1283.669,
+    "text": "repeat an integer that we've already seen which"
+  },
+  {
+    "t_start": 1283.669,
+    "t_end": 1283.679,
+    "text": "seen which"
+  },
+  {
+    "t_start": 1283.679,
+    "t_end": 1286.39,
+    "text": "seen which which we will eventually find here and"
+  },
+  {
+    "t_start": 1286.39,
+    "t_end": 1286.4,
+    "text": "which we will eventually find here and"
+  },
+  {
+    "t_start": 1286.4,
+    "t_end": 1288.07,
+    "text": "which we will eventually find here and checking whether a number's in a finite"
+  },
+  {
+    "t_start": 1288.07,
+    "t_end": 1288.08,
+    "text": "checking whether a number's in a finite"
+  },
+  {
+    "t_start": 1288.08,
+    "t_end": 1288.549,
+    "text": "checking whether a number's in a finite list"
+  },
+  {
+    "t_start": 1288.549,
+    "t_end": 1288.559,
+    "text": "list"
+  },
+  {
+    "t_start": 1288.559,
+    "t_end": 1291.83,
+    "text": "list is takes a finite amount of time"
+  },
+  {
+    "t_start": 1291.83,
+    "t_end": 1291.84,
+    "text": "is takes a finite amount of time"
+  },
+  {
+    "t_start": 1291.84,
+    "t_end": 1294.95,
+    "text": "is takes a finite amount of time so the thing is that this is true for a"
+  },
+  {
+    "t_start": 1294.95,
+    "t_end": 1294.96,
+    "text": "so the thing is that this is true for a"
+  },
+  {
+    "t_start": 1294.96,
+    "t_end": 1295.75,
+    "text": "so the thing is that this is true for a specific"
+  },
+  {
+    "t_start": 1295.75,
+    "t_end": 1295.76,
+    "text": "specific"
+  },
+  {
+    "t_start": 1295.76,
+    "t_end": 1298.87,
+    "text": "specific n so if it is true for"
+  },
+  {
+    "t_start": 1298.87,
+    "t_end": 1298.88,
+    "text": "n so if it is true for"
+  },
+  {
+    "t_start": 1298.88,
+    "t_end": 1301.669,
+    "text": "n so if it is true for at least a specific number then i can"
+  },
+  {
+    "t_start": 1301.669,
+    "t_end": 1301.679,
+    "text": "at least a specific number then i can"
+  },
+  {
+    "t_start": 1301.679,
+    "t_end": 1303.27,
+    "text": "at least a specific number then i can check any number"
+  },
+  {
+    "t_start": 1303.27,
+    "t_end": 1303.28,
+    "text": "check any number"
+  },
+  {
+    "t_start": 1303.28,
+    "t_end": 1306.149,
+    "text": "check any number i claim so then all that we need to do"
+  },
+  {
+    "t_start": 1306.149,
+    "t_end": 1306.159,
+    "text": "i claim so then all that we need to do"
+  },
+  {
+    "t_start": 1306.159,
+    "t_end": 1306.87,
+    "text": "i claim so then all that we need to do to check"
+  },
+  {
+    "t_start": 1306.87,
+    "t_end": 1306.88,
+    "text": "to check"
+  },
+  {
+    "t_start": 1306.88,
+    "t_end": 1310.23,
+    "text": "to check whether the whole conjecture is true"
+  },
+  {
+    "t_start": 1310.23,
+    "t_end": 1310.24,
+    "text": "whether the whole conjecture is true"
+  },
+  {
+    "t_start": 1310.24,
+    "t_end": 1313.99,
+    "text": "whether the whole conjecture is true so to check"
+  },
+  {
+    "t_start": 1313.99,
+    "t_end": 1314.0,
+    "text": "so to check"
+  },
+  {
+    "t_start": 1314.0,
+    "t_end": 1319.75,
+    "text": "so to check the 3x plus 1 conjecture"
+  },
+  {
+    "t_start": 1319.75,
+    "t_end": 1319.76,
+    "text": "the 3x plus 1 conjecture"
+  },
+  {
+    "t_start": 1319.76,
+    "t_end": 1323.99,
+    "text": "the 3x plus 1 conjecture what we need to do is to run all"
+  },
+  {
+    "t_start": 1323.99,
+    "t_end": 1324.0,
+    "text": "what we need to do is to run all"
+  },
+  {
+    "t_start": 1324.0,
+    "t_end": 1327.99,
+    "text": "what we need to do is to run all numbers from"
+  },
+  {
+    "t_start": 1327.99,
+    "t_end": 1328.0,
+    "text": "numbers from"
+  },
+  {
+    "t_start": 1328.0,
+    "t_end": 1331.669,
+    "text": "numbers from a one actually i should start at least"
+  },
+  {
+    "t_start": 1331.669,
+    "t_end": 1331.679,
+    "text": "a one actually i should start at least"
+  },
+  {
+    "t_start": 1331.679,
+    "t_end": 1334.31,
+    "text": "a one actually i should start at least five because there there actually is a"
+  },
+  {
+    "t_start": 1334.31,
+    "t_end": 1334.32,
+    "text": "five because there there actually is a"
+  },
+  {
+    "t_start": 1334.32,
+    "t_end": 1334.789,
+    "text": "five because there there actually is a loop"
+  },
+  {
+    "t_start": 1334.789,
+    "t_end": 1334.799,
+    "text": "loop"
+  },
+  {
+    "t_start": 1334.799,
+    "t_end": 1336.549,
+    "text": "loop uh the one two four loop that is"
+  },
+  {
+    "t_start": 1336.549,
+    "t_end": 1336.559,
+    "text": "uh the one two four loop that is"
+  },
+  {
+    "t_start": 1336.559,
+    "t_end": 1338.23,
+    "text": "uh the one two four loop that is veritasium mentioned"
+  },
+  {
+    "t_start": 1338.23,
+    "t_end": 1338.24,
+    "text": "veritasium mentioned"
+  },
+  {
+    "t_start": 1338.24,
+    "t_end": 1343.11,
+    "text": "veritasium mentioned uh five until n zero"
+  },
+  {
+    "t_start": 1343.11,
+    "t_end": 1343.12,
+    "text": "uh five until n zero"
+  },
+  {
+    "t_start": 1343.12,
+    "t_end": 1344.63,
+    "text": "uh five until n zero because there's no point to check the"
+  },
+  {
+    "t_start": 1344.63,
+    "t_end": 1344.64,
+    "text": "because there's no point to check the"
+  },
+  {
+    "t_start": 1344.64,
+    "t_end": 1346.23,
+    "text": "because there's no point to check the numbers after that assuming that there"
+  },
+  {
+    "t_start": 1346.23,
+    "t_end": 1346.24,
+    "text": "numbers after that assuming that there"
+  },
+  {
+    "t_start": 1346.24,
+    "t_end": 1346.789,
+    "text": "numbers after that assuming that there has been an"
+  },
+  {
+    "t_start": 1346.789,
+    "t_end": 1346.799,
+    "text": "has been an"
+  },
+  {
+    "t_start": 1346.799,
+    "t_end": 1349.75,
+    "text": "has been an advance in uh in a big advanced"
+  },
+  {
+    "t_start": 1349.75,
+    "t_end": 1349.76,
+    "text": "advance in uh in a big advanced"
+  },
+  {
+    "t_start": 1349.76,
+    "t_end": 1350.95,
+    "text": "advance in uh in a big advanced mathematics"
+  },
+  {
+    "t_start": 1350.95,
+    "t_end": 1350.96,
+    "text": "mathematics"
+  },
+  {
+    "t_start": 1350.96,
+    "t_end": 1353.669,
+    "text": "mathematics um this is a big assumption by the way"
+  },
+  {
+    "t_start": 1353.669,
+    "t_end": 1353.679,
+    "text": "um this is a big assumption by the way"
+  },
+  {
+    "t_start": 1353.679,
+    "t_end": 1354.39,
+    "text": "um this is a big assumption by the way so"
+  },
+  {
+    "t_start": 1354.39,
+    "t_end": 1354.4,
+    "text": "so"
+  },
+  {
+    "t_start": 1354.4,
+    "t_end": 1356.95,
+    "text": "so um whether this is going to ever be"
+  },
+  {
+    "t_start": 1356.95,
+    "t_end": 1356.96,
+    "text": "um whether this is going to ever be"
+  },
+  {
+    "t_start": 1356.96,
+    "t_end": 1357.43,
+    "text": "um whether this is going to ever be proven"
+  },
+  {
+    "t_start": 1357.43,
+    "t_end": 1357.44,
+    "text": "proven"
+  },
+  {
+    "t_start": 1357.44,
+    "t_end": 1360.47,
+    "text": "proven i have no idea but it is decidable"
+  },
+  {
+    "t_start": 1360.47,
+    "t_end": 1360.48,
+    "text": "i have no idea but it is decidable"
+  },
+  {
+    "t_start": 1360.48,
+    "t_end": 1363.83,
+    "text": "i have no idea but it is decidable if this is the case so which a lot of"
+  },
+  {
+    "t_start": 1363.83,
+    "t_end": 1363.84,
+    "text": "if this is the case so which a lot of"
+  },
+  {
+    "t_start": 1363.84,
+    "t_end": 1365.51,
+    "text": "if this is the case so which a lot of conjectures have fallen in this"
+  },
+  {
+    "t_start": 1365.51,
+    "t_end": 1365.52,
+    "text": "conjectures have fallen in this"
+  },
+  {
+    "t_start": 1365.52,
+    "t_end": 1369.19,
+    "text": "conjectures have fallen in this particular way that above a big specific"
+  },
+  {
+    "t_start": 1369.19,
+    "t_end": 1369.2,
+    "text": "particular way that above a big specific"
+  },
+  {
+    "t_start": 1369.2,
+    "t_end": 1370.07,
+    "text": "particular way that above a big specific number"
+  },
+  {
+    "t_start": 1370.07,
+    "t_end": 1370.08,
+    "text": "number"
+  },
+  {
+    "t_start": 1370.08,
+    "t_end": 1371.83,
+    "text": "number the conjecture is true and there's only"
+  },
+  {
+    "t_start": 1371.83,
+    "t_end": 1371.84,
+    "text": "the conjecture is true and there's only"
+  },
+  {
+    "t_start": 1371.84,
+    "t_end": 1373.669,
+    "text": "the conjecture is true and there's only a finite number of cases to check"
+  },
+  {
+    "t_start": 1373.669,
+    "t_end": 1373.679,
+    "text": "a finite number of cases to check"
+  },
+  {
+    "t_start": 1373.679,
+    "t_end": 1376.549,
+    "text": "a finite number of cases to check the thing is that it may not be possible"
+  },
+  {
+    "t_start": 1376.549,
+    "t_end": 1376.559,
+    "text": "the thing is that it may not be possible"
+  },
+  {
+    "t_start": 1376.559,
+    "t_end": 1377.669,
+    "text": "the thing is that it may not be possible in a finite"
+  },
+  {
+    "t_start": 1377.669,
+    "t_end": 1377.679,
+    "text": "in a finite"
+  },
+  {
+    "t_start": 1377.679,
+    "t_end": 1380.789,
+    "text": "in a finite um in a reasonable amount of time"
+  },
+  {
+    "t_start": 1380.789,
+    "t_end": 1380.799,
+    "text": "um in a reasonable amount of time"
+  },
+  {
+    "t_start": 1380.799,
+    "t_end": 1383.59,
+    "text": "um in a reasonable amount of time so it might be in principle possible to"
+  },
+  {
+    "t_start": 1383.59,
+    "t_end": 1383.6,
+    "text": "so it might be in principle possible to"
+  },
+  {
+    "t_start": 1383.6,
+    "t_end": 1384.23,
+    "text": "so it might be in principle possible to check"
+  },
+  {
+    "t_start": 1384.23,
+    "t_end": 1384.24,
+    "text": "check"
+  },
+  {
+    "t_start": 1384.24,
+    "t_end": 1387.11,
+    "text": "check but it just might not be practical to"
+  },
+  {
+    "t_start": 1387.11,
+    "t_end": 1387.12,
+    "text": "but it just might not be practical to"
+  },
+  {
+    "t_start": 1387.12,
+    "t_end": 1388.31,
+    "text": "but it just might not be practical to actually check"
+  },
+  {
+    "t_start": 1388.31,
+    "t_end": 1388.32,
+    "text": "actually check"
+  },
+  {
+    "t_start": 1388.32,
+    "t_end": 1390.95,
+    "text": "actually check okay so the important thing is that we"
+  },
+  {
+    "t_start": 1390.95,
+    "t_end": 1390.96,
+    "text": "okay so the important thing is that we"
+  },
+  {
+    "t_start": 1390.96,
+    "t_end": 1392.87,
+    "text": "okay so the important thing is that we get the definitions of what"
+  },
+  {
+    "t_start": 1392.87,
+    "t_end": 1392.88,
+    "text": "get the definitions of what"
+  },
+  {
+    "t_start": 1392.88,
+    "t_end": 1395.909,
+    "text": "get the definitions of what decidable and undecidable actually mean"
+  },
+  {
+    "t_start": 1395.909,
+    "t_end": 1395.919,
+    "text": "decidable and undecidable actually mean"
+  },
+  {
+    "t_start": 1395.919,
+    "t_end": 1399.669,
+    "text": "decidable and undecidable actually mean okay so just to recap so"
+  },
+  {
+    "t_start": 1399.669,
+    "t_end": 1399.679,
+    "text": "okay so just to recap so"
+  },
+  {
+    "t_start": 1399.679,
+    "t_end": 1403.27,
+    "text": "okay so just to recap so the problem is decidable if you phrase"
+  },
+  {
+    "t_start": 1403.27,
+    "t_end": 1403.28,
+    "text": "the problem is decidable if you phrase"
+  },
+  {
+    "t_start": 1403.28,
+    "t_end": 1404.71,
+    "text": "the problem is decidable if you phrase it in certain ways"
+  },
+  {
+    "t_start": 1404.71,
+    "t_end": 1404.72,
+    "text": "it in certain ways"
+  },
+  {
+    "t_start": 1404.72,
+    "t_end": 1408.23,
+    "text": "it in certain ways and possibly undecidable if you phrase"
+  },
+  {
+    "t_start": 1408.23,
+    "t_end": 1408.24,
+    "text": "and possibly undecidable if you phrase"
+  },
+  {
+    "t_start": 1408.24,
+    "t_end": 1409.83,
+    "text": "and possibly undecidable if you phrase it in other ways"
+  },
+  {
+    "t_start": 1409.83,
+    "t_end": 1409.84,
+    "text": "it in other ways"
+  },
+  {
+    "t_start": 1409.84,
+    "t_end": 1412.47,
+    "text": "it in other ways because where it really has to deal with"
+  },
+  {
+    "t_start": 1412.47,
+    "t_end": 1412.48,
+    "text": "because where it really has to deal with"
+  },
+  {
+    "t_start": 1412.48,
+    "t_end": 1413.99,
+    "text": "because where it really has to deal with whether you can represent an"
+  },
+  {
+    "t_start": 1413.99,
+    "t_end": 1414.0,
+    "text": "whether you can represent an"
+  },
+  {
+    "t_start": 1414.0,
+    "t_end": 1416.549,
+    "text": "whether you can represent an infinite set in a specific way or you're"
+  },
+  {
+    "t_start": 1416.549,
+    "t_end": 1416.559,
+    "text": "infinite set in a specific way or you're"
+  },
+  {
+    "t_start": 1416.559,
+    "t_end": 1417.83,
+    "text": "infinite set in a specific way or you're dealing with a specific"
+  },
+  {
+    "t_start": 1417.83,
+    "t_end": 1417.84,
+    "text": "dealing with a specific"
+  },
+  {
+    "t_start": 1417.84,
+    "t_end": 1419.75,
+    "text": "dealing with a specific input or whether you're talking about"
+  },
+  {
+    "t_start": 1419.75,
+    "t_end": 1419.76,
+    "text": "input or whether you're talking about"
+  },
+  {
+    "t_start": 1419.76,
+    "t_end": 1421.35,
+    "text": "input or whether you're talking about the whole conjecture as a"
+  },
+  {
+    "t_start": 1421.35,
+    "t_end": 1421.36,
+    "text": "the whole conjecture as a"
+  },
+  {
+    "t_start": 1421.36,
+    "t_end": 1423.75,
+    "text": "the whole conjecture as a as a whole then it may or may not be"
+  },
+  {
+    "t_start": 1423.75,
+    "t_end": 1423.76,
+    "text": "as a whole then it may or may not be"
+  },
+  {
+    "t_start": 1423.76,
+    "t_end": 1425.19,
+    "text": "as a whole then it may or may not be decidable depending"
+  },
+  {
+    "t_start": 1425.19,
+    "t_end": 1425.2,
+    "text": "decidable depending"
+  },
+  {
+    "t_start": 1425.2,
+    "t_end": 1428.83,
+    "text": "decidable depending on the encoding of the problem okay"
+  },
+  {
+    "t_start": 1428.83,
+    "t_end": 1428.84,
+    "text": "on the encoding of the problem okay"
+  },
+  {
+    "t_start": 1428.84,
+    "t_end": 1432.71,
+    "text": "on the encoding of the problem okay um so undecidable means that there's no"
+  },
+  {
+    "t_start": 1432.71,
+    "t_end": 1432.72,
+    "text": "um so undecidable means that there's no"
+  },
+  {
+    "t_start": 1432.72,
+    "t_end": 1435.029,
+    "text": "um so undecidable means that there's no algorithm to solve the problem"
+  },
+  {
+    "t_start": 1435.029,
+    "t_end": 1435.039,
+    "text": "algorithm to solve the problem"
+  },
+  {
+    "t_start": 1435.039,
+    "t_end": 1437.669,
+    "text": "algorithm to solve the problem and which means that it must halt in a"
+  },
+  {
+    "t_start": 1437.669,
+    "t_end": 1437.679,
+    "text": "and which means that it must halt in a"
+  },
+  {
+    "t_start": 1437.679,
+    "t_end": 1439.35,
+    "text": "and which means that it must halt in a finite amount of time if there is an"
+  },
+  {
+    "t_start": 1439.35,
+    "t_end": 1439.36,
+    "text": "finite amount of time if there is an"
+  },
+  {
+    "t_start": 1439.36,
+    "t_end": 1441.11,
+    "text": "finite amount of time if there is an algorithm for the thing"
+  },
+  {
+    "t_start": 1441.11,
+    "t_end": 1441.12,
+    "text": "algorithm for the thing"
+  },
+  {
+    "t_start": 1441.12,
+    "t_end": 1444.07,
+    "text": "algorithm for the thing so if there we make some assumptions"
+  },
+  {
+    "t_start": 1444.07,
+    "t_end": 1444.08,
+    "text": "so if there we make some assumptions"
+  },
+  {
+    "t_start": 1444.08,
+    "t_end": 1445.269,
+    "text": "so if there we make some assumptions then we can make"
+  },
+  {
+    "t_start": 1445.269,
+    "t_end": 1445.279,
+    "text": "then we can make"
+  },
+  {
+    "t_start": 1445.279,
+    "t_end": 1449.51,
+    "text": "then we can make some predictions so um"
+  },
+  {
+    "t_start": 1449.51,
+    "t_end": 1449.52,
+    "text": "some predictions so um"
+  },
+  {
+    "t_start": 1449.52,
+    "t_end": 1451.269,
+    "text": "some predictions so um we may or may not be able to show that"
+  },
+  {
+    "t_start": 1451.269,
+    "t_end": 1451.279,
+    "text": "we may or may not be able to show that"
+  },
+  {
+    "t_start": 1451.279,
+    "t_end": 1453.51,
+    "text": "we may or may not be able to show that three x plus one conjecture is decidable"
+  },
+  {
+    "t_start": 1453.51,
+    "t_end": 1453.52,
+    "text": "three x plus one conjecture is decidable"
+  },
+  {
+    "t_start": 1453.52,
+    "t_end": 1454.39,
+    "text": "three x plus one conjecture is decidable even if we can"
+  },
+  {
+    "t_start": 1454.39,
+    "t_end": 1454.4,
+    "text": "even if we can"
+  },
+  {
+    "t_start": 1454.4,
+    "t_end": 1457.75,
+    "text": "even if we can verify a single number because"
+  },
+  {
+    "t_start": 1457.75,
+    "t_end": 1457.76,
+    "text": "verify a single number because"
+  },
+  {
+    "t_start": 1457.76,
+    "t_end": 1460.07,
+    "text": "verify a single number because the routine way of just checking all"
+  },
+  {
+    "t_start": 1460.07,
+    "t_end": 1460.08,
+    "text": "the routine way of just checking all"
+  },
+  {
+    "t_start": 1460.08,
+    "t_end": 1460.789,
+    "text": "the routine way of just checking all numbers"
+  },
+  {
+    "t_start": 1460.789,
+    "t_end": 1460.799,
+    "text": "numbers"
+  },
+  {
+    "t_start": 1460.799,
+    "t_end": 1463.75,
+    "text": "numbers we may never run into a false number and"
+  },
+  {
+    "t_start": 1463.75,
+    "t_end": 1463.76,
+    "text": "we may never run into a false number and"
+  },
+  {
+    "t_start": 1463.76,
+    "t_end": 1464.71,
+    "text": "we may never run into a false number and so"
+  },
+  {
+    "t_start": 1464.71,
+    "t_end": 1464.72,
+    "text": "so"
+  },
+  {
+    "t_start": 1464.72,
+    "t_end": 1467.11,
+    "text": "so the we could run for an infinite amount"
+  },
+  {
+    "t_start": 1467.11,
+    "t_end": 1467.12,
+    "text": "the we could run for an infinite amount"
+  },
+  {
+    "t_start": 1467.12,
+    "t_end": 1467.83,
+    "text": "the we could run for an infinite amount of time"
+  },
+  {
+    "t_start": 1467.83,
+    "t_end": 1467.84,
+    "text": "of time"
+  },
+  {
+    "t_start": 1467.84,
+    "t_end": 1469.51,
+    "text": "of time and never find the thing that we want to"
+  },
+  {
+    "t_start": 1469.51,
+    "t_end": 1469.52,
+    "text": "and never find the thing that we want to"
+  },
+  {
+    "t_start": 1469.52,
+    "t_end": 1472.149,
+    "text": "and never find the thing that we want to find so even if the conjecture"
+  },
+  {
+    "t_start": 1472.149,
+    "t_end": 1472.159,
+    "text": "find so even if the conjecture"
+  },
+  {
+    "t_start": 1472.159,
+    "t_end": 1476.47,
+    "text": "find so even if the conjecture is true so there are encodings that"
+  },
+  {
+    "t_start": 1476.47,
+    "t_end": 1476.48,
+    "text": "is true so there are encodings that"
+  },
+  {
+    "t_start": 1476.48,
+    "t_end": 1479.029,
+    "text": "is true so there are encodings that are based on the halting problem but"
+  },
+  {
+    "t_start": 1479.029,
+    "t_end": 1479.039,
+    "text": "are based on the halting problem but"
+  },
+  {
+    "t_start": 1479.039,
+    "t_end": 1480.07,
+    "text": "are based on the halting problem but even if we"
+  },
+  {
+    "t_start": 1480.07,
+    "t_end": 1480.08,
+    "text": "even if we"
+  },
+  {
+    "t_start": 1480.08,
+    "t_end": 1483.11,
+    "text": "even if we are doing something that is halting"
+  },
+  {
+    "t_start": 1483.11,
+    "t_end": 1483.12,
+    "text": "are doing something that is halting"
+  },
+  {
+    "t_start": 1483.12,
+    "t_end": 1485.11,
+    "text": "are doing something that is halting that is related to turing machines that"
+  },
+  {
+    "t_start": 1485.11,
+    "t_end": 1485.12,
+    "text": "that is related to turing machines that"
+  },
+  {
+    "t_start": 1485.12,
+    "t_end": 1487.669,
+    "text": "that is related to turing machines that does not imply that it's undecidable"
+  },
+  {
+    "t_start": 1487.669,
+    "t_end": 1487.679,
+    "text": "does not imply that it's undecidable"
+  },
+  {
+    "t_start": 1487.679,
+    "t_end": 1491.51,
+    "text": "does not imply that it's undecidable because of this so turing machines"
+  },
+  {
+    "t_start": 1491.51,
+    "t_end": 1491.52,
+    "text": "because of this so turing machines"
+  },
+  {
+    "t_start": 1491.52,
+    "t_end": 1493.99,
+    "text": "because of this so turing machines um the halting problem is undecidable"
+  },
+  {
+    "t_start": 1493.99,
+    "t_end": 1494.0,
+    "text": "um the halting problem is undecidable"
+  },
+  {
+    "t_start": 1494.0,
+    "t_end": 1494.549,
+    "text": "um the halting problem is undecidable but a"
+  },
+  {
+    "t_start": 1494.549,
+    "t_end": 1494.559,
+    "text": "but a"
+  },
+  {
+    "t_start": 1494.559,
+    "t_end": 1497.11,
+    "text": "but a simplified version of a turing machine"
+  },
+  {
+    "t_start": 1497.11,
+    "t_end": 1497.12,
+    "text": "simplified version of a turing machine"
+  },
+  {
+    "t_start": 1497.12,
+    "t_end": 1498.87,
+    "text": "simplified version of a turing machine is decidable"
+  },
+  {
+    "t_start": 1498.87,
+    "t_end": 1498.88,
+    "text": "is decidable"
+  },
+  {
+    "t_start": 1498.88,
+    "t_end": 1501.43,
+    "text": "is decidable and if we encode the problem in a"
+  },
+  {
+    "t_start": 1501.43,
+    "t_end": 1501.44,
+    "text": "and if we encode the problem in a"
+  },
+  {
+    "t_start": 1501.44,
+    "t_end": 1502.71,
+    "text": "and if we encode the problem in a specific way"
+  },
+  {
+    "t_start": 1502.71,
+    "t_end": 1502.72,
+    "text": "specific way"
+  },
+  {
+    "t_start": 1502.72,
+    "t_end": 1506.31,
+    "text": "specific way then it provably is decidable"
+  },
+  {
+    "t_start": 1506.31,
+    "t_end": 1506.32,
+    "text": "then it provably is decidable"
+  },
+  {
+    "t_start": 1506.32,
+    "t_end": 1509.35,
+    "text": "then it provably is decidable but it's just not really any use to us"
+  },
+  {
+    "t_start": 1509.35,
+    "t_end": 1509.36,
+    "text": "but it's just not really any use to us"
+  },
+  {
+    "t_start": 1509.36,
+    "t_end": 1512.23,
+    "text": "but it's just not really any use to us so the question is what kinds of things"
+  },
+  {
+    "t_start": 1512.23,
+    "t_end": 1512.24,
+    "text": "so the question is what kinds of things"
+  },
+  {
+    "t_start": 1512.24,
+    "t_end": 1512.71,
+    "text": "so the question is what kinds of things can we"
+  },
+  {
+    "t_start": 1512.71,
+    "t_end": 1512.72,
+    "text": "can we"
+  },
+  {
+    "t_start": 1512.72,
+    "t_end": 1515.909,
+    "text": "can we show that if we make some assumptions"
+  },
+  {
+    "t_start": 1515.909,
+    "t_end": 1515.919,
+    "text": "show that if we make some assumptions"
+  },
+  {
+    "t_start": 1515.919,
+    "t_end": 1517.909,
+    "text": "show that if we make some assumptions then we can actually show that it really"
+  },
+  {
+    "t_start": 1517.909,
+    "t_end": 1517.919,
+    "text": "then we can actually show that it really"
+  },
+  {
+    "t_start": 1517.919,
+    "t_end": 1519.51,
+    "text": "then we can actually show that it really is decidable"
+  },
+  {
+    "t_start": 1519.51,
+    "t_end": 1519.52,
+    "text": "is decidable"
+  },
+  {
+    "t_start": 1519.52,
+    "t_end": 1522.549,
+    "text": "is decidable and this is a reasonable claim to make"
+  },
+  {
+    "t_start": 1522.549,
+    "t_end": 1522.559,
+    "text": "and this is a reasonable claim to make"
+  },
+  {
+    "t_start": 1522.559,
+    "t_end": 1525.669,
+    "text": "and this is a reasonable claim to make even if it is actually false because"
+  },
+  {
+    "t_start": 1525.669,
+    "t_end": 1525.679,
+    "text": "even if it is actually false because"
+  },
+  {
+    "t_start": 1525.679,
+    "t_end": 1529.11,
+    "text": "even if it is actually false because of terry tao's work and other people's"
+  },
+  {
+    "t_start": 1529.11,
+    "t_end": 1529.12,
+    "text": "of terry tao's work and other people's"
+  },
+  {
+    "t_start": 1529.12,
+    "t_end": 1530.31,
+    "text": "of terry tao's work and other people's work to"
+  },
+  {
+    "t_start": 1530.31,
+    "t_end": 1530.32,
+    "text": "work to"
+  },
+  {
+    "t_start": 1530.32,
+    "t_end": 1533.11,
+    "text": "work to show that a lot of trajectories will"
+  },
+  {
+    "t_start": 1533.11,
+    "t_end": 1533.12,
+    "text": "show that a lot of trajectories will"
+  },
+  {
+    "t_start": 1533.12,
+    "t_end": 1534.07,
+    "text": "show that a lot of trajectories will actually"
+  },
+  {
+    "t_start": 1534.07,
+    "t_end": 1534.08,
+    "text": "actually"
+  },
+  {
+    "t_start": 1534.08,
+    "t_end": 1537.75,
+    "text": "actually uh reach one so if it actually"
+  },
+  {
+    "t_start": 1537.75,
+    "t_end": 1537.76,
+    "text": "uh reach one so if it actually"
+  },
+  {
+    "t_start": 1537.76,
+    "t_end": 1540.23,
+    "text": "uh reach one so if it actually is true for all numbers after a specific"
+  },
+  {
+    "t_start": 1540.23,
+    "t_end": 1540.24,
+    "text": "is true for all numbers after a specific"
+  },
+  {
+    "t_start": 1540.24,
+    "t_end": 1541.909,
+    "text": "is true for all numbers after a specific number a lot of conjectures that have"
+  },
+  {
+    "t_start": 1541.909,
+    "t_end": 1541.919,
+    "text": "number a lot of conjectures that have"
+  },
+  {
+    "t_start": 1541.919,
+    "t_end": 1543.19,
+    "text": "number a lot of conjectures that have fallen this way"
+  },
+  {
+    "t_start": 1543.19,
+    "t_end": 1543.2,
+    "text": "fallen this way"
+  },
+  {
+    "t_start": 1543.2,
+    "t_end": 1546.23,
+    "text": "fallen this way then it actually is decidable okay"
+  },
+  {
+    "t_start": 1546.23,
+    "t_end": 1546.24,
+    "text": "then it actually is decidable okay"
+  },
+  {
+    "t_start": 1546.24,
+    "t_end": 1549.51,
+    "text": "then it actually is decidable okay but if uh if this is not true then it"
+  },
+  {
+    "t_start": 1549.51,
+    "t_end": 1549.52,
+    "text": "but if uh if this is not true then it"
+  },
+  {
+    "t_start": 1549.52,
+    "t_end": 1551.51,
+    "text": "but if uh if this is not true then it still could be decidable or not"
+  },
+  {
+    "t_start": 1551.51,
+    "t_end": 1551.52,
+    "text": "still could be decidable or not"
+  },
+  {
+    "t_start": 1551.52,
+    "t_end": 1555.19,
+    "text": "still could be decidable or not it's very very um fine-grained"
+  },
+  {
+    "t_start": 1555.19,
+    "t_end": 1555.2,
+    "text": "it's very very um fine-grained"
+  },
+  {
+    "t_start": 1555.2,
+    "t_end": 1557.269,
+    "text": "it's very very um fine-grained as to whether it's decidable or not"
+  },
+  {
+    "t_start": 1557.269,
+    "t_end": 1557.279,
+    "text": "as to whether it's decidable or not"
+  },
+  {
+    "t_start": 1557.279,
+    "t_end": 1559.51,
+    "text": "as to whether it's decidable or not depending on the encoding of the problem"
+  },
+  {
+    "t_start": 1559.51,
+    "t_end": 1559.52,
+    "text": "depending on the encoding of the problem"
+  },
+  {
+    "t_start": 1559.52,
+    "t_end": 1561.269,
+    "text": "depending on the encoding of the problem i've spoken long enough about this"
+  },
+  {
+    "t_start": 1561.269,
+    "t_end": 1561.279,
+    "text": "i've spoken long enough about this"
+  },
+  {
+    "t_start": 1561.279,
+    "t_end": 1563.11,
+    "text": "i've spoken long enough about this please watch the video it is very very"
+  },
+  {
+    "t_start": 1563.11,
+    "t_end": 1563.12,
+    "text": "please watch the video it is very very"
+  },
+  {
+    "t_start": 1563.12,
+    "t_end": 1565.11,
+    "text": "please watch the video it is very very good it was just this minor nitpick that"
+  },
+  {
+    "t_start": 1565.11,
+    "t_end": 1565.12,
+    "text": "good it was just this minor nitpick that"
+  },
+  {
+    "t_start": 1565.12,
+    "t_end": 1566.149,
+    "text": "good it was just this minor nitpick that i needed to"
+  },
+  {
+    "t_start": 1566.149,
+    "t_end": 1566.159,
+    "text": "i needed to"
+  },
+  {
+    "t_start": 1566.159,
+    "t_end": 1568.95,
+    "text": "i needed to to pick apart so if you have any"
+  },
+  {
+    "t_start": 1568.95,
+    "t_end": 1568.96,
+    "text": "to pick apart so if you have any"
+  },
+  {
+    "t_start": 1568.96,
+    "t_end": 1570.23,
+    "text": "to pick apart so if you have any questions about"
+  },
+  {
+    "t_start": 1570.23,
+    "t_end": 1570.24,
+    "text": "questions about"
+  },
+  {
+    "t_start": 1570.24,
+    "t_end": 1572.39,
+    "text": "questions about um algorithms or the three x plus one"
+  },
+  {
+    "t_start": 1572.39,
+    "t_end": 1572.4,
+    "text": "um algorithms or the three x plus one"
+  },
+  {
+    "t_start": 1572.4,
+    "t_end": 1574.549,
+    "text": "um algorithms or the three x plus one problem or undecidable problems please"
+  },
+  {
+    "t_start": 1574.549,
+    "t_end": 1574.559,
+    "text": "problem or undecidable problems please"
+  },
+  {
+    "t_start": 1574.559,
+    "t_end": 1576.31,
+    "text": "problem or undecidable problems please put them in the comments down below i'm"
+  },
+  {
+    "t_start": 1576.31,
+    "t_end": 1576.32,
+    "text": "put them in the comments down below i'm"
+  },
+  {
+    "t_start": 1576.32,
+    "t_end": 1577.51,
+    "text": "put them in the comments down below i'm always watching for them"
+  },
+  {
+    "t_start": 1577.51,
+    "t_end": 1577.52,
+    "text": "always watching for them"
+  },
+  {
+    "t_start": 1577.52,
+    "t_end": 1579.59,
+    "text": "always watching for them go watch veritas students video it is"
+  },
+  {
+    "t_start": 1579.59,
+    "t_end": 1579.6,
+    "text": "go watch veritas students video it is"
+  },
+  {
+    "t_start": 1579.6,
+    "t_end": 1580.63,
+    "text": "go watch veritas students video it is fantastic"
+  },
+  {
+    "t_start": 1580.63,
+    "t_end": 1580.64,
+    "text": "fantastic"
+  },
+  {
+    "t_start": 1580.64,
+    "t_end": 1582.87,
+    "text": "fantastic i just needed to rant about this"
+  },
+  {
+    "t_start": 1582.87,
+    "t_end": 1582.88,
+    "text": "i just needed to rant about this"
+  },
+  {
+    "t_start": 1582.88,
+    "t_end": 1604.31,
+    "text": "i just needed to rant about this specific thing"
+  }
+]

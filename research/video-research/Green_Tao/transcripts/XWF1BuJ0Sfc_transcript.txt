@@ -1,0 +1,1046 @@
+okay I think we're going to start now [Applause]
+it's really a very great honour for me to be introducing this talk by Terence
+to be introducing this talk by Terence Tao and starting off the first full
+Tao and starting off the first full working day of the Congress although
+working day of the Congress although we've heard quite a bit about Terry
+we've heard quite a bit about Terry yesterday I still find myself with
+rather a lot to say but I'll try and say it as quickly as I can so it's not to
+it as quickly as I can so it's not to steal time from the talk itself Tao is I
+steal time from the talk itself Tao is I think not so much a very great
+think not so much a very great mathematician as a mathematical
+phenomenon he's really quite an extraordinary person he was born in 1975
+extraordinary person he was born in 1975 a mere 16 years later I found him
+a mere 16 years later I found him graduating from Flinders University of
+graduating from Flinders University of South Australia and that was one year
+after he had published his first book which was a book about olympiad problems
+which was a book about olympiad problems in Australia and how to solve them and
+he might like to know that that book has just been reissued by Oxford University
+just been reissued by Oxford University Press and if you hurry you might be able
+to get a copy here at this Congress I first met him at ihes in France and I
+first met him at ihes in France and I was introduced to him and he said maybe
+was introduced to him and he said maybe we could talk maths at some points I
+we could talk maths at some points I sort of said okay maybe and he came and
+sort of said okay maybe and he came and visited me in my office and I mentioned
+visited me in my office and I mentioned to him that was he said he was
+to him that was he said he was interested in kakeya type problems and I
+interested in kakeya type problems and I said oh well as this paper of Borghi and
+quite tough he proceeded to give me the most incredible exposition in which he
+most incredible exposition in which he explained what all the key ideas were
+the underlying ideas were really quite simple and all the intuition behind it
+was right there so I realised I was dealing with a rather extraordinary
+person at that stage he was I think 22 or perhaps 23 anyway still extremely
+or perhaps 23 anyway still extremely young he's now published well over a
+young he's now published well over a hundred papers and these are pretty
+serious papers a lot of them are extremely long it's I don't know how he
+extremely long it's I don't know how he does it and how he also finds time to
+one I think you'll find on the CU peace doll and another one I think within the
+and there may be others as well I think and to close what I say I want to just
+and to close what I say I want to just illustrate what an extraordinary and
+modern mathematician he is by telling a statistic he's got an incredible webpage
+statistic he's got an incredible webpage and I did a little experiment with
+Google I typed in the word Terrence just Terrence to see where he would appear
+Terrence to see where he would appear and he came fifth and perhaps more
+extraordinarily I then typed in Tao and the first thing it said was perhaps
+the first thing it said was perhaps you'd like to refine your search well I
+you'd like to refine your search well I didn't refine my search and Terrence
+didn't refine my search and Terrence tiles homepage comes 11th which is
+tiles homepage comes 11th which is pretty good considering the competitions
+pretty good considering the competitions right well that's enough about Terrence
+because he's got to come and give his talk there are two things about the talk
+talk there are two things about the talk that I just have to announce one is that
+that I just have to announce one is that this is the he's a new fields medalist
+this is the he's a new fields medalist but he was also already down to give a
+plenary lecture so this is sort of doubled up as a as the special fields
+doubled up as a as the special fields medalist lecture for Taos there won't be
+medalist lecture for Taos there won't be another one that's a more of a thing to
+another one that's a more of a thing to say the people who aren't here I suppose
+say the people who aren't here I suppose but and the other thing is that he has
+changed his title slightly and it's now called the dichotomy between structure
+called the dichotomy between structure and randomness
+thank you thank you very much this is it's really quite a little warming
+actually I'm very glad to be here I did change my title to talk quite a lot but
+change my title to talk quite a lot but it's actually I was I will still talk
+it's actually I was I will still talk about long ethnic progressions in the
+about long ethnic progressions in the primes even though there's almost no
+primes even though there's almost no dissection the title would be the so
+dissection the title would be the so Valentin could talk about the Rizzo
+itself or it's proof which I will I do want to focus more on a sort of a theme
+want to focus more on a sort of a theme that that is in the proof this the
+that that is in the proof this the coordinating structured madness because
+coordinating structured madness because this theme system I can lower the sound
+this theme system I can lower the sound murder stay away from microphone
+this theme actually has come up in many other areas of analysis and in fact
+other areas of analysis and in fact almost anything I've worked and I've
+seen it staccato me and different people call it different things but I think
+popularized a bit more so this is what we're talking about okay so so so the
+we're talking about okay so so so the first part talks to me very general I
+try to talk about so many fields of mathematics at once and then I'll talk
+mathematics at once and then I'll talk about the primes at the end so there are
+about the primes at the end so there are many this is basic problem that comes up
+many this is basic problem that comes up all over the place in analysis pde
+all over the place in analysis pde applied mathematics technical talks
+which is that you want to study we want to prove something full of all objects
+to prove something full of all objects in the class and it has given an
+in the class and it has given an arbitrary object and you have to say
+arbitrary object and you have to say something about it but the problem is
+that it lives in a very high dimensional space or maybe an infinite dimensional
+space and that makes it and so it has no structure so an example is that you have
+structure so an example is that you have a set of as a subset of all endpoints a
+a set of as a subset of all endpoints a graph on n vertices a function on and
+graph on n vertices a function on and values or maybe a dynamical system with
+values or maybe a dynamical system with n degrees of freedom and n could be
+maybe infinite and you still want to say something but the poems that this is
+something but the poems that this is just too many of these obvious sets or
+just too many of these obvious sets or tuning these objects and most of them
+tuning these objects and most of them don't have any useful structure so
+don't have any useful structure so in five mathematics with Felton for the
+in five mathematics with Felton for the curse of dimensionality that you it's
+it's it's hard to process large data or search through large data in PD it comes
+search through large data in PD it comes up because things that I'm you lose
+up because things that I'm you lose compactness that yes
+converge I don't have clearance up sequences controlling things on small
+sequences controlling things on small and small balls doesn't imply control
+control in one long doesn't return doesn't apply to another norm and yeah
+and objects has happened I just have no are not low complexity okay but in all
+are not low complexity okay but in all these situations this this office
+amazing phenomenon that gets around this and so even though you have a big high
+and so even though you have a big high dimensional space where things live be a
+dimensional space where things live be a giver this echo that the space of sort
+giver this echo that the space of sort of interesting objects in your space
+of interesting objects in your space it's actually often a lot smaller in
+compact or it's something that you can a keep it classified somehow and this
+comes up all over the place in PDE it comes up especially in parabolic tivity
+comes up especially in parabolic tivity heat flow methods very good at taking
+heat flow methods very good at taking the generic objects and smoothing them
+out and replacing them with much more structured objects for example the heat
+structured objects for example the heat flow operators give ice little Paley
+flow operators give ice little Paley theory which is just fundamental
+harmonic analysis and of course the most dramatic example a parabolic theory now
+dramatic example a parabolic theory now is the Ricci flow method Hamilton
+is the Ricci flow method Hamilton Pearlman that takes an arbitrary metric
+Pearlman that takes an arbitrary metric and performs it to a extremely
+and performs it to a extremely structured one as concentration
+structured one as concentration compactness of RIANZ
+that's another PD technique that allows you to get around the fact that that
+you to get around the fact that that balances are not compact in infinite
+balances are not compact in infinite dimensions but if you choose the right
+dimensions but if you choose the right topology and you choose the right notion
+compactness you can still extract sub sequences and in critics extract out
+sort of by so keeping the important part of your solution and throwing away all
+of your solution and throwing away all the rubbish
+and then there are all these wonderful structure theorems in comet Oryx which
+structure theorems in comet Oryx which take an arbitrary big object like an
+take an arbitrary big object like an object graph and and and give it
+object graph and and and give it structure so there's the szemeredi
+structure so there's the szemeredi regularity lemma that gives graph
+regularity lemma that gives graph structure there's the first number
+dynamical system structure and there are all these additive structure theorems
+that give the subsets an additive group structure and last but not least there
+structure and last but not least there is a signal processing so back to
+is a signal processing so back to applied mathematics so they've known
+applied mathematics so they've known about the squirrel phenomena for ages
+that if you have a big noisy signal we should which it takes a huge amount of
+should which it takes a huge amount of space you can compress it you can clean
+it up you can replace it by something much lower complexity but still does the
+much lower complexity but still does the same sort of thing so so what do all
+same sort of thing so so what do all these things have in common
+I mean why can you take a big dimensions spacing some are compressive just low
+spacing some are compressive just low dimensional one so it's it's I think all
+dimensional one so it's it's I think all these things are really coming from a
+these things are really coming from a dichotomy the quinoa Tyco structure and
+dichotomy the quinoa Tyco structure and randomness so I have this color
+randomness so I have this color convention in these slides anything
+green is gonna be structured and then blue is gonna be random okay so I'm
+blue is gonna be random okay so I'm among all objects there's all these two
+extreme types of objects that you want to study so on the one hand this objects
+to study so on the one hand this objects have a lot of structure very how would
+have a lot of structure very how would you break or very rigid objects what
+you break or very rigid objects what structured means is is hard to define
+structured means is is hard to define usually but he's just some examples of
+usually but he's just some examples of what it could mean
+so this is all functions take functions that are periodic or smooth or low
+that are periodic or smooth or low frequency at all grass take low
+frequency at all grass take low complexity graphs grass that can be
+complexity graphs grass that can be described say as complete graphs or
+because this is a compact all the orbits of functions are compact and so forth in
+of functions are compact and so forth in PDE the analog of structured waves are
+PDE the analog of structured waves are solitons and then the other extreme the
+solitons and then the other extreme the objects which are not just unstructured
+objects which are not just unstructured but a sort of orthogonal structure they
+but a sort of orthogonal structure they have they behave randomly pseudo random
+have they behave randomly pseudo random objects
+so take functions that rather than being periodic and very predictable there
+they're very random very high frequency very rough if you have a graph you have
+very rough if you have a graph you have a sense of pseudo random graph a
+a sense of pseudo random graph a clerical system which is now mixing so
+clerical system which is now mixing so instead of functions returning
+instead of functions returning themselves they return they they become
+themselves they return they they become a falkman for themselves and in PD you
+get radiation ways that's that decayed infinity rather than sort of stay
+infinity rather than sort of stay coherent so define means rigorously is
+hard but let me just give you not definitions but word associations just
+definitions but word associations just sort of give you an idea of what what I
+mean here so I've got this sort of a side-by-side comparison so yeah so well
+it's none of these words that sort of have any precise meaning but sort of all
+have any precise meaning but sort of all the words in green out so here to being
+the words in green out so here to being structured and all the words associated
+structured and all the words associated being pseudo-random maybe our just oh
+and let me just explain what the last two rows there so not only do you have a
+two rows there so not only do you have a sort of contrast between these these two
+sort of contrast between these these two concepts the techniques used to
+concepts the techniques used to understand them are very different so
+understand them are very different so structured objects ones for which you
+want to use algebraic methods you have exact equalities identities and used and
+they have lots of geometric structure in contrast when things are very random you
+contrast when things are very random you want to use methods of probability or
+want to use methods of probability or analysis you tend to have estimates
+analysis you tend to have estimates rather than identities like less than
+rather than identities like less than sign rather yeah equal sign there okay
+but oh this is it's a very vague tableau there so why
+it's a very vague tableau there so why is this dichotomy why are these two
+is this dichotomy why are these two notions so so useful well it stems from
+notions so so useful well it stems from this one the first fact which is that
+this one the first fact which is that all these to compose extreme cases of
+all these to compose extreme cases of objects structured objects and random
+part usually doesn't do anything if you are doing if you're doing some sort of
+are doing if you're doing some sort of averaging they ran up incentive tend to
+averaging they ran up incentive tend to average themselves out and and so yeah
+average themselves out and and so yeah so if you're doing any sort is take some
+any sort of correlations like that if your object is a big random component
+your object is a big random component often that benefit is negligible and
+often that benefit is negligible and there's lots of ways to there's lots of
+there's lots of ways to there's lots of places where that gets exhibited in
+places where that gets exhibited in ergodic theory for example there's these
+ergodic theory for example there's these one women I've got a clearance or
+one women I've got a clearance or guardians in general I'd say that if
+guardians in general I'd say that if your system or function is has some
+your system or function is has some survey especially mixing then when
+you're average it becomes either 0 or constant or something very very simple
+constant or something very very simple and there are lots of films about this
+type in PDE there's a you have perturbation theory that if you if you
+perturbation theory that if you if you modify an equation by a solution by
+modify an equation by a solution by adding some noise if the noise is
+adding some noise if the noise is officially dispersed not actually
+concentrating at any given point but if some space-time integral is very small
+some space-time integral is very small or something then it also doesn't do
+or something then it also doesn't do very much to your to your equation in
+very much to your to your equation in comet or X you things like counting
+lemurs if you have a yabba a graph which is some sort of regular or random sub
+is some sort of regular or random sub graph of a above a bigger graph than the
+graph of a above a bigger graph than the statistics are like graph like how many
+statistics are like graph like how many triangles or how many other things that
+in that graph is a will be basically proportional subset of the of the
+statistics of the big graph and so the pseudo vanna part is sort of negative is
+pseudo vanna part is sort of negative is you can often throw away and this was
+you can often throw away and this was also it was a very usually very easy to
+also it was a very usually very easy to prove they're usually harmonic analysis
+prove they're usually harmonic analysis method in fact a lot of these things he
+can just get by just by the Cauchy Schwarz inequality not so much the
+Schwarz inequality not so much the perturbation period there you need some
+perturbation period there you need some slightly more sophisticated more
+analysis but these are fairly poor results generally so because of
+this you would like to know given any object is it random is it structured
+object is it random is it structured because there's because we know we can
+because there's because we know we can throw a the random part and just sort of
+and just focus on the structured part and in general you've sort of
+and in general you've sort of encountered as a typical conjecture that
+encountered as a typical conjecture that if you have a very natural object what
+and there's some obvious structure to it but then after a while you don't see any
+more structure then people start conjecturing thereafter let's render so
+conjecturing thereafter let's render so this comes up this sub conjecture comes
+up all over the place but it's usually incredibly hard to prove these can sort
+incredibly hard to prove these can sort of conjecture to acute establish that
+of conjecture to acute establish that something deterministic behaves randomly
+something deterministic behaves randomly is I think it's upon that we basically
+don't know how to how to solve yet and just to give you an example here here
+just to give you an example here here are sort of three types of conjectures
+are sort of three types of conjectures that lead to problems that we have no
+that lead to problems that we have no idea how so so for example the primes
+idea how so so for example the primes are not random because if examples are
+are not random because if examples are almost all odd okay that's that's
+definite structure that's that they they behave not only mod two more three more
+taken to account they should be no more structure I think to behave randomly and
+structure I think to behave randomly and there ways to make that it may make a
+conjecture formal and if you're doing edit number theory becomes the
+edit number theory becomes the hydrophilic Ram to post conjecture
+hydrophilic Ram to post conjecture reading our flip number theory becomes
+reading our flip number theory becomes the Riemann hypothesis and we can't
+prove either for PDE if you have a very highly nonlinear PDE we expect that even
+highly nonlinear PDE we expect that even if you have deterministic data somehow
+if you have deterministic data somehow these this these the solution should
+except for the fact that it has to obey conservation laws has to be some obvious
+conservation laws has to be some obvious structures but after that it should sum
+structures but after that it should sum or diffuse over all configurations which
+or diffuse over all configurations which are consistent with these laws so
+are consistent with these laws so example the problem justifying
+example the problem justifying statistical mechanics is rigorously is
+statistical mechanics is rigorously is in this class that's completely it's a
+difficult is the navier-stokes global regularity problem which has this
+regularity problem which has this feature somehow that units that you must
+feature somehow that units that you must somehow its exploit some sort of atom
+but we don't know how to actually make that work and then in complexity theory
+that work and then in complexity theory you want to somehow create algorithms
+you want to somehow create algorithms that are journalistic but but still
+that are journalistic but but still behave randomly and you know somebody's
+behave randomly and you know somebody's construction to expand their graphs and
+construction to expand their graphs and so forth this is an example these sort
+of things and presumably you want to solve the problem because P P P P plus B
+solve the problem because P P P P plus B P P you have to somehow quantify
+P P you have to somehow quantify understand this this phenomenon very
+understand this this phenomenon very well and possibly I could I'm a little
+bit hesitant to put that one on the screens that I put two other clay pies
+problems up there third one it may possibly be in the village the peak was
+possibly be in the village the peak was not equal to MP but that's that's much
+not equal to MP but that's that's much more speculative thing well our people
+talk about this not to me sir anyway so it'll be fantastic we have the Oracle or
+it'll be fantastic we have the Oracle or method that would take any object like
+method that would take any object like the primes and say and test it will see
+the primes and say and test it will see was a random or structure that would
+was a random or structure that would really be be fantastic we can't do that
+usually but it's amazing what you can do but for much weaker principles that are
+but for much weaker principles that are always true and always known but when
+always true and always known but when they do are known they become very very
+they do are known they become very very useful so just to illustrate this so my
+useful so just to illustrate this so my four principles here so again I'm very
+four principles here so again I'm very general I will specialize to number
+theories or both in their second half of my talk so the first basic thing is is
+my talk so the first basic thing is is that while we can't tell what things are
+that while we can't tell what things are structured and what is a random I can
+structured and what is a random I can tell you that if you're not random then
+tell you that if you're not random then it's not it's not that you're structured
+but you have a you have a structured bit you have in correlation if all component
+which is structured so or conversely if you are not structured you must have
+you are not structured you must have some randomness inside you so for
+some randomness inside you so for example the field uniform distribution
+example the field uniform distribution if you have a set or function that is
+can often blame that distribution if you wish on a large core coefficient some
+wish on a large core coefficient some foil coefficients being large or maybe
+foil coefficients being large or maybe some some generalization over a
+some some generalization over a coefficient so
+distributions of this type the hydrolytic the hardy liberal circle
+method is sort of of this type and I think Ben will talk about this in his
+think Ben will talk about this in his talk Ben green and and so on and so
+forth be the work of Rothman and later Tim Gower's szemeredi's theorem is also
+Tim Gower's szemeredi's theorem is also based on on this sort of idea although
+based on on this sort of idea although much more generalized than what I said
+much more generalized than what I said here similarly in a gotta clear data
+here similarly in a gotta clear data systems if you if your system is
+refusing to to mix if you have some function which is not becoming they'll
+function which is not becoming they'll talkin for yourself when you shift it it
+talkin for yourself when you shift it it has to be because the presence of an
+has to be because the presence of an eigenfunction which is a very structured
+eigenfunction which is a very structured object so it's a few i think of cooper
+number norman and NPD if your solution is it's not radiating dispersing to zero
+is it's not radiating dispersing to zero it's because either there's absence of
+it's because either there's absence of balance data strapping things or maybe
+balance data strapping things or maybe that or this some coffee some some
+coefficient in some basis like a wavelet basis is large so okay so peace economy
+basis is large so okay so peace economy has come up all over the place and this
+and they usually prove my sense of Fourier analysis type method or spectral
+Fourier analysis type method or spectral theory which is which is very similar
+theory which is which is very similar although for analysis has become very
+the in many cases you kinda can use classical for now since you have to you
+classical for now since you have to you have to use something a bit fancier okay
+have to use something a bit fancier okay once you have it Academy you can then
+once you have it Academy you can then often iterate it and then you get
+something really useful you get a structure theorem that often you can
+structure theorem that often you can take any object and the generic object
+take any object and the generic object is usually not structured or and it's
+not random but you can often split it into a structured bit and a random bit
+into a structured bit and a random bit and that's really useful because because
+and that's really useful because because the structured optics
+amenable to one type of analysis like you can you can attack them using
+you can you can attack them using algebra and geometry and random things
+analysis and so once they the structure theorem you can use all four techniques
+theorem you can use all four techniques to understand a general object which
+wouldn't have been accessible to just a subset of these techniques and this this
+subset of these techniques and this this is really a key to a lot a lot of things
+with the prize so just again there are many examples of such structures the
+many examples of such structures the abuse of describe three classes of these
+abuse of describe three classes of these things so the most familiar one is the
+things so the most familiar one is the spectral theorem that that you get some
+spectral theorem that that you get some operator let's say so for joint on a
+hilbert space then you can you can decompose the spectrum into a discrete
+spectrum which is almost periodic the iterated with the the the orbits are any
+iterated with the the the orbits are any given form is compact and two and mixing
+given form is compact and two and mixing that the part which is continuous or
+that the part which is continuous or absolute continuous there are various
+absolute continuous there are various flavors of how you can do this
+decomposition if I mark analysis you can decompose any any object into a smooth
+sort of turning the coarse scales and a high frequency if I come from the fine
+high frequency if I come from the fine scales you can also things as a mining
+scales you can also things as a mining or decomposition same sort of thing and
+or decomposition same sort of thing and then there is of course the famous SEM
+already regularity lemma that that a graph no matter how big and how complex
+you can what decompose is sort of a funny thing if you have to think of the
+graph is a function zero one value functions and split it in order to think
+functions and split it in order to think this is a decomposition but a graph is
+this is a decomposition but a graph is really sort of decomposed into it into a
+low complexity partition of vertices with some density weights between these
+with some density weights between these these partition classes and then you
+these partition classes and then you have some regular graphs that have
+have some regular graphs that have between these pieces these classes and
+between these pieces these classes and the partitions are driving the structure
+the partitions are driving the structure and and then everything else is just
+and and then everything else is just sort of random and as long as you're
+doing statistics it doesn't really matter
+ok so these are so these structures theorems are often you just take the
+Academy and run with it see what you get and so you have a general function if
+and so you have a general function if it's structured you're done if it's not
+it's structured you're done if it's not you've got a sorry if it's pseudo random
+then it's got a structured bit so you take that out and you make it a bit of
+smaller and now you look again is it this is your remainder pseudo random if
+this is your remainder pseudo random if it is you're done otherwise there's
+another structure but you take it out iterating that and then you you you you
+iterating that and then you you you you get this redoing PD make it ourselves
+and so palpable parabolic equation in order to get it from some
+order to get it from some it's kind of decomposition you could I
+guess I could argue that the human physical transition conjecture sort of
+the one is an ultimate version when we structure the ends but okay and they're
+structure the ends but okay and they're very useful because once you have a
+very useful because once you have a superposition and you know that pseudo
+random things are not very important you only have to look at the structure part
+only have to look at the structure part but what do you do the fractured part or
+the two other principles that are extremely useful to so once you have
+extremely useful to so once you have structure where you have a bit of
+structure it's often as an amazing phenomenon that you can have a bootstrap
+phenomenon that you can have a bootstrap that and get a lot of structure so I
+call this rigidity I don't have a good name for this that somehow if something
+name for this that somehow if something is it's almost completely structured
+then it's you can repair it what will clean it up and Ikey make it completely
+clean it up and Ikey make it completely structured so I first encounters in
+comics that example if it's some I gave us that we just almost closed under
+addition so that you have a some surface where it takes sounds your your back in
+where it takes sounds your your back in the sets a 1% the time so use of 1%
+the sets a 1% the time so use of 1% additively close then you can actually
+additively close then you can actually get that means that you're actually
+close to a set which is much much more adjectives ly closed than then initially
+adjectives ly closed than then initially a group or a convex set or a progression
+a group or a convex set or a progression or some sort of combination of these
+or some sort of combination of these things okay so there's a famous
+things okay so there's a famous investing or Fryman to this extent and
+investing or Fryman to this extent and there's like a lot of generalizations in
+there's like a lot of generalizations in PD this the the corresponding thing is
+PD this the the corresponding thing is the police mal police male phenomena
+the police mal police male phenomena that that if you're kind of minimizing
+that that if you're kind of minimizing variational public minimizing energy and
+variational public minimizing energy and you have and you're getting close and
+close to the minimum then even though the whole space is not compact if you if
+you have this a sequence of almost minimizes
+they tend to get closer and closer to actual minimizes so some of the acumen
+actual minimizes so some of the acumen arises so well it's and in fact this
+arises so well it's and in fact this this is this is the way you are in
+this is this is the way you are in constructor minimizes a power of a
+constructor minimizes a power of a function by extract his compactness and
+function by extract his compactness and in fact as Hamilton just mentioned
+in fact as Hamilton just mentioned compactness the owners type
+compactness the owners type yesterday so um you often have to define
+yesterday so um you often have to define the mission compactness properly in
+order to get this one on but when you do you can have stopped convergence and
+then in in computer science you have this whole property testing phenomenon
+this whole property testing phenomenon that if you get a humungous graph
+on it you can't you don't want to test the whole graph but if you can just sort
+the whole graph but if you can just sort of take a random piece and and verify it
+of take a random piece and and verify it the property that you you want there
+the property that you you want there locally that usually means that your
+locally that usually means that your properties sort of almost approximately
+properties sort of almost approximately satisfied then you can often then it's
+sort of modify it a little bit you know adult subtract some edges and then make
+adult subtract some edges and then make it perfectly satisfied and this is how
+it perfectly satisfied and this is how you do property testing so this is it
+please often these observers also are actually quite deep usually you have to
+actually quite deep usually you have to use structure theorems a lot for example
+use structure theorems a lot for example a lot of property testing results use
+the similarly regularity lemma okay and then all right so with your poxy
+then all right so with your poxy structure you can make it perfectly
+structure you can make it perfectly structured and then once you're
+perfectly structured you can classify it so once you're perfectly structured you
+so once you're perfectly structured you can often describe these objects in a
+can often describe these objects in a very explicit but I guess more
+very explicit but I guess more importantly in a very algebraic and
+importantly in a very algebraic and geometric fashion so that you can start
+geometric fashion so that you can start using the tools of algebra and geometry
+using the tools of algebra and geometry so some some very simple examples if you
+so some some very simple examples if you have a finitely generated vision group
+have a finitely generated vision group or you can pick up a basis and now you
+have a classification you have it you have this kind of classification theorem
+all these things or all the new transformations you put a basis and you
+transformations you put a basis and you have some nice matrix maybe maybe
+antagonize it could Ike form it you know say you know take a nice normal form
+say you know take a nice normal form there were simple examples than the more
+there were simple examples than the more advanced ones in PDE one most famous
+advanced ones in PDE one most famous ones is that solitons and multi solar
+ones is that solitons and multi solar horns can be described in many many ways
+horns can be described in many many ways by both some very nice and algebraic
+by both some very nice and algebraic geometry method is using tailored and
+geometry method is using tailored and like a home of the curves
+like a home of the curves sample virus that there were some really
+sample virus that there were some really really pretty and very structured
+really pretty and very structured formulas that exactly describe what
+formulas that exactly describe what these solutions are doing and then
+these solutions are doing and then there's an example which I think you're
+there's an example which I think you're Brian Crall talk about today this
+Brian Crall talk about today this afternoon that in ergodic theory when
+afternoon that in ergodic theory when you're selling multiple cards the
+you're selling multiple cards the perfectly structured component of any
+dynamical system is this what's called a minimal characteristic factor and those
+minimal characteristic factor and those will be completely classified now via
+will be completely classified now via new systems which have which arise from
+new systems which have which arise from important groups
+Newport new groups finite dimensional no poor technique works so okay I won't
+poor technique works so okay I won't talk about that though so those are
+talk about that though so those are often also very difficult and not the
+often also very difficult and not the other three principles were often very
+analytic these ones are much more how to break structure okay so those are very
+break structure okay so those are very very general things let's actually have
+very general things let's actually have a concrete example so the example which
+a concrete example so the example which illustrates a lot of these of these
+principles once I think and almost the the Quinta's have quintessential example
+the Quinta's have quintessential example is amazing theorem of them already so
+szemeredi's theorem is easy to state says that you take any subset of
+says that you take any subset of integers are positive density so you
+take say one percent of the images I'll guess I didn't define Papa density maybe
+guess I didn't define Papa density maybe well it's easy to define but that
+well it's easy to define but that basically means that you take that say
+the numbers from and center em for some large and and you look at the proportion
+large and and you look at the proportion of alcohol of those numbers that are in
+of alcohol of those numbers that are in a but it's it's this numbers banner from
+a but it's it's this numbers banner from below infinitely often so yeah so take
+below infinitely often so yeah so take about one percent of the images and take
+any one percent no matter what you do you you inevitably are forced to have a
+you you inevitably are forced to have a set which contains
+arbitrary long make progressions I mean it's really quite an amazing result
+because you get to choose the set yeah I mean given any pattern for example if
+mean given any pattern for example if you want to to eliminate or save pairs
+you want to to eliminate or save pairs of adjacent numbers in n plus one it's
+of adjacent numbers in n plus one it's it's very easy to choose a set which
+it's very easy to choose a set which avoids orders and I was like the even
+avoids orders and I was like the even numbers but you cannot
+this is the only thing you know what about mr. day its large yeah no matter
+about mr. day its large yeah no matter how you try to move it around you cannot
+how you try to move it around you cannot you cannot destroy progressions you
+from the set and that's that's really quite an amazing phenomenon and and this
+quite an amazing phenomenon and and this theorem is very deep I mean one one
+theorem is very deep I mean one one instant one example one proof that is
+deep is by seeing how many people have proved that people who proved it a self
+proved that people who proved it a self course andre proved it for hundreds I'm
+ready proof is in 75 with a combinatorial method first improved it
+combinatorial method first improved it again using it and a gotta clean with it
+was very influential in Gothic theory and then Tim Gower's
+who used a four year analytic calculator and then there have been accused some
+and then there have been accused some subsequently since by a rodents token
+and also another one by cows and so forth so the the reason modest distance
+forth so the the reason modest distance is hard I mean in there I do not believe
+because you said a is arbitrary it could be very structured I structured us say a
+be very structured I structured us say a periodic set o very random and actually
+periodic set o very random and actually mobile more generally it's gonna be some
+mobile more generally it's gonna be some some combination of both and structured
+some combination of both and structured sets have progressions and renesis the
+progressions but hypocrite they have progressions for different reasons and
+so the you cannot hope for a one-size-fits-all proof you must split
+one-size-fits-all proof you must split your set into the two components first
+prove this theorem so what a structured mean here structured is actually not
+mean here structured is actually not easy to define and that factory one of
+the hardest things in proving well actually depends on the proof I
+actually depends on the proof I mentioned three proofs and each of three
+mentioned three proofs and each of three proofs is easy in one area and difficult
+in another and but the typically moves around IQ what anyone would Ben green is
+around IQ what anyone would Ben green is that we took all those three proofs IQ
+that we took all those three proofs IQ for the fourth one before crews and we
+took the easy bit out of each one I know they're easy in different areas we were
+they're easy in different areas we were passionate to gether but it's another
+passionate to gether but it's another story anyway so what a structured means
+so a good example of structured set is a pure Excel say them the more +100 that's
+pure Excel say them the more +100 that's a set against the 1% or more generally a
+so set of all numbers n such that root 2 times n is very close to an integer
+times n is very close to an integer that's a set which is actually very
+similar to a piata except it's not quite periodicals what's called quasi periodic
+periodicals what's called quasi periodic and then more interesting examples these
+and then more interesting examples these things with quadratic the quasi periodic
+things with quadratic the quasi periodic sets where you take numbers n such that
+say root 2 times N squared or more generally a polynomial with rational
+generally a polynomial with rational coefficients it's close to an integer
+coefficients it's close to an integer okay so these are sets that are
+okay so these are sets that are described very algebraically and and the
+described very algebraically and and the thing about these sets is that is that
+thing about these sets is that is that if you know that a lot of elements were
+progression line is set then you can often tell that the next element is
+going to lie on the set as well for example if you take a progression we
+example if you take a progression we have three and the first two Maurepas
+have three and the first two Maurepas 100 you know the third one also is a
+mobile hundred and the same type of thing is almost true for the quasi
+numbers if if the first two numbers in the progression line is set then in fact
+element also line is set that's not true for that the quadratic said but if you
+for that the quadratic said but if you take a progression of then four and the
+take a progression of then four and the first three the first three elements are
+first three the first three elements are in this set then we have a very large
+class is what's going to lie in this set as well it's basically because what a
+as well it's basically because what a quadratic polynomial can be described by
+quadratic polynomial can be described by its values for three points you can then
+interpolate get the whole thing okay so all right so because of that correlation
+all right so because of that correlation okay well that once you have a few
+elements a few points in your set of a progression you said you get the rest
+progression you said you get the rest sort of for free that's that's really
+the cause of why these are progressions like periodic says so clearly have long
+like periodic says so clearly have long ethnic questions because of this
+ethnic questions because of this correlation and the coalition is caused
+correlation and the coalition is caused by algebraic structure such as pewter
+by algebraic structure such as pewter city and this wood and these other sets
+city and this wood and these other sets have sort of generalized notion of
+periodicity and in fact those are what's captured by these new important groups
+captured by these new important groups which I will not talk about but I think
+Brian I will talk about it this afternoon
+so that's structure on the other hand on the other extreme is sort of a luminous
+the other extreme is sort of a luminous so what the pseudo randomness mean so
+so what the pseudo randomness mean so the the basic example is a is a cube
+the the basic example is a is a cube randomness you take each number and you
+randomness you take each number and you all
+hundreds allerdyce who died died dice but each died for each each number and
+but each died for each each number and if it comes up one and you put it in
+your set independently and that's a random set more generally you can take
+set of deterministic but behaved annually because certain colleges are
+correlations are small for example you take a set and compared with shifts and
+take a set and compared with shifts and you if you randomly expect they put the
+you if you randomly expect they put the density of the intersection to be
+roughly the product of the densities of a son this is a that by itself is not
+a son this is a that by itself is not very it's not very good this is a
+two-point correlation often you need higher point correlations to be under
+higher point correlations to be under control but that's the type of thing
+that you want and if you have enough of the pseudo randomness then you can start
+the pseudo randomness then you can start there it's random enough that you can
+use probability theory and basically if your pseudo random then they're the
+progression on your set then the next guy the event of the next hasn't said as
+guy the event of the next hasn't said as well it's basically independent of the
+pattern is set and so the probability of that a long progression is in your set
+that a long progression is in your set is basically it should be just the
+is basically it should be just the product of the the pollyali each
+individual elements in a set and get positive densely dozen for the deposit
+positive densely dozen for the deposit probability events so that's sort of why
+probability events so that's sort of why you expect lots of progressions in the
+you expect lots of progressions in the random case that is a little bit too
+random case that is a little bit too naive but that sort of roughly what what
+naive but that sort of roughly what what you expect you so so in this case
+you expect you so so in this case progressions are caused not by structure
+progressions are caused not by structure of interval by the absence of structure
+by independence by correlation a dis correlation so completely different
+correlation so completely different cause or progressions
+and then and then we have hybrid sets which are combinations both so this is
+which are combinations both so this is where most sets fall in okay they
+where most sets fall in okay they neither completely random free
+structured but they happen to be bits of both so for example you can take a
+both so for example you can take a pseudo random subset of a structured set
+pseudo random subset of a structured set so you can take the even numbers that's
+so you can take the even numbers that's a structured set periodic and then
+subset of that take two percent of the probably even numbers at random so you
+probably even numbers at random so you throw the 50 sided dice die and and you
+throw the 50 sided dice die and and you just randomly sample the even numbers so
+just randomly sample the even numbers so that's neither vandal no structure but
+that's neither vandal no structure but it's a bit of both
+a bit more generally you could take a pseudo random subset of no level of a
+pseudo random subset of no level of a single structured set but of a
+single structured set but of a structured partition you partition the
+images into structured pieces and for each piece you choose a random subset so
+you might take say 3% of the even numbers and 1% of the odd numbers at
+random and the thing is that if you already know that structured sets are
+progressions and if you know that pseudo random sets have well once you know the
+random sets have well once you know the structure says for progressions you take
+structure says for progressions you take a random subset of the structured set
+a random subset of the structured set that ran us it will contain a
+that ran us it will contain a proportional number or progressions to
+proportional number or progressions to the big set so that's a more general
+that's the some negligible ax T type probably I mentioned earlier and so once
+probably I mentioned earlier and so once you know structures have some
+you know structures have some progressions than anything any random
+subset of us will also have progressions as well and so a that basically tells
+as well and so a that basically tells you that these hybrid sets have
+you that these hybrid sets have progressions so in this case the
+progressions so in this case the progressions come from a combination of
+progressions come from a combination of algebraic structure which which gives
+and then the disco elation which tells you that when you refine to your set you
+you that when you refine to your set you still keep some progressions ok and then
+still keep some progressions ok and then the key thing that makes things work is
+the key thing that makes things work is a structure theorem and depending on the
+a structure theorem and depending on the proof that you use somebody's proof
+first and eBooks proof ours proof that the structure theme is different but
+the structure theme is different but it's always present and basically the
+it's always present and basically the theorem is that you take it a big dense
+set you can always find a large bit which which is not companies globally
+which which is not companies globally pseudo-random but it's a pseudo random
+pseudo-random but it's a pseudo random subset of a structure
+so for example in in the proofs of Roth and editing galas the statement is a
+particulate a big dense set you can find a progression a structured step inside
+a progression a structured step inside that big set where your set looks random
+and once you have that you're done because I because what I'm saying is
+because I because what I'm saying is that every big set contains when these
+that every big set contains when these hybrid sets and the hybrids has
+hybrid sets and the hybrids has contained progressions and this is why
+your big set contains progressions and these substructure themes in turn follow
+these substructure themes in turn follow from food economies and the economies
+from food economies and the economies tend to look something like this
+tend to look something like this that if you're set it's not random
+that if you're set it's not random doesn't behave randomly it's like some
+doesn't behave randomly it's like some correlation is big then the reason for
+correlation is big then the reason for that is because it is correlating with
+that is because it is correlating with something structured what that means
+depends on the proof - typical thing is that there's some sub progression of
+that there's some sub progression of your whole space where your density is
+your whole space where your density is bigger than normal
+okay there are other very different looking for malaysia's of the dichotomy
+looking for malaysia's of the dichotomy but there's always some sort economy and
+but there's always some sort economy and what I mean to prove ok so that was the
+today each proof for things you know at least how our to talk about but I won't
+do that here ok so now I can talk about my own theorem we've been green which is
+my own theorem we've been green which is we talk about not dense subset of images
+we talk about not dense subset of images but much much sparser set but a specific
+but much much sparser set but a specific space said the primes
+there are conjectures about what how sparse need to be to contain
+sparse need to be to contain progressions is this beautiful
+conjecture says that if you have a set of say positive integers whose sum of
+of say positive integers whose sum of reciprocals diverges then then you
+contain arbitrary long progressions so that's much stronger than say Maurice
+that's much stronger than say Maurice theorem and it wouldn't also imply a
+theorem here we have no idea how to prove that it's a fantastic problem but
+prove that it's a fantastic problem but that's an again another talk we don't
+have the results are you gonna talk but anyway but we can do the primes so as I
+anyway but we can do the primes so as I said before
+we this result is not surprising based on the conjectures we have on the
+based on the conjectures we have on the primes we we do believe that the clients
+behave randomly after well except for local obstructions like the fact that
+they were almost all odd and so forth but of apartness of obviously structures
+but of apartness of obviously structures with behavior you expect these to behave
+randomly and there's a precise conjecture for like the hiding little
+conjecture of example would that leads us to believe why the twin prime
+us to believe why the twin prime conjecture is true why go back some
+conjecture is true why go back some check is true at least asymptotically
+check is true at least asymptotically it's why it's this this sort of
+heuristic acusó underlies on quite a few of the of our beliefs in what's true of
+of the of our beliefs in what's true of other primes so ok and if you random
+other primes so ok and if you random enough you should be able to link the
+enough you should be able to link the questions without any difficulty but the
+questions without any difficulty but the things we can't verify that we don't
+know we still do not know how random the primes up we do know one thing what the
+primes up we do know one thing what the prime one thing was that was directors
+are very useful we do not that appliance behaved for years to do manually which
+behaved for years to do manually which is a a weaker notion of pseudo
+is a a weaker notion of pseudo randomness it means essentially that the
+randomness it means essentially that the Fourier coefficients of the primes are
+Fourier coefficients of the primes are small except when they're obviously not
+small except when they're obviously not small and they can be obviously lots
+obstructions these like for example they're all odd then the four
+they're all odd then the four coefficient 1/2 is going to be very huge
+ok so the sort of major arcs where things up things are big but but if
+those are not present between the minor arcs then we do have a pseudo randomness
+arcs then we do have a pseudo randomness and this is a basically a vinaigrette oh
+and this is a basically a vinaigrette oh and this is enough to do to get some of
+progressions of them three in the primes from that and this is really done by
+from that and this is really done by binder corporate in 1927 but
+binder corporate in 1927 but unfortunately it's now well understood
+unfortunately it's now well understood that suits for Pseudomonas is actually
+that suits for Pseudomonas is actually far weaker than sort of whoa it
+far weaker than sort of whoa it well this there's a whole hierarchy of
+well this there's a whole hierarchy of pseudo or seen of analysts apparently
+very low in the list and it's it's good enough to control progression of their
+enough to control progression of their three but even for precursor level and
+three but even for precursor level and for it's it's not enough there are
+for it's it's not enough there are examples of career pseudo random sets
+examples of career pseudo random sets which do not have the right number of
+regression line for in fact this quadratic course the periodic set I
+quadratic course the periodic set I mentioned earlier is an example so this
+mentioned earlier is an example so this this is not enough although well you
+gotta bring greens talk in Friday or something you'll talk about how you can
+something you'll talk about how you can so boost this through to higher limit
+so boost this through to higher limit progressions the circle method does
+progressions the circle method does actually extend but it's not trivial
+okay so the primes have densities 0 as you go further and further a few a few
+you go further and further a few a few and I was a prime but intensity no in
+absolute number so you can't applies anybody seem directly but what we were
+anybody seem directly but what we were able to exploit was the fact that even
+able to exploit was the fact that even though the primes are sparse in the
+images they are dense in a different sense that they are dense respect to
+sense that they are dense respect to another set the set of all most primes
+so this well almost primes is a bit hard to define but well the way we actually
+to define but well the way we actually use it is the almost monarchy is set
+use it is the almost monarchy is set there a weight function and measure but
+there a weight function and measure but that's a but you should think of almost
+primes as numbers of very few prime factors like numbers have only say 10
+factors like numbers have only say 10 prime factors at most and those type of
+numbers though is it was known for a long time that that those guys we can
+long time that that those guys we can count because in fact in fact that they
+do behave like we expect the plans to behave that they are pseudo-random after
+behave that they are pseudo-random after accounting for the obvious reasons why
+accounting for the obvious reasons why they're not pseudo-random and that is
+they're not pseudo-random and that is and in fact a large house sieve theory
+is sort of aimed towards making that statement besides basically the the the
+statement besides basically the the the primes to me know it can be extracted
+the fans up to some number n can be extracted by the server by sips such as
+extracted by the server by sips such as the Civitas knees that is obviously very
+the Civitas knees that is obviously very used practice but is a very simple
+example you've all kind of primes up to n you do you throw a mobs of two mob so
+3 months of 5 up to root n and then after that what's left are the primes
+you're doing too many steps and it's so easy to see what happens when you throw
+easy to see what happens when you throw it mobster 2 number 3 but once you get
+or you're doing many many little changes you're doing many many little removing
+create your pride and it's hard to keep control but if you stop the sift earlier
+control but if you stop the sift earlier say it enter not a square root of n but
+n to the 100 then you can still keep control on what you have left
+well not for that city yet you have to smooth a twist even do some tricks but
+smooth a twist even do some tricks but essentially you can stop the sieve what
+essentially you can stop the sieve what earlier and still understand exactly
+what what your set is doing but then you don't get Prime's anymore use almost
+don't get Prime's anymore use almost primes if you stop us if you're too
+primes if you stop us if you're too early
+you wanna get Prime's with which are co-prime everything less than N 1 of 100
+co-prime everything less than N 1 of 100 and so it has at most 100 prime factors
+ok anyway so the primes are not ok so the pattern of Harrah's dents in the
+images but they had they turn out to be dense in the almost primes there are
+are large so if they all if you define almost primes to be numbers about most
+almost primes to be numbers about most 100 parent factors the primes have
+density roughly about 1% up to a factor of V or something in the almost - ok so
+of V or something in the almost - ok so the way we use that is there so we
+the way we use that is there so we managed to prove an extension of
+managed to prove an extension of szemeredi's theorem which I'll call a
+szemeredi's theorem which I'll call a relative szemeredi theorem that so not
+relative szemeredi theorem that so not just any dense subset of integers but
+just any dense subset of integers but any dense subset of a pseudo-random set
+of integers so rather than take the whole images take a representative
+primes so this is sort of your and a focus group if you wish either the first
+focus group if you wish either the first sort they sort of evenly represent the
+whole images then any which I have this transference principle there there any
+theorem that you can prove the integers should somehow has some counterpart for
+should somehow has some counterpart for this representative sample integers so
+this representative sample integers so this is the counterpart of obviously
+many theorem that if you take a pseudo-random set of integers than any
+pseudo-random set of integers than any subset of that you're still have
+subset of that you're still have arbitrary long progressions and this is
+arbitrary long progressions and this is why we can get progressions in the
+subsisted the almost primes and almost rhymes are pseudo-random and so we just
+apply this theorem and the primes and progressions I have one progression so
+progressions I have one progression so in fact you can see we almost
+in fact you can see we almost nothing about the crimes I could even
+take identity of the price I could take 1% of the primes at random and I still
+know they're long I think regressions there
+so in some sense so this our theorem is really a big cheat I mean so the reason
+really a big cheat I mean so the reason why one of the reasons why this this
+why one of the reasons why this this result was was desired progressions the
+result was was desired progressions the primes was that the hope was you would
+doing something but in fact we don't actually tell you very much what I'm
+actually tell you very much what I'm saying any new balance other than they
+saying any new balance other than they have long progressions because we in
+have long progressions because we in particularly we have this doesn't settle
+the question of the primes a pseudo-random where and we just
+pseudo-random where and we just completely avoid that question it
+instead they just happy a dense subset of something else a pseudo-random and
+that's enough to give all we have we do have a subsequent program to actually
+have a subsequent program to actually try to get the students the primes
+try to get the students the primes directly and again then we will talk
+about that and I think I might have time away briefly mention it - okay so let me
+away briefly mention it - okay so let me just talk a little bit about how we
+just talk a little bit about how we prove is this relative theorem so we use
+prove is this relative theorem so we use we used the summer teeth you know as one
+of our ingredients and then we combined it with two other facts so yeah so again
+it with two other facts so yeah so again it's it's based on structure theorem but
+it's it's based on structure theorem but if you take a dead subset of a random
+set it could its it need not be random itself and in fact probably isn't what I
+itself and in fact probably isn't what I cannot thank you generically it is okay
+cannot thank you generically it is okay but it might not be but nevertheless
+anything which is if you take it any dense episode of a pseudo-random set it
+dense episode of a pseudo-random set it turns out that it's it's got a large bit
+well except it may not be pseudo-random of well it's not a subset of the whole
+of well it's not a subset of the whole sets of a pseudo random subset of a
+sets of a pseudo random subset of a dense set there's a okay the best thing
+in fact if this is rather not erase it then subsets of Serrano sets are pseudo
+then subsets of Serrano sets are pseudo and successful deaths have pseudo an
+and successful deaths have pseudo an associative themselves
+okay and well seems prudent and surely but but anyway if you believe that
+but but anyway if you believe that feeling that for example the with the
+feeling that for example the with the primes or Toria the primes contain a
+primes or Toria the primes contain a large subset which which are not
+pseudo-random but a pseudo random subset of something debts and and then we have
+of something debts and and then we have a negligible result that says that so
+it's if you have a pseudo random subset of a big of a big set even if that set
+is very sparse it will still contain a proportion number of regressions subject
+proportion number of regressions subject to some technical assumptions but okay
+to some technical assumptions but okay but basically yes pseudo - observe
+but basically yes pseudo - observe should contain up a fraction at the
+should contain up a fraction at the expected fraction of of a big set once
+expected fraction of of a big set once you have that you're done once you have
+those two results you are done because szemeredi's theorem tells you that dense
+szemeredi's theorem tells you that dense necessarily contain lots lots of
+regressions and then this negligible D without tells you that any pseudo random
+without tells you that any pseudo random subset of a dense set contains lots of
+subset of a dense set contains lots of progressions and I just told you that
+progressions and I just told you that things like the primes contain pseudo -
+things like the primes contain pseudo - of dead sets and so they contain
+of dead sets and so they contain progressions - so these two things are
+progressions - so these two things are the other two really new ingredients in
+the other two really new ingredients in our argument but but they fall into the
+our argument but but they fall into the framework of discussing discussing
+earlier yeah so the negligible ad is is not so difficult it's you just apply
+not so difficult it's you just apply Cauchy Schwarz a lot but yeah if you
+Cauchy Schwarz a lot but yeah if you apply Schwarz and you
+the main difficulty in the proving that is to set up the right notation but okay
+is to set up the right notation but okay that is basically botanist Akashi
+that is basically botanist Akashi Schwartz
+oh and defining what pseudo random means that's it that's the other difficulty
+but fortunate in cows like you saw that one for us so okay so the but the harder
+one for us so okay so the but the harder powers I keep this structure theorem and
+powers I keep this structure theorem and the structure theorem opening comes from
+the structure theorem opening comes from this list economy that if you take a
+dense subset of this of a pseudo an asset such as the Prime's which are
+asset such as the Prime's which are living inside the almost primes if that
+living inside the almost primes if that set is itself a pseudo random then it
+set is itself a pseudo random then it turns out that that actually correlates
+turns out that that actually correlates with with
+structured but what's the the key things that even though you said this is sparse
+that even though you said this is sparse the structure said that you call it with
+is dense and this is this is some of what what what what drives are hoping so
+what what what what drives are hoping so if the problems will not pseudo-random
+if the problems will not pseudo-random it's because they are collating their
+it's because they are collating their bias for something very very structured
+such as a progression such as one of the structured set I mentioned earlier I got
+structured set I mentioned earlier I got like a periodic or quasi periodic set
+like a periodic or quasi periodic set those are the sort of things that are
+those is the dense structure sets that that are blocking surrounded us and
+that's really okay and is that dense is key because that kids that gives you the
+key because that kids that gives you the instructor view but the the the word
+instructor view but the the the word dense in the conclusion which is and
+then that's what that you apply szemeredi's theorem for dense sets to
+get you this thing possible spot sets okay that's what I'm gonna see what the
+okay that's what I'm gonna see what the truth because the actual details are
+truth because the actual details are lengthy let's skip that empty so I'll
+lengthy let's skip that empty so I'll just tell you what I've been there now
+just tell you what I've been there now working on nowadays so that was two
+working on nowadays so that was two years ago so the theorem that just
+progressions that densities have lots of regressions the primes of are some
+regressions the primes of are some progressions but they don't say exactly
+progressions but they don't say exactly how many they are
+well they say they're infinite but if it don't really many but more
+don't really many but more quantitatively
+if you asked how many progressions of a certain length K are there amongst here
+the prime number is up to some level n as n gets very very big but what is the
+as n gets very very big but what is the asymptotic count these things that's a
+asymptotic count these things that's a more precise question we know goes
+infinity and in fact that I feel like it gives a lower bound but it's it's not it
+gives a lower bound but it's it's not it but the lower bound is not sharp it's
+question is to ask open toric and here here you you really can't finesse things
+here you you really can't finesse things any more so in the in the previous
+theorem we took the primes instead well maybe it's random maybe structured we
+don't know but in either case we can find progressions but in depending on
+find progressions but in depending on what case you are in you will find a
+exactly what the exact count of how many progressions in the prams you have to
+progressions in the prams you have to know how random the primes are
+know how random the primes are and so that's sort of the next focus
+yeah I think I just said that okay and and here's where you have to start using
+and here's where you have to start using the the other factor topper earlier so
+the the other factor topper earlier so the theorems I mentioned relied mostly
+on the first two of my principle the first three of his principles negligible
+first three of his principles negligible ax t that economy and the structure
+ax t that economy and the structure theorem but then we also this rigidity
+theorem but then we also this rigidity and classification terms and those seem
+and classification terms and those seem to give you deeper information as to or
+more quantitative information so the prototype of this is this bizarre
+abandoned carpet that if you want to count how many progressions within three
+count how many progressions within three there are in the primes less than n the
+answer is actually N squared over so N squared is basically the number of
+squared is basically the number of progression than three lesson in period
+so you expect N squared over log cubed n progression than three less than it make
+progression than three less than it make one half of that but there are these
+local irregularities the primes are all odd with one exception which which
+odd with one exception which which increases the number of of them Appa
+increases the number of of them Appa greater than 3 because odd because if
+two numbers are odd in a progression the next class we are as well and so and odd
+guys are more likely to be prime then even numbers so you have to you have to
+even numbers so you have to you have to make adjustments for four more to
+obstructions mod 3 mod 5 or 7 so you can put all those of you can put all those
+correction terms together and you get is this product here which is some explicit
+this product here which is some explicit number 1.3 something I think careful
+number 1.3 something I think careful will be the opium Ben's talk to
+will be the opium Ben's talk to so-and-so okay so yeah this precise
+count plus an error that goes to 0 as n goes infinity how fast the error goes
+goes infinity how fast the error goes depends on things like the Riemann
+depends on things like the Riemann hypothesis but at least we know it goes
+hypotheses so the way you prove this is that you use the hi little circle method
+that you use the hi little circle method combined with villain Glaros method no
+combined with villain Glaros method no no no you did it sorry no no no you how
+no no you did it sorry no no no you how do you circle method tells you that if
+you have to understand the four which the primes the local obstructions
+which the primes the local obstructions tell you what's going on on major arcs
+of a circle and all you need to do is you need to show that on minor arcs that
+you need to show that on minor arcs that that apart in the local structures you
+that apart in the local structures you want you want the primes to be fully a
+pseudorandom the fully coefficient of primes are small and then you can throw
+neglect them and then you only have the local structures to deal with and the
+local structures are what is giving you that product over there well but in for
+that product over there well but in for analysis we the structured objects are
+analysis we the structured objects are completely classified right the they are
+just characters exponential sums okay they if you're not pseudo-random if
+you're not fully a pseudo ennum you call it with a character that's what it means
+have a large void coefficient and so all you need to do by this dichotomy between
+you need to do by this dichotomy between 0 and s and structure is that you have
+0 and s and structure is that you have to show that the primes don't don't call
+to show that the primes don't don't call it with minor characters so you have to
+show that that that the primes don't call they will say e to the I root 2
+times an x times n to pi who - I'm saying and there's a method for that
+saying and there's a method for that they're gonna grottoes method which I
+they're gonna grottoes method which I won't talk about you and you do that and
+won't talk about you and you do that and well Vander Corbett does that and you
+get this theorem which is very nice so it's much stronger than saying there's
+it's much stronger than saying there's infinitely many progressions of their 3
+infinitely many progressions of their 3 tells you how many there are
+so more recently Ben and I were able to to do the same thing for other patterns
+to do the same thing for other patterns of primes we've started with progression
+of primes we've started with progression than for hope eventually we we look
+looks like we can get any linear pattern of primes in which which involves all
+except for those that only involve one parameter they have to involve at least
+parameter they have to involve at least two independent parameters to have
+enough averaging to neglect this the pseudo-random part so if it wasn't for
+pseudo-random part so if it wasn't for that really annoying caveat we could we
+that really annoying caveat we could we could do things like a twin prime
+all these wonderful things but we can't do that but we can I keep count things
+there are how many cubes of power The Pipettes there are crimes of the certain
+forth well again and so they'll been will give a precise description of this
+will give a precise description of this so and that's a this is much more an
+committed than a previous theorem so we we generalize the Hollywood circle
+we generalize the Hollywood circle method we were placed for eh to
+reminisce with a more some a higher-order version of that concept
+higher-order version of that concept Java's uniformly and basically the key
+Java's uniformly and basically the key point is is that you want to show that
+point is is that you want to show that that the primes after eliminating these
+that the primes after eliminating these local obstructions which you always have
+local obstructions which you always have to do should be Gower's uniform which is
+and not not strong enough to do things I count twins twin crimes or so go back
+count twins twin crimes or so go back but good enough to count peace like
+but good enough to count peace like these are multi parameter patterns like
+these are multi parameter patterns like progression will inform professional
+emotive chronic receive a base point and the step size the two parameters and so
+the step size the two parameters and so the point is that these in Fourier
+the point is that these in Fourier analysis the structure topics are
+analysis the structure topics are characters in
+in his high-order case the structured objects are more complicated but they
+objects are more complicated but they have they have recently been classified
+at least for the in the case of what you need for progression and forth from new
+need for progression and forth from new potent groups they are what's called no
+potent groups they are what's called no sequences coming from a quotient of an
+sequences coming from a quotient of an importantly group and that is that is
+importantly group and that is that is the natural generalization of characters
+the natural generalization of characters which our flow is coming from from a
+torus and an abelian group and then so once you have that classification which
+is not trivial all you need to do is show that the the primes don't correlate
+show that the the primes don't correlate but these note with well they do call it
+which I want to find what that means but they but if if you know sequences don't
+they but if if you know sequences don't come from local obstructions you expect
+the primes to not correlate with us some example and you expect on that quadratic
+example and you expect on that quadratic across the periodic set I mentioned
+across the periodic set I mentioned earlier you take the primes to have sort
+of the proportion of times on that quadratically deposit except should
+quadratically deposit except should should should basically be the density
+of that said module some local obstructions which which I don't talk
+about and that can be done by a refined version of any lattice method although
+version of any lattice method although that itself was also not trivial so so
+that itself was also not trivial so so each of these three dots required 50
+pages of work those three papers and that's that's what the question of for
+that's that's what the question of for but but anyway combining a more we can
+we can now get council per Christum than for and soon hopefully for other patents
+for and soon hopefully for other patents as well but okay then we're talking a
+lot more about that I'm done thank you very much
+very much [Applause]

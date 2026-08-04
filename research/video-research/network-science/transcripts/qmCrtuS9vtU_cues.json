@@ -1,0 +1,492 @@
+[
+  {
+    "t_start": 7.519,
+    "t_end": 10.01,
+    "text": "continuing on with our theme of degree distribution two networks centralized"
+  },
+  {
+    "t_start": 10.01,
+    "t_end": 15.35,
+    "text": "networks represent networks with a very high degree distribution meaning that in"
+  },
+  {
+    "t_start": 15.35,
+    "t_end": 17.39,
+    "text": "high degree distribution meaning that in this type of network structure there"
+  },
+  {
+    "t_start": 17.39,
+    "t_end": 22.34,
+    "text": "will be very many nodes with a very low level of connectivity and very few or"
+  },
+  {
+    "t_start": 22.34,
+    "t_end": 23.96,
+    "text": "level of connectivity and very few or maybe just one node with an"
+  },
+  {
+    "t_start": 23.96,
+    "t_end": 25.279,
+    "text": "maybe just one node with an exceptionally high degree of"
+  },
+  {
+    "t_start": 25.279,
+    "t_end": 30.529,
+    "text": "connectivity thus they are very heterogeneous and unequal in terms of"
+  },
+  {
+    "t_start": 30.529,
+    "t_end": 32.6,
+    "text": "heterogeneous and unequal in terms of how connected and influential the"
+  },
+  {
+    "t_start": 32.6,
+    "t_end": 38.66,
+    "text": "different nodes in the network are so let's start by taking a few examples of"
+  },
+  {
+    "t_start": 38.66,
+    "t_end": 41.9,
+    "text": "let's start by taking a few examples of these centralized networks if we look at"
+  },
+  {
+    "t_start": 41.9,
+    "t_end": 44.209,
+    "text": "these centralized networks if we look at this network of global banking activity"
+  },
+  {
+    "t_start": 44.209,
+    "t_end": 46.7,
+    "text": "this network of global banking activity with nodes representing the absolute"
+  },
+  {
+    "t_start": 46.7,
+    "t_end": 51.68,
+    "text": "size of assets booked in a respective jurisdiction and the edges between them"
+  },
+  {
+    "t_start": 51.68,
+    "t_end": 54.11,
+    "text": "jurisdiction and the edges between them the exchange of financial capital with"
+  },
+  {
+    "t_start": 54.11,
+    "t_end": 59.54,
+    "text": "the exchange of financial capital with data taken from the IMF we can then see"
+  },
+  {
+    "t_start": 59.54,
+    "t_end": 62.119,
+    "text": "clearly how are very few core nodes dominate the network there are"
+  },
+  {
+    "t_start": 62.119,
+    "t_end": 67.13,
+    "text": "approximately 200 countries in the world but these 19 jurisdictions in terms of"
+  },
+  {
+    "t_start": 67.13,
+    "t_end": 69.32,
+    "text": "but these 19 jurisdictions in terms of capital together are responsible for"
+  },
+  {
+    "t_start": 69.32,
+    "t_end": 74.42,
+    "text": "over 90 percent of the assets this type of centralized structure to a network is"
+  },
+  {
+    "t_start": 74.42,
+    "t_end": 76.73,
+    "text": "of centralized structure to a network is surprisingly prevalent in our world and"
+  },
+  {
+    "t_start": 76.73,
+    "t_end": 81.8,
+    "text": "surprisingly prevalent in our world and we could cite many other examples of it"
+  },
+  {
+    "t_start": 81.8,
+    "t_end": 83.6,
+    "text": "such as social networks where very few people may have millions of people"
+  },
+  {
+    "t_start": 83.6,
+    "t_end": 88.93,
+    "text": "people may have millions of people connected to them with the vast majority"
+  },
+  {
+    "t_start": 88.93,
+    "t_end": 91.39,
+    "text": "only a very few connections these highly centralized networks are"
+  },
+  {
+    "t_start": 91.39,
+    "t_end": 93.76,
+    "text": "these highly centralized networks are more formally called scale-free or"
+  },
+  {
+    "t_start": 93.76,
+    "t_end": 96.25,
+    "text": "more formally called scale-free or power-law networks that describes a"
+  },
+  {
+    "t_start": 96.25,
+    "t_end": 98.5,
+    "text": "power-law networks that describes a power or exponential relationship"
+  },
+  {
+    "t_start": 98.5,
+    "t_end": 105.52,
+    "text": "between the degree of connectivity a node has and the frequency of its"
+  },
+  {
+    "t_start": 105.52,
+    "t_end": 107.53,
+    "text": "occurrence power lore networks are really defined by the mathematics that"
+  },
+  {
+    "t_start": 107.53,
+    "t_end": 112.75,
+    "text": "really defined by the mathematics that is behind them in these networks the"
+  },
+  {
+    "t_start": 112.75,
+    "t_end": 116.35,
+    "text": "number of nodes with degree X is proportional to one over x squared so"
+  },
+  {
+    "t_start": 116.35,
+    "t_end": 118.65,
+    "text": "proportional to one over x squared so the number of nodes with degree two is"
+  },
+  {
+    "t_start": 118.65,
+    "t_end": 125.11,
+    "text": "one-fourth of all the nodes the number of nodes with degree three is 1/9 of all"
+  },
+  {
+    "t_start": 125.11,
+    "t_end": 127.69,
+    "text": "of nodes with degree three is 1/9 of all the nodes and the number of nodes with"
+  },
+  {
+    "t_start": 127.69,
+    "t_end": 129.73,
+    "text": "the nodes and the number of nodes with degree 10 is proportional to one over"
+  },
+  {
+    "t_start": 129.73,
+    "t_end": 135.37,
+    "text": "100 the point to take away from this is that this longtail means that there can"
+  },
+  {
+    "t_start": 135.37,
+    "t_end": 142.21,
+    "text": "there will also be very many with a very low degree of connectivity giving us a"
+  },
+  {
+    "t_start": 142.21,
+    "t_end": 146.53,
+    "text": "low degree of connectivity giving us a highly centralized Network this type of"
+  },
+  {
+    "t_start": 146.53,
+    "t_end": 148.96,
+    "text": "highly centralized Network this type of power law graph was first discovered"
+  },
+  {
+    "t_start": 148.96,
+    "t_end": 150.67,
+    "text": "power law graph was first discovered within the degree distribution of"
+  },
+  {
+    "t_start": 150.67,
+    "t_end": 155.979,
+    "text": "websites on the internet with some websites like Google and Yahoo having"
+  },
+  {
+    "t_start": 155.979,
+    "t_end": 158.14,
+    "text": "websites like Google and Yahoo having very many links into them but they're"
+  },
+  {
+    "t_start": 158.14,
+    "t_end": 162.43,
+    "text": "also being very many sites out there on the web that have very few links into"
+  },
+  {
+    "t_start": 162.43,
+    "t_end": 164.89,
+    "text": "the web that have very few links into them since then it has been discovered"
+  },
+  {
+    "t_start": 164.89,
+    "t_end": 167.199,
+    "text": "them since then it has been discovered in many types of very different networks"
+  },
+  {
+    "t_start": 167.199,
+    "t_end": 173.41,
+    "text": "in many types of very different networks such as in metabolic networks where the"
+  },
+  {
+    "t_start": 173.41,
+    "t_end": 178.09,
+    "text": "essential molecules of ATP and ATP that provide the energy to fuel cells play a"
+  },
+  {
+    "t_start": 178.09,
+    "t_end": 180.31,
+    "text": "central role in interacting with very many different other molecules whereas"
+  },
+  {
+    "t_start": 180.31,
+    "t_end": 184.96,
+    "text": "many different other molecules whereas most of the molecules interact with very"
+  },
+  {
+    "t_start": 184.96,
+    "t_end": 187.479,
+    "text": "few others thus making these two molecules hubs in the metabolic networks"
+  },
+  {
+    "t_start": 187.479,
+    "t_end": 193.31,
+    "text": "molecules hubs in the metabolic networks the fuel the cells in our body"
+  },
+  {
+    "t_start": 193.31,
+    "t_end": 195.41,
+    "text": "this power law distribution has also been documented in the frequency of"
+  },
+  {
+    "t_start": 195.41,
+    "t_end": 197.66,
+    "text": "been documented in the frequency of citations between academic papers and"
+  },
+  {
+    "t_start": 197.66,
+    "t_end": 199.58,
+    "text": "citations between academic papers and within the social networks behind"
+  },
+  {
+    "t_start": 199.58,
+    "t_end": 204.77,
+    "text": "Hollywood actors the scale-free property two networks is then interesting because"
+  },
+  {
+    "t_start": 204.77,
+    "t_end": 207.32,
+    "text": "two networks is then interesting because it appears regularly and across all form"
+  },
+  {
+    "t_start": 207.32,
+    "t_end": 209.57,
+    "text": "it appears regularly and across all form two networks from the internet to social"
+  },
+  {
+    "t_start": 209.57,
+    "t_end": 212.75,
+    "text": "two networks from the internet to social groups to biological systems the power"
+  },
+  {
+    "t_start": 212.75,
+    "t_end": 217.28,
+    "text": "law distribution to a network like the World Wide Web is often explained with"
+  },
+  {
+    "t_start": 217.28,
+    "t_end": 218.96,
+    "text": "World Wide Web is often explained with reference to what is called preferential"
+  },
+  {
+    "t_start": 218.96,
+    "t_end": 221.78,
+    "text": "reference to what is called preferential attachment preferential attachment"
+  },
+  {
+    "t_start": 221.78,
+    "t_end": 227.57,
+    "text": "describes how a resource is distributed amongst a number of nodes according to"
+  },
+  {
+    "t_start": 227.57,
+    "t_end": 229.67,
+    "text": "amongst a number of nodes according to how much they already have so that those"
+  },
+  {
+    "t_start": 229.67,
+    "t_end": 234.26,
+    "text": "how much they already have so that those who already have a lot receive much more"
+  },
+  {
+    "t_start": 234.26,
+    "t_end": 236.36,
+    "text": "than those who have little in more familiar terms this is called the rich"
+  },
+  {
+    "t_start": 236.36,
+    "t_end": 241.82,
+    "text": "familiar terms this is called the rich get richer within this model if you are"
+  },
+  {
+    "t_start": 241.82,
+    "t_end": 247.88,
+    "text": "will be twice as likely to link to a website that has twice as many links as"
+  },
+  {
+    "t_start": 247.88,
+    "t_end": 251.12,
+    "text": "website that has twice as many links as another so to formalize this a bit"
+  },
+  {
+    "t_start": 251.12,
+    "t_end": 253.13,
+    "text": "another so to formalize this a bit better the probability that you will"
+  },
+  {
+    "t_start": 253.13,
+    "t_end": 255.44,
+    "text": "better the probability that you will make a link to a site is proportional to"
+  },
+  {
+    "t_start": 255.44,
+    "t_end": 258.289,
+    "text": "make a link to a site is proportional to the size of the site if the network was"
+  },
+  {
+    "t_start": 258.289,
+    "t_end": 260.57,
+    "text": "the size of the site if the network was created under these rules then we should"
+  },
+  {
+    "t_start": 260.57,
+    "t_end": 263.0,
+    "text": "created under these rules then we should get a power-law distribution but in"
+  },
+  {
+    "t_start": 263.0,
+    "t_end": 268.01,
+    "text": "reality this is quite a simplified model it should just give you an idea for some"
+  },
+  {
+    "t_start": 268.01,
+    "t_end": 269.78,
+    "text": "it should just give you an idea for some of the mechanics behind these parallel"
+  },
+  {
+    "t_start": 269.78,
+    "t_end": 274.67,
+    "text": "of the mechanics behind these parallel networks why we have these very large"
+  },
+  {
+    "t_start": 274.67,
+    "t_end": 279.26,
+    "text": "system we saw earlier is of course much more complex than this involving a"
+  },
+  {
+    "t_start": 279.26,
+    "t_end": 281.42,
+    "text": "more complex than this involving a number of different parameters most"
+  },
+  {
+    "t_start": 281.42,
+    "t_end": 283.04,
+    "text": "number of different parameters most notable among these is the actual"
+  },
+  {
+    "t_start": 283.04,
+    "t_end": 288.22,
+    "text": "notable among these is the actual quality of the service that the node is"
+  },
+  {
+    "t_start": 288.22,
+    "t_end": 290.59,
+    "text": "providing and not just its size one last thing we'll note about these"
+  },
+  {
+    "t_start": 290.59,
+    "t_end": 292.75,
+    "text": "one last thing we'll note about these centralized networks in respect to their"
+  },
+  {
+    "t_start": 292.75,
+    "t_end": 294.97,
+    "text": "centralized networks in respect to their robustness is that they can be very"
+  },
+  {
+    "t_start": 294.97,
+    "t_end": 297.91,
+    "text": "robustness is that they can be very robust or very fragile depending if we"
+  },
+  {
+    "t_start": 297.91,
+    "t_end": 299.92,
+    "text": "robust or very fragile depending if we are removing nodes randomly or"
+  },
+  {
+    "t_start": 299.92,
+    "t_end": 305.86,
+    "text": "strategically if we were removing nodes randomly then they will be very robust"
+  },
+  {
+    "t_start": 305.86,
+    "t_end": 308.11,
+    "text": "randomly then they will be very robust to failure because the vast majority of"
+  },
+  {
+    "t_start": 308.11,
+    "t_end": 310.03,
+    "text": "to failure because the vast majority of nodes have a very low degree of"
+  },
+  {
+    "t_start": 310.03,
+    "t_end": 312.49,
+    "text": "nodes have a very low degree of connectivity and thus we would likely be"
+  },
+  {
+    "t_start": 312.49,
+    "t_end": 313.93,
+    "text": "connectivity and thus we would likely be removing one of these insignificant"
+  },
+  {
+    "t_start": 313.93,
+    "t_end": 317.19,
+    "text": "removing one of these insignificant nodes with little effect on the overall"
+  },
+  {
+    "t_start": 317.19,
+    "t_end": 322.3,
+    "text": "but inversely if we were to remove a node strategically that is to say"
+  },
+  {
+    "t_start": 322.3,
+    "t_end": 324.82,
+    "text": "node strategically that is to say purposefully choosing the node we remove"
+  },
+  {
+    "t_start": 324.82,
+    "t_end": 329.89,
+    "text": "in order to maximize the damage recourse then these centralized networks are very"
+  },
+  {
+    "t_start": 329.89,
+    "t_end": 332.68,
+    "text": "then these centralized networks are very susceptible to failure of this kind we"
+  },
+  {
+    "t_start": 332.68,
+    "t_end": 336.52,
+    "text": "susceptible to failure of this kind we just have to remove one of the giant"
+  },
+  {
+    "t_start": 336.52,
+    "t_end": 338.32,
+    "text": "hubs that are critical in their role connecting many small hubs and the"
+  },
+  {
+    "t_start": 338.32,
+    "t_end": 342.34,
+    "text": "connecting many small hubs and the system will be affected greatly"
+  }
+]

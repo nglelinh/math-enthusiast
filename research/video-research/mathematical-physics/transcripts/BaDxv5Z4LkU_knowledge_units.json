@@ -1,0 +1,247 @@
+[
+  {
+    "id": "ku_video_BaDxv5Z4LkU_13",
+    "t_start": 13.3,
+    "t_end": 107.0,
+    "type": "overview",
+    "summary": "Okay, I think we're all settled down. Morning everybody. Uh my name is Martin Morning everybody. Uh my name is Martin Brides. I'm president of the Clay Maths Brides. I'm president of the Clay Maths Institute. Uh on behalf of the Institute. Uh on behalf of the institute, welcome to this uh what institute, welcome to this uh what should be two great days celebrating the should be two great days celebrating the 25th anniversary of the clay millennium 25th anniversary of the clay millennium problems. I'm very much looking forward problems. I'm very much looking forward to it. Uh we have some wo…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_106",
+    "t_start": 107.0,
+    "t_end": 198.9,
+    "type": "overview",
+    "summary": "to us about actually is giving us a report on the status of the knowledge report on the status of the knowledge stock problem. Thank you very much for the for the kind introduction. So uh I'd like to talk about the Navier Stokes uh problem. So we assume we have a domain occupied by the fluid. The fluid is modeled as a by the fluid. The fluid is modeled as a continuum and the velocity field is U. continuum and the velocity field is U. The pressure is P. And we assume the fluid is incompressible. And this is Navier Stokes equation with new being Navier Stokes equation with new being the visco…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_198",
+    "t_start": 198.9,
+    "t_end": 290.6,
+    "type": "overview",
+    "summary": "geometric equation uh interpretation of the equation with new is equal to zero. the oiler equation that uh these mappings t to 5t which are volume mappings t to 5t which are volume preserving defomorphisms they are geodessics in the group of volume preserving defomorphisms equipped volume preserving defomorphisms equipped with natural metric. So I mentioned that we assume that uh the fluid is a continuum in this model the fluid is a continuum in this model but we know that actually there is some but we know that actually there is some atomic structure uh underneath and so we atomic structur…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_290",
+    "t_start": 290.6,
+    "t_end": 383.8,
+    "type": "overview",
+    "summary": "So we can uh essentially have uh three basic scenario for the for the mil scenarios for the millennium problem. So one is that okay if you have smooth data one is that okay if you have smooth data there is a smooth solution and that there is a smooth solution and that essentially means you can interpret it essentially means you can interpret it as the the world of the continuum model as the the world of the continuum model being closed and self-contained. Okay, being closed and self-contained. Okay, you don't need anything else just the continuum model to predict uh the future. Then the opp…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_383",
+    "t_start": 383.8,
+    "t_end": 479.3,
+    "type": "overview",
+    "summary": "and the non-negligible one is it's a very practical the it's a very practical very practical the it's a very practical uh problem in in many respects. So if you imagine a flow like that uh it's very difficult to compute it uh on on a computer even on big computers and sometimes impossible uh because the the sometimes impossible uh because the the the structures are too fine you you would need too many points uh and the computers even the big ones cannot computers even the big ones cannot handle the the computations. So you can one way to think about the problem of turbulence is that you are…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_479",
+    "t_start": 479.3,
+    "t_end": 571.0,
+    "type": "overview",
+    "summary": "Bedros uh Jacob Bedrosan is uh going to talk about it in the PTE workshop on on talk about it in the PTE workshop on on Friday. Friday. So what do we know about the equation? So the basic uh estimate which we have for the equation is the energy estimate. Very equation is the energy estimate. Very simple. Energy at time t1 is equal energy at time t2 plus the energy dissipated in between. And in the 1930s, Lar based the whole theory of existence of weak solutions on this uh inequality. of weak solutions on this uh inequality. So you can for example truncate the So you can for example truncate…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_571",
+    "t_start": 571.0,
+    "t_end": 662.3,
+    "type": "overview",
+    "summary": "uh back uh to uh to so what are the best solution solutions which we know uh uh as of now so let's say you start with smooth data say on a Taurus that's also smooth data say on a Taurus that's also one of the versions of the millennium one of the versions of the millennium problem And uh you have this sequence of approximate solutions uh u so for a certain time up to time say capital t certain time up to time say capital t here uh everything is nice uh the uh here uh everything is nice uh the uh approximate solutions converge to a smooth solutions you don't have to choose a subsequence any …"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_662",
+    "t_start": 662.3,
+    "t_end": 755.7,
+    "type": "overview",
+    "summary": "which are available uh sometimes I mean there is a much more technical description and my I'm a little bit uh imprecise here. There are for example imprecise here. There are for example differences about what you can prove uh differences about what you can prove uh for the LAR approximation and this for for the LAR approximation and this for approximation but let's not worry about these details now. So if you could uh if you could prove uniqueness for the larop you could prove uniqueness for the larop solutions that would clearly be the right notion you can compare it to the say fur series …"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_755",
+    "t_start": 755.7,
+    "t_end": 848.1,
+    "type": "overview",
+    "summary": "solutions are unique. If you work a little more you can prove that larop little more you can prove that larop solutions are fully regular. So solutions are fully regular. So everything works uh perfectly in everything works uh perfectly in dimension two. Why is dimension three harder than uh dimension uh dimension two? What's the dimension uh dimension two? What's the difference? Okay. So when you when you do uh the estimates you use or the theory you use estimates you use or the theory you use essentially three ingredients. So one is essentially three ingredients. So one is the linear esti…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_848",
+    "t_start": 848.1,
+    "t_end": 938.1,
+    "type": "overview",
+    "summary": "velocity field of height m and if you use uh the bootstrapping and scaling you use uh the bootstrapping and scaling you conclude that the peak has to be at least new over m wide. Okay, it's clear that it that it cannot be arbitrarily that it that it cannot be arbitrarily thin because then the viscosity would question is how how thick it has to be. And uh one way to see that this is the right number that this is uh the only kind of dimensionally consistent length kind of dimensionally consistent length you can get from the uh from the parameters which we had and you can also check it by goin…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_938",
+    "t_start": 938.1,
+    "t_end": 1030.2,
+    "type": "overview",
+    "summary": "difference because here we have two you have three you get something divided by peak goes to zero. So the viscosity and the existence of uh singularity doesn't the existence of uh singularity doesn't give you an easy contradiction. give you an easy contradiction. So there people have uh people have uh So there people have uh people have uh thought about this. Okay, what you can prove what you cannot prove by this energy estimates energy estimates and uh a nice model is due to territo and uh a nice model is due to territo called averaged Navier Stokes equation. called averaged Navier Stokes …"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_1030",
+    "t_start": 1030.2,
+    "t_end": 1122.9,
+    "type": "overview",
+    "summary": "have what is known about regularity of this one as far as I know okay it's this one as far as I know okay it's regular in dimension two as before the regular in dimension two as before the same proof but in dimension higher than five you can prove it blows up uh in f from can prove it blows up uh in f from smooth data and uh not we don't know at smooth data and uh not we don't know at that about navier stocks we don't know that about navier stocks we don't know blow up of navier stocks in any but in dimension three and four we don't know this uh probably much simpler equation than Navier St…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_1122",
+    "t_start": 1122.9,
+    "t_end": 1213.6,
+    "type": "overview",
+    "summary": "in the 90s by in important works of Fresza and Rjichka and it also has Fresza and Rjichka and it also has relevance for the 3D Navier Stokes relevance for the 3D Navier Stokes equation because you can use uh their equation because you can use uh their idea to rule out self similar idea to rule out self similar singularities for Navier Stokes. So Lar singularities for Navier Stokes. So Lar tried to prove self similar tried to prove self similar singularities. Lar believed in uh in blow-ups and he tried to prove existence of self- similar singularities but you of self- similar singularities b…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_1213",
+    "t_start": 1213.6,
+    "t_end": 1304.3,
+    "type": "overview",
+    "summary": "Okay, we can always produce weak solutions. And if you have a parabolic equation or an elliptic equation, it's a good an elliptic equation, it's a good question whether all weak whether all question whether all weak whether all weak solutions are smooth. Right? So for system, linear Stoke system, you have the a version of the wild lema that any smooth. Is it true for Navier Stokes? So surprisingly this was open until 2017 surprisingly this was open until 2017 when uh uh uh Tristan Buckmaster and when uh uh uh Tristan Buckmaster and Vlad Viko constructed a counter example Vlad Viko construct…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_1304",
+    "t_start": 1304.3,
+    "t_end": 1396.0,
+    "type": "overview",
+    "summary": "to for example, the first example of this was uh in in the in the in the context of uh isometric embeddings and uh you would think that C1 isometric and uh you would think that C1 isometric embeddings are rigid. It's known that C2 embeddings are rigid. It's known that C2 embeddings are rigid and if you didn't didn't know anything about the problem I would probably predict that C1 will also would probably predict that C1 will also be rigid. It's just kind of a matter of be rigid. It's just kind of a matter of technical only when you see these technical only when you see these construction yo…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_1395",
+    "t_start": 1396.0,
+    "t_end": 1489.0,
+    "type": "overview",
+    "summary": "without the uh forcing. So the answer is no. Also uh if you if you don't have uh no. Also uh if you if you don't have uh don't have any closing using some don't have any closing using some earlier ideas on the on the subject and uh this the non-uniqueness looks kind of unfixable in the sense that you have uh unfixable in the sense that you have uh that you have sequences of smooth that you have sequences of smooth solutions which converge for any positive time in smooth norm to your solutions u and V the initial data solutions u and V the initial data converge in L2 and in fact slightly con…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_1488",
+    "t_start": 1489.0,
+    "t_end": 1579.8,
+    "type": "overview",
+    "summary": "extend the operator in a continuous way. There is another paper and pencil proof There is another paper and pencil proof uh of this non-uniqueness effect in a uh of this non-uniqueness effect in a slightly different setting. Uh so you slightly different setting. Uh so you can other than using the the uh LAR method you can try to prove the existence of the Navier Stokes equation existence of the Navier Stokes equation by Picard's iteration just the usual way we we do ODE. So you invert the linear operator, write the equation as a as a operator, write the equation as a as a put the nonlineari…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_1579",
+    "t_start": 1579.8,
+    "t_end": 1673.0,
+    "type": "overview",
+    "summary": "derivatives of bounded functions. And so if you use picard's iteration in this if you use picard's iteration in this space using their estimates you can show space using their estimates you can show that there is global existence for small that there is global existence for small data uh in this space and uh kullesco data uh in this space and uh kullesco and palask very recently showed that the and palask very recently showed that the smallness is essential that if you don't smallness is essential that if you don't have if you are above a certain same picture that you have two solutions whi…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_1673",
+    "t_start": 1673.0,
+    "t_end": 1766.1,
+    "type": "overview",
+    "summary": "but it's non-generic right if you slightly perturb the coefficients of the slightly perturb the coefficients of the polomial the singularity goes away. So situation to to have singularity some equation has to be satisfied or so for equation has to be satisfied or so for the uh for the mean curvature equation for the evolution equation also you can have many singularities many of similar singularities and so on but only very few are stable most of them are unstable few are stable most of them are unstable there is a great program by calling and there is a great program by calling and minikos…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_1766",
+    "t_start": 1766.1,
+    "t_end": 1856.5,
+    "type": "overview",
+    "summary": "z^ squ in the complex plane. Okay. So forget epsilon okay set epsilon is equal forget epsilon okay set epsilon is equal to zero at the moment. So then it blows up if you start at the positive you can compute everything explicitly of course compute everything explicitly of course it blows up if you start at the at the but if you start away from the positive axis it doesn't blow up it goes to zero axis it doesn't blow up it goes to zero okay so you can say generically the solution does not blow up if you add random forcing so I write epsilon v w is random forcing so I write epsilon v w is the…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_1856",
+    "t_start": 1856.5,
+    "t_end": 1953.0,
+    "type": "overview",
+    "summary": "that there is a s there is a similar situation and this as in this herzog mattingly model that in fact you can also do it in 3D despite uh uh possible also do it in 3D despite uh uh possible singularities if they would non-generic singularities if they would non-generic maybe this could still go through. maybe this could still go through. Okay, let's uh there were also there are Okay, let's uh there were also there are also many important results for the uh oiler equation which I would uh which I would like to discuss. would like to discuss. So you can you can view oiler equation So you can…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_1953",
+    "t_start": 1953.0,
+    "t_end": 2045.1,
+    "type": "overview",
+    "summary": "consider this forced Navier Stokes. So f can be say stochastic or some fixed force in very smooth and so on. And you in turbulence theory one considers the in turbulence theory one considers the situation when new goes to zero the the corresponds to very turbulent solution Reynolds number going to infinity and Reynolds number going to infinity and there is a standard picture in the there is a standard picture in the phenomenological turbulence theory uh of what is happening. So the forcing uh injects energy at low for air modes. Say injects energy at low for air modes. Say this K is the wav…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_2045",
+    "t_start": 2045.1,
+    "t_end": 2140.0,
+    "type": "overview",
+    "summary": "solution here the objects here don't really care about where you do the the So, from that point of view, you can take new to infinity and the picture take new to infinity and the picture here should still essentially remain the here should still essentially remain the same. So this is of course uh same. So this is of course uh heristics and from phenomenological theory we cannot far beyond what we can do. Uh but nevertheless it predicts some do. Uh but nevertheless it predicts some interesting solutions of the limiting interesting solutions of the limiting field U. So the prediction for the…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_2139",
+    "t_start": 2140.0,
+    "t_end": 2231.4,
+    "type": "overview",
+    "summary": "Gromoff paper on uh on soft uh differential equations that somehow if differential equations that somehow if you know how then you can construct many constructions are very difficult right you have to know how to do it so the you have to know how to do it so the first uh work on that was uh due to first uh work on that was uh due to Vladimir Schffer who proved uh the Vladimir Schffer who proved uh the existence of uh the existence of existence of uh the existence of solutions with compact support with just and then Camilo Dealis and Lassel Sheekah they they connected it these questions to t…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_2231",
+    "t_start": 2231.4,
+    "t_end": 2322.9,
+    "type": "overview",
+    "summary": "uh these uh solutions? One way to think about it I think is is So we have these uh interesting physical solutions which you get from the turbulence which are predicted by the phenomenological turbulence theory. But it's uh it's very difficult to construct uh this type of solutions in construct uh this type of solutions in the class of strong solutions. Right? We the class of strong solutions. Right? We only have a quite a limited repertoire only have a quite a limited repertoire of solutions to get close to to which which get close to to this uh uh what we what we expect from the phenomenol…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_2322",
+    "t_start": 2322.9,
+    "t_end": 2417.8,
+    "type": "overview",
+    "summary": "view this like inner approximation. You you can try to on the strong side to get to these uh physics physical solutions interesting physical solutions. On the interesting physical solutions. On the weak side you can try to get to them from the uh as kind of like outer approximation. Maybe they don't satisfy all the properties but the hope is that eventually you get close to and then uh eventually you get close to and then uh maybe they you you there'll be some maybe they you you there'll be some convergence from inside and from the convergence from inside and from the outside. now to the to…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_2417",
+    "t_start": 2417.8,
+    "t_end": 2510.9,
+    "type": "overview",
+    "summary": "scenario that there were attempts to to compute blowup solution of oiler before compute blowup solution of oiler before but they were all much more complicated but they were all much more complicated and very difficult to analyze. So this and very difficult to analyze. So this uh scenario it does need a boundary. So it's in a domain in boundary. Uh but it's it's relatively simple. You uh you it's it's relatively simple. You uh you in this picture uh you you assume that uh say this this part above the dotted line is like your cup of tea and you stir your fluid in this way and you imagine you…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_2510",
+    "t_start": 2510.9,
+    "t_end": 2602.0,
+    "type": "overview",
+    "summary": "the pressure is just strong enough to prevent blow up and you have global prevent blow up and you have global existence for uh for the uh equation. existence for uh for the uh equation. But in dimension three this extra freedom which you have here or this extra push which you get from this uh extra push which you get from this uh third dimension is enough to to produce third dimension is enough to to produce blow up. The blow up is of the form which does not help you for navier stokes the velocity stays bounded. So if stokes the velocity stays bounded. So if you add viscosity the the singul…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_2601",
+    "t_start": 2602.0,
+    "t_end": 2694.9,
+    "type": "overview",
+    "summary": "singularity questions for oiler equation we have a we have a positive answer. The we have a we have a positive answer. The idea is was very surprising. idea is was very surprising. He constructed the solutions in the so-called uh in the class of axis symmetric solution with no swirl where symmetric solution with no swirl where you have smooth solutions globally existing smooth solutions for smooth data because for smooth data so so for data because for smooth data so so for that equation it is known that this that equation it is known that this quantity moves with the flow so it's quantity …"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_2694",
+    "t_start": 2694.9,
+    "t_end": 2785.5,
+    "type": "overview",
+    "summary": "the singularities uh discovered by Gualu and Tom How they come so they discovered and Tom How they come so they discovered a singularity but it is often the case a singularity but it is often the case for example for burgers equation nonlinear shreddinger equation and so on in many equations which have self- in many equations which have self- similar blowup that these self- similar similar blowup that these self- similar singularities they come in families okay singularities they come in families okay you have the stable then you have the next which is a bit unstable the next which is even …"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_2785",
+    "t_start": 2785.5,
+    "t_end": 2878.3,
+    "type": "overview",
+    "summary": "which is the case for some important equations in fluid mechanics right oiler equations in fluid mechanics right oiler equation has a certain relation between equation has a certain relation between vorticity and velocity and other important equation have another uh relation. So if oiler already is on the relation. So if oiler already is on the brink so to speak, you can argue if you brink so to speak, you can argue if you make the solution the biosavar law a make the solution the biosavar law a little bit less regularizing then you will have blow up and this is indeed the case as proved in…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_2878",
+    "t_start": 2878.3,
+    "t_end": 2975.3,
+    "type": "overview",
+    "summary": "oil 3D oiler equation you can find inside nonlinear shreddinger okay the fully integraable nonlinear shreddinger equation sits inside the oiler equation equation sits inside the oiler equation if in some limiting regime if in some limiting regime Okay, you have uh various dispersive Okay, you have uh various dispersive equations which sit there inside Navier equations which sit there inside Navier Stokes. You also have many equations. You for example have the equation there for the curvature on the sphere. The the for the curvature on the sphere. The the equation of uh of uh conformal geome…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_2975",
+    "t_start": 2975.3,
+    "t_end": 3067.3,
+    "type": "overview",
+    "summary": "possibility of singularity formation is in a 1911 paper by Ozim where he where in a 1911 paper by Ozim where he where he constructs uh the solutions essentially by this uh Picard iteration is able to do it for a short time and in is able to do it for a short time and in a matter of fact he just states that we a matter of fact he just states that we don't know but it's conceivable able that uh for large data or larger time you can have singularity spontaneously forming in the fluid. Okay. Doesn't give his opinion on on whether or not this is his opinion on on whether or not this is true. Lar…"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_3067",
+    "t_start": 3067.3,
+    "t_end": 3159.0,
+    "type": "overview",
+    "summary": "and this is this graph represent my own personal uh impression of what the from personal uh impression of what the from reading the literature what the opinion reading the literature what the opinion in the community is about the regularity question. Okay. So I started here with Osin who was I think kind of agnostic then Lar he he kind of moved towards singularity and then uh at least that's singularity and then uh at least that's my impression maybe other people will my impression maybe other people will have a different impression. There was have a different impression. There was uh like …"
+  },
+  {
+    "id": "ku_video_BaDxv5Z4LkU_3159",
+    "t_start": 3159.0,
+    "t_end": 3175.0,
+    "type": "overview",
+    "summary": "conjecture would be that there are singularities but they are all unstable singularities but they are all unstable so we don't see them okay that's all I want to say thank [Applause]"
+  }
+]

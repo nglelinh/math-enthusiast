@@ -1,0 +1,872 @@
+I feel a little bit overwhelmed you know because to be here and ungrateful to
+celebrate and to owner aerobic Langlands and his work as aaron has mentioned my
+and his work as aaron has mentioned my work has been for many years on various
+subject of the language program that he launched created about 50 years ago so
+it's it's for all of us who work in this subject and it is it's a big family you
+subject and it is it's a big family you know we are a big family and and some of
+know we are a big family and and some of us work in geometry some of us work at
+us work in geometry some of us work at number theory some of us work in
+representation theory and so on but there is this one unifying thread which
+there is this one unifying thread which connects us and I think I speak for all
+of us who have been touched by his ideas and his work for all of us that it's an
+and his work for all of us that it's an immense joy
+first of all men's joy to see language recognized in this way and gratitude and
+recognized in this way and gratitude and joy so it is with this sense of
+gratitude and joy that I would like to talk to you about some aspects of this
+talk to you about some aspects of this fascinating subject
+so here is a here's Robert at the Institute for Advanced Study at his
+Institute for Advanced Study at his office which is very nice office by the
+office which is very nice office by the way but I would like to to start with a
+way but I would like to to start with a quote from my compatriot a great Russian
+quote from my compatriot a great Russian mathematician who was also trailblazer
+in many ways the first mathematics woman mathematics professor the first woman to
+mathematics professor the first woman to be an editor of a major mathematics
+journal and so on and she wrote many people who had never had a chance to
+people who had never had a chance to know what mathematics is about and think
+know what mathematics is about and think of it as basic arithmetic consider it a
+of it as basic arithmetic consider it a dry and fruitless subject but in fact it
+is a field that requires most of all imagination in Russian she said Fantasia
+imagination in Russian she said Fantasia but I think it's a good the best
+translation thing is imagination and then she continued and she said it is
+without being a poet at heart it seems to me that the poet see what others can
+to me that the poet see what others can see see deeper than others and that's
+see see deeper than others and that's the job of a mathematician as well so I
+the job of a mathematician as well so I think it's a very fitting quote when I
+think it's a very fitting quote when I speak about the work of Robert Langlands
+speak about the work of Robert Langlands because in my view his work was
+because in my view his work was precisely distinguished by originality
+precisely distinguished by originality and imagination and penetrating insights
+there is poetry in it and you have seen the glimpses of that poetry this morning
+the glimpses of that poetry this morning when he gave his talk so I would like to
+when he gave his talk so I would like to emphasize one aspect of his work one
+of it was already covered by my Steam colleague and friend Jim Arthur earlier
+colleague and friend Jim Arthur earlier and that aspect is aspect of unification
+and that aspect is aspect of unification of finding deep connections between
+of finding deep connections between different areas of mathematics which
+not to be not that far apart and so that I like to think of the language program
+I like to think of the language program as a kind of a bridge between different
+as a kind of a bridge between different continents of mathematics well for young
+people here and maybe for some more mature young people also I would like to
+mature young people also I would like to give some examples what do I mean by
+give some examples what do I mean by continents of mathematics so and how
+continents of mathematics so and how they fit together so in fact it's a good
+metaphor in my view to think of mathematics as solving a jigsaw puzzle
+in some sense but it's a vast a jigsaw puzzle and you don't know what the final
+puzzle and you don't know what the final picture is going to look like so it's
+picture is going to look like so it's much more fun to do that in some ways
+and much more difficult to do than a typical jigsaw puzzle you have all these
+pieces and you try to find the way they fit together and then you create kind of
+fit together and then you create kind of little parts little continents and then
+you try to see how to connect them so perhaps it is better to look at the side
+where you do actually see continents so some of these are number theory has been
+some of these are number theory has been mentioned before study of numbers
+obviously but the question is what kind of numbers so there's a whole universe
+of numbers starting with the whole numbers but then also rational numbers
+numbers but then also rational numbers algebraic numbers p-adic numbers complex
+algebraic numbers p-adic numbers complex numbers etc finite fields harmonic
+touched in profound ways by the language program Jim Arthur talked about this in
+program Jim Arthur talked about this in detail the best example which we
+encounter in our everyday lives is the sound for instance if you go to hear
+sound for instance if you go to hear listen to symphony we know that it's
+listen to symphony we know that it's sound of a symphonies combined from the
+sound of a symphonies combined from the sounds of different nodes of different
+instruments each of them you can think of as a harmonic as an elementary wave
+of as a harmonic as an elementary wave and then they come together to create a
+symphony so that's the mechanism by which complicate functions can be can be
+which complicate functions can be can be separated and decomposed into elementary
+separated and decomposed into elementary pieces called harmonium
+those harmonics may be much more complicated in general than just a
+complicated in general than just a familiar trigonometric functions
+familiar trigonometric functions representing waves and we'll see some of
+there's also geometry side of shapes such as a torus which language himself
+such as a torus which language himself talked about earlier today or this
+talked about earlier today or this strange figures all of them are called
+strange figures all of them are called Riemann surfaces after the great German
+Riemann surfaces after the great German mathematician Bernhard Riemann but these
+mathematician Bernhard Riemann but these are two-dimensional and of course there
+are three dimensions of four-dimensional and on and on so the language program as
+and on and on so the language program as has already been mentioned a number of
+has already been mentioned a number of times in particular in particular
+times in particular in particular because there are many many different
+things so but in particular it established the bridge I could like to
+established the bridge I could like to say is established a bridge between
+say is established a bridge between number theory and harmonic analysis so
+okay so I couldn't resist to show you again this letter the cover letter which
+again this letter the cover letter which a couple page of his a letter to Andre V
+1967 it's in the archive of the Institute for Advanced Study so he's
+he's a 31 year old man young man who has this revolutionary ideas is sharing with
+this revolutionary ideas is sharing with a matter a luminary in the subject I
+a matter a luminary in the subject I find it fascinating and especially the
+last line which is sort of wins the prize for understatement of the century
+prize for understatement of the century you know if you if you don't want to
+read it I'm sure you have a wastebasket handy so it's nice to you know these
+handy so it's nice to you know these days were exposed to so much you know
+vulgarity and and and ego you know driven you know behavior I'm not going
+to name any names okay but you know what talking about and it's so refreshing to
+talking about and it's so refreshing to see someone who is modest and he's not
+thing in the world even if it is perhaps the greatest thing in the world but so
+the greatest thing in the world but so that that letter to entry way and
+that that letter to entry way and started this this launched this ideas
+and so I would like what I would like to do since Jim Arthur already gave a bro
+do since Jim Arthur already gave a bro outline of what the language program is
+outline of what the language program is about I would like to show you one
+about I would like to show you one example of what kind of the type of
+example of what kind of the type of connections that it predicts in this
+example in this case it is actually well understood but there are many vast the
+understood but there are many vast the generalization of that example which is
+generalization of that example which is most of them are conjecture and not we
+and even if we know how to prove it in most cases I think we still it's still
+most cases I think we still it's still fair to say we don't know why it's still
+a mystery which i think is for me I was so captive this is what captivated
+I was so captive this is what captivated me when I first was exposed to this idea
+is this sense of mystery and wonder why what is going on in there there's some
+what is going on in there there's some mystery in it
+but so here's something which is not which is well understood and that's
+which is well understood and that's admitted modular primes so we can take
+admitted modular primes so we can take we can count call numbers obviously
+right but then we can count them modular and number so for instance in this case
+and number so for instance in this case what is shown is counting these numbers
+what is shown is counting these numbers modulo 7 so you have 0 1 2 3 4 5 6 and
+modulo 7 so you have 0 1 2 3 4 5 6 and then you fall back onto 0 and so on so
+then you fall back onto 0 and so on so it's kind of a spy think of it as a
+it's kind of a spy think of it as a spiral projecting down onto a circle and
+spiral projecting down onto a circle and then if we have any expression involving
+then if we have any expression involving whole numbers we can always take the
+whole numbers we can always take the result modular this fixed number like 7
+result modular this fixed number like 7 or any other number and that's what's
+or any other number and that's what's called arithmetic modulo that number but
+called arithmetic modulo that number but with especially interested in the
+with especially interested in the arithmetic modulo Prime's although we
+have more familiar perhaps in arithmetic modulo 12 when we count hours while Oh
+modulo 12 when we count hours while Oh perhaps 24 and on the on this side of
+perhaps 24 and on the on this side of the of the of the ocean right so and
+then I would like to talk about elliptic curves are immortal already mentioned
+them and well I cannot also resist to mention that of course elliptic curves
+mention that of course elliptic curves big foundational results in that theory
+big foundational results in that theory were laid about
+down by by the great herbal so obviously here we are also honoring him so it's a
+here we are also honoring him so it's a multi-faceted theory of elliptic curves
+multi-faceted theory of elliptic curves and more concretely an elliptic curve
+like this so this is an equation on two variables x and y and i will call it a
+variables x and y and i will call it a cubic equation because the highest power
+cubic equation because the highest power which appears is q is a cubic flower as
+but X cubed kind of beats Y squared so we call it a cubic equation and so you
+we call it a cubic equation and so you see that the coefficients are whole
+see that the coefficients are whole numbers integers so we could look for
+numbers integers so we could look for solutions in terms of whole numbers in
+terms of integers but we could also look for solutions modulo P which means that
+we would just substitute for X and Y numbers between 0 and P minus 1 and see
+numbers between 0 and P minus 1 and see if the left hand side is equal to the
+if the left hand side is equal to the right hand side but not necessarily on
+the nose they are allowed to differ by a multiple of P so that's what we mean by
+multiple of P so that's what we mean by a solution of this equation modular
+prime number P okay so now so there how many options there are so there are P P
+many options there are so there are P P possible values for X from 0 to P minus
+from 0 to P minus 1 so a P squared possibilities but most of them the left
+hand side will not be equal to the right hand side even modulo P so there will be
+there will be a number which is between 0 and P squared which is a number of
+find we would like to find the number of those solutions but we want to find it
+equals 7 we want to know them for all prime numbers and of course one of the
+prime numbers and of course one of the foundational results of all mathematics
+foundational results of all mathematics is a statement that are infinitely many
+prime numbers we kind of take it for granted but I think it's it's always a
+granted but I think it's it's always a good idea to to reflect on on the on
+good idea to to reflect on on the on call non-trivial and important this
+statement really is okay so for instance here's one example let's take P equal 5
+here's one example let's take P equal 5 then we got solutions and you can check
+then we got solutions and you can check that well if you put 0 0 we get 0 on
+likewise for X equal 1 y zero and those but but also we can take
+x equals zero and y equals four if we take y equals four the left hand side 20
+take y equals four the left hand side 20 right 16 plus 4 and the right hand side
+is 0 so we get 20 and 0 which normally we wouldn't say that we would say that
+we wouldn't say that we would say that they're not equal to each other but
+divisible by 5 so that we count that as a solution and likewise we take X equal
+1 and y equal 4 we also get a solution so all together it turns out there are 4
+so all together it turns out there are 4 solutions so out of 25 possibilities
+possible values of x and y there are 4 for which the left and right hand sides
+for which the left and right hand sides match up to a multiple of 5 so that's
+match up to a multiple of 5 so that's what I mean by counting solutions so in
+what I mean by counting solutions so in this case we would say this equation has
+4 solutions modulo 5 and now we can set up this kind of a funny counting problem
+up this kind of a funny counting problem so for every prime number and of course
+so for every prime number and of course we know the prime numbers 2 3 5 7 11 13
+and so on numbers which are not divisible by any other natural number
+divisible by any other natural number other than 1 and itself
+and we can count the number of solutions so for instance we already know that we
+so for instance we already know that we found oops wrong button for 4 prime
+found oops wrong button for 4 prime number 5 we have four solutions but then
+number 5 we have four solutions but then I want to actually it's more convenient
+I want to actually it's more convenient to record not this number but number P
+minus this number so for instance in this case P is 5 and this is 4 and the
+this case P is 5 and this is 4 and the difference 1 and so the last colon
+difference 1 and so the last colon should be the difference of the first
+and a second I hope I didn't make any mistakes would you never do right so so
+mistakes would you never do right so so 13 minus 9 is 4 ok good and so on I hope
+I hope it's correct now we got the sequence of numbers I call them a of P
+for every prime there is a number by the way could be negative it doesn't have to
+way could be negative it doesn't have to be positive like you see in this in this
+be positive like you see in this in this example so question is is there any rule
+example so question is is there any rule there is either any law is there is any
+hidden symmetry or mechanism by which these numbers are generated or the or
+these numbers are generated or the or are they completely random and chaotic
+at first glance and we can continue this for a while some first two lines by hand
+for a while some first two lines by hand then by by a calculator than by a
+computer it does is it for a while we can continue and we can see that they
+can continue and we can see that they actually looks pretty random so it comes
+actually looks pretty random so it comes as a big surprise as a big miracle
+as a big surprise as a big miracle really
+that in fact all of these numbers at once can be described in one line by one
+once can be described in one line by one equation but the home of that equation
+equation but the home of that equation the origin of that equation is not a
+number theory it is in her Monique analysis let me explain the equation
+analysis let me explain the equation that I'm talking about is this infinite
+that I'm talking about is this infinite expression so it's Q it bear with me
+it's Q then you have approach to the product of infinitely many factors and
+the factors are like this first of all there's Q it appears only once then you
+there's Q it appears only once then you have 1 minus Q 1 minus Q squared 1 minus
+have 1 minus Q 1 minus Q squared 1 minus Q to the third power to the fourth power
+and so on and all of them squared ok then so that's one series of infinite
+then so that's one series of infinite factors and then you also have another
+factors and then you also have another series of entering factors which have
+series of entering factors which have powers divisible by 11 1 minus Q to the
+squared 1 minus Q to the thirty third power squared and so on now we can open
+power squared and so on now we can open the brackets and we can collect the
+terms with the same power even though it's an infinite product the powers grow
+it's an infinite product the powers grow as you go more to the right
+as you go more to the right so only finitely many terms will
+so only finitely many terms will contribute to any specific coefficient
+contribute to any specific coefficient any specific monomial or whatever a
+q so for instance that in front of Q to the five we have one in front of Q to
+the six we have two and so on and the statement is drumroll is that the
+coefficient in front of the piece power is exactly that number elusive number FP
+is exactly that number elusive number FP FP which I expressed here by saying that
+if you denote the coefficient of this infinite series obtained in this very
+infinite series obtained in this very regular procedure very standardized
+coefficient for example in front of Q to the 5 you know the B of 5 etc so you get
+the 5 you know the B of 5 etc so you get another sequence of numbers labeled by
+another sequence of numbers labeled by Prime's note that here actually there
+are numbers labeled not just by Prime's but by all positive integers but we will
+but by all positive integers but we will only be interested for now in the
+only be interested for now in the coefficients in front of prime powers Q
+coefficients in front of prime powers Q to the 5 Q well Q squared Q to the Q
+acute cubed Q to the 5 Q to the 7 Q to the 11 etc so that's another sequence
+the 11 etc so that's another sequence and guess what it is the same as the
+finding order in seeming cares that's how then glance himself referred
+that's how then glance himself referred to this in one of his articles what it
+really is is a colossal compression of information you have seemingly chaotic
+behavior where you have the sequence of things which come at you and without it
+things which come at you and without it with no a priori given rule or procedure
+with no a priori given rule or procedure to understand what these numbers are but
+to understand what these numbers are but on the other side there is this very
+on the other side there is this very regular organized way of producing these
+regular organized way of producing these numbers out of a single line it's a kind
+gives us a sort of a DNA of this counting problem so that's the kind of
+counting problem so that's the kind of bridge that I'm talking about on one
+bridge that I'm talking about on one side you have a problem in number theory
+side you have a problem in number theory which has difficult it's a difficult
+which has difficult it's a difficult problem where we can where we need to
+problem where we can where we need to you know no a priori visible way of
+getting those infinitely many this infinite amount of information out on
+infinite amount of information out on the other side we have harmonic analysis
+the other side we have harmonic analysis in which
+this function lives so for now it's just a series it's an infinite series but in
+a series it's an infinite series but in fact there is more it is actually very
+fact there is more it is actually very nicely behaved function of this variable
+nicely behaved function of this variable cube you see and the point is that it
+seemingly different world of harmonic analysis and yet it has the answer to
+analysis and yet it has the answer to the difficult question that we started
+the difficult question that we started with so what is this function then how
+function if we didn't care about the counting problem what is its proper
+place in its home of which is harmonic analysis well we can actually think of Q
+analysis well we can actually think of Q naught as a formal variable but as a
+naught as a formal variable but as a complex number on the you in inside the
+complex number on the you in inside the unit disk so complex numbers live on put
+absolute value of a complex number is a distance from the origin to the complex
+distance from the origin to the complex to the point which represents this
+complex number if you look at all the numbers which are have distance to the
+origin less than 1 we get a unit disk open unit disk without the boundary and
+open unit disk without the boundary and it turns out that the series converges
+it turns out that the series converges so actually for every number of this
+so actually for every number of this nature this infinite expression can be
+nature this infinite expression can be summed up oops wrong button you see so
+you can you can sum that some time up it converges so you get a function on the
+converges so you get a function on the unit disk and it's a very special
+unit disk and it's a very special function it's not just some random
+function it's not just some random function it has a function which is
+function it has a function which is called a modular form which means that
+it has very nice properties transformation properties under certain
+transformation properties under certain group of symmetries of the unit disk I'm
+this group is but I'll just show you picture the disk can be partitioned into
+picture the disk can be partitioned into into the sort of hyperbolic triangles
+and what this group does it is sort of interchanges them in a particular way
+interchanges them in a particular way it's an infinite group it's a subgroup
+of the group s o2z for experts I think I believe it's level 11 Congress
+I think I believe it's level 11 Congress subgroup and this group interchanges
+so this is not exactly the I'm showing the the action of a very closely related
+the the action of a very closely related group on it under this but it's a
+picture like that okay so in what sense that function
+so in what sense that function represents Harmonia analysis well I
+talked about harmonic analysis in the context of sound waves in the concepts
+harmonics are the simplest aromatic functions which we studied school signs
+functions which we studied school signs and co-signs
+their periodic functions which period 2pi and general periodic functions can
+2pi and general periodic functions can in some sense be written as combinations
+in some sense be written as combinations linear combinations of this function
+linear combinations of this function sine and cosine in this sense that the
+pieces out of which all other functions periodic functions are composed so in
+this case the role of the group that i talked about earlier is played by this
+talked about earlier is played by this circle group and more precisely by the
+group of shifts by integer times 2pi so it's group z the group of integers which
+it's group z the group of integers which acts on the on the real line by shifting
+acts on the on the real line by shifting points by 2 pi by a multiple integral
+points by 2 pi by a multiple integral multiple of 2 pi and the functions which
+are invariant under the symmetry are precisely the trigonometric functions
+sine of X and cosine of X but also sine of n X and cosine of n X were energy an
+of n X and cosine of n X were energy an integer now the function that appeared
+in the counting problem is like that except it's it's you should replace the
+except it's it's you should replace the real line by the disk and it should
+replace the group of shifts by integer multiples of 2 pi by this fancy group of
+multiples of 2 pi by this fancy group of symmetries acting on on the unit disk so
+symmetries acting on on the unit disk so it is a harmonic function in that sense
+it is a harmonic function in that sense it's a harmonic function for the Union
+so now the language program could be or part of a part of language percocet as
+part of a part of language percocet as we heard from Jim Arthur's lecture there
+we heard from Jim Arthur's lecture there are actually many different components
+are actually many different components but one component which I am emphasizing
+right now is this idea that difficult questions in number theory about things
+questions in number theory about things such as counting numbers of solutions of
+such as counting numbers of solutions of algebraic equations such as the cubic
+equation that I wrote down may be reformulated in terms of questions in
+reformulated in terms of questions in harmonic analysis but much more
+tractable questions you see there is no comparison between the difficulty of
+extracting the numbers of solutions for all primes from the cubic equation and
+extracting the coefficients of this infinite series which we can write in
+one line there's no comparison and that's why it's a miracle it's a
+studying each time I talk about it I have to say I'm really you know in all
+have to say I'm really you know in all of this I still and I still have to say
+that even though there is a good explanations for this it still strikes
+explanations for this it still strikes me as something mysterious ultimately
+me as something mysterious ultimately but we still don't fully understand so
+now imagine that you can do that not just for one cubic equation not just for
+just for one cubic equation not just for all cubic equations of a certain kind
+not just for all equations in two variables of all degrees but for
+variables of all degrees but for anything you can possibly imagine in
+either in algebraic geometry in the study of motives which Jim Hartle talked
+about earlier or you can take a different point of view and talk about
+different point of view and talk about the representations of the Galois group
+counting problem is the Galois group of all of the morphisms of the algebraic
+closure of rational numbers but we can then generalize that as well by taking
+then generalize that as well by taking instead of the field of rational numbers
+instead of the field of rational numbers that is the field of fraction state it's
+finite extensions then it's algebra closer then it's group of symmetries and
+arbitrary dimensions of those fields so you could just to give you a sense of
+becomes and in all of those cases there is a unifying trend which is that
+is a unifying trend which is that information about those sophisticated
+information about those sophisticated objects of number theory and algebraic
+functions appearing in harmonic analysis so that the cubic equation itself is
+so that the cubic equation itself is inside what could be seen as sort of a
+part a small part of the language program also known as shimmer taniyama
+program also known as shimmer taniyama very conjecture which actually smooth on
+very conjecture which actually smooth on of a cancer COPD it's the blindness
+of a cancer COPD it's the blindness problem it covers the specific case of
+elliptic curves and if you have an elliptic curve over the rational numbers
+elliptic curve over the rational numbers such as the one defined by this cubic
+equation you can actually associate to it a two-dimensional representation of
+it a two-dimensional representation of the color group on the first italic
+i'm not going to get too much into this details but the point is that the smooth
+details but the point is that the smooth uyama vague conjecture states that to
+uyama vague conjecture states that to each of those two dimensional
+representation of the Galois group you can associate a motor form and it's not
+can associate a motor form and it's not just okay you have a by direction
+just okay you have a by direction between the objects of one nature object
+between the objects of one nature object of another nation that wouldn't be such
+of another nation that wouldn't be such a big deal the point is that to each of
+the two objects on two sides you associate certain certain infinite
+cubic curves more or less the numbers of solutions modular prime numbers in the
+case of a modular form coefficients in front of prime powers and the beauty and
+front of prime powers and the beauty and the power of this of this bridge is that
+this match for all but finitely many Prime's in my example is a nice example
+Prime's in my example is a nice example so it actually works for all Prime's but
+in general could be finitely many promised behaving Prime's for which is
+not as slightly off but for all but finitely many they will match so that's
+finitely many they will match so that's already huge schemata gem of a
+already huge schemata gem of a conjecture you see because in particular
+we know from the work of my colleague at UC Berkeley can Ribit that this immortan
+UC Berkeley can Ribit that this immortan yamame implies Fermat's Last Theorem one
+yamame implies Fermat's Last Theorem one of the most famous mathematical problem
+of the most famous mathematical problem of all time which took 350 years to
+prove and was finally proved by Andrew we shall tell Richard Taylor not so long
+we shall tell Richard Taylor not so long ago so you see it's a big deal and but
+ago so you see it's a big deal and but that is just a small small special case
+that is just a small small special case of the general language conjectures you
+of the general language conjectures you see where which cover not just elliptic
+see where which cover not just elliptic curves and not just the first kamalji
+representation of color groups that's the power and that is astounding really
+the power and that is astounding really astounding prediction so now I wanted to
+astounding prediction so now I wanted to it's a small digression and that kind of
+it's a small digression and that kind of debate was debating with myself whether
+debate was debating with myself whether I should include it but I think I should
+I should include it but I think I should because we live in very interesting
+because we live in very interesting times I believe in many ways but this is
+one of the aspects of it you know because often times people ask me but
+because often times people ask me but what applications does it have to do
+what applications does it have to do real world you know there's a common
+real world you know there's a common typical question and sometimes we are
+typical question and sometimes we are lost we are not at a loss for words to
+point I would like to make is that oh yes there are applications don't worry
+applications the question is not whether we find applications of this
+we find applications of this sophisticated mathematics the question
+is whether also we will find wisdom to use these applications for good and not
+use these applications for good and not for ill and some recent events don't
+for ill and some recent events don't give us too much confidence in that
+give us too much confidence in that for instance elliptic curves featured
+for instance elliptic curves featured prominently in the news in the last few
+prominently in the news in the last few years in part because the appearance of
+this elliptic curves in widely used algorithms in particular some encryption
+algorithms in particular some encryption algorithms of course there is elliptic
+different this is an algorithm which is which generates pseudo-random numbers so
+which generates pseudo-random numbers so here is a United States government
+here is a United States government official publication now infamous
+official publication now infamous special publication 800-53
+special publication 800-53 based on elliptic curves and I just
+that there it is elliptic curve you seen you might think it's very abstract and
+you might think it's very abstract and abstruse stuff this is a government
+abstruse stuff this is a government publication which talks about elliptic
+publication which talks about elliptic curve selection of appropriate elliptic
+Appendix A ok here is Appendix A and here is the equation you see not so
+here is the equation you see not so different for the equation I told you
+the way the prime number is very big huh United States government likes big prime
+United States government likes big prime numbers so now what turns out is that
+numbers so now what turns out is that many people suspected right away that
+many people suspected right away that there's something's off with this
+algorithm and that in fact it was there was a backdoor in this algorithm which
+was inserted by another organization with three letters NSA now there was no
+Snowden released CERN documents then some of those documents are going to
+some of those documents are going to publish reports confirm that indeed that
+publish reports confirm that indeed that was the case that there was a back door
+so that the NSA was able to see those random numbers that were being generated
+random numbers that were being generated and those numbers would in turn be fed
+actually give you kind of a master key it's much more than just breaking into
+it's much more than just breaking into your gmail account you see so that's the
+your gmail account you see so that's the power of mathematics that we have to
+power of mathematics that we have to know become aware of and appreciate and
+know become aware of and appreciate and we don't have to be afraid of it but we
+especially we have to take responsibility I feel that in our
+responsibility I feel that in our community we are not really stepping up
+to the plate we still have our heads as it were in the sand and I feel as though
+it were in the sand and I feel as though we are now more in a position of the
+we are now more in a position of the physicist who inadvertently discovered
+you know nuclear energy which was then used to produce nuclear bomb now in case
+of a nuclear bomb it's much more devastating and spectacular in this case
+devastating and spectacular in this case it's more quiet the use of this of this
+mathematics I'm not saying that the language program is being used for this
+language program is being used for this as far as we know you know but there is
+a potential there is definitely potential so if
+but I ask you what is me what is the use of this I answer them oh yes there is
+of this I answer them oh yes there is use there is the applications the
+use there is the applications the question is to use them wisely so well
+question is to use them wisely so well even though it was never confirmed
+even though it was never confirmed officially that this algorithm was
+tainted or to put it more bluntly a black a backdoor was inserted by NSA
+black a backdoor was inserted by NSA nonetheless quietly in this dump this
+algorithm so kind of in the tacit admission admission so that was just a
+admission admission so that was just a digression I want to go back to
+mathematics and I want to talk about another aspect of the language program
+which to me personally was kind of the reason why I I was I went to work in the
+reason why I I was I went to work in the subject and that's the what's called the
+subject and that's the what's called the nine glands dual group Jim Arthur
+already alluded to it and I want to talk a lot more there is as as if it was not
+a lot more there is as as if it was not mysterious serious enough that you
+mysterious serious enough that you connect this complicated stuff in number
+connect this complicated stuff in number theory to what seems to be totally
+theory to what seems to be totally unrelated stuff in the theory about the
+unrelated stuff in the theory about the morphic functions on harmonic analysis
+there is one twist to the story which really makes it special and powerful and
+really makes it special and powerful and exciting and to see that to explain that
+exciting and to see that to explain that I have to say that in fact there is one
+more sort of dimension along which you can generalize language program I have
+mentioned different ways in which it can be generalized by considering different
+be generalized by considering different fields different equations etc but there
+group there is a group which is present in the proper formulation so that on a
+in the proper formulation so that on a number theory side yeah well I switch
+now I realize that I switch them but let's say on the number theory side the
+let's say on the number theory side the therapeutic group is now good for non
+therapeutic group is now good for non specialist group is microbes a concept
+specialist group is microbes a concept mathematical object which which
+encapsulates symmetry properties so there is a certain group on a number
+there is a certain group on a number theory side and there is a group on the
+analysis and you would think that okay perhaps it's the same group right so
+that would be group of n by n matrices non-degenerate and by nature's GL n on
+non-degenerate and by nature's GL n on one side would be GL and on the other
+turns out to be an exception if you feed on the number three side a group G then
+on the number three side a group G then on a harmonic an outside will appear a
+on a harmonic an outside will appear a different group and it this group
+traditionally do you know that LG was L on the left side actually I've always
+on the left side actually I've always wanted to ask link lines why I always on
+the other side but anyway LG is a different group altogether and for
+instance if you take SL n instead of GL n the dual group is PS Ln which you
+n the dual group is PS Ln which you could say well it's not that different
+it's just as a line divided by its center but for instance if you take the
+center but for instance if you take the symplectic group then the dual group is
+symplectic group then the dual group is our order total group which is totally
+something is going on so you know i i've always in this moment i'm reminded of
+always in this moment i'm reminded of this quote by Arthur Eddington you know
+this quote by Arthur Eddington you know the famous astronomer who said referring
+the famous astronomer who said referring to some phenomena quantum physics but I
+to some phenomena quantum physics but I think it's applicable here something
+unknown is doing we don't know what you know something unknown is doing we don't
+know something unknown is doing we don't know what but the result is that on one
+side the language do a group pops up so I remember I was 21 years old when I was
+I remember I was 21 years old when I was first exposed to this ideas and in part
+first exposed to this ideas and in part because and surprisingly for me my work
+because and surprisingly for me my work which was seemed to be on a total
+which was seemed to be on a total different subject of representations of
+which by the way so firstly I I saluted surface Lee being here in Oslo and you
+surface Lee being here in Oslo and you know and surprise to a great surprise it
+know and surprise to a great surprise it that work turned out to be useful for
+the for balance and and dream field who were just starting to develop their
+were just starting to develop their ideas of geometric langlands program and
+ideas of geometric langlands program and that's what I picked my interest I was
+that's what I picked my interest I was like what is this a palatal Angus
+like what is this a palatal Angus program and then little by little I
+program and then little by little I started learning and
+when I found this dongle to do group I thought it was absolutely something is
+thought it was absolutely something is going on is I thought it was the most
+amazing thing in the world how is it possible and so that shows you that it
+possible and so that shows you that it can't be accounted for by some really
+can't be accounted for by some really it's not that we're missing some simple
+it's not that we're missing some simple argument to explain it you know there's
+argument to explain it you know there's something very deep and profound going
+something very deep and profound going on so Jim
+Arthur already put Lincoln diagrams this is one I think best kept secret might be
+is one I think best kept secret might be just to keep secrets very well from the
+just to keep secrets very well from the rest of the world we have so much beauty
+stashed you know in a in this in this back room and only people special tears
+back room and only people special tears are allowed and we don't really divulge
+so much you know so but this is one of them's a drinkin diagram so there's this
+them's a drinkin diagram so there's this there's certain things in mathematical
+there's certain things in mathematical nature in my micro world which are
+labeled by these diagrams so you see there are there are four regular our
+series we called a and B and C and D and so they for every number and they could
+have sort of length n and then there are special ones called 678 f 4 and G 2 and
+special ones called 678 f 4 and G 2 and a lot of things in mathematics
+a lot of things in mathematics surprisingly I described by this by this
+surprisingly I described by this by this data for instance the so called simply
+connected lis groups to be precise or simple the algebra but also things like
+simple the algebra but also things like singularities and elliptic vibrations
+and what not a lot a lot a lot of things so this is a graphical fication of the
+type of groups that I talked about and so what happens for the dual group is
+so what happens for the dual group is that you switch B and C but there isn't
+that you switch B and C but there isn't then there is also finer a finer piece
+then there is also finer a finer piece of data which is attached which also
+gets transformed in a certain way and so this is I kind of like just want to show
+this is I kind of like just want to show you this picture without any words you
+you this picture without any words you know so this has something to do with e8
+know so this has something to do with e8 so that's the kind of structures we are
+so that's the kind of structures we are talking about and of course it's it's
+kind of you know in a sense I'm glad they're young people here you know well
+they're young people here you know well all of you are young of course
+there are specially young people here and I just hope I hope that you know I
+wish in a sense I came to my nice kind of later well not so much later at 50 I
+of later well not so much later at 50 I was 15 but I didn't until 15 I didn't
+know anything about this stuff I wish it came earlier you know I wish somebody
+showed me because I cannot imagine seeing something like this and not
+seeing something like this and not wondering what this is all about what is
+wondering what this is all about what is this all about well this is an example
+of the kind of stuff that's going on in in this one of those one of those lis
+groups and there is still more okay so there is more it's like a it's like a
+there is more it's like a it's like a Russian doll what you call it
+matryoshka you know yet open and then there's more there's more there's more
+and so the next next station okay on our journey is to go to complex numbers so
+journey is to go to complex numbers so we talked about cubic equations but we
+talked about solutions modular primes but we could also take the same equation
+and look for solutions in complex numbers
+set of solutions can be represented by a torus more precise torus without a point
+torus more precise torus without a point but we can sort of add the infinite
+point at the end I call it the Homer Simpsons favorite Riemann surface you
+Simpsons favorite Riemann surface you know surface of a doughnut and not so
+many fans of commerce simcha okay and so this when you when you do that so
+and so this when you when you do that so the idea that the question is natural
+question to ask is whether when you do that you so you come up with this you
+that you so you come up with this you look at at a geometric object which is
+look at at a geometric object which is kind of a complex numbers analog of what
+kind of a complex numbers analog of what we talked about earlier now what we
+we talked about earlier now what we talked about earlier has this other side
+harmonic analysis side and so the question would be then is there
+question would be then is there something like this for Riemann surfaces
+something like this for Riemann surfaces like that like the surface of the donut
+like that like the surface of the donut and it turns out that there is so it
+looks different and in fact it's possible that there are different
+versions of it so to this morning Robert language himself presented a new a new
+language himself presented a new a new theory of how to properly interpret
+theory of how to properly interpret the language correspondence patterns in
+the language correspondence patterns in this setting of complex human services
+and he has recently written a paper here it is by the way see so I'll talk about
+it is by the way see so I'll talk about a little bit later some more but then
+a little bit later some more but then there is other other approaches as well
+there is other other approaches as well more of categorical nature I don't
+really have much time to talk about it but you can find a bunch of that on and
+there is other like videos of other lectures that have given and not to
+lectures that have given and not to mention my book etc which has been
+mention my book etc which has been mentioned earlier ok so that opens up a
+mentioned earlier ok so that opens up a whole new venue a whole new subject of
+whole new venue a whole new subject of the language program for complex
+algebraic curves or for human services because of course you can do you can
+because of course you can do you can take this surface was one whole but then
+the service two whole successor arbitrary human services there are
+certain data associated to it in that two sides again and they match but in
+surprising ways because I would be saying that the other one is not
+saying that the other one is not surprising but in in it is they are
+surprising but in in it is they are surprising but in different cells so
+that there are certain patterns of duality for instance the appearance of
+duality for instance the appearance of the language dual group in all of those
+realms but they are realized in different fashion and that's what's
+different fashion and that's what's fascinating so it means
+perhaps that there is something beneath the surface something that we're not it
+cannot really see we're seeing only different manifestations of that
+something of that mystery you know and it manifests itself in different ways in
+it manifests itself in different ways in different subjects so what we are trying
+to do is we're trying to get enough glimpses of those mysteries to leave the
+glimpses of those mysteries to leave the veil as it were from many different
+veil as it were from many different sides to finally really understand what
+sides to finally really understand what is it at the root what is at the heart
+and so this way language program has propagated to other areas of mathematics
+propagated to other areas of mathematics I already mentioned geometry I mentioned
+I already mentioned geometry I mentioned representations of the algebra which was
+one of my very first papers that I did as a student
+quantum groups and also quantum physics so it is in this sense that we can speak
+so it is in this sense that we can speak about it as a grand unified theory of
+about it as a grand unified theory of mathematics in the sense that there are
+mathematics in the sense that there are there he found this archetypal almost I
+there he found this archetypal almost I want to say archetypal patterns and
+want to say archetypal patterns and which show up in different guises in
+which show up in different guises in many different parts of mathematics so
+many different parts of mathematics so it's not like we're going to be able to
+but first of all we can solve many important ones such as the ones which I
+important ones such as the ones which I have talked about already you see but
+have talked about already you see but also it also indicates this unity of
+also it also indicates this unity of mathematics which is important by itself
+mathematics which is important by itself in fact yesterday language gave an
+something like at what age did he decide to specialize in this area and he said I
+to specialize in this area and he said I never specialized I never had the idea
+never specialized I never had the idea that you have to specialize for me
+that you have to specialize for me mathematics was mathematics you see and
+mathematics was mathematics you see and unfortunately that's not how we teach
+unfortunately that's not how we teach our students today including myself you
+know we tell them that the result to brian analysis and geometry and you have
+brian analysis and geometry and you have to do this so you have to do that you
+know so they're kind of losing that and you know he said this this morning i
+you know he said this this morning i actually wrote it down said all
+actually wrote it down said all mathematics starts with number 1 and
+goes from there you see so this oneness we don't emphasize this enough but it's
+we don't emphasize this enough but it's very important because look at all the
+very important because look at all the stuff that you know we're talking about
+stuff that you know we're talking about in a language program look at all these
+in a language program look at all these patterns that appear and which replicate
+patterns that appear and which replicate themselves perhaps with some twists and
+themselves perhaps with some twists and turns how is that not an indication of
+the unity of this of these hidden connections but why are they hidden
+connections but why are they hidden because we're not seeing them yet so
+because we're not seeing them yet so well let's let's open our eyes and see
+well let's let's open our eyes and see them
+them oh that was nice so okay maybe a few
+oh that was nice so okay maybe a few words about the how the same patterns
+words about the how the same patterns also play out in quantum physics it has
+also play out in quantum physics it has to do with the so called gauge the area
+to do with the so called gauge the area engaged the area is a mathematical
+engaged the area is a mathematical theory which services or describes three
+theory which services or describes three out of four known forces of nature
+out of four known forces of nature electromagnetic strong and weak and that
+electromagnetic strong and weak and that theory as you probably know has has had
+a spectacular experimental success in recent years including the discover the
+recent years including the discover the Higgs boson now electric electromagnetic
+Higgs boson now electric electromagnetic force has a very interesting duality it
+has an interesting sort of phenomenon which is called electromagnetic duality
+which is called electromagnetic duality which is basically that the theory in
+some sense is invariant under exchange between electric and magnetic forces
+which are manifested by the way in nature in very different way one is an
+the other one is magnet so it's different things also we do observe
+different things also we do observe electrically charged particles such as
+electrically charged particles such as protons and electrons but we have not
+yet observed any magnetically charged particles the post for negative magnetic
+particles the post for negative magnetic charges always come together in magnet
+right if you break it into two pieces each of them will become a little magnet
+each of them will become a little magnet too so they're very different and yet
+too so they're very different and yet the equations of describing these forces
+the equations of describing these forces turn out to have this hidden duality
+turn out to have this hidden duality hidden symmetry if you can exchange
+hidden symmetry if you can exchange electromagnetic field equations will
+electromagnetic field equations will stay the same
+and it turns out that this later magnetic dualities also exhibits the
+kind of patterns that were used to in the language program for instance the
+the language program for instance the appearance of language dual group so to
+appearance of language dual group so to explain this let me say quickly that
+explain this let me say quickly that Maxwell's equations which describe
+Maxwell's equations which describe electromagnetic force in vacuum do not
+electromagnetic force in vacuum do not change if we switch electromagnetic
+fields so physicists have asked is there such a duality in the quantum theory of
+such a duality in the quantum theory of electromagnetism and it turns out that
+electromagnetism and it turns out that at least if we take a maximally
+at least if we take a maximally supersymmetric extension which is kind
+supersymmetric extension which is kind of a more favourable theory
+we throw in more fields to make a theory more well-balanced then it does exhibit
+more well-balanced then it does exhibit this type of duality under this duality
+this type of duality under this duality an electrical charge particle should be
+an electrical charge particle should be it becomes magnetically charged particle
+it becomes magnetically charged particle and vice-versa but what's more important
+and vice-versa but what's more important perhaps is that the electric charge in
+one theoria well so for the seems to be equivalent electric charge in one theory
+equivalent electric charge in one theory should be one over the electric charge
+in the other theory the inverse which means that this duality connects quantum
+means that this duality connects quantum field theories for very small value of
+field theories for very small value of parameter namely the electric charge and
+parameter namely the electric charge and for very large values of parameter and
+that is a huge deal for physicists because a priori physics quantum field
+because a priori physics quantum field theory is defined only for small values
+theory is defined only for small values of parameters the various quantities I
+of parameters the various quantities I defined initially as formal power series
+defined initially as formal power series in this parameter and then we hope that
+the series converges in some domain and can be analytic we continue to other
+can be analytic we continue to other values but that's not at all assured now
+values but that's not at all assured now when we if we know for instance that the
+when we if we know for instance that the theory should be equivalent underhand to
+theory should be equivalent underhand to a theory in which the parameter is very
+that is possible it is very much if you think about like modular forms you write
+think about like modular forms you write and initially modular form as a function
+and initially modular form as a function of tau but then modular transformation
+of tau but then modular transformation takes tau to minus 1 over tau
+takes tau to minus 1 over tau that's a hidden symmetry which you
+that's a hidden symmetry which you cannot possibly discern by just looking
+cannot possibly discern by just looking at the form of power series expansion so
+at the form of power series expansion so in my book I in astrayed I was trying to
+in my book I in astrayed I was trying to see how to explain to my readers
+electromagnetic duality so I went to the roots you know so that my mother makes
+very good borscht you know which is a Russian Ukrainian Russian polish I not
+want to offend anybody so so this is a picture of that of borscht it's you made
+picture of that of borscht it's you made and I was thinking like a quantum field
+and I was thinking like a quantum field theory is you it's like you are quoting
+theory is you it's like you are quoting it from different ingredients just like
+it from different ingredients just like like a meal you know so you have
+recipe secret actually so I should not divulge but now imagine that if you
+divulge but now imagine that if you switch different ingredients
+imagine that you will get the same soup or maybe get a different soup
+or maybe get a different soup but actually there's more because
+from E and one over e the electric charge in the in resected charge so if
+temperature so it would be like you take borscht in you switch you know potatoes
+borscht in you switch you know potatoes and onions or whatever and lo and behold
+and onions or whatever and lo and behold you end up with a totally different soup
+but the first one was cold and that one would be hot you know so that's that's
+would be hot you know so that's that's how mysterious that is and so where is
+landlines do out Jim the point is that gauge theories comes with come with lis
+gauge theories comes with come with lis groups so electromagnetic field
+force the group as u2 strong force s u3 and so on and it turns out that when we
+and so on and it turns out that when we look at the dual theory for an non
+look at the dual theory for an non abelian gauge Theory gauge Theory
+associate to non abelian group such as su tour su 3 the dual theory is not
+going to have the same group G but it will have the language dual group so you
+will have the language dual group so you see under the duality the group gets
+see under the duality the group gets switched with its language dual so it's
+switched with its language dual so it's another instance of that pattern of
+another instance of that pattern of duality which we absorb in mathematics
+duality which we absorb in mathematics and naturally the question is why are
+and naturally the question is why are they connected so a lot of work has been
+done in recent years you know so I'm reminding you of the of this picture of
+reminding you of the of this picture of the countenance a lot of work has been
+done in trying to understand trying to understand these connections what can be
+linked and so you see that's how fast that's how ask the project we are
+that's how ask the project we are talking about we start out a number
+talking about we start out a number theory and come across this miracle of
+theory and come across this miracle of questions and number theory being
+equivalent to some questions and comment analysis then we can observe similar
+analysis then we can observe similar patterns for curves over finite fields
+patterns for curves over finite fields then we can observe similar patterns for
+numbers such as the tours and other human services and then moreover we find
+human services and then moreover we find his duality patterns in four-dimensional
+his duality patterns in four-dimensional supersymmetric gauge theories so in fact
+this was discovered this is discovered this duality in super symmetric gauge
+Goddard Knights and all of in in the late 70s so about 10 years or so after
+late 70s so about 10 years or so after Langlands famous letter to an under way
+Langlands famous letter to an under way and in fact they described the structure
+and in fact they described the structure because they saw that electric and
+because they saw that electric and magnetic charges in the dual theories
+magnetic charges in the dual theories have to be given by by the weight and
+Kuwait lattice lattices or lights of characters and Co characters for the for
+characters and Co characters for the for the corresponding group now if you take
+the dual theory the magnetic connector have to switch self to switch characters
+have to switch self to switch characters and Co characters and that means that we
+are replacing the group by a different group so they describe the group without
+group so they describe the group without knowing that it was already found
+discovered by Langlands and so it was a big quandary from the late seventies how
+big quandary from the late seventies how how we understand this so in the recent
+last 10 years has been a lot of work by Edward Witten and his collaborators and
+you know this has been the focus of my personal my own research I encourage you
+personal my own research I encourage you to for example is my website and to put
+the four various resources for various survey articles and lecture videos of
+survey articles and lecture videos of lectures etc on the subject so that's
+what that's where we are you know that all these continents coming together and
+all these continents coming together and it kind of you know I want to make a
+quote from another wise man and another sage who used to occupy wranglers office
+sage who used to occupy wranglers office at the Institute for Advanced Study
+at the Institute for Advanced Study Albert Einstein it's true the sign
+Albert Einstein it's true the sign wasn't in the same office the most
+wasn't in the same office the most beautiful thing we can experience is the
+mysterious it is the source of all through art and science he to whom
+all through art and science he to whom the emotion is a stranger who can no
+the emotion is a stranger who can no longer pause to wonder and stand rapt in
+longer pause to wonder and stand rapt in awe he's as good as dead his eyes are
+awe he's as good as dead his eyes are closed
+so I feel it's very important to emphasize this and especially for young
+emphasize this and especially for young people because we get caught up so much
+people because we get caught up so much in this fracture fractured world and it
+in this fracture fractured world and it goes for both the world that we observe
+around us but also the world the precious world of mathematics it feels
+as though we might not just be pulled apart from each other that they're these
+apart from each other that they're these groups who work with each other but
+doesn't send another group and so on and that unity that sense of wonder and that
+that unity that sense of wonder and that sense of unity that we are here to do
+the same that is one big family doing this one amazed with this one an amazing
+this one amazed with this one an amazing thing it's big it's being lost somehow
+thing it's big it's being lost somehow you know and so which you know which
+you know and so which you know which brings me to this I want to really say
+you know let's think about this like why are we here not in general but like
+are we here not in general but like we're here right now so obvious answer
+we're here right now so obvious answer is we are here to celebrate and to honor
+and this is very true but I think there is more there is more there is a bigger
+reason why we are gathered here and I think the best testimony to how special
+think the best testimony to how special this is is was for me his lecture this
+this is is was for me his lecture this morning
+robert's lecture this morning you know so here's a man who just won the most
+so here's a man who just won the most prestigious mathematical prize in the
+world and the prize right so and what what is he doing so he said last night
+what is he doing so he said last night he was not sleeping but thinking about
+he was not sleeping but thinking about his presentation his presentation of his
+his presentation his presentation of his new theory which he just wrote and it's
+87 pages in Russian as if it was not hard enough you know that the material
+hard enough you know that the material itself but I'm lucky I can read it so I
+which I have been doing and it's fascinating so what does it tell us you
+fascinating so what does it tell us you know so it's kind of a new definition of
+know so it's kind of a new definition of not resting on your laurels and I should
+not resting on your laurels and I should say you know that the the passion you
+know that the passion is palpable that energy he wants to understand and it is
+energy he wants to understand and it is so
+contagious you know I am now a couple I woke up last night to thinking about
+woke up last night to thinking about this you know so that's what that's what
+this you know so that's what that's what I find so striking and in in mathematics
+often times we lose it we forget about it we think about mathematics as a
+this work and it's like yeah I don't really want to do it you know but I kind
+really want to do it you know but I kind of have to we should never forget we
+should never forget why we came to the subject in the first place because of
+this joy of discovery because of the sense of wonder and mystery you see and
+sense of wonder and mystery you see and that's why it's so beautiful for me what
+that's why it's so beautiful for me what we have experienced here today because
+we have experienced here today because you know we the matter you know there
+you know we the matter you know there has shown us how it's done she has shown
+has shown us how it's done she has shown us how it's done and that's why I think
+also in part that's why we have been gathered here today tools to to partake
+gathered here today tools to to partake in and to celebrate this mystery this
+wonder you know and and this poetry because when it comes when it comes from
+because when it comes when it comes from passion when it comes from the heart
+then even the most sophisticated mathematical formula will be like poetry
+mathematical formula will be like poetry it's real it's real and it's something
+it's real it's real and it's something that we all share together
+that's what it's all about thank you [Applause]

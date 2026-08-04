@@ -1,0 +1,4727 @@
+[
+  {
+    "t_start": 27.39,
+    "t_end": 36.39,
+    "text": "you yeah yeah that's right you too how you been"
+  },
+  {
+    "t_start": 37.79,
+    "t_end": 67.789,
+    "text": "[Music] I let you get ready for call"
+  },
+  {
+    "t_start": 124.789,
+    "t_end": 130.309,
+    "text": "maybe the okay I guess I'll get started be a minute early so give the speaker"
+  },
+  {
+    "t_start": 130.309,
+    "t_end": 135.309,
+    "text": "more time so yeah it's my pleasure to uh welcome you all to the eecs colloquium"
+  },
+  {
+    "t_start": 135.309,
+    "t_end": 142.79,
+    "text": "today uh and it's a privilege to really introduce a speaker who really needs uh"
+  },
+  {
+    "t_start": 142.79,
+    "t_end": 144.309,
+    "text": "no introduction at all uh but I'll and he's also asked me to keep it brief so"
+  },
+  {
+    "t_start": 144.309,
+    "t_end": 150.39,
+    "text": "he has more time for the talk but let me quickly say uh that AI vidron uh is is a"
+  },
+  {
+    "t_start": 150.39,
+    "t_end": 151.91,
+    "text": "quickly say uh that AI vidron uh is is a legend in the field of theoretical"
+  },
+  {
+    "t_start": 151.91,
+    "t_end": 156.309,
+    "text": "legend in the field of theoretical computer science uh he is uh the Herbert"
+  },
+  {
+    "t_start": 156.309,
+    "t_end": 157.99,
+    "text": "Mass professor at the school of mathematics at The Institute for"
+  },
+  {
+    "t_start": 157.99,
+    "t_end": 160.35,
+    "text": "mathematics at The Institute for advanced study in Princeton his wide-"
+  },
+  {
+    "t_start": 160.35,
+    "t_end": 163.589,
+    "text": "advanced study in Princeton his wide- ranging work has made you know seminal"
+  },
+  {
+    "t_start": 163.589,
+    "t_end": 165.75,
+    "text": "ranging work has made you know seminal uh contributions to almost all aspects"
+  },
+  {
+    "t_start": 165.75,
+    "t_end": 168.43,
+    "text": "uh contributions to almost all aspects of uh Theory uh theoretical CS"
+  },
+  {
+    "t_start": 168.43,
+    "t_end": 170.39,
+    "text": "of uh Theory uh theoretical CS complexity Theory algorithms and"
+  },
+  {
+    "t_start": 170.39,
+    "t_end": 174.229,
+    "text": "complexity Theory algorithms and optimization role of Randomness in"
+  },
+  {
+    "t_start": 174.229,
+    "t_end": 178.63,
+    "text": "cryptography uh parallel and distributed comp computation pseudo Randomness"
+  },
+  {
+    "t_start": 178.63,
+    "t_end": 184.83,
+    "text": "comp computation pseudo Randomness combinatorics graph Theory you name it"
+  },
+  {
+    "t_start": 184.83,
+    "t_end": 187.67,
+    "text": "um ABI has made um a great um uh contributions and um as as a theorist"
+  },
+  {
+    "t_start": 187.67,
+    "t_end": 192.43,
+    "text": "you can uh he has won perhaps the three biggest Awards a theoretical computer"
+  },
+  {
+    "t_start": 192.43,
+    "t_end": 198.11,
+    "text": "scientist can dream of uh which is the Nina prize the kth prize and uh recently"
+  },
+  {
+    "t_start": 198.11,
+    "t_end": 203.71,
+    "text": "Nina prize the kth prize and uh recently last year um the touring award it's like"
+  },
+  {
+    "t_start": 203.71,
+    "t_end": 205.869,
+    "text": "the Nobel Prize for computing and as if that is not enough uh he is also a"
+  },
+  {
+    "t_start": 205.869,
+    "t_end": 208.11,
+    "text": "that is not enough uh he is also a winner of the Abel prize know kind of"
+  },
+  {
+    "t_start": 208.11,
+    "t_end": 210.75,
+    "text": "winner of the Abel prize know kind of the Nobel Prize for mathematics and uh"
+  },
+  {
+    "t_start": 210.75,
+    "t_end": 213.429,
+    "text": "the Nobel Prize for mathematics and uh yeah so so it's an incredible honor to"
+  },
+  {
+    "t_start": 213.429,
+    "t_end": 216.229,
+    "text": "yeah so so it's an incredible honor to have ai uh speak uh today and I'll also"
+  },
+  {
+    "t_start": 216.229,
+    "t_end": 217.949,
+    "text": "have ai uh speak uh today and I'll also mention that beyond all his distinguish"
+  },
+  {
+    "t_start": 217.949,
+    "t_end": 219.309,
+    "text": "mention that beyond all his distinguish thing one of the amazing things he's"
+  },
+  {
+    "t_start": 219.309,
+    "t_end": 222.19,
+    "text": "thing one of the amazing things he's extremely approachable and uh his legacy"
+  },
+  {
+    "t_start": 222.19,
+    "t_end": 226.83,
+    "text": "extremely approachable and uh his legacy touches uh so many postdocs who have"
+  },
+  {
+    "t_start": 226.83,
+    "t_end": 229.83,
+    "text": "gone through his group at the IAS in Princeton and uh so it's a real pleasure"
+  },
+  {
+    "t_start": 229.83,
+    "t_end": 231.789,
+    "text": "Princeton and uh so it's a real pleasure to introduce Al and he will tell us"
+  },
+  {
+    "t_start": 231.789,
+    "t_end": 236.34,
+    "text": "to introduce Al and he will tell us today about Alan turing's works"
+  },
+  {
+    "t_start": 246.11,
+    "t_end": 253.949,
+    "text": "coming it's always a pleasure to be here and so uh what I want to tell you about"
+  },
+  {
+    "t_start": 253.949,
+    "t_end": 257.789,
+    "text": "and so uh what I want to tell you about today is yeah iing you know computer"
+  },
+  {
+    "t_start": 257.789,
+    "t_end": 261.189,
+    "text": "today is yeah iing you know computer scientist you go through this education"
+  },
+  {
+    "t_start": 261.189,
+    "t_end": 263.71,
+    "text": "scientist you go through this education and of course you learn about"
+  },
+  {
+    "t_start": 263.71,
+    "t_end": 271.629,
+    "text": "'s paper on the T machine and then um I thought I knew what I should"
+  },
+  {
+    "t_start": 271.629,
+    "t_end": 277.71,
+    "text": "then um I thought I knew what I should about him I read couple of more papers"
+  },
+  {
+    "t_start": 277.71,
+    "t_end": 284.07,
+    "text": "and then touring me when had mentioned I got this touring award then I thought I"
+  },
+  {
+    "t_start": 284.07,
+    "t_end": 287.55,
+    "text": "got this touring award then I thought I should do justice to my knowledge of and"
+  },
+  {
+    "t_start": 287.55,
+    "t_end": 294.31,
+    "text": "should do justice to my knowledge of and uring and I spent a couple of months uh"
+  },
+  {
+    "t_start": 294.31,
+    "t_end": 296.51,
+    "text": "just reading almost everything Ro and I just want to tell you about this"
+  },
+  {
+    "t_start": 296.51,
+    "t_end": 300.15,
+    "text": "just want to tell you about this experience um so"
+  },
+  {
+    "t_start": 300.15,
+    "t_end": 305.31,
+    "text": "I'm not going to talk about his life very short life with a tragic end that"
+  },
+  {
+    "t_start": 305.31,
+    "t_end": 307.23,
+    "text": "very short life with a tragic end that I'm sure you all know I want talk only"
+  },
+  {
+    "t_start": 307.23,
+    "t_end": 310.11,
+    "text": "I'm sure you all know I want talk only about his work this is more or less his"
+  },
+  {
+    "t_start": 310.11,
+    "t_end": 311.79,
+    "text": "about his work this is more or less his academic"
+  },
+  {
+    "t_start": 311.79,
+    "t_end": 318.629,
+    "text": "CV where he spent time during his career and I more or less tell you about one"
+  },
+  {
+    "t_start": 318.629,
+    "t_end": 322.749,
+    "text": "and I more or less tell you about one paper from uh each period I could have"
+  },
+  {
+    "t_start": 322.749,
+    "t_end": 326.23,
+    "text": "paper from uh each period I could have given a 3our talk a 5 hour talk but I"
+  },
+  {
+    "t_start": 326.23,
+    "t_end": 332.51,
+    "text": "restrict this to one hour talk uh that plenty of stuff I'm not going to mention"
+  },
+  {
+    "t_start": 332.51,
+    "t_end": 337.67,
+    "text": "plenty of stuff I'm not going to mention I'm not going to mention any practical"
+  },
+  {
+    "t_start": 337.67,
+    "t_end": 340.35,
+    "text": "work and he did a lot of course he buil computers and he wrote about building"
+  },
+  {
+    "t_start": 340.35,
+    "t_end": 345.83,
+    "text": "computers he programmed a lot and he wrote about the practice of programming"
+  },
+  {
+    "t_start": 345.83,
+    "t_end": 348.71,
+    "text": "wrote about the practice of programming when there were no computers and people"
+  },
+  {
+    "t_start": 348.71,
+    "t_end": 350.39,
+    "text": "when there were no computers and people just started doing"
+  },
+  {
+    "t_start": 350.39,
+    "t_end": 357.23,
+    "text": "this um as an underground he put the one of the most General forms of the Central"
+  },
+  {
+    "t_start": 357.23,
+    "t_end": 362.71,
+    "text": "and I'm not going to tell you about this uh he wrote a seminar paper on numerical"
+  },
+  {
+    "t_start": 362.71,
+    "t_end": 365.35,
+    "text": "uh he wrote a seminar paper on numerical analysis where he defined condition"
+  },
+  {
+    "t_start": 365.35,
+    "t_end": 372.87,
+    "text": "number he did it yes and he devised what we call DEC composition not going to"
+  },
+  {
+    "t_start": 372.87,
+    "t_end": 375.589,
+    "text": "we call DEC composition not going to talk about this he work of course on"
+  },
+  {
+    "t_start": 375.589,
+    "t_end": 377.35,
+    "text": "talk about this he work of course on encryption he"
+  },
+  {
+    "t_start": 377.35,
+    "t_end": 383.35,
+    "text": "was obsessed with teaching for computers to play chess and he was even more"
+  },
+  {
+    "t_start": 383.35,
+    "t_end": 386.749,
+    "text": "to play chess and he was even more obsess with the uh trying to refuse the"
+  },
+  {
+    "t_start": 386.749,
+    "t_end": 394.43,
+    "text": "obsess with the uh trying to refuse the r hypothesis by trying to find the zero"
+  },
+  {
+    "t_start": 394.43,
+    "t_end": 399.469,
+    "text": "not talk about this you can ask me at the end if you want so I want to start"
+  },
+  {
+    "t_start": 399.469,
+    "t_end": 403.99,
+    "text": "by the paper you all know but I want to so about this paper I'll talk about it"
+  },
+  {
+    "t_start": 403.99,
+    "t_end": 409.55,
+    "text": "so about this paper I'll talk about it and I'll talk about things I thought and"
+  },
+  {
+    "t_start": 409.55,
+    "t_end": 412.749,
+    "text": "some work that we in the field did following it or inspired by it or or"
+  },
+  {
+    "t_start": 412.749,
+    "t_end": 416.99,
+    "text": "following it or inspired by it or or things he would have love to know I"
+  },
+  {
+    "t_start": 416.99,
+    "t_end": 419.589,
+    "text": "think so this is a famous paper on computable numbers the with application"
+  },
+  {
+    "t_start": 419.589,
+    "t_end": 427.07,
+    "text": "computable numbers the with application to the child problem easily the most"
+  },
+  {
+    "t_start": 427.07,
+    "t_end": 432.869,
+    "text": "written um he did it when he was a fellow in Cambridge fellow he was just"
+  },
+  {
+    "t_start": 432.869,
+    "t_end": 435.55,
+    "text": "fellow in Cambridge fellow he was just finishing his undergrad but this was"
+  },
+  {
+    "t_start": 435.55,
+    "t_end": 441.589,
+    "text": "finishing his undergrad but this was like a post if you will on the strength"
+  },
+  {
+    "t_start": 441.589,
+    "t_end": 447.67,
+    "text": "put um so you all know what in this paper uh the way he got to this question"
+  },
+  {
+    "t_start": 447.67,
+    "t_end": 450.11,
+    "text": "paper uh the way he got to this question is the he took a"
+  },
+  {
+    "t_start": 450.11,
+    "t_end": 453.55,
+    "text": "Marx Newman's course a topologist interested in the"
+  },
+  {
+    "t_start": 453.55,
+    "t_end": 459.869,
+    "text": "foundations and who told them about Hilbert's dream the famous dream on the"
+  },
+  {
+    "t_start": 459.869,
+    "t_end": 461.83,
+    "text": "Hilbert's dream the famous dream on the foundation that everything true in"
+  },
+  {
+    "t_start": 461.83,
+    "t_end": 467.07,
+    "text": "mathematics is provable and that everything provable can be obtained the"
+  },
+  {
+    "t_start": 467.07,
+    "t_end": 472.39,
+    "text": "everything provable can be obtained the proof can be obtained by a decision"
+  },
+  {
+    "t_start": 472.39,
+    "t_end": 475.869,
+    "text": "procedure this dream was famously sheltered completely first G by"
+  },
+  {
+    "t_start": 475.869,
+    "t_end": 479.83,
+    "text": "sheltered completely first G by incompleteness the and then t"
+  },
+  {
+    "t_start": 479.83,
+    "t_end": 481.67,
+    "text": "incompleteness the and then t undecidability"
+  },
+  {
+    "t_start": 481.67,
+    "t_end": 483.39,
+    "text": "undecidability the"
+  },
+  {
+    "t_start": 483.39,
+    "t_end": 491.27,
+    "text": "uh he wrote it up and gave it to Marx Newman who looked at this and says just"
+  },
+  {
+    "t_start": 491.27,
+    "t_end": 495.309,
+    "text": "Newman who looked at this and says just a few weeks ago I got a paper from U"
+  },
+  {
+    "t_start": 495.309,
+    "t_end": 498.029,
+    "text": "a few weeks ago I got a paper from U alono church in Princeton who proved the"
+  },
+  {
+    "t_start": 498.029,
+    "t_end": 499.99,
+    "text": "alono church in Princeton who proved the same theorem on"
+  },
+  {
+    "t_start": 499.99,
+    "t_end": 504.99,
+    "text": "decidability uh but nevertheless as a good Mentor and Max Newman was a mentor"
+  },
+  {
+    "t_start": 504.99,
+    "t_end": 507.749,
+    "text": "good Mentor and Max Newman was a mentor to during all his life really he did two"
+  },
+  {
+    "t_start": 507.749,
+    "t_end": 510.71,
+    "text": "to during all his life really he did two things the first was right to the editor"
+  },
+  {
+    "t_start": 510.71,
+    "t_end": 514.79,
+    "text": "things the first was right to the editor of the London Mass Society saying yes"
+  },
+  {
+    "t_start": 514.79,
+    "t_end": 517.149,
+    "text": "of the London Mass Society saying yes this result is known was proven already"
+  },
+  {
+    "t_start": 517.149,
+    "t_end": 519.63,
+    "text": "this result is known was proven already but that's a completely different proof"
+  },
+  {
+    "t_start": 519.63,
+    "t_end": 520.389,
+    "text": "but that's a completely different proof a"
+  },
+  {
+    "t_start": 520.389,
+    "t_end": 526.509,
+    "text": "fundamental paper with of a fundamental result you must publish it and it was"
+  },
+  {
+    "t_start": 526.509,
+    "t_end": 531.15,
+    "text": "and the second thing he says look you shouldn't be in Cambridge you should be"
+  },
+  {
+    "t_start": 531.15,
+    "t_end": 533.949,
+    "text": "shouldn't be in Cambridge you should be in Princeton where everybody is uh"
+  },
+  {
+    "t_start": 533.949,
+    "t_end": 537.829,
+    "text": "in Princeton where everybody is uh working on these uh computability"
+  },
+  {
+    "t_start": 537.829,
+    "t_end": 544.79,
+    "text": "issues and wrot the chair to ask him to take him as a g student and he did in"
+  },
+  {
+    "t_start": 544.79,
+    "t_end": 548.91,
+    "text": "take him as a g student and he did in this win we'll talk about that next"
+  },
+  {
+    "t_start": 548.91,
+    "t_end": 553.829,
+    "text": "this win we'll talk about that next soon so what's the what's so fundamental"
+  },
+  {
+    "t_start": 553.829,
+    "t_end": 561.15,
+    "text": "soon so what's the what's so fundamental well in order to sh his dream you need a"
+  },
+  {
+    "t_start": 561.15,
+    "t_end": 564.19,
+    "text": "formal model of what computation is it didn't exist it didn't exist you somehow"
+  },
+  {
+    "t_start": 564.19,
+    "t_end": 571.43,
+    "text": "didn't exist it didn't exist you somehow need to define a notion that captures"
+  },
+  {
+    "t_start": 571.43,
+    "t_end": 576.35,
+    "text": "compute that was the question and of course people were occupied by this"
+  },
+  {
+    "t_start": 576.35,
+    "t_end": 579.63,
+    "text": "course people were occupied by this because of hbert G has his definition"
+  },
+  {
+    "t_start": 579.63,
+    "t_end": 585.03,
+    "text": "because of hbert G has his definition church has his own definition and T came"
+  },
+  {
+    "t_start": 585.03,
+    "t_end": 588.509,
+    "text": "up with what we are familiar with completely different than them this very"
+  },
+  {
+    "t_start": 588.509,
+    "t_end": 591.79,
+    "text": "completely different than them this very Elementary primitive device which we"
+  },
+  {
+    "t_start": 591.79,
+    "t_end": 594.87,
+    "text": "Elementary primitive device which we today call a touring machine suggesting"
+  },
+  {
+    "t_start": 594.87,
+    "t_end": 597.87,
+    "text": "today call a touring machine suggesting that this is this is it this is"
+  },
+  {
+    "t_start": 597.87,
+    "t_end": 603.87,
+    "text": "computation now G and church saw this and immediately agreed they said T's"
+  },
+  {
+    "t_start": 603.87,
+    "t_end": 607.63,
+    "text": "and immediately agreed they said T's definition is the right model in fact"
+  },
+  {
+    "t_start": 607.63,
+    "t_end": 611.03,
+    "text": "definition is the right model in fact the name t machine was SP by"
+  },
+  {
+    "t_start": 611.03,
+    "t_end": 617.55,
+    "text": "church and uh what you need to do when you introduce such a you know a formal"
+  },
+  {
+    "t_start": 617.55,
+    "t_end": 622.55,
+    "text": "you introduce such a you know a formal definition of a such a vast notion you"
+  },
+  {
+    "t_start": 622.55,
+    "t_end": 625.509,
+    "text": "need to argue that this it is it captures everything possibly computable"
+  },
+  {
+    "t_start": 625.509,
+    "t_end": 631.269,
+    "text": "captures everything possibly computable this what we call today CH do in cities"
+  },
+  {
+    "t_start": 631.269,
+    "t_end": 637.269,
+    "text": "and and the way tring argues this and this is common to all this paper is with"
+  },
+  {
+    "t_start": 637.269,
+    "t_end": 645.269,
+    "text": "generality uh he gives three different types of arguments why this is it uh why"
+  },
+  {
+    "t_start": 645.269,
+    "t_end": 647.59,
+    "text": "types of arguments why this is it uh why it captur everything possible but first"
+  },
+  {
+    "t_start": 647.59,
+    "t_end": 654.949,
+    "text": "it captur everything possible but first he wants to say this emulates human uh"
+  },
+  {
+    "t_start": 654.949,
+    "t_end": 656.87,
+    "text": "computers now you may not know this especially the young ones that the"
+  },
+  {
+    "t_start": 656.87,
+    "t_end": 662.949,
+    "text": "especially the young ones that the computer was a job descrip in this day"
+  },
+  {
+    "t_start": 662.949,
+    "t_end": 665.19,
+    "text": "mainly of women who did calculation that was what was called"
+  },
+  {
+    "t_start": 665.19,
+    "t_end": 672.269,
+    "text": "computer he shows how in this in fact inspired him uh how what we do when we"
+  },
+  {
+    "t_start": 672.269,
+    "t_end": 676.15,
+    "text": "inspired him uh how what we do when we compute is doable on his machine then he"
+  },
+  {
+    "t_start": 676.15,
+    "t_end": 678.91,
+    "text": "compute is doable on his machine then he shows that a large bunch of things that"
+  },
+  {
+    "t_start": 678.91,
+    "t_end": 682.15,
+    "text": "shows that a large bunch of things that you might want to compute like the"
+  },
+  {
+    "t_start": 682.15,
+    "t_end": 685.949,
+    "text": "you might want to compute like the digits of pi and E and various other"
+  },
+  {
+    "t_start": 685.949,
+    "t_end": 691.19,
+    "text": "digits of pi and E and various other constant V functions and so on it gives"
+  },
+  {
+    "t_start": 691.19,
+    "t_end": 697.59,
+    "text": "device and uh finally the third type of argument is that this equivalent to"
+  },
+  {
+    "t_start": 697.59,
+    "t_end": 700.35,
+    "text": "argument is that this equivalent to other Notions proposed in fact the two"
+  },
+  {
+    "t_start": 700.35,
+    "t_end": 703.75,
+    "text": "other Notions proposed in fact the two Notions uh once he realized that CH"
+  },
+  {
+    "t_start": 703.75,
+    "t_end": 707.99,
+    "text": "Notions uh once he realized that CH wrote this paper and he found out about"
+  },
+  {
+    "t_start": 707.99,
+    "t_end": 711.23,
+    "text": "this he did lots of things without knowing about the background so when he"
+  },
+  {
+    "t_start": 711.23,
+    "t_end": 713.99,
+    "text": "knowing about the background so when he realized this he shows that in power"
+  },
+  {
+    "t_start": 713.99,
+    "t_end": 717.31,
+    "text": "realized this he shows that in power this equivalent to Lambda calul two"
+  },
+  {
+    "t_start": 717.31,
+    "t_end": 719.829,
+    "text": "this equivalent to Lambda calul two theive function"
+  },
+  {
+    "t_start": 719.829,
+    "t_end": 726.19,
+    "text": "now this was the birth of uh theory of computation why because it's a"
+  },
+  {
+    "t_start": 726.19,
+    "t_end": 732.47,
+    "text": "mathematical model once you have a mathematical model you can do math with"
+  },
+  {
+    "t_start": 732.47,
+    "t_end": 735.55,
+    "text": "mathematical model you can do math with computation but actually it is far more"
+  },
+  {
+    "t_start": 735.55,
+    "t_end": 742.47,
+    "text": "than that because the model is so simple and gives you a exact meaning to a unit"
+  },
+  {
+    "t_start": 742.47,
+    "t_end": 747.99,
+    "text": "and gives you a exact meaning to a unit of time and exact meaning to a unit of"
+  },
+  {
+    "t_start": 747.99,
+    "t_end": 750.59,
+    "text": "space you can start quantify the resources allocated by different"
+  },
+  {
+    "t_start": 750.59,
+    "t_end": 759.629,
+    "text": "algorithms and in fact soon after or not soon few decades after uh has man turn"
+  },
+  {
+    "t_start": 759.629,
+    "t_end": 762.829,
+    "text": "soon few decades after uh has man turn took it up and Define these complexity"
+  },
+  {
+    "t_start": 762.829,
+    "t_end": 768.71,
+    "text": "took it up and Define these complexity classes and from these two we have now I"
+  },
+  {
+    "t_start": 768.71,
+    "t_end": 774.99,
+    "text": "ones uh we have a complexity zo of complexity classes we quantify all sorts"
+  },
+  {
+    "t_start": 774.99,
+    "t_end": 780.79,
+    "text": "complexity classes we quantify all sorts of resources in all sorts of"
+  },
+  {
+    "t_start": 780.79,
+    "t_end": 785.75,
+    "text": "ped the theorem is that there is this problem mathematical problem the housing"
+  },
+  {
+    "t_start": 785.75,
+    "t_end": 791.509,
+    "text": "problem mathematical problem the housing problem that cannot be solv by a"
+  },
+  {
+    "t_start": 791.509,
+    "t_end": 794.069,
+    "text": "computer in ter you know lemman term it says that debugging programs is"
+  },
+  {
+    "t_start": 794.069,
+    "t_end": 799.629,
+    "text": "impossible to solve by computers I love the way Christ Papa Demetrius talks"
+  },
+  {
+    "t_start": 799.629,
+    "t_end": 805.23,
+    "text": "the way Christ Papa Demetrius talks about it he say that computer science as"
+  },
+  {
+    "t_start": 805.23,
+    "t_end": 807.67,
+    "text": "a field was born aware of its limitations not everything can be done"
+  },
+  {
+    "t_start": 807.67,
+    "t_end": 809.71,
+    "text": "limitations not everything can be done by computers in fact the most most basic"
+  },
+  {
+    "t_start": 809.71,
+    "t_end": 812.629,
+    "text": "by computers in fact the most most basic problem in computer science cannot be"
+  },
+  {
+    "t_start": 812.629,
+    "t_end": 816.99,
+    "text": "problem in computer science cannot be done and he says that unlike let's say"
+  },
+  {
+    "t_start": 816.99,
+    "t_end": 822.75,
+    "text": "them centuries or millania to discover limitations like the uncertainty"
+  },
+  {
+    "t_start": 822.75,
+    "t_end": 828.949,
+    "text": "principle of the second law of Thermodynamics uh this is a huge impact"
+  },
+  {
+    "t_start": 828.949,
+    "t_end": 831.949,
+    "text": "Thermodynamics uh this is a huge impact on mathematics because now you have the"
+  },
+  {
+    "t_start": 831.949,
+    "t_end": 835.389,
+    "text": "on mathematics because now you have the mathematical standard to judge whether"
+  },
+  {
+    "t_start": 835.389,
+    "t_end": 837.829,
+    "text": "mathematical standard to judge whether certain mathematical problems are"
+  },
+  {
+    "t_start": 837.829,
+    "t_end": 844.23,
+    "text": "understandable by humans or not can compute the object relevant to these"
+  },
+  {
+    "t_start": 844.23,
+    "t_end": 850.79,
+    "text": "fields he initiated this in his way on the we problem in semi groups and then"
+  },
+  {
+    "t_start": 850.79,
+    "t_end": 855.35,
+    "text": "the we problem in semi groups and then others uh novikov and the others prove"
+  },
+  {
+    "t_start": 855.35,
+    "t_end": 861.35,
+    "text": "the same for work problem in group basic problems in mathematics cannot be solved"
+  },
+  {
+    "t_start": 861.35,
+    "t_end": 863.99,
+    "text": "problems in mathematics cannot be solved by computers so they particular they can"
+  },
+  {
+    "t_start": 863.99,
+    "t_end": 867.87,
+    "text": "by computers so they particular they can be no complete Theory explaining them"
+  },
+  {
+    "t_start": 867.87,
+    "t_end": 870.59,
+    "text": "be no complete Theory explaining them characterizing them and much later it"
+  },
+  {
+    "t_start": 870.59,
+    "t_end": 877.31,
+    "text": "took many years uh to prove that basic problem in number Theory like solving"
+  },
+  {
+    "t_start": 877.31,
+    "t_end": 879.749,
+    "text": "problem in number Theory like solving polinomial equations in integers cannot"
+  },
+  {
+    "t_start": 879.749,
+    "t_end": 885.99,
+    "text": "polinomial equations in integers cannot be done by computers and all of these"
+  },
+  {
+    "t_start": 885.99,
+    "t_end": 890.11,
+    "text": "are are done by reductions to the Hing problem so they are done by designing"
+  },
+  {
+    "t_start": 890.11,
+    "t_end": 892.749,
+    "text": "algorithms and of course there are algorithms also in the positive side"
+  },
+  {
+    "t_start": 892.749,
+    "t_end": 896.15,
+    "text": "algorithms also in the positive side people try to prove that other Central"
+  },
+  {
+    "t_start": 896.15,
+    "t_end": 898.03,
+    "text": "people try to prove that other Central structures in mathematics can be"
+  },
+  {
+    "t_start": 898.03,
+    "t_end": 901.069,
+    "text": "structures in mathematics can be understood algori teally"
+  },
+  {
+    "t_start": 901.069,
+    "t_end": 908.03,
+    "text": "tski did it for the first order theory of the real hen did it for in topology F"
+  },
+  {
+    "t_start": 908.03,
+    "t_end": 910.71,
+    "text": "of the real hen did it for in topology F nothingness and I should stress that the"
+  },
+  {
+    "t_start": 910.71,
+    "t_end": 913.629,
+    "text": "nothingness and I should stress that the algorithmic point of view entering MTH"
+  },
+  {
+    "t_start": 913.629,
+    "t_end": 916.829,
+    "text": "algorithmic point of view entering MTH resulted in lot of new structural"
+  },
+  {
+    "t_start": 916.829,
+    "t_end": 919.87,
+    "text": "resulted in lot of new structural understanding the techniques developed"
+  },
+  {
+    "t_start": 919.87,
+    "t_end": 924.949,
+    "text": "understanding the techniques developed like quantifier elimination and normal"
+  },
+  {
+    "t_start": 924.949,
+    "t_end": 930.749,
+    "text": "sures for these algorithms are fundamental for uh the the not only for"
+  },
+  {
+    "t_start": 930.749,
+    "t_end": 937.829,
+    "text": "now how would it prove it we all know how he proved it uh he designed first of"
+  },
+  {
+    "t_start": 937.829,
+    "t_end": 940.71,
+    "text": "how he proved it uh he designed first of all in the paper the universal touring"
+  },
+  {
+    "t_start": 940.71,
+    "t_end": 942.23,
+    "text": "all in the paper the universal touring machine namely a machine that can"
+  },
+  {
+    "t_start": 942.23,
+    "t_end": 945.43,
+    "text": "machine namely a machine that can simulate other machines and realizing"
+  },
+  {
+    "t_start": 945.43,
+    "t_end": 946.43,
+    "text": "simulate other machines and realizing the"
+  },
+  {
+    "t_start": 946.43,
+    "t_end": 951.87,
+    "text": "pro programs that data are the same thing you can run machines on the"
+  },
+  {
+    "t_start": 951.87,
+    "t_end": 955.309,
+    "text": "thing you can run machines on the universal machine and therefore you can"
+  },
+  {
+    "t_start": 955.309,
+    "t_end": 959.189,
+    "text": "universal machine and therefore you can simulate uh them and then you can"
+  },
+  {
+    "t_start": 959.189,
+    "t_end": 961.79,
+    "text": "diagonalize against them as we all know the proof"
+  },
+  {
+    "t_start": 961.79,
+    "t_end": 967.43,
+    "text": "sure and uh this proof technique is became a major proof technique for the"
+  },
+  {
+    "t_start": 967.43,
+    "t_end": 969.11,
+    "text": "became a major proof technique for the field simulation and"
+  },
+  {
+    "t_start": 969.11,
+    "t_end": 974.389,
+    "text": "diagonalization this is a way that we first prove result in computational"
+  },
+  {
+    "t_start": 974.389,
+    "t_end": 979.35,
+    "text": "complexity in the same paper as M St showed that more time buys you more"
+  },
+  {
+    "t_start": 979.35,
+    "t_end": 986.069,
+    "text": "computation power more space buys you more computation power exactly using his"
+  },
+  {
+    "t_start": 986.069,
+    "t_end": 988.71,
+    "text": "more computation power exactly using his Techni technique and I want to stress"
+  },
+  {
+    "t_start": 988.71,
+    "t_end": 991.67,
+    "text": "Techni technique and I want to stress his says that this simulation of touring"
+  },
+  {
+    "t_start": 991.67,
+    "t_end": 994.189,
+    "text": "his says that this simulation of touring machines by Universal T machine is an"
+  },
+  {
+    "t_start": 994.189,
+    "t_end": 996.509,
+    "text": "machines by Universal T machine is an efficient procedure that's that's the"
+  },
+  {
+    "t_start": 996.509,
+    "t_end": 1003.47,
+    "text": "reason you can even have this quantization uh this was taken to more"
+  },
+  {
+    "t_start": 1003.47,
+    "t_end": 1010.829,
+    "text": "quantization uh this was taken to more elaborate forms of this so it was such"
+  },
+  {
+    "t_start": 1010.829,
+    "t_end": 1018.99,
+    "text": "how many people this is not taught anymore that previous s was already Sol"
+  },
+  {
+    "t_start": 1018.99,
+    "t_end": 1021.309,
+    "text": "anymore that previous s was already Sol if you care about linear time rather"
+  },
+  {
+    "t_start": 1021.309,
+    "t_end": 1024.23,
+    "text": "if you care about linear time rather than polinomial time so we know using"
+  },
+  {
+    "t_start": 1024.23,
+    "t_end": 1027.51,
+    "text": "than polinomial time so we know using cing technique even results like n"
+  },
+  {
+    "t_start": 1027.51,
+    "t_end": 1029.789,
+    "text": "cing technique even results like n determinism is more powerful than"
+  },
+  {
+    "t_start": 1029.789,
+    "t_end": 1032.11,
+    "text": "determinism is more powerful than determinism in"
+  },
+  {
+    "t_start": 1032.11,
+    "t_end": 1039.47,
+    "text": "L uh during you know you might wonder and I a lot of things I didn't know"
+  },
+  {
+    "t_start": 1039.47,
+    "t_end": 1042.87,
+    "text": "and I a lot of things I didn't know where does nondeterminism come from as a"
+  },
+  {
+    "t_start": 1042.87,
+    "t_end": 1046.39,
+    "text": "where does nondeterminism come from as a basic notion in in the field and uh the"
+  },
+  {
+    "t_start": 1046.39,
+    "t_end": 1051.99,
+    "text": "basic notion in in the field and uh the way you learn I learned it and many"
+  },
+  {
+    "t_start": 1051.99,
+    "t_end": 1055.35,
+    "text": "other is that there the famous the ren SC paper on AATA and they Define this"
+  },
+  {
+    "t_start": 1055.35,
+    "t_end": 1058.35,
+    "text": "SC paper on AATA and they Define this notion but actually if you look at J's"
+  },
+  {
+    "t_start": 1058.35,
+    "t_end": 1062.87,
+    "text": "notion but actually if you look at J's paper uh it tells you in this paper uh"
+  },
+  {
+    "t_start": 1062.87,
+    "t_end": 1067.789,
+    "text": "paper uh it tells you in this paper uh the S the paper is going to talk about"
+  },
+  {
+    "t_start": 1067.789,
+    "t_end": 1073.35,
+    "text": "where every move is determined uniquely by the current configuration but it says"
+  },
+  {
+    "t_start": 1073.35,
+    "t_end": 1075.27,
+    "text": "by the current configuration but it says that it's also interesting I will not"
+  },
+  {
+    "t_start": 1075.27,
+    "t_end": 1077.95,
+    "text": "that it's also interesting I will not discuss it here to consider Choice"
+  },
+  {
+    "t_start": 1077.95,
+    "t_end": 1080.63,
+    "text": "discuss it here to consider Choice machines what Choice machine the next"
+  },
+  {
+    "t_start": 1080.63,
+    "t_end": 1082.51,
+    "text": "machines what Choice machine the next state is not fully"
+  },
+  {
+    "t_start": 1082.51,
+    "t_end": 1088.59,
+    "text": "specified by the configuration and then some external agent must tell you what"
+  },
+  {
+    "t_start": 1088.59,
+    "t_end": 1091.31,
+    "text": "some external agent must tell you what to do so he defines nondeterministic"
+  },
+  {
+    "t_start": 1091.31,
+    "t_end": 1093.909,
+    "text": "to do so he defines nondeterministic machine explicitly and moreover it tells"
+  },
+  {
+    "t_start": 1093.909,
+    "t_end": 1100.149,
+    "text": "machine explicitly and moreover it tells you why it defin it he defined it in"
+  },
+  {
+    "t_start": 1100.149,
+    "t_end": 1105.27,
+    "text": "order to discuss acatic system in order to discuss proof systems so here is"
+  },
+  {
+    "t_start": 1105.27,
+    "t_end": 1110.39,
+    "text": "about computation telling us that the contrast between the two is something"
+  },
+  {
+    "t_start": 1110.39,
+    "t_end": 1113.029,
+    "text": "contrast between the two is something Central and worthy of study and he was"
+  },
+  {
+    "t_start": 1113.029,
+    "t_end": 1115.71,
+    "text": "Central and worthy of study and he was interested in it in particular in fact"
+  },
+  {
+    "t_start": 1115.71,
+    "t_end": 1121.909,
+    "text": "you might view his result as separation between proofs and computations because"
+  },
+  {
+    "t_start": 1121.909,
+    "t_end": 1125.27,
+    "text": "between proofs and computations because theive sets are what's provable by"
+  },
+  {
+    "t_start": 1125.27,
+    "t_end": 1129.07,
+    "text": "theive sets are what's provable by computable by Finance algorithms and"
+  },
+  {
+    "t_start": 1129.07,
+    "t_end": 1132.75,
+    "text": "computable by Finance algorithms and theable are those sets probable to"
+  },
+  {
+    "t_start": 1132.75,
+    "t_end": 1135.31,
+    "text": "theable are those sets probable to finite algorithms or verified by finite"
+  },
+  {
+    "t_start": 1135.31,
+    "t_end": 1141.07,
+    "text": "finite algorithms or verified by finite algorithm so it Prov that the two are"
+  },
+  {
+    "t_start": 1141.07,
+    "t_end": 1141.95,
+    "text": "the Same by the hting problem and what we"
+  },
+  {
+    "t_start": 1141.95,
+    "t_end": 1150.149,
+    "text": "are you know major motivating force of our field is the analog for uh efficient"
+  },
+  {
+    "t_start": 1150.149,
+    "t_end": 1152.83,
+    "text": "our field is the analog for uh efficient algorithm that's a polinomial Time"
+  },
+  {
+    "t_start": 1152.83,
+    "t_end": 1159.71,
+    "text": "algorithm uh the first paper defining NP Cooks paper famous paper is actually"
+  },
+  {
+    "t_start": 1159.71,
+    "t_end": 1166.27,
+    "text": "boring from touring the title is actually the complexity of C improving"
+  },
+  {
+    "t_start": 1166.27,
+    "t_end": 1169.909,
+    "text": "actually the complexity of C improving uh procedures"
+  },
+  {
+    "t_start": 1169.909,
+    "t_end": 1176.669,
+    "text": "of course one thing I I believe T would have loved to see is that how far we"
+  },
+  {
+    "t_start": 1176.669,
+    "t_end": 1179.19,
+    "text": "have loved to see is that how far we have taken this contrast between proofs"
+  },
+  {
+    "t_start": 1179.19,
+    "t_end": 1181.47,
+    "text": "have taken this contrast between proofs and computations what kind of different"
+  },
+  {
+    "t_start": 1181.47,
+    "t_end": 1186.19,
+    "text": "and computations what kind of different Notions of proof system we invented in"
+  },
+  {
+    "t_start": 1186.19,
+    "t_end": 1192.789,
+    "text": "since uh this paper you are all well maybe maybe many of you are not familiar"
+  },
+  {
+    "t_start": 1192.789,
+    "t_end": 1195.11,
+    "text": "maybe maybe many of you are not familiar with all these acronyms each represents"
+  },
+  {
+    "t_start": 1195.11,
+    "t_end": 1198.35,
+    "text": "with all these acronyms each represents a different type of post systems post"
+  },
+  {
+    "t_start": 1198.35,
+    "t_end": 1199.63,
+    "text": "a different type of post systems post system them and these are"
+  },
+  {
+    "t_start": 1199.63,
+    "t_end": 1203.669,
+    "text": "system them and these are characterization we understand uh fully"
+  },
+  {
+    "t_start": 1203.669,
+    "t_end": 1205.51,
+    "text": "characterization we understand uh fully the except for"
+  },
+  {
+    "t_start": 1205.51,
+    "t_end": 1211.39,
+    "text": "the except for PP the power of this very important and"
+  },
+  {
+    "t_start": 1211.39,
+    "t_end": 1217.35,
+    "text": "system okay so this was about the first paper it's it's a paper that after you"
+  },
+  {
+    "t_start": 1217.35,
+    "t_end": 1222.75,
+    "text": "paper it's it's a paper that after you write one you don't need to do anything"
+  },
+  {
+    "t_start": 1222.75,
+    "t_end": 1229.87,
+    "text": "continued uh he moved to Princeton as I told you and uh um went to work with the"
+  },
+  {
+    "t_start": 1229.87,
+    "t_end": 1232.99,
+    "text": "told you and uh um went to work with the chair there were many other people doing"
+  },
+  {
+    "t_start": 1232.99,
+    "t_end": 1236.31,
+    "text": "chair there were many other people doing uh computability issues although he"
+  },
+  {
+    "t_start": 1236.31,
+    "t_end": 1239.47,
+    "text": "uh computability issues although he didn't talk to many he was he didn't"
+  },
+  {
+    "t_start": 1239.47,
+    "t_end": 1246.27,
+    "text": "prin but he was a CI there he was a g student he was there two years old"
+  },
+  {
+    "t_start": 1246.27,
+    "t_end": 1249.47,
+    "text": "student he was there two years old the C is called the systems of logic"
+  },
+  {
+    "t_start": 1249.47,
+    "t_end": 1250.909,
+    "text": "the C is called the systems of logic based on"
+  },
+  {
+    "t_start": 1250.909,
+    "t_end": 1256.029,
+    "text": "ordinance and I'll tell you one thing from the CI that many of you are"
+  },
+  {
+    "t_start": 1256.029,
+    "t_end": 1257.83,
+    "text": "from the CI that many of you are familiar with he invented another"
+  },
+  {
+    "t_start": 1257.83,
+    "t_end": 1264.35,
+    "text": "fundamental notion that we are uh living with and playing with uh all the time"
+  },
+  {
+    "t_start": 1264.35,
+    "t_end": 1269.95,
+    "text": "this is a notion of an oracle so he suggest let's suppose we are supplied"
+  },
+  {
+    "t_start": 1269.95,
+    "t_end": 1271.99,
+    "text": "suggest let's suppose we are supplied with some unspecified means of solving"
+  },
+  {
+    "t_start": 1271.99,
+    "t_end": 1274.59,
+    "text": "with some unspecified means of solving some number theoretic problem mainly a"
+  },
+  {
+    "t_start": 1274.59,
+    "t_end": 1280.99,
+    "text": "decision problem and a kind of Oracle as it were so he is even inventing the name"
+  },
+  {
+    "t_start": 1280.99,
+    "t_end": 1283.31,
+    "text": "it were so he is even inventing the name for it and let's study this the reason"
+  },
+  {
+    "t_start": 1283.31,
+    "t_end": 1287.59,
+    "text": "he was looking at this is to see whether undesirability is the end of the story"
+  },
+  {
+    "t_start": 1287.59,
+    "t_end": 1290.269,
+    "text": "undesirability is the end of the story suppose you can Sol UND disability can"
+  },
+  {
+    "t_start": 1290.269,
+    "t_end": 1297.149,
+    "text": "suppose you can Sol UND disability can you solve then every other problem and"
+  },
+  {
+    "t_start": 1297.149,
+    "t_end": 1302.029,
+    "text": "yeah this is so we denote it usually with the suers this is a machine with an"
+  },
+  {
+    "t_start": 1302.029,
+    "t_end": 1304.029,
+    "text": "oracle or in general you can take a class of machine with oracles from"
+  },
+  {
+    "t_start": 1304.029,
+    "t_end": 1305.43,
+    "text": "class of machine with oracles from another"
+  },
+  {
+    "t_start": 1305.43,
+    "t_end": 1314.19,
+    "text": "class this had an huge impact on recous Theory uh people define generalizations"
+  },
+  {
+    "t_start": 1314.19,
+    "t_end": 1318.83,
+    "text": "Theory uh people define generalizations of these basic classes R in re whole"
+  },
+  {
+    "t_start": 1318.83,
+    "t_end": 1325.11,
+    "text": "hierarchy and pro uh that they are all distinct this proof is of course again"
+  },
+  {
+    "t_start": 1325.11,
+    "t_end": 1330.19,
+    "text": "distinct this proof is of course again using T technique of simulation"
+  },
+  {
+    "t_start": 1333.11,
+    "t_end": 1341.11,
+    "text": "polinomial time analog of these classes were also defined as the polinomial time"
+  },
+  {
+    "t_start": 1341.11,
+    "t_end": 1344.95,
+    "text": "were also defined as the polinomial time hierarchy but here we don't have any"
+  },
+  {
+    "t_start": 1344.95,
+    "t_end": 1349.07,
+    "text": "hierarchy but here we don't have any separation we don't know that any of"
+  },
+  {
+    "t_start": 1349.07,
+    "t_end": 1354.19,
+    "text": "so they are defined by oracles but oracles come in in another surprising"
+  },
+  {
+    "t_start": 1354.19,
+    "t_end": 1361.23,
+    "text": "way in as an excuse for understanding why we cannot prove this so why why is"
+  },
+  {
+    "t_start": 1361.23,
+    "t_end": 1366.39,
+    "text": "why we cannot prove this so why why is it that I told you about this time"
+  },
+  {
+    "t_start": 1366.39,
+    "t_end": 1369.31,
+    "text": "hierarchy this te technique of twing simulation diation works why can we use"
+  },
+  {
+    "t_start": 1369.31,
+    "t_end": 1372.31,
+    "text": "simulation diation works why can we use it to prove be different than NP any"
+  },
+  {
+    "t_start": 1372.31,
+    "t_end": 1375.029,
+    "text": "it to prove be different than NP any separation this came in the"
+  },
+  {
+    "t_start": 1375.029,
+    "t_end": 1382.95,
+    "text": "brilliant paper of Baker G Sol said look this technique is oblivious to oracles"
+  },
+  {
+    "t_start": 1382.95,
+    "t_end": 1385.39,
+    "text": "this technique is oblivious to oracles if we prove something for twoing"
+  },
+  {
+    "t_start": 1385.39,
+    "t_end": 1387.909,
+    "text": "if we prove something for twoing machines Without orles You Pro the same"
+  },
+  {
+    "t_start": 1387.909,
+    "t_end": 1393.35,
+    "text": "thing if you add the same Oracle and uh that's one property of the technique on"
+  },
+  {
+    "t_start": 1393.35,
+    "t_end": 1396.51,
+    "text": "that's one property of the technique on the other hand they Supply orles which"
+  },
+  {
+    "t_start": 1396.51,
+    "t_end": 1400.35,
+    "text": "the other hand they Supply orles which can either separate or make equal p and"
+  },
+  {
+    "t_start": 1400.35,
+    "t_end": 1404.07,
+    "text": "can either separate or make equal p and NP in other words if equation has this"
+  },
+  {
+    "t_start": 1404.07,
+    "t_end": 1406.23,
+    "text": "NP in other words if equation has this property that can be yes or no with"
+  },
+  {
+    "t_start": 1406.23,
+    "t_end": 1408.909,
+    "text": "property that can be yes or no with different Oracles this technique don't"
+  },
+  {
+    "t_start": 1408.909,
+    "t_end": 1417.59,
+    "text": "different Oracles this technique don't work so or apply the excuse and this led"
+  },
+  {
+    "t_start": 1417.59,
+    "t_end": 1420.47,
+    "text": "the field into this uh uh I guess contemplative uh State of Mind where you"
+  },
+  {
+    "t_start": 1420.47,
+    "t_end": 1422.669,
+    "text": "contemplative uh State of Mind where you inspect your own"
+  },
+  {
+    "t_start": 1422.669,
+    "t_end": 1428.59,
+    "text": "introspective uh inspect your uh limitation when you cannot do"
+  },
+  {
+    "t_start": 1428.59,
+    "t_end": 1431.909,
+    "text": "your uh limitation when you cannot do something try to explain it that we call"
+  },
+  {
+    "t_start": 1431.909,
+    "t_end": 1434.11,
+    "text": "something try to explain it that we call barrier result so this was the first"
+  },
+  {
+    "t_start": 1434.11,
+    "t_end": 1436.909,
+    "text": "barrier result so this was the first barrier results and now many others in"
+  },
+  {
+    "t_start": 1436.909,
+    "t_end": 1439.71,
+    "text": "barrier results and now many others in the field they usually not only Supply"
+  },
+  {
+    "t_start": 1439.71,
+    "t_end": 1442.07,
+    "text": "the field they usually not only Supply excuses but maybe provide ways to go"
+  },
+  {
+    "t_start": 1442.07,
+    "t_end": 1445.51,
+    "text": "excuses but maybe provide ways to go around the excuses and sometime we can"
+  },
+  {
+    "t_start": 1445.51,
+    "t_end": 1449.23,
+    "text": "around the excuses and sometime we can bypass uh barrier so oracles they are"
+  },
+  {
+    "t_start": 1449.23,
+    "t_end": 1450.909,
+    "text": "bypass uh barrier so oracles they are absolutely"
+  },
+  {
+    "t_start": 1450.909,
+    "t_end": 1457.549,
+    "text": "fundamental okay let me move to the next stage of his life the war broke out"
+  },
+  {
+    "t_start": 1457.549,
+    "t_end": 1461.43,
+    "text": "stage of his life the war broke out 1939 and uh he has taken a codebreaking"
+  },
+  {
+    "t_start": 1461.43,
+    "t_end": 1469.07,
+    "text": "1939 and uh he has taken a codebreaking course uh the previous year and he"
+  },
+  {
+    "t_start": 1469.07,
+    "t_end": 1476.029,
+    "text": "Hut 8 famous Hut 8 to work on Breaking the Enigma cod in particular the naval"
+  },
+  {
+    "t_start": 1476.029,
+    "t_end": 1483.31,
+    "text": "Enigma C of the nazzi so I'm sure you all know the story uh you know after the"
+  },
+  {
+    "t_start": 1483.31,
+    "t_end": 1485.789,
+    "text": "all know the story uh you know after the Nazis took over Europe England was"
+  },
+  {
+    "t_start": 1485.789,
+    "t_end": 1488.549,
+    "text": "Nazis took over Europe England was isolated and was totally dependent on"
+  },
+  {
+    "t_start": 1488.549,
+    "t_end": 1492.389,
+    "text": "isolated and was totally dependent on supplies from the us both food"
+  },
+  {
+    "t_start": 1492.389,
+    "t_end": 1494.95,
+    "text": "supplies from the us both food munition uh weapons everything so there"
+  },
+  {
+    "t_start": 1494.95,
+    "t_end": 1500.35,
+    "text": "were convoys of ships going from the US to England with all these things and the"
+  },
+  {
+    "t_start": 1500.35,
+    "t_end": 1503.149,
+    "text": "to England with all these things and the Atlantic was infested with OTS there"
+  },
+  {
+    "t_start": 1503.149,
+    "t_end": 1509.269,
+    "text": "were maybe 60 70 in the beginning of the war there were 400 at the end of the war"
+  },
+  {
+    "t_start": 1509.269,
+    "t_end": 1512.669,
+    "text": "war there were 400 at the end of the war and they were sinking uh you know these"
+  },
+  {
+    "t_start": 1512.669,
+    "t_end": 1516.63,
+    "text": "and they were sinking uh you know these Convoy ships right and left was a"
+  },
+  {
+    "t_start": 1516.63,
+    "t_end": 1520.19,
+    "text": "Convoy ships right and left was a real major major thing the cracking of"
+  },
+  {
+    "t_start": 1520.19,
+    "t_end": 1527.23,
+    "text": "real major major thing the cracking of the Enigma was by T his friends was"
+  },
+  {
+    "t_start": 1527.23,
+    "t_end": 1533.11,
+    "text": "contribution to story in World War II no less so people know this story and they"
+  },
+  {
+    "t_start": 1533.11,
+    "t_end": 1535.95,
+    "text": "less so people know this story and they know that the I know you can represent"
+  },
+  {
+    "t_start": 1535.95,
+    "t_end": 1538.83,
+    "text": "know that the I know you can represent it as the competition between two"
+  },
+  {
+    "t_start": 1538.83,
+    "t_end": 1542.07,
+    "text": "it as the competition between two machines the Enigma machine and the bomb"
+  },
+  {
+    "t_start": 1542.07,
+    "t_end": 1545.269,
+    "text": "machines the Enigma machine and the bomb this kind of device that was searching"
+  },
+  {
+    "t_start": 1545.269,
+    "t_end": 1547.87,
+    "text": "this kind of device that was searching through Keys very fast keys to the"
+  },
+  {
+    "t_start": 1547.87,
+    "t_end": 1551.47,
+    "text": "through Keys very fast keys to the Enigma machine uh very quickly and"
+  },
+  {
+    "t_start": 1551.47,
+    "t_end": 1557.029,
+    "text": "Enigma machine uh very quickly and that's usually how the story is told and"
+  },
+  {
+    "t_start": 1557.029,
+    "t_end": 1558.789,
+    "text": "that's how I knew it but like you know"
+  },
+  {
+    "t_start": 1558.789,
+    "t_end": 1564.63,
+    "text": "fight between these two machines but what I didn't realize is"
+  },
+  {
+    "t_start": 1564.63,
+    "t_end": 1572.23,
+    "text": "machines but what I didn't realize is how much Theory uh went into this and I"
+  },
+  {
+    "t_start": 1572.23,
+    "t_end": 1573.87,
+    "text": "must say that it's s of shocking to think I'll show you what theory I'm"
+  },
+  {
+    "t_start": 1573.87,
+    "t_end": 1579.029,
+    "text": "think I'll show you what theory I'm talking about but um surprising to think"
+  },
+  {
+    "t_start": 1579.029,
+    "t_end": 1582.149,
+    "text": "talking about but um surprising to think that t had the presence of Mind during"
+  },
+  {
+    "t_start": 1582.149,
+    "t_end": 1585.269,
+    "text": "that t had the presence of Mind during this extremely precious time where you"
+  },
+  {
+    "t_start": 1585.269,
+    "t_end": 1591.59,
+    "text": "know these ships were sinking to you know in order to enhance this process of"
+  },
+  {
+    "t_start": 1591.59,
+    "t_end": 1594.11,
+    "text": "know in order to enhance this process of searching for the right sheit to go and"
+  },
+  {
+    "t_start": 1594.11,
+    "t_end": 1597.35,
+    "text": "searching for the right sheit to go and do math because this would be"
+  },
+  {
+    "t_start": 1597.35,
+    "t_end": 1600.269,
+    "text": "do math because this would be foundational to improving the efficiency"
+  },
+  {
+    "t_start": 1600.269,
+    "t_end": 1604.909,
+    "text": "foundational to improving the efficiency so I'll tell you about his work in these"
+  },
+  {
+    "t_start": 1604.909,
+    "t_end": 1609.83,
+    "text": "information theory in the field and I would like to put papers of touring but"
+  },
+  {
+    "t_start": 1609.83,
+    "t_end": 1612.31,
+    "text": "would like to put papers of touring but there are none he wrote"
+  },
+  {
+    "t_start": 1612.31,
+    "t_end": 1615.19,
+    "text": "there are none he wrote several you know lecture notes and"
+  },
+  {
+    "t_start": 1615.19,
+    "t_end": 1622.389,
+    "text": "various notes uh but never Lish them of course most the main secret is the '90s"
+  },
+  {
+    "t_start": 1622.389,
+    "t_end": 1626.669,
+    "text": "course most the main secret is the '90s but luckily good J good who worked with"
+  },
+  {
+    "t_start": 1626.669,
+    "t_end": 1632.87,
+    "text": "but luckily good J good who worked with him in hot eight wrote papers on this so"
+  },
+  {
+    "t_start": 1632.87,
+    "t_end": 1635.63,
+    "text": "I'll tell you about this two Notions work of evidence and population"
+  },
+  {
+    "t_start": 1635.63,
+    "t_end": 1639.99,
+    "text": "frequencies I'll be brief and maybe you will not understand everything there but"
+  },
+  {
+    "t_start": 1639.99,
+    "t_end": 1647.11,
+    "text": "will not understand everything there but that's not important I want to stress"
+  },
+  {
+    "t_start": 1647.11,
+    "t_end": 1649.63,
+    "text": "the theory so good just to make sure that it's doing work good himself tells"
+  },
+  {
+    "t_start": 1649.63,
+    "t_end": 1652.669,
+    "text": "that it's doing work good himself tells you it is about the second notion it"
+  },
+  {
+    "t_start": 1652.669,
+    "t_end": 1659.789,
+    "text": "in the next slide was suggested to me by touring he showed it to me he showed me"
+  },
+  {
+    "t_start": 1659.789,
+    "t_end": 1665.63,
+    "text": "touring he showed it to me he showed me the proof he showed me uh you know he"
+  },
+  {
+    "t_start": 1665.63,
+    "t_end": 1670.95,
+    "text": "paper but he allowed me to publish it he also on the first notion of weight of"
+  },
+  {
+    "t_start": 1670.95,
+    "t_end": 1675.75,
+    "text": "evidence good WR the Ser at the end of the year there a whole Theory there and"
+  },
+  {
+    "t_start": 1675.75,
+    "t_end": 1678.63,
+    "text": "the year there a whole Theory there and he says the this theem was they"
+  },
+  {
+    "t_start": 1678.63,
+    "t_end": 1680.509,
+    "text": "he says the this theem was they suggested by curing and the other one"
+  },
+  {
+    "t_start": 1680.509,
+    "t_end": 1687.71,
+    "text": "was sest and so on so curing was the the leader of this project let me tell you"
+  },
+  {
+    "t_start": 1687.71,
+    "t_end": 1689.389,
+    "text": "leader of this project let me tell you briefly about these two"
+  },
+  {
+    "t_start": 1689.389,
+    "t_end": 1694.389,
+    "text": "Notions what are population frequencies the most basic problem in statistics you"
+  },
+  {
+    "t_start": 1694.389,
+    "t_end": 1702.07,
+    "text": "the most basic problem in statistics you have a sample of uh n items I samples"
+  },
+  {
+    "t_start": 1702.07,
+    "t_end": 1709.11,
+    "text": "from some Distribution unnown on some alphabet okay so you uh and and you ask"
+  },
+  {
+    "t_start": 1709.11,
+    "t_end": 1712.71,
+    "text": "suppose you look at par item which appears K times in the sample what"
+  },
+  {
+    "t_start": 1712.71,
+    "t_end": 1717.43,
+    "text": "probability do you believe it has in the distribution and you would all say and I"
+  },
+  {
+    "t_start": 1717.43,
+    "t_end": 1722.669,
+    "text": "distribution and you would all say and I would say k over of course end of story"
+  },
+  {
+    "t_start": 1722.669,
+    "t_end": 1727.87,
+    "text": "but that's not the answer it's not the answer because it's not the type of"
+  },
+  {
+    "t_start": 1727.87,
+    "t_end": 1730.07,
+    "text": "situation that we are normally uh thinking about this is more like you"
+  },
+  {
+    "t_start": 1730.07,
+    "t_end": 1736.029,
+    "text": "walk in the forest and you see two zebras one giraffe and one lion and I"
+  },
+  {
+    "t_start": 1736.029,
+    "t_end": 1740.509,
+    "text": "zebras one giraffe and one lion and I ask you what's the probability of a lion"
+  },
+  {
+    "t_start": 1740.509,
+    "t_end": 1747.87,
+    "text": "these animals you didn't see at all so this is the situation here the sigma the"
+  },
+  {
+    "t_start": 1747.87,
+    "t_end": 1753.63,
+    "text": "this is the situation here the sigma the alphabet is all the German"
+  },
+  {
+    "t_start": 1753.63,
+    "t_end": 1760.87,
+    "text": "far larger than the temple size so what do you do here's what you do this called"
+  },
+  {
+    "t_start": 1760.87,
+    "t_end": 1763.669,
+    "text": "do you do here's what you do this called today the good test which good say that"
+  },
+  {
+    "t_start": 1763.669,
+    "t_end": 1770.23,
+    "text": "today the good test which good say that t shows him suppose that n subk is the"
+  },
+  {
+    "t_start": 1770.23,
+    "t_end": 1776.59,
+    "text": "exactly then you do this don't try to digest itough it makes sense to do"
+  },
+  {
+    "t_start": 1776.59,
+    "t_end": 1779.35,
+    "text": "digest itough it makes sense to do afterwards it's really ingenious it's"
+  },
+  {
+    "t_start": 1779.35,
+    "t_end": 1789.269,
+    "text": "not k/n it's k + 1/ n but you taper it down by n subk + 1/ n subk it's really"
+  },
+  {
+    "t_start": 1789.269,
+    "t_end": 1791.19,
+    "text": "down by n subk + 1/ n subk it's really it's sort of magical and there are"
+  },
+  {
+    "t_start": 1791.19,
+    "t_end": 1793.59,
+    "text": "it's sort of magical and there are examples you can do but let's not go"
+  },
+  {
+    "t_start": 1793.59,
+    "t_end": 1798.549,
+    "text": "examples you can do but let's not go there I just want to say that uh we know"
+  },
+  {
+    "t_start": 1798.549,
+    "t_end": 1802.83,
+    "text": "they all knew that it should be smooth also it's smooth is a smooth"
+  },
+  {
+    "t_start": 1802.83,
+    "t_end": 1808.909,
+    "text": "version uh it took many years to show that this is the best you can do the"
+  },
+  {
+    "t_start": 1808.909,
+    "t_end": 1814.87,
+    "text": "formula small formula is the best you can do for any distribution this will"
+  },
+  {
+    "t_start": 1814.87,
+    "t_end": 1818.269,
+    "text": "can do for any distribution this will give you as closest estimate as can be"
+  },
+  {
+    "t_start": 1818.269,
+    "t_end": 1826.909,
+    "text": "hoped for um and uh this is just one example you know we connections of DCs"
+  },
+  {
+    "t_start": 1826.909,
+    "t_end": 1829.549,
+    "text": "example you know we connections of DCs and statistics are now abound and this"
+  },
+  {
+    "t_start": 1829.549,
+    "t_end": 1833.83,
+    "text": "and statistics are now abound and this is another field which started by uh"
+  },
+  {
+    "t_start": 1833.83,
+    "t_end": 1836.789,
+    "text": "is another field which started by uh maturing the other notion is another"
+  },
+  {
+    "t_start": 1836.789,
+    "t_end": 1840.07,
+    "text": "maturing the other notion is another thing you are extremely familiar with uh"
+  },
+  {
+    "t_start": 1840.07,
+    "t_end": 1841.87,
+    "text": "thing you are extremely familiar with uh another basic question there are two"
+  },
+  {
+    "t_start": 1841.87,
+    "t_end": 1849.389,
+    "text": "distributions p and Q and I give you a sample from P how much do you learn to"
+  },
+  {
+    "t_start": 1849.389,
+    "t_end": 1855.95,
+    "text": "you know how much more uh convince are you that the underlying distribution is"
+  },
+  {
+    "t_start": 1855.95,
+    "t_end": 1859.19,
+    "text": "you that the underlying distribution is p given this one"
+  },
+  {
+    "t_start": 1859.19,
+    "t_end": 1864.83,
+    "text": "and uh you know how do you quantify this and C suggest to study this random"
+  },
+  {
+    "t_start": 1864.83,
+    "t_end": 1873.549,
+    "text": "variable log P of X over Q of X this is in early 40s right uh it Sugg just to"
+  },
+  {
+    "t_start": 1873.549,
+    "t_end": 1876.029,
+    "text": "in early 40s right uh it Sugg just to study this random variable of"
+  },
+  {
+    "t_start": 1876.029,
+    "t_end": 1883.07,
+    "text": "course we all know this expectation of this random variable we call it K"
+  },
+  {
+    "t_start": 1883.07,
+    "t_end": 1886.43,
+    "text": "this random variable we call it K Divergence Library Divergence but it was"
+  },
+  {
+    "t_start": 1886.43,
+    "t_end": 1893.31,
+    "text": "Divergence Library Divergence but it was there already they do much more than"
+  },
+  {
+    "t_start": 1893.31,
+    "t_end": 1898.07,
+    "text": "higher moments they have a bunch of beautiful theor some of them were later"
+  },
+  {
+    "t_start": 1898.07,
+    "t_end": 1900.83,
+    "text": "beautiful theor some of them were later discovered independently when wild"
+  },
+  {
+    "t_start": 1900.83,
+    "t_end": 1903.07,
+    "text": "discovered independently when wild developed sequential analysis sequential"
+  },
+  {
+    "t_start": 1903.07,
+    "t_end": 1908.35,
+    "text": "developed sequential analysis sequential analysis is simply statistics where the"
+  },
+  {
+    "t_start": 1908.35,
+    "t_end": 1910.19,
+    "text": "sample side is not fixed in advance but you learn more and more this is what"
+  },
+  {
+    "t_start": 1910.19,
+    "t_end": 1911.75,
+    "text": "you learn more and more this is what they need to learn as they will"
+  },
+  {
+    "t_start": 1911.75,
+    "t_end": 1915.19,
+    "text": "they need to learn as they will gathering information from breaking"
+  },
+  {
+    "t_start": 1915.19,
+    "t_end": 1919.07,
+    "text": "gathering information from breaking messages by Enigma"
+  },
+  {
+    "t_start": 1919.07,
+    "t_end": 1923.99,
+    "text": "all right we are done so we are switching context very quickly I have"
+  },
+  {
+    "t_start": 1923.99,
+    "t_end": 1927.11,
+    "text": "switching context very quickly I have two more papers to discuss so"
+  },
+  {
+    "t_start": 1927.11,
+    "t_end": 1933.31,
+    "text": "that's okay I hope you you get a sense of the immense variety that of things"
+  },
+  {
+    "t_start": 1933.31,
+    "t_end": 1940.43,
+    "text": "that doing considered and here we mve to his the famous paper on AI he after the"
+  },
+  {
+    "t_start": 1940.43,
+    "t_end": 1945.71,
+    "text": "war he went to London to build the ace computer for the government he was very"
+  },
+  {
+    "t_start": 1945.71,
+    "t_end": 1948.11,
+    "text": "computer for the government he was very unhappy there uh they didn't let him do"
+  },
+  {
+    "t_start": 1948.11,
+    "t_end": 1950.909,
+    "text": "unhappy there uh they didn't let him do what he wants to and then Marx Newman"
+  },
+  {
+    "t_start": 1950.909,
+    "t_end": 1953.789,
+    "text": "what he wants to and then Marx Newman same one called him to Manchester where"
+  },
+  {
+    "t_start": 1953.789,
+    "t_end": 1956.149,
+    "text": "same one called him to Manchester where he was building another computer the"
+  },
+  {
+    "t_start": 1956.149,
+    "t_end": 1957.789,
+    "text": "he was building another computer the Manchester"
+  },
+  {
+    "t_start": 1957.789,
+    "t_end": 1963.909,
+    "text": "baby uh and I want to stress it's pretty amazing already in"
+  },
+  {
+    "t_start": 1963.909,
+    "t_end": 1969.11,
+    "text": "1953 there was a position called reader of the theory of"
+  },
+  {
+    "t_start": 1969.11,
+    "t_end": 1971.35,
+    "text": "position called reader of the theory of computation a reader this is England"
+  },
+  {
+    "t_start": 1971.35,
+    "t_end": 1974.389,
+    "text": "computation a reader this is England right professor of the theory of"
+  },
+  {
+    "t_start": 1974.389,
+    "t_end": 1976.909,
+    "text": "right professor of the theory of computation uh Turing was given this"
+  },
+  {
+    "t_start": 1976.909,
+    "t_end": 1980.269,
+    "text": "computation uh Turing was given this position with the salary boost so the"
+  },
+  {
+    "t_start": 1980.269,
+    "t_end": 1984.629,
+    "text": "position with the salary boost so the value Theory um and during this period"
+  },
+  {
+    "t_start": 1984.629,
+    "t_end": 1988.19,
+    "text": "value Theory um and during this period he the paper Computing machinery and"
+  },
+  {
+    "t_start": 1988.19,
+    "t_end": 1995.11,
+    "text": "not just this paper you sure some of you know and I w't talk a little bit about"
+  },
+  {
+    "t_start": 1995.11,
+    "t_end": 1996.629,
+    "text": "know and I w't talk a little bit about this because there are things in this"
+  },
+  {
+    "t_start": 1996.629,
+    "t_end": 1998.789,
+    "text": "this because there are things in this paper that you won't know you know about"
+  },
+  {
+    "t_start": 1998.789,
+    "t_end": 2001.83,
+    "text": "paper that you won't know you know about the imitation game I'll get there but"
+  },
+  {
+    "t_start": 2001.83,
+    "t_end": 2003.59,
+    "text": "the imitation game I'll get there but there are plenty more that maybe you"
+  },
+  {
+    "t_start": 2003.59,
+    "t_end": 2009.31,
+    "text": "didn't realize what there and lot of the things that are there are there mainly"
+  },
+  {
+    "t_start": 2009.31,
+    "t_end": 2011.509,
+    "text": "things that are there are there mainly because during like in many"
+  },
+  {
+    "t_start": 2011.509,
+    "t_end": 2016.789,
+    "text": "because during like in many papers not only set up Notions and the"
+  },
+  {
+    "t_start": 2016.789,
+    "t_end": 2019.789,
+    "text": "papers not only set up Notions and the fundamental Notions but already wants to"
+  },
+  {
+    "t_start": 2019.789,
+    "t_end": 2026.389,
+    "text": "fundamental Notions but already wants to argue why his Notions are the right ones"
+  },
+  {
+    "t_start": 2026.389,
+    "t_end": 2030.19,
+    "text": "or important ones and he prepares for arguments from other scientists in this"
+  },
+  {
+    "t_start": 2030.19,
+    "t_end": 2035.11,
+    "text": "arguments from other scientists in this case he got lots of arguments there were"
+  },
+  {
+    "t_start": 2035.11,
+    "t_end": 2037.149,
+    "text": "many debates he he held with other people other scientists in different"
+  },
+  {
+    "t_start": 2037.149,
+    "t_end": 2043.19,
+    "text": "people other scientists in different fields both in writing and on the BBC"
+  },
+  {
+    "t_start": 2043.19,
+    "t_end": 2046.269,
+    "text": "Radio so he prepares a bunch of arguments this leads him to say things"
+  },
+  {
+    "t_start": 2046.269,
+    "t_end": 2049.109,
+    "text": "arguments this leads him to say things that you know are not about intelligence"
+  },
+  {
+    "t_start": 2049.109,
+    "t_end": 2052.51,
+    "text": "that you know are not about intelligence are absolutely fundamental for us first"
+  },
+  {
+    "t_start": 2052.51,
+    "t_end": 2055.55,
+    "text": "are absolutely fundamental for us first thing is he introduces again you wonder"
+  },
+  {
+    "t_start": 2055.55,
+    "t_end": 2057.71,
+    "text": "thing is he introduces again you wonder who introduced first formally"
+  },
+  {
+    "t_start": 2057.71,
+    "t_end": 2063.31,
+    "text": "publicistic algorithm this is doing in this paper uh he Sugg just you know"
+  },
+  {
+    "t_start": 2063.31,
+    "t_end": 2065.629,
+    "text": "this paper uh he Sugg just you know another type of machine you can consider"
+  },
+  {
+    "t_start": 2065.629,
+    "t_end": 2068.79,
+    "text": "another type of machine you can consider touring machine with a random element so"
+  },
+  {
+    "t_start": 2068.79,
+    "t_end": 2072.03,
+    "text": "touring machine with a random element so flip coins for some of your moves he"
+  },
+  {
+    "t_start": 2072.03,
+    "t_end": 2075.349,
+    "text": "flip coins for some of your moves he suggest it he suggest how to do it and"
+  },
+  {
+    "t_start": 2075.349,
+    "t_end": 2077.829,
+    "text": "suggest it he suggest how to do it and he suggest in other places other means"
+  },
+  {
+    "t_start": 2077.829,
+    "t_end": 2080.71,
+    "text": "he suggest in other places other means physical means of generating random"
+  },
+  {
+    "t_start": 2080.71,
+    "t_end": 2083.829,
+    "text": "physical means of generating random numbers so publicistic machines are"
+  },
+  {
+    "t_start": 2083.829,
+    "t_end": 2087.95,
+    "text": "numbers so publicistic machines are defined in this paper moreover sudo"
+  },
+  {
+    "t_start": 2087.95,
+    "t_end": 2094.349,
+    "text": "Randomness is already explored in this paper uh by the way publicity algorithms"
+  },
+  {
+    "t_start": 2094.349,
+    "t_end": 2097.27,
+    "text": "paper uh by the way publicity algorithms are defined because he wants to convince"
+  },
+  {
+    "t_start": 2097.27,
+    "t_end": 2098.19,
+    "text": "are defined because he wants to convince the"
+  },
+  {
+    "t_start": 2098.19,
+    "t_end": 2104.589,
+    "text": "audience say that um machines don't have to be predictable people say machines"
+  },
+  {
+    "t_start": 2104.589,
+    "t_end": 2106.27,
+    "text": "to be predictable people say machines will never have intelligence they are"
+  },
+  {
+    "t_start": 2106.27,
+    "t_end": 2110.99,
+    "text": "always predictable so they are not but he also once Randomness is in he wants"
+  },
+  {
+    "t_start": 2110.99,
+    "t_end": 2113.71,
+    "text": "he also once Randomness is in he wants to understand sud sudo Randomness so the"
+  },
+  {
+    "t_start": 2113.71,
+    "t_end": 2116.349,
+    "text": "to understand sud sudo Randomness so the first thing he said is that it is not"
+  },
+  {
+    "t_start": 2116.349,
+    "t_end": 2118.79,
+    "text": "first thing he said is that it is not normally possible to determine from"
+  },
+  {
+    "t_start": 2118.79,
+    "t_end": 2124.47,
+    "text": "observing a machine whether it is used in Randomness or not because how do you"
+  },
+  {
+    "t_start": 2124.47,
+    "t_end": 2127.75,
+    "text": "in Randomness or not because how do you tell if this is it or maybe it is just"
+  },
+  {
+    "t_start": 2127.75,
+    "t_end": 2131.87,
+    "text": "tell if this is it or maybe it is just using in some way the you know digits of"
+  },
+  {
+    "t_start": 2131.87,
+    "t_end": 2135.15,
+    "text": "using in some way the you know digits of P but even more fundamentally he makes"
+  },
+  {
+    "t_start": 2135.15,
+    "t_end": 2137.91,
+    "text": "P but even more fundamentally he makes the formal definition of a sudo random"
+  },
+  {
+    "t_start": 2137.91,
+    "t_end": 2141.349,
+    "text": "the formal definition of a sudo random generator sudo random function generator"
+  },
+  {
+    "t_start": 2141.349,
+    "t_end": 2149.43,
+    "text": "generator sudo random function generator this is a quoted in the famous paper of"
+  },
+  {
+    "t_start": 2149.43,
+    "t_end": 2154.27,
+    "text": "gold mikali where they formally Define this notion and they quote him he says"
+  },
+  {
+    "t_start": 2154.27,
+    "t_end": 2157.109,
+    "text": "exactly what they say gives their definition I set up on the Manchester"
+  },
+  {
+    "t_start": 2157.109,
+    "t_end": 2159.75,
+    "text": "definition I set up on the Manchester computer a small program using only"
+  },
+  {
+    "t_start": 2159.75,
+    "t_end": 2163.069,
+    "text": "computer a small program using only thousand units of storage whereby a"
+  },
+  {
+    "t_start": 2163.069,
+    "t_end": 2164.79,
+    "text": "thousand units of storage whereby a machine is supplied with"
+  },
+  {
+    "t_start": 2164.79,
+    "t_end": 2173.349,
+    "text": "116 uh figure number and outputs another 16 digit number I would defy anyone to"
+  },
+  {
+    "t_start": 2173.349,
+    "t_end": 2175.99,
+    "text": "16 digit number I would defy anyone to predict the value of this function of"
+  },
+  {
+    "t_start": 2175.99,
+    "t_end": 2182.87,
+    "text": "this program on any unseen input so that's basically the definition of sudo"
+  },
+  {
+    "t_start": 2182.87,
+    "t_end": 2185.47,
+    "text": "that's basically the definition of sudo functions if you throw in polinomial Di"
+  },
+  {
+    "t_start": 2185.47,
+    "t_end": 2187.829,
+    "text": "functions if you throw in polinomial Di and blah blah blah whatever we need but"
+  },
+  {
+    "t_start": 2187.829,
+    "t_end": 2190.47,
+    "text": "and blah blah blah whatever we need but that's basically is the definition so he"
+  },
+  {
+    "t_start": 2190.47,
+    "t_end": 2194.349,
+    "text": "that's basically is the definition so he already sees um or gets right the"
+  },
+  {
+    "t_start": 2194.349,
+    "t_end": 2197.99,
+    "text": "already sees um or gets right the definition that we are all using in"
+  },
+  {
+    "t_start": 2197.99,
+    "t_end": 2201.47,
+    "text": "definition that we are all using in cryptography uh that's about Randomness"
+  },
+  {
+    "t_start": 2201.47,
+    "t_end": 2209.15,
+    "text": "cryptography uh that's about Randomness and Randomness now uh he talks of course"
+  },
+  {
+    "t_start": 2209.15,
+    "t_end": 2214.309,
+    "text": "education and I I want to stress I mean in many of these papers you really have"
+  },
+  {
+    "t_start": 2214.309,
+    "t_end": 2216.51,
+    "text": "in many of these papers you really have to think I mean we are born into this"
+  },
+  {
+    "t_start": 2216.51,
+    "t_end": 2218.71,
+    "text": "to think I mean we are born into this computer age you have to think there"
+  },
+  {
+    "t_start": 2218.71,
+    "t_end": 2221.91,
+    "text": "computer age you have to think there were no computers basically no computers"
+  },
+  {
+    "t_start": 2221.91,
+    "t_end": 2227.55,
+    "text": "were no computers basically no computers and the computers that were start people"
+  },
+  {
+    "t_start": 2227.55,
+    "t_end": 2229.349,
+    "text": "started building after the war had mostly one"
+  },
+  {
+    "t_start": 2229.349,
+    "t_end": 2235.79,
+    "text": "purpose clearly military purpose trajectories of missiles and stuff like"
+  },
+  {
+    "t_start": 2235.79,
+    "t_end": 2238.55,
+    "text": "trajectories of missiles and stuff like that also IBM were developing computers"
+  },
+  {
+    "t_start": 2238.55,
+    "t_end": 2241.75,
+    "text": "that also IBM were developing computers for business purposes but you seem to"
+  },
+  {
+    "t_start": 2241.75,
+    "t_end": 2244.27,
+    "text": "for business purposes but you seem to have been the only one to think"
+  },
+  {
+    "t_start": 2244.27,
+    "t_end": 2246.99,
+    "text": "have been the only one to think immediately that if these machines exist"
+  },
+  {
+    "t_start": 2246.99,
+    "t_end": 2250.15,
+    "text": "immediately that if these machines exist they may think like us and he's"
+  },
+  {
+    "t_start": 2250.15,
+    "t_end": 2252.109,
+    "text": "they may think like us and he's advocating this point of view that's the"
+  },
+  {
+    "t_start": 2252.109,
+    "t_end": 2255.47,
+    "text": "advocating this point of view that's the purpose of his paper completely you know"
+  },
+  {
+    "t_start": 2255.47,
+    "t_end": 2258.589,
+    "text": "purpose of his paper completely you know against the current of uh"
+  },
+  {
+    "t_start": 2258.589,
+    "t_end": 2267.23,
+    "text": "activity uh he did many things he says many things in this he was very obsessed"
+  },
+  {
+    "t_start": 2267.23,
+    "t_end": 2268.829,
+    "text": "with analogies with the brain uh he wanted to know he believed that"
+  },
+  {
+    "t_start": 2268.829,
+    "t_end": 2271.27,
+    "text": "wanted to know he believed that intelligence in particular depends on"
+  },
+  {
+    "t_start": 2271.27,
+    "t_end": 2276.349,
+    "text": "how much memory you can have in a computer and he was asking his biologist"
+  },
+  {
+    "t_start": 2276.349,
+    "t_end": 2280.51,
+    "text": "computer and he was asking his biologist friends about sizes of human and other"
+  },
+  {
+    "t_start": 2280.51,
+    "t_end": 2286.19,
+    "text": "friends about sizes of human and other brains"
+  },
+  {
+    "t_start": 2289.309,
+    "t_end": 2297.15,
+    "text": "he needs to give about people you know arguing that how can machine learn and"
+  },
+  {
+    "t_start": 2297.15,
+    "t_end": 2299.99,
+    "text": "arguing that how can machine learn and he tell them machine learns because a"
+  },
+  {
+    "t_start": 2299.99,
+    "t_end": 2303.63,
+    "text": "he tell them machine learns because a machine is the argument was it's fully"
+  },
+  {
+    "t_start": 2303.63,
+    "t_end": 2306.829,
+    "text": "machine is the argument was it's fully prescribed it has a program he say sure"
+  },
+  {
+    "t_start": 2306.829,
+    "t_end": 2310.03,
+    "text": "prescribed it has a program he say sure but you know program can change itself"
+  },
+  {
+    "t_start": 2310.03,
+    "t_end": 2314.349,
+    "text": "but you know program can change itself and becomes a new program so all sorts"
+  },
+  {
+    "t_start": 2314.349,
+    "t_end": 2322.75,
+    "text": "of things we are we take for granted today and uh which yeah he first put it"
+  },
+  {
+    "t_start": 2322.75,
+    "t_end": 2326.67,
+    "text": "down on paper he argues very uh forcefully that uh you know against"
+  },
+  {
+    "t_start": 2326.67,
+    "t_end": 2330.349,
+    "text": "forcefully that uh you know against the complaint that the machine might"
+  },
+  {
+    "t_start": 2330.349,
+    "t_end": 2336.39,
+    "text": "machines might a you expect machines to be for forse proof uh like you going"
+  },
+  {
+    "t_start": 2336.39,
+    "t_end": 2341.589,
+    "text": "be for forse proof uh like you going into a car you don't want it to break"
+  },
+  {
+    "t_start": 2341.589,
+    "t_end": 2346.99,
+    "text": "wheel to the right but he says that uh if you want to be an INT if you want an"
+  },
+  {
+    "t_start": 2346.99,
+    "t_end": 2351.99,
+    "text": "if you want to be an INT if you want an intelligent machine you must allow it to"
+  },
+  {
+    "t_start": 2351.99,
+    "t_end": 2359.71,
+    "text": "must allow machines to do that he talks about uh the education of machines and"
+  },
+  {
+    "t_start": 2359.71,
+    "t_end": 2362.71,
+    "text": "about uh the education of machines and he says well like child uh"
+  },
+  {
+    "t_start": 2362.71,
+    "t_end": 2365.349,
+    "text": "he says well like child uh learning we are born with some initial"
+  },
+  {
+    "t_start": 2365.349,
+    "t_end": 2367.51,
+    "text": "learning we are born with some initial state of mind or initial programming the"
+  },
+  {
+    "t_start": 2367.51,
+    "t_end": 2369.47,
+    "text": "state of mind or initial programming the machine but then there are two kinds and"
+  },
+  {
+    "t_start": 2369.47,
+    "t_end": 2372.349,
+    "text": "machine but then there are two kinds and he distinguish them of sources of"
+  },
+  {
+    "t_start": 2372.349,
+    "t_end": 2374.829,
+    "text": "he distinguish them of sources of learning one is experience from whatever"
+  },
+  {
+    "t_start": 2374.829,
+    "t_end": 2377.069,
+    "text": "learning one is experience from whatever the environment is doing but the other"
+  },
+  {
+    "t_start": 2377.069,
+    "t_end": 2383.069,
+    "text": "the environment is doing but the other is education we should teach the machine"
+  },
+  {
+    "t_start": 2383.069,
+    "t_end": 2384.55,
+    "text": "like we teach children it was interesting during the time I was"
+  },
+  {
+    "t_start": 2384.55,
+    "t_end": 2390.109,
+    "text": "interesting during the time I was reading this I got valiant's new book on"
+  },
+  {
+    "t_start": 2390.109,
+    "t_end": 2396.67,
+    "text": "educability uh and uh where he mentions of course this statement by jri and say"
+  },
+  {
+    "t_start": 2396.67,
+    "t_end": 2399.75,
+    "text": "of course this statement by jri and say that in the history of machine learning"
+  },
+  {
+    "t_start": 2399.75,
+    "t_end": 2402.95,
+    "text": "that in the history of machine learning of course now everything changed but uh"
+  },
+  {
+    "t_start": 2402.95,
+    "t_end": 2405.589,
+    "text": "of course now everything changed but uh people didn't talk much about education"
+  },
+  {
+    "t_start": 2405.589,
+    "t_end": 2410.43,
+    "text": "and I was thinking to myself that in general in this uh comments you made you"
+  },
+  {
+    "t_start": 2410.43,
+    "t_end": 2415.79,
+    "text": "general in this uh comments you made you would have loved to read this book or"
+  },
+  {
+    "t_start": 2415.79,
+    "t_end": 2420.63,
+    "text": "errors are fundamental or the book about Circuit of the Mind where the analogies"
+  },
+  {
+    "t_start": 2420.63,
+    "t_end": 2426.55,
+    "text": "Circuit of the Mind where the analogies to the brain this is only vant work"
+  },
+  {
+    "t_start": 2426.55,
+    "t_end": 2428.39,
+    "text": "there are many of course us literature that and works that he would have loved"
+  },
+  {
+    "t_start": 2428.39,
+    "t_end": 2429.43,
+    "text": "that and works that he would have loved to know"
+  },
+  {
+    "t_start": 2429.43,
+    "t_end": 2430.99,
+    "text": "to know about"
+  },
+  {
+    "t_start": 2430.99,
+    "t_end": 2438.63,
+    "text": "um finally I'm getting to his main point his definition of intelligence and uh"
+  },
+  {
+    "t_start": 2438.63,
+    "t_end": 2445.309,
+    "text": "his definition of intelligence and uh it's again his pose is beautiful and"
+  },
+  {
+    "t_start": 2445.309,
+    "t_end": 2447.87,
+    "text": "it's pleasure to read he starts the paper by saying you know how do you"
+  },
+  {
+    "t_start": 2447.87,
+    "t_end": 2450.67,
+    "text": "paper by saying you know how do you study the question can machine"
+  },
+  {
+    "t_start": 2450.67,
+    "t_end": 2456.63,
+    "text": "think say well you can do what the philosophers have always done you define"
+  },
+  {
+    "t_start": 2456.63,
+    "t_end": 2458.99,
+    "text": "philosophers have always done you define this notion what is a machine what is it"
+  },
+  {
+    "t_start": 2458.99,
+    "t_end": 2463.19,
+    "text": "this notion what is a machine what is it to think and uh yeah we start discussing"
+  },
+  {
+    "t_start": 2463.19,
+    "t_end": 2465.27,
+    "text": "to think and uh yeah we start discussing this but he said immediately we run into"
+  },
+  {
+    "t_start": 2465.27,
+    "t_end": 2467.91,
+    "text": "this but he said immediately we run into problems because you will not agree with"
+  },
+  {
+    "t_start": 2467.91,
+    "t_end": 2470.47,
+    "text": "problems because you will not agree with my definition and we start argue about"
+  },
+  {
+    "t_start": 2470.47,
+    "t_end": 2474.15,
+    "text": "my definition and we start argue about the definition says instead we should"
+  },
+  {
+    "t_start": 2474.15,
+    "t_end": 2479.27,
+    "text": "the definition says instead we should just test it so he's rejecting the"
+  },
+  {
+    "t_start": 2479.27,
+    "t_end": 2484.95,
+    "text": "philosophical point of view of defining this because definitions they may not be"
+  },
+  {
+    "t_start": 2484.95,
+    "t_end": 2487.67,
+    "text": "this because definitions they may not be testable for fiber they don't have a"
+  },
+  {
+    "t_start": 2487.67,
+    "t_end": 2490.55,
+    "text": "testable for fiber they don't have a universal meaning we still argue about"
+  },
+  {
+    "t_start": 2490.55,
+    "t_end": 2494.829,
+    "text": "universal meaning we still argue about them and instead of that he's suggesting"
+  },
+  {
+    "t_start": 2494.829,
+    "t_end": 2498.19,
+    "text": "them and instead of that he's suggesting subjective behavioral definition that of"
+  },
+  {
+    "t_start": 2498.19,
+    "t_end": 2505.109,
+    "text": "subjective behavioral definition that of course you know and we go through uh"
+  },
+  {
+    "t_start": 2505.109,
+    "t_end": 2509.27,
+    "text": "these may be you know precise testable operational useful and as we shall see"
+  },
+  {
+    "t_start": 2509.27,
+    "t_end": 2512.15,
+    "text": "operational useful and as we shall see revolutionary so let me first tell you"
+  },
+  {
+    "t_start": 2512.15,
+    "t_end": 2513.87,
+    "text": "revolutionary so let me first tell you what I'm sure you know the famous"
+  },
+  {
+    "t_start": 2513.87,
+    "t_end": 2516.829,
+    "text": "what I'm sure you know the famous imitation game this is his way of"
+  },
+  {
+    "t_start": 2516.829,
+    "t_end": 2519.55,
+    "text": "imitation game this is his way of testing whether a robot or program are"
+  },
+  {
+    "t_start": 2519.55,
+    "t_end": 2522.109,
+    "text": "testing whether a robot or program are you intelligent or can converse with"
+  },
+  {
+    "t_start": 2522.109,
+    "t_end": 2524.589,
+    "text": "you intelligent or can converse with humans of course in today's chatboard"
+  },
+  {
+    "t_start": 2524.589,
+    "t_end": 2530.47,
+    "text": "world the issue is not whether it can be done but just the definition itself the"
+  },
+  {
+    "t_start": 2530.47,
+    "t_end": 2533.15,
+    "text": "done but just the definition itself the imitation game he sets up two parallel"
+  },
+  {
+    "t_start": 2533.15,
+    "t_end": 2535.43,
+    "text": "imitation game he sets up two parallel words in which a"
+  },
+  {
+    "t_start": 2535.43,
+    "t_end": 2539.63,
+    "text": "referee and you allow many referees a referee interact with one of them"
+  },
+  {
+    "t_start": 2539.63,
+    "t_end": 2542.349,
+    "text": "referee interact with one of them doesn't always whom and the end should"
+  },
+  {
+    "t_start": 2542.349,
+    "t_end": 2548.349,
+    "text": "doesn't always whom and the end should say you know I believe this is a machine"
+  },
+  {
+    "t_start": 2548.349,
+    "t_end": 2551.829,
+    "text": "or or just give a confidence La give number between zero and one and the way"
+  },
+  {
+    "t_start": 2551.829,
+    "t_end": 2554.67,
+    "text": "number between zero and one and the way you would Define intelligence is you"
+  },
+  {
+    "t_start": 2554.67,
+    "t_end": 2560.79,
+    "text": "know that the robo is intelligence if in this two words the referee any referee"
+  },
+  {
+    "t_start": 2560.79,
+    "t_end": 2566.23,
+    "text": "any human referee in t definition cannot distinguish the two the two numbers are"
+  },
+  {
+    "t_start": 2566.23,
+    "t_end": 2572.069,
+    "text": "distinguish the two the two numbers are very close to each other so that is"
+  },
+  {
+    "t_start": 2572.069,
+    "t_end": 2575.95,
+    "text": "want to tell you about how we in theoretical computer science use this"
+  },
+  {
+    "t_start": 2575.95,
+    "t_end": 2577.67,
+    "text": "theoretical computer science use this Paradigm paradig"
+  },
+  {
+    "t_start": 2577.67,
+    "t_end": 2583.589,
+    "text": "is the two things are the same if they cannot be told apart very simply by what"
+  },
+  {
+    "t_start": 2583.589,
+    "t_end": 2585.71,
+    "text": "cannot be told apart very simply by what by a reasonable test reason number to"
+  },
+  {
+    "t_start": 2585.71,
+    "t_end": 2587.75,
+    "text": "by a reasonable test reason number to the"
+  },
+  {
+    "t_start": 2587.75,
+    "t_end": 2594.03,
+    "text": "tasket so this I want to demonstrate the power of this Paradigm in current TS"
+  },
+  {
+    "t_start": 2594.03,
+    "t_end": 2598.829,
+    "text": "power of this Paradigm in current TS which has amazing impact on everything"
+  },
+  {
+    "t_start": 2598.829,
+    "t_end": 2602.79,
+    "text": "which has amazing impact on everything I'll give three examples very briefly um"
+  },
+  {
+    "t_start": 2602.79,
+    "t_end": 2605.99,
+    "text": "I'll give three examples very briefly um from crypto from sudom and from privacy"
+  },
+  {
+    "t_start": 2605.99,
+    "t_end": 2611.349,
+    "text": "from crypto from sudom and from privacy that I'm sure many of you have seen"
+  },
+  {
+    "t_start": 2611.349,
+    "t_end": 2613.91,
+    "text": "fundamental definitions in which the imitation game Paradigm is"
+  },
+  {
+    "t_start": 2613.91,
+    "t_end": 2621.829,
+    "text": "used and uh just to comment which is uh I guess uh is sort of obvious but has to"
+  },
+  {
+    "t_start": 2621.829,
+    "t_end": 2625.79,
+    "text": "I guess uh is sort of obvious but has to be repeated uh especially to students I"
+  },
+  {
+    "t_start": 2625.79,
+    "t_end": 2628.829,
+    "text": "be repeated uh especially to students I think is that well our field I think is"
+  },
+  {
+    "t_start": 2628.829,
+    "t_end": 2631.95,
+    "text": "think is that well our field I think is primarily a definition of field and"
+  },
+  {
+    "t_start": 2631.95,
+    "t_end": 2637.15,
+    "text": "Mathematics as well and when you have the right definitions the right Notions"
+  },
+  {
+    "t_start": 2637.15,
+    "t_end": 2642.63,
+    "text": "the right definitions the right Notions this is the primary objective once you"
+  },
+  {
+    "t_start": 2642.63,
+    "t_end": 2646.51,
+    "text": "have this often you know the right theorems theories constructions follow"
+  },
+  {
+    "t_start": 2646.51,
+    "t_end": 2649.95,
+    "text": "theorems theories constructions follow so we'll see some definitions using the"
+  },
+  {
+    "t_start": 2649.95,
+    "t_end": 2655.75,
+    "text": "game uh in cryptography what's the basic problem the basic problem is you get"
+  },
+  {
+    "t_start": 2655.75,
+    "t_end": 2658.67,
+    "text": "problem the basic problem is you get some encryption function what do you"
+  },
+  {
+    "t_start": 2658.67,
+    "t_end": 2661.069,
+    "text": "some encryption function what do you want to know whether it's aure right"
+  },
+  {
+    "t_start": 2661.069,
+    "t_end": 2664.71,
+    "text": "want to know whether it's aure right protect the messages so what is secure"
+  },
+  {
+    "t_start": 2664.71,
+    "t_end": 2667.23,
+    "text": "protect the messages so what is secure here is the famous goldbuster m"
+  },
+  {
+    "t_start": 2667.23,
+    "t_end": 2670.15,
+    "text": "here is the famous goldbuster m definition of secure semantic security"
+  },
+  {
+    "t_start": 2670.15,
+    "t_end": 2675.63,
+    "text": "definition of secure semantic security it's done by an immitation game so set"
+  },
+  {
+    "t_start": 2675.63,
+    "t_end": 2678.349,
+    "text": "up a limitation game between what the encryption of two different machines any"
+  },
+  {
+    "t_start": 2678.349,
+    "t_end": 2685.79,
+    "text": "encryption of two different machines any two different messages any two m0 and"
+  },
+  {
+    "t_start": 2685.79,
+    "t_end": 2690.63,
+    "text": "N1 you let the encryption encrypt them and then you send it to an arbitrary"
+  },
+  {
+    "t_start": 2690.63,
+    "t_end": 2697.03,
+    "text": "this adversary is efficient and it should tell whether it's m0 or M1 and if"
+  },
+  {
+    "t_start": 2697.03,
+    "t_end": 2699.99,
+    "text": "should tell whether it's m0 or M1 and if if the output of this machine any such"
+  },
+  {
+    "t_start": 2699.99,
+    "t_end": 2703.23,
+    "text": "if the output of this machine any such machine is very close and it's close"
+  },
+  {
+    "t_start": 2703.23,
+    "t_end": 2705.19,
+    "text": "machine is very close and it's close regardless of which two messages you"
+  },
+  {
+    "t_start": 2705.19,
+    "t_end": 2707.79,
+    "text": "regardless of which two messages you enry then you call the encryption"
+  },
+  {
+    "t_start": 2707.79,
+    "t_end": 2710.91,
+    "text": "enry then you call the encryption function secure this is a definition"
+  },
+  {
+    "t_start": 2710.91,
+    "t_end": 2713.829,
+    "text": "function secure this is a definition universally used in cryptography this"
+  },
+  {
+    "t_start": 2713.829,
+    "t_end": 2717.549,
+    "text": "universally used in cryptography this definition tells you immediately that"
+  },
+  {
+    "t_start": 2717.549,
+    "t_end": 2720.349,
+    "text": "definition tells you immediately that encryption secure encryption must be"
+  },
+  {
+    "t_start": 2720.349,
+    "t_end": 2722.589,
+    "text": "encryption secure encryption must be probabilistic the terministic function"
+  },
+  {
+    "t_start": 2722.589,
+    "t_end": 2724.23,
+    "text": "probabilistic the terministic function will never pass this"
+  },
+  {
+    "t_start": 2724.23,
+    "t_end": 2730.19,
+    "text": "test and of course we have a way of um you know making this definition real"
+  },
+  {
+    "t_start": 2730.19,
+    "t_end": 2731.79,
+    "text": "you know making this definition real under various"
+  },
+  {
+    "t_start": 2731.79,
+    "t_end": 2737.43,
+    "text": "assumptions uh this is true not just for encryption but any cryptographic"
+  },
+  {
+    "t_start": 2737.43,
+    "t_end": 2744.47,
+    "text": "argue the security of a given protocol let's say which runs on the internet you"
+  },
+  {
+    "t_start": 2744.47,
+    "t_end": 2747.03,
+    "text": "let's say which runs on the internet you want to say that some set of players"
+  },
+  {
+    "t_start": 2747.03,
+    "t_end": 2752.87,
+    "text": "maybe with bad players uh part of them cannot get any more information than"
+  },
+  {
+    "t_start": 2752.87,
+    "t_end": 2757.43,
+    "text": "cannot get any more information than they should uh you set up a limitation"
+  },
+  {
+    "t_start": 2757.43,
+    "t_end": 2764.309,
+    "text": "you what is it imitating against you dream up an ideal word and a word let's"
+  },
+  {
+    "t_start": 2764.309,
+    "t_end": 2767.43,
+    "text": "dream up an ideal word and a word let's say where there is a trusted party which"
+  },
+  {
+    "t_start": 2767.43,
+    "t_end": 2768.99,
+    "text": "say where there is a trusted party which I called here the"
+  },
+  {
+    "t_start": 2768.99,
+    "t_end": 2773.87,
+    "text": "government uh where you have the protocol that everybody send their"
+  },
+  {
+    "t_start": 2773.87,
+    "t_end": 2778.549,
+    "text": "information to the trusted party and you get back everybody gets back what they"
+  },
+  {
+    "t_start": 2778.549,
+    "t_end": 2783.87,
+    "text": "should if for every set of players this is the definition every set of players"
+  },
+  {
+    "t_start": 2783.87,
+    "t_end": 2786.47,
+    "text": "is the definition every set of players the communication it sees is IND"
+  },
+  {
+    "t_start": 2786.47,
+    "t_end": 2788.589,
+    "text": "the communication it sees is IND distinguish isable in these two"
+  },
+  {
+    "t_start": 2788.589,
+    "t_end": 2794.75,
+    "text": "different worlds then this p is secure because cannot be distinguished from"
+  },
+  {
+    "t_start": 2794.75,
+    "t_end": 2799.549,
+    "text": "because cannot be distinguished from pool played in the ideal situation so"
+  },
+  {
+    "t_start": 2799.549,
+    "t_end": 2806.109,
+    "text": "cryptography in a study of Randomness this is critical how do we say that the"
+  },
+  {
+    "t_start": 2806.109,
+    "t_end": 2807.95,
+    "text": "this is critical how do we say that the distribution when do we say that"
+  },
+  {
+    "t_start": 2807.95,
+    "t_end": 2814.03,
+    "text": "distribution is to the Rond again we run an imitation game against the uniform"
+  },
+  {
+    "t_start": 2814.03,
+    "t_end": 2820.63,
+    "text": "distribution which is the Paradigm of a perfect Randomness and if no efficient"
+  },
+  {
+    "t_start": 2820.63,
+    "t_end": 2823.95,
+    "text": "perfect Randomness and if no efficient algorithm can tell apart these two then"
+  },
+  {
+    "t_start": 2823.95,
+    "t_end": 2828.47,
+    "text": "algorithm can tell apart these two then you call it as random as the uniform"
+  },
+  {
+    "t_start": 2828.47,
+    "t_end": 2831.069,
+    "text": "you call it as random as the uniform distribution finally the last example"
+  },
+  {
+    "t_start": 2831.069,
+    "t_end": 2832.75,
+    "text": "distribution finally the last example I'm running through them quickly but I'm"
+  },
+  {
+    "t_start": 2832.75,
+    "t_end": 2834.069,
+    "text": "I'm running through them quickly but I'm sure they are"
+  },
+  {
+    "t_start": 2834.069,
+    "t_end": 2840.47,
+    "text": "know uh privacy uh the basic question there the database you want to know"
+  },
+  {
+    "t_start": 2840.47,
+    "t_end": 2846.549,
+    "text": "whether it safe for you to participate in this data of records of many people"
+  },
+  {
+    "t_start": 2846.549,
+    "t_end": 2848.309,
+    "text": "in this data of records of many people and the idea of"
+  },
+  {
+    "t_start": 2848.309,
+    "t_end": 2854.27,
+    "text": "filtering answers to queries using no is you know half a century old but there"
+  },
+  {
+    "t_start": 2854.27,
+    "t_end": 2858.15,
+    "text": "you know half a century old but there was no formal definition of when you uh"
+  },
+  {
+    "t_start": 2858.15,
+    "t_end": 2860.47,
+    "text": "was no formal definition of when you uh say that this is private and how private"
+  },
+  {
+    "t_start": 2860.47,
+    "t_end": 2868.19,
+    "text": "say that this is private and how private it is such a mechanism until this famous"
+  },
+  {
+    "t_start": 2868.19,
+    "t_end": 2877.309,
+    "text": "two decades ago I should say we said that such a fys mechanism is private if"
+  },
+  {
+    "t_start": 2877.309,
+    "t_end": 2880.03,
+    "text": "that such a fys mechanism is private if whenever you take two databases"
+  },
+  {
+    "t_start": 2880.03,
+    "t_end": 2885.51,
+    "text": "arbitrary two databases that depend defer only in one position adjacent"
+  },
+  {
+    "t_start": 2885.51,
+    "t_end": 2891.99,
+    "text": "databases let's say they defer on my name if whatever query is being asked"
+  },
+  {
+    "t_start": 2891.99,
+    "t_end": 2894.51,
+    "text": "name if whatever query is being asked and gets an answer using this filtering"
+  },
+  {
+    "t_start": 2894.51,
+    "t_end": 2898.549,
+    "text": "and gets an answer using this filtering mechanism no algorithm can you know this"
+  },
+  {
+    "t_start": 2898.549,
+    "t_end": 2900.63,
+    "text": "mechanism no algorithm can you know this all these ques cannot distinguish they"
+  },
+  {
+    "t_start": 2900.63,
+    "t_end": 2903.589,
+    "text": "all these ques cannot distinguish they behave the same on the two databases"
+  },
+  {
+    "t_start": 2903.589,
+    "t_end": 2905.87,
+    "text": "behave the same on the two databases then I'm happy to participate because"
+  },
+  {
+    "t_start": 2905.87,
+    "t_end": 2907.47,
+    "text": "then I'm happy to participate because clearly"
+  },
+  {
+    "t_start": 2907.47,
+    "t_end": 2913.15,
+    "text": "nothing is learned about me in particular so again limitation game"
+  },
+  {
+    "t_start": 2913.15,
+    "t_end": 2918.51,
+    "text": "particular so again limitation game serves as a uh bed for the definition of"
+  },
+  {
+    "t_start": 2918.51,
+    "t_end": 2920.109,
+    "text": "serves as a uh bed for the definition of a fundamental"
+  },
+  {
+    "t_start": 2920.109,
+    "t_end": 2928.23,
+    "text": "notion okay so I have five minutes for my last uh paper and this is a paper he"
+  },
+  {
+    "t_start": 2928.23,
+    "t_end": 2930.03,
+    "text": "my last uh paper and this is a paper he still in"
+  },
+  {
+    "t_start": 2930.03,
+    "t_end": 2935.23,
+    "text": "Manchester uh it's about morphogenesis he wrote a paper called the chemical"
+  },
+  {
+    "t_start": 2935.23,
+    "t_end": 2937.589,
+    "text": "he wrote a paper called the chemical basis of morphogenesis"
+  },
+  {
+    "t_start": 2937.589,
+    "t_end": 2943.67,
+    "text": "now I don't know if you knew that he did biology uh you not just L the paper on"
+  },
+  {
+    "t_start": 2943.67,
+    "t_end": 2946.549,
+    "text": "biology uh you not just L the paper on biology this is one of the most grossed"
+  },
+  {
+    "t_start": 2946.549,
+    "t_end": 2949.829,
+    "text": "biology this is one of the most grossed papers in biologies ever okay it's not"
+  },
+  {
+    "t_start": 2949.829,
+    "t_end": 2952.829,
+    "text": "papers in biologies ever okay it's not just an arbitary paper has the"
+  },
+  {
+    "t_start": 2952.829,
+    "t_end": 2954.589,
+    "text": "just an arbitary paper has the 20,000"
+  },
+  {
+    "t_start": 2954.589,
+    "t_end": 2960.47,
+    "text": "references uh and I want to tell you in a couple of slides what's in this paper"
+  },
+  {
+    "t_start": 2960.47,
+    "t_end": 2962.51,
+    "text": "a couple of slides what's in this paper so this is totally different than"
+  },
+  {
+    "t_start": 2962.51,
+    "t_end": 2967.27,
+    "text": "so this is totally different than anything else is there so what's the"
+  },
+  {
+    "t_start": 2967.27,
+    "t_end": 2972.91,
+    "text": "is one of the most fundamental problem in biology and here is the problem I"
+  },
+  {
+    "t_start": 2972.91,
+    "t_end": 2976.91,
+    "text": "in biology and here is the problem I mean I'm sure you see the problem right"
+  },
+  {
+    "t_start": 2976.91,
+    "t_end": 2985.589,
+    "text": "on you know we all start or Mama start from the same kind of starting point a"
+  },
+  {
+    "t_start": 2985.589,
+    "t_end": 2988.27,
+    "text": "from the same kind of starting point a homogeneous fertilized egg something"
+  },
+  {
+    "t_start": 2988.27,
+    "t_end": 2989.91,
+    "text": "homogeneous fertilized egg something totally"
+  },
+  {
+    "t_start": 2989.91,
+    "t_end": 2997.43,
+    "text": "symmetric how did it get to be the Z I mean what how you know what explain the"
+  },
+  {
+    "t_start": 2997.43,
+    "t_end": 2999.23,
+    "text": "mean what how you know what explain the stripes so forget the stripes what"
+  },
+  {
+    "t_start": 2999.23,
+    "t_end": 3004.15,
+    "text": "explain the head the tail the legs the body Direction all these things change"
+  },
+  {
+    "t_start": 3004.15,
+    "t_end": 3005.95,
+    "text": "body Direction all these things change from this little"
+  },
+  {
+    "t_start": 3005.95,
+    "t_end": 3011.19,
+    "text": "ball and it didn't just change I mean all Z balls look alike right it changes"
+  },
+  {
+    "t_start": 3011.19,
+    "t_end": 3013.47,
+    "text": "all Z balls look alike right it changes in a predictable way there not just that"
+  },
+  {
+    "t_start": 3013.47,
+    "t_end": 3016.549,
+    "text": "in a predictable way there not just that asymmetry happens this may happen"
+  },
+  {
+    "t_start": 3016.549,
+    "t_end": 3021.47,
+    "text": "asymmetry happens this may happen randomly it's the same asymmetry"
+  },
+  {
+    "t_start": 3021.47,
+    "t_end": 3027.39,
+    "text": "persistent how does it happen so I don't know about you I mean I look at this"
+  },
+  {
+    "t_start": 3027.39,
+    "t_end": 3029.91,
+    "text": "know about you I mean I look at this kind of problem even though I read the"
+  },
+  {
+    "t_start": 3029.91,
+    "t_end": 3036.27,
+    "text": "paper I read this kind of problem I saw my hands up and I move to an easier one"
+  },
+  {
+    "t_start": 3036.27,
+    "t_end": 3039.309,
+    "text": "my hands up and I move to an easier one like P versus MP or"
+  },
+  {
+    "t_start": 3039.309,
+    "t_end": 3041.67,
+    "text": "like P versus MP or something yeah what do you do what do"
+  },
+  {
+    "t_start": 3041.67,
+    "t_end": 3046.99,
+    "text": "something yeah what do you do what do you do and it's amazing I mean like in"
+  },
+  {
+    "t_start": 3046.99,
+    "t_end": 3050.67,
+    "text": "the computability paper he put his finger on a really simple very very"
+  },
+  {
+    "t_start": 3050.67,
+    "t_end": 3054.99,
+    "text": "finger on a really simple very very simple elegant model explaining this and"
+  },
+  {
+    "t_start": 3054.99,
+    "t_end": 3060.349,
+    "text": "this is one of the you know use the main explanations we have for morphogenesis I"
+  },
+  {
+    "t_start": 3060.349,
+    "t_end": 3063.03,
+    "text": "explanations we have for morphogenesis I want tell you the"
+  },
+  {
+    "t_start": 3063.03,
+    "t_end": 3070.069,
+    "text": "mod so here the again he wres beautifully it say you know in section"
+  },
+  {
+    "t_start": 3070.069,
+    "t_end": 3072.589,
+    "text": "beautifully it say you know in section mathematical model of the growing embryo"
+  },
+  {
+    "t_start": 3072.589,
+    "t_end": 3078.069,
+    "text": "will be described so no less I'm going to describe the development of an embryo"
+  },
+  {
+    "t_start": 3078.069,
+    "t_end": 3079.069,
+    "text": "to describe the development of an embryo in the"
+  },
+  {
+    "t_start": 3079.069,
+    "t_end": 3085.19,
+    "text": "womb the model will be a simplification and idealization and consequently a"
+  },
+  {
+    "t_start": 3085.19,
+    "t_end": 3089.71,
+    "text": "falsification it is to be hoped that the features retained for discussion are"
+  },
+  {
+    "t_start": 3089.71,
+    "t_end": 3092.309,
+    "text": "features retained for discussion are those of greatest importance in the"
+  },
+  {
+    "t_start": 3092.309,
+    "t_end": 3097.109,
+    "text": "present state of knowledge okay so I don't know a better introduction of a"
+  },
+  {
+    "t_start": 3097.109,
+    "t_end": 3099.67,
+    "text": "don't know a better introduction of a student in The Sciences to what the"
+  },
+  {
+    "t_start": 3099.67,
+    "t_end": 3103.75,
+    "text": "student in The Sciences to what the scientific method is than this paragraph"
+  },
+  {
+    "t_start": 3103.75,
+    "t_end": 3106.15,
+    "text": "scientific method is than this paragraph anyway here is the"
+  },
+  {
+    "t_start": 3106.15,
+    "t_end": 3112.789,
+    "text": "embryo a ring of cells so he's suggesting a model call uh reaction"
+  },
+  {
+    "t_start": 3112.789,
+    "t_end": 3119.15,
+    "text": "diffusion model it's a chemical model uh and uh he simplifies the embryo to be a"
+  },
+  {
+    "t_start": 3119.15,
+    "t_end": 3120.43,
+    "text": "and uh he simplifies the embryo to be a ring of"
+  },
+  {
+    "t_start": 3120.43,
+    "t_end": 3125.91,
+    "text": "ring of s uh he does the studies both uh discret"
+  },
+  {
+    "t_start": 3125.91,
+    "t_end": 3128.51,
+    "text": "s uh he does the studies both uh discret and continuous one I should this is a"
+  },
+  {
+    "t_start": 3128.51,
+    "t_end": 3130.75,
+    "text": "and continuous one I should this is a mathematical paper the plenty of f"
+  },
+  {
+    "t_start": 3130.75,
+    "t_end": 3132.45,
+    "text": "mathematical paper the plenty of f analysis"
+  },
+  {
+    "t_start": 3132.45,
+    "t_end": 3133.71,
+    "text": "analysis [Music]"
+  },
+  {
+    "t_start": 3133.71,
+    "t_end": 3139.27,
+    "text": "and spherical harmonics but he write it both to a biological audience and a"
+  },
+  {
+    "t_start": 3139.27,
+    "t_end": 3145.99,
+    "text": "mathematical one and it takes a lot of patience in having simple examples uh in"
+  },
+  {
+    "t_start": 3145.99,
+    "t_end": 3148.309,
+    "text": "patience in having simple examples uh in order to demonstrate the general"
+  },
+  {
+    "t_start": 3148.309,
+    "t_end": 3155.71,
+    "text": "results uh what the model like the state of the system is the quantities of"
+  },
+  {
+    "t_start": 3155.71,
+    "t_end": 3161.91,
+    "text": "morphogens in this cell so morphogens is the chemicals so you have chemicals a b"
+  },
+  {
+    "t_start": 3161.91,
+    "t_end": 3167.109,
+    "text": "the chemicals so you have chemicals a b let's say you know how many there are in"
+  },
+  {
+    "t_start": 3167.109,
+    "t_end": 3173.069,
+    "text": "system uh and the model says that you alternate two parts two you know Europe"
+  },
+  {
+    "t_start": 3173.069,
+    "t_end": 3178.95,
+    "text": "alternate two parts two you know Europe is alternating two kind of things one is"
+  },
+  {
+    "t_start": 3178.95,
+    "t_end": 3181.309,
+    "text": "a chemical reaction between the chemicals in each cell"
+  },
+  {
+    "t_start": 3181.309,
+    "t_end": 3187.589,
+    "text": "independently and then diffusion between neighboring cells to get equilibrium of"
+  },
+  {
+    "t_start": 3187.589,
+    "t_end": 3190.109,
+    "text": "neighboring cells to get equilibrium of the quantities and they happen in some"
+  },
+  {
+    "t_start": 3190.109,
+    "t_end": 3192.39,
+    "text": "the quantities and they happen in some given rate that's the"
+  },
+  {
+    "t_start": 3192.39,
+    "t_end": 3198.39,
+    "text": "information and initially it's a completely symmetric situation okay they"
+  },
+  {
+    "t_start": 3198.39,
+    "t_end": 3205.309,
+    "text": "completely symmetric situation okay they each have the same quantity of a and of"
+  },
+  {
+    "t_start": 3205.309,
+    "t_end": 3212.19,
+    "text": "I said and the point is that you know they have the same quantities but we are"
+  },
+  {
+    "t_start": 3212.19,
+    "t_end": 3214.51,
+    "text": "they have the same quantities but we are in life you know you cannot have the"
+  },
+  {
+    "t_start": 3214.51,
+    "t_end": 3217.069,
+    "text": "in life you know you cannot have the same number of molecules exactly of A"
+  },
+  {
+    "t_start": 3217.069,
+    "t_end": 3223.39,
+    "text": "same number of molecules exactly of A and B this situation happens to be in"
+  },
+  {
+    "t_start": 3223.39,
+    "t_end": 3224.99,
+    "text": "some cases instable so it's it's an equilibrium but it's not a stable"
+  },
+  {
+    "t_start": 3224.99,
+    "t_end": 3228.99,
+    "text": "equilibrium but it's not a stable equilibrium tiny tiny changes will start"
+  },
+  {
+    "t_start": 3228.99,
+    "t_end": 3231.39,
+    "text": "equilibrium tiny tiny changes will start something happening and then he analyzes"
+  },
+  {
+    "t_start": 3231.39,
+    "t_end": 3237.03,
+    "text": "something happening and then he analyzes this mathematically and he shows how"
+  },
+  {
+    "t_start": 3237.03,
+    "t_end": 3240.63,
+    "text": "symmetry breaks and not just symmetry breaks but our structure emerges that"
+  },
+  {
+    "t_start": 3240.63,
+    "t_end": 3247.51,
+    "text": "particular form it can be you know periodic structure or you have a you"
+  },
+  {
+    "t_start": 3247.51,
+    "t_end": 3251.87,
+    "text": "periodic structure or you have a you know uh moving uh so he analyzes all"
+  },
+  {
+    "t_start": 3251.87,
+    "t_end": 3255.63,
+    "text": "know uh moving uh so he analyzes all possible uh structure that emerges in uh"
+  },
+  {
+    "t_start": 3255.63,
+    "t_end": 3261.549,
+    "text": "possible uh structure that emerges in uh some of these cases uh there are several"
+  },
+  {
+    "t_start": 3261.549,
+    "t_end": 3263.47,
+    "text": "things to stress but in particular it's clear that he was thinking about what we"
+  },
+  {
+    "t_start": 3263.47,
+    "t_end": 3266.069,
+    "text": "clear that he was thinking about what we are doing a lot with many other Sciences"
+  },
+  {
+    "t_start": 3266.069,
+    "t_end": 3266.91,
+    "text": "are doing a lot with many other Sciences today"
+  },
+  {
+    "t_start": 3266.91,
+    "t_end": 3272.069,
+    "text": "this is a computational model he stresses that the stage Next Step"
+  },
+  {
+    "t_start": 3272.069,
+    "t_end": 3274.95,
+    "text": "stresses that the stage Next Step follows deterministically from the"
+  },
+  {
+    "t_start": 3274.95,
+    "t_end": 3284.19,
+    "text": "computational model and then the last slide I have is that tell you what he uh"
+  },
+  {
+    "t_start": 3284.19,
+    "t_end": 3287.069,
+    "text": "slide I have is that tell you what he uh analyzes what he"
+  },
+  {
+    "t_start": 3287.069,
+    "t_end": 3294.99,
+    "text": "uh studed so first I want to say this is you know nothing less than a cellular"
+  },
+  {
+    "t_start": 3294.99,
+    "t_end": 3296.51,
+    "text": "you know nothing less than a cellular automat"
+  },
+  {
+    "t_start": 3296.51,
+    "t_end": 3302.87,
+    "text": "right the model that we believe was invented by for he already has it"
+  },
+  {
+    "t_start": 3302.87,
+    "t_end": 3306.829,
+    "text": "invented by for he already has it various forms of s automata the first"
+  },
+  {
+    "t_start": 3306.829,
+    "t_end": 3309.95,
+    "text": "various forms of s automata the first one so he studed the two dimensional"
+  },
+  {
+    "t_start": 3309.95,
+    "t_end": 3315.51,
+    "text": "one so he studed the two dimensional ring of cells as I told you he stud in"
+  },
+  {
+    "t_start": 3315.51,
+    "t_end": 3318.109,
+    "text": "order to explain what's called phot taxis like the placement of leaves"
+  },
+  {
+    "t_start": 3318.109,
+    "t_end": 3324.27,
+    "text": "around the stem or more what really intrigued him is this hylight sort of a"
+  },
+  {
+    "t_start": 3324.27,
+    "t_end": 3328.27,
+    "text": "intrigued him is this hylight sort of a SE creature that if you cut it in the"
+  },
+  {
+    "t_start": 3328.27,
+    "t_end": 3331.43,
+    "text": "SE creature that if you cut it in the stem then you you see a ring of cells he"
+  },
+  {
+    "t_start": 3331.43,
+    "t_end": 3333.27,
+    "text": "stem then you you see a ring of cells he said now"
+  },
+  {
+    "t_start": 3333.27,
+    "t_end": 3338.51,
+    "text": "these tentacles will grow but they will not grow out of every cell in the circle"
+  },
+  {
+    "t_start": 3338.51,
+    "t_end": 3340.43,
+    "text": "not grow out of every cell in the circle they grow out of some of them there'll"
+  },
+  {
+    "t_start": 3340.43,
+    "t_end": 3346.23,
+    "text": "be five or six why how does it happen even though it's all symmetric so this"
+  },
+  {
+    "t_start": 3346.23,
+    "t_end": 3349.349,
+    "text": "even though it's all symmetric so this this paper explains this he really goes"
+  },
+  {
+    "t_start": 3349.349,
+    "t_end": 3351.43,
+    "text": "this paper explains this he really goes for the embryo when threedimensional"
+  },
+  {
+    "t_start": 3351.43,
+    "t_end": 3357.43,
+    "text": "model he's trying to explain the you know people with kids who know it better"
+  },
+  {
+    "t_start": 3357.43,
+    "t_end": 3363.95,
+    "text": "than people without kids you may know that in the first uh two weeks the fetus"
+  },
+  {
+    "t_start": 3363.95,
+    "t_end": 3366.99,
+    "text": "that in the first uh two weeks the fetus is in a blastula stage where you know"
+  },
+  {
+    "t_start": 3366.99,
+    "t_end": 3369.19,
+    "text": "is in a blastula stage where you know the cell is dividing but still looks"
+  },
+  {
+    "t_start": 3369.19,
+    "t_end": 3375.069,
+    "text": "the cell is dividing but still looks like a ball of s and then in the third"
+  },
+  {
+    "t_start": 3375.069,
+    "t_end": 3377.47,
+    "text": "week you know something happen the direction is formed really the spine"
+  },
+  {
+    "t_start": 3377.47,
+    "t_end": 3381.75,
+    "text": "direction is formed really the spine form moves to the gastation to the Gast"
+  },
+  {
+    "t_start": 3381.75,
+    "t_end": 3387.43,
+    "text": "form moves to the gastation to the Gast phase and he does the analysis of the"
+  },
+  {
+    "t_start": 3387.43,
+    "t_end": 3394.51,
+    "text": "threedimensional case and he predicts and shows how gastation arises and he"
+  },
+  {
+    "t_start": 3394.51,
+    "t_end": 3403.39,
+    "text": "planer greed in order to understand dling you know the Pates of color and uh"
+  },
+  {
+    "t_start": 3403.39,
+    "t_end": 3405.47,
+    "text": "dling you know the Pates of color and uh here he doesn't mathematically analyze"
+  },
+  {
+    "t_start": 3405.47,
+    "t_end": 3411.789,
+    "text": "it but he actually just run simulations on the M Manchester machine he had every"
+  },
+  {
+    "t_start": 3411.789,
+    "t_end": 3413.789,
+    "text": "on the M Manchester machine he had every Sunday night and every Thursday night"
+  },
+  {
+    "t_start": 3413.789,
+    "t_end": 3419.309,
+    "text": "the computer was hit and he was working on night programming and simulating and"
+  },
+  {
+    "t_start": 3419.309,
+    "t_end": 3425.15,
+    "text": "on night programming and simulating and and doing also chess Ando but okay so uh"
+  },
+  {
+    "t_start": 3425.15,
+    "t_end": 3429.029,
+    "text": "and doing also chess Ando but okay so uh yeah as I mentioned you know we do uh uh"
+  },
+  {
+    "t_start": 3429.029,
+    "t_end": 3431.549,
+    "text": "yeah as I mentioned you know we do uh uh lot of following following in"
+  },
+  {
+    "t_start": 3431.549,
+    "t_end": 3438.029,
+    "text": "lot of following following in interaction with you know almost all"
+  },
+  {
+    "t_start": 3438.029,
+    "t_end": 3440.51,
+    "text": "Sciences so summarizing uh"
+  },
+  {
+    "t_start": 3440.51,
+    "t_end": 3446.829,
+    "text": "yeah it's it's just beautiful it's hard to describe so it's OB"
+  },
+  {
+    "t_start": 3446.829,
+    "t_end": 3453.75,
+    "text": "I say some obvious things what a a great thinker was and the impact he he managed"
+  },
+  {
+    "t_start": 3453.75,
+    "t_end": 3456.99,
+    "text": "thinker was and the impact he he managed to have uh you get a sense from"
+  },
+  {
+    "t_start": 3456.99,
+    "t_end": 3459.27,
+    "text": "to have uh you get a sense from different reading different things that"
+  },
+  {
+    "t_start": 3459.27,
+    "t_end": 3464.789,
+    "text": "different reading different things that he was at the same time clearly you saw"
+  },
+  {
+    "t_start": 3464.789,
+    "t_end": 3472.51,
+    "text": "most basically but he had a very strong philosophical band and was interested in"
+  },
+  {
+    "t_start": 3472.51,
+    "t_end": 3477.549,
+    "text": "philosophical band and was interested in the you know sort of higher level issues"
+  },
+  {
+    "t_start": 3477.549,
+    "t_end": 3479.99,
+    "text": "but you Al when you read his work on computers and on programming you"
+  },
+  {
+    "t_start": 3479.99,
+    "t_end": 3484.349,
+    "text": "understand what the Hecker was I mean he was interested in electromechanical"
+  },
+  {
+    "t_start": 3484.349,
+    "t_end": 3489.91,
+    "text": "was interested in electromechanical properties of all the devices that he"
+  },
+  {
+    "t_start": 3489.91,
+    "t_end": 3492.789,
+    "text": "was uh he needed for these early computers and he was an AV"
+  },
+  {
+    "t_start": 3492.789,
+    "t_end": 3496.069,
+    "text": "computers and he was an AV programmer uh very"
+  },
+  {
+    "t_start": 3496.069,
+    "t_end": 3501.75,
+    "text": "diverse uh he yeah as you saw he contemplated things he consider"
+  },
+  {
+    "t_start": 3501.75,
+    "t_end": 3503.75,
+    "text": "contemplated things he consider fundamental and"
+  },
+  {
+    "t_start": 3503.75,
+    "t_end": 3511.029,
+    "text": "uh he seemed to have been totally Fearless uh I told you when discussing"
+  },
+  {
+    "t_start": 3511.029,
+    "t_end": 3513.589,
+    "text": "Fearless uh I told you when discussing the war that he understood that the"
+  },
+  {
+    "t_start": 3513.589,
+    "t_end": 3516.67,
+    "text": "the war that he understood that the theoretical understanding is primary to"
+  },
+  {
+    "t_start": 3516.67,
+    "t_end": 3519.829,
+    "text": "theoretical understanding is primary to implementation you'll be much better off"
+  },
+  {
+    "t_start": 3519.829,
+    "t_end": 3522.19,
+    "text": "implementation you'll be much better off uh if you first have a"
+  },
+  {
+    "t_start": 3522.19,
+    "t_end": 3526.51,
+    "text": "uh if you first have a theory uh he was very critical very"
+  },
+  {
+    "t_start": 3526.51,
+    "t_end": 3531.39,
+    "text": "theory uh he was very critical very judgmental and he was brutally honest"
+  },
+  {
+    "t_start": 3531.39,
+    "t_end": 3533.47,
+    "text": "you see this in the artificial intelligence paper it's really"
+  },
+  {
+    "t_start": 3533.47,
+    "t_end": 3539.309,
+    "text": "interesting that I told you he responses to various objections about"
+  },
+  {
+    "t_start": 3539.309,
+    "t_end": 3542.75,
+    "text": "responses to various objections about intelligence of machines but he also"
+  },
+  {
+    "t_start": 3542.75,
+    "t_end": 3547.63,
+    "text": "intelligence of machines but he also evaluates his responses he says in this"
+  },
+  {
+    "t_start": 3547.63,
+    "t_end": 3551.43,
+    "text": "case let's say the theological objection my argument"
+  },
+  {
+    "t_start": 3551.43,
+    "t_end": 3558.67,
+    "text": "shatters there but on another issue another kind of objection I have this"
+  },
+  {
+    "t_start": 3558.67,
+    "t_end": 3561.71,
+    "text": "another kind of objection I have this response is not so strong i' better"
+  },
+  {
+    "t_start": 3561.71,
+    "t_end": 3565.51,
+    "text": "response is not so strong i' better improve it so he's critical on himself"
+  },
+  {
+    "t_start": 3565.51,
+    "t_end": 3568.069,
+    "text": "improve it so he's critical on himself yeah he's his Clarity of thinking is"
+  },
+  {
+    "t_start": 3568.069,
+    "t_end": 3574.309,
+    "text": "yeah he's his Clarity of thinking is just amazing and also the clarity of his"
+  },
+  {
+    "t_start": 3574.309,
+    "t_end": 3580.91,
+    "text": "this think Einstein said that models should be as simple as possible but not"
+  },
+  {
+    "t_start": 3580.91,
+    "t_end": 3583.91,
+    "text": "should be as simple as possible but not simpler and I think yeah his mother"
+  },
+  {
+    "t_start": 3583.91,
+    "t_end": 3587.309,
+    "text": "simpler and I think yeah his mother suddenly fit the bit"
+  },
+  {
+    "t_start": 3587.309,
+    "t_end": 3592.99,
+    "text": "and he wrot very few papers and he WR them only after he was completely you"
+  },
+  {
+    "t_start": 3592.99,
+    "t_end": 3596.069,
+    "text": "them only after he was completely you know he exhausted what he know okay"
+  },
+  {
+    "t_start": 3596.069,
+    "t_end": 3600.15,
+    "text": "know he exhausted what he know okay that's my favorite last slide"
+  },
+  {
+    "t_start": 3600.15,
+    "t_end": 3602.829,
+    "text": "that's my favorite last slide anybody want want to read not about"
+  },
+  {
+    "t_start": 3602.829,
+    "t_end": 3606.069,
+    "text": "anybody want want to read not about paper touring but about complexity"
+  },
+  {
+    "t_start": 3606.069,
+    "t_end": 3612.51,
+    "text": "Theory and doesn't know I I heard the conversation here the before the talk of"
+  },
+  {
+    "t_start": 3612.51,
+    "t_end": 3614.99,
+    "text": "conversation here the before the talk of someone coming from a very different"
+  },
+  {
+    "t_start": 3614.99,
+    "t_end": 3617.15,
+    "text": "someone coming from a very different area maybe literature anyway that's an"
+  },
+  {
+    "t_start": 3617.15,
+    "t_end": 3627.069,
+    "text": "area maybe literature anyway that's an invitation to my feet thank you"
+  },
+  {
+    "t_start": 3628.309,
+    "t_end": 3630.549,
+    "text": "thanks Sai for the inspiring distillation of tuning's Legacy have"
+  },
+  {
+    "t_start": 3630.549,
+    "t_end": 3635.95,
+    "text": "distillation of tuning's Legacy have time for a couple of questions I know"
+  },
+  {
+    "t_start": 3635.95,
+    "t_end": 3641.349,
+    "text": "people next next yeah let them leave and"
+  },
+  {
+    "t_start": 3644.109,
+    "t_end": 3646.549,
+    "text": "then in your reading of curing did you encounter any non interaction with"
+  },
+  {
+    "t_start": 3646.549,
+    "t_end": 3652.43,
+    "text": "encounter any non interaction with quantum mechanics"
+  },
+  {
+    "t_start": 3656.19,
+    "t_end": 3661.47,
+    "text": "sorry sorry um thank you so much for the awesome talk uh when you were talking"
+  },
+  {
+    "t_start": 3661.47,
+    "t_end": 3663.75,
+    "text": "awesome talk uh when you were talking about like the the use of the imitation"
+  },
+  {
+    "t_start": 3663.75,
+    "t_end": 3668.99,
+    "text": "about like the the use of the imitation game in some of theph groups you note"
+  },
+  {
+    "t_start": 3672.829,
+    "t_end": 3675.109,
+    "text": "that sorry sorry the definition um we talk about how the the definitions make"
+  },
+  {
+    "t_start": 3675.109,
+    "t_end": 3677.549,
+    "text": "talk about how the the definitions make sure that only like a non-determined"
+  },
+  {
+    "t_start": 3677.549,
+    "t_end": 3686.71,
+    "text": "sure that only like a non-determined procedure would be able to satisfy them"
+  },
+  {
+    "t_start": 3712.47,
+    "t_end": 3714.95,
+    "text": "just and you think the the case of the original Imitation G again there's no"
+  },
+  {
+    "t_start": 3714.95,
+    "t_end": 3717.309,
+    "text": "original Imitation G again there's no nothing about"
+  },
+  {
+    "t_start": 3717.309,
+    "t_end": 3732.51,
+    "text": "nothing about DET no"
+  },
+  {
+    "t_start": 3735.349,
+    "t_end": 3744.51,
+    "text": "also and we also know the end of the story The Last"
+  },
+  {
+    "t_start": 3746.43,
+    "t_end": 3752.069,
+    "text": "CP anyway was important to me"
+  },
+  {
+    "t_start": 3776.95,
+    "t_end": 3779.99,
+    "text": "for okay um so when to wrote his paper about Randomness and computation did he"
+  },
+  {
+    "t_start": 3779.99,
+    "t_end": 3782.349,
+    "text": "about Randomness and computation did he refer back to his non-deterministic"
+  },
+  {
+    "t_start": 3782.349,
+    "t_end": 3784.95,
+    "text": "refer back to his non-deterministic machines because that seems obvious but"
+  },
+  {
+    "t_start": 3784.95,
+    "t_end": 3789.589,
+    "text": "there would be an obvious connection to put Randomness at the non-deterministic"
+  },
+  {
+    "t_start": 3789.589,
+    "t_end": 3825.029,
+    "text": "put Randomness at the non-deterministic points absolutely"
+  },
+  {
+    "t_start": 3831.549,
+    "t_end": 3833.23,
+    "text": "question thanks for the talk you mentioned that in"
+  },
+  {
+    "t_start": 3833.23,
+    "t_end": 3840.43,
+    "text": "1930s um G toring and church um each came up with their own version of model"
+  },
+  {
+    "t_start": 3840.43,
+    "t_end": 3843.789,
+    "text": "came up with their own version of model of computation so why did gero and"
+  },
+  {
+    "t_start": 3843.789,
+    "t_end": 3847.029,
+    "text": "of computation so why did gero and church think that tyan model is more"
+  },
+  {
+    "t_start": 3847.029,
+    "t_end": 3894.19,
+    "text": "church think that tyan model is more like is better"
+  },
+  {
+    "t_start": 3897.349,
+    "t_end": 3902.15,
+    "text": "I don't have it in front of me so I can't quote it exactly but he says where"
+  },
+  {
+    "t_start": 3902.15,
+    "t_end": 3903.87,
+    "text": "can't quote it exactly but he says where he's developing the turing machine in"
+  },
+  {
+    "t_start": 3903.87,
+    "t_end": 3909.95,
+    "text": "he's developing the turing machine in that paper he says the very first"
+  },
+  {
+    "t_start": 3909.95,
+    "t_end": 3911.51,
+    "text": "sentence um he's very interested in computable real"
+  },
+  {
+    "t_start": 3911.51,
+    "t_end": 3916.99,
+    "text": "numbers um and that's the motivation for what he's doing but he's not going to"
+  },
+  {
+    "t_start": 3916.99,
+    "t_end": 3919.549,
+    "text": "what he's doing but he's not going to talk about it in this paper he'll do it"
+  },
+  {
+    "t_start": 3919.549,
+    "t_end": 3922.829,
+    "text": "talk about it in this paper he'll do it other times now his definition at the"
+  },
+  {
+    "t_start": 3922.829,
+    "t_end": 3925.109,
+    "text": "other times now his definition at the beginning is one that other people"
+  },
+  {
+    "t_start": 3925.109,
+    "t_end": 3931.349,
+    "text": "picked up later people like Marian pel called uh computable uh real analysis I"
+  },
+  {
+    "t_start": 3931.349,
+    "t_end": 3933.99,
+    "text": "called uh computable uh real analysis I think it's recursive analysis where they"
+  },
+  {
+    "t_start": 3933.99,
+    "t_end": 3937.029,
+    "text": "think it's recursive analysis where they talk about real real computation over"
+  },
+  {
+    "t_start": 3937.029,
+    "t_end": 3938.87,
+    "text": "talk about real real computation over this numbers that you can actually"
+  },
+  {
+    "t_start": 3938.87,
+    "t_end": 3944.589,
+    "text": "generate let's say with Oracle um and he never ever talks about it ever again the"
+  },
+  {
+    "t_start": 3944.589,
+    "t_end": 3946.51,
+    "text": "never ever talks about it ever again the only time he talks about real"
+  },
+  {
+    "t_start": 3946.51,
+    "t_end": 3948.71,
+    "text": "only time he talks about real computation is a paper that you didn't"
+  },
+  {
+    "t_start": 3948.71,
+    "t_end": 3954.91,
+    "text": "talk about it's his 48 paper where he talks you call numeric analysis where he"
+  },
+  {
+    "t_start": 3954.91,
+    "t_end": 3956.99,
+    "text": "talks you call numeric analysis where he actually does talk about Computing over"
+  },
+  {
+    "t_start": 3956.99,
+    "t_end": 3959.67,
+    "text": "actually does talk about Computing over the real numbers and he doesn't he"
+  },
+  {
+    "t_start": 3959.67,
+    "t_end": 3961.87,
+    "text": "the real numbers and he doesn't he explicitly does not talk about his"
+  },
+  {
+    "t_start": 3961.87,
+    "t_end": 3963.829,
+    "text": "explicitly does not talk about his original paper he talks about let's"
+  },
+  {
+    "t_start": 3963.829,
+    "t_end": 3966.349,
+    "text": "original paper he talks about let's assume we have a real number a and a"
+  },
+  {
+    "t_start": 3966.349,
+    "t_end": 3972.589,
+    "text": "together let's assume we have an A and A B and we can multiply them together"
+  },
+  {
+    "t_start": 3972.589,
+    "t_end": 3975.39,
+    "text": "B and we can multiply them together let's look at matrices and actually so"
+  },
+  {
+    "t_start": 3975.39,
+    "t_end": 3977.43,
+    "text": "let's look at matrices and actually so when he comes back to real computation"
+  },
+  {
+    "t_start": 3977.43,
+    "t_end": 3980.67,
+    "text": "when he comes back to real computation he totally discards his initial sentence"
+  },
+  {
+    "t_start": 3980.67,
+    "t_end": 4012.63,
+    "text": "he totally discards his initial sentence in that that most important paper"
+  },
+  {
+    "t_start": 4057.87,
+    "t_end": 4061.19,
+    "text": "and his notion of condition there is exactly the correct notion to convert a"
+  },
+  {
+    "t_start": 4061.19,
+    "t_end": 4063.829,
+    "text": "exactly the correct notion to convert a real computation to discrete"
+  },
+  {
+    "t_start": 4063.829,
+    "t_end": 4070.589,
+    "text": "computation and that's a jender that is in fact the importance of that paper"
+  },
+  {
+    "t_start": 4070.589,
+    "t_end": 4076.549,
+    "text": "in fact the importance of that paper we'll talk about it"
+  },
+  {
+    "t_start": 4080.029,
+    "t_end": 4083.99,
+    "text": "all right so um okay maybe one more question and"
+  },
+  {
+    "t_start": 4086.829,
+    "t_end": 4089.109,
+    "text": "then uh maybe this is a little bit of a speculative question but if if Turing"
+  },
+  {
+    "t_start": 4089.109,
+    "t_end": 4093.47,
+    "text": "speculative question but if if Turing had had another 10 or 30 years of of"
+  },
+  {
+    "t_start": 4093.47,
+    "t_end": 4098.95,
+    "text": "mathematical life what what directions might he have been pursued or maybe in"
+  },
+  {
+    "t_start": 4098.95,
+    "t_end": 4100.789,
+    "text": "might he have been pursued or maybe in then the very very concrete version of"
+  },
+  {
+    "t_start": 4100.789,
+    "t_end": 4107.669,
+    "text": "then the very very concrete version of that is did he have students"
+  },
+  {
+    "t_start": 4198.27,
+    "t_end": 4204.229,
+    "text": "I ask two questions about so first one is you mention"
+  },
+  {
+    "t_start": 4206.55,
+    "t_end": 4209.229,
+    "text": "that atast the question San"
+  },
+  {
+    "t_start": 4209.229,
+    "t_end": 4214.669,
+    "text": "Francisco yeah I think it's CED it's recorded because"
+  },
+  {
+    "t_start": 4214.669,
+    "t_end": 4217.35,
+    "text": "CED it's recorded because I it"
+  },
+  {
+    "t_start": 4217.35,
+    "t_end": 4223.75,
+    "text": "depends better the second time I enjoy yeah you heard it you heard it the first"
+  },
+  {
+    "t_start": 4223.75,
+    "t_end": 4228.709,
+    "text": "yeah you heard it you heard it the first first time I think the first time yeah"
+  },
+  {
+    "t_start": 4228.709,
+    "t_end": 4231.03,
+    "text": "yeah before I gave it to a Jun"
+  },
+  {
+    "t_start": 4231.03,
+    "t_end": 4237.51,
+    "text": "yeah back I will walk with them yeah I walk with how long are you around uh we"
+  },
+  {
+    "t_start": 4237.51,
+    "t_end": 4245.55,
+    "text": "walk with how long are you around uh we are here till Friday okay do you want to"
+  },
+  {
+    "t_start": 4245.55,
+    "t_end": 4249.75,
+    "text": "meet we have some send me email okay I'll send you email okay I have to go"
+  },
+  {
+    "t_start": 4249.75,
+    "t_end": 4256.83,
+    "text": "yeah yeah good to see you yeah I was wondering if I see you now you're here"
+  },
+  {
+    "t_start": 4256.83,
+    "t_end": 4262.95,
+    "text": "okay so the first question is for T Test those kind of"
+  },
+  {
+    "t_start": 4262.95,
+    "t_end": 4269.07,
+    "text": "security yeah so like does that mean like if we if people do Safety Research"
+  },
+  {
+    "t_start": 4269.07,
+    "t_end": 4270.83,
+    "text": "like if we if people do Safety Research they usually need to evaluate their"
+  },
+  {
+    "t_start": 4270.83,
+    "t_end": 4272.55,
+    "text": "they usually need to evaluate their approach against some efficient"
+  },
+  {
+    "t_start": 4272.55,
+    "t_end": 4278.95,
+    "text": "algorithm or some no it's just a definition it's just a definition and"
+  },
+  {
+    "t_start": 4278.95,
+    "t_end": 4283.43,
+    "text": "definition it's just a definition and now you people design encryption schemes"
+  },
+  {
+    "t_start": 4283.43,
+    "t_end": 4290.91,
+    "text": "now you people design encryption schemes and you want to test them this"
+  },
+  {
+    "t_start": 4290.91,
+    "t_end": 4292.87,
+    "text": "definition so as you probably know most encryption schemes are based on some"
+  },
+  {
+    "t_start": 4292.87,
+    "t_end": 4295.229,
+    "text": "encryption schemes are based on some mathematical assumptions like that"
+  },
+  {
+    "t_start": 4295.229,
+    "t_end": 4300.709,
+    "text": "factor integers is difficult so what you need to prove that meet the definition"
+  },
+  {
+    "t_start": 4300.709,
+    "t_end": 4302.83,
+    "text": "need to prove that meet the definition you say if there was some efficient"
+  },
+  {
+    "t_start": 4302.83,
+    "t_end": 4305.149,
+    "text": "you say if there was some efficient procedure distinguishing two"
+  },
+  {
+    "t_start": 4305.149,
+    "t_end": 4311.87,
+    "text": "messages then you could break Factor all so we don't really have a attack model"
+  },
+  {
+    "t_start": 4311.87,
+    "t_end": 4313.99,
+    "text": "so we don't really have a attack model no no no it's just a reduction the"
+  },
+  {
+    "t_start": 4313.99,
+    "t_end": 4316.43,
+    "text": "no no no it's just a reduction the definition allows you to to perform"
+  },
+  {
+    "t_start": 4316.43,
+    "t_end": 4322.59,
+    "text": "definition allows you to to perform reduction to say I I if if it violated"
+  },
+  {
+    "t_start": 4322.59,
+    "t_end": 4325.35,
+    "text": "the definition it will violate an assumption that's very clean and easy to"
+  },
+  {
+    "t_start": 4325.35,
+    "t_end": 4334.39,
+    "text": "understand that's how it work and the other thing is like how do we know the p"
+  },
+  {
+    "t_start": 4334.39,
+    "t_end": 4342.75,
+    "text": "peopleim yes this is theu they say there's a non difference"
+  },
+  {
+    "t_start": 4342.75,
+    "t_end": 4348.709,
+    "text": "And1 how how like for example they use one way they get one no no they don't"
+  },
+  {
+    "t_start": 4348.709,
+    "t_end": 4352.43,
+    "text": "one way they get one no no they don't use they just say hypothetically suppose"
+  },
+  {
+    "t_start": 4352.43,
+    "t_end": 4355.75,
+    "text": "use they just say hypothetically suppose my crypto system could be broken broken"
+  },
+  {
+    "t_start": 4355.75,
+    "t_end": 4360.55,
+    "text": "my crypto system could be broken broken means the definition could be broken"
+  },
+  {
+    "t_start": 4360.55,
+    "t_end": 4362.629,
+    "text": "namely I have an algorithm of this efficient that"
+  },
+  {
+    "t_start": 4362.629,
+    "t_end": 4372.31,
+    "text": "can say whether it's m M1 is Advantage with a gap of let's say one of okay okay"
+  },
+  {
+    "t_start": 4372.31,
+    "t_end": 4375.51,
+    "text": "with a gap of let's say one of okay okay the this will be a violation"
+  },
+  {
+    "t_start": 4375.51,
+    "t_end": 4380.709,
+    "text": "and then they prove that if there was such a hypothetical argum algorithm they"
+  },
+  {
+    "t_start": 4380.709,
+    "t_end": 4385.709,
+    "text": "could use it in a clever way and suddenly they get the factor algorithm I"
+  },
+  {
+    "t_start": 4385.709,
+    "t_end": 4387.07,
+    "text": "suddenly they get the factor algorithm I see so they prove they need to prove"
+  },
+  {
+    "t_start": 4387.07,
+    "t_end": 4391.96,
+    "text": "see so they prove they need to prove there is a gap first no they need to"
+  }
+]

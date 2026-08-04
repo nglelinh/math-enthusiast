@@ -1,0 +1,128 @@
+# Research outline — Chapter 1: Great Problems (deep-dive pass 2)
+# Research skill workflow adapted for course content (no interactive confirmation)
+topic: "Great Problems in Mathematics — Chapter 1 short topic lessons"
+date: "2026-08-03"
+time_range: "status as of 2026; classic results unlimited"
+target_length: "1500–2500 body words EN and VI (Ch.2 deep flagship band)"
+exclude:
+  - "01_00 Overview (narrative short)"
+  - "01_02 Riemann (flagship done)"
+  - "01_08 Kakeya (flagship done)"
+
+items:
+  - id: PNP
+    file_en: contents/en/chapter01/_posts/21-01-01-01_03_P_vs_NP.md
+    file_vi: contents/vi/chapter01/_posts/21-01-01-01_03_P_vs_NP.md
+    name: P vs NP
+    status: open
+    millenium: true
+    content_status: done_deep
+    hooks:
+      - verification vs search
+      - NP-complete zoo
+      - cryptography / ML side notes
+      - LO6: practical heuristics ≠ P=NP
+  - id: BSD
+    file_en: contents/en/chapter01/_posts/21-01-01-01_04_Birch_Swinnerton_Dyer.md
+    file_vi: contents/vi/chapter01/_posts/21-01-01-01_04_Birch_Swinnerton_Dyer.md
+    name: Birch–Swinnerton-Dyer conjecture
+    status: open
+    millenium: true
+    content_status: done_deep
+    hooks:
+      - elliptic curves Mordell–Weil rank
+      - L(E,s) at s=1
+      - modularity Wiles
+      - Gross–Zagier Kolyvagin Coates–Wiles
+      - ECC link without overclaim
+  - id: NS
+    file_en: contents/en/chapter01/_posts/21-01-01-01_05_Navier_Stokes.md
+    file_vi: contents/vi/chapter01/_posts/21-01-01-01_05_Navier_Stokes.md
+    name: Navier–Stokes existence and smoothness
+    status: open
+    millenium: true
+    content_status: done_deep
+    hooks:
+      - incompressible NS
+      - Leray weak solutions
+      - partial regularity CKN
+      - engineering CFD vs Millennium
+      - Deng kinetic / Hilbert 6 bridge
+  - id: TWIN
+    file_en: contents/en/chapter01/_posts/21-01-01-01_06_Twin_Prime_Conjecture.md
+    file_vi: contents/vi/chapter01/_posts/21-01-01-01_06_Twin_Prime_Conjecture.md
+    name: Twin prime conjecture
+    status: open
+    partial: "bounded gaps; liminf p_{n+1}-p_n ≤ 246 (Maynard–Polymath narrative)"
+    content_status: done_deep
+    hooks:
+      - Hardy–Littlewood conjecture
+      - Zhang 2013 Maynard sieves
+      - parity barrier slogan
+      - RH fine-scale contrast
+  - id: COLLATZ
+    file_en: contents/en/chapter01/_posts/21-01-01-01_07_Collatz_Conjecture.md
+    file_vi: contents/vi/chapter01/_posts/21-01-01-01_07_Collatz_Conjecture.md
+    name: Collatz / 3x+1
+    status: open
+    partial: "verified to enormous ranges; no general proof"
+    content_status: done_deep
+    hooks:
+      - map T stopping times
+      - heuristics density
+      - verification vs proof
+      - A5 / Ch.7 exploration link
+  - id: FOUR
+    file_en: contents/en/chapter01/_posts/21-01-01-01_09_Four_Color_Theorem.md
+    file_vi: contents/vi/chapter01/_posts/21-01-01-01_09_Four_Color_Theorem.md
+    name: Four color theorem
+    status: solved
+    partial: "Appel–Haken 1976; RSST; computer-assisted proof culture"
+    content_status: done_deep
+    hooks:
+      - dual graphs five color
+      - discharging reducibility
+      - proof philosophy
+      - Heawood higher genus
+      - Ch.7 studio link
+
+verification_2026_08_03:
+  all_topic_lessons_ge_1500: true
+  note: "Overview remains short narrative; RH and Kakeya already flagship-length"
+
+structure_standard:
+  - hook
+  - learning_objectives
+  - prerequisites_seminar_links
+  - substantive_sections_with_math
+  - confusions
+  - exercises
+  - references
+  - further_directions
+  - no_problem_key_idea_scaffold
+
+fields:
+  - statement_precise
+  - history_motivation
+  - surrounding_definitions
+  - why_hard_or_method
+  - partial_results_or_proof_status
+  - confusions_undergrad
+  - exercises_seminar
+  - references_primary
+  - cross_links_course
+
+execution:
+  batch_size: 3
+  languages: [en, vi]
+  mathjax: "$$ only"
+  lesson_style: "undergrad seminar, curiosity-first, 1500–2500 words"
+
+sources:
+  - https://www.claymath.org/millennium-problems/
+  - https://www.claymath.org/millennium/birch-and-swinnerton-dyer-conjecture/
+  - https://www.claymath.org/millennium/navier-stokes-equation/
+  - https://www.claymath.org/millennium/p-vs-np/
+  - Lagarias surveys on Collatz
+  - Maynard / Zhang / Polymath on bounded gaps
+  - Appel–Haken; Robertson–Sanders–Seymour–Thomas on 4CT

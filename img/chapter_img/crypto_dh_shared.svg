@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260">
+  <rect width="720" height="260" fill="#fafbfc"/>
+  <text x="360" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1a1a">Diffie–Hellman shared secret (idea)</text>
+  <text x="120" y="90" text-anchor="middle" font-family="system-ui" font-size="14" fill="#004586" font-weight="600">Alice</text>
+  <text x="600" y="90" text-anchor="middle" font-family="system-ui" font-size="14" fill="#0a6b4a" font-weight="600">Bob</text>
+  <text x="120" y="130" text-anchor="middle" font-family="system-ui" font-size="12" fill="#333">secret a</text>
+  <text x="600" y="130" text-anchor="middle" font-family="system-ui" font-size="12" fill="#333">secret b</text>
+  <text x="120" y="160" text-anchor="middle" font-family="system-ui" font-size="12" fill="#333">sends gᵃ</text>
+  <text x="600" y="160" text-anchor="middle" font-family="system-ui" font-size="12" fill="#333">sends gᵇ</text>
+  <path d="M180 155 L540 155" stroke="#888" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M540 175 L180 175" stroke="#888" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="360" y="210" text-anchor="middle" font-family="system-ui" font-size="13" fill="#c73e1d">Both compute gᵃᵇ — eavesdropper sees gᵃ, gᵇ, not a or b</text>
+  <text x="360" y="240" text-anchor="middle" font-family="system-ui" font-size="12" fill="#666">Discrete log hardness in a carefully chosen group (finite field or elliptic curve).</text>
+</svg>

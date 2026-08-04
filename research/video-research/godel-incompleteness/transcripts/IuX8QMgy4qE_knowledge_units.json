@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ku_video_IuX8QMgy4qE_3",
+    "t_start": 3.3,
+    "t_end": 94.0,
+    "type": "overview",
+    "summary": "Yeah, I thought uh I'd talk about uh Gur and uh his famous theorem, Gle's and uh his famous theorem, Gle's incompleteness theorem because it's something I I cover in my logic course at the very end and I think it's I mean at the very end and I think it's I mean it's quite fascinating and although I it's quite fascinating and although I think there are lots of people who who think there are lots of people who who think this is philosophically very I think this is philosophically very I mean have some conclusion whether God exists or stuff like this which I don't think is has anything to do u…"
+  },
+  {
+    "id": "ku_video_IuX8QMgy4qE_93",
+    "t_start": 94.0,
+    "t_end": 187.3,
+    "type": "overview",
+    "summary": "can prove the negation of P2 and here I use just the fact that if N is 1 then 1 use just the fact that if N is 1 then 1 + 1 = 1 is two and that's uh no that even lean knows that this is not true. &gt;&gt; Okay. &gt;&gt; Okay. So here's my question. Is it true can I for any proposition P can I prove can I for any proposition P can I prove either P or not P? And that's a question which G or actually Hibbert already asked. So if I have a proposition P asked. So if I have a proposition P is my proof system good enough or is my proof system good enough or complete in in the sense that for any co…"
+  },
+  {
+    "id": "ku_video_IuX8QMgy4qE_187",
+    "t_start": 187.3,
+    "t_end": 278.3,
+    "type": "overview",
+    "summary": "solve on a on a touring machine in deterministic polomial time. Yeah. So deterministic polomial time. Yeah. So which is feasible. And then there is a a class NP which is the the set of problems which we can solve on a problems which we can solve on a nondeterministic touring machine in nondeterministic touring machine in polomial time. And yeah uh the problems easy problems u like yeah astonishingly this is recent result that the primes this is recent result that the primes are NP whereas NP are problems like uh I are NP whereas NP are problems like uh I give you a a formula in propositiona…"
+  },
+  {
+    "id": "ku_video_IuX8QMgy4qE_278",
+    "t_start": 278.3,
+    "t_end": 371.4,
+    "type": "overview",
+    "summary": "are too stupid, right? We &gt;&gt; Well, we'll check GPT and see what comes out. &gt;&gt; That's a good always a good approach. Yeah, we should try this. Yeah, Yeah, we should try this. Yeah, &gt;&gt; I'm going to &gt;&gt; since we don't know, it could be that our proof system is not strong enough. our proof system is not strong enough. And this was something already observed And this was something already observed by Hbert, David Hbert, famous guy. But here he plays the role bit of the not so clever guy because he said, the not so clever guy because he said, \"Yeah, I mean if we have a logi…"
+  },
+  {
+    "id": "ku_video_IuX8QMgy4qE_371",
+    "t_start": 371.4,
+    "t_end": 464.6,
+    "type": "overview",
+    "summary": "you see this symbol here this turn style right it's called turn style because it looking at this G is such a proposition and we want that we're not able to prove and we want that we're not able to prove G and we also not able to prove not G. And so so what Gur was able to do he said in the theory of arithmetic and the said in the theory of arithmetic and the theory about natural numbers with some theory about natural numbers with some basic operations like addition and multiplication and some basic exums we can always find such a statement and can always find such a statement and even bette…"
+  },
+  {
+    "id": "ku_video_IuX8QMgy4qE_464",
+    "t_start": 464.6,
+    "t_end": 556.1,
+    "type": "overview",
+    "summary": "this but I'm claiming it's sort of obvious for any computer scientist obvious for any computer scientist because you can represent proposition as because you can represent proposition as some bytes in computer memory and some some bytes in computer memory and some byes are just a natural number just a byes are just a natural number just a number maybe a very big number but it's just a and we can also define when something is provable so let me let me let me say this let me just pretend I can do this I say I have a predicate or can do this I say I have a predicate or set of natural number wh…"
+  },
+  {
+    "id": "ku_video_IuX8QMgy4qE_556",
+    "t_start": 556.1,
+    "t_end": 646.9,
+    "type": "overview",
+    "summary": "logical system of arithmetic within arithmetic. No big deal. It's it's arithmetic. No big deal. It's it's hacky. Yeah. Like hell because you have hacky. Yeah. Like hell because you have to do lots of encoding, lots of to do lots of encoding, lots of twiddling, but it's it's not impossible. twiddling, but it's it's not impossible. It's I I don't want to write it down. I mean I can't because it would take long time. Okay. Now let me let me go a time. Okay. Now let me let me go a little bit further and let's say uh we little bit further and let's say uh we really want to think about predicates…"
+  },
+  {
+    "id": "ku_video_IuX8QMgy4qE_646",
+    "t_start": 646.9,
+    "t_end": 739.7,
+    "type": "overview",
+    "summary": "uh the spare qn is in my proof predicate. So it's a bit of a refinement of the first that I can do this not just for propositions but also for predicates for propositions but also for predicates which are proposition depending on some which are proposition depending on some values right and now if I can do this I can define something weird and this is a set of something weird and this is a set of natural numbers I define in lean and natural numbers I define in lean and this is the set of of quotes such that this is the set of of quotes such that you cannot prove that that n comma n is you c…"
+  },
+  {
+    "id": "ku_video_IuX8QMgy4qE_739",
+    "t_start": 739.7,
+    "t_end": 837.4,
+    "type": "overview",
+    "summary": "uncountable sets is bigger than the set of countable. So they're infinitely of countable. So they're infinitely infinitities is the same idea. Okay. So so now if I have the set V then something I can define a girdle sentence something I can define a girdle sentence and the girdle sentence is just so if I the question is is Viet an element of Viet? So is a code of viet an element of Viet? So is a code of viet an element of the set v. Now by the definition of v the set v. Now by the definition of v this is the case if v code of v is not this is the case if v code of v is not in proof two. And…"
+  },
+  {
+    "id": "ku_video_IuX8QMgy4qE_837",
+    "t_start": 837.4,
+    "t_end": 928.5,
+    "type": "overview",
+    "summary": "prove G if and only I I can prove not G. Yeah. So G is a is is a statement that V Yeah. So G is a is is a statement that V is provable for its own code. That is is provable for its own code. That is provable if and only if the negation is provable. Now that means if I could prove G then I can prove not G and then prove G then I can prove not G and then I can prove false. It means my system is and if I can prove not G I can prove G and also means my system is inconsistent. So this sentence G is such a sentence where you cannot prove it and a sentence where you cannot prove it and you cannot …"
+  },
+  {
+    "id": "ku_video_IuX8QMgy4qE_928",
+    "t_start": 928.5,
+    "t_end": 1022.2,
+    "type": "overview",
+    "summary": "proving in the system itself that the system is consistent and that's not possible. So that's is the second incompleteness theorem and it the second incompleteness theorem and it how to prove it is by taking the first encode the proof of the first one inside arithmetic. So it's getting I mean it's arithmetic. So it's getting I mean it's not technically complicated but you not technically complicated but you start to lose track on the levels you know I'm talking about the system talking about itself. talking about itself. &gt;&gt; Yeah it's I'm getting inception vibes. &gt;&gt; getting what …"
+  },
+  {
+    "id": "ku_video_IuX8QMgy4qE_1022",
+    "t_start": 1022.2,
+    "t_end": 1117.8,
+    "type": "overview",
+    "summary": "theorem all you need is addition and multiplication which is quite clever multiplication which is quite clever hack. Yeah. Um but if you leave multiplication out then it's complete. Yeah. But then you then it's complete. Yeah. But then you cannot do as much in particular in this cannot do as much in particular in this system uh is called presber arithmetic system uh is called presber arithmetic it cannot talk about itself because obviously if it could talk about itself it would be incomplete. Yeah. But it's it would be incomplete. Yeah. But it's useful for for some things system which are c…"
+  },
+  {
+    "id": "ku_video_IuX8QMgy4qE_1122",
+    "t_start": 1122.2,
+    "t_end": 1135.8,
+    "type": "overview",
+    "summary": "it is. on that sphere. If Sha and I start walking due north and we keep our start walking due north and we keep our angles with the equator rigidly the same angles with the equator rigidly the same as each other, then the innate curvature"
+  }
+]

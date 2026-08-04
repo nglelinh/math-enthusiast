@@ -1,0 +1,310 @@
+[
+  {
+    "id": "ku_video_01IdfSRYawE_3",
+    "t_start": 3.8,
+    "t_end": 94.9,
+    "type": "overview",
+    "summary": "Professor firstenberg we first want to congratulate you for being awarded the congratulate you for being awarded the Opel prize in mathematics for 2020 a prize you share with gregori margulis you received the prize because margulis you received the prize because and here we cite the abble committee for pioneering the use of methods from probability and Dynamics in group Theory probability and Dynamics in group Theory number Theory and combinatorics can you tell tell us when you first got enamored with mathematics you first got enamored with mathematics and when you dis discovered that you h…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_94",
+    "t_start": 94.9,
+    "t_end": 186.5,
+    "type": "overview",
+    "summary": "was and she always kept me ahead when I was we were learning class was learning was we were learning class was learning addition I learned multiplication we're addition I learned multiplication we're learning fractions and I learned algebra and so I was always a little bit ahead and of course you uh you feel good about and of course you uh you feel good about things that you're that you're a little bit better than a lot of the people or most of the um when I was in high school I really enjoyed um ukian geometry that we enjoyed um ukian geometry that we learned that was taught in high school…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_186",
+    "t_start": 186.5,
+    "t_end": 278.8,
+    "type": "overview",
+    "summary": "experience to be a little frustrated in what you want you want to show something what you want you want to show something and it doesn't work out but still you you don't feel bad about it and uh I think that that was pretty clear that I think that that was pretty clear that I I was enjoying mathematics and uh one thing I should mention a friend of friend of mine who's mathemat of friend of mine who's mathemat important mathematician at Harvard schlomo Sternberg he and I were in the same class in high school and somehow same class in high school and somehow both of us well both have heard of…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_278",
+    "t_start": 278.8,
+    "t_end": 369.1,
+    "type": "overview",
+    "summary": "building in the building uh where we were we were in high school so the uh so the two of us went up to got up our colage went up to Professor Ginsburg colage went up to Professor Ginsburg showed us showed him our we've solved showed us showed him our we've solved this problem and he began he took it this problem and he began he took it upon himself to encourage us and uh and upon himself to encourage us and uh and particularly he encouraged me further particularly he encouraged me further and gave me opportunities to get ahead and uh also earned money my our financial situation at home was …"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_369",
+    "t_start": 369.1,
+    "t_end": 461.6,
+    "type": "overview",
+    "summary": "but that belies the originality and perhaps the motivation it gave to your works uh on the interplay between topology dynamical systems and number Theory could you elaborate on this yeah okay well I let me just say that the uh okay well I let me just say that the uh um only recently I was asked what made um only recently I was asked what made me think of putting a topology on the in me think of putting a topology on the in and I didn't have the answer right away and I didn't have the answer right away and afterwards I realized that I had and afterwards I realized that I had been learning at…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_461",
+    "t_start": 461.6,
+    "t_end": 555.4,
+    "type": "overview",
+    "summary": "length of the interval the density of an arithmetic progression so maybe we could arithmetic progression so maybe we could put measure theory on the on the integers just like we have on the on the interval and so this idea of looking at interval and so this idea of looking at something happening on the integers as something happening on a measure space came out in some natural way from this came out in some natural way from this early paper on the infinitude of primes early paper on the infinitude of primes and uh that's one aspect of it the um your PhD thesis from PhD thesis from 1958 titl…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_555",
+    "t_start": 555.4,
+    "t_end": 647.6,
+    "type": "overview",
+    "summary": "studying prediction I mean the uh um I mean first of all the the idea of um I mean first of all the the idea of looking at at say the integers as a uh looking at at say the integers as a uh as a measure space um The Next Step is to look at a um I mean Dynamics gotic Theory looks at a measure space with a Theory looks at a measure space with a transformation that preserves the measure now the integers with a measure of density like the density of the of density like the density of the arithmetic progressions and so on that's also that that measur is preserved under that measur is preserved u…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_647",
+    "t_start": 647.6,
+    "t_end": 738.2,
+    "type": "overview",
+    "summary": "suppose you're given exactly a certain past past meaning something some day before the day before and so on up to minus infinity so to speak so this is to minus infinity so to speak so this is this I call the past you're given the this I call the past you're given the past and you want to well You' like to be say exactly what's in the future but you exactly what's in the future but you usually cannot say that if if for coin tosing then what all you can say is that the next the next reading would be that the next the next reading would be with probability a half heads with probability a half…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_738",
+    "t_start": 738.2,
+    "t_end": 828.6,
+    "type": "overview",
+    "summary": "will be a week from now and a day after and so on the U so the point is the the and so on the U so the point is the the U um I found a method of uh of going from the individual sequence to the process which is inverting the erotic theorem in erotic theorem you're applied theorem in erotic theorem you're applied to stationary processes you can say what in terms of expectations you can say what's what's happening at almost every what's what's happening at almost every sample sequence and the idea is to go from what what I would like to be a sample sequence to the process of which sample seque…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_828",
+    "t_start": 828.6,
+    "t_end": 921.4,
+    "type": "overview",
+    "summary": "build the stationary process now um there's more more there's way another way you might say more constructive of build the space on which constructive of build the space on which the stationary process is is defined by the stationary process is is defined by just taking the sequence itself and just taking the sequence itself and looking at all its translates and now close that that space of trans of sequences in the in the of trans of sequences in the in the usual top product topology um the taov topology and the uh um and that gives you a compact space and then you'll on that space you def…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_921",
+    "t_start": 921.4,
+    "t_end": 1011.6,
+    "type": "overview",
+    "summary": "for the things that I I was doing yeah um now how you get to this there is a um now how you get to this there is a the particular um dtin problem which the particular um dtin problem which came out which appears in my came out which appears in my dissertation and which encouraged me to dissertation and which encouraged me to try to look for dynamical systems for try to look for dynamical systems for other for other uh number theoretic other for other uh number theoretic problems was that in studying in studying this prediction there's a certain kind of relationship between what's going on i…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_1011",
+    "t_start": 1011.6,
+    "t_end": 1105.1,
+    "type": "overview",
+    "summary": "prediction from the new step in the in the process in the in the bottom process think of the past as being the bottom and and um and some information a little and and um and some information a little bit of information about the about the bit of information about the about the stochastic process well this dynamically stochastic process well this dynamically represents this is an example of a skew product I have a system in for example wrote irational rotation of the circle wrote irational rotation of the circle and I have a a circle I think of I think basis and the circles move I mean I go …"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_1105",
+    "t_start": 1105.1,
+    "t_end": 1196.0,
+    "type": "overview",
+    "summary": "n sared is is a n 4 a 9 a 16a where a is some irration well is the is the amount some irration well is the is the amount of the rotation of the of the base bace of the rotation of the of the base bace which is interesting that is in the in I for example you can prove the density by in various ways density of the uh of the in various ways density of the uh of the orbit and that gives you the density of n^2 alpha mod one which is originally proved by by while with the his method proved by by while with the his method of trigonometric series and uh so this of trigonometric series and uh so thi…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_1195",
+    "t_start": 1196.0,
+    "t_end": 1287.6,
+    "type": "overview",
+    "summary": "to that set under the same number of steps twice in other words what what is steps twice in other words what what is recurrence and there if I want to know recurrence and there if I want to know just that it goes once that's the point just that it goes once that's the point recurrence theorem but what I want is recurrence theorem but what I want is what's now called multiple recurrence I what's now called multiple recurrence I want to know that with the same amount with the same step I can get get back again and it won't be true for every again and it won't be true for every step it's not t…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_1287",
+    "t_start": 1287.6,
+    "t_end": 1377.6,
+    "type": "overview",
+    "summary": "several times and been important in this in the theory one is the correspondence in the theory one is the correspondence principle and the other is that of an mentioned things uh connected to that could you could you say what what is could you could you say what what is that okay that's is quite um let's see fir first in the thesis the this principle appears not explicitly but it's implicit now the idea is how do I go from a explicit past to a process go from a explicit past to a process that is basically the correspondence that is basically the correspondence principle by corresponding to …"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_1377",
+    "t_start": 1377.6,
+    "t_end": 1470.6,
+    "type": "overview",
+    "summary": "system then but it's also factoring in a special way which is which is an special way which is which is an isometric extension in the sense that two points on the Taurus that sit over the same point of the circle they move the same point of the circle they move they don't change they're rotated so they don't change their distance from one another and so that's that's called one another and so that's that's called that kind of thing it's called an isometric extension because it goes by isometries which isometry depends on where you are here you move so much here you move different way and an…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_1470",
+    "t_start": 1470.6,
+    "t_end": 1564.4,
+    "type": "overview",
+    "summary": "point points so this particular system that I've been describing where you that I've been describing where you rotate the bottom coordinate the upper rotate the bottom coordinate the upper coordinate rotates according to where because if you start with two points are above two distant two different points above two distant two different points below they're moving below it moves below they're moving below it moves isometrically by rotation so they so you isometrically by rotation so they so you never get close your two your two circles on top never get closer than a certain amount which mea…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_1564",
+    "t_start": 1564.4,
+    "t_end": 1659.2,
+    "type": "overview",
+    "summary": "have an isometric extension then the top system will again be distal for the same means if I want to get examples of distal I can start with a circle put a distal I can start with a circle put a circle extension of that put a circle extension on top of that and another Circle extension on top of that actually go infinitely far and I will get a distal system now that's now we we are in your 63 F famous paper on um on the structure of this right exactly the uh um first of all I say exactly the uh um first of all I say Circle but it could be a sphere that's sphere here and it goes by some rota…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_1659",
+    "t_start": 1659.2,
+    "t_end": 1750.1,
+    "type": "overview",
+    "summary": "extension in other words The Next Step there is another step that you go and um there notion of weak mixing which means that things get get very mixed up and U that things get get very mixed up and U and there's such a relative notion and and there's such a relative notion and using that distal PL a relative weak mixing that gives you the most General that gives the most the most General that gives the most General erotic system what's that good for namely the U um that that in that way I can prove the um that that in that way I can prove the sumar theorem in its erotic version sumar theore…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_1750",
+    "t_start": 1750.1,
+    "t_end": 1841.0,
+    "type": "overview",
+    "summary": "humanities and uh so some so uh we proposed that this topic in The Sciences proposed that this topic in The Sciences would be aroic Theory the math would be aroic Theory the math department proposed that and what we were told that we can invite people from all over the world who are in that area and we would have a a special year in erotic Theory and and we had Donald erotic Theory and and we had Donald orens Daniel Rudolph and and uh orens Daniel Rudolph and and uh shampel shampel um um tuo from France and other other people other arotic theorist who came people other arotic theorist who c…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_1840",
+    "t_start": 1841.0,
+    "t_end": 1932.0,
+    "type": "overview",
+    "summary": "suggested that he give a talk on some some aspect of combinatorics that he he some aspect of combinatorics that he he found exciting and I was even less found exciting and I was even less interested in that because we were in we interested in that because we were in we were in doing erotic Theory not invited him to give this colloquium talk at the time that he gave the collo he at the time that he gave the collo he listening to his colloquium talk I was listening to his colloquium talk I was aware of this well basically the the uh aware of this well basically the the uh correspondence princ…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_1931",
+    "t_start": 1932.0,
+    "t_end": 2027.1,
+    "type": "overview",
+    "summary": "again it's almost immediate because after after any rotation which brings repeat that you'll still be close to the identity and repeat that you'll still be identity and repeat that you'll still be close to the identity and in a compact arbitrarily close if you take any point you can get arbitrarily close to the identity by iterating that multiplying by that and so for compact group the uh the theorem is clear and so um um now all you needed was a Structure theorem all you needed was a Structure theorem and that and that with the help I have to say with the help especially of Benjamin Weiss …"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_2027",
+    "t_start": 2027.1,
+    "t_end": 2124.6,
+    "type": "overview",
+    "summary": "this solves the problem but it perhaps it is an example of cross fertilization it is an example of cross fertilization between different occasionally should go to the department colloquium to to see what you can do oh colloquium to to see what you can do oh yes oh yes AB absolutely no I certainly yes oh yes AB absolutely no I certainly learn learned a lesson from that but uh learn learned a lesson from that but uh but I have I sometime at one point I was but I have I sometime at one point I was at my retirement um there was a there was a Conference held in Jerusalem and I was Conference hel…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_2124",
+    "t_start": 2124.6,
+    "t_end": 2215.6,
+    "type": "overview",
+    "summary": "talking about um um what the work by CRA and OST about nil systems we tell us and OST about nil systems we tell us what they they did in that work yeah well theyve the um um it turns out that that in order to study three three-step that in order to study three three-step three-step arithmetic progression you really don't need if you want to do it ergonic from the arotic theoretic point ergonic from the arotic theoretic point of view you don't read this entire Tower the first step of the um just looking at the um well I think maybe even you don't the um well I think maybe even you don't need…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_2215",
+    "t_start": 2215.6,
+    "t_end": 2308.8,
+    "type": "overview",
+    "summary": "certain kind of behavior erotic Behavior of some um on the well you could have it for the integers and you have the an analog in in measure theoretically then in order to study it it's enough to study some sort of factor which is called the characteristic factor and called the characteristic factor and everything that happens there will everything that happens there will happen exactly by just just averaging will happen in the top thing which is basically the we the weekly mixing step now you could assume that that's weekly mixing it's everything that behaves for mixing it's everything that…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_2308",
+    "t_start": 2308.8,
+    "t_end": 2399.2,
+    "type": "overview",
+    "summary": "homogeneous a homogeneous um space which is called would be called a nil nil is called would be called a nil nil manifold and so they found a way of of characteristic Factor by the by certain properties of uh which are now called gawer norms and uh which GA went into more explicitly and it's been studied more explicitly and it's been studied extensively since then so you introduce extensively since then so you introduce another concept which has been immensely another concept which has been immensely important and that is that of a boundary important and that is that of a boundary but perha…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_2399",
+    "t_start": 2399.2,
+    "t_end": 2489.4,
+    "type": "overview",
+    "summary": "inside a group of matrices as I multip X1 then I multiply by X2 multiply by X3 X1 then I multiply by X2 multiply by X3 and so on so I'm taking a random walk and so on so I'm taking a random walk inside this this group and I I want to inside this this group and I I want to look at some limiting Behavior because look at some limiting Behavior because not all it's not true that with not all it's not true that with probability one there's a specific probability one there's a specific limiting Behavior but what behavior is limiting Behavior but what behavior is is is there that can be that can b…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_2489",
+    "t_start": 2489.4,
+    "t_end": 2580.0,
+    "type": "overview",
+    "summary": "projective space of that Dimension is attached to the group now actually you attached to the group now actually you can look in instead of a single Vector can look in instead of a single Vector you can look at two columns and look at you can look at two columns and look at the look at the look at the plane that they span and that plane also converges to a certain limit plane and so you now to a certain limit plane and so you now have a flag you have a line and a and a have a flag you have a line and a and a plane through it in general what what turns out you can show is that when you multip…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_2580",
+    "t_start": 2580.0,
+    "t_end": 2673.1,
+    "type": "overview",
+    "summary": "of proximality it's a space on which the group act it's a compact space on which the group acts and it turns out that that the action is what's called that the action is what's called strongly proximal proximal means the opposite it's the opposite of distal if you get back to distal indirectly it means that any two points under some group element will get as close together group element will get as close together as you like and that means if you think of it that any K points with the right group that any K points with the right group element they somehow come together now if you think of i…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_2673",
+    "t_start": 2673.1,
+    "t_end": 2766.2,
+    "type": "overview",
+    "summary": "firstenberg boundary that's what's called The firstenberg Boundary right and which has application to sear algebra which I don't fully understand algebra which I don't fully understand but I I would like to to to to quote from margulis I mean the other AEL Prize winner this year he writes some place winner this year he writes some place the following I learned about foren BG's the following I learned about foren BG's work around 1974 and his boundary the theory influenced me very much in particular my influenced me very much in particular my proof of the so-called normal subgroup proof of t…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_2766",
+    "t_start": 2766.2,
+    "t_end": 2856.9,
+    "type": "overview",
+    "summary": "book or the the editor was NE y nay and you should you should you should give a an applicational probability Theory to algebra so I thought of the um I thought algebra so I thought of the um I thought of the uh the theory this the this boundary Theory and I thought of the fact that it seems um that it seems fact that it seems um that it seems intuitive that a lattice inside a group a sub a subgroup of the group which is very close which is discreet but very close uh qualitatively to the to the uh to the uh qualitatively to the to the uh to the group itself to the whole group that showed how…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_2856",
+    "t_start": 2856.9,
+    "t_end": 2953.3,
+    "type": "overview",
+    "summary": "that uh yes well gelf funds well there are two ways in which gelf funds Theory are two ways in which gelf funds Theory comes in and um that's um mainly this comes in and um that's um mainly this the correspondence principle uh can be the correspondence principle uh can be one way of proving it is using galan's uh is ometry between an arbitrary commutative C star algebra and an commutative C star algebra and an algebra and and a and algebra of continuous functions on a certain space other words starting with an Al with an other words starting with an Al with an abstract algebra you get a som…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_2953",
+    "t_start": 2953.3,
+    "t_end": 3048.5,
+    "type": "overview",
+    "summary": "it's galan's uh sea star represent representation theorem that's how that's representation theorem that's how that's how you get this that's one way of proving the uh of this correspondence and and uh but also the but um in general I mean uh but also the but um in general I mean Galan was one of my heroes and uh he one Galan was one of my heroes and uh he one of the things that he did which um which I Learned was one of the things I learned as a student at Princeton um one learned as a student at Princeton um one of the things that he did was to Al of the things that he did was to Al algebr…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_3048",
+    "t_start": 3048.5,
+    "t_end": 3139.7,
+    "type": "overview",
+    "summary": "see the correspondence principle it's also at the basis of my original original way of getting the boundary of a group by connection functions and you somehow build build an algebra from harmonic function you say how you define a certain way of multiplying harmonic functions and you multiplying harmonic functions and you get an algebra and the and the galon space for that algebra is the is the boundary of the group the uh of course what's important here is the connection between random here is the connection between random walks and and harmonic functions and that you can you can Define har…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_3139",
+    "t_start": 3139.7,
+    "t_end": 3233.4,
+    "type": "overview",
+    "summary": "I asked when can you predict perfectly or that is uh well in other words in or that is uh well in other words in this in prediction you can also talk this in prediction you can also talk about knowing exactly what's going to about knowing exactly what's going to happen you can ask when can I filter perfectly and um well you can never filter you never know for sure no what filter you never know for sure no what does that mean I'm given two s I'm given does that mean I'm given two s I'm given a signal which represents noise plus a signal which represents noise plus signal that's what I'm that…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_3233",
+    "t_start": 3233.4,
+    "t_end": 3324.5,
+    "type": "overview",
+    "summary": "what the system is there just take periodic plus random noise white noise periodic plus random noise white noise you can easily filter because my you can easily filter because my explanation is because the systems that explanation is because the systems that generate them are disjointed the disjoint in the sense of being no matter how you try to represent them together no matter how you try to put a sequence here together with a sequence there make here together with a sequence there make one system out of it you'll really be one system out of it you'll really be producing the product syste…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_3324",
+    "t_start": 3324.5,
+    "t_end": 3416.9,
+    "type": "overview",
+    "summary": "to look if they what is their least common multiple product then so this is just it's kind of an useful analogy I I would like to of an useful analogy I I would like to hear your reaction to something Harish hear your reaction to something Harish Shandra said and I quote I have often pondered over the roles of knowledge or experience on the one hand and Imagination or intuition on the other in the process of discovery I the other in the process of discovery I believe that there is a certain believe that there is a certain fundamental conflict between the two and fundamental conflict between…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_3416",
+    "t_start": 3416.9,
+    "t_end": 3509.1,
+    "type": "overview",
+    "summary": "are a very good example of some the thing that Harish Shandra is some the thing that Harish Shandra is talking about that from your early days talking about that from your early days at Yeshiva University when you sort of at Yeshiva University when you sort of you you know you let your imagination work and you try to prove something something didn't work out but some other um I'm happy if you think of it that way yes you seem to have an eye for when a yes you seem to have an eye for when a process is uh regular and when there is process is uh regular and when there is some sort of random li…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_3509",
+    "t_start": 3509.1,
+    "t_end": 3601.5,
+    "type": "overview",
+    "summary": "almost periodic and now it turns out that every that every minimal system means a system that no has no subsystem in it on a compact space always has this in it on a compact space always has this almost periodic almost periodicity property so at any rate I I say that regularity is something that is close to regularity is something that is close to periodicity bner introduced the notion periodicity bner introduced the notion of almost automorphic functions and one of the things that I gained from visiting Princeton um while I was at Minnesota was to learn about almost automorphic was to lear…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_3601",
+    "t_start": 3601.5,
+    "t_end": 3694.5,
+    "type": "overview",
+    "summary": "marvelous book which has enthralled many including the two of us and this it including the two of us and this it describes in exemplary Clarity how one describes in exemplary Clarity how one can apply dynamical systems and arotic can apply dynamical systems and arotic Theory to combinatorics and number Theory and thereby proving some highly non-trivial results and of course this non-trivial results and of course this has spawned a lot of generalization by your students burgles son and uh and also co-works with cat Nelson uh and you know The Hil stew theorem you you know all the theorem you …"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_3694",
+    "t_start": 3694.5,
+    "t_end": 3789.0,
+    "type": "overview",
+    "summary": "hear about it and um well that's that's one form of of uh of becoming publicized one form of of uh of becoming publicized but what you really appreciate is when but what you really appreciate is when people who understand what you're doing people who understand what you're doing uh are are are continuing that but you know it coming back to this book I mean when I read that I I was flabbergasted when I read that I I was flabbergasted to put it you know how how can you prove a theorem that could be formulated in you know combinatorial number Theory or you know combinatorial number Theory or a…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_3789",
+    "t_start": 3789.0,
+    "t_end": 3880.7,
+    "type": "overview",
+    "summary": "there one result that really stands out in your imagination well I guess it's in your imagination well I guess it's the Sumer theorem as as a theorem the Sumer theorem as as a theorem whereas the boundary theory is a theory um I I would mention that if I'm allowed to bring in something that hasn't come to bring in something that hasn't come into any of the discussions of my work into any of the discussions of my work and it's something that I would like to and it's something that I would like to maybe maybe would come out of the fact maybe maybe would come out of the fact that the Public Pu…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_3880",
+    "t_start": 3880.7,
+    "t_end": 3973.5,
+    "type": "overview",
+    "summary": "periodic and so you can you can think you can see as as soon as you have recurrence then that's room for arotic Theory to come in and it really does and Theory to come in and it really does and um and that's where there is other other um and that's where there is other other people have worked on on some conjectures of mine that are related to to dimension of fractals how one canet to dimension of fractals how one canet how how can intersect another canet that how how can intersect another canet that this should be similar to the way this should be similar to the way manifolds algebraic man…"
+  },
+  {
+    "id": "ku_video_01IdfSRYawE_3973",
+    "t_start": 3973.5,
+    "t_end": 4039.6,
+    "type": "overview",
+    "summary": "zooming in at a fixed rate of time so you know at a fixed rate now what what how what are you seeing on this on your screen you know how does this change how does this picture change instead of numbers changing you could have pictures numbers changing you could have pictures changing and that could be also a stationary process and this uh every every fractal generates some kind of every fractal generates some kind of stationary process which is uh interesting to look at we have Bunches of other questions on our notepads but I of other questions on our notepads but I think we have to stop th…"
+  }
+]

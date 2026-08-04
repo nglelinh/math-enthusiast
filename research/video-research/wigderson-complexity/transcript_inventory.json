@@ -1,0 +1,45 @@
+{
+  "slug": "wigderson-complexity",
+  "videos": [
+    {
+      "id": "f2NiGO8zC1c",
+      "title": "Avi Wigderson Turing Award Lecture: “Alan Turing: A TCS Role Model”",
+      "has_transcript": true,
+      "chars": 69684,
+      "units": 44,
+      "url": "https://www.youtube.com/watch?v=f2NiGO8zC1c"
+    },
+    {
+      "id": "TK_vD-VnsFw",
+      "title": "IAS Q&A Wigderson Turing",
+      "has_transcript": true,
+      "chars": 5798,
+      "units": 3,
+      "url": "https://www.youtube.com/watch?v=TK_vD-VnsFw"
+    },
+    {
+      "id": "Ur9XNF6TeYw",
+      "title": "June 2024 CACM: Avi Wigderson, 2023 ACM A.M. Turing Awardee",
+      "has_transcript": true,
+      "chars": 6695,
+      "units": 4,
+      "url": "https://www.youtube.com/watch?v=Ur9XNF6TeYw"
+    },
+    {
+      "id": "BiFSUniv70c",
+      "title": "Wigderson — Reading Alan Turing (Berkeley)",
+      "has_transcript": true,
+      "chars": 69404,
+      "units": 47,
+      "url": "https://www.youtube.com/watch?v=BiFSUniv70c"
+    },
+    {
+      "id": "zqiL57ebP-k",
+      "title": "Abel lectures Lovász & Wigderson",
+      "has_transcript": true,
+      "chars": 99687,
+      "units": 74,
+      "url": "https://www.youtube.com/watch?v=zqiL57ebP-k"
+    }
+  ]
+}

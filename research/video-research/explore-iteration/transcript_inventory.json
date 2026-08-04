@@ -1,0 +1,45 @@
+{
+  "slug": "explore-iteration",
+  "videos": [
+    {
+      "id": "094y1Z2wpJg",
+      "title": "The Simplest Math Problem No One Can Solve - Collatz Conjecture",
+      "has_transcript": true,
+      "chars": 19608,
+      "units": 0,
+      "url": "https://www.youtube.com/watch?v=094y1Z2wpJg"
+    },
+    {
+      "id": "5mFpVDpKX70",
+      "title": "UNCRACKABLE? The Collatz Conjecture - Numberphile",
+      "has_transcript": true,
+      "chars": 7275,
+      "units": 0,
+      "url": "https://www.youtube.com/watch?v=5mFpVDpKX70"
+    },
+    {
+      "id": "t1I9uHF9X5Y",
+      "title": "The 3x+1 Problem: Status and Recent Work Part 1",
+      "has_transcript": true,
+      "chars": 24168,
+      "units": 0,
+      "url": "https://www.youtube.com/watch?v=t1I9uHF9X5Y"
+    },
+    {
+      "id": "X2p5eMWyaFs",
+      "title": "Day 2 - The notorious Collatz conjecture - Terence Tao",
+      "has_transcript": true,
+      "chars": 38371,
+      "units": 0,
+      "url": "https://www.youtube.com/watch?v=X2p5eMWyaFs"
+    },
+    {
+      "id": "k-dtx8s2ehM",
+      "title": "Almost all Collatz Orbits Attain Almost Bounded Values - Terence Tao",
+      "has_transcript": true,
+      "chars": 166979,
+      "units": 0,
+      "url": "https://www.youtube.com/watch?v=k-dtx8s2ehM"
+    }
+  ]
+}

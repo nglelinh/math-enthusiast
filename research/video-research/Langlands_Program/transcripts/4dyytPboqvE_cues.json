@@ -1,0 +1,5672 @@
+[
+  {
+    "t_start": 3.59,
+    "t_end": 8.69,
+    "text": "say it has been one of the main themes of my research since like forever it's a"
+  },
+  {
+    "t_start": 8.69,
+    "t_end": 10.85,
+    "text": "of my research since like forever it's a vast subject and fascinating fascinating"
+  },
+  {
+    "t_start": 10.85,
+    "t_end": 14.749,
+    "text": "vast subject and fascinating fascinating subject so I want to tell you a little"
+  },
+  {
+    "t_start": 14.749,
+    "t_end": 17.15,
+    "text": "bit about it I want to start out with this quote I wrote this book it was"
+  },
+  {
+    "t_start": 17.15,
+    "t_end": 18.59,
+    "text": "this quote I wrote this book it was published in 2007. language"
+  },
+  {
+    "t_start": 18.59,
+    "t_end": 22.09,
+    "text": "correspondence for Loop groups now correspondence here doesn't mean"
+  },
+  {
+    "t_start": 22.09,
+    "t_end": 26.87,
+    "text": "correspondence in the sense of sending letters to each other although like once"
+  },
+  {
+    "t_start": 26.87,
+    "t_end": 31.07,
+    "text": "letters to each other although like once and I have done that a lot over the"
+  },
+  {
+    "t_start": 31.07,
+    "t_end": 33.17,
+    "text": "years here correspondence means a kind of a relation like one-to-one"
+  },
+  {
+    "t_start": 33.17,
+    "t_end": 36.53,
+    "text": "correspondence or something like that so in the preface I say the language"
+  },
+  {
+    "t_start": 36.53,
+    "t_end": 41.99,
+    "text": "program has emerged in recent years as a blueprint for a grand unified theory of"
+  },
+  {
+    "t_start": 41.99,
+    "t_end": 44.93,
+    "text": "blueprint for a grand unified theory of mathematics and I have to confess I said"
+  },
+  {
+    "t_start": 44.93,
+    "t_end": 47.869,
+    "text": "mathematics and I have to confess I said it a little bit a tongue-in-cheek you"
+  },
+  {
+    "t_start": 47.869,
+    "t_end": 49.97,
+    "text": "it a little bit a tongue-in-cheek you know because in mathematics mathematics"
+  },
+  {
+    "t_start": 49.97,
+    "t_end": 54.889,
+    "text": "know because in mathematics mathematics is not like quantum physics or you know"
+  },
+  {
+    "t_start": 54.889,
+    "t_end": 57.049,
+    "text": "where one can talk about the grand unified theory because you have certain"
+  },
+  {
+    "t_start": 57.049,
+    "t_end": 61.49,
+    "text": "unified theory because you have certain interactions with certain forces and you"
+  },
+  {
+    "t_start": 61.49,
+    "t_end": 63.47,
+    "text": "want to find one underlying Theory describing all of them mathematics is"
+  },
+  {
+    "t_start": 63.47,
+    "t_end": 66.469,
+    "text": "describing all of them mathematics is just too vast to have one all"
+  },
+  {
+    "t_start": 66.469,
+    "t_end": 71.51,
+    "text": "Theory you know but if there were one the language program would probably come"
+  },
+  {
+    "t_start": 71.51,
+    "t_end": 73.13,
+    "text": "the language program would probably come closest"
+  },
+  {
+    "t_start": 73.13,
+    "t_end": 79.31,
+    "text": "so interesting enough this this phrase Grand unified theory of mathematics has"
+  },
+  {
+    "t_start": 79.31,
+    "t_end": 84.73,
+    "text": "kind of cut on and in fact if you look in the Wikipedia article you will see it"
+  },
+  {
+    "t_start": 84.73,
+    "t_end": 88.07,
+    "text": "in the Wikipedia article you will see it quoted as well so now let's try to live"
+  },
+  {
+    "t_start": 88.07,
+    "t_end": 89.929,
+    "text": "quoted as well so now let's try to live up to the expectation I have one"
+  },
+  {
+    "t_start": 89.929,
+    "t_end": 92.45,
+    "text": "up to the expectation I have one question first okay why is it called"
+  },
+  {
+    "t_start": 92.45,
+    "t_end": 95.21,
+    "text": "question first okay why is it called langlands language yeah language is a"
+  },
+  {
+    "t_start": 95.21,
+    "t_end": 100.31,
+    "text": "person is a person this this guy look he is a very interesting man Canadian born"
+  },
+  {
+    "t_start": 100.31,
+    "t_end": 103.789,
+    "text": "is a very interesting man Canadian born he is professor emeritus at the famous"
+  },
+  {
+    "t_start": 103.789,
+    "t_end": 105.77,
+    "text": "he is professor emeritus at the famous Institute for advanced study in"
+  },
+  {
+    "t_start": 105.77,
+    "t_end": 110.929,
+    "text": "Princeton New Jersey The Institute which you know had as his professors people"
+  },
+  {
+    "t_start": 110.929,
+    "t_end": 113.35,
+    "text": "you know had as his professors people like Albert Einstein in fact"
+  },
+  {
+    "t_start": 113.35,
+    "t_end": 118.789,
+    "text": "langlands has Einstein's office and in this picture he is at his office which"
+  },
+  {
+    "t_start": 118.789,
+    "t_end": 120.95,
+    "text": "this picture he is at his office which is formerly Albert Einstein's office a"
+  },
+  {
+    "t_start": 120.95,
+    "t_end": 126.249,
+    "text": "is formerly Albert Einstein's office a very nice office at my dad you know I I"
+  },
+  {
+    "t_start": 126.249,
+    "t_end": 131.029,
+    "text": "privilege I had a chance to to spend some time in that office language"
+  },
+  {
+    "t_start": 131.029,
+    "t_end": 133.55,
+    "text": "some time in that office language program is named after Robert langlands"
+  },
+  {
+    "t_start": 133.55,
+    "t_end": 139.19,
+    "text": "program is named after Robert langlands because he was the one who came up with"
+  },
+  {
+    "t_start": 139.19,
+    "t_end": 144.05,
+    "text": "this ideas or the first set of ideas that we now call the language program in"
+  },
+  {
+    "t_start": 144.05,
+    "t_end": 148.729,
+    "text": "now what happened is that this idea is actually propagated to other areas of"
+  },
+  {
+    "t_start": 148.729,
+    "t_end": 152.69,
+    "text": "actually propagated to other areas of mathematics and that was due to research"
+  },
+  {
+    "t_start": 152.69,
+    "t_end": 157.309,
+    "text": "England's himself and I think that's why so many mathematicians are and Quantum"
+  },
+  {
+    "t_start": 157.309,
+    "t_end": 159.53,
+    "text": "so many mathematicians are and Quantum physicists these days as well"
+  },
+  {
+    "t_start": 159.53,
+    "t_end": 162.949,
+    "text": "physicists these days as well uh so excited about uh about this"
+  },
+  {
+    "t_start": 162.949,
+    "t_end": 167.57,
+    "text": "project about this Theory the fact that there are certain patterns which one can"
+  },
+  {
+    "t_start": 167.57,
+    "t_end": 169.43,
+    "text": "there are certain patterns which one can observe in many different areas of"
+  },
+  {
+    "t_start": 169.43,
+    "t_end": 170.93,
+    "text": "observe in many different areas of mathematics such as number Theory"
+  },
+  {
+    "t_start": 170.93,
+    "t_end": 174.05,
+    "text": "mathematics such as number Theory harmonic analysis geometry and now even"
+  },
+  {
+    "t_start": 174.05,
+    "t_end": 179.03,
+    "text": "harmonic analysis geometry and now even quantum physics to to set it up I want"
+  },
+  {
+    "t_start": 179.03,
+    "t_end": 180.949,
+    "text": "to say that to me mathematics is something like a kind of like a giant"
+  },
+  {
+    "t_start": 180.949,
+    "t_end": 183.41,
+    "text": "something like a kind of like a giant jigsaw puzzle suppose that you are"
+  },
+  {
+    "t_start": 183.41,
+    "t_end": 186.83,
+    "text": "solving a jigsaw puzzle but you don't know what the final picture is going to"
+  },
+  {
+    "t_start": 186.83,
+    "t_end": 188.57,
+    "text": "know what the final picture is going to look like it's kind of harder but more"
+  },
+  {
+    "t_start": 188.57,
+    "t_end": 189.65,
+    "text": "look like it's kind of harder but more interesting because then the picture"
+  },
+  {
+    "t_start": 189.65,
+    "t_end": 192.649,
+    "text": "interesting because then the picture will gradually emerge but usually people"
+  },
+  {
+    "t_start": 192.649,
+    "t_end": 194.93,
+    "text": "will gradually emerge but usually people start you know Finding pieces that fit"
+  },
+  {
+    "t_start": 194.93,
+    "t_end": 197.03,
+    "text": "start you know Finding pieces that fit together and so on and so next thing you"
+  },
+  {
+    "t_start": 197.03,
+    "t_end": 199.25,
+    "text": "together and so on and so next thing you know you have several islands or"
+  },
+  {
+    "t_start": 199.25,
+    "t_end": 201.17,
+    "text": "know you have several islands or continents of sorts on the on the big"
+  },
+  {
+    "t_start": 201.17,
+    "t_end": 204.53,
+    "text": "table you just throw the pieces on big table and several people start working"
+  },
+  {
+    "t_start": 204.53,
+    "t_end": 206.57,
+    "text": "table and several people start working on this that's kind of like different"
+  },
+  {
+    "t_start": 206.57,
+    "t_end": 208.79,
+    "text": "on this that's kind of like different areas of mathematics I also sometimes I"
+  },
+  {
+    "t_start": 208.79,
+    "t_end": 213.05,
+    "text": "areas of mathematics I also sometimes I use another analogy I say the continents"
+  },
+  {
+    "t_start": 213.05,
+    "t_end": 214.67,
+    "text": "of mathematics so what are they for instance number Theory"
+  },
+  {
+    "t_start": 214.67,
+    "t_end": 217.61,
+    "text": "instance number Theory that was a study of numbers and"
+  },
+  {
+    "t_start": 217.61,
+    "t_end": 222.589,
+    "text": "um like the ones which we'll talk about in a moment there is also another field"
+  },
+  {
+    "t_start": 222.589,
+    "t_end": 225.47,
+    "text": "in a moment there is also another field called harmonic analysis which is like"
+  },
+  {
+    "t_start": 225.47,
+    "t_end": 227.99,
+    "text": "called harmonic analysis which is like trying to decompose a sound of a"
+  },
+  {
+    "t_start": 227.99,
+    "t_end": 230.21,
+    "text": "trying to decompose a sound of a symphony into the kind of Elementary"
+  },
+  {
+    "t_start": 230.21,
+    "t_end": 235.55,
+    "text": "harmonics and to the nodes played by different instruments and that idea has"
+  },
+  {
+    "t_start": 235.55,
+    "t_end": 237.589,
+    "text": "different instruments and that idea has found sort of a great following in"
+  },
+  {
+    "t_start": 237.589,
+    "t_end": 240.47,
+    "text": "found sort of a great following in mathematics where you kind of generalize"
+  },
+  {
+    "t_start": 240.47,
+    "t_end": 242.75,
+    "text": "mathematics where you kind of generalize it to a much more General situations"
+  },
+  {
+    "t_start": 242.75,
+    "t_end": 245.449,
+    "text": "it to a much more General situations rather than sound uh there is also"
+  },
+  {
+    "t_start": 245.449,
+    "t_end": 247.309,
+    "text": "rather than sound uh there is also geometry obviously we all study"
+  },
+  {
+    "t_start": 247.309,
+    "t_end": 252.17,
+    "text": "euclidean geometry in school but in fact this is just one small example there is"
+  },
+  {
+    "t_start": 252.17,
+    "t_end": 253.91,
+    "text": "this is just one small example there is also no euclidean geometry there are all"
+  },
+  {
+    "t_start": 253.91,
+    "t_end": 255.77,
+    "text": "also no euclidean geometry there are all kinds of geometries and higher"
+  },
+  {
+    "t_start": 255.77,
+    "t_end": 257.15,
+    "text": "kinds of geometries and higher Dimensions there are different shapes"
+  },
+  {
+    "t_start": 257.15,
+    "t_end": 263.09,
+    "text": "and manifolds that we call them and so on so there are all these islands as you"
+  },
+  {
+    "t_start": 263.09,
+    "t_end": 266.749,
+    "text": "know when you are working on a puzzle the most exciting moment is when you can"
+  },
+  {
+    "t_start": 266.749,
+    "t_end": 268.249,
+    "text": "connect those islands that you have built and that's what the language"
+  },
+  {
+    "t_start": 268.249,
+    "t_end": 270.35,
+    "text": "built and that's what the language program does it connects different"
+  },
+  {
+    "t_start": 270.35,
+    "t_end": 277.909,
+    "text": "different continents of mathematics and specifically he started out with some"
+  },
+  {
+    "t_start": 277.909,
+    "t_end": 280.129,
+    "text": "specifically he started out with some difficult questions in number theory of"
+  },
+  {
+    "t_start": 280.129,
+    "t_end": 282.59,
+    "text": "difficult questions in number theory of the kind that we'll talk about in a"
+  },
+  {
+    "t_start": 282.59,
+    "t_end": 288.65,
+    "text": "and he was able to connect these questions to uh questions in harmonic"
+  },
+  {
+    "t_start": 288.65,
+    "t_end": 292.79,
+    "text": "questions to uh questions in harmonic analysis that have to do with analysis"
+  },
+  {
+    "t_start": 292.79,
+    "t_end": 296.09,
+    "text": "um kind of like things that we study in calculus so kind of totally different"
+  },
+  {
+    "t_start": 296.09,
+    "t_end": 300.59,
+    "text": "calculus so kind of totally different domain right and uh the beauty of it is"
+  },
+  {
+    "t_start": 300.59,
+    "t_end": 303.17,
+    "text": "that the question original questions seem to be interactable seem to be"
+  },
+  {
+    "t_start": 303.17,
+    "t_end": 309.05,
+    "text": "extremely hard unsolvable almost but when you translate them into this other"
+  },
+  {
+    "t_start": 309.05,
+    "t_end": 311.93,
+    "text": "when you translate them into this other domain harmonic analysis they have much"
+  },
+  {
+    "t_start": 311.93,
+    "t_end": 314.39,
+    "text": "domain harmonic analysis they have much nicer structure and there are tools of"
+  },
+  {
+    "t_start": 314.39,
+    "t_end": 316.55,
+    "text": "nicer structure and there are tools of harmonic analysis which enable us to"
+  },
+  {
+    "t_start": 316.55,
+    "t_end": 318.17,
+    "text": "harmonic analysis which enable us to solve them so there is a practical"
+  },
+  {
+    "t_start": 318.17,
+    "t_end": 320.77,
+    "text": "solve them so there is a practical advantage of this type of you know"
+  },
+  {
+    "t_start": 320.77,
+    "t_end": 324.29,
+    "text": "advantage of this type of you know approach because problems that up up"
+  },
+  {
+    "t_start": 324.29,
+    "t_end": 330.469,
+    "text": "until then could not be solved suddenly you find a way to solve them and not"
+  },
+  {
+    "t_start": 330.469,
+    "t_end": 334.79,
+    "text": "host a whole class of problems of that nature you see so that's why people got"
+  },
+  {
+    "t_start": 334.79,
+    "t_end": 339.29,
+    "text": "nature you see so that's why people got so excited about it and then they got"
+  },
+  {
+    "t_start": 339.29,
+    "t_end": 344.51,
+    "text": "um this idea is propagated to other fields like geometry and then more"
+  },
+  {
+    "t_start": 344.51,
+    "t_end": 346.73,
+    "text": "fields like geometry and then more recently quantum physics so but"
+  },
+  {
+    "t_start": 346.73,
+    "t_end": 348.65,
+    "text": "recently quantum physics so but historically language came up with this"
+  },
+  {
+    "t_start": 348.65,
+    "t_end": 354.05,
+    "text": "historically language came up with this when he was a he was a young man in the"
+  },
+  {
+    "t_start": 354.05,
+    "t_end": 356.39,
+    "text": "late 60s and in fact he formulated his ideas for the first time in a letter"
+  },
+  {
+    "t_start": 356.39,
+    "t_end": 359.689,
+    "text": "ideas for the first time in a letter to another mathematician a sort of a a"
+  },
+  {
+    "t_start": 359.689,
+    "t_end": 362.33,
+    "text": "to another mathematician a sort of a a maestro Meister of mathematics Andre V"
+  },
+  {
+    "t_start": 362.33,
+    "t_end": 365.749,
+    "text": "maestro Meister of mathematics Andre V who was a professor in Princeton at the"
+  },
+  {
+    "t_start": 365.749,
+    "t_end": 367.43,
+    "text": "time I will read it for you he says Professor Bay in response to your"
+  },
+  {
+    "t_start": 367.43,
+    "t_end": 372.35,
+    "text": "invitation to come and talk I wrote the enclosed letter after I wrote it I"
+  },
+  {
+    "t_start": 372.35,
+    "t_end": 374.689,
+    "text": "enclosed letter after I wrote it I realized there was hardly a statement in"
+  },
+  {
+    "t_start": 374.689,
+    "t_end": 379.189,
+    "text": "it of which I was certain if you are willing to read it as pure speculation I"
+  },
+  {
+    "t_start": 379.189,
+    "t_end": 381.89,
+    "text": "willing to read it as pure speculation I would appreciate this if not I'm sure"
+  },
+  {
+    "t_start": 381.89,
+    "t_end": 384.83,
+    "text": "would appreciate this if not I'm sure you have a waste basket handy a kind of"
+  },
+  {
+    "t_start": 384.83,
+    "t_end": 391.01,
+    "text": "a understatement of the century you know so is he being humble or do you think he"
+  },
+  {
+    "t_start": 391.01,
+    "t_end": 398.15,
+    "text": "it but he kind of wanted it it's a bit of a show off I guess it's like nah it's"
+  },
+  {
+    "t_start": 398.15,
+    "t_end": 399.65,
+    "text": "of a show off I guess it's like nah it's not that important you know we call that"
+  },
+  {
+    "t_start": 399.65,
+    "t_end": 405.529,
+    "text": "not that important you know we call that a humble break now don't we I guess so"
+  },
+  {
+    "t_start": 405.529,
+    "t_end": 410.33,
+    "text": "was born so in the set of those notes and then soon enough you know he wrote a"
+  },
+  {
+    "t_start": 410.33,
+    "t_end": 411.65,
+    "text": "and then soon enough you know he wrote a paper and so on and a lot of people"
+  },
+  {
+    "t_start": 411.65,
+    "t_end": 413.629,
+    "text": "paper and so on and a lot of people found out about it and those letters you"
+  },
+  {
+    "t_start": 413.629,
+    "t_end": 415.189,
+    "text": "found out about it and those letters you know this is late 60s so it's before the"
+  },
+  {
+    "t_start": 415.189,
+    "t_end": 417.469,
+    "text": "know this is late 60s so it's before the internet so people were making zero"
+  },
+  {
+    "t_start": 417.469,
+    "t_end": 419.93,
+    "text": "internet so people were making zero scopies of the of this letter and"
+  },
+  {
+    "t_start": 419.93,
+    "t_end": 421.37,
+    "text": "scopies of the of this letter and sending to their colleagues and friends"
+  },
+  {
+    "t_start": 421.37,
+    "t_end": 424.67,
+    "text": "around the world and within 10 years hundreds of people working in this area"
+  },
+  {
+    "t_start": 424.67,
+    "t_end": 428.809,
+    "text": "hundreds of people working in this area so now after all this build up right now"
+  },
+  {
+    "t_start": 428.809,
+    "t_end": 429.71,
+    "text": "finally I have to show you what it is about"
+  },
+  {
+    "t_start": 429.71,
+    "t_end": 434.83,
+    "text": "and uh usually you know like time's up okay Saved by the Bell but"
+  },
+  {
+    "t_start": 434.83,
+    "t_end": 439.55,
+    "text": "you can have all the time you want yes I will I will explain I will explain it so"
+  },
+  {
+    "t_start": 439.55,
+    "t_end": 445.67,
+    "text": "will I will explain I will explain it so I would like to give an example of this"
+  },
+  {
+    "t_start": 445.67,
+    "t_end": 448.129,
+    "text": "uh of of what appears in the language program that type of connection between"
+  },
+  {
+    "t_start": 448.129,
+    "t_end": 449.93,
+    "text": "program that type of connection between uh problems in two different fields"
+  },
+  {
+    "t_start": 449.93,
+    "t_end": 452.21,
+    "text": "uh problems in two different fields number Theory and harmonic analysis"
+  },
+  {
+    "t_start": 452.21,
+    "t_end": 456.529,
+    "text": "and the example I'm going to give is interesting for various reasons one of"
+  },
+  {
+    "t_start": 456.529,
+    "t_end": 458.93,
+    "text": "interesting for various reasons one of which is that actually it is precisely"
+  },
+  {
+    "t_start": 458.93,
+    "t_end": 464.629,
+    "text": "which is that actually it is precisely the the key result that was proved by"
+  },
+  {
+    "t_start": 464.629,
+    "t_end": 467.029,
+    "text": "Andrew Wiles and Richard Taylor to provide the final step in the proof of"
+  },
+  {
+    "t_start": 467.029,
+    "t_end": 470.27,
+    "text": "provide the final step in the proof of probably the greatest uh unsolved"
+  },
+  {
+    "t_start": 470.27,
+    "t_end": 472.01,
+    "text": "probably the greatest uh unsolved problem in mathematics which had been"
+  },
+  {
+    "t_start": 472.01,
+    "t_end": 474.83,
+    "text": "problem in mathematics which had been solved by those papers namely firma's"
+  },
+  {
+    "t_start": 474.83,
+    "t_end": 481.37,
+    "text": "Last Theorem you look at the equation a to the N plus b to the N equals c to the"
+  },
+  {
+    "t_start": 481.37,
+    "t_end": 486.85,
+    "text": "to the N plus b to the N equals c to the N where n is an integer greater than two"
+  },
+  {
+    "t_start": 486.85,
+    "t_end": 490.49,
+    "text": "and a B and C are relatively prime non-zero integers now if n were two then"
+  },
+  {
+    "t_start": 490.49,
+    "t_end": 492.65,
+    "text": "non-zero integers now if n were two then we know many examples of solutions of"
+  },
+  {
+    "t_start": 492.65,
+    "t_end": 494.33,
+    "text": "we know many examples of solutions of this equation like 3 squared plus 4"
+  },
+  {
+    "t_start": 494.33,
+    "t_end": 498.49,
+    "text": "this equation like 3 squared plus 4 squared is equal to 5 squared"
+  },
+  {
+    "t_start": 501.589,
+    "t_end": 507.65,
+    "text": "greater than 2 does not have any integer Solutions so an example would be a cube"
+  },
+  {
+    "t_start": 507.65,
+    "t_end": 512.029,
+    "text": "Solutions so an example would be a cube plus b Cube equals c Cube does not have"
+  },
+  {
+    "t_start": 512.029,
+    "t_end": 514.49,
+    "text": "plus b Cube equals c Cube does not have a solution ABC"
+  },
+  {
+    "t_start": 514.49,
+    "t_end": 521.93,
+    "text": "allow one of them to be zero you could have a is equal to C and B is equal to"
+  },
+  {
+    "t_start": 521.93,
+    "t_end": 525.71,
+    "text": "have a is equal to C and B is equal to zero so it'd have to be non-zero to make"
+  },
+  {
+    "t_start": 525.71,
+    "t_end": 526.93,
+    "text": "it interesting right so and so the theory what did"
+  },
+  {
+    "t_start": 526.93,
+    "t_end": 531.23,
+    "text": "you can't do it so if you're miles of course Therma famously wrote about it on"
+  },
+  {
+    "t_start": 531.23,
+    "t_end": 533.449,
+    "text": "course Therma famously wrote about it on the margin of uh theophanto's book about"
+  },
+  {
+    "t_start": 533.449,
+    "t_end": 535.31,
+    "text": "the margin of uh theophanto's book about the integer equations saying that he"
+  },
+  {
+    "t_start": 535.31,
+    "t_end": 537.65,
+    "text": "the integer equations saying that he found a beautiful proof of this ethereum"
+  },
+  {
+    "t_start": 537.65,
+    "t_end": 541.97,
+    "text": "found a beautiful proof of this ethereum but the margin of the book is too small"
+  },
+  {
+    "t_start": 541.97,
+    "t_end": 544.67,
+    "text": "to contain it but because he claimed that uh Pierre Verma had a great French"
+  },
+  {
+    "t_start": 544.67,
+    "t_end": 546.949,
+    "text": "that uh Pierre Verma had a great French mathematician in the 17th century for"
+  },
+  {
+    "t_start": 546.949,
+    "t_end": 552.47,
+    "text": "three for about 350 years people were searching for the proof even though you"
+  },
+  {
+    "t_start": 552.47,
+    "t_end": 554.81,
+    "text": "searching for the proof even though you know I guess after one or two hundred"
+  },
+  {
+    "t_start": 554.81,
+    "t_end": 556.43,
+    "text": "know I guess after one or two hundred years it became clear they probably"
+  },
+  {
+    "t_start": 556.43,
+    "t_end": 561.889,
+    "text": "didn't have it either he was just being provocative or he was mistaken we don't"
+  },
+  {
+    "t_start": 561.889,
+    "t_end": 563.81,
+    "text": "provocative or he was mistaken we don't know already got it already got it maybe"
+  },
+  {
+    "t_start": 563.81,
+    "t_end": 568.61,
+    "text": "he got it who knows right but in any case it the fact that he claimed that to"
+  },
+  {
+    "t_start": 568.61,
+    "t_end": 570.35,
+    "text": "case it the fact that he claimed that to have found it I think was a great"
+  },
+  {
+    "t_start": 570.35,
+    "t_end": 572.09,
+    "text": "have found it I think was a great accelerator of the host of the whole"
+  },
+  {
+    "t_start": 572.09,
+    "t_end": 574.13,
+    "text": "accelerator of the host of the whole field because people really wanted to"
+  },
+  {
+    "t_start": 574.13,
+    "t_end": 578.03,
+    "text": "field because people really wanted to and produce his proof So eventually it"
+  },
+  {
+    "t_start": 578.03,
+    "t_end": 580.31,
+    "text": "and produce his proof So eventually it was actually proved by uh in a very"
+  },
+  {
+    "t_start": 580.31,
+    "t_end": 582.769,
+    "text": "was actually proved by uh in a very different in a very complicated way not"
+  },
+  {
+    "t_start": 582.769,
+    "t_end": 587.15,
+    "text": "you know there isn't nobody was able to find a kind of Elementary proof where"
+  },
+  {
+    "t_start": 587.15,
+    "t_end": 589.61,
+    "text": "find a kind of Elementary proof where basically you take c b to the end to the"
+  },
+  {
+    "t_start": 589.61,
+    "t_end": 591.889,
+    "text": "basically you take c b to the end to the right hand side and then like write as a"
+  },
+  {
+    "t_start": 591.889,
+    "t_end": 593.449,
+    "text": "right hand side and then like write as a product or something it doesn't work it"
+  },
+  {
+    "t_start": 593.449,
+    "t_end": 598.85,
+    "text": "doesn't seem to work so instead uh mathematicians were able to relate this"
+  },
+  {
+    "t_start": 598.85,
+    "t_end": 600.889,
+    "text": "mathematicians were able to relate this statement to another statement which is"
+  },
+  {
+    "t_start": 600.889,
+    "t_end": 605.09,
+    "text": "statement to another statement which is much harder to to formulate and that"
+  },
+  {
+    "t_start": 605.09,
+    "t_end": 608.09,
+    "text": "statement is called shimura tanyama vacancy after three great mathematicians"
+  },
+  {
+    "t_start": 608.09,
+    "t_end": 612.889,
+    "text": "vacancy after three great mathematicians so very andreway is the one to whom a"
+  },
+  {
+    "t_start": 612.889,
+    "t_end": 614.509,
+    "text": "language letter was addressed he had an important part in this project as well"
+  },
+  {
+    "t_start": 614.509,
+    "t_end": 616.43,
+    "text": "important part in this project as well and shimurtayama were this great"
+  },
+  {
+    "t_start": 616.43,
+    "t_end": 620.509,
+    "text": "and shimurtayama were this great Japanese mathematicians so they had this"
+  },
+  {
+    "t_start": 620.509,
+    "t_end": 621.71,
+    "text": "conjecture which has to do with mathematologics which are called"
+  },
+  {
+    "t_start": 621.71,
+    "t_end": 625.43,
+    "text": "elliptic curves and so now so you have two different conjectures there is"
+  },
+  {
+    "t_start": 625.43,
+    "t_end": 629.03,
+    "text": "fermas Last Theorem well we call it thermosla's theorem because he claimed"
+  },
+  {
+    "t_start": 629.03,
+    "t_end": 631.13,
+    "text": "thermosla's theorem because he claimed to have proved it"
+  },
+  {
+    "t_start": 631.13,
+    "t_end": 635.21,
+    "text": "um these guys did not claim to have problems they were honest about it they"
+  },
+  {
+    "t_start": 635.21,
+    "t_end": 638.69,
+    "text": "problems they were honest about it they would put it out as an open question and"
+  },
+  {
+    "t_start": 638.69,
+    "t_end": 640.85,
+    "text": "in mathematics we call open questions conjectures those were two conjectures"
+  },
+  {
+    "t_start": 640.85,
+    "t_end": 645.949,
+    "text": "firma's Last Theorem and shimurtanayama very conjecture and so the decisive step"
+  },
+  {
+    "t_start": 645.949,
+    "t_end": 651.889,
+    "text": "very conjecture and so the decisive step in the proof of this was made by my"
+  },
+  {
+    "t_start": 651.889,
+    "t_end": 657.009,
+    "text": "colleague here at Berkeley Ken ribbett who I believe has been interviewed by a"
+  },
+  {
+    "t_start": 657.009,
+    "t_end": 660.29,
+    "text": "number file as well he showed that conjecture implies sharma's last year so"
+  },
+  {
+    "t_start": 660.29,
+    "t_end": 664.43,
+    "text": "conjecture implies sharma's last year so then the search was on for proof of this"
+  },
+  {
+    "t_start": 664.43,
+    "t_end": 668.329,
+    "text": "conjecture because people knew that as soon as you proved this one you get the"
+  },
+  {
+    "t_start": 668.329,
+    "t_end": 672.17,
+    "text": "it's not one of those Millennium prices for the simple reason that Millennium"
+  },
+  {
+    "t_start": 672.17,
+    "t_end": 674.03,
+    "text": "for the simple reason that Millennium prices were created after the stadium"
+  },
+  {
+    "t_start": 674.03,
+    "t_end": 678.41,
+    "text": "prices were created after the stadium was proved but if Millennium prices were"
+  },
+  {
+    "t_start": 678.41,
+    "t_end": 679.79,
+    "text": "created before then Andrew Wells and Richard Taylor would collect a million"
+  },
+  {
+    "t_start": 679.79,
+    "t_end": 686.329,
+    "text": "dollars I'm sure it would be would have been included on that list but it was a"
+  },
+  {
+    "t_start": 686.329,
+    "t_end": 687.41,
+    "text": "big prize and it is a result which is probably the most famous of all"
+  },
+  {
+    "t_start": 687.41,
+    "t_end": 689.389,
+    "text": "probably the most famous of all mathematical theorems"
+  },
+  {
+    "t_start": 689.389,
+    "t_end": 694.37,
+    "text": "um it stood uh for 300 more than 350 years you know so that's quite something"
+  },
+  {
+    "t_start": 694.37,
+    "t_end": 697.069,
+    "text": "years you know so that's quite something these days I would say human hypothesis"
+  },
+  {
+    "t_start": 697.069,
+    "t_end": 702.17,
+    "text": "these days I would say human hypothesis is the the big prize but it has it was"
+  },
+  {
+    "t_start": 702.17,
+    "t_end": 704.03,
+    "text": "is the the big prize but it has it was formulated by Riemann at the end of the"
+  },
+  {
+    "t_start": 704.03,
+    "t_end": 705.71,
+    "text": "formulated by Riemann at the end of the 19th century so it's a much younger"
+  },
+  {
+    "t_start": 705.71,
+    "t_end": 708.47,
+    "text": "19th century so it's a much younger problem compared to verma's Last Theorem"
+  },
+  {
+    "t_start": 708.47,
+    "t_end": 710.87,
+    "text": "problem compared to verma's Last Theorem so can rivets accomplishment was"
+  },
+  {
+    "t_start": 710.87,
+    "t_end": 715.009,
+    "text": "basically showing there was a bridge between the two that's right and so the"
+  },
+  {
+    "t_start": 715.009,
+    "t_end": 718.97,
+    "text": "race was on to do this one because you got that one for free exactly because he"
+  },
+  {
+    "t_start": 718.97,
+    "t_end": 720.889,
+    "text": "got that one for free exactly because he rivet established this already and that"
+  },
+  {
+    "t_start": 720.889,
+    "t_end": 724.79,
+    "text": "rivet established this already and that was a big deal this was in the 80s so"
+  },
+  {
+    "t_start": 724.79,
+    "t_end": 729.23,
+    "text": "then now what's the connection to the language program the connection is that"
+  },
+  {
+    "t_start": 729.23,
+    "t_end": 731.81,
+    "text": "this is this can be viewed this as a special case of language now when we say"
+  },
+  {
+    "t_start": 731.81,
+    "t_end": 734.99,
+    "text": "special case of language now when we say language program it we are referring to"
+  },
+  {
+    "t_start": 734.99,
+    "t_end": 737.63,
+    "text": "language program it we are referring to the whole set of ideas but one of the"
+  },
+  {
+    "t_start": 737.63,
+    "t_end": 740.87,
+    "text": "the whole set of ideas but one of the central ideas of the language program is"
+  },
+  {
+    "t_start": 740.87,
+    "t_end": 742.67,
+    "text": "What's called the language correspondence"
+  },
+  {
+    "t_start": 742.67,
+    "t_end": 746.509,
+    "text": "correspondence so it is about correspondence that is to"
+  },
+  {
+    "t_start": 746.509,
+    "t_end": 750.11,
+    "text": "like one-to-one correspondence between objects of different kind"
+  },
+  {
+    "t_start": 750.11,
+    "t_end": 755.99,
+    "text": "and simultaneous can be seen as an example of that language correspondence"
+  },
+  {
+    "t_start": 755.99,
+    "t_end": 757.97,
+    "text": "example of that language correspondence so let's talk about simultaneous"
+  },
+  {
+    "t_start": 757.97,
+    "t_end": 760.31,
+    "text": "so let's talk about simultaneous conjecture"
+  },
+  {
+    "t_start": 760.31,
+    "t_end": 766.069,
+    "text": "I want to give an example of what this statement of this conjecture says and to"
+  },
+  {
+    "t_start": 766.069,
+    "t_end": 768.11,
+    "text": "statement of this conjecture says and to formulate it I need to remind you"
+  },
+  {
+    "t_start": 768.11,
+    "t_end": 770.629,
+    "text": "formulate it I need to remind you something which is called a cloak"
+  },
+  {
+    "t_start": 770.629,
+    "t_end": 772.49,
+    "text": "something which is called a cloak arithmetic normally we do you know"
+  },
+  {
+    "t_start": 772.49,
+    "t_end": 774.65,
+    "text": "arithmetic normally we do you know addition multiplication of integers in"
+  },
+  {
+    "t_start": 774.65,
+    "t_end": 781.73,
+    "text": "addition multiplication of integers in the usual way but uh for instance when"
+  },
+  {
+    "t_start": 781.73,
+    "t_end": 784.37,
+    "text": "we talk about time we uh you know in here in North America we identify 30 we"
+  },
+  {
+    "t_start": 784.37,
+    "t_end": 786.829,
+    "text": "here in North America we identify 30 we don't say 13 hours we say 1 pm"
+  },
+  {
+    "t_start": 786.829,
+    "t_end": 792.11,
+    "text": "right and uh so they don't say 14 but we say 2 p.m so in other words we identify"
+  },
+  {
+    "t_start": 792.11,
+    "t_end": 794.569,
+    "text": "say 2 p.m so in other words we identify numbers which are related by 12 or a"
+  },
+  {
+    "t_start": 794.569,
+    "t_end": 796.009,
+    "text": "numbers which are related by 12 or a multiple of 12. that's why it's called"
+  },
+  {
+    "t_start": 796.009,
+    "t_end": 797.389,
+    "text": "multiple of 12. that's why it's called clock arithmetic"
+  },
+  {
+    "t_start": 797.389,
+    "t_end": 801.59,
+    "text": "uh normally we have 12 hours well in Europe it would be 24 I suppose so but"
+  },
+  {
+    "t_start": 801.59,
+    "t_end": 803.629,
+    "text": "Europe it would be 24 I suppose so but still you do module 24 it's called"
+  },
+  {
+    "t_start": 803.629,
+    "t_end": 806.81,
+    "text": "still you do module 24 it's called module 24 clock arithmetic but instead"
+  },
+  {
+    "t_start": 806.81,
+    "t_end": 812.81,
+    "text": "module 24 clock arithmetic but instead of 24 uh we could take any other whole"
+  },
+  {
+    "t_start": 812.81,
+    "t_end": 817.25,
+    "text": "interesting is to consider the case when that number is a prime number so here's"
+  },
+  {
+    "t_start": 817.25,
+    "t_end": 822.53,
+    "text": "that number is a prime number so here's an example where you have a clock which"
+  },
+  {
+    "t_start": 822.53,
+    "t_end": 824.87,
+    "text": "has seven hours right so you identify minus seven zero seven fourteen you"
+  },
+  {
+    "t_start": 824.87,
+    "t_end": 830.99,
+    "text": "right and so on so this is more this is a this can be done for any prime number"
+  },
+  {
+    "t_start": 830.99,
+    "t_end": 833.99,
+    "text": "a this can be done for any prime number 11 13 and so on so now suppose you have"
+  },
+  {
+    "t_start": 833.99,
+    "t_end": 836.509,
+    "text": "11 13 and so on so now suppose you have an equation here's a prime example a"
+  },
+  {
+    "t_start": 836.509,
+    "t_end": 841.25,
+    "text": "prime no pun intended example of an equation that is relevant to the story"
+  },
+  {
+    "t_start": 841.25,
+    "t_end": 842.81,
+    "text": "equation that is relevant to the story remember I was talking about elliptic"
+  },
+  {
+    "t_start": 842.81,
+    "t_end": 848.99,
+    "text": "curves so elliptic curves are is kind of a fancy name for equations of this type"
+  },
+  {
+    "t_start": 848.99,
+    "t_end": 853.85,
+    "text": "a fancy name for equations of this type this type of equations in two variables"
+  },
+  {
+    "t_start": 853.85,
+    "t_end": 856.43,
+    "text": "X and Y for which one of the variables has degree appears in degree two and the"
+  },
+  {
+    "t_start": 856.43,
+    "t_end": 862.31,
+    "text": "like here on the left hand side you have y squared as the highest power of Y on"
+  },
+  {
+    "t_start": 862.31,
+    "t_end": 864.05,
+    "text": "y squared as the highest power of Y on the right hand side you have the cube of"
+  },
+  {
+    "t_start": 864.05,
+    "t_end": 867.65,
+    "text": "the right hand side you have the cube of X as the highest power of X so this"
+  },
+  {
+    "t_start": 867.65,
+    "t_end": 874.49,
+    "text": "elliptic curve now why why is it called it to curve well if you look and this"
+  },
+  {
+    "t_start": 874.49,
+    "t_end": 877.97,
+    "text": "probably I should I should say it kind of slow down a little bit and say it"
+  },
+  {
+    "t_start": 877.97,
+    "t_end": 880.009,
+    "text": "more precisely one of the main ideas that emerged in you know in mathematics"
+  },
+  {
+    "t_start": 880.009,
+    "t_end": 883.67,
+    "text": "that emerged in you know in mathematics in the last hundred years is that"
+  },
+  {
+    "t_start": 883.67,
+    "t_end": 885.41,
+    "text": "in some sense equations are more important than Solutions you know it's"
+  },
+  {
+    "t_start": 885.41,
+    "t_end": 886.85,
+    "text": "important than Solutions you know it's kind of interesting because I think a"
+  },
+  {
+    "t_start": 886.85,
+    "t_end": 888.829,
+    "text": "kind of interesting because I think a lot of our teachers will should learn"
+  },
+  {
+    "t_start": 888.829,
+    "t_end": 891.05,
+    "text": "lot of our teachers will should learn from that because the emphasis in our"
+  },
+  {
+    "t_start": 891.05,
+    "t_end": 892.73,
+    "text": "from that because the emphasis in our schools I think is too much on solving"
+  },
+  {
+    "t_start": 892.73,
+    "t_end": 894.889,
+    "text": "schools I think is too much on solving things and solving means the easiest way"
+  },
+  {
+    "t_start": 894.889,
+    "t_end": 899.269,
+    "text": "things and solving means the easiest way to solve is to memorize the formula and"
+  },
+  {
+    "t_start": 899.269,
+    "t_end": 900.889,
+    "text": "that's why so few people actually have good experience in their math classes"
+  },
+  {
+    "t_start": 900.889,
+    "t_end": 903.41,
+    "text": "good experience in their math classes but if you realize that professional"
+  },
+  {
+    "t_start": 903.41,
+    "t_end": 904.73,
+    "text": "but if you realize that professional mathematicians actually care about"
+  },
+  {
+    "t_start": 904.73,
+    "t_end": 908.99,
+    "text": "equations a lot more than Solutions then this would help you to kind of refocus"
+  },
+  {
+    "t_start": 908.99,
+    "t_end": 912.59,
+    "text": "this would help you to kind of refocus completely and reorient the teaching and"
+  },
+  {
+    "t_start": 912.59,
+    "t_end": 913.91,
+    "text": "completely and reorient the teaching and learning process"
+  },
+  {
+    "t_start": 913.91,
+    "t_end": 918.23,
+    "text": "now what do I mean by equations equations matter more than Solutions"
+  },
+  {
+    "t_start": 918.23,
+    "t_end": 921.11,
+    "text": "equations matter more than Solutions because once you write an equation like"
+  },
+  {
+    "t_start": 921.11,
+    "t_end": 925.97,
+    "text": "you can talk about its Solutions but you can talk about its Solutions in"
+  },
+  {
+    "t_start": 925.97,
+    "t_end": 930.829,
+    "text": "ask what other values of X and Y in whole numbers so that the left hand side"
+  },
+  {
+    "t_start": 930.829,
+    "t_end": 934.79,
+    "text": "is equal to the right hand side that means you look for Solutions in integers"
+  },
+  {
+    "t_start": 934.79,
+    "t_end": 938.87,
+    "text": "means you look for Solutions in integers we say or whole numbers right but you"
+  },
+  {
+    "t_start": 938.87,
+    "t_end": 940.129,
+    "text": "can also look at Solutions in real numbers"
+  },
+  {
+    "t_start": 940.129,
+    "t_end": 943.069,
+    "text": "you can also look for Solutions in complex numbers"
+  },
+  {
+    "t_start": 943.069,
+    "t_end": 946.79,
+    "text": "and in fact if you look at the solutions of such an equation and complex numbers"
+  },
+  {
+    "t_start": 946.79,
+    "t_end": 952.43,
+    "text": "of such an equation and complex numbers you will find that the the set of all"
+  },
+  {
+    "t_start": 952.43,
+    "t_end": 955.069,
+    "text": "solutions can be presented as a Taurus as a kind of surface of a donut"
+  },
+  {
+    "t_start": 955.069,
+    "t_end": 960.47,
+    "text": "and that's what it's an example of what's called a Riemann surface and you"
+  },
+  {
+    "t_start": 960.47,
+    "t_end": 964.569,
+    "text": "what's called a Riemann surface and you know I always say that it's a Homer"
+  },
+  {
+    "t_start": 964.569,
+    "t_end": 968.81,
+    "text": "this Human Services the torai they're called elliptic curves so that's where"
+  },
+  {
+    "t_start": 968.81,
+    "t_end": 971.329,
+    "text": "called elliptic curves so that's where the name comes from it comes from the"
+  },
+  {
+    "t_start": 971.329,
+    "t_end": 973.31,
+    "text": "the name comes from it comes from the solutions of this equation over complex"
+  },
+  {
+    "t_start": 973.31,
+    "t_end": 974.21,
+    "text": "solutions of this equation over complex numbers"
+  },
+  {
+    "t_start": 974.21,
+    "t_end": 978.53,
+    "text": "but for this story we are going to be interested in Solutions of this equation"
+  },
+  {
+    "t_start": 978.53,
+    "t_end": 979.75,
+    "text": "interested in Solutions of this equation uh"
+  },
+  {
+    "t_start": 979.75,
+    "t_end": 986.15,
+    "text": "modulo a prime number you see so in other words we're looking"
+  },
+  {
+    "t_start": 986.15,
+    "t_end": 992.03,
+    "text": "which are integers it's whole numbers such that left hand side is equal to the"
+  },
+  {
+    "t_start": 992.03,
+    "t_end": 996.949,
+    "text": "such that left hand side is equal to the right hand side but not on the nose but"
+  },
+  {
+    "t_start": 996.949,
+    "t_end": 999.17,
+    "text": "in the clock arithmetic with respect to a given prime number so for instance if"
+  },
+  {
+    "t_start": 999.17,
+    "t_end": 1004.389,
+    "text": "a given prime number so for instance if we're doing it for prime number five it"
+  },
+  {
+    "t_start": 1004.389,
+    "t_end": 1005.889,
+    "text": "would mean that we only need the left hand side to be equal to the right hand"
+  },
+  {
+    "t_start": 1005.889,
+    "t_end": 1010.689,
+    "text": "side up to a multiple of five so for instance if they're equal up to 20 or up"
+  },
+  {
+    "t_start": 1010.689,
+    "t_end": 1016.569,
+    "text": "instance if they're equal up to 20 or up to 15 or negative 5 and so on we will"
+  },
+  {
+    "t_start": 1016.569,
+    "t_end": 1022.329,
+    "text": "system are you saying that we would find the solutions take them out convert them"
+  },
+  {
+    "t_start": 1022.329,
+    "t_end": 1024.61,
+    "text": "the solutions take them out convert them into modulo 5 and that's what we're"
+  },
+  {
+    "t_start": 1024.61,
+    "t_end": 1026.59,
+    "text": "into modulo 5 and that's what we're interested in or are we only allowed to"
+  },
+  {
+    "t_start": 1026.59,
+    "t_end": 1028.689,
+    "text": "interested in or are we only allowed to take the modulo 5 numbers to start with"
+  },
+  {
+    "t_start": 1028.689,
+    "t_end": 1030.669,
+    "text": "take the modulo 5 numbers to start with as our contenders that's right so first"
+  },
+  {
+    "t_start": 1030.669,
+    "t_end": 1034.03,
+    "text": "as our contenders that's right so first of all is contenders let's see if it's"
+  },
+  {
+    "t_start": 1034.03,
+    "t_end": 1036.309,
+    "text": "modular five we should only consider number zero one two three four both four"
+  },
+  {
+    "t_start": 1036.309,
+    "t_end": 1038.409,
+    "text": "number zero one two three four both four x and for y so you're really narrowing"
+  },
+  {
+    "t_start": 1038.409,
+    "t_end": 1040.929,
+    "text": "x and for y so you're really narrowing your options so there's only 25 options"
+  },
+  {
+    "t_start": 1040.929,
+    "t_end": 1045.25,
+    "text": "and then you can just calculate on a piece of paper uh what happens when you"
+  },
+  {
+    "t_start": 1045.25,
+    "t_end": 1047.11,
+    "text": "piece of paper uh what happens when you substitute you know x equals 0 y equals"
+  },
+  {
+    "t_start": 1047.11,
+    "t_end": 1049.21,
+    "text": "substitute you know x equals 0 y equals zero x equals one and all equals zero"
+  },
+  {
+    "t_start": 1049.21,
+    "t_end": 1054.01,
+    "text": "zero x equals one and all equals zero and so on and you go through all of"
+  },
+  {
+    "t_start": 1054.01,
+    "t_end": 1059.11,
+    "text": "the left hand side may be equal to the right hand side on the nose like for"
+  },
+  {
+    "t_start": 1059.11,
+    "t_end": 1063.19,
+    "text": "equals zero you see that both sides are equal to zero so that's a solution for"
+  },
+  {
+    "t_start": 1063.19,
+    "t_end": 1065.47,
+    "text": "equal to zero so that's a solution for sure not only modulo five but in fact"
+  },
+  {
+    "t_start": 1065.47,
+    "t_end": 1068.23,
+    "text": "sure not only modulo five but in fact for integer solution right or you could"
+  },
+  {
+    "t_start": 1068.23,
+    "t_end": 1072.49,
+    "text": "take for instance a four on the left hand side and then if you calculate you"
+  },
+  {
+    "t_start": 1072.49,
+    "t_end": 1074.65,
+    "text": "hand side and then if you calculate you get 4 squared which is 16 plus 4 that's"
+  },
+  {
+    "t_start": 1074.65,
+    "t_end": 1077.289,
+    "text": "get 4 squared which is 16 plus 4 that's 20. and 24 hour purposes right now is"
+  },
+  {
+    "t_start": 1077.289,
+    "t_end": 1079.81,
+    "text": "20. and 24 hour purposes right now is the same as good as zero so in fact I"
+  },
+  {
+    "t_start": 1079.81,
+    "t_end": 1082.09,
+    "text": "the same as good as zero so in fact I have listed here all the solutions out"
+  },
+  {
+    "t_start": 1082.09,
+    "t_end": 1084.19,
+    "text": "have listed here all the solutions out of 25 options out of the 25"
+  },
+  {
+    "t_start": 1084.19,
+    "t_end": 1087.01,
+    "text": "of 25 options out of the 25 possibilities namely X and Y being"
+  },
+  {
+    "t_start": 1087.01,
+    "t_end": 1092.529,
+    "text": "between zero and four we find actually there are four pairs X and Y for which"
+  },
+  {
+    "t_start": 1092.529,
+    "t_end": 1094.029,
+    "text": "there are four pairs X and Y for which the left hand side is equal to the right"
+  },
+  {
+    "t_start": 1094.029,
+    "t_end": 1098.59,
+    "text": "the left hand side is equal to the right hand side sometimes on the nose and"
+  },
+  {
+    "t_start": 1098.59,
+    "t_end": 1100.45,
+    "text": "sometimes up to a multiple five so for instance x equals zero y equals zero"
+  },
+  {
+    "t_start": 1100.45,
+    "t_end": 1106.81,
+    "text": "one y equals zero both sides equal to zero so these are amnesty Solutions x"
+  },
+  {
+    "t_start": 1106.81,
+    "t_end": 1108.49,
+    "text": "zero so these are amnesty Solutions x equals zero y equals four that's the one"
+  },
+  {
+    "t_start": 1108.49,
+    "t_end": 1110.77,
+    "text": "equals zero y equals four that's the one which I mentioned where you have left"
+  },
+  {
+    "t_start": 1110.77,
+    "t_end": 1112.51,
+    "text": "which I mentioned where you have left hand side is 20 and the right hand side"
+  },
+  {
+    "t_start": 1112.51,
+    "t_end": 1115.27,
+    "text": "hand side is 20 and the right hand side is zero but that that also qualifies as"
+  },
+  {
+    "t_start": 1115.27,
+    "t_end": 1117.61,
+    "text": "is zero but that that also qualifies as a solution in our current framework 20"
+  },
+  {
+    "t_start": 1117.61,
+    "t_end": 1122.89,
+    "text": "a solution in our current framework 20 is the same as 0 according to a clock"
+  },
+  {
+    "t_start": 1122.89,
+    "t_end": 1128.83,
+    "text": "equals zero where we also get the left hand side is 20 and the right hand side"
+  },
+  {
+    "t_start": 1128.83,
+    "t_end": 1132.85,
+    "text": "is zero again it is a solution so we have four Solutions module five so even"
+  },
+  {
+    "t_start": 1132.85,
+    "t_end": 1135.669,
+    "text": "have four Solutions module five so even though we had limited contenders it also"
+  },
+  {
+    "t_start": 1135.669,
+    "t_end": 1137.77,
+    "text": "though we had limited contenders it also was becoming easier because we we were"
+  },
+  {
+    "t_start": 1137.77,
+    "t_end": 1141.07,
+    "text": "becoming a little bit looser as what equals means that's right that's right"
+  },
+  {
+    "t_start": 1141.07,
+    "t_end": 1147.13,
+    "text": "equals means that's right that's right so but you see that it's really a kind"
+  },
+  {
+    "t_start": 1147.13,
+    "t_end": 1149.83,
+    "text": "of a problem that uh uh uh Elementary School student can can solve you know it"
+  },
+  {
+    "t_start": 1149.83,
+    "t_end": 1156.07,
+    "text": "School student can can solve you know it takes it takes time so here you would"
+  },
+  {
+    "t_start": 1156.07,
+    "t_end": 1157.81,
+    "text": "have to check uh 25 options and see for which of those options the left hand"
+  },
+  {
+    "t_start": 1157.81,
+    "t_end": 1163.51,
+    "text": "side is equal to the right hand side up to a multiple five if you go to the next"
+  },
+  {
+    "t_start": 1163.51,
+    "t_end": 1167.47,
+    "text": "have 49 options which is seven times seven you would have seven possibilities"
+  },
+  {
+    "t_start": 1167.47,
+    "t_end": 1172.029,
+    "text": "seven you would have seven possibilities for X seven possibilities or for y then"
+  },
+  {
+    "t_start": 1172.029,
+    "t_end": 1177.669,
+    "text": "longer but you can do it on a calculator or you can program it and you can have a"
+  },
+  {
+    "t_start": 1177.669,
+    "t_end": 1179.23,
+    "text": "simple program which can do it for you know relatively High prime numbers"
+  },
+  {
+    "t_start": 1179.23,
+    "t_end": 1184.15,
+    "text": "fairly quickly so here I have compiled the list on the left colon you have"
+  },
+  {
+    "t_start": 1184.15,
+    "t_end": 1189.43,
+    "text": "prime numbers 2 3 5 7 11 13. that's a clock these are how many hours we have"
+  },
+  {
+    "t_start": 1189.43,
+    "t_end": 1193.27,
+    "text": "in our clock we live in a strange kind of like Wonderland where we have not 12"
+  },
+  {
+    "t_start": 1193.27,
+    "t_end": 1196.21,
+    "text": "of like Wonderland where we have not 12 but let's say seven hours or I would"
+  },
+  {
+    "t_start": 1196.21,
+    "t_end": 1198.61,
+    "text": "but let's say seven hours or I would prefer 13 so today they would be longer"
+  },
+  {
+    "t_start": 1198.61,
+    "t_end": 1201.37,
+    "text": "prefer 13 so today they would be longer right so and then how many solutions so"
+  },
+  {
+    "t_start": 1201.37,
+    "t_end": 1203.289,
+    "text": "right so and then how many solutions so we just saw that for prime number five"
+  },
+  {
+    "t_start": 1203.289,
+    "t_end": 1204.85,
+    "text": "we just saw that for prime number five there are four Solutions it turns out"
+  },
+  {
+    "t_start": 1204.85,
+    "t_end": 1206.169,
+    "text": "there are four Solutions it turns out that for prime numbers two and three"
+  },
+  {
+    "t_start": 1206.169,
+    "t_end": 1207.909,
+    "text": "that for prime numbers two and three there are also four solutions for each"
+  },
+  {
+    "t_start": 1207.909,
+    "t_end": 1212.169,
+    "text": "there are also four solutions for each for prime number seven there are nine"
+  },
+  {
+    "t_start": 1212.169,
+    "t_end": 1214.09,
+    "text": "solutions for prime number 11 or 10 Solutions thirteen nine Solutions and so"
+  },
+  {
+    "t_start": 1214.09,
+    "t_end": 1218.049,
+    "text": "Solutions thirteen nine Solutions and so on remember we are talking about the"
+  },
+  {
+    "t_start": 1218.049,
+    "t_end": 1222.01,
+    "text": "what I said earlier you can have just one equation but it can have Solutions"
+  },
+  {
+    "t_start": 1222.01,
+    "t_end": 1224.289,
+    "text": "one equation but it can have Solutions in different domains and in different"
+  },
+  {
+    "t_start": 1224.289,
+    "t_end": 1227.95,
+    "text": "in different domains and in different numerical systems here we have one"
+  },
+  {
+    "t_start": 1227.95,
+    "t_end": 1229.81,
+    "text": "equation which can be viewed as an equation with respect to the clock"
+  },
+  {
+    "t_start": 1229.81,
+    "t_end": 1232.029,
+    "text": "equation with respect to the clock arithmetic module or any prime number so"
+  },
+  {
+    "t_start": 1232.029,
+    "t_end": 1233.169,
+    "text": "arithmetic module or any prime number so there are infinitely many possibilities"
+  },
+  {
+    "t_start": 1233.169,
+    "t_end": 1239.89,
+    "text": "there are infinitely many possibilities of what we could mean in this context by"
+  },
+  {
+    "t_start": 1239.89,
+    "t_end": 1242.77,
+    "text": "a solution so if you say solve this equation that's not a correctly uh"
+  },
+  {
+    "t_start": 1242.77,
+    "t_end": 1245.35,
+    "text": "equation that's not a correctly uh phrased question because then you can"
+  },
+  {
+    "t_start": 1245.35,
+    "t_end": 1249.789,
+    "text": "ask back in which domain and so in fact there are infinitely many possibilities"
+  },
+  {
+    "t_start": 1249.789,
+    "t_end": 1251.31,
+    "text": "there are infinitely many possibilities here"
+  },
+  {
+    "t_start": 1251.31,
+    "t_end": 1255.37,
+    "text": "and they correspond to the choices of prime numbers but for each of those"
+  },
+  {
+    "t_start": 1255.37,
+    "t_end": 1257.049,
+    "text": "prime numbers but for each of those primes there is a well-defined number"
+  },
+  {
+    "t_start": 1257.049,
+    "t_end": 1260.23,
+    "text": "primes there is a well-defined number the number of solutions and you can see"
+  },
+  {
+    "t_start": 1260.23,
+    "t_end": 1262.029,
+    "text": "that it kind of grows so the prime numbers grow and the number of solutions"
+  },
+  {
+    "t_start": 1262.029,
+    "t_end": 1266.47,
+    "text": "numbers grow and the number of solutions grows so in fact it turns out I dropped"
+  },
+  {
+    "t_start": 1266.47,
+    "t_end": 1269.83,
+    "text": "again like a 13 it dropped it dropped a little bit but if you if it's possible"
+  },
+  {
+    "t_start": 1269.83,
+    "t_end": 1273.549,
+    "text": "little bit but if you if it's possible to compile a much longer list and you"
+  },
+  {
+    "t_start": 1273.549,
+    "t_end": 1276.07,
+    "text": "will see that it kind of grows it's almost equal to P itself but with some"
+  },
+  {
+    "t_start": 1276.07,
+    "t_end": 1277.63,
+    "text": "almost equal to P itself but with some small defect so that's why it's actually"
+  },
+  {
+    "t_start": 1277.63,
+    "t_end": 1280.15,
+    "text": "small defect so that's why it's actually useful to consider not the actual"
+  },
+  {
+    "t_start": 1280.15,
+    "t_end": 1282.61,
+    "text": "useful to consider not the actual numbers of solutions but the the kind of"
+  },
+  {
+    "t_start": 1282.61,
+    "t_end": 1285.13,
+    "text": "numbers of solutions but the the kind of a defect the difference between the"
+  },
+  {
+    "t_start": 1285.13,
+    "t_end": 1292.39,
+    "text": "prime number itself p and the number of solutions that you have module p so then"
+  },
+  {
+    "t_start": 1292.39,
+    "t_end": 1293.83,
+    "text": "you see for instance if Prime is 5 we found that there are four Solutions so"
+  },
+  {
+    "t_start": 1293.83,
+    "t_end": 1295.45,
+    "text": "found that there are four Solutions so this number is equal to one because five"
+  },
+  {
+    "t_start": 1295.45,
+    "t_end": 1300.13,
+    "text": "this number is equal to one because five minus four is one likewise for seven you"
+  },
+  {
+    "t_start": 1300.13,
+    "t_end": 1301.99,
+    "text": "have nine Solutions so suddenly it's a little bit larger than the prime itself"
+  },
+  {
+    "t_start": 1301.99,
+    "t_end": 1305.89,
+    "text": "so that defect is actually going to be a negative number so this defects could be"
+  },
+  {
+    "t_start": 1305.89,
+    "t_end": 1307.75,
+    "text": "negative number so this defects could be both positive and negative and but"
+  },
+  {
+    "t_start": 1307.75,
+    "t_end": 1313.27,
+    "text": "they're going to be fairly close to zero they're not going to grow as fast as P"
+  },
+  {
+    "t_start": 1313.27,
+    "t_end": 1315.49,
+    "text": "whereas this numbers grow as fast as P so it's kind of a useful in"
+  },
+  {
+    "t_start": 1315.49,
+    "t_end": 1317.77,
+    "text": "so it's kind of a useful in normalization if you will relabeling of"
+  },
+  {
+    "t_start": 1317.77,
+    "t_end": 1318.549,
+    "text": "normalization if you will relabeling of things"
+  },
+  {
+    "t_start": 1318.549,
+    "t_end": 1322.21,
+    "text": "so now the question is what are these numbers and from what we have said it"
+  },
+  {
+    "t_start": 1322.21,
+    "t_end": 1324.07,
+    "text": "numbers and from what we have said it they look completely random and this"
+  },
+  {
+    "t_start": 1324.07,
+    "t_end": 1326.529,
+    "text": "they look completely random and this sequence looks completely chaotic there"
+  },
+  {
+    "t_start": 1326.529,
+    "t_end": 1331.33,
+    "text": "is no if you well this is too short a sample to actually make any conclusions"
+  },
+  {
+    "t_start": 1331.33,
+    "t_end": 1333.25,
+    "text": "sample to actually make any conclusions but obviously we can write a short"
+  },
+  {
+    "t_start": 1333.25,
+    "t_end": 1335.35,
+    "text": "but obviously we can write a short computer program so I could put them on"
+  },
+  {
+    "t_start": 1335.35,
+    "t_end": 1338.83,
+    "text": "the screen because you could put them on the screen uh the first 100 or whatever"
+  },
+  {
+    "t_start": 1338.83,
+    "t_end": 1341.23,
+    "text": "the screen uh the first 100 or whatever right"
+  },
+  {
+    "t_start": 1341.23,
+    "t_end": 1347.529,
+    "text": "oh but wait if you do it directly right so if you do it directly you see that"
+  },
+  {
+    "t_start": 1347.529,
+    "t_end": 1351.13,
+    "text": "you have to set up a new problem because for instance you go from five to seven"
+  },
+  {
+    "t_start": 1351.13,
+    "t_end": 1353.35,
+    "text": "for instance you go from five to seven the results about prime number five have"
+  },
+  {
+    "t_start": 1353.35,
+    "t_end": 1357.13,
+    "text": "the results about prime number five have no bearing on the results for prime"
+  },
+  {
+    "t_start": 1357.13,
+    "t_end": 1358.87,
+    "text": "number seven unless you have found some solution which is for which the left"
+  },
+  {
+    "t_start": 1358.87,
+    "t_end": 1360.49,
+    "text": "solution which is for which the left hand side and right hand side are"
+  },
+  {
+    "t_start": 1360.49,
+    "t_end": 1364.69,
+    "text": "coincide on the nose and not up to multiple of a prime so then of course"
+  },
+  {
+    "t_start": 1364.69,
+    "t_end": 1366.31,
+    "text": "multiple of a prime so then of course such solutions would be valid for every"
+  },
+  {
+    "t_start": 1366.31,
+    "t_end": 1369.19,
+    "text": "such solutions would be valid for every Prime but there are very few of those"
+  },
+  {
+    "t_start": 1369.19,
+    "t_end": 1371.47,
+    "text": "Prime but there are very few of those so in fact oh yes because every equation"
+  },
+  {
+    "t_start": 1371.47,
+    "t_end": 1373.63,
+    "text": "so in fact oh yes because every equation will have a different fingerprint like"
+  },
+  {
+    "t_start": 1373.63,
+    "t_end": 1374.95,
+    "text": "will have a different fingerprint like here that's right because when we talk"
+  },
+  {
+    "t_start": 1374.95,
+    "t_end": 1376.69,
+    "text": "here that's right because when we talk about Solutions module five we saw that"
+  },
+  {
+    "t_start": 1376.69,
+    "t_end": 1378.97,
+    "text": "about Solutions module five we saw that there was uh there were there were four"
+  },
+  {
+    "t_start": 1378.97,
+    "t_end": 1382.149,
+    "text": "there was uh there were there were four Solutions only two of them were"
+  },
+  {
+    "t_start": 1382.149,
+    "t_end": 1383.23,
+    "text": "Solutions where the left hand side is actually literally equal to the right"
+  },
+  {
+    "t_start": 1383.23,
+    "t_end": 1385.09,
+    "text": "actually literally equal to the right hand side and for two other Solutions"
+  },
+  {
+    "t_start": 1385.09,
+    "t_end": 1387.97,
+    "text": "hand side and for two other Solutions the the two sides differed by 20 which"
+  },
+  {
+    "t_start": 1387.97,
+    "t_end": 1392.47,
+    "text": "was a multiple of five but but 20 has not means nothing for modulus seven it's"
+  },
+  {
+    "t_start": 1392.47,
+    "t_end": 1396.13,
+    "text": "not means nothing for modulus seven it's not equal to zero module seven obviously"
+  },
+  {
+    "t_start": 1396.13,
+    "t_end": 1399.43,
+    "text": "it's not going to be divisible by seven in principle because they're both prime"
+  },
+  {
+    "t_start": 1399.43,
+    "t_end": 1403.93,
+    "text": "numbers right so for seven you have to redo the whole calculation from scratch"
+  },
+  {
+    "t_start": 1403.93,
+    "t_end": 1408.909,
+    "text": "then just as when you kind of like you're tired and you're sweaty from that"
+  },
+  {
+    "t_start": 1408.909,
+    "t_end": 1412.39,
+    "text": "you're tired and you're sweaty from that you say okay now do it for prime number"
+  },
+  {
+    "t_start": 1412.39,
+    "t_end": 1414.13,
+    "text": "11. so again you have to do it from scratch right so you have instantly many"
+  },
+  {
+    "t_start": 1414.13,
+    "t_end": 1417.49,
+    "text": "scratch right so you have instantly many computational problems which have which"
+  },
+  {
+    "t_start": 1417.49,
+    "t_end": 1422.409,
+    "text": "are priority looks like have nothing in common and the numbers that you get look"
+  },
+  {
+    "t_start": 1422.409,
+    "t_end": 1424.27,
+    "text": "common and the numbers that you get look completely random"
+  },
+  {
+    "t_start": 1424.27,
+    "t_end": 1429.61,
+    "text": "so what if we could but what if we could find another way to solve it what if I"
+  },
+  {
+    "t_start": 1429.61,
+    "t_end": 1431.59,
+    "text": "find another way to solve it what if I told you that there is actually"
+  },
+  {
+    "t_start": 1431.59,
+    "t_end": 1433.09,
+    "text": "told you that there is actually a totally different approach to this"
+  },
+  {
+    "t_start": 1433.09,
+    "t_end": 1435.43,
+    "text": "a totally different approach to this problem where all of these numbers"
+  },
+  {
+    "t_start": 1435.43,
+    "t_end": 1443.169,
+    "text": "could be written sort of in one stroke that's what the name conjecture says and"
+  },
+  {
+    "t_start": 1443.169,
+    "t_end": 1447.13,
+    "text": "that's what the name conjecture says and that's what the language program in"
+  },
+  {
+    "t_start": 1447.13,
+    "t_end": 1451.93,
+    "text": "general the language correspondence in general says it enables you to express"
+  },
+  {
+    "t_start": 1451.93,
+    "t_end": 1454.45,
+    "text": "the solution of this seemingly intractable problem in number Theory by"
+  },
+  {
+    "t_start": 1454.45,
+    "t_end": 1456.97,
+    "text": "intractable problem in number Theory by tools of harmonic analysis I realized"
+  },
+  {
+    "t_start": 1456.97,
+    "t_end": 1458.649,
+    "text": "tools of harmonic analysis I realized that the two columns are very very"
+  },
+  {
+    "t_start": 1458.649,
+    "t_end": 1462.43,
+    "text": "linked to one another but are you talking about trying to spit out column"
+  },
+  {
+    "t_start": 1462.43,
+    "t_end": 1464.47,
+    "text": "talking about trying to spit out column two or column three column three so"
+  },
+  {
+    "t_start": 1464.47,
+    "t_end": 1467.529,
+    "text": "two or column three column three so column three is somehow is a little"
+  },
+  {
+    "t_start": 1467.529,
+    "t_end": 1472.81,
+    "text": "it's kind of uh you have things which are kind of close average to zeros at"
+  },
+  {
+    "t_start": 1472.81,
+    "t_end": 1476.049,
+    "text": "are kind of close average to zeros at speak as opposed to growing as as a"
+  },
+  {
+    "t_start": 1476.049,
+    "t_end": 1477.97,
+    "text": "speak as opposed to growing as as a prime number grows so column three"
+  },
+  {
+    "t_start": 1477.97,
+    "t_end": 1484.93,
+    "text": "column three is where the where the meat is the question is to express to find a"
+  },
+  {
+    "t_start": 1484.93,
+    "t_end": 1489.07,
+    "text": "way to express all of these numbers for all primes all at once by some Magic by"
+  },
+  {
+    "t_start": 1489.07,
+    "t_end": 1491.47,
+    "text": "all primes all at once by some Magic by some miracle"
+  },
+  {
+    "t_start": 1491.47,
+    "t_end": 1495.85,
+    "text": "so now I want to describe this alternative solution which pops out"
+  },
+  {
+    "t_start": 1495.85,
+    "t_end": 1499.87,
+    "text": "completely out of the blue so there is no nothing in the original problem that"
+  },
+  {
+    "t_start": 1499.87,
+    "t_end": 1504.19,
+    "text": "no nothing in the original problem that could suggest that there is a way to"
+  },
+  {
+    "t_start": 1504.19,
+    "t_end": 1506.35,
+    "text": "solve it in this way so this is a kind of insight this is something which"
+  },
+  {
+    "t_start": 1506.35,
+    "t_end": 1511.75,
+    "text": "to me I still think we don't really understand why we can prove it now but I"
+  },
+  {
+    "t_start": 1511.75,
+    "t_end": 1513.31,
+    "text": "understand why we can prove it now but I still consider it as a sort of a miracle"
+  },
+  {
+    "t_start": 1513.31,
+    "t_end": 1518.23,
+    "text": "you know as a kind of black magic honestly okay so here's how it works the"
+  },
+  {
+    "t_start": 1518.23,
+    "t_end": 1520.27,
+    "text": "honestly okay so here's how it works the claim is that you can write a certain"
+  },
+  {
+    "t_start": 1520.27,
+    "t_end": 1522.13,
+    "text": "claim is that you can write a certain infinite series and I will explain what"
+  },
+  {
+    "t_start": 1522.13,
+    "t_end": 1527.409,
+    "text": "I mean by this in this variable queue Q is like X but you know we already have X"
+  },
+  {
+    "t_start": 1527.409,
+    "t_end": 1529.39,
+    "text": "is like X but you know we already have X in the equation so we just need a"
+  },
+  {
+    "t_start": 1529.39,
+    "t_end": 1531.43,
+    "text": "in the equation so we just need a different letter and so traditionally"
+  },
+  {
+    "t_start": 1531.43,
+    "t_end": 1537.73,
+    "text": "just a notation if you can use X or what a z or whatever you like so there is"
+  },
+  {
+    "t_start": 1537.73,
+    "t_end": 1538.87,
+    "text": "a z or whatever you like so there is this thing which is called infinite"
+  },
+  {
+    "t_start": 1538.87,
+    "t_end": 1541.87,
+    "text": "series which is written as this process infinite product and I will explain what"
+  },
+  {
+    "t_start": 1541.87,
+    "t_end": 1543.31,
+    "text": "infinite product and I will explain what it means which has the following"
+  },
+  {
+    "t_start": 1543.31,
+    "t_end": 1548.95,
+    "text": "property that if you open it has a very regular uh Behavior I'll explain what I"
+  },
+  {
+    "t_start": 1548.95,
+    "t_end": 1550.69,
+    "text": "regular uh Behavior I'll explain what I mean by that and then you can start"
+  },
+  {
+    "t_start": 1550.69,
+    "t_end": 1552.43,
+    "text": "mean by that and then you can start opening the brackets using the"
+  },
+  {
+    "t_start": 1552.43,
+    "t_end": 1558.669,
+    "text": "traditional rules of how you multiply you know various expressions of this of"
+  },
+  {
+    "t_start": 1558.669,
+    "t_end": 1559.93,
+    "text": "this sort when you start opening the brackets you're going to get an"
+  },
+  {
+    "t_start": 1559.93,
+    "t_end": 1561.669,
+    "text": "brackets you're going to get an expression which involves various powers"
+  },
+  {
+    "t_start": 1561.669,
+    "t_end": 1567.909,
+    "text": "of Q and there will be some coefficients appearing in front which will be a whole"
+  },
+  {
+    "t_start": 1567.909,
+    "t_end": 1572.23,
+    "text": "number so positive or negative and I claim that if you look at the power for"
+  },
+  {
+    "t_start": 1572.23,
+    "t_end": 1573.549,
+    "text": "example the P the fifth power the coefficient will be equal to exactly"
+  },
+  {
+    "t_start": 1573.549,
+    "t_end": 1574.87,
+    "text": "coefficient will be equal to exactly that number in the third column"
+  },
+  {
+    "t_start": 1574.87,
+    "t_end": 1578.71,
+    "text": "associate to five if you look at the coefficient in seventh power you will"
+  },
+  {
+    "t_start": 1578.71,
+    "t_end": 1581.049,
+    "text": "coefficient in seventh power you will get number negative two which was the"
+  },
+  {
+    "t_start": 1581.049,
+    "t_end": 1584.89,
+    "text": "number that we had in the third column Associated to seven and if you look at"
+  },
+  {
+    "t_start": 1584.89,
+    "t_end": 1586.75,
+    "text": "Associated to seven and if you look at the eleventh power you get coefficient"
+  },
+  {
+    "t_start": 1586.75,
+    "t_end": 1591.13,
+    "text": "the eleventh power you get coefficient one which is exactly what you get from"
+  },
+  {
+    "t_start": 1591.13,
+    "t_end": 1593.049,
+    "text": "the counting problem right and if you look at number 13"
+  },
+  {
+    "t_start": 1593.049,
+    "t_end": 1597.789,
+    "text": "look at number 13 let's hope that this is correct"
+  },
+  {
+    "t_start": 1597.789,
+    "t_end": 1603.549,
+    "text": "and so on so this one line of code if you will if we take the coefficient of Q"
+  },
+  {
+    "t_start": 1603.549,
+    "t_end": 1607.81,
+    "text": "to the power p p is a prime so like Q to the five Q to the seven Q to the 11 Q to"
+  },
+  {
+    "t_start": 1607.81,
+    "t_end": 1612.07,
+    "text": "the five Q to the seven Q to the 11 Q to the 13. if you take the coefficient in"
+  },
+  {
+    "t_start": 1612.07,
+    "t_end": 1617.35,
+    "text": "front because each of these Powers gets multiplied by something and call it B of"
+  },
+  {
+    "t_start": 1617.35,
+    "t_end": 1618.85,
+    "text": "P then a of P which I recall is the number which appears in the third column"
+  },
+  {
+    "t_start": 1618.85,
+    "t_end": 1623.529,
+    "text": "number which appears in the third column earlier it will be equal to B of P for"
+  },
+  {
+    "t_start": 1623.529,
+    "t_end": 1629.47,
+    "text": "so as you see it's like forever forever and there are instantly many primes as"
+  },
+  {
+    "t_start": 1629.47,
+    "t_end": 1633.73,
+    "text": "and there are instantly many primes as we know right yeah so it is a solution"
+  },
+  {
+    "t_start": 1633.73,
+    "t_end": 1637.39,
+    "text": "not to one not to five not a billion problems it's a solution to infinitely"
+  },
+  {
+    "t_start": 1637.39,
+    "t_end": 1642.85,
+    "text": "it's a kind of a one-liner it's like if it were if it were a stand-up comedy act"
+  },
+  {
+    "t_start": 1642.85,
+    "t_end": 1646.149,
+    "text": "it were if it were a stand-up comedy act you know so it could be like that would"
+  },
+  {
+    "t_start": 1646.149,
+    "t_end": 1650.71,
+    "text": "liners which would contain all the jokes that could that was ever told and that"
+  },
+  {
+    "t_start": 1650.71,
+    "t_end": 1655.69,
+    "text": "will ever be told forever and ever as the prime numbers get really really big"
+  },
+  {
+    "t_start": 1655.69,
+    "t_end": 1662.47,
+    "text": "coefficients to those numbers in column three stay around the vicinity of you"
+  },
+  {
+    "t_start": 1662.47,
+    "t_end": 1666.25,
+    "text": "know one and three and or do they start getting they grow they grow they will"
+  },
+  {
+    "t_start": 1666.25,
+    "t_end": 1668.89,
+    "text": "getting they grow they grow they will grow but they will grow as a square root"
+  },
+  {
+    "t_start": 1668.89,
+    "t_end": 1673.93,
+    "text": "not as B so it's a kind of the growth is much slower but they do get bigger they"
+  },
+  {
+    "t_start": 1673.93,
+    "t_end": 1677.71,
+    "text": "do get bigger yes and and they can be both positive and negative so they kind"
+  },
+  {
+    "t_start": 1677.71,
+    "t_end": 1681.73,
+    "text": "both positive and negative so they kind of they are average they're more or less"
+  },
+  {
+    "t_start": 1681.73,
+    "t_end": 1684.07,
+    "text": "average out to zero but occasionally they can become large positive numbers"
+  },
+  {
+    "t_start": 1684.07,
+    "t_end": 1687.73,
+    "text": "they can become large positive numbers large negative numbers but always within"
+  },
+  {
+    "t_start": 1687.73,
+    "t_end": 1691.99,
+    "text": "where p is the prime that we're talking about right okay so colossal compression"
+  },
+  {
+    "t_start": 1691.99,
+    "t_end": 1693.97,
+    "text": "about right okay so colossal compression of information"
+  },
+  {
+    "t_start": 1693.97,
+    "t_end": 1697.75,
+    "text": "it's like you know fine it's like we're really literally finding order in what"
+  },
+  {
+    "t_start": 1697.75,
+    "t_end": 1699.789,
+    "text": "really literally finding order in what appeared to be a completely random"
+  },
+  {
+    "t_start": 1699.789,
+    "t_end": 1705.73,
+    "text": "sequence of numbers a completely chaotic sequence of numbers and so another way I"
+  },
+  {
+    "t_start": 1705.73,
+    "t_end": 1707.35,
+    "text": "like to say is like it's like one line of code gives us a simple rule which"
+  },
+  {
+    "t_start": 1707.35,
+    "t_end": 1709.21,
+    "text": "of code gives us a simple rule which kind of generates the DNA of the"
+  },
+  {
+    "t_start": 1709.21,
+    "t_end": 1712.21,
+    "text": "kind of generates the DNA of the accounting problem it feels magical to"
+  },
+  {
+    "t_start": 1712.21,
+    "t_end": 1717.61,
+    "text": "accounting problem it feels magical to me except I don't know where you got"
+  },
+  {
+    "t_start": 1717.61,
+    "t_end": 1723.19,
+    "text": "right yeah that's right so now I want to explain uh what I mean by by this by the"
+  },
+  {
+    "t_start": 1723.19,
+    "t_end": 1726.549,
+    "text": "explain uh what I mean by by this by the series first of all so to explain to as"
+  },
+  {
+    "t_start": 1726.549,
+    "t_end": 1729.01,
+    "text": "series first of all so to explain to as a warm-up let me talk about this concept"
+  },
+  {
+    "t_start": 1729.01,
+    "t_end": 1731.89,
+    "text": "a warm-up let me talk about this concept which we call in mathematics uh"
+  },
+  {
+    "t_start": 1731.89,
+    "t_end": 1733.57,
+    "text": "which we call in mathematics uh generating function"
+  },
+  {
+    "t_start": 1733.57,
+    "t_end": 1737.89,
+    "text": "so if you have a sequence of numbers so this would be number n natural numbers"
+  },
+  {
+    "t_start": 1737.89,
+    "t_end": 1743.47,
+    "text": "one two three four five six and so on suppose that you have a certain number"
+  },
+  {
+    "t_start": 1743.47,
+    "t_end": 1746.049,
+    "text": "suppose that you have a certain number assigned to each the F of n so the"
+  },
+  {
+    "t_start": 1746.049,
+    "t_end": 1748.149,
+    "text": "assigned to each the F of n so the simplest sequence could be just one one"
+  },
+  {
+    "t_start": 1748.149,
+    "t_end": 1751.99,
+    "text": "let's say one to all of them that's the first example so then mathem I just have"
+  },
+  {
+    "t_start": 1751.99,
+    "t_end": 1754.21,
+    "text": "first example so then mathem I just have this trick where they say I don't want"
+  },
+  {
+    "t_start": 1754.21,
+    "t_end": 1757.269,
+    "text": "this trick where they say I don't want to look at this at this table instead I"
+  },
+  {
+    "t_start": 1757.269,
+    "t_end": 1758.889,
+    "text": "to look at this at this table instead I convert it into what's called a"
+  },
+  {
+    "t_start": 1758.889,
+    "t_end": 1760.63,
+    "text": "convert it into what's called a generating function or generating series"
+  },
+  {
+    "t_start": 1760.63,
+    "t_end": 1765.97,
+    "text": "generating function or generating series and so what this is is I will take F of"
+  },
+  {
+    "t_start": 1765.97,
+    "t_end": 1771.49,
+    "text": "multiplied by Q squared F of 3 multiplied by Q Cube and so on or you"
+  },
+  {
+    "t_start": 1771.49,
+    "t_end": 1773.35,
+    "text": "multiplied by Q Cube and so on or you know we like this notation Sigma for the"
+  },
+  {
+    "t_start": 1773.35,
+    "t_end": 1775.389,
+    "text": "know we like this notation Sigma for the summation sign and we'll say that we"
+  },
+  {
+    "t_start": 1775.389,
+    "t_end": 1780.85,
+    "text": "just go from one to infinity and we put F of n times Q to the N so what will"
+  },
+  {
+    "t_start": 1780.85,
+    "t_end": 1782.649,
+    "text": "F of n times Q to the N so what will this generating function be in our first"
+  },
+  {
+    "t_start": 1782.649,
+    "t_end": 1785.289,
+    "text": "this generating function be in our first example where we assign to every natural"
+  },
+  {
+    "t_start": 1785.289,
+    "t_end": 1787.99,
+    "text": "example where we assign to every natural number just number one it will look like"
+  },
+  {
+    "t_start": 1787.99,
+    "t_end": 1789.85,
+    "text": "number just number one it will look like this a cube"
+  },
+  {
+    "t_start": 1789.85,
+    "t_end": 1797.95,
+    "text": "plus Q squared plus Q Cube plus Q to the force and so on right so you see well"
+  },
+  {
+    "t_start": 1797.95,
+    "t_end": 1799.69,
+    "text": "force and so on right so you see well there's not much of an improvement in"
+  },
+  {
+    "t_start": 1799.69,
+    "t_end": 1801.19,
+    "text": "there's not much of an improvement in some sense because here you look"
+  },
+  {
+    "t_start": 1801.19,
+    "t_end": 1808.21,
+    "text": "vertical kind of you go down vertically here you go horizontally to the right"
+  },
+  {
+    "t_start": 1808.21,
+    "t_end": 1810.61,
+    "text": "but you can play with this we can rewrite this generating function in the"
+  },
+  {
+    "t_start": 1810.61,
+    "t_end": 1813.25,
+    "text": "rewrite this generating function in the following way as Q times another"
+  },
+  {
+    "t_start": 1813.25,
+    "t_end": 1814.93,
+    "text": "following way as Q times another generating function which now starts"
+  },
+  {
+    "t_start": 1814.93,
+    "t_end": 1818.83,
+    "text": "with one one plus Q Plus Q squared and so on clearly if you open the brackets"
+  },
+  {
+    "t_start": 1818.83,
+    "t_end": 1820.87,
+    "text": "so on clearly if you open the brackets this term will give you Q this term will"
+  },
+  {
+    "t_start": 1820.87,
+    "t_end": 1824.769,
+    "text": "this term will give you Q this term will give you Q squared this term will give"
+  },
+  {
+    "t_start": 1824.769,
+    "t_end": 1826.75,
+    "text": "you Q Cube and so on each number in the sum is equal to Q times the previous"
+  },
+  {
+    "t_start": 1826.75,
+    "t_end": 1829.029,
+    "text": "sum is equal to Q times the previous number and we know that if absolute"
+  },
+  {
+    "t_start": 1829.029,
+    "t_end": 1834.01,
+    "text": "value of Q is less than one this series actually converges to 1 divided by y 1"
+  },
+  {
+    "t_start": 1834.01,
+    "t_end": 1836.95,
+    "text": "actually converges to 1 divided by y 1 minus Q so that means that if"
+  },
+  {
+    "t_start": 1836.95,
+    "t_end": 1841.45,
+    "text": "in this original series Q was just a bookkeeping device it was just a"
+  },
+  {
+    "t_start": 1841.45,
+    "t_end": 1843.61,
+    "text": "bookkeeping device it was just a variable kind of indeterminate we don't"
+  },
+  {
+    "t_start": 1843.61,
+    "t_end": 1845.71,
+    "text": "variable kind of indeterminate we don't want to initially assign any value to it"
+  },
+  {
+    "t_start": 1845.71,
+    "t_end": 1848.35,
+    "text": "want to initially assign any value to it but then we notice that in fact this"
+  },
+  {
+    "t_start": 1848.35,
+    "t_end": 1849.73,
+    "text": "but then we notice that in fact this expression doesn't think some makes"
+  },
+  {
+    "t_start": 1849.73,
+    "t_end": 1853.69,
+    "text": "sense if instead of Q we substitute an actual number let's say a real number"
+  },
+  {
+    "t_start": 1853.69,
+    "t_end": 1857.11,
+    "text": "actual number let's say a real number from negative one to one or it could be"
+  },
+  {
+    "t_start": 1857.11,
+    "t_end": 1858.789,
+    "text": "a complex number with absolute value less than one then the series actually"
+  },
+  {
+    "t_start": 1858.789,
+    "t_end": 1861.43,
+    "text": "less than one then the series actually converges converges for real not like"
+  },
+  {
+    "t_start": 1861.43,
+    "t_end": 1864.029,
+    "text": "converges converges for real not like one plus two plus three plus four"
+  },
+  {
+    "t_start": 1864.029,
+    "t_end": 1866.409,
+    "text": "one plus two plus three plus four where it actually diverges but then"
+  },
+  {
+    "t_start": 1866.409,
+    "t_end": 1867.909,
+    "text": "where it actually diverges but then there are ways to extract sort of"
+  },
+  {
+    "t_start": 1867.909,
+    "t_end": 1869.769,
+    "text": "there are ways to extract sort of meaningful value here it actually it"
+  },
+  {
+    "t_start": 1869.769,
+    "t_end": 1875.529,
+    "text": "actually converges according to all the rules and so to this function 1 divided"
+  },
+  {
+    "t_start": 1875.529,
+    "t_end": 1880.389,
+    "text": "rules and so to this function 1 divided by 1 minus Q so that this expression"
+  },
+  {
+    "t_start": 1880.389,
+    "t_end": 1882.61,
+    "text": "becomes Q divided by 1 minus Q so you see instead of this infinite table we"
+  },
+  {
+    "t_start": 1882.61,
+    "t_end": 1883.99,
+    "text": "see instead of this infinite table we end up with this very cute looking"
+  },
+  {
+    "t_start": 1883.99,
+    "t_end": 1885.49,
+    "text": "end up with this very cute looking function so it contains information"
+  },
+  {
+    "t_start": 1885.49,
+    "t_end": 1889.149,
+    "text": "about those numbers F of n in the following sense that if you expand it in"
+  },
+  {
+    "t_start": 1889.149,
+    "t_end": 1893.169,
+    "text": "powers of q that is to say reverse this process and go from 1 divided by y minus"
+  },
+  {
+    "t_start": 1893.169,
+    "t_end": 1895.389,
+    "text": "process and go from 1 divided by y minus Q to this infinite series then you get"
+  },
+  {
+    "t_start": 1895.389,
+    "t_end": 1900.789,
+    "text": "this series and from this you can read off all the coefficients F of n which in"
+  },
+  {
+    "t_start": 1900.789,
+    "t_end": 1903.49,
+    "text": "this case that trivial kind of the O equal to one so that's the first example"
+  },
+  {
+    "t_start": 1903.49,
+    "t_end": 1907.57,
+    "text": "equal to one so that's the first example let me give you one more example suppose"
+  },
+  {
+    "t_start": 1907.57,
+    "t_end": 1914.649,
+    "text": "but one two three four five six and so on so then you're going to have a Q Plus"
+  },
+  {
+    "t_start": 1914.649,
+    "t_end": 1919.63,
+    "text": "on so then you're going to have a Q Plus 2 Q squared plus 3 Q Cube plus four Q to"
+  },
+  {
+    "t_start": 1919.63,
+    "t_end": 1920.47,
+    "text": "2 Q squared plus 3 Q Cube plus four Q to the fourth so it's a little bit more"
+  },
+  {
+    "t_start": 1920.47,
+    "t_end": 1922.21,
+    "text": "the fourth so it's a little bit more interesting now and so you say okay is"
+  },
+  {
+    "t_start": 1922.21,
+    "t_end": 1923.769,
+    "text": "interesting now and so you say okay is it possible to also convert it into"
+  },
+  {
+    "t_start": 1923.769,
+    "t_end": 1925.21,
+    "text": "it possible to also convert it into something like this and the answer is"
+  },
+  {
+    "t_start": 1925.21,
+    "t_end": 1927.85,
+    "text": "something like this and the answer is yes in fact you can because you can also"
+  },
+  {
+    "t_start": 1927.85,
+    "t_end": 1935.47,
+    "text": "yes in fact you can because you can also rewrite it as Q times 1 plus 2q plus 3 Q"
+  },
+  {
+    "t_start": 1935.47,
+    "t_end": 1939.73,
+    "text": "squared and so on I claim that in fact this green Series in Brackets is the"
+  },
+  {
+    "t_start": 1939.73,
+    "t_end": 1940.63,
+    "text": "this green Series in Brackets is the derivative"
+  },
+  {
+    "t_start": 1940.63,
+    "t_end": 1944.889,
+    "text": "by respect to Q of this series because when you take and when we take"
+  },
+  {
+    "t_start": 1944.889,
+    "t_end": 1949.75,
+    "text": "derivatives we are just doing it term by term so one is a constant it's"
+  },
+  {
+    "t_start": 1949.75,
+    "t_end": 1955.149,
+    "text": "nothing Q will give you one the derivative of Q is one with respect to Q"
+  },
+  {
+    "t_start": 1955.149,
+    "t_end": 1960.49,
+    "text": "derivative of Q is one with respect to Q right this is dgq okay so Q will give"
+  },
+  {
+    "t_start": 1960.49,
+    "t_end": 1964.93,
+    "text": "Cube the next term will give you three Q squared and you see that it's exactly"
+  },
+  {
+    "t_start": 1964.93,
+    "t_end": 1966.07,
+    "text": "squared and you see that it's exactly the pattern that you get each"
+  },
+  {
+    "t_start": 1966.07,
+    "t_end": 1967.69,
+    "text": "the pattern that you get each coefficient is going to be an integer"
+  },
+  {
+    "t_start": 1967.69,
+    "t_end": 1969.25,
+    "text": "coefficient is going to be an integer one two three four because when you take"
+  },
+  {
+    "t_start": 1969.25,
+    "t_end": 1973.21,
+    "text": "one two three four because when you take the derivative of Q to the N you get n"
+  },
+  {
+    "t_start": 1973.21,
+    "t_end": 1975.61,
+    "text": "times Q to the N minus 1. now what it suggests is that this sums up to the"
+  },
+  {
+    "t_start": 1975.61,
+    "t_end": 1978.13,
+    "text": "suggests is that this sums up to the derivative of this and for those who"
+  },
+  {
+    "t_start": 1978.13,
+    "t_end": 1980.95,
+    "text": "derivative of this and for those who remember their calculus course they will"
+  },
+  {
+    "t_start": 1980.95,
+    "t_end": 1983.59,
+    "text": "remember their calculus course they will immediately see that it is one divided"
+  },
+  {
+    "t_start": 1983.59,
+    "t_end": 1987.85,
+    "text": "by 1 minus Q squared so you see the result here so the result in a previous"
+  },
+  {
+    "t_start": 1987.85,
+    "t_end": 1989.769,
+    "text": "result here so the result in a previous example when all the numbers were equal"
+  },
+  {
+    "t_start": 1989.769,
+    "t_end": 1994.69,
+    "text": "example when all the numbers were equal to one now we'll be so in that case it"
+  },
+  {
+    "t_start": 1994.69,
+    "t_end": 1998.409,
+    "text": "was Q divided by one minus q but now it's going to be Q divided by 1 minus Q"
+  },
+  {
+    "t_start": 1998.409,
+    "t_end": 2002.909,
+    "text": "so again you have a very compact expression which contains information"
+  },
+  {
+    "t_start": 2002.909,
+    "t_end": 2007.71,
+    "text": "about those numbers which in this case if you if you reverse the process and"
+  },
+  {
+    "t_start": 2007.71,
+    "t_end": 2012.81,
+    "text": "you expand this back into a generating function you will see one two three four"
+  },
+  {
+    "t_start": 2012.81,
+    "t_end": 2015.389,
+    "text": "function you will see one two three four and so on popping up skefficients in"
+  },
+  {
+    "t_start": 2015.389,
+    "t_end": 2016.769,
+    "text": "and so on popping up skefficients in front of the corresponding powers of Q"
+  },
+  {
+    "t_start": 2016.769,
+    "t_end": 2021.33,
+    "text": "front of the corresponding powers of Q so that these are two basic examples of"
+  },
+  {
+    "t_start": 2021.33,
+    "t_end": 2025.83,
+    "text": "function that we have here which appears in the in the solution of the counting"
+  },
+  {
+    "t_start": 2025.83,
+    "t_end": 2031.35,
+    "text": "problem is kind of like that except it is written well you see here we in our"
+  },
+  {
+    "t_start": 2031.35,
+    "t_end": 2033.45,
+    "text": "is written well you see here we in our basic examples we were able to write"
+  },
+  {
+    "t_start": 2033.45,
+    "t_end": 2035.43,
+    "text": "basic examples we were able to write things in terms of kind of some simple"
+  },
+  {
+    "t_start": 2035.43,
+    "t_end": 2038.61,
+    "text": "things in terms of kind of some simple factors where we used actually geometric"
+  },
+  {
+    "t_start": 2038.61,
+    "t_end": 2041.07,
+    "text": "factors where we used actually geometric progression so in fact here it was"
+  },
+  {
+    "t_start": 2041.07,
+    "t_end": 2042.93,
+    "text": "progression so in fact here it was essential that absolute value of Q was"
+  },
+  {
+    "t_start": 2042.93,
+    "t_end": 2047.07,
+    "text": "less than one in some sense this is very similar because except now we have only"
+  },
+  {
+    "t_start": 2047.07,
+    "t_end": 2049.53,
+    "text": "similar because except now we have only positive powers of things like 1 minus Q"
+  },
+  {
+    "t_start": 2049.53,
+    "t_end": 2054.869,
+    "text": "or 1 minus Q to the 11. but the meaning of this expression uh is very similar to"
+  },
+  {
+    "t_start": 2054.869,
+    "t_end": 2057.089,
+    "text": "of this expression uh is very similar to what we have just discussed it is"
+  },
+  {
+    "t_start": 2057.089,
+    "t_end": 2060.389,
+    "text": "what we have just discussed it is something that would be converted into"
+  },
+  {
+    "t_start": 2060.389,
+    "t_end": 2066.99,
+    "text": "into a series of the form F of 1 times Q Plus F of 2 times Q squared plus F of 3"
+  },
+  {
+    "t_start": 2066.99,
+    "t_end": 2072.75,
+    "text": "Plus F of 2 times Q squared plus F of 3 times Q Cube and so on by simply opening"
+  },
+  {
+    "t_start": 2072.75,
+    "t_end": 2079.169,
+    "text": "the brackets so for instance in this example F of 1 is is equal to one F of 2"
+  },
+  {
+    "t_start": 2079.169,
+    "t_end": 2083.609,
+    "text": "negative 1 and so on now you may ask how do I go from this line to this line"
+  },
+  {
+    "t_start": 2083.609,
+    "t_end": 2086.129,
+    "text": "do I go from this line to this line simply by opening brackets so you see"
+  },
+  {
+    "t_start": 2086.129,
+    "t_end": 2087.93,
+    "text": "simply by opening brackets so you see first of all there is some regularity in"
+  },
+  {
+    "t_start": 2087.93,
+    "t_end": 2089.609,
+    "text": "first of all there is some regularity in this what is the what is the regularity"
+  },
+  {
+    "t_start": 2089.609,
+    "t_end": 2092.43,
+    "text": "this what is the what is the regularity so there is a coefficient Q which is"
+  },
+  {
+    "t_start": 2092.43,
+    "t_end": 2094.95,
+    "text": "kind of familiar to us now because in our basic examples we also had a q as a"
+  },
+  {
+    "t_start": 2094.95,
+    "t_end": 2097.829,
+    "text": "our basic examples we also had a q as a factor next it comes 1 minus U squared"
+  },
+  {
+    "t_start": 2097.829,
+    "t_end": 2104.25,
+    "text": "we know how to open brackets 1 minus Q squared is simply 1 minus two Q Plus Q"
+  },
+  {
+    "t_start": 2104.25,
+    "t_end": 2107.13,
+    "text": "squared is simply 1 minus two Q Plus Q squared right so then we replace this"
+  },
+  {
+    "t_start": 2107.13,
+    "t_end": 2109.29,
+    "text": "squared right so then we replace this expression by 1 minus two Q Plus Q"
+  },
+  {
+    "t_start": 2109.29,
+    "t_end": 2116.069,
+    "text": "squared likewise 1 minus Q to the 11 squared is 1 minus 2 Q to the"
+  },
+  {
+    "t_start": 2116.069,
+    "t_end": 2122.43,
+    "text": "to the 11 squared is 1 minus 2 Q to the 11 plus Q to the power 22. so we replace"
+  },
+  {
+    "t_start": 2122.43,
+    "t_end": 2125.13,
+    "text": "that square Pi by by this expression then again comes something similar minus"
+  },
+  {
+    "t_start": 2125.13,
+    "t_end": 2130.47,
+    "text": "then again comes something similar minus Q squared so you see the regularity is"
+  },
+  {
+    "t_start": 2130.47,
+    "t_end": 2132.87,
+    "text": "twofold so so to write down this generating function uh first factor is Q"
+  },
+  {
+    "t_start": 2132.87,
+    "t_end": 2138.39,
+    "text": "generating function uh first factor is Q after that I write factors 1 minus Q"
+  },
+  {
+    "t_start": 2138.39,
+    "t_end": 2146.73,
+    "text": "leave some space then I write 1 minus q q squared do you get the idea yeah and"
+  },
+  {
+    "t_start": 2146.73,
+    "t_end": 2148.89,
+    "text": "q squared do you get the idea yeah and then in this basis I write something"
+  },
+  {
+    "t_start": 2148.89,
+    "t_end": 2157.17,
+    "text": "similar I write 1 minus Q to the 11. squared then here I write 1 minus Q to"
+  },
+  {
+    "t_start": 2157.17,
+    "t_end": 2159.93,
+    "text": "squared then here I write 1 minus Q to the 22. 22 being of course twice 11"
+  },
+  {
+    "t_start": 2159.93,
+    "t_end": 2166.05,
+    "text": "the 22. 22 being of course twice 11 squared then I write 1 minus Q to the 33"
+  },
+  {
+    "t_start": 2166.05,
+    "t_end": 2167.91,
+    "text": "always squared and there are two sequences one is where you have one"
+  },
+  {
+    "t_start": 2167.91,
+    "t_end": 2173.55,
+    "text": "minus q1 is Q squared when Q Cube and so on so clearly the next one is one minus"
+  },
+  {
+    "t_start": 2173.55,
+    "t_end": 2177.39,
+    "text": "on so clearly the next one is one minus Q so Square Cube fourth squared and"
+  },
+  {
+    "t_start": 2177.39,
+    "t_end": 2183.51,
+    "text": "after that the red one is going to be 1 minus Q to the 44. squared and so on"
+  },
+  {
+    "t_start": 2183.51,
+    "t_end": 2185.609,
+    "text": "minus Q to the 44. squared and so on right so that's clear now when you open"
+  },
+  {
+    "t_start": 2185.609,
+    "t_end": 2187.29,
+    "text": "right so that's clear now when you open the brackets you may be wondering"
+  },
+  {
+    "t_start": 2187.29,
+    "t_end": 2188.91,
+    "text": "the brackets you may be wondering whether it is legitimate because there"
+  },
+  {
+    "t_start": 2188.91,
+    "t_end": 2191.01,
+    "text": "whether it is legitimate because there are infinitely many terms but because"
+  },
+  {
+    "t_start": 2191.01,
+    "t_end": 2196.17,
+    "text": "the powers of Q are increasing as we throw in more and more factors you you"
+  },
+  {
+    "t_start": 2196.17,
+    "t_end": 2198.51,
+    "text": "throw in more and more factors you you see you can see clearly that when you"
+  },
+  {
+    "t_start": 2198.51,
+    "t_end": 2200.49,
+    "text": "see you can see clearly that when you open the brackets the only finitely"
+  },
+  {
+    "t_start": 2200.49,
+    "t_end": 2203.849,
+    "text": "open the brackets the only finitely manufacturers will affect the specific"
+  },
+  {
+    "t_start": 2203.849,
+    "t_end": 2205.95,
+    "text": "power of Q for instance if you're interested in Q squared it will come"
+  },
+  {
+    "t_start": 2205.95,
+    "t_end": 2212.01,
+    "text": "from here it will come from here but this is already Q to the 11 it's not"
+  },
+  {
+    "t_start": 2212.01,
+    "t_end": 2217.53,
+    "text": "likewise if you want you know Q to the power fourth or fifth this Q This terms"
+  },
+  {
+    "t_start": 2217.53,
+    "t_end": 2219.15,
+    "text": "power fourth or fifth this Q This terms will not affect it so only finite in"
+  },
+  {
+    "t_start": 2219.15,
+    "t_end": 2221.609,
+    "text": "will not affect it so only finite in many factors of this infinite product"
+  },
+  {
+    "t_start": 2221.609,
+    "t_end": 2226.29,
+    "text": "will contribute to a specific power of Cube that's why it is well defined so"
+  },
+  {
+    "t_start": 2226.29,
+    "t_end": 2228.329,
+    "text": "Cube that's why it is well defined so the only thing that you need to do here"
+  },
+  {
+    "t_start": 2228.329,
+    "t_end": 2230.55,
+    "text": "the only thing that you need to do here is just open the brackets and here I"
+  },
+  {
+    "t_start": 2230.55,
+    "t_end": 2232.41,
+    "text": "is just open the brackets and here I give the expression for the first few"
+  },
+  {
+    "t_start": 2232.41,
+    "t_end": 2237.45,
+    "text": "terms up to Q to the 13 and so the statement of the name of a conjecture in"
+  },
+  {
+    "t_start": 2237.45,
+    "t_end": 2239.25,
+    "text": "statement of the name of a conjecture in this particular case is that if you"
+  },
+  {
+    "t_start": 2239.25,
+    "t_end": 2242.43,
+    "text": "this particular case is that if you focus not on all coefficients not on all"
+  },
+  {
+    "t_start": 2242.43,
+    "t_end": 2246.87,
+    "text": "focus not on all coefficients not on all powers of Q the way we discussed in our"
+  },
+  {
+    "t_start": 2246.87,
+    "t_end": 2250.589,
+    "text": "basic example but only the prime Powers so you look just at the coefficients in"
+  },
+  {
+    "t_start": 2250.589,
+    "t_end": 2255.63,
+    "text": "front of Q squared Q Cube Q to the fifth Q to the seventh Q"
+  },
+  {
+    "t_start": 2255.63,
+    "t_end": 2260.97,
+    "text": "to the eleven Q to the 13 and so on where what do I what do they all of them"
+  },
+  {
+    "t_start": 2260.97,
+    "t_end": 2265.89,
+    "text": "where what do I what do they all of them have in common they are all Q to the"
+  },
+  {
+    "t_start": 2265.89,
+    "t_end": 2268.29,
+    "text": "power P where p is a prime number then each of these monomials each of these"
+  },
+  {
+    "t_start": 2268.29,
+    "t_end": 2273.87,
+    "text": "Powers will come with the coefficient so the equation I call this B of two I will"
+  },
+  {
+    "t_start": 2273.87,
+    "t_end": 2280.71,
+    "text": "the equation I call this B of two I will call this B of three bo5 bo7 B of 11 B"
+  },
+  {
+    "t_start": 2280.71,
+    "t_end": 2287.37,
+    "text": "for every p and p being a prime number B of p is equal to a of P which gives the"
+  },
+  {
+    "t_start": 2287.37,
+    "t_end": 2289.23,
+    "text": "of p is equal to a of P which gives the solution of the counting problem for"
+  },
+  {
+    "t_start": 2289.23,
+    "t_end": 2291.93,
+    "text": "solution of the counting problem for that prime number namely I recall that"
+  },
+  {
+    "t_start": 2291.93,
+    "t_end": 2295.65,
+    "text": "that prime number namely I recall that we are talking about the third colon so"
+  },
+  {
+    "t_start": 2295.65,
+    "t_end": 2301.47,
+    "text": "a of p is not exactly the number of solutions but it is p minus the number"
+  },
+  {
+    "t_start": 2301.47,
+    "t_end": 2305.19,
+    "text": "so all of these numbers which well if you know this guys you know obviously"
+  },
+  {
+    "t_start": 2305.19,
+    "t_end": 2306.75,
+    "text": "you know this guys you know obviously numbers of solutions because simply take"
+  },
+  {
+    "t_start": 2306.75,
+    "t_end": 2309.15,
+    "text": "numbers of solutions because simply take P minus that number right to get to get"
+  },
+  {
+    "t_start": 2309.15,
+    "t_end": 2311.01,
+    "text": "P minus that number right to get to get the number of solutions so all of these"
+  },
+  {
+    "t_start": 2311.01,
+    "t_end": 2313.47,
+    "text": "the number of solutions so all of these numbers can be found in one in one"
+  },
+  {
+    "t_start": 2313.47,
+    "t_end": 2315.51,
+    "text": "numbers can be found in one in one stroke so to speak from the coefficients"
+  },
+  {
+    "t_start": 2315.51,
+    "t_end": 2318.63,
+    "text": "stroke so to speak from the coefficients of this one generating function"
+  },
+  {
+    "t_start": 2318.63,
+    "t_end": 2324.03,
+    "text": "now what what what is the meaning of this function where does it come from"
+  },
+  {
+    "t_start": 2324.03,
+    "t_end": 2328.71,
+    "text": "right so and it turns out that this is an example of what is called a modular"
+  },
+  {
+    "t_start": 2328.71,
+    "t_end": 2330.089,
+    "text": "an example of what is called a modular form"
+  },
+  {
+    "t_start": 2330.089,
+    "t_end": 2333.41,
+    "text": "form so in fact"
+  },
+  {
+    "t_start": 2336.45,
+    "t_end": 2338.55,
+    "text": "this example illustrates the general principle that we can link elliptic"
+  },
+  {
+    "t_start": 2338.55,
+    "t_end": 2340.29,
+    "text": "principle that we can link elliptic curves"
+  },
+  {
+    "t_start": 2340.29,
+    "t_end": 2347.01,
+    "text": "equation that we talked about corresponds to the mathematical object"
+  },
+  {
+    "t_start": 2347.01,
+    "t_end": 2348.99,
+    "text": "corresponds to the mathematical object we call an elliptic curve"
+  },
+  {
+    "t_start": 2348.99,
+    "t_end": 2354.21,
+    "text": "and so this elliptic curve like more precisely counting problem counting"
+  },
+  {
+    "t_start": 2354.21,
+    "t_end": 2355.47,
+    "text": "precisely counting problem counting points"
+  },
+  {
+    "t_start": 2355.47,
+    "t_end": 2361.53,
+    "text": "on an elliptic curve modulo prime numbers can be linked"
+  },
+  {
+    "t_start": 2361.53,
+    "t_end": 2364.589,
+    "text": "numbers can be linked can be linked"
+  },
+  {
+    "t_start": 2366.63,
+    "t_end": 2369.99,
+    "text": "to a modular form in this way that the coefficients of the"
+  },
+  {
+    "t_start": 2369.99,
+    "t_end": 2376.19,
+    "text": "give us more or less number of solutions module prime number up to some simple"
+  },
+  {
+    "t_start": 2376.19,
+    "t_end": 2379.89,
+    "text": "module prime number up to some simple replacement and that statement is the"
+  },
+  {
+    "t_start": 2379.89,
+    "t_end": 2384.99,
+    "text": "statement of the name of a conjecture which is a special case of the language"
+  },
+  {
+    "t_start": 2384.99,
+    "t_end": 2386.49,
+    "text": "which is a special case of the language correspondence"
+  },
+  {
+    "t_start": 2386.49,
+    "t_end": 2391.47,
+    "text": "and that is a statement which gives us the proof of verma's Last Theorem okay"
+  },
+  {
+    "t_start": 2391.47,
+    "t_end": 2394.05,
+    "text": "the proof of verma's Last Theorem okay nice speaking about elliptic curves I"
+  },
+  {
+    "t_start": 2394.05,
+    "t_end": 2399.15,
+    "text": "want to mention these two books so this this one called elliptic Tails curves"
+  },
+  {
+    "t_start": 2399.15,
+    "t_end": 2400.589,
+    "text": "this one called elliptic Tails curves counting and number Theory so which"
+  },
+  {
+    "t_start": 2400.589,
+    "t_end": 2403.71,
+    "text": "counting and number Theory so which talks about a lot of the things that we"
+  },
+  {
+    "t_start": 2403.71,
+    "t_end": 2408.569,
+    "text": "curves look like and their Solutions in different numerical systems and so on so"
+  },
+  {
+    "t_start": 2408.569,
+    "t_end": 2410.49,
+    "text": "different numerical systems and so on so it's a really nice nice book explained"
+  },
+  {
+    "t_start": 2410.49,
+    "t_end": 2413.13,
+    "text": "it's a really nice nice book explained in Fairly you know understandable way"
+  },
+  {
+    "t_start": 2413.13,
+    "t_end": 2417.03,
+    "text": "okay and I think will be interesting to both mathematicians non-mathematicians"
+  },
+  {
+    "t_start": 2417.03,
+    "t_end": 2421.65,
+    "text": "alike we'll link to it we'll link to it we'll have a link in there and then the"
+  },
+  {
+    "t_start": 2421.65,
+    "t_end": 2425.43,
+    "text": "the other book is about cryptography using elliptic curves so the elliptic"
+  },
+  {
+    "t_start": 2425.43,
+    "t_end": 2429.99,
+    "text": "curves have recently found a real world applications to cryptography and also I"
+  },
+  {
+    "t_start": 2429.99,
+    "t_end": 2434.13,
+    "text": "applications to cryptography and also I want to mention in this regard that my"
+  },
+  {
+    "t_start": 2434.13,
+    "t_end": 2439.29,
+    "text": "for number file was about an algorithm actually it was not an encryption"
+  },
+  {
+    "t_start": 2439.29,
+    "t_end": 2445.05,
+    "text": "algorithm but it was an algorithm for generating student random numbers"
+  },
+  {
+    "t_start": 2445.05,
+    "t_end": 2450.21,
+    "text": "that this algorithm was proposed by the National Institute for standards and"
+  },
+  {
+    "t_start": 2450.21,
+    "t_end": 2456.21,
+    "text": "technology in the United States and then when Snowden revealed you know various"
+  },
+  {
+    "t_start": 2456.21,
+    "t_end": 2459.15,
+    "text": "when Snowden revealed you know various documents of NSA then people found out"
+  },
+  {
+    "t_start": 2459.15,
+    "t_end": 2462.569,
+    "text": "documents of NSA then people found out that actually that algorithm was had a"
+  },
+  {
+    "t_start": 2462.569,
+    "t_end": 2467.91,
+    "text": "that actually that algorithm was had a back door installed by NSA and this was"
+  },
+  {
+    "t_start": 2467.91,
+    "t_end": 2472.23,
+    "text": "important because those pseudo-random numbers were used to generate passwords"
+  },
+  {
+    "t_start": 2472.23,
+    "t_end": 2473.849,
+    "text": "and things like that various various numbers which were used in other"
+  },
+  {
+    "t_start": 2473.849,
+    "t_end": 2478.89,
+    "text": "algorithms so whoever had a back door to that algorithm it had like a master key"
+  },
+  {
+    "t_start": 2478.89,
+    "t_end": 2481.589,
+    "text": "that algorithm it had like a master key to open all doors you know that's"
+  },
+  {
+    "t_start": 2481.589,
+    "t_end": 2483.99,
+    "text": "to open all doors you know that's actually the that Infamous publication"
+  },
+  {
+    "t_start": 2483.99,
+    "t_end": 2489.03,
+    "text": "by the National Institute for standards and Technology nist recommendation for"
+  },
+  {
+    "t_start": 2489.03,
+    "t_end": 2494.31,
+    "text": "and Technology nist recommendation for random number generation and then uh"
+  },
+  {
+    "t_start": 2494.31,
+    "t_end": 2500.37,
+    "text": "elliptic curve random bit generator dual ecd-rbg here's the elliptic curve that"
+  },
+  {
+    "t_start": 2500.37,
+    "t_end": 2503.91,
+    "text": "ecd-rbg here's the elliptic curve that they used so in fact you can go back to"
+  },
+  {
+    "t_start": 2503.91,
+    "t_end": 2505.89,
+    "text": "my old video and then I talk about in more detail but you see this is an"
+  },
+  {
+    "t_start": 2505.89,
+    "t_end": 2507.75,
+    "text": "more detail but you see this is an equation very much like the one we have"
+  },
+  {
+    "t_start": 2507.75,
+    "t_end": 2510.27,
+    "text": "equation very much like the one we have discussed you have a second order"
+  },
+  {
+    "t_start": 2510.27,
+    "t_end": 2512.43,
+    "text": "discussed you have a second order polynomial in y on the left and the"
+  },
+  {
+    "t_start": 2512.43,
+    "t_end": 2514.77,
+    "text": "polynomial in y on the left and the third order polynomial of degree three"
+  },
+  {
+    "t_start": 2514.77,
+    "t_end": 2519.87,
+    "text": "cubic polynomial in X on the right hand side and here is the prime number here's"
+  },
+  {
+    "t_start": 2519.87,
+    "t_end": 2521.609,
+    "text": "side and here is the prime number here's how many hours the US government has in"
+  },
+  {
+    "t_start": 2521.609,
+    "t_end": 2523.069,
+    "text": "how many hours the US government has in on their clock"
+  },
+  {
+    "t_start": 2523.069,
+    "t_end": 2527.55,
+    "text": "see how many digits there are so anyway sometimes people ask you know this is"
+  },
+  {
+    "t_start": 2527.55,
+    "t_end": 2529.71,
+    "text": "sometimes people ask you know this is all very interesting but it looks very"
+  },
+  {
+    "t_start": 2529.71,
+    "t_end": 2530.91,
+    "text": "all very interesting but it looks very abstract what are the real world"
+  },
+  {
+    "t_start": 2530.91,
+    "t_end": 2532.05,
+    "text": "abstract what are the real world applications"
+  },
+  {
+    "t_start": 2532.05,
+    "t_end": 2537.21,
+    "text": "applications and So my answer to that is oh oh there"
+  },
+  {
+    "t_start": 2537.21,
+    "t_end": 2539.43,
+    "text": "and So my answer to that is oh oh there are applications you can be sure of that"
+  },
+  {
+    "t_start": 2539.43,
+    "t_end": 2541.829,
+    "text": "are applications you can be sure of that or if there aren't yet applications for"
+  },
+  {
+    "t_start": 2541.829,
+    "t_end": 2543.21,
+    "text": "or if there aren't yet applications for example of the type of questions we"
+  },
+  {
+    "t_start": 2543.21,
+    "t_end": 2545.31,
+    "text": "example of the type of questions we discussed regard regarding simultaneous"
+  },
+  {
+    "t_start": 2545.31,
+    "t_end": 2549.089,
+    "text": "discussed regard regarding simultaneous conjunction and so on there will be"
+  },
+  {
+    "t_start": 2549.089,
+    "t_end": 2556.41,
+    "text": "whether we will be wise enough not to use it for evil purposes you know which"
+  },
+  {
+    "t_start": 2556.41,
+    "t_end": 2558.21,
+    "text": "use it for evil purposes you know which unfortunately has been the case with"
+  },
+  {
+    "t_start": 2558.21,
+    "t_end": 2560.01,
+    "text": "unfortunately has been the case with some of the applications of mathematics"
+  },
+  {
+    "t_start": 2560.01,
+    "t_end": 2564.99,
+    "text": "some of the applications of mathematics and science in general and let's now go"
+  },
+  {
+    "t_start": 2564.99,
+    "t_end": 2566.79,
+    "text": "back and discuss modular forms so I explained that this infinite product"
+  },
+  {
+    "t_start": 2566.79,
+    "t_end": 2568.29,
+    "text": "explained that this infinite product represents What's called the modular"
+  },
+  {
+    "t_start": 2568.29,
+    "t_end": 2572.19,
+    "text": "form and this is an object of harmonic analysis so it's a totally different"
+  },
+  {
+    "t_start": 2572.19,
+    "t_end": 2574.05,
+    "text": "analysis so it's a totally different continent of mathematics from number"
+  },
+  {
+    "t_start": 2574.05,
+    "t_end": 2576.03,
+    "text": "continent of mathematics from number Theory where our accounting problem"
+  },
+  {
+    "t_start": 2576.03,
+    "t_end": 2578.13,
+    "text": "Theory where our accounting problem originated so what are these modular"
+  },
+  {
+    "t_start": 2578.13,
+    "t_end": 2582.45,
+    "text": "originated so what are these modular forms it turns out that as I explained"
+  },
+  {
+    "t_start": 2582.45,
+    "t_end": 2584.43,
+    "text": "in my sort of basic example of generating series sometimes something"
+  },
+  {
+    "t_start": 2584.43,
+    "t_end": 2589.17,
+    "text": "which appears as just a formal sum of various powers of Q some coefficients"
+  },
+  {
+    "t_start": 2589.17,
+    "t_end": 2591.75,
+    "text": "various powers of Q some coefficients like this one can be converted in in"
+  },
+  {
+    "t_start": 2591.75,
+    "t_end": 2593.37,
+    "text": "like this one can be converted in in something which looks much nicer it's"
+  },
+  {
+    "t_start": 2593.37,
+    "t_end": 2595.29,
+    "text": "something which looks much nicer it's kind of a more compact expression namely"
+  },
+  {
+    "t_start": 2595.29,
+    "t_end": 2598.589,
+    "text": "kind of a more compact expression namely one divided one by one minus Q so we"
+  },
+  {
+    "t_start": 2598.589,
+    "t_end": 2604.47,
+    "text": "have to be mindful of the fact that this equality holds only provided the Q the"
+  },
+  {
+    "t_start": 2604.47,
+    "t_end": 2608.91,
+    "text": "absolute value of Q is less than one that's when the series converges right"
+  },
+  {
+    "t_start": 2608.91,
+    "t_end": 2612.809,
+    "text": "and then it converges to this expression with modular forms the situation is very"
+  },
+  {
+    "t_start": 2612.809,
+    "t_end": 2613.89,
+    "text": "with modular forms the situation is very similar"
+  },
+  {
+    "t_start": 2613.89,
+    "t_end": 2620.01,
+    "text": "uh here we also have an expression of this of this kind the coefficient of the"
+  },
+  {
+    "t_start": 2620.01,
+    "t_end": 2623.13,
+    "text": "this of this kind the coefficient of the first part of Q is always going to be"
+  },
+  {
+    "t_start": 2623.13,
+    "t_end": 2625.17,
+    "text": "one it's kind of a normalization for this modular form then there will be F"
+  },
+  {
+    "t_start": 2625.17,
+    "t_end": 2632.67,
+    "text": "this modular form then there will be F of 2 Q squared F of 3 Q Cube plus Etc"
+  },
+  {
+    "t_start": 2632.67,
+    "t_end": 2635.01,
+    "text": "right and it turns out that this Expressions will also converge when Q"
+  },
+  {
+    "t_start": 2635.01,
+    "t_end": 2640.95,
+    "text": "absolute value of Q is less than one but in this case it is important to take not"
+  },
+  {
+    "t_start": 2640.95,
+    "t_end": 2643.19,
+    "text": "in this case it is important to take not just real numbers but complex numbers"
+  },
+  {
+    "t_start": 2643.19,
+    "t_end": 2648.99,
+    "text": "now as you know complex numbers can be represented by points on a plane where"
+  },
+  {
+    "t_start": 2648.99,
+    "t_end": 2651.45,
+    "text": "represented by points on a plane where the x-coordinate is the real part and"
+  },
+  {
+    "t_start": 2651.45,
+    "t_end": 2658.829,
+    "text": "the y coordinate is the imaginary part of the number so if you're interested in"
+  },
+  {
+    "t_start": 2658.829,
+    "t_end": 2665.13,
+    "text": "sense of complex numbers less than one they correspond to a disk of radius one"
+  },
+  {
+    "t_start": 2665.13,
+    "t_end": 2669.569,
+    "text": "you've got to be inside that so these numbers all have to be can be viewed as"
+  },
+  {
+    "t_start": 2669.569,
+    "t_end": 2672.15,
+    "text": "points inside the disk so now we get some geometry out of this so what starts"
+  },
+  {
+    "t_start": 2672.15,
+    "t_end": 2675.45,
+    "text": "some geometry out of this so what starts out as a as an infinite expression as a"
+  },
+  {
+    "t_start": 2675.45,
+    "t_end": 2681.39,
+    "text": "kind of a summation of uh various powers of Q with some coefficients even though"
+  },
+  {
+    "t_start": 2681.39,
+    "t_end": 2683.43,
+    "text": "of Q with some coefficients even though initially we write it as a product maybe"
+  },
+  {
+    "t_start": 2683.43,
+    "t_end": 2685.349,
+    "text": "initially we write it as a product maybe but you know eventually we can open the"
+  },
+  {
+    "t_start": 2685.349,
+    "t_end": 2686.849,
+    "text": "but you know eventually we can open the brackets and find out all the"
+  },
+  {
+    "t_start": 2686.849,
+    "t_end": 2691.89,
+    "text": "coefficients and so on but now we also realize that actually this infinite"
+  },
+  {
+    "t_start": 2691.89,
+    "t_end": 2694.65,
+    "text": "realize that actually this infinite expression has a well-defined value for"
+  },
+  {
+    "t_start": 2694.65,
+    "t_end": 2699.45,
+    "text": "expression has a well-defined value for any point inside the disk and every time"
+  },
+  {
+    "t_start": 2699.45,
+    "t_end": 2705.75,
+    "text": "because what we get is really a function it's a rule which assigns to every Point"
+  },
+  {
+    "t_start": 2705.75,
+    "t_end": 2707.97,
+    "text": "it's a rule which assigns to every Point inside the unit disk on the complex"
+  },
+  {
+    "t_start": 2707.97,
+    "t_end": 2710.73,
+    "text": "inside the unit disk on the complex plane some context number whether this"
+  },
+  {
+    "t_start": 2710.73,
+    "t_end": 2712.71,
+    "text": "plane some context number whether this function has any symmetries"
+  },
+  {
+    "t_start": 2712.71,
+    "t_end": 2719.01,
+    "text": "and the the modular forms are defined precisely by their symmetry properties"
+  },
+  {
+    "t_start": 2719.01,
+    "t_end": 2723.589,
+    "text": "precisely by their symmetry properties now before I explain what the Symmetry"
+  },
+  {
+    "t_start": 2723.589,
+    "t_end": 2729.089,
+    "text": "discuss kind of a a baby version of this kind of a simplified version of this"
+  },
+  {
+    "t_start": 2729.089,
+    "t_end": 2730.89,
+    "text": "kind of a simplified version of this which has to do with trigonometric"
+  },
+  {
+    "t_start": 2730.89,
+    "t_end": 2731.97,
+    "text": "which has to do with trigonometric functions"
+  },
+  {
+    "t_start": 2731.97,
+    "t_end": 2738.69,
+    "text": "functions the trigonometric function we consider as functions on the real line"
+  },
+  {
+    "t_start": 2738.69,
+    "t_end": 2740.79,
+    "text": "so you have for example sine of x important property of trigonometric"
+  },
+  {
+    "t_start": 2740.79,
+    "t_end": 2745.47,
+    "text": "function is that it is periodic so if you add 2 pi to the argument you will"
+  },
+  {
+    "t_start": 2745.47,
+    "t_end": 2747.569,
+    "text": "you add 2 pi to the argument you will get the same thing right but in fact"
+  },
+  {
+    "t_start": 2747.569,
+    "t_end": 2749.55,
+    "text": "get the same thing right but in fact then it means that if you add 4 Pi you"
+  },
+  {
+    "t_start": 2749.55,
+    "t_end": 2754.589,
+    "text": "will also get the same thing if you add 6 Pi you get the same thing and so on so"
+  },
+  {
+    "t_start": 2754.589,
+    "t_end": 2756.39,
+    "text": "in fact there is a whole bunch of symmetries of this function which are"
+  },
+  {
+    "t_start": 2756.39,
+    "t_end": 2761.19,
+    "text": "symmetries of this function which are labeled by integers so you could add 2"
+  },
+  {
+    "t_start": 2761.19,
+    "t_end": 2765.93,
+    "text": "resulting function will be equal to the original for any natural number or"
+  },
+  {
+    "t_start": 2765.93,
+    "t_end": 2773.069,
+    "text": "so that's what I mean by symmetry that you modify the argument in some precise"
+  },
+  {
+    "t_start": 2773.069,
+    "t_end": 2777.329,
+    "text": "you modify the argument in some precise way but as a result the function does"
+  },
+  {
+    "t_start": 2777.329,
+    "t_end": 2779.97,
+    "text": "not change so in this case the symmetries are labeled by integers and"
+  },
+  {
+    "t_start": 2779.97,
+    "t_end": 2782.43,
+    "text": "symmetries are labeled by integers and in fact symmetries form what's called a"
+  },
+  {
+    "t_start": 2782.43,
+    "t_end": 2787.41,
+    "text": "so we can talk about the group of symmetries and in this case the group of"
+  },
+  {
+    "t_start": 2787.41,
+    "t_end": 2791.79,
+    "text": "is a group of integers with respect to addition the word group here means that"
+  },
+  {
+    "t_start": 2791.79,
+    "t_end": 2794.49,
+    "text": "addition the word group here means that symmetries are not disjoint that we can"
+  },
+  {
+    "t_start": 2794.49,
+    "t_end": 2795.93,
+    "text": "symmetries are not disjoint that we can always take the sum or the difference of"
+  },
+  {
+    "t_start": 2795.93,
+    "t_end": 2799.65,
+    "text": "always take the sum or the difference of any two symmetries and we will get a new"
+  },
+  {
+    "t_start": 2799.65,
+    "t_end": 2803.55,
+    "text": "subtraction is just the usual addition and subtraction of natural numbers or"
+  },
+  {
+    "t_start": 2803.55,
+    "t_end": 2809.849,
+    "text": "call it Z which is sort of like a double line that's an addition we typically use"
+  },
+  {
+    "t_start": 2809.849,
+    "t_end": 2813.27,
+    "text": "line that's an addition we typically use for the group of integers uh the the"
+  },
+  {
+    "t_start": 2813.27,
+    "t_end": 2815.25,
+    "text": "for the group of integers uh the the cosine function has the same symmetries"
+  },
+  {
+    "t_start": 2815.25,
+    "t_end": 2821.91,
+    "text": "property that if you shift the argument by any multiple of 2 pi you get back"
+  },
+  {
+    "t_start": 2821.91,
+    "t_end": 2824.73,
+    "text": "there is no function and this is a prototype a blueprint for studying uh"
+  },
+  {
+    "t_start": 2824.73,
+    "t_end": 2826.77,
+    "text": "prototype a blueprint for studying uh symmetries of various functions so now"
+  },
+  {
+    "t_start": 2826.77,
+    "t_end": 2832.109,
+    "text": "symmetries of various functions so now let's go back to the context of modular"
+  },
+  {
+    "t_start": 2832.109,
+    "t_end": 2835.95,
+    "text": "forms uh the difference now is that a modular form is defined not on the real"
+  },
+  {
+    "t_start": 2835.95,
+    "t_end": 2841.41,
+    "text": "unit disk on a complex plane however it turns out that it also enjoys this kind"
+  },
+  {
+    "t_start": 2841.41,
+    "t_end": 2843.69,
+    "text": "turns out that it also enjoys this kind of symmetry property the corresponding"
+  },
+  {
+    "t_start": 2843.69,
+    "t_end": 2847.89,
+    "text": "group of symmetries is much more sophisticated it is what is called sl2z"
+  },
+  {
+    "t_start": 2847.89,
+    "t_end": 2852.21,
+    "text": "sophisticated it is what is called sl2z instead of explaining what it is I will"
+  },
+  {
+    "t_start": 2852.21,
+    "t_end": 2854.73,
+    "text": "approach it in a more geometric way so here we can encode the Symmetry property"
+  },
+  {
+    "t_start": 2854.73,
+    "t_end": 2856.349,
+    "text": "here we can encode the Symmetry property of the trigonometric functions by"
+  },
+  {
+    "t_start": 2856.349,
+    "t_end": 2861.75,
+    "text": "marking these points 2 pi n here the point zero then this will be minus 2 pi"
+  },
+  {
+    "t_start": 2861.75,
+    "t_end": 2866.91,
+    "text": "then there will be minus 4 pi and so on and then here will be 2 pi and here will"
+  },
+  {
+    "t_start": 2866.91,
+    "t_end": 2873.15,
+    "text": "and then here will be 2 pi and here will be 4 pi and so on so uh the symmetries"
+  },
+  {
+    "t_start": 2873.15,
+    "t_end": 2878.67,
+    "text": "line either to the right or to the left by an integral multiple of 2 pi right"
+  },
+  {
+    "t_start": 2878.67,
+    "t_end": 2881.97,
+    "text": "by an integral multiple of 2 pi right and we can try to represent uh the"
+  },
+  {
+    "t_start": 2881.97,
+    "t_end": 2883.829,
+    "text": "and we can try to represent uh the action of this group or more precisely"
+  },
+  {
+    "t_start": 2883.829,
+    "t_end": 2885.21,
+    "text": "action of this group or more precisely it could be some subgroup it's called"
+  },
+  {
+    "t_start": 2885.21,
+    "t_end": 2886.95,
+    "text": "it could be some subgroup it's called the concurrent subgroup of this group"
+  },
+  {
+    "t_start": 2886.95,
+    "t_end": 2891.15,
+    "text": "but it's a detail so let's ignore this for now instead of trying to describe"
+  },
+  {
+    "t_start": 2891.15,
+    "t_end": 2896.19,
+    "text": "how it acts I want to produce a picture which is analogous to this picture where"
+  },
+  {
+    "t_start": 2896.19,
+    "t_end": 2898.65,
+    "text": "which is analogous to this picture where the Symmetry the action of the"
+  },
+  {
+    "t_start": 2898.65,
+    "t_end": 2903.51,
+    "text": "symmetries of the real line which with respect to which the telemetric"
+  },
+  {
+    "t_start": 2903.51,
+    "t_end": 2905.79,
+    "text": "respect to which the telemetric functions remain unchanged is"
+  },
+  {
+    "t_start": 2905.79,
+    "t_end": 2909.809,
+    "text": "represented only now on the unit disk and for this I will consult a very"
+  },
+  {
+    "t_start": 2909.809,
+    "t_end": 2911.55,
+    "text": "and for this I will consult a very interesting book that I came across"
+  },
+  {
+    "t_start": 2911.55,
+    "t_end": 2913.609,
+    "text": "interesting book that I came across recently"
+  },
+  {
+    "t_start": 2913.609,
+    "t_end": 2919.41,
+    "text": "actually actually the purpose of this book which came out you know nine years"
+  },
+  {
+    "t_start": 2919.41,
+    "t_end": 2923.91,
+    "text": "book which came out you know nine years ago was to give a kind of an exposition"
+  },
+  {
+    "t_start": 2923.91,
+    "t_end": 2926.25,
+    "text": "ago was to give a kind of an exposition of the language program to know for non"
+  },
+  {
+    "t_start": 2926.25,
+    "t_end": 2928.829,
+    "text": "of the language program to know for non mathematicians so if a lot of pretty"
+  },
+  {
+    "t_start": 2928.829,
+    "t_end": 2930.63,
+    "text": "mathematicians so if a lot of pretty much everything that I discussed today"
+  },
+  {
+    "t_start": 2930.63,
+    "t_end": 2935.67,
+    "text": "is discussed in more detail in this book so if you're interested in this in the"
+  },
+  {
+    "t_start": 2935.67,
+    "t_end": 2938.609,
+    "text": "subject and that's what's one of the sources you know also various talks that"
+  },
+  {
+    "t_start": 2938.609,
+    "t_end": 2942.21,
+    "text": "I have given like the the slides that we have seen which are available on YouTube"
+  },
+  {
+    "t_start": 2942.21,
+    "t_end": 2947.37,
+    "text": "have seen which are available on YouTube and so which probably you can link also"
+  },
+  {
+    "t_start": 2947.37,
+    "t_end": 2948.99,
+    "text": "but I want to show you this uh this picture now because it's hard for me to"
+  },
+  {
+    "t_start": 2948.99,
+    "t_end": 2951.03,
+    "text": "picture now because it's hard for me to draw it but I will show you in"
+  },
+  {
+    "t_start": 2951.03,
+    "t_end": 2953.13,
+    "text": "draw it but I will show you in so see this it talks about the terminal"
+  },
+  {
+    "t_start": 2953.13,
+    "t_end": 2955.349,
+    "text": "so see this it talks about the terminal as theorem and the connection to the"
+  },
+  {
+    "t_start": 2955.349,
+    "t_end": 2959.99,
+    "text": "as theorem and the connection to the chimurtan Yama and here is the equation"
+  },
+  {
+    "t_start": 2959.99,
+    "t_end": 2962.49,
+    "text": "that we discussed today and the co-charismatic and generating functions"
+  },
+  {
+    "t_start": 2962.49,
+    "t_end": 2966.45,
+    "text": "co-charismatic and generating functions and all that and so there's a picture I"
+  },
+  {
+    "t_start": 2966.45,
+    "t_end": 2969.75,
+    "text": "wanted to show you so this is the this is the unit disk on the complex plane"
+  },
+  {
+    "t_start": 2969.75,
+    "t_end": 2972.45,
+    "text": "is the unit disk on the complex plane and this sort of triangles are the"
+  },
+  {
+    "t_start": 2972.45,
+    "t_end": 2976.23,
+    "text": "and this sort of triangles are the analogs of the intervals that you see on"
+  },
+  {
+    "t_start": 2976.23,
+    "t_end": 2977.609,
+    "text": "the real line under the action of symmetries of the trigonometric"
+  },
+  {
+    "t_start": 2977.609,
+    "t_end": 2983.49,
+    "text": "functions this kind of a curved kind of hyperbolic triangles are the analogues"
+  },
+  {
+    "t_start": 2983.49,
+    "t_end": 2987.45,
+    "text": "hyperbolic triangles are the analogues of the what matters is called"
+  },
+  {
+    "t_start": 2987.45,
+    "t_end": 2991.29,
+    "text": "fundamental domains for the Symmetry group of modular forms or in in one of"
+  },
+  {
+    "t_start": 2991.29,
+    "t_end": 2992.43,
+    "text": "the possible examples it could be a picture a little bit different from that"
+  },
+  {
+    "t_start": 2992.43,
+    "t_end": 2995.67,
+    "text": "picture a little bit different from that but very similar to that so it's kind of"
+  },
+  {
+    "t_start": 2995.67,
+    "t_end": 3000.71,
+    "text": "triangles with respect to the hyperbolic geometry non-euclidean geometry which"
+  },
+  {
+    "t_start": 3000.71,
+    "t_end": 3005.63,
+    "text": "geometry non-euclidean geometry which one can set up on the unit disk"
+  },
+  {
+    "t_start": 3005.63,
+    "t_end": 3008.03,
+    "text": "so that's the story of modular forms okay how are we going are we getting"
+  },
+  {
+    "t_start": 3008.03,
+    "t_end": 3009.53,
+    "text": "okay how are we going are we getting there yeah we're almost there all right"
+  },
+  {
+    "t_start": 3009.53,
+    "t_end": 3015.77,
+    "text": "and so now we have at least some sense of what uh elliptic curves are what the"
+  },
+  {
+    "t_start": 3015.77,
+    "t_end": 3017.77,
+    "text": "of what uh elliptic curves are what the counting problem for elliptic curves is"
+  },
+  {
+    "t_start": 3017.77,
+    "t_end": 3022.67,
+    "text": "counting problem for elliptic curves is and uh that's on one side of the"
+  },
+  {
+    "t_start": 3022.67,
+    "t_end": 3024.77,
+    "text": "language correspondence or in this particular case uh we're talking about"
+  },
+  {
+    "t_start": 3024.77,
+    "t_end": 3026.15,
+    "text": "particular case uh we're talking about what's called the schmurt I am away"
+  },
+  {
+    "t_start": 3026.15,
+    "t_end": 3027.53,
+    "text": "what's called the schmurt I am away conjecture"
+  },
+  {
+    "t_start": 3027.53,
+    "t_end": 3034.37,
+    "text": "and on the other side we have modular forms and now we have a sense of what"
+  },
+  {
+    "t_start": 3034.37,
+    "t_end": 3037.609,
+    "text": "what those are to put it simply the small time away conjecture is about the"
+  },
+  {
+    "t_start": 3037.609,
+    "t_end": 3039.29,
+    "text": "small time away conjecture is about the existence of a one-to-one correspondence"
+  },
+  {
+    "t_start": 3039.29,
+    "t_end": 3041.329,
+    "text": "existence of a one-to-one correspondence between"
+  },
+  {
+    "t_start": 3041.329,
+    "t_end": 3046.97,
+    "text": "elliptic curves on one side and modular forms on the other side"
+  },
+  {
+    "t_start": 3046.97,
+    "t_end": 3050.75,
+    "text": "forms on the other side and this correspondence satisfies this"
+  },
+  {
+    "t_start": 3050.75,
+    "t_end": 3055.91,
+    "text": "and this correspondence satisfies this special property that the solution to"
+  },
+  {
+    "t_start": 3055.91,
+    "t_end": 3057.349,
+    "text": "the counting problem for for a given elliptic curve"
+  },
+  {
+    "t_start": 3057.349,
+    "t_end": 3062.27,
+    "text": "can be read off of the coefficients of the modular forms module form when you"
+  },
+  {
+    "t_start": 3062.27,
+    "t_end": 3065.809,
+    "text": "the modular forms module form when you write it as a generating function in the"
+  },
+  {
+    "t_start": 3065.809,
+    "t_end": 3069.349,
+    "text": "variable queue when I say to you then what is the language program it is the"
+  },
+  {
+    "t_start": 3069.349,
+    "t_end": 3071.15,
+    "text": "what is the language program it is the toolkit and the methods and the"
+  },
+  {
+    "t_start": 3071.15,
+    "t_end": 3075.77,
+    "text": "conjectures and the algorithms to join these two parts of mathematics that's"
+  },
+  {
+    "t_start": 3075.77,
+    "t_end": 3077.45,
+    "text": "these two parts of mathematics that's right that probably didn't seem like"
+  },
+  {
+    "t_start": 3077.45,
+    "t_end": 3080.39,
+    "text": "they were joined at all it's fine that's right it's finding the hidden tunnels"
+  },
+  {
+    "t_start": 3080.39,
+    "t_end": 3082.49,
+    "text": "right it's finding the hidden tunnels this thread or Bridges or Building"
+  },
+  {
+    "t_start": 3082.49,
+    "t_end": 3086.329,
+    "text": "Bridges you know so but you're right a kind of hidden tunnel is maybe a better"
+  },
+  {
+    "t_start": 3086.329,
+    "t_end": 3088.79,
+    "text": "kind of hidden tunnel is maybe a better way to put it because I think that even"
+  },
+  {
+    "t_start": 3088.79,
+    "t_end": 3090.349,
+    "text": "way to put it because I think that even though we could now prove a lot of"
+  },
+  {
+    "t_start": 3090.349,
+    "t_end": 3092.03,
+    "text": "though we could now prove a lot of examples of this type of Correspondence"
+  },
+  {
+    "t_start": 3092.03,
+    "t_end": 3094.069,
+    "text": "examples of this type of Correspondence I still think it is mysterious I still"
+  },
+  {
+    "t_start": 3094.069,
+    "t_end": 3095.809,
+    "text": "I still think it is mysterious I still think we don't understand the underlying"
+  },
+  {
+    "t_start": 3095.809,
+    "t_end": 3097.13,
+    "text": "think we don't understand the underlying reasons so in other words there is"
+  },
+  {
+    "t_start": 3097.13,
+    "t_end": 3098.809,
+    "text": "reasons so in other words there is something beneath the surface something"
+  },
+  {
+    "t_start": 3098.809,
+    "t_end": 3102.29,
+    "text": "something beneath the surface something hidden there's some hidden we still"
+  },
+  {
+    "t_start": 3102.29,
+    "t_end": 3106.79,
+    "text": "don't understand which I think maybe in 100 years 200 years we will have a much"
+  },
+  {
+    "t_start": 3106.79,
+    "t_end": 3109.19,
+    "text": "100 years 200 years we will have a much clearer understanding and people would"
+  },
+  {
+    "t_start": 3109.19,
+    "t_end": 3114.829,
+    "text": "you know do a number of our video 100 years from now and they say you know 100"
+  },
+  {
+    "t_start": 3114.829,
+    "t_end": 3116.87,
+    "text": "years from now and they say you know 100 years ago people didn't understand what"
+  },
+  {
+    "t_start": 3116.87,
+    "t_end": 3118.37,
+    "text": "years ago people didn't understand what was the reason for this correspondence"
+  },
+  {
+    "t_start": 3118.37,
+    "t_end": 3120.17,
+    "text": "was the reason for this correspondence but actually it's so simple it is so"
+  },
+  {
+    "t_start": 3120.17,
+    "t_end": 3124.49,
+    "text": "obvious you know so in high school yes but now we don't see it yet but it's"
+  },
+  {
+    "t_start": 3124.49,
+    "t_end": 3126.589,
+    "text": "but now we don't see it yet but it's important so it's important to emphasize"
+  },
+  {
+    "t_start": 3126.589,
+    "t_end": 3128.93,
+    "text": "important so it's important to emphasize that there is this there are"
+  },
+  {
+    "t_start": 3128.93,
+    "t_end": 3130.43,
+    "text": "that there is this there are disconnections"
+  },
+  {
+    "t_start": 3130.43,
+    "t_end": 3134.99,
+    "text": "and that there probably is a good explanation for this but it's important"
+  },
+  {
+    "t_start": 3134.99,
+    "t_end": 3137.69,
+    "text": "explanation for this but it's important to how do we how can we come across"
+  },
+  {
+    "t_start": 3137.69,
+    "t_end": 3142.19,
+    "text": "those explanations we can come across by studying them more deeply in more detail"
+  },
+  {
+    "t_start": 3142.19,
+    "t_end": 3144.049,
+    "text": "studying them more deeply in more detail and considering the same kind of"
+  },
+  {
+    "t_start": 3144.049,
+    "t_end": 3145.13,
+    "text": "and considering the same kind of patterns"
+  },
+  {
+    "t_start": 3145.13,
+    "t_end": 3149.109,
+    "text": "patterns uh in other contexts as well you see so"
+  },
+  {
+    "t_start": 3149.109,
+    "t_end": 3156.53,
+    "text": "the time away conjecture which we which I have used to illustrate the general"
+  },
+  {
+    "t_start": 3156.53,
+    "t_end": 3158.27,
+    "text": "ideas of the language program I was known before the language language came"
+  },
+  {
+    "t_start": 3158.27,
+    "t_end": 3164.03,
+    "text": "known before the language language came up with his idea so he knew that this"
+  },
+  {
+    "t_start": 3164.03,
+    "t_end": 3165.589,
+    "text": "kind of an example so in fact the language program talks about much more"
+  },
+  {
+    "t_start": 3165.589,
+    "t_end": 3166.79,
+    "text": "language program talks about much more General things than what we have"
+  },
+  {
+    "t_start": 3166.79,
+    "t_end": 3170.809,
+    "text": "discussed so far and I wanted to just indicate what they are so so far the"
+  },
+  {
+    "t_start": 3170.809,
+    "t_end": 3172.97,
+    "text": "indicate what they are so so far the correspondence that we have seen is"
+  },
+  {
+    "t_start": 3172.97,
+    "t_end": 3175.19,
+    "text": "correspondence that we have seen is between elliptic curves on one side"
+  },
+  {
+    "t_start": 3175.19,
+    "t_end": 3178.01,
+    "text": "between elliptic curves on one side modular forms and the correspondence is"
+  },
+  {
+    "t_start": 3178.01,
+    "t_end": 3179.99,
+    "text": "modular forms and the correspondence is such that it matches certain numbers"
+  },
+  {
+    "t_start": 3179.99,
+    "t_end": 3182.45,
+    "text": "such that it matches certain numbers attached to objects of both kinds on"
+  },
+  {
+    "t_start": 3182.45,
+    "t_end": 3184.609,
+    "text": "attached to objects of both kinds on this side you have this counting problem"
+  },
+  {
+    "t_start": 3184.609,
+    "t_end": 3189.71,
+    "text": "and you get these numbers AP which is basically number of solutions mod P more"
+  },
+  {
+    "t_start": 3189.71,
+    "t_end": 3193.79,
+    "text": "basically number of solutions mod P more precisely P minus a number of solutions"
+  },
+  {
+    "t_start": 3193.79,
+    "t_end": 3195.23,
+    "text": "whereas on this side these are the coefficients of the module form"
+  },
+  {
+    "t_start": 3195.23,
+    "t_end": 3199.37,
+    "text": "confusion in front of Q to the power P so that's the Prototype that's a"
+  },
+  {
+    "t_start": 3199.37,
+    "t_end": 3200.87,
+    "text": "so that's the Prototype that's a blueprint of how language program"
+  },
+  {
+    "t_start": 3200.87,
+    "t_end": 3206.03,
+    "text": "language correspondence is formulated in in general in general in the general"
+  },
+  {
+    "t_start": 3206.03,
+    "t_end": 3207.23,
+    "text": "in general in general in the general context"
+  },
+  {
+    "t_start": 3207.23,
+    "t_end": 3213.829,
+    "text": "so the idea is that actually what appears on this side in general is not"
+  },
+  {
+    "t_start": 3213.829,
+    "t_end": 3216.77,
+    "text": "appears on this side in general is not going to be necessarily a curve elliptic"
+  },
+  {
+    "t_start": 3216.77,
+    "t_end": 3222.77,
+    "text": "be some equation what is relevant to the side is something that has to do with a"
+  },
+  {
+    "t_start": 3222.77,
+    "t_end": 3224.21,
+    "text": "side is something that has to do with a great French mathematician if that is"
+  },
+  {
+    "t_start": 3224.21,
+    "t_end": 3230.45,
+    "text": "golua so he was this French genius who died in a duel at the age of 20 but just"
+  },
+  {
+    "t_start": 3230.45,
+    "t_end": 3231.95,
+    "text": "died in a duel at the age of 20 but just before he died he made these profound"
+  },
+  {
+    "t_start": 3231.95,
+    "t_end": 3234.29,
+    "text": "before he died he made these profound contributions to mathematics he came up"
+  },
+  {
+    "t_start": 3234.29,
+    "t_end": 3239.569,
+    "text": "with what we call today the gala group group is a group of symmetries which you"
+  },
+  {
+    "t_start": 3239.569,
+    "t_end": 3240.77,
+    "text": "group is a group of symmetries which you see we have already encountered"
+  },
+  {
+    "t_start": 3240.77,
+    "t_end": 3245.089,
+    "text": "symmetries on the side of modular forms when we talked about symmetries of"
+  },
+  {
+    "t_start": 3245.089,
+    "t_end": 3246.95,
+    "text": "when we talked about symmetries of modular forms being similar to the"
+  },
+  {
+    "t_start": 3246.95,
+    "t_end": 3248.93,
+    "text": "modular forms being similar to the symmetries of trigonometric functions"
+  },
+  {
+    "t_start": 3248.93,
+    "t_end": 3253.849,
+    "text": "symmetries of trigonometric functions and so on but actually symmetries also"
+  },
+  {
+    "t_start": 3253.849,
+    "t_end": 3256.13,
+    "text": "naturally appear on this side we can call this side number theory side and"
+  },
+  {
+    "t_start": 3256.13,
+    "t_end": 3260.99,
+    "text": "this side harmonic analysis side right so symmetries are actually essential on"
+  },
+  {
+    "t_start": 3260.99,
+    "t_end": 3265.549,
+    "text": "so symmetries are actually essential on both sides and on the side of what we"
+  },
+  {
+    "t_start": 3265.549,
+    "t_end": 3267.71,
+    "text": "see here as elliptic curves or on the side of number theory in general what we"
+  },
+  {
+    "t_start": 3267.71,
+    "t_end": 3270.17,
+    "text": "side of number theory in general what we get is what's called representations of"
+  },
+  {
+    "t_start": 3270.17,
+    "t_end": 3272.75,
+    "text": "get is what's called representations of the gala groups now it will probably"
+  },
+  {
+    "t_start": 3272.75,
+    "t_end": 3276.65,
+    "text": "the gala groups now it will probably take us another bunch of videos to"
+  },
+  {
+    "t_start": 3276.65,
+    "t_end": 3281.63,
+    "text": "um to explain what this means but I discussed this I discussed this here so"
+  },
+  {
+    "t_start": 3281.63,
+    "t_end": 3288.23,
+    "text": "chapter 8 of love and math so that these are the more General things which in the"
+  },
+  {
+    "t_start": 3288.23,
+    "t_end": 3291.829,
+    "text": "are the more General things which in the case of simultaneama reduced to"
+  },
+  {
+    "t_start": 3291.829,
+    "t_end": 3295.79,
+    "text": "elliptic curves can be connected to ellipticals so it gives a much more a"
+  },
+  {
+    "t_start": 3295.79,
+    "t_end": 3298.25,
+    "text": "ellipticals so it gives a much more a kind of simplified way of describing"
+  },
+  {
+    "t_start": 3298.25,
+    "t_end": 3303.29,
+    "text": "these objects in general we may not have a specific equation which is behind this"
+  },
+  {
+    "t_start": 3303.29,
+    "t_end": 3305.45,
+    "text": "a specific equation which is behind this object yet they can be defined"
+  },
+  {
+    "t_start": 3305.45,
+    "t_end": 3308.27,
+    "text": "object yet they can be defined rigorously in number Theory so these are"
+  },
+  {
+    "t_start": 3308.27,
+    "t_end": 3312.049,
+    "text": "the objects on the left hand side so to speak of the language correspondence the"
+  },
+  {
+    "t_start": 3312.049,
+    "t_end": 3315.589,
+    "text": "speak of the language correspondence the number theory side and the objects on"
+  },
+  {
+    "t_start": 3315.589,
+    "t_end": 3317.15,
+    "text": "the other side on the right hand side are called automorphic functions or"
+  },
+  {
+    "t_start": 3317.15,
+    "t_end": 3323.63,
+    "text": "generalizations of the modular forums and again the idea is that there is a"
+  },
+  {
+    "t_start": 3323.63,
+    "t_end": 3325.309,
+    "text": "and again the idea is that there is a one-to-one respondents between the two"
+  },
+  {
+    "t_start": 3325.309,
+    "t_end": 3330.17,
+    "text": "because sometimes it can be depending on how you phrase it sometimes it gets it"
+  },
+  {
+    "t_start": 3330.17,
+    "t_end": 3333.89,
+    "text": "how you phrase it sometimes it gets it gets kind of more murky but in the"
+  },
+  {
+    "t_start": 3333.89,
+    "t_end": 3335.809,
+    "text": "clearest examples that have been understood so far one actually gets"
+  },
+  {
+    "t_start": 3335.809,
+    "t_end": 3338.15,
+    "text": "understood so far one actually gets one-to-one correspondence"
+  },
+  {
+    "t_start": 3338.15,
+    "t_end": 3343.79,
+    "text": "between objects of two kinds is not so interesting ultimately because you know"
+  },
+  {
+    "t_start": 3343.79,
+    "t_end": 3347.99,
+    "text": "interesting ultimately because you know if you have both two countable sets so"
+  },
+  {
+    "t_start": 3347.99,
+    "t_end": 3350.27,
+    "text": "you get a one-to-one correspondence between two countable sets so what"
+  },
+  {
+    "t_start": 3350.27,
+    "t_end": 3352.91,
+    "text": "between two countable sets so what but what really makes language"
+  },
+  {
+    "t_start": 3352.91,
+    "t_end": 3355.609,
+    "text": "but what really makes language correspondence interesting and exciting"
+  },
+  {
+    "t_start": 3355.609,
+    "t_end": 3362.75,
+    "text": "correspondence interesting and exciting and what makes you know allows one to"
+  },
+  {
+    "t_start": 3362.75,
+    "t_end": 3365.51,
+    "text": "use it as in applications is the fact that under this correspondence certain"
+  },
+  {
+    "t_start": 3365.51,
+    "t_end": 3370.849,
+    "text": "certain information from number Theory which has to do with Galway groups gets"
+  },
+  {
+    "t_start": 3370.849,
+    "t_end": 3373.67,
+    "text": "which has to do with Galway groups gets translated to analytic information that"
+  },
+  {
+    "t_start": 3373.67,
+    "t_end": 3378.109,
+    "text": "translated to analytic information that has to do with Automotive functions"
+  },
+  {
+    "t_start": 3378.109,
+    "t_end": 3379.25,
+    "text": "in the case of the that we have discussed"
+  },
+  {
+    "t_start": 3379.25,
+    "t_end": 3382.25,
+    "text": "discussed I have explained what that information"
+  },
+  {
+    "t_start": 3382.25,
+    "t_end": 3387.349,
+    "text": "on the side of elliptic curves these are the numbers of solutions of the cubic"
+  },
+  {
+    "t_start": 3387.349,
+    "t_end": 3389.329,
+    "text": "the numbers of solutions of the cubic equation underlying this elliptic curve"
+  },
+  {
+    "t_start": 3389.329,
+    "t_end": 3391.13,
+    "text": "equation underlying this elliptic curve and on the"
+  },
+  {
+    "t_start": 3391.13,
+    "t_end": 3394.609,
+    "text": "harmonic analysis side these are the coefficients of the module form in"
+  },
+  {
+    "t_start": 3394.609,
+    "t_end": 3397.99,
+    "text": "coefficients of the module form in general this data can also be expressed"
+  },
+  {
+    "t_start": 3397.99,
+    "t_end": 3403.43,
+    "text": "general this data can also be expressed more complex but they can be stated you"
+  },
+  {
+    "t_start": 3403.43,
+    "t_end": 3404.93,
+    "text": "know precisely what they are and the beauty and the power of the Linux"
+  },
+  {
+    "t_start": 3404.93,
+    "t_end": 3406.43,
+    "text": "beauty and the power of the Linux correspondence is that under this"
+  },
+  {
+    "t_start": 3406.43,
+    "t_end": 3413.51,
+    "text": "correspondence those numbers match just like they match in the keys that we have"
+  },
+  {
+    "t_start": 3413.51,
+    "t_end": 3415.549,
+    "text": "discussed if any link is found between any two continents of mathematics that"
+  },
+  {
+    "t_start": 3415.549,
+    "t_end": 3417.19,
+    "text": "any two continents of mathematics that doesn't automatically mean it's language"
+  },
+  {
+    "t_start": 3417.19,
+    "t_end": 3420.29,
+    "text": "doesn't automatically mean it's language is more specifically links between the"
+  },
+  {
+    "t_start": 3420.29,
+    "t_end": 3422.329,
+    "text": "is more specifically links between the Galway groups and the automorphic"
+  },
+  {
+    "t_start": 3422.329,
+    "t_end": 3424.13,
+    "text": "Galway groups and the automorphic functions"
+  },
+  {
+    "t_start": 3424.13,
+    "t_end": 3431.089,
+    "text": "I want to say something that um links between different continents"
+  },
+  {
+    "t_start": 3431.089,
+    "t_end": 3434.15,
+    "text": "um links between different continents are it's a quite common occurrence in"
+  },
+  {
+    "t_start": 3434.15,
+    "t_end": 3437.63,
+    "text": "mathematics and it's something very which is prized precisely because it"
+  },
+  {
+    "t_start": 3437.63,
+    "t_end": 3439.79,
+    "text": "which is prized precisely because it indicates that there are some things"
+  },
+  {
+    "t_start": 3439.79,
+    "t_end": 3441.049,
+    "text": "indicates that there are some things which you don't see yet which are"
+  },
+  {
+    "t_start": 3441.049,
+    "t_end": 3445.43,
+    "text": "beneath the surface and if you look in the history of mathematics that a lot of"
+  },
+  {
+    "t_start": 3445.43,
+    "t_end": 3447.17,
+    "text": "the history of mathematics that a lot of the great discoveries were made when"
+  },
+  {
+    "t_start": 3447.17,
+    "t_end": 3449.329,
+    "text": "the great discoveries were made when mathematics somehow stumbled upon this"
+  },
+  {
+    "t_start": 3449.329,
+    "t_end": 3450.829,
+    "text": "mathematics somehow stumbled upon this kind of links without understanding what"
+  },
+  {
+    "t_start": 3450.829,
+    "t_end": 3453.589,
+    "text": "kind of links without understanding what they are but eventually were able to"
+  },
+  {
+    "t_start": 3453.589,
+    "t_end": 3457.01,
+    "text": "they are but eventually were able to find an explanation and that was always"
+  },
+  {
+    "t_start": 3457.01,
+    "t_end": 3459.17,
+    "text": "find an explanation and that was always fueled progress in mathematics and so"
+  },
+  {
+    "t_start": 3459.17,
+    "t_end": 3463.549,
+    "text": "this is an idea which I like to call unification so there's a certain sense"
+  },
+  {
+    "t_start": 3463.549,
+    "t_end": 3466.79,
+    "text": "unification so there's a certain sense of unity in mathematics that even you"
+  },
+  {
+    "t_start": 3466.79,
+    "t_end": 3469.069,
+    "text": "of unity in mathematics that even you know subjects which appear to be far"
+  },
+  {
+    "t_start": 3469.069,
+    "t_end": 3473.329,
+    "text": "know subjects which appear to be far apart in fact are not so far apart"
+  },
+  {
+    "t_start": 3473.329,
+    "t_end": 3476.93,
+    "text": "and so you know one of the simplest examples just to illustrate what I mean"
+  },
+  {
+    "t_start": 3476.93,
+    "t_end": 3481.43,
+    "text": "examples just to illustrate what I mean is the following if we just talk about"
+  },
+  {
+    "t_start": 3481.43,
+    "t_end": 3486.41,
+    "text": "uh we know the uh kind of the simplest way to introduce numbers by counting so"
+  },
+  {
+    "t_start": 3486.41,
+    "t_end": 3488.21,
+    "text": "way to introduce numbers by counting so you have one pencil two pencil three"
+  },
+  {
+    "t_start": 3488.21,
+    "t_end": 3491.27,
+    "text": "you have one pencil two pencil three pencils but that's not the only way"
+  },
+  {
+    "t_start": 3491.27,
+    "t_end": 3493.93,
+    "text": "pencils but that's not the only way let me show you another way"
+  },
+  {
+    "t_start": 3493.93,
+    "t_end": 3497.569,
+    "text": "and for that I'm going to use a probe you know my dentist always complains"
+  },
+  {
+    "t_start": 3497.569,
+    "t_end": 3500.39,
+    "text": "you know my dentist always complains that I don't I don't floss enough"
+  },
+  {
+    "t_start": 3500.39,
+    "t_end": 3502.01,
+    "text": "that I don't I don't floss enough but you see"
+  },
+  {
+    "t_start": 3502.01,
+    "t_end": 3507.589,
+    "text": "so my dance will be proud of me if if you watches this video what you can do"
+  },
+  {
+    "t_start": 3507.589,
+    "t_end": 3513.77,
+    "text": "is you can also wrap the flaws this thread on the finger you do it once you"
+  },
+  {
+    "t_start": 3513.77,
+    "t_end": 3516.109,
+    "text": "thread on the finger you do it once you do it twice it is three times four times"
+  },
+  {
+    "t_start": 3516.109,
+    "t_end": 3518.99,
+    "text": "do it twice it is three times four times and so on you see so that's another way"
+  },
+  {
+    "t_start": 3518.99,
+    "t_end": 3521.809,
+    "text": "and so on you see so that's another way to introduce numbers and the advantage"
+  },
+  {
+    "t_start": 3521.809,
+    "t_end": 3523.789,
+    "text": "to introduce numbers and the advantage of this is that whereas all these"
+  },
+  {
+    "t_start": 3523.789,
+    "t_end": 3525.53,
+    "text": "of this is that whereas all these pencils are different so in fact when"
+  },
+  {
+    "t_start": 3525.53,
+    "t_end": 3527.27,
+    "text": "pencils are different so in fact when you explain to Children numbers they say"
+  },
+  {
+    "t_start": 3527.27,
+    "t_end": 3530.03,
+    "text": "you explain to Children numbers they say but how can you all consider them as"
+  },
+  {
+    "t_start": 3530.03,
+    "t_end": 3532.069,
+    "text": "objects of the same kind they have different colors but here it's clearly"
+  },
+  {
+    "t_start": 3532.069,
+    "t_end": 3534.95,
+    "text": "different colors but here it's clearly something of the same kind just kind of"
+  },
+  {
+    "t_start": 3534.95,
+    "t_end": 3536.809,
+    "text": "something of the same kind just kind of what we call winding number how many"
+  },
+  {
+    "t_start": 3536.809,
+    "t_end": 3540.65,
+    "text": "what we call winding number how many times the you know the floss has wound"
+  },
+  {
+    "t_start": 3540.65,
+    "t_end": 3545.03,
+    "text": "times the you know the floss has wound up on my finger and the second Advantage"
+  },
+  {
+    "t_start": 3545.03,
+    "t_end": 3546.829,
+    "text": "is that I can do it clockwise or counterclockwise and this way I can"
+  },
+  {
+    "t_start": 3546.829,
+    "t_end": 3549.53,
+    "text": "counterclockwise and this way I can represent both uh positive and negative"
+  },
+  {
+    "t_start": 3549.53,
+    "t_end": 3556.43,
+    "text": "numbers whereas I don't know what is a negative one pencil but I know what is a"
+  },
+  {
+    "t_start": 3556.43,
+    "t_end": 3558.349,
+    "text": "negative one a number in this realization I just go clockwise instead"
+  },
+  {
+    "t_start": 3558.349,
+    "t_end": 3560.21,
+    "text": "realization I just go clockwise instead of counterclockwise you see so this is"
+  },
+  {
+    "t_start": 3560.21,
+    "t_end": 3564.23,
+    "text": "of counterclockwise you see so this is for me is basic illustration of unity of"
+  },
+  {
+    "t_start": 3564.23,
+    "t_end": 3569.15,
+    "text": "mathematics that the same concept the same idea namely in this case a very"
+  },
+  {
+    "t_start": 3569.15,
+    "t_end": 3575.21,
+    "text": "from two areas of mathematics this we could School counting is number Theory"
+  },
+  {
+    "t_start": 3575.21,
+    "t_end": 3580.549,
+    "text": "and this is what's called topology the study of these windings and so on is you"
+  },
+  {
+    "t_start": 3580.549,
+    "t_end": 3582.95,
+    "text": "study of these windings and so on is you know one of the illustrations of of the"
+  },
+  {
+    "t_start": 3582.95,
+    "t_end": 3587.03,
+    "text": "know one of the illustrations of of the field of mathematics or continent of"
+  },
+  {
+    "t_start": 3587.03,
+    "t_end": 3588.789,
+    "text": "mathematics called topology and so ultimately I think"
+  },
+  {
+    "t_start": 3588.789,
+    "t_end": 3595.609,
+    "text": "mathematicians always find it extremely exciting and and fruitful to find those"
+  },
+  {
+    "t_start": 3595.609,
+    "t_end": 3600.41,
+    "text": "connections to find different ways and you can think of this as different ways"
+  },
+  {
+    "t_start": 3600.41,
+    "t_end": 3602.39,
+    "text": "of looking at the same thing so it's like you know uh if I have this I can"
+  },
+  {
+    "t_start": 3602.39,
+    "t_end": 3603.77,
+    "text": "like you know uh if I have this I can look it from above I can look from the"
+  },
+  {
+    "t_start": 3603.77,
+    "t_end": 3605.93,
+    "text": "look it from above I can look from the side and so on so ultimately the myth"
+  },
+  {
+    "t_start": 3605.93,
+    "t_end": 3607.849,
+    "text": "side and so on so ultimately the myth ranks is a kind of a mysterious Beast"
+  },
+  {
+    "t_start": 3607.849,
+    "t_end": 3609.109,
+    "text": "ranks is a kind of a mysterious Beast which we can observe from different"
+  },
+  {
+    "t_start": 3609.109,
+    "t_end": 3612.65,
+    "text": "which we can observe from different sides and to me that those connections"
+  },
+  {
+    "t_start": 3612.65,
+    "t_end": 3613.849,
+    "text": "sides and to me that those connections that we find"
+  },
+  {
+    "t_start": 3613.849,
+    "t_end": 3619.849,
+    "text": "like the ones we have talked about today are in indications that we are looking"
+  },
+  {
+    "t_start": 3619.849,
+    "t_end": 3622.01,
+    "text": "are in indications that we are looking from different angles at the same object"
+  },
+  {
+    "t_start": 3622.01,
+    "t_end": 3624.17,
+    "text": "from different angles at the same object and you tell me like the langlands"
+  },
+  {
+    "t_start": 3624.17,
+    "t_end": 3625.97,
+    "text": "and you tell me like the langlands programs finding all these exciting"
+  },
+  {
+    "t_start": 3625.97,
+    "t_end": 3627.95,
+    "text": "programs finding all these exciting connections between representation of"
+  },
+  {
+    "t_start": 3627.95,
+    "t_end": 3634.97,
+    "text": "galawar groups and automorphic functions I don't know what either of those two"
+  },
+  {
+    "t_start": 3634.97,
+    "t_end": 3637.309,
+    "text": "things are and I don't want you to tell me because I won't understand but you're"
+  },
+  {
+    "t_start": 3637.309,
+    "t_end": 3639.65,
+    "text": "me because I won't understand but you're telling me that those are two continents"
+  },
+  {
+    "t_start": 3639.65,
+    "t_end": 3642.23,
+    "text": "telling me that those are two continents that are important enough for language"
+  },
+  {
+    "t_start": 3642.23,
+    "t_end": 3643.97,
+    "text": "that are important enough for language to be getting all these prizes and"
+  },
+  {
+    "t_start": 3643.97,
+    "t_end": 3646.25,
+    "text": "to be getting all these prizes and that's right in 2018 he received the"
+  },
+  {
+    "t_start": 3646.25,
+    "t_end": 3648.47,
+    "text": "that's right in 2018 he received the Apple price which is considered as a"
+  },
+  {
+    "t_start": 3648.47,
+    "t_end": 3650.15,
+    "text": "Apple price which is considered as a kind of equivalent of Nobel Prize for"
+  },
+  {
+    "t_start": 3650.15,
+    "t_end": 3655.13,
+    "text": "mathematics is given out by the king of Norway I was actually asked to give a"
+  },
+  {
+    "t_start": 3655.13,
+    "t_end": 3657.41,
+    "text": "Norway I was actually asked to give a public lecture about his work in Oslo"
+  },
+  {
+    "t_start": 3657.41,
+    "t_end": 3659.45,
+    "text": "public lecture about his work in Oslo during the festivities one of the things"
+  },
+  {
+    "t_start": 3659.45,
+    "t_end": 3663.829,
+    "text": "during the festivities one of the things that I want to mention is that yes today"
+  },
+  {
+    "t_start": 3663.829,
+    "t_end": 3666.289,
+    "text": "we talked about these two continents number Theory and harmonic analysis and"
+  },
+  {
+    "t_start": 3666.289,
+    "t_end": 3671.329,
+    "text": "number Theory and harmonic analysis and how this link between them enables us to"
+  },
+  {
+    "t_start": 3671.329,
+    "t_end": 3677.15,
+    "text": "problems in number Theory to much more feasible much more tractable uh you know"
+  },
+  {
+    "t_start": 3677.15,
+    "t_end": 3679.43,
+    "text": "feasible much more tractable uh you know problems in harmonic analysis but in"
+  },
+  {
+    "t_start": 3679.43,
+    "t_end": 3680.809,
+    "text": "problems in harmonic analysis but in fact that's not that's just the"
+  },
+  {
+    "t_start": 3680.809,
+    "t_end": 3685.549,
+    "text": "beginning of the story because that was the original setup the original a way"
+  },
+  {
+    "t_start": 3685.549,
+    "t_end": 3688.25,
+    "text": "the original setup the original a way that how language thought about this"
+  },
+  {
+    "t_start": 3688.25,
+    "t_end": 3691.19,
+    "text": "that how language thought about this ideas at the outset right so the in the"
+  },
+  {
+    "t_start": 3691.19,
+    "t_end": 3694.21,
+    "text": "ideas at the outset right so the in the 80s these ideas of a language program"
+  },
+  {
+    "t_start": 3694.21,
+    "t_end": 3697.069,
+    "text": "80s these ideas of a language program propagated to geometry and so"
+  },
+  {
+    "t_start": 3697.069,
+    "t_end": 3704.329,
+    "text": "mathematicians were able to find the similar patterns but in the study of of"
+  },
+  {
+    "t_start": 3704.329,
+    "t_end": 3706.97,
+    "text": "uh things for complex numbers so we talked about ellipticals for example"
+  },
+  {
+    "t_start": 3706.97,
+    "t_end": 3712.43,
+    "text": "um in a more in the clock arithmetic the solutions modular primes but you could"
+  },
+  {
+    "t_start": 3712.43,
+    "t_end": 3714.23,
+    "text": "solutions modular primes but you could also look at Solutions in complex"
+  },
+  {
+    "t_start": 3714.23,
+    "t_end": 3716.089,
+    "text": "also look at Solutions in complex numbers and in that case elliptical"
+  },
+  {
+    "t_start": 3716.089,
+    "t_end": 3721.01,
+    "text": "numbers and in that case elliptical appeared to us as a surface of a donut"
+  },
+  {
+    "t_start": 3721.01,
+    "t_end": 3722.329,
+    "text": "as a as a Taurus so"
+  },
+  {
+    "t_start": 3722.329,
+    "t_end": 3725.93,
+    "text": "it turns out that the kind of things that we observe in the language in the"
+  },
+  {
+    "t_start": 3725.93,
+    "t_end": 3728.03,
+    "text": "that we observe in the language in the original classical language program can"
+  },
+  {
+    "t_start": 3728.03,
+    "t_end": 3729.67,
+    "text": "original classical language program can also be kind of"
+  },
+  {
+    "t_start": 3729.67,
+    "t_end": 3734.63,
+    "text": "carried over to that domain where you look at equations but now over complex"
+  },
+  {
+    "t_start": 3734.63,
+    "t_end": 3735.53,
+    "text": "look at equations but now over complex numbers"
+  },
+  {
+    "t_start": 3735.53,
+    "t_end": 3740.03,
+    "text": "and it's very exciting and what is even more exciting is that physicists also"
+  },
+  {
+    "t_start": 3740.03,
+    "t_end": 3741.71,
+    "text": "more exciting is that physicists also observed similar patterns in the study"
+  },
+  {
+    "t_start": 3741.71,
+    "t_end": 3743.69,
+    "text": "observed similar patterns in the study of what they call dualities of gauge"
+  },
+  {
+    "t_start": 3743.69,
+    "t_end": 3750.53,
+    "text": "of what they call dualities of gauge theories uh gauge theories are the is a"
+  },
+  {
+    "t_start": 3750.53,
+    "t_end": 3755.089,
+    "text": "standard model of the best theories of interaction of of subatomic particles"
+  },
+  {
+    "t_start": 3755.089,
+    "t_end": 3758.45,
+    "text": "interaction of of subatomic particles that we have although in this case we"
+  },
+  {
+    "t_start": 3758.45,
+    "t_end": 3760.069,
+    "text": "are considering what's called supersymmetric versions of those"
+  },
+  {
+    "t_start": 3760.069,
+    "t_end": 3764.089,
+    "text": "theories which do not necessarily have direct bearing on our universe but maybe"
+  },
+  {
+    "t_start": 3764.089,
+    "t_end": 3767.569,
+    "text": "direct bearing on our universe but maybe have bearing on some other universes who"
+  },
+  {
+    "t_start": 3767.569,
+    "t_end": 3770.21,
+    "text": "knows in any case they are beautiful mathematical gadgets and in those"
+  },
+  {
+    "t_start": 3770.21,
+    "t_end": 3773.51,
+    "text": "mathematical gadgets we can observe similar correspondences like the one"
+  },
+  {
+    "t_start": 3773.51,
+    "t_end": 3776.15,
+    "text": "which we have discussed in other words this is just the beginning of a story"
+  },
+  {
+    "t_start": 3776.15,
+    "t_end": 3778.309,
+    "text": "this is just the beginning of a story there are many other things many other"
+  },
+  {
+    "t_start": 3778.309,
+    "t_end": 3779.75,
+    "text": "there are many other things many other places in mathematics and quantum"
+  },
+  {
+    "t_start": 3779.75,
+    "t_end": 3782.329,
+    "text": "places in mathematics and quantum physics where similar patterns arise"
+  },
+  {
+    "t_start": 3782.329,
+    "t_end": 3785.93,
+    "text": "so perhaps in another video we can discuss discuss this but perhaps that's"
+  },
+  {
+    "t_start": 3785.93,
+    "t_end": 3791.15,
+    "text": "that's plentiful for today well you made it this far there's a good chance you'd"
+  },
+  {
+    "t_start": 3791.15,
+    "t_end": 3792.53,
+    "text": "it this far there's a good chance you'd like to see even more from Edward"
+  },
+  {
+    "t_start": 3792.53,
+    "t_end": 3794.87,
+    "text": "like to see even more from Edward Frenkel I'm going to link to a playlist"
+  },
+  {
+    "t_start": 3794.87,
+    "t_end": 3796.91,
+    "text": "Frenkel I'm going to link to a playlist of videos he's made here on number file"
+  },
+  {
+    "t_start": 3796.91,
+    "t_end": 3799.37,
+    "text": "of videos he's made here on number file and a podcast he did with us as well as"
+  },
+  {
+    "t_start": 3799.37,
+    "t_end": 3803.63,
+    "text": "and a podcast he did with us as well as a link to his book love and math which"
+  },
+  {
+    "t_start": 3803.63,
+    "t_end": 3805.19,
+    "text": "is definitely worth checking out all those links everything you need will be"
+  },
+  {
+    "t_start": 3805.19,
+    "t_end": 3808.04,
+    "text": "those links everything you need will be in the video description"
+  }
+]

@@ -1,0 +1,2637 @@
+[
+  {
+    "t_start": 3.189,
+    "t_end": 11.509,
+    "text": "this talk will be an introduction to the birch swinot and dyer conjecture"
+  },
+  {
+    "t_start": 14.549,
+    "t_end": 18.15,
+    "text": "at a roughly graduate student level and so first of all it's named after two"
+  },
+  {
+    "t_start": 18.15,
+    "t_end": 25.029,
+    "text": "so birch is brian birch and swinners and dye is peter"
+  },
+  {
+    "t_start": 25.029,
+    "t_end": 28.87,
+    "text": "and swinners and dye is peter swinnes and dyer or professor sir peter"
+  },
+  {
+    "t_start": 28.87,
+    "t_end": 34.709,
+    "text": "and the birch windows and dire conjecture relates the following two"
+  },
+  {
+    "t_start": 34.709,
+    "t_end": 38.869,
+    "text": "objects we take the rank of a mordell group"
+  },
+  {
+    "t_start": 45.67,
+    "t_end": 47.43,
+    "text": "and we're going to relate it to the order"
+  },
+  {
+    "t_start": 47.43,
+    "t_end": 53.43,
+    "text": "order of zero of the l function"
+  },
+  {
+    "t_start": 56.47,
+    "t_end": 57.91,
+    "text": "at s equals one so i better start i will start by explaining what all these"
+  },
+  {
+    "t_start": 57.91,
+    "t_end": 62.709,
+    "text": "various things are like what is an elliptic curve what is the mordell group"
+  },
+  {
+    "t_start": 62.709,
+    "t_end": 67.19,
+    "text": "um and then i'll say a little bit about um birch and swinojs and dyer's"
+  },
+  {
+    "t_start": 67.19,
+    "t_end": 69.19,
+    "text": "um birch and swinojs and dyer's motivation for finding the conjecture"
+  },
+  {
+    "t_start": 69.19,
+    "t_end": 70.469,
+    "text": "motivation for finding the conjecture and then i'll"
+  },
+  {
+    "t_start": 70.469,
+    "t_end": 75.35,
+    "text": "summarize some of the progress that has been made on it"
+  },
+  {
+    "t_start": 75.35,
+    "t_end": 79.19,
+    "text": "so let's start by quickly reviewing what an elliptic curve"
+  },
+  {
+    "t_start": 79.19,
+    "t_end": 86.95,
+    "text": "is so an elliptic curve is roughly an equation of this form so y"
+  },
+  {
+    "t_start": 86.95,
+    "t_end": 87.749,
+    "text": "is roughly an equation of this form so y squared equals"
+  },
+  {
+    "t_start": 87.749,
+    "t_end": 94.789,
+    "text": "x cubed plus b x plus c so b and c are fixed constants"
+  },
+  {
+    "t_start": 94.789,
+    "t_end": 98.87,
+    "text": "and we've got a curve like this so typically an elliptic curve"
+  },
+  {
+    "t_start": 98.87,
+    "t_end": 103.19,
+    "text": "typically an elliptic curve if you draw it it might look something"
+  },
+  {
+    "t_start": 103.19,
+    "t_end": 107.59,
+    "text": "and the problem here b and c are going to be rational"
+  },
+  {
+    "t_start": 107.59,
+    "t_end": 111.27,
+    "text": "to be rational and the problem we want to do we want to"
+  },
+  {
+    "t_start": 111.27,
+    "t_end": 117.83,
+    "text": "solve is find all rational points"
+  },
+  {
+    "t_start": 120.069,
+    "t_end": 121.27,
+    "text": "um for instance a well-known historical example studied by"
+  },
+  {
+    "t_start": 121.27,
+    "t_end": 125.749,
+    "text": "ferma is an elliptic curve y squared equals x cubed minus two"
+  },
+  {
+    "t_start": 125.749,
+    "t_end": 127.429,
+    "text": "equals x cubed minus two and this obviously has one rational"
+  },
+  {
+    "t_start": 127.429,
+    "t_end": 129.99,
+    "text": "and this obviously has one rational point five three for example and"
+  },
+  {
+    "t_start": 129.99,
+    "t_end": 133.43,
+    "text": "if you look at it you see it's really rather a difficult problem to figure out"
+  },
+  {
+    "t_start": 133.43,
+    "t_end": 135.43,
+    "text": "rather a difficult problem to figure out whether or not it has other rational"
+  },
+  {
+    "t_start": 135.43,
+    "t_end": 137.11,
+    "text": "whether or not it has other rational points"
+  },
+  {
+    "t_start": 137.11,
+    "t_end": 140.869,
+    "text": "um one reason for the interest of elliptic curves is they're the"
+  },
+  {
+    "t_start": 140.869,
+    "t_end": 144.63,
+    "text": "elliptic curves is they're the in some sense the simplest curse we"
+  },
+  {
+    "t_start": 144.63,
+    "t_end": 150.63,
+    "text": "understand so if a curve is degree two we've got degree two curves pretty much"
+  },
+  {
+    "t_start": 150.63,
+    "t_end": 152.47,
+    "text": "we've got degree two curves pretty much under control since the"
+  },
+  {
+    "t_start": 152.47,
+    "t_end": 155.83,
+    "text": "under control since the i think since the time of gauss or"
+  },
+  {
+    "t_start": 155.83,
+    "t_end": 161.19,
+    "text": "three we that there are still lots of basic things we we don't manage"
+  },
+  {
+    "t_start": 161.19,
+    "t_end": 165.91,
+    "text": "basic things we we don't manage know about them so this is sort of"
+  },
+  {
+    "t_start": 165.91,
+    "t_end": 169.35,
+    "text": "elliptic curves have very little to do with ellipses they're called elliptic"
+  },
+  {
+    "t_start": 169.35,
+    "t_end": 170.39,
+    "text": "with ellipses they're called elliptic curves for"
+  },
+  {
+    "t_start": 170.39,
+    "t_end": 176.47,
+    "text": "roundabout historical reasons so um the first thing we can do is we"
+  },
+  {
+    "t_start": 176.47,
+    "t_end": 177.03,
+    "text": "so um the first thing we can do is we can"
+  },
+  {
+    "t_start": 177.03,
+    "t_end": 180.309,
+    "text": "make the rational points into a sort of group"
+  },
+  {
+    "t_start": 180.309,
+    "t_end": 185.43,
+    "text": "so if we intersect a straight line with this curve"
+  },
+  {
+    "t_start": 185.43,
+    "t_end": 189.589,
+    "text": "this curve you see it intersects the curve in three"
+  },
+  {
+    "t_start": 189.589,
+    "t_end": 193.35,
+    "text": "and we can define a group structure on the points of the elliptic curve by"
+  },
+  {
+    "t_start": 193.35,
+    "t_end": 193.75,
+    "text": "the points of the elliptic curve by saying"
+  },
+  {
+    "t_start": 193.75,
+    "t_end": 201.67,
+    "text": "a plus b plus c equals naught if and only if a b c lie on"
+  },
+  {
+    "t_start": 201.67,
+    "t_end": 205.03,
+    "text": "if and only if a b c lie on a line and"
+  },
+  {
+    "t_start": 205.03,
+    "t_end": 208.47,
+    "text": "this turns out to make the points on the elliptic curve"
+  },
+  {
+    "t_start": 208.47,
+    "t_end": 212.949,
+    "text": "into an abelian group and that's not at all obvious by the way i mean"
+  },
+  {
+    "t_start": 212.949,
+    "t_end": 215.91,
+    "text": "all obvious by the way i mean in particular checking associativity of"
+  },
+  {
+    "t_start": 215.91,
+    "t_end": 216.55,
+    "text": "in particular checking associativity of this"
+  },
+  {
+    "t_start": 216.55,
+    "t_end": 221.43,
+    "text": "edition is quite complicated uh i should say that the the zero point of the group"
+  },
+  {
+    "t_start": 221.43,
+    "t_end": 225.91,
+    "text": "say that the the zero point of the group is a sort of point at infinity it's it's"
+  },
+  {
+    "t_start": 225.91,
+    "t_end": 228.71,
+    "text": "so strictly speaking it's not quite a solution of this"
+  },
+  {
+    "t_start": 228.71,
+    "t_end": 234.55,
+    "text": "um so um that gives us some extra structure to work with in in particular"
+  },
+  {
+    "t_start": 234.55,
+    "t_end": 236.71,
+    "text": "structure to work with in in particular the points with rational coordinates or"
+  },
+  {
+    "t_start": 236.71,
+    "t_end": 240.789,
+    "text": "form a group because you can check if a and b have rational coordinates then so"
+  },
+  {
+    "t_start": 240.789,
+    "t_end": 242.229,
+    "text": "and b have rational coordinates then so does c"
+  },
+  {
+    "t_start": 242.229,
+    "t_end": 247.429,
+    "text": "does c and this group is called the mordell"
+  },
+  {
+    "t_start": 250.789,
+    "t_end": 256.39,
+    "text": "so the mordell group is just a group of rational points"
+  },
+  {
+    "t_start": 258.949,
+    "t_end": 259.509,
+    "text": "on an elliptic curve that i call e for short"
+  },
+  {
+    "t_start": 259.509,
+    "t_end": 264.95,
+    "text": "curve has been a sort of central topic of study and number theory for about a"
+  },
+  {
+    "t_start": 264.95,
+    "t_end": 265.99,
+    "text": "of study and number theory for about a century"
+  },
+  {
+    "t_start": 265.99,
+    "t_end": 274.23,
+    "text": "the reason why it's called a mordell group is the mordell proved that it's"
+  },
+  {
+    "t_start": 278.55,
+    "t_end": 279.35,
+    "text": "um this means that it's a finite abelian group"
+  },
+  {
+    "t_start": 279.35,
+    "t_end": 282.87,
+    "text": "group which are pretty well understood direct"
+  },
+  {
+    "t_start": 282.87,
+    "t_end": 287.909,
+    "text": "number of copies of z where where this number here"
+  },
+  {
+    "t_start": 287.909,
+    "t_end": 295.03,
+    "text": "is called the rank of the mordelve group"
+  },
+  {
+    "t_start": 295.03,
+    "t_end": 299.59,
+    "text": "um and we would like to understand both this finite part and the rank and we"
+  },
+  {
+    "t_start": 299.59,
+    "t_end": 301.11,
+    "text": "this finite part and the rank and we sort of pretty much understand the"
+  },
+  {
+    "t_start": 301.11,
+    "t_end": 302.629,
+    "text": "sort of pretty much understand the finite part so"
+  },
+  {
+    "t_start": 302.629,
+    "t_end": 308.23,
+    "text": "finite part so barry mazer showed that the finite part"
+  },
+  {
+    "t_start": 308.23,
+    "t_end": 313.029,
+    "text": "at most 12. so we've sort of got it under control"
+  },
+  {
+    "t_start": 313.029,
+    "t_end": 317.67,
+    "text": "under control the rank is much more mysterious"
+  },
+  {
+    "t_start": 324.71,
+    "t_end": 327.27,
+    "text": "for example one obvious question is can the rank be arbitrary large or is there"
+  },
+  {
+    "t_start": 327.27,
+    "t_end": 330.39,
+    "text": "bound to the ranks of all rational elliptic curves and"
+  },
+  {
+    "t_start": 330.39,
+    "t_end": 334.469,
+    "text": "opinion about this has varied backwards and forwards quite a lot"
+  },
+  {
+    "t_start": 334.469,
+    "t_end": 339.67,
+    "text": "um at the moment the consensus seems to be the rank is probably bounded so"
+  },
+  {
+    "t_start": 339.67,
+    "t_end": 344.469,
+    "text": "be the rank is probably bounded so park punin voigt"
+  },
+  {
+    "t_start": 344.469,
+    "t_end": 349.11,
+    "text": "park punin voigt and wood have a paper on the archive a"
+  },
+  {
+    "t_start": 349.11,
+    "t_end": 353.909,
+    "text": "few years ago where they suggest there are a finite"
+  },
+  {
+    "t_start": 358.39,
+    "t_end": 361.43,
+    "text": "of rank greater than 21 so that's still conjectural"
+  },
+  {
+    "t_start": 361.43,
+    "t_end": 364.87,
+    "text": "so that's still conjectural you can't do much better than this"
+  },
+  {
+    "t_start": 364.87,
+    "t_end": 367.99,
+    "text": "because various people in particular l keys are rather good at"
+  },
+  {
+    "t_start": 367.99,
+    "t_end": 373.51,
+    "text": "elliptic curves of large rank and he's found infinitely many of rank"
+  },
+  {
+    "t_start": 373.51,
+    "t_end": 381.029,
+    "text": "19 when i last heard and one of rank 28 numbers may have gone up since i last"
+  },
+  {
+    "t_start": 381.029,
+    "t_end": 383.51,
+    "text": "28 numbers may have gone up since i last checked this of course"
+  },
+  {
+    "t_start": 383.51,
+    "t_end": 388.87,
+    "text": "um so the rank of an elliptic curve is still a somewhat mysterious object and"
+  },
+  {
+    "t_start": 388.87,
+    "t_end": 390.95,
+    "text": "still a somewhat mysterious object and it's this rank of the elliptic curve"
+  },
+  {
+    "t_start": 390.95,
+    "t_end": 392.83,
+    "text": "it's this rank of the elliptic curve that the birch swimness and dire"
+  },
+  {
+    "t_start": 392.83,
+    "t_end": 394.71,
+    "text": "that the birch swimness and dire conjecture"
+  },
+  {
+    "t_start": 394.71,
+    "t_end": 400.39,
+    "text": "conjecture tells us or conjectures something about"
+  },
+  {
+    "t_start": 405.43,
+    "t_end": 408.95,
+    "text": "so we noticed first of all that the rank is equal to naught if and only if"
+  },
+  {
+    "t_start": 408.95,
+    "t_end": 412.07,
+    "text": "rank is equal to naught if and only if the number of points"
+  },
+  {
+    "t_start": 412.07,
+    "t_end": 418.39,
+    "text": "is finite so the first thing birch and syringe and dye looked at is"
+  },
+  {
+    "t_start": 418.39,
+    "t_end": 419.83,
+    "text": "birch and syringe and dye looked at is to try and tell"
+  },
+  {
+    "t_start": 419.83,
+    "t_end": 425.909,
+    "text": "when is the number of points on an elliptic curve finite"
+  },
+  {
+    "t_start": 437.35,
+    "t_end": 440.23,
+    "text": "on e is infinite then the number of points"
+  },
+  {
+    "t_start": 449.189,
+    "t_end": 452.629,
+    "text": "so this is a very informal sort of statement because we don't quite know"
+  },
+  {
+    "t_start": 452.629,
+    "t_end": 454.87,
+    "text": "statement because we don't quite know what larger than expected means"
+  },
+  {
+    "t_start": 454.87,
+    "t_end": 458.55,
+    "text": "um so the point is if you've got lots and lots of points on the elliptic curve"
+  },
+  {
+    "t_start": 458.55,
+    "t_end": 459.67,
+    "text": "and lots of points on the elliptic curve which you would have if they're an"
+  },
+  {
+    "t_start": 459.67,
+    "t_end": 461.51,
+    "text": "which you would have if they're an infinite number of rational points"
+  },
+  {
+    "t_start": 461.51,
+    "t_end": 465.99,
+    "text": "infinite number of rational points then you can reduce all these rational"
+  },
+  {
+    "t_start": 465.99,
+    "t_end": 472.469,
+    "text": "and that sort of means you're slightly more likely to have a point modulo p"
+  },
+  {
+    "t_start": 472.469,
+    "t_end": 479.27,
+    "text": "more likely to have a point modulo p so what we do is we let np be the number"
+  },
+  {
+    "t_start": 479.27,
+    "t_end": 485.43,
+    "text": "of points on the elliptic curve mod p in other words we're trying to solve y"
+  },
+  {
+    "t_start": 485.43,
+    "t_end": 489.51,
+    "text": "squared equals x cubed plus b x plus c mod p and that number is not"
+  },
+  {
+    "t_start": 489.51,
+    "t_end": 493.11,
+    "text": "p because we really ought to count a point at infinity that i'm"
+  },
+  {
+    "t_start": 493.11,
+    "t_end": 496.39,
+    "text": "point at infinity that i'm being a bit sloppy about so"
+  },
+  {
+    "t_start": 496.39,
+    "t_end": 500.39,
+    "text": "if you've got a rational point then most of the time you can reduce it mod p"
+  },
+  {
+    "t_start": 500.39,
+    "t_end": 501.909,
+    "text": "of the time you can reduce it mod p as long as p doesn't divide the"
+  },
+  {
+    "t_start": 501.909,
+    "t_end": 504.23,
+    "text": "as long as p doesn't divide the denominator so lots of rational points"
+  },
+  {
+    "t_start": 504.23,
+    "t_end": 504.79,
+    "text": "denominator so lots of rational points should make"
+  },
+  {
+    "t_start": 504.79,
+    "t_end": 508.309,
+    "text": "np a little bit bigger than usual and you can see that"
+  },
+  {
+    "t_start": 508.309,
+    "t_end": 512.149,
+    "text": "you can see that np is going to be approximately p"
+  },
+  {
+    "t_start": 512.149,
+    "t_end": 517.509,
+    "text": "there are p choices for x and then there are either zero or two values of y and"
+  },
+  {
+    "t_start": 517.509,
+    "t_end": 517.829,
+    "text": "are either zero or two values of y and there's"
+  },
+  {
+    "t_start": 517.829,
+    "t_end": 524.07,
+    "text": "chance that they're being two values of y because it depends on whether this is"
+  },
+  {
+    "t_start": 524.07,
+    "t_end": 524.63,
+    "text": "y because it depends on whether this is a"
+  },
+  {
+    "t_start": 524.63,
+    "t_end": 528.55,
+    "text": "quadratic residue or not so we expect about"
+  },
+  {
+    "t_start": 528.55,
+    "t_end": 535.19,
+    "text": "p points mod p so np over p should be approximately equal to"
+  },
+  {
+    "t_start": 535.19,
+    "t_end": 535.509,
+    "text": "over p should be approximately equal to"
+  },
+  {
+    "t_start": 535.519,
+    "t_end": 540.389,
+    "text": "in general so this suggests you might want to look at the product"
+  },
+  {
+    "t_start": 540.389,
+    "t_end": 544.71,
+    "text": "want to look at the product mp over p where this is a product over"
+  },
+  {
+    "t_start": 544.71,
+    "t_end": 547.75,
+    "text": "and maybe if this is equal to infinity this might"
+  },
+  {
+    "t_start": 547.75,
+    "t_end": 551.829,
+    "text": "this might correspond to"
+  },
+  {
+    "t_start": 554.87,
+    "t_end": 560.31,
+    "text": "e and if it's finite this might correspond to a finite number"
+  },
+  {
+    "t_start": 560.31,
+    "t_end": 563.91,
+    "text": "this might correspond to a finite number of points"
+  },
+  {
+    "t_start": 565.35,
+    "t_end": 566.87,
+    "text": "well one problem is there's no reason why this should actually converge even"
+  },
+  {
+    "t_start": 566.87,
+    "t_end": 568.55,
+    "text": "why this should actually converge even if it's finite i mean these"
+  },
+  {
+    "t_start": 568.55,
+    "t_end": 569.99,
+    "text": "if it's finite i mean these these numbers might just sort of"
+  },
+  {
+    "t_start": 569.99,
+    "t_end": 572.55,
+    "text": "these numbers might just sort of oscillate up and down a little bit"
+  },
+  {
+    "t_start": 572.55,
+    "t_end": 575.11,
+    "text": "oscillate up and down a little bit it's really not clear but what you can"
+  },
+  {
+    "t_start": 575.11,
+    "t_end": 576.47,
+    "text": "it's really not clear but what you can do instead of looking at this product"
+  },
+  {
+    "t_start": 576.47,
+    "t_end": 581.59,
+    "text": "do instead of looking at this product you can look at the product for p"
+  },
+  {
+    "t_start": 581.59,
+    "t_end": 586.55,
+    "text": "less than equal to n of np over p and look at this as n tends to"
+  },
+  {
+    "t_start": 586.55,
+    "t_end": 589.75,
+    "text": "and try and estimate how much this is growing and"
+  },
+  {
+    "t_start": 589.75,
+    "t_end": 594.949,
+    "text": "this is what birch and switness and dyer did with a very early computer and"
+  },
+  {
+    "t_start": 594.949,
+    "t_end": 598.31,
+    "text": "did with a very early computer and you know this was back in the 1960s so"
+  },
+  {
+    "t_start": 598.31,
+    "t_end": 603.269,
+    "text": "computers were these huge things that that filled an entire room"
+  },
+  {
+    "t_start": 603.269,
+    "t_end": 606.15,
+    "text": "that filled an entire room and it's probably less powerful than"
+  },
+  {
+    "t_start": 606.15,
+    "t_end": 610.47,
+    "text": "and it's probably less powerful than what you can get these days as a 50"
+  },
+  {
+    "t_start": 610.47,
+    "t_end": 611.75,
+    "text": "pocket calculator but whatever they managed to use this computer to"
+  },
+  {
+    "t_start": 611.75,
+    "t_end": 613.509,
+    "text": "managed to use this computer to calculate this sum"
+  },
+  {
+    "t_start": 613.509,
+    "t_end": 620.79,
+    "text": "calculate this sum and um what they found"
+  },
+  {
+    "t_start": 625.19,
+    "t_end": 632.23,
+    "text": "um indeed um that the product of p less than or equal to n and p"
+  },
+  {
+    "t_start": 632.23,
+    "t_end": 635.75,
+    "text": "over p seems sort of finite or bounded if"
+  },
+  {
+    "t_start": 635.75,
+    "t_end": 642.63,
+    "text": "um the rank is equal to naught and seems to tend to infinity"
+  },
+  {
+    "t_start": 642.63,
+    "t_end": 647.91,
+    "text": "seems to tend to infinity if the rank is greater than zero"
+  },
+  {
+    "t_start": 651.03,
+    "t_end": 656.47,
+    "text": "um well obviously you you can look into that a bit more closely and"
+  },
+  {
+    "t_start": 656.47,
+    "t_end": 663.75,
+    "text": "that a bit more closely and try and um compare the rate of growth"
+  },
+  {
+    "t_start": 665.99,
+    "t_end": 666.79,
+    "text": "of the product over p less than equal to n of n"
+  },
+  {
+    "t_start": 666.79,
+    "t_end": 673.509,
+    "text": "p over p with the order of the zero so that so they looked"
+  },
+  {
+    "t_start": 673.509,
+    "t_end": 675.509,
+    "text": "order of the zero so that so they looked at this too they they tried to see how"
+  },
+  {
+    "t_start": 675.509,
+    "t_end": 676.87,
+    "text": "at this too they they tried to see how this number grew with"
+  },
+  {
+    "t_start": 676.87,
+    "t_end": 680.949,
+    "text": "n and compared it with the order and the elliptic curve and what they found"
+  },
+  {
+    "t_start": 680.949,
+    "t_end": 684.389,
+    "text": "elliptic curve and what they found is that um this expression here"
+  },
+  {
+    "t_start": 684.389,
+    "t_end": 687.509,
+    "text": "is that um this expression here is grows roughly like"
+  },
+  {
+    "t_start": 687.509,
+    "t_end": 694.949,
+    "text": "is grows roughly like log of n to the g where g"
+  },
+  {
+    "t_start": 698.23,
+    "t_end": 701.99,
+    "text": "sorry not not the order of zero the rank of the elliptic curve so i'm going to"
+  },
+  {
+    "t_start": 701.99,
+    "t_end": 704.71,
+    "text": "out to be the order of the zero of an l function but that's coming up in the"
+  },
+  {
+    "t_start": 704.71,
+    "t_end": 705.67,
+    "text": "function but that's coming up in the next sheet"
+  },
+  {
+    "t_start": 705.67,
+    "t_end": 710.069,
+    "text": "so they did some numerical calculations and seemed that this seemed to grow very"
+  },
+  {
+    "t_start": 710.069,
+    "t_end": 711.75,
+    "text": "and seemed that this seemed to grow very roughly like that it doesn't mean"
+  },
+  {
+    "t_start": 711.75,
+    "t_end": 714.069,
+    "text": "roughly like that it doesn't mean this isn't asymptotic to that but but"
+  },
+  {
+    "t_start": 714.069,
+    "t_end": 715.43,
+    "text": "this isn't asymptotic to that but but it's"
+  },
+  {
+    "t_start": 715.43,
+    "t_end": 719.509,
+    "text": "their calculations suggested it sort of lay between some constant times this and"
+  },
+  {
+    "t_start": 719.509,
+    "t_end": 724.15,
+    "text": "lay between some constant times this and some other constant times this so"
+  },
+  {
+    "t_start": 724.15,
+    "t_end": 725.67,
+    "text": "so the number of zeros modulo p does seem to be related to the"
+  },
+  {
+    "t_start": 725.67,
+    "t_end": 733.03,
+    "text": "to the rank of the mordell group um well you can make this a little bit"
+  },
+  {
+    "t_start": 733.03,
+    "t_end": 734.71,
+    "text": "um well you can make this a little bit more precise as follows"
+  },
+  {
+    "t_start": 734.71,
+    "t_end": 737.75,
+    "text": "more precise as follows um so um"
+  },
+  {
+    "t_start": 737.75,
+    "t_end": 741.03,
+    "text": "there's quite a lot known about the number of points on an elliptic curve"
+  },
+  {
+    "t_start": 741.03,
+    "t_end": 741.99,
+    "text": "number of points on an elliptic curve modulo p"
+  },
+  {
+    "t_start": 741.99,
+    "t_end": 746.31,
+    "text": "so if we have an elliptic curve modulo p then the number of points is equal to p"
+  },
+  {
+    "t_start": 746.31,
+    "t_end": 749.75,
+    "text": "then the number of points is equal to p minus alpha p minus alpha p prime"
+  },
+  {
+    "t_start": 749.75,
+    "t_end": 754.47,
+    "text": "minus alpha p minus alpha p prime plus one where alpha p is a complex"
+  },
+  {
+    "t_start": 754.47,
+    "t_end": 761.03,
+    "text": "number of absolute value square root of p this is the famous"
+  },
+  {
+    "t_start": 762.55,
+    "t_end": 764.389,
+    "text": "well it's the riemann hypothesis for elliptic curves which was first proved"
+  },
+  {
+    "t_start": 764.389,
+    "t_end": 765.75,
+    "text": "elliptic curves which was first proved by hasa"
+  },
+  {
+    "t_start": 765.75,
+    "t_end": 771.99,
+    "text": "it's quite a lot easier than the riemann hypothesis for riemann zeta function"
+  },
+  {
+    "t_start": 771.99,
+    "t_end": 777.829,
+    "text": "hypothesis for riemann zeta function um and the elliptic curve has a zeta"
+  },
+  {
+    "t_start": 777.829,
+    "t_end": 783.11,
+    "text": "function associated with it so the at first first of all we can write down"
+  },
+  {
+    "t_start": 783.11,
+    "t_end": 787.75,
+    "text": "a local zeta function of an elliptic curve so this local zeta"
+  },
+  {
+    "t_start": 787.75,
+    "t_end": 791.91,
+    "text": "is for various complicated reasons and defined to be x with sum of"
+  },
+  {
+    "t_start": 791.91,
+    "t_end": 798.71,
+    "text": "n p to the m over m times q to the m s where this is the number of points"
+  },
+  {
+    "t_start": 798.71,
+    "t_end": 799.269,
+    "text": "s where this is the number of points over the"
+  },
+  {
+    "t_start": 799.269,
+    "t_end": 806.389,
+    "text": "over the field with p to the m elements and this is turns out to be equal to 1"
+  },
+  {
+    "t_start": 806.389,
+    "t_end": 813.509,
+    "text": "times 1 minus alpha bar p p to minus s divided by 1 minus p to the"
+  },
+  {
+    "t_start": 813.509,
+    "t_end": 814.87,
+    "text": "p to minus s divided by 1 minus p to the minus s 1 minus"
+  },
+  {
+    "t_start": 814.87,
+    "t_end": 820.23,
+    "text": "minus s 1 minus p to the 1 minus s so that's a local"
+  },
+  {
+    "t_start": 820.23,
+    "t_end": 825.03,
+    "text": "and you define the zeta function of an elliptic curve e to be the product"
+  },
+  {
+    "t_start": 825.03,
+    "t_end": 826.15,
+    "text": "elliptic curve e to be the product overall primes"
+  },
+  {
+    "t_start": 826.15,
+    "t_end": 829.269,
+    "text": "overall primes of the local zeta function except that's"
+  },
+  {
+    "t_start": 829.269,
+    "t_end": 832.389,
+    "text": "quite true because there are a certain number of um"
+  },
+  {
+    "t_start": 832.389,
+    "t_end": 835.43,
+    "text": "bad primes where you need to think a little bit harder about it"
+  },
+  {
+    "t_start": 835.43,
+    "t_end": 840.069,
+    "text": "little bit harder about it so so this equality is not quite true"
+  },
+  {
+    "t_start": 843.99,
+    "t_end": 847.829,
+    "text": "but i'm going to sort of ignore that um now um you notice this product"
+  },
+  {
+    "t_start": 847.829,
+    "t_end": 851.509,
+    "text": "is looks a bit like the product for the riemann zeta function so the ordinary"
+  },
+  {
+    "t_start": 851.509,
+    "t_end": 852.87,
+    "text": "riemann zeta function so the ordinary riemann zeta function"
+  },
+  {
+    "t_start": 852.87,
+    "t_end": 856.389,
+    "text": "looks like the product over p of one over one minus p minus"
+  },
+  {
+    "t_start": 856.389,
+    "t_end": 862.31,
+    "text": "s and if you notice this one over one minus p minus s looks"
+  },
+  {
+    "t_start": 862.31,
+    "t_end": 864.949,
+    "text": "this one over one minus p minus s looks just like this factor here"
+  },
+  {
+    "t_start": 864.949,
+    "t_end": 869.67,
+    "text": "just like this factor here so you find this the zeta function of"
+  },
+  {
+    "t_start": 869.67,
+    "t_end": 874.949,
+    "text": "is um the ordinary riemann zeta function times the ordinary riemann zeta function"
+  },
+  {
+    "t_start": 874.949,
+    "t_end": 875.35,
+    "text": "times the ordinary riemann zeta function of s"
+  },
+  {
+    "t_start": 875.35,
+    "t_end": 878.47,
+    "text": "minus one now that comes from this term of course"
+  },
+  {
+    "t_start": 878.47,
+    "t_end": 884.71,
+    "text": "times um sorry divided by a certain l series where this is the the so-called"
+  },
+  {
+    "t_start": 884.71,
+    "t_end": 884.949,
+    "text": "l series where this is the the so-called l"
+  },
+  {
+    "t_start": 884.949,
+    "t_end": 889.59,
+    "text": "series an elliptic curve and this is it's this l series that's going to"
+  },
+  {
+    "t_start": 889.59,
+    "t_end": 895.67,
+    "text": "um bert swindon dia conjecture so the l series of the elliptic curve is"
+  },
+  {
+    "t_start": 895.67,
+    "t_end": 897.11,
+    "text": "so the l series of the elliptic curve is just one over"
+  },
+  {
+    "t_start": 897.11,
+    "t_end": 901.67,
+    "text": "just one over the product of 1 minus alpha p"
+  },
+  {
+    "t_start": 905.829,
+    "t_end": 911.67,
+    "text": "p minus s times m 1 minus alpha bar p p to the minus s"
+  },
+  {
+    "t_start": 913.43,
+    "t_end": 915.35,
+    "text": "so it's a product of that over all primes"
+  },
+  {
+    "t_start": 915.35,
+    "t_end": 923.91,
+    "text": "um and um what you notice uh is that"
+  },
+  {
+    "t_start": 927.189,
+    "t_end": 935.749,
+    "text": "minus alpha p minus alpha bar p plus one is equal to one over l p of one"
+  },
+  {
+    "t_start": 935.749,
+    "t_end": 937.829,
+    "text": "is equal to one over l p of one so the product over all these numbers n"
+  },
+  {
+    "t_start": 937.829,
+    "t_end": 939.43,
+    "text": "so the product over all these numbers n p over p"
+  },
+  {
+    "t_start": 939.43,
+    "t_end": 943.35,
+    "text": "is essentially one over l of one where this is the l"
+  },
+  {
+    "t_start": 943.35,
+    "t_end": 947.35,
+    "text": "function of the elliptic curve so this is the product"
+  },
+  {
+    "t_start": 947.35,
+    "t_end": 951.509,
+    "text": "that birch and soreness and dye were investigating this is the elliptic curve"
+  },
+  {
+    "t_start": 951.509,
+    "t_end": 952.79,
+    "text": "investigating this is the elliptic curve well the trouble is"
+  },
+  {
+    "t_start": 952.79,
+    "t_end": 960.15,
+    "text": "well the trouble is this product does not converge"
+  },
+  {
+    "t_start": 964.71,
+    "t_end": 966.31,
+    "text": "um so you've got to be a bit careful we're just sort of arguing informally"
+  },
+  {
+    "t_start": 966.31,
+    "t_end": 968.71,
+    "text": "we're just sort of arguing informally but you see that if you pretend that it"
+  },
+  {
+    "t_start": 968.71,
+    "t_end": 969.509,
+    "text": "but you see that if you pretend that it converge"
+  },
+  {
+    "t_start": 969.509,
+    "t_end": 974.55,
+    "text": "that if you pretend it does converge you see that this would be finite"
+  },
+  {
+    "t_start": 974.55,
+    "t_end": 979.189,
+    "text": "see that this would be finite if the l function doesn't vanish at one"
+  },
+  {
+    "t_start": 979.189,
+    "t_end": 982.31,
+    "text": "and if it diverges to infinity then you would expect this"
+  },
+  {
+    "t_start": 982.31,
+    "t_end": 985.749,
+    "text": "number here to be zero there's a big problem by the way at"
+  },
+  {
+    "t_start": 985.749,
+    "t_end": 989.67,
+    "text": "birch and swinson die were working it wasn't at all clear that this"
+  },
+  {
+    "t_start": 989.67,
+    "t_end": 997.269,
+    "text": "wasn't at all clear that this l series was defined for s equals one"
+  },
+  {
+    "t_start": 997.269,
+    "t_end": 1003.91,
+    "text": "um it shouldn't be taken too literally and neither side is really properly"
+  },
+  {
+    "t_start": 1003.91,
+    "t_end": 1005.99,
+    "text": "and neither side is really properly defined"
+  },
+  {
+    "t_start": 1005.99,
+    "t_end": 1012.55,
+    "text": "um anyway this sort of suggests that the number of points"
+  },
+  {
+    "t_start": 1016.15,
+    "t_end": 1022.79,
+    "text": "should be equivalent to saying that the elliptic curve is"
+  },
+  {
+    "t_start": 1022.79,
+    "t_end": 1030.39,
+    "text": "the the l function of the elliptic curve is non-zero at one so this is the first"
+  },
+  {
+    "t_start": 1033.99,
+    "t_end": 1036.39,
+    "text": "of the birch swinus and dire conjecture that the the that it gives a criterion"
+  },
+  {
+    "t_start": 1036.39,
+    "t_end": 1037.75,
+    "text": "that the the that it gives a criterion for an elliptic curve to have an"
+  },
+  {
+    "t_start": 1037.75,
+    "t_end": 1041.59,
+    "text": "infinite number of points it has an infinite number of points if and only if"
+  },
+  {
+    "t_start": 1041.59,
+    "t_end": 1047.11,
+    "text": "l series um vanishes at one or rather i should say this this has to"
+  },
+  {
+    "t_start": 1047.11,
+    "t_end": 1049.27,
+    "text": "or rather i should say this this has to be an analytic continuation of the l"
+  },
+  {
+    "t_start": 1049.27,
+    "t_end": 1050.789,
+    "text": "be an analytic continuation of the l series because as i said the"
+  },
+  {
+    "t_start": 1050.789,
+    "t_end": 1055.029,
+    "text": "series because as i said the l series doesn't actually converge at s"
+  },
+  {
+    "t_start": 1055.029,
+    "t_end": 1062.789,
+    "text": "that's a bit of a problem um well um you can extend this a bit so you"
+  },
+  {
+    "t_start": 1062.789,
+    "t_end": 1065.029,
+    "text": "well um you can extend this a bit so you remember i said earlier that the product"
+  },
+  {
+    "t_start": 1065.029,
+    "t_end": 1066.15,
+    "text": "remember i said earlier that the product over p"
+  },
+  {
+    "t_start": 1066.15,
+    "t_end": 1071.51,
+    "text": "less than n of np over p sort of grows a bit like"
+  },
+  {
+    "t_start": 1071.51,
+    "t_end": 1077.51,
+    "text": "log of n to the g times some constant or whatever and this turns"
+  },
+  {
+    "t_start": 1077.51,
+    "t_end": 1080.39,
+    "text": "some constant or whatever and this turns out to correspond very roughly to saying"
+  },
+  {
+    "t_start": 1080.39,
+    "t_end": 1087.83,
+    "text": "out to correspond very roughly to saying that the l series l of s has zero"
+  },
+  {
+    "t_start": 1087.83,
+    "t_end": 1092.47,
+    "text": "s equals one um it doesn't correspond to precisely that because as i said"
+  },
+  {
+    "t_start": 1092.47,
+    "t_end": 1095.75,
+    "text": "precisely that because as i said um this isn't really clearly a"
+  },
+  {
+    "t_start": 1095.75,
+    "t_end": 1098.47,
+    "text": "um this isn't really clearly a well-defined function but informally"
+  },
+  {
+    "t_start": 1098.47,
+    "t_end": 1102.71,
+    "text": "you might guess that this this growth rate sort of formally corresponds to"
+  },
+  {
+    "t_start": 1102.71,
+    "t_end": 1104.31,
+    "text": "rate sort of formally corresponds to having a zero of order g"
+  },
+  {
+    "t_start": 1104.31,
+    "t_end": 1109.35,
+    "text": "so this gives the next form of the birch sweetness and dia conjecture"
+  },
+  {
+    "t_start": 1109.35,
+    "t_end": 1114.71,
+    "text": "which says the rank of the mordell vague group of elliptic curve is equal to the"
+  },
+  {
+    "t_start": 1114.71,
+    "t_end": 1116.07,
+    "text": "group of elliptic curve is equal to the order"
+  },
+  {
+    "t_start": 1116.07,
+    "t_end": 1125.43,
+    "text": "of the zero of the elliptic curve at s equals one"
+  },
+  {
+    "t_start": 1128.71,
+    "t_end": 1132.95,
+    "text": "um this is one form of the birch source and diet conjecture merchants"
+  },
+  {
+    "t_start": 1132.95,
+    "t_end": 1136.15,
+    "text": "and diet conjecture merchants and i actually refined this a bit"
+  },
+  {
+    "t_start": 1136.15,
+    "t_end": 1142.63,
+    "text": "you can say l e of s is equal to s minus 1 to the"
+  },
+  {
+    "t_start": 1142.63,
+    "t_end": 1146.07,
+    "text": "s is equal to s minus 1 to the g where you conjecture this g is the"
+  },
+  {
+    "t_start": 1146.07,
+    "t_end": 1151.27,
+    "text": "g here times some constant and birch and swino's diet also pinned"
+  },
+  {
+    "t_start": 1151.27,
+    "t_end": 1153.11,
+    "text": "and birch and swino's diet also pinned down what they felt this constant taught"
+  },
+  {
+    "t_start": 1153.11,
+    "t_end": 1154.47,
+    "text": "down what they felt this constant taught to be and it turns out to be rather"
+  },
+  {
+    "t_start": 1154.47,
+    "t_end": 1156.39,
+    "text": "to be and it turns out to be rather interesting and rather complicated"
+  },
+  {
+    "t_start": 1156.39,
+    "t_end": 1159.669,
+    "text": "interesting and rather complicated so it depends on things like the"
+  },
+  {
+    "t_start": 1159.669,
+    "t_end": 1163.029,
+    "text": "tamagowa numbers of the elliptic curve and it depends on"
+  },
+  {
+    "t_start": 1163.029,
+    "t_end": 1167.59,
+    "text": "also on the chi faroevich group"
+  },
+  {
+    "t_start": 1172.07,
+    "t_end": 1177.59,
+    "text": "um and on a few other bits and pieces and um so that there was a sort of joke"
+  },
+  {
+    "t_start": 1177.59,
+    "t_end": 1182.07,
+    "text": "conjecture at the time which said it it was conjecturing the equality of two"
+  },
+  {
+    "t_start": 1182.07,
+    "t_end": 1182.47,
+    "text": "was conjecturing the equality of two things"
+  },
+  {
+    "t_start": 1182.47,
+    "t_end": 1186.07,
+    "text": "neither of which were known to be well defined because as i said first of all"
+  },
+  {
+    "t_start": 1186.07,
+    "t_end": 1187.669,
+    "text": "defined because as i said first of all it wasn't known that this is defined at"
+  },
+  {
+    "t_start": 1187.669,
+    "t_end": 1187.909,
+    "text": "it wasn't known that this is defined at s"
+  },
+  {
+    "t_start": 1187.909,
+    "t_end": 1192.99,
+    "text": "equals one um and secondly it wasn't known at the time that the"
+  },
+  {
+    "t_start": 1192.99,
+    "t_end": 1195.75,
+    "text": "it wasn't known at the time that the tatrafanovich group was finite in fact"
+  },
+  {
+    "t_start": 1195.75,
+    "t_end": 1198.71,
+    "text": "tatrafanovich group was finite in fact there wasn't then a single example of"
+  },
+  {
+    "t_start": 1198.71,
+    "t_end": 1200.47,
+    "text": "there wasn't then a single example of any rational elliptic curve whose tate"
+  },
+  {
+    "t_start": 1200.47,
+    "t_end": 1202.07,
+    "text": "any rational elliptic curve whose tate shafari which group was known to be"
+  },
+  {
+    "t_start": 1202.07,
+    "t_end": 1203.43,
+    "text": "shafari which group was known to be finite so this"
+  },
+  {
+    "t_start": 1203.43,
+    "t_end": 1207.43,
+    "text": "this formula involving the order of the tachofarovic group was again a little"
+  },
+  {
+    "t_start": 1207.43,
+    "t_end": 1208.149,
+    "text": "tachofarovic group was again a little bit"
+  },
+  {
+    "t_start": 1208.149,
+    "t_end": 1216.39,
+    "text": "dubious um so um that's what so that's what the"
+  },
+  {
+    "t_start": 1216.39,
+    "t_end": 1218.39,
+    "text": "um that's what so that's what the birch sweetness and diet conjecture says"
+  },
+  {
+    "t_start": 1218.39,
+    "t_end": 1220.149,
+    "text": "birch sweetness and diet conjecture says roughly speaking"
+  },
+  {
+    "t_start": 1220.149,
+    "t_end": 1226.07,
+    "text": "what i'm going to do now is to discuss some of the progress that has been made"
+  },
+  {
+    "t_start": 1226.07,
+    "t_end": 1226.39,
+    "text": "some of the progress that has been made on"
+  },
+  {
+    "t_start": 1226.39,
+    "t_end": 1230.63,
+    "text": "proving it and we've actually come quite a long way"
+  },
+  {
+    "t_start": 1230.63,
+    "t_end": 1237.19,
+    "text": "stayed so i guess the first substantial progress was made by coats"
+  },
+  {
+    "t_start": 1237.19,
+    "t_end": 1238.07,
+    "text": "substantial progress was made by coats and wilds"
+  },
+  {
+    "t_start": 1238.07,
+    "t_end": 1244.71,
+    "text": "i guess this would be in the late 70s it said that suppose elliptic curve has"
+  },
+  {
+    "t_start": 1244.71,
+    "t_end": 1247.27,
+    "text": "it said that suppose elliptic curve has complex multiplication well i need to"
+  },
+  {
+    "t_start": 1247.27,
+    "t_end": 1250.23,
+    "text": "complex multiplication well i need to explain what that means"
+  },
+  {
+    "t_start": 1250.23,
+    "t_end": 1254.549,
+    "text": "explain what that means then if the"
+  },
+  {
+    "t_start": 1254.549,
+    "t_end": 1261.029,
+    "text": "l series doesn't vanish at s equals naught then the mordell"
+  },
+  {
+    "t_start": 1261.029,
+    "t_end": 1264.789,
+    "text": "at s equals naught then the mordell group"
+  },
+  {
+    "t_start": 1268.47,
+    "t_end": 1273.19,
+    "text": "one implication of the birchman dyer conjecture for some very special"
+  },
+  {
+    "t_start": 1273.19,
+    "t_end": 1275.669,
+    "text": "conjecture for some very special elliptic curves"
+  },
+  {
+    "t_start": 1275.669,
+    "t_end": 1282.789,
+    "text": "multiplication they have to have um rank zero um so let me explain what"
+  },
+  {
+    "t_start": 1282.789,
+    "t_end": 1284.23,
+    "text": "rank zero um so let me explain what complex multiplication"
+  },
+  {
+    "t_start": 1284.23,
+    "t_end": 1289.35,
+    "text": "is so um most elliptic curves have only the obvious"
+  },
+  {
+    "t_start": 1289.35,
+    "t_end": 1290.909,
+    "text": "curves have only the obvious endomorphism so we can ask for"
+  },
+  {
+    "t_start": 1290.909,
+    "t_end": 1294.63,
+    "text": "endomorphism so we can ask for endomorphisms"
+  },
+  {
+    "t_start": 1297.59,
+    "t_end": 1299.43,
+    "text": "of an elliptic curve e and they all have endomorphisms which take"
+  },
+  {
+    "t_start": 1299.43,
+    "t_end": 1306.87,
+    "text": "take a point a to n times a for n in the integers and a few of them have"
+  },
+  {
+    "t_start": 1306.87,
+    "t_end": 1312.71,
+    "text": "in the integers and a few of them have extra endomorphisms"
+  },
+  {
+    "t_start": 1315.19,
+    "t_end": 1317.27,
+    "text": "so let me give some examples an example of a curve with extra endomorphisms"
+  },
+  {
+    "t_start": 1317.27,
+    "t_end": 1320.789,
+    "text": "of a curve with extra endomorphisms we might look at the curve y squared"
+  },
+  {
+    "t_start": 1320.789,
+    "t_end": 1324.789,
+    "text": "x and this actually has some extra automorphisms you see here the only"
+  },
+  {
+    "t_start": 1324.789,
+    "t_end": 1327.99,
+    "text": "automorphisms you see here the only automorphisms would be when n is plus or"
+  },
+  {
+    "t_start": 1327.99,
+    "t_end": 1332.39,
+    "text": "and it certainly has these automorphisms because we can change"
+  },
+  {
+    "t_start": 1332.39,
+    "t_end": 1339.19,
+    "text": "y to minus y map x to x and this will be an automorphism but there are some other"
+  },
+  {
+    "t_start": 1339.19,
+    "t_end": 1341.029,
+    "text": "an automorphism but there are some other automorphisms of this because we can"
+  },
+  {
+    "t_start": 1341.029,
+    "t_end": 1342.789,
+    "text": "automorphisms of this because we can change"
+  },
+  {
+    "t_start": 1342.789,
+    "t_end": 1349.51,
+    "text": "y to i times y and x to minus x so this is some extra unexpected"
+  },
+  {
+    "t_start": 1349.51,
+    "t_end": 1351.029,
+    "text": "x so this is some extra unexpected symmetries which"
+  },
+  {
+    "t_start": 1351.029,
+    "t_end": 1355.029,
+    "text": "are things called complex multiplications they"
+  },
+  {
+    "t_start": 1355.029,
+    "t_end": 1358.549,
+    "text": "they turn out to be multiplications by complex numbers if you"
+  },
+  {
+    "t_start": 1358.549,
+    "t_end": 1363.669,
+    "text": "represent the elliptic curve as a taurus and so that's what complex"
+  },
+  {
+    "t_start": 1363.669,
+    "t_end": 1365.51,
+    "text": "and so that's what complex multiplication is um"
+  },
+  {
+    "t_start": 1365.51,
+    "t_end": 1368.71,
+    "text": "coats and wires also assumed it was complex multiplication by something of"
+  },
+  {
+    "t_start": 1368.71,
+    "t_end": 1370.39,
+    "text": "complex multiplication by something of class number one but that's"
+  },
+  {
+    "t_start": 1370.39,
+    "t_end": 1377.029,
+    "text": "a minor technical detail so the i very roughly the idea of their proof is"
+  },
+  {
+    "t_start": 1377.029,
+    "t_end": 1378.39,
+    "text": "very roughly the idea of their proof is that"
+  },
+  {
+    "t_start": 1378.39,
+    "t_end": 1383.27,
+    "text": "that if if the mordell group"
+  },
+  {
+    "t_start": 1390.95,
+    "t_end": 1395.43,
+    "text": "um then they showed that um l one um which could be written as"
+  },
+  {
+    "t_start": 1395.43,
+    "t_end": 1401.75,
+    "text": "um algebraic number times some transcendental constant"
+  },
+  {
+    "t_start": 1401.75,
+    "t_end": 1406.95,
+    "text": "the the algebraic number would have to be divisible by an infinite number of"
+  },
+  {
+    "t_start": 1406.95,
+    "t_end": 1410.47,
+    "text": "which are sort of actually vaguely related to irregular primes but never"
+  },
+  {
+    "t_start": 1410.47,
+    "t_end": 1412.07,
+    "text": "related to irregular primes but never mind"
+  },
+  {
+    "t_start": 1412.07,
+    "t_end": 1416.71,
+    "text": "so you could say roughly speaking that if the mordell group is infinite then l"
+  },
+  {
+    "t_start": 1416.71,
+    "t_end": 1421.029,
+    "text": "if the mordell group is infinite then l of one is divisible"
+  },
+  {
+    "t_start": 1424.31,
+    "t_end": 1425.75,
+    "text": "by an infinite number of primes and this shouldn't be taken too seriously because"
+  },
+  {
+    "t_start": 1425.75,
+    "t_end": 1429.19,
+    "text": "shouldn't be taken too seriously because this is actually a real number so saying"
+  },
+  {
+    "t_start": 1429.19,
+    "t_end": 1433.43,
+    "text": "it's divisible by prime is kind of meaningless but you you can make"
+  },
+  {
+    "t_start": 1433.43,
+    "t_end": 1442.47,
+    "text": "and so the the the next piece of work that i want to talk about was by gross"
+  },
+  {
+    "t_start": 1449.909,
+    "t_end": 1456.149,
+    "text": "they showed that if the elliptic curve e is modular whatever that means i'll"
+  },
+  {
+    "t_start": 1456.149,
+    "t_end": 1458.14,
+    "text": "is modular whatever that means i'll explain that in a moment"
+  },
+  {
+    "t_start": 1458.14,
+    "t_end": 1460.149,
+    "text": "explain that in a moment [Music]"
+  },
+  {
+    "t_start": 1460.149,
+    "t_end": 1467.51,
+    "text": "and the l function has an order one zero"
+  },
+  {
+    "t_start": 1472.47,
+    "t_end": 1476.23,
+    "text": "at s equals one then this implies that the um"
+  },
+  {
+    "t_start": 1487.11,
+    "t_end": 1487.43,
+    "text": "and um the proof of this use something called"
+  },
+  {
+    "t_start": 1487.43,
+    "t_end": 1490.63,
+    "text": "called haydner points"
+  },
+  {
+    "t_start": 1492.63,
+    "t_end": 1494.07,
+    "text": "so let me explain very roughly what a modular curve is"
+  },
+  {
+    "t_start": 1494.07,
+    "t_end": 1501.11,
+    "text": "and what a hagener point is so modular means roughly that the elliptic"
+  },
+  {
+    "t_start": 1501.11,
+    "t_end": 1503.669,
+    "text": "modular means roughly that the elliptic curve can be parametrized by modular"
+  },
+  {
+    "t_start": 1503.669,
+    "t_end": 1505.11,
+    "text": "curve can be parametrized by modular functions this means there's a map from"
+  },
+  {
+    "t_start": 1505.11,
+    "t_end": 1506.47,
+    "text": "functions this means there's a map from the upper half plane"
+  },
+  {
+    "t_start": 1506.47,
+    "t_end": 1512.83,
+    "text": "the upper half plane to the elliptic curve given by some sort"
+  },
+  {
+    "t_start": 1514.07,
+    "t_end": 1518.549,
+    "text": "and a modular function is one that well the simplest sort of modular function"
+  },
+  {
+    "t_start": 1518.549,
+    "t_end": 1519.35,
+    "text": "the simplest sort of modular function being variant"
+  },
+  {
+    "t_start": 1519.35,
+    "t_end": 1523.51,
+    "text": "being variant under sl2 z acting on the upper half"
+  },
+  {
+    "t_start": 1523.51,
+    "t_end": 1529.669,
+    "text": "mapping a b c d tau equals a tau plus b over c tau"
+  },
+  {
+    "t_start": 1529.669,
+    "t_end": 1534.549,
+    "text": "plus d um it turns out that you can't actually use these sorts of modular"
+  },
+  {
+    "t_start": 1534.549,
+    "t_end": 1536.31,
+    "text": "actually use these sorts of modular functions to parametrize elliptic curves"
+  },
+  {
+    "t_start": 1536.31,
+    "t_end": 1537.35,
+    "text": "functions to parametrize elliptic curves but there are some slightly more"
+  },
+  {
+    "t_start": 1537.35,
+    "t_end": 1539.83,
+    "text": "but there are some slightly more complicated sorts of modular functions"
+  },
+  {
+    "t_start": 1539.83,
+    "t_end": 1543.59,
+    "text": "complicated sorts of modular functions which will map the upper half plane to"
+  },
+  {
+    "t_start": 1543.59,
+    "t_end": 1546.71,
+    "text": "elliptic curves and it turns out that if you can do this"
+  },
+  {
+    "t_start": 1546.71,
+    "t_end": 1549.75,
+    "text": "then you have a really good control over the elliptic"
+  },
+  {
+    "t_start": 1549.75,
+    "t_end": 1554.71,
+    "text": "so modular elliptic curves as they're called turn out to be particularly nice"
+  },
+  {
+    "t_start": 1554.71,
+    "t_end": 1559.669,
+    "text": "called turn out to be particularly nice and now it is what is a hagener point"
+  },
+  {
+    "t_start": 1562.23,
+    "t_end": 1562.789,
+    "text": "well a hagon point tau in the upper half plane"
+  },
+  {
+    "t_start": 1562.789,
+    "t_end": 1566.63,
+    "text": "is one that satisfies a quadratic equation a tau squared plus b"
+  },
+  {
+    "t_start": 1566.63,
+    "t_end": 1569.99,
+    "text": "equation a tau squared plus b tau plus c equals zero well actually"
+  },
+  {
+    "t_start": 1569.99,
+    "t_end": 1574.71,
+    "text": "quite true if you take one of these points and map it to the elliptic curve"
+  },
+  {
+    "t_start": 1574.71,
+    "t_end": 1576.47,
+    "text": "points and map it to the elliptic curve it turns out that it's not quite a"
+  },
+  {
+    "t_start": 1576.47,
+    "t_end": 1578.31,
+    "text": "it turns out that it's not quite a rational point but it's a"
+  },
+  {
+    "t_start": 1578.31,
+    "t_end": 1584.47,
+    "text": "point with algebraic coordinates but then by fiddling around with that"
+  },
+  {
+    "t_start": 1584.47,
+    "t_end": 1586.39,
+    "text": "and summing over galway groups or something you can get a rational point"
+  },
+  {
+    "t_start": 1586.39,
+    "t_end": 1587.35,
+    "text": "something you can get a rational point out of it so"
+  },
+  {
+    "t_start": 1587.35,
+    "t_end": 1591.51,
+    "text": "so by looking at these quadratic irrationals in the upper half plane"
+  },
+  {
+    "t_start": 1591.51,
+    "t_end": 1599.269,
+    "text": "irrationals in the upper half plane we can get points on the elliptic curve"
+  },
+  {
+    "t_start": 1599.269,
+    "t_end": 1603.75,
+    "text": "and the idea of gross and zagias proof was they showed that the height"
+  },
+  {
+    "t_start": 1611.59,
+    "t_end": 1615.43,
+    "text": "on the elliptic curve e is related to the derivative of the l series"
+  },
+  {
+    "t_start": 1615.43,
+    "t_end": 1619.35,
+    "text": "at s equals one it's some complicated constant times this derivative"
+  },
+  {
+    "t_start": 1619.35,
+    "t_end": 1622.549,
+    "text": "constant times this derivative so so the height of a hagen point is"
+  },
+  {
+    "t_start": 1622.549,
+    "t_end": 1629.35,
+    "text": "size that i won't go into in at least not in this lecture and their"
+  },
+  {
+    "t_start": 1629.35,
+    "t_end": 1630.07,
+    "text": "at least not in this lecture and their proof"
+  },
+  {
+    "t_start": 1630.07,
+    "t_end": 1633.19,
+    "text": "is very simple in principle you just calculate"
+  },
+  {
+    "t_start": 1633.19,
+    "t_end": 1636.31,
+    "text": "the height of a hagen point and calculate the derivative"
+  },
+  {
+    "t_start": 1636.31,
+    "t_end": 1640.47,
+    "text": "calculate the derivative of the l series and check their equal in"
+  },
+  {
+    "t_start": 1640.47,
+    "t_end": 1646.549,
+    "text": "complicated because each of these things is incredibly difficult to calculate and"
+  },
+  {
+    "t_start": 1646.549,
+    "t_end": 1648.63,
+    "text": "is incredibly difficult to calculate and when you calculate both of these you you"
+  },
+  {
+    "t_start": 1648.63,
+    "t_end": 1650.95,
+    "text": "when you calculate both of these you you get a complicated sum of"
+  },
+  {
+    "t_start": 1650.95,
+    "t_end": 1656.47,
+    "text": "check that each of these terms match up and so on and that calculation is well"
+  },
+  {
+    "t_start": 1656.47,
+    "t_end": 1659.11,
+    "text": "and so on and that calculation is well over 100 pages long and is"
+  },
+  {
+    "t_start": 1659.11,
+    "t_end": 1662.31,
+    "text": "over 100 pages long and is really terrifying to look at"
+  },
+  {
+    "t_start": 1662.31,
+    "t_end": 1665.669,
+    "text": "really terrifying to look at um incidentally"
+  },
+  {
+    "t_start": 1665.669,
+    "t_end": 1669.99,
+    "text": "um incidentally there's another interesting consequence"
+  },
+  {
+    "t_start": 1669.99,
+    "t_end": 1674.23,
+    "text": "of modular elliptic curves"
+  },
+  {
+    "t_start": 1675.99,
+    "t_end": 1677.35,
+    "text": "let me give an example of a modular elliptic curve"
+  },
+  {
+    "t_start": 1677.35,
+    "t_end": 1683.99,
+    "text": "so suppose you take the elliptic curve y squared minus y equals x cubed minus x"
+  },
+  {
+    "t_start": 1683.99,
+    "t_end": 1687.43,
+    "text": "squared minus y equals x cubed minus x squared um then"
+  },
+  {
+    "t_start": 1687.43,
+    "t_end": 1691.43,
+    "text": "it turns out to be related by it's related to the following"
+  },
+  {
+    "t_start": 1691.43,
+    "t_end": 1695.269,
+    "text": "related to the following modular um modular form a modular form"
+  },
+  {
+    "t_start": 1695.269,
+    "t_end": 1695.909,
+    "text": "modular um modular form a modular form is a"
+  },
+  {
+    "t_start": 1695.909,
+    "t_end": 1703.19,
+    "text": "going to write sum of cnq to the n is given by the following series q times"
+  },
+  {
+    "t_start": 1703.19,
+    "t_end": 1704.47,
+    "text": "is given by the following series q times product 1 minus q"
+  },
+  {
+    "t_start": 1704.47,
+    "t_end": 1710.789,
+    "text": "product 1 minus q to the n times 1 minus q to 11"
+  },
+  {
+    "t_start": 1710.789,
+    "t_end": 1718.07,
+    "text": "done modular forms you might recognize that this is a modular form of"
+  },
+  {
+    "t_start": 1718.07,
+    "t_end": 1722.389,
+    "text": "um level 11. and it turns out to be very closely"
+  },
+  {
+    "t_start": 1722.389,
+    "t_end": 1727.029,
+    "text": "this elliptic curve because if the number of solutions modulo p"
+  },
+  {
+    "t_start": 1727.029,
+    "t_end": 1732.23,
+    "text": "number of solutions modulo p is written as p minus cp then the number"
+  },
+  {
+    "t_start": 1732.23,
+    "t_end": 1735.51,
+    "text": "are given by the coefficients of this modular form"
+  },
+  {
+    "t_start": 1735.51,
+    "t_end": 1739.43,
+    "text": "and this turns out to be closely related to the fact this elliptic curve"
+  },
+  {
+    "t_start": 1739.43,
+    "t_end": 1745.269,
+    "text": "to the fact this elliptic curve is actually modular in a way related to"
+  },
+  {
+    "t_start": 1745.269,
+    "t_end": 1750.83,
+    "text": "in particular it turns out the l series of the elliptic curve just is a melon"
+  },
+  {
+    "t_start": 1750.83,
+    "t_end": 1755.029,
+    "text": "of the elliptic curve just is a melon transform"
+  },
+  {
+    "t_start": 1761.75,
+    "t_end": 1764.149,
+    "text": "in particular so the l series of this curve would be the melon transform"
+  },
+  {
+    "t_start": 1764.149,
+    "t_end": 1768.389,
+    "text": "curve would be the melon transform of this modular form here in particular"
+  },
+  {
+    "t_start": 1768.389,
+    "t_end": 1775.669,
+    "text": "of this modular form here in particular this means the l series can be continued"
+  },
+  {
+    "t_start": 1781.83,
+    "t_end": 1784.07,
+    "text": "so for modular elliptic curves we know the l series does actually make sense at"
+  },
+  {
+    "t_start": 1784.07,
+    "t_end": 1784.31,
+    "text": "the l series does actually make sense at s"
+  },
+  {
+    "t_start": 1784.31,
+    "t_end": 1788.549,
+    "text": "equals one um there's another interesting point about it"
+  },
+  {
+    "t_start": 1788.549,
+    "t_end": 1792.389,
+    "text": "interesting point about it that these modular forms satisfy a"
+  },
+  {
+    "t_start": 1792.389,
+    "t_end": 1798.31,
+    "text": "um and um a certain function equation and this implies that the l series also"
+  },
+  {
+    "t_start": 1798.31,
+    "t_end": 1800.07,
+    "text": "and this implies that the l series also satisfies a certain function equation"
+  },
+  {
+    "t_start": 1800.07,
+    "t_end": 1801.75,
+    "text": "satisfies a certain function equation which says that l star of"
+  },
+  {
+    "t_start": 1801.75,
+    "t_end": 1805.19,
+    "text": "which says that l star of um two minus s is plus or minus"
+  },
+  {
+    "t_start": 1805.19,
+    "t_end": 1808.23,
+    "text": "um two minus s is plus or minus l star of s where l"
+  },
+  {
+    "t_start": 1808.23,
+    "t_end": 1812.149,
+    "text": "l star of s where l star is l"
+  },
+  {
+    "t_start": 1814.389,
+    "t_end": 1815.669,
+    "text": "times some junk that i'm not very very interested at the moment"
+  },
+  {
+    "t_start": 1815.669,
+    "t_end": 1822.389,
+    "text": "and we have a sign here and the sign is plus or minus depending if the order"
+  },
+  {
+    "t_start": 1822.389,
+    "t_end": 1824.63,
+    "text": "is plus or minus depending if the order of the zero"
+  },
+  {
+    "t_start": 1824.63,
+    "t_end": 1831.35,
+    "text": "at one is um even or odd so although it's can be quite"
+  },
+  {
+    "t_start": 1831.35,
+    "t_end": 1834.23,
+    "text": "or odd so although it's can be quite hard to tell what the order of the zero"
+  },
+  {
+    "t_start": 1834.23,
+    "t_end": 1834.549,
+    "text": "hard to tell what the order of the zero is"
+  },
+  {
+    "t_start": 1834.549,
+    "t_end": 1837.83,
+    "text": "it's easy to tell whether the order is is"
+  },
+  {
+    "t_start": 1837.83,
+    "t_end": 1843.909,
+    "text": "is even or odd um so what gross and zagia did was they showed"
+  },
+  {
+    "t_start": 1843.909,
+    "t_end": 1846.07,
+    "text": "what gross and zagia did was they showed that if the order is one"
+  },
+  {
+    "t_start": 1846.07,
+    "t_end": 1849.11,
+    "text": "that if the order is one then hagen points give you"
+  },
+  {
+    "t_start": 1849.11,
+    "t_end": 1852.31,
+    "text": "then hagen points give you points on the elliptic curve of infinite"
+  },
+  {
+    "t_start": 1852.31,
+    "t_end": 1857.11,
+    "text": "um if the zero has as has ordered greater than one then all the hegel"
+  },
+  {
+    "t_start": 1857.11,
+    "t_end": 1859.19,
+    "text": "greater than one then all the hegel points turn out to be zero and you and"
+  },
+  {
+    "t_start": 1859.19,
+    "t_end": 1863.509,
+    "text": "points turn out to be zero and you and and are much less useful"
+  },
+  {
+    "t_start": 1868.389,
+    "t_end": 1869.83,
+    "text": "um so the next piece of progress i'm going to talk about was by"
+  },
+  {
+    "t_start": 1869.83,
+    "t_end": 1873.269,
+    "text": "i'm going to talk about was by colliervargen"
+  },
+  {
+    "t_start": 1877.35,
+    "t_end": 1877.669,
+    "text": "caulivargen sorry um again may assume that"
+  },
+  {
+    "t_start": 1877.669,
+    "t_end": 1882.149,
+    "text": "is modular so it can be parametrized by modular functions"
+  },
+  {
+    "t_start": 1882.149,
+    "t_end": 1886.149,
+    "text": "modular functions and he showed that if the l series has a"
+  },
+  {
+    "t_start": 1886.149,
+    "t_end": 1892.23,
+    "text": "of order zero or one then the more delve group or the mordell"
+  },
+  {
+    "t_start": 1892.23,
+    "t_end": 1894.87,
+    "text": "then the more delve group or the mordell group"
+  },
+  {
+    "t_start": 1899.11,
+    "t_end": 1900.71,
+    "text": "has rank zero or one respectively so this is a big chunk of the birch"
+  },
+  {
+    "t_start": 1900.71,
+    "t_end": 1902.549,
+    "text": "this is a big chunk of the birch swimmers and die conjecture"
+  },
+  {
+    "t_start": 1902.549,
+    "t_end": 1907.83,
+    "text": "swimmers and die conjecture for ranks zero or one"
+  },
+  {
+    "t_start": 1907.83,
+    "t_end": 1914.71,
+    "text": "for ranks zero or one his proof used these things called euler"
+  },
+  {
+    "t_start": 1917.35,
+    "t_end": 1919.029,
+    "text": "which i don't know everybody says that euler's systems are named because of"
+  },
+  {
+    "t_start": 1919.029,
+    "t_end": 1920.549,
+    "text": "euler's systems are named because of their relation to the euler product from"
+  },
+  {
+    "t_start": 1920.549,
+    "t_end": 1925.35,
+    "text": "the zeta function but i must admit i've always had trouble seeing the connection"
+  },
+  {
+    "t_start": 1925.35,
+    "t_end": 1925.909,
+    "text": "always had trouble seeing the connection um"
+  },
+  {
+    "t_start": 1925.909,
+    "t_end": 1929.43,
+    "text": "one of the interesting things about this was that he was able to actually"
+  },
+  {
+    "t_start": 1929.43,
+    "t_end": 1932.149,
+    "text": "was that he was able to actually show that um some tate shofarovich"
+  },
+  {
+    "t_start": 1932.149,
+    "t_end": 1933.029,
+    "text": "show that um some tate shofarovich groups had"
+  },
+  {
+    "t_start": 1933.029,
+    "t_end": 1937.59,
+    "text": "finite order which and until then people hadn't actually known they were finite"
+  },
+  {
+    "t_start": 1937.59,
+    "t_end": 1938.389,
+    "text": "hadn't actually known they were finite order so it"
+  },
+  {
+    "t_start": 1938.389,
+    "t_end": 1943.35,
+    "text": "actually became possible to to to do the part of the birch swing and die"
+  },
+  {
+    "t_start": 1943.35,
+    "t_end": 1950.71,
+    "text": "where you um look at the um coefficient so so where you look at the"
+  },
+  {
+    "t_start": 1950.71,
+    "t_end": 1951.99,
+    "text": "coefficient so so where you look at the coefficient"
+  },
+  {
+    "t_start": 1951.99,
+    "t_end": 1958.87,
+    "text": "um c where you're looking at um where the l series"
+  },
+  {
+    "t_start": 1958.87,
+    "t_end": 1962.389,
+    "text": "um where the l series is about some constant times"
+  },
+  {
+    "t_start": 1962.389,
+    "t_end": 1967.35,
+    "text": "is about some constant times s minus 1 to the g"
+  },
+  {
+    "t_start": 1970.63,
+    "t_end": 1974.95,
+    "text": "so so far all these results only applied to modular elliptic curves so the next"
+  },
+  {
+    "t_start": 1974.95,
+    "t_end": 1976.87,
+    "text": "to modular elliptic curves so the next very big breakthrough"
+  },
+  {
+    "t_start": 1976.87,
+    "t_end": 1980.87,
+    "text": "very big breakthrough was by wiles"
+  },
+  {
+    "t_start": 1990.95,
+    "t_end": 1996.149,
+    "text": "um and his his proof was soon after extended by"
+  },
+  {
+    "t_start": 1996.149,
+    "t_end": 2003.029,
+    "text": "royal and conrad and diamond and"
+  },
+  {
+    "t_start": 2003.029,
+    "t_end": 2007.75,
+    "text": "taylor who showed not just many elliptic curves and modular but all"
+  },
+  {
+    "t_start": 2007.75,
+    "t_end": 2011.43,
+    "text": "curves and modular but all elliptic curves are modular they sort of"
+  },
+  {
+    "t_start": 2011.43,
+    "t_end": 2016.23,
+    "text": "extended wiles's um results to cover some more technical"
+  },
+  {
+    "t_start": 2016.23,
+    "t_end": 2021.19,
+    "text": "and this was a really astonishing result when it came out i think most people"
+  },
+  {
+    "t_start": 2021.19,
+    "t_end": 2023.83,
+    "text": "when it came out i think most people um before wireless work was announced"
+  },
+  {
+    "t_start": 2023.83,
+    "t_end": 2025.029,
+    "text": "um before wireless work was announced thought that"
+  },
+  {
+    "t_start": 2025.029,
+    "t_end": 2028.87,
+    "text": "the easy part of the birch swimmers and diet conjecture would be"
+  },
+  {
+    "t_start": 2028.87,
+    "t_end": 2034.63,
+    "text": "proving it from modular elliptic curves and it would then be really difficult to"
+  },
+  {
+    "t_start": 2034.63,
+    "t_end": 2036.63,
+    "text": "show that all elliptic curves are modular this the the this is the famous"
+  },
+  {
+    "t_start": 2036.63,
+    "t_end": 2037.909,
+    "text": "modular this the the this is the famous tanyama shimuro"
+  },
+  {
+    "t_start": 2037.909,
+    "t_end": 2042.389,
+    "text": "way conjecture so while sort of turned this upside down he showed that"
+  },
+  {
+    "t_start": 2042.389,
+    "t_end": 2044.549,
+    "text": "this upside down he showed that he he managed to solve what everybody"
+  },
+  {
+    "t_start": 2044.549,
+    "t_end": 2046.31,
+    "text": "he he managed to solve what everybody thought was the hard part of the birch"
+  },
+  {
+    "t_start": 2046.31,
+    "t_end": 2049.75,
+    "text": "thought was the hard part of the birch swinot and dyer conjecture"
+  },
+  {
+    "t_start": 2049.75,
+    "t_end": 2053.669,
+    "text": "swinot and dyer conjecture in particular this shows that the l"
+  },
+  {
+    "t_start": 2053.669,
+    "t_end": 2057.109,
+    "text": "series is always"
+  },
+  {
+    "t_start": 2060.31,
+    "t_end": 2063.27,
+    "text": "equals one so in particular the birch surface and diode conjecture actually"
+  },
+  {
+    "t_start": 2063.27,
+    "t_end": 2065.03,
+    "text": "surface and diode conjecture actually makes sense i mean"
+  },
+  {
+    "t_start": 2065.03,
+    "t_end": 2069.909,
+    "text": "before it talked about the l function at s equals one it wasn't even known if"
+  },
+  {
+    "t_start": 2069.909,
+    "t_end": 2073.43,
+    "text": "s equals one it wasn't even known if this was a well defined number"
+  },
+  {
+    "t_start": 2073.43,
+    "t_end": 2077.19,
+    "text": "this was a well defined number um um so since then"
+  },
+  {
+    "t_start": 2077.19,
+    "t_end": 2083.349,
+    "text": "we've had a result by bhagava and shankar who showed that in some"
+  },
+  {
+    "t_start": 2083.349,
+    "t_end": 2083.75,
+    "text": "and shankar who showed that in some sense"
+  },
+  {
+    "t_start": 2083.75,
+    "t_end": 2090.869,
+    "text": "sense lots of elliptic curves"
+  },
+  {
+    "t_start": 2095.99,
+    "t_end": 2097.67,
+    "text": "have ranks naught and one lots means at least a positive"
+  },
+  {
+    "t_start": 2097.67,
+    "t_end": 2099.51,
+    "text": "lots means at least a positive proportion and possibly even most of"
+  },
+  {
+    "t_start": 2099.51,
+    "t_end": 2102.39,
+    "text": "proportion and possibly even most of them i'm not quite sure what the current"
+  },
+  {
+    "t_start": 2102.39,
+    "t_end": 2106.55,
+    "text": "state of the art of this is so in some sense we've"
+  },
+  {
+    "t_start": 2106.55,
+    "t_end": 2108.95,
+    "text": "is so in some sense we've um made considerable progress on the"
+  },
+  {
+    "t_start": 2108.95,
+    "t_end": 2111.27,
+    "text": "um made considerable progress on the birch renaissance diet conjecture"
+  },
+  {
+    "t_start": 2111.27,
+    "t_end": 2115.109,
+    "text": "due to um collar vargan and gross sagging coats whilst we've got pretty"
+  },
+  {
+    "t_start": 2115.109,
+    "t_end": 2116.39,
+    "text": "sagging coats whilst we've got pretty good control over the rank"
+  },
+  {
+    "t_start": 2116.39,
+    "t_end": 2120.23,
+    "text": "good control over the rank zero one case we know that"
+  },
+  {
+    "t_start": 2120.23,
+    "t_end": 2123.829,
+    "text": "zero one case we know that probably most curves have rank zero or"
+  },
+  {
+    "t_start": 2123.829,
+    "t_end": 2129.43,
+    "text": "um and um of course we know they're all modular which was thought to be the hard"
+  },
+  {
+    "t_start": 2129.43,
+    "t_end": 2133.75,
+    "text": "modular which was thought to be the hard part of it so what's left to do in the"
+  },
+  {
+    "t_start": 2133.75,
+    "t_end": 2136.87,
+    "text": "birch swimming and die conjecture well what's left what is still"
+  },
+  {
+    "t_start": 2136.87,
+    "t_end": 2142.829,
+    "text": "well what's left what is still open is the case of ranks greater than"
+  },
+  {
+    "t_start": 2145.91,
+    "t_end": 2148.23,
+    "text": "and what's the main problem with doing this"
+  },
+  {
+    "t_start": 2150.95,
+    "t_end": 2151.27,
+    "text": "well i think one of the main problem is that"
+  },
+  {
+    "t_start": 2151.27,
+    "t_end": 2157.43,
+    "text": "points on an elliptic curve e with rank greater than one or it seems"
+  },
+  {
+    "t_start": 2157.43,
+    "t_end": 2161.67,
+    "text": "e with rank greater than one or it seems to be really hard"
+  },
+  {
+    "t_start": 2168.47,
+    "t_end": 2169.67,
+    "text": "um so if if the rank is zero then there's no problem because there"
+  },
+  {
+    "t_start": 2169.67,
+    "t_end": 2175.27,
+    "text": "are only a finite number of points so you're only a finite number of points"
+  },
+  {
+    "t_start": 2175.27,
+    "t_end": 2182.15,
+    "text": "away from having them all if e has rank one then hagener points"
+  },
+  {
+    "t_start": 2184.79,
+    "t_end": 2186.39,
+    "text": "give you a pretty good hold of all the rational points because the hagen"
+  },
+  {
+    "t_start": 2186.39,
+    "t_end": 2190.55,
+    "text": "rational points because the hagen points um generate a subgroup of finite"
+  },
+  {
+    "t_start": 2190.55,
+    "t_end": 2194.069,
+    "text": "but if the rank is greater than one i don't think anybody knows"
+  },
+  {
+    "t_start": 2194.069,
+    "t_end": 2199.19,
+    "text": "a sort of general way of writing down something that say generates a subgroup"
+  },
+  {
+    "t_start": 2199.19,
+    "t_end": 2202.47,
+    "text": "something that say generates a subgroup of finite index in the mordell group"
+  },
+  {
+    "t_start": 2202.47,
+    "t_end": 2206.87,
+    "text": "of finite index in the mordell group so my feeling is the main obstruction to"
+  },
+  {
+    "t_start": 2206.87,
+    "t_end": 2210.71,
+    "text": "the proof of the birch swingit and dyer conjecture is finding a good way"
+  },
+  {
+    "t_start": 2210.71,
+    "t_end": 2214.069,
+    "text": "conjecture is finding a good way to generate almost all"
+  },
+  {
+    "t_start": 2214.069,
+    "t_end": 2222.88,
+    "text": "to generate almost all points on an elliptic curve of rank"
+  }
+]

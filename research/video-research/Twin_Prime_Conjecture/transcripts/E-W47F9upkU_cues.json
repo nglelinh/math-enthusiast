@@ -1,0 +1,4367 @@
+[
+  {
+    "t_start": 20.07,
+    "t_end": 26.31,
+    "text": "okay um thanks again for everyone to come and listen to me today it's a great"
+  },
+  {
+    "t_start": 26.31,
+    "t_end": 30.71,
+    "text": "honor to speak here in Princeton so I'm interested in the Gap stre prime"
+  },
+  {
+    "t_start": 30.71,
+    "t_end": 35.03,
+    "text": "and we know from the prime number theorem that the average gap between"
+  },
+  {
+    "t_start": 35.03,
+    "t_end": 39.91,
+    "text": "theorem that the average gap between primes of size about X is roughly log X"
+  },
+  {
+    "t_start": 39.91,
+    "t_end": 45.67,
+    "text": "bigger they gradually get sparer and sparer and the question that I'm going"
+  },
+  {
+    "t_start": 45.67,
+    "t_end": 49.27,
+    "text": "sparer and the question that I'm going to be interested in today is how small"
+  },
+  {
+    "t_start": 49.27,
+    "t_end": 52.15,
+    "text": "to be interested in today is how small can they be even if they get Spar and"
+  },
+  {
+    "t_start": 52.15,
+    "t_end": 54.189,
+    "text": "can they be even if they get Spar and sparer on average is it the case that"
+  },
+  {
+    "t_start": 54.189,
+    "t_end": 55.83,
+    "text": "sparer on average is it the case that occasionally you can have very small Gap"
+  },
+  {
+    "t_start": 55.83,
+    "t_end": 57.99,
+    "text": "occasionally you can have very small Gap stream times so the kind of question I'm"
+  },
+  {
+    "t_start": 57.99,
+    "t_end": 61.069,
+    "text": "stream times so the kind of question I'm interested in is what is the if we let"
+  },
+  {
+    "t_start": 61.069,
+    "t_end": 66.23,
+    "text": "interested in is what is the if we let PN denote the N Prime what is limit the"
+  },
+  {
+    "t_start": 66.23,
+    "t_end": 68.429,
+    "text": "limit of PN plus 1 minus PN and in particular is it finite and if it is"
+  },
+  {
+    "t_start": 68.429,
+    "t_end": 74.149,
+    "text": "finite how big is it so this is asking is there some bound B such as infinitely"
+  },
+  {
+    "t_start": 74.149,
+    "t_end": 76.23,
+    "text": "is there some bound B such as infinitely many pairs of primes that differ by at"
+  },
+  {
+    "t_start": 76.23,
+    "t_end": 82.31,
+    "text": "most B and if so how small can we take B and more generally rather than looking"
+  },
+  {
+    "t_start": 82.31,
+    "t_end": 87.31,
+    "text": "and more generally rather than looking at just pairs of primes we can ask for"
+  },
+  {
+    "t_start": 87.31,
+    "t_end": 93.51,
+    "text": "primes or strings of plus one fines and so for any positive integer M we can"
+  },
+  {
+    "t_start": 93.51,
+    "t_end": 98.71,
+    "text": "simly ask what is the limit for PN plus M minus PN and in particular is this"
+  },
+  {
+    "t_start": 98.71,
+    "t_end": 104.429,
+    "text": "M minus PN and in particular is this finite so this is saying now if there's"
+  },
+  {
+    "t_start": 104.429,
+    "t_end": 106.789,
+    "text": "some bound BM such that we can find infin many sets of mimes all contained"
+  },
+  {
+    "t_start": 106.789,
+    "t_end": 109.709,
+    "text": "infin many sets of mimes all contained in an interval of length"
+  },
+  {
+    "t_start": 109.709,
+    "t_end": 114.749,
+    "text": "BM now we believe we know what the answer should be to both of these"
+  },
+  {
+    "t_start": 114.749,
+    "t_end": 117.389,
+    "text": "answer should be to both of these questions and this is given by the prime"
+  },
+  {
+    "t_start": 117.389,
+    "t_end": 121.23,
+    "text": "questions and this is given by the prime K2 PSE conjecture so to State the"
+  },
+  {
+    "t_start": 121.23,
+    "t_end": 123.51,
+    "text": "K2 PSE conjecture so to State the conjecture we need a small amount of"
+  },
+  {
+    "t_start": 123.51,
+    "t_end": 132.43,
+    "text": "technical notation so we say a set h of positive integers is admissible if it do"
+  },
+  {
+    "t_start": 132.43,
+    "t_end": 134.75,
+    "text": "positive integers is admissible if it do doesn't cover all residue classes modul"
+  },
+  {
+    "t_start": 134.75,
+    "t_end": 136.91,
+    "text": "doesn't cover all residue classes modul only Prime so that's saying for every"
+  },
+  {
+    "t_start": 136.91,
+    "t_end": 141.99,
+    "text": "only Prime so that's saying for every Prime P there's some integer NP which is"
+  },
+  {
+    "t_start": 141.99,
+    "t_end": 144.79,
+    "text": "not congruent to any element of our fixed set of positive integers and then"
+  },
+  {
+    "t_start": 144.79,
+    "t_end": 146.91,
+    "text": "fixed set of positive integers and then the prime K2 plus conjecture is the"
+  },
+  {
+    "t_start": 146.91,
+    "t_end": 149.91,
+    "text": "the prime K2 plus conjecture is the following statement if we take any fixed"
+  },
+  {
+    "t_start": 149.91,
+    "t_end": 152.47,
+    "text": "following statement if we take any fixed admissible set H then there should be"
+  },
+  {
+    "t_start": 152.47,
+    "t_end": 154.99,
+    "text": "admissible set H then there should be infinitely many integers n such that all"
+  },
+  {
+    "t_start": 154.99,
+    "t_end": 158.11,
+    "text": "infinitely many integers n such that all the translates M plus H1 up to M plus HK"
+  },
+  {
+    "t_start": 158.11,
+    "t_end": 161.309,
+    "text": "the translates M plus H1 up to M plus HK are primes now it's quite easy to see"
+  },
+  {
+    "t_start": 161.309,
+    "t_end": 163.309,
+    "text": "are primes now it's quite easy to see that if H is not admissible then it"
+  },
+  {
+    "t_start": 163.309,
+    "t_end": 165.07,
+    "text": "that if H is not admissible then it covers all residue classes modul some"
+  },
+  {
+    "t_start": 165.07,
+    "t_end": 170.27,
+    "text": "fixed Prime p and this means that all at least one of the translates M plus H1 up"
+  },
+  {
+    "t_start": 170.27,
+    "t_end": 174.589,
+    "text": "to M plus h k is a multiple of P for every integer n and so there can only be"
+  },
+  {
+    "t_start": 174.589,
+    "t_end": 177.07,
+    "text": "every integer n and so there can only be finitely many values of n for which all"
+  },
+  {
+    "t_start": 177.07,
+    "t_end": 179.869,
+    "text": "finitely many values of n for which all of these translates a prime so the prime"
+  },
+  {
+    "t_start": 179.869,
+    "t_end": 181.99,
+    "text": "of these translates a prime so the prime K conjecture is really saying all these"
+  },
+  {
+    "t_start": 181.99,
+    "t_end": 183.55,
+    "text": "K conjecture is really saying all these translates should be simultaneously"
+  },
+  {
+    "t_start": 183.55,
+    "t_end": 186.869,
+    "text": "Prime infinitely often unless there's some really obvious reason why they"
+  },
+  {
+    "t_start": 186.869,
+    "t_end": 189.55,
+    "text": "some really obvious reason why they can't be"
+  },
+  {
+    "t_start": 189.55,
+    "t_end": 194.35,
+    "text": "and as I mentioned if we assume the prime K2 plus conjecture this gives us a"
+  },
+  {
+    "t_start": 194.35,
+    "t_end": 195.91,
+    "text": "prime K2 plus conjecture this gives us a complete answer to both the questions I"
+  },
+  {
+    "t_start": 195.91,
+    "t_end": 200.789,
+    "text": "complete answer to both the questions I put up on the first slide so if we"
+  },
+  {
+    "t_start": 200.789,
+    "t_end": 203.229,
+    "text": "assume this then the set 02 is admissible and we get the twin Prime"
+  },
+  {
+    "t_start": 203.229,
+    "t_end": 205.149,
+    "text": "admissible and we get the twin Prime conjecture that there's infinitely many"
+  },
+  {
+    "t_start": 205.149,
+    "t_end": 210.39,
+    "text": "conjecture that there's infinitely many pairs of primes that differ by exactly"
+  },
+  {
+    "t_start": 210.39,
+    "t_end": 216.19,
+    "text": "integer m in the more General case we can assign a exact value to the limit"
+  },
+  {
+    "t_start": 216.19,
+    "t_end": 219.27,
+    "text": "can assign a exact value to the limit for PM Plus M minus PN and for large"
+  },
+  {
+    "t_start": 219.27,
+    "t_end": 221.67,
+    "text": "for PM Plus M minus PN and for large values of M this grows like roughly M"
+  },
+  {
+    "t_start": 221.67,
+    "t_end": 228.07,
+    "text": "log M and in particular is finite for every fixed finite value of M so if we"
+  },
+  {
+    "t_start": 228.07,
+    "t_end": 230.309,
+    "text": "every fixed finite value of M so if we assume the prim K ho conjecture we"
+  },
+  {
+    "t_start": 230.309,
+    "t_end": 231.869,
+    "text": "assume the prim K ho conjecture we really know everything we want to about"
+  },
+  {
+    "t_start": 231.869,
+    "t_end": 234.63,
+    "text": "really know everything we want to about the two questions that I'm interested in"
+  },
+  {
+    "t_start": 234.63,
+    "t_end": 238.509,
+    "text": "the two questions that I'm interested in but the prime K2 conjecture is this vast"
+  },
+  {
+    "t_start": 238.509,
+    "t_end": 240.149,
+    "text": "generalization of the twin Prime conjecture"
+  },
+  {
+    "t_start": 240.149,
+    "t_end": 243.99,
+    "text": "so unfortunately it seems quite a long way away from anything that we're able"
+  },
+  {
+    "t_start": 243.99,
+    "t_end": 249.03,
+    "text": "way away from anything that we're able to prove in the near future so what can"
+  },
+  {
+    "t_start": 249.03,
+    "t_end": 256.349,
+    "text": "unconditionally well goldon pin do introduced a method of studying these"
+  },
+  {
+    "t_start": 256.349,
+    "t_end": 258.31,
+    "text": "introduced a method of studying these small gaps by using approximations to"
+  },
+  {
+    "t_start": 258.31,
+    "t_end": 261.59,
+    "text": "small gaps by using approximations to the prime K2 plus conjecture and these"
+  },
+  {
+    "t_start": 261.59,
+    "t_end": 264.27,
+    "text": "the prime K2 plus conjecture and these approximations have been very effective"
+  },
+  {
+    "t_start": 264.27,
+    "t_end": 270.23,
+    "text": "at using cth Theory to get unconditional results about small gaps between Prim so"
+  },
+  {
+    "t_start": 270.23,
+    "t_end": 274.029,
+    "text": "results about small gaps between Prim so this method's now known as the gpy"
+  },
+  {
+    "t_start": 274.029,
+    "t_end": 279.35,
+    "text": "this method's now known as the gpy method and the main result of gon pin"
+  },
+  {
+    "t_start": 279.35,
+    "t_end": 281.469,
+    "text": "method and the main result of gon pin andum when they introduced this method"
+  },
+  {
+    "t_start": 281.469,
+    "t_end": 283.23,
+    "text": "andum when they introduced this method was to show that there's infinitely many"
+  },
+  {
+    "t_start": 283.23,
+    "t_end": 286.31,
+    "text": "was to show that there's infinitely many pairs of primes that whose difference is"
+  },
+  {
+    "t_start": 286.31,
+    "t_end": 287.71,
+    "text": "pairs of primes that whose difference is arbitrarily small compared to the"
+  },
+  {
+    "t_start": 287.71,
+    "t_end": 289.11,
+    "text": "arbitrarily small compared to the average"
+  },
+  {
+    "t_start": 289.11,
+    "t_end": 296.07,
+    "text": "Gap and just under a year ago this there's been this spectacular"
+  },
+  {
+    "t_start": 296.07,
+    "t_end": 302.71,
+    "text": "Breakthrough by utang Jang who managed to end the work of goldon pins udum who"
+  },
+  {
+    "t_start": 302.71,
+    "t_end": 304.59,
+    "text": "to end the work of goldon pins udum who and he showed that there's infinitely"
+  },
+  {
+    "t_start": 304.59,
+    "t_end": 310.55,
+    "text": "and he showed that there's infinitely many pairs of primes that differ by most"
+  },
+  {
+    "t_start": 310.55,
+    "t_end": 312.71,
+    "text": "70 million so we now have a complete qualitative answer to the first question"
+  },
+  {
+    "t_start": 312.71,
+    "t_end": 317.43,
+    "text": "qualitative answer to the first question I put up that there are infinitely many"
+  },
+  {
+    "t_start": 317.43,
+    "t_end": 319.55,
+    "text": "Bounder gaps between primes and we can put an explicit numerical value on the"
+  },
+  {
+    "t_start": 319.55,
+    "t_end": 323.309,
+    "text": "put an explicit numerical value on the sides of the gaps 70 million is a bit"
+  },
+  {
+    "t_start": 323.309,
+    "t_end": 325.11,
+    "text": "bigger than two but this is a huge breakthrough that we've got a finite"
+  },
+  {
+    "t_start": 325.11,
+    "t_end": 328.15,
+    "text": "breakthrough that we've got a finite bound um unfortunately neither of these"
+  },
+  {
+    "t_start": 328.15,
+    "t_end": 330.469,
+    "text": "bound um unfortunately neither of these results automatically give a similar"
+  },
+  {
+    "t_start": 330.469,
+    "t_end": 332.95,
+    "text": "results automatically give a similar qualitative answer for the more general"
+  },
+  {
+    "t_start": 332.95,
+    "t_end": 334.23,
+    "text": "qualitative answer for the more general question of many"
+  },
+  {
+    "t_start": 334.23,
+    "t_end": 342.35,
+    "text": "primes so there's two main results that I want to talk about today which are"
+  },
+  {
+    "t_start": 342.35,
+    "t_end": 345.83,
+    "text": "I want to talk about today which are results which I proved in November last"
+  },
+  {
+    "t_start": 345.83,
+    "t_end": 350.629,
+    "text": "results which I proved in November last year so the first is we get a"
+  },
+  {
+    "t_start": 350.629,
+    "t_end": 353.71,
+    "text": "year so the first is we get a corresponding qualitative statement with"
+  },
+  {
+    "t_start": 353.71,
+    "t_end": 359.11,
+    "text": "an explicit numerical Bound for any positive integer M so for every positive"
+  },
+  {
+    "t_start": 359.11,
+    "t_end": 364.35,
+    "text": "positive integer M so for every positive integer m M the limit for PN plus M"
+  },
+  {
+    "t_start": 364.35,
+    "t_end": 366.629,
+    "text": "minus PN is finite and moreover we can put an explicit bound that grows"
+  },
+  {
+    "t_start": 366.629,
+    "t_end": 373.83,
+    "text": "poor compared to what we get with the highly to Prime K2 conjecture it's going"
+  },
+  {
+    "t_start": 373.83,
+    "t_end": 376.11,
+    "text": "highly to Prime K2 conjecture it's going exponentially rather than like M log M"
+  },
+  {
+    "t_start": 376.11,
+    "t_end": 378.469,
+    "text": "exponentially rather than like M log M but nonetheless this is finite and we"
+  },
+  {
+    "t_start": 378.469,
+    "t_end": 383.71,
+    "text": "but nonetheless this is finite and we can put an explicit bound on it and then"
+  },
+  {
+    "t_start": 383.71,
+    "t_end": 390.51,
+    "text": "was using the ideas in this new method to get an improved numerical result for"
+  },
+  {
+    "t_start": 390.51,
+    "t_end": 392.71,
+    "text": "to get an improved numerical result for the gaps between consecutive primes so"
+  },
+  {
+    "t_start": 392.71,
+    "t_end": 394.23,
+    "text": "the gaps between consecutive primes so I've been able to show that there's"
+  },
+  {
+    "t_start": 394.23,
+    "t_end": 396.23,
+    "text": "I've been able to show that there's infinitely many pairs of primes which"
+  },
+  {
+    "t_start": 396.23,
+    "t_end": 401.83,
+    "text": "infinitely many pairs of primes which differ by most 600 so 600 is still quite"
+  },
+  {
+    "t_start": 401.83,
+    "t_end": 405.83,
+    "text": "a lot bigger than two but we get a slightly"
+  },
+  {
+    "t_start": 409.07,
+    "t_end": 414.35,
+    "text": "closer I can't remember um bigger than"
+  },
+  {
+    "t_start": 416.629,
+    "t_end": 421.11,
+    "text": "so I guess there's two things I want to say straight away about this theorem uh"
+  },
+  {
+    "t_start": 421.11,
+    "t_end": 425.39,
+    "text": "say straight away about this theorem uh the first is that um Terry has also"
+  },
+  {
+    "t_start": 425.39,
+    "t_end": 427.99,
+    "text": "the first is that um Terry has also independently come up with the same"
+  },
+  {
+    "t_start": 427.99,
+    "t_end": 433.309,
+    "text": "modification and the same ideas behind the proof so in principle he has uh same"
+  },
+  {
+    "t_start": 433.309,
+    "t_end": 435.629,
+    "text": "the proof so in principle he has uh same results here and the second thing that I"
+  },
+  {
+    "t_start": 435.629,
+    "t_end": 440.589,
+    "text": "results here and the second thing that I want to say is that the proof uses a"
+  },
+  {
+    "t_start": 440.589,
+    "t_end": 444.43,
+    "text": "genuinely different way of building on the original work of gold and pins and"
+  },
+  {
+    "t_start": 444.43,
+    "t_end": 446.83,
+    "text": "yum to the approach of Shang so this isn't natural generalization of jang's"
+  },
+  {
+    "t_start": 446.83,
+    "t_end": 450.029,
+    "text": "isn't natural generalization of jang's results in some way we use a completely"
+  },
+  {
+    "t_start": 450.029,
+    "t_end": 457.27,
+    "text": "method although it's still based very much on the um work of gold and Pinson"
+  },
+  {
+    "t_start": 466.27,
+    "t_end": 469.27,
+    "text": "so okay so this is a schematic overview of how the proofs towards showing"
+  },
+  {
+    "t_start": 469.27,
+    "t_end": 471.309,
+    "text": "of how the proofs towards showing results about small gaps between primes"
+  },
+  {
+    "t_start": 471.309,
+    "t_end": 473.83,
+    "text": "results about small gaps between primes roughly work we want to prove an"
+  },
+  {
+    "t_start": 473.83,
+    "t_end": 476.11,
+    "text": "roughly work we want to prove an arithmetic results about the primes we"
+  },
+  {
+    "t_start": 476.11,
+    "t_end": 481.67,
+    "text": "want to show that they come in small Gap they have small gaps and naturally if we"
+  },
+  {
+    "t_start": 481.67,
+    "t_end": 483.189,
+    "text": "they have small gaps and naturally if we want to prove an arithmetic result we"
+  },
+  {
+    "t_start": 483.189,
+    "t_end": 485.83,
+    "text": "want to prove an arithmetic result we need some fundamental arithmetic input"
+  },
+  {
+    "t_start": 485.83,
+    "t_end": 487.149,
+    "text": "need some fundamental arithmetic input to help our understanding about the"
+  },
+  {
+    "t_start": 487.149,
+    "t_end": 490.23,
+    "text": "to help our understanding about the primes and the arithmetic input that"
+  },
+  {
+    "t_start": 490.23,
+    "t_end": 494.749,
+    "text": "primes and the arithmetic input that goes into the whole argument is results"
+  },
+  {
+    "t_start": 494.749,
+    "t_end": 501.149,
+    "text": "in Prime about primes in arithmetic progressions and the key Point here is"
+  },
+  {
+    "t_start": 501.149,
+    "t_end": 502.79,
+    "text": "that um we can prove actually very strong deep results about primes and"
+  },
+  {
+    "t_start": 502.79,
+    "t_end": 504.629,
+    "text": "strong deep results about primes and arithmetic progressions so this really"
+  },
+  {
+    "t_start": 504.629,
+    "t_end": 507.589,
+    "text": "arithmetic progressions so this really represents some of the best knowledge we"
+  },
+  {
+    "t_start": 507.589,
+    "t_end": 512.63,
+    "text": "primes now to translate the kind of arithmetic information that we know"
+  },
+  {
+    "t_start": 512.63,
+    "t_end": 518.67,
+    "text": "progressions into the kind of arithmetic results that we want to prove results"
+  },
+  {
+    "t_start": 518.67,
+    "t_end": 522.87,
+    "text": "results that we want to prove results about small gaps between primes we use a"
+  },
+  {
+    "t_start": 522.87,
+    "t_end": 526.87,
+    "text": "Civ method to try and translate this arithmetic information and so here we"
+  },
+  {
+    "t_start": 526.87,
+    "t_end": 531.59,
+    "text": "use some version of the gpy Civ to translate the results about prims and"
+  },
+  {
+    "t_start": 531.59,
+    "t_end": 533.03,
+    "text": "translate the results about prims and arithmetic progressions into results"
+  },
+  {
+    "t_start": 533.03,
+    "t_end": 539.47,
+    "text": "turns out that if you want to get a good result about small Gap stream Primes"
+  },
+  {
+    "t_start": 539.47,
+    "t_end": 541.19,
+    "text": "result about small Gap stream Primes there's lots of parameters in your Civ"
+  },
+  {
+    "t_start": 541.19,
+    "t_end": 542.87,
+    "text": "there's lots of parameters in your Civ which you want to choose essentially"
+  },
+  {
+    "t_start": 542.87,
+    "t_end": 545.91,
+    "text": "which you want to choose essentially optimally so the Civ method effectively"
+  },
+  {
+    "t_start": 545.91,
+    "t_end": 548.47,
+    "text": "optimally so the Civ method effectively breaks proven a small result"
+  },
+  {
+    "t_start": 548.47,
+    "t_end": 554.47,
+    "text": "primes given knowledge about primes and arithmatic progressions into two smaller"
+  },
+  {
+    "t_start": 554.47,
+    "t_end": 559.79,
+    "text": "sub problems one of which is a smooth optimization problem and one of which is"
+  },
+  {
+    "t_start": 559.79,
+    "t_end": 561.75,
+    "text": "optimization problem and one of which is a combinatorial problem but the key"
+  },
+  {
+    "t_start": 561.75,
+    "t_end": 565.31,
+    "text": "Point here is neither the combinatorial problem nor the smooth optimization"
+  },
+  {
+    "t_start": 565.31,
+    "t_end": 569.509,
+    "text": "problem have anything to do with the arithmetic of the primes essentially and"
+  },
+  {
+    "t_start": 569.509,
+    "t_end": 571.67,
+    "text": "arithmetic of the primes essentially and so they can be handled using techniques"
+  },
+  {
+    "t_start": 571.67,
+    "t_end": 573.59,
+    "text": "so they can be handled using techniques from other areas such as variational"
+  },
+  {
+    "t_start": 573.59,
+    "t_end": 578.75,
+    "text": "from other areas such as variational calculus and my work jang's work and the"
+  },
+  {
+    "t_start": 578.75,
+    "t_end": 583.87,
+    "text": "calculus and my work jang's work and the pioner work of go and pin and you do"
+  },
+  {
+    "t_start": 588.829,
+    "t_end": 591.43,
+    "text": "them all follow the same method okay not sure why that's"
+  },
+  {
+    "t_start": 591.43,
+    "t_end": 596.59,
+    "text": "okay not sure why that's happening okay uh I guess um the key"
+  },
+  {
+    "t_start": 596.59,
+    "t_end": 598.23,
+    "text": "happening okay uh I guess um the key breakthrough in jang's work which I'll"
+  },
+  {
+    "t_start": 598.23,
+    "t_end": 600.79,
+    "text": "breakthrough in jang's work which I'll mention slightly more is to improve the"
+  },
+  {
+    "t_start": 600.79,
+    "t_end": 602.47,
+    "text": "mention slightly more is to improve the basic arithmetic information that goes"
+  },
+  {
+    "t_start": 602.47,
+    "t_end": 608.11,
+    "text": "basic arithmetic information that goes into this so the key breakthrough of"
+  },
+  {
+    "t_start": 608.11,
+    "t_end": 615.19,
+    "text": "Bomer Freelander fui and aan um was to improve the basic arithmetic information"
+  },
+  {
+    "t_start": 615.19,
+    "t_end": 619.11,
+    "text": "that went into the whole argument so J proves a stronger result about times and"
+  },
+  {
+    "t_start": 619.11,
+    "t_end": 621.75,
+    "text": "proves a stronger result about times and Artic progressions and then shows that"
+  },
+  {
+    "t_start": 621.75,
+    "t_end": 623.949,
+    "text": "Artic progressions and then shows that this stronger Artic information flows"
+  },
+  {
+    "t_start": 623.949,
+    "t_end": 625.47,
+    "text": "this stronger Artic information flows through the whole diagram and he"
+  },
+  {
+    "t_start": 625.47,
+    "t_end": 627.03,
+    "text": "through the whole diagram and he correspondingly gets a stronger result"
+  },
+  {
+    "t_start": 627.03,
+    "t_end": 632.509,
+    "text": "about small gaps between primes and this is is the key extra thing that Jang does"
+  },
+  {
+    "t_start": 632.509,
+    "t_end": 633.79,
+    "text": "is is the key extra thing that Jang does compared to the original work of go and"
+  },
+  {
+    "t_start": 633.79,
+    "t_end": 635.829,
+    "text": "compared to the original work of go and Pinon y that gets him boundary gaps"
+  },
+  {
+    "t_start": 635.829,
+    "t_end": 639.19,
+    "text": "Pinon y that gets him boundary gaps between primes however in my work the"
+  },
+  {
+    "t_start": 639.19,
+    "t_end": 640.949,
+    "text": "between primes however in my work the key modification is the Civ method at"
+  },
+  {
+    "t_start": 640.949,
+    "t_end": 646.509,
+    "text": "key modification is the Civ method at the heart of the method and my modif I"
+  },
+  {
+    "t_start": 646.509,
+    "t_end": 649.069,
+    "text": "modify the gpy C to make it more efficient at translating the results"
+  },
+  {
+    "t_start": 649.069,
+    "t_end": 651.069,
+    "text": "efficient at translating the results about primes in arithmetic progressions"
+  },
+  {
+    "t_start": 651.069,
+    "t_end": 654.99,
+    "text": "into the results about small Gap stre primes and it's this more efficient Civ"
+  },
+  {
+    "t_start": 654.99,
+    "t_end": 657.23,
+    "text": "primes and it's this more efficient Civ at the heart of the method which is the"
+  },
+  {
+    "t_start": 657.23,
+    "t_end": 660.47,
+    "text": "at the heart of the method which is the key modification"
+  },
+  {
+    "t_start": 660.47,
+    "t_end": 665.269,
+    "text": "okay so I'll now say a few words about the basic arithmetic input that goes in"
+  },
+  {
+    "t_start": 665.269,
+    "t_end": 668.55,
+    "text": "the basic arithmetic input that goes in for to the whole method about primes and"
+  },
+  {
+    "t_start": 668.55,
+    "t_end": 675.23,
+    "text": "the number of primes which are less than equal to X and in a progression so we"
+  },
+  {
+    "t_start": 675.23,
+    "t_end": 677.11,
+    "text": "equal to X and in a progression so we counting primes which are congruent to a"
+  },
+  {
+    "t_start": 677.11,
+    "t_end": 682.949,
+    "text": "counting primes which are congruent to a modular Q now it's quite easy to see"
+  },
+  {
+    "t_start": 682.949,
+    "t_end": 684.35,
+    "text": "that if a and Q have a common factor then there's essentially no primes in"
+  },
+  {
+    "t_start": 684.35,
+    "t_end": 688.75,
+    "text": "this set whatsoever so all the Primes in rest of you classes where a is co- Prime"
+  },
+  {
+    "t_start": 688.75,
+    "t_end": 689.87,
+    "text": "rest of you classes where a is co- Prime to Q"
+  },
+  {
+    "t_start": 689.87,
+    "t_end": 694.67,
+    "text": "and then the basic fistic is that the primes should be equally distributed in"
+  },
+  {
+    "t_start": 694.67,
+    "t_end": 697.389,
+    "text": "primes should be equally distributed in all these residue glasses so the number"
+  },
+  {
+    "t_start": 697.389,
+    "t_end": 699.91,
+    "text": "all these residue glasses so the number of primes in any given particular"
+  },
+  {
+    "t_start": 699.91,
+    "t_end": 702.389,
+    "text": "of primes in any given particular arithmetic progression module oq should"
+  },
+  {
+    "t_start": 702.389,
+    "t_end": 706.23,
+    "text": "arithmetic progression module oq should be roughly equal to the number of primes"
+  },
+  {
+    "t_start": 706.23,
+    "t_end": 707.59,
+    "text": "which are less than equal to x divided by the number of different residue"
+  },
+  {
+    "t_start": 707.59,
+    "t_end": 712.47,
+    "text": "classes and moreover this htic that the problem should be equidistributed we"
+  },
+  {
+    "t_start": 712.47,
+    "t_end": 718.59,
+    "text": "feel should hold for a really very wide range of values of x and q so Q can grow"
+  },
+  {
+    "t_start": 718.59,
+    "t_end": 720.87,
+    "text": "range of values of x and q so Q can grow with X and in particular be almost as"
+  },
+  {
+    "t_start": 720.87,
+    "t_end": 726.79,
+    "text": "large as X and we still expect this cisti to hold now if we actually want to"
+  },
+  {
+    "t_start": 726.79,
+    "t_end": 729.19,
+    "text": "cisti to hold now if we actually want to quantitively measure this heris stick we"
+  },
+  {
+    "t_start": 729.19,
+    "t_end": 735.189,
+    "text": "quantitively measure this heris stick we can let e of Q denote the error from"
+  },
+  {
+    "t_start": 735.189,
+    "t_end": 738.87,
+    "text": "this approximation over residue classes modular q"
+  },
+  {
+    "t_start": 738.87,
+    "t_end": 742.509,
+    "text": "modular q and"
+  },
+  {
+    "t_start": 746.069,
+    "t_end": 753.269,
+    "text": "the idea of a level of distribution so here we assign a parameter to the primes"
+  },
+  {
+    "t_start": 753.269,
+    "t_end": 757.11,
+    "text": "here we assign a parameter to the primes a score if you like between zero and one"
+  },
+  {
+    "t_start": 757.11,
+    "t_end": 764.269,
+    "text": "distributed how strong this equid distribution holds so we have we say the"
+  },
+  {
+    "t_start": 764.269,
+    "t_end": 765.79,
+    "text": "distribution holds so we have we say the primes have a level of distribution"
+  },
+  {
+    "t_start": 765.79,
+    "t_end": 768.949,
+    "text": "primes have a level of distribution Theta if when we average over when we"
+  },
+  {
+    "t_start": 768.949,
+    "t_end": 776.03,
+    "text": "sum over moduleq which are less than x^ Theta we get something which is small so"
+  },
+  {
+    "t_start": 776.03,
+    "t_end": 782.269,
+    "text": "Theta we get something which is small so this is saying that e of Q is small on"
+  },
+  {
+    "t_start": 782.269,
+    "t_end": 784.43,
+    "text": "average over Q less than x^ Theta if Theta is very small this indicates only"
+  },
+  {
+    "t_start": 784.43,
+    "t_end": 787.069,
+    "text": "Theta is very small this indicates only a weak level of equ distribution whereas"
+  },
+  {
+    "t_start": 787.069,
+    "t_end": 790.509,
+    "text": "a weak level of equ distribution whereas if Theta is large and this indicates a"
+  },
+  {
+    "t_start": 790.509,
+    "t_end": 793.069,
+    "text": "strong level of distribution and"
+  },
+  {
+    "t_start": 793.069,
+    "t_end": 798.43,
+    "text": "the key point that as to why this might be interesting to look at is the Bomer"
+  },
+  {
+    "t_start": 798.43,
+    "t_end": 800.15,
+    "text": "be interesting to look at is the Bomer vinard of theorem which is an"
+  },
+  {
+    "t_start": 800.15,
+    "t_end": 802.269,
+    "text": "vinard of theorem which is an unconditional result that shows that the"
+  },
+  {
+    "t_start": 802.269,
+    "t_end": 804.55,
+    "text": "unconditional result that shows that the primes of level of distribution Theta"
+  },
+  {
+    "t_start": 804.55,
+    "t_end": 811.629,
+    "text": "less than half and this is really a very deep result about the primes even if you"
+  },
+  {
+    "t_start": 811.629,
+    "t_end": 812.79,
+    "text": "deep result about the primes even if you assume the generalized dreaming"
+  },
+  {
+    "t_start": 812.79,
+    "t_end": 818.71,
+    "text": "hypothesis we don't know how to improve this and in particular the Bomer varda"
+  },
+  {
+    "t_start": 818.71,
+    "t_end": 820.829,
+    "text": "this and in particular the Bomer varda theorem can be thought of as a"
+  },
+  {
+    "t_start": 820.829,
+    "t_end": 822.35,
+    "text": "theorem can be thought of as a unconditional result saying that the"
+  },
+  {
+    "t_start": 822.35,
+    "t_end": 824.55,
+    "text": "unconditional result saying that the generalized dream and hypothesis is true"
+  },
+  {
+    "t_start": 824.55,
+    "t_end": 827.15,
+    "text": "generalized dream and hypothesis is true on average when we average over module"
+  },
+  {
+    "t_start": 827.15,
+    "t_end": 831.389,
+    "text": "EQ so this is really one of the deepest results we have about primes and this is"
+  },
+  {
+    "t_start": 831.389,
+    "t_end": 834.03,
+    "text": "results we have about primes and this is what's going to power our whole methods"
+  },
+  {
+    "t_start": 834.03,
+    "t_end": 837.269,
+    "text": "what's going to power our whole methods um it should be remarked that it's"
+  },
+  {
+    "t_start": 837.269,
+    "t_end": 839.11,
+    "text": "um it should be remarked that it's unconditional that primes have level of"
+  },
+  {
+    "t_start": 839.11,
+    "t_end": 840.43,
+    "text": "unconditional that primes have level of distribution Theta for any value of"
+  },
+  {
+    "t_start": 840.43,
+    "t_end": 844.509,
+    "text": "theta less than a half but we believe this should be able to be extended to"
+  },
+  {
+    "t_start": 844.509,
+    "t_end": 845.91,
+    "text": "this should be able to be extended to any value of theta which is strictly"
+  },
+  {
+    "t_start": 845.91,
+    "t_end": 849.949,
+    "text": "any value of theta which is strictly less than one and this is known as the"
+  },
+  {
+    "t_start": 849.949,
+    "t_end": 854.67,
+    "text": "conjecture now okay so that's all I'm going to say about primes and arithmetic"
+  },
+  {
+    "t_start": 854.67,
+    "t_end": 857.59,
+    "text": "going to say about primes and arithmetic progressions how do we translate these"
+  },
+  {
+    "t_start": 857.59,
+    "t_end": 859.91,
+    "text": "progressions how do we translate these results about primes in in arithmetic"
+  },
+  {
+    "t_start": 859.91,
+    "t_end": 864.15,
+    "text": "results about primes in in arithmetic progressions in particular the bom vard"
+  },
+  {
+    "t_start": 864.15,
+    "t_end": 865.43,
+    "text": "of THM into results about small gaps between PES they feel like very"
+  },
+  {
+    "t_start": 865.43,
+    "t_end": 873.31,
+    "text": "different objects and so the idea is to use some form of the gpy Civ method so"
+  },
+  {
+    "t_start": 873.31,
+    "t_end": 876.269,
+    "text": "use some form of the gpy Civ method so the basic idea here is that we fix from"
+  },
+  {
+    "t_start": 876.269,
+    "t_end": 879.629,
+    "text": "the basic idea here is that we fix from the outset some admiss admissible set H"
+  },
+  {
+    "t_start": 879.629,
+    "t_end": 882.47,
+    "text": "the outset some admiss admissible set H and we consider this following ratio so"
+  },
+  {
+    "t_start": 882.47,
+    "t_end": 885.59,
+    "text": "and we consider this following ratio so on the numerator we have some over"
+  },
+  {
+    "t_start": 885.59,
+    "t_end": 887.99,
+    "text": "on the numerator we have some over integers in some diadic region and at"
+  },
+  {
+    "t_start": 887.99,
+    "t_end": 892.189,
+    "text": "integers in some diadic region and at each in integer we count the number of"
+  },
+  {
+    "t_start": 892.189,
+    "t_end": 894.87,
+    "text": "these translators which are prime multiplied by some non- negative weights"
+  },
+  {
+    "t_start": 894.87,
+    "t_end": 898.31,
+    "text": "multiplied by some non- negative weights which at the moment are just think of as"
+  },
+  {
+    "t_start": 898.31,
+    "t_end": 901.189,
+    "text": "arbitrary non- negative integers and then we're going to compare this just"
+  },
+  {
+    "t_start": 901.189,
+    "t_end": 907.35,
+    "text": "W so if we normalize say that the sum of the WN is equal to one then this looks"
+  },
+  {
+    "t_start": 907.35,
+    "t_end": 909.15,
+    "text": "the WN is equal to one then this looks like a probability measure and we're"
+  },
+  {
+    "t_start": 909.15,
+    "t_end": 911.269,
+    "text": "like a probability measure and we're calculating the expected number of"
+  },
+  {
+    "t_start": 911.269,
+    "t_end": 913.389,
+    "text": "calculating the expected number of translates which are prime if we're"
+  },
+  {
+    "t_start": 913.389,
+    "t_end": 915.11,
+    "text": "translates which are prime if we're picking integers according to the"
+  },
+  {
+    "t_start": 915.11,
+    "t_end": 916.31,
+    "text": "picking integers according to the probability measure given by these"
+  },
+  {
+    "t_start": 916.31,
+    "t_end": 917.79,
+    "text": "probability measure given by these weights"
+  },
+  {
+    "t_start": 917.79,
+    "t_end": 925.23,
+    "text": "W and then the whole idea is just a very Elementary set of observations if we can"
+  },
+  {
+    "t_start": 925.23,
+    "t_end": 930.43,
+    "text": "get an ASM totic estimate for this sum s and in particular can show that this sum"
+  },
+  {
+    "t_start": 930.43,
+    "t_end": 933.389,
+    "text": "and in particular can show that this sum s is bigger than some test integer M"
+  },
+  {
+    "t_start": 933.389,
+    "t_end": 936.43,
+    "text": "s is bigger than some test integer M then at least one term n must make a"
+  },
+  {
+    "t_start": 936.43,
+    "t_end": 939.189,
+    "text": "then at least one term n must make a contribution where the term n"
+  },
+  {
+    "t_start": 939.189,
+    "t_end": 940.99,
+    "text": "contribution where the term n contributes more than M"
+  },
+  {
+    "t_start": 940.99,
+    "t_end": 945.99,
+    "text": "times what it contributes to the numerator compared to what it"
+  },
+  {
+    "t_start": 945.99,
+    "t_end": 950.389,
+    "text": "denominator but since the weights W and a non- negative if there's a"
+  },
+  {
+    "t_start": 950.389,
+    "t_end": 956.71,
+    "text": "contribution which is more than m to the numerator than it is to the denominator"
+  },
+  {
+    "t_start": 956.71,
+    "t_end": 958.35,
+    "text": "then this means at least n plus one of these translates n plus HR must be"
+  },
+  {
+    "t_start": 958.35,
+    "t_end": 959.67,
+    "text": "these translates n plus HR must be Primes"
+  },
+  {
+    "t_start": 959.67,
+    "t_end": 965.309,
+    "text": "and therefore if we can show that s is bigger than M for all large values of n"
+  },
+  {
+    "t_start": 965.309,
+    "t_end": 967.91,
+    "text": "bigger than M for all large values of n then we found infinitely many values of"
+  },
+  {
+    "t_start": 967.91,
+    "t_end": 972.03,
+    "text": "then we found infinitely many values of n for which at least n plus one of the"
+  },
+  {
+    "t_start": 972.03,
+    "t_end": 976.87,
+    "text": "translates are all prime but these are all primes in a band length interval and"
+  },
+  {
+    "t_start": 976.87,
+    "t_end": 978.949,
+    "text": "so in particular we've shown that we found infinitely many values of n such"
+  },
+  {
+    "t_start": 978.949,
+    "t_end": 983.55,
+    "text": "that there's n plus one primes in a bound length interval and so the limit"
+  },
+  {
+    "t_start": 983.55,
+    "t_end": 989.71,
+    "text": "bound length interval and so the limit for PN plus n minus PN is finite so just"
+  },
+  {
+    "t_start": 989.71,
+    "t_end": 995.47,
+    "text": "ratio s and for example if we can show that s is bigger than one for all large"
+  },
+  {
+    "t_start": 995.47,
+    "t_end": 997.069,
+    "text": "that s is bigger than one for all large values of capital N which is just the"
+  },
+  {
+    "t_start": 997.069,
+    "t_end": 999.11,
+    "text": "values of capital N which is just the region that we're averaging over then we"
+  },
+  {
+    "t_start": 999.11,
+    "t_end": 1000.23,
+    "text": "region that we're averaging over then we show that we've shown that there's"
+  },
+  {
+    "t_start": 1000.23,
+    "t_end": 1003.509,
+    "text": "show that we've shown that there's infinitely many Bounder gaps between"
+  },
+  {
+    "t_start": 1003.509,
+    "t_end": 1009.23,
+    "text": "problems now this is all well and good but the question then is obviously well"
+  },
+  {
+    "t_start": 1009.23,
+    "t_end": 1010.67,
+    "text": "but the question then is obviously well how on Earth do you choose these weights"
+  },
+  {
+    "t_start": 1010.67,
+    "t_end": 1012.949,
+    "text": "how on Earth do you choose these weights WN we want these to be highly"
+  },
+  {
+    "t_start": 1012.949,
+    "t_end": 1015.43,
+    "text": "WN we want these to be highly concentrated and large when many of the"
+  },
+  {
+    "t_start": 1015.43,
+    "t_end": 1019.79,
+    "text": "translates the M plus h primes and we want them to be small small when few of"
+  },
+  {
+    "t_start": 1019.79,
+    "t_end": 1023.669,
+    "text": "want them to be small small when few of the translate of the M plus h times"
+  },
+  {
+    "t_start": 1023.669,
+    "t_end": 1029.909,
+    "text": "the translate of the M plus h times and the key idea of goon pin udum is to"
+  },
+  {
+    "t_start": 1029.909,
+    "t_end": 1033.949,
+    "text": "and the key idea of goon pin udum is to follow the So-Cal selberg C weights so"
+  },
+  {
+    "t_start": 1033.949,
+    "t_end": 1035.87,
+    "text": "follow the So-Cal selberg C weights so um selberg"
+  },
+  {
+    "t_start": 1035.87,
+    "t_end": 1043.11,
+    "text": "introduced um the selberg Civ which is a very effective means of getting an"
+  },
+  {
+    "t_start": 1043.11,
+    "t_end": 1044.27,
+    "text": "very effective means of getting an getting weights which are highly"
+  },
+  {
+    "t_start": 1044.27,
+    "t_end": 1046.949,
+    "text": "getting weights which are highly concentrated on prime numbers and in"
+  },
+  {
+    "t_start": 1046.949,
+    "t_end": 1049.029,
+    "text": "concentrated on prime numbers and in particular when you looking at anything"
+  },
+  {
+    "t_start": 1049.029,
+    "t_end": 1053.23,
+    "text": "things trying to be prime this is the best method we know about having simple"
+  },
+  {
+    "t_start": 1053.23,
+    "t_end": 1054.75,
+    "text": "best method we know about having simple to estimate weights which are highly"
+  },
+  {
+    "t_start": 1054.75,
+    "t_end": 1057.909,
+    "text": "to estimate weights which are highly concentrated on prime numbers so the"
+  },
+  {
+    "t_start": 1057.909,
+    "t_end": 1061.029,
+    "text": "concentrated on prime numbers so the prise formula aren't too important but"
+  },
+  {
+    "t_start": 1061.029,
+    "t_end": 1066.83,
+    "text": "the basic idea is that these weights WN are going to depend on small devices of"
+  },
+  {
+    "t_start": 1066.83,
+    "t_end": 1071.75,
+    "text": "are going to depend on small devices of this product of numbers which we want to"
+  },
+  {
+    "t_start": 1071.75,
+    "t_end": 1073.27,
+    "text": "be prime or very close to Prime"
+  },
+  {
+    "t_start": 1073.27,
+    "t_end": 1078.27,
+    "text": "and by restricting only to small devices we can estimate the the sums reasonably"
+  },
+  {
+    "t_start": 1078.27,
+    "t_end": 1079.43,
+    "text": "we can estimate the the sums reasonably accurately"
+  },
+  {
+    "t_start": 1079.43,
+    "t_end": 1084.47,
+    "text": "using our level of distribution style results um but because we're looking at"
+  },
+  {
+    "t_start": 1084.47,
+    "t_end": 1086.149,
+    "text": "results um but because we're looking at Prime devices of these numbers which we"
+  },
+  {
+    "t_start": 1086.149,
+    "t_end": 1091.31,
+    "text": "want to concentrate B Prime we can arrange these sums so that they're very"
+  },
+  {
+    "t_start": 1091.31,
+    "t_end": 1094.39,
+    "text": "arrange these sums so that they're very small when this product has many small"
+  },
+  {
+    "t_start": 1094.39,
+    "t_end": 1096.39,
+    "text": "small when this product has many small prime"
+  },
+  {
+    "t_start": 1096.39,
+    "t_end": 1103.51,
+    "text": "factors and it turns out that from the point of view of the cburg cve um this"
+  },
+  {
+    "t_start": 1103.51,
+    "t_end": 1106.95,
+    "text": "point of view of the cburg cve um this is a so-called K dimensional problem and"
+  },
+  {
+    "t_start": 1106.95,
+    "t_end": 1109.27,
+    "text": "is a so-called K dimensional problem and in many other K dimensional problems"
+  },
+  {
+    "t_start": 1109.27,
+    "t_end": 1112.31,
+    "text": "in many other K dimensional problems there's a black box essentially optimal"
+  },
+  {
+    "t_start": 1112.31,
+    "t_end": 1116.35,
+    "text": "there's a black box essentially optimal set of Weights so if we use these"
+  },
+  {
+    "t_start": 1116.35,
+    "t_end": 1119.59,
+    "text": "weights which are optimal in lots of other contexts we find that we want to"
+  },
+  {
+    "t_start": 1119.59,
+    "t_end": 1122.549,
+    "text": "other contexts we find that we want to choose weights which the precise form"
+  },
+  {
+    "t_start": 1122.549,
+    "t_end": 1124.789,
+    "text": "choose weights which the precise form again is slightly unimportant but it's"
+  },
+  {
+    "t_start": 1124.789,
+    "t_end": 1126.95,
+    "text": "again is slightly unimportant but it's an arithmetic function times some smooth"
+  },
+  {
+    "t_start": 1126.95,
+    "t_end": 1128.549,
+    "text": "an arithmetic function times some smooth cutter function to make everything easy"
+  },
+  {
+    "t_start": 1128.549,
+    "t_end": 1133.59,
+    "text": "to estimate and it turns out that if the if we assume that the primes of level of"
+  },
+  {
+    "t_start": 1133.59,
+    "t_end": 1136.83,
+    "text": "if we assume that the primes of level of distribution Theta and we consider a"
+  },
+  {
+    "t_start": 1136.83,
+    "t_end": 1140.75,
+    "text": "distribution Theta and we consider a large admissible set then with the this"
+  },
+  {
+    "t_start": 1140.75,
+    "t_end": 1142.909,
+    "text": "large admissible set then with the this standard choice of cellb if weights we"
+  },
+  {
+    "t_start": 1142.909,
+    "t_end": 1147.31,
+    "text": "standard choice of cellb if weights we can make this ratio s of Si is roughly"
+  },
+  {
+    "t_start": 1147.31,
+    "t_end": 1150.31,
+    "text": "equal to Theta the level of distribution now if we remember we"
+  },
+  {
+    "t_start": 1150.31,
+    "t_end": 1155.59,
+    "text": "wanted s to be strictly bigger than one to get Bounder gaps between primes but"
+  },
+  {
+    "t_start": 1155.59,
+    "t_end": 1157.669,
+    "text": "to get Bounder gaps between primes but Theta the level of distribution is this"
+  },
+  {
+    "t_start": 1157.669,
+    "t_end": 1159.07,
+    "text": "Theta the level of distribution is this parameter which is always going to be"
+  },
+  {
+    "t_start": 1159.07,
+    "t_end": 1161.07,
+    "text": "parameter which is always going to be between Z and one and even if we assume"
+  },
+  {
+    "t_start": 1161.07,
+    "t_end": 1163.549,
+    "text": "between Z and one and even if we assume the most optimistic hypotheses then"
+  },
+  {
+    "t_start": 1163.549,
+    "t_end": 1167.19,
+    "text": "Theta has to be less than one and so we're never going to be able to make S"
+  },
+  {
+    "t_start": 1167.19,
+    "t_end": 1170.11,
+    "text": "we're never going to be able to make S bigger than one so it seems that this"
+  },
+  {
+    "t_start": 1170.11,
+    "t_end": 1172.11,
+    "text": "bigger than one so it seems that this method really just doesn't quite work"
+  },
+  {
+    "t_start": 1172.11,
+    "t_end": 1174.149,
+    "text": "method really just doesn't quite work for getting Bounder gaps between"
+  },
+  {
+    "t_start": 1174.149,
+    "t_end": 1179.149,
+    "text": "for getting Bounder gaps between primes therefore it came as something of"
+  },
+  {
+    "t_start": 1179.149,
+    "t_end": 1182.99,
+    "text": "primes therefore it came as something of a surprise when gon pins andum showed"
+  },
+  {
+    "t_start": 1182.99,
+    "t_end": 1185.39,
+    "text": "a surprise when gon pins andum showed that if you modify the smooth cutter"
+  },
+  {
+    "t_start": 1185.39,
+    "t_end": 1187.87,
+    "text": "that if you modify the smooth cutter function here then actually you can do"
+  },
+  {
+    "t_start": 1187.87,
+    "t_end": 1193.27,
+    "text": "function here then actually you can do better and you can do better by a whole"
+  },
+  {
+    "t_start": 1193.27,
+    "t_end": 1196.47,
+    "text": "factor of two so if you optimize the smooth cutter function and choose this"
+  },
+  {
+    "t_start": 1196.47,
+    "t_end": 1201.99,
+    "text": "well then again if we look at a large admissible set and we assume the"
+  },
+  {
+    "t_start": 1201.99,
+    "t_end": 1203.99,
+    "text": "large admissible set and we assume the primes of level of distribution Theta"
+  },
+  {
+    "t_start": 1203.99,
+    "t_end": 1207.909,
+    "text": "primes of level of distribution Theta and we choose our parameters in our Civ"
+  },
+  {
+    "t_start": 1207.909,
+    "t_end": 1213.31,
+    "text": "optimally in terms of this level of distribution then we can make this ratio"
+  },
+  {
+    "t_start": 1213.31,
+    "t_end": 1217.19,
+    "text": "s of size about 2 * Theta now again we wanted to prove"
+  },
+  {
+    "t_start": 1217.19,
+    "t_end": 1224.23,
+    "text": "Bounder gaps between primes and we prove Bounder gaps between primes if we can"
+  },
+  {
+    "t_start": 1224.23,
+    "t_end": 1232.39,
+    "text": "one if we can take Theta to be strictly bigger than half and indeed gold and pum"
+  },
+  {
+    "t_start": 1232.39,
+    "t_end": 1233.83,
+    "text": "bigger than half and indeed gold and pum showed that if you assume the prime of"
+  },
+  {
+    "t_start": 1233.83,
+    "t_end": 1235.35,
+    "text": "showed that if you assume the prime of level of distribution strictly bigger"
+  },
+  {
+    "t_start": 1235.35,
+    "t_end": 1239.63,
+    "text": "level of distribution strictly bigger than half then there are infinitely many"
+  },
+  {
+    "t_start": 1239.63,
+    "t_end": 1241.63,
+    "text": "Bounder gaps between PS However unfortunately unconditionally we only"
+  },
+  {
+    "t_start": 1241.63,
+    "t_end": 1246.47,
+    "text": "know the bombard THM that we can take value of theta less than a half and so"
+  },
+  {
+    "t_start": 1246.47,
+    "t_end": 1248.27,
+    "text": "value of theta less than a half and so unconditionally we just failed to prove"
+  },
+  {
+    "t_start": 1248.27,
+    "t_end": 1249.95,
+    "text": "unconditionally we just failed to prove Bounder gaps between"
+  },
+  {
+    "t_start": 1249.95,
+    "t_end": 1255.909,
+    "text": "primes the key breakthrough in jang's work was to go slightly Beyond a half in"
+  },
+  {
+    "t_start": 1255.909,
+    "t_end": 1258.87,
+    "text": "work was to go slightly Beyond a half in the Bomer vinag theorem with a a couple"
+  },
+  {
+    "t_start": 1258.87,
+    "t_end": 1260.99,
+    "text": "the Bomer vinag theorem with a a couple of technical assumptions and because he"
+  },
+  {
+    "t_start": 1260.99,
+    "t_end": 1264.39,
+    "text": "of technical assumptions and because he was able to prove a level of"
+  },
+  {
+    "t_start": 1264.39,
+    "t_end": 1266.549,
+    "text": "distribution result that went slightly Beyond a half he was correspondingly"
+  },
+  {
+    "t_start": 1266.549,
+    "t_end": 1271.07,
+    "text": "able to make S slightly bigger than one and this is what let him get just over"
+  },
+  {
+    "t_start": 1271.07,
+    "t_end": 1272.95,
+    "text": "and this is what let him get just over the line and therefore prove that"
+  },
+  {
+    "t_start": 1272.95,
+    "t_end": 1274.23,
+    "text": "the line and therefore prove that there's infinitely many Bounder gaps"
+  },
+  {
+    "t_start": 1274.23,
+    "t_end": 1275.87,
+    "text": "there's infinitely many Bounder gaps between"
+  },
+  {
+    "t_start": 1275.87,
+    "t_end": 1282.71,
+    "text": "times however the key modification in my work is to use a generalized form of"
+  },
+  {
+    "t_start": 1282.71,
+    "t_end": 1286.35,
+    "text": "work is to use a generalized form of these silberg Civ RS so again this looks"
+  },
+  {
+    "t_start": 1286.35,
+    "t_end": 1288.95,
+    "text": "these silberg Civ RS so again this looks like a fairly messy complicated formula"
+  },
+  {
+    "t_start": 1288.95,
+    "t_end": 1290.909,
+    "text": "like a fairly messy complicated formula particularly if you're not familiar with"
+  },
+  {
+    "t_start": 1290.909,
+    "t_end": 1293.669,
+    "text": "particularly if you're not familiar with cves but before we had a one-dimensional"
+  },
+  {
+    "t_start": 1293.669,
+    "t_end": 1296.549,
+    "text": "cves but before we had a one-dimensional sum of small devices of this product of"
+  },
+  {
+    "t_start": 1296.549,
+    "t_end": 1298.19,
+    "text": "sum of small devices of this product of numbers which we like to be prime"
+  },
+  {
+    "t_start": 1298.19,
+    "t_end": 1301.23,
+    "text": "numbers which we like to be prime infinitely often and the key idea here"
+  },
+  {
+    "t_start": 1301.23,
+    "t_end": 1302.669,
+    "text": "infinitely often and the key idea here is instead of having a one-dimensional"
+  },
+  {
+    "t_start": 1302.669,
+    "t_end": 1304.07,
+    "text": "is instead of having a one-dimensional sum we're going to have a"
+  },
+  {
+    "t_start": 1304.07,
+    "t_end": 1306.23,
+    "text": "sum we're going to have a multi-dimensional sum where we summing"
+  },
+  {
+    "t_start": 1306.23,
+    "t_end": 1312.19,
+    "text": "over separately devisers D1 up to DK where di is a divisor of each of these"
+  },
+  {
+    "t_start": 1312.19,
+    "t_end": 1318.029,
+    "text": "terms M plus hi which we'd like to be F and so we've used these different linear"
+  },
+  {
+    "t_start": 1318.029,
+    "t_end": 1320.87,
+    "text": "and so we've used these different linear forms and we're now looking at devices"
+  },
+  {
+    "t_start": 1320.87,
+    "t_end": 1338.149,
+    "text": "forms and we're now looking at devices of these"
+  },
+  {
+    "t_start": 1341.23,
+    "t_end": 1343.549,
+    "text": "separately it's Uncle yeah it's unclear whether silberg meant that because of"
+  },
+  {
+    "t_start": 1343.549,
+    "t_end": 1346.63,
+    "text": "whether silberg meant that because of the extra flexibility you get from"
+  },
+  {
+    "t_start": 1346.63,
+    "t_end": 1349.39,
+    "text": "the extra flexibility you get from choosing these independently or whe or"
+  },
+  {
+    "t_start": 1349.39,
+    "t_end": 1351.63,
+    "text": "choosing these independently or whe or the extra flexibility you get from"
+  },
+  {
+    "t_start": 1351.63,
+    "t_end": 1353.669,
+    "text": "the extra flexibility you get from effectively having buying more room out"
+  },
+  {
+    "t_start": 1353.669,
+    "t_end": 1355.95,
+    "text": "effectively having buying more room out of your level of distribution cuz he was"
+  },
+  {
+    "t_start": 1355.95,
+    "t_end": 1358.51,
+    "text": "of your level of distribution cuz he was talking about the number of devices that"
+  },
+  {
+    "t_start": 1358.51,
+    "t_end": 1360.669,
+    "text": "talking about the number of devices that you have"
+  },
+  {
+    "t_start": 1360.669,
+    "t_end": 1363.63,
+    "text": "you have and right"
+  },
+  {
+    "t_start": 1363.63,
+    "t_end": 1369.23,
+    "text": "and right um yeah uh right"
+  },
+  {
+    "t_start": 1374.14,
+    "t_end": 1379.19,
+    "text": "so um yeah [Laughter]"
+  },
+  {
+    "t_start": 1381.95,
+    "t_end": 1384.549,
+    "text": "um yeah so the key new the key idea is to look at these multi-dimensional sums"
+  },
+  {
+    "t_start": 1384.549,
+    "t_end": 1390.269,
+    "text": "to look at these multi-dimensional sums over D1 devices D1 up to DK and we now"
+  },
+  {
+    "t_start": 1390.269,
+    "t_end": 1393.51,
+    "text": "have a smooth cutter function that depends on these devices separately and"
+  },
+  {
+    "t_start": 1393.51,
+    "t_end": 1396.11,
+    "text": "depends on these devices separately and as was mentioned these multi-dimensional"
+  },
+  {
+    "t_start": 1396.11,
+    "t_end": 1398.83,
+    "text": "as was mentioned these multi-dimensional weights aren't entirely new so sber"
+  },
+  {
+    "t_start": 1398.83,
+    "t_end": 1402.39,
+    "text": "weights aren't entirely new so sber could"
+  },
+  {
+    "t_start": 1412.11,
+    "t_end": 1415.83,
+    "text": "um so yeah my computer shouldn't have a screen safer so"
+  },
+  {
+    "t_start": 1415.83,
+    "t_end": 1421.71,
+    "text": "um uh yeah so these weights had been looked up before selberg had mentioned"
+  },
+  {
+    "t_start": 1421.71,
+    "t_end": 1423.51,
+    "text": "looked up before selberg had mentioned the possible use of these weights and"
+  },
+  {
+    "t_start": 1423.51,
+    "t_end": 1427.39,
+    "text": "the possible use of these weights and how they should in principle improve"
+  },
+  {
+    "t_start": 1427.39,
+    "t_end": 1430.87,
+    "text": "how they should in principle improve um improve results and similarly goon"
+  },
+  {
+    "t_start": 1430.87,
+    "t_end": 1434.789,
+    "text": "um improve results and similarly goon and udum in some of their early work had"
+  },
+  {
+    "t_start": 1434.789,
+    "t_end": 1437.39,
+    "text": "also looked at very similar style multi-dimensional weights but the key"
+  },
+  {
+    "t_start": 1437.39,
+    "t_end": 1440.75,
+    "text": "multi-dimensional weights but the key thing that we the key modification is"
+  },
+  {
+    "t_start": 1440.75,
+    "t_end": 1443.11,
+    "text": "that we're now moving to multi-dimensional weights and it's this"
+  },
+  {
+    "t_start": 1443.11,
+    "t_end": 1447.269,
+    "text": "flexibility that we allow this smooth cutter function to depend on our devices"
+  },
+  {
+    "t_start": 1447.269,
+    "t_end": 1450.23,
+    "text": "cutter function to depend on our devices separately rather than all together"
+  },
+  {
+    "t_start": 1450.23,
+    "t_end": 1452.47,
+    "text": "separately rather than all together which is going to be the key thing that"
+  },
+  {
+    "t_start": 1452.47,
+    "t_end": 1454.19,
+    "text": "lets us with"
+  },
+  {
+    "t_start": 1454.19,
+    "t_end": 1459.549,
+    "text": "so um yeah I guess again we're just going to Define these weights in terms"
+  },
+  {
+    "t_start": 1459.549,
+    "t_end": 1461.39,
+    "text": "going to Define these weights in terms of some K dimensional smooth cut of"
+  },
+  {
+    "t_start": 1461.39,
+    "t_end": 1465.11,
+    "text": "of some K dimensional smooth cut of function and then uh following the ideas"
+  },
+  {
+    "t_start": 1465.11,
+    "t_end": 1469.07,
+    "text": "function and then uh following the ideas of Goen pinch and your durum we don't"
+  },
+  {
+    "t_start": 1469.07,
+    "t_end": 1474.23,
+    "text": "want to impose too many restrictions on our choice of f we want to keep F fairly"
+  },
+  {
+    "t_start": 1474.23,
+    "t_end": 1479.23,
+    "text": "arbitrary and then optimize our choice of f afterwards once we know the form of"
+  },
+  {
+    "t_start": 1479.23,
+    "t_end": 1485.35,
+    "text": "so if we choose these weights in terms of some smooth K dimensional function f"
+  },
+  {
+    "t_start": 1485.35,
+    "t_end": 1491.75,
+    "text": "of some smooth K dimensional function f then we can get an ASM totic formula for"
+  },
+  {
+    "t_start": 1491.75,
+    "t_end": 1494.87,
+    "text": "this ratio s and if the primes have level of distribution Theta then we can"
+  },
+  {
+    "t_start": 1494.87,
+    "t_end": 1497.35,
+    "text": "level of distribution Theta then we can show that juing parameters dependent on"
+  },
+  {
+    "t_start": 1497.35,
+    "t_end": 1504.19,
+    "text": "show that juing parameters dependent on Theta we can make our ratio s equal to"
+  },
+  {
+    "t_start": 1504.19,
+    "t_end": 1506.389,
+    "text": "Theta / 2 time some K dimensional integral J of f in terms of our smooth"
+  },
+  {
+    "t_start": 1506.389,
+    "t_end": 1508.63,
+    "text": "integral J of f in terms of our smooth function f divided by some K dimensional"
+  },
+  {
+    "t_start": 1508.63,
+    "t_end": 1514.43,
+    "text": "function f divided by some K dimensional integral I of f in terms of our smooth"
+  },
+  {
+    "t_start": 1514.43,
+    "t_end": 1519.83,
+    "text": "function f but the key point is that J of F and I of f only depend on the size"
+  },
+  {
+    "t_start": 1519.83,
+    "t_end": 1524.51,
+    "text": "of our admissible set which is K and this smooth K dimensional function f and"
+  },
+  {
+    "t_start": 1524.51,
+    "t_end": 1527.07,
+    "text": "this smooth K dimensional function f and therefore we get an ASM totic ratio for"
+  },
+  {
+    "t_start": 1527.07,
+    "t_end": 1528.83,
+    "text": "therefore we get an ASM totic ratio for S and we want to choose a smooth"
+  },
+  {
+    "t_start": 1528.83,
+    "t_end": 1531.71,
+    "text": "S and we want to choose a smooth function f to make this ratio large but"
+  },
+  {
+    "t_start": 1531.71,
+    "t_end": 1533.269,
+    "text": "function f to make this ratio large but making the ratio of two k dimensional"
+  },
+  {
+    "t_start": 1533.269,
+    "t_end": 1534.47,
+    "text": "making the ratio of two k dimensional integrals large these are just"
+  },
+  {
+    "t_start": 1534.47,
+    "t_end": 1540.789,
+    "text": "explicitly given K dimensional integrals this no longer has anything to do with"
+  },
+  {
+    "t_start": 1540.789,
+    "t_end": 1542.669,
+    "text": "arithmetic or primes in it at all it's just a smooth optimization problem for"
+  },
+  {
+    "t_start": 1542.669,
+    "t_end": 1543.51,
+    "text": "just a smooth optimization problem for for"
+  },
+  {
+    "t_start": 1543.51,
+    "t_end": 1548.909,
+    "text": "analysis so if we put everything that we've seen so far together we get the"
+  },
+  {
+    "t_start": 1548.909,
+    "t_end": 1560.75,
+    "text": "we've seen so far together we get the fortim"
+  },
+  {
+    "t_start": 1568.99,
+    "t_end": 1574.35,
+    "text": "something it's 2K dimensional integrals but it's yeah it boils down to an ion"
+  },
+  {
+    "t_start": 1574.35,
+    "t_end": 1576.75,
+    "text": "but it's yeah it boils down to an ion value calculation yeah so if we put this"
+  },
+  {
+    "t_start": 1576.75,
+    "t_end": 1579.789,
+    "text": "value calculation yeah so if we put this all together we get um the key"
+  },
+  {
+    "t_start": 1579.789,
+    "t_end": 1583.99,
+    "text": "proposition from the Sip so if we assume that the primes of level of distribution"
+  },
+  {
+    "t_start": 1583.99,
+    "t_end": 1588.83,
+    "text": "that the primes of level of distribution Theta and we fix some admissible set h"
+  },
+  {
+    "t_start": 1588.83,
+    "t_end": 1593.909,
+    "text": "of side K and we then let MK be the supremum"
+  },
+  {
+    "t_start": 1593.909,
+    "t_end": 1596.99,
+    "text": "K and we then let MK be the supremum over all relevant smooth choices of our"
+  },
+  {
+    "t_start": 1596.99,
+    "t_end": 1599.31,
+    "text": "over all relevant smooth choices of our function f of this ratio of two k"
+  },
+  {
+    "t_start": 1599.31,
+    "t_end": 1601.789,
+    "text": "function f of this ratio of two k dimensional integrals J of F and I of"
+  },
+  {
+    "t_start": 1601.789,
+    "t_end": 1607.789,
+    "text": "f then if it's the case that this smooth optimization result is bigger than two"
+  },
+  {
+    "t_start": 1607.789,
+    "t_end": 1612.63,
+    "text": "optimization result is bigger than two times some test integer M divided by our"
+  },
+  {
+    "t_start": 1612.63,
+    "t_end": 1614.149,
+    "text": "level of distribution Theta then it's the case that there's infinitely many"
+  },
+  {
+    "t_start": 1614.149,
+    "t_end": 1618.95,
+    "text": "the case that there's infinitely many Ines n such that at least n plus one of"
+  },
+  {
+    "t_start": 1618.95,
+    "t_end": 1623.669,
+    "text": "and so the key point that I really want to emphasize here is we started out with"
+  },
+  {
+    "t_start": 1623.669,
+    "t_end": 1625.35,
+    "text": "to emphasize here is we started out with this very arithmetic problem about small"
+  },
+  {
+    "t_start": 1625.35,
+    "t_end": 1627.83,
+    "text": "this very arithmetic problem about small gaps between primes and this Civ"
+  },
+  {
+    "t_start": 1627.83,
+    "t_end": 1631.549,
+    "text": "gaps between primes and this Civ proposition has reduced our complicated"
+  },
+  {
+    "t_start": 1631.549,
+    "t_end": 1634.23,
+    "text": "proposition has reduced our complicated arithmetic problem purely down to a"
+  },
+  {
+    "t_start": 1634.23,
+    "t_end": 1636.63,
+    "text": "arithmetic problem purely down to a smooth optimization result as soon as we"
+  },
+  {
+    "t_start": 1636.63,
+    "t_end": 1639.47,
+    "text": "smooth optimization result as soon as we can show that MK is sufficiently large"
+  },
+  {
+    "t_start": 1639.47,
+    "t_end": 1641.63,
+    "text": "can show that MK is sufficiently large then this automatically gives us that"
+  },
+  {
+    "t_start": 1641.63,
+    "t_end": 1645.75,
+    "text": "then this automatically gives us that any admissible set contains primes and"
+  },
+  {
+    "t_start": 1645.75,
+    "t_end": 1647.51,
+    "text": "any admissible set contains primes and we get infinitely many Bounder gaps"
+  },
+  {
+    "t_start": 1647.51,
+    "t_end": 1653.87,
+    "text": "many primes if MK is large enough and so we've now completely reduced our whole"
+  },
+  {
+    "t_start": 1653.87,
+    "t_end": 1655.47,
+    "text": "we've now completely reduced our whole arithmetic problem to something that"
+  },
+  {
+    "t_start": 1655.47,
+    "t_end": 1656.35,
+    "text": "arithmetic problem to something that doesn't"
+  },
+  {
+    "t_start": 1656.35,
+    "t_end": 1661.909,
+    "text": "involve arithmetic at all it's just a smooth optimization problem it can be"
+  },
+  {
+    "t_start": 1661.909,
+    "t_end": 1663.99,
+    "text": "smooth optimization problem it can be tackled using variational calculus or"
+  },
+  {
+    "t_start": 1663.99,
+    "t_end": 1667.389,
+    "text": "tackled using variational calculus or calculating ion values and methods like"
+  },
+  {
+    "t_start": 1667.389,
+    "t_end": 1674.029,
+    "text": "calculating ion values and methods like this so how do we actually get a good"
+  },
+  {
+    "t_start": 1674.029,
+    "t_end": 1677.43,
+    "text": "lower Bound for Mk well I've claimed that there's these two relatively nice K"
+  },
+  {
+    "t_start": 1677.43,
+    "t_end": 1679.71,
+    "text": "that there's these two relatively nice K dimensional intercores expressions for f"
+  },
+  {
+    "t_start": 1679.71,
+    "t_end": 1685.11,
+    "text": "dimensional intercores expressions for f and we like to and maximizing this ratio"
+  },
+  {
+    "t_start": 1685.11,
+    "t_end": 1687.35,
+    "text": "corresponds to calculating the largest ion value of some linear operator"
+  },
+  {
+    "t_start": 1687.35,
+    "t_end": 1690.149,
+    "text": "ion value of some linear operator However unfortunately there's um two"
+  },
+  {
+    "t_start": 1690.149,
+    "t_end": 1693.07,
+    "text": "However unfortunately there's um two obstacles before we preventing us from"
+  },
+  {
+    "t_start": 1693.07,
+    "t_end": 1694.95,
+    "text": "obstacles before we preventing us from automatically using variational calculus"
+  },
+  {
+    "t_start": 1694.95,
+    "t_end": 1701.31,
+    "text": "automatically using variational calculus or solving the differential equation to"
+  },
+  {
+    "t_start": 1701.31,
+    "t_end": 1703.509,
+    "text": "um get a explicit answer the first of these is that this is a k dimensional"
+  },
+  {
+    "t_start": 1703.509,
+    "t_end": 1707.029,
+    "text": "these is that this is a k dimensional problem for arbitary K and our methods"
+  },
+  {
+    "t_start": 1707.029,
+    "t_end": 1709.47,
+    "text": "problem for arbitary K and our methods work quite well ex when we want explicit"
+  },
+  {
+    "t_start": 1709.47,
+    "t_end": 1711.83,
+    "text": "work quite well ex when we want explicit balance in a one-dimensional case but in"
+  },
+  {
+    "t_start": 1711.83,
+    "t_end": 1713.389,
+    "text": "balance in a one-dimensional case but in general in multi-dimensional cases it"
+  },
+  {
+    "t_start": 1713.389,
+    "t_end": 1718.35,
+    "text": "general in multi-dimensional cases it can be very difficult the second is a"
+  },
+  {
+    "t_start": 1718.35,
+    "t_end": 1723.07,
+    "text": "swept under the carpet that um we also have a restriction on the support of our"
+  },
+  {
+    "t_start": 1723.07,
+    "t_end": 1726.11,
+    "text": "have a restriction on the support of our smooth function f and naturally we have"
+  },
+  {
+    "t_start": 1726.11,
+    "t_end": 1727.83,
+    "text": "smooth function f and naturally we have now a restricted optimization problem"
+  },
+  {
+    "t_start": 1727.83,
+    "t_end": 1731.83,
+    "text": "and again this causes a few complications however it turns out that"
+  },
+  {
+    "t_start": 1731.83,
+    "t_end": 1733.149,
+    "text": "complications however it turns out that these complications aren't too"
+  },
+  {
+    "t_start": 1733.149,
+    "t_end": 1736.389,
+    "text": "these complications aren't too problematic so to get around the fact"
+  },
+  {
+    "t_start": 1736.389,
+    "t_end": 1740.63,
+    "text": "optimization we can cheat and reduce the whole thing down to a one-dimensional"
+  },
+  {
+    "t_start": 1740.63,
+    "t_end": 1743.669,
+    "text": "whole thing down to a one-dimensional optimization so we can just consider K"
+  },
+  {
+    "t_start": 1743.669,
+    "t_end": 1745.35,
+    "text": "optimization so we can just consider K dimensional functions F which look like"
+  },
+  {
+    "t_start": 1745.35,
+    "t_end": 1750.23,
+    "text": "dimensional functions F which look like a product of one fixed K dimensional"
+  },
+  {
+    "t_start": 1750.23,
+    "t_end": 1755.07,
+    "text": "and so if we restrict our attention to these we just want to get a lower bound"
+  },
+  {
+    "t_start": 1755.07,
+    "t_end": 1757.669,
+    "text": "but it's now only a onedimensional optimization this smooth function"
+  },
+  {
+    "t_start": 1757.669,
+    "t_end": 1766.11,
+    "text": "optimization this smooth function G now we still have this"
+  },
+  {
+    "t_start": 1789.549,
+    "t_end": 1794.789,
+    "text": "said in my paper in terms of uh how I approached this it was very much the"
+  },
+  {
+    "t_start": 1794.789,
+    "t_end": 1798.029,
+    "text": "approached this it was very much the case that um by looking at Loni"
+  },
+  {
+    "t_start": 1798.029,
+    "t_end": 1800.549,
+    "text": "case that um by looking at Loni multipliers and such you can quite"
+  },
+  {
+    "t_start": 1800.549,
+    "t_end": 1803.43,
+    "text": "multipliers and such you can quite easily convince yourself that um the"
+  },
+  {
+    "t_start": 1803.43,
+    "t_end": 1806.549,
+    "text": "easily convince yourself that um the original gpy weights even just in the"
+  },
+  {
+    "t_start": 1806.549,
+    "t_end": 1812.149,
+    "text": "one-dimensional case shouldn't be optimal and in the K dimensional case"
+  },
+  {
+    "t_start": 1812.149,
+    "t_end": 1817.19,
+    "text": "um convince yourself that if you have a smooth function f which satisfies your"
+  },
+  {
+    "t_start": 1817.19,
+    "t_end": 1819.83,
+    "text": "smooth function f which satisfies your igen value equation then V should be"
+  },
+  {
+    "t_start": 1819.83,
+    "t_end": 1823.149,
+    "text": "igen value equation then V should be essentially the or the globally optimal"
+  },
+  {
+    "t_start": 1823.149,
+    "t_end": 1827.07,
+    "text": "essentially the or the globally optimal cellb C weights suitably interpreted and"
+  },
+  {
+    "t_start": 1827.07,
+    "t_end": 1828.95,
+    "text": "cellb C weights suitably interpreted and then you can because you're wanting to"
+  },
+  {
+    "t_start": 1828.95,
+    "t_end": 1830.909,
+    "text": "then you can because you're wanting to maximize what's essentially a ratio of"
+  },
+  {
+    "t_start": 1830.909,
+    "t_end": 1832.83,
+    "text": "maximize what's essentially a ratio of two quadratic forms you can do certain"
+  },
+  {
+    "t_start": 1832.83,
+    "t_end": 1836.59,
+    "text": "two quadratic forms you can do certain numerical calculations and um when I"
+  },
+  {
+    "t_start": 1836.59,
+    "t_end": 1838.19,
+    "text": "numerical calculations and um when I struggled to solve the igen value"
+  },
+  {
+    "t_start": 1838.19,
+    "t_end": 1840.35,
+    "text": "struggled to solve the igen value equation I looked at some numerical"
+  },
+  {
+    "t_start": 1840.35,
+    "t_end": 1843.95,
+    "text": "equation I looked at some numerical things and this gave me hope that these"
+  },
+  {
+    "t_start": 1843.95,
+    "t_end": 1845.63,
+    "text": "were genuinely outperform in the original Goen pinch your deing weights"
+  },
+  {
+    "t_start": 1845.63,
+    "t_end": 1847.11,
+    "text": "original Goen pinch your deing weights by noticeable"
+  },
+  {
+    "t_start": 1847.11,
+    "t_end": 1861.59,
+    "text": "by noticeable amount yeah"
+  },
+  {
+    "t_start": 1870.11,
+    "t_end": 1874.909,
+    "text": "yeah um the yeah the sum of the variables is less than equal to one and"
+  },
+  {
+    "t_start": 1874.909,
+    "t_end": 1881.71,
+    "text": "each variable is non- negative yeah so"
+  },
+  {
+    "t_start": 1883.83,
+    "t_end": 1888.509,
+    "text": "yeah right so once I've made this reduction down to a one dimensional"
+  },
+  {
+    "t_start": 1888.509,
+    "t_end": 1890.19,
+    "text": "reduction down to a one dimensional Thing Once I made this restriction I'm"
+  },
+  {
+    "t_start": 1890.19,
+    "t_end": 1892.509,
+    "text": "Thing Once I made this restriction I'm no longer covering the gpy case and so"
+  },
+  {
+    "t_start": 1892.509,
+    "t_end": 1894.269,
+    "text": "no longer covering the gpy case and so it's possible that this is a bad thing"
+  },
+  {
+    "t_start": 1894.269,
+    "t_end": 1897.83,
+    "text": "it's possible that this is a bad thing to do and I'm going to do worse"
+  },
+  {
+    "t_start": 1897.83,
+    "t_end": 1905.669,
+    "text": "um yeah um yeah it's easy to see that you can put back in the gpy case and you"
+  },
+  {
+    "t_start": 1905.669,
+    "t_end": 1908.71,
+    "text": "you can put back in the gpy case and you get back exactly what gpy get but we're"
+  },
+  {
+    "t_start": 1908.71,
+    "t_end": 1910.31,
+    "text": "get back exactly what gpy get but we're now gambling and we're looking at a"
+  },
+  {
+    "t_start": 1910.31,
+    "t_end": 1912.19,
+    "text": "now gambling and we're looking at a one-dimensional smooth optimization"
+  },
+  {
+    "t_start": 1912.19,
+    "t_end": 1917.19,
+    "text": "although um if you look at numerical results yeah you feel that this is a"
+  },
+  {
+    "t_start": 1917.19,
+    "t_end": 1919.23,
+    "text": "results yeah you feel that this is a sacrifice that's worth"
+  },
+  {
+    "t_start": 1919.23,
+    "t_end": 1925.43,
+    "text": "sacrifice that's worth making um so this region RK is where"
+  },
+  {
+    "t_start": 1925.43,
+    "t_end": 1926.71,
+    "text": "making um so this region RK is where corresponds to when the sum of the"
+  },
+  {
+    "t_start": 1926.71,
+    "t_end": 1929.95,
+    "text": "corresponds to when the sum of the variables is relatively small and we can"
+  },
+  {
+    "t_start": 1929.95,
+    "t_end": 1932.669,
+    "text": "variables is relatively small and we can see that if G is suitably concentrated"
+  },
+  {
+    "t_start": 1932.669,
+    "t_end": 1935.87,
+    "text": "see that if G is suitably concentrated near zero then almost all the weight of"
+  },
+  {
+    "t_start": 1935.87,
+    "t_end": 1938.35,
+    "text": "near zero then almost all the weight of this function f is going to come when"
+  },
+  {
+    "t_start": 1938.35,
+    "t_end": 1939.71,
+    "text": "this function f is going to come when the variables are small and so in"
+  },
+  {
+    "t_start": 1939.71,
+    "t_end": 1941.669,
+    "text": "the variables are small and so in particular the sum of the variables is"
+  },
+  {
+    "t_start": 1941.669,
+    "t_end": 1944.269,
+    "text": "particular the sum of the variables is almost certainly going to be small and"
+  },
+  {
+    "t_start": 1944.269,
+    "t_end": 1946.11,
+    "text": "almost certainly going to be small and it therefore turns out that if you"
+  },
+  {
+    "t_start": 1946.11,
+    "t_end": 1948.19,
+    "text": "it therefore turns out that if you consider the center of mass of G squ"
+  },
+  {
+    "t_start": 1948.19,
+    "t_end": 1951.789,
+    "text": "consider the center of mass of G squ this is the correct measure for um"
+  },
+  {
+    "t_start": 1951.789,
+    "t_end": 1954.95,
+    "text": "this is the correct measure for um formalizing the idea of G being suitably"
+  },
+  {
+    "t_start": 1954.95,
+    "t_end": 1957.269,
+    "text": "formalizing the idea of G being suitably concentrated near zero and if this"
+  },
+  {
+    "t_start": 1957.269,
+    "t_end": 1961.35,
+    "text": "Center of mass of G2 is less than one then by concentration of measure style"
+  },
+  {
+    "t_start": 1961.35,
+    "t_end": 1965.31,
+    "text": "then by concentration of measure style arguments we expect it to be the case"
+  },
+  {
+    "t_start": 1965.31,
+    "t_end": 1973.35,
+    "text": "variables being less than equal to one can be dropped just at the cost of a"
+  },
+  {
+    "t_start": 1973.35,
+    "t_end": 1977.11,
+    "text": "small L and in particular you can do this and you find that if you restrict"
+  },
+  {
+    "t_start": 1977.11,
+    "t_end": 1979.87,
+    "text": "this and you find that if you restrict also the support of G to the interval 0"
+  },
+  {
+    "t_start": 1979.87,
+    "t_end": 1985.47,
+    "text": "also the support of G to the interval 0 up to T we get that MK now just has a"
+  },
+  {
+    "t_start": 1985.47,
+    "t_end": 1991.07,
+    "text": "or squ divided by the integral G ^2 minus some small error which is going"
+  },
+  {
+    "t_start": 1991.07,
+    "t_end": 1992.99,
+    "text": "^2 minus some small error which is going to be negligible provided the center of"
+  },
+  {
+    "t_start": 1992.99,
+    "t_end": 1995.149,
+    "text": "to be negligible provided the center of mass is strictly less than one and T is"
+  },
+  {
+    "t_start": 1995.149,
+    "t_end": 2001.11,
+    "text": "mass is strictly less than one and T is fairly small compared to K and this is"
+  },
+  {
+    "t_start": 2001.11,
+    "t_end": 2003.029,
+    "text": "now a nice simple one-dimensional optimization that has no restrictions on"
+  },
+  {
+    "t_start": 2003.029,
+    "t_end": 2007.43,
+    "text": "it and we can plug in our calculus of variation techniques and we get the nice"
+  },
+  {
+    "t_start": 2007.43,
+    "t_end": 2009.19,
+    "text": "variation techniques and we get the nice simple answer that the optimal function"
+  },
+  {
+    "t_start": 2009.19,
+    "t_end": 2015.59,
+    "text": "simple answer that the optimal function G is given by 1 / 1 plus a t for some"
+  },
+  {
+    "t_start": 2015.59,
+    "t_end": 2018.75,
+    "text": "constant a for all T in our range of support and therefore if we have our"
+  },
+  {
+    "t_start": 2018.75,
+    "t_end": 2020.83,
+    "text": "support and therefore if we have our function G defined in these in terms of"
+  },
+  {
+    "t_start": 2020.83,
+    "t_end": 2022.789,
+    "text": "function G defined in these in terms of these quantities capital and capital T"
+  },
+  {
+    "t_start": 2022.789,
+    "t_end": 2028.23,
+    "text": "and we choose capital A and capital T optimally in terms of K we get a lower"
+  },
+  {
+    "t_start": 2028.23,
+    "t_end": 2031.389,
+    "text": "optimally in terms of K we get a lower Bound for Mk and in particular our lower"
+  },
+  {
+    "t_start": 2031.389,
+    "t_end": 2034.95,
+    "text": "Bound for Mk and in particular our lower bound of MK is log Kus 2 log log K minus"
+  },
+  {
+    "t_start": 2034.95,
+    "t_end": 2039.23,
+    "text": "bound of MK is log Kus 2 log log K minus 2 and so it grows like log K and MK"
+  },
+  {
+    "t_start": 2039.23,
+    "t_end": 2044.789,
+    "text": "Infinity so if we put all this together we have our lower Bound for Mk which"
+  },
+  {
+    "t_start": 2044.789,
+    "t_end": 2049.27,
+    "text": "grows like log K and we have our key proposition from the Civ which says that"
+  },
+  {
+    "t_start": 2049.27,
+    "t_end": 2051.349,
+    "text": "proposition from the Civ which says that if MK is sufficiently large in terms of"
+  },
+  {
+    "t_start": 2051.349,
+    "t_end": 2053.589,
+    "text": "if MK is sufficiently large in terms of some test into ger our level of"
+  },
+  {
+    "t_start": 2053.589,
+    "t_end": 2055.669,
+    "text": "some test into ger our level of distribution Theta then we get many of"
+  },
+  {
+    "t_start": 2055.669,
+    "t_end": 2061.47,
+    "text": "distribution Theta then we get many of these translates which are"
+  },
+  {
+    "t_start": 2064.51,
+    "t_end": 2068.31,
+    "text": "primes our test integer yes um now finally"
+  },
+  {
+    "t_start": 2068.31,
+    "t_end": 2073.31,
+    "text": "um if we want to make all these primes as densely concentrated as possible we"
+  },
+  {
+    "t_start": 2073.31,
+    "t_end": 2079.069,
+    "text": "as densely concentrated as possible we want to find an amble set of size K"
+  },
+  {
+    "t_start": 2079.069,
+    "t_end": 2081.069,
+    "text": "which is contained in as short of an interval as possible and it turns out"
+  },
+  {
+    "t_start": 2081.069,
+    "t_end": 2085.829,
+    "text": "it's a fun exercise that if you take the first K primes which are all bigger than"
+  },
+  {
+    "t_start": 2085.829,
+    "t_end": 2089.149,
+    "text": "first K primes which are all bigger than k then this forms an admissible set and"
+  },
+  {
+    "t_start": 2089.149,
+    "t_end": 2090.47,
+    "text": "k then this forms an admissible set and by the prime number theorem we know that"
+  },
+  {
+    "t_start": 2090.47,
+    "t_end": 2091.669,
+    "text": "by the prime number theorem we know that this is going to be contained in the"
+  },
+  {
+    "t_start": 2091.669,
+    "t_end": 2094.589,
+    "text": "this is going to be contained in the interval of size K log K and finally"
+  },
+  {
+    "t_start": 2094.589,
+    "t_end": 2096.629,
+    "text": "interval of size K log K and finally what I mentioned before the Bomer vinard"
+  },
+  {
+    "t_start": 2096.629,
+    "t_end": 2097.95,
+    "text": "what I mentioned before the Bomer vinard theorem says we can take any value of"
+  },
+  {
+    "t_start": 2097.95,
+    "t_end": 2100.67,
+    "text": "theorem says we can take any value of theta Which is less than a half and if"
+  },
+  {
+    "t_start": 2100.67,
+    "t_end": 2103.71,
+    "text": "theta Which is less than a half and if we put all of these together we get the"
+  },
+  {
+    "t_start": 2103.71,
+    "t_end": 2105.87,
+    "text": "we put all of these together we get the upper bound that I claimed before that"
+  },
+  {
+    "t_start": 2105.87,
+    "t_end": 2112.19,
+    "text": "there's the limit for PN plus M minus PN is bound above by some constant time MB"
+  },
+  {
+    "t_start": 2112.19,
+    "t_end": 2115.47,
+    "text": "is bound above by some constant time MB * e 4 which is the main"
+  },
+  {
+    "t_start": 2115.47,
+    "t_end": 2123.75,
+    "text": "result um okay so that's the main result what about the secondary result about um"
+  },
+  {
+    "t_start": 2123.75,
+    "t_end": 2125.63,
+    "text": "what about the secondary result about um trying to get as good a possible"
+  },
+  {
+    "t_start": 2125.63,
+    "t_end": 2128.23,
+    "text": "trying to get as good a possible numerical result about um consecutive"
+  },
+  {
+    "t_start": 2128.23,
+    "t_end": 2133.829,
+    "text": "primes so this 600 result well we want to play exactly the same game and get a"
+  },
+  {
+    "t_start": 2133.829,
+    "t_end": 2139.79,
+    "text": "to play exactly the same game and get a lower Bound for Mk but now we want to be"
+  },
+  {
+    "t_start": 2139.79,
+    "t_end": 2141.99,
+    "text": "a bit more careful with our lbound FK and not make these relatively wasteful"
+  },
+  {
+    "t_start": 2141.99,
+    "t_end": 2144.03,
+    "text": "and not make these relatively wasteful choices of restricting to a"
+  },
+  {
+    "t_start": 2144.03,
+    "t_end": 2145.91,
+    "text": "choices of restricting to a onedimensional function and then just"
+  },
+  {
+    "t_start": 2145.91,
+    "t_end": 2149.39,
+    "text": "onedimensional function and then just throwing out the condition that on on"
+  },
+  {
+    "t_start": 2149.39,
+    "t_end": 2151.03,
+    "text": "throwing out the condition that on on the range of"
+  },
+  {
+    "t_start": 2151.03,
+    "t_end": 2156.55,
+    "text": "support and but because we're only looking at one specific case we're also"
+  },
+  {
+    "t_start": 2156.55,
+    "t_end": 2159.39,
+    "text": "happy to do a certain amount of numerical calculation to help us with"
+  },
+  {
+    "t_start": 2159.39,
+    "t_end": 2161.43,
+    "text": "numerical calculation to help us with this"
+  },
+  {
+    "t_start": 2161.43,
+    "t_end": 2167.99,
+    "text": "so well we want the basic idea is that we can look at polinomial approximations"
+  },
+  {
+    "t_start": 2167.99,
+    "t_end": 2172.309,
+    "text": "we can look at polinomial approximations to our smooth function f and it turns"
+  },
+  {
+    "t_start": 2172.309,
+    "t_end": 2175.23,
+    "text": "out that in these K dimensional integrals there's a lot of natural"
+  },
+  {
+    "t_start": 2175.23,
+    "t_end": 2178.03,
+    "text": "integrals there's a lot of natural Symmetry and so we can restrict our"
+  },
+  {
+    "t_start": 2178.03,
+    "t_end": 2181.47,
+    "text": "Symmetry and so we can restrict our attention just to symmetric functions F"
+  },
+  {
+    "t_start": 2181.47,
+    "t_end": 2183.47,
+    "text": "attention just to symmetric functions F and therefore symmetric polinomial"
+  },
+  {
+    "t_start": 2183.47,
+    "t_end": 2187.91,
+    "text": "and therefore symmetric polinomial approximations We Know by Stone V stra"
+  },
+  {
+    "t_start": 2187.91,
+    "t_end": 2189.99,
+    "text": "if we look at large enough polom approximations we can get an arbitrarily"
+  },
+  {
+    "t_start": 2189.99,
+    "t_end": 2191.47,
+    "text": "approximations we can get an arbitrarily good approximation to whatever the"
+  },
+  {
+    "t_start": 2191.47,
+    "t_end": 2194.589,
+    "text": "optimal function is and so we haven't really lost anything at all by just"
+  },
+  {
+    "t_start": 2194.589,
+    "t_end": 2196.67,
+    "text": "really lost anything at all by just looking at polinomial approximations"
+  },
+  {
+    "t_start": 2196.67,
+    "t_end": 2198.51,
+    "text": "looking at polinomial approximations here"
+  },
+  {
+    "t_start": 2198.51,
+    "t_end": 2205.309,
+    "text": "now any symmetric polinomial has is given by a polinomial expression itself"
+  },
+  {
+    "t_start": 2205.309,
+    "t_end": 2208.27,
+    "text": "given by a polinomial expression itself in the power power symmetric polinomial"
+  },
+  {
+    "t_start": 2208.27,
+    "t_end": 2214.67,
+    "text": "in the power power symmetric polinomial PJ which is just just the sum of each"
+  },
+  {
+    "t_start": 2214.67,
+    "t_end": 2217.829,
+    "text": "coordinate R to the J's power and for Simplicity I just consider polinomial"
+  },
+  {
+    "t_start": 2217.829,
+    "t_end": 2219.75,
+    "text": "Simplicity I just consider polinomial expressions in the first two power"
+  },
+  {
+    "t_start": 2219.75,
+    "t_end": 2222.23,
+    "text": "expressions in the first two power polinomial but naturally the method"
+  },
+  {
+    "t_start": 2222.23,
+    "t_end": 2226.87,
+    "text": "polinomial but naturally the method works for arbitrary polinomial"
+  },
+  {
+    "t_start": 2226.87,
+    "t_end": 2233.15,
+    "text": "approximations and then the key observation is that we can analytically"
+  },
+  {
+    "t_start": 2233.15,
+    "t_end": 2236.43,
+    "text": "observation is that we can analytically write down a very simple expression for"
+  },
+  {
+    "t_start": 2236.43,
+    "t_end": 2240.47,
+    "text": "write down a very simple expression for the integral over this polytope Arc for"
+  },
+  {
+    "t_start": 2240.47,
+    "t_end": 2241.23,
+    "text": "the integral over this polytope Arc for any"
+  },
+  {
+    "t_start": 2241.23,
+    "t_end": 2246.99,
+    "text": "monomial and so in particular if we write our polinomial approximations in"
+  },
+  {
+    "t_start": 2246.99,
+    "t_end": 2248.109,
+    "text": "write our polinomial approximations in this form"
+  },
+  {
+    "t_start": 2248.109,
+    "t_end": 2254.309,
+    "text": "we can analytically write down a simple expression given a choice of b i and CIS"
+  },
+  {
+    "t_start": 2254.309,
+    "t_end": 2257.589,
+    "text": "expression given a choice of b i and CIS for what the two quadratic forms are"
+  },
+  {
+    "t_start": 2257.589,
+    "t_end": 2262.51,
+    "text": "which is just going to be a quadratic form in these coefficients AI so if we"
+  },
+  {
+    "t_start": 2262.51,
+    "t_end": 2265.829,
+    "text": "form in these coefficients AI so if we choose the monomials which appear in our"
+  },
+  {
+    "t_start": 2265.829,
+    "t_end": 2268.91,
+    "text": "choose the monomials which appear in our polinomial approximations we can just"
+  },
+  {
+    "t_start": 2268.91,
+    "t_end": 2272.829,
+    "text": "polinomial approximations we can just explicitly write down what the integrals"
+  },
+  {
+    "t_start": 2272.829,
+    "t_end": 2277.109,
+    "text": "explicitly write down what the integrals for J of F and I of f are in terms of"
+  },
+  {
+    "t_start": 2277.109,
+    "t_end": 2282.55,
+    "text": "these coefficients and then we have two qu I forms in these coefficients which"
+  },
+  {
+    "t_start": 2282.55,
+    "t_end": 2289.349,
+    "text": "we want to optimize the ratio of and so I"
+  },
+  {
+    "t_start": 2290.91,
+    "t_end": 2297.349,
+    "text": "right yeah so um exactly so the reason for this for me"
+  },
+  {
+    "t_start": 2297.349,
+    "t_end": 2300.069,
+    "text": "um exactly so the reason for this for me Concentra on this form of um polinomial"
+  },
+  {
+    "t_start": 2300.069,
+    "t_end": 2302.39,
+    "text": "Concentra on this form of um polinomial was very much that gpy showed that you"
+  },
+  {
+    "t_start": 2302.39,
+    "t_end": 2304.349,
+    "text": "was very much that gpy showed that you could get exceptionally close to bound"
+  },
+  {
+    "t_start": 2304.349,
+    "t_end": 2307.15,
+    "text": "could get exceptionally close to bound gaps if you just look at the first"
+  },
+  {
+    "t_start": 2307.15,
+    "t_end": 2312.71,
+    "text": "naturally would expect that if we go slightly Beyond this we should be able"
+  },
+  {
+    "t_start": 2312.71,
+    "t_end": 2315.829,
+    "text": "to get over the line and in fact it shouldn't require too much effort for us"
+  },
+  {
+    "t_start": 2315.829,
+    "t_end": 2317.75,
+    "text": "shouldn't require too much effort for us to go beyond"
+  },
+  {
+    "t_start": 2317.75,
+    "t_end": 2324.71,
+    "text": "this so if we choose the shape of our polinomial um approximations because we"
+  },
+  {
+    "t_start": 2324.71,
+    "t_end": 2326.589,
+    "text": "polinomial um approximations because we can analytically write down these"
+  },
+  {
+    "t_start": 2326.589,
+    "t_end": 2331.109,
+    "text": "integrals over the polytope even if it's a 100 dimensional integral so we don't"
+  },
+  {
+    "t_start": 2331.109,
+    "t_end": 2336.91,
+    "text": "have to do any numerical 100 dimensional Integrations we can just write down what"
+  },
+  {
+    "t_start": 2336.91,
+    "t_end": 2339.99,
+    "text": "Integrations we can just write down what these two symmetric rational matrices A1"
+  },
+  {
+    "t_start": 2339.99,
+    "t_end": 2344.55,
+    "text": "these two symmetric rational matrices A1 A2 are given the coefficients of these"
+  },
+  {
+    "t_start": 2344.55,
+    "t_end": 2349.87,
+    "text": "quadratic forms and because we can do all of this analytically um it's now a"
+  },
+  {
+    "t_start": 2349.87,
+    "t_end": 2352.87,
+    "text": "all of this analytically um it's now a relatively easy calculation given our"
+  },
+  {
+    "t_start": 2352.87,
+    "t_end": 2359.87,
+    "text": "computed matrices A1 and A2 to find out what the maximum ratio of this is and in"
+  },
+  {
+    "t_start": 2359.87,
+    "t_end": 2366.75,
+    "text": "particular this ratio of two quadratic forms is maximized when a is an i Vector"
+  },
+  {
+    "t_start": 2366.75,
+    "t_end": 2368.91,
+    "text": "of a The Matrix A1 inverse A2 correspondent largest ion value and this"
+  },
+  {
+    "t_start": 2368.91,
+    "t_end": 2371.349,
+    "text": "correspondent largest ion value and this ratio here is given explicitly by the"
+  },
+  {
+    "t_start": 2371.349,
+    "t_end": 2373.87,
+    "text": "ratio here is given explicitly by the largest ion value of A1 inverse A2 so"
+  },
+  {
+    "t_start": 2373.87,
+    "t_end": 2381.19,
+    "text": "largest ion value of A1 inverse A2 so it's now just a ion Manu calculation of"
+  },
+  {
+    "t_start": 2381.19,
+    "t_end": 2386.589,
+    "text": "some matrices and in particular if we consider K to be"
+  },
+  {
+    "t_start": 2386.589,
+    "t_end": 2394.79,
+    "text": "and in particular if we consider K to be 105 and we consider degree six pols then"
+  },
+  {
+    "t_start": 2394.79,
+    "t_end": 2396.27,
+    "text": "we get to 42x 42 matrices and you can calculate what the largest icon value of"
+  },
+  {
+    "t_start": 2396.27,
+    "t_end": 2398.349,
+    "text": "calculate what the largest icon value of a18 inverse a two is and we get"
+  },
+  {
+    "t_start": 2398.349,
+    "t_end": 2399.99,
+    "text": "a18 inverse a two is and we get something which is just slightly bigger"
+  },
+  {
+    "t_start": 2399.99,
+    "t_end": 2407.109,
+    "text": "something which is just slightly bigger than four so the choice of KB and 105"
+  },
+  {
+    "t_start": 2407.109,
+    "t_end": 2409.47,
+    "text": "and the choice of degre six polinomial um is deliberately because we're now"
+  },
+  {
+    "t_start": 2409.47,
+    "t_end": 2414.47,
+    "text": "getting a bound which is slightly above four and so if we put everything that"
+  },
+  {
+    "t_start": 2414.47,
+    "t_end": 2416.27,
+    "text": "four and so if we put everything that we've just seen together we've shown"
+  },
+  {
+    "t_start": 2416.27,
+    "t_end": 2422.55,
+    "text": "that M15 is bigger than four and we call the key proposition that we had before"
+  },
+  {
+    "t_start": 2422.55,
+    "t_end": 2427.47,
+    "text": "the key proposition that we had before from the Civ if the primes have level of"
+  },
+  {
+    "t_start": 2427.47,
+    "t_end": 2433.19,
+    "text": "bigger than 2 / Theta then there's infinitely many integers n such that at"
+  },
+  {
+    "t_start": 2433.19,
+    "t_end": 2438.95,
+    "text": "least two of the translates n plus HR primes for any admissible set h of size"
+  },
+  {
+    "t_start": 2438.95,
+    "t_end": 2442.95,
+    "text": "primes for any admissible set h of size K"
+  },
+  {
+    "t_start": 2444.67,
+    "t_end": 2452.67,
+    "text": "an um so now um again we want to find a densest"
+  },
+  {
+    "t_start": 2452.67,
+    "t_end": 2454.829,
+    "text": "now um again we want to find a densest possible admissible set but it turns out"
+  },
+  {
+    "t_start": 2454.829,
+    "t_end": 2457.71,
+    "text": "possible admissible set but it turns out that Thomas and gmer has already done"
+  },
+  {
+    "t_start": 2457.71,
+    "t_end": 2461.069,
+    "text": "that Thomas and gmer has already done several computations um and has found"
+  },
+  {
+    "t_start": 2461.069,
+    "t_end": 2464.15,
+    "text": "several computations um and has found the optimally dense admissible sets for"
+  },
+  {
+    "t_start": 2464.15,
+    "t_end": 2466.27,
+    "text": "the optimally dense admissible sets for lots of values of K and in particular"
+  },
+  {
+    "t_start": 2466.27,
+    "t_end": 2468.55,
+    "text": "lots of values of K and in particular he's shown that the densest possible"
+  },
+  {
+    "t_start": 2468.55,
+    "t_end": 2472.27,
+    "text": "he's shown that the densest possible admissible set of size 105 is contained"
+  },
+  {
+    "t_start": 2472.27,
+    "t_end": 2476.19,
+    "text": "admissible set of size 105 is contained in the for not up to"
+  },
+  {
+    "t_start": 2479.39,
+    "t_end": 2481.589,
+    "text": "600 uh yes of it's essentially an exhaustive search I think quite lot of"
+  },
+  {
+    "t_start": 2481.589,
+    "t_end": 2485.47,
+    "text": "exhaustive search I think quite lot of computer power um so combining this with"
+  },
+  {
+    "t_start": 2485.47,
+    "t_end": 2487.589,
+    "text": "computer power um so combining this with the bomb vard theem that we can any"
+  },
+  {
+    "t_start": 2487.589,
+    "t_end": 2489.95,
+    "text": "the bomb vard theem that we can any value of theta Which is less than a half"
+  },
+  {
+    "t_start": 2489.95,
+    "t_end": 2492.47,
+    "text": "value of theta Which is less than a half we see we can glue together all the"
+  },
+  {
+    "t_start": 2492.47,
+    "t_end": 2496.19,
+    "text": "statements on this slide and we get that there's infinitely many pairs of primes"
+  },
+  {
+    "t_start": 2496.19,
+    "t_end": 2498.23,
+    "text": "there's infinitely many pairs of primes that differ by most"
+  },
+  {
+    "t_start": 2498.23,
+    "t_end": 2503.87,
+    "text": "that differ by most 600 so those are the two"
+  },
+  {
+    "t_start": 2503.87,
+    "t_end": 2512.55,
+    "text": "results however I'll say a few words about um going beyond all these ideas so"
+  },
+  {
+    "t_start": 2512.55,
+    "t_end": 2514.87,
+    "text": "about um going beyond all these ideas so we've got a lower Bound for Mk that"
+  },
+  {
+    "t_start": 2514.87,
+    "t_end": 2517.43,
+    "text": "we've got a lower Bound for Mk that grows like log K and so in particular as"
+  },
+  {
+    "t_start": 2517.43,
+    "t_end": 2520.75,
+    "text": "grows like log K and so in particular as K increases we've shown that MK tends to"
+  },
+  {
+    "t_start": 2520.75,
+    "t_end": 2523.51,
+    "text": "K increases we've shown that MK tends to infinity and so we could have done"
+  },
+  {
+    "t_start": 2523.51,
+    "t_end": 2526.63,
+    "text": "infinity and so we could have done exactly the same argument and any value"
+  },
+  {
+    "t_start": 2526.63,
+    "t_end": 2528.79,
+    "text": "exactly the same argument and any value of theta which is bigger than zero would"
+  },
+  {
+    "t_start": 2528.79,
+    "t_end": 2531.47,
+    "text": "of theta which is bigger than zero would have worked so if you remember before in"
+  },
+  {
+    "t_start": 2531.47,
+    "t_end": 2534.069,
+    "text": "have worked so if you remember before in the with the work of G and Pinson yum"
+  },
+  {
+    "t_start": 2534.069,
+    "t_end": 2538.19,
+    "text": "the fact that we could take Theta to be close to half was really a very critical"
+  },
+  {
+    "t_start": 2538.19,
+    "t_end": 2540.63,
+    "text": "close to half was really a very critical point in the method and the bomb vogr"
+  },
+  {
+    "t_start": 2540.63,
+    "t_end": 2543.109,
+    "text": "point in the method and the bomb vogr theorem is this very deep result taken"
+  },
+  {
+    "t_start": 2543.109,
+    "t_end": 2544.67,
+    "text": "theorem is this very deep result taken that we can have a level of distribution"
+  },
+  {
+    "t_start": 2544.67,
+    "t_end": 2549.27,
+    "text": "that we can have a level of distribution going up to a half but we don't need"
+  },
+  {
+    "t_start": 2549.27,
+    "t_end": 2551.47,
+    "text": "anything that strong any positive level of distribution would have worked um"
+  },
+  {
+    "t_start": 2551.47,
+    "t_end": 2553.349,
+    "text": "of distribution would have worked um absolutely fine and this makes the"
+  },
+  {
+    "t_start": 2553.349,
+    "t_end": 2556.19,
+    "text": "absolutely fine and this makes the method very very flexible to potentially"
+  },
+  {
+    "t_start": 2556.19,
+    "t_end": 2558.87,
+    "text": "method very very flexible to potentially lots of other situations with subsets of"
+  },
+  {
+    "t_start": 2558.87,
+    "t_end": 2564.91,
+    "text": "lots of other situations with subsets of primes that in if we look at um"
+  },
+  {
+    "t_start": 2564.91,
+    "t_end": 2567.79,
+    "text": "particular subsets of the primes we can often follow the ideas behind the proof"
+  },
+  {
+    "t_start": 2567.79,
+    "t_end": 2572.109,
+    "text": "often follow the ideas behind the proof of um the bom behav in a guard of"
+  },
+  {
+    "t_start": 2572.109,
+    "t_end": 2574.19,
+    "text": "theorem so roughly we need to get some ASM totic formula in arithmetic"
+  },
+  {
+    "t_start": 2574.19,
+    "t_end": 2576.309,
+    "text": "ASM totic formula in arithmetic progressions to relatively small modul"
+  },
+  {
+    "t_start": 2576.309,
+    "t_end": 2582.71,
+    "text": "and some sort of large Civ estima but um and we can plug these together but often"
+  },
+  {
+    "t_start": 2582.71,
+    "t_end": 2586.91,
+    "text": "we get a result of the same type but with a much weaker level of distribution"
+  },
+  {
+    "t_start": 2586.91,
+    "t_end": 2589.87,
+    "text": "with a much weaker level of distribution however for this method to work we"
+  },
+  {
+    "t_start": 2589.87,
+    "t_end": 2596.29,
+    "text": "however for this method to work we really don't need any positive level of"
+  },
+  {
+    "t_start": 2607.829,
+    "t_end": 2612.349,
+    "text": "um and so whilst before we had arguments that very critically depended on the"
+  },
+  {
+    "t_start": 2612.349,
+    "t_end": 2614.309,
+    "text": "that very critically depended on the level of distribution because this"
+  },
+  {
+    "t_start": 2614.309,
+    "t_end": 2618.309,
+    "text": "quantity MK tends to Infinity the level of distribution really works provided"
+  },
+  {
+    "t_start": 2618.309,
+    "t_end": 2620.43,
+    "text": "of distribution really works provided it's it's positive the whole argument"
+  },
+  {
+    "t_start": 2620.43,
+    "t_end": 2624.99,
+    "text": "it's it's positive the whole argument should go through exact the same way um"
+  },
+  {
+    "t_start": 2624.99,
+    "t_end": 2627.549,
+    "text": "we also have a certain amount of flexibility because um we can choose our"
+  },
+  {
+    "t_start": 2627.549,
+    "t_end": 2629.95,
+    "text": "flexibility because um we can choose our admissible sets to be whatever we like"
+  },
+  {
+    "t_start": 2629.95,
+    "t_end": 2631.95,
+    "text": "admissible sets to be whatever we like um provided they're sufficiently large"
+  },
+  {
+    "t_start": 2631.95,
+    "t_end": 2635.309,
+    "text": "um provided they're sufficiently large and so this gives a few amusing"
+  },
+  {
+    "t_start": 2635.309,
+    "t_end": 2637.069,
+    "text": "consequences I guess it should be mentioned that some of the amusing conse"
+  },
+  {
+    "t_start": 2637.069,
+    "t_end": 2639.51,
+    "text": "mentioned that some of the amusing conse cences were pointed out to me by Andrew"
+  },
+  {
+    "t_start": 2639.51,
+    "t_end": 2642.349,
+    "text": "cences were pointed out to me by Andrew Granville Tristan feberg and Jesse"
+  },
+  {
+    "t_start": 2642.349,
+    "t_end": 2645.79,
+    "text": "Granville Tristan feberg and Jesse thorner um so one amusing consequence"
+  },
+  {
+    "t_start": 2645.79,
+    "t_end": 2647.829,
+    "text": "thorner um so one amusing consequence there are arbitrary large sets of primes"
+  },
+  {
+    "t_start": 2647.829,
+    "t_end": 2653.79,
+    "text": "there are arbitrary large sets of primes such that any pair of the primes in this"
+  },
+  {
+    "t_start": 2653.79,
+    "t_end": 2655.47,
+    "text": "set differs in at most two decimal places"
+  },
+  {
+    "t_start": 2655.47,
+    "t_end": 2661.03,
+    "text": "um let DN denote the nth Prime Gap then there are arbitrary long strings of"
+  },
+  {
+    "t_start": 2661.03,
+    "t_end": 2662.63,
+    "text": "there are arbitrary long strings of increasing gaps between primes and"
+  },
+  {
+    "t_start": 2662.63,
+    "t_end": 2663.99,
+    "text": "increasing gaps between primes and similar there's arbitrarily long strings"
+  },
+  {
+    "t_start": 2663.99,
+    "t_end": 2668.23,
+    "text": "similar there's arbitrarily long strings of decreasing gaps between primes so it"
+  },
+  {
+    "t_start": 2668.23,
+    "t_end": 2670.75,
+    "text": "turns out that this was a problem of Eros that's now been"
+  },
+  {
+    "t_start": 2670.75,
+    "t_end": 2673.39,
+    "text": "Eros that's now been solved"
+  },
+  {
+    "t_start": 2673.39,
+    "t_end": 2677.23,
+    "text": "solved um we can"
+  },
+  {
+    "t_start": 2680.71,
+    "t_end": 2685.99,
+    "text": "look um we can look at primes and short intervals and for any large integer n we"
+  },
+  {
+    "t_start": 2685.99,
+    "t_end": 2688.95,
+    "text": "can show that there's a band length interval that contains M"
+  },
+  {
+    "t_start": 2688.95,
+    "t_end": 2696.23,
+    "text": "primes contained in the interval n up to n plus n 72th plus Epsilon now this is"
+  },
+  {
+    "t_start": 2696.23,
+    "t_end": 2698.069,
+    "text": "n plus n 72th plus Epsilon now this is slightly remarkable because we're only"
+  },
+  {
+    "t_start": 2698.069,
+    "t_end": 2702.03,
+    "text": "just able to show that primes even exist in these short intervals and so the fact"
+  },
+  {
+    "t_start": 2702.03,
+    "t_end": 2703.75,
+    "text": "in these short intervals and so the fact that we now automatically get"
+  },
+  {
+    "t_start": 2703.75,
+    "t_end": 2721.109,
+    "text": "that we now automatically get arbitrarily many primes in a band length"
+  },
+  {
+    "t_start": 2731.309,
+    "t_end": 2732.95,
+    "text": "right yeah so 71 12ths is essentially zero come just from straight from the"
+  },
+  {
+    "t_start": 2732.95,
+    "t_end": 2736.829,
+    "text": "zero dentity estimates and you can go below 712th by using Harmon style cves"
+  },
+  {
+    "t_start": 2736.829,
+    "t_end": 2741.51,
+    "text": "below 712th by using Harmon style cves where you give up an astics um"
+  },
+  {
+    "t_start": 2741.51,
+    "t_end": 2747.549,
+    "text": "but um because we have a positive Lev distribution at 712 we get um bound"
+  },
+  {
+    "t_start": 2747.549,
+    "t_end": 2749.79,
+    "text": "distribution at 712 we get um bound length intervals conveying"
+  },
+  {
+    "t_start": 2749.79,
+    "t_end": 2751.71,
+    "text": "length intervals conveying primes"
+  },
+  {
+    "t_start": 2751.71,
+    "t_end": 2753.43,
+    "text": "primes exactly"
+  },
+  {
+    "t_start": 2753.43,
+    "t_end": 2761.39,
+    "text": "um uh we can reprove some results following my Matrix method so given any"
+  },
+  {
+    "t_start": 2761.39,
+    "t_end": 2764.549,
+    "text": "following my Matrix method so given any pair of co-prime integers A and Q then"
+  },
+  {
+    "t_start": 2764.549,
+    "t_end": 2767.27,
+    "text": "pair of co-prime integers A and Q then there arbitrary long strings of"
+  },
+  {
+    "t_start": 2767.27,
+    "t_end": 2770.67,
+    "text": "there arbitrary long strings of consecutive primes which are all in the"
+  },
+  {
+    "t_start": 2770.67,
+    "t_end": 2776.87,
+    "text": "mod and so this was a theem of Daniel Shu using the Maya Matrix but exactly"
+  },
+  {
+    "t_start": 2776.87,
+    "t_end": 2782.63,
+    "text": "the same methods work here and we can also have them contained in a bounded"
+  },
+  {
+    "t_start": 2785.309,
+    "t_end": 2790.63,
+    "text": "yeah and yeah at the risk of fogging a dead horse"
+  },
+  {
+    "t_start": 2790.63,
+    "t_end": 2794.349,
+    "text": "yeah at the risk of fogging a dead horse and adding boundary gaps um again if we"
+  },
+  {
+    "t_start": 2794.349,
+    "t_end": 2796.349,
+    "text": "and adding boundary gaps um again if we take any positive definite binary"
+  },
+  {
+    "t_start": 2796.349,
+    "t_end": 2799.109,
+    "text": "take any positive definite binary quadratic form with fundamental disent"
+  },
+  {
+    "t_start": 2799.109,
+    "t_end": 2805.069,
+    "text": "then we have arbitrarily large sets of primes which are represented by this um"
+  },
+  {
+    "t_start": 2805.069,
+    "t_end": 2807.63,
+    "text": "primes which are represented by this um binary quadratic form and all of these"
+  },
+  {
+    "t_start": 2807.63,
+    "t_end": 2812.43,
+    "text": "contained in a b length in for and then this is just because um primes in with"
+  },
+  {
+    "t_start": 2812.43,
+    "t_end": 2814.87,
+    "text": "this is just because um primes in with chapar type type splitting conditions"
+  },
+  {
+    "t_start": 2814.87,
+    "t_end": 2818.27,
+    "text": "chapar type type splitting conditions again have a positive level of"
+  },
+  {
+    "t_start": 2818.27,
+    "t_end": 2822.99,
+    "text": "um so um that's roughly all I have to say so maybe I'll stop there thanks a"
+  },
+  {
+    "t_start": 2822.99,
+    "t_end": 2824.29,
+    "text": "say so maybe I'll stop there thanks a lot for"
+  },
+  {
+    "t_start": 2824.29,
+    "t_end": 2829.71,
+    "text": "lot for [Applause]"
+  },
+  {
+    "t_start": 2853.87,
+    "t_end": 2855.47,
+    "text": "so the same result works if you restrict your integers n that you looking at to"
+  },
+  {
+    "t_start": 2855.47,
+    "t_end": 2859.069,
+    "text": "your integers n that you looking at to be in any arithmetic progression so you"
+  },
+  {
+    "t_start": 2859.069,
+    "t_end": 2860.589,
+    "text": "be in any arithmetic progression so you can"
+  },
+  {
+    "t_start": 2860.589,
+    "t_end": 2867.109,
+    "text": "consider um ends where all the last 10 million digits are restricted to"
+  },
+  {
+    "t_start": 2867.109,
+    "t_end": 2869.99,
+    "text": "last 10 million digits are restricted to be ones and then you can consider the"
+  },
+  {
+    "t_start": 2869.99,
+    "t_end": 2875.27,
+    "text": "be ones and then you can consider the shifts of hi of the form 10 to the"
+  },
+  {
+    "t_start": 2875.27,
+    "t_end": 2879.23,
+    "text": "shifts of hi of the form 10 to the I um and and therefore you get"
+  },
+  {
+    "t_start": 2879.23,
+    "t_end": 2881.95,
+    "text": "I um and and therefore you get infinitely many primes where the last"
+  },
+  {
+    "t_start": 2881.95,
+    "t_end": 2886.829,
+    "text": "digits are all ones apart from one of them too because the shift by hi just"
+  },
+  {
+    "t_start": 2886.829,
+    "t_end": 2889.67,
+    "text": "them too because the shift by hi just adds one to one of the decimal places um"
+  },
+  {
+    "t_start": 2889.67,
+    "t_end": 2890.91,
+    "text": "adds one to one of the decimal places um obviously you have to be slightly"
+  },
+  {
+    "t_start": 2890.91,
+    "t_end": 2893.63,
+    "text": "careful to make sure you haven't triply made something multiple of three or"
+  },
+  {
+    "t_start": 2893.63,
+    "t_end": 2896.109,
+    "text": "made something multiple of three or something like that um"
+  },
+  {
+    "t_start": 2896.109,
+    "t_end": 2902.27,
+    "text": "but um yeah so they all have essentially exactly the same uh structure in the low"
+  },
+  {
+    "t_start": 2902.27,
+    "t_end": 2904.51,
+    "text": "exactly the same uh structure in the low digits you've fixing what the low digits"
+  },
+  {
+    "t_start": 2904.51,
+    "t_end": 2908.67,
+    "text": "are so you can say exactly but then the high digits are exactly the same because"
+  },
+  {
+    "t_start": 2908.67,
+    "t_end": 2916.03,
+    "text": "it's the same value of n that you're using each time so you can have the same"
+  },
+  {
+    "t_start": 2916.03,
+    "t_end": 2918.71,
+    "text": "thing but with um yeah there's arbitrarily large sets of primes where"
+  },
+  {
+    "t_start": 2918.71,
+    "t_end": 2923.99,
+    "text": "permutation of the digits of any other Prime and they can all be consecutive"
+  },
+  {
+    "t_start": 2923.99,
+    "t_end": 2926.99,
+    "text": "Prime and they can all be consecutive you can prove lots of sort of popular"
+  },
+  {
+    "t_start": 2926.99,
+    "t_end": 2940.63,
+    "text": "you can prove lots of sort of popular math type theor with that"
+  },
+  {
+    "t_start": 2963.91,
+    "t_end": 2966.47,
+    "text": "yeah um yeah so if I remember correctly they already had gaps of size six which"
+  },
+  {
+    "t_start": 2966.47,
+    "t_end": 2977.349,
+    "text": "they already had gaps of size six which is going to be the best you can get"
+  },
+  {
+    "t_start": 2979.87,
+    "t_end": 2982.309,
+    "text": "um yeah I thought they already had unconditionally gaps of size six with"
+  },
+  {
+    "t_start": 2982.309,
+    "t_end": 2984.71,
+    "text": "unconditionally gaps of size six with exactly two Prim"
+  },
+  {
+    "t_start": 2984.71,
+    "t_end": 2988.789,
+    "text": "exactly two Prim factors um so I"
+  },
+  {
+    "t_start": 2992.349,
+    "t_end": 2996.349,
+    "text": "mean yeah when when you apply the K dimensional Civ then um in the original"
+  },
+  {
+    "t_start": 2996.349,
+    "t_end": 3004.19,
+    "text": "GP I work um the primes have kind of weighted density roughly 1 overk um and"
+  },
+  {
+    "t_start": 3004.19,
+    "t_end": 3009.15,
+    "text": "weighted density roughly 1 overk um and this is why you just get a finite number"
+  },
+  {
+    "t_start": 3009.15,
+    "t_end": 3011.87,
+    "text": "of primes and numbers with r prime factors have weighted density log K to"
+  },
+  {
+    "t_start": 3011.87,
+    "t_end": 3016.75,
+    "text": "factors have weighted density log K to the power Rus one / k"
+  },
+  {
+    "t_start": 3016.75,
+    "t_end": 3021.069,
+    "text": "the power Rus one / k um right exactly so my methods naturally"
+  },
+  {
+    "t_start": 3021.069,
+    "t_end": 3026.51,
+    "text": "um right exactly so my methods naturally um give you an improvement of the factor"
+  },
+  {
+    "t_start": 3026.51,
+    "t_end": 3032.109,
+    "text": "have a density log k / K and numbers with two prime factors have a density"
+  },
+  {
+    "t_start": 3032.109,
+    "t_end": 3038.23,
+    "text": "with two prime factors have a density log k s ID k um and so correspondingly"
+  },
+  {
+    "t_start": 3038.23,
+    "t_end": 3041.91,
+    "text": "log k s ID k um and so correspondingly whenever they so I think Thor did their"
+  },
+  {
+    "t_start": 3041.91,
+    "t_end": 3043.71,
+    "text": "whenever they so I think Thor did their argument for numbers with exactly R"
+  },
+  {
+    "t_start": 3043.71,
+    "t_end": 3045.71,
+    "text": "argument for numbers with exactly R prime factors"
+  },
+  {
+    "t_start": 3045.71,
+    "t_end": 3052.51,
+    "text": "and in any case where Thorn rights r i can rewrite r with r minus one and"
+  },
+  {
+    "t_start": 3052.51,
+    "t_end": 3054.95,
+    "text": "can rewrite r with r minus one and essentially the same result holds so"
+  },
+  {
+    "t_start": 3054.95,
+    "t_end": 3057.27,
+    "text": "essentially the same result holds so after my Civic"
+  },
+  {
+    "t_start": 3057.27,
+    "t_end": 3063.47,
+    "text": "it roughly looks like now primes are behaving like numbers with exactly two"
+  },
+  {
+    "t_start": 3063.47,
+    "t_end": 3066.03,
+    "text": "behaving like numbers with exactly two prime factors behaved before and numbers"
+  },
+  {
+    "t_start": 3066.03,
+    "t_end": 3069.91,
+    "text": "prime factors behaved before and numbers with two point factors now behave like"
+  },
+  {
+    "t_start": 3069.91,
+    "t_end": 3082.43,
+    "text": "numbers with three point factors behave for and you kind of get the extra"
+  },
+  {
+    "t_start": 3097.789,
+    "t_end": 3105.39,
+    "text": "in In classical Civ applications I can't think of any at all because um the fact"
+  },
+  {
+    "t_start": 3105.39,
+    "t_end": 3107.549,
+    "text": "think of any at all because um the fact that this is a comparative Civ and"
+  },
+  {
+    "t_start": 3107.549,
+    "t_end": 3114.349,
+    "text": "you're um comparing integers in this Civ set compared to primes in this Civ set"
+  },
+  {
+    "t_start": 3114.349,
+    "t_end": 3116.589,
+    "text": "is very important for these new weights and um as I mentioned before the"
+  },
+  {
+    "t_start": 3116.589,
+    "t_end": 3118.069,
+    "text": "and um as I mentioned before the standard choice of sellberg cives is"
+  },
+  {
+    "t_start": 3118.069,
+    "t_end": 3120.069,
+    "text": "standard choice of sellberg cives is essentially optimal in most of the"
+  },
+  {
+    "t_start": 3120.069,
+    "t_end": 3125.03,
+    "text": "essentially optimal in most of the generic K dimensional um Civ situations"
+  },
+  {
+    "t_start": 3125.03,
+    "t_end": 3128.23,
+    "text": "generic K dimensional um Civ situations um I'm trying to think up I'm trying to"
+  },
+  {
+    "t_start": 3128.23,
+    "t_end": 3132.23,
+    "text": "um I'm trying to think up I'm trying to look for situations where um the natural"
+  },
+  {
+    "t_start": 3132.23,
+    "t_end": 3137.03,
+    "text": "generalization um might help in corresponding problems and you know I"
+  },
+  {
+    "t_start": 3137.03,
+    "t_end": 3140.829,
+    "text": "corresponding problems and you know I don't know if it helps in modification"
+  },
+  {
+    "t_start": 3140.829,
+    "t_end": 3143.75,
+    "text": "problems for example which have an obvious analogy with cives um but I"
+  },
+  {
+    "t_start": 3143.75,
+    "t_end": 3146.15,
+    "text": "obvious analogy with cives um but I can't give you now any neat example"
+  },
+  {
+    "t_start": 3146.15,
+    "t_end": 3174.95,
+    "text": "can't give you now any neat example where it work"
+  },
+  {
+    "t_start": 3200.23,
+    "t_end": 3202.87,
+    "text": "um well I mean it's equivalent to the Linea in certain ranges but not in the"
+  },
+  {
+    "t_start": 3202.87,
+    "t_end": 3231.91,
+    "text": "Linea in certain ranges but not in the whole range"
+  },
+  {
+    "t_start": 3233.75,
+    "t_end": 3239.95,
+    "text": "so uh one thing I haven't hav mentioned here but Terry to has set up a polymath"
+  },
+  {
+    "t_start": 3239.95,
+    "t_end": 3243.03,
+    "text": "here but Terry to has set up a polymath project looking at optimizing optimizing"
+  },
+  {
+    "t_start": 3243.03,
+    "t_end": 3249.27,
+    "text": "project looking at optimizing optimizing the arguments I presented here so"
+  },
+  {
+    "t_start": 3251.87,
+    "t_end": 3254.43,
+    "text": "um there's the parity problem in Civ methods which very roughly speaking"
+  },
+  {
+    "t_start": 3254.43,
+    "t_end": 3258.39,
+    "text": "means that it's very hard for Civ methods to tell between a number with an"
+  },
+  {
+    "t_start": 3258.39,
+    "t_end": 3259.71,
+    "text": "methods to tell between a number with an even number of Prim factors and a number"
+  },
+  {
+    "t_start": 3259.71,
+    "t_end": 3264.67,
+    "text": "even number of Prim factors and a number with an odd number of Prim factors and"
+  },
+  {
+    "t_start": 3264.67,
+    "t_end": 3267.71,
+    "text": "uh none of the methods here touch the parity problem at all and the problem um"
+  },
+  {
+    "t_start": 3267.71,
+    "t_end": 3269.589,
+    "text": "parity problem at all and the problem um gives you quite an explicit barrier to"
+  },
+  {
+    "t_start": 3269.589,
+    "t_end": 3272.069,
+    "text": "gives you quite an explicit barrier to these kinds of methods Ever Getting gaps"
+  },
+  {
+    "t_start": 3272.069,
+    "t_end": 3279.95,
+    "text": "these kinds of methods Ever Getting gaps below six now um as I mentioned if you"
+  },
+  {
+    "t_start": 3279.95,
+    "t_end": 3286.309,
+    "text": "you tend to get stronger results out and um in my paper originally i' shown that"
+  },
+  {
+    "t_start": 3286.309,
+    "t_end": 3288.069,
+    "text": "um in my paper originally i' shown that if you assume the Al Haram conjecture"
+  },
+  {
+    "t_start": 3288.069,
+    "t_end": 3290.109,
+    "text": "if you assume the Al Haram conjecture that the most optimistic conjecture on"
+  },
+  {
+    "t_start": 3290.109,
+    "t_end": 3291.789,
+    "text": "that the most optimistic conjecture on primes then you get infinitely many"
+  },
+  {
+    "t_start": 3291.789,
+    "t_end": 3297.349,
+    "text": "pairs of primes that differ by most 12 um as part of the polymath work um we've"
+  },
+  {
+    "t_start": 3297.349,
+    "t_end": 3299.67,
+    "text": "um as part of the polymath work um we've shown that if you assume a slightly"
+  },
+  {
+    "t_start": 3299.67,
+    "t_end": 3302.109,
+    "text": "shown that if you assume a slightly generalized form of the Haram conjecture"
+  },
+  {
+    "t_start": 3302.109,
+    "t_end": 3305.829,
+    "text": "generalized form of the Haram conjecture then you do get that there's infin many"
+  },
+  {
+    "t_start": 3305.829,
+    "t_end": 3308.589,
+    "text": "pairs of primes that differ by at most six so this is"
+  },
+  {
+    "t_start": 3308.589,
+    "t_end": 3317.15,
+    "text": "already it so it's this um conjecture of in the Bomer F landan paper on um"
+  },
+  {
+    "t_start": 3317.15,
+    "t_end": 3320.789,
+    "text": "in the Bomer F landan paper on um convolution sums but I"
+  },
+  {
+    "t_start": 3320.789,
+    "t_end": 3326.349,
+    "text": "guess you can think of it as not only does the harash Sham conjecture hold for"
+  },
+  {
+    "t_start": 3326.349,
+    "t_end": 3328.43,
+    "text": "does the harash Sham conjecture hold for primes but also numbers with exactly two"
+  },
+  {
+    "t_start": 3328.43,
+    "t_end": 3330.15,
+    "text": "primes but also numbers with exactly two prime factors or three prime factors or"
+  },
+  {
+    "t_start": 3330.15,
+    "t_end": 3334.27,
+    "text": "prime factors or three prime factors or four prime factors with a reasonable"
+  },
+  {
+    "t_start": 3334.27,
+    "t_end": 3335.75,
+    "text": "degree of flexibility in the terms of the uniformity of the location of the"
+  },
+  {
+    "t_start": 3335.75,
+    "t_end": 3341.75,
+    "text": "the uniformity of the location of the prime factors um so in that sense if you"
+  },
+  {
+    "t_start": 3341.75,
+    "t_end": 3344.069,
+    "text": "assume the most optimistic possible results about atic progressions we can"
+  },
+  {
+    "t_start": 3344.069,
+    "t_end": 3346.349,
+    "text": "results about atic progressions we can get to what we believe"
+  },
+  {
+    "t_start": 3346.349,
+    "t_end": 3350.549,
+    "text": "get to what we believe the strong the limit of the method"
+  },
+  {
+    "t_start": 3350.549,
+    "t_end": 3356.75,
+    "text": "um and we get to six and there's a big barrier to getting below six and we need"
+  },
+  {
+    "t_start": 3356.75,
+    "t_end": 3360.029,
+    "text": "barrier to getting below six and we need some massive new idea to get around Pary"
+  },
+  {
+    "t_start": 3360.029,
+    "t_end": 3367.67,
+    "text": "some massive new idea to get around Pary to get beyond that um I'm I guess for"
+  },
+  {
+    "t_start": 3367.67,
+    "t_end": 3370.75,
+    "text": "the numerical bound of 600 um I only took polinomial approximations"
+  },
+  {
+    "t_start": 3370.75,
+    "t_end": 3372.47,
+    "text": "um I only took polinomial approximations involving the first two power symetric"
+  },
+  {
+    "t_start": 3372.47,
+    "t_end": 3374.029,
+    "text": "involving the first two power symetric polinomial and I mentioned you can do"
+  },
+  {
+    "t_start": 3374.029,
+    "t_end": 3376.15,
+    "text": "polinomial and I mentioned you can do this with arbitrary ones so as part of"
+  },
+  {
+    "t_start": 3376.15,
+    "t_end": 3378.069,
+    "text": "this with arbitrary ones so as part of the polymath um they've thrown a big"
+  },
+  {
+    "t_start": 3378.069,
+    "t_end": 3379.87,
+    "text": "the polymath um they've thrown a big computer at the problem and instead of"
+  },
+  {
+    "t_start": 3379.87,
+    "t_end": 3387.63,
+    "text": "looking at 42x 42 the matrices you can look at 2,000 x 2000 matrices and and um"
+  },
+  {
+    "t_start": 3387.63,
+    "t_end": 3390.39,
+    "text": "look at 2,000 x 2000 matrices and and um throwing a a big computer at it you get"
+  },
+  {
+    "t_start": 3390.39,
+    "t_end": 3391.789,
+    "text": "throwing a a big computer at it you get down to about"
+  },
+  {
+    "t_start": 3391.789,
+    "t_end": 3398.43,
+    "text": "264 and if you um introduce a couple of new modifications to the Civ ideas as"
+  },
+  {
+    "t_start": 3398.43,
+    "t_end": 3405.99,
+    "text": "new modifications to the Civ ideas as well you can get this down to"
+  },
+  {
+    "t_start": 3408.99,
+    "t_end": 3410.71,
+    "text": "2502 what you do these are all provisional results that we're in the"
+  },
+  {
+    "t_start": 3410.71,
+    "t_end": 3413.87,
+    "text": "provisional results that we're in the process of writing up I"
+  },
+  {
+    "t_start": 3413.87,
+    "t_end": 3416.51,
+    "text": "process of writing up I guess um"
+  },
+  {
+    "t_start": 3416.51,
+    "t_end": 3424.43,
+    "text": "check well you can it it's relatively easy run"
+  },
+  {
+    "t_start": 3424.43,
+    "t_end": 3429.39,
+    "text": "the yeah so um I guess there's a few different big computers once you've"
+  },
+  {
+    "t_start": 3429.39,
+    "t_end": 3432.63,
+    "text": "different big computers once you've calculated the matrices it's um you"
+  },
+  {
+    "t_start": 3432.63,
+    "t_end": 3435.87,
+    "text": "calculated the matrices it's um you we're explicitly given a rational Vector"
+  },
+  {
+    "t_start": 3435.87,
+    "t_end": 3437.71,
+    "text": "we're explicitly given a rational Vector so if you believe the calculation of the"
+  },
+  {
+    "t_start": 3437.71,
+    "t_end": 3439.43,
+    "text": "so if you believe the calculation of the matrices then it's quite easy to check"
+  },
+  {
+    "t_start": 3439.43,
+    "t_end": 3441.069,
+    "text": "matrices then it's quite easy to check that you get something which is as big"
+  },
+  {
+    "t_start": 3441.069,
+    "t_end": 3445.87,
+    "text": "as you want it to be um however the calculating the matrices might take two"
+  },
+  {
+    "t_start": 3445.87,
+    "t_end": 3448.71,
+    "text": "calculating the matrices might take two days or something so"
+  },
+  {
+    "t_start": 3448.71,
+    "t_end": 3454.789,
+    "text": "um I don't I'm not a numerical guy so I don't really know um how one goes about"
+  },
+  {
+    "t_start": 3454.789,
+    "t_end": 3456.67,
+    "text": "don't really know um how one goes about checking a program that's run for two"
+  },
+  {
+    "t_start": 3456.67,
+    "t_end": 3480.029,
+    "text": "checking a program that's run for two days and has these huge mates"
+  }
+]

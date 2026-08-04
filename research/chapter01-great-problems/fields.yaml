@@ -1,0 +1,36 @@
+# Field definitions for Chapter 1 great-problem lessons
+topic: chapter01_great_problems
+detail_level_default: detailed
+
+fields:
+  - name: statement_precise
+    description: Precise undergrad-accessible statement of the problem/theorem
+    detail_level: detailed
+  - name: history_motivation
+    description: Why the question arose; Clay/popular/math-history hooks
+    detail_level: moderate
+  - name: surrounding_definitions
+    description: Minimal definitions (curves, P/NP, NS, twins, Collatz map, planar graphs)
+    detail_level: detailed
+  - name: why_hard_or_method
+    description: Barriers, methods, or proof architecture at slogan level
+    detail_level: detailed
+  - name: partial_results_or_proof_status
+    description: What is known / verified / proved as of 2026 narrative
+    detail_level: detailed
+  - name: confusions_undergrad
+    description: Common false slogans students bring
+    detail_level: detailed
+  - name: exercises_seminar
+    description: 6–8 exercises including stretch and LO6 caution prompts
+    detail_level: moderate
+  - name: references_primary
+    description: Clay pages, surveys, course-internal links
+    detail_level: brief
+  - name: cross_links_course
+    description: Links to Ch.2–8 related essays and studios
+    detail_level: moderate
+
+uncertain:
+  - exact_latest_Collatz_verification_bound_may_move
+  - twin_gap_bound_246_is_standard_public_narrative

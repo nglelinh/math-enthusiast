@@ -1,0 +1,29 @@
+{
+  "slug": "cook-karp-np",
+  "videos": [
+    {
+      "id": "pQsdygaYcE4",
+      "title": "Quanta — *Biggest Puzzle in Computer Science: P vs. NP*",
+      "has_transcript": true,
+      "chars": 17513,
+      "units": 13,
+      "url": "https://www.youtube.com/watch?v=pQsdygaYcE4"
+    },
+    {
+      "id": "4rzstuDyVGA",
+      "title": "Cook clip — why P=NP matters",
+      "has_transcript": true,
+      "chars": 1141,
+      "units": 1,
+      "url": "https://www.youtube.com/watch?v=4rzstuDyVGA"
+    },
+    {
+      "id": "UulagVcxuo4",
+      "title": "Cook lecture Techfest limits of computers",
+      "has_transcript": true,
+      "chars": 45539,
+      "units": 33,
+      "url": "https://www.youtube.com/watch?v=UulagVcxuo4"
+    }
+  ]
+}

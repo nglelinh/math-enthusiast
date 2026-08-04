@@ -1,0 +1,1382 @@
+[
+  {
+    "t_start": 0.06,
+    "t_end": 6.06,
+    "text": "One of my favorite unsolved problems in mathematics. Maybe it's best to start with"
+  },
+  {
+    "t_start": 7.24,
+    "t_end": 11.88,
+    "text": "Euler's formula. Euler's formula tells something about triangulated spheres."
+  },
+  {
+    "t_start": 11.92,
+    "t_end": 15.479,
+    "text": "So maybe I have to tell you what a triangulated sphere is."
+  },
+  {
+    "t_start": 15.48,
+    "t_end": 20.07,
+    "text": "Well, intuitively it is a sphere but it is made"
+  },
+  {
+    "t_start": 20.83,
+    "t_end": 23.489,
+    "text": "combinatorial, so that every face is a triangle."
+  },
+  {
+    "t_start": 23.49,
+    "t_end": 29.429,
+    "text": "So you want to attach bunch of triangles in such a way that the entire shape is"
+  },
+  {
+    "t_start": 29.949,
+    "t_end": 36.029,
+    "text": "essentially identical to a sphere. You can continuously move it to form it, make it round. So maybe the"
+  },
+  {
+    "t_start": 36.64,
+    "t_end": 38.079,
+    "text": "easiest"
+  },
+  {
+    "t_start": 38.079,
+    "t_end": 39.96,
+    "text": "example is a simplex."
+  },
+  {
+    "t_start": 39.96,
+    "t_end": 43.89,
+    "text": "So a simplex has four vertices 1, 2,"
+  },
+  {
+    "t_start": 44.379,
+    "t_end": 51.329,
+    "text": "3, 4. And if you just look at the boundary of it, the tetrahedron, then it is essentially a sphere. You can"
+  },
+  {
+    "t_start": 51.55,
+    "t_end": 55.5,
+    "text": "continuously deform it to a sphere. Every face of it is a triangle."
+  },
+  {
+    "t_start": 55.5,
+    "t_end": 63.059,
+    "text": "In fact, you see 4 of them; 1, 2, 3 and 4. So, as you can imagine, there are many many different ways to"
+  },
+  {
+    "t_start": 64.03,
+    "t_end": 71.099,
+    "text": "triangulate the sphere. Another example, maybe it's the second easiest example is the boundary of an octahedron,"
+  },
+  {
+    "t_start": 71.1,
+    "t_end": 76.199,
+    "text": "is essentially a sphere. And I can go on - maybe the third familiar example is the boundary of an"
+  },
+  {
+    "t_start": 76.54,
+    "t_end": 80.639,
+    "text": "icosahedron, where I glue together 20 triangles to make a sphere."
+  },
+  {
+    "t_start": 83.59,
+    "t_end": 87.03,
+    "text": "So Euler's formula says something about triangulated spheres."
+  },
+  {
+    "t_start": 87.13,
+    "t_end": 92.07,
+    "text": "He noticed that if you stare at each one of these triangulated spheres,"
+  },
+  {
+    "t_start": 92.53,
+    "t_end": 96.57,
+    "text": "say the 2-dimensional spheres, as, as we are considering now."
+  },
+  {
+    "t_start": 96.61,
+    "t_end": 103.649,
+    "text": "And if you first count the number of vertices, so if I do the tetrahedron"
+  },
+  {
+    "t_start": 103.649,
+    "t_end": 105.649,
+    "text": "I see four vertices: 1, 2,"
+  },
+  {
+    "t_start": 106.119,
+    "t_end": 113.729,
+    "text": "3, 4. And then I'm going to count the edges: 1, 2, 3, 4, 5, 6. And then I count the triangles,"
+  },
+  {
+    "t_start": 114.13,
+    "t_end": 117.839,
+    "text": "there are 4 triangles in a tetrahedron, so I'm counting"
+  },
+  {
+    "t_start": 118.57,
+    "t_end": 123.299,
+    "text": "0 dimensional faces, 1 dimensional faces, and 2 dimensional faces."
+  },
+  {
+    "t_start": 123.909,
+    "t_end": 127.048,
+    "text": "So let me call them f0 and"
+  },
+  {
+    "t_start": 128.349,
+    "t_end": 130.349,
+    "text": "f1"
+  },
+  {
+    "t_start": 130.929,
+    "t_end": 137.488,
+    "text": "and f2. And what Euler did was to compute the alternating sum,"
+  },
+  {
+    "t_start": 138.04,
+    "t_end": 144.929,
+    "text": "f0 minus f1 plus f2. Which is, in our case, four minus six plus four,"
+  },
+  {
+    "t_start": 145.0,
+    "t_end": 146.4,
+    "text": "which is equal to two."
+  },
+  {
+    "t_start": 146.4,
+    "t_end": 151.289,
+    "text": "So let me do the same computation for the octahedron. The alternating sum of"
+  },
+  {
+    "t_start": 151.42,
+    "t_end": 156.959,
+    "text": "the number of faces of various dimension, then I get 6 minus 12 plus 8,"
+  },
+  {
+    "t_start": 157.269,
+    "t_end": 162.059,
+    "text": "which is equal to 2. As you have guessed this is a general pattern."
+  },
+  {
+    "t_start": 162.64,
+    "t_end": 164.44,
+    "text": "No matter how you"
+  },
+  {
+    "t_start": 164.44,
+    "t_end": 165.97,
+    "text": "triangulate your"
+  },
+  {
+    "t_start": 165.97,
+    "t_end": 171.66,
+    "text": "two-dimensional sphere, the alternating sum of the number of faces is always equal to 2."
+  },
+  {
+    "t_start": 171.85,
+    "t_end": 176.459,
+    "text": "Okay, so that was Euler's observation. So let's just imagine how"
+  },
+  {
+    "t_start": 176.98,
+    "t_end": 178.98,
+    "text": "this"
+  },
+  {
+    "t_start": 179.049,
+    "t_end": 187.049,
+    "text": "wonderful, but seemingly accidental pattern will continue in higher dimensions. So you can certainly think about 3-dimensional spheres"
+  },
+  {
+    "t_start": 187.049,
+    "t_end": 191.729,
+    "text": "instead of two-dimensional spheres. And certainly you can triangulate them and there are"
+  },
+  {
+    "t_start": 192.25,
+    "t_end": 197.309,
+    "text": "infinitely many different ways of triangulating them. And you can do the same. Now you have"
+  },
+  {
+    "t_start": 197.739,
+    "t_end": 202.409,
+    "text": "four numbers to think about instead of three; you have vertices, edges,"
+  },
+  {
+    "t_start": 205.9,
+    "t_end": 207.9,
+    "text": "triangles,"
+  },
+  {
+    "t_start": 208.69,
+    "t_end": 211.51,
+    "text": "and many many tetrahedrons."
+  },
+  {
+    "t_start": 213.02,
+    "t_end": 218.77,
+    "text": "So the triangulated spheres in the next dimension will be a way to make a sphere"
+  },
+  {
+    "t_start": 219.47,
+    "t_end": 225.76,
+    "text": "by gluing together many of the tetrahedrons. The next dimension is always hard to imagine, so"
+  },
+  {
+    "t_start": 226.58,
+    "t_end": 232.449,
+    "text": "before making the correct guess let's, let's go to even a lower dimension."
+  },
+  {
+    "t_start": 232.45,
+    "t_end": 238.45,
+    "text": "So that was the picture for two dimensional spheres. But let's this time imagine one dimensional spheres."
+  },
+  {
+    "t_start": 239.72,
+    "t_end": 244.99,
+    "text": "Triangulated one dimensional spheres. So triangles in one dimensions are supposed to be"
+  },
+  {
+    "t_start": 245.84,
+    "t_end": 247.64,
+    "text": "just straight lines."
+  },
+  {
+    "t_start": 247.64,
+    "t_end": 253.66,
+    "text": "We know very well how typical triangulated one-dimensional spheres look like."
+  },
+  {
+    "t_start": 253.79,
+    "t_end": 260.349,
+    "text": "This is one triangulated 1-sphere where I used five vertices and five edges."
+  },
+  {
+    "t_start": 260.54,
+    "t_end": 264.58,
+    "text": "So my numbers will be f0 equals 5, and"
+  },
+  {
+    "t_start": 265.16,
+    "t_end": 268.899,
+    "text": "f1 equals 5. And the Euler's relation,"
+  },
+  {
+    "t_start": 269.36,
+    "t_end": 274.57,
+    "text": "in this case, will look like this. And again the number 0 that we see here is"
+  },
+  {
+    "t_start": 275.45,
+    "t_end": 280.809,
+    "text": "independent of the triangulisation of the 1-dimensional sphere that I have chosen. For example,"
+  },
+  {
+    "t_start": 280.81,
+    "t_end": 283.0,
+    "text": "if you have used 7 vertices"
+  },
+  {
+    "t_start": 283.13,
+    "t_end": 285.459,
+    "text": "you are forced to use 7 edges too,"
+  },
+  {
+    "t_start": 285.8,
+    "t_end": 290.02,
+    "text": "because you want the entire thing to be a 1-dimensional sphere, which is a circle."
+  },
+  {
+    "t_start": 290.02,
+    "t_end": 296.829,
+    "text": "So it - Euler's relation in one dimension is simply saying that f0 minus f1 is 0. So"
+  },
+  {
+    "t_start": 296.9,
+    "t_end": 298.9,
+    "text": "let's go even lower."
+  },
+  {
+    "t_start": 298.9,
+    "t_end": 299.78,
+    "text": "(Brady: Even lower? Alright?)"
+  },
+  {
+    "t_start": 299.78,
+    "t_end": 306.97,
+    "text": "Yes, and think about zero dimensional spheres. So this is a little bit tricky if you have never thought about zero dimensional spheres;"
+  },
+  {
+    "t_start": 307.13,
+    "t_end": 311.26,
+    "text": "but what is really a sphere? A sphere is supposed to be the,"
+  },
+  {
+    "t_start": 312.169,
+    "t_end": 314.229,
+    "text": "something that lives in our space"
+  },
+  {
+    "t_start": 314.87,
+    "t_end": 320.35,
+    "text": "which consists of all points that are of the same distance from the"
+  },
+  {
+    "t_start": 320.69,
+    "t_end": 323.23,
+    "text": "origin, or whatever point that you have chosen."
+  },
+  {
+    "t_start": 324.11,
+    "t_end": 326.11,
+    "text": "So the zero dimensional sphere"
+  },
+  {
+    "t_start": 327.11,
+    "t_end": 330.94,
+    "text": "should live in a 1-dimensional space, which is the line,"
+  },
+  {
+    "t_start": 330.95,
+    "t_end": 338.739,
+    "text": "and if I collect all points that are of, say distance 1 from the origin, then I would get exactly two points. Zero"
+  },
+  {
+    "t_start": 339.32,
+    "t_end": 343.989,
+    "text": "dimensional sphere is two points And that's, well, in my sense"
+  },
+  {
+    "t_start": 343.99,
+    "t_end": 351.79,
+    "text": "that's a triangulated sphere. And there is really one number, f0, the number of vertices. And that number of vertices should be always 2."
+  },
+  {
+    "t_start": 352.25,
+    "t_end": 358.989,
+    "text": "So in this case the Euler's formula will look like at zero equals 2. - (Brady: Oh it's gone up again-)"
+  },
+  {
+    "t_start": 359.15,
+    "t_end": 362.859,
+    "text": "That's right. So I add 2, in dimension zero,"
+  },
+  {
+    "t_start": 363.65,
+    "t_end": 365.709,
+    "text": "zero in dimension 1, and"
+  },
+  {
+    "t_start": 366.38,
+    "t_end": 372.999,
+    "text": "two in dimension 2. So we can imagine what would be the next number in, say in dimension 3."
+  },
+  {
+    "t_start": 374.0,
+    "t_end": 376.0,
+    "text": "(Brady: What is it gonna- should I guess?)"
+  },
+  {
+    "t_start": 376.66,
+    "t_end": 378.32,
+    "text": "Yeah, you should guess."
+  },
+  {
+    "t_start": 378.32,
+    "t_end": 384.04,
+    "text": "(Brady: I'm gonn- is this gonna oscillate? Is it gonna go back to zero?) - Yes, that is a correct guess. And in fact,"
+  },
+  {
+    "t_start": 385.28,
+    "t_end": 387.28,
+    "text": "although it's hard to imagine"
+  },
+  {
+    "t_start": 388.25,
+    "t_end": 390.25,
+    "text": "3-dimensional spheres,"
+  },
+  {
+    "t_start": 390.44,
+    "t_end": 392.44,
+    "text": "for this"
+  },
+  {
+    "t_start": 392.479,
+    "t_end": 398.859,
+    "text": "particular problem we can actually test it for our favourite triangulated 3-spheres."
+  },
+  {
+    "t_start": 399.65,
+    "t_end": 406.57,
+    "text": "Because there is a higher dimensional analog of the tetrahedron, so there is called a simplex and"
+  },
+  {
+    "t_start": 406.57,
+    "t_end": 408.56,
+    "text": "there is a simplex in any dimension."
+  },
+  {
+    "t_start": 408.56,
+    "t_end": 420.669,
+    "text": "then you get the tetrahedron. And analogously if you take five general points in 4-dimensional space"
+  },
+  {
+    "t_start": 421.039,
+    "t_end": 424.509,
+    "text": "then you will get a simplex. And we can"
+  },
+  {
+    "t_start": 425.24,
+    "t_end": 427.389,
+    "text": "kind of imagine how it would look like,"
+  },
+  {
+    "t_start": 427.97,
+    "t_end": 434.679,
+    "text": "especially if we force it to live in our familiar 3-dimensional space. So it will have"
+  },
+  {
+    "t_start": 435.41,
+    "t_end": 437.439,
+    "text": "five vertices and"
+  },
+  {
+    "t_start": 438.289,
+    "t_end": 443.049,
+    "text": "because the five points, which lives in 4-space are in general position,"
+  },
+  {
+    "t_start": 444.229,
+    "t_end": 447.579,
+    "text": "every pair of the vertices will be connected by an edge."
+  },
+  {
+    "t_start": 447.71,
+    "t_end": 453.25,
+    "text": "So that's how the set of edges of a 4-dimensional simplex will look like if I"
+  },
+  {
+    "t_start": 453.8,
+    "t_end": 456.01,
+    "text": "draw it in this piece of paper. And"
+  },
+  {
+    "t_start": 456.44,
+    "t_end": 460.599,
+    "text": "similarly every triple of points that you see in this picture"
+  },
+  {
+    "t_start": 460.82,
+    "t_end": 467.32,
+    "text": "will form a triangle, because the five points in 4-space are in general position. And every four"
+  },
+  {
+    "t_start": 468.11,
+    "t_end": 470.71,
+    "text": "collection of the five points will"
+  },
+  {
+    "t_start": 471.409,
+    "t_end": 473.468,
+    "text": "form a tetrahedral face of"
+  },
+  {
+    "t_start": 474.289,
+    "t_end": 477.819,
+    "text": "that simplex. So we can compute these numbers F:"
+  },
+  {
+    "t_start": 478.46,
+    "t_end": 480.46,
+    "text": "so f0 is"
+  },
+  {
+    "t_start": 481.16,
+    "t_end": 483.16,
+    "text": "5,"
+  },
+  {
+    "t_start": 483.62,
+    "t_end": 485.62,
+    "text": "and f1"
+  },
+  {
+    "t_start": 486.2,
+    "t_end": 494.139,
+    "text": "will be 5 choose 2, as one of the binomial coefficients, which is 10."
+  },
+  {
+    "t_start": 495.02,
+    "t_end": 504.01,
+    "text": "next entry in Pascal's triangle. And f3 will be 5 choose 4,"
+  },
+  {
+    "t_start": 504.01,
+    "t_end": 507.939,
+    "text": "which is 5. So, let's test our prediction. If you"
+  },
+  {
+    "t_start": 508.49,
+    "t_end": 510.49,
+    "text": "start from 5,"
+  },
+  {
+    "t_start": 510.98,
+    "t_end": 516.969,
+    "text": "subtract 10, add 10, subtract 5 - then you get zero."
+  },
+  {
+    "t_start": 516.969,
+    "t_end": 518.69,
+    "text": "(Brady: It alternated like we said!)"
+  },
+  {
+    "t_start": 518.69,
+    "t_end": 524.169,
+    "text": "That's right. And you can imagine how it would work. And the amazing"
+  },
+  {
+    "t_start": 525.62,
+    "t_end": 527.62,
+    "text": "fact is that"
+  },
+  {
+    "t_start": 528.53,
+    "t_end": 534.699,
+    "text": "something like this happens for all triangulated spheres in any dimension. You just"
+  },
+  {
+    "t_start": 535.55,
+    "t_end": 540.82,
+    "text": "see whether you're living in an even dimensional space or odd dimensional space, and"
+  },
+  {
+    "t_start": 541.49,
+    "t_end": 545.2,
+    "text": "then you know that no matter how you triangulate a sphere, if you"
+  },
+  {
+    "t_start": 545.48,
+    "t_end": 547.22,
+    "text": "perform this alternating sum"
+  },
+  {
+    "t_start": 547.22,
+    "t_end": 554.23,
+    "text": "computation you get either 2 or 0. The number either 0 or 2, depending on the parity of the dimension, is called the Euler"
+  },
+  {
+    "t_start": 554.6,
+    "t_end": 561.73,
+    "text": "Characteristic. It's the Euler Characteristic of the sphere and is independent of the triangulisation. So that's an amazing fact"
+  },
+  {
+    "t_start": 563.03,
+    "t_end": 564.92,
+    "text": "which"
+  },
+  {
+    "t_start": 564.92,
+    "t_end": 567.61,
+    "text": "took many many years for mathematicians to"
+  },
+  {
+    "t_start": 568.16,
+    "t_end": 569.32,
+    "text": "rigorously justify;"
+  },
+  {
+    "t_start": 569.32,
+    "t_end": 575.679,
+    "text": "but we know now as a fact that no matter how you triangulate a sphere you always get either 0 or 2."
+  },
+  {
+    "t_start": 575.72,
+    "t_end": 579.55,
+    "text": "That was great, but you may not like this"
+  },
+  {
+    "t_start": 580.76,
+    "t_end": 586.45,
+    "text": "alternating pattern 0, 2, 0, 2, 0,2. But there is another way of"
+  },
+  {
+    "t_start": 587.57,
+    "t_end": 592.539,
+    "text": "expressing this pattern that does not care about the parity of the dimension. And"
+  },
+  {
+    "t_start": 593.3,
+    "t_end": 597.82,
+    "text": "this is our starting point. So let me express the"
+  },
+  {
+    "t_start": 599.27,
+    "t_end": 600.35,
+    "text": "Euler characteristic"
+  },
+  {
+    "t_start": 600.35,
+    "t_end": 601.37,
+    "text": "in"
+  },
+  {
+    "t_start": 601.37,
+    "t_end": 603.64,
+    "text": "another way. So for example"
+  },
+  {
+    "t_start": 604.16,
+    "t_end": 608.65,
+    "text": "let me start from our octahedron example. 6 vertices,"
+  },
+  {
+    "t_start": 609.58,
+    "t_end": 615.429,
+    "text": "twelve edges, and eight triangles in the octahedron. And what I'm going to do next is"
+  },
+  {
+    "t_start": 616.61,
+    "t_end": 622.689,
+    "text": "to attach a string of 1s, so as to make it a triangular shape. And"
+  },
+  {
+    "t_start": 623.42,
+    "t_end": 625.42,
+    "text": "next I'm going to do"
+  },
+  {
+    "t_start": 625.91,
+    "t_end": 627.91,
+    "text": "something like Pascal's"
+  },
+  {
+    "t_start": 628.91,
+    "t_end": 634.779,
+    "text": "rule for constructing his triangle, but using subtractions instead of addition."
+  },
+  {
+    "t_start": 635.42,
+    "t_end": 638.499,
+    "text": "So what do I mean? So I see 1 and 6"
+  },
+  {
+    "t_start": 639.2,
+    "t_end": 644.02,
+    "text": "here, so I'm going to subtract 1 from 6 and write down 5"
+  },
+  {
+    "t_start": 645.17,
+    "t_end": 646.67,
+    "text": "below. And"
+  },
+  {
+    "t_start": 646.67,
+    "t_end": 652.869,
+    "text": "I do the same. I see 1 and 5, I subtract 1 from 5 and write down 4 here."
+  },
+  {
+    "t_start": 653.63,
+    "t_end": 659.499,
+    "text": "And then I look at 5 and 12 and subtract 5 from 12. I have a 7 here. I"
+  },
+  {
+    "t_start": 660.35,
+    "t_end": 663.159,
+    "text": "do the same, I get 3, I"
+  },
+  {
+    "t_start": 663.92,
+    "t_end": 665.48,
+    "text": "get 3,"
+  },
+  {
+    "t_start": 665.48,
+    "t_end": 667.48,
+    "text": "and I get 1."
+  },
+  {
+    "t_start": 670.34,
+    "t_end": 672.34,
+    "text": "This sequence,"
+  },
+  {
+    "t_start": 673.19,
+    "t_end": 680.08,
+    "text": "which you get in the end of this process, is called the H vector of the triangulated sphere."
+  },
+  {
+    "t_start": 681.05,
+    "t_end": 682.88,
+    "text": "And as you see there's a,"
+  },
+  {
+    "t_start": 682.88,
+    "t_end": 685.57,
+    "text": "some pattern here. It is palindromic,"
+  },
+  {
+    "t_start": 685.61,
+    "t_end": 691.9,
+    "text": "it's 1 3 3 1, but if you read it from the other direction is again 1 3 3 1."
+  },
+  {
+    "t_start": 692.24,
+    "t_end": 698.35,
+    "text": "And this was the case for the octahedron. So let's try to see whether this was an accident or not."
+  },
+  {
+    "t_start": 698.36,
+    "t_end": 703.27,
+    "text": "So let's maybe try the icosahedron. 12 vertices, 30 edges,"
+  },
+  {
+    "t_start": 703.97,
+    "t_end": 708.759,
+    "text": "20 triangles. I'll attach a string of 1s on the other side of"
+  },
+  {
+    "t_start": 709.76,
+    "t_end": 712.21,
+    "text": "the triangle and I subtract"
+  },
+  {
+    "t_start": 712.97,
+    "t_end": 716.05,
+    "text": "and complete this triangle. I get 10 here,"
+  },
+  {
+    "t_start": 717.2,
+    "t_end": 720.819,
+    "text": "19. 9 here, I get 9 here,"
+  },
+  {
+    "t_start": 721.43,
+    "t_end": 723.14,
+    "text": "get 1 here."
+  },
+  {
+    "t_start": 723.14,
+    "t_end": 726.819,
+    "text": "Again, you see the same pattern. If you keep the bottom row"
+  },
+  {
+    "t_start": 727.46,
+    "t_end": 730.36,
+    "text": "it is palindromic: 1 9 9 1."
+  },
+  {
+    "t_start": 730.36,
+    "t_end": 734.62,
+    "text": "(Brady: Okay! This seems such an arbitrary game to have played.) - That's right."
+  },
+  {
+    "t_start": 734.62,
+    "t_end": 737.82,
+    "text": "But at least you can see what's going on"
+  },
+  {
+    "t_start": 738.68,
+    "t_end": 744.4,
+    "text": "one of these numbers. So let me just focus on the last one."
+  },
+  {
+    "t_start": 746.63,
+    "t_end": 749.799,
+    "text": "So the first one served up, this is built-in,"
+  },
+  {
+    "t_start": 749.8,
+    "t_end": 757.21,
+    "text": "I just wrote down one here. But the fact that one appeared in the last spot was a miracle, sort of."
+  },
+  {
+    "t_start": 757.76,
+    "t_end": 760.56,
+    "text": "But what was happening? So I"
+  },
+  {
+    "t_start": 760.56,
+    "t_end": 764.88,
+    "text": "started with f0 and f1 and f2, and"
+  },
+  {
+    "t_start": 765.89,
+    "t_end": 768.789,
+    "text": "how did I get 1 in here?"
+  },
+  {
+    "t_start": 769.46,
+    "t_end": 771.46,
+    "text": "I subtract one from f0,"
+  },
+  {
+    "t_start": 772.55,
+    "t_end": 775.96,
+    "text": "and I subtracted f0 minus 1 from f1,"
+  },
+  {
+    "t_start": 779.0,
+    "t_end": 782.32,
+    "text": "and I subtracted this from that."
+  },
+  {
+    "t_start": 787.25,
+    "t_end": 789.25,
+    "text": "And"
+  },
+  {
+    "t_start": 789.29,
+    "t_end": 793.54,
+    "text": "the assertion is that this is equal to 1."
+  },
+  {
+    "t_start": 794.45,
+    "t_end": 798.64,
+    "text": "So if I write the same thing again, it is what we have seen before."
+  },
+  {
+    "t_start": 800.93,
+    "t_end": 805.09,
+    "text": "The Euler's formula. At least for 2-dimensional spheres,"
+  },
+  {
+    "t_start": 805.3,
+    "t_end": 813.039,
+    "text": "Euler's formula is part of a broader pattern, which says that you have this palindromic sequence at the bottom of this"
+  },
+  {
+    "t_start": 813.44,
+    "t_end": 816.549,
+    "text": "strange Pascal-like triangle. Well one thing that"
+  },
+  {
+    "t_start": 817.1,
+    "t_end": 821.5,
+    "text": "people have noticed is that if you view"
+  },
+  {
+    "t_start": 821.99,
+    "t_end": 826.99,
+    "text": "Euler's formula as a part of this broader symmetry, then this"
+  },
+  {
+    "t_start": 827.78,
+    "t_end": 835.059,
+    "text": "dependency on the parity of the dimension really goes away. So let's try to do a similar game in"
+  },
+  {
+    "t_start": 835.58,
+    "t_end": 838.689,
+    "text": "one dimension up. Maybe we do the"
+  },
+  {
+    "t_start": 839.66,
+    "t_end": 846.399,
+    "text": "simplex with 5 vertices in 4-space. And we already have computed the number of faces."
+  },
+  {
+    "t_start": 846.98,
+    "t_end": 848.98,
+    "text": "It had 5 vertices,"
+  },
+  {
+    "t_start": 849.11,
+    "t_end": 852.58,
+    "text": "10 edges, 10 triangles, and 5"
+  },
+  {
+    "t_start": 853.46,
+    "t_end": 856.719,
+    "text": "tetrahedrons. And again I add a long string of"
+  },
+  {
+    "t_start": 857.6,
+    "t_end": 858.89,
+    "text": "1s"
+  },
+  {
+    "t_start": 858.89,
+    "t_end": 864.039,
+    "text": "on the other side. And I do the subtraction. I subtract 1 from 5,"
+  },
+  {
+    "t_start": 865.4,
+    "t_end": 871.269,
+    "text": "subtract 1 from 4, subtract 4 from 10, and continue."
+  },
+  {
+    "t_start": 878.12,
+    "t_end": 883.989,
+    "text": "And this is what I get: 1 1 1 1 1. There's a palindromic sequence of a very special kind."
+  },
+  {
+    "t_start": 884.06,
+    "t_end": 891.28,
+    "text": "That's just do, oh, maybe one or two more examples, just to make sure that the pattern we are seeing here is not an accident."
+  },
+  {
+    "t_start": 891.74,
+    "t_end": 897.88,
+    "text": "So maybe let's do a higher dimensional version of the octahedron. Number of vertices,"
+  },
+  {
+    "t_start": 898.43,
+    "t_end": 906.19,
+    "text": "that's 8. How many edges? You need to be a little bit clever to actually compute this number, and the answer is"
+  },
+  {
+    "t_start": 906.77,
+    "t_end": 908.03,
+    "text": "actually"
+  },
+  {
+    "t_start": 908.03,
+    "t_end": 912.009,
+    "text": "24. So f2, if you count the number of triangles in"
+  },
+  {
+    "t_start": 912.5,
+    "t_end": 918.97,
+    "text": "this higher-dimensional octahedron you get 32. And if you count the number of tetrahedrons"
+  },
+  {
+    "t_start": 919.01,
+    "t_end": 926.319,
+    "text": "you get 16. So let's do the same game, this time a little bit faster. 1 1 1 1 1 1 and"
+  },
+  {
+    "t_start": 927.14,
+    "t_end": 929.14,
+    "text": "7, 6,"
+  },
+  {
+    "t_start": 929.3,
+    "t_end": 930.98,
+    "text": "17, 5,"
+  },
+  {
+    "t_start": 930.98,
+    "t_end": 937.809,
+    "text": "11, 15, 4, 6, 4, 1. And that's my end result. In this sequence,"
+  },
+  {
+    "t_start": 938.03,
+    "t_end": 943.78,
+    "text": "that you see,  is what is known as the H vector of th- this particular triangulated sphere."
+  },
+  {
+    "t_start": 943.78,
+    "t_end": 947.769,
+    "text": "But if you think about at least very small part of the symmetry, which"
+  },
+  {
+    "t_start": 948.2,
+    "t_end": 952.48,
+    "text": "predicts that the last entry in your H vector should be 1, then"
+  },
+  {
+    "t_start": 953.42,
+    "t_end": 955.869,
+    "text": "again, it is the Euler's formula"
+  },
+  {
+    "t_start": 956.45,
+    "t_end": 958.45,
+    "text": "for this 3-dimensional sphere."
+  },
+  {
+    "t_start": 958.55,
+    "t_end": 963.639,
+    "text": "Because think about how you got this 1, starting from the original data."
+  },
+  {
+    "t_start": 963.74,
+    "t_end": 968.71,
+    "text": "You have your f0, you have your f0 minus 1; and this number is"
+  },
+  {
+    "t_start": 969.29,
+    "t_end": 975.849,
+    "text": "f1 minus f0 plus 1, this number is f2 minus f1 plus f0 minus 1, and"
+  },
+  {
+    "t_start": 977.06,
+    "t_end": 979.06,
+    "text": "this number here is"
+  },
+  {
+    "t_start": 980.36,
+    "t_end": 983.08,
+    "text": "f3 minus f2 plus f1"
+  },
+  {
+    "t_start": 984.59,
+    "t_end": 987.249,
+    "text": "minus f0 plus 1. And"
+  },
+  {
+    "t_start": 988.16,
+    "t_end": 992.35,
+    "text": "the symmetry of the H vector dictates that this should be 1."
+  },
+  {
+    "t_start": 993.17,
+    "t_end": 1000.539,
+    "text": "I can write this again, in an equivalent form, saying that the alternating sum of the number of faces of various dimensions"
+  },
+  {
+    "t_start": 1001.35,
+    "t_end": 1003.35,
+    "text": "is zero for this"
+  },
+  {
+    "t_start": 1003.52,
+    "t_end": 1005.29,
+    "text": "triangulated 3-dimensional sphere."
+  },
+  {
+    "t_start": 1005.29,
+    "t_end": 1010.56,
+    "text": "We're almost there. So if you think of Euler's formula in any dimension as"
+  },
+  {
+    "t_start": 1011.11,
+    "t_end": 1013.259,
+    "text": "a small part of this"
+  },
+  {
+    "t_start": 1014.23,
+    "t_end": 1020.129,
+    "text": "larger symmetry that you see in the H vector, in the bottom row of this subtraction"
+  },
+  {
+    "t_start": 1020.59,
+    "t_end": 1025.56,
+    "text": "Pascal triangle, then the dependence on the parity of the dimension goes away."
+  },
+  {
+    "t_start": 1025.78,
+    "t_end": 1028.53,
+    "text": "Euler's formula really just says that in any dimension"
+  },
+  {
+    "t_start": 1028.87,
+    "t_end": 1035.55,
+    "text": "the last entry of this triangle that you see should be 1. Which is just a very tiny part of the"
+  },
+  {
+    "t_start": 1036.19,
+    "t_end": 1042.029,
+    "text": "entire symmetry. It's highly non obvious, but in a certain sense it's a natural symmetry."
+  },
+  {
+    "t_start": 1042.04,
+    "t_end": 1049.409,
+    "text": "So the other numbers are also interesting, and they are numbers of some higher dimensional space;"
+  },
+  {
+    "t_start": 1049.75,
+    "t_end": 1053.13,
+    "text": "which is not a sphere, but is constructed from a sphere."
+  },
+  {
+    "t_start": 1053.5,
+    "t_end": 1057.27,
+    "text": "And the fact that the sequence is palindromic, for example"
+  },
+  {
+    "t_start": 1057.27,
+    "t_end": 1058.99,
+    "text": "this 4 here is"
+  },
+  {
+    "t_start": 1058.99,
+    "t_end": 1066.359,
+    "text": "equal to the other 4 that you see, gives you another formula on the number of faces of various dimensions,"
+  },
+  {
+    "t_start": 1066.43,
+    "t_end": 1068.519,
+    "text": "which is different from Euler's formula."
+  },
+  {
+    "t_start": 1068.52,
+    "t_end": 1070.52,
+    "text": "It is something like Euler's formula"
+  },
+  {
+    "t_start": 1070.57,
+    "t_end": 1076.919,
+    "text": "but it is really new. But the fact that the H vector of a triangulated sphere is always palindromic, it was"
+  },
+  {
+    "t_start": 1077.83,
+    "t_end": 1079.69,
+    "text": "discovered then"
+  },
+  {
+    "t_start": 1079.69,
+    "t_end": 1086.009,
+    "text": "somewhat justified about hundred years ago by mathematicians Max Dehn and Duncan Sommerville."
+  },
+  {
+    "t_start": 1086.01,
+    "t_end": 1088.68,
+    "text": "They didn't do this. They had a"
+  },
+  {
+    "t_start": 1089.35,
+    "t_end": 1092.309,
+    "text": "somewhat more complicated way of expressing this"
+  },
+  {
+    "t_start": 1092.92,
+    "t_end": 1096.21,
+    "text": "symmetry of what we now call H vector,"
+  },
+  {
+    "t_start": 1096.73,
+    "t_end": 1098.68,
+    "text": "but later"
+  },
+  {
+    "t_start": 1098.68,
+    "t_end": 1103.859,
+    "text": "mathematicians have realised that this is the best way to understand. And I think this particular way of"
+  },
+  {
+    "t_start": 1104.05,
+    "t_end": 1109.05,
+    "text": "viewing the symmetry is due to Richard Stanley, who is also now in this building. The"
+  },
+  {
+    "t_start": 1109.6,
+    "t_end": 1114.449,
+    "text": "sequence that you started with, the sequence that you put on"
+  },
+  {
+    "t_start": 1114.97,
+    "t_end": 1119.55,
+    "text": "one side of the triangle, which counts the number of faces of various dimension;"
+  },
+  {
+    "t_start": 1119.55,
+    "t_end": 1125.879,
+    "text": "they are called the F vector because we usually call f0, f1, f2, f3, f4 the face."
+  },
+  {
+    "t_start": 1125.88,
+    "t_end": 1131.07,
+    "text": "(Brady: And so why- and where do we jump to H?) - Well, there is something called the G vector too. And"
+  },
+  {
+    "t_start": 1132.25,
+    "t_end": 1134.52,
+    "text": "it is really essentially related to"
+  },
+  {
+    "t_start": 1135.309,
+    "t_end": 1138.869,
+    "text": "the unsolved problem that I promised you to"
+  },
+  {
+    "t_start": 1139.749,
+    "t_end": 1147.449,
+    "text": "introduce. So this is a fact. We know several different ways of justifying the fact that this H vector is palindromic"
+  },
+  {
+    "t_start": 1147.909,
+    "t_end": 1148.929,
+    "text": "in"
+  },
+  {
+    "t_start": 1148.929,
+    "t_end": 1154.679,
+    "text": "whatever dimension for whatever triangulated sphere that you start with - if you produce"
+  },
+  {
+    "t_start": 1155.23,
+    "t_end": 1163.11,
+    "text": "H vector in terms of the number of bases then you always see this symmetry. But from all these examples that we have"
+  },
+  {
+    "t_start": 1163.87,
+    "t_end": 1166.709,
+    "text": "executed so far, you see another pattern,"
+  },
+  {
+    "t_start": 1167.95,
+    "t_end": 1169.95,
+    "text": "other than symmetry."
+  },
+  {
+    "t_start": 1170.23,
+    "t_end": 1173.549,
+    "text": "So, for example, think of this particular H vector,"
+  },
+  {
+    "t_start": 1174.009,
+    "t_end": 1179.699,
+    "text": "14641. Another thing that's apparent in the example is that this sequence"
+  },
+  {
+    "t_start": 1180.73,
+    "t_end": 1182.619,
+    "text": "increases"
+  },
+  {
+    "t_start": 1182.619,
+    "t_end": 1184.679,
+    "text": "up to middle, 1 and"
+  },
+  {
+    "t_start": 1185.499,
+    "t_end": 1191.009,
+    "text": "4 is larger, and 6 is even larger. Of course you see the same sequence going the other way."
+  },
+  {
+    "t_start": 1191.009,
+    "t_end": 1195.179,
+    "text": "So this pattern is called a unimodality, so there is a single"
+  },
+  {
+    "t_start": 1195.759,
+    "t_end": 1198.779,
+    "text": "mode in the sequence, which should happen"
+  },
+  {
+    "t_start": 1199.389,
+    "t_end": 1202.559,
+    "text": "exactly in the middle. So say in 17 dimensions,"
+  },
+  {
+    "t_start": 1203.169,
+    "t_end": 1206.908,
+    "text": "if you pick your favourite triangulated sphere living in that dimension,"
+  },
+  {
+    "t_start": 1207.97,
+    "t_end": 1212.159,
+    "text": "write down the sequence of H numbers - say"
+  },
+  {
+    "t_start": 1213.46,
+    "t_end": 1219.269,
+    "text": "17 many of them. Then you will see the stem somewhere in the relation, which says that your sequence is palindromic."
+  },
+  {
+    "t_start": 1220.36,
+    "t_end": 1222.19,
+    "text": "But another"
+  },
+  {
+    "t_start": 1222.19,
+    "t_end": 1223.69,
+    "text": "pattern that"
+  },
+  {
+    "t_start": 1223.69,
+    "t_end": 1228.659,
+    "text": "you must see is that it has a single mode in the middle."
+  },
+  {
+    "t_start": 1228.659,
+    "t_end": 1236.069,
+    "text": "This happens to be true for all the examples that we and all other mathematicians in the world"
+  },
+  {
+    "t_start": 1236.07,
+    "t_end": 1242.1,
+    "text": "have tried, but nobody knows how to justify this. And this is the unsolved problem that I have"
+  },
+  {
+    "t_start": 1242.76,
+    "t_end": 1249.2,
+    "text": "tried to explain you, and it goes under the name the g-conjecture. - (Brady: The g-conjecture?)"
+  },
+  {
+    "t_start": 1249.2,
+    "t_end": 1255.8,
+    "text": "So G was the missing letter, and G is is the difference of the h's."
+  },
+  {
+    "t_start": 1255.8,
+    "t_end": 1258.38,
+    "text": "2 successive h's."
+  },
+  {
+    "t_start": 1259.36,
+    "t_end": 1264.659,
+    "text": "So the G here would be 3,"
+  },
+  {
+    "t_start": 1265.899,
+    "t_end": 1268.919,
+    "text": "And the g-conjecture says that for every i,"
+  },
+  {
+    "t_start": 1270.25,
+    "t_end": 1272.4,
+    "text": "gi is non-negative."
+  },
+  {
+    "t_start": 1273.1,
+    "t_end": 1277.17,
+    "text": "Which is another way of saying that the H vector"
+  },
+  {
+    "t_start": 1278.23,
+    "t_end": 1280.86,
+    "text": "increases, at least up to the middle,"
+  },
+  {
+    "t_start": 1282.28,
+    "t_end": 1288.66,
+    "text": "weakly increases. - (Brady: Weakly increases?) - So it it is possible, for example in this sequence here,"
+  },
+  {
+    "t_start": 1289.03,
+    "t_end": 1291.03,
+    "text": "1 1 1 1 1,"
+  },
+  {
+    "t_start": 1291.4,
+    "t_end": 1296.729,
+    "text": "it doesn't strictly increase but still the G vector is non-negative."
+  },
+  {
+    "t_start": 1296.89,
+    "t_end": 1304.53,
+    "text": "And the reason why I like this conjecture is that you can do the experiment fairly concretely, as we have done"
+  },
+  {
+    "t_start": 1304.53,
+    "t_end": 1307.3,
+    "text": "right now, in explicit examples."
+  },
+  {
+    "t_start": 1307.3,
+    "t_end": 1314.36,
+    "text": "So whenever you come up with a new way to triangulate a sphere, you have your chance to disprove this conjecture."
+  },
+  {
+    "t_start": 1315.61,
+    "t_end": 1322.89,
+    "text": "[Preview] There- another reason why I love this conjecture is that not only is very elementary and concrete, it actually predicts a"
+  },
+  {
+    "t_start": 1323.17,
+    "t_end": 1325.17,
+    "text": "very deep"
+  },
+  {
+    "t_start": 1325.24,
+    "t_end": 1328.679,
+    "text": "analog with several different parts of mathematics."
+  }
+]

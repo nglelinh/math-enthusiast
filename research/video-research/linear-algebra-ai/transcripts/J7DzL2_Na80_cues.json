@@ -1,0 +1,2842 @@
+[
+  {
+    "t_start": 12.19,
+    "t_end": 15.95,
+    "text": "Hi, this is the first lecture in MIT's course 18.06 linear algebra."
+  },
+  {
+    "t_start": 15.95,
+    "t_end": 18.43,
+    "text": "course 18.06 linear algebra. And I'm Gilbert Strang."
+  },
+  {
+    "t_start": 18.43,
+    "t_end": 23.63,
+    "text": "And I'm Gilbert Strang. Um the text for the course is uh this"
+  },
+  {
+    "t_start": 23.63,
+    "t_end": 29.55,
+    "text": "uh introduction to linear algebra. And uh the course web page, which has"
+  },
+  {
+    "t_start": 29.55,
+    "t_end": 31.67,
+    "text": "And uh the course web page, which has got a lot of"
+  },
+  {
+    "t_start": 31.67,
+    "t_end": 36.59,
+    "text": "got a lot of exercises from the past, uh MATLAB"
+  },
+  {
+    "t_start": 36.59,
+    "t_end": 44.39,
+    "text": "uh the syllabus for the course is web.mit.edu/18.06."
+  },
+  {
+    "t_start": 46.95,
+    "t_end": 47.91,
+    "text": "And this is the first lecture, lecture one."
+  },
+  {
+    "t_start": 47.91,
+    "t_end": 53.63,
+    "text": "So uh and later we'll say where which we'll give the web address"
+  },
+  {
+    "t_start": 53.63,
+    "t_end": 57.19,
+    "text": "where which we'll give the web address for viewing these uh video tapes."
+  },
+  {
+    "t_start": 57.19,
+    "t_end": 62.59,
+    "text": "for viewing these uh video tapes. Okay, so what's in the first lecture? Um"
+  },
+  {
+    "t_start": 65.43,
+    "t_end": 69.63,
+    "text": "This is my plan. Uh the fundamental problem of linear"
+  },
+  {
+    "t_start": 69.63,
+    "t_end": 73.83,
+    "text": "which is to solve a system of linear equations."
+  },
+  {
+    "t_start": 73.83,
+    "t_end": 78.75,
+    "text": "So let's start with the case when we have some number of equations, say n"
+  },
+  {
+    "t_start": 78.75,
+    "t_end": 81.43,
+    "text": "have some number of equations, say n equations and n unknowns."
+  },
+  {
+    "t_start": 81.43,
+    "t_end": 86.75,
+    "text": "So an equal number of equations and unknowns. That's the normal nice case."
+  },
+  {
+    "t_start": 86.75,
+    "t_end": 89.35,
+    "text": "unknowns. That's the normal nice case. And what I want to do"
+  },
+  {
+    "t_start": 89.35,
+    "t_end": 91.75,
+    "text": "And what I want to do is with examples, of course,"
+  },
+  {
+    "t_start": 91.75,
+    "t_end": 93.71,
+    "text": "is with examples, of course, to describe"
+  },
+  {
+    "t_start": 93.71,
+    "t_end": 95.19,
+    "text": "to describe first"
+  },
+  {
+    "t_start": 95.19,
+    "t_end": 102.15,
+    "text": "That's the picture of one equation at a time. It's the picture you've seen"
+  },
+  {
+    "t_start": 102.15,
+    "t_end": 105.43,
+    "text": "time. It's the picture you've seen before in two by two equations where"
+  },
+  {
+    "t_start": 105.43,
+    "t_end": 109.47,
+    "text": "before in two by two equations where lines meet. So in a minute you'll see"
+  },
+  {
+    "t_start": 109.47,
+    "t_end": 113.87,
+    "text": "The second picture, I'll I'll I put a star beside that cuz that's such an"
+  },
+  {
+    "t_start": 113.87,
+    "t_end": 117.75,
+    "text": "star beside that cuz that's such an important one and maybe new to you is"
+  },
+  {
+    "t_start": 117.75,
+    "t_end": 121.51,
+    "text": "important one and maybe new to you is the picture a column at a time."
+  },
+  {
+    "t_start": 121.51,
+    "t_end": 127.39,
+    "text": "And those are the rows and columns of a matrix. So the third, the algebra way to"
+  },
+  {
+    "t_start": 127.39,
+    "t_end": 130.029,
+    "text": "matrix. So the third, the algebra way to look at the problem is the matrix form"
+  },
+  {
+    "t_start": 130.029,
+    "t_end": 136.07,
+    "text": "look at the problem is the matrix form in using a matrix that I'll call A."
+  },
+  {
+    "t_start": 136.07,
+    "t_end": 140.03,
+    "text": "Okay, so can I do an example? The whole semester will"
+  },
+  {
+    "t_start": 140.03,
+    "t_end": 145.95,
+    "text": "uh examples and then see what's going on with the with the"
+  },
+  {
+    "t_start": 145.95,
+    "t_end": 152.31,
+    "text": "take an example. Two equations, two unknowns."
+  },
+  {
+    "t_start": 152.31,
+    "t_end": 154.23,
+    "text": "So let me take 2x"
+  },
+  {
+    "t_start": 154.23,
+    "t_end": 163.67,
+    "text": "2x - y = 0, let's say, and - x + say 2y ="
+  },
+  {
+    "t_start": 163.67,
+    "t_end": 165.23,
+    "text": "- y = 0, let's say, and - x + say 2y = 3."
+  },
+  {
+    "t_start": 165.23,
+    "t_end": 167.31,
+    "text": "3. Okay."
+  },
+  {
+    "t_start": 167.31,
+    "t_end": 173.15,
+    "text": "Uh let me I can even say right away what's the matrix"
+  },
+  {
+    "t_start": 173.15,
+    "t_end": 179.71,
+    "text": "that that is what's the coefficient matrix? The matrix that involves these"
+  },
+  {
+    "t_start": 179.71,
+    "t_end": 182.63,
+    "text": "matrix? The matrix that involves these numbers. A matrix is just a"
+  },
+  {
+    "t_start": 182.63,
+    "t_end": 185.11,
+    "text": "numbers. A matrix is just a rectangular array of numbers. Here the"
+  },
+  {
+    "t_start": 185.11,
+    "t_end": 188.19,
+    "text": "rectangular array of numbers. Here the here it's two rows and two columns. So"
+  },
+  {
+    "t_start": 188.19,
+    "t_end": 194.31,
+    "text": "here it's two rows and two columns. So two and minus one in the first row,"
+  },
+  {
+    "t_start": 194.31,
+    "t_end": 196.59,
+    "text": "minus one and two in the second row. That's the matrix."
+  },
+  {
+    "t_start": 196.59,
+    "t_end": 203.27,
+    "text": "And the right hand the uh unknown, well, we've got two unknowns. So we've"
+  },
+  {
+    "t_start": 203.27,
+    "t_end": 209.95,
+    "text": "well, we've got two unknowns. So we've got a vector x with two components x and"
+  },
+  {
+    "t_start": 209.95,
+    "t_end": 213.75,
+    "text": "y and we've got two right hand sides that go into a vector 0 3."
+  },
+  {
+    "t_start": 213.75,
+    "t_end": 216.63,
+    "text": "that go into a vector 0 3. I couldn't resist writing the matrix"
+  },
+  {
+    "t_start": 216.63,
+    "t_end": 222.31,
+    "text": "form uh right of even before the before the pictures. So I always will think of"
+  },
+  {
+    "t_start": 222.31,
+    "t_end": 225.75,
+    "text": "the pictures. So I always will think of this as the matrix A,"
+  },
+  {
+    "t_start": 225.75,
+    "t_end": 232.59,
+    "text": "the matrix of coefficients. Then there's a vector of unknowns. Here we've only"
+  },
+  {
+    "t_start": 232.59,
+    "t_end": 235.07,
+    "text": "got two unknowns. Later we'll have any number of unknowns. And that vector of"
+  },
+  {
+    "t_start": 235.07,
+    "t_end": 237.99,
+    "text": "number of unknowns. And that vector of unknowns, well, I'll often I'll make"
+  },
+  {
+    "t_start": 237.99,
+    "t_end": 242.43,
+    "text": "unknowns, well, I'll often I'll make that x extra extra bold. Uh"
+  },
+  {
+    "t_start": 242.43,
+    "t_end": 248.11,
+    "text": "that x extra extra bold. Uh and the right hand side is also a vector"
+  },
+  {
+    "t_start": 248.11,
+    "t_end": 255.79,
+    "text": "So linear equations are Ax = B and the idea now is to solve this particular"
+  },
+  {
+    "t_start": 255.79,
+    "t_end": 260.83,
+    "text": "idea now is to solve this particular example and then step back to see the"
+  },
+  {
+    "t_start": 260.83,
+    "t_end": 264.51,
+    "text": "Okay, what's the picture for this example? The row picture."
+  },
+  {
+    "t_start": 264.51,
+    "t_end": 270.15,
+    "text": "example? The row picture. Okay, so here comes the row picture."
+  },
+  {
+    "t_start": 273.11,
+    "t_end": 275.91,
+    "text": "So that means I take one row at a time and I'm drawing here the"
+  },
+  {
+    "t_start": 275.91,
+    "t_end": 279.15,
+    "text": "and I'm drawing here the xy plane"
+  },
+  {
+    "t_start": 279.15,
+    "t_end": 281.87,
+    "text": "xy plane and I'm going to"
+  },
+  {
+    "t_start": 281.87,
+    "t_end": 287.75,
+    "text": "plot all the points that satisfy that first equation."
+  },
+  {
+    "t_start": 287.75,
+    "t_end": 294.07,
+    "text": "So I'm looking at all the points that satisfy 2x - y = 0. I I'm often it's"
+  },
+  {
+    "t_start": 294.07,
+    "t_end": 297.19,
+    "text": "satisfy 2x - y = 0. I I'm often it's often good to start with which point on"
+  },
+  {
+    "t_start": 297.19,
+    "t_end": 298.11,
+    "text": "often good to start with which point on the"
+  },
+  {
+    "t_start": 298.11,
+    "t_end": 302.39,
+    "text": "horizontal line. On this horizontal line, y is zero."
+  },
+  {
+    "t_start": 302.39,
+    "t_end": 308.31,
+    "text": "The x-axis has y is zero and that in this case actually then x is zero. So"
+  },
+  {
+    "t_start": 308.31,
+    "t_end": 309.91,
+    "text": "this case actually then x is zero. So the point,"
+  },
+  {
+    "t_start": 309.91,
+    "t_end": 314.63,
+    "text": "the point, the origin, the point with coordinates 0"
+  },
+  {
+    "t_start": 314.64,
+    "t_end": 319.43,
+    "text": "is on the line. It solves that equation. Okay,"
+  },
+  {
+    "t_start": 319.43,
+    "t_end": 322.75,
+    "text": "uh tell me an Well, I guess I have to tell you"
+  },
+  {
+    "t_start": 322.75,
+    "t_end": 329.03,
+    "text": "uh another point that solves this uh same equation. Let me suppose x is"
+  },
+  {
+    "t_start": 329.03,
+    "t_end": 330.07,
+    "text": "uh same equation. Let me suppose x is one."
+  },
+  {
+    "t_start": 330.07,
+    "t_end": 334.87,
+    "text": "So I'll take x to be one, then y should be two, right?"
+  },
+  {
+    "t_start": 334.87,
+    "t_end": 336.43,
+    "text": "then y should be two, right? So there's"
+  },
+  {
+    "t_start": 336.43,
+    "t_end": 342.91,
+    "text": "that also solves this equation. And I could put in more points."
+  },
+  {
+    "t_start": 342.91,
+    "t_end": 349.03,
+    "text": "But but uh let me put in all the points at once because they all lie"
+  },
+  {
+    "t_start": 349.03,
+    "t_end": 351.59,
+    "text": "at once because they all lie on a straight line. This is a linear"
+  },
+  {
+    "t_start": 351.59,
+    "t_end": 353.91,
+    "text": "on a straight line. This is a linear equation and that word linear got the"
+  },
+  {
+    "t_start": 353.91,
+    "t_end": 356.67,
+    "text": "equation and that word linear got the letters for line in it."
+  },
+  {
+    "t_start": 356.67,
+    "t_end": 358.91,
+    "text": "letters for line in it. That's the equation. That's this is the"
+  },
+  {
+    "t_start": 358.91,
+    "t_end": 364.03,
+    "text": "That's the equation. That's this is the line that of that of solutions to 2x - y"
+  },
+  {
+    "t_start": 364.03,
+    "t_end": 368.55,
+    "text": "line that of that of solutions to 2x - y = 0, my first row, first equation."
+  },
+  {
+    "t_start": 368.55,
+    "t_end": 373.15,
+    "text": "= 0, my first row, first equation. So typically maybe x equal a half, y"
+  },
+  {
+    "t_start": 373.15,
+    "t_end": 376.67,
+    "text": "equal one will work and it sure enough it does."
+  },
+  {
+    "t_start": 376.67,
+    "t_end": 382.63,
+    "text": "That's the first one. Now the second one is not going to go through the origin."
+  },
+  {
+    "t_start": 382.63,
+    "t_end": 385.19,
+    "text": "is not going to go through the origin. It's always important do we go through"
+  },
+  {
+    "t_start": 385.19,
+    "t_end": 386.99,
+    "text": "It's always important do we go through the origin or not?"
+  },
+  {
+    "t_start": 386.99,
+    "t_end": 393.23,
+    "text": "In this case, yes, because there's a zero over there. In this case, we don't"
+  },
+  {
+    "t_start": 393.23,
+    "t_end": 397.15,
+    "text": "go through the origin because if x and y are zero, we don't get three."
+  },
+  {
+    "t_start": 397.15,
+    "t_end": 403.55,
+    "text": "let me again say, suppose y is zero, what x do we actually get? If y is zero,"
+  },
+  {
+    "t_start": 403.55,
+    "t_end": 405.11,
+    "text": "what x do we actually get? If y is zero, then I get"
+  },
+  {
+    "t_start": 405.11,
+    "t_end": 406.75,
+    "text": "then I get x is"
+  },
+  {
+    "t_start": 406.75,
+    "t_end": 408.19,
+    "text": "x is minus three."
+  },
+  {
+    "t_start": 408.19,
+    "t_end": 414.71,
+    "text": "So if y is zero, I go along minus three. So there's one point on this second"
+  },
+  {
+    "t_start": 414.71,
+    "t_end": 416.23,
+    "text": "So there's one point on this second line."
+  },
+  {
+    "t_start": 416.23,
+    "t_end": 423.31,
+    "text": "line. Now let me say, well, suppose x is minus"
+  },
+  {
+    "t_start": 426.43,
+    "t_end": 429.99,
+    "text": "Just to take another x. If x is minus one, then this is a one"
+  },
+  {
+    "t_start": 429.99,
+    "t_end": 436.83,
+    "text": "and I think y should be a one. Cuz if x is minus one, then I think y"
+  },
+  {
+    "t_start": 436.83,
+    "t_end": 438.47,
+    "text": "Cuz if x is minus one, then I think y should be a one and we'll get that"
+  },
+  {
+    "t_start": 438.47,
+    "t_end": 439.67,
+    "text": "should be a one and we'll get that point."
+  },
+  {
+    "t_start": 439.67,
+    "t_end": 445.19,
+    "text": "Is that right? If x is minus one, that's a one. If y is a one, that's a two and"
+  },
+  {
+    "t_start": 445.19,
+    "t_end": 447.03,
+    "text": "a one. If y is a one, that's a two and the one and the two make three and that"
+  },
+  {
+    "t_start": 447.03,
+    "t_end": 449.55,
+    "text": "the one and the two make three and that point's on the equation. Okay, now I"
+  },
+  {
+    "t_start": 449.55,
+    "t_end": 452.11,
+    "text": "point's on the equation. Okay, now I should just draw the line, right?"
+  },
+  {
+    "t_start": 452.11,
+    "t_end": 454.83,
+    "text": "should just draw the line, right? Connecting those two points at that will"
+  },
+  {
+    "t_start": 454.83,
+    "t_end": 459.27,
+    "text": "Connecting those two points at that will give me the whole line. And if I've done"
+  },
+  {
+    "t_start": 459.27,
+    "t_end": 463.15,
+    "text": "reasonably well, I think it's going to happen to go through Well, not happen."
+  },
+  {
+    "t_start": 463.15,
+    "t_end": 469.47,
+    "text": "It was arranged to go through that point. So I think that the second line"
+  },
+  {
+    "t_start": 469.47,
+    "t_end": 471.51,
+    "text": "point. So I think that the second line is this one and this is the"
+  },
+  {
+    "t_start": 471.51,
+    "t_end": 474.23,
+    "text": "is this one and this is the all-important point that lies on both"
+  },
+  {
+    "t_start": 474.23,
+    "t_end": 475.95,
+    "text": "all-important point that lies on both lines."
+  },
+  {
+    "t_start": 475.95,
+    "t_end": 481.87,
+    "text": "Shall we just check that that point, which which is the point x equal one and"
+  },
+  {
+    "t_start": 481.87,
+    "t_end": 488.63,
+    "text": "which which is the point x equal one and y was two, right? That's the point there"
+  },
+  {
+    "t_start": 488.63,
+    "t_end": 490.39,
+    "text": "and that I believe solves both equations."
+  },
+  {
+    "t_start": 490.39,
+    "t_end": 494.75,
+    "text": "Let's just check this. If x is one, I have a minus one"
+  },
+  {
+    "t_start": 494.75,
+    "t_end": 497.19,
+    "text": "have a minus one plus four equals three."
+  },
+  {
+    "t_start": 497.19,
+    "t_end": 498.47,
+    "text": "plus four equals three. Okay."
+  },
+  {
+    "t_start": 498.47,
+    "t_end": 503.47,
+    "text": "Apologies for drawing this picture that you've seen"
+  },
+  {
+    "t_start": 503.47,
+    "t_end": 505.51,
+    "text": "you've seen before."
+  },
+  {
+    "t_start": 505.51,
+    "t_end": 506.71,
+    "text": "before. But"
+  },
+  {
+    "t_start": 506.71,
+    "t_end": 513.27,
+    "text": "first of all for n equal two, two equations and two unknowns, it's the"
+  },
+  {
+    "t_start": 513.27,
+    "t_end": 515.35,
+    "text": "equations and two unknowns, it's the right place to start."
+  },
+  {
+    "t_start": 515.35,
+    "t_end": 520.589,
+    "text": "Okay, so we've got the solution, the point that lies on both lines. Now can I"
+  },
+  {
+    "t_start": 520.589,
+    "t_end": 523.51,
+    "text": "point that lies on both lines. Now can I come to the column picture?"
+  },
+  {
+    "t_start": 523.51,
+    "t_end": 529.83,
+    "text": "come to the column picture? Pay attention. This is the key point."
+  },
+  {
+    "t_start": 529.83,
+    "t_end": 537.23,
+    "text": "I'm now going to look at the columns of the matrix. I'm going to look at this"
+  },
+  {
+    "t_start": 537.23,
+    "t_end": 540.99,
+    "text": "part and this part. I'm going to say that the the x part is really So"
+  },
+  {
+    "t_start": 540.99,
+    "t_end": 546.99,
+    "text": "so it is really x times You see I'm putting the two I'm I'm I'm"
+  },
+  {
+    "t_start": 546.99,
+    "t_end": 550.03,
+    "text": "You see I'm putting the two I'm I'm I'm kind of getting the two equations at"
+  },
+  {
+    "t_start": 550.03,
+    "t_end": 555.91,
+    "text": "That part and then I have a y and and in the first equation it's multiplying a"
+  },
+  {
+    "t_start": 555.91,
+    "t_end": 561.43,
+    "text": "minus one and in the second equation a two. And on the right hand side, zero"
+  },
+  {
+    "t_start": 561.43,
+    "t_end": 566.43,
+    "text": "two. And on the right hand side, zero and three."
+  },
+  {
+    "t_start": 568.71,
+    "t_end": 572.99,
+    "text": "You see the columns of the matrix? The columns of A are here and the right hand"
+  },
+  {
+    "t_start": 572.99,
+    "t_end": 580.55,
+    "text": "And now what is the equation asking for? It's asking us to find somehow to to"
+  },
+  {
+    "t_start": 580.55,
+    "t_end": 587.35,
+    "text": "It's asking us to find somehow to to combine that vector and this one in the"
+  },
+  {
+    "t_start": 587.35,
+    "t_end": 592.99,
+    "text": "It's asking us to find the right linear combination. This is called a linear"
+  },
+  {
+    "t_start": 592.99,
+    "t_end": 595.31,
+    "text": "combination. This is called a linear combination."
+  },
+  {
+    "t_start": 595.31,
+    "t_end": 601.59,
+    "text": "And it's the most fundamental operation in the whole course."
+  },
+  {
+    "t_start": 604.23,
+    "t_end": 606.23,
+    "text": "It's a linear combination of the columns."
+  },
+  {
+    "t_start": 606.23,
+    "t_end": 609.23,
+    "text": "columns. That's what we're seeing on the left"
+  },
+  {
+    "t_start": 609.23,
+    "t_end": 610.83,
+    "text": "side. Again,"
+  },
+  {
+    "t_start": 610.83,
+    "t_end": 614.87,
+    "text": "I don't want to write down a big definition. You can see what it is."
+  },
+  {
+    "t_start": 614.87,
+    "t_end": 617.39,
+    "text": "definition. You can see what it is. There's column one, there's column two."
+  },
+  {
+    "t_start": 617.39,
+    "t_end": 620.03,
+    "text": "There's column one, there's column two. I multiply by some numbers"
+  },
+  {
+    "t_start": 620.03,
+    "t_end": 622.23,
+    "text": "I multiply by some numbers and I add."
+  },
+  {
+    "t_start": 622.23,
+    "t_end": 629.31,
+    "text": "combination, and I want to make those numbers the right numbers to produce 0"
+  },
+  {
+    "t_start": 629.31,
+    "t_end": 630.71,
+    "text": "numbers the right numbers to produce 0 3."
+  },
+  {
+    "t_start": 630.71,
+    "t_end": 631.91,
+    "text": "3. Okay."
+  },
+  {
+    "t_start": 631.91,
+    "t_end": 638.35,
+    "text": "Now, I want to draw a picture that represents what this This is algebra."
+  },
+  {
+    "t_start": 638.35,
+    "t_end": 640.19,
+    "text": "represents what this This is algebra. What's the geometry? What's the picture"
+  },
+  {
+    "t_start": 640.19,
+    "t_end": 645.87,
+    "text": "that goes with it? Okay. So, again, these vectors have two components, so I"
+  },
+  {
+    "t_start": 645.87,
+    "t_end": 648.59,
+    "text": "these vectors have two components, so I better"
+  },
+  {
+    "t_start": 651.35,
+    "t_end": 653.31,
+    "text": "draw a picture like that. So, can I put down these columns? I'll draw these"
+  },
+  {
+    "t_start": 653.31,
+    "t_end": 658.87,
+    "text": "columns as they are, and then I'll do do a combination of them. So, the"
+  },
+  {
+    "t_start": 658.87,
+    "t_end": 662.75,
+    "text": "do do a combination of them. So, the first column is over two and down one,"
+  },
+  {
+    "t_start": 662.75,
+    "t_end": 663.829,
+    "text": "first column is over two and down one, right?"
+  },
+  {
+    "t_start": 663.829,
+    "t_end": 670.829,
+    "text": "So, there's the first column. The first column. Column one."
+  },
+  {
+    "t_start": 673.71,
+    "t_end": 676.19,
+    "text": "It's the vector 2 - 1. The second column"
+  },
+  {
+    "t_start": 676.19,
+    "t_end": 684.79,
+    "text": "is Let's see. I go over minus one is the first component and up two. It's here."
+  },
+  {
+    "t_start": 684.79,
+    "t_end": 687.59,
+    "text": "first component and up two. It's here. There's column two."
+  },
+  {
+    "t_start": 687.59,
+    "t_end": 689.27,
+    "text": "There's column two. So, this again,"
+  },
+  {
+    "t_start": 689.27,
+    "t_end": 695.47,
+    "text": "you see what its components are. Its components are minus one, two."
+  },
+  {
+    "t_start": 695.47,
+    "t_end": 703.35,
+    "text": "Good. That's this guy. Now, what is what Now, I have to take a combination."
+  },
+  {
+    "t_start": 706.87,
+    "t_end": 712.39,
+    "text": "Why not the right combination? What the hell? Okay. So, what the combination I'm"
+  },
+  {
+    "t_start": 712.39,
+    "t_end": 714.07,
+    "text": "hell? Okay. So, what the combination I'm going to take"
+  },
+  {
+    "t_start": 714.07,
+    "t_end": 718.75,
+    "text": "is the right one to produce 0 3, and then and then we'll see it happen in the"
+  },
+  {
+    "t_start": 718.75,
+    "t_end": 721.63,
+    "text": "then and then we'll see it happen in the picture. So, the right combination is to"
+  },
+  {
+    "t_start": 721.63,
+    "t_end": 724.75,
+    "text": "picture. So, the right combination is to take X is one of those"
+  },
+  {
+    "t_start": 724.75,
+    "t_end": 729.07,
+    "text": "take X is one of those and two of these."
+  },
+  {
+    "t_start": 731.39,
+    "t_end": 735.59,
+    "text": "It's because we already know that that's the right X and Y, so why not take the"
+  },
+  {
+    "t_start": 735.59,
+    "t_end": 742.43,
+    "text": "happen. Okay. So, how do I picture this this linear combination? So, I start"
+  },
+  {
+    "t_start": 742.43,
+    "t_end": 744.99,
+    "text": "this linear combination? So, I start with this vector that's already here."
+  },
+  {
+    "t_start": 744.99,
+    "t_end": 750.23,
+    "text": "with this vector that's already here. So, that's one of column one. That's one"
+  },
+  {
+    "t_start": 750.23,
+    "t_end": 755.31,
+    "text": "times column one. Right there. And now I want to add on, so I'm going"
+  },
+  {
+    "t_start": 755.31,
+    "t_end": 756.67,
+    "text": "to hook the next vector on to the"
+  },
+  {
+    "t_start": 756.67,
+    "t_end": 761.03,
+    "text": "front of the arrow. We'll start the next vector and it'll go this way. So, let's"
+  },
+  {
+    "t_start": 761.03,
+    "t_end": 764.31,
+    "text": "vector and it'll go this way. So, let's see. Can I do it right? If"
+  },
+  {
+    "t_start": 764.31,
+    "t_end": 770.79,
+    "text": "would go left one and up two. So, it would go left one and up two. So, it"
+  },
+  {
+    "t_start": 770.79,
+    "t_end": 772.63,
+    "text": "would go left one and up two. So, it probably get us to there. Maybe I'll do"
+  },
+  {
+    "t_start": 772.63,
+    "t_end": 776.39,
+    "text": "probably get us to there. Maybe I'll do dotted line for that. Okay. That's one"
+  },
+  {
+    "t_start": 776.39,
+    "t_end": 778.63,
+    "text": "dotted line for that. Okay. That's one of column two"
+  },
+  {
+    "t_start": 778.63,
+    "t_end": 783.87,
+    "text": "tucked on to the end, but I wanted to tuck on two of column two. So, that the"
+  },
+  {
+    "t_start": 783.87,
+    "t_end": 786.59,
+    "text": "tuck on two of column two. So, that the second one will go up left one and up"
+  },
+  {
+    "t_start": 786.59,
+    "t_end": 789.59,
+    "text": "second one will go up left one and up two also. It'll probably end there. And"
+  },
+  {
+    "t_start": 789.59,
+    "t_end": 791.47,
+    "text": "two also. It'll probably end there. And there's another one. So, so what I've"
+  },
+  {
+    "t_start": 791.47,
+    "t_end": 797.15,
+    "text": "there's another one. So, so what I've put in here is two of column two"
+  },
+  {
+    "t_start": 799.19,
+    "t_end": 803.15,
+    "text": "added on. And where did I end up?"
+  },
+  {
+    "t_start": 806.67,
+    "t_end": 808.11,
+    "text": "What are the coordinates of this result?"
+  },
+  {
+    "t_start": 808.11,
+    "t_end": 812.19,
+    "text": "What do I get when I take one of this plus two of that?"
+  },
+  {
+    "t_start": 812.19,
+    "t_end": 816.99,
+    "text": "I do get that, of course. There it is. There it is. X is zero, Y"
+  },
+  {
+    "t_start": 816.99,
+    "t_end": 819.51,
+    "text": "There it is. There it is. X is zero, Y is three. That's B. That's the That's"
+  },
+  {
+    "t_start": 819.51,
+    "t_end": 826.19,
+    "text": "the answer we wanted. And how do I do it? You see I do it just like the first"
+  },
+  {
+    "t_start": 826.19,
+    "t_end": 828.31,
+    "text": "it? You see I do it just like the first component, I have a two and a and a"
+  },
+  {
+    "t_start": 828.31,
+    "t_end": 832.43,
+    "text": "minus two. That produces a zero. And then the second component, I have a"
+  },
+  {
+    "t_start": 832.43,
+    "t_end": 837.71,
+    "text": "then the second component, I have a minus one and a four. They combine to"
+  },
+  {
+    "t_start": 837.71,
+    "t_end": 843.95,
+    "text": "But look at this picture. So, here's our key picture. I I combine"
+  },
+  {
+    "t_start": 843.95,
+    "t_end": 847.35,
+    "text": "So, here's our key picture. I I combine this column and this column to get Maybe"
+  },
+  {
+    "t_start": 847.35,
+    "t_end": 848.87,
+    "text": "this column and this column to get Maybe I better"
+  },
+  {
+    "t_start": 848.87,
+    "t_end": 853.47,
+    "text": "to get this guy. That was the B. That's the 0 3."
+  },
+  {
+    "t_start": 853.47,
+    "t_end": 854.79,
+    "text": "the 0 3. Okay."
+  },
+  {
+    "t_start": 854.79,
+    "t_end": 855.87,
+    "text": "Okay. So,"
+  },
+  {
+    "t_start": 855.87,
+    "t_end": 860.91,
+    "text": "that idea of linear combinations is crucial and and also"
+  },
+  {
+    "t_start": 860.91,
+    "t_end": 866.99,
+    "text": "crucial and and also do we want to think about this question?"
+  },
+  {
+    "t_start": 866.99,
+    "t_end": 873.59,
+    "text": "What are all the combinations? If I took Can I go back to X's and Y's?"
+  },
+  {
+    "t_start": 873.59,
+    "t_end": 875.03,
+    "text": "Can I go back to X's and Y's? This is a"
+  },
+  {
+    "t_start": 875.03,
+    "t_end": 879.51,
+    "text": "This is a This is a question for really"
+  },
+  {
+    "t_start": 879.51,
+    "t_end": 885.19,
+    "text": "it's going to come up over and over, but why don't we see it once now?"
+  },
+  {
+    "t_start": 885.19,
+    "t_end": 888.35,
+    "text": "why don't we see it once now? If I took all the X's and all the Y's,"
+  },
+  {
+    "t_start": 888.35,
+    "t_end": 891.03,
+    "text": "If I took all the X's and all the Y's, all the combinations,"
+  },
+  {
+    "t_start": 891.03,
+    "t_end": 896.59,
+    "text": "what would be all the results? And actually, the result would be that I"
+  },
+  {
+    "t_start": 896.59,
+    "t_end": 899.59,
+    "text": "And actually, the result would be that I could get any right-hand side at all."
+  },
+  {
+    "t_start": 899.59,
+    "t_end": 902.99,
+    "text": "could get any right-hand side at all. The combinations of this and this would"
+  },
+  {
+    "t_start": 902.99,
+    "t_end": 906.069,
+    "text": "The combinations of this and this would fill the whole plane."
+  },
+  {
+    "t_start": 906.069,
+    "t_end": 907.67,
+    "text": "fill the whole plane. You can tuck that"
+  },
+  {
+    "t_start": 907.67,
+    "t_end": 910.63,
+    "text": "You can tuck that away. We'll"
+  },
+  {
+    "t_start": 910.63,
+    "t_end": 916.949,
+    "text": "explore it further. But this idea of what linear combination"
+  },
+  {
+    "t_start": 916.949,
+    "t_end": 918.51,
+    "text": "But this idea of what linear combination gives B"
+  },
+  {
+    "t_start": 918.51,
+    "t_end": 923.11,
+    "text": "and what do all the linear combinations give? What are all the possible"
+  },
+  {
+    "t_start": 923.11,
+    "t_end": 925.31,
+    "text": "give? What are all the possible achievable right-hand sides B? That's"
+  },
+  {
+    "t_start": 925.31,
+    "t_end": 932.75,
+    "text": "going to be basic. Okay. Can I move to three equations and three unknowns? Cuz"
+  },
+  {
+    "t_start": 932.75,
+    "t_end": 935.829,
+    "text": "three equations and three unknowns? Cuz it's easy to"
+  },
+  {
+    "t_start": 935.829,
+    "t_end": 940.79,
+    "text": "picture the two by two case. Let me do a three by three example."
+  },
+  {
+    "t_start": 940.79,
+    "t_end": 946.75,
+    "text": "Okay. I'll sort of start at the same way. Say maybe 2X - Y and maybe I'll"
+  },
+  {
+    "t_start": 946.75,
+    "t_end": 950.15,
+    "text": "way. Say maybe 2X - Y and maybe I'll take no no Z's is a zero. And maybe a"
+  },
+  {
+    "t_start": 950.15,
+    "t_end": 952.91,
+    "text": "take no no Z's is a zero. And maybe a minus X and a 2Y"
+  },
+  {
+    "t_start": 952.91,
+    "t_end": 959.43,
+    "text": "and maybe a minus Z is a Oh, let me make that a minus one. And"
+  },
+  {
+    "t_start": 959.43,
+    "t_end": 963.47,
+    "text": "Oh, let me make that a minus one. And just for variety, let me take"
+  },
+  {
+    "t_start": 963.47,
+    "t_end": 965.67,
+    "text": "just for variety, let me take minus 3Z"
+  },
+  {
+    "t_start": 965.67,
+    "t_end": 974.75,
+    "text": "minus 3Y's. I should keep the Y's in that line. And 4Z's is say four."
+  },
+  {
+    "t_start": 974.75,
+    "t_end": 976.35,
+    "text": "that line. And 4Z's is say four. Okay."
+  },
+  {
+    "t_start": 976.35,
+    "t_end": 982.27,
+    "text": "That's three equations. I'm in three dimensions, XYZ."
+  },
+  {
+    "t_start": 982.27,
+    "t_end": 983.79,
+    "text": "I'm in three dimensions, XYZ. And"
+  },
+  {
+    "t_start": 983.79,
+    "t_end": 987.03,
+    "text": "I don't have a solution yet."
+  },
+  {
+    "t_start": 987.03,
+    "t_end": 992.03,
+    "text": "So, I want to understand the equations and then solve them."
+  },
+  {
+    "t_start": 992.03,
+    "t_end": 997.51,
+    "text": "Okay. So, how do I How do you understand them? The row picture is one way. The"
+  },
+  {
+    "t_start": 997.51,
+    "t_end": 1000.19,
+    "text": "them? The row picture is one way. The column picture is another very important"
+  },
+  {
+    "t_start": 1000.19,
+    "t_end": 1003.15,
+    "text": "column picture is another very important way. Just Let's remember the matrix form"
+  },
+  {
+    "t_start": 1003.15,
+    "t_end": 1006.47,
+    "text": "way. Just Let's remember the matrix form here, cuz that's easy. The matrix form,"
+  },
+  {
+    "t_start": 1006.47,
+    "t_end": 1008.949,
+    "text": "here, cuz that's easy. The matrix form, what's our matrix A?"
+  },
+  {
+    "t_start": 1008.949,
+    "t_end": 1015.11,
+    "text": "Our matrix A is this right-hand side, the two and the minus one and the zero"
+  },
+  {
+    "t_start": 1015.11,
+    "t_end": 1023.31,
+    "text": "the two and the minus one and the zero from the first row. The minus one and"
+  },
+  {
+    "t_start": 1023.31,
+    "t_end": 1026.429,
+    "text": "second row. The zero, the minus three, and the four"
+  },
+  {
+    "t_start": 1028.39,
+    "t_end": 1033.069,
+    "text": "So, it's a three by three matrix. Three equations, three unknowns. And"
+  },
+  {
+    "t_start": 1033.069,
+    "t_end": 1035.15,
+    "text": "Three equations, three unknowns. And what's our right-hand side? Of course,"
+  },
+  {
+    "t_start": 1035.15,
+    "t_end": 1036.63,
+    "text": "what's our right-hand side? Of course, it's"
+  },
+  {
+    "t_start": 1036.63,
+    "t_end": 1044.55,
+    "text": "the vector 0 - 1 4. Okay. So, that's the way Well,"
+  },
+  {
+    "t_start": 1044.55,
+    "t_end": 1048.55,
+    "text": "Okay. So, that's the way Well, that's the shorthand to write out the"
+  },
+  {
+    "t_start": 1048.55,
+    "t_end": 1058.15,
+    "text": "But it's the picture that I'm looking for today. Okay. So, the row picture."
+  },
+  {
+    "t_start": 1060.55,
+    "t_end": 1065.75,
+    "text": "All right. So, I'm in three dimensions, X Y and Z."
+  },
+  {
+    "t_start": 1065.75,
+    "t_end": 1067.99,
+    "text": "I'm in three dimensions, X Y and Z. And I want to take those equations one"
+  },
+  {
+    "t_start": 1067.99,
+    "t_end": 1069.71,
+    "text": "And I want to take those equations one at a time"
+  },
+  {
+    "t_start": 1069.71,
+    "t_end": 1076.15,
+    "text": "and ask and make a picture of all the points that satisfy Let's take equation"
+  },
+  {
+    "t_start": 1076.15,
+    "t_end": 1077.79,
+    "text": "points that satisfy Let's take equation number two."
+  },
+  {
+    "t_start": 1077.79,
+    "t_end": 1083.11,
+    "text": "If I make a picture of all the points that satisfy, all the XYZ points"
+  },
+  {
+    "t_start": 1083.11,
+    "t_end": 1085.71,
+    "text": "that satisfy, all the XYZ points that solve this equation."
+  },
+  {
+    "t_start": 1085.71,
+    "t_end": 1092.99,
+    "text": "Well, first of all, the origin is not one of them. XYZ being 0 0 0 would not"
+  },
+  {
+    "t_start": 1092.99,
+    "t_end": 1095.47,
+    "text": "one of them. XYZ being 0 0 0 would not solve that equation. So, what what are"
+  },
+  {
+    "t_start": 1095.47,
+    "t_end": 1101.11,
+    "text": "solve that equation. So, what what are some points that do solve the equation?"
+  },
+  {
+    "t_start": 1101.11,
+    "t_end": 1106.63,
+    "text": "Y and Z could be zero. That would work, right? So, there's one point."
+  },
+  {
+    "t_start": 1106.63,
+    "t_end": 1110.83,
+    "text": "right? So, there's one point. I'm looking at this second equation here"
+  },
+  {
+    "t_start": 1110.83,
+    "t_end": 1117.35,
+    "text": "to start with. Let's see. Also, I guess if Z Z could be one, X and Y could be"
+  },
+  {
+    "t_start": 1117.35,
+    "t_end": 1119.27,
+    "text": "if Z Z could be one, X and Y could be zero. So, that would just go straight up"
+  },
+  {
+    "t_start": 1119.27,
+    "t_end": 1121.75,
+    "text": "zero. So, that would just go straight up that axis."
+  },
+  {
+    "t_start": 1121.75,
+    "t_end": 1126.75,
+    "text": "that axis. And probably I want a third point here."
+  },
+  {
+    "t_start": 1126.75,
+    "t_end": 1130.55,
+    "text": "And probably I want a third point here. Let me take X to be"
+  },
+  {
+    "t_start": 1130.55,
+    "t_end": 1132.23,
+    "text": "Let me take X to be zero."
+  },
+  {
+    "t_start": 1132.23,
+    "t_end": 1140.19,
+    "text": "Let's say X to be zero, Z to be zero, then Y would be minus a half, right?"
+  },
+  {
+    "t_start": 1140.19,
+    "t_end": 1143.39,
+    "text": "then Y would be minus a half, right? So, there's a third point somewhere Oh,"
+  },
+  {
+    "t_start": 1143.39,
+    "t_end": 1145.87,
+    "text": "So, there's a third point somewhere Oh, my. Okay."
+  },
+  {
+    "t_start": 1145.87,
+    "t_end": 1148.51,
+    "text": "my. Okay. Let's see."
+  },
+  {
+    "t_start": 1148.51,
+    "t_end": 1154.47,
+    "text": "I want to put in all the points that satisfy that equation. Do you know what"
+  },
+  {
+    "t_start": 1154.47,
+    "t_end": 1157.79,
+    "text": "satisfy that equation. Do you know what that bunch of points will be?"
+  },
+  {
+    "t_start": 1157.79,
+    "t_end": 1160.11,
+    "text": "that bunch of points will be? It's a plane. If we have a linear"
+  },
+  {
+    "t_start": 1160.11,
+    "t_end": 1163.35,
+    "text": "It's a plane. If we have a linear equation, then fortunately, the graph of"
+  },
+  {
+    "t_start": 1163.35,
+    "t_end": 1168.95,
+    "text": "equation, then fortunately, the graph of the thing, the the plot of all the"
+  },
+  {
+    "t_start": 1168.95,
+    "t_end": 1171.11,
+    "text": "points that solve it are a plane. So, I and three these three points"
+  },
+  {
+    "t_start": 1171.11,
+    "t_end": 1174.47,
+    "text": "So, I and three these three points determine a plane, but"
+  },
+  {
+    "t_start": 1174.47,
+    "t_end": 1181.23,
+    "text": "your lecturer is not Rembrandt, and this the art is going to be"
+  },
+  {
+    "t_start": 1181.23,
+    "t_end": 1187.47,
+    "text": "the weak point here. So, I'm just going to draw a plane, right? There's a plane"
+  },
+  {
+    "t_start": 1187.47,
+    "t_end": 1189.99,
+    "text": "to draw a plane, right? There's a plane somewhere. That's my plane. That draw"
+  },
+  {
+    "t_start": 1189.99,
+    "t_end": 1192.71,
+    "text": "somewhere. That's my plane. That draw that that that plane is all the points"
+  },
+  {
+    "t_start": 1192.71,
+    "t_end": 1194.95,
+    "text": "that that that plane is all the points that solves this guy."
+  },
+  {
+    "t_start": 1194.95,
+    "t_end": 1195.87,
+    "text": "that solves this guy. Then,"
+  },
+  {
+    "t_start": 1195.87,
+    "t_end": 1199.95,
+    "text": "what about this one?"
+  },
+  {
+    "t_start": 1199.95,
+    "t_end": 1206.15,
+    "text": "2x - y + 0 z's. So, z actually can be anything. Again, it's going to be"
+  },
+  {
+    "t_start": 1206.15,
+    "t_end": 1208.31,
+    "text": "anything. Again, it's going to be another plane."
+  },
+  {
+    "t_start": 1208.31,
+    "t_end": 1215.43,
+    "text": "Each row in a 3 by 3 problem gives us a plane in three dimensions. So, this one"
+  },
+  {
+    "t_start": 1215.43,
+    "t_end": 1217.11,
+    "text": "plane in three dimensions. So, this one is going to be some other plane. Maybe"
+  },
+  {
+    "t_start": 1217.11,
+    "t_end": 1223.87,
+    "text": "is going to be some other plane. Maybe it Maybe I'll try to draw it like this."
+  },
+  {
+    "t_start": 1223.87,
+    "t_end": 1225.19,
+    "text": "And those two planes meet in a line."
+  },
+  {
+    "t_start": 1225.19,
+    "t_end": 1230.79,
+    "text": "So, if I have two equations, just the first two equations in in three"
+  },
+  {
+    "t_start": 1230.79,
+    "t_end": 1233.39,
+    "text": "just the first two equations in in three dimensions, those give me a line. The"
+  },
+  {
+    "t_start": 1233.39,
+    "t_end": 1235.31,
+    "text": "dimensions, those give me a line. The line where those two planes meet. And"
+  },
+  {
+    "t_start": 1235.31,
+    "t_end": 1236.59,
+    "text": "line where those two planes meet. And now,"
+  },
+  {
+    "t_start": 1236.59,
+    "t_end": 1239.75,
+    "text": "now, the third"
+  },
+  {
+    "t_start": 1239.75,
+    "t_end": 1246.79,
+    "text": "is a third plane. And it goes some"
+  },
+  {
+    "t_start": 1249.19,
+    "t_end": 1253.15,
+    "text": "Okay, those three things meet in a point. Now, I don't know where that"
+  },
+  {
+    "t_start": 1253.15,
+    "t_end": 1254.75,
+    "text": "point. Now, I don't know where that point is, frankly."
+  },
+  {
+    "t_start": 1254.75,
+    "t_end": 1261.03,
+    "text": "point is, frankly. Uh but uh linear algebra will find it."
+  },
+  {
+    "t_start": 1261.03,
+    "t_end": 1264.75,
+    "text": "that there is that the three planes, because they're"
+  },
+  {
+    "t_start": 1264.75,
+    "t_end": 1268.35,
+    "text": "you know, they're not parallel, they don't they're not special, they're"
+  },
+  {
+    "t_start": 1268.35,
+    "t_end": 1273.15,
+    "text": "don't they're not special, they're they do meet in one point, and that's"
+  },
+  {
+    "t_start": 1273.15,
+    "t_end": 1279.27,
+    "text": "uh maybe you can see that this row picture is getting a little hard to see."
+  },
+  {
+    "t_start": 1279.27,
+    "t_end": 1281.79,
+    "text": "picture is getting a little hard to see. The row picture was a cinch"
+  },
+  {
+    "t_start": 1281.79,
+    "t_end": 1284.43,
+    "text": "The row picture was a cinch uh when we looked at two two lines"
+  },
+  {
+    "t_start": 1284.43,
+    "t_end": 1290.67,
+    "text": "uh when we looked at two two lines meeting. When we look at three planes"
+  },
+  {
+    "t_start": 1290.67,
+    "t_end": 1293.11,
+    "text": "meeting, it's not so clear, and in four dimensions, probably a little"
+  },
+  {
+    "t_start": 1293.11,
+    "t_end": 1295.83,
+    "text": "in four dimensions, probably a little less clear. So,"
+  },
+  {
+    "t_start": 1295.83,
+    "t_end": 1300.91,
+    "text": "can I quit on the row picture? I'll quit on the row picture before I've"
+  },
+  {
+    "t_start": 1300.91,
+    "t_end": 1304.03,
+    "text": "I'll quit on the row picture before I've successfully found the point where the"
+  },
+  {
+    "t_start": 1304.03,
+    "t_end": 1305.87,
+    "text": "successfully found the point where the three planes meet."
+  },
+  {
+    "t_start": 1305.87,
+    "t_end": 1309.75,
+    "text": "three planes meet. All I really want to to see is that"
+  },
+  {
+    "t_start": 1309.75,
+    "t_end": 1314.23,
+    "text": "the the row picture consists of three planes, and"
+  },
+  {
+    "t_start": 1314.23,
+    "t_end": 1318.23,
+    "text": "if everything works right, three planes meet in one point, and that's the"
+  },
+  {
+    "t_start": 1318.23,
+    "t_end": 1321.99,
+    "text": "meet in one point, and that's the solution. Now,"
+  },
+  {
+    "t_start": 1323.51,
+    "t_end": 1324.63,
+    "text": "you can tell I prefer the column picture."
+  },
+  {
+    "t_start": 1324.63,
+    "t_end": 1329.75,
+    "text": "Okay? So, let me take the column picture. That's x times"
+  },
+  {
+    "t_start": 1329.75,
+    "t_end": 1334.71,
+    "text": "So, there were two x's in the first equation, minus one x's. I'm just take"
+  },
+  {
+    "t_start": 1334.71,
+    "t_end": 1338.91,
+    "text": "equation, minus one x's. I'm just take and no x's in the third. It's just the"
+  },
+  {
+    "t_start": 1338.91,
+    "t_end": 1343.91,
+    "text": "And how many y's are there? There's minus one in the first equation, two in"
+  },
+  {
+    "t_start": 1343.91,
+    "t_end": 1347.35,
+    "text": "minus one in the first equation, two in the second, and maybe minus three in the"
+  },
+  {
+    "t_start": 1347.35,
+    "t_end": 1351.39,
+    "text": "third. Just the second column of my matrix. And"
+  },
+  {
+    "t_start": 1351.39,
+    "t_end": 1357.71,
+    "text": "times no z's, minus one z's, and four z's."
+  },
+  {
+    "t_start": 1357.71,
+    "t_end": 1365.31,
+    "text": "And it's those three columns, right? That I have to combine to produce"
+  },
+  {
+    "t_start": 1365.31,
+    "t_end": 1372.71,
+    "text": "That I have to combine to produce the right-hand side, which is 0 - 1 4."
+  },
+  {
+    "t_start": 1374.87,
+    "t_end": 1377.83,
+    "text": "So, what have we got on this left-hand side?"
+  },
+  {
+    "t_start": 1377.83,
+    "t_end": 1382.71,
+    "text": "A linear combination. It's a linear combination now of three vectors, and"
+  },
+  {
+    "t_start": 1382.71,
+    "t_end": 1387.35,
+    "text": "they happen to be Each one is a three-dimensional vector. So, we want to"
+  },
+  {
+    "t_start": 1387.35,
+    "t_end": 1391.99,
+    "text": "three-dimensional vector. So, we want to We want to know what combination of"
+  },
+  {
+    "t_start": 1391.99,
+    "t_end": 1395.669,
+    "text": "those three vectors produces that one. Shall I try to draw the column picture"
+  },
+  {
+    "t_start": 1395.669,
+    "t_end": 1400.11,
+    "text": "So, since these vectors have three components, so it's some multiple Well,"
+  },
+  {
+    "t_start": 1400.11,
+    "t_end": 1406.03,
+    "text": "components, so it's some multiple Well, let me draw in the first column as"
+  },
+  {
+    "t_start": 1406.03,
+    "t_end": 1408.19,
+    "text": "before. So, I x is two, and y is minus one. Maybe Maybe there's the first"
+  },
+  {
+    "t_start": 1408.19,
+    "t_end": 1412.31,
+    "text": "one. Maybe Maybe there's the first column."
+  },
+  {
+    "t_start": 1416.35,
+    "t_end": 1421.83,
+    "text": "Why the second column has maybe a minus one and a two in the y's and minus three"
+  },
+  {
+    "t_start": 1421.83,
+    "t_end": 1424.07,
+    "text": "some somewhere there, possibly. Column two."
+  },
+  {
+    "t_start": 1424.07,
+    "t_end": 1430.99,
+    "text": "And the third column has no no 0 - 1 4."
+  },
+  {
+    "t_start": 1430.99,
+    "t_end": 1435.95,
+    "text": "So, how should I draw that? So, nothing in this is This was the This was the"
+  },
+  {
+    "t_start": 1435.95,
+    "t_end": 1437.99,
+    "text": "in this is This was the This was the first component, the second component"
+  },
+  {
+    "t_start": 1437.99,
+    "t_end": 1444.35,
+    "text": "first component, the second component was a minus one. Maybe up here."
+  },
+  {
+    "t_start": 1444.35,
+    "t_end": 1451.99,
+    "text": "That's column three. That's That's the column 0 - 1 and 4. This guy."
+  },
+  {
+    "t_start": 1455.83,
+    "t_end": 1458.79,
+    "text": "So, again, what's my problem? My My What this equation is asking me to do is to"
+  },
+  {
+    "t_start": 1458.79,
+    "t_end": 1463.03,
+    "text": "this equation is asking me to do is to combine these three vectors"
+  },
+  {
+    "t_start": 1463.03,
+    "t_end": 1464.55,
+    "text": "combine these three vectors with a right"
+  },
+  {
+    "t_start": 1464.55,
+    "t_end": 1470.51,
+    "text": "with a right combination to produce this one."
+  },
+  {
+    "t_start": 1472.11,
+    "t_end": 1473.15,
+    "text": "you can see what the right combination is."
+  },
+  {
+    "t_start": 1473.15,
+    "t_end": 1477.35,
+    "text": "Because in this special problem,"
+  },
+  {
+    "t_start": 1477.35,
+    "t_end": 1482.43,
+    "text": "specially chosen by the lecturer, uh that right-hand side that I'm trying to"
+  },
+  {
+    "t_start": 1482.43,
+    "t_end": 1484.99,
+    "text": "that right-hand side that I'm trying to get is actually one of these columns."
+  },
+  {
+    "t_start": 1484.99,
+    "t_end": 1488.35,
+    "text": "get is actually one of these columns. So, I know how to get that one. So,"
+  },
+  {
+    "t_start": 1488.35,
+    "t_end": 1493.43,
+    "text": "What combination will work? I just want one of these and none of"
+  },
+  {
+    "t_start": 1493.43,
+    "t_end": 1497.15,
+    "text": "I just want one of these and none of these. So, x should be zero, y should be"
+  },
+  {
+    "t_start": 1497.15,
+    "t_end": 1503.31,
+    "text": "zero, and z should be one. The com- That's the combination. None of"
+  },
+  {
+    "t_start": 1503.31,
+    "t_end": 1505.47,
+    "text": "The com- That's the combination. None of that, none of that, one of those is"
+  },
+  {
+    "t_start": 1505.47,
+    "t_end": 1507.87,
+    "text": "that, none of that, one of those is obviously the right one. So, this column"
+  },
+  {
+    "t_start": 1507.87,
+    "t_end": 1515.43,
+    "text": "obviously the right one. So, this column three is actually the same as b in this"
+  },
+  {
+    "t_start": 1516.03,
+    "t_end": 1521.31,
+    "text": "I I made it work that way just so we would get an answer, 0 0 1. So, somehow"
+  },
+  {
+    "t_start": 1521.31,
+    "t_end": 1523.669,
+    "text": "would get an answer, 0 0 1. So, somehow that's the point"
+  },
+  {
+    "t_start": 1523.669,
+    "t_end": 1528.59,
+    "text": "that where those three planes met, and I couldn't see it before."
+  },
+  {
+    "t_start": 1528.59,
+    "t_end": 1531.11,
+    "text": "couldn't see it before. Of course, I won't always be able to see"
+  },
+  {
+    "t_start": 1531.11,
+    "t_end": 1534.27,
+    "text": "from the column picture, either. It's"
+  },
+  {
+    "t_start": 1534.27,
+    "t_end": 1539.99,
+    "text": "the next lecture, actually, which is about elimination, which is the"
+  },
+  {
+    "t_start": 1539.99,
+    "t_end": 1545.39,
+    "text": "which is about elimination, which is the systematic way that everybody"
+  },
+  {
+    "t_start": 1546.59,
+    "t_end": 1551.27,
+    "text": "every every bit of software, too,"
+  },
+  {
+    "t_start": 1551.27,
+    "t_end": 1557.43,
+    "text": "a production large-scale software would solve the the equations. So, the the"
+  },
+  {
+    "t_start": 1557.43,
+    "t_end": 1561.31,
+    "text": "solve the the equations. So, the the lecture that's coming up, if I was to"
+  },
+  {
+    "t_start": 1561.31,
+    "t_end": 1566.87,
+    "text": "to the syllabus, will be about how to find x y z in"
+  },
+  {
+    "t_start": 1566.87,
+    "t_end": 1568.95,
+    "text": "how to find x y z in in all cases."
+  },
+  {
+    "t_start": 1568.95,
+    "t_end": 1570.35,
+    "text": "in all cases. Can I just"
+  },
+  {
+    "t_start": 1570.35,
+    "t_end": 1574.55,
+    "text": "Can I just think again, though, about the big"
+  },
+  {
+    "t_start": 1574.55,
+    "t_end": 1580.51,
+    "text": "The big By the big picture, I mean, let's keep this same matrix on the left,"
+  },
+  {
+    "t_start": 1580.51,
+    "t_end": 1582.39,
+    "text": "let's keep this same matrix on the left, but imagine that we have a different"
+  },
+  {
+    "t_start": 1582.39,
+    "t_end": 1584.15,
+    "text": "but imagine that we have a different right-hand side."
+  },
+  {
+    "t_start": 1584.15,
+    "t_end": 1587.15,
+    "text": "right-hand side. Oh, let me take a different right-hand"
+  },
+  {
+    "t_start": 1587.15,
+    "t_end": 1591.63,
+    "text": "Uh so, I'll change that right-hand side to something that actually is also"
+  },
+  {
+    "t_start": 1591.63,
+    "t_end": 1594.51,
+    "text": "to something that actually is also pretty special."
+  },
+  {
+    "t_start": 1597.35,
+    "t_end": 1599.39,
+    "text": "Let me change it to Suppose I If I add those first two columns, that would give"
+  },
+  {
+    "t_start": 1599.39,
+    "t_end": 1603.15,
+    "text": "those first two columns, that would give me a one and a one and a minus three."
+  },
+  {
+    "t_start": 1603.15,
+    "t_end": 1606.03,
+    "text": "me a one and a one and a minus three. There's a very special right-hand side."
+  },
+  {
+    "t_start": 1606.03,
+    "t_end": 1611.31,
+    "text": "There's a very special right-hand side. I I just cooked it up by adding this one"
+  },
+  {
+    "t_start": 1611.31,
+    "t_end": 1615.75,
+    "text": "Now, what's the solution with this new right-hand side?"
+  },
+  {
+    "t_start": 1615.75,
+    "t_end": 1620.99,
+    "text": "The solution with this new right-hand side is clear. It took Now, I took one"
+  },
+  {
+    "t_start": 1620.99,
+    "t_end": 1622.51,
+    "text": "side is clear. It took Now, I took one of these,"
+  },
+  {
+    "t_start": 1622.51,
+    "t_end": 1628.27,
+    "text": "one of these, and none of those. So, So, actually, it just changed around to this"
+  },
+  {
+    "t_start": 1628.27,
+    "t_end": 1631.03,
+    "text": "actually, it just changed around to this when I took this new right-hand side."
+  },
+  {
+    "t_start": 1631.03,
+    "t_end": 1632.51,
+    "text": "when I took this new right-hand side. Okay."
+  },
+  {
+    "t_start": 1632.51,
+    "t_end": 1638.95,
+    "text": "So, the in the in the row picture, I have three different planes."
+  },
+  {
+    "t_start": 1642.43,
+    "t_end": 1648.23,
+    "text": "at this point. In the column picture, I have the same three columns, but now I'm"
+  },
+  {
+    "t_start": 1648.23,
+    "t_end": 1651.07,
+    "text": "have the same three columns, but now I'm combining them to produce this guy. And"
+  },
+  {
+    "t_start": 1651.07,
+    "t_end": 1652.99,
+    "text": "combining them to produce this guy. And it turned out that column one plus"
+  },
+  {
+    "t_start": 1652.99,
+    "t_end": 1655.03,
+    "text": "it turned out that column one plus column two, which would be somewhere"
+  },
+  {
+    "t_start": 1655.03,
+    "t_end": 1658.47,
+    "text": "column two, which would be somewhere there, there is the right column."
+  },
+  {
+    "t_start": 1658.47,
+    "t_end": 1660.75,
+    "text": "there, there is the right column. One of this and one of this would give"
+  },
+  {
+    "t_start": 1660.75,
+    "t_end": 1665.19,
+    "text": "One of this and one of this would give me the the new b."
+  },
+  {
+    "t_start": 1667.55,
+    "t_end": 1670.99,
+    "text": "Okay. So, that's like we squeezed in an extra example. But, now think about all"
+  },
+  {
+    "t_start": 1670.99,
+    "t_end": 1672.19,
+    "text": "extra example. But, now think about all b's."
+  },
+  {
+    "t_start": 1672.19,
+    "t_end": 1677.39,
+    "text": "All right-hand sides. Could I get Can I solve these equations"
+  },
+  {
+    "t_start": 1677.39,
+    "t_end": 1681.87,
+    "text": "Could I get Can I solve these equations for every right-hand side?"
+  },
+  {
+    "t_start": 1684.83,
+    "t_end": 1686.95,
+    "text": "Uh it Can I say that ask that question? So, that's the algebra question."
+  },
+  {
+    "t_start": 1686.95,
+    "t_end": 1693.35,
+    "text": "So, that's the algebra question. Can I solve Ax = b for every b?"
+  },
+  {
+    "t_start": 1693.35,
+    "t_end": 1696.35,
+    "text": "Let me write that down. Can I solve"
+  },
+  {
+    "t_start": 1696.35,
+    "t_end": 1698.79,
+    "text": "Can I solve Ax = b"
+  },
+  {
+    "t_start": 1698.79,
+    "t_end": 1701.59,
+    "text": "Ax = b for every"
+  },
+  {
+    "t_start": 1701.59,
+    "t_end": 1707.51,
+    "text": "right-hand side b? I mean, is there a solution?"
+  },
+  {
+    "t_start": 1707.51,
+    "t_end": 1712.43,
+    "text": "if there is, elimination will give me a way to find it. I'm just I really wanted"
+  },
+  {
+    "t_start": 1712.43,
+    "t_end": 1715.11,
+    "text": "way to find it. I'm just I really wanted to ask, is there a solution for every"
+  },
+  {
+    "t_start": 1715.11,
+    "t_end": 1716.79,
+    "text": "to ask, is there a solution for every right-hand side?"
+  },
+  {
+    "t_start": 1716.79,
+    "t_end": 1720.51,
+    "text": "right-hand side? So, now, can I put that in different"
+  },
+  {
+    "t_start": 1720.51,
+    "t_end": 1727.83,
+    "text": "In this linear combination words. So, in linear combination words, do the"
+  },
+  {
+    "t_start": 1727.83,
+    "t_end": 1730.43,
+    "text": "linear combination words, do the linear"
+  },
+  {
+    "t_start": 1730.43,
+    "t_end": 1733.11,
+    "text": "linear combinations"
+  },
+  {
+    "t_start": 1733.11,
+    "t_end": 1738.51,
+    "text": "combinations of the columns"
+  },
+  {
+    "t_start": 1741.19,
+    "t_end": 1745.63,
+    "text": "fill three-dimensional space?"
+  },
+  {
+    "t_start": 1747.75,
+    "t_end": 1752.35,
+    "text": "Every b means all the b's in three-dimensional"
+  },
+  {
+    "t_start": 1752.35,
+    "t_end": 1759.51,
+    "text": "So, I'm Do you see that I'm just asking the same question in in different words?"
+  },
+  {
+    "t_start": 1759.51,
+    "t_end": 1760.909,
+    "text": "the same question in in different words? Solving a"
+  },
+  {
+    "t_start": 1760.909,
+    "t_end": 1768.95,
+    "text": "Ax Oh, that's very important. A times x, when I multiply a matrix by a"
+  },
+  {
+    "t_start": 1768.95,
+    "t_end": 1771.71,
+    "text": "A times x, when I multiply a matrix by a vector,"
+  },
+  {
+    "t_start": 1774.79,
+    "t_end": 1776.35,
+    "text": "I get a combination of the columns. Let me I'll write that"
+  },
+  {
+    "t_start": 1776.35,
+    "t_end": 1778.39,
+    "text": "me I'll write that down in a moment."
+  },
+  {
+    "t_start": 1778.39,
+    "t_end": 1779.83,
+    "text": "down in a moment. So, that"
+  },
+  {
+    "t_start": 1779.83,
+    "t_end": 1784.07,
+    "text": "Do you see But, in my column picture, that's really what I'm doing. I'm taking"
+  },
+  {
+    "t_start": 1784.07,
+    "t_end": 1786.11,
+    "text": "that's really what I'm doing. I'm taking linear combinations of these three"
+  },
+  {
+    "t_start": 1786.11,
+    "t_end": 1789.31,
+    "text": "linear combinations of these three columns, and I'm trying to find"
+  },
+  {
+    "t_start": 1789.31,
+    "t_end": 1790.71,
+    "text": "columns, and I'm trying to find B."
+  },
+  {
+    "t_start": 1790.71,
+    "t_end": 1797.67,
+    "text": "And actually, the answer for this matrix will be yes. For this matrix, for this"
+  },
+  {
+    "t_start": 1797.67,
+    "t_end": 1798.87,
+    "text": "will be yes. For this matrix, for this for this"
+  },
+  {
+    "t_start": 1798.87,
+    "t_end": 1805.55,
+    "text": "for this matrix A, for these columns, the answer"
+  },
+  {
+    "t_start": 1812.39,
+    "t_end": 1813.27,
+    "text": "This matrix is this this this matrix that"
+  },
+  {
+    "t_start": 1813.27,
+    "t_end": 1821.71,
+    "text": "that that I chose for an example is a good matrix, a non-singular matrix,"
+  },
+  {
+    "t_start": 1821.71,
+    "t_end": 1826.63,
+    "text": "is a good matrix, a non-singular matrix, an invertible matrix. So, those will be"
+  },
+  {
+    "t_start": 1826.63,
+    "t_end": 1829.43,
+    "text": "the matrices that we like best. There could be other"
+  },
+  {
+    "t_start": 1829.43,
+    "t_end": 1834.83,
+    "text": "There could be other and we will see other matrices where the"
+  },
+  {
+    "t_start": 1834.83,
+    "t_end": 1838.63,
+    "text": "answer becomes no. Oh, actually, you can see when it would"
+  },
+  {
+    "t_start": 1838.63,
+    "t_end": 1841.95,
+    "text": "become no. When could"
+  },
+  {
+    "t_start": 1841.95,
+    "t_end": 1847.35,
+    "text": "What What could go wrong? How could it go wrong that out of these out of three"
+  },
+  {
+    "t_start": 1847.35,
+    "t_end": 1848.71,
+    "text": "go wrong that out of these out of three columns"
+  },
+  {
+    "t_start": 1848.71,
+    "t_end": 1855.95,
+    "text": "and all their combinations when would I not be able to produce some"
+  },
+  {
+    "t_start": 1855.95,
+    "t_end": 1858.35,
+    "text": "when would I not be able to produce some B off here?"
+  },
+  {
+    "t_start": 1858.35,
+    "t_end": 1863.63,
+    "text": "When When could it go wrong? Do you see that the combinations"
+  },
+  {
+    "t_start": 1863.63,
+    "t_end": 1868.43,
+    "text": "Suppo- Let me say when it goes wrong. If these three columns all lie in the"
+  },
+  {
+    "t_start": 1868.43,
+    "t_end": 1872.27,
+    "text": "If these three columns all lie in the same plane"
+  },
+  {
+    "t_start": 1875.35,
+    "t_end": 1878.07,
+    "text": "then their combinations will lie in that same plane."
+  },
+  {
+    "t_start": 1878.07,
+    "t_end": 1883.79,
+    "text": "So, then we're in trouble. If the three columns of my matrix"
+  },
+  {
+    "t_start": 1883.79,
+    "t_end": 1888.11,
+    "text": "columns of my matrix if those three vectors happen to lie in"
+  },
+  {
+    "t_start": 1888.11,
+    "t_end": 1893.95,
+    "text": "for example, if column three is just the sum of column one and column two"
+  },
+  {
+    "t_start": 1893.95,
+    "t_end": 1896.31,
+    "text": "sum of column one and column two I would be in trouble."
+  },
+  {
+    "t_start": 1896.31,
+    "t_end": 1900.35,
+    "text": "I would be in trouble. That would be a matrix A where the"
+  },
+  {
+    "t_start": 1900.35,
+    "t_end": 1904.31,
+    "text": "answer would be no. Because the combinations"
+  },
+  {
+    "t_start": 1904.31,
+    "t_end": 1909.23,
+    "text": "if column three is in the same plane as column one and two, I don't get anything"
+  },
+  {
+    "t_start": 1909.23,
+    "t_end": 1911.35,
+    "text": "column one and two, I don't get anything new from that. All the combinations are"
+  },
+  {
+    "t_start": 1911.35,
+    "t_end": 1913.95,
+    "text": "new from that. All the combinations are in the plane, and the only right-hand"
+  },
+  {
+    "t_start": 1913.95,
+    "t_end": 1919.95,
+    "text": "in the plane, and the only right-hand sides B that I could get would be the"
+  },
+  {
+    "t_start": 1919.95,
+    "t_end": 1923.43,
+    "text": "ones in that plane. So, I could solve it for some right-hand"
+  },
+  {
+    "t_start": 1923.43,
+    "t_end": 1929.07,
+    "text": "when B is in the in the plane, but most right-hand sides would be out of the"
+  },
+  {
+    "t_start": 1929.07,
+    "t_end": 1931.19,
+    "text": "right-hand sides would be out of the plane and unreachable."
+  },
+  {
+    "t_start": 1931.19,
+    "t_end": 1936.91,
+    "text": "So, that would be a singular case. The matrix would be not invertible. There"
+  },
+  {
+    "t_start": 1936.91,
+    "t_end": 1942.47,
+    "text": "matrix would be not invertible. There would not be a solution for every B. The"
+  },
+  {
+    "t_start": 1942.47,
+    "t_end": 1943.75,
+    "text": "answer would become no for that. Okay."
+  },
+  {
+    "t_start": 1943.75,
+    "t_end": 1945.669,
+    "text": "Okay. Um"
+  },
+  {
+    "t_start": 1945.669,
+    "t_end": 1951.43,
+    "text": "Should we take just a little shot at thinking about"
+  },
+  {
+    "t_start": 1951.43,
+    "t_end": 1954.43,
+    "text": "thinking about nine dimensions?"
+  },
+  {
+    "t_start": 1954.43,
+    "t_end": 1961.03,
+    "text": "Imagine that we have vectors with nine components."
+  },
+  {
+    "t_start": 1961.03,
+    "t_end": 1962.23,
+    "text": "vectors with nine components. Well,"
+  },
+  {
+    "t_start": 1962.23,
+    "t_end": 1964.83,
+    "text": "it's going to be hard to visualize those."
+  },
+  {
+    "t_start": 1964.83,
+    "t_end": 1969.95,
+    "text": "those. Uh I don't pretend to do it, but somehow"
+  },
+  {
+    "t_start": 1969.95,
+    "t_end": 1971.83,
+    "text": "Uh I don't pretend to do it, but somehow pretend you do."
+  },
+  {
+    "t_start": 1971.83,
+    "t_end": 1976.99,
+    "text": "Pretend we have if if this was nine equations in nine unknowns, then we"
+  },
+  {
+    "t_start": 1976.99,
+    "t_end": 1979.59,
+    "text": "equations in nine unknowns, then we would have nine columns"
+  },
+  {
+    "t_start": 1979.59,
+    "t_end": 1983.59,
+    "text": "and each one would be a vector in nine-dimensional space, and we would be"
+  },
+  {
+    "t_start": 1983.59,
+    "t_end": 1986.87,
+    "text": "nine-dimensional space, and we would be looking at their linear combinations."
+  },
+  {
+    "t_start": 1986.87,
+    "t_end": 1990.669,
+    "text": "looking at their linear combinations. So, we we'd having the linear"
+  },
+  {
+    "t_start": 1990.669,
+    "t_end": 1992.91,
+    "text": "combinations of nine vectors in nine-dimensional space, and we would be"
+  },
+  {
+    "t_start": 1992.91,
+    "t_end": 1995.35,
+    "text": "nine-dimensional space, and we would be trying to find the combination that hit"
+  },
+  {
+    "t_start": 1995.35,
+    "t_end": 1997.95,
+    "text": "trying to find the combination that hit the correct right-hand side B."
+  },
+  {
+    "t_start": 1997.95,
+    "t_end": 2002.91,
+    "text": "the correct right-hand side B. And we might also ask the question"
+  },
+  {
+    "t_start": 2002.91,
+    "t_end": 2007.87,
+    "text": "Can we get every right-hand side B? And certainly, it will depend on those nine"
+  },
+  {
+    "t_start": 2007.87,
+    "t_end": 2009.23,
+    "text": "certainly, it will depend on those nine columns."
+  },
+  {
+    "t_start": 2009.23,
+    "t_end": 2014.31,
+    "text": "Some Sometimes the answer will be yes. If I picked a random matrix, it would be"
+  },
+  {
+    "t_start": 2014.31,
+    "t_end": 2017.83,
+    "text": "If I picked a random matrix, it would be yes, actually. If I used MATLAB and just"
+  },
+  {
+    "t_start": 2017.83,
+    "t_end": 2020.07,
+    "text": "yes, actually. If I used MATLAB and just used the random command, picked out a 9"
+  },
+  {
+    "t_start": 2020.07,
+    "t_end": 2022.07,
+    "text": "used the random command, picked out a 9 by 9 matrix"
+  },
+  {
+    "t_start": 2022.07,
+    "t_end": 2028.07,
+    "text": "I guarantee it would be good. It would be non-singular, it would be invertible,"
+  },
+  {
+    "t_start": 2028.07,
+    "t_end": 2030.39,
+    "text": "be non-singular, it would be invertible, all beautiful. But"
+  },
+  {
+    "t_start": 2030.39,
+    "t_end": 2037.47,
+    "text": "all beautiful. But if I choose those columns so that"
+  },
+  {
+    "t_start": 2038.83,
+    "t_end": 2044.43,
+    "text": "so that they're they're so that the the ninth column is the same as the eighth"
+  },
+  {
+    "t_start": 2044.43,
+    "t_end": 2046.55,
+    "text": "ninth column is the same as the eighth column"
+  },
+  {
+    "t_start": 2046.55,
+    "t_end": 2052.55,
+    "text": "then it contributes nothing new, and there would be right-hand sides B that I"
+  },
+  {
+    "t_start": 2052.55,
+    "t_end": 2056.909,
+    "text": "couldn't get. Can you sort of"
+  },
+  {
+    "t_start": 2056.909,
+    "t_end": 2062.43,
+    "text": "nine vectors in nine-dimensional space and take their combinations? That's"
+  },
+  {
+    "t_start": 2062.43,
+    "t_end": 2063.71,
+    "text": "and take their combinations? That's really the"
+  },
+  {
+    "t_start": 2063.71,
+    "t_end": 2069.75,
+    "text": "the central thought that that you get kind of used to"
+  },
+  {
+    "t_start": 2069.75,
+    "t_end": 2074.07,
+    "text": "in linear algebra. Even though you can't really visualize it, you sort of think"
+  },
+  {
+    "t_start": 2074.07,
+    "t_end": 2076.07,
+    "text": "really visualize it, you sort of think you can after a while."
+  },
+  {
+    "t_start": 2076.07,
+    "t_end": 2077.95,
+    "text": "you can after a while. Those nine"
+  },
+  {
+    "t_start": 2077.95,
+    "t_end": 2082.71,
+    "text": "columns and all their combinations may very well fill out the whole"
+  },
+  {
+    "t_start": 2082.71,
+    "t_end": 2085.23,
+    "text": "very well fill out the whole nine-dimensional space."
+  },
+  {
+    "t_start": 2085.23,
+    "t_end": 2088.869,
+    "text": "But if the ninth column happened to be the same as the eighth column and gave"
+  },
+  {
+    "t_start": 2088.869,
+    "t_end": 2090.99,
+    "text": "the same as the eighth column and gave nothing new, then probably what it would"
+  },
+  {
+    "t_start": 2090.99,
+    "t_end": 2095.99,
+    "text": "nothing new, then probably what it would fill out would be"
+  },
+  {
+    "t_start": 2099.87,
+    "t_end": 2101.39,
+    "text": "I hesitate even to say this. It would be a com-"
+  },
+  {
+    "t_start": 2101.39,
+    "t_end": 2104.23,
+    "text": "a com- a sort of"
+  },
+  {
+    "t_start": 2104.23,
+    "t_end": 2109.99,
+    "text": "an eight-dimensional plane inside nine-dimensional space."
+  },
+  {
+    "t_start": 2109.99,
+    "t_end": 2115.91,
+    "text": "And it's those eight-dimensional planes inside nine-dimensional space that we"
+  },
+  {
+    "t_start": 2115.91,
+    "t_end": 2118.75,
+    "text": "inside nine-dimensional space that we have to work with eventually."
+  },
+  {
+    "t_start": 2118.75,
+    "t_end": 2123.39,
+    "text": "have to work with eventually. For now, let's stay with the nice case"
+  },
+  {
+    "t_start": 2123.39,
+    "t_end": 2124.67,
+    "text": "where uh"
+  },
+  {
+    "t_start": 2124.67,
+    "t_end": 2130.51,
+    "text": "the matrices work. We can get every right-hand side B, and here we see how"
+  },
+  {
+    "t_start": 2130.51,
+    "t_end": 2132.27,
+    "text": "right-hand side B, and here we see how to do it with columns."
+  },
+  {
+    "t_start": 2132.27,
+    "t_end": 2137.83,
+    "text": "Okay. There was one step that I real- which I realized I was saying in words"
+  },
+  {
+    "t_start": 2137.83,
+    "t_end": 2143.99,
+    "text": "which I realized I was saying in words that I now want to write in letters."
+  },
+  {
+    "t_start": 2143.99,
+    "t_end": 2146.03,
+    "text": "Because I'm coming back to the matrix form of the equation"
+  },
+  {
+    "t_start": 2146.03,
+    "t_end": 2149.39,
+    "text": "form of the equation so let me write it here."
+  },
+  {
+    "t_start": 2152.67,
+    "t_end": 2153.59,
+    "text": "The matrix form of my equation of my of my"
+  },
+  {
+    "t_start": 2153.59,
+    "t_end": 2160.83,
+    "text": "system is some matrix A times some vector X equals some right-hand side B."
+  },
+  {
+    "t_start": 2160.83,
+    "t_end": 2161.91,
+    "text": "vector X equals some right-hand side B. Okay."
+  },
+  {
+    "t_start": 2161.91,
+    "t_end": 2166.95,
+    "text": "So, this is a multiplication, A times X, matrix times vector, and I just want to"
+  },
+  {
+    "t_start": 2166.95,
+    "t_end": 2169.71,
+    "text": "matrix times vector, and I just want to say, how do you multiply a matrix by a"
+  },
+  {
+    "t_start": 2169.71,
+    "t_end": 2171.51,
+    "text": "say, how do you multiply a matrix by a vector?"
+  },
+  {
+    "t_start": 2171.51,
+    "t_end": 2176.47,
+    "text": "Okay, so I'm just going to create a a matrix."
+  },
+  {
+    "t_start": 2176.47,
+    "t_end": 2181.55,
+    "text": "a matrix. Let me take"
+  },
+  {
+    "t_start": 2181.55,
+    "t_end": 2188.87,
+    "text": "and let me take a vector X to be, say, 1 and 2."
+  },
+  {
+    "t_start": 2188.87,
+    "t_end": 2194.03,
+    "text": "X to be, say, 1 and 2. How do I multiply a matrix by a vector?"
+  },
+  {
+    "t_start": 2199.31,
+    "t_end": 2201.23,
+    "text": "just We'll just think a little bit about matrix notation and how to do that"
+  },
+  {
+    "t_start": 2201.23,
+    "t_end": 2202.95,
+    "text": "matrix notation and how to do that multiplication. So, let me say how I"
+  },
+  {
+    "t_start": 2202.95,
+    "t_end": 2205.31,
+    "text": "multiplication. So, let me say how I multiply a matrix by a vector."
+  },
+  {
+    "t_start": 2205.31,
+    "t_end": 2210.349,
+    "text": "Actually, there are two ways to do it. Let me tell you my favorite way."
+  },
+  {
+    "t_start": 2210.349,
+    "t_end": 2212.87,
+    "text": "Let me tell you my favorite way. It's a It's It's columns again. It's a"
+  },
+  {
+    "t_start": 2212.87,
+    "t_end": 2218.67,
+    "text": "column at a time. For me, that matrix this matrix multiplication says I take"
+  },
+  {
+    "t_start": 2218.67,
+    "t_end": 2221.39,
+    "text": "this matrix multiplication says I take one of that column and two of that"
+  },
+  {
+    "t_start": 2221.39,
+    "t_end": 2223.23,
+    "text": "one of that column and two of that column and add."
+  },
+  {
+    "t_start": 2223.23,
+    "t_end": 2226.99,
+    "text": "column and add. So, this is in my the way I would think"
+  },
+  {
+    "t_start": 2226.99,
+    "t_end": 2232.87,
+    "text": "is one of the first column and two of the second column"
+  },
+  {
+    "t_start": 2232.87,
+    "t_end": 2237.23,
+    "text": "and two of the second column and and let's just see what we get."
+  },
+  {
+    "t_start": 2239.47,
+    "t_end": 2246.15,
+    "text": "I'm getting a 12 there. In the second component, I'm getting a one and a six,"
+  },
+  {
+    "t_start": 2246.15,
+    "t_end": 2247.71,
+    "text": "component, I'm getting a one and a six, I'm getting a seven."
+  },
+  {
+    "t_start": 2247.71,
+    "t_end": 2248.95,
+    "text": "I'm getting a seven. So, that"
+  },
+  {
+    "t_start": 2248.95,
+    "t_end": 2254.67,
+    "text": "So, that that matrix times that vector is 12 7."
+  },
+  {
+    "t_start": 2254.67,
+    "t_end": 2262.15,
+    "text": "You could do it a row at a time. You could do and you would get this 12,"
+  },
+  {
+    "t_start": 2262.15,
+    "t_end": 2264.87,
+    "text": "You could do and you would get this 12, and actually, I pretty much did it here."
+  },
+  {
+    "t_start": 2264.87,
+    "t_end": 2267.43,
+    "text": "and actually, I pretty much did it here. This way, two I could take that row"
+  },
+  {
+    "t_start": 2267.43,
+    "t_end": 2269.75,
+    "text": "This way, two I could take that row times my vector. This is This is all the"
+  },
+  {
+    "t_start": 2269.75,
+    "t_end": 2277.71,
+    "text": "time. This is the idea of a dot product. This vector times this vector, 2 * 1 + 5"
+  },
+  {
+    "t_start": 2277.71,
+    "t_end": 2280.63,
+    "text": "This vector times this vector, 2 * 1 + 5 * 2 is the 12."
+  },
+  {
+    "t_start": 2280.63,
+    "t_end": 2285.95,
+    "text": "* 2 is the 12. This vector times this vector, 1 * 1 + 3"
+  },
+  {
+    "t_start": 2285.95,
+    "t_end": 2294.15,
+    "text": "So, I can do it by rows and in each row each row times my X is what I'll later"
+  },
+  {
+    "t_start": 2294.15,
+    "t_end": 2296.39,
+    "text": "each row times my X is what I'll later call a dot product."
+  },
+  {
+    "t_start": 2296.39,
+    "t_end": 2301.91,
+    "text": "But I also like to see it by columns. I see this as a linear combination of the"
+  },
+  {
+    "t_start": 2301.91,
+    "t_end": 2305.99,
+    "text": "see this as a linear combination of the columns. So, here's my point. A times X"
+  },
+  {
+    "t_start": 2305.99,
+    "t_end": 2307.87,
+    "text": "columns. So, here's my point. A times X is a"
+  },
+  {
+    "t_start": 2307.87,
+    "t_end": 2310.15,
+    "text": "is a combination"
+  },
+  {
+    "t_start": 2310.15,
+    "t_end": 2314.07,
+    "text": "combination of the columns"
+  },
+  {
+    "t_start": 2316.15,
+    "t_end": 2317.99,
+    "text": "of A. That's"
+  },
+  {
+    "t_start": 2317.99,
+    "t_end": 2322.87,
+    "text": "That's uh how I hope you will think of A times"
+  },
+  {
+    "t_start": 2322.87,
+    "t_end": 2328.23,
+    "text": "when we need it. Right now, we've got with small ones, we can always do it in"
+  },
+  {
+    "t_start": 2328.23,
+    "t_end": 2331.63,
+    "text": "with small ones, we can always do it in different ways, but later,"
+  },
+  {
+    "t_start": 2331.63,
+    "t_end": 2336.23,
+    "text": "different ways, but later, think of it that way."
+  },
+  {
+    "t_start": 2336.23,
+    "t_end": 2337.95,
+    "text": "Okay, so that's uh um"
+  },
+  {
+    "t_start": 2337.95,
+    "t_end": 2344.59,
+    "text": "the picture for uh 2 by 2 system and if the right-hand side B happened to"
+  },
+  {
+    "t_start": 2344.59,
+    "t_end": 2347.43,
+    "text": "and if the right-hand side B happened to be 12 7, then of course, the correct"
+  },
+  {
+    "t_start": 2347.43,
+    "t_end": 2352.07,
+    "text": "be 12 7, then of course, the correct solution would be 1 2."
+  },
+  {
+    "t_start": 2355.63,
+    "t_end": 2359.07,
+    "text": "Okay, so let me come back next time to a systematic way using"
+  },
+  {
+    "t_start": 2359.07,
+    "t_end": 2361.27,
+    "text": "to a systematic way using elimination"
+  },
+  {
+    "t_start": 2361.27,
+    "t_end": 2368.91,
+    "text": "to find the solution, if there is one to any a system of any size"
+  },
+  {
+    "t_start": 2368.91,
+    "t_end": 2371.23,
+    "text": "to any a system of any size and find out"
+  },
+  {
+    "t_start": 2371.23,
+    "t_end": 2376.11,
+    "text": "because the system because eliminate if elimination fails"
+  },
+  {
+    "t_start": 2376.11,
+    "t_end": 2388.71,
+    "text": "elimination fails find out when there isn't a solution."
+  }
+]

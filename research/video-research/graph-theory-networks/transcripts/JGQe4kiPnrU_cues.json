@@ -1,0 +1,2297 @@
+[
+  {
+    "t_start": 2.71,
+    "t_end": 8.07,
+    "text": "imagine a population of users navigating across a connected network of web pages"
+  },
+  {
+    "t_start": 8.07,
+    "t_end": 10.07,
+    "text": "at any point in time every individual user has a choice to randomly pick"
+  },
+  {
+    "t_start": 10.07,
+    "t_end": 12.629,
+    "text": "user has a choice to randomly pick another link to visit"
+  },
+  {
+    "t_start": 12.629,
+    "t_end": 16.71,
+    "text": "the question we're going to focus on today is how one might define a ranking"
+  },
+  {
+    "t_start": 16.71,
+    "t_end": 19.189,
+    "text": "today is how one might define a ranking of pages based on a model of the web"
+  },
+  {
+    "t_start": 19.189,
+    "t_end": 21.429,
+    "text": "of pages based on a model of the web network"
+  },
+  {
+    "t_start": 21.429,
+    "t_end": 25.83,
+    "text": "the particular model we'll focus on in this video is called a markov chain and"
+  },
+  {
+    "t_start": 25.83,
+    "t_end": 27.75,
+    "text": "this video is called a markov chain and what we'll eventually build to is an"
+  },
+  {
+    "t_start": 27.75,
+    "t_end": 29.75,
+    "text": "what we'll eventually build to is an understanding of a remarkably beautiful"
+  },
+  {
+    "t_start": 29.75,
+    "t_end": 32.15,
+    "text": "understanding of a remarkably beautiful algorithm called pagerank which formed"
+  },
+  {
+    "t_start": 32.15,
+    "t_end": 34.63,
+    "text": "algorithm called pagerank which formed the backbone of google search"
+  },
+  {
+    "t_start": 34.63,
+    "t_end": 38.31,
+    "text": "as we like to do on this channel we'll approach pagerank from a discovery"
+  },
+  {
+    "t_start": 38.31,
+    "t_end": 39.99,
+    "text": "approach pagerank from a discovery oriented perspective where we'll"
+  },
+  {
+    "t_start": 39.99,
+    "t_end": 41.67,
+    "text": "oriented perspective where we'll naturally interact with powerful"
+  },
+  {
+    "t_start": 41.67,
+    "t_end": 43.75,
+    "text": "naturally interact with powerful mathematical ideas involving these"
+  },
+  {
+    "t_start": 43.75,
+    "t_end": 55.03,
+    "text": "mathematical ideas involving these markov chain models let's get started"
+  },
+  {
+    "t_start": 61.029,
+    "t_end": 63.75,
+    "text": "a markov chain is defined by a few specific properties in the context of a"
+  },
+  {
+    "t_start": 63.75,
+    "t_end": 66.149,
+    "text": "specific properties in the context of a web network individual web pages"
+  },
+  {
+    "t_start": 66.149,
+    "t_end": 71.109,
+    "text": "correspond to states of the markov chain and going from state to state involves a"
+  },
+  {
+    "t_start": 71.109,
+    "t_end": 73.429,
+    "text": "and going from state to state involves a transition probability"
+  },
+  {
+    "t_start": 73.429,
+    "t_end": 77.35,
+    "text": "in this particular network any user can go from state 3 to state 1 with"
+  },
+  {
+    "t_start": 77.35,
+    "t_end": 80.95,
+    "text": "go from state 3 to state 1 with transition probability 0.5"
+  },
+  {
+    "t_start": 80.95,
+    "t_end": 87.03,
+    "text": "if a user is at state 2 they have a 100 chance of transitioning to state 3."
+  },
+  {
+    "t_start": 87.03,
+    "t_end": 90.789,
+    "text": "in the context of web networks it's common for transition probabilities to"
+  },
+  {
+    "t_start": 90.789,
+    "t_end": 95.51,
+    "text": "be assumed based on the number of outgoing links for example if a web page"
+  },
+  {
+    "t_start": 95.51,
+    "t_end": 97.91,
+    "text": "outgoing links for example if a web page has three outgoing links we assume the"
+  },
+  {
+    "t_start": 97.91,
+    "t_end": 100.069,
+    "text": "has three outgoing links we assume the user is equally likely to transition to"
+  },
+  {
+    "t_start": 100.069,
+    "t_end": 105.27,
+    "text": "user is equally likely to transition to each of the states with probability 1 3."
+  },
+  {
+    "t_start": 105.27,
+    "t_end": 106.95,
+    "text": "it is possible to also alter these probabilities based on some prior"
+  },
+  {
+    "t_start": 106.95,
+    "t_end": 108.63,
+    "text": "probabilities based on some prior knowledge or data"
+  },
+  {
+    "t_start": 108.63,
+    "t_end": 112.149,
+    "text": "so if we change the distribution as follows it would assume that users are"
+  },
+  {
+    "t_start": 112.149,
+    "t_end": 114.31,
+    "text": "follows it would assume that users are much more likely to click on an outgoing"
+  },
+  {
+    "t_start": 114.31,
+    "t_end": 117.429,
+    "text": "much more likely to click on an outgoing link to web page 2."
+  },
+  {
+    "t_start": 117.429,
+    "t_end": 121.749,
+    "text": "now the problem we care about today is ranking the importance of states in the"
+  },
+  {
+    "t_start": 121.749,
+    "t_end": 123.429,
+    "text": "ranking the importance of states in the markov chain"
+  },
+  {
+    "t_start": 123.429,
+    "t_end": 128.15,
+    "text": "a simplified real world use case here is to imagine a user got four web pages"
+  },
+  {
+    "t_start": 128.15,
+    "t_end": 130.309,
+    "text": "to imagine a user got four web pages from a search query"
+  },
+  {
+    "t_start": 130.309,
+    "t_end": 137.67,
+    "text": "each other so they form a markov chain how should we rank the web pages to show"
+  },
+  {
+    "t_start": 137.67,
+    "t_end": 142.15,
+    "text": "how should we rank the web pages to show an end user"
+  },
+  {
+    "t_start": 144.07,
+    "t_end": 146.07,
+    "text": "the first question here is how we should define the importance of a state in a"
+  },
+  {
+    "t_start": 146.07,
+    "t_end": 148.869,
+    "text": "define the importance of a state in a markov chain"
+  },
+  {
+    "t_start": 150.949,
+    "t_end": 155.19,
+    "text": "web pages what might be a good way to rank the relative importance of each web"
+  },
+  {
+    "t_start": 155.19,
+    "t_end": 159.589,
+    "text": "rank the relative importance of each web page"
+  },
+  {
+    "t_start": 161.509,
+    "t_end": 163.75,
+    "text": "while one natural way to think about the importance of web pages is to imagine a"
+  },
+  {
+    "t_start": 163.75,
+    "t_end": 166.15,
+    "text": "importance of web pages is to imagine a single user continuously going from page"
+  },
+  {
+    "t_start": 166.15,
+    "t_end": 168.15,
+    "text": "single user continuously going from page to page according to the markov chain"
+  },
+  {
+    "t_start": 168.15,
+    "t_end": 169.19,
+    "text": "to page according to the markov chain model"
+  },
+  {
+    "t_start": 169.19,
+    "t_end": 172.63,
+    "text": "at each point in time the user is going to be at a particular state of the"
+  },
+  {
+    "t_start": 172.63,
+    "t_end": 174.71,
+    "text": "to be at a particular state of the markov chain and we could maintain a"
+  },
+  {
+    "t_start": 174.71,
+    "t_end": 176.55,
+    "text": "markov chain and we could maintain a counter for the number of times they"
+  },
+  {
+    "t_start": 176.55,
+    "t_end": 178.55,
+    "text": "counter for the number of times they visit a state"
+  },
+  {
+    "t_start": 178.55,
+    "t_end": 182.71,
+    "text": "over a long period of time the states that end up being visited more often can"
+  },
+  {
+    "t_start": 182.71,
+    "t_end": 184.39,
+    "text": "that end up being visited more often can naturally be thought of as having a"
+  },
+  {
+    "t_start": 184.39,
+    "t_end": 186.149,
+    "text": "naturally be thought of as having a higher rank"
+  },
+  {
+    "t_start": 186.149,
+    "t_end": 190.229,
+    "text": "in fact rather than counts we can think of this long-term behavior as a"
+  },
+  {
+    "t_start": 190.229,
+    "t_end": 195.83,
+    "text": "distribution on the proportion of time a single user spends in each state"
+  },
+  {
+    "t_start": 195.83,
+    "t_end": 201.99,
+    "text": "in this particular markov chain if we run this experiment for a long period of"
+  },
+  {
+    "t_start": 201.99,
+    "t_end": 206.63,
+    "text": "time the distribution stabilizes and this distribution is formally called a"
+  },
+  {
+    "t_start": 206.63,
+    "t_end": 207.99,
+    "text": "stationary distribution of a markov chain"
+  },
+  {
+    "t_start": 207.99,
+    "t_end": 213.91,
+    "text": "indicates that the most important state is state 2 where the interpretation of"
+  },
+  {
+    "t_start": 213.91,
+    "t_end": 217.67,
+    "text": "is state 2 where the interpretation of the probability is that a random user"
+  },
+  {
+    "t_start": 217.67,
+    "t_end": 220.309,
+    "text": "who serves this network for a long period of time will spend about 26"
+  },
+  {
+    "t_start": 220.309,
+    "t_end": 225.03,
+    "text": "percent of their time at state 2. what we're going to dive into in this"
+  },
+  {
+    "t_start": 225.03,
+    "t_end": 227.91,
+    "text": "what we're going to dive into in this video is how exactly might we find a"
+  },
+  {
+    "t_start": 227.91,
+    "t_end": 229.91,
+    "text": "video is how exactly might we find a stationary distribution of a markov"
+  },
+  {
+    "t_start": 229.91,
+    "t_end": 230.789,
+    "text": "stationary distribution of a markov chain"
+  },
+  {
+    "t_start": 230.789,
+    "t_end": 234.869,
+    "text": "in what conditions do these stationary distributions even exist"
+  },
+  {
+    "t_start": 234.869,
+    "t_end": 240.55,
+    "text": "how do we efficiently compute them to get into how we calculate stationary"
+  },
+  {
+    "t_start": 240.55,
+    "t_end": 242.07,
+    "text": "to get into how we calculate stationary distributions we have to first"
+  },
+  {
+    "t_start": 242.07,
+    "t_end": 246.07,
+    "text": "distributions we have to first understand how we can model markov"
+  },
+  {
+    "t_start": 246.07,
+    "t_end": 251.03,
+    "text": "at its core a markup chain is a random process involving steps in time"
+  },
+  {
+    "t_start": 251.03,
+    "t_end": 255.19,
+    "text": "a user might start at some initial state and at each step according to the model"
+  },
+  {
+    "t_start": 255.19,
+    "t_end": 257.349,
+    "text": "and at each step according to the model they randomly transition to one of the"
+  },
+  {
+    "t_start": 257.349,
+    "t_end": 259.67,
+    "text": "they randomly transition to one of the possible next locations"
+  },
+  {
+    "t_start": 259.67,
+    "t_end": 263.03,
+    "text": "at every step in time there's a probability of a user being in a"
+  },
+  {
+    "t_start": 263.03,
+    "t_end": 264.87,
+    "text": "probability of a user being in a particular state"
+  },
+  {
+    "t_start": 264.87,
+    "t_end": 268.95,
+    "text": "a natural way to model the state distribution at a particular step n in a"
+  },
+  {
+    "t_start": 268.95,
+    "t_end": 271.11,
+    "text": "distribution at a particular step n in a markov chain is with a vector of"
+  },
+  {
+    "t_start": 271.11,
+    "t_end": 272.71,
+    "text": "markov chain is with a vector of probabilities where the sum of the"
+  },
+  {
+    "t_start": 272.71,
+    "t_end": 278.39,
+    "text": "elements in the vector must equal one usually markov chains are initialized"
+  },
+  {
+    "t_start": 278.39,
+    "t_end": 280.15,
+    "text": "usually markov chains are initialized with the initial state distribution at"
+  },
+  {
+    "t_start": 280.15,
+    "t_end": 285.59,
+    "text": "step zero it's pretty common for the initial distribution across states to be"
+  },
+  {
+    "t_start": 285.59,
+    "t_end": 288.15,
+    "text": "initial distribution across states to be assumed as uniform which intuitively"
+  },
+  {
+    "t_start": 288.15,
+    "t_end": 293.749,
+    "text": "just means we expect the user to start on any web page with equal probability"
+  },
+  {
+    "t_start": 293.749,
+    "t_end": 295.43,
+    "text": "on any web page with equal probability one of the key aspects of analyzing"
+  },
+  {
+    "t_start": 295.43,
+    "t_end": 297.59,
+    "text": "one of the key aspects of analyzing markov chains is understanding how the"
+  },
+  {
+    "t_start": 297.59,
+    "t_end": 299.83,
+    "text": "markov chains is understanding how the distribution across states change at"
+  },
+  {
+    "t_start": 299.83,
+    "t_end": 302.31,
+    "text": "distribution across states change at each step or point in time"
+  },
+  {
+    "t_start": 302.31,
+    "t_end": 307.27,
+    "text": "this leads to a discussion on how we model transitions in a markov chain"
+  },
+  {
+    "t_start": 307.27,
+    "t_end": 310.87,
+    "text": "model transitions in a markov chain let's isolate state 0 of this markov"
+  },
+  {
+    "t_start": 310.87,
+    "t_end": 313.029,
+    "text": "chain and think about how the probability of landing on it after one"
+  },
+  {
+    "t_start": 313.029,
+    "t_end": 314.629,
+    "text": "probability of landing on it after one step works out"
+  },
+  {
+    "t_start": 314.629,
+    "t_end": 318.15,
+    "text": "in order to make this calculation we need to know the probabilities of being"
+  },
+  {
+    "t_start": 318.15,
+    "t_end": 323.51,
+    "text": "need to know the probabilities of being in each of the five states of the markov"
+  },
+  {
+    "t_start": 323.51,
+    "t_end": 325.029,
+    "text": "chain at the previous step in time once we have these probabilities the"
+  },
+  {
+    "t_start": 325.029,
+    "t_end": 327.59,
+    "text": "once we have these probabilities the probability at state 0 is essentially a"
+  },
+  {
+    "t_start": 327.59,
+    "t_end": 329.35,
+    "text": "probability at state 0 is essentially a weighted sum"
+  },
+  {
+    "t_start": 329.35,
+    "t_end": 333.11,
+    "text": "we take the probabilities of each previous state multiply them by the"
+  },
+  {
+    "t_start": 333.11,
+    "t_end": 335.749,
+    "text": "previous state multiply them by the probability of transitioning to state 0"
+  },
+  {
+    "t_start": 335.749,
+    "t_end": 340.07,
+    "text": "probability of transitioning to state 0 from that state and sum over all the"
+  },
+  {
+    "t_start": 340.07,
+    "t_end": 344.79,
+    "text": "if you think about this calculation it's essentially a dot product"
+  },
+  {
+    "t_start": 344.79,
+    "t_end": 348.95,
+    "text": "essentially a dot product we can extend this across all states of"
+  },
+  {
+    "t_start": 348.95,
+    "t_end": 352.23,
+    "text": "if we take all the transition probabilities from state to state and"
+  },
+  {
+    "t_start": 352.23,
+    "t_end": 357.189,
+    "text": "fill them into a matrix where every row index corresponds to the previous state"
+  },
+  {
+    "t_start": 357.189,
+    "t_end": 361.67,
+    "text": "and the column index corresponds to the current state this gives us a transition"
+  },
+  {
+    "t_start": 361.67,
+    "t_end": 364.39,
+    "text": "current state this gives us a transition probability matrix"
+  },
+  {
+    "t_start": 364.39,
+    "t_end": 367.909,
+    "text": "now what's really nice about markov chains is we can find the probabilities"
+  },
+  {
+    "t_start": 367.909,
+    "t_end": 371.51,
+    "text": "chains is we can find the probabilities of landing in each state at the next"
+  },
+  {
+    "t_start": 371.51,
+    "t_end": 376.07,
+    "text": "it's just a matrix vector product of the probabilities at the previous state"
+  },
+  {
+    "t_start": 376.07,
+    "t_end": 379.749,
+    "text": "probabilities at the previous state times the transition matrix"
+  },
+  {
+    "t_start": 379.749,
+    "t_end": 383.029,
+    "text": "now the problem of finding the stationary distribution can be"
+  },
+  {
+    "t_start": 383.029,
+    "t_end": 387.749,
+    "text": "stationary distribution can be formalized a stationary distribution is"
+  },
+  {
+    "t_start": 387.749,
+    "t_end": 392.629,
+    "text": "given a distribution pi we define it as a stationary distribution if after the"
+  },
+  {
+    "t_start": 392.629,
+    "t_end": 394.629,
+    "text": "a stationary distribution if after the next transition the resulting"
+  },
+  {
+    "t_start": 394.629,
+    "t_end": 397.59,
+    "text": "next transition the resulting distribution is also pi"
+  },
+  {
+    "t_start": 397.59,
+    "t_end": 402.309,
+    "text": "if this is the case no matter how many transitions occur after this point the"
+  },
+  {
+    "t_start": 402.309,
+    "t_end": 404.309,
+    "text": "transitions occur after this point the distribution across states will never"
+  },
+  {
+    "t_start": 404.309,
+    "t_end": 405.909,
+    "text": "distribution across states will never change"
+  },
+  {
+    "t_start": 405.909,
+    "t_end": 409.909,
+    "text": "so another natural interpretation of the stationary distribution is that given a"
+  },
+  {
+    "t_start": 409.909,
+    "t_end": 411.43,
+    "text": "stationary distribution is that given a large enough number of users"
+  },
+  {
+    "t_start": 411.43,
+    "t_end": 413.35,
+    "text": "large enough number of users transitioning across states"
+  },
+  {
+    "t_start": 413.35,
+    "t_end": 420.87,
+    "text": "once we reach a stationary distribution the proportion of users that lie in each"
+  },
+  {
+    "t_start": 420.87,
+    "t_end": 424.469,
+    "text": "note that users will continue to transition to different states at each"
+  },
+  {
+    "t_start": 424.469,
+    "t_end": 427.029,
+    "text": "transition to different states at each step but the overall distribution of"
+  },
+  {
+    "t_start": 427.029,
+    "t_end": 430.71,
+    "text": "step but the overall distribution of users across states will remain constant"
+  },
+  {
+    "t_start": 430.71,
+    "t_end": 432.71,
+    "text": "users across states will remain constant before we get into exactly how we might"
+  },
+  {
+    "t_start": 432.71,
+    "t_end": 434.71,
+    "text": "before we get into exactly how we might solve for the stationary distribution"
+  },
+  {
+    "t_start": 434.71,
+    "t_end": 438.39,
+    "text": "it's important to address the question of whether an unique distribution even"
+  },
+  {
+    "t_start": 438.39,
+    "t_end": 440.87,
+    "text": "of whether an unique distribution even exists for a mock-up chain"
+  },
+  {
+    "t_start": 440.87,
+    "t_end": 445.11,
+    "text": "and another critical point to address in our model is if any initial distribution"
+  },
+  {
+    "t_start": 445.11,
+    "t_end": 447.43,
+    "text": "our model is if any initial distribution eventually converges to the stationary"
+  },
+  {
+    "t_start": 447.43,
+    "t_end": 448.79,
+    "text": "eventually converges to the stationary distribution"
+  },
+  {
+    "t_start": 448.79,
+    "t_end": 452.469,
+    "text": "it would be hard to make decisions on ranks of web pages if multiple"
+  },
+  {
+    "t_start": 452.469,
+    "t_end": 454.87,
+    "text": "ranks of web pages if multiple stationary distributions existed or a"
+  },
+  {
+    "t_start": 454.87,
+    "t_end": 461.35,
+    "text": "stationary distribution changes based on the initial distribution of users among"
+  },
+  {
+    "t_start": 461.35,
+    "t_end": 465.27,
+    "text": "let's start with the question of uniqueness i challenge you to find an"
+  },
+  {
+    "t_start": 465.27,
+    "t_end": 467.43,
+    "text": "uniqueness i challenge you to find an example of a markov chain where multiple"
+  },
+  {
+    "t_start": 467.43,
+    "t_end": 470.07,
+    "text": "example of a markov chain where multiple stationary distributions exist"
+  },
+  {
+    "t_start": 470.07,
+    "t_end": 474.23,
+    "text": "this may seem like i'm throwing you off the deep end here so i'll give you a"
+  },
+  {
+    "t_start": 474.23,
+    "t_end": 478.79,
+    "text": "think about a simple example with only two states"
+  },
+  {
+    "t_start": 478.79,
+    "t_end": 483.749,
+    "text": "suppose we had a markov chain with the following transition probabilities"
+  },
+  {
+    "t_start": 483.749,
+    "t_end": 487.83,
+    "text": "for this type of markov chain what's the stationary distribution well if you"
+  },
+  {
+    "t_start": 487.83,
+    "t_end": 489.83,
+    "text": "stationary distribution well if you think about it given any initial"
+  },
+  {
+    "t_start": 489.83,
+    "t_end": 491.11,
+    "text": "think about it given any initial distribution"
+  },
+  {
+    "t_start": 491.11,
+    "t_end": 496.07,
+    "text": "nothing's really going to change because every state transition points to itself"
+  },
+  {
+    "t_start": 496.07,
+    "t_end": 498.39,
+    "text": "every state transition points to itself more formally the transition matrix is"
+  },
+  {
+    "t_start": 498.39,
+    "t_end": 503.589,
+    "text": "simply the identity matrix so any initial distribution by definition is a"
+  },
+  {
+    "t_start": 503.589,
+    "t_end": 506.71,
+    "text": "initial distribution by definition is a stationary distribution"
+  },
+  {
+    "t_start": 506.71,
+    "t_end": 510.309,
+    "text": "so this is where the first important constraint regarding markov chains comes"
+  },
+  {
+    "t_start": 510.309,
+    "t_end": 511.749,
+    "text": "constraint regarding markov chains comes into play"
+  },
+  {
+    "t_start": 511.749,
+    "t_end": 517.589,
+    "text": "property where if a user starts in one state it's impossible for the user to"
+  },
+  {
+    "t_start": 517.589,
+    "t_end": 519.43,
+    "text": "state it's impossible for the user to get to some other state"
+  },
+  {
+    "t_start": 519.43,
+    "t_end": 521.509,
+    "text": "get to some other state these specific markov chains are called"
+  },
+  {
+    "t_start": 521.509,
+    "t_end": 523.829,
+    "text": "these specific markov chains are called reducible markov chains"
+  },
+  {
+    "t_start": 523.829,
+    "t_end": 529.269,
+    "text": "i know what you're thinking and the answer is no i did not make that"
+  },
+  {
+    "t_start": 529.269,
+    "t_end": 532.63,
+    "text": "in fact what we really want for stationary distribution analysis is"
+  },
+  {
+    "t_start": 532.63,
+    "t_end": 539.99,
+    "text": "irreducible markov chains which have the property that any state has a chance to"
+  },
+  {
+    "t_start": 539.99,
+    "t_end": 544.389,
+    "text": "it turns out that for any irreducible markov chain a unique stationary"
+  },
+  {
+    "t_start": 544.389,
+    "t_end": 547.509,
+    "text": "markov chain a unique stationary distribution always"
+  },
+  {
+    "t_start": 547.509,
+    "t_end": 547.829,
+    "text": "distribution always now exists"
+  },
+  {
+    "t_start": 547.829,
+    "t_end": 552.87,
+    "text": "next question for irreducible markov chains is if it's true that any initial"
+  },
+  {
+    "t_start": 552.87,
+    "t_end": 555.03,
+    "text": "chains is if it's true that any initial distribution eventually converges to the"
+  },
+  {
+    "t_start": 555.03,
+    "t_end": 558.15,
+    "text": "distribution eventually converges to the unique stationary distribution"
+  },
+  {
+    "t_start": 558.15,
+    "t_end": 562.07,
+    "text": "unique stationary distribution let's take a moment to discuss what we"
+  },
+  {
+    "t_start": 562.07,
+    "t_end": 565.67,
+    "text": "in this particular markov chain suppose we start off with the uniform"
+  },
+  {
+    "t_start": 565.67,
+    "t_end": 568.31,
+    "text": "we start off with the uniform distribution across all states"
+  },
+  {
+    "t_start": 568.31,
+    "t_end": 572.87,
+    "text": "if we run a markov chain simulation after about 20 steps we end up"
+  },
+  {
+    "t_start": 572.87,
+    "t_end": 574.949,
+    "text": "after about 20 steps we end up converging to a distribution which take"
+  },
+  {
+    "t_start": 574.949,
+    "t_end": 579.43,
+    "text": "converging to a distribution which take my word for it is indeed the stationary"
+  },
+  {
+    "t_start": 579.43,
+    "t_end": 583.75,
+    "text": "now what's remarkable is that for this particular markov chain i can start off"
+  },
+  {
+    "t_start": 583.75,
+    "t_end": 586.15,
+    "text": "particular markov chain i can start off with any initial distribution say for"
+  },
+  {
+    "t_start": 586.15,
+    "t_end": 587.829,
+    "text": "with any initial distribution say for example concentrating all the"
+  },
+  {
+    "t_start": 587.829,
+    "t_end": 590.31,
+    "text": "example concentrating all the probability in state 0"
+  },
+  {
+    "t_start": 590.31,
+    "t_end": 595.43,
+    "text": "and i still end up eventually landing on the same stationary distribution"
+  },
+  {
+    "t_start": 595.43,
+    "t_end": 600.55,
+    "text": "the same stationary distribution this time it takes about 25 steps but"
+  },
+  {
+    "t_start": 600.55,
+    "t_end": 604.63,
+    "text": "in a general sense what we mean by convergence is that any initial"
+  },
+  {
+    "t_start": 604.63,
+    "t_end": 606.949,
+    "text": "convergence is that any initial distribution after a large number of"
+  },
+  {
+    "t_start": 606.949,
+    "t_end": 609.67,
+    "text": "distribution after a large number of steps settles into the eventual"
+  },
+  {
+    "t_start": 609.67,
+    "t_end": 612.87,
+    "text": "steps settles into the eventual stationary distribution"
+  },
+  {
+    "t_start": 612.87,
+    "t_end": 617.19,
+    "text": "my challenge to you now is to see if you can come up with a markov chain where an"
+  },
+  {
+    "t_start": 617.19,
+    "t_end": 619.269,
+    "text": "can come up with a markov chain where an initial distribution does not actually"
+  },
+  {
+    "t_start": 619.269,
+    "t_end": 621.269,
+    "text": "initial distribution does not actually end up converging to the stationary"
+  },
+  {
+    "t_start": 621.269,
+    "t_end": 623.35,
+    "text": "end up converging to the stationary distribution"
+  },
+  {
+    "t_start": 623.35,
+    "t_end": 629.11,
+    "text": "this is a pretty hard task but again think about a simple two state example"
+  },
+  {
+    "t_start": 629.11,
+    "t_end": 631.67,
+    "text": "think about a simple two state example here's the simplest counter example"
+  },
+  {
+    "t_start": 631.67,
+    "t_end": 633.99,
+    "text": "here's the simplest counter example suppose i have a two-state irreducible"
+  },
+  {
+    "t_start": 633.99,
+    "t_end": 637.75,
+    "text": "markov chain where each state has a hundred percent chance of transitioning"
+  },
+  {
+    "t_start": 637.75,
+    "t_end": 639.35,
+    "text": "hundred percent chance of transitioning to the other state"
+  },
+  {
+    "t_start": 639.35,
+    "t_end": 643.11,
+    "text": "to the other state what's the unique stationary"
+  },
+  {
+    "t_start": 643.11,
+    "t_end": 646.55,
+    "text": "the best way to see the issue here with convergence is with two initial"
+  },
+  {
+    "t_start": 646.55,
+    "t_end": 647.75,
+    "text": "convergence is with two initial distributions"
+  },
+  {
+    "t_start": 647.75,
+    "t_end": 651.59,
+    "text": "if we start with the uniform distribution across both states all"
+  },
+  {
+    "t_start": 651.59,
+    "t_end": 654.15,
+    "text": "distribution across both states all transitions will result in no changes"
+  },
+  {
+    "t_start": 654.15,
+    "t_end": 656.23,
+    "text": "transitions will result in no changes and this distribution is indeed the"
+  },
+  {
+    "t_start": 656.23,
+    "t_end": 658.79,
+    "text": "and this distribution is indeed the unique stationary distribution"
+  },
+  {
+    "t_start": 658.79,
+    "t_end": 662.63,
+    "text": "but what if the starting distribution was eighty percent at state zero and"
+  },
+  {
+    "t_start": 662.63,
+    "t_end": 666.55,
+    "text": "was eighty percent at state zero and twenty percent at state one"
+  },
+  {
+    "t_start": 666.55,
+    "t_end": 668.31,
+    "text": "now if we apply transitions the distribution across states never"
+  },
+  {
+    "t_start": 668.31,
+    "t_end": 674.069,
+    "text": "distribution across states never converges it simply oscillates between"
+  },
+  {
+    "t_start": 674.069,
+    "t_end": 677.59,
+    "text": "this brings to light a second key property of markov chains"
+  },
+  {
+    "t_start": 677.59,
+    "t_end": 682.63,
+    "text": "property of markov chains these types of markov chains are called"
+  },
+  {
+    "t_start": 682.63,
+    "t_end": 686.15,
+    "text": "we won't go too in depth into periodic markov chains but there are a couple of"
+  },
+  {
+    "t_start": 686.15,
+    "t_end": 688.15,
+    "text": "markov chains but there are a couple of things to know"
+  },
+  {
+    "t_start": 688.15,
+    "t_end": 691.91,
+    "text": "when discussing these types of mock-off chains we're implicitly assuming that"
+  },
+  {
+    "t_start": 691.91,
+    "t_end": 694.389,
+    "text": "chains we're implicitly assuming that they're also irreducible"
+  },
+  {
+    "t_start": 694.389,
+    "t_end": 700.63,
+    "text": "chains is that if you imagine a user moving from state to state there exists"
+  },
+  {
+    "t_start": 700.63,
+    "t_end": 702.79,
+    "text": "moving from state to state there exists some regular interval greater than one"
+  },
+  {
+    "t_start": 702.79,
+    "t_end": 705.03,
+    "text": "some regular interval greater than one between visits to a node"
+  },
+  {
+    "t_start": 705.03,
+    "t_end": 711.99,
+    "text": "the period is two since for any starting state it's only possible for a user to"
+  },
+  {
+    "t_start": 711.99,
+    "t_end": 713.99,
+    "text": "state it's only possible for a user to get back to the state in regular"
+  },
+  {
+    "t_start": 713.99,
+    "t_end": 716.87,
+    "text": "get back to the state in regular intervals of two steps when markov"
+  },
+  {
+    "t_start": 716.87,
+    "t_end": 718.87,
+    "text": "intervals of two steps when markov chains have this periodic property it"
+  },
+  {
+    "t_start": 718.87,
+    "t_end": 720.71,
+    "text": "chains have this periodic property it means that there exists some initial"
+  },
+  {
+    "t_start": 720.71,
+    "t_end": 722.79,
+    "text": "means that there exists some initial distributions that will oscillate rather"
+  },
+  {
+    "t_start": 722.79,
+    "t_end": 724.629,
+    "text": "distributions that will oscillate rather than converge"
+  },
+  {
+    "t_start": 724.629,
+    "t_end": 729.269,
+    "text": "if no such regular period of greater than one exists for each state we can"
+  },
+  {
+    "t_start": 729.269,
+    "t_end": 733.11,
+    "text": "than one exists for each state we can say the mock-up chain is aperiodic"
+  },
+  {
+    "t_start": 733.11,
+    "t_end": 735.43,
+    "text": "say the mock-up chain is aperiodic markov chains that are irreducible and"
+  },
+  {
+    "t_start": 735.43,
+    "t_end": 737.509,
+    "text": "markov chains that are irreducible and aperiodic have an incredibly cool and"
+  },
+  {
+    "t_start": 737.509,
+    "t_end": 739.509,
+    "text": "aperiodic have an incredibly cool and perhaps surprising property that no"
+  },
+  {
+    "t_start": 739.509,
+    "t_end": 742.389,
+    "text": "perhaps surprising property that no matter what the starting distribution is"
+  },
+  {
+    "t_start": 742.389,
+    "t_end": 744.31,
+    "text": "matter what the starting distribution is as you continuously transition through"
+  },
+  {
+    "t_start": 744.31,
+    "t_end": 745.829,
+    "text": "as you continuously transition through the mock-off chain"
+  },
+  {
+    "t_start": 745.829,
+    "t_end": 750.069,
+    "text": "the mock-off chain the distribution will always converge"
+  },
+  {
+    "t_start": 752.15,
+    "t_end": 753.35,
+    "text": "in our web page example what this means is no matter what the initial"
+  },
+  {
+    "t_start": 753.35,
+    "t_end": 755.19,
+    "text": "is no matter what the initial distribution of users is across web"
+  },
+  {
+    "t_start": 755.19,
+    "t_end": 757.19,
+    "text": "distribution of users is across web pages as long as the markup chain"
+  },
+  {
+    "t_start": 757.19,
+    "t_end": 759.11,
+    "text": "pages as long as the markup chain representing the web graph is"
+  },
+  {
+    "t_start": 759.11,
+    "t_end": 766.069,
+    "text": "irreducible and aperiodic the long-term distribution of the users will converge"
+  },
+  {
+    "t_start": 766.069,
+    "t_end": 771.11,
+    "text": "to stationary distribution which remember provides a good metric to rank"
+  },
+  {
+    "t_start": 771.11,
+    "t_end": 777.35,
+    "text": "started out on a specific web page or if they were distributed evenly across all"
+  },
+  {
+    "t_start": 777.35,
+    "t_end": 779.03,
+    "text": "they were distributed evenly across all web pages"
+  },
+  {
+    "t_start": 779.03,
+    "t_end": 783.19,
+    "text": "after enough steps it is mathematically guaranteed to converge to the unique"
+  },
+  {
+    "t_start": 783.19,
+    "t_end": 784.88,
+    "text": "guaranteed to converge to the unique stationary distribution"
+  },
+  {
+    "t_start": 784.88,
+    "t_end": 787.11,
+    "text": "stationary distribution [Music]"
+  },
+  {
+    "t_start": 787.11,
+    "t_end": 791.03,
+    "text": "this theorem is often called the ergodic theorem for markov chains and it forms"
+  },
+  {
+    "t_start": 791.03,
+    "t_end": 794.71,
+    "text": "theorem for markov chains and it forms the basis of many applications"
+  },
+  {
+    "t_start": 794.71,
+    "t_end": 798.79,
+    "text": "this theorem of course requires a proof but the details require a fairly strong"
+  },
+  {
+    "t_start": 798.79,
+    "t_end": 801.19,
+    "text": "but the details require a fairly strong background in probability theory so for"
+  },
+  {
+    "t_start": 801.19,
+    "t_end": 803.269,
+    "text": "background in probability theory so for the interested viewers i will provide a"
+  },
+  {
+    "t_start": 803.269,
+    "t_end": 805.11,
+    "text": "the interested viewers i will provide a good link in the description to the"
+  },
+  {
+    "t_start": 805.11,
+    "t_end": 806.389,
+    "text": "good link in the description to the proof"
+  },
+  {
+    "t_start": 806.389,
+    "t_end": 810.47,
+    "text": "now the next natural question of course is how do we actually calculate the"
+  },
+  {
+    "t_start": 810.47,
+    "t_end": 813.75,
+    "text": "is how do we actually calculate the stationary distribution practically"
+  },
+  {
+    "t_start": 813.75,
+    "t_end": 817.75,
+    "text": "the first way is perhaps the most straightforward method we start off with"
+  },
+  {
+    "t_start": 817.75,
+    "t_end": 819.99,
+    "text": "straightforward method we start off with an initial random distribution and at"
+  },
+  {
+    "t_start": 819.99,
+    "t_end": 821.91,
+    "text": "an initial random distribution and at every step we multiply the markov"
+  },
+  {
+    "t_start": 821.91,
+    "t_end": 824.15,
+    "text": "every step we multiply the markov transition probability matrix with this"
+  },
+  {
+    "t_start": 824.15,
+    "t_end": 826.23,
+    "text": "transition probability matrix with this distribution"
+  },
+  {
+    "t_start": 826.23,
+    "t_end": 829.91,
+    "text": "after we get the new distribution we simply check if the distance between the"
+  },
+  {
+    "t_start": 829.91,
+    "t_end": 832.15,
+    "text": "simply check if the distance between the new vector distributions is less than"
+  },
+  {
+    "t_start": 832.15,
+    "t_end": 835.03,
+    "text": "new vector distributions is less than some tolerance that we choose"
+  },
+  {
+    "t_start": 835.03,
+    "t_end": 839.03,
+    "text": "when this difference is small enough we claim that we have found the stationary"
+  },
+  {
+    "t_start": 839.03,
+    "t_end": 841.509,
+    "text": "claim that we have found the stationary distribution in a sense you can consider"
+  },
+  {
+    "t_start": 841.509,
+    "t_end": 846.069,
+    "text": "distribution in a sense you can consider this as a brute force method to find the"
+  },
+  {
+    "t_start": 846.069,
+    "t_end": 848.31,
+    "text": "stationary distribution of a mock-up chain"
+  },
+  {
+    "t_start": 848.31,
+    "t_end": 851.75,
+    "text": "the second way to solve for a stationary distribution is to utilize the"
+  },
+  {
+    "t_start": 851.75,
+    "t_end": 853.43,
+    "text": "distribution is to utilize the definition directly"
+  },
+  {
+    "t_start": 853.43,
+    "t_end": 859.43,
+    "text": "features a system of equations and if we can solve it we have a stationary"
+  },
+  {
+    "t_start": 859.43,
+    "t_end": 862.87,
+    "text": "can solve it we have a stationary distribution"
+  },
+  {
+    "t_start": 865.269,
+    "t_end": 867.189,
+    "text": "but there's one problem if you try solving the system of equations you will"
+  },
+  {
+    "t_start": 867.189,
+    "t_end": 870.87,
+    "text": "solving the system of equations you will find that it's actually unsolvable"
+  },
+  {
+    "t_start": 870.87,
+    "t_end": 874.71,
+    "text": "two of these equations end up being redundant information so you can't find"
+  },
+  {
+    "t_start": 874.71,
+    "t_end": 876.31,
+    "text": "redundant information so you can't find a unique solution"
+  },
+  {
+    "t_start": 876.31,
+    "t_end": 881.59,
+    "text": "the trick to solving the system of equations is to add in the implicit"
+  },
+  {
+    "t_start": 881.59,
+    "t_end": 885.43,
+    "text": "constraint that the sum of the individual probabilities must equal 1."
+  },
+  {
+    "t_start": 885.43,
+    "t_end": 889.43,
+    "text": "by replacing one of the markov chain transition equations with the simplicity"
+  },
+  {
+    "t_start": 889.43,
+    "t_end": 893.03,
+    "text": "constraint we can solve for the stationary distribution directly through"
+  },
+  {
+    "t_start": 893.03,
+    "t_end": 896.23,
+    "text": "stationary distribution directly through a linear system solver"
+  },
+  {
+    "t_start": 896.23,
+    "t_end": 899.829,
+    "text": "the final method is my personal favorite because it's quite a cool connection"
+  },
+  {
+    "t_start": 899.829,
+    "t_end": 901.35,
+    "text": "because it's quite a cool connection between markov chains and some"
+  },
+  {
+    "t_start": 901.35,
+    "t_end": 903.99,
+    "text": "between markov chains and some fundamental linear algebra"
+  },
+  {
+    "t_start": 903.99,
+    "t_end": 908.87,
+    "text": "to understand it better let's modify our state transition equation slightly"
+  },
+  {
+    "t_start": 908.87,
+    "t_end": 913.11,
+    "text": "there's an implicit convention to define the markov chain distribution as a row"
+  },
+  {
+    "t_start": 913.11,
+    "t_end": 915.03,
+    "text": "the markov chain distribution as a row vector since it makes the transition"
+  },
+  {
+    "t_start": 915.03,
+    "t_end": 917.43,
+    "text": "vector since it makes the transition probability matrix nicely correspond to"
+  },
+  {
+    "t_start": 917.43,
+    "t_end": 920.31,
+    "text": "probability matrix nicely correspond to the edges of a markov chain"
+  },
+  {
+    "t_start": 920.31,
+    "t_end": 923.99,
+    "text": "but another way to represent the updates of the distribution is through a more"
+  },
+  {
+    "t_start": 923.99,
+    "t_end": 926.389,
+    "text": "of the distribution is through a more standard matrix vector product where we"
+  },
+  {
+    "t_start": 926.389,
+    "t_end": 928.389,
+    "text": "standard matrix vector product where we now represent our distributions as"
+  },
+  {
+    "t_start": 928.389,
+    "t_end": 930.389,
+    "text": "now represent our distributions as column vectors and then multiply the"
+  },
+  {
+    "t_start": 930.389,
+    "t_end": 932.23,
+    "text": "column vectors and then multiply the transpose of our matrix by the"
+  },
+  {
+    "t_start": 932.23,
+    "t_end": 934.71,
+    "text": "transpose of our matrix by the distribution to update it"
+  },
+  {
+    "t_start": 934.71,
+    "t_end": 939.269,
+    "text": "by treating every column of our original matrix as a row and multiplying by a"
+  },
+  {
+    "t_start": 939.269,
+    "t_end": 940.389,
+    "text": "matrix as a row and multiplying by a column vector"
+  },
+  {
+    "t_start": 940.389,
+    "t_end": 946.069,
+    "text": "we get the same dot products as before once we have this representation if you"
+  },
+  {
+    "t_start": 946.069,
+    "t_end": 947.91,
+    "text": "once we have this representation if you think about these column vectors on a"
+  },
+  {
+    "t_start": 947.91,
+    "t_end": 950.389,
+    "text": "think about these column vectors on a coordinate plane we can observe how the"
+  },
+  {
+    "t_start": 950.389,
+    "t_end": 952.55,
+    "text": "coordinate plane we can observe how the updates change the vector over the"
+  },
+  {
+    "t_start": 952.55,
+    "t_end": 954.23,
+    "text": "updates change the vector over the iterations"
+  },
+  {
+    "t_start": 954.23,
+    "t_end": 958.629,
+    "text": "and what we're looking for is a vector where applying the matrix p transpose"
+  },
+  {
+    "t_start": 958.629,
+    "t_end": 961.59,
+    "text": "where applying the matrix p transpose result in the exact same vector"
+  },
+  {
+    "t_start": 961.59,
+    "t_end": 963.509,
+    "text": "result in the exact same vector assuming that this vector always exists"
+  },
+  {
+    "t_start": 963.509,
+    "t_end": 965.509,
+    "text": "assuming that this vector always exists for this matrix what does this imply"
+  },
+  {
+    "t_start": 965.509,
+    "t_end": 967.43,
+    "text": "for this matrix what does this imply about this special vector"
+  },
+  {
+    "t_start": 967.43,
+    "t_end": 971.509,
+    "text": "about this special vector what property of p transpose does it"
+  },
+  {
+    "t_start": 971.509,
+    "t_end": 976.629,
+    "text": "a core concept in linear algebra involves eigenvalues and eigenvectors"
+  },
+  {
+    "t_start": 976.629,
+    "t_end": 981.59,
+    "text": "an eigenvector v of a matrix a has the property that when we take the matrix"
+  },
+  {
+    "t_start": 981.59,
+    "t_end": 983.91,
+    "text": "property that when we take the matrix vector product a times v"
+  },
+  {
+    "t_start": 983.91,
+    "t_end": 989.189,
+    "text": "it scales the eigenvector v by a corresponding eigenvalue lambda"
+  },
+  {
+    "t_start": 989.189,
+    "t_end": 992.629,
+    "text": "if you think about stationary distributions from this perspective"
+  },
+  {
+    "t_start": 992.629,
+    "t_end": 996.87,
+    "text": "distributions from this perspective we're actually looking for a very"
+  },
+  {
+    "t_start": 996.87,
+    "t_end": 1002.069,
+    "text": "specific eigenvector the one that corresponds exactly to the eigenvalue 1."
+  },
+  {
+    "t_start": 1002.069,
+    "t_end": 1004.23,
+    "text": "a remarkable fact is that for irreducible markov chains the state"
+  },
+  {
+    "t_start": 1004.23,
+    "t_end": 1006.949,
+    "text": "irreducible markov chains the state transition matrix p transposed always"
+  },
+  {
+    "t_start": 1006.949,
+    "t_end": 1011.43,
+    "text": "transition matrix p transposed always has an eigenvalue of 1 with the unique"
+  },
+  {
+    "t_start": 1011.43,
+    "t_end": 1015.99,
+    "text": "so a third method for finding stationary distributions of a markov chain is to"
+  },
+  {
+    "t_start": 1015.99,
+    "t_end": 1017.749,
+    "text": "distributions of a markov chain is to simply find the eigenvector"
+  },
+  {
+    "t_start": 1017.749,
+    "t_end": 1024.39,
+    "text": "corresponding to eigenvalue 1 in the transpose of the state transition matrix"
+  },
+  {
+    "t_start": 1024.39,
+    "t_end": 1028.549,
+    "text": "once you have found this eigenvector the stationary distribution is just a scaled"
+  },
+  {
+    "t_start": 1028.549,
+    "t_end": 1033.909,
+    "text": "stationary distribution is just a scaled down version of it that sums to 1."
+  },
+  {
+    "t_start": 1033.909,
+    "t_end": 1040.39,
+    "text": "and i wish it's one that was mentioned more often in a standard linear algebra"
+  },
+  {
+    "t_start": 1040.39,
+    "t_end": 1042.39,
+    "text": "more often in a standard linear algebra class because it's one of the most"
+  },
+  {
+    "t_start": 1042.39,
+    "t_end": 1044.87,
+    "text": "class because it's one of the most natural applications of the concept of"
+  },
+  {
+    "t_start": 1044.87,
+    "t_end": 1047.75,
+    "text": "natural applications of the concept of eigenvalues and eigenvectors"
+  },
+  {
+    "t_start": 1047.75,
+    "t_end": 1051.909,
+    "text": "throughout engineering you'll often see that long-term behavior of systems is"
+  },
+  {
+    "t_start": 1051.909,
+    "t_end": 1054.15,
+    "text": "that long-term behavior of systems is intimately tied to eigenvalues and"
+  },
+  {
+    "t_start": 1054.15,
+    "t_end": 1055.75,
+    "text": "intimately tied to eigenvalues and eigenvectors"
+  },
+  {
+    "t_start": 1055.75,
+    "t_end": 1061.19,
+    "text": "markov chains just happen to be one good example of that"
+  },
+  {
+    "t_start": 1063.669,
+    "t_end": 1065.27,
+    "text": "so to take stock of where we are we have a stationary distribution which is a"
+  },
+  {
+    "t_start": 1065.27,
+    "t_end": 1067.75,
+    "text": "a stationary distribution which is a good measure of the importance of every"
+  },
+  {
+    "t_start": 1067.75,
+    "t_end": 1070.549,
+    "text": "good measure of the importance of every web page in a markov chain"
+  },
+  {
+    "t_start": 1070.549,
+    "t_end": 1072.549,
+    "text": "web page in a markov chain we now have three separate ways to"
+  },
+  {
+    "t_start": 1072.549,
+    "t_end": 1074.87,
+    "text": "we now have three separate ways to calculate the stationary distribution so"
+  },
+  {
+    "t_start": 1074.87,
+    "t_end": 1077.35,
+    "text": "calculate the stationary distribution so here's an interesting question for you"
+  },
+  {
+    "t_start": 1077.35,
+    "t_end": 1079.27,
+    "text": "here's an interesting question for you imagine we tried to find the stationary"
+  },
+  {
+    "t_start": 1079.27,
+    "t_end": 1081.83,
+    "text": "imagine we tried to find the stationary distribution of a massive web network of"
+  },
+  {
+    "t_start": 1081.83,
+    "t_end": 1087.99,
+    "text": "hundreds of millions of web pages which of these three methods do you think will"
+  },
+  {
+    "t_start": 1087.99,
+    "t_end": 1092.47,
+    "text": "let's say we tried solving a system of equations on this massive web network"
+  },
+  {
+    "t_start": 1092.47,
+    "t_end": 1094.39,
+    "text": "equations on this massive web network the big problem here is in practice"
+  },
+  {
+    "t_start": 1094.39,
+    "t_end": 1096.23,
+    "text": "the big problem here is in practice solving a large system of equations can"
+  },
+  {
+    "t_start": 1096.23,
+    "t_end": 1098.07,
+    "text": "solving a large system of equations can be quite expensive"
+  },
+  {
+    "t_start": 1098.07,
+    "t_end": 1102.95,
+    "text": "in the worst case solving linear systems tends to be a cubic time operation which"
+  },
+  {
+    "t_start": 1102.95,
+    "t_end": 1104.87,
+    "text": "tends to be a cubic time operation which can be pretty slow when dealing with the"
+  },
+  {
+    "t_start": 1104.87,
+    "t_end": 1107.43,
+    "text": "can be pretty slow when dealing with the massive scale of web networks"
+  },
+  {
+    "t_start": 1107.43,
+    "t_end": 1111.669,
+    "text": "the eigenvalue method also has a similar problem in the sense that in general"
+  },
+  {
+    "t_start": 1111.669,
+    "t_end": 1113.83,
+    "text": "problem in the sense that in general getting a decomposition of eigenvalues"
+  },
+  {
+    "t_start": 1113.83,
+    "t_end": 1117.35,
+    "text": "getting a decomposition of eigenvalues with eigenvectors takes cubic time"
+  },
+  {
+    "t_start": 1117.35,
+    "t_end": 1119.43,
+    "text": "with eigenvectors takes cubic time so perhaps shockingly practical"
+  },
+  {
+    "t_start": 1119.43,
+    "t_end": 1123.35,
+    "text": "experiments on web networks found that the first brute force method of"
+  },
+  {
+    "t_start": 1123.35,
+    "t_end": 1125.19,
+    "text": "the first brute force method of calculating the stationary distribution"
+  },
+  {
+    "t_start": 1125.19,
+    "t_end": 1132.23,
+    "text": "it turns out that a lot of web networks have relatively fast convergence times"
+  },
+  {
+    "t_start": 1132.23,
+    "t_end": 1134.23,
+    "text": "have relatively fast convergence times most web search use cases converged"
+  },
+  {
+    "t_start": 1134.23,
+    "t_end": 1136.87,
+    "text": "most web search use cases converged within 50 iterations"
+  },
+  {
+    "t_start": 1136.87,
+    "t_end": 1140.15,
+    "text": "now again this depends a lot on the thresholds of how much tolerance you"
+  },
+  {
+    "t_start": 1140.15,
+    "t_end": 1144.549,
+    "text": "thresholds of how much tolerance you have for error the answer that you get"
+  },
+  {
+    "t_start": 1144.549,
+    "t_end": 1146.23,
+    "text": "in 50 iterations is not the true stationary distribution so we are"
+  },
+  {
+    "t_start": 1146.23,
+    "t_end": 1149.669,
+    "text": "cheating a bit but it goes to show the trade-offs that engineers were willing"
+  },
+  {
+    "t_start": 1149.669,
+    "t_end": 1152.95,
+    "text": "trade-offs that engineers were willing to make for something that is good"
+  },
+  {
+    "t_start": 1152.95,
+    "t_end": 1157.029,
+    "text": "sometimes a brute force approximation beats out clever algorithmic"
+  },
+  {
+    "t_start": 1157.029,
+    "t_end": 1162.63,
+    "text": "transformations this is just an excellent example of an engineering"
+  },
+  {
+    "t_start": 1162.63,
+    "t_end": 1166.23,
+    "text": "in some cases a good enough solution is a better choice than the perfect"
+  },
+  {
+    "t_start": 1166.23,
+    "t_end": 1167.75,
+    "text": "a better choice than the perfect solution"
+  },
+  {
+    "t_start": 1167.75,
+    "t_end": 1172.15,
+    "text": "the pagerank algorithm that built the first version of google is fundamentally"
+  },
+  {
+    "t_start": 1172.15,
+    "t_end": 1174.549,
+    "text": "first version of google is fundamentally based on the principles of calculating"
+  },
+  {
+    "t_start": 1174.549,
+    "t_end": 1176.549,
+    "text": "based on the principles of calculating stationary distributions of markov"
+  },
+  {
+    "t_start": 1176.549,
+    "t_end": 1180.39,
+    "text": "chains but there are a few important complexities that the creators needed to"
+  },
+  {
+    "t_start": 1180.39,
+    "t_end": 1182.07,
+    "text": "complexities that the creators needed to address"
+  },
+  {
+    "t_start": 1182.07,
+    "t_end": 1186.31,
+    "text": "after all web pages can do whatever they want and one type of markov chain that"
+  },
+  {
+    "t_start": 1186.31,
+    "t_end": 1187.669,
+    "text": "want and one type of markov chain that gives stationary distribution"
+  },
+  {
+    "t_start": 1187.669,
+    "t_end": 1192.87,
+    "text": "gives stationary distribution calculations a problem is web pages that"
+  },
+  {
+    "t_start": 1192.87,
+    "t_end": 1197.43,
+    "text": "as a result all transitions to the state would never exit the state"
+  },
+  {
+    "t_start": 1197.43,
+    "t_end": 1200.87,
+    "text": "the problem here is it's really hard to determine a ranking of the pages"
+  },
+  {
+    "t_start": 1200.87,
+    "t_end": 1203.11,
+    "text": "determine a ranking of the pages properly since eventually all users"
+  },
+  {
+    "t_start": 1203.11,
+    "t_end": 1205.029,
+    "text": "properly since eventually all users traversing this network will just be"
+  },
+  {
+    "t_start": 1205.029,
+    "t_end": 1209.27,
+    "text": "traversing this network will just be absorbed into state 3."
+  },
+  {
+    "t_start": 1211.029,
+    "t_end": 1212.87,
+    "text": "another issue occurs on the following type of graph"
+  },
+  {
+    "t_start": 1212.87,
+    "t_end": 1219.029,
+    "text": "more web pages linked to each other in such a way where once a user enters they"
+  },
+  {
+    "t_start": 1219.029,
+    "t_end": 1222.549,
+    "text": "such a way where once a user enters they get stuck in a never-ending cycle"
+  },
+  {
+    "t_start": 1222.549,
+    "t_end": 1226.47,
+    "text": "once again if we try to do some sort of stationary distribution calculation on"
+  },
+  {
+    "t_start": 1226.47,
+    "t_end": 1231.029,
+    "text": "stationary distribution calculation on this network it's impossible to rank the"
+  },
+  {
+    "t_start": 1231.029,
+    "t_end": 1237.51,
+    "text": "end up cycling between states 0 and 1. the big problem here is that a lot of"
+  },
+  {
+    "t_start": 1237.51,
+    "t_end": 1239.51,
+    "text": "the big problem here is that a lot of our tools for calculating the stationary"
+  },
+  {
+    "t_start": 1239.51,
+    "t_end": 1242.23,
+    "text": "our tools for calculating the stationary distribution and subsequent ranking rely"
+  },
+  {
+    "t_start": 1242.23,
+    "t_end": 1247.35,
+    "text": "distribution and subsequent ranking rely on the underlying assumption that we are"
+  },
+  {
+    "t_start": 1247.35,
+    "t_end": 1248.87,
+    "text": "working with irreducible and aperiodic markov chains"
+  },
+  {
+    "t_start": 1248.87,
+    "t_end": 1253.35,
+    "text": "the question now is how should we handle markov chains that don't fit this"
+  },
+  {
+    "t_start": 1253.35,
+    "t_end": 1254.63,
+    "text": "markov chains that don't fit this property"
+  },
+  {
+    "t_start": 1254.63,
+    "t_end": 1259.75,
+    "text": "the idea is remarkably simple and it's a classic example of transforming a hard"
+  },
+  {
+    "t_start": 1259.75,
+    "t_end": 1262.47,
+    "text": "classic example of transforming a hard problem into one that we know how to"
+  },
+  {
+    "t_start": 1262.47,
+    "t_end": 1268.95,
+    "text": "perspective of someone who surfs the web suppose a user ends up continuously"
+  },
+  {
+    "t_start": 1268.95,
+    "t_end": 1270.95,
+    "text": "suppose a user ends up continuously transitioning to various web pages and"
+  },
+  {
+    "t_start": 1270.95,
+    "t_end": 1275.51,
+    "text": "transitioning to various web pages and then suddenly they hit a web page"
+  },
+  {
+    "t_start": 1275.51,
+    "t_end": 1277.669,
+    "text": "without any outgoing links what might they do"
+  },
+  {
+    "t_start": 1277.669,
+    "t_end": 1281.19,
+    "text": "well it's reasonable to think that they'll probably just find another web"
+  },
+  {
+    "t_start": 1281.19,
+    "t_end": 1283.43,
+    "text": "they'll probably just find another web page to surf from the network"
+  },
+  {
+    "t_start": 1283.43,
+    "t_end": 1286.07,
+    "text": "page to surf from the network in more technical terms they'll randomly"
+  },
+  {
+    "t_start": 1286.07,
+    "t_end": 1291.35,
+    "text": "in more technical terms they'll randomly select a new state from the markup chain"
+  },
+  {
+    "t_start": 1291.35,
+    "t_end": 1294.31,
+    "text": "and the way we can embed that idea in the mock-off chain is really elegant"
+  },
+  {
+    "t_start": 1294.31,
+    "t_end": 1296.07,
+    "text": "the mock-off chain is really elegant going back to our earlier simpler"
+  },
+  {
+    "t_start": 1296.07,
+    "t_end": 1297.029,
+    "text": "going back to our earlier simpler example"
+  },
+  {
+    "t_start": 1297.029,
+    "t_end": 1302.47,
+    "text": "the core solution is at every step with some probability alpha divided by the"
+  },
+  {
+    "t_start": 1302.47,
+    "t_end": 1304.47,
+    "text": "some probability alpha divided by the number of states will end up"
+  },
+  {
+    "t_start": 1304.47,
+    "t_end": 1306.789,
+    "text": "number of states will end up transitioning to any random state in the"
+  },
+  {
+    "t_start": 1306.789,
+    "t_end": 1308.549,
+    "text": "transitioning to any random state in the network"
+  },
+  {
+    "t_start": 1308.549,
+    "t_end": 1311.83,
+    "text": "you can think of this as a way to simulate the notion that a user might"
+  },
+  {
+    "t_start": 1311.83,
+    "t_end": 1316.23,
+    "text": "just get bored and go off and open a completely random page and then start"
+  },
+  {
+    "t_start": 1316.23,
+    "t_end": 1318.71,
+    "text": "completely random page and then start surfing again"
+  },
+  {
+    "t_start": 1318.71,
+    "t_end": 1322.63,
+    "text": "now it's not enough to just add these random transition probabilities because"
+  },
+  {
+    "t_start": 1322.63,
+    "t_end": 1326.23,
+    "text": "you'll notice that it breaks the assumption of a probability distribution"
+  },
+  {
+    "t_start": 1326.23,
+    "t_end": 1328.63,
+    "text": "assumption of a probability distribution across transitions"
+  },
+  {
+    "t_start": 1328.63,
+    "t_end": 1335.75,
+    "text": "notice these distributions no longer sum to 1. so what we do to solve that"
+  },
+  {
+    "t_start": 1335.75,
+    "t_end": 1338.39,
+    "text": "problem is we add a damping factor of one minus alpha to all the existing"
+  },
+  {
+    "t_start": 1338.39,
+    "t_end": 1340.39,
+    "text": "one minus alpha to all the existing transitions"
+  },
+  {
+    "t_start": 1340.39,
+    "t_end": 1345.029,
+    "text": "in a sense with probability of one minus alpha we'll follow the original markov"
+  },
+  {
+    "t_start": 1345.029,
+    "t_end": 1347.99,
+    "text": "alpha we'll follow the original markov chain transitions but otherwise or"
+  },
+  {
+    "t_start": 1347.99,
+    "t_end": 1351.11,
+    "text": "chain transitions but otherwise or randomly teleport to a new state"
+  },
+  {
+    "t_start": 1351.11,
+    "t_end": 1353.11,
+    "text": "randomly teleport to a new state this basically prevents any state from"
+  },
+  {
+    "t_start": 1353.11,
+    "t_end": 1355.35,
+    "text": "this basically prevents any state from permanently becoming an absorbing state"
+  },
+  {
+    "t_start": 1355.35,
+    "t_end": 1361.19,
+    "text": "and also prevents users from being stuck in a cycle as well mathematically what's"
+  },
+  {
+    "t_start": 1361.19,
+    "t_end": 1363.35,
+    "text": "in a cycle as well mathematically what's going on here is we take our original"
+  },
+  {
+    "t_start": 1363.35,
+    "t_end": 1365.669,
+    "text": "going on here is we take our original transition probability matrix"
+  },
+  {
+    "t_start": 1365.669,
+    "t_end": 1371.99,
+    "text": "multiply by the damping factor and then add alpha over n times a matrix of all"
+  },
+  {
+    "t_start": 1371.99,
+    "t_end": 1373.35,
+    "text": "add alpha over n times a matrix of all ones"
+  },
+  {
+    "t_start": 1373.35,
+    "t_end": 1381.27,
+    "text": "adding the weighted matrix of all ones simulates the idea of any random state"
+  },
+  {
+    "t_start": 1381.27,
+    "t_end": 1383.43,
+    "text": "being picked as the next transition all page rank involves is calculating"
+  },
+  {
+    "t_start": 1383.43,
+    "t_end": 1385.43,
+    "text": "all page rank involves is calculating the stationary distribution of this"
+  },
+  {
+    "t_start": 1385.43,
+    "t_end": 1389.75,
+    "text": "the stationary distribution of this modified markov chain"
+  },
+  {
+    "t_start": 1389.75,
+    "t_end": 1393.35,
+    "text": "throughout this video we've discussed markov chains which implicitly requires"
+  },
+  {
+    "t_start": 1393.35,
+    "t_end": 1395.669,
+    "text": "markov chains which implicitly requires some background and probability"
+  },
+  {
+    "t_start": 1395.669,
+    "t_end": 1398.87,
+    "text": "one of the best ways to learn probability and solidify understanding"
+  },
+  {
+    "t_start": 1398.87,
+    "t_end": 1402.87,
+    "text": "probability and solidify understanding of these concepts is by interacting with"
+  },
+  {
+    "t_start": 1402.87,
+    "t_end": 1404.31,
+    "text": "them directly and solving hands-on problems"
+  },
+  {
+    "t_start": 1404.31,
+    "t_end": 1407.909,
+    "text": "a great tool that provides interactive learning is brilliant the sponsor for"
+  },
+  {
+    "t_start": 1407.909,
+    "t_end": 1409.029,
+    "text": "learning is brilliant the sponsor for this video"
+  },
+  {
+    "t_start": 1409.029,
+    "t_end": 1412.87,
+    "text": "for those of you interested in diving deeper into markov chains brilliant has"
+  },
+  {
+    "t_start": 1412.87,
+    "t_end": 1414.87,
+    "text": "deeper into markov chains brilliant has an excellent module on probability at"
+  },
+  {
+    "t_start": 1414.87,
+    "t_end": 1416.549,
+    "text": "an excellent module on probability at various levels"
+  },
+  {
+    "t_start": 1416.549,
+    "t_end": 1423.029,
+    "text": "practice problems with markov chains and even an in-depth analysis on stationary"
+  },
+  {
+    "t_start": 1423.029,
+    "t_end": 1424.789,
+    "text": "even an in-depth analysis on stationary distributions within the context of"
+  },
+  {
+    "t_start": 1424.789,
+    "t_end": 1426.95,
+    "text": "distributions within the context of quantitative finance the resources"
+  },
+  {
+    "t_start": 1426.95,
+    "t_end": 1430.789,
+    "text": "quantitative finance the resources offered by brilliant provide a great"
+  },
+  {
+    "t_start": 1430.789,
+    "t_end": 1434.31,
+    "text": "all their courses come with elegant interactive visualizations and a great"
+  },
+  {
+    "t_start": 1434.31,
+    "t_end": 1436.07,
+    "text": "interactive visualizations and a great set of practice problems to encourage"
+  },
+  {
+    "t_start": 1436.07,
+    "t_end": 1439.669,
+    "text": "set of practice problems to encourage mastery of the content you can get"
+  },
+  {
+    "t_start": 1439.669,
+    "t_end": 1442.31,
+    "text": "started for free by going to brilliant.org reducible which is linked"
+  },
+  {
+    "t_start": 1442.31,
+    "t_end": 1446.07,
+    "text": "brilliant.org reducible which is linked in the description below brilliant is"
+  },
+  {
+    "t_start": 1446.07,
+    "t_end": 1447.99,
+    "text": "providing a special offer through this channel where the first 200 members to"
+  },
+  {
+    "t_start": 1447.99,
+    "t_end": 1450.39,
+    "text": "channel where the first 200 members to sign up get 20 off the annual"
+  },
+  {
+    "t_start": 1450.39,
+    "t_end": 1451.669,
+    "text": "sign up get 20 off the annual subscription"
+  },
+  {
+    "t_start": 1451.669,
+    "t_end": 1455.669,
+    "text": "it's a great way to learn more about the topics in these videos and also a good"
+  },
+  {
+    "t_start": 1455.669,
+    "t_end": 1458.31,
+    "text": "topics in these videos and also a good way to support this channel big thanks"
+  },
+  {
+    "t_start": 1458.31,
+    "t_end": 1461.75,
+    "text": "way to support this channel big thanks to brilliant for sponsoring this video"
+  },
+  {
+    "t_start": 1461.75,
+    "t_end": 1465.83,
+    "text": "to brilliant for sponsoring this video so to put everything together we start"
+  },
+  {
+    "t_start": 1465.83,
+    "t_end": 1468.789,
+    "text": "off with the web network which can be interpreted as a mock-up chain"
+  },
+  {
+    "t_start": 1468.789,
+    "t_end": 1470.789,
+    "text": "interpreted as a mock-up chain pagerank then tries to find the"
+  },
+  {
+    "t_start": 1470.789,
+    "t_end": 1472.71,
+    "text": "pagerank then tries to find the stationary distribution of a slightly"
+  },
+  {
+    "t_start": 1472.71,
+    "t_end": 1474.31,
+    "text": "stationary distribution of a slightly modified mock-off chain where the"
+  },
+  {
+    "t_start": 1474.31,
+    "t_end": 1476.95,
+    "text": "modified mock-off chain where the transition probability matrix is updated"
+  },
+  {
+    "t_start": 1476.95,
+    "t_end": 1482.39,
+    "text": "transition probability matrix is updated by a damping factor and also accounts"
+  },
+  {
+    "t_start": 1482.39,
+    "t_end": 1486.149,
+    "text": "this final matrix is what pagerank then uses to calculate the stationary"
+  },
+  {
+    "t_start": 1486.149,
+    "t_end": 1488.47,
+    "text": "uses to calculate the stationary distribution by performing iterations"
+  },
+  {
+    "t_start": 1488.47,
+    "t_end": 1492.95,
+    "text": "distribution by performing iterations until the distribution converges up to a"
+  },
+  {
+    "t_start": 1492.95,
+    "t_end": 1499.269,
+    "text": "this final distribution then provides the information needed to make a ranking"
+  },
+  {
+    "t_start": 1499.269,
+    "t_end": 1505.51,
+    "text": "pagerank may be not only one of the most lucrative algorithms ever created but"
+  },
+  {
+    "t_start": 1505.51,
+    "t_end": 1510.07,
+    "text": "lucrative algorithms ever created but also one of the most important in terms"
+  },
+  {
+    "t_start": 1510.07,
+    "t_end": 1513.19,
+    "text": "of defining the domain of search most of you now know the remaining parts"
+  },
+  {
+    "t_start": 1513.19,
+    "t_end": 1517.909,
+    "text": "larry page and sergey brin went on to found google and the rest is history"
+  },
+  {
+    "t_start": 1517.909,
+    "t_end": 1523.0,
+    "text": "found google and the rest is history thanks for watching and i'll see you all"
+  }
+]

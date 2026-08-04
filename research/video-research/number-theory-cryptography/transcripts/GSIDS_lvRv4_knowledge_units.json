@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ku_video_GSIDS_lvRv4_0",
+    "t_start": 0.0,
+    "t_end": 90.7,
+    "type": "overview",
+    "summary": "The thing I wanted to talk about today, um... One of the things is a.. the coolness that is public-private key cryptography The basic idea of how it works I think is uh... is just cool and such clever idea that I want to explain it So everyone is familiar with the basic idea of crypto, where you umm You have a secret key You used that to encode some information which converts it from a readable format to garr garbage effectively ah.. it looks like a random noise You then transfer it to somebody else and they then able to decrypt it and get the message out and anyone who is listening here on yo…"
+  },
+  {
+    "id": "ku_video_GSIDS_lvRv4_91",
+    "t_start": 91.3,
+    "t_end": 183.9,
+    "type": "overview",
+    "summary": "sort of only way people did this but it has a problem which is you both need to know what this key is so if it is you and me. And we want to communicate with one another privately we have to agree on a key that's nobody else gonna guess and we have to share it with one anther um so we might meet in the park in secret and exchange envelopes or whatever this is the kind of things spy used to do, right and the problem with that is first its very inconvinient second, you sometimes can't do it, might be physically separated or we want to do something over internet and we never met the problem is th…"
+  },
+  {
+    "id": "ku_video_GSIDS_lvRv4_184",
+    "t_start": 184.2,
+    "t_end": 274.3,
+    "type": "overview",
+    "summary": "so there's two and what you do is you generate a pair of these keys, which is called key pair and you just pick one of them and say this is my public key right and your public key is public you publish it everywhere you put it you put it at the end of emails your forum posts you...you upload it to keyserver just specialized serve system designed for storing, securely storing people public keys basic idea is it's everywhere out there in the world with your name on it the private key is the other key of this pair that one you keep absolutely secret you can do some cool things with this once you …"
+  },
+  {
+    "id": "ku_video_GSIDS_lvRv4_274",
+    "t_start": 274.7,
+    "t_end": 346.0,
+    "type": "overview",
+    "summary": "that it's an authentic message really from that person so the best thing is that when I do both where i encrypt something from my private key and then your public key and then send it to you and if we communicate like this i know that no body else gonna read the message you know that no body else can read the message you know that message is come from me, not an impostor you also know that the message hasn't been modified because any modification to the message also require the keys that's a great secure system and we didn't have to meet up in the park in a secret way and exchange any informat…"
+  }
+]

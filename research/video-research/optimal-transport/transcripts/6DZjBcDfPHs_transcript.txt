@@ -1,0 +1,1123 @@
+our last speaker of the symposium is Professor cédric Villani elect member of
+Professor cédric Villani elect member of French parliament see Jake is an
+French parliament see Jake is an exceptional mathematician in every way
+exceptional mathematician in every way he worked on partial differential
+he worked on partial differential equations Riemannian geometry and
+equations Riemannian geometry and mathematics physics in 2010 he was
+mathematics physics in 2010 he was awarded the Fields Medal for his
+awarded the Fields Medal for his outstanding work on the kinetic theory
+outstanding work on the kinetic theory of both my equations and nonlinear
+of both my equations and nonlinear Landau damping he said he's my personal
+Landau damping he said he's my personal hero he's a equally well-known for
+hero he's a equally well-known for ultimate transport on which he rode the
+ultimate transport on which he rode the two very beautiful books is a very
+two very beautiful books is a very unusual for mathematician to be elected
+to a parliament for many years to Drake was the director of the Institute Henri
+was the director of the Institute Henri Poincare a made a lasting positive
+Poincare a made a lasting positive impacts he is a great spokesman for
+impacts he is a great spokesman for mathematics to which to whom we are
+mathematics to which to whom we are grateful he also wrote her a popular
+book the birth of a theorem today we are very pleased to listen to him on the
+very pleased to listen to him on the topic to be announced by himself
+topic to be announced by himself
+[Applause] [Music]
+thank you thank you she may everybody hear me Asia including at the back yes
+pleasure to be here part of this event also to be part of an event which is
+also to be part of an event which is associated with the name of de moivre
+and I will also explain why he's one of my the example that I used a lot in my
+my the example that I used a lot in my public speeches and first let me explain
+public speeches and first let me explain why the reason of the image you know I
+why the reason of the image you know I had scheduled to give a handwritten talk
+had scheduled to give a handwritten talk and when I arrived I discover that there
+and when I arrived I discover that there is only this and they told me to put
+which I liked her for several reasons also first it shows that it reminds us
+also first it shows that it reminds us that mathematics can read you everywhere
+that mathematics can read you everywhere because it was during a mathematical
+because it was during a mathematical conference in Algeria that there was
+this beautiful trip in the Sahara Desert and actually that's one of the great
+and actually that's one of the great things of mathematics that it makes you
+travel so much and also it will be this talk will be about the journey you know
+talk will be about the journey you know the road and however about the fact that
+the road and however about the fact that you should not have too precise plans of
+you should not have too precise plans of where you are heading to when you are
+where you are heading to when you are doing research maybe it would to take
+your time or to go on a sideway or whatever
+let me also insist that one of the reasons why I decided to go for
+reasons why I decided to go for handwriting's first I love the
+handwriting's first I love the old-fashioned handwritten talks and
+secondly the beautiful computer talks like we've seen today require a lot of
+time in preparing you can do a talk that is 10 times better with the computer but
+is 10 times better with the computer but it will require you hundred times 100
+times more preparation time and you know when you're a politician in Parliament
+when you're a politician in Parliament you have so little time
+so during this week I had to go to China you know we was part of this
+you know we was part of this presidential visit in in China in total
+presidential visit in in China in total of three days I slept a total of seven
+hours you know there are all kind of things to do everywhere it's impossible
+things to do everywhere it's impossible to focus on the talk that you have to
+precipitation you know so it had to be a talk that is not very much prepared it
+talk that is not very much prepared it will be a bit of a messy talk but I hope
+it will not be a big problem and hopefully it will also be institution
+hopefully it will also be institution for a question interaction also I
+for a question interaction also I understand that there are some very
+young fellows around there yes from the high school yes now people you are the
+hope of the nation of we count on you you are the future etc you are the best
+you are the future etc you are the best and this talk will be impact in Russia
+aimed at you so that I will try to be not too technical but I would insist I
+will tell you about the subject but also about how I came into the subject how I
+change direction etc so title could be sub optimal Road to optimal transport
+sub optimal Road to optimal transport the subject is optimal transport okay I
+will have to write big so that you cannot see right optimal transport is a
+cannot see right optimal transport is a program by which you want to have some
+one place to another and you want to do it in the way that is most economical in
+it in the way that is most economical in the original formulation which goes back
+to the 18th century it was something like this assume that you have some file
+like this assume that you have some file of some earth to dig in and you have to
+reconstruct it in some kind of way you know and how will you transport all the
+know and how will you transport all the material these from here these from
+there etc in such a way as to spend the least amount of energy for the very
+least amount of energy for the very practical problem it was an engineer's
+practical problem it was an engineer's problem but it was an engineer's problem
+which was set by a guy with a very strong mathematical spirit
+this was Gaspar mandra the same guy who was a played an important role and
+was a played an important role and science at the French Revolution who was
+science at the French Revolution who was one of the founders of the culprit
+technique etc and it's one of the example of great mathematicians who were
+example of great mathematicians who were able to think in a very theoretical ways
+but also with very concrete problems in mind and that has been very enriching so
+about I wrote two books on the subject which you may was very kind to mention
+which you may was very kind to mention and I'm very proud of having written
+and I'm very proud of having written these books enormous amount of effort of
+synthesis but I will tell you about a sub-optimal road to go into this subject
+sub-optimal road to go into this subject because the directions which he took for
+because the directions which he took for me were never of direction which I
+intended at first and let me explain you about this so some of the key words that
+about this so some of the key words that we'll be going through this talk are the
+we'll be going through this talk are the power of meetings international travels
+power of meetings international travels travels local and international
+know in research is advice for the young people one of the most important things
+people one of the most important things is how you recognize when you are being
+lucky and how you explode your pieces of luck I had enormous pieces of luck in my
+luck I had enormous pieces of luck in my in my career and the fact that I was
+able to spot them and use them was a completely instrumental unexpected
+developments will be important and also a theme which I like is always teach
+a theme which I like is always teach even if it's for research it's good to
+even if it's for research it's good to teach including teaching stuff that you
+teach including teaching stuff that you don't master yourself so let me go
+through this and let me give you a more precise definition but only slightly
+precise definition but only slightly more precise so imagine that you have a
+picture except that the you know on this side instead of doing it right inside
+side instead of doing it right inside the ground it will be something like up
+the ground something like we are transporting an amount of material like
+transporting an amount of material like this doing something like this let's
+and this is probability measure mu 1 on some space whatever and assume that you
+some space whatever and assume that you have a unit of mass here you it you have
+a certain amount of work to transport it to another position and that will be the
+to another position and that will be the cost of transportation maybe here this
+cost of transportation maybe here this is position x0 this is position x1 and
+this will be the cost to go from x0 to x1 people in the back row is it ok if I
+x1 people in the back row is it ok if I write at this side yes thank you so and
+write at this side yes thank you so and everything yeah I always if is number
+everything yeah I always if is number one thing if you don't if people don't
+one thing if you don't if people don't understand what you are saying this is
+the talk the talk is lost so and each amount of matter that you transport you
+amount of matter that you transport you will pay this cost this is the intuitive
+will pay this cost this is the intuitive way to formulate it there are civil
+way to formulate it there are civil rigorously real mathematical ways to
+formulate it one way is like probability to say that you want to minimize the
+expected value of the cost to go from the of the this is the cost see this is
+the of the this is the cost see this is random variable X naught this is random
+variable x1 and you want to do this of all possible couple realizations of X 0
+X 1 such that the load of X 0 is equal to mu 0 so that is a distribution of X 0
+to mu 0 so that is a distribution of X 0 and the law of X 1 is equal to mu 1 that
+state it in trouble istic terms let me give you another way which is equivalent
+give you another way which is equivalent this will be let's write it this way
+this will be let's write it this way minimum of double integral of C of X Y
+square PI of DX dy well this is a joint probability measure imagine that this is
+probability measure imagine that this is a the space of X 0 this is the space of
+like X 0 X 1 DX 0 DX 1 will be better an imaginary probability measure here it's
+imaginary probability measure here it's like you know some continuous
+like you know some continuous distribution there when I integrate in
+distribution there when I integrate in this way I see mu 0 sitting here when I
+I see mu 1 sitting here and I think of this drug distribution measure as the
+this drug distribution measure as the plan
+it's my if I am engineer this is the transportation plan telling me
+every time I have some mass x0 here how much I should move from this place x0 to
+much I should move from this place x0 to this place x1 so that the transport be
+this place x1 so that the transport be as efficient as possible okay there are
+other there are other possible ways to reformulate this problem but so far you
+have the the idea so it tells you that it's about the optimal way to transport
+it's about the optimal way to transport one probability measure to another so
+it's part of probability measure if you want but it's also part of optimization
+because you want to make something as small as possible and it turns out it
+small as possible and it turns out it can also be recast as a problem in
+features here in the cost x0 x1 so for instance if you work in a twilight to
+instance if you work in a twilight to the square here sorry there's no square
+the square here sorry there's no square but very often the cause that you will
+put will be something like x0 minus x1 square square distance if it's a norm if
+square square distance if it's a norm if you are working in the Euclidean space
+or if you are working in a geometric setting it may be distance from x0 to x1
+setting it may be distance from x0 to x1 or distance from x0 to x1 with a power
+tool or with a power P and these problems has turned out to be extremely
+problems has turned out to be extremely efficient also to work out in geometric
+context actually in geometry you know maybe the most basic concepts of
+maybe the most basic concepts of geometry that goes beyond Euclidean
+geometry that goes beyond Euclidean context is one of geodesic what is
+geodesic you have one point another point and you ask which is the shortest
+point and you ask which is the shortest path to go from this to that point so
+path to go from this to that point so it's an optimization problem it's part
+it's an optimization problem it's part of calculus of variations that the basis
+of calculus of variations that the basis of geometry so also here is an
+optimization problem in which I am minimizing and actually you can see this
+minimizing and actually you can see this thing as a kind of geodesic problem in
+thing as a kind of geodesic problem in which probability theory is incorporated
+which probability theory is incorporated so mixing the geodesic idea with the
+idea of probability measure how did I go into this subject at first let me tell
+into this subject at first let me tell you because as you mentioned I was
+you because as you mentioned I was trained in partial differential
+equations and the kinetic theory which is theory of gases and and plasmas and
+is theory of gases and and plasmas and it turns out that in the seventies
+it turns out that in the seventies Japanese mathematician named Tanaka had
+Japanese mathematician named Tanaka had showed the following ok never mind it
+doesn't distract you too much this no ok so Tanika had said the following it was
+so Tanika had said the following it was in the 70s
+if you define that will be to of measure one measure two to be the square root of
+one measure two to be the square root of the optimal transport cost to go from
+Museum to mu1 you know that is solving the problem of transporting mu zero to
+the problem of transporting mu zero to mu1 most efficiently possible when the
+mu1 most efficiently possible when the cost is equal to x0 minus x1 square
+square of distance that is you pay a very high price when your particles are
+very high price when your particles are far apart and this is in our dish maybe
+far apart and this is in our dish maybe R is equal to three and this you have to
+think of in physics as the space of velocities then when you look at a
+velocities then when you look at a certain kind of Boltzmann equation which
+certain kind of Boltzmann equation which is the equation describing gases you see
+that as one of your solutions of the Boltzmann equation evolves with time
+let's say mu zero T as time goes and the other will be mu one T as time goes to
+other will be mu one T as time goes to different solutions evolving with time
+different solutions evolving with time through collisions making the
+through collisions making the probability distribution change from
+time to time then you will see that the distance between mu zero T and mu one T
+distance between mu zero T and mu one T is a decreasing function of time so that
+is a decreasing function of time so that your two solutions become closer and
+closer to each other and why was the NACA interested in this to give a new
+solution a new proof of one of the most basic facts in k-tec theory that is when
+basic facts in k-tec theory that is when you let gas act through collisions
+you let gas act through collisions between the particles then the
+between the particles then the probability distribution of velocities
+converges to a Gaussian velocity to Gaussian distribution so he was able to
+Gaussian distribution so he was able to give a new
+proof that for any solution of the Boltzmann equation probability
+distribution of velocity as time go to infinity it will converge to this
+infinity it will converge to this familiar bell-shaped curve like the
+Gaussian you know we call this curve cows but who was the first to discover
+cows but who was the first to discover it
+de moivre here and do have discovered it like it was very unexpected theorem like
+like it was very unexpected theorem like the maybe the first very advanced
+the maybe the first very advanced theorem of probability theory when you
+look at say a game of heads and and tails and you throw up your coin in the
+tails and you throw up your coin in the air and you count the head and the tail
+you know and I've read it will be 50% 50% but you can look at the you can look
+50% but you can look at the you can look at the error the error will be smaller
+at the error the error will be smaller and smaller as a number of trials
+increases when we let see what is the distribution of that error if you make a
+distribution of that error if you make a zoom so that it gets fixed as the number
+of trials increases you will see a beautiful cows distribution a beautiful
+beautiful cows distribution a beautiful curve like this with an equation that is
+minus v square divided by something and the mob was the first to get this very
+the mob was the first to get this very particular function you know when we
+particular function you know when we learn the beginning of probability
+theory we were told about the law of large numbers it's not obvious to prove
+but that this is intuitive you know if I threw my coin in the air many many times
+threw my coin in the air many many times it will be 50% 50% a child can believe
+it will be 50% 50% a child can believe this but why does this come from no
+this but why does this come from no child will understand where it comes
+child will understand where it comes from it's really advanced and unexpected
+from it's really advanced and unexpected and that's one of the great things the
+Maya did apart from that the world is a great example because he was a French
+great example because he was a French you know you know from the Protestant
+and he had to escape from France after the when the non treaty was revoke 18 by
+the when the non treaty was revoke 18 by louis xiv and they
+religious persecution and it's a great example of the talent that you can lose
+example of the talent that you can lose when you have an approach which is not
+when you have an approach which is not tolerant and when you start segregating
+tolerant and when you start segregating people and so on so it's a lesson we
+should never forget when you try start to put barriers and prevent the freedom
+to put barriers and prevent the freedom you are losing talent to the outside
+okay that is for demova let's go back to Tanika and Boltzmann equation so far so
+Tanika and Boltzmann equation so far so good I took it would be little bit
+confused but anyway so I was I was a student and very interested in this and
+student and very interested in this and I happen to discuss with my with the
+I happen to discuss with my with the supervisor of studies in economics
+appear here when I was his name was Ian Bruni Asia and it turned out that goony
+Bruni Asia and it turned out that goony was interested in this same kind of
+was interested in this same kind of optimal transport things but for
+optimal transport things but for completely different reasons he was an
+completely different reasons he was an expert of fluid mechanics and particular
+expert of fluid mechanics and particular incompressible fluid mechanics working
+on the Euler equation and trying to construct some real solutions of Euler
+construct some real solutions of Euler equation and he had found out that by
+using in a clever way this optimal transport problem of most he was able to
+transport problem of most he was able to construct unexpected solutions of the
+construct unexpected solutions of the Euler equation and so we started
+discussing with this and he told me wow that is great and it's very funny
+that is great and it's very funny because there is lot of work currently
+because there is lot of work currently on this optimal transport problem and he
+on this optimal transport problem and he showed me a paper I told me you know
+showed me a paper I told me you know this is a young German guy his name is
+Otto he is working on this kind of problem also from partial differential
+problem also from partial differential equation but from a completely different
+perspective related to heat diffusion equations then we started discussing
+with this body at some point he said why don't we organize a conference together
+don't we organize a conference together in which we will discuss about various
+aspects related to the dis optimal transport thing I said yes of course of
+transport thing I said yes of course of course I had to organize a lot of things
+you a lot also and I did not present my own work instead I rather explain the
+own work instead I rather explain the work of Tanaka
+even though it was decades old and I explained how it was interesting in
+explained how it was interesting in perspective etc and Otto presented his
+perspective etc and Otto presented his stuff about
+you can use optimal transport to get a new point of view on the heat equation
+new point of view on the heat equation and I listened to his talk carefully it
+and I listened to his talk carefully it was it seemed a bit abstract it seemed a
+was it seemed a bit abstract it seemed a bit real it was different from all the
+other the other talks and we had a good discussion and now a great piece of luck
+which P occurred to me later was that a few weeks after that I was happening to
+few weeks after that I was happening to be reading a course on probability
+be reading a course on probability theory by initial LeDoux from tourism
+theory by initial LeDoux from tourism one of the advisors in my jury
+one of the advisors in my jury specialist of Boltzmann equation had
+specialist of Boltzmann equation had told me take a look at the law to work
+it's not your PhD theme exactly but maybe it's related you will find some
+maybe it's related you will find some interesting example in there so I
+started to read the little book and I thought wow this is fantastic a problem
+and so on and at some point I see one of the children that was explained by Lulu
+the children that was explained by Lulu it was through him by telling her about
+so-called concentration of measure and it was a certain relation in certain
+it was a certain relation in certain spaces it could be probability measure
+spaces it could be probability measure relation with the optimal transport
+problem with the entropy problem which is a way to measure the disorder in the
+is a way to measure the disorder in the Boltzmann framework and with the so
+Boltzmann framework and with the so called measure concentration problem
+space and a certain set C for a B T 1/2 and when you enlarge this set how fast
+and when you enlarge this set how fast do you increase the probability measure
+do you increase the probability measure and there was a little by telegraph
+and there was a little by telegraph which was you know explaining how it was
+which was you know explaining how it was related giving some relation between
+related giving some relation between this and I looked at this result and I
+this and I looked at this result and I thought there has to be a connection
+with the talk by auto which I heard a few weeks ago I am sure there is the
+few weeks ago I am sure there is the connection it's often in mathematics
+that good ideas come from connected to connecting to things and they indeed it
+connecting to things and they indeed it took me about ok it took me quarter of
+took me about ok it took me quarter of hour to find the connection but it was
+often the case that our first fries are wrong then a bit more work and I found
+wrong then a bit more work and I found the connection right even it was formal
+the connection right even it was formal and then I rediscovered with Otto and we
+and then I rediscovered with Otto and we published the paper together which was
+published the paper together which was not about a new theorem but about a new
+not about a new theorem but about a new proof of a theorem which was already
+stated in this way it was not a big deal I am exaggerating a little bit there was
+so quite some work but it was you know work of a week's worth of work something
+work of a week's worth of work something like this and my friend this is my most
+like this and my friend this is my most quoted paper of all my career not that
+it is the most important you know one should not it's not that your paper is
+should not it's not that your paper is the most quoted that it is automatically
+neither neither way also but still I think his paper one had some importance
+think his paper one had some importance and it came from piece of rock and from
+and it came from piece of rock and from the fact that I was attending these two
+the fact that I was attending these two events none of which was directly
+events none of which was directly connected with my PhD but having some
+connected with my PhD but having some some kind of relation another thing
+some kind of relation another thing which was important in the little toe in
+which was important in the little toe in the little course in that this is the
+first place in which I heard about the lazy gum off is a parametric inequality
+lazy gum off is a parametric inequality which I will explain about and which I
+which I will explain about and which I was fascinated by immediately so let me
+before I go into this lady guava let me mention the sequel and again it would be
+mention the sequel and again it would be the kind of joyful Celtic randomness
+that that can happen to you in the or in the career we found with Otto this proof
+the career we found with Otto this proof of new theorem I will not tell you
+of new theorem I will not tell you exactly which theorem it was but anyway
+at a short distance from that I was invited in Atlanta by Eric Allen who was
+invited in Atlanta by Eric Allen who was member of my jewelry and expecting me to
+member of my jewelry and expecting me to present some results about Boltzmann
+equation and when I arrived at the seminar I talked of Boltzmann equation
+seminar I talked of Boltzmann equation but I also talked about why the work
+that we did with Otto it was a good piece of chance that in the audience
+piece of chance that in the audience there was Wilfred gumbo who was a
+there was Wilfred gumbo who was a specialist of optimal transport and who
+specialist of optimal transport and who thought wow
+this thing is completely new and he was an expert on the subject but he was very
+much excited by this and he thought there was there was something that we
+there was there was something that we have to make further and we got along
+well together we were freed so he arranged that I could come again and
+arranged that I could come again and spend one semester in Atlanta for being
+spend one semester in Atlanta for being a visiting professor I said of course
+yes I want to come and what should I do and he told us it would be great if you
+and he told us it would be great if you could teach us a course on optimal
+could teach us a course on optimal transport now to make sure at that time
+transport now to make sure at that time I only had one small contribution to
+I only had one small contribution to optimal transport theory but the great
+majority of the theory I could not claim to be an expert in anyway so the natural
+to be an expert in anyway so the natural situation would have been something like
+situation would have been something like you know I'm not an expert in optimal
+transport let me to make a course on Bushmen equation and I will perfect
+myself in optimal transport with you and then later we can see what we can do but
+then later we can see what we can do but instead I said yes I will teach optimal
+instead I said yes I will teach optimal transport my friends teaching is by far
+the best way to learn a subject so I spent a semester working out this course
+spent a semester working out this course on Atlanta about optimal transport
+preparing my course at city Ryan in the end this course became my first book on
+reference textbook kind of in the in the shield and after teaching this course I
+could say ok now I'm an expert I've read these dozens and dozens of papers I know
+these dozens and dozens of papers I know the various proofs and making
+developments etc and the story doesn't finish there after that there were a few
+finish there after that there were a few developments but you see on this example
+developments but you see on this example the power that can have on your career
+the exchanges and the ability to be ready to to teach now let me tell you a
+ready to to teach now let me tell you a bit more about lady come up and this
+bit more about lady come up and this will be the transition to the sequel of
+will be the transition to the sequel of the talk you many of you maybe most of
+you maybe all of you know about the isoparametric inequality is a parametric
+isoparametric inequality is a parametric inequality the classical one is the
+it's something that feeds you what say you are in ahran ahran and it's you
+kiddin space on and you are considering a certain set with a certain measure so
+a certain set with a certain measure so maybe the set is a and it has a certain
+lebesgue measure and you will consider the ball the euclidean ball which has
+the same measure let's call this alpha' and let's assume that this is the ball
+bish with the measure that is equal to alpha volume is alpha then the volumes
+are equal then the measure of the surface of this the surface of this has
+to be at least the surface of this so let's write it like let's write it like
+let's write it like let's write it like surface of a is bounded below by the
+principle and you know it's used to explain about the shape of bubbles
+air inside is fixed so the volume is given but the energy is minimized when
+given but the energy is minimized when the surface is as small as possible so
+that's why you have round bubbles etc it's one of the most fundamental
+it's one of the most fundamental inequalities in geometry so prototype of
+inequalities in geometry so prototype of geometric analysis on and it's the
+geometric analysis on and it's the motivation of many many developments now
+motivation of many many developments now this is a theorem about Euclidean
+geometry what can we say about non Euclidean geometry then there are a
+Euclidean geometry then there are a number of possibilities of ways to
+generalize this but one of the most satisfactory is the following and is
+satisfactory is the following and is known as the lady gamma is a parametric
+so what does it say take and dimensional geometry Romanian manifold as we say so
+geometry Romanian manifold as we say so you have this geometry with the the
+you have this geometry with the the surface or generalized surface maybe in
+surface or generalized surface maybe in many dimensions let's call it let's call
+it Emma and it has dimension N and on there there is a way to measure distance
+there there is a way to measure distance which is the geodesic distance there is
+way to measure the surface etc and you are taking a certain set let's call it a
+are taking a certain set let's call it a you know maybe it's a messy set it's a
+you know maybe it's a messy set it's a part of your manifold and let's assume
+part of your manifold and let's assume let's write let's assume that the volume
+let's write let's assume that the volume of a divided by the volume of your
+be if alpha is half of the set M in the sense of volume alpha will be equal to
+1/2 and okay you want to compare it with some other sets in some other geometry
+some other sets in some other geometry if your manifold is something very
+if your manifold is something very irregular whatever it doesn't mean
+irregular whatever it doesn't mean anything illusion of a particular ball
+okay you may define a ball as a set of points which lie at a certain distance
+points which lie at a certain distance from a point but it may be very messy
+too instead of the past which non neutral and geometry has chosen to go is
+neutral and geometry has chosen to go is by comparing it with the sphere so this
+by comparing it with the sphere so this will be a sphere and what you will try
+will be a sphere and what you will try to compare the situation to situation
+occurring on the sphere even the idea that the sphere is maybe the most simple
+that the sphere is maybe the most simple non Euclidean geometry that you can
+think of now to define us here you need to know about the dimension and you need
+to know about the dimension and you need to know about the diameter of the sphere
+equivalently you need to know about the curvature of the sphere you know if it's
+very small curvature will be high if it's large the curvature will be low and
+radius that you want to take will be square root of n minus 1 divided by K
+square root of n minus 1 divided by K and this K here you take as a lower
+and this K here you take as a lower found on the curvature here curvature of
+found on the curvature here curvature of M being bounded below by K here let me
+M being bounded below by K here let me not be very precise about this curvature
+not be very precise about this curvature the current not even the correct meaning
+of curvature here is the so-called Ricci curvature which is a famous for its tied
+curvature which is a famous for its tied with general relativity and also the
+with general relativity and also the fact that it appears everywhere in
+fact that it appears everywhere in certain branches of intersection of
+certain branches of intersection of probability theory and geometric theory
+actually whenever you have problems with some kind of is a parametric content you
+some kind of is a parametric content you can be sure the natural curvature
+involved would be the Ricci curvature so and what you do is this you consider the
+and what you do is this you consider the ball here B that is set of points which
+are at distance which is no more than a certain diet radius from a certain point
+certain diet radius from a certain point here and you chose your ball in such a
+way that the volume of the bore divided by the volume of this here is equal to
+alpha also okay so it's the same as having the same volume that we saw
+having the same volume that we saw before and then what the theorem says
+before and then what the theorem says that if this situation is correct then
+that if this situation is correct then the surface here of this set is not less
+the surface of this divided by the total volume okay of course I should have made
+volume okay of course I should have made some compromise about the yes this way
+it will be okay maybe so the surface let's write it this way of a divided by
+let's write it this way of a divided by the volume of M is bounded below by the
+surface of the ball B divided by the volume of the ball so you see it really
+volume of the ball so you see it really sounds like these are parametric
+inequality that we saw in the Euclidean case but it's a non Euclidean version
+case but it's a non Euclidean version it's a sharp in many respects it's
+really let me say that it's really a beautiful inequality first guessed by a
+beautiful inequality first guessed by a lady in the 50s probably with a poo that
+was non-rigorous reproved by Gromov in the
+which proof that was rigorous but that was a bit crazy personal question yes
+hello Sigma oh this is s Thank You Pascal ok contradiction is important in
+Pascal ok contradiction is important in our field and it's the basis for a
+our field and it's the basis for a number a number of developments actually
+number a number of developments actually Livi was interested in this precisely
+for same kind of stuff that al Adha was interested in problem about measure few
+interested in problem about measure few ish because for instance once you know
+once you have an information like this concentration of measure once you have
+concentration of measure once you have an information if you know an
+information about the volume of the set a it implies the information on the
+surface then when you increase the set by enlarging it the information of the
+by enlarging it the information of the surface will in fly in time information
+surface will in fly in time information on how far how fast the volume of the
+on how far how fast the volume of the set will increase also so it will be
+set will increase also so it will be part of the same problem of
+concentration of measure which lady is considered to be the founder of many
+considered to be the founder of many applications so in probability theory
+applications so in probability theory etc the proof by romoff was beautiful
+etc the proof by romoff was beautiful but natural in a way but resting and
+but natural in a way but resting and very very sophisticated tools tools
+about geometric measure theory that you don't want to hear about let me just say
+that the first step of the proof is to find a set a which is optimal which
+find a set a which is optimal which achieves the worst possible situation in
+achieves the worst possible situation in the inequality and it's like finding a
+problem and these problems are not to known to be extremely technical relying
+on huge proofs and ok we can use these big black boxes and be happy with it but
+big black boxes and be happy with it but we may also say come on if I use a very
+we may also say come on if I use a very sophisticated tools it will be difficult
+sophisticated tools it will be difficult to generalize it will be difficult to
+optimize or change the parameters it will not adapt to modern or situation
+maybe it's not for instance if you replace the smooth geometry that is here
+replace the smooth geometry that is here by a non-smooth geometry the proof
+by a non-smooth geometry the proof breaks down for instance eeeww if you
+breaks down for instance eeeww if you want to put some errors it will break
+want to put some errors it will break down and so on and so you would like
+down and so on and so you would like also to find the better proof better in
+also to find the better proof better in the sense that it is more elementary
+the sense that it is more elementary more elementary meaning that you control
+all the parameter that you can generalize it to a non smooth situation
+etc and from the start for many years it was really considered let's try to find
+was really considered let's try to find a solution of this which is based on
+a solution of this which is based on optimal transport fumes now I never
+myself try to be involved in this kind of thing first by myself until in 2004
+of thing first by myself until in 2004 in Berkeley I met American mathematician
+in Berkeley I met American mathematician John Lott I will say it again kind of
+John Lott I will say it again kind of circumstances which is interesting I was
+circumstances which is interesting I was there in Berkeley as a young professor
+there in Berkeley as a young professor visiting professor under the auspice
+visiting professor under the auspice ality of the mirror Institute with a
+beautiful visiting program in which there was no research obligation new
+there was no research obligation new teaching obligation and no
+do in the mirror Institute was to have lunch once a week with the other fellows
+lunch once a week with the other fellows of the mirror Institute and tell them
+of the mirror Institute and tell them about what I was doing
+yes for this I was paid three times my French salary and a kind of good
+French salary and a kind of good conditions in which dv4 understand that
+conditions in which dv4 understand that it's good to have you near the place to
+participate in this and not to put too much constraints
+however Berkeley environment was tough for the young professor that I was
+department many famous researchers very very busy all the time and I was there
+very busy all the time and I was there wondering what can I do what kind of
+collaboration can I do in the end I ended up collaborating with another guy
+ended up collaborating with another guy who was also a visitor there not one of
+the Berkeley people he was there by chance her name was Charlotte and one
+chance her name was Charlotte and one day he arrived in my office and told me
+oh I read your paper with Otto it's very interesting what you did and
+it's very interesting what you did and we are going to do some fundamental work
+we are going to do some fundamental work in geometry with this with a new
+in geometry with this with a new definition of the Ricci curvature that
+definition of the Ricci curvature that is beta optimal transport I said what
+is beta optimal transport I said what really I didn't know of all his problems
+and I had to learn about what he was saying this was the start of me going
+saying this was the start of me going into romanian geometry as you said very
+into romanian geometry as you said very important or so is that by that time I
+important or so is that by that time I had spent a few years already in the
+had spent a few years already in the economic superior de Leon research
+economic superior de Leon research environment in which I moved in the
+around 2000 in which the spirit was much more multidisciplinary in a way than
+more multidisciplinary in a way than what I had known before in in Paris and
+geometry the fact that I went into this was also psychologically at least due to
+was also psychologically at least due to the fact that I was discussing in your
+than I had been discussing with the parrot geometers advice for young people
+parrot geometers advice for young people change environment from time to time
+it's not just the specialized skill that you get there it is different spirits
+you get there it is different spirits some places will be very good at some
+be good at other things and depending on where you are you feel differently what
+where you are you feel differently what you are able to do so together with lot
+theory of how to deal with curvature in a way that is not based on the fancy
+a way that is not based on the fancy differential geometry but based on
+differential geometry but based on probability theory basic probability and
+probability theory basic probability and here is the definition which we worked
+on together with other people about the curvature let me give you this
+curvature let me give you this definition imagine that you have the
+definition imagine that you have the space this is a metric space so this is
+space this is a metric space so this is a distance and this is a measure okay a
+measure maybe if we are nuclear in space or the volume measure if we are in a non
+if the space is curved unless I say that we want to know if the curvature of the
+we want to know if the curvature of the space is non-negative okay and we want
+space is non-negative okay and we want to do it in a very elementary way
+to do it in a very elementary way we may be able to explain with two
+we may be able to explain with two physicists without using any
+physicists without using any sophisticated notion of differential
+calculation or whatever just a bit of measure Furion probability so what here
+measure Furion probability so what here is a way to do here is a way to define
+have a transport to do on this pace with one probability measure mu 0 another
+probity measure mu 1 recognize the situation and I transfer the measure I
+move the mass mu 0 to the mass mu 1 you know and in a way which is as economical
+know and in a way which is as economical as possible as efficient as possible
+with a cost function that is C of x0 x1 is the distance from X 0 to X 1 to the
+square ok and all around the way I do this interpolation you know going from M
+this interpolation you know going from M 0 to MU 1 so it's as if I am choosing
+the optimal way and transporting you know continuously from time 0 to time
+know continuously from time 0 to time when these things each particle going
+when these things each particle going from the initial position to the final
+from the initial position to the final position with a certain longer Jodie's
+position with a certain longer Jodie's equation and all along the way the
+equation and all along the way the probability measure will change
+so maybe assume this is viewed from the let's say this is used from the top I
+mean maybe I put here this is my geometry here and I'm seeing here maybe
+geometry here and I'm seeing here maybe there are places of high probability low
+there are places of high probability low probability and this is mu1 and all
+probability and this is mu1 and all along at intermediate time between T
+equals 0 and T equals 1 at maybe half time it will be a different distribution
+time it will be a different distribution of mass because all the mass has gone
+halfway and I look if this map is spread or not spread according to the good all
+or not spread according to the good all the laws of few kinetic theory of gases
+which tell me if the distribution of velocities is very much scattered or not
+velocities is very much scattered or not and for this we know that the good
+and for this we know that the good formula is the Boltzmann formula that is
+formula is the Boltzmann formula that is the entropy of the distribution mu is
+the integral is minus the integral of Rho log Rho D nu where Rho is the
+Rho log Rho D nu where Rho is the density of U with respect to Nu
+the density of the gas so I look at this quantity which see when it is very high
+quantity which see when it is very high it means that the gas is very disorder
+when it is low it means that the gas is quite order distribution is concentrated
+and I look at the evolution of this measure of disorder over time and if the
+measure of disorder over time and if the curve of S is always a concave curve of
+curve of S is always a concave curve of time it means that I am in a curved
+space a space that has non negative curvature and the intuition behind this
+is that in a space of non negative curvature Jodie's it typically start by
+curvature Jodie's it typically start by separating out and then they converge
+separating out and then they converge again so that the gas can afford to be
+because the geodesics are more spread and that is the basic intuition behind
+and that is the basic intuition behind it you can translate it in complicated
+it you can translate it in complicated rigorous mathematics etc but all that is
+rigorous mathematics etc but all that is technique most important is the first
+technique most important is the first elimination like we are going to use
+this way to encode the curvature and now that is interesting because this is very
+that is interesting because this is very robust notion for instance you can
+define it even if you have no differentiability and if you can't write
+differentiability and if you can't write down the differential equations of the
+geodesics and there it's very stable if for instance you make some perturbation
+for instance you make some perturbation the picture will be part of the game and
+if you have a limit situation of geometries which are curved this way it
+geometries which are curved this way it will also be a curve this way so in this
+way together with a John knot also at the same time with capital Ostrom we
+the same time with capital Ostrom we could prove some basic problems which
+were which were not known before some something like for instance assume that
+something like for instance assume that you have a family of geometries
+converging to a limit geometry let's see like this and you know that at each step
+like this and you know that at each step the Ricci curvature of this is
+the Ricci curvature of this is non-negative does it follow that this
+non-negative does it follow that this also has a non negative curvature even
+also has a non negative curvature even if the convergence is very very wild
+if the convergence is very very wild answer is yes but to prove that the
+answer is yes we have to first reformulate it
+using the formalism of probability measures optimal transport and and the
+measures optimal transport and and the entropy and this is an example of how a
+problem can be solved in a completely unexpected way you think it's a problem
+will come with a solution that uses the entropy the intuition coming from the
+kinetic theory of gases etc that's an example of unexpected Road taken by the
+example of unexpected Road taken by the research ok where am i with the time yes
+research ok where am i with the time yes beautiful we will keep a bit of time for
+beautiful we will keep a bit of time for questions now this field this connection
+questions now this field this connection turned out to have a lot of potential
+many people starting to develop it dozens and dozens of researchers started
+dozens and dozens of researchers started to explain to explore the connection
+between the optimal transport curvature it has become very difficult for me even
+it has become very difficult for me even to follow the developments last year or
+to follow the developments last year or maybe a couple of years ago I gave a
+maybe a couple of years ago I gave a seminar on one of these developments
+seminar on one of these developments which was precisely the solution of the
+problem I was talking you about using optimal transport to prove to give a new
+optimal transport to prove to give a new proof of the latecomer is a parametric
+proof of the latecomer is a parametric inequality and the proof which was
+exactly as you wanted it to be that is a proof that was robust Elementary giving
+proof that was robust Elementary giving way to generalizations opening paths to
+way to generalizations opening paths to new understanding and so on I wish it
+was my proof but that was not the case and the proof was given by cavaletti and
+MALDI know after some important very important connection by kata and it's a
+important connection by kata and it's a long story but full of connections but
+one too just to tell you one thing that was a key so all these guys these guys
+was a key so all these guys these guys what they did is give a new proof of
+the press robust general applying in on smooth context when you try to come up
+with such a thing you think about it and think how and soon you discover that it
+think how and soon you discover that it doesn't work it can't work you see the
+doesn't work it can't work you see the classical proof of the lady gum of
+classical proof of the lady gum of inequality is based on first finding a
+inequality is based on first finding a set which is best and then looking like
+starting from this and then you will make a Fourier tion a kind of partition
+make a Fourier tion a kind of partition of your space based on this interface
+of your space based on this interface for every point which is here you look
+for every point which is here you look at the point on the boundary which is
+this and this point here you see what is the point where it is closest think of
+the point where it is closest think of this like the octagonal projection on
+the boundary and you will like cover your entire space by this kind of lines
+your entire space by this kind of lines in which you have these all through
+in which you have these all through these cruces approximation what is the
+classical and then you ask how am i able to connect this with optimal transport
+and it doesn't seem to work out because this is like a partition of the space in
+this is like a partition of the space in two lines along with something occurs an
+two lines along with something occurs an optimal transport whew it is known that
+optimal transport whew it is known that such a partition occurs when the cost
+such a partition occurs when the cost function is the distance it was already
+function is the distance it was already known to more but it was also known by
+expert and then we well-known that all the good applications in Romanian
+geometry came from cast function to be distance X Y Square and it's not the
+distance X Y Square and it's not the same thing of course and so your reason
+same thing of course and so your reason did that like factorize this it well but
+did that like factorize this it well but this not either until cavaletti for
+this not either until cavaletti for another purpose understood that in many
+another purpose understood that in many in some situations solving both problems
+in some situations solving both problems are equivalent and that you can kind of
+cases in which the two are equivalent just this psychological changing there
+just this psychological changing there is a situation in which both programs
+are equivalent and it's efficient to work out an expert who knows this would
+be able to go through the proof to reconstruct it etc but just this
+reconstruct it etc but just this information was very important and very
+information was very important and very imaginative and the other thing which
+was due to class tag was a connection with another of two pictures you see in
+with another of two pictures you see in the motion picture it's like let's do
+the motion picture it's like let's do transport and transport will always
+occur through lines which don't intersect each other it was known from
+intersect each other it was known from the start that if you do transport car
+the start that if you do transport car say in errand with course which is like
+say in errand with course which is like X minus 1 then the lines can never cross
+X minus 1 then the lines can never cross otherwise you know if this is
+transported to that it would be better to do this and this so in all people
+to do this and this so in all people studying cost function like this you
+were doing this picture and pour in convex theory had something that they
+convex theory had something that they called needle decomposition which is a
+called needle decomposition which is a way to study some convex inequalities
+way to study some convex inequalities doing the partition of things into lines
+doing the partition of things into lines we did not intersect my friend in the
+same picture but to realize that it was the same picture it took somebody who
+knew about this and that and that was the case of was chaotic and he
+problem to do an intrinsic way of this needle decomposition that the people in
+needle decomposition that the people in geometric convex see we were very much
+geometric convex see we were very much used to it another example of the fact
+used to it another example of the fact that having one foot in one field and
+that having one foot in one field and another another field can give you keys
+another another field can give you keys eliminations about what to do now after
+eliminations about what to do now after these two strokes of very great
+these two strokes of very great imagination
+technique could come and come and come and come and then the problem was solved
+developments of a field in which I was involved for various reasons turned out
+involved for various reasons turned out to solve that problem now these are just
+some examples of the many many application that optimal transport
+theory had over the past decades and which are you know surveyed in my
+and which are you know surveyed in my books some of these fields are computer
+books some of these fields are computer vision or financial math or meteorology
+vision or financial math or meteorology or at some point for instance people
+found out that you could find some optimal transport interpretation behind
+the famous theorem and proof of the Poincare conjecture Peter tapping in the
+Poincare conjecture Peter tapping in the UK is the one of the main expert in
+these for instance many many things and it's so turned out that it's even more
+even even may have been this for quite a long time I'm still amazed by how much
+long time I'm still amazed by how much it goes into so it will be the
+it goes into so it will be the connection with my current activities
+and with one of the themes of this thing's is the connection with the very
+thing's is the connection with the very famous artificial intelligence business
+famous artificial intelligence business so let's talk a bit about artificial
+intelligence I've been mission by the government for a report about the French
+government for a report about the French strategy of artificial intelligence
+which means that every day for the past month three months let's say I've been
+month three months let's say I've been eating artificial intelligence everyday
+eating meaning and thus discussing about people understanding what the economy is
+people understanding what the economy is about how applications here and there I
+about how applications here and there I just had a wonderful discussions here
+just had a wonderful discussions here with people from Imperial and people
+from deep mines here to understand about that and let me say that I like most of
+that and let me say that I like most of the other people I did not expect at all
+the other people I did not expect at all that it would become such a price you
+that it would become such a price you know the artificial intelligence when I
+was a kid when I was a teenager I was a huge fan of Douglas Hofstadter I'm sure
+huge fan of Douglas Hofstadter I'm sure some of you have
+his books like good Arabic and so on and I was fascinated by these pieces in
+I was fascinated by these pieces in which he was talking about artificial
+which he was talking about artificial intelligence program in Lisp and
+whatever probably part of my passion for some parts of mathematics came from
+some parts of mathematics came from there but later when I went into
+research I went into PDEs I went into mathematical physics and like many other
+mathematical physics and like many other people I thought that artificial
+intelligence was quite soft not many big results etc actually when one of my
+results etc actually when one of my collaborators on the optimal transport
+collaborators on the optimal transport again early he moved to artificial
+again early he moved to artificial intelligence I told him are you sure
+intelligence I told him are you sure what you're doing you know it doesn't
+what you're doing you know it doesn't seem to be very efficient artificial
+seem to be very efficient artificial intelligence these days of course was
+intelligence these days of course was completely wrong and I was completely
+completely wrong and I was completely wrong and I had not expected and seen
+the turn that it had taken and as we know it became more and more famous and
+know it became more and more famous and 2015 I had the surprise - so let's also
+say that when it whenever I had a problem about some artificial
+audience or whatever I would take out my phone and call done and the scheme can
+you explain me but this or this and that this is also one way by people who move
+from one field to another are very interesting and 2015 I was invited by
+interesting and 2015 I was invited by the court people the computational
+learning theory people for the big meeting that they were organizing in
+meeting that they were organizing in Paris I received the invitation I
+Paris I received the invitation I thought gosh
+why are they inviting me I am NOT an expert at all so I called John why do
+expert at all so I called John why do they do you think they are inviting me
+and he told me well you know we don't know but these are very good people or
+know but these are very good people or if they are inviting you they have some
+if they are inviting you they have some plan whatever and said maybe it's
+plan whatever and said maybe it's because of the similarities with some of
+because of the similarities with some of the keywords etc and of course I
+accepted the invitation even though I knew nothing about learning huge but my
+knew nothing about learning huge but my talk sounded familiar to them their talk
+talk sounded familiar to them their talk sounded familiar to me I recognized many
+ingredients when you go into the technique convex optimization things
+of the big tools and so on they really looked familiar I had good discussions
+looked familiar I had good discussions many possibilities of intersection and
+many possibilities of intersection and collaboration maybe that they had to
+collaboration maybe that they had to taken and there and a couple of years
+after there they are not that I did anything about it but the connections
+are there and it is my great surprise and great pride to see that my books are
+and great pride to see that my books are now quoted in many papers about learning
+now quoted in many papers about learning theory in which the connection was made
+theory in which the connection was made with optimal transport let me say that
+with optimal transport let me say that this is very recent research actually a
+this is very recent research actually a bunch of papers appeared in proceedings
+bunch of papers appeared in proceedings or in print in 2017 some of the names
+some of the people there are ok at first it was precursor about by
+at first it was precursor about by Hammacher and Luka who are the
+Hammacher and Luka who are the generative advance of your network I
+will tell you a bit later about the idea behind this and some of the people who
+behind this and some of the people who worked on more explicitly the connection
+worked on more explicitly the connection and optimal transport are drafts key
+and optimal transport are drafts key chintala button mademou Lakeville go
+Hong Ling young lee soo cui yahoo yeah with the ocean to the famous geometer
+with the ocean to the famous geometer all the people who did the explicit link
+Canadian which are three great nations about artificial intelligence and I very
+much liked the idea behind so let me to just give you an idea of what it is like
+just give you an idea of what it is like let me sketch the thing so yes
+let me sketch the thing so yes absolutely
+I'm a you know politicians become very talkative now in you know when you have
+talkative now in you know when you have a neural network the big thing is you
+want to reconstruct some unknown function you have a function which Maps
+some input to some output you know a lot of pairs like input output and you want
+of pairs like input output and you want to guess what the function is and you
+want to guess a function which doesn't depend
+many parameters just a small number of parameter that you want to explain okay
+parameter that you want to explain okay and in the generative adversarial
+Network a lesser or learning which again you can describe to me as one of the
+field in the past ten years or so it's like you have two new role networks one
+like you have two new role networks one which tries to reconstruct let's say you
+which tries to reconstruct let's say you have here this is something which
+have here this is something which depends on a small number of parameters
+depends on a small number of parameters let's call this Z it's a small space
+here you have a huge space many many parameters may be in some observations
+parameters may be in some observations there and you want to construct these
+there and you want to construct these observations say as a function of this
+observations say as a function of this which is transporting some given measure
+which is transporting some given measure on this space F into some probability
+measure there which you want to be as close as this to this as possible that
+close as this to this as possible that is you want to reconstruct the
+is you want to reconstruct the characteristics of the observation from
+when it is adversarial you have a second neural network which is acting against
+neural network which is acting against you trying to to chop you and which is
+recognize from a sample whether it comes from the true sample or from the copy
+trying to chop each other this guy is trying to make seen that there are these
+trying to make seen that there are these three undistinguishable as possible and
+the other guy is trying to find the different season focused on there it's a
+different season focused on there it's a bit like you know when you have the
+bit like you know when you have the teacher and the student
+the student with blue try doing his best to reproduce the technique that the
+figure out some exercises that will shut the student what is something that will
+the student what is something that will resemble the thing but there is a trap
+exercise and go to the optimal and now the idea which was which states routine
+work by Luca but then was developed explicitly by these people into the now
+and so on is that you can measure here the distance between these variations to
+the distance between these variations to do it with the transport make sure
+approach with one of these W functional that I told you and that in fact er this
+problem when you take certain cost functions to measure Hill discrepancy
+functions to measure Hill discrepancy given in taking the geometry into
+given in taking the geometry into account these problems here the
+adversary and the original they are like a dual problem exactly as in the optimal
+a dual problem exactly as in the optimal transport problem we know there is a
+primal and the dual problem one is about minimizing the transport cost the other
+minimizing the transport cost the other is to about finding how to find prices
+which are optimal in some sense in the transportation way let me show you this
+transportation way let me show you this will be my only use of the computer let
+okay this is one of these early papers about the energy base generative etc one
+about the energy base generative etc one of the beautiful thing about this
+technique is the images that it produces quite amazing this kind these are kind
+quite amazing this kind these are kind of images that look weird but they look
+of images that look weird but they look realistic
+when you look at them from a distance you think they are okay when you look at
+you think they are okay when you look at them clearly you see there is something
+which just doesn't work we will see some example with animals in other paper and
+is one of the key word for this optimal transport kantorovich rubenstein duality
+transport kantorovich rubenstein duality is another problem is another way for
+the optimal transport thing and this is this paper that one of these papers
+this paper that one of these papers Facebook also is involved in which they
+Facebook also is involved in which they use the optimal transport problem to do
+the to do their adversarial network training let me try to get you yes this
+training let me try to get you yes this is a geometric view of optimal
+is a geometric view of optimal transportation and generative model so
+transportation and generative model so printing together the two feet this is
+the picture I was telling you versus train generative adversarial
+networks and why is this interesting Seifer they say they have a method and
+they show that their method is more efficient in some sense and one was done
+efficient in some sense and one was done before secondly it gives you a
+connection connection gives you a way to eliminate both sides and also gives a
+eliminate both sides and also gives a new ways for people to enter into this
+let me see with these gosh I wanted to show you some of these crazy images okay
+these are some images that Yin Luke and other people for instance show in there
+other people for instance show in there Oh resolution is not so good
+okay well this I told you this talk would be a bit messy anyway please those
+would be a bit messy anyway please those of you who have not seen it Google app
+of you who have not seen it Google app or quanta up generated adversarial
+networks images and you will see these creepy images in which you have shaped
+creepy images in which you have shaped up animals that from a distance they
+up animals that from a distance they look like familiar and when you look
+look like familiar and when you look closely they look like they are not
+wrong something is wrong these are images that have been divided especially
+images that have been divided especially to trap the neural network which is
+trying to recognize the animals so I don't know exactly what is behind in
+these people in more details but I tell you my friends next year I will teach
+you my friends next year I will teach this ok ok that's all for thank you
+this ok ok that's all for thank you [Applause]
+[Applause] [Music]
+you know one of my problem is that I want to work on everything and at the
+want to work on everything and at the end but since at the end I am also
+much much less than I would like to do but this is subject I was intending to
+but this is subject I was intending to start a PhD thesis in collaboration with
+start a PhD thesis in collaboration with the Facebook Paris AI research we had
+the Facebook Paris AI research we had talked about this with some of the guys
+algorithmics of solving the optimal transport is a is a bit of a mess it's a
+transport is a is a bit of a mess it's a bit of a mess and there is quite a
+contrast bit first it's only recently that some efficient methods have
+appeared and I am not enough expert to answer your question with certainty but
+so far there are not really sure of that I mean they are iterative methods as in
+I mean they are iterative methods as in many ways when you have a jority problem
+many ways when you have a jority problem in which you go back and work back back
+in which you go back and work back back and forth between the primal and dual
+and forth between the primal and dual problem
+some of them uses some gradient type technique and so on but it doesn't sound
+technique and so on but it doesn't sound like reinforcement learning to me so far
+like reinforcement learning to me so far but you never know one of the young
+but you never know one of the young people there yeah yeah I can see they
+people there yeah yeah I can see they are working on that yes yes
+hold on hold on let me come get closer oh my gosh gosh it's my way - now it's
+oh my gosh gosh it's my way - now it's my duty to think of all kinds of
+my duty to think of all kinds of features and so on yeah yeah this I was
+features and so on yeah yeah this I was telling you about development of the
+telling you about development of the Facebook research lab it has never been
+my I've never been involved in contracts with Facebook and so on of course as we
+with Facebook and so on of course as we know there are many issues about the way
+know there are many issues about the way we the way these big American companies
+we the way these big American companies now we can handle them at political
+now we can handle them at political level fiscal level control level ethical
+level fiscal level control level ethical level whatever many many ways and in
+with the current extremely powerful status that they have acquired very very
+status that they have acquired very very tricky problem in which one has to find
+a good solution you know we've been discussing a lot in France about fiscal
+issues and fact that it should be a taxation about the see for the fair gosh
+taxation about the see for the fair gosh how Jose Caban how do you say this in
+how Jose Caban how do you say this in English yeah and so on and not not the
+English yeah and so on and not not the usual rules for the tax also all these
+regulation about portability of data about the right of not being profiled
+about the right of not being profiled without being informed etc etc these are
+without being informed etc etc these are car be car have become huge issues it's
+car be car have become huge issues it's we
+should on the other hand of course not consider them as enemies because it
+consider them as enemies because it would be stupid and we should consider
+would be stupid and we should consider that there are it also gives us
+that there are it also gives us information about ourselves I mean for
+information about ourselves I mean for instance discussion with the researchers
+instance discussion with the researchers who went from universities to Facebook
+who went from universities to Facebook by the way my friend Yan that I was
+he went from university to - to the Facebook research and many other people
+Facebook research and many other people and when you ask all these people why do
+you move to the Facebook clubs instead of remaining in the academia many of
+them tell us things like oh now that I have moved to this lab I am much more
+have moved to this lab I am much more free for my research this is very weird
+free for my research this is very weird we use to the fact that if you go to the
+we use to the fact that if you go to the private sector you have more money but
+private sector you have more money but less freedom but actually it's not
+always true and this shows just the fact that we don't have enough freedom within
+that we don't have enough freedom within our research our research units and
+freedom can be also very pragmatic things on how to start experiment how to
+things on how to start experiment how to buy material whatever and they also tell
+buy material whatever and they also tell us we have it's much more easy for me to
+do some experiments and start big computing to try my theories also that's
+computing to try my theories also that's something we should be able to provide
+something we should be able to provide so talking and seeing with this with the
+so talking and seeing with this with the realities and with there will be a very
+important way to make us improve in comparison and one important part of the
+comparison and one important part of the mission one of the subject that I will
+saneras and that the people is how to set up the good facility so that our
+researchers in this very highly competitive area which has strong links
+competitive area which has strong links with the industry also are given some
+with the industry also are given some very attractive conditions for working
+very attractive conditions for working in our laboratories and in our public
+universities and when I see attractive it's not just a question of salary it's
+it's not just a question of salary it's a question of having just the tools to
+yes it indeed is unreasonably effective you know when people talk about
+you know when people talk about unreasonable effectiveness often it is
+about the fact that it gives so accurate precision in particular in some fields
+precision in particular in some fields of mathematical physics if you go to
+nobody knows how to make it work and in which the experiment doesn't match with
+the theory people will not find it so effective but when you go in areas such
+effective but when you go in areas such as the predictions by quantum mechanics
+as the predictions by quantum mechanics it's so amazingly effective that it
+it's so amazingly effective that it makes you a wonder I like to think also
+reasonably effective when you see that a certain tool in mathematics writing
+certain tool in mathematics writing mathematics can go here there there
+there are many other things and sometimes you see thing you see oh it
+sometimes you see thing you see oh it looks like the right concept you don't
+know why but then it turns out to be useful in many different contexts so
+useful in many different contexts so then it's a question of personal choice
+then it's a question of personal choice some people will say that because we
+some people will say that because we humans are exposed to many situations
+humans are exposed to many situations that become good at finding the concepts
+that become good at finding the concepts which are sensual other people will say
+which are sensual other people will say that is because the world is written in
+that is because the world is written in mathematical language and so on I like
+mathematical language and so on I like this second point of view but you know I
+don't want to impose my view on the others and let us also say that there's
+others and let us also say that there's another quote which I like which is
+another quote which I like which is about the interaction between
+mathematics and life sciences and that other code by famous mathematician says
+other code by famous mathematician says something by giancarlo jota says
+something like the lack of contact between mathematics and life sciences is
+between mathematics and life sciences is either challenge or a tragedy or a shame
+either challenge or a tragedy or a shame something like that and he said it's
+hard to choose which one this was said some time ago now there are much more
+some time ago now there are much more links between mathematics and life
+sciences but still one big question is that while the interplay between math
+that while the interplay between math and physics has been so extremely strong
+and physics has been so extremely strong that physics has contributed mathematics
+that physics has contributed mathematics with many deep concepts which have in
+turn been used in other problems of physics in contrast there is very few
+physics in contrast there is very few there are very few concepts which have
+been inherited in mathematics from biology neural networks is one of them
+even though the neural networks reasonable vaguely our a neuron
+examination but one may say it's one of them but there are very few of these
+concepts so if you're it's important that when one says that recall that this
+that when one says that recall that this quote about the reasonable effectiveness
+quote about the reasonable effectiveness of mathematics was coming from a
+of mathematics was coming from a mathematical physicist I guess vigna and
+mathematical physicist I guess vigna and somebody involved in the biology
+somebody involved in the biology application of mathematics may have said
+application of mathematics may have said something completely different
+something completely different last question maybe last the last one
+okay so here and there here first and then we finish with the young one that
+then we finish with the young one that is the dream of artificial intelligence
+is the dream of artificial intelligence people the artificial mathematician that
+people ask often I think some of the reasons are first that AI people some of
+reasons are first that AI people some of them come from science but many of them
+them come from science but many of them are also geeks self self-taught in some
+are also geeks self self-taught in some respect and some of them fascinated by
+respect and some of them fascinated by higher math but saying it's not my
+business to do higher math and playing with the idea that maybe they will be
+with the idea that maybe they will be able to recreate this kind of artificial
+able to recreate this kind of artificial mathematician another reason is that you
+mathematician another reason is that you cannot think of an artificial
+cannot think of an artificial in the sense that physicists need
+in the sense that physicists need experiments while mathematics it's only
+experiments while mathematics it's only done in the you know from some given
+axioms and you can try it's one of the field that is in which you can argue
+field that is in which you can argue that maybe reinforced learning can play
+that maybe reinforced learning can play an important role by exploring all
+an important role by exploring all possibilities and trying to teach and
+reteach and so on however my personal view is that to take a long long time
+view is that to take a long long time there have been some experiments so far
+there have been some experiments so far we know that for instance some programs
+we know that for instance some programs are able to recover their moves of Hamid
+are able to recover their moves of Hamid classical Hamiltonian mechanics apart
+from that and some some part of classical Euclidean geometry apart from
+that I am not aware of any significant strange straying thing it's a debate we
+strange straying thing it's a debate we have from time to time with my with some
+have from time to time with my with some of my colleagues particularly with
+of my colleagues particularly with different mala and Stefan mara likes to
+say there will be a new change in science and artificial intelligence and
+science and artificial intelligence and data big data theory et cetera will
+new scientific field etc but for the moment it has not occurred and you can
+moment it has not occurred and you can even tease those guys by saying you know
+even tease those guys by saying you know that statistical learning was developed
+that statistical learning was developed in a sense are the way developed in a
+putting meaning in it was like let's forget about how things work and which
+forget about how things work and which is the cause let's just put a bunch of
+examples and see the thing decide by itself by analogy what is the what is
+the output and it could be a view that from purely scientific perspective it is
+from purely scientific perspective it is a regression
+a regression I think this only time will tell
+I think this only time will tell if there are some significant
+if there are some significant contributions in a new new science
+fields based on AI there are have been some new discoveries in science based on
+some new discoveries in science based on algorithms mixing probability
+optimization whatever for instance recently one example which I like
+recently one example which I like recently discovery by some biologists
+that there are actually four species of giraffes not just one was based on big
+giraffes not just one was based on big Monte Carlo Markov chain simulations be
+Monte Carlo Markov chain simulations be easy an approach running through
+genetics of the of the giraffe so it was really a mathematically oriented
+sophisticated mathematically oriented discovery in genetics and it is very
+discovery in genetics and it is very difficult for classically trained
+biologists say to explain how this discovery was made but it was the
+problem was specified it was let's see how many clusters the genomes of the
+how many clusters the genomes of the giraffes can separate into it was not
+giraffes can separate into it was not like let's find a new theory for biology
+like let's find a new theory for biology evolution or something like this okay
+evolution or something like this okay last last question there
+okay okay okay that question first one thing to say is that you guys in a
+French course abroad are privileged usually it works much better the
+usually it works much better the training in these foreign schools in
+training in these foreign schools in main French scusi outside France than
+main French scusi outside France than the average inside France secondly I
+the average inside France secondly I have another mission currently beside
+the mission artificial intelligence and part of the mission which is about the
+part of the mission which is about the renovation of mathematics teaching in
+renovation of mathematics teaching in France now my friend it is very painful
+to recognize that in a country which boasts some of the great mathematicians
+in history and great pieces of mathematics our education has become so
+mathematics our education has become so poor that we are at the bottom of the
+international rankings within ocde and in particular with the training of the
+in particular with the training of the young kids for instance when you look at
+meter high school performance about mastering of fractions you know France
+has the lowest score of all ocde countries UCD countries it's it's a real
+countries UCD countries it's it's a real shame by the way we also have disaster
+results in english-speaking and these are the results in in reading about
+are the results in in reading about English for sometimes we are competing
+English for sometimes we are competing with the Italians and the Spanish to be
+with the Italians and the Spanish to be at the bottom but I think we won the
+be proud of so to come back to the math question we will soon be giving back our
+question we will soon be giving back our conclusions and recommendations to the
+conclusions and recommendations to the minister and we will make some very
+system which is sick and some of the problems are about the mathematics
+teaching some programs are modern rule the more how to see the most pain food
+the more how to see the most pain food is to see that solutions are known and
+not being used it's a horrid mistreat administration system the whole
+administration system the whole governance which is
+very very sick so then I think we will go through some energetic I hope we'll
+go through some energetic I hope we'll go through some energetic reforms which
+is the tendency that the Minister has expressed he would do it rather start
+expressed he would do it rather start and the most important thing being to
+and the most important thing being to realize that France
+even though its education system istic has a lot of goodwill including a lot of
+has a lot of goodwill including a lot of passionate teachers a lot of pride and
+currently is in the mood of reforms and improvement so I am very optimistic that
+improvement so I am very optimistic that we will do it thank you
+we will do it thank you [Applause]
+[Applause] [Music]

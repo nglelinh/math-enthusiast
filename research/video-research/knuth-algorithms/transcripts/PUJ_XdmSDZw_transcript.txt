@@ -1,0 +1,1469 @@
+Okay, well, it's great to see so many familiar faces and so many new faces
+familiar faces and so many new faces today and
+at least you're smiling now, so that's a good sign, too. Maybe I can give a good
+good sign, too. Maybe I can give a good talk.
+A lot of you are maybe wondering about these books that are strewn
+these books that are strewn on the floor in the front. This is this
+is part of a Christmas tradition. Uh
+Christmas tradition. Uh every
+all through the year I I keep getting copies of my books that are
+copies of my books that are like they
+a new printing came out and and so they give me a book so that I can check it or
+a new translation came out and they send me two copies of the translation and I
+I only need one. And and so I bring the extra copies with me and they're and
+extra copies with me and they're and they're sitting here
+this year. So some of them are in uh in Chinese, Japanese,
+most of my are in English and there's also a couple of
+and there's also a couple of of uh
+a real collector's items tech reports from the from the uh
+from when Metafont was new and things like that. So anyway, I had
+and things like that. So anyway, I had multiple copies of
+of stuff and this is this is my way to to do to do better than than put it in
+to do to do better than than put it in the in the recycle bin. Um
+I'm going to sit down in a minute. Oh oh yeah, there's a rule though.
+yeah, there's a rule though. First of all, only one to a customer.
+Um so you know, if if you need two of them
+you and your friend each get one. Uh and and the other one is uh
+Uh and and the other one is uh Uh
+if you ask a specific a particularly good question during the talk,
+good question during the talk, then I'm going to mention that that that
+then I'm going to mention that that that you get first choice before somebody
+you get first choice before somebody else
+because otherwise you might
+come up with your only get one of the other ones that you didn't want to read
+other ones that you didn't want to read anyway.
+those are the ground rules one to customer and and then there's going to
+customer and and then there's going to if anybody does ask a good question
+if anybody does ask a good question then they get priority.
+then they get priority. And
+and by the way that means that you are allowed to ask questions.
+allowed to ask questions. Okay, now I'm going to sit down cuz I'm
+I've got a lot to I've got a lot to say and I hope I can get it all out in the
+and I hope I can get it all out in the in the right order.
+When I was a grad student Hey, we got people standing in the back
+Hey, we got people standing in the back there.
+There are some There are some empty seats in the front.
+seats in the front. All
+of not not a heck of a lot of them I guess.
+So so when I was a grad student my advisor Marshall Hall was the world's
+advisor Marshall Hall was the world's foremost
+I took his class and I didn't really understand his lectures that well but I
+understand his lectures that well but I wrote down everything he said and and
+wrote down everything he said and and then the the problem was to find a
+then the the problem was to find a permutation of his words that would make
+permutation of his words that would make sense afterwards.
+Well, I'm I'm going to try to give the right permutation today but if I don't
+right permutation today but if I don't well, you might have to watch the video
+well, you might have to watch the video and
+and replay it. Uh the
+can see it where at the bottom is is dancing cells and as Pax mentioned the
+dancing cells and as Pax mentioned the uh
+my talk 5 years ago was called dancing links and also in the
+when when the whole thing was was kind of brand new I I also had a
+was kind of brand new I I also had a amusing on YouTube called dancing links.
+amusing on YouTube called dancing links. And yeah, I
+I watched them and I'm still not too embarrassed about what I said then but
+embarrassed about what I said then but but but but uh
+actually there's a lot of good news because we've improved dancing links now
+because we've improved dancing links now to
+to something that has the jazzy name dancing self and and
+dancing self and and but the
+but the basically
+this this talk is about data structures and and so are the two talks before that
+were called dancing links. In other words,
+the way to represent information in a computer
+and the structure the structure between between items of
+is is called the data structures problem and and in the
+old-timers like me and our hubris we used to think that
+all the important data structures were were well understood by 1970 or 1980.
+were well understood by 1970 or 1980. Uh
+Uh so so
+no need to learn anything more but what what I'm talking to
+today is something that I I learned you know 3 years ago and and I
+I learned you know 3 years ago and and I I could have learned 10 years ago if I
+was if I looked the right place. So so uh
+and I'll I'll get into the details but the whole story starts with one of the
+the whole story starts with one of the one of the first really uh
+science. I don't know if if anybody in the audience remembers this one.
+in the audience remembers this one. Aho, Hopcroft, and Ullman.
+Aho, Hopcroft, and Ullman. Hands,
+anybody know this book? Here's one. A few few Yeah, okay. Yeah, we could
+A few few Yeah, okay. Yeah, we could 5%
+So so this book came out almost exactly 50 years ago
+almost exactly 50 years ago and
+and it had this exercise on page 71 I think it was.
+think it was. Um
+So see if we can zoom in to right to right here. Get
+right here. Get Is that
+Uh okay, so it's it exercise two .12 and it has a asterisk means
+.12 and it has a asterisk means advanced. Uh
+initialize an entry of a matrix to zero the first time it is accessed thereby
+eliminating the order V squared time to initialize to initialize an adjacency
+initialize to initialize an adjacency matrix of a graph. And then it gives a
+as to how to do that. Uh and and this exercise I mean in my copy of the book
+exercise I mean in my copy of the book in the back cover I
+I noticed you pages that really surprised me and this and the first one
+surprised me and this and the first one was exercise 2.12 uninitialized memory.
+was exercise 2.12 uninitialized memory. Well, and so so what's that all about?
+Uh well, let's
+let's let's suppose we have a
+a huge array in memory. Um
+uh and in those days um a huge array meant more than a thousand
+a huge array meant more than a thousand or or
+or than 10,000 but but but now you you could just imagine we have have some
+could just imagine we have have some array that that has you know
+a few billion elements or something like that. Um and it it's all full it it's
+that. Um and it it's all full it it's all filled with
+all filled with uh with with
+something random bits basically. We don't We don't have any idea what's in
+But we would still like to use the computer's ability to to do random
+computer's ability to to do random access. So
+So we want to access something and so we want to we we want to work it out so
+that if
+I want to store things in this memory without initializing it. So So the So
+without initializing it. So So the So the first time I
+Yeah, so so maybe
+here's element 3142 for example and I want to store something in in in uh
+I want to store something in in in uh position 3142. Uh
+position 3142. Uh so
+I want this to be reliable, but I don't have to spend the time to
+it was all initialized to zero. But but I don't want to take the time to
+I don't want to take the time to actually do the initialization. That you
+actually do the initialization. That you know that that might be take longer than
+know that that might be take longer than my whole program. So so
+my whole program. So so uh
+what's what's the secret? And and so the secret is uh
+and so the secret is uh Okay, so well we can call this uh
+sparse, I guess. Um and then I have another
+another array over here called dense. Um
+and and um uh
+what happens is I look at this element, what whatever it
+is. Uh and
+and I know how many elements I've already seen. So so do I have another
+already seen. So so do I have another another counter S as a
+another counter S as a S is the size
+S is the size how many things
+Initially there's nothing in dense. Uh and initially S is zero. Uh so so uh
+what I'm going to do is I'm going to put I'm going to put zero here and I'm going
+It it it it in position zero of dense. And then and then
+And then and then Okay, now uh
+Okay, now uh uh
+and since S was zero uh uh no matter what I fetched here uh uh I
+no matter what I fetched here uh uh I know it'll be the first time. Well, I
+maybe next thing I I put something here in position 1618 and and so I can put a
+in position 1618 and and so I can put a one there
+and I put 1618 here. And and then I uh uh uh do more computation and and say,
+"Okay, now let me look at 3142." Well, I I look at 3142, it has the number zero
+I look at 3142, it has the number zero in it. I check zero. Oh, yeah, that's
+in it. I check zero. Oh, yeah, that's that that that matches. So, that's good.
+that that that matches. So, that's good. Uh so so now I
+do some more calculation. What's another number I might want to do here? 2718 or
+something like this. I might want I might want to probe 2718 and I
+and I look in 2718. Oh, I see there's a one in there.
+there's a one in there. Um I but I look in position one and it
+so so that didn't work. I so so I know that I've got to put two here and I've
+that I've got to put two here and I've now got two I've now got two items. So,
+now got two I've now got two items. So, so so
+the main idea is then I have
+I can use all these guys and and whenever I
+whatever whatever I read, there's going to be something in there and I'm going
+points to something less than S and and the dense array confirms that it's
+it was actually something that I did to the array. Okay, so so this is the trick
+the array. Okay, so so this is the trick and it's called the the
+it's got to be called the sparse array the sparse array trick.
+So, sometime during the uh sometime during the '80s, I got around
+sometime during the '80s, I got around to to revising my book that Art of
+to to revising my book that Art of Computer Programming, Volume 1 and
+Computer Programming, Volume 1 and and uh uh
+the third edition didn't come out until 25 years ago, but uh
+but but at that time we did I I did have the exercise on page 307 here
+the exercise on page 307 here called the sparse array trick. So,
+suppose you want to use a larger array for random access, although you won't
+for random access, although you won't actually being referred to very many of
+actually being referred to very many of its entries, you want A of K to be zero
+don't want to spend the time to set every location to zero. Explain how it's
+every location to zero. Explain how it's possible to read and write any desired
+possible to read and write any desired elements
+A of K right reliably given K without assuming anything about the actual
+assuming anything about the actual initial memory contents
+doing only a small fixed number of additional operations per array access.
+additional operations per array access. I got a question back here. Yep. Yeah,
+maybe a basic question. In in your example, let's say
+you know, at the next step, I want to write zero to location 999.
+write zero to location 999. 999? Yeah, what would I do?
+999? Yeah, what would I do? Okay, now
+in location 999? Yes. All right, so
+here it is and I and I look at 999. And I and I fetch and I fetch with
+And I and I fetch and I fetch with whatever's in there.
+whatever's in there. Okay.
+Now Now Now what whatever's in there if it's bigger than if it's bigger than
+if it's bigger than if it's bigger than two
+then it's got to be bad. If it's less than two, I can check to
+see if it's okay. Okay.
+Let Let me write down the write down the algorithm.
+Um so So let's say read
+read read K. Okay, what does that mean? So
+So I So I set set R to sparse of K.
+All right, and then I say if
+less than S and
+and dense of
+Can you read that equals K? Um return
+data of I I I'm going to have another
+I I I'm going to have another another array data here where where
+another array data here where where actually we're we're actually actually
+actually we're we're actually actually put uh
+put uh actually put stuff.
+So So we return return data of K. Uh
+you know, otherwise uh I set sparse of sparse of K to S.
+Um and dense of S to K.
+to K. And
+I I'm also going to put back of keep another array back
+memory to the way it was before this not necessary but it maybe maybe they want
+necessary but it maybe maybe they want it so back of S to R.
+S um to S plus one and return zero.
+And so so this is an integer subroutine with K and so it
+subroutine with K and so it returns zero the first time something
+returns zero the first time something comes in and so so it income 999
+comes in and so so it income 999 whatever it is it's it's not going to
+whatever it is it's it's not going to pass this test and so we're going to set
+sparse of uh
+uh I'm 999 K is 999 so we're going to set sparse of 999 to S which is three.
+set sparse of 999 to S which is three. Uh
+and then we're going to set dense of S to K which is
+which is here. Um and we're going to set back of S to
+Um and we're going to set back of S to to
+whatever whatever that that that number was that in there
+X 999 and so the and then S is now
+S is now is now equal to four.
+okay. So, thanks for the question.
+and and of course that's what the that's what the answer
+what one of the things about uh about my book is it does have answers and
+and so in the answer it it mentioned it mentioned that by the way you could
+it mentioned that by the way you could also
+also uh
+back up to the original to the original condition if you wanted
+to. Okay, now um um uh
+That was 50 years ago. Um
+something else happened uh
+25 years ago and that was a paper that that came out um
+that came out um So, this is 1993.
+So, this is 1993. A paper
+that that came out by Preston Briggs and Linda Thorson at at Rice. Uh and and
+Linda Thorson at at Rice. Uh and and they're working on compilers. compilers
+they're working on compilers. compilers and and they had they had uh
+and and they had they had uh uh developed uh
+uh developed uh an extension
+of these ideas that turned out to be important uh
+in in their compiler implementation and and and so here it says uh
+Inspired by a memorable homework problem of Aho et al.
+All the problem 2.12, we developed a sparse set representation that supports
+sparse set representation that supports all the required operations efficiently.
+all the required operations efficiently. And we have uh
+And we have uh Okay, so
+Okay, so uh
+uh It
+homework problems actually do uh uh get noticed somehow by
+uh get noticed somehow by and and and so some some way, you know,
+and and and so some some way, you know, people were were getting the idea and
+people were were getting the idea and they
+they uh
+but their application was was different. They
+They weren't really faced with a billion word array that they wanted They
+billion word array that they wanted They They didn't want to initialize.
+They didn't want to initialize. They really
+wanted to to represent just just a subset of of a universe. And and and
+a subset of of a universe. And and and so they they weren't interested in what
+so they they weren't interested in what what's in this billion word array. They
+just They're just interested in which which which parts of the array have we
+actually uh used so far. Uh
+so so so in other words, they didn't they didn't need the data part here or
+They only wanted to know uh you know, this list here uh
+you know, this list here uh of the dense stuff. So So uh
+of the dense stuff. So So uh at
+at but but
+They gave up basically the algorithm that I just wrote down except that we
+that I just wrote down except that we didn't have to store anything or return
+didn't have to store anything or return zero.
+they did something new because their compiler needed it and
+because their compiler needed it and that is on the next page they had a
+operation. Deletion is something that A.L. Hopcroft Ullman did not talk about
+A.L. Hopcroft Ullman did not talk about and neither did I.
+and neither did I. And And so they
+And And so they So they said, "Well,
+we can also remove stuff that that that was that was you know
+was that was you know So let me
+Well, well, actually um I'm
+I'm I'm searching for the right permutation here. Uh uh
+permutation here. Uh uh So So
+let me skip now to the book that I published last year. And
+the book that I published last year. And this is Art of Computer
+this is Art of Computer Data Art of Computer Programming Volume
+4B. It It makes a wonderful Christmas present
+I I I just learned today that the uh that the Japanese translation has been
+that the Japanese translation has been finished and will be published in 2
+finished and will be published in 2 weeks.
+So So the the Korean and Chinese translations are
+are going to be second and third in this in this race. But okay, so now
+in this race. But okay, so now I think uh
+Let's see, where am I on page 40 on page 40 here. So So here I'm talking about
+40 here. So So here I'm talking about combinatorial algorithms and how to
+combinatorial algorithms and how to how to represent uh
+when you want to undo your operation as well as do things. So,
+your operation as well as do things. So, so what what when we're solving
+so what what when we're solving combinatorial problems,
+combinatorial problems, uh,
+it it's basically we want to
+we want to we're searching for
+we're searching for a
+a lot of needles in a huge haystack and and so
+so we look at parts of the uh,
+of the uh, of the of the tree of possibilities and
+and we have sets sets of possibilities that
+that grow uh,
+but but but but we start out with lots of possibilities that then
+of possibilities that then we narrow down the possibilities after a
+but but after we've explored that part then we have to
+then we have to to go back
+to a larger set again. So, so in these applications we start with
+a set that contains the whole universe instead of instead of the uh,
+instead of instead of the uh, so I would start with
+a set that was empty. Now we're starting with
+Now we're starting with with the entire set and we delete stuff
+periodically and this is something that
+Brings and Touissant did that that
+wasn't done before they did they deleted instead of inserted. Uh, uh, so
+instead of inserted. Uh, uh, so so here's
+Uh, let's suppose that we have a set with with with four things in it. I got
+with with with four things in it. I got three three, nine, one and four.
+three three, nine, one and four. And
+so so so here's the set. It's it's just listed by sequentially but in another
+listed by sequentially but in another array
+we've got the we've got pointers to this one so so three
+points to where three is stored, nine points to where nine is stored, and four
+points to where nine is stored, and four points to where four is stored. It's
+It's It's like the this uh
+this uh a sparse
+a sparse and this dense array that that we had
+bottom one is sparse and top one is the dense version. And so now let's suppose
+dense version. And so now let's suppose we want to to delete nine.
+we want to to delete nine. So So if if we delete nine
+we can see where nine is. But we can we can swap nine
+But we can we can swap nine with the four.
+with the four. So
+move the nine over here and bring the four
+four to where the nine was and then just move
+move the tail back. So So you can see see by deleting we
+you can see see by deleting we we sort of do a swap in there and
+uh uh
+everything works. Zip zip zip.
+that's the I That's the idea of deletion and I'm I'm going to work out a
+and I'm I'm going to work out a an example
+an example in some details in order to make it
+clear. I hope. Um
+in this application uh
+then I've got a a uh
+a universe of of possibilities. Um and I I want to at every point I want to be be
+I want to at every point I want to be be representing
+some subset of that universe. Uh And and and and now
+And and and and now people who work in in the combinatorial
+they call it the domain. So So what have an example where the domain
+So what have an example where the domain has five elements.
+has five elements. So So So I have DOM
+is an array that has uh a
+uh a five
+entries and and I also have another another array I'll call it Idom
+another array I'll call it Idom and
+and and each of these contains a permutation
+of the possible elements of the domain. So here
+here I'm considering considering that a domain is is some subset of 0 1 2 3 4.
+domain is is some subset of 0 1 2 3 4. And uh
+And uh and
+I've got all these numbers here that I and I haven't told you what they mean
+and I haven't told you what they mean this is dom of zero, this is dom of one,
+this is dom of zero, this is dom of one, this is dom of two. This is the these
+are the identity permutations. So so it just happens that
+that that we start out everything dom of zero is zero, dom of one is one
+dom of zero is zero, dom of one is one and
+and and
+and then I have S which is the total the total size of the domain which is
+five. Um
+and I can so so now let's suppose I delete um
+so so now let's suppose I delete um uh
+I delete one. So
+so that means I can swap one with four
+one with four and bring the four over here.
+that's that's dom now. Uh well Idom is the inverse permutation
+Uh well Idom is the inverse permutation but turns out the inverse is permutation
+is is the same but uh
+the examples will become clearer
+soon but but but but now S equals four so indicate that by putting a vertical
+so indicate that by putting a vertical line six
+six at at position S.
+now to in order to to make it a little more
+clear uh let's let's try to delete four now.
+now. So
+So um
+at this point I'm going to I'm going to switch the four with the three.
+And S is going to go down to three and and um
+and the inverse permutation Well, so zero is still in position zero.
+Well, so zero is still in position zero. Four is now in position three.
+Two is still in position two. Three is in position one and and one and four is
+in position three. Oops, one is in position four.
+So So this is the inverse inverse permutation.
+inverse permutation. Um
+So So I So So In other words, uh
+the first S elements of Dom, these are the elements of our set.
+the elements of our set. Uh
+And then the other elements that aren't in our set are listed afterwards.
+in our set are listed afterwards. It's a permutation.
+It's a permutation. So So then I So
+Well, where does zero appear? Zero appears right in position zero.
+position four. Where does two appear? Three appear? And so So and so So So
+Three appear? And so So and so So So If I want to test whether something
+If I want to test whether something is in the set If I want to test whether
+four is in the set, I I
+I I look at I Dom of four, which is three.
+And it's not in the set because it's bigger than or equal to S.
+bigger than or equal to S. So
+Now So So I'll do another example and then
+and then write down the algorithm and pretty soon you you'll see why it's so
+pretty soon you you'll see why it's so very simple. So So if I delete two, all
+very simple. So So if I delete two, all I'll have to do is is move
+is move that line one space to the left because I I don't have to swap anything.
+because I I don't have to swap anything. Um
+Delete zero. I'm going to have to switch three zero.
+S is S is now one.
+one. And
+so zero is in position one, one is in position four, two is in here, three is
+All right. Now so so that's the that's the idea of
+that's the idea of but the beauty that the beautiful thing
+is that undelete
+undelete Suppose I say undelete
+uh zero.
+I I can do that by just by just shifting by just changing S
+I don't get back to the if if I undelete zero, I'm sitting here
+if if I undelete zero, I'm sitting here with
+0 3 2 4 1 1 4 2 0 3.
+Um And
+but but now S is two. I'm not I'm
+I'm not back at what I had before. I'm sorry, this is 3 0. I
+I'm sorry, this is 3 0. I I don't change anything except the
+I don't change anything except the S and so I don't change anything except
+the cut off. And so so so um
+And so so so um I've got I
+I've got the same set of set I had here but it's not it's not exactly the same
+but it's not it's not exactly the same representation because every every
+representation because every every subset has many representations.
+and so the beauty is undeletion is it is trivial.
+it is trivial. I mean just change S. So if I want to
+2 and 4, I can I can undo all of these three three things. I don't change
+three three things. I don't change anything except
+anything except change S back to 4.
+And here it's going to be 3024. So So you see
+So you see uh
+the the the numbers to the right of this bar
+show the things that I took out in the order that I took them out.
+And so if I move the bar, I get back to where I I get back to the same set of
+The set of elements doesn't appear in any particular order.
+any particular order. I I could have started this whole
+With 0 1 2 3 4. I'm sorry. I could have start started this whole process with 3
+start started this whole process with 3 0 2 4 1
+uh and 1 4 2 3. Any any any permutation and its inverse I I could have started
+and its inverse I I could have started that and say that that's my
+that and say that that's my representation of of the entire domain.
+representation of of the entire domain. Oh.
+Okay. Now you So So dancing So So as the algorithm
+proceeds the these these numbers in here I
+And the importance of this was was first recognized 10 years ago in
+recognized 10 years ago in in this paper
+in this paper uh
+that came out that this is 2013. Uh
+sparse sets for domain implementation and um
+and um uh
+I I I really want to meet this guy because he's got the most interesting
+because he's got the most interesting name I've ever
+name I've ever I I've ever seen.
+And then but
+but Christine
+Christine She's my friend who told me about this
+who wrote one of the one of the main books on on uh
+one of the main books on on uh constraint satisfaction. Uh
+constraint satisfaction. Uh And so these people are in uh
+in Belgium and France. And And And they noticed uh
+And And they noticed uh that the
+that the uh
+that that this this idea that that had had had come up in
+connection with
+with sparse sets
+sorry.
+30 years ago.
+What actually happened was I think they discovered it independently and then
+discovered it independently and then they were showing to people and say, "Oh
+yeah, this is the same as at what people were calling sparse
+at what people were calling sparse sets."
+I write out the algorithm and we can see what it
+and we can see what it what it means. So delete
+K um
+um says
+I dom of K. Uh in other words, I want to delete
+Uh in other words, I want to delete element K. So I I say, "Where is Where
+element K. So I I say, "Where is Where Where does K sit in the dom array?" So I
+dom of K tells me where K appears. Uh Then it says, "If R is greater than
+return because it's not in it's not in the domain. If If If it's sitting
+the domain. If If If it's sitting If If If
+to the right of that line, it's it's not in the current domain. So so we can't
+in the current domain. So so we can't delete it. Uh otherwise, S is S minus 1
+delete it. Uh otherwise, S is S minus 1 and and we look at
+and and we look at dom of S.
+So so so we look at the guy who's in in in that position now.
+in that position now. That is uh
+That is uh That's going to be leaving us.
+change dom of R to L. And and I dom of L
+And and I dom of L to R because this
+this preserves the inverse permutation. Um and then we also uh
+Um and then we also uh you know,
+keep track of of going on for the larger elements.
+of going on for the larger elements. I dom of
+I dom of L
+I Oops, dom of dom of S
+is um K and I dom of K is S.
+check that that's what I did in this uh in this No.
+uh in this No. That's
+dancing cells. Let me Let me show you what it was what it was like with
+what it was what it was like with dancing links.
+dancing links. Um
+dancing links was intended to solve the same kind of problem where we want to
+same kind of problem where we want to keep track of domains. And dancing links
+keep track of domains. And dancing links uh
+we started out with all all all five possibilities.
+And these were kept in in little nodes in the computer and and
+and they were pointing to each other with a doubly linked list. Um
+with a doubly linked list. Um Uh what I I actually put a hit I put a
+header node in here. Uh so so so everything pointed to
+so so so everything pointed to the guy in front and and the guy after.
+Um and um uh
+uh So,
+so so so so so there's a header node. And then after the header node, this guy
+And then after the header node, this guy this point to this this point to this
+this point to this this point to this this point to this. Now, when I deleted
+one, uh
+in this case, uh what happens? Well, we still got the
+what happens? Well, we still got the header node. Um
+and zero is here, but zero doesn't point to one anymore. Zero points over to two.
+to one anymore. Zero points over to two. Um and two points back to zero now.
+but we but we still have the doubly linked list.
+linked list. Uh
+connecting, okay? And and uh uh
+I'll delete one I'll do one more deletion. This is the way dancing links
+work. Um uh
+uh so if I deleted four, then three is now going to point off off
+then three is now going to point off off here uh and uh
+and this guy's going to point back not to four but to three and and
+back not to four but to three and and the and these
+two points differ three and I'm sorry zero points to two two
+Okay. And and the the uh
+the the uh uh
+when when we were doing dancing links, the idea was uh
+to I
+I what was in to to be unclean, to be sloppy.
+to to be unclean, to be sloppy. Not to clean up our act. So so after one
+was deleted, one
+one still is pointing to two and and as its successor and it's still pointing
+as its successor and it's still pointing to zero as its predecessor.
+And and after four was deleted, four is still pointing here. So that when I want
+still pointing here. So that when I want to do an undelete, I
+to do an undelete, I it's it's easy to do an undelete because
+which pointers I have to change when I'm undeleting. And that was that was the
+undeleting. And that was that was the idea of dancing links.
+idea of dancing links. Uh
+with dancing cells though, undeletion is even is even faster because all we
+even is even faster because all we because I don't have to change I only
+have to change uh one number
+I to undo a whole a whole set of deletion.
+Okay. So so this is uh
+the difference between dancing links and dancing cells.
+Uh and
+in both cases we're sort of uh
+we're sort of uh uh
+using Okay, both cases, first of all, are extremely simple. They The
+are extremely simple. They The algorithms are only a few lines long.
+Secondly, uh
+it was We almost did In the '60s, we almost did this, but in
+because after I deleted something, I also I also was afraid to have these
+also I also was afraid to have these other
+sitting around there. So, so I So, I zeroed them out.
+zeroed them out. Uh
+and I found out that if I didn't zero it out,
+out, I
+it wasn't going to be garbage collected and and and I was going to be able to
+uh to do to do everything zip zip later on. So, with the dancing cells, uh
+on. So, with the dancing cells, uh the new idea is that uh uh
+We we we keep track of what's going on to to the right of
+of the bar. The elements bigger than S in the array,
+We keep them up to date. We we keep an inverse permutation going all the time.
+inverse permutation going all the time. And we're
+And then we're in good shape. Okay. So, so So, now, uh I'm going to uh
+so So, now, uh I'm going to uh uh
+go and uh
+show you more exactly what what's happening. But first,
+what's happening. But first, some questions I can answer. Yeah, way
+in the back. Is that Yeah. Well, you If you Yeah. Um
+I'm wondering whether for like other set operations like unions and
+intersections, if you're For unions and intersections, if you're willing to do
+I'm sorry, I can't hear you. I do uh I'll I'll yell louder. Uh for unions and
+I'll I'll yell louder. Uh for unions and intersections, if you're willing to do
+intersections, if you're willing to do them in
+Union and intersection? Yeah, yeah. Can you Can you get those pretty efficiently
+you Can you get those pretty efficiently if you're willing to do them in place?
+It's possible to do union and intersection, but I but but
+intersection, but I but but the application I'm talking about, we
+don't care. Okay. Yeah.
+The the Uh complement, no.
+But difference, yes. Wait, for complement, you could just store the
+complement, you could just store the direction.
+the complement you have you have with respect to the universe, that's
+well, I I guess you you could you you you you you you you you you you
+you you you you you you you you you you you you you you you you you you you you
+Briggs and and Torson didn't know how to do complement, but but now we do do
+do complement, but but now we do do because we have the inverse, right?
+Yeah, okay. Uh what if like let's say you had you
+Uh let's say that you wanted to make like a positive set instead of So you
+like a positive set instead of So you initially delete everything from your
+set, but you do it in the or I basically the reverse frequency order. So if you
+the reverse frequency order. So if you think of your set Start again? Okay.
+think of your set Start again? Okay. Let's say you started with everything.
+Let's say you started with everything. Yeah. And then you delete elements in a
+particular order Yeah. based on like their inverse frequency. So if an
+element is very likely to appear or be added to your set, you want to delete
+added to your set, you want to delete that last, right? Because then the
+that last, right? Because then the undelete operation will be very quick.
+undelete operation will be very quick. other process controlling
+telling me what to delete. Yeah. Uh but the data Here I'm talking about
+you what whatever that here is to get this is the internal representation.
+this is the internal representation. Okay. I
+So I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I
+I I I I I I I I I I I I I I I I I I I I I I I
+Yeah. All right, nuts.
+Yeah, I'm well I'm back here. Wow, back row, yeah.
+Wow, back row, yeah. Oh, yeah.
+If you wanted to delete If you delete ABC and then undelete B Yeah. It Do you
+ABC and then undelete B Yeah. It Do you do the swapping, right?
+do the swapping, right? It's always last in, first out. Okay.
+Yeah. No, I I'm There is a way to
+That's called insertion. Okay. Yeah. Okay.
+I'm glad for these questions because and the people who ask questions by the
+way have priority for the books. So so uh
+So so uh Now uh
+Now I want to talk about the context of of this whole thing. So So why am I
+of this whole thing. So So why am I interested in domains and what you know
+interested in domains and what you know I So
+I So uh
+The the general context is uh
+solving combinatorial problems and and by that I mean by combinatorial
+problem I I sort of mean find all arrangements of
+very general sense and so so uh
+and so so uh uh
+is somehow arrangements. And I know three good ways to
+And I know three good ways to I I I to to to define a combinatorial
+I I I to to to define a combinatorial a combinatorial problem.
+a combinatorial problem. Uh
+so good good way um uh
+to define uh
+interesting class of arrangements um uh and and
+uh and and good by good I mean uh declarative. I I
+say what the arrangements are without without giving the method that I'm going
+without giving the method that I'm going to have to to do it but but defining
+to have to to do it but but defining this this means to formalize to you know
+this this means to formalize to you know to make a model to
+to make a model to you know
+some kind of you know encoding of
+the problem explaining exactly what it means. So So
+So So I know I know three good ways to uh
+uh to
+to uh to encode or or make a model of uh uh of
+to encode or or make a model of uh uh of uh of combinatorial problems in in a way
+that's declarative instead of imperative.
+I declare what the problem is and let the computer figure out how to solve it.
+the computer figure out how to solve it. And and and uh uh
+And and and uh uh uh
+one of the main ones each of these has a has a three-letter mnemonic and and
+has a three-letter mnemonic and and constraint satisfaction problem is is
+constraint satisfaction problem is is one of them. Um
+one of them. Um it is one of the these mnemonics.
+And uh uh
+that's what CSP stands for. And this means that we have
+that our model has variables and each variable has a domain and then we have
+variable has a domain and then we have and then uh we have uh
+uh constraints uh which are relations between between the values of the
+between between the values of the variable.
+variable. Uh
+that's the first this next one called SAT, this is for satisfiability.
+SAT, this is for satisfiability. Um
+Um and
+and that's
+this is the special case of CSP when all the domains are just Boolean.
+Every variable has just two value two possible values. While the CSP allows uh
+possible values. While the CSP allows uh you know
+you know D-ary
+D-ary uh
+uh things. In fact, it it also allows continuous and infinite domain but I but
+continuous and infinite domain but I but but that's way beyond me. I I
+I'm a finite guy. Um
+and and and the third way is it is XCC which is um
+it is XCC which is um exact covering with colors.
+Uh now um XCC,
+XCC is the is the new kid on the block. It isn't as well known as the other two.
+It isn't as well known as the other two. In fact, uh
+as of today it still doesn't have a Wikipedia page.
+Wikipedia page. I think that something else entirely
+I If you If you do Google for XCC, which is a shame because be- because uh
+which is a shame because be- because uh half of of my book volume four is about
+So, so so so I'm waiting for people to to realize that
+to realize that what a great
+what a great what a great thing this is. But, anyway,
+I don't have time to wait. I have to write more books. But, but but uh
+write more books. But, but but uh uh
+uh and I'm you know
+I might give one more lecture trying to popularize it. But, anyway, sooner or
+popularize it. But, anyway, sooner or later, people will realize that that
+later, people will realize that that that that XCC is
+it it is really important idea. And and each of these is sort of equal powerful.
+each of these is sort of equal powerful. I can take any CSP and I can I can I can
+I can take any CSP and I can I can I can encode it I can convert it to a SAT
+convert it to an XCC problem in several ways. And and similarly, XCC problem I
+ways. And and similarly, XCC problem I can represent as SAT, I can represent as
+can represent as SAT, I can represent as a CSP, whatever. But, but uh each
+some of them are best as SAT, some of them are best XCC, some are best as CSP.
+And the uh uh
+and the purpose of of this Well, let me just show show you
+I've got 450 exercises in in in here that that give uh
+that that give uh uh
+examples of why you'd want to know something
+why XCC is is a great model. Um and so, let's see, the exercises start here.
+let's see, the exercises start here. So, we've got just page
+So, we've got just page we start paging through if you if if if
+we start paging through if you if if if zoom out a little bit.
+zoom out a little bit. You can see that
+from the pictures that there's a lot of variety of the of the kind of of
+variety of the of the kind of of problems we have
+uh that that that we're modeling with with XCC problem.
+with XCC problem. And
+And let's see I said 450 so we got
+These are are lots of different kinds of problem
+and uh
+This is only the tip of the iceberg. It ends with uh
+with puzzles. Okay, so um
+That's the context why I'm interested in dancing cells. I want I
+You know, we got CSP solvers, we got SAT solvers, and we got XCC solver.
+And up until up until last year
+the best XCC solver was was called DLX
+was called DLX or DLX2 anyway.
+or DLX2 anyway. DL stood for dancing links.
+And uh And so we had uh
+For more than 20 years the the method of choice if you had a XCC problem
+choice if you had a XCC problem DLX was was doing very well.
+DLX was was doing very well. And and and you know,
+And and and you know, people would would have competitions
+people would would have competitions with
+with same problems try to solve them with a CSP SAT and and what what was
+with a CSP SAT and and what what was winning.
+winning. Um
+Um Uh
+So so there's a lot of there were a lot of problems for for which dancing links
+of problems for for which dancing links was the go-to method. But uh
+Christine Solnon who I mentioned a few minutes ago
+a few minutes ago uh
+introduced me to this idea of The name dancing cells by the way is is
+The name dancing cells by the way is is her it's her idea too. Um and she she
+her it's her idea too. Um and she she introduced me to this other data
+introduced me to this other data structure um
+structure um instead of using doubly linked list, I
+I could use two arrays, permutation and inverse permutation. And
+permutation and inverse permutation. And so let me show show you now um
+what is an XCC problem and and how do we actually implement it with with dancing
+actually implement it with with dancing cells?
+So I'm going to give you a a toy X a a toy
+problem just so you get the idea. And and it is XCC as I said is exact
+and it is XCC as I said is exact covering with colors. Um
+covering with colors. Um it's
+uh um it's based on so-called options and
+it's based on so-called options and items.
+items. So so what when we want to when we want
+to to state an XCC problem um
+we give a list of all the options that are available to us and we when
+that are available to us and we when we're supposed to choose uh
+we're supposed to choose uh the best options
+in some or or choose all all compatible options. Um and so an
+all compatible options. Um and so an option uh
+option uh option is a set of items.
+Um uh
+uh well for example uh
+we're trying to find arrangements. So so maybe it's a schedule for
+for classes at for final exams at the maybe we're maybe we're trying to
+assign peop- people to jobs and and so then an option would be you know, assign
+run the camera. Uh uh uh the items are are the uh
+uh uh the items are are the uh uh like Joe for it would be an item. A-
+and and a and a camera. Um and and and items are
+are either primary or or or secondary. So we have a primary item
+So we have a primary item um
+um and
+a secondary item and uh
+the the name the name XCC says exact covering with
+colors the
+the difference between a primary item
+a primary item uh
+you list your options and and your problem is uh to choose
+to choose one of these options so that every pri- primary item is covered
+every pri- primary item is covered exactly once. So there's exactly one
+exactly once. So there's exactly one chosen option
+of for for every item. So if I'm trying to match people to jobs then every
+person gets a job and every job has been assigned a person. If if if I'm
+been assigned a person. If if if I'm okay so so then the secondary item
+okay so so then the secondary item uh
+uh however
+A secondary item has it's assigned a color and
+it's assigned a color and and in your options
+and in your options uh
+for a secondary item you don't have to have
+that secondary item doesn't have to be in any of the options. But but whatever
+in any of the options. But but whatever options it does appear it has to always
+options it does appear it has to always have the same color.
+have the same color. So so so so so uh
+So to the primary option says uh uh you know
+This this this is the option that uses that uses me.
+The secondary option says uh these are the flavors uh
+which I can appear. So so you can think of a crossword puzzle
+of a crossword puzzle where the
+the primary items are the words across and down or
+and down or uh
+secondary items are the letters that are that are entered and and so So, if
+that are entered and and so So, if if one of your options uh uh
+if one of your options uh uh you know, puts the letter X
+you know, puts the letter X in a particular cell, another another
+in a particular cell, another another option for the downward has to put an X
+in that cell in that same cell. So, so the the secondary
+X is the color of the of the thing. So, so primary up uh items and secondary
+so primary up uh items and secondary items
+appear in options, and that's the idea of exact covering covering. I'll give
+of exact covering covering. I'll give you a very
+you a very a very simple toy problem now.
+We'll make it all all crystal clear. Um So, so I'm going to I'm going to say
+So, so I'm going to I'm going to say there are there are five items
+there are there are five items P, Q, and R, and X and Y.
+Th- These are primary. And these are secondary.
+I'm going to give you the options. Alpha, Beta, Gamma, Delta, Epsilon are
+Alpha, Beta, Gamma, Delta, Epsilon are are five options. The first option is
+P Q
+X C Y
+A. Okay. So, so So, so
+Option Alpha says take P
+cover P, cover Q uh uh give give X color C, give Y color A.
+give give X color C, give Y color A. Uh Beta is P R
+Uh Beta is P R X
+color A, Y color C. Uh
+Gamma is says take P all by itself and X color B.
+Uh Delta says take Q and X color A. And Epsilon says take R and Y color B.
+And Epsilon says take R and Y color B. So, so let's see if we can solve this
+So, so let's see if we can solve this problem. Uh I've got to choose I've I've
+problem. Uh I've got to choose I've I've got to choose options
+P is covered exactly once, Q is covered exactly once, R is covered
+and X is is colored the same in
+in all the choices, and Y is colored the same in all the choices. So so for
+example, suppose I uh
+suppose I choose option alpha. Okay? So so so that says
+I I've covered P and Q, so I I I can't cover I can't cover beta
+Uh I can't cover gamma cuz I've already covered P. And I can't cover delta cuz
+covered P. And I can't cover delta cuz I've already covered Q. So I So so
+I've already covered Q. So I So so if I've chosen alpha,
+then then the only way I can cover R is is to choose epsilon, but that says Y is
+is to choose epsilon, but that says Y is colored B and Y is has already been
+colored A. So I So alpha is out.
+could be no way to solve this with alpha.
+Well, let's suppose alpha is out, then Now I Now there's only one one way left
+Now I Now there's only one one way left to cover Q.
+So I So I've got to use delta. And so tonight I've covered Q and I and
+And so tonight I've covered Q and I and I decided X is A.
+And and so so that that throws out gamma because X is B here, so
+because X is B here, so So so
+So so so I've got to uh
+The only way left to cover P is is to use beta and
+is to use beta and so the the answer is
+that that I have to choose these three options, beta, delta, and epsilon
+options, beta, delta, and epsilon in order to in order to
+in order to in order to in order to do this. All right?
+What? Why?
+No epsilon. Not epsilon. Not epsilon. Just this.
+Here I'm Yeah, I I I'd like to claim that I did this on purpose to see if
+But but it but in fact I I blew it. Okay, so yeah.
+Okay, so yeah. Yeah, so
+Yeah, so all right. Now so so the the but the um
+the key thing to realize as we're solving this problem is that
+solving this problem is that that uh
+get a sub problem which is another XCC problem that's simpler than the one we
+problem that's simpler than the one we started with.
+So so so for so so if I if for example, if if I say that that I
+if for example, if if I say that that I choose alpha,
+choose alpha, then
+then it tells me to eliminate all the other
+already covered P, it tells me eliminate this, eliminate this, and eliminate
+this, eliminate this, and eliminate this. So and and so we found out that
+the sub problem uh was we were left with
+uh with with R still to be covered, but no options. And and that was a problem
+no options. And and that was a problem that that has no solution. So so now we
+go back and and we and we now we say, "Oh, okay, I I can't use alpha.
+"Oh, okay, I I can't use alpha. So let's consider the problem that
+So let's consider the problem that doesn't have alpha."
+So so I threw alpha out. And and if I throw alpha out,
+well, that that just that just deletes that.
+that. That just deletes that line. Uh okay,
+Okay, so this is the toy problem. Let me now show you
+now show you how we
+how we do it inside the computer. How am I going to actually write an
+How am I going to actually write an algorithm that that represents this? Uh
+the old uh
+uh I
+So so I had the same problem um
+Turn on page 89 of I'm 4B. It turned out the same toy problem uh what what was
+the same toy problem uh what what was here and
+and and I showed how it was represented with with with doubly linked list. I
+with with with doubly linked list. I mean, each
+mean, each each uh
+each thing had a pointer to uh to its neighbors.
+In this in this data structure. Let's do it now however with uh
+Let's do it now however with uh with dancing cells.
+with dancing cells. So
+so here now okay now pay attention look
+I'm going to have I'm going to have one array that that
+that lists all the options and I'm going to call this the array of nodes. And and
+to call this the array of nodes. And and I'm so I'm going to have node X.
+I'm so I'm going to have node X. Um
+node X uh and and I'm going to have nodes
+and and I'm going to have nodes I'm going to number the nodes X equals 0
+1 2 3 4 and and I I'll see how many I need.
+I'll see how many I need. Uh
+node X will actually it's a node is going to have three parts
+it's a node is going to have three parts to it and
+to it and so I'm first going to talk about the um
+uh the item part
+item part of X
+of X of and then and then the color part of
+And then there's something called the local part of X.
+So node of X really has has three components.
+has three components. And uh
+so so here's what here's why I list my my toy problem so
+my my toy problem so I got uh
+I got uh uh
+item X is going to be P Q P Q X Y it's it's for
+alpha here is going to is going to appear here. Um
+is going to appear here. Um I
+between between options I I've got a
+I've got a I've got a spacer.
+so there's going to be 6 7 I'm going to put beta here
+put beta here um
+and that's P R X Y.
+X Y. Um
+and then uh the spacer and gamma is going to be um
+going to be um p and uh
+p and uh and x.
+And uh that'll be 11 12. There's another spacer here.
+spacer here. Uh
+will be q x and then epsilon will be r y.
+and then epsilon will be r y. Mhm. So, this will be 14 15 16 17 18 19.
+Mhm. So, this will be 14 15 16 17 18 19. And look look at the epsilon here, the
+And look look at the epsilon here, the delta here, and this
+the color is where I put the colors. So, x x is color c, y is color a. Here, x is
+x x is color c, y is color a. Here, x is color a, y is color c, x is color b.
+X is color a, y is color b. So, this is so so in my
+so so in my um
+um I- I-
+in this array of nodes, I have I have the data and it it then I have to to to
+the data and it it then I have to to to for
+for the spacer in order to in order to navigate around here.
+navigate around here. So so so I put um
+with four items, I I I put a minus four in the item position. A- And so, this is
+in the item position. A- And so, this is going to be a minus four and this is
+going to be a minus two and a minus two and a minus two. A- and then be- before
+uh in the low position, I I I'm putting a plus four here and plus four here.
+a plus four here and plus four here. Plus four, plus two.
+Plus four, plus two. So So then
+as I'm walking around the data structure, I I can put a zero here.
+structure, I I can put a zero here. So, I I can use the I can use this part
+to know when I'm at the end of an option and go from the end back to the
+and go from the end back to the beginning if I want to. Um
+beginning if I want to. Um now
+now um
+I also will have to remember for each item which options it appears in.
+item which options it appears in. So I have a big
+another array which I call set. And and I'm going to show you uh
+and I uh and and this is this is going to be uh
+and this is this is going to be uh interesting but but bear with me as I as
+interesting but but bear with me as I as I write it out.
+I write it out. Uh
+So um I is
+goes 0 1 2 3 4 and so on and so on. Uh it and and in
+and I'm going to associate P item P with with location two.
+item P with with location two. It
+you'll see why in in a minute. But but but uh
+P if you see uh uh item P occurs three times. It occurs
+uh item P occurs three times. It occurs here in position one in in six and and
+here in position one in in six and and 11. So for my dancing cell data
+11. So for my dancing cell data structure I have to have the inverse
+structure I have to have the inverse permutation so I have to so I have to
+have 1 6 and 11. Uh I
+I uh
+uh and
+and the location is going to be for this is location P location P plus one and
+is location P location P plus one and location P plus two. In other words, one
+is uh
+the location of this in the set array is position two P position P. Location of
+this in the set array is position P plus one and here it is position P plus So so
+As I write this out you you'll uh uh I you'll get the idea. I'm going I'm going
+you'll get the idea. I'm going I'm going to put I'm going to put Q
+I'm reserving these these two cells for other information that that's going to
+other information that that's going to be helpful
+I'm going to put size of P. And here I'm going to put some something
+And here I'm going to put some something I call position of P.
+I call position of P. Just just write size. So
+this is So this is size and this is size for for Q and the size of of
+for for Q and the size of of P is three because there are three
+P is three because there are three things in this set.
+things in this set. So 1 6 and Okay. So So Q appears
+So 1 6 and Okay. So So Q appears Q appears in in two
+and 14. So there's two and 14 here. Then I'm going to have R is similar
+Then I'm going to have R is similar pause size.
+And R is going to go is going to be 9 10 11. So R is going to be number 11 and it
+11. So R is going to be number 11 and it it appears in
+it appears in in seven and 17.
+And and so on.
+So this is how I'm setting So inside the computer I've got a
+inside the computer I've got a My main operation
+the domain of of each item each variable The variables are the items. So the
+The variables are the items. So the domain are the options in which
+the options in which they appear. And so I've got to know where
+And so I've got to know where where where the
+contain P and and by looking at the size I know how
+options are available for for that guy. So um
+Then there's another there's another array item which
+array item which which completes the which completes the
+there there are five items uh and and one of them is
+one of them is is p p
+q r x and y. And I have uh
+And I have uh uh
+uh So,
+so now I I actually my handwriting isn't isn't very good, so I
+printed this this all out and I made the assignment that that that
+p is equal to uh Uh,
+you know, p is equal to q is equal to seven and r and so on. So, the
+seven and r and so on. So, the So, the item array
+p q r x and y inside the computer it says 2 7 11 15
+inside the computer it says 2 7 11 15 21. Those are the places where p q r x
+and y are. So, and x is in a
+x is in a uh,
+is in four of the options uh in position in 3 8 12 and 15. So, here
+in position in 3 8 12 and 15. So, here it is 3
+it is 3 8 12 and 15. Those are the ones that
+the item equal to to uh the letter x
+the letter x which is 15.
+which is 15. Uh,
+and then the location is 15 16 17 18. That's where
+That's where that's where x equal appears in the set
+So, we've got the the the These numbers
+These numbers um
+th- this is a permutation of the places where p where where p
+of the places where p where where p appears.
+these are the This is
+This is um
+This is alpha here. Uh, this is beta.
+This is gamma. This is
+delta. epsilon
+And um uh so so so
+uh so so so 2 3 4
+2 3 4 is a permutation of the place where P appear uh
+It It's the um uh the way everything appears in compactly
+the way everything appears in compactly in memory and uh uh
+in memory and uh uh The cool thing about dancing cells is
+when you're debugging it, you really have to uh have to have special tools in
+have to uh have to have special tools in order to see what's going on because
+you know all the all the information is there, but it's but but it's not in the
+there, but it's but but it's not in the in the traditional way that that that
+our parents taught us. Okay, so so um the uh
+I I guess I uh each um
+each thing uh
+each item has a dedicated part of the set array.
+uh and as the algorithm runs
+color field of a node are always going to be fixed. These are constant that
+to be fixed. These are constant that they stay the same. But but as things go
+in and out of these domains we're going to change we're going to
+change the local parts and we're we're also going to change these numbers here.
+So so so let me show you what happens when
+we decide that option alpha it it is no good.
+at what at some point we come to the conclusion that that we don't want uh
+we don't want alpha anymore in our problem. So So So we're
+we're going to go to a subproblem that doesn't have alpha. And
+doesn't have alpha. And what does that mean?
+what does that mean? That means we have to delete
+we have to delete alpha from the from the sets it appears in.
+from the sets it appears in. So, we look at
+So, we look at at the first item of alpha. It's item
+in location two. So, here's item two. And
+it has a size of three. We want to delete delete one
+We want to delete delete one from this set of three elements.
+from this set of three elements. So, that means I'm going to I'm going to
+So, that means I'm going to I'm going to move 11 here and move one up here and
+move 11 here and move one up here and I'm going to change the size to two from
+three to two. That's the deletion operation on on this
+before I was I was I was drawing an array left to right. Now, I'm doing it
+array left to right. Now, I'm doing it top to top down, but
+but but but but by by changing this two by changing set of two to to uh
+by changing set of two to to uh from one to 11, you know,
+I move these two guys around and then I say the size is now
+say the size is now it's now two instead of three. So, so
+that means the options that now contain P are 11
+and six. Uh
+Uh Okay, similarly I I I'm
+this item is Q, so its size going to go down to one and I'm I'm going to move uh
+down to one and I'm I'm going to move uh uh 14 here and two here.
+uh 14 here and two here. Uh
+Uh Uh
+is this guy, so I'm going to delete uh three out out of this set, so this
+three out out of this set, so this becomes 15. This becomes three.
+becomes 15. This becomes three. And now the size goes down from four to
+So, X is now in these three options. And and and finally Y
+And and and finally Y uh
+uh gets changed.
+and uh uh
+It's all a mess now, so here's what happened after
+I have purged uh alpha from the system. Uh I I I'm now
+uh alpha from the system. Uh I I I'm now left with
+left with uh
+size is two. This is the uh
+the head here, so um
+uh alpha you know
+alpha is still here in the nodes, but the but but but but it's invisible.
+the but but but but it's invisible. Uh if we look in the sets
+you know, the set the set of P now has only two things in it. Uh the set of Q
+now has only one thing in it. Uh the set of R the uh still has two things in it.
+of R the uh still has two things in it. The set of X uh
+The set of X uh has
+three things in it. And Y uh has has two things in it.
+And Y uh has has two things in it. So, um
+This represents now the sub problem after I've deleted option alpha.
+after I've deleted option alpha. And uh
+stay with me for another few minutes. Uh uh and uh
+uh because I'm I'm going to do what what one more step uh
+one more step uh so that hopefully it
+So, now Q has only this one option remaining. It It's got to be
+you know, the size is one, so Q only appears in in this option here, which is
+appears in in this option here, which is uh
+Here it is. Uh yeah, so so 14, this is this is delta.
+so 14, this is this is delta. And
+I have to um now saying, "Oh, I'm going to choose
+now saying, "Oh, I'm going to choose option delta."
+Choosing option delta says um
+I'm I um I I Okay, option delta.
+I I Okay, option delta. You you know, that's Q and uh and uh
+You you know, that's Q and uh and uh uh
+X A uh And
+And and so I'm covering Q.
+Uh that means uh
+Q is no longer ac- active. And so I'm going to move it I'm going to
+And so I'm going to move it I'm going to move it to the end of this list.
+The I The item list also um uh
+keeps track of which items
+have have I used in options.
+in options. And so I'm not using Q.
+Um and uh And and Q is no longer active. Uh
+Si- Si- similarly uh
+similarly X now Uh when I say X X A, I go through all all of these things and I
+go through all all of these things and I delete the
+delete the where X was not equal to A.
+And uh uh
+So I look at all the places where X appeared, 15, 8, 12.
+appeared, 15, 8, 12. Uh
+15 was A, that's fine. 8, um I- I- is A, that's fine. 12 is B. So So
+I- I- is A, that's fine. 12 is B. So So I got to remove this.
+I got to remove this. So
+So um
+Okay, so so this size goes down to two. And
+And um
+and also X becomes inactive. Uh so so so active goes down to three.
+Uh so so so active goes down to three. So
+so so at this point I'm I'm sitting after I've chosen
+after I've chosen delta,
+delta, uh
+you have you have to believe me because because I understand this is going
+because I understand this is going quick, but
+now the the active items now are 2 21 and 11, namely P uh Y and R.
+and 11, namely P uh Y and R. And and uh
+And and uh uh
+And that's the subproblem with those active items.
+And then I've also reduced uh all the all the options that that are
+all the all the options that that are incompatible with what I've chosen.
+incompatible with what I've chosen. Um
+Um uh
+And and so and so it it so although I haven't really removed
+anything from the set of Q, uh it doesn't matter. Q is no longer
+it doesn't matter. Q is no longer active. Uh
+active. Uh Yes, I
+Yes, I so so
+left with a subproblem with with three items, P
+R and and Y. And
+And and this table tells me exactly what's
+What's that? And and uh
+So once I go to a subproblem, I can easily go back afterwards and
+if I if I say, "Oh, no, let let me not go to that subproblem. Let me do the
+go to that subproblem. Let me do the other way." Uh
+and undoing is extremely fast in this in this Okay, so so so that's the
+this Okay, so so so that's the um
+um uh
+that's the idea of dancing cells and and and now I'm going to show you uh
+performance of you know, that that it actually works.
+But but it it a question before Yeah. Do you have
+before Yeah. Do you have a pause that doesn't change in the
+algorithm? Um What?
+Do you have a pause that doesn't change in the outcome. I
+I do have my hearing aid. Um so pause does not change the outcome.
+does not change the outcome. Pause.
+You have to pause. Pause as a position. I could have changed. I changed. Very
+I could have changed. I changed. Very good.
+good. You get highest priority. Yeah.
+In fact, um if you look,
+if you look, uh
+Five digits. Yeah. O- okay. Yeah. Uh
+Pause is is the inverse is the inverse inverse of this thing. So
+So the position of Q uh
+went from one to four and the position of uh
+of uh uh of um
+Y went from four to one. Yeah.
+Okay, very good. Uh
+You I have a question. So, I might just not have understood this, but I'm more
+not have understood this, but I'm more coming from a SAT domain, and you said
+coming from a SAT domain, and you said every XC C problem is equivalent to SAT
+every XC C problem is equivalent to SAT problem, right?
+So, in SAT, one of the things that makes solving really efficient is conflict
+in SAT solving, one of the things that makes solvers really efficient is
+makes solvers really efficient is actually conflict learning. So, you
+actually conflict learning. So, you don't have to explore all the branches
+because you learn something from exploring one of the branch. So, the
+exploring one of the branch. So, the undoing here seems pretty cool.
+How would you do something like trying to learn which branches you don't need
+to learn which branches you don't need to explore anymore because you have
+to explore anymore because you have already learned information that makes
+already learned information that makes them not possible.
+Uh So that's
+first I have the basic algorithms for for for how how to walk around and
+for for how how to walk around and navigate.
+And then I can build it I can I can build all all kind of other
+stuff, you know. Uh All the heuristics
+the learning and so on. In my XCC solvers, however, uh
+In my XCC solvers, however, uh I haven't
+I haven't gotten I haven't put learning in yet. Uh
+And and still on the kinds of problems that they're working on,
+that they're working on, it turns out that uh
+such a win as it is for SAT solver. But but but I I take other problems and
+But but but I I take other problems and I convert them into SAT and and
+I convert them into SAT and and and
+you know, sometimes the learning is really important. And similarly with
+with with CSP and and so on. And there's also questions of restarts and all kinds
+also questions of restarts and all kinds of other stuff that goes on. Uh Uh
+of other stuff that goes on. Uh Uh so yeah, we
+we're dealing with with tough problems and and so we
+and and so we we need lots of tricks, but
+but the uh
+the kind it turns out that there's this class of
+it turns out that there's this class of problems that uh uh
+problems that uh uh uh
+I would always do with the SAT solver and then other
+do with the SAT solver and then other problems that I always do with my XCC
+uh it's kind of an art to to decide which which one is actually
+going to work better when when you get to the really hard when you get to the
+But but but speaking of problems, let me look at
+let me look at at some benchmarks. So so um
+I brought Yeah.
+Yeah. So
+Right now I'm working on volume 4 C. Uh
+and the first part of volume 4 C is going to be about um
+going to be about um uh uh
+uh uh CSP.
+So, so so volume 4 B was sort of the half of it was XEC, half of it was
+the half of it was XEC, half of it was set was set. And And volume 4 C is is
+starting out with uh
+constraint satisfaction. So, the I'm in the middle of writing it and um
+I'm in the middle of writing it and um uh
+I've still got I'm I'm hoping to finish it by spring.
+it by spring. Uh uh
+this part and and then it it'll be available online. Uh
+you're clever, you can figure out how how to look at the at the current draft.
+how to look at the at the current draft. Uh
+I'll I'll I'll I'll put a link I'll I'll I'll put I'll put put a link on. But, uh
+I'll put I'll put put a link on. But, uh uh
+uh I
+I I want to show you um so- so- some of the output. Uh so- some
+so- so- some of the output. Uh so- some of the results.
+of the results. Oh, I see. I
+Oh, I see. I I I
+I I What's do we do? Oh, okay. So,
+yeah, this is this is my hand copy. I I I I should have taken Okay, wait.
+I I should have taken Okay, wait. Anyway, uh
+Anyway, uh here we have um
+Uh page 63 of the current draft. So, so So, I I I I set up a
+So, so So, I I I I set up a a
+a bunch of benchmark problems that that they were typical and not too
+they were typical and not too not too easy. And
+And so, here's a uh I don't want to go go to the detail of
+what what they are, but but for example, problem Q is is the
+but for example, problem Q is is the classical problem of uh
+classical problem of uh uh
+uh uh uh of 16 queens.
+Take a 16 by 16 board and place one queen in every row and one in every
+queen in every row and one in every column and no two in the same diagonal.
+And uh uh
+14 million solutions to this the the you have 256 options. Uh
+you have 256 options. Uh uh
+I I I I I I I you know, 16 by 16 uh places uh uh
+you you you can put a queen in in in in row I and column J for you have
+16 choices in each case and then you have 32 primary options and 58 secondary
+have 32 primary options and 58 secondary options. The primary options are the
+options. The primary options are the rows and columns and the secondary
+rows and columns and the secondary options are the diagonals.
+options are the diagonals. Um and and and so no uh
+If we use if we use dancing links, um uh it turned out that it was it
+uh it turned out that it was it it took for for
+40 gig mems. So that's 40 billion references to memory. And uh dancing
+references to memory. And uh dancing cells 44 gig mems. So we
+cells 44 gig mems. So we we didn't win that one. Um
+we didn't win that one. Um However, almost um almost all the other
+However, almost um almost all the other cases were doing rather well. So here
+cases were doing rather well. So here the ratio
+the ratio was
+another pro- problem that I added later D is 60% 66 uh So so
+D is 60% 66 uh So so there's uh
+there's uh uh
+there was one uh which was rather simple problem because
+did it didn't take very long to solve at all where dancing links worked better.
+all where dancing links worked better. But but in in in in in in in in in in in
+But but in in in in in in in in in in in in in in in most of these uh
+was doing very very well. Now,
+then we added heuristics,
+heuristics, better ways to to choose
+uh uh
+dancing cell turns out to to to to make that that simpler.
+that that simpler. So, so so so we have other ways to to
+what we're going to use for the next branch.
+And after after we bring in this the statistics on these problems,
+the statistics on these problems, uh it turns out that
+that we that we have three major uh heuristics. One One is to use the uh
+heuristics. One One is to use the uh the most common one is the minimum
+the most common one is the minimum remaining values, uh but then there's a
+remaining values, uh but then there's a weighted heuristic, which uh
+weighted heuristic, which uh which in this case
+uh on problem H. Problem H was an interesting problem about uh
+interesting problem about uh uh
+making snake paths with windmills that I can't explain uh
+I can't explain uh shortly, but but but anyway, uh
+another heuristic that was invented two or three years ago uh
+or three years ago uh called the the failure rate statistics.
+called the the failure rate statistics. Uh
+In this case, you know,
+you know, gave a big speed-up uh
+the problem of of MacMahon tiles. And so, uh
+And so, uh uh
+that was that was one of the one of the nice things that uh
+nice things that uh uh
+Now now when when I combine uh
+When I combine the heuristics with
+with uh
+and dancing cells, then I have um
+You know, I I can do better on the queens problem
+with the So, so dancing cells is starting to win
+That's half of my benchmark, but I also but but I also have benchmarks that that
+but but I also have benchmarks that that are much more difficult problems
+are much more difficult problems for which I want to do more extensive
+more extensive pruning more I want to
+I want to I want to do do much better look ahead
+that couldn't be used. And so and so there's a
+a general idea that that we that we
+important in CSP called the domain consistency
+consistency which in the context of XCC problems
+I don't want to keep any option that that could cause some other item to
+that could cause some other item to become wiped out.
+become wiped out. And so
+because I have dancing cells, I was able to write
+a much more complicated program that that would do this extra
+that would do this extra this extra
+this extra extra special uh uh uh
+what do you call it pruning of possibility uh and and cut
+pruning of possibility uh and and cut the search tree way down.
+the search tree way down. Now it's expensive
+Now it's expensive to do all
+to do all this all this thinking about how can I cut it
+So so on on on most problems uh
+that I was faced with it It out that I didn't really want to do this expensive
+test uh because even if I had a large search tree, I was going through so fast
+search tree, I was going through so fast on each part of the search tree, there
+was no point in in trying to make the search tree smaller. Uh
+search tree smaller. Uh in fact, I spent 6 months trying to find
+where I needed the extra where I was I was going to get it back
+where I was I was going to get it back the amount of extra computation
+the amount of extra computation in order to in order to to keep the
+search tree small. However,
+However, the
+eventually I I found a bunch of problems for which uh uh
+this domain DC stands for domain consistency, FC stands for forward
+consistency, which is a weaker kind of pruning. And
+and so um uh
+technology, I was able to write this much more complicated program that would
+much more complicated program that would that that would
+they would solve X2C problems with domain consistency and this
+domain consistency and this this meant that I could
+on a lot a lot of these, I could solve problems that I never thought I could
+I never thought I'd be able to solve. So So you look at these numbers and uh
+So So you look at these numbers and uh I
+I have a problem here. Uh
+Uh that
+since since time is up, I can't
+up, I can't I can't go go into into too many more
+But I do want to have one more uh one more thing is that
+uh one more thing is that uh
+beyond X2C problems, there's another class of problems called
+MCC problems and and this is
+a vast generalization of X2C. So the MCC problem
+So the MCC problem says that
+item has to be covered exactly once, you you give a range and say every primary
+you give a range and say every primary item has to be covered at least eight
+item has to be covered at least eight times and at most B times.
+times and at most B times. And
+and this uh opens up a large number of of other
+uh opens up a large number of of other problems and it's it's
+important global constraint that uh you know that that that that
+So so when I use dancing links to solve MCC problems, I had to introduce a new
+MCC problems, I had to introduce a new dance step.
+dance step. Uh and
+and it's it's discussed uh uh uh and we solved a bunch of them but but
+and we solved a bunch of them but but but now uh
+a friend of mine in Belgium named Philip Stopper uh uh
+you could use dancing cells to solve the MCC problems and not only the XCC
+MCC problems and not only the XCC problem.
+problem. And
+And and and so here finally
+I've got some problems. These These problems have script letter
+problems have script letter uh code names and
+and these are all MCC MCC problems and with dancing links compared to dancing
+with dancing links compared to dancing cells and and and three different uh uh
+cells and and and three different uh uh heuristics, uh
+we make make major uh make major improvements in these
+in most of these. So so here for example, I I I was doing 200 uh gigamems
+example, I I I was doing 200 uh gigamems and now it's down to 39 or 38 gigamems
+So so people who who are are want to go through this
+want to go through this further,
+further, my programs are are online. Uh so so so
+is the program that solves This is sparse set
+This is sparse set XCC solver.
+XCC solver. SSMCC
+SSMCC is
+the new one I just added last month sparse
+sparse set MCC solver and then there's the
+which is the XCC solver with domain consistency.
+And these these programs are I think state of the art now and they all use
+state of the art now and they all use dancing cells.
+dancing cells. Thank you for sticking with me. I'm

@@ -1,0 +1,289 @@
+[
+  {
+    "id": "ku_video_GMC7uOPAa_Y_0",
+    "t_start": 0.1,
+    "t_end": 90.9,
+    "type": "overview",
+    "summary": "[MICHAELA IACOBELLI] --before. So, I think at least now you can see the screen. [HOST] Sure. Well, I guess, hello, everyone. Welcome to the third day of the boot camp. Today we'll be-- [MICHAELA IACOBELLI] Sorry. Can you turn your microphone [HOST] On? Is it on? Okay. So today we'll have a day about optimal transport, and Michaela Iacobelli accepted very nicely to give us a talk on a crash course in optimal transport. So thank you, Michaela. [MICHAELA IACOBELLI] So thank you very much for the invitation to this very nice program. I am honored to give this short lecture on optimal transport.…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_90",
+    "t_start": 90.9,
+    "t_end": 181.1,
+    "type": "overview",
+    "summary": "goal is to give an informal introduction to gradient flows in Hilbert spaces, the Benamou-Wren formula, to finally arrive to a formal introduction of Otto's calculus to, to show that the heat equation is the gradient flow in Wasserstein on the ent-- of the entropy. Can you hear me well? [HOST] Yes. [MICHAELA IACOBELLI] Okay, perfect. So let me just give you some references. Some are quite classical. There are two books by Cédric Villani. One is Topics in Optimal Transportation, is the first one he, he wrote in 2003. Then I read some parts of these books by Ambrogio Gilles-Savaré that is abo…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_181",
+    "t_start": 181.5,
+    "t_end": 271.9,
+    "type": "overview",
+    "summary": "So if you then will need more precise references, just let me know, and I can provide some more detailed references. But in all these-- essentially, in all these books, you will find what I will talk about today in one way or another. So I'm trying to move. Okay. So let me start with a very brief overview. Okay, can you see well? [HOST] Yes. [MICHAELA IACOBELLI] So the, the problem of optimal transportation has been first introduced by Gaspard Monge, a French mathematician, actually a French engineer, in in 1781 in, in a way just to, to, to answer to a very practical question. The question …"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_272",
+    "t_start": 272.7,
+    "t_end": 362.9,
+    "type": "overview",
+    "summary": "And we want to find the cheapest possible way to bring this mass from one place to the other, and cheapest in which sense? So to formulate this question rigorously, one needs to specify how much one pays to move a unit of mass from the point X that I pictured here to the point Y. And in Monge case, the ambient space was R3, and the cost was simply the Euclidean distance. So the travel distance. Now this was the most classical formulation of optimal transport. Um, then many, many years passed by until Leonid Kantorovich in 19-- in the '40s, essentially in the 49th of last century, proposed a…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_362",
+    "t_start": 362.9,
+    "t_end": 455.0,
+    "type": "overview",
+    "summary": "some non-deterministic situation that are very common in real life. Let me present it with an example. So suppose that we have several bakeries b1, bn. Here, I pictured three bakeries because b1, b2, and b3 are the bakeries, and several coffee shops, c1, c2, c3, and c4. So in, let's say, cj, j goes from one to m. These bakeries are located at points xi, and they sell a quantity of bread that is alpha i. Let me write it. So this is bread produced by b1, and this is the position. I mean, the label that I do to this bakery. Let's say label. So these coffee shops instead are in positions b yyi,…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_455",
+    "t_start": 455.0,
+    "t_end": 545.1,
+    "type": "overview",
+    "summary": "the bakery bi beta j larger than zero is the amount of bread that is bought needed by the coffee shop, cj. So we assume-- The first assumption is that the offer is equal to the to the demand. from one to m of beta j, and the offer is sum from i that goes from one to n of alpha i. And we normalize everything to one because we will, we want to deal with probability measure in the end. So now, this problem is incompatible with Monge formulation because each bakery may supply bread to multiple coffee shops, and one coffee shop may buy bread from multiple bakeries. So for this reason, Kantorovic…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_546",
+    "t_start": 546.4,
+    "t_end": 645.2,
+    "type": "overview",
+    "summary": "He looks for matrices-- Gamma IJ, I that goes from one to N and J that goes from one to M. Um, such that we, we, we ask for the, for the following assumption A, gamma IJ, is it large enough how I'm writing? [HOST] Yes. Yes. [MICHAELA IACOBELLI] Okay. Gamma IJ is larger than zero, that means that the amount of bread going from XI to YJ is non-negative. B, for every I sum over J that goes from one to M of gamma IJ is equal to alpha I. That means that the total amount of bread sent to the different coffee shop is equal to the production. C, for all J we have that sum from I that goes from one …"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_647",
+    "t_start": 647.4,
+    "t_end": 740.1,
+    "type": "overview",
+    "summary": "So the total transport cost is minimized. So it's interesting to observe that the constraint A is a convex constraint, While B, C and D are linear with respect to gamma IG. So linear. So in a sense we are just trying to minimize a linear problem with convex or linear constraint. So this is already, This already shows a bit why this formulation can be very handy. Let me just come back one second to the picture just to show. Here I pictured a quick example, and I show you how to compute the gamma IJ. So for example, gamma 3, 3 is alpha-3 because the bakery B3 only sells bread to C3. And gamma…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_740",
+    "t_start": 740.1,
+    "t_end": 831.7,
+    "type": "overview",
+    "summary": "over the years in application due to its connection to several areas of mathematics. And in particular these, all the applications are heavily linked to the geometry and also to the choice of the cost function C of X and Y. So for example, let me just mention few applications. So there have been application to the study of the Euler equation. So isoperimetric inequality, Sobolev inequality, et cetera. But also in, in the study of evolution PDEs, and PDE like um, porous medium equations or DT of U this is, this is a bullet, equal to lambda of U to the M or DTU equal divergence of grad W conv…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_831",
+    "t_start": 831.7,
+    "t_end": 924.3,
+    "type": "overview",
+    "summary": "so in RD, this in-- in RD, or also C of XY equal X minus Y to the P, with P strictly larger than one. But also there have been several application to probability, and to kinetic theory. So kinetic theory is my main, let's say area of research. And so for example the optimal transport, in particular with the cost either C of XY equal X minus Y, or with the quadratic cost X minus Y square, have been used a lot for the study of transfer equilibrium for kinetic equations, or for stability, for example, for the Vlasov-Poisson equation, and to study the derivation of this equation for plasma phys…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_924",
+    "t_start": 924.3,
+    "t_end": 1016.4,
+    "type": "overview",
+    "summary": "cases, the-- the-- The Riemannian distance d of XY square. Okay. So of course, there are much more applications, but I'm sure you will see plenty of application in the-- in the next lectures. Let me now go on with the notation. So the-- the notation I'm using is really classical, you have already seen it in-- in previous lectures. But just for simplicity, so for simplicity I will focus on the case of the Euclidean quadratic cost for most of the time. So cost equal X minus Y square on RD. So this will be our model case. And in particular, although I will consider the case of RD in general, I…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_1016",
+    "t_start": 1016.4,
+    "t_end": 1104.8,
+    "type": "overview",
+    "summary": "So you think about the case X equal to Y equal to RD. And another important notation is P of X, that is the set of probability measures over X. So let me start now with several basic definitions. So the most important definition will be the one of transport map. But to define a transport map, let me first define a pushforward. So definition, pushforward measure. So let T from X to Y, then mu is in P of X, no, mu is in P of X. Um, we define the image measure or pushforward, the measure T pushforward mu in P of Y such that T pushforward mu of A is mu of the pre-image of A for all A Borel sets"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_1106",
+    "t_start": 1106.8,
+    "t_end": 1197.0,
+    "type": "overview",
+    "summary": "in Y. Let me explain with a picture in the case of transport map. So if now mu is in P of X and nu is in P of Y, a map T from X to Y is called a transport map, if T pushforward nu is equal to nu. So let me show with a picture of this. So this is X, this is the space Y, this is the measure mu, and So we take a Borel set in nu, it is A. So T sends nu onto nu, so T is a transport map if we have that T is the pushforward of nu on nu, and the condition is that nu gives to the, to the Borel set T-1 of A, the same weight, let's say the same mass that nu gives to the Borel set A. Okay?"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_1199",
+    "t_start": 1199.4,
+    "t_end": 1289.6,
+    "type": "overview",
+    "summary": "So the natural first question that we have to ask ourself is whether this transport maps always exist or not. And unfortunately one of the main problem we would see, one of the main problem in Montt formulation compared to the Kantorovich for-- to the Kantorovich formulations that optimal transport map and transport map in general don't always exist. So given mu and nu, the set of maps such that T pushforward nu is equal to nu, so the set of transport map from mu to nu may be empty. Think, for example, to the case of mu equal delta in X0. So if mu is a delta a direct delta centered in X0, t…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_1292",
+    "t_start": 1292.3,
+    "t_end": 1385.6,
+    "type": "overview",
+    "summary": "of transport map, from mu to nu is empty. Okay? So let me now go on to another fundamental definition that is the, that is the one that will be used to define the Kantorovich problem in optimal transport, and is a definition of coupling or transport plan. So definition, or transport plan. So the term coupling is mostly used in probability bar. We can use both term. So we call gamma a measure in the product space X times Y, a coupling, of mu and nu. If mu is the first marginal of gamma and nu is the second marginal of gamma, that means that the"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_1385",
+    "t_start": 1385.6,
+    "t_end": 1474.5,
+    "type": "overview",
+    "summary": "pushforward of gamma with the first projection is mu, and pi y pushforward gamma is nu. So pi x is the function that associate to the point XYX, so it's the projection of the first variable, and pi y is the projection of the second variable. So here, let me do another picture. So suppose-- So this is gamma, this is X, and this is Y. And if we take the projection by X of gamma, we find mu. And if we take the projection-- oops, mm, the projection by Y of gamma, we will find nu. And this is fundamental for what we will say in the following. So I recall that gamma is a measure on the product sp…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_1476",
+    "t_start": 1476.8,
+    "t_end": 1569.8,
+    "type": "overview",
+    "summary": "Okay? So now an important remark is that given mu and nu, the set gamma of mu and nu is always nonempty. For example the measure mu tensor nu is an admissible coupling, so it's a coupling of mu and nu. So it belongs to gamma of nu, nu. And this is another big difference with in the notion of transport map that a coupling between two measures always exists while a transport map from two measure is not always necessary that it exists. So, again, on this subject of transport map versus transport couplings. So, it's important to note that if T from X to Y is a transport map from mu to nu, so sa…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_1569",
+    "t_start": 1569.8,
+    "t_end": 1666.5,
+    "type": "overview",
+    "summary": "transport coupling between mu and nu using the map T. So we consider the map identity times T that goes from X to X times Y, and associate to X the graph of T. Then gamma T defined as the push forward of nu of the push forward of identity times T of the measure mu is a probability measure on X and Y, and belongs to gamma of nu, nu. So it's a coupling. So any transport map induce a coupling gamma T. This is another fundamental notion. And this was covering essentially the, the basic definitions that we needed to now be able to, to, to explain Monge and Kantorovich formulations for, for optim…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_1666",
+    "t_start": 1666.5,
+    "t_end": 1757.9,
+    "type": "overview",
+    "summary": "from below and continuous. So now a little disclaimer. I will only mention theorems and formulation in the most, let's say, in the easiest possible setting, but several things can be relaxed and put in greater generality. But for simplicity I will just talk about continuous cost here. Um, so the Monge and Kantorovich problems can be stated as follows. So the total Monge transportation cost between mu and nu is the infimum on all transport maps of the integral on X of C of X, T of X, D mu of X. So the infimum is taken on all the transport maps from mu to nu, and I will call this M. So this i…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_1758",
+    "t_start": 1758.4,
+    "t_end": 1850.6,
+    "type": "overview",
+    "summary": "And you see also that the Kantorovich problem is much more symmetric than the, the Monge one. So there are a lot of indication that solving the Kantorovich problem is easier than solving Monge problem. Um, in fact, for example, already Monge problem consists in minimizing the transportation cost among all transport maps, and this set of transport map we, we have seen that can be empty, while Kantorovich consists in minimizing on a set which is never empty, for example. So we call optimal transport map, so optimal transport map or coupling, the map or coupling that realizes CM or CK. So the …"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_1850",
+    "t_start": 1850.6,
+    "t_end": 1940.9,
+    "type": "overview",
+    "summary": "gamma T can be taken considering the graph of T push forward mu. And in addition, T and gamma T have the same cost. The total Mont cost between mu and u is always larger or equal to the total Kantorovich cost. Okay. Now, some natural questions at this point consist in asking whether minimizers exist, so do minimizers, of K exist? And if yes can we characterize them? So, can we say something about their structure? And let me start from the existence of an optimal coupling, from what I've already mentioned. And in general, solving the Kantorovich"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_1940",
+    "t_start": 1941.0,
+    "t_end": 2023.1,
+    "type": "overview",
+    "summary": "problem is easier than solving the Mont problem. So also for existence, a strategy, a natural strategy is to first prove existence of an optimal coupling, and then try to prove existence for, of an optimal transport map. So let's see, if the cost that is bounded from below and continues mu in p of x, nu in p of y, then there exists an optimal coupling. Gamma bar in gamma of mu, nu. And then once we have existence, the second natural question is about uniqueness. So is gamma bar unique? And if, in general, we have found this optimal coupling we know that every transport map induce a coupling…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_2031",
+    "t_start": 2031.1,
+    "t_end": 2126.1,
+    "type": "overview",
+    "summary": "So in general just to have some intuition of this about the possible answer to this question, let me give you a couple of examples. Okay, so examples, mm, okay, assume that mu is a delta in x0. So we have x0, and we have a delta, so we have mass one here. And nu is one half delta y0, plus one half delta y1. So there are other two points, y0 and y1, and here we have mass one half and mass one half. So there is only, let's say, the only thing that we can do is to send from x0 one half, to y0, and one half to y1. So it exists unique, a minimizer, that is gamma bar equal to one half delta x0 y0…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_2126",
+    "t_start": 2126.1,
+    "t_end": 2218.5,
+    "type": "overview",
+    "summary": "let's say, it's not necessarily induced by a transport map. Second example we assume x equal to y equal to part two. The cost is quadratic. And let's put four points. So x1 is in 0, 0. X2 is in 1, 1. Then we have, okay, this should be 1, 1. Y1 is in 1, 0. And Y2 is in 0, 1. So, and suppose that mu is now one half delta x1 plus one half delta x2, and nu is one half delta in y1 plus one half delta in y2. So how can we send nu onto nu? So we can start from x1 and we can say, \"Okay, let's now send a quantity alpha in 0, one half.\""
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_2222",
+    "t_start": 2222.7,
+    "t_end": 2316.8,
+    "type": "overview",
+    "summary": "In y1. So include, and then we send the rest, so one-half minus alpha to y2. And let's do the same from x1. So here we send alpha, still in zero one-half, and then we send the remainder, one-half minus alpha on y1. So we see that the couplings given by alpha delta x1, y1, plus one-half minus alpha delta x1, y2, plus one-half minus alpha delta x2, y1, plus alpha delta of x2, y2, with alpha in zero one-half. These are all optimal, so these are, all optimal couplings. And this rules out the uniqueness without further assumption. And this was, in a sense, predictable because the Kantorovich pro…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_2316",
+    "t_start": 2316.8,
+    "t_end": 2409.6,
+    "type": "overview",
+    "summary": "So a priori, since the problem is linear in in Gamma there is no reason to expect uniqueness without any further, let's say, hypothesis. And this is what I wanted to say about optimal transport maps and optimal transport couplings, and about the existence of an optimal transport coupling. And let me now present very briefly the Kantorovich duality that is a very powerful tool from both the theoretical and numerical point of view. So I will not directly use the Kantorovich duality today because simply because I'm not entering in the proof. But you will probably see dual problems in the follo…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_2409",
+    "t_start": 2409.6,
+    "t_end": 2502.4,
+    "type": "overview",
+    "summary": "problem that if formulated as a maximization problem. And this is just because of now theorems in convex analysis. So in this specific case we have C, the cost continues bounded from below. And now assume that the inf on Gamma coupling between Mu and Nu. So this is essentially the, the Kantorovich, the Kantorovich problem. Uh, I'm sorry, this is not the x, this is the Gamma, is finite. Then we can reformulate this problem in the following way. So this is our primal problem. I'm sorry. Let me write it below, actually. So we add the, the minimum on Gamma in capital Gamma Mu Nu of the integral…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_2504",
+    "t_start": 2504.9,
+    "t_end": 2599.9,
+    "type": "overview",
+    "summary": "plus C of Y, plus C of XY larger than zero. We'll put a plus here just to show that it's the same equation, of integral of minus Phi D Mu plus integral of minus C D Mu. And this is our dual problem. So we can transform a minimization problem or in a maximization problem, and you can see that now, for example you have that Mu and Nu in the primal problem appear because they, they are they are in the minimization. So we are minimizing on the, on the couplings between Mu and Nu. While here, they appear in, in the, in the, in what I'm minimizing. So in the integrals. And at the same, and in the…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_2604",
+    "t_start": 2604.0,
+    "t_end": 2694.4,
+    "type": "overview",
+    "summary": "x minus y, so the Euclidean distance. Then the minimum on gamma were coupling between mu and nu of integral on x times y of the Euclidean distance between x-- x and y in the gamma. This is equal to the max over phi of all phi one Lipschitz function of what? Of integral over y of phi d nu minus integral over x of phi d nu. And by one Lipschitz, I mean, simply that phi of x minus phi of y is smaller than x minus y for all x, y in x. So it's just Lipschitz with constant one. Um, and this Kantorovich duality in the case of the cost x-- X minus y is, is very simple. So it was really widely used.…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_2694",
+    "t_start": 2694.4,
+    "t_end": 2778.3,
+    "type": "overview",
+    "summary": "in kinetic theory because one of the first proofs that used optimal transport in kinetic theory has been the proofs of mean field limit in the case of Vlasov equation of, um-- And in general, the well-posedness of Vlasov equation by Dobrushin that in the '70s used this the, the bounded Lipschitz distance or the one Wasserstein distance, and in general, this Kantorovich duality to show that if you have two solutions of this equation, of this Vlasov equation, then you have stability. And this was very useful since then. Um, bi-- by the way, Dobrushin was also the person who, who assigned the …"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_2787",
+    "t_start": 2787.8,
+    "t_end": 2877.1,
+    "type": "overview",
+    "summary": "That is really a cornerstone of the optimal transport theory. I will state the Frenet theorem only for quadratic cost, even if it applies also more generally to several strictly convex costs. But let me state it in the simplest possible way. So let x be equal to y be r, d, the cost be quadratic. Suppose that the integral over r, d of x squared d mu plus integral over r, d of y square d mu is not infinite. So Yeah. Then assume that mu is absolutely continuous with respect to the Lebesgue measure, then we can say that there exists a unique optimal transport coupling between mu and nu, gamma b…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_2878",
+    "t_start": 2878.9,
+    "t_end": 2968.4,
+    "type": "overview",
+    "summary": "So is induced by map T. T now is an optimal transport map, but on top of that, we have a structure that is, that T is the gradient of phi, for phi convex. So not only we have an optimal transport coupling, but we have that the coupling is induced by the map and that the map has actually a lot of structure because it's the gradient of a convex function. And you know that convexity in, you know, optimization problem is really a key let's say feature. And in particular, the fact that the optimal transport maps are gradient of something. So the role of the gradients of functions is really centr…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_2969",
+    "t_start": 2969.9,
+    "t_end": 3064.6,
+    "type": "overview",
+    "summary": "And in that case, we have existence and uniqueness of an optimal coupling gamma bar, and it's still induced, this gamma bar, by some transport t. But in this case, t is not the gradient of a convex function, but is more complicated. It comes with a more complicated formula that is less useful in general than the one that we have in the quadratic cost. So let me give you now another definition. Mm-hmm. So we want to arrive to the definition of Wasserstein distance. [HOST] Mm-hmm. [MICHAELA IACOBELLI] So first, we need to define the space of probability measures with a finite p, p-moment. So …"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_3066",
+    "t_start": 3066.8,
+    "t_end": 3157.5,
+    "type": "overview",
+    "summary": "So this is also referred to as moment condition. So this is, Okay? And now that we have the space that will be the protagonist of, of the following, I can finally define the Wasserstein distances. So, definition p-Wasserstein distance. Probably will change page and so on. Um-- So given, given now two measures, mu and nu in the space of probability measures on x with finite p moment Then the p Wasserstein distance between mu and nu is defined. We take the infimum on all the couplings between mu and nu of both of the integral on next time y oops, in this case it's x, of x minus y to the power…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_3158",
+    "t_start": 3158.1,
+    "t_end": 3252.1,
+    "type": "overview",
+    "summary": "So we see that is-- this is the power 1 over p of the optimal transport cost by Kantorovich. So we add that the relation of these distances with the optimal transport problem is very crystal clear because it's really defined in this way. And it's not that easy to prove, in particular, the triangle inequality, but we can prove that the p Wasserstein distance, so the w so Wasserstein p is a distance on the space of probability measures on x with finite p moment. So we will refer at to Pp of x with the distance Wasserstein p as Wasserstein space. And this Wasserstein distance is uh, are really…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_3252",
+    "t_start": 3252.2,
+    "t_end": 3342.6,
+    "type": "overview",
+    "summary": "us that suppose that we are in a compact set, For, for simplicity, we, we set everything in compact sets, then, so p larger than 1, if we have mu nu, mu, mu n, a sequence of probability measures on x, and mu a probability measure on x then we have that, the Wasserstein distance, the p Wasserstein distance is equivalent to the weak star convergence. So saying that mu 1 weakly star converge to mu in this case is equivalent to say that the p Wasserstein distance between mu and nu tends to 0. So on compact sets, the Wasserstein distance convergence is equivalent to the weak star convergence. An…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_3342",
+    "t_start": 3343.0,
+    "t_end": 3432.4,
+    "type": "overview",
+    "summary": "While the Wasserstein distance instead between two delta that, that, delta of Dirac is essentially the, the Euclidean distance between the support of the deltas. You can do this as an exercise. So it's a distance that is very sensitive also to atomic measures, and this is great for many applications. For example, this is great in kinetic theory when one want to derive equations from particle models. So but come back to optimal transport, we now are left for this first hour with the construction of geodesics. So x now is again equal to rt. Assume that mu 0 and mu 1 are probability measure on…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_3434",
+    "t_start": 3434.9,
+    "t_end": 3525.7,
+    "type": "overview",
+    "summary": "Okay? So if t is the optimal transport map between mu and nu, eh, I'm sorry mu, mu 0, mu 1 in this case, it's easier. Mu 1, then the geodesic mu t, takes the form of t, so a map T_T pushed forward mu zero, where this map T_T is the linear interpolation between the identity mark and T. So T_T of X is defined as one over T minus T, X minus T_T of X. So in, and so by geodesic, we can always have in mind if we want to think about the geodesic between two points, it's the shortest path between these two points informally. And with this definition of geodesic we can say that in this case, that T …"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_3529",
+    "t_start": 3529.1,
+    "t_end": 3621.2,
+    "type": "overview",
+    "summary": "mu T is constant speed. That means that if you take the p Wasserstein distance between mu S and mu T this is T minus S, the Wasserstein distance between mu zero and mu one for all S and T between zero and one. And okay I've not mentioned here, but mu T are all measures in the space uh, P_P of X, so the space of probability measure with finite moment. And let me briefly mention that in the case that we don't have at our disposal, so it doesn't exist an optimal transport map, there is also an, a formula that is equivalent, but in the case of having an optimal coupling. So a formula that is ex…"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_3621",
+    "t_start": 3621.2,
+    "t_end": 3711.1,
+    "type": "overview",
+    "summary": "Oh. Is there any question for Mikaela? Maybe I have one, just on the Wannier theorem. When you have a cost which is strictly convex function of X minus Y, so you said that we have the distance of the transport map, but that is not necessarily a, the gradient of the convex function, right? So-- [MICHAELA IACOBELLI] Yes. [HOST] When is this true? It's only for the two? [MICHAELA IACOBELLI] So in this case if the cost between X and Y is, for example, X minus Y to the power P, with P strictly larger than one, then we don't add the T is the gradient of the convex function, but we have something …"
+  },
+  {
+    "id": "ku_video_GMC7uOPAa_Y_3711",
+    "t_start": 3711.7,
+    "t_end": 3720.1,
+    "type": "overview",
+    "summary": "See you soon. Bye."
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ku_video_dSK5jTEe-AM_5",
+    "t_start": 5.8,
+    "t_end": 96.4,
+    "type": "overview",
+    "summary": "suppose I have some graph and I want to walk through this graph well what I mean by that is I want to start on some particular vertex I go along the edge to particular vertex I go along the edge to a different vertex I go along with different vertex and so on now there is a special name for certain types of ways a special name for certain types of ways that I can move through graphs like this that I can move through graphs like this and Euler path is one that starts at a vertex and it moves along through the graph where every edge is taken up graph where every edge is taken up exactly one t…"
+  },
+  {
+    "id": "ku_video_dSK5jTEe-AM_96",
+    "t_start": 96.4,
+    "t_end": 188.3,
+    "type": "overview",
+    "summary": "wanted to get down to D to C I'd have to go over an edge I've already done so in go over an edge I've already done so in other words I can't actually get there other words I can't actually get there by an Euler path or an Euler circuit so by an Euler path or an Euler circuit so in this particular graph at least the in this particular graph at least the path that I chose I wasn't able to go path that I chose I wasn't able to go and do everything once now you can pause the video if you like and see whether you can find some path that gets through you can find some path that gets through here …"
+  },
+  {
+    "id": "ku_video_dSK5jTEe-AM_188",
+    "t_start": 188.3,
+    "t_end": 279.8,
+    "type": "overview",
+    "summary": "time I'm gonna have to come back in and I go in and get to a again but now I'm I go in and get to a again but now I'm standing on a I've come in and I've gone standing on a I've come in and I've gone out and I've come in again and now I'm on a and I can't get out I'm trapped if I want to leave a I'd have to leave an I want to leave a I'd have to leave an edge I've already covered so I can't hit edge I've already covered so I can't hit it exactly once and indeed whether it it exactly once and indeed whether it was three or five or seven doesn't matter as long as you can come in and go out co…"
+  },
+  {
+    "id": "ku_video_dSK5jTEe-AM_279",
+    "t_start": 279.8,
+    "t_end": 370.4,
+    "type": "overview",
+    "summary": "all if there's even one vertex with an odd degree then it's impossible then you odd degree then it's impossible then you do not have an Euler circuit so let's use that to study the particular graph that we started with well in this one verdicts is is going to be odd you only need one to break it but every single one of them is bad so indeed for this particular graph there is no possible particular graph there is no possible Oyler circuit that goes through it nor is there an Euler path two of the odd ones could become your starting and odd ones could become your starting and finishing ones b…"
+  },
+  {
+    "id": "ku_video_dSK5jTEe-AM_370",
+    "t_start": 370.4,
+    "t_end": 384.6,
+    "type": "overview",
+    "summary": "them exactly once unless it asking is it possible for you to have an Euler path possible for you to have an Euler path or an Euler circuit that goes through these and now we know that the answer is no it is not possible because every one no it is not possible because every one of these vertices is odd it is not"
+  }
+]

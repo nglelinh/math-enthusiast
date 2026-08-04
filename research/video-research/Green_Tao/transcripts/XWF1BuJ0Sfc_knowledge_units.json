@@ -1,0 +1,275 @@
+[
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_11",
+    "t_start": 11.0,
+    "t_end": 101.4,
+    "type": "overview",
+    "summary": "okay I think we're going to start now [Applause] it's really a very great honour for me to be introducing this talk by Terence to be introducing this talk by Terence Tao and starting off the first full Tao and starting off the first full working day of the Congress although working day of the Congress although we've heard quite a bit about Terry we've heard quite a bit about Terry yesterday I still find myself with rather a lot to say but I'll try and say it as quickly as I can so it's not to it as quickly as I can so it's not to steal time from the talk itself Tao is I steal time from the …"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_101",
+    "t_start": 101.4,
+    "t_end": 192.9,
+    "type": "overview",
+    "summary": "interested in kakeya type problems and I said oh well as this paper of Borghi and quite tough he proceeded to give me the most incredible exposition in which he most incredible exposition in which he explained what all the key ideas were the underlying ideas were really quite simple and all the intuition behind it was right there so I realised I was dealing with a rather extraordinary person at that stage he was I think 22 or perhaps 23 anyway still extremely or perhaps 23 anyway still extremely young he's now published well over a young he's now published well over a hundred papers and the…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_192",
+    "t_start": 192.9,
+    "t_end": 285.8,
+    "type": "overview",
+    "summary": "because he's got to come and give his talk there are two things about the talk talk there are two things about the talk that I just have to announce one is that that I just have to announce one is that this is the he's a new fields medalist this is the he's a new fields medalist but he was also already down to give a plenary lecture so this is sort of doubled up as a as the special fields doubled up as a as the special fields medalist lecture for Taos there won't be medalist lecture for Taos there won't be another one that's a more of a thing to another one that's a more of a thing to say t…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_285",
+    "t_start": 285.8,
+    "t_end": 376.3,
+    "type": "overview",
+    "summary": "other areas of analysis and in fact almost anything I've worked and I've seen it staccato me and different people call it different things but I think popularized a bit more so this is what we're talking about okay so so so the we're talking about okay so so so the first part talks to me very general I try to talk about so many fields of mathematics at once and then I'll talk mathematics at once and then I'll talk about the primes at the end so there are about the primes at the end so there are many this is basic problem that comes up many this is basic problem that comes up all over the pl…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_376",
+    "t_start": 376.3,
+    "t_end": 467.5,
+    "type": "overview",
+    "summary": "up because things that I'm you lose compactness that yes converge I don't have clearance up sequences controlling things on small sequences controlling things on small and small balls doesn't imply control control in one long doesn't return doesn't apply to another norm and yeah and objects has happened I just have no are not low complexity okay but in all are not low complexity okay but in all these situations this this office amazing phenomenon that gets around this and so even though you have a big high and so even though you have a big high dimensional space where things live be a dimen…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_467",
+    "t_start": 467.5,
+    "t_end": 559.4,
+    "type": "overview",
+    "summary": "and performs it to a extremely structured one as concentration structured one as concentration compactness of RIANZ that's another PD technique that allows you to get around the fact that that you to get around the fact that that balances are not compact in infinite balances are not compact in infinite dimensions but if you choose the right dimensions but if you choose the right topology and you choose the right notion compactness you can still extract sub sequences and in critics extract out sort of by so keeping the important part of your solution and throwing away all of your solution an…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_559",
+    "t_start": 559.4,
+    "t_end": 652.3,
+    "type": "overview",
+    "summary": "dimensional one so it's it's I think all these things are really coming from a these things are really coming from a dichotomy the quinoa Tyco structure and dichotomy the quinoa Tyco structure and randomness so I have this color randomness so I have this color convention in these slides anything green is gonna be structured and then blue is gonna be random okay so I'm blue is gonna be random okay so I'm among all objects there's all these two extreme types of objects that you want to study so on the one hand this objects to study so on the one hand this objects have a lot of structure very …"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_652",
+    "t_start": 652.3,
+    "t_end": 745.4,
+    "type": "overview",
+    "summary": "get radiation ways that's that decayed infinity rather than sort of stay infinity rather than sort of stay coherent so define means rigorously is hard but let me just give you not definitions but word associations just definitions but word associations just sort of give you an idea of what what I mean here so I've got this sort of a side-by-side comparison so yeah so well it's none of these words that sort of have any precise meaning but sort of all have any precise meaning but sort of all the words in green out so here to being the words in green out so here to being structured and all the…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_745",
+    "t_start": 745.4,
+    "t_end": 835.7,
+    "type": "overview",
+    "summary": "all these to compose extreme cases of objects structured objects and random part usually doesn't do anything if you are doing if you're doing some sort of are doing if you're doing some sort of averaging they ran up incentive tend to averaging they ran up incentive tend to average themselves out and and so yeah average themselves out and and so yeah so if you're doing any sort is take some any sort of correlations like that if your object is a big random component your object is a big random component often that benefit is negligible and often that benefit is negligible and there's lots of …"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_835",
+    "t_start": 835.7,
+    "t_end": 928.1,
+    "type": "overview",
+    "summary": "pseudo vanna part is sort of negative is you can often throw away and this was you can often throw away and this was also it was a very usually very easy to also it was a very usually very easy to prove they're usually harmonic analysis prove they're usually harmonic analysis method in fact a lot of these things he can just get by just by the Cauchy Schwarz inequality not so much the Schwarz inequality not so much the perturbation period there you need some perturbation period there you need some slightly more sophisticated more analysis but these are fairly poor results generally so becaus…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_928",
+    "t_start": 928.1,
+    "t_end": 1019.4,
+    "type": "overview",
+    "summary": "structure I think to behave randomly and there ways to make that it may make a conjecture formal and if you're doing edit number theory becomes the edit number theory becomes the hydrophilic Ram to post conjecture hydrophilic Ram to post conjecture reading our flip number theory becomes reading our flip number theory becomes the Riemann hypothesis and we can't prove either for PDE if you have a very highly nonlinear PDE we expect that even highly nonlinear PDE we expect that even if you have deterministic data somehow if you have deterministic data somehow these this these the solution shou…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_1019",
+    "t_start": 1019.4,
+    "t_end": 1110.4,
+    "type": "overview",
+    "summary": "problems up there third one it may possibly be in the village the peak was possibly be in the village the peak was not equal to MP but that's that's much not equal to MP but that's that's much more speculative thing well our people talk about this not to me sir anyway so it'll be fantastic we have the Oracle or it'll be fantastic we have the Oracle or method that would take any object like method that would take any object like the primes and say and test it will see the primes and say and test it will see was a random or structure that would was a random or structure that would really be b…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_1110",
+    "t_start": 1110.4,
+    "t_end": 1201.6,
+    "type": "overview",
+    "summary": "some some generalization over a coefficient so distributions of this type the hydrolytic the hardy liberal circle method is sort of of this type and I think Ben will talk about this in his think Ben will talk about this in his talk Ben green and and so on and so forth be the work of Rothman and later Tim Gower's szemeredi's theorem is also Tim Gower's szemeredi's theorem is also based on on this sort of idea although based on on this sort of idea although much more generalized than what I said much more generalized than what I said here similarly in a gotta clear data here similarly in a go…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_1201",
+    "t_start": 1201.6,
+    "t_end": 1294.1,
+    "type": "overview",
+    "summary": "something really useful you get a structure theorem that often you can structure theorem that often you can take any object and the generic object take any object and the generic object is usually not structured or and it's not random but you can often split it into a structured bit and a random bit into a structured bit and a random bit and that's really useful because because and that's really useful because because the structured optics amenable to one type of analysis like you can you can attack them using you can you can attack them using algebra and geometry and random things analysis…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_1294",
+    "t_start": 1294.1,
+    "t_end": 1386.1,
+    "type": "overview",
+    "summary": "or decomposition same sort of thing and then there is of course the famous SEM already regularity lemma that that a graph no matter how big and how complex you can what decompose is sort of a funny thing if you have to think of the graph is a function zero one value functions and split it in order to think functions and split it in order to think this is a decomposition but a graph is this is a decomposition but a graph is really sort of decomposed into it into a low complexity partition of vertices with some density weights between these with some density weights between these these partit…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_1386",
+    "t_start": 1386.1,
+    "t_end": 1476.7,
+    "type": "overview",
+    "summary": "random things are not very important you only have to look at the structure part only have to look at the structure part but what do you do the fractured part or the two other principles that are extremely useful to so once you have extremely useful to so once you have structure where you have a bit of structure it's often as an amazing phenomenon that you can have a bootstrap phenomenon that you can have a bootstrap that and get a lot of structure so I call this rigidity I don't have a good name for this that somehow if something name for this that somehow if something is it's almost compl…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_1476",
+    "t_start": 1476.7,
+    "t_end": 1570.6,
+    "type": "overview",
+    "summary": "they tend to get closer and closer to actual minimizes so some of the acumen actual minimizes so some of the acumen arises so well it's and in fact this arises so well it's and in fact this this is this is the way you are in this is this is the way you are in constructor minimizes a power of a constructor minimizes a power of a function by extract his compactness and function by extract his compactness and in fact as Hamilton just mentioned in fact as Hamilton just mentioned compactness the owners type compactness the owners type yesterday so um you often have to define yesterday so um you …"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_1570",
+    "t_start": 1570.6,
+    "t_end": 1662.4,
+    "type": "overview",
+    "summary": "so once you're perfectly structured you can often describe these objects in a can often describe these objects in a very explicit but I guess more very explicit but I guess more importantly in a very algebraic and importantly in a very algebraic and geometric fashion so that you can start geometric fashion so that you can start using the tools of algebra and geometry using the tools of algebra and geometry so some some very simple examples if you so some some very simple examples if you have a finitely generated vision group have a finitely generated vision group or you can pick up a basis …"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_1662",
+    "t_start": 1662.4,
+    "t_end": 1754.7,
+    "type": "overview",
+    "summary": "talk about that though so those are often also very difficult and not the often also very difficult and not the other three principles were often very analytic these ones are much more how to break structure okay so those are very break structure okay so those are very very general things let's actually have very general things let's actually have a concrete example so the example which a concrete example so the example which illustrates a lot of these of these principles once I think and almost the the Quinta's have quintessential example the Quinta's have quintessential example is amazing…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_1754",
+    "t_start": 1754.7,
+    "t_end": 1848.9,
+    "type": "overview",
+    "summary": "this is the only thing you know what about mr. day its large yeah no matter about mr. day its large yeah no matter how you try to move it around you cannot how you try to move it around you cannot you cannot destroy progressions you from the set and that's that's really quite an amazing phenomenon and and this quite an amazing phenomenon and and this theorem is very deep I mean one one theorem is very deep I mean one one instant one example one proof that is deep is by seeing how many people have proved that people who proved it a self proved that people who proved it a self course andre pr…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_1848",
+    "t_start": 1848.9,
+    "t_end": 1941.3,
+    "type": "overview",
+    "summary": "the hardest things in proving well actually depends on the proof I actually depends on the proof I mentioned three proofs and each of three mentioned three proofs and each of three proofs is easy in one area and difficult in another and but the typically moves around IQ what anyone would Ben green is around IQ what anyone would Ben green is that we took all those three proofs IQ that we took all those three proofs IQ for the fourth one before crews and we took the easy bit out of each one I know they're easy in different areas we were they're easy in different areas we were passionate to ge…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_1941",
+    "t_start": 1941.3,
+    "t_end": 2032.0,
+    "type": "overview",
+    "summary": "element also line is set that's not true for that the quadratic said but if you for that the quadratic said but if you take a progression of then four and the take a progression of then four and the first three the first three elements are first three the first three elements are in this set then we have a very large class is what's going to lie in this set as well it's basically because what a as well it's basically because what a quadratic polynomial can be described by quadratic polynomial can be described by its values for three points you can then interpolate get the whole thing okay s…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_2032",
+    "t_start": 2032.0,
+    "t_end": 2127.0,
+    "type": "overview",
+    "summary": "set of deterministic but behaved annually because certain colleges are correlations are small for example you take a set and compared with shifts and take a set and compared with shifts and you if you randomly expect they put the you if you randomly expect they put the density of the intersection to be roughly the product of the densities of a son this is a that by itself is not a son this is a that by itself is not very it's not very good this is a two-point correlation often you need higher point correlations to be under higher point correlations to be under control but that's the type of…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_2126",
+    "t_start": 2127.0,
+    "t_end": 2218.1,
+    "type": "overview",
+    "summary": "which are combinations both so this is where most sets fall in okay they where most sets fall in okay they neither completely random free structured but they happen to be bits of both so for example you can take a both so for example you can take a pseudo random subset of a structured set pseudo random subset of a structured set so you can take the even numbers that's so you can take the even numbers that's a structured set periodic and then subset of that take two percent of the probably even numbers at random so you probably even numbers at random so you throw the 50 sided dice die and an…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_2218",
+    "t_start": 2218.1,
+    "t_end": 2310.2,
+    "type": "overview",
+    "summary": "you that when you refine to your set you still keep some progressions ok and then still keep some progressions ok and then the key thing that makes things work is the key thing that makes things work is a structure theorem and depending on the a structure theorem and depending on the proof that you use somebody's proof first and eBooks proof ours proof that the structure theme is different but the structure theme is different but it's always present and basically the it's always present and basically the theorem is that you take it a big dense set you can always find a large bit which which…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_2310",
+    "t_start": 2310.2,
+    "t_end": 2402.8,
+    "type": "overview",
+    "summary": "looking for malaysia's of the dichotomy but there's always some sort economy and but there's always some sort economy and what I mean to prove ok so that was the today each proof for things you know at least how our to talk about but I won't do that here ok so now I can talk about my own theorem we've been green which is my own theorem we've been green which is we talk about not dense subset of images we talk about not dense subset of images but much much sparser set but a specific but much much sparser set but a specific space said the primes there are conjectures about what how sparse nee…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_2402",
+    "t_start": 2402.8,
+    "t_end": 2493.3,
+    "type": "overview",
+    "summary": "us to believe why the twin prime conjecture is true why go back some conjecture is true why go back some check is true at least asymptotically check is true at least asymptotically it's why it's this this sort of heuristic acusó underlies on quite a few of the of our beliefs in what's true of of the of our beliefs in what's true of other primes so ok and if you random other primes so ok and if you random enough you should be able to link the enough you should be able to link the questions without any difficulty but the questions without any difficulty but the things we can't verify that we …"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_2493",
+    "t_start": 2493.3,
+    "t_end": 2585.8,
+    "type": "overview",
+    "summary": "well this there's a whole hierarchy of pseudo or seen of analysts apparently very low in the list and it's it's good enough to control progression of their enough to control progression of their three but even for precursor level and three but even for precursor level and for it's it's not enough there are for it's it's not enough there are examples of career pseudo random sets examples of career pseudo random sets which do not have the right number of regression line for in fact this quadratic course the periodic set I quadratic course the periodic set I mentioned earlier is an example so …"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_2585",
+    "t_start": 2585.8,
+    "t_end": 2682.8,
+    "type": "overview",
+    "summary": "long time that that those guys we can count because in fact in fact that they do behave like we expect the plans to behave that they are pseudo-random after behave that they are pseudo-random after accounting for the obvious reasons why accounting for the obvious reasons why they're not pseudo-random and that is they're not pseudo-random and that is and in fact a large house sieve theory is sort of aimed towards making that statement besides basically the the the statement besides basically the the the primes to me know it can be extracted the fans up to some number n can be extracted by th…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_2682",
+    "t_start": 2682.8,
+    "t_end": 2779.6,
+    "type": "overview",
+    "summary": "ok anyway so the primes are not ok so the pattern of Harrah's dents in the images but they had they turn out to be dense in the almost primes there are are large so if they all if you define almost primes to be numbers about most almost primes to be numbers about most 100 parent factors the primes have density roughly about 1% up to a factor of V or something in the almost - ok so of V or something in the almost - ok so the way we use that is there so we the way we use that is there so we managed to prove an extension of managed to prove an extension of szemeredi's theorem which I'll call a…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_2779",
+    "t_start": 2779.6,
+    "t_end": 2871.6,
+    "type": "overview",
+    "summary": "really a big cheat I mean so the reason why one of the reasons why this this why one of the reasons why this this result was was desired progressions the result was was desired progressions the primes was that the hope was you would doing something but in fact we don't actually tell you very much what I'm actually tell you very much what I'm saying any new balance other than they saying any new balance other than they have long progressions because we in have long progressions because we in particularly we have this doesn't settle the question of the primes a pseudo-random where and we just…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_2871",
+    "t_start": 2871.6,
+    "t_end": 2963.6,
+    "type": "overview",
+    "summary": "of well it's not a subset of the whole sets of a pseudo random subset of a sets of a pseudo random subset of a dense set there's a okay the best thing in fact if this is rather not erase it then subsets of Serrano sets are pseudo then subsets of Serrano sets are pseudo and successful deaths have pseudo an and successful deaths have pseudo an associative themselves okay and well seems prudent and surely but but anyway if you believe that but but anyway if you believe that feeling that for example the with the feeling that for example the with the primes or Toria the primes contain a primes o…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_2963",
+    "t_start": 2963.6,
+    "t_end": 3054.8,
+    "type": "overview",
+    "summary": "the other two really new ingredients in our argument but but they fall into the our argument but but they fall into the framework of discussing discussing earlier yeah so the negligible ad is is not so difficult it's you just apply not so difficult it's you just apply Cauchy Schwarz a lot but yeah if you Cauchy Schwarz a lot but yeah if you apply Schwarz and you the main difficulty in the proving that is to set up the right notation but okay is to set up the right notation but okay that is basically botanist Akashi that is basically botanist Akashi Schwartz oh and defining what pseudo rando…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_3054",
+    "t_start": 3054.8,
+    "t_end": 3145.2,
+    "type": "overview",
+    "summary": "that's really okay and is that dense is key because that kids that gives you the key because that kids that gives you the instructor view but the the the word instructor view but the the the word dense in the conclusion which is and then that's what that you apply szemeredi's theorem for dense sets to get you this thing possible spot sets okay that's what I'm gonna see what the okay that's what I'm gonna see what the truth because the actual details are truth because the actual details are lengthy let's skip that empty so I'll lengthy let's skip that empty so I'll just tell you what I've be…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_3145",
+    "t_start": 3145.2,
+    "t_end": 3239.0,
+    "type": "overview",
+    "summary": "find progressions but in depending on what case you are in you will find a exactly what the exact count of how many progressions in the prams you have to progressions in the prams you have to know how random the primes are know how random the primes are and so that's sort of the next focus yeah I think I just said that okay and and here's where you have to start using and here's where you have to start using the the other factor topper earlier so the the other factor topper earlier so the theorems I mentioned relied mostly on the first two of my principle the first three of his principles n…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_3239",
+    "t_start": 3239.0,
+    "t_end": 3331.6,
+    "type": "overview",
+    "summary": "correction terms together and you get is this product here which is some explicit this product here which is some explicit number 1.3 something I think careful number 1.3 something I think careful will be the opium Ben's talk to will be the opium Ben's talk to so-and-so okay so yeah this precise count plus an error that goes to 0 as n goes infinity how fast the error goes goes infinity how fast the error goes depends on things like the Riemann depends on things like the Riemann hypothesis but at least we know it goes hypotheses so the way you prove this is that you use the hi little circle …"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_3331",
+    "t_start": 3331.6,
+    "t_end": 3423.5,
+    "type": "overview",
+    "summary": "you need to do by this dichotomy between 0 and s and structure is that you have 0 and s and structure is that you have to show that the primes don't don't call to show that the primes don't don't call it with minor characters so you have to show that that that the primes don't call they will say e to the I root 2 times an x times n to pi who - I'm saying and there's a method for that saying and there's a method for that they're gonna grottoes method which I they're gonna grottoes method which I won't talk about you and you do that and won't talk about you and you do that and well Vander Cor…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_3423",
+    "t_start": 3423.5,
+    "t_end": 3516.0,
+    "type": "overview",
+    "summary": "committed than a previous theorem so we we generalize the Hollywood circle we generalize the Hollywood circle method we were placed for eh to reminisce with a more some a higher-order version of that concept higher-order version of that concept Java's uniformly and basically the key Java's uniformly and basically the key point is is that you want to show that point is is that you want to show that that the primes after eliminating these that the primes after eliminating these local obstructions which you always have local obstructions which you always have to do should be Gower's uniform wh…"
+  },
+  {
+    "id": "ku_video_XWF1BuJ0Sfc_3515",
+    "t_start": 3516.0,
+    "t_end": 3571.2,
+    "type": "overview",
+    "summary": "which I want to find what that means but they but if if you know sequences don't they but if if you know sequences don't come from local obstructions you expect the primes to not correlate with us some example and you expect on that quadratic example and you expect on that quadratic across the periodic set I mentioned across the periodic set I mentioned earlier you take the primes to have sort of the proportion of times on that quadratically deposit except should quadratically deposit except should should should basically be the density of that said module some local obstructions which whic…"
+  }
+]

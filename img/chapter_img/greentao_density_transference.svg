@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="200" viewBox="0 0 560 200">
+  <rect width="560" height="200" fill="#fafbfc"/>
+  <text x="16" y="28" font-family="Georgia, serif" font-size="15" fill="#222">Density zero vs relative density (schematic)</text>
+  <rect x="40" y="60" width="200" height="80" fill="#f0f0f0" stroke="#666"/>
+  <text x="140" y="105" text-anchor="middle" font-size="13" fill="#444">ℤ (ambient)</text>
+  <text x="140" y="160" text-anchor="middle" font-size="12" fill="#666">primes: density 0</text>
+  <path d="M260 100 L300 100" stroke="#004586" stroke-width="2"/>
+  <text x="280" y="88" text-anchor="middle" font-size="12" fill="#004586">majorant ν</text>
+  <rect x="320" y="50" width="200" height="100" fill="#e8f1fb" stroke="#004586" stroke-width="2"/>
+  <circle cx="360" cy="90" r="8" fill="#a11"/><circle cx="400" cy="110" r="8" fill="#a11"/>
+  <circle cx="440" cy="80" r="8" fill="#a11"/><circle cx="470" cy="120" r="8" fill="#a11"/>
+  <text x="420" y="175" text-anchor="middle" font-size="12" fill="#444">dense inside “ν-world”</text>
+</svg>

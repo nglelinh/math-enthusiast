@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ku_video_ouipbDkwHWA_4",
+    "t_start": 4.9,
+    "t_end": 96.4,
+    "type": "overview",
+    "summary": "This is John Conway's game of life. Uh the game of life consists of some squares in a space. They are the points in space, sometimes referred to as cells. And a point can be either on or off. Black is on, white is off. And you off. Black is on, white is off. And you can also call it alive or dead. Now, can also call it alive or dead. Now, there's a simple rule that tells us there's a simple rule that tells us whether or not cells stay alive or they whether or not cells stay alive or they die. And that's this. If a cell has one uh if it has no neighbors that are alive, it dies. If it has jus…"
+  },
+  {
+    "id": "ku_video_ouipbDkwHWA_96",
+    "t_start": 96.4,
+    "t_end": 187.5,
+    "type": "overview",
+    "summary": "two will die and that and that will be born. And you can see what's going to By symmetry it's just going to go back to a horizontal bar and we have now just to a horizontal bar and we have now just an oscillator. We're continuing here with Conway's game of life. And let's look at this pattern. We've got a square. Those are all on. These pointer cells are on or alive. These pointer cells are on or alive. They're energized. So, this cell has two live neighbors. It's going to stay alive. This cell has It's going to stay alive. This cell has two live neighbors. It'll stay alive. It'll stay aliv…"
+  },
+  {
+    "id": "ku_video_ouipbDkwHWA_187",
+    "t_start": 187.5,
+    "t_end": 280.0,
+    "type": "overview",
+    "summary": "to use computers to figure this out. If we had to calculate this by hand, that would be a little rough. It's going to change. Now, you can see it looks like it's it's uh rotated itself, right? uh horizontally or vertically. And the same again, you see a reappearance of a again, you see a reappearance of a pattern. And look at that. That's just pattern. And look at that. That's just back to where it was, except it's back back to where it was, except it's back to the same pattern that it was, except it's shifted one to the right and one down. Let's look at the glider in a little bit more deta…"
+  },
+  {
+    "id": "ku_video_ouipbDkwHWA_279",
+    "t_start": 280.0,
+    "t_end": 342.5,
+    "type": "overview",
+    "summary": "through space. And because of its regularity, because of its invariance, because of the way its shapes repeat every fourth the way its shapes repeat every fourth cycle, it seems to have its own cycle, it seems to have its own independent existence. Now, some might say that the glider is a thing which emerges from space. Others might just say that the glider is a thing which supervenes on space. Perhaps thing which supervenes on space. Perhaps it's a whole composed of properties or qualities. Or perhaps it's some sort of system or pattern of energy. To use that system or pattern of energy. T…"
+  }
+]

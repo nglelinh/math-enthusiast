@@ -1,0 +1,1252 @@
+[
+  {
+    "t_start": 0.26,
+    "t_end": 2.58,
+    "text": "DR. JAMES GRIME: So Zeno's paradox is a problem that's"
+  },
+  {
+    "t_start": 2.58,
+    "t_end": 5.39,
+    "text": "not just of interest to mathematicians, like myself."
+  },
+  {
+    "t_start": 5.39,
+    "t_end": 9.41,
+    "text": "But it's also of interest to physicists and philosophers."
+  },
+  {
+    "t_start": 9.41,
+    "t_end": 11.53,
+    "text": "And it has been for thousands of years."
+  },
+  {
+    "t_start": 11.53,
+    "t_end": 14.35,
+    "text": "So Zeno was a Greek philosopher."
+  },
+  {
+    "t_start": 14.35,
+    "t_end": 17.66,
+    "text": "He lived 2,500 years ago."
+  },
+  {
+    "t_start": 17.66,
+    "t_end": 21.01,
+    "text": "And he came up with a list of paradoxes."
+  },
+  {
+    "t_start": 21.01,
+    "t_end": 23.11,
+    "text": "There's about nine of these paradoxes."
+  },
+  {
+    "t_start": 23.11,
+    "t_end": 27.17,
+    "text": "The ones I want to talk about, though, are kind of similar."
+  },
+  {
+    "t_start": 27.17,
+    "t_end": 30.6,
+    "text": "The first one, though, I love, because there's a nice little"
+  },
+  {
+    "t_start": 30.6,
+    "t_end": 31.43,
+    "text": "story with it."
+  },
+  {
+    "t_start": 31.43,
+    "t_end": 34.7,
+    "text": "So the first one is called Achilles and the Tortoise."
+  },
+  {
+    "t_start": 34.7,
+    "t_end": 37.75,
+    "text": "You've got Achilles and the tortoise in a race."
+  },
+  {
+    "t_start": 37.75,
+    "t_end": 40.03,
+    "text": "Now, the tortoise is slower, of course."
+  },
+  {
+    "t_start": 40.03,
+    "t_end": 41.47,
+    "text": "So he's given a head start."
+  },
+  {
+    "t_start": 41.47,
+    "t_end": 44.32,
+    "text": "He's got a 100 meter head start."
+  },
+  {
+    "t_start": 44.32,
+    "t_end": 46.02,
+    "text": "And then they start the race."
+  },
+  {
+    "t_start": 46.02,
+    "t_end": 50.27,
+    "text": "Now, Achilles sprints 100 meters, and he catches up to"
+  },
+  {
+    "t_start": 50.27,
+    "t_end": 52.5,
+    "text": "where the tortoise was."
+  },
+  {
+    "t_start": 52.5,
+    "t_end": 55.9,
+    "text": "But in that time, the tortoise has moved on."
+  },
+  {
+    "t_start": 55.9,
+    "t_end": 57.73,
+    "text": "He's moved on 10 meters."
+  },
+  {
+    "t_start": 57.73,
+    "t_end": 60.73,
+    "text": "So Achilles now has to sprint to catch up with"
+  },
+  {
+    "t_start": 60.73,
+    "t_end": 61.76,
+    "text": "the tortoise, again."
+  },
+  {
+    "t_start": 61.76,
+    "t_end": 64.61,
+    "text": "So he sprints another 10 meters, and he catches up to"
+  },
+  {
+    "t_start": 64.61,
+    "t_end": 66.54,
+    "text": "where the tortoise was."
+  },
+  {
+    "t_start": 66.54,
+    "t_end": 68.22,
+    "text": "Now, since that time, the tortoise has"
+  },
+  {
+    "t_start": 68.22,
+    "t_end": 70.61,
+    "text": "moved on another meter."
+  },
+  {
+    "t_start": 70.61,
+    "t_end": 72.85,
+    "text": "So Achilles has to sprint to catch up to where"
+  },
+  {
+    "t_start": 72.85,
+    "t_end": 74.0,
+    "text": "the tortoise was."
+  },
+  {
+    "t_start": 74.0,
+    "t_end": 76.81,
+    "text": "And this keeps happening over and over again."
+  },
+  {
+    "t_start": 76.81,
+    "t_end": 80.79,
+    "text": "So the paradox is does Achilles ever catch up with"
+  },
+  {
+    "t_start": 80.79,
+    "t_end": 82.37,
+    "text": "the tortoise?"
+  },
+  {
+    "t_start": 82.37,
+    "t_end": 85.58,
+    "text": "And that's insane."
+  },
+  {
+    "t_start": 85.58,
+    "t_end": 88.41,
+    "text": "And obviously, he must do."
+  },
+  {
+    "t_start": 88.41,
+    "t_end": 90.17,
+    "text": "We all live in the real world."
+  },
+  {
+    "t_start": 90.17,
+    "t_end": 92.19,
+    "text": "He must catch up with the tortoise."
+  },
+  {
+    "t_start": 92.19,
+    "t_end": 96.49,
+    "text": "Another of these paradoxes is basically the same, but it's a"
+  },
+  {
+    "t_start": 96.49,
+    "t_end": 97.54,
+    "text": "bit simpler."
+  },
+  {
+    "t_start": 97.54,
+    "t_end": 100.25,
+    "text": "I'm holding my hands apart like that."
+  },
+  {
+    "t_start": 100.25,
+    "t_end": 105.85,
+    "text": "I'm going to move my right hand towards my left hand so"
+  },
+  {
+    "t_start": 105.85,
+    "t_end": 107.71,
+    "text": "that they clap."
+  },
+  {
+    "t_start": 107.71,
+    "t_end": 109.57,
+    "text": "Now, when I do that--"
+  },
+  {
+    "t_start": 109.57,
+    "t_end": 113.0,
+    "text": "actually, you can think of it like I'm halving the distance."
+  },
+  {
+    "t_start": 113.0,
+    "t_end": 115.61,
+    "text": "I then halve the distance again and then halve the"
+  },
+  {
+    "t_start": 115.61,
+    "t_end": 118.29,
+    "text": "distance again and again and again and again."
+  },
+  {
+    "t_start": 118.29,
+    "t_end": 121.83,
+    "text": "And I halve the distance an infinite number of times,"
+  },
+  {
+    "t_start": 121.83,
+    "t_end": 123.64,
+    "text": "infinitely many times."
+  },
+  {
+    "t_start": 123.64,
+    "t_end": 126.705,
+    "text": "So does that mean my hands never clap?"
+  },
+  {
+    "t_start": 126.705,
+    "t_end": 129.039,
+    "text": "Is there some sort of force field here"
+  },
+  {
+    "t_start": 129.039,
+    "t_end": 130.93,
+    "text": "stopping my hands meeting?"
+  },
+  {
+    "t_start": 130.93,
+    "t_end": 134.01,
+    "text": "Well, obviously, they do."
+  },
+  {
+    "t_start": 134.01,
+    "t_end": 135.13,
+    "text": "This is the paradox."
+  },
+  {
+    "t_start": 135.13,
+    "t_end": 136.77,
+    "text": "So what's going on here?"
+  },
+  {
+    "t_start": 136.77,
+    "t_end": 141.32,
+    "text": "How can an infinite process end?"
+  },
+  {
+    "t_start": 141.32,
+    "t_end": 141.95,
+    "text": "What's going on?"
+  },
+  {
+    "t_start": 141.95,
+    "t_end": 145.59,
+    "text": "And this is part of Zeno's paradoxes."
+  },
+  {
+    "t_start": 145.59,
+    "t_end": 147.64,
+    "text": "I want to give you the mathematician's point of view"
+  },
+  {
+    "t_start": 147.64,
+    "t_end": 151.29,
+    "text": "for this, because, well, some say that the mathematicians"
+  },
+  {
+    "t_start": 151.29,
+    "t_end": 153.64,
+    "text": "have sorted this out."
+  },
+  {
+    "t_start": 153.64,
+    "t_end": 158.02,
+    "text": "Let's say I start with my hands 2 meters apart."
+  },
+  {
+    "t_start": 158.02,
+    "t_end": 159.96,
+    "text": "And then I'm going to join them together."
+  },
+  {
+    "t_start": 159.96,
+    "t_end": 164.2,
+    "text": "So they start 2 meters apart, and then I halve the distance."
+  },
+  {
+    "t_start": 164.2,
+    "t_end": 166.13,
+    "text": "So I've traveled 1 meter."
+  },
+  {
+    "t_start": 166.13,
+    "t_end": 169.58,
+    "text": "I then halve the distance again, so we've now traveled"
+  },
+  {
+    "t_start": 169.58,
+    "t_end": 172.21,
+    "text": "another half a meter."
+  },
+  {
+    "t_start": 172.21,
+    "t_end": 176.32,
+    "text": "Then you do that again, you halve the distance again."
+  },
+  {
+    "t_start": 176.32,
+    "t_end": 179.85,
+    "text": "So now, your hands have traveled 1/4 of a meter."
+  },
+  {
+    "t_start": 179.85,
+    "t_end": 186.76,
+    "text": "And then it's an 1/8 and 1/16 and 1/32."
+  },
+  {
+    "t_start": 186.76,
+    "t_end": 189.18,
+    "text": "And then you keep doing this forever, halving"
+  },
+  {
+    "t_start": 189.18,
+    "t_end": 190.35,
+    "text": "the distance forever."
+  },
+  {
+    "t_start": 190.35,
+    "t_end": 192.31,
+    "text": "Let's say this does have a value."
+  },
+  {
+    "t_start": 192.31,
+    "t_end": 193.29,
+    "text": "Let's give it a value."
+  },
+  {
+    "t_start": 193.29,
+    "t_end": 194.795,
+    "text": "Let's call it S--"
+  },
+  {
+    "t_start": 194.795,
+    "t_end": 196.07,
+    "text": "S for sum."
+  },
+  {
+    "t_start": 196.07,
+    "t_end": 198.69,
+    "text": "Here's a trick that you can do."
+  },
+  {
+    "t_start": 198.69,
+    "t_end": 204.65,
+    "text": "I'm going to multiply the whole thing by 1/2."
+  },
+  {
+    "t_start": 204.65,
+    "t_end": 211.27,
+    "text": "So if I multiply the left hand side by 1/2, you get 1/2 of S."
+  },
+  {
+    "t_start": 211.27,
+    "t_end": 213.17,
+    "text": "On the right hand side, I'm going to multiply"
+  },
+  {
+    "t_start": 213.17,
+    "t_end": 220.02,
+    "text": "So 1 multiplied by 1/2 is 1/2."
+  },
+  {
+    "t_start": 220.02,
+    "t_end": 222.242,
+    "text": "I'm just going to write that there-- going to leave a"
+  },
+  {
+    "t_start": 222.242,
+    "t_end": 223.6,
+    "text": "little gap."
+  },
+  {
+    "t_start": 223.6,
+    "t_end": 226.4,
+    "text": "Now, I'm going to multiply the 1/2 by 1/2,"
+  },
+  {
+    "t_start": 226.4,
+    "t_end": 228.61,
+    "text": "which gives me 1/4."
+  },
+  {
+    "t_start": 228.61,
+    "t_end": 233.47,
+    "text": "And I'm doing it by term by term, so 1/4 times 1/2 is 1/8,"
+  },
+  {
+    "t_start": 233.47,
+    "t_end": 237.29,
+    "text": "and 1/8 by 1/2 is 1/16."
+  },
+  {
+    "t_start": 237.29,
+    "t_end": 241.17,
+    "text": "Now, I'm going to subtract those two things."
+  },
+  {
+    "t_start": 241.17,
+    "t_end": 245.59,
+    "text": "If I subtract, from the left, I get S minus 1/2 S, which"
+  },
+  {
+    "t_start": 245.59,
+    "t_end": 251.18,
+    "text": "gives you 1/2 S. On the right hand side, I'm going to"
+  },
+  {
+    "t_start": 251.18,
+    "t_end": 252.83,
+    "text": "subtract these two lines."
+  },
+  {
+    "t_start": 252.83,
+    "t_end": 254.37,
+    "text": "So I've got 1."
+  },
+  {
+    "t_start": 254.37,
+    "t_end": 259.17,
+    "text": "And I've got plus 1/2 minus 1/2 plus 1/4 minus 1/4 plus"
+  },
+  {
+    "t_start": 259.17,
+    "t_end": 260.81,
+    "text": "1/8 minus 1/8."
+  },
+  {
+    "t_start": 260.81,
+    "t_end": 263.03,
+    "text": "And all the terms cancel out."
+  },
+  {
+    "t_start": 263.03,
+    "t_end": 268.56,
+    "text": "So all you're left with is 1, which means, if everything's"
+  },
+  {
+    "t_start": 268.56,
+    "t_end": 271.77,
+    "text": "canceled out then, you can work out what S is."
+  },
+  {
+    "t_start": 271.77,
+    "t_end": 274.77,
+    "text": "S is equal to 2."
+  },
+  {
+    "t_start": 274.77,
+    "t_end": 280.16,
+    "text": "So your hands would travel 2 meters."
+  },
+  {
+    "t_start": 280.16,
+    "t_end": 282.79,
+    "text": "Even though it's an infinite process, your"
+  },
+  {
+    "t_start": 282.79,
+    "t_end": 285.24,
+    "text": "hands do travel 2 meters."
+  },
+  {
+    "t_start": 285.24,
+    "t_end": 287.64,
+    "text": "Now, time is important, as well."
+  },
+  {
+    "t_start": 287.64,
+    "t_end": 291.21,
+    "text": "If each step was taking a second, then that's an"
+  },
+  {
+    "t_start": 291.21,
+    "t_end": 292.95,
+    "text": "infinite number of seconds, or if it was"
+  },
+  {
+    "t_start": 292.95,
+    "t_end": 294.55,
+    "text": "longer than a second."
+  },
+  {
+    "t_start": 294.55,
+    "t_end": 298.22,
+    "text": "So you would complete your 2 meters, but it takes an"
+  },
+  {
+    "t_start": 298.22,
+    "t_end": 300.82,
+    "text": "infinite amount of time to complete your 2 meters."
+  },
+  {
+    "t_start": 300.82,
+    "t_end": 302.98,
+    "text": "So time is important as well."
+  },
+  {
+    "t_start": 302.98,
+    "t_end": 307.23,
+    "text": "So let's say we'll do it a little bit faster than that."
+  },
+  {
+    "t_start": 307.23,
+    "t_end": 312.45,
+    "text": "So I'm going to move 1 meter per second."
+  },
+  {
+    "t_start": 312.45,
+    "t_end": 314.892,
+    "text": "It's the same, working out."
+  },
+  {
+    "t_start": 314.892,
+    "t_end": 318.55,
+    "text": "If I halve the distance, that would take me 1 second."
+  },
+  {
+    "t_start": 318.55,
+    "t_end": 320.7,
+    "text": "And then I halved the distance again-- it would take me 1/2"
+  },
+  {
+    "t_start": 320.7,
+    "t_end": 323.16,
+    "text": "second, then 1/4 second."
+  },
+  {
+    "t_start": 323.16,
+    "t_end": 326.16,
+    "text": "So I could travel 2 meters in 2 seconds."
+  },
+  {
+    "t_start": 326.16,
+    "t_end": 327.54,
+    "text": "And my hands would clap."
+  },
+  {
+    "t_start": 327.54,
+    "t_end": 331.41,
+    "text": "So something like this-- an infinite sum-- behaves well"
+  },
+  {
+    "t_start": 331.41,
+    "t_end": 334.94,
+    "text": "when, if you take the sum and then you keep adding one term"
+  },
+  {
+    "t_start": 334.94,
+    "t_end": 339.13,
+    "text": "at a time, so you've got lots of different sums getting"
+  },
+  {
+    "t_start": 339.13,
+    "t_end": 342.6,
+    "text": "closer and closer to your answer."
+  },
+  {
+    "t_start": 342.6,
+    "t_end": 346.98,
+    "text": "If that's the case, if your partial sums--"
+  },
+  {
+    "t_start": 346.98,
+    "t_end": 350.38,
+    "text": "that's what they're called-- are getting closer and closer"
+  },
+  {
+    "t_start": 350.38,
+    "t_end": 356.21,
+    "text": "to a value, then we say that's a well-behaved sum, and at"
+  },
+  {
+    "t_start": 356.21,
+    "t_end": 360.27,
+    "text": "infinity, it is equal to it exactly."
+  },
+  {
+    "t_start": 360.27,
+    "t_end": 362.73,
+    "text": "And it's not just getting closer and closer but not"
+  },
+  {
+    "t_start": 362.73,
+    "t_end": 364.51,
+    "text": "quite reaching."
+  },
+  {
+    "t_start": 364.51,
+    "t_end": 367.75,
+    "text": "It is actually the whole thing properly."
+  },
+  {
+    "t_start": 367.75,
+    "t_end": 370.7,
+    "text": "So it sounds like I'm saying that you can complete an"
+  },
+  {
+    "t_start": 370.7,
+    "t_end": 372.07,
+    "text": "infinite process."
+  },
+  {
+    "t_start": 372.07,
+    "t_end": 375.33,
+    "text": "Now, an infinite process doesn't have a last step."
+  },
+  {
+    "t_start": 375.33,
+    "t_end": 380.38,
+    "text": "So how can something without a last step be completed?"
+  },
+  {
+    "t_start": 380.38,
+    "t_end": 382.994,
+    "text": "And that's the paradox."
+  },
+  {
+    "t_start": 382.994,
+    "t_end": 384.09,
+    "text": "BRADY HARAN: What is the--"
+  },
+  {
+    "t_start": 384.09,
+    "t_end": 385.31,
+    "text": "and is there a solution?"
+  },
+  {
+    "t_start": 385.31,
+    "t_end": 389.55,
+    "text": "DR. JAMES GRIME: I have no easy answers for you here."
+  },
+  {
+    "t_start": 389.55,
+    "t_end": 392.7,
+    "text": "This is a paradox that has baffled philosophers and"
+  },
+  {
+    "t_start": 392.7,
+    "t_end": 396.18,
+    "text": "mathematicians for 2,500 years."
+  },
+  {
+    "t_start": 396.18,
+    "t_end": 398.285,
+    "text": "I wrestle with it as well."
+  },
+  {
+    "t_start": 398.285,
+    "t_end": 402.74,
+    "text": "There are greater minds than you and I that have wrestled"
+  },
+  {
+    "t_start": 402.74,
+    "t_end": 407.92,
+    "text": "with this problem in the last 2,500 years."
+  },
+  {
+    "t_start": 407.92,
+    "t_end": 410.43,
+    "text": "If this melts your brain, don't worry."
+  },
+  {
+    "t_start": 410.43,
+    "t_end": 413.32,
+    "text": "You are in very good company."
+  },
+  {
+    "t_start": 413.32,
+    "t_end": 415.63,
+    "text": "BRADY HARAN: Some of these numbers where the digits"
+  },
+  {
+    "t_start": 415.63,
+    "t_end": 417.59,
+    "text": "apparently go on forever and ever--"
+  },
+  {
+    "t_start": 417.59,
+    "t_end": 420.026,
+    "text": "pi, the square root of 2--"
+  },
+  {
+    "t_start": 420.026,
+    "t_end": 421.96,
+    "text": "how do they fit into all this?"
+  },
+  {
+    "t_start": 421.96,
+    "t_end": 422.24,
+    "text": "DR. JAMES GRIME: Yeah."
+  },
+  {
+    "t_start": 422.24,
+    "t_end": 424.875,
+    "text": "So if something goes on forever, it's almost like"
+  },
+  {
+    "t_start": 424.875,
+    "t_end": 429.35,
+    "text": "you're asking, can I even draw something with these decimal"
+  },
+  {
+    "t_start": 429.35,
+    "t_end": 432.06,
+    "text": "representations that never finish?"
+  },
+  {
+    "t_start": 432.06,
+    "t_end": 434.865,
+    "text": "And it's the same sort of problem that we've got here."
+  },
+  {
+    "t_start": 434.865,
+    "t_end": 436.97,
+    "text": "But again, even though that's an infinite"
+  },
+  {
+    "t_start": 436.97,
+    "t_end": 439.97,
+    "text": "process, it can be completed."
+  },
+  {
+    "t_start": 439.97,
+    "t_end": 440.83,
+    "text": "And I know that's bizarre."
+  },
+  {
+    "t_start": 440.83,
+    "t_end": 442.07,
+    "text": "But look."
+  },
+  {
+    "t_start": 442.07,
+    "t_end": 448.01,
+    "text": "If I draw a triangle, that has length 1, that has length 1."
+  },
+  {
+    "t_start": 448.01,
+    "t_end": 449.42,
+    "text": "It's a right angle."
+  },
+  {
+    "t_start": 449.42,
+    "t_end": 452.81,
+    "text": "And this has length the square root of 2."
+  },
+  {
+    "t_start": 452.81,
+    "t_end": 455.21,
+    "text": "And there's no reason I can't do that, even though the"
+  },
+  {
+    "t_start": 455.21,
+    "t_end": 457.67,
+    "text": "square root of 2 is irrational, which means the"
+  },
+  {
+    "t_start": 457.67,
+    "t_end": 460.1,
+    "text": "decimals go on forever."
+  },
+  {
+    "t_start": 460.1,
+    "t_end": 463.61,
+    "text": "Even though it's like that, there's nothing stopping me"
+  },
+  {
+    "t_start": 463.61,
+    "t_end": 465.12,
+    "text": "from drawing it."
+  },
+  {
+    "t_start": 465.12,
+    "t_end": 467.18,
+    "text": "In the same way, there's nothing stopping me from"
+  },
+  {
+    "t_start": 467.18,
+    "t_end": 469.02,
+    "text": "clapping my hands."
+  },
+  {
+    "t_start": 469.02,
+    "t_end": 471.79,
+    "text": "You can think of this as an infinite process."
+  },
+  {
+    "t_start": 471.79,
+    "t_end": 475.61,
+    "text": "I'm halving the distance an infinite number of times."
+  },
+  {
+    "t_start": 475.61,
+    "t_end": 479.43,
+    "text": "But I can still clap my hands."
+  },
+  {
+    "t_start": 479.43,
+    "t_end": 482.04,
+    "text": "So these 19th century mathematicians had to work out"
+  },
+  {
+    "t_start": 482.04,
+    "t_end": 484.79,
+    "text": "when these infinite sums behaved well and when they"
+  },
+  {
+    "t_start": 484.79,
+    "t_end": 486.17,
+    "text": "behaved badly."
+  },
+  {
+    "t_start": 486.17,
+    "t_end": 489.68,
+    "text": "And so there's a lot of technical detail behind that."
+  },
+  {
+    "t_start": 489.68,
+    "t_end": 493.05,
+    "text": "And it just turned out to be rigorous and consistent, which"
+  },
+  {
+    "t_start": 493.05,
+    "t_end": 495.25,
+    "text": "is very important."
+  },
+  {
+    "t_start": 495.25,
+    "t_end": 499.09,
+    "text": "But some of the tests that you can use to prove that"
+  },
+  {
+    "t_start": 499.09,
+    "t_end": 501.61,
+    "text": "something is a well-behaved sum--"
+  },
+  {
+    "t_start": 501.61,
+    "t_end": 502.63,
+    "text": "well, they're quite easy."
+  },
+  {
+    "t_start": 502.63,
+    "t_end": 503.78,
+    "text": "I'll show you one."
+  },
+  {
+    "t_start": 503.78,
+    "t_end": 508.44,
+    "text": "What you can do is if you take one of these terms--"
+  },
+  {
+    "t_start": 508.44,
+    "t_end": 510.246,
+    "text": "I'm actually going to call it a."
+  },
+  {
+    "t_start": 510.246,
+    "t_end": 513.78,
+    "text": "You take one of them, the nth term--"
+  },
+  {
+    "t_start": 513.78,
+    "t_end": 514.5,
+    "text": "an."
+  },
+  {
+    "t_start": 514.5,
+    "t_end": 518.659,
+    "text": "You divide that by the one that came before it, and if"
+  },
+  {
+    "t_start": 518.659,
+    "t_end": 522.23,
+    "text": "it's negative, well, you'll make it positive, then."
+  },
+  {
+    "t_start": 522.23,
+    "t_end": 524.159,
+    "text": "If you take those numbers--"
+  },
+  {
+    "t_start": 524.159,
+    "t_end": 527.39,
+    "text": "if those numbers go towards a value--"
+  },
+  {
+    "t_start": 527.39,
+    "t_end": 532.78,
+    "text": "let's call it r, as these n's get bigger."
+  },
+  {
+    "t_start": 532.78,
+    "t_end": 537.27,
+    "text": "If these numbers tend towards a value, and if that number is"
+  },
+  {
+    "t_start": 537.27,
+    "t_end": 539.72,
+    "text": "less than 1, then it's well-behaved."
+  },
+  {
+    "t_start": 542.77,
+    "t_end": 544.87,
+    "text": "So this was well-behaved."
+  },
+  {
+    "t_start": 544.87,
+    "t_end": 546.34,
+    "text": "Why was this well-behaved?"
+  },
+  {
+    "t_start": 546.34,
+    "t_end": 549.78,
+    "text": "Because if you take one of those terms and divide by the"
+  },
+  {
+    "t_start": 549.78,
+    "t_end": 552.73,
+    "text": "one that came before it, you always get 1/2."
+  },
+  {
+    "t_start": 552.73,
+    "t_end": 553.36,
+    "text": "Look."
+  },
+  {
+    "t_start": 553.36,
+    "t_end": 559.11,
+    "text": "1/4 divided by 1/2 is also 1/2."
+  },
+  {
+    "t_start": 559.11,
+    "t_end": 560.78,
+    "text": "These are all halves, actually."
+  },
+  {
+    "t_start": 560.78,
+    "t_end": 563.49,
+    "text": "You get a common factor of 1/2--"
+  },
+  {
+    "t_start": 563.49,
+    "t_end": 566.45,
+    "text": "common ratio of 1/2 for each one."
+  },
+  {
+    "t_start": 566.45,
+    "t_end": 568.095,
+    "text": "That passes the test."
+  },
+  {
+    "t_start": 568.095,
+    "t_end": 569.06,
+    "text": "And that's what this is."
+  },
+  {
+    "t_start": 569.06,
+    "t_end": 570.23,
+    "text": "This is a test."
+  },
+  {
+    "t_start": 570.23,
+    "t_end": 571.09,
+    "text": "So it passes the test."
+  },
+  {
+    "t_start": 571.09,
+    "t_end": 572.47,
+    "text": "This is well-behaved."
+  },
+  {
+    "t_start": 572.47,
+    "t_end": 579.88,
+    "text": "If this was bigger than 1, then it's not well-behaved."
+  },
+  {
+    "t_start": 579.88,
+    "t_end": 581.14,
+    "text": "And that could mean--"
+  },
+  {
+    "t_start": 581.14,
+    "t_end": 584.56,
+    "text": "well, it could mean it goes on to infinity."
+  },
+  {
+    "t_start": 584.56,
+    "t_end": 587.75,
+    "text": "Or it could mean it's periodic or does something else weird."
+  },
+  {
+    "t_start": 587.75,
+    "t_end": 589.63,
+    "text": "So it's not well-behaved."
+  },
+  {
+    "t_start": 589.63,
+    "t_end": 594.05,
+    "text": "And the other case is if this number was equal to 1, we"
+  },
+  {
+    "t_start": 594.05,
+    "t_end": 595.57,
+    "text": "don't know."
+  },
+  {
+    "t_start": 595.57,
+    "t_end": 599.35,
+    "text": "It could be well-behaved or not."
+  },
+  {
+    "t_start": 599.35,
+    "t_end": 600.4,
+    "text": "It depends."
+  },
+  {
+    "t_start": 600.4,
+    "t_end": 603.042,
+    "text": "So r equals to 1, we're not sure."
+  },
+  {
+    "t_start": 603.042,
+    "t_end": 606.81,
+    "text": "BRADY HARAN: What's a series where r is greater than 1?"
+  },
+  {
+    "t_start": 606.81,
+    "t_end": 609.46,
+    "text": "Can you show me, what's a badly behaved series?"
+  },
+  {
+    "t_start": 609.46,
+    "t_end": 612.13,
+    "text": "DR. JAMES GRIME: So if it was bigger than 1, than the terms"
+  },
+  {
+    "t_start": 612.13,
+    "t_end": 615.04,
+    "text": "would be getting bigger and bigger and bigger each time,"
+  },
+  {
+    "t_start": 615.04,
+    "t_end": 618.23,
+    "text": "maybe not in a common ratio way."
+  },
+  {
+    "t_start": 618.23,
+    "t_end": 619.38,
+    "text": "Well, we were talking about the"
+  },
+  {
+    "t_start": 619.38,
+    "t_end": 620.87,
+    "text": "Fibonacci sequence earlier."
+  },
+  {
+    "t_start": 620.87,
+    "t_end": 625.34,
+    "text": "So if we had something like that, like 1"
+  },
+  {
+    "t_start": 625.34,
+    "t_end": 628.51,
+    "text": "and 1 and 2 and 3."
+  },
+  {
+    "t_start": 628.51,
+    "t_end": 631.21,
+    "text": "If you divide those, they don't have a common ratio."
+  },
+  {
+    "t_start": 631.21,
+    "t_end": 633.75,
+    "text": "But actually, the ratio is tending to"
+  },
+  {
+    "t_start": 633.75,
+    "t_end": 636.91,
+    "text": "1.618, the golden ratio."
+  },
+  {
+    "t_start": 636.91,
+    "t_end": 639.09,
+    "text": "So 1.618 would be bigger than 1."
+  },
+  {
+    "t_start": 639.09,
+    "t_end": 640.49,
+    "text": "And this would be badly behaved."
+  },
+  {
+    "t_start": 640.49,
+    "t_end": 643.14,
+    "text": "If you added them together, you would get a number that"
+  },
+  {
+    "t_start": 643.14,
+    "t_end": 645.94,
+    "text": "was going off to infinity in that case."
+  },
+  {
+    "t_start": 645.94,
+    "t_end": 649.195,
+    "text": "And that would be called divergent."
+  },
+  {
+    "t_start": 649.195,
+    "t_end": 650.965,
+    "text": "This is well-behaved, our example."
+  },
+  {
+    "t_start": 650.965,
+    "t_end": 653.13,
+    "text": "And it's called convergent."
+  },
+  {
+    "t_start": 653.13,
+    "t_end": 657.1,
+    "text": "My question to physicists is if we were literal about this"
+  },
+  {
+    "t_start": 657.1,
+    "t_end": 661.63,
+    "text": "and considered the real world so that we are actually"
+  },
+  {
+    "t_start": 661.63,
+    "t_end": 665.3,
+    "text": "dividing a distance repeatedly in half over and over again"
+  },
+  {
+    "t_start": 665.3,
+    "t_end": 669.39,
+    "text": "infinitely many times, or dividing the time it takes to"
+  },
+  {
+    "t_start": 669.39,
+    "t_end": 672.78,
+    "text": "complete each step infinitely many times so it's getting"
+  },
+  {
+    "t_start": 672.78,
+    "t_end": 674.97,
+    "text": "quicker, can you do that?"
+  },
+  {
+    "t_start": 674.97,
+    "t_end": 680.17,
+    "text": "Can you divide space and time infinitely many times?"
+  },
+  {
+    "t_start": 680.17,
+    "t_end": 681.79,
+    "text": "I don't know the answer to that."
+  },
+  {
+    "t_start": 681.79,
+    "t_end": 685.07,
+    "text": "So I want a physicist to tell me."
+  },
+  {
+    "t_start": 685.07,
+    "t_end": 689.11,
+    "text": "We're in slightly the area of calculus, as well, which some"
+  },
+  {
+    "t_start": 689.11,
+    "t_end": 693.15,
+    "text": "of you may meet when you get higher up at school."
+  },
+  {
+    "t_start": 693.15,
+    "t_end": 696.33,
+    "text": "Calculus helps you work out the area by adding up really"
+  },
+  {
+    "t_start": 696.33,
+    "t_end": 699.05,
+    "text": "thin strips together."
+  },
+  {
+    "t_start": 699.05,
+    "t_end": 701.26,
+    "text": "And it's in the same area."
+  },
+  {
+    "t_start": 701.26,
+    "t_end": 705.91,
+    "text": "So Newton and Leibniz were trying to add up areas by"
+  },
+  {
+    "t_start": 705.91,
+    "t_end": 708.96,
+    "text": "taking strips that were really, really thin--"
+  },
+  {
+    "t_start": 708.96,
+    "t_end": 712.15,
+    "text": "not quite 0, but close to 0."
+  },
+  {
+    "t_start": 712.15,
+    "t_end": 717.26,
+    "text": "And this idea was later replaced with what we did"
+  },
+  {
+    "t_start": 717.26,
+    "t_end": 721.11,
+    "text": "here, the 19th century idea called limits."
+  },
+  {
+    "t_start": 721.11,
+    "t_end": 724.28,
+    "text": "So this has taken a long time to work out."
+  }
+]

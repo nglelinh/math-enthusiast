@@ -1,0 +1,4102 @@
+[
+  {
+    "t_start": 7.349,
+    "t_end": 10.749,
+    "text": "it is my great pleasure to welcome you to the ACM am touring"
+  },
+  {
+    "t_start": 10.749,
+    "t_end": 13.709,
+    "text": "to the ACM am touring lecture this annual presentation is"
+  },
+  {
+    "t_start": 13.709,
+    "t_end": 19.59,
+    "text": "delivered by the winner of the ACM am touring award which is named for the"
+  },
+  {
+    "t_start": 19.59,
+    "t_end": 21.59,
+    "text": "touring award which is named for the Great British mathematician and computer"
+  },
+  {
+    "t_start": 21.59,
+    "t_end": 23.75,
+    "text": "Great British mathematician and computer scientist Alan M"
+  },
+  {
+    "t_start": 23.75,
+    "t_end": 28.99,
+    "text": "Turing the originator of the touring test and whose H 100th birthday we've"
+  },
+  {
+    "t_start": 28.99,
+    "t_end": 30.749,
+    "text": "test and whose H 100th birthday we've been celebrating"
+  },
+  {
+    "t_start": 30.749,
+    "t_end": 37.069,
+    "text": "had quite a big celebration at ACM about two weeks ago in San"
+  },
+  {
+    "t_start": 37.069,
+    "t_end": 39.79,
+    "text": "two weeks ago in San Francisco the touring award is often"
+  },
+  {
+    "t_start": 39.79,
+    "t_end": 42.19,
+    "text": "Francisco the touring award is often referred to as a Nobel Prize of"
+  },
+  {
+    "t_start": 42.19,
+    "t_end": 44.83,
+    "text": "referred to as a Nobel Prize of computing and the most prestigious"
+  },
+  {
+    "t_start": 44.83,
+    "t_end": 49.31,
+    "text": "computing and the most prestigious computer science can receive and it"
+  },
+  {
+    "t_start": 49.31,
+    "t_end": 55.59,
+    "text": "carries with it a $250,000 prize generously provided by"
+  },
+  {
+    "t_start": 55.59,
+    "t_end": 61.27,
+    "text": "Google uh this year's recipient of the ACM touring award and our lecturer this"
+  },
+  {
+    "t_start": 61.27,
+    "t_end": 63.99,
+    "text": "ACM touring award and our lecturer this morning is Judea Pearl professor of"
+  },
+  {
+    "t_start": 63.99,
+    "t_end": 66.55,
+    "text": "morning is Judea Pearl professor of computer science and statistics at the"
+  },
+  {
+    "t_start": 66.55,
+    "t_end": 69.429,
+    "text": "computer science and statistics at the University of California in Los"
+  },
+  {
+    "t_start": 69.429,
+    "t_end": 73.749,
+    "text": "University of California in Los Angeles he received this honor in"
+  },
+  {
+    "t_start": 73.749,
+    "t_end": 76.35,
+    "text": "recognition of his fundamental contribution to artificial intelligence"
+  },
+  {
+    "t_start": 76.35,
+    "t_end": 82.67,
+    "text": "contribution to artificial intelligence as a result of the development of a"
+  },
+  {
+    "t_start": 82.67,
+    "t_end": 88.31,
+    "text": "reasoning so you can see it quite fitting that he addressed this audience"
+  },
+  {
+    "t_start": 88.31,
+    "t_end": 93.99,
+    "text": "fitting that he addressed this audience at this conference seems one of the true"
+  },
+  {
+    "t_start": 93.99,
+    "t_end": 96.67,
+    "text": "Pioneers in advancing both the science and the Art of intell of artificial"
+  },
+  {
+    "t_start": 96.67,
+    "t_end": 99.83,
+    "text": "and the Art of intell of artificial intelligence and I don't use the term"
+  },
+  {
+    "t_start": 99.83,
+    "t_end": 108.469,
+    "text": "Loosely because um if you know any of uh Professor B's works"
+  },
+  {
+    "t_start": 108.469,
+    "t_end": 111.63,
+    "text": "you know any of uh Professor B's works or books um you'll know that he's as"
+  },
+  {
+    "t_start": 111.63,
+    "t_end": 114.19,
+    "text": "or books um you'll know that he's as much a philosopher as a"
+  },
+  {
+    "t_start": 114.19,
+    "t_end": 119.389,
+    "text": "scientist the subject for a talk this morning is a mechanization of causal"
+  },
+  {
+    "t_start": 119.389,
+    "t_end": 120.55,
+    "text": "morning is a mechanization of causal inference"
+  },
+  {
+    "t_start": 120.55,
+    "t_end": 130.51,
+    "text": "a manyi touring test and Beyond and it is my privilege to introduce Judea"
+  },
+  {
+    "t_start": 137.11,
+    "t_end": 141.19,
+    "text": "KY thank you Kelly for this wonderful introduction I'm very glad to be here I"
+  },
+  {
+    "t_start": 141.19,
+    "t_end": 144.79,
+    "text": "introduction I'm very glad to be here I I did request to deliver this touring"
+  },
+  {
+    "t_start": 144.79,
+    "t_end": 150.27,
+    "text": "I did request to deliver this touring lecture at this form because I felt it"
+  },
+  {
+    "t_start": 150.27,
+    "t_end": 152.309,
+    "text": "is important that I"
+  },
+  {
+    "t_start": 152.309,
+    "t_end": 154.589,
+    "text": "that I will"
+  },
+  {
+    "t_start": 154.589,
+    "t_end": 161.19,
+    "text": "um tell you not only share the glory of this"
+  },
+  {
+    "t_start": 161.19,
+    "t_end": 164.949,
+    "text": "you not only share the glory of this award which of course you deserve being"
+  },
+  {
+    "t_start": 164.949,
+    "t_end": 171.63,
+    "text": "award which of course you deserve being with me at the early stage of this game"
+  },
+  {
+    "t_start": 171.63,
+    "t_end": 176.67,
+    "text": "but also before because I think you deserve to hear uh progress report but"
+  },
+  {
+    "t_start": 176.67,
+    "t_end": 181.03,
+    "text": "deserve to hear uh progress report but what happened in this uh Advent Venture"
+  },
+  {
+    "t_start": 181.03,
+    "t_end": 183.99,
+    "text": "what happened in this uh Advent Venture since we last played in the"
+  },
+  {
+    "t_start": 183.99,
+    "t_end": 188.75,
+    "text": "since we last played in the sandb and we built those castles"
+  },
+  {
+    "t_start": 188.75,
+    "t_end": 192.949,
+    "text": "sandb and we built those castles together um also I think um it's"
+  },
+  {
+    "t_start": 192.949,
+    "t_end": 200.55,
+    "text": "important that I pay tribute to this organization for nurturing my work when"
+  },
+  {
+    "t_start": 200.55,
+    "t_end": 203.19,
+    "text": "organization for nurturing my work when it was not exactly"
+  },
+  {
+    "t_start": 203.19,
+    "t_end": 208.75,
+    "text": "fashionable and actually some people say it was the controversial"
+  },
+  {
+    "t_start": 208.75,
+    "t_end": 211.789,
+    "text": "it was the controversial or Say"
+  },
+  {
+    "t_start": 211.789,
+    "t_end": 219.429,
+    "text": "mischievous but uh then I I would like to thank all of you for number one being"
+  },
+  {
+    "t_start": 219.429,
+    "t_end": 222.229,
+    "text": "to thank all of you for number one being partners of the developments of the"
+  },
+  {
+    "t_start": 222.229,
+    "t_end": 228.47,
+    "text": "partners of the developments of the things I'm going to talk"
+  },
+  {
+    "t_start": 228.47,
+    "t_end": 232.75,
+    "text": "about um colleagues co-authors co-principal investigators and students"
+  },
+  {
+    "t_start": 232.75,
+    "t_end": 234.509,
+    "text": "co-principal investigators and students and"
+  },
+  {
+    "t_start": 234.509,
+    "t_end": 236.75,
+    "text": "and um"
+  },
+  {
+    "t_start": 236.75,
+    "t_end": 241.949,
+    "text": "reviewers I don't know if I should thank my reviewers was"
+  },
+  {
+    "t_start": 241.949,
+    "t_end": 249.789,
+    "text": "but now that's kind of uh I noticed that some of my three most important work"
+  },
+  {
+    "t_start": 249.789,
+    "t_end": 253.069,
+    "text": "some of my three most important work were published in the proceedings of the"
+  },
+  {
+    "t_start": 253.069,
+    "t_end": 261.349,
+    "text": "were published in the proceedings of the Tria AI so I would like to start with"
+  },
+  {
+    "t_start": 261.349,
+    "t_end": 264.15,
+    "text": "that and my first slide is about Tria a is a breeding ground for some of those"
+  },
+  {
+    "t_start": 264.15,
+    "t_end": 268.59,
+    "text": "is a breeding ground for some of those Mischief ideas that I talked one is um"
+  },
+  {
+    "t_start": 268.59,
+    "t_end": 271.469,
+    "text": "Mischief ideas that I talked one is um what took place in"
+  },
+  {
+    "t_start": 271.469,
+    "t_end": 279.23,
+    "text": "1982 if uh I'm sure that not many of you remember that trip on a boat uh in"
+  },
+  {
+    "t_start": 279.23,
+    "t_end": 283.67,
+    "text": "remember that trip on a boat uh in Pittsburgh and that was where my uh"
+  },
+  {
+    "t_start": 283.67,
+    "t_end": 286.79,
+    "text": "Pittsburgh and that was where my uh first paper on belief propagation in"
+  },
+  {
+    "t_start": 286.79,
+    "t_end": 289.23,
+    "text": "first paper on belief propagation in trees was"
+  },
+  {
+    "t_start": 289.23,
+    "t_end": 295.27,
+    "text": "published and um then I noticed that one of the first paper with the Duke"
+  },
+  {
+    "t_start": 295.27,
+    "t_end": 302.15,
+    "text": "calculus was published in the triple AI in Seattle in 1994 it was a paper"
+  },
+  {
+    "t_start": 302.15,
+    "t_end": 304.67,
+    "text": "in Seattle in 1994 it was a paper together with Adan Darwish where you see"
+  },
+  {
+    "t_start": 304.67,
+    "t_end": 309.43,
+    "text": "together with Adan Darwish where you see a symbol here do a appear in the title"
+  },
+  {
+    "t_start": 309.43,
+    "t_end": 312.469,
+    "text": "a symbol here do a appear in the title and it wasn't rejected I'm sure that it"
+  },
+  {
+    "t_start": 312.469,
+    "t_end": 315.07,
+    "text": "and it wasn't rejected I'm sure that it wouldn't have been published in any"
+  },
+  {
+    "t_start": 315.07,
+    "t_end": 318.11,
+    "text": "wouldn't have been published in any other uh conference proceedings they may"
+  },
+  {
+    "t_start": 318.11,
+    "t_end": 321.87,
+    "text": "other uh conference proceedings they may be in statistics or in any other"
+  },
+  {
+    "t_start": 321.87,
+    "t_end": 328.55,
+    "text": "field and in the third that I like to mention is uh the same conference"
+  },
+  {
+    "t_start": 328.55,
+    "t_end": 335.629,
+    "text": "Seattle of 199 194 was the paper with balky on probalistic evaluation of"
+  },
+  {
+    "t_start": 335.629,
+    "t_end": 338.95,
+    "text": "balky on probalistic evaluation of counterfactual queries I choose those"
+  },
+  {
+    "t_start": 338.95,
+    "t_end": 347.83,
+    "text": "three because they are the um titles of the three layer three layer hierarchy of"
+  },
+  {
+    "t_start": 347.83,
+    "t_end": 351.07,
+    "text": "the three layer three layer hierarchy of cultural reasoning that we have today"
+  },
+  {
+    "t_start": 351.07,
+    "t_end": 354.87,
+    "text": "cultural reasoning that we have today they established as a very very solid"
+  },
+  {
+    "t_start": 354.87,
+    "t_end": 359.67,
+    "text": "they established as a very very solid kind of hierarchy that is rarely mixed"
+  },
+  {
+    "t_start": 359.67,
+    "t_end": 361.99,
+    "text": "kind of hierarchy that is rarely mixed in the sense that you can syntactically"
+  },
+  {
+    "t_start": 361.99,
+    "t_end": 365.909,
+    "text": "in the sense that you can syntactically tell what a sentence is whether it is"
+  },
+  {
+    "t_start": 365.909,
+    "t_end": 373.189,
+    "text": "probabilistic whether it is caal or counterfactual uh so let me but this is"
+  },
+  {
+    "t_start": 373.189,
+    "t_end": 375.27,
+    "text": "counterfactual uh so let me but this is not a lecture about my work it's a"
+  },
+  {
+    "t_start": 375.27,
+    "t_end": 382.51,
+    "text": "lecture about touring so let me start with the touring and his touring test as"
+  },
+  {
+    "t_start": 382.51,
+    "t_end": 385.749,
+    "text": "with the touring and his touring test as we all read the paper in the mind"
+  },
+  {
+    "t_start": 385.749,
+    "t_end": 387.469,
+    "text": "we all read the paper in the mind magazine in"
+  },
+  {
+    "t_start": 387.469,
+    "t_end": 396.23,
+    "text": "1950 and a test that U I think is an engine of much of the work that is done"
+  },
+  {
+    "t_start": 396.23,
+    "t_end": 397.43,
+    "text": "engine of much of the work that is done in"
+  },
+  {
+    "t_start": 397.43,
+    "t_end": 405.11,
+    "text": "AI um the toing answer to this question of can computer think was very simple"
+  },
+  {
+    "t_start": 405.11,
+    "t_end": 408.749,
+    "text": "of can computer think was very simple yes if it acts like it thinks and what"
+  },
+  {
+    "t_start": 408.749,
+    "t_end": 412.189,
+    "text": "yes if it acts like it thinks and what one mean by Act is that it answer"
+  },
+  {
+    "t_start": 412.189,
+    "t_end": 415.51,
+    "text": "one mean by Act is that it answer non-trivial questions about a story a"
+  },
+  {
+    "t_start": 415.51,
+    "t_end": 417.27,
+    "text": "non-trivial questions about a story a topic or a"
+  },
+  {
+    "t_start": 417.27,
+    "t_end": 425.43,
+    "text": "situation and I'm with the question of what non-trivial is and um I did not"
+  },
+  {
+    "t_start": 425.43,
+    "t_end": 430.309,
+    "text": "what non-trivial is and um I did not take a topical story but a modality so"
+  },
+  {
+    "t_start": 430.309,
+    "t_end": 437.55,
+    "text": "I'll show you many of us working on a mini toing test in various Fields but I"
+  },
+  {
+    "t_start": 437.55,
+    "t_end": 440.95,
+    "text": "mini toing test in various Fields but I consider the work in um caal reasoning"
+  },
+  {
+    "t_start": 440.95,
+    "t_end": 444.309,
+    "text": "consider the work in um caal reasoning to be a to"
+  },
+  {
+    "t_start": 444.309,
+    "t_end": 450.589,
+    "text": "partition the uh field to take a task which is unique unque in terms of the"
+  },
+  {
+    "t_start": 450.589,
+    "t_end": 455.51,
+    "text": "which is unique unque in terms of the modalities used rather than the"
+  },
+  {
+    "t_start": 459.23,
+    "t_end": 462.27,
+    "text": "domain so here's what toing how toing describe a hypothetical conversation"
+  },
+  {
+    "t_start": 462.27,
+    "t_end": 464.35,
+    "text": "describe a hypothetical conversation with the"
+  },
+  {
+    "t_start": 464.35,
+    "t_end": 471.99,
+    "text": "machine uh first was the question about Sunnet about poetry and the answer of"
+  },
+  {
+    "t_start": 471.99,
+    "t_end": 473.23,
+    "text": "Sunnet about poetry and the answer of course is"
+  },
+  {
+    "t_start": 473.23,
+    "t_end": 479.309,
+    "text": "evasive uh but still it has some human element to it I never could write poetry"
+  },
+  {
+    "t_start": 479.309,
+    "t_end": 481.629,
+    "text": "element to it I never could write poetry uh the second answer is about arithmetic"
+  },
+  {
+    "t_start": 481.629,
+    "t_end": 483.67,
+    "text": "uh the second answer is about arithmetic certain question about arithmetic can"
+  },
+  {
+    "t_start": 483.67,
+    "t_end": 489.79,
+    "text": "you add that and that and the answer is of also human you pause for 30 seconds"
+  },
+  {
+    "t_start": 489.79,
+    "t_end": 495.99,
+    "text": "and then you give the answer so this is also very simple domain and then twoing"
+  },
+  {
+    "t_start": 495.99,
+    "t_end": 504.909,
+    "text": "let's look at chess and do you play chess yes I have a king on my K1 and you"
+  },
+  {
+    "t_start": 504.909,
+    "t_end": 507.99,
+    "text": "chess yes I have a king on my K1 and you and no other pieces you have only King"
+  },
+  {
+    "t_start": 507.99,
+    "t_end": 515.19,
+    "text": "at k6 and Rook on rout one it is your move what do you play and of course the"
+  },
+  {
+    "t_start": 515.19,
+    "t_end": 519.99,
+    "text": "move what do you play and of course the machine answers uh after pause Checkmate"
+  },
+  {
+    "t_start": 519.99,
+    "t_end": 522.75,
+    "text": "machine answers uh after pause Checkmate okay so here these were the three"
+  },
+  {
+    "t_start": 522.75,
+    "t_end": 526.71,
+    "text": "okay so here these were the three questions exemplified in twing first"
+  },
+  {
+    "t_start": 526.71,
+    "t_end": 529.15,
+    "text": "questions exemplified in twing first paper"
+  },
+  {
+    "t_start": 529.15,
+    "t_end": 535.03,
+    "text": "um narrow domains arithmetic poetry and"
+  },
+  {
+    "t_start": 535.03,
+    "t_end": 542.71,
+    "text": "chess reable ansers but then in chapter seven of that book bab showed me he"
+  },
+  {
+    "t_start": 542.71,
+    "t_end": 545.389,
+    "text": "seven of that book bab showed me he talks about the child machine so he goes"
+  },
+  {
+    "t_start": 545.389,
+    "t_end": 547.67,
+    "text": "talks about the child machine so he goes further and says he talks about"
+  },
+  {
+    "t_start": 547.67,
+    "t_end": 549.949,
+    "text": "further and says he talks about essentially machine learning why should"
+  },
+  {
+    "t_start": 549.949,
+    "t_end": 556.71,
+    "text": "we think about adult why don't we start with a child machine it should be easier"
+  },
+  {
+    "t_start": 556.71,
+    "t_end": 558.03,
+    "text": "with a child machine it should be easier is"
+  },
+  {
+    "t_start": 558.03,
+    "t_end": 559.03,
+    "text": "is it"
+  },
+  {
+    "t_start": 559.03,
+    "t_end": 560.71,
+    "text": "it [Music]"
+  },
+  {
+    "t_start": 560.71,
+    "t_end": 567.75,
+    "text": "um because the child does not need as much background as we expect adult to"
+  },
+  {
+    "t_start": 567.75,
+    "t_end": 570.23,
+    "text": "much background as we expect adult to have"
+  },
+  {
+    "t_start": 570.23,
+    "t_end": 576.19,
+    "text": "our hope is that there is so little mechanism in the child brain that"
+  },
+  {
+    "t_start": 576.19,
+    "t_end": 578.23,
+    "text": "mechanism in the child brain that something like it can be easily"
+  },
+  {
+    "t_start": 578.23,
+    "t_end": 580.59,
+    "text": "something like it can be easily programmed I think to we"
+  },
+  {
+    "t_start": 580.59,
+    "t_end": 586.03,
+    "text": "programmed I think to we underestimate the the role that um"
+  },
+  {
+    "t_start": 586.03,
+    "t_end": 593.19,
+    "text": "underestimate the the role that um vision and mo Moto actions play in our"
+  },
+  {
+    "t_start": 593.19,
+    "t_end": 599.59,
+    "text": "metaphors taken from the child world uh are play a tremendous role in the"
+  },
+  {
+    "t_start": 599.59,
+    "t_end": 602.829,
+    "text": "are play a tremendous role in the child's ability to handle mathematics"
+  },
+  {
+    "t_start": 602.829,
+    "t_end": 607.43,
+    "text": "child's ability to handle mathematics and I think student uh touring"
+  },
+  {
+    "t_start": 607.43,
+    "t_end": 610.59,
+    "text": "and I think student uh touring underestimate the difficulty of starting"
+  },
+  {
+    "t_start": 610.59,
+    "t_end": 616.67,
+    "text": "underestimate the difficulty of starting with a child brain but then he went very"
+  },
+  {
+    "t_start": 616.67,
+    "t_end": 620.11,
+    "text": "to machine learning and he made some some revolutionary statement about the"
+  },
+  {
+    "t_start": 620.11,
+    "t_end": 623.15,
+    "text": "some revolutionary statement about the connection between machine learning and"
+  },
+  {
+    "t_start": 623.15,
+    "t_end": 627.99,
+    "text": "connection between machine learning and evolution and he said the survival of"
+  },
+  {
+    "t_start": 627.99,
+    "t_end": 630.03,
+    "text": "the fit is is a slow method for measuring advantages"
+  },
+  {
+    "t_start": 630.03,
+    "t_end": 635.03,
+    "text": "the experiment I mean the programmer by exercise of intelligence should be able"
+  },
+  {
+    "t_start": 635.03,
+    "t_end": 638.35,
+    "text": "exercise of intelligence should be able to speed it up how by creating"
+  },
+  {
+    "t_start": 638.35,
+    "t_end": 640.949,
+    "text": "to speed it up how by creating artificial mutations where they are"
+  },
+  {
+    "t_start": 640.949,
+    "t_end": 648.11,
+    "text": "needed if he can trace a cause for some weakness he can probably think of a kind"
+  },
+  {
+    "t_start": 648.11,
+    "t_end": 651.91,
+    "text": "weakness he can probably think of a kind of mutation which will improve it and"
+  },
+  {
+    "t_start": 651.91,
+    "t_end": 661.91,
+    "text": "that was I think it's a great uh Vision here anticipating the ability of of CH"
+  },
+  {
+    "t_start": 661.91,
+    "t_end": 667.75,
+    "text": "his idea was the programmer would be able to trace weaknesses of the program"
+  },
+  {
+    "t_start": 667.75,
+    "t_end": 672.19,
+    "text": "able to trace weaknesses of the program to where it counts and create the"
+  },
+  {
+    "t_start": 672.19,
+    "t_end": 674.55,
+    "text": "mutation but then the question is why should the machine have a blueprint of"
+  },
+  {
+    "t_start": 674.55,
+    "t_end": 678.069,
+    "text": "should the machine have a blueprint of itself and be able to"
+  },
+  {
+    "t_start": 678.069,
+    "t_end": 681.35,
+    "text": "itself and be able to pinpoint the root cause of the weakness"
+  },
+  {
+    "t_start": 681.35,
+    "t_end": 685.11,
+    "text": "pinpoint the root cause of the weakness and then change the priority among the"
+  },
+  {
+    "t_start": 685.11,
+    "t_end": 689.87,
+    "text": "and then change the priority among the competing uh computational resources"
+  },
+  {
+    "t_start": 689.87,
+    "t_end": 695.23,
+    "text": "competing uh computational resources uh I will now then explain to you why I"
+  },
+  {
+    "t_start": 695.23,
+    "t_end": 702.829,
+    "text": "the cause of reasoning to be a domain deserving of the title mini toing test"
+  },
+  {
+    "t_start": 702.829,
+    "t_end": 705.949,
+    "text": "deserving of the title mini toing test so imagine that you have here the"
+  },
+  {
+    "t_start": 705.949,
+    "t_end": 708.11,
+    "text": "so imagine that you have here the experiment room with a partition the"
+  },
+  {
+    "t_start": 708.11,
+    "t_end": 710.43,
+    "text": "experiment room with a partition the famous partition between the"
+  },
+  {
+    "t_start": 710.43,
+    "t_end": 718.59,
+    "text": "interrogator and the um machine and um the input would be a"
+  },
+  {
+    "t_start": 718.59,
+    "t_end": 723.75,
+    "text": "machine and um the input would be a story about a recog a known domain and"
+  },
+  {
+    "t_start": 723.75,
+    "t_end": 726.15,
+    "text": "story about a recog a known domain and then the questions will be limited to"
+  },
+  {
+    "t_start": 726.15,
+    "t_end": 730.91,
+    "text": "then the questions will be limited to three types what is what if and why and"
+  },
+  {
+    "t_start": 730.91,
+    "t_end": 735.91,
+    "text": "the answer expected is I believe that so and so will be the consequence and here"
+  },
+  {
+    "t_start": 735.91,
+    "t_end": 742.59,
+    "text": "and so will be the consequence and here the story I used it many times in my"
+  },
+  {
+    "t_start": 742.59,
+    "t_end": 746.23,
+    "text": "book of 1988 and then in cality the story is that you get out of your house"
+  },
+  {
+    "t_start": 746.23,
+    "t_end": 754.269,
+    "text": "um pavement Maybe wet or dry maybe slippery or not you are in a dry or wet"
+  },
+  {
+    "t_start": 754.269,
+    "t_end": 756.87,
+    "text": "slippery or not you are in a dry or wet season and you suspect that if the"
+  },
+  {
+    "t_start": 756.87,
+    "t_end": 762.269,
+    "text": "pavement is wet and it either rained or the sprinkler was on a very simple Story"
+  },
+  {
+    "t_start": 762.269,
+    "t_end": 766.15,
+    "text": "the sprinkler was on a very simple Story five binary variables know highly"
+  },
+  {
+    "t_start": 766.15,
+    "t_end": 768.79,
+    "text": "five binary variables know highly connected to your everyday"
+  },
+  {
+    "t_start": 768.79,
+    "t_end": 775.509,
+    "text": "experience and then the task is you tell the story The Machine and make the M"
+  },
+  {
+    "t_start": 775.509,
+    "t_end": 778.59,
+    "text": "the story The Machine and make the M program the machine to answer simple"
+  },
+  {
+    "t_start": 778.59,
+    "t_end": 781.629,
+    "text": "program the machine to answer simple questions about three types of"
+  },
+  {
+    "t_start": 781.629,
+    "t_end": 787.949,
+    "text": "modalities and here they are here one if the syst is dry and the pavement is"
+  },
+  {
+    "t_start": 787.949,
+    "t_end": 793.949,
+    "text": "slippery did it rain and you expect an answer unlikely it's more likely the"
+  },
+  {
+    "t_start": 793.949,
+    "t_end": 796.55,
+    "text": "answer unlikely it's more likely the sprinkler was on with a very slight"
+  },
+  {
+    "t_start": 796.55,
+    "t_end": 799.59,
+    "text": "sprinkler was on with a very slight possibility that it is not even"
+  },
+  {
+    "t_start": 799.59,
+    "t_end": 801.87,
+    "text": "possibility that it is not even wet there could be some other reasons"
+  },
+  {
+    "t_start": 801.87,
+    "t_end": 804.189,
+    "text": "wet there could be some other reasons for why why it is"
+  },
+  {
+    "t_start": 804.189,
+    "t_end": 809.509,
+    "text": "slippery uh that is the kind of answer you expect on the basis of what the way"
+  },
+  {
+    "t_start": 809.509,
+    "t_end": 812.79,
+    "text": "you expect on the basis of what the way you program the story into the machine"
+  },
+  {
+    "t_start": 812.79,
+    "t_end": 817.31,
+    "text": "and the way you program in the relationship between various likelihood"
+  },
+  {
+    "t_start": 817.31,
+    "t_end": 818.55,
+    "text": "relationship between various likelihood of"
+  },
+  {
+    "t_start": 818.55,
+    "t_end": 826.71,
+    "text": "events um so this is a example of expectation evidence observations and"
+  },
+  {
+    "t_start": 826.71,
+    "t_end": 831.99,
+    "text": "what is likely as a result of that then comes the question about but what if we"
+  },
+  {
+    "t_start": 831.99,
+    "t_end": 835.15,
+    "text": "comes the question about but what if we see that a sprinkler is off and you"
+  },
+  {
+    "t_start": 835.15,
+    "t_end": 837.35,
+    "text": "see that a sprinkler is off and you expect an answer then it is more likely"
+  },
+  {
+    "t_start": 837.35,
+    "t_end": 840.269,
+    "text": "expect an answer then it is more likely that it rained it's reasonable okay it's"
+  },
+  {
+    "t_start": 840.269,
+    "t_end": 842.47,
+    "text": "that it rained it's reasonable okay it's explaining"
+  },
+  {
+    "t_start": 842.47,
+    "t_end": 849.31,
+    "text": "away and now comes question about actions do you mean that if we actually"
+  },
+  {
+    "t_start": 849.31,
+    "t_end": 851.55,
+    "text": "actions do you mean that if we actually turn the sprinkle on the rain will be"
+  },
+  {
+    "t_start": 851.55,
+    "t_end": 852.59,
+    "text": "turn the sprinkle on the rain will be less"
+  },
+  {
+    "t_start": 852.59,
+    "t_end": 857.749,
+    "text": "likely and you want the machine to say no there's a difference between seeing"
+  },
+  {
+    "t_start": 857.749,
+    "t_end": 861.59,
+    "text": "no there's a difference between seeing and doing no no the likelihood of rain"
+  },
+  {
+    "t_start": 861.59,
+    "t_end": 863.47,
+    "text": "would remain the same but the payment will surely get"
+  },
+  {
+    "t_start": 863.47,
+    "t_end": 869.509,
+    "text": "wet now comes the question of counterfactual nature"
+  },
+  {
+    "t_start": 872.189,
+    "t_end": 874.629,
+    "text": "suppose we see the sprinkler is on and the pavement W what if the sprinkler"
+  },
+  {
+    "t_start": 874.629,
+    "t_end": 877.03,
+    "text": "the pavement W what if the sprinkler were"
+  },
+  {
+    "t_start": 877.03,
+    "t_end": 884.509,
+    "text": "off I'll later apologize why I'm so hung up on counterfactual but first uh I"
+  },
+  {
+    "t_start": 884.509,
+    "t_end": 888.11,
+    "text": "up on counterfactual but first uh I would like to I would like you to answer"
+  },
+  {
+    "t_start": 888.11,
+    "t_end": 890.749,
+    "text": "would like to I would like you to answer the questions instead of the machine"
+  },
+  {
+    "t_start": 890.749,
+    "t_end": 895.99,
+    "text": "what I expect the machine to say is the pavement would be dry because the season"
+  },
+  {
+    "t_start": 895.99,
+    "t_end": 900.629,
+    "text": "pavement would be dry because the season is likely dry namely you take the obs"
+  },
+  {
+    "t_start": 900.629,
+    "t_end": 907.43,
+    "text": "and you in fair oh it must be a dry season then if you if the we off"
+  },
+  {
+    "t_start": 907.43,
+    "t_end": 910.55,
+    "text": "season then if you if the we off the past remain the same what changes"
+  },
+  {
+    "t_start": 910.55,
+    "t_end": 916.509,
+    "text": "the future so the answer should be uh because the season is likely dry and the"
+  },
+  {
+    "t_start": 916.509,
+    "t_end": 922.749,
+    "text": "payment is right okay this is a kind of um question answer sessions we expect on"
+  },
+  {
+    "t_start": 922.749,
+    "t_end": 927.189,
+    "text": "um question answer sessions we expect on the very very toil like"
+  },
+  {
+    "t_start": 927.189,
+    "t_end": 929.71,
+    "text": "the very very toil like problem uh"
+  },
+  {
+    "t_start": 929.71,
+    "t_end": 936.629,
+    "text": "we all remember seral argument of the Chinese room it says no just answering"
+  },
+  {
+    "t_start": 936.629,
+    "t_end": 938.629,
+    "text": "Chinese room it says no just answering this question doesn't mean the machine"
+  },
+  {
+    "t_start": 938.629,
+    "t_end": 944.509,
+    "text": "this question doesn't mean the machine thinks because here is imagin that the"
+  },
+  {
+    "t_start": 944.509,
+    "t_end": 952.35,
+    "text": "based on a rule book okay there every sentence in English or in Chinese has"
+  },
+  {
+    "t_start": 952.35,
+    "t_end": 960.269,
+    "text": "the answer printed there in Chinese or in English and it doesn't mean that the"
+  },
+  {
+    "t_start": 960.269,
+    "t_end": 963.23,
+    "text": "in English and it doesn't mean that the understand um Chinese just because it"
+  },
+  {
+    "t_start": 963.23,
+    "t_end": 967.47,
+    "text": "understand um Chinese just because it looks up the answer in the in the"
+  },
+  {
+    "t_start": 967.47,
+    "t_end": 968.99,
+    "text": "looks up the answer in the in the book"
+  },
+  {
+    "t_start": 968.99,
+    "t_end": 975.389,
+    "text": "book well what s has over seen is the fact"
+  },
+  {
+    "t_start": 975.389,
+    "t_end": 977.189,
+    "text": "well what s has over seen is the fact that there aren't enough molecules in"
+  },
+  {
+    "t_start": 977.189,
+    "t_end": 980.43,
+    "text": "that there aren't enough molecules in the universe to make up the book okay"
+  },
+  {
+    "t_start": 980.43,
+    "t_end": 983.99,
+    "text": "the universe to make up the book okay because the number of if you just count"
+  },
+  {
+    "t_start": 983.99,
+    "t_end": 985.269,
+    "text": "the number of sentences possible combination"
+  },
+  {
+    "t_start": 985.269,
+    "t_end": 989.79,
+    "text": "there um somebody made a calculation that there aren't enough molecules in"
+  },
+  {
+    "t_start": 989.79,
+    "t_end": 992.15,
+    "text": "that there aren't enough molecules in the universe so you say so what just"
+  },
+  {
+    "t_start": 992.15,
+    "t_end": 994.069,
+    "text": "the universe so you say so what just because you have a combinatorial"
+  },
+  {
+    "t_start": 994.069,
+    "t_end": 997.55,
+    "text": "because you have a combinatorial difficulty the machine thinks"
+  },
+  {
+    "t_start": 997.55,
+    "t_end": 1004.309,
+    "text": "yes the answer is yes because when you have such a problem to overcome the only"
+  },
+  {
+    "t_start": 1004.309,
+    "t_end": 1006.11,
+    "text": "have such a problem to overcome the only way to overcome it is by taking"
+  },
+  {
+    "t_start": 1006.11,
+    "t_end": 1009.389,
+    "text": "way to overcome it is by taking advantages of the constraints and"
+  },
+  {
+    "t_start": 1009.389,
+    "t_end": 1016.509,
+    "text": "understanding the constraint is what we mean by understanding it it is the"
+  },
+  {
+    "t_start": 1016.509,
+    "t_end": 1022.749,
+    "text": "understanding so even for the sprinkler example now if you take just for the"
+  },
+  {
+    "t_start": 1022.749,
+    "t_end": 1025.71,
+    "text": "example now if you take just for the sake of argument 10 binary variables"
+  },
+  {
+    "t_start": 1025.71,
+    "t_end": 1031.429,
+    "text": "okay and you count the number of um entries in the table that you would need"
+  },
+  {
+    "t_start": 1031.429,
+    "t_end": 1039.15,
+    "text": "if you just do it by a s Chinese book method you'll come out if quickly to the"
+  },
+  {
+    "t_start": 1039.15,
+    "t_end": 1042.23,
+    "text": "method you'll come out if quickly to the number of 1,000 entries just for the"
+  },
+  {
+    "t_start": 1042.23,
+    "t_end": 1045.11,
+    "text": "number of 1,000 entries just for the probability multiply by another thousand"
+  },
+  {
+    "t_start": 1045.11,
+    "t_end": 1049.15,
+    "text": "probability multiply by another thousand just to get for every action and then"
+  },
+  {
+    "t_start": 1049.15,
+    "t_end": 1050.43,
+    "text": "when you go to the counter OFA actually you have another thousand you have"
+  },
+  {
+    "t_start": 1050.43,
+    "t_end": 1058.029,
+    "text": "you have another thousand you have already a billion uh long table for just"
+  },
+  {
+    "t_start": 1058.029,
+    "t_end": 1067.47,
+    "text": "pavement story okay so because you have many many constraints among those uh"
+  },
+  {
+    "t_start": 1067.47,
+    "t_end": 1070.47,
+    "text": "many many constraints among those uh modalities of what happens what what is"
+  },
+  {
+    "t_start": 1070.47,
+    "t_end": 1077.39,
+    "text": "modalities of what happens what what is likely if I do what of had hadn't I done"
+  },
+  {
+    "t_start": 1077.39,
+    "t_end": 1082.83,
+    "text": "something or had an event occurred and uh um even children answer"
+  },
+  {
+    "t_start": 1082.83,
+    "t_end": 1088.35,
+    "text": "those questions quite intelligibly and the question is"
+  },
+  {
+    "t_start": 1088.35,
+    "t_end": 1091.63,
+    "text": "how uh the next question I have to"
+  },
+  {
+    "t_start": 1091.63,
+    "t_end": 1100.39,
+    "text": "um is to explain to you why I think that caal conversation is important and why"
+  },
+  {
+    "t_start": 1100.39,
+    "t_end": 1107.75,
+    "text": "caal conversation is important and why we should exercise the T Test on it"
+  },
+  {
+    "t_start": 1107.75,
+    "t_end": 1111.35,
+    "text": "first there are many toing tests okay touring started with poetry"
+  },
+  {
+    "t_start": 1111.35,
+    "t_end": 1114.029,
+    "text": "okay touring started with poetry arithmetic and chess you can imagine"
+  },
+  {
+    "t_start": 1114.029,
+    "t_end": 1119.83,
+    "text": "that uh some built toing test for stock market I think it's one of the easiest"
+  },
+  {
+    "t_start": 1119.83,
+    "t_end": 1125.23,
+    "text": "one to do for the stock market because aren't any is AR any constraints AR any"
+  },
+  {
+    "t_start": 1125.23,
+    "t_end": 1129.47,
+    "text": "aren't any is AR any constraints AR any expertise around very much like a"
+  },
+  {
+    "t_start": 1129.47,
+    "t_end": 1136.39,
+    "text": "poetry but um and why do I go to court reasoning number one is because it's so"
+  },
+  {
+    "t_start": 1136.39,
+    "t_end": 1140.11,
+    "text": "reasoning number one is because it's so pervasive in human cognition and human"
+  },
+  {
+    "t_start": 1140.11,
+    "t_end": 1145.11,
+    "text": "pervasive in human cognition and human ethics I'll I have few slides on that"
+  },
+  {
+    "t_start": 1145.11,
+    "t_end": 1147.75,
+    "text": "ethics I'll I have few slides on that and it's so deeply entr in the"
+  },
+  {
+    "t_start": 1147.75,
+    "t_end": 1150.909,
+    "text": "and it's so deeply entr in the development of children and the second"
+  },
+  {
+    "t_start": 1150.909,
+    "t_end": 1157.07,
+    "text": "development of children and the second one it is the building block I think of"
+  },
+  {
+    "t_start": 1157.07,
+    "t_end": 1159.27,
+    "text": "scientific uh thinking and the third reason is because it's important for"
+  },
+  {
+    "t_start": 1159.27,
+    "t_end": 1162.75,
+    "text": "reason is because it's important for robotic and the third is and the third"
+  },
+  {
+    "t_start": 1162.75,
+    "t_end": 1168.95,
+    "text": "robotic and the third is and the third occupied maybe more than five or 10"
+  },
+  {
+    "t_start": 1168.95,
+    "t_end": 1170.669,
+    "text": "years of my life is that there are so many"
+  },
+  {
+    "t_start": 1170.669,
+    "t_end": 1176.87,
+    "text": "customers that are data in intensive scientific applications around that"
+  },
+  {
+    "t_start": 1176.87,
+    "t_end": 1183.669,
+    "text": "could benefit from any insight on causal reasoning there are I said thousands of"
+  },
+  {
+    "t_start": 1183.669,
+    "t_end": 1187.029,
+    "text": "reasoning there are I said thousands of hungry and aimless customers that I"
+  },
+  {
+    "t_start": 1187.029,
+    "t_end": 1192.909,
+    "text": "should say they're not hungry in terms of being poor they're well endowed all"
+  },
+  {
+    "t_start": 1192.909,
+    "t_end": 1193.59,
+    "text": "of being poor they're well endowed all the"
+  },
+  {
+    "t_start": 1193.59,
+    "t_end": 1201.83,
+    "text": "pharmaceutical uh companies are part of that uh uh customer field but they're"
+  },
+  {
+    "t_start": 1201.83,
+    "t_end": 1203.789,
+    "text": "that uh uh customer field but they're hungry for ideas because they are"
+  },
+  {
+    "t_start": 1203.789,
+    "t_end": 1212.51,
+    "text": "aimless because C reasoning has not been formalized and um any advantage any"
+  },
+  {
+    "t_start": 1212.51,
+    "t_end": 1219.43,
+    "text": "advant any insight that we get by trying to make robot understand C and effect is"
+  },
+  {
+    "t_start": 1219.43,
+    "t_end": 1223.39,
+    "text": "to make robot understand C and effect is immediately translatable to a methods"
+  },
+  {
+    "t_start": 1223.39,
+    "t_end": 1229.31,
+    "text": "immediately translatable to a methods that could save millions of dollars in"
+  },
+  {
+    "t_start": 1232.029,
+    "t_end": 1238.909,
+    "text": "uh let me start with the human cognition and ethics I like to start with Adam and"
+  },
+  {
+    "t_start": 1238.909,
+    "t_end": 1242.71,
+    "text": "Eve where else do you start and you can see that immediately when God asked Adam"
+  },
+  {
+    "t_start": 1242.71,
+    "t_end": 1247.909,
+    "text": "see that immediately when God asked Adam hey did you eat from that tree Adam asks"
+  },
+  {
+    "t_start": 1247.909,
+    "t_end": 1255.029,
+    "text": "he doesn't say yes or no I mean facts are for the"
+  },
+  {
+    "t_start": 1255.029,
+    "t_end": 1261.83,
+    "text": "gods excuses are for men she handed me the fruits and I I a"
+  },
+  {
+    "t_start": 1261.83,
+    "t_end": 1267.909,
+    "text": "and Eve of course is not less expert in Cal explanations and she said the"
+  },
+  {
+    "t_start": 1267.909,
+    "t_end": 1271.39,
+    "text": "Cal explanations and she said the serpent don't blame me the serpent"
+  },
+  {
+    "t_start": 1271.39,
+    "t_end": 1273.83,
+    "text": "serpent don't blame me the serpent deceived me and I"
+  },
+  {
+    "t_start": 1273.83,
+    "t_end": 1281.71,
+    "text": "ate so that is how entrenched it is the need to pass the bux the back to"
+  },
+  {
+    "t_start": 1281.71,
+    "t_end": 1285.51,
+    "text": "need to pass the bux the back to somebody else is very deeply entrenched"
+  },
+  {
+    "t_start": 1285.51,
+    "t_end": 1289.669,
+    "text": "somebody else is very deeply entrenched in human um cogn"
+  },
+  {
+    "t_start": 1289.669,
+    "t_end": 1295.149,
+    "text": "and then it's a basis for our sense of justice you all remember when God told"
+  },
+  {
+    "t_start": 1295.149,
+    "t_end": 1297.51,
+    "text": "justice you all remember when God told Abraham that he's about to destroy the"
+  },
+  {
+    "t_start": 1297.51,
+    "t_end": 1301.75,
+    "text": "Abraham that he's about to destroy the city of Sodom and gomorah and Abraham"
+  },
+  {
+    "t_start": 1301.75,
+    "t_end": 1306.269,
+    "text": "said hey are you about to Smite the righteous who with the wicked you can't"
+  },
+  {
+    "t_start": 1306.269,
+    "t_end": 1310.269,
+    "text": "righteous who with the wicked you can't do"
+  },
+  {
+    "t_start": 1313.47,
+    "t_end": 1316.909,
+    "text": "that excuse my Hebrew but that's exactly how it sounded there about 3,000 years"
+  },
+  {
+    "t_start": 1316.909,
+    "t_end": 1321.07,
+    "text": "how it sounded there about 3,000 years ago haset"
+  },
+  {
+    "t_start": 1323.87,
+    "t_end": 1325.47,
+    "text": "what if there were 50 righteous men in the city here you have the first"
+  },
+  {
+    "t_start": 1325.47,
+    "t_end": 1330.549,
+    "text": "the city here you have the first counterfactual in the Bible what if they"
+  },
+  {
+    "t_start": 1330.549,
+    "t_end": 1338.43,
+    "text": "50 and look what God says says if I find in the city of D 50 good men I will"
+  },
+  {
+    "t_start": 1338.43,
+    "t_end": 1342.87,
+    "text": "in the city of D 50 good men I will pardon the whole place for their"
+  },
+  {
+    "t_start": 1342.87,
+    "t_end": 1348.59,
+    "text": "sake do you think Abraham gave up at that point no he go down and said what"
+  },
+  {
+    "t_start": 1348.59,
+    "t_end": 1349.82,
+    "text": "that point no he go down and said what about"
+  },
+  {
+    "t_start": 1349.82,
+    "t_end": 1351.99,
+    "text": "about [Music]"
+  },
+  {
+    "t_start": 1351.99,
+    "t_end": 1357.59,
+    "text": "45 I are you going to make a big fast on for five"
+  },
+  {
+    "t_start": 1357.59,
+    "t_end": 1362.99,
+    "text": "people and God says no I ain't going to destroy it then it goes down to 40 and"
+  },
+  {
+    "t_start": 1362.99,
+    "t_end": 1370.47,
+    "text": "destroy it then it goes down to 40 and then 30 and 20 and 10 and you know what"
+  },
+  {
+    "t_start": 1370.47,
+    "t_end": 1372.23,
+    "text": "happened the rest is history and the question of course what is Abraham"
+  },
+  {
+    "t_start": 1372.23,
+    "t_end": 1381.149,
+    "text": "question of course what is Abraham trying to what kind of game did Abraham"
+  },
+  {
+    "t_start": 1383.669,
+    "t_end": 1387.11,
+    "text": "or to distinguish a righteous from the wicked no Abraham was the first"
+  },
+  {
+    "t_start": 1387.11,
+    "t_end": 1392.789,
+    "text": "scientist he tried to find the general rule where is the threshold the general"
+  },
+  {
+    "t_start": 1392.789,
+    "t_end": 1397.149,
+    "text": "rule where is the threshold the general rule for Collective"
+  },
+  {
+    "t_start": 1399.909,
+    "t_end": 1402.31,
+    "text": "punishment in that sense he was the first scientist because what is science"
+  },
+  {
+    "t_start": 1402.31,
+    "t_end": 1404.35,
+    "text": "first scientist because what is science all about trying to find the general"
+  },
+  {
+    "t_start": 1404.35,
+    "t_end": 1407.51,
+    "text": "all about trying to find the general rules not about this specific event so"
+  },
+  {
+    "t_start": 1407.51,
+    "t_end": 1409.789,
+    "text": "rules not about this specific event so here I go to sign to prove to you that"
+  },
+  {
+    "t_start": 1409.789,
+    "t_end": 1412.31,
+    "text": "here I go to sign to prove to you that counterfactual are indeed the basis for"
+  },
+  {
+    "t_start": 1412.31,
+    "t_end": 1417.51,
+    "text": "counterfactual are indeed the basis for science we all used to do questions in"
+  },
+  {
+    "t_start": 1417.51,
+    "t_end": 1422.71,
+    "text": "that the length of a string y equals a constant I'll take two times the weight"
+  },
+  {
+    "t_start": 1422.71,
+    "t_end": 1429.029,
+    "text": "constant I'll take two times the weight so Y is equal to 2X and x equal to 1"
+  },
+  {
+    "t_start": 1429.029,
+    "t_end": 1434.23,
+    "text": "the string is and you think it's all arithmetic right then here the solution"
+  },
+  {
+    "t_start": 1434.23,
+    "t_end": 1440.87,
+    "text": "arithmetic right then here the solution it's h you just solve two equations with"
+  },
+  {
+    "t_start": 1440.87,
+    "t_end": 1449.75,
+    "text": "um is this system of equation equivalent to that one according to my rule my book"
+  },
+  {
+    "t_start": 1449.75,
+    "t_end": 1450.63,
+    "text": "to that one according to my rule my book of"
+  },
+  {
+    "t_start": 1450.63,
+    "t_end": 1456.43,
+    "text": "algebra two systems of equations are equivalent if they preserve"
+  },
+  {
+    "t_start": 1456.43,
+    "t_end": 1461.63,
+    "text": "equivalent if they preserve Solutions and these two preserve"
+  },
+  {
+    "t_start": 1461.63,
+    "t_end": 1467.87,
+    "text": "equivalent you say of course not because the left system of equation can answer"
+  },
+  {
+    "t_start": 1467.87,
+    "t_end": 1473.47,
+    "text": "questions that the right one does not so they're not equivalent here's a question"
+  },
+  {
+    "t_start": 1473.47,
+    "t_end": 1479.47,
+    "text": "they're not equivalent here's a question here's a third alternative I'll tell you"
+  },
+  {
+    "t_start": 1479.47,
+    "t_end": 1482.07,
+    "text": "why I put it there because the left set of equation can answer a"
+  },
+  {
+    "t_start": 1482.07,
+    "t_end": 1486.19,
+    "text": "left set of equation can answer a counterfactual question had X been three"
+  },
+  {
+    "t_start": 1486.19,
+    "t_end": 1493.269,
+    "text": "counterfactual question had X been three y would be six which translate into if"
+  },
+  {
+    "t_start": 1493.269,
+    "t_end": 1498.47,
+    "text": "we raise the weight to three what would be the length it would be six right and"
+  },
+  {
+    "t_start": 1498.47,
+    "t_end": 1502.11,
+    "text": "how do we do that we wipe out the equation x = 1 we replace with replace"
+  },
+  {
+    "t_start": 1502.11,
+    "t_end": 1508.31,
+    "text": "it by x = 3 and we solve a new system of equations which is modified now by the"
+  },
+  {
+    "t_start": 1508.31,
+    "t_end": 1515.11,
+    "text": "new um information and we give you the answer z it's Y is equal to 6 why didn't"
+  },
+  {
+    "t_start": 1515.11,
+    "t_end": 1518.269,
+    "text": "answer z it's Y is equal to 6 why didn't we do it here it's equivalent right I"
+  },
+  {
+    "t_start": 1518.269,
+    "t_end": 1524.71,
+    "text": "we do it here it's equivalent right I wipe out X = to half y replace it with"
+  },
+  {
+    "t_start": 1524.71,
+    "t_end": 1527.71,
+    "text": "xal to three and I get Y is equal to four that's the wrong one right so every"
+  },
+  {
+    "t_start": 1527.71,
+    "t_end": 1530.43,
+    "text": "four that's the wrong one right so every child in high High School when he or she"
+  },
+  {
+    "t_start": 1530.43,
+    "t_end": 1533.549,
+    "text": "child in high High School when he or she solves physics problems is"
+  },
+  {
+    "t_start": 1533.549,
+    "t_end": 1536.99,
+    "text": "solves physics problems is engaging themsel are engaging themselves"
+  },
+  {
+    "t_start": 1536.99,
+    "t_end": 1542.07,
+    "text": "engaging themsel are engaging themselves in counterfactual reason they know which"
+  },
+  {
+    "t_start": 1542.07,
+    "t_end": 1548.63,
+    "text": "to keep they keep the one that conveys the generic Rule and they wipe the ones"
+  },
+  {
+    "t_start": 1548.63,
+    "t_end": 1552.789,
+    "text": "the generic Rule and they wipe the ones that are either um boundary conditions"
+  },
+  {
+    "t_start": 1552.789,
+    "t_end": 1559.23,
+    "text": "or that they are subject to the antecedent of the counteract so and they"
+  },
+  {
+    "t_start": 1559.23,
+    "t_end": 1566.31,
+    "text": "get some if this is the case then the equality sign that we saw before was not"
+  },
+  {
+    "t_start": 1566.31,
+    "t_end": 1570.269,
+    "text": "equality sign that we saw before was not really mic equality it was really a"
+  },
+  {
+    "t_start": 1570.269,
+    "t_end": 1573.549,
+    "text": "really mic equality it was really a convenient replacement for"
+  },
+  {
+    "t_start": 1573.549,
+    "t_end": 1575.99,
+    "text": "convenient replacement for computer programming programming"
+  },
+  {
+    "t_start": 1575.99,
+    "t_end": 1582.549,
+    "text": "computer programming programming language sign of"
+  },
+  {
+    "t_start": 1582.549,
+    "t_end": 1588.389,
+    "text": "nature before determining the the length of the spring nature looks around for"
+  },
+  {
+    "t_start": 1588.389,
+    "t_end": 1591.31,
+    "text": "of the spring nature looks around for all variables that might possibly affect"
+  },
+  {
+    "t_start": 1591.31,
+    "t_end": 1599.31,
+    "text": "all variables that might possibly affect the length look at the weight and say ah"
+  },
+  {
+    "t_start": 1599.31,
+    "t_end": 1602.51,
+    "text": "that is the one consult the weight on the spring and determine the ve the"
+  },
+  {
+    "t_start": 1602.51,
+    "t_end": 1611.95,
+    "text": "value of the length so this is the conception of physics nature looks at"
+  },
+  {
+    "t_start": 1611.95,
+    "t_end": 1615.63,
+    "text": "conception of physics nature looks at variables go to some process and then"
+  },
+  {
+    "t_start": 1615.63,
+    "t_end": 1621.47,
+    "text": "variables go to some process and then assign value on other"
+  },
+  {
+    "t_start": 1625.59,
+    "t_end": 1628.389,
+    "text": "variables if that is so when it requires a different kind of algebra because it"
+  },
+  {
+    "t_start": 1628.389,
+    "t_end": 1631.87,
+    "text": "a different kind of algebra because it involves wiping of equations and we"
+  },
+  {
+    "t_start": 1631.87,
+    "t_end": 1635.63,
+    "text": "involves wiping of equations and we signify that with in the graph instead"
+  },
+  {
+    "t_start": 1635.63,
+    "t_end": 1639.31,
+    "text": "signify that with in the graph instead of the assignment symbol with the arrow"
+  },
+  {
+    "t_start": 1639.31,
+    "t_end": 1646.149,
+    "text": "of the assignment symbol with the arrow that is the meaning of the arrows in the"
+  },
+  {
+    "t_start": 1646.149,
+    "t_end": 1651.23,
+    "text": "structural graph in caal graph it's a description of the recipes"
+  },
+  {
+    "t_start": 1651.23,
+    "t_end": 1657.35,
+    "text": "nature okay so I convince you now that physics is all about"
+  },
+  {
+    "t_start": 1657.35,
+    "t_end": 1659.51,
+    "text": "physics is all about counterfactuals I remember conversation"
+  },
+  {
+    "t_start": 1659.51,
+    "t_end": 1664.95,
+    "text": "counterfactuals I remember conversation that I have with someone who said you"
+  },
+  {
+    "t_start": 1664.95,
+    "t_end": 1668.59,
+    "text": "are kidding me it couldn't be anyhow that's my"
+  },
+  {
+    "t_start": 1668.59,
+    "t_end": 1670.83,
+    "text": "be anyhow that's my history"
+  },
+  {
+    "t_start": 1670.83,
+    "t_end": 1674.23,
+    "text": "history um"
+  },
+  {
+    "t_start": 1682.83,
+    "t_end": 1685.269,
+    "text": "the role of counterfactual and cation in human reasoning it not Escape many"
+  },
+  {
+    "t_start": 1685.269,
+    "t_end": 1688.63,
+    "text": "human reasoning it not Escape many philosophers already the time of the"
+  },
+  {
+    "t_start": 1688.63,
+    "t_end": 1695.549,
+    "text": "philosophers already the time of the Greek in um 430 BC democritos said I"
+  },
+  {
+    "t_start": 1695.549,
+    "t_end": 1697.43,
+    "text": "Greek in um 430 BC democritos said I would rather discover one C of"
+  },
+  {
+    "t_start": 1697.43,
+    "t_end": 1700.11,
+    "text": "would rather discover one C of relationship than be King of"
+  },
+  {
+    "t_start": 1700.11,
+    "t_end": 1703.83,
+    "text": "relationship than be King of Persia King of Persia at that time was"
+  },
+  {
+    "t_start": 1703.83,
+    "t_end": 1711.43,
+    "text": "exactly um a dangerous occupation like it is"
+  },
+  {
+    "t_start": 1714.59,
+    "t_end": 1717.63,
+    "text": "today and the Y of course looked at that with a puzzle and say what is this idea"
+  },
+  {
+    "t_start": 1717.63,
+    "t_end": 1721.509,
+    "text": "with a puzzle and say what is this idea of causation it I I got to solve it and"
+  },
+  {
+    "t_start": 1721.509,
+    "t_end": 1725.11,
+    "text": "of causation it I I got to solve it and he came out with that the with the"
+  },
+  {
+    "t_start": 1725.11,
+    "t_end": 1732.389,
+    "text": "conception that cation is not a gift of the Gods about something that we learn"
+  },
+  {
+    "t_start": 1732.389,
+    "t_end": 1735.149,
+    "text": "the Gods about something that we learn from experience and here this"
+  },
+  {
+    "t_start": 1735.149,
+    "t_end": 1741.549,
+    "text": "famous um paragraph We remember to have seen that species of objects called"
+  },
+  {
+    "t_start": 1741.549,
+    "t_end": 1746.59,
+    "text": "Flame and to have felt the species of Sensations we call heat without any"
+  },
+  {
+    "t_start": 1746.59,
+    "t_end": 1753.11,
+    "text": "further ceremony we call the one cause and the other effect so it's a matter of"
+  },
+  {
+    "t_start": 1753.11,
+    "t_end": 1757.11,
+    "text": "and the other effect so it's a matter of determining regularity in nature that"
+  },
+  {
+    "t_start": 1757.11,
+    "t_end": 1763.149,
+    "text": "makes us come up with a label cause there are difficulties to that of course"
+  },
+  {
+    "t_start": 1763.149,
+    "t_end": 1767.549,
+    "text": "there are difficulties to that of course but the idea that all philosophers have"
+  },
+  {
+    "t_start": 1767.549,
+    "t_end": 1770.63,
+    "text": "but the idea that all philosophers have um stumbled on the difficulty of"
+  },
+  {
+    "t_start": 1770.63,
+    "t_end": 1774.43,
+    "text": "um stumbled on the difficulty of explaining what causes brings us to ask"
+  },
+  {
+    "t_start": 1774.43,
+    "t_end": 1779.95,
+    "text": "explaining what causes brings us to ask what do we what gives us the audacity"
+  },
+  {
+    "t_start": 1779.95,
+    "t_end": 1784.19,
+    "text": "here in AI to think that we can add another Iota to this um long"
+  },
+  {
+    "t_start": 1784.19,
+    "t_end": 1787.029,
+    "text": "another Iota to this um long debate and the answer is"
+  },
+  {
+    "t_start": 1787.029,
+    "t_end": 1791.99,
+    "text": "debate and the answer is simply uh that we don't have the luxury"
+  },
+  {
+    "t_start": 1791.99,
+    "t_end": 1797.269,
+    "text": "philosophize we need to build robots that understand what went wrong in the"
+  },
+  {
+    "t_start": 1797.269,
+    "t_end": 1798.95,
+    "text": "that understand what went wrong in the laboratory or for the"
+  },
+  {
+    "t_start": 1798.95,
+    "t_end": 1804.149,
+    "text": "kitchen and uh we need to and if they don't learn it all by themselves we need"
+  },
+  {
+    "t_start": 1804.149,
+    "t_end": 1805.71,
+    "text": "don't learn it all by themselves we need to at least to have the option of"
+  },
+  {
+    "t_start": 1805.71,
+    "t_end": 1807.87,
+    "text": "to at least to have the option of teaching them the cause effect"
+  },
+  {
+    "t_start": 1807.87,
+    "t_end": 1814.19,
+    "text": "relationship in the environment by mentoring or by uh spending the time if"
+  },
+  {
+    "t_start": 1814.19,
+    "t_end": 1816.71,
+    "text": "mentoring or by uh spending the time if we have an understanding of what's going"
+  },
+  {
+    "t_start": 1816.71,
+    "t_end": 1823.19,
+    "text": "we have an understanding of what's going on to sit down and teach them what we"
+  },
+  {
+    "t_start": 1823.19,
+    "t_end": 1826.35,
+    "text": "know so that they can act properly and answer queries about cause"
+  },
+  {
+    "t_start": 1826.35,
+    "t_end": 1830.87,
+    "text": "properly and answer queries about cause effect relationship and this is not a"
+  },
+  {
+    "t_start": 1830.87,
+    "t_end": 1838.83,
+    "text": "say CU now the puzzles that philosophers face translate into engineering problems"
+  },
+  {
+    "t_start": 1838.83,
+    "t_end": 1844.23,
+    "text": "face translate into engineering problems the question of how do we acquire coder"
+  },
+  {
+    "t_start": 1844.23,
+    "t_end": 1850.389,
+    "text": "information from the environment is translated into how would a robot um"
+  },
+  {
+    "t_start": 1850.389,
+    "t_end": 1856.549,
+    "text": "environment and the question of how we people um come up with a label cause and"
+  },
+  {
+    "t_start": 1856.549,
+    "t_end": 1858.909,
+    "text": "people um come up with a label cause and effect translate into to how should a"
+  },
+  {
+    "t_start": 1858.909,
+    "t_end": 1860.789,
+    "text": "effect translate into to how should a robot use caal"
+  },
+  {
+    "t_start": 1860.789,
+    "t_end": 1867.23,
+    "text": "information re it from its creator programmer to understand or to answer"
+  },
+  {
+    "t_start": 1867.23,
+    "t_end": 1870.87,
+    "text": "programmer to understand or to answer queries properly and the second one"
+  },
+  {
+    "t_start": 1870.87,
+    "t_end": 1872.629,
+    "text": "queries properly and the second one although it looks trivial it's not"
+  },
+  {
+    "t_start": 1872.629,
+    "t_end": 1874.95,
+    "text": "although it looks trivial it's not really trivial because if you just"
+  },
+  {
+    "t_start": 1874.95,
+    "t_end": 1880.549,
+    "text": "follow the rules you get some unexpected result if you tell the if the input is"
+  },
+  {
+    "t_start": 1880.549,
+    "t_end": 1886.87,
+    "text": "you break this bottle the grass will get wet you don't want an output such as if"
+  },
+  {
+    "t_start": 1886.87,
+    "t_end": 1889.43,
+    "text": "wet you don't want an output such as if you break the bottle then it rained so"
+  },
+  {
+    "t_start": 1889.43,
+    "t_end": 1892.029,
+    "text": "you break the bottle then it rained so just rule chaining is not going to do"
+  },
+  {
+    "t_start": 1892.029,
+    "t_end": 1896.11,
+    "text": "just rule chaining is not going to do the work for you you need something more"
+  },
+  {
+    "t_start": 1896.11,
+    "t_end": 1898.149,
+    "text": "the work for you you need something more and what is that something"
+  },
+  {
+    "t_start": 1898.149,
+    "t_end": 1903.99,
+    "text": "more before we get there uh let's me give an outline of what I'm going to"
+  },
+  {
+    "t_start": 1903.99,
+    "t_end": 1905.629,
+    "text": "give an outline of what I'm going to talk about I'm going to talk about the"
+  },
+  {
+    "t_start": 1905.629,
+    "t_end": 1908.669,
+    "text": "talk about I'm going to talk about the three hierarchy three level hierarchy"
+  },
+  {
+    "t_start": 1908.669,
+    "t_end": 1915.11,
+    "text": "the questions which ranges from what if I see this is a probability and beliefs"
+  },
+  {
+    "t_start": 1915.11,
+    "t_end": 1918.629,
+    "text": "I see this is a probability and beliefs what if I do and then what if I did"
+  },
+  {
+    "t_start": 1918.629,
+    "t_end": 1921.669,
+    "text": "what if I do and then what if I did things differently which is a counter"
+  },
+  {
+    "t_start": 1921.669,
+    "t_end": 1926.99,
+    "text": "factor and if you want to decorate them with probability How likely the answer"
+  },
+  {
+    "t_start": 1926.99,
+    "t_end": 1933.83,
+    "text": "with probability How likely the answer is to be but that's not essential what"
+  },
+  {
+    "t_start": 1933.83,
+    "t_end": 1938.47,
+    "text": "if what is what if and why"
+  },
+  {
+    "t_start": 1942.549,
+    "t_end": 1945.99,
+    "text": "um now I'll give you a field report of the trip or the journey that we took"
+  },
+  {
+    "t_start": 1945.99,
+    "t_end": 1952.669,
+    "text": "the trip or the journey that we took from the old days of basan Network to ca"
+  },
+  {
+    "t_start": 1952.669,
+    "t_end": 1954.549,
+    "text": "and counterfactual okay we have to understand the distinction and the"
+  },
+  {
+    "t_start": 1954.549,
+    "t_end": 1960.269,
+    "text": "mental barrier that stand in our way and I'll talk about that we have to talk"
+  },
+  {
+    "t_start": 1960.269,
+    "t_end": 1962.669,
+    "text": "I'll talk about that we have to talk about what makes a causal Model A causal"
+  },
+  {
+    "t_start": 1962.669,
+    "t_end": 1965.389,
+    "text": "about what makes a causal Model A causal model as opposed to something else how"
+  },
+  {
+    "t_start": 1965.389,
+    "t_end": 1966.75,
+    "text": "model as opposed to something else how is it being"
+  },
+  {
+    "t_start": 1966.75,
+    "t_end": 1973.07,
+    "text": "tested and the two are connected if a model has a testable implication then"
+  },
+  {
+    "t_start": 1973.07,
+    "t_end": 1978.71,
+    "text": "model has a testable implication then you can hope to discover it from or"
+  },
+  {
+    "t_start": 1978.71,
+    "t_end": 1983.35,
+    "text": "a model that doesn't have any testable implication cannot be discovered from"
+  },
+  {
+    "t_start": 1983.35,
+    "t_end": 1991.029,
+    "text": "data so the two are connected then I'll talk about three um applications effect"
+  },
+  {
+    "t_start": 1991.029,
+    "t_end": 1993.07,
+    "text": "talk about three um applications effect of interventions the evolution of the DU"
+  },
+  {
+    "t_start": 1993.07,
+    "t_end": 1998.43,
+    "text": "calculus and the algorithmization of counterfactuals and then I'll talk about"
+  },
+  {
+    "t_start": 1998.43,
+    "t_end": 2000.23,
+    "text": "counterfactuals and then I'll talk about applications okay these are the three"
+  },
+  {
+    "t_start": 2000.23,
+    "t_end": 2002.59,
+    "text": "applications okay these are the three three tasks that were relatively"
+  },
+  {
+    "t_start": 2002.59,
+    "t_end": 2005.43,
+    "text": "three tasks that were relatively completely solved and"
+  },
+  {
+    "t_start": 2005.43,
+    "t_end": 2010.669,
+    "text": "theoretically uh and the application will involve evaluation of plans and"
+  },
+  {
+    "t_start": 2010.669,
+    "t_end": 2013.95,
+    "text": "will involve evaluation of plans and policies second mediation distinguishing"
+  },
+  {
+    "t_start": 2013.95,
+    "t_end": 2017.83,
+    "text": "policies second mediation distinguishing between direct and indirect CA and the"
+  },
+  {
+    "t_start": 2017.83,
+    "t_end": 2020.07,
+    "text": "third one is generalization"
+  },
+  {
+    "t_start": 2020.07,
+    "t_end": 2026.59,
+    "text": "which misspelling yeah which we going to talk Ellas is"
+  },
+  {
+    "t_start": 2026.59,
+    "t_end": 2031.19,
+    "text": "yeah which we going to talk Ellas is going to talk to you today in the"
+  },
+  {
+    "t_start": 2031.19,
+    "t_end": 2039.35,
+    "text": "statistics proper this is the Paradigm that overr tools that override"
+  },
+  {
+    "t_start": 2039.35,
+    "t_end": 2046.43,
+    "text": "statistical thinking and also machine learning the idea that some place behind"
+  },
+  {
+    "t_start": 2046.43,
+    "t_end": 2052.19,
+    "text": "learning the idea that some place behind the scenes there is a Santa Claus called"
+  },
+  {
+    "t_start": 2052.19,
+    "t_end": 2058.27,
+    "text": "distribution that occasionally when he or she is gracious enough split out data"
+  },
+  {
+    "t_start": 2058.27,
+    "t_end": 2062.79,
+    "text": "or she is gracious enough split out data and then our job is to infer properties"
+  },
+  {
+    "t_start": 2062.79,
+    "t_end": 2065.629,
+    "text": "and then our job is to infer properties of the Santa Claus namely Q of P some"
+  },
+  {
+    "t_start": 2065.629,
+    "t_end": 2068.109,
+    "text": "of the Santa Claus namely Q of P some aspect of the joint distrib tion"
+  },
+  {
+    "t_start": 2068.109,
+    "t_end": 2071.149,
+    "text": "aspect of the joint distrib tion function from the data estimate the"
+  },
+  {
+    "t_start": 2071.149,
+    "t_end": 2077.03,
+    "text": "mean or come up with a classifier or decide whether customers who bought"
+  },
+  {
+    "t_start": 2077.03,
+    "t_end": 2083.149,
+    "text": "product a would also buy product B you say that kind of question is neat and"
+  },
+  {
+    "t_start": 2083.149,
+    "t_end": 2087.349,
+    "text": "say that kind of question is neat and well formulized because it can be neatly"
+  },
+  {
+    "t_start": 2087.349,
+    "t_end": 2089.47,
+    "text": "well formulized because it can be neatly encapsulated in the language of"
+  },
+  {
+    "t_start": 2089.47,
+    "t_end": 2095.869,
+    "text": "probability Theory you even have a short sentence find the probability of B given"
+  },
+  {
+    "t_start": 2095.869,
+    "t_end": 2098.589,
+    "text": "sentence find the probability of B given a conditional probability"
+  },
+  {
+    "t_start": 2098.589,
+    "t_end": 2106.03,
+    "text": "coming all the way from 250 years ago rever Bas okay is nothing to it except"
+  },
+  {
+    "t_start": 2106.03,
+    "t_end": 2109.109,
+    "text": "rever Bas okay is nothing to it except the complexity of the problem Q can be"
+  },
+  {
+    "t_start": 2109.109,
+    "t_end": 2111.91,
+    "text": "the complexity of the problem Q can be very very complex a joint distribution"
+  },
+  {
+    "t_start": 2111.91,
+    "t_end": 2114.27,
+    "text": "very very complex a joint distribution can be defined on many many variables"
+  },
+  {
+    "t_start": 2114.27,
+    "t_end": 2117.15,
+    "text": "can be defined on many many variables okay continuous and binary and so on so"
+  },
+  {
+    "t_start": 2117.15,
+    "t_end": 2120.27,
+    "text": "okay continuous and binary and so on so it's not easy but the Paradigm is the"
+  },
+  {
+    "t_start": 2120.27,
+    "t_end": 2123.03,
+    "text": "it's not easy but the Paradigm is the same Cal reasoning deal with a different"
+  },
+  {
+    "t_start": 2123.03,
+    "t_end": 2125.75,
+    "text": "same Cal reasoning deal with a different Paradigm okay you ask a question for"
+  },
+  {
+    "t_start": 2125.75,
+    "t_end": 2128.03,
+    "text": "Paradigm okay you ask a question for instance in PH whether a customer who"
+  },
+  {
+    "t_start": 2128.03,
+    "t_end": 2134.43,
+    "text": "bought a would buy product B if we double the price so here we can get up"
+  },
+  {
+    "t_start": 2134.43,
+    "t_end": 2137.99,
+    "text": "double the price so here we can get up in the morning and we anticipate we"
+  },
+  {
+    "t_start": 2137.99,
+    "t_end": 2141.79,
+    "text": "in the morning and we anticipate we become uh whimsically greedy okay just"
+  },
+  {
+    "t_start": 2141.79,
+    "t_end": 2147.87,
+    "text": "become uh whimsically greedy okay just wonder what will happen if we raise the"
+  },
+  {
+    "t_start": 2147.87,
+    "t_end": 2151.23,
+    "text": "price and it we ask a question what would be how probability of B given a"
+  },
+  {
+    "t_start": 2151.23,
+    "t_end": 2153.63,
+    "text": "would be how probability of B given a and given that we do something that"
+  },
+  {
+    "t_start": 2153.63,
+    "t_end": 2158.71,
+    "text": "perhaps wasn't even done before we raise we double the price it's not even an"
+  },
+  {
+    "t_start": 2158.71,
+    "t_end": 2161.109,
+    "text": "we double the price it's not even an aspect of P because it's different than"
+  },
+  {
+    "t_start": 2161.109,
+    "t_end": 2163.71,
+    "text": "aspect of P because it's different than the conditional probability on p uh"
+  },
+  {
+    "t_start": 2163.71,
+    "t_end": 2166.99,
+    "text": "the conditional probability on p uh being double okay is a difference"
+  },
+  {
+    "t_start": 2166.99,
+    "t_end": 2171.43,
+    "text": "being double okay is a difference between um seeing the price doubled and"
+  },
+  {
+    "t_start": 2171.43,
+    "t_end": 2174.79,
+    "text": "between um seeing the price doubled and making it double here's the counteract"
+  },
+  {
+    "t_start": 2174.79,
+    "t_end": 2181.349,
+    "text": "making it double here's the counteract question had we doubled the price okay"
+  },
+  {
+    "t_start": 2181.349,
+    "t_end": 2184.109,
+    "text": "it is not aspect or property of the Fanta Clause Mr"
+  },
+  {
+    "t_start": 2184.109,
+    "t_end": 2191.03,
+    "text": "P so what is it it's a property of a data generating model that behind this"
+  },
+  {
+    "t_start": 2191.03,
+    "t_end": 2195.67,
+    "text": "data generating model that behind this The Joint probability yeah the joint"
+  },
+  {
+    "t_start": 2195.67,
+    "t_end": 2201.99,
+    "text": "probability spits out data yes we get those samples and we need to infer some"
+  },
+  {
+    "t_start": 2201.99,
+    "t_end": 2207.069,
+    "text": "those samples and we need to infer some property but of What Not of P but of the"
+  },
+  {
+    "t_start": 2207.069,
+    "t_end": 2210.75,
+    "text": "property but of What Not of P but of the data generating model this is the"
+  },
+  {
+    "t_start": 2210.75,
+    "t_end": 2213.069,
+    "text": "data generating model this is the invariance strategy of nature that I"
+  },
+  {
+    "t_start": 2213.069,
+    "t_end": 2215.63,
+    "text": "invariance strategy of nature that I talked to you before or sometimes called"
+  },
+  {
+    "t_start": 2215.63,
+    "t_end": 2219.109,
+    "text": "talked to you before or sometimes called mechanism recipe law or protocol or"
+  },
+  {
+    "t_start": 2219.109,
+    "t_end": 2222.19,
+    "text": "mechanism recipe law or protocol or counter factual by which nature assigns"
+  },
+  {
+    "t_start": 2222.19,
+    "t_end": 2225.829,
+    "text": "counter factual by which nature assigns values to variables in the"
+  },
+  {
+    "t_start": 2225.829,
+    "t_end": 2233.95,
+    "text": "analysis and the trick for us definitely it is a torture for such station but"
+  },
+  {
+    "t_start": 2233.95,
+    "t_end": 2239.99,
+    "text": "it's a trick it takes a little leap of imagination to think nature rather than"
+  },
+  {
+    "t_start": 2239.99,
+    "t_end": 2243.43,
+    "text": "imagination to think nature rather than experiment or rather than"
+  },
+  {
+    "t_start": 2243.43,
+    "t_end": 2249.589,
+    "text": "measurements it is a traumatic experience for people outside artificial"
+  },
+  {
+    "t_start": 2249.589,
+    "t_end": 2259.75,
+    "text": "experience for people outside artificial intelligence so I would like you to be"
+  },
+  {
+    "t_start": 2262.349,
+    "t_end": 2267.829,
+    "text": "there um let's generalize it let's imagine that the whole world is just a"
+  },
+  {
+    "t_start": 2267.829,
+    "t_end": 2273.63,
+    "text": "imagine that the whole world is just a collection of spring so it is um fueled"
+  },
+  {
+    "t_start": 2273.63,
+    "t_end": 2275.39,
+    "text": "collection of spring so it is um fueled by a collection of"
+  },
+  {
+    "t_start": 2275.39,
+    "t_end": 2281.79,
+    "text": "functions that assign value two variables here every VI in this um"
+  },
+  {
+    "t_start": 2281.79,
+    "t_end": 2284.19,
+    "text": "variables here every VI in this um trillion and one different variables is"
+  },
+  {
+    "t_start": 2284.19,
+    "t_end": 2287.23,
+    "text": "trillion and one different variables is being assigned a value that is a"
+  },
+  {
+    "t_start": 2287.23,
+    "t_end": 2291.349,
+    "text": "being assigned a value that is a function of the other VAR variables in"
+  },
+  {
+    "t_start": 2291.349,
+    "t_end": 2296.43,
+    "text": "function of the other VAR variables in the system some of them are exogenous"
+  },
+  {
+    "t_start": 2296.43,
+    "t_end": 2301.51,
+    "text": "you don't don't care about don't care about the explanation uh you care about"
+  },
+  {
+    "t_start": 2301.51,
+    "t_end": 2307.55,
+    "text": "endogenous and our job is to now encode this on the machine so that the machine"
+  },
+  {
+    "t_start": 2307.55,
+    "t_end": 2310.109,
+    "text": "this on the machine so that the machine can answer reasonable and"
+  },
+  {
+    "t_start": 2310.109,
+    "t_end": 2315.79,
+    "text": "plausible answers to our questions which were very reasonable what if you see the"
+  },
+  {
+    "t_start": 2315.79,
+    "t_end": 2318.589,
+    "text": "were very reasonable what if you see the sprinkler"
+  },
+  {
+    "t_start": 2321.95,
+    "t_end": 2329.27,
+    "text": "those fi in a linear case okay why is the sign a value after nature spend some"
+  },
+  {
+    "t_start": 2329.27,
+    "t_end": 2333.67,
+    "text": "the sign a value after nature spend some time maybe a bli of a second looking at"
+  },
+  {
+    "t_start": 2333.67,
+    "t_end": 2336.87,
+    "text": "time maybe a bli of a second looking at x multiplying by constant adding to it"
+  },
+  {
+    "t_start": 2336.87,
+    "t_end": 2339.67,
+    "text": "x multiplying by constant adding to it some noise and deciding that y deserves"
+  },
+  {
+    "t_start": 2339.67,
+    "t_end": 2344.39,
+    "text": "some noise and deciding that y deserves a value small y great work ladies"
+  },
+  {
+    "t_start": 2344.39,
+    "t_end": 2348.829,
+    "text": "a value small y great work ladies nature and um our job is"
+  },
+  {
+    "t_start": 2348.829,
+    "t_end": 2353.75,
+    "text": "nature and um our job is to un encipher or decipher the mapping"
+  },
+  {
+    "t_start": 2353.75,
+    "t_end": 2357.27,
+    "text": "to un encipher or decipher the mapping of nature but that is very ambitious at"
+  },
+  {
+    "t_start": 2357.27,
+    "t_end": 2358.95,
+    "text": "of nature but that is very ambitious at least we should be able to answer"
+  },
+  {
+    "t_start": 2358.95,
+    "t_end": 2361.63,
+    "text": "least we should be able to answer counterfactual queries if we have data"
+  },
+  {
+    "t_start": 2361.63,
+    "t_end": 2362.71,
+    "text": "counterfactual queries if we have data from"
+  },
+  {
+    "t_start": 2362.71,
+    "t_end": 2368.27,
+    "text": "nature we all familiar with the circuit diagram this is a an oracle for"
+  },
+  {
+    "t_start": 2368.27,
+    "t_end": 2370.309,
+    "text": "diagram this is a an oracle for counterfactual because if you look at"
+  },
+  {
+    "t_start": 2370.309,
+    "t_end": 2371.67,
+    "text": "counterfactual because if you look at the circuit you can answer"
+  },
+  {
+    "t_start": 2371.67,
+    "t_end": 2373.87,
+    "text": "the circuit you can answer counterfactual question what if I were"
+  },
+  {
+    "t_start": 2373.87,
+    "t_end": 2379.15,
+    "text": "counterfactual question what if I were to change this orgate with an endgate or"
+  },
+  {
+    "t_start": 2379.15,
+    "t_end": 2381.87,
+    "text": "what if I were to connect this y to a power supply of three and a half volts"
+  },
+  {
+    "t_start": 2381.87,
+    "t_end": 2384.87,
+    "text": "power supply of three and a half volts even though the designer of the circuit"
+  },
+  {
+    "t_start": 2384.87,
+    "t_end": 2387.87,
+    "text": "even though the designer of the circuit never anticipated such"
+  },
+  {
+    "t_start": 2387.87,
+    "t_end": 2393.309,
+    "text": "crazy uh questions and such crazy event that connecting it to a power supply"
+  },
+  {
+    "t_start": 2393.309,
+    "t_end": 2396.43,
+    "text": "that connecting it to a power supply okay the engineer glancing at the"
+  },
+  {
+    "t_start": 2396.43,
+    "t_end": 2402.03,
+    "text": "okay the engineer glancing at the circuit has a ability to contemplate the"
+  },
+  {
+    "t_start": 2402.03,
+    "t_end": 2407.109,
+    "text": "correctly so where it all comes from it's coming from some"
+  },
+  {
+    "t_start": 2407.109,
+    "t_end": 2409.91,
+    "text": "it's coming from some fundamental properties of this"
+  },
+  {
+    "t_start": 2409.91,
+    "t_end": 2413.15,
+    "text": "fundamental properties of this collection of"
+  },
+  {
+    "t_start": 2415.67,
+    "t_end": 2421.99,
+    "text": "one from which everything else eventually derives is that if you happen"
+  },
+  {
+    "t_start": 2421.99,
+    "t_end": 2425.589,
+    "text": "eventually derives is that if you happen to have you be lucky and your equations"
+  },
+  {
+    "t_start": 2425.589,
+    "t_end": 2433.109,
+    "text": "recursive no s no Cycles there and the disturbances happen to be independent of"
+  },
+  {
+    "t_start": 2433.109,
+    "t_end": 2435.67,
+    "text": "disturbances happen to be independent of each other then regardless of the"
+  },
+  {
+    "t_start": 2435.67,
+    "t_end": 2438.15,
+    "text": "each other then regardless of the functions that you have there and"
+  },
+  {
+    "t_start": 2438.15,
+    "t_end": 2440.349,
+    "text": "functions that you have there and regardless of the distributions of"
+  },
+  {
+    "t_start": 2440.349,
+    "t_end": 2445.109,
+    "text": "disturbances you can say something about the probability distribution of What You"
+  },
+  {
+    "t_start": 2445.109,
+    "t_end": 2452.51,
+    "text": "observe so the structure of that um collection of Springs determin something"
+  },
+  {
+    "t_start": 2452.51,
+    "t_end": 2455.03,
+    "text": "collection of Springs determin something very basic in your distribution function"
+  },
+  {
+    "t_start": 2455.03,
+    "t_end": 2458.19,
+    "text": "very basic in your distribution function which is a product form which is"
+  },
+  {
+    "t_start": 2458.19,
+    "t_end": 2461.309,
+    "text": "which is a product form which is conditional independencies okay and from"
+  },
+  {
+    "t_start": 2461.309,
+    "t_end": 2462.829,
+    "text": "conditional independencies okay and from that"
+  },
+  {
+    "t_start": 2462.829,
+    "t_end": 2468.109,
+    "text": "that comes the next corollary is your ability"
+  },
+  {
+    "t_start": 2468.109,
+    "t_end": 2474.47,
+    "text": "answer questions about interventions once you have this product"
+  },
+  {
+    "t_start": 2474.47,
+    "t_end": 2481.109,
+    "text": "interventions once you have this product if somebody asks you and what if I do an"
+  },
+  {
+    "t_start": 2481.109,
+    "t_end": 2483.51,
+    "text": "action you just simply take a truncated product it's called manipulation theor"
+  },
+  {
+    "t_start": 2483.51,
+    "t_end": 2489.71,
+    "text": "product it's called manipulation theor or truncated factorization it's the same"
+  },
+  {
+    "t_start": 2489.71,
+    "t_end": 2491.91,
+    "text": "product form but you delete from the product those variables which were"
+  },
+  {
+    "t_start": 2491.91,
+    "t_end": 2498.47,
+    "text": "forced to a constant because they do not no longer listen to their parents here's"
+  },
+  {
+    "t_start": 2498.47,
+    "t_end": 2501.87,
+    "text": "no longer listen to their parents here's our sprinkler example"
+  },
+  {
+    "t_start": 2501.87,
+    "t_end": 2509.51,
+    "text": "again if you have um all before you act you have uh the composition according to"
+  },
+  {
+    "t_start": 2509.51,
+    "t_end": 2513.309,
+    "text": "you have uh the composition according to this diamond shape and this written down"
+  },
+  {
+    "t_start": 2513.309,
+    "t_end": 2518.55,
+    "text": "this diamond shape and this written down by the product that you find there a"
+  },
+  {
+    "t_start": 2518.55,
+    "t_end": 2520.829,
+    "text": "product of a variable given exper very will given experiment nothing special"
+  },
+  {
+    "t_start": 2520.829,
+    "t_end": 2526.75,
+    "text": "about it but if you do make take an action like turn the sprinkler on you"
+  },
+  {
+    "t_start": 2526.75,
+    "t_end": 2533.03,
+    "text": "action like turn the sprinkler on you delete that process from the discussion"
+  },
+  {
+    "t_start": 2533.03,
+    "t_end": 2536.309,
+    "text": "delete that process from the discussion because Mr Sprinkler no longer listens"
+  },
+  {
+    "t_start": 2536.309,
+    "t_end": 2542.39,
+    "text": "to the season Mr sprink become enslaved to your muscles when you turn it on so"
+  },
+  {
+    "t_start": 2542.39,
+    "t_end": 2544.27,
+    "text": "to your muscles when you turn it on so it's replaced by a constant and let me"
+  },
+  {
+    "t_start": 2544.27,
+    "t_end": 2549.27,
+    "text": "it's replaced by a constant and let me see now so I I have pun 12 minutes left"
+  },
+  {
+    "t_start": 2549.27,
+    "t_end": 2551.23,
+    "text": "see now so I I have pun 12 minutes left I'll go a little faster than I"
+  },
+  {
+    "t_start": 2551.23,
+    "t_end": 2554.309,
+    "text": "I'll go a little faster than I anticipated but you are so attentive I"
+  },
+  {
+    "t_start": 2554.309,
+    "t_end": 2559.549,
+    "text": "hate to disappoint you I have so many nice stories to tell you it was a nice"
+  },
+  {
+    "t_start": 2559.549,
+    "t_end": 2565.549,
+    "text": "nice stories to tell you it was a nice journey I must tell you um okay so we"
+  },
+  {
+    "t_start": 2565.549,
+    "t_end": 2570.99,
+    "text": "have now a formalism for action and it didn't germanate in AI it"
+  },
+  {
+    "t_start": 2570.99,
+    "t_end": 2574.71,
+    "text": "action and it didn't germanate in AI it originated with the economist havmore in"
+  },
+  {
+    "t_start": 2574.71,
+    "t_end": 2581.91,
+    "text": "originated with the economist havmore in 1943 had the idea of uh how would you"
+  },
+  {
+    "t_start": 2581.91,
+    "t_end": 2584.19,
+    "text": "model government intervention in the economy like fixing price or fix or"
+  },
+  {
+    "t_start": 2584.19,
+    "t_end": 2588.23,
+    "text": "economy like fixing price or fix or imposing taxes and he has the idea you"
+  },
+  {
+    "t_start": 2588.23,
+    "t_end": 2589.91,
+    "text": "have an equation there and the government does something to keep the"
+  },
+  {
+    "t_start": 2589.91,
+    "t_end": 2595.829,
+    "text": "price constant here the Conant add to it another Force to balance other forces so"
+  },
+  {
+    "t_start": 2595.829,
+    "t_end": 2598.43,
+    "text": "another Force to balance other forces so that R I will remain constant okay later"
+  },
+  {
+    "t_start": 2598.43,
+    "t_end": 2603.15,
+    "text": "that R I will remain constant okay later on it came it um was replaced by St W"
+  },
+  {
+    "t_start": 2603.15,
+    "t_end": 2604.95,
+    "text": "on it came it um was replaced by St W into wipe out an equation replace it"
+  },
+  {
+    "t_start": 2604.95,
+    "t_end": 2609.27,
+    "text": "into wipe out an equation replace it with a constant and then SP and"
+  },
+  {
+    "t_start": 2609.27,
+    "t_end": 2613.109,
+    "text": "with a constant and then SP and Glo translated into a graphical surgery"
+  },
+  {
+    "t_start": 2613.109,
+    "t_end": 2616.27,
+    "text": "Glo translated into a graphical surgery procedure that you wipe out the errors"
+  },
+  {
+    "t_start": 2616.27,
+    "t_end": 2620.67,
+    "text": "procedure that you wipe out the errors going into the manipulated variable and"
+  },
+  {
+    "t_start": 2620.67,
+    "t_end": 2624.87,
+    "text": "going into the manipulated variable and um that led to the truncated"
+  },
+  {
+    "t_start": 2624.87,
+    "t_end": 2627.43,
+    "text": "um that led to the truncated factorization and I took it very"
+  },
+  {
+    "t_start": 2627.43,
+    "t_end": 2633.069,
+    "text": "seriously and said no we have a new calculus here that deserve algebraic"
+  },
+  {
+    "t_start": 2633.069,
+    "t_end": 2640.63,
+    "text": "calculus here that deserve algebraic support and translated that into a do"
+  },
+  {
+    "t_start": 2640.63,
+    "t_end": 2643.39,
+    "text": "calculus and then we apply that to counterfactual so that is the evolution"
+  },
+  {
+    "t_start": 2643.39,
+    "t_end": 2648.309,
+    "text": "counterfactual so that is the evolution of these ideas I'll go a little and now"
+  },
+  {
+    "t_start": 2648.309,
+    "t_end": 2653.71,
+    "text": "we have unification with the Neiman Ruben uh camp in statistics which"
+  },
+  {
+    "t_start": 2653.71,
+    "t_end": 2657.99,
+    "text": "Ruben uh camp in statistics which also handling causality by counter"
+  },
+  {
+    "t_start": 2657.99,
+    "t_end": 2663.51,
+    "text": "also handling causality by counter factures uh so how counteracts are being"
+  },
+  {
+    "t_start": 2663.51,
+    "t_end": 2666.19,
+    "text": "handled what is the model for counterfactual it's very simple you"
+  },
+  {
+    "t_start": 2666.19,
+    "t_end": 2671.67,
+    "text": "mutilate your mod model to take care of the antecedent of the counteract and you"
+  },
+  {
+    "t_start": 2671.67,
+    "t_end": 2673.43,
+    "text": "the antecedent of the counteract and you solve the equation in the mutilated"
+  },
+  {
+    "t_start": 2673.43,
+    "t_end": 2678.71,
+    "text": "model there's nothing else to it EMB barrly simple from this you can get this"
+  },
+  {
+    "t_start": 2678.71,
+    "t_end": 2681.069,
+    "text": "barrly simple from this you can get this is I'm just expressing symbolically what"
+  },
+  {
+    "t_start": 2681.069,
+    "t_end": 2687.79,
+    "text": "is I'm just expressing symbolically what I said here in the English sentence and"
+  },
+  {
+    "t_start": 2687.79,
+    "t_end": 2693.309,
+    "text": "possession now of a calculus because you have semantic for joint counteraction"
+  },
+  {
+    "t_start": 2693.309,
+    "t_end": 2701.15,
+    "text": "for any sets of variables you can find the joint probability of the Y taking a"
+  },
+  {
+    "t_start": 2701.15,
+    "t_end": 2704.15,
+    "text": "the joint probability of the Y taking a value small y had X been small X and"
+  },
+  {
+    "t_start": 2704.15,
+    "t_end": 2707.67,
+    "text": "value small y had X been small X and simultaneously Z taking value small Z"
+  },
+  {
+    "t_start": 2707.67,
+    "t_end": 2714.95,
+    "text": "had W taking anything you can figure any sentence you have can you have now the"
+  },
+  {
+    "t_start": 2714.95,
+    "t_end": 2717.71,
+    "text": "sentence you have can you have now the semantics for finding the probability of"
+  },
+  {
+    "t_start": 2717.71,
+    "t_end": 2721.15,
+    "text": "semantics for finding the probability of that joint convoluted sentence it's"
+  },
+  {
+    "t_start": 2721.15,
+    "t_end": 2727.19,
+    "text": "rarely appeals appears in the sentence that we have to cope with specifically s"
+  },
+  {
+    "t_start": 2727.19,
+    "t_end": 2731.23,
+    "text": "that we have to cope with specifically s as involving actions with the do and"
+  },
+  {
+    "t_start": 2731.23,
+    "t_end": 2733.79,
+    "text": "as involving actions with the do and section senten involving"
+  },
+  {
+    "t_start": 2733.79,
+    "t_end": 2739.03,
+    "text": "attribution what what the likelihood that a patient would be alive today had"
+  },
+  {
+    "t_start": 2739.03,
+    "t_end": 2743.71,
+    "text": "that a patient would be alive today had he not taken the drug given that in fact"
+  },
+  {
+    "t_start": 2743.71,
+    "t_end": 2748.27,
+    "text": "drug that's a sentence in the language the semantic is there if you have the"
+  },
+  {
+    "t_start": 2748.27,
+    "t_end": 2750.309,
+    "text": "the semantic is there if you have the model compute everybody knows how to"
+  },
+  {
+    "t_start": 2750.309,
+    "t_end": 2752.87,
+    "text": "model compute everybody knows how to solve equations right maatic is"
+  },
+  {
+    "t_start": 2752.87,
+    "t_end": 2758.19,
+    "text": "solve equations right maatic is extremely simple and Jo h student Galax"
+  },
+  {
+    "t_start": 2758.19,
+    "t_end": 2760.95,
+    "text": "extremely simple and Jo h student Galax came up with a complete accomidation of"
+  },
+  {
+    "t_start": 2760.95,
+    "t_end": 2765.91,
+    "text": "came up with a complete accomidation of them why do we need oiz so that if"
+  },
+  {
+    "t_start": 2765.91,
+    "t_end": 2768.23,
+    "text": "anybody said he can do contactual differently or very we just compare the"
+  },
+  {
+    "t_start": 2768.23,
+    "t_end": 2772.51,
+    "text": "differently or very we just compare the acent and say no it's logically"
+  },
+  {
+    "t_start": 2772.51,
+    "t_end": 2778.829,
+    "text": "equivalent um and then uh the working horse is a composition which tells you"
+  },
+  {
+    "t_start": 2778.829,
+    "t_end": 2781.589,
+    "text": "horse is a composition which tells you that if you uh do something that would"
+  },
+  {
+    "t_start": 2781.589,
+    "t_end": 2783.27,
+    "text": "that if you uh do something that would have occurred anyhow you haven't done a"
+  },
+  {
+    "t_start": 2783.27,
+    "t_end": 2786.75,
+    "text": "have occurred anyhow you haven't done a thing that is essentially sentence the"
+  },
+  {
+    "t_start": 2786.75,
+    "t_end": 2792.109,
+    "text": "same says that our world is closest to our world than any other possible world"
+  },
+  {
+    "t_start": 2792.109,
+    "t_end": 2797.109,
+    "text": "our world than any other possible world you go to the uh the possible World"
+  },
+  {
+    "t_start": 2797.109,
+    "t_end": 2799.75,
+    "text": "you go to the uh the possible World interpretation of this I'll give you an"
+  },
+  {
+    "t_start": 2799.75,
+    "t_end": 2804.19,
+    "text": "interpretation of this I'll give you an example of what you can do with"
+  },
+  {
+    "t_start": 2804.19,
+    "t_end": 2806.349,
+    "text": "it a bunch of equations you think then nature works like that okay first"
+  },
+  {
+    "t_start": 2806.349,
+    "t_end": 2811.15,
+    "text": "question you have to ask yourself is it testable does it have any testable"
+  },
+  {
+    "t_start": 2811.15,
+    "t_end": 2815.19,
+    "text": "implication but I said before if it doesn't have test test you cannot learn"
+  },
+  {
+    "t_start": 2815.19,
+    "t_end": 2818.03,
+    "text": "doesn't have test test you cannot learn it and the here is very simple"
+  },
+  {
+    "t_start": 2818.03,
+    "t_end": 2819.99,
+    "text": "it and the here is very simple everything that we did with beijan net"
+  },
+  {
+    "t_start": 2819.99,
+    "t_end": 2826.309,
+    "text": "everything that we did with beijan net translate now into causal beijan net and"
+  },
+  {
+    "t_start": 2826.309,
+    "t_end": 2829.549,
+    "text": "the this oparation gives you a finite set of testable implication just look at"
+  },
+  {
+    "t_start": 2829.549,
+    "t_end": 2832.19,
+    "text": "set of testable implication just look at the missing arrows everyone carries"
+  },
+  {
+    "t_start": 2832.19,
+    "t_end": 2836.349,
+    "text": "the missing arrows everyone carries promise for a test and if it fails the"
+  },
+  {
+    "t_start": 2836.349,
+    "t_end": 2842.19,
+    "text": "wrong what else it can do for you it can answer intervention it's Oracle for"
+  },
+  {
+    "t_start": 2842.19,
+    "t_end": 2847.03,
+    "text": "intervention so if you have a question such as find the average causal effect"
+  },
+  {
+    "t_start": 2847.03,
+    "t_end": 2855.549,
+    "text": "of X or Y given that you can measure variables W1 Z1 and so on and can you do"
+  },
+  {
+    "t_start": 2855.549,
+    "t_end": 2857.79,
+    "text": "variables W1 Z1 and so on and can you do it without manipulation just by"
+  },
+  {
+    "t_start": 2857.79,
+    "t_end": 2863.15,
+    "text": "observation and the answer is yes if you can adjust for this variable age"
+  },
+  {
+    "t_start": 2863.15,
+    "t_end": 2866.43,
+    "text": "can adjust for this variable age ethnicity and others okay then you are"
+  },
+  {
+    "t_start": 2866.43,
+    "t_end": 2869.109,
+    "text": "ethnicity and others okay then you are guaranteed that you can answer the"
+  },
+  {
+    "t_start": 2869.109,
+    "t_end": 2871.309,
+    "text": "guaranteed that you can answer the queries without"
+  },
+  {
+    "t_start": 2871.309,
+    "t_end": 2876.43,
+    "text": "bias uh by simple adjustment by regression but of course it built on the"
+  },
+  {
+    "t_start": 2876.43,
+    "t_end": 2880.03,
+    "text": "regression but of course it built on the assumption encoded in the graph each one"
+  },
+  {
+    "t_start": 2880.03,
+    "t_end": 2882.829,
+    "text": "assumption encoded in the graph each one is Missing Link is a Assumption of"
+  },
+  {
+    "t_start": 2882.829,
+    "t_end": 2886.75,
+    "text": "is Missing Link is a Assumption of causal nature not of statistical nature"
+  },
+  {
+    "t_start": 2886.75,
+    "t_end": 2892.109,
+    "text": "causal nature not of statistical nature so let's take another example here's a"
+  },
+  {
+    "t_start": 2892.109,
+    "t_end": 2894.109,
+    "text": "difficult one suppose we wish to estimate the average qual effect effect"
+  },
+  {
+    "t_start": 2894.109,
+    "t_end": 2896.39,
+    "text": "estimate the average qual effect effect and which variable should"
+  },
+  {
+    "t_start": 2896.39,
+    "t_end": 2901.549,
+    "text": "be and we have we are allowed only one measurement it turns out that this one"
+  },
+  {
+    "t_start": 2901.549,
+    "t_end": 2903.47,
+    "text": "measurement it turns out that this one will do the job for you for those of you"
+  },
+  {
+    "t_start": 2903.47,
+    "t_end": 2905.39,
+    "text": "will do the job for you for those of you who know the front door Criterion this"
+  },
+  {
+    "t_start": 2905.39,
+    "t_end": 2912.27,
+    "text": "is the front door Criterion okay here's an example which is highly"
+  },
+  {
+    "t_start": 2912.27,
+    "t_end": 2921.27,
+    "text": "a medicine sports medicine business and you wonder whether warm up is a cause of"
+  },
+  {
+    "t_start": 2921.27,
+    "t_end": 2924.95,
+    "text": "you wonder whether warm up is a cause of injury or prevents injuries in the game"
+  },
+  {
+    "t_start": 2924.95,
+    "t_end": 2926.63,
+    "text": "injury or prevents injuries in the game it's extremely important question for"
+  },
+  {
+    "t_start": 2926.63,
+    "t_end": 2933.71,
+    "text": "our society for our culture right uh well here's the measurement you can take"
+  },
+  {
+    "t_start": 2933.71,
+    "t_end": 2934.789,
+    "text": "well here's the measurement you can take about"
+  },
+  {
+    "t_start": 2934.789,
+    "t_end": 2940.27,
+    "text": "the previous injury team aggressiveness and so on which one"
+  },
+  {
+    "t_start": 2940.27,
+    "t_end": 2947.309,
+    "text": "team aggressiveness and so on which one would you measure each one takes a lot"
+  },
+  {
+    "t_start": 2947.309,
+    "t_end": 2950.549,
+    "text": "of dollars to measure and the answer is answer is given to you"
+  },
+  {
+    "t_start": 2950.549,
+    "t_end": 2952.67,
+    "text": "is answer is given to you automatically thou should measure this"
+  },
+  {
+    "t_start": 2952.67,
+    "t_end": 2956.95,
+    "text": "and you're okay th can measure th should not measure that because you would get"
+  },
+  {
+    "t_start": 2956.95,
+    "t_end": 2959.109,
+    "text": "not measure that because you would get biased thou should measure that it's"
+  },
+  {
+    "t_start": 2959.109,
+    "t_end": 2961.51,
+    "text": "biased thou should measure that it's fine here is another alternative and so"
+  },
+  {
+    "t_start": 2961.51,
+    "t_end": 2965.23,
+    "text": "fine here is another alternative and so on so you can pick up the measurements"
+  },
+  {
+    "t_start": 2965.23,
+    "t_end": 2966.99,
+    "text": "according to their cost and their reliability"
+  },
+  {
+    "t_start": 2966.99,
+    "t_end": 2973.789,
+    "text": "uh and here's the engine that drives that uh answering"
+  },
+  {
+    "t_start": 2973.789,
+    "t_end": 2976.069,
+    "text": "that uh answering mechanism four"
+  },
+  {
+    "t_start": 2976.069,
+    "t_end": 2981.43,
+    "text": "minutes what one can accomplish in four minutes you will see so here's the"
+  },
+  {
+    "t_start": 2981.43,
+    "t_end": 2985.43,
+    "text": "minutes you will see so here's the engine three rules that takes in a graph"
+  },
+  {
+    "t_start": 2985.43,
+    "t_end": 2988.309,
+    "text": "engine three rules that takes in a graph and apply them repeatedly and gives you"
+  },
+  {
+    "t_start": 2988.309,
+    "t_end": 2990.95,
+    "text": "and apply them repeatedly and gives you the answer here's an example that"
+  },
+  {
+    "t_start": 2990.95,
+    "t_end": 2993.109,
+    "text": "the answer here's an example that smoking cause cancer the question is"
+  },
+  {
+    "t_start": 2993.109,
+    "t_end": 3000.15,
+    "text": "given to you with a causal assist symbol a red symbol is if I do we don't have"
+  },
+  {
+    "t_start": 3000.15,
+    "t_end": 3002.829,
+    "text": "a red symbol is if I do we don't have doing we cannot conduct randomized"
+  },
+  {
+    "t_start": 3002.829,
+    "t_end": 3007.43,
+    "text": "experiments on smokers so we have to do it analytically we apply the rules on"
+  },
+  {
+    "t_start": 3007.43,
+    "t_end": 3013.309,
+    "text": "one after the other Z we got rid of all the purple symbols if we get rid of the"
+  },
+  {
+    "t_start": 3013.309,
+    "t_end": 3015.99,
+    "text": "the purple symbols if we get rid of the red symbols it turns out you can do it"
+  },
+  {
+    "t_start": 3015.99,
+    "t_end": 3020.27,
+    "text": "red symbols it turns out you can do it by hands off passive observation and you"
+  },
+  {
+    "t_start": 3020.27,
+    "t_end": 3027.63,
+    "text": "by hands off passive observation and you you can answer the question yes or no"
+  },
+  {
+    "t_start": 3027.63,
+    "t_end": 3032.75,
+    "text": "this is how much smoking causes cancer um what else can I do for you I'll skip"
+  },
+  {
+    "t_start": 3032.75,
+    "t_end": 3034.43,
+    "text": "that find equivalent model identify counterfactual"
+  },
+  {
+    "t_start": 3034.43,
+    "t_end": 3040.39,
+    "text": "queries um mediation which I will have time to talk about I'm sure find causes"
+  },
+  {
+    "t_start": 3040.39,
+    "t_end": 3043.91,
+    "text": "time to talk about I'm sure find causes of effect explanation and"
+  },
+  {
+    "t_start": 3043.91,
+    "t_end": 3051.71,
+    "text": "transportability which Alias is going to talk to you about with this poster at 4"
+  },
+  {
+    "t_start": 3051.71,
+    "t_end": 3054.39,
+    "text": "P.M today namely generalizing what you learn from one domain into another"
+  },
+  {
+    "t_start": 3054.39,
+    "t_end": 3061.75,
+    "text": "domain in which you can not conduct any experiments okay um counterfactual is"
+  },
+  {
+    "t_start": 3061.75,
+    "t_end": 3064.309,
+    "text": "experiments okay um counterfactual is very interesting"
+  },
+  {
+    "t_start": 3064.309,
+    "t_end": 3070.15,
+    "text": "very interesting because philosophers have gone through a"
+  },
+  {
+    "t_start": 3070.15,
+    "t_end": 3072.47,
+    "text": "great pain and to"
+  },
+  {
+    "t_start": 3072.47,
+    "t_end": 3079.109,
+    "text": "understand why we form consensus about counterfactuals here is a typical"
+  },
+  {
+    "t_start": 3079.109,
+    "t_end": 3084.91,
+    "text": "example if I tell you this couple of sentences you'll tell me yes yes yes on"
+  },
+  {
+    "t_start": 3084.91,
+    "t_end": 3090.309,
+    "text": "sentences you'll tell me yes yes yes on the first one and no no no on the other"
+  },
+  {
+    "t_start": 3090.309,
+    "t_end": 3095.39,
+    "text": "form a consensus how can we do that and that was a puzzle for many uh philosophy"
+  },
+  {
+    "t_start": 3095.39,
+    "t_end": 3097.87,
+    "text": "that was a puzzle for many uh philosophy yum tried to explain causes in terms of"
+  },
+  {
+    "t_start": 3097.87,
+    "t_end": 3100.47,
+    "text": "yum tried to explain causes in terms of counterfactual and David Lewis tried to"
+  },
+  {
+    "t_start": 3100.47,
+    "t_end": 3106.589,
+    "text": "explain the pz that I face was different how come they try to Define why how come"
+  },
+  {
+    "t_start": 3106.589,
+    "t_end": 3111.19,
+    "text": "how come they try to Define why how come he don't try to Define contact in terms"
+  },
+  {
+    "t_start": 3111.19,
+    "t_end": 3114.19,
+    "text": "of causes but the other way around are contactual less problematic apparently"
+  },
+  {
+    "t_start": 3114.19,
+    "t_end": 3119.51,
+    "text": "contactual less problematic apparently so because we do form consensus on"
+  },
+  {
+    "t_start": 3119.51,
+    "t_end": 3122.589,
+    "text": "contact and even these two pillars of philosophy try to Define caes in terms"
+  },
+  {
+    "t_start": 3122.589,
+    "t_end": 3129.309,
+    "text": "philosophy try to Define caes in terms of contact it means that we do have here"
+  },
+  {
+    "t_start": 3129.309,
+    "t_end": 3132.03,
+    "text": "a counterfactual engine that is Swift and reliable and we form consensus"
+  },
+  {
+    "t_start": 3132.03,
+    "t_end": 3137.71,
+    "text": "because we share the architecture of this engine so this is an AI problem not"
+  },
+  {
+    "t_start": 3137.71,
+    "t_end": 3139.789,
+    "text": "this engine so this is an AI problem not a philosophy"
+  },
+  {
+    "t_start": 3139.789,
+    "t_end": 3145.87,
+    "text": "problem indeed what Lou came up with were the possible World semantics for"
+  },
+  {
+    "t_start": 3145.87,
+    "t_end": 3149.39,
+    "text": "were the possible World semantics for counteraction which relies on assessing"
+  },
+  {
+    "t_start": 3149.39,
+    "t_end": 3155.67,
+    "text": "counteraction which relies on assessing how close is the world after Nixon"
+  },
+  {
+    "t_start": 3155.67,
+    "t_end": 3160.39,
+    "text": "presses the button to a world in which we are alive as opposed to a world in"
+  },
+  {
+    "t_start": 3160.39,
+    "t_end": 3165.43,
+    "text": "which Nixon pressed the button and somebody disconnected the um the Wilds"
+  },
+  {
+    "t_start": 3165.43,
+    "t_end": 3172.069,
+    "text": "okay uh that is a typical question in philosophy assessment how similar worlds"
+  },
+  {
+    "t_start": 3172.069,
+    "t_end": 3178.47,
+    "text": "philosophy assessment how similar worlds are in this structure where you don't"
+  },
+  {
+    "t_start": 3178.47,
+    "t_end": 3181.71,
+    "text": "rely on a similarity among world you rely on equations which are common"
+  },
+  {
+    "t_start": 3181.71,
+    "t_end": 3185.549,
+    "text": "rely on equations which are common equation of physics and mutilating those"
+  },
+  {
+    "t_start": 3185.549,
+    "t_end": 3192.75,
+    "text": "equation of physics and mutilating those equation I will not have time to talk"
+  },
+  {
+    "t_start": 3192.75,
+    "t_end": 3197.75,
+    "text": "which is the ability to distinguish between direct and indirect effect and"
+  },
+  {
+    "t_start": 3197.75,
+    "t_end": 3203.309,
+    "text": "it's important because we talk like that we send people to prison because they're"
+  },
+  {
+    "t_start": 3203.309,
+    "t_end": 3206.23,
+    "text": "we send people to prison because they're directly responsible for murder or only"
+  },
+  {
+    "t_start": 3206.23,
+    "t_end": 3213.789,
+    "text": "in IND directly responsible so it's it it matters very much in our society and"
+  },
+  {
+    "t_start": 3213.789,
+    "t_end": 3216.109,
+    "text": "it matters very much in our society and it gives us the ability to answer"
+  },
+  {
+    "t_start": 3216.109,
+    "t_end": 3217.309,
+    "text": "it gives us the ability to answer question about different kind of"
+  },
+  {
+    "t_start": 3217.309,
+    "t_end": 3219.99,
+    "text": "question about different kind of intervention intervention where you able"
+  },
+  {
+    "t_start": 3219.99,
+    "t_end": 3226.549,
+    "text": "intervention intervention where you able and disable certain mechanism rather"
+  },
+  {
+    "t_start": 3226.549,
+    "t_end": 3233.309,
+    "text": "before uh I will skip that it's a booming field now in statistics and"
+  },
+  {
+    "t_start": 3233.309,
+    "t_end": 3235.63,
+    "text": "booming field now in statistics and other areas about direct and indirect"
+  },
+  {
+    "t_start": 3235.63,
+    "t_end": 3238.109,
+    "text": "other areas about direct and indirect Effect called mediation analysis okay"
+  },
+  {
+    "t_start": 3238.109,
+    "t_end": 3245.39,
+    "text": "Effect called mediation analysis okay and the impetus for that was counteract"
+  },
+  {
+    "t_start": 3245.39,
+    "t_end": 3248.349,
+    "text": "we were able to express the idea of indirect effect by counterfactual like"
+  },
+  {
+    "t_start": 3248.349,
+    "t_end": 3256.829,
+    "text": "you see it here see what is the definition of indirect effect is the um"
+  },
+  {
+    "t_start": 3256.829,
+    "t_end": 3259.47,
+    "text": "definition of indirect effect is the um expected change in output when we keep"
+  },
+  {
+    "t_start": 3259.47,
+    "t_end": 3261.95,
+    "text": "expected change in output when we keep the input constant but change the"
+  },
+  {
+    "t_start": 3261.95,
+    "t_end": 3266.15,
+    "text": "mediator by how much but what you would have gotten by the very would have"
+  },
+  {
+    "t_start": 3266.15,
+    "t_end": 3270.95,
+    "text": "gotten had the input changed okay so it's a nested counter factor that is now"
+  },
+  {
+    "t_start": 3270.95,
+    "t_end": 3273.15,
+    "text": "it's a nested counter factor that is now a definition accepted when you have"
+  },
+  {
+    "t_start": 3273.15,
+    "t_end": 3275.99,
+    "text": "a definition accepted when you have indirect effect it's involves no fixing"
+  },
+  {
+    "t_start": 3275.99,
+    "t_end": 3282.75,
+    "text": "indirect effect it's involves no fixing variables so I consider it a Triumph but"
+  },
+  {
+    "t_start": 3282.75,
+    "t_end": 3286.75,
+    "text": "I'm going to the next triumph which is H is right here"
+  },
+  {
+    "t_start": 3286.75,
+    "t_end": 3292.39,
+    "text": "transportability and I say it's a TR because here the do calculus appeared"
+  },
+  {
+    "t_start": 3292.39,
+    "t_end": 3299.99,
+    "text": "like From the Ashes we didn't expect it to be to reveal its potency in an area"
+  },
+  {
+    "t_start": 3299.99,
+    "t_end": 3302.51,
+    "text": "to be to reveal its potency in an area like that which has very little to do"
+  },
+  {
+    "t_start": 3302.51,
+    "t_end": 3305.03,
+    "text": "like that which has very little to do with the intervention imagine that you"
+  },
+  {
+    "t_start": 3305.03,
+    "t_end": 3308.27,
+    "text": "with the intervention imagine that you want to transfer relationship learn from"
+  },
+  {
+    "t_start": 3308.27,
+    "t_end": 3310.63,
+    "text": "want to transfer relationship learn from experiments to a different environment"
+  },
+  {
+    "t_start": 3310.63,
+    "t_end": 3316.23,
+    "text": "in which no experiments are conducted so we can think about training"
+  },
+  {
+    "t_start": 3316.23,
+    "t_end": 3322.63,
+    "text": "conducted so we can think about training a robot in the cockpit and moving him or"
+  },
+  {
+    "t_start": 3322.63,
+    "t_end": 3325.309,
+    "text": "her to another environment where only observations are allowed but no"
+  },
+  {
+    "t_start": 3325.309,
+    "t_end": 3327.589,
+    "text": "observations are allowed but no experiments how"
+  },
+  {
+    "t_start": 3327.589,
+    "t_end": 3334.51,
+    "text": "much of the causal knowledge that the robot acquired in the cockpit can be"
+  },
+  {
+    "t_start": 3334.51,
+    "t_end": 3336.63,
+    "text": "robot acquired in the cockpit can be transferable and we want a logical"
+  },
+  {
+    "t_start": 3336.63,
+    "t_end": 3341.75,
+    "text": "answer yes or no a certain relationship is or is not transferable given what we"
+  },
+  {
+    "t_start": 3341.75,
+    "t_end": 3344.309,
+    "text": "is or is not transferable given what we know about the two environment okay and"
+  },
+  {
+    "t_start": 3344.309,
+    "t_end": 3347.789,
+    "text": "know about the two environment okay and this has surprisingly gotten a complete"
+  },
+  {
+    "t_start": 3347.789,
+    "t_end": 3349.71,
+    "text": "this has surprisingly gotten a complete answer unless is going to talk about"
+  },
+  {
+    "t_start": 3349.71,
+    "t_end": 3352.67,
+    "text": "answer unless is going to talk about completeness the okay a complete answer"
+  },
+  {
+    "t_start": 3352.67,
+    "t_end": 3354.47,
+    "text": "completeness the okay a complete answer which means you cannot do any"
+  },
+  {
+    "t_start": 3354.47,
+    "t_end": 3358.51,
+    "text": "which means you cannot do any better which means all the people people"
+  },
+  {
+    "t_start": 3358.51,
+    "t_end": 3364.069,
+    "text": "transfer uh domain transfer they call it okay will get stumbled in those cases"
+  },
+  {
+    "t_start": 3364.069,
+    "t_end": 3367.63,
+    "text": "okay will get stumbled in those cases where our answer says it cannot be done"
+  },
+  {
+    "t_start": 3367.63,
+    "t_end": 3370.91,
+    "text": "where our answer says it cannot be done they may not know why or the the"
+  },
+  {
+    "t_start": 3370.91,
+    "t_end": 3374.15,
+    "text": "they may not know why or the the expectation may be surprise it doesn't"
+  },
+  {
+    "t_start": 3374.15,
+    "t_end": 3379.87,
+    "text": "expectation may be surprise it doesn't work but so we are striving in getting a"
+  },
+  {
+    "t_start": 3379.87,
+    "t_end": 3383.19,
+    "text": "yes or no answer given that we make a certain assumptions about disparities"
+  },
+  {
+    "t_start": 3383.19,
+    "t_end": 3392.349,
+    "text": "environment I think I'm closer to the end I have here five seconds I do have"
+  },
+  {
+    "t_start": 3392.349,
+    "t_end": 3398.51,
+    "text": "okay so here are all the nice examples you're going to miss the most important"
+  },
+  {
+    "t_start": 3398.51,
+    "t_end": 3402.75,
+    "text": "you're going to miss the most important one is that one you give me a graph you"
+  },
+  {
+    "t_start": 3402.75,
+    "t_end": 3406.15,
+    "text": "one is that one you give me a graph you signify there where the two domains are"
+  },
+  {
+    "t_start": 3406.15,
+    "t_end": 3408.789,
+    "text": "signify there where the two domains are different or suspected to be different"
+  },
+  {
+    "t_start": 3408.789,
+    "t_end": 3413.51,
+    "text": "different or suspected to be different and I'll tell you about a certain"
+  },
+  {
+    "t_start": 3413.51,
+    "t_end": 3418.43,
+    "text": "cannot be transferred and if it does then here the green one gives you the"
+  },
+  {
+    "t_start": 3418.43,
+    "t_end": 3419.75,
+    "text": "then here the green one gives you the measurement you should take in the"
+  },
+  {
+    "t_start": 3419.75,
+    "t_end": 3423.589,
+    "text": "measurement you should take in the experimental domain and the blue tells"
+  },
+  {
+    "t_start": 3423.589,
+    "t_end": 3430.63,
+    "text": "take in the Target population where you don't allow any measurement and this is"
+  },
+  {
+    "t_start": 3430.63,
+    "t_end": 3433.23,
+    "text": "don't allow any measurement and this is how you combine them together okay to"
+  },
+  {
+    "t_start": 3433.23,
+    "t_end": 3435.75,
+    "text": "how you combine them together okay to get the correct unbiased results when"
+  },
+  {
+    "t_start": 3435.75,
+    "t_end": 3442.109,
+    "text": "get the correct unbiased results when it's done so the completeness is 4:00"
+  },
+  {
+    "t_start": 3442.109,
+    "t_end": 3446.99,
+    "text": "bing bing bing oh and I didn't talk about the my new thing which is meta"
+  },
+  {
+    "t_start": 3446.99,
+    "t_end": 3452.95,
+    "text": "in which the Big Data comes to play here imagine that you have data coming from"
+  },
+  {
+    "t_start": 3452.95,
+    "t_end": 3455.63,
+    "text": "imagine that you have data coming from thousand hospitals in the United States"
+  },
+  {
+    "t_start": 3455.63,
+    "t_end": 3458.71,
+    "text": "thousand hospitals in the United States or worldwide okay each one conducted"
+  },
+  {
+    "t_start": 3458.71,
+    "t_end": 3461.95,
+    "text": "or worldwide okay each one conducted under different conditions okay with"
+  },
+  {
+    "t_start": 3461.95,
+    "t_end": 3466.67,
+    "text": "under different conditions okay with different populations and you need to"
+  },
+  {
+    "t_start": 3466.67,
+    "t_end": 3469.829,
+    "text": "combine them all to come up with an answer to a query in another environment"
+  },
+  {
+    "t_start": 3469.829,
+    "t_end": 3472.39,
+    "text": "answer to a query in another environment with no measurements is allowed all you"
+  },
+  {
+    "t_start": 3472.39,
+    "t_end": 3478.75,
+    "text": "know is the structure okay can you do it or can't you do it okay yes or no answer"
+  },
+  {
+    "t_start": 3478.75,
+    "t_end": 3483.789,
+    "text": "or can't you do it okay yes or no answer and if you can how so I go through the"
+  },
+  {
+    "t_start": 3483.789,
+    "t_end": 3486.15,
+    "text": "how in many slides here which you have to skip"
+  },
+  {
+    "t_start": 3486.15,
+    "t_end": 3492.309,
+    "text": "and and and and believe me there is a method here and there is a lot of work"
+  },
+  {
+    "t_start": 3492.309,
+    "t_end": 3494.87,
+    "text": "method here and there is a lot of work to be done here in terms of decomposing"
+  },
+  {
+    "t_start": 3494.87,
+    "t_end": 3497.349,
+    "text": "to be done here in terms of decomposing the relationship into C relationship to"
+  },
+  {
+    "t_start": 3497.349,
+    "t_end": 3502.63,
+    "text": "the relationship into C relationship to be able to pick up from every study the"
+  },
+  {
+    "t_start": 3502.63,
+    "t_end": 3507.549,
+    "text": "together and to come out with the unbiased estimate the conclusions hit me"
+  },
+  {
+    "t_start": 3507.549,
+    "t_end": 3508.39,
+    "text": "unbiased estimate the conclusions hit me in the"
+  },
+  {
+    "t_start": 3508.39,
+    "t_end": 3513.39,
+    "text": "face the contactual other building blocks of scientific thoughts on Free"
+  },
+  {
+    "t_start": 3513.39,
+    "t_end": 3517.87,
+    "text": "blocks of scientific thoughts on Free Will and moral behavior and algorith"
+  },
+  {
+    "t_start": 3517.87,
+    "t_end": 3519.99,
+    "text": "Will and moral behavior and algorith algorithmization of"
+  },
+  {
+    "t_start": 3519.99,
+    "t_end": 3524.95,
+    "text": "algorithmization of contal has benefited several problems in"
+  },
+  {
+    "t_start": 3524.95,
+    "t_end": 3531.67,
+    "text": "sciences and the third bullet is that this bring us a step closer to achieving"
+  },
+  {
+    "t_start": 3531.67,
+    "t_end": 3534.63,
+    "text": "this bring us a step closer to achieving Cooperative Behavior among Roberts and"
+  },
+  {
+    "t_start": 3534.63,
+    "t_end": 3537.51,
+    "text": "Cooperative Behavior among Roberts and human hisor"
+  },
+  {
+    "t_start": 3537.51,
+    "t_end": 3547.029,
+    "text": "Ally I have to play a sage at this point you know anent notice two major advances"
+  },
+  {
+    "t_start": 3547.029,
+    "t_end": 3549.87,
+    "text": "you know anent notice two major advances to Western science one is the"
+  },
+  {
+    "t_start": 3549.87,
+    "t_end": 3552.349,
+    "text": "to Western science one is the development of logic by the Greek the"
+  },
+  {
+    "t_start": 3552.349,
+    "t_end": 3559.15,
+    "text": "second one the up the recognition by Galileo that you can find cause effect"
+  },
+  {
+    "t_start": 3559.15,
+    "t_end": 3562.109,
+    "text": "Galileo that you can find cause effect relationship based on experiment and I'm"
+  },
+  {
+    "t_start": 3562.109,
+    "t_end": 3567.95,
+    "text": "relationship based on experiment and I'm offering you a third one no I'm offering"
+  },
+  {
+    "t_start": 3567.95,
+    "t_end": 3570.589,
+    "text": "I'm for following that step and trying to combine the two the logic of the"
+  },
+  {
+    "t_start": 3570.589,
+    "t_end": 3577.51,
+    "text": "to combine the two the logic of the Greeks with the experiments of Galileo"
+  },
+  {
+    "t_start": 3577.51,
+    "t_end": 3584.789,
+    "text": "a logically sound theories of causes and caur and the third slide says I told you"
+  },
+  {
+    "t_start": 3584.789,
+    "t_end": 3586.95,
+    "text": "caur and the third slide says I told you it's easy our mission largely"
+  },
+  {
+    "t_start": 3586.95,
+    "t_end": 3599.15,
+    "text": "it's easy our mission largely accomplished but more to be done and"
+  },
+  {
+    "t_start": 3603.589,
+    "t_end": 3609.39,
+    "text": "Professor for reminding us that not only did science come out of philosophy but"
+  },
+  {
+    "t_start": 3609.39,
+    "t_end": 3612.109,
+    "text": "did science come out of philosophy but philosophy and science contined to be"
+  },
+  {
+    "t_start": 3612.109,
+    "t_end": 3619.829,
+    "text": "highly relevant to one another and and as a token a small but relevant token"
+  },
+  {
+    "t_start": 3619.829,
+    "t_end": 3623.23,
+    "text": "as a token a small but relevant token for your talk uh the conference here"
+  },
+  {
+    "t_start": 3623.23,
+    "t_end": 3625.15,
+    "text": "for your talk uh the conference here would like to present you with this"
+  },
+  {
+    "t_start": 3625.15,
+    "t_end": 3627.76,
+    "text": "would like to present you with this token thank you thank you again"
+  },
+  {
+    "t_start": 3627.76,
+    "t_end": 3633.989,
+    "text": "token thank you thank you again [Applause]"
+  }
+]

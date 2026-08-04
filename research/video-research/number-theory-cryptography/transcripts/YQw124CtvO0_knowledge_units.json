@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ku_video_YQw124CtvO0_0",
+    "t_start": 0.5,
+    "t_end": 92.1,
+    "type": "overview",
+    "summary": "It's fairly large. There are bigger ones. But it's a nice big number, yep. And it's a particular number, it's a number I've had some association with, you might say. This number is 129 decimal digits long, so it's probably more than your calculator can handle easily. Although maybe these days calculators are getting pretty smart. But it's something a computer could work with easily, and in fact computers have, and might have good reasons to work with them. This number has a history that goes back to the late '70s. We created this number as a challenge. I don't remember the number, I haven't me…"
+  },
+  {
+    "id": "ku_video_YQw124CtvO0_92",
+    "t_start": 92.1,
+    "t_end": 182.3,
+    "type": "overview",
+    "summary": "system that's based on big numbers like the one you just heard. So where does this number come from? This number we created as part of an experiment to challenge, to find out more about the security of the cryptographic scheme that we proposed. The scheme that we proposed was based on products of large prime numbers. So this number has an interesting property, it's the product of a large prime number p and another large prime number q. And you multiply those two prime numbers together and you get this number RSA-129. So that's why it was created, and we created it secretly choosing p, secretly…"
+  },
+  {
+    "id": "ku_video_YQw124CtvO0_182",
+    "t_start": 182.3,
+    "t_end": 272.8,
+    "type": "overview",
+    "summary": "solved then we will find out the p and the q, and if the puzzle didn't get solved, that's fine. Why risk having it get stolen or something if somebody broke into my wallet or wherever I would keep those numbers? Finding a prime number is not that hard actually. I mean you just need to find big numbers, and finding big numbers isn't that hard. Big random numbers aren't so hard you can roll some dice or use other methods. So we can take some big random numbers and then you can see is that number prime? Well maybe not, maybe it's even so it's obviously not prime. So maybe you can add 1 to it, and…"
+  },
+  {
+    "id": "ku_video_YQw124CtvO0_272",
+    "t_start": 272.8,
+    "t_end": 363.8,
+    "type": "overview",
+    "summary": "That's your secret key. You don't tell anybody. You need those to decrypt. In the case of this challenge we weren't decrypting messages sent to us, so we didn't need to record the factors. But in practice with RSA you'll need to have one party who knows the prime factors and everybody else who knows just the public key, the product of those two prime factors. We came up with the idea and it seemed to work. It seemed to have the right kind of properties. It gave the ability to post a public key in such a way that nobody could figure out how to decrypt something that was encrypted with that publ…"
+  },
+  {
+    "id": "ku_video_YQw124CtvO0_363",
+    "t_start": 363.8,
+    "t_end": 456.1,
+    "type": "overview",
+    "summary": "more study. But before then it was more of a curiosity, and a few people studied it. So we had to search around to find people who had thought about factoring. But it seems to be hard. There were no good algorithms. It's also the case that RSA is flexible in the sense that you can choose prime numbers of any length and build an RSA modulus that way. So you can build numbers of products of 250 digit primes, or 200 digit primes, or 200 digit primes, or whatever you like. You can make it much more challenging for the adversary by choosing the primes large, larger, so it seemed like factoring woul…"
+  },
+  {
+    "id": "ku_video_YQw124CtvO0_456",
+    "t_start": 456.1,
+    "t_end": 546.3,
+    "type": "overview",
+    "summary": "would be easier to crack, if all the people were looking at the one number.\" You can sort of predict the growth of technology. So the the speed of computers you can predict. The amount of, the number of computers you can get together to work on a problem you can predict pretty well. What you don't know how to predict so well is the better, the improvement in algorithms. And that's really what the key was here. Better algorithms. Brady: \"Did this, like, undermine anything? Or, like, where had the technology, where had cryptography gone since then?\" Cryptography had evolved tremendously since th…"
+  },
+  {
+    "id": "ku_video_YQw124CtvO0_547",
+    "t_start": 547.8,
+    "t_end": 577.5,
+    "type": "overview",
+    "summary": "How do you feel about quantum computing? So quantum computing seems to be coming along, people keep working on it, there's quite a bit of money involved on the research side of things. I would love to see it fall flat on its face and not work at all. It would be the demise of RSA should quantum computing happen. Let's say you're the bank and you give out two numbers, they're public, so everyone can know them, they're not secret numbers and everyone can know them, and we choose the number three and the number ten. The bank also have a secret number..."
+  }
+]

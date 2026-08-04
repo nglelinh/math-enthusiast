@@ -1,0 +1,282 @@
+[
+  {
+    "id": "ku_video_iNm4nFBFmvo_7",
+    "t_start": 7.3,
+    "t_end": 99.8,
+    "type": "overview",
+    "summary": "it is my great pleasure to welcome you to the ACM am touring to the ACM am touring lecture this annual presentation is delivered by the winner of the ACM am touring award which is named for the touring award which is named for the Great British mathematician and computer Great British mathematician and computer scientist Alan M Turing the originator of the touring test and whose H 100th birthday we've test and whose H 100th birthday we've been celebrating had quite a big celebration at ACM about two weeks ago in San two weeks ago in San Francisco the touring award is often Francisco the tou…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_99",
+    "t_start": 99.8,
+    "t_end": 192.9,
+    "type": "overview",
+    "summary": "Loosely because um if you know any of uh Professor B's works you know any of uh Professor B's works or books um you'll know that he's as or books um you'll know that he's as much a philosopher as a scientist the subject for a talk this morning is a mechanization of causal morning is a mechanization of causal inference a manyi touring test and Beyond and it is my privilege to introduce Judea KY thank you Kelly for this wonderful introduction I'm very glad to be here I introduction I'm very glad to be here I I did request to deliver this touring I did request to deliver this touring lecture a…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_192",
+    "t_start": 192.9,
+    "t_end": 283.7,
+    "type": "overview",
+    "summary": "important that I pay tribute to this organization for nurturing my work when organization for nurturing my work when it was not exactly fashionable and actually some people say it was the controversial it was the controversial or Say mischievous but uh then I I would like to thank all of you for number one being to thank all of you for number one being partners of the developments of the partners of the developments of the things I'm going to talk about um colleagues co-authors co-principal investigators and students co-principal investigators and students and and um reviewers I don't know …"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_283",
+    "t_start": 283.7,
+    "t_end": 375.3,
+    "type": "overview",
+    "summary": "Pittsburgh and that was where my uh first paper on belief propagation in first paper on belief propagation in trees was published and um then I noticed that one of the first paper with the Duke calculus was published in the triple AI in Seattle in 1994 it was a paper in Seattle in 1994 it was a paper together with Adan Darwish where you see together with Adan Darwish where you see a symbol here do a appear in the title a symbol here do a appear in the title and it wasn't rejected I'm sure that it and it wasn't rejected I'm sure that it wouldn't have been published in any wouldn't have been …"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_375",
+    "t_start": 375.3,
+    "t_end": 472.0,
+    "type": "overview",
+    "summary": "lecture about touring so let me start with the touring and his touring test as with the touring and his touring test as we all read the paper in the mind we all read the paper in the mind magazine in 1950 and a test that U I think is an engine of much of the work that is done engine of much of the work that is done in AI um the toing answer to this question of can computer think was very simple of can computer think was very simple yes if it acts like it thinks and what yes if it acts like it thinks and what one mean by Act is that it answer one mean by Act is that it answer non-trivial que…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_471",
+    "t_start": 472.0,
+    "t_end": 567.8,
+    "type": "overview",
+    "summary": "Sunnet about poetry and the answer of course is evasive uh but still it has some human element to it I never could write poetry element to it I never could write poetry uh the second answer is about arithmetic uh the second answer is about arithmetic certain question about arithmetic can you add that and that and the answer is of also human you pause for 30 seconds and then you give the answer so this is also very simple domain and then twoing let's look at chess and do you play chess yes I have a king on my K1 and you chess yes I have a king on my K1 and you and no other pieces you have on…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_567",
+    "t_start": 567.8,
+    "t_end": 661.9,
+    "type": "overview",
+    "summary": "much background as we expect adult to have our hope is that there is so little mechanism in the child brain that mechanism in the child brain that something like it can be easily something like it can be easily programmed I think to we programmed I think to we underestimate the the role that um underestimate the the role that um vision and mo Moto actions play in our metaphors taken from the child world uh are play a tremendous role in the are play a tremendous role in the child's ability to handle mathematics child's ability to handle mathematics and I think student uh touring and I think …"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_661",
+    "t_start": 661.9,
+    "t_end": 754.3,
+    "type": "overview",
+    "summary": "his idea was the programmer would be able to trace weaknesses of the program able to trace weaknesses of the program to where it counts and create the mutation but then the question is why should the machine have a blueprint of should the machine have a blueprint of itself and be able to itself and be able to pinpoint the root cause of the weakness pinpoint the root cause of the weakness and then change the priority among the and then change the priority among the competing uh computational resources competing uh computational resources uh I will now then explain to you why I the cause of r…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_754",
+    "t_start": 754.3,
+    "t_end": 849.3,
+    "type": "overview",
+    "summary": "slippery or not you are in a dry or wet season and you suspect that if the pavement is wet and it either rained or the sprinkler was on a very simple Story the sprinkler was on a very simple Story five binary variables know highly five binary variables know highly connected to your everyday experience and then the task is you tell the story The Machine and make the M the story The Machine and make the M program the machine to answer simple program the machine to answer simple questions about three types of modalities and here they are here one if the syst is dry and the pavement is slippery…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_849",
+    "t_start": 849.3,
+    "t_end": 944.5,
+    "type": "overview",
+    "summary": "actions do you mean that if we actually turn the sprinkle on the rain will be turn the sprinkle on the rain will be less likely and you want the machine to say no there's a difference between seeing no there's a difference between seeing and doing no no the likelihood of rain would remain the same but the payment will surely get wet now comes the question of counterfactual nature suppose we see the sprinkler is on and the pavement W what if the sprinkler the pavement W what if the sprinkler were off I'll later apologize why I'm so hung up on counterfactual but first uh I up on counterfactua…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_944",
+    "t_start": 944.5,
+    "t_end": 1039.2,
+    "type": "overview",
+    "summary": "based on a rule book okay there every sentence in English or in Chinese has the answer printed there in Chinese or in English and it doesn't mean that the in English and it doesn't mean that the understand um Chinese just because it understand um Chinese just because it looks up the answer in the in the looks up the answer in the in the book book well what s has over seen is the fact well what s has over seen is the fact that there aren't enough molecules in that there aren't enough molecules in the universe to make up the book okay the universe to make up the book okay because the number o…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_1039",
+    "t_start": 1039.2,
+    "t_end": 1129.5,
+    "type": "overview",
+    "summary": "method you'll come out if quickly to the number of 1,000 entries just for the number of 1,000 entries just for the probability multiply by another thousand probability multiply by another thousand just to get for every action and then when you go to the counter OFA actually you have another thousand you have you have another thousand you have already a billion uh long table for just pavement story okay so because you have many many constraints among those uh many many constraints among those uh modalities of what happens what what is modalities of what happens what what is likely if I do wh…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_1129",
+    "t_start": 1129.5,
+    "t_end": 1223.4,
+    "type": "overview",
+    "summary": "poetry but um and why do I go to court reasoning number one is because it's so reasoning number one is because it's so pervasive in human cognition and human pervasive in human cognition and human ethics I'll I have few slides on that ethics I'll I have few slides on that and it's so deeply entr in the and it's so deeply entr in the development of children and the second development of children and the second one it is the building block I think of scientific uh thinking and the third reason is because it's important for reason is because it's important for robotic and the third is and the …"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_1223",
+    "t_start": 1223.4,
+    "t_end": 1310.3,
+    "type": "overview",
+    "summary": "immediately translatable to a methods that could save millions of dollars in uh let me start with the human cognition and ethics I like to start with Adam and Eve where else do you start and you can see that immediately when God asked Adam see that immediately when God asked Adam hey did you eat from that tree Adam asks he doesn't say yes or no I mean facts are for the gods excuses are for men she handed me the fruits and I I a and Eve of course is not less expert in Cal explanations and she said the Cal explanations and she said the serpent don't blame me the serpent serpent don't blame me…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_1313",
+    "t_start": 1313.5,
+    "t_end": 1404.3,
+    "type": "overview",
+    "summary": "that excuse my Hebrew but that's exactly how it sounded there about 3,000 years how it sounded there about 3,000 years ago haset what if there were 50 righteous men in the city here you have the first the city here you have the first counterfactual in the Bible what if they 50 and look what God says says if I find in the city of D 50 good men I will in the city of D 50 good men I will pardon the whole place for their sake do you think Abraham gave up at that point no he go down and said what that point no he go down and said what about about [Music] 45 I are you going to make a big fast on …"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_1404",
+    "t_start": 1404.3,
+    "t_end": 1498.5,
+    "type": "overview",
+    "summary": "all about trying to find the general rules not about this specific event so rules not about this specific event so here I go to sign to prove to you that here I go to sign to prove to you that counterfactual are indeed the basis for counterfactual are indeed the basis for science we all used to do questions in that the length of a string y equals a constant I'll take two times the weight constant I'll take two times the weight so Y is equal to 2X and x equal to 1 the string is and you think it's all arithmetic right then here the solution arithmetic right then here the solution it's h you j…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_1498",
+    "t_start": 1498.5,
+    "t_end": 1591.3,
+    "type": "overview",
+    "summary": "how do we do that we wipe out the equation x = 1 we replace with replace it by x = 3 and we solve a new system of equations which is modified now by the new um information and we give you the answer z it's Y is equal to 6 why didn't answer z it's Y is equal to 6 why didn't we do it here it's equivalent right I we do it here it's equivalent right I wipe out X = to half y replace it with xal to three and I get Y is equal to four that's the wrong one right so every four that's the wrong one right so every child in high High School when he or she child in high High School when he or she solves …"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_1591",
+    "t_start": 1591.3,
+    "t_end": 1674.2,
+    "type": "overview",
+    "summary": "all variables that might possibly affect the length look at the weight and say ah that is the one consult the weight on the spring and determine the ve the value of the length so this is the conception of physics nature looks at conception of physics nature looks at variables go to some process and then variables go to some process and then assign value on other variables if that is so when it requires a different kind of algebra because it a different kind of algebra because it involves wiping of equations and we involves wiping of equations and we signify that with in the graph instead si…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_1682",
+    "t_start": 1682.8,
+    "t_end": 1774.4,
+    "type": "overview",
+    "summary": "the role of counterfactual and cation in human reasoning it not Escape many human reasoning it not Escape many philosophers already the time of the philosophers already the time of the Greek in um 430 BC democritos said I Greek in um 430 BC democritos said I would rather discover one C of would rather discover one C of relationship than be King of relationship than be King of Persia King of Persia at that time was exactly um a dangerous occupation like it is today and the Y of course looked at that with a puzzle and say what is this idea with a puzzle and say what is this idea of causation …"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_1774",
+    "t_start": 1774.4,
+    "t_end": 1867.2,
+    "type": "overview",
+    "summary": "explaining what causes brings us to ask what do we what gives us the audacity here in AI to think that we can add another Iota to this um long another Iota to this um long debate and the answer is debate and the answer is simply uh that we don't have the luxury philosophize we need to build robots that understand what went wrong in the that understand what went wrong in the laboratory or for the kitchen and uh we need to and if they don't learn it all by themselves we need don't learn it all by themselves we need to at least to have the option of to at least to have the option of teaching t…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_1867",
+    "t_start": 1867.2,
+    "t_end": 1960.3,
+    "type": "overview",
+    "summary": "programmer to understand or to answer queries properly and the second one queries properly and the second one although it looks trivial it's not although it looks trivial it's not really trivial because if you just follow the rules you get some unexpected result if you tell the if the input is you break this bottle the grass will get wet you don't want an output such as if wet you don't want an output such as if you break the bottle then it rained so you break the bottle then it rained so just rule chaining is not going to do just rule chaining is not going to do the work for you you need s…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_1960",
+    "t_start": 1960.3,
+    "t_end": 2052.2,
+    "type": "overview",
+    "summary": "I'll talk about that we have to talk about what makes a causal Model A causal about what makes a causal Model A causal model as opposed to something else how model as opposed to something else how is it being tested and the two are connected if a model has a testable implication then model has a testable implication then you can hope to discover it from or a model that doesn't have any testable implication cannot be discovered from data so the two are connected then I'll talk about three um applications effect talk about three um applications effect of interventions the evolution of the DU …"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_2052",
+    "t_start": 2052.2,
+    "t_end": 2147.9,
+    "type": "overview",
+    "summary": "distribution that occasionally when he or she is gracious enough split out data or she is gracious enough split out data and then our job is to infer properties and then our job is to infer properties of the Santa Claus namely Q of P some of the Santa Claus namely Q of P some aspect of the joint distrib tion aspect of the joint distrib tion function from the data estimate the mean or come up with a classifier or decide whether customers who bought product a would also buy product B you say that kind of question is neat and say that kind of question is neat and well formulized because it can…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_2147",
+    "t_start": 2147.9,
+    "t_end": 2240.0,
+    "type": "overview",
+    "summary": "price and it we ask a question what would be how probability of B given a would be how probability of B given a and given that we do something that perhaps wasn't even done before we raise we double the price it's not even an we double the price it's not even an aspect of P because it's different than aspect of P because it's different than the conditional probability on p uh the conditional probability on p uh being double okay is a difference being double okay is a difference between um seeing the price doubled and between um seeing the price doubled and making it double here's the counte…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_2239",
+    "t_start": 2240.0,
+    "t_end": 2333.7,
+    "type": "overview",
+    "summary": "imagination to think nature rather than experiment or rather than measurements it is a traumatic experience for people outside artificial experience for people outside artificial intelligence so I would like you to be there um let's generalize it let's imagine that the whole world is just a imagine that the whole world is just a collection of spring so it is um fueled collection of spring so it is um fueled by a collection of functions that assign value two variables here every VI in this um variables here every VI in this um trillion and one different variables is trillion and one differen…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_2333",
+    "t_start": 2333.7,
+    "t_end": 2425.6,
+    "type": "overview",
+    "summary": "time maybe a bli of a second looking at x multiplying by constant adding to it x multiplying by constant adding to it some noise and deciding that y deserves some noise and deciding that y deserves a value small y great work ladies a value small y great work ladies nature and um our job is nature and um our job is to un encipher or decipher the mapping to un encipher or decipher the mapping of nature but that is very ambitious at of nature but that is very ambitious at least we should be able to answer least we should be able to answer counterfactual queries if we have data counterfactual q…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_2425",
+    "t_start": 2425.6,
+    "t_end": 2518.6,
+    "type": "overview",
+    "summary": "recursive no s no Cycles there and the disturbances happen to be independent of disturbances happen to be independent of each other then regardless of the each other then regardless of the functions that you have there and functions that you have there and regardless of the distributions of disturbances you can say something about the probability distribution of What You observe so the structure of that um collection of Springs determin something collection of Springs determin something very basic in your distribution function very basic in your distribution function which is a product form…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_2518",
+    "t_start": 2518.6,
+    "t_end": 2609.3,
+    "type": "overview",
+    "summary": "product of a variable given exper very will given experiment nothing special about it but if you do make take an action like turn the sprinkler on you action like turn the sprinkler on you delete that process from the discussion delete that process from the discussion because Mr Sprinkler no longer listens to the season Mr sprink become enslaved to your muscles when you turn it on so to your muscles when you turn it on so it's replaced by a constant and let me it's replaced by a constant and let me see now so I I have pun 12 minutes left see now so I I have pun 12 minutes left I'll go a lit…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_2609",
+    "t_start": 2609.3,
+    "t_end": 2701.2,
+    "type": "overview",
+    "summary": "with a constant and then SP and Glo translated into a graphical surgery Glo translated into a graphical surgery procedure that you wipe out the errors procedure that you wipe out the errors going into the manipulated variable and going into the manipulated variable and um that led to the truncated um that led to the truncated factorization and I took it very seriously and said no we have a new calculus here that deserve algebraic calculus here that deserve algebraic support and translated that into a do calculus and then we apply that to counterfactual so that is the evolution counterfactua…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_2701",
+    "t_start": 2701.2,
+    "t_end": 2792.1,
+    "type": "overview",
+    "summary": "the joint probability of the Y taking a value small y had X been small X and value small y had X been small X and simultaneously Z taking value small Z had W taking anything you can figure any sentence you have can you have now the sentence you have can you have now the semantics for finding the probability of semantics for finding the probability of that joint convoluted sentence it's rarely appeals appears in the sentence that we have to cope with specifically s that we have to cope with specifically s as involving actions with the do and as involving actions with the do and section sente…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_2792",
+    "t_start": 2792.1,
+    "t_end": 2882.8,
+    "type": "overview",
+    "summary": "our world than any other possible world you go to the uh the possible World you go to the uh the possible World interpretation of this I'll give you an interpretation of this I'll give you an example of what you can do with it a bunch of equations you think then nature works like that okay first question you have to ask yourself is it testable does it have any testable implication but I said before if it doesn't have test test you cannot learn doesn't have test test you cannot learn it and the here is very simple it and the here is very simple everything that we did with beijan net everythi…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_2882",
+    "t_start": 2882.8,
+    "t_end": 2973.8,
+    "type": "overview",
+    "summary": "is Missing Link is a Assumption of causal nature not of statistical nature causal nature not of statistical nature so let's take another example here's a difficult one suppose we wish to estimate the average qual effect effect estimate the average qual effect effect and which variable should be and we have we are allowed only one measurement it turns out that this one measurement it turns out that this one will do the job for you for those of you will do the job for you for those of you who know the front door Criterion this is the front door Criterion okay here's an example which is highly…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_2973",
+    "t_start": 2973.8,
+    "t_end": 3064.3,
+    "type": "overview",
+    "summary": "that uh answering mechanism four minutes what one can accomplish in four minutes you will see so here's the minutes you will see so here's the engine three rules that takes in a graph engine three rules that takes in a graph and apply them repeatedly and gives you and apply them repeatedly and gives you the answer here's an example that the answer here's an example that smoking cause cancer the question is given to you with a causal assist symbol a red symbol is if I do we don't have a red symbol is if I do we don't have doing we cannot conduct randomized experiments on smokers so we have t…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_3064",
+    "t_start": 3064.3,
+    "t_end": 3155.7,
+    "type": "overview",
+    "summary": "very interesting because philosophers have gone through a great pain and to understand why we form consensus about counterfactuals here is a typical example if I tell you this couple of sentences you'll tell me yes yes yes on sentences you'll tell me yes yes yes on the first one and no no no on the other form a consensus how can we do that and that was a puzzle for many uh philosophy that was a puzzle for many uh philosophy yum tried to explain causes in terms of yum tried to explain causes in terms of counterfactual and David Lewis tried to explain the pz that I face was different how come…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_3155",
+    "t_start": 3155.7,
+    "t_end": 3248.3,
+    "type": "overview",
+    "summary": "presses the button to a world in which we are alive as opposed to a world in which Nixon pressed the button and somebody disconnected the um the Wilds okay uh that is a typical question in philosophy assessment how similar worlds philosophy assessment how similar worlds are in this structure where you don't rely on a similarity among world you rely on equations which are common rely on equations which are common equation of physics and mutilating those equation of physics and mutilating those equation I will not have time to talk which is the ability to distinguish between direct and indire…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_3248",
+    "t_start": 3248.3,
+    "t_end": 3341.8,
+    "type": "overview",
+    "summary": "you see it here see what is the definition of indirect effect is the um definition of indirect effect is the um expected change in output when we keep expected change in output when we keep the input constant but change the mediator by how much but what you would have gotten by the very would have gotten had the input changed okay so it's a nested counter factor that is now it's a nested counter factor that is now a definition accepted when you have a definition accepted when you have indirect effect it's involves no fixing indirect effect it's involves no fixing variables so I consider it …"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_3341",
+    "t_start": 3341.8,
+    "t_end": 3433.2,
+    "type": "overview",
+    "summary": "is or is not transferable given what we know about the two environment okay and know about the two environment okay and this has surprisingly gotten a complete this has surprisingly gotten a complete answer unless is going to talk about answer unless is going to talk about completeness the okay a complete answer completeness the okay a complete answer which means you cannot do any which means you cannot do any better which means all the people people transfer uh domain transfer they call it okay will get stumbled in those cases okay will get stumbled in those cases where our answer says it …"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_3433",
+    "t_start": 3433.2,
+    "t_end": 3524.9,
+    "type": "overview",
+    "summary": "how you combine them together okay to get the correct unbiased results when get the correct unbiased results when it's done so the completeness is 4:00 bing bing bing oh and I didn't talk about the my new thing which is meta in which the Big Data comes to play here imagine that you have data coming from imagine that you have data coming from thousand hospitals in the United States thousand hospitals in the United States or worldwide okay each one conducted or worldwide okay each one conducted under different conditions okay with under different conditions okay with different populations and…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_3524",
+    "t_start": 3524.9,
+    "t_end": 3619.8,
+    "type": "overview",
+    "summary": "sciences and the third bullet is that this bring us a step closer to achieving this bring us a step closer to achieving Cooperative Behavior among Roberts and Cooperative Behavior among Roberts and human hisor Ally I have to play a sage at this point you know anent notice two major advances you know anent notice two major advances to Western science one is the to Western science one is the development of logic by the Greek the second one the up the recognition by Galileo that you can find cause effect Galileo that you can find cause effect relationship based on experiment and I'm relationsh…"
+  },
+  {
+    "id": "ku_video_iNm4nFBFmvo_3619",
+    "t_start": 3619.8,
+    "t_end": 3634.0,
+    "type": "overview",
+    "summary": "as a token a small but relevant token for your talk uh the conference here for your talk uh the conference here would like to present you with this would like to present you with this token thank you thank you again token thank you thank you again [Applause]"
+  }
+]

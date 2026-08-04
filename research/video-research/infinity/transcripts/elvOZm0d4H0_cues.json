@@ -1,0 +1,1047 @@
+[
+  {
+    "t_start": 0.27,
+    "t_end": 1.6800000000000002,
+    "text": "JAMES GRIME: We're going to break a rule."
+  },
+  {
+    "t_start": 1.6800000000000002,
+    "t_end": 3.92,
+    "text": "We're break one of the rules of Numberphile."
+  },
+  {
+    "t_start": 3.92,
+    "t_end": 6.41,
+    "text": "We're talking about something that isn't a number."
+  },
+  {
+    "t_start": 6.41,
+    "t_end": 8.91,
+    "text": "We're going to talk about infinity."
+  },
+  {
+    "t_start": 8.91,
+    "t_end": 11.05,
+    "text": "So infinity."
+  },
+  {
+    "t_start": 11.05,
+    "t_end": 16.07,
+    "text": "Now like I said, infinity is not a number."
+  },
+  {
+    "t_start": 16.07,
+    "t_end": 17.29,
+    "text": "It's a idea."
+  },
+  {
+    "t_start": 17.29,
+    "t_end": 18.27,
+    "text": "It's a concept."
+  },
+  {
+    "t_start": 18.27,
+    "t_end": 22.11,
+    "text": "It's the idea of being endless, of going on forever."
+  },
+  {
+    "t_start": 22.11,
+    "t_end": 23.86,
+    "text": "I think everyone's familiar with the idea of"
+  },
+  {
+    "t_start": 23.86,
+    "t_end": 25.32,
+    "text": "infinity, even kids."
+  },
+  {
+    "t_start": 25.32,
+    "t_end": 29.58,
+    "text": "You start counting 1, 2, 3, 4, 5--"
+  },
+  {
+    "t_start": 29.58,
+    "t_end": 32.18,
+    "text": "you might be five years old, but already you're thinking,"
+  },
+  {
+    "t_start": 32.18,
+    "t_end": 35.23,
+    "text": "what's the biggest number I can think of."
+  },
+  {
+    "t_start": 35.23,
+    "t_end": 37.31,
+    "text": "And you go, oooh, it's 20."
+  },
+  {
+    "t_start": 37.31,
+    "t_end": 39.88,
+    "text": "You get a bit older, and you go, maybe it's a million."
+  },
+  {
+    "t_start": 39.88,
+    "t_end": 42.43,
+    "text": "It never ends, does it? 'Cause you can keep adding 1."
+  },
+  {
+    "t_start": 42.43,
+    "t_end": 44.6,
+    "text": "So that's the idea of infinity."
+  },
+  {
+    "t_start": 44.6,
+    "t_end": 47.17,
+    "text": "The numbers go on forever."
+  },
+  {
+    "t_start": 47.17,
+    "t_end": 50.53,
+    "text": "But I'm going to tell you one of the more surprising facts"
+  },
+  {
+    "t_start": 50.53,
+    "t_end": 51.49,
+    "text": "about infinity."
+  },
+  {
+    "t_start": 51.49,
+    "t_end": 54.18,
+    "text": "There are different kinds of infinity."
+  },
+  {
+    "t_start": 54.18,
+    "t_end": 57.96,
+    "text": "Some infinities are bigger than others."
+  },
+  {
+    "t_start": 57.96,
+    "t_end": 58.62,
+    "text": "Let's have a look."
+  },
+  {
+    "t_start": 58.62,
+    "t_end": 61.59,
+    "text": "The first type of infinity is called countable."
+  },
+  {
+    "t_start": 61.59,
+    "t_end": 63.61,
+    "text": "And I don't like the name countable."
+  },
+  {
+    "t_start": 63.61,
+    "t_end": 65.94,
+    "text": "And Brady gave me a little bit of a hmm, just then."
+  },
+  {
+    "t_start": 65.94,
+    "t_end": 69.27,
+    "text": "Because if you're talking about infinity, you can't"
+  },
+  {
+    "t_start": 69.27,
+    "t_end": 70.88,
+    "text": "count infinity, can you?"
+  },
+  {
+    "t_start": 70.88,
+    "t_end": 72.66,
+    "text": "Because it goes on forever."
+  },
+  {
+    "t_start": 72.66,
+    "t_end": 75.03,
+    "text": "I think it's a terrible name."
+  },
+  {
+    "t_start": 75.03,
+    "t_end": 77.2,
+    "text": "I prefer to call it listable."
+  },
+  {
+    "t_start": 77.2,
+    "t_end": 79.31,
+    "text": "Can we list these numbers?"
+  },
+  {
+    "t_start": 79.31,
+    "t_end": 79.61,
+    "text": "All right."
+  },
+  {
+    "t_start": 79.61,
+    "t_end": 83.98,
+    "text": "Let's do these simple numbers, 1, 2, 3--"
+  },
+  {
+    "t_start": 83.98,
+    "t_end": 85.34,
+    "text": "BRADY HARAN: You're not gonna do all of them, are you James?"
+  },
+  {
+    "t_start": 85.34,
+    "t_end": 85.66,
+    "text": "JAMES GRIME: 4."
+  },
+  {
+    "t_start": 85.66,
+    "t_end": 87.11,
+    "text": "How long have we got?"
+  },
+  {
+    "t_start": 87.11,
+    "t_end": 88.02,
+    "text": "BRADY HARAN: (LAUGHING) 10 minutes."
+  },
+  {
+    "t_start": 88.02,
+    "t_end": 88.902,
+    "text": "JAMES GRIME: Right."
+  },
+  {
+    "t_start": 88.902,
+    "t_end": 91.19,
+    "text": "5, 6--"
+  },
+  {
+    "t_start": 91.19,
+    "t_end": 93.58,
+    "text": "so you can list the whole numbers."
+  },
+  {
+    "t_start": 93.58,
+    "t_end": 95.22,
+    "text": "So this is called countable."
+  },
+  {
+    "t_start": 95.22,
+    "t_end": 97.2,
+    "text": "Listable, I prefer."
+  },
+  {
+    "t_start": 97.2,
+    "t_end": 99.31,
+    "text": "What about the integers?"
+  },
+  {
+    "t_start": 99.31,
+    "t_end": 100.1,
+    "text": "All the integers."
+  },
+  {
+    "t_start": 100.1,
+    "t_end": 101.92,
+    "text": "That's all the negative numbers as well."
+  },
+  {
+    "t_start": 101.92,
+    "t_end": 102.45,
+    "text": "So there's 0."
+  },
+  {
+    "t_start": 102.45,
+    "t_end": 103.9,
+    "text": "Let's have that."
+  },
+  {
+    "t_start": 103.9,
+    "t_end": 109.14,
+    "text": "But there's 1 and minus 1, there's 2 and minus 2, there's"
+  },
+  {
+    "t_start": 109.14,
+    "t_end": 111.19,
+    "text": "3, and minus 3."
+  },
+  {
+    "t_start": 111.19,
+    "t_end": 114.38,
+    "text": "Now, that is an infinity as well."
+  },
+  {
+    "t_start": 114.38,
+    "t_end": 118.72,
+    "text": "And in some sense, it's twice as big, because there seems to"
+  },
+  {
+    "t_start": 118.72,
+    "t_end": 120.68,
+    "text": "be twice as many numbers."
+  },
+  {
+    "t_start": 120.68,
+    "t_end": 122.29,
+    "text": "But it is infinity as well."
+  },
+  {
+    "t_start": 122.29,
+    "t_end": 124.22,
+    "text": "They're both infinity, and they're both the"
+  },
+  {
+    "t_start": 124.22,
+    "t_end": 125.59,
+    "text": "same type of infinity."
+  },
+  {
+    "t_start": 125.59,
+    "t_end": 128.139,
+    "text": "They both can be listed."
+  },
+  {
+    "t_start": 128.139,
+    "t_end": 130.949,
+    "text": "Perhaps more surprisingly, the fractions can"
+  },
+  {
+    "t_start": 130.949,
+    "t_end": 132.16,
+    "text": "be listed as well."
+  },
+  {
+    "t_start": 132.16,
+    "t_end": 133.74,
+    "text": "But you have to be a bit clever about this."
+  },
+  {
+    "t_start": 133.74,
+    "t_end": 135.52,
+    "text": "Let's try and list the fractions."
+  },
+  {
+    "t_start": 135.52,
+    "t_end": 137.67,
+    "text": "I'm going to write out a rectangle."
+  },
+  {
+    "t_start": 137.67,
+    "t_end": 139.065,
+    "text": "1 divided by 1."
+  },
+  {
+    "t_start": 139.065,
+    "t_end": 139.77,
+    "text": "That's a fraction."
+  },
+  {
+    "t_start": 139.77,
+    "t_end": 140.58,
+    "text": "[INAUDIBLE]."
+  },
+  {
+    "t_start": 140.58,
+    "t_end": 146.48,
+    "text": "Let's have 1 divided by 2, 1/3, 1/4, 1/7--"
+  },
+  {
+    "t_start": 146.48,
+    "t_end": 147.12,
+    "text": "OK, that goes on."
+  },
+  {
+    "t_start": 147.12,
+    "t_end": 149.61,
+    "text": "Let's do the next row and have two at the top."
+  },
+  {
+    "t_start": 149.61,
+    "t_end": 154.48,
+    "text": "2/1, 2/2, 2/3, 2/4."
+  },
+  {
+    "t_start": 154.48,
+    "t_end": 155.8,
+    "text": "Let's do the next one."
+  },
+  {
+    "t_start": 155.8,
+    "t_end": 158.25,
+    "text": "3/1, 3/2."
+  },
+  {
+    "t_start": 158.25,
+    "t_end": 160.77,
+    "text": "4/6, 4/7."
+  },
+  {
+    "t_start": 160.77,
+    "t_end": 162.51,
+    "text": "That goes on and we can keep going."
+  },
+  {
+    "t_start": 162.51,
+    "t_end": 166.01,
+    "text": "So here, I've made some sort of an infinite rectangle array"
+  },
+  {
+    "t_start": 166.01,
+    "t_end": 166.71,
+    "text": "of fractions."
+  },
+  {
+    "t_start": 166.71,
+    "t_end": 172.44,
+    "text": "Now if I want to make it a list like this, though, If I"
+  },
+  {
+    "t_start": 172.44,
+    "t_end": 174.99,
+    "text": "went row by row, you're going to have a problem."
+  },
+  {
+    "t_start": 174.99,
+    "t_end": 177.26,
+    "text": "If you go row by row, I'll go--"
+  },
+  {
+    "t_start": 177.26,
+    "t_end": 180.895,
+    "text": "there's 1, 1/2, 1/3, 1/5, 1/6, 1/7-- and"
+  },
+  {
+    "t_start": 180.895,
+    "t_end": 182.64,
+    "text": "I'll keep going forever."
+  },
+  {
+    "t_start": 182.64,
+    "t_end": 184.87,
+    "text": "And I'm never going to reach the second row."
+  },
+  {
+    "t_start": 184.87,
+    "t_end": 185.63,
+    "text": "I can't list them."
+  },
+  {
+    "t_start": 185.63,
+    "t_end": 186.23,
+    "text": "Not that way."
+  },
+  {
+    "t_start": 186.23,
+    "t_end": 187.38,
+    "text": "You can't list them that way."
+  },
+  {
+    "t_start": 187.38,
+    "t_end": 188.93,
+    "text": "You'll never reach the second row."
+  },
+  {
+    "t_start": 188.93,
+    "t_end": 189.92,
+    "text": "This is how you list them."
+  },
+  {
+    "t_start": 189.92,
+    "t_end": 192.34,
+    "text": "Slightly more clever than that."
+  },
+  {
+    "t_start": 192.34,
+    "t_end": 193.59,
+    "text": "You take the diagonal lines."
+  },
+  {
+    "t_start": 196.31,
+    "t_end": 201.53,
+    "text": "Now, I can guarantee that every fraction will appear on"
+  },
+  {
+    "t_start": 201.53,
+    "t_end": 203.08,
+    "text": "one of those diagonal lines."
+  },
+  {
+    "t_start": 203.08,
+    "t_end": 205.73,
+    "text": "And you list them diagonal by diagonal."
+  },
+  {
+    "t_start": 205.73,
+    "t_end": 207.48,
+    "text": "So that's the first diagonal."
+  },
+  {
+    "t_start": 207.48,
+    "t_end": 209.47,
+    "text": "Then you list the second diagonal-- there it is."
+  },
+  {
+    "t_start": 209.47,
+    "t_end": 211.48,
+    "text": "Then you list the third diagonal, then you take the"
+  },
+  {
+    "t_start": 211.48,
+    "t_end": 213.34,
+    "text": "fourth diagonal, and the fifth."
+  },
+  {
+    "t_start": 213.34,
+    "t_end": 216.01,
+    "text": "So eventually, you are going to do this every fraction."
+  },
+  {
+    "t_start": 216.01,
+    "t_end": 218.21,
+    "text": "Every faction appears on a diagonal, and you're"
+  },
+  {
+    "t_start": 218.21,
+    "t_end": 218.85,
+    "text": "going to list them."
+  },
+  {
+    "t_start": 218.85,
+    "t_end": 221.54,
+    "text": "Now, if you take all the numbers, right?"
+  },
+  {
+    "t_start": 221.54,
+    "t_end": 222.86,
+    "text": "That's the whole number line."
+  },
+  {
+    "t_start": 222.86,
+    "t_end": 223.325,
+    "text": "Let's try that."
+  },
+  {
+    "t_start": 223.325,
+    "t_end": 224.8,
+    "text": "Look, I'm going to draw it."
+  },
+  {
+    "t_start": 224.8,
+    "t_end": 226.75,
+    "text": "It's a continuous line of numbers."
+  },
+  {
+    "t_start": 226.75,
+    "t_end": 228.39,
+    "text": "These are all your decimals."
+  },
+  {
+    "t_start": 228.39,
+    "t_end": 230.36,
+    "text": "You've got 0 there in the middle, and you'll"
+  },
+  {
+    "t_start": 230.36,
+    "t_end": 232.13,
+    "text": "go 1 and 2 and 3."
+  },
+  {
+    "t_start": 232.13,
+    "t_end": 233.9,
+    "text": "But it has a 1/3."
+  },
+  {
+    "t_start": 233.9,
+    "t_end": 237.19,
+    "text": "It will contain pi, and e, and all the"
+  },
+  {
+    "t_start": 237.19,
+    "t_end": 239.24,
+    "text": "irrational numbers as well."
+  },
+  {
+    "t_start": 239.24,
+    "t_end": 240.36,
+    "text": "Can you list them?"
+  },
+  {
+    "t_start": 240.36,
+    "t_end": 241.13,
+    "text": "How do you list them?"
+  },
+  {
+    "t_start": 241.13,
+    "t_end": 243.315,
+    "text": "0 to start with, and then 1?"
+  },
+  {
+    "t_start": 243.315,
+    "t_end": 244.12,
+    "text": "But hang on."
+  },
+  {
+    "t_start": 244.12,
+    "t_end": 245.5,
+    "text": "We've missed a half."
+  },
+  {
+    "t_start": 245.5,
+    "t_end": 246.69,
+    "text": "So we put in the half."
+  },
+  {
+    "t_start": 246.69,
+    "t_end": 247.91,
+    "text": "Hang on, we've missed the quarter."
+  },
+  {
+    "t_start": 247.91,
+    "t_end": 249.7,
+    "text": "We put in the quarter."
+  },
+  {
+    "t_start": 249.7,
+    "t_end": 252.44,
+    "text": "But we've missed 0.237--"
+  },
+  {
+    "t_start": 252.44,
+    "t_end": 255.05,
+    "text": "so how do you list the real numbers?"
+  },
+  {
+    "t_start": 255.05,
+    "t_end": 257.329,
+    "text": "It turns out you can't."
+  },
+  {
+    "t_start": 257.329,
+    "t_end": 260.67,
+    "text": "In fact, rather remarkably, I can show you that we can't"
+  },
+  {
+    "t_start": 260.67,
+    "t_end": 263.24,
+    "text": "list them, even though were talking about something so"
+  },
+  {
+    "t_start": 263.24,
+    "t_end": 265.65,
+    "text": "complicated as infinity."
+  },
+  {
+    "t_start": 265.65,
+    "t_end": 266.62,
+    "text": "BRADY HARAN: Do it, man!"
+  },
+  {
+    "t_start": 266.62,
+    "t_end": 267.645,
+    "text": "JAMES GRIME: We need paper."
+  },
+  {
+    "t_start": 267.645,
+    "t_end": 268.885,
+    "text": "BRADY HARAN: We need an infinite amount of"
+  },
+  {
+    "t_start": 268.885,
+    "t_end": 270.81,
+    "text": "paper here, I think."
+  },
+  {
+    "t_start": 270.81,
+    "t_end": 271.95,
+    "text": "JAMES GRIME: (LAUGHING) It's a big topic."
+  },
+  {
+    "t_start": 271.95,
+    "t_end": 276.61,
+    "text": "Imagine we could list all the decimals, right?"
+  },
+  {
+    "t_start": 276.61,
+    "t_end": 277.45,
+    "text": "We can't, actually."
+  },
+  {
+    "t_start": 277.45,
+    "t_end": 278.83,
+    "text": "But pretend we can."
+  },
+  {
+    "t_start": 278.83,
+    "t_end": 279.47,
+    "text": "What sort of--"
+  },
+  {
+    "t_start": 279.47,
+    "t_end": 281.97,
+    "text": "what would it look like?"
+  },
+  {
+    "t_start": 281.97,
+    "t_end": 284.44,
+    "text": "We'll start with all the 0-point decimals."
+  },
+  {
+    "t_start": 284.44,
+    "t_end": 285.53,
+    "text": "Let's pick some decimals."
+  },
+  {
+    "t_start": 285.53,
+    "t_end": 287.525,
+    "text": "0.121--"
+  },
+  {
+    "t_start": 287.525,
+    "t_end": 288.84,
+    "text": "dot dot dot dot dot."
+  },
+  {
+    "t_start": 288.84,
+    "t_end": 289.93,
+    "text": "Let's pick the next one."
+  },
+  {
+    "t_start": 289.93,
+    "t_end": 293.01,
+    "text": "Let's say the next one is 0.221--."
+  },
+  {
+    "t_start": 293.01,
+    "t_end": 300.23,
+    "text": "Next one, let's do 0.31111129--."
+  },
+  {
+    "t_start": 300.23,
+    "t_end": 302.74,
+    "text": "And let's take another one, here."
+  },
+  {
+    "t_start": 302.74,
+    "t_end": 306.25,
+    "text": "0.00176--."
+  },
+  {
+    "t_start": 306.25,
+    "t_end": 309.42,
+    "text": "Now I'm going to make a number."
+  },
+  {
+    "t_start": 309.42,
+    "t_end": 311.02,
+    "text": "This is the number I'm going to make."
+  },
+  {
+    "t_start": 311.02,
+    "t_end": 313.78,
+    "text": "I'm going to take the diagonals here."
+  },
+  {
+    "t_start": 313.78,
+    "t_end": 316.81,
+    "text": "I'm going to take this number and this number and this"
+  },
+  {
+    "t_start": 316.81,
+    "t_end": 320.34,
+    "text": "number and this number and this number."
+  },
+  {
+    "t_start": 320.34,
+    "t_end": 324.16,
+    "text": "And I am going to write that down."
+  },
+  {
+    "t_start": 324.16,
+    "t_end": 325.42,
+    "text": "So what's that number I've made?"
+  },
+  {
+    "t_start": 325.42,
+    "t_end": 330.75,
+    "text": "It's 0.12101--"
+  },
+  {
+    "t_start": 330.75,
+    "t_end": 332.69,
+    "text": "something, something, something."
+  },
+  {
+    "t_start": 332.69,
+    "t_end": 335.28,
+    "text": "Now this is my rule."
+  },
+  {
+    "t_start": 335.28,
+    "t_end": 338.68,
+    "text": "I'm going to make a whole new number from that one."
+  },
+  {
+    "t_start": 338.68,
+    "t_end": 339.84,
+    "text": "This is the number I'm going to make."
+  },
+  {
+    "t_start": 339.84,
+    "t_end": 344.89,
+    "text": "If it has a 1, I'm going to change it to a 2."
+  },
+  {
+    "t_start": 344.89,
+    "t_end": 352.34,
+    "text": "And if it has a 2 or anything else, I will change it to a 1."
+  },
+  {
+    "t_start": 352.34,
+    "t_end": 353.792,
+    "text": "So let's try that."
+  },
+  {
+    "t_start": 353.792,
+    "t_end": 355.97,
+    "text": "So I'm going to turn this into--"
+  },
+  {
+    "t_start": 355.97,
+    "t_end": 356.16,
+    "text": "0-point."
+  },
+  {
+    "t_start": 356.16,
+    "t_end": 359.39,
+    "text": "So if it has a 1, I'm going to turn it into a 2."
+  },
+  {
+    "t_start": 359.39,
+    "t_end": 361.98,
+    "text": "If it's anything else, I'm going to turn it into a 1."
+  },
+  {
+    "t_start": 361.98,
+    "t_end": 363.37,
+    "text": "So that will be a 1."
+  },
+  {
+    "t_start": 363.37,
+    "t_end": 366.13,
+    "text": "I'm going to change 1 here into a 2."
+  },
+  {
+    "t_start": 366.13,
+    "t_end": 367.83,
+    "text": "I'm going to change that one into a 1."
+  },
+  {
+    "t_start": 367.83,
+    "t_end": 370.96,
+    "text": "I'm going to change that one into a 2-- that was my rule."
+  },
+  {
+    "t_start": 370.96,
+    "t_end": 372.95,
+    "text": "And I'll make something new."
+  },
+  {
+    "t_start": 372.95,
+    "t_end": 375.24,
+    "text": "That does not appear on the list."
+  },
+  {
+    "t_start": 375.24,
+    "t_end": 378.21,
+    "text": "That number is completely different from anything else"
+  },
+  {
+    "t_start": 378.21,
+    "t_end": 382.15,
+    "text": "on the list, because it's not the first number, because it's"
+  },
+  {
+    "t_start": 382.15,
+    "t_end": 384.17,
+    "text": "different in the first place."
+  },
+  {
+    "t_start": 384.17,
+    "t_end": 386.68,
+    "text": "It's not the second number, because it's different in"
+  },
+  {
+    "t_start": 386.68,
+    "t_end": 387.99,
+    "text": "second place."
+  },
+  {
+    "t_start": 387.99,
+    "t_end": 390.46,
+    "text": "It's not the third number, because it's different in the"
+  },
+  {
+    "t_start": 390.46,
+    "t_end": 391.56,
+    "text": "third place."
+  },
+  {
+    "t_start": 391.56,
+    "t_end": 393.67,
+    "text": "It's not the fourth number because it's different in the"
+  },
+  {
+    "t_start": 393.67,
+    "t_end": 395.06,
+    "text": "fourth place."
+  },
+  {
+    "t_start": 395.06,
+    "t_end": 397.12,
+    "text": "It's not the fifth number, because it's different in the"
+  },
+  {
+    "t_start": 397.12,
+    "t_end": 398.08,
+    "text": "fifth place."
+  },
+  {
+    "t_start": 398.08,
+    "t_end": 400.34,
+    "text": "You've made a number that's not on that list."
+  },
+  {
+    "t_start": 400.34,
+    "t_end": 405.57,
+    "text": "And so you can't list all the decimals, in which case it is"
+  },
+  {
+    "t_start": 405.57,
+    "t_end": 406.56,
+    "text": "uncountable."
+  },
+  {
+    "t_start": 406.56,
+    "t_end": 407.82,
+    "text": "It is unlistable."
+  },
+  {
+    "t_start": 407.82,
+    "t_end": 411.28,
+    "text": "And that means it's a whole new type of infinity."
+  },
+  {
+    "t_start": 411.28,
+    "t_end": 414.15,
+    "text": "A bigger type of infinity."
+  },
+  {
+    "t_start": 414.15,
+    "t_end": 414.77,
+    "text": "BRADY HARAN: Surely we could, James, because all we've got"
+  },
+  {
+    "t_start": 414.77,
+    "t_end": 418.26,
+    "text": "to do is keep doing your game and making them and adding"
+  },
+  {
+    "t_start": 418.26,
+    "t_end": 418.95,
+    "text": "them to the list."
+  },
+  {
+    "t_start": 418.95,
+    "t_end": 421.66,
+    "text": "And if we keep doing that, won't we get there eventually?"
+  },
+  {
+    "t_start": 421.66,
+    "t_end": 423.46,
+    "text": "JAMES GRIME: But you could then create another number"
+  },
+  {
+    "t_start": 423.46,
+    "t_end": 424.58,
+    "text": "that won't be on that list."
+  },
+  {
+    "t_start": 424.58,
+    "t_end": 426.96,
+    "text": "And so the guy who came up with is a German mathematician"
+  },
+  {
+    "t_start": 426.96,
+    "t_end": 428.33,
+    "text": "called Cantor."
+  },
+  {
+    "t_start": 428.33,
+    "t_end": 431.48,
+    "text": "Cantor lived 'round about the turn of the 20th century."
+  },
+  {
+    "t_start": 431.48,
+    "t_end": 434.39,
+    "text": "He was ridiculed for this."
+  },
+  {
+    "t_start": 434.39,
+    "t_end": 437.9,
+    "text": "For this idea that there were different types of infinity,"
+  },
+  {
+    "t_start": 437.9,
+    "t_end": 439.91,
+    "text": "he was called a charlatan."
+  },
+  {
+    "t_start": 439.91,
+    "t_end": 442.84,
+    "text": "And he was called-- it was nonsense, it was called."
+  },
+  {
+    "t_start": 442.84,
+    "t_end": 447.59,
+    "text": "And poor old Cantor was treated really badly by his"
+  },
+  {
+    "t_start": 447.59,
+    "t_end": 452.81,
+    "text": "contemporaries, and he spent a lot of his later life in and"
+  },
+  {
+    "t_start": 452.81,
+    "t_end": 457.9,
+    "text": "out of mental institutions, where he died, in the end."
+  },
+  {
+    "t_start": 457.9,
+    "t_end": 459.86,
+    "text": "Near the end of his life, it was recognized."
+  },
+  {
+    "t_start": 459.86,
+    "t_end": 460.6,
+    "text": "It was true."
+  },
+  {
+    "t_start": 460.6,
+    "t_end": 461.6,
+    "text": "It was recognized."
+  },
+  {
+    "t_start": 461.6,
+    "t_end": 465.19,
+    "text": "And he had all the recognition that he deserved."
+  },
+  {
+    "t_start": 465.19,
+    "t_end": 466.39,
+    "text": "BRADY HARAN: And now he's on Numberphile."
+  },
+  {
+    "t_start": 466.39,
+    "t_end": 467.75,
+    "text": "JAMES GRIME: And now he's on Numberphile, the greatest"
+  },
+  {
+    "t_start": 467.75,
+    "t_end": 469.34,
+    "text": "accolade of all."
+  },
+  {
+    "t_start": 469.34,
+    "t_end": 470.59,
+    "text": "Georg Cantor."
+  }
+]

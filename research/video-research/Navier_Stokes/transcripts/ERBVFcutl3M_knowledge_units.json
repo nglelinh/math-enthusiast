@@ -1,0 +1,100 @@
+[
+  {
+    "id": "ku_video_ERBVFcutl3M_0",
+    "t_start": 0.0,
+    "t_end": 92.6,
+    "type": "overview",
+    "summary": "(Brady: Dude, this is the first for Numberphile) On the ribs as well. The pain of the ribs, like there's - I'm gonna say this is a complete commitment to, to Navier-Stokes and fluid mechanics. (Brady: Why did you do that?) Well... What are the Navier-Stokes eqations? The first one: grad dot u = 0 And the second one Rho, Du by Dt = - grad p + Mu grad squared u + rhoF Like most mathematical equations perhaps, they look quite scary, but they're actually universal laws of physics. So this is why these guys model every single fluid we have on Earth. And I mean every fluid. Put a fluid in your he…"
+  },
+  {
+    "id": "ku_video_ERBVFcutl3M_92",
+    "t_start": 92.6,
+    "t_end": 184.0,
+    "type": "overview",
+    "summary": "I'm not adding anything, I'm not removing anything I would want the same mass of fluid to still be there. Mass is conserved. It's a pretty standard law of physics, makes a lot of sense. This guy is just Newton's second law. So this is just telling us that mass times acceleration is force. The top one tends to be the mass equation, conservation of mass, or the incompressibility equation. And the second one is the momentum equation - or the small one and the big one. I quite like that. Let's start with the little one. So u, here, this is our velocity. So this is just speed with a direction. I…"
+  },
+  {
+    "id": "ku_video_ERBVFcutl3M_183",
+    "t_start": 184.0,
+    "t_end": 275.1,
+    "type": "overview",
+    "summary": "du by dx, so differentiate the first bit with respect to its coordinate, which is x. It's the first coordinate, x coordinate, differentiate with respect to x. Then we're gonna add derivative of the second one with respect to our second coordinate - dy. And hopefully you figured out the pattern. We're then gonna add on dw by dz. So this is the divergence of our velocity, it's just three derivatives. So it's saying how does the x component of my velocity u, how does that change as I move in the x direction? Then how does v, my y component, change in the y direction? And how does the third com…"
+  },
+  {
+    "id": "ku_video_ERBVFcutl3M_275",
+    "t_start": 275.6,
+    "t_end": 366.3,
+    "type": "overview",
+    "summary": "So saltwater is heavier in that sense, but it's, you sort of, mass and density are the same thing when it comes to fluids, that's how you you sort of work with those things. So rho, this Greek letter here, that is going to be our density. So this is our mass in that situation. So this is mass times acceleration. That's our Newton's second law of the left-hand side. And then all of this sort of stuff going on over here, these are just all the forces. So what we've got, we have the first two terms. These guys are what we call the internal forces. So this is the force between all of those flui…"
+  },
+  {
+    "id": "ku_video_ERBVFcutl3M_366",
+    "t_start": 366.6,
+    "t_end": 458.0,
+    "type": "overview",
+    "summary": "So this is very similar to our mass equation up here. So the gradient of p, our pressure gradient, is a vector representing the change in pressure. When there is a difference in pressure, a change in pressure, high pressure over here, low pressure over here, the air moves, from high pressure to low pressure. If there's a gradient there's a difference in pressure between two points that causes the fluid to move between or along that pressure gradient. So that is creating a force. So then the final internal force - this guy. So this is viscosity. Kind of what it's made up, so you've got all t…"
+  },
+  {
+    "id": "ku_video_ERBVFcutl3M_458",
+    "t_start": 458.9,
+    "t_end": 549.5,
+    "type": "overview",
+    "summary": "we don't actually know if they always have solutions. They can be used for almost anything you can think of involving a fluid. aerodynamics of a Formula One car, they could be designing new aircraft to go faster than the speed of sound, this could be blood flow around the body for drug delivery, maximising the way the drug is deposited to do with the blood flow. This could be pollution modelling, climate modelling, ocean modelling - or anything involving a fluid. It has to satisfy these equations. So these are always your starting point, but then the problem is, and this is why you get the …"
+  },
+  {
+    "id": "ku_video_ERBVFcutl3M_549",
+    "t_start": 549.7,
+    "t_end": 646.3,
+    "type": "overview",
+    "summary": "The butterfly effect - it's like a chain reaction. It's one thing leads to another leads to another. But in the in the sense of having an equation, you input something into your equation - it's like a function machine. You input some initial condition, it outputs what's gonna happen next, predicts almost like the future. So you start with your fluid, it has some velocity, our u. Some pressure, some viscosity, input it - Navier-Stokes tells you how that fluid is going to move. You know, you can do these experiments so you know what's gonna happen and you want the equations to give you that r…"
+  },
+  {
+    "id": "ku_video_ERBVFcutl3M_646",
+    "t_start": 646.6,
+    "t_end": 740.6,
+    "type": "overview",
+    "summary": "get ways around it by making assumptions and making simplifications. So that's one way to use them. And then another way is to, what's called averaging. So rather than having a velocity field defined everywhere, you can say \"well what if I just take a big circle of fluid, take the average velocity in that circle, and I want to know how that changes and how that behaves?\" That we can do, so that's called averaging, Reynolds averaging of the Navier-Stokes equations and that is the kind of stuff that we do in climate modelling. Because you can't - the computer power alone to model every partic…"
+  },
+  {
+    "id": "ku_video_ERBVFcutl3M_740",
+    "t_start": 740.6,
+    "t_end": 834.7,
+    "type": "overview",
+    "summary": "we can show there's always a solution. It's always well behaved, it works. And then when you go to three dimensions for whatever reason, it's just not working, we can't do it. We have shown that weak solutions exist. So these are sort of rather than being full solutions, they're similar to the averaging solutions, not exactly, but like some form of solution we can get. We can get solutions when the initial velocity is really small. We restrict to say we're only going to move at tiny speeds to start with then we can show solutions always exist. We can show solutions always exist for finite t…"
+  },
+  {
+    "id": "ku_video_ERBVFcutl3M_834",
+    "t_start": 834.8,
+    "t_end": 929.6,
+    "type": "overview",
+    "summary": "The most recent progress in 2016 by Terence Tao, he actually showed that for the averaged Navier-Stokes equations, that you do get blow up in finite time. The way he's approached that could be a way of showing that the full 3D equations could also blow up in finite time. So that would be that we don't always expect a solution. So we don't really know which way it's going to go. I think one of the key things is about understanding turbulence. So turbulence is this chaotic, random motion of air, particles of water; think of two waves crashing into each other in the ocean. That is almost as ra…"
+  },
+  {
+    "id": "ku_video_ERBVFcutl3M_929",
+    "t_start": 929.6,
+    "t_end": 1021.5,
+    "type": "overview",
+    "summary": "it works. But it's just from a mathematics point of view, we just don't have that proof. It's a classic case of maths wanting to know for certain, rather than just knowing that it works in every case we can think of, we don't have that proof that it will always work; or an explanation of why it might not. (Brady: If I gave you the dream computer,) (that doesn't exist, and all the possible inputs you need at the start, this equation would get you there.) (It would just take, you know, a lot of power.) - You make a good point. You can import any bit of data, any initial condition you want. Bu…"
+  },
+  {
+    "id": "ku_video_ERBVFcutl3M_1021",
+    "t_start": 1021.7,
+    "t_end": 1117.5,
+    "type": "overview",
+    "summary": "This is the, this is the sort of paradox. It's, it's everything we've done here makes complete sense. Because these, these two laws: mass is conserved, Newton's second law, this will hold for any - like this works for a solid. It's not just fluid mechanics, you do the same thing with solid mechanics. You get slightly different internal forces, but it's the same. It's the same set up. So, so there's it doesn't seem like that bit should be wrong. You know, it's, it's conservation of mass, its force is mass times acceleration. There's no reason to think that that's incorrect so something, some…"
+  },
+  {
+    "id": "ku_video_ERBVFcutl3M_1118",
+    "t_start": 1119.0,
+    "t_end": 1210.0,
+    "type": "overview",
+    "summary": "(division, like just simple division, works and I use it every day.) (It's just there's this is one glitch where if you divide by zero, it kind of goes a bit weird.) (But that doesn't matter because I never actually need to divide by zero.) - Exactly. There are always ways around it. There are approximations, there are, you know, you know it's a very large number so you just leave it at that. (Brady: So this is something that doesn't really matter, but it matters to you?) It doesn't matter to any application of Navier-Stokes, but it does matter to maths. And it's the classic case of \"alrigh…"
+  },
+  {
+    "id": "ku_video_ERBVFcutl3M_1210",
+    "t_start": 1210.0,
+    "t_end": 1262.1,
+    "type": "overview",
+    "summary": "(Brady: Oh there we go.) - The little guy and the big guy. (Brady: Dude) (This is a first for Numberphile.) - On the ribs as well, the pain of the ribs. Like, that's, I'm gonna say this is complete commitment to, to Navier-Stokes and fluid mechanics. (Brady: Why did you do that?) Well, I, ny PhD was studying fluid mechanics and these equations just - they just model it. So I spent four years of my life trying to - not necessarily understand them but studying them and using them, and it just felt like, it felt like the right thing to get to be honest. (Brady: What did what did the artist say…"
+  }
+]

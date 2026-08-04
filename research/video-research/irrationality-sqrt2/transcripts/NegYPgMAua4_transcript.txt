@@ -1,0 +1,239 @@
+0.375 is an example of what we call a rational number because it can be
+expressed as a ratio of two integers in particular it's equal to 3 over 8 very
+particular it's equal to 3 over 8 very famously not every number has this
+famously not every number has this property of being rational indeed the
+very well-known number Pi which is the ratio of a circle circumference to its
+ratio of a circle circumference to its diameter is not a rational number
+although Pi is most famous of these irrational numbers it's not the first
+irrational numbers it's not the first number that was proven to be irrational
+it is certainly most likely that the first number proven to be irrational is
+first number proven to be irrational is the square root of two this is the
+the square root of two this is the number that when multiplied by itself
+number that when multiplied by itself produces two it's approximately equal to
+produces two it's approximately equal to the fraction
+the fraction 577 over
+48 but it's not exact and indeed there is no way to write the square &lt; TK of
+is no way to write the square &lt; TK of two as a ratio of integers like this in
+two as a ratio of integers like this in many respects we view these irrational
+many respects we view these irrational numbers as not being nice numbers five
+numbers as not being nice numbers five is a nice number 24 that's a nice number
+is a nice number 24 that's a nice number but these
+irrationals not so nice now commonly the story is told that it was hesus who
+story is told that it was hesus who first proved the existence of such
+first proved the existence of such naughty numbers by proving that the
+naughty numbers by proving that the square &lt; TK of two is irrational this
+would have been somewhere in the neighborhood of of 500 BC and for hesus
+neighborhood of of 500 BC and for hesus is incredible proof that the square root
+is incredible proof that the square root of two is irrational he died you see
+hesus was a follower of Pythagoras in his quasi religious Brotherhood of
+his quasi religious Brotherhood of pythagoreans and they believed that all
+pythagoreans and they believed that all could be described with positive
+could be described with positive integers by establishing that wasn't the
+integers by establishing that wasn't the case hesus totally blew up their
+case hesus totally blew up their worldview and so the story goes that
+worldview and so the story goes that they drowned him although there is no
+they drowned him although there is no evidence to support this it's a neat
+evidence to support this it's a neat little story so long as you find getting
+little story so long as you find getting executed for revealing the truth to be a
+executed for revealing the truth to be a little neat anyhow the proof that is
+commonly cited for the square &lt; TK of two being irrational starts by assuming
+two being irrational starts by assuming that the square &lt; TK of two is in fact
+trying to prove we might say that the square &lt; TK of 2 is equal to a / B so
+square &lt; TK of 2 is equal to a / B so hey look it is a ratio of two integers
+hey look it is a ratio of two integers from this assumption the proof goes
+from this assumption the proof goes through some additional work and ually
+through some additional work and ually arises at an absurdity which means the
+arises at an absurdity which means the original assumption that the &lt; TK of two
+was rational must have been false in these days geometry was the predominant
+these days geometry was the predominant and most highly respected form of
+and most highly respected form of mathematics so it's a little strange
+mathematics so it's a little strange that this classic proof is not very
+that this classic proof is not very geometrical at all and that's why today
+geometrical at all and that's why today I am pleased to share with you what's
+I am pleased to share with you what's perhaps the most beautiful proof of all
+perhaps the most beautiful proof of all that the square root of two is
+irrational this proof is due to Tom Apostle who published it in the American
+Apostle who published it in the American mathematical monthly in November of 2000
+mathematical monthly in November of 2000 Apostle is very well known for his
+Apostle is very well known for his calculus textbook which you will have to
+calculus textbook which you will have to take out a loan to buy if you check the
+prices on eBay Tom Apostle's proof of the irrationality of the square &lt; TK of
+the irrationality of the square &lt; TK of two is not only quite brief but it's
+also geometric and pretty easy to follow now one question you might have is why
+now one question you might have is why we should be so concerned with the
+Square &lt; t of two anyways I mean if it was a contrived number that would never
+was a contrived number that would never actually show up in natural
+actually show up in natural circumstances then perhaps we wouldn't
+circumstances then perhaps we wouldn't have to worry so much about these
+theorem we know that if we consider the diagonal of a square with side length of
+diagonal of a square with side length of one we would call that a unit square if
+we consider its diagonal it is easy to apply the Pythagorean theorem and find
+apply the Pythagorean theorem and find that the length of the diagonal is the
+that the length of the diagonal is the square root of two so indeed this is
+cut that square along the diagonal we would get this triangle this is called
+would get this triangle this is called an isosceles right triangle that's
+because it has a right angle and its two legs have the same length in this case
+legs have the same length in this case we're saying that they came from the
+unit square and so the length of those legs is one and of course the diagonal
+has length Square &lt; TK of two in this case this is the hypotenuse of the right
+case this is the hypotenuse of the right triangle now of course we could shrink
+triangle now of course we could shrink this triangle by multiplying all the
+this triangle by multiplying all the sides by some number less than one or we
+multiplying all of the sides by something greater than one either way
+something greater than one either way its shape would stay the same but the
+its shape would stay the same but the lengths of the sides would be different
+sides by the same thing we would still have an isoceles right triangle now as
+have an isoceles right triangle now as mathematicians often do let us do some
+mathematicians often do let us do some supposing suppose that the square &lt; TK
+supposing suppose that the square &lt; TK of two is rational if the square &lt; TK of
+two is rational then by definition of a rational number that means we could
+write it as a ratio of two integers A and B where B is not zero now since the
+and B where B is not zero now since the length of this hypotenuse is the square
+length of this hypotenuse is the square &lt; TK of two well its length must also be
+these sides by a factor of B to scale up the triangle if we scale this triangle
+the triangle if we scale this triangle up by a factor of B well then this side
+this side would have a length of b as well because it's just 1 * B but the
+well because it's just 1 * B but the hypotenuse would have a length of a
+because it was A over B but if we scale it up by a factor of B well the B's
+it up by a factor of B well the B's would cancel out and it would have a
+length of a which is an integer in other words we would have an isoceles right
+words we would have an isoceles right triangle with integer sides those two
+legs would have length B which is an integer and like we said the hypotenuse
+integer and like we said the hypotenuse would have a length a which is is also
+an integer so if we assume that the sare &lt; TK of two is rational then it must be
+&lt; TK of two is rational then it must be the case that there exists an isoceles
+the case that there exists an isoceles right triangle with integer sides after
+right triangle with integer sides after we scale this triangle up by that factor
+of B now it turns out this is going to be a big problem because if there exists
+be a big problem because if there exists an integer right triangle with integer
+an integer right triangle with integer sides well we're talking about the
+lengths of sides so we're certainly talking about positive integers and
+there is a smallest positive integer namely one so if there's an isoceles
+namely one so if there's an isoceles right triangle with integer sides then
+right triangle with integer sides then certainly there is a smallest isoceles
+certainly there is a smallest isoceles right triangle with integer sides and
+right triangle with integer sides and this is where the trouble begins imagine
+if I said to you there exists a least number you would say well that's hogwash
+number you would say well that's hogwash because no matter what number I propose
+because no matter what number I propose you could subtract one from it to get a
+lesser number I might say yes it turns out ne5 that's the least number there is
+out ne5 that's the least number there is and you could say well no cuz I could
+and you could say well no cuz I could subtract one and get -6 Which is less
+subtract one and get -6 Which is less than -5 by understanding that we could
+than -5 by understanding that we could take any number and subtract one from it
+take any number and subtract one from it we would prove my assertion wrong there
+we would prove my assertion wrong there can't be a least number and we're going
+can't be a least number and we're going to use the same sort of argument to
+to use the same sort of argument to prove that this cannot be the case there
+cannot be a smallest Isles right triangle with integer sides but for now
+of course we have to assume this is the case because we assume that the &lt; TK of
+true so if there is a smallest isoceles right triangle with integer sides well
+let's say it's this one here we'll name the vertices of this triangle A O and B
+the vertices of this triangle A O and B and all of these sides have integer
+and all of these sides have integer lengths now of course we've also assumed
+lengths now of course we've also assumed this is an isoceles right triangle so
+this must be a right angle and these two legs must have the same lengths which
+means that the angles opposite them must be congruent so this angle maybe it has
+be congruent so this angle maybe it has a measure of X must have the same
+a measure of X must have the same measure as that one over there which
+measure as that one over there which would then also have a measure of X now
+what we're going to do is use this isoceles right triangle with integer
+sides to construct a smaller isoceles right triangle with integer sides that's
+right triangle with integer sides that's going to be a contradiction because we
+going to be a contradiction because we assume this was the smallest isoceles
+assume this was the smallest isoceles right triangle with integer sides for
+right triangle with integer sides for this construction we're going to need a
+this construction we're going to need a circular Arc right here so we better
+circular Arc right here so we better bust out the compass we're going to take
+bust out the compass we're going to take an arc of this circle that has a center
+an arc of this circle that has a center at a and its radius is the leg length of
+this isoceles right triangle so extend it out to O and let's draw that circular
+Arc now since I used the compass that Arc looks perfect but just you can see
+Arc looks perfect but just you can see it more clearly I'm going to outline it
+it more clearly I'm going to outline it with Sharpie and of course it's not
+with Sharpie and of course it's not going to look quite as perfect once I do
+that now this point where the ark intersects the side AB let's label that
+and call it C now to finish the construction of our smaller isoceles
+right triangle all we're going to do is construct the segment which is perpendic
+construct the segment which is perpendic to this side AB that comes from C and
+goes down to the side o b so this segment comes from C it's perpendicular
+at C and intersects that opposite side and where this perpendicular intersects
+and where this perpendicular intersects the side o we'll go ahead and label that
+point and call it D all right now here with BC D we clearly have a right
+with BC D we clearly have a right triangle it has been constructed to be a
+triangle it has been constructed to be a right triangle what remains to be proven
+isoceles for one and we need to prove that its sides have integer lengths
+that its sides have integer lengths clearly it's smaller than the original
+clearly it's smaller than the original triangle because we've constructed it
+inside the original triangle so if we can establish those other two facts we
+can establish those other two facts we will complete the proof now first is it
+will complete the proof now first is it isoceles yes it's definitely isoceles
+because this side has to have the same length as that side how do we know well
+because this angle X has to have the same measure as that angle how do we
+same measure as that angle how do we know that well it's because this angle
+know that well it's because this angle plus X plus a right angle is 180 because
+180° now this triangle also has 180° and since the two angles that we know are 90
+and X just like in the big triangle we had 90 and X this missing angle also has
+had 90 and X this missing angle also has to be X because it has to add with those
+this angle has to have a measure of X thus this is an isoceles right triangle
+thus this is an isoceles right triangle that side has the same length as that
+that side has the same length as that side again that's because X Plus 90° had
+must be the case that X added with 90° must add to X to produce 180 now showing
+must add to X to produce 180 now showing that all of these sides have integer
+that all of these sides have integer lengths is actually very easy as well
+lengths is actually very easy as well because remember AO we know has an
+integer length because we assume this is an isoceles right triangle with integer
+sides and we took that side to be the radius of the circle that this Arc came
+from which means that this guy over here a is also a radius of that Circle since
+a is also a radius of that Circle since it goes from a to this point on the arc
+radius this is a radius so AC must in fact have the same length as AO those
+fact have the same length as AO those segments are congruent and so this AC
+segments are congruent and so this AC must also have an integer length but
+must also have an integer length but then remember this whole hypotenuse had
+then remember this whole hypotenuse had to have an integer length as well
+to have an integer length as well because again the original triangle has
+because again the original triangle has integer sides if this whole thing has an
+integer length and AC has an integer length well BC has to have an integer
+length because the total must be an integer this piece is an integer and so
+integer this piece is an integer and so this additional piece has to also be an
+integer if it was not an integer then the whole thing couldn't be an integer
+but of course if this side CB is an integer then so is this side CD because
+the triangle is isoceles and then finally notice that both of these
+finally notice that both of these segments D and DC those segments are
+segments D and DC those segments are both perpendicular to a radius of this
+both perpendicular to a radius of this circle which we have this Arc of that
+means that in fact they are t tent to the circle because they intersect the
+the circle because they intersect the circle perpendicular to the radi now if
+two segments are tangent to a circle from the same external point they have
+from the same external point they have to be congruent that is a basic fact of
+want to proof of that but yeah that's the result two segments that are tangent
+the result two segments that are tangent to the exterior of a circle from the
+to the exterior of a circle from the same exterior point they must be
+same exterior point they must be congruent so that means that D is also
+congruent so that means that D is also an integer but remember Bo o is an
+an integer but remember Bo o is an integer because it's part of the integer
+integer because it's part of the integer sided isoceles right triangle but if
+sided isoceles right triangle but if this whole is an integer and this part
+is an integer then the rest of the hole this part here must also be an integer
+this part here must also be an integer and this part here BD is the last side
+and from that we have our contradiction which establishes the irrationality of
+argument was if the square root of two is rational then certainly we could
+is rational then certainly we could scale up this isoceles right triangle to
+scale up this isoceles right triangle to get an isoceles right triangle whose
+sides are all positive integers but if there exists an isoceles right triangle
+there exists an isoceles right triangle with integer sides there must exist a
+integer sides well if such a thing exists then certainly we are at Liberty
+to take it and here it is but we've just taken this assumed smallest integer side
+taken this assumed smallest integer side right angle isoceles triangle and used
+it to construct a smaller triangle of the same type and that's a contradiction
+the same type and that's a contradiction if this is the smallest well certainly
+if this is the smallest well certainly we can't construct a smaller one and so
+we can't construct a smaller one and so indeed as true now as it was back in 500
+indeed as true now as it was back in 500 BC the square root of two is irrational
+BC the square root of two is irrational and so with that we'll end our proof the
+way mathematicians often do r i p i mean QED QED don't kill me
+an AR to keep the cable cutting un table if Texas Instruments don't reply I think
+if Texas Instruments don't reply I think this time might be fatal which to S no F
+cuz I'm Jed hate the eyes I calulated pressing pulling praying push it all the
+pressing pulling praying push it all the way through the whole Blue Planet faded
+way through the whole Blue Planet faded psychosomatic habit why so

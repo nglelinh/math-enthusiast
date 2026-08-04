@@ -1,0 +1,1157 @@
+[
+  {
+    "t_start": 0.031,
+    "t_end": 2.917,
+    "text": "The thing that I'll be talking about today is the logistic map."
+  },
+  {
+    "t_start": 3.719,
+    "t_end": 4.601,
+    "text": "And it's really simple."
+  },
+  {
+    "t_start": 5.182,
+    "t_end": 6.505,
+    "text": "It's like shockingly simple."
+  },
+  {
+    "t_start": 7.126,
+    "t_end": 8.309,
+    "text": "So this is just 1D."
+  },
+  {
+    "t_start": 8.669,
+    "t_end": 12.478,
+    "text": "We say Xn plus 1 is R. That'll be a parameter."
+  },
+  {
+    "t_start": 12.538,
+    "t_end": 17.348,
+    "text": "We could vary Xn times 1 minus Xn."
+  },
+  {
+    "t_start": 17.328,
+    "t_end": 24.859,
+    "text": "This was created to be like a discrete population dynamics model, similar to the logistic equation."
+  },
+  {
+    "t_start": 25.079,
+    "t_end": 33.772,
+    "text": "If you remember the logistic equation, that was a differential equation, but it had a right-hand side that looked something like this, where there was like a carrying capacity for population."
+  },
+  {
+    "t_start": 34.533,
+    "t_end": 40.602,
+    "text": "But here, the space of X, we're normalizing so that it just goes from zero and one."
+  },
+  {
+    "t_start": 41.183,
+    "t_end": 45.529,
+    "text": "So we're talking about the interval zero to one."
+  },
+  {
+    "t_start": 46.1,
+    "t_end": 46.721,
+    "text": "What is r?"
+  },
+  {
+    "t_start": 47.862,
+    "t_end": 52.067,
+    "text": "If you were to plot this, you can plot xn plus one."
+  },
+  {
+    "t_start": 52.207,
+    "t_end": 56.993,
+    "text": "So this is a bit like if you remember the graphical method for one-dimensional differential equations."
+  },
+  {
+    "t_start": 57.093,
+    "t_end": 58.655,
+    "text": "Well, here we're plotting the map."
+  },
+  {
+    "t_start": 58.675,
+    "t_end": 60.077,
+    "text": "There's zero, there's one."
+  },
+  {
+    "t_start": 60.257,
+    "t_end": 61.298,
+    "text": "So here's xn."
+  },
+  {
+    "t_start": 61.579,
+    "t_end": 63.361,
+    "text": "Everything has to be between zero and one."
+  },
+  {
+    "t_start": 63.561,
+    "t_end": 65.223,
+    "text": "We're only allowing between zero and one."
+  },
+  {
+    "t_start": 65.603,
+    "t_end": 66.484,
+    "text": "Where does this peak?"
+  },
+  {
+    "t_start": 66.665,
+    "t_end": 69.348,
+    "text": "It actually peaks at the halfway mark."
+  },
+  {
+    "t_start": 69.568,
+    "t_end": 73.693,
+    "text": "So one half, it's a parabola, goes up from zero and then it goes up."
+  },
+  {
+    "t_start": 74.062,
+    "t_end": 76.765,
+    "text": "Back down to zero symmetrically."
+  },
+  {
+    "t_start": 77.746,
+    "t_end": 81.489,
+    "text": "And it peaks at r over four."
+  },
+  {
+    "t_start": 81.809,
+    "t_end": 85.933,
+    "text": "We want the map to go from zero to one to zero and one."
+  },
+  {
+    "t_start": 85.953,
+    "t_end": 90.037,
+    "text": "So we want xn plus one to be somewhere inside the unit interval."
+  },
+  {
+    "t_start": 90.618,
+    "t_end": 94.942,
+    "text": "And for that to happen, we need that this peak be one or below."
+  },
+  {
+    "t_start": 95.282,
+    "t_end": 101.368,
+    "text": "So it's conventional to let the parameter be something less than four."
+  },
+  {
+    "t_start": 101.939,
+    "t_end": 103.761,
+    "text": "But greater than zero."
+  },
+  {
+    "t_start": 104.542,
+    "t_end": 112.029,
+    "text": "And physically, this is supposed to represent the reproductive capacity of the population."
+  },
+  {
+    "t_start": 112.069,
+    "t_end": 120.218,
+    "text": "It was first in a paper by Robert May, 1976, in Nature."
+  },
+  {
+    "t_start": 120.238,
+    "t_end": 121.879,
+    "text": "It has some interesting name."
+  },
+  {
+    "t_start": 121.94,
+    "t_end": 127.305,
+    "text": "Simple mathematical models with very complicated dynamics."
+  },
+  {
+    "t_start": 129.192,
+    "t_end": 132.598,
+    "text": "And it's now become a classic."
+  },
+  {
+    "t_start": 133.86,
+    "t_end": 136.705,
+    "text": "He talks about first order and he called them difference equations."
+  },
+  {
+    "t_start": 137.427,
+    "t_end": 145.861,
+    "text": "And maybe that's a term you've heard or used in addition to iterated map, or I think recursion relations are also used."
+  },
+  {
+    "t_start": 147.845,
+    "t_end": 151.892,
+    "text": "So he wrote this, right?"
+  },
+  {
+    "t_start": 152.682,
+    "t_end": 153.563,
+    "text": "That's what we're looking at."
+  },
+  {
+    "t_start": 153.663,
+    "t_end": 166.521,
+    "text": "He called the parameter a and referred to time, the discrete time as t. We're going to refer to the discrete time as little n and use r as our bifurcation parameter."
+  },
+  {
+    "t_start": 168.804,
+    "t_end": 180.58,
+    "text": "Robert May was a, I think, trained in physics, but then was in biology departments and"
+  },
+  {
+    "t_start": 180.897,
+    "t_end": 184.723,
+    "text": "Sort of a father of mathematical ecology."
+  },
+  {
+    "t_start": 185.605,
+    "t_end": 186.847,
+    "text": "So it's become this classic."
+  },
+  {
+    "t_start": 187.247,
+    "t_end": 189.471,
+    "text": "This is where the logistic map was introduced."
+  },
+  {
+    "t_start": 190.192,
+    "t_end": 196.122,
+    "text": "In some sense, it's the simplest nonlinear map because all it has is a quadratic nonlinearity."
+  },
+  {
+    "t_start": 196.507,
+    "t_end": 203.879,
+    "text": "Xn plus 1 equals, if we were to write it out, it's Rxn minus Rxn squared."
+  },
+  {
+    "t_start": 204.159,
+    "t_end": 210.349,
+    "text": "If it was just Rxn, then it'd be a linear map, easier to analyze, but it's not linear."
+  },
+  {
+    "t_start": 210.67,
+    "t_end": 211.191,
+    "text": "What happens?"
+  },
+  {
+    "t_start": 211.231,
+    "t_end": 212.352,
+    "text": "What's the big deal with this map?"
+  },
+  {
+    "t_start": 212.973,
+    "t_end": 222.649,
+    "text": "You can pick an initial condition, x0, which has to be somewhere in this interval between 0 and 1, and then you would write, you know, x1 equals..."
+  },
+  {
+    "t_start": 223.473,
+    "t_end": 227.277,
+    "text": "R, X naught, one minus X naught."
+  },
+  {
+    "t_start": 228.518,
+    "t_end": 232.342,
+    "text": "And then you'd say, well, X two, whatever you get for X one, right?"
+  },
+  {
+    "t_start": 232.362,
+    "t_end": 236.646,
+    "text": "So this is, it's really simple to code up as a for loop and then plot it."
+  },
+  {
+    "t_start": 237.888,
+    "t_end": 241.812,
+    "text": "R, X one, one minus X one, and so on."
+  },
+  {
+    "t_start": 242.592,
+    "t_end": 244.114,
+    "text": "And then you could just see what happens."
+  },
+  {
+    "t_start": 244.474,
+    "t_end": 246.877,
+    "text": "So we'll do that for some initial conditions."
+  },
+  {
+    "t_start": 247.157,
+    "t_end": 250.24,
+    "text": "I'll sketch some here, but then we'll even see it numerically."
+  },
+  {
+    "t_start": 251.063,
+    "t_end": 259.952,
+    "text": "You could pretty easily find numerical tools online for the logistic map because it's so well known."
+  },
+  {
+    "t_start": 260.333,
+    "t_end": 262.015,
+    "text": "The parameter is going to play a big role."
+  },
+  {
+    "t_start": 262.475,
+    "t_end": 264.217,
+    "text": "Bifurcations are very important here."
+  },
+  {
+    "t_start": 265.358,
+    "t_end": 274.708,
+    "text": "If we were to look at what happens with r equals 0.5, along this axis, the horizontal axis, this will be the discrete time n. So there'll be time 0."
+  },
+  {
+    "t_start": 276.832,
+    "t_end": 283.12,
+    "text": "And the interval over here will be, I'll be plotting xn, has to be between zero and one."
+  },
+  {
+    "t_start": 283.56,
+    "t_end": 287.825,
+    "text": "It turns out for any initial condition for 0.5, you will get something like this."
+  },
+  {
+    "t_start": 288.166,
+    "t_end": 294.894,
+    "text": "So here's our initial condition, and then this will just get lower and lower and lower."
+  },
+  {
+    "t_start": 294.934,
+    "t_end": 297.597,
+    "text": "And really the map only spits out these points."
+  },
+  {
+    "t_start": 298.278,
+    "t_end": 305.607,
+    "text": "Xn goes to zero for any x0, so any initial condition."
+  },
+  {
+    "t_start": 305.587,
+    "t_end": 307.429,
+    "text": "As n goes to infinity."
+  },
+  {
+    "t_start": 307.91,
+    "t_end": 312.415,
+    "text": "So x equals zero is a fixed point of the map."
+  },
+  {
+    "t_start": 312.755,
+    "t_end": 323.988,
+    "text": "You might put it that way, at least for this value of r. Now, sometimes people will connect the dots, but that's just to guide your eye."
+  },
+  {
+    "t_start": 324.028,
+    "t_end": 331.577,
+    "text": "The map only spits out points, but if I wanted to guide your eye, I would draw straight segments between these."
+  },
+  {
+    "t_start": 332.35,
+    "t_end": 335.194,
+    "text": "And you can get an idea of what's happening."
+  },
+  {
+    "t_start": 336.657,
+    "t_end": 339.321,
+    "text": "And you can demonstrate that it goes to zero."
+  },
+  {
+    "t_start": 340.042,
+    "t_end": 342.906,
+    "text": "We could think of this also in terms of the cobweb plot."
+  },
+  {
+    "t_start": 343.167,
+    "t_end": 353.262,
+    "text": "If you remember the cobweb plot where we write Xn, Xn plus one, we draw the diagonal, 45 diagonal line."
+  },
+  {
+    "t_start": 353.478,
+    "t_end": 357.485,
+    "text": "Let's call this 1, 1, 0, 0."
+  },
+  {
+    "t_start": 358.186,
+    "t_end": 365.138,
+    "text": "For r 0.5, this thing rises to only the level of, what, r over 4, so that's 1 eighth."
+  },
+  {
+    "t_start": 365.639,
+    "t_end": 366.761,
+    "text": "So it's not going to be very high."
+  },
+  {
+    "t_start": 366.801,
+    "t_end": 370.407,
+    "text": "It's going to be, it never actually,"
+  },
+  {
+    "t_start": 370.606,
+    "t_end": 375.691,
+    "text": "Other than at the origin, it does not intersect that 45 degree angle line."
+  },
+  {
+    "t_start": 376.552,
+    "t_end": 387.422,
+    "text": "So according to the cobweb plot construction, if we started with some initial condition, we would go up to the curve, and that tells us where to go."
+  },
+  {
+    "t_start": 387.442,
+    "t_end": 395.169,
+    "text": "We go from there horizontally to this 45 degree line, and then this would take us down to this point."
+  },
+  {
+    "t_start": 395.709,
+    "t_end": 396.81,
+    "text": "I kind of have to zoom in here."
+  },
+  {
+    "t_start": 397.171,
+    "t_end": 397.931,
+    "text": "Ooh, look at that."
+  },
+  {
+    "t_start": 397.951,
+    "t_end": 398.672,
+    "text": "Look what I can do."
+  },
+  {
+    "t_start": 400.171,
+    "t_end": 402.734,
+    "text": "And then we would go across to here."
+  },
+  {
+    "t_start": 403.214,
+    "t_end": 406.158,
+    "text": "And you can kind of see the cobweb plot is just taking us into the origin."
+  },
+  {
+    "t_start": 406.778,
+    "t_end": 408.84,
+    "text": "And this will happen no matter where we start."
+  },
+  {
+    "t_start": 411.163,
+    "t_end": 416.589,
+    "text": "So I'm just using the same rules for the cobweb plot that I did before when we were talking about the Lorenz map."
+  },
+  {
+    "t_start": 417.49,
+    "t_end": 419.912,
+    "text": "So that's for r equals 0.5."
+  },
+  {
+    "t_start": 420.934,
+    "t_end": 424.137,
+    "text": "What about for something a bit bigger?"
+  },
+  {
+    "t_start": 424.825,
+    "t_end": 426.769,
+    "text": "So I'll look at r equals 2.8."
+  },
+  {
+    "t_start": 427.01,
+    "t_end": 429.796,
+    "text": "This is what we get for the orbit."
+  },
+  {
+    "t_start": 430.237,
+    "t_end": 433.424,
+    "text": "If we start somewhere, I'll start at some other initial condition."
+  },
+  {
+    "t_start": 433.444,
+    "t_end": 435.949,
+    "text": "Remember, this only goes from between 0 and 1."
+  },
+  {
+    "t_start": 436.41,
+    "t_end": 440.198,
+    "text": "If I start, say, here, the next iterate gets a little bit further up."
+  },
+  {
+    "t_start": 440.579,
+    "t_end": 441.501,
+    "text": "And then I go..."
+  },
+  {
+    "t_start": 441.481,
+    "t_end": 467.843,
+    "text": "Up somewhere but then i go down and that just sort of dampens out until i reach a fixed point and again the map only spits out the points we could draw lines to connect it to guide your eye and you can see hopefully what's happening it looks like it overshoots but then eventually settles down to a fixed point that's non-zero x n goes to x star as"
+  },
+  {
+    "t_start": 467.823,
+    "t_end": 471.811,
+    "text": "And goes to infinity and X star is not zero."
+  },
+  {
+    "t_start": 472.112,
+    "t_end": 474.758,
+    "text": "So there's some non-zero fixed point that shows up."
+  },
+  {
+    "t_start": 475.058,
+    "t_end": 477.784,
+    "text": "And it's the same X star for any initial condition."
+  },
+  {
+    "t_start": 478.225,
+    "t_end": 480.229,
+    "text": "And remember the range for R."
+  },
+  {
+    "t_start": 480.597,
+    "t_end": 484.102,
+    "text": "Like I said, it's conventionally taken to be from zero to four."
+  },
+  {
+    "t_start": 484.163,
+    "t_end": 486.987,
+    "text": "And I'm picking these strange values."
+  },
+  {
+    "t_start": 487.327,
+    "t_end": 488.529,
+    "text": "What about r equals 3.3?"
+  },
+  {
+    "t_start": 489.511,
+    "t_end": 491.434,
+    "text": "We do the same kind of diagram."
+  },
+  {
+    "t_start": 491.855,
+    "t_end": 494.298,
+    "text": "So this is xn goes between zero and one."
+  },
+  {
+    "t_start": 494.559,
+    "t_end": 495.5,
+    "text": "Here's what we would find."
+  },
+  {
+    "t_start": 495.901,
+    "t_end": 497.343,
+    "text": "Start with some initial condition."
+  },
+  {
+    "t_start": 497.383,
+    "t_end": 503.753,
+    "text": "What we would get is that this will go up and eventually it'll settle down."
+  },
+  {
+    "t_start": 505.218,
+    "t_end": 510.304,
+    "text": "On a cycle, so it's going between two points over and over again."
+  },
+  {
+    "t_start": 510.344,
+    "t_end": 514.749,
+    "text": "So this is like the discrete map version of a limit cycle."
+  },
+  {
+    "t_start": 514.909,
+    "t_end": 517.952,
+    "text": "Instead of being a fixed point, we settle onto a cycle."
+  },
+  {
+    "t_start": 518.313,
+    "t_end": 522.337,
+    "text": "It jumps between the same two points as n goes to infinity."
+  },
+  {
+    "t_start": 522.617,
+    "t_end": 525.0,
+    "text": "And this is independent of the initial condition."
+  },
+  {
+    "t_start": 525.22,
+    "t_end": 527.783,
+    "text": "So you take any initial condition, it'll..."
+  },
+  {
+    "t_start": 527.763,
+    "t_end": 528.804,
+    "text": "It'll settle on this."
+  },
+  {
+    "t_start": 529.085,
+    "t_end": 534.631,
+    "text": "We call this a period two orbit, or you could call it a period two cycle."
+  },
+  {
+    "t_start": 535.151,
+    "t_end": 536.413,
+    "text": "And it's also stable."
+  },
+  {
+    "t_start": 536.813,
+    "t_end": 537.895,
+    "text": "It is the attractor."
+  },
+  {
+    "t_start": 538.135,
+    "t_end": 543.922,
+    "text": "It's the attractor because an open set, but actually every initial condition ends up there and you get this repeating."
+  },
+  {
+    "t_start": 544.022,
+    "t_end": 549.568,
+    "text": "So Xn plus two equals Xn as n goes to infinity."
+  },
+  {
+    "t_start": 549.548,
+    "t_end": 553.573,
+    "text": "All right, if this is X and then it's just going between the two."
+  },
+  {
+    "t_start": 553.593,
+    "t_end": 555.715,
+    "text": "So that's interesting."
+  },
+  {
+    "t_start": 556.156,
+    "t_end": 557.778,
+    "text": "What if we turn this knob a little bit higher?"
+  },
+  {
+    "t_start": 557.798,
+    "t_end": 559.039,
+    "text": "R equals 3.5."
+  },
+  {
+    "t_start": 559.92,
+    "t_end": 572.094,
+    "text": "We get something that settles on a cycle, but it settles on something where it goes down and then up and then down and then higher."
+  },
+  {
+    "t_start": 572.154,
+    "t_end": 577.26,
+    "text": "And then it repeats that down, up, kind of down, up."
+  },
+  {
+    "t_start": 577.409,
+    "t_end": 580.432,
+    "text": "It's a lot easier if I connect points, maybe even zoom in."
+  },
+  {
+    "t_start": 582.074,
+    "t_end": 586.358,
+    "text": "So it's repeating, but it's not repeating every two iterates."
+  },
+  {
+    "t_start": 586.418,
+    "t_end": 588.42,
+    "text": "It's repeating every four iterates."
+  },
+  {
+    "t_start": 588.82,
+    "t_end": 591.663,
+    "text": "So we would call this a period four cycle."
+  },
+  {
+    "t_start": 592.003,
+    "t_end": 592.624,
+    "text": "So that's interesting."
+  },
+  {
+    "t_start": 592.644,
+    "t_end": 593.425,
+    "text": "What happened to three?"
+  },
+  {
+    "t_start": 593.765,
+    "t_end": 596.708,
+    "text": "We had, in this case, we had period-doubling."
+  },
+  {
+    "t_start": 596.988,
+    "t_end": 600.772,
+    "text": "And period-doubling will be sort of one of the main phenomena that goes on here."
+  },
+  {
+    "t_start": 601.353,
+    "t_end": 602.534,
+    "text": "You can find these numerically."
+  },
+  {
+    "t_start": 602.594,
+    "t_end": 604.716,
+    "text": "Some of them you can find analytically."
+  },
+  {
+    "t_start": 604.696,
+    "t_end": 614.982,
+    "text": "But think of just you tune R and you look for the value of R where a stable two to the N cycle first occurs."
+  },
+  {
+    "t_start": 615.283,
+    "t_end": 621.118,
+    "text": "As we turn this knob even further, we'll go from a period four cycle to a period eight."
+  },
+  {
+    "t_start": 621.098,
+    "t_end": 622.981,
+    "text": "Period 16 and so on."
+  },
+  {
+    "t_start": 623.262,
+    "t_end": 626.908,
+    "text": "And I'll call the special value of r, I'll call it rn."
+  },
+  {
+    "t_start": 627.129,
+    "t_end": 632.438,
+    "text": "It's the value of r where a stable 2 to the n cycle first occurs."
+  },
+  {
+    "t_start": 632.859,
+    "t_end": 638.97,
+    "text": "So it turns out, if you notice what we had up here, at least for r 2.8, we didn't have one."
+  },
+  {
+    "t_start": 638.99,
+    "t_end": 639.851,
+    "text": "It was just a fixed point."
+  },
+  {
+    "t_start": 639.972,
+    "t_end": 642.897,
+    "text": "For our 3.3, we did have a stable 2 cycle."
+  },
+  {
+    "t_start": 643.177,
+    "t_end": 644.76,
+    "text": "So that means 2 to the 1."
+  },
+  {
+    "t_start": 644.74,
+    "t_end": 648.59,
+    "text": "So R1, that happens at three and that can be shown."
+  },
+  {
+    "t_start": 648.811,
+    "t_end": 652.019,
+    "text": "So a period two cycle is born."
+  },
+  {
+    "t_start": 652.039,
+    "t_end": 660.522,
+    "text": "R2 occurs at, so that would mean a two to the two cycle or a four cycle, 3.449."
+  },
+  {
+    "t_start": 660.502,
+    "t_end": 664.668,
+    "text": "If we keep continuing this, R3 is at 3.54409."
+  },
+  {
+    "t_start": 664.948,
+    "t_end": 670.416,
+    "text": "So that's a period eight cycle."
+  },
+  {
+    "t_start": 670.556,
+    "t_end": 671.657,
+    "text": "Two to the three is eight."
+  },
+  {
+    "t_start": 671.677,
+    "t_end": 678.747,
+    "text": "Another period-doubling at 3.5644 and so on."
+  },
+  {
+    "t_start": 678.727,
+    "t_end": 680.891,
+    "text": "What is going on with this sequence?"
+  },
+  {
+    "t_start": 681.352,
+    "t_end": 684.077,
+    "text": "It's looking like it's converging to something."
+  },
+  {
+    "t_start": 684.097,
+    "t_end": 696.178,
+    "text": "So R to the 5, that would be where there's a 32 cycle, is 3.568759."
+  },
+  {
+    "t_start": 696.732,
+    "t_end": 699.616,
+    "text": "It looks like it's converging to something close to like 3.57."
+  },
+  {
+    "t_start": 702.219,
+    "t_end": 702.9,
+    "text": "It actually is."
+  },
+  {
+    "t_start": 703.34,
+    "t_end": 717.238,
+    "text": "So if we were to look at what's going on, Rn converges essentially geometrically to some point called R infinity, which Robert May in the paper referred to as the accumulation point."
+  },
+  {
+    "t_start": 717.218,
+    "t_end": 722.349,
+    "text": "If we were to sketch the interval, this is r. We could draw r1 and everything."
+  },
+  {
+    "t_start": 722.369,
+    "t_end": 725.215,
+    "text": "At this point, this is, let's call this the accumulation point."
+  },
+  {
+    "t_start": 725.235,
+    "t_end": 727.359,
+    "text": "Everything's going towards r infinity."
+  },
+  {
+    "t_start": 728.081,
+    "t_end": 730.205,
+    "text": "So here is, say, rn."
+  },
+  {
+    "t_start": 731.528,
+    "t_end": 733.793,
+    "text": "Here's rn minus 1."
+  },
+  {
+    "t_start": 735.292,
+    "t_end": 739.476,
+    "text": "So we have the length of that first gap between the values."
+  },
+  {
+    "t_start": 739.957,
+    "t_end": 753.611,
+    "text": "The next value, Rn plus one, is a smaller gap, and the gaps keep getting smaller and smaller, and it's kind of hard to draw, but it all accumulates at that point, R infinity."
+  },
+  {
+    "t_start": 754.252,
+    "t_end": 761.94,
+    "text": "If you look at the ratio of Rn minus Rn minus one, so the longer gap,"
+  },
+  {
+    "t_start": 764.013,
+    "t_end": 766.937,
+    "text": "Divided by the size of the smaller gap."
+  },
+  {
+    "t_start": 767.318,
+    "t_end": 774.969,
+    "text": "As n goes to infinity, the ratio of those gaps becomes a fixed number."
+  },
+  {
+    "t_start": 775.37,
+    "t_end": 775.83,
+    "text": "4.6692."
+  },
+  {
+    "t_start": 775.85,
+    "t_end": 781.178,
+    "text": "Something, something, something."
+  },
+  {
+    "t_start": 782.761,
+    "t_end": 784.703,
+    "text": "And we'll see more about what that number is right now."
+  },
+  {
+    "t_start": 784.743,
+    "t_end": 786.325,
+    "text": "Let's just say it's a mystery."
+  },
+  {
+    "t_start": 786.365,
+    "t_end": 789.109,
+    "text": "It's sometimes called delta, but that's what's going on."
+  },
+  {
+    "t_start": 789.429,
+    "t_end": 791.292,
+    "text": "R-infinity is something really close to 3.57."
+  },
+  {
+    "t_start": 791.612,
+    "t_end": 797.86,
+    "text": "There's still plenty of room between r-infinity and 4, so you might wonder what's going on there."
+  },
+  {
+    "t_start": 798.24,
+    "t_end": 800.563,
+    "text": "Actually, a shocking amount of stuff happens."
+  },
+  {
+    "t_start": 801.324,
+    "t_end": 807.672,
+    "text": "So what was drawn, what's been drawn, and it's now become a pretty..."
+  },
+  {
+    "t_start": 807.854,
+    "t_end": 821.978,
+    "text": "Topics include Poincaré-Bendixson, Dulac's criterion, strange attractors, Abraham, Shaw, Hamiltonian dynamics, Euler, rotation matrices, Lagrange, Duffing, Pooincare, Lyapunov, Lorenz, Hamilton-Jacobi, Noether, taffy-pulling machine."
+  },
+  {
+    "t_start": 821.998,
+    "t_end": 825.103,
+    "text": "Topics include Poincaré-Bendixson, Dulac's criterion, strange attractors, Hamilton-Jacobi, Noether, taffy-pulling machine."
+  },
+  {
+    "t_start": 826.349,
+    "t_end": 832.017,
+    "text": "So we're plotting all the points on the attractor."
+  },
+  {
+    "t_start": 832.417,
+    "t_end": 834.58,
+    "text": "So what have we shown up above?"
+  },
+  {
+    "t_start": 835.341,
+    "t_end": 838.526,
+    "text": "Well, for point five, we were at zero."
+  },
+  {
+    "t_start": 838.666,
+    "t_end": 841.129,
+    "text": "So this only goes between zero and one."
+  },
+  {
+    "t_start": 842.01,
+    "t_end": 846.957,
+    "text": "This is what's happening at point five."
+  },
+  {
+    "t_start": 847.055,
+    "t_end": 848.817,
+    "text": "Right, we just, we were at zero."
+  },
+  {
+    "t_start": 849.118,
+    "t_end": 852.943,
+    "text": "In fact, we stay at zero until the value one."
+  },
+  {
+    "t_start": 852.963,
+    "t_end": 857.169,
+    "text": "And at the point one, zero still is a fixed point."
+  },
+  {
+    "t_start": 857.269,
+    "t_end": 858.39,
+    "text": "It's an unstable fixed point."
+  },
+  {
+    "t_start": 858.551,
+    "t_end": 859.952,
+    "text": "So we might draw that as dashed."
+  },
+  {
+    "t_start": 860.253,
+    "t_end": 862.195,
+    "text": "What we really care about is where the points are."
+  },
+  {
+    "t_start": 862.235,
+    "t_end": 864.939,
+    "text": "There's the branch that shoots off."
+  },
+  {
+    "t_start": 864.959,
+    "t_end": 868.284,
+    "text": "And we looked at 2.8 and that's just a point."
+  },
+  {
+    "t_start": 868.524,
+    "t_end": 869.465,
+    "text": "It's just a fixed point."
+  },
+  {
+    "t_start": 869.505,
+    "t_end": 873.771,
+    "text": "But then at three, this bifurcates into two branches."
+  },
+  {
+    "t_start": 873.751,
+    "t_end": 880.163,
+    "text": "So if you remember where we were at 3.3, this isn't going to be completely to scale, but we had two points."
+  },
+  {
+    "t_start": 880.504,
+    "t_end": 884.852,
+    "text": "There's actually a branch coming off that fixed point that goes between those two points."
+  },
+  {
+    "t_start": 885.052,
+    "t_end": 889.16,
+    "text": "There's still an unstable point, but it's unstable, so you wouldn't observe it."
+  },
+  {
+    "t_start": 889.38,
+    "t_end": 893.127,
+    "text": "So it's usually not depicted in this thing that would be called the"
+  },
+  {
+    "t_start": 893.107,
+    "t_end": 896.012,
+    "text": "Bifurcation diagram of the logistic map."
+  },
+  {
+    "t_start": 896.313,
+    "t_end": 903.706,
+    "text": "At 3.5, we had four points, and that's because somewhere in there was R2, and that's where there's a splitting again."
+  },
+  {
+    "t_start": 904.287,
+    "t_end": 906.131,
+    "text": "We call this the period-doubling."
+  },
+  {
+    "t_start": 906.191,
+    "t_end": 910.438,
+    "text": "And this period-doubling keeps happening at each of those values of Rn."
+  },
+  {
+    "t_start": 910.458,
+    "t_end": 912.502,
+    "text": "So it's hard to depict."
+  },
+  {
+    "t_start": 913.223,
+    "t_end": 914.085,
+    "text": "So I zoom in here."
+  },
+  {
+    "t_start": 915.179,
+    "t_end": 915.6,
+    "text": "Where were we?"
+  },
+  {
+    "t_start": 915.62,
+    "t_end": 917.543,
+    "text": "3.5, I think."
+  },
+  {
+    "t_start": 917.563,
+    "t_end": 919.426,
+    "text": "So there's more and more splittings."
+  },
+  {
+    "t_start": 919.487,
+    "t_end": 923.774,
+    "text": "You could just think of there being little, it looks like a tree with branches."
+  },
+  {
+    "t_start": 923.834,
+    "t_end": 926.96,
+    "text": "And eventually, right, there's a R infinity."
+  },
+  {
+    "t_start": 927.0,
+    "t_end": 933.691,
+    "text": "You hit R infinity and all these branchings just go into a mess of chaos."
+  },
+  {
+    "t_start": 934.052,
+    "t_end": 935.915,
+    "text": "I'll just show what look like tons of little branchings."
+  },
+  {
+    "t_start": 936.256,
+    "t_end": 937.558,
+    "text": "And then we have"
+  },
+  {
+    "t_start": 937.538,
+    "t_end": 946.603,
+    "text": "And then here's the weird thing."
+  },
+  {
+    "t_start": 947.731,
+    "t_end": 950.034,
+    "text": "There's a window later on."
+  },
+  {
+    "t_start": 950.074,
+    "t_end": 951.456,
+    "text": "There's several windows."
+  },
+  {
+    "t_start": 951.797,
+    "t_end": 957.304,
+    "text": "There's an infinite number of windows, but there are big windows of going from chaos back to periodic behavior."
+  },
+  {
+    "t_start": 957.665,
+    "t_end": 962.231,
+    "text": "This is depicting chaos, and then we have periodic window."
+  },
+  {
+    "t_start": 962.291,
+    "t_end": 966.998,
+    "text": "And the kind of biggest periodic window has period three."
+  },
+  {
+    "t_start": 967.058,
+    "t_end": 969.662,
+    "text": "It shows some period three orbits."
+  },
+  {
+    "t_start": 969.682,
+    "t_end": 972.826,
+    "text": "Those branch, and then there's chaos again, and then there's windows."
+  },
+  {
+    "t_start": 972.866,
+    "t_end": 977.653,
+    "text": "This diagram is an intermingling of chaotic and periodic windows."
+  },
+  {
+    "t_start": 977.633,
+    "t_end": 979.319,
+    "text": "This was surprising."
+  },
+  {
+    "t_start": 979.559,
+    "t_end": 986.382,
+    "text": "Why would such a simple map, in some sense the simplest non-linear map, show such rich behavior?"
+  },
+  {
+    "t_start": 986.502,
+    "t_end": 987.887,
+    "text": "But there it is."
+  },
+  {
+    "t_start": 989.492,
+    "t_end": 990.917,
+    "text": "It's real."
+  },
+  {
+    "t_start": 992.298,
+    "t_end": 1003.749,
+    "text": "In fact, this point where the kind of biggest periodic window shows up occurs at 1 plus 2 square root 2, which is about 3.82."
+  },
+  {
+    "t_start": 1005.21,
+    "t_end": 1009.314,
+    "text": "And that's where the period 3 stable attractor was born."
+  },
+  {
+    "t_start": 1009.554,
+    "t_end": 1012.998,
+    "text": "It turns out you can find attractors of any period."
+  },
+  {
+    "t_start": 1013.398,
+    "t_end": 1018.643,
+    "text": "So give me any integer for some parameter value, there will be an attractor that has that period."
+  },
+  {
+    "t_start": 1018.623,
+    "t_end": 1022.992,
+    "text": "Because in this region that I've called chaos, there's actually periodic windows inside there."
+  },
+  {
+    "t_start": 1023.032,
+    "t_end": 1027.501,
+    "text": "They might be infinitesimally wide, but they're there."
+  },
+  {
+    "t_start": 1032.471,
+    "t_end": 1035.096,
+    "text": "There's a lot to unpack here and try to understand."
+  }
+]

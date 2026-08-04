@@ -1,0 +1,283 @@
+hello and welcome to the 2021 fields metal symposium in honor of peter
+metal symposium in honor of peter schultza i'm jared weinstein professor
+schultza i'm jared weinstein professor of mathematics at boston university and
+of mathematics at boston university and it is my great pleasure and honor to be
+giving this introduction to schultz's work so who is peter schultza and what
+are his contributions to mathematics schulza was born in dresden in 1987 and
+early on he displayed an extraordinary talent in mathematics by winning three
+talent in mathematics by winning three gold medals and one silver medal at the
+contest for high school students featuring fiendishly difficult problems
+featuring fiendishly difficult problems schulza attended the university of bonn
+and completed his bachelor's master's and doctoral degrees in the space of
+five years his doctoral advisor was michael rappaport whose advisor in turn
+michael rappaport whose advisor in turn was pierre delena winner of the 1978
+was pierre delena winner of the 1978 fields medal
+dissertation at bonn settled a problem posed by delenia decades earlier
+posed by delenia decades earlier this dissertation which carried the
+this dissertation which carried the title perfectoid spaces was an instant
+title perfectoid spaces was an instant sensation
+now we'll get to what perfectoid spaces actually are in a moment but suffice it
+actually are in a moment but suffice it to say the appearance of the idea was a
+to say the appearance of the idea was a tectonic shift for the field
+tectonic shift for the field in universities and institutions
+students gathered in seminars for a few hours a week just to discuss the ideas
+hours a week just to discuss the ideas of this 22 year old from bonn
+of this 22 year old from bonn there were international conferences
+there were international conferences special semesters graduate student
+workshops and all manner of publications devoted to the topic of perfectoid
+devoted to the topic of perfectoid spaces
+anyone researching in the field of arithmetic geometry quickly realized
+arithmetic geometry quickly realized that schultz's dissertation on
+that schultz's dissertation on perfectoid spaces was
+perfectoid spaces was required reading
+in 2011 schulza himself came to the institute for advanced study in
+institute for advanced study in princeton new jersey to give lectures
+princeton new jersey to give lectures and meet the researchers who were
+and meet the researchers who were working there
+i was fortunate enough to be one of those researchers and schultz's visit
+those researchers and schultz's visit led to a collaboration which frankly
+led to a collaboration which frankly changed the course of my career
+changed the course of my career in the decade that followed schulza
+in the decade that followed schulza would go on to collaborate with many
+would go on to collaborate with many mathematicians and produce articles and
+mathematicians and produce articles and books totaling thousands of pages
+he would also go on to win many awards including the cole prize the fermat
+including the cole prize the fermat prize and the leibniz prize
+as you know by now schultz's fields medal was awarded in
+2018 but already in 2014 there were whispers that a medal was coming his way
+whispers that a medal was coming his way since he was so young it was just a
+question of which year it was going to be so what exactly did schultza
+be so what exactly did schultza accomplish and why did it electrify so
+to answer this i must explain what it is that research mathematicians do
+many people are surprised to learn that mathematical research is a thing
+because the math they learned in school was presented as static or already
+was presented as static or already solved
+but it's quite the opposite mathematicians will never run out of
+mathematicians will never run out of things to do because there are plenty of
+unsolved mathematical problems and mathematicians come up with more every
+problems in math are considered solved when a mathematician produces a formal
+when a mathematician produces a formal proof just like you might have done in
+the result of solving a mathematical problem this way is called a theorem
+problem this way is called a theorem but far from being an exercise in
+but far from being an exercise in drudgery a proof for a theorem can be
+drudgery a proof for a theorem can be considered elegant or even beautiful by
+considered elegant or even beautiful by mathematicians if it produces a
+maximally powerful result with a maximally simple or short sequence of
+maximally simple or short sequence of steps
+to write elegant proofs you need elegant definitions
+for a mathematician a definition is not quite like what you see in a dictionary
+quite like what you see in a dictionary rather coming up with a definition is
+rather coming up with a definition is like writing down the rules for a new
+for instance the axioms you use in those plane geometry proofs can be seen as a
+plane geometry proofs can be seen as a definition of the euclidean plane
+their elegance and economy are the reason they've endured for 2 000 years
+reason they've endured for 2 000 years we also have a definition of the basic
+we also have a definition of the basic concept of number as well as the concept
+concept of number as well as the concept of set
+in the 20th century geometers wanted to study some more complicated shapes than
+study some more complicated shapes than the plane
+the plane like this doughnut-shaped object or this
+alexander grotendik who won the fields medal in 1966
+gave us the definition of a scheme a marvelous abstraction tying together
+a marvelous abstraction tying together all shapes that can be described using
+grodnek's concept of a scheme was essential to all kinds of breakthroughs
+essential to all kinds of breakthroughs from pierre delinia's proof of the vae
+conjectures to andrew wiles's proof of vermont's last theorem
+to these definitions we now add schultz's perfectoid spaces as well as
+schultz's perfectoid spaces as well as other exotic novelties such as the
+schulze and his collaborators wrote down definitions proved the basic theorem
+definitions proved the basic theorem surrounding them and then they and other
+surrounding them and then they and other mathematicians used those definitions to
+mathematicians used those definitions to solve all sorts of problems
+solve all sorts of problems somehow a dam had burst
+somehow a dam had burst the enormous opportunities to solve new
+the enormous opportunities to solve new problems meant that everyone working in
+problems meant that everyone working in the field of arithmetic geometry was now
+the field of arithmetic geometry was now obligated to learn all things schultzian
+obligated to learn all things schultzian so
+what makes a definition useful in solving problems brevity and simplicity
+solving problems brevity and simplicity are key
+schultz himself says that when he works on mathematics he prefers to work
+on mathematics he prefers to work without writing anything down
+that means that he must formulate his ideas in the cleanest way possible
+as he puts it you only have some kind of limited capacity in your head so you
+limited capacity in your head so you can't do two complicated things
+can't do two complicated things i'd like to take this idea further and
+a spider's brain may be too limited to grasp the large-scale structure of its
+web it certainly does not have the coordinates of where each thread is to
+coordinates of where each thread is to be placed but it can still spin the web
+by executing a simple set of rules in this analogy the spider is the
+mathematician the simple set of rules is the elegant definition and the web is
+the elegant definition and the web is the complex mathematical object brought
+the complex mathematical object brought into existence by that definition
+into existence by that definition so
+coming up with the right definitions the right rules of the game is much of the
+right rules of the game is much of the battle in math
+simple rules can produce complex and useful results
+once you have the right definitions even the most difficult theorems seem to
+the most difficult theorems seem to prove themselves
+i haven't said anything yet about the actual content of schultz's work
+now schultz's work spans quite a few topics throughout mathematics but
+topics throughout mathematics but there's a common element to much of what
+p addict numbers and p-attic geometry let's talk about numbers for a moment
+let's talk about numbers for a moment everyone starts counting with what we
+everyone starts counting with what we call the natural numbers
+1 2 3 and so forth we learn methods for adding and
+we learn methods for adding and multiplying natural numbers
+then we learn about representing numbers in between the natural numbers using
+in between the natural numbers using decimals and we learn how to add and
+decimals and we learn how to add and multiply those as well
+at some point we learn about numbers like pi whose decimal representation
+like pi whose decimal representation doesn't end but nonetheless our rules
+doesn't end but nonetheless our rules for adding and multiplying extend to
+for adding and multiplying extend to these as well
+these as well the numbers you can write down with
+infinite or not are called real numbers so called because they can represent
+so called because they can represent quantities in the real world
+how many kilograms is mount everest or how many meters from here to the moon
+how many meters from here to the moon the answers are real
+numbers so we have here a decent definition the rules of the game for
+definition the rules of the game for real numbers
+actually there's one more rule we mustn't forget
+point nine repeating equals one and more generally a tale of repeating
+and more generally a tale of repeating nines can be rounded up
+now you may have found this rule strange when you first encountered it and you
+might have even resisted it a little bit if so you might be stumbling upon some
+if so you might be stumbling upon some schultzian ideas
+imagine a number system without the rule of repeating nines in which point nine
+of repeating nines in which point nine repeating really is less than one it
+repeating really is less than one it seems simpler that way
+seems simpler that way but this number system has some let's
+continuity problems if xeno of elea wants to move one meter
+if xeno of elea wants to move one meter forward he will first have to move nine
+forward he will first have to move nine tenths of the way and then nine tenths
+of the remaining distance and so on but without the rule of repeating nines zeno
+without the rule of repeating nines zeno never makes it
+dropping the rule of repeated nines seems to exclude the possibility of
+seems to exclude the possibility of continuous motion
+what's left of the real numbers resembles nothing so much as a
+resembles nothing so much as a disconnected cloud of dust
+when we reimpose the rule the cloud of dust condenses back into the real number
+dust condenses back into the real number line
+this is in fact the idea behind condensed sets a deep new idea developed
+condensed sets a deep new idea developed by schulza and dustin klausen
+the idea is that almost any shape can be thought of as a cloud of dust together
+thought of as a cloud of dust together with a rule that tells you how to glue
+anyway after settling on the rules of the real number game we can start
+the real number game we can start talking about geometry
+talking about geometry arrange all the real numbers in a row
+and you get a line add another dimension to create the
+add another dimension to create the plane where each point represents a pair
+plane where each point represents a pair of real numbers called coordinates
+of real numbers called coordinates an algebraic equation relating those
+an algebraic equation relating those coordinates determines a curve
+the interplay between equations like this and the shapes they represent is
+an algebraic geometer might look at an equation like this and say of course
+that's a hyper elliptic curve of genus 2 and its solutions look like a donut with
+and its solutions look like a donut with two holes
+so far so good let's revisit the rules that govern real
+let's revisit the rules that govern real numbers
+the digits are permitted to go off to the right without end
+but what if we tweak the game a different way so that the digits are now
+different way so that the digits are now permitted to go off to the left instead
+permitted to go off to the left instead the usual rules for addition and
+the usual rules for addition and multiplication still apply
+these new numbers don't quantify anything in the real world
+but as mathematicians we come up with definitions the rules of the game and
+then stand back and see what happens what we have defined in this game are
+what we have defined in this game are known as the 10 attic numbers an
+known as the 10 attic numbers an entirely different number system from
+entirely different number system from the reals there are some similarities in
+the real numbers fractions like one-third have repeating decimals
+one-third have repeating decimals and in the tenatic numbers they have
+in the real numbers we impose the rule that point nine repeating equals one
+that point nine repeating equals one in the ten addict numbers there's a
+in the ten addict numbers there's a corresponding rule where repeating nines
+corresponding rule where repeating nines give you
+give you negative 1
+irrational numbers like the square root of 41 have non-repeating decimals the
+same is true for the 10 attic numbers we have described the 10 attic numbers
+we have described the 10 attic numbers here but by working with a base other
+here but by working with a base other than 10 you can define the p attic
+than 10 you can define the p attic numbers for any base p
+for reasons i won't get into mathematicians usually only allow p to
+mathematicians usually only allow p to be a prime number
+and in case you were wondering the idea behind the name is to extend the pattern
+behind the name is to extend the pattern diatic for two triadic for three etc
+diatic for two triadic for three etc now the periodic numbers are nothing new
+now the periodic numbers are nothing new they were first described by kurt hensel
+they were first described by kurt hensel in 1897. so what did peter schultza and
+in 1897. so what did peter schultza and his collaborators do with them
+the answer has to do with the kind of geometry you get when you replace the
+geometry you get when you replace the real numbers with the periodic numbers
+real numbers with the periodic numbers what happens to the familiar real number
+well various attempts have been made to visualize the periodic numbers and all
+visualize the periodic numbers and all of them seem to have a self-similar or
+fractal nature but none of them is perfect our little spider brains can't
+perfect our little spider brains can't quite fully grasp the p attic number
+quite fully grasp the p attic number line the same way we can grasp the real
+as an example of how mind-bending periodic geometry is consider the
+periodic geometry is consider the following two facts
+every triangle is isosceles and every point within a circle is the center of
+point within a circle is the center of that circle
+that circle very strange
+another nice thing about real geometry is that no matter how complicated a
+shape may be if you take a magnifying glass and zoom in on any particular spot
+glass and zoom in on any particular spot the shape becomes rather simpler
+you could then figure out a lot about the shape by describing how these pieces
+the shape by describing how these pieces fit together
+but in periodic geometry applying a magnifying glass to a shape doesn't seem
+magnifying glass to a shape doesn't seem to make it any simpler the fractal
+to make it any simpler the fractal doesn't become any less of a fractal
+when you zoom in on it in the 20th century brilliant luminaries
+in the 20th century brilliant luminaries made huge strides in this field but it
+was schulza who came up with the incredible idea of just
+using a better magnifying glass schulza discovered that when you zoom in
+schulza discovered that when you zoom in ever closer on a periodic shape a new
+ever closer on a periodic shape a new sort of entity appears and
+sort of entity appears and that's what a perfectoid space is
+it's a little like the discovery of a new elementary particle smaller than the
+new elementary particle smaller than the atomic nucleus
+now that we know about perfectoid spaces and how they fit together we can gain
+and how they fit together we can gain all kinds of new insights into p attic
+all kinds of new insights into p attic geometry
+schultz's latest work in collaboration with laurent farg is a 350
+with laurent farg is a 350 treatise entitled
+treatise entitled geometrization of the local langlen's
+it came out just a few months ago and my colleagues and i have been feverishly
+colleagues and i have been feverishly studying it this new work strikes a
+studying it this new work strikes a dagger into the heart of something
+dagger into the heart of something called the langlins program which is
+called the langlins program which is sometimes described as a grand unified
+sometimes described as a grand unified theory of math
+bringing together so many different objects in math into perfect harmony
+objects in math into perfect harmony naturally intimate knowledge of
+perfectoid spaces is a prerequisite at this point you might be asking this
+at this point you might be asking this all sounds fascinating clearly a lot of
+all sounds fascinating clearly a lot of people are interested in it but what is
+people are interested in it but what is the real use of p attic geometry does it
+now as a mathematician i am obligated to remind you that basically all the
+remind you that basically all the technology and science that makes
+technology and science that makes society function rests at least
+society function rests at least partially on mathematics
+but between you and me when someone like peter schulze discovers new math he's
+peter schulze discovers new math he's not thinking about applications or even
+not thinking about applications or even anything related to the physical world
+anything related to the physical world instead
+he's peering into a universe all its own what others might describe as invention
+what others might describe as invention or creating he might describe simply as
+learning about structures and patterns that are already there
+as schulza puts it for me doing research is really like discovering certain
+things that are just out there the sense of discovering something that's there
+of discovering something that's there completely independently of the world
+mathematicians may disagree on whether math is created or discovered but they
+math is created or discovered but they all agree that learning writing
+all agree that learning writing discussing mathematics brings a powerful
+discussing mathematics brings a powerful sense of satisfaction and joy
+a large part of this joy is sharing it with a community of like-minded souls
+with a community of like-minded souls i myself am immensely grateful to have
+i myself am immensely grateful to have peter schultz in our community of
+peter schultz in our community of mathematicians and i hope you'll join me
+mathematicians and i hope you'll join me in congratulating him on winning the
+in congratulating him on winning the fields medal
+fields medal thank you

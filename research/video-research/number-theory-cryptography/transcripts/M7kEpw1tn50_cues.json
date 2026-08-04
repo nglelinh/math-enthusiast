@@ -1,0 +1,1017 @@
+[
+  {
+    "t_start": 0.67,
+    "t_end": 3.1,
+    "text": "DR. JAMES GRIME: So I've got a very big number to show you"
+  },
+  {
+    "t_start": 3.1,
+    "t_end": 7.53,
+    "text": "today used by NatWest Bank so that you can send them your"
+  },
+  {
+    "t_start": 7.53,
+    "t_end": 9.02,
+    "text": "secret bank details."
+  },
+  {
+    "t_start": 9.02,
+    "t_end": 16.35,
+    "text": "It starts 2 3 4 5 3 6 7 6 2 8--"
+  },
+  {
+    "t_start": 16.35,
+    "t_end": 16.48,
+    "text": "[MULTIPLE CLIPS OF NUMBERS BEING"
+  },
+  {
+    "t_start": 16.48,
+    "t_end": 17.73,
+    "text": "COUNTED AT THE SAME TIME]"
+  },
+  {
+    "t_start": 28.42,
+    "t_end": 29.62,
+    "text": "--7."
+  },
+  {
+    "t_start": 29.62,
+    "t_end": 31.65,
+    "text": "Did you get that, or do you want me to repeat it?"
+  },
+  {
+    "t_start": 34.76,
+    "t_end": 37.41,
+    "text": "So this number that we are reading out"
+  },
+  {
+    "t_start": 37.41,
+    "t_end": 41.23,
+    "text": "is 617 digits long."
+  },
+  {
+    "t_start": 41.23,
+    "t_end": 44.0,
+    "text": "All banks have similar numbers when you want to send them"
+  },
+  {
+    "t_start": 44.0,
+    "t_end": 45.55,
+    "text": "your credit card details."
+  },
+  {
+    "t_start": 45.55,
+    "t_end": 47.45,
+    "text": "This is not a secret number."
+  },
+  {
+    "t_start": 47.45,
+    "t_end": 50.82,
+    "text": "In fact, your computer will download this number when it"
+  },
+  {
+    "t_start": 50.82,
+    "t_end": 53.28,
+    "text": "wants to send your credit card details."
+  },
+  {
+    "t_start": 53.28,
+    "t_end": 54.44,
+    "text": "It's there to find."
+  },
+  {
+    "t_start": 54.44,
+    "t_end": 55.41,
+    "text": "This is public."
+  },
+  {
+    "t_start": 55.41,
+    "t_end": 59.45,
+    "text": "So this code that they use on the internet is called RSA."
+  },
+  {
+    "t_start": 59.45,
+    "t_end": 62.98,
+    "text": "It's named after the three people who came up with it,"
+  },
+  {
+    "t_start": 62.98,
+    "t_end": 65.284,
+    "text": "who were Rivest, Shamir, Adleman."
+  },
+  {
+    "t_start": 65.284,
+    "t_end": 67.07,
+    "text": "Should I show you how it works?"
+  },
+  {
+    "t_start": 67.07,
+    "t_end": 67.483,
+    "text": "BRADY HARAN: Please."
+  },
+  {
+    "t_start": 67.483,
+    "t_end": 68.31,
+    "text": "DR. JAMES GRIME: All right."
+  },
+  {
+    "t_start": 68.31,
+    "t_end": 70.67,
+    "text": "Imagine if you had a secret that you wanted"
+  },
+  {
+    "t_start": 70.67,
+    "t_end": 72.71,
+    "text": "to send to the bank."
+  },
+  {
+    "t_start": 72.71,
+    "t_end": 75.82,
+    "text": "So the bank provides you with a box, and it provides you"
+  },
+  {
+    "t_start": 75.82,
+    "t_end": 77.57,
+    "text": "with a key to lock the box."
+  },
+  {
+    "t_start": 77.57,
+    "t_end": 80.31,
+    "text": "So you can put your secret inside and you can lock it,"
+  },
+  {
+    "t_start": 80.31,
+    "t_end": 82.28,
+    "text": "and then you can send the secret to the bank."
+  },
+  {
+    "t_start": 82.28,
+    "t_end": 83.82,
+    "text": "That's good, isn't it?"
+  },
+  {
+    "t_start": 83.82,
+    "t_end": 87.62,
+    "text": "But the problem is that the bank is giving everyone one of"
+  },
+  {
+    "t_start": 87.62,
+    "t_end": 91.39,
+    "text": "these boxes and a key that goes with it, and that means"
+  },
+  {
+    "t_start": 91.39,
+    "t_end": 96.49,
+    "text": "that, well, one person could steal someone else's box and"
+  },
+  {
+    "t_start": 96.49,
+    "t_end": 100.09,
+    "text": "use the key to unlock it and read their secrets."
+  },
+  {
+    "t_start": 100.09,
+    "t_end": 100.93,
+    "text": "That would be terrible."
+  },
+  {
+    "t_start": 100.93,
+    "t_end": 102.28,
+    "text": "We can't do that."
+  },
+  {
+    "t_start": 102.28,
+    "t_end": 105.61,
+    "text": "So what the banks do, same sort of idea but instead of"
+  },
+  {
+    "t_start": 105.61,
+    "t_end": 108.56,
+    "text": "giving out keys, they give out padlocks."
+  },
+  {
+    "t_start": 108.56,
+    "t_end": 110.79,
+    "text": "So they give everyone a box."
+  },
+  {
+    "t_start": 110.79,
+    "t_end": 111.47,
+    "text": "You've got a secret."
+  },
+  {
+    "t_start": 111.47,
+    "t_end": 113.14,
+    "text": "Put it inside the box."
+  },
+  {
+    "t_start": 113.14,
+    "t_end": 115.62,
+    "text": "Lock it not with a key but with a padlock."
+  },
+  {
+    "t_start": 115.62,
+    "t_end": 116.74,
+    "text": "It goes click."
+  },
+  {
+    "t_start": 116.74,
+    "t_end": 118.38,
+    "text": "It's snapped shut."
+  },
+  {
+    "t_start": 118.38,
+    "t_end": 121.64,
+    "text": "Once it's locked and snapped shut, you don't have the"
+  },
+  {
+    "t_start": 121.64,
+    "t_end": 124.06,
+    "text": "padlock key, so you can't reverse it."
+  },
+  {
+    "t_start": 124.06,
+    "t_end": 125.72,
+    "text": "You can't open it up."
+  },
+  {
+    "t_start": 125.72,
+    "t_end": 128.09,
+    "text": "So if someone steals your box, they don't"
+  },
+  {
+    "t_start": 128.09,
+    "t_end": 129.27,
+    "text": "have the key either."
+  },
+  {
+    "t_start": 129.27,
+    "t_end": 131.5,
+    "text": "They've got padlock, but they don't have the"
+  },
+  {
+    "t_start": 131.5,
+    "t_end": 133.18,
+    "text": "key to open the padlock."
+  },
+  {
+    "t_start": 133.18,
+    "t_end": 136.49,
+    "text": "The only person that does is the bank themselves."
+  },
+  {
+    "t_start": 136.49,
+    "t_end": 139.28,
+    "text": "And it's a way to send secret messages without having to"
+  },
+  {
+    "t_start": 139.28,
+    "t_end": 140.49,
+    "text": "send out the keys."
+  },
+  {
+    "t_start": 140.49,
+    "t_end": 143.62,
+    "text": "It's easy to lock the code, but it's hard"
+  },
+  {
+    "t_start": 143.62,
+    "t_end": 145.275,
+    "text": "to unlock the code."
+  },
+  {
+    "t_start": 145.275,
+    "t_end": 147.67,
+    "text": "First of all, I have to explain this with the smallest"
+  },
+  {
+    "t_start": 147.67,
+    "t_end": 150.02,
+    "text": "example I can, and then I'll show you why we use that"
+  },
+  {
+    "t_start": 150.02,
+    "t_end": 150.94,
+    "text": "massive number."
+  },
+  {
+    "t_start": 150.94,
+    "t_end": 154.25,
+    "text": "Let's say you're the bank and you give out two numbers."
+  },
+  {
+    "t_start": 154.25,
+    "t_end": 156.25,
+    "text": "They're public, so everyone can know them."
+  },
+  {
+    "t_start": 156.25,
+    "t_end": 157.23,
+    "text": "They're not secret numbers."
+  },
+  {
+    "t_start": 157.23,
+    "t_end": 160.36,
+    "text": "I'm going to choose the number 3 and the number 10."
+  },
+  {
+    "t_start": 160.36,
+    "t_end": 162.95,
+    "text": "The bank also has a secret number."
+  },
+  {
+    "t_start": 162.95,
+    "t_end": 166.02,
+    "text": "The bank secret number, for now, you don't"
+  },
+  {
+    "t_start": 166.02,
+    "t_end": 166.51,
+    "text": "know what it is."
+  },
+  {
+    "t_start": 166.51,
+    "t_end": 167.38,
+    "text": "No one knows what it is."
+  },
+  {
+    "t_start": 167.38,
+    "t_end": 169.56,
+    "text": "Only the bank knows what that secret number is."
+  },
+  {
+    "t_start": 169.56,
+    "t_end": 171.67,
+    "text": "I had a very bad breakfast this morning, so I'm going to"
+  },
+  {
+    "t_start": 171.67,
+    "t_end": 173.85,
+    "text": "send the message BAD CHEF."
+  },
+  {
+    "t_start": 173.85,
+    "t_end": 176.76,
+    "text": "The first thing you do if you have a message like that is to"
+  },
+  {
+    "t_start": 176.76,
+    "t_end": 178.635,
+    "text": "turn the letters into numbers."
+  },
+  {
+    "t_start": 178.635,
+    "t_end": 179.73,
+    "text": "That's quite simple."
+  },
+  {
+    "t_start": 179.73,
+    "t_end": 182.58,
+    "text": "A is 1, B is 2, and Z is 26."
+  },
+  {
+    "t_start": 182.58,
+    "t_end": 183.25,
+    "text": "Simple stuff."
+  },
+  {
+    "t_start": 183.25,
+    "t_end": 185.66,
+    "text": "C is 3, D is 4."
+  },
+  {
+    "t_start": 185.66,
+    "t_end": 188.3,
+    "text": "Now I'm going to turn it into a code, and I'm going to use"
+  },
+  {
+    "t_start": 188.3,
+    "t_end": 189.9,
+    "text": "the number 3."
+  },
+  {
+    "t_start": 189.9,
+    "t_end": 194.15,
+    "text": "Now there are some codes that would just add 3, or there are"
+  },
+  {
+    "t_start": 194.15,
+    "t_end": 196.31,
+    "text": "some codes that would multiply by 3."
+  },
+  {
+    "t_start": 196.31,
+    "t_end": 198.85,
+    "text": "What we're going to do is raise to the power 3, so we're"
+  },
+  {
+    "t_start": 198.85,
+    "t_end": 200.87,
+    "text": "going to cube these numbers here."
+  },
+  {
+    "t_start": 200.87,
+    "t_end": 201.44,
+    "text": "Let's do that."
+  },
+  {
+    "t_start": 201.44,
+    "t_end": 204.36,
+    "text": "So I get 2 cubed, which is 8."
+  },
+  {
+    "t_start": 204.36,
+    "t_end": 206.08,
+    "text": "1 cubed, which is 1."
+  },
+  {
+    "t_start": 206.08,
+    "t_end": 208.89,
+    "text": "5 cubed is 125."
+  },
+  {
+    "t_start": 208.89,
+    "t_end": 212.51,
+    "text": "And 6 cubed, 216."
+  },
+  {
+    "t_start": 212.51,
+    "t_end": 216.84,
+    "text": "The final step is to use the second number, the number 10."
+  },
+  {
+    "t_start": 216.84,
+    "t_end": 219.31,
+    "text": "I'm going to divide by 10, and I'm going"
+  },
+  {
+    "t_start": 219.31,
+    "t_end": 220.63,
+    "text": "to look at the remainder."
+  },
+  {
+    "t_start": 220.63,
+    "t_end": 226.38,
+    "text": "So if I take something like 512, when I divide by 10, it"
+  },
+  {
+    "t_start": 226.38,
+    "t_end": 230.045,
+    "text": "would be 51 10's and 2 leftover."
+  },
+  {
+    "t_start": 230.045,
+    "t_end": 231.1,
+    "text": "So that's just 2."
+  },
+  {
+    "t_start": 231.1,
+    "t_end": 233.68,
+    "text": "5 here, 1 and 4."
+  },
+  {
+    "t_start": 233.68,
+    "t_end": 234.69,
+    "text": "And that's your code."
+  },
+  {
+    "t_start": 234.69,
+    "t_end": 236.07,
+    "text": "And that's what you would send."
+  },
+  {
+    "t_start": 236.07,
+    "t_end": 239.55,
+    "text": "The bank, or the person who is going to decode this message,"
+  },
+  {
+    "t_start": 239.55,
+    "t_end": 241.43,
+    "text": "has a secret number."
+  },
+  {
+    "t_start": 241.43,
+    "t_end": 248.18,
+    "text": "Now the secret number in this example is going to be 3."
+  },
+  {
+    "t_start": 248.18,
+    "t_end": 250.32,
+    "text": "There's a formula to work out the secret number."
+  },
+  {
+    "t_start": 250.32,
+    "t_end": 252.59,
+    "text": "I'm going to gloss over that for a second, but I'm going to"
+  },
+  {
+    "t_start": 252.59,
+    "t_end": 254.82,
+    "text": "show you what to do next to decode the message."
+  },
+  {
+    "t_start": 254.82,
+    "t_end": 255.59,
+    "text": "This is my code."
+  },
+  {
+    "t_start": 255.59,
+    "t_end": 256.709,
+    "text": "I'll write it out again."
+  },
+  {
+    "t_start": 256.709,
+    "t_end": 258.959,
+    "text": "I'm going to do the same thing I did before."
+  },
+  {
+    "t_start": 258.959,
+    "t_end": 261.51,
+    "text": "This time I'm going to use my secret number."
+  },
+  {
+    "t_start": 261.51,
+    "t_end": 264.18,
+    "text": "It doesn't have to be the same as 3, but it just happens to"
+  },
+  {
+    "t_start": 264.18,
+    "t_end": 266.36,
+    "text": "be the same as the 3 we used before."
+  },
+  {
+    "t_start": 266.36,
+    "t_end": 268.29,
+    "text": "But nevermind, it doesn't have to be."
+  },
+  {
+    "t_start": 268.29,
+    "t_end": 270.65,
+    "text": "But I'm going to cube again."
+  },
+  {
+    "t_start": 270.65,
+    "t_end": 272.28,
+    "text": "So I cube these numbers."
+  },
+  {
+    "t_start": 272.28,
+    "t_end": 273.94,
+    "text": "We do like we did before."
+  },
+  {
+    "t_start": 273.94,
+    "t_end": 277.09,
+    "text": "We divide by 10, and find the remainder."
+  },
+  {
+    "t_start": 277.09,
+    "t_end": 281.2,
+    "text": "And then the decoder will turn that into letters, which is B,"
+  },
+  {
+    "t_start": 281.2,
+    "t_end": 284.15,
+    "text": "and he gets the message back again, BAD CHEF."
+  },
+  {
+    "t_start": 284.15,
+    "t_end": 286.35,
+    "text": "Now that's just a taste of how it works."
+  },
+  {
+    "t_start": 286.35,
+    "t_end": 289.29,
+    "text": "That's the process that your computer does every time you"
+  },
+  {
+    "t_start": 289.29,
+    "t_end": 291.87,
+    "text": "buy something on Amazon or eBay."
+  },
+  {
+    "t_start": 291.87,
+    "t_end": 295.64,
+    "text": "One of the important numbers in this code was this 10."
+  },
+  {
+    "t_start": 295.64,
+    "t_end": 298.72,
+    "text": "Now this 10 was made by multiplying two"
+  },
+  {
+    "t_start": 298.72,
+    "t_end": 299.9,
+    "text": "prime numbers together--"
+  },
+  {
+    "t_start": 299.9,
+    "t_end": 302.77,
+    "text": "2 times 5 are prime numbers."
+  },
+  {
+    "t_start": 302.77,
+    "t_end": 305.39,
+    "text": "Multiply them together and you get 10."
+  },
+  {
+    "t_start": 305.39,
+    "t_end": 308.7,
+    "text": "Now that massive number that I showed you that NatWest uses"
+  },
+  {
+    "t_start": 308.7,
+    "t_end": 309.96,
+    "text": "is the same idea."
+  },
+  {
+    "t_start": 309.96,
+    "t_end": 314.35,
+    "text": "It's two massive prime numbers multiplied together."
+  },
+  {
+    "t_start": 314.35,
+    "t_end": 315.54,
+    "text": "That's what it is."
+  },
+  {
+    "t_start": 315.54,
+    "t_end": 319.22,
+    "text": "If you want work out the decode key, the secret key,"
+  },
+  {
+    "t_start": 319.22,
+    "t_end": 322.22,
+    "text": "you need to know the original prime numbers."
+  },
+  {
+    "t_start": 322.22,
+    "t_end": 325.34,
+    "text": "Now the only way a spy, someone who wants to break the"
+  },
+  {
+    "t_start": 325.34,
+    "t_end": 328.72,
+    "text": "code, could work out the original prime numbers is to"
+  },
+  {
+    "t_start": 328.72,
+    "t_end": 332.77,
+    "text": "take that massive number and factorize it-- turn it back,"
+  },
+  {
+    "t_start": 332.77,
+    "t_end": 336.17,
+    "text": "break it up into the original two prime numbers."
+  },
+  {
+    "t_start": 336.17,
+    "t_end": 337.96,
+    "text": "This is really hard."
+  },
+  {
+    "t_start": 337.96,
+    "t_end": 340.99,
+    "text": "So hard that it's impractical to break with modern"
+  },
+  {
+    "t_start": 340.99,
+    "t_end": 341.66,
+    "text": "technology."
+  },
+  {
+    "t_start": 341.66,
+    "t_end": 350.03,
+    "text": "The massive number I showed you was a 2,048-bit number."
+  },
+  {
+    "t_start": 350.03,
+    "t_end": 355.26,
+    "text": "That means it's about 2 to the power 2,048."
+  },
+  {
+    "t_start": 355.26,
+    "t_end": 359.11,
+    "text": "Now about a decade ago, we did manage to"
+  },
+  {
+    "t_start": 359.11,
+    "t_end": 362.94,
+    "text": "break 512-bit numbers."
+  },
+  {
+    "t_start": 362.94,
+    "t_end": 365.42,
+    "text": "We were able to take that number and factorize it into"
+  },
+  {
+    "t_start": 365.42,
+    "t_end": 367.52,
+    "text": "its original primes."
+  },
+  {
+    "t_start": 367.52,
+    "t_end": 370.54,
+    "text": "A few years ago, a team of academics managed to break the"
+  },
+  {
+    "t_start": 370.54,
+    "t_end": 374.13,
+    "text": "768-bit number."
+  },
+  {
+    "t_start": 374.13,
+    "t_end": 376.96,
+    "text": "It took this team of academics with all their resources two"
+  },
+  {
+    "t_start": 376.96,
+    "t_end": 381.47,
+    "text": "years to break at 768-bit key."
+  },
+  {
+    "t_start": 381.47,
+    "t_end": 386.69,
+    "text": "And they said that to break what we use now, which is"
+  },
+  {
+    "t_start": 386.69,
+    "t_end": 391.69,
+    "text": "about 1,024, would take thousands of times longer."
+  },
+  {
+    "t_start": 391.69,
+    "t_end": 396.62,
+    "text": "But given the speed of technology, they reckon that"
+  },
+  {
+    "t_start": 396.62,
+    "t_end": 402.45,
+    "text": "this sort of code, 1,024-bit, could be broken within a few"
+  },
+  {
+    "t_start": 402.45,
+    "t_end": 403.92,
+    "text": "years, they said."
+  },
+  {
+    "t_start": 403.92,
+    "t_end": 406.31,
+    "text": "They said that a few years ago."
+  },
+  {
+    "t_start": 406.31,
+    "t_end": 410.02,
+    "text": "So this should now start to be replaced."
+  },
+  {
+    "t_start": 410.02,
+    "t_end": 414.3,
+    "text": "Gmail still uses this, but this should be replaced."
+  },
+  {
+    "t_start": 414.3,
+    "t_end": 416.26,
+    "text": "And as you can see, NatWest have done that."
+  },
+  {
+    "t_start": 416.26,
+    "t_end": 417.69,
+    "text": "All the banks have done that."
+  },
+  {
+    "t_start": 417.69,
+    "t_end": 422.46,
+    "text": "They are now using 2,048-bit number, which again would take"
+  },
+  {
+    "t_start": 422.46,
+    "t_end": 423.635,
+    "text": "computers--"
+  },
+  {
+    "t_start": 423.635,
+    "t_end": 427.57,
+    "text": "and I mean even with a proper attack--"
+  },
+  {
+    "t_start": 427.57,
+    "t_end": 431.09,
+    "text": "big computers, it would still take them thousands of years"
+  },
+  {
+    "t_start": 431.09,
+    "t_end": 434.8,
+    "text": "to factorize that number into its original prime number."
+  },
+  {
+    "t_start": 434.8,
+    "t_end": 439.09,
+    "text": "Now hidden in the details for this code is a mathematical"
+  },
+  {
+    "t_start": 439.09,
+    "t_end": 442.18,
+    "text": "fact that was worked out in the 17th century"
+  },
+  {
+    "t_start": 442.18,
+    "t_end": 444.24,
+    "text": "by Pierre de Fermat."
+  },
+  {
+    "t_start": 444.24,
+    "t_end": 446.54,
+    "text": "He's famous for Fermat's Last Theorem."
+  },
+  {
+    "t_start": 446.54,
+    "t_end": 448.7,
+    "text": "Well, this was Fermat's Little Theorem."
+  },
+  {
+    "t_start": 448.7,
+    "t_end": 451.07,
+    "text": "If I take a number, a whole number, an"
+  },
+  {
+    "t_start": 451.07,
+    "t_end": 452.71,
+    "text": "integer, any number--"
+  },
+  {
+    "t_start": 452.71,
+    "t_end": 454.21,
+    "text": "call it x."
+  },
+  {
+    "t_start": 454.21,
+    "t_end": 456.05,
+    "text": "I'm going to raise it to a power."
+  },
+  {
+    "t_start": 456.05,
+    "t_end": 459.245,
+    "text": "And it's going to be a prime number, so p for prime."
+  },
+  {
+    "t_start": 459.245,
+    "t_end": 461.6,
+    "text": "I'm going to raise it to a power, and I'm going to"
+  },
+  {
+    "t_start": 461.6,
+    "t_end": 463.45,
+    "text": "takeaway x."
+  },
+  {
+    "t_start": 463.45,
+    "t_end": 469.41,
+    "text": "This is a multiple of p, the prime number."
+  },
+  {
+    "t_start": 469.41,
+    "t_end": 470.78,
+    "text": "Let me do an example."
+  },
+  {
+    "t_start": 470.78,
+    "t_end": 474.58,
+    "text": "What I mean is if you took a number like 4, and then I took"
+  },
+  {
+    "t_start": 474.58,
+    "t_end": 479.37,
+    "text": "a prime number like 5, and then I takeaway 4, I would get"
+  },
+  {
+    "t_start": 479.37,
+    "t_end": 483.69,
+    "text": "4 to the power 5, which is 1,024,"
+  },
+  {
+    "t_start": 483.69,
+    "t_end": 487.84,
+    "text": "takeaway 4, which is 1,020."
+  },
+  {
+    "t_start": 487.84,
+    "t_end": 491.55,
+    "text": "And that is a multiple of 5, but that would be guaranteed."
+  },
+  {
+    "t_start": 491.55,
+    "t_end": 493.61,
+    "text": "You're guaranteed to have a multiple of 5."
+  },
+  {
+    "t_start": 493.61,
+    "t_end": 497.09,
+    "text": "Now you can imagine that in the 17th century when Fermat"
+  },
+  {
+    "t_start": 497.09,
+    "t_end": 499.62,
+    "text": "came up with this factor, people said, well, very nice"
+  },
+  {
+    "t_start": 499.62,
+    "t_end": 502.32,
+    "text": "mathematical fact, but that's pretty useless."
+  },
+  {
+    "t_start": 502.32,
+    "t_end": 504.34,
+    "text": "What use are you going to have for that?"
+  },
+  {
+    "t_start": 504.34,
+    "t_end": 507.09,
+    "text": "And then suddenly the internet comes along, and it's"
+  },
+  {
+    "t_start": 507.09,
+    "t_end": 508.66,
+    "text": "massively useful."
+  },
+  {
+    "t_start": 508.66,
+    "t_end": 514.549,
+    "text": "In fact, our whole modern world depends on this fact."
+  },
+  {
+    "t_start": 514.549,
+    "t_end": 517.89,
+    "text": "So to use this code, the public key has two numbers."
+  },
+  {
+    "t_start": 517.89,
+    "t_end": 521.649,
+    "text": "I've shown you the massively long one that NatWest uses."
+  },
+  {
+    "t_start": 521.649,
+    "t_end": 525.38,
+    "text": "The other number that we need, which is the power that you"
+  },
+  {
+    "t_start": 525.38,
+    "t_end": 528.24,
+    "text": "have to raise, that is not as big."
+  },
+  {
+    "t_start": 528.24,
+    "t_end": 532.66,
+    "text": "That is 65,537."
+  },
+  {
+    "t_start": 532.66,
+    "t_end": 533.55,
+    "text": "Quite a big number."
+  },
+  {
+    "t_start": 533.55,
+    "t_end": 539.69,
+    "text": "When you compare it to the second number, it's small."
+  },
+  {
+    "t_start": 539.69,
+    "t_end": 541.64,
+    "text": "BRADY HARAN: If you're in the mood for even more about banks"
+  },
+  {
+    "t_start": 541.64,
+    "t_end": 545.02,
+    "text": "and really big numbers, then check out my latest video from"
+  },
+  {
+    "t_start": 545.02,
+    "t_end": 548.16,
+    "text": "the Chemistry Channel Periodic Videos, where we've been"
+  },
+  {
+    "t_start": 548.16,
+    "t_end": 551.44,
+    "text": "inside the Bank of England gold bullion vault, where they"
+  },
+  {
+    "t_start": 551.44,
+    "t_end": 554.36,
+    "text": "have a couple hundred billion pounds worth"
+  },
+  {
+    "t_start": 554.36,
+    "t_end": 555.76,
+    "text": "of gold lying around."
+  },
+  {
+    "t_start": 555.76,
+    "t_end": 558.23,
+    "text": "That's not something you see every day."
+  },
+  {
+    "t_start": 558.23,
+    "t_end": 560.79,
+    "text": "The link is here on the screen and below the video."
+  }
+]

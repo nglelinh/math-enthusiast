@@ -1,0 +1,6187 @@
+[
+  {
+    "t_start": 0.44,
+    "t_end": 2.36,
+    "text": "[HOST] First talk of the morning on high-dimensional"
+  },
+  {
+    "t_start": 2.7,
+    "t_end": 4.059,
+    "text": "geometry and concentration."
+  },
+  {
+    "t_start": 4.22,
+    "t_end": 6.5,
+    "text": "Thanks."
+  },
+  {
+    "t_start": 8.7,
+    "t_end": 12.57,
+    "text": "[LECTURER] So this lecture is about multiplying two"
+  },
+  {
+    "t_start": 12.57,
+    "t_end": 15.45,
+    "text": "polynomials given by their coefficients."
+  },
+  {
+    "t_start": 16.02,
+    "t_end": 22.35,
+    "text": "So, let's say A of X is A0 plus A1X plus up to, you know,"
+  },
+  {
+    "t_start": 22.35,
+    "t_end": 23.1,
+    "text": "there's always a problem."
+  },
+  {
+    "t_start": 23.1,
+    "t_end": 24.69,
+    "text": "Should I stop at N minus one or N?"
+  },
+  {
+    "t_start": 24.69,
+    "t_end": 25.21,
+    "text": "Anyway"
+  },
+  {
+    "t_start": 26.25,
+    "t_end": 27.51,
+    "text": "And then there's another one here,"
+  },
+  {
+    "t_start": 28.62,
+    "t_end": 29.55,
+    "text": "and I want to multiply them"
+  },
+  {
+    "t_start": 29.55,
+    "t_end": 30.24,
+    "text": "very fast."
+  },
+  {
+    "t_start": 30.24,
+    "t_end": 31.26,
+    "text": "How fast can you do it?"
+  },
+  {
+    "t_start": 33.21,
+    "t_end": 34.74,
+    "text": "Sorry, this was the lecture I gave yesterday--"
+  },
+  {
+    "t_start": 37.66,
+    "t_end": 39.0,
+    "text": "--at at in-- uh, Algebra."
+  },
+  {
+    "t_start": 39.0,
+    "t_end": 41.722,
+    "text": "No, today's morning's talks are about--"
+  },
+  {
+    "t_start": 41.722,
+    "t_end": 46.26,
+    "text": "But if you want to see that again-- --we can."
+  },
+  {
+    "t_start": 46.8,
+    "t_end": 47.8,
+    "text": "It's fresh."
+  },
+  {
+    "t_start": 47.84,
+    "t_end": 63.9,
+    "text": "High-dimensional geometry, and concentration."
+  },
+  {
+    "t_start": 65.16,
+    "t_end": 67.98,
+    "text": "I will avoid the question of what this has to do"
+  },
+  {
+    "t_start": 67.98,
+    "t_end": 68.79,
+    "text": "with data science."
+  },
+  {
+    "t_start": 68.79,
+    "t_end": 70.47,
+    "text": "I'm sure there are very good answers."
+  },
+  {
+    "t_start": 71.91,
+    "t_end": 75.96,
+    "text": "One drawback of using the board is that I don't get"
+  },
+  {
+    "t_start": 75.96,
+    "t_end": 79.56,
+    "text": "to put down an outline of the talk, but I guess we"
+  },
+  {
+    "t_start": 79.56,
+    "t_end": 80.55,
+    "text": "should do that anyway, right?"
+  },
+  {
+    "t_start": 80.55,
+    "t_end": 82.74,
+    "text": "So you know which parts you can skip out for."
+  },
+  {
+    "t_start": 83.4,
+    "t_end": 84.99,
+    "text": "Is this--"
+  },
+  {
+    "t_start": 87.33,
+    "t_end": 88.86,
+    "text": "So, here's a rough outline."
+  },
+  {
+    "t_start": 88.86,
+    "t_end": 90.18,
+    "text": "Please interrupt at any point."
+  },
+  {
+    "t_start": 90.54,
+    "t_end": 92.25,
+    "text": "I have several examples to work out."
+  },
+  {
+    "t_start": 93.36,
+    "t_end": 96.51,
+    "text": "Some more laborious than others, and we can certainly"
+  },
+  {
+    "t_start": 97.23,
+    "t_end": 98.19,
+    "text": "go different ways."
+  },
+  {
+    "t_start": 99.18,
+    "t_end": 99.9,
+    "text": "But here's the outline."
+  },
+  {
+    "t_start": 100.41,
+    "t_end": 103.08,
+    "text": "So, sort of one general theme is that you've got"
+  },
+  {
+    "t_start": 103.08,
+    "t_end": 105.45,
+    "text": "lots of these points in high-dimensional space or a"
+  },
+  {
+    "t_start": 105.45,
+    "t_end": 107.52,
+    "text": "distribution in high-dimensional space data, right?"
+  },
+  {
+    "t_start": 108.18,
+    "t_end": 112.59,
+    "text": "And is there some structure that will make things easier for us?"
+  },
+  {
+    "t_start": 113.13,
+    "t_end": 117.73,
+    "text": "So, an aspect that we'll try to address is the"
+  },
+  {
+    "t_start": 117.73,
+    "t_end": 118.65,
+    "text": "volume distribution."
+  },
+  {
+    "t_start": 120.63,
+    "t_end": 124.11,
+    "text": "Just think of it as our distribution of mass."
+  },
+  {
+    "t_start": 124.74,
+    "t_end": 126.9,
+    "text": "Can you say something about this in general?"
+  },
+  {
+    "t_start": 127.95,
+    "t_end": 134.772,
+    "text": "So to understand this, we'll do a few examples"
+  },
+  {
+    "t_start": 134.772,
+    "t_end": 140.836,
+    "text": "and then we'll get to the Brunn-Minkowski theorem,"
+  },
+  {
+    "t_start": 140.836,
+    "t_end": 149.174,
+    "text": "which I will prove and then apply to get two different"
+  },
+  {
+    "t_start": 149.174,
+    "t_end": 150.69,
+    "text": "interesting results."
+  },
+  {
+    "t_start": 150.78,
+    "t_end": 152.49,
+    "text": "So, two apps."
+  },
+  {
+    "t_start": 153.93,
+    "t_end": 158.07,
+    "text": "And then the Prakopa-- Leibler theorem,"
+  },
+  {
+    "t_start": 161.1,
+    "t_end": 165.45,
+    "text": "which is takes us from convex bodies to lo-- to functions."
+  },
+  {
+    "t_start": 166.74,
+    "t_end": 171.87,
+    "text": "And apply that once or twice, I forget, but one or two apps."
+  },
+  {
+    "t_start": 171.87,
+    "t_end": 172.39,
+    "text": "And"
+  },
+  {
+    "t_start": 174.09,
+    "t_end": 179.76,
+    "text": "then uh, concentration of of of Lipschitz functions, functions"
+  },
+  {
+    "t_start": 179.76,
+    "t_end": 184.23,
+    "text": "that don't change too much over, over reasonable distributions."
+  },
+  {
+    "t_start": 185.0,
+    "t_end": 188.84,
+    "text": "Uh, so the classical version being Lévy's"
+  },
+  {
+    "t_start": 189.38,
+    "t_end": 192.8,
+    "text": "conc-- concentration or,"
+  },
+  {
+    "t_start": 195.16,
+    "t_end": 197.88,
+    "text": "or Lévy concentration, I guess."
+  },
+  {
+    "t_start": 198.42,
+    "t_end": 203.79,
+    "text": "And then from this, we'll go to the existence of"
+  },
+  {
+    "t_start": 203.79,
+    "t_end": 206.79,
+    "text": "large Euclidean sections in, in these high-dimensional"
+  },
+  {
+    "t_start": 206.79,
+    "t_end": 208.11,
+    "text": "distributions or sets."
+  },
+  {
+    "t_start": 208.17,
+    "t_end": 211.29,
+    "text": "So what's often called a Dvoretzky or generalized"
+  },
+  {
+    "t_start": 211.32,
+    "t_end": 212.16,
+    "text": "Dvoretzky theorem."
+  },
+  {
+    "t_start": 212.16,
+    "t_end": 212.68,
+    "text": "Dvoretzky."
+  },
+  {
+    "t_start": 217.56,
+    "t_end": 221.34,
+    "text": "And then we'll take another look at the last two topics"
+  },
+  {
+    "t_start": 221.76,
+    "t_end": 222.96,
+    "text": "and go to isoperimetry"
+  },
+  {
+    "t_start": 227.22,
+    "t_end": 227.85,
+    "text": "in high dimension."
+  },
+  {
+    "t_start": 228.9,
+    "t_end": 231.81,
+    "text": "So, that's the plan I've laid out so far."
+  },
+  {
+    "t_start": 232.66,
+    "t_end": 237.27,
+    "text": "If we run out of topics, we can branch further."
+  },
+  {
+    "t_start": 237.27,
+    "t_end": 237.79,
+    "text": "Okay."
+  },
+  {
+    "t_start": 238.35,
+    "t_end": 244.002,
+    "text": "So just to seen you know, the question you're asking"
+  },
+  {
+    "t_start": 244.002,
+    "t_end": 247.959,
+    "text": "is what structure in high dimensions makes"
+  },
+  {
+    "t_start": 247.959,
+    "t_end": 249.09,
+    "text": "problems tractable?"
+  },
+  {
+    "t_start": 249.09,
+    "t_end": 251.25,
+    "text": "That's sort of one entry point, one motivation"
+  },
+  {
+    "t_start": 251.25,
+    "t_end": 251.94,
+    "text": "for the structure."
+  },
+  {
+    "t_start": 252.33,
+    "t_end": 261.951,
+    "text": "And the empirical answer seems to be some type of,"
+  },
+  {
+    "t_start": 261.951,
+    "t_end": 265.8,
+    "text": "so structure for tractability."
+  },
+  {
+    "t_start": 266.22,
+    "t_end": 269.61,
+    "text": "And this is only an empirical answer."
+  },
+  {
+    "t_start": 269.88,
+    "t_end": 274.02,
+    "text": "It's convexity, and I'll put that"
+  },
+  {
+    "t_start": 274.02,
+    "t_end": 276.75,
+    "text": "in quotes 'cause it comes in different"
+  },
+  {
+    "t_start": 276.75,
+    "t_end": 278.76,
+    "text": "guises and its extensions."
+  },
+  {
+    "t_start": 280.11,
+    "t_end": 283.146,
+    "text": "Now, this is certainly not a complete answer,"
+  },
+  {
+    "t_start": 283.146,
+    "t_end": 287.322,
+    "text": "and just so I say it at least once for example,"
+  },
+  {
+    "t_start": 287.322,
+    "t_end": 290.738,
+    "text": "if you want to solve linear equations over GF2,"
+  },
+  {
+    "t_start": 290.738,
+    "t_end": 296.432,
+    "text": "I don't know how to do it with a convex method, but as far as"
+  },
+  {
+    "t_start": 296.432,
+    "t_end": 298.71,
+    "text": "I know that's the only convex."
+  },
+  {
+    "t_start": 299.43,
+    "t_end": 301.24,
+    "text": "So anyway, this is the"
+  },
+  {
+    "t_start": 301.28,
+    "t_end": 301.95,
+    "text": "empirical answer."
+  },
+  {
+    "t_start": 302.34,
+    "t_end": 306.206,
+    "text": "So, this seems to be a useful thing to study"
+  },
+  {
+    "t_start": 306.206,
+    "t_end": 308.14,
+    "text": "And so we'll do that."
+  },
+  {
+    "t_start": 308.2,
+    "t_end": 313.64,
+    "text": "So very quick one-time recap."
+  },
+  {
+    "t_start": 313.68,
+    "t_end": 319.2,
+    "text": "So, we say K is convex and K is a subset of"
+  },
+  {
+    "t_start": 319.23,
+    "t_end": 320.88,
+    "text": "N-dimensional Euclidean space."
+  },
+  {
+    "t_start": 320.88,
+    "t_end": 324.907,
+    "text": "Dimension will be N, and which means that"
+  },
+  {
+    "t_start": 324.907,
+    "t_end": 329.439,
+    "text": "if two points are in the set, then the--"
+  },
+  {
+    "t_start": 329.439,
+    "t_end": 332.46,
+    "text": "--segment is also in the set."
+  },
+  {
+    "t_start": 335.97,
+    "t_end": 339.66,
+    "text": "So, this buys us a lot of things, but let's see."
+  },
+  {
+    "t_start": 339.66,
+    "t_end": 343.29,
+    "text": "The first couple of examples I want to do are about"
+  },
+  {
+    "t_start": 343.62,
+    "t_end": 348.068,
+    "text": "Let's recap a couple of facts in high dimension 'cause"
+  },
+  {
+    "t_start": 348.068,
+    "t_end": 350.642,
+    "text": "things change a little bit, the phenomenon changes"
+  },
+  {
+    "t_start": 350.642,
+    "t_end": 351.93,
+    "text": "a bit with dimension."
+  },
+  {
+    "t_start": 353.07,
+    "t_end": 359.07,
+    "text": "So, fact one is just that most of the volume,"
+  },
+  {
+    "t_start": 362.82,
+    "t_end": 365.01,
+    "text": "and this has actually got little to do with convexity,"
+  },
+  {
+    "t_start": 365.4,
+    "t_end": 366.48,
+    "text": "is near the boundary, so"
+  },
+  {
+    "t_start": 370.23,
+    "t_end": 372.55,
+    "text": "I want to quantify this."
+  },
+  {
+    "t_start": 373.25,
+    "t_end": 376.76,
+    "text": "Uh, so you, you have some set, I'll call it K here, but it"
+  },
+  {
+    "t_start": 376.79,
+    "t_end": 377.88,
+    "text": "doesn't have to be convex."
+  },
+  {
+    "t_start": 378.24,
+    "t_end": 382.784,
+    "text": "And by near the boundary, I mean suppose you look at a scaling of"
+  },
+  {
+    "t_start": 382.784,
+    "t_end": 387.004,
+    "text": "this, 1 minus epsilon K, and all we're saying is that the volume"
+  },
+  {
+    "t_start": 387.004,
+    "t_end": 390.574,
+    "text": "of 1 minus epsilon K, now this is n dimensional volume,"
+  },
+  {
+    "t_start": 390.574,
+    "t_end": 394.47,
+    "text": "is 1 minus epsilon to the n times the volume of K."
+  },
+  {
+    "t_start": 396.15,
+    "t_end": 401.43,
+    "text": "So, if epsilon is already, like, 1 over n, you're getting a"
+  },
+  {
+    "t_start": 401.43,
+    "t_end": 402.48,
+    "text": "constant fraction of the volume."
+  },
+  {
+    "t_start": 405.69,
+    "t_end": 406.21,
+    "text": "Right?"
+  },
+  {
+    "t_start": 406.21,
+    "t_end": 409.17,
+    "text": "So this is already a constant fraction."
+  },
+  {
+    "t_start": 412.105,
+    "t_end": 412.625,
+    "text": "Okay."
+  },
+  {
+    "t_start": 412.95,
+    "t_end": 416.153,
+    "text": "So, you know, if you had some body,"
+  },
+  {
+    "t_start": 416.153,
+    "t_end": 419.356,
+    "text": "you just shrink it, let's say it contains"
+  },
+  {
+    "t_start": 419.356,
+    "t_end": 423.76,
+    "text": "the unit ball, you shrink this by literally a 1 minus"
+  },
+  {
+    "t_start": 423.76,
+    "t_end": 428.965,
+    "text": "1 over n factor, so the width of this is actually less than"
+  },
+  {
+    "t_start": 428.965,
+    "t_end": 433.77,
+    "text": "1 over n because I said it contains the unit ball, right?"
+  },
+  {
+    "t_start": 433.77,
+    "t_end": 434.29,
+    "text": "Uh, uh--"
+  },
+  {
+    "t_start": 435.21,
+    "t_end": 436.02,
+    "text": "[AUDIENCE MEMBER] It's more."
+  },
+  {
+    "t_start": 436.02,
+    "t_end": 436.54,
+    "text": "[LECTURER] More."
+  },
+  {
+    "t_start": 436.79,
+    "t_end": 437.31,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 437.31,
+    "t_end": 437.83,
+    "text": "It's--."
+  },
+  {
+    "t_start": 437.83,
+    "t_end": 441.091,
+    "text": "It's just a factor of 1 minus 1 over n,"
+  },
+  {
+    "t_start": 441.091,
+    "t_end": 443.94,
+    "text": "so then you already catch half the volume."
+  },
+  {
+    "t_start": 445.13,
+    "t_end": 445.65,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 445.92,
+    "t_end": 448.35,
+    "text": "So most of it is near the boundary."
+  },
+  {
+    "t_start": 448.39,
+    "t_end": 451.926,
+    "text": "This is actually, maybe the second-most famous quote,"
+  },
+  {
+    "t_start": 451.926,
+    "t_end": 457.23,
+    "text": "you know the most famous one is \"One small step for man,\"."
+  },
+  {
+    "t_start": 457.57,
+    "t_end": 458.09,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 458.09,
+    "t_end": 460.74,
+    "text": "The second one is by Imre Baranya, \"Everything"
+  },
+  {
+    "t_start": 460.74,
+    "t_end": 463.71,
+    "text": "interesting in a convex body happens near its boundary.\""
+  },
+  {
+    "t_start": 465.83,
+    "t_end": 467.31,
+    "text": "And the third one, you know, everyone knows the third one?"
+  },
+  {
+    "t_start": 468.12,
+    "t_end": 472.23,
+    "text": "It's by Kamal Jain, \"If my laptop can't do it,"
+  },
+  {
+    "t_start": 473.52,
+    "t_end": 474.45,
+    "text": "the universe can't do it.\""
+  },
+  {
+    "t_start": 474.45,
+    "t_end": 475.71,
+    "text": "Or, actually he said the market, but--"
+  },
+  {
+    "t_start": 476.845,
+    "t_end": 477.365,
+    "text": "Okay."
+  },
+  {
+    "t_start": 478.02,
+    "t_end": 479.07,
+    "text": "This is fact one."
+  },
+  {
+    "t_start": 479.49,
+    "t_end": 480.03,
+    "text": "Okay, great."
+  },
+  {
+    "t_start": 480.03,
+    "t_end": 482.52,
+    "text": "Now, fact two, so keep in mind"
+  },
+  {
+    "t_start": 482.52,
+    "t_end": 484.08,
+    "text": "fact one because t-- will play a role in"
+  },
+  {
+    "t_start": 484.08,
+    "t_end": 487.4,
+    "text": "fact two, I guess I'll, This is visible still?"
+  },
+  {
+    "t_start": 489.04,
+    "t_end": 489.56,
+    "text": "Yeah?"
+  },
+  {
+    "t_start": 489.56,
+    "t_end": 490.08,
+    "text": "Okay."
+  },
+  {
+    "t_start": 490.08,
+    "t_end": 490.6,
+    "text": "Fact two"
+  },
+  {
+    "t_start": 492.67,
+    "t_end": 495.81,
+    "text": "is, uh-- or maybe, maybe I should be smart."
+  },
+  {
+    "t_start": 497.85,
+    "t_end": 500.37,
+    "text": "Fact two is that most of a--"
+  },
+  {
+    "t_start": 500.37,
+    "t_end": 504.36,
+    "text": "I'll start with a ball, and I mean a Euclidean"
+  },
+  {
+    "t_start": 504.36,
+    "t_end": 510.0,
+    "text": "ball if I don't specify, is near a central hyperplane."
+  },
+  {
+    "t_start": 510.0,
+    "t_end": 510.52,
+    "text": "And"
+  },
+  {
+    "t_start": 513.929,
+    "t_end": 517.25,
+    "text": "this again we will quantify, so I'm just talking about the"
+  },
+  {
+    "t_start": 517.289,
+    "t_end": 520.77,
+    "text": "Euclidean ball, the Euclidean norm less than equal to one."
+  },
+  {
+    "t_start": 520.83,
+    "t_end": 522.72,
+    "text": "And take any central hyperplane--."
+  },
+  {
+    "t_start": 523.97,
+    "t_end": 527.288,
+    "text": "--going through the origin, so n minus one dimensional"
+  },
+  {
+    "t_start": 527.288,
+    "t_end": 531.345,
+    "text": "hyperplane, and we want to say that most of the mass"
+  },
+  {
+    "t_start": 531.345,
+    "t_end": 535.77,
+    "text": "is near this, in a band, in a narrow band around it."
+  },
+  {
+    "t_start": 535.85,
+    "t_end": 538.51,
+    "text": "Okay, so let's quantify this as well."
+  },
+  {
+    "t_start": 542.13,
+    "t_end": 544.81,
+    "text": "Just to get familiar with these volume computations."
+  },
+  {
+    "t_start": 546.31,
+    "t_end": 551.963,
+    "text": "So, if I consider a section at distance, say, T, and"
+  },
+  {
+    "t_start": 551.963,
+    "t_end": 557.103,
+    "text": "look at the section there, this is the section here,"
+  },
+  {
+    "t_start": 557.103,
+    "t_end": 562.242,
+    "text": "that's a lower dimensional ball, one with a lower dimensional"
+  },
+  {
+    "t_start": 562.242,
+    "t_end": 568.41,
+    "text": "ball, and its radius is square root of 1 minus T squared."
+  },
+  {
+    "t_start": 570.28,
+    "t_end": 576.053,
+    "text": "So, if I look at the volume of the section at zero, right,"
+  },
+  {
+    "t_start": 576.053,
+    "t_end": 581.383,
+    "text": "versus the volume of the section at distance T from the origin,"
+  },
+  {
+    "t_start": 581.383,
+    "t_end": 587.157,
+    "text": "this is the radius has changed from one to square root of 1"
+  },
+  {
+    "t_start": 587.157,
+    "t_end": 592.486,
+    "text": "minus T squared, so the volume, since these are n minus one"
+  },
+  {
+    "t_start": 592.486,
+    "t_end": 596.483,
+    "text": "dimensional objects now, it's going to scale as 1"
+  },
+  {
+    "t_start": 596.483,
+    "t_end": 601.369,
+    "text": "minus T squared to the half to the power of n"
+  },
+  {
+    "t_start": 601.369,
+    "t_end": 603.59,
+    "text": "minus one, so this much."
+  },
+  {
+    "t_start": 604.14,
+    "t_end": 606.06,
+    "text": "So that's the rate at which it's scaling which"
+  },
+  {
+    "t_start": 606.06,
+    "t_end": 608.4,
+    "text": "is about E to the minus,"
+  },
+  {
+    "t_start": 613.19,
+    "t_end": 615.13,
+    "text": "So, it's all a familiar quantity, is nT squared, okay?"
+  },
+  {
+    "t_start": 615.54,
+    "t_end": 616.23,
+    "text": "Like a Gaussian."
+  },
+  {
+    "t_start": 616.92,
+    "t_end": 617.7,
+    "text": "It's dropping off."
+  },
+  {
+    "t_start": 618.24,
+    "t_end": 623.205,
+    "text": "So now, if I put T as one over root n, you already get about"
+  },
+  {
+    "t_start": 623.205,
+    "t_end": 626.184,
+    "text": "half, it's dropped by half, and it's dropping geometrically,"
+  },
+  {
+    "t_start": 626.184,
+    "t_end": 629.825,
+    "text": "so by the time you reach constant over root n distance,"
+  },
+  {
+    "t_start": 629.825,
+    "t_end": 633.797,
+    "text": "so now we go to these bands, and this thickness here is"
+  },
+  {
+    "t_start": 633.797,
+    "t_end": 638.1,
+    "text": "only about one over root n, you already picked up half the mass."
+  },
+  {
+    "t_start": 638.49,
+    "t_end": 640.29,
+    "text": "Ball of radius one, one over root n you've"
+  },
+  {
+    "t_start": 640.29,
+    "t_end": 640.95,
+    "text": "picked up half the mass."
+  },
+  {
+    "t_start": 641.67,
+    "t_end": 644.04,
+    "text": "There was nothing special about this choice of hyperplane,"
+  },
+  {
+    "t_start": 644.28,
+    "t_end": 646.29,
+    "text": "so it's true for every central hyperplane."
+  },
+  {
+    "t_start": 646.29,
+    "t_end": 648.55,
+    "text": "So, you know, there are sort"
+  },
+  {
+    "t_start": 648.57,
+    "t_end": 651.84,
+    "text": "of two in quotes, paradoxes, here, right?"
+  },
+  {
+    "t_start": 652.38,
+    "t_end": 654.57,
+    "text": "How can you be both near the boundary and near"
+  },
+  {
+    "t_start": 654.57,
+    "t_end": 657.53,
+    "text": "the central hyperplane, if you haven't thought"
+  },
+  {
+    "t_start": 657.54,
+    "t_end": 660.07,
+    "text": "in high dimension before."
+  },
+  {
+    "t_start": 660.17,
+    "t_end": 661.92,
+    "text": "You're welcome to answer, or, I don't know."
+  },
+  {
+    "t_start": 661.92,
+    "t_end": 666.01,
+    "text": "I mean, it's not uh, yeah uh--."
+  },
+  {
+    "t_start": 666.794,
+    "t_end": 667.314,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 667.33,
+    "t_end": 670.061,
+    "text": "So it's because well even in this, within this"
+  },
+  {
+    "t_start": 670.061,
+    "t_end": 673.096,
+    "text": "band most of the mass is actually near the boundary,"
+  },
+  {
+    "t_start": 673.096,
+    "t_end": 674.31,
+    "text": "so there's no contradiction."
+  },
+  {
+    "t_start": 674.31,
+    "t_end": 675.36,
+    "text": "I mean, this, the band also"
+  },
+  {
+    "t_start": 675.36,
+    "t_end": 676.71,
+    "text": "has boundary, and if you look"
+  },
+  {
+    "t_start": 676.71,
+    "t_end": 678.06,
+    "text": "at those sections everything's near"
+  },
+  {
+    "t_start": 678.06,
+    "t_end": 678.58,
+    "text": "the boundary."
+  },
+  {
+    "t_start": 679.02,
+    "t_end": 680.31,
+    "text": "You could pose this in a slightly different"
+  },
+  {
+    "t_start": 680.31,
+    "t_end": 682.86,
+    "text": "way which is to say, suppose I had two of"
+  },
+  {
+    "t_start": 682.86,
+    "t_end": 685.8,
+    "text": "these bands, right?"
+  },
+  {
+    "t_start": 686.76,
+    "t_end": 687.6,
+    "text": "Where is the intersection?"
+  },
+  {
+    "t_start": 688.98,
+    "t_end": 690.51,
+    "text": "It's also near the boundary and indeed."
+  },
+  {
+    "t_start": 690.9,
+    "t_end": 691.42,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 691.42,
+    "t_end": 692.65,
+    "text": "So, no contradiction"
+  },
+  {
+    "t_start": 692.65,
+    "t_end": 695.52,
+    "text": "But, yes, it's, it gets highly concentrated."
+  },
+  {
+    "t_start": 697.05,
+    "t_end": 700.62,
+    "text": "Okay I want to just, while we're doing this"
+  },
+  {
+    "t_start": 700.62,
+    "t_end": 703.795,
+    "text": "we can see that these computations also let"
+  },
+  {
+    "t_start": 703.795,
+    "t_end": 707.366,
+    "text": "us talk about what's the volume of the cap,"
+  },
+  {
+    "t_start": 707.366,
+    "t_end": 711.73,
+    "text": "so what's outside this distance, and so that drops off roughly"
+  },
+  {
+    "t_start": 711.73,
+    "t_end": 716.491,
+    "text": "like this, E to the minus nT squared over two because it's"
+  },
+  {
+    "t_start": 716.491,
+    "t_end": 719.666,
+    "text": "determined essentially by the bounding section, and after"
+  },
+  {
+    "t_start": 719.666,
+    "t_end": 721.65,
+    "text": "that it's dropping out fast."
+  },
+  {
+    "t_start": 722.04,
+    "t_end": 723.9,
+    "text": "But now you can ask this more generally, let's say,"
+  },
+  {
+    "t_start": 723.9,
+    "t_end": 725.91,
+    "text": "let me take a different shape, say a cube,"
+  },
+  {
+    "t_start": 727.11,
+    "t_end": 728.34,
+    "text": "so that we can do the computations"
+  },
+  {
+    "t_start": 728.34,
+    "t_end": 730.92,
+    "text": "explicitly again, and I take some direction,"
+  },
+  {
+    "t_start": 730.98,
+    "t_end": 734.19,
+    "text": "some unit vector, say, use the unit vector,"
+  },
+  {
+    "t_start": 734.55,
+    "t_end": 738.15,
+    "text": "and we ask what's the distribution of mass along"
+  },
+  {
+    "t_start": 738.15,
+    "t_end": 740.76,
+    "text": "U?, okay, same type of question."
+  },
+  {
+    "t_start": 741.24,
+    "t_end": 745.23,
+    "text": "So now we're asking what is the probability that for a"
+  },
+  {
+    "t_start": 745.23,
+    "t_end": 747.84,
+    "text": "random X from the cube"
+  },
+  {
+    "t_start": 750.57,
+    "t_end": 752.82,
+    "text": "U.X is, let's say, greater than T?"
+  },
+  {
+    "t_start": 753.03,
+    "t_end": 754.05,
+    "text": "And it's again, centered at the"
+  },
+  {
+    "t_start": 754.05,
+    "t_end": 755.67,
+    "text": "origin, okay?"
+  },
+  {
+    "t_start": 755.67,
+    "t_end": 756.78,
+    "text": "And U is a unit vector."
+  },
+  {
+    "t_start": 760.362,
+    "t_end": 763.542,
+    "text": "Okay, so it asks this, and now this again,"
+  },
+  {
+    "t_start": 763.582,
+    "t_end": 766.44,
+    "text": "we can-- we can-- we can do using basic"
+  },
+  {
+    "t_start": 766.8,
+    "t_end": 769.302,
+    "text": "Chernoff style bounds because the excess-- uh the--"
+  },
+  {
+    "t_start": 769.302,
+    "t_end": 771.06,
+    "text": "the coordinates of the cube are independent."
+  },
+  {
+    "t_start": 771.57,
+    "t_end": 772.56,
+    "text": "The excise are independent."
+  },
+  {
+    "t_start": 772.89,
+    "t_end": 777.471,
+    "text": "And so again, this will also fall"
+  },
+  {
+    "t_start": 777.471,
+    "t_end": 783.362,
+    "text": "like E to the minus nT squared over 2."
+  },
+  {
+    "t_start": 783.442,
+    "t_end": 789.3,
+    "text": "No n now because these are unit vectors."
+  },
+  {
+    "t_start": 790.62,
+    "t_end": 791.25,
+    "text": "Did I get that right?"
+  },
+  {
+    "t_start": 793.26,
+    "t_end": 794.16,
+    "text": "[AUDIENCE MEMBER] Could you explain it again?"
+  },
+  {
+    "t_start": 794.222,
+    "t_end": 794.992,
+    "text": "No"
+  },
+  {
+    "t_start": 795.002,
+    "t_end": 796.062,
+    "text": "[LECTURER] Yeah, U is a unit vector"
+  },
+  {
+    "t_start": 796.862,
+    "t_end": 798.922,
+    "text": "And I picked uh, X from the unit"
+  },
+  {
+    "t_start": 798.962,
+    "t_end": 800.482,
+    "text": "hypercube here."
+  },
+  {
+    "t_start": 800.562,
+    "t_end": 805.352,
+    "text": "So the variance of this, you know, expected-- Divide by n?"
+  },
+  {
+    "t_start": 805.962,
+    "t_end": 806.812,
+    "text": "[AUDIENCE MEMBER] Minus T squared over 2."
+  },
+  {
+    "t_start": 806.902,
+    "t_end": 808.572,
+    "text": "I think this is okay because it's Lipschitz"
+  },
+  {
+    "t_start": 808.622,
+    "t_end": 809.382,
+    "text": "function, so it's--"
+  },
+  {
+    "t_start": 809.382,
+    "t_end": 809.902,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 809.902,
+    "t_end": 810.762,
+    "text": "--some concentration."
+  },
+  {
+    "t_start": 810.902,
+    "t_end": 813.493,
+    "text": "[LECTURER] So just saying that if you go out, so the"
+  },
+  {
+    "t_start": 813.493,
+    "t_end": 814.53,
+    "text": "standard deviation is one."
+  },
+  {
+    "t_start": 814.53,
+    "t_end": 817.71,
+    "text": "If you go out T standard deviations,"
+  },
+  {
+    "t_start": 818.07,
+    "t_end": 820.462,
+    "text": "you will get E to the minus T squared over 2."
+  },
+  {
+    "t_start": 820.497,
+    "t_end": 821.017,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 822.84,
+    "t_end": 825.082,
+    "text": "So you have this similar phenomenon here."
+  },
+  {
+    "t_start": 825.082,
+    "t_end": 825.602,
+    "text": "[AUDIENCE MEMBER] Mm-hmm."
+  },
+  {
+    "t_start": 825.602,
+    "t_end": 827.264,
+    "text": "I'm sorry, going back to"
+  },
+  {
+    "t_start": 827.264,
+    "t_end": 829.62,
+    "text": "the previous example with the two bands--"
+  },
+  {
+    "t_start": 829.62,
+    "t_end": 830.14,
+    "text": "[LECTURER] Yeah."
+  },
+  {
+    "t_start": 830.992,
+    "t_end": 832.821,
+    "text": "[AUDIENCE MEMBER] How come the intersection is on the boundary?"
+  },
+  {
+    "t_start": 832.821,
+    "t_end": 835.337,
+    "text": "I mean, at least in the picture it seems, at least"
+  },
+  {
+    "t_start": 835.337,
+    "t_end": 836.047,
+    "text": "the boundary is not--"
+  },
+  {
+    "t_start": 836.047,
+    "t_end": 836.567,
+    "text": "Oh,"
+  },
+  {
+    "t_start": 836.567,
+    "t_end": 837.162,
+    "text": "But this picture"
+  },
+  {
+    "t_start": 837.202,
+    "t_end": 838.562,
+    "text": "[LECTURER] Is so low dimensional, right?"
+  },
+  {
+    "t_start": 838.632,
+    "t_end": 839.732,
+    "text": "Yeah, of course, but--"
+  },
+  {
+    "t_start": 839.732,
+    "t_end": 842.352,
+    "text": "So if you're in very high dimension-- Mm-hmm."
+  },
+  {
+    "t_start": 842.382,
+    "t_end": 847.479,
+    "text": "Think of the band, not as a band through the ball,"
+  },
+  {
+    "t_start": 847.479,
+    "t_end": 850.26,
+    "text": "but just as an actual ring."
+  },
+  {
+    "t_start": 850.757,
+    "t_end": 851.277,
+    "text": "Mm-hmm."
+  },
+  {
+    "t_start": 851.492,
+    "t_end": 852.87,
+    "text": "Okay, a lower dimension ring."
+  },
+  {
+    "t_start": 853.05,
+    "t_end": 853.792,
+    "text": "Oh, I see."
+  },
+  {
+    "t_start": 853.792,
+    "t_end": 854.312,
+    "text": "[AUDIENCE MEMBER] Okay, thank you."
+  },
+  {
+    "t_start": 854.312,
+    "t_end": 854.832,
+    "text": "Because"
+  },
+  {
+    "t_start": 854.832,
+    "t_end": 856.042,
+    "text": "[LECTURER] That's where most of the mass is."
+  },
+  {
+    "t_start": 856.122,
+    "t_end": 857.162,
+    "text": "[AUDIENCE MEMBER] I see, thanks."
+  },
+  {
+    "t_start": 857.212,
+    "t_end": 858.302,
+    "text": "[LECTURER] Most means overwhelming."
+  },
+  {
+    "t_start": 858.302,
+    "t_end": 858.822,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 858.822,
+    "t_end": 859.342,
+    "text": "[AUDIENCE MEMBER] So I'm sorry--"
+  },
+  {
+    "t_start": 859.342,
+    "t_end": 859.862,
+    "text": "[LECTURER] Yes."
+  },
+  {
+    "t_start": 859.862,
+    "t_end": 860.922,
+    "text": "[AUDIENCE MEMBER] --you might have mentioned this already."
+  },
+  {
+    "t_start": 861.092,
+    "t_end": 862.11,
+    "text": "I came in a little bit late."
+  },
+  {
+    "t_start": 862.2,
+    "t_end": 864.66,
+    "text": "What's the measure you're using for the ball at"
+  },
+  {
+    "t_start": 864.832,
+    "t_end": 865.352,
+    "text": "[LECTURER] The moment?"
+  },
+  {
+    "t_start": 865.352,
+    "t_end": 867.242,
+    "text": "At the moment it's just Euclidean volume."
+  },
+  {
+    "t_start": 867.242,
+    "t_end": 867.762,
+    "text": "Okay."
+  },
+  {
+    "t_start": 867.762,
+    "t_end": 868.282,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 868.282,
+    "t_end": 868.802,
+    "text": "Right,"
+  },
+  {
+    "t_start": 868.802,
+    "t_end": 869.771,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 869.802,
+    "t_end": 871.11,
+    "text": "We will talk about general measures."
+  },
+  {
+    "t_start": 871.465,
+    "t_end": 871.985,
+    "text": "Sure."
+  },
+  {
+    "t_start": 872.035,
+    "t_end": 872.555,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 873.082,
+    "t_end": 873.602,
+    "text": "Okay."
+  },
+  {
+    "t_start": 873.602,
+    "t_end": 878.25,
+    "text": "So these raise certain natural general questions, right?"
+  },
+  {
+    "t_start": 878.25,
+    "t_end": 882.09,
+    "text": "I mean is something like this going to be true for some family"
+  },
+  {
+    "t_start": 882.09,
+    "t_end": 883.77,
+    "text": "of bodies and distributions?"
+  },
+  {
+    "t_start": 885.286,
+    "t_end": 885.806,
+    "text": "What can we say?"
+  },
+  {
+    "t_start": 885.99,
+    "t_end": 886.8,
+    "text": "What rates do we get?"
+  },
+  {
+    "t_start": 886.8,
+    "t_end": 889.305,
+    "text": "These are still questions being pursued by the field"
+  },
+  {
+    "t_start": 889.305,
+    "t_end": 892.089,
+    "text": "in full generality, but we have some nice answers and"
+  },
+  {
+    "t_start": 892.089,
+    "t_end": 893.76,
+    "text": "some nice tools to get there."
+  },
+  {
+    "t_start": 894.21,
+    "t_end": 901.317,
+    "text": "The first of these is perhaps a-- a the Brunn-Minkowski"
+  },
+  {
+    "t_start": 901.317,
+    "t_end": 903.45,
+    "text": "inqua-- uh theorem."
+  },
+  {
+    "t_start": 904.082,
+    "t_end": 906.922,
+    "text": "Theorem Brunn Minkowski."
+  },
+  {
+    "t_start": 909.329,
+    "t_end": 911.04,
+    "text": "And to state the theorem, I have to develop one tool,"
+  },
+  {
+    "t_start": 911.28,
+    "t_end": 913.83,
+    "text": "which is how to add two of these sets."
+  },
+  {
+    "t_start": 913.86,
+    "t_end": 917.889,
+    "text": "So suppose I have two sets, A, B, and these,"
+  },
+  {
+    "t_start": 917.889,
+    "t_end": 921.515,
+    "text": "we're not saying anything about convex, they're just compact,"
+  },
+  {
+    "t_start": 921.515,
+    "t_end": 925.544,
+    "text": "so I can talk about their volume and they're bounded"
+  },
+  {
+    "t_start": 925.544,
+    "t_end": 927.962,
+    "text": "and they are subsets of R^N."
+  },
+  {
+    "t_start": 928.021,
+    "t_end": 931.462,
+    "text": "So with their Minkowski sum"
+  },
+  {
+    "t_start": 933.922,
+    "t_end": 937.752,
+    "text": "something you would've seen if you've been doing you"
+  },
+  {
+    "t_start": 937.762,
+    "t_end": 941.4,
+    "text": "know um, lower bounds also."
+  },
+  {
+    "t_start": 942.542,
+    "t_end": 948.45,
+    "text": "A plus B is just the set of all X plus Y where X"
+  },
+  {
+    "t_start": 948.45,
+    "t_end": 950.58,
+    "text": "is an A and Y is an E."
+  },
+  {
+    "t_start": 952.8,
+    "t_end": 960.382,
+    "text": "So if I were to add a square plus a circle, I get you know,"
+  },
+  {
+    "t_start": 960.442,
+    "t_end": 964.44,
+    "text": "I'll start with the square and add a little circle."
+  },
+  {
+    "t_start": 965.43,
+    "t_end": 967.05,
+    "text": "Just add a circle to every point of the square."
+  },
+  {
+    "t_start": 968.29,
+    "t_end": 968.81,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 969.99,
+    "t_end": 972.6,
+    "text": "The position of the circle doesn't matter, right?"
+  },
+  {
+    "t_start": 972.6,
+    "t_end": 973.665,
+    "text": "These things are, it's independent"
+  },
+  {
+    "t_start": 973.665,
+    "t_end": 974.943,
+    "text": "of their position, you're just adding"
+  },
+  {
+    "t_start": 974.943,
+    "t_end": 976.86,
+    "text": "a circle per square you get the same thing."
+  },
+  {
+    "t_start": 980.52,
+    "t_end": 982.202,
+    "text": "Additive combinatorics."
+  },
+  {
+    "t_start": 982.281,
+    "t_end": 983.43,
+    "text": "This is additive geometry."
+  },
+  {
+    "t_start": 984.19,
+    "t_end": 984.71,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 984.9,
+    "t_end": 989.28,
+    "text": "So okay, so given this and then scaling of"
+  },
+  {
+    "t_start": 989.28,
+    "t_end": 990.3,
+    "text": "course is well defined."
+  },
+  {
+    "t_start": 990.3,
+    "t_end": 992.73,
+    "text": "If I want to talk about scaling a set where Lambda"
+  },
+  {
+    "t_start": 992.73,
+    "t_end": 994.372,
+    "text": "is just a-- a-- a-- a--"
+  },
+  {
+    "t_start": 994.372,
+    "t_end": 1002.662,
+    "text": "uh, then this is just a set of Lambda X, where X is in A."
+  },
+  {
+    "t_start": 1004.36,
+    "t_end": 1004.88,
+    "text": "Okay."
+  },
+  {
+    "t_start": 1004.88,
+    "t_end": 1009.254,
+    "text": "So the motivation for the theorem is if I have two sets"
+  },
+  {
+    "t_start": 1009.254,
+    "t_end": 1014.357,
+    "text": "and they have volume now I take their sum like this or take a"
+  },
+  {
+    "t_start": 1014.357,
+    "t_end": 1018.002,
+    "text": "convex combination of them, what's the volume going to be?"
+  },
+  {
+    "t_start": 1018.372,
+    "t_end": 1018.892,
+    "text": "Okay."
+  },
+  {
+    "t_start": 1018.892,
+    "t_end": 1019.922,
+    "text": "Can you ad-- so that could"
+  },
+  {
+    "t_start": 1019.942,
+    "t_end": 1021.17,
+    "text": "be very d-- many very different"
+  },
+  {
+    "t_start": 1021.17,
+    "t_end": 1022.64,
+    "text": "things depending on the shapes of the sets,"
+  },
+  {
+    "t_start": 1023.15,
+    "t_end": 1025.579,
+    "text": "but you expect that it shouldn't be too small"
+  },
+  {
+    "t_start": 1025.579,
+    "t_end": 1027.619,
+    "text": "because you're taking too m-- all these combinations, right?"
+  },
+  {
+    "t_start": 1027.619,
+    "t_end": 1029.839,
+    "text": "The set size of this sum shouldn't be too small."
+  },
+  {
+    "t_start": 1030.16,
+    "t_end": 1030.68,
+    "text": "That's--"
+  },
+  {
+    "t_start": 1030.68,
+    "t_end": 1034.362,
+    "text": "That's what the theorem is going to say, that for A,"
+  },
+  {
+    "t_start": 1034.369,
+    "t_end": 1038.03,
+    "text": "B subset of R^N and compact"
+  },
+  {
+    "t_start": 1041.569,
+    "t_end": 1046.609,
+    "text": "and Lambda is the multiple convex combination multiplier,"
+  },
+  {
+    "t_start": 1047.18,
+    "t_end": 1053.69,
+    "text": "the volume of Lambda_A plus 1 minus Lambda_B to the 1 over"
+  },
+  {
+    "t_start": 1053.75,
+    "t_end": 1059.202,
+    "text": "N is at least Lambda times volume of A to the 1 over"
+  },
+  {
+    "t_start": 1059.322,
+    "t_end": 1065.581,
+    "text": "N plus 1 minus Lambda times volume of B to the 1 over N."
+  },
+  {
+    "t_start": 1067.142,
+    "t_end": 1069.702,
+    "text": "Okay, so the volume to the 1 over N function"
+  },
+  {
+    "t_start": 1069.762,
+    "t_end": 1072.662,
+    "text": "is concave, right?"
+  },
+  {
+    "t_start": 1074.382,
+    "t_end": 1077.552,
+    "text": "Well, we'll get to that in a minute, but this is just a--"
+  },
+  {
+    "t_start": 1077.552,
+    "t_end": 1079.504,
+    "text": "This is a statement about two sets right"
+  },
+  {
+    "t_start": 1079.504,
+    "t_end": 1080.48,
+    "text": "now and any multiplier."
+  },
+  {
+    "t_start": 1081.5,
+    "t_end": 1085.85,
+    "text": "Now, I equivalently, right?"
+  },
+  {
+    "t_start": 1085.85,
+    "t_end": 1088.902,
+    "text": "So let's prove this."
+  },
+  {
+    "t_start": 1088.942,
+    "t_end": 1092.922,
+    "text": "It's you know, boot camp, we get to stay a few proofs back, yeah?"
+  },
+  {
+    "t_start": 1092.962,
+    "t_end": 1095.881,
+    "text": "But you can always give me the signal to speed up"
+  },
+  {
+    "t_start": 1095.881,
+    "t_end": 1098.27,
+    "text": "if you've seen the proof in the previous lectures."
+  },
+  {
+    "t_start": 1098.27,
+    "t_end": 1099.35,
+    "text": "I don't think you have, right?"
+  },
+  {
+    "t_start": 1099.35,
+    "t_end": 1101.042,
+    "text": "Yeah, okay."
+  },
+  {
+    "t_start": 1101.142,
+    "t_end": 1105.052,
+    "text": "Yeah, so by just replacing Lambda_A by A and 1"
+  },
+  {
+    "t_start": 1105.052,
+    "t_end": 1107.789,
+    "text": "minus Lambda_B by B, it's sufficient to"
+  },
+  {
+    "t_start": 1107.789,
+    "t_end": 1109.353,
+    "text": "prove that volume of--"
+  },
+  {
+    "t_start": 1109.353,
+    "t_end": 1114.436,
+    "text": "A sorry, A plus B to the one over N is at least"
+  },
+  {
+    "t_start": 1114.436,
+    "t_end": 1116.0,
+    "text": "Lambda volume of A."
+  },
+  {
+    "t_start": 1117.62,
+    "t_end": 1118.73,
+    "text": "[AUDIENCE MEMBER] Um-- No lambda?"
+  },
+  {
+    "t_start": 1119.148,
+    "t_end": 1119.668,
+    "text": "[LECTURER] No lambda."
+  },
+  {
+    "t_start": 1122.598,
+    "t_end": 1123.658,
+    "text": "What should I have there?"
+  },
+  {
+    "t_start": 1123.697,
+    "t_end": 1124.418,
+    "text": "[AUDIENCE MEMBER] One over N2."
+  },
+  {
+    "t_start": 1124.737,
+    "t_end": 1128.727,
+    "text": "[LECTURER] Yeah. Plus--"
+  },
+  {
+    "t_start": 1130.138,
+    "t_end": 1131.257,
+    "text": "Okay, that's what I want."
+  },
+  {
+    "t_start": 1131.418,
+    "t_end": 1131.977,
+    "text": "Got it."
+  },
+  {
+    "t_start": 1131.997,
+    "t_end": 1132.918,
+    "text": "Good."
+  },
+  {
+    "t_start": 1132.977,
+    "t_end": 1134.457,
+    "text": "So how should we do this?"
+  },
+  {
+    "t_start": 1134.497,
+    "t_end": 1136.28,
+    "text": "To prove, suffices to show this."
+  },
+  {
+    "t_start": 1138.17,
+    "t_end": 1142.94,
+    "text": "So, first let's do it for a very simple family of bodies,"
+  },
+  {
+    "t_start": 1143.18,
+    "t_end": 1144.678,
+    "text": "which will be just cuboids--"
+  },
+  {
+    "t_start": 1146.058,
+    "t_end": 1146.578,
+    "text": "Right."
+  },
+  {
+    "t_start": 1146.578,
+    "t_end": 1147.5,
+    "text": "--so boxes."
+  },
+  {
+    "t_start": 1148.1,
+    "t_end": 1153.498,
+    "text": "And so suppose A is just a cuboid where the axis"
+  },
+  {
+    "t_start": 1153.498,
+    "t_end": 1160.37,
+    "text": "lengths are A1, A2, and so on, so it's zero A1 cross so on."
+  },
+  {
+    "t_start": 1162.23,
+    "t_end": 1165.477,
+    "text": "And B similarly has access lengths B1 through BN."
+  },
+  {
+    "t_start": 1166.918,
+    "t_end": 1169.04,
+    "text": "Okay, then the inequality we want to prove is what?"
+  },
+  {
+    "t_start": 1169.22,
+    "t_end": 1172.91,
+    "text": "An A plus B is just a box with lengths AI plus BI."
+  },
+  {
+    "t_start": 1173.57,
+    "t_end": 1175.94,
+    "text": "So the inequality we wanna prove is just product"
+  },
+  {
+    "t_start": 1175.94,
+    "t_end": 1179.42,
+    "text": "over I of AI plus BI"
+  },
+  {
+    "t_start": 1181.49,
+    "t_end": 1187.298,
+    "text": "to the one over N is at least product over I of AI to the"
+  },
+  {
+    "t_start": 1187.358,
+    "t_end": 1194.628,
+    "text": "one over N plus product over I, BI to the one over N."
+  },
+  {
+    "t_start": 1194.717,
+    "t_end": 1196.898,
+    "text": "Almost familiar, right?"
+  },
+  {
+    "t_start": 1197.658,
+    "t_end": 1198.178,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 1198.178,
+    "t_end": 1199.4,
+    "text": "So, well, yeah, it is."
+  },
+  {
+    "t_start": 1199.55,
+    "t_end": 1201.35,
+    "text": "So let's just divide."
+  },
+  {
+    "t_start": 1201.35,
+    "t_end": 1203.48,
+    "text": "So what you want is that this is at least"
+  },
+  {
+    "t_start": 1207.98,
+    "t_end": 1214.52,
+    "text": "AI over AI plus BI to the one over N."
+  },
+  {
+    "t_start": 1224.87,
+    "t_end": 1225.74,
+    "text": "So far so good."
+  },
+  {
+    "t_start": 1225.74,
+    "t_end": 1227.78,
+    "text": "And here I need to show this."
+  },
+  {
+    "t_start": 1227.84,
+    "t_end": 1232.1,
+    "text": "Now we'll use the what inequality?"
+  },
+  {
+    "t_start": 1236.33,
+    "t_end": 1237.95,
+    "text": "Kinda fun if you haven't seen it before, but, Right,"
+  },
+  {
+    "t_start": 1239.75,
+    "t_end": 1243.14,
+    "text": "there's a product and there's a sum, so we'll turn this"
+  },
+  {
+    "t_start": 1243.14,
+    "t_end": 1244.43,
+    "text": "product into a sum."
+  },
+  {
+    "t_start": 1245.21,
+    "t_end": 1249.605,
+    "text": "But what I want to say is that this is dominated by"
+  },
+  {
+    "t_start": 1249.605,
+    "t_end": 1254.0,
+    "text": "the sum over I of these things, one over N times that."
+  },
+  {
+    "t_start": 1254.0,
+    "t_end": 1254.52,
+    "text": "Mm-hmm."
+  },
+  {
+    "t_start": 1254.79,
+    "t_end": 1255.31,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 1255.71,
+    "t_end": 1259.25,
+    "text": "So AI over AI plus BI, just arithmetic mean is"
+  },
+  {
+    "t_start": 1259.25,
+    "t_end": 1260.12,
+    "text": "bigger than geometric mean."
+  },
+  {
+    "t_start": 1260.12,
+    "t_end": 1261.35,
+    "text": "These are all non-negative numbers,"
+  },
+  {
+    "t_start": 1261.83,
+    "t_end": 1264.02,
+    "text": "and same thing for that, so I might as well"
+  },
+  {
+    "t_start": 1264.038,
+    "t_end": 1266.638,
+    "text": "put it over here."
+  },
+  {
+    "t_start": 1266.678,
+    "t_end": 1267.447,
+    "text": "And so this is one"
+  },
+  {
+    "t_start": 1268.398,
+    "t_end": 1269.737,
+    "text": "And that's good."
+  },
+  {
+    "t_start": 1269.798,
+    "t_end": 1273.8,
+    "text": "Okay, so it's true for boxes but we have to,"
+  },
+  {
+    "t_start": 1273.8,
+    "t_end": 1275.81,
+    "text": "we want to show it for arbitrary sets with volume."
+  },
+  {
+    "t_start": 1276.14,
+    "t_end": 1280.677,
+    "text": "Now, one way to define volume is divide space into boxes"
+  },
+  {
+    "t_start": 1280.677,
+    "t_end": 1284.39,
+    "text": "and count all the boxes that are fully contained."
+  },
+  {
+    "t_start": 1285.08,
+    "t_end": 1287.48,
+    "text": "And then you take the size of the boxes down"
+  },
+  {
+    "t_start": 1287.48,
+    "t_end": 1290.6,
+    "text": "to zero and you multiply by the volume of each box."
+  },
+  {
+    "t_start": 1291.11,
+    "t_end": 1292.85,
+    "text": "So that's one way to define volume, in fact."
+  },
+  {
+    "t_start": 1293.27,
+    "t_end": 1298.598,
+    "text": "So, it'll be enough for us to show this for a union of boxes."
+  },
+  {
+    "t_start": 1298.658,
+    "t_end": 1301.178,
+    "text": "A is a union of boxes and B is a union of boxes."
+  },
+  {
+    "t_start": 1301.217,
+    "t_end": 1303.578,
+    "text": "Then we'd like to show that this inequality still holds."
+  },
+  {
+    "t_start": 1303.618,
+    "t_end": 1304.358,
+    "text": "[AUDIENCE MEMBER] That's what we're gonna do."
+  },
+  {
+    "t_start": 1304.378,
+    "t_end": 1305.717,
+    "text": "[LECTURER] Okay?"
+  },
+  {
+    "t_start": 1305.798,
+    "t_end": 1306.477,
+    "text": "Let's do"
+  },
+  {
+    "t_start": 1306.538,
+    "t_end": 1308.838,
+    "text": "[AUDIENCE MEMBER] That."
+  },
+  {
+    "t_start": 1314.398,
+    "t_end": 1315.538,
+    "text": "[LECTURER] Yeah, so how should we"
+  },
+  {
+    "t_start": 1315.558,
+    "t_end": 1318.62,
+    "text": "do it if A is a union of boxes?"
+  },
+  {
+    "t_start": 1318.62,
+    "t_end": 1325.361,
+    "text": "So the boxes that constitute A themselves, A are disjoint,"
+  },
+  {
+    "t_start": 1325.361,
+    "t_end": 1328.91,
+    "text": "to show that this holds for the union of boxes."
+  },
+  {
+    "t_start": 1329.63,
+    "t_end": 1334.94,
+    "text": "So it's gonna be by induction on the total number."
+  },
+  {
+    "t_start": 1334.94,
+    "t_end": 1336.44,
+    "text": "So this is for a finite union."
+  },
+  {
+    "t_start": 1336.47,
+    "t_end": 1338.63,
+    "text": "That's good enough for taking the limit."
+  },
+  {
+    "t_start": 1338.84,
+    "t_end": 1342.68,
+    "text": "So we want to show that for any finite union,"
+  },
+  {
+    "t_start": 1342.68,
+    "t_end": 1346.76,
+    "text": "so let's say the total number of boxes is some number, and"
+  },
+  {
+    "t_start": 1346.76,
+    "t_end": 1350.39,
+    "text": "we're going to do an induction on the number of these boxes."
+  },
+  {
+    "t_start": 1351.23,
+    "t_end": 1354.35,
+    "text": "Okay, so for one box, we already know"
+  },
+  {
+    "t_start": 1354.35,
+    "t_end": 1355.1,
+    "text": "it's true, right?"
+  },
+  {
+    "t_start": 1355.1,
+    "t_end": 1356.84,
+    "text": "Or even one box each."
+  },
+  {
+    "t_start": 1356.84,
+    "t_end": 1358.85,
+    "text": "So one box each, we have it."
+  },
+  {
+    "t_start": 1359.06,
+    "t_end": 1360.29,
+    "text": "So the base case is done."
+  },
+  {
+    "t_start": 1360.8,
+    "t_end": 1364.07,
+    "text": "So now for the inductive case, you just need a way to cut"
+  },
+  {
+    "t_start": 1364.07,
+    "t_end": 1365.78,
+    "text": "it into smaller numbers of boxes, right?"
+  },
+  {
+    "t_start": 1366.14,
+    "t_end": 1368.57,
+    "text": "So I've got bo-- boxes of, for A."
+  },
+  {
+    "t_start": 1369.74,
+    "t_end": 1372.08,
+    "text": "Yeah, now I'm just thinking of them as a union of boxes, right?"
+  },
+  {
+    "t_start": 1372.08,
+    "t_end": 1373.34,
+    "text": "They don't even have to make up a--"
+  },
+  {
+    "t_start": 1374.15,
+    "t_end": 1375.29,
+    "text": "Remember, it's just a compact set."
+  },
+  {
+    "t_start": 1375.29,
+    "t_end": 1376.22,
+    "text": "It doesn't have to be connected."
+  },
+  {
+    "t_start": 1376.79,
+    "t_end": 1380.72,
+    "text": "And then we have boxes for B, I don't know, there somewhere."
+  },
+  {
+    "t_start": 1383.18,
+    "t_end": 1384.68,
+    "text": "And how should I do induction?"
+  },
+  {
+    "t_start": 1385.858,
+    "t_end": 1389.06,
+    "text": "Right, we have to somehow partition them to get two sets"
+  },
+  {
+    "t_start": 1389.06,
+    "t_end": 1391.31,
+    "text": "with fewer numbers of boxes so I can apply the same lemma."
+  },
+  {
+    "t_start": 1392.75,
+    "t_end": 1400.018,
+    "text": "So simple claim is that there exists an axis-parallel cut,"
+  },
+  {
+    "t_start": 1402.078,
+    "t_end": 1405.518,
+    "text": "parallel hyperplane"
+  },
+  {
+    "t_start": 1408.02,
+    "t_end": 1408.74,
+    "text": "such that--"
+  },
+  {
+    "t_start": 1409.85,
+    "t_end": 1416.51,
+    "text": "So let's just take the boxes for A, such that each side contains"
+  },
+  {
+    "t_start": 1416.51,
+    "t_end": 1419.518,
+    "text": "at least one complete box."
+  },
+  {
+    "t_start": 1421.257,
+    "t_end": 1426.638,
+    "text": "Each side of H, say H is the hyperplane, contains"
+  },
+  {
+    "t_start": 1428.838,
+    "t_end": 1433.598,
+    "text": "one complete box of A."
+  },
+  {
+    "t_start": 1433.598,
+    "t_end": 1436.148,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 1437.358,
+    "t_end": 1438.41,
+    "text": "So is that clear?"
+  },
+  {
+    "t_start": 1440.84,
+    "t_end": 1442.43,
+    "text": "In one dimension it's clear, right?"
+  },
+  {
+    "t_start": 1442.55,
+    "t_end": 1443.78,
+    "text": "'cause otherwise they're all going to be"
+  },
+  {
+    "t_start": 1443.78,
+    "t_end": 1445.67,
+    "text": "intersecting pairwise."
+  },
+  {
+    "t_start": 1446.937,
+    "t_end": 1448.88,
+    "text": "Okay, so what about in higher dimension?"
+  },
+  {
+    "t_start": 1454.58,
+    "t_end": 1455.78,
+    "text": "Pretend all these are the same color."
+  },
+  {
+    "t_start": 1456.26,
+    "t_end": 1457.4,
+    "text": "They're all A plus N. Yeah?"
+  },
+  {
+    "t_start": 1457.4,
+    "t_end": 1460.437,
+    "text": "[AUDIENCE MEMBER] Project so we project to one dimension?"
+  },
+  {
+    "t_start": 1461.54,
+    "t_end": 1466.94,
+    "text": "[LECTURER] Yes, but you know, they might-- Oh,"
+  },
+  {
+    "t_start": 1467.505,
+    "t_end": 1468.025,
+    "text": "[AUDIENCE MEMBER] Intersect,"
+  },
+  {
+    "t_start": 1468.22,
+    "t_end": 1468.74,
+    "text": "[LECTURER] Yeah."
+  },
+  {
+    "t_start": 1468.74,
+    "t_end": 1469.26,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 1469.26,
+    "t_end": 1471.23,
+    "text": "Yeah, we want that, what we want is a cut."
+  },
+  {
+    "t_start": 1471.23,
+    "t_end": 1474.38,
+    "text": "So in this picture, for example, this would be good, right?"
+  },
+  {
+    "t_start": 1474.44,
+    "t_end": 1476.39,
+    "text": "And this is great, it gives a complete partition."
+  },
+  {
+    "t_start": 1476.72,
+    "t_end": 1480.11,
+    "text": "But even this would be good because this has one complete"
+  },
+  {
+    "t_start": 1480.11,
+    "t_end": 1481.07,
+    "text": "box here and one complete box."
+  },
+  {
+    "t_start": 1482.15,
+    "t_end": 1483.93,
+    "text": "Now the point is that, why you're saying"
+  },
+  {
+    "t_start": 1483.95,
+    "t_end": 1484.52,
+    "text": "there exists one."
+  },
+  {
+    "t_start": 1484.52,
+    "t_end": 1486.29,
+    "text": "You see, in one, if I just sweep"
+  },
+  {
+    "t_start": 1486.29,
+    "t_end": 1488.27,
+    "text": "in one direction, there might not be one"
+  },
+  {
+    "t_start": 1489.11,
+    "t_end": 1491.48,
+    "text": "And it could be that all the boxes are intersecting"
+  },
+  {
+    "t_start": 1491.75,
+    "t_end": 1493.43,
+    "text": "along one hyperplane."
+  },
+  {
+    "t_start": 1493.43,
+    "t_end": 1496.49,
+    "text": "So, it could be that no matter where you go,"
+  },
+  {
+    "t_start": 1497.72,
+    "t_end": 1499.94,
+    "text": "you're not able to get a complete box on both sides."
+  },
+  {
+    "t_start": 1501.11,
+    "t_end": 1503.75,
+    "text": "So, right?"
+  },
+  {
+    "t_start": 1504.23,
+    "t_end": 1505.43,
+    "text": "But that means that there is, yes?"
+  },
+  {
+    "t_start": 1505.88,
+    "t_end": 1507.33,
+    "text": "So the second, just to clarify--"
+  },
+  {
+    "t_start": 1507.33,
+    "t_end": 1507.85,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 1507.85,
+    "t_end": 1510.461,
+    "text": "The second line, the vertical one"
+  },
+  {
+    "t_start": 1510.461,
+    "t_end": 1513.182,
+    "text": "that you drew, does not have"
+  },
+  {
+    "t_start": 1513.182,
+    "t_end": 1515.449,
+    "text": "each complete box of type--"
+  },
+  {
+    "t_start": 1515.449,
+    "t_end": 1517.14,
+    "text": "of the blue-- I don't need"
+  },
+  {
+    "t_start": 1517.17,
+    "t_end": 1517.83,
+    "text": "of both types."
+  },
+  {
+    "t_start": 1517.83,
+    "t_end": 1518.35,
+    "text": "Sorry."
+  },
+  {
+    "t_start": 1518.35,
+    "t_end": 1519.8,
+    "text": "So this claim is only about one type."
+  },
+  {
+    "t_start": 1520.76,
+    "t_end": 1521.3,
+    "text": "Oh, okay."
+  },
+  {
+    "t_start": 1521.3,
+    "t_end": 1521.82,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 1521.9,
+    "t_end": 1522.5,
+    "text": "Just for one type."
+  },
+  {
+    "t_start": 1522.59,
+    "t_end": 1523.87,
+    "text": "So, yeah,"
+  },
+  {
+    "t_start": 1523.87,
+    "t_end": 1524.51,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 1524.87,
+    "t_end": 1526.67,
+    "text": "I should draw another figure with the same colors."
+  },
+  {
+    "t_start": 1526.69,
+    "t_end": 1527.316,
+    "text": "It's"
+  },
+  {
+    "t_start": 1527.316,
+    "t_end": 1528.52,
+    "text": "But yeah."
+  },
+  {
+    "t_start": 1528.52,
+    "t_end": 1529.04,
+    "text": "So-- It seems"
+  },
+  {
+    "t_start": 1529.04,
+    "t_end": 1530.11,
+    "text": "[AUDIENCE MEMBER] Like it should be the case that"
+  },
+  {
+    "t_start": 1530.19,
+    "t_end": 1532.97,
+    "text": "for every pair of boxes, there exists an axis-parallel"
+  },
+  {
+    "t_start": 1532.99,
+    "t_end": 1534.255,
+    "text": "hyperplane that separates them."
+  },
+  {
+    "t_start": 1534.255,
+    "t_end": 1534.775,
+    "text": "[LECTURER] Sure, yes."
+  },
+  {
+    "t_start": 1534.775,
+    "t_end": 1535.295,
+    "text": "But--"
+  },
+  {
+    "t_start": 1535.295,
+    "t_end": 1535.815,
+    "text": "That would"
+  },
+  {
+    "t_start": 1535.815,
+    "t_end": 1536.335,
+    "text": "[AUDIENCE MEMBER] Imply this."
+  },
+  {
+    "t_start": 1539.305,
+    "t_end": 1539.825,
+    "text": "[LECTURER] Right."
+  },
+  {
+    "t_start": 1539.825,
+    "t_end": 1544.05,
+    "text": "So he's saying just take two boxes-- Very nice."
+  },
+  {
+    "t_start": 1545.0,
+    "t_end": 1547.07,
+    "text": "There's gonna be a plane that separates them."
+  },
+  {
+    "t_start": 1547.45,
+    "t_end": 1547.97,
+    "text": "[AUDIENCE MEMBER] Right."
+  },
+  {
+    "t_start": 1547.97,
+    "t_end": 1550.96,
+    "text": "[LECTURER] Otherwise you know, they have a point in common."
+  },
+  {
+    "t_start": 1550.99,
+    "t_end": 1551.62,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 1551.63,
+    "t_end": 1552.59,
+    "text": "Very good."
+  },
+  {
+    "t_start": 1552.63,
+    "t_end": 1553.61,
+    "text": "Okay, good."
+  },
+  {
+    "t_start": 1553.67,
+    "t_end": 1556.26,
+    "text": "So we have at least-- Question."
+  },
+  {
+    "t_start": 1556.28,
+    "t_end": 1557.91,
+    "text": "One hyperplane cut which separates this."
+  },
+  {
+    "t_start": 1557.93,
+    "t_end": 1559.01,
+    "text": "So let's just apply that."
+  },
+  {
+    "t_start": 1559.22,
+    "t_end": 1561.02,
+    "text": "[AUDIENCE MEMBER] I think you need to separate a complete box"
+  },
+  {
+    "t_start": 1561.02,
+    "t_end": 1563.72,
+    "text": "of A from a complete box of B, otherwise you can take a"
+  },
+  {
+    "t_start": 1563.72,
+    "t_end": 1566.75,
+    "text": "hyperplane to be way off to the side that has all"
+  },
+  {
+    "t_start": 1566.75,
+    "t_end": 1568.16,
+    "text": "whole boxes on one side--"
+  },
+  {
+    "t_start": 1568.34,
+    "t_end": 1569.39,
+    "text": "[LECTURER] No, we need a complete"
+  },
+  {
+    "t_start": 1569.39,
+    "t_end": 1572.33,
+    "text": "box o-- on both sides of the pla-- of the cut."
+  },
+  {
+    "t_start": 1573.62,
+    "t_end": 1574.43,
+    "text": "[AUDIENCE MEMBER] Okay, but that's not what"
+  },
+  {
+    "t_start": 1574.43,
+    "t_end": 1575.33,
+    "text": "your claim says."
+  },
+  {
+    "t_start": 1575.72,
+    "t_end": 1577.31,
+    "text": "[LECTURER] It says each side of the hyperplane"
+  },
+  {
+    "t_start": 1577.35,
+    "t_end": 1578.31,
+    "text": "has one complete box."
+  },
+  {
+    "t_start": 1578.39,
+    "t_end": 1578.98,
+    "text": "[AUDIENCE MEMBER] Each side, nevermind."
+  },
+  {
+    "t_start": 1578.98,
+    "t_end": 1580.75,
+    "text": "Okay, yeah."
+  },
+  {
+    "t_start": 1580.79,
+    "t_end": 1581.89,
+    "text": "Yeah, right."
+  },
+  {
+    "t_start": 1582.83,
+    "t_end": 1584.444,
+    "text": "[LECTURER] Okay, so let's say we've got"
+  },
+  {
+    "t_start": 1584.444,
+    "t_end": 1586.866,
+    "text": "this cut and there is at least one complete"
+  },
+  {
+    "t_start": 1586.866,
+    "t_end": 1589.557,
+    "text": "box here, but, of course, there could be lots of"
+  },
+  {
+    "t_start": 1589.557,
+    "t_end": 1591.71,
+    "text": "boxes that are partially going this way, right?"
+  },
+  {
+    "t_start": 1592.73,
+    "t_end": 1594.77,
+    "text": "And there's at least one complete box here."
+  },
+  {
+    "t_start": 1596.42,
+    "t_end": 1599.15,
+    "text": "Now this is just A so far."
+  },
+  {
+    "t_start": 1599.51,
+    "t_end": 1600.62,
+    "text": "I get to place B."
+  },
+  {
+    "t_start": 1601.7,
+    "t_end": 1605.15,
+    "text": "Now, first for these boxes that are being intersected,"
+  },
+  {
+    "t_start": 1605.15,
+    "t_end": 1608.24,
+    "text": "we'll just break them up into two, right?"
+  },
+  {
+    "t_start": 1608.45,
+    "t_end": 1611.21,
+    "text": "So each side still has fewer boxes because"
+  },
+  {
+    "t_start": 1611.21,
+    "t_end": 1613.43,
+    "text": "you've lost one box, you might have kept the rest."
+  },
+  {
+    "t_start": 1613.85,
+    "t_end": 1615.29,
+    "text": "Okay, and what about B?"
+  },
+  {
+    "t_start": 1617.15,
+    "t_end": 1619.16,
+    "text": "So what we'll do with B is, remember,"
+  },
+  {
+    "t_start": 1619.16,
+    "t_end": 1622.28,
+    "text": "we get to place B anywhere we want, 'cause A and B,"
+  },
+  {
+    "t_start": 1622.28,
+    "t_end": 1624.11,
+    "text": "their relative placement doesn't matter for the"
+  },
+  {
+    "t_start": 1624.17,
+    "t_end": 1625.88,
+    "text": "purpose of the volume."
+  },
+  {
+    "t_start": 1625.88,
+    "t_end": 1630.74,
+    "text": "So we wanna place B with the following convenient constraint."
+  },
+  {
+    "t_start": 1630.77,
+    "t_end": 1632.45,
+    "text": "And B, maybe all of them intersect, I don't care."
+  },
+  {
+    "t_start": 1632.45,
+    "t_end": 1634.334,
+    "text": "They, B, maybe all of"
+  },
+  {
+    "t_start": 1634.334,
+    "t_end": 1636.972,
+    "text": "them intersect, but the constraint for B"
+  },
+  {
+    "t_start": 1636.972,
+    "t_end": 1640.7,
+    "text": "is the following, that, And, you know, they might overlap,"
+  },
+  {
+    "t_start": 1640.91,
+    "t_end": 1641.57,
+    "text": "doesn't really matter."
+  },
+  {
+    "t_start": 1642.35,
+    "t_end": 1645.98,
+    "text": "The constraint for B is that, so this hyperplane H is"
+  },
+  {
+    "t_start": 1645.98,
+    "t_end": 1651.65,
+    "text": "such that, let's call one side A plus and B plus."
+  },
+  {
+    "t_start": 1652.7,
+    "t_end": 1654.26,
+    "text": "I really should stick to the colors, huh?"
+  },
+  {
+    "t_start": 1656.69,
+    "t_end": 1659.42,
+    "text": "And then A minus and B minus."
+  },
+  {
+    "t_start": 1659.42,
+    "t_end": 1662.12,
+    "text": "[AUDIENCE MEMBER] So we're cutting B also"
+  },
+  {
+    "t_start": 1662.12,
+    "t_end": 1663.02,
+    "text": "by the same hyperplane?"
+  },
+  {
+    "t_start": 1663.37,
+    "t_end": 1663.89,
+    "text": "[LECTURER] Yes."
+  },
+  {
+    "t_start": 1663.89,
+    "t_end": 1666.89,
+    "text": "There's only one hyperplane, which was the one we chose"
+  },
+  {
+    "t_start": 1666.89,
+    "t_end": 1670.13,
+    "text": "for the purpose of cutting A, and now I'm just taking all of"
+  },
+  {
+    "t_start": 1670.13,
+    "t_end": 1672.68,
+    "text": "B's arrangement and placing it in a, in a certain way."
+  },
+  {
+    "t_start": 1673.28,
+    "t_end": 1674.87,
+    "text": "Okay, translating it to place in a certain way."
+  },
+  {
+    "t_start": 1674.93,
+    "t_end": 1676.04,
+    "text": "In fact, just a translation."
+  },
+  {
+    "t_start": 1676.79,
+    "t_end": 1682.76,
+    "text": "And the translation is such that the volume of A plus, let's say,"
+  },
+  {
+    "t_start": 1683.06,
+    "t_end": 1688.91,
+    "text": "divided by the volume of B plus, this ratio is equal to the"
+  },
+  {
+    "t_start": 1688.91,
+    "t_end": 1693.25,
+    "text": "volume of A minus divided by volume of it, B minus."
+  },
+  {
+    "t_start": 1693.97,
+    "t_end": 1694.49,
+    "text": "Right?"
+  },
+  {
+    "t_start": 1694.49,
+    "t_end": 1696.73,
+    "text": "So same as volume of A over B."
+  },
+  {
+    "t_start": 1696.75,
+    "t_end": 1698.72,
+    "text": "We're just keeping the fraction of volume on"
+  },
+  {
+    "t_start": 1698.72,
+    "t_end": 1699.55,
+    "text": "both two sides the same."
+  },
+  {
+    "t_start": 1699.55,
+    "t_end": 1700.07,
+    "text": "That's it."
+  },
+  {
+    "t_start": 1700.07,
+    "t_end": 1703.16,
+    "text": "So that obviously exists just by translation of B."
+  },
+  {
+    "t_start": 1703.52,
+    "t_end": 1706.4,
+    "text": "Okay, now that we have that, we can go back to the proof."
+  },
+  {
+    "t_start": 1707.21,
+    "t_end": 1709.25,
+    "text": "We want to bound what?"
+  },
+  {
+    "t_start": 1710.0,
+    "t_end": 1713.12,
+    "text": "The volume of A plus B"
+  },
+  {
+    "t_start": 1715.23,
+    "t_end": 1718.34,
+    "text": "to the 1 over N. Where A is the union"
+  },
+  {
+    "t_start": 1718.34,
+    "t_end": 1719.21,
+    "text": "of all the boxes within."
+  },
+  {
+    "t_start": 1720.11,
+    "t_end": 1722.72,
+    "text": "So it's at least going to be, let's just use the lower"
+  },
+  {
+    "t_start": 1722.72,
+    "t_end": 1724.37,
+    "text": "bound we get from each side separately."
+  },
+  {
+    "t_start": 1724.545,
+    "t_end": 1725.065,
+    "text": "That's all."
+  },
+  {
+    "t_start": 1726.23,
+    "t_end": 1734.914,
+    "text": "So it's at least going to be the volume of A plus B plus to"
+  },
+  {
+    "t_start": 1734.914,
+    "t_end": 1739.546,
+    "text": "the 1 over N, A minus plus B"
+  },
+  {
+    "t_start": 1739.546,
+    "t_end": 1742.441,
+    "text": "[AUDIENCE MEMBER] Minus to the 1 over"
+  },
+  {
+    "t_start": 1742.441,
+    "t_end": 1743.6,
+    "text": "[LECTURER] N. Now we can use"
+  },
+  {
+    "t_start": 1743.6,
+    "t_end": 1746.09,
+    "text": "induction because these have fewer"
+  },
+  {
+    "t_start": 1746.15,
+    "t_end": 1748.6,
+    "text": "numbers of boxes, and we know that this"
+  },
+  {
+    "t_start": 1748.63,
+    "t_end": 1755.39,
+    "text": "is at least volume of A plus to the 1 over N."
+  },
+  {
+    "t_start": 1767.45,
+    "t_end": 1768.41,
+    "text": "[AUDIENCE MEMBER] Okay?"
+  },
+  {
+    "t_start": 1769.35,
+    "t_end": 1771.03,
+    "text": "Okay, so could you repeat the definition"
+  },
+  {
+    "t_start": 1771.07,
+    "t_end": 1772.99,
+    "text": "of A plus and A minus?"
+  },
+  {
+    "t_start": 1773.01,
+    "t_end": 1774.83,
+    "text": "[LECTURER] Whatever falls on one side of the hyperplane"
+  },
+  {
+    "t_start": 1774.87,
+    "t_end": 1777.5,
+    "text": "is A plus, whatever falls on the other side is A minus."
+  },
+  {
+    "t_start": 1777.5,
+    "t_end": 1780.34,
+    "text": "For boxes that intersect, we cut them and placed-- Okay, thanks."
+  },
+  {
+    "t_start": 1780.35,
+    "t_end": 1781.37,
+    "text": "The portion of them."
+  },
+  {
+    "t_start": 1781.39,
+    "t_end": 1782.035,
+    "text": "[HOST] Mm-hmm."
+  },
+  {
+    "t_start": 1782.035,
+    "t_end": 1782.555,
+    "text": "So--"
+  },
+  {
+    "t_start": 1782.555,
+    "t_end": 1785.27,
+    "text": "Sorry, I guess you need a little remark that A plus"
+  },
+  {
+    "t_start": 1785.27,
+    "t_end": 1789.49,
+    "text": "plus B plus and A minus plus B minus don't exist."
+  },
+  {
+    "t_start": 1789.77,
+    "t_end": 1790.55,
+    "text": "[LECTURER] Are disjoint, yes."
+  },
+  {
+    "t_start": 1790.56,
+    "t_end": 1791.08,
+    "text": "Yeah, are disjoint."
+  },
+  {
+    "t_start": 1791.08,
+    "t_end": 1795.942,
+    "text": "But because of the we can, these volumes are not overlapping,"
+  },
+  {
+    "t_start": 1795.942,
+    "t_end": 1797.239,
+    "text": "they're actually separate"
+  },
+  {
+    "t_start": 1797.239,
+    "t_end": 1797.759,
+    "text": "[AUDIENCE MEMBER] Volumes."
+  },
+  {
+    "t_start": 1797.759,
+    "t_end": 1798.37,
+    "text": "Right, good."
+  },
+  {
+    "t_start": 1798.51,
+    "t_end": 1800.35,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 1800.44,
+    "t_end": 1800.96,
+    "text": "[LECTURER] Okay."
+  },
+  {
+    "t_start": 1801.01,
+    "t_end": 1804.51,
+    "text": "So here, what should we do here?"
+  },
+  {
+    "t_start": 1805.89,
+    "t_end": 1811.85,
+    "text": "Let's say I take a volume of B plus to the 1 over N."
+  },
+  {
+    "t_start": 1812.51,
+    "t_end": 1813.44,
+    "text": "So then I've got, uh--"
+  },
+  {
+    "t_start": 1822.15,
+    "t_end": 1822.67,
+    "text": "[AUDIENCE MEMBER] Right."
+  },
+  {
+    "t_start": 1824.895,
+    "t_end": 1825.415,
+    "text": "[LECTURER] That's all good."
+  },
+  {
+    "t_start": 1825.89,
+    "t_end": 1830.05,
+    "text": "We'll do the same thing here."
+  },
+  {
+    "t_start": 1832.37,
+    "t_end": 1835.77,
+    "text": "This proof will finish on this board, so don't be"
+  },
+  {
+    "t_start": 1845.98,
+    "t_end": 1846.5,
+    "text": "alarmed."
+  },
+  {
+    "t_start": 1846.5,
+    "t_end": 1847.7,
+    "text": "Was the-- why, what is the"
+  },
+  {
+    "t_start": 1847.7,
+    "t_end": 1848.3,
+    "text": "point of this?"
+  },
+  {
+    "t_start": 1848.3,
+    "t_end": 1848.82,
+    "text": "It's"
+  },
+  {
+    "t_start": 1849.77,
+    "t_end": 1850.43,
+    "text": "[AUDIENCE MEMBER] Into the parenthesis."
+  },
+  {
+    "t_start": 1850.61,
+    "t_end": 1852.533,
+    "text": "[LECTURER] So these-- Yeah, these are-- they're the same,"
+  },
+  {
+    "t_start": 1852.533,
+    "t_end": 1855.659,
+    "text": "and they're the same as volume of A or volume of B-- --right?"
+  },
+  {
+    "t_start": 1855.68,
+    "t_end": 1861.743,
+    "text": "But, so therefore we've got-- --one plus volume of A over"
+  },
+  {
+    "t_start": 1861.743,
+    "t_end": 1868.909,
+    "text": "volume of B, both one over ns, times volume of B plus, volume"
+  },
+  {
+    "t_start": 1868.909,
+    "t_end": 1873.32,
+    "text": "of B minus to the one over n."
+  },
+  {
+    "t_start": 1874.85,
+    "t_end": 1875.51,
+    "text": "Um--"
+  },
+  {
+    "t_start": 1879.26,
+    "t_end": 1882.18,
+    "text": "Am I doing something fishy?"
+  },
+  {
+    "t_start": 1885.18,
+    "t_end": 1885.7,
+    "text": "[HOST] So"
+  },
+  {
+    "t_start": 1885.7,
+    "t_end": 1887.35,
+    "text": "[AUDIENCE MEMBER] All that is times, is the line of B--"
+  },
+  {
+    "t_start": 1887.35,
+    "t_end": 1887.87,
+    "text": "It's"
+  },
+  {
+    "t_start": 1887.87,
+    "t_end": 1891.8,
+    "text": "[HOST] Okay if it's n, but--"
+  },
+  {
+    "t_start": 1893.639,
+    "t_end": 1895.449,
+    "text": "I mean, it's still one over n is concave, right?"
+  },
+  {
+    "t_start": 1895.449,
+    "t_end": 1895.969,
+    "text": "Yeah,"
+  },
+  {
+    "t_start": 1895.969,
+    "t_end": 1896.82,
+    "text": "[LECTURER] Yeah."
+  },
+  {
+    "t_start": 1897.61,
+    "t_end": 1898.129,
+    "text": "--volume of B concave?"
+  },
+  {
+    "t_start": 1898.13,
+    "t_end": 1898.65,
+    "text": "Right, right."
+  },
+  {
+    "t_start": 1898.65,
+    "t_end": 1901.2,
+    "text": "So, so all I'm saying is that this plus this is at-- so I"
+  },
+  {
+    "t_start": 1901.22,
+    "t_end": 1903.04,
+    "text": "should make this an equality."
+  },
+  {
+    "t_start": 1903.06,
+    "t_end": 1906.745,
+    "text": "Volume of-- no."
+  },
+  {
+    "t_start": 1906.745,
+    "t_end": 1907.265,
+    "text": "One over n?"
+  },
+  {
+    "t_start": 1907.265,
+    "t_end": 1908.03,
+    "text": "No, I can't do that."
+  },
+  {
+    "t_start": 1908.82,
+    "t_end": 1909.34,
+    "text": "[AUDIENCE MEMBER] Why not?"
+  },
+  {
+    "t_start": 1909.41,
+    "t_end": 1910.43,
+    "text": "I mean, to the one over n."
+  },
+  {
+    "t_start": 1910.61,
+    "t_end": 1911.48,
+    "text": "[LECTURER] To the one over n, yes."
+  },
+  {
+    "t_start": 1913.28,
+    "t_end": 1914.84,
+    "text": "Okay, and so now we've got what"
+  },
+  {
+    "t_start": 1920.56,
+    "t_end": 1921.08,
+    "text": "we want."
+  },
+  {
+    "t_start": 1921.08,
+    "t_end": 1921.6,
+    "text": "Okay."
+  },
+  {
+    "t_start": 1921.6,
+    "t_end": 1923.18,
+    "text": "So it's just an induction on the number of balls."
+  },
+  {
+    "t_start": 1924.67,
+    "t_end": 1925.19,
+    "text": "[AUDIENCE MEMBER] So you're--"
+  },
+  {
+    "t_start": 1925.19,
+    "t_end": 1928.179,
+    "text": "Why were you able to do a first equality X to the n plus--"
+  },
+  {
+    "t_start": 1928.58,
+    "t_end": 1929.22,
+    "text": "[LECTURER] This one here?"
+  },
+  {
+    "t_start": 1929.28,
+    "t_end": 1929.879,
+    "text": "[AUDIENCE MEMBER] No, the first one."
+  },
+  {
+    "t_start": 1929.879,
+    "t_end": 1930.399,
+    "text": "X to"
+  },
+  {
+    "t_start": 1930.399,
+    "t_end": 1930.919,
+    "text": "[LECTURER] The n-- This one here?"
+  },
+  {
+    "t_start": 1930.96,
+    "t_end": 1931.591,
+    "text": "[AUDIENCE MEMBER] No, one more."
+  },
+  {
+    "t_start": 1931.657,
+    "t_end": 1932.177,
+    "text": "So we need two more."
+  },
+  {
+    "t_start": 1932.177,
+    "t_end": 1932.697,
+    "text": "Here?"
+  },
+  {
+    "t_start": 1932.697,
+    "t_end": 1933.217,
+    "text": "That one."
+  },
+  {
+    "t_start": 1933.217,
+    "t_end": 1934.759,
+    "text": "[LECTURER] Oh, because we're saying"
+  },
+  {
+    "t_start": 1934.759,
+    "t_end": 1937.629,
+    "text": "that the volume-- --contributed by A plus,"
+  },
+  {
+    "t_start": 1937.629,
+    "t_end": 1941.629,
+    "text": "plus B plus, and A minus, plus B minus are"
+  },
+  {
+    "t_start": 1941.629,
+    "t_end": 1942.149,
+    "text": "[AUDIENCE MEMBER] Disjoint."
+  },
+  {
+    "t_start": 1942.149,
+    "t_end": 1942.669,
+    "text": "Yes."
+  },
+  {
+    "t_start": 1942.669,
+    "t_end": 1947.3,
+    "text": "Volume of A plus B, this is just the number-- Oh, right."
+  },
+  {
+    "t_start": 1948.12,
+    "t_end": 1948.639,
+    "text": "[LECTURER] Of x and y."
+  },
+  {
+    "t_start": 1948.639,
+    "t_end": 1951.115,
+    "text": "We're not over counting any volume, but that was"
+  },
+  {
+    "t_start": 1951.115,
+    "t_end": 1952.49,
+    "text": "the remark that I made."
+  },
+  {
+    "t_start": 1952.96,
+    "t_end": 1953.629,
+    "text": "[HOST] Got it."
+  },
+  {
+    "t_start": 1953.629,
+    "t_end": 1954.149,
+    "text": "Okay."
+  },
+  {
+    "t_start": 1954.149,
+    "t_end": 1955.889,
+    "text": "Wait, that's not completely obvious."
+  },
+  {
+    "t_start": 1955.92,
+    "t_end": 1958.28,
+    "text": "It's, so you just take the hyperplane to be less"
+  },
+  {
+    "t_start": 1958.28,
+    "t_end": 1959.21,
+    "text": "than or equal to zero--"
+  },
+  {
+    "t_start": 1959.34,
+    "t_end": 1959.86,
+    "text": "[LECTURER] Yeah."
+  },
+  {
+    "t_start": 1959.86,
+    "t_end": 1961.889,
+    "text": "[HOST] --then it's clear on this side you get positive"
+  },
+  {
+    "t_start": 1961.899,
+    "t_end": 1962.76,
+    "text": "coordinates, and it's better."
+  },
+  {
+    "t_start": 1962.76,
+    "t_end": 1963.28,
+    "text": "Oh,"
+  },
+  {
+    "t_start": 1963.28,
+    "t_end": 1963.919,
+    "text": "[LECTURER] Yeah."
+  },
+  {
+    "t_start": 1963.919,
+    "t_end": 1964.439,
+    "text": "Right, right."
+  },
+  {
+    "t_start": 1964.44,
+    "t_end": 1967.01,
+    "text": "Taking this hyperplane to be whatever-- Just--"
+  },
+  {
+    "t_start": 1967.179,
+    "t_end": 1969.28,
+    "text": "--x1 equal to zero."
+  },
+  {
+    "t_start": 1969.42,
+    "t_end": 1973.036,
+    "text": "Then there is no interference of intersection between"
+  },
+  {
+    "t_start": 1973.036,
+    "t_end": 1973.94,
+    "text": "these masses."
+  },
+  {
+    "t_start": 1977.03,
+    "t_end": 1978.92,
+    "text": "[AUDIENCE MEMBER] So how do you guarantee this"
+  },
+  {
+    "t_start": 1978.92,
+    "t_end": 1981.68,
+    "text": "hyperplane always exists, that it satisfies that ratio?"
+  },
+  {
+    "t_start": 1981.94,
+    "t_end": 1982.46,
+    "text": "[LECTURER] Yeah."
+  },
+  {
+    "t_start": 1982.46,
+    "t_end": 1984.62,
+    "text": "So we, you see, the relative placement"
+  },
+  {
+    "t_start": 1984.62,
+    "t_end": 1985.67,
+    "text": "of A and B doesn't matter."
+  },
+  {
+    "t_start": 1985.67,
+    "t_end": 1986.19,
+    "text": "Okay."
+  },
+  {
+    "t_start": 1987.2,
+    "t_end": 1989.92,
+    "text": "So we pick the hyperplanes to subdivide A so that we"
+  },
+  {
+    "t_start": 1989.92,
+    "t_end": 1992.639,
+    "text": "get one complete box on each side, and then of course,"
+  },
+  {
+    "t_start": 1992.639,
+    "t_end": 1995.36,
+    "text": "we can translate A so that this hyperplane is at zero."
+  },
+  {
+    "t_start": 1995.9,
+    "t_end": 1996.42,
+    "text": "Okay."
+  },
+  {
+    "t_start": 1996.42,
+    "t_end": 1997.49,
+    "text": "Now we take B, and we can do"
+  },
+  {
+    "t_start": 1997.49,
+    "t_end": 1999.179,
+    "text": "whatever we want with it."
+  },
+  {
+    "t_start": 1999.76,
+    "t_end": 2001.04,
+    "text": "[AUDIENCE MEMBER] Translation, rotation?"
+  },
+  {
+    "t_start": 2001.139,
+    "t_end": 2001.74,
+    "text": "[LECTURER] Not rotation."
+  },
+  {
+    "t_start": 2001.76,
+    "t_end": 2002.76,
+    "text": "We-- sure, sure-- Translation?"
+  },
+  {
+    "t_start": 2002.8,
+    "t_end": 2004.79,
+    "text": "--actually, we can do any of that, but all, all translations,"
+  },
+  {
+    "t_start": 2004.84,
+    "t_end": 2005.47,
+    "text": "all that'll matter."
+  },
+  {
+    "t_start": 2005.68,
+    "t_end": 2007.639,
+    "text": "So you start completely on one side-- Mm-hmm."
+  },
+  {
+    "t_start": 2007.659,
+    "t_end": 2010.98,
+    "text": "--and you move it till you get the right ratio."
+  },
+  {
+    "t_start": 2012.98,
+    "t_end": 2013.5,
+    "text": "I see."
+  },
+  {
+    "t_start": 2013.5,
+    "t_end": 2014.02,
+    "text": "Okay."
+  },
+  {
+    "t_start": 2014.02,
+    "t_end": 2014.92,
+    "text": "Intermediate value theorem."
+  },
+  {
+    "t_start": 2016.159,
+    "t_end": 2016.679,
+    "text": "Okay."
+  },
+  {
+    "t_start": 2017.36,
+    "t_end": 2019.659,
+    "text": "Okay, so this is Brune Minkowski."
+  },
+  {
+    "t_start": 2019.7,
+    "t_end": 2024.049,
+    "text": "Let's see a couple of applications of it,"
+  },
+  {
+    "t_start": 2024.049,
+    "t_end": 2028.399,
+    "text": "and then we'll go to the next step."
+  },
+  {
+    "t_start": 2029.159,
+    "t_end": 2033.101,
+    "text": "So one application is to, again, to talk about the distribution"
+  },
+  {
+    "t_start": 2033.101,
+    "t_end": 2036.684,
+    "text": "of mass of convex bodies, like we were doing with"
+  },
+  {
+    "t_start": 2036.684,
+    "t_end": 2037.59,
+    "text": "the early examples."
+  },
+  {
+    "t_start": 2037.59,
+    "t_end": 2038.11,
+    "text": "Right?"
+  },
+  {
+    "t_start": 2038.11,
+    "t_end": 2039.96,
+    "text": "So what, if you had"
+  },
+  {
+    "t_start": 2042.34,
+    "t_end": 2049.27,
+    "text": "a convex body, convex set here, okay, and I'm interested in the"
+  },
+  {
+    "t_start": 2049.27,
+    "t_end": 2053.92,
+    "text": "distribution of mass along some direction, say this direction."
+  },
+  {
+    "t_start": 2055.03,
+    "t_end": 2056.56,
+    "text": "Like, what is the distribution of mass of"
+  },
+  {
+    "t_start": 2056.56,
+    "t_end": 2057.639,
+    "text": "these sections as you go along?"
+  },
+  {
+    "t_start": 2057.639,
+    "t_end": 2058.159,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 2059.53,
+    "t_end": 2062.62,
+    "text": "Now so let's look at these sections."
+  },
+  {
+    "t_start": 2064.0,
+    "t_end": 2068.11,
+    "text": "There's a section at each position along this axis, and"
+  },
+  {
+    "t_start": 2068.53,
+    "t_end": 2076.239,
+    "text": "let's say, think of that as a, and this section is A of say"
+  },
+  {
+    "t_start": 2076.33,
+    "t_end": 2078.04,
+    "text": "x. It's a section at x."
+  },
+  {
+    "t_start": 2079.87,
+    "t_end": 2083.818,
+    "text": "Now the section, and this is A of y,"
+  },
+  {
+    "t_start": 2083.818,
+    "t_end": 2086.889,
+    "text": "these are n minus one dimensional sections."
+  },
+  {
+    "t_start": 2087.61,
+    "t_end": 2092.65,
+    "text": "The section at lambda x plus one minus lambda y,"
+  },
+  {
+    "t_start": 2094.44,
+    "t_end": 2094.96,
+    "text": "right?"
+  },
+  {
+    "t_start": 2094.96,
+    "t_end": 2097.48,
+    "text": "So this section here, convex combination of"
+  },
+  {
+    "t_start": 2097.48,
+    "t_end": 2104.32,
+    "text": "these, lambda is in zero, one-- --contains lambda times the"
+  },
+  {
+    "t_start": 2104.32,
+    "t_end": 2109.18,
+    "text": "section at x plus one minus lambda times the section at y."
+  },
+  {
+    "t_start": 2111.19,
+    "t_end": 2113.44,
+    "text": "Still just by convexity, right?"
+  },
+  {
+    "t_start": 2113.44,
+    "t_end": 2117.16,
+    "text": "So the, by convexity, every combination of"
+  },
+  {
+    "t_start": 2117.16,
+    "t_end": 2118.54,
+    "text": "these two sections must be in the set."
+  },
+  {
+    "t_start": 2120.13,
+    "t_end": 2122.416,
+    "text": "This combination always gives you sections exactly on this"
+  },
+  {
+    "t_start": 2122.416,
+    "t_end": 2123.94,
+    "text": "set, so this must be true."
+  },
+  {
+    "t_start": 2125.47,
+    "t_end": 2131.405,
+    "text": "Therefore, the volume of this section A at the convex"
+  },
+  {
+    "t_start": 2131.405,
+    "t_end": 2133.78,
+    "text": "combination is how much?"
+  },
+  {
+    "t_start": 2135.4,
+    "t_end": 2139.9,
+    "text": "Just using this and applying Brune Minkowski to this set--"
+  },
+  {
+    "t_start": 2140.279,
+    "t_end": 2142.1,
+    "text": "One over n. --which is a con-- uh, which is a convex co--"
+  },
+  {
+    "t_start": 2142.12,
+    "t_end": 2145.84,
+    "text": "Minkowski combination of two sets gives us that this volume"
+  },
+  {
+    "t_start": 2146.11,
+    "t_end": 2148.99,
+    "text": "to the one over n minus one, because these are n minus"
+  },
+  {
+    "t_start": 2148.99,
+    "t_end": 2153.19,
+    "text": "one dimensional sections, is at least lambda times"
+  },
+  {
+    "t_start": 2153.19,
+    "t_end": 2158.68,
+    "text": "the volume of Ax to the one over n minus one--"
+  },
+  {
+    "t_start": 2159.17,
+    "t_end": 2165.4,
+    "text": "--plus one minus lambda times the volume of Ay to"
+  },
+  {
+    "t_start": 2165.42,
+    "t_end": 2168.145,
+    "text": "the one over n minus one."
+  },
+  {
+    "t_start": 2168.145,
+    "t_end": 2168.665,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 2168.665,
+    "t_end": 2171.123,
+    "text": "So the volume at a combination section,"
+  },
+  {
+    "t_start": 2171.123,
+    "t_end": 2174.728,
+    "text": "convex combination section, to the one over n minus one"
+  },
+  {
+    "t_start": 2174.728,
+    "t_end": 2176.17,
+    "text": "is a concave function."
+  },
+  {
+    "t_start": 2177.07,
+    "t_end": 2180.43,
+    "text": "There's an even nicer way to interpret this, which is,"
+  },
+  {
+    "t_start": 2180.52,
+    "t_end": 2183.82,
+    "text": "let's do the following symmetrization where we replace"
+  },
+  {
+    "t_start": 2183.88,
+    "t_end": 2187.57,
+    "text": "each section-- with a ball, n minus one dimensional"
+  },
+  {
+    "t_start": 2187.57,
+    "t_end": 2190.42,
+    "text": "ball of the same volume and centered on this line."
+  },
+  {
+    "t_start": 2191.17,
+    "t_end": 2192.46,
+    "text": "So we're going from this--"
+  },
+  {
+    "t_start": 2193.13,
+    "t_end": 2195.61,
+    "text": "--to this picture, where this section Ax"
+  },
+  {
+    "t_start": 2195.61,
+    "t_end": 2201.204,
+    "text": "an n minus one dimensional ball, and, and so on."
+  },
+  {
+    "t_start": 2201.204,
+    "t_end": 2201.724,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 2201.725,
+    "t_end": 2203.68,
+    "text": "And they're all centered."
+  },
+  {
+    "t_start": 2203.68,
+    "t_end": 2205.96,
+    "text": "Now, each of these has a radius, right?"
+  },
+  {
+    "t_start": 2206.62,
+    "t_end": 2208.84,
+    "text": "Let's call that radius function R of x."
+  },
+  {
+    "t_start": 2209.77,
+    "t_end": 2211.81,
+    "text": "What does this say about the radius function?"
+  },
+  {
+    "t_start": 2214.66,
+    "t_end": 2215.7,
+    "text": "Concave."
+  },
+  {
+    "t_start": 2215.7,
+    "t_end": 2218.08,
+    "text": "The radius function is concave because volume to the one over"
+  },
+  {
+    "t_start": 2218.08,
+    "t_end": 2221.41,
+    "text": "N minus one will be some fixed function of N times the radius."
+  },
+  {
+    "t_start": 2221.98,
+    "t_end": 2224.19,
+    "text": "The volume is radius to the N minus one for now."
+  },
+  {
+    "t_start": 2224.51,
+    "t_end": 2226.03,
+    "text": "We turn it into that literally be saying,"
+  },
+  {
+    "t_start": 2226.03,
+    "t_end": 2226.84,
+    "text": "setting the volumes equal."
+  },
+  {
+    "t_start": 2228.46,
+    "t_end": 2232.96,
+    "text": "So, the conclusion, corollary, the radius function along"
+  },
+  {
+    "t_start": 2232.96,
+    "t_end": 2235.27,
+    "text": "any projection is concave."
+  },
+  {
+    "t_start": 2240.43,
+    "t_end": 2241.99,
+    "text": "[AUDIENCE MEMBER] Sorry, what is this, these"
+  },
+  {
+    "t_start": 2241.99,
+    "t_end": 2243.26,
+    "text": "three picture circles--"
+  },
+  {
+    "t_start": 2243.26,
+    "t_end": 2243.78,
+    "text": "Oh, sorry."
+  },
+  {
+    "t_start": 2243.78,
+    "t_end": 2244.3,
+    "text": "Indicate?"
+  },
+  {
+    "t_start": 2244.3,
+    "t_end": 2244.82,
+    "text": "This"
+  },
+  {
+    "t_start": 2244.82,
+    "t_end": 2246.43,
+    "text": "[LECTURER] Section here, which was some arbitrary"
+  },
+  {
+    "t_start": 2246.43,
+    "t_end": 2248.74,
+    "text": "convex body-- Uh-huh. --I'm replacing it with"
+  },
+  {
+    "t_start": 2248.74,
+    "t_end": 2251.41,
+    "text": "a N minus one dimensional sphere of the same volume."
+  },
+  {
+    "t_start": 2252.66,
+    "t_end": 2253.18,
+    "text": "So--"
+  },
+  {
+    "t_start": 2253.18,
+    "t_end": 2253.7,
+    "text": "Okay."
+  },
+  {
+    "t_start": 2253.7,
+    "t_end": 2254.22,
+    "text": "Right?"
+  },
+  {
+    "t_start": 2254.22,
+    "t_end": 2254.8,
+    "text": "And it has some radius."
+  },
+  {
+    "t_start": 2254.8,
+    "t_end": 2258.192,
+    "text": "So now it's a completely along this axis, it's a"
+  },
+  {
+    "t_start": 2258.192,
+    "t_end": 2259.21,
+    "text": "spherically symmetric picture."
+  },
+  {
+    "t_start": 2260.05,
+    "t_end": 2261.13,
+    "text": "So, there, that gives you"
+  },
+  {
+    "t_start": 2261.13,
+    "t_end": 2265.54,
+    "text": "Now I can erase these and just look at the radius function."
+  },
+  {
+    "t_start": 2265.54,
+    "t_end": 2266.06,
+    "text": "And this"
+  },
+  {
+    "t_start": 2268.78,
+    "t_end": 2272.87,
+    "text": "[AUDIENCE MEMBER] So the radius function is the volume of the"
+  },
+  {
+    "t_start": 2272.87,
+    "t_end": 2273.945,
+    "text": "cross-section-- To the one over N. One over N minus one?"
+  },
+  {
+    "t_start": 2273.945,
+    "t_end": 2274.465,
+    "text": "[LECTURER] Yes."
+  },
+  {
+    "t_start": 2274.465,
+    "t_end": 2274.985,
+    "text": "[AUDIENCE MEMBER] Okay."
+  },
+  {
+    "t_start": 2274.985,
+    "t_end": 2275.505,
+    "text": "[LECTURER] Up to constant."
+  },
+  {
+    "t_start": 2275.505,
+    "t_end": 2276.37,
+    "text": "Doesn't, constant doesn't matter."
+  },
+  {
+    "t_start": 2278.92,
+    "t_end": 2281.802,
+    "text": "Yeah, so, the definition of the radius function is"
+  },
+  {
+    "t_start": 2281.802,
+    "t_end": 2285.965,
+    "text": "just volume of A of X to the one over N minus one,"
+  },
+  {
+    "t_start": 2285.965,
+    "t_end": 2289.167,
+    "text": "because it's the radius of it's proportional to the radius"
+  },
+  {
+    "t_start": 2289.167,
+    "t_end": 2292.69,
+    "text": "of a N minus one dimensional ball with the same volume."
+  },
+  {
+    "t_start": 2292.69,
+    "t_end": 2293.21,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 2295.6,
+    "t_end": 2297.37,
+    "text": "But this is what we have in mind when we see convex, right?"
+  },
+  {
+    "t_start": 2297.37,
+    "t_end": 2299.54,
+    "text": "You can't have dips-- Mm-hmm."
+  },
+  {
+    "t_start": 2299.59,
+    "t_end": 2300.82,
+    "text": "--when you go along any direction,"
+  },
+  {
+    "t_start": 2300.97,
+    "t_end": 2303.13,
+    "text": "and that's true in this formal sense."
+  },
+  {
+    "t_start": 2303.13,
+    "t_end": 2303.65,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 2304.43,
+    "t_end": 2304.95,
+    "text": "Okay."
+  },
+  {
+    "t_start": 2307.89,
+    "t_end": 2308.41,
+    "text": "[AUDIENCE MEMBER] Question."
+  },
+  {
+    "t_start": 2308.41,
+    "t_end": 2308.93,
+    "text": "[LECTURER] Yeah."
+  },
+  {
+    "t_start": 2310.21,
+    "t_end": 2311.65,
+    "text": "[AUDIENCE MEMBER] Is there some interpretation to what this is"
+  },
+  {
+    "t_start": 2311.65,
+    "t_end": 2314.03,
+    "text": "the radius of or something?"
+  },
+  {
+    "t_start": 2314.075,
+    "t_end": 2314.595,
+    "text": "[LECTURER] This ball."
+  },
+  {
+    "t_start": 2314.95,
+    "t_end": 2317.68,
+    "text": "So imagine that I replaced I don't know, you have a cube."
+  },
+  {
+    "t_start": 2318.46,
+    "t_end": 2320.77,
+    "text": "I'm going along some direction of the cube."
+  },
+  {
+    "t_start": 2321.34,
+    "t_end": 2323.65,
+    "text": "Say even an axis parallel direction first."
+  },
+  {
+    "t_start": 2324.25,
+    "t_end": 2326.47,
+    "text": "Replace each lower dimensional cube"
+  },
+  {
+    "t_start": 2326.47,
+    "t_end": 2328.81,
+    "text": "with a ball that has some radius."
+  },
+  {
+    "t_start": 2329.11,
+    "t_end": 2330.73,
+    "text": "Along an axis direction, that's constant."
+  },
+  {
+    "t_start": 2330.73,
+    "t_end": 2331.25,
+    "text": "So"
+  },
+  {
+    "t_start": 2331.66,
+    "t_end": 2332.83,
+    "text": "[AUDIENCE MEMBER] Is it, is this telling me something"
+  },
+  {
+    "t_start": 2332.83,
+    "t_end": 2334.51,
+    "text": "about the shape of the original convex body?"
+  },
+  {
+    "t_start": 2334.535,
+    "t_end": 2335.055,
+    "text": "[LECTURER] Oh, the"
+  },
+  {
+    "t_start": 2338.14,
+    "t_end": 2341.38,
+    "text": "only in terms of how it's increasing and decreasing, yeah."
+  },
+  {
+    "t_start": 2341.38,
+    "t_end": 2342.49,
+    "text": "In this one, this one-dimensional"
+  },
+  {
+    "t_start": 2342.49,
+    "t_end": 2344.68,
+    "text": "projection, it's capturing the one-dimensional projection."
+  },
+  {
+    "t_start": 2345.64,
+    "t_end": 2346.63,
+    "text": "It's capturing this marginal."
+  },
+  {
+    "t_start": 2346.63,
+    "t_end": 2352.01,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 2352.99,
+    "t_end": 2360.96,
+    "text": "So second application of this perhaps"
+  },
+  {
+    "t_start": 2365.09,
+    "t_end": 2366.759,
+    "text": "this is a corollary, the second application"
+  },
+  {
+    "t_start": 2366.79,
+    "t_end": 2368.84,
+    "text": "is a theorem on its own."
+  },
+  {
+    "t_start": 2369.03,
+    "t_end": 2370.15,
+    "text": "[AUDIENCE MEMBER] Does the radius function say"
+  },
+  {
+    "t_start": 2370.15,
+    "t_end": 2374.44,
+    "text": "something about like the expected distance from the"
+  },
+  {
+    "t_start": 2374.44,
+    "t_end": 2377.53,
+    "text": "center conditioned on what section you're on or something?"
+  },
+  {
+    "t_start": 2377.59,
+    "t_end": 2380.86,
+    "text": "[LECTURER] Unfortunately not, because when you place it like"
+  },
+  {
+    "t_start": 2380.86,
+    "t_end": 2383.47,
+    "text": "a sphere here, like a ball, you actually bring it as"
+  },
+  {
+    "t_start": 2383.47,
+    "t_end": 2385.93,
+    "text": "close as possible to the origin for the same volume."
+  },
+  {
+    "t_start": 2386.89,
+    "t_end": 2388.569,
+    "text": "Among, you know, it brings it as"
+  },
+  {
+    "t_start": 2388.569,
+    "t_end": 2389.29,
+    "text": "close as possible."
+  },
+  {
+    "t_start": 2389.83,
+    "t_end": 2394.84,
+    "text": "So if you replaced, say, a cube section with a"
+  },
+  {
+    "t_start": 2395.14,
+    "t_end": 2399.64,
+    "text": "ball section, right, the distances will shrink."
+  },
+  {
+    "t_start": 2401.14,
+    "t_end": 2404.65,
+    "text": "For the same volume, you know, this, say volume one,"
+  },
+  {
+    "t_start": 2405.37,
+    "t_end": 2407.32,
+    "text": "the cube only needs to have side length one,"
+  },
+  {
+    "t_start": 2407.32,
+    "t_end": 2410.41,
+    "text": "and the ball will have radius constant through 10."
+  },
+  {
+    "t_start": 2411.34,
+    "t_end": 2415.81,
+    "text": "And yeah, it's uh, so, so, could give some rough"
+  },
+  {
+    "t_start": 2415.81,
+    "t_end": 2418.49,
+    "text": "estimate, but in general, no, it's not like that."
+  },
+  {
+    "t_start": 2419.39,
+    "t_end": 2419.97,
+    "text": "Okay."
+  },
+  {
+    "t_start": 2419.99,
+    "t_end": 2423.166,
+    "text": "So here is a second application which"
+  },
+  {
+    "t_start": 2423.166,
+    "t_end": 2425.89,
+    "text": "will address some of these issues."
+  },
+  {
+    "t_start": 2426.28,
+    "t_end": 2435.97,
+    "text": "It's it's called Grünbaum's theorem which says that uh,"
+  },
+  {
+    "t_start": 2436.99,
+    "t_end": 2438.67,
+    "text": "if you take any convex body-- So"
+  },
+  {
+    "t_start": 2442.715,
+    "t_end": 2443.235,
+    "text": "it's Rn."
+  },
+  {
+    "t_start": 2445.07,
+    "t_end": 2445.59,
+    "text": "--Then"
+  },
+  {
+    "t_start": 2447.55,
+    "t_end": 2451.3,
+    "text": "Any half space containing its center of gravity"
+  },
+  {
+    "t_start": 2452.74,
+    "t_end": 2456.31,
+    "text": "for any half space"
+  },
+  {
+    "t_start": 2459.22,
+    "t_end": 2459.82,
+    "text": "containing"
+  },
+  {
+    "t_start": 2462.82,
+    "t_end": 2464.14,
+    "text": "center of gravity of"
+  },
+  {
+    "t_start": 2468.4,
+    "t_end": 2476.29,
+    "text": "K, any half space H, say, the volume of H intersect"
+  },
+  {
+    "t_start": 2476.29,
+    "t_end": 2478.72,
+    "text": "K, so the volume of, in the half space,"
+  },
+  {
+    "t_start": 2479.38,
+    "t_end": 2484.69,
+    "text": "is at least one over E times the volume of K."
+  },
+  {
+    "t_start": 2488.53,
+    "t_end": 2490.89,
+    "text": "You can't get too little volume on either side of"
+  },
+  {
+    "t_start": 2490.93,
+    "t_end": 2492.43,
+    "text": "the center of gravity."
+  },
+  {
+    "t_start": 2492.85,
+    "t_end": 2496.15,
+    "text": "So, if you have this picture here, here's"
+  },
+  {
+    "t_start": 2496.15,
+    "t_end": 2497.14,
+    "text": "the center of gravity."
+  },
+  {
+    "t_start": 2497.14,
+    "t_end": 2499.75,
+    "text": "I take any cut, each side has at"
+  },
+  {
+    "t_start": 2499.75,
+    "t_end": 2500.5,
+    "text": "least one over E."
+  },
+  {
+    "t_start": 2502.36,
+    "t_end": 2504.28,
+    "text": "[AUDIENCE MEMBER] It's constantly dependent of N."
+  },
+  {
+    "t_start": 2504.67,
+    "t_end": 2505.19,
+    "text": "[LECTURER] Yeah."
+  },
+  {
+    "t_start": 2505.19,
+    "t_end": 2506.2,
+    "text": "And there, the function actually,"
+  },
+  {
+    "t_start": 2506.2,
+    "t_end": 2507.16,
+    "text": "there is a function of N."
+  },
+  {
+    "t_start": 2507.37,
+    "t_end": 2507.91,
+    "text": "We'll derive it."
+  },
+  {
+    "t_start": 2508.78,
+    "t_end": 2511.96,
+    "text": "But it tends to one over E when N goes to infinity."
+  },
+  {
+    "t_start": 2512.09,
+    "t_end": 2512.61,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 2512.93,
+    "t_end": 2514.3,
+    "text": "[AUDIENCE MEMBER] Is it tight?"
+  },
+  {
+    "t_start": 2514.41,
+    "t_end": 2514.93,
+    "text": "What?"
+  },
+  {
+    "t_start": 2514.93,
+    "t_end": 2515.45,
+    "text": "Is it"
+  },
+  {
+    "t_start": 2515.45,
+    "t_end": 2515.97,
+    "text": "[LECTURER] Tight?"
+  },
+  {
+    "t_start": 2515.97,
+    "t_end": 2516.49,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 2516.49,
+    "t_end": 2518.89,
+    "text": "So for any fixed dimension, it's slightly better than this."
+  },
+  {
+    "t_start": 2520.51,
+    "t_end": 2522.34,
+    "text": "But this theorem is also true, for example,"
+  },
+  {
+    "t_start": 2522.34,
+    "t_end": 2524.08,
+    "text": "I haven't yet introduced log concave functions,"
+  },
+  {
+    "t_start": 2524.38,
+    "t_end": 2526.45,
+    "text": "but it's also true for any log concave function,"
+  },
+  {
+    "t_start": 2526.81,
+    "t_end": 2528.43,
+    "text": "and then indeed you get one over E."
+  },
+  {
+    "t_start": 2528.46,
+    "t_end": 2530.21,
+    "text": "You can just take, for example, the exponential"
+  },
+  {
+    "t_start": 2530.25,
+    "t_end": 2531.5,
+    "text": "distribution-- Mm-hmm."
+  },
+  {
+    "t_start": 2531.51,
+    "t_end": 2533.91,
+    "text": "--in one dimension."
+  },
+  {
+    "t_start": 2536.17,
+    "t_end": 2539.29,
+    "text": "Okay, so we have all the tools we need to prove this."
+  },
+  {
+    "t_start": 2540.01,
+    "t_end": 2541.84,
+    "text": "In fact, we just need the Brunn Minkowski theorem."
+  },
+  {
+    "t_start": 2542.62,
+    "t_end": 2543.4,
+    "text": "How should we proceed?"
+  },
+  {
+    "t_start": 2544.81,
+    "t_end": 2546.54,
+    "text": "This is at heart a one-dimensional problem."
+  },
+  {
+    "t_start": 2546.54,
+    "t_end": 2547.06,
+    "text": "Yes."
+  },
+  {
+    "t_start": 2547.06,
+    "t_end": 2548.29,
+    "text": "[AUDIENCE MEMBER] It could be that for sets"
+  },
+  {
+    "t_start": 2548.33,
+    "t_end": 2550.11,
+    "text": "it's strictly larger?"
+  },
+  {
+    "t_start": 2550.15,
+    "t_end": 2551.921,
+    "text": "[LECTURER] It is, it depending on"
+  },
+  {
+    "t_start": 2551.921,
+    "t_end": 2552.63,
+    "text": "the dimension."
+  },
+  {
+    "t_start": 2552.73,
+    "t_end": 2557.49,
+    "text": "[AUDIENCE MEMBER] No, I mean like one over E plus 0.01."
+  },
+  {
+    "t_start": 2557.65,
+    "t_end": 2558.31,
+    "text": "[LECTURER] Oh, no, no, no."
+  },
+  {
+    "t_start": 2558.31,
+    "t_end": 2558.83,
+    "text": "No."
+  },
+  {
+    "t_start": 2558.83,
+    "t_end": 2559.35,
+    "text": "For"
+  },
+  {
+    "t_start": 2559.35,
+    "t_end": 2562.99,
+    "text": "[AUDIENCE MEMBER] Sets because if you cut the distribution,"
+  },
+  {
+    "t_start": 2563.09,
+    "t_end": 2567.85,
+    "text": "like I mean just a uniform distribution in compact sets."
+  },
+  {
+    "t_start": 2567.89,
+    "t_end": 2569.376,
+    "text": "[LECTURER] Yeah, no, it's still going to be,"
+  },
+  {
+    "t_start": 2569.376,
+    "t_end": 2570.65,
+    "text": "we'll see what it's gonna be."
+  },
+  {
+    "t_start": 2570.67,
+    "t_end": 2575.73,
+    "text": "It's gonna be one minus one over N plus one to the N."
+  },
+  {
+    "t_start": 2575.81,
+    "t_end": 2577.545,
+    "text": "[AUDIENCE MEMBER] This is the proof that there is a, No,"
+  },
+  {
+    "t_start": 2577.565,
+    "t_end": 2578.085,
+    "text": "[LECTURER] There's a set like this."
+  },
+  {
+    "t_start": 2578.085,
+    "t_end": 2578.605,
+    "text": "An"
+  },
+  {
+    "t_start": 2578.605,
+    "t_end": 2579.125,
+    "text": "[AUDIENCE MEMBER] Example for--"
+  },
+  {
+    "t_start": 2579.175,
+    "t_end": 2579.85,
+    "text": "[LECTURER] No, we, we will derive the"
+  },
+  {
+    "t_start": 2579.87,
+    "t_end": 2580.45,
+    "text": "worst example."
+  },
+  {
+    "t_start": 2580.46,
+    "t_end": 2580.98,
+    "text": "[AUDIENCE MEMBER] Ah, okay."
+  },
+  {
+    "t_start": 2580.99,
+    "t_end": 2583.218,
+    "text": "[LECTURER] We will derive."
+  },
+  {
+    "t_start": 2583.228,
+    "t_end": 2585.058,
+    "text": "Not just a bound."
+  },
+  {
+    "t_start": 2586.158,
+    "t_end": 2589.438,
+    "text": "So you will be completely happy by then."
+  },
+  {
+    "t_start": 2589.938,
+    "t_end": 2591.568,
+    "text": "[AUDIENCE MEMBER] Thank you."
+  },
+  {
+    "t_start": 2591.938,
+    "t_end": 2596.208,
+    "text": "[LECTURER] Is it your birthday or--?"
+  },
+  {
+    "t_start": 2599.518,
+    "t_end": 2600.038,
+    "text": "So what should we do?"
+  },
+  {
+    "t_start": 2600.238,
+    "t_end": 2601.09,
+    "text": "What should step one be?"
+  },
+  {
+    "t_start": 2606.94,
+    "t_end": 2608.05,
+    "text": "I claim this is a one-dimensional"
+  },
+  {
+    "t_start": 2608.05,
+    "t_end": 2608.98,
+    "text": "problem, which dimension?"
+  },
+  {
+    "t_start": 2610.45,
+    "t_end": 2611.92,
+    "text": "We have fixed the hyperplane edge."
+  },
+  {
+    "t_start": 2612.33,
+    "t_end": 2612.85,
+    "text": "[AUDIENCE MEMBER] So--"
+  },
+  {
+    "t_start": 2612.85,
+    "t_end": 2613.878,
+    "text": "[LECTURER] We might as well fix it because we want to"
+  },
+  {
+    "t_start": 2613.918,
+    "t_end": 2614.938,
+    "text": "prove it for everyone, yes?"
+  },
+  {
+    "t_start": 2615.007,
+    "t_end": 2615.868,
+    "text": "[AUDIENCE MEMBER] Normal to the--"
+  },
+  {
+    "t_start": 2615.878,
+    "t_end": 2616.638,
+    "text": "[LECTURER] Normal to the hyperplane."
+  },
+  {
+    "t_start": 2616.658,
+    "t_end": 2619.54,
+    "text": "Let's look at the direction normal to the hyperplane, okay?"
+  },
+  {
+    "t_start": 2619.81,
+    "t_end": 2621.07,
+    "text": "And then what should we do?"
+  },
+  {
+    "t_start": 2621.64,
+    "t_end": 2624.01,
+    "text": "We're interested in the mass, let's say on one side,"
+  },
+  {
+    "t_start": 2624.01,
+    "t_end": 2624.67,
+    "text": "let's say on the left."
+  },
+  {
+    "t_start": 2625.06,
+    "t_end": 2627.37,
+    "text": "I want to prove the mass on the left is at"
+  },
+  {
+    "t_start": 2627.37,
+    "t_end": 2628.42,
+    "text": "least one over E, right?"
+  },
+  {
+    "t_start": 2628.99,
+    "t_end": 2630.91,
+    "text": "So and then I'm making sure it passes through"
+  },
+  {
+    "t_start": 2630.91,
+    "t_end": 2634.3,
+    "text": "the center of gravity, so the expectation is, is here."
+  },
+  {
+    "t_start": 2635.08,
+    "t_end": 2637.78,
+    "text": "Now let's simplify this body, right?"
+  },
+  {
+    "t_start": 2637.96,
+    "t_end": 2639.64,
+    "text": "Because we only care about this one-dimensional margin."
+  },
+  {
+    "t_start": 2639.64,
+    "t_end": 2641.018,
+    "text": "How should we simplify it?"
+  },
+  {
+    "t_start": 2641.038,
+    "t_end": 2642.498,
+    "text": "[AUDIENCE MEMBER] By doing that you're getting."
+  },
+  {
+    "t_start": 2642.523,
+    "t_end": 2643.043,
+    "text": "[LECTURER] Yes."
+  },
+  {
+    "t_start": 2643.398,
+    "t_end": 2648.238,
+    "text": "So we'll do this symmetrization which will take us to something"
+  },
+  {
+    "t_start": 2648.238,
+    "t_end": 2650.438,
+    "text": "that maybe looks like that"
+  },
+  {
+    "t_start": 2650.438,
+    "t_end": 2653.518,
+    "text": "And I don't know, like that, okay?"
+  },
+  {
+    "t_start": 2653.538,
+    "t_end": 2655.96,
+    "text": "But now it's a symmetric object."
+  },
+  {
+    "t_start": 2657.58,
+    "t_end": 2660.43,
+    "text": "Still a convex body in n dimension, but every"
+  },
+  {
+    "t_start": 2660.43,
+    "t_end": 2663.49,
+    "text": "cross section is just a ball of different radius."
+  },
+  {
+    "t_start": 2664.218,
+    "t_end": 2667.42,
+    "text": "Okay, so now this and further this is concave."
+  },
+  {
+    "t_start": 2668.32,
+    "t_end": 2670.15,
+    "text": "This radius is actually concave, okay?"
+  },
+  {
+    "t_start": 2670.478,
+    "t_end": 2671.89,
+    "text": "And we have the center of gravity somewhere."
+  },
+  {
+    "t_start": 2674.98,
+    "t_end": 2681.095,
+    "text": "Now I want to do two operations just so it doesn't seem like"
+  },
+  {
+    "t_start": 2681.095,
+    "t_end": 2685.33,
+    "text": "I'm gonna convert this into the worst possible body."
+  },
+  {
+    "t_start": 2685.96,
+    "t_end": 2688.15,
+    "text": "I will show that for the worst body, you know,"
+  },
+  {
+    "t_start": 2688.15,
+    "t_end": 2689.118,
+    "text": "sometimes you get to do this."
+  },
+  {
+    "t_start": 2689.47,
+    "t_end": 2691.75,
+    "text": "The proof actually takes you to the worst example."
+  },
+  {
+    "t_start": 2692.32,
+    "t_end": 2694.87,
+    "text": "So what do you imagine the worst example is?"
+  },
+  {
+    "t_start": 2694.93,
+    "t_end": 2696.01,
+    "text": "I mean, it's not gonna be a cube, right?"
+  },
+  {
+    "t_start": 2696.01,
+    "t_end": 2696.76,
+    "text": "For a cube, you cut in"
+  },
+  {
+    "t_start": 2696.76,
+    "t_end": 2697.45,
+    "text": "the middle, you're always gonna"
+  },
+  {
+    "t_start": 2697.45,
+    "t_end": 2699.58,
+    "text": "get half-half, right?"
+  },
+  {
+    "t_start": 2699.67,
+    "t_end": 2701.02,
+    "text": "It should be some kind of asymmetric body."
+  },
+  {
+    "t_start": 2701.02,
+    "t_end": 2701.54,
+    "text": "Cone?"
+  },
+  {
+    "t_start": 2706.33,
+    "t_end": 2706.87,
+    "text": "Not quite."
+  },
+  {
+    "t_start": 2707.47,
+    "t_end": 2708.638,
+    "text": "We have a question."
+  },
+  {
+    "t_start": 2708.878,
+    "t_end": 2710.558,
+    "text": "[AUDIENCE MEMBER] So you're having these volumes that"
+  },
+  {
+    "t_start": 2710.618,
+    "t_end": 2712.917,
+    "text": "you have, one is an N minus one-dimensional volume,"
+  },
+  {
+    "t_start": 2712.958,
+    "t_end": 2714.198,
+    "text": "the other is an N dimensional volume?"
+  },
+  {
+    "t_start": 2714.418,
+    "t_end": 2715.638,
+    "text": "[LECTURER] So, every section is N"
+  },
+  {
+    "t_start": 2715.678,
+    "t_end": 2716.658,
+    "text": "minus one-dimensional."
+  },
+  {
+    "t_start": 2717.478,
+    "t_end": 2719.83,
+    "text": "The volume of the whole thing is just the integral of those"
+  },
+  {
+    "t_start": 2719.83,
+    "t_end": 2721.018,
+    "text": "N minus one-dimensional volumes."
+  },
+  {
+    "t_start": 2721.098,
+    "t_end": 2722.178,
+    "text": "[AUDIENCE MEMBER] N dimensional."
+  },
+  {
+    "t_start": 2722.218,
+    "t_end": 2724.003,
+    "text": "So in the inequality above that you're proving--"
+  },
+  {
+    "t_start": 2724.003,
+    "t_end": 2724.523,
+    "text": "These are N"
+  },
+  {
+    "t_start": 2724.523,
+    "t_end": 2725.438,
+    "text": "[LECTURER] Dimensional."
+  },
+  {
+    "t_start": 2725.478,
+    "t_end": 2726.978,
+    "text": "[AUDIENCE MEMBER] This is half space, not N dimensional."
+  },
+  {
+    "t_start": 2727.018,
+    "t_end": 2728.118,
+    "text": "Oh, that's a half space, okay."
+  },
+  {
+    "t_start": 2728.118,
+    "t_end": 2728.638,
+    "text": "Good."
+  },
+  {
+    "t_start": 2728.638,
+    "t_end": 2729.158,
+    "text": "Yeah,"
+  },
+  {
+    "t_start": 2729.158,
+    "t_end": 2729.678,
+    "text": "[LECTURER] Sorry, half space."
+  },
+  {
+    "t_start": 2729.678,
+    "t_end": 2730.198,
+    "text": "Okay, okay."
+  },
+  {
+    "t_start": 2730.198,
+    "t_end": 2730.718,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 2730.718,
+    "t_end": 2731.373,
+    "text": "[AUDIENCE MEMBER] Yeah, yeah, right, right, right."
+  },
+  {
+    "t_start": 2731.373,
+    "t_end": 2731.893,
+    "text": "[LECTURER] Yeah, yeah."
+  },
+  {
+    "t_start": 2731.893,
+    "t_end": 2732.618,
+    "text": "So we're talking about this half"
+  },
+  {
+    "t_start": 2732.718,
+    "t_end": 2733.838,
+    "text": "[AUDIENCE MEMBER] Space."
+  },
+  {
+    "t_start": 2733.938,
+    "t_end": 2734.458,
+    "text": "Okay."
+  },
+  {
+    "t_start": 2734.458,
+    "t_end": 2735.628,
+    "text": "Is it a cone for this"
+  },
+  {
+    "t_start": 2735.628,
+    "t_end": 2736.148,
+    "text": "[LECTURER] One?"
+  },
+  {
+    "t_start": 2736.148,
+    "t_end": 2736.668,
+    "text": "Yeah,"
+  },
+  {
+    "t_start": 2736.668,
+    "t_end": 2737.188,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 2737.188,
+    "t_end": 2739.75,
+    "text": "So we'll reduce this to a cone, okay?"
+  },
+  {
+    "t_start": 2744.04,
+    "t_end": 2745.72,
+    "text": "Right, so even in two dimensions,"
+  },
+  {
+    "t_start": 2745.72,
+    "t_end": 2748.06,
+    "text": "if you took a triangle and cut through the center of"
+  },
+  {
+    "t_start": 2748.06,
+    "t_end": 2749.95,
+    "text": "gravity, you don't get half."
+  },
+  {
+    "t_start": 2750.4,
+    "t_end": 2751.54,
+    "text": "You get a little bit less than half."
+  },
+  {
+    "t_start": 2751.78,
+    "t_end": 2753.28,
+    "text": "[AUDIENCE MEMBER] What's the definition of the center of"
+  },
+  {
+    "t_start": 2753.28,
+    "t_end": 2754.21,
+    "text": "gravity according to-- Oh,"
+  },
+  {
+    "t_start": 2754.21,
+    "t_end": 2754.73,
+    "text": "[LECTURER] Good."
+  },
+  {
+    "t_start": 2754.75,
+    "t_end": 2758.05,
+    "text": "The center of gravity-- According to--"
+  },
+  {
+    "t_start": 2758.45,
+    "t_end": 2758.97,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 2759.07,
+    "t_end": 2762.01,
+    "text": "The center of gravity is just, imagine the uniform, this is a"
+  },
+  {
+    "t_start": 2762.01,
+    "t_end": 2764.647,
+    "text": "compact, it's a convex body, it's a compact set, the--"
+  },
+  {
+    "t_start": 2764.698,
+    "t_end": 2768.218,
+    "text": "we can talk about its uh the uniform distribution over this."
+  },
+  {
+    "t_start": 2768.278,
+    "t_end": 2773.544,
+    "text": "So I just mean the integral over all points in your set"
+  },
+  {
+    "t_start": 2773.544,
+    "t_end": 2775.3,
+    "text": "of the uniform distribution."
+  },
+  {
+    "t_start": 2775.3,
+    "t_end": 2779.227,
+    "text": "So one over volume of K times, literally the average"
+  },
+  {
+    "t_start": 2779.227,
+    "t_end": 2780.798,
+    "text": "of all the points."
+  },
+  {
+    "t_start": 2787.27,
+    "t_end": 2788.41,
+    "text": "Okay, so"
+  },
+  {
+    "t_start": 2789.75,
+    "t_end": 2790.27,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 2790.27,
+    "t_end": 2793.75,
+    "text": "So for even a triangle, you see this is similar, right?"
+  },
+  {
+    "t_start": 2793.75,
+    "t_end": 2796.39,
+    "text": "This picture is similar, you might remember that"
+  },
+  {
+    "t_start": 2796.69,
+    "t_end": 2798.91,
+    "text": "this distance is two third of the total."
+  },
+  {
+    "t_start": 2799.9,
+    "t_end": 2802.15,
+    "text": "If I cut through the center."
+  },
+  {
+    "t_start": 2802.36,
+    "t_end": 2804.37,
+    "text": "So this volume is going to be how much?"
+  },
+  {
+    "t_start": 2805.24,
+    "t_end": 2805.99,
+    "text": "Four ninths."
+  },
+  {
+    "t_start": 2806.35,
+    "t_end": 2808.688,
+    "text": "Not half, but four ninths."
+  },
+  {
+    "t_start": 2808.688,
+    "t_end": 2809.208,
+    "text": "Ninths, okay, yes."
+  },
+  {
+    "t_start": 2809.208,
+    "t_end": 2811.03,
+    "text": "You're scaling the whole triangle down by two thirds."
+  },
+  {
+    "t_start": 2811.6,
+    "t_end": 2814.84,
+    "text": "So here, what we're gonna do is replace first the"
+  },
+  {
+    "t_start": 2814.84,
+    "t_end": 2816.94,
+    "text": "left half with a cone."
+  },
+  {
+    "t_start": 2816.94,
+    "t_end": 2817.46,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 2818.74,
+    "t_end": 2821.05,
+    "text": "So that cone will keep the same base here,"
+  },
+  {
+    "t_start": 2821.38,
+    "t_end": 2822.85,
+    "text": "but I'm gonna make it a complete cone-- Right."
+  },
+  {
+    "t_start": 2823.62,
+    "t_end": 2824.14,
+    "text": "--like that."
+  },
+  {
+    "t_start": 2824.14,
+    "t_end": 2824.66,
+    "text": "Of"
+  },
+  {
+    "t_start": 2827.74,
+    "t_end": 2832.75,
+    "text": "So the volume of this cone is the same as the volume of the,"
+  },
+  {
+    "t_start": 2832.99,
+    "t_end": 2835.3,
+    "text": "whatever was on the left with the same base."
+  },
+  {
+    "t_start": 2835.84,
+    "t_end": 2838.69,
+    "text": "Now I claim the center of gravity, maybe it moved,"
+  },
+  {
+    "t_start": 2838.78,
+    "t_end": 2839.59,
+    "text": "which way will it move?"
+  },
+  {
+    "t_start": 2841.01,
+    "t_end": 2841.53,
+    "text": "To the right?"
+  },
+  {
+    "t_start": 2841.53,
+    "t_end": 2845.048,
+    "text": "I've created mass to the left."
+  },
+  {
+    "t_start": 2845.058,
+    "t_end": 2846.358,
+    "text": "Oh, I see."
+  },
+  {
+    "t_start": 2847.878,
+    "t_end": 2850.978,
+    "text": "To the right, that's a, I think that's a song pop up."
+  },
+  {
+    "t_start": 2851.838,
+    "t_end": 2852.878,
+    "text": "But yeah, there we go further."
+  },
+  {
+    "t_start": 2854.418,
+    "t_end": 2855.908,
+    "text": "Right is usually, no."
+  },
+  {
+    "t_start": 2855.958,
+    "t_end": 2859.218,
+    "text": "Okay, so what should we do with the right half now?"
+  },
+  {
+    "t_start": 2861.358,
+    "t_end": 2863.23,
+    "text": "[AUDIENCE MEMBER] Warp it to the right to bounce it?"
+  },
+  {
+    "t_start": 2863.74,
+    "t_end": 2867.041,
+    "text": "[LECTURER] So what I wanna do is make this continue"
+  },
+  {
+    "t_start": 2867.041,
+    "t_end": 2871.81,
+    "text": "this cone as far as I need to, to make it a cone."
+  },
+  {
+    "t_start": 2872.53,
+    "t_end": 2873.58,
+    "text": "And the volume is still the same."
+  },
+  {
+    "t_start": 2874.69,
+    "t_end": 2877.265,
+    "text": "Now you can do this."
+  },
+  {
+    "t_start": 2877.265,
+    "t_end": 2877.785,
+    "text": "Why?"
+  },
+  {
+    "t_start": 2877.785,
+    "t_end": 2878.53,
+    "text": "Because it's concave, right?"
+  },
+  {
+    "t_start": 2879.58,
+    "t_end": 2881.47,
+    "text": "What you're doing here is a convex extension"
+  },
+  {
+    "t_start": 2881.47,
+    "t_end": 2883.3,
+    "text": "of what you have left, so you, it's allowed to do it."
+  },
+  {
+    "t_start": 2883.3,
+    "t_end": 2884.5,
+    "text": "This func-- radius function is concave,"
+  },
+  {
+    "t_start": 2884.5,
+    "t_end": 2886.12,
+    "text": "it'll never overshoot your picture."
+  },
+  {
+    "t_start": 2886.12,
+    "t_end": 2886.64,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 2887.68,
+    "t_end": 2889.56,
+    "text": "So now you've got a cone and again,"
+  },
+  {
+    "t_start": 2889.56,
+    "t_end": 2891.44,
+    "text": "the center of gravity might have moved left"
+  },
+  {
+    "t_start": 2891.44,
+    "t_end": 2893.32,
+    "text": "which only makes matters worse for you potentially."
+  },
+  {
+    "t_start": 2893.98,
+    "t_end": 2896.556,
+    "text": "So let's assume there was no change, we've got a cone,"
+  },
+  {
+    "t_start": 2896.556,
+    "t_end": 2898.898,
+    "text": "now I have to do the computation for a cone."
+  },
+  {
+    "t_start": 2898.938,
+    "t_end": 2903.801,
+    "text": "And this is just a perfectly symmetric cone, so the center"
+  },
+  {
+    "t_start": 2903.801,
+    "t_end": 2909.55,
+    "text": "of gravity will be a distance N over N plus one from here."
+  },
+  {
+    "t_start": 2909.55,
+    "t_end": 2912.4,
+    "text": "So you're shrinking it by one minus"
+  },
+  {
+    "t_start": 2914.71,
+    "t_end": 2917.74,
+    "text": "I mean, this is N over N plus one of the total"
+  },
+  {
+    "t_start": 2918.01,
+    "t_end": 2918.91,
+    "text": "to the power of N."
+  },
+  {
+    "t_start": 2920.218,
+    "t_end": 2920.92,
+    "text": "That's the ratio."
+  },
+  {
+    "t_start": 2924.13,
+    "t_end": 2928.518,
+    "text": "Which is bigger than one over E. I can put strictly for any."
+  },
+  {
+    "t_start": 2928.538,
+    "t_end": 2929.918,
+    "text": "[AUDIENCE MEMBER] And that's the tightest?"
+  },
+  {
+    "t_start": 2929.978,
+    "t_end": 2932.158,
+    "text": "[LECTURER] That's the tightest."
+  },
+  {
+    "t_start": 2932.418,
+    "t_end": 2933.058,
+    "text": "[AUDIENCE MEMBER] Can I-- Bing."
+  },
+  {
+    "t_start": 2933.218,
+    "t_end": 2933.798,
+    "text": "Can I ask a question?"
+  },
+  {
+    "t_start": 2933.798,
+    "t_end": 2934.318,
+    "text": "[LECTURER] Yeah."
+  },
+  {
+    "t_start": 2934.318,
+    "t_end": 2934.838,
+    "text": "If"
+  },
+  {
+    "t_start": 2934.838,
+    "t_end": 2936.978,
+    "text": "[AUDIENCE MEMBER] You choose this direction at random"
+  },
+  {
+    "t_start": 2937.978,
+    "t_end": 2939.158,
+    "text": "through the center of mass--"
+  },
+  {
+    "t_start": 2939.158,
+    "t_end": 2939.678,
+    "text": "Yes."
+  },
+  {
+    "t_start": 2939.678,
+    "t_end": 2940.198,
+    "text": "--then"
+  },
+  {
+    "t_start": 2940.198,
+    "t_end": 2941.498,
+    "text": "It's more than one over E?"
+  },
+  {
+    "t_start": 2941.568,
+    "t_end": 2942.088,
+    "text": "[LECTURER] Oh, then it will"
+  },
+  {
+    "t_start": 2942.118,
+    "t_end": 2943.538,
+    "text": "be concentrated near one half."
+  },
+  {
+    "t_start": 2944.28,
+    "t_end": 2944.89,
+    "text": "[AUDIENCE MEMBER] It becomes one half."
+  },
+  {
+    "t_start": 2944.95,
+    "t_end": 2947.28,
+    "text": "[LECTURER] And we will prove that by the end"
+  },
+  {
+    "t_start": 2947.28,
+    "t_end": 2949.901,
+    "text": "of the text because then you need a concentration,"
+  },
+  {
+    "t_start": 2949.901,
+    "t_end": 2952.814,
+    "text": "it will be near one half because its expectation is"
+  },
+  {
+    "t_start": 2952.814,
+    "t_end": 2955.436,
+    "text": "one half and we'll concentrate near its expectation for"
+  },
+  {
+    "t_start": 2955.436,
+    "t_end": 2956.31,
+    "text": "the random height."
+  },
+  {
+    "t_start": 2956.37,
+    "t_end": 2957.87,
+    "text": "[AUDIENCE MEMBER] This is the worst case then?"
+  },
+  {
+    "t_start": 2958.25,
+    "t_end": 2958.99,
+    "text": "[LECTURER] This is exactly."
+  },
+  {
+    "t_start": 2959.01,
+    "t_end": 2961.177,
+    "text": "So even for a cone, if I were to pick it"
+  },
+  {
+    "t_start": 2961.177,
+    "t_end": 2962.95,
+    "text": "randomly, you will be very close to one half."
+  },
+  {
+    "t_start": 2963.965,
+    "t_end": 2964.485,
+    "text": "Very close."
+  },
+  {
+    "t_start": 2964.57,
+    "t_end": 2965.32,
+    "text": "Within, yeah."
+  },
+  {
+    "t_start": 2965.92,
+    "t_end": 2968.32,
+    "text": "[AUDIENCE MEMBER] What's the proper angle for the cones in"
+  },
+  {
+    "t_start": 2968.32,
+    "t_end": 2969.31,
+    "text": "order to make it worst case?"
+  },
+  {
+    "t_start": 2969.31,
+    "t_end": 2969.83,
+    "text": "It"
+  },
+  {
+    "t_start": 2970.37,
+    "t_end": 2970.89,
+    "text": "[LECTURER] Doesn't matter."
+  },
+  {
+    "t_start": 2971.56,
+    "t_end": 2972.64,
+    "text": "[AUDIENCE MEMBER] Every cone's the same?"
+  },
+  {
+    "t_start": 2972.64,
+    "t_end": 2973.16,
+    "text": "[LECTURER] Yeah."
+  },
+  {
+    "t_start": 2973.3,
+    "t_end": 2974.23,
+    "text": "Because it's a scaling there."
+  },
+  {
+    "t_start": 2974.27,
+    "t_end": 2977.71,
+    "text": "All we've used is the scaling."
+  },
+  {
+    "t_start": 2977.75,
+    "t_end": 2981.029,
+    "text": "[AUDIENCE MEMBER] So is the center of gravity"
+  },
+  {
+    "t_start": 2981.029,
+    "t_end": 2985.95,
+    "text": "the point that maximizes this one over E factor?"
+  },
+  {
+    "t_start": 2985.99,
+    "t_end": 2986.87,
+    "text": "[LECTURER] I'm not sure what you mean."
+  },
+  {
+    "t_start": 2986.87,
+    "t_end": 2987.39,
+    "text": "[AUDIENCE MEMBER] Oh,"
+  },
+  {
+    "t_start": 2987.39,
+    "t_end": 2987.91,
+    "text": "[LECTURER] Yeah."
+  },
+  {
+    "t_start": 2987.91,
+    "t_end": 2988.43,
+    "text": "Oh, I see."
+  },
+  {
+    "t_start": 2988.696,
+    "t_end": 2989.216,
+    "text": "So"
+  },
+  {
+    "t_start": 2989.216,
+    "t_end": 2992.305,
+    "text": "[AUDIENCE MEMBER] It shows a different point on you know,"
+  },
+  {
+    "t_start": 2992.305,
+    "t_end": 2994.81,
+    "text": "like a characteristic of Oh, I see."
+  },
+  {
+    "t_start": 2994.9,
+    "t_end": 2996.97,
+    "text": "[LECTURER] So what is the best point and so that any"
+  },
+  {
+    "t_start": 2996.97,
+    "t_end": 2998.51,
+    "text": "cut through it maximizes the--"
+  },
+  {
+    "t_start": 2998.51,
+    "t_end": 2999.03,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 2999.03,
+    "t_end": 3001.934,
+    "text": "I, no, I don't know the answer to that,"
+  },
+  {
+    "t_start": 3001.934,
+    "t_end": 3005.25,
+    "text": "but I think it should be different for different bodies."
+  },
+  {
+    "t_start": 3005.78,
+    "t_end": 3006.3,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 3006.3,
+    "t_end": 3008.86,
+    "text": "So I have no reason why it should be center of gravity."
+  },
+  {
+    "t_start": 3008.87,
+    "t_end": 3011.92,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 3012.79,
+    "t_end": 3015.89,
+    "text": "[AUDIENCE MEMBER] But the so the,"
+  },
+  {
+    "t_start": 3016.32,
+    "t_end": 3016.84,
+    "text": "[LECTURER] It's a good question."
+  },
+  {
+    "t_start": 3016.85,
+    "t_end": 3018.81,
+    "text": "[AUDIENCE MEMBER] Yeah."
+  },
+  {
+    "t_start": 3022.15,
+    "t_end": 3024.12,
+    "text": "[LECTURER] So I have five more minutes, right?"
+  },
+  {
+    "t_start": 3024.39,
+    "t_end": 3030.48,
+    "text": "So maybe I'll start off on the, on, on on Prekopva-Leinler."
+  },
+  {
+    "t_start": 3031.53,
+    "t_end": 3032.55,
+    "text": "We're planning to prove it."
+  },
+  {
+    "t_start": 3032.55,
+    "t_end": 3034.47,
+    "text": "Its proof will just use Brunn Minkowski."
+  },
+  {
+    "t_start": 3035.02,
+    "t_end": 3035.54,
+    "text": "Okay."
+  },
+  {
+    "t_start": 3035.77,
+    "t_end": 3038.37,
+    "text": "So at least I can state the theorem here, begin the proof,"
+  },
+  {
+    "t_start": 3038.46,
+    "t_end": 3039.24,
+    "text": "we'll continue with that."
+  },
+  {
+    "t_start": 3039.42,
+    "t_end": 3040.56,
+    "text": "And so"
+  },
+  {
+    "t_start": 3040.56,
+    "t_end": 3041.13,
+    "text": "Yeah."
+  },
+  {
+    "t_start": 3051.13,
+    "t_end": 3052.62,
+    "text": "And of course any other questions are welcome."
+  },
+  {
+    "t_start": 3058.83,
+    "t_end": 3061.77,
+    "text": "So now we move to functions from, I mean,"
+  },
+  {
+    "t_start": 3061.77,
+    "t_end": 3063.63,
+    "text": "we were dealing with functions, but zero one functions."
+  },
+  {
+    "t_start": 3063.63,
+    "t_end": 3065.61,
+    "text": "One if you're in the set, zero if you're outside the set."
+  },
+  {
+    "t_start": 3066.0,
+    "t_end": 3068.52,
+    "text": "Now we're gonna move to more general functions."
+  },
+  {
+    "t_start": 3069.0,
+    "t_end": 3073.17,
+    "text": "And so the statement of the Prekopva-Leinler theorem"
+  },
+  {
+    "t_start": 3074.82,
+    "t_end": 3078.03,
+    "text": "which is equivalent one to the Brunn Minkowski,"
+  },
+  {
+    "t_start": 3078.11,
+    "t_end": 3080.4,
+    "text": "you can prove one from the other and both ways"
+  },
+  {
+    "t_start": 3080.82,
+    "t_end": 3083.94,
+    "text": "is is is the following."
+  },
+  {
+    "t_start": 3084.24,
+    "t_end": 3088.98,
+    "text": "You have three functions now, F, G, H, which are n"
+  },
+  {
+    "t_start": 3088.98,
+    "t_end": 3092.01,
+    "text": "dimensional and non-negative."
+  },
+  {
+    "t_start": 3094.98,
+    "t_end": 3099.61,
+    "text": "And they have the following property that at any point"
+  },
+  {
+    "t_start": 3099.61,
+    "t_end": 3103.314,
+    "text": "and for any lambda, which is again like"
+  },
+  {
+    "t_start": 3103.314,
+    "t_end": 3107.944,
+    "text": "a convex multiplier, H of lambda X plus one minus"
+  },
+  {
+    "t_start": 3107.944,
+    "t_end": 3115.352,
+    "text": "lambda Y is at least F of X to the power lambda times G of Y"
+  },
+  {
+    "t_start": 3115.352,
+    "t_end": 3118.13,
+    "text": "to the power one minus lambda."
+  },
+  {
+    "t_start": 3119.87,
+    "t_end": 3122.53,
+    "text": "That's the assumption on these functions."
+  },
+  {
+    "t_start": 3123.31,
+    "t_end": 3127.785,
+    "text": "So the function value of this, the log of H, is at"
+  },
+  {
+    "t_start": 3127.785,
+    "t_end": 3129.65,
+    "text": "least the average of these."
+  },
+  {
+    "t_start": 3129.67,
+    "t_end": 3131.45,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 3131.53,
+    "t_end": 3135.31,
+    "text": "Under these assumptions, we get that the integral"
+  },
+  {
+    "t_start": 3135.33,
+    "t_end": 3136.95,
+    "text": "of H on all of RN"
+  },
+  {
+    "t_start": 3139.02,
+    "t_end": 3144.12,
+    "text": "is at least the integral of F to the lambda times"
+  },
+  {
+    "t_start": 3144.12,
+    "t_end": 3148.89,
+    "text": "the integral of G to the lambda one minus lambda."
+  },
+  {
+    "t_start": 3149.57,
+    "t_end": 3152.41,
+    "text": "That's the conclusion."
+  },
+  {
+    "t_start": 3156.24,
+    "t_end": 3159.268,
+    "text": "So maybe since we won't have time to actually"
+  },
+  {
+    "t_start": 3159.268,
+    "t_end": 3162.97,
+    "text": "prove it before the break, what I can instead do is"
+  },
+  {
+    "t_start": 3162.97,
+    "t_end": 3163.98,
+    "text": "the first application."
+  },
+  {
+    "t_start": 3164.46,
+    "t_end": 3165.84,
+    "text": "Like why does this make sense?"
+  },
+  {
+    "t_start": 3165.84,
+    "t_end": 3166.36,
+    "text": "Right?"
+  },
+  {
+    "t_start": 3166.41,
+    "t_end": 3171.09,
+    "text": "So application one is the following."
+  },
+  {
+    "t_start": 3171.87,
+    "t_end": 3174.99,
+    "text": "So if you had just one function F, we say it's log-concave if"
+  },
+  {
+    "t_start": 3174.99,
+    "t_end": 3176.55,
+    "text": "its logarithm is concave."
+  },
+  {
+    "t_start": 3178.44,
+    "t_end": 3183.71,
+    "text": "So F is a function from RN to non-negative numbers,"
+  },
+  {
+    "t_start": 3183.72,
+    "t_end": 3188.49,
+    "text": "and it satisfies this property that F of any convex combination"
+  },
+  {
+    "t_start": 3190.77,
+    "t_end": 3195.93,
+    "text": "is at least the geometric average at the two points"
+  },
+  {
+    "t_start": 3195.93,
+    "t_end": 3198.54,
+    "text": "that you're combining, right?"
+  },
+  {
+    "t_start": 3198.54,
+    "t_end": 3200.28,
+    "text": "So the log of F is concave."
+  },
+  {
+    "t_start": 3201.6,
+    "t_end": 3203.04,
+    "text": "These functions show up everywhere."
+  },
+  {
+    "t_start": 3203.58,
+    "t_end": 3204.75,
+    "text": "You know, the indicator"
+  },
+  {
+    "t_start": 3204.78,
+    "t_end": 3207.0,
+    "text": "functions of convex bodies,"
+  },
+  {
+    "t_start": 3207.48,
+    "t_end": 3211.47,
+    "text": "Gaussian densities, you know, anything with a convex function"
+  },
+  {
+    "t_start": 3211.65,
+    "t_end": 3216.29,
+    "text": "E to the minus convex function here is log-concave."
+  },
+  {
+    "t_start": 3216.35,
+    "t_end": 3217.2,
+    "text": "You can multiply them."
+  },
+  {
+    "t_start": 3217.2,
+    "t_end": 3219.45,
+    "text": "Clearly if you multiply, you'll still preserve this property."
+  },
+  {
+    "t_start": 3219.72,
+    "t_end": 3222.12,
+    "text": "Multiplication is preserves log concavity."
+  },
+  {
+    "t_start": 3223.71,
+    "t_end": 3225.31,
+    "text": "What is this telling us?"
+  },
+  {
+    "t_start": 3225.39,
+    "t_end": 3233.216,
+    "text": "Prekopva-leinler implies that, so this is, that"
+  },
+  {
+    "t_start": 3233.216,
+    "t_end": 3236.57,
+    "text": "marginals are log-concave."
+  },
+  {
+    "t_start": 3236.58,
+    "t_end": 3237.39,
+    "text": "So, you know, if you take a"
+  },
+  {
+    "t_start": 3237.39,
+    "t_end": 3238.59,
+    "text": "Gaussian and you project it,"
+  },
+  {
+    "t_start": 3238.59,
+    "t_end": 3240.06,
+    "text": "you get a Gaussian distribution still."
+  },
+  {
+    "t_start": 3240.9,
+    "t_end": 3241.95,
+    "text": "Log-concave, it's still true."
+  },
+  {
+    "t_start": 3241.98,
+    "t_end": 3244.29,
+    "text": "It could be a very complicated, I mean if you take a convex"
+  },
+  {
+    "t_start": 3244.33,
+    "t_end": 3247.07,
+    "text": "body, project it, it's not a convex body anymore."
+  },
+  {
+    "t_start": 3247.11,
+    "t_end": 3248.31,
+    "text": "But if you think of it as a function, it's still a"
+  },
+  {
+    "t_start": 3248.52,
+    "t_end": 3250.77,
+    "text": "log-concave function, and more generally or"
+  },
+  {
+    "t_start": 3250.95,
+    "t_end": 3253.08,
+    "text": "equivalently, convolutions."
+  },
+  {
+    "t_start": 3253.26,
+    "t_end": 3257.19,
+    "text": "So convolution of two log-concave functions"
+  },
+  {
+    "t_start": 3258.65,
+    "t_end": 3263.03,
+    "text": "preserves log concavity."
+  },
+  {
+    "t_start": 3266.47,
+    "t_end": 3266.99,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 3267.03,
+    "t_end": 3272.85,
+    "text": "So to see the first one, apply this lemma with FGH equal to F."
+  },
+  {
+    "t_start": 3274.62,
+    "t_end": 3276.75,
+    "text": "This is satisfied by definition of log concavity."
+  },
+  {
+    "t_start": 3276.75,
+    "t_end": 3279.78,
+    "text": "And now it's saying that you get to do this."
+  },
+  {
+    "t_start": 3279.87,
+    "t_end": 3284.495,
+    "text": "But before you apply, let's say I want to prove"
+  },
+  {
+    "t_start": 3284.495,
+    "t_end": 3288.657,
+    "text": "that a particular marginal, say a marginal along X1"
+  },
+  {
+    "t_start": 3288.657,
+    "t_end": 3290.97,
+    "text": "up to XK is log-concave."
+  },
+  {
+    "t_start": 3291.37,
+    "t_end": 3294.15,
+    "text": "So I just integrate away XK plus one to"
+  },
+  {
+    "t_start": 3295.01,
+    "t_end": 3295.53,
+    "text": "[AUDIENCE MEMBER] Xn."
+  },
+  {
+    "t_start": 3295.53,
+    "t_end": 3297.06,
+    "text": "What's the definition of a marginal?"
+  },
+  {
+    "t_start": 3297.605,
+    "t_end": 3298.125,
+    "text": "[LECTURER] This is it."
+  },
+  {
+    "t_start": 3298.99,
+    "t_end": 3308.89,
+    "text": "You pick so capital F of X1 through XK is equal to this."
+  },
+  {
+    "t_start": 3309.77,
+    "t_end": 3313.45,
+    "text": "This is the marginal along X1 through XK."
+  },
+  {
+    "t_start": 3313.61,
+    "t_end": 3314.13,
+    "text": "Okay."
+  },
+  {
+    "t_start": 3314.13,
+    "t_end": 3316.537,
+    "text": "You could do margins along, and so it's like a"
+  },
+  {
+    "t_start": 3316.537,
+    "t_end": 3317.057,
+    "text": "projection, right?"
+  },
+  {
+    "t_start": 3317.057,
+    "t_end": 3318.57,
+    "text": "You're projecting to the first K coordinates,"
+  },
+  {
+    "t_start": 3319.02,
+    "t_end": 3320.94,
+    "text": "and the claim is that projection preserves log concavity."
+  },
+  {
+    "t_start": 3321.895,
+    "t_end": 3322.415,
+    "text": "Why?"
+  },
+  {
+    "t_start": 3322.5,
+    "t_end": 3324.24,
+    "text": "Apply this, right?"
+  },
+  {
+    "t_start": 3324.24,
+    "t_end": 3325.02,
+    "text": "You do, you define"
+  },
+  {
+    "t_start": 3325.02,
+    "t_end": 3325.92,
+    "text": "this function here."
+  },
+  {
+    "t_start": 3326.28,
+    "t_end": 3330.33,
+    "text": "You can see that this F satisfies what we want."
+  },
+  {
+    "t_start": 3330.63,
+    "t_end": 3333.135,
+    "text": "Therefore, the integrals up to fix X1 through XK,"
+  },
+  {
+    "t_start": 3333.135,
+    "t_end": 3335.919,
+    "text": "and for each fixed X1 through XK, Prekopva-Leinler tells you"
+  },
+  {
+    "t_start": 3335.919,
+    "t_end": 3337.59,
+    "text": "that you satisfy what you want."
+  },
+  {
+    "t_start": 3337.71,
+    "t_end": 3340.35,
+    "text": "Therefore, capital F is log-concave."
+  },
+  {
+    "t_start": 3340.35,
+    "t_end": 3340.87,
+    "text": "Convolution"
+  },
+  {
+    "t_start": 3342.84,
+    "t_end": 3343.89,
+    "text": "proof is very similar."
+  },
+  {
+    "t_start": 3344.095,
+    "t_end": 3344.615,
+    "text": "What is convolution?"
+  },
+  {
+    "t_start": 3344.97,
+    "t_end": 3345.75,
+    "text": "And I'll stop there."
+  },
+  {
+    "t_start": 3345.78,
+    "t_end": 3357.99,
+    "text": "Convolution is integral of F of say Z times G of X minus Z, GZ."
+  },
+  {
+    "t_start": 3358.03,
+    "t_end": 3359.13,
+    "text": "Okay?"
+  },
+  {
+    "t_start": 3359.15,
+    "t_end": 3360.45,
+    "text": "And this integral is over Z."
+  },
+  {
+    "t_start": 3361.08,
+    "t_end": 3365.43,
+    "text": "This is the function value at sum X."
+  },
+  {
+    "t_start": 3365.88,
+    "t_end": 3368.91,
+    "text": "And we want to say that if F and G are both log-concave, then"
+  },
+  {
+    "t_start": 3368.91,
+    "t_end": 3370.17,
+    "text": "capital F is also log-concave."
+  },
+  {
+    "t_start": 3370.89,
+    "t_end": 3371.43,
+    "text": "Why?"
+  },
+  {
+    "t_start": 3372.12,
+    "t_end": 3376.11,
+    "text": "Think of this product function as one log-concave function,"
+  },
+  {
+    "t_start": 3376.11,
+    "t_end": 3378.99,
+    "text": "say capital G of X and Z."
+  },
+  {
+    "t_start": 3380.19,
+    "t_end": 3381.93,
+    "text": "And it's log-concave because this is log-concave"
+  },
+  {
+    "t_start": 3381.95,
+    "t_end": 3383.57,
+    "text": "And that's log-concave, the product is log-concave."
+  },
+  {
+    "t_start": 3384.21,
+    "t_end": 3385.74,
+    "text": "And now capital F is just a marginal."
+  },
+  {
+    "t_start": 3386.07,
+    "t_end": 3389.16,
+    "text": "You're integrating away half the whatever one"
+  },
+  {
+    "t_start": 3389.16,
+    "t_end": 3392.25,
+    "text": "subset of the coordinates, half the coordinates."
+  },
+  {
+    "t_start": 3393.11,
+    "t_end": 3396.15,
+    "text": "So convolution is log-concave projections of log-concave"
+  },
+  {
+    "t_start": 3396.15,
+    "t_end": 3397.7,
+    "text": "functions of log-concave, which is a very useful property."
+  },
+  {
+    "t_start": 3397.73,
+    "t_end": 3398.37,
+    "text": "Yes?"
+  },
+  {
+    "t_start": 3398.43,
+    "t_end": 3400.01,
+    "text": "[AUDIENCE MEMBER] So in the statement of the theorem,"
+  },
+  {
+    "t_start": 3400.05,
+    "t_end": 3404.93,
+    "text": "can we replace our N with any subset we are integrating on?"
+  },
+  {
+    "t_start": 3405.01,
+    "t_end": 3410.185,
+    "text": "Instead of integrating over RN, could it be any"
+  },
+  {
+    "t_start": 3410.185,
+    "t_end": 3410.76,
+    "text": "[LECTURER] Set?"
+  },
+  {
+    "t_start": 3410.76,
+    "t_end": 3413.58,
+    "text": "Um, maybe I'll answer it in the second half"
+  },
+  {
+    "t_start": 3413.58,
+    "t_end": 3414.27,
+    "text": "because we'll prove it."
+  },
+  {
+    "t_start": 3414.32,
+    "t_end": 3414.84,
+    "text": "Okay."
+  },
+  {
+    "t_start": 3414.84,
+    "t_end": 3415.77,
+    "text": "And then we will, let's check."
+  },
+  {
+    "t_start": 3417.13,
+    "t_end": 3419.16,
+    "text": "It'll be an interactive check."
+  },
+  {
+    "t_start": 3421.5,
+    "t_end": 3423.07,
+    "text": "I guess we'll stop here."
+  },
+  {
+    "t_start": 3423.07,
+    "t_end": 3428.5,
+    "text": "(applause)"
+  },
+  {
+    "t_start": 3428.6,
+    "t_end": 3436.25,
+    "text": "(background chatter)"
+  }
+]

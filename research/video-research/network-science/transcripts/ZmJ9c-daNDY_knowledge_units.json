@@ -1,0 +1,310 @@
+[
+  {
+    "id": "ku_video_ZmJ9c-daNDY_261",
+    "t_start": 261.1,
+    "t_end": 352.1,
+    "type": "overview",
+    "summary": "oh [Music] [Music] now so uh good afternoon everybody uh according to the uh Auditorium clock according to the uh Auditorium clock it's now 3 p.m. and I'd like to uh welcome everybody to today's Ed lecture welcome everybody to today's Ed lecture my name is Rasmus Larson I'm the my name is Rasmus Larson I'm the university proost and I have the honor"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_352",
+    "t_start": 352.1,
+    "t_end": 449.2,
+    "type": "overview",
+    "summary": "university proost and I have the honor of bidding welcome to uh everybody here today so as you all know the a uh lecture series is a lecture Series where lecture series is a lecture Series where we invite the most influential scientists of the world to come to DTU and tell uh DTU staff and students about their research and hopefully to uh in Inspire them we are luy today to have uh Inspire them we are luy today to have uh Professor Albert llo barassi with us Professor bassi is with uh Northeastern University Harvard University and also University Harvard University and also the central EUR …"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_449",
+    "t_start": 449.2,
+    "t_end": 559.1,
+    "type": "overview",
+    "summary": "19 uh pandemic but in order to make a prop uh introduction to uh professor barasi and the scientific field I'd like to and the scientific field I'd like to invite our colleague Professor Sun invite our colleague Professor Sun Leeman from DCU compute himself a Leeman from DCU compute himself a network scientist uh to come up here and introduce Professor barazi yes all right thank you so much Rasmus it is my great honor great pleasure to it is my great honor great pleasure to introduce llo as you can see on the introduce llo as you can see on the slides he is a professor at many slides he is …"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_560",
+    "t_start": 560.7,
+    "t_end": 653.9,
+    "type": "overview",
+    "summary": "th000 papers it's unbelievable right or at least the citations um and I think that that is such a wild impact and such an imprint on the world impact and such an imprint on the world and the thing that ties all of this the thing that ties all these different kind of themes ranging from medicine to kind of themes ranging from medicine to human Mobility really is the network human Mobility really is the network science and that's what we're lucky that science and that's what we're lucky that he's here to talk about today so without he's here to talk about today so without any further Ado llo …"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_653",
+    "t_start": 653.9,
+    "t_end": 747.6,
+    "type": "overview",
+    "summary": "goal is to give you a mosaic of why networks are important right and how do networks are important right and how do we think about them and the best way to kind of fix our ideas is to to speak about some specific networks that really about some specific networks that really determine our life and shape our life and one of them is obviously the infrastructural networks but pretty much infrastructural networks but pretty much all our network what you see here which is an early map of the internet telling us how early map of the internet telling us how the different routers are connected to th…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_747",
+    "t_start": 747.6,
+    "t_end": 838.7,
+    "type": "overview",
+    "summary": "a network right actually the very very first Nobel Prize in medicine was given first Nobel Prize in medicine was given to Rah who actually showed us the first changing now in the last kind of five to 10 years is that for the first time we 10 years is that for the first time we have maps of those networks right before like we had just pictures of the neurons but what's changing really fundamentally but what's changing really fundamentally now is that we started to have for some organisms ful neuron level maps that I think would be really transform ative to think would be really transform ati…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_838",
+    "t_start": 838.7,
+    "t_end": 933.6,
+    "type": "overview",
+    "summary": "wanted to kind of give you with this the example and I could probably continue example and I could probably continue for half an hour just giving more and trade networks social networks the abuse social media and so on but I wanted to social media and so on but I wanted to kind of give fix this idea that there kind of give fix this idea that there are these totally different networks at are these totally different networks at different scales that have apparently nothing to do each other right and the question the do each other right and the question the challenge for Network science is tha…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_933",
+    "t_start": 933.6,
+    "t_end": 1027.1,
+    "type": "overview",
+    "summary": "prove some and but Paul in off I mean the many other things they have done they were also one of the first to start thinking deeply mathematically how a thinking deeply mathematically how a network looks like and their argument network looks like and their argument was very simple and very reasonable they was very simple and very reasonable they said well you know we see all of these complicated networks around us and in their first paper they brought the their first paper they brought the example of biological networks neural example of biological networks neural networks as well as Transp…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_1027",
+    "t_start": 1027.1,
+    "t_end": 1123.9,
+    "type": "overview",
+    "summary": "see in some of the notes have degree one because they connect to one other one some have as many as four and hence if you want to characterize a large Network you want to characterize a large Network you don't look at individual nodes you look at the distribution of them and you can easily show for this random Network can easily show for this random Network that the degree distribution is a very that the degree distribution is a very peaked one follows what we call a Pon majority of the notes have roughly the same number of links around the peak of hard to find kind of deviations from the a…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_1123",
+    "t_start": 1123.9,
+    "t_end": 1217.9,
+    "type": "overview",
+    "summary": "started to kind of we i' been looking for a network to map out and we ended up wordwide web because the notes we know that there are documents right and they that there are documents right and they are connected to each other by URLs and engine actually or a robot but it goes by different names that would start from by different names that would start from a page and it would just collect all the links and go to the next page and so on this is the tools that actually roughly this is the tools that actually roughly the same time that Google was developing the search engine were kind of runni…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_1217",
+    "t_start": 1217.9,
+    "t_end": 1311.0,
+    "type": "overview",
+    "summary": "a log lock scale version of the probability that a randomly chosen we have to put it on the log lock scales for reason they're going to be obvious for reason they're going to be obvious in a second in a log loog scale the fact in a second in a log loog scale the fact that the EMP data lines up as a straight describes the behavior that how how many nodes have degree one 10 100 or 10,000 nodes have degree one 10 100 or 10,000 or 100,000 follows a very simple function like K to the minus 2 gamma over there is 2 and then you would say over there is 2 and then you would say okay well you just di…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_1310",
+    "t_start": 1311.0,
+    "t_end": 1403.1,
+    "type": "overview",
+    "summary": "those hops you see a few notes that connect an exceptional large number of connect an exceptional large number of other links those type of hubs would be simply forbidden in a random Network now you may ask okay you just discovered now you may ask okay you just discovered that the word wi web is different from that the word wi web is different from your expectation why do we care well things got really excited when we and others got really excited when we and others started to look at other networks not started to look at other networks not just the wordwide map and then we just the wordwid…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_1403",
+    "t_start": 1403.1,
+    "t_end": 1494.8,
+    "type": "overview",
+    "summary": "an abundance of data came out this is a data set that I will speak a little bit organizational map of a small company or midsize company in Hungary where the midsize company in Hungary where the notes are individuals schors correspond notes are individuals schors correspond to different regions of the company where they work on and the notes size corresponds to the degree so you can see corresponds to the degree so you can see the high degree notes and you can kind of see that you don't have everybody to be a right there are a few major hubs be a right there are a few major hubs that seem t…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_1494",
+    "t_start": 1494.8,
+    "t_end": 1589.3,
+    "type": "overview",
+    "summary": "to to others who have hundreds of millions of followers right and of course most of us have very few so so this emerges clearly in social media as this emerges clearly in social media as well and let me tell you now another well and let me tell you now another Scandinavian example that is turned out Scandinavian example that is turned out to be very very interesting and fundamental and it's also fun fun its way which is the Swedish sex web right way which is the Swedish sex web right which is like in Sweden when AIDS which is like in Sweden when AIDS started to become kind of an important s…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_1589",
+    "t_start": 1589.3,
+    "t_end": 1685.8,
+    "type": "overview",
+    "summary": "10 sexual partners during the Lifetime and then of course a few that have tens thousands and you may kind of think what is what that by itself is not surprising is what that by itself is not surprising because there are professionals out there right what is interesting is that it's a continuous distribution it's not it's a continuous distribution it's not there is one group there and everybody else is nice behaving right but there is a continuous distribution there and it's a continuous distribution there and it's a fat tail distribution and of course if you think about it what this means i…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_1685",
+    "t_start": 1685.8,
+    "t_end": 1778.1,
+    "type": "overview",
+    "summary": "do to create hops but it's not the case so what you have here is a little so what you have here is a little segment of the chemical Network a segment of the chemical Network a metabolic Network within your cells if you had lunch that's the network that is processing and turning the whatever if processing and turning the whatever if you had the fish right they will have to be turned into ATP because your cell don't understand fish they only understand ATP and ADP and there's also another Network within your cell the one another Network within your cell the one that I showed you earlier the b…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_1778",
+    "t_start": 1778.1,
+    "t_end": 1871.2,
+    "type": "overview",
+    "summary": "old or whatever they all converge to the same underlying architecture and that same underlying architecture and that was really the initial mystery of was really the initial mystery of network science is that how is it network science is that how is it possible that these networks whose notes possible that these networks whose notes are really So Different At scale and are really So Different At scale and purpose and so are the links develop architectures and that was a challenge that I was trying to address early on when we realized Iz this what we call universality physicists call univers…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_1871",
+    "t_start": 1871.2,
+    "t_end": 1961.5,
+    "type": "overview",
+    "summary": "was one web page team burner Le famous web page back in CERN in Geneva so the web page back in CERN in Geneva so the question how did we go from one to question how did we go from one to trillion one note at a time always trillion one note at a time always adding new noes to the system so this is what I call growth that the real networks are always the result of some would model that is to say well I have a small Network and then new nodes come in small Network and then new nodes come in and try to connect to the existing nodes and try to connect to the existing nodes like that node right s…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_1961",
+    "t_start": 1961.5,
+    "t_end": 2053.6,
+    "type": "overview",
+    "summary": "they come into the system they prefer to connect to the highly connected nodes easier to find right and this is what we called preferential attachment and the called preferential attachment and the way we mathematically formulated this is to say the probability Pi that you will connect to a node with degree Ki is just connect to a node with degree Ki is just proportional to KI the more links the proportional to KI the more links the node has the more likely that will when this new node comes in it could connect to a node with degree 2 or a new degree four but it's just twice as likely to co…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_2053",
+    "t_start": 2053.6,
+    "t_end": 2147.3,
+    "type": "overview",
+    "summary": "principles are able to kind of address the architecture through so many different systems and don't get me wrong in real systems there's so many other in real systems there's so many other stuff happening right links could be stuff happening right links could be rewired links could disappear nodes could disappear uh and yet what we learned over the last 20 years is that learned over the last 20 years is that as long as the network is growing and as as long as the network is growing and as long as there is preferential attachment actually be scale free and that's what and so little is requir…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_2147",
+    "t_start": 2147.3,
+    "t_end": 2239.6,
+    "type": "overview",
+    "summary": "that is to start with the simple Network that I uh uh U I built earlier let's see that I uh uh U I built earlier let's see now I think it's going to happen not yet with this little Network and we start randomly removing notes and what you see randomly removing notes and what you see is you kind of Follow that process is is you kind of Follow that process is that as I'm removing notes obviously when I remove a note the links disappear so the wall network is shrinking but in so the wall network is shrinking but in an odd way the network doesn't simply want to break apart and this is not just …"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_2239",
+    "t_start": 2239.6,
+    "t_end": 2334.9,
+    "type": "overview",
+    "summary": "that indeed the critical point at which these networks break down because of the these networks break down because of the hubs converges to one and I'll tell you hubs converges to one and I'll tell you that in the next slide of what's the that in the next slide of what's the mathematics behind that but then there's a price we pay for that and maybe I click too early what if you don't remove click too early what if you don't remove the notes but you go on attack you the notes but you go on attack you remove the biggest note and then the remove the biggest note and then the next biggest note …"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_2334",
+    "t_start": 2334.9,
+    "t_end": 2426.1,
+    "type": "overview",
+    "summary": "a talk there are probably millions of errors in my cell the molecule is not errors in my cell the molecule is not arriving to the right place to the reaction and yet I'm able to continue talking right so in a way it tells us really that there is this inherent robustness built into the structure of robustness built into the structure of the network and of course there is some price for it right which is the attack failure in tolerance and that could also be good news in some cases because we could use that feature to really kill organisms that we don't want around like organisms that we don'…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_2426",
+    "t_start": 2426.1,
+    "t_end": 2516.2,
+    "type": "overview",
+    "summary": "get infected right and and the question is depending on what that spreading rate is depending on what that spreading rate what fraction of the population would be what fraction of the population would be infected and a key fundamental result of infected and a key fundamental result of epidemic spreading based on which all epidemic spreading based on which all methods to eradicate epidemics is really methods to eradicate epidemics is really rely on is the the finding that there is a critical Lambda meaning that if the spreading rate is under a threshold the because if it's very hard to sprea…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_2516",
+    "t_start": 2516.2,
+    "t_end": 2607.4,
+    "type": "overview",
+    "summary": "features of scale free networks is that the second moment of the distribution the vid is very very large it goes to Infinity in a large system and you could Infinity in a large system and you could analytically show that the critical point at which the net the the disease disappears is really the average degree disappears is really the average degree divided by the second moment however divided by the second moment however this this is this quantity is finite in this this is this quantity is finite in a random Network in a scale free network K Square goes to Infinity which means critical po…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_2607",
+    "t_start": 2607.4,
+    "t_end": 2697.5,
+    "type": "overview",
+    "summary": "many people and how many cities will be infected so this was a simulation done infected so this was a simulation done in 2009 and he predicted for the age one and one that the virus will peak in November which was a very unexpected November which was a very unexpected prediction because most influenza like prediction because most influenza like viruses Peak out on the Western viruses Peak out on the Western emisphere in January or December and emisphere in January or December and everybody ridiculed him back in June everybody ridiculed him back in June when he published that and he was abso…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_2697",
+    "t_start": 2697.5,
+    "t_end": 2789.9,
+    "type": "overview",
+    "summary": "sending an email to the organizers right to say hey are you sure you're going to do it and I was told yes everything is okay in right and we said no our data doesn't show and we have a track of females and then even a week before the talk I said it's not going to happen then I was told it's not going to happen then I was told it is going to happen and then three days before the talk it was cancelled so that's why we're here today cancelled so that's why we're here today so and and sure enough you know Alex so and and sure enough you know Alex Pani became the White House modeler and Pani bec…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_2789",
+    "t_start": 2789.9,
+    "t_end": 2880.3,
+    "type": "overview",
+    "summary": "show here is that the network structure does matter right and if you do have the wrong structure you do make wrong predictions as epidemology has been predictions as epidemology has been doing pretty much since 2001 when doing pretty much since 2001 when Alexander wani came along and said Alexander wani came along and said listen these networks on which epidemics listen these networks on which epidemics are spreading are not random networks are spreading are not random networks and then you revise the W theur and thanks to that we have now much more accurate models but what I want to do nex…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_2880",
+    "t_start": 2880.3,
+    "t_end": 2971.3,
+    "type": "overview",
+    "summary": "been engineered to really be controllable from these three points controllable from these three points right because at the end behind the network behind the car you have a very very complicated Network what I would like to do today is to pose a challenge what if you inverse the problem here is what if you inverse the problem here is a wiring diagram of a vehicle happens to a wiring diagram of a vehicle happens to be a motorcycle the car would be too big to show right could you find out the three components from which you can you three components from which you can you can control the rest …"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_2971",
+    "t_start": 2971.3,
+    "t_end": 3061.3,
+    "type": "overview",
+    "summary": "through a network and the activity of each node is not only determined by its each node is not only determined by its own desires but also by the activity of own desires but also by the activity of the nodes that are feeding it with the nodes that are feeding it with traffic or so on so there's a formal traffic or so on so there's a formal description it's called a linear uh uh model that tells us that you know how my behavior as a note changes in function behavior as a note changes in function of whom I'm connected to and formally of whom I'm connected to and formally the way you would des…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_3061",
+    "t_start": 3061.3,
+    "t_end": 3153.8,
+    "type": "overview",
+    "summary": "the full system based on the Cara criteria but Cara criteria would tell us criteria but Cara criteria would tell us that this system is not controllable and the reason why it's not controllable is that yes I'm sending one node one signal that yes I'm sending one node one signal to the main node but I have no control independent control between X2 and X3 they are correlated right they they work they are correlated right they they work in tandem they go up and down together and so how would you control a system like that you need one more signal right like that you need one more signal right …"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_3153",
+    "t_start": 3153.8,
+    "t_end": 3244.5,
+    "type": "overview",
+    "summary": "what are the notes from which you can control a system now the question is how control a system now the question is how do you know that you are right you have do you know that you are right you have a beautiful mathematical theorem that a beautiful mathematical theorem that works maybe for electrical circuits but works maybe for electrical circuits but is this a general theory and and this is is this a general theory and and this is where we actually got lucky because we where we actually got lucky because we were able to show experimentally that this works and we did so by focusing on the…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_3244",
+    "t_start": 3244.5,
+    "t_end": 3337.7,
+    "type": "overview",
+    "summary": "single neuron that is involved in that pathway what so this is a close problem pathway what so this is a close problem many Nobel prizes given for that but many Nobel prizes given for that but here's what's interesting when you actually look at the wiring diagram of that neural network it doesn't look like that neural network it doesn't look like that nice pathway it looks like that right and here I'm highlighting those neurons in Orange that were on the neurons in Orange that were on the previous image right so they don't just previous image right so they don't just do that pathway they're…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_3337",
+    "t_start": 3337.7,
+    "t_end": 3431.2,
+    "type": "overview",
+    "summary": "neurons if ablated which means that you burn them out doesn't affect the control burn them out doesn't affect the control of the muscles of the 279 neurons only 12 neurons had the effect that they will affect mobility and you know this was a affect mobility and you know this was a pure prediction from applying Network pure prediction from applying Network science and control uh to the neural about this prediction it wasn't tell us like here are the most likely neurons like here are the most likely neurons who would do that no it said only these 12 and no one else right and when we looked in…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_3431",
+    "t_start": 3431.2,
+    "t_end": 3525.9,
+    "type": "overview",
+    "summary": "the experiments and hoping we'll be right and we were right right and not only that there were other layers of the prediction that was pretty much on the prediction that was pretty much on the money that they were able to ex money that they were able to ex experimentally so this is just to show experimentally so this is just to show the evolution of how far you can take the evolution of how far you can take this type of thinking that knowing the this type of thinking that knowing the netor work structure you can actually netor work structure you can actually make now not just kind of rankin…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_3525",
+    "t_start": 3525.9,
+    "t_end": 3620.5,
+    "type": "overview",
+    "summary": "that and we have at Harvard a division of network medicine that has more than of network medicine that has more than 200 researchers working on using these 200 researchers working on using these ideas to further human health and their ideas to further human health and their major successes of that one of them is that how do you think about disease in the context of a network like that and one of the key discoveries was that when you look at the disease genes and genes that are involved in asthma which is you know respiratory disease they're is you know respiratory disease they're not random…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_3620",
+    "t_start": 3620.5,
+    "t_end": 3711.4,
+    "type": "overview",
+    "summary": "colleagues at Boston University ended up experimentally testing that and showing experimentally testing that and showing how good our predictions are and this was very interesting because this was before the vaccine became available and before the vaccine became available and at that time it wasn't at all obvious at that time it wasn't at all obvious how long will the vaccine take remember how long will the vaccine take remember the predictions that it may take sometimes two to five years to get or 10 years to get a vaccine a successful one so this was at that moment at the early stages the…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_3711",
+    "t_start": 3711.4,
+    "t_end": 3804.2,
+    "type": "overview",
+    "summary": "are perturbing the network and using that we can actually predict what that we can actually predict what molecules in your food are healthy and molecules in your food are healthy and they could even cure disease food at they could even cure disease food at drug and which are the mo molecules that drug and which are the mo molecules that can actually affect particular cellular can actually affect particular cellular processes towards creating disease so this is a general tool that cannot be only used in medicine but can be also used in nutrition and the way we think about how you know what i…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_3804",
+    "t_start": 3804.2,
+    "t_end": 3895.4,
+    "type": "overview",
+    "summary": "systems robustness and I showed you how we talked about spreading how important we talked about spreading how important is the structure for how the things are spreading I we talked about controllability allow us to make very controllability allow us to make very precise predictions of who is involved precise predictions of who is involved in the brain on in specific processes in the brain on in specific processes and it affects res resilience and observability and many other things so at the end you know in the era of at the end you know in the era of complex systems there is no more way o…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_3895",
+    "t_start": 3895.4,
+    "t_end": 3983.9,
+    "type": "overview",
+    "summary": "do so quietly um I know there's one question question that you all have on question question that you all have on your mind so I'm just going to answer that ahead of time right uh sex in Sweden uh published by rout you can get Sweden uh published by rout you can get for 8 bucks on Amazon just um covering for 8 bucks on Amazon just um covering that one uh but then I think I'm going that one uh but then I think I'm going to hand it off to everyone in the in the to hand it off to everyone in the in the room and uh so raise your hand and uh room and uh so raise your hand and uh we'll take a cou…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_3986",
+    "t_start": 3986.1,
+    "t_end": 4076.2,
+    "type": "overview",
+    "summary": "it was very interesting I was wondering when you want to map a network and you when you want to map a network and you have only partial information you don't have the full information uh is there some way of uh some way of limit or some some way of uh some way of limit or some uh some methods uh to uh to to predict because none of the networks that we have around us are ever complete right have around us are ever complete right with a few exceptions I think the C with a few exceptions I think the C Elegance map thanks to many many people's map has is been accurate and complete as far as we …"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_4076",
+    "t_start": 4076.2,
+    "t_end": 4167.2,
+    "type": "overview",
+    "summary": "further notes and links and if the behavior that you care about is really behavior that you care about is really unchanged then really you're talking unchanged then really you're talking about something that is robust to that about something that is robust to that incompleteness of course you don't want incompleteness of course you don't want to remove too much because then you these are the two routes you can choose and the third rout of course is is much and the third rout of course is is much more massive efforts to map out more accurately yeah yes hi thank you for your presentation um I…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_4167",
+    "t_start": 4167.2,
+    "t_end": 4255.6,
+    "type": "overview",
+    "summary": "what the Network science tools is is the flashlight right that's what it offers flashlight right that's what it offers is to say you don't have to worry about the wall cell because there's so much going on when it comes to arisis these going on when it comes to arisis these are the 16 biomarkers that really matter are the 16 biomarkers that really matter you would say in the biological language you would say in the biological language right and then now that I have 16 then I right and then now that I have 16 then I can train a very straightfor AI method can train a very straightfor AI metho…"
+  },
+  {
+    "id": "ku_video_ZmJ9c-daNDY_4257",
+    "t_start": 4257.7,
+    "t_end": 4321.9,
+    "type": "overview",
+    "summary": "now the lecture is over the program in the auditorium is finished but there's the auditorium is finished but there's an opportunity to stay a little longer an opportunity to stay a little longer outside there's a small reception and you can uh continue to debate and discuss uh what you have heard in here discuss uh what you have heard in here thank you very much oh [Music]"
+  }
+]

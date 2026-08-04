@@ -1,0 +1,412 @@
+well I have to say that describing the languin program even to mathematicians
+languin program even to mathematicians is probably harder than solving fen's
+is probably harder than solving fen's Last Theorem but here
+Last Theorem but here goes
+goes [Music]
+[Music] um
+so we can start at the very beginning solving quadratic
+equations so of course the solution to this which we all learn in school goes
+this which we all learn in school goes back to the ancient Greeks and even
+back to the ancient Greeks and even further uh the Babylonians and so
+but we won't stop with quadratic equations there a gap of probably 2,000
+equations there a gap of probably 2,000 years before the cubic equation is
+years before the cubic equation is solved so you're probably not very
+solved so you're probably not very familiar with this um or not as
+um but it was actually a topic of great interest for some
+interest for some time and I'm going to
+just uh
+mention uh one application so quadratic equations were used via Pythagoras's
+Theorem to build uh right angles if you're trying to build structures you
+need to know what a right angle is and how to decide whether you've got one so
+how to decide whether you've got one so it was a very practical
+it was a very practical tool but actually cubic equations or
+tool but actually cubic equations or rather their generalization cubic curves
+rather their generalization cubic curves are also very useful in many ways in
+cryptography and so on and I was thinking I should do a picture but I
+learned Le a little while ago that
+ago that apparently I've already drawn many many
+curves because apparently all PDF script is actually made up of cubic
+is actually made up of cubic curves uh
+which is somehow mindboggling to me apparently it was F these kinds of
+Curves were first used in the design of Renault cars in the 1960s but they're
+Renault cars in the 1960s but they're now used in the script okay so here's an
+now used in the script okay so here's an Italian poem so the story of the cubic
+Italian poem so the story of the cubic equation and the solution of the cubic
+equation is quite well known um the first solution uh some cases seemed to
+first solution uh some cases seemed to have been done by Italian mathematician
+have been done by Italian mathematician Del
+Faro who passed it on on his deathbed to his favorite student but otherwise kept
+his favorite student but otherwise kept it
+secret uh tatalia then also found a solution to a slightly different
+solution to a slightly different equation and cardano tried for many
+equation and cardano tried for many years to get him to tell him the
+years to get him to tell him the solution eventually he found a a
+powerful form of uh bribery he tried he offered him positions in court and so on
+offered him positions in court and so on and so Talia much against his better
+and so Talia much against his better judgment gave him the
+solution um on condition he never cardano never published it but he wrote
+cardano never published it but he wrote it in the form of a poem so this is the
+poem and this is a an English translation of
+translation of it so at the end you can see I've
+it so at the end you can see I've marked what
+uh on the right hand side what this translates to in um algebraic
+translates to in um algebraic terms so in the period this is in so the
+century they didn't have algebraic notation so um everything was written
+out in the form of a word problem I I used to think when I was in school why
+used to think when I was in school why why do they torture us with these word
+why do they torture us with these word problems why can't they just give us an
+realizing then that in fact all of algebra was done this way for for
+algebra was done this way for for hundreds even thousands of
+years so he wrote it out in the form of a poem with curiously two seemingly two
+a poem with curiously two seemingly two mistakes in it U possibly deliberate so
+mistakes in it U possibly deliberate so that cardano would get the wrong answers
+that cardano would get the wrong answers when he tried to implement
+when he tried to implement it
+it [Music]
+cardano did publish it but only when he heard that Delo had had a solution
+heard that Delo had had a solution himself so that's cubic equations they
+himself so that's cubic equations they have this solution and by solution here
+have this solution and by solution here we mean you're allowing yourself Roots
+we mean you're allowing yourself Roots so this has a square roots in it and it
+it so the question was could you solve all equations this way could you solve
+Roots so the next success was a student of cardano Ferrari who solved the
+quartic equation I won't write up the solution and then there was a gap for
+solution and then there was a gap for more than 250 years while people
+more than 250 years while people struggled to try and find the solution
+struggled to try and find the solution for quintic equations and higher degree
+um that there is no solution to quintic equations of this form well there are
+equations of this form well there are some quintic equations that can be
+solved but not all in fact most cannot and the same applies for any higher
+and the same applies for any higher degree so this a first attempt was made
+degree so this a first attempt was made by rufini in 1797 that had a problem in
+by rufini in 1797 that had a problem in the
+the proof arble then gave
+uh an example of quintic equation that could not be solved and
+could not be solved and galwa then later gave a whole Theory
+when uh General equations would have Solutions and when they wouldn't and
+Solutions and when they wouldn't and gave a way to analyze
+gave a way to analyze it arble and galwa were the
+it arble and galwa were the mathematicians of the 19th century who
+um most make you think of the Romantic Poets of the era in that arble died of
+Poets of the era in that arble died of tuberculosis at the age of 26 and gwa in
+20 but despite that uh they uh transformed the
+uh they uh transformed the mathematics U used to study such things
+to study equations
+in the history of mathematics the ancient Greeks we learn ukian geometry
+in school and these word problems we don't really see very much we know that
+don't really see very much we know that Archimedes had some beautiful word
+Archimedes had some beautiful word problems um maybe you see some of
+those but over the centuries the idea of using
+algebra uh had increased um especially with
+introduction and use of the the the number zero was first really used
+number zero was first really used mathematically by in Europe by
+mathematically by in Europe by Fibonacci around
+1200 cardano was the first really to use negative numbers and
+first really to use negative numbers and imaginary
+imaginary numbers
+numbers although
+he didn't allow himself to give an answer in those terms he would only use
+them to get the solution and then hopefully the solution didn't involve
+hopefully the solution didn't involve them so because they didn't allow
+numbers they actually thought of uh not just the problem of one cubic equation
+just the problem of one cubic equation solving one as I've written but there
+solving one as I've written but there were actually 14 different
+ones but by the by the time cardono published these results uh these
+published these results uh these Solutions were all
+known so geometry was much more in much more easier to appreciate
+more in much more easier to appreciate you saw the problem you could draw it it
+you saw the problem you could draw it it was very
+visual algebra had this slow birth but because the rules of algebra
+birth but because the rules of algebra are in some sense artificial we make
+are in some sense artificial we make them up uh whereas geometry is supposed
+them up uh whereas geometry is supposed to reflect our actual vision of the
+to reflect our actual vision of the world and we live in a three-dimensional
+world and we live in a three-dimensional World geometry can and did inhibit
+World geometry can and did inhibit people from thinking more broadly about
+people from thinking more broadly about things like negative numbers and
+things like negative numbers and imaginary
+numbers uh even for the Greeks multiplying more than three numbers
+multiplying more than three numbers together was was not natural because the
+together was was not natural because the volumes only had three numbers
+volumes only had three numbers multiplied together how would you
+multiplied together how would you describe
+them so perhaps not surprisingly once algebra was allowed to interact with
+algebra was allowed to interact with geometry some of the classical Greek
+geometry some of the classical Greek problems could actually be
+solved so as I've said these numbers that are made from extracting Roots
+that are made from extracting Roots square roots cube roots fourth roots and
+square roots cube roots fourth roots and so on we call them constructable numbers
+or you could call them solvable numbers so I've written down a complicated one
+so I've written down a complicated one here to give you an idea so you can take
+square roots and fifth roots and whatever positive numbers negative
+numbers you add them together and so on what are the classical problems well
+the classical problems were doubling the cube so could you find a cube with twice
+cube so could you find a cube with twice the volume of a given Cube tricing the
+the volume of a given Cube tricing the angle squaring the
+circle and sometimes included as the fourth one construction of regular
+fourth one construction of regular polygons that's polygons like triang
+polygons that's polygons like triang equilateral triangles squares pentagons
+equilateral triangles squares pentagons and so
+on well once this notion of algebra is understood then the first two doubling
+understood then the first two doubling the cube and tricing the angle
+the cube and tricing the angle become
+relatively understandable and I think uh probably the people like GA and
+think uh probably the people like GA and so on did understand that it could be
+so on did understand that it could be solved
+uh it wasn't actually published till the 1830s by a Frenchman but uh since no one
+1830s by a Frenchman but uh since no one reacted to his paper at all I presume
+reacted to his paper at all I presume that everybody already knew uh that they
+that everybody already knew uh that they were
+possible squaring the circle was a completely different problem uh that's
+completely different problem uh that's involved showing that Pi is not a
+actually shown by showing that it's not even an algebraic number doesn't satisfy
+even an algebraic number doesn't satisfy any equation at all and that came
+any equation at all and that came later the fourth one construction of
+later the fourth one construction of regular
+regular polygons
+uh what that amounts to in fact is determining which
+numbers uh which angles can be constructed using just repeated square
+roots so you take a square root and then another square root and so on and this
+was solved by gaus so gaus in 1796 the age of 19 he I
+gaus so gaus in 1796 the age of 19 he I put inverted commas constructed a
+put inverted commas constructed a regular 17 agon which is apparently
+regular 17 agon which is apparently heptagon so I put in commas
+heptagon so I put in commas constructed because he didn't like many
+constructed because he didn't like many mathematicians actually draw the picture
+mathematicians actually draw the picture he reduced it to a problem which he knew
+he could do it someone else actually drew the picture
+write down all the details I think he thought it's obvious once he shows you
+thought it's obvious once he shows you what to do that the regular Eng gon is
+if the number of sides has to form a power of two times the product of
+power of two times the product of distinct
+primes where these primes are each faar primes and a faar prime is a prime that
+primes and a faar prime is a prime that is at the form 2^ 2 the^ m or +
+is at the form 2^ 2 the^ m or + one so you look at the first numbers of
+one so you look at the first numbers of the form well 2 + 1 is 3 2^ 2 + 1 is
+the form well 2 + 1 is 3 2^ 2 + 1 is 5 2 to the 2 to 2 + 1 is 17 and so on so
+5 2 to the 2 to 2 + 1 is 17 and so on so each term in this sequence actually you
+each term in this sequence actually you get by subtracting one from the previous
+get by subtracting one from the previous one squaring it and then adding
+one squaring it and then adding one
+so you get 65537 and then well this one fear
+65537 and then well this one fear intuition did not work
+um he thought all these would always be primes he didn't claim to have proved it
+primes he didn't claim to have proved it but he thought it was true but actually
+but he thought it was true but actually no one has ever found another one and
+no one has ever found another one and it's unsolved whether there are
+it's unsolved whether there are anymore and yes you can find a regular
+anymore and yes you can find a regular 65537 are
+gone and someone even did the geometric construction it
+even did the geometric construction it took him 10 years and 200
+took him 10 years and 200 Pages um but it probably wasn't worth
+it okay so now I want to take you to a bit more modern
+mathematics we're not satisfied so these solvable numbers or
+so these solvable numbers or constructable
+numbers are obtained by uh using roots and it's very
+by uh using roots and it's very surprising but that's not enough
+surprising but that's not enough information um it's a very powerful
+information um it's a very powerful tool um but we actually want to build
+solvable numbers out of a kind of fundamental building blocks which are
+fundamental building blocks which are ailan
+equations so I've put some ailan equations here like x^2 + x + 1 = 0 x^2
+equations here like x^2 + x + 1 = 0 x^2 + 1 = 0 and so
++ 1 = 0 and so on these are the equations of the cube
+on these are the equations of the cube root of one well one is a cube root of
+which is a cube root of one so now I'm going to allow myself square roots of
+going to allow myself square roots of negative
+numbers cube root of one is - a half plus the &lt; TK -3 /2 if you try Square
+plus the &lt; TK -3 /2 if you try Square cubing that and just use the rule like
+cubing that and just use the rule like cardano would have done that the square
+cardano would have done that the square &lt; TK of -3 squar is -3 you will find the
+one and if you take all numbers like this so the cube root of one the fourth
+this so the cube root of one the fourth root of one the fifth root of one and so
+on and you allow yourself to add them together and so
+on and take the equations Satisfied by those those are what we call aelan
+those those are what we call aelan equations well
+equations well in fact a bilon equations over the
+rationals so the difference between that and solvable numbers is I'm only taking
+and solvable numbers is I'm only taking roots of one I'm not taking roots of any
+number so in the 1880s first vber and then
+um developing it show that actually these are the fun fundamental building
+these are the fun fundamental building blocks for solvable
+blocks for solvable numbers
+numbers you start with rationals and use these equations you get what are called
+these equations you get what are called aedan equations so they're all of this
+aedan equations so they're all of this form so if you've done um group Theory
+form so if you've done um group Theory and gawa Theory then aan equations means
+and gawa Theory then aan equations means you've got an A bilon gawa extension of
+the rationals and they're given by equations like
+equations like this but now the question comes can you
+rational numbers but you start with other kinds of numbers for example you
+other kinds of numbers for example you start with this number I've written like
+start with this number I've written like seven 4S plus 6 * the &lt; TK of 73 you
+start with some other algebraic number and ask what are the ailan equations
+and ask what are the ailan equations over that where in fact maybe you like
+over that where in fact maybe you like you allow yourself coefficients instead
+you allow yourself coefficients instead of the coefficients of the equations
+of the coefficients of the equations being just rational numbers you allow
+well and then it's a much much harder problem and it took till about 1940 to
+problem and it took till about 1940 to solve this problem
+completely um interestingly the solution of this problem was probably the
+of this problem was probably the first really Global solution in
+first really Global solution in mathematics
+in modern mathematics um the origins of class field Theory
+um the origins of class field Theory were all in
+were all in Germany
+um the formulation of the problems uh a lot of it was done by David Hilbert
+lot of it was done by David Hilbert around
+1900 grew out of The Chronic of vapa theorem both German
+mathematicians but the key breakthrough was actually during the first world war
+was actually during the first world war by a Japanese mathematician the first
+by a Japanese mathematician the first first one that I'm aware of U called
+Takagi and sadly he came to Europe in 1920 to the mathematical
+Congress but because of the first world war there were no Germans allowed at
+war there were no Germans allowed at that mathematical
+Congress so takagi's work which he presented was not understood by any of
+presented was not understood by any of the people there and it was kind of um
+appreciated but later Artin and then a Russian mathematician
+chatar and those three of them together really um proved all the fundamental
+really um proved all the fundamental results in class field
+mathematicians I should say of course ramanujan is from even slightly earlier
+ramanujan is from even slightly earlier but from the Far East it's the first I'm
+of okay so that's class field Theory and that solved the the problem of
+that solved the the problem of equations um but only ones that are any
+solvable gwa had divided equations into two kinds the ones that are basically
+solvable and the ones that are not what about the ones that are not how do we
+those well first just to describe it I need to just remind you what matrices
+need to just remind you what matrices are um so matrices are these arrays of
+are um so matrices are these arrays of numbers and I'm just going to talk use
+numbers and I'm just going to talk use matrices where all the entries are
+integers and where the determinant is one so the determinant of a 2X two one
+one so the determinant of a 2X two one the first one I've written
+the first one I've written 3152 the determinant is 3 * 2 - 1 * 5
+3152 the determinant is 3 * 2 - 1 * 5 and that's supposed to be one and you
+and that's supposed to be one and you can write down matrices 3 by three
+can write down matrices 3 by three matrices and the formula for the
+matrices and the formula for the determinant is more complicated so these
+determinant is more complicated so these are familiar to anyone who's tried or
+are familiar to anyone who's tried or had to solve linear equations um any
+had to solve linear equations um any undergraduate mathematics will certainly
+undergraduate mathematics will certainly have dealt with these and computed
+determinants and so on
+on okay
+so the langland program langland um started writing these down actually in
+started writing these down actually in um I think 1967 is the year it's
+attributed to he was he'd been a an associate professor at
+associate professor at Princeton uh Princeton hadn't treated
+well I think he'd gone off to Turkey for a year and he' been working in turkey
+a year and he' been working in turkey and he just came up with
+and he just came up with these uh the beginnings of these
+wonderful ideas which he then put in letter form and sent off to Andre vay
+letter form and sent off to Andre vay who is one of the leading mathematicians
+who is one of the leading mathematicians of the
+period langin came from a background um actually an analysis more related to
+actually an analysis more related to calculus he had
+calculus he had no no real connection with number Theory
+this what did he do well ban equations we saw at least over the
+equations we saw at least over the rationals have some link with with the
+nth root of one now I wrote it before I gave you a um a calculation of it but in
+gave you a um a calculation of it but in general the nth root of one can be
+general the nth root of one can be written as COS of 2 Pi / n plus I sin 2
+over so for example the fifth root of one is a solution of that equation x 4 +
+one is a solution of that equation x 4 + x Cub + x^2 + x + 1 =
+x Cub + x^2 + x + 1 = 0 and
+what's interesting about this is he's using one's
+using the COS function and the S function these
+are transcendental functions and they're functions with a very special property
+functions with a very special property that COS of
+X is COS of X plus 2 pi COS of X plus 4 pi and so on it's periodic it satisfies
+pi and so on it's periodic it satisfies some transformation
+relation and what langland realized was that non-solvable
+realized was that non-solvable equations should correspond to functions
+which are invariant
+by certain kinds of matrices and it takes a lot of work to work out exactly
+takes a lot of work to work out exactly which kinds of
+matrices um so for example you might have a relation like f of 3x + 1/ 5x + 2
+have a relation like f of 3x + 1/ 5x + 2 is x + 2^ 2 * F
+is x + 2^ 2 * F ofx and maybe you want that for many
+ofx and maybe you want that for many more matrices and you want it for all
+X and yes there are some such functions there' been a a tiny hint of
+functions there' been a a tiny hint of this in the middle of the 19th century
+but it in some sense it's a red herring because French ma mathematician M me had
+because French ma mathematician M me had shown that you could use some such
+shown that you could use some such functions to actually solve the quintic
+was not quite the same as what happens in the um in the solvable case so langin
+in the um in the solvable case so langin doesn't really directly give you a way
+doesn't really directly give you a way of writing down the roots of this
+of writing down the roots of this equation rather it says that
+equation rather it says that non-solvable equations are related to
+non-solvable equations are related to these these functions and you can read
+these these functions and you can read off the properties of these nonsolvable
+off the properties of these nonsolvable equations in terms of properties of the
+functions so it's a correspondence but it's not actually telling you what the
+are so there are many functions like this and just like the COS function and
+the S function are used in harmonic analysis they're used for fur analysis
+they're used in engineering or the time they used to describe the real world and
+they used to describe the real world and used to solve differential equations and
+used to solve differential equations and so on so these more General functions
+so on so these more General functions invariant by matrices or more generally
+invariant by matrices or more generally invariant by groups or Le groups
+whatever these uh called automorphic functions give you harmonic analysis for
+functions give you harmonic analysis for these
+other groups these matrices and so on and what what happened was that although
+and what what happened was that although there's this
+very uh explicit beginning and actually this is not the beginning that langin
+came from but it's the beginning maybe I would come from uh langin came from the
+would come from uh langin came from the side of the functions and realized that
+side of the functions and realized that there was a relation with arithmetic
+there was a relation with arithmetic rather than coming from arithmetic and
+rather than coming from arithmetic and solving equations as I've done and go to
+started it became insatiable not
+insatiable not just equations in one variable as I've
+here uh the classical equations but whole systems of equations all of
+whole systems of equations all of algebraic geometry you can write as
+algebraic geometry you can write as systems of
+equations and they are supposed to correspond to functions in the same way
+correspond to functions in the same way even more generally than that you can
+start with I've said you can change the field from the rationals you can start
+talking about other fields you can take Fields over the complex numbers and you
+Fields over the complex numbers and you start moving into questions in in
+start moving into questions in in mathematical physics and on the right
+hand side you you get um as I said harmonic analysis you get automorphic
+harmonic analysis you get automorphic forms you get group Theory um so that
+this has become uh a huge Enterprise
+which it seems unlikely will will be solved in the very near future it's it's
+solved in the very near future it's it's so many problems wrapped up together
+that probably um it'll take at least a 100 years I think and maybe more I mean
+100 years I think and maybe more I mean judging by how far we've got so
+so one of the great things about having this correspondence between
+having this correspondence between seemingly two different fields between
+on the one hand equations in one variable and functions in variant by
+variable and functions in variant by matrices is that sometimes operations
+matrices is that sometimes operations are very easy on one side of the
+predict things on the other side because if if you can do something to an
+equation then you must be a able to do something on the other side to the
+something on the other side to the functions and vice
+versa and by seeing this langin has generated an enormous number of problems
+generated an enormous number of problems in fields even without the
+correspondence just on one side so he's given a whole new life to functions on
+given a whole new life to functions on groups because he's predicting the
+groups because he's predicting the existence of many operations on that
+existence of many operations on that that no one had any idea
+existed so anyway it's it's as I say he he won the arble prize a few years ago
+he won the arble prize a few years ago basically for setting this in
+basically for setting this in motion um and having such a profound
+Alex so just as with the earlier use of algebra um the
+with the earlier use of algebra um the quintic and so
+quintic and so on it gave gaus the the tools needed
+on it gave gaus the the tools needed to understand the classical Greek
+to understand the classical Greek problem of regular
+problem of regular polygons so in
+fact fma's Last Theorem also used results from the langin
+program it turned out that the aelan case and class field Theory were not
+case and class field Theory were not enough even
+though people thought when they were introduced they probably should be
+enough Kuma uh worked with those kinds of tools in the middle of the 19th
+century it did many cases of the farar problem but it it wasn't sufficient and
+problem but it it wasn't sufficient and in fact it had to wait
+in fact it had to wait for uh the development of the langin
+for uh the development of the langin program to to Really
+program to to Really U uh find the ultimate solution so thank
+you very [Applause]
+[Applause] much

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "ku_video_mH0oCDa74tE_4",
+    "t_start": 4.3,
+    "t_end": 94.6,
+    "type": "overview",
+    "summary": "Today, many members of the YouTube math community are getting together to make videos about their favorite numbers over 1 million, and we're encouraging you, the viewers, to do the same. Take a look at the description for details. My own choice is considerably larger than a million, roughly 8x10 to the 53. For a sense of scale, that's around the number of atoms in the planet Jupiter, so it might seem completely arbitrary. But what I love is that if you were to talk with an alien civilization or a super-intelligent AI that invented math for itself without any connection to our particular cul…"
+  },
+  {
+    "id": "ku_video_mH0oCDa74tE_94",
+    "t_start": 94.6,
+    "t_end": 186.3,
+    "type": "overview",
+    "summary": "otherwise generic word for this seemingly specific kind of collection should give you some sense of how fundamental they find it. Also take note, we always consider the action of doing nothing to be part of the group. So if we include that do-nothing action, the group of symmetries of a snowflake includes 12 distinct actions. It even has a fancy name, D6. The simple group of symmetries that only has two elements acting on a face also has a fancy name, C2. In general, there is a whole zoo of groups with no shortage of jargon to their names categorizing the many different ways that something …"
+  },
+  {
+    "id": "ku_video_mH0oCDa74tE_188",
+    "t_start": 188.7,
+    "t_end": 280.6,
+    "type": "overview",
+    "summary": "The loosest sense of structure is if we have a collection of points and we consider any way you could shuffle them, any permutation, to be a symmetry of those points. Unconstrained by any underlying property that needs to be preserved, these permutation groups can get quite large. Here, it's kind of fun to flash through every possible permutation of six objects and see how many there are. In total, it amounts to 6! or 720. By contrast, if we gave these points some structure, maybe making them the corners of a hexagon and only considering the permutations that preserve how far apart each one…"
+  },
+  {
+    "id": "ku_video_mH0oCDa74tE_280",
+    "t_start": 280.6,
+    "t_end": 370.5,
+    "type": "overview",
+    "summary": "and they play a very important role in group theory. In a certain sense, they encompass all other groups. And so far you might be thinking, okay, this is intellectually playful enough, but is any of this actually useful? One of the earliest applications of group theory came when mathematicians realized that the structure of these permutation groups tells us something about solutions to polynomial equations. You know how, in order to find the two roots of a quadratic equation, everyone learns a certain formula in school? Slightly lesser known is the fact that there's also a cubic formula, on…"
+  },
+  {
+    "id": "ku_video_mH0oCDa74tE_373",
+    "t_start": 373.0,
+    "t_end": 463.1,
+    "type": "overview",
+    "summary": "A theme in math through the last two centuries has been that the nature of symmetry in and of itself can show us all sorts of non-obvious facts about the other objects that we study. To give just a hint of the many many ways that this applies to physics, there's a beautiful fact known as Noether's theorem saying that every conservation law corresponds to some kind of symmetry, a certain group. So all those fundamental laws like conservation of momentum and conservation of energy each correspond to a group. More specifically, the actions we should be able to apply to a setup such that the la…"
+  },
+  {
+    "id": "ku_video_mH0oCDa74tE_464",
+    "t_start": 464.1,
+    "t_end": 554.1,
+    "type": "overview",
+    "summary": "For something like the number 3, the abstract symbol does us very little good unless we define its relation with other numbers, for example the way it adds or multiplies with them. For each of these, you could think of a literal triplet of something, but again, most of us are comfortable, probably even more comfortable, using the symbols alone. Similarly, what makes a group a group are all of the ways that its elements combine with each other. And in the context of actions, this has a very vivid meaning. What we mean by combining is to apply one action after the other, read from right to le…"
+  },
+  {
+    "id": "ku_video_mH0oCDa74tE_554",
+    "t_start": 554.7,
+    "t_end": 645.9,
+    "type": "overview",
+    "summary": "This is entirely analogous to how the usual multiplication table is written symbolically, which abstracts away from the idea of literal counts. Literal counts, arguably, would make it much clearer what's going on, but since grade school we all grow comfortable with the symbols. After all, they're less cumbersome, they free us to think about more complicated numbers, and they also free us to think about numbers in new and very different ways. All of this is true of groups as well, which are best understood as abstractions above the idea of symmetry actions. I'm emphasizing this for two reaso…"
+  },
+  {
+    "id": "ku_video_mH0oCDa74tE_646",
+    "t_start": 646.7,
+    "t_end": 737.1,
+    "type": "overview",
+    "summary": "Consider the symmetries of a cube and the permutation group of four objects. At first, these groups feel very different. You might think of the one on the left as acting on eight corners in a way that preserves the distance and orientation structure among them. But on the right, we have a completely unconstrained set of actions on a much smaller set of points. As it happens, though, these two groups are really the same, in the sense that their multiplication tables will look identical. Anything that you can say about one group will be true of the other. For example, there are eight distinct…"
+  },
+  {
+    "id": "ku_video_mH0oCDa74tE_738",
+    "t_start": 738.2,
+    "t_end": 827.2,
+    "type": "overview",
+    "summary": "When you have a correspondence where this remains true for all products, it's called an isomorphism, which is maybe the most important idea in group theory. This particular isomorphism between cube rotations and permutations of four objects is a bit subtle, but for the curious among you, you may enjoy taking a moment to think hard about how the rotations of a cube permute its four diagonals. In your mathematical life, you'll see more examples of a given group arising from seemingly unrelated situations, and as you do, you'll get a better sense for what group theory is all about. Think about…"
+  },
+  {
+    "id": "ku_video_mH0oCDa74tE_829",
+    "t_start": 829.6,
+    "t_end": 923.3,
+    "type": "overview",
+    "summary": "This is asking something more fundamental than what are all the symmetric things. It's a way of asking, what are all the ways that something can be symmetric? Is there some formula or procedure for producing them all, some meta-pattern lying at the heart of symmetry itself? This question turns out to be hard, exceedingly hard. For one thing, there's the division between infinite groups, for example the ones describing the symmetries of a line or a circle, and finite groups, like the ones we've looked at up to this point. To maintain some hope of sanity, let's limit our view to finite groups…"
+  },
+  {
+    "id": "ku_video_mH0oCDa74tE_923",
+    "t_start": 923.3,
+    "t_end": 1013.8,
+    "type": "overview",
+    "summary": "allow. That is a super high-level description of course, with about a semester's worth of details missing, but the point is that you have this really not obvious fact about a different part of math whose solutions come from finding the atomic structure of a certain group. This is one of many different examples where understanding the nature of these simple groups, these atoms, actually matters outside of group theory. The task of categorizing all finite groups breaks down into two steps. One, find all the simple groups, and two, find all of the ways to combine them. The first question is li…"
+  },
+  {
+    "id": "ku_video_mH0oCDa74tE_1014",
+    "t_start": 1014.2,
+    "t_end": 1104.9,
+    "type": "overview",
+    "summary": "That a field of study rooted in symmetry itself has such a patched together fundamental structure is, well I mean it's just bizarre. It's like the universe was designed by committee. If you're wondering what we mean by an infinite family, examples might help. One such family of simple groups includes all of these cyclic groups with prime order. These are essentially the symmetries of a regular polygon with a prime number of sides, but where you're not allowed to flip the polygon over. Another of these infinite families is very similar to the permutation groups we saw earlier, but there's th…"
+  },
+  {
+    "id": "ku_video_mH0oCDa74tE_1105",
+    "t_start": 1105.5,
+    "t_end": 1197.4,
+    "type": "overview",
+    "summary": "As if to compensate for how complicated the underlying math here is, the experts really let loose on their whimsy while naming things. Let me emphasize, having a group which is big is not that big a deal, but the idea that one of the fundamental building blocks for one of the most fundamental ideas in math comes in a collection that just abruptly stops around 8x10 to the 53. That's weird. Now, at this point, given that I introduced groups as symmetries, a collection of actions, you might wonder what it is that the monster acts on. What object does it describe the symmetries of? Well, there …"
+  },
+  {
+    "id": "ku_video_mH0oCDa74tE_1197",
+    "t_start": 1197.4,
+    "t_end": 1285.2,
+    "type": "overview",
+    "summary": "a lot about them remains mysterious. In the 1970s, mathematician John McKay was making a switch from studying group theory to an adjacent field, and he noticed that a number very similar to this 196,883 showed up in a completely unrelated context, or at least almost. A number one bigger than this was in the series expansion of a fundamental function in a totally different part of math, relevant to these things called modular forms and elliptic functions. Assuming that this was more than a coincidence seemed crazy, enough that it was playfully deemed moonshine by John Conway. But after more …"
+  }
+]

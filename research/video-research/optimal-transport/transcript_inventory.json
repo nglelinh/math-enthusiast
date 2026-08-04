@@ -1,0 +1,37 @@
+{
+  "slug": "optimal-transport",
+  "videos": [
+    {
+      "id": "6DZjBcDfPHs",
+      "title": "Villani — Optimal Transport Theory (Imperial College)",
+      "has_transcript": true,
+      "chars": 85253,
+      "units": 53,
+      "url": "https://www.youtube.com/watch?v=6DZjBcDfPHs"
+    },
+    {
+      "id": "TAnoqeYfO1Y",
+      "title": "Lecture 01 | Optimal Transportation, Geometry and Dynamics",
+      "has_transcript": true,
+      "chars": 88022,
+      "units": 54,
+      "url": "https://www.youtube.com/watch?v=TAnoqeYfO1Y"
+    },
+    {
+      "id": "GMC7uOPAa_Y",
+      "title": "Simons — Crash Course on Optimal Transport",
+      "has_transcript": true,
+      "chars": 32747,
+      "units": 41,
+      "url": "https://www.youtube.com/watch?v=GMC7uOPAa_Y"
+    },
+    {
+      "id": "BfOjrQAhG4M",
+      "title": "UniHeidelberg — Sinkhorn iterations (discrete OT)",
+      "has_transcript": true,
+      "chars": 15652,
+      "units": 13,
+      "url": "https://www.youtube.com/watch?v=BfOjrQAhG4M"
+    }
+  ]
+}

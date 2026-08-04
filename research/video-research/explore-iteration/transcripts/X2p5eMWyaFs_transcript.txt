@@ -1,0 +1,1315 @@
+of mathematics
+[Music]
+so many thanks
+to terence tao for being here with all
+of us
+and
+offering this opportunity to a large
+number of students at the last year of
+the high school
+and the this i think is a a positive
+opportunity using a word that we had
+in this time
+bad time of contagious and that we would
+like to be uh positively conte
+contagious by yourself in these uh
+as a star of signs no they like stars of
+sports of soccer they like they are fan
+of stars of music of movies
+and you are a star of science and so
+this is
+i think very good for young people who
+have to make important choices for their
+life to get in touch
+with such figures and so thank you many
+thanks for to be here
+thank you for that very nice
+introduction this is my first time
+and uh i'm enjoying it so far very nice
+hospitality
+okay so uh i'm a mathematician i'm going
+to speak about one of the most
+dangerous problems in mathematics and
+hopefully i will not actually trap you
+too many of you are thinking about this
+question but this is a there's a very
+famous question called the collapse
+conjecture
+uh let's see if this works
+i'll try it on this okay
+so i'm going to talk about um and one of
+the most
+notorious uh but also one of the most
+basic uh unsolved problems in
+mathematics
+oh okay so um all right
+it's called the collapse conjecture it
+is um
+it's one of the most dangerous
+conjectures known it is uh it is famous
+for absorbing uh you know countless
+hundreds of hours of time of of many
+mathematicians both professional
+mathematicians and amateur
+mathematicians and hopefully uh you will
+not get trapped uh by this conjecture if
+i show it to you um
+but it's uh yeah it's been around for
+about 100 years and it is still unsolved
+so it was introduced
+in 1937 by the german mathematician
+lothar collatz
+it has many many names um i call it the
+class conjecture some people call it the
+three x plus one conjecture or the
+syracuse problem
+uh so uh let me first explain what the
+problem is
+okay so um it involves a rather simple
+operation which i'm going to call call
+for collats
+and it's an operation that takes a
+number a natural number and turns it
+into another number and the rule is
+quite simple
+if you start with an odd number you
+multiply by three and you
+and that's what this operation does
+um and if it's even you divide by two so
+those are the two rules for this
+function okay odd numbers become bigger
+and even numbers become
+and odd numbers become bigger by about
+three and odd numbers become smaller by
+about a factor of two
+and so that's the collapse function
+uh here's a little table of what the
+function does so for all
+eight it just gets divided by two so
+like for example 10 turns into five
+uh but any odd number uh gets bigger so
+nine you multiplied
+nine gets multiplied by three to get 27
+and you add one okay so
+half the time you get bigger half the
+time you get smaller
+all right so what
+so by itself this is not super
+interesting but funny things happen when
+you start
+iterating this function so if you take
+the output of this function and you feed
+it back to itself
+that's called iterating the function
+so
+you take a number n you apply this
+operation
+and then you apply it again and that's
+called co squared or you can apply it
+three times and you get co-cubed
+and so forth and so forth so on uh and
+that creates what's called the collapse
+orbit
+so
+for example if i start with the number
+five
+five is odd you multiply by 3 and you
+add 1 that gives you 16. so 5 turns into
+16 it gets bigger
+but then 16 is even so
+the next iteration you divide by 2 you
+get 8. 8 is still even you divide by two
+you get four
+and four is still even you divide by two
+you get
+two and then two is still even you
+divide by two you get one
+but then one is odd so you multiply by
+um three and you add one you get back to
+four and then you go to two and so forth
+so uh
+every input creates this this orbit
+which goes up and down
+um
+okay and so um
+whenever you you start with any input
+and you iterate this this is called the
+collat sequence or the class orbit that
+starts with n so you start with n you
+apply collapse once twice so forth and
+that is your orbit
+now what happens to these orbits they
+get quite um
+it depends on on what number you start
+with
+so for example if you start with one
+what happens is one is odd
+you multiply by three you add one you
+get four
+four is even so you divide by two you
+get two two is even you divide by two
+you go back to one and then you will
+just go
+around and run in a circle forever so
+this orbit is it's periodic it just goes
+one four two one four two one four two
+okay
+um
+so once you have one periodical but if
+you have any other
+printers this cycle it's just going to
+get trapped in here forever so if this
+the sequence and you end up say at one
+then for the rest of this of of time
+you're going to end up
+circling this sequence here
+okay so for instance if you start with
+say six
+um so you divide by two goes down to
+three three is odd
+and add one you go up to ten
+times three plus one sixteen eight four
+and then it gets trapped in this loop
+okay so
+so
+we'll bounce up and down but eventually
+it will get trapped in here
+now
+this number six it only took like what
+seven steps or something to get into the
+sequence
+uh other numbers take longer uh
+if you start with 27
+i will not go through it
+in a while
+you probably can't even read uh these
+numbers but um i think the biggest
+number that you get is like uh where is
+it um
+yeah it goes up to like 9232.
+oops
+over here but it goes up and down and up
+and down but but eventually after about
+200 steps or something it will
+eventually get trapped in this
+142142142 sequence
+um
+all right so
+the different inputs give you quite
+different behavior but the end result is
+always the same
+at least that's what it looks like
+so
+these sequences are called collat
+sequences
+they're also called hailstone sequences
+because this
+behavior of numbers going up and down
+it's a little bit like
+how hail is formed in
+a cloud i don't know if you get hail
+here in italy but
+hail is sort of frozen rain
+and
+if you open up old textbooks as to how
+hail is made
+you could you often see a picture like
+this you see that in a cloud there are
+water droplets
+and
+they get there is wind that brings them
+up into and past a certain level
+the the water will freeze and into
+into a hailstone but then it gets
+heavier it then it might
+it will fall down and then it might
+unfreeze and it might cycle up and down
+and up and down several times before
+eventually
+um fall out of the cloud and that's
+that's the hail that we actually um get
+on the ground
+um
+now i should say that this picture you
+see it in all the old textbooks uh the
+newer textbooks say that this is not
+actually what happens
+yeah
+heyo is actually it's a more complicated
+process involving super cooled water but
+um
+which is a shame because then i i can't
+call these household sequences anymore
+but um
+but this simple model is sort of
+a good
+analogy for
+for the sequence
+um
+but of course with real world hail you
+know that these water droplets they go
+up and down and up and down but
+eventually they will fall down okay
+they will not cycle forever
+um and so we believe the same thing is
+true for this mathematical sequence and
+this is called the collapse conjecture
+that no matter where you start uh and uh
+if you take any collect sequence any
+number if you go um you run this
+iteration
+it will
+you will eventually end up at the value
+of one okay so this is the collapse
+conjecture um so it's it's fairly easy
+to state you don't need really advanced
+mathematics i mean the most complicated
+thing we had was multiplication and
+division
+um and we still can't solve it which is
+very frustrating
+um
+yeah so there's
+many many people have spent many many uh
+hundreds of hours working on this
+problem um
+so
+jeff lagarius a mathematician at the
+university of i think
+michigan
+um
+he for many years he collected all the
+papers uh on this problem and so he um
+he collected all the papers up to
+the end of last century 1999 and he
+collected about 200 papers um
+in published journals working on this
+problem and then 10 years later
+there were another 100 or 30 130 more
+papers
+and then he just gave up just too many
+papers he could not catch up right and
+so nobody knows now how exactly how many
+papers there are on this problem just
+it's quite a ridiculous amount at this
+point
+but we still cannot solve the problem
+there have been many many attempts and
+many of you have claimed that they can
+solve the problem but every solution
+that has been proposed has uh when you
+when people looked at it turned out to
+have all kinds of mistakes unfortunately
+um
+so there's a here's some quotes by
+various mathematicians
+who was a japanese mathematician
+visiting the united states
+so he reported
+that for about a month everyone at yale
+worked on it with no result
+a similar phenomenon happened when i
+mentioned at the university of chicago
+a joke was made that this problem was
+part of a conspiracy to slow down
+mathematical progress in the united
+states this is during the cold war
+um
+and um paul erdesh the famous hungarian
+mathematician he
+he once said that this
+mathematics is not yet ripe enough for
+such
+questions and jeff lagarius who compiled
+bibliography said this problem is
+extremely difficult completely out of
+the reach of present-day mathematics
+so it's um
+maybe
+hopefully i can explain why the problem
+is so difficult in in in a little bit um
+but this hasn't stopped people working
+on it
+oh here's one more quote this is one of
+my favorite comics on the on the
+internet it's called xkcd i don't know
+if it's worn on here
+um
+so uh the comic maybe you can't read it
+but uh but what it says is that the
+class conjecture states that if you pick
+a number and if it's even divided by two
+and if it's odd multiply three and add
+one and you repeat this procedure long
+enough eventually your friends will stop
+calling you to see if you want to hang
+out
+um which is probably true actually
+um
+yeah it's it's it it's famous for people
+getting sucked into drawing lots of
+graphs like this for instance
+all right
+so
+why do we care about this problem i mean
+this this is this is uh this doesn't
+look like a problem which has many
+practical applications has nothing to do
+with
+any real world problem you know like you
+know trying to fight climate change or
+anything
+uh why should we actually try to solve
+this
+um so you can make a couple of reasons
+um so firstly it's a pure intellectual
+challenge i think it's uh
+you know it's just it's a problem which
+it's easier to state um and you know
+it's it's a
+um
+you know it's a good lot of people like
+intellectual challenges
+um
+it's been used as a benchmark for
+understanding how well we understand
+number theory so so this problem is part
+of the sub sub
+it's it's it sort of shows us
+of our current knowledge of number
+theory
+um so it's of a good test
+um of our knowledge
+um
+other areas of mathematics so in
+even it's a number theory it has been
+connected
+of
+of of math
+it is one of the simplest examples of a
+very important object in mathematics
+called a dynamical system which i'll
+define in just a little bit
+and it actually it illustrates many of
+the features of more complicated
+dynamical systems
+there actually are some cash prizes for
+solving this problem although uh you
+really cannot make a living in
+mathematics solving uh
+solving um uh problems with prizes but
+there are some prizes i think uh in the
+60s howard coxer offered 50 us dollars
+to solve this question and then paul
+erdish offered 500
+uh and then um
+sir brian thwaites offered a thousand
+pounds uh more recently i think this
+year i didn't write it here but there
+was a japanese company actually that
+offered a 120 million yen
+the price of the price number has
+actually increased quite a bit
+for solving this problem but still i
+don't think it's going to get solved
+anytime soon
+and of course if you solve this problem
+you get to brag about it to all the
+other mathematicians okay
+what dynamical system is
+so a little just a little bit of more
+advanced mathematics
+objectics what it consists of is a is a
+space
+x it's called the state space and that's
+the state of all that's the set of all
+possible states that your system could
+be now this system could be maybe um
+um
+maybe you're studying the weather and
+each
+outside the window right now
+um
+and then uh you also have a shift map
+that takes your state and maps it to the
+next state so like if you see outside
+that there's some clouds coming maybe
+the next
+in the next hour you expect to get some
+rain or something so
+your current state should determine the
+next state and that's called a shift map
+and so once you have a shift map
+you can start with any state and you can
+start applying the shift over and over
+again
+and that's called the
+dynamics system
+and the
+of
+general systems and what the dynamics
+dynamics looks like
+you know do they look pure
+okay and so the collapse
+dynamics is one of the simplest dynamics
+uh dynamical systems you can make
+so
+so in the collapse problem the state
+space is just the natural numbers every
+state is just given by one number
+and the shift map is this funny map call
+which makes the odd numbers bigger and
+the even numbers smaller
+and it's one of the simplest dynamical
+systems you can make but it's still got
+extremely complicated dynamics
+um
+oh i should say that these um
+what i described is what's called a
+discrete dynamical system where time is
+discrete
+there's another class of dynamical
+systems that are very important uh
+called continuous dynamical systems
+where time is continuous
+and
+and then the dynamics are not given by a
+shift they're given by something called
+which you will see
+and those are very important because
+these are the equations that govern the
+real world so if you study whether
+if you study
+ecosystems the stock market
+pretty much any
+real world system um
+any of the sciences will be governed by
+one of these dynamical systems
+and knowing what the orbit of these
+things are becomes very important you
+know what is the long time long-term
+dynamics of of the climate
+of uh you know
+of an ecosystem of the stock market
+people care a lot about these about
+these sort of questions
+but these these problems are very hard
+and the collapse conjecture illustrates
+this because
+simple dynamics uh so even very simple
+shifts can can lead to extremely
+complicated dynamics
+the picture the back is a very famous
+picture in mathematics called the lorenz
+butterfly um it's it's a
+fairly uh simple system of um ordinary
+differential equations i think three
+differential equations but the the the
+orbits uh create these these very weird
+fractal shapes that look like butterfly
+okay
+so this
+is not solved but um
+right so when you're in high school you
+take a test you know
+then you get full credit or you don't
+solve the problem and you get zero
+credit or whatever
+research uh mathematical research um
+you know there's lots of intermediate
+stages between solving a problem and not
+solving a problem if you can't perform
+completely
+and often
+the partial
+version of the problem you can still
+on the problems that we care about
+um
+but in addition to making progress it's
+also um good to to
+understand what the opposite of progress
+is
+so
+just
+specific difficulties that block a
+certain approach
+um
+okay so
+if partial progress is going halfway
+right you cannot
+if you
+this path further
+so it's important to know uh what your
+obstructions are so you don't waste time
+um
+spending lots and lots of effort on an
+approach that can never possibly work
+the way
+is that we we try to figure out what
+they
+saw
+okay
+so while we can't solve the uh the glass
+conjecture we do have many partial
+results and we do have many obstructions
+and so this is what i can tell you about
+um
+uh okay
+so the class conjecture says that
+forever
+for any input n
+the sequence eventually ends up at one
+now there are an infinite number of
+numbers so you can't test every single
+number of a computer but with a computer
+you can test any finite number of
+numbers in principle
+um so you know it's not hard to start
+with maybe the first ten numbers the
+first hundred numbers and test them
+um and uh and with a computer you can
+test millions of numbers and if you have
+many many computers you can test quite a
+lot of numbers
+so
+there have been projects where
+they
+they distribute
+sets of numbers across many many
+computers and they all test
+different groups different sets of
+numbers and they can people have
+verified um
+this conjecture for for many many
+numbers so i think in 2017
+um this project there was a project that
+harnessed the power of the internet and
+verified this conjecture issue for all
+numbers up to 10 to the 20 uh which is
+uh 100
+quintillion or sextillion um
+but yeah so um so quite a large number
+of numbers have been verified
+um
+i think nowadays it's harder to do this
+now because uh all these uh complex
+computing powers now used for
+cryptocurrency but uh there used to be a
+lot of spare computing power to do these
+things
+um so one thing this tells you is that
+um it's unlikely that you're going to um
+find a counter example discontextually
+just by writing down a number and and uh
+playing with a pen and paper any number
+up to 10 to the 20 uh we know the the uh
+the conjecture is true so that's one
+partial result we have
+um
+what are some other partial results
+okay so we saw that the number one um in
+this problem
+goes into a cycle one four two one four
+two one four two i think i have the
+numbers done around here
+um that's called a cycle a a number that
+that goes back to itself is called a
+cycle
+um if there's any other cycle like
+suppose there's some other number like
+17 like suppose if you ran 17 somehow
+you you came back at 17. then you would
+repeat on that cycle and you would never
+enter this cycle
+um so um the class conjecture said that
+everybody should should eventually reach
+the one 142 two cycle so if there was
+any other cycle in the um
+collapse iteration um
+the class conjecture reforms so one way
+to
+solve the problem would be if you could
+find any other cycle in the problem
+this would tell you that the class
+conjecture is false
+but people have looked and we've not
+been able to find any cycles
+and here's one reason why
+so there's a mathematical result
+in 93 el yahu showed
+that um
+if there is a cycle out there other than
+one four two one four two
+uh any other cycle has to be very very
+long um there was no
+all cycles in the system other than the
+one forty two cycle have to be at least
+17 million
+numbers in length okay so
+you cannot return back to yourself in in
+fewer than 17 million steps
+so you're not going to be able to write
+down on a piece of paper
+any cycle that tells you that
+this conjecture is false
+so that's another partial result that
+that sort of
+tells you you can't easily say the
+conjecture is false
+okay
+let's
+um
+now one thing that's very common in
+mathematics is that if you can't solve a
+question uh you just
+try to study a nearby question you can
+change the question um this is one of
+the things that makes mathematics
+different from
+from um most other disciplines you know
+like
+if you want to build a bridge across the
+river you know it doesn't really you
+know
+and you say i can't do that but i can
+put a bridge over here instead you know
+the person paying for the bridge won't
+won't be happy
+but in mathematics you can change the
+questions as much as as you wish
+so
+for example
+in this iteration we for odd numbers we
+we replace n of three and plus one and
+even numbers you drop by two
+you can say what's so special about
+three and plus one maybe i can i can use
+maybe three and minus one
+so you can you can change the problem a
+little bit and uh
+maybe study a slightly different
+process where you
+um
+map every odd number into three and
+minus one and even numbers you still
+divide by two
+um and if you do that tiny change um
+then the conjecture is no longer true
+then not every number goes down to one
+you get some other cycles so that once
+you have three and minus one it turns
+out that there are a few more cycles for
+example if you start with five and you
+multiply by three but now you subtract
+one you get fourteen and if you keep
+going you actually end up back at five
+and also if you start with 17
+it takes a bit more time but you
+eventually end up back at 17 again
+so if you change the problem a little
+bit
+you do actually create some other cycles
+and so
+what this tells you
+is that
+if
+if you want to solve this question you
+have to use a special property of three
+and plus one that is not uh shared by
+three and minus one
+so um
+whatever um
+proof method you have to solve this
+question you must be able to somehow um
+tell the difference between plus one and
+one and minus one um
+so uh that already rules out uh any
+really quick easy way to prove this
+conjecture because
+if this if there's some way to prove
+this conjecture of three plus one you
+could imagine just changing all the plus
+signs to minus signs and you would also
+prove three and minus one but the
+conjecture's not true for three and
+minus one
+okay so that's an obstruction it tells
+you that
+the problem is difficult
+okay um
+here is uh i'm talking i discovered
+actually about five or six years ago
+um
+that
+if the classic conjecture is true it
+actually has some consequences okay so
+many results in mathematics can be used
+to prove other results in mathematics
+and it turns out that um i mean the
+classic conjecture involves the numbers
+two and three you know quite you know if
+you already multiply three and you add
+one
+you even divide by two
+so um
+the numbers two and three show up a lot
+in the um the glass conjecture
+and um the
+the class conjecture is linked
+to a very simple result in number theory
+uh it's simple to state and also not so
+simple to prove
+um so here's the theorem so um if you
+take the powers of two two four eight
+sixteen so forth uh all the powers of
+two and the powers of three that's 3 9
+27 81 and so forth
+and you look at the gaps between them
+how far apart they are
+the gaps will will get will get larger
+and larger and they will eventually
+become um go to infinity so for example
+um eight is a power of two and nine is
+the power of three and they're adjacent
+the gap is one
+but there's but
+there's no other gap of one as it turns
+out there's there's no other
+place where a power of two and power
+three are distance one apart as as you
+keep going to bigger and bigger powers
+the gaps become bigger
+for example um 32 is a power of two
+groups
+it's a power of two and 27
+is a power three and the gap is now five
+and the gaps keep going up to infinity
+and and that is you can actually prove
+that the
+the gaps actually have to increase
+as you keep getting bigger and bigger
+and it turns out i'm not going to
+explain why but if the classic
+conjecture is true
+then this theorem has to be true as well
+you could you can prove this theorem
+using the class conjecture uh if you
+know that your that conjecture is true
+um basically if the power of two and
+power three are too close together you
+can use them to create a cycle in in the
+collat system
+uh now why is this uh an obstruction uh
+because uh we this is a difficult
+theorem i mean uh we know this assume is
+true
+um but it took a lot a lot of effort to
+prove this theorem um
+this theorem was proven in the 1970s by
+allen baker it's a special case it was
+called baker's theorem
+and baker won the fields medal
+because of this theorem actually well
+not this particular he proved a much
+stronger theorem this is just a special
+case
+um
+but um
+but this is but it was quite a difficult
+result and we don't know of any short
+proof of this theorem
+uh but if the class conjecture was true
+we would have a short proof of this
+conjecture if the class conjecture had a
+short proof
+so this suggests that the collapse
+conjecture doesn't have a short proof
+because otherwise you would be able to
+prove this theorem
+much more easily than we can right now
+okay um
+one very popular way to try to solve
+this question is to go backwards um
+so instead of trying to start with all
+these different numbers and sending them
+to one you can go back and ask what
+numbers um starting from one what
+numbers end up at one
+so for example to get to one the only
+number that that reaches one is two okay
+two you divide by two you get one and
+there's no other way to get to one and
+the only way to get to two is through
+four
+oops
+and the only way to get through four is
+either from one or uh from eight
+and the only way to get to eight is from
+16.
+uh but from 16 there are two different
+ways to get a 16. you can start with an
+odd number five
+oops multiply by 3 and add 1 and that
+gives you 16.
+or you can have 32 which is even divided
+by 2 and that gives you 16. so there are
+two ways to get to 16.
+and so you can keep backtracking and you
+can create these lovely little pictures
+here um and so
+um this diagram shows you sort of all
+the numbers that will eventually end up
+at one
+and if you can show that every single
+number shows up somewhere in this
+picture then you have proven the class
+conjecture
+but
+we we haven't proven that
+but we have partial results
+oops
+so for example
+those out about
+20 years ago uh classic governor
+nogarius uh used a computer actually to
+prove
+that um
+uh if you look at this big tree and um
+you you pick a big number x like say a
+trillion
+uh and you ask how many numbers up to a
+trillion uh are in this big tree here
+how many numbers up to x
+get
+gets sent all the way down to one
+um now the class conjecture says that
+all of the x numbers between one and x
+should go down to one uh we can't prove
+that yet uh the only the best we can do
+right now is that we can show that
+um x to the point eight four at least
+of the numbers from one to x gets sent
+uh down to one so that's a fair fraction
+like if it's x is 1 trillion
+x 0.84
+i can't do that in my head but it's
+roughly about a billion i think
+so out of the trillion numbers from one
+to a trillion maybe we can show that
+maybe a billion of them or so
+uh gets sent uh gets sent to one but we
+can't prove that all of them do
+but that's another partial result uh in
+in the direction of the conjecture
+okay um here is one of my favorite
+weirdest obstructions to in this problem
+um
+so uh
+there was this um
+mathematician in america actually he was
+one of my teachers in graduate school
+his name is john conway
+and he actually uh managed to uh
+create a computer language
+out of collage type iteration this is
+it's a really weird thing but this is
+actually something that he's very good
+at
+conway was always very good at making
+extremely weird uh
+connections in mathematics
+and he actually created a computer
+language uh
+out of these uh out of um iterations
+like cholesterol he called a factrad for
+fractional transformations
+so
+the way this language works is that you
+so
+the collapse iteration is has these two
+rules right odd numbers you multiply f3
+and you add one
+and even numbers you divide by 2.
+and so
+conway thought of this as a
+little computer program
+and you can make other rules like this
+okay so
+here is a much more complicated rule
+which is called prime
+uh if you take a number n
+uh you do a much more complicated
+procedure like if it's divisible by 91
+you divide by 91 and multiply by 17
+or if it's
+divisible by 85
+you multiply by this fraction
+okay and so on and so forth okay so um
+there's a there's about 17 steps here um
+but there's a very complicated iteration
+which is like the class conjecture just
+more complicated
+and the it the
+orbits of this of this
+program do something interesting
+so it turns out that with this funny
+little little program here
+if you start with the number two
+and you apply this
+procedure over and over again you'll get
+all kinds of numbers
+uh and every so often you'll get a power
+of two you might you'll get two cubes
+somewhere you get two to the five
+um but the um if you try to work out
+which powers of two show up in this
+orbit the powers of two that show up are
+the powers of two where the exponent is
+a prime
+so this program is actually a computer
+program for finding primes um yeah it's
+which is very strange i mean um you know
+it's uh
+this is one of the strangest computer
+languages i know uh you know most
+computer languages maybe
+you you learn you know maybe c or python
+or something you know they kind of make
+sense this is a very weird
+computer language
+but
+i just gave you a program to find primes
+and in fact this this type of language
+which is called factrad is what's called
+turing complete which basically means
+that that any program which
+a language that you're familiar with can
+can can can execute like say any python
+code or any c code
+this like this
+funny little language can also execute
+um and in particular um
+there are um
+because of this
+there are fraction programs
+where
+uh
+not only do we not know
+that
+whether certain orbits end up at one or
+not or any other target value um there
+are certain um programs and certain
+inputs where we will never know whether
+the input will ever reach a certain
+value that there are certain
+there are certain um fracturing programs
+that are what are called undecidable
+that you will never be able to prove or
+disprove that uh your sequence will ever
+reach some fixed value like one or not
+um
+there's uh
+yeah
+um
+yeah so unfortunately mathematics is
+what's called incomplete right we know
+that there are certain problems that
+would never be solved
+um
+and this was a famous result of curt
+gordell um but but but fraction is
+actually one of them that there are some
+fraction programs that are undecidable
+um
+and so what that tells you is that um
+there is not going to be a general
+recipe for for solving collateral type
+problems and the only way to solve the
+class conjecture is to use special
+properties of this of the collateration
+that are not shared by more general
+iterations uh there's no algorithm
+that's that solves all these problems
+you know when you take a high school
+math test uh
+hopefully all your teachers are kind and
+they give you questions that you can
+solve by an algorithm okay like
+you know if you wanted to to multiply
+two numbers they've given you an
+algorithm how to multiply two numbers if
+they want to solve a quadratic equation
+they're giving you a formula for solving
+the quadratic equation equation
+um but not every problem in mathematics
+is like this there are questions which
+have which have no algorithm for
+solution that there's there's no recipe
+and you have to you have to be you have
+you might be lucky and you might find
+uh just by cleverness some solution but
+but there's no recipe for doing so
+um and so the collapse problem is like
+that there's never going to be an
+algorithm that will solve all collapse
+conjecture type conjectures
+okay so
+um
+even though the conjecture is
+really difficult to prove
+um almost everyone believes it's true we
+are really really convinced it is true
+um
+and so even if we can't prove something
+is true um
+oftentimes we have good heuristics that
+give us belief that it is true
+so i want to explain why
+everyone thinks they can check almost
+everyone uh there are one or two
+exceptions but um almost everyone
+believes that this conjecture is true
+even though we can't prove it
+um
+so
+if you look up what the the this orbit
+this uh iteration does right it um it
+makes some numbers bigger and some
+numbers smaller
+um
+so when if it's odd it becomes about
+three times bigger and when it's even it
+becomes um
+half as big
+so um
+but
+if you have an odd number
+and you multiply three and you add one
+then it'll become even because all times
+r is odd plus one is even so when you
+take an odd number you apply this
+iteration it becomes even
+so the next step will always be to
+divide by two so whenever you multiply
+by three and add one you you immediately
+get smaller uh but not but it will still
+be a little bit bigger than the number
+you started with it's about it's three
+halves um roughly times as big so it's
+about fifty percent larger so it still
+gets a little bit bigger
+now this number could be even or odd
+but um
+half the time it will be even and so
+half the time you you will get an
+additional division by two
+um and then a quarter of the time you
+get um you
+you divide by two one more time and so
+forth
+um
+so it turns out that on the average um
+if you have an odd number usually you
+expect about to get about two
+two divisions by twos after every or
+every odd number
+so
+uh on average what what this sequence
+does when you multiply three typically
+you will divide by two two times and you
+would end up with a number which is only
+three quarters as big as the number you
+started with
+sometimes you don't sometimes you stop
+here and your number gets bigger but on
+the average it's
+it gets a bit smaller so every time you
+run this iteration
+from an odd number and you if you keep
+iterating until you reach the next odd
+number usually the next odd number you
+reach is about three quarters the size
+of the number you started with
+and so because of that um
+if you take a number you divide by three
+quarters over and over again three
+quarters is less than one
+and so you'd expect that eventually you
+get down to one
+um
+it's like if you go to a casino which
+you shouldn't but uh okay um
+but you know um most games on in a
+casino are rigged against you you know
+like if you play roulette um the
+expected odds of of of roulette um
+you always you expect to get less money
+out than you come in and if you keep
+playing with it over and over again
+eventually your money should go to zero
+um
+and so it's a similar situation here
+right every time you sort of spin this
+collapsed wheel you end up with a number
+which is smaller on the average than we
+started with so you should sort of um
+over time drift down
+and that's what we that's what we
+actually see happen when we plot all
+these uh collapse orbits
+and so it explains why this number three
+is important actually uh if you change
+the problem by um
+instead of three and plus one do five n
+plus one
+say um then actually every time you uh
+you you
+you run this iteration you would
+typically end up actually with a bigger
+number than what you started with and
+what happens now is is that if you
+actually plot numbers it looks like all
+the orbits go off infinity
+um
+so um
+yeah it's important that we have three
+yeah
+okay so um so that's an informal
+argument but it's not rigorous you know
+it's like when you go to the casino you
+know usually you're expected to lose
+money but maybe you just get lucky over
+and over and over again okay maybe every
+time you you go you just keep winning
+and winning and winning and maybe maybe
+there's one special orbit that goes off
+infinity while everybody else crashes to
+uh to one
+maybe
+but maybe we can prove something um
+but maybe we can prove that most orbits
+maybe go to one um
+crash and maybe we can say something we
+can say um some sort of statistical
+result that that maybe we can say that
+that almost all uh inputs get sent to
+one
+and only a few have a chance to escape
+so we might ask for a
+statistical result and there are results
+like this
+so in the 70s
+audrey terrace uh showed that
+for most numbers n um your most most of
+the time these iterations will make you
+smaller
+so uh what he showed is that for say 99
+of all numbers in the world we start
+with almost any number and you iterate
+it eventually you end up with a number
+smaller than what you started with
+so most of the time you will end up a
+little bit smaller
+now if every number had this property if
+every number
+ended up with something smaller you
+would eventually
+then you would you'd be forced to go all
+the way down to one but he showed that
+almost all numbers
+have to become a little bit smaller
+um
+okay um this was all got improved over
+the years so a few years later um alush
+actually showed that almost all numbers
+uh actually get quite a bit smaller so
+if you have a number of sites say about
+a trillion
+every number of that size eventually
+must drop
+uh when you apply this well not every
+number but almost all numbers of a
+certain size will drop become less than
+uh ends up 0.869 which is a little bit
+smaller than n
+and then um that going to improve a
+little bit later to end the point seven
+nine
+um
+so very recently i got interest in this
+problem even though i know it's
+dangerous i don't work on this problem
+all the time but i did think about this
+problem a few years ago
+um and i was able to get
+a partial result on this problem
+that um i can show i could show that
+that almost all numbers that you start
+with
+i want to get them down to one and i
+couldn't do that but i can get as close
+to 1 as i wish
+so if i take any function of n that
+grows slower than n
+say log n or log log log n but any
+function that goes infinity
+i can show that any number almost all
+numbers n will eventually end up
+smaller than say log n or smaller than
+log log n
+now i think i'm not going to explain why
+okay so yeah so uh so this is what i was
+able to show that that for example if
+you take this function log log log log n
+which is uh an extremely slowly growing
+function like i think um
+if you want this function to even get as
+big as two uh it has to be like more
+than a googleplex or something something
+humongous um
+but
+i can show that that almost all numbers
+n
+can get can uh must eventually
+be as small as this log log log log
+thing
+okay that's very very close so in some
+way this is about as close as you can
+get to the class conjecture with
+actually solving it
+which is very frustrating um
+yeah so it's like yeah it's the problem
+is just barely out of reach in some
+sense but i i the the methods i i have
+um they're based on probability um they
+have no chance at all unfortunately of
+solving uh the whole problem
+um
+so and it still remains out of reach
+i did have some slides on how
+they uh this was uh project was proven
+but i think it's a bit too advanced for
+uh
+for this talk it
+i use ideas coming from uh partial
+differential equations actually um this
+is
+a friend of mine jean-bargain who
+[Music]
+was another field mentalist actually um
+who solved uh many many problems in
+partial differential equations and i i
+used some of his his ideas
+in solving this question but i think i
+will skip the
+slides here because uh
+uh they're probably not very informative
+um
+okay i'll just say that it took about
+yeah it took 49 pages to actually prove
+this theorem
+but i won't actually uh explain why
+i think i'll maybe a stop here so thank
+you very much
+[Applause]
+you

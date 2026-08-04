@@ -1,0 +1,39 @@
+so what's the application of this for color theorem coloring Maps oh yeah
+there more than just coloring maps that we can do with the Four Color theorem
+we can do with the Four Color theorem well imagine you're planning a wedding
+wedding and you make a network of people who hate each other right so let's say
+who hate each other right so let's say you've got there's uh Grandma Margaret
+you've got there's uh Grandma Margaret right she hates Uncle Jack right and
+Uncle Jack hates your mate Steve uh Mary and Alice they hate each other and So
+and Alice they hate each other and So you you're making this network of people
+you you're making this network of people in your family who hate each other and
+you don't want two people who hate each other to be sat at the same table at the
+other to be sat at the same table at the wedding so imagine the colors represent
+wedding so imagine the colors represent different tables can I color in this
+different tables can I color in this network using different colors so that
+network using different colors so that connected points which are two people
+who hate each other are using different colors and then you can start talking
+colors and then you can start talking about
+how many tables do I need and so on in general what I'm saying is if you have a
+general what I'm saying is if you have a network and you have some property that
+network and you have some property that you don't want two connected points in
+you don't want two connected points in this network to share then you'll use
+this network to share then you'll use the fall color theorem now it would
+the fall color theorem now it would depend that your network is one of these
+depend that your network is one of these ones that you can untangle or it's not
+ones that you can untangle or it's not Tangled remember that was not a valid
+Tangled remember that was not a valid Network so what about networks that are
+Network so what about networks that are a bit more complicated maybe your
+wedding is a bit more complicated so we can extend the for color theorem
+so we can extend the for color theorem to more difficult networks so uh a
+to more difficult networks so uh a network like this
+one this is one that can't be untangled a more complicated network but this
+example can be done with five colors so we can say things like that if it's a
+network or a map that you can draw on a mobious strip instead of just on a piece
+mobious strip instead of just on a piece of paper now we're getting strange
+imagine a map on a mob strip then that can be done with six colors if it's a
+map that you had to draw on a donut or a Taurus then all maps on a Taurus can be
+Taurus then all maps on a Taurus can be done with seven colors so we can extend
+done with seven colors so we can extend the
+problem there's a really clever way to do this and this is really clever right
+to draw you a little picture for this uh so let's say you lose here and then win

@@ -1,0 +1,447 @@
+[
+  {
+    "t_start": 3.47,
+    "t_end": 4.87,
+    "text": "Well, thank you very much Caucher for being here. It's an honor to be able to"
+  },
+  {
+    "t_start": 4.87,
+    "t_end": 6.03,
+    "text": "being here. It's an honor to be able to interview you."
+  },
+  {
+    "t_start": 6.03,
+    "t_end": 7.99,
+    "text": "interview you. Uh how do you feel about winning the"
+  },
+  {
+    "t_start": 7.99,
+    "t_end": 14.23,
+    "text": "award and I hope that it will motivate some other younger people to work hard"
+  },
+  {
+    "t_start": 14.23,
+    "t_end": 15.31,
+    "text": "some other younger people to work hard and to"
+  },
+  {
+    "t_start": 15.31,
+    "t_end": 21.07,
+    "text": "get into mathematics and especially to get into my field which is birational"
+  },
+  {
+    "t_start": 21.07,
+    "t_end": 25.67,
+    "text": "You have a bit of an unusual background for a mathematician who has gone on to"
+  },
+  {
+    "t_start": 25.67,
+    "t_end": 27.31,
+    "text": "for a mathematician who has gone on to win such a prestigious award. Can you"
+  },
+  {
+    "t_start": 27.31,
+    "t_end": 28.27,
+    "text": "win such a prestigious award. Can you tell us a little bit about your"
+  },
+  {
+    "t_start": 28.27,
+    "t_end": 29.47,
+    "text": "tell us a little bit about your childhood?"
+  },
+  {
+    "t_start": 29.47,
+    "t_end": 36.43,
+    "text": "region in the west of Iran actually right on the border of Iran and Iraq."
+  },
+  {
+    "t_start": 36.43,
+    "t_end": 39.43,
+    "text": "right on the border of Iran and Iraq. The region was kind of chaotic at that"
+  },
+  {
+    "t_start": 39.43,
+    "t_end": 40.91,
+    "text": "The region was kind of chaotic at that period."
+  },
+  {
+    "t_start": 40.91,
+    "t_end": 45.91,
+    "text": "But my parents they are farmers. So that means that we could actually it was"
+  },
+  {
+    "t_start": 45.91,
+    "t_end": 47.75,
+    "text": "means that we could actually it was easier to survive because we produced"
+  },
+  {
+    "t_start": 47.75,
+    "t_end": 52.51,
+    "text": "easier to survive because we produced almost everything that we needed in the"
+  },
+  {
+    "t_start": 52.51,
+    "t_end": 53.55,
+    "text": "sense of food. It was a difficult period."
+  },
+  {
+    "t_start": 53.55,
+    "t_end": 57.43,
+    "text": "You were nevertheless exposed to math at a young age. Can you tell us a little"
+  },
+  {
+    "t_start": 57.43,
+    "t_end": 58.83,
+    "text": "a young age. Can you tell us a little bit about that and who was responsible"
+  },
+  {
+    "t_start": 58.83,
+    "t_end": 59.47,
+    "text": "bit about that and who was responsible for that?"
+  },
+  {
+    "t_start": 59.47,
+    "t_end": 64.63,
+    "text": "Fortunately I had my older brother who Haider who was also very interested in"
+  },
+  {
+    "t_start": 64.63,
+    "t_end": 67.11,
+    "text": "Haider who was also very interested in mathematics and physics and in general"
+  },
+  {
+    "t_start": 67.11,
+    "t_end": 71.67,
+    "text": "like engineering. And he also started to teach me more advanced mathematics when"
+  },
+  {
+    "t_start": 71.67,
+    "t_end": 73.91,
+    "text": "teach me more advanced mathematics when I was in middle school."
+  },
+  {
+    "t_start": 73.91,
+    "t_end": 79.55,
+    "text": "For example like calculus and that was very, very helpful for me to get into"
+  },
+  {
+    "t_start": 79.55,
+    "t_end": 80.59,
+    "text": "very, very helpful for me to get into mathematics."
+  },
+  {
+    "t_start": 80.59,
+    "t_end": 84.87,
+    "text": "You won your medal for contributions to the minimal model program in algebraic"
+  },
+  {
+    "t_start": 84.87,
+    "t_end": 88.87,
+    "text": "geometry. Can you give us a rough idea what the program is and what its major"
+  },
+  {
+    "t_start": 88.87,
+    "t_end": 90.11,
+    "text": "what the program is and what its major goals are?"
+  },
+  {
+    "t_start": 90.11,
+    "t_end": 95.47,
+    "text": "Yeah, so algebraic geometry is about studying spaces which are defined by"
+  },
+  {
+    "t_start": 95.47,
+    "t_end": 98.11,
+    "text": "studying spaces which are defined by polynomial equations. And these spaces"
+  },
+  {
+    "t_start": 98.11,
+    "t_end": 100.23,
+    "text": "polynomial equations. And these spaces we call them varieties."
+  },
+  {
+    "t_start": 100.23,
+    "t_end": 102.03,
+    "text": "we call them varieties. And roughly speaking birational"
+  },
+  {
+    "t_start": 102.03,
+    "t_end": 107.27,
+    "text": "algebraic geometry is about classifying these spaces to put them into groups up"
+  },
+  {
+    "t_start": 107.27,
+    "t_end": 109.47,
+    "text": "these spaces to put them into groups up to birational isomorphism and that just"
+  },
+  {
+    "t_start": 109.47,
+    "t_end": 112.59,
+    "text": "to birational isomorphism and that just means that you allow a little bit more"
+  },
+  {
+    "t_start": 112.59,
+    "t_end": 117.47,
+    "text": "spaces. You can modify small parts of these spaces but leaving most of it"
+  },
+  {
+    "t_start": 117.47,
+    "t_end": 120.11,
+    "text": "these spaces but leaving most of it intact. And the main goal is just to"
+  },
+  {
+    "t_start": 120.11,
+    "t_end": 122.35,
+    "text": "intact. And the main goal is just to show that in each of these classes you"
+  },
+  {
+    "t_start": 122.35,
+    "t_end": 125.11,
+    "text": "show that in each of these classes you can find um some representatives which"
+  },
+  {
+    "t_start": 125.11,
+    "t_end": 128.15,
+    "text": "can find um some representatives which are simpler in a sense than than others."
+  },
+  {
+    "t_start": 128.15,
+    "t_end": 129.87,
+    "text": "are simpler in a sense than than others. And the minimal model program is exactly"
+  },
+  {
+    "t_start": 129.87,
+    "t_end": 132.63,
+    "text": "And the minimal model program is exactly this process of finding these simpler"
+  },
+  {
+    "t_start": 132.63,
+    "t_end": 133.31,
+    "text": "this process of finding these simpler uh spaces."
+  },
+  {
+    "t_start": 133.31,
+    "t_end": 136.87,
+    "text": "What exactly have you accomplished in the classification of final varieties?"
+  },
+  {
+    "t_start": 136.87,
+    "t_end": 143.55,
+    "text": "In dimension two, there are a huge uh number of such uh varieties. And what I"
+  },
+  {
+    "t_start": 143.55,
+    "t_end": 145.71,
+    "text": "number of such uh varieties. And what I did was that in in any dimension, if you"
+  },
+  {
+    "t_start": 145.71,
+    "t_end": 148.07,
+    "text": "did was that in in any dimension, if you just put some mild conditions on their"
+  },
+  {
+    "t_start": 148.07,
+    "t_end": 149.91,
+    "text": "just put some mild conditions on their singularities, then"
+  },
+  {
+    "t_start": 149.91,
+    "t_end": 153.47,
+    "text": "uh if you look at the set of all such funnels, then they can in fact be"
+  },
+  {
+    "t_start": 153.47,
+    "t_end": 156.07,
+    "text": "funnels, then they can in fact be parameterized just by a finite number of"
+  },
+  {
+    "t_start": 156.07,
+    "t_end": 157.19,
+    "text": "parameterized just by a finite number of parameters."
+  },
+  {
+    "t_start": 157.19,
+    "t_end": 158.27,
+    "text": "parameters. And"
+  },
+  {
+    "t_start": 158.27,
+    "t_end": 164.15,
+    "text": "um you could say that you can define each of these spaces by just a fixed"
+  },
+  {
+    "t_start": 164.15,
+    "t_end": 167.07,
+    "text": "each of these spaces by just a fixed number of variables and by polynomials"
+  },
+  {
+    "t_start": 167.07,
+    "t_end": 168.87,
+    "text": "number of variables and by polynomials of degree being bounded."
+  },
+  {
+    "t_start": 168.87,
+    "t_end": 174.27,
+    "text": "You've also developed a flip, which is some sort of surgery that you"
+  },
+  {
+    "t_start": 174.27,
+    "t_end": 175.87,
+    "text": "which is some sort of surgery that you do a variety. Can you tell us a little"
+  },
+  {
+    "t_start": 175.87,
+    "t_end": 178.15,
+    "text": "do a variety. Can you tell us a little bit about what that is and why it's an"
+  },
+  {
+    "t_start": 178.15,
+    "t_end": 179.67,
+    "text": "bit about what that is and why it's an accomplishment in the field?"
+  },
+  {
+    "t_start": 179.67,
+    "t_end": 183.949,
+    "text": "Uh so a flip is one of the steps which appears in in the minimal model program,"
+  },
+  {
+    "t_start": 183.949,
+    "t_end": 189.47,
+    "text": "appears in in the minimal model program, in the in that process of"
+  },
+  {
+    "t_start": 189.47,
+    "t_end": 191.83,
+    "text": "uh taking a variety and then trying to find the simplest. This process is the"
+  },
+  {
+    "t_start": 191.83,
+    "t_end": 193.71,
+    "text": "find the simplest. This process is the it's called a minimal model program and"
+  },
+  {
+    "t_start": 193.71,
+    "t_end": 197.71,
+    "text": "it's called a minimal model program and a flip is one of these steps in this"
+  },
+  {
+    "t_start": 197.71,
+    "t_end": 205.11,
+    "text": "And a flip roughly means that you modify a smaller part of the variety."
+  },
+  {
+    "t_start": 205.11,
+    "t_end": 208.87,
+    "text": "And just to show that they exist it happened to be extremely uh difficult."
+  },
+  {
+    "t_start": 208.87,
+    "t_end": 214.27,
+    "text": "And in fact, Mori uh proved that these flips exist in dimension three and that"
+  },
+  {
+    "t_start": 214.27,
+    "t_end": 217.71,
+    "text": "flips exist in dimension three and that was one of the reasons that he got a"
+  },
+  {
+    "t_start": 217.71,
+    "t_end": 222.11,
+    "text": "And uh so I, together with my co-authors, uh Cascini, Hacon, and"
+  },
+  {
+    "t_start": 222.11,
+    "t_end": 224.75,
+    "text": "co-authors, uh Cascini, Hacon, and McKernan, we proved that this"
+  },
+  {
+    "t_start": 224.75,
+    "t_end": 226.47,
+    "text": "McKernan, we proved that this operations actually exist in in any"
+  },
+  {
+    "t_start": 226.47,
+    "t_end": 227.31,
+    "text": "operations actually exist in in any dimension."
+  },
+  {
+    "t_start": 227.31,
+    "t_end": 229.91,
+    "text": "Do you know where you're headed next with your research?"
+  },
+  {
+    "t_start": 229.91,
+    "t_end": 234.39,
+    "text": "For the moment, I think I will uh just focus on problems in birational geometry"
+  },
+  {
+    "t_start": 234.39,
+    "t_end": 236.79,
+    "text": "focus on problems in birational geometry because uh are many interesting and very"
+  },
+  {
+    "t_start": 236.79,
+    "t_end": 238.47,
+    "text": "because uh are many interesting and very difficult problems."
+  },
+  {
+    "t_start": 238.47,
+    "t_end": 243.83,
+    "text": "And but in the maybe far future, I would also look at areas nearby closely by"
+  },
+  {
+    "t_start": 243.83,
+    "t_end": 245.87,
+    "text": "also look at areas nearby closely by rational geometry. Maybe also like"
+  },
+  {
+    "t_start": 245.87,
+    "t_end": 251.87,
+    "text": "analytic geometry and uh we will see. It was a pleasure interviewing you and"
+  },
+  {
+    "t_start": 251.87,
+    "t_end": 252.79,
+    "text": "It was a pleasure interviewing you and good luck with your future."
+  },
+  {
+    "t_start": 252.79,
+    "t_end": 254.27,
+    "text": "good luck with your future. Congratulations once again."
+  },
+  {
+    "t_start": 254.27,
+    "t_end": 259.949,
+    "text": "Congratulations once again. Thank you very much for this"
+  },
+  {
+    "t_start": 262.71,
+    "t_end": 264.87,
+    "text": "ICM TV is brought to you from the 2018 International Congress of Mathematicians"
+  },
+  {
+    "t_start": 264.87,
+    "t_end": 269.47,
+    "text": "International Congress of Mathematicians in Brazil. So, for more like this, click"
+  },
+  {
+    "t_start": 269.47,
+    "t_end": 271.55,
+    "text": "on some of these great videos and don't forget to subscribe for more from the"
+  },
+  {
+    "t_start": 271.55,
+    "t_end": 273.47,
+    "text": "forget to subscribe for more from the best in science from everything from"
+  },
+  {
+    "t_start": 273.47,
+    "t_end": 275.99,
+    "text": "best in science from everything from mathematics to physics, geophysics, and"
+  },
+  {
+    "t_start": 275.99,
+    "t_end": 278.919,
+    "text": "mathematics to physics, geophysics, and engineering."
+  }
+]

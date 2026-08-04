@@ -1,0 +1,261 @@
+[
+  {
+    "id": "ku_video_e2V5U8Gwebc_17",
+    "t_start": 17.1,
+    "t_end": 108.4,
+    "type": "overview",
+    "summary": "there other little I know about Terren to because I'm a developmental to because I'm a developmental psychologist and he was part of a psychologist and he was part of a um um well you may or may not know this um um well you may or may not know this but he was a subject in a very famous la but he was a subject in a very famous la itudinal study of exceptionally gifted itudinal study of exceptionally gifted children and he scored 760 on the math 8 um and he was the youngest participant in the international mathematical started there doing that at age 10 and won his first gold medal by age 13 …"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_108",
+    "t_start": 108.4,
+    "t_end": 198.4,
+    "type": "overview",
+    "summary": "has won numerous prizes in fact I could be here all afternoon listing the prizes be here all afternoon listing the prizes but among others the Salem prize the bue but among others the Salem prize the bue prize the fields medal which is wild widely considered the top honor a mathematician can receive and now of mathematician can receive and now of course the emers prize here at course the emers prize here at Northwestern University now Terry I've heard that you've become such a regular at the math department lunch table and at the math department lunch table and have already spoken in three …"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_198",
+    "t_start": 198.4,
+    "t_end": 289.5,
+    "type": "overview",
+    "summary": "oldest subjects in mathematics you over 2,000 years old uh but we're still uh 2,000 years old uh but we're still uh working on it we've made a lot of progress but there's still a lot of problems out there that um even some problems out there that um even some that are very old that we still can't that are very old that we still can't solve but we we are we have made progress in recent years uh it's a huge subject and as I said there's thousands subject and as I said there's thousands of years of work and there's no way I can tell you everything in one hour um so this is uh this this talk is…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_289",
+    "t_start": 289.5,
+    "t_end": 381.0,
+    "type": "overview",
+    "summary": "results um which you probably know from High School um the first is the High School um the first is the fundamental FM of arithmetic uh which it fundamental FM of arithmetic uh which it first appears in uh U's elements around first appears in uh U's elements around 300 BC uh it tells you that so not every actually be split up into primes so a number like 30 is not prime but you can number like 30 is not prime but you can write it as 2 * 3 * 5 and so every write it as 2 * 3 * 5 and so every natural number can be split up as a natural number can be split up as a product of primes and there's …"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_381",
+    "t_start": 381.0,
+    "t_end": 471.5,
+    "type": "overview",
+    "summary": "the fundamental them of calcul of um arithmetic is not true because you can split up say six is 2 * 3 or 2 * 3 * 1 2 * 3 * 1 * 1 and then you no longer have * 3 * 1 * 1 and then you no longer have what's called unique factorization and what's called unique factorization and so the the fundamental theorem breaks down and we really like the fundamental theorem of arithmetic so uh so it was theorem of arithmetic so uh so it was decided at some point that we just do decided at some point that we just do not consider one to be a prime number um not consider one to be a prime number um I mean we …"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_471",
+    "t_start": 471.5,
+    "t_end": 563.4,
+    "type": "overview",
+    "summary": "them together P1 * P2 * P3 up to PN and then you add one more uh and then you get a new number so for instance if the only primes you knew which two three and only primes you knew which two three and five you multiply them together you get 30 you add one you get 31 and that's a new number it may or may not be prime um new number it may or may not be prime um but it's certainly certainly bigger than one because you added one to a number that was already bigger than was already that was already bigger than was already at least one um but it's not divis not divisible by by any of the primes an…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_563",
+    "t_start": 563.4,
+    "t_end": 655.1,
+    "type": "overview",
+    "summary": "arguments in mathematics are indirect like this redu adop sodum so these are the two fundamental theorems two basic theorems of of prime theorems two basic theorems of of prime number Theory the fundamental theorem of arithmetic and ukids Theorem the fundamental theorem remember tells us that every number can be facted into primes at least in principle um but like primes at least in principle um but like UK theem it doesn't it's it's it's um it UK theem it doesn't it's it's it's um it just tells you that every number can be factored it doesn't really tell you how uh or I mean you could Fact…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_655",
+    "t_start": 655.1,
+    "t_end": 748.0,
+    "type": "overview",
+    "summary": "do that or at least if if they do they aren't telling us um but uh okay but but aren't telling us um but uh okay but but you know the the algorithms to secure you know the the algorithms to secure ATM machines for example have never been ATM machines for example have never been cracked um I mean um I mean there are other ways to steal from Banks and so forth but but but but but cryptography forth but but but but but cryptography is not is not the weak okay so um the fundamental theorem tells you in principle that numbers can be you in principle that numbers can be factored doesn't tell you …"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_748",
+    "t_start": 748.0,
+    "t_end": 840.8,
+    "type": "overview",
+    "summary": "um I don't exactly know what it represents but it look pretty pretty so represents but it look pretty pretty so I put it as a as a background there um okay but you see so there are infin there are infin many primes but it's really hard to get your hands on a single one a single large one um it's single one a single large one um it's it's different from say the square numbers you know 1 14 n and so forth I mean it's it's very easy to find a large mean it's it's very easy to find a large square number you just take any big Square large square number but to find a large prime number it's it's …"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_840",
+    "t_start": 840.8,
+    "t_end": 932.9,
+    "type": "overview",
+    "summary": "1607 1609 twin primes we found a lot of twin primes uh the largest pair of twin twin primes uh the largest pair of twin primes ever found is is this Beast over primes ever found is is this Beast over here uh found Again by by computer search uh about 100,000 digits long for both both pairs um and as far as we know both both pairs um and as far as we know that could be the last one um you know uh we don't know whether we we we strongly believe that it continues on forever um but uh we can't prove that this that's the biggest number that we this that's the biggest number that we can actually …"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_932",
+    "t_start": 932.9,
+    "t_end": 1023.4,
+    "type": "overview",
+    "summary": "cryptography and in a type of Crypt cryptography called public key cryptography which uh secures all kinds of things yeah such as ATM machines or Internet so let me tell you what publicy cryptography is so I'll describe by an cryptography is so I'll describe by an analogy so it it secures data but rather analogy so it it secures data but rather than data let's talk something physical than data let's talk something physical um suppose you have two uh people uh and Alison Bob uh don't ask me why um and uh suppose that Alice uh has some box of of suppose that Alice uh has some box of of valuab…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_1023",
+    "t_start": 1023.4,
+    "t_end": 1116.0,
+    "type": "overview",
+    "summary": "then the uh um and then whoever is intercepting could could take the contents okay so um yeah so how do you you know if you haven't you know of course if Bob already had a key to your lock or something it would be fine but lock or something it would be fine but suppose you you've never actually suppose you you've never actually exchanged anything with Bob before you this is the first time you're communicating with Bob you want to send uh somehow a lock box and the key at the same time or without ever having any um same time or without ever having any um risk of interception so how would you…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_1116",
+    "t_start": 1116.0,
+    "t_end": 1207.3,
+    "type": "overview",
+    "summary": "so she can take off her own lock now only be's lock is on it send it back and with be lock and he has the key for that so he can unlock that okay and then he gets back the Box okay uh this is called a three pass protocol you have to called a three pass protocol you have to pass the box back three times um I understand this this protocol is actually used actually by the military sometimes yeah have some secret documents and they can't send them documents and they can't send them electronically they they they uh they actually do this um at least so I'm told okay so um yeah so if you have an E…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_1207",
+    "t_start": 1207.3,
+    "t_end": 1299.5,
+    "type": "overview",
+    "summary": "system um and it's it's it's a very similar protocol um Alice has some similar protocol um Alice has some secret number G like a credit card secret number G like a credit card number that she wants to send to to to number that she wants to send to to to Bob um so to to um to do this uh Alice and Bob have to first talk U speak publicly you know over open channels to publicly you know over open channels to agree on a very large Prime and this agree on a very large Prime and this Prime will become important bit later so Prime will become important bit later so they agree on Prime P okay and an…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_1299",
+    "t_start": 1299.5,
+    "t_end": 1390.8,
+    "type": "overview",
+    "summary": "can take a be root and and uh recover the original number okay and this this the original number okay and this this this is the protocol um and uh you need this this large p as I said before if you if you don't I said before if you if you don't scramble things using this large P then scramble things using this large P then the data that the E Shopper sees G the a the data that the E Shopper sees G the a g a b g the B uh if you use logarithms you can take that information and actually recover G from it by some actually recover G from it by some mathematics but if you have the if you have tha…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_1390",
+    "t_start": 1390.8,
+    "t_end": 1481.9,
+    "type": "overview",
+    "summary": "called the P equal NP problem which you may have heard about uh which I want to say much about here uh except to say that uh the clay math Institute back in 2000 had a um offered these seven Millennium challenge price problems for Millennium challenge price problems for what they what they consider the seven what they what they consider the seven most important problems in mathematics in it one of them is solved uh but the other six are open and this this is one other six are open and this this is one of the of the six this algorith is secure but we do have some some fairly weak partial res…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_1481",
+    "t_start": 1481.9,
+    "t_end": 1575.1,
+    "type": "overview",
+    "summary": "from about six years seven years ago okay so it's partial evidence ago okay so it's partial evidence towards the security of this algorithm okay um and more generally I mean it's it's it's it's because the the primes mix up um this algorithm like creat what looks like random noise when creat what looks like random noise when when when when you when you when you use when when when you when you when you use it and we strongly believe that that's basically all that each will see just a whole string of random random noise but whole string of random random noise but we can't prove that um yeah s…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_1575",
+    "t_start": 1575.1,
+    "t_end": 1666.0,
+    "type": "overview",
+    "summary": "number and the solid line is a plot of n log n so I mean they're not exactly the log n so I mean they're not exactly the same but they they're pretty same but they they're pretty close close um so uh there was the okay um there's a um so uh there was the okay um there's a there's a more precise formula that we there's a more precise formula that we believe to be true which is more believe to be true which is more technical I won't write down here uh the technical I won't write down here uh the statement is known as the r hypothesis statement is known as the r hypothesis which is equivalent …"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_1665",
+    "t_start": 1666.0,
+    "t_end": 1757.1,
+    "type": "overview",
+    "summary": "that you think of the primes as a as a function or you like as a wave or as a think of it as as a sound wave and and uh the precise name for the sound wave uh the precise name for the sound wave is called the bangod function and this is called the bangod function and this this is this is a wave which is loud whenever you're at a prime time and not okay at a time which is prime not prime okay at a time which is prime not prime okay and uh and quiet at other times so at time one it's it's quiet then two three four five six 7 8 9 10 11 and so three four five six 7 8 9 10 11 and so forth um oka…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_1757",
+    "t_start": 1757.1,
+    "t_end": 1851.1,
+    "type": "overview",
+    "summary": "something called the music of the primes um you can actually get sound files um you can actually get sound files listening to this music it doesn't listening to this music it doesn't actually sound very musical uh but you actually sound very musical uh but you can it can it is um okay so there are certain not and there are ones that are louder than others and the loud ones will create so much fluctuation in the graph of the nth much fluctuation in the graph of the nth Prime that the prime number three would start failing um so you have to show at some point that certain very loud notes some…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_1851",
+    "t_start": 1851.1,
+    "t_end": 1943.9,
+    "type": "overview",
+    "summary": "um so the way it works is that um every dot every so this the screen is divided dot every so this the screen is divided into pixels SCE um and the black dots are non- primes so I don't know maybe only the people in the front row can see only the people in the front row can see it but there are these two black dots in the corner that are adjacent to each other they touch each other um what the uh where's my mouse there are two right there uh that touch each other two right there uh that touch each other those are the primes two and three okay those are the primes two and three okay those are…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_1943",
+    "t_start": 1943.9,
+    "t_end": 2037.6,
+    "type": "overview",
+    "summary": "and if you look at the last digit of a prime it's always 1 37 or9 with two prime it's always 1 37 or9 with two exceptions again and five um and what exceptions again and five um and what that means is is that there are certain that means is is that there are certain so um you see this it's not just every some there these thick lines that are missing and there's also some diagonal missing and there's also some diagonal lines you can see that are missing and those are things like the mules of of three mes of five mes of of of seven three mes of five mes of of of seven those those are cutting …"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_2037",
+    "t_start": 2037.6,
+    "t_end": 2129.4,
+    "type": "overview",
+    "summary": "theorem uh it's called vinegar theorem proven in 37 by the Russian proven in 37 by the Russian mathematician Ivan vov so um it's as it has to do what numbers are the sum of three primes so numbers are the sum of three primes so since primes tend to be odd you only since primes tend to be odd you only really want to consider odd numbers really want to consider odd numbers because those those are numbers that have the best chance of being some of three primes um and his theorem is that three primes um and his theorem is that every odd number that's large enough if every odd number that's larg…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_2129",
+    "t_start": 2129.4,
+    "t_end": 2219.8,
+    "type": "overview",
+    "summary": "prove this conjecture but uh it's still a little bit some way off a little bit some way off unfortunately um okay um another theorem uh is quite famous is Chen's theorem it's the closest we have it's the nearest myth we have to the twin Prime conjecture to that there is infin many primes P such that P plus 2 is also Prime uh we can't that P plus 2 is also Prime uh we can't prove that yet um but what we can prove prove that yet um but what we can prove is sort of a near Miss uh we do know such that people two is what we call an almost Prime it's either a prime or the almost Prime it's either…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_2219",
+    "t_start": 2219.8,
+    "t_end": 2311.3,
+    "type": "overview",
+    "summary": "interested in primes up to 64 that everybody left those are all the Primes everybody left those are all the Primes remaining um and um that's that's a very remaining um and um that's that's a very simple C there are much more advanced simple C there are much more advanced cves that that give you things like the cves that that give you things like the Primes from uh more complicated Primes from uh more complicated operations than just sort of Crossing out big rows of numbers but things like that and this is this is the basic tool that and this is this is the basic tool that's used there okay…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_2311",
+    "t_start": 2311.3,
+    "t_end": 2402.7,
+    "type": "overview",
+    "summary": "of uh amateur uh number theorist actually using powerful computers to actually using powerful computers to search for progressions among other search for progressions among other things the uh the longest progression things the uh the longest progression found is of 26 and it's this enormous thing um but that's that that's the largest that's actually been found largest that's actually been found numerically we have a the that says that in principle uh this just goes on forever although we we don't say where forever although we we don't say where they are just like you could the we don't say…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_2402",
+    "t_start": 2402.7,
+    "t_end": 2495.5,
+    "type": "overview",
+    "summary": "these sort of things um yeah finding more patterns in the primes more patterns in the primes understanding how they distributed um for example um a few years ago I uh I Pro the analog of that result for what Pro the analog of that result for what was called the Garian primes which has a was called the Garian primes which has a two-dimensional or complex number version of the Prime so the primes are this onedimensional set they live on the this onedimensional set they live on the integers um there are these things integers um there are these things called the Galan integers numbers complex n…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_2495",
+    "t_start": 2495.5,
+    "t_end": 2585.5,
+    "type": "overview",
+    "summary": "you know if you give any shape like such as an umbrella well one carier the as an umbrella well one carier the points actually have to be irrational points actually have to be irrational have to be rationally coordinates uh then somewhere in in the in in this constellation you can find some some set which actually have that shape of of the umbrella somewhere in fact there will be umbrella somewhere in fact there will be infinitely many copies of that one shape infinitely many copies of that one shape um and that's actually a two-dimensional um and that's actually a two-dimensional version o…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_2585",
+    "t_start": 2585.5,
+    "t_end": 2677.2,
+    "type": "overview",
+    "summary": "can actually get information about how many of these things there are all right so you know for example we can count as as an example how many can count as as an example how many progressions are Le four Primes from 1 progressions are Le four Primes from 1 to n and there's a certain formulas it turns out uh uh from from one to n okay but uh this is a very typical thing we but uh this is a very typical thing we can prove and it has to do with with can prove and it has to do with with Dynamics on things like a Taurus which Dynamics on things like a Taurus which is a it's a nice little story b…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_2677",
+    "t_start": 2677.2,
+    "t_end": 2768.0,
+    "type": "overview",
+    "summary": "cracking codes is is that is that the is the time needed to factor a large number it's some of the mathematics is shared with the mathematics to actually find with the mathematics to actually find large primes but but the two are large primes but but the two are slightly different um yeah so this great slightly different um yeah so this great this this big internet search to find this this big internet search to find larger and larger primes that they don't larger and larger primes that they don't directly uh um um um they don't um improve our ability to actually crack uh crack codes uh oth…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_2768",
+    "t_start": 2768.0,
+    "t_end": 2861.0,
+    "type": "overview",
+    "summary": "problem with PR primes is that is that they only one degree of Freedom there's only one number P then that determines everything progressions have got two two everything progressions have got two two parameters they got their base point in the spacing it's got two two degrees of freedom and basically roughly speaking any pattern with two or more degrees of freedom we have a chance of counting um freedom we have a chance of counting um and for that there is an analogous and for that there is an analogous conjecture little with that predicts how conjecture little with that predicts how many o…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_2861",
+    "t_start": 2861.0,
+    "t_end": 2951.7,
+    "type": "overview",
+    "summary": "relative to its size it goes It goes a lot less so if you if you have a if you lot less so if you if you have a if you applied n equals a trillion then it applied n equals a trillion then it gives you the first six digits of the gives you the first six digits of the trillionth Prime accurately but not the trillionth Prime accurately but not the last six Ladi first either the gold bar um theorem or one of the clay institutes um of course of course I would be interested um you know so but it's um you you know this um you so but it's um you you know this um you know okay but I I I have no idea…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_2951",
+    "t_start": 2951.7,
+    "t_end": 3044.9,
+    "type": "overview",
+    "summary": "I don't know you know if if if I knew of then I would work on this but uh it yeah it's occupational hazard to to work too hard on on difficult problems you you hard on on difficult problems you you can actually get a little bit obsessed one so I know you've done research in a variety of areas but do you have like a variety of areas but do you have like a favorite branch of mathematics uh it favorite branch of mathematics uh it changes from year to year actually uh changes from year to year actually uh you know I I I don't know I mean it you know I I I don't know I mean it depends on what wh…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_3044",
+    "t_start": 3044.9,
+    "t_end": 3138.3,
+    "type": "overview",
+    "summary": "like log in squar that's s the guess but um uh there's a refinement there there's some funny um there's some funny extra patent that times obey which shifts that patent that times obey which shifts that by a constant I forget exactly what what by a constant I forget exactly what what the uh uh what what the uh the details are um there's a paper of of of grandor sound that that studies this but I don't sound that that studies this but I don't I don't have the details at my oh oh um like he mentioned I know you're notable one of the reasons you're notable is that you've contributed a lot in a…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_3138",
+    "t_start": 3138.3,
+    "t_end": 3228.5,
+    "type": "overview",
+    "summary": "collaborative I mean it's it's it's it used to be that there isolated people sitting in in in you know towels or something I thinking about uh really hard problems I mean there's still a little bit of that but but but really little bit of that but but but really much a lot of progress now is is just different areas bringing together tools from from many different parts of math sometimes uh besides benchmarking and cryptography what are some applications cryptography what are some applications like real applications of prime numbers I mean um okay those are the major ones um yeah I um yeah t…"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_3228",
+    "t_start": 3228.5,
+    "t_end": 3320.3,
+    "type": "overview",
+    "summary": "separate these codes are are very number theoretic and and they use properties of theoretic and and they use properties of the primes um so uh I mean it's still coding it's still cryptography in some sense but not so the classical code sense but not so the classical code breaking type um so certainly signal breaking type um so certainly signal processing these things come up hello oh um I kind of feel like the the finale is sort of a bummer because the finale is sort of a bummer because you're saying that as you go out to you're saying that as you go out to Infinity the distribution of the …"
+  },
+  {
+    "id": "ku_video_e2V5U8Gwebc_3320",
+    "t_start": 3320.3,
+    "t_end": 3383.9,
+    "type": "overview",
+    "summary": "is it's it's a sculpture which is formed by taking a big block of of granite which is like like the whole primes and then you get a big Mallet and you Lop take and then you Lop off all the um M of three and five and seven but after a of three and five and seven but after a while um you're Ling of much smaller set while um you're Ling of much smaller set the M of 37 it's much smaller set so you set and then you take out you drop your chisel and you take out a needle and you chisel and you take out a needle and you sort of take out these little smaller cheese sort of object with lots and lots…"
+  }
+]

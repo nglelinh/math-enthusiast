@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ku_video_RApkRqoiZ1I_15",
+    "t_start": 15.3,
+    "t_end": 105.7,
+    "type": "overview",
+    "summary": "hello and welcome to the 2021 fields metal symposium in honor of peter metal symposium in honor of peter schultza i'm jared weinstein professor schultza i'm jared weinstein professor of mathematics at boston university and of mathematics at boston university and it is my great pleasure and honor to be giving this introduction to schultz's work so who is peter schultza and what are his contributions to mathematics schulza was born in dresden in 1987 and early on he displayed an extraordinary talent in mathematics by winning three talent in mathematics by winning three gold medals and one sil…"
+  },
+  {
+    "id": "ku_video_RApkRqoiZ1I_105",
+    "t_start": 105.7,
+    "t_end": 196.6,
+    "type": "overview",
+    "summary": "hours a week just to discuss the ideas of this 22 year old from bonn of this 22 year old from bonn there were international conferences there were international conferences special semesters graduate student workshops and all manner of publications devoted to the topic of perfectoid devoted to the topic of perfectoid spaces anyone researching in the field of arithmetic geometry quickly realized arithmetic geometry quickly realized that schultz's dissertation on that schultz's dissertation on perfectoid spaces was perfectoid spaces was required reading in 2011 schulza himself came to the ins…"
+  },
+  {
+    "id": "ku_video_RApkRqoiZ1I_196",
+    "t_start": 196.6,
+    "t_end": 288.3,
+    "type": "overview",
+    "summary": "many people are surprised to learn that mathematical research is a thing because the math they learned in school was presented as static or already was presented as static or already solved but it's quite the opposite mathematicians will never run out of mathematicians will never run out of things to do because there are plenty of unsolved mathematical problems and mathematicians come up with more every problems in math are considered solved when a mathematician produces a formal when a mathematician produces a formal proof just like you might have done in the result of solving a mathematic…"
+  },
+  {
+    "id": "ku_video_RApkRqoiZ1I_288",
+    "t_start": 288.3,
+    "t_end": 382.6,
+    "type": "overview",
+    "summary": "we also have a definition of the basic concept of number as well as the concept concept of number as well as the concept of set in the 20th century geometers wanted to study some more complicated shapes than study some more complicated shapes than the plane the plane like this doughnut-shaped object or this alexander grotendik who won the fields medal in 1966 gave us the definition of a scheme a marvelous abstraction tying together a marvelous abstraction tying together all shapes that can be described using grodnek's concept of a scheme was essential to all kinds of breakthroughs essential…"
+  },
+  {
+    "id": "ku_video_RApkRqoiZ1I_382",
+    "t_start": 382.6,
+    "t_end": 477.8,
+    "type": "overview",
+    "summary": "solving problems brevity and simplicity are key schultz himself says that when he works on mathematics he prefers to work on mathematics he prefers to work without writing anything down that means that he must formulate his ideas in the cleanest way possible as he puts it you only have some kind of limited capacity in your head so you limited capacity in your head so you can't do two complicated things can't do two complicated things i'd like to take this idea further and a spider's brain may be too limited to grasp the large-scale structure of its web it certainly does not have the coordin…"
+  },
+  {
+    "id": "ku_video_RApkRqoiZ1I_477",
+    "t_start": 477.8,
+    "t_end": 570.1,
+    "type": "overview",
+    "summary": "let's talk about numbers for a moment everyone starts counting with what we everyone starts counting with what we call the natural numbers 1 2 3 and so forth we learn methods for adding and we learn methods for adding and multiplying natural numbers then we learn about representing numbers in between the natural numbers using in between the natural numbers using decimals and we learn how to add and decimals and we learn how to add and multiply those as well at some point we learn about numbers like pi whose decimal representation like pi whose decimal representation doesn't end but nonethel…"
+  },
+  {
+    "id": "ku_video_RApkRqoiZ1I_570",
+    "t_start": 570.1,
+    "t_end": 661.0,
+    "type": "overview",
+    "summary": "of repeating nines in which point nine repeating really is less than one it repeating really is less than one it seems simpler that way seems simpler that way but this number system has some let's continuity problems if xeno of elea wants to move one meter if xeno of elea wants to move one meter forward he will first have to move nine forward he will first have to move nine tenths of the way and then nine tenths of the remaining distance and so on but without the rule of repeating nines zeno without the rule of repeating nines zeno never makes it dropping the rule of repeated nines seems to…"
+  },
+  {
+    "id": "ku_video_RApkRqoiZ1I_661",
+    "t_start": 661.0,
+    "t_end": 752.5,
+    "type": "overview",
+    "summary": "the interplay between equations like this and the shapes they represent is an algebraic geometer might look at an equation like this and say of course that's a hyper elliptic curve of genus 2 and its solutions look like a donut with and its solutions look like a donut with two holes so far so good let's revisit the rules that govern real let's revisit the rules that govern real numbers the digits are permitted to go off to the right without end but what if we tweak the game a different way so that the digits are now different way so that the digits are now permitted to go off to the left in…"
+  },
+  {
+    "id": "ku_video_RApkRqoiZ1I_752",
+    "t_start": 752.5,
+    "t_end": 843.2,
+    "type": "overview",
+    "summary": "in the ten addict numbers there's a corresponding rule where repeating nines corresponding rule where repeating nines give you give you negative 1 irrational numbers like the square root of 41 have non-repeating decimals the same is true for the 10 attic numbers we have described the 10 attic numbers we have described the 10 attic numbers here but by working with a base other here but by working with a base other than 10 you can define the p attic than 10 you can define the p attic numbers for any base p for reasons i won't get into mathematicians usually only allow p to mathematicians usua…"
+  },
+  {
+    "id": "ku_video_RApkRqoiZ1I_843",
+    "t_start": 843.2,
+    "t_end": 939.7,
+    "type": "overview",
+    "summary": "as an example of how mind-bending periodic geometry is consider the periodic geometry is consider the following two facts every triangle is isosceles and every point within a circle is the center of point within a circle is the center of that circle that circle very strange another nice thing about real geometry is that no matter how complicated a shape may be if you take a magnifying glass and zoom in on any particular spot glass and zoom in on any particular spot the shape becomes rather simpler you could then figure out a lot about the shape by describing how these pieces the shape by de…"
+  },
+  {
+    "id": "ku_video_RApkRqoiZ1I_939",
+    "t_start": 939.7,
+    "t_end": 1031.9,
+    "type": "overview",
+    "summary": "with laurent farg is a 350 treatise entitled treatise entitled geometrization of the local langlen's it came out just a few months ago and my colleagues and i have been feverishly colleagues and i have been feverishly studying it this new work strikes a studying it this new work strikes a dagger into the heart of something dagger into the heart of something called the langlins program which is called the langlins program which is sometimes described as a grand unified sometimes described as a grand unified theory of math bringing together so many different objects in math into perfect harmo…"
+  },
+  {
+    "id": "ku_video_RApkRqoiZ1I_1031",
+    "t_start": 1031.9,
+    "t_end": 1074.5,
+    "type": "overview",
+    "summary": "things that are just out there the sense of discovering something that's there of discovering something that's there completely independently of the world mathematicians may disagree on whether math is created or discovered but they math is created or discovered but they all agree that learning writing all agree that learning writing discussing mathematics brings a powerful discussing mathematics brings a powerful sense of satisfaction and joy a large part of this joy is sharing it with a community of like-minded souls with a community of like-minded souls i myself am immensely grateful to …"
+  }
+]

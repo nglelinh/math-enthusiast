@@ -1,0 +1,261 @@
+[
+  {
+    "id": "ku_video_E-W47F9upkU_20",
+    "t_start": 20.1,
+    "t_end": 114.7,
+    "type": "overview",
+    "summary": "okay um thanks again for everyone to come and listen to me today it's a great honor to speak here in Princeton so I'm interested in the Gap stre prime and we know from the prime number theorem that the average gap between theorem that the average gap between primes of size about X is roughly log X bigger they gradually get sparer and sparer and the question that I'm going sparer and the question that I'm going to be interested in today is how small to be interested in today is how small can they be even if they get Spar and can they be even if they get Spar and sparer on average is it the c…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_114",
+    "t_start": 114.7,
+    "t_end": 205.1,
+    "type": "overview",
+    "summary": "answer should be to both of these questions and this is given by the prime questions and this is given by the prime K2 PSE conjecture so to State the K2 PSE conjecture so to State the conjecture we need a small amount of technical notation so we say a set h of positive integers is admissible if it do positive integers is admissible if it do doesn't cover all residue classes modul doesn't cover all residue classes modul only Prime so that's saying for every only Prime so that's saying for every Prime P there's some integer NP which is not congruent to any element of our fixed set of positive…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_205",
+    "t_start": 205.1,
+    "t_end": 296.1,
+    "type": "overview",
+    "summary": "conjecture that there's infinitely many pairs of primes that differ by exactly integer m in the more General case we can assign a exact value to the limit can assign a exact value to the limit for PM Plus M minus PN and for large for PM Plus M minus PN and for large values of M this grows like roughly M log M and in particular is finite for every fixed finite value of M so if we every fixed finite value of M so if we assume the prim K ho conjecture we assume the prim K ho conjecture we really know everything we want to about really know everything we want to about the two questions that I'm…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_296",
+    "t_start": 296.1,
+    "t_end": 390.5,
+    "type": "overview",
+    "summary": "Breakthrough by utang Jang who managed to end the work of goldon pins udum who to end the work of goldon pins udum who and he showed that there's infinitely and he showed that there's infinitely many pairs of primes that differ by most 70 million so we now have a complete qualitative answer to the first question qualitative answer to the first question I put up that there are infinitely many Bounder gaps between primes and we can put an explicit numerical value on the put an explicit numerical value on the sides of the gaps 70 million is a bit bigger than two but this is a huge breakthrough…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_390",
+    "t_start": 390.5,
+    "t_end": 481.7,
+    "type": "overview",
+    "summary": "to get an improved numerical result for the gaps between consecutive primes so the gaps between consecutive primes so I've been able to show that there's I've been able to show that there's infinitely many pairs of primes which infinitely many pairs of primes which differ by most 600 so 600 is still quite a lot bigger than two but we get a slightly closer I can't remember um bigger than so I guess there's two things I want to say straight away about this theorem uh say straight away about this theorem uh the first is that um Terry has also the first is that um Terry has also independently c…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_481",
+    "t_start": 481.7,
+    "t_end": 573.6,
+    "type": "overview",
+    "summary": "they have small gaps and naturally if we want to prove an arithmetic result we want to prove an arithmetic result we need some fundamental arithmetic input need some fundamental arithmetic input to help our understanding about the to help our understanding about the primes and the arithmetic input that primes and the arithmetic input that goes into the whole argument is results in Prime about primes in arithmetic progressions and the key Point here is that um we can prove actually very strong deep results about primes and strong deep results about primes and arithmetic progressions so this …"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_573",
+    "t_start": 573.6,
+    "t_end": 665.3,
+    "type": "overview",
+    "summary": "from other areas such as variational calculus and my work jang's work and the calculus and my work jang's work and the pioner work of go and pin and you do them all follow the same method okay not sure why that's okay not sure why that's happening okay uh I guess um the key happening okay uh I guess um the key breakthrough in jang's work which I'll breakthrough in jang's work which I'll mention slightly more is to improve the mention slightly more is to improve the basic arithmetic information that goes basic arithmetic information that goes into this so the key breakthrough of Bomer Freela…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_665",
+    "t_start": 665.3,
+    "t_end": 757.1,
+    "type": "overview",
+    "summary": "the basic arithmetic input that goes in for to the whole method about primes and the number of primes which are less than equal to X and in a progression so we equal to X and in a progression so we counting primes which are congruent to a counting primes which are congruent to a modular Q now it's quite easy to see that if a and Q have a common factor then there's essentially no primes in this set whatsoever so all the Primes in rest of you classes where a is co- Prime rest of you classes where a is co- Prime to Q and then the basic fistic is that the primes should be equally distributed in…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_757",
+    "t_start": 757.1,
+    "t_end": 849.9,
+    "type": "overview",
+    "summary": "distributed how strong this equid distribution holds so we have we say the distribution holds so we have we say the primes have a level of distribution primes have a level of distribution Theta if when we average over when we sum over moduleq which are less than x^ Theta we get something which is small so Theta we get something which is small so this is saying that e of Q is small on average over Q less than x^ Theta if Theta is very small this indicates only Theta is very small this indicates only a weak level of equ distribution whereas a weak level of equ distribution whereas if Theta is…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_849",
+    "t_start": 849.9,
+    "t_end": 941.0,
+    "type": "overview",
+    "summary": "conjecture now okay so that's all I'm going to say about primes and arithmetic going to say about primes and arithmetic progressions how do we translate these progressions how do we translate these results about primes in in arithmetic results about primes in in arithmetic progressions in particular the bom vard of THM into results about small gaps between PES they feel like very different objects and so the idea is to use some form of the gpy Civ method so use some form of the gpy Civ method so the basic idea here is that we fix from the basic idea here is that we fix from the outset some …"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_940",
+    "t_start": 941.0,
+    "t_end": 1033.9,
+    "type": "overview",
+    "summary": "times what it contributes to the numerator compared to what it denominator but since the weights W and a non- negative if there's a contribution which is more than m to the numerator than it is to the denominator then this means at least n plus one of these translates n plus HR must be these translates n plus HR must be Primes and therefore if we can show that s is bigger than M for all large values of n bigger than M for all large values of n then we found infinitely many values of then we found infinitely many values of n for which at least n plus one of the translates are all prime but t…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_1033",
+    "t_start": 1033.9,
+    "t_end": 1124.8,
+    "type": "overview",
+    "summary": "follow the So-Cal selberg C weights so um selberg introduced um the selberg Civ which is a very effective means of getting an very effective means of getting an getting weights which are highly getting weights which are highly concentrated on prime numbers and in concentrated on prime numbers and in particular when you looking at anything things trying to be prime this is the best method we know about having simple best method we know about having simple to estimate weights which are highly to estimate weights which are highly concentrated on prime numbers so the concentrated on prime numbe…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_1124",
+    "t_start": 1124.8,
+    "t_end": 1217.2,
+    "type": "overview",
+    "summary": "again is slightly unimportant but it's an arithmetic function times some smooth an arithmetic function times some smooth cutter function to make everything easy to estimate and it turns out that if the if we assume that the primes of level of if we assume that the primes of level of distribution Theta and we consider a distribution Theta and we consider a large admissible set then with the this large admissible set then with the this standard choice of cellb if weights we standard choice of cellb if weights we can make this ratio s of Si is roughly equal to Theta the level of distribution n…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_1217",
+    "t_start": 1217.2,
+    "t_end": 1312.2,
+    "type": "overview",
+    "summary": "Bounder gaps between primes and we prove Bounder gaps between primes if we can one if we can take Theta to be strictly bigger than half and indeed gold and pum bigger than half and indeed gold and pum showed that if you assume the prime of showed that if you assume the prime of level of distribution strictly bigger level of distribution strictly bigger than half then there are infinitely many Bounder gaps between PS However unfortunately unconditionally we only know the bombard THM that we can take value of theta less than a half and so value of theta less than a half and so unconditionally…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_1312",
+    "t_start": 1312.2,
+    "t_end": 1402.4,
+    "type": "overview",
+    "summary": "terms M plus hi which we'd like to be F and so we've used these different linear and so we've used these different linear forms and we're now looking at devices forms and we're now looking at devices of these separately it's Uncle yeah it's unclear whether silberg meant that because of whether silberg meant that because of the extra flexibility you get from the extra flexibility you get from choosing these independently or whe or choosing these independently or whe or the extra flexibility you get from the extra flexibility you get from effectively having buying more room out effectively ha…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_1412",
+    "t_start": 1412.1,
+    "t_end": 1504.2,
+    "type": "overview",
+    "summary": "um so yeah my computer shouldn't have a screen safer so um uh yeah so these weights had been looked up before selberg had mentioned looked up before selberg had mentioned the possible use of these weights and the possible use of these weights and how they should in principle improve how they should in principle improve um improve results and similarly goon um improve results and similarly goon and udum in some of their early work had also looked at very similar style multi-dimensional weights but the key multi-dimensional weights but the key thing that we the key modification is that we're …"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_1504",
+    "t_start": 1504.2,
+    "t_end": 1597.0,
+    "type": "overview",
+    "summary": "Theta / 2 time some K dimensional integral J of f in terms of our smooth integral J of f in terms of our smooth function f divided by some K dimensional function f divided by some K dimensional integral I of f in terms of our smooth function f but the key point is that J of F and I of f only depend on the size of our admissible set which is K and this smooth K dimensional function f and this smooth K dimensional function f and therefore we get an ASM totic ratio for therefore we get an ASM totic ratio for S and we want to choose a smooth S and we want to choose a smooth function f to make t…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_1596",
+    "t_start": 1597.0,
+    "t_end": 1687.3,
+    "type": "overview",
+    "summary": "over all relevant smooth choices of our function f of this ratio of two k function f of this ratio of two k dimensional integrals J of F and I of f then if it's the case that this smooth optimization result is bigger than two optimization result is bigger than two times some test integer M divided by our level of distribution Theta then it's the case that there's infinitely many the case that there's infinitely many Ines n such that at least n plus one of and so the key point that I really want to emphasize here is we started out with to emphasize here is we started out with this very arith…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_1687",
+    "t_start": 1687.3,
+    "t_end": 1766.1,
+    "type": "overview",
+    "summary": "ion value of some linear operator However unfortunately there's um two However unfortunately there's um two obstacles before we preventing us from obstacles before we preventing us from automatically using variational calculus automatically using variational calculus or solving the differential equation to um get a explicit answer the first of these is that this is a k dimensional these is that this is a k dimensional problem for arbitary K and our methods problem for arbitary K and our methods work quite well ex when we want explicit work quite well ex when we want explicit balance in a on…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_1789",
+    "t_start": 1789.5,
+    "t_end": 1881.7,
+    "type": "overview",
+    "summary": "said in my paper in terms of uh how I approached this it was very much the approached this it was very much the case that um by looking at Loni case that um by looking at Loni multipliers and such you can quite multipliers and such you can quite easily convince yourself that um the easily convince yourself that um the original gpy weights even just in the one-dimensional case shouldn't be optimal and in the K dimensional case um convince yourself that if you have a smooth function f which satisfies your smooth function f which satisfies your igen value equation then V should be igen value e…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_1883",
+    "t_start": 1883.8,
+    "t_end": 1977.1,
+    "type": "overview",
+    "summary": "yeah right so once I've made this reduction down to a one dimensional reduction down to a one dimensional Thing Once I made this restriction I'm Thing Once I made this restriction I'm no longer covering the gpy case and so no longer covering the gpy case and so it's possible that this is a bad thing it's possible that this is a bad thing to do and I'm going to do worse um yeah um yeah it's easy to see that you can put back in the gpy case and you you can put back in the gpy case and you get back exactly what gpy get but we're get back exactly what gpy get but we're now gambling and we're lo…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_1977",
+    "t_start": 1977.1,
+    "t_end": 2068.3,
+    "type": "overview",
+    "summary": "this and you find that if you restrict also the support of G to the interval 0 also the support of G to the interval 0 up to T we get that MK now just has a or squ divided by the integral G ^2 minus some small error which is going ^2 minus some small error which is going to be negligible provided the center of to be negligible provided the center of mass is strictly less than one and T is mass is strictly less than one and T is fairly small compared to K and this is now a nice simple one-dimensional optimization that has no restrictions on it and we can plug in our calculus of variation tec…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_2068",
+    "t_start": 2068.3,
+    "t_end": 2159.4,
+    "type": "overview",
+    "summary": "um if we want to make all these primes as densely concentrated as possible we as densely concentrated as possible we want to find an amble set of size K which is contained in as short of an interval as possible and it turns out it's a fun exercise that if you take the first K primes which are all bigger than first K primes which are all bigger than k then this forms an admissible set and k then this forms an admissible set and by the prime number theorem we know that by the prime number theorem we know that this is going to be contained in the this is going to be contained in the interval o…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_2159",
+    "t_start": 2159.4,
+    "t_end": 2254.3,
+    "type": "overview",
+    "summary": "numerical calculation to help us with this so well we want the basic idea is that we can look at polinomial approximations we can look at polinomial approximations to our smooth function f and it turns out that in these K dimensional integrals there's a lot of natural integrals there's a lot of natural Symmetry and so we can restrict our Symmetry and so we can restrict our attention just to symmetric functions F attention just to symmetric functions F and therefore symmetric polinomial and therefore symmetric polinomial approximations We Know by Stone V stra if we look at large enough polom…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_2254",
+    "t_start": 2254.3,
+    "t_end": 2344.6,
+    "type": "overview",
+    "summary": "expression given a choice of b i and CIS for what the two quadratic forms are which is just going to be a quadratic form in these coefficients AI so if we form in these coefficients AI so if we choose the monomials which appear in our choose the monomials which appear in our polinomial approximations we can just polinomial approximations we can just explicitly write down what the integrals explicitly write down what the integrals for J of F and I of f are in terms of these coefficients and then we have two qu I forms in these coefficients which we want to optimize the ratio of and so I righ…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_2344",
+    "t_start": 2344.6,
+    "t_end": 2438.9,
+    "type": "overview",
+    "summary": "quadratic forms and because we can do all of this analytically um it's now a all of this analytically um it's now a relatively easy calculation given our computed matrices A1 and A2 to find out what the maximum ratio of this is and in particular this ratio of two quadratic forms is maximized when a is an i Vector of a The Matrix A1 inverse A2 correspondent largest ion value and this correspondent largest ion value and this ratio here is given explicitly by the ratio here is given explicitly by the largest ion value of A1 inverse A2 so largest ion value of A1 inverse A2 so it's now just a io…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_2438",
+    "t_start": 2438.9,
+    "t_end": 2531.5,
+    "type": "overview",
+    "summary": "primes for any admissible set h of size K an um so now um again we want to find a densest now um again we want to find a densest possible admissible set but it turns out possible admissible set but it turns out that Thomas and gmer has already done that Thomas and gmer has already done several computations um and has found several computations um and has found the optimally dense admissible sets for the optimally dense admissible sets for lots of values of K and in particular lots of values of K and in particular he's shown that the densest possible he's shown that the densest possible admi…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_2531",
+    "t_start": 2531.5,
+    "t_end": 2625.0,
+    "type": "overview",
+    "summary": "have worked so if you remember before in the with the work of G and Pinson yum the fact that we could take Theta to be close to half was really a very critical close to half was really a very critical point in the method and the bomb vogr point in the method and the bomb vogr theorem is this very deep result taken theorem is this very deep result taken that we can have a level of distribution that we can have a level of distribution going up to a half but we don't need anything that strong any positive level of distribution would have worked um of distribution would have worked um absolutel…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_2624",
+    "t_start": 2625.0,
+    "t_end": 2721.1,
+    "type": "overview",
+    "summary": "we also have a certain amount of flexibility because um we can choose our flexibility because um we can choose our admissible sets to be whatever we like admissible sets to be whatever we like um provided they're sufficiently large um provided they're sufficiently large and so this gives a few amusing consequences I guess it should be mentioned that some of the amusing conse mentioned that some of the amusing conse cences were pointed out to me by Andrew cences were pointed out to me by Andrew Granville Tristan feberg and Jesse Granville Tristan feberg and Jesse thorner um so one amusing co…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_2731",
+    "t_start": 2731.3,
+    "t_end": 2823.0,
+    "type": "overview",
+    "summary": "right yeah so 71 12ths is essentially zero come just from straight from the zero dentity estimates and you can go below 712th by using Harmon style cves below 712th by using Harmon style cves where you give up an astics um but um because we have a positive Lev distribution at 712 we get um bound distribution at 712 we get um bound length intervals conveying length intervals conveying primes primes exactly um uh we can reprove some results following my Matrix method so given any following my Matrix method so given any pair of co-prime integers A and Q then pair of co-prime integers A and Q t…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_2822",
+    "t_start": 2823.0,
+    "t_end": 2916.0,
+    "type": "overview",
+    "summary": "say so maybe I'll stop there thanks a lot for lot for [Applause] so the same result works if you restrict your integers n that you looking at to your integers n that you looking at to be in any arithmetic progression so you be in any arithmetic progression so you can consider um ends where all the last 10 million digits are restricted to last 10 million digits are restricted to be ones and then you can consider the be ones and then you can consider the shifts of hi of the form 10 to the shifts of hi of the form 10 to the I um and and therefore you get I um and and therefore you get infinite…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_2916",
+    "t_start": 2916.0,
+    "t_end": 3009.2,
+    "type": "overview",
+    "summary": "thing but with um yeah there's arbitrarily large sets of primes where permutation of the digits of any other Prime and they can all be consecutive Prime and they can all be consecutive you can prove lots of sort of popular you can prove lots of sort of popular math type theor with that yeah um yeah so if I remember correctly they already had gaps of size six which they already had gaps of size six which is going to be the best you can get um yeah I thought they already had unconditionally gaps of size six with unconditionally gaps of size six with exactly two Prim exactly two Prim factors u…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_3009",
+    "t_start": 3009.2,
+    "t_end": 3105.4,
+    "type": "overview",
+    "summary": "of primes and numbers with r prime factors have weighted density log K to factors have weighted density log K to the power Rus one / k the power Rus one / k um right exactly so my methods naturally um right exactly so my methods naturally um give you an improvement of the factor have a density log k / K and numbers with two prime factors have a density with two prime factors have a density log k s ID k um and so correspondingly log k s ID k um and so correspondingly whenever they so I think Thor did their whenever they so I think Thor did their argument for numbers with exactly R argument f…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_3105",
+    "t_start": 3105.4,
+    "t_end": 3174.9,
+    "type": "overview",
+    "summary": "think of any at all because um the fact that this is a comparative Civ and you're um comparing integers in this Civ set compared to primes in this Civ set is very important for these new weights and um as I mentioned before the and um as I mentioned before the standard choice of sellberg cives is standard choice of sellberg cives is essentially optimal in most of the essentially optimal in most of the generic K dimensional um Civ situations generic K dimensional um Civ situations um I'm trying to think up I'm trying to um I'm trying to think up I'm trying to look for situations where um the…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_3200",
+    "t_start": 3200.2,
+    "t_end": 3291.8,
+    "type": "overview",
+    "summary": "um well I mean it's equivalent to the Linea in certain ranges but not in the Linea in certain ranges but not in the whole range so uh one thing I haven't hav mentioned here but Terry to has set up a polymath here but Terry to has set up a polymath project looking at optimizing optimizing project looking at optimizing optimizing the arguments I presented here so um there's the parity problem in Civ methods which very roughly speaking means that it's very hard for Civ methods to tell between a number with an methods to tell between a number with an even number of Prim factors and a number eve…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_3291",
+    "t_start": 3291.8,
+    "t_end": 3387.6,
+    "type": "overview",
+    "summary": "pairs of primes that differ by most 12 um as part of the polymath work um we've um as part of the polymath work um we've shown that if you assume a slightly shown that if you assume a slightly generalized form of the Haram conjecture generalized form of the Haram conjecture then you do get that there's infin many pairs of primes that differ by at most six so this is already it so it's this um conjecture of in the Bomer F landan paper on um in the Bomer F landan paper on um convolution sums but I guess you can think of it as not only does the harash Sham conjecture hold for does the harash S…"
+  },
+  {
+    "id": "ku_video_E-W47F9upkU_3387",
+    "t_start": 3387.6,
+    "t_end": 3480.0,
+    "type": "overview",
+    "summary": "look at 2,000 x 2000 matrices and and um throwing a a big computer at it you get throwing a a big computer at it you get down to about 264 and if you um introduce a couple of new modifications to the Civ ideas as new modifications to the Civ ideas as well you can get this down to 2502 what you do these are all provisional results that we're in the provisional results that we're in the process of writing up I process of writing up I guess um check well you can it it's relatively easy run the yeah so um I guess there's a few different big computers once you've different big computers once you…"
+  }
+]

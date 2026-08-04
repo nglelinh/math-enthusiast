@@ -1,0 +1,45 @@
+{
+  "slug": "Four_Color_Theorem",
+  "videos": [
+    {
+      "id": "NgbK43jB4rQ",
+      "title": "Numberphile — *The Four Color Map Theorem*",
+      "has_transcript": true,
+      "chars": 13274,
+      "units": 10,
+      "url": "https://www.youtube.com/watch?v=NgbK43jB4rQ"
+    },
+    {
+      "id": "h7kqlYUV1l8",
+      "title": "Quanta — *The Map Coloring Puzzle That Changed Mathematics*",
+      "has_transcript": true,
+      "chars": 8310,
+      "units": 6,
+      "url": "https://www.youtube.com/watch?v=h7kqlYUV1l8"
+    },
+    {
+      "id": "laMkuPrad3s",
+      "title": "Numberphile — Four Color extra footage",
+      "has_transcript": true,
+      "chars": 2944,
+      "units": 2,
+      "url": "https://www.youtube.com/watch?v=laMkuPrad3s"
+    },
+    {
+      "id": "83PlZ9R9_Ps",
+      "title": "Appel slides video (Illinois)",
+      "has_transcript": true,
+      "chars": 54682,
+      "units": 31,
+      "url": "https://www.youtube.com/watch?v=83PlZ9R9_Ps"
+    },
+    {
+      "id": "fPVXBurxfU8",
+      "title": "John Conway - Four Color Theorem and Computer Proofs",
+      "has_transcript": true,
+      "chars": 16413,
+      "units": 11,
+      "url": "https://www.youtube.com/watch?v=fPVXBurxfU8"
+    }
+  ]
+}

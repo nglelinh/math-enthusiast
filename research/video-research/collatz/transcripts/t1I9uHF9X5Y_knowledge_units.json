@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ku_t1I9uHF9X5Y_2",
+    "t_start": 2.6,
+    "t_end": 93.1,
+    "type": "overview",
+    "summary": "if it's odd you want to multiply by if it's odd you want to multiply by three and add one in either case take three and add one in either case take three and add one in either case take the resulting number and then the resulting number and then the resulting number and then iterate so for example if you start with iterate so for example if you start with iterate so for example if you start with three that's odd goes to 10 by the three that's odd goes to 10 by the three that's odd goes to 10 by the mapping that's even cut it in half and mapping that's even cut it in half and mapping that's eve…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_93",
+    "t_start": 93.1,
+    "t_end": 184.3,
+    "type": "overview",
+    "summary": "so any positive integer must iterate so any positive integer must iterate under this map T to one of the under this map T to one of the under this map T to one of the following so and now instead of having following so and now instead of having following so and now instead of having 421 421 forever now it'll just oscillate 421 421 forever now it'll just oscillate 421 421 forever now it'll just oscillate between two and one that's called the between two and one that's called the between two and one that's called the trivial cycle and we expect that's the trivial cycle and we expect that's the t…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_184",
+    "t_start": 184.3,
+    "t_end": 277.4,
+    "type": "overview",
+    "summary": "process and so it makes it harder to do process and so it makes it harder to do analysis on okay well as you might have analysis on okay well as you might have analysis on okay well as you might have guessed some people have looked at guessed some people have looked at guessed some people have looked at numerical investigations I have some numerical investigations I have some numerical investigations I have some various records to report in 2000 using various records to report in 2000 using various records to report in 2000 using 14.4 CPU years um just a little over 10 14.4 CPU years um just a…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_277",
+    "t_start": 277.4,
+    "t_end": 371.2,
+    "type": "overview",
+    "summary": "number so um don't don't read all this number so um don't don't read all this let me just describe it in Lay terms so let me just describe it in Lay terms so let me just describe it in Lay terms so stopping time means you start with a stopping time means you start with a stopping time means you start with a number n and the stopping time is the number n and the stopping time is the number n and the stopping time is the number of iterations you need to get number of iterations you need to get number of iterations you need to get below where you started the minimum below where you started the mi…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_371",
+    "t_start": 371.2,
+    "t_end": 461.2,
+    "type": "overview",
+    "summary": "there's a lot of nomenclature on here um there's a lot of nomenclature on here um what is the take-home message on this what is the take-home message on this what is the take-home message on this slide this statement is basically saying slide this statement is basically saying slide this statement is basically saying almost all integers have a a a finite almost all integers have a a a finite almost all integers have a a a finite stopping time almost all integers will stopping time almost all integers will stopping time almost all integers will get below where they started now that's get below …",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_461",
+    "t_start": 461.2,
+    "t_end": 553.2,
+    "type": "overview",
+    "summary": "where you started and this matches de where you started and this matches de this matches decently well with uh what this matches decently well with uh what this matches decently well with uh what is experimentally observed so you know is experimentally observed so you know is experimentally observed so you know you would expect all right on average it you would expect all right on average it you would expect all right on average it takes this many steps to get below where takes this many steps to get below where takes this many steps to get below where you started if we could prove that all yo…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_553",
+    "t_start": 553.2,
+    "t_end": 644.9,
+    "type": "overview",
+    "summary": "we're more or less multiplying by three we're more or less multiplying by three and dividing by two RN is the ratio of and dividing by two RN is the ratio of and dividing by two RN is the ratio of the number of odd iterates versus all the number of odd iterates versus all the number of odd iterates versus all all the iterates we've gotten um up to a all the iterates we've gotten um up to a all the iterates we've gotten um up to a point point point so we've we've got something there's a so we've we've got something there's a so we've we've got something there's a lower bound and there's an uppe…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_644",
+    "t_start": 644.9,
+    "t_end": 736.0,
+    "type": "overview",
+    "summary": "down to one so let's label these numbers down to one so let's label these numbers A1 A2 up to AP and we'll create this A1 A2 up to AP and we'll create this A1 A2 up to AP and we'll create this expression here notice it's a quadratic expression here notice it's a quadratic expression here notice it's a quadratic polom of the A's on top and on the polom of the A's on top and on the polom of the A's on top and on the bottom and the authors were able to bottom and the authors were able to bottom and the authors were able to prove that this ratio no matter what you prove that this ratio no matter w…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_735",
+    "t_start": 736.0,
+    "t_end": 826.9,
+    "type": "overview",
+    "summary": "um a little more complicated and each of um a little more complicated and each of these Expressions depending on which these Expressions depending on which these Expressions depending on which modulo class you're in works out to be modulo class you're in works out to be modulo class you're in works out to be an integer and he saw that this seemed an integer and he saw that this seemed an integer and he saw that this seemed to be complicated so he said what is a to be complicated so he said what is a to be complicated so he said what is a simpler problem I can build the simplest simpler problem…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_826",
+    "t_start": 826.9,
+    "t_end": 919.0,
+    "type": "overview",
+    "summary": "it didn't stop the weights um from it didn't stop the weights um from sometime in the early 90s writing a sometime in the early 90s writing a sometime in the early 90s writing a paper called my paper called my paper called my conjecture come hos got an algorithm conjecture come hos got an algorithm conjecture come hos got an algorithm everybody else got a problem I don't everybody else got a problem I don't everybody else got a problem I don't know that's yeah that's funny it's uh know that's yeah that's funny it's uh know that's yeah that's funny it's uh well maybe H doesn't have any problems…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_918",
+    "t_start": 919.0,
+    "t_end": 1009.4,
+    "type": "overview",
+    "summary": "which he's generating a cleaner portion which he's generating a cleaner portion of of that can be written like this but of of that can be written like this but of of that can be written like this but of course you know this this tree is of course you know this this tree is of course you know this this tree is going on forever and so you need a very going on forever and so you need a very going on forever and so you need a very iter it iter it iter it backwards right right so he yeah he here backwards right right so he yeah he here backwards right right so he yeah he here you see the cycle and …",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_1009",
+    "t_start": 1009.4,
+    "t_end": 1103.1,
+    "type": "overview",
+    "summary": "one but are below X and the question is one but are below X and the question is could we get this greater than or equal could we get this greater than or equal could we get this greater than or equal to X the C for some positive variable C to X the C for some positive variable C to X the C for some positive variable C and in 79 it was shown there exists a and in 79 it was shown there exists a and in 79 it was shown there exists a positive C so that this holds for x positive C so that this holds for x positive C so that this holds for x sufficiently sufficiently sufficiently large and then in 9…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_1103",
+    "t_start": 1103.1,
+    "t_end": 1193.1,
+    "type": "overview",
+    "summary": "3 this guy and for any J you can prove 3 this guy and for any J you can prove this guy and since I can make this J as this guy and since I can make this J as this guy and since I can make this J as large as I want I can get the um the the large as I want I can get the um the the large as I want I can get the um the the density to be as small as I like but density to be as small as I like but density to be as small as I like but still all of these have positive density still all of these have positive density still all of these have positive density so a question which which hung around so a qu…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_1193",
+    "t_start": 1193.1,
+    "t_end": 1284.5,
+    "type": "overview",
+    "summary": "more complicated function to evaluate more complicated function to evaluate even to if you start with 2 3 equal to 8 even to if you start with 2 3 equal to 8 even to if you start with 2 3 equal to 8 it takes 50 iterates to get down to it takes 50 iterates to get down to it takes 50 iterates to get down to too so whether this is really helpful is too so whether this is really helpful is too so whether this is really helpful is not really quite clear um what's helpful not really quite clear um what's helpful not really quite clear um what's helpful with this approach though I'll point out with t…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_1284",
+    "t_start": 1284.5,
+    "t_end": 1376.4,
+    "type": "overview",
+    "summary": "terms plus the number of odd terms plus the number of odd terms and there are other results if you terms and there are other results if you terms and there are other results if you have a cycle have a cycle have a cycle then you must have some integers and be then you must have some integers and be then you must have some integers and be able to express a number like this um able to express a number like this um able to express a number like this um the only circuit is the trivial circuit the only circuit is the trivial circuit the only circuit is the trivial circuit a Circ a one circuit means…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_1376",
+    "t_start": 1376.4,
+    "t_end": 1466.5,
+    "type": "overview",
+    "summary": "about this ratio and it forces the about this ratio and it forces the number of terms in the cycle to have number of terms in the cycle to have number of terms in the cycle to have different forms this was a result in ' different forms this was a result in ' different forms this was a result in ' 93 this was a stronger result in '97 and 93 this was a stronger result in '97 and 93 this was a stronger result in '97 and these forms which were generated were these forms which were generated were these forms which were generated were based on the lower bounds for um if I based on the lower bounds f…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_1466",
+    "t_start": 1466.5,
+    "t_end": 1557.0,
+    "type": "overview",
+    "summary": "especially if there are students in the especially if there are students in the audience um you are aware like the clay audience um you are aware like the clay audience um you are aware like the clay maath Institute has some prize problems maath Institute has some prize problems maath Institute has some prize problems things like for the remon hypothesis P things like for the remon hypothesis P things like for the remon hypothesis P versus NP um existence of solutions to versus NP um existence of solutions to versus NP um existence of solutions to navier Stokes equations but you may not navier…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_1556",
+    "t_start": 1557.0,
+    "t_end": 1647.7,
+    "type": "overview",
+    "summary": "weak 3x +1 conjecture I hope the graphic weak 3x +1 conjecture I hope the graphic helps you see what I think of as the helps you see what I think of as the helps you see what I think of as the relative strengths of these two relative strengths of these two relative strengths of these two different different different problems um and the weak 3x + one problems um and the weak 3x + one problems um and the weak 3x + one problem was proven in problem was proven in problem was proven in 2006 all right well at least at least 2006 all right well at least at least 2006 all right well at least at least…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_1647",
+    "t_start": 1647.7,
+    "t_end": 1738.9,
+    "type": "overview",
+    "summary": "conjugate to a shift map via this conjugate to a shift map via this conjugate see and I don't want you to conjugate see and I don't want you to conjugate see and I don't want you to to get get get stuck on that too much to get get get stuck on that too much to get get get stuck on that too much but there's been some interesting work but there's been some interesting work but there's been some interesting work to do with looking at this conjugacy and to do with looking at this conjugacy and to do with looking at this conjugacy and now if you look at rational numbers now if you look at rational …",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_t1I9uHF9X5Y_1738",
+    "t_start": 1738.9,
+    "t_end": 1800.8,
+    "type": "overview",
+    "summary": "dynamics to help me get some information dynamics to help me get some information about the iterates of this mapping so about the iterates of this mapping so about the iterates of this mapping so any cycle in the positive inte you can any cycle in the positive inte you can any cycle in the positive inte you can show as locally attractive if you have a show as locally attractive if you have a show as locally attractive if you have a cycle close by real numbers have to get cycle close by real numbers have to get cycle close by real numbers have to get sucked into it um there it appears to be suc…",
+    "depth": "standard"
+  }
+]

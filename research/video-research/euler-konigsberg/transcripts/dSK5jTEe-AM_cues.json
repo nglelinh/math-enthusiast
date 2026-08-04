@@ -1,0 +1,567 @@
+[
+  {
+    "t_start": 5.83,
+    "t_end": 9.1,
+    "text": "suppose I have some graph and I want to walk through this graph well what I mean"
+  },
+  {
+    "t_start": 9.1,
+    "t_end": 11.199,
+    "text": "by that is I want to start on some particular vertex I go along the edge to"
+  },
+  {
+    "t_start": 11.199,
+    "t_end": 15.129,
+    "text": "particular vertex I go along the edge to a different vertex I go along with"
+  },
+  {
+    "t_start": 15.129,
+    "t_end": 17.56,
+    "text": "different vertex and so on now there is a special name for certain types of ways"
+  },
+  {
+    "t_start": 17.56,
+    "t_end": 19.12,
+    "text": "a special name for certain types of ways that I can move through graphs like this"
+  },
+  {
+    "t_start": 19.12,
+    "t_end": 25.57,
+    "text": "that I can move through graphs like this and Euler path is one that starts at a"
+  },
+  {
+    "t_start": 25.57,
+    "t_end": 27.85,
+    "text": "vertex and it moves along through the graph where every edge is taken up"
+  },
+  {
+    "t_start": 27.85,
+    "t_end": 30.4,
+    "text": "graph where every edge is taken up exactly one time not zero not two times"
+  },
+  {
+    "t_start": 30.4,
+    "t_end": 32.619,
+    "text": "exactly one time not zero not two times every edge and the entire graph is used"
+  },
+  {
+    "t_start": 32.619,
+    "t_end": 38.169,
+    "text": "exactly once that is an Euler path and then Euler circuit is the same idea the"
+  },
+  {
+    "t_start": 38.169,
+    "t_end": 43.029,
+    "text": "then Euler circuit is the same idea the same everything has to be hit once but"
+  },
+  {
+    "t_start": 43.029,
+    "t_end": 46.66,
+    "text": "vertex so it makes a loop and then we call it an Euler circuit instead of an"
+  },
+  {
+    "t_start": 46.66,
+    "t_end": 48.369,
+    "text": "call it an Euler circuit instead of an Euler path that might start somewhere"
+  },
+  {
+    "t_start": 48.369,
+    "t_end": 52.779,
+    "text": "Euler path that might start somewhere go through and end up somewhere else"
+  },
+  {
+    "t_start": 52.779,
+    "t_end": 54.91,
+    "text": "let's see one example of this let me start at the value of a or I'll"
+  },
+  {
+    "t_start": 54.91,
+    "t_end": 58.18,
+    "text": "start at the value of a or I'll highlight I then walk down to C I walk"
+  },
+  {
+    "t_start": 58.18,
+    "t_end": 64.84,
+    "text": "over to be maybe I go back up to a I go back down to B I go down to D here I go"
+  },
+  {
+    "t_start": 64.84,
+    "t_end": 71.38,
+    "text": "back down to B I go down to D here I go baby I don't know back up to B but then"
+  },
+  {
+    "t_start": 71.38,
+    "t_end": 75.31,
+    "text": "gone along and I've used up almost all of the edges exactly once there's still"
+  },
+  {
+    "t_start": 75.31,
+    "t_end": 77.139,
+    "text": "of the edges exactly once there's still one edge that's missing this connection"
+  },
+  {
+    "t_start": 77.139,
+    "t_end": 82.48,
+    "text": "one edge that's missing this connection between D and C but how do I get there"
+  },
+  {
+    "t_start": 82.48,
+    "t_end": 88.42,
+    "text": "because right now I'm hanging out over at B and B's got every one of its five"
+  },
+  {
+    "t_start": 88.42,
+    "t_end": 89.98,
+    "text": "different edges that leaves from B is already being used it's already got to"
+  },
+  {
+    "t_start": 89.98,
+    "t_end": 93.999,
+    "text": "already being used it's already got to highlight it I've done my owner path and"
+  },
+  {
+    "t_start": 93.999,
+    "t_end": 96.399,
+    "text": "walked over them once already so if I wanted to get down to D to C I'd have to"
+  },
+  {
+    "t_start": 96.399,
+    "t_end": 99.49,
+    "text": "wanted to get down to D to C I'd have to go over an edge I've already done so in"
+  },
+  {
+    "t_start": 99.49,
+    "t_end": 102.19,
+    "text": "go over an edge I've already done so in other words I can't actually get there"
+  },
+  {
+    "t_start": 102.19,
+    "t_end": 105.7,
+    "text": "other words I can't actually get there by an Euler path or an Euler circuit so"
+  },
+  {
+    "t_start": 105.7,
+    "t_end": 107.889,
+    "text": "by an Euler path or an Euler circuit so in this particular graph at least the"
+  },
+  {
+    "t_start": 107.889,
+    "t_end": 111.31,
+    "text": "in this particular graph at least the path that I chose I wasn't able to go"
+  },
+  {
+    "t_start": 111.31,
+    "t_end": 113.26,
+    "text": "path that I chose I wasn't able to go and do everything once now you can pause"
+  },
+  {
+    "t_start": 113.26,
+    "t_end": 116.499,
+    "text": "the video if you like and see whether you can find some path that gets through"
+  },
+  {
+    "t_start": 116.499,
+    "t_end": 119.8,
+    "text": "you can find some path that gets through here that does hit everything but even"
+  },
+  {
+    "t_start": 119.8,
+    "t_end": 124.81,
+    "text": "here that does hit everything but even if you don't get a path and I didn't get"
+  },
+  {
+    "t_start": 124.81,
+    "t_end": 126.609,
+    "text": "one when I try to do it that maybe there's still somebody out there who's"
+  },
+  {
+    "t_start": 126.609,
+    "t_end": 129.13,
+    "text": "there's still somebody out there who's creative enough that could find one so"
+  },
+  {
+    "t_start": 129.13,
+    "t_end": 131.41,
+    "text": "creative enough that could find one so is it impossible well it turns out it is"
+  },
+  {
+    "t_start": 131.41,
+    "t_end": 135.46,
+    "text": "is it impossible well it turns out it is impossible we're gonna use a little ther"
+  },
+  {
+    "t_start": 135.46,
+    "t_end": 140.44,
+    "text": "this it says that if you have a graph with an Euler circuit so one that starts"
+  },
+  {
+    "t_start": 140.44,
+    "t_end": 142.78,
+    "text": "with an Euler circuit so one that starts at a vertex goes around gets back to the"
+  },
+  {
+    "t_start": 142.78,
+    "t_end": 144.88,
+    "text": "at a vertex goes around gets back to the same place of hit every edge once"
+  },
+  {
+    "t_start": 144.88,
+    "t_end": 147.79,
+    "text": "same place of hit every edge once well then every vertex in that graph"
+  },
+  {
+    "t_start": 147.79,
+    "t_end": 151.93,
+    "text": "well then every vertex in that graph must have even degree wise after so I've"
+  },
+  {
+    "t_start": 151.93,
+    "t_end": 153.58,
+    "text": "must have even degree wise after so I've given a little small portion of the"
+  },
+  {
+    "t_start": 153.58,
+    "t_end": 154.84,
+    "text": "given a little small portion of the graph it's got a vertex that has got"
+  },
+  {
+    "t_start": 154.84,
+    "t_end": 158.44,
+    "text": "edges leaving it and this is not a graph by itself but has a whole bunch of other"
+  },
+  {
+    "t_start": 158.44,
+    "t_end": 160.09,
+    "text": "by itself but has a whole bunch of other vertices around there but I just not"
+  },
+  {
+    "t_start": 160.09,
+    "t_end": 164.71,
+    "text": "show them up just gonna zoom in on this one vertex so imagine that I'm going"
+  },
+  {
+    "t_start": 164.71,
+    "t_end": 169.84,
+    "text": "through I'm doing my order circuit and I get to this particular vertex a so I"
+  },
+  {
+    "t_start": 169.84,
+    "t_end": 171.82,
+    "text": "get to this particular vertex a so I come in and maybe go along from the top"
+  },
+  {
+    "t_start": 171.82,
+    "t_end": 177.31,
+    "text": "left and I hit out this value of n okay so I've got to the a now I have to leave"
+  },
+  {
+    "t_start": 177.31,
+    "t_end": 179.17,
+    "text": "so I've got to the a now I have to leave so maybe I'll go out the bottom here so"
+  },
+  {
+    "t_start": 179.17,
+    "t_end": 182.47,
+    "text": "so maybe I'll go out the bottom here so I leave and then I go off and do a bunch"
+  },
+  {
+    "t_start": 182.47,
+    "t_end": 185.5,
+    "text": "of other stuff in the graph who knows but eventually because I want to hit"
+  },
+  {
+    "t_start": 185.5,
+    "t_end": 188.26,
+    "text": "but eventually because I want to hit every one of these edges exactly one"
+  },
+  {
+    "t_start": 188.26,
+    "t_end": 193.33,
+    "text": "time I'm gonna have to come back in and I go in and get to a again but now I'm"
+  },
+  {
+    "t_start": 193.33,
+    "t_end": 195.55,
+    "text": "I go in and get to a again but now I'm standing on a I've come in and I've gone"
+  },
+  {
+    "t_start": 195.55,
+    "t_end": 200.08,
+    "text": "standing on a I've come in and I've gone out and I've come in again and now I'm"
+  },
+  {
+    "t_start": 200.08,
+    "t_end": 202.51,
+    "text": "on a and I can't get out I'm trapped if I want to leave a I'd have to leave an"
+  },
+  {
+    "t_start": 202.51,
+    "t_end": 204.88,
+    "text": "I want to leave a I'd have to leave an edge I've already covered so I can't hit"
+  },
+  {
+    "t_start": 204.88,
+    "t_end": 208.03,
+    "text": "edge I've already covered so I can't hit it exactly once and indeed whether it"
+  },
+  {
+    "t_start": 208.03,
+    "t_end": 209.71,
+    "text": "it exactly once and indeed whether it was three or five or seven doesn't"
+  },
+  {
+    "t_start": 209.71,
+    "t_end": 214.06,
+    "text": "matter as long as you can come in and go out come and go out come and go out any"
+  },
+  {
+    "t_start": 214.06,
+    "t_end": 217.96,
+    "text": "out come and go out come and go out any number of times that you want to do this"
+  },
+  {
+    "t_start": 217.96,
+    "t_end": 220.84,
+    "text": "even property coming in coming out but if there's an odd number at some point"
+  },
+  {
+    "t_start": 220.84,
+    "t_end": 224.53,
+    "text": "trapped and you will not be able to leave and indeed this is even true of"
+  },
+  {
+    "t_start": 224.53,
+    "t_end": 226.33,
+    "text": "leave and indeed this is even true of age your starting vertex right let's say"
+  },
+  {
+    "t_start": 226.33,
+    "t_end": 228.58,
+    "text": "age your starting vertex right let's say you start there okay well now you leave"
+  },
+  {
+    "t_start": 228.58,
+    "t_end": 230.77,
+    "text": "you start there okay well now you leave and come back leave and come back leave"
+  },
+  {
+    "t_start": 230.77,
+    "t_end": 235.09,
+    "text": "and come back leave and come back leave and come back but if it's an odd number"
+  },
+  {
+    "t_start": 235.09,
+    "t_end": 239.02,
+    "text": "will not be able to come back that the Euler circuit that has to return to its"
+  },
+  {
+    "t_start": 239.02,
+    "t_end": 243.97,
+    "text": "Euler circuit that has to return to its origin is not possible by the way if you"
+  },
+  {
+    "t_start": 243.97,
+    "t_end": 245.86,
+    "text": "have an Euler path where you have a starting and ending vertex that are"
+  },
+  {
+    "t_start": 245.86,
+    "t_end": 251.59,
+    "text": "ending actually have to be odd because your first is not a go and come back"
+  },
+  {
+    "t_start": 251.59,
+    "t_end": 252.94,
+    "text": "your first is not a go and come back it's just a go"
+  },
+  {
+    "t_start": 252.94,
+    "t_end": 257.11,
+    "text": "and then everything else is going to be a come back and go come back go come"
+  },
+  {
+    "t_start": 257.11,
+    "t_end": 260.949,
+    "text": "a come back and go come back go come back and go if you're that starting"
+  },
+  {
+    "t_start": 260.949,
+    "t_end": 264.04,
+    "text": "vertex however all the ones in the middle do have to have an even degree to"
+  },
+  {
+    "t_start": 264.04,
+    "t_end": 269.14,
+    "text": "be an Euler path now I want to know that this is the statement of my theorem it's"
+  },
+  {
+    "t_start": 269.14,
+    "t_end": 269.37,
+    "text": "this is the statement of my theorem it's an"
+  },
+  {
+    "t_start": 269.37,
+    "t_end": 274.83,
+    "text": "if Ben and the contrapositive of that particular statement is that if you have"
+  },
+  {
+    "t_start": 274.83,
+    "t_end": 279.78,
+    "text": "particular statement is that if you have a graph with an odd degree any vertex at"
+  },
+  {
+    "t_start": 279.78,
+    "t_end": 282.09,
+    "text": "all if there's even one vertex with an odd degree then it's impossible then you"
+  },
+  {
+    "t_start": 282.09,
+    "t_end": 287.52,
+    "text": "odd degree then it's impossible then you do not have an Euler circuit so let's"
+  },
+  {
+    "t_start": 287.52,
+    "t_end": 291.0,
+    "text": "use that to study the particular graph that we started with well in this one"
+  },
+  {
+    "t_start": 291.0,
+    "t_end": 294.99,
+    "text": "verdicts is is going to be odd you only need one to break it but every single"
+  },
+  {
+    "t_start": 294.99,
+    "t_end": 300.75,
+    "text": "one of them is bad so indeed for this particular graph there is no possible"
+  },
+  {
+    "t_start": 300.75,
+    "t_end": 302.49,
+    "text": "particular graph there is no possible Oyler circuit that goes through it"
+  },
+  {
+    "t_start": 302.49,
+    "t_end": 306.27,
+    "text": "nor is there an Euler path two of the odd ones could become your starting and"
+  },
+  {
+    "t_start": 306.27,
+    "t_end": 308.04,
+    "text": "odd ones could become your starting and finishing ones but all the rest would"
+  },
+  {
+    "t_start": 308.04,
+    "t_end": 312.11,
+    "text": "have had to be even and they're all odd here so no boiler past no order circuits"
+  },
+  {
+    "t_start": 312.11,
+    "t_end": 315.24,
+    "text": "here so no boiler past no order circuits by the way this theorem this if then"
+  },
+  {
+    "t_start": 315.24,
+    "t_end": 318.12,
+    "text": "by the way this theorem this if then actually the converse of it is true the"
+  },
+  {
+    "t_start": 318.12,
+    "t_end": 320.49,
+    "text": "actually the converse of it is true the it's an if and only if theorem and that"
+  },
+  {
+    "t_start": 320.49,
+    "t_end": 325.26,
+    "text": "it's an if and only if theorem and that is if you have a graph which has even"
+  },
+  {
+    "t_start": 325.26,
+    "t_end": 326.82,
+    "text": "degree then it is possible to find an Euler circuit that will that argument a"
+  },
+  {
+    "t_start": 326.82,
+    "t_end": 328.32,
+    "text": "Euler circuit that will that argument a little bit more sophisticated than I'm"
+  },
+  {
+    "t_start": 328.32,
+    "t_end": 333.03,
+    "text": "little bit more sophisticated than I'm going to do in this video now let's"
+  },
+  {
+    "t_start": 333.03,
+    "t_end": 334.71,
+    "text": "return to the original problem that motivated all this graph theory and"
+  },
+  {
+    "t_start": 334.71,
+    "t_end": 336.54,
+    "text": "motivated all this graph theory and godess starting back a little while ago"
+  },
+  {
+    "t_start": 336.54,
+    "t_end": 338.52,
+    "text": "godess starting back a little while ago and that was to say that this particular"
+  },
+  {
+    "t_start": 338.52,
+    "t_end": 343.74,
+    "text": "graph that I have here it came up from this bridges of königsberg problem where"
+  },
+  {
+    "t_start": 343.74,
+    "t_end": 348.3,
+    "text": "this bridges of königsberg problem where I had this river and these two islands"
+  },
+  {
+    "t_start": 348.3,
+    "t_end": 352.83,
+    "text": "in the river and the two side and then the ABCD that those were going to be my"
+  },
+  {
+    "t_start": 352.83,
+    "t_end": 357.87,
+    "text": "masses and I could crossover via the bridges and that was going to go and"
+  },
+  {
+    "t_start": 357.87,
+    "t_end": 363.33,
+    "text": "make my graph no question was that order originally posed locked all this graph"
+  },
+  {
+    "t_start": 363.33,
+    "t_end": 365.22,
+    "text": "originally posed locked all this graph theory was can you go through these"
+  },
+  {
+    "t_start": 365.22,
+    "t_end": 367.2,
+    "text": "theory was can you go through these seven bridges of königsberg and travel"
+  },
+  {
+    "t_start": 367.2,
+    "t_end": 370.41,
+    "text": "seven bridges of königsberg and travel them exactly once unless it asking is it"
+  },
+  {
+    "t_start": 370.41,
+    "t_end": 371.94,
+    "text": "them exactly once unless it asking is it possible for you to have an Euler path"
+  },
+  {
+    "t_start": 371.94,
+    "t_end": 374.04,
+    "text": "possible for you to have an Euler path or an Euler circuit that goes through"
+  },
+  {
+    "t_start": 374.04,
+    "t_end": 378.9,
+    "text": "these and now we know that the answer is no it is not possible because every one"
+  },
+  {
+    "t_start": 378.9,
+    "t_end": 384.57,
+    "text": "no it is not possible because every one of these vertices is odd it is not"
+  }
+]

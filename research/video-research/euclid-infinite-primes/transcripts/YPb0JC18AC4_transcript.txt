@@ -1,0 +1,139 @@
+hi guys this is Jonathan Lambert with
+the mathematics development and support
+services at National College of Ireland
+and this video this is one of the videos
+that we really wanted to get to okay
+which is another video in our series of
+videos under the under topic or under
+the topic of number tiering okay and
+what we'd like to be able to show is
+that there is an infinite number of
+prime numbers okay now in a previous
+video we've defined what a prime number
+is a prime number is a number okay
+that's divisible only by itself and one
+okay and it excludes one okay if that
+makes sense okay so it excludes the
+number one it also excludes the number
+the number the number minus one okay so
+prime number is any number that's
+divisible by itself and one and in
+particular the prime numbers that we
+know of are two three five seven and so
+on and so forth okay but the question
+that we really have here is is there an
+infinite number of prime numbers now the
+proof that I'm actually going to go
+through here today is a proof that's
+based at it's actually what's known as
+Euclid's proof of the infinitude of the
+prime numbers and it's a very very
+straightforward proof it's actually
+approved by contradiction okay but I
+suppose we're going to rely upon we're
+going to rely upon uh two two previous
+okay to previous properties okay
+properties okay okay of the integers
+okay of the integers okay
+and the first property is this let's say
+property a okay is that if a divides b
+and a divides C well then a divides
+their difference it divides B minus C
+okay that's an important property and
+then the second property that we're
+going to rely upon is what's known as
+the fundamental the fundamental
+the fundamental theorem
+theorem of arithmetic of arithmetic okay
+which tells us that any number can be
+written as a product of primes yeah okay
+so all numbers let me just write this
+down here okay all integers okay okay
+okay
+can be written
+can be written as a product
+of primes
+okay that's important to me and we've
+proven this in one of our previous
+videos Okay so let's start off our proof
+and I suppose this is a proof by
+contradiction okay so it's a proof
+it's a proof by contradiction
+contradiction so we're going to
+hopefully arrive at some sort of
+contradiction okay
+so let's assume
+let's assume that the Primes
+the primes are finite okay
+okay they're finite okay so there's not
+an infinite number of them they're
+finite okay well then therefore
+therefore we can list them okay we can
+list them okay so let's list them okay
+so let's listen there's and let's list
+them in ascending order so P1
+P2 P3
+and all the way true to the nth prime
+number let's say p n okay and what we're
+going to do now is we're going to
+construct two numbers okay so we're
+going to construct we're going to
+construct
+two numbers
+okay okay
+from
+the finite
+set
+of primes okay we're going to construct
+two numbers okay
+let's call the first number that's
+called the first number P star okay so P
+let's say star and P star is simply
+equal to the product of all the Primes
+so it's equal to P1 times P2 times P3
+all the way through times p n so it's a
+product of this finite set of primes
+okay so this is one of our first numbers
+okay
+and okay let's say that we construct
+let's say p star star okay there's
+another number and what that's equal to
+is equal to the product of all the
+Primes P1 P2 P3 all the way true to p n
+plus one we add one onto the product of
+the primes okay right now
+clearly P star is written as a product
+of primes okay okay so P star is a
+product of primes okay
+and now P star star is not written as a
+product of primes it's written as a
+product of primes plus one okay okay but
+relying on the fundamental theorem of
+arithmetic okay relying on the
+fundamental theorem of arithmetic P star
+star should be able to be written as a
+product of prime numbers okay so P star
+star so relying okay okay upon the
+fundamental theorem of arithmetic let's
+call that f t a okay relying on FTA okay
+P star star okay uh should
+be
+we should be able to write okay P star
+star as a product
+of primes let's keep that in mind okay
+okay so now we have two numbers okay
+okay we have a p star which is P1 times
+P2 times P3 all the way through to PN
+and we have P star star which is a
+product
+of primes okay okay so it's a product of
+primes okay now
+and because P star star is a product of
+primes okay okay well then there must be
+some Prime in our list of primes okay
+that divide P star star and divides P
+star okay
+clearly okay that Prime has to be one of
+the primes P one p two P three up to p n
+okay okay so clearly so let's choose
+okay

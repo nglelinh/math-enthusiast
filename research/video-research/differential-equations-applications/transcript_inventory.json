@@ -1,0 +1,29 @@
+{
+  "slug": "differential-equations-applications",
+  "videos": [
+    {
+      "id": "p_di4Zn4wz4",
+      "title": "3Blue1Brown / related dynamics visuals",
+      "has_transcript": true,
+      "chars": 26148,
+      "units": 18,
+      "url": "https://www.youtube.com/watch?v=p_di4Zn4wz4"
+    },
+    {
+      "id": "4X0SGGrXDiI",
+      "title": "Strang — First-order equations (2.087 sample)",
+      "has_transcript": true,
+      "chars": 45198,
+      "units": 52,
+      "url": "https://www.youtube.com/watch?v=4X0SGGrXDiI"
+    },
+    {
+      "id": "PVo1mHnU7WU",
+      "title": "Logistic Map Explained (Strogatz Ch.10 culture) — Shane Ross lectures / Cornell culture",
+      "has_transcript": true,
+      "chars": 13339,
+      "units": 12,
+      "url": "https://www.youtube.com/watch?v=PVo1mHnU7WU"
+    }
+  ]
+}

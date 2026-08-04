@@ -1,0 +1,392 @@
+[
+  {
+    "t_start": 7.76,
+    "t_end": 9.68,
+    "text": "this video is sponsored by brilliant let me show you five proves that the square"
+  },
+  {
+    "t_start": 9.68,
+    "t_end": 12.16,
+    "text": "me show you five proves that the square root of 2 is an irrational number"
+  },
+  {
+    "t_start": 12.16,
+    "t_end": 15.799,
+    "text": "root of 2 is an irrational number proof 1 this is the classical proof"
+  },
+  {
+    "t_start": 15.799,
+    "t_end": 21.14,
+    "text": "assume that we can write root 2 as the fraction a over B where a and B are"
+  },
+  {
+    "t_start": 21.14,
+    "t_end": 23.21,
+    "text": "fraction a over B where a and B are positive integers and it's in lowest"
+  },
+  {
+    "t_start": 23.21,
+    "t_end": 25.45,
+    "text": "positive integers and it's in lowest form so there are no common factors"
+  },
+  {
+    "t_start": 25.45,
+    "t_end": 28.55,
+    "text": "form so there are no common factors cross multiply and square both sides to"
+  },
+  {
+    "t_start": 28.55,
+    "t_end": 31.52,
+    "text": "cross multiply and square both sides to get 2 B squared equals a squared since"
+  },
+  {
+    "t_start": 31.52,
+    "t_end": 33.68,
+    "text": "get 2 B squared equals a squared since the left side is even the right side"
+  },
+  {
+    "t_start": 33.68,
+    "t_end": 39.59,
+    "text": "must also be even making a an even number this means a equals 2 C for some"
+  },
+  {
+    "t_start": 39.59,
+    "t_end": 42.439,
+    "text": "number this means a equals 2 C for some integer C substituting this in and"
+  },
+  {
+    "t_start": 42.439,
+    "t_end": 45.11,
+    "text": "integer C substituting this in and simplifying produces B squared equals 2"
+  },
+  {
+    "t_start": 45.11,
+    "t_end": 52.819,
+    "text": "new equation is even this means that the left side is also even and so B is even"
+  },
+  {
+    "t_start": 52.819,
+    "t_end": 58.129,
+    "text": "left side is also even and so B is even now we have that a and B are both even"
+  },
+  {
+    "t_start": 58.129,
+    "t_end": 63.139,
+    "text": "that they have no common factors this means that we can't write root 2 as a"
+  },
+  {
+    "t_start": 63.139,
+    "t_end": 70.459,
+    "text": "over B so it is irrational prove 2 if a and B are any two positive integers then"
+  },
+  {
+    "t_start": 70.459,
+    "t_end": 72.59,
+    "text": "and B are any two positive integers then a squared must contain an even number of"
+  },
+  {
+    "t_start": 72.59,
+    "t_end": 75.44,
+    "text": "a squared must contain an even number of twos as factors while to be squared"
+  },
+  {
+    "t_start": 75.44,
+    "t_end": 78.109,
+    "text": "twos as factors while to be squared contains an odd number of twos this"
+  },
+  {
+    "t_start": 78.109,
+    "t_end": 80.569,
+    "text": "contains an odd number of twos this means that a squared and 2b squared must"
+  },
+  {
+    "t_start": 80.569,
+    "t_end": 85.52,
+    "text": "means that a squared and 2b squared must be different and so differ by at least"
+  },
+  {
+    "t_start": 85.52,
+    "t_end": 88.58,
+    "text": "one now let's do some algebra with root 2 minus a over B multiply the top and"
+  },
+  {
+    "t_start": 88.58,
+    "t_end": 94.099,
+    "text": "bottom by root 2 plus a over B now simplify the numerator than the whole"
+  },
+  {
+    "t_start": 94.099,
+    "t_end": 99.2,
+    "text": "expression from our earlier work we know that the numerator is greater than or"
+  },
+  {
+    "t_start": 99.2,
+    "t_end": 101.48,
+    "text": "that the numerator is greater than or equal to 1 hence we have this inequality"
+  },
+  {
+    "t_start": 101.48,
+    "t_end": 105.23,
+    "text": "equal to 1 hence we have this inequality this expression is certainly positive so"
+  },
+  {
+    "t_start": 105.23,
+    "t_end": 110.06,
+    "text": "this expression is certainly positive so we have shown that root 2 cannot equal a"
+  },
+  {
+    "t_start": 110.06,
+    "t_end": 115.819,
+    "text": "information about how close root 2 is to any rational number while some of you"
+  },
+  {
+    "t_start": 115.819,
+    "t_end": 118.219,
+    "text": "any rational number while some of you like algebraic proofs I know that many"
+  },
+  {
+    "t_start": 118.219,
+    "t_end": 120.559,
+    "text": "like algebraic proofs I know that many of you prefer geometry so let's do a"
+  },
+  {
+    "t_start": 120.559,
+    "t_end": 124.279,
+    "text": "of you prefer geometry so let's do a couple of geometric proofs proof 3 the"
+  },
+  {
+    "t_start": 124.279,
+    "t_end": 129.32,
+    "text": "next proof realizes that if root 2 can be written as the over B in lowest form"
+  },
+  {
+    "t_start": 129.32,
+    "t_end": 131.45,
+    "text": "be written as the over B in lowest form then we can make this right isosceles"
+  },
+  {
+    "t_start": 131.45,
+    "t_end": 134.84,
+    "text": "then we can make this right isosceles triangle with sides a and B first split"
+  },
+  {
+    "t_start": 134.84,
+    "t_end": 136.91,
+    "text": "triangle with sides a and B first split the hypotenuse into two parts"
+  },
+  {
+    "t_start": 136.91,
+    "t_end": 142.79,
+    "text": "link's B and a minus B then create this smaller triangle after drawing the"
+  },
+  {
+    "t_start": 142.79,
+    "t_end": 147.14,
+    "text": "dashed line note that the two yellow triangles are congruent so these sides"
+  },
+  {
+    "t_start": 147.14,
+    "t_end": 148.85,
+    "text": "triangles are congruent so these sides match and we can solve for the"
+  },
+  {
+    "t_start": 148.85,
+    "t_end": 151.43,
+    "text": "match and we can solve for the hypotenuse of the purple triangle this"
+  },
+  {
+    "t_start": 151.43,
+    "t_end": 153.199,
+    "text": "hypotenuse of the purple triangle this gives us a smaller right isosceles"
+  },
+  {
+    "t_start": 153.199,
+    "t_end": 155.38,
+    "text": "gives us a smaller right isosceles triangle with integer sides"
+  },
+  {
+    "t_start": 155.38,
+    "t_end": 157.55,
+    "text": "triangle with integer sides contradicting the earlier assumption"
+  },
+  {
+    "t_start": 157.55,
+    "t_end": 164.09,
+    "text": "contradicting the earlier assumption about lowest form proof for here's"
+  },
+  {
+    "t_start": 164.09,
+    "t_end": 169.76,
+    "text": "assume root two is a over B in lowest form written as 2b squared equals a"
+  },
+  {
+    "t_start": 169.76,
+    "t_end": 172.31,
+    "text": "form written as 2b squared equals a squared represent this equation as one"
+  },
+  {
+    "t_start": 172.31,
+    "t_end": 175.55,
+    "text": "squared represent this equation as one large square having the same area as two"
+  },
+  {
+    "t_start": 175.55,
+    "t_end": 180.68,
+    "text": "identical squares if the two smaller squares are moved inside the big square"
+  },
+  {
+    "t_start": 180.68,
+    "t_end": 183.199,
+    "text": "squares are moved inside the big square then the overlapping area must equal the"
+  },
+  {
+    "t_start": 183.199,
+    "t_end": 188.39,
+    "text": "then the overlapping area must equal the uncovered area this means that the Blue"
+  },
+  {
+    "t_start": 188.39,
+    "t_end": 190.85,
+    "text": "Square has the same area as the two identical red squares implying that a"
+  },
+  {
+    "t_start": 190.85,
+    "t_end": 197.99,
+    "text": "over B is not in lowest form and proof 5 a continued fraction is a way to write a"
+  },
+  {
+    "t_start": 197.99,
+    "t_end": 200.3,
+    "text": "a continued fraction is a way to write a rational number as a combination of"
+  },
+  {
+    "t_start": 200.3,
+    "t_end": 202.91,
+    "text": "rational number as a combination of several fractions and each numerator is"
+  },
+  {
+    "t_start": 202.91,
+    "t_end": 207.68,
+    "text": "several fractions and each numerator is a one it is known that every rational"
+  },
+  {
+    "t_start": 207.68,
+    "t_end": 210.35,
+    "text": "number has a unique finite continued fraction representation now let's start"
+  },
+  {
+    "t_start": 210.35,
+    "t_end": 215.15,
+    "text": "fraction representation now let's start with this equation since root two plus"
+  },
+  {
+    "t_start": 215.15,
+    "t_end": 217.34,
+    "text": "one appears as both the left side and again in the denominator on the right"
+  },
+  {
+    "t_start": 217.34,
+    "t_end": 222.199,
+    "text": "again in the denominator on the right this means that root two plus one cannot"
+  },
+  {
+    "t_start": 222.199,
+    "t_end": 224.06,
+    "text": "have a finite representation but actually goes on forever as this"
+  },
+  {
+    "t_start": 224.06,
+    "t_end": 227.24,
+    "text": "actually goes on forever as this infinite continued fraction so root 2"
+  },
+  {
+    "t_start": 227.24,
+    "t_end": 233.69,
+    "text": "plus 1 cannot be rational and so root 2 itself is also irrational if you want to"
+  },
+  {
+    "t_start": 233.69,
+    "t_end": 235.67,
+    "text": "itself is also irrational if you want to see many other proofs at root 2 is"
+  },
+  {
+    "t_start": 235.67,
+    "t_end": 239.12,
+    "text": "see many other proofs at root 2 is irrational go to cut the not org so"
+  },
+  {
+    "t_start": 239.12,
+    "t_end": 242.35,
+    "text": "irrational go to cut the not org so which of these is your favorite proof"
+  },
+  {
+    "t_start": 242.35,
+    "t_end": 245.66,
+    "text": "which of these is your favorite proof this video was sponsored by brilliant I"
+  },
+  {
+    "t_start": 245.66,
+    "t_end": 249.41,
+    "text": "this video was sponsored by brilliant I hope you could see in this video that"
+  },
+  {
+    "t_start": 249.41,
+    "t_end": 251.66,
+    "text": "appreciating the beauty of mathematics is a big motivator for me"
+  },
+  {
+    "t_start": 251.66,
+    "t_end": 254.12,
+    "text": "is a big motivator for me brilliant captures the spirit in their"
+  },
+  {
+    "t_start": 254.12,
+    "t_end": 256.789,
+    "text": "brilliant captures the spirit in their online courses and puzzles their course"
+  },
+  {
+    "t_start": 256.789,
+    "t_end": 258.62,
+    "text": "online courses and puzzles their course on problem solving is filled with"
+  },
+  {
+    "t_start": 258.62,
+    "t_end": 260.93,
+    "text": "on problem solving is filled with intriguing conundrums but you can also"
+  },
+  {
+    "t_start": 260.93,
+    "t_end": 262.909,
+    "text": "intriguing conundrums but you can also learn plenty of other cool stuff with"
+  },
+  {
+    "t_start": 262.909,
+    "t_end": 265.61,
+    "text": "learn plenty of other cool stuff with courses on logic calculus group theory"
+  },
+  {
+    "t_start": 265.61,
+    "t_end": 270.76,
+    "text": "and much more I've gone through some of this myself and the part that's annoying"
+  },
+  {
+    "t_start": 270.76,
+    "t_end": 277.689,
+    "text": "and I spent more time thinking about the problems and I had planned to learn more"
+  },
+  {
+    "t_start": 277.689,
+    "t_end": 285.159,
+    "text": "slash tipping point math and sign up for free and as a bonus to tipping point"
+  },
+  {
+    "t_start": 285.159,
+    "t_end": 289.49,
+    "text": "math viewers the first 200 people that go to that link will get 20% off the"
+  },
+  {
+    "t_start": 289.49,
+    "t_end": 293.01,
+    "text": "annual premium subscription [Music]"
+  }
+]

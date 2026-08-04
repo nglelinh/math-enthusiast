@@ -1,0 +1,212 @@
+[
+  {
+    "id": "ku_video_KgcDTcAwLJA_18",
+    "t_start": 18.5,
+    "t_end": 111.3,
+    "type": "overview",
+    "summary": "so I'll be talking about some work um with David Colin from Oxford and Jacob with David Colin from Oxford and Jacob Fox from MIT so 10 years ago green and Terry T proved their remarkable theorem that the proved their remarkable theorem that the prime numbers contain arbitrarily long prime numbers contain arbitrarily long arithmetic progressions so I remember arithmetic progressions so I remember first hearing about this term when I was still high school student and being quite excited such a simple sounding quite excited such a simple sounding result but of course the proof is very very dee…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_111",
+    "t_start": 111.3,
+    "t_end": 203.5,
+    "type": "overview",
+    "summary": "directly imply green to theorem and in fact even the best quantitative bounds fact even the best quantitative bounds on S THM known today are not quite enough to prove the green tow themm directly although for the three- term directly although for the three- term case the best bounds due to Tom Sanders enough it is a famous conjecture of ERS that the density of the primes alone that the density of the primes alone should imply that they contain long should imply that they contain long arithmetic progressions but that's um still an open conjecture and that's something that know people would …"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_203",
+    "t_start": 203.5,
+    "t_end": 294.5,
+    "type": "overview",
+    "summary": "relative similarity property meaning that every subset of s of positive arithmetic progression s so this is their main technical result in their work in the Second Step they construct such a pseudo random host or starting such a pseudo random host or starting from the primes they construct this super set of primes or more generally a major Rising measure which satisfies the major Rising measure which satisfies the desired pseudo Randomness conditions and for this part uh they borrow ideas from a the time recent works of ghern and yum a the time recent works of ghern and yum on uh small gaps…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_294",
+    "t_start": 294.5,
+    "t_end": 385.7,
+    "type": "overview",
+    "summary": "to guarantee such a consequence of having you know uh dense subsets having you know uh dense subsets containing long APS so can you do with weaker and more natural pseudo Randomness conditions on natural pseudo Randomness conditions on the host set and our main result is that you can in fact completely get rid of this in fact completely get rid of this correlation condition and we can use a correlation condition and we can use a much weaker form of green to's linear much weaker form of green to's linear forms condition and I'll explain what forms condition and I'll explain what our linear f…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_385",
+    "t_start": 385.7,
+    "t_end": 477.4,
+    "type": "overview",
+    "summary": "progressions the this probability is the correct threshold so for p above 1 /are correct threshold so for p above 1 /are root of n you have this property and for p much less than that you don't have that breakthrough uh a few years ago by Colin goers and independently shock where they goers and independently shock where they resolved this problem in general for Co resolved this problem in general for Co K term arithmetic progressions so this K term arithmetic progressions so this is in the random case uh in this talk I will only talk about the pseudo random case and as I about the pseudo ra…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_477",
+    "t_start": 477.4,
+    "t_end": 567.8,
+    "type": "overview",
+    "summary": "then it contains a sublinear number of elements it will be somewhat easier to work in Zod n because of the CC group structure and roughly these two settings structure and roughly these two settings are the same the only difference is that are the same the only difference is that in Zod n you're allowed wrap arounds the three piece could wrap around zero but there's a standard trick to get rid of there's a standard trick to get rid of that which is to if you start with one to end then you bet embed this in a slightly larger cular group so that wraparounds no longer cause an issue so for our …"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_567",
+    "t_start": 567.8,
+    "t_end": 659.8,
+    "type": "overview",
+    "summary": "a and between x uh between Y and Z if minus Yus 2 Z is in a okay so these are minus Yus 2 Z is in a okay so these are just the rules for putting in the edges okay so why do I put in these edges why do I choose these three linear because if I think about what are the triangles in this graph so when do vertices X Y and Z form a triangle they form a triangle if and only if these form a triangle if and only if these three linear forms are all in my set a so that's just reading off the rules but these three Expressions notice rules but these three Expressions notice that they form a three- term …"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_659",
+    "t_start": 659.8,
+    "t_end": 752.1,
+    "type": "overview",
+    "summary": "triangles and in particular particular what notice is that every Edge in this graph is contained in exactly one triangle namely the one that completes triangle namely the one that completes the equation x + y + z equals to which has 3 n vertices 3 n * a edges so think of there a k graph so there are a think of there a k graph so there are a edges between so coming out of every edges between so coming out of every vertex between every two vertex sets and vertex between every two vertex sets and every Edge is in exactly one every Edge is in exactly one triangle and there's a nice result of Ri…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_752",
+    "t_start": 752.1,
+    "t_end": 845.6,
+    "type": "overview",
+    "summary": "explain what is the pseudo Randomness condition that we use in relative samur condition that we use in relative samur in particular relative Roth so rout of rosm for us says the following if I start with a subset of Z following if I start with a subset of Z mod M which satisfies what I will mod M which satisfies what I will explain a three linear forms condition then a subset of it which is 3 ap3 contains a uh a has necess to be ap3 contains a uh a has necess to be sparse relatively speaking to the host set and what is this three linear forms condition well if I start with this scph conditi…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_845",
+    "t_start": 845.6,
+    "t_end": 936.9,
+    "type": "overview",
+    "summary": "power up to 1 plus to one multiplicative correction we need just a bit more we want to say that not just for k222 but also all subgraphs of k222 for k222 but also all subgraphs of k222 for example this thing should also have the example this thing should also have the correct number of embeddings but that's correct number of embeddings but that's it so just saying that these subgraphs it so just saying that these subgraphs have the correct number of embeddings have the correct number of embeddings that's all the pseudo Randomness that's all the pseudo Randomness conditions that we need and …"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_936",
+    "t_start": 936.9,
+    "t_end": 1029.4,
+    "type": "overview",
+    "summary": "to um this type of result is that if I want to study some extrem or Ry type want to study some extrem or Ry type result about a graph H so for the purpose of Ross theorem H is a triangle as I we saw earlier in the in the graph as I we saw earlier in the in the graph theoretic proof of Ross theem so if I theoretic proof of Ross theem so if I want to know some extremal results about want to know some extremal results about the triangle in a sparse graph then I the triangle in a sparse graph then I have everything I need provided that have everything I need provided that there is some host gra…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_1029",
+    "t_start": 1029.4,
+    "t_end": 1120.1,
+    "type": "overview",
+    "summary": "four parti a three uniform hyper graph so all the vertex sets are Z mod so all the vertex sets are Z mod n i putting my edges according to these n i putting my edges according to these rules know very similar to the rules rules know very similar to the rules that we saw earlier and so these rules are chosen so that uh these linear forms they form a that uh these linear forms they form a four-term arithmetic progression so just four-term arithmetic progression so just like what we saw earlier and the pseudo Randomness condition is that this graph constructed here this hypergraph constructed …"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_1120",
+    "t_start": 1120.1,
+    "t_end": 1215.6,
+    "type": "overview",
+    "summary": "gets bit more clumsier which is why I don't want to talk about longer APS but don't want to talk about longer APS but the substance of the proof is all the substance of the proof is all contained in what I will explain for contained in what I will explain for three term arithmetic progressions so three term arithmetic progressions so I'll just do three term from that one okay um so there's a couple of different different approaches we first arrived at this um in this paper that titled a relative sumity theorem where we transfer the hypergraph removal Lum so this is one of the ways of provin…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_1215",
+    "t_start": 1215.6,
+    "t_end": 1308.0,
+    "type": "overview",
+    "summary": "that is that if I fix a Delta then any such set with at least density Delta such set with at least density Delta should contain a three- term arithmetic should contain a three- term arithmetic progression provided it's always n is progression provided it's always n is large enough it will be helpful and there's a standard averaging argument to go from version where I get not just one 3ap but many 3 APS a quadratic number of 3 APS many 3 APS a quadratic number of 3 APS okay so this is a a fairly standard okay so this is a a fairly standard argument roughly goes like this if I start with a se…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_1310",
+    "t_start": 1310.3,
+    "t_end": 1407.0,
+    "type": "overview",
+    "summary": "s and then there will be another step called a counting LMA which will tell us called a counting LMA which will tell us that if a TOA is a good approximation that if a TOA is a good approximation for a then the number of three term in a will be similar to that in a Tilda once you do the appropriate normalization but we know from the counting version of Ross theorem that counting version of Ross theorem that because a TAA is a dense set that a TAA APS and this would then imply that a also contains many 3 APS and that also contains many 3 APS and that basically concludes the proof of the basi…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_1406",
+    "t_start": 1407.0,
+    "t_end": 1498.9,
+    "type": "overview",
+    "summary": "function f right so this expression here so where if f is a indicator function of a set and this is precisely the 3 AP density and the 3 AP density in the function f is at least C provided end is large enough so this is just the uh the large enough so this is just the uh the weighted relaxation of the usual convenient to use this for a couple of reasons one is that in the proof having reasons one is that in the proof having weights really helps the second reason is that if you actually want to prove the green t the about primes it would be the green t the about primes it would be much bette…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_1498",
+    "t_start": 1498.9,
+    "t_end": 1588.8,
+    "type": "overview",
+    "summary": "dense subset will then correspond to a function f which is measured by new so this is the condition that corresponds to being a corresponds to being a subset and F will also have expectation at least Delta so this the condition that least Delta so this the condition that corresponds to being relatively dense then a relative rosm says the following yeah questions okay um so so here's a statement of a relative Ross statement of a relative Ross theem if I have a major Rising measure new which satisfies the three linear forms condition so this is basically the k222 condition that I mentioned ea…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_1592",
+    "t_start": 1592.5,
+    "t_end": 1683.6,
+    "type": "overview",
+    "summary": "normalized by theity ah so everything is already normalized so you should think already normalized so you should think of this as having constant expectation of this as having constant expectation word right so so that's why there's no word right so so that's why there's no normalization it's already part of the normalization yeah so f is not just indicator function but normalized in the indicator function but normalized in the same way that new is so the three linear forms condition basically says that the density of k222 basically says that the density of k222 in this weighted graph right…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_1683",
+    "t_start": 1683.6,
+    "t_end": 1775.0,
+    "type": "overview",
+    "summary": "then the 3 a density in F should be roughly the same as a 3 a density in F version of Ros THM that the 3 AP density in F TOA is bounded from below so this in F TOA is bounded from below so this then implies the relative Ross term that then implies the relative Ross term that the 3 AP density in F is at least C basically okay so let me explain now these two two these two two steps first the dense model theorem so in what sense does the St Model F TAA approximate the sparse Model F TAA approximate the sparse object F so in the previous approach uh taken by Green cow they used some notion whic…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_1774",
+    "t_start": 1775.0,
+    "t_end": 1868.1,
+    "type": "overview",
+    "summary": "theorem so let me first remind you what the cut Norm is so if I start with a graph between sets X and Y and some weighted graph G so I can Define the cut weighted graph G so I can Define the cut Norm of G to be this quantity and Norm of G to be this quantity and essentially it says that the cut Norm is essentially it says that the cut Norm is small if whenever I take a large set a small if whenever I take a large set a and large set B here then the sum of the edge weights between A and B is never too large so somehow The Edge weights too large so somehow The Edge weights they all cancel out…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_1868",
+    "t_start": 1868.1,
+    "t_end": 1960.0,
+    "type": "overview",
+    "summary": "Norm then every function majorized by new can be approximated by a dense Model TOA and this approximation also is in terms of this cut Lo okay so that's the dense model theem that we will that we will use okay right ah so um it happens because of the normalization right so you should think normalization right so you should think of the expectation of F and the of the expectation of F and the expectation of f TOA as the relative so f as a set is sparse but because I start out with new there's a start out with new there's a normalization that boosts up the weights normalization that boosts up…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_1959",
+    "t_start": 1960.0,
+    "t_end": 2051.5,
+    "type": "overview",
+    "summary": "there's a more General dense model theorem that applies to uh other norms theorem that applies to uh other norms and in particular the original intention of green and toal is to apply it to this variant of the G uniformity Norm for the variant of the G uniformity Norm for the purpose of proving their result and purpose of proving their result and their original approach was to prove their original approach was to prove prove this General dense model theorem prove this General dense model theorem using using a energy increment type using using a energy increment type argument similar to what…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_2051",
+    "t_start": 2051.5,
+    "t_end": 2144.8,
+    "type": "overview",
+    "summary": "conditions um so with those observations so we have this form of the dense model so we have this form of the dense model theorem that we'll use for relative this three linear forms condition so it's in particular implied by the three it's I I don't really know how to explain more than just saying that you explain more than just saying that you know the cut Norm being small but it is it is weaker much weaker than even actually this having small G uniformity actually this having small G uniformity nor it's quite big okay so uh what about for longer arithmetic progressions so I said I arithmet…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_2144",
+    "t_start": 2144.8,
+    "t_end": 2237.0,
+    "type": "overview",
+    "summary": "fairly standard thing to do if you ever talk about hypergraph regularity for talk about hypergraph regularity for instance but um so so that's the instance but um so so that's the generalization for hypergraphs and for generalization for hypergraphs and for longer arithmetic progressions but other than this everything else is more or less the same okay so that was the dense model theorem the Second Step I want to explain the Second Step I want to explain essentially the main technical advaning n work which is the new counting LMA the sparse counting L it says that if F and sparse counting L…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_2237",
+    "t_start": 2237.0,
+    "t_end": 2328.5,
+    "type": "overview",
+    "summary": "short recall the definition of um the cut Norm one way to phrase it is that if you have G and G TOA then if I restrict this have G and G TOA then if I restrict this expectation to any any subsets of vertices A and B then this expectation is never more than Epsilon so this is is never more than Epsilon so this is just a rephrasing of the definition of just a rephrasing of the definition of the cut the cut Mark more generally I can replace subsets of a of X and Y by functions bounded functions X and Y by functions bounded functions on X and Y just because if you look at this expression here i…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_2328",
+    "t_start": 2328.5,
+    "t_end": 2420.0,
+    "type": "overview",
+    "summary": "the difference between these two expressions here it precisely has this expressions here it precisely has this form if I fix a particular value of Z if I fix any value of Z then the differ difference has this form so it's bounded difference has this form so it's bounded by Epsilon so now I let Z vary then the Epsilon this allows me to swap out one of the factors and I can do exactly the of the factors and I can do exactly the same thing to the two other factors and at the end I obtain that t of G differs from T of G TOA by at most of G differs from T of G TOA by at most Epsilon and this com…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_2420",
+    "t_start": 2420.0,
+    "t_end": 2512.8,
+    "type": "overview",
+    "summary": "subgraph is majorized by new then the other subgraph is dense then there's a triangle counting number okay so how does the proof work I won't tell you the whole proof but just I'll highlight some of the but just I'll highlight some of the elements so there are three main elements so there are three main ingredients uh the first is repeated ingredients uh the first is repeated applications of the Koshi shorts applications of the Koshi shorts inequality so this is a standard technique in this area as you know popularized by goers through his for I won't go too much into this but it's one of t…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_2512",
+    "t_start": 2512.8,
+    "t_end": 2602.9,
+    "type": "overview",
+    "summary": "so let me explain how do I prove a counting Lama for counting this for counting Lama for counting this for cycle the four CLE cyle is this this um here well let's see let me create an auxiliary graph see let me create an auxiliary graph called G Prime G Prime is defined by this formula but basically what it is is that it but basically what it is is that it records the Cod degrees the common number of common neighbors it records the Cod degrees between vertices between the Cod degrees between vertices between X and Y this is by the way where having weights really comes in handy like weights …"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_2602",
+    "t_start": 2602.9,
+    "t_end": 2697.5,
+    "type": "overview",
+    "summary": "arrived at this expression here which is a triangle count expression so we when a triangle count expression so we when from initially counting triangles and I from initially counting triangles and I said that through some koshy shorts one said that through some koshy shorts one of the things to reduce the counting is of the things to reduce the counting is a for cycle and through this reduction a for cycle and through this reduction we've somehow gone back to counting a we've somehow gone back to counting a triangle so at first it seems like we've gone back in a loop but we gained something…"
+  },
+  {
+    "id": "ku_video_KgcDTcAwLJA_2697",
+    "t_start": 2697.5,
+    "t_end": 2729.5,
+    "type": "overview",
+    "summary": "with one caveat so we have to assume sem ter so that's a that's a heavy gun that ter so that's a that's a heavy gun that you're not going to be able to prove in you're not going to be able to prove in this short Exposition and it will be this short Exposition and it will be around 25 pages so we're finishing this around 25 pages so we're finishing this up as we speak and hopefully it should up as we speak and hopefully it should come out really really soon and um so so come out really really soon and um so so if you want to learn more about this if you want to learn more about this proof so…"
+  }
+]

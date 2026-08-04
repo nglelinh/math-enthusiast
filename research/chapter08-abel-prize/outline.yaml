@@ -1,0 +1,44 @@
+# Research outline — Chapter 08: Abel Prize & Lifetime Mathematics
+topic: Abel Prize laureates and mathematical contributions
+date: "2026-08-03"
+sources_primary:
+  - https://abelprize.no/
+  - Official Abel committee citations (2016–2025)
+  - Quanta / AMS / IAS announcements
+
+items:
+  - year: 2016
+    name: Andrew Wiles
+    citation_focus: "Fermat's Last Theorem via modularity of semistable elliptic curves"
+  - year: 2019
+    name: Karen Uhlenbeck
+    citation_focus: "geometric PDE, gauge theory, integrable systems; first woman Abel laureate"
+  - year: 2020
+    name: Hillel Furstenberg; Gregory Margulis
+    citation_focus: "probability and dynamics in group theory, number theory, combinatorics"
+  - year: 2021
+    name: László Lovász; Avi Wigderson
+    citation_focus: "theoretical CS and discrete mathematics as central pure math"
+  - year: 2022
+    name: Dennis Sullivan
+    citation_focus: "topology algebraic/geometric/dynamical; Adams conjecture; no wandering domains"
+  - year: 2023
+    name: Luis Caffarelli
+    citation_focus: "regularity for nonlinear PDE; free boundaries; Monge–Ampère; CKN partial regularity"
+  - year: 2024
+    name: Michel Talagrand
+    citation_focus: "probability, functional analysis; concentration; spin glasses; stats/physics apps"
+  - year: 2025
+    name: Masaki Kashiwara
+    citation_focus: "algebraic analysis; D-modules; crystal bases/graphs; Riemann–Hilbert / perverse sheaves"
+
+fields:
+  - official_citation
+  - core_objects
+  - key_ideas
+  - surrounding_math
+  - why_lifetime_prize
+  - course_links
+  - confusions
+  - exercises
+  - references

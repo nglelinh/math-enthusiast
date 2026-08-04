@@ -1,0 +1,219 @@
+[
+  {
+    "id": "ku_video_83PlZ9R9_Ps_3",
+    "t_start": 3.2,
+    "t_end": 96.9,
+    "type": "overview",
+    "summary": "good afternoon let me welcome you to the second event in the four-color fest let second event in the four-color fest let me remind you after after today's lecture there is a reception from 5:00 to 7:00 in Atlas Campbell Alumni Center to 7:00 in Atlas Campbell Alumni Center which is the building directly behind which is the building directly behind this one you can't miss it this one you can't miss it and the events tomorrow are the igl lab and the events tomorrow are the igl lab will also be in the same in that place from 10:00 to 12:00 and the concert a portrait in four colors which will p…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_96",
+    "t_start": 96.9,
+    "t_end": 187.4,
+    "type": "overview",
+    "summary": "and today he will talk about graph coloring and machine proofs or can it really be a proof if you can't check it by machine and I'll start with check it by machine and I'll start with Alfred B Kemp who you heard about Alfred B Kemp who you heard about yesterday in 1876 he proved Kemp's yesterday in 1876 he proved Kemp's universality theorem so here's a linkage universality theorem so here's a linkage system it's got some things pivoted to system it's got some things pivoted to the plane and other rigid bars pivoted the plane and other rigid bars pivoted to each other and here it shows that …"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_187",
+    "t_start": 187.4,
+    "t_end": 277.6,
+    "type": "overview",
+    "summary": "coloring result because it actually continues to have importance in computer continues to have importance in computer science today and here's a theorem every science today and here's a theorem every planar graph has at least one node of planar graph has at least one node of degree less than six that's provable from Euler's formula about the number of vertices and the number of edges and the number of faces in a graph so the average degree of the must be some node of degree 5 or less and if you remove one node from a planar and if you remove one node from a planar graph the result is a plan…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_277",
+    "t_start": 277.6,
+    "t_end": 369.4,
+    "type": "overview",
+    "summary": "node C okay now so that was straightforward that's how to six color straightforward that's how to six color a planar graph here's kemp's for coloring algorithm so if you find a node of degree one or degree two or degree three you can use the algorithm I just showed you for a degree 4 you can use showed you for a degree 4 you can use the method of Kempe chains so here's oops there we are the method of Kempe chains suppose when you put node K back it's adjacent to nodes of four different colors so then take node four different colors so then take node D and recolor it red but that means you y…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_369",
+    "t_start": 369.4,
+    "t_end": 464.4,
+    "type": "overview",
+    "summary": "was not proved for a while and during the 20th century the method of the 20th century the method of unavoidable sets was developed so this unavoidable sets was developed so this history of unavoidable sets is from a paper by Appel and Haken submitted in 1974 and it's not my father's 1974 and it's not my father's handwriting so it must be Wolfgang's I handwriting so it must be Wolfgang's I think and and it shows that Franklin had think and and it shows that Franklin had this unavoidable set so that set by this unavoidable set so that set by Franklin every planar graph must have one of those …"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_464",
+    "t_start": 464.4,
+    "t_end": 558.2,
+    "type": "overview",
+    "summary": "said well someday computers might be powerful enough to find an unavoidable powerful enough to find an unavoidable set of perhaps 10,000 reducible set of perhaps 10,000 reducible configurations okay so Kenneth Appel and configurations okay so Kenneth Appel and Wolfgang Haken in 1972 decided to Wolfgang Haken in 1972 decided to estimate how many configurations might estimate how many configurations might be in an unavoidable set of reducible configurations and in what year will future computers be fast enough to future computers be fast enough to calculate this and they concluded in calculat…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_558",
+    "t_start": 558.2,
+    "t_end": 652.7,
+    "type": "overview",
+    "summary": "program which my father along with John Koch a computer science graduate student Koch a computer science graduate student wrote in Fortran and IBM assembly wrote in Fortran and IBM assembly language that would check the two ninety of the nineteen hundred and thirty six configurations and a lot of thirty six configurations and a lot of the work was done my father used this the work was done my father used this teletype ASR thirty three terminal this teletype ASR thirty three terminal this is a electromechanical printing terminal is a electromechanical printing terminal connected by telephone…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_652",
+    "t_start": 652.7,
+    "t_end": 744.5,
+    "type": "overview",
+    "summary": "so in 1976 Appel and Haken completed the for the proof of the four color theorem for the proof of the four color theorem based on approximately 1900 of these based on approximately 1900 of these configurations and as Robin Wilson configurations and as Robin Wilson explained the dark dots indicate nodes explained the dark dots indicate nodes of degree 5 and the the simple vertices are nodes of degree 6 and the unshown edges are out to the ring and so on and so forth and there is a reducibility argument for any possible coloring of argument for any possible coloring of the ring the computer p…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_744",
+    "t_start": 744.5,
+    "t_end": 841.2,
+    "type": "overview",
+    "summary": "to check that the list of numbers correspond it to the configuration and correspond it to the configuration and that their configurations proved reducible correspond it to the configurations in unavoidable set and so configurations in unavoidable set and so Laurel Appel aged 13 and Dorothea Hakan a couple of years older spent months correcting typographical errors and bringing the more serious errors to the attention of their fathers and by around attention of their fathers and by around the middle of July the proof was completed and the the checking of the configurations was completed and …"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_841",
+    "t_start": 841.2,
+    "t_end": 932.9,
+    "type": "overview",
+    "summary": "then I'll talk later about Gontier in 2006 but there's another history oops I want to tell which is about computing and calculation so Leibniz his computing and calculation so Leibniz his dream was you know can we mechanize dream was you know can we mechanize mathematics and Babbage started trying to mechanize calculation and Hilbert was really interested in mechanizing proof really interested in mechanizing proof so the just turn the crank and get the proof out for your theorem or the definite out for your theorem or the definite information that the conjecture is not information that the …"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_932",
+    "t_start": 932.9,
+    "t_end": 1023.4,
+    "type": "overview",
+    "summary": "parts of computer science that I want to talk about one is at IBM Research having talk about one is at IBM Research having to do with optimizing compilers and the to do with optimizing compilers and the other was at Edinboro having to do with logic and proof so Johncock was one of the most influential computer architects the most influential computer architects of the 20th century and one of the most compiler is the thing that translates your source program your Fortran program your source program your Fortran program or whatever to machine language konk was a member in the 1960s of the tea…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_1023",
+    "t_start": 1023.4,
+    "t_end": 1117.7,
+    "type": "overview",
+    "summary": "abstraction for the register allocation problem and maybe we could color those graphs by finding low degree nodes and removing them and coloring the rest of the graph and then putting them back so so he asked gregory chaitin to do it and so he asked gregory chaitin to do it and shaitan says you know i didn't know shaitan says you know i didn't know about this stuff my field is information about this stuff my field is information theory really but a schock Chandra theory really but a schock Chandra suggested to Johncock to ask me to do suggested to Johncock to ask me to do this coloring algo…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_1117",
+    "t_start": 1117.7,
+    "t_end": 1208.4,
+    "type": "overview",
+    "summary": "if two variables are not live at the same time you can put them in the same same time you can put them in the same register the register can be representing one variable for a while and then another variable later and then another variable later so shaytans abstraction was too so shaytans abstraction was too understand which pairs of variables understand which pairs of variables interfere with each other that is their live ranges overlap and then to construct an undirected graph with an construct an undirected graph with an edge between any pair of nodes variable names whose live ranges ove…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_1208",
+    "t_start": 1208.4,
+    "t_end": 1298.6,
+    "type": "overview",
+    "summary": "that you put back if there is no degree a no node of low degree pick some vertex several other nodes color the rest of the graph as best you can and now you the graph as best you can and now you put it back if it's well it's when you put it back it's going to be adjacent to greater than or equal to K vertices so greater than or equal to K vertices so if those vertices happen to have among if those vertices happen to have among them less than K colors you'll be able them less than K colors you'll be able to find a color for it and if not leave it uncoloured that's the great thing about regis…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_1298",
+    "t_start": 1298.6,
+    "t_end": 1388.9,
+    "type": "overview",
+    "summary": "some heuristics for which node to pick but doesn't matter we'll pick K remove but doesn't matter we'll pick K remove it push it on the stack this is actually it push it on the stack this is actually Briggs's adjustment of chaitin's algorithm color the rest of the graph as I've shown so we've pushed all the nodes I've shown so we've pushed all the nodes on the stack and now we can put them back in reverse order coloring them so each time we color a node it's adjacent each time we color a node it's adjacent to less than K colored nodes so we can find a color except when we get here this was t…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_1388",
+    "t_start": 1388.9,
+    "t_end": 1479.4,
+    "type": "overview",
+    "summary": "reduction is coalesced move edge C D so it has merge those nodes together if it has merge those nodes together if there's no interference edge from C to D there's no interference edge from C to D and if the coalescent know it CD would and if the coalescent know it CD would have degree less than K because you have degree less than K because you don't want to remove moves at the don't want to remove moves at the expense of more loads and stores that expense of more loads and stores that would be a disaster all right so that's would be a disaster all right so that's Briggs's algorithm then whi…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_1479",
+    "t_start": 1479.4,
+    "t_end": 1571.5,
+    "type": "overview",
+    "summary": "and Floyd and became interested in how do you prove that a program is program verification and that is proofs by hand of course and and then Robin by hand of course and and then Robin Milner did something interesting so Milner did something interesting so Dijkstra and Floyd and had logics Dijkstra and Floyd and had logics for proving programs correct generally for proving programs correct generally it's called logic now but all of logic was developed around 1970 1971 so really contemporaneously with the four-color work and in 1977 or say Oh David Greaves a professor at Cornell wrote to my f…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_1571",
+    "t_start": 1571.5,
+    "t_end": 1663.9,
+    "type": "overview",
+    "summary": "assistant Edinborough LCF and in a proof assistant you used a computer you construct proofs by hand but they are checked by machine checking proofs by machine goes back to girdle and Turing and there's a programming language that and there's a programming language that comes with it a tactic language that allows you to write little programs to help with the trivial parts so that was very influential there have been hundreds well maybe one hundred dozens hundreds well maybe one hundred dozens of proof assistants built since then I of proof assistants built since then I pretty much do all my …"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_1663",
+    "t_start": 1663.9,
+    "t_end": 1755.0,
+    "type": "overview",
+    "summary": "a of AD BC equals a dove and a B and C everything in green has been accepted so everything in green has been accepted so far by the proof assistance proof checker now I want to write the proof because it says all right that's what because it says all right that's what you claim you're going to prove on the you claim you're going to prove on the upper right this is your proof goal you upper right this is your proof goal you must prove this so I'm gonna prove it by must prove this so I'm gonna prove it by to prove a quantified formula for all I to prove a quantified formula for all I could sa…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_1754",
+    "t_start": 1755.0,
+    "t_end": 1846.2,
+    "type": "overview",
+    "summary": "of successor of a and so on and if I simplify that by the definition of ad it simplify that by the definition of ad it simplifies to this and then I apply simplifies to this and then I apply reflexivity of equality and well it reflexivity of equality and well it turns out reflexivity ecologies invalid turns out reflexivity ecologies invalid one very important property of proof one very important property of proof assistance is they will reject invalid assistance is they will reject invalid proofs that's the whole point okay so I will undo that attempt at reflexivity because undo that attemp…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_1846",
+    "t_start": 1846.2,
+    "t_end": 1940.5,
+    "type": "overview",
+    "summary": "very interesting theorem although it may be a very useful theorem and its proof may not be instructive it may be long and have many cases and no graduate and have many cases and no graduate student would want to have to referee that proof and even a 13 year old girl couldn't be convinced to check all the couldn't be convinced to check all the cases so so but it's it's really useful cases so so but it's it's really useful in software verification and software in software verification and software verification is what I do these days so here are some landmark results in software verification …"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_1940",
+    "t_start": 1940.5,
+    "t_end": 2036.2,
+    "type": "overview",
+    "summary": "guaranteed along with some colleagues of course so that's the third history of course so that's the third history of software verification and if you have a software verification and if you have a proof of correctness of a program that's proof of correctness of a program that's by hand we don't believe it because by by hand we don't believe it because by the time somebody finishes refereeing that proof the program will have been maintained so it's a different program maintained so it's a different program and proofs by machine you can maintain and proofs by machine you can maintain the proo…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_2036",
+    "t_start": 2036.2,
+    "t_end": 2127.7,
+    "type": "overview",
+    "summary": "entirely inside the cockpit assistant he has a program to do reducibility just has a program to do reducibility just like vacation Appel and Haken but his like vacation Appel and Haken but his program is proved correct in Cocke and then runs in Cocke and he has the discharging proved correct and so on and discharging proved correct and so on and so forth so here's the main statement of countries on the map of course he pretty soon converts this to graphs and he soon converts this to graphs and he converts the graph to something else but his main theorem really is about countries on the map …"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_2127",
+    "t_start": 2127.7,
+    "t_end": 2219.4,
+    "type": "overview",
+    "summary": "version of that theorem that's entirely checked by machine checked by machine okay let's unify computing with software okay let's unify computing with software verification and the four color theorem so a few years ago I thought you know the one part of the compiler that is not the one part of the compiler that is not formally verified is the register allocator and i know how to do graph coloring register allocation I published coloring register allocation I published a paper about that and I know how to do fun to write a paper in which I could cite some results from 1977 by Appel and cite …"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_2219",
+    "t_start": 2219.4,
+    "t_end": 2311.2,
+    "type": "overview",
+    "summary": "is this picture shown like you might stack a pyramid of oranges and why were stack a pyramid of oranges and why were they interested in this in 1611 because they interested in this in 1611 because oranges weren't easy to find in Europe in 1611 they were interested in the atomic theory of matter and these close atomic theory of matter and these close packings are directly relevant to the packings are directly relevant to the atomic theory of matter so Kepler atomic theory of matter so Kepler conjectured that there's no denser packing than this and it was unsolved for almost 400 years until T…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_2311",
+    "t_start": 2311.2,
+    "t_end": 2402.8,
+    "type": "overview",
+    "summary": "sometimes machine check proof is a big engineering enterprise and if you've ever stayed to the very end of a animated movie these days and you see animated movie these days and you see the long list of credits of all of the the long list of credits of all of the engineers this one animated the this one drew the sketches right this was the team it's proved you can't pack was the team it's proved you can't pack things any more densely than that and things any more densely than that and everybody knows it now even people under everybody knows it now even people under 80 okay so I'm pretty much…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_2402",
+    "t_start": 2402.8,
+    "t_end": 2499.0,
+    "type": "overview",
+    "summary": "a paper for publication and it was about a certain compiler optimization machine check proof but we didn't send it in with the paper because there submission form to do that and in July we got the referee reports and said we we got the referee reports and said we are willing to accept this paper are willing to accept this paper provided that you immediately send us run it and check it which we did and the paper has been published so it's part of paper has been published so it's part of the it's part of the ethos of certain parts of computer science now that your proofs should be machine che…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_2505",
+    "t_start": 2505.5,
+    "t_end": 2599.8,
+    "type": "overview",
+    "summary": "every line of it has been checked by the kernel of the proof assistant right kernel of the proof assistant right so the point of the machine check proof is that I can only construct valid proofs that 60,000 lines is the construction of a valid proof if I had a mistake or if don t I had a mistake in kernel the proof checker part of it would catch the mistake and so we need would catch the mistake and so we need how to find the proof oh well here's how how to find the proof oh well here's how Gontier did it he read Robertson's paper Gontier did it he read Robertson's paper okay and the way Ro…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_2599",
+    "t_start": 2599.8,
+    "t_end": 2691.5,
+    "type": "overview",
+    "summary": "area I've done some of it myself actually for example in 2004 or so I had actually for example in 2004 or so I had a machine checked proof done in the a machine checked proof done in the twelfth proof checker and I said okay under what basis do I trust the twelfth proof checker so what I did is I first i proof checker so what I did is I first i read the refereed paper in the scientific literature that explained the logic underlying 12 and the algorithm logic underlying 12 and the algorithm for proof checking in 12 which was written by two of the most careful computer scientists i know bob h…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_2691",
+    "t_start": 2691.5,
+    "t_end": 2785.7,
+    "type": "overview",
+    "summary": "transcription of an algorithm in a refereed journal ok about three years refereed journal ok about three years later christian urban said alright let's later christian urban said alright let's take that algorithm from the refereed take that algorithm from the refereed journal and check the proof that it's sound in a proof checker a different proof checker proof checker and he found a bug in the proof it was a and he found a bug in the proof it was a small bug in one lemma of the proof and the theorem was still sound so so does that make us more confident or less it that make us more confide…"
+  },
+  {
+    "id": "ku_video_83PlZ9R9_Ps_2785",
+    "t_start": 2785.7,
+    "t_end": 2865.0,
+    "type": "overview",
+    "summary": "mathematics let me read you something that I had a similar conversation with that I had a similar conversation with Tom Hales about three years ago I'm Tom Hales about three years ago I'm looking at his email response now and looking at his email response now and he's quoting the AMS ethical guidelines he's quoting the AMS ethical guidelines saying that mathematicians have a saying that mathematicians have a responsibility to publish full details responsibility to publish full details of results that are announced without of results that are announced without unreasonable delay I would put …"
+  }
+]

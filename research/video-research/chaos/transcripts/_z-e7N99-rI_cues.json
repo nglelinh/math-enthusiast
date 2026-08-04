@@ -1,0 +1,487 @@
+[
+  {
+    "t_start": 3.75,
+    "t_end": 9.669,
+    "text": "hey everybody catsins tv and today we are exploring the logistic map over the"
+  },
+  {
+    "t_start": 9.669,
+    "t_end": 12.95,
+    "text": "are exploring the logistic map over the course of two videos we are going to"
+  },
+  {
+    "t_start": 12.95,
+    "t_end": 16.15,
+    "text": "delve into the simple functions properties including period doubling and"
+  },
+  {
+    "t_start": 16.15,
+    "t_end": 17.51,
+    "text": "properties including period doubling and chaos"
+  },
+  {
+    "t_start": 17.51,
+    "t_end": 21.429,
+    "text": "but first please do subscribe to this channel for more cultural content coming"
+  },
+  {
+    "t_start": 21.429,
+    "t_end": 23.509,
+    "text": "channel for more cultural content coming out regularly and please do consider"
+  },
+  {
+    "t_start": 23.509,
+    "t_end": 26.63,
+    "text": "out regularly and please do consider supporting us via patreon or kofi links"
+  },
+  {
+    "t_start": 26.63,
+    "t_end": 28.07,
+    "text": "supporting us via patreon or kofi links in the description"
+  },
+  {
+    "t_start": 28.07,
+    "t_end": 33.35,
+    "text": "below take a quadratic function of this form graphically this produces a"
+  },
+  {
+    "t_start": 33.35,
+    "t_end": 38.709,
+    "text": "downward facing parabola like this the logistic map is the process of applying"
+  },
+  {
+    "t_start": 38.709,
+    "t_end": 40.709,
+    "text": "logistic map is the process of applying this function repeatedly now if you"
+  },
+  {
+    "t_start": 40.709,
+    "t_end": 42.31,
+    "text": "this function repeatedly now if you haven't seen our video on fixed points"
+  },
+  {
+    "t_start": 42.31,
+    "t_end": 44.389,
+    "text": "haven't seen our video on fixed points yet we recommend checking that out first"
+  },
+  {
+    "t_start": 44.389,
+    "t_end": 48.229,
+    "text": "yet we recommend checking that out first as it is the key to everything that"
+  },
+  {
+    "t_start": 48.229,
+    "t_end": 52.31,
+    "text": "we're gonna put a link to it right up here and in the description below if we"
+  },
+  {
+    "t_start": 52.31,
+    "t_end": 53.99,
+    "text": "here and in the description below if we look at the quadratic function when"
+  },
+  {
+    "t_start": 53.99,
+    "t_end": 58.869,
+    "text": "parameter a is less than one we see that it has just one fixed point where it"
+  },
+  {
+    "t_start": 58.869,
+    "t_end": 63.27,
+    "text": "crosses the line y equals x at zero and because the slope of the parabola here"
+  },
+  {
+    "t_start": 63.27,
+    "t_end": 68.149,
+    "text": "is less than 45 degrees values of the map will converge to zero now if we set"
+  },
+  {
+    "t_start": 68.149,
+    "t_end": 73.27,
+    "text": "map will converge to zero now if we set the parameter to two we see that it has"
+  },
+  {
+    "t_start": 73.27,
+    "t_end": 75.749,
+    "text": "two fixed points the slope at zero is now greater than 45 degrees so it"
+  },
+  {
+    "t_start": 75.749,
+    "t_end": 77.91,
+    "text": "now greater than 45 degrees so it propels values away while the other"
+  },
+  {
+    "t_start": 77.91,
+    "t_end": 80.55,
+    "text": "propels values away while the other fixed point is an attractor however when"
+  },
+  {
+    "t_start": 80.55,
+    "t_end": 85.35,
+    "text": "we get to values of a above three both fixed points have slopes greater than 45"
+  },
+  {
+    "t_start": 85.35,
+    "t_end": 88.149,
+    "text": "fixed points have slopes greater than 45 degrees and are thus both repelling so"
+  },
+  {
+    "t_start": 88.149,
+    "t_end": 90.39,
+    "text": "degrees and are thus both repelling so where do values of the logistic map end"
+  },
+  {
+    "t_start": 90.39,
+    "t_end": 91.83,
+    "text": "where do values of the logistic map end up in this case"
+  },
+  {
+    "t_start": 91.83,
+    "t_end": 96.31,
+    "text": "we can explore the behavior at different parameters with a simple program i'm"
+  },
+  {
+    "t_start": 96.31,
+    "t_end": 98.149,
+    "text": "parameters with a simple program i'm going to once again use the functional"
+  },
+  {
+    "t_start": 98.149,
+    "t_end": 100.23,
+    "text": "going to once again use the functional language haskell because i can easily"
+  },
+  {
+    "t_start": 100.23,
+    "t_end": 102.789,
+    "text": "language haskell because i can easily express the logistic map this way"
+  },
+  {
+    "t_start": 102.789,
+    "t_end": 104.63,
+    "text": "express the logistic map this way and also generate functions for"
+  },
+  {
+    "t_start": 104.63,
+    "t_end": 106.17,
+    "text": "and also generate functions for different values of a"
+  },
+  {
+    "t_start": 106.17,
+    "t_end": 107.67,
+    "text": "different values of a [Music]"
+  },
+  {
+    "t_start": 107.67,
+    "t_end": 114.149,
+    "text": "using the built-in function iterate we can run the map for as many iterations"
+  },
+  {
+    "t_start": 114.149,
+    "t_end": 115.99,
+    "text": "as we want we encapsulate it in this little one line program to take the"
+  },
+  {
+    "t_start": 115.99,
+    "t_end": 118.95,
+    "text": "little one line program to take the first 300 values and print them out for"
+  },
+  {
+    "t_start": 118.95,
+    "t_end": 121.19,
+    "text": "first 300 values and print them out for values of a less than one like point"
+  },
+  {
+    "t_start": 121.19,
+    "t_end": 125.03,
+    "text": "values of a less than one like point five we see that it converges to zero"
+  },
+  {
+    "t_start": 125.03,
+    "t_end": 128.63,
+    "text": "five we see that it converges to zero when a is two it converges to one"
+  },
+  {
+    "t_start": 128.63,
+    "t_end": 134.63,
+    "text": "and for 2.1 another non-zero fixed point now let's try 3.1 where both fixed"
+  },
+  {
+    "t_start": 134.63,
+    "t_end": 136.71,
+    "text": "now let's try 3.1 where both fixed points are repelling we see that instead"
+  },
+  {
+    "t_start": 136.71,
+    "t_end": 138.949,
+    "text": "points are repelling we see that instead of landing on a single value it settles"
+  },
+  {
+    "t_start": 138.949,
+    "t_end": 140.869,
+    "text": "of landing on a single value it settles into an alternating pattern with two"
+  },
+  {
+    "t_start": 140.869,
+    "t_end": 145.51,
+    "text": "into an alternating pattern with two values we see this again for 3.2"
+  },
+  {
+    "t_start": 145.51,
+    "t_end": 149.19,
+    "text": "values we see this again for 3.2 now let's try a larger number 3.5"
+  },
+  {
+    "t_start": 149.19,
+    "t_end": 151.11,
+    "text": "now let's try a larger number 3.5 this time it settles into a repeated"
+  },
+  {
+    "t_start": 151.11,
+    "t_end": 153.91,
+    "text": "this time it settles into a repeated pattern of four numbers"
+  },
+  {
+    "t_start": 153.91,
+    "t_end": 159.589,
+    "text": "as we continue to increase the parameter we see that the pattern doubles in size"
+  },
+  {
+    "t_start": 159.589,
+    "t_end": 162.47,
+    "text": "to 8"
+  },
+  {
+    "t_start": 165.43,
+    "t_end": 167.91,
+    "text": "but after around 3.57 it appears to be completely without pattern not settling"
+  },
+  {
+    "t_start": 167.91,
+    "t_end": 169.67,
+    "text": "completely without pattern not settling down"
+  },
+  {
+    "t_start": 169.67,
+    "t_end": 174.79,
+    "text": "moreover we get different behaviors depending on the initial value this is"
+  },
+  {
+    "t_start": 174.79,
+    "t_end": 178.149,
+    "text": "depending on the initial value this is the essence of chaos"
+  },
+  {
+    "t_start": 178.149,
+    "t_end": 181.99,
+    "text": "indeed the logistic map is one of the simplest functions we can use to"
+  },
+  {
+    "t_start": 181.99,
+    "t_end": 186.07,
+    "text": "demonstrate chaotic behavior we can generate a plot of the different"
+  },
+  {
+    "t_start": 186.07,
+    "t_end": 189.75,
+    "text": "behaviors of the map at different parameters by writing another program"
+  },
+  {
+    "t_start": 189.75,
+    "t_end": 196.79,
+    "text": "this time in the language swift if we look at the plot we see how the periods"
+  },
+  {
+    "t_start": 196.79,
+    "t_end": 204.07,
+    "text": "and that the period doubling gets faster and faster until the onset of chaos at"
+  },
+  {
+    "t_start": 204.07,
+    "t_end": 207.11,
+    "text": "around 3.57 we call this plot a bifurcation diagram and it is endlessly"
+  },
+  {
+    "t_start": 207.11,
+    "t_end": 209.509,
+    "text": "bifurcation diagram and it is endlessly fascinating even after the onset of"
+  },
+  {
+    "t_start": 209.509,
+    "t_end": 211.11,
+    "text": "fascinating even after the onset of chaos there are these interesting"
+  },
+  {
+    "t_start": 211.11,
+    "t_end": 213.27,
+    "text": "chaos there are these interesting pockets of stability like this range"
+  },
+  {
+    "t_start": 213.27,
+    "t_end": 222.07,
+    "text": "where we see repetitions of three values we can zoom in and look more closely at"
+  },
+  {
+    "t_start": 222.07,
+    "t_end": 223.83,
+    "text": "that range between 3.8 and 3.9 within the stable range we see many"
+  },
+  {
+    "t_start": 223.83,
+    "t_end": 226.149,
+    "text": "the stable range we see many bifurcations in period doubling until"
+  },
+  {
+    "t_start": 226.149,
+    "t_end": 227.75,
+    "text": "bifurcations in period doubling until chaos resumes"
+  },
+  {
+    "t_start": 227.75,
+    "t_end": 232.949,
+    "text": "let's zoom in on this mini bifurcation we see that it too has periods of chaos"
+  },
+  {
+    "t_start": 232.949,
+    "t_end": 235.19,
+    "text": "we see that it too has periods of chaos and stability and that the diagram as a"
+  },
+  {
+    "t_start": 235.19,
+    "t_end": 237.67,
+    "text": "and stability and that the diagram as a whole exhibits self-similarity let's"
+  },
+  {
+    "t_start": 237.67,
+    "t_end": 239.03,
+    "text": "whole exhibits self-similarity let's zoom in again"
+  },
+  {
+    "t_start": 239.03,
+    "t_end": 243.91,
+    "text": "we see these stable periods of 7 and 5 values as well as ever smaller"
+  },
+  {
+    "t_start": 243.91,
+    "t_end": 246.949,
+    "text": "values as well as ever smaller bifurcation patterns let's zoom back out"
+  },
+  {
+    "t_start": 246.949,
+    "t_end": 250.949,
+    "text": "bifurcation patterns let's zoom back out and look in more detail at the period"
+  },
+  {
+    "t_start": 250.949,
+    "t_end": 255.19,
+    "text": "as we noted earlier the interval between period doublings gets shorter and"
+  },
+  {
+    "t_start": 255.19,
+    "t_end": 259.749,
+    "text": "period doublings gets shorter and shorter indeed if we look at the ratios"
+  },
+  {
+    "t_start": 259.749,
+    "t_end": 261.909,
+    "text": "between interval values they are diminishing at a nearly proportional"
+  },
+  {
+    "t_start": 261.909,
+    "t_end": 266.469,
+    "text": "diminishing at a nearly proportional rate if we take the limit of these"
+  },
+  {
+    "t_start": 266.469,
+    "t_end": 269.749,
+    "text": "ratios we arrive at a very specific number the feigenbound constant the"
+  },
+  {
+    "t_start": 269.749,
+    "t_end": 274.15,
+    "text": "constant is named for physicist mitchell j feigenbaum who discovered it while"
+  },
+  {
+    "t_start": 274.15,
+    "t_end": 276.39,
+    "text": "j feigenbaum who discovered it while analyzing the logistic map and showed"
+  },
+  {
+    "t_start": 276.39,
+    "t_end": 278.55,
+    "text": "analyzing the logistic map and showed that it applies to all systems that"
+  },
+  {
+    "t_start": 278.55,
+    "t_end": 281.189,
+    "text": "that it applies to all systems that approach chaos via period doubling let's"
+  },
+  {
+    "t_start": 281.189,
+    "t_end": 283.67,
+    "text": "approach chaos via period doubling let's look at another map the sine map"
+  },
+  {
+    "t_start": 283.67,
+    "t_end": 285.59,
+    "text": "look at another map the sine map although it is generated from a very"
+  },
+  {
+    "t_start": 285.59,
+    "t_end": 287.43,
+    "text": "although it is generated from a very different function we see that its"
+  },
+  {
+    "t_start": 287.43,
+    "t_end": 290.23,
+    "text": "different function we see that its bifurcation diagram is quite similar its"
+  },
+  {
+    "t_start": 290.23,
+    "t_end": 292.31,
+    "text": "bifurcation diagram is quite similar its period doubling is still proportional to"
+  },
+  {
+    "t_start": 292.31,
+    "t_end": 294.55,
+    "text": "period doubling is still proportional to the feigenbound constant and we see"
+  },
+  {
+    "t_start": 294.55,
+    "t_end": 297.03,
+    "text": "the feigenbound constant and we see similar areas of stability after the"
+  },
+  {
+    "t_start": 297.03,
+    "t_end": 301.51,
+    "text": "similar areas of stability after the onset of chaos this universality is one"
+  },
+  {
+    "t_start": 301.51,
+    "t_end": 307.69,
+    "text": "of those surprising but delightful results in mathematics"
+  },
+  {
+    "t_start": 318.07,
+    "t_end": 320.23,
+    "text": "in part two we're going to look at what happens when we use complex coefficients"
+  },
+  {
+    "t_start": 320.23,
+    "t_end": 324.15,
+    "text": "happens when we use complex coefficients so please do come back for that and if"
+  },
+  {
+    "t_start": 324.15,
+    "t_end": 328.23,
+    "text": "you have any questions about anything you heard today please do let us know in"
+  },
+  {
+    "t_start": 328.23,
+    "t_end": 331.5,
+    "text": "the comments below thanks for watching and please subscribe"
+  },
+  {
+    "t_start": 331.5,
+    "t_end": 336.469,
+    "text": "to cat synth tv [Music]"
+  }
+]

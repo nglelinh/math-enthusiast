@@ -1,0 +1,1937 @@
+[
+  {
+    "t_start": 0.03,
+    "t_end": 2.82,
+    "text": "Ricci flow when it was invented by"
+  },
+  {
+    "t_start": 2.82,
+    "t_end": 5.64,
+    "text": "Hamilton in the early 80s nobody would"
+  },
+  {
+    "t_start": 5.64,
+    "t_end": 7.109,
+    "text": "have paid much attention to it except"
+  },
+  {
+    "t_start": 7.109,
+    "t_end": 9.78,
+    "text": "mathematicians. What happened is 20 years"
+  },
+  {
+    "t_start": 9.78,
+    "t_end": 11.309,
+    "text": "later, you know, Hamilton and others,"
+  },
+  {
+    "t_start": 11.309,
+    "t_end": 14.73,
+    "text": "including me, were working on this and"
+  },
+  {
+    "t_start": 14.73,
+    "t_end": 17.1,
+    "text": "trying to prove this so-called Poincaré"
+  },
+  {
+    "t_start": 17.1,
+    "t_end": 19.47,
+    "text": "conjecture and also something a bit"
+  },
+  {
+    "t_start": 19.47,
+    "t_end": 21.166,
+    "text": "more inclusive called the"
+  },
+  {
+    "t_start": 21.166,
+    "t_end": 24.66,
+    "text": "Geometrization conjecture. It was going okay but"
+  },
+  {
+    "t_start": 24.66,
+    "t_end": 27.21,
+    "text": "there was some big roadblocks. What got"
+  },
+  {
+    "t_start": 27.21,
+    "t_end": 29.64,
+    "text": "people's attention is in in the year"
+  },
+  {
+    "t_start": 29.64,
+    "t_end": 33.36,
+    "text": "2002 this fellow called Perelman, who is"
+  },
+  {
+    "t_start": 33.36,
+    "t_end": 36.45,
+    "text": "famous as much for his eccentricities as"
+  },
+  {
+    "t_start": 36.45,
+    "t_end": 38.61,
+    "text": "as his math, was able to actually prove"
+  },
+  {
+    "t_start": 38.61,
+    "t_end": 41.309,
+    "text": "these important theorems using the Ricci flow."
+  },
+  {
+    "t_start": 42.509,
+    "t_end": 43.92,
+    "text": "It's hard to describe exactly how"
+  },
+  {
+    "t_start": 43.92,
+    "t_end": 45.96,
+    "text": "Ricci flow works, so I thought what I'd do"
+  },
+  {
+    "t_start": 45.96,
+    "t_end": 47.7,
+    "text": "is talk about something which is very"
+  },
+  {
+    "t_start": 47.7,
+    "t_end": 51.0,
+    "text": "closely related to Ricci flow. We'll"
+  },
+  {
+    "t_start": 51.0,
+    "t_end": 52.77,
+    "text": "start with something called curve"
+  },
+  {
+    "t_start": 52.77,
+    "t_end": 54.48,
+    "text": "shortening flow. Think about the two"
+  },
+  {
+    "t_start": 54.48,
+    "t_end": 56.43,
+    "text": "dimensional space and let's just draw a"
+  },
+  {
+    "t_start": 56.43,
+    "t_end": 60.48,
+    "text": "smooth path, closed path, on that surface"
+  },
+  {
+    "t_start": 60.48,
+    "t_end": 62.399,
+    "text": "and what we want what we want to do is"
+  },
+  {
+    "t_start": 62.399,
+    "t_end": 65.129,
+    "text": "see if we can move it, deform it, change"
+  },
+  {
+    "t_start": 65.129,
+    "t_end": 67.409,
+    "text": "it into a new path. Let's take this this point"
+  },
+  {
+    "t_start": 67.409,
+    "t_end": 70.71,
+    "text": "here and I'm going to draw the tangent"
+  },
+  {
+    "t_start": 70.71,
+    "t_end": 73.68,
+    "text": "line here; and so we're going to move it"
+  },
+  {
+    "t_start": 73.68,
+    "t_end": 76.47,
+    "text": "in a direction which is perpendicular to"
+  },
+  {
+    "t_start": 76.47,
+    "t_end": 79.59,
+    "text": "that, so either this way or that way. And"
+  },
+  {
+    "t_start": 79.59,
+    "t_end": 81.45,
+    "text": "remember this is happening at each point"
+  },
+  {
+    "t_start": 81.45,
+    "t_end": 84.09,
+    "text": "along this path, the amount you"
+  },
+  {
+    "t_start": 84.09,
+    "t_end": 86.64,
+    "text": "move is is proportional to how much"
+  },
+  {
+    "t_start": 86.64,
+    "t_end": 89.1,
+    "text": "curvature you have. Curvature is sort of-"
+  },
+  {
+    "t_start": 89.1,
+    "t_end": 90.78,
+    "text": "think of it as how tightly- you know, if"
+  },
+  {
+    "t_start": 90.78,
+    "t_end": 92.06,
+    "text": "you were driving along there how much"
+  },
+  {
+    "t_start": 92.06,
+    "t_end": 94.86,
+    "text": "how much you'd have to be turning your"
+  },
+  {
+    "t_start": 94.86,
+    "t_end": 97.11,
+    "text": "wheel on the car, it's also sort of the"
+  },
+  {
+    "t_start": 97.11,
+    "t_end": 99.9,
+    "text": "circle that's closest to matching it"
+  },
+  {
+    "t_start": 99.9,
+    "t_end": 102.509,
+    "text": "there. Here there's a small circle, here"
+  },
+  {
+    "t_start": 102.509,
+    "t_end": 104.64,
+    "text": "there's a very large circle and the"
+  },
+  {
+    "t_start": 104.64,
+    "t_end": 107.369,
+    "text": "curvature is sort of 1 over the radius"
+  },
+  {
+    "t_start": 107.369,
+    "t_end": 110.88,
+    "text": "of that circle. Here the circle is"
+  },
+  {
+    "t_start": 110.88,
+    "t_end": 113.67,
+    "text": "very small and so the curvature is very"
+  },
+  {
+    "t_start": 113.67,
+    "t_end": 117.09,
+    "text": "large so the amount- the speed that this"
+  },
+  {
+    "t_start": 117.09,
+    "t_end": 119.579,
+    "text": "point is going to move is going to be"
+  },
+  {
+    "t_start": 119.579,
+    "t_end": 121.77,
+    "text": "very fast and it's going to be moving in"
+  },
+  {
+    "t_start": 121.77,
+    "t_end": 125.64,
+    "text": "this direction quite fast. Here, because"
+  },
+  {
+    "t_start": 125.64,
+    "t_end": 128.31,
+    "text": "the curvature is much smaller you're"
+  },
+  {
+    "t_start": 128.31,
+    "t_end": 129.81,
+    "text": "going to be moving in this direction but"
+  },
+  {
+    "t_start": 129.81,
+    "t_end": 131.91,
+    "text": "it's going to be only a little bit. So if"
+  },
+  {
+    "t_start": 131.91,
+    "t_end": 133.53,
+    "text": "you think about this"
+  },
+  {
+    "t_start": 133.53,
+    "t_end": 136.02,
+    "text": "path, after a certain amount of time - and"
+  },
+  {
+    "t_start": 136.02,
+    "t_end": 137.55,
+    "text": "this time is artificial it's not real"
+  },
+  {
+    "t_start": 137.55,
+    "t_end": 139.23,
+    "text": "time it's just something you're putting"
+  },
+  {
+    "t_start": 139.23,
+    "t_end": 141.569,
+    "text": "on artificially on this - this this point"
+  },
+  {
+    "t_start": 141.569,
+    "t_end": 143.1,
+    "text": "will move just a little bit in there,"
+  },
+  {
+    "t_start": 143.1,
+    "t_end": 145.37,
+    "text": "this point will move quite a bit more."
+  },
+  {
+    "t_start": 145.37,
+    "t_end": 148.4,
+    "text": "Here it's going to basically not- so the"
+  },
+  {
+    "t_start": 148.4,
+    "t_end": 150.51,
+    "text": "circle is going to be huge, here it's"
+  },
+  {
+    "t_start": 150.51,
+    "t_end": 152.64,
+    "text": "going to basically not move at all. Qhen"
+  },
+  {
+    "t_start": 152.64,
+    "t_end": 154.14,
+    "text": "the curvature is sort of going backwards"
+  },
+  {
+    "t_start": 154.14,
+    "t_end": 156.18,
+    "text": "so the circle is not inside but outside"
+  },
+  {
+    "t_start": 156.18,
+    "t_end": 158.16,
+    "text": "then you're going to be moving in that"
+  },
+  {
+    "t_start": 158.16,
+    "t_end": 159.989,
+    "text": "direction. - (Brady: What's happening? Is this is)"
+  },
+  {
+    "t_start": 159.989,
+    "t_end": 161.61,
+    "text": "(this thing shrinking or is this thing)"
+  },
+  {
+    "t_start": 161.61,
+    "t_end": 163.62,
+    "text": "(expanding? When this thing flows what's)"
+  },
+  {
+    "t_start": 163.62,
+    "t_end": 165.65,
+    "text": "(going to happen to it?) - Well it's going to-"
+  },
+  {
+    "t_start": 165.65,
+    "t_end": 168.39,
+    "text": "actually if you take a- if you start with"
+  },
+  {
+    "t_start": 168.39,
+    "t_end": 171.84,
+    "text": "a big circle and you move it according"
+  },
+  {
+    "t_start": 171.84,
+    "t_end": 173.58,
+    "text": "to the so called curve shortening flow"
+  },
+  {
+    "t_start": 173.58,
+    "t_end": 176.01,
+    "text": "it's going to be moving uniformly in at"
+  },
+  {
+    "t_start": 176.01,
+    "t_end": 179.34,
+    "text": "each point; the same amount because the"
+  },
+  {
+    "t_start": 179.34,
+    "t_end": 181.47,
+    "text": "curvature - lousy drawing - but the"
+  },
+  {
+    "t_start": 181.47,
+    "t_end": 183.3,
+    "text": "curvature's supposed to be around the"
+  },
+  {
+    "t_start": 183.3,
+    "t_end": 185.22,
+    "text": "same. So you're going to get: this is what"
+  },
+  {
+    "t_start": 185.22,
+    "t_end": 187.8,
+    "text": "it is at time T is equal to now, at time"
+  },
+  {
+    "t_start": 187.8,
+    "t_end": 190.59,
+    "text": "T is equal to say five seconds later"
+  },
+  {
+    "t_start": 190.59,
+    "t_end": 192.959,
+    "text": "it'll be smaller like that and then it's"
+  },
+  {
+    "t_start": 192.959,
+    "t_end": 194.31,
+    "text": "just going to get smaller and smaller."
+  },
+  {
+    "t_start": 194.31,
+    "t_end": 196.68,
+    "text": "But sometimes, because we don't like to"
+  },
+  {
+    "t_start": 196.68,
+    "t_end": 198.84,
+    "text": "have these things run away from us"
+  },
+  {
+    "t_start": 198.84,
+    "t_end": 200.579,
+    "text": "we'll change the flow a little bit and"
+  },
+  {
+    "t_start": 200.579,
+    "t_end": 202.56,
+    "text": "say let's flow in such a way that the"
+  },
+  {
+    "t_start": 202.56,
+    "t_end": 205.41,
+    "text": "total area inside doesn't change. So if"
+  },
+  {
+    "t_start": 205.41,
+    "t_end": 207.959,
+    "text": "that were the case, if you started with a"
+  },
+  {
+    "t_start": 207.959,
+    "t_end": 210.45,
+    "text": "big circle it would just stay the same."
+  },
+  {
+    "t_start": 210.45,
+    "t_end": 212.1,
+    "text": "But if you start with something like"
+  },
+  {
+    "t_start": 212.1,
+    "t_end": 214.13,
+    "text": "that or something that has a lot of"
+  },
+  {
+    "t_start": 214.13,
+    "t_end": 221.07,
+    "text": "like- so this is going to move out, this"
+  },
+  {
+    "t_start": 221.07,
+    "t_end": 223.5,
+    "text": "is going to move in, this isn't going to"
+  },
+  {
+    "t_start": 223.5,
+    "t_end": 225.84,
+    "text": "move very much, this will move out, this"
+  },
+  {
+    "t_start": 225.84,
+    "t_end": 228.269,
+    "text": "will move in. This will become rounder as"
+  },
+  {
+    "t_start": 228.269,
+    "t_end": 231.23,
+    "text": "you go on in time so it'll become more"
+  },
+  {
+    "t_start": 231.23,
+    "t_end": 236.16,
+    "text": "like that and then eventually as time"
+  },
+  {
+    "t_start": 236.16,
+    "t_end": 238.65,
+    "text": "goes on it will become essentially round."
+  },
+  {
+    "t_start": 238.65,
+    "t_end": 241.739,
+    "text": "This is a very simple model, there's not"
+  },
+  {
+    "t_start": 241.739,
+    "t_end": 243.299,
+    "text": "a lot of interesting things going on"
+  },
+  {
+    "t_start": 243.299,
+    "t_end": 247.049,
+    "text": "here but it's a nice first picture of of"
+  },
+  {
+    "t_start": 247.049,
+    "t_end": 249.359,
+    "text": "what what I'll ultimately relate to,"
+  },
+  {
+    "t_start": 249.359,
+    "t_end": 251.28,
+    "text": "Ricci flow. - (This is like an artificial)"
+  },
+  {
+    "t_start": 251.28,
+    "t_end": 253.079,
+    "text": "(thing then? You- this is just like a game)"
+  },
+  {
+    "t_start": 253.079,
+    "t_end": 254.91,
+    "text": "(mathematicians play? Like this isn't- )"
+  },
+  {
+    "t_start": 254.91,
+    "t_end": 256.56,
+    "text": "(you've just said let's draw a shape and)"
+  },
+  {
+    "t_start": 256.56,
+    "t_end": 259.669,
+    "text": "(let's- ) - Yeah it's- yeah it's it's a little"
+  },
+  {
+    "t_start": 259.669,
+    "t_end": 262.38,
+    "text": "yeah it's it's a game and you can you"
+  },
+  {
+    "t_start": 262.38,
+    "t_end": 264.599,
+    "text": "can ask questions like; say you don't"
+  },
+  {
+    "t_start": 264.599,
+    "t_end": 267.18,
+    "text": "keep the area fixed, how long does it take"
+  },
+  {
+    "t_start": 267.18,
+    "t_end": 271.949,
+    "text": "for it to- for to go down to a tiny point?"
+  },
+  {
+    "t_start": 271.949,
+    "t_end": 273.81,
+    "text": "And when it when it gets to be"
+  },
+  {
+    "t_start": 273.81,
+    "t_end": 276.18,
+    "text": "very very small the curvature remember"
+  },
+  {
+    "t_start": 276.18,
+    "t_end": 278.07,
+    "text": "is sort of 1 over the radius of the"
+  },
+  {
+    "t_start": 278.07,
+    "t_end": 279.66,
+    "text": "circle, so here the curvature is getting"
+  },
+  {
+    "t_start": 279.66,
+    "t_end": 281.759,
+    "text": "arbitrarily big, so it forms what's"
+  },
+  {
+    "t_start": 281.759,
+    "t_end": 283.59,
+    "text": "called a singularity and it stops- it"
+  },
+  {
+    "t_start": 283.59,
+    "t_end": 286.59,
+    "text": "stops changing. But you could look at"
+  },
+  {
+    "t_start": 286.59,
+    "t_end": 287.699,
+    "text": "something like this: say you have"
+  },
+  {
+    "t_start": 287.699,
+    "t_end": 289.729,
+    "text": "something which has lots and lots of"
+  },
+  {
+    "t_start": 289.729,
+    "t_end": 292.44,
+    "text": "really screwy little things like that"
+  },
+  {
+    "t_start": 292.44,
+    "t_end": 295.71,
+    "text": "and you can say maybe this'll- maybe"
+  },
+  {
+    "t_start": 295.71,
+    "t_end": 297.33,
+    "text": "some of these things will join up, what"
+  },
+  {
+    "t_start": 297.33,
+    "t_end": 299.82,
+    "text": "will ultimately happen? In this simple"
+  },
+  {
+    "t_start": 299.82,
+    "t_end": 302.25,
+    "text": "case what will happen is it will always"
+  },
+  {
+    "t_start": 302.25,
+    "t_end": 305.789,
+    "text": "become a circle after enough time. But if"
+  },
+  {
+    "t_start": 305.789,
+    "t_end": 308.52,
+    "text": "we look at it sort of the next I think"
+  },
+  {
+    "t_start": 308.52,
+    "t_end": 310.5,
+    "text": "simple model for Ricci flow, which is"
+  },
+  {
+    "t_start": 310.5,
+    "t_end": 312.24,
+    "text": "mean curvature flow, there it gets a lot"
+  },
+  {
+    "t_start": 312.24,
+    "t_end": 314.009,
+    "text": "more interesting. So now instead of"
+  },
+  {
+    "t_start": 314.009,
+    "t_end": 315.69,
+    "text": "thinking of this as a two-dimensional"
+  },
+  {
+    "t_start": 315.69,
+    "t_end": 318.12,
+    "text": "surface with one-dimensional closed"
+  },
+  {
+    "t_start": 318.12,
+    "t_end": 319.949,
+    "text": "paths in there, now let's think of this"
+  },
+  {
+    "t_start": 319.949,
+    "t_end": 322.44,
+    "text": "as a three dimensional surface. So I'll"
+  },
+  {
+    "t_start": 322.44,
+    "t_end": 324.3,
+    "text": "think of a axis there, I don't want to"
+  },
+  {
+    "t_start": 324.3,
+    "t_end": 325.65,
+    "text": "always draw that, but think of this as"
+  },
+  {
+    "t_start": 325.65,
+    "t_end": 327.419,
+    "text": "three dimensions and we could be"
+  },
+  {
+    "t_start": 327.419,
+    "t_end": 330.66,
+    "text": "thinking about say a sphere, a beach ball."
+  },
+  {
+    "t_start": 330.66,
+    "t_end": 332.07,
+    "text": "You know you can think of a beach ball"
+  },
+  {
+    "t_start": 332.07,
+    "t_end": 334.5,
+    "text": "which, if it's all blown up, is is nice"
+  },
+  {
+    "t_start": 334.5,
+    "t_end": 336.72,
+    "text": "and round but if it's if it's not you"
+  },
+  {
+    "t_start": 336.72,
+    "t_end": 338.4,
+    "text": "know if you've left it you know get to"
+  },
+  {
+    "t_start": 338.4,
+    "t_end": 340.05,
+    "text": "the middle of the winter it's going to"
+  },
+  {
+    "t_start": 340.05,
+    "t_end": 342.599,
+    "text": "be maybe instead of being a nice round"
+  },
+  {
+    "t_start": 342.599,
+    "t_end": 345.21,
+    "text": "one it's going to be you know sort of"
+  },
+  {
+    "t_start": 345.21,
+    "t_end": 346.56,
+    "text": "something like this, and think of this"
+  },
+  {
+    "t_start": 346.56,
+    "t_end": 348.389,
+    "text": "always as two dimensions and maybe it"
+  },
+  {
+    "t_start": 348.389,
+    "t_end": 351.06,
+    "text": "has a little, you know sort of a- this is"
+  },
+  {
+    "t_start": 351.06,
+    "t_end": 352.77,
+    "text": "a two dimensional surface in three"
+  },
+  {
+    "t_start": 352.77,
+    "t_end": 354.33,
+    "text": "dimensions. So we're in a three"
+  },
+  {
+    "t_start": 354.33,
+    "t_end": 356.43,
+    "text": "dimensional space but we're thinking of"
+  },
+  {
+    "t_start": 356.43,
+    "t_end": 358.229,
+    "text": "a two-dimensional surface, just like the"
+  },
+  {
+    "t_start": 358.229,
+    "t_end": 359.82,
+    "text": "surface of the Earth. The so-called mean"
+  },
+  {
+    "t_start": 359.82,
+    "t_end": 363.3,
+    "text": "curvature flow is similar to the"
+  },
+  {
+    "t_start": 363.3,
+    "t_end": 365.82,
+    "text": "curve shortening flow except now we're"
+  },
+  {
+    "t_start": 365.82,
+    "t_end": 368.37,
+    "text": "moving this two-dimensional surface. And"
+  },
+  {
+    "t_start": 368.37,
+    "t_end": 370.56,
+    "text": "because- and we're going to be mov- the"
+  },
+  {
+    "t_start": 370.56,
+    "t_end": 372.81,
+    "text": "the notion of curvature is is is quite a"
+  },
+  {
+    "t_start": 372.81,
+    "t_end": 374.34,
+    "text": "bit more complicated when you have a"
+  },
+  {
+    "t_start": 374.34,
+    "t_end": 376.5,
+    "text": "higher dimensional- a higher dimensional"
+  },
+  {
+    "t_start": 376.5,
+    "t_end": 378.21,
+    "text": "surface, but it's moved according to"
+  },
+  {
+    "t_start": 378.21,
+    "t_end": 379.59,
+    "text": "what's called the mean curvature which is"
+  },
+  {
+    "t_start": 379.59,
+    "t_end": 381.659,
+    "text": "sort of the average of the curvature in"
+  },
+  {
+    "t_start": 381.659,
+    "t_end": 383.22,
+    "text": "this direction and that direction. The"
+  },
+  {
+    "t_start": 383.22,
+    "t_end": 385.139,
+    "text": "flow - and remember we have this word flow"
+  },
+  {
+    "t_start": 385.139,
+    "t_end": 386.63,
+    "text": "which is telling how is this"
+  },
+  {
+    "t_start": 386.63,
+    "t_end": 389.789,
+    "text": "two-dimensional surface, this this sort"
+  },
+  {
+    "t_start": 389.789,
+    "t_end": 391.5,
+    "text": "of half deflated beach ball, how is it"
+  },
+  {
+    "t_start": 391.5,
+    "t_end": 394.229,
+    "text": "going to move in space? And before"
+  },
+  {
+    "t_start": 394.229,
+    "t_end": 395.639,
+    "text": "when we were talking about a path in"
+  },
+  {
+    "t_start": 395.639,
+    "t_end": 397.77,
+    "text": "space we talked about a tangent line, now"
+  },
+  {
+    "t_start": 397.77,
+    "t_end": 400.05,
+    "text": "we have a tangent plane. Think of the"
+  },
+  {
+    "t_start": 400.05,
+    "t_end": 401.05,
+    "text": "surface of this ball"
+  },
+  {
+    "t_start": 401.05,
+    "t_end": 405.46,
+    "text": "and you sort of take a two dimensional surface and fit"
+  },
+  {
+    "t_start": 405.46,
+    "t_end": 407.05,
+    "text": "it at that point, that'll be the tangent"
+  },
+  {
+    "t_start": 407.05,
+    "t_end": 410.229,
+    "text": "plane, and this point is going to move in"
+  },
+  {
+    "t_start": 410.229,
+    "t_end": 412.96,
+    "text": "the direction which is 90 degrees to"
+  },
+  {
+    "t_start": 412.96,
+    "t_end": 415.449,
+    "text": "every- to that plane so it's in the- again"
+  },
+  {
+    "t_start": 415.449,
+    "t_end": 417.37,
+    "text": "the sort of orthogonal normal direction."
+  },
+  {
+    "t_start": 417.37,
+    "t_end": 420.49,
+    "text": "(So our wonky beach ball is going to get bigger)"
+  },
+  {
+    "t_start": 420.49,
+    "t_end": 422.8,
+    "text": "(or smaller or?) - Well actually - and I"
+  },
+  {
+    "t_start": 422.8,
+    "t_end": 424.03,
+    "text": "shouldn't have drawn it this way because"
+  },
+  {
+    "t_start": 424.03,
+    "t_end": 425.8,
+    "text": "this curvature it would tend to go in"
+  },
+  {
+    "t_start": 425.8,
+    "t_end": 428.11,
+    "text": "this direction - our beach ball, unless we"
+  },
+  {
+    "t_start": 428.11,
+    "t_end": 430.18,
+    "text": "tell it to make sure that the that the"
+  },
+  {
+    "t_start": 430.18,
+    "t_end": 432.909,
+    "text": "volume contained inside is is constant,"
+  },
+  {
+    "t_start": 432.909,
+    "t_end": 434.56,
+    "text": "you can do that. You can change the flow"
+  },
+  {
+    "t_start": 434.56,
+    "t_end": 436.63,
+    "text": "of it, if you don't it's going to become"
+  },
+  {
+    "t_start": 436.63,
+    "t_end": 438.46,
+    "text": "smaller and smaller and rounder and"
+  },
+  {
+    "t_start": 438.46,
+    "t_end": 441.159,
+    "text": "rounder. Unless- but the interesting thing"
+  },
+  {
+    "t_start": 441.159,
+    "t_end": 442.63,
+    "text": "that can happen here that's a little bit"
+  },
+  {
+    "t_start": 442.63,
+    "t_end": 444.909,
+    "text": "different from that simple curve curve"
+  },
+  {
+    "t_start": 444.909,
+    "t_end": 446.77,
+    "text": "shortening I was talking about before is"
+  },
+  {
+    "t_start": 446.77,
+    "t_end": 449.8,
+    "text": "say you have one that starts out like"
+  },
+  {
+    "t_start": 449.8,
+    "t_end": 452.889,
+    "text": "this, I think of this as a sphere with a"
+  },
+  {
+    "t_start": 452.889,
+    "t_end": 455.02,
+    "text": "very tight corset. People don't wear"
+  },
+  {
+    "t_start": 455.02,
+    "t_end": 457.469,
+    "text": "corsets anymore I don't think but anyway-"
+  },
+  {
+    "t_start": 457.469,
+    "t_end": 461.62,
+    "text": "(That's 3D though?) - This is 3D, so think of this as, so this"
+  },
+  {
+    "t_start": 461.62,
+    "t_end": 464.31,
+    "text": "is 3D, think of this the surface as as"
+  },
+  {
+    "t_start": 464.31,
+    "t_end": 467.53,
+    "text": "taking that that beach ball- - (It's like an hourglass?)"
+  },
+  {
+    "t_start": 467.53,
+    "t_end": 469.599,
+    "text": "Like an hourglass, very good, like an hourglass. So"
+  },
+  {
+    "t_start": 469.599,
+    "t_end": 471.849,
+    "text": "what's going to happen here for reasons"
+  },
+  {
+    "t_start": 471.849,
+    "t_end": 473.56,
+    "text": "that are I think a little tricky to"
+  },
+  {
+    "t_start": 473.56,
+    "t_end": 476.139,
+    "text": "explain; but right here where you have a"
+  },
+  {
+    "t_start": 476.139,
+    "t_end": 478.0,
+    "text": "lot of curvature in certain directions,"
+  },
+  {
+    "t_start": 478.0,
+    "t_end": 481.06,
+    "text": "this thing instead of becoming round"
+  },
+  {
+    "t_start": 481.06,
+    "t_end": 483.13,
+    "text": "this whole thing is going to shrink off"
+  },
+  {
+    "t_start": 483.13,
+    "t_end": 486.58,
+    "text": "and it's going to - as we go in time - this"
+  },
+  {
+    "t_start": 486.58,
+    "t_end": 491.03,
+    "text": "is going to basically go down to"
+  },
+  {
+    "t_start": 492.01,
+    "t_end": 494.169,
+    "text": "the radius around here is going to go"
+  },
+  {
+    "t_start": 494.169,
+    "t_end": 496.659,
+    "text": "down to zero. The curvature now blows up;"
+  },
+  {
+    "t_start": 496.659,
+    "t_end": 498.279,
+    "text": "when I say blow up I mean it becomes"
+  },
+  {
+    "t_start": 498.279,
+    "t_end": 500.44,
+    "text": "infinite. What happens here now is you"
+  },
+  {
+    "t_start": 500.44,
+    "t_end": 502.479,
+    "text": "have to stop the flow because the flow"
+  },
+  {
+    "t_start": 502.479,
+    "t_end": 504.46,
+    "text": "can't move anymore. The flow is saying,"
+  },
+  {
+    "t_start": 504.46,
+    "t_end": 507.94,
+    "text": "move a given point in a direction which"
+  },
+  {
+    "t_start": 507.94,
+    "t_end": 510.729,
+    "text": "is orthogonal to the surface, orthogonal to"
+  },
+  {
+    "t_start": 510.729,
+    "t_end": 512.89,
+    "text": "the tangent plane, and move it in an amount"
+  },
+  {
+    "t_start": 512.89,
+    "t_end": 514.659,
+    "text": "that's proportional to the curvature. If"
+  },
+  {
+    "t_start": 514.659,
+    "t_end": 517.479,
+    "text": "the curvature is infinite you can't do that anymore."
+  },
+  {
+    "t_start": 517.479,
+    "t_end": 519.279,
+    "text": "(Jim isn't it only that point that can't move?)"
+  },
+  {
+    "t_start": 519.279,
+    "t_end": 521.02,
+    "text": "(Can't all the other points on)"
+  },
+  {
+    "t_start": 521.02,
+    "t_end": 523.12,
+    "text": "(our hourglass continue?) - You can. You can"
+  },
+  {
+    "t_start": 523.12,
+    "t_end": 525.579,
+    "text": "do that if you say I'm going to- so what"
+  },
+  {
+    "t_start": 525.579,
+    "t_end": 527.44,
+    "text": "people- you sort of do a quarantine. You"
+  },
+  {
+    "t_start": 527.44,
+    "t_end": 528.94,
+    "text": "say okay we're not going to work with"
+  },
+  {
+    "t_start": 528.94,
+    "t_end": 530.529,
+    "text": "these guys anymore let's- in fact you"
+  },
+  {
+    "t_start": 530.529,
+    "t_end": 532.12,
+    "text": "could try to throw it out and look we can"
+  },
+  {
+    "t_start": 532.12,
+    "t_end": 533.89,
+    "text": "continue to work with these. The problem"
+  },
+  {
+    "t_start": 533.89,
+    "t_end": 535.12,
+    "text": "with just continuing"
+  },
+  {
+    "t_start": 535.12,
+    "t_end": 537.1,
+    "text": "everywhere else, the disease that's happened"
+  },
+  {
+    "t_start": 537.1,
+    "t_end": 538.839,
+    "text": "here if you will is going to spread very"
+  },
+  {
+    "t_start": 538.839,
+    "t_end": 540.88,
+    "text": "quickly and very quickly the whole thing"
+  },
+  {
+    "t_start": 540.88,
+    "t_end": 542.11,
+    "text": "is not going to make any sense."
+  },
+  {
+    "t_start": 542.11,
+    "t_end": 543.97,
+    "text": "So what one would like to do, and this"
+  },
+  {
+    "t_start": 543.97,
+    "t_end": 545.589,
+    "text": "was a very important thing in the Ricci"
+  },
+  {
+    "t_start": 545.589,
+    "t_end": 548.86,
+    "text": "flow, in Perelman's use of Ricci flow to"
+  },
+  {
+    "t_start": 548.86,
+    "t_end": 550.45,
+    "text": "prove the Poincaré conjecture, is"
+  },
+  {
+    "t_start": 550.45,
+    "t_end": 552.67,
+    "text": "figure out how do I quarantine these"
+  },
+  {
+    "t_start": 552.67,
+    "t_end": 554.77,
+    "text": "singularities for me? How do I cut this"
+  },
+  {
+    "t_start": 554.77,
+    "t_end": 556.75,
+    "text": "thing off so to put a little bandage"
+  },
+  {
+    "t_start": 556.75,
+    "t_end": 558.46,
+    "text": "around it? They call it surgery and"
+  },
+  {
+    "t_start": 558.46,
+    "t_end": 560.98,
+    "text": "surgery off the bad place and continue"
+  },
+  {
+    "t_start": 560.98,
+    "t_end": 564.25,
+    "text": "the flow elsewhere. So can we get rid of that stuff?"
+  },
+  {
+    "t_start": 564.25,
+    "t_end": 566.38,
+    "text": "And that's- you can think of that as a"
+  },
+  {
+    "t_start": 566.38,
+    "t_end": 568.72,
+    "text": "fairly arbitrary thing but you have to"
+  },
+  {
+    "t_start": 568.72,
+    "t_end": 570.64,
+    "text": "do it very cleverly if you want to learn"
+  },
+  {
+    "t_start": 570.64,
+    "t_end": 572.83,
+    "text": "things about the nature of the"
+  },
+  {
+    "t_start": 572.83,
+    "t_end": 576.01,
+    "text": "relationship of topology which is kinds"
+  },
+  {
+    "t_start": 576.01,
+    "t_end": 577.99,
+    "text": "of surfaces and curvature which is about"
+  },
+  {
+    "t_start": 577.99,
+    "t_end": 580.779,
+    "text": "how how round and how curved- you know how"
+  },
+  {
+    "t_start": 580.779,
+    "t_end": 582.76,
+    "text": "pointy things are. So here we're dealing"
+  },
+  {
+    "t_start": 582.76,
+    "t_end": 584.47,
+    "text": "with 2-dimensional surfaces in"
+  },
+  {
+    "t_start": 584.47,
+    "t_end": 585.69,
+    "text": "3-dimensional space;"
+  },
+  {
+    "t_start": 585.69,
+    "t_end": 587.95,
+    "text": "mathematicians like to abstract things"
+  },
+  {
+    "t_start": 587.95,
+    "t_end": 589.6,
+    "text": "so we could think about"
+  },
+  {
+    "t_start": 589.6,
+    "t_end": 591.52,
+    "text": "3-dimensional surfaces in 4"
+  },
+  {
+    "t_start": 591.52,
+    "t_end": 593.89,
+    "text": "dimensional space. Now I'm not going to"
+  },
+  {
+    "t_start": 593.89,
+    "t_end": 595.57,
+    "text": "try to draw a picture, even here this is"
+  },
+  {
+    "t_start": 595.57,
+    "t_end": 597.339,
+    "text": "a bit of a lie because I'm drawing on a"
+  },
+  {
+    "t_start": 597.339,
+    "t_end": 599.68,
+    "text": "2-dimensional surface. But one can do"
+  },
+  {
+    "t_start": 599.68,
+    "t_end": 601.48,
+    "text": "that. Now you have more curvatures and"
+  },
+  {
+    "t_start": 601.48,
+    "t_end": 602.86,
+    "text": "more interesting things you can do."
+  },
+  {
+    "t_start": 602.86,
+    "t_end": 604.87,
+    "text": "That's still not Ricci flow. Ricci flow"
+  },
+  {
+    "t_start": 604.87,
+    "t_end": 608.14,
+    "text": "is a big step away from mean curvature"
+  },
+  {
+    "t_start": 608.14,
+    "t_end": 610.089,
+    "text": "flow or inverse mean curvature flow in"
+  },
+  {
+    "t_start": 610.089,
+    "t_end": 613.209,
+    "text": "the following abstract way: in the in"
+  },
+  {
+    "t_start": 613.209,
+    "t_end": 614.47,
+    "text": "this kind of thing where we're first"
+  },
+  {
+    "t_start": 614.47,
+    "t_end": 616.06,
+    "text": "talking about 2-dimensional surfaces"
+  },
+  {
+    "t_start": 616.06,
+    "t_end": 618.13,
+    "text": "in 3-space or even 3-dimensional"
+  },
+  {
+    "t_start": 618.13,
+    "t_end": 620.14,
+    "text": "surfaces in 4-space; you can still"
+  },
+  {
+    "t_start": 620.14,
+    "t_end": 622.75,
+    "text": "picture, picture that big empty space and"
+  },
+  {
+    "t_start": 622.75,
+    "t_end": 626.35,
+    "text": "you have this this like the the deflated"
+  },
+  {
+    "t_start": 626.35,
+    "t_end": 627.91,
+    "text": "beach ball you have that thing sitting"
+  },
+  {
+    "t_start": 627.91,
+    "t_end": 630.37,
+    "text": "in the space. And it's easy for our minds"
+  },
+  {
+    "t_start": 630.37,
+    "t_end": 632.47,
+    "text": "to picture going to a 4-dimensional"
+  },
+  {
+    "t_start": 632.47,
+    "t_end": 634.24,
+    "text": "space I think relatively easy,"
+  },
+  {
+    "t_start": 634.24,
+    "t_end": 636.279,
+    "text": "maybe I'm fooling myself; but to picture"
+  },
+  {
+    "t_start": 636.279,
+    "t_end": 638.02,
+    "text": "a 3-dimensional thing or even a"
+  },
+  {
+    "t_start": 638.02,
+    "t_end": 639.4,
+    "text": "2-dimensional thing in 4"
+  },
+  {
+    "t_start": 639.4,
+    "t_end": 641.529,
+    "text": "dimensional space. Ricci flow is very"
+  },
+  {
+    "t_start": 641.529,
+    "t_end": 643.99,
+    "text": "different. Now the object you're looking"
+  },
+  {
+    "t_start": 643.99,
+    "t_end": 646.57,
+    "text": "at is not sitting inside a space, you're"
+  },
+  {
+    "t_start": 646.57,
+    "t_end": 648.97,
+    "text": "not moving the object. So maybe I'll try"
+  },
+  {
+    "t_start": 648.97,
+    "t_end": 650.41,
+    "text": "to explain now."
+  },
+  {
+    "t_start": 652.2,
+    "t_end": 654.21,
+    "text": "With the curve shortening flow and the"
+  },
+  {
+    "t_start": 654.21,
+    "t_end": 655.89,
+    "text": "mean curvature flow we were taking an"
+  },
+  {
+    "t_start": 655.89,
+    "t_end": 659.97,
+    "text": "object, be it a path or the surface of a"
+  },
+  {
+    "t_start": 659.97,
+    "t_end": 662.16,
+    "text": "ball, I mean surface of a deformed ball, and"
+  },
+  {
+    "t_start": 662.16,
+    "t_end": 664.08,
+    "text": "we're moving that in the empty space."
+  },
+  {
+    "t_start": 664.08,
+    "t_end": 666.12,
+    "text": "Ricci flow you're doing something very"
+  },
+  {
+    "t_start": 666.12,
+    "t_end": 667.65,
+    "text": "different. You're dealing with something"
+  },
+  {
+    "t_start": 667.65,
+    "t_end": 670.23,
+    "text": "called Riemannian geometry. Just think,"
+  },
+  {
+    "t_start": 670.23,
+    "t_end": 672.66,
+    "text": "so I'm going to have to go back - how do I"
+  },
+  {
+    "t_start": 672.66,
+    "t_end": 674.07,
+    "text": "do this? Mathematics is about"
+  },
+  {
+    "t_start": 674.07,
+    "t_end": 676.29,
+    "text": "abstracting. Some abstractions, like going"
+  },
+  {
+    "t_start": 676.29,
+    "t_end": 678.06,
+    "text": "from 2-dimensional objects in 3"
+  },
+  {
+    "t_start": 678.06,
+    "t_end": 680.37,
+    "text": "space to 3-dimensional objects in"
+  },
+  {
+    "t_start": 680.37,
+    "t_end": 682.65,
+    "text": "4-space, you can sort of trick your"
+  },
+  {
+    "t_start": 682.65,
+    "t_end": 684.63,
+    "text": "mind into thinking about that. But when"
+  },
+  {
+    "t_start": 684.63,
+    "t_end": 686.19,
+    "text": "you do the abstraction in going to"
+  },
+  {
+    "t_start": 686.19,
+    "t_end": 687.69,
+    "text": "Riemannian geometry you have to think"
+  },
+  {
+    "t_start": 687.69,
+    "t_end": 689.91,
+    "text": "about- think about the surface of"
+  },
+  {
+    "t_start": 689.91,
+    "t_end": 691.98,
+    "text": "that ball but forget the inside, forget"
+  },
+  {
+    "t_start": 691.98,
+    "t_end": 694.41,
+    "text": "the outside, it's not moving. So I'm going"
+  },
+  {
+    "t_start": 694.41,
+    "t_end": 697.92,
+    "text": "to draw the same old picture of this"
+  },
+  {
+    "t_start": 697.92,
+    "t_end": 700.32,
+    "text": "this- think of this 2-dimensional"
+  },
+  {
+    "t_start": 700.32,
+    "t_end": 702.51,
+    "text": "surface. Except, don't think of it sitting"
+  },
+  {
+    "t_start": 702.51,
+    "t_end": 704.73,
+    "text": "inside a big space, think of it as"
+  },
+  {
+    "t_start": 704.73,
+    "t_end": 708.54,
+    "text": "something where you specify a function"
+  },
+  {
+    "t_start": 708.54,
+    "t_end": 710.04,
+    "text": "and the function is going to assign a"
+  },
+  {
+    "t_start": 710.04,
+    "t_end": 712.32,
+    "text": "matrix. So think of a matrix, well usually"
+  },
+  {
+    "t_start": 712.32,
+    "t_end": 715.17,
+    "text": "it's called G, and at each point - let's"
+  },
+  {
+    "t_start": 715.17,
+    "t_end": 718.07,
+    "text": "say the point is labelled by x - there's a"
+  },
+  {
+    "t_start": 718.07,
+    "t_end": 721.17,
+    "text": "component G11 in this corner,"
+  },
+  {
+    "t_start": 721.17,
+    "t_end": 723.87,
+    "text": "function of x G12 and maybe- it's a"
+  },
+  {
+    "t_start": 723.87,
+    "t_end": 726.36,
+    "text": "square matrix that goes. So you have a"
+  },
+  {
+    "t_start": 726.36,
+    "t_end": 728.37,
+    "text": "square array of numbers and these"
+  },
+  {
+    "t_start": 728.37,
+    "t_end": 730.2,
+    "text": "numbers, and this is called the metric,"
+  },
+  {
+    "t_start": 730.2,
+    "t_end": 734.04,
+    "text": "these numbers tell in an abstract way"
+  },
+  {
+    "t_start": 734.04,
+    "t_end": 735.84,
+    "text": "what kind of information would you like"
+  },
+  {
+    "t_start": 735.84,
+    "t_end": 737.49,
+    "text": "to know. One thing you would like to know"
+  },
+  {
+    "t_start": 737.49,
+    "t_end": 739.14,
+    "text": "is if you're starting at a point here"
+  },
+  {
+    "t_start": 739.14,
+    "t_end": 740.94,
+    "text": "and you're going to a point there what's"
+  },
+  {
+    "t_start": 740.94,
+    "t_end": 744.18,
+    "text": "the shortest possible path between them?"
+  },
+  {
+    "t_start": 744.18,
+    "t_end": 746.1,
+    "text": "You can take any point on Earth and then"
+  },
+  {
+    "t_start": 746.1,
+    "t_end": 747.72,
+    "text": "another point and find the great circle"
+  },
+  {
+    "t_start": 747.72,
+    "t_end": 749.34,
+    "text": "route between them. And they tend to be"
+  },
+  {
+    "t_start": 749.34,
+    "t_end": 751.77,
+    "text": "just sort of almost straight paths. But"
+  },
+  {
+    "t_start": 751.77,
+    "t_end": 753.36,
+    "text": "say you're in a mountain range and you"
+  },
+  {
+    "t_start": 753.36,
+    "t_end": 754.59,
+    "text": "want to get from the top of one mountain"
+  },
+  {
+    "t_start": 754.59,
+    "t_end": 757.05,
+    "text": "to another, this is a very curvy place"
+  },
+  {
+    "t_start": 757.05,
+    "t_end": 758.7,
+    "text": "and if you try to find the shortest"
+  },
+  {
+    "t_start": 758.7,
+    "t_end": 760.77,
+    "text": "possible path between them it can be"
+  },
+  {
+    "t_start": 760.77,
+    "t_end": 762.42,
+    "text": "very complicated. You can think about"
+  },
+  {
+    "t_start": 762.42,
+    "t_end": 764.64,
+    "text": "this kind of thing for a surface in"
+  },
+  {
+    "t_start": 764.64,
+    "t_end": 767.28,
+    "text": "space or what you can do is say I'm not"
+  },
+  {
+    "t_start": 767.28,
+    "t_end": 769.86,
+    "text": "thinking about this this this surface in"
+  },
+  {
+    "t_start": 769.86,
+    "t_end": 771.87,
+    "text": "space, I'm just going to assign it"
+  },
+  {
+    "t_start": 771.87,
+    "t_end": 774.15,
+    "text": "something called the metric and using a"
+  },
+  {
+    "t_start": 774.15,
+    "t_end": 776.1,
+    "text": "little bit of mathematics you can use"
+  },
+  {
+    "t_start": 776.1,
+    "t_end": 778.17,
+    "text": "that metric to decide what shortest"
+  },
+  {
+    "t_start": 778.17,
+    "t_end": 780.06,
+    "text": "possible paths are going to be, what"
+  },
+  {
+    "t_start": 780.06,
+    "t_end": 781.98,
+    "text": "volume- what the area of different"
+  },
+  {
+    "t_start": 781.98,
+    "t_end": 783.78,
+    "text": "regions is going to be and what the"
+  },
+  {
+    "t_start": 783.78,
+    "t_end": 785.25,
+    "text": "curvature of this thing is going to be."
+  },
+  {
+    "t_start": 785.25,
+    "t_end": 787.7,
+    "text": "You can think of Ricci flow as, let's take this"
+  },
+  {
+    "t_start": 787.7,
+    "t_end": 791.49,
+    "text": "metric, the metric changes in accordance"
+  },
+  {
+    "t_start": 791.49,
+    "t_end": 792.899,
+    "text": "with something that involves the"
+  },
+  {
+    "t_start": 792.899,
+    "t_end": 795.69,
+    "text": "curvature. So the basic idea is the same"
+  },
+  {
+    "t_start": 795.69,
+    "t_end": 800.76,
+    "text": "don't move the surface in space we move"
+  },
+  {
+    "t_start": 800.76,
+    "t_end": 803.37,
+    "text": "this thing, we change this thing which is"
+  },
+  {
+    "t_start": 803.37,
+    "t_end": 805.2,
+    "text": "describing the geometry. A very"
+  },
+  {
+    "t_start": 805.2,
+    "t_end": 806.579,
+    "text": "interesting and important feature of"
+  },
+  {
+    "t_start": 806.579,
+    "t_end": 808.769,
+    "text": "Ricci flow, like that mean curvature flow,"
+  },
+  {
+    "t_start": 808.769,
+    "t_end": 811.11,
+    "text": "is if you have something and I'm going"
+  },
+  {
+    "t_start": 811.11,
+    "t_end": 814.47,
+    "text": "to- this is not fair but if I draw that"
+  },
+  {
+    "t_start": 814.47,
+    "t_end": 816.3,
+    "text": "same picture where somewhere there's a"
+  },
+  {
+    "t_start": 816.3,
+    "t_end": 818.97,
+    "text": "lot of curvature there, maybe it has some"
+  },
+  {
+    "t_start": 818.97,
+    "t_end": 821.43,
+    "text": "interesting holes in a topology. But if"
+  },
+  {
+    "t_start": 821.43,
+    "t_end": 823.35,
+    "text": "you have- now this wouldn't work in 2"
+  },
+  {
+    "t_start": 823.35,
+    "t_end": 825.06,
+    "text": "dimensions, in 2 dimensions it's always"
+  },
+  {
+    "t_start": 825.06,
+    "t_end": 828.3,
+    "text": "going to become as round as possible. But"
+  },
+  {
+    "t_start": 828.3,
+    "t_end": 830.04,
+    "text": "if you go to higher dimensions, when you"
+  },
+  {
+    "t_start": 830.04,
+    "t_end": 831.959,
+    "text": "have a lot of curvature in some place"
+  },
+  {
+    "t_start": 831.959,
+    "t_end": 836.31,
+    "text": "it's going to tend to- the flow is going"
+  },
+  {
+    "t_start": 836.31,
+    "t_end": 837.93,
+    "text": "to tend to hit a singularity where the"
+  },
+  {
+    "t_start": 837.93,
+    "t_end": 839.31,
+    "text": "curvature gets arbitrarily big."
+  },
+  {
+    "t_start": 839.31,
+    "t_end": 840.899,
+    "text": "Understanding how to work with the"
+  },
+  {
+    "t_start": 840.899,
+    "t_end": 842.87,
+    "text": "curvature was very important in"
+  },
+  {
+    "t_start": 842.87,
+    "t_end": 845.399,
+    "text": "Perelman's proof of the Poincaré"
+  },
+  {
+    "t_start": 845.399,
+    "t_end": 846.839,
+    "text": "conjecture and the geometrization"
+  },
+  {
+    "t_start": 846.839,
+    "t_end": 849.55,
+    "text": "conjecture using Ricci flow."
+  },
+  {
+    "t_start": 850.74,
+    "t_end": 852.39,
+    "text": "If you'd like to see and hear a bit more about the"
+  },
+  {
+    "t_start": 852.39,
+    "t_end": 854.67,
+    "text": "Poincaré conjecture there will be links"
+  },
+  {
+    "t_start": 854.67,
+    "t_end": 856.32,
+    "text": "on the screen and in the video"
+  },
+  {
+    "t_start": 856.32,
+    "t_end": 857.88,
+    "text": "description; we've got sort of a fairly"
+  },
+  {
+    "t_start": 857.88,
+    "t_end": 860.19,
+    "text": "simple video about it. And there's also a"
+  },
+  {
+    "t_start": 860.19,
+    "t_end": 862.11,
+    "text": "lot more of my interview with Jim about"
+  },
+  {
+    "t_start": 862.11,
+    "t_end": 864.36,
+    "text": "the conjecture and also how the Ricci"
+  },
+  {
+    "t_start": 864.36,
+    "t_end": 867.24,
+    "text": "flow sort of contributed to it finally"
+  },
+  {
+    "t_start": 867.24,
+    "t_end": 869.1,
+    "text": "been cracked. If you haven't subscribed"
+  },
+  {
+    "t_start": 869.1,
+    "t_end": 870.779,
+    "text": "to Numberphile please do, we'd love to"
+  },
+  {
+    "t_start": 870.779,
+    "t_end": 872.399,
+    "text": "have you on board. And if there are other"
+  },
+  {
+    "t_start": 872.399,
+    "t_end": 874.5,
+    "text": "subjects you're into like chemistry and"
+  },
+  {
+    "t_start": 874.5,
+    "t_end": 876.51,
+    "text": "physics, astronomy have a look in the"
+  },
+  {
+    "t_start": 876.51,
+    "t_end": 878.43,
+    "text": "video description, I'll have links to my"
+  },
+  {
+    "t_start": 878.43,
+    "t_end": 881.209,
+    "text": "other channels there."
+  }
+]

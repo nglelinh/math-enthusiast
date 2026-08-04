@@ -1,0 +1,907 @@
+[
+  {
+    "t_start": 1.84,
+    "t_end": 5.296,
+    "text": "Imagine a map of the mathematical world."
+  },
+  {
+    "t_start": 5.296,
+    "t_end": 9.195,
+    "text": "It's the product of thousands of years of human ingenuity,"
+  },
+  {
+    "t_start": 9.195,
+    "t_end": 12.861,
+    "text": "from the Babylonians to Riemann to the present day."
+  },
+  {
+    "t_start": 12.861,
+    "t_end": 18.901,
+    "text": "In this world is everything we know about numbers, shapes and their relationships."
+  },
+  {
+    "t_start": 18.901,
+    "t_end": 23.868,
+    "text": "There are many mathematical continents, each with its own language and culture."
+  },
+  {
+    "t_start": 23.868,
+    "t_end": 27.236,
+    "text": "One with a distinguished history is number theory."
+  },
+  {
+    "t_start": 27.68,
+    "t_end": 31.52,
+    "text": "It's an unpredictable land of lush forests full of opportunity"
+  },
+  {
+    "t_start": 31.52,
+    "t_end": 34.062,
+    "text": "with little secrets hidden everywhere."
+  },
+  {
+    "t_start": 34.062,
+    "t_end": 37.118,
+    "text": "Here, they speak the language of arithmetic."
+  },
+  {
+    "t_start": 38.64,
+    "t_end": 42.357,
+    "text": "Another continent is called harmonic analysis."
+  },
+  {
+    "t_start": 42.357,
+    "t_end": 46.949,
+    "text": "It's a place of smooth curves, symmetry and repeating patterns."
+  },
+  {
+    "t_start": 46.949,
+    "t_end": 52.029,
+    "text": "Here, mathematical objects speak the language of signals and waves."
+  },
+  {
+    "t_start": 52.56,
+    "t_end": 56.8,
+    "text": "For most of history these two continents have remained distant strangers."
+  },
+  {
+    "t_start": 56.8,
+    "t_end": 61.092,
+    "text": "Mathematicians didn't think there would be much to gain from trying to travel between them."
+  },
+  {
+    "t_start": 61.092,
+    "t_end": 64.574,
+    "text": "But in the last half century something striking has happened:"
+  },
+  {
+    "t_start": 64.574,
+    "t_end": 69.365,
+    "text": "We've discovered glimpses of an enormous bridge that seems to connect the continents."
+  },
+  {
+    "t_start": 69.365,
+    "t_end": 75.25,
+    "text": "As mathematicians build segments of this bridge, they can pass seemingly intractable problems across it,"
+  },
+  {
+    "t_start": 75.25,
+    "t_end": 77.438,
+    "text": "illuminating them in the process."
+  },
+  {
+    "t_start": 78.56,
+    "t_end": 82.589,
+    "text": "The full bridge is called the Langlands Program."
+  },
+  {
+    "t_start": 82.589,
+    "t_end": 86.302,
+    "text": "It's one of the biggest projects in modern mathematical research."
+  },
+  {
+    "t_start": 86.302,
+    "t_end": 89.777,
+    "text": "Some even like to call it a grand unified theory of mathematics."
+  },
+  {
+    "t_start": 90.48,
+    "t_end": 95.12,
+    "text": "I'm Alex Kontorovich, and I'll be your guide as we explore some of the patterns and symmetries"
+  },
+  {
+    "t_start": 95.12,
+    "t_end": 97.328,
+    "text": "suggested by the Langlands Program,"
+  },
+  {
+    "t_start": 97.328,
+    "t_end": 100.624,
+    "text": "ideas that imply deep powerful and beautiful connections"
+  },
+  {
+    "t_start": 100.624,
+    "t_end": 104.687,
+    "text": "between the most fundamental continents of the mathematical world."
+  },
+  {
+    "t_start": 106.0,
+    "t_end": 111.098,
+    "text": "in 1967, a 30-year-old-mathematician named Robert Langlands"
+  },
+  {
+    "t_start": 111.098,
+    "t_end": 114.001,
+    "text": "wrote a deceptively modest letter to his colleague,"
+  },
+  {
+    "t_start": 114.001,
+    "t_end": 117.542,
+    "text": "the famous French number theorist Andre Weil."
+  },
+  {
+    "t_start": 117.542,
+    "t_end": 122.274,
+    "text": "\"If you are willing to read this as pure speculation, I would appreciate that,\" the letter said."
+  },
+  {
+    "t_start": 122.274,
+    "t_end": 125.174,
+    "text": "\"If not, I'm sure you have a wastebasket handy.\""
+  },
+  {
+    "t_start": 125.84,
+    "t_end": 130.88,
+    "text": "To Weil's surprise, the letter contained a series of striking conjectures that predicted something"
+  },
+  {
+    "t_start": 130.88,
+    "t_end": 137.223,
+    "text": "very unlikely: A correspondence between two objects from completely different fields of math."
+  },
+  {
+    "t_start": 137.92,
+    "t_end": 141.369,
+    "text": "What Langlands suggested seemed stranger than telepathy."
+  },
+  {
+    "t_start": 141.369,
+    "t_end": 147.476,
+    "text": "How could two objects indigenous to different mathematical continents evolved to behave in exactly the same way?"
+  },
+  {
+    "t_start": 148.16,
+    "t_end": 152.138,
+    "text": "This is the question at the heart of the Langlands Program."
+  },
+  {
+    "t_start": 152.138,
+    "t_end": 154.336,
+    "text": "To understand this mysterious connection"
+  },
+  {
+    "t_start": 154.336,
+    "t_end": 159.488,
+    "text": "we first have to meet two mathematicians who studied these objects from opposite shores."
+  },
+  {
+    "t_start": 160.56,
+    "t_end": 163.327,
+    "text": "This is Srinivasa Ramanujan."
+  },
+  {
+    "t_start": 163.327,
+    "t_end": 168.009,
+    "text": "In 1916, the self-taught Indian math prodigy got very interested"
+  },
+  {
+    "t_start": 168.009,
+    "t_end": 172.339,
+    "text": "in a particular function, now known as the Ramanujan discriminant function."
+  },
+  {
+    "t_start": 172.339,
+    "t_end": 177.098,
+    "text": "Put simply, this function multiplies infinitely many terms together."
+  },
+  {
+    "t_start": 177.098,
+    "t_end": 182.694,
+    "text": "In Ramanujan's time, this was already known to be a special type of function called a modular form."
+  },
+  {
+    "t_start": 183.28,
+    "t_end": 187.44,
+    "text": "To see modular forms it's not enough to look at the real numbers;"
+  },
+  {
+    "t_start": 187.44,
+    "t_end": 193.111,
+    "text": "we need to treat the input as a complex number which will produce a complex output."
+  },
+  {
+    "t_start": 194.08,
+    "t_end": 198.478,
+    "text": "When we do this, the function starts to reveal its mesmerizing symmetries."
+  },
+  {
+    "t_start": 198.96,
+    "t_end": 202.96,
+    "text": "Modular forms are some of the most bizarre objects in mathematics."
+  },
+  {
+    "t_start": 202.96,
+    "t_end": 207.888,
+    "text": "They satisfy so many internal symmetries that it's surprising that they exist at all."
+  },
+  {
+    "t_start": 209.04,
+    "t_end": 212.913,
+    "text": "Ramanujan wasn't the first to study the symmetries of modular forms,"
+  },
+  {
+    "t_start": 212.913,
+    "t_end": 215.055,
+    "text": "but he was the first to imagine"
+  },
+  {
+    "t_start": 215.055,
+    "t_end": 218.756,
+    "text": "whether they had any connection to the distant shores of number theory."
+  },
+  {
+    "t_start": 219.52,
+    "t_end": 223.025,
+    "text": "He did this by studying the function from a different angle."
+  },
+  {
+    "t_start": 223.025,
+    "t_end": 225.396,
+    "text": "What would happen, Ramanujan wanted to know,"
+  },
+  {
+    "t_start": 225.396,
+    "t_end": 229.534,
+    "text": "if you multiplied all of its terms out and collected the coefficients?"
+  },
+  {
+    "t_start": 229.534,
+    "t_end": 234.52,
+    "text": "When he did this, Ramanujan noticed that the coefficients have a special kind of predictive power:"
+  },
+  {
+    "t_start": 234.52,
+    "t_end": 237.728,
+    "text": "If you know all of the function's prime coefficients,"
+  },
+  {
+    "t_start": 237.728,
+    "t_end": 240.601,
+    "text": "then you can use them to figure out the rest."
+  },
+  {
+    "t_start": 241.12,
+    "t_end": 245.28,
+    "text": "For example, if you find this coefficient, which is negative 24,"
+  },
+  {
+    "t_start": 245.84,
+    "t_end": 249.984,
+    "text": "and this coefficient, which happens to be 252,"
+  },
+  {
+    "t_start": 249.984,
+    "t_end": 254.188,
+    "text": "then I can immediately tell you what the coefficient of x to the sixth will be,"
+  },
+  {
+    "t_start": 254.188,
+    "t_end": 257.86,
+    "text": "because two times three is six."
+  },
+  {
+    "t_start": 257.86,
+    "t_end": 260.121,
+    "text": "This pattern always seemed to hold,"
+  },
+  {
+    "t_start": 260.121,
+    "t_end": 263.288,
+    "text": "but Ramanujan couldn't prove why."
+  },
+  {
+    "t_start": 263.288,
+    "t_end": 267.339,
+    "text": "He became obsessed with these numbers, and continued to experiment with them,"
+  },
+  {
+    "t_start": 267.339,
+    "t_end": 270.59,
+    "text": "eventually making more remarkable conjectures on their behavior."
+  },
+  {
+    "t_start": 270.88,
+    "t_end": 276.005,
+    "text": "But they were so difficult to prove that they sat collecting dust."
+  },
+  {
+    "t_start": 276.005,
+    "t_end": 279.78,
+    "text": "Nearly six decades later, Belgian mathematician Pierre Delign"
+  },
+  {
+    "t_start": 279.78,
+    "t_end": 283.145,
+    "text": "came up with a brilliant proof of Ramanujan's conjecture,"
+  },
+  {
+    "t_start": 283.145,
+    "t_end": 285.105,
+    "text": "earning Delign a Fields Medal."
+  },
+  {
+    "t_start": 285.105,
+    "t_end": 288.325,
+    "text": "Delign used the key insight from Langland's conjectures,"
+  },
+  {
+    "t_start": 288.325,
+    "t_end": 293.082,
+    "text": "called functoriality, to bypass the bridge from harmonic analysis to number theory."
+  },
+  {
+    "t_start": 293.68,
+    "t_end": 296.402,
+    "text": "But the bridge goes in both directions."
+  },
+  {
+    "t_start": 296.402,
+    "t_end": 299.472,
+    "text": "Now, it's time to travel over to the shores of number theory,"
+  },
+  {
+    "t_start": 299.472,
+    "t_end": 303.156,
+    "text": "where the rest of our story will take shape."
+  },
+  {
+    "t_start": 303.156,
+    "t_end": 307.468,
+    "text": "In 1637, the French lawyer turned hobbyist mathematician"
+  },
+  {
+    "t_start": 307.468,
+    "t_end": 312.473,
+    "text": "Pierre de Fermat scribbled an equation in his copy of Diophantus's Arithmetica."
+  },
+  {
+    "t_start": 312.88,
+    "t_end": 317.998,
+    "text": "He never offered a proof, claiming that it was too marvelous for the narrow margins to contain."
+  },
+  {
+    "t_start": 318.72,
+    "t_end": 321.795,
+    "text": "The theorem featured a polynomial equation,"
+  },
+  {
+    "t_start": 321.795,
+    "t_end": 325.544,
+    "text": "a fundamental object native to the continent of number theory."
+  },
+  {
+    "t_start": 325.544,
+    "t_end": 328.802,
+    "text": "These are some of the most basic equations you can write down."
+  },
+  {
+    "t_start": 328.802,
+    "t_end": 332.238,
+    "text": "Just variables, with exponents, that are positive whole numbers."
+  },
+  {
+    "t_start": 333.04,
+    "t_end": 336.178,
+    "text": "You may remember the Pythagorean theorem from school,"
+  },
+  {
+    "t_start": 336.178,
+    "t_end": 340.552,
+    "text": "that a right triangle with sides a, b and hypotenuse c"
+  },
+  {
+    "t_start": 340.552,
+    "t_end": 343.392,
+    "text": "will satisfy this equation."
+  },
+  {
+    "t_start": 343.392,
+    "t_end": 345.482,
+    "text": "There are lots of integer solutions."
+  },
+  {
+    "t_start": 345.76,
+    "t_end": 350.096,
+    "text": "Here's the note that Fermat wrote in the margins of Arithmetica:"
+  },
+  {
+    "t_start": 350.096,
+    "t_end": 355.882,
+    "text": "Unlike the pythagorean theorem, these polynomial equations will never have natural number solutions,"
+  },
+  {
+    "t_start": 355.882,
+    "t_end": 359.692,
+    "text": "except of course if one of the variables is zero."
+  },
+  {
+    "t_start": 359.692,
+    "t_end": 364.627,
+    "text": "This tantalizingly simple claim came to be known as Fermat's Last Theorem."
+  },
+  {
+    "t_start": 365.28,
+    "t_end": 372.306,
+    "text": "For 350 years, generations of mathematicians struggled to prove or disprove this conjecture."
+  },
+  {
+    "t_start": 372.72,
+    "t_end": 379.285,
+    "text": "Then, in the 1990s Princeton mathematician Andrew Wiles shocked the world with a breakthrough."
+  },
+  {
+    "t_start": 379.76,
+    "t_end": 386.787,
+    "text": "Standing on the shores of number theory, he began dreaming of a bridge to harmonic analysis."
+  },
+  {
+    "t_start": 386.787,
+    "t_end": 389.371,
+    "text": "To understand how wiles built this bridge,"
+  },
+  {
+    "t_start": 389.371,
+    "t_end": 395.155,
+    "text": "we'll first need to meet a special type of polynomial equation called an elliptic curve."
+  },
+  {
+    "t_start": 395.155,
+    "t_end": 398.133,
+    "text": "Here is an example of an elliptic curve."
+  },
+  {
+    "t_start": 398.133,
+    "t_end": 402.126,
+    "text": "You'll notice that it only has two variables, x and y."
+  },
+  {
+    "t_start": 402.126,
+    "t_end": 406.311,
+    "text": "Let's take a look at our elliptic curve graphed on the cartesian plane."
+  },
+  {
+    "t_start": 406.311,
+    "t_end": 411.02,
+    "text": "This shows all the pairs of real numbers, x and y, that satisfy our equation."
+  },
+  {
+    "t_start": 411.52,
+    "t_end": 414.663,
+    "text": "But we're not just interested in the real solutions;"
+  },
+  {
+    "t_start": 414.663,
+    "t_end": 420.902,
+    "text": "we also want to make the problem more interesting by restricting the domain to find solutions in the rational numbers"
+  },
+  {
+    "t_start": 420.902,
+    "t_end": 424.573,
+    "text": "(that is, fractions) and in the integers."
+  },
+  {
+    "t_start": 424.573,
+    "t_end": 429.875,
+    "text": "To study these solutions, it's useful to consider our elliptic curve from another perspective."
+  },
+  {
+    "t_start": 429.875,
+    "t_end": 433.991,
+    "text": "We can use a fantastic tool from number theory called modular arithmetic."
+  },
+  {
+    "t_start": 433.991,
+    "t_end": 437.401,
+    "text": "It's a way of counting integers using only the remainders."
+  },
+  {
+    "t_start": 437.401,
+    "t_end": 441.843,
+    "text": "We use this kind of math every day when we tell time on a 12 hour clock."
+  },
+  {
+    "t_start": 441.843,
+    "t_end": 446.382,
+    "text": "If someone says, \"Let's meet at 1500,\" you know they really mean 3 pm,"
+  },
+  {
+    "t_start": 446.382,
+    "t_end": 452.041,
+    "text": "because both 15 and 3, when divided by 12, leave the same remainder."
+  },
+  {
+    "t_start": 452.88,
+    "t_end": 457.539,
+    "text": "Now, what if we decided to change our 12 hour clock to a different number,"
+  },
+  {
+    "t_start": 457.539,
+    "t_end": 459.392,
+    "text": "say 31?"
+  },
+  {
+    "t_start": 459.392,
+    "t_end": 462.772,
+    "text": "When we do this we change what's called the modulus."
+  },
+  {
+    "t_start": 462.772,
+    "t_end": 466.269,
+    "text": "So when the modulus is 31, what's 6 squared?"
+  },
+  {
+    "t_start": 466.64,
+    "t_end": 471.18,
+    "text": "Well, it should be 36, but on our clock we see the number 5"
+  },
+  {
+    "t_start": 471.18,
+    "t_end": 473.876,
+    "text": "because we're 5 hours past high noon."
+  },
+  {
+    "t_start": 474.24,
+    "t_end": 476.9,
+    "text": "Here's the funny thing about modular arithmetic:"
+  },
+  {
+    "t_start": 476.9,
+    "t_end": 482.24,
+    "text": "Equations like this, which don't have rational solutions, may have modular solutions,"
+  },
+  {
+    "t_start": 482.24,
+    "t_end": 486.34,
+    "text": "since 6 squared is the same as 5 modular 31"
+  },
+  {
+    "t_start": 486.34,
+    "t_end": 489.53,
+    "text": "which means that x equals 6 solves the equation."
+  },
+  {
+    "t_start": 490.32,
+    "t_end": 494.564,
+    "text": "Now let's go back to our elliptic curve and try to find modular solutions."
+  },
+  {
+    "t_start": 494.564,
+    "t_end": 498.696,
+    "text": "What we really care about is how many solutions there are."
+  },
+  {
+    "t_start": 498.696,
+    "t_end": 502.695,
+    "text": "Here is the graph of all of the modular solutions of our equation."
+  },
+  {
+    "t_start": 503.04,
+    "t_end": 509.159,
+    "text": "The dots are the pairs x and y for which x cubed plus x"
+  },
+  {
+    "t_start": 509.159,
+    "t_end": 515.972,
+    "text": "plus 17 when divided by 31 leaves the same remainder as y squared."
+  },
+  {
+    "t_start": 515.972,
+    "t_end": 520.51,
+    "text": "For a modulus n, let's call the number of solutions b sub n."
+  },
+  {
+    "t_start": 520.51,
+    "t_end": 525.03,
+    "text": "For example, when n equals 31, we have 24 solutions."
+  },
+  {
+    "t_start": 525.03,
+    "t_end": 529.356,
+    "text": "We can compute these values b sub n for lots of different moduli n,"
+  },
+  {
+    "t_start": 529.356,
+    "t_end": 531.417,
+    "text": "that is, clocks with different hours."
+  },
+  {
+    "t_start": 531.417,
+    "t_end": 535.117,
+    "text": "This gives us an infinite sequence."
+  },
+  {
+    "t_start": 536.8,
+    "t_end": 543.697,
+    "text": "Now we can make a function by taking this infinite sequence, multiplying each term by a power of x,"
+  },
+  {
+    "t_start": 544.0,
+    "t_end": 546.279,
+    "text": "and summing them all up."
+  },
+  {
+    "t_start": 546.279,
+    "t_end": 549.066,
+    "text": "The result is called an infinite power series,"
+  },
+  {
+    "t_start": 549.066,
+    "t_end": 553.007,
+    "text": "which is like a polynomial but with an infinite number of terms."
+  },
+  {
+    "t_start": 553.007,
+    "t_end": 557.304,
+    "text": "Right about now you might be wondering, \"What's the point of making this function?\""
+  },
+  {
+    "t_start": 557.304,
+    "t_end": 561.106,
+    "text": "When Wiles began building the bridge to harmonic analysis,"
+  },
+  {
+    "t_start": 561.106,
+    "t_end": 569.027,
+    "text": "he used some important scaffolding built decades earlier by three mathematicians named Taniyama, Shimura and Weil."
+  },
+  {
+    "t_start": 569.027,
+    "t_end": 574.442,
+    "text": "They had predicted that for any elliptic curve, the resulting function would be a modular form,"
+  },
+  {
+    "t_start": 574.442,
+    "t_end": 580.452,
+    "text": "an object with the same kinds of symmetries that Ramanujan studied In the land of harmonic analysis."
+  },
+  {
+    "t_start": 580.452,
+    "t_end": 584.202,
+    "text": "So since we just created a function from an elliptic curve,"
+  },
+  {
+    "t_start": 584.32,
+    "t_end": 587.733,
+    "text": "shouldn't it be a modular form in disguise?"
+  },
+  {
+    "t_start": 587.733,
+    "t_end": 592.245,
+    "text": "Remember that Ramanujan started with a function that he knew was a modular form"
+  },
+  {
+    "t_start": 592.245,
+    "t_end": 594.987,
+    "text": "and tried to learn something about its coefficients."
+  },
+  {
+    "t_start": 594.987,
+    "t_end": 602.38,
+    "text": "Here, we have a function and we know its coefficients, since they come from counting solutions on the elliptic curve with different clocks."
+  },
+  {
+    "t_start": 602.38,
+    "t_end": 608.08,
+    "text": "But what we don't know is whether our function is, in reality, a modular form."
+  },
+  {
+    "t_start": 608.08,
+    "t_end": 611.844,
+    "text": "So let's graph it on the unit disk and see what happens."
+  },
+  {
+    "t_start": 613.2,
+    "t_end": 616.429,
+    "text": "Incredibly, it does seem to be a modular form."
+  },
+  {
+    "t_start": 616.8,
+    "t_end": 619.758,
+    "text": "But is this just a fluke?"
+  },
+  {
+    "t_start": 619.758,
+    "t_end": 624.16,
+    "text": "This is the question Wiles had to answer to finish building the bridge."
+  },
+  {
+    "t_start": 624.16,
+    "t_end": 629.881,
+    "text": "He had to prove that every elliptic curve is intimately related to a modular form."
+  },
+  {
+    "t_start": 630.56,
+    "t_end": 631.863,
+    "text": "But wait a second,"
+  },
+  {
+    "t_start": 631.863,
+    "t_end": 633.874,
+    "text": "why are we talking about elliptic curves"
+  },
+  {
+    "t_start": 633.874,
+    "t_end": 637.164,
+    "text": "when we started out trying to understand Fermat's last theorem,"
+  },
+  {
+    "t_start": 637.164,
+    "t_end": 640.134,
+    "text": "which is a completely different type of polynomial equation?"
+  },
+  {
+    "t_start": 640.56,
+    "t_end": 644.503,
+    "text": "German mathematician Gerhard Frey made a key connection here."
+  },
+  {
+    "t_start": 644.503,
+    "t_end": 649.078,
+    "text": "He observed that if Fermat's equation did have a hypothetical solution,"
+  },
+  {
+    "t_start": 649.078,
+    "t_end": 654.88,
+    "text": "in other words, a counter example, that is a to the p plus b to the p was indeed equal to c to the p"
+  },
+  {
+    "t_start": 654.88,
+    "t_end": 656.356,
+    "text": "for p greater than two,"
+  },
+  {
+    "t_start": 656.72,
+    "t_end": 660.005,
+    "text": "then you could make this elliptic curve,"
+  },
+  {
+    "t_start": 660.005,
+    "t_end": 663.113,
+    "text": "which seems to have extremely bizarre properties."
+  },
+  {
+    "t_start": 663.113,
+    "t_end": 667.066,
+    "text": "In particular, when you create the infinite power series out of it,"
+  },
+  {
+    "t_start": 667.066,
+    "t_end": 672.714,
+    "text": "it would not have the symmetries required to be a modular form."
+  },
+  {
+    "t_start": 672.714,
+    "t_end": 675.804,
+    "text": "This means that if Fermat's last theorem were false,"
+  },
+  {
+    "t_start": 675.804,
+    "t_end": 679.182,
+    "text": "then the Taniyama-Shimura-Weil conjecture would also be false,"
+  },
+  {
+    "t_start": 679.182,
+    "t_end": 686.353,
+    "text": "because the counter-example to Fermat's last theorem would make an elliptic curve which is not modular."
+  },
+  {
+    "t_start": 687.68,
+    "t_end": 693.047,
+    "text": "So when Wiles and his student Richard Taylor proved that every elliptic curve"
+  },
+  {
+    "t_start": 693.047,
+    "t_end": 696.741,
+    "text": "does indeed produce an infinite power series which is modular,"
+  },
+  {
+    "t_start": 696.741,
+    "t_end": 700.527,
+    "text": "they also showed that Frey's elliptic curve can't exist"
+  },
+  {
+    "t_start": 700.527,
+    "t_end": 704.378,
+    "text": "-- which means that a solution to fermat's equation can't exist either!"
+  },
+  {
+    "t_start": 704.378,
+    "t_end": 707.803,
+    "text": "And that's how Wiles proved Fermat's last theorem."
+  },
+  {
+    "t_start": 707.803,
+    "t_end": 712.459,
+    "text": "It's one of the craziest proofs by contradiction ever."
+  },
+  {
+    "t_start": 713.76,
+    "t_end": 717.28,
+    "text": "By showing that elliptic curves give rise to modular forms,"
+  },
+  {
+    "t_start": 717.28,
+    "t_end": 720.96,
+    "text": "Wiles built the bridge from number theory to harmonic analysis."
+  },
+  {
+    "t_start": 720.96,
+    "t_end": 725.44,
+    "text": "And by studying the special predictive power of the coefficients in modular forms,"
+  },
+  {
+    "t_start": 725.44,
+    "t_end": 730.848,
+    "text": "Ramanujan (and later Delign) used the bridge from harmonic analysis to number theory."
+  },
+  {
+    "t_start": 731.36,
+    "t_end": 736.059,
+    "text": "These proofs are some of the most monumental achievements in modern mathematics,"
+  },
+  {
+    "t_start": 736.059,
+    "t_end": 742.189,
+    "text": "but they're also just a tiny sliver of the vast construction project that is the Langlands Program."
+  },
+  {
+    "t_start": 743.36,
+    "t_end": 747.541,
+    "text": "Langland's ideas have traveled to the shores of algebraic geometry,"
+  },
+  {
+    "t_start": 747.541,
+    "t_end": 749.215,
+    "text": "representation theory"
+  },
+  {
+    "t_start": 749.215,
+    "t_end": 754.448,
+    "text": "and quantum physics, where mathematicians will be building bridges for years to come."
+  },
+  {
+    "t_start": 754.88,
+    "t_end": 757.754,
+    "text": "Nobody knows how far Langland's vision extends,"
+  },
+  {
+    "t_start": 757.754,
+    "t_end": 764.517,
+    "text": "but many mathematicians agree that it has the potential to solve some of the most intractable problems of our time."
+  },
+  {
+    "t_start": 764.517,
+    "t_end": 770.65,
+    "text": "Someday the Langland's Program may reveal the deepest symmetries between many different continents,"
+  },
+  {
+    "t_start": 770.65,
+    "t_end": 774.367,
+    "text": "a kind of grand unified theory of the mathematical world"
+  },
+  {
+    "t_start": 774.367,
+    "t_end": 783.36,
+    "text": "that answers the most fundamental questions we have about numbers."
+  }
+]

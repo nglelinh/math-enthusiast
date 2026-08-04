@@ -1,0 +1,4792 @@
+[
+  {
+    "t_start": 7.46,
+    "t_end": 9.56,
+    "text": "thank you for my swap for that for that very warm introduction it's a it's a"
+  },
+  {
+    "t_start": 9.56,
+    "t_end": 16.099,
+    "text": "honor to be asked to talk about one of my the work of one of my mathematical"
+  },
+  {
+    "t_start": 16.099,
+    "t_end": 20.21,
+    "text": "my the work of one of my mathematical heroes as and and obviously I'm not"
+  },
+  {
+    "t_start": 20.21,
+    "t_end": 21.019,
+    "text": "heroes as and and obviously I'm not alone in that"
+  },
+  {
+    "t_start": 21.019,
+    "t_end": 28.4,
+    "text": "I wanted to you know in some sense my my assignment was to explain to people who"
+  },
+  {
+    "t_start": 28.4,
+    "t_end": 30.41,
+    "text": "assignment was to explain to people who who haven't really thought about these"
+  },
+  {
+    "t_start": 30.41,
+    "t_end": 34.43,
+    "text": "who haven't really thought about these issues uh what see what's really"
+  },
+  {
+    "t_start": 34.43,
+    "t_end": 36.65,
+    "text": "issues uh what see what's really significant and different about about"
+  },
+  {
+    "t_start": 36.65,
+    "t_end": 42.53,
+    "text": "professor Glenn Beck's work and and under the constraint that I can't really"
+  },
+  {
+    "t_start": 42.53,
+    "t_end": 44.209,
+    "text": "under the constraint that I can't really introduce any of the technical tools"
+  },
+  {
+    "t_start": 44.209,
+    "t_end": 46.459,
+    "text": "introduce any of the technical tools that would that would make the rigorous"
+  },
+  {
+    "t_start": 46.459,
+    "t_end": 48.889,
+    "text": "that would that would make the rigorous definitions possible so I'm going to"
+  },
+  {
+    "t_start": 48.889,
+    "t_end": 55.279,
+    "text": "definitions possible so I'm going to draw a lot of pictures and I'm going to"
+  },
+  {
+    "t_start": 55.279,
+    "t_end": 57.889,
+    "text": "try to give you a sense of what's interesting and what has is interesting"
+  },
+  {
+    "t_start": 57.889,
+    "t_end": 63.5,
+    "text": "and fascinated me about just a couple of things of course professor bloom Beck's"
+  },
+  {
+    "t_start": 63.5,
+    "t_end": 68.359,
+    "text": "things of course professor bloom Beck's work is is is very diverse and and spans"
+  },
+  {
+    "t_start": 68.359,
+    "t_end": 71.899,
+    "text": "work is is is very diverse and and spans a long period of time with lots of great"
+  },
+  {
+    "t_start": 71.899,
+    "t_end": 75.55,
+    "text": "focus on just a few things if I'm going to be able to communicate anything and"
+  },
+  {
+    "t_start": 75.55,
+    "t_end": 83.39,
+    "text": "to be able to communicate anything and but the the thing I wanted to start with"
+  },
+  {
+    "t_start": 83.39,
+    "t_end": 85.249,
+    "text": "and so oh yeah the thing I wanted to start with is something of a"
+  },
+  {
+    "t_start": 85.249,
+    "t_end": 89.45,
+    "text": "start with is something of a philosophical point which is Professor"
+  },
+  {
+    "t_start": 89.45,
+    "t_end": 96.05,
+    "text": "lumic mentioned that you have all these these spaces that you need to work with"
+  },
+  {
+    "t_start": 96.05,
+    "t_end": 98.48,
+    "text": "these spaces that you need to work with infinite dimensional spaces that are"
+  },
+  {
+    "t_start": 98.48,
+    "t_end": 101.39,
+    "text": "infinite dimensional spaces that are actually intended to capture something"
+  },
+  {
+    "t_start": 101.39,
+    "t_end": 106.219,
+    "text": "actually intended to capture something geometric and the the fundamental"
+  },
+  {
+    "t_start": 106.219,
+    "t_end": 109.819,
+    "text": "geometric and the the fundamental feature of these of these informational"
+  },
+  {
+    "t_start": 109.819,
+    "t_end": 115.49,
+    "text": "feature of these of these informational spaces is that they've been constructed"
+  },
+  {
+    "t_start": 115.49,
+    "t_end": 117.679,
+    "text": "so that one can take limits and limits are the limits are the critical feature"
+  },
+  {
+    "t_start": 117.679,
+    "t_end": 122.33,
+    "text": "are the limits are the critical feature that we need and so I thought before I"
+  },
+  {
+    "t_start": 122.33,
+    "t_end": 124.55,
+    "text": "got into the geometry part I talked a little bit about the about the problem"
+  },
+  {
+    "t_start": 124.55,
+    "t_end": 131.63,
+    "text": "little bit about the about the problem of limits and in how we need to how we"
+  },
+  {
+    "t_start": 136.85,
+    "t_end": 139.37,
+    "text": "right so as a you know Karen and I did not try to call out to coordinate our"
+  },
+  {
+    "t_start": 139.37,
+    "t_end": 141.74,
+    "text": "not try to call out to coordinate our talks but but it's no accident that we"
+  },
+  {
+    "t_start": 141.74,
+    "t_end": 145.82,
+    "text": "talks but but it's no accident that we both started with Greeks the you know it"
+  },
+  {
+    "t_start": 145.82,
+    "t_end": 147.62,
+    "text": "both started with Greeks the you know it the Golden Age of Greek mathematics is"
+  },
+  {
+    "t_start": 147.62,
+    "t_end": 149.99,
+    "text": "the Golden Age of Greek mathematics is really contains a lot of incredible"
+  },
+  {
+    "t_start": 149.99,
+    "t_end": 156.05,
+    "text": "results and a lot of people think that it's only you know think you know plain"
+  },
+  {
+    "t_start": 156.05,
+    "t_end": 160.28,
+    "text": "geometry and what you studied in high school but of course the Greeks went far"
+  },
+  {
+    "t_start": 160.28,
+    "t_end": 164.24,
+    "text": "school but of course the Greeks went far far beyond that but they were troubled"
+  },
+  {
+    "t_start": 164.24,
+    "t_end": 171.28,
+    "text": "by a lot of things I mean there's this famous paradox of Zeno about motion that"
+  },
+  {
+    "t_start": 171.28,
+    "t_end": 176.6,
+    "text": "famous paradox of Zeno about motion that that looks odd to us now but they were"
+  },
+  {
+    "t_start": 176.6,
+    "t_end": 178.729,
+    "text": "actually very concerned about the fact that you know motion appeared to be"
+  },
+  {
+    "t_start": 178.729,
+    "t_end": 181.34,
+    "text": "that you know motion appeared to be impossible because in order to get from"
+  },
+  {
+    "t_start": 181.34,
+    "t_end": 186.89,
+    "text": "A to B you'd first have to get halfway from A to B and and then you still have"
+  },
+  {
+    "t_start": 186.89,
+    "t_end": 189.62,
+    "text": "from A to B and and then you still have to get halfway between that point and a"
+  },
+  {
+    "t_start": 189.62,
+    "t_end": 193.64,
+    "text": "to get halfway between that point and a and so forth and and so you know and if"
+  },
+  {
+    "t_start": 193.64,
+    "t_end": 195.05,
+    "text": "and so forth and and so you know and if you're thinking somehow or another"
+  },
+  {
+    "t_start": 195.05,
+    "t_end": 197.569,
+    "text": "you're thinking somehow or another everything is discrete and the Greeks"
+  },
+  {
+    "t_start": 197.569,
+    "t_end": 199.819,
+    "text": "everything is discrete and the Greeks really wanted everything to be simple"
+  },
+  {
+    "t_start": 199.819,
+    "t_end": 202.61,
+    "text": "really wanted everything to be simple ratios of irreducible objects if you're"
+  },
+  {
+    "t_start": 202.61,
+    "t_end": 204.44,
+    "text": "ratios of irreducible objects if you're thinking of everything is discrete you"
+  },
+  {
+    "t_start": 204.44,
+    "t_end": 207.949,
+    "text": "thinking of everything is discrete you you think of instants of time and it"
+  },
+  {
+    "t_start": 207.949,
+    "t_end": 210.02,
+    "text": "seems like seems like you have to go through an infinite number of instances"
+  },
+  {
+    "t_start": 210.02,
+    "t_end": 215.86,
+    "text": "of time in order to get anywhere and for their point of thinking instants of time"
+  },
+  {
+    "t_start": 215.86,
+    "t_end": 220.94,
+    "text": "their point of thinking instants of time could not just take up no space and so"
+  },
+  {
+    "t_start": 220.94,
+    "t_end": 223.25,
+    "text": "there was a obviously they knew you could move but they were pointing out"
+  },
+  {
+    "t_start": 223.25,
+    "t_end": 224.509,
+    "text": "could move but they were pointing out that there's something subtle about"
+  },
+  {
+    "t_start": 224.509,
+    "t_end": 234.319,
+    "text": "limits and and infinite things that that needs to be resolved but they actually"
+  },
+  {
+    "t_start": 234.319,
+    "t_end": 237.5,
+    "text": "needs to be resolved but they actually even though there was even though they"
+  },
+  {
+    "t_start": 237.5,
+    "t_end": 239.18,
+    "text": "even though there was even though they were very suspicious about limits and"
+  },
+  {
+    "t_start": 239.18,
+    "t_end": 242.449,
+    "text": "saw lots of things you know there are lots of arguments that just went wrong"
+  },
+  {
+    "t_start": 242.449,
+    "t_end": 245.72,
+    "text": "lots of arguments that just went wrong if you weren't careful are they they"
+  },
+  {
+    "t_start": 245.72,
+    "t_end": 247.759,
+    "text": "if you weren't careful are they they actually achieve some really amazing"
+  },
+  {
+    "t_start": 247.759,
+    "t_end": 254.39,
+    "text": "things you know of course the famous the famous examples of Archimedes formula"
+  },
+  {
+    "t_start": 254.39,
+    "t_end": 255.92,
+    "text": "famous examples of Archimedes formula relating the sphere and the cylinder"
+  },
+  {
+    "t_start": 255.92,
+    "t_end": 260.02,
+    "text": "relating the sphere and the cylinder this theorem for example that that a"
+  },
+  {
+    "t_start": 260.02,
+    "t_end": 264.89,
+    "text": "this theorem for example that that a sphere inscribed in a cylinder has two"
+  },
+  {
+    "t_start": 264.89,
+    "t_end": 268.43,
+    "text": "thirds the volume of the cylinder is you know this Archimedes proved this"
+  },
+  {
+    "t_start": 268.43,
+    "t_end": 272.78,
+    "text": "is you know this Archimedes proved this and if you think how could he have done"
+  },
+  {
+    "t_start": 272.78,
+    "t_end": 274.4,
+    "text": "that the normal way we would you know without any integral of differential"
+  },
+  {
+    "t_start": 274.4,
+    "t_end": 281.87,
+    "text": "would be we would try to break up the sphere into a number of pieces such that"
+  },
+  {
+    "t_start": 281.87,
+    "t_end": 285.86,
+    "text": "sphere into a number of pieces such that if you such that there they could"
+  },
+  {
+    "t_start": 285.86,
+    "t_end": 287.6,
+    "text": "if you such that there they could correspond to the pieces of the cylinder"
+  },
+  {
+    "t_start": 287.6,
+    "t_end": 291.05,
+    "text": "correspond to the pieces of the cylinder in such a way that every every every"
+  },
+  {
+    "t_start": 291.05,
+    "t_end": 292.64,
+    "text": "in such a way that every every every three of the pieces of the sphere would"
+  },
+  {
+    "t_start": 292.64,
+    "t_end": 296.6,
+    "text": "three of the pieces of the sphere would correspond to two of the pieces of"
+  },
+  {
+    "t_start": 296.6,
+    "t_end": 298.37,
+    "text": "cylinder and you get this ratio of two to three I mean the Greeks really liked"
+  },
+  {
+    "t_start": 298.37,
+    "t_end": 303.04,
+    "text": "to three I mean the Greeks really liked ratios of ratios of small numbers and so"
+  },
+  {
+    "t_start": 303.04,
+    "t_end": 307.1,
+    "text": "ratios of ratios of small numbers and so but there's there's no obvious way to"
+  },
+  {
+    "t_start": 307.1,
+    "t_end": 308.87,
+    "text": "but there's there's no obvious way to break up the sphere into any finite"
+  },
+  {
+    "t_start": 308.87,
+    "t_end": 311.09,
+    "text": "break up the sphere into any finite number of pieces and that you can"
+  },
+  {
+    "t_start": 311.09,
+    "t_end": 313.55,
+    "text": "number of pieces and that you can reassemble into the Rick you can"
+  },
+  {
+    "t_start": 313.55,
+    "t_end": 321.589,
+    "text": "multiplicities are done reassemble into a cylinder like that but Archimedes"
+  },
+  {
+    "t_start": 321.589,
+    "t_end": 324.05,
+    "text": "a cylinder like that but Archimedes actually figured out that you could"
+  },
+  {
+    "t_start": 324.05,
+    "t_end": 328.339,
+    "text": "estimate it from above and below by you know numbers of pieces and things like"
+  },
+  {
+    "t_start": 328.339,
+    "t_end": 330.29,
+    "text": "know numbers of pieces and things like that and it's a very careful very"
+  },
+  {
+    "t_start": 330.29,
+    "t_end": 335.6,
+    "text": "that and it's a very careful very careful argument and and was able to"
+  },
+  {
+    "t_start": 335.6,
+    "t_end": 338.18,
+    "text": "careful argument and and was able to prove this formula essentially to modern"
+  },
+  {
+    "t_start": 338.18,
+    "t_end": 341.12,
+    "text": "prove this formula essentially to modern standards of rigor with one additional"
+  },
+  {
+    "t_start": 341.12,
+    "t_end": 347.33,
+    "text": "axiom that he had had to bring in which I will talk about on the next slide but"
+  },
+  {
+    "t_start": 347.33,
+    "t_end": 350.27,
+    "text": "I will talk about on the next slide but another example also a really amazing"
+  },
+  {
+    "t_start": 350.27,
+    "t_end": 354.05,
+    "text": "another example also a really amazing theorem is is that Archimedes proved is"
+  },
+  {
+    "t_start": 354.05,
+    "t_end": 359.27,
+    "text": "that if you take the cylinder that that the sphere is inscribed in and you take"
+  },
+  {
+    "t_start": 359.27,
+    "t_end": 364.43,
+    "text": "the sphere is inscribed in and you take and you take a cross-section the part"
+  },
+  {
+    "t_start": 364.43,
+    "t_end": 365.81,
+    "text": "between two planes that are perpendicular to the axis of the"
+  },
+  {
+    "t_start": 365.81,
+    "t_end": 371.51,
+    "text": "cylinder if you take that that way then the surface area on the sphere are"
+  },
+  {
+    "t_start": 371.51,
+    "t_end": 373.58,
+    "text": "the surface area on the sphere are trapped between the two planes is the"
+  },
+  {
+    "t_start": 373.58,
+    "t_end": 379.159,
+    "text": "trapped between the two planes is the same as the surface area on the cylinder"
+  },
+  {
+    "t_start": 379.159,
+    "t_end": 383.149,
+    "text": "this is also a kind of really remarkable theorem especially if you don't have"
+  },
+  {
+    "t_start": 383.149,
+    "t_end": 387.32,
+    "text": "calculus and you can't prove it by or at least there's no obvious way to prove it"
+  },
+  {
+    "t_start": 387.32,
+    "t_end": 389.54,
+    "text": "least there's no obvious way to prove it by by cutting the sphere into some"
+  },
+  {
+    "t_start": 389.54,
+    "t_end": 392.93,
+    "text": "by by cutting the sphere into some finite number of I mean this this this"
+  },
+  {
+    "t_start": 392.93,
+    "t_end": 395.99,
+    "text": "finite number of I mean this this this circular sector into some small number"
+  },
+  {
+    "t_start": 395.99,
+    "t_end": 398.13,
+    "text": "circular sector into some small number of pieces and then reassembling it into"
+  },
+  {
+    "t_start": 398.13,
+    "t_end": 405.18,
+    "text": "reassembling the pieces of the side of the cylinder because after all this is"
+  },
+  {
+    "t_start": 405.18,
+    "t_end": 408.6,
+    "text": "curved and this is not well it's not curved in the in the Gauss curvature"
+  },
+  {
+    "t_start": 408.6,
+    "t_end": 412.28,
+    "text": "curved in the in the Gauss curvature sense as as julienne pointed out earlier"
+  },
+  {
+    "t_start": 412.28,
+    "t_end": 414.78,
+    "text": "sense as as julienne pointed out earlier but nevertheless you can make an"
+  },
+  {
+    "t_start": 414.78,
+    "t_end": 416.82,
+    "text": "but nevertheless you can make an argument using limits you know if you"
+  },
+  {
+    "t_start": 416.82,
+    "t_end": 419.52,
+    "text": "argument using limits you know if you slice it carefully and use capillaries"
+  },
+  {
+    "t_start": 419.52,
+    "t_end": 424.92,
+    "text": "slice it carefully and use capillaries principle and and a few other things you"
+  },
+  {
+    "t_start": 424.92,
+    "t_end": 427.2,
+    "text": "can you can prove this result but it definitely depends on taking an infinite"
+  },
+  {
+    "t_start": 427.2,
+    "t_end": 431.19,
+    "text": "definitely depends on taking an infinite number of things you know or a limit of"
+  },
+  {
+    "t_start": 431.19,
+    "t_end": 433.47,
+    "text": "infinite number of things you know an limit of apparently finite number of"
+  },
+  {
+    "t_start": 433.47,
+    "t_end": 437.27,
+    "text": "things going to infinity before you can actually get equality and the Greeks"
+  },
+  {
+    "t_start": 437.27,
+    "t_end": 440.88,
+    "text": "actually get equality and the Greeks although Archimedes was was able to give"
+  },
+  {
+    "t_start": 440.88,
+    "t_end": 448.71,
+    "text": "although Archimedes was was able to give a an argument that nowadays stands up to"
+  },
+  {
+    "t_start": 448.71,
+    "t_end": 452.22,
+    "text": "considered to be a very risque kind of argument and these kinds of things that"
+  },
+  {
+    "t_start": 452.22,
+    "t_end": 456.69,
+    "text": "argument and these kinds of things that used they used limits were were"
+  },
+  {
+    "t_start": 456.69,
+    "t_end": 463.35,
+    "text": "problematic so and let me give an example of the kind of thing that the"
+  },
+  {
+    "t_start": 463.35,
+    "t_end": 471.36,
+    "text": "example of the kind of thing that the kind of thing that that disturbed the"
+  },
+  {
+    "t_start": 471.36,
+    "t_end": 478.25,
+    "text": "we're looking at paths from A to B and obviously and this is now going to be a"
+  },
+  {
+    "t_start": 478.25,
+    "t_end": 482.73,
+    "text": "obviously and this is now going to be a isosceles yes an isosceles triangle this"
+  },
+  {
+    "t_start": 482.73,
+    "t_end": 486.39,
+    "text": "isosceles yes an isosceles triangle this is 45 degrees 45 degrees 90 degrees and"
+  },
+  {
+    "t_start": 486.39,
+    "t_end": 492.42,
+    "text": "is 45 degrees 45 degrees 90 degrees and we know that this length is the square"
+  },
+  {
+    "t_start": 492.42,
+    "t_end": 495.39,
+    "text": "root of 2 times this length so it's obviously longer than this segment but"
+  },
+  {
+    "t_start": 495.39,
+    "t_end": 498.12,
+    "text": "obviously longer than this segment but if you do the following thing if you if"
+  },
+  {
+    "t_start": 498.12,
+    "t_end": 503.01,
+    "text": "if you do the following thing if you if you take the if you take the red path"
+  },
+  {
+    "t_start": 503.01,
+    "t_end": 505.08,
+    "text": "and look at the peak which is goes way off from the line if you just fold the"
+  },
+  {
+    "t_start": 505.08,
+    "t_end": 508.11,
+    "text": "off from the line if you just fold the peak down you'll get you'll get a path"
+  },
+  {
+    "t_start": 508.11,
+    "t_end": 511.44,
+    "text": "peak down you'll get you'll get a path that's closer to the line it's closer to"
+  },
+  {
+    "t_start": 511.44,
+    "t_end": 516.09,
+    "text": "that's closer to the line it's closer to the line in distance but it's but"
+  },
+  {
+    "t_start": 516.09,
+    "t_end": 520.46,
+    "text": "obviously it has the same length as the red line the red path right and if you"
+  },
+  {
+    "t_start": 520.46,
+    "t_end": 526.44,
+    "text": "fold down the peaks of the of the green line the green path you'll get the blue"
+  },
+  {
+    "t_start": 526.44,
+    "t_end": 531.12,
+    "text": "line the green path you'll get the blue path which is even closer to the to the"
+  },
+  {
+    "t_start": 531.12,
+    "t_end": 531.6,
+    "text": "line segment and yet it has the same length of"
+  },
+  {
+    "t_start": 531.6,
+    "t_end": 538.56,
+    "text": "the red path now if you do this about a thousand times you won't be able to see"
+  },
+  {
+    "t_start": 538.56,
+    "t_end": 540.329,
+    "text": "thousand times you won't be able to see any difference between the two paths"
+  },
+  {
+    "t_start": 540.329,
+    "t_end": 546.24,
+    "text": "right and yet somehow the pet the length of the colored paths is not changing"
+  },
+  {
+    "t_start": 546.24,
+    "t_end": 548.25,
+    "text": "of the colored paths is not changing it's not converging the way it's"
+  },
+  {
+    "t_start": 548.25,
+    "t_end": 551.55,
+    "text": "it's not converging the way it's supposed to because because something"
+  },
+  {
+    "t_start": 551.55,
+    "t_end": 555.12,
+    "text": "supposed to because because something about the geometry of this situation in"
+  },
+  {
+    "t_start": 555.12,
+    "t_end": 556.949,
+    "text": "spite of the fact that it looks physically like it's converging"
+  },
+  {
+    "t_start": 556.949,
+    "t_end": 563.97,
+    "text": "something about the geometry is not right and and that thereby hangs a"
+  },
+  {
+    "t_start": 563.97,
+    "t_end": 569.31,
+    "text": "little bit of the tail so the point I want to make our you said it convergence"
+  },
+  {
+    "t_start": 569.31,
+    "t_end": 571.259,
+    "text": "want to make our you said it convergence of graphs but alone does not imply"
+  },
+  {
+    "t_start": 571.259,
+    "t_end": 575.19,
+    "text": "of graphs but alone does not imply convergence of lengths so so something"
+  },
+  {
+    "t_start": 575.19,
+    "t_end": 576.449,
+    "text": "convergence of lengths so so something somehow another you'd have to take"
+  },
+  {
+    "t_start": 576.449,
+    "t_end": 578.4,
+    "text": "somehow another you'd have to take something more into account than just"
+  },
+  {
+    "t_start": 578.4,
+    "t_end": 580.319,
+    "text": "something more into account than just physical proximity if you're going to be"
+  },
+  {
+    "t_start": 580.319,
+    "t_end": 585.9,
+    "text": "physical proximity if you're going to be taking limits right so in fact the"
+  },
+  {
+    "t_start": 585.9,
+    "t_end": 587.34,
+    "text": "taking limits right so in fact the Greeks found many examples of"
+  },
+  {
+    "t_start": 587.34,
+    "t_end": 589.17,
+    "text": "Greeks found many examples of pathologies like this things that look"
+  },
+  {
+    "t_start": 589.17,
+    "t_end": 591.15,
+    "text": "pathologies like this things that look like they ought to be they ought to be"
+  },
+  {
+    "t_start": 591.15,
+    "t_end": 597.449,
+    "text": "like they ought to be they ought to be giving the right answer but not but did"
+  },
+  {
+    "t_start": 597.449,
+    "t_end": 599.639,
+    "text": "not and and so for for in fact many thousand years a couple of thousand"
+  },
+  {
+    "t_start": 599.639,
+    "t_end": 605.34,
+    "text": "thousand years a couple of thousand years people were people were people"
+  },
+  {
+    "t_start": 605.34,
+    "t_end": 609.689,
+    "text": "tried to avoid any kind of limiting processes if they could you know find a"
+  },
+  {
+    "t_start": 609.689,
+    "t_end": 615.03,
+    "text": "finite argument if you can do that fine in fact our committees identified one of"
+  },
+  {
+    "t_start": 615.03,
+    "t_end": 619.259,
+    "text": "in fact our committees identified one of the problems in the calculations that in"
+  },
+  {
+    "t_start": 619.259,
+    "t_end": 625.5,
+    "text": "the problems in the calculations that in order to in order to prove theorems like"
+  },
+  {
+    "t_start": 625.5,
+    "t_end": 629.67,
+    "text": "the sphere and the and the 2-sphere of cylinder theorems and lots of other"
+  },
+  {
+    "t_start": 629.67,
+    "t_end": 631.889,
+    "text": "things he had to rule out the possibility of infinitesimal numbers"
+  },
+  {
+    "t_start": 631.889,
+    "t_end": 636.81,
+    "text": "that is there couldn't you if you had two geometric quantities two segments"
+  },
+  {
+    "t_start": 636.81,
+    "t_end": 643.23,
+    "text": "for example two segments if you reproduce one of them enough times it"
+  },
+  {
+    "t_start": 643.23,
+    "t_end": 645.449,
+    "text": "reproduce one of them enough times it would get longer than the other that is"
+  },
+  {
+    "t_start": 645.449,
+    "t_end": 646.829,
+    "text": "would get longer than the other that is you couldn't have infinitely small"
+  },
+  {
+    "t_start": 646.829,
+    "t_end": 649.88,
+    "text": "you couldn't have infinitely small segments that could that could somehow"
+  },
+  {
+    "t_start": 649.88,
+    "t_end": 658.079,
+    "text": "cause cause errors to creep in or errors to accumulate so here's what I mean by"
+  },
+  {
+    "t_start": 658.079,
+    "t_end": 660.54,
+    "text": "to accumulate so here's what I mean by an infinitesimal and infinitesimal is a"
+  },
+  {
+    "t_start": 660.54,
+    "t_end": 665.28,
+    "text": "an infinitesimal and infinitesimal is a is some number so let's say positive one"
+  },
+  {
+    "t_start": 665.28,
+    "t_end": 667.139,
+    "text": "so that no matter how many times copies of it you never get bigger than"
+  },
+  {
+    "t_start": 667.139,
+    "t_end": 669.72,
+    "text": "copies of it you never get bigger than one that's what we call the"
+  },
+  {
+    "t_start": 669.72,
+    "t_end": 674.55,
+    "text": "one that's what we call the infinitesimal and and there's no you"
+  },
+  {
+    "t_start": 674.55,
+    "t_end": 676.199,
+    "text": "infinitesimal and and there's no you know remember the Greeks the Greeks"
+  },
+  {
+    "t_start": 676.199,
+    "t_end": 680.85,
+    "text": "rational numbers if they could help it I mean they knew that there were things"
+  },
+  {
+    "t_start": 680.85,
+    "t_end": 682.319,
+    "text": "mean they knew that there were things there were the magnitudes like the"
+  },
+  {
+    "t_start": 682.319,
+    "t_end": 688.8,
+    "text": "square root of 2 which you CLE called incommensurable z-- that that they just"
+  },
+  {
+    "t_start": 688.8,
+    "t_end": 693.09,
+    "text": "incommensurable z-- that that they just thought of as you know their quantities"
+  },
+  {
+    "t_start": 693.09,
+    "t_end": 697.069,
+    "text": "but they didn't really have our number system to operate with them and and and"
+  },
+  {
+    "t_start": 697.069,
+    "t_end": 699.66,
+    "text": "system to operate with them and and and they weren't clear of what how"
+  },
+  {
+    "t_start": 699.66,
+    "t_end": 706.4,
+    "text": "they weren't clear of what how quantities correspond to physical things"
+  },
+  {
+    "t_start": 710.16,
+    "t_end": 711.689,
+    "text": "well so things stayed that this this fear of infinitesimal x'"
+  },
+  {
+    "t_start": 711.689,
+    "t_end": 719.91,
+    "text": "kind of held people back for a long time but finally in the 17th century people"
+  },
+  {
+    "t_start": 719.91,
+    "t_end": 723.66,
+    "text": "but finally in the 17th century people began to begin to do calculations that"
+  },
+  {
+    "t_start": 723.66,
+    "t_end": 726.66,
+    "text": "began to begin to do calculations that seemed to require infinitesimal and they"
+  },
+  {
+    "t_start": 726.66,
+    "t_end": 730.62,
+    "text": "seemed to require infinitesimal and they got great results but there was a but"
+  },
+  {
+    "t_start": 730.62,
+    "t_end": 732.569,
+    "text": "got great results but there was a but you know you'd always have to take an"
+  },
+  {
+    "t_start": 732.569,
+    "t_end": 734.22,
+    "text": "you know you'd always have to take an infinite budget something off"
+  },
+  {
+    "t_start": 734.22,
+    "t_end": 739.23,
+    "text": "infinitesimally like you don't want to compute the slope of of a curve at a"
+  },
+  {
+    "t_start": 739.23,
+    "t_end": 740.879,
+    "text": "compute the slope of of a curve at a point you take the point and you take"
+  },
+  {
+    "t_start": 740.879,
+    "t_end": 749.91,
+    "text": "you've got the line between them and and that'll give you the slope anyway Newton"
+  },
+  {
+    "t_start": 749.91,
+    "t_end": 751.86,
+    "text": "that'll give you the slope anyway Newton used infinitesimal sense calculations"
+  },
+  {
+    "t_start": 751.86,
+    "t_end": 754.53,
+    "text": "used infinitesimal sense calculations sometimes and actually squares and"
+  },
+  {
+    "t_start": 754.53,
+    "t_end": 760.829,
+    "text": "infinitesimal and and quite a lot of arithmetic and but he was severely"
+  },
+  {
+    "t_start": 760.829,
+    "t_end": 763.16,
+    "text": "arithmetic and but he was severely criticized there's a famous quote by"
+  },
+  {
+    "t_start": 763.16,
+    "t_end": 770.36,
+    "text": "famous quote by the philosopher contemporary philosopher George Berkeley"
+  },
+  {
+    "t_start": 773.309,
+    "t_end": 775.62,
+    "text": "who who made fun of Newton and his followers and and said what could these"
+  },
+  {
+    "t_start": 775.62,
+    "t_end": 778.079,
+    "text": "followers and and said what could these infinitesimally be I mean they're I you"
+  },
+  {
+    "t_start": 778.079,
+    "t_end": 780.509,
+    "text": "infinitesimally be I mean they're I you know they're especially flexions of"
+  },
+  {
+    "t_start": 780.509,
+    "t_end": 785.67,
+    "text": "fluxions of fluxions that is powers and powers of infinitesimal well the must"
+  },
+  {
+    "t_start": 785.67,
+    "t_end": 786.87,
+    "text": "powers of infinitesimal well the must they not be ghosts of departed"
+  },
+  {
+    "t_start": 786.87,
+    "t_end": 790.199,
+    "text": "they not be ghosts of departed quantities are we not are we not dealing"
+  },
+  {
+    "t_start": 790.199,
+    "t_end": 796.319,
+    "text": "quantities are we not are we not dealing with the supernatural when we talk about"
+  },
+  {
+    "t_start": 796.319,
+    "t_end": 798.84,
+    "text": "these kinds of things so but it didn't stop people people continued use"
+  },
+  {
+    "t_start": 798.84,
+    "t_end": 805.74,
+    "text": "people continue to use these kinds of things partly because they because they"
+  },
+  {
+    "t_start": 805.74,
+    "t_end": 810.6,
+    "text": "worked and or at least if you were careful they work but part of the art of"
+  },
+  {
+    "t_start": 810.6,
+    "t_end": 812.16,
+    "text": "careful they work but part of the art of doing calculations was learning how to"
+  },
+  {
+    "t_start": 812.16,
+    "t_end": 818.939,
+    "text": "doing calculations was learning how to be careful so mathematicians in fact not"
+  },
+  {
+    "t_start": 818.939,
+    "t_end": 820.949,
+    "text": "be careful so mathematicians in fact not only did they start using infinitesimal"
+  },
+  {
+    "t_start": 820.949,
+    "t_end": 825.84,
+    "text": "only did they start using infinitesimal numbers they started using infinitesimal"
+  },
+  {
+    "t_start": 825.84,
+    "t_end": 832.829,
+    "text": "started treating functions as though you know what we would now say they started"
+  },
+  {
+    "t_start": 832.829,
+    "t_end": 835.069,
+    "text": "allowing variables to take on to be functions rather than just numbers and"
+  },
+  {
+    "t_start": 835.069,
+    "t_end": 838.889,
+    "text": "of course if there can be numbers that are infinitesimal then why can't there"
+  },
+  {
+    "t_start": 838.889,
+    "t_end": 845.91,
+    "text": "you can do all these calculations they use the word variation for this the two"
+  },
+  {
+    "t_start": 845.91,
+    "t_end": 853.98,
+    "text": "use the word variation for this the two big leaders at that time now in the now"
+  },
+  {
+    "t_start": 853.98,
+    "t_end": 857.04,
+    "text": "in the in the 19th century were Euler and LaGrange who derived the famous"
+  },
+  {
+    "t_start": 857.04,
+    "t_end": 859.019,
+    "text": "and LaGrange who derived the famous Euler Lagrange equations for figuring"
+  },
+  {
+    "t_start": 859.019,
+    "t_end": 865.199,
+    "text": "out a necessary condition for something to be a critical point in this in this"
+  },
+  {
+    "t_start": 865.199,
+    "t_end": 874.71,
+    "text": "of variable functions and infinitesimal functions and so forth and and and hence"
+  },
+  {
+    "t_start": 874.71,
+    "t_end": 876.179,
+    "text": "functions and so forth and and and hence the calculus of variation was born"
+  },
+  {
+    "t_start": 876.179,
+    "t_end": 878.249,
+    "text": "the calculus of variation was born although I said there were antecedents"
+  },
+  {
+    "t_start": 878.249,
+    "t_end": 886.259,
+    "text": "in the work of Newton and others but but it really got off to a major start under"
+  },
+  {
+    "t_start": 886.259,
+    "t_end": 892.86,
+    "text": "it really got off to a major start under these guys but but calculus them was"
+  },
+  {
+    "t_start": 892.86,
+    "t_end": 897.929,
+    "text": "kind of a wild west frontier we say in English that is you know lawless almost"
+  },
+  {
+    "t_start": 897.929,
+    "t_end": 903.6,
+    "text": "English that is you know lawless almost that people did what they wanted to do"
+  },
+  {
+    "t_start": 903.6,
+    "t_end": 905.999,
+    "text": "and and and they got lots of arguments with with validity but also some errors"
+  },
+  {
+    "t_start": 905.999,
+    "t_end": 910.62,
+    "text": "with with validity but also some errors and people began to worry about well how"
+  },
+  {
+    "t_start": 910.62,
+    "t_end": 916.139,
+    "text": "do you know when what you do is valid and when it's not for example the one of"
+  },
+  {
+    "t_start": 916.139,
+    "t_end": 920.129,
+    "text": "and when it's not for example the one of Oilers big tools was was computing with"
+  },
+  {
+    "t_start": 920.129,
+    "t_end": 922.079,
+    "text": "Oilers big tools was was computing with what we now called divergent series that"
+  },
+  {
+    "t_start": 922.079,
+    "t_end": 924.449,
+    "text": "what we now called divergent series that is that is 1 minus 1 plus 1 minus 1 plus"
+  },
+  {
+    "t_start": 924.449,
+    "t_end": 930.78,
+    "text": "is that is 1 minus 1 plus 1 minus 1 plus 1 minus 1 should be Euler added that up"
+  },
+  {
+    "t_start": 930.78,
+    "t_end": 937.019,
+    "text": "said you know and and use formulas like that in in his calculations without"
+  },
+  {
+    "t_start": 937.019,
+    "t_end": 944.79,
+    "text": "worrying too much about whether or not it converged but there was this you know"
+  },
+  {
+    "t_start": 944.79,
+    "t_end": 949.59,
+    "text": "it converged but there was this you know Koshi the as people kept doing this"
+  },
+  {
+    "t_start": 949.59,
+    "t_end": 955.53,
+    "text": "Koshi the as people kept doing this along came our our hero album who who"
+  },
+  {
+    "t_start": 955.53,
+    "t_end": 958.59,
+    "text": "along came our our hero album who who was quite disturbed by this habit of"
+  },
+  {
+    "t_start": 958.59,
+    "t_end": 962.28,
+    "text": "was quite disturbed by this habit of using divergent series I'm sorry not"
+  },
+  {
+    "t_start": 962.28,
+    "t_end": 963.93,
+    "text": "using divergent series I'm sorry not everybody here speaks Norwegian I guess"
+  },
+  {
+    "t_start": 963.93,
+    "t_end": 973.889,
+    "text": "everybody here speaks Norwegian I guess I should and in fact Abba was one of the"
+  },
+  {
+    "t_start": 973.889,
+    "t_end": 978.42,
+    "text": "I should and in fact Abba was one of the people who led the charge in in making"
+  },
+  {
+    "t_start": 978.42,
+    "t_end": 984.259,
+    "text": "people who led the charge in in making trying to get our you know trying to get"
+  },
+  {
+    "t_start": 984.259,
+    "t_end": 986.79,
+    "text": "trying to get our you know trying to get analysis what has now become known as"
+  },
+  {
+    "t_start": 986.79,
+    "t_end": 991.31,
+    "text": "analysis what has now become known as analysis off on a more solid footing"
+  },
+  {
+    "t_start": 993.99,
+    "t_end": 995.879,
+    "text": "just by the way just for your amusement i might those of you who might have seen"
+  },
+  {
+    "t_start": 995.879,
+    "t_end": 999.9,
+    "text": "i might those of you who might have seen the YouTube the YouTube video about how"
+  },
+  {
+    "t_start": 999.9,
+    "t_end": 1006.71,
+    "text": "the YouTube the YouTube video about how to add 1 plus 2 Plus 3 plus 4 plus 5"
+  },
+  {
+    "t_start": 1006.71,
+    "t_end": 1009.47,
+    "text": "plus 6 etc and so on how many of you know the answer okay so lots of people"
+  },
+  {
+    "t_start": 1009.47,
+    "t_end": 1014.059,
+    "text": "know the answer okay so lots of people know the answer those of you who haven't"
+  },
+  {
+    "t_start": 1014.059,
+    "t_end": 1021.1,
+    "text": "seen the answer might be surprised to see that the answer is minus 1/12 so"
+  },
+  {
+    "t_start": 1021.1,
+    "t_end": 1023.93,
+    "text": "see that the answer is minus 1/12 so obviously if this if this thing is going"
+  },
+  {
+    "t_start": 1023.93,
+    "t_end": 1024.829,
+    "text": "obviously if this if this thing is going to make any sense"
+  },
+  {
+    "t_start": 1024.829,
+    "t_end": 1032.929,
+    "text": "somebody has to figure out a way to make to make rules for how to do these things"
+  },
+  {
+    "t_start": 1032.929,
+    "t_end": 1036.22,
+    "text": "right and the half and this is accepted as a valid equation now actually"
+  },
+  {
+    "t_start": 1036.22,
+    "t_end": 1041.78,
+    "text": "well some people accept it as a valid equation but what was at stake and this"
+  },
+  {
+    "t_start": 1041.78,
+    "t_end": 1043.34,
+    "text": "equation but what was at stake and this is the this is sort of the end of the"
+  },
+  {
+    "t_start": 1043.34,
+    "t_end": 1048.26,
+    "text": "part 1 the introduction that I wanted to mention what was at stake was the very"
+  },
+  {
+    "t_start": 1048.26,
+    "t_end": 1049.909,
+    "text": "mention what was at stake was the very definition of what we call real numbers"
+  },
+  {
+    "t_start": 1049.909,
+    "t_end": 1052.4,
+    "text": "definition of what we call real numbers you know people didn't really have a"
+  },
+  {
+    "t_start": 1052.4,
+    "t_end": 1055.12,
+    "text": "you know people didn't really have a clear concept before a real number was"
+  },
+  {
+    "t_start": 1055.12,
+    "t_end": 1057.38,
+    "text": "clear concept before a real number was or they didn't have a specific"
+  },
+  {
+    "t_start": 1057.38,
+    "t_end": 1060.56,
+    "text": "or they didn't have a specific definition really until the 19th century"
+  },
+  {
+    "t_start": 1060.56,
+    "t_end": 1064.28,
+    "text": "definition really until the 19th century and and you know people were using"
+  },
+  {
+    "t_start": 1064.28,
+    "t_end": 1065.83,
+    "text": "and and you know people were using infinitesimal in their calculations"
+  },
+  {
+    "t_start": 1065.83,
+    "t_end": 1073.1,
+    "text": "Koshi himself used infinitesimally and calculations from time to time and and I"
+  },
+  {
+    "t_start": 1073.1,
+    "t_end": 1077.72,
+    "text": "calculations from time to time and and I just want to point out two particular"
+  },
+  {
+    "t_start": 1077.72,
+    "t_end": 1079.79,
+    "text": "things there to it I mean real I mean the numbers should contain all the"
+  },
+  {
+    "t_start": 1079.79,
+    "t_end": 1081.23,
+    "text": "the numbers should contain all the things we're familiar with for example"
+  },
+  {
+    "t_start": 1081.23,
+    "t_end": 1083.51,
+    "text": "things we're familiar with for example it could should contain all the rational"
+  },
+  {
+    "t_start": 1083.51,
+    "t_end": 1086.45,
+    "text": "it could should contain all the rational numbers and and and you should be able"
+  },
+  {
+    "t_start": 1086.45,
+    "t_end": 1089.42,
+    "text": "numbers and and and you should be able to approximate any any number you can"
+  },
+  {
+    "t_start": 1089.42,
+    "t_end": 1094.82,
+    "text": "call them the real numbers as closest to your light by rational numbers and and"
+  },
+  {
+    "t_start": 1094.82,
+    "t_end": 1097.01,
+    "text": "your light by rational numbers and and here for those who like the formalism"
+  },
+  {
+    "t_start": 1097.01,
+    "t_end": 1099.53,
+    "text": "here for those who like the formalism the symbols I'll just give you the"
+  },
+  {
+    "t_start": 1099.53,
+    "t_end": 1102.98,
+    "text": "the symbols I'll just give you the symbols for every real number and for"
+  },
+  {
+    "t_start": 1102.98,
+    "t_end": 1107.21,
+    "text": "every natural number that is positive integer there's a rational number such"
+  },
+  {
+    "t_start": 1107.21,
+    "t_end": 1113.78,
+    "text": "that this real number fits between Q and Q plus 1 over N so you can approximate"
+  },
+  {
+    "t_start": 1113.78,
+    "t_end": 1118.07,
+    "text": "any real number as close as you like by by by natural numbers but that's not"
+  },
+  {
+    "t_start": 1118.07,
+    "t_end": 1120.11,
+    "text": "by by natural numbers but that's not enough you actually need to know that"
+  },
+  {
+    "t_start": 1120.11,
+    "t_end": 1123.59,
+    "text": "enough you actually need to know that limits exist and and there is and there"
+  },
+  {
+    "t_start": 1123.59,
+    "t_end": 1129.77,
+    "text": "limits exist and and there is and there is where the second property comes in"
+  },
+  {
+    "t_start": 1129.77,
+    "t_end": 1135.05,
+    "text": "that if you take any non-empty set of positive numbers then then that set has"
+  },
+  {
+    "t_start": 1135.05,
+    "t_end": 1139.97,
+    "text": "positive numbers then then that set has a greatest lower bound that is a number"
+  },
+  {
+    "t_start": 1139.97,
+    "t_end": 1142.85,
+    "text": "that's less than or equal to all the numbers and set R and greater than"
+  },
+  {
+    "t_start": 1142.85,
+    "t_end": 1144.38,
+    "text": "numbers and set R and greater than they're equal to any other number that's"
+  },
+  {
+    "t_start": 1144.38,
+    "t_end": 1148.76,
+    "text": "they're equal to any other number that's less than or equal to all the numbers in"
+  },
+  {
+    "t_start": 1148.76,
+    "t_end": 1155.09,
+    "text": "infimum of the set s and here again i'll show you the symbols this is the kind of"
+  },
+  {
+    "t_start": 1155.09,
+    "t_end": 1156.65,
+    "text": "show you the symbols this is the kind of thing that i'm trying to avoid in most"
+  },
+  {
+    "t_start": 1156.65,
+    "t_end": 1159.86,
+    "text": "thing that i'm trying to avoid in most of the most of the lecture but but just"
+  },
+  {
+    "t_start": 1159.86,
+    "t_end": 1161.09,
+    "text": "of the most of the lecture but but just so that you can see that there is"
+  },
+  {
+    "t_start": 1161.09,
+    "t_end": 1167.42,
+    "text": "something there let me so what this literally means is that is that for any"
+  },
+  {
+    "t_start": 1167.42,
+    "t_end": 1173.57,
+    "text": "literally means is that is that for any if s is not empty then there is a number"
+  },
+  {
+    "t_start": 1173.57,
+    "t_end": 1178.46,
+    "text": "a real number so that for every number in s that number is less than or equal"
+  },
+  {
+    "t_start": 1178.46,
+    "t_end": 1179.9,
+    "text": "to s and if you have a number that's less than or equal to all the things in"
+  },
+  {
+    "t_start": 1179.9,
+    "t_end": 1184.85,
+    "text": "less than or equal to all the things in s then L is bigger than or equal to M"
+  },
+  {
+    "t_start": 1184.85,
+    "t_end": 1186.62,
+    "text": "right that's what we mean by greatest lower bound this L is the greatest lower"
+  },
+  {
+    "t_start": 1186.62,
+    "t_end": 1192.53,
+    "text": "lower bound this L is the greatest lower bound and the existence of this is what"
+  },
+  {
+    "t_start": 1192.53,
+    "t_end": 1194.42,
+    "text": "makes it possible to take limits you know you have some you have some set of"
+  },
+  {
+    "t_start": 1194.42,
+    "t_end": 1198.73,
+    "text": "know you have some you have some set of things you define maybe partial sums of"
+  },
+  {
+    "t_start": 1198.73,
+    "t_end": 1203.779,
+    "text": "of a series or something like that and and and you ask and you ask how do I"
+  },
+  {
+    "t_start": 1203.779,
+    "t_end": 1205.22,
+    "text": "and and you ask and you ask how do I know that it actually gets near"
+  },
+  {
+    "t_start": 1205.22,
+    "t_end": 1208.0,
+    "text": "know that it actually gets near something or converges on something and"
+  },
+  {
+    "t_start": 1208.0,
+    "t_end": 1214.759,
+    "text": "and the answer is we just assume it yeah and and that actually characterizes what"
+  },
+  {
+    "t_start": 1214.759,
+    "t_end": 1218.659,
+    "text": "we now call real numbers I mean you're probably more familiar you never thought"
+  },
+  {
+    "t_start": 1218.659,
+    "t_end": 1221.72,
+    "text": "probably more familiar you never thought of the issue probably more familiar with"
+  },
+  {
+    "t_start": 1221.72,
+    "t_end": 1224.09,
+    "text": "thinking real numbers or swings with decimal expansions but that's a theorem"
+  },
+  {
+    "t_start": 1224.09,
+    "t_end": 1226.279,
+    "text": "decimal expansions but that's a theorem right that anything with these"
+  },
+  {
+    "t_start": 1226.279,
+    "t_end": 1236.509,
+    "text": "etc etc it actually is going to give us the and just just to conclude let me say"
+  },
+  {
+    "t_start": 1236.509,
+    "t_end": 1242.24,
+    "text": "the and just just to conclude let me say let me say of why this limit property"
+  },
+  {
+    "t_start": 1242.24,
+    "t_end": 1244.629,
+    "text": "gets rid of infinitesimal numbers there are no infinitely small positive numbers"
+  },
+  {
+    "t_start": 1244.629,
+    "t_end": 1246.769,
+    "text": "are no infinitely small positive numbers first of all if there were an"
+  },
+  {
+    "t_start": 1246.769,
+    "t_end": 1249.23,
+    "text": "first of all if there were an infinitesimal a positive number less"
+  },
+  {
+    "t_start": 1249.23,
+    "t_end": 1253.759,
+    "text": "than one then if you look at the positive non infinitesimal numbers they"
+  },
+  {
+    "t_start": 1253.759,
+    "t_end": 1260.299,
+    "text": "would have a greatest lower bound about property - right but that greatest lower"
+  },
+  {
+    "t_start": 1260.299,
+    "t_end": 1263.149,
+    "text": "property - right but that greatest lower bound lambda I mean it has to be"
+  },
+  {
+    "t_start": 1263.149,
+    "t_end": 1264.71,
+    "text": "bound lambda I mean it has to be positive because it's at least as large"
+  },
+  {
+    "t_start": 1264.71,
+    "t_end": 1266.45,
+    "text": "positive because it's at least as large as this epsilon which is positive"
+  },
+  {
+    "t_start": 1266.45,
+    "t_end": 1268.37,
+    "text": "as this epsilon which is positive it can't be infinitesimally because if"
+  },
+  {
+    "t_start": 1268.37,
+    "t_end": 1273.049,
+    "text": "it can't be infinitesimally because if you double it that's not a greatest"
+  },
+  {
+    "t_start": 1273.049,
+    "t_end": 1273.71,
+    "text": "lower bound obviously not a greatest lower bound"
+  },
+  {
+    "t_start": 1273.71,
+    "t_end": 1282.49,
+    "text": "I mean lambda is the greatest lower bound so this is not in the set so it"
+  },
+  {
+    "t_start": 1286.22,
+    "t_end": 1287.87,
+    "text": "because of this property so it can't be infinitesimal and because in"
+  },
+  {
+    "t_start": 1287.87,
+    "t_end": 1293.11,
+    "text": "infinitesimal if you doubled it would not would still be an infinitesimal and"
+  },
+  {
+    "t_start": 1293.11,
+    "t_end": 1298.899,
+    "text": "not would still be an infinitesimal and but it has to be an infinitesimal"
+  },
+  {
+    "t_start": 1298.899,
+    "t_end": 1306.409,
+    "text": "because half of it is infinitesimal because lambda is twice 1/2 whoops so"
+  },
+  {
+    "t_start": 1306.409,
+    "t_end": 1308.57,
+    "text": "because lambda is twice 1/2 whoops so that's the contradiction and therefore"
+  },
+  {
+    "t_start": 1308.57,
+    "t_end": 1312.289,
+    "text": "that's the contradiction and therefore there are no infinitesimally if you"
+  },
+  {
+    "t_start": 1312.289,
+    "t_end": 1318.169,
+    "text": "assume that you can take limits like this now defining the right way to talk"
+  },
+  {
+    "t_start": 1318.169,
+    "t_end": 1320.57,
+    "text": "this now defining the right way to talk about limits was was essential for"
+  },
+  {
+    "t_start": 1320.57,
+    "t_end": 1324.95,
+    "text": "about limits was was essential for figuring out what space of numbers we"
+  },
+  {
+    "t_start": 1324.95,
+    "t_end": 1328.06,
+    "text": "should be working with to do our calculations if we want to take limits"
+  },
+  {
+    "t_start": 1328.06,
+    "t_end": 1332.02,
+    "text": "calculations if we want to take limits and and once they got this straight it"
+  },
+  {
+    "t_start": 1332.02,
+    "t_end": 1334.09,
+    "text": "and and once they got this straight it led to an enormous leap forward in"
+  },
+  {
+    "t_start": 1334.09,
+    "t_end": 1335.92,
+    "text": "led to an enormous leap forward in calculus in its applications because we"
+  },
+  {
+    "t_start": 1335.92,
+    "t_end": 1340.36,
+    "text": "calculus in its applications because we could finally deal with limits in a"
+  },
+  {
+    "t_start": 1340.36,
+    "t_end": 1342.16,
+    "text": "consistent way now the reason I have believed it all this point and this is"
+  },
+  {
+    "t_start": 1342.16,
+    "t_end": 1348.67,
+    "text": "this coming close to the end of part one is that is that the space that you think"
+  },
+  {
+    "t_start": 1348.67,
+    "t_end": 1353.86,
+    "text": "is natural that you'd like to work with like number like rational numbers if you"
+  },
+  {
+    "t_start": 1353.86,
+    "t_end": 1358.54,
+    "text": "like number like rational numbers if you want to be able to perform things like"
+  },
+  {
+    "t_start": 1358.54,
+    "t_end": 1362.59,
+    "text": "space but you have to do it in a reasonable way in order that limits will"
+  },
+  {
+    "t_start": 1362.59,
+    "t_end": 1365.98,
+    "text": "reasonable way in order that limits will continue to work and of course you know"
+  },
+  {
+    "t_start": 1365.98,
+    "t_end": 1367.48,
+    "text": "continue to work and of course you know once you've figured out how to take"
+  },
+  {
+    "t_start": 1367.48,
+    "t_end": 1370.78,
+    "text": "once you've figured out how to take limits in for real numbers it's not time"
+  },
+  {
+    "t_start": 1370.78,
+    "t_end": 1372.43,
+    "text": "limits in for real numbers it's not time to go back and say well what about"
+  },
+  {
+    "t_start": 1372.43,
+    "t_end": 1373.27,
+    "text": "to go back and say well what about functions"
+  },
+  {
+    "t_start": 1373.27,
+    "t_end": 1377.29,
+    "text": "what about spaces of functions or geometric objects how can we complete"
+  },
+  {
+    "t_start": 1377.29,
+    "t_end": 1381.24,
+    "text": "geometric objects how can we complete those spaces to make them to make them"
+  },
+  {
+    "t_start": 1381.24,
+    "t_end": 1387.04,
+    "text": "usable that is we want to find you know suppose we have for example the space of"
+  },
+  {
+    "t_start": 1387.04,
+    "t_end": 1391.87,
+    "text": "suppose we have for example the space of curves in the plane and we want to and"
+  },
+  {
+    "t_start": 1391.87,
+    "t_end": 1397.27,
+    "text": "limits they can have we need to find find a way to sort of sort of embed that"
+  },
+  {
+    "t_start": 1397.27,
+    "t_end": 1399.49,
+    "text": "find a way to sort of sort of embed that in some complete space where limits will"
+  },
+  {
+    "t_start": 1399.49,
+    "t_end": 1402.52,
+    "text": "in some complete space where limits will behave and this is the big step and"
+  },
+  {
+    "t_start": 1402.52,
+    "t_end": 1406.06,
+    "text": "behave and this is the big step and analysis that Karen mentions but doesn't"
+  },
+  {
+    "t_start": 1406.06,
+    "t_end": 1409.56,
+    "text": "analysis that Karen mentions but doesn't doesn't define and I'm not going to"
+  },
+  {
+    "t_start": 1409.56,
+    "t_end": 1413.05,
+    "text": "define either but I just want to identify for you this this intellectual"
+  },
+  {
+    "t_start": 1413.05,
+    "t_end": 1419.02,
+    "text": "identify for you this this intellectual leap finding the right space in which to"
+  },
+  {
+    "t_start": 1419.02,
+    "t_end": 1423.93,
+    "text": "objects requires both a kind of analytic thinking and a geometric thinking and"
+  },
+  {
+    "t_start": 1423.93,
+    "t_end": 1428.44,
+    "text": "thinking and a geometric thinking and it's the marriage of that analytic and"
+  },
+  {
+    "t_start": 1428.44,
+    "t_end": 1435.01,
+    "text": "geometric thinking that has allowed geometric analysis to prosper and now I"
+  },
+  {
+    "t_start": 1435.01,
+    "t_end": 1437.2,
+    "text": "want to talk about some specific problems and particular some things than"
+  },
+  {
+    "t_start": 1437.2,
+    "t_end": 1441.73,
+    "text": "problems and particular some things than in Karen's work so the geometry of"
+  },
+  {
+    "t_start": 1441.73,
+    "t_end": 1451.21,
+    "text": "curves in bubbles and let's see how are we doing for time okay good so people"
+  },
+  {
+    "t_start": 1451.21,
+    "t_end": 1453.07,
+    "text": "we doing for time okay good so people have mentioned this already before"
+  },
+  {
+    "t_start": 1453.07,
+    "t_end": 1455.89,
+    "text": "have mentioned this already before geometry means earth measuring but giada"
+  },
+  {
+    "t_start": 1455.89,
+    "t_end": 1457.78,
+    "text": "geometry means earth measuring but giada see the applied version means the"
+  },
+  {
+    "t_start": 1457.78,
+    "t_end": 1461.48,
+    "text": "see the applied version means the measurement and study of regions of the"
+  },
+  {
+    "t_start": 1461.48,
+    "t_end": 1467.36,
+    "text": "earth it's kind of a rushon the and in particular in this"
+  },
+  {
+    "t_start": 1467.36,
+    "t_end": 1470.96,
+    "text": "rushon the and in particular in this study one would like to be able to find"
+  },
+  {
+    "t_start": 1470.96,
+    "t_end": 1472.4,
+    "text": "the shortest way to get between two points on the surface of the earth or"
+  },
+  {
+    "t_start": 1472.4,
+    "t_end": 1475.16,
+    "text": "points on the surface of the earth or more generally the shortest way to get"
+  },
+  {
+    "t_start": 1475.16,
+    "t_end": 1476.24,
+    "text": "more generally the shortest way to get between two points on the surface"
+  },
+  {
+    "t_start": 1476.24,
+    "t_end": 1479.419,
+    "text": "between two points on the surface whereas we'll see even more generally"
+  },
+  {
+    "t_start": 1479.419,
+    "t_end": 1484.16,
+    "text": "whereas we'll see even more generally than that the the fellow who is who is"
+  },
+  {
+    "t_start": 1484.16,
+    "t_end": 1485.9,
+    "text": "than that the the fellow who is who is really instrumental in getting this off"
+  },
+  {
+    "t_start": 1485.9,
+    "t_end": 1490.36,
+    "text": "really instrumental in getting this off the ground was Carl Gauss who had"
+  },
+  {
+    "t_start": 1490.36,
+    "t_end": 1494.03,
+    "text": "the ground was Carl Gauss who had actually this is not generally known but"
+  },
+  {
+    "t_start": 1494.03,
+    "t_end": 1495.77,
+    "text": "actually this is not generally known but he actually spent thirty years carrying"
+  },
+  {
+    "t_start": 1495.77,
+    "t_end": 1498.799,
+    "text": "he actually spent thirty years carrying out a geodetic survey of the kingdom of"
+  },
+  {
+    "t_start": 1498.799,
+    "t_end": 1501.88,
+    "text": "out a geodetic survey of the kingdom of Hanover trying to make accurate maps"
+  },
+  {
+    "t_start": 1501.88,
+    "t_end": 1504.32,
+    "text": "Hanover trying to make accurate maps traveling on horseback with a with a"
+  },
+  {
+    "t_start": 1504.32,
+    "t_end": 1507.98,
+    "text": "surveying team in the summers and it gave him plenty of time to think about"
+  },
+  {
+    "t_start": 1507.98,
+    "t_end": 1513.5,
+    "text": "gave him plenty of time to think about geodesics in the shape of surfaces he he"
+  },
+  {
+    "t_start": 1513.5,
+    "t_end": 1515.419,
+    "text": "geodesics in the shape of surfaces he he began to think about how knowing the"
+  },
+  {
+    "t_start": 1515.419,
+    "t_end": 1517.01,
+    "text": "began to think about how knowing the shortest curves between points on the"
+  },
+  {
+    "t_start": 1517.01,
+    "t_end": 1519.71,
+    "text": "shortest curves between points on the surface could be used as we were to"
+  },
+  {
+    "t_start": 1519.71,
+    "t_end": 1524.24,
+    "text": "because of course he knew the earth was round I don't think they're I don't know"
+  },
+  {
+    "t_start": 1524.24,
+    "t_end": 1526.61,
+    "text": "round I don't think they're I don't know if there were still Flat Earth theorists"
+  },
+  {
+    "t_start": 1526.61,
+    "t_end": 1530.09,
+    "text": "if there were still Flat Earth theorists at that time yeah it's been kind of"
+  },
+  {
+    "t_start": 1530.09,
+    "t_end": 1534.5,
+    "text": "at that time yeah it's been kind of embarrassing resurgence and in modern"
+  },
+  {
+    "t_start": 1534.5,
+    "t_end": 1536.44,
+    "text": "embarrassing resurgence and in modern times"
+  },
+  {
+    "t_start": 1536.44,
+    "t_end": 1542.15,
+    "text": "anyway Gauss's ideas led him to think of to realize that that if you knew the"
+  },
+  {
+    "t_start": 1542.15,
+    "t_end": 1546.86,
+    "text": "shortest curves on the surface you could you could treat those as those those are"
+  },
+  {
+    "t_start": 1546.86,
+    "t_end": 1549.01,
+    "text": "you could treat those as those those are the straight lines for that surface and"
+  },
+  {
+    "t_start": 1549.01,
+    "t_end": 1554.27,
+    "text": "and so you could ask well does Euclid's geometry hold for the straight lines on"
+  },
+  {
+    "t_start": 1554.27,
+    "t_end": 1559.49,
+    "text": "geometry hold for the straight lines on the surf on a curved surface and the"
+  },
+  {
+    "t_start": 1559.49,
+    "t_end": 1560.299,
+    "text": "answer it turns out was no not necessarily"
+  },
+  {
+    "t_start": 1560.299,
+    "t_end": 1566.18,
+    "text": "and he in fact discovered non Euclidean geometry during this process but he"
+  },
+  {
+    "t_start": 1566.18,
+    "t_end": 1575.27,
+    "text": "never published his ideas but he didn't know at that time was that a former"
+  },
+  {
+    "t_start": 1575.27,
+    "t_end": 1577.88,
+    "text": "know at that time was that a former student of his he actually you know"
+  },
+  {
+    "t_start": 1577.88,
+    "t_end": 1582.07,
+    "text": "student of his he actually you know Riemann Riemann actually went to"
+  },
+  {
+    "t_start": 1582.07,
+    "t_end": 1587.84,
+    "text": "actually went to the University intending to be intended to study"
+  },
+  {
+    "t_start": 1587.84,
+    "t_end": 1592.97,
+    "text": "theology he was he was raised in a very devout religious family he himself was"
+  },
+  {
+    "t_start": 1592.97,
+    "t_end": 1595.41,
+    "text": "devout religious family he himself was quite devout he was studying geometry"
+  },
+  {
+    "t_start": 1595.41,
+    "t_end": 1603.24,
+    "text": "met Gauss and Gauss House convinced him that that geometry was the thing and and"
+  },
+  {
+    "t_start": 1603.24,
+    "t_end": 1610.95,
+    "text": "that that geometry was the thing and and mathematics was the thing and and so he"
+  },
+  {
+    "t_start": 1610.95,
+    "t_end": 1615.06,
+    "text": "he actually then went on to study mathematics and and he gave probably as"
+  },
+  {
+    "t_start": 1615.06,
+    "t_end": 1617.4,
+    "text": "mathematics and and he gave probably as I like to say the most the most famous"
+  },
+  {
+    "t_start": 1617.4,
+    "t_end": 1619.98,
+    "text": "I like to say the most the most famous job talking mathematical history on the"
+  },
+  {
+    "t_start": 1619.98,
+    "t_end": 1621.93,
+    "text": "job talking mathematical history on the hypotheses that alive the foundations of"
+  },
+  {
+    "t_start": 1621.93,
+    "t_end": 1629.7,
+    "text": "geometry and and he took the idea of Gauss that is defining straight lines in"
+  },
+  {
+    "t_start": 1629.7,
+    "t_end": 1632.37,
+    "text": "Gauss that is defining straight lines in terms of in terms of shortest possible"
+  },
+  {
+    "t_start": 1632.37,
+    "t_end": 1638.82,
+    "text": "terms of in terms of shortest possible paths to new heights by saying this"
+  },
+  {
+    "t_start": 1638.82,
+    "t_end": 1641.61,
+    "text": "should work in any space if we if we know what we're doing and not just on"
+  },
+  {
+    "t_start": 1641.61,
+    "t_end": 1646.02,
+    "text": "know what we're doing and not just on surfaces and so and so remaining in"
+  },
+  {
+    "t_start": 1646.02,
+    "t_end": 1650.61,
+    "text": "surfaces and so and so remaining in geometry was born Riemann also was quite"
+  },
+  {
+    "t_start": 1650.61,
+    "t_end": 1652.59,
+    "text": "geometry was born Riemann also was quite instrumental in developing the in the"
+  },
+  {
+    "t_start": 1652.59,
+    "t_end": 1657.6,
+    "text": "integral calculus realized that in fact many problems in mathematics and physics"
+  },
+  {
+    "t_start": 1657.6,
+    "t_end": 1659.49,
+    "text": "many problems in mathematics and physics could be studied as the geometry of"
+  },
+  {
+    "t_start": 1659.49,
+    "t_end": 1661.29,
+    "text": "could be studied as the geometry of spaces that could only described in"
+  },
+  {
+    "t_start": 1661.29,
+    "t_end": 1663.87,
+    "text": "spaces that could only described in dimensions higher than three so for him"
+  },
+  {
+    "t_start": 1663.87,
+    "t_end": 1666.21,
+    "text": "dimensions higher than three so for him the reality of higher dimensional spaces"
+  },
+  {
+    "t_start": 1666.21,
+    "t_end": 1671.73,
+    "text": "the reality of higher dimensional spaces was that they were needed to model think"
+  },
+  {
+    "t_start": 1671.73,
+    "t_end": 1676.32,
+    "text": "problems that people wanted to solve so so he wanted a theory that worked in all"
+  },
+  {
+    "t_start": 1676.32,
+    "t_end": 1678.06,
+    "text": "dimensions and he wanted to understand the straightest lines the shortest"
+  },
+  {
+    "t_start": 1678.06,
+    "t_end": 1688.2,
+    "text": "curves in all dimensions and just a brief message from our sponsor we're all"
+  },
+  {
+    "t_start": 1688.2,
+    "t_end": 1690.45,
+    "text": "brief message from our sponsor we're all familiar with spaces of dimension 1 and"
+  },
+  {
+    "t_start": 1690.45,
+    "t_end": 1694.74,
+    "text": "familiar with spaces of dimension 1 and we say dimension 1 because you can label"
+  },
+  {
+    "t_start": 1694.74,
+    "t_end": 1704.67,
+    "text": "such as a distance or an angle like I mean you know distance for a line angle"
+  },
+  {
+    "t_start": 1704.67,
+    "t_end": 1706.62,
+    "text": "for a circle and in the and in two dimensions you were there we're also"
+  },
+  {
+    "t_start": 1706.62,
+    "t_end": 1708.63,
+    "text": "dimensions you were there we're also familiar with things like this that"
+  },
+  {
+    "t_start": 1708.63,
+    "t_end": 1710.87,
+    "text": "familiar with things like this that these two dimensional objects that"
+  },
+  {
+    "t_start": 1710.87,
+    "t_end": 1717.42,
+    "text": "because you know the plane needs to two points to describe describe it two"
+  },
+  {
+    "t_start": 1717.42,
+    "t_end": 1721.23,
+    "text": "numbers to describe a point and the sphere needs two numbers I will say"
+  },
+  {
+    "t_start": 1721.23,
+    "t_end": 1725.0,
+    "text": "sphere needs two numbers I will say longitude and latitude but but of course"
+  },
+  {
+    "t_start": 1725.0,
+    "t_end": 1729.039,
+    "text": "longitude and latitude but but of course but of course that that those numbers"
+  },
+  {
+    "t_start": 1729.039,
+    "t_end": 1736.479,
+    "text": "of trouble in the polls I'll come back to that later but in dimension 2 there's"
+  },
+  {
+    "t_start": 1736.479,
+    "t_end": 1738.1,
+    "text": "to that later but in dimension 2 there's a lot more possibilities than just the"
+  },
+  {
+    "t_start": 1738.1,
+    "t_end": 1740.529,
+    "text": "a lot more possibilities than just the plane in the sphere for example you"
+  },
+  {
+    "t_start": 1740.529,
+    "t_end": 1742.119,
+    "text": "plane in the sphere for example you could have something like this donut"
+  },
+  {
+    "t_start": 1742.119,
+    "t_end": 1748.6,
+    "text": "could have something like this donut which we call a torus or two donut"
+  },
+  {
+    "t_start": 1748.6,
+    "t_end": 1754.419,
+    "text": "three or more like that there are even more exotic things like like the clown"
+  },
+  {
+    "t_start": 1754.419,
+    "t_end": 1756.46,
+    "text": "more exotic things like like the clown bottle which is a two-dimensional"
+  },
+  {
+    "t_start": 1756.46,
+    "t_end": 1759.789,
+    "text": "bottle which is a two-dimensional surface two-dimensional object that that"
+  },
+  {
+    "t_start": 1759.789,
+    "t_end": 1766.989,
+    "text": "surface two-dimensional object that that has that's not even orientable you can't"
+  },
+  {
+    "t_start": 1766.989,
+    "t_end": 1769.33,
+    "text": "really draw it fully in 3-space without having an intersection a self"
+  },
+  {
+    "t_start": 1769.33,
+    "t_end": 1776.529,
+    "text": "that you should imagine separating the the two sheets that come together along"
+  },
+  {
+    "t_start": 1776.529,
+    "t_end": 1778.269,
+    "text": "the two sheets that come together along this intersection thinking there's"
+  },
+  {
+    "t_start": 1778.269,
+    "t_end": 1784.93,
+    "text": "separate things and and you get something nice and smooth in small"
+  },
+  {
+    "t_start": 1784.93,
+    "t_end": 1786.549,
+    "text": "something nice and smooth in small patches each of these can be labeled"
+  },
+  {
+    "t_start": 1786.549,
+    "t_end": 1788.229,
+    "text": "patches each of these can be labeled using twos numbers but there's no good"
+  },
+  {
+    "t_start": 1788.229,
+    "t_end": 1789.669,
+    "text": "using twos numbers but there's no good labeling system that works on the whole"
+  },
+  {
+    "t_start": 1789.669,
+    "t_end": 1795.58,
+    "text": "labeling system that works on the whole surface and in fact as I was saying real"
+  },
+  {
+    "t_start": 1795.58,
+    "t_end": 1803.95,
+    "text": "keeping track of an airplane in flight you have to have six numbers 3 for the X"
+  },
+  {
+    "t_start": 1803.95,
+    "t_end": 1807.099,
+    "text": "you have to have six numbers 3 for the X Y location the location above the above"
+  },
+  {
+    "t_start": 1807.099,
+    "t_end": 1814.349,
+    "text": "height and three for the orientation the yaw pitch and roll of the plane if you"
+  },
+  {
+    "t_start": 1814.349,
+    "t_end": 1818.859,
+    "text": "yaw pitch and roll of the plane if you if you want to keep track of a solar"
+  },
+  {
+    "t_start": 1818.859,
+    "t_end": 1821.019,
+    "text": "system with eight planets you need 48 numbers you need whoops"
+  },
+  {
+    "t_start": 1821.019,
+    "t_end": 1826.119,
+    "text": "numbers you need whoops you need you need six for each planet 3"
+  },
+  {
+    "t_start": 1826.119,
+    "t_end": 1828.129,
+    "text": "you need you need six for each planet 3 to describe its location and 3 to"
+  },
+  {
+    "t_start": 1828.129,
+    "t_end": 1832.06,
+    "text": "describe its velocity so higher dimensional things are just unavoidable"
+  },
+  {
+    "t_start": 1832.06,
+    "t_end": 1838.57,
+    "text": "if you really want to apply mathematics and it turns out that Ramon's vision of"
+  },
+  {
+    "t_start": 1838.57,
+    "t_end": 1841.749,
+    "text": "and it turns out that Ramon's vision of geometry can be realized this it this it"
+  },
+  {
+    "t_start": 1841.749,
+    "t_end": 1844.419,
+    "text": "geometry can be realized this it this it turns out is it turns out that is my"
+  },
+  {
+    "t_start": 1844.419,
+    "t_end": 1848.71,
+    "text": "turns out is it turns out that is my reference to Nash right that every that"
+  },
+  {
+    "t_start": 1848.71,
+    "t_end": 1854.009,
+    "text": "reference to Nash right that every that every one of these are smooth spaces"
+  },
+  {
+    "t_start": 1854.009,
+    "t_end": 1857.95,
+    "text": "endowed with the geometry of distance can be can be embedded in some can be"
+  },
+  {
+    "t_start": 1857.95,
+    "t_end": 1862.45,
+    "text": "can be can be embedded in some can be thought of as a subset of some some"
+  },
+  {
+    "t_start": 1862.45,
+    "t_end": 1866.65,
+    "text": "where you may need more coordinates than just the dimension just like you may"
+  },
+  {
+    "t_start": 1866.65,
+    "t_end": 1873.549,
+    "text": "just the dimension just like you may need a you may need a for surface in"
+  },
+  {
+    "t_start": 1873.549,
+    "t_end": 1879.25,
+    "text": "3-space you may need two dimensions sitting in three to see it in Ramones"
+  },
+  {
+    "t_start": 1879.25,
+    "t_end": 1881.049,
+    "text": "sitting in three to see it in Ramones program knowing things about shortest"
+  },
+  {
+    "t_start": 1881.049,
+    "t_end": 1885.04,
+    "text": "curves that is one manifolds in a given s gives you useful information about s"
+  },
+  {
+    "t_start": 1885.04,
+    "t_end": 1886.93,
+    "text": "s gives you useful information about s in fact what we're interested in is the"
+  },
+  {
+    "t_start": 1886.93,
+    "t_end": 1890.77,
+    "text": "in fact what we're interested in is the following problem given a loop that is a"
+  },
+  {
+    "t_start": 1890.77,
+    "t_end": 1895.48,
+    "text": "following problem given a loop that is a closed curve as as as Karen was talking"
+  },
+  {
+    "t_start": 1895.48,
+    "t_end": 1900.37,
+    "text": "closed curve as as as Karen was talking about what you'd like to do is find the"
+  },
+  {
+    "t_start": 1900.37,
+    "t_end": 1907.18,
+    "text": "manifold your your surface or something higher dimensional even that can be made"
+  },
+  {
+    "t_start": 1907.18,
+    "t_end": 1910.41,
+    "text": "by continuously deforming this guy within the within the surface that is"
+  },
+  {
+    "t_start": 1910.41,
+    "t_end": 1914.47,
+    "text": "within the within the surface that is imagine imagine that the loop is made"
+  },
+  {
+    "t_start": 1914.47,
+    "t_end": 1917.049,
+    "text": "out of a rubber band that wants to contract and you let it go it stays"
+  },
+  {
+    "t_start": 1917.049,
+    "t_end": 1922.09,
+    "text": "inside there it stays in size your a sub manifold your your in manifold and it"
+  },
+  {
+    "t_start": 1922.09,
+    "t_end": 1927.28,
+    "text": "contracts until it until it hangs and you want to know what kind of hanging"
+  },
+  {
+    "t_start": 1927.28,
+    "t_end": 1929.89,
+    "text": "you want to know what kind of hanging will happen that is will limits exist"
+  },
+  {
+    "t_start": 1929.89,
+    "t_end": 1931.99,
+    "text": "will happen that is will limits exist I mean you I mean we're we're dealing"
+  },
+  {
+    "t_start": 1931.99,
+    "t_end": 1935.95,
+    "text": "with as Karen has said we're dealing in the infinite dimensional space of curves"
+  },
+  {
+    "t_start": 1935.95,
+    "t_end": 1940.78,
+    "text": "the infinite dimensional space of curves of loops and somehow another if we want"
+  },
+  {
+    "t_start": 1940.78,
+    "t_end": 1943.27,
+    "text": "to do calculus in this in this space we need to we need to be able to take"
+  },
+  {
+    "t_start": 1943.27,
+    "t_end": 1948.01,
+    "text": "limits and we want to know that limits exist under the right conditions and"
+  },
+  {
+    "t_start": 1948.01,
+    "t_end": 1953.29,
+    "text": "that they you and themselves will be smooth curves and there's a fair amount"
+  },
+  {
+    "t_start": 1953.29,
+    "t_end": 1954.85,
+    "text": "smooth curves and there's a fair amount of analysis that goes into this let me"
+  },
+  {
+    "t_start": 1954.85,
+    "t_end": 1956.38,
+    "text": "of analysis that goes into this let me just give a couple of examples before I"
+  },
+  {
+    "t_start": 1956.38,
+    "t_end": 1959.049,
+    "text": "just give a couple of examples before I talk about the analytic result that is"
+  },
+  {
+    "t_start": 1959.049,
+    "t_end": 1964.87,
+    "text": "it so here let's take of the donut the torus and and here's the red curve it's"
+  },
+  {
+    "t_start": 1964.87,
+    "t_end": 1971.59,
+    "text": "goes once around the curve this way and if you let it go roughly speaking it'll"
+  },
+  {
+    "t_start": 1971.59,
+    "t_end": 1973.81,
+    "text": "if you let it go roughly speaking it'll come here and get to the narrowest part"
+  },
+  {
+    "t_start": 1973.81,
+    "t_end": 1976.0,
+    "text": "come here and get to the narrowest part and become as straight as possible lying"
+  },
+  {
+    "t_start": 1976.0,
+    "t_end": 1981.07,
+    "text": "and become as straight as possible lying on the surface and that that yeah I mean"
+  },
+  {
+    "t_start": 1981.07,
+    "t_end": 1983.52,
+    "text": "these are all approximate pictures but that should approximately be the"
+  },
+  {
+    "t_start": 1983.52,
+    "t_end": 1988.66,
+    "text": "shortest curve the geodesic that the closed geodesic that's the contraction"
+  },
+  {
+    "t_start": 1988.66,
+    "t_end": 1995.69,
+    "text": "closed geodesic that's the contraction of ail so going if on the other hand we"
+  },
+  {
+    "t_start": 1995.69,
+    "t_end": 1998.15,
+    "text": "of ail so going if on the other hand we here's our donut and we and we take the"
+  },
+  {
+    "t_start": 1998.15,
+    "t_end": 2000.49,
+    "text": "here's our donut and we and we take the curve that goes around the goes around"
+  },
+  {
+    "t_start": 2000.49,
+    "t_end": 2004.81,
+    "text": "curve that goes around the goes around the hole so to speak what you would"
+  },
+  {
+    "t_start": 2004.81,
+    "t_end": 2006.49,
+    "text": "expect is the shortest curve that you could have would be just for L to"
+  },
+  {
+    "t_start": 2006.49,
+    "t_end": 2008.2,
+    "text": "could have would be just for L to contract into the hole until it gets"
+  },
+  {
+    "t_start": 2008.2,
+    "t_end": 2010.51,
+    "text": "contract into the hole until it gets right into the throat right that's what"
+  },
+  {
+    "t_start": 2010.51,
+    "t_end": 2012.01,
+    "text": "right into the throat right that's what you would expect and you can prove that"
+  },
+  {
+    "t_start": 2012.01,
+    "t_end": 2015.01,
+    "text": "you would expect and you can prove that those things happen once you've defined"
+  },
+  {
+    "t_start": 2015.01,
+    "t_end": 2017.29,
+    "text": "those things happen once you've defined everything since I don't have time to"
+  },
+  {
+    "t_start": 2017.29,
+    "t_end": 2019.18,
+    "text": "everything since I don't have time to define everything I'm not gonna give you"
+  },
+  {
+    "t_start": 2019.18,
+    "t_end": 2021.79,
+    "text": "define everything I'm not gonna give you proofs of things but but but it's"
+  },
+  {
+    "t_start": 2021.79,
+    "t_end": 2023.41,
+    "text": "proofs of things but but but it's certainly intuitively believable that"
+  },
+  {
+    "t_start": 2023.41,
+    "t_end": 2028.21,
+    "text": "that's what happens oh but but there are other of these curves that are that are"
+  },
+  {
+    "t_start": 2028.21,
+    "t_end": 2032.77,
+    "text": "other of these curves that are that are that are the tightest they can be for"
+  },
+  {
+    "t_start": 2032.77,
+    "t_end": 2034.78,
+    "text": "any you know for anything that's continuously contractable for example"
+  },
+  {
+    "t_start": 2034.78,
+    "t_end": 2039.55,
+    "text": "you can have here if we look head-on you can see something like something that"
+  },
+  {
+    "t_start": 2039.55,
+    "t_end": 2042.61,
+    "text": "can see something like something that goes three times around this direction"
+  },
+  {
+    "t_start": 2042.61,
+    "t_end": 2046.5,
+    "text": "while it goes only two times around that direction and if you draw it just right"
+  },
+  {
+    "t_start": 2046.5,
+    "t_end": 2049.54,
+    "text": "direction and if you draw it just right you'll actually get a trifle or not that"
+  },
+  {
+    "t_start": 2049.54,
+    "t_end": 2055.35,
+    "text": "a torus not that is it's only shortest curve that's connects home a topic to it"
+  },
+  {
+    "t_start": 2055.35,
+    "t_end": 2058.3,
+    "text": "curve that's connects home a topic to it that kind of thing can happen and I want"
+  },
+  {
+    "t_start": 2058.3,
+    "t_end": 2060.61,
+    "text": "that kind of thing can happen and I want to draw one more somewhat more"
+  },
+  {
+    "t_start": 2060.61,
+    "t_end": 2062.8,
+    "text": "to draw one more somewhat more complicated picture because this is"
+  },
+  {
+    "t_start": 2062.8,
+    "t_end": 2068.65,
+    "text": "going to be relevant for the for when we go in the one dimension up and what you"
+  },
+  {
+    "t_start": 2068.65,
+    "t_end": 2070.24,
+    "text": "go in the one dimension up and what you should imagine this guy I'm drawing"
+  },
+  {
+    "t_start": 2070.24,
+    "t_end": 2073.3,
+    "text": "right now I'm only drawing a piece of it but what you should imagine is we have"
+  },
+  {
+    "t_start": 2073.3,
+    "t_end": 2076.48,
+    "text": "but what you should imagine is we have two parallel planes they're two parallel"
+  },
+  {
+    "t_start": 2076.48,
+    "t_end": 2082.69,
+    "text": "sheets and they're connected by two throats the you know I basically punched"
+  },
+  {
+    "t_start": 2082.69,
+    "t_end": 2086.59,
+    "text": "throats the you know I basically punched a hole out of the upper sheet two holes"
+  },
+  {
+    "t_start": 2086.59,
+    "t_end": 2091.87,
+    "text": "out of the upper sheet two holes out of the lower sheet and then just join the"
+  },
+  {
+    "t_start": 2091.87,
+    "t_end": 2097.96,
+    "text": "together that I've created to create a kind of a throat that that comes to its"
+  },
+  {
+    "t_start": 2097.96,
+    "t_end": 2099.82,
+    "text": "kind of a throat that that comes to its narrowest point between the two sheets"
+  },
+  {
+    "t_start": 2099.82,
+    "t_end": 2105.46,
+    "text": "narrowest point between the two sheets in two places right and certainly what"
+  },
+  {
+    "t_start": 2105.46,
+    "t_end": 2113.74,
+    "text": "happen if you let L go other than that it would it would gradually contract in"
+  },
+  {
+    "t_start": 2113.74,
+    "t_end": 2119.05,
+    "text": "it would it would gradually contract in and and it would gradually contract into"
+  },
+  {
+    "t_start": 2119.05,
+    "t_end": 2120.67,
+    "text": "the point where it would sort of spend part of its time going around this"
+  },
+  {
+    "t_start": 2120.67,
+    "t_end": 2125.71,
+    "text": "throat and then be a geodesic going over to the next throat go around that throat"
+  },
+  {
+    "t_start": 2125.71,
+    "t_end": 2127.87,
+    "text": "to the next throat go around that throat and then come back that's roughly what"
+  },
+  {
+    "t_start": 2127.87,
+    "t_end": 2129.02,
+    "text": "and then come back that's roughly what it should do"
+  },
+  {
+    "t_start": 2129.02,
+    "t_end": 2135.41,
+    "text": "and you can prove that you know if you give the model correctly that is in fact"
+  },
+  {
+    "t_start": 2135.41,
+    "t_end": 2138.41,
+    "text": "what will happen you'll get a nice smooth curve that will approximate the"
+  },
+  {
+    "t_start": 2138.41,
+    "t_end": 2144.95,
+    "text": "two that will approximate the two closed geodesics that are sitting there but it"
+  },
+  {
+    "t_start": 2144.95,
+    "t_end": 2147.8,
+    "text": "geodesics that are sitting there but it won't break apart that's the kind of"
+  },
+  {
+    "t_start": 2147.8,
+    "t_end": 2150.14,
+    "text": "won't break apart that's the kind of interesting thing that happens it it"
+  },
+  {
+    "t_start": 2150.14,
+    "t_end": 2154.7,
+    "text": "interesting thing that happens it it stays it stays nice and it stays nice"
+  },
+  {
+    "t_start": 2154.7,
+    "t_end": 2164.36,
+    "text": "well maybe I I should just go on to the the theorem the theorem and again there"
+  },
+  {
+    "t_start": 2164.36,
+    "t_end": 2167.45,
+    "text": "the theorem the theorem and again there really should be a star because I"
+  },
+  {
+    "t_start": 2167.45,
+    "t_end": 2174.02,
+    "text": "picture is is this that if you take a compact guy and let me just pause for a"
+  },
+  {
+    "t_start": 2174.02,
+    "t_end": 2176.45,
+    "text": "compact guy and let me just pause for a second to say what compact means s's"
+  },
+  {
+    "t_start": 2176.45,
+    "t_end": 2183.5,
+    "text": "compact means that it's bounded in space that it doesn't go off to infinity and"
+  },
+  {
+    "t_start": 2183.5,
+    "t_end": 2185.36,
+    "text": "it contains all its limit points so for example I don't want asked to be if you"
+  },
+  {
+    "t_start": 2185.36,
+    "t_end": 2186.86,
+    "text": "example I don't want asked to be if you take the plane and you remove a point"
+  },
+  {
+    "t_start": 2186.86,
+    "t_end": 2188.81,
+    "text": "take the plane and you remove a point then obviously you can draw a loop"
+  },
+  {
+    "t_start": 2188.81,
+    "t_end": 2191.0,
+    "text": "then obviously you can draw a loop around that going around that point and"
+  },
+  {
+    "t_start": 2191.0,
+    "t_end": 2196.46,
+    "text": "shortest curve because it'll just try to contract to a point and that points not"
+  },
+  {
+    "t_start": 2196.46,
+    "t_end": 2199.25,
+    "text": "contract to a point and that points not there it'll hang and it won't have any"
+  },
+  {
+    "t_start": 2199.25,
+    "t_end": 2202.46,
+    "text": "there it'll hang and it won't have any place to go so so I don't want you to"
+  },
+  {
+    "t_start": 2202.46,
+    "t_end": 2205.91,
+    "text": "place to go so so I don't want you to cut out little pieces of s that will"
+  },
+  {
+    "t_start": 2205.91,
+    "t_end": 2207.92,
+    "text": "cut out little pieces of s that will that that the contraction would try to"
+  },
+  {
+    "t_start": 2207.92,
+    "t_end": 2215.75,
+    "text": "go through and I don't want a like you may have you may remember two ends are"
+  },
+  {
+    "t_start": 2215.75,
+    "t_end": 2217.82,
+    "text": "may have you may remember two ends are pseudo sphere that has kind of a thin"
+  },
+  {
+    "t_start": 2217.82,
+    "t_end": 2219.89,
+    "text": "pseudo sphere that has kind of a thin horn that goes out goes out this way"
+  },
+  {
+    "t_start": 2219.89,
+    "t_end": 2222.41,
+    "text": "horn that goes out goes out this way where the where the curve just where the"
+  },
+  {
+    "t_start": 2222.41,
+    "t_end": 2228.05,
+    "text": "where the where the curve just where the curve just keeps contracting and keeps"
+  },
+  {
+    "t_start": 2228.05,
+    "t_end": 2232.22,
+    "text": "never stops so I want to make sure those things don't happen so that's what this"
+  },
+  {
+    "t_start": 2232.22,
+    "t_end": 2234.53,
+    "text": "things don't happen so that's what this this one packed just means bounded and"
+  },
+  {
+    "t_start": 2234.53,
+    "t_end": 2236.06,
+    "text": "this one packed just means bounded and closed contains all its limit points"
+  },
+  {
+    "t_start": 2236.06,
+    "t_end": 2237.74,
+    "text": "closed contains all its limit points anyway back to the statement the"
+  },
+  {
+    "t_start": 2237.74,
+    "t_end": 2244.34,
+    "text": "compact in manifold and you take a loop inside that in manifold so this works"
+  },
+  {
+    "t_start": 2244.34,
+    "t_end": 2246.74,
+    "text": "inside that in manifold so this works for any dimension take a take a given"
+  },
+  {
+    "t_start": 2246.74,
+    "t_end": 2249.47,
+    "text": "for any dimension take a take a given closed loop then either you can attract"
+  },
+  {
+    "t_start": 2249.47,
+    "t_end": 2254.27,
+    "text": "closed loop then either you can attract it to a point which means that all the"
+  },
+  {
+    "t_start": 2254.27,
+    "t_end": 2259.43,
+    "text": "you look at their lengths the infimum of those lengths is 0 and then it contracts"
+  },
+  {
+    "t_start": 2259.43,
+    "t_end": 2262.95,
+    "text": "those lengths is 0 and then it contracts to a point or or"
+  },
+  {
+    "t_start": 2262.95,
+    "t_end": 2268.86,
+    "text": "there's a positive lower bound for the lengths of the curves then then there"
+  },
+  {
+    "t_start": 2268.86,
+    "t_end": 2273.39,
+    "text": "lengths of the curves then then there will be at least one smooth loop l prime"
+  },
+  {
+    "t_start": 2273.39,
+    "t_end": 2278.25,
+    "text": "deforming L that has the shortest length of literal shortest length of any such"
+  },
+  {
+    "t_start": 2278.25,
+    "t_end": 2280.77,
+    "text": "of literal shortest length of any such deformation available so those are the"
+  },
+  {
+    "t_start": 2280.77,
+    "t_end": 2283.41,
+    "text": "deformation available so those are the two possibilities either the infimum of"
+  },
+  {
+    "t_start": 2283.41,
+    "t_end": 2285.84,
+    "text": "two possibilities either the infimum of the possible homer we say homotopic"
+  },
+  {
+    "t_start": 2285.84,
+    "t_end": 2288.3,
+    "text": "the possible homer we say homotopic lengths is zero in which case it"
+  },
+  {
+    "t_start": 2288.3,
+    "t_end": 2292.01,
+    "text": "contracts to a point or it's positive in which case it actually converges and"
+  },
+  {
+    "t_start": 2292.01,
+    "t_end": 2299.85,
+    "text": "this theorem is really based on I mean we under we understand it now in terms"
+  },
+  {
+    "t_start": 2299.85,
+    "t_end": 2301.47,
+    "text": "we under we understand it now in terms of the geometry of an infinite"
+  },
+  {
+    "t_start": 2301.47,
+    "t_end": 2303.12,
+    "text": "of the geometry of an infinite dimensional manifold but you can"
+  },
+  {
+    "t_start": 2303.12,
+    "t_end": 2307.14,
+    "text": "actually prove it without having to go to infinite dimensions because as Karen"
+  },
+  {
+    "t_start": 2307.14,
+    "t_end": 2309.12,
+    "text": "to infinite dimensions because as Karen mentioned you can approximate any loop"
+  },
+  {
+    "t_start": 2309.12,
+    "t_end": 2311.94,
+    "text": "mentioned you can approximate any loop by a finite not by a finite number of"
+  },
+  {
+    "t_start": 2311.94,
+    "t_end": 2318.81,
+    "text": "generalization of a polygonal path and and then work in that finite dimensional"
+  },
+  {
+    "t_start": 2318.81,
+    "t_end": 2325.47,
+    "text": "and then work in that finite dimensional space of paths you can do that but but"
+  },
+  {
+    "t_start": 2325.47,
+    "t_end": 2329.43,
+    "text": "have to find the right space in which to do the contraction get from the right"
+  },
+  {
+    "t_start": 2329.43,
+    "t_end": 2331.71,
+    "text": "do the contraction get from the right space in which these these limits make"
+  },
+  {
+    "t_start": 2331.71,
+    "t_end": 2336.6,
+    "text": "sense but once you do you can prove a theorem like this it's really remarkable"
+  },
+  {
+    "t_start": 2336.6,
+    "t_end": 2341.76,
+    "text": "result but it really does depend on understanding the geometry of limits and"
+  },
+  {
+    "t_start": 2341.76,
+    "t_end": 2349.74,
+    "text": "and the geometry this of the right space well the natural question is are is this"
+  },
+  {
+    "t_start": 2349.74,
+    "t_end": 2355.56,
+    "text": "well the natural question is are is this only true for loops that is you know"
+  },
+  {
+    "t_start": 2355.56,
+    "t_end": 2358.77,
+    "text": "take a one-dimensional closed guy and let it contract and it converges it's"
+  },
+  {
+    "t_start": 2358.77,
+    "t_end": 2361.37,
+    "text": "let it contract and it converges it's something nice or collapses completely"
+  },
+  {
+    "t_start": 2361.37,
+    "t_end": 2364.83,
+    "text": "something nice or collapses completely but what happens if we take what happens"
+  },
+  {
+    "t_start": 2364.83,
+    "t_end": 2371.91,
+    "text": "but what happens if we take what happens suppose we take a surface if L is now a"
+  },
+  {
+    "t_start": 2371.91,
+    "t_end": 2377.46,
+    "text": "manifold say two manifolds such as a sphere or the image of a surface more"
+  },
+  {
+    "t_start": 2377.46,
+    "t_end": 2380.04,
+    "text": "sphere or the image of a surface more generally and so let's suppose you can't"
+  },
+  {
+    "t_start": 2380.04,
+    "t_end": 2383.7,
+    "text": "generally and so let's suppose you can't continuously contract it to a point is"
+  },
+  {
+    "t_start": 2383.7,
+    "t_end": 2388.8,
+    "text": "continuously contract it to a point is there a surface that that L prime that"
+  },
+  {
+    "t_start": 2388.8,
+    "t_end": 2393.21,
+    "text": "you can get by continuously deforming L so that has the smallest area among all"
+  },
+  {
+    "t_start": 2393.21,
+    "t_end": 2395.8,
+    "text": "so that has the smallest area among all such surfaces is there such a surface"
+  },
+  {
+    "t_start": 2395.8,
+    "t_end": 2405.19,
+    "text": "well I want to explain that I want a motivate the answer that that that's way"
+  },
+  {
+    "t_start": 2405.19,
+    "t_end": 2408.19,
+    "text": "motivate the answer that that that's way too optimistic you can you cannot make"
+  },
+  {
+    "t_start": 2408.19,
+    "t_end": 2412.96,
+    "text": "that happen I mean you can't hope for that to be true and and here's what my"
+  },
+  {
+    "t_start": 2412.96,
+    "t_end": 2415.57,
+    "text": "that to be true and and here's what my here's what the the intuitive argument"
+  },
+  {
+    "t_start": 2415.57,
+    "t_end": 2422.17,
+    "text": "here's what the the intuitive argument got how it goes so so remember though"
+  },
+  {
+    "t_start": 2422.17,
+    "t_end": 2425.53,
+    "text": "got how it goes so so remember though that this surface was made by by taking"
+  },
+  {
+    "t_start": 2425.53,
+    "t_end": 2428.08,
+    "text": "that this surface was made by by taking two flat sheets you know and and joining"
+  },
+  {
+    "t_start": 2428.08,
+    "t_end": 2432.16,
+    "text": "two flat sheets you know and and joining the you know cutting out disks in the"
+  },
+  {
+    "t_start": 2432.16,
+    "t_end": 2435.13,
+    "text": "top and the bottom and joining them well nothing stops us as Karen says"
+  },
+  {
+    "t_start": 2435.13,
+    "t_end": 2436.78,
+    "text": "well nothing stops us as Karen says we're mathematicians we can do what we"
+  },
+  {
+    "t_start": 2436.78,
+    "t_end": 2441.4,
+    "text": "we're mathematicians we can do what we want nothing stops us from from doing"
+  },
+  {
+    "t_start": 2441.4,
+    "t_end": 2443.1,
+    "text": "want nothing stops us from from doing the same thing just one dimension higher"
+  },
+  {
+    "t_start": 2443.1,
+    "t_end": 2447.99,
+    "text": "the same thing just one dimension higher that is let's take two flat three spaces"
+  },
+  {
+    "t_start": 2447.99,
+    "t_end": 2450.28,
+    "text": "that is let's take two flat three spaces I'm sorry I can't draw in four"
+  },
+  {
+    "t_start": 2450.28,
+    "t_end": 2452.11,
+    "text": "I'm sorry I can't draw in four dimensions for you but I mean that's"
+  },
+  {
+    "t_start": 2452.11,
+    "t_end": 2454.21,
+    "text": "dimensions for you but I mean that's kind of what I'd need I'd need to flat"
+  },
+  {
+    "t_start": 2454.21,
+    "t_end": 2456.31,
+    "text": "kind of what I'd need I'd need to flat three planes separated by perpendicular"
+  },
+  {
+    "t_start": 2456.31,
+    "t_end": 2461.17,
+    "text": "three planes separated by perpendicular distance in four space which is what I'd"
+  },
+  {
+    "t_start": 2461.17,
+    "t_end": 2468.82,
+    "text": "the bottom sheet and I'll just join them together in the narrow throat right in"
+  },
+  {
+    "t_start": 2468.82,
+    "t_end": 2473.47,
+    "text": "together in the narrow throat right in to narrow throats so let's try and"
+  },
+  {
+    "t_start": 2473.47,
+    "t_end": 2477.22,
+    "text": "actually all I'm going to do is show you the top sheet I mean since the bottom"
+  },
+  {
+    "t_start": 2477.22,
+    "t_end": 2479.89,
+    "text": "the top sheet I mean since the bottom sheet actually plays really no role in"
+  },
+  {
+    "t_start": 2479.89,
+    "t_end": 2482.65,
+    "text": "sheet actually plays really no role in where that where L can go in the in the"
+  },
+  {
+    "t_start": 2482.65,
+    "t_end": 2484.96,
+    "text": "where that where L can go in the in the one-dimensional case everything sort of"
+  },
+  {
+    "t_start": 2484.96,
+    "t_end": 2491.62,
+    "text": "stays up just stays above the two narrow throats you can argue that if you do it"
+  },
+  {
+    "t_start": 2491.62,
+    "t_end": 2493.81,
+    "text": "throats you can argue that if you do it right that same kind of thing will have"
+  },
+  {
+    "t_start": 2493.81,
+    "t_end": 2497.74,
+    "text": "right that same kind of thing will have to happen now now you know instead of"
+  },
+  {
+    "t_start": 2497.74,
+    "t_end": 2501.22,
+    "text": "to happen now now you know instead of instead of what looks like a rectangle"
+  },
+  {
+    "t_start": 2501.22,
+    "t_end": 2507.36,
+    "text": "I have a box now instead of two circles that are the throats I have two balls"
+  },
+  {
+    "t_start": 2507.36,
+    "t_end": 2512.41,
+    "text": "that are the throats I have two balls and now instead of a circle L Circle L I"
+  },
+  {
+    "t_start": 2512.41,
+    "t_end": 2516.58,
+    "text": "and now instead of a circle L Circle L I have a two sphere sitting there and I"
+  },
+  {
+    "t_start": 2516.58,
+    "t_end": 2519.25,
+    "text": "want to know what's going to happen to that two sphere if I let it if I let it"
+  },
+  {
+    "t_start": 2519.25,
+    "t_end": 2522.04,
+    "text": "that two sphere if I let it if I let it shrink well"
+  },
+  {
+    "t_start": 2522.04,
+    "t_end": 2530.29,
+    "text": "it's kind of interesting your first guess is something like this that will"
+  },
+  {
+    "t_start": 2530.29,
+    "t_end": 2536.62,
+    "text": "happen is that is that it'll do the same kind of thing just one dimension up that"
+  },
+  {
+    "t_start": 2536.62,
+    "t_end": 2542.65,
+    "text": "is L will contract and sort of form a form a shell around each one of the each"
+  },
+  {
+    "t_start": 2542.65,
+    "t_end": 2548.44,
+    "text": "form a shell around each one of the each one of the spheres and and in the place"
+  },
+  {
+    "t_start": 2548.44,
+    "t_end": 2550.18,
+    "text": "of two parallel geodesics running close together it'll actually give you a"
+  },
+  {
+    "t_start": 2550.18,
+    "t_end": 2552.66,
+    "text": "together it'll actually give you a little tube that runs from one from one"
+  },
+  {
+    "t_start": 2552.66,
+    "t_end": 2555.01,
+    "text": "little tube that runs from one from one surface to the other that's what you"
+  },
+  {
+    "t_start": 2555.01,
+    "t_end": 2557.35,
+    "text": "surface to the other that's what you would think is is probably what's going"
+  },
+  {
+    "t_start": 2557.35,
+    "t_end": 2559.45,
+    "text": "would think is is probably what's going to happen right and it'll stabilize at"
+  },
+  {
+    "t_start": 2559.45,
+    "t_end": 2560.77,
+    "text": "to happen right and it'll stabilize at some point before it actually goes"
+  },
+  {
+    "t_start": 2560.77,
+    "t_end": 2562.39,
+    "text": "some point before it actually goes through the throat and it'll give a"
+  },
+  {
+    "t_start": 2562.39,
+    "t_end": 2567.36,
+    "text": "through the throat and it'll give a minimum sad to say that is not possible"
+  },
+  {
+    "t_start": 2567.36,
+    "t_end": 2569.62,
+    "text": "minimum sad to say that is not possible it's not possible when the spheres are"
+  },
+  {
+    "t_start": 2569.62,
+    "t_end": 2574.63,
+    "text": "far enough apart that is if you if the spheres are a fixed radius and you and"
+  },
+  {
+    "t_start": 2574.63,
+    "t_end": 2579.34,
+    "text": "you and you cut them out far enough apart this thing cannot happen and the"
+  },
+  {
+    "t_start": 2579.34,
+    "t_end": 2582.94,
+    "text": "apart this thing cannot happen and the reason it can't happen is that is as"
+  },
+  {
+    "t_start": 2582.94,
+    "t_end": 2587.95,
+    "text": "we'll talk about on the next slide is that you can't have a thin tube like"
+  },
+  {
+    "t_start": 2587.95,
+    "t_end": 2590.8,
+    "text": "that you can't have a thin tube like this the minimum surfaces can never have"
+  },
+  {
+    "t_start": 2590.8,
+    "t_end": 2593.86,
+    "text": "this the minimum surfaces can never have thin tubes like this and yet because"
+  },
+  {
+    "t_start": 2593.86,
+    "t_end": 2595.42,
+    "text": "thin tubes like this and yet because everything's symmetric I can make"
+  },
+  {
+    "t_start": 2595.42,
+    "t_end": 2602.02,
+    "text": "know if you imagine it trying to flow in it would try to preserve that rotational"
+  },
+  {
+    "t_start": 2602.02,
+    "t_end": 2605.29,
+    "text": "it would try to preserve that rotational symmetry and and and the little tube"
+  },
+  {
+    "t_start": 2605.29,
+    "t_end": 2607.45,
+    "text": "symmetry and and and the little tube would necessarily be would necessarily"
+  },
+  {
+    "t_start": 2607.45,
+    "t_end": 2618.25,
+    "text": "would necessarily be would necessarily be a oh is that right oh my god and the"
+  },
+  {
+    "t_start": 2618.25,
+    "t_end": 2620.55,
+    "text": "be a oh is that right oh my god and the little tube would necessarily be"
+  },
+  {
+    "t_start": 2620.55,
+    "t_end": 2623.17,
+    "text": "little tube would necessarily be rotationally symmetric and because I've"
+  },
+  {
+    "t_start": 2623.17,
+    "t_end": 2627.13,
+    "text": "made it I've rigged it so that in the middle it's more or less flat that would"
+  },
+  {
+    "t_start": 2627.13,
+    "t_end": 2630.91,
+    "text": "middle it's more or less flat that would be just like flat space but uh but as"
+  },
+  {
+    "t_start": 2630.91,
+    "t_end": 2632.05,
+    "text": "be just like flat space but uh but as I'm going to show in the next slide that"
+  },
+  {
+    "t_start": 2632.05,
+    "t_end": 2634.6,
+    "text": "I'm going to show in the next slide that can't happen that cannot happen and so"
+  },
+  {
+    "t_start": 2634.6,
+    "t_end": 2635.77,
+    "text": "can't happen that cannot happen and so something must go wrong with this"
+  },
+  {
+    "t_start": 2635.77,
+    "t_end": 2636.34,
+    "text": "something must go wrong with this picture"
+  },
+  {
+    "t_start": 2636.34,
+    "t_end": 2642.13,
+    "text": "it can't converge to that it's not clear what it will do they will do something"
+  },
+  {
+    "t_start": 2642.13,
+    "t_end": 2647.35,
+    "text": "but it's not clear of what it will do here's why by the way it can't work and"
+  },
+  {
+    "t_start": 2647.35,
+    "t_end": 2648.43,
+    "text": "here's why by the way it can't work and you're gonna get a physical"
+  },
+  {
+    "t_start": 2648.43,
+    "t_end": 2651.05,
+    "text": "you're gonna get a physical demonstration of this in"
+  },
+  {
+    "t_start": 2651.05,
+    "t_end": 2657.5,
+    "text": "in Matt's talk in a few minutes the every minimal surface of revolution in"
+  },
+  {
+    "t_start": 2657.5,
+    "t_end": 2659.93,
+    "text": "every minimal surface of revolution in flat three space is a scaled catenoid"
+  },
+  {
+    "t_start": 2659.93,
+    "t_end": 2662.12,
+    "text": "flat three space is a scaled catenoid that is the that is it's a revolving"
+  },
+  {
+    "t_start": 2662.12,
+    "t_end": 2670.22,
+    "text": "that is the that is it's a revolving it's got by revolving a catenary curve"
+  },
+  {
+    "t_start": 2670.22,
+    "t_end": 2677.24,
+    "text": "around around around the line sorry oh now if you so now this this the scale"
+  },
+  {
+    "t_start": 2677.24,
+    "t_end": 2679.46,
+    "text": "oh now if you so now this this the scale catenoid czar all they're all scale"
+  },
+  {
+    "t_start": 2679.46,
+    "t_end": 2686.0,
+    "text": "of them and then you can either scale it down or scale it up they're all tangent"
+  },
+  {
+    "t_start": 2686.0,
+    "t_end": 2689.27,
+    "text": "down or scale it up they're all tangent to their tangent to this to this wage"
+  },
+  {
+    "t_start": 2689.27,
+    "t_end": 2695.72,
+    "text": "and you can see that if there's a surface of rotation if there's a surface"
+  },
+  {
+    "t_start": 2695.72,
+    "t_end": 2700.16,
+    "text": "surface of rotation if there's a surface of rotation that that's a minimal"
+  },
+  {
+    "t_start": 2700.16,
+    "t_end": 2704.18,
+    "text": "surface the two you have to be able to translate the two the two circles so"
+  },
+  {
+    "t_start": 2704.18,
+    "t_end": 2709.31,
+    "text": "that they fit inside the wage and so if the if the circles are too far apart"
+  },
+  {
+    "t_start": 2709.31,
+    "t_end": 2715.13,
+    "text": "it circles a too far apart and not wide enough then then there will not be a"
+  },
+  {
+    "t_start": 2715.13,
+    "t_end": 2717.44,
+    "text": "enough then then there will not be a solution between them and you know if"
+  },
+  {
+    "t_start": 2717.44,
+    "t_end": 2721.16,
+    "text": "solution between them and you know if you like this picture if you if you if"
+  },
+  {
+    "t_start": 2721.16,
+    "t_end": 2727.16,
+    "text": "you like this picture if you if you if you take your two disks your two so once"
+  },
+  {
+    "t_start": 2727.16,
+    "t_end": 2729.32,
+    "text": "you take your two disks your two so once you separate it far enough it will pop"
+  },
+  {
+    "t_start": 2729.32,
+    "t_end": 2731.69,
+    "text": "you separate it far enough it will pop that it's not a problem with it's not a"
+  },
+  {
+    "t_start": 2731.69,
+    "t_end": 2735.86,
+    "text": "problem with the soap solution not being strong enough for or anything like that"
+  },
+  {
+    "t_start": 2735.86,
+    "t_end": 2738.77,
+    "text": "strong enough for or anything like that it's just a fact about solutions of the"
+  },
+  {
+    "t_start": 2738.77,
+    "t_end": 2740.54,
+    "text": "it's just a fact about solutions of the calculus of variations there's no"
+  },
+  {
+    "t_start": 2740.54,
+    "t_end": 2742.34,
+    "text": "calculus of variations there's no solution so the soap bubble pops"
+  },
+  {
+    "t_start": 2742.34,
+    "t_end": 2749.0,
+    "text": "I mean physics knows more than we do this is the basic reason that minimal"
+  },
+  {
+    "t_start": 2749.0,
+    "t_end": 2750.68,
+    "text": "this is the basic reason that minimal surface can't have long thin necks and"
+  },
+  {
+    "t_start": 2750.68,
+    "t_end": 2752.15,
+    "text": "surface can't have long thin necks and you can actually give there other"
+  },
+  {
+    "t_start": 2752.15,
+    "t_end": 2760.04,
+    "text": "techniques you can give proofs etc but let me not dwell on this and here is"
+  },
+  {
+    "t_start": 2760.04,
+    "t_end": 2763.1,
+    "text": "let me not dwell on this and here is where I finally get to get to tell you"
+  },
+  {
+    "t_start": 2763.1,
+    "t_end": 2767.96,
+    "text": "where I finally get to get to tell you about one of my favorite results that of"
+  },
+  {
+    "t_start": 2767.96,
+    "t_end": 2773.69,
+    "text": "about one of my favorite results that of Carens is that like I said we know that"
+  },
+  {
+    "t_start": 2773.69,
+    "t_end": 2778.19,
+    "text": "don't know what it can do and and just about anything could happen as you know"
+  },
+  {
+    "t_start": 2778.19,
+    "t_end": 2779.39,
+    "text": "about anything could happen as you know you know when you start constructing"
+  },
+  {
+    "t_start": 2779.39,
+    "t_end": 2783.74,
+    "text": "these limit spaces you realize how wild they are and lots of things could happen"
+  },
+  {
+    "t_start": 2783.74,
+    "t_end": 2785.27,
+    "text": "they are and lots of things could happen but what"
+  },
+  {
+    "t_start": 2785.27,
+    "t_end": 2790.7,
+    "text": "what Jonathan Sacks and Karen Elam that proved was that in fact only a small"
+  },
+  {
+    "t_start": 2790.7,
+    "t_end": 2793.97,
+    "text": "proved was that in fact only a small number of bad things can happen and and"
+  },
+  {
+    "t_start": 2793.97,
+    "t_end": 2796.18,
+    "text": "number of bad things can happen and and the rest of the time it just converges"
+  },
+  {
+    "t_start": 2796.18,
+    "t_end": 2798.82,
+    "text": "the rest of the time it just converges I'm gonna I'm gonna state the theorem"
+  },
+  {
+    "t_start": 2798.82,
+    "t_end": 2808.04,
+    "text": "I'm gonna state the theorem Karen please forgive me that I don't put in all the"
+  },
+  {
+    "t_start": 2808.04,
+    "t_end": 2809.42,
+    "text": "hypotheses I did put a star to to alert you that if you really want to know the"
+  },
+  {
+    "t_start": 2809.42,
+    "t_end": 2811.58,
+    "text": "you that if you really want to know the theorem you have to you have to look at"
+  },
+  {
+    "t_start": 2811.58,
+    "t_end": 2814.94,
+    "text": "theorem you have to you have to look at the hypotheses carefully but this is a"
+  },
+  {
+    "t_start": 2814.94,
+    "t_end": 2820.31,
+    "text": "the hypotheses carefully but this is a hope morally right if you take a two"
+  },
+  {
+    "t_start": 2820.31,
+    "t_end": 2822.26,
+    "text": "hope morally right if you take a two sphere in a compact in manifold and you"
+  },
+  {
+    "t_start": 2822.26,
+    "t_end": 2823.97,
+    "text": "sphere in a compact in manifold and you try to contract it continuously to have"
+  },
+  {
+    "t_start": 2823.97,
+    "t_end": 2825.71,
+    "text": "try to contract it continuously to have least area or choose a sequence that's"
+  },
+  {
+    "t_start": 2825.71,
+    "t_end": 2829.25,
+    "text": "least area or choose a sequence that's and try to make it converge you can make"
+  },
+  {
+    "t_start": 2829.25,
+    "t_end": 2832.75,
+    "text": "and try to make it converge you can make it converge and get a limit which might"
+  },
+  {
+    "t_start": 2832.75,
+    "t_end": 2838.34,
+    "text": "except that near a finite number of points you have to let the you have to"
+  },
+  {
+    "t_start": 2838.34,
+    "t_end": 2843.5,
+    "text": "points you have to let the you have to let the the surface blow out like a like"
+  },
+  {
+    "t_start": 2843.5,
+    "t_end": 2846.92,
+    "text": "a tire you know it blows a big bubble and and and the rest of the thing"
+  },
+  {
+    "t_start": 2846.92,
+    "t_end": 2851.93,
+    "text": "contracts normally at a finite number of points it goes bad but it's only a"
+  },
+  {
+    "t_start": 2851.93,
+    "t_end": 2854.87,
+    "text": "finite number of points it's not some some cantor set of nastiness that"
+  },
+  {
+    "t_start": 2854.87,
+    "t_end": 2859.19,
+    "text": "some cantor set of nastiness that doesn't happen and in fact the the"
+  },
+  {
+    "t_start": 2859.19,
+    "t_end": 2866.62,
+    "text": "things that blow off are in fact minimal two spheres so so you get this very nice"
+  },
+  {
+    "t_start": 2866.62,
+    "t_end": 2873.44,
+    "text": "two spheres so so you get this very nice this very nice theorem about limits that"
+  },
+  {
+    "t_start": 2873.44,
+    "t_end": 2876.26,
+    "text": "takes place even though you don't have full control of the of getting"
+  },
+  {
+    "t_start": 2876.26,
+    "t_end": 2878.06,
+    "text": "full control of the of getting continuous limits you still get"
+  },
+  {
+    "t_start": 2878.06,
+    "t_end": 2880.43,
+    "text": "continuous limits you still get something very close and that has"
+  },
+  {
+    "t_start": 2880.43,
+    "t_end": 2881.9,
+    "text": "something very close and that has enormous ly increased our understanding"
+  },
+  {
+    "t_start": 2881.9,
+    "t_end": 2889.72,
+    "text": "enormous ly increased our understanding of minimal surfaces in the money and"
+  },
+  {
+    "t_start": 2889.72,
+    "t_end": 2894.31,
+    "text": "aspects of this or been generalized to higher dimensions by Shane and uhlenbeck"
+  },
+  {
+    "t_start": 2894.31,
+    "t_end": 2898.82,
+    "text": "higher dimensions by Shane and uhlenbeck and and it has applications to harmonic"
+  },
+  {
+    "t_start": 2898.82,
+    "t_end": 2902.93,
+    "text": "and and it has applications to harmonic Maps the geometry of buildings you know"
+  },
+  {
+    "t_start": 2902.93,
+    "t_end": 2904.7,
+    "text": "Maps the geometry of buildings you know tremendous number of things that have"
+  },
+  {
+    "t_start": 2904.7,
+    "t_end": 2907.03,
+    "text": "tremendous number of things that have actually connections with number theory"
+  },
+  {
+    "t_start": 2907.03,
+    "t_end": 2910.13,
+    "text": "actually connections with number theory it's been a very fruitful breakthrough"
+  },
+  {
+    "t_start": 2910.13,
+    "t_end": 2917.48,
+    "text": "it's been a very fruitful breakthrough now I realize that I am totally out of"
+  },
+  {
+    "t_start": 2917.48,
+    "t_end": 2920.15,
+    "text": "time in fact I'm three minutes over and and I just haven't get into part"
+  },
+  {
+    "t_start": 2920.15,
+    "t_end": 2929.75,
+    "text": "and and I just haven't get into part three ah no you know someone wants Mark"
+  },
+  {
+    "t_start": 2929.75,
+    "t_end": 2933.59,
+    "text": "three ah no you know someone wants Mark Twain once said that that intellectual"
+  },
+  {
+    "t_start": 2933.59,
+    "t_end": 2938.5,
+    "text": "Twain once said that that intellectual food is like any other it's better taken"
+  },
+  {
+    "t_start": 2938.5,
+    "t_end": 2944.27,
+    "text": "with the spoon than with a shovel and and and I I believe that firmly I don't"
+  },
+  {
+    "t_start": 2944.27,
+    "t_end": 2949.609,
+    "text": "and and I I believe that firmly I don't want to I don't want to just get there"
+  },
+  {
+    "t_start": 2949.609,
+    "t_end": 2950.84,
+    "text": "want to I don't want to just get there they're gonna let me talk for a few"
+  },
+  {
+    "t_start": 2950.84,
+    "t_end": 2953.6,
+    "text": "they're gonna let me talk for a few minutes longer so but I promise you I"
+  },
+  {
+    "t_start": 2953.6,
+    "t_end": 2956.48,
+    "text": "minutes longer so but I promise you I will try not to I'll try not to catch"
+  },
+  {
+    "t_start": 2956.48,
+    "t_end": 2961.55,
+    "text": "will try not to I'll try not to catch her patience now I haven't said anything"
+  },
+  {
+    "t_start": 2961.55,
+    "t_end": 2963.859,
+    "text": "her patience now I haven't said anything about what is one of the most remarkable"
+  },
+  {
+    "t_start": 2963.859,
+    "t_end": 2968.99,
+    "text": "about what is one of the most remarkable things that that Karen did early in you"
+  },
+  {
+    "t_start": 2968.99,
+    "t_end": 2974.6,
+    "text": "know I say earlier in her career but in fact I you know I know she already had a"
+  },
+  {
+    "t_start": 2974.6,
+    "t_end": 2980.44,
+    "text": "before this and and has had a long full career after but but it was early for me"
+  },
+  {
+    "t_start": 2980.44,
+    "t_end": 2986.75,
+    "text": "career after but but it was early for me we're not you about it is is this work"
+  },
+  {
+    "t_start": 2986.75,
+    "t_end": 2988.94,
+    "text": "we're not you about it is is this work with I'm undoubtedly you've heard these"
+  },
+  {
+    "t_start": 2988.94,
+    "t_end": 2991.07,
+    "text": "with I'm undoubtedly you've heard these words connections engage theory but you"
+  },
+  {
+    "t_start": 2991.07,
+    "t_end": 2994.64,
+    "text": "words connections engage theory but you may not know what a connection is in"
+  },
+  {
+    "t_start": 2994.64,
+    "t_end": 2996.77,
+    "text": "fact that's maybe it's probably the hardest thing to get wrap your head"
+  },
+  {
+    "t_start": 2996.77,
+    "t_end": 2998.12,
+    "text": "hardest thing to get wrap your head around in these things that's what is a"
+  },
+  {
+    "t_start": 2998.12,
+    "t_end": 3001.39,
+    "text": "around in these things that's what is a connection I'm gonna I'm not even going"
+  },
+  {
+    "t_start": 3001.39,
+    "t_end": 3005.56,
+    "text": "connection I'm gonna I'm not even going to define it exactly but I'm gonna give"
+  },
+  {
+    "t_start": 3005.56,
+    "t_end": 3010.66,
+    "text": "you three examples of connections and say and say this is the stuff that"
+  },
+  {
+    "t_start": 3010.66,
+    "t_end": 3014.5,
+    "text": "mathematicians and physicists have collected into a theory I mean these are"
+  },
+  {
+    "t_start": 3014.5,
+    "t_end": 3016.77,
+    "text": "these are things that have been collected into a theory the first thing"
+  },
+  {
+    "t_start": 3016.77,
+    "t_end": 3020.47,
+    "text": "collected into a theory the first thing is almost obvious in hindsight is is"
+  },
+  {
+    "t_start": 3020.47,
+    "t_end": 3024.73,
+    "text": "is almost obvious in hindsight is is that Newton's laws of motion you know"
+  },
+  {
+    "t_start": 3024.73,
+    "t_end": 3026.5,
+    "text": "you know the slogan is velocities relative that acceleration is absolute"
+  },
+  {
+    "t_start": 3026.5,
+    "t_end": 3031.18,
+    "text": "relative that acceleration is absolute that is you can't really tell how fast"
+  },
+  {
+    "t_start": 3031.18,
+    "t_end": 3033.099,
+    "text": "you're going but you can tell how you can feel any changes in your velocity"
+  },
+  {
+    "t_start": 3033.099,
+    "t_end": 3038.71,
+    "text": "can feel any changes in your velocity right and what that what that amounts to"
+  },
+  {
+    "t_start": 3038.71,
+    "t_end": 3041.59,
+    "text": "right and what that what that amounts to is that it allowed is this principle"
+  },
+  {
+    "t_start": 3041.59,
+    "t_end": 3046.51,
+    "text": "is that it allowed is this principle allows us to actually you know build a"
+  },
+  {
+    "t_start": 3046.51,
+    "t_end": 3051.52,
+    "text": "any conveyance and build inside it something that detects acceleration and"
+  },
+  {
+    "t_start": 3051.52,
+    "t_end": 3057.91,
+    "text": "something that detects acceleration and and it can track wherever you are right"
+  },
+  {
+    "t_start": 3057.91,
+    "t_end": 3059.5,
+    "text": "once it knows the initial position it can keep track of you changes in"
+  },
+  {
+    "t_start": 3059.5,
+    "t_end": 3062.8,
+    "text": "can keep track of you changes in position and orientation and velocity so"
+  },
+  {
+    "t_start": 3062.8,
+    "t_end": 3070.18,
+    "text": "this ability to track you know given an initial state and detecting acceleration"
+  },
+  {
+    "t_start": 3070.18,
+    "t_end": 3072.31,
+    "text": "initial state and detecting acceleration rather than velocity which you can"
+  },
+  {
+    "t_start": 3072.31,
+    "t_end": 3075.25,
+    "text": "rather than velocity which you can detect I mean you cannot detect directly"
+  },
+  {
+    "t_start": 3075.25,
+    "t_end": 3080.02,
+    "text": "detect I mean you cannot detect directly is is this way of connecting velocities"
+  },
+  {
+    "t_start": 3080.02,
+    "t_end": 3082.36,
+    "text": "is is this way of connecting velocities at different places and that word"
+  },
+  {
+    "t_start": 3082.36,
+    "t_end": 3085.3,
+    "text": "at different places and that word connect is is chosen it's chosen for a"
+  },
+  {
+    "t_start": 3085.3,
+    "t_end": 3087.94,
+    "text": "connect is is chosen it's chosen for a good reason"
+  },
+  {
+    "t_start": 3090.04,
+    "t_end": 3097.45,
+    "text": "connects velocities at different points of a path another example everywhere on"
+  },
+  {
+    "t_start": 3097.45,
+    "t_end": 3100.96,
+    "text": "earth except at the poles we have a well-defined notion of north south east"
+  },
+  {
+    "t_start": 3100.96,
+    "t_end": 3105.22,
+    "text": "well-defined notion of north south east and west right we have a orientation but"
+  },
+  {
+    "t_start": 3105.22,
+    "t_end": 3110.86,
+    "text": "north south east and west at poles right I mean obviously you have South but you"
+  },
+  {
+    "t_start": 3110.86,
+    "t_end": 3112.54,
+    "text": "I mean obviously you have South but you can't figure out where East and West are"
+  },
+  {
+    "t_start": 3112.54,
+    "t_end": 3114.79,
+    "text": "can't figure out where East and West are right that doesn't make any sense"
+  },
+  {
+    "t_start": 3114.79,
+    "t_end": 3116.92,
+    "text": "right that doesn't make any sense so it looks like something's wrong with"
+  },
+  {
+    "t_start": 3116.92,
+    "t_end": 3122.17,
+    "text": "so it looks like something's wrong with the sphere right well still if you take"
+  },
+  {
+    "t_start": 3122.17,
+    "t_end": 3124.87,
+    "text": "the sphere right well still if you take a traveler and and and she just keeps"
+  },
+  {
+    "t_start": 3124.87,
+    "t_end": 3131.92,
+    "text": "track of how how she turns left or right and how fast she's turning she she knows"
+  },
+  {
+    "t_start": 3131.92,
+    "t_end": 3135.22,
+    "text": "and how fast she's turning she she knows how fast her sense of direction is"
+  },
+  {
+    "t_start": 3135.22,
+    "t_end": 3138.73,
+    "text": "velocity and so she can connect her senses of direction at two different"
+  },
+  {
+    "t_start": 3138.73,
+    "t_end": 3142.84,
+    "text": "senses of direction at two different places by internal measurements right"
+  },
+  {
+    "t_start": 3142.84,
+    "t_end": 3145.27,
+    "text": "places by internal measurements right she doesn't have to see it she doesn't"
+  },
+  {
+    "t_start": 3145.27,
+    "t_end": 3146.08,
+    "text": "she doesn't have to see it she doesn't have to"
+  },
+  {
+    "t_start": 3146.08,
+    "t_end": 3150.58,
+    "text": "she doesn't have to keep checking landscapes as long as she takes takes"
+  },
+  {
+    "t_start": 3150.58,
+    "t_end": 3157.39,
+    "text": "good care and it doesn't matter whether she passes over a pole or not and so but"
+  },
+  {
+    "t_start": 3157.39,
+    "t_end": 3159.46,
+    "text": "she passes over a pole or not and so but on the other hand she would be able to"
+  },
+  {
+    "t_start": 3159.46,
+    "t_end": 3162.67,
+    "text": "on the other hand she would be able to tell if she if she did something like"
+  },
+  {
+    "t_start": 3162.67,
+    "t_end": 3166.9,
+    "text": "this on the earth she went straight what seems to be straight for a while made a"
+  },
+  {
+    "t_start": 3166.9,
+    "t_end": 3168.18,
+    "text": "seems to be straight for a while made a right-hand turn"
+  },
+  {
+    "t_start": 3168.18,
+    "t_end": 3174.4,
+    "text": "whoops wrong made a right-hand turn went for a while made another right-hand turn"
+  },
+  {
+    "t_start": 3174.4,
+    "t_end": 3177.58,
+    "text": "for a while made another right-hand turn went for the same distance and would"
+  },
+  {
+    "t_start": 3177.58,
+    "t_end": 3178.799,
+    "text": "went for the same distance and would come back"
+  },
+  {
+    "t_start": 3178.799,
+    "t_end": 3184.349,
+    "text": "not as you might think and here I better go to the other picture and if if the"
+  },
+  {
+    "t_start": 3184.349,
+    "t_end": 3187.589,
+    "text": "go to the other picture and if if the world we're flat you might think if you"
+  },
+  {
+    "t_start": 3187.589,
+    "t_end": 3191.43,
+    "text": "world we're flat you might think if you did that then you come back and your"
+  },
+  {
+    "t_start": 3191.43,
+    "t_end": 3192.72,
+    "text": "sense of forward would be exactly reversed right"
+  },
+  {
+    "t_start": 3192.72,
+    "t_end": 3197.579,
+    "text": "but in on the curvature on the earth which is curved your sense of forward is"
+  },
+  {
+    "t_start": 3197.579,
+    "t_end": 3199.519,
+    "text": "which is curved your sense of forward is not exactly reversed but it's rotated"
+  },
+  {
+    "t_start": 3199.519,
+    "t_end": 3207.299,
+    "text": "expect it to be and that's an effect of the curvature of the earth but the point"
+  },
+  {
+    "t_start": 3207.299,
+    "t_end": 3214.349,
+    "text": "the curvature of the earth but the point is that that there is a way you know the"
+  },
+  {
+    "t_start": 3214.349,
+    "t_end": 3218.609,
+    "text": "things sense of direction at two different points along the path is there"
+  },
+  {
+    "t_start": 3218.609,
+    "t_end": 3220.499,
+    "text": "different points along the path is there it's something intrinsic that you can"
+  },
+  {
+    "t_start": 3220.499,
+    "t_end": 3225.21,
+    "text": "it's something intrinsic that you can feel it's it's more real than an actual"
+  },
+  {
+    "t_start": 3225.21,
+    "t_end": 3229.519,
+    "text": "direction at a point it's just the change in direction is what you can feel"
+  },
+  {
+    "t_start": 3229.519,
+    "t_end": 3235.289,
+    "text": "up example3 quick here one of my favorite"
+  },
+  {
+    "t_start": 3235.289,
+    "t_end": 3239.64,
+    "text": "example3 quick here one of my favorite examples is even though I'm an American"
+  },
+  {
+    "t_start": 3239.64,
+    "t_end": 3243.839,
+    "text": "examples is even though I'm an American I still recognize the soccer ball one of"
+  },
+  {
+    "t_start": 3243.839,
+    "t_end": 3246.479,
+    "text": "I still recognize the soccer ball one of my favorite examples is is if you take a"
+  },
+  {
+    "t_start": 3246.479,
+    "t_end": 3252.779,
+    "text": "my favorite examples is is if you take a ball on a table and you roll it along a"
+  },
+  {
+    "t_start": 3252.779,
+    "t_end": 3256.71,
+    "text": "curve without twisting or slipping the the the friction actually tells you how"
+  },
+  {
+    "t_start": 3256.71,
+    "t_end": 3258.69,
+    "text": "the the friction actually tells you how to connect the orientation of the ball"
+  },
+  {
+    "t_start": 3258.69,
+    "t_end": 3264.569,
+    "text": "to connect the orientation of the ball as you go around any given path so"
+  },
+  {
+    "t_start": 3264.569,
+    "t_end": 3269.489,
+    "text": "example of a connection and the end and the fact that you come around the path"
+  },
+  {
+    "t_start": 3269.489,
+    "t_end": 3274.999,
+    "text": "and come back and the thing is rotated tells you that there's curvature there"
+  },
+  {
+    "t_start": 3274.999,
+    "t_end": 3276.66,
+    "text": "tells you that there's curvature there even though it may not look like"
+  },
+  {
+    "t_start": 3276.66,
+    "t_end": 3279.509,
+    "text": "even though it may not look like curvature but that you know the failure"
+  },
+  {
+    "t_start": 3279.509,
+    "t_end": 3284.13,
+    "text": "of you know going from one dimensional connection to two-dimensional trying to"
+  },
+  {
+    "t_start": 3284.13,
+    "t_end": 3290.309,
+    "text": "fill in that gap is what we call curvature in all these situations and I"
+  },
+  {
+    "t_start": 3290.309,
+    "t_end": 3291.569,
+    "text": "curvature in all these situations and I haven't told you how to compute anything"
+  },
+  {
+    "t_start": 3291.569,
+    "t_end": 3297.15,
+    "text": "haven't told you how to compute anything you want to learn that go to graduate"
+  },
+  {
+    "t_start": 3297.15,
+    "t_end": 3300.599,
+    "text": "school but it's there there's a thing right and let me speed through this I"
+  },
+  {
+    "t_start": 3300.599,
+    "t_end": 3302.7,
+    "text": "right and let me speed through this I mean I said what I said and I reused the"
+  },
+  {
+    "t_start": 3302.7,
+    "t_end": 3304.349,
+    "text": "mean I said what I said and I reused the word connection all those things look"
+  },
+  {
+    "t_start": 3304.349,
+    "t_end": 3305.579,
+    "text": "word connection all those things look like they're completely different things"
+  },
+  {
+    "t_start": 3305.579,
+    "t_end": 3311.069,
+    "text": "like they're completely different things but in fact they're all special cases of"
+  },
+  {
+    "t_start": 3311.069,
+    "t_end": 3313.2,
+    "text": "a single construction that single construction is what math"
+  },
+  {
+    "t_start": 3313.2,
+    "t_end": 3319.29,
+    "text": "connections like I said it takes more machinery you find I'll just give you"
+  },
+  {
+    "t_start": 3319.29,
+    "t_end": 3321.6,
+    "text": "machinery you find I'll just give you some examples of things that are that"
+  },
+  {
+    "t_start": 3321.6,
+    "t_end": 3323.37,
+    "text": "some examples of things that are that have been recognized to be connections"
+  },
+  {
+    "t_start": 3323.37,
+    "t_end": 3326.69,
+    "text": "have been recognized to be connections herman wall showed that showed that"
+  },
+  {
+    "t_start": 3326.69,
+    "t_end": 3330.87,
+    "text": "Maxwell's laws can be interpreted as a connection on space-time whose curvature"
+  },
+  {
+    "t_start": 3330.87,
+    "t_end": 3335.04,
+    "text": "connection on space-time whose curvature is the electromagnetic field Einstein's"
+  },
+  {
+    "t_start": 3335.04,
+    "t_end": 3338.58,
+    "text": "theory of general relativity says as a connection on space-time whose curvature"
+  },
+  {
+    "t_start": 3338.58,
+    "t_end": 3340.32,
+    "text": "connection on space-time whose curvature describes gravitational effects such as"
+  },
+  {
+    "t_start": 3340.32,
+    "t_end": 3344.1,
+    "text": "describes gravitational effects such as tidal forces and gravity waves yang and"
+  },
+  {
+    "t_start": 3344.1,
+    "t_end": 3347.69,
+    "text": "tidal forces and gravity waves yang and Mills in 1954 when I was one-year-old"
+  },
+  {
+    "t_start": 3347.69,
+    "t_end": 3352.47,
+    "text": "Mills in 1954 when I was one-year-old show how shows a show in fact how strong"
+  },
+  {
+    "t_start": 3352.47,
+    "t_end": 3354.3,
+    "text": "show how shows a show in fact how strong interactions in quantum electrodynamics"
+  },
+  {
+    "t_start": 3354.3,
+    "t_end": 3358.23,
+    "text": "interactions in quantum electrodynamics could be explained as a connection whose"
+  },
+  {
+    "t_start": 3358.23,
+    "t_end": 3361.08,
+    "text": "curvature satisfies and all along or Lagrange equation for tow for minimizing"
+  },
+  {
+    "t_start": 3361.08,
+    "t_end": 3362.37,
+    "text": "Lagrange equation for tow for minimizing total courage once you realize"
+  },
+  {
+    "t_start": 3362.37,
+    "t_end": 3364.44,
+    "text": "total courage once you realize connections are things they're just like"
+  },
+  {
+    "t_start": 3364.44,
+    "t_end": 3366.54,
+    "text": "connections are things they're just like functions you can differentiate them you"
+  },
+  {
+    "t_start": 3366.54,
+    "t_end": 3371.34,
+    "text": "functions you can differentiate them you can you can make a space of them you can"
+  },
+  {
+    "t_start": 3371.34,
+    "t_end": 3373.94,
+    "text": "complete them you can do but that's tricky it turns out it has lots of"
+  },
+  {
+    "t_start": 3373.94,
+    "t_end": 3376.17,
+    "text": "tricky it turns out it has lots of geometry topology of an end manifold"
+  },
+  {
+    "t_start": 3376.17,
+    "t_end": 3377.25,
+    "text": "geometry topology of an end manifold strongly restrict the kind of"
+  },
+  {
+    "t_start": 3377.25,
+    "t_end": 3385.2,
+    "text": "surface on a manifold and so they can be used to probe the probe the the geometry"
+  },
+  {
+    "t_start": 3385.2,
+    "t_end": 3391.2,
+    "text": "used to probe the probe the the geometry and topology of n manifolds these are"
+  },
+  {
+    "t_start": 3391.2,
+    "t_end": 3392.79,
+    "text": "and topology of n manifolds these are Lin Lagrange equations I was talking"
+  },
+  {
+    "t_start": 3392.79,
+    "t_end": 3394.44,
+    "text": "Lin Lagrange equations I was talking about these yang-mills equations for"
+  },
+  {
+    "t_start": 3394.44,
+    "t_end": 3395.82,
+    "text": "about these yang-mills equations for minimizing total curvature of a"
+  },
+  {
+    "t_start": 3395.82,
+    "t_end": 3399.81,
+    "text": "connection got a great deal of attention from physicists when they were when yang"
+  },
+  {
+    "t_start": 3399.81,
+    "t_end": 3402.96,
+    "text": "from physicists when they were when yang and Mills first wrote them down but at"
+  },
+  {
+    "t_start": 3402.96,
+    "t_end": 3405.66,
+    "text": "least at first not so much for mathematicians robot used to tell this"
+  },
+  {
+    "t_start": 3405.66,
+    "t_end": 3407.94,
+    "text": "mathematicians robot used to tell this funny story about how he and yang and"
+  },
+  {
+    "t_start": 3407.94,
+    "t_end": 3409.32,
+    "text": "funny story about how he and yang and Mills were all at the Institute at the"
+  },
+  {
+    "t_start": 3409.32,
+    "t_end": 3413.72,
+    "text": "Mills were all at the Institute at the same time when yang and Mills were in"
+  },
+  {
+    "t_start": 3413.72,
+    "t_end": 3418.92,
+    "text": "yang-mills theory and and the only interaction they had was that was that"
+  },
+  {
+    "t_start": 3418.92,
+    "t_end": 3424.23,
+    "text": "interaction they had was that was that they they used to paint fences for the"
+  },
+  {
+    "t_start": 3424.23,
+    "t_end": 3428.7,
+    "text": "the kindergarten together but they never talked about their work so they didn't"
+  },
+  {
+    "t_start": 3428.7,
+    "t_end": 3433.43,
+    "text": "know that they were working on the same kind of things"
+  },
+  {
+    "t_start": 3436.349,
+    "t_end": 3437.76,
+    "text": "there were known difficulties in the analysis because these equations have"
+  },
+  {
+    "t_start": 3437.76,
+    "t_end": 3441.089,
+    "text": "analysis because these equations have built into generous ease be caused by"
+  },
+  {
+    "t_start": 3441.089,
+    "t_end": 3443.94,
+    "text": "their very large symmetry groups so-called gauge groups these these"
+  },
+  {
+    "t_start": 3443.94,
+    "t_end": 3450.39,
+    "text": "groups these symmetries of connections or equivalences of connections are they"
+  },
+  {
+    "t_start": 3450.39,
+    "t_end": 3452.37,
+    "text": "or equivalences of connections are they had already been identified by li and"
+  },
+  {
+    "t_start": 3452.37,
+    "t_end": 3455.16,
+    "text": "had already been identified by li and carton many years before but nobody knew"
+  },
+  {
+    "t_start": 3455.16,
+    "t_end": 3458.4,
+    "text": "carton many years before but nobody knew what to do with them nobody knew what"
+  },
+  {
+    "t_start": 3458.4,
+    "t_end": 3459.99,
+    "text": "applications they had or how to understand them and there was no"
+  },
+  {
+    "t_start": 3459.99,
+    "t_end": 3461.97,
+    "text": "understand them and there was no discussion of convergence and limit"
+  },
+  {
+    "t_start": 3461.97,
+    "t_end": 3467.25,
+    "text": "properties is all formal by the way at this particular term li was still one of"
+  },
+  {
+    "t_start": 3467.25,
+    "t_end": 3468.51,
+    "text": "this particular term li was still one of the mathematicians who was using"
+  },
+  {
+    "t_start": 3468.51,
+    "t_end": 3476.01,
+    "text": "infinite decimals you know although the the rigorous theory had been had been"
+  },
+  {
+    "t_start": 3476.01,
+    "t_end": 3480.39,
+    "text": "the rigorous theory had been had been had begun to catch hold Li was a very"
+  },
+  {
+    "t_start": 3480.39,
+    "t_end": 3485.48,
+    "text": "geometric thinker and and and infinitesimally fine for him anyway"
+  },
+  {
+    "t_start": 3485.48,
+    "t_end": 3491.25,
+    "text": "developing subject took a long time and because of vowels vowel introduced a"
+  },
+  {
+    "t_start": 3491.25,
+    "t_end": 3493.88,
+    "text": "because of vowels vowel introduced a terminology called you know gauge"
+  },
+  {
+    "t_start": 3493.88,
+    "t_end": 3497.25,
+    "text": "terminology called you know gauge transformations for for the ambiguity of"
+  },
+  {
+    "t_start": 3497.25,
+    "t_end": 3500.76,
+    "text": "transformations for for the ambiguity of knowing position this was it became"
+  },
+  {
+    "t_start": 3500.76,
+    "t_end": 3506.19,
+    "text": "known as gauge theory and I'm almost out of time and I'm way out of time but let"
+  },
+  {
+    "t_start": 3506.19,
+    "t_end": 3509.25,
+    "text": "of time and I'm way out of time but let me just let me do this in the 1980's"
+  },
+  {
+    "t_start": 3509.25,
+    "t_end": 3512.16,
+    "text": "me just let me do this in the 1980's Karen began discovering and publishing"
+  },
+  {
+    "t_start": 3512.16,
+    "t_end": 3514.349,
+    "text": "Karen began discovering and publishing of some foundational results about these"
+  },
+  {
+    "t_start": 3514.349,
+    "t_end": 3516.75,
+    "text": "of some foundational results about these yang-mills connections on four manifolds"
+  },
+  {
+    "t_start": 3516.75,
+    "t_end": 3519.18,
+    "text": "yang-mills connections on four manifolds in particular and exactly why for"
+  },
+  {
+    "t_start": 3519.18,
+    "t_end": 3522.569,
+    "text": "Karen's already said it has to do with scaling symmetry but another way to"
+  },
+  {
+    "t_start": 3522.569,
+    "t_end": 3524.9,
+    "text": "scaling symmetry but another way to think of it is that curvature is"
+  },
+  {
+    "t_start": 3524.9,
+    "t_end": 3527.4,
+    "text": "think of it is that curvature is curvatures a two-dimensional thing as I"
+  },
+  {
+    "t_start": 3527.4,
+    "t_end": 3529.02,
+    "text": "curvatures a two-dimensional thing as I was saying it's what you have to what"
+  },
+  {
+    "t_start": 3529.02,
+    "t_end": 3533.069,
+    "text": "was saying it's what you have to what you need to figure out what why you"
+  },
+  {
+    "t_start": 3533.069,
+    "t_end": 3534.839,
+    "text": "can't fill in things in in two dimensions so it's a it's a"
+  },
+  {
+    "t_start": 3534.839,
+    "t_end": 3541.65,
+    "text": "two-dimensional object and when you're taking the size of it you take it square"
+  },
+  {
+    "t_start": 3541.65,
+    "t_end": 3547.89,
+    "text": "so you're actually a four dimensional scaling object so so you need four"
+  },
+  {
+    "t_start": 3547.89,
+    "t_end": 3554.64,
+    "text": "geometric dimension and so that's why four is so important ah and she first"
+  },
+  {
+    "t_start": 3554.64,
+    "t_end": 3556.77,
+    "text": "four is so important ah and she first showed how to deal with this degeneracy"
+  },
+  {
+    "t_start": 3556.77,
+    "t_end": 3560.26,
+    "text": "showed how to deal with this degeneracy that vowel had all had"
+  },
+  {
+    "t_start": 3560.26,
+    "t_end": 3565.96,
+    "text": "uncovered she showed how you could normalize the ambiguity away in what she"
+  },
+  {
+    "t_start": 3565.96,
+    "t_end": 3567.43,
+    "text": "normalize the ambiguity away in what she called the Coulomb gauge that was"
+  },
+  {
+    "t_start": 3567.43,
+    "t_end": 3570.13,
+    "text": "called the Coulomb gauge that was mentioned in the in the whatever is"
+  },
+  {
+    "t_start": 3570.13,
+    "t_end": 3576.37,
+    "text": "called the letter the the film at the beginning which was very nice by the way"
+  },
+  {
+    "t_start": 3576.37,
+    "t_end": 3578.35,
+    "text": "and that was important because it allowed you to estimate sizes and"
+  },
+  {
+    "t_start": 3578.35,
+    "t_end": 3580.71,
+    "text": "allowed you to estimate sizes and compute limits or show that they exist"
+  },
+  {
+    "t_start": 3580.71,
+    "t_end": 3584.23,
+    "text": "compute limits or show that they exist and then she proved in a really amazing"
+  },
+  {
+    "t_start": 3584.23,
+    "t_end": 3585.88,
+    "text": "and then she proved in a really amazing removable singularities theorem that"
+  },
+  {
+    "t_start": 3585.88,
+    "t_end": 3589.99,
+    "text": "said that if you had an actual yang-mills connection on a puncture on a"
+  },
+  {
+    "t_start": 3589.99,
+    "t_end": 3595.57,
+    "text": "yang-mills connection on a puncture on a ball missing a point then then as long"
+  },
+  {
+    "t_start": 3595.57,
+    "t_end": 3597.37,
+    "text": "as the total yang-mills curvature was finite you could fill it in"
+  },
+  {
+    "t_start": 3597.37,
+    "t_end": 3599.86,
+    "text": "finite you could fill it in that is those things that appeared to be"
+  },
+  {
+    "t_start": 3599.86,
+    "t_end": 3601.33,
+    "text": "that is those things that appeared to be singularities it's like removable"
+  },
+  {
+    "t_start": 3601.33,
+    "t_end": 3607.08,
+    "text": "singularities and complex analysis that you can you know once you know that"
+  },
+  {
+    "t_start": 3607.08,
+    "t_end": 3610.6,
+    "text": "certain thing is finite you can just fill it in and that that was important"
+  },
+  {
+    "t_start": 3610.6,
+    "t_end": 3618.49,
+    "text": "because it allowed you to do all kinds of global things and and this is my last"
+  },
+  {
+    "t_start": 3618.49,
+    "t_end": 3621.01,
+    "text": "of global things and and this is my last slide the those two results laid the"
+  },
+  {
+    "t_start": 3621.01,
+    "t_end": 3624.25,
+    "text": "slide the those two results laid the foundations for for many applications of"
+  },
+  {
+    "t_start": 3624.25,
+    "t_end": 3625.69,
+    "text": "foundations for for many applications of yang-mills theory in the intervening"
+  },
+  {
+    "t_start": 3625.69,
+    "t_end": 3631.75,
+    "text": "years the work of Donaldson and tabs that has told so much about the topology"
+  },
+  {
+    "t_start": 3631.75,
+    "t_end": 3634.39,
+    "text": "that has told so much about the topology of four manifolds and floor three and I"
+  },
+  {
+    "t_start": 3634.39,
+    "t_end": 3640.08,
+    "text": "of four manifolds and floor three and I mean I really don't have time to say"
+  },
+  {
+    "t_start": 3640.08,
+    "t_end": 3646.36,
+    "text": "the enormous influence of Karin's work but she continues to develop original"
+  },
+  {
+    "t_start": 3646.36,
+    "t_end": 3650.05,
+    "text": "but she continues to develop original ideas and inspire mathematicians and"
+  },
+  {
+    "t_start": 3650.05,
+    "t_end": 3655.06,
+    "text": "physicists the world over I wanted to say congratulations to Karen and I found"
+  },
+  {
+    "t_start": 3655.06,
+    "t_end": 3659.86,
+    "text": "say congratulations to Karen and I found this picture of her when I first met her"
+  },
+  {
+    "t_start": 3659.86,
+    "t_end": 3662.98,
+    "text": "well roughly within a few years of when I first met her at the ad the Institute"
+  },
+  {
+    "t_start": 3662.98,
+    "t_end": 3667.15,
+    "text": "I first met her at the ad the Institute for Advanced Study and and it brought"
+  },
+  {
+    "t_start": 3667.15,
+    "t_end": 3669.46,
+    "text": "for Advanced Study and and it brought back all these fond memories of how"
+  },
+  {
+    "t_start": 3669.46,
+    "t_end": 3674.65,
+    "text": "Karen she and Bob were to me a beginning postdoc who knew nothing and didn't even"
+  },
+  {
+    "t_start": 3674.65,
+    "t_end": 3680.29,
+    "text": "postdoc who knew nothing and didn't even know that he knew nothing and and so I"
+  },
+  {
+    "t_start": 3680.29,
+    "t_end": 3682.27,
+    "text": "know that he knew nothing and and so I wanted to say congratulations to Karen"
+  },
+  {
+    "t_start": 3682.27,
+    "t_end": 3687.79,
+    "text": "wanted to say congratulations to Karen and I hope that I'm not about to have"
+  },
+  {
+    "t_start": 3687.79,
+    "t_end": 3693.319,
+    "text": "this experience that that Woody Allen had in any hall that you know when he"
+  },
+  {
+    "t_start": 3693.319,
+    "t_end": 3698.709,
+    "text": "line behind this guy in the movies you know movie line and he was and he was"
+  },
+  {
+    "t_start": 3698.709,
+    "t_end": 3701.359,
+    "text": "know movie line and he was and he was bloviating about how Marshall McLuhan's"
+  },
+  {
+    "t_start": 3701.359,
+    "t_end": 3705.589,
+    "text": "theories and and how important they were and things like that and then and Woody"
+  },
+  {
+    "t_start": 3705.589,
+    "t_end": 3707.479,
+    "text": "and things like that and then and Woody Allen says you're completely wrong and"
+  },
+  {
+    "t_start": 3707.479,
+    "t_end": 3711.079,
+    "text": "Allen says you're completely wrong and I'm gonna show you and he reaches over"
+  },
+  {
+    "t_start": 3711.079,
+    "t_end": 3716.69,
+    "text": "behind from a Honda movie poster and Marshall says says I've been listening"
+  },
+  {
+    "t_start": 3716.69,
+    "t_end": 3717.949,
+    "text": "Marshall says says I've been listening and everything you said it's completely"
+  },
+  {
+    "t_start": 3717.949,
+    "t_end": 3725.45,
+    "text": "and everything you said it's completely wrong so I'm hoping that's not about to"
+  }
+]

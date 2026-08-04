@@ -1,0 +1,1142 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 19.92,
+    "text": "[Submit subtitle corrections at criblate.com]"
+  },
+  {
+    "t_start": 19.92,
+    "t_end": 22.757,
+    "text": "Eigenvectors and eigenvalues is one of those topics"
+  },
+  {
+    "t_start": 22.757,
+    "t_end": 25.76,
+    "text": "that a lot of students find particularly unintuitive."
+  },
+  {
+    "t_start": 25.76,
+    "t_end": 29.382,
+    "text": "Questions like, why are we doing this and what does this actually mean,"
+  },
+  {
+    "t_start": 29.382,
+    "t_end": 33.26,
+    "text": "are too often left just floating away in an unanswered sea of computations."
+  },
+  {
+    "t_start": 33.92,
+    "t_end": 35.982,
+    "text": "And as I've put out the videos of this series,"
+  },
+  {
+    "t_start": 35.982,
+    "t_end": 39.119,
+    "text": "a lot of you have commented about looking forward to visualizing this"
+  },
+  {
+    "t_start": 39.119,
+    "t_end": 40.06,
+    "text": "topic in particular."
+  },
+  {
+    "t_start": 40.68,
+    "t_end": 43.324,
+    "text": "I suspect that the reason for this is not so much that"
+  },
+  {
+    "t_start": 43.324,
+    "t_end": 46.36,
+    "text": "eigenthings are particularly complicated or poorly explained."
+  },
+  {
+    "t_start": 46.86,
+    "t_end": 49.02,
+    "text": "In fact, it's comparatively straightforward, and"
+  },
+  {
+    "t_start": 49.02,
+    "t_end": 51.18,
+    "text": "I think most books do a fine job explaining it."
+  },
+  {
+    "t_start": 51.52,
+    "t_end": 55.084,
+    "text": "The issue is that it only really makes sense if you have a solid"
+  },
+  {
+    "t_start": 55.084,
+    "t_end": 58.48,
+    "text": "visual understanding for many of the topics that precede it."
+  },
+  {
+    "t_start": 59.06,
+    "t_end": 62.565,
+    "text": "Most important here is that you know how to think about matrices as"
+  },
+  {
+    "t_start": 62.565,
+    "t_end": 66.331,
+    "text": "linear transformations, but you also need to be comfortable with things"
+  },
+  {
+    "t_start": 66.331,
+    "t_end": 69.94,
+    "text": "like determinants, linear systems of equations, and change of basis."
+  },
+  {
+    "t_start": 70.72,
+    "t_end": 74.925,
+    "text": "Confusion about eigenstuffs usually has more to do with a shaky foundation in"
+  },
+  {
+    "t_start": 74.925,
+    "t_end": 79.24,
+    "text": "one of these topics than it does with eigenvectors and eigenvalues themselves."
+  },
+  {
+    "t_start": 79.98,
+    "t_end": 84.84,
+    "text": "To start, consider some linear transformation in two dimensions, like the one shown here."
+  },
+  {
+    "t_start": 85.46,
+    "t_end": 91.04,
+    "text": "It moves the basis vector i-hat to the coordinates (3, 0), and j-hat to (1, 2)."
+  },
+  {
+    "t_start": 91.78,
+    "t_end": 95.64,
+    "text": "So it's represented with a matrix whose columns are (3, 0), and (1, 2)."
+  },
+  {
+    "t_start": 96.6,
+    "t_end": 99.3,
+    "text": "Focus in on what it does to one particular vector,"
+  },
+  {
+    "t_start": 99.3,
+    "t_end": 104.16,
+    "text": "and think about the span of that vector, the line passing through its origin and its tip."
+  },
+  {
+    "t_start": 104.92,
+    "t_end": 108.38,
+    "text": "Most vectors are going to get knocked off their span during the transformation."
+  },
+  {
+    "t_start": 108.78,
+    "t_end": 111.996,
+    "text": "I mean, it would seem pretty coincidental if the place where"
+  },
+  {
+    "t_start": 111.996,
+    "t_end": 115.32,
+    "text": "the vector landed also happened to be somewhere on that line."
+  },
+  {
+    "t_start": 117.4,
+    "t_end": 120.593,
+    "text": "But some special vectors do remain on their own span,"
+  },
+  {
+    "t_start": 120.593,
+    "t_end": 125.474,
+    "text": "meaning the effect that the matrix has on such a vector is just to stretch it or"
+  },
+  {
+    "t_start": 125.474,
+    "t_end": 127.04,
+    "text": "squish it, like a scalar."
+  },
+  {
+    "t_start": 129.46,
+    "t_end": 134.1,
+    "text": "For this specific example, the basis vector i-hat is one such special vector."
+  },
+  {
+    "t_start": 134.64,
+    "t_end": 139.348,
+    "text": "The span of i-hat is the x-axis, and from the first column of the matrix,"
+  },
+  {
+    "t_start": 139.348,
+    "t_end": 144.12,
+    "text": "we can see that i-hat moves over to 3 times itself, still on that x-axis."
+  },
+  {
+    "t_start": 146.32,
+    "t_end": 149.97,
+    "text": "What's more, because of the way linear transformations work,"
+  },
+  {
+    "t_start": 149.97,
+    "t_end": 154.351,
+    "text": "any other vector on the x-axis is also just stretched by a factor of 3,"
+  },
+  {
+    "t_start": 154.351,
+    "t_end": 156.48,
+    "text": "and hence remains on its own span."
+  },
+  {
+    "t_start": 158.5,
+    "t_end": 161.211,
+    "text": "A slightly sneakier vector that remains on its"
+  },
+  {
+    "t_start": 161.211,
+    "t_end": 164.04,
+    "text": "own span during this transformation is (-1, 1)."
+  },
+  {
+    "t_start": 164.66,
+    "t_end": 167.14,
+    "text": "It ends up getting stretched by a factor of 2."
+  },
+  {
+    "t_start": 169.0,
+    "t_end": 173.55,
+    "text": "And again, linearity is going to imply that any other vector on the diagonal"
+  },
+  {
+    "t_start": 173.55,
+    "t_end": 178.22,
+    "text": "line spanned by this guy is just going to get stretched out by a factor of 2."
+  },
+  {
+    "t_start": 179.82,
+    "t_end": 182.525,
+    "text": "And for this transformation, those are all the vectors"
+  },
+  {
+    "t_start": 182.525,
+    "t_end": 185.18,
+    "text": "with this special property of staying on their span."
+  },
+  {
+    "t_start": 185.62,
+    "t_end": 191.98,
+    "text": "and those on this diagonal line getting stretched by a factor of 2."
+  },
+  {
+    "t_start": 192.76,
+    "t_end": 196.37,
+    "text": "Any other vector is going to get rotated somewhat during the transformation,"
+  },
+  {
+    "t_start": 196.37,
+    "t_end": 198.08,
+    "text": "knocked off the line that it spans."
+  },
+  {
+    "t_start": 202.52,
+    "t_end": 207.306,
+    "text": "As you might have guessed by now, these special vectors are called the eigenvectors of"
+  },
+  {
+    "t_start": 207.306,
+    "t_end": 211.814,
+    "text": "the transformation, and each eigenvector has associated with it what's called an"
+  },
+  {
+    "t_start": 211.814,
+    "t_end": 216.49,
+    "text": "eigenvalue, which is just the factor by which it's stretched or squished during the"
+  },
+  {
+    "t_start": 216.49,
+    "t_end": 217.38,
+    "text": "transformation."
+  },
+  {
+    "t_start": 220.28,
+    "t_end": 223.355,
+    "text": "Of course, there's nothing special about stretching versus squishing,"
+  },
+  {
+    "t_start": 223.355,
+    "t_end": 225.94,
+    "text": "or the fact that these eigenvalues happen to be positive."
+  },
+  {
+    "t_start": 226.38,
+    "t_end": 230.781,
+    "text": "In another example, you could have an eigenvector with eigenvalue -1/2,"
+  },
+  {
+    "t_start": 230.781,
+    "t_end": 235.12,
+    "text": "meaning that the vector gets flipped and squished by a factor of 1/2."
+  },
+  {
+    "t_start": 236.98,
+    "t_end": 239.95,
+    "text": "But the important part here is that it stays on the line"
+  },
+  {
+    "t_start": 239.95,
+    "t_end": 242.76,
+    "text": "that it spans out without getting rotated off of it."
+  },
+  {
+    "t_start": 244.46,
+    "t_end": 247.704,
+    "text": "For a glimpse of why this might be a useful thing to think about,"
+  },
+  {
+    "t_start": 247.704,
+    "t_end": 249.8,
+    "text": "consider some three-dimensional rotation."
+  },
+  {
+    "t_start": 251.66,
+    "t_end": 254.917,
+    "text": "If you can find an eigenvector for that rotation,"
+  },
+  {
+    "t_start": 254.917,
+    "t_end": 260.5,
+    "text": "a vector that remains on its own span, what you have found is the axis of rotation."
+  },
+  {
+    "t_start": 262.6,
+    "t_end": 266.528,
+    "text": "And it's much easier to think about a 3D rotation in terms of some"
+  },
+  {
+    "t_start": 266.528,
+    "t_end": 269.741,
+    "text": "axis of rotation and an angle by which it's rotating,"
+  },
+  {
+    "t_start": 269.741,
+    "t_end": 274.74,
+    "text": "rather than thinking about the full 3x3 matrix associated with that transformation."
+  },
+  {
+    "t_start": 277.0,
+    "t_end": 280.747,
+    "text": "In this case, by the way, the corresponding eigenvalue would have to be 1,"
+  },
+  {
+    "t_start": 280.747,
+    "t_end": 283.278,
+    "text": "since rotations never stretch or squish anything,"
+  },
+  {
+    "t_start": 283.278,
+    "t_end": 285.86,
+    "text": "so the length of the vector would remain the same."
+  },
+  {
+    "t_start": 288.08,
+    "t_end": 290.02,
+    "text": "This pattern shows up a lot in linear algebra."
+  },
+  {
+    "t_start": 290.44,
+    "t_end": 293.201,
+    "text": "With any linear transformation described by a matrix,"
+  },
+  {
+    "t_start": 293.201,
+    "t_end": 297.681,
+    "text": "you could understand what it's doing by reading off the columns of this matrix as the"
+  },
+  {
+    "t_start": 297.681,
+    "t_end": 299.4,
+    "text": "landing spots for basis vectors."
+  },
+  {
+    "t_start": 300.02,
+    "t_end": 303.544,
+    "text": "But often, a better way to get at the heart of what the linear"
+  },
+  {
+    "t_start": 303.544,
+    "t_end": 308.262,
+    "text": "transformation actually does, less dependent on your particular coordinate system,"
+  },
+  {
+    "t_start": 308.262,
+    "t_end": 310.82,
+    "text": "is to find the eigenvectors and eigenvalues."
+  },
+  {
+    "t_start": 315.46,
+    "t_end": 318.946,
+    "text": "I won't cover the full details on methods for computing eigenvectors"
+  },
+  {
+    "t_start": 318.946,
+    "t_end": 322.124,
+    "text": "and eigenvalues here, but I'll try to give an overview of the"
+  },
+  {
+    "t_start": 322.124,
+    "t_end": 326.02,
+    "text": "computational ideas that are most important for a conceptual understanding."
+  },
+  {
+    "t_start": 327.18,
+    "t_end": 330.48,
+    "text": "Symbolically, here's what the idea of an eigenvector looks like."
+  },
+  {
+    "t_start": 331.04,
+    "t_end": 335.866,
+    "text": "A is the matrix representing some transformation, with v as the eigenvector,"
+  },
+  {
+    "t_start": 335.866,
+    "t_end": 339.74,
+    "text": "and lambda is a number, namely the corresponding eigenvalue."
+  },
+  {
+    "t_start": 340.68,
+    "t_end": 345.23,
+    "text": "What this expression is saying is that the matrix-vector product, A times v,"
+  },
+  {
+    "t_start": 345.23,
+    "t_end": 349.9,
+    "text": "gives the same result as just scaling the eigenvector v by some value lambda."
+  },
+  {
+    "t_start": 351.0,
+    "t_end": 355.676,
+    "text": "So finding the eigenvectors and their eigenvalues of a matrix A comes down"
+  },
+  {
+    "t_start": 355.676,
+    "t_end": 360.1,
+    "text": "to finding the values of v and lambda that make this expression true."
+  },
+  {
+    "t_start": 361.92,
+    "t_end": 366.008,
+    "text": "It's a little awkward to work with at first, because that left-hand side represents"
+  },
+  {
+    "t_start": 366.008,
+    "t_end": 369.752,
+    "text": "matrix-vector multiplication, but the right-hand side here is scalar-vector"
+  },
+  {
+    "t_start": 369.752,
+    "t_end": 370.54,
+    "text": "multiplication."
+  },
+  {
+    "t_start": 371.12,
+    "t_end": 375.354,
+    "text": "So let's start by rewriting that right-hand side as some kind of matrix-vector"
+  },
+  {
+    "t_start": 375.354,
+    "t_end": 380.023,
+    "text": "multiplication, using a matrix which has the effect of scaling any vector by a factor"
+  },
+  {
+    "t_start": 380.023,
+    "t_end": 380.62,
+    "text": "of lambda."
+  },
+  {
+    "t_start": 381.68,
+    "t_end": 386.121,
+    "text": "The columns of such a matrix will represent what happens to each basis vector,"
+  },
+  {
+    "t_start": 386.121,
+    "t_end": 389.196,
+    "text": "and each basis vector is simply multiplied by lambda,"
+  },
+  {
+    "t_start": 389.196,
+    "t_end": 394.32,
+    "text": "so this matrix will have the number lambda down the diagonal, with zeros everywhere else."
+  },
+  {
+    "t_start": 396.18,
+    "t_end": 400.434,
+    "text": "The common way to write this guy is to factor that lambda out and write it"
+  },
+  {
+    "t_start": 400.434,
+    "t_end": 404.86,
+    "text": "as lambda times I, where I is the identity matrix with 1s down the diagonal."
+  },
+  {
+    "t_start": 405.86,
+    "t_end": 408.736,
+    "text": "With both sides looking like matrix-vector multiplication,"
+  },
+  {
+    "t_start": 408.736,
+    "t_end": 411.86,
+    "text": "we can subtract off that right-hand side and factor out the v."
+  },
+  {
+    "t_start": 414.16,
+    "t_end": 418.905,
+    "text": "So what we now have is a new matrix, A minus lambda times the identity,"
+  },
+  {
+    "t_start": 418.905,
+    "t_end": 424.92,
+    "text": "and we're looking for a vector v such that this new matrix times v gives the zero vector."
+  },
+  {
+    "t_start": 426.38,
+    "t_end": 431.1,
+    "text": "Now, this will always be true if v itself is the zero vector, but that's boring."
+  },
+  {
+    "t_start": 431.34,
+    "t_end": 433.64,
+    "text": "What we want is a non-zero eigenvector."
+  },
+  {
+    "t_start": 434.42,
+    "t_end": 438.876,
+    "text": "And if you watch chapter 5 and 6, you'll know that the only way it's possible"
+  },
+  {
+    "t_start": 438.876,
+    "t_end": 443.274,
+    "text": "for the product of a matrix with a non-zero vector to become zero is if the"
+  },
+  {
+    "t_start": 443.274,
+    "t_end": 448.02,
+    "text": "transformation associated with that matrix squishes space into a lower dimension."
+  },
+  {
+    "t_start": 449.3,
+    "t_end": 454.22,
+    "text": "And that squishification corresponds to a zero determinant for the matrix."
+  },
+  {
+    "t_start": 455.48,
+    "t_end": 460.014,
+    "text": "To be concrete, let's say your matrix A has columns (2, 1) and (2, 3),"
+  },
+  {
+    "t_start": 460.014,
+    "t_end": 465.52,
+    "text": "and think about subtracting off a variable amount, lambda, from each diagonal entry."
+  },
+  {
+    "t_start": 466.48,
+    "t_end": 470.28,
+    "text": "Now imagine tweaking lambda, turning a knob to change its value."
+  },
+  {
+    "t_start": 470.94,
+    "t_end": 474.48,
+    "text": "As that value of lambda changes, the matrix itself changes,"
+  },
+  {
+    "t_start": 474.48,
+    "t_end": 477.24,
+    "text": "and so the determinant of the matrix changes."
+  },
+  {
+    "t_start": 478.22,
+    "t_end": 482.906,
+    "text": "The goal here is to find a value of lambda that will make this determinant zero,"
+  },
+  {
+    "t_start": 482.906,
+    "t_end": 487.24,
+    "text": "meaning the tweaked transformation squishes space into a lower dimension."
+  },
+  {
+    "t_start": 488.16,
+    "t_end": 491.16,
+    "text": "In this case, the sweet spot comes when lambda equals 1."
+  },
+  {
+    "t_start": 492.18,
+    "t_end": 496.12,
+    "text": "Of course, if we had chosen some other matrix, the eigenvalue might not necessarily be 1."
+  },
+  {
+    "t_start": 496.24,
+    "t_end": 498.6,
+    "text": "The sweet spot might be hit at some other value of lambda."
+  },
+  {
+    "t_start": 500.08,
+    "t_end": 502.96,
+    "text": "So this is kind of a lot, but let's unravel what this is saying."
+  },
+  {
+    "t_start": 502.96,
+    "t_end": 506.26,
+    "text": "When lambda equals 1, the matrix A minus lambda"
+  },
+  {
+    "t_start": 506.26,
+    "t_end": 509.56,
+    "text": "times the identity squishes space onto a line."
+  },
+  {
+    "t_start": 510.44,
+    "t_end": 514.429,
+    "text": "That means there's a non-zero vector v such that A minus"
+  },
+  {
+    "t_start": 514.429,
+    "t_end": 518.56,
+    "text": "lambda times the identity times v equals the zero vector."
+  },
+  {
+    "t_start": 520.48,
+    "t_end": 525.955,
+    "text": "And remember, the reason we care about that is because it means A times v"
+  },
+  {
+    "t_start": 525.955,
+    "t_end": 531.505,
+    "text": "equals lambda times v, which you can read off as saying that the vector v"
+  },
+  {
+    "t_start": 531.505,
+    "t_end": 537.28,
+    "text": "is an eigenvector of A, staying on its own span during the transformation A."
+  },
+  {
+    "t_start": 538.32,
+    "t_end": 541.317,
+    "text": "In this example, the corresponding eigenvalue is 1,"
+  },
+  {
+    "t_start": 541.317,
+    "t_end": 544.02,
+    "text": "so v would actually just stay fixed in place."
+  },
+  {
+    "t_start": 546.22,
+    "t_end": 549.5,
+    "text": "Pause and ponder if you need to make sure that that line of reasoning feels good."
+  },
+  {
+    "t_start": 553.38,
+    "t_end": 555.64,
+    "text": "This is the kind of thing I mentioned in the introduction."
+  },
+  {
+    "t_start": 556.22,
+    "t_end": 559.473,
+    "text": "If you didn't have a solid grasp of determinants and why they"
+  },
+  {
+    "t_start": 559.473,
+    "t_end": 562.94,
+    "text": "relate to linear systems of equations having non-zero solutions,"
+  },
+  {
+    "t_start": 562.94,
+    "t_end": 566.3,
+    "text": "an expression like this would feel completely out of the blue."
+  },
+  {
+    "t_start": 568.32,
+    "t_end": 571.782,
+    "text": "To see this in action, let's revisit the example from the start,"
+  },
+  {
+    "t_start": 571.782,
+    "t_end": 574.54,
+    "text": "with a matrix whose columns are (3, 0) and (1, 2)."
+  },
+  {
+    "t_start": 575.35,
+    "t_end": 579.443,
+    "text": "To find if a value lambda is an eigenvalue, subtract it from"
+  },
+  {
+    "t_start": 579.443,
+    "t_end": 583.4,
+    "text": "the diagonals of this matrix and compute the determinant."
+  },
+  {
+    "t_start": 590.58,
+    "t_end": 594.378,
+    "text": "Doing this, we get a certain quadratic polynomial in lambda,"
+  },
+  {
+    "t_start": 594.378,
+    "t_end": 596.72,
+    "text": "3 minus lambda times 2 minus lambda."
+  },
+  {
+    "t_start": 597.8,
+    "t_end": 602.836,
+    "text": "Since lambda can only be an eigenvalue if this determinant happens to be zero,"
+  },
+  {
+    "t_start": 602.836,
+    "t_end": 608.194,
+    "text": "you can conclude that the only possible eigenvalues are lambda equals 2 and lambda"
+  },
+  {
+    "t_start": 608.194,
+    "t_end": 608.84,
+    "text": "equals 3."
+  },
+  {
+    "t_start": 609.64,
+    "t_end": 614.917,
+    "text": "To figure out what the eigenvectors are that actually have one of these eigenvalues,"
+  },
+  {
+    "t_start": 614.917,
+    "t_end": 619.503,
+    "text": "say lambda equals 2, plug in that value of lambda to the matrix and then"
+  },
+  {
+    "t_start": 619.503,
+    "t_end": 623.9,
+    "text": "solve for which vectors this diagonally altered matrix sends to zero."
+  },
+  {
+    "t_start": 624.94,
+    "t_end": 628.794,
+    "text": "If you computed this the way you would any other linear system,"
+  },
+  {
+    "t_start": 628.794,
+    "t_end": 634.3,
+    "text": "you'd see that the solutions are all the vectors on the diagonal line spanned by (-1, 1)."
+  },
+  {
+    "t_start": 635.22,
+    "t_end": 639.279,
+    "text": "This corresponds to the fact that the unaltered matrix, (3, 0), (1,"
+  },
+  {
+    "t_start": 639.279,
+    "t_end": 643.46,
+    "text": "2), has the effect of stretching all those vectors by a factor of 2."
+  },
+  {
+    "t_start": 646.32,
+    "t_end": 650.2,
+    "text": "Now, a 2D transformation doesn't have to have eigenvectors."
+  },
+  {
+    "t_start": 650.72,
+    "t_end": 653.4,
+    "text": "For example, consider a rotation by 90 degrees."
+  },
+  {
+    "t_start": 653.66,
+    "t_end": 658.2,
+    "text": "This doesn't have any eigenvectors since it rotates every vector off of its own span."
+  },
+  {
+    "t_start": 660.8,
+    "t_end": 664.462,
+    "text": "If you actually try computing the eigenvalues of a rotation like this,"
+  },
+  {
+    "t_start": 664.462,
+    "t_end": 665.56,
+    "text": "notice what happens."
+  },
+  {
+    "t_start": 666.3,
+    "t_end": 670.14,
+    "text": "Its matrix has columns (0, 1) and (-1, 0)."
+  },
+  {
+    "t_start": 671.1,
+    "t_end": 675.8,
+    "text": "Subtract off lambda from the diagonal elements and look for when the determinant is zero."
+  },
+  {
+    "t_start": 678.14,
+    "t_end": 681.94,
+    "text": "In this case, you get the polynomial lambda squared plus 1."
+  },
+  {
+    "t_start": 682.68,
+    "t_end": 687.92,
+    "text": "The only roots of that polynomial are the imaginary numbers, i and -i."
+  },
+  {
+    "t_start": 688.84,
+    "t_end": 693.6,
+    "text": "The fact that there are no real number solutions indicates that there are no eigenvectors."
+  },
+  {
+    "t_start": 695.54,
+    "t_end": 699.82,
+    "text": "Another pretty interesting example worth holding in the back of your mind is a shear."
+  },
+  {
+    "t_start": 700.56,
+    "t_end": 704.355,
+    "text": "This fixes i-hat in place and moves j-hat 1 over,"
+  },
+  {
+    "t_start": 704.355,
+    "t_end": 707.84,
+    "text": "so its matrix has columns (1, 0) and (1, 1)."
+  },
+  {
+    "t_start": 708.74,
+    "t_end": 711.554,
+    "text": "All of the vectors on the x-axis are eigenvectors"
+  },
+  {
+    "t_start": 711.554,
+    "t_end": 714.54,
+    "text": "with eigenvalue 1 since they remain fixed in place."
+  },
+  {
+    "t_start": 715.68,
+    "t_end": 717.82,
+    "text": "In fact, these are the only eigenvectors."
+  },
+  {
+    "t_start": 718.76,
+    "t_end": 723.857,
+    "text": "When you subtract off lambda from the diagonals and compute the determinant,"
+  },
+  {
+    "t_start": 723.857,
+    "t_end": 726.54,
+    "text": "what you get is 1 minus lambda squared."
+  },
+  {
+    "t_start": 729.32,
+    "t_end": 732.86,
+    "text": "And the only root of this expression is lambda equals 1."
+  },
+  {
+    "t_start": 734.56,
+    "t_end": 737.057,
+    "text": "This lines up with what we see geometrically,"
+  },
+  {
+    "t_start": 737.057,
+    "t_end": 739.72,
+    "text": "that all of the eigenvectors have eigenvalue 1."
+  },
+  {
+    "t_start": 741.08,
+    "t_end": 744.98,
+    "text": "Keep in mind though, it's also possible to have just one eigenvalue,"
+  },
+  {
+    "t_start": 744.98,
+    "t_end": 748.02,
+    "text": "but with more than just a line full of eigenvectors."
+  },
+  {
+    "t_start": 749.9,
+    "t_end": 753.18,
+    "text": "A simple example is a matrix that scales everything by 2."
+  },
+  {
+    "t_start": 753.9,
+    "t_end": 757.135,
+    "text": "The only eigenvalue is 2, but every vector in the"
+  },
+  {
+    "t_start": 757.135,
+    "t_end": 760.7,
+    "text": "plane gets to be an eigenvector with that eigenvalue."
+  },
+  {
+    "t_start": 762.0,
+    "t_end": 764.613,
+    "text": "Now is another good time to pause and ponder some"
+  },
+  {
+    "t_start": 764.613,
+    "t_end": 766.96,
+    "text": "of this before I move on to the last topic."
+  },
+  {
+    "t_start": 783.54,
+    "t_end": 786.886,
+    "text": "I want to finish off here with the idea of an eigenbasis,"
+  },
+  {
+    "t_start": 786.886,
+    "t_end": 789.88,
+    "text": "which relies heavily on ideas from the last video."
+  },
+  {
+    "t_start": 791.48,
+    "t_end": 796.38,
+    "text": "Take a look at what happens if our basis vectors just so happen to be eigenvectors."
+  },
+  {
+    "t_start": 797.12,
+    "t_end": 802.38,
+    "text": "For example, maybe i-hat is scaled by -1 and j-hat is scaled by 2."
+  },
+  {
+    "t_start": 803.42,
+    "t_end": 807.085,
+    "text": "Writing their new coordinates as the columns of a matrix,"
+  },
+  {
+    "t_start": 807.085,
+    "t_end": 810.043,
+    "text": "notice that those scalar multiples, -1 and 2,"
+  },
+  {
+    "t_start": 810.043,
+    "t_end": 815.251,
+    "text": "which are the eigenvalues of i-hat and j-hat, sit on the diagonal of our matrix,"
+  },
+  {
+    "t_start": 815.251,
+    "t_end": 817.18,
+    "text": "and every other entry is a 0."
+  },
+  {
+    "t_start": 818.88,
+    "t_end": 822.494,
+    "text": "Any time a matrix has zeros everywhere other than the diagonal,"
+  },
+  {
+    "t_start": 822.494,
+    "t_end": 825.42,
+    "text": "it's called, reasonably enough, a diagonal matrix."
+  },
+  {
+    "t_start": 825.84,
+    "t_end": 830.449,
+    "text": "And the way to interpret this is that all the basis vectors are eigenvectors,"
+  },
+  {
+    "t_start": 830.449,
+    "t_end": 834.4,
+    "text": "with the diagonal entries of this matrix being their eigenvalues."
+  },
+  {
+    "t_start": 837.1,
+    "t_end": 841.06,
+    "text": "There are a lot of things that make diagonal matrices much nicer to work with."
+  },
+  {
+    "t_start": 841.78,
+    "t_end": 844.979,
+    "text": "One big one is that it's easier to compute what will happen"
+  },
+  {
+    "t_start": 844.979,
+    "t_end": 848.34,
+    "text": "if you multiply this matrix by itself a whole bunch of times."
+  },
+  {
+    "t_start": 849.42,
+    "t_end": 854.67,
+    "text": "Since all one of these matrices does is scale each basis vector by some eigenvalue,"
+  },
+  {
+    "t_start": 854.67,
+    "t_end": 857.706,
+    "text": "applying that matrix many times, say 100 times,"
+  },
+  {
+    "t_start": 857.706,
+    "t_end": 862.702,
+    "text": "is just going to correspond to scaling each basis vector by the 100th power of"
+  },
+  {
+    "t_start": 862.702,
+    "t_end": 864.6,
+    "text": "the corresponding eigenvalue."
+  },
+  {
+    "t_start": 865.7,
+    "t_end": 869.68,
+    "text": "In contrast, try computing the 100th power of a non-diagonal matrix."
+  },
+  {
+    "t_start": 869.68,
+    "t_end": 871.32,
+    "text": "Really, try it for a moment."
+  },
+  {
+    "t_start": 871.74,
+    "t_end": 872.44,
+    "text": "It's a nightmare."
+  },
+  {
+    "t_start": 876.08,
+    "t_end": 881.26,
+    "text": "Of course, you'll rarely be so lucky as to have your basis vectors also be eigenvectors."
+  },
+  {
+    "t_start": 882.04,
+    "t_end": 885.054,
+    "text": "But if your transformation has a lot of eigenvectors,"
+  },
+  {
+    "t_start": 885.054,
+    "t_end": 889.83,
+    "text": "like the one from the start of this video, enough so that you can choose a set that"
+  },
+  {
+    "t_start": 889.83,
+    "t_end": 894.436,
+    "text": "spans the full space, then you could change your coordinate system so that these"
+  },
+  {
+    "t_start": 894.436,
+    "t_end": 896.54,
+    "text": "eigenvectors are your basis vectors."
+  },
+  {
+    "t_start": 897.14,
+    "t_end": 900.423,
+    "text": "I talked about change of basis last video, but I'll go through a"
+  },
+  {
+    "t_start": 900.423,
+    "t_end": 903.552,
+    "text": "super quick reminder here of how to express a transformation"
+  },
+  {
+    "t_start": 903.552,
+    "t_end": 907.04,
+    "text": "currently written in our coordinate system into a different system."
+  },
+  {
+    "t_start": 908.44,
+    "t_end": 912.229,
+    "text": "Take the coordinates of the vectors that you want to use as a new basis,"
+  },
+  {
+    "t_start": 912.229,
+    "t_end": 914.703,
+    "text": "which in this case means our two eigenvectors,"
+  },
+  {
+    "t_start": 914.703,
+    "t_end": 919.44,
+    "text": "then make those coordinates the columns of a matrix, known as the change of basis matrix."
+  },
+  {
+    "t_start": 920.18,
+    "t_end": 922.778,
+    "text": "When you sandwich the original transformation,"
+  },
+  {
+    "t_start": 922.778,
+    "t_end": 931.135,
+    "text": "change of basis matrix on its left, the result will be a matrix representing"
+  },
+  {
+    "t_start": 931.135,
+    "t_end": 934.975,
+    "text": "that same transformation, but from the perspective of the new basis"
+  },
+  {
+    "t_start": 934.975,
+    "t_end": 936.5,
+    "text": "vectors coordinate system."
+  },
+  {
+    "t_start": 937.44,
+    "t_end": 941.851,
+    "text": "The whole point of doing this with eigenvectors is that this new matrix is"
+  },
+  {
+    "t_start": 941.851,
+    "t_end": 946.68,
+    "text": "guaranteed to be diagonal with its corresponding eigenvalues down that diagonal."
+  },
+  {
+    "t_start": 946.86,
+    "t_end": 950.368,
+    "text": "This is because it represents working in a coordinate system where what"
+  },
+  {
+    "t_start": 950.368,
+    "t_end": 954.32,
+    "text": "happens to the basis vectors is that they get scaled during the transformation."
+  },
+  {
+    "t_start": 955.8,
+    "t_end": 959.245,
+    "text": "A set of basis vectors which are also eigenvectors is called,"
+  },
+  {
+    "t_start": 959.245,
+    "t_end": 961.56,
+    "text": "again, reasonably enough, an eigenbasis."
+  },
+  {
+    "t_start": 962.34,
+    "t_end": 967.044,
+    "text": "So if, for example, you needed to compute the 100th power of this matrix,"
+  },
+  {
+    "t_start": 967.044,
+    "t_end": 970.396,
+    "text": "it would be much easier to change to an eigenbasis,"
+  },
+  {
+    "t_start": 970.396,
+    "t_end": 975.68,
+    "text": "compute the 100th power in that system, then convert back to our standard system."
+  },
+  {
+    "t_start": 976.62,
+    "t_end": 978.32,
+    "text": "You can't do this with all transformations."
+  },
+  {
+    "t_start": 978.32,
+    "t_end": 982.98,
+    "text": "A shear, for example, doesn't have enough eigenvectors to span the full space."
+  },
+  {
+    "t_start": 983.46,
+    "t_end": 988.16,
+    "text": "But if you can find an eigenbasis, it makes matrix operations really lovely."
+  },
+  {
+    "t_start": 989.12,
+    "t_end": 991.894,
+    "text": "For those of you willing to work through a pretty neat puzzle to see"
+  },
+  {
+    "t_start": 991.894,
+    "t_end": 994.546,
+    "text": "what this looks like in action and how it can be used to produce"
+  },
+  {
+    "t_start": 994.546,
+    "t_end": 997.32,
+    "text": "some surprising results, I'll leave up a prompt here on the screen."
+  },
+  {
+    "t_start": 997.6,
+    "t_end": 1000.28,
+    "text": "It takes a bit of work, but I think you'll enjoy it."
+  },
+  {
+    "t_start": 1000.84,
+    "t_end": 1005.342,
+    "text": "The next and final video of this series is going to be on abstract vector spaces."
+  },
+  {
+    "t_start": 1005.342,
+    "t_end": 1006.12,
+    "text": "See you then!"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "slug": "probability-data-science",
+  "videos": [
+    {
+      "id": "HZGCoVF3YvM",
+      "title": "3Blue1Brown — Bayes theorem (the geometry of Bayesian update)",
+      "has_transcript": true,
+      "chars": 15229,
+      "units": 10,
+      "url": "https://www.youtube.com/watch?v=HZGCoVF3YvM"
+    },
+    {
+      "id": "8idr1WZ1A7Q",
+      "title": "3Blue1Brown — Binomial distributions",
+      "has_transcript": true,
+      "chars": 11422,
+      "units": 9,
+      "url": "https://www.youtube.com/watch?v=8idr1WZ1A7Q"
+    },
+    {
+      "id": "R13BD8qKeTg",
+      "title": "Veritasium — The Bayesian trap (base rates)",
+      "has_transcript": true,
+      "chars": 10365,
+      "units": 7,
+      "url": "https://www.youtube.com/watch?v=R13BD8qKeTg"
+    },
+    {
+      "id": "YAlJCEDH2uY",
+      "title": "Khan Academy — Central limit theorem overview",
+      "has_transcript": true,
+      "chars": 7456,
+      "units": 5,
+      "url": "https://www.youtube.com/watch?v=YAlJCEDH2uY"
+    },
+    {
+      "id": "XepXtl9YKwc",
+      "title": "StatQuest — Maximum likelihood fundamentals",
+      "has_transcript": true,
+      "chars": 6645,
+      "units": 4,
+      "url": "https://www.youtube.com/watch?v=XepXtl9YKwc"
+    }
+  ]
+}

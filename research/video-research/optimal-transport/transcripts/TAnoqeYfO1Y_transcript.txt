@@ -1,0 +1,1347 @@
+everyone to uh Math 1501
+Optimal Transport, Geometry, and Dynamics.
+I'm Robert McCann and I'm the uh instructor for the course.
+And this is the first time I've done uh what do you call it? I It's the first
+time I've done This is a course that's jointly offered by the University of
+jointly offered by the University of Toronto and the Fields Academy.
+And so um I think at the moment there are something 25 something on the order
+are something 25 something on the order of 25 to 30 students registered and
+about half of them are from University of Toronto and so the other half are
+from other places. So it's the first time I've
+taught uh students to a mix to such a mixed audience.
+mixed audience. Um
+it's [clears throat] also been a semester since I had to teach anything
+semester since I had to teach anything online. So
+online. So um
+we'll see how that goes again. It's not It's of course not my preferred delivery
+It's of course not my preferred delivery uh method, but I guess it is good It
+expands the scope of uh of who we can reach. So it has that plus.
+Um [clears throat]
+let me Let me do this. Start again.
+I have a tablet that I can write on and I also have a document camera. We can
+I also have a document camera. We can try switching We can We can try them
+try switching We can We can try them both and see which one works better in
+the end. Um
+So let me tell you a little bit about what what I'm planning to I'm going to
+what what I'm planning to I'm going to share I'm logged in on two devices. I'm
+going to share a whiteboard on one of them.
+them. Um
+So let me tell you a little bit about my plans for the course. So
+uh next fall at the Fields Institute I'll be organizing a special semester on
+I'll be organizing a special semester on non-smooth Riemannian Lorentzian
+non-smooth Riemannian Lorentzian geometry and one approach to non-smooth
+geometry is through metric measure spaces and optimal transport is an
+uh for that theory. And so I thought it would be useful to teach a course on
+would be useful to teach a course on optimal transport leading up to that um
+optimal transport leading up to that um to help prepare anyone that wants to
+to help prepare anyone that wants to participate in the thematic semester.
+And so let me tell you a little bit Optimal Transport is a subject that I've
+Optimal Transport is a subject that I've been working in um
+since I did my own PhD 30 years ago. And uh it was uh I don't think it was
+thought it wasn't a subject at all 30 years ago, but it's developed into quite
+years ago, but it's developed into quite um quite an exciting line of ideas
+um quite an exciting line of ideas because it's connected to many many
+because it's connected to many many different kinds of mathematics.
+And so let me what I plan to do today was to start out by sketching an
+was to start out by sketching an overview of some of those connections
+and then talking about this the famous problem of Monge uh from 1781, but maybe
+problem of Monge uh from 1781, but maybe um maybe even before I do that I should
+um maybe even before I do that I should say a bit more about the format of the
+say a bit more about the format of the course. So
+So the plan is to meet Tuesdays and Thursdays at 1:30 on Zoom until further
+Thursdays at 1:30 on Zoom until further notice at least until the end of
+January. At that point we may contemplate the idea of going hybrid,
+contemplate the idea of going hybrid, but um but at least until further notice
+but um but at least until further notice this will be the mode of delivery.
+this will be the mode of delivery. Um
+I guess you've Anyone that's hearing this has logged in through the Fields
+this has logged in through the Fields website, which is good um because uh
+website, which is good um because uh so Fields has its own version of the
+so Fields has its own version of the Canvas learning management system and
+Canvas learning management system and I'll be using that rather than the
+University of Toronto one so that everybody has access.
+everybody has access. Um
+I may end at 10:00 to 3:00 coming between 10:00 to 3:00 and 3:00 I'll be
+between 10:00 to 3:00 and 3:00 I'll be ending the lectures and then I'll hang
+around afterwards on Zoom to kind of hold a virtual office hours for anyone
+hold a virtual office hours for anyone that wants to um
+to do office hours and I was hoping that if we were able to do this in person at
+serving tea at 3:00 p.m., but that isn't going to happen for the foreseeable
+going to happen for the foreseeable future.
+future. Um
+My idea I've listed on So on the course home page, which is linked to the uh
+home page, which is linked to the uh the home page of
+on the Canvas learning management system um I have a little bit of information
+about the course, which includes the grading scheme.
+Um maybe that's even more useful than the for the moment than sharing the
+the for the moment than sharing the whiteboard. So I'm going to stop this
+and I'm going to share my um on my other device.
+Screen share Let's do screen share. Desktop will be fine.
+let me come back to Chrome, which I think is here. Oops, no. That's That's
+think is here. Oops, no. That's That's my email. We don't want that.
+my email. We don't want that. Let's quit email.
+Let's quit email. Um
+Chrome is here. Yeah, right. So here you can see the
+I have a list of books that are recommended for the course and the basic
+recommended for the course and the basic prerequisite is measure theory. So
+prerequisite is measure theory. So hopefully um I hope everybody Maybe I
+hopefully um I hope everybody Maybe I know there are one or two undergraduates
+know there are one or two undergraduates coming to the course. Maybe they haven't
+coming to the course. Maybe they haven't seen measure theory yet. I mean I'll try
+seen measure theory yet. I mean I'll try to remind the definitions, but I um I'm
+to remind the definitions, but I um I'm basically going to assume that measure
+basically going to assume that measure theory and integration are familiar
+theory and integration are familiar background. I know that there'll be a
+At University of Toronto we offer a full year course with measure theory in the
+year course with measure theory in the fall and functional analysis in the
+spring. And so I will be drawing on some functional analysis, but I'm assuming
+that not everybody's seen it before. Uh you know the the Riesz-Markov theorem,
+you know the the Riesz-Markov theorem, the Banach-Alaoglu theorem
+um things like this uh basically which are mostly about how to do analysis
+are mostly about how to do analysis how to extend compactness ideas like the
+so I again I'll try to remind you of those things as I'm when I use them and
+those things as I'm when I use them and they'll be good motivation for those of
+they'll be good motivation for those of you who are taking a course like Math
+you who are taking a course like Math 1001 um to see how those tools get
+1001 um to see how those tools get applied.
+Um So I have this list of textbooks. Uh I like Filippo Santambrogio's a lot,
+which is about 5 years old, 7 years old. There are two textbooks by Villani. The
+There are two textbooks by Villani. The first one, the one from 2003 is much
+more accessible than the one from 2009 is kind of encyclopedic. It's kind of
+is kind of encyclopedic. It's kind of for experts. Uh
+and uh however I understand at least at the university here is that the one that
+the university here is that the one that I say is encyclopedic um the University
+of Toronto library has the Santambrogio book and the uh second Villani book
+book and the uh second Villani book online as electronic resources at their
+online as electronic resources at their library, whereas the others are I asked
+library, whereas the others are I asked them to put the others on physical um
+short-term loan reserve. Um
+The first couple lectures are actually going to be based on this uh McCann and
+Nguyen um five lectures on optimal transport that
+was giving about 10 years ago as conference mini courses.
+And so here's the grading scheme. Um I'm going to have 20% attendance and
+going to have 20% attendance and participation. I like to encourage you I
+participation. I like to encourage you I see a number of you have your cameras
+turned on. I like to encourage you to keep your cameras turned on. Now I also
+which is that um and please feel free at any time to raise your virtual hand and
+any time to raise your virtual hand and I'll try to answer questions. I'll also
+I'll try to answer questions. I'll also most of the time I'll try to monitor the
+chat, although I can't do that right now. I'm screen sharing from my my desk
+now. I'm screen sharing from my my desk my uh laptop.
+my uh laptop. Um
+So attendance participation is great um and I also I've
+learning management system I've set it up so that you can students can initiate
+up so that you can students can initiate discussions and contribute to
+discussions and so that's another way that you could participate especially if
+that you could participate especially if you're going to take the course
+you're going to take the course asynchronously if you're in a different
+asynchronously if you're in a different time zone, which I think there's at
+time zone, which I think there's at least one or two people who are.
+least one or two people who are. Um so you could do your participation by
+Um so you could do your participation by uh on the learning management system by
+uh on the learning management system by contributing to discussions.
+contributing to discussions. Um I plan to give maybe one problem set
+uh three or four problem sets over the course of the semester and uh the your
+course of the semester and uh the your the grade will also be based on about
+50% of your grade will be based on a written project
+written project about
+about um
+six to 10 pages in length. And so the idea for the written project would be
+idea for the written project would be that sometime in the next month or so
+you should settle on a topic or references related to optimal transport
+references related to optimal transport and give me a send me an email or send
+me know what topic you're going to do and what in at least two references that
+and what in at least two references that you're going to use uh
+you're going to use uh to study it.
+to study it. And um and then sort of a month after
+uh by Tuesday, March 22nd uh I'd like to see a complete draft project uh which
+see a complete draft project uh which you can submit and I'm going to try to
+you can submit and I'm going to try to set things up so you can submit your
+assignments and your projects on the learning management system. And if that
+learning management system. And if that doesn't seem to work well, I will switch
+to Crowdmark, which I'm more familiar with, but we'll we'll give the learning
+with, but we'll we'll give the learning management system a try.
+management system a try. [snorts]
+And um Canvas, which is at University of Toronto we call Quercus, but
+Toronto we call Quercus, but I think basically the same platform.
+Um and then on April 7th, which is maybe the last day of classes uh I I'll try to
+the last day of classes uh I I'll try to give you feedback. Whatever you send me
+give you feedback. Whatever you send me on March 22nd
+I'll try to get you feedback uh within a week or so and then you'll have a chance
+week or so and then you'll have a chance to uh revise it for a final submission
+to uh revise it for a final submission on April 7th.
+on April 7th. Um
+Um [clears throat]
+then there's basically some boilerplate that the University of Toronto
+that the University of Toronto encourages to include that I uh put on
+on the uh course information. Right. Are there questions about that?
+All right. So then maybe I will stop this share.
+Oh, um someone please posted in the chat that Luigi Ambrosio has a new book this
+that Luigi Ambrosio has a new book this year on the topic. Thank you very much,
+year on the topic. Thank you very much, Truong, for posting that. Um
+I haven't seen it yet. Um probably I mean Luigi writes a lot of books, but I
+a user's guide with uh Nicola Gigli, but yes, I'll be very interested to see
+yes, I'll be very interested to see Ambrosio's book.
+He's one of the experts in the subject. And I should say that we're um
+So um one of my references there was the gradient flows book by Ambrosio, Gigli,
+gradient flows book by Ambrosio, Gigli, and Savaré from 15 years ago and we're
+and Savaré from 15 years ago and we're very much hoping that Nicola Gigli will
+very much hoping that Nicola Gigli will be in residence at Fields next semester
+be in residence at Fields next semester and will be able to give a kind of
+sequel to this course where he's going to talk about um
+doing calculus in metric measure spaces and Riemannian curvature dimension
+conditions and the splitting the famous splitting theorem that he proved 5 years
+ago. Um
+Um Okay, great.
+[clears throat] So now I'll switch to the whiteboard.
+Uh come on. There we go.
+There we go. Um
+So let me describe Monge's problem. This is a 250-year-old problem. It was first
+is a 250-year-old problem. It was first posed in 1781.
+And by Gaspard Monge, who's quite a famous French mathematician and
+geometer. He's also a founder of the École Polytechnique, which is the main
+École Polytechnique, which is the main engineering school in France.
+Um you'll if you ever go to Paris, you'll find a subway stop named after
+you'll find a subway stop named after him.
+him. And a street and a bakery.
+So uh he was a contemporary of Napoleon's and he actually um
+I think he went on the ex- Napoleon's expedition to Alexandria with Napoleon.
+And he was also a real survivor. He thrived before Napoleon, he thrived with
+thrived before Napoleon, he thrived with Napoleon, he thrived after Napoleon's
+demise. So he was very adaptable to the change of his times.
+And um so when he he there is a famous memoir called the problem of the déblai
+memoir called the problem of the déblai and remblai, which means the cutting and
+and remblai, which means the cutting and filling. So Monge's problem, he posed
+filling. So Monge's problem, he posed the following. He said, "Imagine you
+the following. He said, "Imagine you have a big pile of earth
+have a big pile of earth and um
+and um oops.
+Right, you have a pile of earth and a hole in the ground
+and you want to move the pile of earth to fill in the hole in the ground
+and um you would like to do so uh expending the least effort possible. So
+expending the least effort possible. So he was interested in minimizing the
+he was interested in minimizing the average Euclidean distance that the
+molecules of dirt need to move in order to fill in the hole in the ground. So
+we're going to uh talk about a slightly more general problem where you have a
+more general problem where you have a a cost function which is like the cost c
+of x, y per unit mass
+per unit mass transported from x to y.
+So the x would be over here and the y would be over there.
+the x is going to live in some space, which I'll maybe call M plus and the y
+which I'll maybe call M plus and the y is going to live in some space, which
+is going to live in some space, which I'll maybe call M minus.
+And Monge was looking for a map g that takes M plus to M minus.
+uh whenever you which which um basically tells you how to move the molecules of
+dirt to fill in the hole in the ground. And um
+So the molecules of dirt, we're going to be assume they have some non-negative
+be assume they have some non-negative distribution mu
+and the hole in the ground, the depth of the hole or whatever is going to be
+modeled by some non-negative distribution mu
+distribution mu mu plus and mu minus.
+So uh let's see. I let's think about M We're going to think of M plus as being
+So in other words, it comes equipped with a M plus is the landscape where the
+with a M plus is the landscape where the pile of earth lives and M minus is going
+to be the landscape where the hole in the ground lives.
+Um we're going to think of the M's being metric spaces equipped with their own
+metric spaces equipped with their own distance functions d. So in other words,
+distance functions d. So in other words, d should be symmetric.
+and it should satisfy the The main thing it should satisfy is the triangle
+it should satisfy is the triangle inequality. So d x, z should be less
+than or equal to d x, y plus d y, z for all y.
+Right, so those those are the properties of a metric space.
+of a metric space. And as long as we're on the topic of
+metric spaces, um let me
+just mention some We're often going to want um
+they're complete in the topology induced by d
+And sometimes sometimes the landscape that contains the pile of earth and the
+hole in the ground will be the same landscape. So often the often the most
+landscape. So often the often the most interesting cases M plus equals M minus
+interesting cases M plus equals M minus and d plus equals d minus. And then you
+can think of d as giving sort of the geography
+um or you can think of the geography as being embedded either in the cost
+being embedded either in the cost function or the or the function d. And
+function or the or the function d. And sometimes we'll take the cost to be the
+cost to be a power of the distance. Those are the most frequent cases that
+Those are the most frequent cases that people consider. So um
+people consider. So um let me uh
+Anyone want to take a screenshot of that before I switch to a new whiteboard?
+Okay. Um
+So often we'll take M plus to be M minus and we'll take the cost
+and we'll take the cost to be the p-th power of the distance.
+even on the Euclidean and sometimes we'll take um So maybe that's example
+one and example two is um M plus is equal to M minus is equal to Euclidean
+equal to M minus is equal to Euclidean space
+space and
+and the distance is the Euclidean norm.
+And already in case n equals 1, dimension equals 1
+dimension equals 1 uh Monge's problem can be an interesting
+well, there's also the question of what is the p? Who do we choose p to be? Um
+is the p? Who do we choose p to be? Um So p should be different from zero, of
+So p should be different from zero, of course.
+And it turns out that the problem changes dramatically depending on
+changes dramatically depending on whether p is bigger than one or less
+than one. So
+um So when if if you think about um it which corresponds to the problem of,
+it which corresponds to the problem of, you know, uh what are you shipping? But
+I haven't even said what the problem of this is yet. So maybe I should do that.
+Um but give me a minute, yeah. Um So somehow if you're shipping
+Um So somehow if you're shipping lettuces, then you don't want any
+lettuces, then you don't want any individual lettuce maybe to go too far
+individual lettuce maybe to go too far because it will rot.
+because it will rot. And so then you might want to choose p
+putting stuff on the train and once you have it there, you know, it costs more
+to go further but not twice as far, then there's sort of an economy of scale for
+there's sort of an economy of scale for long trips.
+long trips. Um
+of the cost profile. So if this is d and this is the cost, you might think of the
+this is the cost, you might think of the cost profile looking like this. It's
+cost profile looking like this. It's increasing the further I go, but it the
+increasing the further I go, but it the marginal cost is going down as a
+marginal cost is going down as a function of the distance. So that's like
+the You have this big cost for putting it on the train and then the further the
+it on the train and then the further the extra miles don't count for so much.
+And uh let me say one a couple more things about metric spaces. So um
+things about metric spaces. So um because we eventually want to get to
+because we eventually want to get to geometry, um
+geometry, um we'll often want to assume um
+It's sometimes called a path metric space or I call it a geodesic space.
+For every pair of points x0 and x1 in M there should exist a curve
+parameterized by t in 0, 1 such that um So here's your x0 and
+here's your x1. Um
+And here's your curve x of t, which is supposed to move from x0 to x1. And what
+supposed to move from x0 to x1. And what you want is that at each intermediate
+you want is that at each intermediate parameter value, the length of curve to
+parameter value, the length of curve to the left and the length of curve to the
+right add up to the total length of curve. So in other words, they should
+curve. So in other words, they should produce um
+they should produce equality in the triangle inequality. And the way to get
+that um is that
+between zero and one, the distance xS to xT should be a fraction s minus t of the
+So this is like a geodesic with fixed end points. For every pair of end
+end points. For every pair of end points, there should be a geodesic
+points, there should be a geodesic joining them. And in equ- in example
+joining them. And in equ- in example two, the geodesic would of course be uh
+the convex combination of x0 and x1.
+And because it would be a straight line, but in other geometries, it can be other
+but in other geometries, it can be other things. And so somehow I guess example
+things. And so somehow I guess example four
+would be that you have a space M, a manifold M
+a space M, a manifold M with a Riemannian metric tensor.
+And then you would get the distance um by looking at curves joining x0 to x1.
+by looking at curves joining x0 to x1. So the distance
+So the distance um
+induced by g between x0 and x1 by definition
+um you would look at all curves starting at x0 and ending at x1
+at x0 and ending at x1 parameterized on the unit interval,
+parameterized on the unit interval, and
+you would look at the length of the tangent vector, which is something
+tangent vector, which is something measured by G. So, G of
+measured by G. So, G of x. of
+x. of t
+x. of t or if you like g i j of x. i x. j
+or if you like g i j of x. i x. j and you'd integrate that from 0 to 1,
+and you'd integrate that from 0 to 1, and then there's some choices that you
+and then there's some choices that you make about whether you put, um,
+make about whether you put, um, you would you would try to you would
+you would you would try to you would then try to minimize this
+over all curves, um, continuous curves
+starting at x0 and ending at x1. So, continuous curves into M
+So, continuous curves into M such that x of 0 equals
+Well, I should call this maybe x hat and x hat 0 and x1 equals x1 hat.
+x hat 0 and x1 equals x1 hat. And this would be actually, I guess, d
+And this would be actually, I guess, d squared, probably.
+Otherwise, I put you put a square root I could put a square root under the
+integral. That would be okay, too, and then I would get d.
+Um, so this is what's called a Riemannian manifold, and
+if the manifold is complete, then there will exist geodesics in the sense of
+will exist geodesics in the sense of three, and they will satisfy the usual,
+then you you know how to do calculus of variations around the minimizer for a
+variations around the minimizer for a thing like this, and you can write down
+a differential equation that the manifold satisfies.
+But, in fact, the spirit of this heading towards non-smooth geometry is to be
+able to do these kinds of things in metric spaces where you can't always
+metric spaces where you can't always write differential equations. But, maybe
+write differential equations. But, maybe you can still write a differential
+equation along the curve, but maybe not across the curve. Anyways.
+across the curve. Anyways. Are there questions so far?
+so let me, um, let me
+let me uh,
+right, I want to come back to Monge's problem cuz I never formulated it.
+Um, I only said where was it set. Um, so the of course the idea is the metric
+the of course the idea is the metric space
+if I'm doing transport on the Earth, that's sort of different from doing
+that's sort of different from doing transport on the plane. And if And it's
+transport on the plane. And if And it's one thing to do transport on the
+perfectly spherical Earth, and it's another thing to try to transport
+another thing to try to transport efficiently on an Earth that has
+efficiently on an Earth that has mountain ranges to go around and oceans
+mountain ranges to go around and oceans that you have to change modes for, and
+so on. And so, one approach to that is to build all the geometry of the space
+to build all the geometry of the space into the metric, whether it's a a
+into the metric, whether it's a a distance function d or a Riemannian
+distance function d or a Riemannian metric g i j.
+metric g i j. Um,
+but so, whenever you have a let's make our metrics We We said they
+let's make our metrics We We said they were complete already, so that's good.
+were complete already, so that's good. So, whenever you have a complete metric
+let's say Polish, just to be simple. Um,
+have all the closed sets, and you have the sigma algebra generated
+and you have the sigma algebra generated by the open sets, which is called the
+by the open sets, which is called the Borel sigma algebra.
+So, that's supposed to be a script B. It's a subset of
+smallest sigma algebra containing all open sets.
+let's call them Borel sets. And, um,
+we're going to be interested in measures on the Borel sets.
+on the Borel sets. So,
+So, um,
+in fact, we're mostly going to be Our measures mostly going to have finite
+measures mostly going to have finite total mass,
+they're mostly going to be normalized to have mass one. So, in which case we call
+have mass one. So, in which case we call them probability measures. So,
+them probability measures. So, let's say
+let's say script M of M is the set of
+signed Borel measures
+script P is going to be the subset of probability
+is going to be the subset of probability measures. So, it's going to be the mu's
+script M uh,
+mu of the whole space is equal to 1,
+is equal to 1, and mu of any set is non-negative.
+And of course, briefly, what it means Maybe I should Well, okay.
+Maybe I should Well, okay. Maybe I should say what it means to be a
+so of course, M is the set of all functions from, let's say, 2 to the X
+functions from, let's say, 2 to the X into R
+with the property that, um, the property that when you have a
+disjoint union, countable union,
+And this is uh, but this only holds for Borel sets.
+So, we don't Although the measure can be defined on all sets, that's usually
+defined on all sets, that's usually called an outer measure, and what we
+called an outer measure, and what we really care about is its value on Borel
+really care about is its value on Borel sets, and it only has this additivity
+sets, and it only has this additivity property on the on the preferred sigma
+property on the on the preferred sigma algebra, which for us is always going to
+be the Borel sets. Okay. So, in the modeling for Monge's problem, um,
+we're going to take the density of the pile of Earth to be one of these
+the pile of Earth to be one of these measures, probability measures,
+and we're going to take the distribution of the hole in the ground to be another
+mu minus mu plus. And we're going to be looking for a
+taking M plus onto M minus, which has the property that it
+measure. Another way to say this, if you were a probabilist, you would say G is a
+were a probabilist, you would say G is a random variable whose distribution is mu
+random variable whose distribution is mu minus, and mu plus would be the
+And if you're a geometer, what you say is G pushes forward mu plus to mu minus,
+is G pushes forward mu plus to mu minus, and so let me give the definition of
+and so let me give the definition of push forward cuz that's going to be
+push forward cuz that's going to be central for us uh, throughout the
+central for us uh, throughout the course. Um,
+course. Um, so given
+probability space just means a set with a sigma algebra with a probability
+actually, it can it can just be a measure space, really.
+And and a measurable map, or let's say we want it to be Borel
+so I guess both M minus should be another measurable space.
+another measurable space. Um,
+there's a new you you get a measure on M minus out of the measure on M plus as
+Um, so G push forward mu plus acting on a set V in M minus is defined
+to be mu plus of
+And, um, this this defines a new measure,
+So, it's going to be a measure on M minus, and if the original measure was
+M minus, and if the original measure was a probability measure, so in other
+a probability measure, so in other words, if mu plus was non-negative and
+words, if mu plus was non-negative and had total mass one, then the same will
+had total mass one, then the same will be true of this thing.
+And so, Monge's problem was given these two distributions, let's find a map G
+two distributions, let's find a map G that pushes forward one to the other,
+that pushes forward one to the other, and associated to every such map is a
+And uh, let me give uh, so what's the cost? So,
+cost? So, maybe before I do that, so here's a
+So, the point of measures is to be able to do integrals, and so when you have a
+to do integrals, and so when you have a measure space here, there's a natural
+measure space here, there's a natural integral associated with it. So, if if I
+integral associated with it. So, if if I have a test function,
+have a test function, uh, say a continuous function on M plus,
+um, the integral of phi with respect to mu plus
+however you define it. Um, so this is the Lebesgue integral.
+the Lebesgue integral. And one one definition is that you look
+the mu plus measure if at least if if phi is non-negative,
+let's say. You look at the mu plus measure of the
+set of um,
+x's in M plus where phi x is bigger than t,
+and then you integrate that from 0 to infinity with respect to t. Now, this is
+infinity with respect to t. Now, this is a monotone function of t, and so this
+a monotone function of t, and so this integral converges in the Riemann sense,
+integral converges in the Riemann sense, and that defines the Lebesgue integral
+over here. And then if phi takes both signs, you have to write it as a
+signs, you have to write it as a difference of a positive and negative
+these Lebesgue integrals and subtract them, and you get the Lebesgue integral
+Um, so of course, the point of measures is that you can define you can define a
+is that you can define you can define a number
+associated to any function, any measure, you get a number R.
+you get a number R. And uh, what what Monge was interested
+in was the cost associated with uh with these two measures mu plus mu minus in
+these two measures mu plus mu minus in this mapping G.
+this mapping G. And so Monge's cost
+associated with G was the integral
+of the cost of shipping from X to G of X weighted by the amount of mass
+weighted by the amount of mass or the how much
+earth was in the pile at position X. And so Monge's problem
+was to minimize um
+um minimize
+cost G over all maps G that push forward mu
+over all maps G that push forward mu plus to mu minus.
+And um so this is this is the basic problem.
+Sorry, it's hard to read. Um
+and it's or maybe we should write an infimum
+but it's a little bit of an awkward problem to work with because you know
+problem to work with because you know the cost is rather non-linear so this
+the cost is rather non-linear so this can depend in a complicated non-linear
+can depend in a complicated non-linear way on G.
+And it's not even clear that there's one map given mu plus mu minus it's not
+map given mu plus mu minus it's not obvious that a priori whether any maps
+obvious that a priori whether any maps that
+that that push forward mu plus to mu minus.
+so this this is of course a lemma that that this definition defines you a new
+that this definition defines you a new measure over here.
+Um but uh now we're asking given a target measure can we always achieve it
+target measure can we always achieve it and of course you can construct you can
+construct examples where you can't like for example the pile consists of all the
+for example the pile consists of all the mass at a single point and that the hole
+in the ground is spread out and then G has to send that one point somewhere and
+has to send that one point somewhere and so it can't spread it out over the hole.
+so it can't spread it out over the hole. So Monge's problem he formulated in 1781
+So Monge's problem he formulated in 1781 but it was not terribly tractable.
+but it was not terribly tractable. But nevertheless he was able to say some
+And uh so let me tell you a little bit about what happens in one dimension
+about what happens in one dimension which I said was already interesting.
+which I said was already interesting. So um
+so let's come back to an example and it's the case M plus and minus and D
+and it's the case M plus and minus and D are actually the real line.
+then if you think about um you think about
+if you're if you have if you're producing at two points and you're
+consuming at two points and you're trying to minimize the P
+look at two and let's say the production is one half at these two points and the
+is one half at these two points and the consumption is one half at those two
+points and so you want to pair the sources with the sinks
+to do it either you pair the left most source with the left sink and the right
+or you pair the left most source with the right sink and the the inner source
+the right sink and the the inner source the inner sink.
+the inner sink. And it turns out that if P is bigger
+uh this is the well uh okay. Yeah. Um this is a good would have been
+Yeah. Um this is a good would have been a good
+a good So it's it's like you have it's like you
+example a little bit I can think about the case where I have a row of books on
+the case where I have a row of books on my bookshelf and I want to move them one
+my bookshelf and I want to move them one place to the right
+each book one place to the right or I can take the left most book and bring it
+And then the question is which one of these things am I going to want to do?
+these things am I going to want to do? And how does that depend on P?
+Anyone want to take a guess? How many people think they
+How many people think they Why don't you Why don't you raise your
+Why don't you Why don't you raise your virtual hand if you think you know the
+Uh okay so someone has their hand up and let me see if I can figure out who it
+let me see if I can figure out who it is.
+is. Um
+Wait, why can't I I see a hand is up but uh
+I see a hand is up but uh I don't think it's mine and I can't I
+I don't think it's mine and I can't I can't see whose it is. I think it's
+Okay. Um Yeah, hi. Hi Kunal. Um
+but um oh yeah oh yeah I see. Yes and you you popped to the top of the list
+you you popped to the top of the list perfect. Thanks Kunal yeah tell me.
+perfect. Thanks Kunal yeah tell me. Yeah well I'm guessing it should depend
+Yeah well I'm guessing it should depend on like the convexity or concavity of
+the function. Right so if P is greater than one then it should punish a higher
+than one then it should punish a higher movement more. So I'm guessing it should
+movement more. So I'm guessing it should be left left and right to right and if P
+be left left and right to right and if P is smaller than one it should be left to
+right and right to left. That's right. And if P is equal to one
+both are fine the same amount. That's right. If P is equal to one you're
+right. If P is equal to one you're moving like one book N places or each
+book or N books one place each and they add up to the same thing N times one is
+and so what we already see is that when P equals one the solution is going to be
+P equals one the solution is going to be non-unique.
+And um Kunal's insight basically tells us that um when P is bigger than one you
+can figure out if you have many books suppose you have 100 books on the left
+and 100 books on the right well let me let me say once more what
+well let me let me say once more what Kunal's insight was. So
+if I do this thing then I'm looking at a long trip plus a short trip.
+If I do this thing I'm looking at two trips of intermediate length.
+trips of intermediate length. And then so it's a question of whether
+or concave this is P bigger than one this is P less than one. Convexity tends
+this is P less than one. Convexity tends to prefer two trips of intermediate
+to prefer two trips of intermediate length because the average of two points
+I mean the the value of the cost of the average is lower than the average of the
+Concavity tends to it it discourages you from doing two intermediate trips it
+from doing two intermediate trips it says when you're when you're looking at
+says when you're when you're looking at concave cost you'd rather one person
+doing a short trip even can even be a short trip in the other direction so
+even this works can work can be more efficient uh
+sometimes than uh than this when the when P is less than
+Um and so this this picture you have the two trucks passing each other in the
+two trucks passing each other in the middle going opposite directions on the
+highway you think oh that must be very inefficient but it's not because one of
+inefficient but it's not because one of the one of them is doing a local run and
+doesn't have any overhead expenses and the other guy is doing a long haul.
+So somehow if if you're in this train model where P is less than one you can
+have these funny patterns emerging. If you're in the lattice model where P
+then you never want to do this kind of thing you always want to do this and
+then even if you have like 100 books that you want to move to 100 different
+that you want to move to 100 different places on the right um basically this
+thing tells you the ordering is going to be preserved the left most book will go
+point of molecule of dirt will go to the left most hole in the ground the next
+point of dirt on the left will go to the second left most hole in the ground and
+second left most hole in the ground and so on.
+And so for P bigger than one um there's actually a an explicit
+um there's actually a an explicit solution to Monge's problem which is you
+solution to Monge's problem which is you define F plus and minus the so-called
+define F plus and minus the so-called distribution functions
+um by integrating from minus infinity up to X
+as long as these measures don't have atoms then these will be nice reasonably
+and then um you get a monotone map so this is
+you get a monotone map so this is something to check
+um when you can define G to be uh let's say F minus inverse composed
+uh let's say F minus inverse composed with F plus
+then G pushes forward pushes forward mu plus to mu minus.
+uh of course this this number this is a number between zero and one if uh
+if mu plus and minus are probability measures and so what this function it's
+measures and so what this function it's a non-decreasing function because the
+a non-decreasing function because the further X is to the right the more
+masses of mu pluses to its left. And um
+and uh so when you compose these two functions you get a non-decreasing
+the first function takes you from the real line to the unit interval the
+inverse of the second function takes you from the unit interval back to the real
+from the unit interval back to the real line so what you get is the composition
+non-decreasing rearrangement of mu plus that gives you mu minus and it turns out
+it turns out that um this guy attains Monge's minimum
+for every P bigger than one on the real line.
+assuming again that mu plus doesn't have atoms.
+If mu plus so if
+what it means to not have atoms is that the mass assigned to any single point is
+the mass assigned to any single point is zero.
+If mu plus has atoms then F plus is discontinuous at that point and uh
+discontinuous at that point and uh things get a little bit trickier.
+things get a little bit trickier. That's the case where you might not
+That's the case where you might not there might be no map pushing forward mu
+plus to mu minus if if mu plus has atoms.
+a basic insight in one dimension and the natural question is how would this work
+natural question is how would this work in higher dimensions?
+in higher dimensions? And um
+so let me uh let me remind myself what I wanted to
+say. Um
+Um okay yeah so I wanted to take before I talk about the higher dimensional
+I talk about the higher dimensional version of this I wanted to say a bit
+Um and so I wanted to say so so Monge's problem comes up in many different
+problem comes up in many different places and so there's actually some spec
+places and so there's actually some spec As I mentioned, he was a contemporary of
+As I mentioned, he was a contemporary of Napoleon's and uh I once heard a
+Napoleon's and uh I once heard a speculation that he wasn't actually
+speculation that he wasn't actually thinking about filling in holes in the
+ground with piles of dirt at all, he was thinking about troop movements. You know
+thinking about troop movements. You know where the troops are now, you know where
+you want them to be next week, which troops should go to which place in some
+order so that they all get there as soon as possible.
+so it comes up naturally in many economic situations where basically the
+first measure mu plus would be um would be like supply, a distribution of
+would be like supply, a distribution of supply, and the second measure mu minus
+supply, and the second measure mu minus would be a distribution of demand, and
+would be a distribution of demand, and economics is all about how to supply
+economics is all about how to supply equilibrate with demand in order to
+equilibrate with demand in order to determine prices.
+determine prices. Uh another place that it comes up in
+us who maybe a future MD PhD and he's very interested in matching problems. So
+very interested in matching problems. So every year all the medical school
+every year all the medical school graduates in the US or separately in
+graduates in the US or separately in Canada apply to a residency matching
+Canada apply to a residency matching program.
+And so you have um it's also like the college admissions
+it's also like the college admissions problem. So you have all these medical
+problem. So you have all these medical students who apply they they all do
+students who apply they they all do research they on the programs they want
+research they on the programs they want to join, they apply to the programs that
+interest them. Uh the programs then interview the applicants that they're
+interview the applicants that they're interested in and after that the the
+programs they want to go to the uh the programs uh prioritize which medical
+residents they would like to hire. All of this information in the US is sent to
+handled in I don't know where it's handled in Canada, probably Toronto. And
+handled in Canada, probably Toronto. And uh the the company tries to come up with
+what's called a stable match. And so the not the idea is you can't
+but what you can hope to do is that after you've assigned the medical
+after you've assigned the medical residents to residency programs um that
+you can't find a program and um a resident who have been matched to each
+a resident who have been matched to each other
+uh or who rather who are not matched to each other, but who would both prefer to
+to match with each other. So that's If that If you're in that situation where
+that If you're in that situation where you find a program and a resident both
+you find a program and a resident both of whom would rather pair with each
+of whom would rather pair with each other than their partners, so that a
+other than their partners, so that a divorce happens, that's called an
+unstable match. And the question is can you always find a stable match? And
+you always find a stable match? And there are different economic frameworks
+there are different economic frameworks for addressing this kind of problem. One
+of them uh In one of them, which is called transferable utility,
+the residency programs are able to pay the residents different amounts
+depending on you know some I I like some resident more than another, so I'm going
+resident more than another, so I'm going to pay them a higher salary.
+to pay them a higher salary. That's what's called transferable
+utility and in that case it more or less you can solve this you can show there's
+you can solve this you can show there's a stable match by solving an optimal
+a stable match by solving an optimal transportation problem, a problem with a
+transportation problem, a problem with a flavor of the Monge problem we just
+Uh in the case because basically in that case there's like a sur instead of a
+cost you have a surplus, which is like negative of the cost, and it says if you
+match resident X with program Y it generates a certain amount of benefit or
+generates a certain amount of benefit or revenue or whatever, and then they can
+revenue or whatever, and then they can negotiate on who gets to keep what share
+negotiate on who gets to keep what share of the revenue, but what's fixed is the
+of the revenue, but what's fixed is the total revenue that each match generates
+and then you have to just figure out how to do all the matches to to maximize the
+to do all the matches to to maximize the total revenue in that transaction to
+total revenue in that transaction to produce something stable when you do it.
+produce something stable when you do it. And it comes up in economics in another
+And it comes up in economics in another setting, which is uh if you look at my
+notes with So I put on the homepage or on the reading list my these five
+on the reading list my these five lecture notes that I wrote with Nester
+lecture notes that I wrote with Nester Gan. They're linked You can find
+Gan. They're linked You can find everything I've written on my homepage
+everything I've written on my homepage on your publications. It's also linked
+on your publications. It's also linked to our course website.
+to our course website. Uh I think this is publication number
+46. Um
+I have another application to economics there, which is called uh nonlinear
+there, which is called uh nonlinear monopolist nonlinear pricing, and that's
+also very interesting and a little bit more involved than uh just equilibrating
+more involved than uh just equilibrating supply and demand and still a topic of
+supply and demand and still a topic of current research interest.
+current research interest. Um
+Another place where this comes up is in image processing.
+is in image processing. Um
+where for example you have two pictures and you'd like to figure out how to
+morph You're trying to make a movie, you don't want to have to store too much,
+don't want to have to store too much, but I if I have two frames I could
+but I if I have two frames I could compress my data by throwing away the
+compress my data by throwing away the intermediate frames and just morphing
+the first frame into the second one, it might look perfectly good. And optimal
+might look perfectly good. And optimal transportation tells you sort of which
+transportation tells you sort of which pixel in the first image corresponds to
+pixel in the first image corresponds to which pixel in the second image uh
+depending on what choice of cost they may correspond in different ways, and
+then the idea would be you allow each pixel in the first image to move towards
+pixel in the first image to move towards its destination pixel in the second
+its destination pixel in the second image so that it arrives there after
+unit time, and if you stop the motion in the middle you get the interpolation. So
+the middle you get the interpolation. So optimal transportation led to this
+optimal transportation led to this notion of interpolation between two
+notion of interpolation between two probability measures, which is not It's
+probability measures, which is not It's not that I have a measure here and a
+measure there and I look at 1 minus t times the first measure plus t times the
+times the first measure plus t times the second one and the first one shrinks and
+the other one grows, rather it's the whole first measure is going to move
+whole first measure is going to move gradually from its initial position to
+gradually from its initial position to its final one.
+its final one. Um
+image processing. So he has a nice story that he likes to tell, which is maybe
+that he likes to tell, which is maybe worth recounting here.
+worth recounting here. Um
+So he says imagine that you're unlucky enough to have to require brain surgery
+enough to have to require brain surgery to remove a tumor, but that you're lucky
+enough that the tumor is that you're going to have your surgery done in a
+very state-of-the-art facility, and um so then what happens is that the
+a before the a few weeks before the surgery you'll get a high-resolution MRI
+surgery you'll get a high-resolution MRI image that shows perfectly where the
+image that shows perfectly where the tumor is located in your brain.
+And then on the day of the surgery they wheel you into the operating room, they
+wheel you into the operating room, they open up your head, the pressure in your
+open up your head, the pressure in your spinal column collapses, everything
+sloshes around a little bit, and the surgeon is getting a very poor quality
+surgeon is getting a very poor quality real-time ultrasound image, and he needs
+real-time ultrasound image, and he needs to figure out where the margins of the
+to figure out where the margins of the tumor are so that he gets the whole
+thing and he doesn't take too much healthy brain matter from around it. And
+healthy brain matter from around it. And so you you want to
+that application you want to pair this crummy real-time ultrasound image with
+crummy real-time ultrasound image with the high-resolution MRI, so you
+transport the ultrasound image onto the MRI moving all the pixels around as
+MRI moving all the pixels around as little as possible so as to minimize
+little as possible so as to minimize some cost, and then if you draw a
+picture a circle around or you know curve around the tumor on the MRI, you
+can transport it back to the today's ultrasound image and figure out
+today's ultrasound image and figure out where the tumor boundaries have moved.
+where the tumor boundaries have moved. So that's another nice application of
+So that's another nice application of optimal transport to medical imaging.
+It's used a little bit machine learning. So those are some areas of application
+outside of math. There are also a number of areas of application inside of math,
+of areas of application inside of math, and um
+one of them is to nonlinear partial differential equations, this kind of
+differential equations, this kind of studying these variational problems. Uh
+studying these variational problems. Uh sometimes it leads directly to partial
+sometimes it leads directly to partial nonlinear partial differential
+sometimes it leads there indirectly or gives insight indirectly into dynamics
+gives insight indirectly into dynamics like the heat flow uh and nonlinear heat
+And another application inside of math uh that we're I'm going to hopefully
+uh that we're I'm going to hopefully have time to talk about today
+to to foreshadow today a little bit is um optimal transport is a powerful tool
+Um because somehow what the optimal mapping does, the solution to Monge's
+mapping does, the solution to Monge's problem when it exists,
+it encodes something global about the two distribution of mass mu plus mu
+two distribution of mass mu plus mu minus,
+but it encodes it in this object which is easily localized. And so then you can
+is easily localized. And so then you can apply
+I mean you for example you can look at the derivative of the map, that's a if
+the derivative of the map, that's a if you're doing transport from Rn to Rn,
+you're doing transport from Rn to Rn, that's an n by n matrix, you can apply
+that's an n by n matrix, you can apply algebraic inequalities to that matrix or
+algebraic inequalities to that matrix or its eigenvalues, you can integrate them
+its eigenvalues, you can integrate them and you can get global inequalities
+relating the two fi initial and final distributions like and so the
+distributions like and so the application that I'm hoping to sketch
+application that I'm hoping to sketch today is the isoperi how you how you use
+today is the isoperi how you how you use optimal maps to prove the isoperimetric
+optimal maps to prove the isoperimetric uh
+uh inequality.
+And somehow that leads um that idea leads into
+the idea of using it to prove inequalities. On the one hand
+inequalities. On the one hand it leads into geometry and it also leads
+it leads into geometry and it also leads into more precise quantitative
+into more precise quantitative information about things like
+information about things like equilibration rates in dynamical
+equilibration rates in dynamical systems.
+Right. So I So I I we talked about how the solution in one dimension to Monge's
+the solution in one dimension to Monge's problem for p bigger than one was a
+interesting to have an analog of this in higher dimensions, and so about 30 years
+ago when I was a PhD student uh higher dimensional analog to this was proved by
+dimensional analog to this was proved by a gentleman named Yann Brenier,
+a gentleman named Yann Brenier, a French a French mathematician.
+a French a French mathematician. And so let me uh let me tell you the
+analog of this story in higher dimensions.
+dimensions. So
+I'm going to So now I'm going to fix p to be two,
+which is kind of a nice special case, it's sort of like the Hilbert space
+it's sort of like the Hilbert space case,
+as opposed to the Banach space case, and I'm going to my space is going to be Rn
+Rn Euclidean metric is going to be my m plus minus.
+I'm going to assume that the first measure is absolutely continuous with
+measure is absolutely continuous with respect to Lebesgue measure.
+respect to Lebesgue measure. I.e.
+I.e. um
+whenever the Lebesgue measure of a set is zero, then the mu measure of the set
+And so Yann Brenier proved the following theorem
+around uh somewhere between '87 and '91, there are two papers.
+there are two papers. Um
+I guess the version I'm going to state today is a slight improvement
+today is a slight improvement due to myself.
+due to myself. Um
+So there's a con So you can So the question somehow in one dimension
+question somehow in one dimension non-decreasing maps are very canonical,
+um but it's not so obvious what a non-decreasing map from plane to itself
+non-decreasing map from plane to itself would be.
+And there are some things you can do. People do them in statistics even. Um
+People do them in statistics even. Um like you can define
+So you can define an analog X1 X2 which is the let's say in R2 this would be the
+is the let's say in R2 this would be the integral over
+um minus infinity up to X1 minus infinity to X2
+infinity to X2 uh d mu
+plus let's say F plus. Uh and then you could you could try to
+F minus inverse composed with F plus again. And maybe that would even you
+know, I don't know, but maybe this would even push forward mu plus to mu minus.
+even push forward mu plus to mu minus. But what's not so nice about this
+But what's not so nice about this construction is that it really depends
+construction is that it really depends strongly on the your choice of
+strongly on the your choice of coordinate axes. It's not it's not
+coordinate axes. It's not it's not rotation invariant. If you rotate both
+rotation invariant. If you rotate both measures by
+and then you define this map, it won't be the composition of what the original
+be the composition of what the original map with it pre- post composed by
+map with it pre- post composed by rotations by 45°. It'll be something
+rotations by 45°. It'll be something else.
+And somehow what Brenier's theorem gives you is a rotation invariant analog of
+you is a rotation invariant analog of what it means to be a monotone map from
+line to itself. And again uh
+Some people probably know Brenier's theorem, but does anyone who doesn't
+theorem, but does anyone who doesn't know Brenier's theorem want to guess
+know Brenier's theorem want to guess what the higher dimensional analog of a
+what the higher dimensional analog of a map from the line to its to the
+map from the line to its to the of a monotone map is?
+Uh this time I don't see any hands raised.
+All right. Well, maybe someone who does know Brenier's theorem then.
+Gradients of convex functions. Yep. Yep. Um
+So um so yeah, so one way of describing a non-decreasing map from line to itself
+is that it's the derivative of a convex function. And that's a notion that turns
+function. And that's a notion that turns out to make perfect sense in higher
+out to make perfect sense in higher dimensions as well. So Brenier's theorem
+dimensions as well. So Brenier's theorem says uh
+says uh given
+given mu plus and mu minus
+let's say in probability measures on RM mu plus absolutely continuous with
+mu plus absolutely continuous with respect to Lebesgue there exists a
+respect to Lebesgue there exists a convex function
+possibly taking the value of plus infinity
+such that um
+if I define G to be its gradient so that's now a map from
+RN or at least a subset of RN it takes the domain of differentiability of U
+the domain of differentiability of U subset of RN into RN
+subset of RN into RN pushes mu forward to mu.
+So the first state part of the theorem is an existence theorem. There exists a
+is an existence theorem. There exists a mapping from mu plus to mu minus which
+mapping from mu plus to mu minus which is a convex gradient.
+is the analog of not having any atoms. Uh you can get away with something less
+Uh you can get away with something less than absolute continuity. What you
+than absolute continuity. What you really need is that mu doesn't
+really need is that mu doesn't concentrate on
+concentrate on lower dimensional co-dimension one hyper
+surfaces of a certain smoothness.
+then there's a convex gradient map that rearranges the first thing to give you
+rearranges the first thing to give you the second thing. Uh that's point one.
+the second thing. Uh that's point one. Point two is um
+Point two is um only one such map arises in this way.
+Up to sets of measure zero. So it's a uniqueness statement.
+um G uniquely minimizes Monge's problem.
+So somehow this through these convex gradient maps
+uh Brenier was able to give a purely geo- geometric characterization of a
+geo- geometric characterization of a unique map
+rearranging mu plus to mu minus and that that geometric characterized
+and that that geometric characterized map also happens to be the unique
+solution to the minimization problem that we're interested in. So we've
+already seen that P equals two is very different from P equals one because for
+different from P equals one because for P equals one the solution isn't unique
+and for P equals two as long as the first measure is absolutely continuous
+first measure is absolutely continuous with respect to Lebesgue it is unique.
+so let's let's talk a bit more about this example.
+this example. Um
+um if
+d mu plus and minus if
+both mu plus and minus are absolutely continuous with respect to Lebesgue
+continuous with respect to Lebesgue um
+then they have den- they're given by densities
+which I'm going to denote by F plus and minus.
+And so you F plus and minus would be L1 functions with respect to Lebesgue.
+non-negative L1 functions integrating to one because these are probability
+one because these are probability densities.
+densities. Um
+Um and
+you if G happens to be Now that So here we come to the question, okay, we've
+we come to the question, okay, we've shown an object exists or at least
+shown an object exists or at least Brenier has told us an object exists,
+how smooth is it? That's actually a rather delicate
+question. But if G happens to be a diffeomorphism
+then um then what?
+Okay, so sorry, maybe even before G is a diffeomorphism
+The fact that this is that G pushes mu forward to mu minus is equivalent to
+One way to test this statement is on sets, right? The mu minus measure of
+every set V is equal to the mu plus measure of the pre-image of V under G.
+measure of the pre-image of V under G. Another way to test this statement is on
+Another way to test this statement is on continuous functions. So that's
+equivalent to say this is something to check. I may put it on a homework
+assignment at some point. For every continuous function phi
+if I compose phi with G and integrate against M plus that's the
+and integrate against M plus that's the same thing as integrating phi against mu
+same thing as integrating phi against mu minus.
+so if G happens to be a diffeomorphism between two probability densities F plus
+between two probability densities F plus and F minus
+and F minus then uh
+using this representation of what it means to push forward mu mu plus to mu
+means to push forward mu mu plus to mu minus we find that for every phi
+minus we find that for every phi continuous
+continuous um
+what do we have? We have integral phi d mu minus is the same as integral phi F
+mu minus is the same as integral phi F minus of Y
+minus of Y integrated against Lebesgue measure.
+And we say that's this integral it's integral over M plus of
+integral over M plus of phi of G of X
+F plus of X against Lebesgue measure. And now if G happens to be a
+And now if G happens to be a diffeomorphism then I can do a change of
+diffeomorphism then I can do a change of variables. I can do the change of
+variables Y equals G of X which means the
+the there's an integrating factor which you learned in second year
+which you learned in second year calculus was given by the magnitude of
+calculus was given by the magnitude of the determinant of the Jacobian of G
+the determinant of the Jacobian of G which is defined because G is a
+And so then the left-hand side of this inequality after I do this change of
+inequality after I do this change of variables
+is integral um and by the way G takes if Y is in M minus then X is in M plus
+if Y is in M minus then X is in M plus and vice versa because G is a
+and vice versa because G is a diffeomorphism. So this becomes an
+diffeomorphism. So this becomes an integral over M plus
+integral over M plus of phi of G of X
+F minus of G of X um determinant of Jacobian
+derivative of G at X absolute value d n X.
+And so now if I forget the middle step, so I so I have the first step equals the
+so I so I have the first step equals the last step.
+last step. And this holds true for every function
+even phi composed with G is an arbitrary function. So this function is arbitrary.
+function. So this function is arbitrary. It's the same as this arbitrary
+It's the same as this arbitrary function. And so the thing I'm
+function. And so the thing I'm integrating against it must agree with
+integrating against it must agree with thing that I'm integrating over here.
+thing that I'm integrating over here. So some somehow what's sometimes called
+So some somehow what's sometimes called the fundamental theorem of the calculus
+the fundamental theorem of the calculus of variations
+says that um because fee was arbitrary um f plus of x
+because fee was arbitrary um f plus of x has to equal
+f minus of g of x magnitude of determinant of dg of x.
+magnitude of determinant of dg of x. And so somehow when you find a map when
+that pushes forward mu plus to mu minus you're really solving this very
+you're really solving this very complicated non-linear equation. It's
+complicated non-linear equation. It's not com- it's easy to solve in one
+linear in one dimension but it becomes very non-linear as soon as you're in
+very non-linear as soon as you're in more than one dimension.
+And so what Brenier's theorem is doing for us is it's providing with us with a
+for us is it's providing with us with a preferred solution to this. It's saying
+preferred solution to this. It's saying not only can you solve this horribly
+non-linear equation but you can find a convex function u whose gradient solves
+convex function u whose gradient solves it.
+And so if I write um if I write
+g is derivative of u for some u then this equation simplifies a little bit
+because the unknown then is a scalar function u instead if if you regard f
+function u instead if if you regard f plus and f minus as being known and g as
+being unknown you can convert the unknown from being a mapping into being
+a single scalar potential u. So from instead of n unknowns you have
+one unknown. And
+by the way if I you know if you need to go back to previous screen and take a
+go back to previous screen and take a screenshot stop me and I'm happy you
+screenshot stop me and I'm happy you know I have all the previous screens are
+know I have all the previous screens are stored so we can go back and take a
+stored so we can go back and take a screenshot anytime anyone wants.
+screenshot anytime anyone wants. Um
+so if g is the gradient of our convex function then a couple of nice things
+function then a couple of nice things happen. Um first of all that means the
+derivative of g is the Hessian of a convex function which is a symmetric
+convex function which is a symmetric matrix symmetric n by n matrix.
+And if the function is convex what does it mean about the symmetric n by n
+it mean about the symmetric n by n matrix?
+What additional nice property will this symmetric n
+symmetric n um n by n matrix have?
+So again in one dimension to be the derivative to be a derivative of convex
+derivative to be a derivative of convex function meant you were a non-decreasing
+function meant you were a non-decreasing map to be a second derivative of a
+Uh positive definite uh Joachim says. Yeah so so in higher dimensions um the
+Yeah so so in higher dimensions um the convexity of u exactly corresponds to
+convexity of u exactly corresponds to the positive definite So this is a
+the positive definite So this is a matrix valued measure and it's a
+matrix valued measure and it's a positive definite matrix valued measure.
+Um in one dimension the second derivative of convex function it doesn't
+derivative of convex function it doesn't need to be a function if if the convex
+function is not c2 but it will be a measure and it will be a non-negative
+And of course if g is a diffeomorphism then this actually is a function and not
+Um so then then my my horrible non-linear equation
+non-linear equation becomes um
+f plus of x f minus d u of x is determinant of
+Hessian of u. So it was a first order equation in g it becomes a second order
+equation in u and I can remove the absolute value signs because the thing
+absolute value signs because the thing under the determinant's non-negative
+matrix all of its eigenvalues are real and they're even non-negative real
+and they're even non-negative real numbers.
+And this is a pretty famous equation uh even if you take for example even if
+uh even if you take for example even if you take f plus
+you take f plus to be the characteristic function of a
+and f minus to be the characteristic function of maybe a different set.
+So what I mean by one of m or maybe I should call it one of
+one of u and one of v. So what I mean is the function which is zero or one
+the function which is zero or one depending on if y is in v or y is not in
+Um then this equation would turn into one equals determinant of Hessian of u
+one equals determinant of Hessian of u and that's a famous equation called the
+and that's a famous equation called the Monge-Ampère equation.
+Monge-Ampère equation. Same Monge.
+And uh in some sense prob- if if anyone has studied some partial differential
+has studied some partial differential equation they've probably seen Laplace's
+equation they've probably seen Laplace's equation which is it's like this except
+you put a trace on the right hand side. The Laplacian is the trace of the
+The Laplacian is the trace of the Hessian of u.
+This is kind of the non-linear analog of the fully non-linear analog of Laplace's
+determinant of the Hessian of u. And it actually has more symmetries although
+actually has more symmetries although it's harder to analyze a lin- a
+it's harder to analyze a lin- a non-linear equation than it is to
+analyze a linear equation this guy has more symmetries than Laplace's equation.
+more symmetries than Laplace's equation. So it has that advantage.
+So it has that advantage. [clears throat]
+[clears throat] The determinant has lots of symmetries
+Um the product basically the product of eigenvalues you can do you can stretch
+some eigenvalues and compress others without changing the product which you
+without changing the product which you can't do without changing the sum. So
+this has what's called affine invariance.
+And so there's a big movement in So again those of you that have studied
+again those of you that have studied partial differential equations know that
+partial differential equations know that if you have a solution to Laplace's
+equation on a domain no matter how wild the
+the boundary values are the solution is c infinity smooth on the interior of the
+And there's been a big industry in the 20th century
+exploring to what extent the same thing is true for the Monge-Ampère equation.
+is true for the Monge-Ampère equation. Um and it's turns out that it's not not
+Um and it's turns out that it's not not everything that you want to be is is
+everything that you want to be is is true and certainly it's not as
+true and certainly it's not as straightforward but uh if you put enough
+straightforward but uh if you put enough hypotheses on your situation then you
+hypotheses on your situation then you can indeed show that solutions to the
+can indeed show that solutions to the Monge-Ampère equation need to be smooth.
+And in our context that is telling us that if you put enough constraints on mu
+that if you put enough constraints on mu plus and mu minus then you can have a
+it's pretty obvious that you need some constraints because for example if the
+constraints because for example if the support of mu is disconnected if if the
+hole lived in two different places partially here and partially there and
+the pile of earth was not disconnected you would need to tear the pile of earth
+somewhere and separate it to the left part of the hole to the right part of
+the hole. And so that would correspond to a solution u which is not so smooth
+at the place where you're tearing. And so another interesting area is what
+And so another interesting area is what can you say about the surface along
+can you say about the surface along which you have to tear is that a nice
+Um so this is one connection between of optimal transportation to non-linear
+optimal transportation to non-linear PDE.
+so I promised I would show a little bit about um
+how optimal translation is connected to geomet- to geometric inequalities and
+geomet- to geometric inequalities and this is a perfect uh perfect time to do
+Um so I'm going to I'm going to use Brenier's theorem to show you a kind of
+formal proof of the isoperimetric inequality.
+inequality. So the isoperimetric inequality
+is um is
+somebody said it's a theorem known to cats because the volume of a cat is
+fixed but if the cat's in a cold room then the cat wants to minimize the heat
+then the cat wants to minimize the heat leak and so it tries to position itself
+uh minimize its surface area and so then to do this the cat curls up into a ball.
+So the that's the guy that that's the shape of cat that minimizes the heat
+leak for a given volume. And so the isoperimetric theorem exactly says that
+if you look at all sets with the same volume the one with the smallest surface
+volume the one with the smallest surface area is the Euclidean ball in Euclidean
+area is the Euclidean ball in Euclidean space at least.
+space at least. So the Euclidean
+basically says that if if the volume of m plus equals the
+uh and m minus is say the unit ball the Euclidean unit ball
+Euclidean unit ball then the surface area
+is at least as big as the surface area of the boundary of m minus.
+And equality if and only if m plus is the unit ball.
+So this was known to the Greeks I guess but they they probably couldn't have
+written what we would call a rigorous They wouldn't have known what we'd call
+a rigorous proof. If it's known to cats it's also known to
+the Greeks. Um when I say the Greeks I mean 2000 years
+And uh so Brenier's theorem provides one method of proving this.
+And let me say let me show how it goes. Probably if you want to take a
+Probably if you want to take a screenshot please do cuz I'm going to
+screenshot please do cuz I'm going to make a new slide in order to um
+in order to to sketch the proof. Um
+so what I want to do is I have two sets of the same volume. Here's m plus.
+Those are supposed to have the same volume.
+volume. And what Brenier tells me it is that if
+f plus and minus to be the characteristic functions
+of these two sets. Um I guess I have to normalize by the
+Um I guess I have to normalize by the volume of the set.
+Um that these volumes are equal.
+Uh so then these are probability densities.
+Um I take the associated probability measures d mu plus to be
+measures d mu plus to be f plus d Lebesgue or whatever.
+And similarly f minus Brenier's theorem tells me aha you have a convex function
+such that the gradient of U maps from M plus into M
+plus into M minus, and not only does it do that, um
+minus, and not only does it do that, um it satisfies the Monge-Ampère equation.
+it satisfies the Monge-Ampère equation. So, the determinant of the Hessian of U
+is given by the ratio of F plus to F minus,
+which is basically one because these two sets have the same
+And what's So, that So, that this is what optimal transportation has done.
+what optimal transportation has done. It's taken some set M plus with
+and it's given me that it's turned it's translated into a convex function U.
+translated into a convex function U. And that it localizes all the
+And that it localizes all the information about M plus.
+And so, of course, if the product of these eigenvalues is one, I can take the
+nth root of the product. And then the domination of the geometric
+root of the product is less than one over n times the sum of the eigenvalues,
+over n times the sum of the eigenvalues, which is better known as the trace.
+And the trace of the Hessian is also the Laplacian.
+And all this holds on M plus, let's say almost everywhere at least.
+almost everywhere at least. Um
+inequality over M plus. And if I do that on the left-hand side, I'll get the
+on the left-hand side, I'll get the volume.
+I'm integrating with respect to Lebesgue measure.
+measure. And then this inequality here tells me
+this is less than or equal to one over n integral of the Laplacian
+over M plus. And then, uh
+And then, uh you know, the Laplacian is divergence of
+And so, uh I guess the Gauss-Green theorem or the divergence theorem tells
+you that this you can reduce this to a boundary integral. You can integrate by
+boundary integral. You can integrate by parts.
+And it's an integral over the boundary of M plus
+of M plus of
+the gradient of U dotted with the outer normal.
+With respect And now it's I'm integrating with respect to surface
+integrating with respect to surface area.
+And, um but
+DU is taking its values in the unit ball. And so, this is a vector of
+magnitude at most one, and this is a unit vector, and so this is less than or
+unit vector, and so this is less than or equal to one.
+And so, when I do the integral, the whole thing is less than or the the
+the whole thing is less than or the the whole expression
+is less than or equal to um one over n times the surface area
+one over n times the surface area of
+And so, what have What have I deduced? I've deduced the volume
+I've deduced the volume of M plus is less than one over n times
+And if you if you think about the special case where M plus is the unit
+ball, then
+the identity map The gradient of U is going to be the identity map. So, in
+other words, U of X will be 1/2 X squared, whose gradient is the identity.
+squared, whose gradient is the identity. And this product of eigenvalues The
+And this product of eigenvalues The eigenvalues are all going to be one. The
+Hessian of U will be the identity matrix.
+And so, we'll have equality in the domination of the geo- geometric by the
+domination of the geo- geometric by the arithmetic mean.
+And we'll also have that, um gradient U of X will be X, which will be the outer
+of X will be X, which will be the outer normal, because on the unit ball at a
+normal, because on the unit ball at a point on the unit ball, the location is
+the same as the outer normal. And so, we'll also have equality in this
+And, uh so this is equal to volume of M minus, and
+this is equal to volume of M minus, and we just showed that that's equal to one
+we just showed that that's equal to one over n area
+And so, this whole chain of inequalities, reading off the equality
+inequalities, reading off the equality cases, tells me that the area of the
+unit ball, surface area of the unit ball, is less than the surface area of
+any other set of its size. And this is a I think this is a
+And this is a I think this is a super elegant proof, but it's uh it's
+super elegant proof, but it's uh it's just a heuristic proof so far, because
+just a heuristic proof so far, because we haven't really I mean, Brenier told
+us we had this convex function, and its gradient was defined almost everywhere
+gradient was defined almost everywhere with respect to Lebesgue measure, maybe.
+But here we're having to deal with its second derivative almost everywhere. And
+second derivative almost everywhere. And we also can worry about, um
+to do this integration by parts here, to go from the surface measure to a
+go from the surface measure to a boundary,
+there be, you know, could the Lapla- If basically I want to move from the almost
+basically I want to move from the almost everywhere Laplacian to the
+everywhere Laplacian to the distributional Laplacian, which could
+could that singular measure hurt me? And it turns out that, again, because U is
+it turns out that, again, because U is convex,
+What What did I say? I said the Hessian of U is a non-negative definite measure.
+of U is a non-negative definite measure. So, any singular measure is just going
+So, any singular measure is just going to increase the value of the
+distributional Laplacian relative to its absolutely continuous part. So, it's
+absolutely continuous part. So, it's just going to make this this inequality
+just going to make this this inequality this equality into an equal inequality,
+this equality into an equal inequality, which is going in the right direction.
+which is going in the right direction. So, um So, if there's non-smooth stuff,
+So, um So, if there's non-smooth stuff, it just improves the inequality.
+Um But okay, so the proof's a little bit heu- heuristic, because we don't really
+know so much about the smoothness of U to to justify this integration by parts
+to to justify this integration by parts and so on. But it turns out it turns out
+and so on. But it turns out it turns out it's enough.
+You can really put together You can put together rigorous proofs
+based on these ideas. Um Okay, great. Questions?
+Right. So, let me say a little bit more.
+So, so far we've talked about what can you do with a solution to Monge's
+problem. So, the other thing you can do with a solution Never mind the solution
+with a solution Never mind the solution to Monge's problem. You can use Monge's
+to Monge's problem. You can use Monge's problem to measure how different is mu
+plus from mu minus. And so,
+And so, you can, um
+So, if I define the work taken to move mu plus onto mu minus,
+taken to move mu plus onto mu minus, um to be the solu- the Monge's infimum,
+if c is a power less than one of the distance,
+then it will turn out that this thing here is so that, in other words, d to
+here is so that, in other words, d to the p If d satisfies the triangle
+the p If d satisfies the triangle inequality, so does d to any power less
+And it turns out then this will actually also satisfy the triangle inequality.
+we for p less than or equal to one, we can use this as a new distance, where
+can use this as a new distance, where I've lifted The old distance was
+I've lifted The old distance was distance between points in the metric
+distance between points in the metric space. The new distance is kind of
+distance between measures. Um
+If p is bigger than one, you can also build a distance between measures, but
+you have to take the pth root. So, let's say the p distance between mu plus and
+say the p distance between mu plus and mu minus
+mu minus is the
+is the pth root of W D, let's say.
+And this distance was studied by Kantorovich with Rubinstein. Uh It was
+Kantorovich with Rubinstein. Uh It was later misattributed. It was used by
+Wasserstein, and so people sometimes call it the
+call it the uh the
+uh the Kantorovich-Rubinstein-Wasserstein
+And it gives me For every different p, it gives me a different way of measuring
+how close is mu plus to mu minus. And it turns out that this distance has
+And it turns out that this distance has a lot of interesting applications, too.
+So, uh one is sort of to parametric statistics. So, for example, you have a
+statistics. So, for example, you have a family of distributions that you imagine
+family of distributions that you imagine are got governing some model, and then
+you go and measure the model, and so you have an empirical distribution, and you
+have an empirical distribution, and you want to know which distribution in the
+want to know which distribution in the family, maybe Gaussians or something, is
+family, maybe Gaussians or something, is closest to the empirical measure. You
+can ask how close is it in the DP sense, and for many applications, that might be
+and for many applications, that might be a natural thing to do.
+a natural thing to do. Um
+A more sophisticated application of optimal transport ideas to statistics
+optimal transport ideas to statistics called so-called information geometry,
+where you do the a similar kind of thing, but you try to define these more
+thing, but you try to define these more generalized distances, which don't
+necessarily satisfy the They're not necessarily symmetric in X and Y. So, I
+mean, somehow the idea here is we started out with a distance D between
+started out with a distance D between points X and Y on a metric space,
+and we lift it to a distance between probability measures. So, you can think
+probability measures. So, you can think of probability measures as sort of fuzzy
+of probability measures as sort of fuzzy points.
+sometimes there's an advantage Of course, first of all, you have some
+flexibility to choose p. If you choose
+limit as p goes to infinity, turns out you get a metric which gives a different
+you get a metric which gives a different topology than if you choose p to be
+finite. And for some applications, that topology is convenient.
+topology is convenient. Um
+And, um fuzzy points are also more convenient than points for another
+convenient than points for another reason, which is that if
+you know, a point moves through metric space along a geodesic to some target.
+space along a fuzzy family of geodesics to some target, and the fuzziness When
+As soon as you fuzz the point, you can't talk about the entropy of a point very
+talk about the entropy of a point very much, but you can certainly talk about
+much, but you can certainly talk about the entropy of a fuzzy point, like how
+the entropy of a fuzzy point, like how how much do you know about it. And when
+you look at a fuzzy collection of geodesics moving through a metric space,
+geodesics moving through a metric space, and you study the entropy along that
+and you study the entropy along that geodesic, it turns out that that's
+geodesic, it turns out that that's telling you about how much of the
+telling you about how much of the geodesics spreading away from each other
+geodesics spreading away from each other or towards each other as they move from
+their initial to final location. So, it's actually measuring a kind of
+it's actually measuring a kind of curvature in the metric space. And so,
+curvature in the metric space. And so, somehow that's the entry point for um
+somehow that's the entry point for um for how um how optimal transport leads
+for how um how optimal transport leads to notions of curvature or curvature
+bounds in metric spaces, which I hope will uh be a theme of the second half of
+Um let me see. I'm kind of coming to the end, but uh
+let me see what else if I if I wanted to say something else.
+say something else. Um
+I maybe had one or two more applications. Oh, yes. Yes, right. Um
+Right. So, these um having these distances on probability measures,
+anytime you have dynamical systems where mass is conserved, like it could be a it
+could be any kind of conservative, you know, non-linear heat flow, diffusion of
+know, non-linear heat flow, diffusion of a chemical, whatever. Um these these
+a chemical, whatever. Um these these Wasserstein P or
+Wasserstein P or Kantorovich-Rubinstein-Wasserstein P
+distances give you a way of measuring how close are two solutions staying. So,
+how close are two solutions staying. So, they give you a way of addressing
+they give you a way of addressing well-posedness in various fluid
+mechanical kind of contexts. They give you a way of addressing long-time
+you a way of addressing long-time evolution because they give you
+uh I mean so, it people have known for a long time what it means for a a sequence
+long time what it means for a a sequence of measures to converge to a limiting
+of measures to converge to a limiting measure. So, there are natural
+measure. So, there are natural topologies on measures, but sometimes
+topologies on measures, but sometimes you also want to you want to know
+you also want to you want to know topologies that come from a metric
+topologies that come from a metric distance because if you want to quantify
+distance because if you want to quantify something like rate of convergence, it's
+something like rate of convergence, it's not enough to have a topology, you need
+And so, these they're convenient norms for topologizing thing um
+for topologizing thing um rates of convergence in certain
+settings. Uh including physical models like
+atmospheric dynamics, they come up in one place. And another physical model,
+one place. And another physical model, so I talked I talked I talked touched
+real briefly on how going from points to fuzzy points allows you to uh introduce
+fuzzy points allows you to uh introduce entropy and that leads to curvature
+notions. That turns out to allow us to construct a non-smooth world, which sort
+construct a non-smooth world, which sort of allows limits of Riemannian
+manifolds. So, you kind of complete the world of Riemannian manifolds, which are
+world of Riemannian manifolds, which are smooth objects, but you have to deal
+smooth objects, but you have to deal with these new new objects, which are
+with these new new objects, which are non-smooth objects. A little bit
+non-smooth objects. A little bit analogous to completing the rationals
+and ending up with the reals, but you want to be able to work with the reals.
+You want to be able to work with the non-smooth objects and not just the
+smooth ones. It turns out you can also do this in the Lorentzian world. So, the
+do this in the Lorentzian world. So, the world of general relativity um optimal
+world of general relativity um optimal transport ideas, where you're now
+transport ideas, where you're now transporting fuzzy points through
+space-time, allow you to uh to formulate notions of curvature and
+to formulate notions of curvature and Einstein equations and so on along
+Einstein equations and so on along time-like directions in the um in the
+time-like directions in the um in the relativistic world. So, I think that's
+relativistic world. So, I think that's uh maybe a good place for us to stop.
+I think I will um turn off the recording and then we can have questions if that
+and then we can have questions if that sounds good.

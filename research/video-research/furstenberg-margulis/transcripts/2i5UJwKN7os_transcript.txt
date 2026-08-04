@@ -1,0 +1,1569 @@
+welcome to the norwegian academy of science and letters
+welcome to the arbol lectures it's a great pleasure to welcome you all
+great pleasure to welcome you all this is one of the academic highlights
+this is one of the academic highlights of the year certainly
+of course ceremonies and receptions are nice parts of celebrating the
+nice parts of celebrating the achievements of great scientists
+achievements of great scientists but this is where we get down to the
+and get a glimpse into the signs that we're actually celebrating
+in the following two hours we'll hear from the recipients of the hubble prize
+from the recipients of the hubble prize for 2020
+hillen fersenberg and gregory margolis that received the arbel prize for
+that received the arbel prize for pioneering the use of methods from
+pioneering the use of methods from probability and dynamics and group
+probability and dynamics and group theory
+number theory and combinatorics the lectures are then followed by a
+the lectures are then followed by a break before we hear from this year's
+break before we hear from this year's hubble prize laureates larvas
+hubble prize laureates larvas and avi whitgison which received a try
+prize for their foundational contributions to theoretical computer
+contributions to theoretical computer science
+and discrete mathematics and their leading role in shaping them
+into central fields of modern mathematics
+without further ado i'll hand the microphone over to the chair of the
+microphone over to the chair of the hubble prize committee
+hubble prize committee professor huntsman the course please
+thank you dear our lords ladies and gentlemen
+we are in a very special year and so also for the arbel
+lectures this is the first year the lectures are fully digital and also
+the lectures are fully digital and also the first time that all
+the first time that all four lectures are laureates
+four lectures are laureates tonight we'll hear hillel firstenberg
+lovas and avi wigderson present some aspects of their work
+aspects of their work for a general scientific audience after
+the laureate will be available for questions please
+write questions in the chat during the lecture we will follow
+the chat during the lecture and read up as many questions as the program permits
+as many questions as the program permits in the end of each talk
+the first lecture is hillel or harry furstenberg from the einstein institute
+furstenberg from the einstein institute of mathematics
+of mathematics in jerusalem he was born in berlin in
+and the family had to escape to new york in 1939.
+his interest in mathematics was awakened at an early age
+under the inspiration of professor ginsburg at yeshiva
+university high school in manhattan after phd with solomon bochner at
+after phd with solomon bochner at princeton
+princeton he eventually immigrated to israel in
+where he established a world-leading research group in
+ergodic theory probability and dynamics his works are characterized by
+his works are characterized by extraordinary
+beauty and ingenious insights and he has never been afraid of
+and he has never been afraid of transgressing traditional boundaries
+transgressing traditional boundaries between mathematical disciplines
+between mathematical disciplines indeed after he published one of his
+a rumor circulated that he was not an individual but instead a pseudonym
+an individual but instead a pseudonym for a group of mathematicians
+the paper contained ideas from so many different areas that it could not have
+different areas that it could not have been written
+been written by a single man
+we are very much looking forward to hearing professor fitzenberg's
+hearing professor fitzenberg's presentation
+on the topics of random walks in non-euclidean space
+and about the firstenberg boundary i'm delighted to present arbel laureate
+i'm delighted to present arbel laureate
+hilal fishenberg
+thank you very much tell me this lecture was supposed to be given in oslo
+and i have to admit i'm much more comfortable giving it here and uh
+comfortable giving it here and uh um so the uh
+the title title of the lecture was about the boundary of groups notion of
+boundary of groups and something about the nature of a group at
+infinity um you start by saying the uh
+um you start by saying the uh where does the word boundary come from
+where does the word boundary come from it's not really it's not natural to talk
+it's not really it's not natural to talk about the boundary of
+of a group but the the term originates in the idea of the
+the term originates in the idea of the boundary and
+boundary theory of harmonic functions you have a harmonic function in a region
+you have a harmonic function in a region and then you want to see whether the
+harmonic function determines whether it's
+whether there are boundary values whether you have continuity to the
+the other direction given a function on the boundary you want to you
+the boundary you want to you a harmonic function uh
+that's in some sense has that that function as a boundary values
+function as a boundary values anyway this turns out the point of view
+going to try to bring out is that in in in certain classical situations um
+in certain classical situations um you really should think of the boundary
+that we think of of of the of a certain domain usually a
+as being the boundary of the domain rather rather what one is
+rather rather what one is one should think of it as being the the
+the um well that's sort of begins somewhere in the beginning
+so we talked first about harmonic functions and uh
+everyone knows the harmonic function and we'll be talking mainly about
+in fact you exclusively about functions on the plane to the extent
+functions on the plane to the extent that geometry will come in so
+that geometry will come in so we have um into f
+x squared plus d2 f d y squared equals zero this defines a
+squared equals zero this defines a harmonic function
+harmonic function delta f
+calculus to show that that such a function
+satisfies a mean value has a mean value property
+namely if we think if you have a function in the in the plane satisfying
+function in the in the plane satisfying this in some region
+this in some region then take any point and a circle around
+then the value of the function at the center let's say this point is p
+center let's say this point is p anyway f of p is the average
+anyway f of p is the average average of f on the circle
+um and actually we're going to take this property as a
+property as a as defining a harmonic function for us
+uh this is something which will go over much more easily to
+a very general group um than uh than a differential equation
+than uh than a differential equation which
+one can do for lead groups um but for our purposes it'll be more
+but for our purposes it'll be more convenient to use this to use this as a
+convenient to use this to use this as a definition characterization or
+definition of a harmonic function now we were particularly interested in
+now we were particularly interested in the theory of bounded harmonic functions
+function in a global domain well let me write globally
+there's you have a space and you look for bounded function
+for bounded function bounded harmonic function in the entire
+space of course a constant satisfies this and
+question is what else is there besides constants
+and there's a very simple proof of well you build theorem
+that which works in any dimension that a bounded harmonic function
+in this sense um has to be constant um and let me let me indicate the proof
+so i have this harmonic function h and i'm going to look at it
+i'm going to look at it at two points say p and q
+at two points say p and q which were a fixed distance of power i
+which were a fixed distance of power i mean the two fixed points
+and i claim that the function has to have the same value here as it has here
+so what i do that if if a function satisfies this condition about being the
+satisfies this condition about being the average
+average around the circle it also satisfies the same condition if you talk
+about a disc the whole disc around it because the disc is a
+so so i take a big disc around p and the same size disc around
+p and the same size disc around q so it'll be
+now the distance between these two is more or less is the dis
+more or less is the dis roughly the distance between p and q the
+point is that if this these discs are big enough then bulk of
+of the bulk of the area or volume if you're talking higher dimension
+of when you take this average is inside this part which is common to the two of
+and so the the average of over this this cannot be much different from the
+cannot be much different from the average over this disc
+and as they become bigger and bigger they have to be you have to be equal so
+that's a nice simple proof of the fact that liuville's
+theorem now notice that this what makes this
+work is the fact that the area of this region
+these regions is small compared to the area of the gets smaller and smaller
+area of the gets smaller and smaller compared to the area of the of the full
+as the disc gets larger and larger now this is a property of euclidean geometry
+this is a property of euclidean geometry this is not true
+this is not true in hyperbolic geometry
+and so we'll be looking at in a hyperbolic geometric set up
+hyperbolic geometric set up in which this argument doesn't work and
+in fact there will be bounded harmonic functions and
+so the of course you can guess what the example is it's the classic example of
+example is it's the classic example of a of a harmonic function in a
+a of a harmonic function in a theory of harmonic functions in the unit
+so you know i call this a poincare is known as a poincare
+disc call it that because this is poincare's example
+of a non-euclidean geometry where all conditions are satisfied except for the
+conditions are satisfied except for the parallel axiom the uh it's in the
+parallel axiom the uh it's in the poincare disc
+you have uh so this is why denoted the d set of z absolutely strictly less than
+set of z absolutely strictly less than one
+it's not compact it's a non-compact interior
+of the of the disc and then there's the bound this this is bounded let me write
+bound this this is bounded let me write boundary of d
+is circle s should be s1 set of z absolute c equal to one
+now the uh um what's fundamental here is the is
+defining a metric which is invariant under enough
+transformation so that you can do geometry on it and this
+geometry on it and this and the the group is is the merbius
+who call it really noted by g right now the merbius group
+is equal to alpha z plus beta alpha and beta complex numbers beta
+beta alpha and beta complex numbers beta bar
+z plus alpha bar where alpha and absolute value is
+we can in fact normalize it by assuming alpha squared minus beta squared
+is equal to one that means that this this alpha beta beta bar alpha bars it
+this alpha beta beta bar alpha bars it has determinant one and determinant one
+has determinant one and determinant one is very useful
+uh because it takes the inverse easily anyway it's a simple exercise to see
+anyway it's a simple exercise to see that this takes
+that this takes this takes the this circle into the
+circle and it takes zero into take zero to beta
+alpha because because of this condition that means that puts it inside the
+that means that puts it inside the unit disk this group acts transitively
+unit disk this group acts transitively on the
+on the disk uh as you can see well uh to show that something is transitive
+uh to show that something is transitive you take one point and show that from
+there you can get to any point to get from here this is zero to get
+from zero say to a point t somewhere in this
+that take the transformation g t say z equals z
+say z equals z plus t over one plus
+right zero goes into t and so you can get from zero to any point on this
+get from zero to any point on this radius
+now by taking alpha um by taking alpha and beta um
+what if if uh if i i can get a rotation by taking beta to be zero if beta is
+by taking beta to be zero if beta is equal to zero then i
+equal to zero then i have alpha over alpha bar
+times z which is just a rotation and you can make it any rotation so you
+and so you can get from the from zero anywhere and therefore you can get
+two points so it's transitive and now uh when you have a transitive
+action and you have a group it's you can always you can write the
+it's you can always you can write the space you can denote the space at least
+set theoretically as a homogeneous space now you can
+with a set of with a homogeneous with g divided by k where
+divided by k where k
+where k is is a stability group of some point we might as well take it to be
+point we might as well take it to be zero
+zero so let k be the group of rotations
+we'll be denoting elements in k by little k
+and group of rotations just the circle group and uh
+um should perhaps be putting a theta in but it will be convenient to use
+but it will be convenient to use k and actually i'll be using dk
+k and actually i'll be using dk the harm measure on on the group
+as a group of rotations then also s can be written as a because the
+also s can be written as a because the group is also transitive on s s can also
+group is also transitive on s s can also be written as a quotient and uh
+be written as a quotient and uh s is so after g divided by
+s is so after g divided by p where we take p
+you take the stability group of any point on the boundary let's take it
+to be the set of over alpha let's say alpha beta beta bar alpha bar
+let's say alpha beta beta bar alpha bar such that alpha plus beta is real
+then when you substitute c equal to one here
+you get a real number divided by itself and so it's you're taking
+and so it's you're taking one into one so this is a subgroup
+um there's another um there's another version of the poincare
+or the hyperbolic plane which is the upper half plane
+and you can in you map the there's a there's a
+mobius transformation taking this into this and taking the
+plus the point at infinity um and then it's a little more convenient
+and then it's a little more convenient than one sees that p the
+than one sees that p the subgroup that leaves a point fixed is
+is just a triangular group here here these transformations become
+these transformations become um a z plus
+and and if you want to fix a point zero then you want simply b to be zero and
+then you're dealing with lower triangular matrices
+which is a solvable group and that point is is significant that the that here
+is is significant that the that here that s comes from dividing g by a
+later we'll call it an amenable group which will have certain significance
+okay let's say just to make things to complete this description
+to complete this description um i didn't say what the metric is what
+an invariant metric and uh
+before i say what the metric is i'll see what the lines are what the straight
+lines are in this in this geometry or the geodesics and
+there are arcs of circles which are orthogonal to the given circle
+orthogonal to the given circle if one of these is the other will also
+at any rate these are the geodesics one of the geodesic is not actually a circle
+of the geodesic is not actually a circle well
+eye of the origin are straight lines which in this theory are
+straight lines which in this theory are considered circles
+considered circles and and you can check that every line
+online so often if you want to prove something it's convenient to use this
+something it's convenient to use this line
+line and uh um
+various things you can show this way at any rate um
+so these are the lines it turns out the angles here actually behave just like
+angles here actually behave just like just like angles in in euclidean
+these but this group preserves take circles into circles it takes angles it
+circles into circles it takes angles it preserves angles
+so it takes geodesics to geodesics i have to give you
+have to give you define the metric and uh the metric is
+the one way of defining the metric is is the following
+given any two points you can find a a geodesic that goes
+in fact a unique geodesic every two point should have a unique line
+point should have a unique line connecting them so we call this x y and
+v so the uh the distance between them the
+the distance between them the non-euclidean distance is the logarithm
+cross ratio point is that cross ratios are preserved under
+are preserved under fractional linear transformation to make
+i take u my the distance between u and y times the distance between x and v
+times the distance between x and v and divide that by the distance between
+and this will be the way i've drawn it this will be bigger than one
+this will be bigger than one and to take the logarithm of this
+and this will be invariant under under uh
+the merbius transformations now what you notice is that if i if i
+now what you notice is that if i if i think of this
+this sort of definition then if i take a little i can take two points very close
+little i can take two points very close to each other here
+and you'll have exactly this almost exactly the same picture
+exactly the same picture because you're taking ratios here so in
+look close but they're near the boundary could be the same as distance between
+could be the same as distance between points closer to the center
+points closer to the center and so a circle if you define a circle
+by being the points of a fixed radius the same circle will
+like this over here and like this over here and so on
+we claim that the uh that there are um harmonic functions non-trivial
+harmonic functions in this in this kind of a setup and the uh
+in this kind of a setup and the uh um the argument is first simply that the
+um the argument is first simply that the classical harmonic functions are
+classical harmonic functions are harmonic
+in the sense of this metric that they satisfy the uh
+satisfy the uh they satisfy the condition on on mean
+if you take an ordinary harmonic function h of z
+function h of z so you know that h of
+h of 0 is equal to the value at the center at least you know you know
+at the center at least you know you know that it's equal to the
+that it's equal to the there's an ordinary harmonic function um
+there's an ordinary harmonic function um so this is equal to say the integral
+i'll write as h of k um some arbitrary point
+um and now the point about u using uh classical harmonic functions is that
+uh classical harmonic functions is that they're invariant under the group
+they're invariant under the group if i think of if i define harmonic
+if i think of if i define harmonic functions as the real part of an
+analytic function then if i can compose it with some with
+analyt some other analytic function then this is again a harmonic function
+so the uh so i can apply this to h of g of zero this is equal to the integral
+g of zero this is equal to the integral of
+of h um
+h composed with g g k z zero d k
+and um this since k z k z zero goes is a circle of a certain
+z k z zero goes is a circle of a certain certain radius around the point zero so
+certain radius around the point zero so so this is a is a certain circle around
+the point g z zero
+and um or around the point i'm sorry about around the point this will be
+a circle around the point g of zero and so this show this gives you the uh
+and so this show this gives you the uh the same radius this gives you the
+the mean value property for ordinary harmonic functions in the uh
+harmonic functions in the uh uh in the disk
+it's convenient to look at the uh look at the lifted function in fact that's
+at the lifted function in fact that's perhaps the main message of the whole of
+perhaps the main message of the whole of the whole lecture
+is that instead of looking at the function in g mod k
+function in g mod k you can always lift a function from g
+in this case we can do it explicitly the given h
+we can define suppose h is harmonic then we define h tilde of g
+simply to be h of g of zero since k if i multiply g by k it doesn't
+since k if i multiply g by k it doesn't change the zero
+so this is a function of g k and this is a function over here and i'm lifting it
+to the group in a natural way now if we write this
+condition um now in terms of h tilde what we get is
+is this this condition h tilde of g is equal to the integral of h tilde
+g is equal to the integral of h tilde uh again i'm going to write i'm going to
+uh again i'm going to write i'm going to put this point zero
+put this point zero i'm simply going to write a sum some
+some group element acting on zero so i can write this as g k and some g
+so i can write this as g k and some g prime of zero which can be any any z
+prime of zero which can be any any z zero that's true for any
+zero that's true for any z naught and i'm sorry
+z naught and i'm sorry this is since i i put a
+this is since i i put a i put a g of g prime of zero now i take
+i can simply since i'm writing this for h tilde this is simply this
+h tilde this is simply this expression
+so h tilde satisfies a mean value property
+but on the group itself rather than rather than looking at the space and
+rather than looking at the space and this is something that one can
+this is something that one can generalize
+we can look at other mean values setups on a on a group not necessarily of this
+on a on a group not necessarily of this form we might call this a k
+on g as opposed to other there are other possibilities and it depends very much
+possibilities and it depends very much on the choice of k we could choose any
+the rotations around 0 we could take the non-euclidean rotations about any point
+non-euclidean rotations about any point and then talk about that kind of a
+harmonic function or in a more general setup we can talk
+setup we can talk take some compact subgroup of a group
+k harmonic function with this kind of this kind of
+definition characterized by this by this equation
+well before before i go ahead i want to make a point going back to
+make a point going back to non-euclidean geometry um
+non-euclidean geometry um the uh the difference between the
+and the geometry of s indeed how the group is acting on d the group
+how the group is acting on d the group acts as isometries it preserves
+acts as isometries it preserves everything that you can preserve volume
+everything that you can preserve volume whatever
+anything you think of it it preserves on the other hand on
+s not only does the uh does the group not preserve the the only
+does the group not preserve the the only rotations preserve the
+natural measure on the circle but anything else uh will distort them
+but anything else uh will distort them it will distort the measure
+in fact the will be used looking at uh first of all let's denote by lambda
+uh first of all let's denote by lambda that
+natural measure on the circle let's call it le bake measure or
+it le bake measure or or length measure
+or length measure on s on the circle we let the group act
+on that and what happens
+what happens when the group acts on that well suppose suppose the group element
+well suppose suppose the group element takes
+group element takes zero into some point near the boundary
+now because of our our condition about because geodesics are preserved so
+because geodesics are preserved so zero the geodesic through zero will go
+zero the geodesic through zero will go through a geodesic through this point
+looks much smaller but that transformation
+that takes this point to this point must take this whole must take this this part
+take this whole must take this this part um
+let's take all of this i mean um i'm sorry it must take um this
+into um we'll take this into all of this and the other and it'll take
+this part into or i'm sorry it'll take this this arc this
+semi circle into this tiny into this tiny
+circle but that means what can i say about if this is a
+map g what can i say about g lambda what is g doing to the uh to the big
+what is g doing to the uh to the big measure it's taking a lot of
+taking a lot of the measure pushing into a little into a little piece
+a little into a little piece and so it doesn't preserve the measure
+a notion which will be which we'll be talking about later
+talking about later is a notion of strong proximality
+our purposes you can forget about the strong
+proximality a group acts strongly proximal on a
+if it takes as much of the space as you want into an arbitrarily small
+want into an arbitrarily small open set that there's some group element
+almost the whole space into an arbitrarily small set
+and that's what's happening here you can see see what this kind of argument that
+see see what this kind of argument that instead of taking this i could have
+taken the complement of this takes as much as i want into this
+much as i want into this into this now what do i mean by almost
+all the space it means if i take any given any any
+any probability measure any mass distribution
+measure let's call it uh let's uh let's call it theta
+um and i take an arbitrarily small open set
+set and you any open set
+there exists a g such that the points of the space that don't go into you um
+of the space that don't go into you um are very small in other words the the
+are very small in other words the the inverse image
+inverse image g inverse of u this measure theta
+g inverse of u this measure theta of is as big as i like an arbitrary
+so you can see that that the uh circle has that property the way the group acts
+has that property the way the group acts on the on the circle
+we'll see the significance of this in terms of the boundary theory of harmonic
+terms of the boundary theory of harmonic functions but again before we do that
+functions but again before we do that let me just make this
+let me just make this notice something that the
+notice something that the i look at these measures g g lambda
+um so when i look at the set of all measures g lambda this will be a subset
+measures g lambda this will be a subset of the space of probability measures on
+of the space of probability measures on the circle
+um i look at all the measures that i can get
+i claim that there's actually first of all note that this is this is a
+all note that this is this is a homogeneous space i can get from one to
+but the things that leave lambda fixed it's again k
+so this is again isomorphic the space is isomorphic to gmod k
+which is our d our domain our uh monterey disc so the poincare disc
+uh monterey disc so the poincare disc can be identified well that doesn't
+can be identified well that doesn't prove it i mean you have to
+prove it i mean you have to do somewhat more work it can be
+do somewhat more work it can be identified as a
+actually topologically and set theoretically with a set of measures of
+g lambda that correspondence can be made quite explicit namely if i take
+if i take the integral of uh zeta i look at the function zeta on the
+zeta i look at the function zeta on the on the circle this is over
+on the circle this is over over s and i'm i um
+over s and i'm i um and i integrate it with with respect to
+uh d lambda i'm sorry d g lambda i take the g lambda of zeta
+so i take this squeezed measure g lambda and i average the zetas simply the
+points eight on the circle as a as a vector you might say this turns out
+to be g of zero you can check that and so g of zero the
+are essentially g over k and so these these measures
+these measures also have that can be identified with
+that um now the um
+this observation enables you to find a uh or dealing with these with these
+a uh or dealing with these with these measures g
+g lambda enables to define harmonic functions on
+uh if you find lots of harmonic functions namely
+a given now given any let's make it a continuous function
+any little fee belong to c of s and form the function f
+of g being the integral well of little fee well i can write g s
+well of little fee well i can write g s g
+um fiji um
+which is the same thing as writing phi of of zeta or eta with respect to the
+of of zeta or eta with respect to the measure
+measure g lambda just change of variables
+but um i claim that this function let's write it as capital phi
+um actually this function satisfies the
+star the integral equation that characterizes
+characterizes uh harmonic functions well you just
+and you see what happens when you substitute a g k
+substitute a g k inside here and you integrate with
+what's happening is that let's just go this data just
+runs around the circle so the uh already by you uh it turns out that by
+already by you uh it turns out that by putting in the k if you look at the
+putting in the k if you look at the expression star if you look at the k g
+and substitute that and integrate over k you just get something which is
+you just get something which is independent of the z
+and it checks in other words you just get the original function
+so it satisfies star and elementary to to check it
+so the um so this is a this now how do i know that this is giving me
+something non-trivial maybe this is always it is always constant
+well the point is here's where the here's where the strong proximality
+comes in the uh
+i have this function now that's defined um
+in some sense it's defined what i've done really in a certain sense is to
+a function on the set of on the set of g lambdas simply by
+lambdas simply by integrating the measure uh with some
+if i think of this as being the as being the domain that all the all the
+as being the domain that all the all the g lambdas being the domain not
+giving me a function on the on the domain it's just another way of looking
+domain it's just another way of looking at it
+but the point is that these g lambdas because the uh
+um if i assume that fee is continuous the g lambdas can as as we saw often
+the g lambdas can as as we saw often because of the
+strong proximality we can find g lambda g lambda approaching the dirac
+g lambda approaching the dirac measure at any point delta z
+so this is a pro if i take these g's a pr that type
+moving me more and more toward this point here on here on here i have this
+point here on here on here i have this function phi
+phi of zeta and as i move more and more this is converging to the delta
+this is converging to the delta delta z which means i simply evaluate
+this gives me phi of z and since if i take feet to be
+and since if i take feet to be non-constant
+then the the harmonic function will be non-constant
+one thing we see is that if you want to use this kind of a formula
+then it's good to have a space which is strongly proximal with a group back
+strongly proximal with a group back strongly approximately then
+then different functions will give you different different boundary functions
+harmonic functions at any rate this is this shows you in one direction
+this shows you in one direction sort of the easy direction of going from
+a boundary function to a harmonic function in the interior
+it's a little more difficult to go in the other direction
+and i guess i don't have time to show to show how you do that what's um
+show how you do that what's um let me just say that in going the other
+direction usually one uses now there's given a harmonic function in
+i want to get the boundary function i'm sure it's a bounded harmonic function
+sure it's a bounded harmonic function everyone has about two is the euro
+everyone has about two is the euro it tells you that in almost every radius
+it tells you that in almost every radius the harmonic function converges to
+the harmonic function converges to something here
+and that something gives you will be the boundary function
+so you need analysis for this not knowing analysis you can use algebra
+knowing analysis you can use algebra namely the uh well i
+can't write down the details but the significant point is
+significant point is that you have a bunch of subscribers
+and and on the group and shifting it in the right direction with all its shifts
+the right direction with all its shifts and taking common convex combinations
+the fact that this equation star tells you that you always have you can always
+you that you always have you can always get back to the original function
+get back to the original function somehow involving k by some sort of
+somehow involving k by some sort of integration over k
+integration over k with k well it turns out that in that
+is a function that is invariant under this multiplication as a function
+p equals f of g because of the fact that p that the root
+because of the fact that p that the root p
+is a meter board so it's going to be such an invariant function
+such an invariant function but that means that the function really
+mod p which might be is the boundary to automatically get the boundary
+to automatically get the boundary function just by using this
+function just by using this this fixed point property that is rather
+year of k armatic functions which can elaborate you can
+used for somewhat more general uh situations than the classical unit
+uh situations than the classical unit disc
+disc but now since we're
+generalize and we see that the issue is integrally valued properly we can
+integrally valued properly we can generalize very generally we've done
+and we suppose we have a uh measure probability measure mu on under group g
+probability measure mu on under group g this could be probably say three points
+this could be probably say three points and a grouping
+and a grouping [Music]
+whatever it is it could be also taking the subgroup
+here using the hard measure or shifting itself to somewhere else and using heart
+itself to somewhere else and using heart measure there
+measure there then the what we call new harmonic
+is equal to the mean value f of g g prime shifted by g prime of g prime
+g prime shifted by g prime of g prime that is distributed according to the
+that is distributed according to the measure of u
+this is the mean value probably we generalize is start
+and um so it turns out what shows that uh every every now one
+uh every every now one what are examples how do i get examples
+of such functions well here i need a notion of a stationary action
+we move on a space but then with their measure
+um even the naturally have a space say x and i have a measure on its
+say x and i have a measure on its measure nu if the measure is invariant
+measure nu if the measure is invariant then
+then my g nu which push nu by g would equal nu so that's an invariant
+would equal nu so that's an invariant measure now stationary measure is one
+measure now stationary measure is one which satisfies this in the average
+which satisfies this in the average knows the average if i
+sort of integrate g new but overall the g over a certain set of
+weighted according to this mu if this is equal to nu
+then i say that i have a stationary stationary action
+and this can be written this condition can be written as a
+the double integral of any given any function on the space or a nice function
+f of g x d mu of g d nu of x to this double integral is the
+same as single integral f of y d new y
+single integral f of y d new y that's what this condition the
+that's what this condition the stationary condition says
+stationary condition says well i'm running out of time so let me
+just uh point out one of the main points in this in this
+is that suppose i have first of all one first of all take any
+compact space on which the group acts then the group acts on on the measures
+then the group acts on on the measures on that space
+that becomes a compact compact set and the um so then
+and the um so then this kind of equation is a kind of
+equation which always has a another this transformation or our
+another this transformation or our um uh any any rate we're saying this is
+i mean i'm sorry this this is written i didn't write it out the
+didn't write it out the way it's usually written is mu star me
+is equal to nu the operation mu star is an affine transformation on a convex
+is an affine transformation on a convex set of
+whatever it has a fixed point and therefore therefore they always
+and therefore therefore they always exist measures of that satisfying this
+again i'll leave it to you to verify that now if i have a stationary action
+that now if i have a stationary action and i take an arbitrary well a
+and i take an arbitrary well a reasonable function measurable or
+reasonable function measurable or continuous function on that space so
+let's say that g mu g with a measure mu acts
+g with a measure mu acts has has a stationary action
+m new g acts on m and will be compact and new status and
+and will be compact and new status and this satisfies mu star nu equals nu
+this satisfies mu star nu equals nu given any m then you will have such a
+now take the take any again like we did before take
+v on m say continuous function and look at the integral uh write down f
+and look at the integral uh write down f of g equal to the integral of
+of g equal to the integral of this phi of g c
+plug this into the condition for for mu being our mu harmonic you see that
+mu being our mu harmonic you see that because of this
+because of this of this equation that i wrote down
+because of this equation that this shows that this is always
+that this is always a this is a mu harmonic function
+a this is a mu harmonic function again the same argument if the space
+again the same argument if the space happens to be also
+happens to be also strongly proximal has that squeezing
+then any non-constant function any non-constant function fee will give you
+a non-trivial mu harmonic function
+so first one proves that for any that in fact any
+any new harmonic function there's going to be some some stationary action
+to be some some stationary action for which which the function can be
+call this this basically this is a poisson representation of the functions
+poisson representation of the functions um and the uh you can see the poisson
+kernel appears in this discussion hidden somewhere anyway
+but in fact it turns out there's a single space you can put together the
+single space you can put together the different spaces a single space
+called the poisson boundary there exists pi mu
+and a measure i'll call it simply nu on this space this is a g space g acts
+on this space this is a g space g acts on this
+there exists a boundary function there's just some fee
+on prime mu with um so that f of g is equal to integral of
+so that f of g is equal to integral of phi g
+c d nu c so this uh you have this notion of the
+so this uh you have this notion of the poisson boundary
+for depending on the measure in principle it could be entirely different
+principle it could be entirely different for different measures
+for different measures on uh on the group
+um that's something something interesting happens here
+interesting happens here what we've seen um
+is that i mean there's an abstract argument
+showing you that this poisson space plus on boundary exists
+so some general argument however um what is it what is the space
+so now let's turn to groups um more familiar groups like let's say a
+more familiar groups like let's say a matrix group or more generally a
+matrix group or more generally a semi-simple lead group
+lee was a norwegian mathematician how to bring that in um
+in fact i think it's because of lee that the uh apple prize was uh
+the uh apple prize was uh set up uh
+anyway we we spoke about we spoke about strongly proximal actions
+we spoke about strongly proximal actions that you can squeeze the space into any
+small part of it given a given a a semi-simple lead group it will have
+a semi-simple lead group it will have the form
+there will be an auth like the orthogonal group
+there'll be some compact group and some and some aminable subgroup p such that
+and some aminable subgroup p such that you have this decomposition
+you have this decomposition and it'll it turns out that chi mod p
+and in fact it's the it's universal strongly proximal every
+strongly proximal every every strongly proximal action is a is a
+whenever you have on some space m a strongly proximal action this is
+this is uh it comes from here that means every function on a strongly proximal
+every function on a strongly proximal space
+is also can be seen as a function on g mod p
+and now if we use on gmod p being compact
+there will be there'll always be some stationary measure
+this stationary measure will give rise to to harmonic functions but
+to to harmonic functions but why should this why should this work
+well in fact it does work for for measure for smooth measures if
+for for measure for smooth measures if mu is smooth which i won't define
+this has a rather nicodem derivative which is uh which continuous say
+which is uh which continuous say or it doesn't have to be continuous but
+the sub that the identity belongs the identity belongs to the support of mu
+then prime u the universal foisan the poisson space for this turns
+out to be exactly this g mod p
+so you have a wide for many uh it's sort of mysterious that that you
+it's sort of mysterious that that you can change the measure quite a bit and
+the same space of course the measure on the space will be will be different
+the space will be will be different and uh um
+but now what where one of the places where this theory comes in
+is in the theory of of of lattices in uh in a league group because
+in uh in a league group because given a well given any given any group
+you can talk put a measure on especially a countable group
+there are lots of measures that you can put on on gamma and then ask for the
+put on on gamma and then ask for the poisson boundary
+for that for that measure it'll exist there's nothing special about
+there's nothing special about semi-simple groups here except that we
+know what the boundary is well what happens under if gamma well
+easy to show if gamma is a co-compact subgroup
+subgroup of a uh of a uh semi-simple lead group
+um then there exists a uh there exists a measure on the gamma
+they're just some mu on gamma so that the that the
+gamma so that the that the pi mu pi mu is also
+the boundary of g the g mod p and the measure will be say a rotation
+and the measure will be say a rotation variant measure
+it but you can find such a a measure sort of a hint into how to do
+a measure sort of a hint into how to do that
+would be uh you might consider the situation where one group
+situation where one group is a subgroup of finite index of another
+the uh um you know what i um what i failed to say and i uh this was
+what i failed to say and i uh this was an important
+an important comment where do mu harmonic functions
+why would one consider a mu harmonic function so this is this is where
+function so this is this is where this is where one can bring in ran the
+idea of a random walk on a group given a measure mu you can define a
+given a measure mu you can define a random walk on the group
+random walk on the group that whenever you're at an element g you
+gg prime you multiply it on the right by by g prime where g
+prime has is distributed according to mu and you do this and you keep going that
+and you do this and you keep going that gives you a that gives you a random walk
+gives you a that gives you a random walk so w n can be written as x um
+xn where these are just these are all g-valued random variables distributed
+g-valued random variables distributed like mu
+so the uh now i ask about i have this random walk in the group
+random walk in the group and i have some some property that i can
+say eventually holds that may eventually hold on or may not
+for example if if if i do have a boundary notion for this
+there is some sort of a boundary i can ask does this random walk eventually get
+ask does this random walk eventually get closer and closer to here
+in general you can prove that very generally random walks go out to
+generally random walks go out to infinity they don't stay inside a
+infinity they don't stay inside a compact set they go out to infinity but
+where can they hit well you can ask do they hit here what's the probability
+they hit here what's the probability that it hits here
+that it hits here starting from a point from a given point
+well because of this because to get from g
+as you go ahead first you make one step then the then the that the probability
+then the then the that the probability of getting to
+here is the probability if you look where you go to in one step
+where you go to in one step and then from each wherever you are you
+and then from each wherever you are you you ask can you get
+there which means if you look at it that implies that this probability function
+implies that this probability function is a
+function is a mu harmonic function so the theory of new harmonic functions is
+going to tell you about about uh random paths in a in a group
+let me just say that there are two two applications of the
+applications of the of this theory and and they're more in
+c-star algebras which i don't really know anything about so i won't
+know anything about so i won't tell you what they are um but at any
+rate the uh as far as as uh
+as far as the theory of discrete groups you can sometimes
+you can sometimes one one can show although there are much
+nowadays of showing this that a lattice gamma cannot be simultaneously a lattice
+gamma cannot be simultaneously a lattice in
+sl2 and sl3 why because you can put a measure on
+why because you can put a measure on gamma which
+will be the same as the boundary of sl3 and then it cannot be
+and then it cannot be related to the boundary of sl2
+of course uh you will say why not use the fact that this has a charged on
+the fact that this has a charged on property and this doesn't have the cash
+property and this doesn't have the cash down property but that's uh
+down property but that's uh but i didn't know about kashdon property
+at any rate the same argument will will work with as a similar argument will
+work with sl3 and sl4 also the boundaries are different and uh
+so so this can be used for rigidity properties of
+of lattices um another another uh uh
+result that follows from this theory has to do with the random walks
+to do with the random walks and random walks as we saw have to do
+with um um with uh products of um
+an eraser well if you just yes don't need any racer um studying random
+don't need any racer um studying random walks
+in a group is the same as studying random products x1
+x2 xn where the x's are identically distributed random variables
+distributed random variables in the group and you want to know what
+can you say about this such a product actually the law of large
+based some variant of the law of large numbers or the ergotic theorem
+numbers or the ergotic theorem tells you something about the rate of
+growth that the norm of this grows basically exponentially so the log
+grows basically exponentially so the log of the logarithm of this divided by
+divided by n will converge to something converge to some alpha and that gives
+converge to some alpha and that gives the rate of growth of these
+the rate of growth of these matrices but there's something else
+there's a kind of a qualitative limit law or law of large numbers which
+limit law or law of large numbers which which holds
+which comes about from the uh from the theory that we've been discussing
+theory that we've been discussing namely i can illustrate this by say by
+two by two matrices um it's more interesting for higher
+if i take two by two matrices um and write them out as a
+write them out as a n b n c n d n
+n b n c n d n and multiply them out let's let's write
+equal to capital a n b n c n b n
+b n c n b n so what happens with probability one
+the interesting case is when these have determinant one you might as well assume
+determinant one you might as well assume the determinant is one
+because the determinants multiply ordinarily if you use the usual law of
+ordinarily if you use the usual law of large numbers
+large numbers but the uh if they have determinant one
+and they're growing that means that these these columns must
+these these columns must must be coming closer together because
+is is fixed um but what can i uh what's interesting is
+but what can i uh what's interesting is that when i compare
+that when i compare if i compare if i want to look at the
+there's more or less the same direction the vector a n
+c n has the same more or less the same direction as the vector b and d n
+direction as the vector b and d n but this direction which will be given
+but this direction which will be given say by c n over a n
+say by c n over a n converges unless the a n gets smaller
+typically this will converge and that's a result of the fact that the
+a result of the fact that the um and if i look at this in the if i
+this the two by two matrices as merbius transformations
+and i ask i'm i'm looking at something that basically the following thing
+that basically the following thing i'm taking i'm moving the the point zero
+at a certain certain distance or come uh distribution of distances
+come uh distribution of distances randomly and then i move this point to
+another point and so on the uh the fact that the uh
+there is some other theorem which enters somebody knows about it's martingale
+somebody knows about it's martingale theorem
+which which which tells me that in fact this has to go to the boundary
+this will converge to the boundary and that fact that this converge that your
+that fact that this converge that your convergence to the boundary
+leads you to the uh can be interpreted as this fact that you also have
+as this fact that you also have have this kind of convergence which
+have this kind of convergence which which is not quantitative that's all
+which is not quantitative that's all about large numbers but
+about what what can you say about products large products of the same kind
+products large products of the same kind of matrices
+of matrices okay that's i think i made my point
+thank you very much professor friesenberg i have a couple of questions
+from the the chat here the first one is a rather general
+what was your first thought when you first learned that you got the hubble
+did anything change because of this in the last year
+well my first reaction of course like i guess for many people
+guess for many people is just amazement just uh
+i couldn't believe it i mean i knew about the album prize and i knew when it
+was going to be announced and even though my wife actually
+and even though my wife actually believed that sure
+believed that sure surely i deserve it i was thinking
+quite absurd i'm in a different league from the people who've been getting it
+from the people who've been getting it and of course i guess the main change
+in my life has been having many interviews and uh
+interviews and uh um but i think also people perhaps
+there's more interest in some of my past papers and
+this has been this is a very good thing for me i'm happy about it
+for me i'm happy about it um of course there's money attached to
+um of course there's money attached to the prize and
+the prize and there's no need to say that that that
+can happen that can influence your life and um
+i'm very happy about it so the the next question here is a bit more
+the the next question here is a bit more mathematical uh
+the question is could you imagine that the theory of the fishenberg boundary
+the theory of the fishenberg boundary could have been developed already
+could have been developed already at the time of puerto rico i guess it
+is there something about is there some tools that were not available to to
+to porn career that that is the important ingredient in this theory
+well one of the aspects is the development of lead group theory
+development of lead group theory and uh um another another aspect is the
+of an amenable group which which was became of interest not that long ago
+became of interest not that long ago and um and just the interest the idea of
+croissant representation which people think in the 50s middle of the last
+think in the 50s middle of the last century people were looking for
+century people were looking for generalizing the theory of harmonic
+generalizing the theory of harmonic functions
+of the disk to harmonic functions on on symmetric spaces
+and the whole idea of symmetric spaces is something that
+is something that came up with carton and so that was
+the time of poincare hey and uh and actually they didn't
+succeed that well finding proving tattoos theorem for these generalized
+tattoos theorem for these generalized harmonic functions and
+one of the reasons is that they didn't have the right notion to boundary
+one one final question again a more general
+nature do you have any advice to young students who want to get into
+students who want to get into mathematical research
+which has worked i think for many people is just looking at problems looking at
+is just looking at problems looking at mathematical problems partly problems
+mathematical problems partly problems that have been solved healthy problems
+and no matter what almost any kind of mathematical issue that you're that
+mathematical issue that you're that you're involved with will involve
+solving some smaller problem and and the fact that that that you like the
+is a good thing and promise is a promise of of success
+and the other the other almost obvious uh piece of advice is uh follow
+obvious uh piece of advice is uh follow what you're interested in even if you
+what you're interested in even if you don't know everything about what you're
+don't know everything about what you're interested in
+you'll the fact that you're interested in solving certain problems and dealing
+in solving certain problems and dealing with certain things
+will will motivate you to uh um to get the right background the
+to get the right background the background that you need this is a good
+way of learning mathematics by being motivated by your into your
+that's about it yeah thank you very much uh i think we have to go on to the to
+uh i think we have to go on to the to the next talk but thanks a lot uh
+the next talk but thanks a lot uh for your interesting talk hillel
+for your interesting talk hillel firstenberg
+and then we go on to our second speaker gregory margulis from yale university
+gregory margulis from yale university born in moscow in 1946
+born in moscow in 1946 he was drawn to mathematics at an early
+and received his phd in 1970 from the moscow state university working
+moscow state university working in ergodic theory under the supervision
+of yakov sinai who who got the nobel prize in
+mike gulis's works cover wide areas of mathematics from differential geometry
+mathematics from differential geometry ergodic theory dynamical systems and
+subgroups of league groups to combinatorics and graph theory
+combinatorics and graph theory he has solved a wide range of important
+by bringing together ideas from very different areas of mathematics
+the oppenheim conjecture in number theory from 1929 was proven by
+theory from 1929 was proven by margulis six years later using ideas
+margulis six years later using ideas from dynamical systems
+and argodic theory working in the moscow institute of for problems in
+institute of for problems in information transmission margulis was
+information transmission margulis was introduced to the topic of expander
+graphs that are graphs which are both sparse and also highly
+with his knowledge of group representation theory and topology he
+representation theory and topology he found
+the first explicit constructions of such graphs
+a topic with profound and far-reaching applications in many areas of computer
+applications in many areas of computer science
+perhaps his most spectacular research were on the structure of discrete
+were on the structure of discrete co-compact subgroups of lead grips or
+co-compact subgroups of lead grips or lattices
+using methods from ergodic theory random walks and the first
+boundary this work was awarded the fields medal in helsinki in
+1978. but margulis was not allowed to leave the soviet union to receive
+leave the soviet union to receive this honor jacques titz
+this honor jacques titz who received the hubble prize in in 2008
+it is not exaggerated to say that on several occasions
+he has bewildered the experts by solving questions which appeared to be
+questions which appeared to be completely out of reach
+at the time the other lecture of gregory margulis titled arithmeticity of
+gregory margulis titled arithmeticity of discrete subgroups
+and related topics we'll be exposing the basic ideas behind
+his structure theorems of lattices in semi-simple league groups
+please welcome the arb laureates 2020 gregory margulis and again i encourage
+gregory margulis and again i encourage people to write questions in the chat
+people to write questions in the chat during the talk please
+okay the title of my talk repetitions of discrete subgroups
+and related topics because the main emphasis will be an arithmetic
+emphasis will be an arithmetic conjecture
+segregated shapiro so it's formulated completely in terms of
+arithmetic and algebraic terms but eventually properly conjecture in many
+eventually properly conjecture in many cases
+involves methods from ergodic theory in probability
+ergodic theory in probability the subjects which are very far away
+arithmetics in algebra so let me start first with discussion
+so let me start first with discussion about this critical compact subgroup
+about this critical compact subgroup surface
+means that so that the quotient by this group is compact so it's one considered
+group is compact so it's one considered the quotient of a cell to r by the group
+subgroup of scheduler matrices is denoted that pseudo-r of this
+denoted that pseudo-r of this group psl to r is
+group psl to r is okay let's call it g
+okay let's call it g so it's canonically isomorphic of the
+so it's canonically isomorphic of the group of orientation preserving
+group of orientation preserving symmetries of the hyperbolic
+groups of analytic automorphisms of the unit disks of in the complex plane and
+unit disks of in the complex plane and there's this picture
+so it's there's this union disc and they're thailand by polygons
+they're thailand by polygons and you can obtain this compact discrete
+using this styling so it's it moves one time to another and there is a lot
+one time to another and there is a lot of flexibility in
+choice of angles in this polygon and so one can see that you get a
+so one can see that you get a multi-dimensional feminist of
+multi-dimensional feminist of this create co-compact some groups and
+each to elements different elements in this family are not conjugated
+in this family are not conjugated so it's yeah there's also explanation
+so it's yeah there's also explanation this month
+phenomenon that it's multi-dimensional it's powers from the
+it's powers from the uniformization theory but the point
+which i want to make here that somehow this
+i want to make here that somehow this phenomenon that it's has
+phenomenon that it's has non-zero dimension this family
+more or less implies quite easily that typically if you have co-compact
+typically if you have co-compact discrete subgroup of a certoir then it's
+it's for you know it is not a conjugate of the
+subgroup of consistent of matrices algebraic coefficients so it's
+algebraic coefficients so it's other way so whatever basis you take
+there will not be matrix coefficients of the sediments will not be algebraic
+now this sec sub-section is vocal rigidity and the situation
+vocal rigidity and the situation dramatically changes if
+we replace hyperbolic plane by high dimensional symmetric spaces and
+high dimensional symmetric spaces and selbeck wrote in his 1960 paper
+selbeck wrote in his 1960 paper on the screen groups
+of in high dimensional symmetric spaces for the high dimensional symmetric
+spaces no uniformization theorem is available and if
+we exclude saturn product spaces euclidean spaces or
+hyperbolic planes as factors
+the only discontinuous groups known that have compact
+that have compact fundamental domain
+fundamental domain or at least finite volume fundamental
+are the groups that have arithmetic definition
+have arithmetic definition all that are equivalent to the
+to those on the inner automorphisms of the continuous
+of the continuous group of isometries
+then several continuous one is therefore lead to
+suspect that if one excludes certain product spaces
+it might be true that there are no families of discontinuous
+there are no families of discontinuous groups with
+fundamental domains which is compact or finite volume and
+which depends continuously on a continuous parameter
+so in this quotation selbeck uses the language of symmetric spaces and
+language of symmetric spaces and there's a essentially only symmetric
+of non-positive curvature and not flat so and there's a well-known
+not flat so and there's a well-known correspondence between
+correspondence between such symmetric spaces and
+semi-simple league groups connected without compact factors and
+and actually he said considers discrete subgroups in
+considers discrete subgroups in these semi-simply groups and in
+particular in the group of and by in
+matrices rheo matrices with determinant one
+n is at least three so it's in the first two slides uh
+we discuss when n is two and it turns out that when you go when and
+it turns out that when you go when and it becomes
+greater than two the situation again dramatically changes
+and here so selberg observes that he will proves that for
+he will proves that for the discrete compact subgroups in
+the discrete compact subgroups in slnr when n is greater than two there's
+a phenomenon which is now called vocal rigidity
+which is now called vocal rigidity so take this
+league group g on for example this selenar and take a
+selenar and take a comment and take this counter sub group
+this group g now this sub gamma is called locally rigid if you
+sub gamma is called locally rigid if you take any continuous family
+take any continuous family ft of homomorphisms
+of gamma into this group g such that this family starts with the
+such that this family starts with the trivial embedding then
+the only way you can do that is by choosing some continuous curve
+by choosing some continuous curve g of t and g such that f g of gamma is j
+gamma ray t index and celebr proves in
+and celebr proves in the paper which
+was mentioned that for the case g is a selenar and is greater than two
+any discrete compact sub group in this group j is locally rigid
+in this group j is locally rigid now selberg uses
+now selberg uses this work of agility
+there exists some element c in g such that
+if you conjugate gamma by g if it consider the group g gamma t inverse
+it consider the group g gamma t inverse there is then they become matrices
+there is then they become matrices with algebraic coefficients
+actually he considers this as the main result of the paper
+main result of the paper so also just they should notice at the
+end of the paper selbrook conjectures that
+the eigenvalues of all elements in gamma are units in some algebraic
+gamma are units in some algebraic number fields and he writes this
+number fields and he writes this seems also very difficult
+now it's just about the proof of work originated by cell websites so how
+work originated by cell websites so how the
+important feature that he considers behavior under this
+behavior under this family ft of
+all elements in gamma actually elements which in some sense
+verify away or is it quotation mark close to infinity and
+muscle told me on several occasions that this feature in silver propulsion was
+this feature in silver propulsion was one of the
+one of the initial inspirations for
+initial inspirations for most proof for most asymptomatic method
+strong rigidity and now it's so this result of
+about vocal agility was for selenar was generalized by
+andre bailey shortly after service proof and he used completely
+different method differential dramatic method and he
+vocal agility just more or less gave necessaries
+more or less gave necessaries sufficient condition when you have this
+sufficient condition when you have this vocal rigidity
+vocal rigidity more or less excluding in some sense
+psl2r yeah so then the next topic is arithmetic lattices and the arithmetic
+arithmetic lattices and the arithmetic conjecture of
+conjecture of cerberus shapiro
+cerberus shapiro so this great suburb gamma of early
+is called the lettuce of the volume of the quotient
+of gamma with respect to the khara measure is finite
+and lettuce gamma is called uniform is the cause that is compact
+and non-uniform otherwise the standard example of a lattice in our n
+is z n so the set of points of integral coordinates all lattices in our
+integral coordinates all lattices in our n are uniform and obtained by
+n are uniform and obtained by applying a linear transformation
+applying a linear transformation of rn to zn
+a lattice lambda in rn is called unimodally the volume of the quotient
+unimodally the volume of the quotient by lambda is equal to one the space of
+by lambda is equal to one the space of omega n of unimodalitis is naturally
+omega n of unimodalitis is naturally isomorphic sl and r by a cnc
+isomorphic sl and r by a cnc now there is a picture which is
+now there is a picture which is maybe eliminates what
+maybe eliminates what is slnr
+and slng so it's actually it's for n equals two and
+for n equals two and so the gray area somehow is a
+fundamental domain for s author by cell to z
+and roughly speaking there is a two parts in this
+space of lattices one is which corresponds to
+kind lattices in r n or heats are two with still
+r n or heats are two with still sides which are kind of
+sides which are kind of the same range and there's some part
+usually called cusp when the there's a narrow
+rectangles and so one side is small and another side is
+side is small and another side is large so
+large so so this picture more or less it
+reflects correctly for n equals two four for higher energies on one candidates
+for higher energies on one candidates eliminated
+in some sense but also somewhat misleading because the
+somewhat misleading because the structure of the casper in higher end
+yeah no so this space of lattices is not compact and there's a mileage
+is not compact and there's a mileage compactness criterion
+so a subset a of one again is bounded relative compact
+is bounded relative compact if and only if there exists some
+norm of v is greater than epsilon for every non-zero vector v
+in every lattice lambda in a so this is male compactors can tell it's
+so this is male compactors can tell it's quite easy to prove that
+quite easy to prove that on the other hand there is a classical
+the space on again which is his equivalent to the cylinder by snz
+equivalent to the cylinder by snz has finite volume this probably goes
+has finite volume this probably goes back to
+hermit and minkowski and because of that slng is
+because of that slng is a nonlinear formulatis in slnr
+a nonlinear formulatis in slnr now it's so we talk about
+now it's so we talk about arithmetic subgroups and
+so this is slng in the cnr is a kind basic example of arithmetic
+is a kind basic example of arithmetic subgroups
+and there is a more general definition of arithmetic
+more general definition of arithmetic subgroups so it's
+so one consider the so-called linear algebraic group defined
+so-called linear algebraic group defined of r so it's
+of r so it's you know so essentially it's
+in some metrics group which is on one handed subgroup another
+which is on one handed subgroup another hand in algebraic variety and some
+hand in algebraic variety and some matrices with
+matrices with real coefficients and
+the there was a poly this subgroup is the set of zeros of
+this subgroup is the set of zeros of some finite set of polynomials
+some finite set of polynomials in matrix coefficients now if this
+in matrix coefficients now if this polynomial say
+defined of a rational numbers then we have this
+then we have this algebraic some variety which is called
+defined over q so usually in
+in algebraic geometry we have algebraic varieties the
+varieties the set of points with
+integral coordinates uh maybe very sparse but in this
+group situation actually it's quite big so we take this
+big so we take this joc the set of points and
+this g of r so we have this rioja braid group and
+so those are some examples which clarifies which is written that's okay
+clarifies which is written that's okay there's this
+basic example for sln and the selenites and z and so on
+and the selenites and z and so on and there's also related examples for
+and there's also related examples for orthogonal symplectic groups
+yes so it's this g of z is okay just is
+an arithmetic sub group in jfr now we're interested just
+this discrete subgroup up to commensurability
+commensurability so it's two subgroups are called
+commensurable the intersection has finite index in
+each of them and so it's any sub group with
+and so it's any sub group with which is commensurates is also
+which is commensurates is also called arithmetic now there is a
+fundamental theorem due to whatever harish understood which says if
+semi-simple group case then if g is semi-simple then any arithmetic
+if g is semi-simple then any arithmetic subgroup lambda
+subgroup lambda jfr is a lattice
+we wanted to find give a definition of arithmetic lattice
+arithmetic lattice and probably this theorem barrio
+kind initial inspiration for this conjecture of celebrity which i talked
+conjecture of celebrity which i talked before
+before now it's
+more general definition of arithmetic lattice there's also some
+lattice there's also some construction which we start with j of z
+lattices in other groups so it's if we take another connected lead group
+if we take another connected lead group and we
+have a homomorphism 5 from g to h and this is
+5 from g to h and this is and there's a continuous epimorphism of
+and there's a continuous epimorphism of compact cardinal
+compact cardinal then it will have a arithmetic
+tree then the image of this will be in fire flame there
+it will be also in age so now if it's this arithmetic subgroup lambda is the
+this arithmetic subgroup lambda is the lattice in j then
+the image will be also allowed as if it's now if it's arithmetic then the
+it's now if it's arithmetic then the image will be
+image will be also called arithmetic so this is more
+general definition of an area of magic lattice which probably occasionally is
+lattice which probably occasionally is due to pitches shapira
+due to pitches shapira now it's
+selberg and shapiro so it's i need to introduce the notion that
+roughly speaking as the latter's delta is
+in a semi-simply group is called irreducible if it's
+it's not possible to decompose into product of two
+infinite normal subgroups or yes of this is rough definition so
+to make it more precise you have to go to some groups of
+to some groups of finite index
+so in the case of non-uniform lattices the this definition can be
+the this definition can be somewhat simplified but
+now it's there's a kind initially the conjecture of selberg
+he assumed that if there was some exceptions
+actually excluding a celta when any irreducible lattice is
+should be arithmetic but there were examples which is given by
+then they can mid 60s for non-arithmetic lattices in
+isometrists of the three and four and five-dimensional spaces
+so therefore that's the conjecture had to be modified and
+this was it was modified but somehow there was a
+for modification when you have to use this notion of our
+rent so the rank of the semi-simple lightroom g without compact vectors is
+lightroom g without compact vectors is defined as the dimension of a maximum
+defined as the dimension of a maximum diagonal
+over r sub group of g or equivalently as a dimension of the maximal total
+as a dimension of the maximal total geodesic
+geodesic euclidean subspace of the symmetric
+corresponding to g so the r rank of s l and r is n minus one
+rank of s l and r is n minus one the r rank s one one is one
+the r rank s one one is one the groups with are and greater
+the groups with are and greater than one are called groups of higher
+so eventually celebrate conjecture that if jesus
+of higher rank then any irreducible nominee formulates injury are
+nominee formulates injury are arithmetic for uniform lattice of gamma
+silver conjunction only it was mentioned before that
+eigenvalues of elements of gamma algebraic integers and in this
+algebraic integers and in this compact case the conjecture is due to
+the cheshire shapiro the difference between non-uniform
+from lattice can be explained by existence of unipotence elements
+in polynomial from in gamma for the non-uniform case so i let me remind
+the non-uniform case so i let me remind that
+this is called unipotentive all eigenvalues are equal to one
+eigenvalues are equal to one so eventually i was able to prove this
+serbian pitches shapira and actually there are two cases where arithmetic is
+there are two cases where arithmetic is non-uniform lattices
+non-uniform lattices in a repetitive uniform letters in the
+non-informed lattice cell became shapiro developed a strategy
+developed a strategy to prove the symbols conjecture about
+arithmeticity of non-uniform lattices and this the strategy is based on the
+and this the strategy is based on the study of
+unipotence elements in this gamma and so these unimportant elements
+gamma and so these unimportant elements and how it's
+and how it's an associated subgroups
+in gamma somehow used as a kind of built-in blocks and there's
+built-in blocks and there's building blocks glued together and all
+gives the so you can recover some kind of arithmetic structural
+some kind of arithmetic structural gamma so
+gamma so so this strategy was
+first realized was used by silver himself and he
+for example in the case of the self products of several copies
+products of several copies so to our
+r copies of reselto where r is at least two
+and he used some previous results of shapiro and said serbia himself
+shapiro and said serbia himself so it's in in in
+general case this okay i forwards covered similar this strategy
+forwards covered similar this strategy but
+but the proof is
+and actually it took for me at least couple of years maybe three or
+at least couple of years maybe three or four years to do that
+four years to do that and i don't want to talk about many
+details but just somehow it's i want to mention is a
+by-product of this it's an actual there was one statement about the
+there was one statement about the non-divergence of orbits of unimportant
+non-divergence of orbits of unimportant flaws in the space of lattices
+proof of this statement actually was quite influential and
+in particular i want to mention that because the modification method of the
+because the modification method of the proof of this
+proof of this was used in
+by metric and book and myself in 1998 to
+myself in 1998 to prove some non-standing springs of
+in the theory of different and approximations
+on many faults so roughly speaking this conjecture say that
+this conjecture say that almost all points on any analytic
+curve l in rn have same different time
+properties almost all points in rn if l is not contained in any
+if l is not contained in any for dimension one copper plane
+for dimension one copper plane so details are available on the
+written version of my lecture okay okay
+so the next topic is strong rigidity cervical vein which
+says that deformations of uniform lattices can be extended to
+uniform lattices can be extended to like to continuous commerce of the
+like to continuous commerce of the ambient semi-simple league groups in the
+ambient semi-simple league groups in the late
+60s and early 70s mostly proved that the same is true for all
+the same is true for all isomorphisms between uniform lattices
+isomorphisms between uniform lattices this was quite unexpected
+this was quite unexpected mostly called this phenomenon stronger
+agility there are two equivalent formulations
+this theorem one in geometric and another in the language of
+and another in the language of league groups so i there's a formal
+league groups so i there's a formal formulations in the written version but
+formulations in the written version but just
+i give some overview so for geometric formulation there's a
+so for geometric formulation there's a in particular case
+in particular case if we have n is at least three
+compact n dimensional romanian spaces of constant courage in
+romanian spaces of constant courage in the negative one
+with either more fundamental groups uh as a method usually
+this is referred to was mostly rigidity just this specific case for
+just this specific case for in the formulation the language of lead
+in the formulation the language of lead group so it's uh
+group so it's uh take legends prime
+take legends prime citizen public groups and gamma and
+uniform lattices in general prime then under suitable conditions any
+then under suitable conditions any isomorphism
+between gamma and gamma prime is can be extended to
+continuous isomorphism between g prime and the suitable conditions small as the
+and the suitable conditions small as the same as
+in the formulation of ways local agility theorem
+ways local agility theorem and now there's some kind of brief
+so fast is we consider this x and x prime the symmetric spaces
+this x and x prime the symmetric spaces corresponding to g and g
+prime then this isomorphism between gamma and gamma prime produces
+gamma and gamma prime produces some in some natural way
+by lipschitz on large scale now the main idea of most
+now the main idea of most is to study the asymptotic behavior of
+map file he first shows that this
+map can be extended by continuity to so-called first depths attack boundary
+so-called first depths attack boundary of these symmetric spaces so in
+in the case of n dimensional hyperbolic spaces in the pancara model
+hyperbolic spaces in the pancara model this
+first attack boundary just the boundary spheres and after that
+boundary spheres and after that so we get this homeomorphism between
+so we get this homeomorphism between this first there's attacking boundary
+this first there's attacking boundary and after that most uses
+and after that most uses the arguments in from darius field in
+the arguments in from darius field in the case of hierarian he
+the case of hierarian he uses arguments from two geometries
+uses arguments from two geometries and particularly this
+theorem which is a generalization of the fundamental theorem projectile geometry
+fundamental theorem projectile geometry in the case of frank one
+maps and also it's some ergodycity argument
+and uh yeah not so he uses this in both cases chiron can rank one
+in both cases chiron can rank one to prove that the map is
+to prove that the map is between boundaries kind of algebraic
+between boundaries kind of algebraic nature and after that
+the rest of the proof is easy so now we'll talk about references of
+so now we'll talk about references of uniform lattices
+and super agility saying in the case of uniform lattice is the strategy of
+uniform lattice is the strategy of separate doesn't work because there are
+separate doesn't work because there are no unimportant elements somehow you
+no unimportant elements somehow you cannot
+do kind to reconstruct arithmetic structure of
+lattice and so instead of that there's a use some transcendental methods
+now it's let's go to formulations let's be connected semi-simply group of
+let's be connected semi-simply group of trivial center and
+about compact factors let gamma be an irreducible uniform lattice in g
+irreducible uniform lattice in g lattice okay now
+in 1973 i proved the arithmeticity of gamma for
+arithmeticity of gamma for higher ranks group g using the following
+theory in which most later called super agility theorem
+let k be a locally compact field characteristic zero so there's a
+characteristic zero so there's a two types of such fields ubana
+two types of such fields ubana archimedean fields it's
+archimedean fields it's real numbers and complex numbers in
+uh find extensions of field of periodic numbers and
+field of periodic numbers and let
+t be a homomorphism of gamma into s l and k i assume that
+s l and k i assume that the zaryski closure h
+the zaryski closure h of t of gamma is
+of t of gamma is connected absolutely simple and
+has trivial center so i use some language of algebraic groups and
+language of algebraic groups and also assume that the
+our rank of g is greater than one the first statement if k is a finite
+the first statement if k is a finite extension of q p
+then t of gamma is bounded in k topology now the second state in the case r
+now the second state in the case r or c and c of gamma is not bounded
+or c and c of gamma is not bounded in k topology then t extends the
+in k topology then t extends the continuous
+continuous homogeneous of g2
+and respective statement two is called non-archimedean agility
+is called non-archimedean agility and respect to the archimedes of the
+so we can assume that gamma belongs to s and k where k is a finite extension of
+s and k where k is a finite extension of q is
+due to this cell box results every embedding sigma of this capital k
+every embedding sigma of this capital k into locally compact
+smoke a induces a homo version g sigma gamma to a 7k roughly speaking the
+sigma gamma to a 7k roughly speaking the arithmeticity of gamma is
+arithmeticity of gamma is proved by applying the super agility
+such homomorphism to prove that eigenvalues of all elements of gamma are
+eigenvalues of all elements of gamma are units of algebraic
+in the algebraic number fields it's enough to
+enough to use all the non-archimedean superiority
+to prove the kind of the first cell conjecture is enough to
+conjecture is enough to use only none of the humidity and
+so in the same base strong energy can be considered to be generalization
+of local agendas so energy to be a generalization of strong
+rigidity the proof of separation is
+in a sense related to the strategy which most of us used in the proof of
+instead of somehow the main point the main difference that instead of
+main difference that instead of considering continuous
+considering continuous maps and geometric and topological
+i use measurable maps and also some
+rabbit-dipped theorem from ergodic theory and
+theory and also representation theory so it's
+also representation theory so it's so okay my purpose operation
+interference based on two statements a and b about existence
+and rationality of gabe equivalent measurable maps so now
+kind of overview of this statements a so it's not not precisely how it's
+a so it's not not precisely how it's written in the
+written version but it's they say that so the statement after
+they say that so the statement after gamma is not bounded and gate apology
+gamma is not bounded and gate apology then
+then one
+one can find which i called k rational strongly effective action
+k rational strongly effective action of the group age and algebraic
+of the group age and algebraic k variety m and some measurable map
+from g to m of k or maybe i'm better to say from
+g mod p to m of k which is gamma equivalent
+so this condition about strongly effectiveness
+effectiveness it's just to
+some trivial maps now it's the statement being that
+now it's the statement being that if they have this just this k-ration
+if they have this just this k-ration action
+and and algebraics up the right in the right cn we have this gamma
+equivalent map or this is condition five gamma g
+g of gamma five g then this map is rational so the statement it doesn't
+rational so the statement it doesn't require
+this the condition that rank is greater than one but
+for the statement b this is necessary and actually one of the
+yetz in the statement a i used initially the oscillations multiplicative periodic
+the oscillations multiplicative periodic theorem and
+some results from representation theory and a little bit later person
+and a little bit later person gave an alternative proof of this
+gave an alternative proof of this statement
+statement a based on his boundary of theory
+and for the statement b is based on the combination of
+methods from ergotic theory measure theory and the
+theory and the algebraic group theory okay one of the
+the proof is a kind generalization of a classical fact that if we have a
+classical fact that if we have a function f of x y into variables which
+function f of x y into variables which is
+rational in each variable when another variable is fixed then this
+variable is fixed then this function is rational
+now there's a some comparison between proofs of locker rigidity strong agility
+proofs of locker rigidity strong agility and super agility
+so cellular proof of proper agility mostly algebraic methods
+mostly algebraic methods implicitly uses pancreatic currents
+the first basic theorem from aerobic theory most proof of strong
+aerobic theory most proof of strong agility
+so geometric and topological methods isomorphisms of t geometries
+isomorphisms of t geometries quasi-conformal
+maps and its generalization uses an ergodicity argument
+uses an ergodicity argument and super agilities combination of
+theory probably slash probability theory and the theory of algebraic
+and the theory of algebraic groups maybe pause
+okay follow on groups of aryan 1 the lattice gamma is not
+arithmetic so there is a three infinite series of groups of
+geoff are rank one and also one exceptional group so this
+one exceptional group so this corresponds to
+respectfully fastest real hyperbolic spaces of dimension
+to complex hyperbolic spaces of the complex dimension and
+complex dimension and three quaternion hyperbolic spaces of
+three quaternion hyperbolic spaces of quaternion dimensionality and the
+quaternion dimensionality and the exception of the
+exception of the actinium hyperbolic space in the case
+already mentioned examples of by mccarrifendenberg
+mccarrifendenberg of non-native magic lattices in
+three four and five and in 1988 gramophone pichetsky shapiro
+in 1988 gramophone pichetsky shapiro gave
+gave examples of non-arithmetic lattices of
+for using so-called hybrid construction and there is
+this picture which is we have two arithmetic lattices
+we have two arithmetic lattices each and moles cut into
+each and moles cut into halves and
+the cuts are isometric and we took one half of one and another half from
+one half of one and another half from another
+and somehow it's they construct this okay
+they construct this okay arithmetic quotients using
+lattices which kind of incompatible arithmetic structures
+arithmetic structures and when we take this hybrid it's
+possible to prove that the this hybrid is not
+arithmetic so the case still this complex hyperbolic
+spaces so there are the examples of non-arithmetic lattices
+non-arithmetic lattices in dimensions two in three so there's
+most examples for using complex reflections and using hyper
+complex reflections and using hyper geometric
+functions the linear must constructed in 90 so the first the most examples
+in 90 so the first the most examples were only in dimension
+were only in dimension complex dimension two and for the linear
+master for non-arithmetic class four dimension two
+and three in uh foreign greater than or equal to
+it's not known if non-arithmetic lattices exist on the other hand
+lattices exist on the other hand he used an early results by a new
+both in whom proved in 2020 that for every n greater than
+in 2020 that for every n greater than one
+the eigenvalues of elements of gamma are algebraic integers
+in the case three and four around 1990 kevin corlett
+proved archimedean super agility using harmonic map shortly after that gram of
+harmonic map shortly after that gram of french
+and improved non-archimedean super agility
+and using somewhat similar approach to kevin carlett and
+therefore then cases three and four lattices gamma arithmetic
+lattices gamma arithmetic and then and now i will talk about a lot
+of super big commensurate select
+gamma and g is the set of elements in g such that
+g gamma genders and gamma commensurable and this is again commensurate
+and this is again commensurate if eight okay now it's quite
+if eight okay now it's quite easy to see that they will have
+easy to see that they will have edif meteor clatters
+edif meteor clatters irreducible then
+commensurate is dense yeah actually not necessarily reducible than
+not necessarily reducible than commiserators then century
+the converse is also true i proved this process the same time is
+proved this process the same time is approved
+arithmeticity of gamma for the case of higher rank the
+arithmetic again is deduced from some version of super agility and
+some version of super agility and the process of rigidity follows
+the process of rigidity follows approximately the same
+approximately the same strategies in the case of hiring groups
+strategies in the case of hiring groups using harmonic maps under skulls and
+using harmonic maps under skulls and psychic london
+and i gave in 2006 a relatively short proof of superiority
+relatively short proof of superiority in the case when commensurate gamma
+in the case when commensurate gamma injects
+dense injury now it's at the beginning of 2019 answering a
+at the beginning of 2019 answering a question by
+our narrator kirk mcmullen amir mahmoud and i approve the following theorems so
+and i approve the following theorems so let and be three dimensional close
+let and be three dimensional close hyperbolic
+three many faults if siamese quotient of three-dimensional hyperbolic
+quotient of three-dimensional hyperbolic space by
+gamma is can and if this quotient contains
+infinitely many total surfaces then m is arithmetic that
+m is arithmetic that it's me it's the same that gamma is
+so our probe uses among other things the multiplicative periodic theorem
+in the martingale convergence theorem shortly after we approved the above
+shortly after we approved the above theorem butter fisher miller and stover
+theorem butter fisher miller and stover proved that if it's
+proved that if it's kind of more general theory that's for
+high dimensions hn and so there's
+we have h and by gamma if it contains infinitely many maximal totally genetic
+infinitely many maximal totally genetic subspaces of
+dimension at least two then gamma is arithmetic there probably is again
+arithmetic there probably is again he uses superior relative theorem but
+he uses superior relative theorem but their proof of separation
+their proof of separation is quite different from ours
+is quite different from ours [Applause]
+[Applause] [Music]
+thank you very much professor margulis very interesting talk i have a few
+questions from the chat the first one is
+quite general do you recall your first meeting with hillel fuschtenberg
+would not probably shortly after care so maybe about 20 years ago
+maybe about 20 years ago yeah so it was it was a it was a strange
+yeah so it was it was a it was a strange situation i mean
+you had been working uh separately for for for many years and uh
+separately for for for many years and uh did you know each other by a exchange of
+letters from before that did you did he communicate
+no problem actually it was quite difficult to communicate by letters but
+difficult to communicate by letters but somehow we you probably work with each
+somehow we you probably work with each other and
+it's uh yeah actually i mentioned in the one interview that
+one interview that uh yes so probably in the mid 70s
+i was quite influenced by his boundary theory and to prove
+normal subgroup to your theorem and now of course i heard about his book
+and now of course i heard about his book a little bit before and also a lot of
+a little bit before and also a lot of after that
+okay uh the next question is is there a similar nature
+uh did you ever discuss your results without the cell berg
+well selberg did you discuss your results with celibary
+results with celibary no i guess albert was not the person he
+again so it's actually our first time i met selberg
+at his seventh birthday conference and actually i didn't
+didn't see him before and actually when he was approaching and with some
+he was approaching and with some interaction and mostly was
+near then after that i asked most of who was that and he said center
+so the next question here is is the following
+in moscow you were employed by the institute for
+institute for problems in information transmission
+and you were introduced to a fundamental problem in graph theory
+which you famously solved by tools that were probably not known to other workers
+were probably not known to other workers in that area
+do you have any remarks on the importance of moving between different
+importance of moving between different areas of mathematics
+yeah certainly i yes very important to be aware of different theories
+be aware of different theories mathematics and
+one of the purposes of my lecture was to show that
+there could be a very unexpected interaction between
+interaction between various fields and some powers
+i was so lucky to have background in different fields and
+have background in different fields and because of that i was
+because of that i was able to solve some problems
+yeah i guess that is something people call the the serendipity of science you
+call the the serendipity of science you look for something and then
+you you find something else that has been probably something you have
+say it again the serendipity of science that you
+you look for something and then you find something different than what you were
+something different than what you were really looking for
+originally yes yes everybody also maybe uh thinking about something else
+maybe uh thinking about something else and then
+maybe because of your experience in some other fields somehow there was
+other fields somehow there was you have some intuition and maybe
+so i your example shows the importance of knowing lots of mathematics it's it's
+of knowing lots of mathematics it's it's something that that means some
+mathematicians are very specialized they know one field very well but they don't
+so that's uh something that is difficult to obtain i would say to to get such a
+to obtain i would say to to get such a broad knowledge of mathematics
+broad knowledge of mathematics that is important so you have shown it
+right you know some people who walked in very specific areas with some people who
+very specific areas with some people who have
+have some broad knowledge or various fields
+um i think we we thank you at this point uh thank you very much for a very
+uh thank you very much for a very interesting uh
+talk and an interesting discussion uh at this point there will be a break
+this point there will be a break of uh one hour and we will uh start
+again at six o'clock with uh the laureates of
+that is um uh victorson and and and uh lovas at six o'clock
+and and and uh lovas at six o'clock thank you
+thank you for now and we see you again at six
+[Music] [Applause]
+[Applause] [Music]

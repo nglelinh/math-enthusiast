@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ku_video__bJeKUosqoY_1",
+    "t_start": 1.8,
+    "t_end": 95.1,
+    "type": "overview",
+    "summary": "Imagine a map of the mathematical world. It's the product of thousands of years of human ingenuity, from the Babylonians to Riemann to the present day. In this world is everything we know about numbers, shapes and their relationships. There are many mathematical continents, each with its own language and culture. One with a distinguished history is number theory. It's an unpredictable land of lush forests full of opportunity with little secrets hidden everywhere. Here, they speak the language of arithmetic. Another continent is called harmonic analysis. It's a place of smooth curves, symmet…"
+  },
+  {
+    "id": "ku_video__bJeKUosqoY_95",
+    "t_start": 95.1,
+    "t_end": 187.4,
+    "type": "overview",
+    "summary": "suggested by the Langlands Program, ideas that imply deep powerful and beautiful connections between the most fundamental continents of the mathematical world. in 1967, a 30-year-old-mathematician named Robert Langlands wrote a deceptively modest letter to his colleague, the famous French number theorist Andre Weil. \"If you are willing to read this as pure speculation, I would appreciate that,\" the letter said. \"If not, I'm sure you have a wastebasket handy.\" To Weil's surprise, the letter contained a series of striking conjectures that predicted something very unlikely: A correspondence be…"
+  },
+  {
+    "id": "ku_video__bJeKUosqoY_187",
+    "t_start": 187.4,
+    "t_end": 279.8,
+    "type": "overview",
+    "summary": "we need to treat the input as a complex number which will produce a complex output. When we do this, the function starts to reveal its mesmerizing symmetries. Modular forms are some of the most bizarre objects in mathematics. They satisfy so many internal symmetries that it's surprising that they exist at all. Ramanujan wasn't the first to study the symmetries of modular forms, but he was the first to imagine whether they had any connection to the distant shores of number theory. He did this by studying the function from a different angle. What would happen, Ramanujan wanted to know, if you…"
+  },
+  {
+    "id": "ku_video__bJeKUosqoY_279",
+    "t_start": 279.8,
+    "t_end": 372.3,
+    "type": "overview",
+    "summary": "came up with a brilliant proof of Ramanujan's conjecture, earning Delign a Fields Medal. Delign used the key insight from Langland's conjectures, called functoriality, to bypass the bridge from harmonic analysis to number theory. But the bridge goes in both directions. Now, it's time to travel over to the shores of number theory, where the rest of our story will take shape. In 1637, the French lawyer turned hobbyist mathematician Pierre de Fermat scribbled an equation in his copy of Diophantus's Arithmetica. He never offered a proof, claiming that it was too marvelous for the narrow margins…"
+  },
+  {
+    "id": "ku_video__bJeKUosqoY_372",
+    "t_start": 372.7,
+    "t_end": 462.8,
+    "type": "overview",
+    "summary": "Then, in the 1990s Princeton mathematician Andrew Wiles shocked the world with a breakthrough. Standing on the shores of number theory, he began dreaming of a bridge to harmonic analysis. To understand how wiles built this bridge, we'll first need to meet a special type of polynomial equation called an elliptic curve. Here is an example of an elliptic curve. You'll notice that it only has two variables, x and y. Let's take a look at our elliptic curve graphed on the cartesian plane. This shows all the pairs of real numbers, x and y, that satisfy our equation. But we're not just interested i…"
+  },
+  {
+    "id": "ku_video__bJeKUosqoY_462",
+    "t_start": 462.8,
+    "t_end": 553.0,
+    "type": "overview",
+    "summary": "So when the modulus is 31, what's 6 squared? Well, it should be 36, but on our clock we see the number 5 because we're 5 hours past high noon. Here's the funny thing about modular arithmetic: Equations like this, which don't have rational solutions, may have modular solutions, since 6 squared is the same as 5 modular 31 which means that x equals 6 solves the equation. Now let's go back to our elliptic curve and try to find modular solutions. What we really care about is how many solutions there are. Here is the graph of all of the modular solutions of our equation. The dots are the pairs x …"
+  },
+  {
+    "id": "ku_video__bJeKUosqoY_553",
+    "t_start": 553.0,
+    "t_end": 644.5,
+    "type": "overview",
+    "summary": "Right about now you might be wondering, \"What's the point of making this function?\" When Wiles began building the bridge to harmonic analysis, he used some important scaffolding built decades earlier by three mathematicians named Taniyama, Shimura and Weil. They had predicted that for any elliptic curve, the resulting function would be a modular form, an object with the same kinds of symmetries that Ramanujan studied In the land of harmonic analysis. So since we just created a function from an elliptic curve, shouldn't it be a modular form in disguise? Remember that Ramanujan started with a…"
+  },
+  {
+    "id": "ku_video__bJeKUosqoY_644",
+    "t_start": 644.5,
+    "t_end": 736.1,
+    "type": "overview",
+    "summary": "He observed that if Fermat's equation did have a hypothetical solution, in other words, a counter example, that is a to the p plus b to the p was indeed equal to c to the p for p greater than two, then you could make this elliptic curve, which seems to have extremely bizarre properties. In particular, when you create the infinite power series out of it, it would not have the symmetries required to be a modular form. This means that if Fermat's last theorem were false, then the Taniyama-Shimura-Weil conjecture would also be false, because the counter-example to Fermat's last theorem would ma…"
+  },
+  {
+    "id": "ku_video__bJeKUosqoY_736",
+    "t_start": 736.1,
+    "t_end": 783.4,
+    "type": "overview",
+    "summary": "but they're also just a tiny sliver of the vast construction project that is the Langlands Program. Langland's ideas have traveled to the shores of algebraic geometry, representation theory and quantum physics, where mathematicians will be building bridges for years to come. Nobody knows how far Langland's vision extends, but many mathematicians agree that it has the potential to solve some of the most intractable problems of our time. Someday the Langland's Program may reveal the deepest symmetries between many different continents, a kind of grand unified theory of the mathematical world …"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "slug": "graph-theory-networks",
+  "videos": [
+    {
+      "id": "W18FDEA1jRQ",
+      "title": "Numberphile — Seven Bridges of Königsberg (Cliff Stoll)",
+      "has_transcript": true,
+      "chars": 10857,
+      "units": 10,
+      "url": "https://www.youtube.com/watch?v=W18FDEA1jRQ"
+    },
+    {
+      "id": "PFDu9oVAE-g",
+      "title": "3Blue1Brown — Eigenvectors and eigenvalues (spectral seeds)",
+      "has_transcript": true,
+      "chars": 14388,
+      "units": 11,
+      "url": "https://www.youtube.com/watch?v=PFDu9oVAE-g"
+    },
+    {
+      "id": "JGQe4kiPnrU",
+      "title": "PageRank: A Trillion Dollar Algorithm",
+      "has_transcript": true,
+      "chars": 32391,
+      "units": 17,
+      "url": "https://www.youtube.com/watch?v=JGQe4kiPnrU"
+    }
+  ]
+}

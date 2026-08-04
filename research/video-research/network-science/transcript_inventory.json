@@ -1,0 +1,29 @@
+{
+  "slug": "network-science",
+  "videos": [
+    {
+      "id": "oqOyTdLsq3o",
+      "title": "Barabási — Network Science: From Abstract to Physical (UiO)",
+      "has_transcript": true,
+      "chars": 84181,
+      "units": 43,
+      "url": "https://www.youtube.com/watch?v=oqOyTdLsq3o"
+    },
+    {
+      "id": "ZmJ9c-daNDY",
+      "title": "Barabási — DTU Ørsted Lecture: Architecture of Complexity",
+      "has_transcript": true,
+      "chars": 84672,
+      "units": 44,
+      "url": "https://www.youtube.com/watch?v=ZmJ9c-daNDY"
+    },
+    {
+      "id": "qmCrtuS9vtU",
+      "title": "Systems Innovation — Centralized & Scale Free Networks",
+      "has_transcript": true,
+      "chars": 7460,
+      "units": 4,
+      "url": "https://www.youtube.com/watch?v=qmCrtuS9vtU"
+    }
+  ]
+}

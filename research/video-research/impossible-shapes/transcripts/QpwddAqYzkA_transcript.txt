@@ -1,0 +1,1049 @@
+what I have done here and it might be possible to build at least an illusion
+possible to build at least an illusion of it and if you stare it long enough
+of it and if you stare it long enough you realize why it's impossible it does
+look like it has uh three right angles which doesn't really work in the normal
+which doesn't really work in the normal sense of a triangle
+um it's called an impossible triangle or the impossible tri-bar or a Penrose
+the impossible tri-bar or a Penrose triangle because it was not first
+triangle because it was not first discovered by Mr Penrose actually the
+discovered by Mr Penrose actually the first person to conceive of this was
+first person to conceive of this was called reuterspad a Swedish guy no idea
+called reuterspad a Swedish guy no idea if I've said his name particularly
+if I've said his name particularly accurately tell me if I have
+um but was made famous by Lionel Penrose and his son the now famous mathematician
+and his son the now famous mathematician Roger Penrose in about the 1950s and
+what I like about that story is that they they did it independently from the
+they they did it independently from the the Swedish guy but they also did it
+because they were inspired by the work of MC Escher the Dutch artist who is
+famous for drawing and cutting into lithographs amazing looking impossible
+lithographs amazing looking impossible figures but not this one until they kind
+of developed it and then I think they had communication with Escher who then
+had communication with Escher who then went on to use the ideas that they
+developed to make some of his most famous artworks particularly one about a
+famous artworks particularly one about a waterfall and if you haven't seen it for
+goodness sake go and have a look at it because it's great
+but what I thought I should try and do in this video is build an impossible
+in this video is build an impossible triangle in jojoba now I already know
+how to draw it as I demonstrated earlier but I'd like to build it in jojoba 3D to
+but I'd like to build it in jojoba 3D to see if we can make the illusion much
+see if we can make the illusion much like you'd actually try and make it in
+like you'd actually try and make it in 3D if you're gonna create an illusion
+3D if you're gonna create an illusion that looked like the impossible tri-bar
+that looked like the impossible tri-bar could really exist in real space which
+has been done as you can see in some famous photos which are all on Wikipedia
+if you want to look them up so uh here's what I've ended up building in Johor and
+what I've ended up building in Johor and the rest of this video is me bashing my
+the rest of this video is me bashing my head against the brick wall or the
+head against the brick wall or the impossible brick wall of trying to build
+so I want to make an impossible shape in Jonesborough and despite being called an
+Jonesborough and despite being called an impossible shape it's possible or at
+impossible shape it's possible or at least
+we've all seen I hope photos of people holding these impossible tri-bars and
+holding these impossible tri-bars and famously used by MC Escher in a lot of
+particularly the waterfall one which is really nice example of hiding that
+impossible tri-bar on a piece of art but we've got two options you can just
+but we've got two options you can just draw this and from a generation of
+draw this and from a generation of doodling in various lectures over my
+doodling in various lectures over my time
+I think I know how to draw it by hand I'm doing a 2d representation from a
+I'm doing a 2d representation from a certain perspective of this impossible
+certain perspective of this impossible shape and it's surprisingly difficult to
+shape and it's surprisingly difficult to draw by hand we could do that I think
+relatively easily using an isometric grid
+or we could actually build it in three dimensions obviously we can't actually
+to actually build it physically and make it look like it's real you can get the
+it look like it's real you can get the perspective right and so that the things
+perspective right and so that the things line up uh even if they're not in the
+um plane they look like they are and actually we could do that in JoJo 3D
+actually we could do that in JoJo 3D mode and just control the camera
+mode and just control the camera position
+and the perspective uh so that's what we're going to try and I uh I don't know
+we're going to try and I uh I don't know really how easy this is going to be but
+it's got to be it's got to be possible so I'm going to turn on the 3D Graphics
+I've turned on accidentally the second Graphics mode I don't really need that
+um I might leave the first Graphics mode open to have some buttons on and stuff
+open to have some buttons on and stuff and eventually I'll probably pop out the
+and eventually I'll probably pop out the Ultra review but let's just leave it all
+Ultra review but let's just leave it all like this to start with
+and the first thing to realize is that I think the perspective is going to matter
+think the perspective is going to matter for this so these options we have up
+for this so these options we have up here as normal
+we've got an orthographic projection where no perspective exists parallel
+lines are parallel even if they go after whatever and that looks weird if you
+whatever and that looks weird if you start building an object which is meant
+start building an object which is meant to look big like a building it will look
+strange if you do that but the perspective prediction which sort of
+solves that problem I think is going to mess with our camera Viewpoint a bit
+mess with our camera Viewpoint a bit more when we try and build an object
+more when we try and build an object where two objects at certain different
+where two objects at certain different distances but they need to look the same
+size that's the whole point of the illusion so I think the orthographic
+projection is going to be our friend for today it would be great to be able to
+today it would be great to be able to build it in 3D glasses mode but I think
+the same problem is going to happen there because it does differentiate
+there because it does differentiate things that are further away by changing
+so let's embrace the illusion of the orthographic projection and basically I
+orthographic projection and basically I want um
+straight up and a bar going that way and so that when I sort of angle it right
+so that when I sort of angle it right the vertical one looks like it overlaps
+the vertical one looks like it overlaps the one going flat that way whichever
+I've done it which way I'm pointing correctly for this but that's the plan
+correctly for this but that's the plan and
+traditionally it's done with a sort of cuboid so you can see the edges and you
+cuboid so you can see the edges and you get the nice 3D solid feel to it
+get the nice 3D solid feel to it it'd be nice to be able to change the
+well let's let's have a try starting I'm going to build it in the sort of
+going to build it in the sort of positive quadrant well I'm aware that
+we're sort of looking at an angle that might not be ideal maybe we should have
+might not be ideal maybe we should have all the things coming out towards us
+let's let's go over there so all the arrows are pointing sort of towards us
+arrows are pointing sort of towards us rather than away from us
+with a certain length and if we make that length of variable from the word go
+that length of variable from the word go then we should be able to change the
+then we should be able to change the size of this so let's call this L for
+size of this so let's call this L for length
+between zero and well let's use 10 as our sort of
+increment let's just go up in point ones uh we're not doing anything exciting yet
+uh we're not doing anything exciting yet but let's just try and make a sort of
+what's the easiest way of doing that let's
+let's drawer square and extrude it
+um attempt to tell whether you let's try polygon
+regular polygon needs two points I think it goes anti-clockwise so I'm going to
+it goes anti-clockwise so I'm going to put a point at
+my x coordinate so it's minus one on the X
+I'm aiming for this point here is zero on the Y and it's zero on the X
+is zero on the Y and it's zero on the X and the second point I would like to be
+the origin and I want four vertices
+I want it to be standing up so I guess this polygon needs some sort of
+is there a command for the Axis or the direction let's go back to the polygon
+direction let's go back to the polygon yeah there's a direction command
+yeah there's a direction command okay well let's try that again
+okay well let's try that again minus one zero zero zero zero zero
+um four vertices and Direction presumably means the normal Direction
+presumably means the normal Direction which would be the y-axis
+point is going that way okay let's just switch them over this is I haven't quite
+switch them over this is I haven't quite got my head around the command
+maybe if I just said undo can I undo uh I just said negative y-axis it might do
+I just said negative y-axis it might do it
+let's go back to that let's try changing that first of all so the the previews
+that first of all so the the previews there negative y-axis no it doesn't like
+there negative y-axis no it doesn't like that
+that um
+okay let's actually switch these points around
+so start so the origin heads off to what did I say negative one zero zero
+to what did I say negative one zero zero and close that yeah that's the square I
+and close that yeah that's the square I wanted that was much harder than I
+wanted that was much harder than I expected it to be
+there is so like a polygon and that's the poly one I've just defined they're
+the poly one I've just defined they're probably renaming but let's give it a
+probably renaming but let's give it a height of L which I've deleted somehow
+height of L which I've deleted somehow got rid of L okay let's create a slide
+Trail anyway and we'll change those properties for l
+1 and that's what I did before I must have undone it when I did controls it
+have undone it when I did controls it okay there's my cuboid so that's the
+okay there's my cuboid so that's the first cuboid
+length of my Tri bar let's set it to 10. and the nice
+Tri bar let's set it to 10. and the nice thing is we've got a slider we can
+thing is we've got a slider we can change it later on
+um so it's like length 10 I've got a width of one I didn't change the
+width of one I didn't change the yeah let's have another slider you know
+yeah let's have another slider you know for the sort of the width of the bar
+for the sort of the width of the bar let's call it a w
+shorter but let's Let it go up to five go from point ones don't undo this one
+go from point ones don't undo this one this time Ben okay that's the width and
+this time Ben okay that's the width and I need to change my original Square
+I need to change my original Square instead of negative one just negative W
+instead of negative one just negative W that'll do it and hopefully that'll
+change in size there we go I can get a fat cuber I think already like building
+fat cuber I think already like building in the variability at the beginning can
+in the variability at the beginning can be a bit of a pain but it does mean that
+later on when you build a careful construction it should all update and be
+construction it should all update and be super flexible that's at least the point
+super flexible that's at least the point of using jojoba to do this so we might
+as well start as we mean to go on okay um so
+I want one that sort of starts on the end here and sticks up
+well let's just try and draw that so that the next Square I'm going to start
+that the next Square I'm going to start with is going to be at the end of the
+bar let's do the square again so polygon
+and the direction will need to be the z-axis so let's just try and get the
+vertices and we'll do Z axis so I'm just kind of filling it in backwards these
+two points of them I'm not sure about so one of them needs to be the length of
+one of them needs to be the length of the bar so let's call that L that's
+the bar so let's call that L that's probably on the
+probably on the the y-axis
+the top of that keyboard so that's going to be the width of the original bar so
+that's going to be w and the next point
+and how it's going to draw it so let's try doing just one one back along that
+try doing just one one back along that way as I'm looking at it
+I have no idea which way to point for this to make sense to you but I'm going
+this to make sense to you but I'm going to try and do that point in that point
+to try and do that point in that point then let's see if I can do that so
+zero on the X again L minus w
+and W right that's the point I was expecting but it's the wrong way around
+expecting but it's the wrong way around uh let's switch them around again if I
+just copy this cut it out
+paste it in there that is the square of one
+poly2 the height length
+oh that looks long didn't it okay so far so good I have two bars you can
+so far so good I have two bars you can already see however bar back here if
+this is angled in the right way it looks like it's going to overlap but the angle
+like it's going to overlap but the angle really does matter and that's confused
+really does matter and that's confused me now so it's rubbed I don't want it to
+and so getting it just right is going to be a pain we're going to have to do this
+sort of programmed scripted to get the angle right I think and let's just do
+angle right I think and let's just do the third cuboid
+I'm now worried that so that bar is length 10 but this one's got length 11
+length 10 but this one's got length 11 because it starts there
+and I'm confused about actually what the length should be maybe they should all
+length should be maybe they should all be
+be W minus one
+interesting this is the dead when you're trying to draw an impossible shape it is
+genuinely difficult to know whether you're thinking about it in the right
+length in a bit let's just do the other one so let's get a polygon let's cut I
+one so let's get a polygon let's cut I want the polygon to be the square to be
+want the polygon to be the square to be there
+how hard can this be well we've kind of failed a few times so far I need the
+failed a few times so far I need the direction on the answer let's just jump
+direction on the answer let's just jump to the end and make sure I get this so
+the direction this time is going to be the
+Direction and I want the number of vertices to be four and let's work our
+way one of them is going to be
+so the width of the bar is on so it's negative W to come away from the origin
+negative W to come away from the origin there
+there the y-axis needs to be zero then axis
+zero and then
+negative W on the X the Y needs to be the width so let's
+the right place I think that's actually where I wanted it I'm slightly impressed
+where I wanted it I'm slightly impressed with myself and I press return without
+with myself and I press return without meaning to
+too excited and let's just prismify that that's a verb don't at me
+that's a verb don't at me probably three height is this is where
+probably three height is this is where I'm not sure again L uh let's go the
+is that gone the other way I mean it'd be fine I could look at it from this
+be fine I could look at it from this angle that's not what I was intended to
+angle that's not what I was intended to do but maybe that's better because then
+do but maybe that's better because then I'm not going
+in the negative sense but I have started on the other side of it ah
+so many decisions okay let's just go the other way somehow if I flip the polygon
+other way somehow if I flip the polygon around
+I hate doing this let's do negative L that's just gone that way which is what
+that's just gone that way which is what I wanted now so I'm worried that this
+I wanted now so I'm worried that this one's 10 but with this sort of step up
+something's wrong and now if I try and line these up oh it does look this kind
+that doesn't look like it's an equilateral triangle in the middle
+equilateral triangle in the middle though does it so maybe
+okay let's get a way of viewing it correctly and to do that I think we're
+correctly and to do that I think we're gonna have to use a command called set
+gonna have to use a command called set view Direction
+and I want it to be at 45 degrees down exactly where everything's sort of oh
+exactly where everything's sort of oh that was that was pretty close um
+that was that was pretty close um so into the screen at the moment is
+I think it's negative on all of the axes because I made all the axes pointing out
+towards me so I think it is just the view direction that let's do set view
+view direction that let's do set view Direction
+that is the direction I want I can definitely see though that these two
+definitely see though that these two arms are too long
+so how long do I want these shapes to be maybe all of them need to be length
+maybe all of them need to be length minus one
+um is that the that's this prism if I make them all L minus one
+if I make them all L minus one to change where they start from so I
+to change where they start from so I want the next
+this square that goes up to the Z direction that was probably too
+direction that was probably too to not be off the plane the X Y plane so
+to not be off the plane the X Y plane so the Zed's just going to be zero let's
+just shift it down to zero on the yeah that looks better
+that one's length nine uh I don't know what's going on
+let's try out minus one on that yeah you see one but yeah maybe this is the
+see one but yeah maybe this is the effect we need
+effect we need okay let's do the last one then
+this is going to be length plus one before I do it hey that's kind
+plus one before I do it hey that's kind of working
+it is kind of working okay now they're all length nine
+I mean it it looks right doesn't it as soon as I move the V round you're like
+wow that's not right but okay getting back to that view Direction by the way
+back to that view Direction by the way you can find old commands because I put
+you can find old commands because I put my input bar at the top here I can press
+down on the input bar and it goes through my recent commands I think about
+through my recent commands I think about is at the bottom which I think is often
+by default I press up to see the recent commands
+irritating that um but there's my recent command so I can get back to that kind
+we need to deal with this sort of the way it looks and seeing the ends here
+and we can see that sort of not creating the illusion we want so we're going to
+the illusion we want so we're going to do something clever with chopping off
+do something clever with chopping off maybe this top one to to be at the right
+good so far and actually let's just get sort the view Direction problem out by
+sort the view Direction problem out by making a button that calls that script
+making a button that calls that script and that's just going to be an easy way
+to do it so this is rotate to correct angle or something like that and set
+angle or something like that and set view Direction
+I'm using two brackets there because one is the bracket for the argument of the
+is the bracket for the argument of the functions have U Direction one and then
+functions have U Direction one and then it needs to be a a point which is going
+to interpret as a vector which is fine but I think that was it oh I just did
+but I think that was it oh I just did those two
+hopefully this button will just do it for us if I get it wrong and I can click
+that let me go back nice okay uh let's have a think about what to
+well what to do next is the thing is check that the variability that we built
+check that the variability that we built in is working
+which means if I change the length that does change the length of everything
+that's looking promising and if I change the width it just should just change
+the width it just should just change earlobe
+it does change the width but something is off with
+is off with that bar
+okay let me think about this uh it was fine when it was one
+it's also appearing on Graphics one here which I'm going to turn off eventually I
+which I'm going to turn off eventually I don't really need it I just went on the
+3D but right if I if I crank it up to two let's just set it to two then
+I need it to be built off the end of that so it's the original
+that so it's the original polygon that I'm building on the flat
+so poly2 yeah it's that one it needs to be at a y-axis of not L
+it needs to be at a y-axis of not L minus W it's going to be just
+uh L minus w at the moment is eight so it's that point there
+why can't I think about this so the full length is 10.
+but it's not a length of 10 over there it's 11 over there
+and if I shift that it's not going to line up anymore
+okay well let's just try shifting and then deal with it so the
+then deal with it so the let's say the the length of the full
+the width which is w and the length of the actual cuboid so what have I made
+the actual cuboid so what have I made the length of the actual keyboard let's
+the length of the actual keyboard let's go back to that I think it was a
+L minus one so I think it needs to be almost W that might fix it that might
+almost W that might fix it that might fix it
+circular definition what I've got an A in there somewhere okay
+and so the other cuboids need to be the same
+and let's see if when we spin it to the right place
+right place yes okay I think that's that's good and
+things are adjusting I think as they should so you can have a tiny width
+should so you can have a tiny width but obviously we've still got the
+but obviously we've still got the overlap wrong and that's because it's
+overlap wrong and that's because it's not actually overlapping it's just this
+not actually overlapping it's just this time but this is a nice visualization
+already of how the illusion works you have these three perpendicular things
+have these three perpendicular things and they are buttressed in the way that
+I've done which took me a bit of thinking and if you spin it to the right
+thinking and if you spin it to the right angle precisely the right camera angle
+you get these things lining up now to make it look like they actually join I
+make it look like they actually join I think we're gonna have to be
+think we're gonna have to be a bit clever and what I'd also like to
+faces look continuous so this face which is facing in the sort of X Direction out
+capturing my mouse pointer so I've been pointing to things and it hasn't been
+pointing to things and it hasn't been obvious let me just fix that
+obvious let me just fix that apologies if I've been talking all the
+apologies if I've been talking all the way through the first part of this video
+happening in the edit I'll try and make sure it's obvious what I was going to do
+sure it's obvious what I was going to do I think I'm recording my mouse now I
+I think I'm recording my mouse now I capture the cursor on obs
+so I was just saying I wanted to get these faces this face which is sticking
+these faces this face which is sticking out in the X direction or facing the X
+out in the X direction or facing the X Direction needs to be sort of one face
+Direction needs to be sort of one face um
+eventually I'd like that to be sort of colored so those faces are the same
+colored so those faces are the same color and particular this bit here
+color and particular this bit here coming around look needs to look like
+coming around look needs to look like one face
+and to do that I might right the trouble with JoJo is building
+right the trouble with JoJo is building prisms like this is that basically the
+the prism has a bunch of edges and a bunch of faces and they are auxiliary
+objects I think if I show auxiliary objects they're all there uh normally
+objects they're all there uh normally you don't really want to see them but I
+might need to investigate them uh
+I'd love to be able to spin this thing around as well but it's spinning around
+around as well but it's spinning around away is such that it still looks right
+spin it in any odd way I've got to spin it precisely along the axis which we're
+it precisely along the axis which we're looking down so that's for later let's
+let's have a think about how to well first of all let's make these opaque so
+first of all let's make these opaque so they look the same and do that quick way
+they look the same and do that quick way of doing it this is the opacity slider
+of doing it this is the opacity slider okay uh why are they different colors
+okay uh why are they different colors what's going on there are they just
+that face I want to look the same color as that are they are they just different
+as that are they are they just different colors no
+I'm going to turn the auxiliary objects on and then do away this mess I'm going
+to turn on object type so that we've got
+points polygons and those are the ones I there's squares and we've got
+there's squares and we've got quadrilaterals somehow
+prisms are made and a bunch of segments so actually what I might do is hide all
+so actually what I might do is hide all the segments
+oh but the segments of the polygon are still there oh no I just needed to be
+refreshed the color is weird I don't understand why the segments still
+understand why the segments still visible
+let's hide my squares those are the polygons let's hide all of those okay
+polygons let's hide all of those okay that's better
+I don't know why the colors are doing what they're doing
+let's just make them different colors and see what happens someone's now
+and see what happens someone's now yellow
+this one is now blue and the other one
+and the other one is
+let me select it there's something weird going on with this one there we go let's
+doesn't like updating that one that's strange
+but it is oh that was that was the square sorry
+have I just been changing the properties of building things no I was changing
+that let's just change this to bright red and see what happens
+red and see what happens and but now the edges are visible again
+those edges let's just turn all the edges if I turn them all on and then all
+and we need to check whether JoJo is using the lighting so in the graphics
+using the lighting so in the graphics drop down
+drop down um
+in projection no in basic you can use lighting let's see what that
+you can use lighting let's see what that does if I just make sure it's there no
+does if I just make sure it's there no they're always playing close if I use
+they're always playing close if I use the lighting you do get some shading
+the lighting you do get some shading going on but it's not shading them
+going on but it's not shading them differently
+weird what I'd like to do is get the lighting I'll do my own version of the
+lighting I'll do my own version of the lighting in a bit and we'll play with
+lighting in a bit and we'll play with some mathematical way of getting
+some mathematical way of getting lighting working
+if we make them all the same color they should all look the same let's just try
+those three prisms which is a control to select all three change them all to Blue
+select all three change them all to Blue let's see what happens
+let's see what happens I don't understand why that looks
+but let's not worry about it if I look at it from the right angle we start to
+at it from the right angle we start to see the effect but I've got to get this
+overlap so what I might need to do is just Define polygons which are the
+is just Define polygons which are the faces I care about except
+that one and that one are going to be different faces so maybe I do all of
+different faces so maybe I do all of them as like a pair of faces
+faces in here so let's face one is not obvious uh I'm also going to make all of
+obvious uh I'm also going to make all of these things only visible on graphics 3D
+these things only visible on graphics 3D Graphics let's take them off that and
+Graphics let's take them off that and hopefully oh they do still tell them
+hopefully oh they do still tell them because these quadrilaterals oh that's a
+because these quadrilaterals oh that's a mess uh tell you what let's let's hide
+mess uh tell you what let's let's hide them all
+right they're all gone so phase one is that one actually gonna just turn it off
+uh when I'm looking at it from the right direction that shouldn't be visible that
+direction that shouldn't be visible that one is not visible that one is visible
+and that one so that's let's get this this pair of faces
+let's get this this pair of faces there's another one over there let's
+there's another one over there let's find it
+find it it's going to be in the last prism isn't
+that one those two I want to be the same color
+so I might have to turn lighting off so that one and that one
+Georgia but to make a list of items that you've selected you can just drag them
+you've selected you can just drag them can you I'm sure you used to be able to
+yeah there we go dragging those two into the input bar
+and it makes a little list it saves a little bit of typing particularly if
+it's a long list let's call this um these are the faces that point in the Z
+these are the faces that point in the Z Direction so they're going to call them
+Direction so they're going to call them Z faces
+Z faces and it's not
+it's not copied them but it's made a new list object I presume which isn't
+list object I presume which isn't visible
+or is it no it's just it's just a list of those faces
+I'm not sure what I want for the moment but anyway there's the Zed facing faces
+but anyway there's the Zed facing faces that I care about so let's do the same
+with the X and Y let's find out which ones they are the ones facing out let's
+ones they are the ones facing out let's find one of them
+that's facing in the X Direction and so also will be this one nope this one nope
+also will be this one nope this one nope this one nope and this one yay those two
+and the Y faces facing that way
+facing that way no that one doesn't need one so it's
+one of these that one and
+that one and those are the ones that when I write when I'm looking in the
+when I write when I'm looking in the right direction they need to sort of
+right direction they need to sort of look seamless which they they now do
+look seamless which they they now do that's promising now looking the right
+that's promising now looking the right color
+so those two drag them up in here and let's call them
+what can I do so I don't know why these aren't visible they just sort of lists
+aren't visible they just sort of lists of shapes they're not showing up but I
+could I could say I don't know rotate them or something
+if I try changing the color one to what happens
+they're just not visible where are they meant to show up let's have a look
+meant to show up let's have a look yeah I don't I wonder if they're not
+yeah I don't I wonder if they're not sure because they're just lists
+I'm worried that I'm getting confused by the way JoJo rebuilds solids and if I
+just build them faces Facebook like manually that would have been better but
+manually that would have been better but let's let's carry on working with this
+if I just turn on right so the x-faces is five and four let's just
+the x-faces is five and four let's just turn those two on
+turn those two on and the
+and the y faces are six and ten
+and the Z faces are three and eleven
+so these are the only ones I really need you can see that's got the shapes going
+you can see that's got the shapes going I want I still got to deal with the
+overlap I still like the one to be the same color well I'll tell you what let's
+same color well I'll tell you what let's make the appropriate ones the right
+make the appropriate ones the right color so X faces five and four let's
+and let's let's stick with Blues make them dark blue like they are okay
+them dark blue like they are okay and then the Y faces six and ten
+let's make them like a lighter I have no idea that's lighter blue big color
+idea that's lighter blue big color vision division here
+vision division here okay
+except that we've got this overlap there whatever and then the other ones are the
+Z faces the ones looking up three and eleven let's make them a different color
+eleven let's make them a different color see if this works
+can we get more colors so if you want a better color Choice go to the properties
+better color Choice go to the properties color
+uh this is my television like that there's a really light blue maybe is
+there's a really light blue maybe is that the same as that no it's not let's
+that the same as that no it's not let's go with that
+go with that has that worked
+is it because it's kind of the face it thinks the face is the other way around
+which might be doing clever things that I don't want to do okay right fine
+I don't want to do okay right fine that's working now
+except for the fact that that overlaps so what I need to do instead I think
+so what I need to do instead I think just to get the effect
+and by the way you see now they're just it's just the shells of the cuboids
+it's just the shells of the cuboids going on that's all I need to make the
+the colors aren't sufficiently different but I'll deal with that in a bit so what
+actually I want this face here to have the corner chopped off now where
+do I drop it off to I think everything is sort of
+I think everything is sort of sufficiently
+the width Market it's just like one of my width variable down so actually if I
+my width variable down so actually if I set this back to one it's just going to
+I think it's a width of one or at least I'm going to put a coordinate there
+what's it going to be a coordinate of along the x of zero sorry long X that no
+along the x of zero sorry long X that no idea which ways I'm pointing compared to
+idea which ways I'm pointing compared to what you see but
+zero on the X the Y I needed to be L minus W and the Z
+maybe yeah I think that point is in the right place it looks like it's lined up
+right place it looks like it's lined up I mean obviously it's only there when I
+I mean obviously it's only there when I line it
+that's the point so I kind of want to build a face that just chops that corner
+build a face that just chops that corner off so let's turn that face off which
+one is it uh four no five and build a new one that's dead
+and build a new one that's dead confusing now
+let's just build a polygon from some points I'm gonna I'm gonna type them
+there's probably a better way to do this but let's just give it a list of points
+in fact I'll just give it some so first point is
+so first point is L minus w
+L minus w along the X no it's on zero on the X
+really with it now am I the Y is L minus W and the Z is a zero to start so that's
+W and the Z is a zero to start so that's the bottom left corner there
+the bottom left corner there then
+I'm just going to set our brackets for the three other points so then it's the
+the three other points so then it's the same but without the minus W so just L I
+think and zero
+when I go up to the top we'll do the crucial new one which I've just called M
+crucial new one which I've just called M by the way
+in there but I can't be bothered to go and find what they're called so I'm just
+and find what they're called so I'm just going to type them in and check that
+going to type them in and check that they vary correctly so I still want zero
+they vary correctly so I still want zero on the X
+I still want L minus no just l Zed needs to be the full length minus W
+Zed needs to be the full length minus W so L minus w
+finally let's just call it m because I've just defined that
+I've just defined that right now it's the wrong color
+but that's looking good I don't want the segments to be visible so let's just
+segments to be visible so let's just turn those off
+and let's make M invisible as well I don't really need the m to be seen
+don't really need the m to be seen that's looking promising I'd like it to
+that's looking promising I'd like it to be opaque or let's call this off q1
+be opaque or let's call this off q1 that's confusing but
+I made these dark blue no that's already looking like the
+no that's already looking like the illusion I feel like that's a momentous
+every moment is momentous in some way but like so that's only working because
+but like so that's only working because I've just truncated or made that corner
+a trapezium shape so it just lines up and it's nice to see that slotting into
+and it's nice to see that slotting into place there
+place there actually it's really nice to see this
+and who knows maybe I started the video with this or not a bit like what is this
+with this or not a bit like what is this thing it's just three bars in three
+dimensions but if you look at it from exactly the correct angle actually it's
+exactly the correct angle actually it's the impossible tri-bar the Penrose
+the impossible tri-bar the Penrose triangle uh beloved by all of us and M.C
+Escher in particular nice Okay um
+I'll just pause and think about how to do them but things like I'd like to sort
+do them but things like I'd like to sort the lighting out so maybe I can control
+the lighting out so maybe I can control how the sides look without JoJo is
+how the sides look without JoJo is trying to do the lighting and I'd love
+in a way that looks like it's actually the tri-bar rotating because that'll
+the tri-bar rotating because that'll give the illusion of a three-dimensional
+spinning even movement helps the three-dimensional illusion stay alive
+three-dimensional illusion stay alive so I'll think about that
+let's do the spinning first and the bit that's worrying me here is that I've got
+that's worrying me here is that I've got to get the right Axis to rotate this
+to get the right Axis to rotate this around so I want to leave the angle with
+which is in the sort of 45 degree down Direction that's what it looks like to
+Direction that's what it looks like to me I have no idea how these pointing
+me I have no idea how these pointing things this is hard enough for me to
+things this is hard enough for me to think about let's think about how you're
+think about let's think about how you're seeing it on the camera
+seeing it on the camera um but
+so I need the axis that sort of runs down through that Center shape I'm I'm
+down through that Center shape I'm I'm really not clear what that even that
+point it will go through I think I'm clear which direction it'll go through
+clear which direction it'll go through it's the direction I'm viewing it
+it's the direction I'm viewing it through but I need to figure out what
+yeah what the axis point goes through so let's make it just a random Point uh
+let's make it just a random Point uh this is just on the plane I could I
+could drag it into shape like I mean if I put it in the right place I can get an
+estimate for where like it should be somewhere around there where is n
+negative 3.97 3.23 I don't know what logic that is so it's minus four three
+logic that is so it's minus four three is that is that correct
+but that won't move when I change l so I need to build it based on l
+even if it looks correct so let me figure out there's got to be some
+me figure out there's got to be some easy way even without calculating
+easy way even without calculating that does look like it's correct for
+why would that be I feel like there's a Pythagorean triple four three going on
+Pythagorean triple four three going on it's five from there
+okay I could go and do some maths but doing this live is probably going to
+doing this live is probably going to take longer for me I want to feel I feel
+geometric way of engineering A Center Point that's easier for me just to do so
+first of all it's the center of this apparent equilateral triangle here
+that's only apparent because it's not a triangle it's a bit earlier shape made
+so that I can't sort of like draw that triangle and find its Center or I could
+triangle and find its Center or I could well
+but I have to Define that point there which doesn't yet exist
+which doesn't yet exist from that point there
+so is there another triangle I can find the center of it I feel like so
+um maybe this is easier if I make the width bigger
+a bit bigger anyway no no no I didn't double click that I did but I didn't
+the whole shape has got actually is like a a corn has been chopped off
+um actually if I make this back to one I think it might be easier to see so
+think it might be easier to see so imagine adding a tiny legal actual
+imagine adding a tiny legal actual triangle on each corner and then we've
+triangle on each corner and then we've got actually a full equal actual
+got actually a full equal actual triangle here and I wonder if I draw
+triangle here and I wonder if I draw that
+from this point of view it will be looked like a right angle triangle but
+looked like a right angle triangle but the center of that triangle won't be
+the center of that triangle won't be there I'm pretty sure it won't be there
+depends where I draw the tribe wasn't it oh yeah it's going to be
+I'm not even sure where the triangle is let me try and explain what I mean I'm
+going to draw a shape which goes from that point to that point I'm into
+that point to that point I'm into negative numbers there which I think is
+the point up there yeah so it's that or maybe it is going to be where I thought
+maybe it is going to be where I thought it was so let's just zoom out a bit and
+I need the 11 back I think it's wait is it drawing a triangle for me
+wait is it drawing a triangle for me already what let's try that again
+there there
+will snap to points there and let's go back to that one
+so if I view that from the correct angle that's not the triangle I was going for
+that's not the triangle I was going for I need to go out another one there but
+luckily I should just be able to drag queue
+so that is a right angle triangle because the way I've drawn this it has
+because the way I've drawn this it has to sort of encroach into negative
+to sort of encroach into negative territory and that might be explaining
+territory and that might be explaining why this is a
+center I feel like it lucked out but that's just a I want to engineer that
+that's just a I want to engineer that point
+that is it that is also an equilateral triangle when viewed from this angle on
+triangle when viewed from this angle on the center of it I think it's the center
+the center of it I think it's the center of what I need the whole rotation to go
+still confused about this but we're just going to roll with it
+I think you can just find the center is there a center command
+there a center command A quadric Center Point
+there is uh there's a midpoint or center button here I don't know what let's find
+button here I don't know what let's find out if I just click on that polygon
+doing that there we go it's made it end as well and it is negative four three
+but it will change as I move this around Australia and it's defined it's called
+Australia and it's defined it's called or centroid of course it is there's a
+forgotten about and I need to make p o and Q which Define this triangle depend
+and Q which Define this triangle depend on not w
+on not w but on l
+okay and the way I've built it is that P should stay where it is so right let's
+should stay where it is so right let's make Q
+make Q B
+l plus two no
+no don't know what just happened
+all right I defined it strangely let's let's undo that
+L plus two I'm not sure if that's correct and the y direction it is
+correct and the y direction it is negative one and zero on the height
+negative one and zero on the height not what I expected I've got to go the
+weird I'm very puzzled about that but I think Q is in the right place if I
+I'm going to change out as well before I check whether this is working so
+check whether this is working so well let's make
+well let's make this be uh
+the menu here so it's not a point on the wireless I just want it just to be a
+wireless I just want it just to be a point which has x coordinate zero y
+point which has x coordinate zero y coordinate
+I feel like I might have to have W in this and we're NZ zero
+is that working I think that's working
+no it's not I see the negative one depends on the
+right so all of these depend on the width right let's sort this out then so
+I feel like this is an inefficient way to proceed but hey live builds are like
+to proceed but hey live builds are like that so the x coordinate is zero the y
+that so the x coordinate is zero the y coordinate is negative
+coordinate is negative w
+Z zero I
+I don't get why it keeps changing w
+uh strange Q see what happens uh Point Q is defined to be L let's do it
+is defined to be L let's do it 2W this time and that's going to be
+looking better already and O needs adjusting instead of plus one it should
+adjusting instead of plus one it should be plus W
+why did that change don't be weird that I think is defining always the
+that I think is defining always the right angle triangle that when you view
+right angle triangle that when you view it from the correct angle looks like the
+it from the correct angle looks like the bounding equilateral triangle let's set
+bounding equilateral triangle let's set this back I don't know what I don't want
+polygon this triangle to appear on the graphics normal View
+in fact I don't want to appear anywhere eventually
+eventually ugh
+title the segments show them all hide them all
+think it's the center of there so anyway let's get the axis that we could rotate
+let's get the axis that we could rotate around
+around um
+um line
+through n with a direction Vector of
+one that's a good sign that I can't see it because it should be right into the
+it because it should be right into the camera
+that I think if we rotate everything around that
+we'll keep the illusion alive okay I'm gonna hide p q and O
+and the triangle I don't want them to speed I'll leave the axis there for now
+speed I'll leave the axis there for now let's get it back to the right angle the
+let's get it back to the right angle the axis should look like disappears that's
+axis should look like disappears that's nice
+and now I hope if I rotate these things up here
+they should become visible let's I don't know if this is going to work let's try
+it rotate let's just do X faces for now
+uh about oh I need a slider for an angle let's call it Theta see if it offers me
+let's call it Theta see if it offers me a slide of theta and I think I need the
+axis which is going to be the line I don't know if that's the order it wants
+don't know if that's the order it wants it
+the Theta going on let's use it just what haven't I used Alpha let's try that
+create a slide forever yes please this is looking promising
+right I need to update the X faces to not use the X faces but actually use
+that sort of truncated the trapezium version so let's change X basis
+version so let's change X basis definition it should update everything
+definition it should update everything so
+what did that new shade get called q1 let's instead of face
+let's instead of face five it was q1
+why does w keep changing I am irritated about that
+about that but I do think this is correct
+I'm going to regret this because I can't remember which is which in a minute but
+remember which is which in a minute but I just get the rotating ones so let's
+I just get the rotating ones so let's color these something nice maybe I'll
+color these something nice maybe I'll change my color scheme now the rotated X
+uh is gonna be kind of I'm going to stick with dark blue maybe I'll try and
+stick with dark blue maybe I'll try and get some other blues and we'll make it
+get some other blues and we'll make it opaque and that is
+opaque and that is promising
+let's just do the other ones rotate the Y faces
+the Y faces by Alpha
+by Alpha about I
+this person will make them opaque and maybe I'll get a proper color choice
+this is where I need to think about how color really works okay so I've gone
+color really works okay so I've gone with blue but I think that's what I used
+with blue but I think that's what I used with it what's that that's violet uh
+RGB if I just reduce the amount of blue that will make it darker if I increase
+that will make it darker if I increase the others so anyway let's make a new
+the others so anyway let's make a new color this is where igb values come into
+color this is where igb values come into their own let's just make them
+their own let's just make them 20 and 20. I don't know how this works
+that's a little bit lighter is it
+so they change color when you select them which is they're confusing
+let's try again if I jump that up to I don't know 100
+maybe I should be using a different color uh system
+color uh system foreign
+foreign that looks better
+I can't tell if the selection is doing something funny if I select it it's
+something funny if I select it it's going to change
+going to change ah dead confusing
+ah dead confusing stop selecting it
+if everything is oh no okay things are bugging out uh today and I'm annoyed
+bugging out uh today and I'm annoyed about it but we're just gonna roll with
+about it but we're just gonna roll with it because it's almost working
+it because it's almost working everything else let's do the last face
+set of faces rotate Z faces by Alpha around I
+shouldn't have used I for a line it's not the complex number I
+and this has to be opaque to avoid that glitching out but that's all right we
+glitching out but that's all right we can make that okay again and maybe I'll
+can make that okay again and maybe I'll just choose a standard color the cyan
+just choose a standard color the cyan looks quite good for that
+looks quite good for that there
+nice does it all still work as long as some I should not let W go
+as long as some I should not let W go beyond oh
+what amount of the length is that I need to have a think about that I should
+limit that I don't want it to go to zero either L shouldn't go down to below W
+either L shouldn't go down to below W because it'll mess it up as well
+because it'll mess it up as well okay let's go back to our standard one
+okay let's go back to our standard one and ten that's pretty good and
+and ten that's pretty good and it's oh let's get the angle sorted and
+because this object doesn't exist in 3D it looks like it does I'm going to turn
+it looks like it does I'm going to turn the the main Graphics Plane off here and
+the the main Graphics Plane off here and maybe I'll just make alpha increase
+maybe I'll just make alpha increase instead of oscillate
+at it from any other angle you can see it's just this framework spinning around
+it's just this framework spinning around a particular axis I like that it's a
+pleasing it's pleasing to me if no one else watching it likes it
+else watching it likes it that's fine
+the axes here as well like if it was in front of the axis and then behind the
+front of the axis and then behind the X's is not clear which bits go behind
+maybe it spoils it I don't know but if you turn them off
+I feel it's just like a piece of Graphics although if you move it around
+Graphics although if you move it around then suddenly it's not uh it's quite
+then suddenly it's not uh it's quite nice too
+know I quite like it with it on for now but having the XY plane there it sort of
+but having the XY plane there it sort of cuts it off so that's annoying
+and like this what would be even better is if the shading changes if the light
+is if the shading changes if the light source is somewhere constant so let's
+have a think before I get too excited about what I just made Let's carry on
+about what I just made Let's carry on and try and solve the lighting next
+and try and solve the lighting next okay for the lighting I am I've been
+thinking of in my mind something I remember being told by a friend and
+remember being told by a friend and colleague of mine called Richard
+colleague of mine called Richard lisserman who works for Mei
+has written all sorts of good maths textbook stuff and uh also writes games
+textbook stuff and uh also writes games um I'll put some links to some of the
+um I'll put some links to some of the stuff he's made but I remember a lecture
+stuff he's made but I remember a lecture he gave as part of a mass inspiration
+he gave as part of a mass inspiration talk years ago and he's been doing this
+talk years ago and he's been doing this lecture for a long time and he talks
+lecture for a long time and he talks about how math is used to make video
+about how math is used to make video games uh all sorts of nice little bits
+games uh all sorts of nice little bits in that lecture but one of the
+in that lecture but one of the particular ones he talks about is how
+particular ones he talks about is how you get lightings and Shadow to look
+you get lightings and Shadow to look right really easily
+using a piece of vector maths which is the idea that if you know which angle
+the idea that if you know which angle the light is coming from or you have a
+and you have a surface then it basically all that matters is what angle it
+all that matters is what angle it strikes a surface if it's bang on you
+strikes a surface if it's bang on you feel like you're going to get a uh a lot
+of reflection and it's going to be bright but if it's if it's completely
+bright but if it's if it's completely perpendicular then you don't get any
+light and then I think the thing should be dark and somewhere in between it's
+be dark and somewhere in between it's just the angle and actually if you dot
+normal Direction out of a plane and the light Direction it just tells you the
+light Direction it just tells you the angle between them or rather you get a
+result which is dependent uh proportional to the angle particularly
+proportional to the angle particularly if you use unit vectors and then it
+doesn't matter about the size of the normal or the light Direction you're
+normal or the light Direction you're just going to get the a number which
+represents the angle between them and it'll be zero if they're
+and it'll be zero if they're perpendicular because that's how dot
+products work with black dark and it'll be uh one if that if it's right on so
+be uh one if that if it's right on so that the dot product between the normal
+that the dot product between the normal Vector of a plane and the lighting
+Vector as long as they're unit vectors should immediately scale to give you
+should immediately scale to give you some control over lighting that's what I
+some control over lighting that's what I want to try and Implement to do that I
+think we need first of all to stop this spinning because
+for now uh and let's just put it back to normal position I'm going to make a DOT
+normal position I'm going to make a DOT so let's let's get the illusion broken
+so let's let's get the illusion broken and I'm gonna put a dot on the screen
+if I start putting it on the plane I can drag it up so I in theory I should be
+able to drag this dot around in fact that's just a a point for the light to
+that's just a a point for the light to come through come from and maybe I
+come through come from and maybe I should always aim the light towards the
+should always aim the light towards the shape oh now I'm confused again
+where's the center of this shape to aim at I could use that point I'd defined
+at I could use that point I'd defined earlier what was it called n
+right arbitrarily I'm just going to say the the light comes from R and let's
+the the light comes from R and let's rename R to be something we can remember
+so actually I need the vector Vector from light to n but I also want
+Vector from light to n but I also want the unit Vector of that so let's call it
+the unit Vector of that so let's call it the unit
+the unit vector
+oh and it's drawn me a little arrow and you can see now hopefully if I drag this
+you can see now hopefully if I drag this around
+and if I click on it it goes into vertical I can move the light up and
+vertical I can move the light up and down
+okay that's not doing anything yet um but I have got a controllable position
+but I have got a controllable position for the light
+and now all I'm going to do is update the colors which I craft around with for
+the colors which I craft around with for a while earlier but I'm going to make
+a while earlier but I'm going to make them Dynamic the colors of these faces
+them Dynamic the colors of these faces so this is Zed faces it's these these
+dashed ones here because they include the rotation
+properties of Z faces so if you're going to Advanced then you've got this Dynamic
+to Advanced then you've got this Dynamic Color thing now
+I was thinking earlier about the colors and I'm not I'm a bit color vision
+and I'm not I'm a bit color vision deficient I have issues I think I'd do
+deficient I have issues I think I'd do Tanner deficient or something red green
+colorblind is what a lot of people call it um it's really hard to describe what
+it um it's really hard to describe what it is because it looks normal to me but
+apparently I'm seeing stuff weirdly that's not an excuse there are there are
+that's not an excuse there are there are three ways to Define colors at least in
+jojoba and in lots of other Graphics applications I think I talked about this
+applications I think I talked about this in another video I forget which one but
+um RGB is the amount of red green and blue and it's a really good way for
+blue and it's a really good way for describing how colors mix and then you
+describing how colors mix and then you can control the opacity with the fourth
+can control the opacity with the fourth thing the huge saturation and value
+uh is a way of describing I think how things reflect off things I feel like
+that's the one I want to use and Hue saturation and lightness is a similar
+way the Wikipedia page is worth looking at maybe I'll throw a couple of images
+at maybe I'll throw a couple of images up and links in the description there
+up and links in the description there are different ways of describing color
+are different ways of describing color and I think the Hue saturation of value
+color and the value gives you whether it is uh full color or black I.E how much
+is uh full color or black I.E how much light is bouncing off it because
+light is bouncing off it because when you see something with full color
+it doesn't go white unless you want to actually get some weird reflection on it
+actually get some weird reflection on it like a red object under a bright light
+like a red object under a bright light looks bright red or a red under hardly
+any light looks very dark red almost black and I think that's what the value
+black and I think that's what the value so I'm hoping the value I could use as
+my sort of dot product business and I just need to get the colors
+just need to get the colors from the Hue and the saturation so
+now I don't know what I'm doing so I gotta pick a random Hue uh let's just go
+gotta pick a random Hue uh let's just go in the middle I've no idea
+think of it as a wheel but I'm just I think this judge Works between zero and
+think this judge Works between zero and one so I'm going to go halfway through
+one so I'm going to go halfway through uh
+what's that done has that made it blue is that by some complete fluke the same
+color as I just had no idea let's
+no idea let's keep going
+keep going um saturation one I don't want like
+normals as well so before I can do this I need the normals that come out of
+I need the normals that come out of those planes
+which are going to get rotated when I start doing that
+start doing that yay okay
+okay let's make three new vectors which I'm going to use let's call it um
+I'm going to use let's call it um the we're working on the Z faces so
+the we're working on the Z faces so let's do z d
+let's do z d for Z Direction
+for Z Direction spell it right man
+the z-axis as my reference point but I'd like it to be rotated in the same way as
+the faces get done so rotate the unit vector
+vector by Alpha around I
+can see let's put a little tiny unit Vector down there and it does look like
+Vector down there and it does look like it spins that's all I need that's just
+it spins that's all I need that's just going to be the normal vector
+think it's all right let's check it on this one then so uh we'll just work with
+this one then so uh we'll just work with that
+change the Z faces so that its color depends on that so the value of
+depends on that so the value of do I do it in here do I Define it in
+do I do it in here do I Define it in Jojo and I'm just going to try it dot is
+do I have a light Vector what's it called
+I didn't name it did I oh you let's rename it
+elvec for light Vector again with my terrible naming convention let's let's
+finish the job now surely I've got enough information now the I'd like the
+enough information now the I'd like the value of it to be
+value of it to be dot of
+dot of said uh and lvac
+does it change it's changing if it's right above it it's quite bright
+I guess he's aiming towards Point N which is not necessarily the best point
+which is not necessarily the best point to represent it
+it's good enough when L is off the side it's dark and it gets better I maybe I
+it's dark and it gets better I maybe I have to rethink about where this light
+have to rethink about where this light is actually pointing towards
+let's go with it I gotta do the other ones uh well let's just check ones and
+ones uh well let's just check ones and rotate it that's the correct angle the
+rotate it that's the correct angle the light's coming from here and if I let
+this rotate I need an I want a button for spin the thing you can use a
+for spin the thing you can use a checkbox
+not doing this in a particularly good order but let's do uh a spin button
+there's a check box for yes on like if it's either spinning or it's not it's
+it's either spinning or it's not it's Boolean value D and on the update I want
+Alpha based on this value I'll just make called D I think that that will just do
+called D I think that that will just do it instantly
+it instantly spin spin
+has gone dark is it gonna get bright again it's gone
+Bright Now okay I I think that is doing what I want
+like so when it's away from the light it's dark
+I don't know what happens if the dot product goes negative
+and let's not worry about it it's working
+stop spinning thanks uh right how did I do this I need the extra then to be the
+do this I need the extra then to be the unit vector
+around but I need to rotate it as well so let's go back and rotate it the unit
+Vector from the x-axis and rotate that
+and rotate that by Alpha about I
+and let's do wider as well let's see if I get it right there so rotate
+I wonder if the unit vectors are already built in for the X Y and z-axis but
+anyway this is working so don't ask too many questions questions
+don't ask too many questions questions Alpha about hi no that's no no no no no
+Alpha about hi no that's no no no no no no
+no I yeah check my input damn straight
+should have a little axis rotation going on
+on yeah there they are that's kind of nice
+and now I'm ready to to dot them so the Y faces
+in the advanced I'm going to change it to Hue saturation and value
+to Hue saturation and value it's got Hue that at the moment what
+I don't know what I want there let's just try that oh it's gone
+just try that oh it's gone green
+I don't know how the key thing works let's just make it close to the other
+let's just make it close to the other one so let's go 0.6 the other one was
+quite light blue do I like that I don't know
+okay guys still I didn't do the crucial bit here the value is going to be
+bit here the value is going to be dot wider with lvac
+maybe I should make them all the same color
+so make all the same Hue and then the only difference would be the lighting
+only difference would be the lighting maybe that's the way to do it and then I
+2.5 I don't know why that keeps popping up okay but now they they should be the
+up okay but now they they should be the same color but just with different
+same color but just with different lighting on them they
+you could there must be a place where they're the same color
+let's do it it's kind of a greeny cyan I guess cyan has value 0.50 oh sorry Q 0.5
+guess cyan has value 0.50 oh sorry Q 0.5 don't say value when that's a different
+don't say value when that's a different thing
+thing let's do the last one the x-faces uh HSB
+0.5 saturation one valued dot this time extra which I think I have with L deck
+it's cool I can feel like I'm moving a light source around and if I just leave
+light source around and if I just leave the light source there let's look at it
+from the right angle so that's that's annoying because it looks like
+two of the faces look the same but oh let's just go with it and spin the thing
+please noises are coming out of my mouth I like that it feels genuinely like an
+I like that it feels genuinely like an object changing under light and Shadow
+but actually it's not a real object it's the illusion made by that object
+the illusion made by that object spinning around the axis
+I quite like the lighting game thing there as well the dotting the normal of
+there as well the dotting the normal of a plane with the light direction to get
+let's tidy up a bit um all those vectors need to disappear properly the light
+need to disappear properly the light Vector is good to keep perhaps let's
+elvec doesn't need a name though n should probably disappear
+maybe I should make the light dot yellow can make the background dark oh no I
+I want to make the background different color maybe I do background let's make
+certainly gives him more impression of light coming from
+light coming from a thing of niceness
+where's that why did the light disappear there why is it Vanishing
+there why is it Vanishing ah
+changes color when it's selected I don't get how these uh these colors
+work let's uh make it big I could actually put a sphere around it but I
+maybe that dark gray is the selected color so let's just change the
+color so let's just change the background Graphics to be something
+background Graphics to be something slightly different in the darker gray
+slightly different in the darker gray perhaps get it moodier there we go
+perhaps get it moodier there we go and that means I need the light Vector
+and that means I need the light Vector to be a bit more obvious maybe I'll just
+to be a bit more obvious maybe I'll just make that yellow as well
+it's so frustrating I know it's good okay I I think I've been messing around
+okay I I think I've been messing around with this enough for now let's like
+with this enough for now let's like let's just report back on what we've
+let's just report back on what we've done we've got this object which looks
+done we've got this object which looks great uh it's being lit by a real light
+object uh particularly if I turn the axes off it's not cutting any axes but
+uh depending on where I put the light it looks different and you know and I know
+looks different and you know and I know that that object is impossible and the
+that that object is impossible and the only way that is existing is because if
+I spin around you can see it's just these framed uh little bits of uh planes
+these framed uh little bits of uh planes that are making the shape
+but if I look at it from the correct angle we have Roger penrose's MC eshes
+angle we have Roger penrose's MC eshes lovely impossible triangle uh I'll never
+lovely impossible triangle uh I'll never think about whether there's anything
+else we need to do for now okay the one other thing I've noticed
+okay the one other thing I've noticed that I feel like there's a little glitch
+that I feel like there's a little glitch which is spoiling the illusion very
+which is spoiling the illusion very slightly here is overlapping you can see
+the clipping box is stopping that happening but you see that's definitely
+happening but you see that's definitely not quite in line so something
+is off and I feel like it might be as if any segments are still visible that
+any segments are still visible that might be doing it but they're not
+might be doing it but they're not visible still
+visible still um
+um so
+q1 was the shape there and I feel like that's just slightly blurred so I'm
+that's just slightly blurred so I'm going to change its properties ah line
+going to change its properties ah line thickness could be doing it I don't know
+thickness could be doing it I don't know if the lines
+are visible but let's do it for all of the shapes so it's actually
+the shapes so it's actually that that and that
+I wonder if I can change the properties of them yeah change the line things down
+that's better so I've lost all the edging there was some light thickness
+edging there was some light thickness going on that the uh
+going on that the uh and I think
+oh I looked at it from the back there by the way if you if you um if you do the
+the way if you if you um if you do the command set view Direction and it's
+command set view Direction and it's already on the Right View it'll do the
+already on the Right View it'll do the negative of that um and this is looking
+negative of that um and this is looking from the back and you can see something
+from the back and you can see something weird is happening because we've just
+weird is happening because we've just we're looking sort of inside these
+we're looking sort of inside these objects it does look quite cool but it's
+not the effect I'm going for let's just check what happens when I
+let's just check what happens when I spin it now
+and maybe I like it better with the axes on
+made the object I was trying to make and there's all sorts of tinkering we could
+there's all sorts of tinkering we could carry on doing but I think we should
+um if you have enjoyed this then check out the rest of the videos on my channel
+out the rest of the videos on my channel where I'm building crazy jojoba ideas
+one of these days I'm gonna Branch out into non-joba build I want to try for
+into non-joba build I want to try for example uh the manim software that Grant
+example uh the manim software that Grant uses on his three blue one brown and a
+lot of other people use really nicely but I think we'll stop there for today
+but I think we'll stop there for today so if you've enjoyed this thanks for
+so if you've enjoyed this thanks for watching and I'll see you next time

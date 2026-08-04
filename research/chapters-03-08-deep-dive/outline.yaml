@@ -1,0 +1,50 @@
+# Multi-chapter deep dive research log
+# Target length: Chapter 2 depth (~1500–2500 words per topic lesson)
+date: "2026-08-03"
+status: completed
+verification: "2026-08-03 host audit — all EN+VI topic lessons ch03–08 ≥1500 body tokens"
+
+chapters:
+  - id: "03"
+    title: Mathematics That Changed the World
+    topics: [calculus, linear_algebra_ai, probability, crypto, graphs, optimization, fourier, DE]
+    en_words: {min: 1732, max: 2160, mean: 1913}
+    vi_words: {min: 1641, max: 2003, mean: ~1700}
+  - id: "04"
+    title: Beautiful Mathematics
+    topics: [infinity, fractals, symmetry, chaos, strange_geometry, paradoxes, higher_dim, minimal_surfaces, tilings, impossible_shapes, emergence]
+    en_words: {min: 1519, max: 2145, mean: 1726}
+    note: "padded Tilings, Paradoxes EN; Fractals/Symmetry/Strange/Higher/Tilings VI"
+  - id: "05"
+    title: Famous Proofs
+    topics: [euclid_cantor, cantor, godel, konigsberg, sqrt2, four_color, FLT, poincare]
+    en_words: {min: 1577, max: 2336, mean: 1861}
+  - id: "06"
+    title: Mathematics of the Future
+    topics: [ai, quantum, math_bio, networks, crypto_future, complexity, high_dim, OT, ML_theory, math_physics]
+    en_words: {min: 1643, max: 2422, mean: 1835}
+    vi_note: "full VI expansion pass for 06_03–06_11"
+  - id: "07"
+    title: Explorations
+    topics: [kakeya, packing, primes, randomness, 4d, maps, infinity_explore, collatz]
+    en_words: {min: 1608, max: 2194, mean: 1905}
+    vi_note: "exploration studios expanded to ≥1500"
+  - id: "08"
+    title: Abel Prize
+    topics: [what_is_abel, wiles, uhlenbeck, furstenberg_margulis, lovasz_wigderson, sullivan, caffarelli, talagrand, kashiwara]
+    en_words: {min: 1508, max: 1839, mean: 1691}
+    note: "padded Caffarelli, Talagrand, Kashiwara EN; full VI Abel topic pass"
+
+structure_standard:
+  - hook
+  - learning_objectives
+  - substantive_sections_with_math
+  - confusions
+  - exercises
+  - references
+  - further_directions
+  - no_problem_key_idea_scaffold
+
+exclusions:
+  - chapter_overviews_kept_narrative_short
+  - chapter02_uneven_legacy_posts_not_retroactively_padded

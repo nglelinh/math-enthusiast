@@ -1,0 +1,272 @@
+[
+  {
+    "t_start": 7.68,
+    "t_end": 9.54,
+    "text": "- Hi, I am Graham Steel, Head of Product"
+  },
+  {
+    "t_start": 9.54,
+    "t_end": 11.76,
+    "text": "for Cyber here at SandboxAQ,"
+  },
+  {
+    "t_start": 11.76,
+    "t_end": 14.16,
+    "text": "and today I am joined by Deirdre Connolly."
+  },
+  {
+    "t_start": 14.16,
+    "t_end": 17.55,
+    "text": "Hi. You worked in cryptography for a number of years."
+  },
+  {
+    "t_start": 17.55,
+    "t_end": 20.43,
+    "text": "Is it fair to say you are an influencer in cryptography?"
+  },
+  {
+    "t_start": 20.43,
+    "t_end": 22.38,
+    "text": "- One could use that term,"
+  },
+  {
+    "t_start": 22.38,
+    "t_end": 23.38,
+    "text": "- We may say that."
+  },
+  {
+    "t_start": 23.38,
+    "t_end": 24.3,
+    "text": "Okay, awesome. Fantastic."
+  },
+  {
+    "t_start": 24.3,
+    "t_end": 26.07,
+    "text": "Well thanks so much for joining me here today."
+  },
+  {
+    "t_start": 26.07,
+    "t_end": 28.26,
+    "text": "So can you help us to understand"
+  },
+  {
+    "t_start": 28.26,
+    "t_end": 30.63,
+    "text": "where are we right now in the process"
+  },
+  {
+    "t_start": 30.63,
+    "t_end": 34.35,
+    "text": "of post quantum cryptography, PQC standardization"
+  },
+  {
+    "t_start": 34.35,
+    "t_end": 36.24,
+    "text": "in particular by the NIST organization?"
+  },
+  {
+    "t_start": 36.24,
+    "t_end": 39.0,
+    "text": "- Yes. US based National Institutes of Standard"
+  },
+  {
+    "t_start": 39.0,
+    "t_end": 43.89,
+    "text": "and Technology are trying to set up formal standards"
+  },
+  {
+    "t_start": 43.89,
+    "t_end": 47.91,
+    "text": "for new post quantum algorithms for key establishment."
+  },
+  {
+    "t_start": 47.91,
+    "t_end": 50.04,
+    "text": "They have put out first"
+  },
+  {
+    "t_start": 50.04,
+    "t_end": 52.35,
+    "text": "and last drafts of the standards that they're looking"
+  },
+  {
+    "t_start": 52.35,
+    "t_end": 56.19,
+    "text": "to finalize for one key establishment mechanism called ML-KEM"
+  },
+  {
+    "t_start": 56.19,
+    "t_end": 58.74,
+    "text": ", formerly known as Kyber"
+  },
+  {
+    "t_start": 58.74,
+    "t_end": 62.55,
+    "text": "and three digital signature algorithms, ML-DSA,"
+  },
+  {
+    "t_start": 62.55,
+    "t_end": 65.22,
+    "text": "formerly known as Dilithium, Falcon,"
+  },
+  {
+    "t_start": 65.22,
+    "t_end": 67.83,
+    "text": "and I think the other one is Stateless"
+  },
+  {
+    "t_start": 67.83,
+    "t_end": 69.21,
+    "text": "Hash-based signatures."
+  },
+  {
+    "t_start": 69.21,
+    "t_end": 70.65,
+    "text": "The first two things I mentioned are"
+  },
+  {
+    "t_start": 70.65,
+    "t_end": 72.21,
+    "text": "based on structured lattices."
+  },
+  {
+    "t_start": 72.21,
+    "t_end": 74.25,
+    "text": "Third one I mentioned is also based on lattices,"
+  },
+  {
+    "t_start": 74.25,
+    "t_end": 75.51,
+    "text": "but a slightly different character."
+  },
+  {
+    "t_start": 75.51,
+    "t_end": 77.22,
+    "text": "And the third one is based on Hashes."
+  },
+  {
+    "t_start": 77.22,
+    "t_end": 80.76,
+    "text": "When these standards are finalized, we will have"
+  },
+  {
+    "t_start": 80.76,
+    "t_end": 85.11,
+    "text": "brand new standards that the US government allows"
+  },
+  {
+    "t_start": 85.11,
+    "t_end": 86.94,
+    "text": "for its systems"
+  },
+  {
+    "t_start": 86.94,
+    "t_end": 90.24,
+    "text": "and any contractor systems that needs to integrate with it"
+  },
+  {
+    "t_start": 90.24,
+    "t_end": 93.48,
+    "text": "or any application that needs to be FIP certified"
+  },
+  {
+    "t_start": 93.48,
+    "t_end": 96.48,
+    "text": "to do key establishment and new digital signatures."
+  },
+  {
+    "t_start": 96.48,
+    "t_end": 99.81,
+    "text": "We only have the one KEM that's currently scheduled"
+  },
+  {
+    "t_start": 99.81,
+    "t_end": 102.09,
+    "text": "to be finalized this year."
+  },
+  {
+    "t_start": 102.09,
+    "t_end": 106.08,
+    "text": "There are still some other KEMs that are being discussed,"
+  },
+  {
+    "t_start": 106.08,
+    "t_end": 107.4,
+    "text": "but that's gonna take a little bit longer."
+  },
+  {
+    "t_start": 107.4,
+    "t_end": 110.76,
+    "text": "So we'll have ML-KEM ready to go this year so"
+  },
+  {
+    "t_start": 110.76,
+    "t_end": 112.5,
+    "text": "that you can start swapping out things"
+  },
+  {
+    "t_start": 112.5,
+    "t_end": 115.71,
+    "text": "that might've used things like Elliptic curve, Diffie-Hellman"
+  },
+  {
+    "t_start": 115.71,
+    "t_end": 119.04,
+    "text": "for something that might use this KEM based on lattices"
+  },
+  {
+    "t_start": 119.04,
+    "t_end": 120.51,
+    "text": "or some sort of hybrid."
+  },
+  {
+    "t_start": 120.51,
+    "t_end": 122.22,
+    "text": "- Right, right, right. So that term KEM, just get"
+  },
+  {
+    "t_start": 122.22,
+    "t_end": 123.24,
+    "text": "that like totally down."
+  },
+  {
+    "t_start": 123.24,
+    "t_end": 126.87,
+    "text": "Yeah. So it's KEM, correct. Key Encapsulation Mechanism."
+  },
+  {
+    "t_start": 126.87,
+    "t_end": 129.51,
+    "text": "Yes. Awesome. So don't forget to, to subscribe"
+  },
+  {
+    "t_start": 129.51,
+    "t_end": 130.98,
+    "text": "to the SandboxAQ Channel,"
+  },
+  {
+    "t_start": 130.98,
+    "t_end": 132.0,
+    "text": "make sure you don't miss a video."
+  },
+  {
+    "t_start": 132.0,
+    "t_end": 134.01,
+    "text": "We're gonna have some links under the video to some more"
+  },
+  {
+    "t_start": 134.01,
+    "t_end": 135.78,
+    "text": "of this information so you can, you can track"
+  },
+  {
+    "t_start": 135.78,
+    "t_end": 137.28,
+    "text": "how the standards are evolving."
+  },
+  {
+    "t_start": 137.28,
+    "t_end": 139.65,
+    "text": "I'm just gonna say thank you Deirdre so much. Thank you, Graham."
+  }
+]

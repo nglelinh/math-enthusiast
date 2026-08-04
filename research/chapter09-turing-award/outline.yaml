@@ -1,0 +1,27 @@
+topic: "Alan Turing Award — computational mathematics for Math Enthusiast Ch.09"
+date: "2026-08-04"
+structure: "mirror Chapter 02 Fields essays: narrative overview + deep portraits"
+target_length: "1500–2500 body words per topic lesson"
+items:
+  - Overview
+  - What_Is_Turing_Award
+  - Turing_Computability
+  - Cook_Karp_NP
+  - Knuth_Algorithms
+  - Public_Key_Crypto
+  - Goldwasser_Micali
+  - Yao_Complexity
+  - Valiant_Learning
+  - Hopcroft_Tarjan
+  - Pearl_Causality
+  - Deep_Learning_Trio
+  - Wigderson_Complexity
+  - Modern_Themes
+no_scaffold: "Problem → Key Idea → Breakthrough"
+mathjax: "$$ only"
+status: completed
+verification_2026_08_04:
+  en_topic_lessons: 13
+  vi_topic_lessons: 13
+  overviews: 2
+  note: "Wigderson ACM Turing Award year is 2023 (Abel 2021 with Lovász); EN essay corrected"

@@ -1,0 +1,1462 @@
+[
+  {
+    "t_start": 3.11,
+    "t_end": 3.12,
+    "text": "lots of problems like this don't succumb"
+  },
+  {
+    "t_start": 3.12,
+    "t_end": 5.15,
+    "text": "lots of problems like this don't succumb until they're surrounded by other"
+  },
+  {
+    "t_start": 5.15,
+    "t_end": 5.16,
+    "text": "until they're surrounded by other"
+  },
+  {
+    "t_start": 5.16,
+    "t_end": 7.23,
+    "text": "until they're surrounded by other problems so people have said what's a"
+  },
+  {
+    "t_start": 7.23,
+    "t_end": 7.24,
+    "text": "problems so people have said what's a"
+  },
+  {
+    "t_start": 7.24,
+    "t_end": 9.39,
+    "text": "problems so people have said what's a what are similar problems that we could"
+  },
+  {
+    "t_start": 9.39,
+    "t_end": 9.4,
+    "text": "what are similar problems that we could"
+  },
+  {
+    "t_start": 9.4,
+    "t_end": 11.31,
+    "text": "what are similar problems that we could play with that would be like this maybe"
+  },
+  {
+    "t_start": 11.31,
+    "t_end": 11.32,
+    "text": "play with that would be like this maybe"
+  },
+  {
+    "t_start": 11.32,
+    "t_end": 13.35,
+    "text": "play with that would be like this maybe we'd get some information for instance"
+  },
+  {
+    "t_start": 13.35,
+    "t_end": 13.36,
+    "text": "we'd get some information for instance"
+  },
+  {
+    "t_start": 13.36,
+    "t_end": 17.029,
+    "text": "we'd get some information for instance why 3 n + one why not 3 n minus one"
+  },
+  {
+    "t_start": 17.029,
+    "t_end": 17.039,
+    "text": "why 3 n + one why not 3 n minus one"
+  },
+  {
+    "t_start": 17.039,
+    "t_end": 19.349,
+    "text": "why 3 n + one why not 3 n minus one Brady let's try a 3 n minus one let's do"
+  },
+  {
+    "t_start": 19.349,
+    "t_end": 19.359,
+    "text": "Brady let's try a 3 n minus one let's do"
+  },
+  {
+    "t_start": 19.359,
+    "t_end": 21.71,
+    "text": "Brady let's try a 3 n minus one let's do it with seven let's try seven again okay"
+  },
+  {
+    "t_start": 21.71,
+    "t_end": 21.72,
+    "text": "it with seven let's try seven again okay"
+  },
+  {
+    "t_start": 21.72,
+    "t_end": 23.67,
+    "text": "it with seven let's try seven again okay so we're going to change our idea we're"
+  },
+  {
+    "t_start": 23.67,
+    "t_end": 23.68,
+    "text": "so we're going to change our idea we're"
+  },
+  {
+    "t_start": 23.68,
+    "t_end": 27.15,
+    "text": "so we're going to change our idea we're going to instead go from when it's when"
+  },
+  {
+    "t_start": 27.15,
+    "t_end": 27.16,
+    "text": "going to instead go from when it's when"
+  },
+  {
+    "t_start": 27.16,
+    "t_end": 29.589,
+    "text": "going to instead go from when it's when it's even again we're going to divide by"
+  },
+  {
+    "t_start": 29.589,
+    "t_end": 29.599,
+    "text": "it's even again we're going to divide by"
+  },
+  {
+    "t_start": 29.599,
+    "t_end": 32.19,
+    "text": "it's even again we're going to divide by two just as before but when it's odd"
+  },
+  {
+    "t_start": 32.19,
+    "t_end": 32.2,
+    "text": "two just as before but when it's odd"
+  },
+  {
+    "t_start": 32.2,
+    "t_end": 33.99,
+    "text": "two just as before but when it's odd we're going to make a tiny change"
+  },
+  {
+    "t_start": 33.99,
+    "t_end": 34.0,
+    "text": "we're going to make a tiny change"
+  },
+  {
+    "t_start": 34.0,
+    "t_end": 36.83,
+    "text": "we're going to make a tiny change instead of going from n to 3 n + 1 we're"
+  },
+  {
+    "t_start": 36.83,
+    "t_end": 36.84,
+    "text": "instead of going from n to 3 n + 1 we're"
+  },
+  {
+    "t_start": 36.84,
+    "t_end": 40.19,
+    "text": "instead of going from n to 3 n + 1 we're going to go to 3 n minus one big deal"
+  },
+  {
+    "t_start": 40.19,
+    "t_end": 40.2,
+    "text": "going to go to 3 n minus one big deal"
+  },
+  {
+    "t_start": 40.2,
+    "t_end": 42.549,
+    "text": "going to go to 3 n minus one big deal must be the same kind of thing well"
+  },
+  {
+    "t_start": 42.549,
+    "t_end": 42.559,
+    "text": "must be the same kind of thing well"
+  },
+  {
+    "t_start": 42.559,
+    "t_end": 46.83,
+    "text": "must be the same kind of thing well let's try seven again why not seven 3 n"
+  },
+  {
+    "t_start": 46.83,
+    "t_end": 46.84,
+    "text": "let's try seven again why not seven 3 n"
+  },
+  {
+    "t_start": 46.84,
+    "t_end": 49.27,
+    "text": "let's try seven again why not seven 3 n minus one that's"
+  },
+  {
+    "t_start": 49.27,
+    "t_end": 49.28,
+    "text": "minus one that's"
+  },
+  {
+    "t_start": 49.28,
+    "t_end": 52.75,
+    "text": "minus one that's 20 that's even goes down to 10 goes down"
+  },
+  {
+    "t_start": 52.75,
+    "t_end": 52.76,
+    "text": "20 that's even goes down to 10 goes down"
+  },
+  {
+    "t_start": 52.76,
+    "t_end": 58.069,
+    "text": "20 that's even goes down to 10 goes down to five 3 n minus one that's"
+  },
+  {
+    "t_start": 58.069,
+    "t_end": 58.079,
+    "text": "to five 3 n minus one that's"
+  },
+  {
+    "t_start": 58.079,
+    "t_end": 61.59,
+    "text": "to five 3 n minus one that's 14 whoops goes down down to seven it"
+  },
+  {
+    "t_start": 61.59,
+    "t_end": 61.6,
+    "text": "14 whoops goes down down to seven it"
+  },
+  {
+    "t_start": 61.6,
+    "t_end": 63.67,
+    "text": "14 whoops goes down down to seven it will never get to"
+  },
+  {
+    "t_start": 63.67,
+    "t_end": 63.68,
+    "text": "will never get to"
+  },
+  {
+    "t_start": 63.68,
+    "t_end": 66.91,
+    "text": "will never get to one never so we solved that problem we"
+  },
+  {
+    "t_start": 66.91,
+    "t_end": 66.92,
+    "text": "one never so we solved that problem we"
+  },
+  {
+    "t_start": 66.92,
+    "t_end": 69.87,
+    "text": "one never so we solved that problem we now know the answer we did 3 n minus one"
+  },
+  {
+    "t_start": 69.87,
+    "t_end": 69.88,
+    "text": "now know the answer we did 3 n minus one"
+  },
+  {
+    "t_start": 69.88,
+    "t_end": 72.91,
+    "text": "now know the answer we did 3 n minus one maybe they're all easy except 3 n + one"
+  },
+  {
+    "t_start": 72.91,
+    "t_end": 72.92,
+    "text": "maybe they're all easy except 3 n + one"
+  },
+  {
+    "t_start": 72.92,
+    "t_end": 74.59,
+    "text": "maybe they're all easy except 3 n + one so one of the weird things people have"
+  },
+  {
+    "t_start": 74.59,
+    "t_end": 74.6,
+    "text": "so one of the weird things people have"
+  },
+  {
+    "t_start": 74.6,
+    "t_end": 77.149,
+    "text": "so one of the weird things people have done or beautiful things really is to"
+  },
+  {
+    "t_start": 77.149,
+    "t_end": 77.159,
+    "text": "done or beautiful things really is to"
+  },
+  {
+    "t_start": 77.159,
+    "t_end": 79.59,
+    "text": "done or beautiful things really is to say well let's think of any rule like"
+  },
+  {
+    "t_start": 79.59,
+    "t_end": 79.6,
+    "text": "say well let's think of any rule like"
+  },
+  {
+    "t_start": 79.6,
+    "t_end": 83.71,
+    "text": "say well let's think of any rule like this let's think of a n plus b and maybe"
+  },
+  {
+    "t_start": 83.71,
+    "t_end": 83.72,
+    "text": "this let's think of a n plus b and maybe"
+  },
+  {
+    "t_start": 83.72,
+    "t_end": 85.35,
+    "text": "this let's think of a n plus b and maybe we could have a machine that would tell"
+  },
+  {
+    "t_start": 85.35,
+    "t_end": 85.36,
+    "text": "we could have a machine that would tell"
+  },
+  {
+    "t_start": 85.36,
+    "t_end": 87.749,
+    "text": "we could have a machine that would tell us you give me a and b and I'll tell you"
+  },
+  {
+    "t_start": 87.749,
+    "t_end": 87.759,
+    "text": "us you give me a and b and I'll tell you"
+  },
+  {
+    "t_start": 87.759,
+    "t_end": 89.749,
+    "text": "us you give me a and b and I'll tell you says the machine whether it'll end or"
+  },
+  {
+    "t_start": 89.749,
+    "t_end": 89.759,
+    "text": "says the machine whether it'll end or"
+  },
+  {
+    "t_start": 89.759,
+    "t_end": 90.71,
+    "text": "says the machine whether it'll end or not"
+  },
+  {
+    "t_start": 90.71,
+    "t_end": 90.72,
+    "text": "not"
+  },
+  {
+    "t_start": 90.72,
+    "t_end": 92.069,
+    "text": "not and people have proved that that's an"
+  },
+  {
+    "t_start": 92.069,
+    "t_end": 92.079,
+    "text": "and people have proved that that's an"
+  },
+  {
+    "t_start": 92.079,
+    "t_end": 94.19,
+    "text": "and people have proved that that's an undecidable problem that's as hard as"
+  },
+  {
+    "t_start": 94.19,
+    "t_end": 94.2,
+    "text": "undecidable problem that's as hard as"
+  },
+  {
+    "t_start": 94.2,
+    "t_end": 96.389,
+    "text": "undecidable problem that's as hard as the halting problem in computer science"
+  },
+  {
+    "t_start": 96.389,
+    "t_end": 96.399,
+    "text": "the halting problem in computer science"
+  },
+  {
+    "t_start": 96.399,
+    "t_end": 98.429,
+    "text": "the halting problem in computer science which your readers probably know about"
+  },
+  {
+    "t_start": 98.429,
+    "t_end": 98.439,
+    "text": "which your readers probably know about"
+  },
+  {
+    "t_start": 98.439,
+    "t_end": 101.83,
+    "text": "which your readers probably know about your listeners so that's undecidable so"
+  },
+  {
+    "t_start": 101.83,
+    "t_end": 101.84,
+    "text": "your listeners so that's undecidable so"
+  },
+  {
+    "t_start": 101.84,
+    "t_end": 103.389,
+    "text": "your listeners so that's undecidable so people have explored this in various"
+  },
+  {
+    "t_start": 103.389,
+    "t_end": 103.399,
+    "text": "people have explored this in various"
+  },
+  {
+    "t_start": 103.399,
+    "t_end": 106.51,
+    "text": "people have explored this in various ways looking for ways to connect it to a"
+  },
+  {
+    "t_start": 106.51,
+    "t_end": 106.52,
+    "text": "ways looking for ways to connect it to a"
+  },
+  {
+    "t_start": 106.52,
+    "t_end": 109.149,
+    "text": "ways looking for ways to connect it to a a deeper mathematical fabric after which"
+  },
+  {
+    "t_start": 109.149,
+    "t_end": 109.159,
+    "text": "a deeper mathematical fabric after which"
+  },
+  {
+    "t_start": 109.159,
+    "t_end": 111.19,
+    "text": "a deeper mathematical fabric after which you might get a hint as to how to solve"
+  },
+  {
+    "t_start": 111.19,
+    "t_end": 111.2,
+    "text": "you might get a hint as to how to solve"
+  },
+  {
+    "t_start": 111.2,
+    "t_end": 114.749,
+    "text": "you might get a hint as to how to solve it but nobody has succeeded Professor I"
+  },
+  {
+    "t_start": 114.749,
+    "t_end": 114.759,
+    "text": "it but nobody has succeeded Professor I"
+  },
+  {
+    "t_start": 114.759,
+    "t_end": 116.389,
+    "text": "it but nobody has succeeded Professor I can imagine there are lots of problems"
+  },
+  {
+    "t_start": 116.389,
+    "t_end": 116.399,
+    "text": "can imagine there are lots of problems"
+  },
+  {
+    "t_start": 116.399,
+    "t_end": 119.23,
+    "text": "can imagine there are lots of problems that are simple to con save and"
+  },
+  {
+    "t_start": 119.23,
+    "t_end": 119.24,
+    "text": "that are simple to con save and"
+  },
+  {
+    "t_start": 119.24,
+    "t_end": 121.069,
+    "text": "that are simple to con save and difficult to solve"
+  },
+  {
+    "t_start": 121.069,
+    "t_end": 121.079,
+    "text": "difficult to solve"
+  },
+  {
+    "t_start": 121.079,
+    "t_end": 123.109,
+    "text": "difficult to solve why is the collet conjecture why is this"
+  },
+  {
+    "t_start": 123.109,
+    "t_end": 123.119,
+    "text": "why is the collet conjecture why is this"
+  },
+  {
+    "t_start": 123.119,
+    "t_end": 126.029,
+    "text": "why is the collet conjecture why is this one so famous why is this one captured"
+  },
+  {
+    "t_start": 126.029,
+    "t_end": 126.039,
+    "text": "one so famous why is this one captured"
+  },
+  {
+    "t_start": 126.039,
+    "t_end": 127.87,
+    "text": "one so famous why is this one captured the imagination is it because famous"
+  },
+  {
+    "t_start": 127.87,
+    "t_end": 127.88,
+    "text": "the imagination is it because famous"
+  },
+  {
+    "t_start": 127.88,
+    "t_end": 130.469,
+    "text": "the imagination is it because famous people tried it or certainly famous"
+  },
+  {
+    "t_start": 130.469,
+    "t_end": 130.479,
+    "text": "people tried it or certainly famous"
+  },
+  {
+    "t_start": 130.479,
+    "t_end": 132.47,
+    "text": "people tried it or certainly famous people noticed it and got interested in"
+  },
+  {
+    "t_start": 132.47,
+    "t_end": 132.48,
+    "text": "people noticed it and got interested in"
+  },
+  {
+    "t_start": 132.48,
+    "t_end": 135.27,
+    "text": "people noticed it and got interested in it there's another phenomenon here which"
+  },
+  {
+    "t_start": 135.27,
+    "t_end": 135.28,
+    "text": "it there's another phenomenon here which"
+  },
+  {
+    "t_start": 135.28,
+    "t_end": 138.35,
+    "text": "it there's another phenomenon here which is the Advent of the personal computer"
+  },
+  {
+    "t_start": 138.35,
+    "t_end": 138.36,
+    "text": "is the Advent of the personal computer"
+  },
+  {
+    "t_start": 138.36,
+    "t_end": 141.03,
+    "text": "is the Advent of the personal computer and I 1970 is when this began to get"
+  },
+  {
+    "t_start": 141.03,
+    "t_end": 141.04,
+    "text": "and I 1970 is when this began to get"
+  },
+  {
+    "t_start": 141.04,
+    "t_end": 143.11,
+    "text": "and I 1970 is when this began to get popular and people were just having"
+  },
+  {
+    "t_start": 143.11,
+    "t_end": 143.12,
+    "text": "popular and people were just having"
+  },
+  {
+    "t_start": 143.12,
+    "t_end": 145.83,
+    "text": "popular and people were just having access to computers that could do this"
+  },
+  {
+    "t_start": 145.83,
+    "t_end": 145.84,
+    "text": "access to computers that could do this"
+  },
+  {
+    "t_start": 145.84,
+    "t_end": 148.27,
+    "text": "access to computers that could do this really fast and do a lot more than you"
+  },
+  {
+    "t_start": 148.27,
+    "t_end": 148.28,
+    "text": "really fast and do a lot more than you"
+  },
+  {
+    "t_start": 148.28,
+    "t_end": 150.589,
+    "text": "really fast and do a lot more than you can do by hand before then it was a kind"
+  },
+  {
+    "t_start": 150.589,
+    "t_end": 150.599,
+    "text": "can do by hand before then it was a kind"
+  },
+  {
+    "t_start": 150.599,
+    "t_end": 153.35,
+    "text": "can do by hand before then it was a kind of curiosity people knew some examples"
+  },
+  {
+    "t_start": 153.35,
+    "t_end": 153.36,
+    "text": "of curiosity people knew some examples"
+  },
+  {
+    "t_start": 153.36,
+    "t_end": 156.83,
+    "text": "of curiosity people knew some examples kot himself I believe the date is 1937"
+  },
+  {
+    "t_start": 156.83,
+    "t_end": 156.84,
+    "text": "kot himself I believe the date is 1937"
+  },
+  {
+    "t_start": 156.84,
+    "t_end": 158.75,
+    "text": "kot himself I believe the date is 1937 when he claims to have first put this"
+  },
+  {
+    "t_start": 158.75,
+    "t_end": 158.76,
+    "text": "when he claims to have first put this"
+  },
+  {
+    "t_start": 158.76,
+    "t_end": 160.99,
+    "text": "when he claims to have first put this forward though there's some controversy"
+  },
+  {
+    "t_start": 160.99,
+    "t_end": 161.0,
+    "text": "forward though there's some controversy"
+  },
+  {
+    "t_start": 161.0,
+    "t_end": 163.229,
+    "text": "forward though there's some controversy over who really did it first my own"
+  },
+  {
+    "t_start": 163.229,
+    "t_end": 163.239,
+    "text": "over who really did it first my own"
+  },
+  {
+    "t_start": 163.239,
+    "t_end": 165.229,
+    "text": "over who really did it first my own feeling is that something that's simple"
+  },
+  {
+    "t_start": 165.229,
+    "t_end": 165.239,
+    "text": "feeling is that something that's simple"
+  },
+  {
+    "t_start": 165.239,
+    "t_end": 167.63,
+    "text": "feeling is that something that's simple and and cute as this must have been"
+  },
+  {
+    "t_start": 167.63,
+    "t_end": 167.64,
+    "text": "and and cute as this must have been"
+  },
+  {
+    "t_start": 167.64,
+    "t_end": 170.43,
+    "text": "and and cute as this must have been discovered many times by many people"
+  },
+  {
+    "t_start": 170.43,
+    "t_end": 170.44,
+    "text": "discovered many times by many people"
+  },
+  {
+    "t_start": 170.44,
+    "t_end": 172.75,
+    "text": "discovered many times by many people different places some of the big famous"
+  },
+  {
+    "t_start": 172.75,
+    "t_end": 172.76,
+    "text": "different places some of the big famous"
+  },
+  {
+    "t_start": 172.76,
+    "t_end": 174.39,
+    "text": "different places some of the big famous problems in mathematics that we know the"
+  },
+  {
+    "t_start": 174.39,
+    "t_end": 174.4,
+    "text": "problems in mathematics that we know the"
+  },
+  {
+    "t_start": 174.4,
+    "t_end": 177.11,
+    "text": "problems in mathematics that we know the name of have prizes attached to them"
+  },
+  {
+    "t_start": 177.11,
+    "t_end": 177.12,
+    "text": "name of have prizes attached to them"
+  },
+  {
+    "t_start": 177.12,
+    "t_end": 178.949,
+    "text": "name of have prizes attached to them million dollars all the all these things"
+  },
+  {
+    "t_start": 178.949,
+    "t_end": 178.959,
+    "text": "million dollars all the all these things"
+  },
+  {
+    "t_start": 178.959,
+    "t_end": 181.149,
+    "text": "million dollars all the all these things we hear about this one doesn't have a"
+  },
+  {
+    "t_start": 181.149,
+    "t_end": 181.159,
+    "text": "we hear about this one doesn't have a"
+  },
+  {
+    "t_start": 181.159,
+    "t_end": 182.79,
+    "text": "we hear about this one doesn't have a big prize attached to it has a little"
+  },
+  {
+    "t_start": 182.79,
+    "t_end": 182.8,
+    "text": "big prize attached to it has a little"
+  },
+  {
+    "t_start": 182.8,
+    "t_end": 184.71,
+    "text": "big prize attached to it has a little prize but from someone whom you would"
+  },
+  {
+    "t_start": 184.71,
+    "t_end": 184.72,
+    "text": "prize but from someone whom you would"
+  },
+  {
+    "t_start": 184.72,
+    "t_end": 187.43,
+    "text": "prize but from someone whom you would like to win a prize from I would anyway"
+  },
+  {
+    "t_start": 187.43,
+    "t_end": 187.44,
+    "text": "like to win a prize from I would anyway"
+  },
+  {
+    "t_start": 187.44,
+    "t_end": 190.869,
+    "text": "like to win a prize from I would anyway uh erish offered $500 for this prize"
+  },
+  {
+    "t_start": 190.869,
+    "t_end": 190.879,
+    "text": "uh erish offered $500 for this prize"
+  },
+  {
+    "t_start": 190.879,
+    "t_end": 192.309,
+    "text": "uh erish offered $500 for this prize although in other places he says you"
+  },
+  {
+    "t_start": 192.309,
+    "t_end": 192.319,
+    "text": "although in other places he says you"
+  },
+  {
+    "t_start": 192.319,
+    "t_end": 194.99,
+    "text": "although in other places he says you know it's completely hopeless so why"
+  },
+  {
+    "t_start": 194.99,
+    "t_end": 195.0,
+    "text": "know it's completely hopeless so why"
+  },
+  {
+    "t_start": 195.0,
+    "t_end": 197.83,
+    "text": "know it's completely hopeless so why only $500 I don't know he was being"
+  },
+  {
+    "t_start": 197.83,
+    "t_end": 197.84,
+    "text": "only $500 I don't know he was being"
+  },
+  {
+    "t_start": 197.84,
+    "t_end": 200.43,
+    "text": "only $500 I don't know he was being conservative that day why why does this"
+  },
+  {
+    "t_start": 200.43,
+    "t_end": 200.44,
+    "text": "conservative that day why why does this"
+  },
+  {
+    "t_start": 200.44,
+    "t_end": 202.39,
+    "text": "conservative that day why why does this one not have a millennium prize if so"
+  },
+  {
+    "t_start": 202.39,
+    "t_end": 202.4,
+    "text": "one not have a millennium prize if so"
+  },
+  {
+    "t_start": 202.4,
+    "t_end": 204.229,
+    "text": "one not have a millennium prize if so many big mathematicians find it"
+  },
+  {
+    "t_start": 204.229,
+    "t_end": 204.239,
+    "text": "many big mathematicians find it"
+  },
+  {
+    "t_start": 204.239,
+    "t_end": 206.63,
+    "text": "many big mathematicians find it interesting and it's so hard why doesn't"
+  },
+  {
+    "t_start": 206.63,
+    "t_end": 206.64,
+    "text": "interesting and it's so hard why doesn't"
+  },
+  {
+    "t_start": 206.64,
+    "t_end": 208.03,
+    "text": "interesting and it's so hard why doesn't this have a million dollars attached to"
+  },
+  {
+    "t_start": 208.03,
+    "t_end": 208.04,
+    "text": "this have a million dollars attached to"
+  },
+  {
+    "t_start": 208.04,
+    "t_end": 209.83,
+    "text": "this have a million dollars attached to it it's a good question the millennium"
+  },
+  {
+    "t_start": 209.83,
+    "t_end": 209.84,
+    "text": "it it's a good question the millennium"
+  },
+  {
+    "t_start": 209.84,
+    "t_end": 212.19,
+    "text": "it it's a good question the millennium Rises and the things which are famous"
+  },
+  {
+    "t_start": 212.19,
+    "t_end": 212.2,
+    "text": "Rises and the things which are famous"
+  },
+  {
+    "t_start": 212.2,
+    "t_end": 214.83,
+    "text": "Rises and the things which are famous like the remon hypothesis or the problem"
+  },
+  {
+    "t_start": 214.83,
+    "t_end": 214.84,
+    "text": "like the remon hypothesis or the problem"
+  },
+  {
+    "t_start": 214.84,
+    "t_end": 217.509,
+    "text": "like the remon hypothesis or the problem of fluid flow those are problems that"
+  },
+  {
+    "t_start": 217.509,
+    "t_end": 217.519,
+    "text": "of fluid flow those are problems that"
+  },
+  {
+    "t_start": 217.519,
+    "t_end": 219.63,
+    "text": "of fluid flow those are problems that are deeply connected with many other"
+  },
+  {
+    "t_start": 219.63,
+    "t_end": 219.64,
+    "text": "are deeply connected with many other"
+  },
+  {
+    "t_start": 219.64,
+    "t_end": 222.07,
+    "text": "are deeply connected with many other areas of mathematics the one of the"
+  },
+  {
+    "t_start": 222.07,
+    "t_end": 222.08,
+    "text": "areas of mathematics the one of the"
+  },
+  {
+    "t_start": 222.08,
+    "t_end": 224.55,
+    "text": "areas of mathematics the one of the things that makes the cot's problem hard"
+  },
+  {
+    "t_start": 224.55,
+    "t_end": 224.56,
+    "text": "things that makes the cot's problem hard"
+  },
+  {
+    "t_start": 224.56,
+    "t_end": 226.869,
+    "text": "things that makes the cot's problem hard is that it's a kind of isolated Peak you"
+  },
+  {
+    "t_start": 226.869,
+    "t_end": 226.879,
+    "text": "is that it's a kind of isolated Peak you"
+  },
+  {
+    "t_start": 226.879,
+    "t_end": 228.71,
+    "text": "is that it's a kind of isolated Peak you see it in the distance well there are"
+  },
+  {
+    "t_start": 228.71,
+    "t_end": 228.72,
+    "text": "see it in the distance well there are"
+  },
+  {
+    "t_start": 228.72,
+    "t_end": 230.35,
+    "text": "see it in the distance well there are people who really want to go up and"
+  },
+  {
+    "t_start": 230.35,
+    "t_end": 230.36,
+    "text": "people who really want to go up and"
+  },
+  {
+    "t_start": 230.36,
+    "t_end": 231.83,
+    "text": "people who really want to go up and climb that mountain if they see it in"
+  },
+  {
+    "t_start": 231.83,
+    "t_end": 231.84,
+    "text": "climb that mountain if they see it in"
+  },
+  {
+    "t_start": 231.84,
+    "t_end": 233.67,
+    "text": "climb that mountain if they see it in the distance and other people who say"
+  },
+  {
+    "t_start": 233.67,
+    "t_end": 233.68,
+    "text": "the distance and other people who say"
+  },
+  {
+    "t_start": 233.68,
+    "t_end": 236.11,
+    "text": "the distance and other people who say well you know there's a lake nearby"
+  },
+  {
+    "t_start": 236.11,
+    "t_end": 236.12,
+    "text": "well you know there's a lake nearby"
+  },
+  {
+    "t_start": 236.12,
+    "t_end": 238.39,
+    "text": "well you know there's a lake nearby there's a a nice Hill over here there's"
+  },
+  {
+    "t_start": 238.39,
+    "t_end": 238.4,
+    "text": "there's a a nice Hill over here there's"
+  },
+  {
+    "t_start": 238.4,
+    "t_end": 240.869,
+    "text": "there's a a nice Hill over here there's some green grass why don't I just play"
+  },
+  {
+    "t_start": 240.869,
+    "t_end": 240.879,
+    "text": "some green grass why don't I just play"
+  },
+  {
+    "t_start": 240.879,
+    "t_end": 243.949,
+    "text": "some green grass why don't I just play in this area I I'll learn more and I'll"
+  },
+  {
+    "t_start": 243.949,
+    "t_end": 243.959,
+    "text": "in this area I I'll learn more and I'll"
+  },
+  {
+    "t_start": 243.959,
+    "t_end": 246.47,
+    "text": "in this area I I'll learn more and I'll do more that's interesting shouldn't we"
+  },
+  {
+    "t_start": 246.47,
+    "t_end": 246.48,
+    "text": "do more that's interesting shouldn't we"
+  },
+  {
+    "t_start": 246.48,
+    "t_end": 248.27,
+    "text": "do more that's interesting shouldn't we be encouraging mathematicians to go for"
+  },
+  {
+    "t_start": 248.27,
+    "t_end": 248.28,
+    "text": "be encouraging mathematicians to go for"
+  },
+  {
+    "t_start": 248.28,
+    "t_end": 250.309,
+    "text": "be encouraging mathematicians to go for the isolated Peak though because of all"
+  },
+  {
+    "t_start": 250.309,
+    "t_end": 250.319,
+    "text": "the isolated Peak though because of all"
+  },
+  {
+    "t_start": 250.319,
+    "t_end": 251.83,
+    "text": "the isolated Peak though because of all the things they'll invent to get up"
+  },
+  {
+    "t_start": 251.83,
+    "t_end": 251.84,
+    "text": "the things they'll invent to get up"
+  },
+  {
+    "t_start": 251.84,
+    "t_end": 255.75,
+    "text": "the things they'll invent to get up there well yes that's a good thing to do"
+  },
+  {
+    "t_start": 255.75,
+    "t_end": 255.76,
+    "text": "there well yes that's a good thing to do"
+  },
+  {
+    "t_start": 255.76,
+    "t_end": 258.43,
+    "text": "there well yes that's a good thing to do if there are things to invent so far"
+  },
+  {
+    "t_start": 258.43,
+    "t_end": 258.44,
+    "text": "if there are things to invent so far"
+  },
+  {
+    "t_start": 258.44,
+    "t_end": 260.349,
+    "text": "if there are things to invent so far people have tried a lot of techniques on"
+  },
+  {
+    "t_start": 260.349,
+    "t_end": 260.359,
+    "text": "people have tried a lot of techniques on"
+  },
+  {
+    "t_start": 260.359,
+    "t_end": 262.67,
+    "text": "people have tried a lot of techniques on col outs but I I don't know that it's"
+  },
+  {
+    "t_start": 262.67,
+    "t_end": 262.68,
+    "text": "col outs but I I don't know that it's"
+  },
+  {
+    "t_start": 262.68,
+    "t_end": 264.749,
+    "text": "col outs but I I don't know that it's led to that much new"
+  },
+  {
+    "t_start": 264.749,
+    "t_end": 264.759,
+    "text": "led to that much new"
+  },
+  {
+    "t_start": 264.759,
+    "t_end": 268.79,
+    "text": "led to that much new mathematics the um the FMA problem is a"
+  },
+  {
+    "t_start": 268.79,
+    "t_end": 268.8,
+    "text": "mathematics the um the FMA problem is a"
+  },
+  {
+    "t_start": 268.8,
+    "t_end": 271.629,
+    "text": "mathematics the um the FMA problem is a real classic that was solved really only"
+  },
+  {
+    "t_start": 271.629,
+    "t_end": 271.639,
+    "text": "real classic that was solved really only"
+  },
+  {
+    "t_start": 271.639,
+    "t_end": 273.99,
+    "text": "real classic that was solved really only when it suddenly became connected to"
+  },
+  {
+    "t_start": 273.99,
+    "t_end": 274.0,
+    "text": "when it suddenly became connected to"
+  },
+  {
+    "t_start": 274.0,
+    "t_end": 275.07,
+    "text": "when it suddenly became connected to deep"
+  },
+  {
+    "t_start": 275.07,
+    "t_end": 275.08,
+    "text": "deep"
+  },
+  {
+    "t_start": 275.08,
+    "t_end": 277.39,
+    "text": "deep mathematics there was an early period"
+  },
+  {
+    "t_start": 277.39,
+    "t_end": 277.4,
+    "text": "mathematics there was an early period"
+  },
+  {
+    "t_start": 277.4,
+    "t_end": 280.07,
+    "text": "mathematics there was an early period where it was connected to the"
+  },
+  {
+    "t_start": 280.07,
+    "t_end": 280.08,
+    "text": "where it was connected to the"
+  },
+  {
+    "t_start": 280.08,
+    "t_end": 281.79,
+    "text": "where it was connected to the development of basic algebraic number"
+  },
+  {
+    "t_start": 281.79,
+    "t_end": 281.8,
+    "text": "development of basic algebraic number"
+  },
+  {
+    "t_start": 281.8,
+    "t_end": 283.95,
+    "text": "development of basic algebraic number Theory through the 19th century"
+  },
+  {
+    "t_start": 283.95,
+    "t_end": 283.96,
+    "text": "Theory through the 19th century"
+  },
+  {
+    "t_start": 283.96,
+    "t_end": 286.23,
+    "text": "Theory through the 19th century fantastic developments came out of it"
+  },
+  {
+    "t_start": 286.23,
+    "t_end": 286.24,
+    "text": "fantastic developments came out of it"
+  },
+  {
+    "t_start": 286.24,
+    "t_end": 288.07,
+    "text": "fantastic developments came out of it then there was a kind of dry period I"
+  },
+  {
+    "t_start": 288.07,
+    "t_end": 288.08,
+    "text": "then there was a kind of dry period I"
+  },
+  {
+    "t_start": 288.08,
+    "t_end": 291.99,
+    "text": "then there was a kind of dry period I think when not much really fundamental"
+  },
+  {
+    "t_start": 291.99,
+    "t_end": 292.0,
+    "text": "think when not much really fundamental"
+  },
+  {
+    "t_start": 292.0,
+    "t_end": 294.909,
+    "text": "think when not much really fundamental came out of it then suddenly it became"
+  },
+  {
+    "t_start": 294.909,
+    "t_end": 294.919,
+    "text": "came out of it then suddenly it became"
+  },
+  {
+    "t_start": 294.919,
+    "t_end": 298.029,
+    "text": "came out of it then suddenly it became through the work of of fry I guess"
+  },
+  {
+    "t_start": 298.029,
+    "t_end": 298.039,
+    "text": "through the work of of fry I guess"
+  },
+  {
+    "t_start": 298.039,
+    "t_end": 299.35,
+    "text": "through the work of of fry I guess connected with the theory of elliptic"
+  },
+  {
+    "t_start": 299.35,
+    "t_end": 299.36,
+    "text": "connected with the theory of elliptic"
+  },
+  {
+    "t_start": 299.36,
+    "t_end": 302.35,
+    "text": "connected with the theory of elliptic curve and then ribbet did stuff and then"
+  },
+  {
+    "t_start": 302.35,
+    "t_end": 302.36,
+    "text": "curve and then ribbet did stuff and then"
+  },
+  {
+    "t_start": 302.36,
+    "t_end": 305.55,
+    "text": "curve and then ribbet did stuff and then wild saw that he could really get"
+  },
+  {
+    "t_start": 305.55,
+    "t_end": 305.56,
+    "text": "wild saw that he could really get"
+  },
+  {
+    "t_start": 305.56,
+    "t_end": 308.469,
+    "text": "wild saw that he could really get somewhere so it was when it it kind of"
+  },
+  {
+    "t_start": 308.469,
+    "t_end": 308.479,
+    "text": "somewhere so it was when it it kind of"
+  },
+  {
+    "t_start": 308.479,
+    "t_end": 311.59,
+    "text": "somewhere so it was when it it kind of got engaged when the gears began to mesh"
+  },
+  {
+    "t_start": 311.59,
+    "t_end": 311.6,
+    "text": "got engaged when the gears began to mesh"
+  },
+  {
+    "t_start": 311.6,
+    "t_end": 313.79,
+    "text": "got engaged when the gears began to mesh that it was really became a hot item and"
+  },
+  {
+    "t_start": 313.79,
+    "t_end": 313.8,
+    "text": "that it was really became a hot item and"
+  },
+  {
+    "t_start": 313.8,
+    "t_end": 315.71,
+    "text": "that it was really became a hot item and was solved and that's when it became"
+  },
+  {
+    "t_start": 315.71,
+    "t_end": 315.72,
+    "text": "was solved and that's when it became"
+  },
+  {
+    "t_start": 315.72,
+    "t_end": 318.029,
+    "text": "was solved and that's when it became important so if the collet conjecture is"
+  },
+  {
+    "t_start": 318.029,
+    "t_end": 318.039,
+    "text": "important so if the collet conjecture is"
+  },
+  {
+    "t_start": 318.039,
+    "t_end": 320.629,
+    "text": "important so if the collet conjecture is proven yeah it is possible the person"
+  },
+  {
+    "t_start": 320.629,
+    "t_end": 320.639,
+    "text": "proven yeah it is possible the person"
+  },
+  {
+    "t_start": 320.639,
+    "t_end": 322.629,
+    "text": "proven yeah it is possible the person who does it will win prizes and money it"
+  },
+  {
+    "t_start": 322.629,
+    "t_end": 322.639,
+    "text": "who does it will win prizes and money it"
+  },
+  {
+    "t_start": 322.639,
+    "t_end": 324.43,
+    "text": "who does it will win prizes and money it just depends how they do it I think"
+  },
+  {
+    "t_start": 324.43,
+    "t_end": 324.44,
+    "text": "just depends how they do it I think"
+  },
+  {
+    "t_start": 324.44,
+    "t_end": 326.39,
+    "text": "just depends how they do it I think that's right I think that's right though"
+  },
+  {
+    "t_start": 326.39,
+    "t_end": 326.4,
+    "text": "that's right I think that's right though"
+  },
+  {
+    "t_start": 326.4,
+    "t_end": 328.83,
+    "text": "that's right I think that's right though it's so famous now I think they'll be"
+  },
+  {
+    "t_start": 328.83,
+    "t_end": 328.84,
+    "text": "it's so famous now I think they'll be"
+  },
+  {
+    "t_start": 328.84,
+    "t_end": 330.749,
+    "text": "it's so famous now I think they'll be celebrated whether or not they get big"
+  },
+  {
+    "t_start": 330.749,
+    "t_end": 330.759,
+    "text": "celebrated whether or not they get big"
+  },
+  {
+    "t_start": 330.759,
+    "t_end": 335.07,
+    "text": "celebrated whether or not they get big big money from it the big money chases"
+  },
+  {
+    "t_start": 335.07,
+    "t_end": 335.08,
+    "text": "big money from it the big money chases"
+  },
+  {
+    "t_start": 335.08,
+    "t_end": 337.909,
+    "text": "big money from it the big money chases um prizes slightly randomly I'm"
+  },
+  {
+    "t_start": 337.909,
+    "t_end": 337.919,
+    "text": "um prizes slightly randomly I'm"
+  },
+  {
+    "t_start": 337.919,
+    "t_end": 339.99,
+    "text": "um prizes slightly randomly I'm afraid I don't know that it really"
+  },
+  {
+    "t_start": 339.99,
+    "t_end": 340.0,
+    "text": "afraid I don't know that it really"
+  },
+  {
+    "t_start": 340.0,
+    "t_end": 342.029,
+    "text": "afraid I don't know that it really inspires much mathematical work but it"
+  },
+  {
+    "t_start": 342.029,
+    "t_end": 342.039,
+    "text": "inspires much mathematical work but it"
+  },
+  {
+    "t_start": 342.039,
+    "t_end": 343.469,
+    "text": "inspires much mathematical work but it does make good"
+  },
+  {
+    "t_start": 343.469,
+    "t_end": 343.479,
+    "text": "does make good"
+  },
+  {
+    "t_start": 343.479,
+    "t_end": 347.469,
+    "text": "does make good publicity paper reman did precisely that"
+  },
+  {
+    "t_start": 347.469,
+    "t_end": 347.479,
+    "text": "publicity paper reman did precisely that"
+  },
+  {
+    "t_start": 347.479,
+    "t_end": 350.07,
+    "text": "publicity paper reman did precisely that he explained how to extend the this"
+  },
+  {
+    "t_start": 350.07,
+    "t_end": 350.08,
+    "text": "he explained how to extend the this"
+  },
+  {
+    "t_start": 350.08,
+    "t_end": 352.39,
+    "text": "he explained how to extend the this function to all possible values except"
+  },
+  {
+    "t_start": 352.39,
+    "t_end": 352.4,
+    "text": "function to all possible values except"
+  },
+  {
+    "t_start": 352.4,
+    "t_end": 355.029,
+    "text": "function to all possible values except for one so there's only one value where"
+  },
+  {
+    "t_start": 355.029,
+    "t_end": 355.039,
+    "text": "for one so there's only one value where"
+  },
+  {
+    "t_start": 355.039,
+    "t_end": 356.749,
+    "text": "for one so there's only one value where there's nothing you can do that somehow"
+  },
+  {
+    "t_start": 356.749,
+    "t_end": 356.759,
+    "text": "there's nothing you can do that somehow"
+  },
+  {
+    "t_start": 356.759,
+    "t_end": 360.479,
+    "text": "there's nothing you can do that somehow it will be undefined"
+  }
+]

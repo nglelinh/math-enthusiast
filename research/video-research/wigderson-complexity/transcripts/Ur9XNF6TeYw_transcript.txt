@@ -1,0 +1,88 @@
+computation to the foundations of complexity Theory cryptography and
+expander graphs the pursuit of understanding the fundamental principles
+understanding the fundamental principles governing the theory of computation has
+boundaries of what is possible join us as we hear from Avi vidasan the 2023 ACM
+as we hear from Avi vidasan the 2023 ACM am touring award recipient whose
+am touring award recipient whose groundbreaking work has reshaped our
+groundbreaking work has reshaped our understanding of the
+field the of computation which is basically the mathematical foundations
+basically the mathematical foundations of computing you study the power and
+limitations and properties of various computational models this theoretical
+computational models this theoretical work often Guided by completely non
+following your nose is fundamental not just for itself but almost always turns
+just for itself but almost always turns out to find appli
+ations around the 1970s people started inventing publicistic algorithms uh
+inventing publicistic algorithms uh there were problems that there was no
+algorithm which was deterministic and people had the idea that maybe like in
+people had the idea that maybe like in statistics you make some random choices
+statistics you make some random choices in the algorithm this may allow to solve
+survey you ask a few random people and you get a good sense of what the whole
+population thinks it's much more efficient
+around the early 80s people in Berkeley mainly Manuel blam and the students
+mainly Manuel blam and the students realized that under some assumptions you
+realized that under some assumptions you can simulate randomized algorithms by
+can simulate randomized algorithms by the terministic ones I learned about
+the terministic ones I learned about this and together with nor Nissan we
+this and together with nor Nissan we built What's called the sudum generator
+built What's called the sudum generator or something that is deterministic but
+or something that is deterministic but looks like it's producing random numbers
+looks like it's producing random numbers from just standard assumptions in the
+field that related to this p and NP problem NP versus P ask the question of
+problem NP versus P ask the question of whether everything that can be easily
+whether everything that can be easily verified can also be easily
+intuition at least I mean if you lost your keys you know in a forest we don't
+your keys you know in a forest we don't know a better way to find it and go and
+happens upon them and they come here are your kids you recognize your kids so it
+your kids you recognize your kids so it seems that verifying that the solution
+is correct is much easier and finding it is much harder I think the connection to
+is much harder I think the connection to creativity is that sometimes people find
+creativity is that sometimes people find things like mathematicians find the
+proof of a very difficult theorem and it seems like it was creative it's not
+seems like it was creative it's not clear to me I mean clearly his process
+clear to me I mean clearly his process was an efficient process this is why
+was an efficient process this is why it's important that every process you
+know can be S of as a computational process let me agree with Marvin Minsky
+process let me agree with Marvin Minsky to me everybody is a machine we are born
+with our brains which is some platform and with an initial algorithm maybe it's
+and with an initial algorithm maybe it's a learning algorithm and then we we
+a learning algorithm and then we we experience life I have no problem with
+experience life I have no problem with World being completely deterministic
+World being completely deterministic there are two issues one is what is the
+real word like and the other our subjective experience so I I'm you know
+subjective experience so I I'm you know debating whether to go to movie A or
+movie B I seem not to know which one I choose it seems like I am choosing it
+choose it seems like I am choosing it with my own free will maybe it's all
+with my own free will maybe it's all dictated maybe the processes in my mind
+dictated maybe the processes in my mind could be you know predicted completely
+could be you know predicted completely it wouldn't change my subjective feeling
+it wouldn't change my subjective feeling what we feel Randomness in life lack
+what we feel Randomness in life lack chance is all subjective and it's our
+chance is all subjective and it's our interpretation of what's Happening
+whether it's the terministic or not anyway that's that's my view I argument
+with lots of people about it but it's fun really beautiful and important thing
+fun really beautiful and important thing about this area of complexity Theory
+about this area of complexity Theory theoretical computer science is that
+indeed different parts of it which seem to talk about different subjects and
+to talk about different subjects and different structures are actually very
+well connected and the import of ideas between different parts of the field led
+between different parts of the field led to Major breakthroughs and and progress
+to Major breakthroughs and and progress EXP under graphs for example initially
+EXP under graphs for example initially their purpose was being robust networks
+their purpose was being robust networks but then they turned out to be essential
+applications in cryptography they found applications in various algorithms just
+people found ways to make from them error correcting codes I find it quite
+error correcting codes I find it quite amazing that I'm more than 40 years
+amazing that I'm more than 40 years doing research and I'm still being
+surprised and the you know sort of OD by beautiful things that people are doing
+beautiful things that people are doing and a problem can stand 30 years without
+a solution then somebody sees how to overcome the obstacle what I tell my
+overcome the obstacle what I tell my students my posts young people is that
+students my posts young people is that uh research is a great life but still
+not for everyone because the normal experience of a day's work is failure of
+experience of a day's work is failure of course it's easy to enjoy the discovery
+course it's easy to enjoy the discovery but I think I and and many other
+researchers I think are there because they also enjoy just thinking about
+they also enjoy just thinking about problems and uh trying to understand
+problems and uh trying to understand them even with the understanding that it
+them even with the understanding that it may be months till uh you know something
+will come up or may be month till you give it up and go to some something else

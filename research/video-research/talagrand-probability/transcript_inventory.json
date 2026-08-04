@@ -1,0 +1,21 @@
+{
+  "slug": "talagrand-probability",
+  "videos": [
+    {
+      "id": "3yIwl6XC0xA",
+      "title": "Talagrand Abel lecture — Chaining: a long story",
+      "has_transcript": true,
+      "chars": 42124,
+      "units": 25,
+      "url": "https://www.youtube.com/watch?v=3yIwl6XC0xA"
+    },
+    {
+      "id": "atrxvobEdOo",
+      "title": "Assaf Naor — Talagrand almost everywhere",
+      "has_transcript": true,
+      "chars": 53650,
+      "units": 43,
+      "url": "https://www.youtube.com/watch?v=atrxvobEdOo"
+    }
+  ]
+}

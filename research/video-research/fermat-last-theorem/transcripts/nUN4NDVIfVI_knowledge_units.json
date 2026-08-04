@@ -1,0 +1,135 @@
+[
+  {
+    "id": "ku_video_nUN4NDVIfVI_0",
+    "t_start": 0.1,
+    "t_end": 91.0,
+    "type": "overview",
+    "summary": "KR: Well, the usual way that people, um, discuss it is to talk about perfect squares first. So, if you have studied the Pythagorean Theorem there's a formula that the square of the hypotenuse is the sum of the two squares of the sides of a right triangle. So you might ask if the, err, the sides of a right triangle are whole numbers might it happen that the hypotenuse is also a whole number. They're called Pythagorean triples and the Greeks figured out all of the Pythagorean Triples. Okay, so what happened next is I think it must have been very natural to look at the equation A to the fourth…"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_91",
+    "t_start": 91.0,
+    "t_end": 182.3,
+    "type": "overview",
+    "summary": "inherited by Fermat's son Samuel de Fermat there are many, many marginal notes and Samuel published a revised version, annotated version of Diophatus's Book in which all his father's writings are reproduced. And the reason that Fermat's Last Theorem was called Fermat's Last Theorem, is that all the previously on examined marginal notes proved to be correct for they were, ermm prove to be correct or incorrect mostly correct by mathematicians after the seventeenth-century and there was this only one assertion that remained it was the last one was hit list. And you know again, I'm not an exper…"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_182",
+    "t_start": 182.3,
+    "t_end": 272.6,
+    "type": "overview",
+    "summary": "attractive to a mathematician to prove him wrong and to find these three numbers that you could plug in that would do it? Would that have been more triumphant? KR: Well, it would have been- would have been very exciting and would have made lots of news. And then the proof, so to speak, would have been simply on a single counter-example that would have fit, you know, very neatly in a newspaper column, you known, there would have been some story, you know. 'Mathematician in Australia finds the first counter-example to Fermat's Last Theorem'.  Certainly was big news either way. Ermm, the main …"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_272",
+    "t_start": 272.6,
+    "t_end": 363.9,
+    "type": "overview",
+    "summary": "approach to it and there was no kinda fundamental reason why the problem was going to have a positive solution. And when I was a student there was a tremendous interest in what are called elliptic curves and it was realized around nineteen sixty-eight, nineteen sixty-nine, nineteen seventy by André Weil and Goro Shimura in Princeton who built on work of Yutaka Taniyama who was his buddy in Tokyo in the nineteen-fifties. Taniyama had passed away and there was this gradual understanding that elliptic curves really were related modular forms and again that was some completely are apparently in…"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_363",
+    "t_start": 363.9,
+    "t_end": 454.2,
+    "type": "overview",
+    "summary": "because I knew that some of the things that he said that he needed in his argument, um, were very hard. Well, for me a really important thing was in nineteen eighty-five Jean-Pierre Serre, who was one of my mathematical heroes in Paris sat down and kind of tried to distill everything that had been said about the Prey's idea and he came out with a very clear letter and this letter basically said if you can prove this tiny little result which he called epsilon because the number in calculus, epsilon is a small number. He said if you can prove this tiny little epsilon then you can really show …"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_454",
+    "t_start": 454.2,
+    "t_end": 544.9,
+    "type": "overview",
+    "summary": "off and on, during the academic year- nineteen eighty-five and eighty-six. And during this year I was teaching calculus and I was busy with things, there are, you know, colleagues come in and they want you to be on committees. And finally, um, my final grades were submitted in May nineteen eighty-six and I started thinking about this problem again, first when I was on the east coast for a while, going to Europe on and I found myself in Paris. And finally I found myself at an empty desk and on the Max Planck Institute in Bonn where I can just sit and think and I thought about this yet again …"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_545",
+    "t_start": 545.1,
+    "t_end": 635.5,
+    "type": "overview",
+    "summary": "BH: It's like inspiration comes at preordained times. Like you sit down and say, okay for the next two hours before I make my friend Bob a hot dog, I'm gonna have an inspiration and trying to solve the problem, and that's when it happens. It doesn't happen on time, so you're lying on bed- Oh it can, I mean, if you if you think about something very intensively then you can just carry around with you and you know lots of my colleagues say that while they're swimming had some insight or you know lots of people say in the middle of the night they jumped up and they said my god you know why don'…"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_635",
+    "t_start": 635.5,
+    "t_end": 728.3,
+    "type": "overview",
+    "summary": "And on I spoke to him, and I said Barry I sent you this letter explaining how I did a special case, and I really wonder, you know, what I have to do now in the general case. And he looked at me completely quizzically. He said: \"Well, you've already done the general case.\" and basically, he- when he read my letter to seemed obvious to him that there was this extra little thing you carry alone as a supplemental object. And this extra thing which is do the bookkeeping. And, so we sat down at this Caffe Strada which is at the corner of the Berkeley campus, and we had a Cappuccino and he kinda s…"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_728",
+    "t_start": 728.3,
+    "t_end": 820.2,
+    "type": "overview",
+    "summary": "my colleagues are very generous with attributions and praise and there isn't too much of this kinda race to be the first to publish and people basically- I had little fear that someone would try to scoop me on the other hand what was a little worrisome was that I hadn't written down all the details, you know, so I kinda written down very closely the special case. But I hadn't kind of worried about writing thing more generally so what happened was that during the year following that, nineteen 86-87 there was a special program on algebraic geometry and arithmetic geometry at the Mathematical …"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_820",
+    "t_start": 820.2,
+    "t_end": 911.9,
+    "type": "overview",
+    "summary": "And let me just get up and pull off a reprint. Here's my article. It was published in 1990 which really makes are a lot of time between 1986 and 1990. BH: How many pages?  It's like a book. Well it's a more than a pamphlet. If you open up this paper on the very first or second page there's Fermat's equation and an elliptic curve but then they disappear. If you look at the actual article it's more about the technicalities of the subject. It was a big deal in mathematics. It got write ups in the press, including Science magazine if I'm not mistaken. You know, whenever there's a serious announ…"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_911",
+    "t_start": 911.9,
+    "t_end": 1002.0,
+    "type": "overview",
+    "summary": "they have no attribution listeners understand all this is the fear that the persons is providing in this lecture. - You've done this thing which is important if you have a bridge between two things which no other which also Granja. - Well that's right so the um what what I when I showed was that this modularity conjecture which was thought to be was was felt to be true but um wasn't expected to be provable I show that that thing actually implies there was less there I think the main takeaway from my theorem was that since the very conjecture short on the OMA was likely to be true that now y…"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_1001",
+    "t_start": 1002.0,
+    "t_end": 1094.0,
+    "type": "overview",
+    "summary": "wanted to prove Fermat's last theorem by any means possible he given him the means that's what he says I mean if this is surprising to me because modularity theorem by itself is a tremendous price and you know it seems kind of strange that you needed the motivation to Fermats to go and try to prove it if you thought that there was some way side well anyway that's that's that's that's what he says yet we were all together meaning kinda lots of people in the subject in a conference in Cambridge England in June 1993 and usually go to a conference and you see the list speakers and you know you …"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_1094",
+    "t_start": 1094.0,
+    "t_end": 1185.0,
+    "type": "overview",
+    "summary": "there I'm so I can i sat in the front row center and brought my camera and snap the picture of him I wasn't another moment when you know those cuts time stop and when I first realized what was going to happen .. and then you know when it actually did happen there was this some frends of activity I mean the director love of the Isaac Newton Institute where these lectures were held on had ordered a case a Napa Valley brute champagne for the end the lecture is after the lecture we came out into the you know common area only is all the champagne flutes were produced in his bottle started poppin…"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_1184",
+    "t_start": 1185.0,
+    "t_end": 1276.9,
+    "type": "overview",
+    "summary": "and the you know you can say in retrospect that it was really um justified because he was afraid that people would kind of jump all over it because %uh the important so the modularity conjecture and fair I was last there on button he did not on tell me what he was doing he did from confide in to this calling to princeton as he was giving is graduate course where he was working out the ideas that on were instrumental in this paper I think it was only a few days later that I got a copy of this manuscript and the manuscript was very thick nose like 300 pages from single space you know typeset …"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_1276",
+    "t_start": 1276.9,
+    "t_end": 1371.2,
+    "type": "overview",
+    "summary": "on in the way that started was that when the New York Times first heard about his announcement may ask to speak to him and returns me and said and you know you speak to Gina Kolata so I went and on went upstairs and spoke to her for a very long time explaining the whole thing and then I'm somehow the media kept calling me because it was understood from that somehow I was is designated spokesperson so I nice spent the entire summer I'm lecturing about his theorem and I'm fielding phone calls from I'm the press hello for was announcement cast oh I think it was like two weeks what happens in m…"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_1371",
+    "t_start": 1371.2,
+    "t_end": 1464.4,
+    "type": "overview",
+    "summary": "press whatever reason did that mean you will you are contacting and while get updates on the game because my i don't know what to tell them what we call him but those you want to say it was a he gone right not especially Inc he kind of went dark he was working on on mathematics and I wasn't wasn't getting a lot of information out of him at that time you know it was all poison about right i mean I'm wasn't clear whether or not this will get repaired or not and then you know wonderfully it turned out that there was this so repair to the proof from release in completely new insight actually by…"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_1464",
+    "t_start": 1464.4,
+    "t_end": 1555.6,
+    "type": "overview",
+    "summary": "on the next day and make up in this paper so that was kinda very good and you know I don't remember there being a huge celebration on the moment the releases that reprint been just kinda gradually build people understand that the proof is complete and then there was a very large instructional conference at Boston University in summer 1995 different people got up and explain the different elements approve well it was a fabulous pieces mathematics arm as impressed arm with by what what I did and presses I am by my my own were coming I'm even much more impressed by what they did on they had so…"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_1555",
+    "t_start": 1555.6,
+    "t_end": 1647.1,
+    "type": "overview",
+    "summary": "on what some what's amazing for example there's a whole subject an algebraic geometry call deformation theory that was going on when I was a graduate student that I didn't learn I thought that was really far removed from anything involving elliptic curves and on in the years before wells announcement Harry Mazer had developed this new technique of deformation theory in gallery presentations and it turned out to be exactly what Wiles needed the language in the techniques the median for his discussion on and so you know something that seems to be far away technically turn out to be crucial we…"
+  },
+  {
+    "id": "ku_video_nUN4NDVIfVI_1647",
+    "t_start": 1647.1,
+    "t_end": 1672.8,
+    "type": "overview",
+    "summary": "and I try to be on more or less a normal guy and not you know walk around with angels on your shoulder britt to rediscover what FAMAS proof might it be is that they have widely-helds that he had done it already disclaim lot was he telling the truth ? I think by the time we get to 20th century it's quite clear that this is an incredibly complex problem."
+  }
+]

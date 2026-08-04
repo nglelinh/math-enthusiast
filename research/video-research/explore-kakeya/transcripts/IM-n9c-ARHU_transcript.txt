@@ -1,0 +1,217 @@
+I'm assuming everybody here also watches Numberphile
+Giuseppe, we're watching Numberphile. Oh yeah Numberphile is great. So just in case you don't watch numberphile
+You really should and we've got it was one of our recommended channels up there
+Now recently Numberphile posted a video just a couple of days ago about the very very famous
+Kakeya needle problem, it was great as usual, but it got a bit technical in parts and
+Quite a few people actually got lost and so we had a challenge from some of our viewers who also watch Numberphile
+to see whether we could do it a little bit simpler and
+Maybe even without any numbers without any formulas so here's our answer to this challenge, okay?
+So I'll take a slightly different approach one from what people usually do okay? I'm going to use a squeegee
+I'm not going to use a needle
+okay, the squeegee starts out in this screen position here and then it ends in the blue position and
+So you can go for the green position to the blue position many many different ways let's just do the most obvious one
+so we kind of start it out here, and then we could just swipe across like that, okay and
+So it swipes across area because it basically it's the area that gets cleaned, and we're interested in this area, okay?
+And we can swipe in many many different ways let's do it in a second way, so for example
+We could swipe up there, and then we could swipe
+down there
+That gives us a different area right, and now
+obviously, we can go really really wild but kind of swiping like this before we kind of get to blue and
+That will get like one more area, but now it's a slightly strange question
+What's the minimal area we can create like this so how can we get from left to right and create minimal wiping area?
+Okay, and it might seem that well
+I mean there was the square at the beginning, and there's this arrow here actually the same area. oh yeah, yeah
+Yeah, this one's a little bit bigger. Well. It isn't well anyway, maybe maybe the guys can sort it out the comments again
+Why are these two areas the same?
+Okay, now it turns out that you can actually make it a lot smaller than this
+And I'll just show you what the trick is
+So what you do is these two line segments are parallel and actually the squeegee is a mathematical as a mathematical line segment
+so it doesn't have any width for this sort of setup here and
+then what we do is we kind of just extend
+the Green Line and the Blue Line and the first move
+We do is we just kind of move it along this line and since it doesn't have any width
+It's actually not wiping out any area okay, so so far
+we've not wiped anything now we aim from this point up here to that point down there and
+now we wipe like that, okay, and
+now we just move along this line so no extra area created, and then we wipe again and
+then we just move
+Where we want to go?
+Finished right? Now, we will just compare the wiped area to what we had before to this one here
+You can see it's... smaller.
+It's smaller and make sure we can make it even smaller. Can you imagine?
+How can we make it even smaller? And Giuseppe hasn't actually seen this before so just think about it.
+How can we make it even smaller?
+Yeah, so we just go way higher. The higher we go the smaller the angle will be. That's right. So the first move
+You just go higher up, okay?
+So you just go higher up and then
+these angles will get smaller actually it's pretty obvious that these two angles are always going to be the same much and
+So um you know they simultaneously get smaller okay, and I now if I push it really high up
+You know your basic can make this as small as you want
+So if you give me any positive number as small as you want I can make the wiping area that number basically
+Well because we really have to get from left to right and to get from left to right we have to
+Angle this thing at some point in time as as soon as you angle it
+It's going to be positive area doesn't matter how far we go everyone okay? So let's kind of just the warm-up exercise, okay, and
+So why did this work?
+Why does this kind of counter-intuitive thing come up?
+Well mainly because the initial position and the last position are parallel, right?
+So then you can kind of go up, and then with minimal swipe we can kind of bring this into the second position
+So what happens now if we make the second position here like not parallel to the first more like this right or like that
+Or whatever then we also can swipe from here to there
+What's the answer then? How small can we make things? And actually we're just going to go kind of for the
+for the worst possible scenario
+Where we kind of have? This as the initial position and as the final position we kind of have to the whole thing kind of turned 180 degrees
+So what we're requiring here. Is that during the motion
+We are going through 180 degrees before we can come back to what we started with up here
+And that's basically the Kakeya needle problem. It asks if we want to do this. What's the smallest area I can create?okay?
+The answer is also pretty surprising, but let's see how
+Anybody taken off the street like an expert in this would solve the problem of turning like from here to there
+Okay, so I mean I think what everybody would be doing is kind of try something like this all right?
+so we're just going to just go in a circle and
+With it swept out like this - can we do any better than this?
+Do you think Giuseppe can we do any better than this? Well obviously because I set it up like
+Yeah
+There's definitely a better way, so here's a nice one
+so we just start with our line segment like that, then we swipe like 30 degrees and
+We swipe like that
+And we swipe like that, and we swipe like that and basically what we've done. Now is we've swept out an equilateral triangle
+whose height is the length of the squeegee and actually we're going to make the lengths of the squeegee one?
+One centimetre, one meter or whatever one unit of something, okay there one
+And now we can actually compare the areas of those two guys and so the area of that one here is
+0.7 something and the area of this one here is 0.57 so it's actually a lot better and
+for some
+Setup, this is actually the best
+so if you've got like aiming for an area
+That's swept, that doesn't have any kind of indentation or like you know then this is one's actually the best
+But if you are a little bit more relaxed about what you can do
+There's actually better ways of doing this and the problem is like a hundred years old and even then they came up with
+Think better and I'll show you what they came up with
+So what you start out with here is a big circle and inside the big circle is a small circle
+The small circle is one-third of the diameter of the big one
+and I will just draw this guy here and so a
+Point on the boundary trace out is a curve and if you just scale things right we get this figure so the our
+One segment, just fits in like that and now we can
+turn it around in here and
+It's actually quite an amazing
+Movement. You can see like at any any point throughout the movement
+We've got that end bit here touching
+The boundary of the curve this one here that runs all those three points that are really on the boundary it's a very
+tight fit that's it's something really really quite miraculous by itself, so that shape is called the deltoid and
+So how small is [that] one now?
+Well quite a bit smaller than this guy. So any part of the moving segment
+is always touching all three sides.  Yep, always!
+Okay, now
+The thing is, you know it's a hundred years old, at some point of time they actually figure out we can do even better
+You can do it significantly better and here's what we do
+So we'll start out with the same triangle that we'll just use to kind of swipe things out, okay
+and now we'll cut this into little triangles, so the
+Basis of all those little triangles are the same width
+We'll cut it apart like this and overlap those little triangles and overlap more and overlap more okay?
+So now we've gone from a equilateral triangle to a shape that's got an area
+that's a lot less all right, and actually if you use more triangles and are really smart about this pushing together
+You can actually make the area of this shape as small as we want. That's pretty surprising
+It's actually pretty tricky to prove - but it's true
+So you know chop it up into maybe a gazillion little triangles
+And you know push them together in just the right way and actually
+Getting pretty close to zero with the total area okay?
+And now I'm going to show you how you can turn needle around, it is something like this
+so we've got this little tree here, and we've got the initial triangle, okay, and
+Now what we're going to do is let's just focus on the two little triangles on the left, okay
+And I'm going to highlight them here in purple and then brown and I'm also highlighting the common
+You know edge okay? So in yellow, and now [we're] these two guys here in in the tree well
+the Brown Triangle is here and
+The blue triangle is there and obviously those two yellow lines are they parallel
+They are parallel obviously, it's going to be important for later again, okay now
+We're going to start turning our needle in here, or our squeegee
+So for me the squeegee for you know the usual celibates
+It's a needle that's being turned in the plane okay, so there is the squeegee and we're turning it no problem
+What's on the left and on the right now obviously here is stuck, right?
+There's actually no way you can turn this thing further in just inside the figure
+But now we remember the trick the magic move that we designed at the very beginning right and we've got these two parallel lines
+So we do is exactly there right remember that I?
+Didn't come back and now we can turn
+Alright, so that works and well. I mean there's these little wedges that also get swept out here
+But what you really have to imagine is that we've going a lot further out right so basically I said we can push this too
+Close to zero so we kind of just forget about it for forever. What comes next okay? So that's why I mean
+becomes negative, okay
+So now we just keep on going
+But putting in a lot more of those connections and just kind of keep repeating this trick over and over and you can see
+That we're succeeding in slowly turning the squeegee through 60 degrees smart
+So almost there
+and just the last
+What and with wipe sixty degrees if it sort of [wycliffe] degrees?
+Okay, well with [sixty] degrees, but we need 180 so what do we do next well?
+We bring a second tree in okay, so a second tree like this
+[sixty] degrees and
+Then we make a transfer using the same kind of Magic move
+and again
+Imagine that this is really pushed out forever right and coming back
+and we're starting our second 60 degrees and just keep on going like this and we get a
+120 and we need a third tree
+And I'm just to see what the whole figure here looks like
+So that's the whole thing you know let's arrange it like this and get this nice [fish-like]
+thing
+And now I'm just going to show you how the whole hundred eighty works, so [it's] a starting position
+We want to get back to that at the end, but you know we've want to have turned 180 degrees
+So now we go all this complicated movement
+It gets us to there then we make the transfer, alright
+And we get another complicated movement now the transfer and another complicated movement gets us here
+And then we can just push up and we're back to where we started from so pretty pretty cool
+And now what does this say? Well what I said is that if we kind of cut up the triangle at the beginning
+Into lots lots of pieces you can make this overlapping tree as small as we want
+that means we can make the three trees as small as we want and by pushing out like these transfers
+you know really really far. We can make everything
+Inside here as small as we want so give me any
+positive number
+Doesn't matter how small it is, I can arrange this whole set up here
+so the total area swept by the squeegee throughout the movement is
+Smack on this number or less
+So the number of tree the number of trees will still be three
+But then what increases as we're getting smaller and smaller is the number of branches. The number of branches. That's right yeah
+So that's basically one branch or well one tip
+Little triangle that we're using, so there's going to be a lot more tips a lot more of these
+Like kind of Lines starting out and also kind of the pass that you or the distance that you're covering
+Throughout that your journey here is going to be
+Ridiculous and
+So that's that's basically all there is right.
+And if I wanted to do a  full circle would I need more trees?
+No
+We just kind of repeat the whole thing in here because we've done 108 degrees never just kind of go for a second round
+We get 360 degrees
+So that's the maximum amount of trees?
+Yeah, so for this one here it's fine
+We could even do like - we could start off at a 90 degree triangle
+And we would just need two basically, that's also doable. Now why did the Numberphile video turn out
+a little bit technical?
+Well the guy who was explaining it I mean
+He's actually the genius category, right?
+so he's like a Fields medallist like really really serious stuff basically equivalent of a Nobel prize winner in maths and
+He's actually interested in these sorts of things. I mean it might seem like a pretty trivial problem
+You know it's cute, but I mean, what does that all to do with real maths well?
+It's kind of the starting point for some really really deep stuff, that actually quite a few of these Fields medallists are
+are interested in. And I'm going to do a provide some links down here at the bottom to some survey articles by Terry Tao.
+An Australian Fields medallist who talks about this stuff
+and he just have a look at it and kind of get a feel for what's going on and
+so there were two things that made Numberphile's video complicated and
+What the guy was trying to do was actually get you a little bit closer to this
+To the deep end right, by really giving you a good idea of why we can make these things arbitrarily small
+I was skipping over that, right? So he was giving quite a bit of detail there why he can make the the trees really arbitrarily
+small, but also
+He talked a lot more about how exactly you're going to push them together
+And that's very important for later on so basically we can we can subdivide into you know
+Four triangles, eight triangles, sixteen triangles. Maybe doubling up every time and then we can make up these trees
+Now the deep people they are interested in making up the tree
+So they're kind of connected to this making it a sequence of trees that kind of converges to something and in the limit
+This something has very interesting properties, so what it tears is it has area zero
+So we are just getting close to zero this thing. They're really interested in has area zero and
+also, what it still has is basically like a line segment of unit lengths in every single direction right so I mean
+As we turn around we can kind of see like the individual moments that it kind of moves
+You can see like one line segment pointing this way, one line segment pointing this way, one outside, so in all possible directions
+We've got line segments here in our constructions, but the total area is still positive. So what they're getting there is something that has
+Zero area it still has all
+lines in all possible directions and with that sort of stuff you can then do some really amazing things and
+Just in general you want to ask anything about this or anything about The Numberphile's video?
+You know just feel free post in the comments. I'm happy to answer all these things and so now to finish off
+I mean, it just gave me a really really good idea. I mean, I just brought in the pumpkin Pi because it's
+Halloween in a couple days time but of course I mean what I really am going to do now is
+do a t-shirt of my kakeya fish
+And that's it for today

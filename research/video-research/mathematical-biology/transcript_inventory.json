@@ -1,0 +1,29 @@
+{
+  "slug": "mathematical-biology",
+  "videos": [
+    {
+      "id": "Kas0tIxDvrg",
+      "title": "3Blue1Brown — Epidemic modeling / differential equations (related DE series)",
+      "has_transcript": true,
+      "chars": 8287,
+      "units": 6,
+      "url": "https://www.youtube.com/watch?v=Kas0tIxDvrg"
+    },
+    {
+      "id": "Qrp40ck3WpI",
+      "title": "Dr. Trefor Bazett — The MATH of Pandemics",
+      "has_transcript": true,
+      "chars": 21808,
+      "units": 11,
+      "url": "https://www.youtube.com/watch?v=Qrp40ck3WpI"
+    },
+    {
+      "id": "k6nLfCbAzgo",
+      "title": "Numberphile — The Coronavirus Curve (SIR)",
+      "has_transcript": true,
+      "chars": 25092,
+      "units": 15,
+      "url": "https://www.youtube.com/watch?v=k6nLfCbAzgo"
+    }
+  ]
+}

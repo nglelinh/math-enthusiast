@@ -1,0 +1,2822 @@
+[
+  {
+    "t_start": 5.11,
+    "t_end": 7.51,
+    "text": "okay so in this first lecture we look at"
+  },
+  {
+    "t_start": 7.51,
+    "t_end": 12.47,
+    "text": "we look at purely algebraic theory of index"
+  },
+  {
+    "t_start": 14.709,
+    "t_end": 17.75,
+    "text": "from next week of course we'll switch to a functional analytic method"
+  },
+  {
+    "t_start": 17.75,
+    "t_end": 24.31,
+    "text": "a functional analytic method but the point of this purely algebraic"
+  },
+  {
+    "t_start": 24.31,
+    "t_end": 26.15,
+    "text": "presentation is that it's kind of instructive"
+  },
+  {
+    "t_start": 26.15,
+    "t_end": 31.589,
+    "text": "and it's easier to understand and it captures some of the features not all"
+  },
+  {
+    "t_start": 31.589,
+    "t_end": 38.63,
+    "text": "captures some of the features not all but some of the features of the idea of"
+  },
+  {
+    "t_start": 41.03,
+    "t_end": 43.43,
+    "text": "finite rank operators their relations to each other and the idea of index"
+  },
+  {
+    "t_start": 43.43,
+    "t_end": 45.27,
+    "text": "each other and the idea of index in purely algebraic settings so the"
+  },
+  {
+    "t_start": 45.27,
+    "t_end": 49.19,
+    "text": "in purely algebraic settings so the setting is just linear algebra"
+  },
+  {
+    "t_start": 49.19,
+    "t_end": 51.43,
+    "text": "setting is just linear algebra okay so um"
+  },
+  {
+    "t_start": 51.43,
+    "t_end": 56.47,
+    "text": "okay so um so imagine you have an operator t from"
+  },
+  {
+    "t_start": 59.43,
+    "t_end": 60.94,
+    "text": "one vector space to another so this operator"
+  },
+  {
+    "t_start": 60.94,
+    "t_end": 64.71,
+    "text": "so this operator [Music]"
+  },
+  {
+    "t_start": 76.95,
+    "t_end": 78.63,
+    "text": "uh if two conditions are satisfied if uh"
+  },
+  {
+    "t_start": 78.63,
+    "t_end": 82.71,
+    "text": "if uh kernel of t"
+  },
+  {
+    "t_start": 83.83,
+    "t_end": 88.23,
+    "text": "and cool candle of t"
+  },
+  {
+    "t_start": 103.51,
+    "t_end": 108.789,
+    "text": "y divided by image of t"
+  },
+  {
+    "t_start": 111.19,
+    "t_end": 112.87,
+    "text": "so that's the idea of fredholm operator it has final"
+  },
+  {
+    "t_start": 112.87,
+    "t_end": 114.469,
+    "text": "fredholm operator it has final dimensional kernel and finite"
+  },
+  {
+    "t_start": 114.469,
+    "t_end": 116.23,
+    "text": "dimensional kernel and finite dimensional coherence"
+  },
+  {
+    "t_start": 116.23,
+    "t_end": 121.59,
+    "text": "so when you have um a fretting operator then you can define"
+  },
+  {
+    "t_start": 121.59,
+    "t_end": 122.95,
+    "text": "a fretting operator then you can define its index"
+  },
+  {
+    "t_start": 122.95,
+    "t_end": 127.99,
+    "text": "its index so"
+  },
+  {
+    "t_start": 146.309,
+    "t_end": 147.75,
+    "text": "is defined by"
+  },
+  {
+    "t_start": 147.75,
+    "t_end": 152.79,
+    "text": "so the notation is ind for index so called index of t sometimes we don't"
+  },
+  {
+    "t_start": 152.79,
+    "t_end": 157.19,
+    "text": "called index of t sometimes we don't even put a bracket around t it's called"
+  },
+  {
+    "t_start": 157.19,
+    "t_end": 165.27,
+    "text": "is a difference of two numbers uh dimension of kernel"
+  },
+  {
+    "t_start": 167.75,
+    "t_end": 175.509,
+    "text": "and dimension of coherent of t minus dimensions"
+  },
+  {
+    "t_start": 176.71,
+    "t_end": 178.869,
+    "text": "okay so"
+  },
+  {
+    "t_start": 178.869,
+    "t_end": 180.07,
+    "text": "so obviously"
+  },
+  {
+    "t_start": 180.07,
+    "t_end": 184.63,
+    "text": "obviously for this definition to make sense"
+  },
+  {
+    "t_start": 184.63,
+    "t_end": 189.509,
+    "text": "kernel and cochlear t has to be finite dimensional so that you can take"
+  },
+  {
+    "t_start": 189.509,
+    "t_end": 194.869,
+    "text": "dimensional so that you can take the difference of the dimensions"
+  },
+  {
+    "t_start": 196.229,
+    "t_end": 202.149,
+    "text": "i should make one remark that this concept is interesting only if both x"
+  },
+  {
+    "t_start": 202.149,
+    "t_end": 203.91,
+    "text": "concept is interesting only if both x and y these"
+  },
+  {
+    "t_start": 203.91,
+    "t_end": 207.67,
+    "text": "linear spaces x and y are infinite dimensional"
+  },
+  {
+    "t_start": 207.67,
+    "t_end": 212.229,
+    "text": "dimensional so just a remark"
+  },
+  {
+    "t_start": 219.91,
+    "t_end": 223.91,
+    "text": "so thread hold"
+  },
+  {
+    "t_start": 228.309,
+    "t_end": 235.99,
+    "text": "are interesting"
+  },
+  {
+    "t_start": 260.39,
+    "t_end": 265.189,
+    "text": "uh so in fact you can easily uh prove uh for yourself"
+  },
+  {
+    "t_start": 265.189,
+    "t_end": 268.23,
+    "text": "that if x is finite dimensional"
+  },
+  {
+    "t_start": 268.23,
+    "t_end": 269.83,
+    "text": "finite dimensional and y"
+  },
+  {
+    "t_start": 269.83,
+    "t_end": 273.83,
+    "text": "and y is infinite dimensional"
+  },
+  {
+    "t_start": 275.749,
+    "t_end": 279.909,
+    "text": "and in that situation there is no threat from operator from x to y"
+  },
+  {
+    "t_start": 288.469,
+    "t_end": 295.51,
+    "text": "similarly for y and x"
+  },
+  {
+    "t_start": 296.55,
+    "t_end": 300.95,
+    "text": "x is infinite dimensional"
+  },
+  {
+    "t_start": 303.029,
+    "t_end": 303.909,
+    "text": "and y is"
+  },
+  {
+    "t_start": 303.909,
+    "t_end": 307.27,
+    "text": "is finite"
+  },
+  {
+    "t_start": 308.469,
+    "t_end": 321.51,
+    "text": "okay um so if those are finite dimensional"
+  },
+  {
+    "t_start": 323.11,
+    "t_end": 325.749,
+    "text": "and again this concept is not interesting for the following reason"
+  },
+  {
+    "t_start": 325.749,
+    "t_end": 326.87,
+    "text": "interesting for the following reason first of all"
+  },
+  {
+    "t_start": 326.87,
+    "t_end": 328.79,
+    "text": "first of all in that case"
+  },
+  {
+    "t_start": 328.79,
+    "t_end": 342.55,
+    "text": "from finite dimensional space to finite dimension right in that case"
+  },
+  {
+    "t_start": 345.029,
+    "t_end": 347.59,
+    "text": "and not only that um the index also is uh"
+  },
+  {
+    "t_start": 347.59,
+    "t_end": 349.59,
+    "text": "the index also is uh it's not that interesting"
+  },
+  {
+    "t_start": 349.59,
+    "t_end": 360.629,
+    "text": "although it's relatively interesting but it's not that interesting because this"
+  },
+  {
+    "t_start": 361.99,
+    "t_end": 372.469,
+    "text": "turns out to be well you can you just use a rank"
+  },
+  {
+    "t_start": 373.749,
+    "t_end": 379.59,
+    "text": "so it's just independent of"
+  },
+  {
+    "t_start": 385.59,
+    "t_end": 390.87,
+    "text": "fredholm operators and index theory is a purely infinite dimensional theory so"
+  },
+  {
+    "t_start": 390.87,
+    "t_end": 395.029,
+    "text": "purely infinite dimensional theory so it's really interesting only both x and"
+  },
+  {
+    "t_start": 395.029,
+    "t_end": 402.87,
+    "text": "are infinite so that's something we have to keep in"
+  },
+  {
+    "t_start": 407.35,
+    "t_end": 412.95,
+    "text": "okay so there is now a kind of so then so what is an example of this"
+  },
+  {
+    "t_start": 415.43,
+    "t_end": 418.15,
+    "text": "the simplest example of fresno operator of course are invertible objects right"
+  },
+  {
+    "t_start": 418.15,
+    "t_end": 419.27,
+    "text": "of course are invertible objects right so"
+  },
+  {
+    "t_start": 419.27,
+    "t_end": 427.029,
+    "text": "from x to y is invertible"
+  },
+  {
+    "t_start": 427.029,
+    "t_end": 433.35,
+    "text": "is invertible is an isomorphism"
+  },
+  {
+    "t_start": 435.589,
+    "t_end": 443.909,
+    "text": "then in this case of course t is a threat home"
+  },
+  {
+    "t_start": 447.589,
+    "t_end": 450.15,
+    "text": "well i mean of t is 0 and t is objective cochlear is"
+  },
+  {
+    "t_start": 450.15,
+    "t_end": 451.35,
+    "text": "t is objective cochlear is also zero"
+  },
+  {
+    "t_start": 451.35,
+    "t_end": 457.51,
+    "text": "and its index is zero minus zero which is uh zero so"
+  },
+  {
+    "t_start": 457.51,
+    "t_end": 462.469,
+    "text": "just say index of t is equal to zero"
+  },
+  {
+    "t_start": 462.469,
+    "t_end": 466.629,
+    "text": "is equal to zero so invertible operators are certainly"
+  },
+  {
+    "t_start": 466.629,
+    "t_end": 472.71,
+    "text": "and one of the ideas of this old threat home theory is that um"
+  },
+  {
+    "t_start": 472.71,
+    "t_end": 478.629,
+    "text": "indeed threat home operators are kind of almost invertible operators"
+  },
+  {
+    "t_start": 478.629,
+    "t_end": 480.469,
+    "text": "kind of almost invertible operators that's how we should"
+  },
+  {
+    "t_start": 480.469,
+    "t_end": 486.55,
+    "text": "i think think of fredholm operators so fredholm so the philosophy i mean is"
+  },
+  {
+    "t_start": 486.55,
+    "t_end": 489.67,
+    "text": "fredholm so the philosophy i mean is that"
+  },
+  {
+    "t_start": 491.189,
+    "t_end": 496.07,
+    "text": "means almost invertible i mean this needs some explanation some experience"
+  },
+  {
+    "t_start": 496.07,
+    "t_end": 497.51,
+    "text": "needs some explanation some experience some working but"
+  },
+  {
+    "t_start": 497.51,
+    "t_end": 506.39,
+    "text": "some working but gradually we will develop that idea"
+  },
+  {
+    "t_start": 511.35,
+    "t_end": 516.469,
+    "text": "so to understand this idea of what almost means we have to look at the"
+  },
+  {
+    "t_start": 516.469,
+    "t_end": 518.389,
+    "text": "almost means we have to look at the extreme opposite on"
+  },
+  {
+    "t_start": 518.389,
+    "t_end": 525.43,
+    "text": "of the idea of fretfulness and that is the idea of finite rank"
+  },
+  {
+    "t_start": 525.43,
+    "t_end": 528.79,
+    "text": "so that's something that's of course very well known"
+  },
+  {
+    "t_start": 528.79,
+    "t_end": 530.87,
+    "text": "very well known so um"
+  },
+  {
+    "t_start": 530.87,
+    "t_end": 543.91,
+    "text": "so um i just say"
+  },
+  {
+    "t_start": 546.71,
+    "t_end": 555.11,
+    "text": "in this situation t is finite right you can just find that"
+  },
+  {
+    "t_start": 564.71,
+    "t_end": 567.03,
+    "text": "image of t is less than infinite so as a finite dimension of image this operator"
+  },
+  {
+    "t_start": 567.03,
+    "t_end": 568.07,
+    "text": "finite dimension of image this operator t"
+  },
+  {
+    "t_start": 568.07,
+    "t_end": 573.509,
+    "text": "so of course in the case that x and y are both infinite dimensional that as we"
+  },
+  {
+    "t_start": 573.509,
+    "t_end": 577.509,
+    "text": "are both infinite dimensional that as we discussed is the only interesting case"
+  },
+  {
+    "t_start": 577.509,
+    "t_end": 580.63,
+    "text": "discussed is the only interesting case the finite rank operator is never"
+  },
+  {
+    "t_start": 580.63,
+    "t_end": 581.75,
+    "text": "threatened because"
+  },
+  {
+    "t_start": 581.75,
+    "t_end": 586.71,
+    "text": "it is finite dimensional so it's corky and it's going to be even"
+  },
+  {
+    "t_start": 586.71,
+    "t_end": 589.43,
+    "text": "and it's going to be even so"
+  },
+  {
+    "t_start": 594.389,
+    "t_end": 602.87,
+    "text": "is that t is not"
+  },
+  {
+    "t_start": 607.03,
+    "t_end": 610.15,
+    "text": "so in a sense uh well knowing exactly the two classes are completely destroyed"
+  },
+  {
+    "t_start": 610.15,
+    "t_end": 615.59,
+    "text": "the two classes are completely destroyed and they have no intersection"
+  },
+  {
+    "t_start": 616.79,
+    "t_end": 622.23,
+    "text": "okay so um"
+  },
+  {
+    "t_start": 623.11,
+    "t_end": 624.15,
+    "text": "so now"
+  },
+  {
+    "t_start": 624.15,
+    "t_end": 628.87,
+    "text": "some properties of final prank operators i can"
+  },
+  {
+    "t_start": 628.87,
+    "t_end": 632.389,
+    "text": "formulate and they are very easy to prove"
+  },
+  {
+    "t_start": 632.389,
+    "t_end": 642.79,
+    "text": "so one of them is that"
+  },
+  {
+    "t_start": 645.11,
+    "t_end": 647.35,
+    "text": "this spinal track operators inside"
+  },
+  {
+    "t_start": 647.35,
+    "t_end": 652.069,
+    "text": "algebra operators actually form a two-sided id"
+  },
+  {
+    "t_start": 652.069,
+    "t_end": 658.47,
+    "text": "two-sided id so"
+  },
+  {
+    "t_start": 660.87,
+    "t_end": 666.47,
+    "text": "excellent so l of x x is the set of all linear operators from x to x and this is"
+  },
+  {
+    "t_start": 666.47,
+    "t_end": 669.11,
+    "text": "linear operators from x to x and this is our finite rank"
+  },
+  {
+    "t_start": 669.11,
+    "t_end": 677.99,
+    "text": "our finite rank is a two-sided value"
+  },
+  {
+    "t_start": 679.35,
+    "t_end": 683.35,
+    "text": "in fact it's easy to see that the sum of two finite rank operators is finally"
+  },
+  {
+    "t_start": 683.35,
+    "t_end": 686.47,
+    "text": "two finite rank operators is finally ranked and if you pre-multiply or"
+  },
+  {
+    "t_start": 686.47,
+    "t_end": 688.71,
+    "text": "ranked and if you pre-multiply or post-multiply"
+  },
+  {
+    "t_start": 688.71,
+    "t_end": 697.19,
+    "text": "a finite rank operator with any operator or you're going to get finite rank this"
+  },
+  {
+    "t_start": 700.31,
+    "t_end": 702.55,
+    "text": "properties of linear maps so this is basic basic basic stuff"
+  },
+  {
+    "t_start": 702.55,
+    "t_end": 710.47,
+    "text": "so but it's it's very important to realize that this is a two-sided idea"
+  },
+  {
+    "t_start": 720.71,
+    "t_end": 721.99,
+    "text": "now there is a characterization of"
+  },
+  {
+    "t_start": 721.99,
+    "t_end": 729.43,
+    "text": "threat home operators in terms of finite rank operators which"
+  },
+  {
+    "t_start": 732.47,
+    "t_end": 735.11,
+    "text": "and that actually to some extent explains this idea of"
+  },
+  {
+    "t_start": 735.11,
+    "t_end": 738.87,
+    "text": "explains this idea of that freedom operators are almost"
+  },
+  {
+    "t_start": 738.87,
+    "t_end": 743.269,
+    "text": "so this result is called atkinson's theorem so"
+  },
+  {
+    "t_start": 743.269,
+    "t_end": 749.829,
+    "text": "i'm going to recall again this is a purely algebraic"
+  },
+  {
+    "t_start": 749.829,
+    "t_end": 755.67,
+    "text": "function analytic adjustments theorem that we will prove uh"
+  },
+  {
+    "t_start": 755.67,
+    "t_end": 767.35,
+    "text": "[Music] so let me just"
+  },
+  {
+    "t_start": 769.11,
+    "t_end": 774.87,
+    "text": "okay the proof is not difficult and it's"
+  },
+  {
+    "t_start": 776.87,
+    "t_end": 778.15,
+    "text": "finding complementary subspaces and stuff like that"
+  },
+  {
+    "t_start": 778.15,
+    "t_end": 781.829,
+    "text": "stuff like that so this theorem"
+  },
+  {
+    "t_start": 798.829,
+    "t_end": 803.75,
+    "text": "uh so um result is this"
+  },
+  {
+    "t_start": 806.069,
+    "t_end": 809.509,
+    "text": "so we just look at just to simplify notation and presentation i'm now going"
+  },
+  {
+    "t_start": 809.509,
+    "t_end": 815.75,
+    "text": "notation and presentation i'm now going to assume y is equal to x but results"
+  },
+  {
+    "t_start": 815.75,
+    "t_end": 820.79,
+    "text": "with all these modifications work in general but just take t from x to x"
+  },
+  {
+    "t_start": 820.79,
+    "t_end": 828.71,
+    "text": "general but just take t from x to x so a linear map from x to x is third"
+  },
+  {
+    "t_start": 829.509,
+    "t_end": 834.629,
+    "text": "um if and only it is invertible modulo this"
+  },
+  {
+    "t_start": 834.629,
+    "t_end": 837.189,
+    "text": "if and only it is invertible modulo this finite rank operators"
+  },
+  {
+    "t_start": 837.189,
+    "t_end": 841.269,
+    "text": "finite rank operators so if an only"
+  },
+  {
+    "t_start": 841.269,
+    "t_end": 846.47,
+    "text": "t is invertible"
+  },
+  {
+    "t_start": 850.15,
+    "t_end": 853.829,
+    "text": "um finite rank operators"
+  },
+  {
+    "t_start": 860.31,
+    "t_end": 864.389,
+    "text": "modulo finite rank operators being invertible we can"
+  },
+  {
+    "t_start": 864.389,
+    "t_end": 865.35,
+    "text": "invertible we can write it"
+  },
+  {
+    "t_start": 865.35,
+    "t_end": 869.59,
+    "text": "write it in two ways"
+  },
+  {
+    "t_start": 872.87,
+    "t_end": 874.31,
+    "text": "if pi of t um"
+  },
+  {
+    "t_start": 874.31,
+    "t_end": 881.43,
+    "text": "belonging to the quotient algebra l of xx"
+  },
+  {
+    "t_start": 901.91,
+    "t_end": 903.189,
+    "text": "uh this pie is the natural projection from"
+  },
+  {
+    "t_start": 903.189,
+    "t_end": 908.23,
+    "text": "l of xx so this is a ring of"
+  },
+  {
+    "t_start": 908.23,
+    "t_end": 913.59,
+    "text": "i mean it's an algebra or your field or whatever and this is a two-sided idea so"
+  },
+  {
+    "t_start": 913.59,
+    "t_end": 916.31,
+    "text": "whatever and this is a two-sided idea so we can take a quotient"
+  },
+  {
+    "t_start": 916.31,
+    "t_end": 926.55,
+    "text": "we can take a quotient and go into the quotient algebra which"
+  },
+  {
+    "t_start": 927.67,
+    "t_end": 932.31,
+    "text": "the result says that t is a fret horn here"
+  },
+  {
+    "t_start": 932.31,
+    "t_end": 937.43,
+    "text": "if and only if you push it into this quotient algebra becomes an invertible"
+  },
+  {
+    "t_start": 937.43,
+    "t_end": 939.749,
+    "text": "quotient algebra becomes an invertible element of this algebra"
+  },
+  {
+    "t_start": 939.749,
+    "t_end": 946.629,
+    "text": "element of this algebra so of course now this is equivalent to"
+  },
+  {
+    "t_start": 953.43,
+    "t_end": 957.189,
+    "text": "again from x to x such that"
+  },
+  {
+    "t_start": 958.87,
+    "t_end": 965.91,
+    "text": "t s are not identity but they are uh minus but the difference to one"
+  },
+  {
+    "t_start": 965.91,
+    "t_end": 970.71,
+    "text": "is almost zero in the sense that they are finite line complicated so st minus"
+  },
+  {
+    "t_start": 970.71,
+    "t_end": 971.509,
+    "text": "are finite line complicated so st minus one"
+  },
+  {
+    "t_start": 971.509,
+    "t_end": 977.91,
+    "text": "belongs to finite rank and t s minus one also belongs to"
+  },
+  {
+    "t_start": 977.91,
+    "t_end": 979.829,
+    "text": "and t s minus one also belongs to finite rank"
+  },
+  {
+    "t_start": 979.829,
+    "t_end": 983.99,
+    "text": "finite rank x"
+  },
+  {
+    "t_start": 986.069,
+    "t_end": 987.35,
+    "text": "so this s obviously"
+  },
+  {
+    "t_start": 987.35,
+    "t_end": 990.79,
+    "text": "obviously is not unique"
+  },
+  {
+    "t_start": 994.23,
+    "t_end": 995.35,
+    "text": "there could be many many such as"
+  },
+  {
+    "t_start": 995.35,
+    "t_end": 1001.189,
+    "text": "this s can be called the uh quasi-inverse or pseudo inverse"
+  },
+  {
+    "t_start": 1001.189,
+    "t_end": 1005.509,
+    "text": "quasi-inverse or pseudo inverse and in pde theory as we will discuss"
+  },
+  {
+    "t_start": 1005.509,
+    "t_end": 1009.67,
+    "text": "soon this is called the parametrics for"
+  },
+  {
+    "t_start": 1009.67,
+    "t_end": 1014.15,
+    "text": "so t so s"
+  },
+  {
+    "t_start": 1018.23,
+    "t_end": 1024.949,
+    "text": "a parametrics"
+  },
+  {
+    "t_start": 1036.15,
+    "t_end": 1038.63,
+    "text": "of the"
+  },
+  {
+    "t_start": 1038.63,
+    "t_end": 1043.189,
+    "text": "the proof uh in both directions uh first of all the proof of equivalence of two"
+  },
+  {
+    "t_start": 1043.189,
+    "t_end": 1048.47,
+    "text": "statements are is obvious and the proof of the theorem in one form or the other"
+  },
+  {
+    "t_start": 1048.47,
+    "t_end": 1051.59,
+    "text": "of the theorem in one form or the other it's uh it's not difficult this game"
+  },
+  {
+    "t_start": 1051.59,
+    "t_end": 1052.47,
+    "text": "it's uh it's not difficult this game just"
+  },
+  {
+    "t_start": 1052.47,
+    "t_end": 1056.71,
+    "text": "simple linear algebra but it's an extremely"
+  },
+  {
+    "t_start": 1056.71,
+    "t_end": 1060.23,
+    "text": "extremely interesting result"
+  },
+  {
+    "t_start": 1065.75,
+    "t_end": 1071.51,
+    "text": "we will see that this algebra uh a kind of"
+  },
+  {
+    "t_start": 1074.07,
+    "t_end": 1075.59,
+    "text": "suitable analytic version of this where we have to"
+  },
+  {
+    "t_start": 1075.59,
+    "t_end": 1080.87,
+    "text": "complete this finite rank operator for something called uh compact operators"
+  },
+  {
+    "t_start": 1080.87,
+    "t_end": 1083.59,
+    "text": "something called uh compact operators is going to be um"
+  },
+  {
+    "t_start": 1083.59,
+    "t_end": 1087.19,
+    "text": "is going to be um an important algebra so this is a kind"
+  },
+  {
+    "t_start": 1087.19,
+    "t_end": 1091.99,
+    "text": "algebraic analog of caulking algebra so"
+  },
+  {
+    "t_start": 1091.99,
+    "t_end": 1099.909,
+    "text": "we'll see okay so"
+  },
+  {
+    "t_start": 1104.87,
+    "t_end": 1106.83,
+    "text": "the quality of this result is that"
+  },
+  {
+    "t_start": 1106.83,
+    "t_end": 1108.87,
+    "text": "is that if um"
+  },
+  {
+    "t_start": 1108.87,
+    "t_end": 1112.71,
+    "text": "you have two uh fredholm operators you multiply them and you're going to get"
+  },
+  {
+    "t_start": 1112.71,
+    "t_end": 1115.51,
+    "text": "multiply them and you're going to get the fertile operator again so that's"
+  },
+  {
+    "t_start": 1115.51,
+    "t_end": 1117.51,
+    "text": "the fertile operator again so that's kind of"
+  },
+  {
+    "t_start": 1117.51,
+    "t_end": 1119.029,
+    "text": "kind of um"
+  },
+  {
+    "t_start": 1119.029,
+    "t_end": 1125.43,
+    "text": "very interesting and actually a kind of an important result but it follows"
+  },
+  {
+    "t_start": 1125.43,
+    "t_end": 1127.11,
+    "text": "an important result but it follows easily from this"
+  },
+  {
+    "t_start": 1127.11,
+    "t_end": 1133.99,
+    "text": "easily from this uh characterization so the chord is that"
+  },
+  {
+    "t_start": 1137.669,
+    "t_end": 1144.789,
+    "text": "t1 and t2 fertile"
+  },
+  {
+    "t_start": 1163.669,
+    "t_end": 1169.909,
+    "text": "so this is space of fertile operators uh from uh oh this is finite rank for"
+  },
+  {
+    "t_start": 1169.909,
+    "t_end": 1172.47,
+    "text": "from uh oh this is finite rank for fredholm i didn't have a notation yeah"
+  },
+  {
+    "t_start": 1172.47,
+    "t_end": 1175.59,
+    "text": "fredholm i didn't have a notation yeah okay so uh the space of return operators"
+  },
+  {
+    "t_start": 1175.59,
+    "t_end": 1178.39,
+    "text": "okay so uh the space of return operators is closed under multiplication it"
+  },
+  {
+    "t_start": 1178.39,
+    "t_end": 1181.27,
+    "text": "is closed under multiplication it contains the identity operator but it's"
+  },
+  {
+    "t_start": 1181.27,
+    "t_end": 1185.029,
+    "text": "contains the identity operator but it's certainly not closed under addition"
+  },
+  {
+    "t_start": 1185.029,
+    "t_end": 1186.63,
+    "text": "certainly not closed under addition so it's not a"
+  },
+  {
+    "t_start": 1186.63,
+    "t_end": 1189.43,
+    "text": "so it's not a subspace"
+  },
+  {
+    "t_start": 1191.669,
+    "t_end": 1192.789,
+    "text": "and it's not a soft group either but it's"
+  },
+  {
+    "t_start": 1192.789,
+    "t_end": 1198.15,
+    "text": "he pulled back under this natural projection map of the group the group of"
+  },
+  {
+    "t_start": 1198.15,
+    "t_end": 1199.51,
+    "text": "projection map of the group the group of invertible"
+  },
+  {
+    "t_start": 1199.51,
+    "t_end": 1203.27,
+    "text": "invertible elements here so"
+  },
+  {
+    "t_start": 1206.39,
+    "t_end": 1210.71,
+    "text": "but now an actual question is what is the index of t1 t2"
+  },
+  {
+    "t_start": 1210.71,
+    "t_end": 1212.789,
+    "text": "so that's that's"
+  },
+  {
+    "t_start": 1212.789,
+    "t_end": 1218.87,
+    "text": "that's an important result"
+  },
+  {
+    "t_start": 1223.75,
+    "t_end": 1228.87,
+    "text": "that gives us the index so index of e1 t2 is equal to index of"
+  },
+  {
+    "t_start": 1242.549,
+    "t_end": 1244.789,
+    "text": "it's proof uh needs some ideas uh so because this is purely algebraic uh"
+  },
+  {
+    "t_start": 1244.789,
+    "t_end": 1249.11,
+    "text": "because this is purely algebraic uh there is of course uh has to be a purely"
+  },
+  {
+    "t_start": 1249.11,
+    "t_end": 1250.71,
+    "text": "algebraic proof it exists"
+  },
+  {
+    "t_start": 1250.71,
+    "t_end": 1258.63,
+    "text": "so it uses the following idea so the idea of who"
+  },
+  {
+    "t_start": 1260.789,
+    "t_end": 1263.909,
+    "text": "so i won't prove it i just keep the idea of proof with some hints"
+  },
+  {
+    "t_start": 1263.909,
+    "t_end": 1265.909,
+    "text": "of proof with some hints you can work it out yourself"
+  },
+  {
+    "t_start": 1265.909,
+    "t_end": 1269.96,
+    "text": "you can work it out yourself so the idea of proof is this so imagine"
+  },
+  {
+    "t_start": 1269.96,
+    "t_end": 1271.75,
+    "text": "you have a [Music]"
+  },
+  {
+    "t_start": 1271.75,
+    "t_end": 1287.59,
+    "text": "[Music] chain complex"
+  },
+  {
+    "t_start": 1289.11,
+    "t_end": 1295.59,
+    "text": "so imagine this is the chain complex"
+  },
+  {
+    "t_start": 1297.27,
+    "t_end": 1299.19,
+    "text": "coaching complex in this case that's really called it doesn't matter"
+  },
+  {
+    "t_start": 1299.19,
+    "t_end": 1305.35,
+    "text": "really called it doesn't matter uh so of course you can take its uh"
+  },
+  {
+    "t_start": 1305.35,
+    "t_end": 1309.909,
+    "text": "choreology um so you get this you get these groups h0"
+  },
+  {
+    "t_start": 1309.909,
+    "t_end": 1311.59,
+    "text": "h1 h2"
+  },
+  {
+    "t_start": 1311.59,
+    "t_end": 1313.83,
+    "text": "h2 hm"
+  },
+  {
+    "t_start": 1313.83,
+    "t_end": 1319.669,
+    "text": "hm so this is uh the commonology of this"
+  },
+  {
+    "t_start": 1325.27,
+    "t_end": 1330.23,
+    "text": "so maybe i do know this chain complex by v and this is going to be h of e"
+  },
+  {
+    "t_start": 1333.19,
+    "t_end": 1345.27,
+    "text": "there is a kind of oiler formula in this case which"
+  },
+  {
+    "t_start": 1373.75,
+    "t_end": 1376.39,
+    "text": "so maybe denoted by kylie alternating sum of"
+  },
+  {
+    "t_start": 1376.39,
+    "t_end": 1382.549,
+    "text": "alternating sum of dimensions of these subs of these vector"
+  },
+  {
+    "t_start": 1382.549,
+    "t_end": 1383.51,
+    "text": "spaces okay"
+  },
+  {
+    "t_start": 1383.51,
+    "t_end": 1388.31,
+    "text": "uh so of course for this to make sense we are assuming that these vi's are all"
+  },
+  {
+    "t_start": 1388.31,
+    "t_end": 1390.87,
+    "text": "we are assuming that these vi's are all finite dimension right so that's what"
+  },
+  {
+    "t_start": 1390.87,
+    "t_end": 1391.909,
+    "text": "finite dimension right so that's what we're seeing"
+  },
+  {
+    "t_start": 1391.909,
+    "t_end": 1399.11,
+    "text": "and then these uh h0 a0 h1 h2s and so on are also going to be finite dimensional"
+  },
+  {
+    "t_start": 1399.11,
+    "t_end": 1400.95,
+    "text": "are also going to be finite dimensional so we can take"
+  },
+  {
+    "t_start": 1400.95,
+    "t_end": 1402.87,
+    "text": "so we can take the"
+  },
+  {
+    "t_start": 1402.87,
+    "t_end": 1407.19,
+    "text": "winner characteristic of chromology as well so"
+  },
+  {
+    "t_start": 1407.19,
+    "t_end": 1413.909,
+    "text": "i have h of b is going to be sum minus 1 pi"
+  },
+  {
+    "t_start": 1413.909,
+    "t_end": 1415.27,
+    "text": "is going to be sum minus 1 pi dimension of"
+  },
+  {
+    "t_start": 1415.27,
+    "t_end": 1420.549,
+    "text": "dimension of hr"
+  },
+  {
+    "t_start": 1421.83,
+    "t_end": 1425.75,
+    "text": "so the result is that euler characteristic of b and euler"
+  },
+  {
+    "t_start": 1425.75,
+    "t_end": 1429.029,
+    "text": "euler characteristic of b and euler characteristic of h of b"
+  },
+  {
+    "t_start": 1429.029,
+    "t_end": 1435.83,
+    "text": "and you can easily prove it using rank plus knowledge with"
+  },
+  {
+    "t_start": 1435.83,
+    "t_end": 1438.07,
+    "text": "prove it using rank plus knowledge with your uh"
+  },
+  {
+    "t_start": 1438.07,
+    "t_end": 1450.71,
+    "text": "from linear algebra stuff like that so higher b"
+  },
+  {
+    "t_start": 1453.59,
+    "t_end": 1459.19,
+    "text": "this complex is a cyclic in the sense that it doesn't have any homology or"
+  },
+  {
+    "t_start": 1459.19,
+    "t_end": 1460.789,
+    "text": "that it doesn't have any homology or chromology"
+  },
+  {
+    "t_start": 1460.789,
+    "t_end": 1463.75,
+    "text": "chromology then"
+  },
+  {
+    "t_start": 1466.63,
+    "t_end": 1470.149,
+    "text": "if it is exact in other words then all these guys are zero so"
+  },
+  {
+    "t_start": 1470.149,
+    "t_end": 1475.19,
+    "text": "this right hand side is going to be zero so alternating sums of dimensions"
+  },
+  {
+    "t_start": 1475.19,
+    "t_end": 1479.029,
+    "text": "so alternating sums of dimensions so the curl is that"
+  },
+  {
+    "t_start": 1479.029,
+    "t_end": 1480.47,
+    "text": "if d"
+  },
+  {
+    "t_start": 1480.47,
+    "t_end": 1484.149,
+    "text": "d is exact"
+  },
+  {
+    "t_start": 1487.909,
+    "t_end": 1490.23,
+    "text": "it means h of b equal to zero for all in all dimensions"
+  },
+  {
+    "t_start": 1490.23,
+    "t_end": 1493.269,
+    "text": "for all in all dimensions and then"
+  },
+  {
+    "t_start": 1495.909,
+    "t_end": 1498.31,
+    "text": "sum minus one to the i dimensional"
+  },
+  {
+    "t_start": 1498.31,
+    "t_end": 1502.07,
+    "text": "dimensional v i is"
+  },
+  {
+    "t_start": 1512.63,
+    "t_end": 1518.39,
+    "text": "and then you can cook up a an exact sequence and you can apply this"
+  },
+  {
+    "t_start": 1518.39,
+    "t_end": 1524.63,
+    "text": "this multiplicative or additional formula for index so"
+  },
+  {
+    "t_start": 1524.63,
+    "t_end": 1527.269,
+    "text": "formula for index so uh"
+  },
+  {
+    "t_start": 1533.029,
+    "t_end": 1537.669,
+    "text": "t1 t2 is equal to index of"
+  },
+  {
+    "t_start": 1545.669,
+    "t_end": 1551.75,
+    "text": "so that's a very very important formula it shows that index uh is um"
+  },
+  {
+    "t_start": 1554.23,
+    "t_end": 1561.43,
+    "text": "it's it's acting like like a log like a log function turns a multiplication"
+  },
+  {
+    "t_start": 1561.43,
+    "t_end": 1563.59,
+    "text": "of these operators uh into into"
+  },
+  {
+    "t_start": 1563.59,
+    "t_end": 1571.35,
+    "text": "index of multiplication sum of indices so it's a bit like log"
+  },
+  {
+    "t_start": 1585.029,
+    "t_end": 1586.71,
+    "text": "now maybe it's time for some examples"
+  },
+  {
+    "t_start": 1586.71,
+    "t_end": 1590.23,
+    "text": "examples um"
+  },
+  {
+    "t_start": 1591.59,
+    "t_end": 1598.39,
+    "text": "let me first of all before moving on let me give a very simple algebraic example"
+  },
+  {
+    "t_start": 1598.39,
+    "t_end": 1601.83,
+    "text": "me give a very simple algebraic example to convince you that index"
+  },
+  {
+    "t_start": 1601.83,
+    "t_end": 1603.99,
+    "text": "to convince you that index can be actually any integer"
+  },
+  {
+    "t_start": 1603.99,
+    "t_end": 1605.99,
+    "text": "can be actually any integer there are operators"
+  },
+  {
+    "t_start": 1605.99,
+    "t_end": 1625.43,
+    "text": "there are operators whose index is any integer"
+  },
+  {
+    "t_start": 1640.31,
+    "t_end": 1645.269,
+    "text": "polynomials uh in one variable it doesn't matter if it is over c or any"
+  },
+  {
+    "t_start": 1645.269,
+    "t_end": 1649.269,
+    "text": "so this is an infinite dimensional vector space uh let's take"
+  },
+  {
+    "t_start": 1649.269,
+    "t_end": 1651.59,
+    "text": "vector space uh let's take t"
+  },
+  {
+    "t_start": 1654.549,
+    "t_end": 1661.51,
+    "text": "um maybe x with my notation so let's take t from x to x"
+  },
+  {
+    "t_start": 1661.51,
+    "t_end": 1666.389,
+    "text": "so um this t is multiplication by x operator"
+  },
+  {
+    "t_start": 1666.389,
+    "t_end": 1670.63,
+    "text": "t of f on x"
+  },
+  {
+    "t_start": 1670.63,
+    "t_end": 1674.07,
+    "text": "is equal to an x"
+  },
+  {
+    "t_start": 1674.07,
+    "t_end": 1676.47,
+    "text": "an x of f"
+  },
+  {
+    "t_start": 1676.47,
+    "t_end": 1683.83,
+    "text": "so at x is equal to x f of"
+  },
+  {
+    "t_start": 1683.83,
+    "t_end": 1688.07,
+    "text": "so this is this operator"
+  },
+  {
+    "t_start": 1689.51,
+    "t_end": 1697.35,
+    "text": "obviously t is injective"
+  },
+  {
+    "t_start": 1709.19,
+    "t_end": 1711.59,
+    "text": "now this t is not subjective because it maps into those polynomials that have a"
+  },
+  {
+    "t_start": 1711.59,
+    "t_end": 1713.029,
+    "text": "maps into those polynomials that have a factor of x"
+  },
+  {
+    "t_start": 1713.029,
+    "t_end": 1717.11,
+    "text": "in other words it's mapping into polynomials that"
+  },
+  {
+    "t_start": 1717.11,
+    "t_end": 1724.23,
+    "text": "basically vanish at zero so that space has co-dimension one"
+  },
+  {
+    "t_start": 1724.23,
+    "t_end": 1729.269,
+    "text": "because we can write any polynomial as a constant plus polynomial that has an x"
+  },
+  {
+    "t_start": 1729.269,
+    "t_end": 1730.31,
+    "text": "constant plus polynomial that has an x term"
+  },
+  {
+    "t_start": 1730.31,
+    "t_end": 1731.909,
+    "text": "term so"
+  },
+  {
+    "t_start": 1731.909,
+    "t_end": 1734.389,
+    "text": "so and"
+  },
+  {
+    "t_start": 1741.11,
+    "t_end": 1743.11,
+    "text": "is equal to one so um"
+  },
+  {
+    "t_start": 1743.11,
+    "t_end": 1750.789,
+    "text": "so um both are finite so t squared"
+  },
+  {
+    "t_start": 1751.909,
+    "t_end": 1756.549,
+    "text": "and index of t"
+  },
+  {
+    "t_start": 1763.75,
+    "t_end": 1769.669,
+    "text": "now you can iterate this t say n times"
+  },
+  {
+    "t_start": 1772.789,
+    "t_end": 1778.95,
+    "text": "uh well you see t n is multiplication by x to the power n if you iterated n times"
+  },
+  {
+    "t_start": 1778.95,
+    "t_end": 1785.269,
+    "text": "so the same thing again this uh t is injective but its coherent is going to"
+  },
+  {
+    "t_start": 1785.269,
+    "t_end": 1789.19,
+    "text": "injective but its coherent is going to be n so it's going to be minus"
+  },
+  {
+    "t_start": 1791.35,
+    "t_end": 1793.83,
+    "text": "now this of course we could have used this result to obtain this"
+  },
+  {
+    "t_start": 1793.83,
+    "t_end": 1800.389,
+    "text": "this result to obtain this minus n formula but independently also"
+  },
+  {
+    "t_start": 1800.389,
+    "t_end": 1804.63,
+    "text": "are obtainable as index of some operators very simple operators but very"
+  },
+  {
+    "t_start": 1804.63,
+    "t_end": 1808.47,
+    "text": "operators very simple operators but very very important by the way"
+  },
+  {
+    "t_start": 1808.47,
+    "t_end": 1814.789,
+    "text": "and what about positive numbers um"
+  },
+  {
+    "t_start": 1817.669,
+    "t_end": 1819.19,
+    "text": "instead of multiplying by x we can"
+  },
+  {
+    "t_start": 1819.19,
+    "t_end": 1823.99,
+    "text": "differentiate for example that's"
+  },
+  {
+    "t_start": 1839.03,
+    "t_end": 1841.99,
+    "text": "so um [Music]"
+  },
+  {
+    "t_start": 1841.99,
+    "t_end": 1848.07,
+    "text": "so consider this operator tfx is equal to f prime of x for any"
+  },
+  {
+    "t_start": 1848.07,
+    "t_end": 1849.669,
+    "text": "is equal to f prime of x for any polynomial"
+  },
+  {
+    "t_start": 1849.669,
+    "t_end": 1850.389,
+    "text": "polynomial now"
+  },
+  {
+    "t_start": 1850.389,
+    "t_end": 1854.149,
+    "text": "this operator obviously is not injective because constant the derivative of"
+  },
+  {
+    "t_start": 1854.149,
+    "t_end": 1860.23,
+    "text": "constant function is z right but that's that's the care node so uh"
+  },
+  {
+    "t_start": 1860.23,
+    "t_end": 1862.389,
+    "text": "but that's that's the care node so uh candle of t"
+  },
+  {
+    "t_start": 1862.389,
+    "t_end": 1867.43,
+    "text": "in this case it's just a constant function so dimension of terms"
+  },
+  {
+    "t_start": 1867.43,
+    "t_end": 1872.87,
+    "text": "constant function so dimension of terms one"
+  },
+  {
+    "t_start": 1874.63,
+    "t_end": 1876.87,
+    "text": "but this operator is definitely subjective because you can write any"
+  },
+  {
+    "t_start": 1876.87,
+    "t_end": 1879.269,
+    "text": "subjective because you can write any polynomial as the derivative of another"
+  },
+  {
+    "t_start": 1879.269,
+    "t_end": 1881.99,
+    "text": "polynomial as the derivative of another polynomial by taking anti-derivative"
+  },
+  {
+    "t_start": 1881.99,
+    "t_end": 1887.269,
+    "text": "polynomial by taking anti-derivative which is going to be a polynomial and"
+  },
+  {
+    "t_start": 1904.07,
+    "t_end": 1907.75,
+    "text": "so we get indeed an index of t is equal to one"
+  },
+  {
+    "t_start": 1907.75,
+    "t_end": 1912.47,
+    "text": "now like in this case you can iterate this process um"
+  },
+  {
+    "t_start": 1912.47,
+    "t_end": 1913.99,
+    "text": "this process um n times"
+  },
+  {
+    "t_start": 1913.99,
+    "t_end": 1915.11,
+    "text": "n times and"
+  },
+  {
+    "t_start": 1915.11,
+    "t_end": 1922.23,
+    "text": "you're going to get an operator whose index is n but n is a"
+  },
+  {
+    "t_start": 1922.23,
+    "t_end": 1923.909,
+    "text": "index is n but n is a non-negative integer"
+  },
+  {
+    "t_start": 1923.909,
+    "t_end": 1925.269,
+    "text": "non-negative integer so"
+  },
+  {
+    "t_start": 1925.269,
+    "t_end": 1927.669,
+    "text": "so t n"
+  },
+  {
+    "t_start": 1927.669,
+    "t_end": 1933.509,
+    "text": "at x is equal to the nth derivative of f"
+  },
+  {
+    "t_start": 1933.509,
+    "t_end": 1934.389,
+    "text": "the nth derivative of f x"
+  },
+  {
+    "t_start": 1934.389,
+    "t_end": 1938.63,
+    "text": "x obviously kernel of t n"
+  },
+  {
+    "t_start": 1942.23,
+    "t_end": 1946.31,
+    "text": "is just polynomials of degree at most n minus one right so this is c one"
+  },
+  {
+    "t_start": 1946.31,
+    "t_end": 1950.23,
+    "text": "minus one right so this is c one direction of cx"
+  },
+  {
+    "t_start": 1953.909,
+    "t_end": 1959.909,
+    "text": "dx on cx n minus 1 so dimension of kernel"
+  },
+  {
+    "t_start": 1963.669,
+    "t_end": 1965.669,
+    "text": "is equal to n uh but again because this t is subjective so t n is also"
+  },
+  {
+    "t_start": 1965.669,
+    "t_end": 1970.31,
+    "text": "t is subjective so t n is also subjective"
+  },
+  {
+    "t_start": 1970.75,
+    "t_end": 1972.95,
+    "text": "um [Music]"
+  },
+  {
+    "t_start": 1972.95,
+    "t_end": 1984.07,
+    "text": "[Music] in any case so um"
+  },
+  {
+    "t_start": 1991.509,
+    "t_end": 1993.43,
+    "text": "is m in this case so this again"
+  },
+  {
+    "t_start": 1993.43,
+    "t_end": 1995.75,
+    "text": "so this again verifies or confirms"
+  },
+  {
+    "t_start": 1995.75,
+    "t_end": 2004.23,
+    "text": "the formula for the multiplication because we have this operator um"
+  },
+  {
+    "t_start": 2007.269,
+    "t_end": 2009.909,
+    "text": "a raise to power n so its index is index of t plus index of t plus index of t n"
+  },
+  {
+    "t_start": 2009.909,
+    "t_end": 2011.75,
+    "text": "of t plus index of t plus index of t n times which is"
+  },
+  {
+    "t_start": 2011.75,
+    "t_end": 2014.95,
+    "text": "times which is one plus one plus one"
+  },
+  {
+    "t_start": 2014.95,
+    "t_end": 2019.83,
+    "text": "now these two operators differentiation and multiplication operators have"
+  },
+  {
+    "t_start": 2019.83,
+    "t_end": 2024.789,
+    "text": "and multiplication operators have a kind of closely related operators"
+  },
+  {
+    "t_start": 2024.789,
+    "t_end": 2030.71,
+    "text": "you know unilateral shift operators now we can have forward shift backward shift"
+  },
+  {
+    "t_start": 2030.71,
+    "t_end": 2032.47,
+    "text": "we can have forward shift backward shift so maybe i mentioned these things"
+  },
+  {
+    "t_start": 2032.47,
+    "t_end": 2033.269,
+    "text": "so maybe i mentioned these things because"
+  },
+  {
+    "t_start": 2033.269,
+    "t_end": 2039.99,
+    "text": "an important role later on it's for good examples anyhow"
+  },
+  {
+    "t_start": 2039.99,
+    "t_end": 2046.23,
+    "text": "examples anyhow so"
+  },
+  {
+    "t_start": 2048.71,
+    "t_end": 2051.43,
+    "text": "uh so these are these examples of purely algebraic this needs uh inverse space"
+  },
+  {
+    "t_start": 2051.43,
+    "t_end": 2057.03,
+    "text": "algebraic this needs uh inverse space but that's very simple uh theory in fact"
+  },
+  {
+    "t_start": 2057.03,
+    "t_end": 2059.109,
+    "text": "so i'll let x equal to l2"
+  },
+  {
+    "t_start": 2059.109,
+    "t_end": 2064.47,
+    "text": "equal to l2 which is the set of all sequences a0"
+  },
+  {
+    "t_start": 2064.47,
+    "t_end": 2069.27,
+    "text": "so on such that there are square integrable"
+  },
+  {
+    "t_start": 2069.27,
+    "t_end": 2073.43,
+    "text": "integrable green square syllable"
+  },
+  {
+    "t_start": 2076.629,
+    "t_end": 2079.589,
+    "text": "okay so now the operator t"
+  },
+  {
+    "t_start": 2085.75,
+    "t_end": 2095.99,
+    "text": "to be a n minus one"
+  },
+  {
+    "t_start": 2097.589,
+    "t_end": 2101.75,
+    "text": "or yeah"
+  },
+  {
+    "t_start": 2105.349,
+    "t_end": 2109.67,
+    "text": "so this operator now um so let me just think about it like this"
+  },
+  {
+    "t_start": 2121.67,
+    "t_end": 2124.63,
+    "text": "so this is the operator that sends t of sends sorry a0 a1"
+  },
+  {
+    "t_start": 2124.63,
+    "t_end": 2126.39,
+    "text": "sends sorry a0 a1 so on so"
+  },
+  {
+    "t_start": 2126.39,
+    "t_end": 2131.67,
+    "text": "push it backward one step so this is going to be equal to a1"
+  },
+  {
+    "t_start": 2131.67,
+    "t_end": 2134.31,
+    "text": "going to be equal to a1 a0"
+  },
+  {
+    "t_start": 2137.99,
+    "t_end": 2142.069,
+    "text": "now you can see that this operator or a0 a1 a2 i'm sorry"
+  },
+  {
+    "t_start": 2142.069,
+    "t_end": 2148.31,
+    "text": "or a0 a1 a2 i'm sorry you can see that a0 uh always goes to"
+  },
+  {
+    "t_start": 2148.31,
+    "t_end": 2153.43,
+    "text": "but then otherwise uh so the kernel of t basically"
+  },
+  {
+    "t_start": 2153.43,
+    "t_end": 2155.99,
+    "text": "so the kernel of t basically yeah is really uh"
+  },
+  {
+    "t_start": 2155.99,
+    "t_end": 2158.31,
+    "text": "yeah is really uh just uh"
+  },
+  {
+    "t_start": 2158.31,
+    "t_end": 2163.349,
+    "text": "things that exist in the first chord so dimension of candle of t"
+  },
+  {
+    "t_start": 2163.349,
+    "t_end": 2165.51,
+    "text": "dimension of candle of t is equal to one"
+  },
+  {
+    "t_start": 2165.51,
+    "t_end": 2173.75,
+    "text": "is equal to one but t is objective"
+  },
+  {
+    "t_start": 2174.71,
+    "t_end": 2179.67,
+    "text": "any l2 sequence you can start from zero for example and then get this two"
+  },
+  {
+    "t_start": 2179.67,
+    "t_end": 2183.27,
+    "text": "for example and then get this two sequence as a result of backward shift"
+  },
+  {
+    "t_start": 2183.27,
+    "t_end": 2183.65,
+    "text": "sequence as a result of backward shift so"
+  },
+  {
+    "t_start": 2183.65,
+    "t_end": 2185.109,
+    "text": "so [Music]"
+  },
+  {
+    "t_start": 2185.109,
+    "t_end": 2190.15,
+    "text": "[Music] this operator then index of this"
+  },
+  {
+    "t_start": 2192.47,
+    "t_end": 2194.23,
+    "text": "is equal to 1. now you can also"
+  },
+  {
+    "t_start": 2194.23,
+    "t_end": 2195.11,
+    "text": "now you can also look at"
+  },
+  {
+    "t_start": 2195.11,
+    "t_end": 2198.31,
+    "text": "look at [Music]"
+  },
+  {
+    "t_start": 2229.04,
+    "t_end": 2237.109,
+    "text": "we can also look at [Music]"
+  },
+  {
+    "t_start": 2249.75,
+    "t_end": 2254.829,
+    "text": "so in this case t of a0 a1 so on is equal to 0"
+  },
+  {
+    "t_start": 2256.39,
+    "t_end": 2265.91,
+    "text": "a0 now this operator is obviously injective"
+  },
+  {
+    "t_start": 2267.19,
+    "t_end": 2271.03,
+    "text": "then kernel of t is zero"
+  },
+  {
+    "t_start": 2271.03,
+    "t_end": 2272.47,
+    "text": "t is zero so it's"
+  },
+  {
+    "t_start": 2272.47,
+    "t_end": 2273.75,
+    "text": "so it's dimension of"
+  },
+  {
+    "t_start": 2273.75,
+    "t_end": 2287.03,
+    "text": "but then then in this case uh dimension of coherent is going to be one"
+  },
+  {
+    "t_start": 2295.67,
+    "t_end": 2301.99,
+    "text": "of course then the index is going to be minus"
+  },
+  {
+    "t_start": 2303.109,
+    "t_end": 2309.349,
+    "text": "okay so these uh two examples are rather similar"
+  },
+  {
+    "t_start": 2311.03,
+    "t_end": 2318.63,
+    "text": "context of hebrew space because l2 is a hint of space and this operator uh t in"
+  },
+  {
+    "t_start": 2318.63,
+    "t_end": 2321.51,
+    "text": "hint of space and this operator uh t in this case forward shift by forces are"
+  },
+  {
+    "t_start": 2321.51,
+    "t_end": 2323.99,
+    "text": "this case forward shift by forces are actually bounded operators uh the very"
+  },
+  {
+    "t_start": 2323.99,
+    "t_end": 2326.31,
+    "text": "actually bounded operators uh the very important operators right"
+  },
+  {
+    "t_start": 2326.31,
+    "t_end": 2334.71,
+    "text": "and they are threatful now you just check that they are phenomenal and the"
+  },
+  {
+    "t_start": 2334.71,
+    "t_end": 2336.87,
+    "text": "iterations are also threatful okay"
+  },
+  {
+    "t_start": 2336.87,
+    "t_end": 2340.15,
+    "text": "okay so"
+  },
+  {
+    "t_start": 2342.15,
+    "t_end": 2348.069,
+    "text": "one more result that is going to be very very important"
+  },
+  {
+    "t_start": 2348.069,
+    "t_end": 2349.43,
+    "text": "for us is"
+  },
+  {
+    "t_start": 2349.43,
+    "t_end": 2350.87,
+    "text": "is the"
+  },
+  {
+    "t_start": 2350.87,
+    "t_end": 2356.71,
+    "text": "the stability of index under um"
+  },
+  {
+    "t_start": 2358.79,
+    "t_end": 2364.15,
+    "text": "uh so in this purely algebraic case uh"
+  },
+  {
+    "t_start": 2364.15,
+    "t_end": 2368.31,
+    "text": "in this purely algebraic case uh the result is stability of index under"
+  },
+  {
+    "t_start": 2368.31,
+    "t_end": 2370.79,
+    "text": "the result is stability of index under perturbations by finite rank operators"
+  },
+  {
+    "t_start": 2370.79,
+    "t_end": 2372.15,
+    "text": "perturbations by finite rank operators so that's uh"
+  },
+  {
+    "t_start": 2372.15,
+    "t_end": 2391.75,
+    "text": "so that's uh that's an important"
+  },
+  {
+    "t_start": 2436.829,
+    "t_end": 2448.95,
+    "text": "and t0 is a finite rank operator"
+  },
+  {
+    "t_start": 2451.99,
+    "t_end": 2466.39,
+    "text": "then t plus t zero is fret form and its index is the same"
+  },
+  {
+    "t_start": 2472.309,
+    "t_end": 2476.39,
+    "text": "only spread form so finite rank perturbations of fredholm"
+  },
+  {
+    "t_start": 2476.39,
+    "t_end": 2482.47,
+    "text": "and the index doesn't change it's kind of"
+  },
+  {
+    "t_start": 2482.47,
+    "t_end": 2488.71,
+    "text": "small changes in some sense to t does not change its fractal nature and"
+  },
+  {
+    "t_start": 2488.71,
+    "t_end": 2501.589,
+    "text": "does not change its fractal nature and it does not change its index"
+  },
+  {
+    "t_start": 2503.99,
+    "t_end": 2510.87,
+    "text": "can be done purely algebraically so we are going to prove these results"
+  },
+  {
+    "t_start": 2510.87,
+    "t_end": 2515.91,
+    "text": "in analytic context so i'm not going to bother with the proof in this case"
+  },
+  {
+    "t_start": 2515.91,
+    "t_end": 2521.19,
+    "text": "but it's uh good to keep in mind so the results that we looked in this case were"
+  },
+  {
+    "t_start": 2521.19,
+    "t_end": 2523.75,
+    "text": "results that we looked in this case were perturbation invariants or fertile"
+  },
+  {
+    "t_start": 2523.75,
+    "t_end": 2526.309,
+    "text": "perturbation invariants or fertile operators they index"
+  },
+  {
+    "t_start": 2526.309,
+    "t_end": 2528.23,
+    "text": "operators they index basic examples"
+  },
+  {
+    "t_start": 2528.23,
+    "t_end": 2531.75,
+    "text": "basic examples of shift operators forward backward"
+  },
+  {
+    "t_start": 2531.75,
+    "t_end": 2534.71,
+    "text": "shift and"
+  },
+  {
+    "t_start": 2535.43,
+    "t_end": 2539.99,
+    "text": "addition formula uh for index and uh"
+  },
+  {
+    "t_start": 2539.99,
+    "t_end": 2545.51,
+    "text": "atkinson's theorem on those results"
+  },
+  {
+    "t_start": 2549.67,
+    "t_end": 2554.39,
+    "text": "okay so now uh one example so i give this example only just to"
+  },
+  {
+    "t_start": 2554.39,
+    "t_end": 2559.19,
+    "text": "kind of motivate what's going to come next"
+  },
+  {
+    "t_start": 2559.19,
+    "t_end": 2566.95,
+    "text": "even if uh you are interested in"
+  },
+  {
+    "t_start": 2568.79,
+    "t_end": 2572.63,
+    "text": "proving some operators are threatened in this context"
+  },
+  {
+    "t_start": 2572.63,
+    "t_end": 2576.63,
+    "text": "this is a purely algebraic content we have some some cases where we want to"
+  },
+  {
+    "t_start": 2576.63,
+    "t_end": 2579.349,
+    "text": "have some some cases where we want to prove some operators are threat home"
+  },
+  {
+    "t_start": 2579.349,
+    "t_end": 2583.03,
+    "text": "prove some operators are threat home but the proof is actually quite hard if"
+  },
+  {
+    "t_start": 2583.03,
+    "t_end": 2588.79,
+    "text": "don't use analysis so the analysis could be useful even"
+  },
+  {
+    "t_start": 2588.79,
+    "t_end": 2590.71,
+    "text": "so the analysis could be useful even when you want to prove some operators"
+  },
+  {
+    "t_start": 2590.71,
+    "t_end": 2592.63,
+    "text": "when you want to prove some operators that make sense in purely algebraic"
+  },
+  {
+    "t_start": 2592.63,
+    "t_end": 2593.75,
+    "text": "that make sense in purely algebraic context"
+  },
+  {
+    "t_start": 2593.75,
+    "t_end": 2596.23,
+    "text": "to be threatened"
+  },
+  {
+    "t_start": 2596.23,
+    "t_end": 2601.589,
+    "text": "so what i mean is this so let's look at one very very important class of"
+  },
+  {
+    "t_start": 2601.589,
+    "t_end": 2604.39,
+    "text": "one very very important class of operators"
+  },
+  {
+    "t_start": 2607.99,
+    "t_end": 2610.309,
+    "text": "this is not pure algebra but it can be explained algebraically"
+  },
+  {
+    "t_start": 2610.309,
+    "t_end": 2615.75,
+    "text": "explained algebraically and this is the class of topics"
+  },
+  {
+    "t_start": 2615.75,
+    "t_end": 2631.27,
+    "text": "operators so let's look at this now"
+  },
+  {
+    "t_start": 2643.109,
+    "t_end": 2650.47,
+    "text": "let's start with the case of hyperspace h"
+  },
+  {
+    "t_start": 2653.32,
+    "t_end": 2654.95,
+    "text": "equal to l2 of s1 [Music]"
+  },
+  {
+    "t_start": 2654.95,
+    "t_end": 2655.829,
+    "text": "[Music] the"
+  },
+  {
+    "t_start": 2655.829,
+    "t_end": 2657.03,
+    "text": "the l2"
+  },
+  {
+    "t_start": 2657.03,
+    "t_end": 2662.63,
+    "text": "l2 two pi periodic functions or um"
+  },
+  {
+    "t_start": 2668.309,
+    "t_end": 2671.27,
+    "text": "l2 functions on the circle where you put uh the standard harm uh standard uh"
+  },
+  {
+    "t_start": 2671.27,
+    "t_end": 2676.309,
+    "text": "uh the standard harm uh standard uh measure on a slime which is the harmony"
+  },
+  {
+    "t_start": 2679.829,
+    "t_end": 2686.63,
+    "text": "this has an important subspace the rb space"
+  },
+  {
+    "t_start": 2703.109,
+    "t_end": 2708.39,
+    "text": "l2 functions whose three coefficients in negative direction"
+  },
+  {
+    "t_start": 2711.109,
+    "t_end": 2713.75,
+    "text": "right so this is uh so let uh f hat"
+  },
+  {
+    "t_start": 2713.75,
+    "t_end": 2714.87,
+    "text": "let uh f hat of n"
+  },
+  {
+    "t_start": 2714.87,
+    "t_end": 2719.829,
+    "text": "by definition be equal to one over two pi integral"
+  },
+  {
+    "t_start": 2719.829,
+    "t_end": 2725.349,
+    "text": "uh f of x e to the um"
+  },
+  {
+    "t_start": 2725.349,
+    "t_end": 2726.309,
+    "text": "e to the um um"
+  },
+  {
+    "t_start": 2726.309,
+    "t_end": 2731.27,
+    "text": "i and x minus i and x and then i go from zero"
+  },
+  {
+    "t_start": 2731.27,
+    "t_end": 2737.51,
+    "text": "zero to 2 pi"
+  },
+  {
+    "t_start": 2741.19,
+    "t_end": 2746.63,
+    "text": "so of course under this fourier transform i mean this fourier series uh"
+  },
+  {
+    "t_start": 2746.63,
+    "t_end": 2753.43,
+    "text": "stuff we have this correspondence between l2"
+  },
+  {
+    "t_start": 2756.63,
+    "t_end": 2757.99,
+    "text": "summativity in l2 s and l2"
+  },
+  {
+    "t_start": 2757.99,
+    "t_end": 2764.15,
+    "text": "of z so two of z are all l2 sequences that"
+  },
+  {
+    "t_start": 2764.15,
+    "t_end": 2765.99,
+    "text": "so two of z are all l2 sequences that are indexed by"
+  },
+  {
+    "t_start": 2765.99,
+    "t_end": 2775.349,
+    "text": "are indexed by integers all integers positive or"
+  },
+  {
+    "t_start": 2777.27,
+    "t_end": 2780.15,
+    "text": "such that some absolute value of"
+  },
+  {
+    "t_start": 2780.15,
+    "t_end": 2781.19,
+    "text": "absolute value of a n"
+  },
+  {
+    "t_start": 2781.19,
+    "t_end": 2791.38,
+    "text": "squared is less than infinity and from minus infinity"
+  },
+  {
+    "t_start": 2792.79,
+    "t_end": 2798.95,
+    "text": "sequences like that so the isomorphism of these two hilbert spaces uh this is"
+  },
+  {
+    "t_start": 2798.95,
+    "t_end": 2815.03,
+    "text": "of these two hilbert spaces uh this is one aspect of planchar formula"
+  },
+  {
+    "t_start": 2823.349,
+    "t_end": 2828.47,
+    "text": "basic fourier theory tells you that for your series theory tells you that indeed"
+  },
+  {
+    "t_start": 2828.47,
+    "t_end": 2831.589,
+    "text": "your series theory tells you that indeed integral so norm of"
+  },
+  {
+    "t_start": 2831.589,
+    "t_end": 2837.03,
+    "text": "integral so norm of x squared which is 1 over"
+  },
+  {
+    "t_start": 2837.03,
+    "t_end": 2842.23,
+    "text": "2 pi absolute value of f of x squared dx"
+  },
+  {
+    "t_start": 2842.23,
+    "t_end": 2848.15,
+    "text": "squared dx is equal to sum"
+  },
+  {
+    "t_start": 2854.47,
+    "t_end": 2856.79,
+    "text": "so this is uh in this case is the planchard formula"
+  },
+  {
+    "t_start": 2856.79,
+    "t_end": 2861.27,
+    "text": "and this is the hybrid space linear isomorphism between the silver"
+  },
+  {
+    "t_start": 2861.27,
+    "t_end": 2863.67,
+    "text": "linear isomorphism between the silver space and that"
+  },
+  {
+    "t_start": 2863.67,
+    "t_end": 2869.19,
+    "text": "so now uh what is a hardness space so the harness space"
+  },
+  {
+    "t_start": 2869.19,
+    "t_end": 2874.87,
+    "text": "is the space of all those functions whose negative three coefficients match"
+  },
+  {
+    "t_start": 2874.87,
+    "t_end": 2887.03,
+    "text": "whose negative three coefficients match so"
+  },
+  {
+    "t_start": 2888.0,
+    "t_end": 2889.589,
+    "text": "so um [Music]"
+  },
+  {
+    "t_start": 2889.589,
+    "t_end": 2890.39,
+    "text": "[Music] yeah"
+  },
+  {
+    "t_start": 2890.39,
+    "t_end": 2894.549,
+    "text": "yeah so it's a definition maybe"
+  },
+  {
+    "t_start": 2896.63,
+    "t_end": 2899.43,
+    "text": "f belongs to h2"
+  },
+  {
+    "t_start": 2901.589,
+    "t_end": 2909.349,
+    "text": "negative fourier coefficient of f is equal to zero"
+  },
+  {
+    "t_start": 2910.15,
+    "t_end": 2910.58,
+    "text": "so um"
+  },
+  {
+    "t_start": 2910.58,
+    "t_end": 2913.51,
+    "text": "um [Music]"
+  },
+  {
+    "t_start": 2913.51,
+    "t_end": 2920.15,
+    "text": "it consists of those functions that in in in fourier modes they exist"
+  },
+  {
+    "t_start": 2920.15,
+    "t_end": 2921.75,
+    "text": "that in in in fourier modes they exist only in the positive direction in the"
+  },
+  {
+    "t_start": 2921.75,
+    "t_end": 2927.43,
+    "text": "only in the positive direction in the negative direction they are zero"
+  },
+  {
+    "t_start": 2927.43,
+    "t_end": 2933.589,
+    "text": "so um okay so now let's let p"
+  },
+  {
+    "t_start": 2935.75,
+    "t_end": 2937.589,
+    "text": "from l2 of s1 to"
+  },
+  {
+    "t_start": 2937.589,
+    "t_end": 2940.47,
+    "text": "to h2"
+  },
+  {
+    "t_start": 2943.03,
+    "t_end": 2951.67,
+    "text": "so this is the projection operation"
+  },
+  {
+    "t_start": 2954.87,
+    "t_end": 2956.71,
+    "text": "into this subspace so this just cuts down the negative part and takes the"
+  },
+  {
+    "t_start": 2956.71,
+    "t_end": 2959.27,
+    "text": "down the negative part and takes the positive part only so p"
+  },
+  {
+    "t_start": 2959.27,
+    "t_end": 2960.23,
+    "text": "positive part only so p of"
+  },
+  {
+    "t_start": 2960.23,
+    "t_end": 2967.109,
+    "text": "a n in this picture"
+  },
+  {
+    "t_start": 2968.829,
+    "t_end": 2970.72,
+    "text": "is just um a0"
+  },
+  {
+    "t_start": 2970.72,
+    "t_end": 2971.829,
+    "text": "um a0 [Music]"
+  },
+  {
+    "t_start": 2971.829,
+    "t_end": 2973.589,
+    "text": "[Music] a1"
+  },
+  {
+    "t_start": 2973.589,
+    "t_end": 2975.91,
+    "text": "a1 a2"
+  },
+  {
+    "t_start": 2975.91,
+    "t_end": 2983.99,
+    "text": "comes to l2 which is h2 of course"
+  },
+  {
+    "t_start": 2986.79,
+    "t_end": 2989.75,
+    "text": "so that's the projection operator now what is uh problematic operator"
+  },
+  {
+    "t_start": 2989.75,
+    "t_end": 2996.15,
+    "text": "what is uh problematic operator uh so what we can do uh we can do the"
+  },
+  {
+    "t_start": 2996.15,
+    "t_end": 2997.03,
+    "text": "following now for any f say"
+  },
+  {
+    "t_start": 2997.03,
+    "t_end": 3001.109,
+    "text": "belonging to continuous functions on the system"
+  },
+  {
+    "t_start": 3001.109,
+    "t_end": 3004.549,
+    "text": "although it can be done in a more general"
+  },
+  {
+    "t_start": 3004.549,
+    "t_end": 3008.47,
+    "text": "setting but let's just look at continuous functions"
+  },
+  {
+    "t_start": 3008.47,
+    "t_end": 3016.79,
+    "text": "continuous functions uh so define uh the topless operator"
+  },
+  {
+    "t_start": 3019.03,
+    "t_end": 3028.39,
+    "text": "with symbol f"
+  },
+  {
+    "t_start": 3031.27,
+    "t_end": 3039.109,
+    "text": "it goes from the hardest place to hard disk space again goes from h2"
+  },
+  {
+    "t_start": 3039.109,
+    "t_end": 3042.95,
+    "text": "disk space again goes from h2 to h2"
+  },
+  {
+    "t_start": 3045.829,
+    "t_end": 3047.99,
+    "text": "it's uh defined like this you multiply by"
+  },
+  {
+    "t_start": 3047.99,
+    "t_end": 3049.27,
+    "text": "you multiply by by f"
+  },
+  {
+    "t_start": 3049.27,
+    "t_end": 3052.95,
+    "text": "and then you project again because when you multiply by f"
+  },
+  {
+    "t_start": 3052.95,
+    "t_end": 3058.95,
+    "text": "you may go out of easily go out of the hardest phase and then"
+  },
+  {
+    "t_start": 3058.95,
+    "t_end": 3062.069,
+    "text": "but you want to come back to the hardest place you have to project"
+  },
+  {
+    "t_start": 3062.069,
+    "t_end": 3065.589,
+    "text": "place you have to project so i can say tf"
+  },
+  {
+    "t_start": 3065.589,
+    "t_end": 3068.95,
+    "text": "so i can say tf is equal to p"
+  },
+  {
+    "t_start": 3068.95,
+    "t_end": 3070.47,
+    "text": "is equal to p mf"
+  },
+  {
+    "t_start": 3070.47,
+    "t_end": 3082.549,
+    "text": "so this mf is the multiplication operator by f"
+  },
+  {
+    "t_start": 3083.829,
+    "t_end": 3098.069,
+    "text": "so this operator then is just"
+  },
+  {
+    "t_start": 3105.51,
+    "t_end": 3106.79,
+    "text": "g is equal to p of g"
+  },
+  {
+    "t_start": 3106.79,
+    "t_end": 3115.349,
+    "text": "for all g belonging to"
+  },
+  {
+    "t_start": 3120.549,
+    "t_end": 3122.79,
+    "text": "okay so this is the kind of first example of party space"
+  },
+  {
+    "t_start": 3122.79,
+    "t_end": 3128.309,
+    "text": "and droplets operators uh but then this can be extended vastly"
+  },
+  {
+    "t_start": 3128.309,
+    "t_end": 3133.589,
+    "text": "in many many directions and actually it's a very interesting topic"
+  },
+  {
+    "t_start": 3133.589,
+    "t_end": 3136.829,
+    "text": "it's a very interesting topic gives you many many interesting examples"
+  },
+  {
+    "t_start": 3136.829,
+    "t_end": 3142.23,
+    "text": "dimensions and you can even work over general manifolds"
+  },
+  {
+    "t_start": 3142.23,
+    "t_end": 3149.589,
+    "text": "and so we'll discuss that soon but uh for now this is good so now"
+  },
+  {
+    "t_start": 3149.589,
+    "t_end": 3158.87,
+    "text": "for now this is good so now so the following thing is true"
+  },
+  {
+    "t_start": 3164.79,
+    "t_end": 3167.91,
+    "text": "it's the following this operator tf is fret or if and only if f is"
+  },
+  {
+    "t_start": 3167.91,
+    "t_end": 3169.349,
+    "text": "fret or if and only if f is non-zero"
+  },
+  {
+    "t_start": 3169.349,
+    "t_end": 3173.109,
+    "text": "non-zero or is invertible"
+  },
+  {
+    "t_start": 3173.109,
+    "t_end": 3178.23,
+    "text": "t f so first of all i mean let me say"
+  },
+  {
+    "t_start": 3179.03,
+    "t_end": 3185.75,
+    "text": "f you know to c of s1 right so tf"
+  },
+  {
+    "t_start": 3185.75,
+    "t_end": 3188.95,
+    "text": "so tf is pretty"
+  },
+  {
+    "t_start": 3194.47,
+    "t_end": 3205.27,
+    "text": "belongs to c of s1 so it's invertible"
+  },
+  {
+    "t_start": 3206.39,
+    "t_end": 3210.71,
+    "text": "well being invertible means that uh of course f"
+  },
+  {
+    "t_start": 3210.71,
+    "t_end": 3211.75,
+    "text": "course f of"
+  },
+  {
+    "t_start": 3211.75,
+    "t_end": 3212.95,
+    "text": "of z"
+  },
+  {
+    "t_start": 3212.95,
+    "t_end": 3219.829,
+    "text": "is different from zero for all z belonging to s"
+  },
+  {
+    "t_start": 3222.39,
+    "t_end": 3228.23,
+    "text": "so proving this result using i mean this is a purely you can say this is a purely"
+  },
+  {
+    "t_start": 3228.23,
+    "t_end": 3230.71,
+    "text": "is a purely you can say this is a purely algebraic context because"
+  },
+  {
+    "t_start": 3230.71,
+    "t_end": 3238.23,
+    "text": "well i i have this vector space h2 and we are going uh from h2 to h2 this"
+  },
+  {
+    "t_start": 3238.23,
+    "t_end": 3239.19,
+    "text": "and we are going uh from h2 to h2 this is"
+  },
+  {
+    "t_start": 3239.19,
+    "t_end": 3243.91,
+    "text": "the operator in this case and uh"
+  },
+  {
+    "t_start": 3243.91,
+    "t_end": 3250.23,
+    "text": "prove that this is uh red one but uh"
+  },
+  {
+    "t_start": 3250.23,
+    "t_end": 3254.23,
+    "text": "red one but uh what we know from the algebraic tool is"
+  },
+  {
+    "t_start": 3254.23,
+    "t_end": 3263.43,
+    "text": "as a result of analytic theory that we will develop next"
+  },
+  {
+    "t_start": 3265.43,
+    "t_end": 3267.67,
+    "text": "so of course now um"
+  },
+  {
+    "t_start": 3267.67,
+    "t_end": 3272.71,
+    "text": "there's going to be an index for this"
+  },
+  {
+    "t_start": 3272.71,
+    "t_end": 3275.99,
+    "text": "for this in that case"
+  },
+  {
+    "t_start": 3277.91,
+    "t_end": 3280.95,
+    "text": "so in the case that is in the case that it is invertible"
+  },
+  {
+    "t_start": 3283.43,
+    "t_end": 3285.27,
+    "text": "index of a tf"
+  },
+  {
+    "t_start": 3285.27,
+    "t_end": 3292.63,
+    "text": "is equal to minus winding number of f"
+  },
+  {
+    "t_start": 3298.789,
+    "t_end": 3301.99,
+    "text": "it's kind of first in the exterior in some sense"
+  },
+  {
+    "t_start": 3303.51,
+    "t_end": 3304.71,
+    "text": "one of the first or"
+  },
+  {
+    "t_start": 3304.71,
+    "t_end": 3311.03,
+    "text": "simplest types of index terms if you want"
+  },
+  {
+    "t_start": 3319.67,
+    "t_end": 3323.109,
+    "text": "prove that this is threatened and to prove that the index indeed is going to"
+  },
+  {
+    "t_start": 3323.109,
+    "t_end": 3324.23,
+    "text": "be given by this um"
+  },
+  {
+    "t_start": 3324.23,
+    "t_end": 3330.63,
+    "text": "we need more theory than just purely purely algebra 2 so this by the way is"
+  },
+  {
+    "t_start": 3330.63,
+    "t_end": 3335.03,
+    "text": "purely algebra 2 so this by the way is i believe is due to robert"
+  },
+  {
+    "t_start": 3341.349,
+    "t_end": 3342.789,
+    "text": "there is also um some attribution to wiener"
+  },
+  {
+    "t_start": 3342.789,
+    "t_end": 3349.27,
+    "text": "sometimes they are called in an op operator it's not exactly the same but i"
+  },
+  {
+    "t_start": 3349.27,
+    "t_end": 3351.03,
+    "text": "operator it's not exactly the same but i think it's really"
+  },
+  {
+    "t_start": 3351.03,
+    "t_end": 3351.829,
+    "text": "think it's really so"
+  },
+  {
+    "t_start": 3351.829,
+    "t_end": 3357.19,
+    "text": "corporate crime or wiener index theorem is this result that we want to"
+  },
+  {
+    "t_start": 3357.19,
+    "t_end": 3362.549,
+    "text": "is this result that we want to uh prove uh next so this is the winding"
+  },
+  {
+    "t_start": 3362.549,
+    "t_end": 3366.23,
+    "text": "number of f rounds so we will look at this also"
+  },
+  {
+    "t_start": 3366.23,
+    "t_end": 3372.0,
+    "text": "guys have a good day and we will"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ku_video_qiNcEguuFSA_0",
+    "t_start": 0.5,
+    "t_end": 92.9,
+    "type": "overview",
+    "summary": "A problem worthy of attack proves its worth by fighting back. And that's what Fermat's last theorem was doing, it was fighting back. So we are talking about Fermat's last theorem I suppose the place to start is with Fermat, Pierre de Fermat, he was a 17th-century mathematician living and working in but working as a judge. Every evening he'd go home - and math was his hobby - one evening he was looking at an equation which looks a bit like Pythagoras' equation which I suppose is X squared plus Y squared equals Z squared. And he was looking for whole number solutions to that equation, and the…"
+  },
+  {
+    "id": "ku_video_qiNcEguuFSA_92",
+    "t_start": 92.9,
+    "t_end": 186.4,
+    "type": "overview",
+    "summary": "that has not just one solution, it actually has an infinite number of solutions. And then we have an infinite number of equations: &lt;b&gt;x^3 + y^3 = z^3&lt;/b&gt;, &lt;b&gt;x^4 + y^4 = z^4&lt;/b&gt;, an infinite number of equations which apparently have no solutions. And Fermat discovered it's proof, and he wrote in the margin of a book he was reading that evening, called the Arithmetica by Diophantus, he wrote in the margin in his book, he wrote: &lt;i&gt;I have a truly marvelous proof which this margin is too narrow to contain.&lt;/i&gt; &lt;i&gt;Hanc marginis exiguitas non caperet&lt;…"
+  },
+  {
+    "id": "ku_video_qiNcEguuFSA_186",
+    "t_start": 186.4,
+    "t_end": 276.7,
+    "type": "overview",
+    "summary": "And every case where Fermat said \"I have a proof\", he was right, there was a proof, except in this one example here. Fermat's last theorem is called Fermat's last theorem because it was the last one that anybody could actually find the proof for. And of course because it's the last one that anyone can prove it's the most precious one, it's the one that's the most desirable. And the more that people try, the more they fail, the more wonderful it becomes. And this goes on for decades, it goes on for centuries. Right through to the 20th century were people desperate to rediscover what Fermat's…"
+  },
+  {
+    "id": "ku_video_qiNcEguuFSA_276",
+    "t_start": 276.7,
+    "t_end": 369.9,
+    "type": "overview",
+    "summary": "and because he didn't show this proof to anybody else nobody could tell him: \"Ow, there is a mistake there, that line 3 has got something wrong with it.\" And that's very likely because we know that subsequent generations of mathematicians thought they'd found a proof and then they publish it and people would tear it apart and find the error. So what we're looking for is not Fermat's proof - which was probably flawed - but we're looking for some kind of proof to see wheter Fermat was right all along? It has a happy ending. And it starts with a ten-year-old child, a child called Andrew Wiles,…"
+  },
+  {
+    "id": "ku_video_qiNcEguuFSA_369",
+    "t_start": 369.9,
+    "t_end": 463.5,
+    "type": "overview",
+    "summary": "we don't know whether it's true or not, but somebody is putting it on the table. Somebody proved that there was a link between these two conjectures. It is much as: if you could prove most of the Taniyama-Shimura conjecture you would get Fermat's last theorem for free. So somehow Fermat's last theorem is embedded in this other conjecture. And Andrew Wiles' childhood passion, his childhood obsession is reignited because he thinks the Taniyama-Shimura conjecture is worth a go. You know he thinks he can get his teeth into that. But it's still a crazy thing to try and do and so because it was s…"
+  },
+  {
+    "id": "ku_video_qiNcEguuFSA_463",
+    "t_start": 463.5,
+    "t_end": 555.6,
+    "type": "overview",
+    "summary": "somebody found a mistake. Wiles assumed that he could fix it, but the more he tried to unravel this problem the worse it became. And it became a huge embarrassment, you know you've been loathed(?) as the greatest mathematician of the 20th century, you are a hero figure and now you have to admit you made a mistake. And it took a whole year, but at the end of that year Andrew Wiles working with a chap(?) called Richard Taylor managed to fix the proof. I think it's a bit like the Terminator film, I often talk about, you know when you just think you've slained the monster when you've killed the…"
+  },
+  {
+    "id": "ku_video_qiNcEguuFSA_555",
+    "t_start": 555.6,
+    "t_end": 568.0,
+    "type": "overview",
+    "summary": "which I think you'll all enjoy and I'll put that on to Numberphile really soon. But in the meantime, lots of links below I'll put a link to the Wiles paper, a few other bits and pieces that I want you to see, so have a good look."
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ku_video_ETrYE4MdoLQ_0",
+    "t_start": 0.1,
+    "t_end": 90.7,
+    "type": "overview",
+    "summary": "We've got a number which is apparently so famous that it's up there on the mathematical constants list. Up there with pi and e and root 2; but this one I'd never heard of until recently. And apparently- well they're pretty sure it's irrational so I'm just going to give you the first bit of it. This is Feigenbaum's constant, or one of Feigenbaum's constants, there's another one. If you find references to two of them- I'm not going to talk about the second one which has a symbol alpha. There's a paper in, I think 1970 odd, by Robert May about a equation which I'm going to write down which mod…"
+  },
+  {
+    "id": "ku_video_ETrYE4MdoLQ_90",
+    "t_start": 90.7,
+    "t_end": 181.2,
+    "type": "overview",
+    "summary": "so you kind of multiplying by the previous year's population. But also if it's too high they're going to run out of food so that's what you do one minus the previous population. So this is like the breeding, and this is like starvation. What's interesting is you you can just put numbers into this; so I'm going to start with a population X1 of 1/2. So remember this is gonna- it's between 0 &amp; 1, the population is half full to start with. In fact you can start with anything, what's interesting is what happens over a long time. So we need to choose a fertility, I'm going to choose - just fo…"
+  },
+  {
+    "id": "ku_video_ETrYE4MdoLQ_181",
+    "t_start": 181.2,
+    "t_end": 272.8,
+    "type": "overview",
+    "summary": "next year X4 we get 0.566, it's gone up. And if I keep pressing equals. I'm not going to read them out anymore but keep an eye on what's happening, I'm just going to keep pressing equals. 0.56494, 0.565, 0.56519, 0.56522, 0.56522; okay you know what's going to happen. It looks like actually- and this is believable right, sometimes populations stabilise. And this is good because this is the real world being described by a simple equation. This is not all that exciting I have to say but but at least I can do this calculation repeatedly, I can bash the button as many times as I like and it it'…"
+  },
+  {
+    "id": "ku_video_ETrYE4MdoLQ_272",
+    "t_start": 272.8,
+    "t_end": 364.2,
+    "type": "overview",
+    "summary": "between 0 and 1, Brady? - Can we have 0.65? We can have 0.65, I'll do 0.65. So we start with a half, after one year we have a population of 0.1625. Your rabbits are dying. But if I keep pressing it, obviously I can now just keep pressing it to see what happens: 0.08, 0.05, 0.03 - this is it not looking good. I'm just going to go for it now, 0.0009, 0.0006 - eventually my calculator is going to say, look stop pressing equals they're all dead. In fact I'm now at zero. And maybe it's not quite zero, but it's off the end of the accuracy I care about. - (Brady: I killed the rabbits!) Yeah. Well,…"
+  },
+  {
+    "id": "ku_video_ETrYE4MdoLQ_364",
+    "t_start": 364.2,
+    "t_end": 456.4,
+    "type": "overview",
+    "summary": "thing, but somehow this is capturing the behaviour the populations go up and then they quite often drop suddenly if there's too many. If I press equals again we're at 0.79, it's gone back up again. Definitely feels like we've got a bit of a bouncy behaviour; and it's believable. If I keep pressing equals: 0.51, 0.79, 0.51, 0.79; in fact I'm going to press it a few times, it might like take a bit of catching up but- If I slow down in a moment - 0.51304, 0.79946, 0.51304, 0.79946. It's not changing - except it is changing every year but it's not changing between these two values. And so it's …"
+  },
+  {
+    "id": "ku_video_ETrYE4MdoLQ_456",
+    "t_start": 456.4,
+    "t_end": 547.4,
+    "type": "overview",
+    "summary": "going to pick it to be 3.5, let's try that one. Gonna set the population to be 1/2, 3.5 is lambda multiplied by the previous population, multiplied by 1 minus previous population - this time of goes up to 0.875, 0.38, 0.82, 0.5 - wait, these are all different. I'm just going to keep pressing it but it's definitely not settling down, I'll show you I'll show what's happening on the screen. We've got 0.5, 0.87, 0.38, 0.82, 0.5, 0.87, 0.38, 0.82 - actually it is cycling but it's not two. It's now four. And so if I drew a graph of this one, this time it's going sort of down, up, down, down a bit…"
+  },
+  {
+    "id": "ku_video_ETrYE4MdoLQ_547",
+    "t_start": 547.4,
+    "t_end": 639.5,
+    "type": "overview",
+    "summary": "population between zero and one. I'm going to mark this at four, and this is one. So this is the behaviour after it's settled down. So between 0 and 1- it turns out if you pick lambda between 0 and 1, eventually things die. As you as you nicely exemplified you killed all the rabbits, because they're not fertile enough. So after you've pressed equals thousands of times we're going to plot what happens. - (Brady: So this is the Death Zone?) This is the Death Zone yeh, let me write death here, because over time the population stabilises as zero. You chose 0.6 something and it was in the Death …"
+  },
+  {
+    "id": "ku_video_ETrYE4MdoLQ_639",
+    "t_start": 639.5,
+    "t_end": 730.7,
+    "type": "overview",
+    "summary": "also seen that at 3.5 it settled into a four-cycle so then- you can kind of guess what's going to happen. If I put the four and they happen to be around here, you can see that somewhere it splits. And it bifurcates again, or it forks again. The posh word for this is- the period of these cycles, this is a one-cycle because it's got one value, this is a two-cycle the period's two, and then it goes to four. And they call this a period doubling. What's intriguing is that by picking certain values of lambda you can get any periods you want, as long if it's a power of two, because it doubles ever…"
+  },
+  {
+    "id": "ku_video_ETrYE4MdoLQ_730",
+    "t_start": 730.7,
+    "t_end": 821.5,
+    "type": "overview",
+    "summary": "to a final twist, which is what happens that graph further to the right, Mitchell Feigenbaum got involved in this at this point, in the 70s. And he was looking at this thinking, this is- it's surprising that a simple function does an interesting thing like this. And he started to study how quickly this doubling happened. So that that took a little gap, and this took a shorter gap, because it's going quicker and quicker. And he thought it'd be interesting to know if this is a sort of regular scaling thing; he didn't think it would be because it's doing crazy stuff, but he started dividing on…"
+  },
+  {
+    "id": "ku_video_ETrYE4MdoLQ_821",
+    "t_start": 821.5,
+    "t_end": 913.4,
+    "type": "overview",
+    "summary": "looked at not only exhibited this period doubling, if you started fiddling with the parameter, but it also scaled with that number. And it turns out now this is called Feigenbaum's constant because every uni-modal map for quadratic map scales like this. And no one knows what this number is, or why things are behaving like this but it seems to describe a whole raft of things which no one had ever looked at before. And there was this concept of universality, that even different situations are still captured by this number. So I'm going to recreate the diagram we had earlier on paper, I'm just…"
+  },
+  {
+    "id": "ku_video_ETrYE4MdoLQ_913",
+    "t_start": 913.4,
+    "t_end": 1004.7,
+    "type": "overview",
+    "summary": "to stop and something else is going to take over, and just a little watch of this. So there's a very strange behaviour. It's nice and simple and then crazy. And actually this is a good example of chaos as well. I'm going to zoom in on that region. So here's the two-cycle and then it's split again to a four-cycle and then eight then sixteen and then right there we've gone in what we call the onset of chaos. And it's a technical term; chaos meaning really sensitive. But it's it's almost beautiful, there's weird structure happening here, this is not a glitch in my software - and yet it looks l…"
+  },
+  {
+    "id": "ku_video_ETrYE4MdoLQ_1004",
+    "t_start": 1004.7,
+    "t_end": 1095.0,
+    "type": "overview",
+    "summary": "back to chaos again. And nobody expected this behaviour to happen from a really simple equation, it's just the same equation we've been using all along. And it was the beginning of chaos theory, what they call non-linear dynamics now, where simple deterministic equations have very unpredictable results. And one massive application for it is if you want a computer to generate a random number - you can't. Like, you tell the computer to pick something random and it goes, uhh 7? No it doesn't have a 'uhh' function like we do, although we always pick 7 it seems. But if you wanted a computer to s…"
+  },
+  {
+    "id": "ku_video_ETrYE4MdoLQ_1094",
+    "t_start": 1095.0,
+    "t_end": 1134.1,
+    "type": "overview",
+    "summary": "anything to do with planes. To have a look go to TheGreatCoursesPlus.com/numberphile, the link's there on the screen, and there's also a link in the video description you can just click on. Using the link will give you a free one-month trial with total access to the whole archive. So why not give them a look? It's a way of showing a bit of support for Numberphile but also a chance to do some serious binge learning. [Outtakes] Oi, what are you doing? - Hello Audrey You heard about chaos and thought that'll be exciting, yeh? - Aww cutie You are delightful! Come on, out we go. Out, out!"
+  }
+]

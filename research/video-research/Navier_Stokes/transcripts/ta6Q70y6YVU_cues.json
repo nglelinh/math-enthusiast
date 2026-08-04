@@ -1,0 +1,3942 @@
+[
+  {
+    "t_start": 2.71,
+    "t_end": 8.31,
+    "text": "fifth of the seven lectures on the clay millennium problems"
+  },
+  {
+    "t_start": 8.31,
+    "t_end": 13.43,
+    "text": "i'm glad to see that this beautiful spring weather has not won out against"
+  },
+  {
+    "t_start": 13.43,
+    "t_end": 16.47,
+    "text": "spring weather has not won out against the attractions of these talks it's"
+  },
+  {
+    "t_start": 16.47,
+    "t_end": 19.51,
+    "text": "the attractions of these talks it's probably unnecessary to explain again"
+  },
+  {
+    "t_start": 19.51,
+    "t_end": 20.79,
+    "text": "probably unnecessary to explain again but"
+  },
+  {
+    "t_start": 20.79,
+    "t_end": 25.029,
+    "text": "that these problems are unsolved the lectures are"
+  },
+  {
+    "t_start": 25.029,
+    "t_end": 30.55,
+    "text": "intended to give just given you an idea of the nature of a few of the especially"
+  },
+  {
+    "t_start": 30.55,
+    "t_end": 32.15,
+    "text": "of the nature of a few of the especially important unsolved problems in"
+  },
+  {
+    "t_start": 32.15,
+    "t_end": 34.549,
+    "text": "important unsolved problems in mathematics what they're about"
+  },
+  {
+    "t_start": 34.549,
+    "t_end": 36.79,
+    "text": "mathematics what they're about they are not"
+  },
+  {
+    "t_start": 36.79,
+    "t_end": 47.27,
+    "text": "reports on the solutions of the problems someone seemed to think last time"
+  },
+  {
+    "t_start": 50.15,
+    "t_end": 52.069,
+    "text": "the solutions will require new ideas new approaches"
+  },
+  {
+    "t_start": 52.069,
+    "t_end": 54.549,
+    "text": "approaches and"
+  },
+  {
+    "t_start": 57.11,
+    "t_end": 59.11,
+    "text": "the well it's i think i said before the first lecture to"
+  },
+  {
+    "t_start": 59.11,
+    "t_end": 64.149,
+    "text": "get a million this is probably one of the most difficult ways to"
+  },
+  {
+    "t_start": 64.149,
+    "t_end": 66.23,
+    "text": "the most difficult ways to get a million dollars"
+  },
+  {
+    "t_start": 66.23,
+    "t_end": 67.27,
+    "text": "get a million dollars to"
+  },
+  {
+    "t_start": 67.27,
+    "t_end": 73.67,
+    "text": "solve one of these problems anyway our speaker tonight is lewis"
+  },
+  {
+    "t_start": 75.99,
+    "t_end": 78.149,
+    "text": "he was born in buenos aires is of italian descent with a dash of greek"
+  },
+  {
+    "t_start": 78.149,
+    "t_end": 80.23,
+    "text": "italian descent with a dash of greek thrown in"
+  },
+  {
+    "t_start": 80.23,
+    "t_end": 84.55,
+    "text": "he did his undergraduate and graduate work in buenos aires at the university"
+  },
+  {
+    "t_start": 84.55,
+    "t_end": 87.51,
+    "text": "work in buenos aires at the university of buenos aires"
+  },
+  {
+    "t_start": 87.51,
+    "t_end": 92.069,
+    "text": "but after his phd he went to the university of minnesota"
+  },
+  {
+    "t_start": 92.069,
+    "t_end": 94.63,
+    "text": "university of minnesota as a postdoc"
+  },
+  {
+    "t_start": 94.63,
+    "t_end": 98.95,
+    "text": "and six years later he was a full professor there"
+  },
+  {
+    "t_start": 98.95,
+    "t_end": 104.87,
+    "text": "that he began working in partial differential equations"
+  },
+  {
+    "t_start": 104.87,
+    "t_end": 107.83,
+    "text": "differential equations which is his"
+  },
+  {
+    "t_start": 107.83,
+    "t_end": 112.83,
+    "text": "became his main mathematical love and the area of most of his"
+  },
+  {
+    "t_start": 112.83,
+    "t_end": 116.789,
+    "text": "the area of most of his research he also fell in love with and"
+  },
+  {
+    "t_start": 116.789,
+    "t_end": 120.95,
+    "text": "student in minnesota also from argentina uranu gamba"
+  },
+  {
+    "t_start": 120.95,
+    "t_end": 126.83,
+    "text": "she is now a professor here at ut in mathematics"
+  },
+  {
+    "t_start": 129.99,
+    "t_end": 133.11,
+    "text": "uh after his minnesota years and before coming here cafarelli spent"
+  },
+  {
+    "t_start": 133.11,
+    "t_end": 135.83,
+    "text": "and before coming here cafarelli spent time as professor at the koran institute"
+  },
+  {
+    "t_start": 135.83,
+    "t_end": 137.19,
+    "text": "time as professor at the koran institute at nyu"
+  },
+  {
+    "t_start": 137.19,
+    "t_end": 141.43,
+    "text": "the university of chicago and the institute for advanced study"
+  },
+  {
+    "t_start": 141.43,
+    "t_end": 144.07,
+    "text": "institute for advanced study since 1997"
+  },
+  {
+    "t_start": 144.07,
+    "t_end": 147.35,
+    "text": "since 1997 he's been a professor and said region"
+  },
+  {
+    "t_start": 147.35,
+    "t_end": 154.63,
+    "text": "shareholder here at ut if i list all his honors we'll never get"
+  },
+  {
+    "t_start": 154.63,
+    "t_end": 156.39,
+    "text": "if i list all his honors we'll never get to the lecture"
+  },
+  {
+    "t_start": 156.39,
+    "t_end": 160.07,
+    "text": "he's a member of the u.s national academy of science"
+  },
+  {
+    "t_start": 160.07,
+    "t_end": 163.91,
+    "text": "academy of science and a foreign member of several"
+  },
+  {
+    "t_start": 163.91,
+    "t_end": 167.27,
+    "text": "those of several countries several other countries"
+  },
+  {
+    "t_start": 167.27,
+    "t_end": 171.67,
+    "text": "his work has earned him several prizes and medals including the beauche prize"
+  },
+  {
+    "t_start": 171.67,
+    "t_end": 174.229,
+    "text": "and medals including the beauche prize of the american mathematical society"
+  },
+  {
+    "t_start": 174.229,
+    "t_end": 178.309,
+    "text": "of the american mathematical society he has an honorary doctorate from the"
+  },
+  {
+    "t_start": 178.309,
+    "t_end": 183.99,
+    "text": "university of madrid he's author or co-author of over 160"
+  },
+  {
+    "t_start": 183.99,
+    "t_end": 191.27,
+    "text": "he likes to play piano and is a serious chef during his chicago years"
+  },
+  {
+    "t_start": 191.27,
+    "t_end": 194.949,
+    "text": "i'm told it was said that the best restaurant in the city was shea"
+  },
+  {
+    "t_start": 194.949,
+    "t_end": 198.07,
+    "text": "restaurant in the city was shea cofferelli"
+  },
+  {
+    "t_start": 201.43,
+    "t_end": 202.79,
+    "text": "but to get get on toward the lecture one of those"
+  },
+  {
+    "t_start": 202.79,
+    "t_end": 205.75,
+    "text": "one of those 160 odd papers"
+  },
+  {
+    "t_start": 205.75,
+    "t_end": 208.07,
+    "text": "160 odd papers was written"
+  },
+  {
+    "t_start": 208.07,
+    "t_end": 213.509,
+    "text": "20 years ago by caffarelli cone and"
+  },
+  {
+    "t_start": 213.509,
+    "t_end": 215.35,
+    "text": "by caffarelli cone and and nirenberg"
+  },
+  {
+    "t_start": 215.35,
+    "t_end": 216.55,
+    "text": "and nirenberg here's the"
+  },
+  {
+    "t_start": 216.55,
+    "t_end": 223.39,
+    "text": "its title is partial regularity of suitable weak solutions of the"
+  },
+  {
+    "t_start": 223.39,
+    "t_end": 226.869,
+    "text": "suitable weak solutions of the navier-stokes-navier-stokes equations"
+  },
+  {
+    "t_start": 226.869,
+    "t_end": 232.149,
+    "text": "navier-stokes-navier-stokes equations and i understand that"
+  },
+  {
+    "t_start": 232.149,
+    "t_end": 233.67,
+    "text": "this is that's the uh"
+  },
+  {
+    "t_start": 233.67,
+    "t_end": 237.75,
+    "text": "in the last that's of course a a progress toward"
+  },
+  {
+    "t_start": 237.75,
+    "t_end": 242.71,
+    "text": "progress toward a solution of tonight's problem and i'm"
+  },
+  {
+    "t_start": 242.71,
+    "t_end": 247.429,
+    "text": "in the last 20 years in spite of the importance of the problem there has"
+  },
+  {
+    "t_start": 247.429,
+    "t_end": 250.63,
+    "text": "importance of the problem there has been no essentially no more progress so"
+  },
+  {
+    "t_start": 250.63,
+    "t_end": 251.99,
+    "text": "been no essentially no more progress so but let's let"
+  },
+  {
+    "t_start": 251.99,
+    "t_end": 256.42,
+    "text": "but let's let professor cavarelli tell us about the"
+  },
+  {
+    "t_start": 256.42,
+    "t_end": 264.79,
+    "text": "problem [Applause]"
+  },
+  {
+    "t_start": 264.79,
+    "t_end": 270.07,
+    "text": "the problem with beautiful introduction is then you talk and mess it up"
+  },
+  {
+    "t_start": 271.51,
+    "t_end": 280.55,
+    "text": "okay well a pleasure to be here tonight and so let me start by"
+  },
+  {
+    "t_start": 286.55,
+    "t_end": 288.87,
+    "text": "by writing what the navier-stokes equation is"
+  },
+  {
+    "t_start": 288.87,
+    "t_end": 292.87,
+    "text": "it's a simple mathematical model to describe the way"
+  },
+  {
+    "t_start": 292.87,
+    "t_end": 297.03,
+    "text": "describe the way the way an incompressible viscose fluid"
+  },
+  {
+    "t_start": 297.03,
+    "t_end": 304.629,
+    "text": "flows and"
+  },
+  {
+    "t_start": 306.629,
+    "t_end": 308.15,
+    "text": "there okay"
+  },
+  {
+    "t_start": 308.15,
+    "t_end": 314.23,
+    "text": "so what i thought tonight what i'm going to do is i want want to first give you"
+  },
+  {
+    "t_start": 314.23,
+    "t_end": 316.469,
+    "text": "an idea of what does it mean a mathematical model of a physical"
+  },
+  {
+    "t_start": 316.469,
+    "t_end": 318.79,
+    "text": "a mathematical model of a physical phenomena"
+  },
+  {
+    "t_start": 318.79,
+    "t_end": 323.749,
+    "text": "then describe a little bit what the term what each term in the navier-stokes"
+  },
+  {
+    "t_start": 323.749,
+    "t_end": 325.59,
+    "text": "what each term in the navier-stokes equation means"
+  },
+  {
+    "t_start": 325.59,
+    "t_end": 327.189,
+    "text": "equation means and finally"
+  },
+  {
+    "t_start": 327.189,
+    "t_end": 333.43,
+    "text": "sort of discuss what is the what are the difficulties of the problem okay"
+  },
+  {
+    "t_start": 333.43,
+    "t_end": 336.15,
+    "text": "difficulties of the problem okay so"
+  },
+  {
+    "t_start": 337.59,
+    "t_end": 343.029,
+    "text": "the matter of uh modeling uh the surrounding world is something that"
+  },
+  {
+    "t_start": 343.029,
+    "t_end": 345.189,
+    "text": "surrounding world is something that comes from the beginning of"
+  },
+  {
+    "t_start": 345.189,
+    "t_end": 347.27,
+    "text": "comes from the beginning of mankind i think you know"
+  },
+  {
+    "t_start": 347.27,
+    "t_end": 348.95,
+    "text": "mankind i think you know the movement of the planets the"
+  },
+  {
+    "t_start": 348.95,
+    "t_end": 354.23,
+    "text": "the movement of the planets the trajectory of a projectile"
+  },
+  {
+    "t_start": 354.23,
+    "t_end": 358.23,
+    "text": "you know rivers and bridges and so on people have been trying"
+  },
+  {
+    "t_start": 358.23,
+    "t_end": 359.59,
+    "text": "people have been trying to"
+  },
+  {
+    "t_start": 359.59,
+    "t_end": 365.35,
+    "text": "sort of understand and predict the dynamics of the world around them"
+  },
+  {
+    "t_start": 365.35,
+    "t_end": 367.99,
+    "text": "dynamics of the world around them and through the years"
+  },
+  {
+    "t_start": 367.99,
+    "t_end": 373.749,
+    "text": "and through the years they slowly developed a series of"
+  },
+  {
+    "t_start": 373.749,
+    "t_end": 381.749,
+    "text": "i was recently seeing once more the leonardo"
+  },
+  {
+    "t_start": 381.749,
+    "t_end": 386.15,
+    "text": "codex at lexington college at five or six years ago was"
+  },
+  {
+    "t_start": 386.15,
+    "t_end": 390.79,
+    "text": "both by bill gates and the american museum of natural history had a"
+  },
+  {
+    "t_start": 390.79,
+    "t_end": 391.909,
+    "text": "museum of natural history had a beautiful"
+  },
+  {
+    "t_start": 391.909,
+    "t_end": 395.029,
+    "text": "beautiful presentation in new york when we were"
+  },
+  {
+    "t_start": 395.029,
+    "t_end": 400.309,
+    "text": "and there leonardo studies the flow of water and basically"
+  },
+  {
+    "t_start": 400.309,
+    "t_end": 401.909,
+    "text": "water and basically sort of"
+  },
+  {
+    "t_start": 401.909,
+    "t_end": 407.51,
+    "text": "says the principal relations you know what is viscosity what is pressure what"
+  },
+  {
+    "t_start": 407.51,
+    "t_end": 408.43,
+    "text": "what is viscosity what is pressure what is"
+  },
+  {
+    "t_start": 408.43,
+    "t_end": 412.15,
+    "text": "capillarity so the ideas have been there for"
+  },
+  {
+    "t_start": 412.15,
+    "t_end": 419.189,
+    "text": "many years but it was not until the the development of newtonian mechanics"
+  },
+  {
+    "t_start": 419.189,
+    "t_end": 420.55,
+    "text": "the development of newtonian mechanics that"
+  },
+  {
+    "t_start": 420.55,
+    "t_end": 425.67,
+    "text": "those concepts could where the people were able to write those concepts into"
+  },
+  {
+    "t_start": 425.67,
+    "t_end": 427.43,
+    "text": "were able to write those concepts into mathematical formulation into"
+  },
+  {
+    "t_start": 427.43,
+    "t_end": 430.39,
+    "text": "mathematical formulation into mathematical modeling"
+  },
+  {
+    "t_start": 430.39,
+    "t_end": 433.67,
+    "text": "mathematical modeling uh so"
+  },
+  {
+    "t_start": 436.39,
+    "t_end": 438.39,
+    "text": "so the navier-stokes equation was presalsi writed by"
+  },
+  {
+    "t_start": 438.39,
+    "t_end": 442.629,
+    "text": "presalsi writed by navier and stokes here is a picture of"
+  },
+  {
+    "t_start": 442.629,
+    "t_end": 447.909,
+    "text": "mavier and this is stokes and really was written by by navier navier was a french"
+  },
+  {
+    "t_start": 447.909,
+    "t_end": 451.43,
+    "text": "written by by navier navier was a french hydrologist i think the"
+  },
+  {
+    "t_start": 451.43,
+    "t_end": 455.67,
+    "text": "sort of the napoleonic schools have a big influence in the development of"
+  },
+  {
+    "t_start": 455.67,
+    "t_end": 457.749,
+    "text": "big influence in the development of fluid dynamics and many"
+  },
+  {
+    "t_start": 457.749,
+    "t_end": 461.749,
+    "text": "fluid dynamics and many of continuum mechanics in general and"
+  },
+  {
+    "t_start": 461.749,
+    "t_end": 466.07,
+    "text": "hydraulic was well known as his time for the design of bridges"
+  },
+  {
+    "t_start": 466.07,
+    "t_end": 472.79,
+    "text": "and channels and so on and was just sort of a little bit of a sight"
+  },
+  {
+    "t_start": 472.79,
+    "t_end": 474.95,
+    "text": "word for him to write the navier-stokes equation and he wrote"
+  },
+  {
+    "t_start": 474.95,
+    "t_end": 479.189,
+    "text": "the navier-stokes equation and he wrote it in very aristic grounds but wrote the"
+  },
+  {
+    "t_start": 479.189,
+    "t_end": 484.39,
+    "text": "correct equations and so about 50 years later"
+  },
+  {
+    "t_start": 484.39,
+    "t_end": 490.469,
+    "text": "wrote it in the context of a full theory of fluid dynamics"
+  },
+  {
+    "t_start": 491.589,
+    "t_end": 499.749,
+    "text": "so let me so let me discuss a bit what is the"
+  },
+  {
+    "t_start": 502.39,
+    "t_end": 504.629,
+    "text": "of a mathematical model okay so most of you know many simple mathematical models"
+  },
+  {
+    "t_start": 504.629,
+    "t_end": 506.95,
+    "text": "you know many simple mathematical models probably the simple ones is the fact"
+  },
+  {
+    "t_start": 506.95,
+    "t_end": 513.43,
+    "text": "that if you throw a stone the trajectory of the stone is at first approximation"
+  },
+  {
+    "t_start": 513.43,
+    "t_end": 515.509,
+    "text": "of the stone is at first approximation a parabola and therefore you"
+  },
+  {
+    "t_start": 515.509,
+    "t_end": 519.43,
+    "text": "may predict the trajectory if you know the initial position and velocity in"
+  },
+  {
+    "t_start": 519.43,
+    "t_end": 520.63,
+    "text": "the initial position and velocity in other words"
+  },
+  {
+    "t_start": 520.63,
+    "t_end": 526.47,
+    "text": "this sort of model you attain by reconstructing velocity and position"
+  },
+  {
+    "t_start": 526.47,
+    "t_end": 532.07,
+    "text": "right out of the simple law that acceleration due to gravity is"
+  },
+  {
+    "t_start": 532.07,
+    "t_end": 534.47,
+    "text": "law that acceleration due to gravity is constant downwards and then from there"
+  },
+  {
+    "t_start": 534.47,
+    "t_end": 537.509,
+    "text": "constant downwards and then from there you write the the you can reconstruct"
+  },
+  {
+    "t_start": 537.509,
+    "t_end": 539.19,
+    "text": "you write the the you can reconstruct the position"
+  },
+  {
+    "t_start": 539.19,
+    "t_end": 542.71,
+    "text": "the position of course this is a very simple model"
+  },
+  {
+    "t_start": 542.71,
+    "t_end": 546.79,
+    "text": "if you want to write a more accurate one then you have to take into consideration"
+  },
+  {
+    "t_start": 546.79,
+    "t_end": 550.389,
+    "text": "then you have to take into consideration wind speed the shape of the rock the"
+  },
+  {
+    "t_start": 550.389,
+    "t_end": 555.75,
+    "text": "wind speed the shape of the rock the initial spin that you give to the rock"
+  },
+  {
+    "t_start": 558.47,
+    "t_end": 561.11,
+    "text": "so in reality given a physical phenomenon there is a full family"
+  },
+  {
+    "t_start": 561.11,
+    "t_end": 563.67,
+    "text": "phenomenon there is a full family of models or different sets of equations"
+  },
+  {
+    "t_start": 563.67,
+    "t_end": 567.19,
+    "text": "of models or different sets of equations that we can try to describe the same"
+  },
+  {
+    "t_start": 567.19,
+    "t_end": 572.07,
+    "text": "at different levels of complexity for instance in baseball right the parabola"
+  },
+  {
+    "t_start": 572.07,
+    "t_end": 574.63,
+    "text": "instance in baseball right the parabola model is probably reasonably good for"
+  },
+  {
+    "t_start": 574.63,
+    "t_end": 576.389,
+    "text": "model is probably reasonably good for the outfielder that throws the ball far"
+  },
+  {
+    "t_start": 576.389,
+    "t_end": 581.99,
+    "text": "away to send it back to the pitcher so he basically points out throws the ball"
+  },
+  {
+    "t_start": 581.99,
+    "t_end": 583.75,
+    "text": "he basically points out throws the ball and the parabola ball makes a parabola"
+  },
+  {
+    "t_start": 583.75,
+    "t_end": 588.31,
+    "text": "and the pitcher receives it but if you want to reproduce a sophisticated pitch"
+  },
+  {
+    "t_start": 588.31,
+    "t_end": 592.47,
+    "text": "want to reproduce a sophisticated pitch then that's no parabola right that has a"
+  },
+  {
+    "t_start": 592.47,
+    "t_end": 594.07,
+    "text": "lot of spin the wind enters into consideration"
+  },
+  {
+    "t_start": 594.07,
+    "t_end": 599.59,
+    "text": "consideration and so on"
+  },
+  {
+    "t_start": 601.829,
+    "t_end": 603.99,
+    "text": "but such a mathematical model independently"
+  },
+  {
+    "t_start": 603.99,
+    "t_end": 609.75,
+    "text": "independently of how accurate reflects reality"
+  },
+  {
+    "t_start": 610.389,
+    "t_end": 615.829,
+    "text": "it has to have some internal consistency"
+  },
+  {
+    "t_start": 618.31,
+    "t_end": 621.75,
+    "text": "for instance again in the parabola model you can prescribe the initial position"
+  },
+  {
+    "t_start": 621.75,
+    "t_end": 625.269,
+    "text": "you can prescribe the initial position an initial velocity"
+  },
+  {
+    "t_start": 627.509,
+    "t_end": 629.509,
+    "text": "with which the the outfielder throws the ball or instead you come"
+  },
+  {
+    "t_start": 629.509,
+    "t_end": 636.31,
+    "text": "prescribe two points the initial position and the point where you want"
+  },
+  {
+    "t_start": 636.31,
+    "t_end": 642.71,
+    "text": "which is really what the outfielder does i mean he sort of solves the inverse"
+  },
+  {
+    "t_start": 642.71,
+    "t_end": 644.87,
+    "text": "problem in his mind and throw the ball in the right direction but he's solving"
+  },
+  {
+    "t_start": 644.87,
+    "t_end": 646.31,
+    "text": "in the right direction but he's solving the problem of where he wants the"
+  },
+  {
+    "t_start": 646.31,
+    "t_end": 648.47,
+    "text": "the problem of where he wants the parabola to go and this is another"
+  },
+  {
+    "t_start": 648.47,
+    "t_end": 650.87,
+    "text": "parabola to go and this is another acceptable mathematical model but if you"
+  },
+  {
+    "t_start": 650.87,
+    "t_end": 654.31,
+    "text": "acceptable mathematical model but if you try to prescribe velocity and the point"
+  },
+  {
+    "t_start": 654.31,
+    "t_end": 656.069,
+    "text": "try to prescribe velocity and the point where the trajectory goes through most"
+  },
+  {
+    "t_start": 656.069,
+    "t_end": 664.15,
+    "text": "of the time you are over determining the problem and you won't be able to solve"
+  },
+  {
+    "t_start": 664.15,
+    "t_end": 666.63,
+    "text": "it okay or if initially instead of giving the full velocity vector you just"
+  },
+  {
+    "t_start": 666.63,
+    "t_end": 671.35,
+    "text": "giving the full velocity vector you just give the spin the ball can go in any"
+  },
+  {
+    "t_start": 671.35,
+    "t_end": 674.47,
+    "text": "direction nobody knows where it will go so the problem in that case"
+  },
+  {
+    "t_start": 674.47,
+    "t_end": 678.389,
+    "text": "so the problem in that case is undetermined"
+  },
+  {
+    "t_start": 680.31,
+    "t_end": 684.31,
+    "text": "so there is this minimum self-consistent requirement"
+  },
+  {
+    "t_start": 686.87,
+    "t_end": 688.55,
+    "text": "for a model which is to be able to sort of within some"
+  },
+  {
+    "t_start": 688.55,
+    "t_end": 693.91,
+    "text": "reasonable def set of data to find unique solutions to the equation okay in"
+  },
+  {
+    "t_start": 693.91,
+    "t_end": 700.63,
+    "text": "unique solutions to the equation okay in other words you want to say if you give"
+  },
+  {
+    "t_start": 700.63,
+    "t_end": 701.75,
+    "text": "me this data then i can tell you that the"
+  },
+  {
+    "t_start": 701.75,
+    "t_end": 706.47,
+    "text": "floor problem will evolve this way okay that makes so this is self-conscious it"
+  },
+  {
+    "t_start": 706.47,
+    "t_end": 708.87,
+    "text": "that makes so this is self-conscious it has nothing to do right awesome to do"
+  },
+  {
+    "t_start": 708.87,
+    "t_end": 712.55,
+    "text": "has nothing to do right awesome to do with the heuristic of reality but it has"
+  },
+  {
+    "t_start": 712.55,
+    "t_end": 715.03,
+    "text": "nothing to do with the model really representing an aspect or another of"
+  },
+  {
+    "t_start": 715.03,
+    "t_end": 717.91,
+    "text": "representing an aspect or another of realities so minimum requirement of any"
+  },
+  {
+    "t_start": 717.91,
+    "t_end": 720.31,
+    "text": "realities so minimum requirement of any mathematical model"
+  },
+  {
+    "t_start": 720.31,
+    "t_end": 724.55,
+    "text": "mathematical model on top of that you can"
+  },
+  {
+    "t_start": 724.55,
+    "t_end": 728.15,
+    "text": "require some other reasonable"
+  },
+  {
+    "t_start": 728.15,
+    "t_end": 731.43,
+    "text": "common sense properties for instance if you have a problem where energy you"
+  },
+  {
+    "t_start": 731.43,
+    "t_end": 733.829,
+    "text": "you have a problem where energy you expect it to dissipate that indeed what"
+  },
+  {
+    "t_start": 733.829,
+    "t_end": 736.069,
+    "text": "expect it to dissipate that indeed what you call the energy will decay"
+  },
+  {
+    "t_start": 736.069,
+    "t_end": 737.269,
+    "text": "you call the energy will decay that"
+  },
+  {
+    "t_start": 737.269,
+    "t_end": 741.91,
+    "text": "velocity and acceleration will not come become infinity because that doesn't"
+  },
+  {
+    "t_start": 741.91,
+    "t_end": 746.15,
+    "text": "become infinity because that doesn't make too much sense physically and so on"
+  },
+  {
+    "t_start": 746.15,
+    "t_end": 750.389,
+    "text": "okay so"
+  },
+  {
+    "t_start": 752.23,
+    "t_end": 754.069,
+    "text": "as we will see the clay foundation problem about navier"
+  },
+  {
+    "t_start": 754.069,
+    "t_end": 755.99,
+    "text": "clay foundation problem about navier stokes equation is concerned precisely"
+  },
+  {
+    "t_start": 755.99,
+    "t_end": 758.87,
+    "text": "stokes equation is concerned precisely with this issue of self-consistency that"
+  },
+  {
+    "t_start": 758.87,
+    "t_end": 762.55,
+    "text": "with this issue of self-consistency that is existence of acceptable solutions and"
+  },
+  {
+    "t_start": 762.55,
+    "t_end": 764.55,
+    "text": "is existence of acceptable solutions and velocity remaining finite and not with"
+  },
+  {
+    "t_start": 764.55,
+    "t_end": 766.31,
+    "text": "velocity remaining finite and not with the accuracy of the model to reproduce"
+  },
+  {
+    "t_start": 766.31,
+    "t_end": 767.99,
+    "text": "the accuracy of the model to reproduce reality that's sort of not a"
+  },
+  {
+    "t_start": 767.99,
+    "t_end": 774.949,
+    "text": "mathematical problem that's a scientific problem but of a different nature the"
+  },
+  {
+    "t_start": 774.949,
+    "t_end": 777.91,
+    "text": "mathematical problem is this internal consistency problem"
+  },
+  {
+    "t_start": 777.91,
+    "t_end": 781.43,
+    "text": "consistency problem okay"
+  },
+  {
+    "t_start": 783.03,
+    "t_end": 789.03,
+    "text": "so what is the phenophysical phenomena that navier stokes equation"
+  },
+  {
+    "t_start": 789.03,
+    "t_end": 790.629,
+    "text": "that navier stokes equation represents well"
+  },
+  {
+    "t_start": 790.629,
+    "t_end": 797.75,
+    "text": "trade different type of models and i was not satisfied with anyone and finally"
+  },
+  {
+    "t_start": 797.75,
+    "t_end": 799.269,
+    "text": "not satisfied with anyone and finally i thought"
+  },
+  {
+    "t_start": 799.269,
+    "t_end": 802.71,
+    "text": "i thought that"
+  },
+  {
+    "t_start": 805.509,
+    "t_end": 806.87,
+    "text": "the correct version of the model was the gourmet one"
+  },
+  {
+    "t_start": 806.87,
+    "t_end": 813.67,
+    "text": "and the remaining one consists of the following you take a bottle of olive oil"
+  },
+  {
+    "t_start": 813.67,
+    "t_end": 815.91,
+    "text": "with no air inside so full you put a little bit of oregano and red pepper as"
+  },
+  {
+    "t_start": 815.91,
+    "t_end": 819.03,
+    "text": "little bit of oregano and red pepper as tracers you shake the bottle really well"
+  },
+  {
+    "t_start": 819.03,
+    "t_end": 824.069,
+    "text": "tracers you shake the bottle really well and then you sit it on the table and the"
+  },
+  {
+    "t_start": 824.069,
+    "t_end": 829.11,
+    "text": "fluid is moving and so what you want to do is you want to be able to reproduce"
+  },
+  {
+    "t_start": 829.11,
+    "t_end": 834.47,
+    "text": "how that fluid with that initial velocity will evolve into rest okay"
+  },
+  {
+    "t_start": 834.47,
+    "t_end": 835.35,
+    "text": "velocity will evolve into rest okay so"
+  },
+  {
+    "t_start": 835.35,
+    "t_end": 840.87,
+    "text": "let me point out that this this sort of experiment has many"
+  },
+  {
+    "t_start": 840.87,
+    "t_end": 843.03,
+    "text": "this this sort of experiment has many similarities with the throwing of the"
+  },
+  {
+    "t_start": 843.03,
+    "t_end": 847.67,
+    "text": "rock okay in some sense the initial shaking of the bottle corresponds to the"
+  },
+  {
+    "t_start": 847.67,
+    "t_end": 851.99,
+    "text": "shaking of the bottle corresponds to the swinging of the arm where you are sort"
+  },
+  {
+    "t_start": 851.99,
+    "t_end": 853.509,
+    "text": "of imprint you know giving the"
+  },
+  {
+    "t_start": 853.509,
+    "t_end": 857.11,
+    "text": "giving the giving the fluid some initial velocity"
+  },
+  {
+    "t_start": 857.11,
+    "t_end": 864.629,
+    "text": "corresponds to putting the bottle on top of a table and then let the thing evolve"
+  },
+  {
+    "t_start": 864.629,
+    "t_end": 866.15,
+    "text": "of a table and then let the thing evolve according to its"
+  },
+  {
+    "t_start": 866.15,
+    "t_end": 870.389,
+    "text": "according to its own internal workings its pressure is"
+  },
+  {
+    "t_start": 870.389,
+    "t_end": 873.189,
+    "text": "friction and so on"
+  },
+  {
+    "t_start": 873.189,
+    "t_end": 876.87,
+    "text": "and also both both"
+  },
+  {
+    "t_start": 876.87,
+    "t_end": 885.189,
+    "text": "mathematical similarities and these are the ones i want to stress"
+  },
+  {
+    "t_start": 885.189,
+    "t_end": 887.35,
+    "text": "the ones i want to stress first both models are the simplest"
+  },
+  {
+    "t_start": 887.35,
+    "t_end": 891.35,
+    "text": "first both models are the simplest economic most economic way on describing"
+  },
+  {
+    "t_start": 891.35,
+    "t_end": 893.35,
+    "text": "economic most economic way on describing the phenomena under considerations"
+  },
+  {
+    "t_start": 893.35,
+    "t_end": 898.55,
+    "text": "the phenomena under considerations navier stokes equation is the simplest"
+  },
+  {
+    "t_start": 898.55,
+    "t_end": 901.59,
+    "text": "family of equations that you can in some sense create to try to describe"
+  },
+  {
+    "t_start": 901.59,
+    "t_end": 905.03,
+    "text": "in some sense create to try to describe a flow a viscous flow"
+  },
+  {
+    "t_start": 905.03,
+    "t_end": 911.269,
+    "text": "reasonable conditions in other words if the velocity increase too much if you"
+  },
+  {
+    "t_start": 911.269,
+    "t_end": 913.91,
+    "text": "the velocity increase too much if you are looking at the model where you know"
+  },
+  {
+    "t_start": 913.91,
+    "t_end": 918.47,
+    "text": "the the oil is engine oil and starts to burn and reaches very high temperatures"
+  },
+  {
+    "t_start": 918.47,
+    "t_end": 923.91,
+    "text": "burn and reaches very high temperatures and so on then the model is not that"
+  },
+  {
+    "t_start": 925.829,
+    "t_end": 927.59,
+    "text": "but what is more interesting and i think i want really to stress because i think"
+  },
+  {
+    "t_start": 927.59,
+    "t_end": 931.03,
+    "text": "i want really to stress because i think this was the great achievement of of of"
+  },
+  {
+    "t_start": 931.03,
+    "t_end": 936.47,
+    "text": "this was the great achievement of of of mechanisms of the last century is that"
+  },
+  {
+    "t_start": 936.47,
+    "t_end": 938.31,
+    "text": "uh the idea in both in in the in the"
+  },
+  {
+    "t_start": 938.31,
+    "t_end": 943.59,
+    "text": "parabola model what you take is sort of rates of change right discrete rates of"
+  },
+  {
+    "t_start": 943.59,
+    "t_end": 945.189,
+    "text": "rates of change right discrete rates of change velocity"
+  },
+  {
+    "t_start": 945.189,
+    "t_end": 946.31,
+    "text": "change velocity at time"
+  },
+  {
+    "t_start": 946.31,
+    "t_end": 950.31,
+    "text": "two minus velocity at time one and then you take smaller and smaller and smaller"
+  },
+  {
+    "t_start": 950.31,
+    "t_end": 955.189,
+    "text": "you take smaller and smaller and smaller rates of change and transform"
+  },
+  {
+    "t_start": 955.189,
+    "t_end": 957.11,
+    "text": "the average problem into an instantaneous into a"
+  },
+  {
+    "t_start": 957.11,
+    "t_end": 961.509,
+    "text": "infinitesimal equation right which is acceleration equal to"
+  },
+  {
+    "t_start": 961.509,
+    "t_end": 963.749,
+    "text": "acceleration equal to uh minus uh"
+  },
+  {
+    "t_start": 963.749,
+    "t_end": 969.11,
+    "text": "constant downwards okay and here too the the great achievement of these"
+  },
+  {
+    "t_start": 969.11,
+    "t_end": 974.31,
+    "text": "people was to study these bald quantities this bulk average laws reduce"
+  },
+  {
+    "t_start": 974.31,
+    "t_end": 975.99,
+    "text": "quantities this bulk average laws reduce it to smaller and smaller physical"
+  },
+  {
+    "t_start": 975.99,
+    "t_end": 981.35,
+    "text": "domains and intervals of time and that will allow them to transform these bulk"
+  },
+  {
+    "t_start": 981.35,
+    "t_end": 983.749,
+    "text": "will allow them to transform these bulk laws in infinite decimal equations and"
+  },
+  {
+    "t_start": 983.749,
+    "t_end": 989.11,
+    "text": "laws in infinite decimal equations and this is one of the threats i want to"
+  },
+  {
+    "t_start": 989.11,
+    "t_end": 994.069,
+    "text": "those equations what they do is simply balance the acceleration with the forces"
+  },
+  {
+    "t_start": 994.069,
+    "t_end": 999.43,
+    "text": "balance the acceleration with the forces internal forces in the fluid"
+  },
+  {
+    "t_start": 1002.629,
+    "t_end": 1006.949,
+    "text": "or faster than any given particle then the flow pulls that particle faster and"
+  },
+  {
+    "t_start": 1006.949,
+    "t_end": 1010.55,
+    "text": "i'll try to later explain that idea a little bit more in detail"
+  },
+  {
+    "t_start": 1010.55,
+    "t_end": 1014.389,
+    "text": "okay so"
+  },
+  {
+    "t_start": 1015.11,
+    "t_end": 1019.43,
+    "text": "before doing that i want to take some time"
+  },
+  {
+    "t_start": 1019.43,
+    "t_end": 1026.789,
+    "text": "discuss what each of the four terms here are in compressibility well acceleration"
+  },
+  {
+    "t_start": 1026.789,
+    "t_end": 1029.11,
+    "text": "are in compressibility well acceleration more or less everybody knows pressure"
+  },
+  {
+    "t_start": 1029.11,
+    "t_end": 1031.189,
+    "text": "more or less everybody knows pressure and the viscosity effect but before"
+  },
+  {
+    "t_start": 1031.189,
+    "t_end": 1034.71,
+    "text": "and the viscosity effect but before doing that i want to take some time"
+  },
+  {
+    "t_start": 1034.71,
+    "t_end": 1037.429,
+    "text": "because i think it's important to understand why navier stokes equation is"
+  },
+  {
+    "t_start": 1037.429,
+    "t_end": 1042.789,
+    "text": "understand why navier stokes equation is difficult i want to take some time in"
+  },
+  {
+    "t_start": 1042.789,
+    "t_end": 1046.23,
+    "text": "discussing the two ways which which usually people in in continuum mechanics"
+  },
+  {
+    "t_start": 1046.23,
+    "t_end": 1050.789,
+    "text": "usually people in in continuum mechanics record data okay there are two different"
+  },
+  {
+    "t_start": 1050.789,
+    "t_end": 1056.95,
+    "text": "ways and these are lagrangian and eulerian coordinates"
+  },
+  {
+    "t_start": 1058.47,
+    "t_end": 1060.87,
+    "text": "and that's why i chose the oil with the oregon on the"
+  },
+  {
+    "t_start": 1060.87,
+    "t_end": 1064.549,
+    "text": "and the pepper because it's i think really the probably the best way to"
+  },
+  {
+    "t_start": 1064.549,
+    "t_end": 1066.95,
+    "text": "really the probably the best way to explain that okay so in lagrangian"
+  },
+  {
+    "t_start": 1066.95,
+    "t_end": 1069.029,
+    "text": "explain that okay so in lagrangian coordinates you have the bottle the"
+  },
+  {
+    "t_start": 1069.029,
+    "t_end": 1072.789,
+    "text": "coordinates you have the bottle the fluid is moving and you get an"
+  },
+  {
+    "t_start": 1072.789,
+    "t_end": 1077.11,
+    "text": "particle moving on the flow okay you have a particle of oregano pepper maybe"
+  },
+  {
+    "t_start": 1077.11,
+    "t_end": 1084.07,
+    "text": "you were able to put in each little drop a set of sensors right and then receive"
+  },
+  {
+    "t_start": 1084.07,
+    "t_end": 1086.23,
+    "text": "a set of sensors right and then receive the information that the particle is"
+  },
+  {
+    "t_start": 1086.23,
+    "t_end": 1090.31,
+    "text": "moving the origin is moving at such a speed with such acceleration with soft"
+  },
+  {
+    "t_start": 1090.31,
+    "t_end": 1092.83,
+    "text": "speed with such acceleration with soft density and so on"
+  },
+  {
+    "t_start": 1092.83,
+    "t_end": 1094.71,
+    "text": "density and so on okay"
+  },
+  {
+    "t_start": 1094.71,
+    "t_end": 1099.51,
+    "text": "okay so"
+  },
+  {
+    "t_start": 1101.19,
+    "t_end": 1103.27,
+    "text": "so for instance a data table in lagrangian coordinates will be the"
+  },
+  {
+    "t_start": 1103.27,
+    "t_end": 1105.43,
+    "text": "lagrangian coordinates will be the following label the following particles"
+  },
+  {
+    "t_start": 1105.43,
+    "t_end": 1110.31,
+    "text": "following label the following particles and then after one second two seconds"
+  },
+  {
+    "t_start": 1110.31,
+    "t_end": 1112.789,
+    "text": "three seconds i say what the speed or what is the acceleration or what is"
+  },
+  {
+    "t_start": 1112.789,
+    "t_end": 1117.669,
+    "text": "what is the acceleration or what is whatever that particle is doing"
+  },
+  {
+    "t_start": 1117.669,
+    "t_end": 1123.27,
+    "text": "in olympian coordinates instead what you do is you concentrate in every physical"
+  },
+  {
+    "t_start": 1123.27,
+    "t_end": 1126.15,
+    "text": "do is you concentrate in every physical point inside the bottle"
+  },
+  {
+    "t_start": 1126.15,
+    "t_end": 1130.47,
+    "text": "so you concentrate on each particle and register what is going through it you"
+  },
+  {
+    "t_start": 1130.47,
+    "t_end": 1132.63,
+    "text": "register what is going through it you know if oregano goes by oregano goes by"
+  },
+  {
+    "t_start": 1132.63,
+    "t_end": 1136.63,
+    "text": "know if oregano goes by oregano goes by and you never see it again you keep"
+  },
+  {
+    "t_start": 1136.63,
+    "t_end": 1138.47,
+    "text": "looking at that point and you just concentrate what happens there and you"
+  },
+  {
+    "t_start": 1138.47,
+    "t_end": 1141.029,
+    "text": "concentrate what happens there and you record what the data"
+  },
+  {
+    "t_start": 1141.029,
+    "t_end": 1148.789,
+    "text": "on it is suppose you have a crowded highway right and lagrangian coordinates"
+  },
+  {
+    "t_start": 1148.789,
+    "t_end": 1153.35,
+    "text": "highway right and lagrangian coordinates will be if each car is reporting to you"
+  },
+  {
+    "t_start": 1153.35,
+    "t_end": 1156.23,
+    "text": "it's giving information to you while urian coordinates is like a helicopter"
+  },
+  {
+    "t_start": 1156.23,
+    "t_end": 1158.39,
+    "text": "urian coordinates is like a helicopter hovering over the highway and just"
+  },
+  {
+    "t_start": 1158.39,
+    "t_end": 1164.39,
+    "text": "looking what happens at this point and at this point and the helicopter doesn't"
+  },
+  {
+    "t_start": 1164.39,
+    "t_end": 1166.39,
+    "text": "follow each particular car cars go by right he just records what is the speed"
+  },
+  {
+    "t_start": 1166.39,
+    "t_end": 1168.39,
+    "text": "right he just records what is the speed of the car going through this point at"
+  },
+  {
+    "t_start": 1168.39,
+    "t_end": 1171.19,
+    "text": "of the car going through this point at this time okay"
+  },
+  {
+    "t_start": 1171.19,
+    "t_end": 1173.029,
+    "text": "this time okay so for instance"
+  },
+  {
+    "t_start": 1173.029,
+    "t_end": 1178.15,
+    "text": "this will be the velocity field in elyrian coordinates at a given time"
+  },
+  {
+    "t_start": 1178.15,
+    "t_end": 1181.35,
+    "text": "in elyrian coordinates at a given time to zero you're looking at the space and"
+  },
+  {
+    "t_start": 1181.35,
+    "t_end": 1182.47,
+    "text": "here you have this velocity this velocity"
+  },
+  {
+    "t_start": 1182.47,
+    "t_end": 1187.51,
+    "text": "velocity and so on"
+  },
+  {
+    "t_start": 1189.35,
+    "t_end": 1191.27,
+    "text": "so in eulerian coordinates you only see a particle as you draw through a point"
+  },
+  {
+    "t_start": 1191.27,
+    "t_end": 1193.19,
+    "text": "a particle as you draw through a point you never see it back"
+  },
+  {
+    "t_start": 1193.19,
+    "t_end": 1199.59,
+    "text": "and so basically what the main quantity you record in lagrangian coordinates is"
+  },
+  {
+    "t_start": 1199.59,
+    "t_end": 1202.07,
+    "text": "you record in lagrangian coordinates is the position at time t"
+  },
+  {
+    "t_start": 1202.07,
+    "t_end": 1209.35,
+    "text": "of the particle that you label with some name at time zero okay so your name is x"
+  },
+  {
+    "t_start": 1209.35,
+    "t_end": 1215.909,
+    "text": "and you say that particle at a time zero i call x right i call whatever now is in"
+  },
+  {
+    "t_start": 1215.909,
+    "t_end": 1217.43,
+    "text": "i call x right i call whatever now is in position y"
+  },
+  {
+    "t_start": 1217.43,
+    "t_end": 1222.549,
+    "text": "so lagrangian coordinates the main description of lagrangian coordinates is"
+  },
+  {
+    "t_start": 1222.549,
+    "t_end": 1229.83,
+    "text": "description of lagrangian coordinates is by giving the position of every particle"
+  },
+  {
+    "t_start": 1231.909,
+    "t_end": 1234.63,
+    "text": "well for the eulerian observer since he doesn't care about particles the central"
+  },
+  {
+    "t_start": 1234.63,
+    "t_end": 1236.31,
+    "text": "doesn't care about particles the central information he has"
+  },
+  {
+    "t_start": 1236.31,
+    "t_end": 1242.149,
+    "text": "is just the velocity field that is going through any fixed point in space okay"
+  },
+  {
+    "t_start": 1242.149,
+    "t_end": 1245.11,
+    "text": "through any fixed point in space okay so why do i take"
+  },
+  {
+    "t_start": 1245.11,
+    "t_end": 1250.149,
+    "text": "so why do i take why do i take the"
+  },
+  {
+    "t_start": 1252.87,
+    "t_end": 1255.43,
+    "text": "why do i take this the time to make this discussion we'll see later is because"
+  },
+  {
+    "t_start": 1255.43,
+    "t_end": 1257.59,
+    "text": "discussion we'll see later is because in fluid mechanics both concepts in some"
+  },
+  {
+    "t_start": 1257.59,
+    "t_end": 1259.35,
+    "text": "in fluid mechanics both concepts in some sense mix"
+  },
+  {
+    "t_start": 1259.35,
+    "t_end": 1260.47,
+    "text": "sense mix okay"
+  },
+  {
+    "t_start": 1260.47,
+    "t_end": 1264.87,
+    "text": "so let's keep this for a minute oops in the refrigerator we will discuss it"
+  },
+  {
+    "t_start": 1264.87,
+    "t_end": 1265.909,
+    "text": "the refrigerator we will discuss it later"
+  },
+  {
+    "t_start": 1265.909,
+    "t_end": 1272.789,
+    "text": "uh start to discuss the terms and the consideration so the first the first uh"
+  },
+  {
+    "t_start": 1272.789,
+    "t_end": 1276.87,
+    "text": "consideration so the first the first uh the first uh statement in navier stokes"
+  },
+  {
+    "t_start": 1276.87,
+    "t_end": 1279.669,
+    "text": "equation is that the fluid is incompressible okay so"
+  },
+  {
+    "t_start": 1279.669,
+    "t_end": 1287.83,
+    "text": "incompressible okay so we are all basically"
+  },
+  {
+    "t_start": 1289.59,
+    "t_end": 1293.35,
+    "text": "have an houristic idea of what compressibility means it means to just"
+  },
+  {
+    "t_start": 1293.35,
+    "t_end": 1295.43,
+    "text": "compressibility means it means to just take in some substance and material and"
+  },
+  {
+    "t_start": 1295.43,
+    "t_end": 1298.23,
+    "text": "take in some substance and material and by pressing it reduce its volume right"
+  },
+  {
+    "t_start": 1298.23,
+    "t_end": 1299.99,
+    "text": "by pressing it reduce its volume right gases are usually compressed we have a"
+  },
+  {
+    "t_start": 1299.99,
+    "t_end": 1301.99,
+    "text": "gases are usually compressed we have a bottle you squeeze them they can reduce"
+  },
+  {
+    "t_start": 1301.99,
+    "t_end": 1304.39,
+    "text": "bottle you squeeze them they can reduce the volume fluids are usually under"
+  },
+  {
+    "t_start": 1304.39,
+    "t_end": 1307.029,
+    "text": "the volume fluids are usually under reasonable physical situations and"
+  },
+  {
+    "t_start": 1307.029,
+    "t_end": 1311.43,
+    "text": "reasonable physical situations and compressible there is no way you can"
+  },
+  {
+    "t_start": 1311.43,
+    "t_end": 1317.19,
+    "text": "so so this is the first statement of the question now what does it mean"
+  },
+  {
+    "t_start": 1317.19,
+    "t_end": 1318.47,
+    "text": "of the question now what does it mean mathematically"
+  },
+  {
+    "t_start": 1318.47,
+    "t_end": 1322.95,
+    "text": "okay so you can say what it means mathematically in lagrangian coordinates"
+  },
+  {
+    "t_start": 1322.95,
+    "t_end": 1330.39,
+    "text": "mathematically in lagrangian coordinates or in eulerian coordinates in lagrangian"
+  },
+  {
+    "t_start": 1330.39,
+    "t_end": 1335.669,
+    "text": "parcel of liquid or fluid you take if you follow it through it's through his"
+  },
+  {
+    "t_start": 1335.669,
+    "t_end": 1339.43,
+    "text": "you follow it through it's through his life you know it's going around and"
+  },
+  {
+    "t_start": 1339.43,
+    "t_end": 1342.789,
+    "text": "around and around and make the form so maybe very long very stretchy and so"
+  },
+  {
+    "t_start": 1342.789,
+    "t_end": 1347.669,
+    "text": "nevertheless the volume is always the same that's what incompressible means"
+  },
+  {
+    "t_start": 1347.669,
+    "t_end": 1350.789,
+    "text": "same that's what incompressible means okay"
+  },
+  {
+    "t_start": 1352.549,
+    "t_end": 1354.31,
+    "text": "lagrange in eulerian coordinates you cannot talk about the volume traveling"
+  },
+  {
+    "t_start": 1354.31,
+    "t_end": 1358.149,
+    "text": "cannot talk about the volume traveling around you have to fix your attention in"
+  },
+  {
+    "t_start": 1358.149,
+    "t_end": 1364.39,
+    "text": "so in eulerian coordinates you just take any fixed region and you look at the"
+  },
+  {
+    "t_start": 1364.39,
+    "t_end": 1366.83,
+    "text": "any fixed region and you look at the flow entering and going out"
+  },
+  {
+    "t_start": 1366.83,
+    "t_end": 1368.39,
+    "text": "flow entering and going out instantaneously"
+  },
+  {
+    "t_start": 1368.39,
+    "t_end": 1372.31,
+    "text": "in that region you know where you say okay here there is flow coming out on"
+  },
+  {
+    "t_start": 1372.31,
+    "t_end": 1376.31,
+    "text": "okay here there is flow coming out on the other side there is flow going in i"
+  },
+  {
+    "t_start": 1376.31,
+    "t_end": 1382.23,
+    "text": "whatever is out i add it up i have to get zero incompressible in fixed space"
+  },
+  {
+    "t_start": 1382.23,
+    "t_end": 1387.75,
+    "text": "means that whatever goes in has to go out somewhere else okay now here i want"
+  },
+  {
+    "t_start": 1387.75,
+    "t_end": 1390.149,
+    "text": "out somewhere else okay now here i want to stress then this beautiful idea of"
+  },
+  {
+    "t_start": 1390.149,
+    "t_end": 1391.83,
+    "text": "to stress then this beautiful idea of continuing mechanics is"
+  },
+  {
+    "t_start": 1391.83,
+    "t_end": 1396.95,
+    "text": "this is something that i can apply to any little volume of space it can apply"
+  },
+  {
+    "t_start": 1396.95,
+    "t_end": 1398.95,
+    "text": "any little volume of space it can apply to this area to this area to this area"
+  },
+  {
+    "t_start": 1398.95,
+    "t_end": 1405.35,
+    "text": "and it's super you know it's additive it superposes this property therefore i"
+  },
+  {
+    "t_start": 1405.35,
+    "t_end": 1410.23,
+    "text": "should be able to express that by an infinite decimal relation okay and the"
+  },
+  {
+    "t_start": 1410.23,
+    "t_end": 1412.87,
+    "text": "infinite decimal relation okay and the infinitesimal equation i just put it"
+  },
+  {
+    "t_start": 1412.87,
+    "t_end": 1415.19,
+    "text": "infinitesimal equation i just put it here for for you to see in evolution in"
+  },
+  {
+    "t_start": 1415.19,
+    "t_end": 1417.43,
+    "text": "here for for you to see in evolution in lagrangian coordinates simply says that"
+  },
+  {
+    "t_start": 1417.43,
+    "t_end": 1419.99,
+    "text": "lagrangian coordinates simply says that the determinant of the differential"
+  },
+  {
+    "t_start": 1419.99,
+    "t_end": 1425.669,
+    "text": "of y with respect to x is one and in lagra in eulerian coordinates that the"
+  },
+  {
+    "t_start": 1425.669,
+    "t_end": 1430.63,
+    "text": "divergence of the velocity field is zero and it doesn't matter what it means but"
+  },
+  {
+    "t_start": 1430.63,
+    "t_end": 1433.269,
+    "text": "and it doesn't matter what it means but what is important is this idea that you"
+  },
+  {
+    "t_start": 1433.269,
+    "t_end": 1436.23,
+    "text": "what is important is this idea that you can by applying the"
+  },
+  {
+    "t_start": 1436.23,
+    "t_end": 1440.149,
+    "text": "can by applying the bulk property to smaller and smaller and"
+  },
+  {
+    "t_start": 1440.149,
+    "t_end": 1446.71,
+    "text": "rewrite that as a differential equation as an infinitesimal relation"
+  },
+  {
+    "t_start": 1446.71,
+    "t_end": 1448.149,
+    "text": "as an infinitesimal relation okay"
+  },
+  {
+    "t_start": 1448.149,
+    "t_end": 1453.99,
+    "text": "incompressibility i'll discuss a little bit later what is the meaning of that in"
+  },
+  {
+    "t_start": 1453.99,
+    "t_end": 1455.59,
+    "text": "bit later what is the meaning of that in terms of navier-stokes equation but"
+  },
+  {
+    "t_start": 1455.59,
+    "t_end": 1458.549,
+    "text": "terms of navier-stokes equation but that's what incompressibility means"
+  },
+  {
+    "t_start": 1458.549,
+    "t_end": 1462.47,
+    "text": "so acceleration well i think more or less all of us have an idea of what"
+  },
+  {
+    "t_start": 1462.47,
+    "t_end": 1464.47,
+    "text": "less all of us have an idea of what acceleration is or if you speed on the"
+  },
+  {
+    "t_start": 1464.47,
+    "t_end": 1466.549,
+    "text": "acceleration is or if you speed on the highway it's linear acceleration you"
+  },
+  {
+    "t_start": 1466.549,
+    "t_end": 1470.789,
+    "text": "highway it's linear acceleration you take a turn you have some three petals"
+  },
+  {
+    "t_start": 1470.789,
+    "t_end": 1472.47,
+    "text": "of cigarette acceleration so basic basically acceleration"
+  },
+  {
+    "t_start": 1472.47,
+    "t_end": 1478.31,
+    "text": "is just the instantaneous rate of change of in the velocity of any given particle"
+  },
+  {
+    "t_start": 1478.31,
+    "t_end": 1481.909,
+    "text": "of in the velocity of any given particle in the flow then we take a particle"
+  },
+  {
+    "t_start": 1481.909,
+    "t_end": 1486.39,
+    "text": "measure its velocity a little bit later make the infinitesimal quotient take the"
+  },
+  {
+    "t_start": 1486.39,
+    "t_end": 1490.149,
+    "text": "make the infinitesimal quotient take the limit that is acceleration okay"
+  },
+  {
+    "t_start": 1490.149,
+    "t_end": 1491.029,
+    "text": "limit that is acceleration okay now"
+  },
+  {
+    "t_start": 1491.029,
+    "t_end": 1495.029,
+    "text": "i want to stress a very important point about acceleration that is that"
+  },
+  {
+    "t_start": 1495.029,
+    "t_end": 1500.63,
+    "text": "acceleration is a lagrangian concept in other words to to compute acceleration"
+  },
+  {
+    "t_start": 1500.63,
+    "t_end": 1506.63,
+    "text": "other words to to compute acceleration you take a particular particle at a time"
+  },
+  {
+    "t_start": 1506.63,
+    "t_end": 1508.71,
+    "text": "you look at it a little bit later and see what is the instantaneous rate of"
+  },
+  {
+    "t_start": 1508.71,
+    "t_end": 1516.31,
+    "text": "see what is the instantaneous rate of change okay"
+  },
+  {
+    "t_start": 1518.23,
+    "t_end": 1520.87,
+    "text": "in eulerian coordinates to complete the real coordinates instead"
+  },
+  {
+    "t_start": 1520.87,
+    "t_end": 1523.909,
+    "text": "real coordinates instead the situation becomes much more"
+  },
+  {
+    "t_start": 1523.909,
+    "t_end": 1527.51,
+    "text": "and the reason is that the velocity field when you try to compute"
+  },
+  {
+    "t_start": 1527.51,
+    "t_end": 1528.95,
+    "text": "field when you try to compute acceleration"
+  },
+  {
+    "t_start": 1528.95,
+    "t_end": 1529.99,
+    "text": "acceleration in"
+  },
+  {
+    "t_start": 1529.99,
+    "t_end": 1534.31,
+    "text": "eulerian coordinates appears twice okay"
+  },
+  {
+    "t_start": 1534.31,
+    "t_end": 1537.35,
+    "text": "appears first because velocity is changing"
+  },
+  {
+    "t_start": 1537.35,
+    "t_end": 1541.269,
+    "text": "but also appears because the formula for error accelerations is that you have to"
+  },
+  {
+    "t_start": 1541.269,
+    "t_end": 1544.71,
+    "text": "error accelerations is that you have to compute the velocity of whoever is going"
+  },
+  {
+    "t_start": 1544.71,
+    "t_end": 1547.35,
+    "text": "compute the velocity of whoever is going through point x"
+  },
+  {
+    "t_start": 1547.35,
+    "t_end": 1552.789,
+    "text": "at time t 0 but also you need to know the velocity of that same particle an"
+  },
+  {
+    "t_start": 1552.789,
+    "t_end": 1554.39,
+    "text": "the velocity of that same particle an instant afterwards that's what"
+  },
+  {
+    "t_start": 1554.39,
+    "t_end": 1560.149,
+    "text": "velocity of the particle now look at the velocity a little bit later of the same"
+  },
+  {
+    "t_start": 1560.149,
+    "t_end": 1562.549,
+    "text": "velocity a little bit later of the same particle and see the instantaneous rate"
+  },
+  {
+    "t_start": 1562.549,
+    "t_end": 1567.51,
+    "text": "particle and see the instantaneous rate of change but the fluid has taken that"
+  },
+  {
+    "t_start": 1567.51,
+    "t_end": 1571.909,
+    "text": "in eulerian coordinates you are looking at x and the particle is not there"
+  },
+  {
+    "t_start": 1571.909,
+    "t_end": 1582.549,
+    "text": "the particle has drifted away due to the velocity field itself"
+  },
+  {
+    "t_start": 1584.789,
+    "t_end": 1587.669,
+    "text": "so the particle is here and an instant of time later the particle has drifted"
+  },
+  {
+    "t_start": 1587.669,
+    "t_end": 1589.11,
+    "text": "of time later the particle has drifted away"
+  },
+  {
+    "t_start": 1589.11,
+    "t_end": 1596.95,
+    "text": "that when you try to write the formula for acceleration the velocity appears in"
+  },
+  {
+    "t_start": 1596.95,
+    "t_end": 1600.23,
+    "text": "for acceleration the velocity appears in a non-linear fashion"
+  },
+  {
+    "t_start": 1600.23,
+    "t_end": 1605.269,
+    "text": "when you do the increment you have to consider the velocity not at x but at"
+  },
+  {
+    "t_start": 1605.269,
+    "t_end": 1608.149,
+    "text": "consider the velocity not at x but at the point that where the particle has"
+  },
+  {
+    "t_start": 1608.149,
+    "t_end": 1612.95,
+    "text": "drifted by the velocity field itself and that means that acceleration which is so"
+  },
+  {
+    "t_start": 1612.95,
+    "t_end": 1614.789,
+    "text": "that means that acceleration which is so beautiful and simple quantity in"
+  },
+  {
+    "t_start": 1614.789,
+    "t_end": 1618.23,
+    "text": "beautiful and simple quantity in lagrangian coordinates it becomes a"
+  },
+  {
+    "t_start": 1618.23,
+    "t_end": 1620.789,
+    "text": "lagrangian coordinates it becomes a non-linear quantity"
+  },
+  {
+    "t_start": 1620.789,
+    "t_end": 1626.23,
+    "text": "complex nonlinear quantity in eulerian quantum coordinates okay and i"
+  },
+  {
+    "t_start": 1626.23,
+    "t_end": 1628.789,
+    "text": "eulerian quantum coordinates okay and i think this is basically the course of"
+  },
+  {
+    "t_start": 1628.789,
+    "t_end": 1635.909,
+    "text": "course of fluid dynamics the course of fluid dynamics is that you constantly"
+  },
+  {
+    "t_start": 1635.909,
+    "t_end": 1639.11,
+    "text": "match quantities which are natural in lagrangian coordinates like acceleration"
+  },
+  {
+    "t_start": 1639.11,
+    "t_end": 1645.269,
+    "text": "with quantities like stress which are sort of con natural concepts in eulerian"
+  },
+  {
+    "t_start": 1645.269,
+    "t_end": 1647.11,
+    "text": "sort of con natural concepts in eulerian coordinates which are you you much"
+  },
+  {
+    "t_start": 1647.11,
+    "t_end": 1650.07,
+    "text": "coordinates which are you you much dynamic concepts with static concepts"
+  },
+  {
+    "t_start": 1650.07,
+    "t_end": 1654.47,
+    "text": "dynamic concepts with static concepts and so on okay and that's why equations"
+  },
+  {
+    "t_start": 1654.47,
+    "t_end": 1658.87,
+    "text": "because you write them in a y there is a piece that doesn't match right the other"
+  },
+  {
+    "t_start": 1658.87,
+    "t_end": 1664.71,
+    "text": "piece that doesn't match right the other the other part doesn't match okay"
+  },
+  {
+    "t_start": 1664.71,
+    "t_end": 1666.47,
+    "text": "so let me go a little bit to the right hand side"
+  },
+  {
+    "t_start": 1666.47,
+    "t_end": 1668.149,
+    "text": "right hand side okay"
+  },
+  {
+    "t_start": 1668.149,
+    "t_end": 1674.23,
+    "text": "so the right hand side says acceleration on the left says is due to the pressure"
+  },
+  {
+    "t_start": 1674.23,
+    "t_end": 1677.43,
+    "text": "on the left says is due to the pressure gradient and the viscose effect so let"
+  },
+  {
+    "t_start": 1677.43,
+    "t_end": 1679.99,
+    "text": "gradient and the viscose effect so let me discuss a little bit about pressure"
+  },
+  {
+    "t_start": 1679.99,
+    "t_end": 1682.23,
+    "text": "me discuss a little bit about pressure okay i think that sort of at least"
+  },
+  {
+    "t_start": 1682.23,
+    "t_end": 1685.269,
+    "text": "okay i think that sort of at least mathematically"
+  },
+  {
+    "t_start": 1687.51,
+    "t_end": 1689.35,
+    "text": "pressure is a real bad guy in the navier-stokes equation"
+  },
+  {
+    "t_start": 1689.35,
+    "t_end": 1693.43,
+    "text": "and the reason is that in incompressible flow at the difference with compressible"
+  },
+  {
+    "t_start": 1693.43,
+    "t_end": 1697.83,
+    "text": "flow with all the other mathematical phenomena the interplay between pressure"
+  },
+  {
+    "t_start": 1697.83,
+    "t_end": 1700.549,
+    "text": "phenomena the interplay between pressure and velocity is instantaneous there is"
+  },
+  {
+    "t_start": 1700.549,
+    "t_end": 1702.389,
+    "text": "and velocity is instantaneous there is no time time lag"
+  },
+  {
+    "t_start": 1702.389,
+    "t_end": 1707.47,
+    "text": "you have incompressible flow you put pressure in one end the pressure is"
+  },
+  {
+    "t_start": 1707.47,
+    "t_end": 1710.23,
+    "text": "put pressure in one end the pressure is instantaneously filled at the other end"
+  },
+  {
+    "t_start": 1710.23,
+    "t_end": 1712.23,
+    "text": "instantaneously filled at the other end and without attenuation"
+  },
+  {
+    "t_start": 1712.23,
+    "t_end": 1718.149,
+    "text": "put pressure here take some while to get here you have the mathematical theory of"
+  },
+  {
+    "t_start": 1718.149,
+    "t_end": 1720.87,
+    "text": "here you have the mathematical theory of heat you heat up here"
+  },
+  {
+    "t_start": 1720.87,
+    "t_end": 1722.549,
+    "text": "heat you heat up here heat propagates instantaneously"
+  },
+  {
+    "t_start": 1722.549,
+    "t_end": 1727.83,
+    "text": "everywhere but with a big decay when it's far away has very little effect"
+  },
+  {
+    "t_start": 1727.83,
+    "t_end": 1729.59,
+    "text": "it's far away has very little effect that's not the case with pressure and"
+  },
+  {
+    "t_start": 1729.59,
+    "t_end": 1731.51,
+    "text": "that's not the case with pressure and incompressible flow pressure"
+  },
+  {
+    "t_start": 1731.51,
+    "t_end": 1737.99,
+    "text": "instantaneously whatever modification in the velocity is far away it's felt"
+  },
+  {
+    "t_start": 1737.99,
+    "t_end": 1745.75,
+    "text": "everywhere through the pressure and the other way around so i think this is"
+  },
+  {
+    "t_start": 1745.75,
+    "t_end": 1747.51,
+    "text": "what makes a what makes out of uh out of"
+  },
+  {
+    "t_start": 1747.51,
+    "t_end": 1749.99,
+    "text": "out of pressure the the"
+  },
+  {
+    "t_start": 1749.99,
+    "t_end": 1754.389,
+    "text": "real problematic terms so mathematically the acceleration due to pressure is"
+  },
+  {
+    "t_start": 1754.389,
+    "t_end": 1761.909,
+    "text": "gradient of the pressure in other words if pressure is constant then the fluid"
+  },
+  {
+    "t_start": 1761.909,
+    "t_end": 1763.909,
+    "text": "if pressure is constant then the fluid does not accelerate at least not due to"
+  },
+  {
+    "t_start": 1763.909,
+    "t_end": 1766.07,
+    "text": "does not accelerate at least not due to pressure you increase pressure here then"
+  },
+  {
+    "t_start": 1766.07,
+    "t_end": 1767.909,
+    "text": "pressure you increase pressure here then the fluid observe so the fluid is going"
+  },
+  {
+    "t_start": 1767.909,
+    "t_end": 1770.87,
+    "text": "the fluid observe so the fluid is going at constant speed you add pressure here"
+  },
+  {
+    "t_start": 1770.87,
+    "t_end": 1773.909,
+    "text": "at constant speed you add pressure here then the fluid accelerates towards the"
+  },
+  {
+    "t_start": 1773.909,
+    "t_end": 1778.95,
+    "text": "then the fluid accelerates towards the area of lower pressure okay and again"
+  },
+  {
+    "t_start": 1778.95,
+    "t_end": 1780.95,
+    "text": "this is something that you can first establish sort of in bulk properties and"
+  },
+  {
+    "t_start": 1780.95,
+    "t_end": 1782.87,
+    "text": "establish sort of in bulk properties and then get the infinite decimal relation"
+  },
+  {
+    "t_start": 1782.87,
+    "t_end": 1784.63,
+    "text": "then get the infinite decimal relation but i'll discuss later try to discuss a"
+  },
+  {
+    "t_start": 1784.63,
+    "t_end": 1787.11,
+    "text": "but i'll discuss later try to discuss a little bit about about pressure but"
+  },
+  {
+    "t_start": 1787.11,
+    "t_end": 1793.51,
+    "text": "little bit about about pressure but remember that sort of the pressure"
+  },
+  {
+    "t_start": 1793.51,
+    "t_end": 1799.07,
+    "text": "induced for instance by the fluid turning in a corner of the bottle"
+  },
+  {
+    "t_start": 1801.43,
+    "t_end": 1807.269,
+    "text": "bottle so it's a typical example of an incompressible thing is a train versus a"
+  },
+  {
+    "t_start": 1807.269,
+    "t_end": 1811.35,
+    "text": "incompressible thing is a train versus a traffic flow and traffic flow there is a"
+  },
+  {
+    "t_start": 1811.35,
+    "t_end": 1816.549,
+    "text": "stopped maybe some can crash but the floyd compresses in a train the train"
+  },
+  {
+    "t_start": 1816.549,
+    "t_end": 1818.71,
+    "text": "floyd compresses in a train the train hit something derails all of it because"
+  },
+  {
+    "t_start": 1818.71,
+    "t_end": 1820.87,
+    "text": "hit something derails all of it because it has no room to compress"
+  },
+  {
+    "t_start": 1820.87,
+    "t_end": 1825.83,
+    "text": "it has no room to compress okay"
+  },
+  {
+    "t_start": 1827.59,
+    "t_end": 1829.669,
+    "text": "if you ever try to fix a pipe in your home you'll realize how how"
+  },
+  {
+    "t_start": 1829.669,
+    "t_end": 1833.029,
+    "text": "home you'll realize how how incompressible water is"
+  },
+  {
+    "t_start": 1833.029,
+    "t_end": 1838.95,
+    "text": "that's why drowling systems are so so uh you know so so good for moving"
+  },
+  {
+    "t_start": 1838.95,
+    "t_end": 1840.63,
+    "text": "so uh you know so so good for moving objects or lifting weights"
+  },
+  {
+    "t_start": 1840.63,
+    "t_end": 1841.669,
+    "text": "objects or lifting weights because"
+  },
+  {
+    "t_start": 1841.669,
+    "t_end": 1846.71,
+    "text": "you know you put pressure in the fluid you know in in a hydraulic jack you put"
+  },
+  {
+    "t_start": 1846.71,
+    "t_end": 1848.789,
+    "text": "you know in in a hydraulic jack you put pressure in the fluid and the pressure"
+  },
+  {
+    "t_start": 1848.789,
+    "t_end": 1853.75,
+    "text": "is felt in we can lift 10 tons 100 tons right i mean just with a little bit of"
+  },
+  {
+    "t_start": 1853.75,
+    "t_end": 1855.909,
+    "text": "right i mean just with a little bit of pressure you add in the other end okay"
+  },
+  {
+    "t_start": 1855.909,
+    "t_end": 1859.909,
+    "text": "pressure you add in the other end okay because of incompressibility"
+  },
+  {
+    "t_start": 1861.75,
+    "t_end": 1869.11,
+    "text": "i think for instance in navier stoke let me give you some sort of"
+  },
+  {
+    "t_start": 1869.11,
+    "t_end": 1873.99,
+    "text": "reason why i think that pressure can be the culprit on creating infinite speed"
+  },
+  {
+    "t_start": 1873.99,
+    "t_end": 1878.389,
+    "text": "in navier stokes and i think sort of a visual effect you can take suppose you"
+  },
+  {
+    "t_start": 1878.389,
+    "t_end": 1883.83,
+    "text": "take this table i used to play with pennies when i was a kid in my home many"
+  },
+  {
+    "t_start": 1883.83,
+    "t_end": 1885.59,
+    "text": "of you did drive with a bottle of pennies you put pennies all over the"
+  },
+  {
+    "t_start": 1885.59,
+    "t_end": 1889.59,
+    "text": "table and you pack them closely so they are sort of incompressible right they"
+  },
+  {
+    "t_start": 1889.59,
+    "t_end": 1893.909,
+    "text": "are sort of incompressible right they touching each other right and then i"
+  },
+  {
+    "t_start": 1893.909,
+    "t_end": 1895.909,
+    "text": "think that if you do that and you squeeze the edge of the tables right"
+  },
+  {
+    "t_start": 1895.909,
+    "t_end": 1900.87,
+    "text": "right just right you should be able to make the center of the pennies pop out"
+  },
+  {
+    "t_start": 1900.87,
+    "t_end": 1902.71,
+    "text": "make the center of the pennies pop out okay and i think that's what could"
+  },
+  {
+    "t_start": 1902.71,
+    "t_end": 1904.95,
+    "text": "okay and i think that's what could happen in navier stokes the depression"
+  },
+  {
+    "t_start": 1904.95,
+    "t_end": 1910.71,
+    "text": "happen in navier stokes the depression from infinity can squeeze the flow just"
+  },
+  {
+    "t_start": 1910.71,
+    "t_end": 1911.75,
+    "text": "right to create a singularity inside okay"
+  },
+  {
+    "t_start": 1911.75,
+    "t_end": 1916.389,
+    "text": "now let me talk a little bit about viscosity that is the good guy"
+  },
+  {
+    "t_start": 1916.389,
+    "t_end": 1918.07,
+    "text": "viscosity that is the good guy okay"
+  },
+  {
+    "t_start": 1918.07,
+    "t_end": 1922.789,
+    "text": "so the other part of the of the navier stokes equation established that the"
+  },
+  {
+    "t_start": 1922.789,
+    "t_end": 1928.07,
+    "text": "fluid is also accelerated by the drug that the surrounding fluid exerts on a"
+  },
+  {
+    "t_start": 1928.07,
+    "t_end": 1930.389,
+    "text": "that the surrounding fluid exerts on a given particle due to the difference let"
+  },
+  {
+    "t_start": 1930.389,
+    "t_end": 1934.63,
+    "text": "given particle due to the difference let me try to give you an houristic idea of"
+  },
+  {
+    "t_start": 1934.63,
+    "t_end": 1936.71,
+    "text": "what happens okay so suppose you have that the origin"
+  },
+  {
+    "t_start": 1936.71,
+    "t_end": 1942.07,
+    "text": "at the given time the particle at the origin has zero velocity okay but the"
+  },
+  {
+    "t_start": 1942.07,
+    "t_end": 1943.99,
+    "text": "origin has zero velocity okay but the particles surrounding it are slightly"
+  },
+  {
+    "t_start": 1943.99,
+    "t_end": 1947.99,
+    "text": "particles surrounding it are slightly moving to the right okay since the flow"
+  },
+  {
+    "t_start": 1947.99,
+    "t_end": 1952.87,
+    "text": "viscose that this is a there is friction between particles then these particles"
+  },
+  {
+    "t_start": 1952.87,
+    "t_end": 1958.63,
+    "text": "moving slightly to the right will push the particle in the center we'll try to"
+  },
+  {
+    "t_start": 1958.63,
+    "t_end": 1966.31,
+    "text": "accelerate the particle to the right okay and so in that spirit then"
+  },
+  {
+    "t_start": 1966.31,
+    "t_end": 1970.23,
+    "text": "so if you want to sort of if you want sort of uh"
+  },
+  {
+    "t_start": 1972.47,
+    "t_end": 1974.31,
+    "text": "give a price very precise meaning to this idea of the particles dragging the"
+  },
+  {
+    "t_start": 1974.31,
+    "t_end": 1979.43,
+    "text": "flow then what we should do is the following you take a point right and you"
+  },
+  {
+    "t_start": 1979.43,
+    "t_end": 1983.11,
+    "text": "following you take a point right and you should take a tiny ball around the point"
+  },
+  {
+    "t_start": 1983.11,
+    "t_end": 1983.99,
+    "text": "right and"
+  },
+  {
+    "t_start": 1983.99,
+    "t_end": 1990.63,
+    "text": "point you take the average velocity and you subtract it from the velocity of the"
+  },
+  {
+    "t_start": 1990.63,
+    "t_end": 1993.11,
+    "text": "you subtract it from the velocity of the point right and that gives you exactly"
+  },
+  {
+    "t_start": 1993.11,
+    "t_end": 1995.669,
+    "text": "point right and that gives you exactly the direction in which the fluid is"
+  },
+  {
+    "t_start": 1995.669,
+    "t_end": 1997.83,
+    "text": "the direction in which the fluid is accelerating the particle so the"
+  },
+  {
+    "t_start": 1997.83,
+    "t_end": 1999.509,
+    "text": "accelerating the particle so the acceleration"
+  },
+  {
+    "t_start": 1999.509,
+    "t_end": 2004.63,
+    "text": "due to the viscosity effect in some sense should be proportional to this"
+  },
+  {
+    "t_start": 2004.63,
+    "t_end": 2007.269,
+    "text": "sense should be proportional to this quantity the average velocity around a"
+  },
+  {
+    "t_start": 2007.269,
+    "t_end": 2010.789,
+    "text": "quantity the average velocity around a point minus the velocity at the point"
+  },
+  {
+    "t_start": 2010.789,
+    "t_end": 2014.789,
+    "text": "okay and since the pictures clearly indicate sort of that this is a"
+  },
+  {
+    "t_start": 2014.789,
+    "t_end": 2016.83,
+    "text": "indicate sort of that this is a quadratic effect"
+  },
+  {
+    "t_start": 2016.83,
+    "t_end": 2018.71,
+    "text": "quadratic effect right"
+  },
+  {
+    "t_start": 2018.71,
+    "t_end": 2025.83,
+    "text": "this is a quadratic effect on the velocity field"
+  },
+  {
+    "t_start": 2028.149,
+    "t_end": 2034.07,
+    "text": "velocity field if you want to get a quantity that is not zero you have to"
+  },
+  {
+    "t_start": 2034.07,
+    "t_end": 2036.87,
+    "text": "quantity that is not zero you have to divide this by the radius of the ball"
+  },
+  {
+    "t_start": 2036.87,
+    "t_end": 2038.389,
+    "text": "divide this by the radius of the ball square in other words you take the"
+  },
+  {
+    "t_start": 2038.389,
+    "t_end": 2043.269,
+    "text": "average in a tiny ball of the velocity you subtract the velocity at the center"
+  },
+  {
+    "t_start": 2043.269,
+    "t_end": 2045.75,
+    "text": "you subtract the velocity at the center divide by the radius square take the"
+  },
+  {
+    "t_start": 2045.75,
+    "t_end": 2048.71,
+    "text": "divide by the radius square take the limit that gives you an infinitesimal"
+  },
+  {
+    "t_start": 2048.71,
+    "t_end": 2051.589,
+    "text": "limit that gives you an infinitesimal quantity that reflects the drag that the"
+  },
+  {
+    "t_start": 2051.589,
+    "t_end": 2054.31,
+    "text": "quantity that reflects the drag that the surrounding fluid exerts in each"
+  },
+  {
+    "t_start": 2054.31,
+    "t_end": 2057.43,
+    "text": "surrounding fluid exerts in each particle in fact this is a very famous"
+  },
+  {
+    "t_start": 2057.43,
+    "t_end": 2060.389,
+    "text": "it's called the laplacian"
+  },
+  {
+    "t_start": 2060.389,
+    "t_end": 2066.389,
+    "text": "the laplacian of the velocity is exactly the limit of the average velocity"
+  },
+  {
+    "t_start": 2066.389,
+    "t_end": 2072.79,
+    "text": "minus the velocity at the point divided by the square of the radius"
+  },
+  {
+    "t_start": 2072.79,
+    "t_end": 2075.589,
+    "text": "okay notice that"
+  },
+  {
+    "t_start": 2075.589,
+    "t_end": 2080.79,
+    "text": "this choice of a measure of the drag that the particles exerted the"
+  },
+  {
+    "t_start": 2080.79,
+    "t_end": 2081.669,
+    "text": "the drag that the particles exerted the point"
+  },
+  {
+    "t_start": 2081.669,
+    "t_end": 2088.389,
+    "text": "too justified it's just a choice you could say no the drag may depend on the"
+  },
+  {
+    "t_start": 2088.389,
+    "t_end": 2090.389,
+    "text": "could say no the drag may depend on the speed i mean if the points are going"
+  },
+  {
+    "t_start": 2090.389,
+    "t_end": 2093.27,
+    "text": "speed i mean if the points are going very fast maybe the the drag is bigger"
+  },
+  {
+    "t_start": 2093.27,
+    "t_end": 2096.79,
+    "text": "very fast maybe the the drag is bigger or smaller"
+  },
+  {
+    "t_start": 2099.349,
+    "t_end": 2101.67,
+    "text": "if the velocity is sort of rotating in some special way maybe"
+  },
+  {
+    "t_start": 2101.67,
+    "t_end": 2103.109,
+    "text": "some special way maybe you know the"
+  },
+  {
+    "t_start": 2103.109,
+    "t_end": 2108.71,
+    "text": "the drug is different so this is and some certain an ad hoc law okay"
+  },
+  {
+    "t_start": 2108.71,
+    "t_end": 2109.829,
+    "text": "some certain an ad hoc law okay and"
+  },
+  {
+    "t_start": 2109.829,
+    "t_end": 2110.63,
+    "text": "and so"
+  },
+  {
+    "t_start": 2110.63,
+    "t_end": 2114.47,
+    "text": "one could argue that well maybe this is the reason why"
+  },
+  {
+    "t_start": 2114.47,
+    "t_end": 2116.31,
+    "text": "the reason why uh"
+  },
+  {
+    "t_start": 2116.31,
+    "t_end": 2122.47,
+    "text": "equations doesn't work so well because when the fluid becomes you know at high"
+  },
+  {
+    "t_start": 2122.47,
+    "t_end": 2123.99,
+    "text": "speed who knows what happens with the molecules right they burn why should"
+  },
+  {
+    "t_start": 2123.99,
+    "t_end": 2129.51,
+    "text": "they interact the same way at high speed at low speed okay nevertheless so this"
+  },
+  {
+    "t_start": 2129.51,
+    "t_end": 2133.99,
+    "text": "at low speed okay nevertheless so this is the last term of the equation"
+  },
+  {
+    "t_start": 2134.95,
+    "t_end": 2139.27,
+    "text": "notice let me point out that this is as i in the vein of what i was guessing"
+  },
+  {
+    "t_start": 2139.27,
+    "t_end": 2141.99,
+    "text": "i in the vein of what i was guessing before this is essentially an eulerian"
+  },
+  {
+    "t_start": 2141.99,
+    "t_end": 2146.63,
+    "text": "before this is essentially an eulerian concept if you try to translate this"
+  },
+  {
+    "t_start": 2146.63,
+    "t_end": 2149.109,
+    "text": "to lagrangian coordinates it's a mess that's why navier stokes equation is"
+  },
+  {
+    "t_start": 2149.109,
+    "t_end": 2151.51,
+    "text": "that's why navier stokes equation is usually written in eulerian coordinates"
+  },
+  {
+    "t_start": 2151.51,
+    "t_end": 2156.31,
+    "text": "usually written in eulerian coordinates because it's the list of two levels the"
+  },
+  {
+    "t_start": 2156.31,
+    "t_end": 2159.589,
+    "text": "acceleration doesn't write so well but at least the viscosity writes reasonably"
+  },
+  {
+    "t_start": 2159.589,
+    "t_end": 2170.87,
+    "text": "at least the viscosity writes reasonably the other way around the viscosity"
+  },
+  {
+    "t_start": 2173.03,
+    "t_end": 2176.069,
+    "text": "i think by now i have described let me write for you"
+  },
+  {
+    "t_start": 2176.069,
+    "t_end": 2184.069,
+    "text": "then the navier-stokes equation the navier-stokes equation says that"
+  },
+  {
+    "t_start": 2186.47,
+    "t_end": 2188.31,
+    "text": "that the flow is incompressible in the eulerian coordinates divergence of the"
+  },
+  {
+    "t_start": 2188.31,
+    "t_end": 2190.23,
+    "text": "eulerian coordinates divergence of the velocity equal to zero"
+  },
+  {
+    "t_start": 2190.23,
+    "t_end": 2194.39,
+    "text": "and that the acceleration which in eulerian coordinates we have to write as"
+  },
+  {
+    "t_start": 2194.39,
+    "t_end": 2196.23,
+    "text": "eulerian coordinates we have to write as vt plus vdv"
+  },
+  {
+    "t_start": 2196.23,
+    "t_end": 2201.43,
+    "text": "is proportional to minus the gradient of the pressure plus the laplacian that is"
+  },
+  {
+    "t_start": 2201.43,
+    "t_end": 2204.71,
+    "text": "the pressure plus the laplacian that is the viscose effect of v"
+  },
+  {
+    "t_start": 2204.71,
+    "t_end": 2206.63,
+    "text": "the viscose effect of v okay"
+  },
+  {
+    "t_start": 2206.63,
+    "t_end": 2209.829,
+    "text": "okay so"
+  },
+  {
+    "t_start": 2211.91,
+    "t_end": 2215.67,
+    "text": "so what is the expectation at this point you know if we go back to the problem of"
+  },
+  {
+    "t_start": 2215.67,
+    "t_end": 2222.31,
+    "text": "that if you give me an initial velocity field that if you tell me at time zero"
+  },
+  {
+    "t_start": 2222.31,
+    "t_end": 2225.51,
+    "text": "field that if you tell me at time zero what the velocity of each particle is"
+  },
+  {
+    "t_start": 2225.51,
+    "t_end": 2231.99,
+    "text": "what the velocity of each particle is then i should be able to reconstruct the"
+  },
+  {
+    "t_start": 2231.99,
+    "t_end": 2235.03,
+    "text": "flow for all times okay and so this is the"
+  },
+  {
+    "t_start": 2235.03,
+    "t_end": 2238.55,
+    "text": "and so this is the option one of the problem in other words"
+  },
+  {
+    "t_start": 2238.55,
+    "t_end": 2239.43,
+    "text": "the problem has"
+  },
+  {
+    "t_start": 2239.43,
+    "t_end": 2245.19,
+    "text": "two possible solutions okay and the clay foundation accepts for his money"
+  },
+  {
+    "t_start": 2245.19,
+    "t_end": 2249.27,
+    "text": "foundation accepts for his money any of both solutions so the first"
+  },
+  {
+    "t_start": 2249.27,
+    "t_end": 2254.31,
+    "text": "i give you a nice initial data and you find for me"
+  },
+  {
+    "t_start": 2254.31,
+    "t_end": 2256.71,
+    "text": "and you find for me a nice solution a solution where"
+  },
+  {
+    "t_start": 2256.71,
+    "t_end": 2259.109,
+    "text": "a nice solution a solution where velocity remains finite acceleration"
+  },
+  {
+    "t_start": 2259.109,
+    "t_end": 2264.23,
+    "text": "remains finite and so on for all time okay and as i said this is"
+  },
+  {
+    "t_start": 2264.23,
+    "t_end": 2266.069,
+    "text": "for all time okay and as i said this is a matter of internal coherence has"
+  },
+  {
+    "t_start": 2266.069,
+    "t_end": 2268.87,
+    "text": "a matter of internal coherence has nothing to do with the model reflecting"
+  },
+  {
+    "t_start": 2268.87,
+    "t_end": 2273.67,
+    "text": "reality okay it has to do with the model being coherent that is that if you give"
+  },
+  {
+    "t_start": 2273.67,
+    "t_end": 2276.23,
+    "text": "being coherent that is that if you give me data the solute the equations at"
+  },
+  {
+    "t_start": 2276.23,
+    "t_end": 2278.31,
+    "text": "me data the solute the equations at least have a nice solution"
+  },
+  {
+    "t_start": 2278.31,
+    "t_end": 2281.27,
+    "text": "least have a nice solution close to reality or not okay"
+  },
+  {
+    "t_start": 2281.27,
+    "t_end": 2284.23,
+    "text": "close to reality or not okay now the other option"
+  },
+  {
+    "t_start": 2284.23,
+    "t_end": 2287.829,
+    "text": "now the other option that the client foundation gives you"
+  },
+  {
+    "t_start": 2287.829,
+    "t_end": 2291.91,
+    "text": "okay if you cannot do that show us that the opposite is true"
+  },
+  {
+    "t_start": 2291.91,
+    "t_end": 2299.27,
+    "text": "that you can find a solution you give me a nice initial data and you find a"
+  },
+  {
+    "t_start": 2299.27,
+    "t_end": 2307.03,
+    "text": "solution that starts very nice and all of a sudden at some time and finite time"
+  },
+  {
+    "t_start": 2314.95,
+    "t_end": 2319.67,
+    "text": "okay so so these are the two options or you are able to solve the problem with a"
+  },
+  {
+    "t_start": 2319.67,
+    "t_end": 2326.87,
+    "text": "smooth solution for all times or in finite time the velocity becomes"
+  },
+  {
+    "t_start": 2326.87,
+    "t_end": 2327.99,
+    "text": "infinity somewhere okay now"
+  },
+  {
+    "t_start": 2327.99,
+    "t_end": 2332.71,
+    "text": "what it is known up to now well what is known is that"
+  },
+  {
+    "t_start": 2332.71,
+    "t_end": 2339.67,
+    "text": "some sort of weak solution exists for all time this was the work of john ray"
+  },
+  {
+    "t_start": 2339.67,
+    "t_end": 2341.109,
+    "text": "who i had the honor to meet he died recently is one of the great"
+  },
+  {
+    "t_start": 2341.109,
+    "t_end": 2346.47,
+    "text": "recently is one of the great mathematicians of the century so i also"
+  },
+  {
+    "t_start": 2346.47,
+    "t_end": 2351.99,
+    "text": "he constructed in the 30s basically a theory that included you know he basic"
+  },
+  {
+    "t_start": 2351.99,
+    "t_end": 2353.91,
+    "text": "theory that included you know he basic was one of the fathers of the theory and"
+  },
+  {
+    "t_start": 2353.91,
+    "t_end": 2356.71,
+    "text": "was one of the fathers of the theory and included the construction of weak"
+  },
+  {
+    "t_start": 2356.71,
+    "t_end": 2359.27,
+    "text": "included the construction of weak solutions to reasonable weak solutions"
+  },
+  {
+    "t_start": 2359.27,
+    "t_end": 2364.63,
+    "text": "solutions to reasonable weak solutions to the navier-stokes equation okay"
+  },
+  {
+    "t_start": 2366.63,
+    "t_end": 2371.91,
+    "text": "the second thing it is known is that if the initial data is nice then"
+  },
+  {
+    "t_start": 2371.91,
+    "t_end": 2378.069,
+    "text": "for a while remain nice in other words the effect of the initial data lasts for"
+  },
+  {
+    "t_start": 2378.069,
+    "t_end": 2379.27,
+    "text": "the effect of the initial data lasts for a while"
+  },
+  {
+    "t_start": 2379.27,
+    "t_end": 2385.349,
+    "text": "it's also known that after another longer period due to the fact that"
+  },
+  {
+    "t_start": 2385.349,
+    "t_end": 2391.27,
+    "text": "then the solution becomes small enough that it's forced to become nice again"
+  },
+  {
+    "t_start": 2391.27,
+    "t_end": 2393.67,
+    "text": "that it's forced to become nice again okay you think theoristically the reason"
+  },
+  {
+    "t_start": 2393.67,
+    "t_end": 2398.55,
+    "text": "is that both pressure and the bad part of accelerations are quadratic functions"
+  },
+  {
+    "t_start": 2398.55,
+    "t_end": 2399.99,
+    "text": "of accelerations are quadratic functions of velocity"
+  },
+  {
+    "t_start": 2399.99,
+    "t_end": 2405.19,
+    "text": "now if velocity is very small the square of something small is much smaller and"
+  },
+  {
+    "t_start": 2405.19,
+    "t_end": 2407.91,
+    "text": "of something small is much smaller and so you can really prove that that's not"
+  },
+  {
+    "t_start": 2407.91,
+    "t_end": 2412.79,
+    "text": "bad for you that you can control it okay the problem is in the in between in the"
+  },
+  {
+    "t_start": 2412.79,
+    "t_end": 2419.589,
+    "text": "middle in this period where the goodness of the initial data has disappeared and"
+  },
+  {
+    "t_start": 2419.589,
+    "t_end": 2423.03,
+    "text": "of the initial data has disappeared and still there has been no enough energy"
+  },
+  {
+    "t_start": 2423.03,
+    "t_end": 2425.829,
+    "text": "still there has been no enough energy low not enough dissipation to force the"
+  },
+  {
+    "t_start": 2425.829,
+    "t_end": 2432.39,
+    "text": "low not enough dissipation to force the solution to be small so there is this"
+  },
+  {
+    "t_start": 2435.109,
+    "t_end": 2439.67,
+    "text": "you cannot prove that solutions remain smooth in fact you cannot even prove"
+  },
+  {
+    "t_start": 2439.67,
+    "t_end": 2441.91,
+    "text": "that the energy is the natural combination of energy kinetic energy"
+  },
+  {
+    "t_start": 2441.91,
+    "t_end": 2446.23,
+    "text": "combination of energy kinetic energy plus dissipated energy is preserved you"
+  },
+  {
+    "t_start": 2446.23,
+    "t_end": 2450.87,
+    "text": "cannot even prove that okay"
+  },
+  {
+    "t_start": 2453.43,
+    "t_end": 2455.67,
+    "text": "as what as it was mentioned before uh we proved with conan nirenberg many years"
+  },
+  {
+    "t_start": 2455.67,
+    "t_end": 2456.71,
+    "text": "proved with conan nirenberg many years ago"
+  },
+  {
+    "t_start": 2456.71,
+    "t_end": 2458.15,
+    "text": "ago that"
+  },
+  {
+    "t_start": 2458.15,
+    "t_end": 2463.67,
+    "text": "in this unknown region the set of points where the solution can become singular"
+  },
+  {
+    "t_start": 2463.67,
+    "t_end": 2469.19,
+    "text": "plus all its limiting points add to it all the judge you want all the limiting"
+  },
+  {
+    "t_start": 2469.19,
+    "t_end": 2471.109,
+    "text": "all the judge you want all the limiting points of the points were cancelled it"
+  },
+  {
+    "t_start": 2471.109,
+    "t_end": 2475.589,
+    "text": "points of the points were cancelled it cannot fill a curve in space time you"
+  },
+  {
+    "t_start": 2475.589,
+    "t_end": 2480.23,
+    "text": "one dimensional measure of that set is zero which houristically means that it"
+  },
+  {
+    "t_start": 2480.23,
+    "t_end": 2483.91,
+    "text": "zero which houristically means that it means that if a singularity appears at"
+  },
+  {
+    "t_start": 2483.91,
+    "t_end": 2486.47,
+    "text": "the time it will not persist in time will disappear instantaneously we cannot"
+  },
+  {
+    "t_start": 2486.47,
+    "t_end": 2490.47,
+    "text": "will disappear instantaneously we cannot feel a curve in an instant of time or"
+  },
+  {
+    "t_start": 2490.47,
+    "t_end": 2496.23,
+    "text": "dimensions that space and time are the singularities are unable to feel a curve"
+  },
+  {
+    "t_start": 2496.23,
+    "t_end": 2498.47,
+    "text": "singularities are unable to feel a curve so if singularities exist they are"
+  },
+  {
+    "t_start": 2498.47,
+    "t_end": 2500.23,
+    "text": "so if singularities exist they are really a very minimal sense you know"
+  },
+  {
+    "t_start": 2500.23,
+    "t_end": 2502.309,
+    "text": "really a very minimal sense you know physically sort of irrelevant because"
+  },
+  {
+    "t_start": 2502.309,
+    "t_end": 2509.589,
+    "text": "physically sort of irrelevant because you will never see them will not have"
+  },
+  {
+    "t_start": 2511.589,
+    "t_end": 2514.23,
+    "text": "sort of what is my my personal belief my personal belief"
+  },
+  {
+    "t_start": 2514.23,
+    "t_end": 2522.79,
+    "text": "well is the following is that if the solu indeed clay option one is"
+  },
+  {
+    "t_start": 2522.79,
+    "t_end": 2524.95,
+    "text": "if the solu indeed clay option one is correct that is that solutions remain"
+  },
+  {
+    "t_start": 2524.95,
+    "t_end": 2526.47,
+    "text": "correct that is that solutions remain always regular"
+  },
+  {
+    "t_start": 2526.47,
+    "t_end": 2531.75,
+    "text": "this has to be attained because of a different approach and sort of all the"
+  },
+  {
+    "t_start": 2531.75,
+    "t_end": 2536.069,
+    "text": "approach that had been taken with the navier-stokes equation up to now was to"
+  },
+  {
+    "t_start": 2536.069,
+    "t_end": 2540.95,
+    "text": "navier-stokes equation up to now was to take ut minus laplacian of u which is a"
+  },
+  {
+    "t_start": 2540.95,
+    "t_end": 2546.23,
+    "text": "very good terms like the heat equation is the very fast dissipation term you"
+  },
+  {
+    "t_start": 2546.23,
+    "t_end": 2550.309,
+    "text": "energy very fast and put everything else on the right hand side as tricked as"
+  },
+  {
+    "t_start": 2550.309,
+    "t_end": 2555.829,
+    "text": "on the right hand side as tricked as junk okay and so if you do that i mean"
+  },
+  {
+    "t_start": 2555.829,
+    "t_end": 2559.829,
+    "text": "reasons there are a bunch of reasons that tells you that basically this"
+  },
+  {
+    "t_start": 2559.829,
+    "t_end": 2566.55,
+    "text": "beyond that okay so if you just look at the structure of the equation at that"
+  },
+  {
+    "t_start": 2566.55,
+    "t_end": 2569.109,
+    "text": "the structure of the equation at that level heat equation plus a quadratic"
+  },
+  {
+    "t_start": 2569.109,
+    "t_end": 2573.43,
+    "text": "equal to a quadratic term you cannot go further than this you have to understand"
+  },
+  {
+    "t_start": 2573.43,
+    "t_end": 2577.109,
+    "text": "further than this you have to understand i think that you have to understand it"
+  },
+  {
+    "t_start": 2577.109,
+    "t_end": 2579.43,
+    "text": "in lagrangian coordinates i think that the way to understand navier-stoke's"
+  },
+  {
+    "t_start": 2579.43,
+    "t_end": 2582.39,
+    "text": "the way to understand navier-stoke's equation if indeed solutions are regular"
+  },
+  {
+    "t_start": 2582.39,
+    "t_end": 2587.27,
+    "text": "equation if indeed solutions are regular is because there are some concepts like"
+  },
+  {
+    "t_start": 2587.27,
+    "t_end": 2589.27,
+    "text": "the fact that matter doesn't penetrate itself which is not transparent in"
+  },
+  {
+    "t_start": 2589.27,
+    "t_end": 2591.03,
+    "text": "itself which is not transparent in eulerian coordinates in real conditions"
+  },
+  {
+    "t_start": 2591.03,
+    "t_end": 2594.47,
+    "text": "you have the velocity field and if you want to reconstruct the position of the"
+  },
+  {
+    "t_start": 2594.47,
+    "t_end": 2598.39,
+    "text": "want to reconstruct the position of the points you have to integrate the"
+  },
+  {
+    "t_start": 2598.39,
+    "t_end": 2602.87,
+    "text": "trajectory of its points in lagrangian coordinates the points are"
+  },
+  {
+    "t_start": 2604.71,
+    "t_end": 2607.349,
+    "text": "if on the other hand play option 2 is correct that is that"
+  },
+  {
+    "t_start": 2607.349,
+    "t_end": 2609.99,
+    "text": "play option 2 is correct that is that indeed there are singularities well"
+  },
+  {
+    "t_start": 2609.99,
+    "t_end": 2614.71,
+    "text": "there is a traditional way of trying to find singularities with simple structure"
+  },
+  {
+    "t_start": 2614.71,
+    "t_end": 2616.87,
+    "text": "find singularities with simple structure that is to find"
+  },
+  {
+    "t_start": 2616.87,
+    "t_end": 2620.71,
+    "text": "solutions which are called self-similar focusing solutions"
+  },
+  {
+    "t_start": 2620.71,
+    "t_end": 2625.99,
+    "text": "celsius cells similar focusing solutions are solutions which at different time"
+  },
+  {
+    "t_start": 2625.99,
+    "t_end": 2627.91,
+    "text": "are solutions which at different time basically have the same structure but"
+  },
+  {
+    "t_start": 2627.91,
+    "t_end": 2633.19,
+    "text": "shrunk for instance a cone if you take a cone in space and time with the vertex"
+  },
+  {
+    "t_start": 2633.19,
+    "t_end": 2638.069,
+    "text": "at time equal to zero that is a similar picture you know at every time it's the"
+  },
+  {
+    "t_start": 2638.069,
+    "t_end": 2640.069,
+    "text": "picture you know at every time it's the same circle that is shrinking itself and"
+  },
+  {
+    "t_start": 2640.069,
+    "t_end": 2645.109,
+    "text": "same circle that is shrinking itself and you can die make a dilation that is sort"
+  },
+  {
+    "t_start": 2645.109,
+    "t_end": 2650.79,
+    "text": "of the same value in space and time and you get the cone again okay so there is"
+  },
+  {
+    "t_start": 2650.79,
+    "t_end": 2653.349,
+    "text": "a tradition of trying to find self-similar focusing solutions these"
+  },
+  {
+    "t_start": 2653.349,
+    "t_end": 2658.069,
+    "text": "self-similar focusing solutions these solutions such as the flow at every time"
+  },
+  {
+    "t_start": 2658.069,
+    "t_end": 2660.069,
+    "text": "look sort of the same squeezing and squeezing and squeezing and at sign"
+  },
+  {
+    "t_start": 2660.069,
+    "t_end": 2665.349,
+    "text": "equal to zero a singularity will pop at the origin people have tried that with"
+  },
+  {
+    "t_start": 2665.349,
+    "t_end": 2667.829,
+    "text": "the origin people have tried that with what is called the letter self"
+  },
+  {
+    "t_start": 2667.829,
+    "t_end": 2670.39,
+    "text": "what is called the letter self self-focusing and it was proven"
+  },
+  {
+    "t_start": 2670.39,
+    "t_end": 2675.03,
+    "text": "by necas and verac and someone else recently that that's not possible so if"
+  },
+  {
+    "t_start": 2675.03,
+    "t_end": 2676.55,
+    "text": "recently that that's not possible so if you are going to find"
+  },
+  {
+    "t_start": 2676.55,
+    "t_end": 2679.19,
+    "text": "you are going to find a singularity for navier stokes"
+  },
+  {
+    "t_start": 2679.19,
+    "t_end": 2683.349,
+    "text": "a singularity for navier stokes then i think you have to do a different"
+  },
+  {
+    "t_start": 2683.349,
+    "t_end": 2690.79,
+    "text": "that corresponds to the equation with no viscosity and there is a way you can do"
+  },
+  {
+    "t_start": 2690.79,
+    "t_end": 2692.79,
+    "text": "viscosity and there is a way you can do that in such a way that the viscosity"
+  },
+  {
+    "t_start": 2692.79,
+    "t_end": 2696.87,
+    "text": "that in such a way that the viscosity becomes a smaller order effect and i"
+  },
+  {
+    "t_start": 2696.87,
+    "t_end": 2697.589,
+    "text": "becomes a smaller order effect and i think"
+  },
+  {
+    "t_start": 2697.589,
+    "t_end": 2702.63,
+    "text": "that's the only possibility i see in constructing a singularity for navier"
+  },
+  {
+    "t_start": 2702.63,
+    "t_end": 2703.589,
+    "text": "in constructing a singularity for navier stones"
+  },
+  {
+    "t_start": 2703.589,
+    "t_end": 2721.589,
+    "text": "so let me stop here be happy"
+  },
+  {
+    "t_start": 2727.51,
+    "t_end": 2732.47,
+    "text": "i have a question i mean the problem the clay problem is"
+  },
+  {
+    "t_start": 2734.79,
+    "t_end": 2739.109,
+    "text": "the clay problem was set i think this should have been said or in all of space"
+  },
+  {
+    "t_start": 2739.109,
+    "t_end": 2743.829,
+    "text": "should have been said or in all of space the clear problem is that in all space"
+  },
+  {
+    "t_start": 2743.829,
+    "t_end": 2747.91,
+    "text": "but i think it's equally valid to solve the problem and equally hard to solve"
+  },
+  {
+    "t_start": 2747.91,
+    "t_end": 2749.75,
+    "text": "the problem in a bounded domain navier estos has a natural boundary"
+  },
+  {
+    "t_start": 2749.75,
+    "t_end": 2750.87,
+    "text": "navier estos has a natural boundary condition"
+  },
+  {
+    "t_start": 2750.87,
+    "t_end": 2755.349,
+    "text": "which is called the non-slip condition that the flow adheres to the wall"
+  },
+  {
+    "t_start": 2755.349,
+    "t_end": 2758.63,
+    "text": "that the flow adheres to the wall of the container so velocity is here on"
+  },
+  {
+    "t_start": 2758.63,
+    "t_end": 2762.79,
+    "text": "the problem should have been said that to solve in all of a space or"
+  },
+  {
+    "t_start": 2762.79,
+    "t_end": 2764.55,
+    "text": "to solve in all of a space or in a bounded domain with non-slip"
+  },
+  {
+    "t_start": 2764.55,
+    "t_end": 2766.55,
+    "text": "in a bounded domain with non-slip boundary conditions"
+  },
+  {
+    "t_start": 2766.55,
+    "t_end": 2770.87,
+    "text": "boundary conditions so but but the pro and the clay problem"
+  },
+  {
+    "t_start": 2770.87,
+    "t_end": 2774.71,
+    "text": "you need a lot of oil to solve the clip from which is harder"
+  },
+  {
+    "t_start": 2774.71,
+    "t_end": 2779.91,
+    "text": "which probably i think philosophically is the same if you find a way to solve"
+  },
+  {
+    "t_start": 2779.91,
+    "t_end": 2785.27,
+    "text": "is the same if you find a way to solve one you will find a way to solve the"
+  },
+  {
+    "t_start": 2800.79,
+    "t_end": 2805.109,
+    "text": "there is a very classical observation of sharing that if you take some vector"
+  },
+  {
+    "t_start": 2805.109,
+    "t_end": 2807.109,
+    "text": "sharing that if you take some vector field a gradient of a harmonic function"
+  },
+  {
+    "t_start": 2807.109,
+    "t_end": 2809.03,
+    "text": "field a gradient of a harmonic function a spatial vector field"
+  },
+  {
+    "t_start": 2809.03,
+    "t_end": 2814.23,
+    "text": "in x some special velocity field and you multiply it by your favorite function in"
+  },
+  {
+    "t_start": 2814.23,
+    "t_end": 2822.87,
+    "text": "multiply it by your favorite function in time let me see if i have it"
+  },
+  {
+    "t_start": 2825.03,
+    "t_end": 2826.87,
+    "text": "this is an observation of sharing that says take"
+  },
+  {
+    "t_start": 2826.87,
+    "t_end": 2827.99,
+    "text": "says take for instance"
+  },
+  {
+    "t_start": 2827.99,
+    "t_end": 2834.55,
+    "text": "a 2x square minus y square minus c squared this is a harmonic function you"
+  },
+  {
+    "t_start": 2834.55,
+    "t_end": 2836.309,
+    "text": "squared this is a harmonic function you take the gradient"
+  },
+  {
+    "t_start": 2836.309,
+    "t_end": 2840.79,
+    "text": "take the gradient so it's a minus x"
+  },
+  {
+    "t_start": 2840.79,
+    "t_end": 2846.309,
+    "text": "x minus y over 2 minus c over 2. so you take the gradient"
+  },
+  {
+    "t_start": 2846.309,
+    "t_end": 2849.27,
+    "text": "minus c over 2. so you take the gradient of any harmonic function okay"
+  },
+  {
+    "t_start": 2849.27,
+    "t_end": 2851.51,
+    "text": "of any harmonic function okay and you multiply by your favorite"
+  },
+  {
+    "t_start": 2851.51,
+    "t_end": 2854.069,
+    "text": "and you multiply by your favorite function of time"
+  },
+  {
+    "t_start": 2854.069,
+    "t_end": 2857.43,
+    "text": "function of time this is a solution of navier-stokes"
+  },
+  {
+    "t_start": 2857.43,
+    "t_end": 2863.109,
+    "text": "for all times because everything is gradient of the"
+  },
+  {
+    "t_start": 2863.109,
+    "t_end": 2863.91,
+    "text": "pressure okay"
+  },
+  {
+    "t_start": 2863.91,
+    "t_end": 2867.349,
+    "text": "so this is a solution of the navier-stokes equation which is driven"
+  },
+  {
+    "t_start": 2867.349,
+    "t_end": 2869.75,
+    "text": "navier-stokes equation which is driven by pressure at infinity"
+  },
+  {
+    "t_start": 2869.75,
+    "t_end": 2875.03,
+    "text": "you see instantaneously the flow the rho the role of the g of t is like"
+  },
+  {
+    "t_start": 2875.03,
+    "t_end": 2876.549,
+    "text": "the rho the role of the g of t is like you are controlling the pressure at"
+  },
+  {
+    "t_start": 2876.549,
+    "t_end": 2878.069,
+    "text": "you are controlling the pressure at infinity"
+  },
+  {
+    "t_start": 2878.069,
+    "t_end": 2881.19,
+    "text": "infinity and you do with the fluid whatever you"
+  },
+  {
+    "t_start": 2881.19,
+    "t_end": 2885.19,
+    "text": "you know you can do your g of t become infinite as some instant of time which"
+  },
+  {
+    "t_start": 2885.19,
+    "t_end": 2887.67,
+    "text": "infinite as some instant of time which means that the the fluid blows"
+  },
+  {
+    "t_start": 2887.67,
+    "t_end": 2890.39,
+    "text": "means that the the fluid blows instantaneously everywhere right"
+  },
+  {
+    "t_start": 2890.39,
+    "t_end": 2895.27,
+    "text": "instantaneously everywhere right now you tell me well no but i don't"
+  },
+  {
+    "t_start": 2895.27,
+    "t_end": 2897.67,
+    "text": "allow you that i take initially a data which is compact support well"
+  },
+  {
+    "t_start": 2897.67,
+    "t_end": 2899.27,
+    "text": "a data which is compact support well pressure infinite instantaneously"
+  },
+  {
+    "t_start": 2899.27,
+    "t_end": 2902.87,
+    "text": "pressure infinite instantaneously travels to infinity the pressure does"
+  },
+  {
+    "t_start": 2902.87,
+    "t_end": 2906.15,
+    "text": "have decay there is the pressure if you start with"
+  },
+  {
+    "t_start": 2906.15,
+    "t_end": 2906.95,
+    "text": "start with a"
+  },
+  {
+    "t_start": 2906.95,
+    "t_end": 2912.71,
+    "text": "velocity perturbation in a small domain the pressure has very slow decay at"
+  },
+  {
+    "t_start": 2912.71,
+    "t_end": 2914.63,
+    "text": "the pressure has very slow decay at infinity does not have exponential decay"
+  },
+  {
+    "t_start": 2914.63,
+    "t_end": 2920.549,
+    "text": "infinity does not have exponential decay at infinity so the interplay of of what"
+  },
+  {
+    "t_start": 2920.549,
+    "t_end": 2921.75,
+    "text": "is local and what is infinity is very strange"
+  },
+  {
+    "t_start": 2921.75,
+    "t_end": 2930.63,
+    "text": "so where is the truth if it's close to this or if it is close to option one i"
+  },
+  {
+    "t_start": 2930.63,
+    "t_end": 2934.95,
+    "text": "think it's will only be seen when the problem is solved"
+  },
+  {
+    "t_start": 2936.549,
+    "t_end": 2944.23,
+    "text": "lewis could you comment on compressible equations they don't have"
+  },
+  {
+    "t_start": 2945.67,
+    "t_end": 2947.27,
+    "text": "it's a different type of singularity because compressible equation for"
+  },
+  {
+    "t_start": 2947.27,
+    "t_end": 2948.79,
+    "text": "because compressible equation for compressible equation"
+  },
+  {
+    "t_start": 2948.79,
+    "t_end": 2953.349,
+    "text": "the velocity the typical singularity is discontinuous velocity"
+  },
+  {
+    "t_start": 2953.349,
+    "t_end": 2958.829,
+    "text": "navier stokes if the velocity is bound the solution is infinity so when you"
+  },
+  {
+    "t_start": 2958.829,
+    "t_end": 2964.87,
+    "text": "discontinuity for compressible and discontinuity for encompassing we are"
+  },
+  {
+    "t_start": 2964.87,
+    "t_end": 2966.309,
+    "text": "talking about different things in case"
+  },
+  {
+    "t_start": 2966.309,
+    "t_end": 2972.23,
+    "text": "compressible discontinuity is a shock is discontinuous velocity when navier"
+  },
+  {
+    "t_start": 2972.23,
+    "t_end": 2983.349,
+    "text": "stokes is infinite velocity finite velocity for navier-stokes is infinity"
+  },
+  {
+    "t_start": 2985.19,
+    "t_end": 2986.47,
+    "text": "what's yes bots there's a lower dimensional version or higher"
+  },
+  {
+    "t_start": 2986.47,
+    "t_end": 2992.71,
+    "text": "dimensional version of this problem well there is a two-dimensional version"
+  },
+  {
+    "t_start": 2992.71,
+    "t_end": 2999.349,
+    "text": "not not that lie in a plane but that in every slides look the same"
+  },
+  {
+    "t_start": 2999.349,
+    "t_end": 3003.27,
+    "text": "this is a very classical result that in two dimensions navier stokes"
+  },
+  {
+    "t_start": 3003.27,
+    "t_end": 3006.71,
+    "text": "two dimensions navier stokes solutions navior those equations are"
+  },
+  {
+    "t_start": 3006.71,
+    "t_end": 3011.589,
+    "text": "so in 2d navier stokes is regular and it's a classical result you can also"
+  },
+  {
+    "t_start": 3011.589,
+    "t_end": 3013.589,
+    "text": "it's a classical result you can also deduce it from our theorem because if"
+  },
+  {
+    "t_start": 3013.589,
+    "t_end": 3015.67,
+    "text": "deduce it from our theorem because if you have a singularity it will fill a"
+  },
+  {
+    "t_start": 3015.67,
+    "t_end": 3022.309,
+    "text": "you have a singularity it will fill a full line"
+  },
+  {
+    "t_start": 3024.069,
+    "t_end": 3028.069,
+    "text": "yeah what happens when"
+  },
+  {
+    "t_start": 3030.15,
+    "t_end": 3031.75,
+    "text": "okay that's the euler equation when viscosity is zero that is without"
+  },
+  {
+    "t_start": 3031.75,
+    "t_end": 3036.069,
+    "text": "viscosity that's an equation just earlier than avere stokes which is"
+  },
+  {
+    "t_start": 3036.069,
+    "t_end": 3039.43,
+    "text": "earlier than avere stokes which is called euler equation euler equation as"
+  },
+  {
+    "t_start": 3039.43,
+    "t_end": 3042.23,
+    "text": "called euler equation euler equation as charlie peppermint points out in his"
+  },
+  {
+    "t_start": 3042.23,
+    "t_end": 3049.19,
+    "text": "to understand in some sense maybe an important previous step because it's a"
+  },
+  {
+    "t_start": 3049.19,
+    "t_end": 3052.23,
+    "text": "important previous step because it's a simpler structure and you want to know"
+  },
+  {
+    "t_start": 3052.23,
+    "t_end": 3055.67,
+    "text": "simpler structure and you want to know if in that case you can produce"
+  },
+  {
+    "t_start": 3055.67,
+    "t_end": 3057.349,
+    "text": "if in that case you can produce singularities in normal equation there"
+  },
+  {
+    "t_start": 3057.349,
+    "t_end": 3058.47,
+    "text": "singularities in normal equation there are many"
+  },
+  {
+    "t_start": 3058.47,
+    "t_end": 3062.79,
+    "text": "solutions that indicate that the euler equation is sort of"
+  },
+  {
+    "t_start": 3062.79,
+    "t_end": 3069.91,
+    "text": "that is in the gas and have the regularizing effect of viscosity but"
+  },
+  {
+    "t_start": 3069.91,
+    "t_end": 3071.51,
+    "text": "regularizing effect of viscosity but still would be very important to"
+  },
+  {
+    "t_start": 3071.51,
+    "t_end": 3072.87,
+    "text": "still would be very important to understand"
+  },
+  {
+    "t_start": 3072.87,
+    "t_end": 3078.39,
+    "text": "how infinite velocity can appear in three-dimensional"
+  },
+  {
+    "t_start": 3078.39,
+    "t_end": 3082.39,
+    "text": "euler and see if that gives you a guide in fact that's what i think it should be"
+  },
+  {
+    "t_start": 3082.39,
+    "t_end": 3085.51,
+    "text": "in fact that's what i think it should be done to find a self-focusing solution"
+  },
+  {
+    "t_start": 3085.51,
+    "t_end": 3087.109,
+    "text": "done to find a self-focusing solution for euler"
+  },
+  {
+    "t_start": 3087.109,
+    "t_end": 3090.87,
+    "text": "and then from there sort of perturb it to never stop"
+  },
+  {
+    "t_start": 3090.87,
+    "t_end": 3098.79,
+    "text": "but there is no money there is no money"
+  },
+  {
+    "t_start": 3101.27,
+    "t_end": 3107.99,
+    "text": "maybe uh it's time to think about refreshments i remind you two weeks from"
+  },
+  {
+    "t_start": 3107.99,
+    "t_end": 3111.829,
+    "text": "refreshments i remind you two weeks from two weeks from tonight we'll have the"
+  },
+  {
+    "t_start": 3111.829,
+    "t_end": 3117.349,
+    "text": "sixth lecture by dan fried on the hodge conjecture"
+  },
+  {
+    "t_start": 3120.47,
+    "t_end": 3124.63,
+    "text": "so the food is as usual any newcomers down to elections"
+  }
+]

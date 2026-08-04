@@ -1,0 +1,1827 @@
+[
+  {
+    "t_start": 5.17,
+    "t_end": 8.69,
+    "text": "hello everyone my name is Roman version I'm a professor of mathematics at the"
+  },
+  {
+    "t_start": 8.69,
+    "t_end": 11.209,
+    "text": "I'm a professor of mathematics at the University of California Irvine"
+  },
+  {
+    "t_start": 11.209,
+    "t_end": 16.97,
+    "text": "and this is a video course in high dimensional probability and data science"
+  },
+  {
+    "t_start": 16.97,
+    "t_end": 19.13,
+    "text": "dimensional probability and data science welcome everyone"
+  },
+  {
+    "t_start": 19.13,
+    "t_end": 25.429,
+    "text": "this course is useful for anyone whose background is in"
+  },
+  {
+    "t_start": 25.429,
+    "t_end": 27.47,
+    "text": "useful for anyone whose background is in mathematics computer science machine"
+  },
+  {
+    "t_start": 27.47,
+    "t_end": 29.349,
+    "text": "mathematics computer science machine learning electrical engineering"
+  },
+  {
+    "t_start": 29.349,
+    "t_end": 34.43,
+    "text": "learning electrical engineering statistics and other areas would like to"
+  },
+  {
+    "t_start": 34.43,
+    "t_end": 39.41,
+    "text": "a conceptual understanding of the tools modern tools my dimensional probability"
+  },
+  {
+    "t_start": 39.41,
+    "t_end": 44.889,
+    "text": "modern tools my dimensional probability and how they apply in modern data"
+  },
+  {
+    "t_start": 44.889,
+    "t_end": 50.99,
+    "text": "specifically if you're working in theory and trying to build theoretical"
+  },
+  {
+    "t_start": 50.99,
+    "t_end": 52.93,
+    "text": "and trying to build theoretical understanding of the methods that are"
+  },
+  {
+    "t_start": 52.93,
+    "t_end": 60.41,
+    "text": "understanding of the methods that are that are used that of course would be"
+  },
+  {
+    "t_start": 60.41,
+    "t_end": 62.569,
+    "text": "for you it consists of 41 lectures all recorded in video This is the first"
+  },
+  {
+    "t_start": 62.569,
+    "t_end": 66.789,
+    "text": "all recorded in video This is the first one and 13 homework sets"
+  },
+  {
+    "t_start": 66.789,
+    "t_end": 69.89,
+    "text": "one and 13 homework sets the courses pages is uh available"
+  },
+  {
+    "t_start": 69.89,
+    "t_end": 73.19,
+    "text": "the courses pages is uh available through my faculty web page"
+  },
+  {
+    "t_start": 73.19,
+    "t_end": 78.31,
+    "text": "through my faculty web page and the course is partially based on"
+  },
+  {
+    "t_start": 78.31,
+    "t_end": 85.31,
+    "text": "applications data science published in Cambridge University in 2018. it is"
+  },
+  {
+    "t_start": 85.31,
+    "t_end": 86.99,
+    "text": "Cambridge University in 2018. it is available in print for example from"
+  },
+  {
+    "t_start": 86.99,
+    "t_end": 90.23,
+    "text": "available in print for example from Amazon and from data publishers"
+  },
+  {
+    "t_start": 90.23,
+    "t_end": 99.01,
+    "text": "web page and also it is available online for free from my faculty web page"
+  },
+  {
+    "t_start": 103.789,
+    "t_end": 106.969,
+    "text": "to successfully Master this course you need background in undergraduates"
+  },
+  {
+    "t_start": 106.969,
+    "t_end": 109.069,
+    "text": "need background in undergraduates analysis undergraduate linear algebra"
+  },
+  {
+    "t_start": 109.069,
+    "t_end": 111.109,
+    "text": "analysis undergraduate linear algebra and undergraduate probability"
+  },
+  {
+    "t_start": 111.109,
+    "t_end": 116.569,
+    "text": "no measure Theory background is necessary here this course is ideal for"
+  },
+  {
+    "t_start": 116.569,
+    "t_end": 119.33,
+    "text": "necessary here this course is ideal for Masters students who are preparing for a"
+  },
+  {
+    "t_start": 119.33,
+    "t_end": 121.609,
+    "text": "Masters students who are preparing for a PhD program and also for beginning PhD"
+  },
+  {
+    "t_start": 121.609,
+    "t_end": 123.23,
+    "text": "PhD program and also for beginning PhD students but maybe not even beginning"
+  },
+  {
+    "t_start": 123.23,
+    "t_end": 127.49,
+    "text": "students but maybe not even beginning PhD students too"
+  },
+  {
+    "t_start": 131.15,
+    "t_end": 137.57,
+    "text": "the particular realization of this of this course the one that you are in"
+  },
+  {
+    "t_start": 137.57,
+    "t_end": 140.15,
+    "text": "was taught in Paul of 2022"
+  },
+  {
+    "t_start": 140.15,
+    "t_end": 148.809,
+    "text": "at Kiev National University in Ukraine in the middle of Russia the invasion of"
+  },
+  {
+    "t_start": 148.809,
+    "t_end": 152.21,
+    "text": "in the middle of Russia the invasion of Russian Federation into Ukraine the war"
+  },
+  {
+    "t_start": 152.21,
+    "t_end": 154.25,
+    "text": "Russian Federation into Ukraine the war and"
+  },
+  {
+    "t_start": 154.25,
+    "t_end": 159.17,
+    "text": "um and subsequent Devastation of some cities"
+  },
+  {
+    "t_start": 159.17,
+    "t_end": 163.63,
+    "text": "cities the students in this course"
+  },
+  {
+    "t_start": 163.63,
+    "t_end": 167.17,
+    "text": "exceptional students who in the midst of the war"
+  },
+  {
+    "t_start": 167.17,
+    "t_end": 173.99,
+    "text": "persevered and and we were trying to to to get as much education"
+  },
+  {
+    "t_start": 173.99,
+    "t_end": 180.65,
+    "text": "to get as much education um as they can and I was teaching"
+  },
+  {
+    "t_start": 183.589,
+    "t_end": 185.99,
+    "text": "this courses will be fully in English and this is lecture one"
+  },
+  {
+    "t_start": 185.99,
+    "t_end": 191.75,
+    "text": "and this is lecture one I will now share my screen"
+  },
+  {
+    "t_start": 205.49,
+    "t_end": 211.729,
+    "text": "lecture one in high dimensional probability and data"
+  },
+  {
+    "t_start": 214.009,
+    "t_end": 216.47,
+    "text": "you have probably heard a lot the the term"
+  },
+  {
+    "t_start": 216.47,
+    "t_end": 223.13,
+    "text": "big data that dominates the landscape of today's data science"
+  },
+  {
+    "t_start": 223.13,
+    "t_end": 229.13,
+    "text": "today's data science the the term big usually applies in two"
+  },
+  {
+    "t_start": 229.13,
+    "t_end": 231.47,
+    "text": "the the term big usually applies in two situations either the number of"
+  },
+  {
+    "t_start": 231.47,
+    "t_end": 234.61,
+    "text": "situations either the number of observations"
+  },
+  {
+    "t_start": 241.49,
+    "t_end": 247.19,
+    "text": "is big or the number of dimensions"
+  },
+  {
+    "t_start": 256.069,
+    "t_end": 257.65,
+    "text": "associated with each data point is big"
+  },
+  {
+    "t_start": 257.65,
+    "t_end": 261.59,
+    "text": "is big the examples"
+  },
+  {
+    "t_start": 263.33,
+    "t_end": 265.07,
+    "text": "of the first situation where the number of observation is biggest for for"
+  },
+  {
+    "t_start": 265.07,
+    "t_end": 268.99,
+    "text": "of observation is biggest for for instance it could be the income"
+  },
+  {
+    "t_start": 279.95,
+    "t_end": 284.99,
+    "text": "his population is about 3 million so we have about three million"
+  },
+  {
+    "t_start": 284.99,
+    "t_end": 286.909,
+    "text": "observations here which is big number"
+  },
+  {
+    "t_start": 286.909,
+    "t_end": 292.129,
+    "text": "but in dimension one for each person we just record one number"
+  },
+  {
+    "t_start": 292.129,
+    "t_end": 297.59,
+    "text": "just record one number his or her income"
+  },
+  {
+    "t_start": 300.05,
+    "t_end": 307.37,
+    "text": "an example of the second situation where the number of Dimension is big is when"
+  },
+  {
+    "t_start": 310.79,
+    "t_end": 321.05,
+    "text": "of people for example avatars or on of people on uh Facebook or Twitter"
+  },
+  {
+    "t_start": 323.87,
+    "t_end": 325.31,
+    "text": "these simply an image let's say"
+  },
+  {
+    "t_start": 325.31,
+    "t_end": 332.09,
+    "text": "let's say a pixelated image 100 by 100 pixels"
+  },
+  {
+    "t_start": 335.51,
+    "t_end": 340.49,
+    "text": "each pixel represents a dimension"
+  },
+  {
+    "t_start": 342.11,
+    "t_end": 347.57,
+    "text": "and so all in all we have 100 times 100 which is 10 to the 4."
+  },
+  {
+    "t_start": 347.57,
+    "t_end": 349.85,
+    "text": "which is 10 to the 4. dimensions"
+  },
+  {
+    "t_start": 349.85,
+    "t_end": 355.189,
+    "text": "for each image for each observation we have this this observations they live in"
+  },
+  {
+    "t_start": 355.189,
+    "t_end": 357.89,
+    "text": "have this this observations they live in the dimension of in space of Dimension"
+  },
+  {
+    "t_start": 357.89,
+    "t_end": 361.969,
+    "text": "the dimension of in space of Dimension 10 to the 4 and that's big"
+  },
+  {
+    "t_start": 363.89,
+    "t_end": 366.95,
+    "text": "there are many other examples of high dimensional data the data that fall into"
+  },
+  {
+    "t_start": 366.95,
+    "t_end": 372.89,
+    "text": "dimensional data the data that fall into the second category such as text if you"
+  },
+  {
+    "t_start": 372.89,
+    "t_end": 375.189,
+    "text": "put it in if you encode it as numbers sound"
+  },
+  {
+    "t_start": 375.189,
+    "t_end": 376.969,
+    "text": "sound video"
+  },
+  {
+    "t_start": 376.969,
+    "t_end": 382.93,
+    "text": "a human genome where each gene the expression of each"
+  },
+  {
+    "t_start": 382.93,
+    "t_end": 387.77,
+    "text": "gene is interpreted as a dimension and there are thousands of them maybe tens"
+  },
+  {
+    "t_start": 387.77,
+    "t_end": 394.189,
+    "text": "there are thousands of them maybe tens tens of thousands of them"
+  },
+  {
+    "t_start": 407.95,
+    "t_end": 415.85,
+    "text": "an empirical observation that is pretty common in data science"
+  },
+  {
+    "t_start": 418.49,
+    "t_end": 423.65,
+    "text": "is that it is exponentially harder"
+  },
+  {
+    "t_start": 425.749,
+    "t_end": 431.21,
+    "text": "to deal with"
+  },
+  {
+    "t_start": 433.249,
+    "t_end": 437.529,
+    "text": "um with the which large number of dimensions"
+  },
+  {
+    "t_start": 441.969,
+    "t_end": 448.49,
+    "text": "then then to deal with the num to deal with a large number"
+  },
+  {
+    "t_start": 451.249,
+    "t_end": 455.029,
+    "text": "in other words the number of Dimensions is a bigger"
+  },
+  {
+    "t_start": 455.029,
+    "t_end": 460.67,
+    "text": "than the number of observations usually this is for a reason"
+  },
+  {
+    "t_start": 460.67,
+    "t_end": 464.029,
+    "text": "this is for a reason the number of observations"
+  },
+  {
+    "t_start": 464.029,
+    "t_end": 473.77,
+    "text": "large number of observations is usually not a problem this is a domain of"
+  },
+  {
+    "t_start": 477.83,
+    "t_end": 479.05,
+    "text": "statistics New observations help plus to understand"
+  },
+  {
+    "t_start": 479.05,
+    "t_end": 483.17,
+    "text": "understand the statistics of the population"
+  },
+  {
+    "t_start": 485.749,
+    "t_end": 487.909,
+    "text": "but the large numbers of Dimensions the the harm it they make it more"
+  },
+  {
+    "t_start": 487.909,
+    "t_end": 488.99,
+    "text": "the harm it they make it more complicated"
+  },
+  {
+    "t_start": 488.99,
+    "t_end": 495.29,
+    "text": "this is the area that's uh that is non-classical that is relatively"
+  },
+  {
+    "t_start": 495.29,
+    "t_end": 499.55,
+    "text": "that is non-classical that is relatively new and that is called high dimensional"
+  },
+  {
+    "t_start": 499.55,
+    "t_end": 507.35,
+    "text": "statistics and high dimensional probability"
+  },
+  {
+    "t_start": 510.83,
+    "t_end": 513.709,
+    "text": "let's now explain why exponentially why the large number of observations"
+  },
+  {
+    "t_start": 513.709,
+    "t_end": 515.469,
+    "text": "the large number of observations is exponentially"
+  },
+  {
+    "t_start": 515.469,
+    "t_end": 521.63,
+    "text": "dimensions a certain large number of Dimensions is exponentially harder than"
+  },
+  {
+    "t_start": 521.63,
+    "t_end": 525.23,
+    "text": "Dimensions is exponentially harder than the large number of observations on an"
+  },
+  {
+    "t_start": 525.23,
+    "t_end": 531.29,
+    "text": "so this example will be will be related to Monte Carlo"
+  },
+  {
+    "t_start": 531.29,
+    "t_end": 537.37,
+    "text": "method at Monte Carlo integration in this uh"
+  },
+  {
+    "t_start": 537.37,
+    "t_end": 543.59,
+    "text": "integration in this uh for this specific example"
+  },
+  {
+    "t_start": 546.769,
+    "t_end": 550.37,
+    "text": "about high dimensional integration of a function"
+  },
+  {
+    "t_start": 552.05,
+    "t_end": 553.97,
+    "text": "we would like to numerically"
+  },
+  {
+    "t_start": 553.97,
+    "t_end": 557.389,
+    "text": "to numerically compute"
+  },
+  {
+    "t_start": 567.11,
+    "t_end": 568.91,
+    "text": "that depends on D parameters and we would like to compute its total integral"
+  },
+  {
+    "t_start": 568.91,
+    "t_end": 573.65,
+    "text": "would like to compute its total integral let's say between 0 and 1."
+  },
+  {
+    "t_start": 573.65,
+    "t_end": 576.949,
+    "text": "let's say between 0 and 1. so this is D times D integrals default"
+  },
+  {
+    "t_start": 576.949,
+    "t_end": 578.829,
+    "text": "so this is D times D integrals default integral"
+  },
+  {
+    "t_start": 578.829,
+    "t_end": 585.35,
+    "text": "dx1 through DX d or shortly I'll just denote this like"
+  },
+  {
+    "t_start": 585.35,
+    "t_end": 590.829,
+    "text": "or shortly I'll just denote this like this f of x DX"
+  },
+  {
+    "t_start": 594.71,
+    "t_end": 595.97,
+    "text": "the integral of a given function f"
+  },
+  {
+    "t_start": 595.97,
+    "t_end": 603.41,
+    "text": "for example F can be a model of income of the population and it depends on D"
+  },
+  {
+    "t_start": 603.41,
+    "t_end": 606.65,
+    "text": "of the population and it depends on D parameters your ducation your uh"
+  },
+  {
+    "t_start": 606.65,
+    "t_end": 611.15,
+    "text": "age health and so on so forth it may be correlated with these parameters and you"
+  },
+  {
+    "t_start": 611.15,
+    "t_end": 613.69,
+    "text": "correlated with these parameters and you would like to to combine that"
+  },
+  {
+    "t_start": 613.69,
+    "t_end": 616.07,
+    "text": "would like to to combine that these parameters into one single model"
+  },
+  {
+    "t_start": 616.07,
+    "t_end": 618.829,
+    "text": "these parameters into one single model and then compute the the total income"
+  },
+  {
+    "t_start": 618.829,
+    "t_end": 621.71,
+    "text": "and then compute the the total income which is represented by this integral"
+  },
+  {
+    "t_start": 621.71,
+    "t_end": 623.81,
+    "text": "which is represented by this integral but"
+  },
+  {
+    "t_start": 623.81,
+    "t_end": 628.37,
+    "text": "if the dimension G is small for example in dimension one"
+  },
+  {
+    "t_start": 628.37,
+    "t_end": 634.37,
+    "text": "we can just numerically compute pretty much any integral of any function using"
+  },
+  {
+    "t_start": 634.37,
+    "t_end": 635.69,
+    "text": "much any integral of any function using a finite"
+  },
+  {
+    "t_start": 635.69,
+    "t_end": 640.19,
+    "text": "element method you just basically we"
+  },
+  {
+    "t_start": 640.19,
+    "t_end": 640.93,
+    "text": "basically we um"
+  },
+  {
+    "t_start": 640.93,
+    "t_end": 645.35,
+    "text": "approximates the integral by a Riemann sum"
+  },
+  {
+    "t_start": 645.35,
+    "t_end": 652.43,
+    "text": "between 0 and 1. for that we just we just put the discrete set of points"
+  },
+  {
+    "t_start": 652.43,
+    "t_end": 656.269,
+    "text": "we just put the discrete set of points X1 X2 X3 and so on xn"
+  },
+  {
+    "t_start": 656.269,
+    "t_end": 660.949,
+    "text": "X1 X2 X3 and so on xn if evenly spaced so this"
+  },
+  {
+    "t_start": 660.949,
+    "t_end": 668.87,
+    "text": "distance will be Epsilon and N of course will be 1 over Epsilon points this is"
+  },
+  {
+    "t_start": 668.87,
+    "t_end": 672.59,
+    "text": "how many points you need to do that and then we just approximate"
+  },
+  {
+    "t_start": 674.889,
+    "t_end": 679.009,
+    "text": "the integral with a Riemann sum"
+  },
+  {
+    "t_start": 683.569,
+    "t_end": 688.61,
+    "text": "f of x i times the the distance between the points which is 1 over n"
+  },
+  {
+    "t_start": 694.13,
+    "t_end": 696.17,
+    "text": "you can do the same using now a two-dimensional grid instead of"
+  },
+  {
+    "t_start": 696.17,
+    "t_end": 701.569,
+    "text": "two-dimensional grid instead of one-dimensional grid"
+  },
+  {
+    "t_start": 705.67,
+    "t_end": 714.829,
+    "text": "again we take the rest we we set the resolution we put the points on the grid"
+  },
+  {
+    "t_start": 716.23,
+    "t_end": 722.99,
+    "text": "there's n points there is endpoints which is uh how is it related to"
+  },
+  {
+    "t_start": 722.99,
+    "t_end": 725.269,
+    "text": "which is uh how is it related to epsilence what it's one over Epsilon"
+  },
+  {
+    "t_start": 725.269,
+    "t_end": 727.43,
+    "text": "epsilence what it's one over Epsilon squared I believe"
+  },
+  {
+    "t_start": 727.43,
+    "t_end": 733.31,
+    "text": "points that's how much you need for that and you then we use the same method so"
+  },
+  {
+    "t_start": 733.31,
+    "t_end": 735.889,
+    "text": "and you then we use the same method so we we do the same"
+  },
+  {
+    "t_start": 735.889,
+    "t_end": 739.67,
+    "text": "we we do the same it's the same formula"
+  },
+  {
+    "t_start": 741.05,
+    "t_end": 744.769,
+    "text": "but the points are now the two-dimensional grid"
+  },
+  {
+    "t_start": 752.69,
+    "t_end": 755.389,
+    "text": "for General Dimension we can do the same and the number of the points if you"
+  },
+  {
+    "t_start": 755.389,
+    "t_end": 757.19,
+    "text": "and the number of the points if you look at this pattern and one over"
+  },
+  {
+    "t_start": 757.19,
+    "t_end": 759.23,
+    "text": "look at this pattern and one over Epsilon 1 over Epsilon squared and"
+  },
+  {
+    "t_start": 759.23,
+    "t_end": 763.37,
+    "text": "Epsilon 1 over Epsilon squared and generally it would be 1 over Epsilon to"
+  },
+  {
+    "t_start": 763.37,
+    "t_end": 768.949,
+    "text": "points you can do numerical integration unfortunately"
+  },
+  {
+    "t_start": 768.949,
+    "t_end": 775.73,
+    "text": "this number one over Epsilon to the D is often too large it is exponential in"
+  },
+  {
+    "t_start": 775.73,
+    "t_end": 779.17,
+    "text": "is often too large it is exponential in dimension so this grows"
+  },
+  {
+    "t_start": 779.17,
+    "t_end": 782.329,
+    "text": "dimension so this grows the number of points"
+  },
+  {
+    "t_start": 782.329,
+    "t_end": 788.03,
+    "text": "needed for the for the numerical integration and therefore the overall"
+  },
+  {
+    "t_start": 788.03,
+    "t_end": 790.009,
+    "text": "integration and therefore the overall complexity of the method"
+  },
+  {
+    "t_start": 790.009,
+    "t_end": 795.23,
+    "text": "complexity of the method grows exponentially"
+  },
+  {
+    "t_start": 804.769,
+    "t_end": 808.91,
+    "text": "D and that is that is not so good we're not very happy about that"
+  },
+  {
+    "t_start": 810.949,
+    "t_end": 813.05,
+    "text": "this pretty much says that you cannot do this in high Dimensions without running"
+  },
+  {
+    "t_start": 813.05,
+    "t_end": 819.29,
+    "text": "this in high Dimensions without running out of memory and time on a computer"
+  },
+  {
+    "t_start": 819.29,
+    "t_end": 823.15,
+    "text": "why does this happen"
+  },
+  {
+    "t_start": 824.75,
+    "t_end": 830.75,
+    "text": "that can be understood as as the following phenomenon"
+  },
+  {
+    "t_start": 830.75,
+    "t_end": 837.29,
+    "text": "interval in dimension two we looked at the square and then we looked at the"
+  },
+  {
+    "t_start": 837.29,
+    "t_end": 838.91,
+    "text": "cube and the"
+  },
+  {
+    "t_start": 838.91,
+    "t_end": 844.91,
+    "text": "the phenomenon is that there is too much rule"
+  },
+  {
+    "t_start": 846.889,
+    "t_end": 850.25,
+    "text": "too much room in high dimensions"
+  },
+  {
+    "t_start": 850.25,
+    "t_end": 853.73,
+    "text": "here is an example of how there is exponentially more room in high"
+  },
+  {
+    "t_start": 853.73,
+    "t_end": 856.25,
+    "text": "exponentially more room in high Dimensions under its low Dimensions if"
+  },
+  {
+    "t_start": 856.25,
+    "t_end": 860.269,
+    "text": "Dimensions under its low Dimensions if you take a cube"
+  },
+  {
+    "t_start": 862.97,
+    "t_end": 865.009,
+    "text": "in high Dimensions imagine this is high dimensional Cube unit one just like we"
+  },
+  {
+    "t_start": 865.009,
+    "t_end": 870.25,
+    "text": "dimensional Cube unit one just like we did like we considered a minute ago"
+  },
+  {
+    "t_start": 870.25,
+    "t_end": 872.389,
+    "text": "did like we considered a minute ago and then"
+  },
+  {
+    "t_start": 872.389,
+    "t_end": 876.71,
+    "text": "and then expanded just multiply by two"
+  },
+  {
+    "t_start": 879.069,
+    "t_end": 888.25,
+    "text": "so we expanded twice now it's a cube zero two to the n"
+  },
+  {
+    "t_start": 892.009,
+    "t_end": 899.329,
+    "text": "is one and the volume of the new cube is well it's two by two by two by two it's"
+  },
+  {
+    "t_start": 899.329,
+    "t_end": 904.73,
+    "text": "well it's two by two by two by two it's two to the n 2 to the D"
+  },
+  {
+    "t_start": 904.73,
+    "t_end": 905.93,
+    "text": "the dimension is d not m"
+  },
+  {
+    "t_start": 905.93,
+    "t_end": 912.829,
+    "text": "it's 2 to the D so the volume grows exponentially"
+  },
+  {
+    "t_start": 915.829,
+    "t_end": 918.41,
+    "text": "even though we just grew the cook the cube linearly we just expanded it just"
+  },
+  {
+    "t_start": 918.41,
+    "t_end": 921.05,
+    "text": "cube linearly we just expanded it just twice suddenly the volume blows up"
+  },
+  {
+    "t_start": 921.05,
+    "t_end": 923.689,
+    "text": "twice suddenly the volume blows up exponentially as a result of that"
+  },
+  {
+    "t_start": 923.689,
+    "t_end": 929.569,
+    "text": "this is a manifestation of a general fact General uh challenge in high"
+  },
+  {
+    "t_start": 929.569,
+    "t_end": 930.889,
+    "text": "fact General uh challenge in high dimensions"
+  },
+  {
+    "t_start": 930.889,
+    "t_end": 936.65,
+    "text": "that is called people like to call it"
+  },
+  {
+    "t_start": 936.65,
+    "t_end": 940.189,
+    "text": "people like to call it the curse"
+  },
+  {
+    "t_start": 954.59,
+    "t_end": 958.73,
+    "text": "the curse of high dimensionality affects many problems in statistics and machine"
+  },
+  {
+    "t_start": 958.73,
+    "t_end": 960.829,
+    "text": "many problems in statistics and machine learning"
+  },
+  {
+    "t_start": 960.829,
+    "t_end": 967.129,
+    "text": "many problems of modern data science where we tend to have observations in"
+  },
+  {
+    "t_start": 967.129,
+    "t_end": 969.59,
+    "text": "where we tend to have observations in high dimensions one has to think about"
+  },
+  {
+    "t_start": 969.59,
+    "t_end": 972.769,
+    "text": "high dimensions one has to think about how to get around it how to how to lift"
+  },
+  {
+    "t_start": 972.769,
+    "t_end": 976.85,
+    "text": "how to get around it how to how to lift the curves of high dimensionality"
+  },
+  {
+    "t_start": 979.85,
+    "t_end": 984.11,
+    "text": "a lot of of methods in this course will help you understand how to do that"
+  },
+  {
+    "t_start": 986.689,
+    "t_end": 989.949,
+    "text": "the first of them is probably familiar to you and we will do this today"
+  },
+  {
+    "t_start": 989.949,
+    "t_end": 995.03,
+    "text": "this is a way to lift the curse of high dimensionality particularly for this"
+  },
+  {
+    "t_start": 995.03,
+    "t_end": 997.79,
+    "text": "dimensionality particularly for this problem"
+  },
+  {
+    "t_start": 1000.189,
+    "t_end": 1006.269,
+    "text": "and this is called the Monte Carlo method"
+  },
+  {
+    "t_start": 1009.97,
+    "t_end": 1012.79,
+    "text": "we call probability theory for Rescue and probability theories of lifts can"
+  },
+  {
+    "t_start": 1012.79,
+    "t_end": 1014.23,
+    "text": "and probability theories of lifts can lift the curse of high dimensionality"
+  },
+  {
+    "t_start": 1014.23,
+    "t_end": 1015.97,
+    "text": "lift the curse of high dimensionality for numerical integration"
+  },
+  {
+    "t_start": 1015.97,
+    "t_end": 1018.87,
+    "text": "for numerical integration here is how"
+  },
+  {
+    "t_start": 1022.09,
+    "t_end": 1023.71,
+    "text": "ins here's a method instead of putting the points"
+  },
+  {
+    "t_start": 1023.71,
+    "t_end": 1028.689,
+    "text": "the points where you where we evaluate the function"
+  },
+  {
+    "t_start": 1028.689,
+    "t_end": 1034.329,
+    "text": "on the grid like this let's just throw these points"
+  },
+  {
+    "t_start": 1034.329,
+    "t_end": 1036.61,
+    "text": "let's just throw these points into the cube at random in random"
+  },
+  {
+    "t_start": 1036.61,
+    "t_end": 1038.169,
+    "text": "into the cube at random in random locations"
+  },
+  {
+    "t_start": 1038.169,
+    "t_end": 1043.75,
+    "text": "locations surprisingly this helps"
+  },
+  {
+    "t_start": 1057.63,
+    "t_end": 1063.01,
+    "text": "excise at random independently"
+  },
+  {
+    "t_start": 1063.01,
+    "t_end": 1068.23,
+    "text": "independently each point is independently"
+  },
+  {
+    "t_start": 1068.23,
+    "t_end": 1075.789,
+    "text": "it's drawn from the uniform distribution so uniformly"
+  },
+  {
+    "t_start": 1084.549,
+    "t_end": 1085.45,
+    "text": "when we evaluate the function f at these points"
+  },
+  {
+    "t_start": 1085.45,
+    "t_end": 1094.39,
+    "text": "the result becomes independent and identically distributed IID"
+  },
+  {
+    "t_start": 1100.57,
+    "t_end": 1109.63,
+    "text": "then when we sum them up and normalize by n"
+  },
+  {
+    "t_start": 1110.909,
+    "t_end": 1116.71,
+    "text": "becomes the sum of Independence and identically distributed random variables"
+  },
+  {
+    "t_start": 1116.71,
+    "t_end": 1122.11,
+    "text": "identically distributed random variables a classic object in probability Theory"
+  },
+  {
+    "t_start": 1122.11,
+    "t_end": 1126.31,
+    "text": "our goal now is to show that this"
+  },
+  {
+    "t_start": 1129.37,
+    "t_end": 1133.21,
+    "text": "quantity will approximate the true integral"
+  },
+  {
+    "t_start": 1144.85,
+    "t_end": 1146.47,
+    "text": "and we will see that we'll need far less points for that"
+  },
+  {
+    "t_start": 1146.47,
+    "t_end": 1152.409,
+    "text": "then if we were to choose these points on the grid deterministically"
+  },
+  {
+    "t_start": 1152.409,
+    "t_end": 1153.93,
+    "text": "on the grid deterministically foreign"
+  },
+  {
+    "t_start": 1153.93,
+    "t_end": 1159.25,
+    "text": "this result and many other results in this uh in this course we will need some"
+  },
+  {
+    "t_start": 1159.25,
+    "t_end": 1161.35,
+    "text": "this uh in this course we will need some background and probability and I assume"
+  },
+  {
+    "t_start": 1161.35,
+    "t_end": 1166.029,
+    "text": "background and probability and I assume you have it but we'll review it now so"
+  },
+  {
+    "t_start": 1166.029,
+    "t_end": 1172.99,
+    "text": "we come back to this problem again and review some basics of probability Theory"
+  },
+  {
+    "t_start": 1172.99,
+    "t_end": 1178.23,
+    "text": "review some basics of probability Theory so the background"
+  },
+  {
+    "t_start": 1181.21,
+    "t_end": 1187.029,
+    "text": "in probability you can skip this part"
+  },
+  {
+    "t_start": 1187.029,
+    "t_end": 1191.59,
+    "text": "if you like by scrolling the video if you have that"
+  },
+  {
+    "t_start": 1191.59,
+    "t_end": 1202.69,
+    "text": "first of all the expected value of a random variable"
+  },
+  {
+    "t_start": 1211.51,
+    "t_end": 1218.529,
+    "text": "X around the variable and expected value from the variable X that has density or"
+  },
+  {
+    "t_start": 1218.529,
+    "t_end": 1220.77,
+    "text": "the probability density function P of x foreign"
+  },
+  {
+    "t_start": 1220.77,
+    "t_end": 1224.65,
+    "text": "foreign this way"
+  },
+  {
+    "t_start": 1229.09,
+    "t_end": 1235.09,
+    "text": "it's just the integral of x times the density P of X DX"
+  },
+  {
+    "t_start": 1241.33,
+    "t_end": 1244.57,
+    "text": "not you can compute this way not only expectation of X but the expectation of"
+  },
+  {
+    "t_start": 1244.57,
+    "t_end": 1249.73,
+    "text": "expectation of X but the expectation of any function"
+  },
+  {
+    "t_start": 1253.33,
+    "t_end": 1257.47,
+    "text": "you will simply have to integrate instead of X you'd have to integrate f"
+  },
+  {
+    "t_start": 1257.47,
+    "t_end": 1264.37,
+    "text": "of x against the density B of X DX"
+  },
+  {
+    "t_start": 1272.83,
+    "t_end": 1275.169,
+    "text": "this works in higher Dimensions too If X is not around the variable"
+  },
+  {
+    "t_start": 1275.169,
+    "t_end": 1282.09,
+    "text": "If X is not around the variable but a random vector"
+  },
+  {
+    "t_start": 1284.65,
+    "t_end": 1288.37,
+    "text": "in dimension d and you take the function of a random"
+  },
+  {
+    "t_start": 1288.37,
+    "t_end": 1294.85,
+    "text": "formula holds only the integration is now not with respect to the real line a"
+  },
+  {
+    "t_start": 1294.85,
+    "t_end": 1298.81,
+    "text": "now not with respect to the real line a one-dimensional realign but over the"
+  },
+  {
+    "t_start": 1298.81,
+    "t_end": 1310.049,
+    "text": "one-dimensional realign but over the entire space Rd"
+  },
+  {
+    "t_start": 1316.93,
+    "t_end": 1318.93,
+    "text": "of a random variable X thank you"
+  },
+  {
+    "t_start": 1318.93,
+    "t_end": 1327.25,
+    "text": "is defined as expected value of x minus expectation squared"
+  },
+  {
+    "t_start": 1330.669,
+    "t_end": 1334.99,
+    "text": "and it has the variant expectation and variance"
+  },
+  {
+    "t_start": 1338.35,
+    "t_end": 1341.11,
+    "text": "enjoy linearity properties first the expected value of any sum of random"
+  },
+  {
+    "t_start": 1341.11,
+    "t_end": 1345.07,
+    "text": "expected value of any sum of random variables"
+  },
+  {
+    "t_start": 1348.85,
+    "t_end": 1350.83,
+    "text": "breaks down into the sum of expectations second"
+  },
+  {
+    "t_start": 1350.83,
+    "t_end": 1357.789,
+    "text": "variance but only if the random variables are independent can you use"
+  },
+  {
+    "t_start": 1357.789,
+    "t_end": 1359.169,
+    "text": "variables are independent can you use that"
+  },
+  {
+    "t_start": 1359.169,
+    "t_end": 1367.27,
+    "text": "effect size are independent or uncorrelated generally"
+  },
+  {
+    "t_start": 1385.33,
+    "t_end": 1392.049,
+    "text": "consequence of this linearity is the central theorem in probability"
+  },
+  {
+    "t_start": 1392.049,
+    "t_end": 1398.83,
+    "text": "Theory which is the law of large numbers I'll put the strong version of this the"
+  },
+  {
+    "t_start": 1398.83,
+    "t_end": 1402.25,
+    "text": "I'll put the strong version of this the strong law"
+  },
+  {
+    "t_start": 1405.13,
+    "t_end": 1410.13,
+    "text": "of large numbers lln which says that if"
+  },
+  {
+    "t_start": 1410.13,
+    "t_end": 1419.47,
+    "text": "if x is around the variable and if X1 through X if X1 X2"
+  },
+  {
+    "t_start": 1419.47,
+    "t_end": 1423.49,
+    "text": "if X1 through X if X1 X2 and so on are"
+  },
+  {
+    "t_start": 1428.049,
+    "t_end": 1430.57,
+    "text": "independent copies of X this means that they have run the variable X"
+  },
+  {
+    "t_start": 1430.57,
+    "t_end": 1436.87,
+    "text": "and I have random variables X1 X2 X3 all of which have the same distribution as X"
+  },
+  {
+    "t_start": 1436.87,
+    "t_end": 1439.57,
+    "text": "of which have the same distribution as X and they're independent"
+  },
+  {
+    "t_start": 1439.57,
+    "t_end": 1442.39,
+    "text": "so if all of these are independent random variables with the same"
+  },
+  {
+    "t_start": 1442.39,
+    "t_end": 1447.789,
+    "text": "random variables with the same distribution"
+  },
+  {
+    "t_start": 1450.43,
+    "t_end": 1456.97,
+    "text": "then foreign"
+  },
+  {
+    "t_start": 1459.19,
+    "t_end": 1460.27,
+    "text": "which is simply the arithmetic mean of the excise"
+  },
+  {
+    "t_start": 1460.27,
+    "t_end": 1467.289,
+    "text": "converges to the true mean true expectation of the random variable"
+  },
+  {
+    "t_start": 1467.289,
+    "t_end": 1472.09,
+    "text": "expectation of the random variable with probability one"
+  },
+  {
+    "t_start": 1473.71,
+    "t_end": 1480.49,
+    "text": "or in other words almost surely"
+  },
+  {
+    "t_start": 1482.529,
+    "t_end": 1489.07,
+    "text": "this is a strong of large numbers a strong law of large numbers"
+  },
+  {
+    "t_start": 1493.99,
+    "t_end": 1496.81,
+    "text": "now let's come back to the original problem"
+  },
+  {
+    "t_start": 1499.63,
+    "t_end": 1501.61,
+    "text": "to the Monte to to trying to prove that Monte Carlo method works"
+  },
+  {
+    "t_start": 1501.61,
+    "t_end": 1504.669,
+    "text": "Monte Carlo method works let's remind the situation"
+  },
+  {
+    "t_start": 1504.669,
+    "t_end": 1509.289,
+    "text": "we would like to numerically compute the integral this is a deterministic"
+  },
+  {
+    "t_start": 1509.289,
+    "t_end": 1510.61,
+    "text": "integral this is a deterministic quantity"
+  },
+  {
+    "t_start": 1510.61,
+    "t_end": 1518.23,
+    "text": "to do that we will evaluate the function at random points x i is a random"
+  },
+  {
+    "t_start": 1518.23,
+    "t_end": 1520.75,
+    "text": "at random points x i is a random independent and uniform in the cube so"
+  },
+  {
+    "t_start": 1520.75,
+    "t_end": 1523.81,
+    "text": "independent and uniform in the cube so we draw this draw this sample from the"
+  },
+  {
+    "t_start": 1523.81,
+    "t_end": 1529.029,
+    "text": "we draw this draw this sample from the cube then we compute kind of the sample"
+  },
+  {
+    "t_start": 1529.029,
+    "t_end": 1535.75,
+    "text": "claim that the result is close to the to the actual integral let's prove it"
+  },
+  {
+    "t_start": 1535.75,
+    "t_end": 1539.169,
+    "text": "the actual integral let's prove it so in our situation in the Monte"
+  },
+  {
+    "t_start": 1539.169,
+    "t_end": 1541.21,
+    "text": "so in our situation in the Monte Carlo method"
+  },
+  {
+    "t_start": 1541.21,
+    "t_end": 1549.01,
+    "text": "Carlo method let's analyze the accuracy of it"
+  },
+  {
+    "t_start": 1551.47,
+    "t_end": 1556.51,
+    "text": "try to approximate the integral by the expected value of this it's a random"
+  },
+  {
+    "t_start": 1556.51,
+    "t_end": 1562.21,
+    "text": "expected value of this it's a random quantity so the expected value of this"
+  },
+  {
+    "t_start": 1562.21,
+    "t_end": 1564.93,
+    "text": "because of the linearity I can push the expected value inside"
+  },
+  {
+    "t_start": 1564.93,
+    "t_end": 1569.71,
+    "text": "the expected value inside to become this"
+  },
+  {
+    "t_start": 1572.89,
+    "t_end": 1575.169,
+    "text": "each term here equals to the expected value of f of x and that's simply"
+  },
+  {
+    "t_start": 1575.169,
+    "t_end": 1578.289,
+    "text": "value of f of x and that's simply because these random variables x i"
+  },
+  {
+    "t_start": 1578.289,
+    "t_end": 1581.61,
+    "text": "because these random variables x i and X have the same distribution"
+  },
+  {
+    "t_start": 1581.61,
+    "t_end": 1584.19,
+    "text": "and X have the same distribution identical distribution"
+  },
+  {
+    "t_start": 1584.19,
+    "t_end": 1590.409,
+    "text": "all of them have the uniform Distribution on the cube"
+  },
+  {
+    "t_start": 1590.409,
+    "t_end": 1596.769,
+    "text": "Distribution on the cube because of that all terms are the same"
+  },
+  {
+    "t_start": 1596.769,
+    "t_end": 1607.99,
+    "text": "and it's the same term so we get back expected value of f of x"
+  },
+  {
+    "t_start": 1610.33,
+    "t_end": 1616.69,
+    "text": "now let's interpret this analytically the expected value of f of x"
+  },
+  {
+    "t_start": 1619.93,
+    "t_end": 1623.409,
+    "text": "according to this formula equals"
+  },
+  {
+    "t_start": 1626.71,
+    "t_end": 1629.289,
+    "text": "f of x p of X DX so again we used"
+  },
+  {
+    "t_start": 1629.289,
+    "t_end": 1635.169,
+    "text": "so again we used actually we use this formula"
+  },
+  {
+    "t_start": 1637.39,
+    "t_end": 1643.87,
+    "text": "p is density p is the density of the uniform Distribution on the cube"
+  },
+  {
+    "t_start": 1643.87,
+    "t_end": 1648.37,
+    "text": "uniform Distribution on the cube so it's constant on the cube"
+  },
+  {
+    "t_start": 1648.37,
+    "t_end": 1654.49,
+    "text": "the total integral of the density must be 1 because it is a probability density"
+  },
+  {
+    "t_start": 1654.49,
+    "t_end": 1658.39,
+    "text": "be 1 because it is a probability density so the constant is one"
+  },
+  {
+    "t_start": 1658.39,
+    "t_end": 1665.649,
+    "text": "so the constant is one therefore the density takes value 1 on"
+  },
+  {
+    "t_start": 1671.409,
+    "t_end": 1676.45,
+    "text": "that's because it is a density of the uniform distribution"
+  },
+  {
+    "t_start": 1676.45,
+    "t_end": 1678.149,
+    "text": "uniform distribution which means"
+  },
+  {
+    "t_start": 1678.149,
+    "t_end": 1687.73,
+    "text": "integrate only on the cube the rest is just zero f of x and P of X is one so DX"
+  },
+  {
+    "t_start": 1687.73,
+    "t_end": 1690.07,
+    "text": "just zero f of x and P of X is one so DX that is exactly what we're trying to"
+  },
+  {
+    "t_start": 1690.07,
+    "t_end": 1698.11,
+    "text": "compute but we are trying to approximate this integral so we're very happy here"
+  },
+  {
+    "t_start": 1700.33,
+    "t_end": 1703.09,
+    "text": "let's look at this little fat face like a frog"
+  },
+  {
+    "t_start": 1703.09,
+    "t_end": 1705.01,
+    "text": "face like a frog so Happy Frog here"
+  },
+  {
+    "t_start": 1705.01,
+    "t_end": 1707.59,
+    "text": "so Happy Frog here because"
+  },
+  {
+    "t_start": 1709.87,
+    "t_end": 1717.669,
+    "text": "because we have we constructed the unbiased estimator"
+  },
+  {
+    "t_start": 1731.71,
+    "t_end": 1734.71,
+    "text": "just the fact that it is this unbiased estimator does not give us any accuracy"
+  },
+  {
+    "t_start": 1734.71,
+    "t_end": 1736.21,
+    "text": "estimator does not give us any accuracy guarantee"
+  },
+  {
+    "t_start": 1736.21,
+    "t_end": 1738.01,
+    "text": "guarantee nor"
+  },
+  {
+    "t_start": 1738.01,
+    "t_end": 1739.409,
+    "text": "nor it"
+  },
+  {
+    "t_start": 1739.409,
+    "t_end": 1744.909,
+    "text": "gives us any guarantee of how many points we need for that approximation"
+  },
+  {
+    "t_start": 1744.909,
+    "t_end": 1747.85,
+    "text": "points we need for that approximation so let's compute the L2"
+  },
+  {
+    "t_start": 1747.85,
+    "t_end": 1749.59,
+    "text": "so let's compute the L2 error"
+  },
+  {
+    "t_start": 1749.59,
+    "t_end": 1752.47,
+    "text": "error error"
+  },
+  {
+    "t_start": 1755.649,
+    "t_end": 1763.75,
+    "text": "basically what we what we're trying to to compute is we take our estimator"
+  },
+  {
+    "t_start": 1763.75,
+    "t_end": 1769.289,
+    "text": "f of x i we subtract what we wanted to approximate zero"
+  },
+  {
+    "t_start": 1772.889,
+    "t_end": 1780.61,
+    "text": "f of x DX we Square the error just to kill the the sign should it appear and"
+  },
+  {
+    "t_start": 1780.61,
+    "t_end": 1782.47,
+    "text": "kill the the sign should it appear and then we take expectations the expected"
+  },
+  {
+    "t_start": 1782.47,
+    "t_end": 1783.85,
+    "text": "then we take expectations the expected squared error"
+  },
+  {
+    "t_start": 1783.85,
+    "t_end": 1787.389,
+    "text": "squared error okay"
+  },
+  {
+    "t_start": 1790.149,
+    "t_end": 1794.47,
+    "text": "now remember in the probability language this"
+  },
+  {
+    "t_start": 1797.889,
+    "t_end": 1799.69,
+    "text": "this is the expectation of this so if we call"
+  },
+  {
+    "t_start": 1799.69,
+    "t_end": 1806.59,
+    "text": "our sample mean z let's say we just proved that this is expected"
+  },
+  {
+    "t_start": 1806.59,
+    "t_end": 1808.75,
+    "text": "we just proved that this is expected value of Z"
+  },
+  {
+    "t_start": 1808.75,
+    "t_end": 1814.87,
+    "text": "right here just proved that so we can interpret the squared the mean squared"
+  },
+  {
+    "t_start": 1814.87,
+    "t_end": 1820.09,
+    "text": "interpret the squared the mean squared error as a variance of Z"
+  },
+  {
+    "t_start": 1820.09,
+    "t_end": 1821.19,
+    "text": "or variance let's see variance of the sum"
+  },
+  {
+    "t_start": 1821.19,
+    "t_end": 1828.49,
+    "text": "sum 1 through n f of x i like this"
+  },
+  {
+    "t_start": 1835.99,
+    "t_end": 1836.289,
+    "text": "and it pulls out with it with the [Music]"
+  },
+  {
+    "t_start": 1836.289,
+    "t_end": 1837.549,
+    "text": "[Music] um"
+  },
+  {
+    "t_start": 1837.549,
+    "t_end": 1842.529,
+    "text": "squared because the variance is defined as a square of something"
+  },
+  {
+    "t_start": 1842.529,
+    "t_end": 1846.25,
+    "text": "as a square of something and the rest"
+  },
+  {
+    "t_start": 1848.889,
+    "t_end": 1851.049,
+    "text": "is the variance of a sum now we use the linearity property we"
+  },
+  {
+    "t_start": 1851.049,
+    "t_end": 1852.49,
+    "text": "now we use the linearity property we know that these random variables are"
+  },
+  {
+    "t_start": 1852.49,
+    "t_end": 1857.289,
+    "text": "know that these random variables are independent so we have the sum"
+  },
+  {
+    "t_start": 1863.649,
+    "t_end": 1870.19,
+    "text": "all of these terms all of the X I's have the same"
+  },
+  {
+    "t_start": 1870.19,
+    "t_end": 1876.909,
+    "text": "and the same distribution as f of x so all of these terms are the same"
+  },
+  {
+    "t_start": 1876.909,
+    "t_end": 1884.409,
+    "text": "there is n of them we sum n terms we divide by N squared and this time we get"
+  },
+  {
+    "t_start": 1884.409,
+    "t_end": 1893.23,
+    "text": "divide by N squared and this time we get the variance of f of x divided by n"
+  },
+  {
+    "t_start": 1897.269,
+    "t_end": 1899.35,
+    "text": "let's assume for Simplicity that that f"
+  },
+  {
+    "t_start": 1899.35,
+    "t_end": 1905.409,
+    "text": "that f is always bounded by one"
+  },
+  {
+    "t_start": 1907.21,
+    "t_end": 1916.81,
+    "text": "calculation then under this assumption the variance will also be bounded by one"
+  },
+  {
+    "t_start": 1916.81,
+    "t_end": 1918.37,
+    "text": "and the error is one over n foreign"
+  },
+  {
+    "t_start": 1918.37,
+    "t_end": 1924.31,
+    "text": "so we just computed the mean squared error is 1 over n therefore taking the"
+  },
+  {
+    "t_start": 1924.31,
+    "t_end": 1930.669,
+    "text": "error is 1 over n therefore taking the square root"
+  },
+  {
+    "t_start": 1933.85,
+    "t_end": 1936.01,
+    "text": "we find that the average error expected error"
+  },
+  {
+    "t_start": 1936.01,
+    "t_end": 1946.269,
+    "text": "error is of the order of 1 over root n"
+  },
+  {
+    "t_start": 1947.409,
+    "t_end": 1958.69,
+    "text": "what is fantastic here is this error is the same regardless of the dimension"
+  },
+  {
+    "t_start": 1961.57,
+    "t_end": 1969.97,
+    "text": "Dimension plays no role in this error this is in stark contrast with the"
+  },
+  {
+    "t_start": 1969.97,
+    "t_end": 1971.649,
+    "text": "this is in stark contrast with the previous attempt of numerical"
+  },
+  {
+    "t_start": 1971.649,
+    "t_end": 1977.19,
+    "text": "integration where we just put the points as you remember we put the points here"
+  },
+  {
+    "t_start": 1977.19,
+    "t_end": 1979.21,
+    "text": "as you remember we put the points here on the grid"
+  },
+  {
+    "t_start": 1979.21,
+    "t_end": 1989.529,
+    "text": "and we needed this many points exponentially many points to get any"
+  },
+  {
+    "t_start": 1991.69,
+    "t_end": 1996.31,
+    "text": "we get a good error without requiring that the number of points is exponential"
+  },
+  {
+    "t_start": 1996.31,
+    "t_end": 1999.789,
+    "text": "that the number of points is exponential in fact the number of points doesn't"
+  },
+  {
+    "t_start": 1999.789,
+    "t_end": 2002.149,
+    "text": "need to depend on the dimension at all and this is how"
+  },
+  {
+    "t_start": 2002.149,
+    "t_end": 2007.889,
+    "text": "and this is how how probability in this case Monte Carlo"
+  },
+  {
+    "t_start": 2007.889,
+    "t_end": 2014.009,
+    "text": "helped us to lift the curse of high dimensionality for this specific problem"
+  },
+  {
+    "t_start": 2014.009,
+    "t_end": 2019.649,
+    "text": "dimensionality for this specific problem for the problem of numeric integration"
+  },
+  {
+    "t_start": 2022.049,
+    "t_end": 2023.19,
+    "text": "during this course we'll see a lot of examples"
+  },
+  {
+    "t_start": 2023.19,
+    "t_end": 2025.61,
+    "text": "examples where"
+  },
+  {
+    "t_start": 2025.61,
+    "t_end": 2030.57,
+    "text": "where we have the curse of high dimensionality and a lot of examples"
+  },
+  {
+    "t_start": 2030.57,
+    "t_end": 2034.59,
+    "text": "dimensionality and a lot of examples where we can live with a lot of examples"
+  },
+  {
+    "t_start": 2034.59,
+    "t_end": 2036.33,
+    "text": "where we cannot lift it um"
+  },
+  {
+    "t_start": 2036.33,
+    "t_end": 2040.95,
+    "text": "this was lecture one in high dimensional probability and data science again I"
+  },
+  {
+    "t_start": 2040.95,
+    "t_end": 2043.049,
+    "text": "probability and data science again I welcome everyone for this course"
+  },
+  {
+    "t_start": 2043.049,
+    "t_end": 2046.95,
+    "text": "welcome everyone for this course please join us for other lectures"
+  },
+  {
+    "t_start": 2046.95,
+    "t_end": 2051.51,
+    "text": "look at my web faculty webpage which has the transcript of all lectures lecture"
+  },
+  {
+    "t_start": 2051.51,
+    "t_end": 2052.589,
+    "text": "the transcript of all lectures lecture notes"
+  },
+  {
+    "t_start": 2052.589,
+    "t_end": 2060.06,
+    "text": "homework sets and all video recordings thank you and hope to see you next time"
+  }
+]

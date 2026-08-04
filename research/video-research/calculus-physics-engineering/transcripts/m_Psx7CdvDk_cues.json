@@ -1,0 +1,1132 @@
+[
+  {
+    "t_start": 2.91,
+    "t_end": 5.95,
+    "text": "This is going to be a super fun video. Gradient, divergence, and curl belong to"
+  },
+  {
+    "t_start": 5.95,
+    "t_end": 11.07,
+    "text": "Gradient, divergence, and curl belong to the world of vector calculus, which is a"
+  },
+  {
+    "t_start": 11.07,
+    "t_end": 16.23,
+    "text": "specialized subfield of multivariable calculus, and in order to understand"
+  },
+  {
+    "t_start": 16.23,
+    "t_end": 19.59,
+    "text": "them, we first need to build a solid foundation with four basic concepts:"
+  },
+  {
+    "t_start": 19.59,
+    "t_end": 23.11,
+    "text": "foundation with four basic concepts: scalars, vectors, scalar fields, and"
+  },
+  {
+    "t_start": 23.11,
+    "t_end": 28.35,
+    "text": "scalars, vectors, scalar fields, and vector fields. A scalar is simply a"
+  },
+  {
+    "t_start": 28.35,
+    "t_end": 31.11,
+    "text": "number. It has magnitude, but no direction. Examples of scalars are"
+  },
+  {
+    "t_start": 31.11,
+    "t_end": 35.15,
+    "text": "direction. Examples of scalars are temperature, mass, time, or height."
+  },
+  {
+    "t_start": 35.15,
+    "t_end": 40.43,
+    "text": "For instance, if the temperature at a place is 30°, that number alone fully"
+  },
+  {
+    "t_start": 40.43,
+    "t_end": 43.07,
+    "text": "place is 30°, that number alone fully describes it. There is no direction"
+  },
+  {
+    "t_start": 43.07,
+    "t_end": 45.71,
+    "text": "describes it. There is no direction involved. Then, a vector has both"
+  },
+  {
+    "t_start": 45.71,
+    "t_end": 49.03,
+    "text": "involved. Then, a vector has both magnitude and direction. For example,"
+  },
+  {
+    "t_start": 49.03,
+    "t_end": 53.75,
+    "text": "magnitude and direction. For example, wind blowing with a speed of 10 units"
+  },
+  {
+    "t_start": 53.75,
+    "t_end": 62.11,
+    "text": "is, and east tells you which way it points. Next, a scalar field is formed"
+  },
+  {
+    "t_start": 62.11,
+    "t_end": 67.47,
+    "text": "when a scalar value is assigned to every point in space. For example, suppose at"
+  },
+  {
+    "t_start": 67.47,
+    "t_end": 70.35,
+    "text": "point in space. For example, suppose at the point with coordinates 4,3,"
+  },
+  {
+    "t_start": 70.35,
+    "t_end": 72.95,
+    "text": "the point with coordinates 4,3, the temperature is 217°"
+  },
+  {
+    "t_start": 72.95,
+    "t_end": 74.11,
+    "text": "the temperature is 217° C,"
+  },
+  {
+    "t_start": 74.11,
+    "t_end": 79.71,
+    "text": "and at the point 8 and 1, the temperature is 83° C. Each point has a"
+  },
+  {
+    "t_start": 79.71,
+    "t_end": 82.87,
+    "text": "temperature is 83° C. Each point has a Each point has a single number attached"
+  },
+  {
+    "t_start": 82.87,
+    "t_end": 87.55,
+    "text": "That collection of numbers spread over space is called a scalar field."
+  },
+  {
+    "t_start": 87.55,
+    "t_end": 92.03,
+    "text": "Then, a vector field works the same way. But instead of a single number at each"
+  },
+  {
+    "t_start": 92.03,
+    "t_end": 98.07,
+    "text": "point, we assign a vector at each point. A classic example is wind flow. At every"
+  },
+  {
+    "t_start": 98.07,
+    "t_end": 100.35,
+    "text": "A classic example is wind flow. At every coordinate in space, the wind has a"
+  },
+  {
+    "t_start": 100.35,
+    "t_end": 105.23,
+    "text": "speed and a direction. So, at one point, the wind might be blowing slowly toward"
+  },
+  {
+    "t_start": 105.23,
+    "t_end": 107.87,
+    "text": "the wind might be blowing slowly toward the northwest, while at another point,"
+  },
+  {
+    "t_start": 107.87,
+    "t_end": 112.43,
+    "text": "it might be blowing faster toward the southwest or northeast. The collection"
+  },
+  {
+    "t_start": 112.43,
+    "t_end": 114.31,
+    "text": "southwest or northeast. The collection of all these vectors distributed in"
+  },
+  {
+    "t_start": 114.31,
+    "t_end": 117.71,
+    "text": "of all these vectors distributed in space forms a vector field. Now, to"
+  },
+  {
+    "t_start": 117.71,
+    "t_end": 120.51,
+    "text": "space forms a vector field. Now, to describe scalar fields mathematically,"
+  },
+  {
+    "t_start": 120.51,
+    "t_end": 126.23,
+    "text": "we use scalar functions. A scalar function takes coordinates as input and"
+  },
+  {
+    "t_start": 126.23,
+    "t_end": 128.31,
+    "text": "function takes coordinates as input and outputs a single number."
+  },
+  {
+    "t_start": 128.31,
+    "t_end": 134.07,
+    "text": "For example, a function might take X and Y as input and give you a height value"
+  },
+  {
+    "t_start": 134.07,
+    "t_end": 138.59,
+    "text": "Y as input and give you a height value like f of x {comma} y = x ^"
+  },
+  {
+    "t_start": 138.59,
+    "t_end": 140.47,
+    "text": "like f of x {comma} y = x ^ 2 + y ^"
+  },
+  {
+    "t_start": 140.47,
+    "t_end": 147.59,
+    "text": "2, which outputs a single number like 13 when x is 3 and y is 2. So, the height"
+  },
+  {
+    "t_start": 147.59,
+    "t_end": 151.39,
+    "text": "when x is 3 and y is 2. So, the height at 3 {comma} 2 is 13 units. Then, at"
+  },
+  {
+    "t_start": 151.39,
+    "t_end": 158.43,
+    "text": "origin, height is 0. Then, maybe at 1 {comma} 3, the height is 10 units. Now,"
+  },
+  {
+    "t_start": 158.43,
+    "t_end": 164.39,
+    "text": "{comma} 3, the height is 10 units. Now, if we want to draw this in 3D, do one"
+  },
+  {
+    "t_start": 164.39,
+    "t_end": 166.39,
+    "text": "thing. At each point in the XY plane, whatever is the value of the height,"
+  },
+  {
+    "t_start": 166.39,
+    "t_end": 171.35,
+    "text": "make a segment of that length rising upward from the plane along the Z axis"
+  },
+  {
+    "t_start": 171.35,
+    "t_end": 177.949,
+    "text": "like this. This way, if you plot it in three dimensions with X and Y as X and Y"
+  },
+  {
+    "t_start": 177.949,
+    "t_end": 180.59,
+    "text": "three dimensions with X and Y as X and Y coordinates and Z representing the value"
+  },
+  {
+    "t_start": 180.59,
+    "t_end": 186.31,
+    "text": "coordinates and Z representing the value of the function, it creates a smooth"
+  },
+  {
+    "t_start": 186.31,
+    "t_end": 192.43,
+    "text": "surface shaped like a giant bowl or pit centered at the origin."
+  },
+  {
+    "t_start": 194.39,
+    "t_end": 199.75,
+    "text": "mathematically, we use vector functions. A vector function takes coordinates as"
+  },
+  {
+    "t_start": 199.75,
+    "t_end": 201.99,
+    "text": "A vector function takes coordinates as input and outputs a vector with"
+  },
+  {
+    "t_start": 201.99,
+    "t_end": 204.59,
+    "text": "input and outputs a vector with components in different directions. For"
+  },
+  {
+    "t_start": 204.59,
+    "t_end": 210.71,
+    "text": "components in different directions. For example, v of x {comma} y equals a"
+  },
+  {
+    "t_start": 210.71,
+    "t_end": 216.47,
+    "text": "column vector where the first entry is 2x and the second entry is y."
+  },
+  {
+    "t_start": 216.47,
+    "t_end": 221.59,
+    "text": "point 1 {comma} 3, the output is a vector telling you to move two units to"
+  },
+  {
+    "t_start": 221.59,
+    "t_end": 224.35,
+    "text": "vector telling you to move two units to the right and three units up."
+  },
+  {
+    "t_start": 224.35,
+    "t_end": 229.55,
+    "text": "At the point 3 {comma} 4, the output is a vector that tells you to move six"
+  },
+  {
+    "t_start": 229.55,
+    "t_end": 233.03,
+    "text": "a vector that tells you to move six units to the right and four units up."
+  },
+  {
+    "t_start": 233.03,
+    "t_end": 234.79,
+    "text": "units to the right and four units up. This means the further you move away"
+  },
+  {
+    "t_start": 234.79,
+    "t_end": 237.63,
+    "text": "This means the further you move away from the origin, the longer and stronger"
+  },
+  {
+    "t_start": 237.63,
+    "t_end": 240.43,
+    "text": "from the origin, the longer and stronger the vectors become because the magnitude"
+  },
+  {
+    "t_start": 240.43,
+    "t_end": 244.43,
+    "text": "the vectors become because the magnitude of the output increases with the"
+  },
+  {
+    "t_start": 244.43,
+    "t_end": 249.47,
+    "text": "Now, we introduce a very important object called the del operator."
+  },
+  {
+    "t_start": 249.47,
+    "t_end": 251.31,
+    "text": "object called the del operator. It is written as a downward-pointing"
+  },
+  {
+    "t_start": 251.31,
+    "t_end": 254.67,
+    "text": "It is written as a downward-pointing triangle and pronounced as del."
+  },
+  {
+    "t_start": 254.67,
+    "t_end": 257.069,
+    "text": "triangle and pronounced as del. The del operator is a vector-type"
+  },
+  {
+    "t_start": 257.069,
+    "t_end": 258.83,
+    "text": "The del operator is a vector-type operator that performs partial"
+  },
+  {
+    "t_start": 258.83,
+    "t_end": 266.31,
+    "text": "two dimensions, you can think of it as having one component that differentiates"
+  },
+  {
+    "t_start": 266.31,
+    "t_end": 272.23,
+    "text": "having one component that differentiates with respect to X and another that"
+  },
+  {
+    "t_start": 272.23,
+    "t_end": 274.03,
+    "text": "differentiates with respect to Y. Because it has multiple directional"
+  },
+  {
+    "t_start": 274.03,
+    "t_end": 279.31,
+    "text": "components, it behaves like a vector. To understand what a partial derivative"
+  },
+  {
+    "t_start": 279.31,
+    "t_end": 282.31,
+    "text": "To understand what a partial derivative is intuitively, imagine you are standing"
+  },
+  {
+    "t_start": 282.31,
+    "t_end": 284.63,
+    "text": "is intuitively, imagine you are standing on a hill where the height depends on"
+  },
+  {
+    "t_start": 284.63,
+    "t_end": 288.43,
+    "text": "on a hill where the height depends on both your X and Y coordinates."
+  },
+  {
+    "t_start": 288.43,
+    "t_end": 291.79,
+    "text": "Now, if you want to know how the slope of this hill changes as you walk"
+  },
+  {
+    "t_start": 291.79,
+    "t_end": 293.59,
+    "text": "of this hill changes as you walk strictly to the right,"
+  },
+  {
+    "t_start": 293.59,
+    "t_end": 299.75,
+    "text": "in positive X direction while keeping your Y position perfectly constant, that"
+  },
+  {
+    "t_start": 299.75,
+    "t_end": 302.51,
+    "text": "your Y position perfectly constant, that rate of change is the partial derivative"
+  },
+  {
+    "t_start": 302.51,
+    "t_end": 308.03,
+    "text": "rate of change is the partial derivative with respect to X."
+  },
+  {
+    "t_start": 310.11,
+    "t_end": 312.87,
+    "text": "Similarly, if you want to know how the slope of this hill changes as you walk"
+  },
+  {
+    "t_start": 312.87,
+    "t_end": 315.83,
+    "text": "slope of this hill changes as you walk strictly to the north, in positive Y"
+  },
+  {
+    "t_start": 315.83,
+    "t_end": 318.99,
+    "text": "strictly to the north, in positive Y direction while keeping your X position"
+  },
+  {
+    "t_start": 318.99,
+    "t_end": 320.79,
+    "text": "direction while keeping your X position perfectly constant,"
+  },
+  {
+    "t_start": 320.79,
+    "t_end": 325.67,
+    "text": "that rate of change is the partial derivative with respect to Y."
+  },
+  {
+    "t_start": 325.67,
+    "t_end": 329.99,
+    "text": "Let us now see what happens when we apply the del operator to a scalar"
+  },
+  {
+    "t_start": 329.99,
+    "t_end": 331.31,
+    "text": "apply the del operator to a scalar field."
+  },
+  {
+    "t_start": 331.31,
+    "t_end": 338.43,
+    "text": "This operation is called the gradient. When we take the gradient of a scalar"
+  },
+  {
+    "t_start": 338.43,
+    "t_end": 341.47,
+    "text": "field, the result is always a vector field. This is extremely important."
+  },
+  {
+    "t_start": 341.47,
+    "t_end": 345.27,
+    "text": "field. This is extremely important. This is because the gradient calculates"
+  },
+  {
+    "t_start": 345.27,
+    "t_end": 348.03,
+    "text": "the partial derivative in each coordinate direction simultaneously."
+  },
+  {
+    "t_start": 348.03,
+    "t_end": 352.51,
+    "text": "Instead of just giving you a number, the gradient points toward the higher scalar"
+  },
+  {
+    "t_start": 352.51,
+    "t_end": 354.87,
+    "text": "gradient points toward the higher scalar values. To see how this works in"
+  },
+  {
+    "t_start": 354.87,
+    "t_end": 357.39,
+    "text": "values. To see how this works in practice, let us look at a concrete"
+  },
+  {
+    "t_start": 357.39,
+    "t_end": 359.39,
+    "text": "practice, let us look at a concrete mathematical example."
+  },
+  {
+    "t_start": 359.39,
+    "t_end": 368.35,
+    "text": "mathematical example. If we have a scalar function f of x, y"
+  },
+  {
+    "t_start": 368.35,
+    "t_end": 370.43,
+    "text": "= x ^ 2 + y ^ 2. As mentioned earlier, this creates a"
+  },
+  {
+    "t_start": 370.43,
+    "t_end": 375.35,
+    "text": "As mentioned earlier, this creates a surface shaped like a giant bowl or a"
+  },
+  {
+    "t_start": 375.35,
+    "t_end": 380.59,
+    "text": "Now, the partial derivative of this function with respect to x is 2x."
+  },
+  {
+    "t_start": 380.59,
+    "t_end": 382.79,
+    "text": "function with respect to x is 2x. This is because while taking a partial"
+  },
+  {
+    "t_start": 382.79,
+    "t_end": 386.23,
+    "text": "This is because while taking a partial derivative with respect to x, we treat y"
+  },
+  {
+    "t_start": 386.23,
+    "t_end": 389.11,
+    "text": "derivative with respect to x, we treat y as a constant and thus its derivative"
+  },
+  {
+    "t_start": 389.11,
+    "t_end": 392.35,
+    "text": "as a constant and thus its derivative becomes zero. Similarly, the partial"
+  },
+  {
+    "t_start": 392.35,
+    "t_end": 394.51,
+    "text": "becomes zero. Similarly, the partial derivative of this function with respect"
+  },
+  {
+    "t_start": 394.51,
+    "t_end": 397.55,
+    "text": "derivative of this function with respect to y is 2y."
+  },
+  {
+    "t_start": 397.55,
+    "t_end": 402.35,
+    "text": "Now, to find the gradient, we apply the del operator, which gives us a vector"
+  },
+  {
+    "t_start": 402.35,
+    "t_end": 405.87,
+    "text": "del operator, which gives us a vector field of 2x, 2y."
+  },
+  {
+    "t_start": 405.87,
+    "t_end": 409.83,
+    "text": "Its vector field will look something like this, right?"
+  },
+  {
+    "t_start": 409.83,
+    "t_end": 419.51,
+    "text": "Suppose you place a ball on this surface at the coordinate 1, 2. So, x is 1 and y"
+  },
+  {
+    "t_start": 419.51,
+    "t_end": 420.99,
+    "text": "at the coordinate 1, 2. So, x is 1 and y is 2."
+  },
+  {
+    "t_start": 420.99,
+    "t_end": 426.31,
+    "text": "Put it here and we get the vector 2, 4 as the gradient."
+  },
+  {
+    "t_start": 426.31,
+    "t_end": 430.35,
+    "text": "Now, note that even though the bowl is three-dimensional, the gradient only"
+  },
+  {
+    "t_start": 430.35,
+    "t_end": 434.07,
+    "text": "three-dimensional, the gradient only lives in the two-dimensional world of x"
+  },
+  {
+    "t_start": 434.07,
+    "t_end": 440.15,
+    "text": "When we find that the gradient at the coordinate 1, 2 is the vector 2, 4, we"
+  },
+  {
+    "t_start": 440.15,
+    "t_end": 442.11,
+    "text": "coordinate 1, 2 is the vector 2, 4, we are looking at a flat map of the bowl"
+  },
+  {
+    "t_start": 442.11,
+    "t_end": 443.51,
+    "text": "are looking at a flat map of the bowl from above."
+  },
+  {
+    "t_start": 443.51,
+    "t_end": 449.75,
+    "text": "This vector 2, 4 does not point up into the air. It points along the flat ground"
+  },
+  {
+    "t_start": 449.75,
+    "t_end": 451.31,
+    "text": "the air. It points along the flat ground toward the direction where the hill is"
+  },
+  {
+    "t_start": 451.31,
+    "t_end": 453.27,
+    "text": "toward the direction where the hill is rising the fastest."
+  },
+  {
+    "t_start": 453.27,
+    "t_end": 461.23,
+    "text": "So, after moving two units to the right and four units to the north, the next"
+  },
+  {
+    "t_start": 461.23,
+    "t_end": 467.43,
+    "text": "At that point, you will have a height of 45 units. So, in 3D, it would look like"
+  },
+  {
+    "t_start": 467.43,
+    "t_end": 469.71,
+    "text": "45 units. So, in 3D, it would look like the ball moved from this point to this"
+  },
+  {
+    "t_start": 469.71,
+    "t_end": 472.07,
+    "text": "the ball moved from this point to this point along the surface."
+  },
+  {
+    "t_start": 472.07,
+    "t_end": 476.31,
+    "text": "Ultimately, if you place a ball on the surface, the gradient tells you which"
+  },
+  {
+    "t_start": 476.31,
+    "t_end": 481.15,
+    "text": "surface, the gradient tells you which direction you would have to push it to"
+  },
+  {
+    "t_start": 481.15,
+    "t_end": 483.19,
+    "text": "go uphill as fast as possible. Conversely, the ball would naturally"
+  },
+  {
+    "t_start": 483.19,
+    "t_end": 487.51,
+    "text": "roll in the exact opposite direction of the gradient to find the bottom of the"
+  },
+  {
+    "t_start": 487.51,
+    "t_end": 488.63,
+    "text": "the gradient to find the bottom of the pit."
+  },
+  {
+    "t_start": 488.63,
+    "t_end": 493.27,
+    "text": "Now, let us move on to vector fields. When we try to apply the del operator"
+  },
+  {
+    "t_start": 493.27,
+    "t_end": 497.03,
+    "text": "When we try to apply the del operator directly to a vector field, we must be"
+  },
+  {
+    "t_start": 497.03,
+    "t_end": 501.03,
+    "text": "Both the del operator and the vector field are vectors."
+  },
+  {
+    "t_start": 501.03,
+    "t_end": 504.95,
+    "text": "There are only two meaningful ways to combine two vectors, either the dot"
+  },
+  {
+    "t_start": 504.95,
+    "t_end": 507.47,
+    "text": "combine two vectors, either the dot product or the cross product."
+  },
+  {
+    "t_start": 507.47,
+    "t_end": 510.75,
+    "text": "product or the cross product. If we use the dot product, we get"
+  },
+  {
+    "t_start": 510.75,
+    "t_end": 514.31,
+    "text": "divergence. If we use the cross product, we get the"
+  },
+  {
+    "t_start": 514.31,
+    "t_end": 519.709,
+    "text": "First, let us talk about divergence. Divergence is defined as the dot product"
+  },
+  {
+    "t_start": 519.709,
+    "t_end": 524.47,
+    "text": "Divergence is defined as the dot product of the del operator with a vector field."
+  },
+  {
+    "t_start": 524.47,
+    "t_end": 526.15,
+    "text": "The result of divergence is always a scalar field."
+  },
+  {
+    "t_start": 526.15,
+    "t_end": 529.91,
+    "text": "The word divergence literally means spreading out."
+  },
+  {
+    "t_start": 529.91,
+    "t_end": 535.47,
+    "text": "To build intuition and understand it mathematically, imagine a vector field V"
+  },
+  {
+    "t_start": 535.47,
+    "t_end": 543.95,
+    "text": "mathematically, imagine a vector field V of X, Y equals a matrix, where the first"
+  },
+  {
+    "t_start": 543.95,
+    "t_end": 546.87,
+    "text": "entry is X and the second entry is Y. On a graph, it will look like this."
+  },
+  {
+    "t_start": 546.87,
+    "t_end": 548.75,
+    "text": "On a graph, it will look like this. Say this vector field represents the"
+  },
+  {
+    "t_start": 548.75,
+    "t_end": 554.35,
+    "text": "flow of a fluid, such as air or water. At each point, the vector tells you how"
+  },
+  {
+    "t_start": 554.35,
+    "t_end": 556.15,
+    "text": "At each point, the vector tells you how the fluid is moving."
+  },
+  {
+    "t_start": 556.15,
+    "t_end": 561.03,
+    "text": "Here is the del operator. Now, take the dot product of these two vectors."
+  },
+  {
+    "t_start": 561.03,
+    "t_end": 566.03,
+    "text": "It will give us divergence of this vector field. We get this plus this."
+  },
+  {
+    "t_start": 566.03,
+    "t_end": 568.51,
+    "text": "vector field. We get this plus this. The partial derivative of X with respect"
+  },
+  {
+    "t_start": 568.51,
+    "t_end": 575.95,
+    "text": "The partial derivative of X with respect to X is 1, and the partial derivative of"
+  },
+  {
+    "t_start": 575.95,
+    "t_end": 577.95,
+    "text": "Y with respect to Y is also 1. When we add them together, we get a"
+  },
+  {
+    "t_start": 577.95,
+    "t_end": 580.51,
+    "text": "When we add them together, we get a constant divergence of two."
+  },
+  {
+    "t_start": 580.51,
+    "t_end": 585.79,
+    "text": "Now, imagine placing a tiny square region in this flow and watching what"
+  },
+  {
+    "t_start": 585.79,
+    "t_end": 588.95,
+    "text": "region in this flow and watching what happens to particles inside that region."
+  },
+  {
+    "t_start": 588.95,
+    "t_end": 593.31,
+    "text": "happens to particles inside that region. If more particles leave the region than"
+  },
+  {
+    "t_start": 593.31,
+    "t_end": 595.59,
+    "text": "enter it, the density or the number of fluid particles packed inside the square"
+  },
+  {
+    "t_start": 595.59,
+    "t_end": 597.83,
+    "text": "fluid particles packed inside the square region decreases."
+  },
+  {
+    "t_start": 597.83,
+    "t_end": 602.35,
+    "text": "In this case, because the vectors point outward and get longer as they move away"
+  },
+  {
+    "t_start": 602.35,
+    "t_end": 604.47,
+    "text": "outward and get longer as they move away from the center, more particles leave"
+  },
+  {
+    "t_start": 604.47,
+    "t_end": 609.91,
+    "text": "the region than enter it and thus the density inside decreases. This means the"
+  },
+  {
+    "t_start": 609.91,
+    "t_end": 615.31,
+    "text": "field is spreading out there and the divergence is positive. Next, consider a"
+  },
+  {
+    "t_start": 615.31,
+    "t_end": 621.43,
+    "text": "vector field where the first entry is minus X and the second entry is minus Y."
+  },
+  {
+    "t_start": 621.43,
+    "t_end": 627.59,
+    "text": "minus X and the second entry is minus Y. Here, the partial derivative of minus X"
+  },
+  {
+    "t_start": 627.59,
+    "t_end": 630.15,
+    "text": "with respect to X is minus one and the partial derivative of minus Y with"
+  },
+  {
+    "t_start": 630.15,
+    "t_end": 636.35,
+    "text": "respect to Y is also minus one, giving us a divergence of minus two. In this"
+  },
+  {
+    "t_start": 636.35,
+    "t_end": 638.59,
+    "text": "us a divergence of minus two. In this flow, all the vectors point toward the"
+  },
+  {
+    "t_start": 638.59,
+    "t_end": 641.35,
+    "text": "flow, all the vectors point toward the origin. If more particles enter our tiny"
+  },
+  {
+    "t_start": 641.35,
+    "t_end": 643.91,
+    "text": "origin. If more particles enter our tiny square region than leave, the density"
+  },
+  {
+    "t_start": 643.91,
+    "t_end": 645.39,
+    "text": "square region than leave, the density increases."
+  },
+  {
+    "t_start": 645.39,
+    "t_end": 649.03,
+    "text": "This means our vector field is converging and the divergence is"
+  },
+  {
+    "t_start": 649.03,
+    "t_end": 650.31,
+    "text": "converging and the divergence is negative."
+  },
+  {
+    "t_start": 650.31,
+    "t_end": 655.19,
+    "text": "Then, let us look at a field where the first entry is minus Y and the second"
+  },
+  {
+    "t_start": 655.19,
+    "t_end": 657.11,
+    "text": "first entry is minus Y and the second entry is X."
+  },
+  {
+    "t_start": 657.11,
+    "t_end": 660.63,
+    "text": "entry is X. On a graph, this vector field will look"
+  },
+  {
+    "t_start": 660.63,
+    "t_end": 666.51,
+    "text": "The partial derivative of minus Y with respect to X is zero and the partial"
+  },
+  {
+    "t_start": 666.51,
+    "t_end": 673.07,
+    "text": "derivative of X with respect to Y is also zero. So, the divergence is exactly"
+  },
+  {
+    "t_start": 673.07,
+    "t_end": 678.19,
+    "text": "also zero. So, the divergence is exactly zero. In this scenario, the fluid is"
+  },
+  {
+    "t_start": 678.19,
+    "t_end": 680.15,
+    "text": "simply rotating in a circle. If the number of particles entering the region"
+  },
+  {
+    "t_start": 680.15,
+    "t_end": 685.03,
+    "text": "number of particles entering the region equals the number leaving, the density"
+  },
+  {
+    "t_start": 685.03,
+    "t_end": 686.15,
+    "text": "stays the same and the divergence is zero."
+  },
+  {
+    "t_start": 686.15,
+    "t_end": 690.99,
+    "text": "This tells us that even though the fluid is moving, it is not spreading out or"
+  },
+  {
+    "t_start": 690.99,
+    "t_end": 692.75,
+    "text": "is moving, it is not spreading out or packing together."
+  },
+  {
+    "t_start": 692.75,
+    "t_end": 696.71,
+    "text": "We could have also taken the vector field as constant like this,"
+  },
+  {
+    "t_start": 696.71,
+    "t_end": 698.79,
+    "text": "field as constant like this, representing a steady stream of water"
+  },
+  {
+    "t_start": 698.79,
+    "t_end": 704.03,
+    "text": "flowing uniformly to the right at a constant speed. Every single vector in"
+  },
+  {
+    "t_start": 704.03,
+    "t_end": 707.79,
+    "text": "constant speed. Every single vector in the entire space is identical in length"
+  },
+  {
+    "t_start": 707.79,
+    "t_end": 712.35,
+    "text": "Because the fluid is moving at the exact same speed everywhere, the amount of"
+  },
+  {
+    "t_start": 712.35,
+    "t_end": 719.39,
+    "text": "the square is identical to the amount of water exiting through the right side. If"
+  },
+  {
+    "t_start": 719.39,
+    "t_end": 721.39,
+    "text": "water exiting through the right side. If the number of particles entering equals"
+  },
+  {
+    "t_start": 721.39,
+    "t_end": 726.75,
+    "text": "the number leaving, the density inside the square stays the same, and thus the"
+  },
+  {
+    "t_start": 726.75,
+    "t_end": 729.07,
+    "text": "the square stays the same, and thus the divergence is zero."
+  },
+  {
+    "t_start": 729.07,
+    "t_end": 733.99,
+    "text": "divergence is zero. Amazing. Now, divergence appears in"
+  },
+  {
+    "t_start": 733.99,
+    "t_end": 737.91,
+    "text": "where divergence is used in one of Maxwell's equations."
+  },
+  {
+    "t_start": 737.91,
+    "t_end": 743.39,
+    "text": "A positive electric charge produces an electric field that spreads outward."
+  },
+  {
+    "t_start": 743.39,
+    "t_end": 746.67,
+    "text": "electric field that spreads outward. This corresponds to positive divergence."
+  },
+  {
+    "t_start": 746.67,
+    "t_end": 748.83,
+    "text": "This corresponds to positive divergence. A negative electric charge produces an"
+  },
+  {
+    "t_start": 748.83,
+    "t_end": 751.91,
+    "text": "A negative electric charge produces an electric field that converges inward,"
+  },
+  {
+    "t_start": 751.91,
+    "t_end": 755.39,
+    "text": "electric field that converges inward, corresponding to negative divergence."
+  },
+  {
+    "t_start": 755.39,
+    "t_end": 760.31,
+    "text": "corresponding to negative divergence. Now, let us move to our third and final"
+  },
+  {
+    "t_start": 760.31,
+    "t_end": 764.51,
+    "text": "Curl is obtained by taking the cross product of the del operator with a"
+  },
+  {
+    "t_start": 764.51,
+    "t_end": 767.829,
+    "text": "product of the del operator with a vector field. Unlike divergence, curl"
+  },
+  {
+    "t_start": 767.829,
+    "t_end": 773.03,
+    "text": "vector field. Unlike divergence, curl produces a vector field as its result."
+  },
+  {
+    "t_start": 773.03,
+    "t_end": 775.19,
+    "text": "Curl measures rotation rather than spreading. To understand curl"
+  },
+  {
+    "t_start": 775.19,
+    "t_end": 780.51,
+    "text": "intuitively, imagine placing a tiny paddle wheel in a flowing fluid"
+  },
+  {
+    "t_start": 780.51,
+    "t_end": 783.07,
+    "text": "paddle wheel in a flowing fluid described by this vector field."
+  },
+  {
+    "t_start": 783.07,
+    "t_end": 788.03,
+    "text": "described by this vector field. If the fluid makes the wheel spin, then"
+  },
+  {
+    "t_start": 788.03,
+    "t_end": 794.95,
+    "text": "To find the curl of this vector field, the cross product of this field with the"
+  },
+  {
+    "t_start": 794.95,
+    "t_end": 797.07,
+    "text": "del operator is calculated by finding the determinant of this matrix, where"
+  },
+  {
+    "t_start": 797.07,
+    "t_end": 804.47,
+    "text": "the top row contains the unit vectors I, J, and K. The second row consists of the"
+  },
+  {
+    "t_start": 804.47,
+    "t_end": 806.47,
+    "text": "J, and K. The second row consists of the partial derivative operators with"
+  },
+  {
+    "t_start": 806.47,
+    "t_end": 813.07,
+    "text": "respect to X, Y, and Z. While the bottom row contains the actual components of"
+  },
+  {
+    "t_start": 813.07,
+    "t_end": 814.75,
+    "text": "row contains the actual components of our vector field."
+  },
+  {
+    "t_start": 814.75,
+    "t_end": 819.03,
+    "text": "It turns out to be this. For this specific field, the partial"
+  },
+  {
+    "t_start": 819.03,
+    "t_end": 825.23,
+    "text": "derivative of X with respect to X is 1, and the partial derivative of minus Y"
+  },
+  {
+    "t_start": 825.23,
+    "t_end": 831.95,
+    "text": "with respect to Y is minus 1. When we subtract minus 1 from 1, we get 1 plus"
+  },
+  {
+    "t_start": 831.95,
+    "t_end": 835.11,
+    "text": "subtract minus 1 from 1, we get 1 plus 1, which equals 2. Now, because the curl"
+  },
+  {
+    "t_start": 835.11,
+    "t_end": 837.59,
+    "text": "1, which equals 2. Now, because the curl is 2, the flow will rotate the paddle"
+  },
+  {
+    "t_start": 837.59,
+    "t_end": 838.63,
+    "text": "is 2, the flow will rotate the paddle wheel."
+  },
+  {
+    "t_start": 838.63,
+    "t_end": 843.15,
+    "text": "The higher the curl value, the faster it will spin, which indicates a much"
+  },
+  {
+    "t_start": 843.15,
+    "t_end": 845.07,
+    "text": "will spin, which indicates a much stronger rotational force at that"
+  },
+  {
+    "t_start": 845.07,
+    "t_end": 848.31,
+    "text": "stronger rotational force at that specific point in the field. Conversely,"
+  },
+  {
+    "t_start": 848.31,
+    "t_end": 852.67,
+    "text": "specific point in the field. Conversely, if the curl value were minus 2, the"
+  },
+  {
+    "t_start": 852.67,
+    "t_end": 855.79,
+    "text": "paddle wheel would spin at the same speed, but in the opposite direction. If"
+  },
+  {
+    "t_start": 855.79,
+    "t_end": 861.55,
+    "text": "speed, but in the opposite direction. If the wheel does not spin, and only moves"
+  },
+  {
+    "t_start": 861.55,
+    "t_end": 867.11,
+    "text": "straight, then the curl is zero. So, curl tells us whether the field has a"
+  },
+  {
+    "t_start": 867.11,
+    "t_end": 872.11,
+    "text": "tendency to rotate around a point. Okay, I am super tired right now as"
+  },
+  {
+    "t_start": 872.11,
+    "t_end": 873.47,
+    "text": "editing such videos is really exhausting."
+  },
+  {
+    "t_start": 873.47,
+    "t_end": 878.79,
+    "text": "But I am doing it just for the love of math. So, if you enjoyed this video,"
+  },
+  {
+    "t_start": 878.79,
+    "t_end": 881.59,
+    "text": "math. So, if you enjoyed this video, please don't forget to like, share, and"
+  },
+  {
+    "t_start": 881.59,
+    "t_end": 884.31,
+    "text": "please don't forget to like, share, and subscribe to our channel."
+  },
+  {
+    "t_start": 884.31,
+    "t_end": 888.18,
+    "text": "subscribe to our channel. So good."
+  },
+  {
+    "t_start": 888.18,
+    "t_end": 890.21,
+    "text": "So good. &gt;&gt; [music]"
+  }
+]

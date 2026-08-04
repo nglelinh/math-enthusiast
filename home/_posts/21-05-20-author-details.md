@@ -3,7 +3,7 @@ layout: post
 title: author details
 order: 5
 chapter: home
-owner: Your Name
+owner: Nguyen Le Linh
 hidden: true
 ---
 
@@ -11,59 +11,28 @@ hidden: true
 
 ## Lead Instructor
 
-### [Your Name]
+### Nguyen Le Linh
 
-**Position**: [Your Title]  
-**Institution**: [Your Institution]  
 **Email**: your.email@example.com  
-**Website**: [https://your-website.com](https://your-website.com)  
-**LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+**Course repository**: [https://github.com/nglelinh/math-enthusiast](https://github.com/nglelinh/math-enthusiast)
 
-#### Background
+#### About Math Enthusiast
 
-[Write a detailed bio about yourself, including:]
-- Your educational background
-- Your professional experience
-- Your research interests
-- Your teaching philosophy
-- Publications or notable achievements
-- Why you created this course
+Math Enthusiast is organized around questions, discoveries, and mathematical ideas rather than traditional technical chapters:
 
-#### Research Interests
+**Famous Problems → Mathematical Fields → Breakthroughs → Beautiful Ideas → Open Questions**
 
-- [Research area 1]
-- [Research area 2]
-- [Research area 3]
+The goal is to give learners a map of modern mathematics and help them discover which areas they want to explore more deeply.
 
 ---
 
-## Co-Authors / Teaching Team
+## Contributors
 
-### [Co-Author Name 1]
-
-**Role**: [Teaching Assistant / Co-Instructor]  
-**Email**: coauthor1@example.com
-
-Brief bio and contributions to the course.
-
-### [Co-Author Name 2]
-
-**Role**: [Teaching Assistant / Co-Instructor]  
-**Email**: coauthor2@example.com
-
-Brief bio and contributions to the course.
-
----
-
-## Course Development
-
-This course was developed over [time period] with the goal of [course goals]. The materials have been refined through [number] iterations based on student feedback and evolving best practices in [field].
+We welcome contributions. If you improve an essay, add an example, or translate content, please open a pull request and add yourself to [AUTHORS.md]({{ site.baseurl }}/AUTHORS.html).
 
 ---
 
 ## Contact
 
-For questions about the course content, please contact:
-- **General inquiries**: your.email@example.com
-- **Technical issues**: Open an issue on [GitHub](https://github.com/your-username/your-repo-name)
-- **Collaboration opportunities**: [Contact form or email]
+- **Course content**: open an issue on [GitHub](https://github.com/nglelinh/math-enthusiast)
+- **Technical issues**: same repository issues tracker

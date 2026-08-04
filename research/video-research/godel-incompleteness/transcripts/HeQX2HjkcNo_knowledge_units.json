@@ -1,0 +1,156 @@
+[
+  {
+    "id": "ku_video_HeQX2HjkcNo_0",
+    "t_start": 0.9,
+    "t_end": 95.6,
+    "type": "overview",
+    "summary": "There is a hole at the bottom of math a hole that means we will never know everything with certainty There will always be true statements that cannot be proven. Now no one knows what those statements are exactly but they could be something like the Twin Prime Conjecture. Twin primes are prime numbers that are separated by just one number like 11 and 13, or 17 and 19. And as you go up the number line primes occur less frequently and twin primes are rarer still. But the Twin Prime Conjecture is that there are infinitely many twin primes. You never run out them. As of right now no one has prov…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_95",
+    "t_start": 95.6,
+    "t_end": 188.5,
+    "type": "overview",
+    "summary": "than two or more than three neighbors dies once you've set up the initial arrangement of cells the two rules are applied to create the next generation and then the one after that and the one after that and so on it's totally automatic Conway called it a zero player game but even though the rules are simple the game itself can generate a wide variety of behavior some patterns are stable once they arise they never change others oscillate back and forth in a loop a few can travel across the grid forever like this glider here many patterns just fizzle out but a few keep growing forever they kee…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_188",
+    "t_start": 188.5,
+    "t_end": 283.0,
+    "type": "overview",
+    "summary": "forever or just 2 million generations or a billion or a googleplex is there something special about the game of life that makes it undecidable nope there are actually a huge number of systems that are undecidable like Wang tiles quantum physics airline ticketing systems and even magic the gathering to understand how undecidability shows up in all of these places we have to go back 150 years to a full-blown revolt in mathematics in 1874 Georg Cantor a german mathematician published a paper that launched a new branch of mathematics called set theory a set is just a well-defined collection of …"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_283",
+    "t_start": 283.0,
+    "t_end": 375.8,
+    "type": "overview",
+    "summary": "should be the same size but to check this logic canter imagined writing down an infinite list matching up each natural number on one side with a real number between zero and one on the other now since each real number is an infinite decimal there is no first one so we can just write them down in any random order the key is to make sure we get them all with no duplicates and line them up one to one with an integer if we can do that with none left over well then we know that the set of natural numbers and the set of real numbers between 0 and 1 are the same size so assume we've done that we h…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_375",
+    "t_start": 375.8,
+    "t_end": 469.8,
+    "type": "overview",
+    "summary": "the number on the diagonal that's why this is called Cantor's diagonalization proof it shows there must be more real numbers between 0 and 1 then there are natural numbers extending out to infinity so not all infinities are the same size Cantor call these countable and uncountable infinities respectively and in fact there are many more uncountable infinities which are even larger now Cantor's work was just the latest blow to mathematics for 2000 years Euclid's elements were considered the bedrock of the discipline but at the turn of the 19th century Lobashevsky and gauss discovered non-Eucl…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_469",
+    "t_start": 469.8,
+    "t_end": 567.1,
+    "type": "overview",
+    "summary": "and he worked to keep Cantor from getting a job he wanted on the other side were the formalists they thought that math could be put on absolutely secure logical foundations through Cantor's set theory the informal leader of the formalists was the german mathematician David Hilbert Hilbert was a living legend a hugely influential mathematician who had worked in nearly every area of mathematics he almost beat Einstein to the punch on general relativity he developed entirely new mathematical concepts that were crucial for quantum mechanics and he knew that Cantor's work was brilliant Hilbert w…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_567",
+    "t_start": 567.1,
+    "t_end": 660.3,
+    "type": "overview",
+    "summary": "had found another paradox of self-reference and he later explained his paradox using a hairy analogy let's say there's a village populated entirely by grown men with a strange law against beards specifically the law states that the village barber must shave all and only those men of the village who do not shave themselves but the barber himself lives in the village too of course and he's a man so who shaves him if he doesn't shave himself then the barber has to shave him but the barber can't shave himself because the barber doesn't shave anyone who shaves themselves so the barber must shave…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_660",
+    "t_start": 660.3,
+    "t_end": 752.8,
+    "type": "overview",
+    "summary": "arbitrary set of these tiles can you tell if they will tile the plane that is will they connect up with no gaps all the way out to infinity it turns out you can't tell for an arbitrary set of tiles whether they will tile the plane or not the problem is undecidable just like the fate of a pattern in Conway's game of life in fact it's exactly the same problem and that problem ultimately comes from self-reference as Hilbert and the formalists were about to discover Hilbert wanted to secure the foundations of mathematics by developing a new system for mathematical proofs systems of proof were a…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_752",
+    "t_start": 752.8,
+    "t_end": 843.2,
+    "type": "overview",
+    "summary": "in a formal system and set up the rules of inference as the system's rules for symbol manipulation so Russell along with Alfred North Whitehead developed a formal system like this in their three-volume Principia Mathematica published in 1913. Principia Mathematica is vast a total of nearly 2 000 pages of dense mathematical notation it takes 762 pages just to get to a complete proof that one plus one equals two at which point Russell and Whitehead dryly note the above proposition is occasionally useful the authors had originally planned a fourth volume but unsurprisingly they were too worn o…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_843",
+    "t_start": 843.2,
+    "t_end": 935.7,
+    "type": "overview",
+    "summary": "anything at all and number three is math decidable meaning is there an algorithm that can always determine whether a statement follows from the axioms now Hilbert was convinced that the answers to all three of these questions was yes at a major conference in 1930 Hilbert gave a fiery speech about these questions he ended it with a line that summed up his formalist dream in opposition to the foolish ignorabimus which means we will not know our slogan shall be we must know we will know these words are literally on his grave but by the time Hilbert gave this speech his dream was already crumbl…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_935",
+    "t_start": 935.7,
+    "t_end": 1027.1,
+    "type": "overview",
+    "summary": "to answer questions about the very system of logic and mathematics and so he took all these basic symbols of a mathematical system and then he gave each one a number this is known as the symbol's Gödel number so the symbol for not gets the number one or has the Gödel number two if then it's Gödel number three now if you're expressing all of these symbols with numbers then what do you do about the numbers themselves well zero gets its own Gödel number six and if you want to write a one you just put this successor symbol next to it the immediate successor of zero is 1. and if you want to writ…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_1027",
+    "t_start": 1027.1,
+    "t_end": 1118.4,
+    "type": "overview",
+    "summary": "and we raise each one to the power of the Gödel number of the symbol in our equation so we have 2 to the power of 6 times 3 to the power of 5 times 5 to the power of 6 equals 243 million so 243 million is the Gödel number of the whole equation zero equals zero we can write down Gödel numbers for any set of symbols that you can imagine so really this is an infinite deck of cards where any set of symbols that you want to write down in a sequence you can represent with a unique Gödel number and the beauty of this Gödel number is you can do a prime factorization of it and you can work out exact…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_1118",
+    "t_start": 1118.4,
+    "t_end": 1212.1,
+    "type": "overview",
+    "summary": "equal zero and we've created a proof this is the simplest proof i can think of that shows that one does not equal zero now this card for the proof of one does not equal zero gets its own Gödel number and the way we calculate this Gödel number is just as before we take the prime numbers and we raise 2 to the power of the axiom times 3 to the power of 1 does not equal 0 and we get a tremendously large number it would have 73 million digits if you calculated it all out so i've just left it here in exponential notation as you can see these numbers get very large and so you might want to start j…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_1214",
+    "t_start": 1214.3,
+    "t_end": 1305.0,
+    "type": "overview",
+    "summary": "that would mean the mathematical system is inconsistent the other alternative is that this card is true there is no proof for the statement with Gödel number g but that means this mathematical system has true statements in it that have no proof so your mathematical system is incomplete and that is Gödel's incompleteness theorem this is how he shows that any basic mathematical system that can do fundamental arithmetic will always have statements within it which are true but which have no proof there's a line in the tv show the office that echoes the self-referential paradox of Gödel's proof …"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_1304",
+    "t_start": 1305.0,
+    "t_end": 1399.6,
+    "type": "overview",
+    "summary": "incompleteness theorem in which he showed that any consistent formal system of math cannot prove its own consistency so taken together Gödel's two incompleteness theorems say that the best you can hope for is a consistent yet incomplete system of math but a system like that cannot prove its own consistency so some contradiction could always crop up in the future revealing that the system you'd been working with had been inconsistent the whole time and that leaves only the third and final big question from Hilbert is mathematics decidable that is is there an algorithm that can always determi…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_1399",
+    "t_start": 1399.6,
+    "t_end": 1492.8,
+    "type": "overview",
+    "summary": "to completion the program consists of a set of internal instructions you can think of it like a flow chart that tells the machine what to do based on the digit it reads and its internal state you could imagine exporting these instructions to any other Turing machine which would then perform in exactly the same way as the first although this sounds simple a Turing machine's arbitrarily large memory and program mean it can execute any computable algorithm if given enough time from addition and subtraction to the entire youtube algorithm it can do anything a modern computer can that's what mad…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_1492",
+    "t_start": 1492.8,
+    "t_end": 1585.6,
+    "type": "overview",
+    "summary": "conjecture and if it is it halts if not it never halts so if you could solve the halting problem you could solve the twin prime conjecture and all sorts of other unsolved questions so Turing said let's assume we can make a machine h that can determine whether any Turing machine will halt or not on a particular input you insert the program and its input and h simulates what will happen printing out either halts or never halts for now we don't worry about how h works we just know that it always works it always gives you the right answer now we can modify the h machine by adding additional com…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_1588",
+    "t_start": 1588.6,
+    "t_end": 1682.0,
+    "type": "overview",
+    "summary": "if h thinks h plus will halt well then that necessarily forces h plus to loop whatever output the halting machine h gives it turns out to be wrong there's a contradiction the only explanation can be that a machine like h can't exist there's no way to tell in general if a touring machine will halt or not on a given input and this means mathematics is undecidable there is no algorithm that can always determine whether a statement is derivable from the axioms so something like the twin prime conjecture might be unsolvable we might never know whether there are infinite twin primes or not the pr…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_1682",
+    "t_start": 1682.0,
+    "t_end": 1782.2,
+    "type": "overview",
+    "summary": "problem only recently in 2015 did mathematicians prove that in general the spectral gap question is undecidable to quote the authors even a perfect complete description of the microscopic interactions between a material's particles is not always enough to deduce its macroscopic properties now remember that Turing designed his machines to be as powerful computers as it is possible to make to this day the best computational systems are those that can do everything a touring machine can this is called touring completeness and it turns out there are many such during complete systems although th…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_1782",
+    "t_start": 1782.2,
+    "t_end": 1876.1,
+    "type": "overview",
+    "summary": "game of life is itself touring complete it should be capable of simulating itself and indeed it is this is the game of life running on the game of life the real legacy of David Hilbert's dream is all of our modern computational devices Kurt Gödel suffered bouts of mental instability later in life convinced that people were trying to poison him he refused to eat eventually starving himself to death Hilbert died in 1943 his epitaph was his slogan from 1930. we must know we will know the truth is we don't know sometimes we can't know but in trying to find out we can discover new things things …"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_1876",
+    "t_start": 1876.6,
+    "t_end": 1961.8,
+    "type": "overview",
+    "summary": "but Turing didn't live to see his ideas develop much further in 1952 the british government convicted him of gross indecency upon learning he was gay he was stripped of his security clearance and forced to take hormones in 1954 he committed suicide touring changed the world he is widely considered to be the most important founding figure in computer science all modern computers are descended from his designs but touring's ideas about computability came from his concept of the Turing machine which came from thinking about Hilbert's question is math decidable so touring's code breaking machin…"
+  },
+  {
+    "id": "ku_video_HeQX2HjkcNo_1967",
+    "t_start": 1967.2,
+    "t_end": 2039.0,
+    "type": "overview",
+    "summary": "hey this video was sponsored by brilliant a website full of interactive courses and quizzes that delve deep into topics like math physics and computer science now if you've gotten this far into this video you're likely someone who would love brilliant i've been going through their logic course and it's really got me thinking the problems start out easy but get more and more challenging as you develop your understanding and that's what i love about the site i love how it guides you not by telling you exactly but by exposing you to increasingly sophisticated puzzles and at the end i feel like…"
+  }
+]

@@ -1,0 +1,1457 @@
+[
+  {
+    "t_start": 4.32,
+    "t_end": 7.438,
+    "text": "This right here is what we're going to build to this video,"
+  },
+  {
+    "t_start": 7.438,
+    "t_end": 11.596,
+    "text": "a certain animated approach to thinking about a super important idea from math,"
+  },
+  {
+    "t_start": 11.596,
+    "t_end": 12.74,
+    "text": "the Fourier transform."
+  },
+  {
+    "t_start": 13.52,
+    "t_end": 16.661,
+    "text": "For anyone unfamiliar with what that is, my number one goal"
+  },
+  {
+    "t_start": 16.661,
+    "t_end": 19.96,
+    "text": "here is just for the video to be an introduction to that topic."
+  },
+  {
+    "t_start": 20.38,
+    "t_end": 23.283,
+    "text": "But even for those of you who are already familiar with it,"
+  },
+  {
+    "t_start": 23.283,
+    "t_end": 27.348,
+    "text": "I still think that there's something fun and enriching about seeing what all of its"
+  },
+  {
+    "t_start": 27.348,
+    "t_end": 28.8,
+    "text": "components actually look like."
+  },
+  {
+    "t_start": 29.32,
+    "t_end": 32.484,
+    "text": "The central example to start is going to be the classic one,"
+  },
+  {
+    "t_start": 32.484,
+    "t_end": 34.3,
+    "text": "decomposing frequencies from sound."
+  },
+  {
+    "t_start": 34.78,
+    "t_end": 39.54,
+    "text": "But after that I also want to show a glimpse of how this idea extends well beyond"
+  },
+  {
+    "t_start": 39.54,
+    "t_end": 44.3,
+    "text": "sound and frequency into many seemingly disparate areas of math, and even physics."
+  },
+  {
+    "t_start": 44.88,
+    "t_end": 48.14,
+    "text": "Really, it's crazy just how ubiquitous this idea is."
+  },
+  {
+    "t_start": 49.12,
+    "t_end": 50.08,
+    "text": "Let's dive in."
+  },
+  {
+    "t_start": 50.52,
+    "t_end": 54.281,
+    "text": "This sound right here is a pure A, 440 beats per second,"
+  },
+  {
+    "t_start": 54.281,
+    "t_end": 58.702,
+    "text": "meaning if you were to measure the air pressure right next to your"
+  },
+  {
+    "t_start": 58.702,
+    "t_end": 62.001,
+    "text": "headphones or your speaker as a function of time,"
+  },
+  {
+    "t_start": 62.001,
+    "t_end": 66.884,
+    "text": "it would oscillate up and down around its usual equilibrium in this wave,"
+  },
+  {
+    "t_start": 66.884,
+    "t_end": 69.26,
+    "text": "making 440 oscillations each second."
+  },
+  {
+    "t_start": 69.94,
+    "t_end": 74.76,
+    "text": "A lower pitch note, like a D, has the same structure, just fewer beats per second."
+  },
+  {
+    "t_start": 75.68,
+    "t_end": 79.54,
+    "text": "And when both of them are played at once, what do you think the resulting pressure vs."
+  },
+  {
+    "t_start": 79.82,
+    "t_end": 81.14,
+    "text": "time graph looks like?"
+  },
+  {
+    "t_start": 82.06,
+    "t_end": 85.544,
+    "text": "Well, at any point in time, this pressure difference is going to"
+  },
+  {
+    "t_start": 85.544,
+    "t_end": 89.242,
+    "text": "be the sum of what it would be for each of those notes individually,"
+  },
+  {
+    "t_start": 89.242,
+    "t_end": 92.78,
+    "text": "which let's face it is kind of a complicated thing to think about."
+  },
+  {
+    "t_start": 93.98,
+    "t_end": 98.16,
+    "text": "At some points the peaks match up with each other, resulting in a really high pressure."
+  },
+  {
+    "t_start": 98.66,
+    "t_end": 100.94,
+    "text": "At other points they tend to cancel out."
+  },
+  {
+    "t_start": 101.5,
+    "t_end": 104.78,
+    "text": "And all in all, what you get is a wave-ish pressure vs."
+  },
+  {
+    "t_start": 104.96,
+    "t_end": 108.72,
+    "text": "time graph that is not a pure sine wave, it's something more complicated."
+  },
+  {
+    "t_start": 108.72,
+    "t_end": 113.16,
+    "text": "And as you add in other notes, the wave gets more and more complicated."
+  },
+  {
+    "t_start": 113.8,
+    "t_end": 117.735,
+    "text": "But right now, all it is is a combination of four pure frequencies,"
+  },
+  {
+    "t_start": 117.735,
+    "t_end": 122.54,
+    "text": "so it seems needlessly complicated given the low amount of information put into it."
+  },
+  {
+    "t_start": 123.0,
+    "t_end": 126.852,
+    "text": "A microphone recording any sound just picks up on the air pressure"
+  },
+  {
+    "t_start": 126.852,
+    "t_end": 130.36,
+    "text": "at many different points in time, it only sees the final sum."
+  },
+  {
+    "t_start": 130.639,
+    "t_end": 134.258,
+    "text": "So our central question is going to be how you can take a signal"
+  },
+  {
+    "t_start": 134.258,
+    "t_end": 138.1,
+    "text": "like this and decompose it into the pure frequencies that make it up."
+  },
+  {
+    "t_start": 138.82,
+    "t_end": 139.84,
+    "text": "Pretty interesting, right?"
+  },
+  {
+    "t_start": 140.3,
+    "t_end": 143.291,
+    "text": "Adding up those signals really mixes them all together,"
+  },
+  {
+    "t_start": 143.291,
+    "t_end": 147.671,
+    "text": "so pulling them back apart feels akin to unmixing multiple paint colors that have"
+  },
+  {
+    "t_start": 147.671,
+    "t_end": 149.22,
+    "text": "all been stirred up together."
+  },
+  {
+    "t_start": 149.92,
+    "t_end": 154.74,
+    "text": "The general strategy is going to be to build for ourselves a mathematical machine that"
+  },
+  {
+    "t_start": 154.74,
+    "t_end": 159.34,
+    "text": "treats signals with a given frequency differently from how it treats other signals."
+  },
+  {
+    "t_start": 160.08,
+    "t_end": 163.213,
+    "text": "To start, consider simply taking a pure signal,"
+  },
+  {
+    "t_start": 163.213,
+    "t_end": 167.26,
+    "text": "say with a lowly 3 beats per second, so we can plot it easily."
+  },
+  {
+    "t_start": 167.82,
+    "t_end": 171.733,
+    "text": "And let's limit ourselves to looking at a finite portion of this graph,"
+  },
+  {
+    "t_start": 171.733,
+    "t_end": 174.94,
+    "text": "in this case the portion between 0 seconds and 4.5 seconds."
+  },
+  {
+    "t_start": 175.66,
+    "t_end": 181.08,
+    "text": "The key idea is going to be to take this graph and sort of wrap it up around a circle."
+  },
+  {
+    "t_start": 184.98,
+    "t_end": 186.64,
+    "text": "Concretely, here's what I mean by that."
+  },
+  {
+    "t_start": 187.02,
+    "t_end": 190.6,
+    "text": "Imagine a little rotating vector where at each point in time"
+  },
+  {
+    "t_start": 190.6,
+    "t_end": 194.18,
+    "text": "its length is equal to the height of our graph for that time."
+  },
+  {
+    "t_start": 194.86,
+    "t_end": 198.818,
+    "text": "So high points of the graph correspond to a greater distance from the origin,"
+  },
+  {
+    "t_start": 198.818,
+    "t_end": 201.0,
+    "text": "and low points end up closer to the origin."
+  },
+  {
+    "t_start": 202.08,
+    "t_end": 205.517,
+    "text": "And right now I'm drawing it in such a way that moving forward 2"
+  },
+  {
+    "t_start": 205.517,
+    "t_end": 209.06,
+    "text": "seconds in time corresponds to a single rotation around the circle."
+  },
+  {
+    "t_start": 209.64,
+    "t_end": 214.42,
+    "text": "Our little vector drawing this wound up graph is rotating at half a cycle per second."
+  },
+  {
+    "t_start": 215.42,
+    "t_end": 218.46,
+    "text": "So this is important, there are two different frequencies at play here."
+  },
+  {
+    "t_start": 218.72,
+    "t_end": 222.963,
+    "text": "There's the frequency of our signal, which goes up and down 3 times per second,"
+  },
+  {
+    "t_start": 222.963,
+    "t_end": 227.1,
+    "text": "and then separately there's the frequency with which we're wrapping the graph"
+  },
+  {
+    "t_start": 227.1,
+    "t_end": 230.92,
+    "text": "around the circle, which at the moment is half of a rotation per second."
+  },
+  {
+    "t_start": 231.44,
+    "t_end": 234.34,
+    "text": "But we can adjust that second frequency however we want."
+  },
+  {
+    "t_start": 234.66,
+    "t_end": 236.64,
+    "text": "Maybe we want to wrap it around faster?"
+  },
+  {
+    "t_start": 238.68,
+    "t_end": 240.94,
+    "text": "Or maybe we go and wrap it around slower?"
+  },
+  {
+    "t_start": 243.38,
+    "t_end": 248.58,
+    "text": "And that choice of winding frequency determines what the wound up graph looks like."
+  },
+  {
+    "t_start": 249.16,
+    "t_end": 252.14,
+    "text": "Some of the diagrams that come out of this can be pretty complicated,"
+  },
+  {
+    "t_start": 252.14,
+    "t_end": 255.163,
+    "text": "although they are very pretty, but it's important to keep in mind that"
+  },
+  {
+    "t_start": 255.163,
+    "t_end": 258.399,
+    "text": "all that's happening here is that we're wrapping the signal around a circle."
+  },
+  {
+    "t_start": 260.839,
+    "t_end": 263.611,
+    "text": "The vertical lines that I'm drawing up top, by the way,"
+  },
+  {
+    "t_start": 263.611,
+    "t_end": 267.917,
+    "text": "are just a way to keep track of the distance on the original graph that corresponds to"
+  },
+  {
+    "t_start": 267.917,
+    "t_end": 269.6,
+    "text": "a full rotation around the circle."
+  },
+  {
+    "t_start": 270.9,
+    "t_end": 273.534,
+    "text": "So lines spaced out by 1.5 seconds would mean"
+  },
+  {
+    "t_start": 273.534,
+    "t_end": 276.34,
+    "text": "it takes 1.5 seconds to make one full revolution."
+  },
+  {
+    "t_start": 277.24,
+    "t_end": 281.601,
+    "text": "And at this point we might have some sort of vague sense that something special will"
+  },
+  {
+    "t_start": 281.601,
+    "t_end": 286.22,
+    "text": "happen when the winding frequency matches the frequency of our signal, 3 beats per second."
+  },
+  {
+    "t_start": 286.8,
+    "t_end": 289.927,
+    "text": "All of the high points on the graph happen on the right side of the circle,"
+  },
+  {
+    "t_start": 289.927,
+    "t_end": 291.78,
+    "text": "and all of the low points happen on the left."
+  },
+  {
+    "t_start": 292.5,
+    "t_end": 295.206,
+    "text": "But how precisely can we take advantage of that in"
+  },
+  {
+    "t_start": 295.206,
+    "t_end": 297.86,
+    "text": "our attempt to build a frequency unmixing machine?"
+  },
+  {
+    "t_start": 299.0,
+    "t_end": 303.08,
+    "text": "Well, imagine this graph is having some kind of mass to it, like a metal wire."
+  },
+  {
+    "t_start": 304.22,
+    "t_end": 307.56,
+    "text": "This little dot is going to represent the center of mass of that wire."
+  },
+  {
+    "t_start": 308.14,
+    "t_end": 311.481,
+    "text": "As we change the frequency and the graph winds up differently,"
+  },
+  {
+    "t_start": 311.481,
+    "t_end": 314.08,
+    "text": "that center of mass kind of wobbles around a bit."
+  },
+  {
+    "t_start": 316.22,
+    "t_end": 319.787,
+    "text": "And for most of the winding frequencies, the peaks and valleys are all spaced out"
+  },
+  {
+    "t_start": 319.787,
+    "t_end": 323.66,
+    "text": "around the circle in such a way that the center of mass stays pretty close to the origin."
+  },
+  {
+    "t_start": 326.3,
+    "t_end": 330.545,
+    "text": "But when the winding frequency is the same as the frequency of our signal,"
+  },
+  {
+    "t_start": 330.545,
+    "t_end": 334.451,
+    "text": "in this case 3 cycles per second, all of the peaks are on the right,"
+  },
+  {
+    "t_start": 334.451,
+    "t_end": 338.924,
+    "text": "and all of the valleys are on the left, so the center of mass is unusually far"
+  },
+  {
+    "t_start": 338.924,
+    "t_end": 339.66,
+    "text": "to the right."
+  },
+  {
+    "t_start": 342.3,
+    "t_end": 345.331,
+    "text": "Here, to capture this, let's draw some kind of plot that keeps"
+  },
+  {
+    "t_start": 345.331,
+    "t_end": 348.46,
+    "text": "track of where that center of mass is for each winding frequency."
+  },
+  {
+    "t_start": 349.3,
+    "t_end": 351.835,
+    "text": "Of course, the center of mass is a two-dimensional thing,"
+  },
+  {
+    "t_start": 351.835,
+    "t_end": 354.983,
+    "text": "it requires two coordinates to fully keep track of, but for the moment,"
+  },
+  {
+    "t_start": 354.983,
+    "t_end": 356.82,
+    "text": "let's only keep track of the x-coordinate."
+  },
+  {
+    "t_start": 357.58,
+    "t_end": 361.146,
+    "text": "So for a frequency of zero, when everything is bunched up on the right,"
+  },
+  {
+    "t_start": 361.146,
+    "t_end": 362.98,
+    "text": "this x-coordinate is relatively high."
+  },
+  {
+    "t_start": 363.74,
+    "t_end": 366.411,
+    "text": "And then as you increase that winding frequency,"
+  },
+  {
+    "t_start": 366.411,
+    "t_end": 370.009,
+    "text": "and the graph balances out around the circle, the x-coordinate of"
+  },
+  {
+    "t_start": 370.009,
+    "t_end": 374.48,
+    "text": "that center of mass goes closer to zero, and it just kind of wobbles around a bit."
+  },
+  {
+    "t_start": 386.94,
+    "t_end": 392.16,
+    "text": "But then, at 3 beats per second, there's a spike, as everything lines up to the right."
+  },
+  {
+    "t_start": 404.44,
+    "t_end": 407.96,
+    "text": "This right here is the central construct, so let's sum up what we have so far."
+  },
+  {
+    "t_start": 407.96,
+    "t_end": 410.811,
+    "text": "We have that original intensity vs time graph,"
+  },
+  {
+    "t_start": 410.811,
+    "t_end": 415.482,
+    "text": "and then we have the wound up version of that in some two-dimensional plane,"
+  },
+  {
+    "t_start": 415.482,
+    "t_end": 420.518,
+    "text": "and then as a third thing, we have a plot for how the winding frequency influences"
+  },
+  {
+    "t_start": 420.518,
+    "t_end": 422.52,
+    "text": "the center of mass of that graph."
+  },
+  {
+    "t_start": 423.92,
+    "t_end": 427.02,
+    "text": "And by the way, let's look back at those really low frequencies near zero."
+  },
+  {
+    "t_start": 427.61,
+    "t_end": 431.368,
+    "text": "This big spike around zero in our new frequency plot just"
+  },
+  {
+    "t_start": 431.368,
+    "t_end": 435.58,
+    "text": "corresponds to the fact that the whole cosine wave is shifted up."
+  },
+  {
+    "t_start": 436.78,
+    "t_end": 441.983,
+    "text": "If I had chosen a signal that oscillates around zero, dipping into negative values,"
+  },
+  {
+    "t_start": 441.983,
+    "t_end": 445.514,
+    "text": "then as we play around with various winding frequencies,"
+  },
+  {
+    "t_start": 445.514,
+    "t_end": 450.284,
+    "text": "this plot of the winding frequency vs center of mass would only have a spike"
+  },
+  {
+    "t_start": 450.284,
+    "t_end": 451.4,
+    "text": "at the value of 3."
+  },
+  {
+    "t_start": 452.52,
+    "t_end": 455.903,
+    "text": "But negative values are a little bit weird and messy to think about,"
+  },
+  {
+    "t_start": 455.903,
+    "t_end": 459.826,
+    "text": "especially for a first example, so let's just continue thinking in terms of the"
+  },
+  {
+    "t_start": 459.826,
+    "t_end": 460.66,
+    "text": "shifted up graph."
+  },
+  {
+    "t_start": 461.4,
+    "t_end": 465.46,
+    "text": "I just want you to understand that that spike around zero only corresponds to the shift."
+  },
+  {
+    "t_start": 465.98,
+    "t_end": 470.26,
+    "text": "Our main focus, as far as frequency decomposition is concerned, is that bump at 3."
+  },
+  {
+    "t_start": 471.32,
+    "t_end": 476.04,
+    "text": "This whole plot is what I'll call the almost Fourier transform of the original signal."
+  },
+  {
+    "t_start": 476.68,
+    "t_end": 480.469,
+    "text": "There's a couple small distinctions between this and the actual Fourier transform,"
+  },
+  {
+    "t_start": 480.469,
+    "t_end": 483.757,
+    "text": "which I'll get to in a couple minutes, but already you might be able to"
+  },
+  {
+    "t_start": 483.757,
+    "t_end": 486.68,
+    "text": "see how this machine lets us pick out the frequency of a signal."
+  },
+  {
+    "t_start": 487.98,
+    "t_end": 491.98,
+    "text": "Just to play around with it a little bit more, take a different Fourier signal,"
+  },
+  {
+    "t_start": 491.98,
+    "t_end": 495.88,
+    "text": "let's say with a lower frequency of 2 beats per second, and do the same thing."
+  },
+  {
+    "t_start": 496.38,
+    "t_end": 500.548,
+    "text": "Wind it around a circle, imagine different potential winding frequencies,"
+  },
+  {
+    "t_start": 500.548,
+    "t_end": 509.9,
+    "text": "and then plot the x coordinate of that center of mass as you adjust the winding frequency."
+  },
+  {
+    "t_start": 510.58,
+    "t_end": 514.495,
+    "text": "Just like before, we get a spike when the winding frequency is the same as"
+  },
+  {
+    "t_start": 514.495,
+    "t_end": 518.62,
+    "text": "the signal frequency, which in this case is when it equals 2 cycles per second."
+  },
+  {
+    "t_start": 519.7,
+    "t_end": 523.539,
+    "text": "But the real key point, the thing that makes this machine so delightful,"
+  },
+  {
+    "t_start": 523.539,
+    "t_end": 528.063,
+    "text": "is how it enables us to take a signal consisting of multiple frequencies and pick out"
+  },
+  {
+    "t_start": 528.063,
+    "t_end": 528.8,
+    "text": "what they are."
+  },
+  {
+    "t_start": 529.24,
+    "t_end": 531.648,
+    "text": "Imagine taking the two signals we just looked at,"
+  },
+  {
+    "t_start": 531.648,
+    "t_end": 535.84,
+    "text": "the wave with 3 beats per second and the wave with 2 beats per second, and add them up."
+  },
+  {
+    "t_start": 536.62,
+    "t_end": 539.958,
+    "text": "Like I said earlier, what you get is no longer a nice pure cosine wave,"
+  },
+  {
+    "t_start": 539.958,
+    "t_end": 541.86,
+    "text": "it's something a little more complicated."
+  },
+  {
+    "t_start": 542.5,
+    "t_end": 545.36,
+    "text": "But imagine throwing this into our winding frequency machine."
+  },
+  {
+    "t_start": 546.36,
+    "t_end": 549.529,
+    "text": "It is certainly the case that as you wrap this thing around it looks a"
+  },
+  {
+    "t_start": 549.529,
+    "t_end": 552.787,
+    "text": "lot more complicated, you have this chaos and chaos and chaos and chaos,"
+  },
+  {
+    "t_start": 552.787,
+    "t_end": 556.18,
+    "text": "and then whoop, things seem to line up really nicely at 2 cycles per second."
+  },
+  {
+    "t_start": 556.72,
+    "t_end": 560.032,
+    "text": "Then as you continue on it's more chaos and more chaos and more chaos and chaos"
+  },
+  {
+    "t_start": 560.032,
+    "t_end": 563.22,
+    "text": "and chaos and chaos, whoop, things nicely align again at 3 cycles per second."
+  },
+  {
+    "t_start": 563.78,
+    "t_end": 567.61,
+    "text": "And like I said before, the wound up graph can look kind of busy and complicated,"
+  },
+  {
+    "t_start": 567.61,
+    "t_end": 571.44,
+    "text": "but all it is is the relatively simple idea of wrapping the graph around a circle."
+  },
+  {
+    "t_start": 571.96,
+    "t_end": 575.14,
+    "text": "It's just a more complicated graph and a pretty quick winding frequency."
+  },
+  {
+    "t_start": 576.18,
+    "t_end": 580.738,
+    "text": "Now what's going on here with the two different spikes is that if you were to"
+  },
+  {
+    "t_start": 580.738,
+    "t_end": 585.296,
+    "text": "take two signals and then apply this almost Fourier transform to each of them"
+  },
+  {
+    "t_start": 585.296,
+    "t_end": 589.855,
+    "text": "individually, and then add up the results, what you get is the same as if you"
+  },
+  {
+    "t_start": 589.855,
+    "t_end": 594.18,
+    "text": "first added up the signals and then applied this almost Fourier transform."
+  },
+  {
+    "t_start": 595.68,
+    "t_end": 598.59,
+    "text": "And the attentive viewers among you might want to pause and ponder"
+  },
+  {
+    "t_start": 598.59,
+    "t_end": 601.24,
+    "text": "and convince yourself that what I just said is actually true."
+  },
+  {
+    "t_start": 601.88,
+    "t_end": 604.999,
+    "text": "It's a pretty good test to verify for yourself that it's clear"
+  },
+  {
+    "t_start": 604.999,
+    "t_end": 607.92,
+    "text": "what exactly is being measured inside this winding machine."
+  },
+  {
+    "t_start": 609.08,
+    "t_end": 611.97,
+    "text": "Now this property makes things really useful to us,"
+  },
+  {
+    "t_start": 611.97,
+    "t_end": 616.25,
+    "text": "because the transform of a pure frequency is close to zero everywhere except"
+  },
+  {
+    "t_start": 616.25,
+    "t_end": 620.808,
+    "text": "for a spike around that frequency, so when you add together two pure frequencies,"
+  },
+  {
+    "t_start": 620.808,
+    "t_end": 625.7,
+    "text": "the transform graph just has these little peaks above the frequencies that went into it."
+  },
+  {
+    "t_start": 626.34,
+    "t_end": 629.46,
+    "text": "So this little mathematical machine does exactly what we wanted."
+  },
+  {
+    "t_start": 629.72,
+    "t_end": 633.562,
+    "text": "It pulls out the original frequencies from their jumbled up sums,"
+  },
+  {
+    "t_start": 633.562,
+    "t_end": 635.6,
+    "text": "unmixing the mixed bucket of paint."
+  },
+  {
+    "t_start": 636.86,
+    "t_end": 640.19,
+    "text": "And before continuing into the full math that describes this operation,"
+  },
+  {
+    "t_start": 640.19,
+    "t_end": 644.26,
+    "text": "let's just get a quick glimpse of one context where this thing is useful, sound editing."
+  },
+  {
+    "t_start": 644.7,
+    "t_end": 647.192,
+    "text": "Let's say that you have some recording and it's got an"
+  },
+  {
+    "t_start": 647.192,
+    "t_end": 649.64,
+    "text": "annoying high pitch that you would like to filter out."
+  },
+  {
+    "t_start": 650.66,
+    "t_end": 655.199,
+    "text": "Well at first your signal is coming in as a function of various intensities over time,"
+  },
+  {
+    "t_start": 655.199,
+    "t_end": 659.06,
+    "text": "different voltages given to your speaker from one millisecond to the next."
+  },
+  {
+    "t_start": 659.56,
+    "t_end": 661.78,
+    "text": "But we want to think of this in terms of frequencies."
+  },
+  {
+    "t_start": 662.62,
+    "t_end": 665.768,
+    "text": "So when you take the Fourier transform of that signal,"
+  },
+  {
+    "t_start": 665.768,
+    "t_end": 670.52,
+    "text": "the annoying high pitch is going to show up just as a spike at some high frequency."
+  },
+  {
+    "t_start": 671.28,
+    "t_end": 673.929,
+    "text": "Filtering that out by just smushing the spike down,"
+  },
+  {
+    "t_start": 673.929,
+    "t_end": 678.158,
+    "text": "what you'd be looking at is the Fourier transform of a sound that's just like your"
+  },
+  {
+    "t_start": 678.158,
+    "t_end": 680.4,
+    "text": "recording, only without that high frequency."
+  },
+  {
+    "t_start": 681.34,
+    "t_end": 684.976,
+    "text": "Luckily there's a notion of an inverse Fourier transform that tells"
+  },
+  {
+    "t_start": 684.976,
+    "t_end": 688.56,
+    "text": "you which signal would have produced this as its Fourier transform."
+  },
+  {
+    "t_start": 689.28,
+    "t_end": 692.855,
+    "text": "I'll be talking about that inverse much more fully in the next video,"
+  },
+  {
+    "t_start": 692.855,
+    "t_end": 696.328,
+    "text": "but long story short, applying the Fourier transform to the Fourier"
+  },
+  {
+    "t_start": 696.328,
+    "t_end": 699.7,
+    "text": "transform gives you back something close to the original function."
+  },
+  {
+    "t_start": 700.76,
+    "t_end": 704.4,
+    "text": "Kind of, this is a little bit of a lie, but it's in the direction of truth."
+  },
+  {
+    "t_start": 704.72,
+    "t_end": 707.852,
+    "text": "And most of the reason it's a lie is that I still have yet to"
+  },
+  {
+    "t_start": 707.852,
+    "t_end": 710.226,
+    "text": "tell you what the actual Fourier transform is,"
+  },
+  {
+    "t_start": 710.226,
+    "t_end": 714.42,
+    "text": "since it's a little more complex than this x-coordinate of the center of mass idea."
+  },
+  {
+    "t_start": 715.38,
+    "t_end": 719.559,
+    "text": "First off, bringing back this wound up graph and looking at its center of mass,"
+  },
+  {
+    "t_start": 719.559,
+    "t_end": 722.38,
+    "text": "the x-coordinate is really only half the story, right?"
+  },
+  {
+    "t_start": 722.52,
+    "t_end": 725.44,
+    "text": "I mean, this thing is in two dimensions, it's got a y-coordinate as well."
+  },
+  {
+    "t_start": 725.86,
+    "t_end": 730.201,
+    "text": "And as is typical in math, whenever you're dealing with something two-dimensional,"
+  },
+  {
+    "t_start": 730.201,
+    "t_end": 732.816,
+    "text": "it's elegant to think of it as the complex plane,"
+  },
+  {
+    "t_start": 732.816,
+    "t_end": 736.949,
+    "text": "where this center of mass is going to be a complex number that has both a real"
+  },
+  {
+    "t_start": 736.949,
+    "t_end": 738.1,
+    "text": "and an imaginary part."
+  },
+  {
+    "t_start": 741.14,
+    "t_end": 743.74,
+    "text": "And the reason for talking in terms of complex numbers,"
+  },
+  {
+    "t_start": 743.74,
+    "t_end": 745.968,
+    "text": "rather than just saying it has two coordinates,"
+  },
+  {
+    "t_start": 745.968,
+    "t_end": 749.265,
+    "text": "is that complex numbers lend themselves to really nice descriptions of"
+  },
+  {
+    "t_start": 749.265,
+    "t_end": 751.54,
+    "text": "things that have to do with winding and rotation."
+  },
+  {
+    "t_start": 752.36,
+    "t_end": 757.657,
+    "text": "For example, Euler's formula famously tells us that if you take e to some number times i,"
+  },
+  {
+    "t_start": 757.657,
+    "t_end": 762.485,
+    "text": "you're going to land on the point that you get if you were to walk that number of"
+  },
+  {
+    "t_start": 762.485,
+    "t_end": 766.9,
+    "text": "units around a circle with radius 1 counterclockwise starting on the right."
+  },
+  {
+    "t_start": 767.92,
+    "t_end": 773.2,
+    "text": "So imagine you wanted to describe rotating at a rate of 1 cycle per second."
+  },
+  {
+    "t_start": 774.16,
+    "t_end": 779.139,
+    "text": "One thing you could do is take the expression e to the 2 pi times i times t,"
+  },
+  {
+    "t_start": 779.139,
+    "t_end": 784.377,
+    "text": "where t is the amount of time that has passed, since for a circle with radius 1,"
+  },
+  {
+    "t_start": 784.377,
+    "t_end": 787.74,
+    "text": "2 pi describes the full length of its circumference."
+  },
+  {
+    "t_start": 788.92,
+    "t_end": 792.793,
+    "text": "And this is a little dizzying to look at, so maybe you want to describe"
+  },
+  {
+    "t_start": 792.793,
+    "t_end": 796.021,
+    "text": "a different frequency, something lower and more reasonable,"
+  },
+  {
+    "t_start": 796.021,
+    "t_end": 800.54,
+    "text": "and for that you would just multiply that time t in the exponent by the frequency f."
+  },
+  {
+    "t_start": 801.2,
+    "t_end": 807.019,
+    "text": "For example, if f was 1 tenth, then this vector makes one full turn every 10 seconds,"
+  },
+  {
+    "t_start": 807.019,
+    "t_end": 813.041,
+    "text": "since the time t has to increase all the way to 10 before the full exponent looks like 2"
+  },
+  {
+    "t_start": 813.041,
+    "t_end": 813.38,
+    "text": "pi i."
+  },
+  {
+    "t_start": 814.14,
+    "t_end": 817.297,
+    "text": "I have another video giving some intuition on why this is the"
+  },
+  {
+    "t_start": 817.297,
+    "t_end": 820.557,
+    "text": "behavior of e to the x for imaginary inputs, if you're curious,"
+  },
+  {
+    "t_start": 820.557,
+    "t_end": 823.46,
+    "text": "but for right now we're just going to take it as a given."
+  },
+  {
+    "t_start": 824.44,
+    "t_end": 826.18,
+    "text": "Now why am I telling you this, you might ask?"
+  },
+  {
+    "t_start": 826.6,
+    "t_end": 829.802,
+    "text": "Well it gives us a really nice way to write down the idea"
+  },
+  {
+    "t_start": 829.802,
+    "t_end": 833.06,
+    "text": "of winding up the graph into a single tight little formula."
+  },
+  {
+    "t_start": 833.96,
+    "t_end": 838.384,
+    "text": "First off, the convention in the context of Fourier transforms is to think about"
+  },
+  {
+    "t_start": 838.384,
+    "t_end": 843.3,
+    "text": "rotating in the clockwise direction, so let's throw a negative sign up into that exponent."
+  },
+  {
+    "t_start": 844.48,
+    "t_end": 848.346,
+    "text": "Now take some function describing a signal intensity versus time,"
+  },
+  {
+    "t_start": 848.346,
+    "t_end": 851.92,
+    "text": "like this pure cosine wave we had before, and call it g of t."
+  },
+  {
+    "t_start": 852.76,
+    "t_end": 856.437,
+    "text": "If you multiply this exponential expression times g of t,"
+  },
+  {
+    "t_start": 856.437,
+    "t_end": 861.827,
+    "text": "it means that the rotating complex number is getting scaled up and down according to"
+  },
+  {
+    "t_start": 861.827,
+    "t_end": 863.54,
+    "text": "the value of this function."
+  },
+  {
+    "t_start": 864.06,
+    "t_end": 867.229,
+    "text": "So you can think of this little rotating vector with"
+  },
+  {
+    "t_start": 867.229,
+    "t_end": 870.22,
+    "text": "its changing length as drawing the wound up graph."
+  },
+  {
+    "t_start": 871.32,
+    "t_end": 875.284,
+    "text": "So think about it, this is awesome, this really small expression"
+  },
+  {
+    "t_start": 875.284,
+    "t_end": 878.699,
+    "text": "is a super elegant way to encapsulate the whole idea of"
+  },
+  {
+    "t_start": 878.699,
+    "t_end": 882.42,
+    "text": "winding a graph around a circle with a variable frequency, f."
+  },
+  {
+    "t_start": 883.32,
+    "t_end": 887.14,
+    "text": "And remember, the thing we want to do with this wound up graph is to track"
+  },
+  {
+    "t_start": 887.14,
+    "t_end": 890.86,
+    "text": "its center of mass, so think about what formula is going to capture that."
+  },
+  {
+    "t_start": 891.76,
+    "t_end": 895.98,
+    "text": "Well, to approximate it at least, you might sample a whole bunch of times"
+  },
+  {
+    "t_start": 895.98,
+    "t_end": 900.486,
+    "text": "from the original signal, see where those points end up on the wound up graph,"
+  },
+  {
+    "t_start": 900.486,
+    "t_end": 905.163,
+    "text": "and then just take an average, that is, add them all together as complex numbers,"
+  },
+  {
+    "t_start": 905.163,
+    "t_end": 908.3,
+    "text": "and then divide by the number of points you've sampled."
+  },
+  {
+    "t_start": 909.14,
+    "t_end": 913.18,
+    "text": "This will become more accurate if you sample more points which are closer together."
+  },
+  {
+    "t_start": 914.2,
+    "t_end": 918.05,
+    "text": "And in the limit, rather than looking at the sum of a whole bunch of"
+  },
+  {
+    "t_start": 918.05,
+    "t_end": 921.901,
+    "text": "points divided by the number of points, you take an integral of this"
+  },
+  {
+    "t_start": 921.901,
+    "t_end": 925.64,
+    "text": "function divided by the size of the time interval we're looking at."
+  },
+  {
+    "t_start": 925.94,
+    "t_end": 929.317,
+    "text": "The idea of integrating a complex valued function might seem weird,"
+  },
+  {
+    "t_start": 929.317,
+    "t_end": 932.545,
+    "text": "and to anyone who's shaky with calculus maybe even intimidating,"
+  },
+  {
+    "t_start": 932.545,
+    "t_end": 936.42,
+    "text": "but the underlying meaning here really doesn't require any calculus knowledge."
+  },
+  {
+    "t_start": 936.86,
+    "t_end": 940.48,
+    "text": "The whole expression is just the center of mass of the wound up graph."
+  },
+  {
+    "t_start": 941.62,
+    "t_end": 946.695,
+    "text": "So great, step by step, we have built up this kind of complicated but let's face it,"
+  },
+  {
+    "t_start": 946.695,
+    "t_end": 951.531,
+    "text": "surprisingly small expression for the whole winding machine idea I talked about,"
+  },
+  {
+    "t_start": 951.531,
+    "t_end": 956.606,
+    "text": "and now there is only one final distinction to point out between this and the actual"
+  },
+  {
+    "t_start": 956.606,
+    "t_end": 961.92,
+    "text": "honest-to-goodness Fourier transform, namely, just don't divide out by the time interval."
+  },
+  {
+    "t_start": 962.54,
+    "t_end": 965.38,
+    "text": "The Fourier transform is just the integral part of this."
+  },
+  {
+    "t_start": 966.36,
+    "t_end": 969.32,
+    "text": "What that means is that instead of looking at the center of mass,"
+  },
+  {
+    "t_start": 969.32,
+    "t_end": 970.98,
+    "text": "you would scale it up by some amount."
+  },
+  {
+    "t_start": 971.66,
+    "t_end": 975.21,
+    "text": "If the portion of the original graph you were using spanned 3 seconds,"
+  },
+  {
+    "t_start": 975.21,
+    "t_end": 983.72,
+    "text": "If it was spanning 6 seconds, you would multiply the center of mass by 6."
+  },
+  {
+    "t_start": 985.04,
+    "t_end": 990.071,
+    "text": "Physically, this has the effect that when a certain frequency persists for a long time,"
+  },
+  {
+    "t_start": 990.071,
+    "t_end": 995.16,
+    "text": "then the magnitude of the Fourier transform at that frequency is scaled up more and more."
+  },
+  {
+    "t_start": 996.04,
+    "t_end": 1000.97,
+    "text": "For example, what we're looking at here is how when you have a pure frequency of 2"
+  },
+  {
+    "t_start": 1000.97,
+    "t_end": 1005.365,
+    "text": "beats per second and you wind it around the graph at 2 cycles per second,"
+  },
+  {
+    "t_start": 1005.365,
+    "t_end": 1009.88,
+    "text": "the center of mass stays in the same spot, just tracing out the same shape."
+  },
+  {
+    "t_start": 1009.88,
+    "t_end": 1014.81,
+    "text": "But the longer that signal persists, the larger the value of the Fourier transform"
+  },
+  {
+    "t_start": 1014.81,
+    "t_end": 1015.88,
+    "text": "at that frequency."
+  },
+  {
+    "t_start": 1016.5,
+    "t_end": 1019.605,
+    "text": "For other frequencies, even if you just increase it by a bit,"
+  },
+  {
+    "t_start": 1019.605,
+    "t_end": 1022.911,
+    "text": "this is cancelled out by the fact that for longer time intervals,"
+  },
+  {
+    "t_start": 1022.911,
+    "t_end": 1027.22,
+    "text": "you're giving the wound-up graph more of a chance to balance itself around the circle."
+  },
+  {
+    "t_start": 1028.94,
+    "t_end": 1031.716,
+    "text": "That is a lot of different moving parts, so let's"
+  },
+  {
+    "t_start": 1031.716,
+    "t_end": 1034.16,
+    "text": "step back and summarize what we have so far."
+  },
+  {
+    "t_start": 1034.599,
+    "t_end": 1037.54,
+    "text": "The Fourier transform of an intensity vs."
+  },
+  {
+    "t_start": 1037.7,
+    "t_end": 1042.75,
+    "text": "time function, like g of t, is a new function, which doesn't have time as an input,"
+  },
+  {
+    "t_start": 1042.75,
+    "t_end": 1047.5,
+    "text": "but instead takes in a frequency, what I've been calling the winding frequency."
+  },
+  {
+    "t_start": 1048.68,
+    "t_end": 1051.9,
+    "text": "In terms of notation, by the way, the common convention is to"
+  },
+  {
+    "t_start": 1051.9,
+    "t_end": 1055.38,
+    "text": "call this new function g-hat with a little circumflex on top of it."
+  },
+  {
+    "t_start": 1055.84,
+    "t_end": 1058.78,
+    "text": "The output of this function is a complex number,"
+  },
+  {
+    "t_start": 1058.78,
+    "t_end": 1063.04,
+    "text": "some point in the 2d plane that corresponds to the strength of a given"
+  },
+  {
+    "t_start": 1063.04,
+    "t_end": 1065.02,
+    "text": "frequency in the original signal."
+  },
+  {
+    "t_start": 1066.06,
+    "t_end": 1069.589,
+    "text": "The plot I've been graphing for the Fourier transform is just the real"
+  },
+  {
+    "t_start": 1069.589,
+    "t_end": 1073.02,
+    "text": "component of that output, the x-coordinate, but you could also graph"
+  },
+  {
+    "t_start": 1073.02,
+    "t_end": 1076.5,
+    "text": "the imaginary component separately if you wanted a fuller description."
+  },
+  {
+    "t_start": 1077.44,
+    "t_end": 1081.44,
+    "text": "And all of this is encapsulated inside that formula we built up."
+  },
+  {
+    "t_start": 1081.92,
+    "t_end": 1087.017,
+    "text": "And out of context, you can imagine how seeing this formula would seem sort of daunting,"
+  },
+  {
+    "t_start": 1087.017,
+    "t_end": 1090.625,
+    "text": "but if you understand how exponentials correspond to rotation,"
+  },
+  {
+    "t_start": 1090.625,
+    "t_end": 1095.435,
+    "text": "how multiplying that by the function g of t means drawing a wound up version of the"
+  },
+  {
+    "t_start": 1095.435,
+    "t_end": 1100.246,
+    "text": "graph, and how an integral of a complex valued function can be interpreted in terms"
+  },
+  {
+    "t_start": 1100.246,
+    "t_end": 1105.229,
+    "text": "of a center of mass idea, you can see how this whole thing carries with it a very rich"
+  },
+  {
+    "t_start": 1105.229,
+    "t_end": 1106.26,
+    "text": "intuitive meaning."
+  },
+  {
+    "t_start": 1107.54,
+    "t_end": 1110.64,
+    "text": "And by the way, one quick small note before we can call this wrapped up."
+  },
+  {
+    "t_start": 1110.92,
+    "t_end": 1113.777,
+    "text": "Even though in practice, with things like sound editing,"
+  },
+  {
+    "t_start": 1113.777,
+    "t_end": 1116.334,
+    "text": "you'll be integrating over a finite time interval,"
+  },
+  {
+    "t_start": 1116.334,
+    "t_end": 1120.094,
+    "text": "the theory of Fourier transforms is often phrased where the bounds of this"
+  },
+  {
+    "t_start": 1120.094,
+    "t_end": 1122.3,
+    "text": "integral are negative infinity and infinity."
+  },
+  {
+    "t_start": 1123.14,
+    "t_end": 1126.688,
+    "text": "Concretely, what that means is that you consider this expression"
+  },
+  {
+    "t_start": 1126.688,
+    "t_end": 1129.854,
+    "text": "for all possible finite time intervals, and you just ask,"
+  },
+  {
+    "t_start": 1129.854,
+    "t_end": 1133.02,
+    "text": "what is its limit as that time interval grows to infinity?"
+  },
+  {
+    "t_start": 1134.76,
+    "t_end": 1137.04,
+    "text": "And man oh man, there is so much more to say."
+  },
+  {
+    "t_start": 1137.22,
+    "t_end": 1138.8,
+    "text": "So much, I don't want to call it done here."
+  },
+  {
+    "t_start": 1138.98,
+    "t_end": 1141.083,
+    "text": "This transform extends to corners of math well"
+  },
+  {
+    "t_start": 1141.083,
+    "t_end": 1143.5,
+    "text": "beyond the idea of extracting frequencies from signal."
+  },
+  {
+    "t_start": 1144.24,
+    "t_end": 1146.94,
+    "text": "So the next video I put out is going to go through a couple of these,"
+  },
+  {
+    "t_start": 1146.94,
+    "t_end": 1149.14,
+    "text": "and that's really where things start getting interesting."
+  },
+  {
+    "t_start": 1150.0,
+    "t_end": 1153.104,
+    "text": "So stay subscribed for when that comes out, or an alternate option"
+  },
+  {
+    "t_start": 1153.104,
+    "t_end": 1156.07,
+    "text": "is to just binge on a couple 3Blue and Brown videos so that the"
+  },
+  {
+    "t_start": 1156.07,
+    "t_end": 1159.5,
+    "text": "YouTube recommender is more inclined to show you new things that come out."
+  },
+  {
+    "t_start": 1159.88,
+    "t_end": 1160.76,
+    "text": "Really the choice is yours."
+  },
+  {
+    "t_start": 1166.085,
+    "t_end": 1171.845,
+    "text": "Thank you."
+  }
+]

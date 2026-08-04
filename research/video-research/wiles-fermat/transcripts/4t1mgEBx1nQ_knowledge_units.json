@@ -1,0 +1,240 @@
+[
+  {
+    "id": "ku_video_4t1mgEBx1nQ_7",
+    "t_start": 7.1,
+    "t_end": 102.2,
+    "type": "overview",
+    "summary": "well thank you very much for that introduction and for the kind words it's introduction and for the kind words it's such a great honor and a great pleasure such a great honor and a great pleasure to be here in Oslo and to receive this prize I've realized that there may be many people in the audience who are not many people in the audience who are not fully trained number theorists let alone fully trained number theorists let alone fully trained mathematicians so it may be that you don't understand more than the opening descriptions of the problem and perhaps the first few things I say about…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_102",
+    "t_start": 102.2,
+    "t_end": 196.9,
+    "type": "overview",
+    "summary": "two like powers for this truly I have a wonderful proof but this margin is too wonderful proof but this margin is too small to contain it he wrote this we small to contain it he wrote this we don't actually know when because it was don't actually know when because it was only after he died that his son only after he died that his son republished the original Greek text with these marginal notes in 1670 and it is only through his son's intervention that only through his son's intervention that we can actually know what ephemeral is we can actually know what ephemeral is worsening so we can't…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_196",
+    "t_start": 196.9,
+    "t_end": 288.7,
+    "type": "overview",
+    "summary": "with Famer himself and there's a clear division in the attempts to solve this division in the attempts to solve this problem which was parallel to a division studied by árbol so as you well know I will prove the in solve ability of the will prove the in solve ability of the general equation the general quintic and general equation the general quintic and more generally higher degree equations and that marked an end of hundreds of years of study of algebraic equations of years of study of algebraic equations of solving equations using radicals but this problem solving equations for radicals …"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_288",
+    "t_start": 288.7,
+    "t_end": 384.3,
+    "type": "overview",
+    "summary": "one so it's not obvious you use the formula for the area of a triangle and formula for the area of a triangle and you can deduce this using pythagoras you can deduce this using pythagoras theorem that it's equivalent to the case theorem that it's equivalent to the case N equals three of famous loss theorem so firm our claim this in letters several times in his life particularly letters times in his life particularly letters to Digby on khakha V the case N equals four he showed and actually described the proof the case actually something even stronger that the sum of two fourth powers is not…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_384",
+    "t_start": 384.3,
+    "t_end": 474.8,
+    "type": "overview",
+    "summary": "leftover inheritance of this in the way fam'ly discussed mathematics he would issue challenges to other mathematicians particularly the English mathematicians which they stickily failed to understand which they stickily failed to understand or solve or solve most cases so that's part of the reason most cases so that's part of the reason that we don't have the detailed proofs that we don't have the detailed proofs because he said his results as because he said his results as challenges rather than explaining the challenges rather than explaining the proofs well this method of infinite descen…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_474",
+    "t_start": 474.8,
+    "t_end": 569.7,
+    "type": "overview",
+    "summary": "rational number so what you do is you you start off by supposing the square you start off by supposing the square root of 2 is a rational number so you can write it as a quotient a over B where a and B are integers like where a and B are integers like 7-elevens whatever you choose a solution 7-elevens whatever you choose a solution where a and B are both positive well you can rewrite that as a squared equals to B squared and now a is even because it's twice B squared so a is twice another integer substitute that in a equals to a integer substitute that in a equals to a zero in the original …"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_569",
+    "t_start": 569.7,
+    "t_end": 664.1,
+    "type": "overview",
+    "summary": "not how this is typically presented but I imagine this is how Pharma came to the idea of infinite descent and it's very striking that actually this idea of striking that actually this idea of infinite descent was basically the foundation of all attempts for on fam'ly until the late 19th century so now I'm until the late 19th century so now I'm going to jump mathematically to the next going to jump mathematically to the next successful partially successful attempt successful partially successful attempt which was by coma in the 1840s so there which was by coma in the 1840s so there was a lot…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_664",
+    "t_start": 664.1,
+    "t_end": 754.8,
+    "type": "overview",
+    "summary": "can just factor this as a product of linear factors now the idea is if you linear factors now the idea is if you take a number which is a p f-- power and you write it as a product of other numbers if those numbers are co-prime to numbers if those numbers are co-prime to each other then each one itself has to in terms of cubes if i take 8 times 27 that number there's no other way of breaking it up as a product of cubes what does that mean that means that what does that mean that means that essentially if these numbers are essentially if these numbers are co-prime to each other then each one …"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_754",
+    "t_start": 754.8,
+    "t_end": 852.4,
+    "type": "overview",
+    "summary": "Theta times a piece power it's very similar to the original equation and the idea of Kama is well supposing we start with a solution here and now we in Z Zeta instead of a rational solution we can deduce that each these factors of we can deduce that each these factors of P powers and hence we get another P powers and hence we get another equation which is very close to the equation which is very close to the original one maybe we can use infinite original one maybe we can use infinite descent if we start with a solution we descent if we start with a solution we deduce in this way that there…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_852",
+    "t_start": 852.4,
+    "t_end": 943.3,
+    "type": "overview",
+    "summary": "unique way of factoring so this brought come at a great development the come at a great development the invention and study of ideal class groups in general so the idea is you take ideals in this ring said Zeta that take ideals in this ring said Zeta that is abelian groups that sit between some is abelian groups that sit between some multiple of Z Zeta and said say to multiple of Z Zeta and said say to itself such that they're preserved under itself such that they're preserved under the action of the ring so alpha times the action of the ring so alpha times that a billion group is again ins…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_943",
+    "t_start": 943.3,
+    "t_end": 1036.3,
+    "type": "overview",
+    "summary": "Theorem well because it could be quite hard to calculate this size of this hard to calculate this size of this class group so he gave a second class group so he gave a second criterion which is even more amazing in criterion which is even more amazing in a way which is that P divides this border of this class group if and only if P divides the product of these Bernoulli numbers b2 up to be P minus 3 these Bernoulli numbers are the numbers these Bernoulli numbers are the numbers you get by expanding T over e to the t minus 1 as a power series and they're the coefficients of that power series…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_1036",
+    "t_start": 1036.3,
+    "t_end": 1131.7,
+    "type": "overview",
+    "summary": "when I was working with Mazur at Harvard we analyzed the fine structure of this we analyzed the fine structure of this class group to actually determine a class group to actually determine a relation between each individual binary number and some piece of this class group but these methods were not enough group but these methods were not enough to actually master the original problem to actually master the original problem it's still there were gap between what it's still there were gap between what we could even hope to do and a we could even hope to do and a resolution of the problem by t…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_1131",
+    "t_start": 1131.7,
+    "t_end": 1227.4,
+    "type": "overview",
+    "summary": "billion because the gawe group of cues a to P over Q it's the rationals and join to P over Q it's the rationals and join the Zeta P is described as the abelian groups said mod P said across that's the multiplicative group of said mod p see how does that work well a typical autumn orphism in here will ten take Z P to orphism in here will ten take Z P to some other P through divinity it has to be a power of side V write it as the alpha power and that goes to L mod p so alpha power and that goes to L mod p so this this describes the Galois group explicitly and the gower group is abelian this d…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_1227",
+    "t_start": 1227.4,
+    "t_end": 1320.8,
+    "type": "overview",
+    "summary": "feels generated by roots of one our abelian and that's the easy part and the abelian and that's the easy part and the hard part is that every abelian well this takes us the Kronecker weber theorem to nearly the end of the 19th theorem to nearly the end of the 19th century the first part of the 20th century the first part of the 20th century was spent in generalizing this abelian Theory to other fields and this is known as class field theory and this is known as class field theory and this is really the sort of centerpiece of of is really the sort of centerpiece of of number theory for much …"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_1320",
+    "t_start": 1320.8,
+    "t_end": 1413.2,
+    "type": "overview",
+    "summary": "role and it has the property that the GAO a group of this field which I've GAO a group of this field which I've called F P so the FP just means it's called F P so the FP just means it's it's just a labeling for this field which I claim exists the GAO a group of FP over F is isomorphic to the integers of F modulo P times the integers of F the multiplicative group of that modulo the image of the units so Oh F of the integers that said cube root 2 and this integers that said cube root 2 and this group Oh F cross plus for the units or group Oh F cross plus for the units or the positive units of…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_1413",
+    "t_start": 1413.2,
+    "t_end": 1506.8,
+    "type": "overview",
+    "summary": "developed to try and understand these extensions so they're basically equations over the rationals are over another number field where the gower group is not a billion where it's perhaps even a non abelian simple group perhaps even a non abelian simple group and the fundamental description of this and the fundamental description of this what it should be it's still conjectural what it should be it's still conjectural it comes from what's called the it comes from what's called the Langlands program so there's a decisive Langlands program so there's a decisive shift to this in the 1960s and t…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_1506",
+    "t_start": 1506.8,
+    "t_end": 1598.1,
+    "type": "overview",
+    "summary": "PSC to the P P I'm just going to assume P is prime and famine is enough to do it P is prime and famine is enough to do it for prime exponents so we usually just for prime exponents so we usually just restrict to those then you manufacture artificially this new equation which is equation elliptic new equation which is equation elliptic curve y squared is X X minus a to the P X plus B to the P okay it seems harmless enough it's odd it seems harmless enough it's odd because you take the discriminant of this cubic it's the probe that's of course the product of the difference of the roots square…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_1598",
+    "t_start": 1598.1,
+    "t_end": 1692.8,
+    "type": "overview",
+    "summary": "said confirmed that in fact if you assumed what's called the modularity conjecture the taniyama-shimura of a conjecture has various names then in fact you would have a concrete way of proving Fermat's Last Theorem if you proving Fermat's Last Theorem if you could show there's no elliptic curve could show there's no elliptic curve this form you prove Fermat's Last this form you prove Fermat's Last Theorem and to show there's no elliptic Theorem and to show there's no elliptic curve of this form you can use the curve of this form you can use the modularity conjecture so this gave a modularity…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_1692",
+    "t_start": 1692.8,
+    "t_end": 1783.6,
+    "type": "overview",
+    "summary": "times another generator this tower is not itself rational and then this not itself rational and then this quotient actually forms the complex quotient actually forms the complex points of an of this curve well one thing that's very odd about this is that this is actually a group that's not at this is actually a group that's not at all obvious when you look at this all obvious when you look at this equation so the solutions to this equation so the solutions to this equation actually form an abelian group equation actually form an abelian group and if you draw seem odd the lattice in interior…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_1783",
+    "t_start": 1783.6,
+    "t_end": 1874.1,
+    "type": "overview",
+    "summary": "Galois action on these points so the gamma group the colonel of P to the N that's the C mod p to the anvils see my PT on the mod p to the anvils see my PT on the gawe group gives an action so it injects gawe group gives an action so it injects and she L to of said mod p TN said so and she L to of said mod p TN said so what does this okay this is background what does this okay this is background on elliptic curves we have quite good on elliptic curves we have quite good enough to understand how to apply this to the FEM I equation yet so I want to just specialize the case P equals three just …"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_1874",
+    "t_start": 1874.1,
+    "t_end": 1967.0,
+    "type": "overview",
+    "summary": "algebraically you can actually describe these if you take the equation y squared is X cubed plus ax plus B these are actually the points of inflection just actually the points of inflection just in classical calculus terms if you in classical calculus terms if you calculate the points of inflection of calculate the points of inflection of that equation remembering you're not that equation remembering you're not just talking about real points of just talking about real points of inflection there's actually eight of them and then you get a ninth one its infinity they actually themselves form …"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_1966",
+    "t_start": 1967.0,
+    "t_end": 2060.9,
+    "type": "overview",
+    "summary": "equation was solvable and equations of high degree in language of Galois which might not be solvable I'm actually considering three distinctions as the abelian groups the solvable groups than the non solvable groups the non solvable groups are extremely difficult and as I said arithmetic hasn't got there yet but said arithmetic hasn't got there yet but this realization was that actually this this realization was that actually this in-between stage a solvable stage where in-between stage a solvable stage where I could perhaps squeeze through okay so I could perhaps squeeze through okay so th…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_2060",
+    "t_start": 2060.9,
+    "t_end": 2153.5,
+    "type": "overview",
+    "summary": "group in this case a subgroup of SL to set so these functions yes they have a set so these functions yes they have a Fourier series they are invariant on the Fourier series they are invariant on the sector's to set plus one but they also have this other property that if you take F of a a plus B over C Z plus D its take F of a a plus B over C Z plus D its well we allow something slightly more well we allow something slightly more general in the case we want is C to the Z plus d squared times F of Z that's whenever the matrix ABCD is an element of SL to Z with the C divisible by some integer …"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_2153",
+    "t_start": 2153.5,
+    "t_end": 2251.9,
+    "type": "overview",
+    "summary": "level here it doesn't really matter in detail at the moment what they are and detail at the moment what they are and what is this correspondence supposed to do it's supposed to say that when you take the gawe group from the gawe action on the p to the n division points so view that in CL 2 of 0 or P T&amp;Z because view that in CL 2 of 0 or P T&amp;Z because that's what the action on the p TN that's what the action on the p TN Division points looks like under that the Frobenius of L will I described to you earlier there's a notion of a Frobenius so I described it in the abelian setting on r…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_2251",
+    "t_start": 2251.9,
+    "t_end": 2348.6,
+    "type": "overview",
+    "summary": "Frobenius in the arithmetic so this conjecture seemed when it was first conjecture seemed when it was first proposed in a vague form by taniyama proposed in a vague form by taniyama got made more precise with shamora but got made more precise with shamora but it was very paper of 1967 where he it was very paper of 1967 where he pinned down the level n and proved a pinned down the level n and proved a very beautiful theorem about it that enabled people to test it so they could test this conjecture numerically and test this conjecture numerically and they got overwhelming evidence people they…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_2348",
+    "t_start": 2348.6,
+    "t_end": 2442.2,
+    "type": "overview",
+    "summary": "stage okay so what is what is the outcome of this well as I said as soon outcome of this well as I said as soon as I heard that ribbit had proved this connection I was riveted and spent my time working on this so why does the case P equal three why is it so valuable well the point is what have we got so we well the point is what have we got so we have fry and then ribbet prove the have fry and then ribbet prove the modularity conjecture implies pheromones laughs theorem so now the problem just proved modularity conjecture okay and as proved modularity conjecture okay and as I said when I st…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_2442",
+    "t_start": 2442.2,
+    "t_end": 2534.5,
+    "type": "overview",
+    "summary": "rationals in two or even any on the field into a solvable subgroup of GL 2 and s 4 is such a subgroup of p GL to s bar is such a subgroup so what Langlands bar is such a subgroup so what Langlands and actually this particular case is an and actually this particular case is an extension of Langdon's theorem by Gerry extension of Langdon's theorem by Gerry tunnel this is connected actually with tunnel this is connected actually with the modular form it's not the one that the modular form it's not the one that we want associated to an elliptic curve we want associated to an elliptic curve it d…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_2534",
+    "t_start": 2534.5,
+    "t_end": 2631.5,
+    "type": "overview",
+    "summary": "little bit further but we really have not mastered these completely in not mastered these completely in solvable extensions these simple groups well let me just say a few words about this generalization of Langlands which this generalization of Langlands which lots of people work on in number theory it's really as I said the the main thrust of modern number theory because thrust of modern number theory because even working on other problems like even working on other problems like elliptic curves and any kind of generalization of elliptic curves you want to solve equations you're going to w…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_2631",
+    "t_start": 2631.5,
+    "t_end": 2723.4,
+    "type": "overview",
+    "summary": "where you use analysis and now also naturally representation theory to study naturally representation theory to study number fields we've been very lucky to have the assistance of algebraic geometry for 50 years and it's um the fact is Langlands proof did not use algebraic geometry it's just analysis algebraic geometry it's just analysis and representation Theory Lang was proof and representation Theory Lang was proof for the s4 case and this general case is still completely baffling to us so let me just mention there's a little progress so one of the simplest ones you might try and underst…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_2723",
+    "t_start": 2723.4,
+    "t_end": 2812.9,
+    "type": "overview",
+    "summary": "ingenious induction on primes they managed to push these techniques to managed to push these techniques to prove the modularity for Association to modular forms of these kinds of extensions so this corresponds to extensions of the rationals with certain kinds of Galois group sit inside gl2 of kinds of Galois group sit inside gl2 of said model set but this is still a very very special case of the language program unfortunately the method doesn't program unfortunately the method doesn't seem to work in the general case the general case would be gln or even any other group and any number field…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_2826",
+    "t_start": 2826.8,
+    "t_end": 2917.9,
+    "type": "overview",
+    "summary": "[Applause] we have time for some questions thank you very much for exciting lecture you mentioned that one of the key ideas and the whole presentation was Fry's idea to construct an elliptic curve which is now called the Phi curve so I told me at the time that he thought this told me at the time that he thought this was some kind of joke to reduce one was some kind of joke to reduce one unsolvable problem to an even more unsolvable problem to an even more difficult and more and solve of a difficult and more and solve of a problem obviously it was proved wrong problem obviously it was proved…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_2917",
+    "t_start": 2917.9,
+    "t_end": 3011.0,
+    "type": "overview",
+    "summary": "and he'd shown them to a very eminent mathematician who said that's ridiculous mathematician who said that's ridiculous he might be able to do far more that way according to him sir yeah yes I think that does happen I have to admit when fry made this proposition I actually was very skeptical not about I actually was very skeptical not about modularity conjecture but about what ribbit proved so I was very surprised we're very happy when ribbit proved it I we're very happy when ribbit proved it I thought it was just wishful thinking but yeah I would like to return to the elementary and the be…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_3011",
+    "t_start": 3011.0,
+    "t_end": 3103.0,
+    "type": "overview",
+    "summary": "was a third for solving it for individual numbers or classes of numbers could you say a few words so how that yes the first one to really pick up on yes the first one to really pick up on it was Euler because the proof for N it was Euler because the proof for N equals three had not been written out so equals three had not been written out so Euler did the case N equals three I Euler did the case N equals three I think he made a mistake the first time but I think he corrected it so the next one was N equals five and that was very one was N equals five and that was very that was very tricky y…"
+  },
+  {
+    "id": "ku_video_4t1mgEBx1nQ_3102",
+    "t_start": 3103.0,
+    "t_end": 3182.0,
+    "type": "overview",
+    "summary": "of the French Academy because I think LeMay claimed a very complicated proof LeMay claimed a very complicated proof and was announcing it to the French and was announcing it to the French Academy and some of the other Academy and some of the other mathematicians like Co she got very excited and said yes I can do that too and I can do this and unfortunately I and I can do this and unfortunately I think there was this was where the think there was this was where the mistake was the unique factorization he hadn't sorted it out he'd made some assumptions so I think eventually the assumptions so…"
+  }
+]

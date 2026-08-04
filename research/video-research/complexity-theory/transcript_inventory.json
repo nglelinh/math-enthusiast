@@ -1,0 +1,29 @@
+{
+  "slug": "complexity-theory",
+  "videos": [
+    {
+      "id": "msp2y_Y5MLE",
+      "title": "Michael Sipser — Beyond Computation: P vs NP (Harvard)",
+      "has_transcript": true,
+      "chars": 65212,
+      "units": 40,
+      "url": "https://www.youtube.com/watch?v=msp2y_Y5MLE"
+    },
+    {
+      "id": "iZPzBHGDsWI",
+      "title": "MIT OCW Sipser — NP-Completeness lecture",
+      "has_transcript": true,
+      "chars": 83062,
+      "units": 56,
+      "url": "https://www.youtube.com/watch?v=iZPzBHGDsWI"
+    },
+    {
+      "id": "pQsdygaYcE4",
+      "title": "Quanta — *Biggest Puzzle in Computer Science: P vs. NP*",
+      "has_transcript": true,
+      "chars": 17513,
+      "units": 13,
+      "url": "https://www.youtube.com/watch?v=pQsdygaYcE4"
+    }
+  ]
+}

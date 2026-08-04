@@ -1,0 +1,21 @@
+{
+  "slug": "symmetry",
+  "videos": [
+    {
+      "id": "mH0oCDa74tE",
+      "title": "3Blue1Brown — Group theory & symmetry culture (Euler’s formula / groups)",
+      "has_transcript": true,
+      "chars": 21947,
+      "units": 14,
+      "url": "https://www.youtube.com/watch?v=mH0oCDa74tE"
+    },
+    {
+      "id": "MJ1NAzpens4",
+      "title": "Numberphile2 — Frieze Patterns (symmetry culture) patterns / crystallography culture",
+      "has_transcript": true,
+      "chars": 3953,
+      "units": 4,
+      "url": "https://www.youtube.com/watch?v=MJ1NAzpens4"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#fafbfc"/>
+  <text x="360" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1a1a">Three description levels of a gas (schematic)</text>
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#004586"/></marker>
+  </defs>
+  <g font-family="system-ui" font-size="13" text-anchor="middle">
+    <rect x="160" y="50" width="400" height="55" rx="8" fill="#e8f1fa" stroke="#004586" stroke-width="2"/>
+    <text x="360" y="72" fill="#004586" font-weight="600">Newtonian hard spheres</text>
+    <text x="360" y="92" fill="#333">positions &amp; velocities of every particle</text>
+    <line x1="360" y1="105" x2="360" y2="130" stroke="#004586" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="160" y="135" width="400" height="55" rx="8" fill="#e8f1fa" stroke="#004586" stroke-width="2"/>
+    <text x="360" y="157" fill="#004586" font-weight="600">Boltzmann kinetic equation</text>
+    <text x="360" y="177" fill="#333">probability density f(x,v,t); collisions as operator</text>
+    <line x1="360" y1="190" x2="360" y2="215" stroke="#004586" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="160" y="220" width="400" height="55" rx="8" fill="#fff3e8" stroke="#c73e1d" stroke-width="2"/>
+    <text x="360" y="242" fill="#c73e1d" font-weight="600">Fluid equations</text>
+    <text x="360" y="262" fill="#333">density, bulk velocity, pressure, temperature (Euler / NS–Fourier)</text>
+  </g>
+  <text x="360" y="320" text-anchor="middle" font-family="system-ui" font-size="13" fill="#444">Hilbert’s 6th (kinetic part): build rigorous bridges between levels—not only use them.</text>
+  <text x="360" y="350" text-anchor="middle" font-family="system-ui" font-size="12" fill="#666">Deng–Hani–Ma: long-time particle → Boltzmann (rarefied hard spheres) + links to fluid limits.</text>
+  <text x="360" y="390" text-anchor="middle" font-family="system-ui" font-size="11" fill="#888">Schematic only; each arrow is a hard theorem under precise hypotheses.</text>
+</svg>

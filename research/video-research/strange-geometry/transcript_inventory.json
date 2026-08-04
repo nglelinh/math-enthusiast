@@ -1,0 +1,45 @@
+{
+  "slug": "strange-geometry",
+  "videos": [
+    {
+      "id": "s86-Z-CbaHA",
+      "title": "Vsauce — The Banach–Tarski Paradox (measure paradox cousin)",
+      "has_transcript": true,
+      "chars": 18945,
+      "units": 16,
+      "url": "https://www.youtube.com/watch?v=s86-Z-CbaHA"
+    },
+    {
+      "id": "wKV0GYvR2X8",
+      "title": "Numberphile — Unexpected Shapes / Möbius (Tokieda)",
+      "has_transcript": true,
+      "chars": 7013,
+      "units": 5,
+      "url": "https://www.youtube.com/watch?v=wKV0GYvR2X8"
+    },
+    {
+      "id": "izIKV98Awnw",
+      "title": "Numberphile — An Unexpected Twist on Möbius Strips",
+      "has_transcript": true,
+      "chars": 21238,
+      "units": 8,
+      "url": "https://www.youtube.com/watch?v=izIKV98Awnw"
+    },
+    {
+      "id": "x-DgL49CFlM",
+      "title": "Numberphile — Space-Filling Curves",
+      "has_transcript": true,
+      "chars": 9464,
+      "units": 6,
+      "url": "https://www.youtube.com/watch?v=x-DgL49CFlM"
+    },
+    {
+      "id": "AAsICMPwGPY",
+      "title": "Numberphile — Klein Bottles",
+      "has_transcript": true,
+      "chars": 6823,
+      "units": 6,
+      "url": "https://www.youtube.com/watch?v=AAsICMPwGPY"
+    }
+  ]
+}

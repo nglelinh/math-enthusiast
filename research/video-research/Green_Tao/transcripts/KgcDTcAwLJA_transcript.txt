@@ -1,0 +1,700 @@
+so I'll be talking about some work um with David Colin from Oxford and Jacob
+with David Colin from Oxford and Jacob Fox from
+MIT so 10 years ago green and Terry T proved their remarkable theorem that the
+proved their remarkable theorem that the prime numbers contain arbitrarily long
+prime numbers contain arbitrarily long arithmetic progressions so I remember
+arithmetic progressions so I remember first hearing about this term when I was
+still high school student and being quite excited such a simple sounding
+quite excited such a simple sounding result but of course the proof is very
+very deep U okay so here are some examples of such uh arithmetic
+progressions in the prime numbers and so the purpose of this talk is to explain
+proof of the green to theorem as we we now come to understand it uh so we've
+now come to understand it uh so we've done some work where we simplify the
+done some work where we simplify the main technical ingredient in the proof
+main technical ingredient in the proof and I will explain
+and I will explain that
+so to talk about some green t theem I must also talk about samur term so samur
+must also talk about samur term so samur proved in the 70s that if you take a
+subset of the positive integers with positive density then the set must also
+contain arbitrarily long arithmetic progressions
+now the density is defined in the usual way so for example the even numbers of
+one2 we know from the prime number theorem that the primes have density
+theorem that the primes have density decaying as one over log
+n and so samur theorem itself does not directly imply green to theorem and in
+directly imply green to theorem and in fact even the best quantitative bounds
+fact even the best quantitative bounds on S THM known today are not quite
+enough to prove the green tow themm directly although for the three- term
+directly although for the three- term case the best bounds due to Tom Sanders
+enough it is a famous conjecture of ERS that the density of the primes alone
+that the density of the primes alone should imply that they contain long
+should imply that they contain long arithmetic progressions but that's um
+still an open conjecture and that's something that know people would very
+something that know people would very much love to
+prove so then what is green to strategy given that they're not improving on Sam
+given that they're not improving on Sam STM for the purpose of proving uh the
+STM for the purpose of proving uh the result of our
+primes the strategy is as follows I first start with my set of
+follows I first start with my set of primes
+p and they embed this primes in a somewhat larger set for the purpose of
+this talk uh let's call the set the almost primes now this is not quite an
+for our purpose and you can think of P being embedded in Q as a set of positive
+being embedded in Q as a set of positive relative density
+and they show two things first they show a relative s
+things first they show a relative s theem which informally says that if you
+start with a set s so here s is my q and if s satisfies certain pseudo Randomness
+if s satisfies certain pseudo Randomness conditions then it satisfies this
+conditions then it satisfies this relative similarity property meaning
+relative similarity property meaning that every subset of s of positive
+arithmetic progression s so this is their main technical result in their
+work in the Second Step they construct such a pseudo random host or starting
+such a pseudo random host or starting from the primes they construct this
+super set of primes or more generally a major Rising measure which satisfies the
+major Rising measure which satisfies the desired pseudo Randomness conditions and
+for this part uh they borrow ideas from a the time recent works of ghern and yum
+a the time recent works of ghern and yum on uh small gaps between Primes
+I will mostly focus on the combinatorial aspect of it in this talk and this is
+aspect of it in this talk and this is the part that we improve
+on so what do I mean by pseudo Randomness
+conditions in Green talw work they require two different kinds of pseudo
+require two different kinds of pseudo Randomness conditions which they called
+Randomness conditions which they called linear forms condition and correlation
+linear forms condition and correlation condition I'll explain what the linear
+forms condition is in more detail but the correlation condition is suffice as
+is to say that it's a it's a somewhat more technical condition that seems less
+more technical condition that seems less natural for the purpose of this
+natural for the purpose of this particular problem and it almost feels
+particular problem and it almost feels as if it shouldn't be
+there this is a very interesting result I think in of its own and a natural
+I think in of its own and a natural question that arises is well what pseud
+question that arises is well what pseud Randomness conditions do you really need
+Randomness conditions do you really need to guarantee such a consequence of
+to guarantee such a consequence of having you know uh dense subsets
+having you know uh dense subsets containing long APS
+so can you do with weaker and more natural pseudo Randomness conditions on
+natural pseudo Randomness conditions on the host
+set and our main result is that you can in fact completely get rid of this
+in fact completely get rid of this correlation condition and we can use a
+correlation condition and we can use a much weaker form of green to's linear
+much weaker form of green to's linear forms condition and I'll explain what
+forms condition and I'll explain what our linear forms condition says and it
+interpretation so um to give an overview of things so we started out with Samar
+STM where you can think of it as a result with the host set is all of the
+result with the host set is all of the positive integers and relative samur
+theorem where the host set is instead of the entire set of positive integers just
+the entire set of positive integers just some sparse set in both cases the
+conclusion is that a relatively dense subset should contain long arithmetic
+subset should contain long arithmetic progressions to put our work in some
+you can ask well what about different kinds of host sets so if you start with
+a random host set so for instance I take one to n and I choose each element to be
+one to n and I choose each element to be in my set with some probability P you
+in my set with some probability P you know when does it have this property so
+know when does it have this property so this question was first studied by
+kakawa gak and Roto in the 90s where they proved that for uh three term
+they proved that for uh three term arithmetic
+progressions the this probability is the correct threshold so for p above 1 /are
+correct threshold so for p above 1 /are root of n you have this property and for
+p much less than that you don't have that
+breakthrough uh a few years ago by Colin goers and independently shock where they
+goers and independently shock where they resolved this problem in general for Co
+resolved this problem in general for Co K term arithmetic progressions so this
+K term arithmetic progressions so this is in the random
+case uh in this talk I will only talk about the pseudo random case and as I
+about the pseudo random case and as I mentioned green and to proved a version
+mentioned green and to proved a version of this relative similarity theorem
+under the conditions of linear forms and correlation and we prove it under just
+correlation and we prove it under just correlation in fact a slightly weaker
+correlation in fact a slightly weaker version of their cor of the just under
+version of their cor of the just under linear forms and a slightly weaker
+linear forms and a slightly weaker version of their linear
+version of their linear forms
+yeah that's right One Direction so for p much less than this you can show that
+there's um much fewer 3 APS than the number of elements in your set so you
+number of elements in your set so you can just take out those three APS and
+destroy all the three APS right so it's the it's the existence that's a harder
+the it's the existence that's a harder Direction okay any other
+Direction okay any other questions okay
+so um so I want to First outline a proof of this classic result of rth on three
+ap3 sets so it says that so this is a three- term uh version of samur STM it
+three- term uh version of samur STM it says that you have a set which is 33
+says that you have a set which is 33 then it contains a sublinear number of
+then it contains a sublinear number of elements it will be somewhat easier to
+work in Zod n because of the CC group structure and roughly these two settings
+structure and roughly these two settings are the same the only difference is that
+are the same the only difference is that in Zod n you're allowed wrap arounds the
+three piece could wrap around zero but there's a standard trick to get rid of
+there's a standard trick to get rid of that which is to if you start with one
+to end then you bet embed this in a slightly larger cular group so that
+wraparounds no longer cause an issue so for our purpose these two settings are
+for our purpose these two settings are really the same and we'll just work with
+really the same and we'll just work with Zod so let me show you a a graph
+Zod so let me show you a a graph theoretic proof of rth so this is not
+theoretic proof of rth so this is not Roth's original proof which is suor
+Roth's original proof which is suor analysis but it's a graph theoretic
+proof and the point of this is to motivate the construction that will be
+motivate the construction that will be needed to explain the pseudo Randomness
+needed to explain the pseudo Randomness condition starting with my set a as a
+condition starting with my set a as a subset of Z modm let me construct the
+subset of Z modm let me construct the following tripartite graph where I have
+three sets of vertices X Y and Z where the vertices are labeled all by elements
+the vertices are labeled all by elements of Zod
+n i putting my edges as follows so between X and uh the set so between
+between X and uh the set so between these two vertex sets I putting an edge
+these two vertex sets I putting an edge between X and Y if and only if this
+linear form 2x + y is in my set a okay so there's just some rule for putting in
+so there's just some rule for putting in the edges you can think of it as a
+the edges you can think of it as a modified KD
+graph similarly I putting an edge between x and z if x minus Z is in my
+between x and z if x minus Z is in my set
+a and between x uh between Y and Z if minus Yus 2 Z is in a okay so these are
+minus Yus 2 Z is in a okay so these are just the rules for putting in the
+edges okay so why do I put in these edges why do I choose these three linear
+because if I think about what are the triangles in this graph so when do
+vertices X Y and Z form a triangle they form a triangle if and only if these
+form a triangle if and only if these three linear forms are all in my set a
+so that's just reading off the rules but these three Expressions notice
+rules but these three Expressions notice that they form a three- term arithmetic
+that they form a three- term arithmetic progression with this common difference
+so that's the reason why those three linear forms were chosen so triangles in
+linear forms were chosen so triangles in this graph correspond precisely to three
+this graph correspond precisely to three term arithmetic progressions in the set
+a but I started out with a set a with which doesn't have any three- term
+which doesn't have any three- term arithmetic
+progressions so does that mean that there's no triangles in this
+graph almost not quite but almost there are still some
+triangles because we still have some trivial three- term arithmetic
+progressions with common difference zero and they're still being picked up by
+construction so but these are the only triangles and in particular particular
+triangles and in particular particular what notice is that every Edge in this
+graph is contained in exactly one triangle namely the one that completes
+triangle namely the one that completes the equation x + y + z equals to
+which has 3 n vertices 3 n * a edges so think of there a k graph so there are a
+think of there a k graph so there are a edges between so coming out of every
+edges between so coming out of every vertex between every two vertex sets and
+vertex between every two vertex sets and every Edge is in exactly one
+every Edge is in exactly one triangle and there's a nice result of
+Ria and samti in the 70s that says that such a graph if every Edge is containing
+such a graph if every Edge is containing exactly one
+triangle has a subquadratic number of edges so this is a consequence of what's
+edges so this is a consequence of what's known as a triangle removal
+Lama using this result we deduced that the number of edges is little of n^ s
+and hence a has size little over it so that completes the proof of roster of
+course of course most of the content of the proof is sort of hidden in in this
+the proof is sort of hidden in in this result and uh so to the standard proof
+the point of you showing this proof is not necessarily to show you how to prove
+not necessarily to show you how to prove Roser but I want to use this
+Roser but I want to use this construction this graph theoretic
+construction this graph theoretic construction on the previous slide and
+this explanation shows that that construction is related to three- term
+progressions Okay so now I want to explain what is the pseudo Randomness
+explain what is the pseudo Randomness condition that we use in relative samur
+condition that we use in relative samur in particular relative
+Roth so rout of rosm for us says the following if I start with a subset of Z
+following if I start with a subset of Z mod M which satisfies what I will
+mod M which satisfies what I will explain a three linear forms
+condition then a subset of it which is 3 ap3 contains a uh a has necess to be
+ap3 contains a uh a has necess to be sparse relatively speaking to the host
+set and what is this three linear forms condition well if I start with this scph
+condition well if I start with this scph GS so this is the same construction as
+GS so this is the same construction as before except that I build my edges
+based on the set s the host set s so I drawing these edges using basically the
+drawing these edges using basically the same
+rules then the three linear forms condition says that this graph GS is
+condition says that this graph GS is pseudo random in the following
+sense that if I want to count the number of embeddings of k222 so k222 is this
+of embeddings of k222 so k222 is this object
+here then the number of embeddings of k222 should be roughly the same as the
+k222 should be roughly the same as the number of embeddings of k222 into a
+number of embeddings of k222 into a random graph of the same
+density so um if my set s has density P then the density of embeddings of these
+things should be P to the power 12th power up to 1 plus to one multiplicative
+power up to 1 plus to one multiplicative correction we need just a bit
+more we want to say that not just for k222 but also all subgraphs of k222 for
+k222 but also all subgraphs of k222 for example this thing should also have the
+example this thing should also have the correct number of embeddings but that's
+correct number of embeddings but that's it so just saying that these subgraphs
+it so just saying that these subgraphs have the correct number of embeddings
+have the correct number of embeddings that's all the pseudo Randomness
+that's all the pseudo Randomness conditions that we need and this
+conditions that we need and this guarantees this relative Rost so that's
+guarantees this relative Rost so that's the result
+next slide so let me um draw some okay so of course k222 comes out of the proof
+so of course k222 comes out of the proof but just to convince you that a natural
+but just to convince you that a natural condition let me draw some analogies to
+condition let me draw some analogies to some classical results about quasi
+random graphs so in the late 80s of Chong Graham and Wilson have this famous
+Chong Graham and Wilson have this famous result that uh so they explored the
+result that uh so they explored the notion of Quasi randomness in graphs and
+notion of Quasi randomness in graphs and show that there's a number of different
+show that there's a number of different definitions all of which are equivalent
+definitions all of which are equivalent and one that in particular that stands
+and one that in particular that stands out so some of these conditions are I
+counts and so on but there's one condition that stands out is having the
+correct C4 count and just having the correct C4 count is equivalent to a host
+conditions but just for dense graphs so their results only work for dense graphs
+their results only work for dense graphs and they break down if you have sparse
+and they break down if you have sparse graphs
+one way to see our result as an analogy to um this type of result is that if I
+to um this type of result is that if I want to study some extrem or Ry type
+want to study some extrem or Ry type result about a graph H so for the
+purpose of Ross theorem H is a triangle as I we saw earlier in the in the graph
+as I we saw earlier in the in the graph theoretic proof of Ross theem so if I
+theoretic proof of Ross theem so if I want to know some extremal results about
+want to know some extremal results about the triangle in a sparse graph then I
+the triangle in a sparse graph then I have everything I need provided that
+have everything I need provided that there is some host graph
+there is some host graph which behaves pseudo randomly with
+respect to the two blow up of the triangle so that's one way to to to
+triangle so that's one way to to to remember this result and in retrospect
+you can view Chong Graham and Wilson as saying that I have knowledge about dense
+graphs if I know the correct count of the two blow up of a single edge whereas
+the two blow up of a single edge whereas for sparse graphs if I want to know
+for sparse graphs if I want to know something about triangles and to know
+something about triangles and to know the tube blob of a
+the tube blob of a triangle so that's just an analogy
+triangle so that's just an analogy um okay so uh more generally R of semar
+um okay so uh more generally R of semar theorem we have long longer arithmetic
+theorem we have long longer arithmetic progressions but
+kaps says the same thing except I switch out this three linear forms condition by
+out this three linear forms condition by what we call the K linear forms
+condition and that's a natural generalization of this graph theoretic
+construction where now instead of taking graphs I now take a hyper graph so for
+graphs I now take a hyper graph so for example for four term arithmetic
+progressions I built for you a four parti sorry there's no weighted here so
+parti sorry there's no weighted here so four parti a three uniform hyper graph
+four parti a three uniform hyper graph so all the vertex sets are Z mod
+so all the vertex sets are Z mod n i putting my edges according to these
+n i putting my edges according to these rules know very similar to the rules
+rules know very similar to the rules that we saw
+earlier and so these rules are chosen so that uh these linear forms they form a
+that uh these linear forms they form a four-term arithmetic progression so just
+four-term arithmetic progression so just like what we saw earlier and the pseudo
+Randomness condition is that this graph constructed here this hypergraph
+constructed here has the correct count of the two blow up of the Simplex so the
+of the two blow up of the Simplex so the Simplex is the complete three uniform
+Simplex is the complete three uniform graph on four vertices so they're the
+tetrahedron and that's it so it's just the it's a natural generalization of the
+what we saw in the three case for the rest of the talk the so I will just talk
+rest of the talk the so I will just talk about the three AP case uh it turns out
+so if you're familiar with Sam term you know that for in all different proofs of
+know that for in all different proofs of SAR term actually all of the proofs are
+difficult but in all the different proofs the three term case is
+proofs the three term case is substantially easier than the longer uh
+substantially easier than the longer uh version it turns out though for the
+purpose of proving relative samity THM and I'll outline the strategy of the
+proof on the next slide for the purpose of proving relative samur themm there is
+of proving relative samur themm there is no at least the way we do it there's no
+between 3 AP or longer AP the notation gets bit more clumsier which is why I
+gets bit more clumsier which is why I don't want to talk about longer APS but
+don't want to talk about longer APS but the substance of the proof is all
+the substance of the proof is all contained in what I will explain for
+contained in what I will explain for three term arithmetic progressions so
+three term arithmetic progressions so I'll just do three term from that
+one okay um so there's a couple of different
+different approaches we first arrived at this
+um in this paper that titled a relative sumity theorem where we transfer the
+hypergraph removal Lum so this is one of the ways of proving summar the through
+the ways of proving summar the through hypergraph removal Lama and we transfer
+meaning that we assume this hypergraph removal LMA as a black box and transfer
+setting subsequently I found a a different approach of proving more or
+less the same result where instead of transferring a particular particular way
+transferring a particular particular way of proving s the STM transfer s STM
+directly meaning that if you start with any proof of sem STM for example any for
+any proof of sem STM for example any for thetic proof or anything then I can
+thetic proof or anything then I can transfer that proof and its balce down
+transfer that proof and its balce down to the sparse setting and so this is the
+approach that I will explain in this talk it's somewhat more direct whereas
+this hypergraph proof is somewhat more General and it could be applied to some
+other situations and this is is a short note
+situations and this is is a short note okay
+so so here's an outline of what the the proof of relative rosm is so I start
+with relative rthm one way to say is that is that if I fix a Delta then any
+that is that if I fix a Delta then any such set with at least density Delta
+such set with at least density Delta should contain a three- term arithmetic
+should contain a three- term arithmetic progression provided it's always n is
+progression provided it's always n is large
+enough it will be helpful and there's a standard averaging argument to go from
+version where I get not just one 3ap but many 3 APS a quadratic number of 3 APS
+many 3 APS a quadratic number of 3 APS okay so this is a a fairly standard
+okay so this is a a fairly standard argument roughly goes like this if I
+start with a set a that has this density then I just sample a uh AP of length n
+then I just sample a uh AP of length n where n is some large but fixed constant
+where n is some large but fixed constant then by this version I see at least one
+then by this version I see at least one 3 AP but if I keep sampling then I would
+see a quadratic number of of 3 APS so it's a standard sampling
+argument from this counting version then we can prove this relative Ross theorem
+we can prove this relative Ross theorem using the following outline so I start
+using the following outline so I start with a sparse set of um so a sparse set
+with a sparse set of um so a sparse set a contained inside some pseudo random
+a contained inside some pseudo random s the first step we find a dense Model A
+TAA for a where a TAA is an approximation for a in some cut Norm
+later but the main thing to remember here is that a TOA is a dense subset and
+the density of a TOA in Z mod n is roughly the same as the relative density
+roughly the same as the relative density of a in the set
+s and then there will be another step called a counting LMA which will tell us
+called a counting LMA which will tell us that if a TOA is a good approximation
+that if a TOA is a good approximation for a then the number of three term
+in a will be similar to that in a Tilda once you do the appropriate
+normalization but we know from the counting version of Ross theorem that
+counting version of Ross theorem that because a TAA is a dense set that a TAA
+APS and this would then imply that a also contains many 3 APS and that
+also contains many 3 APS and that basically concludes the proof of the
+basically concludes the proof of the relative roster
+right so at this point you already know that a contains many 3 APS and we're
+that a contains many 3 APS and we're pretty much done of course there's you
+pretty much done of course there's you know these two steps and I need to
+know these two steps and I need to explain what are these two
+so so this was the counting version of rerm that we saw earlier that a contains
+rerm that we saw earlier that a contains many three- term arithmetic
+progressions it will be convenient to work with a instead of a discrete
+version a weighted version of rosm where instead of taking sets I now put weights
+instead of taking sets I now put weights on my elements of Z mod
+on my elements of Z mod M um and these two results are
+M um and these two results are equivalent up to a change of constants
+equivalent up to a change of constants so this version says that if I start
+so this version says that if I start with any function on zodan taking values
+with any function on zodan taking values taking bounded
+values then the 3 AP density in my function f right so this expression here
+function f right so this expression here so where if f is a indicator function of
+a set and this is precisely the 3 AP density and the 3 AP density in the
+function f is at least C provided end is large enough so this is just the uh the
+large enough so this is just the uh the weighted relaxation of the usual
+convenient to use this for a couple of reasons one is that in the proof having
+reasons one is that in the proof having weights really helps the second reason
+is that if you actually want to prove the green t the about primes it would be
+the green t the about primes it would be much better to use a weighted uh so
+much better to use a weighted uh so weighted setting where instead of taking
+weighted setting where instead of taking majorizing sets you take majorizing
+measures so from now on we'll switch over to the weighted setting so the
+over to the weighted setting so the functional form of
+everything but this is the weighted version of Roser for dense sets so for
+version of Roser for dense sets so for the dense version so what would the
+sparse version correspond to if I start with some sparse host set
+this corresponds to a normalized measure new where you can think of new
+new where you can think of new corresponding to a set S as the
+corresponding to a set S as the normalized indicator function where I
+normalized indicator function where I just normalize it so that it has
+just normalize it so that it has expectation one so in particular new
+expectation one so in particular new will not be bounded by one so there's a
+scaling that happens here then the subset a of s relatively
+here then the subset a of s relatively dense subset will then correspond
+dense subset will then correspond to a function f which is measured by new
+so this is the condition that corresponds to being a
+corresponds to being a subset
+and F will also have expectation at least Delta so this the condition that
+least Delta so this the condition that corresponds to being relatively
+dense then a relative rosm says the following yeah
+questions okay um so so here's a statement of a relative Ross
+statement of a relative Ross theem if I have
+a major Rising measure new which satisfies the three linear forms
+condition so this is basically the k222 condition that I mentioned earlier but I
+condition that I mentioned earlier but I will say it again on the next
+will say it again on the next slide and any function f which is
+slide and any function f which is majorized by new and the expectation of
+majorized by new and the expectation of f is at least Delta
+f is at least Delta then the 3 AP density in F is bounded
+below so this is the dispar extension of the dense version of
+roster and this three lar forms condition says the following essentially
+condition says the following essentially it's about the density of the k222
+object in yeah
+normalized by theity ah so everything is already normalized so you should think
+already normalized so you should think of this as having constant expectation
+of this as having constant expectation word right so so that's why there's no
+word right so so that's why there's no normalization it's already part of the
+normalization yeah so f is not just indicator function but normalized in the
+indicator function but normalized in the same way that new
+is so the three linear forms condition basically says that the density of k222
+basically says that the density of k222 in this weighted graph right so it's the
+the weighted analog what we saw earlier that this density is correct so
+earlier that this density is correct so 1 plus the toal one and if I just write
+out the whole thing it would say that this expression here is 1 plus l 1 as
+this expression here is 1 plus l 1 as well as if any subset of these 12
+well as if any subset of these 12 factors were
+deleted and this is the complete statement of our result for relative
+Rost okay now how do we prove this result so this is a essentially the same
+result so this is a essentially the same transference slide that we saw earlier
+but now written for the weighted form so I want to prove this about new F and new
+I want to prove this about new F and new so these are sparse
+objects the dense model theorem First Step says that we can approximate this F
+Step says that we can approximate this F in terms of the scut norm by a dense
+in terms of the scut norm by a dense object F TOA so dense basically means
+object F TOA so dense basically means that it's bounded sparse means that it's
+not bounded you want to normalize so everything has constant expectation word
+the second step is a counting LMA which says that if I have this approximation
+then the 3 a density in F should be roughly the same as a 3 a density in F
+version of Ros THM that the 3 AP density in F TOA is bounded from below so this
+in F TOA is bounded from below so this then implies the relative Ross term that
+then implies the relative Ross term that the 3 AP density in F is at least C
+basically okay so let me explain now these two two
+these two two steps first the dense model
+theorem so in what sense does the St Model F TAA approximate the sparse
+Model F TAA approximate the sparse object
+F so in the previous approach uh taken by Green cow they used some notion which
+by Green cow they used some notion which is based on the G uniformity
+is based on the G uniformity Norm our main simplification here is
+that we do not at all use the G uniformity Norm so we use something much
+uniformity Norm so we use something much weaker which is the cut Norm it's also
+discrepancy and the advantage is okay so so how do how do these two approaches
+so so how do how do these two approaches compare the advantage of using the cut
+Norm is that we obtain a much cheaper dense model themm cheaper meaning that
+dense model themm cheaper meaning that we require fewer sud Randomness
+we require fewer sud Randomness hypothesis the expenses that requires a
+hypothesis the expenses that requires a trickier accounting Lama and this is
+trickier accounting Lama and this is really the main technical advents in our
+really the main technical advents in our work that we come up with a new counting
+Lama based on the cut Norm instead of the G uniformity Norm
+okay so what is this U dense model theorem so let me first remind you what
+theorem so let me first remind you what the cut Norm is so if I start with a
+graph between sets X and Y and some weighted graph G so I can Define the cut
+weighted graph G so I can Define the cut Norm of G to be this quantity and
+Norm of G to be this quantity and essentially it says that the cut Norm is
+essentially it says that the cut Norm is small if whenever I take a large set a
+small if whenever I take a large set a and large set B here then the sum of the
+edge weights between A and B is never too large so somehow The Edge weights
+too large so somehow The Edge weights they all cancel out so but precisely
+they all cancel out so but precisely it's this expression here that's the cut
+one from the cut Norm definition for graphs I can define a cut Norm on
+functions on Z mod n so starting from a function on Z mod n
+n so starting from a function on Z mod n basically I construct a bipar graph
+basically I construct a bipar graph where the edge weights are given by
+where the edge weights are given by F evaluated at X+
+Y and then take the cut Norm of that graph so written down it looks like that
+graph so written down it looks like that so it's the cut Norm of this Associated
+so it's the cut Norm of this Associated graph so this this so this is a norm on
+graph so this this so this is a norm on zount n and the dense model theorem then
+zount n and the dense model theorem then says the
+following if I start with a new which satisfies the following actually rather
+satisfies the following actually rather weak Sol this condition which is that
+new is close to one in this cut Norm then every function majorized by
+Norm then every function majorized by new can be approximated by a dense Model
+TOA and this approximation also is in terms of this cut
+Lo okay so that's the dense model theem that we will
+that we will use okay
+right ah so um it happens because of the normalization right so you should think
+normalization right so you should think of the expectation of F and the
+of the expectation of F and the expectation of f TOA as the relative
+so f as a set is sparse but because I start out with new there's a
+start out with new there's a normalization that boosts up the weights
+normalization that boosts up the weights right so when I take the expectation of
+f that's the relative density of f in the host
+the host set
+and them being closed in Cut Norm in particular implies that they're closed
+particular implies that they're closed in the
+expectation so if you just take A and B to be the whole thing that means that
+to be the whole thing that means that they're in particular close in
+they're in particular close in expectation okay
+there so I won't actually show you the proof but let me just outline some of
+proof but let me just outline some of the different approaches so there's a
+there's a more General dense model theorem that applies to uh other norms
+theorem that applies to uh other norms and in particular the original intention
+of green and toal is to apply it to this variant of the G uniformity Norm for the
+variant of the G uniformity Norm for the purpose of proving their result and
+purpose of proving their result and their original approach was to prove
+their original approach was to prove prove this General dense model theorem
+prove this General dense model theorem using using a energy increment type
+using using a energy increment type argument similar to what you would do in
+to prove the regularity Lama Sim regularity
+Lama there was a subsequent simplification due to gaers and
+vadam where they came up with a a very neat proof it's much shorter uh that
+neat proof it's much shorter uh that involves two ingredients the first
+involves two ingredients the first ingredient being a separating hyperplane
+ingredient being a separating hyperplane themm also sometimes known as the honar
+theorem those these guys phrased it as the Minimax theorem roughly they amount
+the Minimax theorem roughly they amount to the same thing and the Second Step
+approximation ter so it's a these are two different approaches and this one is
+two different approaches and this one is considered the simpler approach that was
+considered the simpler approach that was found
+subsequently uh so it's quite simple and that's in fact made even simpler so
+that's in fact made even simpler so there's an additional observation that
+there's an additional observation that says that if you look at this proof and
+Norm then essentially amounts the saying that the Dual objects to the cut Norm is
+that the Dual objects to the cut Norm is closed under multiplication so that's
+closed under multiplication so that's not true for the G uniformity Norm but
+it is true for the cut Norm that the Dual objects are closed under
+Dual objects are closed under multiplication and that really
+simplifies things a lot and that's part of why we get much simpler pseudo
+of why we get much simpler pseudo Randomness
+conditions um so with those observations so we have this form of the dense model
+so we have this form of the dense model theorem that we'll use for relative
+this three linear forms condition so it's in particular implied by the three
+it's I I don't really know how to explain more than just saying that you
+explain more than just saying that you know the cut Norm being small but it is
+it is weaker much weaker than even actually this having small G uniformity
+actually this having small G uniformity nor it's quite big
+okay so uh what about for longer arithmetic progressions so I said I
+arithmetic progressions so I said I won't really go into what longer
+won't really go into what longer arithmetic progressions but but let me
+just say a little bit about what the the correct generalization is let's say for
+correct generalization is let's say for four-term arithmetic progression so we
+saw that this involves a three uniform weighted hyper graph between um and the
+weighted hyper graph between um and the correct generalization of the cut Norm
+correct generalization of the cut Norm that we use here okay so the first thing
+you might come up with is you take subsets of vertices and evaluate the sum
+subsets of vertices and evaluate the sum of the edge weights okay that's not
+thing to do is instead of taking subsets of vertices and now I take a subset of
+pairs so I take an underlying two graph and evaluate the discrepancy on top of
+that two graph and this is a it's a fairly standard thing to do if you ever
+fairly standard thing to do if you ever talk about hypergraph regularity for
+talk about hypergraph regularity for instance but um so so that's the
+instance but um so so that's the generalization for hypergraphs and for
+generalization for hypergraphs and for longer arithmetic progressions but other
+than this everything else is more or less the same
+okay so that was the dense model theorem the Second Step I want to explain
+the Second Step I want to explain essentially the main technical advaning
+n work which is the new counting LMA the sparse counting L it says that if F and
+sparse counting L it says that if F and F TOA are closed in this cut Norm then
+F TOA are closed in this cut Norm then they share a similar 3 AP
+they share a similar 3 AP counts okay so first let me
+counts okay so first let me explain a the classical counting Lama
+explain a the classical counting Lama for the dense setting
+it will be much easier to do this for graphs and you'll see it's a lot more
+graphs and you'll see it's a lot more intuitive so let's you know forget about
+intuitive so let's you know forget about the arithmetic setting for now and just
+the arithmetic setting for now and just think about
+graphs let's say I have two weighted graphs on uh so two tripartite weighted
+graphs on uh so two tripartite weighted graphs G and G TOA first let's think
+graphs G and G TOA first let's think about the dense setting so dense setting
+about the dense setting so dense setting again means that they're bounded The
+again means that they're bounded The Edge weights are
+bounded the triangle counting Lama says that if G and G TOA are close in this
+that if G and G TOA are close in this cut Norm
+then the triangle densities so this is the expression for the triangle density
+the expression for the triangle density the triangle densities of G and G TOA
+are close as long as they're close in Cut nor okay so let me show you how to
+prove this the proof is very short recall the definition of um the
+short recall the definition of um the cut
+Norm one way to phrase it is that if you have G and G TOA then if I restrict this
+have G and G TOA then if I restrict this expectation to any any subsets of
+vertices A and B then this expectation is never more than Epsilon so this is
+is never more than Epsilon so this is just a rephrasing of the definition of
+just a rephrasing of the definition of the cut
+the cut Mark more
+generally I can replace subsets of a of X and Y by functions bounded functions
+X and Y by functions bounded functions on X and
+Y just because if you look at this expression here it's bilinear in these
+expression here it's bilinear in these two factors so it's bilinear in these
+two factors um so if I want to obtain the extreme extrema for this expectation
+allowing myself to vary A and B the best way to do it is to take A and B at their
+then that just becomes a set version so these two versions of the cut Norm are
+these two versions of the cut Norm are equivalent but now let's take a look at
+equivalent but now let's take a look at the triangle count so let me start with
+the triangle count so let me start with the triangle counting G
+I claim that I can swap out one of the the blue factors so blue is the G and
+the blue factors so blue is the G and red is G TAA so I can swap out one of
+the G by G TAA at a cost of at most Epsilon the reason is that if I look at
+the difference between these two expressions here it precisely has this
+expressions here it precisely has this form if I fix a particular value of Z if
+I fix any value of Z then the differ difference has this form so it's bounded
+difference has this form so it's bounded by Epsilon so now I let Z vary then the
+Epsilon this allows me to swap out one of the factors and I can do exactly the
+of the factors and I can do exactly the same thing to the two other
+factors and at the end I obtain that t of G differs from T of G TOA by at most
+of G differs from T of G TOA by at most
+Epsilon and this completes the proof of the triangle counting Lama in the dense
+case now what about the sparse case so sparse as you recall corresponds to when
+sparse as you recall corresponds to when let's say G here is
+let's say G here is unbounded this entire proof breaks down
+unbounded this entire proof breaks down from step one because if I look at the
+difference of these two things then I can't use this condition anymore G is no
+can't use this condition anymore G is no longer bounded so one has to do
+longer bounded so one has to do something else so and this becomes
+something else so and this becomes potentially quite
+tricky so here's our main um technical advance which is the a new sparse
+advance which is the a new sparse triangle counting
+Lama it says that if new satisfies this three linear forms
+three linear forms condition
+meaning well so this is what we saw before this k222 condition then we have
+before this k222 condition then we have a counting LMA provided that one
+a counting LMA provided that one subgraph is majorized by new then the
+subgraph is majorized by new then the other subgraph is
+dense then there's a triangle counting number okay so how does the proof
+work I won't tell you the whole proof but just I'll highlight some of the
+but just I'll highlight some of the elements so there are three main
+elements so there are three main ingredients uh the first is repeated
+ingredients uh the first is repeated applications of the Koshi shorts
+applications of the Koshi shorts inequality so this is a standard
+technique in this area as you know popularized by goers through his for
+I won't go too much into this but it's one of those things where you've seen it
+one of those things where you've seen it done once then you'll recognize it here
+done once then you'll recognize it here there's a lot of Koshi shorts
+there's a lot of Koshi shorts applications okay so the main thing
+applications okay so the main thing which we introduce is this technique
+which we introduce is this technique that we call densification I will
+that we call densification I will explain this on the next
+slide we also um reduce this problem to the dense case that we saw earlier so
+the dense case that we saw earlier so somehow we reduce the the sparse version
+somehow we reduce the the sparse version to the dense version so let me explain
+santifico shorts okay so many applications of Koshi shortz roughly
+applications of Koshi shortz roughly corresponds to each step doubling a
+corresponds to each step doubling a Vertex so there's a square involved
+Vertex so there's a square involved whenever you have a square a Vertex gets
+so if you want to count triangles one of the intermediate steps that you
+the intermediate steps that you get happens to be this four
+cycle right so somehow this is a natural obstacle if you want to count triangles
+obstacle if you want to count triangles you better know how to count this guy
+here okay so this comes up for example if you start with a triangle and then
+if you start with a triangle and then look at one vertex and double that
+vertex as a result of the Koshi shorts so let me explain how do I prove a
+so let me explain how do I prove a counting Lama for counting this for
+counting Lama for counting this for cycle the four CLE cyle is this this um
+here well let's see let me create an auxiliary graph
+see let me create an auxiliary graph called G
+Prime G Prime is defined by this formula but basically what it is is that it
+but basically what it is is that it records the Cod degrees the common
+number of common neighbors it records the Cod degrees between vertices between
+the Cod degrees between vertices between X and
+Y this is by the way where having weights really comes in handy like
+weights really comes in handy like everything else I said before more or
+everything else I said before more or less you can do the same thing without
+less you can do the same thing without weights but this step introducing
+weights but this step introducing weights really helps a
+lot even though we started out with a graph or weighted graph which is
+graph or weighted graph which is sparsely supported and
+unbounded once I take code degrees Things become a lot nicer they become a
+Things become a lot nicer they become a lot smoother so the the code degrees are
+bounded and this is partly because of the solar random
+host set but the point is that the Cod degrees are more or less bounded you can
+degrees are more or less bounded you can think of them as okay they're they're
+think of them as okay they're they're basically bounded almost all the time
+basically bounded almost all the time and so let's just think about think
+about the G Prime as a bounded graph this allows me to replace two of
+graph this allows me to replace two of these factors by a g Prime and now I've
+these factors by a g Prime and now I've arrived at this expression here which is
+arrived at this expression here which is a triangle count expression so we when
+a triangle count expression so we when from initially counting triangles and I
+from initially counting triangles and I said that through some koshy shorts one
+said that through some koshy shorts one of the things to reduce the counting is
+of the things to reduce the counting is a for cycle and through this reduction
+a for cycle and through this reduction we've somehow gone back to counting a
+we've somehow gone back to counting a triangle so at first it seems like we've
+gone back in a loop but we gained something really important which is that
+something really important which is that we swapped out one of the pairs which
+was initially spared by something which behaves like a dense
+graph now just do it three more times oh two more times right do it two
+times oh two more times right do it two more times and then we've reduced the
+whole problem to the dense version of the triangle counting Lama which we know
+the triangle counting Lama which we know how to
+do okay so then this is the rough outline and this the main idea main new
+outline and this the main idea main new idea in the proof of the triangle
+counting okay so this is a outline of the proof of
+roster so I explained to you what the dense model theorem is about and also
+dense model theorem is about and also showed you some aspects of the counting
+showed you some aspects of the counting LMA and then combining everything you
+LMA and then combining everything you get a proof and the whole thing is not
+long so of course no I don't have time to go into all the details of this proof
+to go into all the details of this proof but if you want to learn about the
+but if you want to learn about the details so we're finishing up an
+exposition uh of the green t theem where we give a a gentle Exposition containing
+we give a a gentle Exposition containing a complete and a self-contained proof of
+a complete and a self-contained proof of the green tole
+theorem also including some the the prime uh the number thetic estimates
+with one caveat so we have to assume sem ter so that's a that's a heavy gun that
+ter so that's a that's a heavy gun that you're not going to be able to prove in
+you're not going to be able to prove in this short Exposition and it will be
+this short Exposition and it will be around 25 pages so we're finishing this
+around 25 pages so we're finishing this up as we speak and hopefully it should
+up as we speak and hopefully it should come out really really soon and um so so
+come out really really soon and um so so if you want to learn more about this
+if you want to learn more about this proof so that hopefully will put on the
+proof so that hopefully will put on the archive within the next couple weeks or
+archive within the next couple weeks or so and with that I want to thank you for
+your attention [Applause]

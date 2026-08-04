@@ -1,0 +1,2357 @@
+[
+  {
+    "t_start": 0.06,
+    "t_end": 5.72,
+    "text": "KR: Well, the usual way that people, um, discuss it is to talk about perfect squares first."
+  },
+  {
+    "t_start": 6.06,
+    "t_end": 9.599,
+    "text": "So, if you have studied the Pythagorean Theorem"
+  },
+  {
+    "t_start": 9.599,
+    "t_end": 14.69,
+    "text": "there's a formula that the square of the hypotenuse is the sum of the two squares of the"
+  },
+  {
+    "t_start": 14.69,
+    "t_end": 18.58,
+    "text": "sides of a right triangle. So you might ask if the, err,"
+  },
+  {
+    "t_start": 18.58,
+    "t_end": 21.72,
+    "text": "the sides of a right triangle are whole numbers"
+  },
+  {
+    "t_start": 21.72,
+    "t_end": 25.0,
+    "text": "might it happen that the hypotenuse"
+  },
+  {
+    "t_start": 25.0,
+    "t_end": 29.269,
+    "text": "is also a whole number. They're called Pythagorean triples and the Greeks"
+  },
+  {
+    "t_start": 29.269,
+    "t_end": 34.12,
+    "text": "figured out all of the Pythagorean Triples. Okay, so what happened next is"
+  },
+  {
+    "t_start": 34.12,
+    "t_end": 37.92,
+    "text": "I think it must have been very natural to look at the equation"
+  },
+  {
+    "t_start": 37.92,
+    "t_end": 45.469,
+    "text": "A to the fourth plus B fourth equals C to the fourth."
+  },
+  {
+    "t_start": 45.469,
+    "t_end": 49.079,
+    "text": "And so on. So, this is now in the realm of algebra"
+  },
+  {
+    "t_start": 49.079,
+    "t_end": 52.89,
+    "text": "and you can plug in values for 'A' and 'B' you'll see that, err,"
+  },
+  {
+    "t_start": 52.89,
+    "t_end": 56.64,
+    "text": "these equations, infinite number of equations, seem"
+  },
+  {
+    "t_start": 56.64,
+    "t_end": 60.92,
+    "text": "not to have solutions. Well, so the story is that"
+  },
+  {
+    "t_start": 60.92,
+    "t_end": 64.9,
+    "text": "Fermat was reading the text of Diophantus,"
+  },
+  {
+    "t_start": 64.9,
+    "t_end": 69.1,
+    "text": "who was the Greek mathematician best known for this type of problem."
+  },
+  {
+    "t_start": 69.1,
+    "t_end": 72.6,
+    "text": "And in the margin of his copy"
+  },
+  {
+    "t_start": 72.6,
+    "t_end": 76.31,
+    "text": "of Diophantus, he wrote some marginal note saying"
+  },
+  {
+    "t_start": 76.31,
+    "t_end": 80.28,
+    "text": "that I can prove it for higher exponents bigger than two there are no positive"
+  },
+  {
+    "t_start": 80.28,
+    "t_end": 81.38,
+    "text": "integer solutions"
+  },
+  {
+    "t_start": 81.38,
+    "t_end": 84.4,
+    "text": "and then famously he said but my solution"
+  },
+  {
+    "t_start": 84.4,
+    "t_end": 87.7,
+    "text": "is too long to write in this margin."
+  },
+  {
+    "t_start": 87.7,
+    "t_end": 91.03,
+    "text": "And in his copy of Diophantus which was"
+  },
+  {
+    "t_start": 91.03,
+    "t_end": 94.72,
+    "text": "inherited by Fermat's son Samuel de Fermat"
+  },
+  {
+    "t_start": 94.729,
+    "t_end": 98.92,
+    "text": "there are many, many marginal notes and Samuel published a revised version,"
+  },
+  {
+    "t_start": 98.93,
+    "t_end": 102.13,
+    "text": "annotated version of Diophatus's"
+  },
+  {
+    "t_start": 102.13,
+    "t_end": 105.95,
+    "text": "Book in which all his father's writings are"
+  },
+  {
+    "t_start": 105.95,
+    "t_end": 110.94,
+    "text": "reproduced. And the reason that Fermat's Last Theorem was called Fermat's Last"
+  },
+  {
+    "t_start": 110.94,
+    "t_end": 116.24,
+    "text": "Theorem, is that all the previously on examined marginal notes"
+  },
+  {
+    "t_start": 116.24,
+    "t_end": 120.77,
+    "text": "proved to be correct for they were, ermm"
+  },
+  {
+    "t_start": 120.77,
+    "t_end": 123.799,
+    "text": "prove to be correct or incorrect mostly correct by"
+  },
+  {
+    "t_start": 123.799,
+    "t_end": 127.53,
+    "text": "mathematicians after the seventeenth-century and there was this"
+  },
+  {
+    "t_start": 127.53,
+    "t_end": 132.75,
+    "text": "only one assertion that remained it was the last one was hit list."
+  },
+  {
+    "t_start": 132.75,
+    "t_end": 135.879,
+    "text": "And you know again, I'm not an expert in"
+  },
+  {
+    "t_start": 135.879,
+    "t_end": 138.95,
+    "text": "the history of mathematics but I think most people"
+  },
+  {
+    "t_start": 138.95,
+    "t_end": 144.43,
+    "text": "are convinced that when Fermat was a mature mathematician he realized he"
+  },
+  {
+    "t_start": 144.43,
+    "t_end": 145.66,
+    "text": "did have no proof"
+  },
+  {
+    "t_start": 145.66,
+    "t_end": 149.37,
+    "text": "of this thing that he wrote in the marginal note and in fact"
+  },
+  {
+    "t_start": 149.37,
+    "t_end": 152.9,
+    "text": "later in his life he devoted a lot of attention"
+  },
+  {
+    "t_start": 152.9,
+    "t_end": 156.31,
+    "text": "to special cases of that type of equation."
+  },
+  {
+    "t_start": 156.31,
+    "t_end": 159.96,
+    "text": "It's not just the cubes but it's the cubes the fourth powers and the fifth powers"
+  },
+  {
+    "t_start": 159.96,
+    "t_end": 160.58,
+    "text": "and so on."
+  },
+  {
+    "t_start": 160.59,
+    "t_end": 163.9,
+    "text": "And Fermat himself later in his life"
+  },
+  {
+    "t_start": 163.9,
+    "t_end": 165.38,
+    "text": "took care the fourth powers."
+  },
+  {
+    "t_start": 165.38,
+    "t_end": 167.68,
+    "text": "Well, the cubes certainly must've"
+  },
+  {
+    "t_start": 167.68,
+    "t_end": 171.26,
+    "text": "bothered him because after all he knew about squares and he knew about fourth"
+  },
+  {
+    "t_start": 171.26,
+    "t_end": 172.51,
+    "text": "powers and cubes,"
+  },
+  {
+    "t_start": 172.51,
+    "t_end": 173.56,
+    "text": "you know, right in the middle."
+  },
+  {
+    "t_start": 173.56,
+    "t_end": 176.84,
+    "text": "BH: The theory is that there is no solution."
+  },
+  {
+    "t_start": 176.84,
+    "t_end": 177.98,
+    "text": "There's no whole number solution."
+  },
+  {
+    "t_start": 177.98,
+    "t_end": 179.1,
+    "text": "KR: That's right."
+  },
+  {
+    "t_start": 179.1,
+    "t_end": 182.26,
+    "text": "BH: Would it have been or wouldn't it have been more exciting or more"
+  },
+  {
+    "t_start": 182.26,
+    "t_end": 184.099,
+    "text": "attractive to a mathematician"
+  },
+  {
+    "t_start": 184.1,
+    "t_end": 188.48,
+    "text": "to prove him wrong and to find these three numbers that you could plug in that would"
+  },
+  {
+    "t_start": 188.48,
+    "t_end": 191.34,
+    "text": "do it? Would that have been more triumphant?"
+  },
+  {
+    "t_start": 191.5,
+    "t_end": 193.04,
+    "text": "KR: Well, it would have been-"
+  },
+  {
+    "t_start": 193.06,
+    "t_end": 196.12,
+    "text": "would have been very exciting and would have made lots of news."
+  },
+  {
+    "t_start": 196.12,
+    "t_end": 200.4,
+    "text": "And then the proof, so to speak, would have been simply"
+  },
+  {
+    "t_start": 200.4,
+    "t_end": 203.62,
+    "text": "on a single counter-example that would have fit,"
+  },
+  {
+    "t_start": 203.639,
+    "t_end": 207.04,
+    "text": "you know, very neatly in a newspaper column, you known, there would have been"
+  },
+  {
+    "t_start": 207.04,
+    "t_end": 208.239,
+    "text": "some story, you know."
+  },
+  {
+    "t_start": 208.24,
+    "t_end": 212.12,
+    "text": "'Mathematician in Australia finds the first counter-example to Fermat's Last"
+  },
+  {
+    "t_start": 212.16,
+    "t_end": 214.54,
+    "text": "Theorem'.  Certainly was big news either way."
+  },
+  {
+    "t_start": 214.54,
+    "t_end": 218.5,
+    "text": "Ermm, the main thing about Fermat's Last Theorem is that over the centuries it"
+  },
+  {
+    "t_start": 218.5,
+    "t_end": 220.7,
+    "text": "gave rise to a tremendous amount"
+  },
+  {
+    "t_start": 220.7,
+    "t_end": 225.7,
+    "text": "of new, and fruitful mathematics. That people really develop new techniques to try to"
+  },
+  {
+    "t_start": 225.709,
+    "t_end": 227.22,
+    "text": "solve that equation"
+  },
+  {
+    "t_start": 227.22,
+    "t_end": 230.39,
+    "text": "that proved to be, you know,"
+  },
+  {
+    "t_start": 230.39,
+    "t_end": 234.0,
+    "text": "infinitely versatile. BH: So a bit like going to the moon and let[ting] them develop other"
+  },
+  {
+    "t_start": 234.0,
+    "t_end": 236.6,
+    "text": "lots of other technologies along the way. This was for"
+  },
+  {
+    "t_start": 236.6,
+    "t_end": 239.9,
+    "text": "going to the moon. KR: That's a-that's a fine analogy. I mean,"
+  },
+  {
+    "t_start": 239.9,
+    "t_end": 244.38,
+    "text": "you, when you formulate a problem in mathematics no one knows"
+  },
+  {
+    "t_start": 244.38,
+    "t_end": 249.68,
+    "text": "whether this problem will really be helpful for mathematics as a general enterprise."
+  },
+  {
+    "t_start": 250.12,
+    "t_end": 253.35,
+    "text": "And, you know, for whatever reason Fermat's equation"
+  },
+  {
+    "t_start": 253.35,
+    "t_end": 257.94,
+    "text": "has led to tremendous amount of- of new mathematics"
+  },
+  {
+    "t_start": 259.6,
+    "t_end": 264.33,
+    "text": "KR: So, when I was a graduate student. We're talking, you know, roughly forty years ago or"
+  },
+  {
+    "t_start": 264.33,
+    "t_end": 267.819,
+    "text": "forty-five years ago. Fermat's Last Theorem was kinda"
+  },
+  {
+    "t_start": 267.819,
+    "t_end": 272.599,
+    "text": "some curiosity. Everybody knew about the problem but no one really had any"
+  },
+  {
+    "t_start": 272.599,
+    "t_end": 275.629,
+    "text": "approach to it and there was no"
+  },
+  {
+    "t_start": 275.629,
+    "t_end": 280.2,
+    "text": "kinda fundamental reason why the problem was going to have a positive solution."
+  },
+  {
+    "t_start": 280.2,
+    "t_end": 285.0,
+    "text": "And when I was a student there was a tremendous interest in what are called"
+  },
+  {
+    "t_start": 285.0,
+    "t_end": 288.05,
+    "text": "elliptic curves and it was realized"
+  },
+  {
+    "t_start": 288.05,
+    "t_end": 291.96,
+    "text": "around nineteen sixty-eight, nineteen sixty-nine, nineteen seventy"
+  },
+  {
+    "t_start": 291.96,
+    "t_end": 295.56,
+    "text": "by André Weil and Goro Shimura in Princeton"
+  },
+  {
+    "t_start": 295.56,
+    "t_end": 299.22,
+    "text": "who built on work of Yutaka Taniyama who was his"
+  },
+  {
+    "t_start": 299.22,
+    "t_end": 302.56,
+    "text": "buddy in Tokyo in the nineteen-fifties. Taniyama"
+  },
+  {
+    "t_start": 302.56,
+    "t_end": 306.82,
+    "text": "had passed away and there was this gradual understanding that elliptic"
+  },
+  {
+    "t_start": 306.82,
+    "t_end": 308.46,
+    "text": "curves really were related"
+  },
+  {
+    "t_start": 308.46,
+    "t_end": 311.669,
+    "text": "modular forms and again that was some completely"
+  },
+  {
+    "t_start": 311.669,
+    "t_end": 315.14,
+    "text": "are apparently inaccessible outstanding conjecture"
+  },
+  {
+    "t_start": 315.14,
+    "t_end": 318.3,
+    "text": "analysts thought to be incredibly hard conjecture. And then"
+  },
+  {
+    "t_start": 318.3,
+    "t_end": 322.16,
+    "text": "in the early nineteen-eighties a mathematician came around, and I say that"
+  },
+  {
+    "t_start": 322.16,
+    "t_end": 324.78,
+    "text": "literally because you know he was sitting here in this office"
+  },
+  {
+    "t_start": 324.78,
+    "t_end": 329.46,
+    "text": "his name is Gerhard Frey. At the time he was at the University"
+  },
+  {
+    "t_start": 329.46,
+    "t_end": 333.48,
+    "text": "of Saarland in Saarbrücken on"
+  },
+  {
+    "t_start": 333.5,
+    "t_end": 335.64,
+    "text": "and he came-  BH: Is that a famous one? I don't know that one."
+  },
+  {
+    "t_start": 335.64,
+    "t_end": 340.14,
+    "text": "KR: Well, um, I didn't know it either and came around and he had"
+  },
+  {
+    "t_start": 340.14,
+    "t_end": 344.5,
+    "text": "the scheme for relating Fermat's Last Theorem"
+  },
+  {
+    "t_start": 344.5,
+    "t_end": 347.52,
+    "text": "and the modularity conjecture. Somehow he"
+  },
+  {
+    "t_start": 347.52,
+    "t_end": 351.28,
+    "text": "realized for the first time that,"
+  },
+  {
+    "t_start": 351.28,
+    "t_end": 356.08,
+    "text": "um, if- if he had a solution to Fermat's equation"
+  },
+  {
+    "t_start": 356.08,
+    "t_end": 360.38,
+    "text": "this would give him an elliptic curve which apparently"
+  },
+  {
+    "t_start": 360.38,
+    "t_end": 363.93,
+    "text": "could never be modular. I was a little skeptical"
+  },
+  {
+    "t_start": 363.93,
+    "t_end": 368.23,
+    "text": "because I knew that some of the things that he said"
+  },
+  {
+    "t_start": 368.23,
+    "t_end": 372.08,
+    "text": "that he needed in his argument, um, were very hard."
+  },
+  {
+    "t_start": 372.08,
+    "t_end": 375.36,
+    "text": "Well, for me a really important thing was"
+  },
+  {
+    "t_start": 375.36,
+    "t_end": 379.1,
+    "text": "in nineteen eighty-five Jean-Pierre Serre, who was"
+  },
+  {
+    "t_start": 379.1,
+    "t_end": 384.54,
+    "text": "one of my mathematical heroes in Paris sat down and kind of tried to"
+  },
+  {
+    "t_start": 384.54,
+    "t_end": 387.64,
+    "text": "distill everything that had been said about the Prey's idea"
+  },
+  {
+    "t_start": 387.64,
+    "t_end": 390.72,
+    "text": "and he came out with a very clear"
+  },
+  {
+    "t_start": 390.72,
+    "t_end": 395.81,
+    "text": "letter and this letter basically said if you can prove this tiny little result"
+  },
+  {
+    "t_start": 395.81,
+    "t_end": 397.9,
+    "text": "which he called epsilon because the number"
+  },
+  {
+    "t_start": 397.9,
+    "t_end": 403.54,
+    "text": "in calculus, epsilon is a small number. He said if you can prove this tiny little epsilon"
+  },
+  {
+    "t_start": 403.66,
+    "t_end": 407.94,
+    "text": "then you can really show that on the modularity conjecture, which he called"
+  },
+  {
+    "t_start": 407.94,
+    "t_end": 409.08,
+    "text": "Weil at the time,"
+  },
+  {
+    "t_start": 409.08,
+    "t_end": 412.22,
+    "text": "implies Fermat's Last Theorem. So, epsilon"
+  },
+  {
+    "t_start": 412.22,
+    "t_end": 416.34,
+    "text": "became, for me, a holy grail because"
+  },
+  {
+    "t_start": 416.34,
+    "t_end": 420.0,
+    "text": "not only was it something fairly well encapsulated and very"
+  },
+  {
+    "t_start": 420.0,
+    "t_end": 423.65,
+    "text": "clear, and this was the kind of thing that I'd thought about before"
+  },
+  {
+    "t_start": 423.65,
+    "t_end": 428.31,
+    "text": "without success but nonetheless while thinking about yet another"
+  },
+  {
+    "t_start": 428.31,
+    "t_end": 433.09,
+    "text": "problem, it occurred to me that I really had some new information that I could"
+  },
+  {
+    "t_start": 433.09,
+    "t_end": 436.5,
+    "text": "possibly bring to bear on this epsilon."
+  },
+  {
+    "t_start": 436.5,
+    "t_end": 440.92,
+    "text": "When I first did was say to myself: \"What's the simplest possible case where I can"
+  },
+  {
+    "t_start": 440.92,
+    "t_end": 443.66,
+    "text": "think about this? What's the simplest possible prediction?\""
+  },
+  {
+    "t_start": 443.66,
+    "t_end": 447.45,
+    "text": "I tried to settle that. I said \"Well, you know, if you have to start somewhere."
+  },
+  {
+    "t_start": 447.45,
+    "t_end": 450.9,
+    "text": "can I-\" Well, I know about this simplest case"
+  },
+  {
+    "t_start": 450.9,
+    "t_end": 454.22,
+    "text": "so I have this thing in my mind and I thought about it,"
+  },
+  {
+    "t_start": 454.22,
+    "t_end": 457.31,
+    "text": "off and on, during the academic year-"
+  },
+  {
+    "t_start": 457.31,
+    "t_end": 458.96,
+    "text": "nineteen eighty-five and eighty-six."
+  },
+  {
+    "t_start": 459.66,
+    "t_end": 463.46,
+    "text": "And during this year I was teaching calculus and I was busy with things, there are,"
+  },
+  {
+    "t_start": 463.48,
+    "t_end": 467.72,
+    "text": "you know, colleagues come in and they want you to be on committees. And finally, um,"
+  },
+  {
+    "t_start": 467.72,
+    "t_end": 473.99,
+    "text": "my final grades were submitted in May nineteen eighty-six and I started thinking about this"
+  },
+  {
+    "t_start": 473.99,
+    "t_end": 477.25,
+    "text": "problem again, first when I was on the east coast for a while,"
+  },
+  {
+    "t_start": 477.25,
+    "t_end": 482.73,
+    "text": "going to Europe on and I found myself in Paris. And finally I found myself"
+  },
+  {
+    "t_start": 482.73,
+    "t_end": 486.41,
+    "text": "at an empty desk and on the Max Planck Institute in Bonn"
+  },
+  {
+    "t_start": 486.41,
+    "t_end": 489.87,
+    "text": "where I can just sit and think and I thought about this"
+  },
+  {
+    "t_start": 489.87,
+    "t_end": 494.14,
+    "text": "yet again - BH: Is that what you do? Do you just sit at a desk with your head and your hands, and"
+  },
+  {
+    "t_start": 494.14,
+    "t_end": 497.93,
+    "text": "think, think, think, I mean - what if I was a fly on the wall"
+  },
+  {
+    "t_start": 497.93,
+    "t_end": 501.62,
+    "text": "when you were trying to crack this problem. What would I have seen? What was it looked like?"
+  },
+  {
+    "t_start": 501.62,
+    "t_end": 505.17,
+    "text": "Well, it's probably not have probably had a pad of paper in front of me and a"
+  },
+  {
+    "t_start": 505.17,
+    "t_end": 505.98,
+    "text": "pencil"
+  },
+  {
+    "t_start": 505.98,
+    "t_end": 511.32,
+    "text": "or a pen we didn't really have computers quite yet although they were starting to come,"
+  },
+  {
+    "t_start": 511.4,
+    "t_end": 514.78,
+    "text": "and when you visit some institute you don't have all your stuff with you don't"
+  },
+  {
+    "t_start": 514.88,
+    "t_end": 518.74,
+    "text": "have lots of books you don't have all your paraphernalia. So I was really just kind"
+  },
+  {
+    "t_start": 518.74,
+    "t_end": 519.55,
+    "text": "of sitting there"
+  },
+  {
+    "t_start": 519.55,
+    "t_end": 522.55,
+    "text": "like that, and I started writing, you know. And I-"
+  },
+  {
+    "t_start": 522.55,
+    "t_end": 526.8,
+    "text": "If you look in my office you'll find lots of old pads where I sit and write,"
+  },
+  {
+    "t_start": 526.8,
+    "t_end": 530.07,
+    "text": "and, you know, a page might start what do we know what are we trying to do"
+  },
+  {
+    "t_start": 530.07,
+    "t_end": 533.55,
+    "text": "summarize the situation so far. \"Let's- let's try this\","
+  },
+  {
+    "t_start": 533.55,
+    "t_end": 536.6,
+    "text": "and to my astonishment,"
+  },
+  {
+    "t_start": 536.6,
+    "t_end": 541.76,
+    "text": "I was finally able to-"
+  },
+  {
+    "t_start": 541.76,
+    "t_end": 544.86,
+    "text": "to cracked that problem - the simplest case of that epsilon."
+  },
+  {
+    "t_start": 545.06,
+    "t_end": 550.86,
+    "text": "BH: It's like inspiration comes at preordained times. Like you sit down and say, okay"
+  },
+  {
+    "t_start": 550.86,
+    "t_end": 554.16,
+    "text": "for the next two hours before I make my friend Bob a hot dog,"
+  },
+  {
+    "t_start": 554.16,
+    "t_end": 558.04,
+    "text": "I'm gonna have an inspiration and trying to solve the problem, and that's when it happens. It doesn't"
+  },
+  {
+    "t_start": 558.12,
+    "t_end": 563.04,
+    "text": "happen on time, so you're lying on bed- Oh it can, I mean, if you if you think about something very"
+  },
+  {
+    "t_start": 563.04,
+    "t_end": 566.17,
+    "text": "intensively then you can just carry around with you"
+  },
+  {
+    "t_start": 566.17,
+    "t_end": 570.03,
+    "text": "and you know lots of my colleagues say that while they're swimming"
+  },
+  {
+    "t_start": 570.03,
+    "t_end": 573.81,
+    "text": "had some insight or you know lots of people say in the middle of the night"
+  },
+  {
+    "t_start": 573.81,
+    "t_end": 577.26,
+    "text": "they jumped up and they said my god you know why don't I try a minus sign instead of"
+  },
+  {
+    "t_start": 577.26,
+    "t_end": 578.06,
+    "text": "instead of a plus sign"
+  },
+  {
+    "t_start": 578.06,
+    "t_end": 581.68,
+    "text": "and this- this can indeed happen, you know."
+  },
+  {
+    "t_start": 581.68,
+    "t_end": 583.47,
+    "text": "BH: Not for you though. You are an at-the-desk kind of guy?"
+  },
+  {
+    "t_start": 583.47,
+    "t_end": 586.649,
+    "text": "I-I think in this particular situation I was at the desk"
+  },
+  {
+    "t_start": 586.649,
+    "t_end": 589.75,
+    "text": "I knew for the first time that"
+  },
+  {
+    "t_start": 589.75,
+    "t_end": 592.94,
+    "text": "I could do something that I hadn't done before"
+  },
+  {
+    "t_start": 592.94,
+    "t_end": 596.839,
+    "text": "that no one had done before. This is a special case is this so-called"
+  },
+  {
+    "t_start": 596.839,
+    "t_end": 602.05,
+    "text": "epsilon, And I kinda wrote and rewrote it just to make sure I was really right."
+  },
+  {
+    "t_start": 602.05,
+    "t_end": 606.82,
+    "text": "And finally, using a very first Macintosh that I had access to"
+  },
+  {
+    "t_start": 606.82,
+    "t_end": 610.04,
+    "text": "I typed out a letter to Barry Mazur at Harvard,"
+  },
+  {
+    "t_start": 610.06,
+    "t_end": 612.62,
+    "text": "and I sent him this letter explaining what I had done."
+  },
+  {
+    "t_start": 612.63,
+    "t_end": 621.21,
+    "text": "the general case. I couldn't see what to do and then fortunately,"
+  },
+  {
+    "t_start": 621.21,
+    "t_end": 624.85,
+    "text": "there was an international congress of mathematicians."
+  },
+  {
+    "t_start": 624.85,
+    "t_end": 628.18,
+    "text": "They occur once every four years on the campus"
+  },
+  {
+    "t_start": 628.18,
+    "t_end": 631.75,
+    "text": "of UC Berkeley. So I was right here. I came back in August"
+  },
+  {
+    "t_start": 631.75,
+    "t_end": 635.459,
+    "text": "for this International Congress and Barry Mazur was there."
+  },
+  {
+    "t_start": 635.459,
+    "t_end": 638.47,
+    "text": "And on I spoke to him,"
+  },
+  {
+    "t_start": 638.47,
+    "t_end": 643.329,
+    "text": "and I said Barry I sent you this letter explaining how I did a special case, and"
+  },
+  {
+    "t_start": 643.329,
+    "t_end": 646.829,
+    "text": "I really wonder, you know, what I have to do now in the general case."
+  },
+  {
+    "t_start": 646.829,
+    "t_end": 650.55,
+    "text": "And he looked at me completely quizzically. He said: \"Well, you've already done the"
+  },
+  {
+    "t_start": 650.55,
+    "t_end": 651.399,
+    "text": "general case.\""
+  },
+  {
+    "t_start": 651.399,
+    "t_end": 654.459,
+    "text": "and basically, he-"
+  },
+  {
+    "t_start": 654.459,
+    "t_end": 658.51,
+    "text": "when he read my letter to seemed obvious to him that there was this extra little thing"
+  },
+  {
+    "t_start": 658.51,
+    "t_end": 663.399,
+    "text": "you carry alone as a supplemental object. And this extra thing which is"
+  },
+  {
+    "t_start": 663.399,
+    "t_end": 666.52,
+    "text": "do the bookkeeping. And,"
+  },
+  {
+    "t_start": 666.52,
+    "t_end": 670.79,
+    "text": "so we sat down at this Caffe Strada which is at the corner of the"
+  },
+  {
+    "t_start": 670.79,
+    "t_end": 673.91,
+    "text": "Berkeley campus, and we had a Cappuccino and he"
+  },
+  {
+    "t_start": 673.91,
+    "t_end": 676.7,
+    "text": "kinda said well you just carry this and run with you"
+  },
+  {
+    "t_start": 676.72,
+    "t_end": 680.42,
+    "text": "and I was astonished you know it's like this"
+  },
+  {
+    "t_start": 680.43,
+    "t_end": 683.51,
+    "text": "amazing moment were all the sudden I realized"
+  },
+  {
+    "t_start": 683.51,
+    "t_end": 688.0,
+    "text": "that in principle at least there was no obstacle to proving this"
+  },
+  {
+    "t_start": 688.0,
+    "t_end": 692.27,
+    "text": "epsilon conjecture. I mean, it like, you know, my god, you know, it's some"
+  },
+  {
+    "t_start": 692.27,
+    "t_end": 696.24,
+    "text": "special thing, you know, an angel comes down and the light shines from the heavens"
+  },
+  {
+    "t_start": 696.24,
+    "t_end": 700.12,
+    "text": "or something. So this was really quite a thing"
+  },
+  {
+    "t_start": 700.12,
+    "t_end": 703.36,
+    "text": "and on since or my colleagues"
+  },
+  {
+    "t_start": 703.36,
+    "t_end": 708.13,
+    "text": "were walking around the campus in this big international congress I"
+  },
+  {
+    "t_start": 708.13,
+    "t_end": 711.13,
+    "text": "kind of told, you know, a number of them that"
+  },
+  {
+    "t_start": 711.13,
+    "t_end": 716.63,
+    "text": "I have done this thing. You know of course in beginning I was cautious I said well"
+  },
+  {
+    "t_start": 716.63,
+    "t_end": 721.3,
+    "text": "I think I've done this thing, and- but people kept"
+  },
+  {
+    "t_start": 721.3,
+    "t_end": 725.17,
+    "text": "running up to me. They said was it really true you've done epsilon? I"
+  },
+  {
+    "t_start": 725.17,
+    "t_end": 728.3,
+    "text": "lived in a world and think I still do were"
+  },
+  {
+    "t_start": 728.3,
+    "t_end": 732.5,
+    "text": "my colleagues are very generous with attributions and praise and there isn't"
+  },
+  {
+    "t_start": 732.5,
+    "t_end": 735.73,
+    "text": "too much of this kinda race to be the first to publish and"
+  },
+  {
+    "t_start": 735.73,
+    "t_end": 740.56,
+    "text": "people basically- I had little fear that someone would try to scoop me"
+  },
+  {
+    "t_start": 740.56,
+    "t_end": 743.77,
+    "text": "on the other hand what was a little worrisome"
+  },
+  {
+    "t_start": 743.77,
+    "t_end": 748.85,
+    "text": "was that I hadn't written down all the details, you know, so I kinda written down"
+  },
+  {
+    "t_start": 748.85,
+    "t_end": 752.16,
+    "text": "very closely the special case. But"
+  },
+  {
+    "t_start": 752.16,
+    "t_end": 756.06,
+    "text": "I hadn't kind of worried about writing thing more generally"
+  },
+  {
+    "t_start": 756.06,
+    "t_end": 759.76,
+    "text": "so what happened was that during the year"
+  },
+  {
+    "t_start": 759.76,
+    "t_end": 762.77,
+    "text": "following that, nineteen 86-87"
+  },
+  {
+    "t_start": 762.77,
+    "t_end": 767.83,
+    "text": "there was a special program on algebraic geometry and arithmetic geometry"
+  },
+  {
+    "t_start": 767.83,
+    "t_end": 770.93,
+    "text": "at the Mathematical Sciences Research Institute in Berkeley,"
+  },
+  {
+    "t_start": 770.93,
+    "t_end": 774.52,
+    "text": "the MSRI. So I was up there with my callings and"
+  },
+  {
+    "t_start": 774.52,
+    "t_end": 778.58,
+    "text": "I gave lectures every week I gave another lecture I was kinda giving like"
+  },
+  {
+    "t_start": 778.58,
+    "t_end": 779.56,
+    "text": "a min course on"
+  },
+  {
+    "t_start": 779.56,
+    "t_end": 782.12,
+    "text": "my proof and"
+  },
+  {
+    "t_start": 782.12,
+    "t_end": 785.54,
+    "text": "when I wasn't lecturing I was furiously typing"
+  },
+  {
+    "t_start": 785.54,
+    "t_end": 789.88,
+    "text": "into the computer to try to expand and revise"
+  },
+  {
+    "t_start": 789.88,
+    "t_end": 794.44,
+    "text": "my manuscript in kinda more and more details got put in."
+  },
+  {
+    "t_start": 794.44,
+    "t_end": 798.66,
+    "text": "There were certainly people in the audience who were appropriately"
+  },
+  {
+    "t_start": 798.66,
+    "t_end": 802.04,
+    "text": "skeptical. They asked me hard questions and I didn't always know the answer to our"
+  },
+  {
+    "t_start": 802.04,
+    "t_end": 803.12,
+    "text": "questions you know"
+  },
+  {
+    "t_start": 803.12,
+    "t_end": 806.21,
+    "text": "like \"How do we really know that this thing is in"
+  },
+  {
+    "t_start": 806.21,
+    "t_end": 810.77,
+    "text": "such-and-such way\", and I would say well you know this was proved in the"
+  },
+  {
+    "t_start": 810.77,
+    "t_end": 812.08,
+    "text": "1960s by Grothendieck but it"
+  },
+  {
+    "t_start": 812.08,
+    "t_end": 815.45,
+    "text": "isn't quite written down in the place you expect"
+  },
+  {
+    "t_start": 815.45,
+    "t_end": 820.25,
+    "text": "then I have find the argument. Well epsilon is small. It was clearly a misnomer."
+  },
+  {
+    "t_start": 820.25,
+    "t_end": 823.41,
+    "text": "And let me just get up and pull off a"
+  },
+  {
+    "t_start": 823.41,
+    "t_end": 827.94,
+    "text": "reprint. Here's my article. It was published in 1990"
+  },
+  {
+    "t_start": 827.94,
+    "t_end": 831.24,
+    "text": "which really makes"
+  },
+  {
+    "t_start": 831.24,
+    "t_end": 835.18,
+    "text": "are a lot of time between 1986 and 1990."
+  },
+  {
+    "t_start": 835.18,
+    "t_end": 839.73,
+    "text": "BH: How many pages?  It's like a book. Well it's a"
+  },
+  {
+    "t_start": 839.73,
+    "t_end": 843.88,
+    "text": "more than a pamphlet. If you open up this paper"
+  },
+  {
+    "t_start": 843.88,
+    "t_end": 848.25,
+    "text": "on the very first or second page there's"
+  },
+  {
+    "t_start": 848.25,
+    "t_end": 851.6,
+    "text": "Fermat's equation and an elliptic curve"
+  },
+  {
+    "t_start": 851.6,
+    "t_end": 855.61,
+    "text": "but then they disappear. If you look at the actual"
+  },
+  {
+    "t_start": 855.61,
+    "t_end": 860.12,
+    "text": "article it's more about the technicalities of the subject. It was a"
+  },
+  {
+    "t_start": 860.12,
+    "t_end": 861.94,
+    "text": "big deal in mathematics. It got"
+  },
+  {
+    "t_start": 861.94,
+    "t_end": 865.79,
+    "text": "write ups in the press, including Science magazine"
+  },
+  {
+    "t_start": 865.79,
+    "t_end": 866.72,
+    "text": "if I'm not mistaken."
+  },
+  {
+    "t_start": 866.72,
+    "t_end": 869.959,
+    "text": "You know, whenever there's a serious announcement,"
+  },
+  {
+    "t_start": 869.959,
+    "t_end": 873.2,
+    "text": "of a major theorem that gets a lot of attention. And"
+  },
+  {
+    "t_start": 873.2,
+    "t_end": 876.3,
+    "text": "people stop what they're doing to try to see"
+  },
+  {
+    "t_start": 876.3,
+    "t_end": 878.455,
+    "text": "what the basis of proof is."
+  },
+  {
+    "t_start": 878.455,
+    "t_end": 880.61,
+    "text": "BH: who called this Ribet Theorem?"
+  },
+  {
+    "t_start": 880.61,
+    "t_end": 884.0,
+    "text": "you know obviously it to make that name that is above all"
+  },
+  {
+    "t_start": 884.0,
+    "t_end": 888.05,
+    "text": "other whenever addition both well the"
+  },
+  {
+    "t_start": 888.05,
+    "t_end": 891.77,
+    "text": "yeah that's right so you certainly there there's a general"
+  },
+  {
+    "t_start": 891.77,
+    "t_end": 896.31,
+    "text": "aversion to naming things after yourself very often people"
+  },
+  {
+    "t_start": 896.31,
+    "t_end": 900.779,
+    "text": "give lectures and I'll say such-and-such the room and princes the right name the"
+  },
+  {
+    "t_start": 900.779,
+    "t_end": 901.38,
+    "text": "person"
+  },
+  {
+    "t_start": 901.38,
+    "t_end": 905.52,
+    "text": "who on proves it and if it's a fair amount they prove themselves"
+  },
+  {
+    "t_start": 905.52,
+    "t_end": 908.92,
+    "text": "in typically right there the first initial their last name"
+  },
+  {
+    "t_start": 908.92,
+    "t_end": 911.93,
+    "text": "or something like that for all say they don't on"
+  },
+  {
+    "t_start": 911.93,
+    "t_end": 916.06,
+    "text": "they have no attribution listeners understand all this is the fear that the"
+  },
+  {
+    "t_start": 916.06,
+    "t_end": 916.8,
+    "text": "persons"
+  },
+  {
+    "t_start": 916.8,
+    "t_end": 920.1,
+    "text": "is providing in this lecture. - You've done this thing"
+  },
+  {
+    "t_start": 920.1,
+    "t_end": 924.38,
+    "text": "which is important if you have a bridge between two things which"
+  },
+  {
+    "t_start": 924.38,
+    "t_end": 928.4,
+    "text": "no other which also Granja. - Well that's right so the"
+  },
+  {
+    "t_start": 928.4,
+    "t_end": 932.01,
+    "text": "um what what I when I showed was that this modularity"
+  },
+  {
+    "t_start": 932.01,
+    "t_end": 936.2,
+    "text": "conjecture which was thought to be was was felt to be true"
+  },
+  {
+    "t_start": 936.2,
+    "t_end": 940.0,
+    "text": "but um wasn't expected to be provable"
+  },
+  {
+    "t_start": 940.0,
+    "t_end": 943.839,
+    "text": "I show that that thing actually implies there was less there"
+  },
+  {
+    "t_start": 943.839,
+    "t_end": 947.15,
+    "text": "I think the main takeaway from my theorem was"
+  },
+  {
+    "t_start": 947.15,
+    "t_end": 950.18,
+    "text": "that since the very conjecture"
+  },
+  {
+    "t_start": 950.18,
+    "t_end": 954.94,
+    "text": "short on the OMA was likely to be true that now you should think that for miles"
+  },
+  {
+    "t_start": 954.94,
+    "t_end": 956.43,
+    "text": "last year it was likely to be true"
+  },
+  {
+    "t_start": 956.43,
+    "t_end": 960.36,
+    "text": "for example it probably wouldn't have been a really"
+  },
+  {
+    "t_start": 960.36,
+    "t_end": 964.24,
+    "text": "good idea to spend a lot of computing power looking for a counterexample"
+  },
+  {
+    "t_start": 964.24,
+    "t_end": 967.98,
+    "text": "farrell's less there well as anyone else who's in the room"
+  },
+  {
+    "t_start": 967.98,
+    "t_end": 971.029,
+    "text": "well I was the whole thing so any Wells you know coursing"
+  },
+  {
+    "t_start": 971.029,
+    "t_end": 975.08,
+    "text": "came around a few times I guess but basically he was holed up in his attic"
+  },
+  {
+    "t_start": 975.08,
+    "t_end": 978.79,
+    "text": "and I didn't know that and I think most people didn't know that"
+  },
+  {
+    "t_start": 978.79,
+    "t_end": 982.54,
+    "text": "so he was on I mean it's his I'm"
+  },
+  {
+    "t_start": 982.54,
+    "t_end": 987.1,
+    "text": "it's a statement that he was certainly intrigued by Fermat's last theorem"
+  },
+  {
+    "t_start": 987.67,
+    "t_end": 991.43,
+    "text": "as a child and then as soon as he heard about this"
+  },
+  {
+    "t_start": 991.43,
+    "t_end": 995.62,
+    "text": "Ridge he decided to try to prove the modularity theorem"
+  },
+  {
+    "t_start": 995.62,
+    "t_end": 998.72,
+    "text": "because of its relation to the Fermat's last theorem."
+  },
+  {
+    "t_start": 998.72,
+    "t_end": 1001.97,
+    "text": "so was it is a sort of the situation that Andrew Wiles"
+  },
+  {
+    "t_start": 1001.97,
+    "t_end": 1006.08,
+    "text": "wanted to prove Fermat's last theorem by any means possible he given him the means"
+  },
+  {
+    "t_start": 1006.08,
+    "t_end": 1009.85,
+    "text": "that's what he says I mean if this is surprising to me because"
+  },
+  {
+    "t_start": 1009.85,
+    "t_end": 1013.25,
+    "text": "modularity theorem by itself is a tremendous price"
+  },
+  {
+    "t_start": 1013.25,
+    "t_end": 1016.98,
+    "text": "and you know it seems kind of strange that you needed"
+  },
+  {
+    "t_start": 1016.98,
+    "t_end": 1020.52,
+    "text": "the motivation to Fermats to go and try to prove it if you thought that"
+  },
+  {
+    "t_start": 1020.52,
+    "t_end": 1021.4,
+    "text": "there was some way"
+  },
+  {
+    "t_start": 1021.4,
+    "t_end": 1025.2,
+    "text": "side well anyway that's that's that's that's what he says"
+  },
+  {
+    "t_start": 1025.2,
+    "t_end": 1029.65,
+    "text": "yet we were all together meaning kinda lots of people in the subject in a"
+  },
+  {
+    "t_start": 1029.65,
+    "t_end": 1031.42,
+    "text": "conference in Cambridge England"
+  },
+  {
+    "t_start": 1031.42,
+    "t_end": 1037.08,
+    "text": "in June 1993 and usually go to a conference and you see the list speakers"
+  },
+  {
+    "t_start": 1037.08,
+    "t_end": 1039.08,
+    "text": "and you know you speaker has an hour"
+  },
+  {
+    "t_start": 1039.08,
+    "t_end": 1043.1,
+    "text": "and the thing and then set up so that Andrew Wiles had three hours"
+  },
+  {
+    "t_start": 1043.1,
+    "t_end": 1047.02,
+    "text": "I'm so here's the organizers he said I have something I want to discuss it will"
+  },
+  {
+    "t_start": 1047.02,
+    "t_end": 1049.11,
+    "text": "take me three hours and I like those slots"
+  },
+  {
+    "t_start": 1049.11,
+    "t_end": 1052.33,
+    "text": "I said okay from and then"
+  },
+  {
+    "t_start": 1052.33,
+    "t_end": 1055.85,
+    "text": "in the first lecture you could see he was proving"
+  },
+  {
+    "t_start": 1055.85,
+    "t_end": 1061.2,
+    "text": "He was trying to prove the modularity of some class elliptic curves but"
+  },
+  {
+    "t_start": 1061.22,
+    "t_end": 1064.37,
+    "text": "the class elliptic curves at least in the first lecture had"
+  },
+  {
+    "t_start": 1064.37,
+    "t_end": 1068.13,
+    "text": "no intersection with the class that you needed for Fermat's last theorem"
+  },
+  {
+    "t_start": 1068.16,
+    "t_end": 1071.62,
+    "text": "within the second lecture got a lot closer and"
+  },
+  {
+    "t_start": 1071.62,
+    "t_end": 1075.39,
+    "text": "it became more and more parents have people at the conference"
+  },
+  {
+    "t_start": 1075.39,
+    "t_end": 1078.57,
+    "text": "third lecture he was going to be able to do enough"
+  },
+  {
+    "t_start": 1078.57,
+    "t_end": 1083.02,
+    "text": "to get fair was last year the crowd was growing so love the mathematicians"
+  },
+  {
+    "t_start": 1083.02,
+    "t_end": 1086.02,
+    "text": "you know brought their colleagues who happen to be in Cambridge in"
+  },
+  {
+    "t_start": 1086.1,
+    "t_end": 1089.1,
+    "text": "you know some other family members and"
+  },
+  {
+    "t_start": 1089.1,
+    "t_end": 1094.04,
+    "text": "I think there was a little doubt that he would announce approval for was left"
+  },
+  {
+    "t_start": 1094.04,
+    "t_end": 1094.93,
+    "text": "there I'm so I"
+  },
+  {
+    "t_start": 1094.96,
+    "t_end": 1099.54,
+    "text": "can i sat in the front row center and brought my camera and snap the picture of him"
+  },
+  {
+    "t_start": 1099.54,
+    "t_end": 1103.01,
+    "text": "I wasn't another moment when you know those cuts time stop"
+  },
+  {
+    "t_start": 1103.02,
+    "t_end": 1106.96,
+    "text": "and when I first realized what was going to happen .."
+  },
+  {
+    "t_start": 1106.96,
+    "t_end": 1110.74,
+    "text": "and then you know when it actually did happen there was this some"
+  },
+  {
+    "t_start": 1110.74,
+    "t_end": 1113.77,
+    "text": "frends of activity I mean the director"
+  },
+  {
+    "t_start": 1113.77,
+    "t_end": 1117.39,
+    "text": "love of the Isaac Newton Institute"
+  },
+  {
+    "t_start": 1117.39,
+    "t_end": 1120.95,
+    "text": "where these lectures were held on"
+  },
+  {
+    "t_start": 1120.95,
+    "t_end": 1125.0,
+    "text": "had ordered a case a Napa Valley brute champagne"
+  },
+  {
+    "t_start": 1125.0,
+    "t_end": 1129.39,
+    "text": "for the end the lecture is after the lecture we came out into the"
+  },
+  {
+    "t_start": 1129.39,
+    "t_end": 1132.87,
+    "text": "you know common area only is all the champagne flutes were"
+  },
+  {
+    "t_start": 1132.87,
+    "t_end": 1136.18,
+    "text": "produced in his bottle started popping"
+  },
+  {
+    "t_start": 1136.18,
+    "t_end": 1140.74,
+    "text": "you know this is kinda really an amazing thing between that time when you-"
+  },
+  {
+    "t_start": 1140.74,
+    "t_end": 1145.4,
+    "text": "originally published a paper and this lecture it was a cold or write you a"
+  },
+  {
+    "t_start": 1145.4,
+    "t_end": 1147.32,
+    "text": "nasty lol nah to work"
+  },
+  {
+    "t_start": 1147.32,
+    "t_end": 1150.66,
+    "text": "not a word you know it i no idea what he was doing"
+  },
+  {
+    "t_start": 1150.66,
+    "t_end": 1155.07,
+    "text": "on you he whole who absolutely"
+  },
+  {
+    "t_start": 1155.07,
+    "t_end": 1158.36,
+    "text": "he was so he was a a friend and a colleague I first met him when he was a"
+  },
+  {
+    "t_start": 1158.36,
+    "t_end": 1160.0,
+    "text": "graduate student in Cambridge"
+  },
+  {
+    "t_start": 1160.0,
+    "t_end": 1168.08,
+    "text": "he was one of the first people that I invited came to spend a week and gave a"
+  },
+  {
+    "t_start": 1168.08,
+    "t_end": 1168.95,
+    "text": "lecture to"
+  },
+  {
+    "t_start": 1168.95,
+    "t_end": 1174.43,
+    "text": "on do you that delight he kept a secret that make a surprise I"
+  },
+  {
+    "t_start": 1174.43,
+    "t_end": 1178.32,
+    "text": "to this day you battle by I'm using a little collegiate"
+  },
+  {
+    "t_start": 1178.32,
+    "t_end": 1180.57,
+    "text": "you're telling me when you thought you open your running around telling"
+  },
+  {
+    "t_start": 1180.57,
+    "t_end": 1181.4,
+    "text": "everyone"
+  },
+  {
+    "t_start": 1181.4,
+    "t_end": 1184.98,
+    "text": "NEC said well it's very unusual behavior"
+  },
+  {
+    "t_start": 1184.98,
+    "t_end": 1189.41,
+    "text": "and the you know you can say in retrospect that it was really"
+  },
+  {
+    "t_start": 1189.41,
+    "t_end": 1193.89,
+    "text": "um justified because he was afraid that people would kind of jump all over it"
+  },
+  {
+    "t_start": 1193.89,
+    "t_end": 1195.49,
+    "text": "because %uh the important so"
+  },
+  {
+    "t_start": 1195.49,
+    "t_end": 1199.25,
+    "text": "the modularity conjecture and fair I was last there"
+  },
+  {
+    "t_start": 1199.25,
+    "t_end": 1202.5,
+    "text": "on button he did not on"
+  },
+  {
+    "t_start": 1202.5,
+    "t_end": 1205.63,
+    "text": "tell me what he was doing he did from"
+  },
+  {
+    "t_start": 1205.63,
+    "t_end": 1209.74,
+    "text": "confide in to this calling to princeton as he was giving"
+  },
+  {
+    "t_start": 1209.74,
+    "t_end": 1213.2,
+    "text": "is graduate course where he was working out the ideas"
+  },
+  {
+    "t_start": 1213.2,
+    "t_end": 1216.86,
+    "text": "that on were instrumental in this paper I think it was only a few days later"
+  },
+  {
+    "t_start": 1216.86,
+    "t_end": 1219.08,
+    "text": "that I got a copy of this manuscript"
+  },
+  {
+    "t_start": 1219.08,
+    "t_end": 1222.16,
+    "text": "and the manuscript was very thick"
+  },
+  {
+    "t_start": 1222.16,
+    "t_end": 1225.32,
+    "text": "nose like 300 pages from"
+  },
+  {
+    "t_start": 1225.32,
+    "t_end": 1228.69,
+    "text": "single space you know typeset by"
+  },
+  {
+    "t_start": 1228.69,
+    "t_end": 1232.89,
+    "text": "test mathematics typesetting program and"
+  },
+  {
+    "t_start": 1232.89,
+    "t_end": 1236.32,
+    "text": "on we were supposed to"
+  },
+  {
+    "t_start": 1236.32,
+    "t_end": 1239.82,
+    "text": "be the referee is on"
+  },
+  {
+    "t_start": 1239.82,
+    "t_end": 1243.14,
+    "text": "looking at different parts of the paper and I was assigned to a par"
+  },
+  {
+    "t_start": 1243.14,
+    "t_end": 1246.9,
+    "text": "that be turn out to be problem-free arm"
+  },
+  {
+    "t_start": 1246.9,
+    "t_end": 1250.24,
+    "text": "and I'm the cats look at a park but"
+  },
+  {
+    "t_start": 1250.24,
+    "t_end": 1254.929,
+    "text": "turn out to have problems a problem was there shattering"
+  },
+  {
+    "t_start": 1254.929,
+    "t_end": 1258.46,
+    "text": "for you a do you like that doesn't make you think this is good"
+  },
+  {
+    "t_start": 1258.46,
+    "t_end": 1263.3,
+    "text": "I like the reader a lot about it really deflating up to I have"
+  },
+  {
+    "t_start": 1263.3,
+    "t_end": 1266.65,
+    "text": "champagne mean finding the problem well"
+  },
+  {
+    "t_start": 1266.65,
+    "t_end": 1271.67,
+    "text": "from want more of the aspects of the whole thing is that I had gone out"
+  },
+  {
+    "t_start": 1271.67,
+    "t_end": 1273.14,
+    "text": "pretty for a limb"
+  },
+  {
+    "t_start": 1273.14,
+    "t_end": 1276.91,
+    "text": "from telling everybody that Andrew Wiles improve this thing"
+  },
+  {
+    "t_start": 1276.91,
+    "t_end": 1280.04,
+    "text": "on in the way that started was that"
+  },
+  {
+    "t_start": 1280.04,
+    "t_end": 1283.94,
+    "text": "when the New York Times first heard about his announcement may ask to speak"
+  },
+  {
+    "t_start": 1283.94,
+    "t_end": 1285.8,
+    "text": "to him and returns me and said"
+  },
+  {
+    "t_start": 1285.8,
+    "t_end": 1289.39,
+    "text": "and you know you speak to Gina Kolata so I went"
+  },
+  {
+    "t_start": 1289.39,
+    "t_end": 1292.67,
+    "text": "and on went upstairs and"
+  },
+  {
+    "t_start": 1292.67,
+    "t_end": 1295.87,
+    "text": "spoke to her for a very long time explaining the whole thing"
+  },
+  {
+    "t_start": 1295.87,
+    "t_end": 1300.01,
+    "text": "and then I'm somehow the media kept calling me"
+  },
+  {
+    "t_start": 1300.01,
+    "t_end": 1304.96,
+    "text": "because it was understood from that somehow I was is designated spokesperson"
+  },
+  {
+    "t_start": 1304.96,
+    "t_end": 1308.07,
+    "text": "so I nice spent the entire summer"
+  },
+  {
+    "t_start": 1308.07,
+    "t_end": 1311.47,
+    "text": "I'm lecturing about his theorem"
+  },
+  {
+    "t_start": 1311.47,
+    "t_end": 1312.39,
+    "text": "and"
+  },
+  {
+    "t_start": 1312.39,
+    "t_end": 1315.96,
+    "text": "I'm fielding phone calls from I'm the press"
+  },
+  {
+    "t_start": 1315.96,
+    "t_end": 1320.1,
+    "text": "hello for was announcement cast"
+  },
+  {
+    "t_start": 1320.1,
+    "t_end": 1325.37,
+    "text": "oh I think it was like two weeks what happens in mathematics is if if you have"
+  },
+  {
+    "t_start": 1325.37,
+    "t_end": 1327.65,
+    "text": "a proof that seems to really be"
+  },
+  {
+    "t_start": 1327.65,
+    "t_end": 1330.65,
+    "text": "on seems to have a lot or"
+  },
+  {
+    "t_start": 1330.65,
+    "t_end": 1334.32,
+    "text": "from internal logic"
+  },
+  {
+    "t_start": 1334.32,
+    "t_end": 1338.57,
+    "text": "to it and there's something that's wrong with the proof"
+  },
+  {
+    "t_start": 1338.57,
+    "t_end": 1341.94,
+    "text": "your immediate reaction is to say well"
+  },
+  {
+    "t_start": 1341.94,
+    "t_end": 1345.76,
+    "text": "you know this is just some technical problem that I need to fix"
+  },
+  {
+    "t_start": 1345.76,
+    "t_end": 1349.31,
+    "text": "and I think that are Andrew Wiles when he"
+  },
+  {
+    "t_start": 1349.31,
+    "t_end": 1354.59,
+    "text": "found out about the gap arm expected that you would be able to repair insured"
+  },
+  {
+    "t_start": 1354.59,
+    "t_end": 1359.23,
+    "text": "so it really took a while before there was some"
+  },
+  {
+    "t_start": 1359.23,
+    "t_end": 1363.48,
+    "text": "realization on his part that this was a serious problem"
+  },
+  {
+    "t_start": 1363.48,
+    "t_end": 1366.6,
+    "text": "couldn't be fixed on immediately just by their"
+  },
+  {
+    "t_start": 1366.6,
+    "t_end": 1371.23,
+    "text": "tools improper if you love the person who was taking all the calls from the"
+  },
+  {
+    "t_start": 1371.23,
+    "t_end": 1371.86,
+    "text": "press"
+  },
+  {
+    "t_start": 1371.86,
+    "t_end": 1375.79,
+    "text": "whatever reason did that mean you will you are contacting"
+  },
+  {
+    "t_start": 1375.79,
+    "t_end": 1379.87,
+    "text": "and while get updates on the game because my i don't know what to tell"
+  },
+  {
+    "t_start": 1379.87,
+    "t_end": 1380.65,
+    "text": "them what"
+  },
+  {
+    "t_start": 1380.65,
+    "t_end": 1383.8,
+    "text": "we call him but those you want to say it was a"
+  },
+  {
+    "t_start": 1383.8,
+    "t_end": 1386.94,
+    "text": "he gone right not especially Inc he kind of went dark"
+  },
+  {
+    "t_start": 1386.94,
+    "t_end": 1390.53,
+    "text": "he was working on on mathematics and"
+  },
+  {
+    "t_start": 1390.53,
+    "t_end": 1395.06,
+    "text": "I wasn't wasn't getting a lot of information out of him at that time"
+  },
+  {
+    "t_start": 1395.06,
+    "t_end": 1398.47,
+    "text": "you know it was all poison about right i mean"
+  },
+  {
+    "t_start": 1398.47,
+    "t_end": 1401.929,
+    "text": "I'm wasn't clear whether or not this will get repaired or not"
+  },
+  {
+    "t_start": 1401.929,
+    "t_end": 1405.71,
+    "text": "and then you know wonderfully it turned out that there was"
+  },
+  {
+    "t_start": 1405.71,
+    "t_end": 1409.11,
+    "text": "this so repair to the proof"
+  },
+  {
+    "t_start": 1409.11,
+    "t_end": 1413.64,
+    "text": "from release in completely new insight actually by Andrew Wiles and Richard"
+  },
+  {
+    "t_start": 1413.64,
+    "t_end": 1414.47,
+    "text": "Taylor"
+  },
+  {
+    "t_start": 1414.47,
+    "t_end": 1417.5,
+    "text": "who work together over the summer and this will be the summer"
+  },
+  {
+    "t_start": 1417.5,
+    "t_end": 1420.929,
+    "text": "1994 and they"
+  },
+  {
+    "t_start": 1420.929,
+    "t_end": 1424.289,
+    "text": "had a or preprint out"
+  },
+  {
+    "t_start": 1424.289,
+    "t_end": 1428.59,
+    "text": "in in the fall 1994 really explain their new method in which is now"
+  },
+  {
+    "t_start": 1428.59,
+    "t_end": 1432.299,
+    "text": "call Taylor Wiles method and that"
+  },
+  {
+    "t_start": 1432.299,
+    "t_end": 1436.94,
+    "text": "really I'm circumvented a lot or the more complicated arguments in the"
+  },
+  {
+    "t_start": 1436.94,
+    "t_end": 1437.62,
+    "text": "original"
+  },
+  {
+    "t_start": 1437.62,
+    "t_end": 1441.87,
+    "text": "preprint and the two articles were published together"
+  },
+  {
+    "t_start": 1441.87,
+    "t_end": 1446.669,
+    "text": "on the following summer which is a summer 1995 in the annals of mathematics"
+  },
+  {
+    "t_start": 1446.669,
+    "t_end": 1449.85,
+    "text": "it was a relief but it was it was not our"
+  },
+  {
+    "t_start": 1449.85,
+    "t_end": 1453.9,
+    "text": "kinda joyous relief you know and Richard Taylor came to me one day"
+  },
+  {
+    "t_start": 1453.9,
+    "t_end": 1457.61,
+    "text": "again MSRI where I happen to be in"
+  },
+  {
+    "t_start": 1457.61,
+    "t_end": 1460.919,
+    "text": "fall far 1994 any sand"
+  },
+  {
+    "t_start": 1460.919,
+    "t_end": 1464.419,
+    "text": "we have some good news for you and then"
+  },
+  {
+    "t_start": 1464.419,
+    "t_end": 1469.14,
+    "text": "on the next day and make up in this paper so that was kinda very good"
+  },
+  {
+    "t_start": 1469.14,
+    "t_end": 1473.919,
+    "text": "and you know I don't remember there being"
+  },
+  {
+    "t_start": 1473.919,
+    "t_end": 1477.73,
+    "text": "a huge celebration on the moment"
+  },
+  {
+    "t_start": 1477.73,
+    "t_end": 1481.86,
+    "text": "the releases that reprint been just kinda gradually build people understand"
+  },
+  {
+    "t_start": 1481.86,
+    "t_end": 1483.12,
+    "text": "that the proof is complete"
+  },
+  {
+    "t_start": 1483.12,
+    "t_end": 1486.95,
+    "text": "and then there was a very large instructional conference at Boston"
+  },
+  {
+    "t_start": 1486.95,
+    "t_end": 1488.13,
+    "text": "University in summer"
+  },
+  {
+    "t_start": 1488.13,
+    "t_end": 1491.83,
+    "text": "1995 different people got up and explain the different"
+  },
+  {
+    "t_start": 1491.83,
+    "t_end": 1496.03,
+    "text": "elements approve well it was a fabulous pieces mathematics"
+  },
+  {
+    "t_start": 1496.03,
+    "t_end": 1499.94,
+    "text": "arm as impressed arm with by"
+  },
+  {
+    "t_start": 1499.94,
+    "t_end": 1504.28,
+    "text": "what what I did and presses I am by my my own were coming"
+  },
+  {
+    "t_start": 1504.28,
+    "t_end": 1507.309,
+    "text": "I'm even much more impressed by what they did"
+  },
+  {
+    "t_start": 1507.309,
+    "t_end": 1510.62,
+    "text": "on they had some really knew inside and"
+  },
+  {
+    "t_start": 1510.62,
+    "t_end": 1514.539,
+    "text": "this inside has I'm percolated through"
+  },
+  {
+    "t_start": 1514.539,
+    "t_end": 1518.3,
+    "text": "our whole subject for the last twenty years arm"
+  },
+  {
+    "t_start": 1518.3,
+    "t_end": 1522.25,
+    "text": "one way to say what they did is they showed"
+  },
+  {
+    "t_start": 1522.25,
+    "t_end": 1525.67,
+    "text": "that somehow modularity is contagious"
+  },
+  {
+    "t_start": 1525.67,
+    "t_end": 1530.83,
+    "text": "in the sense that if you have something that hope has a little pieces that the"
+  },
+  {
+    "t_start": 1530.83,
+    "t_end": 1537.36,
+    "text": "you can parlay that into modularity over forty first evolved Wiles was"
+  },
+  {
+    "t_start": 1537.36,
+    "t_end": 1540.88,
+    "text": "obviously intensely driven to do this he was"
+  },
+  {
+    "t_start": 1540.88,
+    "t_end": 1545.24,
+    "text": "really motivated and he said you know I'm gonna do this one way or another"
+  },
+  {
+    "t_start": 1545.24,
+    "t_end": 1548.91,
+    "text": "and me brought in all sorts a"
+  },
+  {
+    "t_start": 1548.91,
+    "t_end": 1552.55,
+    "text": "different techniques that hadn't been related"
+  },
+  {
+    "t_start": 1552.55,
+    "t_end": 1555.64,
+    "text": "on to the the problem before"
+  },
+  {
+    "t_start": 1555.64,
+    "t_end": 1560.55,
+    "text": "on what some what's amazing for example there's a whole subject an algebraic"
+  },
+  {
+    "t_start": 1560.55,
+    "t_end": 1562.66,
+    "text": "geometry call deformation theory"
+  },
+  {
+    "t_start": 1562.66,
+    "t_end": 1566.69,
+    "text": "that was going on when I was a graduate student that I didn't learn"
+  },
+  {
+    "t_start": 1566.69,
+    "t_end": 1570.1,
+    "text": "I thought that was really far removed from anything involving"
+  },
+  {
+    "t_start": 1570.1,
+    "t_end": 1573.32,
+    "text": "elliptic curves and on in"
+  },
+  {
+    "t_start": 1573.32,
+    "t_end": 1576.77,
+    "text": "the years before wells announcement Harry Mazer"
+  },
+  {
+    "t_start": 1576.77,
+    "t_end": 1580.62,
+    "text": "had developed this new technique of deformation theory in gallery"
+  },
+  {
+    "t_start": 1580.62,
+    "t_end": 1583.03,
+    "text": "presentations and it turned out to be exactly what"
+  },
+  {
+    "t_start": 1583.03,
+    "t_end": 1586.21,
+    "text": "Wiles needed the language in the techniques the median"
+  },
+  {
+    "t_start": 1586.21,
+    "t_end": 1589.65,
+    "text": "for his discussion on and so"
+  },
+  {
+    "t_start": 1589.65,
+    "t_end": 1593.57,
+    "text": "you know something that seems to be far away technically turn out to be crucial"
+  },
+  {
+    "t_start": 1593.57,
+    "t_end": 1597.8,
+    "text": "well I think I'm you know just informally everyone refer to it as the"
+  },
+  {
+    "t_start": 1597.8,
+    "t_end": 1599.38,
+    "text": "Fermat's last theorem"
+  },
+  {
+    "t_start": 1599.38,
+    "t_end": 1603.21,
+    "text": "but in fact when you when you look at the article just like my article was"
+  },
+  {
+    "t_start": 1603.21,
+    "t_end": 1604.89,
+    "text": "something internal to"
+  },
+  {
+    "t_start": 1604.89,
+    "t_end": 1609.64,
+    "text": "on series modular forms and get our presentations and Wiles article in my"
+  },
+  {
+    "t_start": 1609.7,
+    "t_end": 1611.3,
+    "text": "article share"
+  },
+  {
+    "t_start": 1611.36,
+    "t_end": 1614.62,
+    "text": "the trait that for was a question covers exactly once in the article in the"
+  },
+  {
+    "t_start": 1614.62,
+    "t_end": 1615.16,
+    "text": "beginning"
+  },
+  {
+    "t_start": 1615.22,
+    "t_end": 1619.45,
+    "text": "and then you get down to the real stuff on very happy with the"
+  },
+  {
+    "t_start": 1619.45,
+    "t_end": 1622.79,
+    "text": "recognition that I've gotten and I"
+  },
+  {
+    "t_start": 1622.79,
+    "t_end": 1626.67,
+    "text": "very proud of what I did and be I"
+  },
+  {
+    "t_start": 1626.67,
+    "t_end": 1630.49,
+    "text": "when students come and my classes they may know about my"
+  },
+  {
+    "t_start": 1630.49,
+    "t_end": 1633.92,
+    "text": "role for Fermat's last theorem. A lot of them have seen the"
+  },
+  {
+    "t_start": 1633.93,
+    "t_end": 1637.37,
+    "text": "video that was broadcast on over and BBC"
+  },
+  {
+    "t_start": 1637.37,
+    "t_end": 1642.17,
+    "text": "and a I think you know if you do something very very very very famous and"
+  },
+  {
+    "t_start": 1642.17,
+    "t_end": 1643.71,
+    "text": "you have an encore problem"
+  },
+  {
+    "t_start": 1643.71,
+    "t_end": 1647.08,
+    "text": "where people saying you know what great thing you're going to do next"
+  },
+  {
+    "t_start": 1647.08,
+    "t_end": 1651.28,
+    "text": "and I try to be on more or less a normal guy"
+  },
+  {
+    "t_start": 1651.28,
+    "t_end": 1652.66,
+    "text": "and"
+  },
+  {
+    "t_start": 1652.66,
+    "t_end": 1658.01,
+    "text": "not you know walk around with angels on your shoulder"
+  },
+  {
+    "t_start": 1658.01,
+    "t_end": 1661.47,
+    "text": "britt to rediscover what FAMAS proof might it be"
+  },
+  {
+    "t_start": 1661.47,
+    "t_end": 1665.02,
+    "text": "is that they have widely-helds that he had done it already disclaim lot"
+  },
+  {
+    "t_start": 1665.02,
+    "t_end": 1669.29,
+    "text": "was he telling the truth ? I think by the time we get to 20th century it's quite"
+  },
+  {
+    "t_start": 1669.29,
+    "t_end": 1670.26,
+    "text": "clear"
+  },
+  {
+    "t_start": 1670.26,
+    "t_end": 1672.8,
+    "text": "that this is an incredibly complex problem."
+  }
+]

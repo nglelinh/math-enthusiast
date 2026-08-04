@@ -1,0 +1,1132 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 2.0,
+    "text": "I'm interested in the twin prime conjecture"
+  },
+  {
+    "t_start": 2.26,
+    "t_end": 4.21,
+    "text": "so this is"
+  },
+  {
+    "t_start": 4.21,
+    "t_end": 10.95,
+    "text": "Asking about consecutive prime numbers p 1 as the first prime which be equal to [2] and there'll be the second time"
+  },
+  {
+    "t_start": 11.41,
+    "t_end": 13.17,
+    "text": "P 2 which would be equal to 3"
+  },
+  {
+    "t_start": 13.17,
+    "t_end": 18.36,
+    "text": "And you can look at the gaps between the primes, so the gap between three and two..."
+  },
+  {
+    "t_start": 18.42,
+    "t_end": 25.6,
+    "text": "is one, this is the only time you can possibly have two prime numbers which differ by exactly one, so the next smallest possible gap"
+  },
+  {
+    "t_start": 25.86,
+    "t_end": 27.9,
+    "text": "Would be a gap of size, [two]"
+  },
+  {
+    "t_start": 27.9,
+    "t_end": 31.52,
+    "text": "It's only not the case that all gaps become size 2"
+  },
+  {
+    "t_start": 31.52,
+    "t_end": 36.14,
+    "text": "But the question is how many of these gaps of size two? So for example,"
+  },
+  {
+    "t_start": 36.42,
+    "t_end": 43.62,
+    "text": "101 and 103 are two rather large prime numbers which differ by exactly 2. And then the twin prime conjecture"
+  },
+  {
+    "t_start": 44.16,
+    "t_end": 49.34,
+    "text": "says that this having two primes which differ by exactly 2 happens infinitely often"
+  },
+  {
+    "t_start": 49.52,
+    "t_end": 51.34,
+    "text": "If the twin prime conjecture is false,"
+  },
+  {
+    "t_start": 51.36,
+    "t_end": 56.74,
+    "text": "At some point you go along the number line, and then all prime gaps would always be bigger than two"
+  },
+  {
+    "t_start": 57.309,
+    "t_end": 62.249,
+    "text": "But we don't believe that's the case. We believe that it should be the case the twin prime conjecture is correct"
+  },
+  {
+    "t_start": 62.35,
+    "t_end": 64.35,
+    "text": "So no matter how far you go along"
+  },
+  {
+    "t_start": 64.36,
+    "t_end": 70.529,
+    "text": "There's always going to be some bigger primes and in fact infinitely many bigger primes that differ by"
+  },
+  {
+    "t_start": 70.96,
+    "t_end": 73.559,
+    "text": "Just exactly two so you can test this on a computer"
+  },
+  {
+    "t_start": 73.74,
+    "t_end": 77.8,
+    "text": "And we found pairs of primes that differ by exactly [2] with over"
+  },
+  {
+    "t_start": 77.8,
+    "t_end": 83.939,
+    "text": "300,000 decimal digits and in fact they're surprisingly common that it's certainly not all the time"
+  },
+  {
+    "t_start": 83.939,
+    "t_end": 85.75,
+    "text": "but if you look at the first"
+  },
+  {
+    "t_start": 85.75,
+    "t_end": 89.009,
+    "text": "how far you have to go after a million to find a pair of twin primes"
+  },
+  {
+    "t_start": 89.229,
+    "t_end": 95.069,
+    "text": "It's not very far. If you look after a billion, It's not very far if you look after a thousand billion"
+  },
+  {
+    "t_start": 95.17,
+    "t_end": 98.46,
+    "text": "It's actually not very far until you start finding twin pines"
+  },
+  {
+    "t_start": 98.74,
+    "t_end": 102.93,
+    "text": "Most primes aren't going to have the one after it been just two apart"
+  },
+  {
+    "t_start": 103.149,
+    "t_end": 109.409,
+    "text": "But we still believe that you should be relatively plentiful and so far if you check on a computer this seems to be true"
+  },
+  {
+    "t_start": 109.409,
+    "t_end": 114.48,
+    "text": "but whether it's really true all the way as far as you go is something that you can't check on the computer and"
+  },
+  {
+    "t_start": 114.48,
+    "t_end": 117.88,
+    "text": "That's where you need to try and prove the real mathematical result"
+  },
+  {
+    "t_start": 118.6,
+    "t_end": 120.719,
+    "text": "So we don't actually know how old the twin prime conjecture is"
+  },
+  {
+    "t_start": 120.79,
+    "t_end": 126.479,
+    "text": "that some people have claimed that it should go all the way back to euclid and it's certainly the kind of question that the"
+  },
+  {
+    "t_start": 126.48,
+    "t_end": 132.54,
+    "text": "Ancient Greeks could easily have thought about the most recent time where we've seen someone really write down the conjecture"
+  },
+  {
+    "t_start": 132.7,
+    "t_end": 136.22,
+    "text": "officially was just over 100 years ago by de Polignac"
+  },
+  {
+    "t_start": 136.239,
+    "t_end": 141.328,
+    "text": "But he actually conducted a rather stronger more general form of the twin prime conjecture that's a bit more complicated"
+  },
+  {
+    "t_start": 141.329,
+    "t_end": 145.769,
+    "text": "It's not just gaps of size 2 but also gaps of size 4 and gaps of size six"
+  },
+  {
+    "t_start": 145.769,
+    "t_end": 151.04,
+    "text": "And so there's a suspicion that the twin prime conjecture itself is rather older than that"
+  },
+  {
+    "t_start": 151.26,
+    "t_end": 157.04,
+    "text": "But we know it's at least a hundred years old possibly thousands of years old. If we're still finding these things"
+  },
+  {
+    "t_start": 157.24,
+    "t_end": 161.25,
+    "text": "Way way down the number line, and we know they're an infinite number of primes"
+  },
+  {
+    "t_start": 161.25,
+    "t_end": 163.23,
+    "text": "This is a known thing... if they did stop"
+  },
+  {
+    "t_start": 163.23,
+    "t_end": 168.719,
+    "text": "What would stop them occurring like what is... what beast out there could stop twin primes occurring?"
+  },
+  {
+    "t_start": 168.72,
+    "t_end": 171.06,
+    "text": "It doesn't seem as any roadblocks of them happening forever."
+  },
+  {
+    "t_start": 171.3,
+    "t_end": 175.24,
+    "text": "This is one of the interesting and frustrating things about prime numbers,"
+  },
+  {
+    "t_start": 175.24,
+    "t_end": 179.74,
+    "text": "that often it's clear what the right answer should be if you give me a simple problem"
+  },
+  {
+    "t_start": 179.96,
+    "t_end": 184.98,
+    "text": "Like the twin prime conjecture, you can think about it heuristically a bit, you can check it on the computer"
+  },
+  {
+    "t_start": 185.0,
+    "t_end": 188.72,
+    "text": "And you can quite quickly convince yourself that this should clearly be the right answer"
+  },
+  {
+    "t_start": 188.76,
+    "t_end": 193.32,
+    "text": "And you can do it in a fairly confident way so lots of problems about prime numbers"
+  },
+  {
+    "t_start": 193.51,
+    "t_end": 198.149,
+    "text": "we believe we know what the correct answer should be it's just that we don't know how to prove it and"
+  },
+  {
+    "t_start": 198.609,
+    "t_end": 203.609,
+    "text": "The game is always trying to rule out there being some very bizarre conspiracy amongst prime numbers"
+  },
+  {
+    "t_start": 203.829,
+    "t_end": 208.228,
+    "text": "That would mean that they would behave in a rather different way to how we believe that they should behave"
+  },
+  {
+    "t_start": 209.019,
+    "t_end": 213.089,
+    "text": "So you're completely right that if the twin prime conjecture was false there'll be some"
+  },
+  {
+    "t_start": 213.609,
+    "t_end": 217.409,
+    "text": "strange switch that happens at some strange point far down the number line"
+  },
+  {
+    "t_start": 217.599,
+    "t_end": 223.649,
+    "text": "There's an absolutely huge breakthrough by Yitang Zhang just relatively recently in 2013"
+  },
+  {
+    "t_start": 223.93,
+    "t_end": 229.5,
+    "text": "He showed that although he couldn't prove the twin prime conjecture (that two is a gap infinitely often)"
+  },
+  {
+    "t_start": 229.75,
+    "t_end": 237.329,
+    "text": "And he similarly couldn't conclude that four is a gap infinitely often, he showed that either two or four or six or eight or some number"
+  },
+  {
+    "t_start": 237.519,
+    "t_end": 242.819,
+    "text": "Less than 70 million has to be a gap infinitely often. So the gap wasn't 70 million"
+  },
+  {
+    "t_start": 242.82,
+    "t_end": 246.16,
+    "text": "It was just somewhere between two and 17 million, but he didn't know what it was?"
+  },
+  {
+    "t_start": 246.16,
+    "t_end": 248.72,
+    "text": "Right, he couldn't say which one of these came as a gap,"
+  },
+  {
+    "t_start": 248.729,
+    "t_end": 256.169,
+    "text": "but he was able to show that at least one of these occurs as a gap infinitely after and 70 million might sound like a"
+  },
+  {
+    "t_start": 256.63,
+    "t_end": 261.029,
+    "text": "Huge number to most people it's certainly a lot bigger than two for example"
+  },
+  {
+    "t_start": 261.79,
+    "t_end": 265.899,
+    "text": "But before that we had no idea of, how we could possibly prove anything like this"
+  },
+  {
+    "t_start": 266.84,
+    "t_end": 270.49,
+    "text": "That he showed that no matter how far you go down the number line"
+  },
+  {
+    "t_start": 270.7,
+    "t_end": 274.98,
+    "text": "There's always these primes that get clumped bizarrely close together"
+  },
+  {
+    "t_start": 275.2,
+    "t_end": 280.04,
+    "text": "Because when you start looking at really really really big prime numbers, prime numbers become quite rare"
+  },
+  {
+    "t_start": 280.37,
+    "t_end": 285.429,
+    "text": "so if you're looking at numbers with billions and billions of decimal digits for example"
+  },
+  {
+    "t_start": 285.44,
+    "t_end": 291.76,
+    "text": "Then suddenly the average gap will be well over a billion and if you look at even bigger ones you get even bigger gaps"
+  },
+  {
+    "t_start": 291.83,
+    "t_end": 294.58,
+    "text": "So typically prime numbers will have these very big gaps"
+  },
+  {
+    "t_start": 294.58,
+    "t_end": 300.4,
+    "text": "And he showed that no matter how far you go down the number line you will get these pairs that come really close together"
+  },
+  {
+    "t_start": 300.86,
+    "t_end": 303.74,
+    "text": "At least compared to how they typically look I guess."
+  },
+  {
+    "t_start": 303.98,
+    "t_end": 306.54,
+    "text": "Earlier on around 2005,"
+  },
+  {
+    "t_start": 306.7,
+    "t_end": 313.34,
+    "text": "there was this earlier work of Goldston Pintz and Yildirim, who came up with a new method for thinking about the twin prime conjecture"
+  },
+  {
+    "t_start": 313.48,
+    "t_end": 318.76,
+    "text": "and problems closely related to it. People worked really hard to try and push"
+  },
+  {
+    "t_start": 318.76,
+    "t_end": 320.89,
+    "text": "Goldston Pintz and Yildirim's ideas a little bit further"
+  },
+  {
+    "t_start": 321.23,
+    "t_end": 326.2,
+    "text": "but there seemed to be this big obstacle that we kept on not being able to make progress on and"
+  },
+  {
+    "t_start": 326.45,
+    "t_end": 332.289,
+    "text": "It was this problem which Yitang Zhang managed to break through, came as a complete shock to everyone"
+  },
+  {
+    "t_start": 332.29,
+    "t_end": 335.02,
+    "text": "I think precisely because people had worked so hard on this"
+  },
+  {
+    "t_start": 335.6,
+    "t_end": 341.2,
+    "text": "particular approach and all the experts had been completely stumped on this. so 70 million is a"
+  },
+  {
+    "t_start": 341.51,
+    "t_end": 348.189,
+    "text": "Slightly arbitrary number that just comes out of the method and in fact his method really just showed some number"
+  },
+  {
+    "t_start": 348.19,
+    "t_end": 353.17,
+    "text": "And he didn't try and optimize the 70 million too much. So if you take exactly his argument"
+  },
+  {
+    "t_start": 353.17,
+    "t_end": 357.219,
+    "text": "But you're ever so slightly more careful with the numerical calculations"
+  },
+  {
+    "t_start": 357.65,
+    "t_end": 360.579,
+    "text": "You can bring 70 million down to 30 million"
+  },
+  {
+    "t_start": 360.58,
+    "t_end": 367.299,
+    "text": "And then if you tweak his arguments and rearrange things ever so slightly it's still fundamentally the same argument as what he had"
+  },
+  {
+    "t_start": 367.3,
+    "t_end": 373.15,
+    "text": "But you can bring 30 million down to 20 million and so as soon as Yitang Zhang's result came out"
+  },
+  {
+    "t_start": 373.15,
+    "t_end": 378.16,
+    "text": "there was this huge excitement at the result in trying to understand the result, but they also became a"
+  },
+  {
+    "t_start": 378.58,
+    "t_end": 380.56,
+    "text": "Small online competition amongst"
+  },
+  {
+    "t_start": 380.57,
+    "t_end": 381.74,
+    "text": "Mathematicians as to"
+  },
+  {
+    "t_start": 381.74,
+    "t_end": 386.86,
+    "text": "How low can you make the gap that we knew 70 million was an upper bound, this is the first time we had a"
+  },
+  {
+    "t_start": 387.11,
+    "t_end": 390.58,
+    "text": "Finite bound, but we also knew that by tweaking the arguments"
+  },
+  {
+    "t_start": 390.58,
+    "t_end": 393.489,
+    "text": "You should be able to bring 70 million down to some smaller number"
+  },
+  {
+    "t_start": 393.78,
+    "t_end": 398.1,
+    "text": "How low could you go just using what he had put out there and putting in the extra work?"
+  },
+  {
+    "t_start": 398.74,
+    "t_end": 400.799,
+    "text": "So there was a polymath project"
+  },
+  {
+    "t_start": 400.86,
+    "t_end": 407.78,
+    "text": "Which was a big online collaborative project that set up precisely to try and optimize the arguments in Zhang's work,"
+  },
+  {
+    "t_start": 407.96,
+    "t_end": 413.58,
+    "text": "Now, they came up actually with quite a lot of neat ideas to make Jang's argument as efficient as possible"
+  },
+  {
+    "t_start": 413.64,
+    "t_end": 417.92,
+    "text": "They were able to bring Zhang's bound of 70 million down to I think"
+  },
+  {
+    "t_start": 418.06,
+    "t_end": 420.04,
+    "text": "4680."
+  },
+  {
+    "t_start": 420.78,
+    "t_end": 423.46,
+    "text": "so I'd actually been thinking about a"
+  },
+  {
+    "t_start": 423.84,
+    "t_end": 429.16,
+    "text": "Completely separate approach to this bound of gaps problem before Zhang's work came out"
+  },
+  {
+    "t_start": 429.18,
+    "t_end": 433.23,
+    "text": "so I was super excited that Zhang's work came out 'Cause it's fascinating to me because I was"
+  },
+  {
+    "t_start": 433.48,
+    "t_end": 439.84,
+    "text": "still a phd student at the time. Excited or disappointed? Like did you feel like \"Oh no I've been beaten\" or were you really excited?"
+  },
+  {
+    "t_start": 439.98,
+    "t_end": 446.88,
+    "text": "So I never had any belief that my ideas would lead to bound of gaps between primes in any way,"
+  },
+  {
+    "t_start": 446.88,
+    "t_end": 450.45,
+    "text": "So I was just excited. I think you always super excited when you"
+  },
+  {
+    "t_start": 451.06,
+    "t_end": 456.239,
+    "text": "Suddenly one of these big results comes out and you know that collectively we understand something new about prime numbers"
+  },
+  {
+    "t_start": 456.31,
+    "t_end": 460.709,
+    "text": "So I was just desperate to get into the details of Zhang's work. There's always this"
+  },
+  {
+    "t_start": 462.64,
+    "t_end": 467.939,
+    "text": "Intense frustrating game that you play when you do mathematics that you sort of feel that you have an idea"
+  },
+  {
+    "t_start": 467.94,
+    "t_end": 468.94,
+    "text": "but you don't quite know"
+  },
+  {
+    "t_start": 468.94,
+    "t_end": 474.359,
+    "text": "Exactly how it fits in and it takes a long time of fumbling around in the darkness before you really get intuition for how"
+  },
+  {
+    "t_start": 474.64,
+    "t_end": 478.739,
+    "text": "What you're thinking about works... It's a huge motivation to me that this is part of the fun"
+  },
+  {
+    "t_start": 478.74,
+    "t_end": 482.34,
+    "text": "It's the chase of the problem and trying to understand what's going on"
+  },
+  {
+    "t_start": 482.34,
+    "t_end": 485.519,
+    "text": "So I was still completely addicted to this thing that I've been working on"
+  },
+  {
+    "t_start": 485.919,
+    "t_end": 490.589,
+    "text": "And I viewed it as a side benefit that it might actually be able to help this"
+  },
+  {
+    "t_start": 490.78,
+    "t_end": 498.479,
+    "text": "big collaborative project if I could sort my ideas out, but then the huge surprise to me was that actually once I managed to"
+  },
+  {
+    "t_start": 499.0,
+    "t_end": 502.24,
+    "text": "Grasp a hold of this and look at things in from the right perspective"
+  },
+  {
+    "t_start": 503.5,
+    "t_end": 505.88,
+    "text": "A variation on the ideas that I was thinking about"
+  },
+  {
+    "t_start": 506.28,
+    "t_end": 509.98,
+    "text": "Were able to prove bound of gaps in a completely different way to Zhang's work."
+  },
+  {
+    "t_start": 510.14,
+    "t_end": 513.14,
+    "text": "This gave a completely new way of proving bound of gaps between times"
+  },
+  {
+    "t_start": 513.52,
+    "t_end": 519.48,
+    "text": "so both my work and Zhang's work is very much based on the earlier work of Goldston Pintz and Yildirim"
+  },
+  {
+    "t_start": 519.84,
+    "t_end": 525.5,
+    "text": "and Goldston Pintz and Yildirim used an argument that's fundamentally using a technique known as Sieve methods"
+  },
+  {
+    "t_start": 525.86,
+    "t_end": 528.849,
+    "text": "They proved a great result about primes which come close together"
+  },
+  {
+    "t_start": 529.04,
+    "t_end": 535.089,
+    "text": "And they said if we could prove this other technical result that isn't to do with Sieve methods"
+  },
+  {
+    "t_start": 535.46,
+    "t_end": 541.42,
+    "text": "Then we'd be able to bound of gaps between primes, and so what Zhang managed to do is"
+  },
+  {
+    "t_start": 541.84,
+    "t_end": 547.62,
+    "text": "Essentially proved something like what they wanted to prove and therefore use their argument to get bound of gaps between primes."
+  },
+  {
+    "t_start": 548.51,
+    "t_end": 549.68,
+    "text": "Whereas"
+  },
+  {
+    "t_start": 549.68,
+    "t_end": 557.7,
+    "text": "my approach was based on their original ideas rethinking some of the way their original argument worked which meant that you didn't need such a"
+  },
+  {
+    "t_start": 558.8,
+    "t_end": 564.08,
+    "text": "Strong technical input and so I could use weaker results that be known for the past 50 years or so instead"
+  },
+  {
+    "t_start": 564.649,
+    "t_end": 570.729,
+    "text": "On the one hand I tend to sort of feel my way to a proof and know it's right before I"
+  },
+  {
+    "t_start": 571.07,
+    "t_end": 576.549,
+    "text": "Actually write down all the details so I did have this feeling that yes, this has the feeling of being right"
+  },
+  {
+    "t_start": 576.76,
+    "t_end": 579.16,
+    "text": "But at the same time I remember"
+  },
+  {
+    "t_start": 580.28,
+    "t_end": 583.12,
+    "text": "Being pretty scared when I first came up with the ideas"
+  },
+  {
+    "t_start": 583.399,
+    "t_end": 586.389,
+    "text": "Because you know I was going to be very much putting myself out there"
+  },
+  {
+    "t_start": 586.39,
+    "t_end": 591.969,
+    "text": "And it's very important for mathematicians to really be strict with themselves to check that they've got all the details right"
+  },
+  {
+    "t_start": 592.07,
+    "t_end": 596.649,
+    "text": "but you often have this internal feeling about these things and it felt like it to me."
+  },
+  {
+    "t_start": 597.769,
+    "t_end": 601.149,
+    "text": "I was really surprised, so yeah there was suddenly lots and lots of interest"
+  },
+  {
+    "t_start": 601.149,
+    "t_end": 606.159,
+    "text": "I was a postdoc at the time in Montréal when this came out and suddenly I was getting invitations to fly all over"
+  },
+  {
+    "t_start": 606.86,
+    "t_end": 611.409,
+    "text": "to give talks in different places in the US, so it was really exciting for me being able to"
+  },
+  {
+    "t_start": 611.959,
+    "t_end": 617.979,
+    "text": "Meet all these famous mathematicians, give talks of my work suddenly everyone is very excited. I hadn't really expected this at all"
+  },
+  {
+    "t_start": 617.98,
+    "t_end": 621.279,
+    "text": "I thought you know I was pleased that I'd proven a nice result"
+  },
+  {
+    "t_start": 621.279,
+    "t_end": 625.029,
+    "text": "But I was more pleased because I'd finally managed to get an understanding of these things and"
+  },
+  {
+    "t_start": 625.43,
+    "t_end": 628.989,
+    "text": "I had the satisfaction of the proof. I hadn't really expected there to be any"
+  },
+  {
+    "t_start": 630.02,
+    "t_end": 634.0,
+    "text": "Media interest or all these people asking me to give talks and things."
+  },
+  {
+    "t_start": 634.0,
+    "t_end": 636.2,
+    "text": "So some people have called it the Maynard and Tao method"
+  },
+  {
+    "t_start": 636.52,
+    "t_end": 639.76,
+    "text": "So Terry Tao was also thinking about similar ideas"
+  },
+  {
+    "t_start": 639.76,
+    "t_end": 642.819,
+    "text": "He was very actively involved in leading this polymath project"
+  },
+  {
+    "t_start": 642.829,
+    "t_end": 646.869,
+    "text": "And so he came up with essentially the same method at the same time"
+  },
+  {
+    "t_start": 646.88,
+    "t_end": 649.269,
+    "text": "It was another bizarre coincidence that there were"
+  },
+  {
+    "t_start": 649.67,
+    "t_end": 654.61,
+    "text": "There was this one proof by Yitang Zhang that came out and then both terry and I came up with"
+  },
+  {
+    "t_start": 655.18,
+    "t_end": 662.92,
+    "text": "This new alternative method. So some people been calling it the Maynard Tao method. So the current state of the art, trying to optimize"
+  },
+  {
+    "t_start": 663.18,
+    "t_end": 667.76,
+    "text": "All these techniques including with these new method and these new ideas is"
+  },
+  {
+    "t_start": 668.38,
+    "t_end": 675.149,
+    "text": "Is that they're infinitely many pairs of primes that differ by no more than two hundred and Forty-six. We expect that every even number"
+  },
+  {
+    "t_start": 676.269,
+    "t_end": 680.879,
+    "text": "between 2 and 246 occurs, it's no different, in particular we expect two"
+  },
+  {
+    "t_start": 681.699,
+    "t_end": 685.859,
+    "text": "But we know there's at least one between 2 and 246"
+  },
+  {
+    "t_start": 686.8,
+    "t_end": 688.8,
+    "text": "Can your method get us to two?"
+  },
+  {
+    "t_start": 689.62,
+    "t_end": 691.62,
+    "text": "Unfortunately there's a"
+  },
+  {
+    "t_start": 691.779,
+    "t_end": 696.898,
+    "text": "Fundamental barrier to our method get my sequel to to you so in some later work"
+  },
+  {
+    "t_start": 697.149,
+    "t_end": 703.919,
+    "text": "we said that if you [a] really optimistic about how we could maybe get all the technical stages of the argument to fit together and"
+  },
+  {
+    "t_start": 704.44,
+    "t_end": 711.239,
+    "text": "If you able to prove these other very strong results that were sort of strong versions of what yu tang jang managed to prove then"
+  },
+  {
+    "t_start": 712.3,
+    "t_end": 717.06,
+    "text": "Maybe you can just about push our methods to get gaps of size at most six infinitely often"
+  },
+  {
+    "t_start": 717.67,
+    "t_end": 722.279,
+    "text": "But we also showed that there's not going to be any small variation on"
+  },
+  {
+    "t_start": 722.56,
+    "t_end": 727.019,
+    "text": "These sorts of ideas that can really get down to two so you can get close to you"
+  },
+  {
+    "t_start": 727.019,
+    "t_end": 728.17,
+    "text": "But not quite all the way"
+  },
+  {
+    "t_start": 728.17,
+    "t_end": 733.17,
+    "text": "there's a new idea that's needed to get all the way to the twin type of injection for sure the reason for it is that"
+  },
+  {
+    "t_start": 733.17,
+    "t_end": 737.819,
+    "text": "We have these mathematical devices that are trying to detect time numbers"
+  },
+  {
+    "t_start": 737.819,
+    "t_end": 742.169,
+    "text": "But they don't work perfectly there are only approximately detected prime numbers"
+  },
+  {
+    "t_start": 742.3,
+    "t_end": 750.359,
+    "text": "six of the time or something like that, and if you're getting like one in ten at the time"
+  },
+  {
+    "t_start": 750.579,
+    "t_end": 755.879,
+    "text": "Then maybe if you're looking for primes that come close together you miss a whole load of being between primes"
+  },
+  {
+    "t_start": 755.949,
+    "t_end": 757.949,
+    "text": "But you still find to that a pretty close together"
+  },
+  {
+    "t_start": 758.38,
+    "t_end": 760.709,
+    "text": "So you may be missed out 10 of them"
+  },
+  {
+    "t_start": 760.709,
+    "t_end": 765.599,
+    "text": "But on the tenth one you find one and there may be 10 times further apart in you love hopes"
+  },
+  {
+    "t_start": 765.6,
+    "t_end": 770.909,
+    "text": "But they're still pretty close to get there no variation on these techniques even if you're really optimistic"
+  },
+  {
+    "t_start": 772.06,
+    "t_end": 775.949,
+    "text": "Can ever improve your way of finding primes to one into?"
+  },
+  {
+    "t_start": 776.29,
+    "t_end": 783.42,
+    "text": "Without using some extra automatic information and really a big new idea the fact that your proof has this"
+  },
+  {
+    "t_start": 784.54,
+    "t_end": 788.25,
+    "text": "Trait to it that it involves approximation of things that aren't always right"
+  },
+  {
+    "t_start": 788.649,
+    "t_end": 791.189,
+    "text": "Doesn't sound like what I mentioned a method proof"
+  },
+  {
+    "t_start": 791.19,
+    "t_end": 793.739,
+    "text": "Is that already sounds like it's a bit hand wavy"
+  },
+  {
+    "t_start": 793.74,
+    "t_end": 799.859,
+    "text": "And wishy-washy I happen to this beat one of these classic rigorous proof if it's like sometimes a bit wrong"
+  },
+  {
+    "t_start": 801.55,
+    "t_end": 803.55,
+    "text": "like so this is actually a"
+  },
+  {
+    "t_start": 803.89,
+    "t_end": 809.009,
+    "text": "common feature of lots of Modern mathematics that you'll maybe take inspiration from"
+  },
+  {
+    "t_start": 809.529,
+    "t_end": 814.768,
+    "text": "Probability or engineering and you still have to write down the rivers mathematical proof"
+  },
+  {
+    "t_start": 815.019,
+    "t_end": 818.459,
+    "text": "But you maybe think about the whole approach in a heuristic way"
+  },
+  {
+    "t_start": 819.04,
+    "t_end": 825.48,
+    "text": "in a much less rigorous sense and so you might [think] about lots of randomness in your problem, and"
+  },
+  {
+    "t_start": 826.0,
+    "t_end": 828.0,
+    "text": "You might be deliberately trying to"
+  },
+  {
+    "t_start": 828.61,
+    "t_end": 831.36,
+    "text": "model prime numbers as random objects and"
+  },
+  {
+    "t_start": 831.79,
+    "t_end": 836.909,
+    "text": "Think about them is not always being definitive and things being a bit approximate here and there"
+  },
+  {
+    "t_start": 837.399,
+    "t_end": 841.139,
+    "text": "And when you write [down] your argument you have to write it down in a very rigorous way"
+  },
+  {
+    "t_start": 841.48,
+    "t_end": 845.789,
+    "text": "But all the intuitive ideas for why you come up with that out one in the first place?"
+  },
+  {
+    "t_start": 846.339,
+    "t_end": 849.749,
+    "text": "often taken inspiration from [Private] [sector] areas of"
+  },
+  {
+    "t_start": 850.45,
+    "t_end": 856.499,
+    "text": "mathematics and science are you trying to find that breakthrough that will take us to tell you or do you feel like you've made your"
+  },
+  {
+    "t_start": 856.69,
+    "t_end": 863.279,
+    "text": "Contribution, and that's gonna some come from another part of map or are you in the hand still and I would certainly still love to"
+  },
+  {
+    "t_start": 864.16,
+    "t_end": 866.16,
+    "text": "Prove the Twin prime conjecture or something like that"
+  },
+  {
+    "t_start": 866.16,
+    "t_end": 873.75,
+    "text": "And I do think about it on Friday afternoons and things that somehow. There's a big new idea"
+  },
+  {
+    "t_start": 873.75,
+    "t_end": 876.0,
+    "text": "That's needed and at the moment collectively"
+  },
+  {
+    "t_start": 876.0,
+    "t_end": 877.149,
+    "text": "I think we don't really have a"
+  },
+  {
+    "t_start": 877.149,
+    "t_end": 880.139,
+    "text": "Clue for how to go about that someone needs to come up with an idea"
+  },
+  {
+    "t_start": 880.14,
+    "t_end": 885.27,
+    "text": "and it's good to have these problems in the back of your mind because sometimes your subconscious just comes up with a"
+  },
+  {
+    "t_start": 885.91,
+    "t_end": 889.62,
+    "text": "Good idea out of nowhere. So I like to think about it on and off"
+  },
+  {
+    "t_start": 889.62,
+    "t_end": 893.789,
+    "text": "But I'm not working full time on the twin prime conjecture now just because at the moment"
+  },
+  {
+    "t_start": 893.79,
+    "t_end": 897.54,
+    "text": "I don't have a plausible approach to how to get over their current bias"
+  },
+  {
+    "t_start": 897.54,
+    "t_end": 905.04,
+    "text": "I still get my main motivation from the problems themselves, and I would certainly claim I"
+  },
+  {
+    "t_start": 906.22,
+    "t_end": 910.89,
+    "text": "Haven't I [don't] feel terribly affected by the outside interest the reason that I want to"
+  },
+  {
+    "t_start": 911.38,
+    "t_end": 914.549,
+    "text": "Understand things about prime numbers is because I'm fascinated by prime numbers"
+  },
+  {
+    "t_start": 914.55,
+    "t_end": 920.159,
+    "text": "And I really want [to] get into the grips of the mathematical dirty details and do this although"
+  },
+  {
+    "t_start": 920.16,
+    "t_end": 923.01,
+    "text": "[I] know that there's lots of good reasons for being interested in time"
+  },
+  {
+    "t_start": 923.19,
+    "t_end": 925.739,
+    "text": "There's more generally for applications in the world Real world"
+  },
+  {
+    "t_start": 925.74,
+    "t_end": 933.419,
+    "text": "And they certainly interest that it can be picked up on the popular press and things like that those aren't my personal motivation somehow"
+  },
+  {
+    "t_start": 933.67,
+    "t_end": 935.94,
+    "text": "There's an inherent beauty about prime numbers"
+  },
+  {
+    "t_start": 937.24,
+    "t_end": 942.57,
+    "text": "That's always what really motivates me to try and understand the mysteries of these seemingly very simple"
+  },
+  {
+    "t_start": 942.57,
+    "t_end": 946.409,
+    "text": "But actually very complicated objects, but you don't get pressures"
+  },
+  {
+    "t_start": 946.41,
+    "t_end": 950.16,
+    "text": "it's not like a boss will come up and say you know [James] to be really good for us if the"
+  },
+  {
+    "t_start": 951.04,
+    "t_end": 954.63,
+    "text": "Number two came from here. I certainly not had anyone come"
+  },
+  {
+    "t_start": 955.63,
+    "t_end": 962.849,
+    "text": "Try and get the enforces to make me bring the gap down so I've not felt any pressure myself. I can't speak for others"
+  },
+  {
+    "t_start": 964.709,
+    "t_end": 968.688,
+    "text": "Which one would you most like to see solved which one would excite me the most I?"
+  },
+  {
+    "t_start": 969.3,
+    "t_end": 976.879,
+    "text": "Think the Riemann hypothesis would be the first choice for most number theorists in terms of if you want a problem on prime numbers"
+  },
+  {
+    "t_start": 977.16,
+    "t_end": 982.61,
+    "text": "The Riemann hypothesis just automatically proves about a million other theorem straight away, just off the bat"
+  },
+  {
+    "t_start": 982.61,
+    "t_end": 987.439,
+    "text": "That's all these firms that say if we're even hypothesis to than this and so you"
+  },
+  {
+    "t_start": 987.689,
+    "t_end": 994.789,
+    "text": "automatically prove a million other theorems just with this and we have this huge new understanding that even more than"
+  },
+  {
+    "t_start": 995.22,
+    "t_end": 1000.91,
+    "text": "The Riemann hypothesis as a result the proof and the ideas and the proof that [prove] [the] reason hypothesis"
+  },
+  {
+    "t_start": 1001.639,
+    "t_end": 1007.299,
+    "text": "Inherently must get such a good understanding of prime numbers that will have this whole new way of looking about prime numbers"
+  },
+  {
+    "t_start": 1007.3,
+    "t_end": 1010.209,
+    "text": "I would guess if someone was able to prove the [Riemann] hypothesis"
+  },
+  {
+    "t_start": 1010.209,
+    "t_end": 1013.029,
+    "text": "And this whole new technique that would open up all kinds of new possibilities"
+  },
+  {
+    "t_start": 1013.699,
+    "t_end": 1020.349,
+    "text": "So yeah, if I had to choose one, it'd be the Riemann hypothesis does the Riemann hypothesis ever get any of your brain done?"
+  },
+  {
+    "t_start": 1021.199,
+    "t_end": 1022.579,
+    "text": "I"
+  },
+  {
+    "t_start": 1022.579,
+    "t_end": 1024.579,
+    "text": "like to sometimes think about"
+  },
+  {
+    "t_start": 1024.949,
+    "t_end": 1035.109,
+    "text": "but the Riemann hypothesis itself I feel I have no good intuitive way of even starting to how to"
+  },
+  {
+    "t_start": 1035.51,
+    "t_end": 1036.86,
+    "text": "attack that kind of problem"
+  },
+  {
+    "t_start": 1036.86,
+    "t_end": 1041.589,
+    "text": "But there's lots of smaller problems connected the Riemann hypothesis that are very important for Par numbers"
+  },
+  {
+    "t_start": 1041.589,
+    "t_end": 1047.438,
+    "text": "And those are things that I'm very interested in certainly thinks about quite a lot yeah likely to find your n"
+  },
+  {
+    "t_start": 1047.449,
+    "t_end": 1053.259,
+    "text": "You know your true love because the prime numbers are so far apart at that large end of things"
+  },
+  {
+    "t_start": 1053.26,
+    "t_end": 1055.1,
+    "text": "So it's a pretty loveless place"
+  },
+  {
+    "t_start": 1055.1,
+    "t_end": 1059.529,
+    "text": "You know at that end of things so you get a bigger a bigger numbers you might think there's just no way you're going to"
+  },
+  {
+    "t_start": 1059.529,
+    "t_end": 1061.529,
+    "text": "Find your true [love]"
+  }
+]

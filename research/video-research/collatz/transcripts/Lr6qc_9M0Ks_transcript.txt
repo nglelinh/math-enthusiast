@@ -1,0 +1,1932 @@
+hi so veritasium just uploaded a video
+hi so veritasium just uploaded a video
+hi so veritasium just uploaded a video
+on the so-called 3x plus one problem
+on the so-called 3x plus one problem
+on the so-called 3x plus one problem
+here's a snippet from that video of
+here's a snippet from that video of
+here's a snippet from that video of
+course
+course
+course
+there is another option and that is that
+there is another option and that is that
+there is another option and that is that
+we'll never know
+we'll never know
+we'll never know
+that the problem is undecidable in 1987
+that the problem is undecidable in 1987
+that the problem is undecidable in 1987
+john conway created a generalization of
+john conway created a generalization of
+john conway created a generalization of
+three x plus one
+three x plus one
+three x plus one
+it was a mathematical machine that he
+it was a mathematical machine that he
+it was a mathematical machine that he
+called fractron
+called fractron
+called fractron
+and he was able to show this machine is
+and he was able to show this machine is
+and he was able to show this machine is
+touring complete
+touring complete
+touring complete
+which means it can do anything a modern
+which means it can do anything a modern
+which means it can do anything a modern
+computer can do
+computer can do
+computer can do
+but it also means that it's subject to
+but it also means that it's subject to
+but it also means that it's subject to
+the halting problem
+the halting problem
+the halting problem
+a chance that the machine never stops
+a chance that the machine never stops
+a chance that the machine never stops
+running and so doesn't give you
+running and so doesn't give you
+running and so doesn't give you
+an output and this does not prove that
+an output and this does not prove that
+an output and this does not prove that
+three x plus one is
+three x plus one is
+three x plus one is
+also subject to the halting problem but
+also subject to the halting problem but
+also subject to the halting problem but
+it is possible that given what we know
+it is possible that given what we know
+it is possible that given what we know
+we may never prove the callouts
+we may never prove the callouts
+we may never prove the callouts
+conjecture true
+conjecture true
+conjecture true
+or false okay so i want to discuss
+or false okay so i want to discuss
+or false okay so i want to discuss
+what veritasium said about being subject
+what veritasium said about being subject
+what veritasium said about being subject
+to the halting problem
+to the halting problem
+to the halting problem
+which does not imply that the problem is
+which does not imply that the problem is
+which does not imply that the problem is
+undecidable so
+undecidable so
+undecidable so
+what are all these terms mean so that we
+what are all these terms mean so that we
+what are all these terms mean so that we
+have a consistent definition
+have a consistent definition
+have a consistent definition
+here so undecidable for most practical
+here so undecidable for most practical
+here so undecidable for most practical
+purposes
+purposes
+purposes
+means that there is no algorithm
+means that there is no algorithm
+means that there is no algorithm
+for that particular problem okay so
+for that particular problem okay so
+for that particular problem okay so
+there's just no algorithm to solve this
+there's just no algorithm to solve this
+there's just no algorithm to solve this
+problem whatever that means
+problem whatever that means
+problem whatever that means
+okay so an algorithm
+okay so an algorithm
+okay so an algorithm
+for those who don't know means that
+for those who don't know means that
+for those who don't know means that
+there's some kind of input
+there's some kind of input
+there's some kind of input
+and there's some kind of output
+and there's some kind of output
+and there's some kind of output
+and there's some kind of process in
+and there's some kind of process in
+and there's some kind of process in
+between
+between
+between
+and very importantly that process takes
+and very importantly that process takes
+and very importantly that process takes
+finite time whatever that process is
+finite time whatever that process is
+finite time whatever that process is
+okay so there's a finite input of finite
+okay so there's a finite input of finite
+okay so there's a finite input of finite
+size
+size
+size
+then there's some computational process
+then there's some computational process
+then there's some computational process
+that takes a finite amount of time
+that takes a finite amount of time
+that takes a finite amount of time
+for some definition a finite amount of
+for some definition a finite amount of
+for some definition a finite amount of
+time and then some output is produced
+time and then some output is produced
+time and then some output is produced
+okay so an algorithm
+okay so an algorithm
+okay so an algorithm
+then needs to correctly answer the
+then needs to correctly answer the
+then needs to correctly answer the
+question
+question
+question
+whatever it is for any possible input
+whatever it is for any possible input
+whatever it is for any possible input
+over whatever the space that we're
+over whatever the space that we're
+over whatever the space that we're
+working with
+working with
+working with
+is so what is the three x plus one
+is so what is the three x plus one
+is so what is the three x plus one
+problem
+problem
+problem
+so let's describe that problem
+so let's describe that problem
+so let's describe that problem
+so the input here there's only one input
+so the input here there's only one input
+so the input here there's only one input
+is going to be some number n
+is going to be some number n
+is going to be some number n
+which is going to be an integer
+so the thing is that there can actually
+so the thing is that there can actually
+so the thing is that there can actually
+be multiple ways of representing this
+be multiple ways of representing this
+be multiple ways of representing this
+but this is the way that i'm going to
+but this is the way that i'm going to
+but this is the way that i'm going to
+represent it
+represent it
+represent it
+and then the output here let's say is
+and then the output here let's say is
+and then the output here let's say is
+some kind of boolean
+some kind of boolean
+some kind of boolean
+and we know what the boolean actually
+and we know what the boolean actually
+and we know what the boolean actually
+means but i might as well just describe
+means but i might as well just describe
+means but i might as well just describe
+what it actually means so this boolean
+what it actually means so this boolean
+what it actually means so this boolean
+is going to be
+is going to be
+is going to be
+true if f
+true if f
+true if f
+um actually i'm going to say it this way
+um actually i'm going to say it this way
+um actually i'm going to say it this way
+if the trajectory
+of n is
+of n is
+of n is
+um reaches one
+um reaches one
+um reaches one
+so what does that mean so the trajectory
+so what does that mean so the trajectory
+so what does that mean so the trajectory
+refers to the collapse trajectory so
+refers to the collapse trajectory so
+refers to the collapse trajectory so
+that's what the 3x plus 1 actually
+that's what the 3x plus 1 actually
+that's what the 3x plus 1 actually
+refers to
+refers to
+refers to
+so the trajectory i'm going to define as
+so the trajectory i'm going to define as
+so the trajectory i'm going to define as
+a function f
+a function f
+a function f
+which is going to be uh defined for some
+which is going to be uh defined for some
+which is going to be uh defined for some
+number
+number
+number
+x to be one of two possibilities which
+x to be one of two possibilities which
+x to be one of two possibilities which
+is three x plus one or x over two
+is three x plus one or x over two
+is three x plus one or x over two
+depending on whether the number x is odd
+depending on whether the number x is odd
+depending on whether the number x is odd
+so
+so
+so
+the the 3x plus 1 case is if
+the the 3x plus 1 case is if
+the the 3x plus 1 case is if
+um if x is odd
+um if x is odd
+um if x is odd
+and then x over 2 if x is even
+and then x over 2 if x is even
+and then x over 2 if x is even
+okay and the trajectory just refers to
+okay and the trajectory just refers to
+okay and the trajectory just refers to
+starting with the number n applying f to
+starting with the number n applying f to
+starting with the number n applying f to
+it the result over and over and over and
+it the result over and over and over and
+it the result over and over and over and
+over
+over
+over
+and if it eventually reaches one then we
+and if it eventually reaches one then we
+and if it eventually reaches one then we
+will say yes
+will say yes
+will say yes
+and then false otherwise okay
+and then false otherwise okay
+and then false otherwise okay
+so the question that we want to answer
+so the question that we want to answer
+so the question that we want to answer
+is
+is
+is
+is there any integer in for which the
+is there any integer in for which the
+is there any integer in for which the
+result
+result
+result
+is false okay so then
+is false okay so then
+is false okay so then
+the question is well how is the out
+the question is well how is the out
+the question is well how is the out
+the problem actually represented here so
+the problem actually represented here so
+the problem actually represented here so
+the thing is that we might be able to
+the thing is that we might be able to
+the thing is that we might be able to
+figure out whether a particular integer
+figure out whether a particular integer
+figure out whether a particular integer
+um gives a true value
+um gives a true value
+um gives a true value
+or not so the question is is there some
+or not so the question is is there some
+or not so the question is is there some
+integer n for which there's a false
+integer n for which there's a false
+integer n for which there's a false
+value that it outputs
+value that it outputs
+value that it outputs
+so one thing that you might try is let's
+so one thing that you might try is let's
+so one thing that you might try is let's
+suppose
+suppose
+suppose
+that suppose and actually i'm going to
+that suppose and actually i'm going to
+that suppose and actually i'm going to
+give this a name so this is going to be
+give this a name so this is going to be
+give this a name so this is going to be
+uh an algorithm i'm going to call single
+uh an algorithm i'm going to call single
+uh an algorithm i'm going to call single
+of n so we're going to suppose that the
+of n so we're going to suppose that the
+of n so we're going to suppose that the
+single
+single
+single
+function the single problem is decidable
+meaning that there is some algorithm for
+meaning that there is some algorithm for
+meaning that there is some algorithm for
+it
+it
+it
+al for single
+al for single
+al for single
+so for any particular integer n i can
+so for any particular integer n i can
+so for any particular integer n i can
+figure out
+figure out
+figure out
+whether its trajectory actually reaches
+whether its trajectory actually reaches
+whether its trajectory actually reaches
+one
+one
+one
+the problem is that i can figure out
+the problem is that i can figure out
+the problem is that i can figure out
+whether one integer reaches one
+whether one integer reaches one
+whether one integer reaches one
+but i don't know whether there exists
+but i don't know whether there exists
+but i don't know whether there exists
+some number
+some number
+some number
+n for which the trajectory never reaches
+n for which the trajectory never reaches
+n for which the trajectory never reaches
+one whether there's some kind of loop or
+one whether there's some kind of loop or
+one whether there's some kind of loop or
+whether
+whether
+whether
+it goes off to infinity or something
+it goes off to infinity or something
+it goes off to infinity or something
+so this does not imply or
+so this does not imply or
+so this does not imply or
+does not immediately imply that
+does not immediately imply that
+does not immediately imply that
+three x plus one is
+three x plus one is
+three x plus one is
+decidable
+okay and you may think okay well then
+okay and you may think okay well then
+okay and you may think okay well then
+it's undecidable then
+it's undecidable then
+it's undecidable then
+but we can't actually say that so
+but we can't actually say that so
+but we can't actually say that so
+subject to the halting problem is a
+subject to the halting problem is a
+subject to the halting problem is a
+little wishy-washy
+little wishy-washy
+little wishy-washy
+if there was a reduction from the
+if there was a reduction from the
+if there was a reduction from the
+halting problem
+halting problem
+halting problem
+then that would imply that it's
+then that would imply that it's
+then that would imply that it's
+undecidable but
+undecidable but
+undecidable but
+for this specific problem there isn't
+for this specific problem there isn't
+for this specific problem there isn't
+such a reduction
+such a reduction
+such a reduction
+the reference to conway's work is an
+the reference to conway's work is an
+the reference to conway's work is an
+actual reduction from the halting
+actual reduction from the halting
+actual reduction from the halting
+problem and that's why that
+problem and that's why that
+problem and that's why that
+generalized problem is undecidable
+generalized problem is undecidable
+generalized problem is undecidable
+whereas this one may or may not be as
+whereas this one may or may not be as
+whereas this one may or may not be as
+veritasium says
+veritasium says
+veritasium says
+but again it really depends on the
+but again it really depends on the
+but again it really depends on the
+encoding
+encoding
+encoding
+let me give you an example so
+let me give you an example so
+let me give you an example so
+of why the generalized problem can be
+of why the generalized problem can be
+of why the generalized problem can be
+undecidable but the specific problem can
+undecidable but the specific problem can
+undecidable but the specific problem can
+be decidable
+be decidable
+be decidable
+so we he mentioned these things called
+so we he mentioned these things called
+so we he mentioned these things called
+turing machines
+turing machines
+turing machines
+which are these tapes with some cells in
+which are these tapes with some cells in
+which are these tapes with some cells in
+them
+them
+them
+and a tape head that looks at particular
+and a tape head that looks at particular
+and a tape head that looks at particular
+cells
+cells
+cells
+and it moves left to right depending on
+and it moves left to right depending on
+and it moves left to right depending on
+what the cells are
+what the cells are
+what the cells are
+and some finite state control that's
+and some finite state control that's
+and some finite state control that's
+controlling this whole thing
+controlling this whole thing
+controlling this whole thing
+and one of the questions centralized
+and one of the questions centralized
+and one of the questions centralized
+questions
+questions
+questions
+is um well actually i'll call it halt
+is um well actually i'll call it halt
+is um well actually i'll call it halt
+so given some turing machine m
+so given some turing machine m
+so given some turing machine m
+on input let's say w
+on input let's say w
+on input let's say w
+does m halt
+does m halt
+does m halt
+or stop on w so there are special states
+or stop on w so there are special states
+or stop on w so there are special states
+that
+that
+that
+if you enter them will have the machine
+if you enter them will have the machine
+if you enter them will have the machine
+automatically stop
+automatically stop
+automatically stop
+and so what we want to know is when we
+and so what we want to know is when we
+and so what we want to know is when we
+start this machine up on this input w
+start this machine up on this input w
+start this machine up on this input w
+do we ever hit one of those halt states
+do we ever hit one of those halt states
+do we ever hit one of those halt states
+and this problem
+and this problem
+and this problem
+um and i've done it on the channel many
+um and i've done it on the channel many
+um and i've done it on the channel many
+times is undecidable that one actually
+times is undecidable that one actually
+times is undecidable that one actually
+is undecidable
+is undecidable
+is undecidable
+okay provably but let's
+okay provably but let's
+okay provably but let's
+consider a variant so this is something
+consider a variant so this is something
+consider a variant so this is something
+called a linear bounded automaton
+called a linear bounded automaton
+called a linear bounded automaton
+so what is a linear bounded automaton so
+so what is a linear bounded automaton so
+so what is a linear bounded automaton so
+it's this
+it's this
+it's this
+exact same thing as a turing machine so
+exact same thing as a turing machine so
+exact same thing as a turing machine so
+we have some tape and some cells
+we have some tape and some cells
+we have some tape and some cells
+and we have again the tape head there
+and we have again the tape head there
+and we have again the tape head there
+but here we are going to have the the
+but here we are going to have the the
+but here we are going to have the the
+tape
+tape
+tape
+be fixed in size so the
+be fixed in size so the
+be fixed in size so the
+string w here is occupying
+string w here is occupying
+string w here is occupying
+at least at the start the cells of the
+at least at the start the cells of the
+at least at the start the cells of the
+tape
+tape
+tape
+and we have two additional cells at the
+and we have two additional cells at the
+and we have two additional cells at the
+end
+end
+end
+which i'm going to have special symbols
+which i'm going to have special symbols
+which i'm going to have special symbols
+there although it's not important what
+there although it's not important what
+there although it's not important what
+they are
+they are
+they are
+to denote the ends of the the input
+to denote the ends of the the input
+to denote the ends of the the input
+and the question here i'm going to call
+and the question here i'm going to call
+and the question here i'm going to call
+halt 4 lbas
+halt 4 lbas
+halt 4 lbas
+is given some lba
+is given some lba
+is given some lba
+and a string w does
+and a string w does
+and a string w does
+this lba i'm going to call m halt
+this lba i'm going to call m halt
+this lba i'm going to call m halt
+on w and this one is decidable
+on w and this one is decidable
+on w and this one is decidable
+because um if we have
+because um if we have
+because um if we have
+so let's say that the length of w is n
+so let's say that the length of w is n
+so let's say that the length of w is n
+so because we can't allocate additional
+so because we can't allocate additional
+so because we can't allocate additional
+cells here
+cells here
+cells here
+that means that and there are finite
+that means that and there are finite
+that means that and there are finite
+number of things that can appear in each
+number of things that can appear in each
+number of things that can appear in each
+cell
+cell
+cell
+there are a finite number
+there are a finite number
+there are a finite number
+of configurations of this
+of configurations of this
+of configurations of this
+lba in total and so what we can do
+lba in total and so what we can do
+lba in total and so what we can do
+is simulate this lba for that amount of
+is simulate this lba for that amount of
+is simulate this lba for that amount of
+time
+time
+time
+and if it hasn't stopped at this point
+and if it hasn't stopped at this point
+and if it hasn't stopped at this point
+it never will stop
+it never will stop
+it never will stop
+because it must have repeated the
+because it must have repeated the
+because it must have repeated the
+configuration at some point
+configuration at some point
+configuration at some point
+okay so the generalized problem here i'm
+okay so the generalized problem here i'm
+okay so the generalized problem here i'm
+going to call halt
+going to call halt
+going to call halt
+is undecidable but since an lba
+is undecidable but since an lba
+is undecidable but since an lba
+already is a turing machine that just
+already is a turing machine that just
+already is a turing machine that just
+happens to have special
+happens to have special
+happens to have special
+behavior is decidable
+behavior is decidable
+behavior is decidable
+so that of course does not mean that
+so that of course does not mean that
+so that of course does not mean that
+three x plus one is undecidable or
+three x plus one is undecidable or
+three x plus one is undecidable or
+or decidable or not i'm claiming here
+or decidable or not i'm claiming here
+or decidable or not i'm claiming here
+that it's
+that it's
+that it's
+not undecidable which means that it is
+not undecidable which means that it is
+not undecidable which means that it is
+decidable
+decidable
+decidable
+under certain definitions of what it
+under certain definitions of what it
+under certain definitions of what it
+means to represent this problem
+means to represent this problem
+means to represent this problem
+okay so here if we represent this
+okay so here if we represent this
+okay so here if we represent this
+problem in a different way
+problem in a different way
+problem in a different way
+then it is decidable but if we represent
+then it is decidable but if we represent
+then it is decidable but if we represent
+it in this particular way
+it in this particular way
+it in this particular way
+it may or may not be decidable
+it may or may not be decidable
+it may or may not be decidable
+in a certain sense so let me give you
+in a certain sense so let me give you
+in a certain sense so let me give you
+um a proof quote unquote so this is a
+um a proof quote unquote so this is a
+um a proof quote unquote so this is a
+proof
+proof
+proof
+that the three x plus one problem
+that the three x plus one problem
+that the three x plus one problem
+is decidable
+and it's actually very very short so
+and it's actually very very short so
+and it's actually very very short so
+what i'm going to do is i'm going to
+what i'm going to do is i'm going to
+what i'm going to do is i'm going to
+define a language so if you don't know
+define a language so if you don't know
+define a language so if you don't know
+what that is that's a set of strings
+what that is that's a set of strings
+what that is that's a set of strings
+and it's going to be one of two
+and it's going to be one of two
+and it's going to be one of two
+possibilities
+possibilities
+possibilities
+so it's going to be zero or one and it's
+so it's going to be zero or one and it's
+so it's going to be zero or one and it's
+going to be the
+going to be the
+going to be the
+zero case uh otherwise
+zero case uh otherwise
+zero case uh otherwise
+the opposite condition of what the 1 is
+the opposite condition of what the 1 is
+the opposite condition of what the 1 is
+going to be and then the one condition
+going to be and then the one condition
+going to be and then the one condition
+is going to be if the 3
+is going to be if the 3
+is going to be if the 3
+x plus 1 conjecture
+is true so if this
+is true so if this
+is true so if this
+conjecture is true i i.e
+conjecture is true i i.e
+conjecture is true i i.e
+all of the the trajectories eventually
+all of the the trajectories eventually
+all of the the trajectories eventually
+reach one
+reach one
+reach one
+then this language is going to be set to
+then this language is going to be set to
+then this language is going to be set to
+one okay
+one okay
+one okay
+so i'm representing this language
+so i'm representing this language
+so i'm representing this language
+as a set of strings either zero or one
+as a set of strings either zero or one
+as a set of strings either zero or one
+depending on whether the conjecture is
+depending on whether the conjecture is
+depending on whether the conjecture is
+true okay
+true okay
+true okay
+so it's either the case that the
+so it's either the case that the
+so it's either the case that the
+conjecture is true or it isn't
+conjecture is true or it isn't
+conjecture is true or it isn't
+it's not some weird combination of like
+it's not some weird combination of like
+it's not some weird combination of like
+true and false or whatever
+true and false or whatever
+true and false or whatever
+it either is true or it is not true
+it either is true or it is not true
+it either is true or it is not true
+because it's just a statement about
+because it's just a statement about
+because it's just a statement about
+integers okay
+integers okay
+integers okay
+um although the truth of that is
+um although the truth of that is
+um although the truth of that is
+actually much more complicated that i'm
+actually much more complicated that i'm
+actually much more complicated that i'm
+making
+making
+making
+out here there's a reddit discussion i'm
+out here there's a reddit discussion i'm
+out here there's a reddit discussion i'm
+going to link in the video description
+going to link in the video description
+going to link in the video description
+about this but the thing is this
+about this but the thing is this
+about this but the thing is this
+conjecture is either
+conjecture is either
+conjecture is either
+true or it's not true okay or maybe
+true or it's not true okay or maybe
+true or it's not true okay or maybe
+it exists outside of our set system but
+it exists outside of our set system but
+it exists outside of our set system but
+the thing is it's either
+the thing is it's either
+the thing is it's either
+true or false we may not be able to
+true or false we may not be able to
+true or false we may not be able to
+prove
+prove
+prove
+that it's true or false but it is true
+that it's true or false but it is true
+that it's true or false but it is true
+or false regardless of that
+or false regardless of that
+or false regardless of that
+so in in either case here whether this
+so in in either case here whether this
+so in in either case here whether this
+language is zero
+language is zero
+language is zero
+or one whichever one of the case it is
+or one whichever one of the case it is
+or one whichever one of the case it is
+there is a decider for this language
+there is a decider for this language
+there is a decider for this language
+okay so no matter what happens
+l is decidable why is it decidable
+l is decidable why is it decidable
+l is decidable why is it decidable
+because the there's one possible decider
+because the there's one possible decider
+because the there's one possible decider
+that says zero
+that says zero
+that says zero
+on on all inputs just say zero and
+on on all inputs just say zero and
+on on all inputs just say zero and
+and on all inputs just say one there's
+and on all inputs just say one there's
+and on all inputs just say one there's
+another decider that just says
+another decider that just says
+another decider that just says
+one so i have two possible deciders
+one so i have two possible deciders
+one so i have two possible deciders
+that could exist here for this so
+that could exist here for this so
+that could exist here for this so
+the language of just zero there's a
+the language of just zero there's a
+the language of just zero there's a
+decider for that
+decider for that
+decider for that
+the language of just one there's a
+the language of just one there's a
+the language of just one there's a
+decider for that
+decider for that
+decider for that
+and so wherever the case
+and so wherever the case
+and so wherever the case
+whether whether the conjecture's true or
+whether whether the conjecture's true or
+whether whether the conjecture's true or
+not one of those two deciders is correct
+not one of those two deciders is correct
+not one of those two deciders is correct
+i do not know which one is the case
+i do not know which one is the case
+i do not know which one is the case
+because otherwise i would
+because otherwise i would
+because otherwise i would
+hand in my solution and get millions of
+hand in my solution and get millions of
+hand in my solution and get millions of
+dollars of
+dollars of
+dollars of
+fans and all that but the thing is there
+fans and all that but the thing is there
+fans and all that but the thing is there
+is a decider for this this language this
+is a decider for this this language this
+is a decider for this this language this
+language l right here
+language l right here
+language l right here
+not necessarily the problem although the
+not necessarily the problem although the
+not necessarily the problem although the
+language corresponds one-to-one with
+language corresponds one-to-one with
+language corresponds one-to-one with
+whether the conjecture is true
+whether the conjecture is true
+whether the conjecture is true
+so there is a decider for this language
+so there is a decider for this language
+so there is a decider for this language
+no matter what
+no matter what
+no matter what
+guaranteed however the problem
+guaranteed however the problem
+guaranteed however the problem
+lies in determining whether or not the
+lies in determining whether or not the
+lies in determining whether or not the
+language is actually zero or not so it's
+language is actually zero or not so it's
+language is actually zero or not so it's
+a little bit of a pedantic definition
+a little bit of a pedantic definition
+a little bit of a pedantic definition
+but the thing is that this problem
+but the thing is that this problem
+but the thing is that this problem
+phrased in
+phrased in
+phrased in
+this way is decidable and you can
+this way is decidable and you can
+this way is decidable and you can
+substitute
+substitute
+substitute
+anything that you want here like whether
+anything that you want here like whether
+anything that you want here like whether
+the
+the
+the
+nth digit of whether the string zero to
+nth digit of whether the string zero to
+nth digit of whether the string zero to
+the n
+the n
+the n
+is in the pi representation or something
+is in the pi representation or something
+is in the pi representation or something
+or whether we will ever find life on
+or whether we will ever find life on
+or whether we will ever find life on
+extraterrestrial planets whatever
+extraterrestrial planets whatever
+extraterrestrial planets whatever
+condition that you want here
+condition that you want here
+condition that you want here
+that condition is decidable no matter
+that condition is decidable no matter
+that condition is decidable no matter
+what if you can phrase it here
+what if you can phrase it here
+what if you can phrase it here
+okay so if phrase in this way
+okay so if phrase in this way
+okay so if phrase in this way
+this problem is decidable however
+this problem is decidable however
+this problem is decidable however
+if phrased in a different way uh
+if phrased in a different way uh
+if phrased in a different way uh
+corresponding to a different language it
+corresponding to a different language it
+corresponding to a different language it
+may or
+may or
+may or
+may not be decidable so it remains to be
+may not be decidable so it remains to be
+may not be decidable so it remains to be
+seen whether or not
+seen whether or not
+seen whether or not
+this phrasing is undecidable
+this phrasing is undecidable
+this phrasing is undecidable
+so the if the single problem is
+so the if the single problem is
+so the if the single problem is
+decidable
+decidable
+decidable
+the three x plus one may or may not
+the three x plus one may or may not
+the three x plus one may or may not
+because
+because
+because
+that is a statement about infinite sets
+that is a statement about infinite sets
+that is a statement about infinite sets
+of
+of
+of
+of of integers if it's proven
+of of integers if it's proven
+of of integers if it's proven
+that up let's just say that we
+that up let's just say that we
+that up let's just say that we
+um make some progress on the problem
+um make some progress on the problem
+um make some progress on the problem
+and we are able to show that the three x
+and we are able to show that the three x
+and we are able to show that the three x
+plus one conjecture is
+plus one conjecture is
+plus one conjecture is
+true from some number up
+true from some number up
+true from some number up
+so let's say like 10 to 10 to the 10 to
+so let's say like 10 to 10 to the 10 to
+so let's say like 10 to 10 to the 10 to
+the 10 to the 10 or whatever
+the 10 to the 10 or whatever
+the 10 to the 10 or whatever
+so just some big number from that point
+so just some big number from that point
+so just some big number from that point
+upward
+upward
+upward
+the conjecture is true and so the
+the conjecture is true and so the
+the conjecture is true and so the
+conjecture needs to be proven
+conjecture needs to be proven
+conjecture needs to be proven
+for the remaining numbers
+for the remaining numbers
+for the remaining numbers
+then it actually turns out to be
+then it actually turns out to be
+then it actually turns out to be
+decidable in that case
+decidable in that case
+decidable in that case
+because think about what happens
+because think about what happens
+because think about what happens
+so if actually i'll write it down
+so if actually i'll write it down
+so if actually i'll write it down
+so let's let's assume this so let's
+so let's let's assume this so let's
+so let's let's assume this so let's
+assume
+assume
+assume
+three x plus one is true
+three x plus one is true
+three x plus one is true
+[Music]
+[Music]
+[Music]
+for all n at least some
+for all n at least some
+for all n at least some
+big constant here so n and zero
+big constant here so n and zero
+big constant here so n and zero
+is a big number possibly
+is a big number possibly
+is a big number possibly
+so i'm assuming that this is the case i
+so i'm assuming that this is the case i
+so i'm assuming that this is the case i
+we i don't think this is the actual case
+we i don't think this is the actual case
+we i don't think this is the actual case
+but let's just assume that this is the
+but let's just assume that this is the
+but let's just assume that this is the
+case then
+case then
+case then
+what i claim to be true is
+what i claim to be true is
+what i claim to be true is
+is that 3x plus 1 is decidable
+why is that the case well what we can do
+why is that the case well what we can do
+why is that the case well what we can do
+is let's run our single
+is let's run our single
+is let's run our single
+um or we don't even need to run the
+um or we don't even need to run the
+um or we don't even need to run the
+single algorithm even if it doesn't
+single algorithm even if it doesn't
+single algorithm even if it doesn't
+exist
+exist
+exist
+we can actually just simulate the three
+we can actually just simulate the three
+we can actually just simulate the three
+x plus one problem
+x plus one problem
+x plus one problem
+long enough so let's let's
+long enough so let's let's
+long enough so let's let's
+solve the three x plus one problem
+oh that was awful handwriting so let's
+oh that was awful handwriting so let's
+oh that was awful handwriting so let's
+solve 3x plus 1 on some number n
+solve 3x plus 1 on some number n
+solve 3x plus 1 on some number n
+then what we're going to do is have a
+then what we're going to do is have a
+then what we're going to do is have a
+while true loop
+while true loop
+while true loop
+so i'm just going to write the usual
+so i'm just going to write the usual
+so i'm just going to write the usual
+algorithm for the 3x plus one problem
+algorithm for the 3x plus one problem
+algorithm for the 3x plus one problem
+so if n is odd
+so if n is odd
+so if n is odd
+we'll set n to be three n plus one
+we'll set n to be three n plus one
+we'll set n to be three n plus one
+otherwise set n to be n over two then
+otherwise set n to be n over two then
+otherwise set n to be n over two then
+what we can do is if it escapes
+what we can do is if it escapes
+what we can do is if it escapes
+this bound right here so like in the 3n
+this bound right here so like in the 3n
+this bound right here so like in the 3n
+plus 1 case if it goes way up past the
+plus 1 case if it goes way up past the
+plus 1 case if it goes way up past the
+n 0 bound assuming that this is true
+n 0 bound assuming that this is true
+n 0 bound assuming that this is true
+then we know we don't need to check
+then we know we don't need to check
+then we know we don't need to check
+anymore because
+anymore because
+anymore because
+assuming that this is true once you hit
+assuming that this is true once you hit
+assuming that this is true once you hit
+past this point
+past this point
+past this point
+then that means that the trajectory
+then that means that the trajectory
+then that means that the trajectory
+eventually reaches one
+eventually reaches one
+eventually reaches one
+so in here what we can do squeezed into
+so in here what we can do squeezed into
+so in here what we can do squeezed into
+there
+there
+there
+so if um n is bigger than
+so if um n is bigger than
+so if um n is bigger than
+n0 at that point after the update then
+n0 at that point after the update then
+n0 at that point after the update then
+we can return uh true
+we can return uh true
+we can return uh true
+okay or some terminating condition or
+okay or some terminating condition or
+okay or some terminating condition or
+whatever
+whatever
+whatever
+okay and i guarantee that this runs in a
+okay and i guarantee that this runs in a
+okay and i guarantee that this runs in a
+finite amount of time so
+finite amount of time so
+finite amount of time so
+i claim that this this thing is an
+i claim that this this thing is an
+i claim that this this thing is an
+algorithm so
+algorithm so
+algorithm so
+it does halt in a finite amount of time
+it does halt in a finite amount of time
+it does halt in a finite amount of time
+because
+because
+because
+uh think about what happens and in fact
+uh think about what happens and in fact
+uh think about what happens and in fact
+i'm going to draw it out so
+i'm going to draw it out so
+i'm going to draw it out so
+let's depict all integers like this and
+let's depict all integers like this and
+let's depict all integers like this and
+let's say
+let's say
+let's say
+that the n zero guy is right there
+that the n zero guy is right there
+that the n zero guy is right there
+so and then let's say that
+so and then let's say that
+so and then let's say that
+uh the integer n that we're given is
+uh the integer n that we're given is
+uh the integer n that we're given is
+right there
+right there
+right there
+well if n zero if we're given a number
+well if n zero if we're given a number
+well if n zero if we're given a number
+bigger than n zero then this is already
+bigger than n zero then this is already
+bigger than n zero then this is already
+true
+true
+true
+but then let's suppose that we have some
+but then let's suppose that we have some
+but then let's suppose that we have some
+number n well
+number n well
+number n well
+obviously wherever this number is it
+obviously wherever this number is it
+obviously wherever this number is it
+could
+could
+could
+uh go down and back up down and back up
+uh go down and back up down and back up
+uh go down and back up down and back up
+down and back up
+down and back up
+down and back up
+but it can only do so a finite number of
+but it can only do so a finite number of
+but it can only do so a finite number of
+times
+times
+times
+okay so it can only do so a finite
+okay so it can only do so a finite
+okay so it can only do so a finite
+number of times
+number of times
+number of times
+um before it either repeats a number
+um before it either repeats a number
+um before it either repeats a number
+down here
+down here
+down here
+or it escapes the bound up here so if it
+or it escapes the bound up here so if it
+or it escapes the bound up here so if it
+escapes the bound
+escapes the bound
+escapes the bound
+according to this then that means that
+according to this then that means that
+according to this then that means that
+the trajectory eventually reaches one
+the trajectory eventually reaches one
+the trajectory eventually reaches one
+so the only thing that we actually need
+so the only thing that we actually need
+so the only thing that we actually need
+to check is that it actually reaches one
+to check is that it actually reaches one
+to check is that it actually reaches one
+and if it reaches one that obviously is
+and if it reaches one that obviously is
+and if it reaches one that obviously is
+true
+true
+true
+but if it repeats a number then it
+but if it repeats a number then it
+but if it repeats a number then it
+obviously is false
+obviously is false
+obviously is false
+so let's modify our algorithm to take
+so let's modify our algorithm to take
+so let's modify our algorithm to take
+care of this
+care of this
+care of this
+so what i'm going to do is i'm going to
+so what i'm going to do is i'm going to
+so what i'm going to do is i'm going to
+move all of this down
+so here i'm going to say if n is bigger
+so here i'm going to say if n is bigger
+so here i'm going to say if n is bigger
+than n0
+than n0
+than n0
+return true because obviously that that
+return true because obviously that that
+return true because obviously that that
+claim is true
+claim is true
+claim is true
+um okay so then
+um okay so then
+um okay so then
+now what do we need to do uh so this is
+now what do we need to do uh so this is
+now what do we need to do uh so this is
+handling a particular number
+handling a particular number
+handling a particular number
+n obviously but we'll be able to handle
+n obviously but we'll be able to handle
+n obviously but we'll be able to handle
+every possible number eventually
+every possible number eventually
+every possible number eventually
+so if n is bigger than n0 then we can
+so if n is bigger than n0 then we can
+so if n is bigger than n0 then we can
+return true
+return true
+return true
+otherwise we need to keep a track of
+otherwise we need to keep a track of
+otherwise we need to keep a track of
+all the integers we've ever seen so i'm
+all the integers we've ever seen so i'm
+all the integers we've ever seen so i'm
+going to make a list called
+going to make a list called
+going to make a list called
+scene just a list i'm going to write it
+scene just a list i'm going to write it
+scene just a list i'm going to write it
+in python syntax
+in python syntax
+in python syntax
+then what i'm going to do is i'm going
+then what i'm going to do is i'm going
+then what i'm going to do is i'm going
+to seen
+plus equal and using python syntax
+plus equal and using python syntax
+plus equal and using python syntax
+although it's not super important
+so then what i'm going to do is if
+so then what i'm going to do is if
+so then what i'm going to do is if
+i'm going to check if this is already in
+i'm going to check if this is already in
+i'm going to check if this is already in
+there you can use a set to make this a
+there you can use a set to make this a
+there you can use a set to make this a
+little faster but
+little faster but
+little faster but
+so if the number n that we just
+so if the number n that we just
+so if the number n that we just
+created right here has already been seen
+created right here has already been seen
+created right here has already been seen
+before so
+before so
+before so
+if n is in the steam list
+if n is in the steam list
+if n is in the steam list
+then that means that there is a loop in
+then that means that there is a loop in
+then that means that there is a loop in
+the trajectory and we'll never reach one
+the trajectory and we'll never reach one
+the trajectory and we'll never reach one
+obviously so i'm going to return false
+so whichever is the case well here this
+so whichever is the case well here this
+so whichever is the case well here this
+takes a finite amount of time obviously
+takes a finite amount of time obviously
+takes a finite amount of time obviously
+well here i claim that we're going to
+well here i claim that we're going to
+well here i claim that we're going to
+retur we're going to return true or
+retur we're going to return true or
+retur we're going to return true or
+return
+return
+return
+false in a finite amount of time because
+false in a finite amount of time because
+false in a finite amount of time because
+if we do
+if we do
+if we do
+suppose that we can't well that means
+suppose that we can't well that means
+suppose that we can't well that means
+that we spend an infinite amount of time
+that we spend an infinite amount of time
+that we spend an infinite amount of time
+down here well
+down here well
+down here well
+there are only a finite number of
+there are only a finite number of
+there are only a finite number of
+integers down here so
+integers down here so
+integers down here so
+either we will escape the bound at which
+either we will escape the bound at which
+either we will escape the bound at which
+point
+point
+point
+the assumption kicks in or we
+the assumption kicks in or we
+the assumption kicks in or we
+repeat an integer that we've already
+repeat an integer that we've already
+repeat an integer that we've already
+seen which
+seen which
+seen which
+which we will eventually find here and
+which we will eventually find here and
+which we will eventually find here and
+checking whether a number's in a finite
+checking whether a number's in a finite
+checking whether a number's in a finite
+list
+list
+list
+is takes a finite amount of time
+is takes a finite amount of time
+is takes a finite amount of time
+so the thing is that this is true for a
+so the thing is that this is true for a
+so the thing is that this is true for a
+specific
+specific
+specific
+n so if it is true for
+n so if it is true for
+n so if it is true for
+at least a specific number then i can
+at least a specific number then i can
+at least a specific number then i can
+check any number
+check any number
+check any number
+i claim so then all that we need to do
+i claim so then all that we need to do
+i claim so then all that we need to do
+to check
+to check
+to check
+whether the whole conjecture is true
+whether the whole conjecture is true
+whether the whole conjecture is true
+so to check
+so to check
+so to check
+the 3x plus 1 conjecture
+the 3x plus 1 conjecture
+the 3x plus 1 conjecture
+what we need to do is to run all
+what we need to do is to run all
+what we need to do is to run all
+numbers from
+numbers from
+numbers from
+a one actually i should start at least
+a one actually i should start at least
+a one actually i should start at least
+five because there there actually is a
+five because there there actually is a
+five because there there actually is a
+loop
+loop
+loop
+uh the one two four loop that is
+uh the one two four loop that is
+uh the one two four loop that is
+veritasium mentioned
+veritasium mentioned
+veritasium mentioned
+uh five until n zero
+uh five until n zero
+uh five until n zero
+because there's no point to check the
+because there's no point to check the
+because there's no point to check the
+numbers after that assuming that there
+numbers after that assuming that there
+numbers after that assuming that there
+has been an
+has been an
+has been an
+advance in uh in a big advanced
+advance in uh in a big advanced
+advance in uh in a big advanced
+mathematics
+mathematics
+mathematics
+um this is a big assumption by the way
+um this is a big assumption by the way
+um this is a big assumption by the way
+so
+so
+so
+um whether this is going to ever be
+um whether this is going to ever be
+um whether this is going to ever be
+proven
+proven
+proven
+i have no idea but it is decidable
+i have no idea but it is decidable
+i have no idea but it is decidable
+if this is the case so which a lot of
+if this is the case so which a lot of
+if this is the case so which a lot of
+conjectures have fallen in this
+conjectures have fallen in this
+conjectures have fallen in this
+particular way that above a big specific
+particular way that above a big specific
+particular way that above a big specific
+number
+number
+number
+the conjecture is true and there's only
+the conjecture is true and there's only
+the conjecture is true and there's only
+a finite number of cases to check
+a finite number of cases to check
+a finite number of cases to check
+the thing is that it may not be possible
+the thing is that it may not be possible
+the thing is that it may not be possible
+in a finite
+in a finite
+in a finite
+um in a reasonable amount of time
+um in a reasonable amount of time
+um in a reasonable amount of time
+so it might be in principle possible to
+so it might be in principle possible to
+so it might be in principle possible to
+check
+check
+check
+but it just might not be practical to
+but it just might not be practical to
+but it just might not be practical to
+actually check
+actually check
+actually check
+okay so the important thing is that we
+okay so the important thing is that we
+okay so the important thing is that we
+get the definitions of what
+get the definitions of what
+get the definitions of what
+decidable and undecidable actually mean
+decidable and undecidable actually mean
+decidable and undecidable actually mean
+okay so just to recap so
+okay so just to recap so
+okay so just to recap so
+the problem is decidable if you phrase
+the problem is decidable if you phrase
+the problem is decidable if you phrase
+it in certain ways
+it in certain ways
+it in certain ways
+and possibly undecidable if you phrase
+and possibly undecidable if you phrase
+and possibly undecidable if you phrase
+it in other ways
+it in other ways
+it in other ways
+because where it really has to deal with
+because where it really has to deal with
+because where it really has to deal with
+whether you can represent an
+whether you can represent an
+whether you can represent an
+infinite set in a specific way or you're
+infinite set in a specific way or you're
+infinite set in a specific way or you're
+dealing with a specific
+dealing with a specific
+dealing with a specific
+input or whether you're talking about
+input or whether you're talking about
+input or whether you're talking about
+the whole conjecture as a
+the whole conjecture as a
+the whole conjecture as a
+as a whole then it may or may not be
+as a whole then it may or may not be
+as a whole then it may or may not be
+decidable depending
+decidable depending
+decidable depending
+on the encoding of the problem okay
+on the encoding of the problem okay
+on the encoding of the problem okay
+um so undecidable means that there's no
+um so undecidable means that there's no
+um so undecidable means that there's no
+algorithm to solve the problem
+algorithm to solve the problem
+algorithm to solve the problem
+and which means that it must halt in a
+and which means that it must halt in a
+and which means that it must halt in a
+finite amount of time if there is an
+finite amount of time if there is an
+finite amount of time if there is an
+algorithm for the thing
+algorithm for the thing
+algorithm for the thing
+so if there we make some assumptions
+so if there we make some assumptions
+so if there we make some assumptions
+then we can make
+then we can make
+then we can make
+some predictions so um
+some predictions so um
+some predictions so um
+we may or may not be able to show that
+we may or may not be able to show that
+we may or may not be able to show that
+three x plus one conjecture is decidable
+three x plus one conjecture is decidable
+three x plus one conjecture is decidable
+even if we can
+even if we can
+even if we can
+verify a single number because
+verify a single number because
+verify a single number because
+the routine way of just checking all
+the routine way of just checking all
+the routine way of just checking all
+numbers
+numbers
+numbers
+we may never run into a false number and
+we may never run into a false number and
+we may never run into a false number and
+so
+so
+so
+the we could run for an infinite amount
+the we could run for an infinite amount
+the we could run for an infinite amount
+of time
+of time
+of time
+and never find the thing that we want to
+and never find the thing that we want to
+and never find the thing that we want to
+find so even if the conjecture
+find so even if the conjecture
+find so even if the conjecture
+is true so there are encodings that
+is true so there are encodings that
+is true so there are encodings that
+are based on the halting problem but
+are based on the halting problem but
+are based on the halting problem but
+even if we
+even if we
+even if we
+are doing something that is halting
+are doing something that is halting
+are doing something that is halting
+that is related to turing machines that
+that is related to turing machines that
+that is related to turing machines that
+does not imply that it's undecidable
+does not imply that it's undecidable
+does not imply that it's undecidable
+because of this so turing machines
+because of this so turing machines
+because of this so turing machines
+um the halting problem is undecidable
+um the halting problem is undecidable
+um the halting problem is undecidable
+but a
+but a
+but a
+simplified version of a turing machine
+simplified version of a turing machine
+simplified version of a turing machine
+is decidable
+is decidable
+is decidable
+and if we encode the problem in a
+and if we encode the problem in a
+and if we encode the problem in a
+specific way
+specific way
+specific way
+then it provably is decidable
+then it provably is decidable
+then it provably is decidable
+but it's just not really any use to us
+but it's just not really any use to us
+but it's just not really any use to us
+so the question is what kinds of things
+so the question is what kinds of things
+so the question is what kinds of things
+can we
+can we
+can we
+show that if we make some assumptions
+show that if we make some assumptions
+show that if we make some assumptions
+then we can actually show that it really
+then we can actually show that it really
+then we can actually show that it really
+is decidable
+is decidable
+is decidable
+and this is a reasonable claim to make
+and this is a reasonable claim to make
+and this is a reasonable claim to make
+even if it is actually false because
+even if it is actually false because
+even if it is actually false because
+of terry tao's work and other people's
+of terry tao's work and other people's
+of terry tao's work and other people's
+work to
+work to
+work to
+show that a lot of trajectories will
+show that a lot of trajectories will
+show that a lot of trajectories will
+actually
+actually
+actually
+uh reach one so if it actually
+uh reach one so if it actually
+uh reach one so if it actually
+is true for all numbers after a specific
+is true for all numbers after a specific
+is true for all numbers after a specific
+number a lot of conjectures that have
+number a lot of conjectures that have
+number a lot of conjectures that have
+fallen this way
+fallen this way
+fallen this way
+then it actually is decidable okay
+then it actually is decidable okay
+then it actually is decidable okay
+but if uh if this is not true then it
+but if uh if this is not true then it
+but if uh if this is not true then it
+still could be decidable or not
+still could be decidable or not
+still could be decidable or not
+it's very very um fine-grained
+it's very very um fine-grained
+it's very very um fine-grained
+as to whether it's decidable or not
+as to whether it's decidable or not
+as to whether it's decidable or not
+depending on the encoding of the problem
+depending on the encoding of the problem
+depending on the encoding of the problem
+i've spoken long enough about this
+i've spoken long enough about this
+i've spoken long enough about this
+please watch the video it is very very
+please watch the video it is very very
+please watch the video it is very very
+good it was just this minor nitpick that
+good it was just this minor nitpick that
+good it was just this minor nitpick that
+i needed to
+i needed to
+i needed to
+to pick apart so if you have any
+to pick apart so if you have any
+to pick apart so if you have any
+questions about
+questions about
+questions about
+um algorithms or the three x plus one
+um algorithms or the three x plus one
+um algorithms or the three x plus one
+problem or undecidable problems please
+problem or undecidable problems please
+problem or undecidable problems please
+put them in the comments down below i'm
+put them in the comments down below i'm
+put them in the comments down below i'm
+always watching for them
+always watching for them
+always watching for them
+go watch veritas students video it is
+go watch veritas students video it is
+go watch veritas students video it is
+fantastic
+fantastic
+fantastic
+i just needed to rant about this
+i just needed to rant about this
+i just needed to rant about this
+specific thing
+you

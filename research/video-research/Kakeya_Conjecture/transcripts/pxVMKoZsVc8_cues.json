@@ -1,0 +1,727 @@
+[
+  {
+    "t_start": 0.28,
+    "t_end": 5.39,
+    "text": "In 2025, Professor Wang Hong of New York University and Professor Josaho of the"
+  },
+  {
+    "t_start": 5.39,
+    "t_end": 7.749,
+    "text": "New York University and Professor Josaho of the University of British Columbia completed what"
+  },
+  {
+    "t_start": 7.749,
+    "t_end": 9.669,
+    "text": "University of British Columbia completed what is considered a landmark achievement"
+  },
+  {
+    "t_start": 9.669,
+    "t_end": 11.669,
+    "text": "is considered a landmark achievement in mathematics.  Together, the two"
+  },
+  {
+    "t_start": 11.669,
+    "t_end": 15.789,
+    "text": "conquered a problem that had stood for over a century, proving the Kakia conjecture"
+  },
+  {
+    "t_start": 15.789,
+    "t_end": 17.83,
+    "text": "a century, proving the Kakia conjecture in three-dimensional space.  This achievement has"
+  },
+  {
+    "t_start": 17.83,
+    "t_end": 19.59,
+    "text": "in three-dimensional space.  This achievement has made them"
+  },
+  {
+    "t_start": 19.59,
+    "t_end": 24.83,
+    "text": "top contenders for the 2026 Fibonacci Prize. It all started with a"
+  },
+  {
+    "t_start": 24.83,
+    "t_end": 28.47,
+    "text": "seemingly simple question that has baffled mathematicians"
+  },
+  {
+    "t_start": 28.47,
+    "t_end": 34.59,
+    "text": "worldwide for nearly 100 years.  If a line segment of length one rotates completely around"
+  },
+  {
+    "t_start": 34.59,
+    "t_end": 41.19,
+    "text": "required for it to complete the rotation?  In the universe of mathematics, there are problems that at first"
+  },
+  {
+    "t_start": 41.19,
+    "t_end": 43.19,
+    "text": "glance seem simple but contain profound secrets that can overturn"
+  },
+  {
+    "t_start": 43.19,
+    "t_end": 44.99,
+    "text": "profound secrets that can overturn our intuition."
+  },
+  {
+    "t_start": 44.99,
+    "t_end": 49.069,
+    "text": "For example, consider this question: If a needle of length one rotates completely"
+  },
+  {
+    "t_start": 49.069,
+    "t_end": 51.47,
+    "text": "of length one rotates completely around a surface,"
+  },
+  {
+    "t_start": 51.47,
+    "t_end": 57.99,
+    "text": "what is the smallest area it needs to sweep across?  The simplest solution is to place the line segment inside"
+  },
+  {
+    "t_start": 57.99,
+    "t_end": 64.149,
+    "text": "to rotate in any direction.  A better approach would be to use an equilateral triangle or a shape"
+  },
+  {
+    "t_start": 64.149,
+    "t_end": 69.67,
+    "text": "would be to use an equilateral triangle or a shape related to a Ruliox's triangle, which helps reduce the"
+  },
+  {
+    "t_start": 69.67,
+    "t_end": 75.91,
+    "text": "that allow the line segment to rotate with an even smaller area.  My intuition tells me that"
+  },
+  {
+    "t_start": 75.91,
+    "t_end": 77.87,
+    "text": "even smaller area.  My intuition tells me that at least a circle or a"
+  },
+  {
+    "t_start": 77.87,
+    "t_end": 81.95,
+    "text": "triangle is needed to accomplish this. But the answer surprised many people"
+  },
+  {
+    "t_start": 81.95,
+    "t_end": 87.67,
+    "text": ".  Could that area be so small that you could move arbitrarily close to it?  In other words,"
+  },
+  {
+    "t_start": 87.67,
+    "t_end": 89.149,
+    "text": "move arbitrarily close to it?  In other words, a needle takes up almost no"
+  },
+  {
+    "t_start": 89.149,
+    "t_end": 94.03,
+    "text": "space but can still complete a full rotation .  Surprisingly, even though the"
+  },
+  {
+    "t_start": 94.03,
+    "t_end": 98.389,
+    "text": "area approaches zero, the set still contains a straight line segment in every direction."
+  },
+  {
+    "t_start": 98.389,
+    "t_end": 102.31,
+    "text": "a straight line segment in every direction. When area is no longer a sufficient quantity"
+  },
+  {
+    "t_start": 102.31,
+    "t_end": 108.109,
+    "text": "turn to a more profound tool. Dimensions.  A plane has a dimension of 2,"
+  },
+  {
+    "t_start": 108.109,
+    "t_end": 112.55,
+    "text": "Dimensions.  A plane has a dimension of 2, while a line has a dimension of 1."
+  },
+  {
+    "t_start": 112.55,
+    "t_end": 115.109,
+    "text": "The important thing is that the set must have two dimensions.  So"
+  },
+  {
+    "t_start": 115.109,
+    "t_end": 120.069,
+    "text": "what about in three-dimensional space?  That is the core of the Kakia conjecture.  In a"
+  },
+  {
+    "t_start": 120.069,
+    "t_end": 122.55,
+    "text": "core of the Kakia conjecture.  In a two-dimensional plane, a Kakya set containing"
+  },
+  {
+    "t_start": 122.55,
+    "t_end": 129.43,
+    "text": "hot dog dimension of 2. But what about in the more complex and fascinating three-dimensional space?"
+  },
+  {
+    "t_start": 129.43,
+    "t_end": 133.949,
+    "text": "more complex and fascinating three-dimensional space? Is this conclusion still valid?  That is the"
+  },
+  {
+    "t_start": 133.949,
+    "t_end": 139.509,
+    "text": "problem that has been baffling mathematicians for almost a century.  It all began"
+  },
+  {
+    "t_start": 139.509,
+    "t_end": 141.63,
+    "text": "in 1917 when the Japanese mathematician Shichi Kakia studied a"
+  },
+  {
+    "t_start": 141.63,
+    "t_end": 145.43,
+    "text": "specific geometry problem.  What is the smallest protruding area required for a needle to complete one"
+  },
+  {
+    "t_start": 145.43,
+    "t_end": 148.03,
+    "text": "required for a needle to complete one revolution?  In other words,"
+  },
+  {
+    "t_start": 148.03,
+    "t_end": 152.19,
+    "text": "what is the smallest possible area of ​​that region?  The initial solutions all focused on"
+  },
+  {
+    "t_start": 152.19,
+    "t_end": 155.949,
+    "text": "finding the smallest convex region.  He quickly discovered that an equilateral triangle was a"
+  },
+  {
+    "t_start": 155.949,
+    "t_end": 157.55,
+    "text": "discovered that an equilateral triangle was a better solution than a circle or a"
+  },
+  {
+    "t_start": 157.55,
+    "t_end": 162.71,
+    "text": "better solution than a circle or a rectangle.  But then, an even deeper question"
+  },
+  {
+    "t_start": 162.71,
+    "t_end": 169.63,
+    "text": "could the area be even smaller?  Nearly 10 years later, the Russian mathematician Besikov"
+  },
+  {
+    "t_start": 169.63,
+    "t_end": 176.91,
+    "text": "possible, and could that area be so incredibly small that you could approach it at will, to the point of zero?"
+  },
+  {
+    "t_start": 176.91,
+    "t_end": 179.509,
+    "text": "approach it at will, to the point of zero? How did he do it?  The"
+  },
+  {
+    "t_start": 179.509,
+    "t_end": 183.55,
+    "text": "core idea is to divide, move, and plant infinitely.  He repeatedly divided a"
+  },
+  {
+    "t_start": 183.55,
+    "t_end": 185.39,
+    "text": "infinitely.  He repeatedly divided a triangle into smaller parts, then"
+  },
+  {
+    "t_start": 185.39,
+    "t_end": 189.509,
+    "text": "triangle into smaller parts, then moved these pieces so that they"
+  },
+  {
+    "t_start": 189.509,
+    "t_end": 192.99,
+    "text": "overlapped as much as possible. By repeating that process infinitely,"
+  },
+  {
+    "t_start": 192.99,
+    "t_end": 196.63,
+    "text": "so small as to be arbitrary, yet still maintaining straight lines in all the directions"
+  },
+  {
+    "t_start": 196.63,
+    "t_end": 201.75,
+    "text": "maintaining straight lines in all the directions necessary for the needle to rotate.  That's the"
+  },
+  {
+    "t_start": 201.75,
+    "t_end": 203.789,
+    "text": "famous Bicovic episode.  As the process continues indefinitely, the area gradually"
+  },
+  {
+    "t_start": 203.789,
+    "t_end": 208.11,
+    "text": "approaches zero, but the set still contains line segments in all directions.  Besikovic's work"
+  },
+  {
+    "t_start": 208.11,
+    "t_end": 209.91,
+    "text": "line segments in all directions.  Besikovic's work completely solved the"
+  },
+  {
+    "t_start": 209.91,
+    "t_end": 214.309,
+    "text": "problem of the area of ​​the Kakia set in two-dimensional space.  However, this"
+  },
+  {
+    "t_start": 214.309,
+    "t_end": 215.91,
+    "text": "two-dimensional space.  However, this also means that"
+  },
+  {
+    "t_start": 215.91,
+    "t_end": 220.429,
+    "text": "mathematicians are forced to move on to studying a deeper concept: dimensionality.  From"
+  },
+  {
+    "t_start": 220.429,
+    "t_end": 224.27,
+    "text": "deeper concept: dimensionality.  From here, the real battlefield shifts to"
+  },
+  {
+    "t_start": 224.27,
+    "t_end": 227.83,
+    "text": "higher-dimensional spaces, where structures become far more complex and abstract"
+  },
+  {
+    "t_start": 227.83,
+    "t_end": 231.149,
+    "text": "A race that has lasted for over a century surrounding the concept of dimensions has"
+  },
+  {
+    "t_start": 231.149,
+    "t_end": 233.47,
+    "text": "century surrounding the concept of dimensions has officially begun.  Bisikovic solved the"
+  },
+  {
+    "t_start": 233.47,
+    "t_end": 235.39,
+    "text": "officially begun.  Bisikovic solved the area problem, but in"
+  },
+  {
+    "t_start": 235.39,
+    "t_end": 237.03,
+    "text": "area problem, but in three-dimensional and"
+  },
+  {
+    "t_start": 237.03,
+    "t_end": 240.789,
+    "text": "more multi-dimensional spaces, the number of directions increases and the structure becomes much more complex"
+  },
+  {
+    "t_start": 240.789,
+    "t_end": 243.63,
+    "text": "structure becomes much more complex .  Mathematicians gradually realized that"
+  },
+  {
+    "t_start": 243.63,
+    "t_end": 250.229,
+    "text": "the key to the problem lay in proving that the host dimension of the kakia set must"
+  },
+  {
+    "t_start": 250.229,
+    "t_end": 255.35,
+    "text": "the 1990s, mathematician Thomas Wolfes made a significant breakthrough by"
+  },
+  {
+    "t_start": 255.35,
+    "t_end": 261.67,
+    "text": "profoundly linking the Kakia conjecture to the field of harmonic analysis.  He"
+  },
+  {
+    "t_start": 261.67,
+    "t_end": 263.67,
+    "text": "proved that in a space with 9 dimensions, the dimension of the Kakia set is at least"
+  },
+  {
+    "t_start": 263.67,
+    "t_end": 265.71,
+    "text": "the dimension of the Kakia set is at least half of plus 2. For a three-"
+  },
+  {
+    "t_start": 265.71,
+    "t_end": 268.59,
+    "text": "half of plus 2. For a three- dimensional space, this lower bound is 2.5."
+  },
+  {
+    "t_start": 268.59,
+    "t_end": 273.27,
+    "text": "dimensional space, this lower bound is 2.5. This is a huge step forward, but it still"
+  },
+  {
+    "t_start": 273.27,
+    "t_end": 275.15,
+    "text": "hasn't reached the ultimate goal of three. Shortly afterward, the mathematical genius Jean"
+  },
+  {
+    "t_start": 275.15,
+    "t_end": 276.909,
+    "text": "Shortly afterward, the mathematical genius Jean Borgen applied"
+  },
+  {
+    "t_start": 276.909,
+    "t_end": 283.39,
+    "text": "his powerful analytical tools to further improve Wvec's result, raising the lower bound on the"
+  },
+  {
+    "t_start": 283.39,
+    "t_end": 287.99,
+    "text": "illustrated, the measurement structure of the Kakia set includes properties such as local measure,"
+  },
+  {
+    "t_start": 287.99,
+    "t_end": 289.59,
+    "text": "includes properties such as local measure, dimensional spectrum, and projection in"
+  },
+  {
+    "t_start": 289.59,
+    "t_end": 291.469,
+    "text": "dimensional spectrum, and projection in different directions."
+  },
+  {
+    "t_start": 291.469,
+    "t_end": 296.029,
+    "text": "Bogen's method, which combines arithmetic and combinatorics, has helped establish a new lower bound for dimensionality."
+  },
+  {
+    "t_start": 296.029,
+    "t_end": 297.95,
+    "text": "establish a new lower bound for dimensionality. However, the seemingly small gap"
+  },
+  {
+    "t_start": 297.95,
+    "t_end": 301.67,
+    "text": "However, the seemingly small gap of 2.5 to 3 became a barrier that the"
+  },
+  {
+    "t_start": 301.67,
+    "t_end": 306.35,
+    "text": "world's leading mathematicians struggled with for over 20 years.  Among them was"
+  },
+  {
+    "t_start": 306.35,
+    "t_end": 310.35,
+    "text": "Adventure Prize.  He and many other mathematicians attempted to tackle the problem by"
+  },
+  {
+    "t_start": 310.35,
+    "t_end": 315.15,
+    "text": "connecting the Kakia conjecture with number theory, additive combinatorics, and many other fields."
+  },
+  {
+    "t_start": 315.15,
+    "t_end": 316.71,
+    "text": "additive combinatorics, and many other fields. These efforts have produced many"
+  },
+  {
+    "t_start": 316.71,
+    "t_end": 318.67,
+    "text": "These efforts have produced many powerful tools, but the"
+  },
+  {
+    "t_start": 318.67,
+    "t_end": 323.309,
+    "text": "final step is still incomplete.  New hope emerges thanks to innovations in methodology."
+  },
+  {
+    "t_start": 323.309,
+    "t_end": 324.83,
+    "text": "emerges thanks to innovations in methodology. Wang Hong's doctoral supervisor,"
+  },
+  {
+    "t_start": 324.83,
+    "t_end": 328.79,
+    "text": "Larry Ghost, along with many other mathematicians, made significant contributions"
+  },
+  {
+    "t_start": 328.79,
+    "t_end": 329.99,
+    "text": "other mathematicians, made significant contributions to the development of"
+  },
+  {
+    "t_start": 329.99,
+    "t_end": 335.23,
+    "text": "deconvolution methods and the pipe model, laying the foundation for later breakthroughs.  In February"
+  },
+  {
+    "t_start": 335.23,
+    "t_end": 340.87,
+    "text": "2025, the mathematical community was shaken by a major announcement.  Mathematician Wang Hong"
+  },
+  {
+    "t_start": 340.87,
+    "t_end": 345.629,
+    "text": "a major announcement.  Mathematician Wang Hong and his collaborator Jos Ho have published a"
+  },
+  {
+    "t_start": 345.629,
+    "t_end": 349.909,
+    "text": "completely proven the Kakia conjecture in three-dimensional space.  This achievement didn't"
+  },
+  {
+    "t_start": 349.909,
+    "t_end": 352.27,
+    "text": "three-dimensional space.  This achievement didn't happen overnight."
+  },
+  {
+    "t_start": 352.27,
+    "t_end": 356.909,
+    "text": "As early as 2022, they had already addressed what is known as the sticking case,"
+  },
+  {
+    "t_start": 356.909,
+    "t_end": 360.39,
+    "text": "which refers to configurations where the tubes tend to stick together and form"
+  },
+  {
+    "t_start": 360.39,
+    "t_end": 363.189,
+    "text": "tend to stick together and form dense clusters.  During this period,"
+  },
+  {
+    "t_start": 363.189,
+    "t_end": 368.11,
+    "text": "Josua made significant contributions to the analysis of the structure of sets, while"
+  },
+  {
+    "t_start": 368.11,
+    "t_end": 370.23,
+    "text": "Vuong Hong developed and applied the tools of measure theory."
+  },
+  {
+    "t_start": 370.23,
+    "t_end": 374.589,
+    "text": "tools of measure theory. Those results paved the way for a complete proof"
+  },
+  {
+    "t_start": 374.589,
+    "t_end": 381.43,
+    "text": "Wang Hong and Joshuahi's core weapon was multiscale analysis and particle theory.  They"
+  },
+  {
+    "t_start": 381.43,
+    "t_end": 383.39,
+    "text": "multiscale analysis and particle theory.  They realized that solving the problem"
+  },
+  {
+    "t_start": 383.39,
+    "t_end": 386.749,
+    "text": "required simultaneously understanding the structure of the pipe assemblies at various size scales"
+  },
+  {
+    "t_start": 386.749,
+    "t_end": 389.15,
+    "text": "pipe assemblies at various size scales .  Through a"
+  },
+  {
+    "t_start": 389.15,
+    "t_end": 393.07,
+    "text": "highly sophisticated method of mathematical induction, they demonstrated that even the"
+  },
+  {
+    "t_start": 393.07,
+    "t_end": 397.99,
+    "text": "most complex and difficult-to-handle configurations of dispersion tubes always result in a sufficiently large combined volume."
+  },
+  {
+    "t_start": 397.99,
+    "t_end": 399.629,
+    "text": "always result in a sufficiently large combined volume. This required the dimensionality of the entire"
+  },
+  {
+    "t_start": 399.629,
+    "t_end": 404.39,
+    "text": "set to be 3. After a series of extremely rigorous logical arguments, they finally"
+  },
+  {
+    "t_start": 404.39,
+    "t_end": 406.27,
+    "text": "extremely rigorous logical arguments, they finally overcame the final hurdle,"
+  },
+  {
+    "t_start": 406.27,
+    "t_end": 410.71,
+    "text": "confidently asserting that the lower bound of dimensionality is indeed three.  Thus, the Kakia conjecture"
+  },
+  {
+    "t_start": 410.71,
+    "t_end": 412.39,
+    "text": "is indeed three.  Thus, the Kakia conjecture in three-dimensional space has been"
+  },
+  {
+    "t_start": 412.39,
+    "t_end": 417.909,
+    "text": "proven.  At this point, Wang Hong and Josu have completed the final piece of the puzzle."
+  },
+  {
+    "t_start": 417.909,
+    "t_end": 419.749,
+    "text": "completed the final piece of the puzzle. They proved that in three-"
+  },
+  {
+    "t_start": 419.749,
+    "t_end": 425.23,
+    "text": "dimensional space, every Kakia set has a Hostof dimension and a Minkowski dimension equal to 3."
+  },
+  {
+    "t_start": 425.23,
+    "t_end": 427.23,
+    "text": "Hostof dimension and a Minkowski dimension equal to 3. This means that Kakia sets cannot"
+  },
+  {
+    "t_start": 427.23,
+    "t_end": 429.07,
+    "text": "This means that Kakia sets cannot be made too sparse by any"
+  },
+  {
+    "t_start": 429.07,
+    "t_end": 431.43,
+    "text": "be made too sparse by any mathematical trick.  Essentially, it must"
+  },
+  {
+    "t_start": 431.43,
+    "t_end": 433.11,
+    "text": "mathematical trick.  Essentially, it must occupy the entire three-dimensional space"
+  },
+  {
+    "t_start": 433.11,
+    "t_end": 438.43,
+    "text": "in terms of the number of dimensions.  The significance of this proof extends far beyond the realm of geometry."
+  },
+  {
+    "t_start": 438.43,
+    "t_end": 440.029,
+    "text": "this proof extends far beyond the realm of geometry. Its most direct application lies in"
+  },
+  {
+    "t_start": 440.029,
+    "t_end": 442.029,
+    "text": "Its most direct application lies in harmonic analysis, where it provides"
+  },
+  {
+    "t_start": 442.029,
+    "t_end": 443.67,
+    "text": "harmonic analysis, where it provides crucial tools for studying"
+  },
+  {
+    "t_start": 443.67,
+    "t_end": 446.35,
+    "text": "crucial tools for studying wave and oscillation phenomena."
+  },
+  {
+    "t_start": 446.35,
+    "t_end": 451.029,
+    "text": "More importantly, methods such as multiscale analysis and geometric and combinatorial techniques"
+  },
+  {
+    "t_start": 451.029,
+    "t_end": 457.11,
+    "text": "very powerful mathematical tools.  They promise to advance the development of number theory,"
+  },
+  {
+    "t_start": 457.11,
+    "t_end": 458.79,
+    "text": "advance the development of number theory, partial differential equations, and"
+  },
+  {
+    "t_start": 458.79,
+    "t_end": 462.749,
+    "text": "partial differential equations, and theoretical computer science.  However, the"
+  },
+  {
+    "t_start": 462.749,
+    "t_end": 465.149,
+    "text": "journey of science never ends.  Victory in three-"
+  },
+  {
+    "t_start": 465.149,
+    "t_end": 469.749,
+    "text": "dimensional space has only opened the door to spaces with even higher dimensions."
+  },
+  {
+    "t_start": 469.749,
+    "t_end": 471.83,
+    "text": "spaces with even higher dimensions. For four-dimensional, five-dimensional,"
+  },
+  {
+    "t_start": 471.83,
+    "t_end": 475.83,
+    "text": "For four-dimensional, five-dimensional, or generally any-dimensional space, whether"
+  },
+  {
+    "t_start": 475.83,
+    "t_end": 479.79,
+    "text": "Kakia's conjecture remains valid is one of the most fascinating open problems"
+  },
+  {
+    "t_start": 479.79,
+    "t_end": 485.029,
+    "text": "problem that had lasted for over a century but also provided future mathematicians with"
+  },
+  {
+    "t_start": 485.029,
+    "t_end": 488.95,
+    "text": "provided future mathematicians with a map and a compass to"
+  },
+  {
+    "t_start": 488.95,
+    "t_end": 494.27,
+    "text": "From 1917 to 2025, from a seemingly simple geometry problem to a"
+  },
+  {
+    "t_start": 494.27,
+    "t_end": 496.35,
+    "text": "seemingly simple geometry problem to a profound theorem on dimensionality, the story"
+  },
+  {
+    "t_start": 496.35,
+    "t_end": 500.83,
+    "text": "profound theorem on dimensionality, the story of the Kakia conjecture fully demonstrates the"
+  },
+  {
+    "t_start": 500.83,
+    "t_end": 502.99,
+    "text": "beauty of mathematics.  It begins with intuition, is built upon reason, and"
+  },
+  {
+    "t_start": 502.99,
+    "t_end": 505.55,
+    "text": "intuition, is built upon reason, and ultimately surpasses all imagination."
+  },
+  {
+    "t_start": 505.55,
+    "t_end": 509.749,
+    "text": "It reminds us that the boundaries of human thought are limitless.  When logic and"
+  },
+  {
+    "t_start": 509.749,
+    "t_end": 511.749,
+    "text": "human thought are limitless.  When logic and creativity become wings,"
+  },
+  {
+    "t_start": 511.749,
+    "t_end": 516.11,
+    "text": "humans can overcome even the most seemingly insurmountable heights.  The names of"
+  },
+  {
+    "t_start": 516.11,
+    "t_end": 517.589,
+    "text": "insurmountable heights.  The names of those mathematicians are like"
+  },
+  {
+    "t_start": 517.589,
+    "t_end": 521.79,
+    "text": "steps on a ladder.  To support future generations in continuing to climb higher to reach the stars that are"
+  },
+  {
+    "t_start": 521.79,
+    "t_end": 524.479,
+    "text": "continuing to climb higher to reach the stars that are still far away."
+  }
+]

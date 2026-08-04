@@ -1,0 +1,1382 @@
+[
+  {
+    "t_start": 3.77,
+    "t_end": 3.7800000000000002,
+    "text": "hi guys this is Jonathan Lambert with"
+  },
+  {
+    "t_start": 3.7800000000000002,
+    "t_end": 5.269,
+    "text": "hi guys this is Jonathan Lambert with the mathematics development and support"
+  },
+  {
+    "t_start": 5.269,
+    "t_end": 5.279,
+    "text": "the mathematics development and support"
+  },
+  {
+    "t_start": 5.279,
+    "t_end": 6.889,
+    "text": "the mathematics development and support services at National College of Ireland"
+  },
+  {
+    "t_start": 6.889,
+    "t_end": 6.899,
+    "text": "services at National College of Ireland"
+  },
+  {
+    "t_start": 6.899,
+    "t_end": 9.049,
+    "text": "services at National College of Ireland and this video this is one of the videos"
+  },
+  {
+    "t_start": 9.049,
+    "t_end": 9.059,
+    "text": "and this video this is one of the videos"
+  },
+  {
+    "t_start": 9.059,
+    "t_end": 11.089,
+    "text": "and this video this is one of the videos that we really wanted to get to okay"
+  },
+  {
+    "t_start": 11.089,
+    "t_end": 11.099,
+    "text": "that we really wanted to get to okay"
+  },
+  {
+    "t_start": 11.099,
+    "t_end": 13.37,
+    "text": "that we really wanted to get to okay which is another video in our series of"
+  },
+  {
+    "t_start": 13.37,
+    "t_end": 13.38,
+    "text": "which is another video in our series of"
+  },
+  {
+    "t_start": 13.38,
+    "t_end": 14.93,
+    "text": "which is another video in our series of videos under the under topic or under"
+  },
+  {
+    "t_start": 14.93,
+    "t_end": 14.94,
+    "text": "videos under the under topic or under"
+  },
+  {
+    "t_start": 14.94,
+    "t_end": 16.73,
+    "text": "videos under the under topic or under the topic of number tiering okay and"
+  },
+  {
+    "t_start": 16.73,
+    "t_end": 16.74,
+    "text": "the topic of number tiering okay and"
+  },
+  {
+    "t_start": 16.74,
+    "t_end": 17.93,
+    "text": "the topic of number tiering okay and what we'd like to be able to show is"
+  },
+  {
+    "t_start": 17.93,
+    "t_end": 17.94,
+    "text": "what we'd like to be able to show is"
+  },
+  {
+    "t_start": 17.94,
+    "t_end": 20.21,
+    "text": "what we'd like to be able to show is that there is an infinite number of"
+  },
+  {
+    "t_start": 20.21,
+    "t_end": 20.22,
+    "text": "that there is an infinite number of"
+  },
+  {
+    "t_start": 20.22,
+    "t_end": 22.67,
+    "text": "that there is an infinite number of prime numbers okay now in a previous"
+  },
+  {
+    "t_start": 22.67,
+    "t_end": 22.68,
+    "text": "prime numbers okay now in a previous"
+  },
+  {
+    "t_start": 22.68,
+    "t_end": 24.23,
+    "text": "prime numbers okay now in a previous video we've defined what a prime number"
+  },
+  {
+    "t_start": 24.23,
+    "t_end": 24.24,
+    "text": "video we've defined what a prime number"
+  },
+  {
+    "t_start": 24.24,
+    "t_end": 27.05,
+    "text": "video we've defined what a prime number is a prime number is a number okay"
+  },
+  {
+    "t_start": 27.05,
+    "t_end": 27.06,
+    "text": "is a prime number is a number okay"
+  },
+  {
+    "t_start": 27.06,
+    "t_end": 30.89,
+    "text": "is a prime number is a number okay that's divisible only by itself and one"
+  },
+  {
+    "t_start": 30.89,
+    "t_end": 30.9,
+    "text": "that's divisible only by itself and one"
+  },
+  {
+    "t_start": 30.9,
+    "t_end": 33.709,
+    "text": "that's divisible only by itself and one okay and it excludes one okay if that"
+  },
+  {
+    "t_start": 33.709,
+    "t_end": 33.719,
+    "text": "okay and it excludes one okay if that"
+  },
+  {
+    "t_start": 33.719,
+    "t_end": 35.81,
+    "text": "okay and it excludes one okay if that makes sense okay so it excludes the"
+  },
+  {
+    "t_start": 35.81,
+    "t_end": 35.82,
+    "text": "makes sense okay so it excludes the"
+  },
+  {
+    "t_start": 35.82,
+    "t_end": 37.85,
+    "text": "makes sense okay so it excludes the number one it also excludes the number"
+  },
+  {
+    "t_start": 37.85,
+    "t_end": 37.86,
+    "text": "number one it also excludes the number"
+  },
+  {
+    "t_start": 37.86,
+    "t_end": 40.549,
+    "text": "number one it also excludes the number the number the number minus one okay so"
+  },
+  {
+    "t_start": 40.549,
+    "t_end": 40.559,
+    "text": "the number the number minus one okay so"
+  },
+  {
+    "t_start": 40.559,
+    "t_end": 41.69,
+    "text": "the number the number minus one okay so prime number is any number that's"
+  },
+  {
+    "t_start": 41.69,
+    "t_end": 41.7,
+    "text": "prime number is any number that's"
+  },
+  {
+    "t_start": 41.7,
+    "t_end": 43.729,
+    "text": "prime number is any number that's divisible by itself and one and in"
+  },
+  {
+    "t_start": 43.729,
+    "t_end": 43.739,
+    "text": "divisible by itself and one and in"
+  },
+  {
+    "t_start": 43.739,
+    "t_end": 45.229,
+    "text": "divisible by itself and one and in particular the prime numbers that we"
+  },
+  {
+    "t_start": 45.229,
+    "t_end": 45.239,
+    "text": "particular the prime numbers that we"
+  },
+  {
+    "t_start": 45.239,
+    "t_end": 48.77,
+    "text": "particular the prime numbers that we know of are two three five seven and so"
+  },
+  {
+    "t_start": 48.77,
+    "t_end": 48.78,
+    "text": "know of are two three five seven and so"
+  },
+  {
+    "t_start": 48.78,
+    "t_end": 50.869,
+    "text": "know of are two three five seven and so on and so forth okay but the question"
+  },
+  {
+    "t_start": 50.869,
+    "t_end": 50.879,
+    "text": "on and so forth okay but the question"
+  },
+  {
+    "t_start": 50.879,
+    "t_end": 53.45,
+    "text": "on and so forth okay but the question that we really have here is is there an"
+  },
+  {
+    "t_start": 53.45,
+    "t_end": 53.46,
+    "text": "that we really have here is is there an"
+  },
+  {
+    "t_start": 53.46,
+    "t_end": 56.09,
+    "text": "that we really have here is is there an infinite number of prime numbers now the"
+  },
+  {
+    "t_start": 56.09,
+    "t_end": 56.1,
+    "text": "infinite number of prime numbers now the"
+  },
+  {
+    "t_start": 56.1,
+    "t_end": 57.29,
+    "text": "infinite number of prime numbers now the proof that I'm actually going to go"
+  },
+  {
+    "t_start": 57.29,
+    "t_end": 57.3,
+    "text": "proof that I'm actually going to go"
+  },
+  {
+    "t_start": 57.3,
+    "t_end": 61.069,
+    "text": "proof that I'm actually going to go through here today is a proof that's"
+  },
+  {
+    "t_start": 61.069,
+    "t_end": 61.079,
+    "text": "through here today is a proof that's"
+  },
+  {
+    "t_start": 61.079,
+    "t_end": 62.689,
+    "text": "through here today is a proof that's based at it's actually what's known as"
+  },
+  {
+    "t_start": 62.689,
+    "t_end": 62.699,
+    "text": "based at it's actually what's known as"
+  },
+  {
+    "t_start": 62.699,
+    "t_end": 64.85,
+    "text": "based at it's actually what's known as Euclid's proof of the infinitude of the"
+  },
+  {
+    "t_start": 64.85,
+    "t_end": 64.86,
+    "text": "Euclid's proof of the infinitude of the"
+  },
+  {
+    "t_start": 64.86,
+    "t_end": 66.53,
+    "text": "Euclid's proof of the infinitude of the prime numbers and it's a very very"
+  },
+  {
+    "t_start": 66.53,
+    "t_end": 66.54,
+    "text": "prime numbers and it's a very very"
+  },
+  {
+    "t_start": 66.54,
+    "t_end": 67.73,
+    "text": "prime numbers and it's a very very straightforward proof it's actually"
+  },
+  {
+    "t_start": 67.73,
+    "t_end": 67.74,
+    "text": "straightforward proof it's actually"
+  },
+  {
+    "t_start": 67.74,
+    "t_end": 71.09,
+    "text": "straightforward proof it's actually approved by contradiction okay but I"
+  },
+  {
+    "t_start": 71.09,
+    "t_end": 71.1,
+    "text": "approved by contradiction okay but I"
+  },
+  {
+    "t_start": 71.1,
+    "t_end": 73.07,
+    "text": "approved by contradiction okay but I suppose we're going to rely upon we're"
+  },
+  {
+    "t_start": 73.07,
+    "t_end": 73.08,
+    "text": "suppose we're going to rely upon we're"
+  },
+  {
+    "t_start": 73.08,
+    "t_end": 77.95,
+    "text": "suppose we're going to rely upon we're going to rely upon uh two two previous"
+  },
+  {
+    "t_start": 77.95,
+    "t_end": 77.96,
+    "text": "going to rely upon uh two two previous"
+  },
+  {
+    "t_start": 77.96,
+    "t_end": 81.55,
+    "text": "going to rely upon uh two two previous okay to previous properties okay"
+  },
+  {
+    "t_start": 81.55,
+    "t_end": 81.56,
+    "text": "okay to previous properties okay"
+  },
+  {
+    "t_start": 81.56,
+    "t_end": 85.67,
+    "text": "okay to previous properties okay properties okay okay of the integers"
+  },
+  {
+    "t_start": 85.67,
+    "t_end": 85.68,
+    "text": "properties okay okay of the integers"
+  },
+  {
+    "t_start": 85.68,
+    "t_end": 88.85,
+    "text": "properties okay okay of the integers okay of the integers okay"
+  },
+  {
+    "t_start": 88.85,
+    "t_end": 88.86,
+    "text": "okay of the integers okay"
+  },
+  {
+    "t_start": 88.86,
+    "t_end": 91.49,
+    "text": "okay of the integers okay and the first property is this let's say"
+  },
+  {
+    "t_start": 91.49,
+    "t_end": 91.5,
+    "text": "and the first property is this let's say"
+  },
+  {
+    "t_start": 91.5,
+    "t_end": 95.53,
+    "text": "and the first property is this let's say property a okay is that if a divides b"
+  },
+  {
+    "t_start": 95.53,
+    "t_end": 95.54,
+    "text": "property a okay is that if a divides b"
+  },
+  {
+    "t_start": 95.54,
+    "t_end": 100.249,
+    "text": "property a okay is that if a divides b and a divides C well then a divides"
+  },
+  {
+    "t_start": 100.249,
+    "t_end": 100.259,
+    "text": "and a divides C well then a divides"
+  },
+  {
+    "t_start": 100.259,
+    "t_end": 102.289,
+    "text": "and a divides C well then a divides their difference it divides B minus C"
+  },
+  {
+    "t_start": 102.289,
+    "t_end": 102.299,
+    "text": "their difference it divides B minus C"
+  },
+  {
+    "t_start": 102.299,
+    "t_end": 104.21,
+    "text": "their difference it divides B minus C okay that's an important property and"
+  },
+  {
+    "t_start": 104.21,
+    "t_end": 104.22,
+    "text": "okay that's an important property and"
+  },
+  {
+    "t_start": 104.22,
+    "t_end": 105.53,
+    "text": "okay that's an important property and then the second property that we're"
+  },
+  {
+    "t_start": 105.53,
+    "t_end": 105.54,
+    "text": "then the second property that we're"
+  },
+  {
+    "t_start": 105.54,
+    "t_end": 106.67,
+    "text": "then the second property that we're going to rely upon is what's known as"
+  },
+  {
+    "t_start": 106.67,
+    "t_end": 106.68,
+    "text": "going to rely upon is what's known as"
+  },
+  {
+    "t_start": 106.68,
+    "t_end": 109.49,
+    "text": "going to rely upon is what's known as the fundamental the fundamental"
+  },
+  {
+    "t_start": 109.49,
+    "t_end": 109.5,
+    "text": "the fundamental the fundamental"
+  },
+  {
+    "t_start": 109.5,
+    "t_end": 111.83,
+    "text": "the fundamental the fundamental the fundamental theorem"
+  },
+  {
+    "t_start": 111.83,
+    "t_end": 111.84,
+    "text": "the fundamental theorem"
+  },
+  {
+    "t_start": 111.84,
+    "t_end": 115.969,
+    "text": "the fundamental theorem theorem of arithmetic of arithmetic okay"
+  },
+  {
+    "t_start": 115.969,
+    "t_end": 115.979,
+    "text": "theorem of arithmetic of arithmetic okay"
+  },
+  {
+    "t_start": 115.979,
+    "t_end": 118.069,
+    "text": "theorem of arithmetic of arithmetic okay which tells us that any number can be"
+  },
+  {
+    "t_start": 118.069,
+    "t_end": 118.079,
+    "text": "which tells us that any number can be"
+  },
+  {
+    "t_start": 118.079,
+    "t_end": 120.35,
+    "text": "which tells us that any number can be written as a product of primes yeah okay"
+  },
+  {
+    "t_start": 120.35,
+    "t_end": 120.36,
+    "text": "written as a product of primes yeah okay"
+  },
+  {
+    "t_start": 120.36,
+    "t_end": 122.69,
+    "text": "written as a product of primes yeah okay so all numbers let me just write this"
+  },
+  {
+    "t_start": 122.69,
+    "t_end": 122.7,
+    "text": "so all numbers let me just write this"
+  },
+  {
+    "t_start": 122.7,
+    "t_end": 126.53,
+    "text": "so all numbers let me just write this down here okay all integers okay okay"
+  },
+  {
+    "t_start": 126.53,
+    "t_end": 126.54,
+    "text": "down here okay all integers okay okay"
+  },
+  {
+    "t_start": 126.54,
+    "t_end": 127.51,
+    "text": "down here okay all integers okay okay okay"
+  },
+  {
+    "t_start": 127.51,
+    "t_end": 127.52,
+    "text": "okay"
+  },
+  {
+    "t_start": 127.52,
+    "t_end": 130.37,
+    "text": "okay can be written"
+  },
+  {
+    "t_start": 130.37,
+    "t_end": 130.38,
+    "text": "can be written"
+  },
+  {
+    "t_start": 130.38,
+    "t_end": 135.11,
+    "text": "can be written can be written as a product"
+  },
+  {
+    "t_start": 135.11,
+    "t_end": 135.12,
+    "text": "can be written as a product"
+  },
+  {
+    "t_start": 135.12,
+    "t_end": 137.33,
+    "text": "can be written as a product of primes"
+  },
+  {
+    "t_start": 137.33,
+    "t_end": 137.34,
+    "text": "of primes"
+  },
+  {
+    "t_start": 137.34,
+    "t_end": 139.729,
+    "text": "of primes okay that's important to me and we've"
+  },
+  {
+    "t_start": 139.729,
+    "t_end": 139.739,
+    "text": "okay that's important to me and we've"
+  },
+  {
+    "t_start": 139.739,
+    "t_end": 141.229,
+    "text": "okay that's important to me and we've proven this in one of our previous"
+  },
+  {
+    "t_start": 141.229,
+    "t_end": 141.239,
+    "text": "proven this in one of our previous"
+  },
+  {
+    "t_start": 141.239,
+    "t_end": 143.77,
+    "text": "proven this in one of our previous videos Okay so let's start off our proof"
+  },
+  {
+    "t_start": 143.77,
+    "t_end": 143.78,
+    "text": "videos Okay so let's start off our proof"
+  },
+  {
+    "t_start": 143.78,
+    "t_end": 148.01,
+    "text": "videos Okay so let's start off our proof and I suppose this is a proof by"
+  },
+  {
+    "t_start": 148.01,
+    "t_end": 148.02,
+    "text": "and I suppose this is a proof by"
+  },
+  {
+    "t_start": 148.02,
+    "t_end": 151.07,
+    "text": "and I suppose this is a proof by contradiction okay so it's a proof"
+  },
+  {
+    "t_start": 151.07,
+    "t_end": 151.08,
+    "text": "contradiction okay so it's a proof"
+  },
+  {
+    "t_start": 151.08,
+    "t_end": 153.43,
+    "text": "contradiction okay so it's a proof it's a proof by contradiction"
+  },
+  {
+    "t_start": 153.43,
+    "t_end": 153.44,
+    "text": "it's a proof by contradiction"
+  },
+  {
+    "t_start": 153.44,
+    "t_end": 155.03,
+    "text": "it's a proof by contradiction contradiction so we're going to"
+  },
+  {
+    "t_start": 155.03,
+    "t_end": 155.04,
+    "text": "contradiction so we're going to"
+  },
+  {
+    "t_start": 155.04,
+    "t_end": 156.35,
+    "text": "contradiction so we're going to hopefully arrive at some sort of"
+  },
+  {
+    "t_start": 156.35,
+    "t_end": 156.36,
+    "text": "hopefully arrive at some sort of"
+  },
+  {
+    "t_start": 156.36,
+    "t_end": 157.85,
+    "text": "hopefully arrive at some sort of contradiction okay"
+  },
+  {
+    "t_start": 157.85,
+    "t_end": 157.86,
+    "text": "contradiction okay"
+  },
+  {
+    "t_start": 157.86,
+    "t_end": 160.97,
+    "text": "contradiction okay so let's assume"
+  },
+  {
+    "t_start": 160.97,
+    "t_end": 160.98,
+    "text": "so let's assume"
+  },
+  {
+    "t_start": 160.98,
+    "t_end": 165.229,
+    "text": "so let's assume let's assume that the Primes"
+  },
+  {
+    "t_start": 165.229,
+    "t_end": 165.239,
+    "text": "let's assume that the Primes"
+  },
+  {
+    "t_start": 165.239,
+    "t_end": 169.61,
+    "text": "let's assume that the Primes the primes are finite okay"
+  },
+  {
+    "t_start": 169.61,
+    "t_end": 169.62,
+    "text": "the primes are finite okay"
+  },
+  {
+    "t_start": 169.62,
+    "t_end": 171.71,
+    "text": "the primes are finite okay okay they're finite okay so there's not"
+  },
+  {
+    "t_start": 171.71,
+    "t_end": 171.72,
+    "text": "okay they're finite okay so there's not"
+  },
+  {
+    "t_start": 171.72,
+    "t_end": 172.97,
+    "text": "okay they're finite okay so there's not an infinite number of them they're"
+  },
+  {
+    "t_start": 172.97,
+    "t_end": 172.98,
+    "text": "an infinite number of them they're"
+  },
+  {
+    "t_start": 172.98,
+    "t_end": 175.79,
+    "text": "an infinite number of them they're finite okay well then therefore"
+  },
+  {
+    "t_start": 175.79,
+    "t_end": 175.8,
+    "text": "finite okay well then therefore"
+  },
+  {
+    "t_start": 175.8,
+    "t_end": 180.71,
+    "text": "finite okay well then therefore therefore we can list them okay we can"
+  },
+  {
+    "t_start": 180.71,
+    "t_end": 180.72,
+    "text": "therefore we can list them okay we can"
+  },
+  {
+    "t_start": 180.72,
+    "t_end": 182.93,
+    "text": "therefore we can list them okay we can list them okay so let's list them okay"
+  },
+  {
+    "t_start": 182.93,
+    "t_end": 182.94,
+    "text": "list them okay so let's list them okay"
+  },
+  {
+    "t_start": 182.94,
+    "t_end": 184.97,
+    "text": "list them okay so let's list them okay so let's listen there's and let's list"
+  },
+  {
+    "t_start": 184.97,
+    "t_end": 184.98,
+    "text": "so let's listen there's and let's list"
+  },
+  {
+    "t_start": 184.98,
+    "t_end": 187.729,
+    "text": "so let's listen there's and let's list them in ascending order so P1"
+  },
+  {
+    "t_start": 187.729,
+    "t_end": 187.739,
+    "text": "them in ascending order so P1"
+  },
+  {
+    "t_start": 187.739,
+    "t_end": 190.43,
+    "text": "them in ascending order so P1 P2 P3"
+  },
+  {
+    "t_start": 190.43,
+    "t_end": 190.44,
+    "text": "P2 P3"
+  },
+  {
+    "t_start": 190.44,
+    "t_end": 192.649,
+    "text": "P2 P3 and all the way true to the nth prime"
+  },
+  {
+    "t_start": 192.649,
+    "t_end": 192.659,
+    "text": "and all the way true to the nth prime"
+  },
+  {
+    "t_start": 192.659,
+    "t_end": 196.43,
+    "text": "and all the way true to the nth prime number let's say p n okay and what we're"
+  },
+  {
+    "t_start": 196.43,
+    "t_end": 196.44,
+    "text": "number let's say p n okay and what we're"
+  },
+  {
+    "t_start": 196.44,
+    "t_end": 197.39,
+    "text": "number let's say p n okay and what we're going to do now is we're going to"
+  },
+  {
+    "t_start": 197.39,
+    "t_end": 197.4,
+    "text": "going to do now is we're going to"
+  },
+  {
+    "t_start": 197.4,
+    "t_end": 199.729,
+    "text": "going to do now is we're going to construct two numbers okay so we're"
+  },
+  {
+    "t_start": 199.729,
+    "t_end": 199.739,
+    "text": "construct two numbers okay so we're"
+  },
+  {
+    "t_start": 199.739,
+    "t_end": 201.589,
+    "text": "construct two numbers okay so we're going to construct we're going to"
+  },
+  {
+    "t_start": 201.589,
+    "t_end": 201.599,
+    "text": "going to construct we're going to"
+  },
+  {
+    "t_start": 201.599,
+    "t_end": 202.91,
+    "text": "going to construct we're going to construct"
+  },
+  {
+    "t_start": 202.91,
+    "t_end": 202.92,
+    "text": "construct"
+  },
+  {
+    "t_start": 202.92,
+    "t_end": 204.29,
+    "text": "construct two numbers"
+  },
+  {
+    "t_start": 204.29,
+    "t_end": 204.3,
+    "text": "two numbers"
+  },
+  {
+    "t_start": 204.3,
+    "t_end": 206.27,
+    "text": "two numbers okay okay"
+  },
+  {
+    "t_start": 206.27,
+    "t_end": 206.28,
+    "text": "okay okay"
+  },
+  {
+    "t_start": 206.28,
+    "t_end": 207.83,
+    "text": "okay okay from"
+  },
+  {
+    "t_start": 207.83,
+    "t_end": 207.84,
+    "text": "from"
+  },
+  {
+    "t_start": 207.84,
+    "t_end": 209.99,
+    "text": "from the finite"
+  },
+  {
+    "t_start": 209.99,
+    "t_end": 210.0,
+    "text": "the finite"
+  },
+  {
+    "t_start": 210.0,
+    "t_end": 211.61,
+    "text": "the finite set"
+  },
+  {
+    "t_start": 211.61,
+    "t_end": 211.62,
+    "text": "set"
+  },
+  {
+    "t_start": 211.62,
+    "t_end": 213.89,
+    "text": "set of primes okay we're going to construct"
+  },
+  {
+    "t_start": 213.89,
+    "t_end": 213.9,
+    "text": "of primes okay we're going to construct"
+  },
+  {
+    "t_start": 213.9,
+    "t_end": 215.39,
+    "text": "of primes okay we're going to construct two numbers okay"
+  },
+  {
+    "t_start": 215.39,
+    "t_end": 215.4,
+    "text": "two numbers okay"
+  },
+  {
+    "t_start": 215.4,
+    "t_end": 217.55,
+    "text": "two numbers okay let's call the first number that's"
+  },
+  {
+    "t_start": 217.55,
+    "t_end": 217.56,
+    "text": "let's call the first number that's"
+  },
+  {
+    "t_start": 217.56,
+    "t_end": 221.63,
+    "text": "let's call the first number that's called the first number P star okay so P"
+  },
+  {
+    "t_start": 221.63,
+    "t_end": 221.64,
+    "text": "called the first number P star okay so P"
+  },
+  {
+    "t_start": 221.64,
+    "t_end": 225.229,
+    "text": "called the first number P star okay so P let's say star and P star is simply"
+  },
+  {
+    "t_start": 225.229,
+    "t_end": 225.239,
+    "text": "let's say star and P star is simply"
+  },
+  {
+    "t_start": 225.239,
+    "t_end": 226.91,
+    "text": "let's say star and P star is simply equal to the product of all the Primes"
+  },
+  {
+    "t_start": 226.91,
+    "t_end": 226.92,
+    "text": "equal to the product of all the Primes"
+  },
+  {
+    "t_start": 226.92,
+    "t_end": 230.75,
+    "text": "equal to the product of all the Primes so it's equal to P1 times P2 times P3"
+  },
+  {
+    "t_start": 230.75,
+    "t_end": 230.76,
+    "text": "so it's equal to P1 times P2 times P3"
+  },
+  {
+    "t_start": 230.76,
+    "t_end": 233.57,
+    "text": "so it's equal to P1 times P2 times P3 all the way through times p n so it's a"
+  },
+  {
+    "t_start": 233.57,
+    "t_end": 233.58,
+    "text": "all the way through times p n so it's a"
+  },
+  {
+    "t_start": 233.58,
+    "t_end": 235.789,
+    "text": "all the way through times p n so it's a product of this finite set of primes"
+  },
+  {
+    "t_start": 235.789,
+    "t_end": 235.799,
+    "text": "product of this finite set of primes"
+  },
+  {
+    "t_start": 235.799,
+    "t_end": 238.67,
+    "text": "product of this finite set of primes okay so this is one of our first numbers"
+  },
+  {
+    "t_start": 238.67,
+    "t_end": 238.68,
+    "text": "okay so this is one of our first numbers"
+  },
+  {
+    "t_start": 238.68,
+    "t_end": 239.75,
+    "text": "okay so this is one of our first numbers okay"
+  },
+  {
+    "t_start": 239.75,
+    "t_end": 239.76,
+    "text": "okay"
+  },
+  {
+    "t_start": 239.76,
+    "t_end": 242.99,
+    "text": "okay and okay let's say that we construct"
+  },
+  {
+    "t_start": 242.99,
+    "t_end": 243.0,
+    "text": "and okay let's say that we construct"
+  },
+  {
+    "t_start": 243.0,
+    "t_end": 246.589,
+    "text": "and okay let's say that we construct let's say p star star okay there's"
+  },
+  {
+    "t_start": 246.589,
+    "t_end": 246.599,
+    "text": "let's say p star star okay there's"
+  },
+  {
+    "t_start": 246.599,
+    "t_end": 248.27,
+    "text": "let's say p star star okay there's another number and what that's equal to"
+  },
+  {
+    "t_start": 248.27,
+    "t_end": 248.28,
+    "text": "another number and what that's equal to"
+  },
+  {
+    "t_start": 248.28,
+    "t_end": 250.07,
+    "text": "another number and what that's equal to is equal to the product of all the"
+  },
+  {
+    "t_start": 250.07,
+    "t_end": 250.08,
+    "text": "is equal to the product of all the"
+  },
+  {
+    "t_start": 250.08,
+    "t_end": 255.009,
+    "text": "is equal to the product of all the Primes P1 P2 P3 all the way true to p n"
+  },
+  {
+    "t_start": 255.009,
+    "t_end": 255.019,
+    "text": "Primes P1 P2 P3 all the way true to p n"
+  },
+  {
+    "t_start": 255.019,
+    "t_end": 258.289,
+    "text": "Primes P1 P2 P3 all the way true to p n plus one we add one onto the product of"
+  },
+  {
+    "t_start": 258.289,
+    "t_end": 258.299,
+    "text": "plus one we add one onto the product of"
+  },
+  {
+    "t_start": 258.299,
+    "t_end": 261.71,
+    "text": "plus one we add one onto the product of the primes okay right now"
+  },
+  {
+    "t_start": 261.71,
+    "t_end": 261.72,
+    "text": "the primes okay right now"
+  },
+  {
+    "t_start": 261.72,
+    "t_end": 266.09,
+    "text": "the primes okay right now clearly P star is written as a product"
+  },
+  {
+    "t_start": 266.09,
+    "t_end": 266.1,
+    "text": "clearly P star is written as a product"
+  },
+  {
+    "t_start": 266.1,
+    "t_end": 269.03,
+    "text": "clearly P star is written as a product of primes okay okay so P star is a"
+  },
+  {
+    "t_start": 269.03,
+    "t_end": 269.04,
+    "text": "of primes okay okay so P star is a"
+  },
+  {
+    "t_start": 269.04,
+    "t_end": 270.65,
+    "text": "of primes okay okay so P star is a product of primes okay"
+  },
+  {
+    "t_start": 270.65,
+    "t_end": 270.66,
+    "text": "product of primes okay"
+  },
+  {
+    "t_start": 270.66,
+    "t_end": 274.31,
+    "text": "product of primes okay and now P star star is not written as a"
+  },
+  {
+    "t_start": 274.31,
+    "t_end": 274.32,
+    "text": "and now P star star is not written as a"
+  },
+  {
+    "t_start": 274.32,
+    "t_end": 275.93,
+    "text": "and now P star star is not written as a product of primes it's written as a"
+  },
+  {
+    "t_start": 275.93,
+    "t_end": 275.94,
+    "text": "product of primes it's written as a"
+  },
+  {
+    "t_start": 275.94,
+    "t_end": 279.05,
+    "text": "product of primes it's written as a product of primes plus one okay okay but"
+  },
+  {
+    "t_start": 279.05,
+    "t_end": 279.06,
+    "text": "product of primes plus one okay okay but"
+  },
+  {
+    "t_start": 279.06,
+    "t_end": 280.969,
+    "text": "product of primes plus one okay okay but relying on the fundamental theorem of"
+  },
+  {
+    "t_start": 280.969,
+    "t_end": 280.979,
+    "text": "relying on the fundamental theorem of"
+  },
+  {
+    "t_start": 280.979,
+    "t_end": 283.129,
+    "text": "relying on the fundamental theorem of arithmetic okay relying on the"
+  },
+  {
+    "t_start": 283.129,
+    "t_end": 283.139,
+    "text": "arithmetic okay relying on the"
+  },
+  {
+    "t_start": 283.139,
+    "t_end": 285.05,
+    "text": "arithmetic okay relying on the fundamental theorem of arithmetic P star"
+  },
+  {
+    "t_start": 285.05,
+    "t_end": 285.06,
+    "text": "fundamental theorem of arithmetic P star"
+  },
+  {
+    "t_start": 285.06,
+    "t_end": 288.05,
+    "text": "fundamental theorem of arithmetic P star star should be able to be written as a"
+  },
+  {
+    "t_start": 288.05,
+    "t_end": 288.06,
+    "text": "star should be able to be written as a"
+  },
+  {
+    "t_start": 288.06,
+    "t_end": 291.05,
+    "text": "star should be able to be written as a product of prime numbers okay so P star"
+  },
+  {
+    "t_start": 291.05,
+    "t_end": 291.06,
+    "text": "product of prime numbers okay so P star"
+  },
+  {
+    "t_start": 291.06,
+    "t_end": 296.15,
+    "text": "product of prime numbers okay so P star star so relying okay okay upon the"
+  },
+  {
+    "t_start": 296.15,
+    "t_end": 296.16,
+    "text": "star so relying okay okay upon the"
+  },
+  {
+    "t_start": 296.16,
+    "t_end": 297.71,
+    "text": "star so relying okay okay upon the fundamental theorem of arithmetic let's"
+  },
+  {
+    "t_start": 297.71,
+    "t_end": 297.72,
+    "text": "fundamental theorem of arithmetic let's"
+  },
+  {
+    "t_start": 297.72,
+    "t_end": 302.81,
+    "text": "fundamental theorem of arithmetic let's call that f t a okay relying on FTA okay"
+  },
+  {
+    "t_start": 302.81,
+    "t_end": 302.82,
+    "text": "call that f t a okay relying on FTA okay"
+  },
+  {
+    "t_start": 302.82,
+    "t_end": 307.67,
+    "text": "call that f t a okay relying on FTA okay P star star okay uh should"
+  },
+  {
+    "t_start": 307.67,
+    "t_end": 307.68,
+    "text": "P star star okay uh should"
+  },
+  {
+    "t_start": 307.68,
+    "t_end": 309.05,
+    "text": "P star star okay uh should be"
+  },
+  {
+    "t_start": 309.05,
+    "t_end": 309.06,
+    "text": "be"
+  },
+  {
+    "t_start": 309.06,
+    "t_end": 312.409,
+    "text": "be we should be able to write okay P star"
+  },
+  {
+    "t_start": 312.409,
+    "t_end": 312.419,
+    "text": "we should be able to write okay P star"
+  },
+  {
+    "t_start": 312.419,
+    "t_end": 315.65,
+    "text": "we should be able to write okay P star star as a product"
+  },
+  {
+    "t_start": 315.65,
+    "t_end": 315.66,
+    "text": "star as a product"
+  },
+  {
+    "t_start": 315.66,
+    "t_end": 317.93,
+    "text": "star as a product of primes let's keep that in mind okay"
+  },
+  {
+    "t_start": 317.93,
+    "t_end": 317.94,
+    "text": "of primes let's keep that in mind okay"
+  },
+  {
+    "t_start": 317.94,
+    "t_end": 321.35,
+    "text": "of primes let's keep that in mind okay okay so now we have two numbers okay"
+  },
+  {
+    "t_start": 321.35,
+    "t_end": 321.36,
+    "text": "okay so now we have two numbers okay"
+  },
+  {
+    "t_start": 321.36,
+    "t_end": 327.05,
+    "text": "okay so now we have two numbers okay okay we have a p star which is P1 times"
+  },
+  {
+    "t_start": 327.05,
+    "t_end": 327.06,
+    "text": "okay we have a p star which is P1 times"
+  },
+  {
+    "t_start": 327.06,
+    "t_end": 329.99,
+    "text": "okay we have a p star which is P1 times P2 times P3 all the way through to PN"
+  },
+  {
+    "t_start": 329.99,
+    "t_end": 330.0,
+    "text": "P2 times P3 all the way through to PN"
+  },
+  {
+    "t_start": 330.0,
+    "t_end": 334.01,
+    "text": "P2 times P3 all the way through to PN and we have P star star which is a"
+  },
+  {
+    "t_start": 334.01,
+    "t_end": 334.02,
+    "text": "and we have P star star which is a"
+  },
+  {
+    "t_start": 334.02,
+    "t_end": 335.45,
+    "text": "and we have P star star which is a product"
+  },
+  {
+    "t_start": 335.45,
+    "t_end": 335.46,
+    "text": "product"
+  },
+  {
+    "t_start": 335.46,
+    "t_end": 338.81,
+    "text": "product of primes okay okay so it's a product of"
+  },
+  {
+    "t_start": 338.81,
+    "t_end": 338.82,
+    "text": "of primes okay okay so it's a product of"
+  },
+  {
+    "t_start": 338.82,
+    "t_end": 341.39,
+    "text": "of primes okay okay so it's a product of primes okay now"
+  },
+  {
+    "t_start": 341.39,
+    "t_end": 341.4,
+    "text": "primes okay now"
+  },
+  {
+    "t_start": 341.4,
+    "t_end": 344.93,
+    "text": "primes okay now and because P star star is a product of"
+  },
+  {
+    "t_start": 344.93,
+    "t_end": 344.94,
+    "text": "and because P star star is a product of"
+  },
+  {
+    "t_start": 344.94,
+    "t_end": 347.93,
+    "text": "and because P star star is a product of primes okay okay well then there must be"
+  },
+  {
+    "t_start": 347.93,
+    "t_end": 347.94,
+    "text": "primes okay okay well then there must be"
+  },
+  {
+    "t_start": 347.94,
+    "t_end": 350.45,
+    "text": "primes okay okay well then there must be some Prime in our list of primes okay"
+  },
+  {
+    "t_start": 350.45,
+    "t_end": 350.46,
+    "text": "some Prime in our list of primes okay"
+  },
+  {
+    "t_start": 350.46,
+    "t_end": 353.93,
+    "text": "some Prime in our list of primes okay that divide P star star and divides P"
+  },
+  {
+    "t_start": 353.93,
+    "t_end": 353.94,
+    "text": "that divide P star star and divides P"
+  },
+  {
+    "t_start": 353.94,
+    "t_end": 355.49,
+    "text": "that divide P star star and divides P star okay"
+  },
+  {
+    "t_start": 355.49,
+    "t_end": 355.5,
+    "text": "star okay"
+  },
+  {
+    "t_start": 355.5,
+    "t_end": 358.73,
+    "text": "star okay clearly okay that Prime has to be one of"
+  },
+  {
+    "t_start": 358.73,
+    "t_end": 358.74,
+    "text": "clearly okay that Prime has to be one of"
+  },
+  {
+    "t_start": 358.74,
+    "t_end": 361.249,
+    "text": "clearly okay that Prime has to be one of the primes P one p two P three up to p n"
+  },
+  {
+    "t_start": 361.249,
+    "t_end": 361.259,
+    "text": "the primes P one p two P three up to p n"
+  },
+  {
+    "t_start": 361.259,
+    "t_end": 364.85,
+    "text": "the primes P one p two P three up to p n okay okay so clearly so let's choose"
+  },
+  {
+    "t_start": 364.85,
+    "t_end": 364.86,
+    "text": "okay okay so clearly so let's choose"
+  },
+  {
+    "t_start": 364.86,
+    "t_end": 367.4,
+    "text": "okay okay so clearly so let's choose okay"
+  }
+]

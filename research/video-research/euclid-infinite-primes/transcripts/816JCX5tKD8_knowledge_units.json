@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ku_video_816JCX5tKD8_0",
+    "t_start": 0.6,
+    "t_end": 92.9,
+    "type": "overview",
+    "summary": "okay let's do another classic proof for fun\\h and once again we'll talk about how to prove a\\h\\h statement by using contradiction and the statement\\h is that we will show there are infinitely many\\h\\h primes and by the way this right here was done\\h long time ago right by uket and it's just a\\h\\h classic proof that all the math major students\\h they have to see it first and you just picked\\h\\h up some techniques from this proof and maybe\\h later on when you trying to do sound statements\\h\\h you can use a similar technique or similar idea\\h anyway I will have to ask you guys first what\\h\\h does…"
+  },
+  {
+    "id": "ku_video_816JCX5tKD8_92",
+    "t_start": 92.9,
+    "t_end": 184.2,
+    "type": "overview",
+    "summary": "but usually they just C it to be end right anyway\\h the important thing is that this are all the prime\\h\\h numbers that we have based on this assumption\\h and the hard part is based on this assumption\\h\\h all that we want to come with something just\\h like if you want to prove a human being cannot\\h\\h fly suppose the person can actually fly and you\\h have to think about what the ways to convince\\h\\h him he cannot fly right you have to think about a\\h way to mess it up ask him or her to jump off the\\h\\h building right that's why I told you guys in the\\h previous video but anyway this is the sta…"
+  },
+  {
+    "id": "ku_video_816JCX5tKD8_184",
+    "t_start": 184.2,
+    "t_end": 275.0,
+    "type": "overview",
+    "summary": "way to say Q is not the same as one any of this\\h so since Q cannot be a prime anymore but we can\\h\\h say that Q will have a prime factor because it's\\h either you prime or you're not prime if you are\\h\\h not a prime number then you will have a prime\\h factor you can Factor it out right well we're\\h\\h just going to call the prime number to be p k okay\\h p subk okay and because this right here is just a\\h\\h prime factor prime factor so PK has to be one of\\h the prime numbers that we listed right here and\\h\\h once again this is notation PK is an element of\\h the set of all the prime numbers that…"
+  },
+  {
+    "id": "ku_video_816JCX5tKD8_275",
+    "t_start": 275.0,
+    "t_end": 371.6,
+    "type": "overview",
+    "summary": "PK is also a factor of Q minus P1 P2 just up to\\h you multiply up to PQ PN I mean let me try again\\h\\h PK is a factor of Q minus P1 * P2 * P3 * d da da\\h * PN how do we know well you know P subk divides\\h\\h this likewise P subk divides that you can Factor\\h the PK so of course if device all that and don't\\h\\h let me please don't ask me to write L for this\\h it should be really clear right anyway now let's\\h\\h look at this number we know Q minus P1 P2 da PN\\h this right here is actually one how do we know\\h\\h because we can just look at the definition of q\\h and subtract this part on both sides…"
+  },
+  {
+    "id": "ku_video_816JCX5tKD8_371",
+    "t_start": 371.6,
+    "t_end": 471.4,
+    "type": "overview",
+    "summary": "you can just denote it this result has to be an\\h integer well 1 / PK this right here this cannot\\h\\h be an integer how come one is just one PK is a\\h prime number because b/ because since PK is a\\h\\h prime number and what's the smallest prime number\\h that we have two isn't it PK has to be greater\\h\\h than or equal to two and when you have one divided\\h by something that's not one or negative one this\\h\\h has to be a fraction meaning this this right here\\h cannot be in Z and you see the left hand side we\\h\\h said it to be it's an integer but the right hand\\h side it's not an integer once agai…"
+  }
+]

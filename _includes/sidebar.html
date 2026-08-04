@@ -12,34 +12,73 @@
     <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">{% t home %}</a>
 
     {% comment %}
-      The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
+      Chapter pages (layout: page) with nested lesson submenu from posts
+      in site.categories["chapterNN"], sorted by order, filtered by lang.
     {% endcomment %}
 
     {% assign current_lang = page.lang | default: site.default_lang %}
     {% assign pages_list = site.pages | where: "lang", current_lang | sort: "chapter" %}
-    
-    <!-- Hiển thị các chương có sẵn cho ngôn ngữ hiện tại -->
+    {% assign current_chapter = page.chapter | default: "" %}
+
     {% for node in pages_list %}
       {% if node.title != null and node.chapter %}
         {% if node.layout == "page" %}
           {% assign is_hidden = node.hidden | default: false %}
           {% unless is_hidden %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">
-              {{node.chapter}}. {{ node.title }}
-              {% if node.lesson_type %}
-                {% if node.lesson_type == 'required' %}
-                  <span class="lesson-badge required">{% t required %}</span>
-                {% elsif node.lesson_type == 'optional' %}
-                  <span class="lesson-badge optional">{% t optional %}</span>
+            {% assign cat_name = node.chapter | prepend: "chapter" %}
+            {% if node.chapter == "26" %}
+              {% assign cat_name = "reference" %}
+            {% endif %}
+
+            {% assign chapter_posts = site.categories[cat_name] %}
+            {% if chapter_posts %}
+              {% assign sorted_posts = chapter_posts | sort: "order" %}
+              {% assign lang_posts = sorted_posts | where: "lang", current_lang %}
+            {% else %}
+              {% assign lang_posts = "" | split: "" %}
+            {% endif %}
+
+            {% assign chapter_active = false %}
+            {% if page.url == node.url %}
+              {% assign chapter_active = true %}
+            {% endif %}
+            {% if current_chapter != "" and current_chapter == node.chapter %}
+              {% assign chapter_active = true %}
+            {% endif %}
+
+            <div class="sidebar-nav-group{% if chapter_active %} is-open is-active{% endif %}"
+                 data-chapter="{{ node.chapter }}">
+              <div class="sidebar-nav-chapter-row">
+                <a class="sidebar-nav-item sidebar-nav-chapter{% if page.url == node.url %} active{% endif %}"
+                   href="{{ node.url | absolute_url }}">
+                  <span class="sidebar-nav-chapter-label">{{ node.chapter }}. {{ node.title }}</span>
+                </a>
+                {% if lang_posts.size > 0 %}
+                  <button type="button"
+                          class="sidebar-nav-caret"
+                          aria-expanded="{% if chapter_active %}true{% else %}false{% endif %}"
+                          aria-label="Toggle lessons for {{ node.title }}">
+                    <span class="sidebar-nav-caret-icon" aria-hidden="true"></span>
+                  </button>
                 {% endif %}
+              </div>
+
+              {% if lang_posts.size > 0 %}
+                <div class="sidebar-nav-sub" role="group" aria-label="{{ node.title }}">
+                  {% for post in lang_posts %}
+                    <a class="sidebar-nav-item sidebar-nav-lesson{% if page.url == post.url %} active{% endif %}"
+                       href="{{ post.url | absolute_url }}">
+                      {{ post.title }}
+                    </a>
+                  {% endfor %}
+                </div>
               {% endif %}
-            </a>
+            </div>
           {% endunless %}
         {% endif %}
       {% endif %}
     {% endfor %}
-    
+
     <!-- Nếu không có nội dung cho ngôn ngữ hiện tại, hiển thị thông báo -->
     {% if pages_list.size == 0 %}
       <div class="sidebar-nav-item" style="color: #999; font-style: italic;">
@@ -49,9 +88,11 @@
           Content is being updated...
         {% endif %}
       </div>
-      
-      <!-- Hiển thị link chuyển sang ngôn ngữ có nội dung -->
-      {% assign other_lang = current_lang == 'en' ? 'vi' : 'en' %}
+
+      {% assign other_lang = 'en' %}
+      {% if current_lang == 'en' %}
+        {% assign other_lang = 'vi' %}
+      {% endif %}
       {% assign other_pages = site.pages | where: "lang", other_lang | sort: "chapter" %}
       {% if other_pages.size > 0 %}
         <div class="sidebar-nav-item">
@@ -65,7 +106,7 @@
         </div>
       {% endif %}
     {% endif %}
-    
+
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 

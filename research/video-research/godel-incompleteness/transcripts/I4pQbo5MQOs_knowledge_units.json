@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ku_video_I4pQbo5MQOs_6",
+    "t_start": 6.9,
+    "t_end": 98.1,
+    "type": "overview",
+    "summary": "Consider the following sentence: “This statement is false.” Is that true? If so, that would make this statement false. But if it’s false, then the statement is true. By referring to itself directly, this statement creates an unresolvable paradox. So if it’s not true and it’s not false— what is it? This question might seem like a silly thought experiment. But in the early 20th century, it led Austrian logician Kurt Gödel to a discovery that would change mathematics forever. Gödel’s discovery had to do with the limitations of mathematical proofs. A proof is a logical argument that demonstrate…"
+  },
+  {
+    "id": "ku_video_I4pQbo5MQOs_98",
+    "t_start": 98.1,
+    "t_end": 188.9,
+    "type": "overview",
+    "summary": "to investigate this problem. While it’s relatively easy to create a self-referential paradox with words, numbers don't typically talk about themselves. A mathematical statement is simply true or false. But Gödel had an idea. First, he translated mathematical statements and equations into code numbers so that a complex mathematical idea could be expressed in a single number. This meant that mathematical statements written with those numbers were also expressing something about the encoded statements of mathematics. In this way, the coding allowed mathematics to talk about itself. Through thi…"
+  },
+  {
+    "id": "ku_video_I4pQbo5MQOs_188",
+    "t_start": 188.9,
+    "t_end": 279.9,
+    "type": "overview",
+    "summary": "which introduces an entirely new class of mathematical statement. In Gödel’s paradigm, statements still are either true or false, but true statements can either be provable or unprovable within a given set of axioms. Furthermore, Gödel argues these unprovable true statements exist in every axiomatic system. This makes it impossible to create a perfectly complete system using mathematics, because there will always be true statements we cannot prove. Even if you account for these unprovable statements by adding them as new axioms to an enlarged mathematical system, that very process introduce…"
+  },
+  {
+    "id": "ku_video_I4pQbo5MQOs_279",
+    "t_start": 279.9,
+    "t_end": 298.2,
+    "type": "overview",
+    "summary": "inspired key innovations in early computers. And today, some mathematicians dedicate their careers to identifying provably unprovable statements. So while mathematicians may have lost some certainty, thanks to Gödel they can embrace the unknown at the heart of any quest for truth."
+  }
+]

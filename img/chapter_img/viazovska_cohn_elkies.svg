@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="200" viewBox="0 0 560 200">
+  <rect width="560" height="200" fill="#fafbfc"/>
+  <text x="16" y="28" font-family="Georgia, serif" font-size="15" fill="#222">Cohn–Elkies linear programming bound (idea)</text>
+  <rect x="30" y="55" width="200" height="100" rx="8" fill="#e8f1fb" stroke="#004586" stroke-width="2"/>
+  <text x="130" y="90" text-anchor="middle" font-size="13" fill="#004586">radial f ≥ 0 outside</text>
+  <text x="130" y="112" text-anchor="middle" font-size="13" fill="#004586">a ball of radius r</text>
+  <text x="130" y="134" text-anchor="middle" font-size="12" fill="#666">and f(0) &gt; 0</text>
+  <path d="M250 105 L300 105" stroke="#666" stroke-width="2"/>
+  <rect x="320" y="55" width="210" height="100" rx="8" fill="#fff5e6" stroke="#b35c00" stroke-width="2"/>
+  <text x="425" y="90" text-anchor="middle" font-size="13" fill="#b35c00">ˆf ≥ 0 everywhere</text>
+  <text x="425" y="112" text-anchor="middle" font-size="12" fill="#666">Fourier positivity</text>
+  <text x="425" y="134" text-anchor="middle" font-size="12" fill="#666">⇒ density upper bound</text>
+  <text x="16" y="180" font-size="12" fill="#444">Equality needs a “magic” f — Viazovska constructs one in dim 8 via modular forms.</text>
+</svg>

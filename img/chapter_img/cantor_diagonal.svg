@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+  <rect width="720" height="360" fill="#fafbfc"/>
+  <text x="360" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1a1a">Cantor diagonal (schematic decimals in (0,1))</text>
+  <g font-family="DejaVu Sans Mono, monospace" font-size="14" fill="#333">
+    <text x="80" y="80">r₁ = 0 . 3 1 4 1 5 9 …</text>
+    <text x="80" y="110">r₂ = 0 . 2 7 1 8 2 8 …</text>
+    <text x="80" y="140">r₃ = 0 . 1 6 1 8 0 3 …</text>
+    <text x="80" y="170">r₄ = 0 . 5 5 5 5 5 5 …</text>
+    <text x="80" y="200">r₅ = 0 . 9 0 0 0 0 0 …</text>
+  </g>
+  <!-- highlight diagonal -->
+  <rect x="155" y="62" width="18" height="22" fill="#c73e1d" opacity="0.25"/>
+  <rect x="178" y="92" width="18" height="22" fill="#c73e1d" opacity="0.25"/>
+  <rect x="201" y="122" width="18" height="22" fill="#c73e1d" opacity="0.25"/>
+  <rect x="224" y="152" width="18" height="22" fill="#c73e1d" opacity="0.25"/>
+  <rect x="247" y="182" width="18" height="22" fill="#c73e1d" opacity="0.25"/>
+  <text x="400" y="120" font-family="system-ui" font-size="13" fill="#c73e1d">Flip diagonal digits</text>
+  <text x="400" y="150" font-family="system-ui" font-size="13" fill="#333">Build d that differs from</text>
+  <text x="400" y="170" font-family="system-ui" font-size="13" fill="#333">rₙ in the n-th place</text>
+  <text x="400" y="210" font-family="system-ui" font-size="13" fill="#0a6b4a">⇒ d is missing from the list</text>
+  <text x="360" y="280" text-anchor="middle" font-family="system-ui" font-size="13" fill="#444">Any proposed complete list of reals fails. |ℝ| &gt; |ℕ|.</text>
+  <text x="360" y="320" text-anchor="middle" font-family="system-ui" font-size="11" fill="#888">Ignore dual representations 0.1999…=0.2000… with a careful digit rule in a full proof.</text>
+</svg>

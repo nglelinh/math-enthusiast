@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ku_video_FQXbRGmAbUY_2",
+    "t_start": 2.2,
+    "t_end": 93.8,
+    "type": "overview",
+    "summary": "hey it's Nathan and I wanted to tell you hey it's Nathan and I wanted to tell you more about H Dimension today or like in more about H Dimension today or like in more about H Dimension today or like in in particular like how we work with it in particular like how we work with it in particular like how we work with it or some tools that we use in order to or some tools that we use in order to or some tools that we use in order to estimate estimate estimate it there's certain things about this it there's certain things about this it there's certain things about this definition that make it hard …"
+  },
+  {
+    "id": "ku_video_FQXbRGmAbUY_93",
+    "t_start": 93.8,
+    "t_end": 186.8,
+    "type": "overview",
+    "summary": "measure Theory things it's really just measure Theory things it's really just about understanding what it means to about understanding what it means to about understanding what it means to have a Delta cover and what the have a Delta cover and what the have a Delta cover and what the definition of hdor Dimension uh what the definition of hdor Dimension uh what the definition of hdor Dimension uh what the pieces are of it so this proof starts pieces are of it so this proof starts pieces are of it so this proof starts just by noting that n subk and Delta just by noting that n subk and Delta just…"
+  },
+  {
+    "id": "ku_video_FQXbRGmAbUY_186",
+    "t_start": 186.8,
+    "t_end": 277.7,
+    "type": "overview",
+    "summary": "plus s log Delta subk which implies that plus s log Delta subk which implies that minus log n subk over log Delta subk is minus log n subk over log Delta subk is minus log n subk over log Delta subk is greater than S and the thing to note greater than S and the thing to note greater than S and the thing to note here is that for K large enough because here is that for K large enough because here is that for K large enough because Delta sub K goes to zero as K goes to Delta sub K goes to zero as K goes to Delta sub K goes to zero as K goes to Infinity Delta sub K is going to be less Infinity Del…"
+  },
+  {
+    "id": "ku_video_FQXbRGmAbUY_277",
+    "t_start": 277.7,
+    "t_end": 368.3,
+    "type": "overview",
+    "summary": "possible thing the theem that I'm going possible thing the theem that I'm going to present here is going to be the mass to present here is going to be the mass to present here is going to be the mass distribution principle there are other distribution principle there are other distribution principle there are other Mass distribution methods for estimating Mass distribution methods for estimating Mass distribution methods for estimating hos Dimension but this one in particular hos Dimension but this one in particular hos Dimension but this one in particular gives a lower bound uh and it just gi…"
+  },
+  {
+    "id": "ku_video_FQXbRGmAbUY_368",
+    "t_start": 368.3,
+    "t_end": 460.1,
+    "type": "overview",
+    "summary": "the conditions in this proof I'm going the conditions in this proof I'm going to Interchange Delta and Epsilon because to Interchange Delta and Epsilon because to Interchange Delta and Epsilon because there's in the statement of the theorem there's in the statement of the theorem there's in the statement of the theorem the small thing is the Epsilon in hos the small thing is the Epsilon in hos the small thing is the Epsilon in hos Dimension the small stuff is the stuff Dimension the small stuff is the stuff Dimension the small stuff is the stuff that's in the Delta cover so I'll be that's in t…"
+  },
+  {
+    "id": "ku_video_FQXbRGmAbUY_460",
+    "t_start": 460.1,
+    "t_end": 551.2,
+    "type": "overview",
+    "summary": "then further limiting this Delta to zero then further limiting this Delta to zero since again the left hand side does not since again the left hand side does not since again the left hand side does not depend on that Delta we'll get the depend on that Delta we'll get the depend on that Delta we'll get the s-dimensional hos dorf measure of a is s-dimensional hos dorf measure of a is s-dimensional hos dorf measure of a is greater than or equal to the measure of greater than or equal to the measure of greater than or equal to the measure of a over c as desired now since the a over c as desired no…"
+  },
+  {
+    "id": "ku_video_FQXbRGmAbUY_551",
+    "t_start": 551.2,
+    "t_end": 567.8,
+    "type": "overview",
+    "summary": "thumbs up and you can comment things thumbs up and you can comment things down below if you uh have Corrections down below if you uh have Corrections down below if you uh have Corrections comments concerns or just things that comments concerns or just things that comments concerns or just things that you want me to cover in the future I you want me to cover in the future I you want me to cover in the future I appreciate it um but anyway yep that's appreciate it um but anyway yep that's appreciate it um but anyway yep that's it as always I am Nathan this one was it as always I am Nathan this on…"
+  }
+]

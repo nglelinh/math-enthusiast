@@ -1,0 +1,254 @@
+[
+  {
+    "id": "ku_video_dVGX6QhO8rU_2",
+    "t_start": 2.1,
+    "t_end": 94.2,
+    "type": "overview",
+    "summary": "so this is the title non-linear and local surfaces structural problems and local surfaces structural problems and some their applications okay and so well list of the world so what is the diffusion process and uh diffusion process and uh uh okay so here are some some stuff so uh okay so here are some some stuff so so okay so basically as I test over there right we want to study the structure of some problem of some surface right so this is a we want to model then equations the we want to model then equations the advantage in space and time so here they advantage in space and time so here th…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_94",
+    "t_start": 94.2,
+    "t_end": 193.1,
+    "type": "overview",
+    "summary": "we have another right this is a Surface which is bent up from One Direction and which is bent up from One Direction and bend up on the other right and that has tangent line and some point right the amount of that it bends down is equal to amount of that it bends down is equal to the amount as that indents up and the amount as that indents up and therefore if that's the case then it therefore if that's the case then it satisfies an equation that basically says that the laplacian is zero because you lose one of half of the LaPlace and you lose one of half of the LaPlace and down the other up …"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_193",
+    "t_start": 193.1,
+    "t_end": 285.0,
+    "type": "overview",
+    "summary": "is the Divergence of the gradient of U right and so that is what the Alaska how right and so that is what the Alaska how the bending is right if you take at the point that tangential law surface right and they make that their basis and then when you have here your point now is tangential zero and then you look at the tangential zero and then you look at the what happens with the laplacian that is what happens with the laplacian that is the way that function is bending up and applications it is interesting when this is a Divergence of some oscillation of the gradient of U of X right this is …"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_284",
+    "t_start": 285.0,
+    "t_end": 377.6,
+    "type": "overview",
+    "summary": "like this you know when there are ingredients right in the for instance in ingredients right in the for instance in the quality of this quantity that the quality of this quantity that um is more interesting for in that case you have to look at Divergence of some quantity of gradient of view which I hope will may appear later and the same beautiful the appear later and the same beautiful the simplest one is this one the laplacian simplest one is this one the laplacian okay so let's see if oop we can go a little bit to the LaPlace and here we have another example right of of an elliptic quest…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_377",
+    "t_start": 377.6,
+    "t_end": 469.8,
+    "type": "overview",
+    "summary": "was negative below and it is transforming above right and so this is transforming above right and so this is the change in surface okay and so uh here it is the solid region a temperature this year or less than zero temperature this year or less than zero with a free boundary surface write this with a free boundary surface write this one right which is uh which is uh the one right which is uh which is uh the one that separates right that capital T of X Little T because it is this surface is changing in time right this surface is changing in time right so and this is the T of x t equal to 0 …"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_469",
+    "t_start": 469.8,
+    "t_end": 562.7,
+    "type": "overview",
+    "summary": "right or uh or a characteristic of K right so but here now it is as I said as a variation diver D of x j of this coefficient k i j of x d x r d j x okay coefficient k i j of x d x r d j x okay of the function T of x and t right in other words this is evolving at the beginning looks like there was no T but beginning looks like there was no T but now we are saying no we are going to now we are saying no we are going to look at the case where the surface is is look at the case where the surface is is evolving right and therefore that's what evolving right and therefore that's what the equation…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_562",
+    "t_start": 562.7,
+    "t_end": 655.7,
+    "type": "overview",
+    "summary": "make it nice or well at least interesting right uh different in different lines it moves with a different invest the velocity right but different invest the velocity right but this mathematically is very close to the first example right so we have this uh this movement here right and if you make it you cut the translation then with the picture that you say is this distribution right like saying near the center the velocity like saying near the center the velocity is a smaller than near the edges right and then oh accelerates the particle uh spice time positions right so you have x and t and…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_655",
+    "t_start": 655.7,
+    "t_end": 743.8,
+    "type": "overview",
+    "summary": "average velocity V of YT in a tiny ball right B Epsilon of x0 around x0 with the actuality velocity V of x0 T and to take the quantity the average right of V of Y the quantity the average right of V of Y T minus V of x 0 t d y right T minus V of x 0 t d y right B Epsilon of exceed in other words I am B Epsilon of exceed in other words I am a tuxedo and I look at the little a tuxedo and I look at the little neighborhood right this Y is a little neighborhood right this Y is a little neighborhood around exceed all right and neighborhood around exceed all right and then you are looking at the V…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_755",
+    "t_start": 755.8,
+    "t_end": 847.3,
+    "type": "overview",
+    "summary": "become somebody that helps me yes so I have so I wait to see diffusion operators as averaging right so I want we have these examples of whatever we have these examples of whatever diffusions and things like that so now diffusions and things like that so now we want to go more uh close more inside we want to go more uh close more inside the mathematics of it okay so basically the mathematics of it okay so basically we want to make a more just description we want to make a more just description of what is the diffusion operator right okay and so basically a way to see the integral averaging a…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_847",
+    "t_start": 847.3,
+    "t_end": 937.3,
+    "type": "overview",
+    "summary": "o u right and then so uh we this is making an overages right because you are making an overages right because you are making this a sort of other integral making this a sort of other integral also the the age is the Epsilon as it says here so the age makes a u of X Plus H to be around U of X in a low circle H to be around U of X in a low circle right differential of a FH of that is right differential of a FH of that is the things in the the little ball right so basically I'm looking at the average right if you take this and this and you right if you take this and this and you averages with …"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_937",
+    "t_start": 937.3,
+    "t_end": 1030.8,
+    "type": "overview",
+    "summary": "what do you get is the tangential laplacian perfume right you have the trace of the IJ of U of X or what it is the same the laplacian of U attacks okay the same the laplacian of U attacks okay so the the important thing I want to to to to tell you is right it is it is an to tell you is right it is it is an interesting important thing is this way interesting important thing is this way right of approaching the laplacian because it has many applications right like if you have a medium which is not like if you have a medium which is not just like what corresponds to the just like what correspo…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_1030",
+    "t_start": 1030.8,
+    "t_end": 1121.2,
+    "type": "overview",
+    "summary": "then there starts to be important interaction right I am here and I have interaction right I am here and I have enough this I can do from myself enough this I can do from myself something to the people that announce me something to the people that announce me and each one there can do the same again and again and again right so it is very important to really understand better important to really understand better not just the laplacian but the not just the laplacian but the fractional of what it's called the so a more General situation then is this non-local diffusion equation written in no…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_1121",
+    "t_start": 1121.2,
+    "t_end": 1212.4,
+    "type": "overview",
+    "summary": "segment Sigma let's call it sigmas Sigma Alpha U of x0 T okay so basically Sigma Alpha U of x0 T okay so basically here the picture is that I am let's say here the picture is that I am let's say 40 fix right what you have is all of 40 fix right what you have is all of these Rings right which are given by this K Sigma right and so gives at the point x 0 of what is going on at y okay point x 0 of what is going on at y okay for all y belonging to uh uh R to the N for all y belonging to uh uh R to the N okay note that when at Sigma is one the okay note that when at Sigma is one the average oper…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_1212",
+    "t_start": 1212.4,
+    "t_end": 1303.1,
+    "type": "overview",
+    "summary": "there are many applications where this non-lock non-infinikesimal non-local media appears okay so in continuous mechanics they appear when considering mechanics they appear when considering surface diffusion or Surface surface diffusion or Surface discontinuities that is when they are jump on the boundary that perceive long-range perceived long ranges from the interactions taking place on both sides of the surface place on both sides of the surface fundamental examples are requisite fundamental examples are requisite geostromic drafts geostrophic equations geostromic drafts geostrophic equa…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_1303",
+    "t_start": 1303.1,
+    "t_end": 1394.5,
+    "type": "overview",
+    "summary": "you can say right surface difference processes induces by interfaces right processes induces by interfaces right and interface problem study configurations consisting okay so inter when we go a little bit so it's a second when we go a little bit so it's a second in inter integration problem study configurations consisting in having a diffusion consisting in having a diffusion equations with two or more different Medias in other words with different distance and so on think of the solid distance and so on think of the solid eyes right when you have eyes and liquid eyes right when you have ey…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_1394",
+    "t_start": 1394.5,
+    "t_end": 1487.0,
+    "type": "overview",
+    "summary": "this so an important family of examples concerns or versus diffusion in other concerns or versus diffusion in other words we have the today the the difference the separation right and then we want to see how that evolves okay so we want to see how that evolves okay so in that case quantitative quantities that live on the surface was flows through a membrane in our discuss the through a membrane in our discuss the membrane and things flow through the flow and affects and affected by long-range interactions could be here long-range interactions could be here right through media A and B at bot…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_1487",
+    "t_start": 1487.0,
+    "t_end": 1577.6,
+    "type": "overview",
+    "summary": "medium a right because these are going to be some Quantum quantity with some to be some Quantum quantity with some properties of melting or something like that and there is another property of melting or of heating or something like melting or of heating or something like that and then there is this separation that and then there is this separation right and so here are the interesting right and so here are the interesting thing that is the movement or the thing that is the movement or the evolution is in this Jump Place in this evolution is in this Jump Place in this surface of discontinui…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_1579",
+    "t_start": 1579.5,
+    "t_end": 1672.1,
+    "type": "overview",
+    "summary": "has changed okay class and so classify minimal server first of and so classify minimal server first of all so to find a perimeter right minimal surface as are those obtained by a minimization process as the stating stating so we have a any local stating so we have a any local you have any local perturbation of and suppose that this will be horizontal right like here are some Some solid right like here are some Some solid thing and above some liquid sinks and thing and above some liquid sinks and then there is some some then they bend in a particular initial way and you know a style Dropbox …"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_1672",
+    "t_start": 1672.1,
+    "t_end": 1762.7,
+    "type": "overview",
+    "summary": "Surplus right and the is based on the concept that either or what happens is that either prescribed either prescribe any change on Boundary of Omega by the perturbation of boundary of d right so we have here of boundary of d right so we have here boundary of Omega and here we have D so when D moves that perters then Delta Sigma right without taking into account what is outside the volume perturbation so this outside the volume perturbation so this is a d is mathematical problem we are basically we have what happens with d and how that have what happens with d and how that moves the top and …"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_1762",
+    "t_start": 1762.7,
+    "t_end": 1851.0,
+    "type": "overview",
+    "summary": "counseling or Omega and the complement of Omega in the ball BR of exedo okay so of Omega in the ball BR of exedo okay so can I click let's see okay so that's the surface pick up the surface s that was in the middle right surface s that was in the middle right and which is uh which is the boundary of and which is uh which is the boundary of this Omega in other words in this case this Omega in other words in this case the the tall the the heavy thing is on is not on the surface but on below right and the surface just gives a quality of and the surface just gives a quality of how the edges the…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_1854",
+    "t_start": 1854.0,
+    "t_end": 1950.0,
+    "type": "overview",
+    "summary": "volume of Sigma minus the volume of complement of Sigma DX that is equal to complement of Sigma DX that is equal to the O of R so basically the O of R so basically PR is more or less a little PR is more or less a little yeah a middle picture right where you yeah a middle picture right where you have separation here you have the d The Omega the lower Omega here we have S the Omega and then this how this evolves it Omega and then this how this evolves it is a elliptic or parabolic thing we want to consider okay but if s of 6 0 is the consider okay but if s of 6 0 is the boundary of Omega for …"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_1949",
+    "t_start": 1950.0,
+    "t_end": 2044.1,
+    "type": "overview",
+    "summary": "is equal to the average remember this integral with the line right of a integral with the line right of a capital capital capital capital Sigma minus capital Sigma complement so we got the average this quantity is equal to the average and the ball of equal to the average and the ball of radius R of this difference of capital right on one side and the other right so remember this quantity is equal to this remember this quantity is equal to this quantity that looks at the two sides of the one above and it's equal to the average term of r r is a radius or the average term of r r is a radius or…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_2044",
+    "t_start": 2044.1,
+    "t_end": 2138.0,
+    "type": "overview",
+    "summary": "another this is in some sense maybe the most interesting to my taste case right most interesting to my taste case right which is the different happenings when the equation has different energy right and so here we different energy right and so here we have two examples right so here we have in this disk let's say of radius one here we have a part which is here we have a part which is uh one here and minus 1 or 0 here and this thing in the middle and this thing in the middle is middle and this thing in the middle is like a slight tilted thing right and so like a slight tilted thing right and…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_2138",
+    "t_start": 2138.0,
+    "t_end": 2228.3,
+    "type": "overview",
+    "summary": "do this steeper and steeper we are converging to something which is 1 minus converging to something which is 1 minus one and vertical zero which means that one and vertical zero which means that the the derivative now right here says the the derivative now right here says jump over here the derivative here is zero here is zero but here is Jump becomes vertical okay and therefore uh becomes vertical okay and therefore uh this if the limit of this it is this if the limit of this it is interesting because this is a general interesting because this is a general surface here but what happens wit…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_2228",
+    "t_start": 2228.3,
+    "t_end": 2319.4,
+    "type": "overview",
+    "summary": "this first case right you have an example of a function that is in the example of a function that is in the limit is this uh it has limit is this uh it has it is bounded but it has a discontinuity it is bounded but it has a discontinuity due to the first derivative so that means that there is is that you want to see how nice is this fine jewelry that's see how nice is this fine jewelry that's a little laplacian sense and so on but a little laplacian sense and so on but what you have is that it's very nice here but it is not very nice in everywhere because it has a jump on the everywhere bec…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_2319",
+    "t_start": 2319.4,
+    "t_end": 2412.7,
+    "type": "overview",
+    "summary": "right so when Epsilon goes to C okay let me see you have U sub T and here what me see you have U sub T and here what you have is uh you have is uh laughs that you have the boundary of Omega Alpha Omega right and so the boundary Alpha Omega right and so the boundary moves proportionally to its meaning curvature okay so here what we have is this surface that has a curvature like this surface that has a curvature like this and then a sort of bends here it's vertical here this produces a just an angle okay so here we have the just an angle okay so here we have the boundary of the Omega which is…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_2412",
+    "t_start": 2412.7,
+    "t_end": 2503.0,
+    "type": "overview",
+    "summary": "I said there is a limit case where the derivative has a jump right but it derivative has a jump right but it doesn't go to infinity and in that case doesn't go to infinity and in that case what you have is that the energy right what you have is that the energy right is the integral of RN as the gradient of is the integral of RN as the gradient of U Epsilon square plus and here you have U Epsilon square plus and here you have the characteristic of the set where a absolute value of U was less than Epsilon right remember there was this Epsilon right remember there was this curved thing in the …"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_2503",
+    "t_start": 2503.0,
+    "t_end": 2596.3,
+    "type": "overview",
+    "summary": "bounded laplacian in other words you have a part where a u is zero and you have a part where a u is zero and then this part where the gradient of U then this part where the gradient of U is quantity acceptable the results extended to the George theory for doubles boil sleep change as the one before and but has a more information because that and has a more information because that and along the interface is right but did you along the interface is right but did you have something flat and that in in the have something flat and that in in the in the lip cheesecake you have something let's sa…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_2596",
+    "t_start": 2596.3,
+    "t_end": 2687.0,
+    "type": "overview",
+    "summary": "s is smooth except for a set of Dimension n minus eight and I never knew Dimension n minus eight and I never knew very well why this was so written minus very well why this was so written minus eight but this is what the Georgia wrote eight but this is what the Georgia wrote at this time right and so it's uh by The at this time right and so it's uh by The Soil Service so as I said here right it Soil Service so as I said here right it depends on the topology generated by the depends on the topology generated by the surface segregation potential okay so surface segregation potential okay so t…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_2686",
+    "t_start": 2687.0,
+    "t_end": 2780.7,
+    "type": "overview",
+    "summary": "tell you about the the little bit thing we saw before right that is interesting because it's a family of lip cheese variation right of family of lip cheese variation right of the functions in other words you have surfaces that can be C2 C1 plus cell and so on but there is this in in reality so on but there is this in in reality right it's a very important unusual right it's a very important unusual things is when you have some surface things is when you have some surface here where something is constant value here where something is constant value or constant strength or whatever but there …"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_2780",
+    "t_start": 2780.7,
+    "t_end": 2873.7,
+    "type": "overview",
+    "summary": "cut it in half and put it there right he has this angle elliptic angle you can he has this angle elliptic angle you can take a material and material that you bend right this is a metal thing you can bend it right and then can thing you can bend it right and then can be lip cheese right or even if it's be lip cheese right or even if it's impended tangently is C1 Alpha right so impended tangently is C1 Alpha right so so this is a very general theory of developed by many important mathematicians Through Time okay here it is a little bit what I said that you have a harmonic function which that …"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_2873",
+    "t_start": 2873.7,
+    "t_end": 2963.9,
+    "type": "overview",
+    "summary": "you are interested in in study then those are different then could you move it um oh you didn't wow I cannot look at exercise okay okay let's go directly here well the previous one that you prove is around can you look that this is a nice picture okay this is a separation of two yes now I already talked about that okay so so the product of energy okay what I mentioned of you having this surface which is horizontal and then has an angle right and let's see what this is a little bit more of a variation of I is a little bit more of a variation of I did before right uh here somewhere left did b…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_2963",
+    "t_start": 2963.9,
+    "t_end": 3058.5,
+    "type": "overview",
+    "summary": "look at it carefully at this quantity you have an idea of the the angle right uh no air function on there okay so there's not too much time but I think so there's not too much time but I think you should if you have some time it is you should if you have some time it is something very interesting and learn something that is worthwhile to learn and interact in very well because it has and interact in very well because it has many applications on that order okay and many applications on that order okay and what else do you have okay that's what else do you have okay that's another of that typ…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_3058",
+    "t_start": 3058.5,
+    "t_end": 3150.3,
+    "type": "overview",
+    "summary": "and you bend it right you have this this situation right if you want if you have soup right have this metal thing on the top and then the base is is another one and there is this angle right so again there and with the angle is very little angle is bigger it's a bigger but the older person can enjoy it better right older person can enjoy it better right so so it is important how the the so so it is important how the the mathematics of this type right are over mathematics of this type right are over over everywhere although you don't pay over everywhere although you don't pay too much attent…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_3150",
+    "t_start": 3150.3,
+    "t_end": 3241.0,
+    "type": "overview",
+    "summary": "than Epsilon so this is one of I told you there is a bunch of different ways you there is a bunch of different ways in which two things come together okay in which two things come together okay and then the first for the the the first and then the first for the the the first one is a classic one right so F of U is a characteristic of the absolute value of U Less Than Epsilon that is when the but when the U is close to zero right and the next one says how are the and the next one says how are the corresponding all the lagrant equations corresponding all the lagrant equations and free boundar…"
+  },
+  {
+    "id": "ku_video_dVGX6QhO8rU_3241",
+    "t_start": 3241.0,
+    "t_end": 3288.7,
+    "type": "overview",
+    "summary": "application if you are really doing some materials you are doing a square or something right with material to have a good understanding of when you be when you build these Pages I'm paste them build these Pages I'm paste them together right what is the ways we run to a metal to bend it in an acceptable thing that that bend it in an acceptable thing that that could be just curve no more than curving could be just curve no more than curving except on an edge where it makes an except on an edge where it makes an angle and things like that okay so so angle and things like that okay so so what y…"
+  }
+]

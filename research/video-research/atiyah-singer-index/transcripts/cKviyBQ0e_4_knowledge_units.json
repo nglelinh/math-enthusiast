@@ -1,0 +1,247 @@
+[
+  {
+    "id": "ku_video_cKviyBQ0e_4_5",
+    "t_start": 5.1,
+    "t_end": 88.2,
+    "type": "overview",
+    "summary": "okay so in this first lecture we look at we look at purely algebraic theory of index from next week of course we'll switch to a functional analytic method a functional analytic method but the point of this purely algebraic presentation is that it's kind of instructive and it's easier to understand and it captures some of the features not all captures some of the features not all but some of the features of the idea of finite rank operators their relations to each other and the idea of index each other and the idea of index in purely algebraic settings so the in purely algebraic settings so …"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_103",
+    "t_start": 103.5,
+    "t_end": 194.9,
+    "type": "overview",
+    "summary": "y divided by image of t so that's the idea of fredholm operator it has final fredholm operator it has final dimensional kernel and finite dimensional kernel and finite dimensional coherence so when you have um a fretting operator then you can define a fretting operator then you can define its index its index so is defined by so the notation is ind for index so called index of t sometimes we don't called index of t sometimes we don't even put a bracket around t it's called is a difference of two numbers uh dimension of kernel and dimension of coherent of t minus dimensions okay so so obvious…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_196",
+    "t_start": 196.2,
+    "t_end": 279.9,
+    "type": "overview",
+    "summary": "i should make one remark that this concept is interesting only if both x concept is interesting only if both x and y these linear spaces x and y are infinite dimensional dimensional so just a remark so thread hold are interesting uh so in fact you can easily uh prove uh for yourself that if x is finite dimensional finite dimensional and y and y is infinite dimensional and in that situation there is no threat from operator from x to y"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_288",
+    "t_start": 288.5,
+    "t_end": 379.6,
+    "type": "overview",
+    "summary": "similarly for y and x x is infinite dimensional and y is is finite okay um so if those are finite dimensional and again this concept is not interesting for the following reason interesting for the following reason first of all first of all in that case from finite dimensional space to finite dimension right in that case and not only that um the index also is uh the index also is uh it's not that interesting although it's relatively interesting but it's not that interesting because this turns out to be well you can you just use a rank so it's just independent of"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_385",
+    "t_start": 385.6,
+    "t_end": 478.6,
+    "type": "overview",
+    "summary": "fredholm operators and index theory is a purely infinite dimensional theory so purely infinite dimensional theory so it's really interesting only both x and are infinite so that's something we have to keep in okay so there is now a kind of so then so what is an example of this the simplest example of fresno operator of course are invertible objects right of course are invertible objects right so from x to y is invertible is invertible is an isomorphism then in this case of course t is a threat home well i mean of t is 0 and t is objective cochlear is t is objective cochlear is also zero and…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_478",
+    "t_start": 478.6,
+    "t_end": 573.5,
+    "type": "overview",
+    "summary": "kind of almost invertible operators that's how we should i think think of fredholm operators so fredholm so the philosophy i mean is fredholm so the philosophy i mean is that means almost invertible i mean this needs some explanation some experience needs some explanation some experience some working but some working but gradually we will develop that idea so to understand this idea of what almost means we have to look at the almost means we have to look at the extreme opposite on of the idea of fretfulness and that is the idea of finite rank so that's something that's of course very well k…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_573",
+    "t_start": 573.5,
+    "t_end": 666.5,
+    "type": "overview",
+    "summary": "are both infinite dimensional that as we discussed is the only interesting case discussed is the only interesting case the finite rank operator is never threatened because it is finite dimensional so it's corky and it's going to be even and it's going to be even so is that t is not so in a sense uh well knowing exactly the two classes are completely destroyed the two classes are completely destroyed and they have no intersection okay so um so now some properties of final prank operators i can formulate and they are very easy to prove so one of them is that this spinal track operators inside…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_666",
+    "t_start": 666.5,
+    "t_end": 767.4,
+    "type": "overview",
+    "summary": "linear operators from x to x and this is our finite rank our finite rank is a two-sided value in fact it's easy to see that the sum of two finite rank operators is finally two finite rank operators is finally ranked and if you pre-multiply or ranked and if you pre-multiply or post-multiply a finite rank operator with any operator or you're going to get finite rank this properties of linear maps so this is basic basic basic stuff so but it's it's very important to realize that this is a two-sided idea now there is a characterization of threat home operators in terms of finite rank operators …"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_769",
+    "t_start": 769.1,
+    "t_end": 853.8,
+    "type": "overview",
+    "summary": "okay the proof is not difficult and it's finding complementary subspaces and stuff like that stuff like that so this theorem uh so um result is this so we just look at just to simplify notation and presentation i'm now going notation and presentation i'm now going to assume y is equal to x but results with all these modifications work in general but just take t from x to x general but just take t from x to x so a linear map from x to x is third um if and only it is invertible modulo this if and only it is invertible modulo this finite rank operators finite rank operators so if an only t is …"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_860",
+    "t_start": 860.3,
+    "t_end": 946.6,
+    "type": "overview",
+    "summary": "modulo finite rank operators being invertible we can invertible we can write it write it in two ways if pi of t um belonging to the quotient algebra l of xx uh this pie is the natural projection from l of xx so this is a ring of i mean it's an algebra or your field or whatever and this is a two-sided idea so whatever and this is a two-sided idea so we can take a quotient we can take a quotient and go into the quotient algebra which the result says that t is a fret horn here if and only if you push it into this quotient algebra becomes an invertible quotient algebra becomes an invertible ele…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_953",
+    "t_start": 953.4,
+    "t_end": 1048.5,
+    "type": "overview",
+    "summary": "again from x to x such that t s are not identity but they are uh minus but the difference to one is almost zero in the sense that they are finite line complicated so st minus are finite line complicated so st minus one belongs to finite rank and t s minus one also belongs to and t s minus one also belongs to finite rank finite rank x so this s obviously obviously is not unique there could be many many such as this s can be called the uh quasi-inverse or pseudo inverse quasi-inverse or pseudo inverse and in pde theory as we will discuss soon this is called the parametrics for so t so s a par…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_1048",
+    "t_start": 1048.5,
+    "t_end": 1144.8,
+    "type": "overview",
+    "summary": "of the theorem in one form or the other it's uh it's not difficult this game it's uh it's not difficult this game just simple linear algebra but it's an extremely extremely interesting result we will see that this algebra uh a kind of suitable analytic version of this where we have to complete this finite rank operator for something called uh compact operators something called uh compact operators is going to be um is going to be um an important algebra so this is a kind algebraic analog of caulking algebra so we'll see okay so the quality of this result is that is that if um you have two u…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_1163",
+    "t_start": 1163.7,
+    "t_end": 1258.6,
+    "type": "overview",
+    "summary": "so this is space of fertile operators uh from uh oh this is finite rank for from uh oh this is finite rank for fredholm i didn't have a notation yeah fredholm i didn't have a notation yeah okay so uh the space of return operators okay so uh the space of return operators is closed under multiplication it is closed under multiplication it contains the identity operator but it's contains the identity operator but it's certainly not closed under addition certainly not closed under addition so it's not a so it's not a subspace and it's not a soft group either but it's he pulled back under this n…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_1260",
+    "t_start": 1260.8,
+    "t_end": 1345.3,
+    "type": "overview",
+    "summary": "so i won't prove it i just keep the idea of proof with some hints of proof with some hints you can work it out yourself you can work it out yourself so the idea of proof is this so imagine you have a [Music] [Music] chain complex so imagine this is the chain complex coaching complex in this case that's really called it doesn't matter really called it doesn't matter uh so of course you can take its uh choreology um so you get this you get these groups h0 h1 h2 h2 hm hm so this is uh the commonology of this so maybe i do know this chain complex by v and this is going to be h of e there is a k…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_1373",
+    "t_start": 1373.8,
+    "t_end": 1463.8,
+    "type": "overview",
+    "summary": "so maybe denoted by kylie alternating sum of alternating sum of dimensions of these subs of these vector spaces okay uh so of course for this to make sense we are assuming that these vi's are all we are assuming that these vi's are all finite dimension right so that's what finite dimension right so that's what we're seeing and then these uh h0 a0 h1 h2s and so on are also going to be finite dimensional are also going to be finite dimensional so we can take so we can take the winner characteristic of chromology as well so i have h of b is going to be sum minus 1 pi is going to be sum minus 1…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_1466",
+    "t_start": 1466.6,
+    "t_end": 1561.4,
+    "type": "overview",
+    "summary": "if it is exact in other words then all these guys are zero so this right hand side is going to be zero so alternating sums of dimensions so alternating sums of dimensions so the curl is that if d d is exact it means h of b equal to zero for all in all dimensions for all in all dimensions and then sum minus one to the i dimensional dimensional v i is and then you can cook up a an exact sequence and you can apply this this multiplicative or additional formula for index so formula for index so uh t1 t2 is equal to index of so that's a very very important formula it shows that index uh is um it…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_1561",
+    "t_start": 1561.4,
+    "t_end": 1651.6,
+    "type": "overview",
+    "summary": "of these operators uh into into index of multiplication sum of indices so it's a bit like log now maybe it's time for some examples examples um let me first of all before moving on let me give a very simple algebraic example me give a very simple algebraic example to convince you that index to convince you that index can be actually any integer can be actually any integer there are operators there are operators whose index is any integer polynomials uh in one variable it doesn't matter if it is over c or any so this is an infinite dimensional vector space uh let's take vector space uh let's…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_1654",
+    "t_start": 1654.5,
+    "t_end": 1750.8,
+    "type": "overview",
+    "summary": "um maybe x with my notation so let's take t from x to x so um this t is multiplication by x operator t of f on x is equal to an x an x of f so at x is equal to x f of so this is this operator obviously t is injective now this t is not subjective because it maps into those polynomials that have a maps into those polynomials that have a factor of x in other words it's mapping into polynomials that basically vanish at zero so that space has co-dimension one because we can write any polynomial as a constant plus polynomial that has an x constant plus polynomial that has an x term term so so and…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_1751",
+    "t_start": 1751.9,
+    "t_end": 1842.0,
+    "type": "overview",
+    "summary": "and index of t now you can iterate this t say n times uh well you see t n is multiplication by x to the power n if you iterated n times so the same thing again this uh t is injective but its coherent is going to injective but its coherent is going to be n so it's going to be minus now this of course we could have used this result to obtain this this result to obtain this minus n formula but independently also are obtainable as index of some operators very simple operators but very operators very simple operators but very very important by the way and what about positive numbers um instead o…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_1841",
+    "t_start": 1842.0,
+    "t_end": 1933.5,
+    "type": "overview",
+    "summary": "so consider this operator tfx is equal to f prime of x for any is equal to f prime of x for any polynomial polynomial now this operator obviously is not injective because constant the derivative of constant function is z right but that's that's the care node so uh but that's that's the care node so uh candle of t in this case it's just a constant function so dimension of terms constant function so dimension of terms one but this operator is definitely subjective because you can write any subjective because you can write any polynomial as the derivative of another polynomial as the derivativ…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_1933",
+    "t_start": 1933.5,
+    "t_end": 2024.8,
+    "type": "overview",
+    "summary": "the nth derivative of f x x obviously kernel of t n is just polynomials of degree at most n minus one right so this is c one minus one right so this is c one direction of cx dx on cx n minus 1 so dimension of kernel is equal to n uh but again because this t is subjective so t n is also t is subjective so t n is also subjective um [Music] [Music] in any case so um is m in this case so this again so this again verifies or confirms the formula for the multiplication because we have this operator um a raise to power n so its index is index of t plus index of t plus index of t n of t plus index …"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_2024",
+    "t_start": 2024.8,
+    "t_end": 2109.7,
+    "type": "overview",
+    "summary": "you know unilateral shift operators now we can have forward shift backward shift we can have forward shift backward shift so maybe i mentioned these things so maybe i mentioned these things because an important role later on it's for good examples anyhow examples anyhow so uh so these are these examples of purely algebraic this needs uh inverse space algebraic this needs uh inverse space but that's very simple uh theory in fact so i'll let x equal to l2 equal to l2 which is the set of all sequences a0 so on such that there are square integrable integrable green square syllable okay so now t…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_2121",
+    "t_start": 2121.7,
+    "t_end": 2198.3,
+    "type": "overview",
+    "summary": "so this is the operator that sends t of sends sorry a0 a1 sends sorry a0 a1 so on so push it backward one step so this is going to be equal to a1 going to be equal to a1 a0 now you can see that this operator or a0 a1 a2 i'm sorry or a0 a1 a2 i'm sorry you can see that a0 uh always goes to but then otherwise uh so the kernel of t basically so the kernel of t basically yeah is really uh yeah is really uh just uh things that exist in the first chord so dimension of candle of t dimension of candle of t is equal to one is equal to one but t is objective any l2 sequence you can start from zero fo…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_2229",
+    "t_start": 2229.0,
+    "t_end": 2321.5,
+    "type": "overview",
+    "summary": "we can also look at [Music] so in this case t of a0 a1 so on is equal to 0 a0 now this operator is obviously injective then kernel of t is zero t is zero so it's so it's dimension of but then then in this case uh dimension of coherent is going to be one of course then the index is going to be minus okay so these uh two examples are rather similar context of hebrew space because l2 is a hint of space and this operator uh t in hint of space and this operator uh t in this case forward shift by forces are"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_2321",
+    "t_start": 2321.5,
+    "t_end": 2391.8,
+    "type": "overview",
+    "summary": "this case forward shift by forces are actually bounded operators uh the very actually bounded operators uh the very important operators right and they are threatful now you just check that they are phenomenal and the iterations are also threatful okay okay so one more result that is going to be very very important for us is is the the stability of index under um uh so in this purely algebraic case uh in this purely algebraic case uh the result is stability of index under the result is stability of index under perturbations by finite rank operators perturbations by finite rank operators so t…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_2436",
+    "t_start": 2436.8,
+    "t_end": 2528.2,
+    "type": "overview",
+    "summary": "and t0 is a finite rank operator then t plus t zero is fret form and its index is the same only spread form so finite rank perturbations of fredholm and the index doesn't change it's kind of small changes in some sense to t does not change its fractal nature and does not change its fractal nature and it does not change its index can be done purely algebraically so we are going to prove these results in analytic context so i'm not going to bother with the proof in this case but it's uh good to keep in mind so the results that we looked in this case were results that we looked in this case we…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_2528",
+    "t_start": 2528.2,
+    "t_end": 2631.3,
+    "type": "overview",
+    "summary": "basic examples of shift operators forward backward shift and addition formula uh for index and uh atkinson's theorem on those results okay so now uh one example so i give this example only just to kind of motivate what's going to come next even if uh you are interested in proving some operators are threatened in this context this is a purely algebraic content we have some some cases where we want to have some some cases where we want to prove some operators are threat home prove some operators are threat home but the proof is actually quite hard if don't use analysis so the analysis could b…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_2643",
+    "t_start": 2643.1,
+    "t_end": 2737.5,
+    "type": "overview",
+    "summary": "let's start with the case of hyperspace h equal to l2 of s1 [Music] [Music] the the l2 l2 two pi periodic functions or um l2 functions on the circle where you put uh the standard harm uh standard uh uh the standard harm uh standard uh measure on a slime which is the harmony this has an important subspace the rb space l2 functions whose three coefficients in negative direction right so this is uh so let uh f hat let uh f hat of n by definition be equal to one over two pi integral uh f of x e to the um e to the um um i and x minus i and x and then i go from zero zero to 2 pi"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_2741",
+    "t_start": 2741.2,
+    "t_end": 2831.6,
+    "type": "overview",
+    "summary": "so of course under this fourier transform i mean this fourier series uh stuff we have this correspondence between l2 summativity in l2 s and l2 of z so two of z are all l2 sequences that so two of z are all l2 sequences that are indexed by are indexed by integers all integers positive or such that some absolute value of absolute value of a n squared is less than infinity and from minus infinity sequences like that so the isomorphism of these two hilbert spaces uh this is of these two hilbert spaces uh this is one aspect of planchar formula basic fourier theory tells you that for your series…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_2831",
+    "t_start": 2831.6,
+    "t_end": 2921.8,
+    "type": "overview",
+    "summary": "integral so norm of x squared which is 1 over 2 pi absolute value of f of x squared dx squared dx is equal to sum so this is uh in this case is the planchard formula and this is the hybrid space linear isomorphism between the silver linear isomorphism between the silver space and that so now uh what is a hardness space so the harness space is the space of all those functions whose negative three coefficients match whose negative three coefficients match so so um [Music] [Music] yeah yeah so it's a definition maybe f belongs to h2 negative fourier coefficient of f is equal to zero so um um […"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_2921",
+    "t_start": 2921.8,
+    "t_end": 3016.8,
+    "type": "overview",
+    "summary": "only in the positive direction in the negative direction they are zero so um okay so now let's let p from l2 of s1 to to h2 so this is the projection operation into this subspace so this just cuts down the negative part and takes the down the negative part and takes the positive part only so p positive part only so p of a n in this picture is just um a0 um a0 [Music] [Music] a1 a1 a2 comes to l2 which is h2 of course so that's the projection operator now what is uh problematic operator what is uh problematic operator uh so what we can do uh we can do the following now for any f say belongin…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_3019",
+    "t_start": 3019.0,
+    "t_end": 3115.3,
+    "type": "overview",
+    "summary": "with symbol f it goes from the hardest place to hard disk space again goes from h2 disk space again goes from h2 to h2 it's uh defined like this you multiply by you multiply by by f and then you project again because when you multiply by f you may go out of easily go out of the hardest phase and then but you want to come back to the hardest place you have to project place you have to project so i can say tf so i can say tf is equal to p is equal to p mf so this mf is the multiplication operator by f so this operator then is just g is equal to p of g for all g belonging to"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_3120",
+    "t_start": 3120.5,
+    "t_end": 3210.7,
+    "type": "overview",
+    "summary": "okay so this is the kind of first example of party space and droplets operators uh but then this can be extended vastly in many many directions and actually it's a very interesting topic it's a very interesting topic gives you many many interesting examples dimensions and you can even work over general manifolds and so we'll discuss that soon but uh for now this is good so now for now this is good so now so the following thing is true it's the following this operator tf is fret or if and only if f is fret or if and only if f is non-zero non-zero or is invertible t f so first of all i mean l…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_3210",
+    "t_start": 3210.7,
+    "t_end": 3302.0,
+    "type": "overview",
+    "summary": "course f of of z is different from zero for all z belonging to s so proving this result using i mean this is a purely you can say this is a purely is a purely you can say this is a purely algebraic context because well i i have this vector space h2 and we are going uh from h2 to h2 this and we are going uh from h2 to h2 this is the operator in this case and uh prove that this is uh red one but uh red one but uh what we know from the algebraic tool is as a result of analytic theory that we will develop next so of course now um there's going to be an index for this for this in that case so in…"
+  },
+  {
+    "id": "ku_video_cKviyBQ0e_4_3303",
+    "t_start": 3303.5,
+    "t_end": 3372.0,
+    "type": "overview",
+    "summary": "one of the first or simplest types of index terms if you want prove that this is threatened and to prove that the index indeed is going to be given by this um we need more theory than just purely purely algebra 2 so this by the way is purely algebra 2 so this by the way is i believe is due to robert there is also um some attribution to wiener sometimes they are called in an op operator it's not exactly the same but i operator it's not exactly the same but i think it's really think it's really so corporate crime or wiener index theorem is this result that we want to is this result that we wa…"
+  }
+]

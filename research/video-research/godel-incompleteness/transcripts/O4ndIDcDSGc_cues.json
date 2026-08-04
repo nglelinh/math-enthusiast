@@ -1,0 +1,877 @@
+[
+  {
+    "t_start": 0.02,
+    "t_end": 7.82,
+    "text": "[Marcus du Sautoy] I've been quite obsessed with Gödel's incompleteness theorem for many years because it kind of places this extraordinary"
+  },
+  {
+    "t_start": 8.22,
+    "t_end": 14.0,
+    "text": "limitation on what we might be able to know in mathematics. In fact, it's quite an unnerving theorem"
+  },
+  {
+    "t_start": 14.3,
+    "t_end": 16.34,
+    "text": "because at its heart it says there might be"
+  },
+  {
+    "t_start": 17.26,
+    "t_end": 23.549,
+    "text": "conjectures out there about numbers, for example something like Goldbach's conjecture, that might actually be true"
+  },
+  {
+    "t_start": 23.71,
+    "t_end": 27.269,
+    "text": "So it might be true that every even number is the sum of two primes"
+  },
+  {
+    "t_start": 27.96,
+    "t_end": 29.96,
+    "text": "but maybe within the"
+  },
+  {
+    "t_start": 30.04,
+    "t_end": 33.82,
+    "text": "axiomatic system we have for mathematics, there isn't a proof of that."
+  },
+  {
+    "t_start": 34.12,
+    "t_end": 38.78,
+    "text": "The real worry is what if there's a true statement that I'm working away on which actually doesn't"
+  },
+  {
+    "t_start": 38.79,
+    "t_end": 39.7,
+    "text": "have a proof."
+  },
+  {
+    "t_start": 39.719,
+    "t_end": 44.759,
+    "text": "Now his is a big kind of revelation for mathematics because I think ever since the ancient Greeks"
+  },
+  {
+    "t_start": 45.25,
+    "t_end": 52.439,
+    "text": "we believed that any true statement about mathematics will have a proof. It might be quite difficult to find like"
+  },
+  {
+    "t_start": 52.5,
+    "t_end": 58.46,
+    "text": "Fermat's last Theorem took 350 years to, before my colleague in Oxford Andrew Wiles found the proof."
+  },
+  {
+    "t_start": 58.84,
+    "t_end": 64.58,
+    "text": "But I think we all have this kind of feeling like well surely every true statement has a proof"
+  },
+  {
+    "t_start": 64.589,
+    "t_end": 67.42,
+    "text": "but Gödel shows that actually there's a gap between"
+  },
+  {
+    "t_start": 68.11,
+    "t_end": 70.0,
+    "text": "truth and"
+  },
+  {
+    "t_start": 70.0,
+    "t_end": 72.0,
+    "text": "proof."
+  },
+  {
+    "t_start": 72.44,
+    "t_end": 75.44,
+    "text": "I wrote it down here because it's quite cute"
+  },
+  {
+    "t_start": 75.44,
+    "t_end": 84.74,
+    "text": "So let's suppose that's true. So it means that the statement on the other side of the card is false"
+  },
+  {
+    "t_start": 84.74,
+    "t_end": 89.99,
+    "text": "So we turn it over and then it says: \"the statement on the other side of this card is true\"."
+  },
+  {
+    "t_start": 90.71,
+    "t_end": 95.059,
+    "text": "Well, that's meant to be false. So it means the one on the other side is also false"
+  },
+  {
+    "t_start": 95.06,
+    "t_end": 98.48,
+    "text": "Oh, but we suppose that that was true, so that's false"
+  },
+  {
+    "t_start": 98.48,
+    "t_end": 102.48,
+    "text": "So the other side is true, which means that --and you get into this kind of infinite loop."
+  },
+  {
+    "t_start": 102.7,
+    "t_end": 105.82,
+    "text": "Verbal paradoxes are fine because you don't expect every"
+  },
+  {
+    "t_start": 107.04,
+    "t_end": 109.6,
+    "text": "verbal sentence to have a truth value to it."
+  },
+  {
+    "t_start": 109.6,
+    "t_end": 116.54,
+    "text": "But then, when I went up to university, I realized that [in] mathematics you can't have those; yet when I took this course"
+  },
+  {
+    "t_start": 117.0,
+    "t_end": 122.28,
+    "text": "on mathematical logic, and we learned about Gödel's incompleteness theorem, he used this kind of"
+  },
+  {
+    "t_start": 122.34,
+    "t_end": 125.54,
+    "text": "self-referential statement to really undermine our"
+  },
+  {
+    "t_start": 126.44,
+    "t_end": 128.8,
+    "text": "Belief that all true statements could be proved."
+  },
+  {
+    "t_start": 130.6,
+    "t_end": 136.44,
+    "text": "There was a feeling like we should be able to prove that mathematics is something called consistent."
+  },
+  {
+    "t_start": 136.44,
+    "t_end": 139.86,
+    "text": "That mathematics won't give rise to contradictions."
+  },
+  {
+    "t_start": 140.16,
+    "t_end": 144.12,
+    "text": "This have been kind of inspired by certain kind of little paradoxes that"
+  },
+  {
+    "t_start": 144.56,
+    "t_end": 146.82,
+    "text": "people like Bertrand Russell had come up with."
+  },
+  {
+    "t_start": 147.1,
+    "t_end": 152.78,
+    "text": "People might have come across this idea of \"the set of all sets that don't contain themselves as members\""
+  },
+  {
+    "t_start": 153.06,
+    "t_end": 156.06,
+    "text": "and then you-- the challenges well is that set in this set or not?"
+  },
+  {
+    "t_start": 157.31,
+    "t_end": 161.589,
+    "text": "Actually, a really nice kind of version of this is another sort of mathematical"
+  },
+  {
+    "t_start": 162.2,
+    "t_end": 168.729,
+    "text": "Kind of verbal Paradox is all those numbers that can be defined in less than 20 words so for example"
+  },
+  {
+    "t_start": 169.37,
+    "t_end": 175.81,
+    "text": "[1729] which is the taxicab number that Ramanujan and hardy talked about you can define that in less than 20 words?"
+  },
+  {
+    "t_start": 175.81,
+    "t_end": 181.449,
+    "text": "It's the smallest number which is the sum of two cubes in two different ways so that less than 20 words"
+  },
+  {
+    "t_start": 181.67,
+    "t_end": 187.539,
+    "text": "So then you define the following number then the smallest number which cannot be defined in less than 20 words"
+  },
+  {
+    "t_start": 188.12,
+    "t_end": 192.64,
+    "text": "Now I think if you count add up, I've just defined that number in less than 20 words, and you go well"
+  },
+  {
+    "t_start": 193.34,
+    "t_end": 197.799,
+    "text": "That's a bit worrying because surely that is a sort of kind of number"
+  },
+  {
+    "t_start": 197.799,
+    "t_end": 200.828,
+    "text": "We might define the smallest number which has a certain property."
+  },
+  {
+    "t_start": 201.079,
+    "t_end": 206.769,
+    "text": "So there was a real feeling that these paradoxes these set theoretic paradoxes were beginning to be a real challenge"
+  },
+  {
+    "t_start": 207.41,
+    "t_end": 213.16,
+    "text": "To mathematics at the turn of the 20th century and David Hilbert one of his"
+  },
+  {
+    "t_start": 214.04,
+    "t_end": 218.62,
+    "text": "big problems that he challenged mathematics with in the 20th -- 20th century"
+  },
+  {
+    "t_start": 218.62,
+    "t_end": 225.009,
+    "text": "[his] 23 big on unsolved problems the second one was [to] prove that mathematics was in fact consistent and"
+  },
+  {
+    "t_start": 225.59,
+    "t_end": 229.959,
+    "text": "included in that was that every true statement should be provable, but what a shock"
+  },
+  {
+    "t_start": 229.959,
+    "t_end": 237.369,
+    "text": "he got actually 30 years later along comes this Austrian logician Kurt Gödel who blows this idea that we can prove math is"
+  },
+  {
+    "t_start": 237.5,
+    "t_end": 243.789,
+    "text": "consistent out of the water and shows there are true statements which can't be proved within any mathematical system."
+  },
+  {
+    "t_start": 244.98,
+    "t_end": 251.67,
+    "text": "How does mathematics work? We set down things we called axioms which are the kind of things we believe are [the] way"
+  },
+  {
+    "t_start": 251.98,
+    "t_end": 257.25,
+    "text": "numbers, geometry works, so for example if I take six and I add seven to that"
+  },
+  {
+    "t_start": 257.25,
+    "t_end": 263.16,
+    "text": "I don't think it's going to be different from taking seven and adding six to that. That seems so blindingly obvious"
+  },
+  {
+    "t_start": 263.16,
+    "t_end": 270.329,
+    "text": "and that's one of the axioms [of] the way numbers work. So maybe somewhere out there that [goes] wrong, but I don't really care"
+  },
+  {
+    "t_start": 270.33,
+    "t_end": 274.35,
+    "text": "I'm interested in a mathematics where that is true of all numbers."
+  },
+  {
+    "t_start": 274.35,
+    "t_end": 278.669,
+    "text": "And I have rules which allow me to make deductions from those axioms"
+  },
+  {
+    "t_start": 278.669,
+    "t_end": 282.899,
+    "text": "And that's how mathematics works. Each time we make these logical deductions"
+  },
+  {
+    "t_start": 282.9,
+    "t_end": 289.799,
+    "text": "we expand the conclusions from these axioms. We can add new axioms if we feel like you know what we haven't actually"
+  },
+  {
+    "t_start": 289.9,
+    "t_end": 291.36,
+    "text": "captured the whole of mathematics"
+  },
+  {
+    "t_start": 291.36,
+    "t_end": 298.65,
+    "text": "and that was somehow the -- the mission was we want to have a set of axioms which are strong enough and that we"
+  },
+  {
+    "t_start": 298.9,
+    "t_end": 301.709,
+    "text": "believe are basic about numbers from which"
+  },
+  {
+    "t_start": 302.08,
+    "t_end": 308.8,
+    "text": "we can deduce all through statements that we will have a proof and so there was a feeling like well, yeah."
+  },
+  {
+    "t_start": 308.88,
+    "t_end": 312.869,
+    "text": "Well, maybe we haven't got all of the axioms and if we got a true statement which can't be proved"
+  },
+  {
+    "t_start": 312.87,
+    "t_end": 318.269,
+    "text": "We could add that as a new axiom and it will expand what we can prove within mathematics"
+  },
+  {
+    "t_start": 318.27,
+    "t_end": 324.96,
+    "text": "So this is very important for Gödel because we are trying to prove that there will be a set of axioms from which we can"
+  },
+  {
+    "t_start": 324.96,
+    "t_end": 327.389,
+    "text": "deduce all truths of mathematics."
+  },
+  {
+    "t_start": 329.229,
+    "t_end": 330.999,
+    "text": "Gödel did something"
+  },
+  {
+    "t_start": 331.0,
+    "t_end": 338.02,
+    "text": "very clever because he cooked up a way of allowing mathematics to talk about itself."
+  },
+  {
+    "t_start": 338.02,
+    "t_end": 342.16,
+    "text": "So what he produced was the thing we now called the Gödel Coding."
+  },
+  {
+    "t_start": 342.24,
+    "t_end": 345.2,
+    "text": "So he showed that any statement about numbers"
+  },
+  {
+    "t_start": 345.42,
+    "t_end": 352.4,
+    "text": "has its own particular code number. In fact you use prime numbers in order to make this coding. So every statement about"
+  },
+  {
+    "t_start": 352.539,
+    "t_end": 359.458,
+    "text": "mathematics could be turned into a number so for example the axioms of mathematics from which we are trying to make all of our"
+  },
+  {
+    "t_start": 359.619,
+    "t_end": 362.189,
+    "text": "deductions they would have code numbers and"
+  },
+  {
+    "t_start": 362.529,
+    "t_end": 369.298,
+    "text": "true statements about mathematics, so for example Fermat's last theorem for example will have a code number, also"
+  },
+  {
+    "t_start": 369.849,
+    "t_end": 372.479,
+    "text": "false statements like \"17 is an even number\""
+  },
+  {
+    "t_start": 373.02,
+    "t_end": 374.46,
+    "text": "will have a code number."
+  },
+  {
+    "t_start": 374.46,
+    "t_end": 379.56,
+    "text": "OK so what do these code numbers look like? They're obviously whoppers."
+  },
+  {
+    "t_start": 379.56,
+    "t_end": 380.759,
+    "text": "They're absolutely huge"
+  },
+  {
+    "t_start": 380.759,
+    "t_end": 383.398,
+    "text": "but it's a unique coding so"
+  },
+  {
+    "t_start": 383.739,
+    "t_end": 391.319,
+    "text": "every code number can be worked backwards into a statement -- not every number will have a meaningful mathematical statement"
+  },
+  {
+    "t_start": 391.34,
+    "t_end": 397.16,
+    "text": "but it's more interesting the other way: every mathematical statement will have a unique number associated with it"
+  },
+  {
+    "t_start": 397.54,
+    "t_end": 402.72,
+    "text": "A bit like how most things in a computer [have] zeroes and ones. Very good. So if I'm typing away"
+  },
+  {
+    "t_start": 403.04,
+    "t_end": 407.62,
+    "text": "and I write the name 'Gödel' that be changed into ASCII code. It will have a number"
+  },
+  {
+    "t_start": 408.22,
+    "t_end": 410.54,
+    "text": "associated with it. So Gödel cooked this up"
+  },
+  {
+    "t_start": 410.54,
+    "t_end": 416.459,
+    "text": "but why is that useful? Because you can now actually talk about proof in mathematics using these numbers"
+  },
+  {
+    "t_start": 416.459,
+    "t_end": 421.469,
+    "text": "So you can start to talk about mathematics using mathematics. So for example"
+  },
+  {
+    "t_start": 421.469,
+    "t_end": 425.338,
+    "text": "you might want to know well, is this particular statement"
+  },
+  {
+    "t_start": 425.859,
+    "t_end": 427.859,
+    "text": "provable from the axioms?"
+  },
+  {
+    "t_start": 428.619,
+    "t_end": 431.669,
+    "text": "That -- I'm going to completely simplify this but it'll give you a"
+  },
+  {
+    "t_start": 432.609,
+    "t_end": 436.469,
+    "text": "feel for it. Essentially it's a bit like saying any statement"
+  },
+  {
+    "t_start": 436.599,
+    "t_end": 441.238,
+    "text": "whose code number is divisible by the code number of the axioms"
+  },
+  {
+    "t_start": 441.699,
+    "t_end": 446.159,
+    "text": "will be provable from the axioms. That's an incredible simplification"
+  },
+  {
+    "t_start": 446.159,
+    "t_end": 449.758,
+    "text": "but it's good because it means now we can talk about proof within --"
+  },
+  {
+    "t_start": 450.399,
+    "t_end": 457.078,
+    "text": "mathematically to say that something is provable is to say for example that it's code number"
+  },
+  {
+    "t_start": 457.179,
+    "t_end": 459.179,
+    "text": "must be divisible by the axioms"
+  },
+  {
+    "t_start": 460.709,
+    "t_end": 464.449,
+    "text": "So now Gödel challenges you with the following"
+  },
+  {
+    "t_start": 465.239,
+    "t_end": 467.239,
+    "text": "statement: \"This statement"
+  },
+  {
+    "t_start": 467.879,
+    "t_end": 473.599,
+    "text": "cannot be proved from the axioms that we have for our system of mathematics\""
+  },
+  {
+    "t_start": 473.609,
+    "t_end": 477.169,
+    "text": "So this is actually something that has a code number"
+  },
+  {
+    "t_start": 477.3,
+    "t_end": 479.46,
+    "text": "We can talk about proof"
+  },
+  {
+    "t_start": 479.54,
+    "t_end": 487.1,
+    "text": "using numbers so this will be a statement that can be changed into a mathematical equation. Now this means because it's an equation in"
+  },
+  {
+    "t_start": 487.199,
+    "t_end": 489.738,
+    "text": "mathematics, it's either true or it's false"
+  },
+  {
+    "t_start": 490.889,
+    "t_end": 498.049,
+    "text": "So let's start by saying that the statement is false. That means that \"This statement is"
+  },
+  {
+    "t_start": 498.689,
+    "t_end": 503.748,
+    "text": "provable from the axioms\" is true, but a provable statement must be true"
+  },
+  {
+    "t_start": 504.149,
+    "t_end": 509.988,
+    "text": "So now we've started with something which we assumed was false and now we've deduced that it's true"
+  },
+  {
+    "t_start": 509.989,
+    "t_end": 515.808,
+    "text": "so we've got a contradiction and we're assuming that mathematics is consistent so we can't have contradictions"
+  },
+  {
+    "t_start": 515.808,
+    "t_end": 519.2,
+    "text": "-- this is important -- so that means it can't be false"
+  },
+  {
+    "t_start": 519.6,
+    "t_end": 525.78,
+    "text": "This means it must be true because a mathematical statement is either true or false. It's not like these"
+  },
+  {
+    "t_start": 525.98,
+    "t_end": 531.12,
+    "text": "linguistic paradoxes which just don't have a truth value. It is an equation of mathematics"
+  },
+  {
+    "t_start": 531.12,
+    "t_end": 532.66,
+    "text": "It's either true or it's false"
+  },
+  {
+    "t_start": 532.66,
+    "t_end": 536.64,
+    "text": "We've just shown if it's false, that that leads to a contradiction. This means that"
+  },
+  {
+    "t_start": 536.84,
+    "t_end": 539.32,
+    "text": "this statement must be true"
+  },
+  {
+    "t_start": 539.36,
+    "t_end": 541.36,
+    "text": "Ah, great. We've got a true statement"
+  },
+  {
+    "t_start": 541.379,
+    "t_end": 543.269,
+    "text": "but let's now"
+  },
+  {
+    "t_start": 543.269,
+    "t_end": 544.37,
+    "text": "reinterpret what it says"
+  },
+  {
+    "t_start": 544.37,
+    "t_end": 550.399,
+    "text": "It says \"This statement cannot be proved from the axioms.\" We have now got a true statement"
+  },
+  {
+    "t_start": 550.86,
+    "t_end": 555.32,
+    "text": "which cannot be proved true from the axioms of mathematics"
+  },
+  {
+    "t_start": 556.22,
+    "t_end": 560.36,
+    "text": "And that's exactly what Gödel wanted. He's now got a statement of mathematics"
+  },
+  {
+    "t_start": 560.43,
+    "t_end": 565.37,
+    "text": "which is true but cannot be proved. And you go hold on, how do we actually"
+  },
+  {
+    "t_start": 565.889,
+    "t_end": 567.829,
+    "text": "prove that was true? We just proved"
+  },
+  {
+    "t_start": 567.829,
+    "t_end": 574.789,
+    "text": "it's true. And it's very important to articulate what we have done is within a system of mathematics with certain axioms"
+  },
+  {
+    "t_start": 575.699,
+    "t_end": 580.938,
+    "text": "we found a true statement within there which can't be proved true within that system"
+  },
+  {
+    "t_start": 581.459,
+    "t_end": 587.628,
+    "text": "We've proved it's true by working outside the system and looking in because we can now add that as an axiom"
+  },
+  {
+    "t_start": 587.628,
+    "t_end": 591.1,
+    "text": "It's a true statement, so it won't make something which is consistent"
+  },
+  {
+    "t_start": 591.3,
+    "t_end": 597.02,
+    "text": "inconsistent. So we could add that as an axiom and you say well now we've got a proof because it's just an axiom"
+  },
+  {
+    "t_start": 597.209,
+    "t_end": 598.709,
+    "text": "It's one of these kind of infinite"
+  },
+  {
+    "t_start": 598.709,
+    "t_end": 603.948,
+    "text": "regresses. Gödel says that's not going to help you because I can still cook up within this new system"
+  },
+  {
+    "t_start": 605.189,
+    "t_end": 606.889,
+    "text": "another statement which is true"
+  },
+  {
+    "t_start": 606.889,
+    "t_end": 607.98,
+    "text": "but unprovable"
+  },
+  {
+    "t_start": 607.98,
+    "t_end": 614.569,
+    "text": "So it's a sort of infinite regress thing that says that no matter how much you expand mathematics, adding axioms,"
+  },
+  {
+    "t_start": 614.79,
+    "t_end": 621.319,
+    "text": "they will always be missing something, a little bit like if you remember the proof that there are infinitely many primes"
+  },
+  {
+    "t_start": 621.6,
+    "t_end": 628.18,
+    "text": "You say suppose there are finitely many primes, then you prove that there's some primes missing from that list and you say well"
+  },
+  {
+    "t_start": 628.18,
+    "t_end": 630.98,
+    "text": "I'll add those and Euclid just keeps playing the same trick"
+  },
+  {
+    "t_start": 631.02,
+    "t_end": 634.26,
+    "text": "Well that's still not good enough because there are still some things missing"
+  },
+  {
+    "t_start": 634.66,
+    "t_end": 637.64,
+    "text": "Gödel has a similar kind of feel to it that"
+  },
+  {
+    "t_start": 638.1,
+    "t_end": 641.329,
+    "text": "you might try and expand your mathematics to add that as an axiom"
+  },
+  {
+    "t_start": 641.55,
+    "t_end": 644.599,
+    "text": "but that won't help because he can keep on playing the same game"
+  },
+  {
+    "t_start": 644.6,
+    "t_end": 647.98,
+    "text": "It feels like though this problem is just restricted to this"
+  },
+  {
+    "t_start": 648.12,
+    "t_end": 653.22,
+    "text": "little self-referential corner, like it doesn't feel like this puts Goldbach out of reach"
+  },
+  {
+    "t_start": 653.22,
+    "t_end": 654.22,
+    "text": "and other things out of reach"
+  },
+  {
+    "t_start": 654.22,
+    "t_end": 657.94,
+    "text": "It's just this one little game you can play with referencing to itself"
+  },
+  {
+    "t_start": 658.48,
+    "t_end": 662.86,
+    "text": "This was mathematicians hope that, okay, there's some weird"
+  },
+  {
+    "t_start": 663.42,
+    "t_end": 669.64,
+    "text": "logical Gajillion sentences which who really cares about because they don't really have much mathematical content"
+  },
+  {
+    "t_start": 669.64,
+    "t_end": 673.64,
+    "text": "And I think people just hoped that things like Goldbach would"
+  },
+  {
+    "t_start": 675.12,
+    "t_end": 679.12,
+    "text": "not be one of these, but that hope was really blown away"
+  },
+  {
+    "t_start": 679.34,
+    "t_end": 681.02,
+    "text": "in 1977"
+  },
+  {
+    "t_start": 681.029,
+    "t_end": 687.229,
+    "text": "mathematicians came up with some statements about numbers that you think of a kind of like Goldbach nature that you think well"
+  },
+  {
+    "t_start": 687.23,
+    "t_end": 692.569,
+    "text": "yeah, that's something I'd want to be able to prove is true. And they showed that these were sentences which"
+  },
+  {
+    "t_start": 693.089,
+    "t_end": 699.438,
+    "text": "were true, but not provable within quite a standard system for mathematics"
+  },
+  {
+    "t_start": 699.439,
+    "t_end": 703.519,
+    "text": "So we've now discovered that we can't hope that it's just weird"
+  },
+  {
+    "t_start": 704.1,
+    "t_end": 705.809,
+    "text": "self-referential"
+  },
+  {
+    "t_start": 705.809,
+    "t_end": 710.26,
+    "text": "Gazillion sentences that are going to be knocked out."
+  },
+  {
+    "t_start": 710.26,
+    "t_end": 712.069,
+    "text": "It could be Goldbach. It could be Goldbach"
+  },
+  {
+    "t_start": 712.259,
+    "t_end": 717.678,
+    "text": "Twin primes might also be something like that. Gödel even talks about the Riemann hypothesis"
+  },
+  {
+    "t_start": 717.679,
+    "t_end": 720.709,
+    "text": "We might be having trouble proving it, but just because we haven't"
+  },
+  {
+    "t_start": 721.35,
+    "t_end": 723.35,
+    "text": "expanded the axioms of mathematics"
+  },
+  {
+    "t_start": 723.42,
+    "t_end": 726.24,
+    "text": "to such a level that it is provable"
+  },
+  {
+    "t_start": 726.48,
+    "t_end": 733.5,
+    "text": "Now there are some sentences like Riemann which are intriguing because if Riemann turns out to be a"
+  },
+  {
+    "t_start": 734.08,
+    "t_end": 739.319,
+    "text": "mathematical statement which doesn't have a proof, if we could prove that, that it doesn't have a proof"
+  },
+  {
+    "t_start": 739.81,
+    "t_end": 744.69,
+    "text": "weirdly this would prove that the Riemann hypothesis must be true"
+  },
+  {
+    "t_start": 745.57,
+    "t_end": 749.849,
+    "text": "Now you go ahh why? Because if the Riemann hypothesis is false"
+  },
+  {
+    "t_start": 750.85,
+    "t_end": 758.13,
+    "text": "this means there's actually a constructive way to find that. You can set computer off and"
+  },
+  {
+    "t_start": 758.41,
+    "t_end": 763.83,
+    "text": "eventually after a finite process if it's false it will find the reason why it's false"
+  },
+  {
+    "t_start": 763.83,
+    "t_end": 767.009,
+    "text": "So if it's false it must be provably false"
+  },
+  {
+    "t_start": 767.86,
+    "t_end": 773.52,
+    "text": "So if we find that Riemann is actually undecidable, cannot be proved from the axioms of mathematics,"
+  },
+  {
+    "t_start": 773.74,
+    "t_end": 778.469,
+    "text": "there's no way it can be false because that will be provable, so it must be true"
+  },
+  {
+    "t_start": 778.81,
+    "t_end": 781.859,
+    "text": "So this is a really weird way that you might prove Riemann"
+  },
+  {
+    "t_start": 781.93,
+    "t_end": 786.719,
+    "text": "Hypothesis is to prove that is actually an undecidable statement within the axioms of mathematics"
+  },
+  {
+    "t_start": 788.08,
+    "t_end": 793.259,
+    "text": "If you're watching this video thinking you've got even more questions about Gödel incompleteness"
+  },
+  {
+    "t_start": 793.54,
+    "t_end": 800.339,
+    "text": "Don't worry so did I and there's a whole lot of extra interview footage. Click the links on the screen or in the video description"
+  },
+  {
+    "t_start": 800.92,
+    "t_end": 803.19,
+    "text": "Also in the video description you'll find a link to"
+  },
+  {
+    "t_start": 803.32,
+    "t_end": 809.7,
+    "text": "professor du Sautoy's recent book which has a whole bunch of extra stuff about Gödel incompleteness and other stuff that"
+  },
+  {
+    "t_start": 810.339,
+    "t_end": 812.339,
+    "text": "science maybe just can't know"
+  },
+  {
+    "t_start": 812.92,
+    "t_end": 817.2,
+    "text": "To think that you know, I [think] it's still interesting to explore"
+  },
+  {
+    "t_start": 817.779,
+    "t_end": 824.879,
+    "text": "The things which might always transcend our knowledge, and of course religion just gives these things far too many properties"
+  },
+  {
+    "t_start": 824.88,
+    "t_end": 831.27,
+    "text": "They should never have but I think that rather abstract idea of the unknown [it] is still quite an intriguing one"
+  }
+]

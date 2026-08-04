@@ -1,0 +1,612 @@
+[
+  {
+    "t_start": 4.749,
+    "t_end": 8.11,
+    "text": "what you're looking at right now is called reachi flow with surgery it"
+  },
+  {
+    "t_start": 8.11,
+    "t_end": 10.35,
+    "text": "called reachi flow with surgery it changes the curvature of manifolds in"
+  },
+  {
+    "t_start": 10.35,
+    "t_end": 12.91,
+    "text": "changes the curvature of manifolds in four-dimensional space you may have"
+  },
+  {
+    "t_start": 12.91,
+    "t_end": 18.189,
+    "text": "heard of it because it was used to crack a $1 million problem in topology called"
+  },
+  {
+    "t_start": 18.189,
+    "t_end": 21.15,
+    "text": "a $1 million problem in topology called the poin Caray conjecture and by the end"
+  },
+  {
+    "t_start": 21.15,
+    "t_end": 23.39,
+    "text": "the poin Caray conjecture and by the end of this video you'll understand exactly"
+  },
+  {
+    "t_start": 23.39,
+    "t_end": 28.55,
+    "text": "what it is the agenda for today is to understand the conjecture and how Richi"
+  },
+  {
+    "t_start": 28.55,
+    "t_end": 30.509,
+    "text": "understand the conjecture and how Richi flow was used to solve it"
+  },
+  {
+    "t_start": 30.509,
+    "t_end": 35.83,
+    "text": "along the way we'll pick up some reman geometry and surgery Theory and with"
+  },
+  {
+    "t_start": 35.83,
+    "t_end": 40.31,
+    "text": "these we'll have the proof that Terren TOA called one of the most impressive"
+  },
+  {
+    "t_start": 40.31,
+    "t_end": 45.61,
+    "text": "TOA called one of the most impressive recent achievements of modern"
+  },
+  {
+    "t_start": 47.15,
+    "t_end": 54.99,
+    "text": "says this suppose you have a blob sitting inside four-dimensional Space if"
+  },
+  {
+    "t_start": 54.99,
+    "t_end": 59.95,
+    "text": "sitting inside four-dimensional Space if the blob has no holes so not like this"
+  },
+  {
+    "t_start": 59.95,
+    "t_end": 66.39,
+    "text": "or like this and if it's in one piece piece so not like this or like this then"
+  },
+  {
+    "t_start": 66.39,
+    "t_end": 70.59,
+    "text": "you can mold The Blob into a sphere in formal terms any closed three"
+  },
+  {
+    "t_start": 70.59,
+    "t_end": 73.109,
+    "text": "sphere in formal terms any closed three manifold that is path connected and"
+  },
+  {
+    "t_start": 73.109,
+    "t_end": 77.55,
+    "text": "manifold that is path connected and where every Loop is contractable to a"
+  },
+  {
+    "t_start": 77.55,
+    "t_end": 82.63,
+    "text": "point is homeomorphic to the three sphere a manifold is just a surface in"
+  },
+  {
+    "t_start": 82.63,
+    "t_end": 88.35,
+    "text": "manifold is a surface that locally looks three-dimensional this is our blob path"
+  },
+  {
+    "t_start": 88.35,
+    "t_end": 90.51,
+    "text": "three-dimensional this is our blob path connected means that you can connect any"
+  },
+  {
+    "t_start": 90.51,
+    "t_end": 96.03,
+    "text": "connected means that you can connect any two points with a path this means that"
+  },
+  {
+    "t_start": 96.03,
+    "t_end": 100.789,
+    "text": "you can squish any Loop in the space to a point this means that you can mold The"
+  },
+  {
+    "t_start": 100.789,
+    "t_end": 104.109,
+    "text": "Blob into a sphere sitting inside four-dimensional Space here's a question"
+  },
+  {
+    "t_start": 104.109,
+    "t_end": 110.27,
+    "text": "who cares well it has legendary status because it sounds easy for example these"
+  },
+  {
+    "t_start": 110.27,
+    "t_end": 114.83,
+    "text": "because it sounds easy for example these are all terms that you should learn in a"
+  },
+  {
+    "t_start": 114.83,
+    "t_end": 120.27,
+    "text": "been able to crack it for over 100 years worse still in every every other"
+  },
+  {
+    "t_start": 120.27,
+    "t_end": 123.23,
+    "text": "years worse still in every every other dimension this problem was solved the"
+  },
+  {
+    "t_start": 123.23,
+    "t_end": 128.949,
+    "text": "dimension this problem was solved the Nal 4 case was particularly hard so"
+  },
+  {
+    "t_start": 128.949,
+    "t_end": 131.309,
+    "text": "Michael fredman won the 1986 Fields medal for cracking it but for some"
+  },
+  {
+    "t_start": 131.309,
+    "t_end": 136.79,
+    "text": "medal for cracking it but for some reason the nals 3 case was impossible it"
+  },
+  {
+    "t_start": 136.79,
+    "t_end": 142.75,
+    "text": "2002 Russian mathematician Gia perilman posted three papers on the archive they"
+  },
+  {
+    "t_start": 142.75,
+    "t_end": 144.949,
+    "text": "posted three papers on the archive they were rich in ideas but Frugal with"
+  },
+  {
+    "t_start": 144.949,
+    "t_end": 147.39,
+    "text": "were rich in ideas but Frugal with details now this is going to get really"
+  },
+  {
+    "t_start": 147.39,
+    "t_end": 150.69,
+    "text": "details now this is going to get really abstract really fast so hold"
+  },
+  {
+    "t_start": 150.69,
+    "t_end": 152.55,
+    "text": "abstract really fast so hold [Music]"
+  },
+  {
+    "t_start": 152.55,
+    "t_end": 158.67,
+    "text": "FTI ranian geometry studies size and curvature it does so with a gadget"
+  },
+  {
+    "t_start": 158.67,
+    "t_end": 162.39,
+    "text": "curvature it does so with a gadget called the metric tensor"
+  },
+  {
+    "t_start": 162.39,
+    "t_end": 169.47,
+    "text": "G this thing takes a tangent Vector to the manifold and assigns it a length so"
+  },
+  {
+    "t_start": 169.47,
+    "t_end": 172.99,
+    "text": "the manifold and assigns it a length so maybe this Arrow has length two and this"
+  },
+  {
+    "t_start": 172.99,
+    "t_end": 179.27,
+    "text": "maybe this Arrow has length two and this Arrow has length five note the arrow has"
+  },
+  {
+    "t_start": 179.27,
+    "t_end": 184.509,
+    "text": "object we're just giving it a length of our own choosing the metric tensor has a"
+  },
+  {
+    "t_start": 184.509,
+    "t_end": 187.509,
+    "text": "our own choosing the metric tensor has a nice intuitive picture imagine tying a"
+  },
+  {
+    "t_start": 187.509,
+    "t_end": 189.589,
+    "text": "nice intuitive picture imagine tying a shoelace through a"
+  },
+  {
+    "t_start": 189.589,
+    "t_end": 195.27,
+    "text": "point if we assign really small lengths to tangent vectors it's like pulling in"
+  },
+  {
+    "t_start": 195.27,
+    "t_end": 196.26,
+    "text": "to tangent vectors it's like pulling in the"
+  },
+  {
+    "t_start": 196.26,
+    "t_end": 198.949,
+    "text": "the [Music]"
+  },
+  {
+    "t_start": 198.949,
+    "t_end": 206.55,
+    "text": "shoelace if we assign really large links it's like relaxing the"
+  },
+  {
+    "t_start": 208.91,
+    "t_end": 211.67,
+    "text": "shoelace the metric tensor tells the manifold where to shrink and where to"
+  },
+  {
+    "t_start": 211.67,
+    "t_end": 216.309,
+    "text": "manifold where to shrink and where to expand but if you've noticed we've also"
+  },
+  {
+    "t_start": 216.309,
+    "t_end": 222.07,
+    "text": "curve and that's the amazing thing about the metric tensor by encoding size it"
+  },
+  {
+    "t_start": 222.07,
+    "t_end": 223.309,
+    "text": "the metric tensor by encoding size it gives you"
+  },
+  {
+    "t_start": 223.309,
+    "t_end": 229.229,
+    "text": "curvature this brings us to the second player of remonia geometry the reachy"
+  },
+  {
+    "t_start": 229.229,
+    "t_end": 231.99,
+    "text": "player of remonia geometry the reachy curvature this object tells you exactly"
+  },
+  {
+    "t_start": 231.99,
+    "t_end": 238.949,
+    "text": "how the manifold curves all in terms of G now full disclosure the exact formula"
+  },
+  {
+    "t_start": 238.949,
+    "t_end": 240.309,
+    "text": "G now full disclosure the exact formula for the Richi curve curvature is a"
+  },
+  {
+    "t_start": 240.309,
+    "t_end": 241.869,
+    "text": "for the Richi curve curvature is a little"
+  },
+  {
+    "t_start": 241.869,
+    "t_end": 247.069,
+    "text": "unwieldy that shouldn't be a surprise this curvature is quite complicated but"
+  },
+  {
+    "t_start": 247.069,
+    "t_end": 253.22,
+    "text": "this curvature is quite complicated but the point is if you know G you know R"
+  },
+  {
+    "t_start": 253.22,
+    "t_end": 257.789,
+    "text": "now we're ready to apply [Music]"
+  },
+  {
+    "t_start": 257.789,
+    "t_end": 263.31,
+    "text": "these REI flow is a way of changing the metric tensor over time so that the"
+  },
+  {
+    "t_start": 263.31,
+    "t_end": 265.59,
+    "text": "metric tensor over time so that the manifold becomes"
+  },
+  {
+    "t_start": 265.59,
+    "t_end": 270.31,
+    "text": "manifold becomes rounder so how do we express Richi flow"
+  },
+  {
+    "t_start": 270.31,
+    "t_end": 276.029,
+    "text": "I want you to focus on this region over here the REI flow inflates it like a"
+  },
+  {
+    "t_start": 276.029,
+    "t_end": 278.99,
+    "text": "here the REI flow inflates it like a balloon by convention we say that it has"
+  },
+  {
+    "t_start": 278.99,
+    "t_end": 281.749,
+    "text": "balloon by convention we say that it has negative reachy curvature so if the"
+  },
+  {
+    "t_start": 281.749,
+    "t_end": 289.43,
+    "text": "curvature is negative the length increases now focus on this region here"
+  },
+  {
+    "t_start": 289.43,
+    "t_end": 292.79,
+    "text": "increases now focus on this region here Richi flow deflates it so if the Richi"
+  },
+  {
+    "t_start": 292.79,
+    "t_end": 296.99,
+    "text": "Richi flow deflates it so if the Richi curvature is positive the length"
+  },
+  {
+    "t_start": 296.99,
+    "t_end": 300.029,
+    "text": "curvature is positive the length decreases we can phrase this differently"
+  },
+  {
+    "t_start": 300.029,
+    "t_end": 306.629,
+    "text": "decreases we can phrase this differently G decreases means the derivative of G is"
+  },
+  {
+    "t_start": 306.629,
+    "t_end": 312.87,
+    "text": "derivative of G is positive these two guys always have opposite signs so we"
+  },
+  {
+    "t_start": 312.87,
+    "t_end": 315.71,
+    "text": "guys always have opposite signs so we might guess an equation like this and"
+  },
+  {
+    "t_start": 315.71,
+    "t_end": 317.95,
+    "text": "might guess an equation like this and that's it that is the equation"
+  },
+  {
+    "t_start": 317.95,
+    "t_end": 320.67,
+    "text": "that's it that is the equation describing REI flow as tradition we put"
+  },
+  {
+    "t_start": 320.67,
+    "t_end": 322.87,
+    "text": "describing REI flow as tradition we put a two on this side because that's what"
+  },
+  {
+    "t_start": 322.87,
+    "t_end": 324.629,
+    "text": "a two on this side because that's what the inventor of REI flow did and it just"
+  },
+  {
+    "t_start": 324.629,
+    "t_end": 327.749,
+    "text": "the inventor of REI flow did and it just kind of stuck but the meaning is"
+  },
+  {
+    "t_start": 327.749,
+    "t_end": 330.39,
+    "text": "kind of stuck but the meaning is unchanged with this we can understand"
+  },
+  {
+    "t_start": 330.39,
+    "t_end": 332.35,
+    "text": "unchanged with this we can understand something crucial to cracking the point"
+  },
+  {
+    "t_start": 332.35,
+    "t_end": 338.55,
+    "text": "something crucial to cracking the point Caray REI flow squishes a sphere to"
+  },
+  {
+    "t_start": 338.55,
+    "t_end": 341.11,
+    "text": "nothingness a sphere has positive curvature everywhere so the derivative"
+  },
+  {
+    "t_start": 341.11,
+    "t_end": 347.629,
+    "text": "curvature everywhere so the derivative of G is negative so the metric keeps"
+  },
+  {
+    "t_start": 347.629,
+    "t_end": 349.83,
+    "text": "decreasing Forever Until it hits zero perilman also showed that the opposite"
+  },
+  {
+    "t_start": 349.83,
+    "t_end": 355.27,
+    "text": "perilman also showed that the opposite was true if the metric went to zero the"
+  },
+  {
+    "t_start": 355.27,
+    "t_end": 357.59,
+    "text": "last shape you had must have been a sphere here's how we use this to solve"
+  },
+  {
+    "t_start": 357.59,
+    "t_end": 360.189,
+    "text": "sphere here's how we use this to solve the point Caray take a random manifold"
+  },
+  {
+    "t_start": 360.189,
+    "t_end": 362.79,
+    "text": "the point Caray take a random manifold and give it an arbitrary metric G and"
+  },
+  {
+    "t_start": 362.79,
+    "t_end": 367.909,
+    "text": "see how it changes with REI flow if you can prove the metric will go to zero in"
+  },
+  {
+    "t_start": 367.909,
+    "t_end": 370.39,
+    "text": "can prove the metric will go to zero in finite time that means the last shape"
+  },
+  {
+    "t_start": 370.39,
+    "t_end": 372.309,
+    "text": "finite time that means the last shape you had must have been a"
+  },
+  {
+    "t_start": 372.309,
+    "t_end": 375.189,
+    "text": "you had must have been a sphere but changing the metric doesn't"
+  },
+  {
+    "t_start": 375.189,
+    "t_end": 380.469,
+    "text": "sphere but changing the metric doesn't change the underlying manifold so if you"
+  },
+  {
+    "t_start": 380.469,
+    "t_end": 382.79,
+    "text": "ended up with a sphere you must have started with something homeomorphic to a"
+  },
+  {
+    "t_start": 382.79,
+    "t_end": 386.15,
+    "text": "started with something homeomorphic to a sphere this argument is beautiful but it"
+  },
+  {
+    "t_start": 386.15,
+    "t_end": 389.469,
+    "text": "sphere this argument is beautiful but it hits a snag you see in higher dimensions"
+  },
+  {
+    "t_start": 389.469,
+    "t_end": 391.83,
+    "text": "hits a snag you see in higher dimensions you can have situations like this where"
+  },
+  {
+    "t_start": 391.83,
+    "t_end": 397.029,
+    "text": "a point in this neck gets squished to nothing even before the manifold becomes"
+  },
+  {
+    "t_start": 397.029,
+    "t_end": 402.749,
+    "text": "nothing even before the manifold becomes a sphere this is a problem if REI flow"
+  },
+  {
+    "t_start": 402.749,
+    "t_end": 406.15,
+    "text": "deletes parts of your manifold you're changing the underlying set it's game"
+  },
+  {
+    "t_start": 406.15,
+    "t_end": 409.23,
+    "text": "changing the underlying set it's game over another Singularity you might see a"
+  },
+  {
+    "t_start": 409.23,
+    "t_end": 411.99,
+    "text": "over another Singularity you might see a neck with a cap a richy flow could"
+  },
+  {
+    "t_start": 411.99,
+    "t_end": 414.51,
+    "text": "neck with a cap a richy flow could stretch this out and squeeze this point"
+  },
+  {
+    "t_start": 414.51,
+    "t_end": 415.469,
+    "text": "stretch this out and squeeze this point into"
+  },
+  {
+    "t_start": 415.469,
+    "t_end": 419.95,
+    "text": "nothingness you could also have more complicated snags like the brine giant"
+  },
+  {
+    "t_start": 419.95,
+    "t_end": 425.39,
+    "text": "complicated snags like the brine giant Solon where some of the points in the"
+  },
+  {
+    "t_start": 425.39,
+    "t_end": 427.55,
+    "text": "manifold mysteriously vanish to deal with these singularities perilman came"
+  },
+  {
+    "t_start": 427.55,
+    "t_end": 432.469,
+    "text": "with these singularities perilman came up with a"
+  },
+  {
+    "t_start": 435.469,
+    "t_end": 438.869,
+    "text": "strategy perilman decided to manually remove the problem areas of the"
+  },
+  {
+    "t_start": 438.869,
+    "t_end": 445.07,
+    "text": "remove the problem areas of the manifold he then glued pieces of spheres"
+  },
+  {
+    "t_start": 445.07,
+    "t_end": 450.189,
+    "text": "made here's how we used it to prove the point coray play out to your reachy flow"
+  },
+  {
+    "t_start": 450.189,
+    "t_end": 452.43,
+    "text": "point coray play out to your reachy flow with surgery and prove that it'll go"
+  },
+  {
+    "t_start": 452.43,
+    "t_end": 456.469,
+    "text": "with surgery and prove that it'll go extinct now hit the rewind button first"
+  },
+  {
+    "t_start": 456.469,
+    "t_end": 459.07,
+    "text": "extinct now hit the rewind button first you'll see the creation of"
+  },
+  {
+    "t_start": 459.07,
+    "t_end": 465.589,
+    "text": "spheres then you'll see the creation of necks at each time you only see the"
+  },
+  {
+    "t_start": 465.589,
+    "t_end": 467.79,
+    "text": "necks at each time you only see the creation of spheres and"
+  },
+  {
+    "t_start": 467.79,
+    "t_end": 473.43,
+    "text": "necks but two spheres connected by a neck is just a sphere so at each time"
+  },
+  {
+    "t_start": 473.43,
+    "t_end": 475.67,
+    "text": "neck is just a sphere so at each time the manifold is a collection of"
+  },
+  {
+    "t_start": 475.67,
+    "t_end": 481.309,
+    "text": "spheres but the manifold we started off with was connected did so it must have"
+  },
+  {
+    "t_start": 481.309,
+    "t_end": 483.029,
+    "text": "with was connected did so it must have been a"
+  },
+  {
+    "t_start": 483.029,
+    "t_end": 488.99,
+    "text": "sphere say what you want but this argument is just beautiful and it proves"
+  },
+  {
+    "t_start": 488.99,
+    "t_end": 491.35,
+    "text": "argument is just beautiful and it proves the point care conjecture making it one"
+  },
+  {
+    "t_start": 491.35,
+    "t_end": 505.589,
+    "text": "the point care conjecture making it one of the greatest"
+  }
+]

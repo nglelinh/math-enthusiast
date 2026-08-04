@@ -1,0 +1,520 @@
+[
+  {
+    "id": "ku_video_zqiL57ebP-k_18",
+    "t_start": 18.6,
+    "t_end": 115.1,
+    "type": "overview",
+    "summary": "[Applause] [Music] welcome back to the arbor lectures we will soon hear the lecture of laszlo we will soon hear the lecture of laszlo lovas of the ethers lauren university in budapest born in 1948 lovas grew up in the hungarian tradition of discrete in the hungarian tradition of discrete mathematics and combinatorics pioneered by paul erdersch as a teenager he won gold medal in three consecutive he won gold medal in three consecutive mathematics olympiads he has made a multitude of profound contributions to discrete mathematics contributions to discrete mathematics and graph theory and unde…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_115",
+    "t_start": 115.1,
+    "t_end": 204.5,
+    "type": "overview",
+    "summary": "and basic research on the lighter side i remarked that and his wife catelyn witzer gumby are as far as i know the only couple where as far as i know the only couple where both spouses have elders number one both spouses have elders number one the lecture of velazquez presents their the lecture of velazquez presents their recent work on graph limits recent work on graph limits the title of the talk is continuous the title of the talk is continuous limits of finite structures please welcome abel laureate 2021 laszlo lovas and i remind everybody that you are free to ask questions in the chat d…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_207",
+    "t_start": 207.8,
+    "t_end": 301.6,
+    "type": "overview",
+    "summary": "i would like to talk about the idea that finite structures have infinite continuous limits uh if they are grow if they are getting uh if they are grow if they are getting bigger and bigger bigger and bigger and that i would like to illustrate that uh are are very useful and they they are non-trivial and they they are non-trivial and interesting constructions interesting constructions let me start with a very brief survey of results of this kind and i can bring up the construction of continuous bring up the construction of continuous geometries by jon von neumann these geometries have a dime…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_301",
+    "t_start": 301.6,
+    "t_end": 394.1,
+    "type": "overview",
+    "summary": "we stated some idea that limit can be constructed there is also an extension of the work of john von neumann which i should it's a work by anders burner who constructed continuous partition constructed continuous partition lattices and then in a follow-up paper on this burner and i constructed like on this burner and i constructed like continuous number fields continuous number fields uh continuous transfers of matrix and objects of this kind and then in a in an independent and extremely in a in an independent and extremely important work important work uh gromov constructed limits of metri…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_396",
+    "t_start": 396.8,
+    "t_end": 492.4,
+    "type": "overview",
+    "summary": "limits of bounded degree graphs and planar graphs have been introduced by planar graphs have been introduced by benjamin and trump in 2001 and i will come back to that my main and i will come back to that my main topic will be limit limits of dense topic will be limit limits of dense graphs so in this case the graphs graphs so in this case the graphs have a positive fraction of all possible have a positive fraction of all possible connections between their nodes and this theory was worked out by a number of people uh christian ball a number of people uh christian ball jennifer chase verratt…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_492",
+    "t_start": 492.4,
+    "t_end": 580.5,
+    "type": "overview",
+    "summary": "algebraic and other structures limit theories have been worked out theories have been worked out swan the enzo worked out the limits of partially ordered sets limits of permutations were worked out hop and kuhayakawa murai rarat and menezes and then it was followed by the work of many others many others and probably the most interesting of is limits of functions on abelian groups mostly module n groups these are mostly module n groups these are these generalized very important questions from graph theory and in connected with the summary this in connected with the summary this theorem and t…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_583",
+    "t_start": 583.7,
+    "t_end": 674.1,
+    "type": "overview",
+    "summary": "examples these are not necessarily yet dense so examples of such graphs are for uh they are more and more similar or lattices uh if or lattices uh if you take bigger and bigger pieces of in the plane then they are more and more similar except for the boundary which is negligible hypercubes they are similar in a different sense the num the degrees i go to infinity but still they are uh we sure we feel that still they are uh we sure we feel that they are getting more and more similar they are getting more and more similar random graphs of for example random graphs of for example at those rain…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_674",
+    "t_start": 674.1,
+    "t_end": 771.4,
+    "type": "overview",
+    "summary": "is quite interesting from a number theoretic point of view now what does it mean they are getting more and more similar so we have to more and more similar so we have to define exactly what is the notion of convergence and once we have this definition we would like to define would like to define limit object describe what the limit is i will start with uh the notion of pixel pictures so here is the notion of pixel pictures so here is a graph this graph is drawn in the traditional way with nodes and edges between them way with nodes and edges between them uh i have to tell you that if once y…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_771",
+    "t_start": 771.4,
+    "t_end": 862.9,
+    "type": "overview",
+    "summary": "to make it a little bit more visible i will use uh the following trick i replace the zeros by zeros by white squares and the ones by black and then i get this kind of uh picture which is uh like a crossword puzzle so this is this is the pixel picture of so this is this is the pixel picture of the graph the graph on the left okay so what is this good for so let's uh take for example so let's uh take for example a random graph this random graph has a a random graph this random graph has a thousand a hundred nodes and uh edge density a half so half of the pairs are connected half so half of th…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_862",
+    "t_start": 862.9,
+    "t_end": 951.6,
+    "type": "overview",
+    "summary": "because originally half of the half of it is white and half of it is half of it is white and half of it is black if you mix it black if you mix it you get this picture but you have to be careful a little bit here because here because if you take a chess board like this on if you make it finer and finer this would also become gray because here also would also become gray because here also half of the half of the squares are black and half of them are white but this is because it's not drawn in the most economic way it's not drawn in the most economic way and most economic drawing would be to…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_953",
+    "t_start": 953.6,
+    "t_end": 1045.8,
+    "type": "overview",
+    "summary": "it doesn't matter how it's called it's it's a randomly grown uniform attachment it's a randomly grown uniform attachment graph it's constructed by some by some method the point is that this picture the point is that this picture is very similar to the picture on the uh you can imagine that if instead of 2 200 nodes here it would take a 2 200 nodes here it would take a thousand nodes thousand nodes we would see essentially what we see on side which is a very nice function it's a grayscale image of a very nice function one minus the maximum of x and y the maximum of x and y function so these …"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_1045",
+    "t_start": 1045.8,
+    "t_end": 1141.8,
+    "type": "overview",
+    "summary": "we have to define what convergence means and for this i need to define the and for this i need to define the density of a graph f in another graph g and that's a very simple notion that's a very simple notion it says that i randomly map it says that i randomly map the vertex set of f into the vertex set the vertex set of f into the vertex set of g and i call this a homomorphism if it preserves edges and i count these homomorphisms how many ways are there to map ways are there to map f into g with uh with this property the preserving edges and this number i divide by the total and this numbe…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_1141",
+    "t_start": 1141.8,
+    "t_end": 1234.6,
+    "type": "overview",
+    "summary": "pairs i j are mapped onto pairs which are connected okay so now we are ready to to state the main definition a sequence of graphs is main definition a sequence of graphs is convergent if the densities of this of f in these graphs gi is f in these graphs gi is form a convergent numerical sequence form a convergent numerical sequence for every graph f for every graph f so in particular the density edge densities converge the densities of triangles the densities of the repeaters and graphs whatever they are graphs whatever they are converge and so on now this is convergent and when does it con…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_1234",
+    "t_start": 1234.6,
+    "t_end": 1342.0,
+    "type": "overview",
+    "summary": "of course these are random graphs so i should have added the distance there should have added the distance there with probability one for a convergent so so here are the the main facts that are make the the main facts that are make the the theory uh alive if you have a graph sequence does it convergent in the sense i defined then convergent in the sense i defined then there is always a graph on to which it converges so the graphones limit so the graphones limit represent all the limit objects so to and but the converse is also true so actually the first actually the first is a little bit su…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_1345",
+    "t_start": 1345.3,
+    "t_end": 1437.1,
+    "type": "overview",
+    "summary": "um now to build out the theory of dense graphs there's a lot of what else to do and i will not go through these steps so you would like to define and you can a distance between graphs and graphones distance between graphs and graphones so that in this metric convergence is cauchy property that's a very nice and but usually required property of and but usually required property of convergence uh convergence uh so you can define pneumatic space of and it turns out to be compact which is a very important fact from many a very important fact from many points of view in fact this compactness is …"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_1440",
+    "t_start": 1440.3,
+    "t_end": 1535.4,
+    "type": "overview",
+    "summary": "now just a few words about what happens at the other end of the scale so on one end of the scale you have all uh dense graphs and that's what all uh dense graphs and that's what we have talked about so far but the we have talked about so far but the other end are bounded degree graphs other end are bounded degree graphs and this is uh so again you have to define what convergence means convergence means so now all degrees are bounded by constant d maybe 10. and now you are interested in a sequence and now you are interested in a sequence of such graphs of such graphs and would like to define…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_1535",
+    "t_start": 1535.4,
+    "t_end": 1628.7,
+    "type": "overview",
+    "summary": "dense graph convergence and again the question is what happens what if such a sequence is convergent then what does it converge to and there then what does it converge to and there are different descriptions of the limit are different descriptions of the limit uh depending on uh depending on what you want to capture and they are not that quite equivalent so let me just say what is what for me in this talk will be the the the definition i would like to the definition i would like to go on from and this is the notion of a graphing graphing is actually nice property of it it is a it's not a fu…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_1628",
+    "t_start": 1628.7,
+    "t_end": 1722.9,
+    "type": "overview",
+    "summary": "just two examples uh left is what left is what the it's one representation of the limit of cycles the way you read it is that if you pick the way you read it is that if you pick a point on the lower edge a point on the lower edge and you go up vertically above it you and you go up vertically above it you will cross two of these lines and they will tell you the two neighbors of the point and similarly the left is a more complicated thing the the integral condition above thing the the integral condition above is related to these to the fact that these lines go in 45 degrees so that correspond…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_1722",
+    "t_start": 1722.9,
+    "t_end": 1817.0,
+    "type": "overview",
+    "summary": "important results have been obtained by agnes couple of words about what the idea is so what could be the limit and what so what could be the limit and what should convergence mean strangely enough we are pretty sure we know what what would be the limit but convergence can be defined in different ways and uh can be defined in different ways and uh the the the theory is not yet completely the the the theory is not yet completely satisfactory uh so the idea is that in a graph you always have a is that in a graph you always have a notion of a random in a finite graph a random node you can pick…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_1817",
+    "t_start": 1817.0,
+    "t_end": 1913.2,
+    "type": "overview",
+    "summary": "an object which which is there in both cases if you recall either cases if you recall either either this probability measure is that of the function so that can be also thought as a measure uh with this density function or in the other case you have these these lines you can think of the measure which is uniform on this 45 measure which is uniform on this 45 degree lines and you you take on each of them and so in one cases you will have a nice and so in one cases you will have a nice and smooth measure in the other case you will have a highly singular measure but in both cases you will have…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_1913",
+    "t_start": 1913.2,
+    "t_end": 2000.5,
+    "type": "overview",
+    "summary": "in such an object uh working on it but another question which comes up in but another question which comes up in connection with this connection with this is do these things have enough expressive power i mean a symmetric probability it's a very very simple object uh does it include all the richness uh does it include all the richness that graph theory provides with with that graph theory provides with with flow theory and matching theory and flow theory and matching theory and and expand their graphs and so on and it does it seems that it's it's it's actually a much richer object and at th…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_2003",
+    "t_start": 2003.6,
+    "t_end": 2096.9,
+    "type": "overview",
+    "summary": "now in the infinite case in when you have this measure on 0 have this measure on 0 1 squared then a circulation itself is a on 0 1 squared the counting sort of the the counting sort of the generalizing the idea that you can adapt values on edges and that gives you a measure on finite subsets of edges now measure on finite subsets of edges now in general it will be a measure on zero month squared and the flow condition simply means that the two condition simply means that the two marginals of this measure must be equal marginals of this measure must be equal so it's a very simple natural not…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_2096",
+    "t_start": 2096.9,
+    "t_end": 2187.8,
+    "type": "overview",
+    "summary": "between x and its complement is bounded from by above bonded above by bounded from by above bonded above by the upper bound from the complement to the set a test award for every measurable subset now i would like to talk a little bit about what are graph limits good for about what are graph limits good for and there are some possible and there are some possible topics of that coming let's take consider the problem of minimizing x cubed minus 6x minimizing x cubed minus 6x over non-negative x's uh i you probably already computed in it's a classical problem in first-year it's a classical prob…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_2187",
+    "t_start": 2187.8,
+    "t_end": 2282.1,
+    "type": "overview",
+    "summary": "strictly larger and it's arbitrary close for random graphs with high probability for random graphs with high probability uh so the minimum is not attained uh so the minimum is not attained implying that graph limits are useful implying that graph limits are useful because among graph limits the minimum is attained it's attained for the constant attained it's attained for the constant one-half function one-half function and that's a unique minimizer for this this leads us uh to the i mentioned the theory of quasi random graphs theory of quasi random graphs which was uh very important which w…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_2285",
+    "t_start": 2285.1,
+    "t_end": 2375.2,
+    "type": "overview",
+    "summary": "so finitely forcible graphons are important because although this important because although this correspondence is not complete but usually they they are templates for they are templates for optimal graphs in extreme graph theory as we have seen the on the previous slide that can be that the identically one-half function is finitely forcible and it is the unique minimizer for this finite extrema problem of minimizing the finite extrema problem of minimizing the density of four cycles so other finitely forcible other finitely forcible graphs so this is the function that follows from these a…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_2375",
+    "t_start": 2375.2,
+    "t_end": 2469.2,
+    "type": "overview",
+    "summary": "uh there are others uh which we found a large classes of such graphs by uh with uh ballast and we even proved that the question is are there any non-finitely forcible graphs and the answer is of course yes because well that's what you expect i because well that's what you expect i mean it's a very special mean it's a very special property that finite number of property that finite number of parameters will describe you this graph and we proved that finitely forcible we proved that finitely forcible graphones form a berman category graphones form a berman category set and not finitely forcib…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_2469",
+    "t_start": 2469.2,
+    "t_end": 2559.3,
+    "type": "overview",
+    "summary": "doctoral students and visitors and they proved a number of amazing results i will only cite one of these so on the left you see and down here you so on the left you see and down here you see an arbitrary graph form uh i don't know whether it's finitely uh i don't know whether it's finitely forceable it's probably not uh i don't know if kitten is uh finite ever finitely kitten is uh finite ever finitely forcible but this this this is a uh agra phone and what they prove is uh agra phone and what they prove is that you can embed this graphone into a you know shrink it to one half and then shri…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_2562",
+    "t_start": 2562.8,
+    "t_end": 2656.2,
+    "type": "overview",
+    "summary": "that's a surprising and very interesting result very briefly i let me talk about large deviation in random graphs interesting very interesting word by chatterjee and continued by chatterjee and diaconis and since then continued by many other and the question is look at the random graph gnp with edge probability p and suppose that i also prescribe the triangle density i also prescribe the triangle density i want it to be at least t now the cubed so if the triangle density is uh different from p cube then this is a uh different from p cube then this is a kind of large deviation we deviate kin…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_2656",
+    "t_start": 2656.2,
+    "t_end": 2747.4,
+    "type": "overview",
+    "summary": "you apply the entropy function to w and you integrate this and you want to maximize this entropy subject to the conditions that we want to impose and this is uh this problem can be solved not it's not this problem can be solved not it's not easy to solve and not all easy to solve and not all cannot be always solved but but you can cannot be always solved but but you can sort of take off the shelf sort of take off the shelf uh existing results about this uh uh existing results about this uh variational calculus problem and variational calculus problem and this is where the the graph limit th…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_2747",
+    "t_start": 2747.4,
+    "t_end": 2838.9,
+    "type": "overview",
+    "summary": "in a w which graph the complement corresponds to one minus w corresponds to one minus w and so the sum of the two is at least a that's still essentially the same theorem erdos as the question whether the density of complete photographs the density of complete photographs satisfy a similar inequality but again satisfy a similar inequality but again in the case of goodman random graphs in the case of goodman random graphs with density half provides the extreme with density half provides the extreme situation extreme solution and situation extreme solution and here the question is whether stil…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_2838",
+    "t_start": 2838.9,
+    "t_end": 2935.7,
+    "type": "overview",
+    "summary": "the the functional on the left is minimized by the identically one-half function w then you can ask is it you can ask is it at least the local minimum so is it this inequality true for every w which is close to one half half function and actually there is a rather old result by actually there is a rather old result by frank andrudel which in a quite different setting and quite different formulation proves that the complete photograph is is locally common so it's not is locally common so it's not minimized by the identical one-half minimized by the identical one-half function but it's locall…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_2935",
+    "t_start": 2935.7,
+    "t_end": 3027.8,
+    "type": "overview",
+    "summary": "and then of course the answer to it is is using graph limit theory the positive is using graph limit theory the positive results by the way are again uh proved by uh basically finding analogs of the uh basically finding analogs of the taylor expansion and using that taylor expansion and using that as you would do in the local theory of you know ordinary uh analysis thank you for your attention [Music] [Applause] thank you very much professor lavos i have a few questions to you from the um the first one is how do you view the role and the value of do you view the role and the value of collab…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_3027",
+    "t_start": 3027.8,
+    "t_end": 3119.5,
+    "type": "overview",
+    "summary": "proofs are getting more and more complicated using uh methods from a number of areas and nobody is expert in all of areas and nobody is expert in all of these areas so you you collaborate for example in this graph limit theory that i was in this graph limit theory that i was describing some of the participants on that list i i showed you namely christian box and i showed you namely christian box and jennifer chase were they are physicists they are they are they are uh are they are they are uh physicists uh mathematical physicists was a group theorist so all these other knowledge came togeth…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_3119",
+    "t_start": 3119.5,
+    "t_end": 3207.0,
+    "type": "overview",
+    "summary": "questions about limit theory in general without without these uh restrictions to uh to either low degree or a constant degree or bounded degree or or density or bounded degree or or density are these are this is this is open lots of open questions there and also probably one example which probably is not such a it's a little bit a low-hanging fruit little bit a low-hanging fruit maybe is this local extrema maybe is this local extrema theory which you can ask about theory which you can ask about many questions in extreme graph theory many questions in extreme graph theory where it's very dif…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_3211",
+    "t_start": 3211.9,
+    "t_end": 3304.6,
+    "type": "overview",
+    "summary": "um uh i don't know any direct connections there is an asymptotic theory for algorithms which of course for algorithms which of course includes machine learning when machine includes machine learning when machine learning also has asymptotic theories or results so that always that means results which hold when when the number results which hold when when the number of variables number of parameters gets very large and in a large and in a in in every such clay case there is a uh the possibility of a limit theory a limit theory but i don't think it has ever been here's that one would it make s…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_3304",
+    "t_start": 3304.6,
+    "t_end": 3396.3,
+    "type": "overview",
+    "summary": "so perhaps the other theory which i have not only touched upon maybe that can be not only touched upon maybe that can be extended to to find some kind of extended to to find some kind of continuous approximation of the internet continuous approximation of the internet but even though this was one of the for this theory uh it is not done the final question is in in a very the final question is in in a very different direction uh different direction uh it says the statutes of the arbel price the price shall also help boost the status of the field of mathematics in status of the field of mathe…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_3396",
+    "t_start": 3396.3,
+    "t_end": 3486.7,
+    "type": "overview",
+    "summary": "to be developed and so there were low-hanging fruits so to say in low-hanging fruits so to say in in in this area i think there are also quite interesting questions in in this limit theory for example so in order to make students interesting so in order to make students interesting you have to to explain i think there are nice pictures for example i was trying to pictures for example i was trying to show a few of them show a few of them and they can make students and they can make students interested but there are many other interested but there are many other areas in mathematics areas in …"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_3486",
+    "t_start": 3486.7,
+    "t_end": 3579.6,
+    "type": "overview",
+    "summary": "victorson began his career in the field of computation complexity of computation complexity he moved to princeton in 1980 where he he has built up a world-leading research group in theoretical computer science he has made broad and profound contributions to made broad and profound contributions to all aspects of computational complexity all aspects of computational complexity especially the role of randomness in a central question is whether or not a computational model based on randomness computational model based on randomness is stronger than a purely deterministic is stronger than a pur…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_3579",
+    "t_start": 3579.6,
+    "t_end": 3670.9,
+    "type": "overview",
+    "summary": "into a deterministic one with comparable efficiency the title of avigdarson's talk is the value of errors in proofs work of errors in proofs work that challenges the traditional notion that challenges the traditional notion of a mathematical proof i highly recommend the new book of avi freely available on his website it's freely available on his website it's titled mathematics plus computation a theory revolutionizing technology and science and it's it's a book that is accessible to to most students i would accessible to to most students i would say it's a very readable book so heartily wel…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_3670",
+    "t_start": 3670.9,
+    "t_end": 3762.2,
+    "type": "overview",
+    "summary": "on the conceptual nature of this evolution and the new and paradoxical properties of proofs you can achieve with you can achieve with errors and connections to mathematics follow from this understandings uh to talk about i was improved i must uh to talk about i was improved i must talk first about errors in computations and to do this i'll talk more generally and to do this i'll talk more generally about pulse and all computations and what i really want to message i want to send is talking about message i want to send is talking about the methodology the methodology of computational complex…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_3762",
+    "t_start": 3762.2,
+    "t_end": 3853.7,
+    "type": "overview",
+    "summary": "collection of process theorems in plane geometry geometry that are all deducible from five simple but staring at them one realizes that it's also a collection of algorithms of it's also a collection of algorithms of constructions of the required objects using very simple two operations very simple two operations using a compass and a straight edge so computations and puffs basically equivalent to each other in this setting equivalent to each other in this setting of plain geometry uh the next point in time is the turn of the 20th century with the 20th century with hillbert's dream of believ…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_3853",
+    "t_start": 3853.7,
+    "t_end": 3945.8,
+    "type": "overview",
+    "summary": "going to talk about this application and i want to talk about the theoretical part uh doing define what kind of problems we and i'll focus today on decision problems decision problems are just problems decision problems are just identified with sets and with the is a given object x is in s this is a type of questions we'd like s this is a type of questions we'd like to answer and this is also the type of statements we'd like to pull there are two families that come or complexity classes that come with this complexity classes that come with this it's all sets computable by finite it's all se…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_3945",
+    "t_start": 3945.8,
+    "t_end": 4037.4,
+    "type": "overview",
+    "summary": "all familiar with p and np p being sets provable to know p being sets provable to know sorry p being reset sorry p being reset computable by efficient algorithms and the collection of sets provable two efficient algorithms efficient algorithms with this comes the open question that's and still open whether p is different than empty i want to stress that when i talk about the efficiency here the efficiency here in this talk i mean polynomial time in side of the input the size of the data of course of course various other notions were investigated let me start with just a collection of exampl…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_4037",
+    "t_start": 4037.4,
+    "t_end": 4135.3,
+    "type": "overview",
+    "summary": "examples by the way these characters are arto and uh uh which are often used in this uh descriptions here's the proof system descriptions here's the proof system for the set of composite numbers a claim and we want to check whether it's composite an argument for that composite an argument for that is two smaller numbers and the is two smaller numbers and the verification verification is simply checking that their product initial input and then a verifier can accept or rejects accordingly accept or rejects accordingly of course that's an efficient algorithm multiplication is easy it's a gene…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_4137",
+    "t_start": 4137.6,
+    "t_end": 4227.9,
+    "type": "overview",
+    "summary": "qualification again is simple we just check the rules of sudoku about the you check the rules of sudoku about the you know rows and columns and sub squares and decide if to accept or reject it's and the set of theorems provable by this proof system is a set of observable proof system is a set of observable sudoku puzzles of course in general and not just for three by three but three by three but in fact one can generalize for any four and by any sudoku puzzle so there are infinite sizes in infinite number of inputs for this problem this problem as well back to deductive proof systems as wel…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_4227",
+    "t_start": 4227.9,
+    "t_end": 4316.4,
+    "type": "overview",
+    "summary": "so let's generalize from these examples what we would call a push system and that's what complexity theory likes to do theory likes to do classify what are they essential for push systems there are three essentials there are three essentials one is completeness true claims should have proof soundness false claims shouldn't have proofs and verification we need to tell the two efficiently we need to verify efficiently and again efficient our mean in this talk polynomial time in the length of talk polynomial time in the length of the claim that's what we allow the claim that's what we allow ou…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_4319",
+    "t_start": 4319.8,
+    "t_end": 4411.9,
+    "type": "overview",
+    "summary": "we call t sub v for this verifier v the set of theorems provable by this the set of theorems provable by this system and then it's a very simple theorem just from the definition to see that the collection of all sets of theorems provable by such of theorems provable by such efficiently verifiable systems is a efficiently verifiable systems is a class np and it's also easy to see well we've seen examples of these like the seen examples of these like the solvable sudoku puzzles the composite solvable sudoku puzzles the composite numbers and so on and the class b uh of efficiently computable s…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_4411",
+    "t_start": 4411.9,
+    "t_end": 4503.5,
+    "type": "overview",
+    "summary": "f of x in a probabilistic algorithm what we demand is a weaker demand we we demand is a weaker demand we allow the algorithm to make random allow the algorithm to make random choices and we want the algorithm b of x to be equal to the correct function value with high correct function value with high probability here i say two thirds namely arrow at most one cell we just have to make sure most one cell we just have to make sure that the other arrow is less than a half obvious reasons but first let me stress with the first let me stress with the introduction of introduction of arrows in algor…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_4503",
+    "t_start": 4503.5,
+    "t_end": 4595.0,
+    "type": "overview",
+    "summary": "probabilistic proof systems are defined by an algorithm we can generalize them and that's exactly what was done in these seminal papers in 85. they suggested making the algorithm the verifier making the algorithm the verifier probabilistic demanding that if the claim is true an algorithm is accepted let's say with an algorithm is accepted let's say with probability one and in the case that the claim is false you just want the verifier to reject you just want the verifier to reject every argument every argument with high probability so now we errors in proof i think that this is a huge list …"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_4595",
+    "t_start": 4595.0,
+    "t_end": 4685.2,
+    "type": "overview",
+    "summary": "provel to be interactive so let me explain this part in the classical empty setting the approval just sends an argument to it's like writing a paper and letting the referee read it the referee read it and verify it's deterministic and it's always correct in the ip setting we said that we allowed the verifier to we said that we allowed the verifier to toss coins and demand that it is correct with high probability but we also allow probability but we also allow uh the argument in the ip settings to be interactive namely we allow the verifiers to ask questions to the maybe in many rounds and o…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_4685",
+    "t_start": 4685.2,
+    "t_end": 4775.2,
+    "type": "overview",
+    "summary": "i want to talk more about the conceptual mathematical side and to tell you uh about two types of proof systems which allow proof systems which allow new and paradoxical properties new and paradoxical properties one is zero knowledge boost namely the need not need convey information probabilistically checkable post which probabilistically checkable post which says that convincing push told me to be read almost at almost at all i'll explain this briefly and i really want to talk about the evolution of these notions uh and how one is related to the other even though they don't seem to or how o…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_4775",
+    "t_start": 4775.2,
+    "t_end": 4867.3,
+    "type": "overview",
+    "summary": "can something like this be possible can a convincing proof a convincing proof be uninformative you should think about factoring how would you pro convince anyone that you can factor an integer without giving any information giving any information if it's our problem how do you convince somebody of the truth or that you have a proof of very my without giving a fraction of an idea of what's involved or in fact convincing what's involved or in fact convincing anybody of anything without giving them new information what kind of theorems can have such theoretical theorems can have such theoretic…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_4867",
+    "t_start": 4867.3,
+    "t_end": 4960.7,
+    "type": "overview",
+    "summary": "to allow practical applications to digits of currencies blockchains and many other applications it went beyond the digital it went beyond the digital domain to the physical domain and there carrying out nuclear disarmament protocols with zero knowledge uh testing protocols with zero knowledge uh testing dna in the lab anonymously with zero knowledge and so on fascinating things but what i want to is how it led to new proof systems in particular mip that i'm going to in particular mip that i'm going to define next so here's what we were wondering at the time after the zero knowledge result t…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_4960",
+    "t_start": 4960.7,
+    "t_end": 5054.9,
+    "type": "overview",
+    "summary": "a verifier decides to accept or reject and should be correct with high and should be correct with high probability so the same definition and we prove that in this system with and we prove that in this system with two provers you can get zero knowledge without any computational assumption computational assumption in fact the physical separation of the one can ask whether this notion of a push system is reasonable and i claim at push system is reasonable and i claim at least in some cases least in some cases it is uh for example the police uses this putting potential criminals in separate ce…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_5054",
+    "t_start": 5054.9,
+    "t_end": 5145.8,
+    "type": "overview",
+    "summary": "seem to be in one but not in the other but very few and there was they took a but very few and there was they took a couple of years to get techniques developed to have actually an explosion so then came an actually an explosion so then came an avalanche of avalanche of characterizations precise characterizations of these classes first the proof that ip single program first the proof that ip single program indeed is equal to its full potential indeed is equal to its full potential polynomial space 2ip is equal to its full potential nondeterministic exponential time and nondeterministic expo…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_5145",
+    "t_start": 5145.8,
+    "t_end": 5234.7,
+    "type": "overview",
+    "summary": "and sharpening this understanding technically it's led to the pcp theorem that i'll tell you about next tell you about next we don't have to fully read written so in all these theorems there is no cryptography it's you know pure theorems complex characterizations let me talk complex characterizations let me talk briefly about the pcpcr so here we are back to the non-interactive setting to a setting non-interactive setting to a setting where the approval just sends an argument one way to the verifier the verifier is probabilistic verifier the verifier is probabilistic so can sample and in th…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_5238",
+    "t_start": 5238.1,
+    "t_end": 5326.3,
+    "type": "overview",
+    "summary": "this means if it were practical enough that the refereeing that the refereeing problem we are all suffering from will true reality we are not quite there but of course the main impact was scientific of course the main impact was scientific and mathematical uh created the revolution uh in optimization and understanding the in optimization and understanding the hardness of approximation problems uh great advances in uh closing theory and in complexity theory which i will and in complexity theory which i will not be able to to talk about not be able to to talk about and again it was made pract…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_5329",
+    "t_start": 5329.6,
+    "t_end": 5422.2,
+    "type": "overview",
+    "summary": "yet again another axiom nature seems to provide us access to quantum phenomena so why not use them in algorithms that's what use them in algorithms that's what manning and simon suggested manning and simon suggested independently in the independently in the early 80s let's build quantum computers use quantum phenomena work on quantum superpositions with unitary operations superpositions with unitary operations on the qubits and it took time to really formalize this suggestion into a suggestion into a complete complex theoretic model but it and then we had notions more classes of bqp of all …"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_5422",
+    "t_start": 5422.2,
+    "t_end": 5514.6,
+    "type": "overview",
+    "summary": "know hardness assumptions that will be stronger and will resist quantum stronger and will resist quantum computation also developing new quantum algorithms for other problems we don't have much progress there but again what's important to me in this again what's important to me in this story is that the impact of just creating new models in this case of quantum proof systems in this case of quantum proof systems so let's go to quantum boost systems you even you have not defined these beasts if we don't have quantum computation but if we don't have quantum computation but that's exactly what…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_5514",
+    "t_start": 5514.6,
+    "t_end": 5604.9,
+    "type": "overview",
+    "summary": "and people started to investigate the computational complexity of this class and it still took a few years this all this is more involved because of the all this is more involved because of the quantum nature of the players and the first result was that this class contains non-deterministic exponential type so it's at least as strong as a classical this is not obvious because both provers and verifiers are quantum but anyway this was one people sort of but anyway this was one people sort of expected that the same will happen and expected that the same will happen and it's not stronger than …"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_5604",
+    "t_start": 5604.9,
+    "t_end": 5698.4,
+    "type": "overview",
+    "summary": "conjecture and in group theory through the kitsburg qwe p conjecture all well-known conjectures in different areas and uh i just want to end with the uh i just want to end with the explaining the results and the explaining the results and the connection between the computational complexity approach to the physics approach to uh to the same question which was actually made in this original paper was actually made in this original paper defining uh mip style of cleavator connection to the epr paradox and connection to the epr paradox and berlin equalities etc berlin equalities etc so let's go…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_5698",
+    "t_start": 5698.4,
+    "t_end": 5788.6,
+    "type": "overview",
+    "summary": "and it can be viewed as a game where the two provers non-interactive provers have to find a strategy and they are trying to maximize the probability that trying to maximize the probability that the verifier will accept this function get the value one the value one by giving answers to the questions value of the game turns out to remain the same even if we allow these separate the same even if we allow these separate provers to share a random stream and use provers to share a random stream and use it when they it when they decide their strategy the quantum version is the same only that in th…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_5788",
+    "t_start": 5788.6,
+    "t_end": 5883.4,
+    "type": "overview",
+    "summary": "already are interested in approximating these values the value of t and valve soft in order to understand the complexity of these to understand the complexity of these classes and this was done and as i said equals to and and x the second is equal to r e and that was the side is equal to r e and that was the side the computational side of the story from the computational side of the story from the physics side the physics side you have to go back to the einstein famous paper which was written at the institute where i worked at the institute where i worked where they suggested this thought a…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_5883",
+    "t_start": 5883.4,
+    "t_end": 5974.2,
+    "type": "overview",
+    "summary": "and physicists are interested in facts that's about the einstein that's about the einstein challenge uh you know how do you explain what's going on uh how can it be that value star may be bigger than value star may be bigger than uh the classical value so in the physics world this question of whether quantum world this question of whether quantum mechanics is complete and how to explain mechanics is complete and how to explain these things led to an amazing evolution of many many people creating many examples many many people creating many examples of games in which the value uh the quantum…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_5974",
+    "t_start": 5974.2,
+    "t_end": 6065.4,
+    "type": "overview",
+    "summary": "uh proceeded with understanding it is really all the tools uh creating reductions between games amplifying the gaps between games amplifying the gaps between games completeness results the use of error costing codes the use of pcb technology in the quantum setting all technology in the quantum setting all these tools were necessary eventually to prove the uh this final breakthrough result mip uh this final breakthrough result mip equal re which in essence gives an equal re which in essence gives an amazing structural understanding of amazing structural understanding of endowment and of the …"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_6065",
+    "t_start": 6065.4,
+    "t_end": 6155.6,
+    "type": "overview",
+    "summary": "published by princeton university press but available freely on my website and accessible to any undergrad thank you very very much thank you very much savvy for a very interesting and thought-provoking uh interesting and thought-provoking uh talk uh i have some questions for you guide to the galaxy the world is a computer computing the ultimate question computer computing the ultimate question of the life the universe and everything as we know the answer is 42. does this funny story resonate with your does this funny story resonate with your views of the world okay follow-up is is complex …"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_6155",
+    "t_start": 6155.6,
+    "t_end": 6249.1,
+    "type": "overview",
+    "summary": "physics like any science is studying processes that these processes processes that these processes are algorithms they operate maybe on objects they may operate on galaxies and stars and they may operate on stars and they may operate on atoms or in the nuclei of atoms atoms or in the nuclei of atoms and so on and uh these algorithms which follow the laws of nature uh you know have uh resources and these resources are expanded by resources are expanded by um these processes like you know energy the heat and a variety of uh but in particular also uh time and space but in particular also uh ti…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_6249",
+    "t_start": 6249.1,
+    "t_end": 6339.8,
+    "type": "overview",
+    "summary": "studies of quantum phenomena and entanglements study of black holes and maybe trying to resolve paradoxes resolve paradoxes in in this theory between quantum mechanics and you know relativity theory and yeah i'm we'll see much much more of this yes very interesting uh the next question is very interesting uh the next question is is from people like myself from a more traditional view of mathematical proofs traditional view of mathematical proofs what does it really mean in practice for mathematics to to check proofs without reading all of i mean no editor would accept a proof of the riemann…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_6339",
+    "t_start": 6339.8,
+    "t_end": 6433.3,
+    "type": "overview",
+    "summary": "uh errors in proofs of course and nobody does and in fact all the theorems that does and in fact all the theorems that state that i stated are proven state that i stated are proven mathematically theorems about pcp is about zero knowledge both about quantum proofs and so on they are proven in the usual mathematical sense proven in the usual mathematical sense i think the the way to really understand um uh pcps is that they offer a way much uh similar but they offer a way much uh similar but more complicated than uh to uh more complicated than uh to uh error correcting codes of smearing out …"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_6433",
+    "t_start": 6433.3,
+    "t_end": 6527.4,
+    "type": "overview",
+    "summary": "yes it's only a favorite uh topic of mine i think that topic of mine i think that yeah to me you know it was a very natural maybe lucky to enter the uh theoretical computer science i could have easily ended in any other area of it just my parents thought that maybe i should study something practical should study something practical got me to to start in computer science uh i think that like i said before about connections between uh before about connections between uh computational complexity and algorithms computational complexity and algorithms with the sciences the same hordes in connect…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_6527",
+    "t_start": 6527.4,
+    "t_end": 6620.5,
+    "type": "overview",
+    "summary": "to an elaboration and extensions of the original theory of understanding whether original theory of understanding whether it's groups or surfaces or it's groups or surfaces or um you know geometries or any any mathematical area and this is just one example so questions uh are extremely natural in in mathematics and uh understanding them in mathematics and uh understanding them we have many examples already and i again i'm sure there'll be many many more uh when uh this collaboration extends that it does beautifully already now that it does beautifully already now yeah i i agree completely w…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_6620",
+    "t_start": 6620.5,
+    "t_end": 6711.4,
+    "type": "overview",
+    "summary": "and that to round off this uh memorable day i give the word to the memorable day i give the word to the chairman of the board of the hubble prize professor juan gruyere laureates thank you very much indeed for sharing with us indeed for sharing with us your wonderful hubble laureate lecturers your wonderful hubble laureate lecturers your ids and deep insights your love and dedication for mathematics the beauty and harmony or your results the phenomenal vitality of your mathematics and mathematics and the colossal teamwork with your fellow thank you for your keen leadership in our field and …"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_6714",
+    "t_start": 6714.6,
+    "t_end": 6811.8,
+    "type": "overview",
+    "summary": "due to the pandemic the humble week this year had to be this year had to be digital now digital now the album laureate lecturers are and live their own lives on hubble price youtube channel where anyone worldwide can learn from you and be inspired from your talks as chair of the hobble board i'm pleased to invite the overlords of 2020 and the oblaurids of 2021 to come to and the oblaurids of 2021 to come to oslo a great uh thank you to the arbel committee of 2020 the arbel committee of 2020 and 2021 for your dedication and 2021 for your dedication and very important work and also a big than…"
+  },
+  {
+    "id": "ku_video_zqiL57ebP-k_6811",
+    "t_start": 6811.8,
+    "t_end": 6822.6,
+    "type": "overview",
+    "summary": "academy of signs and letters in oslo and goodbye"
+  }
+]

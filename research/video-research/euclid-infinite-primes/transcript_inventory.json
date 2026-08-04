@@ -1,0 +1,37 @@
+{
+  "slug": "euclid-infinite-primes",
+  "videos": [
+    {
+      "id": "ctC33JAV4FI",
+      "title": "Infinite Primes - Numberphile",
+      "has_transcript": true,
+      "chars": 5982,
+      "units": 5,
+      "url": "https://www.youtube.com/watch?v=ctC33JAV4FI"
+    },
+    {
+      "id": "816JCX5tKD8",
+      "title": "Euclid's proof that there are infinitely many primes! Classic math proof!",
+      "has_transcript": true,
+      "chars": 6150,
+      "units": 5,
+      "url": "https://www.youtube.com/watch?v=816JCX5tKD8"
+    },
+    {
+      "id": "ZYkZws-23R8",
+      "title": "Proof: There are Infinitely Many Primes (There is no Largest Prime)",
+      "has_transcript": true,
+      "chars": 4100,
+      "units": 3,
+      "url": "https://www.youtube.com/watch?v=ZYkZws-23R8"
+    },
+    {
+      "id": "YPb0JC18AC4",
+      "title": "Number Theory: Proof of the Infinitude of the Primes (Euclid) - Part 1",
+      "has_transcript": true,
+      "chars": 4599,
+      "units": 4,
+      "url": "https://www.youtube.com/watch?v=YPb0JC18AC4"
+    }
+  ]
+}

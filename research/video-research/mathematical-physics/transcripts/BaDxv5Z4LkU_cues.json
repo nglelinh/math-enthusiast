@@ -1,0 +1,3672 @@
+[
+  {
+    "t_start": 13.35,
+    "t_end": 15.91,
+    "text": "Okay, I think we're all settled down. Morning everybody. Uh my name is Martin"
+  },
+  {
+    "t_start": 15.91,
+    "t_end": 17.59,
+    "text": "Morning everybody. Uh my name is Martin Brides. I'm president of the Clay Maths"
+  },
+  {
+    "t_start": 17.59,
+    "t_end": 19.349,
+    "text": "Brides. I'm president of the Clay Maths Institute. Uh on behalf of the"
+  },
+  {
+    "t_start": 19.349,
+    "t_end": 21.75,
+    "text": "Institute. Uh on behalf of the institute, welcome to this uh what"
+  },
+  {
+    "t_start": 21.75,
+    "t_end": 23.99,
+    "text": "institute, welcome to this uh what should be two great days celebrating the"
+  },
+  {
+    "t_start": 23.99,
+    "t_end": 26.23,
+    "text": "should be two great days celebrating the 25th anniversary of the clay millennium"
+  },
+  {
+    "t_start": 26.23,
+    "t_end": 28.47,
+    "text": "25th anniversary of the clay millennium problems. I'm very much looking forward"
+  },
+  {
+    "t_start": 28.47,
+    "t_end": 30.39,
+    "text": "problems. I'm very much looking forward to it. Uh we have some wonderful"
+  },
+  {
+    "t_start": 30.39,
+    "t_end": 32.709,
+    "text": "to it. Uh we have some wonderful speakers lined up and so I won't detain"
+  },
+  {
+    "t_start": 32.709,
+    "t_end": 34.87,
+    "text": "speakers lined up and so I won't detain you from the mathematics. I'll ask"
+  },
+  {
+    "t_start": 34.87,
+    "t_end": 37.51,
+    "text": "you from the mathematics. I'll ask professor Jiglo Stafalani from MIT"
+  },
+  {
+    "t_start": 37.51,
+    "t_end": 39.51,
+    "text": "professor Jiglo Stafalani from MIT member of our scientific advisory board"
+  },
+  {
+    "t_start": 39.51,
+    "t_end": 47.35,
+    "text": "member of our scientific advisory board to introduce the first speaker."
+  },
+  {
+    "t_start": 50.229,
+    "t_end": 52.389,
+    "text": "So thank you Martin for uh starting this wonderful meeting here. So it's my"
+  },
+  {
+    "t_start": 52.389,
+    "t_end": 54.709,
+    "text": "wonderful meeting here. So it's my pleasure to introduce Professor"
+  },
+  {
+    "t_start": 54.709,
+    "t_end": 56.229,
+    "text": "pleasure to introduce Professor Vladimir."
+  },
+  {
+    "t_start": 56.229,
+    "t_end": 60.229,
+    "text": "He's a distinguished Mcnite University professor of mathematics at the"
+  },
+  {
+    "t_start": 60.229,
+    "t_end": 65.91,
+    "text": "University of Minnesota. He received his PhD from Charles University in Prague in"
+  },
+  {
+    "t_start": 65.91,
+    "t_end": 69.27,
+    "text": "PhD from Charles University in Prague in 1986 and has made profound contributions"
+  },
+  {
+    "t_start": 69.27,
+    "t_end": 72.469,
+    "text": "1986 and has made profound contributions in the general area of PTE in particular"
+  },
+  {
+    "t_start": 72.469,
+    "t_end": 75.27,
+    "text": "in the general area of PTE in particular calculus variation and in more in"
+  },
+  {
+    "t_start": 75.27,
+    "t_end": 80.95,
+    "text": "particular in the study of fluid mechanics and in fact he is an authority"
+  },
+  {
+    "t_start": 80.95,
+    "t_end": 86.23,
+    "text": "mechanics and in fact he is an authority in that area and we are very happy that"
+  },
+  {
+    "t_start": 86.23,
+    "t_end": 90.23,
+    "text": "he's here today. So among his rewards and prizes is a prize from the European"
+  },
+  {
+    "t_start": 90.23,
+    "t_end": 92.95,
+    "text": "and prizes is a prize from the European mathematical society, the humbled award,"
+  },
+  {
+    "t_start": 92.95,
+    "t_end": 98.23,
+    "text": "the neuro foundation prize. He was an ICM speaker and very recently in 2024 he"
+  },
+  {
+    "t_start": 98.23,
+    "t_end": 100.149,
+    "text": "ICM speaker and very recently in 2024 he was inducted in the American Academy of"
+  },
+  {
+    "t_start": 100.149,
+    "t_end": 102.789,
+    "text": "was inducted in the American Academy of Art and Sciences. So let's welcome"
+  },
+  {
+    "t_start": 102.789,
+    "t_end": 106.95,
+    "text": "professor Verak and he's going to talk to us about actually is giving us a"
+  },
+  {
+    "t_start": 106.95,
+    "t_end": 108.71,
+    "text": "to us about actually is giving us a report on the status of the knowledge"
+  },
+  {
+    "t_start": 108.71,
+    "t_end": 116.23,
+    "text": "report on the status of the knowledge stock problem."
+  },
+  {
+    "t_start": 118.389,
+    "t_end": 120.709,
+    "text": "Thank you very much for the for the kind introduction."
+  },
+  {
+    "t_start": 120.709,
+    "t_end": 127.03,
+    "text": "So uh I'd like to talk about the Navier Stokes uh problem."
+  },
+  {
+    "t_start": 127.03,
+    "t_end": 133.11,
+    "text": "So we assume we have a domain occupied by the fluid. The fluid is modeled as a"
+  },
+  {
+    "t_start": 133.11,
+    "t_end": 136.55,
+    "text": "by the fluid. The fluid is modeled as a continuum and the velocity field is U."
+  },
+  {
+    "t_start": 136.55,
+    "t_end": 142.47,
+    "text": "continuum and the velocity field is U. The pressure is P. And we assume the"
+  },
+  {
+    "t_start": 142.47,
+    "t_end": 145.27,
+    "text": "fluid is incompressible. And this is Navier Stokes equation with new being"
+  },
+  {
+    "t_start": 145.27,
+    "t_end": 148.71,
+    "text": "Navier Stokes equation with new being the viscosity. And the Millennium"
+  },
+  {
+    "t_start": 148.71,
+    "t_end": 153.91,
+    "text": "the viscosity. And the Millennium problem is formulated uh as a question"
+  },
+  {
+    "t_start": 153.91,
+    "t_end": 157.75,
+    "text": "about the Koshi problem for this equation given uh some initial velocity"
+  },
+  {
+    "t_start": 157.75,
+    "t_end": 160.39,
+    "text": "equation given uh some initial velocity with reasonable assumptions at time zero"
+  },
+  {
+    "t_start": 160.39,
+    "t_end": 165.19,
+    "text": "with reasonable assumptions at time zero which is smooth. uh does the equation uh"
+  },
+  {
+    "t_start": 165.19,
+    "t_end": 171.589,
+    "text": "which is smooth. uh does the equation uh predict a smooth solution of uh the"
+  },
+  {
+    "t_start": 171.589,
+    "t_end": 177.43,
+    "text": "So in this description as I mentioned we describe the fluid as a continuum. So if"
+  },
+  {
+    "t_start": 177.43,
+    "t_end": 184.71,
+    "text": "describe the fluid as a continuum. So if we take a point of the continuum x the"
+  },
+  {
+    "t_start": 184.71,
+    "t_end": 191.509,
+    "text": "trajectory of that point is computed from this OD. So we want to follow every"
+  },
+  {
+    "t_start": 191.509,
+    "t_end": 198.949,
+    "text": "principle and uh there is a nice geometric equation uh interpretation of"
+  },
+  {
+    "t_start": 198.949,
+    "t_end": 204.229,
+    "text": "geometric equation uh interpretation of the equation with new is equal to zero."
+  },
+  {
+    "t_start": 204.229,
+    "t_end": 206.949,
+    "text": "the oiler equation that uh these mappings t to 5t which are volume"
+  },
+  {
+    "t_start": 206.949,
+    "t_end": 209.19,
+    "text": "mappings t to 5t which are volume preserving defomorphisms"
+  },
+  {
+    "t_start": 209.19,
+    "t_end": 214.63,
+    "text": "they are geodessics in the group of volume preserving defomorphisms equipped"
+  },
+  {
+    "t_start": 214.63,
+    "t_end": 217.91,
+    "text": "volume preserving defomorphisms equipped with natural metric."
+  },
+  {
+    "t_start": 217.91,
+    "t_end": 224.869,
+    "text": "So I mentioned that we assume that uh the fluid is a continuum in this model"
+  },
+  {
+    "t_start": 224.869,
+    "t_end": 227.11,
+    "text": "the fluid is a continuum in this model but we know that actually there is some"
+  },
+  {
+    "t_start": 227.11,
+    "t_end": 231.11,
+    "text": "but we know that actually there is some atomic structure uh underneath and so we"
+  },
+  {
+    "t_start": 231.11,
+    "t_end": 234.07,
+    "text": "atomic structure uh underneath and so we can start for example from interacting"
+  },
+  {
+    "t_start": 234.07,
+    "t_end": 239.67,
+    "text": "can start for example from interacting particles and uh then there are two kind"
+  },
+  {
+    "t_start": 239.67,
+    "t_end": 244.949,
+    "text": "particles and uh then there are two kind of levels of emergence if I can use that"
+  },
+  {
+    "t_start": 244.949,
+    "t_end": 247.429,
+    "text": "of levels of emergence if I can use that language to get to the Navier Stokes to"
+  },
+  {
+    "t_start": 247.429,
+    "t_end": 253.67,
+    "text": "language to get to the Navier Stokes to to derive this uh from the particle"
+  },
+  {
+    "t_start": 253.67,
+    "t_end": 257.189,
+    "text": "trajectory. So there has been some tremendous uh progress on these are very"
+  },
+  {
+    "t_start": 257.189,
+    "t_end": 259.909,
+    "text": "tremendous uh progress on these are very difficult problems to derive uh say"
+  },
+  {
+    "t_start": 259.909,
+    "t_end": 262.15,
+    "text": "difficult problems to derive uh say Boltzman equation from interacting"
+  },
+  {
+    "t_start": 262.15,
+    "t_end": 268.469,
+    "text": "particles and then fluids equation from the Boltzman equation and uh recently"
+  },
+  {
+    "t_start": 268.469,
+    "t_end": 278.469,
+    "text": "the Boltzman equation and uh recently there has been some very uh important"
+  },
+  {
+    "t_start": 278.469,
+    "t_end": 281.59,
+    "text": "progress uh uh we uh uh and uh Zaher Hani and Lor Simon"
+  },
+  {
+    "t_start": 281.59,
+    "t_end": 290.55,
+    "text": "discuss this on on the PDE workshop. So we can uh essentially have uh three"
+  },
+  {
+    "t_start": 290.55,
+    "t_end": 293.03,
+    "text": "So we can uh essentially have uh three basic scenario for the for the mil"
+  },
+  {
+    "t_start": 293.03,
+    "t_end": 298.39,
+    "text": "scenarios for the millennium problem. So one is that okay if you have smooth data"
+  },
+  {
+    "t_start": 298.39,
+    "t_end": 301.11,
+    "text": "one is that okay if you have smooth data there is a smooth solution and that"
+  },
+  {
+    "t_start": 301.11,
+    "t_end": 303.27,
+    "text": "there is a smooth solution and that essentially means you can interpret it"
+  },
+  {
+    "t_start": 303.27,
+    "t_end": 306.95,
+    "text": "essentially means you can interpret it as the the world of the continuum model"
+  },
+  {
+    "t_start": 306.95,
+    "t_end": 309.83,
+    "text": "as the the world of the continuum model being closed and self-contained. Okay,"
+  },
+  {
+    "t_start": 309.83,
+    "t_end": 313.67,
+    "text": "being closed and self-contained. Okay, you don't need anything else just the"
+  },
+  {
+    "t_start": 313.67,
+    "t_end": 317.35,
+    "text": "continuum model to predict uh the future. Then the opposite scenario here"
+  },
+  {
+    "t_start": 317.35,
+    "t_end": 320.15,
+    "text": "future. Then the opposite scenario here number three is that uh you have"
+  },
+  {
+    "t_start": 320.15,
+    "t_end": 322.87,
+    "text": "number three is that uh you have singularities in the solutions and"
+  },
+  {
+    "t_start": 322.87,
+    "t_end": 325.51,
+    "text": "singularities in the solutions and moreover singularities cause"
+  },
+  {
+    "t_start": 325.51,
+    "t_end": 331.749,
+    "text": "non-uniqueness. Okay, that they generate non-uniqueness. So after the"
+  },
+  {
+    "t_start": 331.749,
+    "t_end": 337.749,
+    "text": "singularities appear, you can no longer the the model no longer predicts what is"
+  },
+  {
+    "t_start": 337.749,
+    "t_end": 343.11,
+    "text": "the the model no longer predicts what is happen. So in that sense is not closed"
+  },
+  {
+    "t_start": 343.11,
+    "t_end": 346.469,
+    "text": "and maybe you have to go to the models underneath to see what uh what happens."
+  },
+  {
+    "t_start": 346.469,
+    "t_end": 349.11,
+    "text": "underneath to see what uh what happens. There is a interesting possibility in"
+  },
+  {
+    "t_start": 349.11,
+    "t_end": 351.11,
+    "text": "There is a interesting possibility in between so to speak that there are"
+  },
+  {
+    "t_start": 351.11,
+    "t_end": 355.029,
+    "text": "between so to speak that there are singularities but the equation still uh"
+  },
+  {
+    "t_start": 355.029,
+    "t_end": 357.909,
+    "text": "singularities but the equation still uh preserves its uniqueness. So so there"
+  },
+  {
+    "t_start": 357.909,
+    "t_end": 363.51,
+    "text": "are some such examples in PD that you can find a good class of solutions where"
+  },
+  {
+    "t_start": 363.51,
+    "t_end": 365.83,
+    "text": "can find a good class of solutions where this is the case. So that would be that"
+  },
+  {
+    "t_start": 365.83,
+    "t_end": 368.629,
+    "text": "this is the case. So that would be that would be uh another uh interesting"
+  },
+  {
+    "t_start": 368.629,
+    "t_end": 370.71,
+    "text": "would be uh another uh interesting scenario."
+  },
+  {
+    "t_start": 370.71,
+    "t_end": 376.309,
+    "text": "Now usually when uh people talk about Navier stocks turbulence should be"
+  },
+  {
+    "t_start": 376.309,
+    "t_end": 380.309,
+    "text": "Navier stocks turbulence should be mentioned. So the tur the problem of"
+  },
+  {
+    "t_start": 380.309,
+    "t_end": 383.83,
+    "text": "mentioned. So the tur the problem of turbulence it has many aspects"
+  },
+  {
+    "t_start": 383.83,
+    "t_end": 389.35,
+    "text": "and the non-negligible one is it's a very practical the it's a very practical"
+  },
+  {
+    "t_start": 389.35,
+    "t_end": 396.469,
+    "text": "very practical the it's a very practical uh problem in in many respects. So if"
+  },
+  {
+    "t_start": 396.469,
+    "t_end": 402.79,
+    "text": "you imagine a flow like that uh it's very difficult to compute it uh on on a"
+  },
+  {
+    "t_start": 402.79,
+    "t_end": 405.909,
+    "text": "computer even on big computers and sometimes impossible uh because the the"
+  },
+  {
+    "t_start": 405.909,
+    "t_end": 413.11,
+    "text": "sometimes impossible uh because the the the structures are too fine you you"
+  },
+  {
+    "t_start": 413.11,
+    "t_end": 414.95,
+    "text": "would need too many points uh and the computers even the big ones cannot"
+  },
+  {
+    "t_start": 414.95,
+    "t_end": 417.59,
+    "text": "computers even the big ones cannot handle the the computations."
+  },
+  {
+    "t_start": 417.59,
+    "t_end": 425.589,
+    "text": "So you can one way to think about the problem of turbulence is that you are"
+  },
+  {
+    "t_start": 425.589,
+    "t_end": 428.309,
+    "text": "problem of turbulence is that you are looking for another level of emergence"
+  },
+  {
+    "t_start": 428.309,
+    "t_end": 431.11,
+    "text": "looking for another level of emergence above the Navier Stokes equation. So in"
+  },
+  {
+    "t_start": 431.11,
+    "t_end": 433.43,
+    "text": "above the Navier Stokes equation. So in practice you are interested in these uh"
+  },
+  {
+    "t_start": 433.43,
+    "t_end": 438.309,
+    "text": "practice you are interested in these uh in these uh computations only in a"
+  },
+  {
+    "t_start": 438.309,
+    "t_end": 444.15,
+    "text": "like drag lift or or some momenta and you don't really want to know all the"
+  },
+  {
+    "t_start": 444.15,
+    "t_end": 446.15,
+    "text": "you don't really want to know all the details of the motion of every fluid"
+  },
+  {
+    "t_start": 446.15,
+    "t_end": 451.99,
+    "text": "details of the motion of every fluid particle right so the question is if you"
+  },
+  {
+    "t_start": 451.99,
+    "t_end": 456.87,
+    "text": "particles to navier stokes if you can go from navier stokes to another models"
+  },
+  {
+    "t_start": 456.87,
+    "t_end": 463.27,
+    "text": "from navier stokes to another models above it which uh uh which uh uh will"
+  },
+  {
+    "t_start": 463.27,
+    "t_end": 466.23,
+    "text": "above it which uh uh which uh uh will make the computation more feasible. So"
+  },
+  {
+    "t_start": 466.23,
+    "t_end": 468.309,
+    "text": "make the computation more feasible. So for that it's important to study"
+  },
+  {
+    "t_start": 468.309,
+    "t_end": 471.67,
+    "text": "for that it's important to study turbulence on a on a theoretical level"
+  },
+  {
+    "t_start": 471.67,
+    "t_end": 479.27,
+    "text": "turbulence on a on a theoretical level and recently there uh has been some uh"
+  },
+  {
+    "t_start": 479.27,
+    "t_end": 486.71,
+    "text": "Bedros uh Jacob Bedrosan is uh going to talk about it in the PTE workshop on on"
+  },
+  {
+    "t_start": 486.71,
+    "t_end": 488.629,
+    "text": "talk about it in the PTE workshop on on Friday."
+  },
+  {
+    "t_start": 488.629,
+    "t_end": 490.39,
+    "text": "Friday. So"
+  },
+  {
+    "t_start": 490.39,
+    "t_end": 494.629,
+    "text": "what do we know about the equation? So the basic"
+  },
+  {
+    "t_start": 494.629,
+    "t_end": 499.189,
+    "text": "uh estimate which we have for the equation is the energy estimate. Very"
+  },
+  {
+    "t_start": 499.189,
+    "t_end": 505.35,
+    "text": "equation is the energy estimate. Very simple. Energy at time t1 is equal"
+  },
+  {
+    "t_start": 505.35,
+    "t_end": 509.589,
+    "text": "energy at time t2 plus the energy dissipated in between. And in the 1930s,"
+  },
+  {
+    "t_start": 509.589,
+    "t_end": 517.75,
+    "text": "Lar based the whole theory of existence of weak solutions on this uh inequality."
+  },
+  {
+    "t_start": 517.75,
+    "t_end": 520.63,
+    "text": "of weak solutions on this uh inequality. So you can for example truncate the"
+  },
+  {
+    "t_start": 520.63,
+    "t_end": 522.55,
+    "text": "So you can for example truncate the equation to finite dimensions so that"
+  },
+  {
+    "t_start": 522.55,
+    "t_end": 524.23,
+    "text": "equation to finite dimensions so that you preserve the estimate. That's not"
+  },
+  {
+    "t_start": 524.23,
+    "t_end": 528.389,
+    "text": "you preserve the estimate. That's not hard. Then you have an OD with a"
+  },
+  {
+    "t_start": 528.389,
+    "t_end": 534.87,
+    "text": "existence for for the OD. Or you can use a more sophisticated approximation like"
+  },
+  {
+    "t_start": 534.87,
+    "t_end": 542.87,
+    "text": "a more sophisticated approximation like the one with epsilon here. uh due to LAR"
+  },
+  {
+    "t_start": 542.87,
+    "t_end": 546.47,
+    "text": "and Lar showed that when you have the these good uh approximate uh solutions"
+  },
+  {
+    "t_start": 546.47,
+    "t_end": 553.19,
+    "text": "these good uh approximate uh solutions you have enough compactness in uh in the"
+  },
+  {
+    "t_start": 553.19,
+    "t_end": 557.99,
+    "text": "obtain a weak solutions of of the equations. Okay. and then you can prove"
+  },
+  {
+    "t_start": 557.99,
+    "t_end": 561.829,
+    "text": "equations. Okay. and then you can prove some some uh partial regularity results"
+  },
+  {
+    "t_start": 561.829,
+    "t_end": 565.19,
+    "text": "some some uh partial regularity results for the for the solutions that also goes"
+  },
+  {
+    "t_start": 565.19,
+    "t_end": 571.03,
+    "text": "for the for the solutions that also goes uh back uh to uh to so what are the best"
+  },
+  {
+    "t_start": 571.03,
+    "t_end": 575.19,
+    "text": "uh back uh to uh to so what are the best solution solutions which we know uh uh"
+  },
+  {
+    "t_start": 575.19,
+    "t_end": 583.11,
+    "text": "as of now so let's say you start with smooth data say on a Taurus that's also"
+  },
+  {
+    "t_start": 583.11,
+    "t_end": 585.03,
+    "text": "smooth data say on a Taurus that's also one of the versions of the millennium"
+  },
+  {
+    "t_start": 585.03,
+    "t_end": 593.67,
+    "text": "one of the versions of the millennium problem And uh you have this sequence of"
+  },
+  {
+    "t_start": 593.67,
+    "t_end": 597.11,
+    "text": "approximate solutions uh u so for a certain time up to time say capital t"
+  },
+  {
+    "t_start": 597.11,
+    "t_end": 601.269,
+    "text": "certain time up to time say capital t here uh everything is nice uh the uh"
+  },
+  {
+    "t_start": 601.269,
+    "t_end": 604.47,
+    "text": "here uh everything is nice uh the uh approximate solutions converge to a"
+  },
+  {
+    "t_start": 604.47,
+    "t_end": 609.03,
+    "text": "smooth solutions you don't have to choose a subsequence any approximation"
+  },
+  {
+    "t_start": 609.03,
+    "t_end": 614.949,
+    "text": "will any decent approximation will converge to the solution so the equation"
+  },
+  {
+    "t_start": 614.949,
+    "t_end": 617.35,
+    "text": "converge to the solution so the equation is totally predictable in in that"
+  },
+  {
+    "t_start": 617.35,
+    "t_end": 620.87,
+    "text": "is totally predictable in in that interval. However, potentially we don't"
+  },
+  {
+    "t_start": 620.87,
+    "t_end": 624.79,
+    "text": "interval. However, potentially we don't know potentially you can form a"
+  },
+  {
+    "t_start": 624.79,
+    "t_end": 629.67,
+    "text": "after the singularity if you choose a subsequence."
+  },
+  {
+    "t_start": 629.67,
+    "t_end": 635.03,
+    "text": "You can also produce a continuation of this smooth solution. So we have another"
+  },
+  {
+    "t_start": 635.03,
+    "t_end": 637.509,
+    "text": "this smooth solution. So we have another interval time interval where a"
+  },
+  {
+    "t_start": 637.509,
+    "t_end": 642.47,
+    "text": "subsequence will converge to a smooth solution. But the issue is that somebody"
+  },
+  {
+    "t_start": 642.47,
+    "t_end": 644.55,
+    "text": "solution. But the issue is that somebody else comes choose a different sub"
+  },
+  {
+    "t_start": 644.55,
+    "t_end": 646.63,
+    "text": "else comes choose a different sub subsequence and after the singularity"
+  },
+  {
+    "t_start": 646.63,
+    "t_end": 650.63,
+    "text": "subsequence and after the singularity maybe that different subsequence will"
+  },
+  {
+    "t_start": 650.63,
+    "t_end": 653.43,
+    "text": "converge to a different solution. We don't know. So that's the that's the big"
+  },
+  {
+    "t_start": 653.43,
+    "t_end": 655.11,
+    "text": "don't know. So that's the that's the big problem."
+  },
+  {
+    "t_start": 655.11,
+    "t_end": 662.31,
+    "text": "So these solutions the the the best ones which are available uh sometimes I mean"
+  },
+  {
+    "t_start": 662.31,
+    "t_end": 664.15,
+    "text": "which are available uh sometimes I mean there is a much more technical"
+  },
+  {
+    "t_start": 664.15,
+    "t_end": 670.71,
+    "text": "description and my I'm a little bit uh imprecise here. There are for example"
+  },
+  {
+    "t_start": 670.71,
+    "t_end": 673.19,
+    "text": "imprecise here. There are for example differences about what you can prove uh"
+  },
+  {
+    "t_start": 673.19,
+    "t_end": 675.59,
+    "text": "differences about what you can prove uh for the LAR approximation and this for"
+  },
+  {
+    "t_start": 675.59,
+    "t_end": 677.99,
+    "text": "for the LAR approximation and this for approximation but let's not worry about"
+  },
+  {
+    "t_start": 677.99,
+    "t_end": 685.35,
+    "text": "these details now. So if you could uh if you could prove uniqueness for the larop"
+  },
+  {
+    "t_start": 685.35,
+    "t_end": 688.47,
+    "text": "you could prove uniqueness for the larop solutions that would clearly be the"
+  },
+  {
+    "t_start": 688.47,
+    "t_end": 696.87,
+    "text": "right notion you can compare it to the say fur series L2 theory obviously it's"
+  },
+  {
+    "t_start": 696.87,
+    "t_end": 698.79,
+    "text": "say fur series L2 theory obviously it's the right notion right it go we know"
+  },
+  {
+    "t_start": 698.79,
+    "t_end": 701.43,
+    "text": "the right notion right it go we know it's easy to show FIA series converges"
+  },
+  {
+    "t_start": 701.43,
+    "t_end": 707.67,
+    "text": "it's easy to show FIA series converges in L2 uh if you want to prove pointwise"
+  },
+  {
+    "t_start": 707.67,
+    "t_end": 713.35,
+    "text": "much more difficult right so you If you had uniqueness for a LAR hop solutions,"
+  },
+  {
+    "t_start": 713.35,
+    "t_end": 714.949,
+    "text": "had uniqueness for a LAR hop solutions, maybe you could say we have the right"
+  },
+  {
+    "t_start": 714.949,
+    "t_end": 717.19,
+    "text": "maybe you could say we have the right object. The LAR theory is relatively"
+  },
+  {
+    "t_start": 717.19,
+    "t_end": 719.269,
+    "text": "object. The LAR theory is relatively simple. Okay, you have it's quite"
+  },
+  {
+    "t_start": 719.269,
+    "t_end": 724.87,
+    "text": "simple. Okay, you have it's quite regular. So, we have the right object."
+  },
+  {
+    "t_start": 724.87,
+    "t_end": 731.35,
+    "text": "Uh and regularity, okay, it's an interesting issue, but somewhat uh uh uh"
+  },
+  {
+    "t_start": 731.35,
+    "t_end": 738.87,
+    "text": "interesting issue, but somewhat uh uh uh somewhat similar to the pointwise uh"
+  },
+  {
+    "t_start": 738.87,
+    "t_end": 745.35,
+    "text": "convergence for for FIA series. So that that would be the case if we had"
+  },
+  {
+    "t_start": 745.35,
+    "t_end": 751.829,
+    "text": "I should say that uh that you can you can prove this in dimension two. So in"
+  },
+  {
+    "t_start": 751.829,
+    "t_end": 755.67,
+    "text": "can prove this in dimension two. So in dimension two you can prove laop"
+  },
+  {
+    "t_start": 755.67,
+    "t_end": 757.67,
+    "text": "solutions are unique. If you work a little more you can prove that larop"
+  },
+  {
+    "t_start": 757.67,
+    "t_end": 760.23,
+    "text": "little more you can prove that larop solutions are fully regular. So"
+  },
+  {
+    "t_start": 760.23,
+    "t_end": 762.71,
+    "text": "solutions are fully regular. So everything works uh perfectly in"
+  },
+  {
+    "t_start": 762.71,
+    "t_end": 765.269,
+    "text": "everything works uh perfectly in dimension two."
+  },
+  {
+    "t_start": 765.269,
+    "t_end": 771.43,
+    "text": "Why is dimension three harder than uh dimension uh dimension two? What's the"
+  },
+  {
+    "t_start": 771.43,
+    "t_end": 773.11,
+    "text": "dimension uh dimension two? What's the difference?"
+  },
+  {
+    "t_start": 773.11,
+    "t_end": 782.79,
+    "text": "Okay. So when you when you do uh the estimates you use or the theory you use"
+  },
+  {
+    "t_start": 782.79,
+    "t_end": 786.23,
+    "text": "estimates you use or the theory you use essentially three ingredients. So one is"
+  },
+  {
+    "t_start": 786.23,
+    "t_end": 788.79,
+    "text": "essentially three ingredients. So one is the linear estimate"
+  },
+  {
+    "t_start": 788.79,
+    "t_end": 796.31,
+    "text": "and bootstrapping which essentially with some license to be imprecise tells you"
+  },
+  {
+    "t_start": 796.31,
+    "t_end": 799.19,
+    "text": "some license to be imprecise tells you that if the solution is of order one"
+  },
+  {
+    "t_start": 799.19,
+    "t_end": 803.59,
+    "text": "then the derivatives are also of order one modulus some constant. So this is a"
+  },
+  {
+    "t_start": 803.59,
+    "t_end": 806.069,
+    "text": "one modulus some constant. So this is a more precise estimate still probably not"
+  },
+  {
+    "t_start": 806.069,
+    "t_end": 808.949,
+    "text": "more precise estimate still probably not quite true but morally something like"
+  },
+  {
+    "t_start": 808.949,
+    "t_end": 815.19,
+    "text": "that should be true. Okay then you have the then you have the energy inequality."
+  },
+  {
+    "t_start": 815.19,
+    "t_end": 821.19,
+    "text": "the then you have the energy inequality. Okay. And then you have the scaling"
+  },
+  {
+    "t_start": 821.19,
+    "t_end": 823.43,
+    "text": "symmetry. If u is a solution then for any lambda positive this is again a"
+  },
+  {
+    "t_start": 823.43,
+    "t_end": 831.11,
+    "text": "solution. So now assume you have uh a blow up so that by one the l infinity"
+  },
+  {
+    "t_start": 831.11,
+    "t_end": 833.67,
+    "text": "blow up so that by one the l infinity norm of u has to go to infinity as you"
+  },
+  {
+    "t_start": 833.67,
+    "t_end": 836.23,
+    "text": "norm of u has to go to infinity as you approach the blowup time. So we we take"
+  },
+  {
+    "t_start": 836.23,
+    "t_end": 841.11,
+    "text": "approach the blowup time. So we we take some large modulus m and look at the"
+  },
+  {
+    "t_start": 841.11,
+    "t_end": 843.75,
+    "text": "first time we uh we achieve that modulus. look at what is happening in"
+  },
+  {
+    "t_start": 843.75,
+    "t_end": 848.069,
+    "text": "modulus. look at what is happening in space at that time. So we have a peak in"
+  },
+  {
+    "t_start": 848.069,
+    "t_end": 854.55,
+    "text": "velocity field of height m and if you use uh the bootstrapping and scaling you"
+  },
+  {
+    "t_start": 854.55,
+    "t_end": 860.79,
+    "text": "use uh the bootstrapping and scaling you conclude that the peak has to be at"
+  },
+  {
+    "t_start": 860.79,
+    "t_end": 863.189,
+    "text": "least new over m wide. Okay, it's clear that it that it cannot be arbitrarily"
+  },
+  {
+    "t_start": 863.189,
+    "t_end": 864.949,
+    "text": "that it that it cannot be arbitrarily thin because then the viscosity would"
+  },
+  {
+    "t_start": 864.949,
+    "t_end": 872.389,
+    "text": "question is how how thick it has to be. And uh one way to see that this is the"
+  },
+  {
+    "t_start": 872.389,
+    "t_end": 877.189,
+    "text": "right number that this is uh the only kind of dimensionally consistent length"
+  },
+  {
+    "t_start": 877.189,
+    "t_end": 879.269,
+    "text": "kind of dimensionally consistent length you can get from the uh from the"
+  },
+  {
+    "t_start": 879.269,
+    "t_end": 883.67,
+    "text": "parameters which we had and you can also check it by going through the estimate."
+  },
+  {
+    "t_start": 883.67,
+    "t_end": 885.59,
+    "text": "check it by going through the estimate. So now you have this peak you look at"
+  },
+  {
+    "t_start": 885.59,
+    "t_end": 893.11,
+    "text": "how much energy you have in the peak. So in dimension two so energy u ^2 right m"
+  },
+  {
+    "t_start": 893.11,
+    "t_end": 896.069,
+    "text": "in dimension two so energy u ^2 right m times the volume of the peak. So if d is"
+  },
+  {
+    "t_start": 896.069,
+    "t_end": 898.47,
+    "text": "times the volume of the peak. So if d is two you have m squ it it cancels with m"
+  },
+  {
+    "t_start": 898.47,
+    "t_end": 906.389,
+    "text": "two you have m squ it it cancels with m squ you have some fixed number. So you"
+  },
+  {
+    "t_start": 906.389,
+    "t_end": 908.949,
+    "text": "will have fixed amount of energy in arbitrarily small balls because the"
+  },
+  {
+    "t_start": 908.949,
+    "t_end": 913.35,
+    "text": "radius of the ball is 1 / m roughly speaking and m goes to infinity. So you"
+  },
+  {
+    "t_start": 913.35,
+    "t_end": 915.03,
+    "text": "speaking and m goes to infinity. So you have in two dimensions if you had blow"
+  },
+  {
+    "t_start": 915.03,
+    "t_end": 917.43,
+    "text": "have in two dimensions if you had blow up you would be concentrating energy in"
+  },
+  {
+    "t_start": 917.43,
+    "t_end": 919.67,
+    "text": "up you would be concentrating energy in arbitrary small ball. Not quite a"
+  },
+  {
+    "t_start": 919.67,
+    "t_end": 922.71,
+    "text": "arbitrary small ball. Not quite a contradiction but almost right. And if"
+  },
+  {
+    "t_start": 922.71,
+    "t_end": 926.79,
+    "text": "contradiction but almost right. And if you if you uh push further some uh"
+  },
+  {
+    "t_start": 926.79,
+    "t_end": 930.47,
+    "text": "you if you uh push further some uh embeddings uh and so life inequalities"
+  },
+  {
+    "t_start": 930.47,
+    "t_end": 932.23,
+    "text": "embeddings uh and so life inequalities you can bring it to a contradiction."
+  },
+  {
+    "t_start": 932.23,
+    "t_end": 936.15,
+    "text": "you can bring it to a contradiction. Okay, that's one way to see it. You see"
+  },
+  {
+    "t_start": 936.15,
+    "t_end": 938.069,
+    "text": "in dimension three there is a huge difference because here we have two you"
+  },
+  {
+    "t_start": 938.069,
+    "t_end": 942.629,
+    "text": "difference because here we have two you have three you get something divided by"
+  },
+  {
+    "t_start": 942.629,
+    "t_end": 949.91,
+    "text": "peak goes to zero. So the viscosity and the existence of uh singularity doesn't"
+  },
+  {
+    "t_start": 949.91,
+    "t_end": 952.71,
+    "text": "the existence of uh singularity doesn't give you an easy contradiction."
+  },
+  {
+    "t_start": 952.71,
+    "t_end": 955.67,
+    "text": "give you an easy contradiction. So there people have uh people have uh"
+  },
+  {
+    "t_start": 955.67,
+    "t_end": 960.15,
+    "text": "So there people have uh people have uh thought about this. Okay, what you can"
+  },
+  {
+    "t_start": 960.15,
+    "t_end": 962.15,
+    "text": "prove what you cannot prove by this energy estimates"
+  },
+  {
+    "t_start": 962.15,
+    "t_end": 967.43,
+    "text": "energy estimates and uh a nice model is due to territo"
+  },
+  {
+    "t_start": 967.43,
+    "t_end": 970.31,
+    "text": "and uh a nice model is due to territo called averaged Navier Stokes equation."
+  },
+  {
+    "t_start": 970.31,
+    "t_end": 974.87,
+    "text": "called averaged Navier Stokes equation. So this uh nonlinear term resembles uh"
+  },
+  {
+    "t_start": 974.87,
+    "t_end": 980.71,
+    "text": "the uh resembles the Navier Stokes term in that it is quadratic and has the same"
+  },
+  {
+    "t_start": 980.71,
+    "t_end": 983.509,
+    "text": "in that it is quadratic and has the same strength in the in the in terms of"
+  },
+  {
+    "t_start": 983.509,
+    "t_end": 988.629,
+    "text": "derivatives as as what you have in Navier Stokes and in fact is obtained"
+  },
+  {
+    "t_start": 988.629,
+    "t_end": 994.87,
+    "text": "from Navier Stokes by some uh benign operation like shift scaling or some FA"
+  },
+  {
+    "t_start": 994.87,
+    "t_end": 998.15,
+    "text": "operation like shift scaling or some FA multipliers and and stuff like that. And"
+  },
+  {
+    "t_start": 998.15,
+    "t_end": 1000.79,
+    "text": "multipliers and and stuff like that. And uh this equation as uh as was proved by"
+  },
+  {
+    "t_start": 1000.79,
+    "t_end": 1006.069,
+    "text": "uh this equation as uh as was proved by teraus blows up uh in dimension 3."
+  },
+  {
+    "t_start": 1006.069,
+    "t_end": 1011.749,
+    "text": "I put here another example which is uh so so uh this model is not really a PTE"
+  },
+  {
+    "t_start": 1011.749,
+    "t_end": 1014.87,
+    "text": "so so uh this model is not really a PTE it's a non-local equation."
+  },
+  {
+    "t_start": 1014.87,
+    "t_end": 1020.47,
+    "text": "This is a pure PTE. It should be simple. U is a vector field. No divergence free"
+  },
+  {
+    "t_start": 1020.47,
+    "t_end": 1022.47,
+    "text": "U is a vector field. No divergence free condition. You have an equation like"
+  },
+  {
+    "t_start": 1022.47,
+    "t_end": 1026.949,
+    "text": "that. Again you have the energy estimate and all the other properties which we"
+  },
+  {
+    "t_start": 1026.949,
+    "t_end": 1030.23,
+    "text": "and all the other properties which we have what is known about regularity of"
+  },
+  {
+    "t_start": 1030.23,
+    "t_end": 1032.15,
+    "text": "have what is known about regularity of this one as far as I know okay it's"
+  },
+  {
+    "t_start": 1032.15,
+    "t_end": 1034.71,
+    "text": "this one as far as I know okay it's regular in dimension two as before the"
+  },
+  {
+    "t_start": 1034.71,
+    "t_end": 1036.39,
+    "text": "regular in dimension two as before the same proof"
+  },
+  {
+    "t_start": 1036.39,
+    "t_end": 1041.51,
+    "text": "but in dimension higher than five you can prove it blows up uh in f from"
+  },
+  {
+    "t_start": 1041.51,
+    "t_end": 1044.87,
+    "text": "can prove it blows up uh in f from smooth data and uh not we don't know at"
+  },
+  {
+    "t_start": 1044.87,
+    "t_end": 1046.949,
+    "text": "smooth data and uh not we don't know at that about navier stocks we don't know"
+  },
+  {
+    "t_start": 1046.949,
+    "t_end": 1050.47,
+    "text": "that about navier stocks we don't know blow up of navier stocks in any"
+  },
+  {
+    "t_start": 1050.47,
+    "t_end": 1054.87,
+    "text": "but in dimension three and four we don't know this"
+  },
+  {
+    "t_start": 1054.87,
+    "t_end": 1059.75,
+    "text": "uh probably much simpler equation than Navier Stokes. We still don't know in"
+  },
+  {
+    "t_start": 1059.75,
+    "t_end": 1062.95,
+    "text": "Navier Stokes. We still don't know in dimension uh in dimension uh three and"
+  },
+  {
+    "t_start": 1062.95,
+    "t_end": 1064.95,
+    "text": "dimension uh in dimension uh three and four."
+  },
+  {
+    "t_start": 1064.95,
+    "t_end": 1069.029,
+    "text": "Very interesting case is the fivedimensional steady state because"
+  },
+  {
+    "t_start": 1069.029,
+    "t_end": 1073.43,
+    "text": "fivedimensional steady state because that illustrates what uh what can happen"
+  },
+  {
+    "t_start": 1073.43,
+    "t_end": 1079.19,
+    "text": "So fivedimensional steady state uh you are in five dimensions. So the energy"
+  },
+  {
+    "t_start": 1079.19,
+    "t_end": 1081.59,
+    "text": "are in five dimensions. So the energy inequality is weaker than in dimension"
+  },
+  {
+    "t_start": 1081.59,
+    "t_end": 1089.35,
+    "text": "three. You try to uh give uh an argument based on the energy inequality. You find"
+  },
+  {
+    "t_start": 1089.35,
+    "t_end": 1091.43,
+    "text": "based on the energy inequality. You find there's no contradiction. So if you only"
+  },
+  {
+    "t_start": 1091.43,
+    "t_end": 1093.59,
+    "text": "there's no contradiction. So if you only use energy inequality, you cannot prove"
+  },
+  {
+    "t_start": 1093.59,
+    "t_end": 1097.11,
+    "text": "use energy inequality, you cannot prove regularity uh in this case. However,"
+  },
+  {
+    "t_start": 1097.11,
+    "t_end": 1102.31,
+    "text": "there is a hidden structure in for this one which is not obvious. Namely this"
+  },
+  {
+    "t_start": 1102.31,
+    "t_end": 1109.11,
+    "text": "quantity u ^2 over 2 + p it satisfies a maximum principle and you can leverage"
+  },
+  {
+    "t_start": 1109.11,
+    "t_end": 1112.95,
+    "text": "maximum principle and you can leverage that to scale invariant estimates to get"
+  },
+  {
+    "t_start": 1112.95,
+    "t_end": 1115.27,
+    "text": "that to scale invariant estimates to get full regularity. So existence of"
+  },
+  {
+    "t_start": 1115.27,
+    "t_end": 1122.87,
+    "text": "solutions with full regularity at least away from the boundary. So this was done"
+  },
+  {
+    "t_start": 1122.87,
+    "t_end": 1126.39,
+    "text": "in the 90s by in important works of Fresza and Rjichka and it also has"
+  },
+  {
+    "t_start": 1126.39,
+    "t_end": 1128.63,
+    "text": "Fresza and Rjichka and it also has relevance for the 3D Navier Stokes"
+  },
+  {
+    "t_start": 1128.63,
+    "t_end": 1131.83,
+    "text": "relevance for the 3D Navier Stokes equation because you can use uh their"
+  },
+  {
+    "t_start": 1131.83,
+    "t_end": 1134.47,
+    "text": "equation because you can use uh their idea to rule out self similar"
+  },
+  {
+    "t_start": 1134.47,
+    "t_end": 1138.15,
+    "text": "idea to rule out self similar singularities for Navier Stokes. So Lar"
+  },
+  {
+    "t_start": 1138.15,
+    "t_end": 1139.909,
+    "text": "singularities for Navier Stokes. So Lar tried to prove self similar"
+  },
+  {
+    "t_start": 1139.909,
+    "t_end": 1142.63,
+    "text": "tried to prove self similar singularities. Lar believed in uh in"
+  },
+  {
+    "t_start": 1142.63,
+    "t_end": 1148.07,
+    "text": "blow-ups and he tried to prove existence of self- similar singularities but you"
+  },
+  {
+    "t_start": 1148.07,
+    "t_end": 1154.47,
+    "text": "of self- similar singularities but you can rule them out based uh on this idea"
+  },
+  {
+    "t_start": 1154.47,
+    "t_end": 1159.669,
+    "text": "adapted to the axis symmetrical. I put out one more equation here just to show"
+  },
+  {
+    "t_start": 1159.669,
+    "t_end": 1161.83,
+    "text": "out one more equation here just to show that uh there is a lot of things we we"
+  },
+  {
+    "t_start": 1161.83,
+    "t_end": 1165.27,
+    "text": "that uh there is a lot of things we we don't know. Uh this is a 1D model"
+  },
+  {
+    "t_start": 1165.27,
+    "t_end": 1168.15,
+    "text": "don't know. Uh this is a 1D model equation. It's in one dimension"
+  },
+  {
+    "t_start": 1168.15,
+    "t_end": 1173.83,
+    "text": "fourth order uh and it has the same properties as Navier Stokes. Okay."
+  },
+  {
+    "t_start": 1173.83,
+    "t_end": 1181.75,
+    "text": "Energy estimate scaling if you uh adjust it uh uh correctly. We can prove again"
+  },
+  {
+    "t_start": 1181.75,
+    "t_end": 1184.71,
+    "text": "it uh uh correctly. We can prove again partial regularity results for this the"
+  },
+  {
+    "t_start": 1184.71,
+    "t_end": 1187.27,
+    "text": "partial regularity results for this the same existence of LAROP solutions and so"
+  },
+  {
+    "t_start": 1187.27,
+    "t_end": 1193.75,
+    "text": "same existence of LAROP solutions and so on. But it is unknown even for this uh"
+  },
+  {
+    "t_start": 1193.75,
+    "t_end": 1198.39,
+    "text": "one-dimensional problem uh whether the equations uh are regular."
+  },
+  {
+    "t_start": 1198.39,
+    "t_end": 1207.35,
+    "text": "So other another natural question for Nav Stokes equation is uh is this one."
+  },
+  {
+    "t_start": 1207.35,
+    "t_end": 1211.27,
+    "text": "Nav Stokes equation is uh is this one. So we know how to do weak solutions."
+  },
+  {
+    "t_start": 1211.27,
+    "t_end": 1213.59,
+    "text": "So we know how to do weak solutions. Okay, we can always produce weak"
+  },
+  {
+    "t_start": 1213.59,
+    "t_end": 1215.11,
+    "text": "Okay, we can always produce weak solutions."
+  },
+  {
+    "t_start": 1215.11,
+    "t_end": 1220.39,
+    "text": "And if you have a parabolic equation or an elliptic equation, it's a good"
+  },
+  {
+    "t_start": 1220.39,
+    "t_end": 1222.87,
+    "text": "an elliptic equation, it's a good question whether all weak whether all"
+  },
+  {
+    "t_start": 1222.87,
+    "t_end": 1229.029,
+    "text": "question whether all weak whether all weak solutions are smooth. Right? So for"
+  },
+  {
+    "t_start": 1229.029,
+    "t_end": 1235.75,
+    "text": "system, linear Stoke system, you have the a version of the wild lema that any"
+  },
+  {
+    "t_start": 1235.75,
+    "t_end": 1243.83,
+    "text": "smooth. Is it true for Navier Stokes? So surprisingly this was open until 2017"
+  },
+  {
+    "t_start": 1243.83,
+    "t_end": 1247.35,
+    "text": "surprisingly this was open until 2017 when uh uh uh Tristan Buckmaster and"
+  },
+  {
+    "t_start": 1247.35,
+    "t_end": 1251.27,
+    "text": "when uh uh uh Tristan Buckmaster and Vlad Viko constructed a counter example"
+  },
+  {
+    "t_start": 1251.27,
+    "t_end": 1256.07,
+    "text": "Vlad Viko constructed a counter example by using uh uh the method of convex"
+  },
+  {
+    "t_start": 1256.07,
+    "t_end": 1259.029,
+    "text": "by using uh uh the method of convex integration which was brought to to this"
+  },
+  {
+    "t_start": 1259.029,
+    "t_end": 1261.43,
+    "text": "integration which was brought to to this fluid equation by Camilo Deellis and"
+  },
+  {
+    "t_start": 1261.43,
+    "t_end": 1263.83,
+    "text": "fluid equation by Camilo Deellis and Lazlo sheahidi"
+  },
+  {
+    "t_start": 1263.83,
+    "t_end": 1269.51,
+    "text": "and uh it's worth quoting from uh Groff's uh introduction."
+  },
+  {
+    "t_start": 1269.51,
+    "t_end": 1274.47,
+    "text": "So he he writes there are systems of partial differential equations which"
+  },
+  {
+    "t_start": 1274.47,
+    "t_end": 1280.47,
+    "text": "have amazingly little visible effect on the functions solving the equation. To"
+  },
+  {
+    "t_start": 1280.47,
+    "t_end": 1286.31,
+    "text": "put it in another way, the solutions of such a system seem nearly unrestricted"
+  },
+  {
+    "t_start": 1286.31,
+    "t_end": 1294.23,
+    "text": "such a system seem nearly unrestricted by the equation they obey. So this is"
+  },
+  {
+    "t_start": 1296.87,
+    "t_end": 1298.149,
+    "text": "you can only you can only see that if you know how to construct these"
+  },
+  {
+    "t_start": 1298.149,
+    "t_end": 1300.95,
+    "text": "you know how to construct these solutions, right? It's a very difficult"
+  },
+  {
+    "t_start": 1300.95,
+    "t_end": 1304.31,
+    "text": "solutions, right? It's a very difficult to for example, the first example of"
+  },
+  {
+    "t_start": 1304.31,
+    "t_end": 1309.83,
+    "text": "to for example, the first example of this was uh in in the in the in the"
+  },
+  {
+    "t_start": 1309.83,
+    "t_end": 1317.35,
+    "text": "context of uh isometric embeddings and uh you would think that C1 isometric"
+  },
+  {
+    "t_start": 1317.35,
+    "t_end": 1319.909,
+    "text": "and uh you would think that C1 isometric embeddings are rigid. It's known that C2"
+  },
+  {
+    "t_start": 1319.909,
+    "t_end": 1324.07,
+    "text": "embeddings are rigid. It's known that C2 embeddings are rigid and if you didn't"
+  },
+  {
+    "t_start": 1324.07,
+    "t_end": 1328.71,
+    "text": "didn't know anything about the problem I would probably predict that C1 will also"
+  },
+  {
+    "t_start": 1328.71,
+    "t_end": 1330.47,
+    "text": "would probably predict that C1 will also be rigid. It's just kind of a matter of"
+  },
+  {
+    "t_start": 1330.47,
+    "t_end": 1332.95,
+    "text": "be rigid. It's just kind of a matter of technical only when you see these"
+  },
+  {
+    "t_start": 1332.95,
+    "t_end": 1334.63,
+    "text": "technical only when you see these construction you realize they are not"
+  },
+  {
+    "t_start": 1334.63,
+    "t_end": 1339.99,
+    "text": "rigid. So the and it's so it's far from obvious and something like that is true"
+  },
+  {
+    "t_start": 1339.99,
+    "t_end": 1342.47,
+    "text": "obvious and something like that is true for Navier Stokes. So once you know how"
+  },
+  {
+    "t_start": 1342.47,
+    "t_end": 1346.549,
+    "text": "for Navier Stokes. So once you know how to do it you can see that Gromoff is"
+  },
+  {
+    "t_start": 1346.549,
+    "t_end": 1351.669,
+    "text": "right. Right. But it's it's hard to construct these uh these solutions."
+  },
+  {
+    "t_start": 1355.27,
+    "t_end": 1363.669,
+    "text": "LAROP uh uniqueness of the LAROP solution. Unfortunately the answer there"
+  },
+  {
+    "t_start": 1363.669,
+    "t_end": 1370.789,
+    "text": "is also negative. So this was done uh uh with uh when we have the right hand side"
+  },
+  {
+    "t_start": 1370.789,
+    "t_end": 1373.59,
+    "text": "with uh when we have the right hand side in 20 2021"
+  },
+  {
+    "t_start": 1373.59,
+    "t_end": 1378.95,
+    "text": "in 20 2021 uh uh by this team and uh uh that this"
+  },
+  {
+    "t_start": 1378.95,
+    "t_end": 1384.87,
+    "text": "uh uh by this team and uh uh that this is a paper and pence uh paper and pencil"
+  },
+  {
+    "t_start": 1384.87,
+    "t_end": 1393.35,
+    "text": "uh then uh yesterday we had a talk in the in the uh PTE section where Tom"
+  },
+  {
+    "t_start": 1393.35,
+    "t_end": 1395.99,
+    "text": "the in the uh PTE section where Tom presented a computer assisted proof"
+  },
+  {
+    "t_start": 1395.99,
+    "t_end": 1405.35,
+    "text": "without the uh forcing. So the answer is no. Also uh if you if you don't have uh"
+  },
+  {
+    "t_start": 1405.35,
+    "t_end": 1408.07,
+    "text": "no. Also uh if you if you don't have uh don't have any closing using some"
+  },
+  {
+    "t_start": 1408.07,
+    "t_end": 1412.07,
+    "text": "don't have any closing using some earlier ideas on the on the subject and"
+  },
+  {
+    "t_start": 1412.07,
+    "t_end": 1420.549,
+    "text": "uh this the non-uniqueness looks kind of unfixable in the sense that you have uh"
+  },
+  {
+    "t_start": 1420.549,
+    "t_end": 1423.19,
+    "text": "unfixable in the sense that you have uh that you have sequences of smooth"
+  },
+  {
+    "t_start": 1423.19,
+    "t_end": 1426.23,
+    "text": "that you have sequences of smooth solutions which converge for any"
+  },
+  {
+    "t_start": 1426.23,
+    "t_end": 1432.23,
+    "text": "positive time in smooth norm to your solutions u and V the initial data"
+  },
+  {
+    "t_start": 1432.23,
+    "t_end": 1434.63,
+    "text": "solutions u and V the initial data converge in L2 and in fact slightly"
+  },
+  {
+    "t_start": 1434.63,
+    "t_end": 1437.11,
+    "text": "converge in L2 and in fact slightly better but you have essentially this"
+  },
+  {
+    "t_start": 1437.11,
+    "t_end": 1439.029,
+    "text": "better but you have essentially this picture right from the beginning the"
+  },
+  {
+    "t_start": 1439.029,
+    "t_end": 1447.43,
+    "text": "solution separate and one way to think about it is that in the in the uh energy"
+  },
+  {
+    "t_start": 1447.43,
+    "t_end": 1452.149,
+    "text": "about it is that in the in the uh energy space if you think about the energy"
+  },
+  {
+    "t_start": 1452.149,
+    "t_end": 1454.789,
+    "text": "space you simply cannot extend the solution operator from smooth functions"
+  },
+  {
+    "t_start": 1454.789,
+    "t_end": 1459.909,
+    "text": "solution operator from smooth functions to the energy space in three dimensions"
+  },
+  {
+    "t_start": 1459.909,
+    "t_end": 1466.07,
+    "text": "you can extend to L2 but not in dimension three. Uh and in dimension two"
+  },
+  {
+    "t_start": 1466.07,
+    "t_end": 1470.789,
+    "text": "dimension three. Uh and in dimension two there is a there is a uh kind of uh"
+  },
+  {
+    "t_start": 1470.789,
+    "t_end": 1477.51,
+    "text": "trace of that if you try to extend the solution operator to L2 minus epsilon"
+  },
+  {
+    "t_start": 1477.51,
+    "t_end": 1483.51,
+    "text": "you cannot do it. Okay. So L2 is right uh uh at the at the edge where you can"
+  },
+  {
+    "t_start": 1483.51,
+    "t_end": 1488.95,
+    "text": "uh uh at the at the edge where you can extend the operator in a continuous way."
+  },
+  {
+    "t_start": 1488.95,
+    "t_end": 1493.19,
+    "text": "extend the operator in a continuous way. There is another paper and pencil proof"
+  },
+  {
+    "t_start": 1493.19,
+    "t_end": 1496.47,
+    "text": "There is another paper and pencil proof uh of this non-uniqueness effect in a"
+  },
+  {
+    "t_start": 1496.47,
+    "t_end": 1501.43,
+    "text": "uh of this non-uniqueness effect in a slightly different setting. Uh so you"
+  },
+  {
+    "t_start": 1501.43,
+    "t_end": 1506.789,
+    "text": "slightly different setting. Uh so you can other than using the the uh LAR"
+  },
+  {
+    "t_start": 1506.789,
+    "t_end": 1512.149,
+    "text": "method you can try to prove the existence of the Navier Stokes equation"
+  },
+  {
+    "t_start": 1512.149,
+    "t_end": 1517.35,
+    "text": "existence of the Navier Stokes equation by Picard's iteration just the usual way"
+  },
+  {
+    "t_start": 1517.35,
+    "t_end": 1520.71,
+    "text": "we we do ODE. So you invert the linear operator, write the equation as a as a"
+  },
+  {
+    "t_start": 1520.71,
+    "t_end": 1522.71,
+    "text": "operator, write the equation as a as a put the nonlinearity on the right hand"
+  },
+  {
+    "t_start": 1522.71,
+    "t_end": 1528.71,
+    "text": "put the nonlinearity on the right hand side, write the equation as a fixed"
+  },
+  {
+    "t_start": 1528.71,
+    "t_end": 1530.87,
+    "text": "point theorem uh and try to find the right spaces."
+  },
+  {
+    "t_start": 1530.87,
+    "t_end": 1535.909,
+    "text": "right spaces. So th this goes back to Ozin in in 1910"
+  },
+  {
+    "t_start": 1535.909,
+    "t_end": 1541.19,
+    "text": "So th this goes back to Ozin in in 1910 and uh in 1980s Kato uh proved that this"
+  },
+  {
+    "t_start": 1541.19,
+    "t_end": 1544.149,
+    "text": "and uh in 1980s Kato uh proved that this works uh for the LP space for initial"
+  },
+  {
+    "t_start": 1544.149,
+    "t_end": 1549.35,
+    "text": "data LD that's the optimal space scale invariant space. So you see in dimension"
+  },
+  {
+    "t_start": 1549.35,
+    "t_end": 1552.07,
+    "text": "invariant space. So you see in dimension two there is a good match L2 energy"
+  },
+  {
+    "t_start": 1552.07,
+    "t_end": 1555.11,
+    "text": "two there is a good match L2 energy space and R2 in dimension three you"
+  },
+  {
+    "t_start": 1555.11,
+    "t_end": 1559.11,
+    "text": "space and R2 in dimension three you would need for this L3 which you don't"
+  },
+  {
+    "t_start": 1559.11,
+    "t_end": 1561.99,
+    "text": "have. However, if you do have L3 estimates, you can proofregulate."
+  },
+  {
+    "t_start": 1561.99,
+    "t_end": 1569.59,
+    "text": "Now, the best space where you can push this method was uh uh uh determined by"
+  },
+  {
+    "t_start": 1569.59,
+    "t_end": 1576.149,
+    "text": "this method was uh uh uh determined by Cohen Tataru in uh in 2002 is the space"
+  },
+  {
+    "t_start": 1576.149,
+    "t_end": 1579.83,
+    "text": "minus one. It contains for example derivatives of bounded functions. And so"
+  },
+  {
+    "t_start": 1579.83,
+    "t_end": 1582.23,
+    "text": "derivatives of bounded functions. And so if you use picard's iteration in this"
+  },
+  {
+    "t_start": 1582.23,
+    "t_end": 1584.87,
+    "text": "if you use picard's iteration in this space using their estimates you can show"
+  },
+  {
+    "t_start": 1584.87,
+    "t_end": 1587.19,
+    "text": "space using their estimates you can show that there is global existence for small"
+  },
+  {
+    "t_start": 1587.19,
+    "t_end": 1591.75,
+    "text": "that there is global existence for small data uh in this space and uh kullesco"
+  },
+  {
+    "t_start": 1591.75,
+    "t_end": 1594.789,
+    "text": "data uh in this space and uh kullesco and palask very recently showed that the"
+  },
+  {
+    "t_start": 1594.789,
+    "t_end": 1597.75,
+    "text": "and palask very recently showed that the smallness is essential that if you don't"
+  },
+  {
+    "t_start": 1597.75,
+    "t_end": 1601.909,
+    "text": "smallness is essential that if you don't have if you are above a certain"
+  },
+  {
+    "t_start": 1601.909,
+    "t_end": 1606.39,
+    "text": "same picture that you have two solutions which separate right from the beginning"
+  },
+  {
+    "t_start": 1606.39,
+    "t_end": 1610.31,
+    "text": "which separate right from the beginning in this space. So that's another uh"
+  },
+  {
+    "t_start": 1610.31,
+    "t_end": 1612.789,
+    "text": "in this space. So that's another uh another kind of indication that you"
+  },
+  {
+    "t_start": 1612.789,
+    "t_end": 1616.39,
+    "text": "another kind of indication that you cannot uh it's not possible to extend"
+  },
+  {
+    "t_start": 1616.39,
+    "t_end": 1619.59,
+    "text": "cannot uh it's not possible to extend these solutions operator to to broader"
+  },
+  {
+    "t_start": 1619.59,
+    "t_end": 1624.31,
+    "text": "these solutions operator to to broader scheme than what is already contained in"
+  },
+  {
+    "t_start": 1624.31,
+    "t_end": 1630.47,
+    "text": "So these were kind of uh I would say disappointing news. You you can the"
+  },
+  {
+    "t_start": 1630.47,
+    "t_end": 1636.31,
+    "text": "disappointing news. You you can the equation does not uh uh give you uh any"
+  },
+  {
+    "t_start": 1636.31,
+    "t_end": 1642.549,
+    "text": "equation does not uh uh give you uh any relief so to speak. So what uh what are"
+  },
+  {
+    "t_start": 1642.549,
+    "t_end": 1645.19,
+    "text": "the what are the possibility possibilities for good news?"
+  },
+  {
+    "t_start": 1645.19,
+    "t_end": 1646.71,
+    "text": "possibilities for good news? So"
+  },
+  {
+    "t_start": 1646.71,
+    "t_end": 1654.71,
+    "text": "one possibility is the that of okay maybe we have singularities maybe we"
+  },
+  {
+    "t_start": 1654.71,
+    "t_end": 1660.39,
+    "text": "even have non-uniqueness but it is non- generic. Okay, so we know such examples"
+  },
+  {
+    "t_start": 1660.39,
+    "t_end": 1662.31,
+    "text": "generic. Okay, so we know such examples for example from minimal surfaces. We"
+  },
+  {
+    "t_start": 1662.31,
+    "t_end": 1664.95,
+    "text": "for example from minimal surfaces. We know that zero sets of polomials of"
+  },
+  {
+    "t_start": 1664.95,
+    "t_end": 1667.83,
+    "text": "know that zero sets of polomials of complex polomials are minimal surfaces."
+  },
+  {
+    "t_start": 1667.83,
+    "t_end": 1673.029,
+    "text": "complex polomials are minimal surfaces. They can have uh complex singularities"
+  },
+  {
+    "t_start": 1673.029,
+    "t_end": 1675.51,
+    "text": "but it's non-generic right if you slightly perturb the coefficients of the"
+  },
+  {
+    "t_start": 1675.51,
+    "t_end": 1680.149,
+    "text": "slightly perturb the coefficients of the polomial the singularity goes away. So"
+  },
+  {
+    "t_start": 1680.149,
+    "t_end": 1685.43,
+    "text": "situation to to have singularity some equation has to be satisfied or so for"
+  },
+  {
+    "t_start": 1685.43,
+    "t_end": 1688.149,
+    "text": "equation has to be satisfied or so for the uh for the mean curvature equation"
+  },
+  {
+    "t_start": 1688.149,
+    "t_end": 1692.47,
+    "text": "for the evolution equation also you can have many singularities many of similar"
+  },
+  {
+    "t_start": 1692.47,
+    "t_end": 1698.389,
+    "text": "singularities and so on but only very few are stable most of them are unstable"
+  },
+  {
+    "t_start": 1698.389,
+    "t_end": 1701.51,
+    "text": "few are stable most of them are unstable there is a great program by calling and"
+  },
+  {
+    "t_start": 1701.51,
+    "t_end": 1704.07,
+    "text": "there is a great program by calling and minikosi to study that and there are"
+  },
+  {
+    "t_start": 1704.07,
+    "t_end": 1707.51,
+    "text": "minikosi to study that and there are similar effects for for the uh Ginsburg"
+  },
+  {
+    "t_start": 1707.51,
+    "t_end": 1709.909,
+    "text": "similar effects for for the uh Ginsburg Londo equation again many singularities"
+  },
+  {
+    "t_start": 1709.909,
+    "t_end": 1714.71,
+    "text": "Londo equation again many singularities subsimilar most of them are unstable as"
+  },
+  {
+    "t_start": 1714.71,
+    "t_end": 1721.35,
+    "text": "uh in the evolution in the set of evolution equation it is not known about"
+  },
+  {
+    "t_start": 1721.35,
+    "t_end": 1725.75,
+    "text": "evolution equation it is not known about any important equation that all the sing"
+  },
+  {
+    "t_start": 1725.75,
+    "t_end": 1727.909,
+    "text": "any important equation that all the sing that singularities exists but all of"
+  },
+  {
+    "t_start": 1727.909,
+    "t_end": 1730.63,
+    "text": "that singularities exists but all of them are unstable there are some toy"
+  },
+  {
+    "t_start": 1730.63,
+    "t_end": 1738.87,
+    "text": "models where this can be shown but uh but uh okay maybe Navier Stokes is is"
+  },
+  {
+    "t_start": 1738.87,
+    "t_end": 1740.87,
+    "text": "but uh okay maybe Navier Stokes is is one of the important equations where you"
+  },
+  {
+    "t_start": 1740.87,
+    "t_end": 1742.549,
+    "text": "one of the important equations where you can sit"
+  },
+  {
+    "t_start": 1742.549,
+    "t_end": 1749.11,
+    "text": "you can formulate it in a very nice way also in the language of stochastic"
+  },
+  {
+    "t_start": 1749.11,
+    "t_end": 1752.23,
+    "text": "also in the language of stochastic forcing. So let me illustrate this on"
+  },
+  {
+    "t_start": 1752.23,
+    "t_end": 1755.11,
+    "text": "forcing. So let me illustrate this on this very simple model by uh David"
+  },
+  {
+    "t_start": 1755.11,
+    "t_end": 1758.389,
+    "text": "this very simple model by uh David Herszog and Jonathan Mattingley."
+  },
+  {
+    "t_start": 1758.389,
+    "t_end": 1766.07,
+    "text": "If you have let's let's look at the OD z^ squ in the complex plane. Okay. So"
+  },
+  {
+    "t_start": 1766.07,
+    "t_end": 1768.47,
+    "text": "z^ squ in the complex plane. Okay. So forget epsilon okay set epsilon is equal"
+  },
+  {
+    "t_start": 1768.47,
+    "t_end": 1774.149,
+    "text": "forget epsilon okay set epsilon is equal to zero at the moment. So then it blows"
+  },
+  {
+    "t_start": 1774.149,
+    "t_end": 1776.149,
+    "text": "up if you start at the positive you can compute everything explicitly of course"
+  },
+  {
+    "t_start": 1776.149,
+    "t_end": 1781.669,
+    "text": "compute everything explicitly of course it blows up if you start at the at the"
+  },
+  {
+    "t_start": 1781.669,
+    "t_end": 1786.549,
+    "text": "but if you start away from the positive axis it doesn't blow up it goes to zero"
+  },
+  {
+    "t_start": 1786.549,
+    "t_end": 1789.43,
+    "text": "axis it doesn't blow up it goes to zero okay so you can say generically the"
+  },
+  {
+    "t_start": 1789.43,
+    "t_end": 1796.63,
+    "text": "solution does not blow up if you add random forcing so I write epsilon v w is"
+  },
+  {
+    "t_start": 1796.63,
+    "t_end": 1800.31,
+    "text": "random forcing so I write epsilon v w is the uh brownian motion in the complex"
+  },
+  {
+    "t_start": 1800.31,
+    "t_end": 1806.389,
+    "text": "plane you can show that uh there is a unique invariant measure for the process"
+  },
+  {
+    "t_start": 1806.389,
+    "t_end": 1811.75,
+    "text": "unique invariant measure for the process for the process and almost surely the"
+  },
+  {
+    "t_start": 1811.75,
+    "t_end": 1815.11,
+    "text": "trajectories don't blow up. Okay. So that's uh that's uh uh another way of"
+  },
+  {
+    "t_start": 1815.11,
+    "t_end": 1818.23,
+    "text": "that's uh that's uh uh another way of saying that the the singularities are"
+  },
+  {
+    "t_start": 1818.23,
+    "t_end": 1827.11,
+    "text": "non gen are non-generic so to speak and uh you can uh hope maybe that something"
+  },
+  {
+    "t_start": 1827.11,
+    "t_end": 1829.669,
+    "text": "uh you can uh hope maybe that something similar could be true for Navier Stokes"
+  },
+  {
+    "t_start": 1829.669,
+    "t_end": 1837.19,
+    "text": "similar could be true for Navier Stokes right you in uh you force Navier Stokes"
+  },
+  {
+    "t_start": 1837.19,
+    "t_end": 1840.789,
+    "text": "with some uh uh random forcing in low for modes similar similar to here and In"
+  },
+  {
+    "t_start": 1840.789,
+    "t_end": 1843.35,
+    "text": "for modes similar similar to here and In dimension two there is a result of heron"
+  },
+  {
+    "t_start": 1843.35,
+    "t_end": 1847.669,
+    "text": "dimension two there is a result of heron mutatingly that you this produces unique"
+  },
+  {
+    "t_start": 1847.669,
+    "t_end": 1850.47,
+    "text": "mutatingly that you this produces unique invariant measures"
+  },
+  {
+    "t_start": 1850.47,
+    "t_end": 1856.549,
+    "text": "and uh one could for example hope maybe that there is a s there is a similar"
+  },
+  {
+    "t_start": 1856.549,
+    "t_end": 1859.43,
+    "text": "that there is a s there is a similar situation and this as in this herzog"
+  },
+  {
+    "t_start": 1859.43,
+    "t_end": 1868.07,
+    "text": "mattingly model that in fact you can also do it in 3D despite uh uh possible"
+  },
+  {
+    "t_start": 1868.07,
+    "t_end": 1871.269,
+    "text": "also do it in 3D despite uh uh possible singularities if they would non-generic"
+  },
+  {
+    "t_start": 1871.269,
+    "t_end": 1875.99,
+    "text": "singularities if they would non-generic maybe this could still go through."
+  },
+  {
+    "t_start": 1875.99,
+    "t_end": 1879.269,
+    "text": "maybe this could still go through. Okay, let's uh there were also there are"
+  },
+  {
+    "t_start": 1879.269,
+    "t_end": 1885.51,
+    "text": "Okay, let's uh there were also there are also many important results for the uh"
+  },
+  {
+    "t_start": 1885.51,
+    "t_end": 1888.07,
+    "text": "oiler equation which I would uh which I would like to discuss."
+  },
+  {
+    "t_start": 1888.07,
+    "t_end": 1894.31,
+    "text": "would like to discuss. So you can you can view oiler equation"
+  },
+  {
+    "t_start": 1894.31,
+    "t_end": 1896.389,
+    "text": "So you can you can view oiler equation in several ways. It comes up very"
+  },
+  {
+    "t_start": 1896.389,
+    "t_end": 1898.63,
+    "text": "in several ways. It comes up very naturally in the context of Navir"
+  },
+  {
+    "t_start": 1898.63,
+    "t_end": 1901.269,
+    "text": "naturally in the context of Navir Stokes. one it's of course of great"
+  },
+  {
+    "t_start": 1901.269,
+    "t_end": 1903.35,
+    "text": "Stokes. one it's of course of great interest just to consider the same Koshi"
+  },
+  {
+    "t_start": 1903.35,
+    "t_end": 1907.19,
+    "text": "interest just to consider the same Koshi problem for zero viscosity okay that's"
+  },
+  {
+    "t_start": 1907.19,
+    "t_end": 1909.59,
+    "text": "problem for zero viscosity okay that's uh and in that case it's quite"
+  },
+  {
+    "t_start": 1909.59,
+    "t_end": 1912.95,
+    "text": "uh and in that case it's quite remarkable how much regularity does the"
+  },
+  {
+    "t_start": 1912.95,
+    "t_end": 1916.149,
+    "text": "remarkable how much regularity does the d does incompressibility give you if you"
+  },
+  {
+    "t_start": 1916.149,
+    "t_end": 1918.549,
+    "text": "d does incompressibility give you if you remove incompressibility"
+  },
+  {
+    "t_start": 1918.549,
+    "t_end": 1924.389,
+    "text": "like in the in the second model equation I was you know the the simplified Navier"
+  },
+  {
+    "t_start": 1924.389,
+    "t_end": 1927.35,
+    "text": "I was you know the the simplified Navier stol like looking naive equation if"
+  },
+  {
+    "t_start": 1927.35,
+    "t_end": 1929.909,
+    "text": "stol like looking naive equation if viscosity is equal to zero, no problem."
+  },
+  {
+    "t_start": 1929.909,
+    "t_end": 1931.19,
+    "text": "viscosity is equal to zero, no problem. You immediately see there are"
+  },
+  {
+    "t_start": 1931.19,
+    "t_end": 1933.19,
+    "text": "You immediately see there are singularities. But somehow the"
+  },
+  {
+    "t_start": 1933.19,
+    "t_end": 1938.87,
+    "text": "divergence free condition has an unexpectedly strong regularizing effect"
+  },
+  {
+    "t_start": 1938.87,
+    "t_end": 1946.31,
+    "text": "it seems. So the Koshi problem is interesting but uh it's also interesting"
+  },
+  {
+    "t_start": 1946.31,
+    "t_end": 1953.029,
+    "text": "interesting but uh it's also interesting to look at uh to look at this from the"
+  },
+  {
+    "t_start": 1953.029,
+    "t_end": 1960.47,
+    "text": "consider this forced Navier Stokes. So f can be say stochastic or some fixed"
+  },
+  {
+    "t_start": 1960.47,
+    "t_end": 1967.43,
+    "text": "force in very smooth and so on. And you in turbulence theory one considers the"
+  },
+  {
+    "t_start": 1967.43,
+    "t_end": 1972.789,
+    "text": "in turbulence theory one considers the situation when new goes to zero the the"
+  },
+  {
+    "t_start": 1972.789,
+    "t_end": 1979.029,
+    "text": "corresponds to very turbulent solution Reynolds number going to infinity and"
+  },
+  {
+    "t_start": 1979.029,
+    "t_end": 1981.43,
+    "text": "Reynolds number going to infinity and there is a standard picture in the"
+  },
+  {
+    "t_start": 1981.43,
+    "t_end": 1985.75,
+    "text": "there is a standard picture in the phenomenological turbulence theory uh of"
+  },
+  {
+    "t_start": 1985.75,
+    "t_end": 1993.029,
+    "text": "what is happening. So the forcing uh injects energy at low for air modes. Say"
+  },
+  {
+    "t_start": 1993.029,
+    "t_end": 1996.389,
+    "text": "injects energy at low for air modes. Say this K is the wave number uh the the the"
+  },
+  {
+    "t_start": 1996.389,
+    "t_end": 2000.23,
+    "text": "this K is the wave number uh the the the modulus of the wave number on the Taurus"
+  },
+  {
+    "t_start": 2000.23,
+    "t_end": 2005.269,
+    "text": "So you inject energy in the low modes. Then the non nonlinearity moves the"
+  },
+  {
+    "t_start": 2005.269,
+    "t_end": 2012.789,
+    "text": "energy between the modes to higher and higher modes. As you as you get to high"
+  },
+  {
+    "t_start": 2012.789,
+    "t_end": 2017.909,
+    "text": "becomes very effective and the energy is dissipated in high modes and in this"
+  },
+  {
+    "t_start": 2017.909,
+    "t_end": 2021.19,
+    "text": "dissipated in high modes and in this so-called inertial range uh you have"
+  },
+  {
+    "t_start": 2021.19,
+    "t_end": 2024.47,
+    "text": "so-called inertial range uh you have kind of transfer of or flux of energy"
+  },
+  {
+    "t_start": 2024.47,
+    "t_end": 2028.31,
+    "text": "kind of transfer of or flux of energy from low lower modes to higher modes and"
+  },
+  {
+    "t_start": 2028.31,
+    "t_end": 2030.47,
+    "text": "from low lower modes to higher modes and uh standards assumption which seems to"
+  },
+  {
+    "t_start": 2030.47,
+    "t_end": 2036.87,
+    "text": "uh standards assumption which seems to be correct is that what is going on in"
+  },
+  {
+    "t_start": 2036.87,
+    "t_end": 2039.43,
+    "text": "the dis in this inertia range it does not really much depend on where you do"
+  },
+  {
+    "t_start": 2039.43,
+    "t_end": 2042.63,
+    "text": "not really much depend on where you do your cutoff. Okay. So, so the the"
+  },
+  {
+    "t_start": 2042.63,
+    "t_end": 2045.11,
+    "text": "your cutoff. Okay. So, so the the solution here the objects here don't"
+  },
+  {
+    "t_start": 2045.11,
+    "t_end": 2049.589,
+    "text": "solution here the objects here don't really care about where you do the the"
+  },
+  {
+    "t_start": 2049.589,
+    "t_end": 2053.829,
+    "text": "So, from that point of view, you can take new to infinity and the picture"
+  },
+  {
+    "t_start": 2053.829,
+    "t_end": 2056.23,
+    "text": "take new to infinity and the picture here should still essentially remain the"
+  },
+  {
+    "t_start": 2056.23,
+    "t_end": 2061.19,
+    "text": "here should still essentially remain the same. So this is of course uh"
+  },
+  {
+    "t_start": 2061.19,
+    "t_end": 2063.669,
+    "text": "same. So this is of course uh heristics and from phenomenological"
+  },
+  {
+    "t_start": 2063.669,
+    "t_end": 2070.95,
+    "text": "theory we cannot far beyond what we can do. Uh but nevertheless it predicts some"
+  },
+  {
+    "t_start": 2070.95,
+    "t_end": 2073.829,
+    "text": "do. Uh but nevertheless it predicts some interesting solutions of the limiting"
+  },
+  {
+    "t_start": 2073.829,
+    "t_end": 2075.829,
+    "text": "interesting solutions of the limiting field U."
+  },
+  {
+    "t_start": 2075.829,
+    "t_end": 2081.75,
+    "text": "So the prediction for the limiting field U is that it solves the oiler equation"
+  },
+  {
+    "t_start": 2081.75,
+    "t_end": 2086.069,
+    "text": "U is that it solves the oiler equation dissipates energy and roughly speaking"
+  },
+  {
+    "t_start": 2086.069,
+    "t_end": 2088.55,
+    "text": "dissipates energy and roughly speaking with some imprecision is one/3 helder"
+  },
+  {
+    "t_start": 2088.55,
+    "t_end": 2091.27,
+    "text": "with some imprecision is one/3 helder continues. Okay that comes up uh that"
+  },
+  {
+    "t_start": 2091.27,
+    "t_end": 2099.03,
+    "text": "continues. Okay that comes up uh that comes up uh from this phenomenological"
+  },
+  {
+    "t_start": 2099.03,
+    "t_end": 2102.87,
+    "text": "theory. So now you can ask okay we cannot do the the whole thing completely"
+  },
+  {
+    "t_start": 2102.87,
+    "t_end": 2109.99,
+    "text": "cannot do the the whole thing completely right uh we cannot analyze the limit of"
+  },
+  {
+    "t_start": 2109.99,
+    "t_end": 2112.47,
+    "text": "Navier Stokes but can we at least construct the solutions of oiler"
+  },
+  {
+    "t_start": 2112.47,
+    "t_end": 2116.39,
+    "text": "construct the solutions of oiler equations that have these properties"
+  },
+  {
+    "t_start": 2116.39,
+    "t_end": 2120.95,
+    "text": "equations that have these properties okay so that's a more limited goal which"
+  },
+  {
+    "t_start": 2120.95,
+    "t_end": 2128.39,
+    "text": "and uh there has been uh there has been tremendous success in uh in this uh"
+  },
+  {
+    "t_start": 2128.39,
+    "t_end": 2131.43,
+    "text": "tremendous success in uh in this uh program over over the the the last"
+  },
+  {
+    "t_start": 2131.43,
+    "t_end": 2133.109,
+    "text": "program over over the the the last years."
+  },
+  {
+    "t_start": 2133.109,
+    "t_end": 2139.99,
+    "text": "uh and again it's related to this uh Gromoff paper on uh on soft uh"
+  },
+  {
+    "t_start": 2139.99,
+    "t_end": 2143.67,
+    "text": "Gromoff paper on uh on soft uh differential equations that somehow if"
+  },
+  {
+    "t_start": 2143.67,
+    "t_end": 2149.43,
+    "text": "differential equations that somehow if you know how then you can construct many"
+  },
+  {
+    "t_start": 2149.43,
+    "t_end": 2157.19,
+    "text": "constructions are very difficult right you have to know how to do it so the"
+  },
+  {
+    "t_start": 2157.19,
+    "t_end": 2160.31,
+    "text": "you have to know how to do it so the first uh work on that was uh due to"
+  },
+  {
+    "t_start": 2160.31,
+    "t_end": 2163.109,
+    "text": "first uh work on that was uh due to Vladimir Schffer who proved uh the"
+  },
+  {
+    "t_start": 2163.109,
+    "t_end": 2165.51,
+    "text": "Vladimir Schffer who proved uh the existence of uh the existence of"
+  },
+  {
+    "t_start": 2165.51,
+    "t_end": 2170.63,
+    "text": "existence of uh the existence of solutions with compact support with just"
+  },
+  {
+    "t_start": 2170.63,
+    "t_end": 2176.63,
+    "text": "and then Camilo Dealis and Lassel Sheekah they they connected it these"
+  },
+  {
+    "t_start": 2176.63,
+    "t_end": 2184.39,
+    "text": "questions to they brought this uh method of convex integration to to the picture"
+  },
+  {
+    "t_start": 2184.39,
+    "t_end": 2192.39,
+    "text": "of convex integration to to the picture and uh using that there is a string of"
+  },
+  {
+    "t_start": 2192.39,
+    "t_end": 2195.51,
+    "text": "uh papers where uh people were getting better and better results"
+  },
+  {
+    "t_start": 2195.51,
+    "t_end": 2205.03,
+    "text": "uh until uh the the the the best result now I think is uh is uh uh the this last"
+  },
+  {
+    "t_start": 2205.03,
+    "t_end": 2210.95,
+    "text": "now I think is uh is uh uh the this last paper here. uh uh ma uh Matthew Novak"
+  },
+  {
+    "t_start": 2210.95,
+    "t_end": 2214.47,
+    "text": "paper here. uh uh ma uh Matthew Novak discussed this in the in the PTE uh"
+  },
+  {
+    "t_start": 2214.47,
+    "t_end": 2218.47,
+    "text": "discussed this in the in the PTE uh workshop and essentially we can uh we"
+  },
+  {
+    "t_start": 2218.47,
+    "t_end": 2225.51,
+    "text": "workshop and essentially we can uh we can uh get very close to to this uh to"
+  },
+  {
+    "t_start": 2225.51,
+    "t_end": 2231.43,
+    "text": "this type of solutions. So how should one think about uh about"
+  },
+  {
+    "t_start": 2231.43,
+    "t_end": 2235.43,
+    "text": "uh these uh solutions? One way to think about it I think is is"
+  },
+  {
+    "t_start": 2235.43,
+    "t_end": 2241.829,
+    "text": "So we have these uh interesting physical solutions which you get from the"
+  },
+  {
+    "t_start": 2241.829,
+    "t_end": 2247.91,
+    "text": "turbulence which are predicted by the phenomenological turbulence theory."
+  },
+  {
+    "t_start": 2247.91,
+    "t_end": 2254.23,
+    "text": "But it's uh it's very difficult to construct uh this type of solutions in"
+  },
+  {
+    "t_start": 2254.23,
+    "t_end": 2256.87,
+    "text": "construct uh this type of solutions in the class of strong solutions. Right? We"
+  },
+  {
+    "t_start": 2256.87,
+    "t_end": 2259.75,
+    "text": "the class of strong solutions. Right? We only have a quite a limited repertoire"
+  },
+  {
+    "t_start": 2259.75,
+    "t_end": 2263.67,
+    "text": "only have a quite a limited repertoire of solutions to get close to to which"
+  },
+  {
+    "t_start": 2263.67,
+    "t_end": 2270.79,
+    "text": "which get close to to this uh uh what we what we expect from the phenomenological"
+  },
+  {
+    "t_start": 2270.79,
+    "t_end": 2273.27,
+    "text": "what we expect from the phenomenological uh theory. One interesting very"
+  },
+  {
+    "t_start": 2273.27,
+    "t_end": 2279.19,
+    "text": "uh theory. One interesting very interesting example is our works on"
+  },
+  {
+    "t_start": 2279.19,
+    "t_end": 2285.27,
+    "text": "which are perturbations of uh uh perturbations of uh shear flows."
+  },
+  {
+    "t_start": 2285.27,
+    "t_end": 2295.03,
+    "text": "perturbations of uh shear flows. Uh but uh in general it's very difficult"
+  },
+  {
+    "t_start": 2295.03,
+    "t_end": 2297.27,
+    "text": "to to get uh these solutions. If you approach it from the from the"
+  },
+  {
+    "t_start": 2297.27,
+    "t_end": 2300.39,
+    "text": "If you approach it from the from the side of weak solutions,"
+  },
+  {
+    "t_start": 2300.39,
+    "t_end": 2305.109,
+    "text": "you can construct if you know how by these difficult constructions, you can"
+  },
+  {
+    "t_start": 2305.109,
+    "t_end": 2308.069,
+    "text": "these difficult constructions, you can construct many solutions"
+  },
+  {
+    "t_start": 2308.069,
+    "t_end": 2311.27,
+    "text": "construct many solutions and uh you"
+  },
+  {
+    "t_start": 2311.27,
+    "t_end": 2317.67,
+    "text": "you you can try to uh approximate better and better the properties which we which"
+  },
+  {
+    "t_start": 2317.67,
+    "t_end": 2322.87,
+    "text": "and better the properties which we which we want from these solutions. So you can"
+  },
+  {
+    "t_start": 2322.87,
+    "t_end": 2329.19,
+    "text": "view this like inner approximation. You you can try to on the strong side to get"
+  },
+  {
+    "t_start": 2329.19,
+    "t_end": 2331.75,
+    "text": "to these uh physics physical solutions interesting physical solutions. On the"
+  },
+  {
+    "t_start": 2331.75,
+    "t_end": 2337.75,
+    "text": "interesting physical solutions. On the weak side you can try to get to them"
+  },
+  {
+    "t_start": 2337.75,
+    "t_end": 2340.31,
+    "text": "from the uh as kind of like outer approximation. Maybe they don't satisfy"
+  },
+  {
+    "t_start": 2340.31,
+    "t_end": 2345.43,
+    "text": "all the properties but the hope is that eventually you get close to and then uh"
+  },
+  {
+    "t_start": 2345.43,
+    "t_end": 2347.829,
+    "text": "eventually you get close to and then uh maybe they you you there'll be some"
+  },
+  {
+    "t_start": 2347.829,
+    "t_end": 2350.23,
+    "text": "maybe they you you there'll be some convergence from inside and from the"
+  },
+  {
+    "t_start": 2350.23,
+    "t_end": 2353.349,
+    "text": "convergence from inside and from the outside."
+  },
+  {
+    "t_start": 2356.31,
+    "t_end": 2361.75,
+    "text": "now to the to the Koshi problem for the for the oiler equation. So there has"
+  },
+  {
+    "t_start": 2361.75,
+    "t_end": 2365.03,
+    "text": "for the oiler equation. So there has been also tremendous uh uh tremendous"
+  },
+  {
+    "t_start": 2365.03,
+    "t_end": 2371.99,
+    "text": "progra progress on the Koshi problem for the for the uh oiler equation. If you"
+  },
+  {
+    "t_start": 2371.99,
+    "t_end": 2374.55,
+    "text": "the for the uh oiler equation. If you like the millennium type problem for the"
+  },
+  {
+    "t_start": 2374.55,
+    "t_end": 2381.829,
+    "text": "koshi for the oiler equation where you have initial datim and you try to see if"
+  },
+  {
+    "t_start": 2381.829,
+    "t_end": 2385.43,
+    "text": "have initial datim and you try to see if uh there is a smooth solutions"
+  },
+  {
+    "t_start": 2385.43,
+    "t_end": 2395.75,
+    "text": "and uh there is an important computation uh by guo and Tom how from 2013"
+  },
+  {
+    "t_start": 2395.75,
+    "t_end": 2399.109,
+    "text": "uh by guo and Tom how from 2013 where they identified an important"
+  },
+  {
+    "t_start": 2399.109,
+    "t_end": 2406.79,
+    "text": "scenario which played an important uh role in in developments of uh this uh"
+  },
+  {
+    "t_start": 2406.79,
+    "t_end": 2410.63,
+    "text": "uh role in in developments of uh this uh of of the regularity questions here and"
+  },
+  {
+    "t_start": 2410.63,
+    "t_end": 2412.63,
+    "text": "of of the regularity questions here and the scenario is relatively simple."
+  },
+  {
+    "t_start": 2412.63,
+    "t_end": 2417.75,
+    "text": "That's the that's the strength of the scenario that there were attempts to to"
+  },
+  {
+    "t_start": 2417.75,
+    "t_end": 2421.109,
+    "text": "scenario that there were attempts to to compute blowup solution of oiler before"
+  },
+  {
+    "t_start": 2421.109,
+    "t_end": 2423.27,
+    "text": "compute blowup solution of oiler before but they were all much more complicated"
+  },
+  {
+    "t_start": 2423.27,
+    "t_end": 2426.31,
+    "text": "but they were all much more complicated and very difficult to analyze. So this"
+  },
+  {
+    "t_start": 2426.31,
+    "t_end": 2432.71,
+    "text": "and very difficult to analyze. So this uh scenario it does need a boundary. So"
+  },
+  {
+    "t_start": 2432.71,
+    "t_end": 2435.51,
+    "text": "it's in a domain in boundary. Uh but it's it's relatively simple. You uh you"
+  },
+  {
+    "t_start": 2435.51,
+    "t_end": 2442.95,
+    "text": "it's it's relatively simple. You uh you in this picture uh you you assume that"
+  },
+  {
+    "t_start": 2442.95,
+    "t_end": 2447.91,
+    "text": "uh say this this part above the dotted line is like your cup of tea and you"
+  },
+  {
+    "t_start": 2447.91,
+    "t_end": 2451.03,
+    "text": "stir your fluid in this way and you imagine you have another cup of tea from"
+  },
+  {
+    "t_start": 2451.03,
+    "t_end": 2453.27,
+    "text": "imagine you have another cup of tea from symmetrically placed below where you"
+  },
+  {
+    "t_start": 2453.27,
+    "t_end": 2460.309,
+    "text": "symmetrically placed below where you stir your fluid in the opposite way and"
+  },
+  {
+    "t_start": 2460.309,
+    "t_end": 2465.19,
+    "text": "then uh this uh flow generates the so-called secondary flow uh which looks"
+  },
+  {
+    "t_start": 2465.19,
+    "t_end": 2467.109,
+    "text": "like that. If you look at the cross-section, the secondary flow does"
+  },
+  {
+    "t_start": 2467.109,
+    "t_end": 2468.71,
+    "text": "cross-section, the secondary flow does that. So originally you have only"
+  },
+  {
+    "t_start": 2468.71,
+    "t_end": 2473.27,
+    "text": "rotation but eventually you you have this secondary flow which looks like"
+  },
+  {
+    "t_start": 2473.27,
+    "t_end": 2477.75,
+    "text": "this secondary flow which looks like that. And uh then the boundary provides"
+  },
+  {
+    "t_start": 2477.75,
+    "t_end": 2480.63,
+    "text": "that. And uh then the boundary provides you with an important uh constraint. The"
+  },
+  {
+    "t_start": 2480.63,
+    "t_end": 2482.71,
+    "text": "you with an important uh constraint. The points which are at the boundary have to"
+  },
+  {
+    "t_start": 2482.71,
+    "t_end": 2487.75,
+    "text": "stay at the boundary and they move towards this point symmetrically towards"
+  },
+  {
+    "t_start": 2487.75,
+    "t_end": 2492.47,
+    "text": "this point. And the question is whether the the only thing which keeps them from"
+  },
+  {
+    "t_start": 2492.47,
+    "t_end": 2495.51,
+    "text": "the the only thing which keeps them from colliding is the pressure. And the and"
+  },
+  {
+    "t_start": 2495.51,
+    "t_end": 2501.589,
+    "text": "colliding is the pressure. And the and the thing is if if the pressure is"
+  },
+  {
+    "t_start": 2501.589,
+    "t_end": 2504.15,
+    "text": "sufficiently strong to keep them from colliding. So in dimension two if you"
+  },
+  {
+    "t_start": 2504.15,
+    "t_end": 2505.51,
+    "text": "colliding. So in dimension two if you don't have the three-dimensional"
+  },
+  {
+    "t_start": 2505.51,
+    "t_end": 2510.95,
+    "text": "structure in dimension two it turns out the pressure is just strong enough to"
+  },
+  {
+    "t_start": 2510.95,
+    "t_end": 2512.71,
+    "text": "the pressure is just strong enough to prevent blow up and you have global"
+  },
+  {
+    "t_start": 2512.71,
+    "t_end": 2516.87,
+    "text": "prevent blow up and you have global existence for uh for the uh equation."
+  },
+  {
+    "t_start": 2516.87,
+    "t_end": 2519.91,
+    "text": "existence for uh for the uh equation. But in dimension three this extra"
+  },
+  {
+    "t_start": 2519.91,
+    "t_end": 2525.67,
+    "text": "freedom which you have here or this extra push which you get from this uh"
+  },
+  {
+    "t_start": 2525.67,
+    "t_end": 2528.87,
+    "text": "extra push which you get from this uh third dimension is enough to to produce"
+  },
+  {
+    "t_start": 2528.87,
+    "t_end": 2533.109,
+    "text": "third dimension is enough to to produce blow up. The blow up is of the form"
+  },
+  {
+    "t_start": 2533.109,
+    "t_end": 2535.829,
+    "text": "which does not help you for navier stokes the velocity stays bounded. So if"
+  },
+  {
+    "t_start": 2535.829,
+    "t_end": 2538.87,
+    "text": "stokes the velocity stays bounded. So if you add viscosity the the singularity"
+  },
+  {
+    "t_start": 2538.87,
+    "t_end": 2541.27,
+    "text": "you add viscosity the the singularity will go away."
+  },
+  {
+    "t_start": 2541.27,
+    "t_end": 2547.67,
+    "text": "But for oiler we can say at least for the domains with boundaries"
+  },
+  {
+    "t_start": 2547.67,
+    "t_end": 2552.55,
+    "text": "I should have mentioned that there is now a computer assisted proof by Jia"
+  },
+  {
+    "t_start": 2552.55,
+    "t_end": 2555.43,
+    "text": "now a computer assisted proof by Jia Chen and Tom how that uh this"
+  },
+  {
+    "t_start": 2555.43,
+    "t_end": 2559.03,
+    "text": "Chen and Tom how that uh this singularity happens."
+  },
+  {
+    "t_start": 2559.03,
+    "t_end": 2566.55,
+    "text": "So uh another important uh development was a work by Tarak Elgeni"
+  },
+  {
+    "t_start": 2566.55,
+    "t_end": 2570.23,
+    "text": "was a work by Tarak Elgeni who proved the existence of"
+  },
+  {
+    "t_start": 2570.23,
+    "t_end": 2576.55,
+    "text": "singularities for oiler in the regime where the equation in is well posed. So"
+  },
+  {
+    "t_start": 2576.55,
+    "t_end": 2580.87,
+    "text": "where the equation in is well posed. So you have C1 alpha data. So that means"
+  },
+  {
+    "t_start": 2580.87,
+    "t_end": 2583.19,
+    "text": "you have C1 alpha data. So that means every term in the oiler equation is"
+  },
+  {
+    "t_start": 2583.19,
+    "t_end": 2586.309,
+    "text": "every term in the oiler equation is helder continuous. Okay. So, so this is"
+  },
+  {
+    "t_start": 2586.309,
+    "t_end": 2589.349,
+    "text": "helder continuous. Okay. So, so this is considered well posedness and in that"
+  },
+  {
+    "t_start": 2589.349,
+    "t_end": 2598.55,
+    "text": "class uh taken proof in in this is in 2019 blow up. So again this uh in this"
+  },
+  {
+    "t_start": 2598.55,
+    "t_end": 2601.99,
+    "text": "2019 blow up. So again this uh in this form of uh the singularity uh"
+  },
+  {
+    "t_start": 2601.99,
+    "t_end": 2607.349,
+    "text": "singularity questions for oiler equation we have a we have a positive answer. The"
+  },
+  {
+    "t_start": 2607.349,
+    "t_end": 2611.91,
+    "text": "we have a we have a positive answer. The idea is was very surprising."
+  },
+  {
+    "t_start": 2611.91,
+    "t_end": 2614.95,
+    "text": "idea is was very surprising. He constructed the solutions in the"
+  },
+  {
+    "t_start": 2614.95,
+    "t_end": 2620.55,
+    "text": "so-called uh in the class of axis symmetric solution with no swirl where"
+  },
+  {
+    "t_start": 2620.55,
+    "t_end": 2623.589,
+    "text": "symmetric solution with no swirl where you have smooth solutions globally"
+  },
+  {
+    "t_start": 2623.589,
+    "t_end": 2629.67,
+    "text": "existing smooth solutions for smooth data because for smooth data so so for"
+  },
+  {
+    "t_start": 2629.67,
+    "t_end": 2631.349,
+    "text": "data because for smooth data so so for that equation it is known that this"
+  },
+  {
+    "t_start": 2631.349,
+    "t_end": 2633.349,
+    "text": "that equation it is known that this quantity moves with the flow so it's"
+  },
+  {
+    "t_start": 2633.349,
+    "t_end": 2635.75,
+    "text": "quantity moves with the flow so it's conserved omega omega is the vorticity"
+  },
+  {
+    "t_start": 2635.75,
+    "t_end": 2638.63,
+    "text": "conserved omega omega is the vorticity component here and this gives you"
+  },
+  {
+    "t_start": 2638.63,
+    "t_end": 2642.069,
+    "text": "component here and this gives you regularity for for smooth solutions But"
+  },
+  {
+    "t_start": 2642.069,
+    "t_end": 2648.63,
+    "text": "regularity for for smooth solutions But if the initial vorticity is only C1"
+  },
+  {
+    "t_start": 2648.63,
+    "t_end": 2653.109,
+    "text": "alpha, the quantity can go to infinity as you as you approach the the Z-axis"
+  },
+  {
+    "t_start": 2653.109,
+    "t_end": 2658.63,
+    "text": "and then the flow can bring particles from the Z-axis further into the into"
+  },
+  {
+    "t_start": 2658.63,
+    "t_end": 2664.39,
+    "text": "the flow into the into the body and you can leverage that. It's not easy. It's"
+  },
+  {
+    "t_start": 2664.39,
+    "t_end": 2666.79,
+    "text": "can leverage that. It's not easy. It's it's it's very difficult. Uh you can"
+  },
+  {
+    "t_start": 2666.79,
+    "t_end": 2668.95,
+    "text": "it's it's very difficult. Uh you can leverage that to to to get a"
+  },
+  {
+    "t_start": 2668.95,
+    "t_end": 2674.47,
+    "text": "singularity. So in in the end one ends up with a subsimilar singularity where"
+  },
+  {
+    "t_start": 2674.47,
+    "t_end": 2680.39,
+    "text": "up with a subsimilar singularity where vorticity is of class C alpha."
+  },
+  {
+    "t_start": 2686.23,
+    "t_end": 2694.95,
+    "text": "Another uh interesting development uh uh uh Kavi Gomez Serrano talked about it"
+  },
+  {
+    "t_start": 2694.95,
+    "t_end": 2703.91,
+    "text": "the singularities uh discovered by Gualu and Tom How they come so they discovered"
+  },
+  {
+    "t_start": 2703.91,
+    "t_end": 2707.109,
+    "text": "and Tom How they come so they discovered a singularity but it is often the case"
+  },
+  {
+    "t_start": 2707.109,
+    "t_end": 2709.03,
+    "text": "a singularity but it is often the case for example for burgers equation"
+  },
+  {
+    "t_start": 2709.03,
+    "t_end": 2713.91,
+    "text": "nonlinear shreddinger equation and so on in many equations which have self-"
+  },
+  {
+    "t_start": 2713.91,
+    "t_end": 2717.19,
+    "text": "in many equations which have self- similar blowup that these self- similar"
+  },
+  {
+    "t_start": 2717.19,
+    "t_end": 2719.75,
+    "text": "similar blowup that these self- similar singularities they come in families okay"
+  },
+  {
+    "t_start": 2719.75,
+    "t_end": 2722.79,
+    "text": "singularities they come in families okay you have the stable then you have the"
+  },
+  {
+    "t_start": 2722.79,
+    "t_end": 2727.99,
+    "text": "next which is a bit unstable the next which is even more unstable and so on."
+  },
+  {
+    "t_start": 2727.99,
+    "t_end": 2732.39,
+    "text": "which is even more unstable and so on. So they often come in in uh countable"
+  },
+  {
+    "t_start": 2732.39,
+    "t_end": 2740.069,
+    "text": "So they often come in in uh countable families. And so this team with uh Kavi"
+  },
+  {
+    "t_start": 2740.069,
+    "t_end": 2747.43,
+    "text": "mathematicians and deep mind they use uh uh they use neural nets to discover the"
+  },
+  {
+    "t_start": 2747.43,
+    "t_end": 2752.63,
+    "text": "uh they use neural nets to discover the higher singularities in the in the uh"
+  },
+  {
+    "t_start": 2752.63,
+    "t_end": 2755.19,
+    "text": "higher singularities in the in the uh Tomhau and Golo scenario and other"
+  },
+  {
+    "t_start": 2755.19,
+    "t_end": 2759.75,
+    "text": "Tomhau and Golo scenario and other equation. Another developments develop"
+  },
+  {
+    "t_start": 2759.75,
+    "t_end": 2765.19,
+    "text": "interesting development was that I mentioned that in 2D oiler the pressure"
+  },
+  {
+    "t_start": 2765.19,
+    "t_end": 2769.27,
+    "text": "mentioned that in 2D oiler the pressure is just enough to to prevent the"
+  },
+  {
+    "t_start": 2769.27,
+    "t_end": 2770.79,
+    "text": "is just enough to to prevent the regularity"
+  },
+  {
+    "t_start": 2770.79,
+    "t_end": 2776.87,
+    "text": "very narrowly. It almost blows up but just avoids uh the blow up in in this"
+  },
+  {
+    "t_start": 2776.87,
+    "t_end": 2781.19,
+    "text": "just avoids uh the blow up in in this scenario. So you can argue that if you"
+  },
+  {
+    "t_start": 2781.19,
+    "t_end": 2783.67,
+    "text": "scenario. So you can argue that if you change the biosavar law a little bit"
+  },
+  {
+    "t_start": 2783.67,
+    "t_end": 2785.51,
+    "text": "change the biosavar law a little bit which is the case for some important"
+  },
+  {
+    "t_start": 2785.51,
+    "t_end": 2787.91,
+    "text": "which is the case for some important equations in fluid mechanics right oiler"
+  },
+  {
+    "t_start": 2787.91,
+    "t_end": 2790.55,
+    "text": "equations in fluid mechanics right oiler equation has a certain relation between"
+  },
+  {
+    "t_start": 2790.55,
+    "t_end": 2793.109,
+    "text": "equation has a certain relation between vorticity and velocity and other"
+  },
+  {
+    "t_start": 2793.109,
+    "t_end": 2799.03,
+    "text": "important equation have another uh relation. So if oiler already is on the"
+  },
+  {
+    "t_start": 2799.03,
+    "t_end": 2802.069,
+    "text": "relation. So if oiler already is on the brink so to speak, you can argue if you"
+  },
+  {
+    "t_start": 2802.069,
+    "t_end": 2805.51,
+    "text": "brink so to speak, you can argue if you make the solution the biosavar law a"
+  },
+  {
+    "t_start": 2805.51,
+    "t_end": 2807.75,
+    "text": "make the solution the biosavar law a little bit less regularizing then you"
+  },
+  {
+    "t_start": 2807.75,
+    "t_end": 2814.069,
+    "text": "will have blow up and this is indeed the case as proved in this important paper."
+  },
+  {
+    "t_start": 2814.069,
+    "t_end": 2821.43,
+    "text": "case as proved in this important paper. And then also earlier in the week, Diego"
+  },
+  {
+    "t_start": 2821.43,
+    "t_end": 2827.03,
+    "text": "Cordoba uh talked in the PDE uh uh workshop on another way to produce uh"
+  },
+  {
+    "t_start": 2827.03,
+    "t_end": 2834.55,
+    "text": "uh of the type that TK Elgen constructed this time uh with force."
+  },
+  {
+    "t_start": 2834.55,
+    "t_end": 2841.91,
+    "text": "So all this again is essentially about singularity formation for oiler."
+  },
+  {
+    "t_start": 2841.91,
+    "t_end": 2848.87,
+    "text": "about singularity formation for oiler. So do we have also news in the opposite"
+  },
+  {
+    "t_start": 2848.87,
+    "t_end": 2851.19,
+    "text": "direction? So there there are some important works which I which I would"
+  },
+  {
+    "t_start": 2851.19,
+    "t_end": 2859.43,
+    "text": "like to mention that uh that leverage in a novel way the dispersion in the oiler"
+  },
+  {
+    "t_start": 2859.43,
+    "t_end": 2865.589,
+    "text": "a novel way the dispersion in the oiler equation. So the oiler equation is very"
+  },
+  {
+    "t_start": 2865.589,
+    "t_end": 2871.109,
+    "text": "interesting interesting in that it and also Navier Stokes that in that it"
+  },
+  {
+    "t_start": 2871.109,
+    "t_end": 2878.309,
+    "text": "equation for example if you look at the oil 3D oiler equation you can find"
+  },
+  {
+    "t_start": 2878.309,
+    "t_end": 2881.27,
+    "text": "oil 3D oiler equation you can find inside nonlinear shreddinger okay the"
+  },
+  {
+    "t_start": 2881.27,
+    "t_end": 2887.829,
+    "text": "fully integraable nonlinear shreddinger equation sits inside the oiler equation"
+  },
+  {
+    "t_start": 2887.829,
+    "t_end": 2890.23,
+    "text": "equation sits inside the oiler equation if in some limiting regime"
+  },
+  {
+    "t_start": 2890.23,
+    "t_end": 2893.829,
+    "text": "if in some limiting regime Okay, you have uh various dispersive"
+  },
+  {
+    "t_start": 2893.829,
+    "t_end": 2897.99,
+    "text": "Okay, you have uh various dispersive equations which sit there inside Navier"
+  },
+  {
+    "t_start": 2897.99,
+    "t_end": 2900.23,
+    "text": "equations which sit there inside Navier Stokes. You also have many equations."
+  },
+  {
+    "t_start": 2900.23,
+    "t_end": 2906.87,
+    "text": "You for example have the equation there for the curvature on the sphere. The the"
+  },
+  {
+    "t_start": 2906.87,
+    "t_end": 2911.19,
+    "text": "for the curvature on the sphere. The the equation of uh of uh conformal geometry"
+  },
+  {
+    "t_start": 2911.19,
+    "t_end": 2917.91,
+    "text": "of the sphere you have it inside Navier Stoke. So if you look at the if you look"
+  },
+  {
+    "t_start": 2917.91,
+    "t_end": 2924.87,
+    "text": "Stoke. So if you look at the if you look at the rotating fluids, you have inside"
+  },
+  {
+    "t_start": 2924.87,
+    "t_end": 2930.549,
+    "text": "them very interesting dispersive effects. And recently uh Yan Guo, Benois"
+  },
+  {
+    "t_start": 2930.549,
+    "t_end": 2933.51,
+    "text": "effects. And recently uh Yan Guo, Benois Pader and Claus Whitmer found a way to"
+  },
+  {
+    "t_start": 2933.51,
+    "t_end": 2936.87,
+    "text": "Pader and Claus Whitmer found a way to leverage this uh dispers dispersive"
+  },
+  {
+    "t_start": 2936.87,
+    "t_end": 2939.829,
+    "text": "leverage this uh dispers dispersive effect to produce global solutions of"
+  },
+  {
+    "t_start": 2939.829,
+    "t_end": 2942.87,
+    "text": "effect to produce global solutions of oiler in situations which uh were"
+  },
+  {
+    "t_start": 2942.87,
+    "t_end": 2945.75,
+    "text": "oiler in situations which uh were previously inaccessible and recently"
+  },
+  {
+    "t_start": 2945.75,
+    "t_end": 2948.15,
+    "text": "previously inaccessible and recently there is another generalization"
+  },
+  {
+    "t_start": 2948.15,
+    "t_end": 2956.39,
+    "text": "there is another generalization uh by by that by Ren and Kan to to the"
+  },
+  {
+    "t_start": 2956.39,
+    "t_end": 2962.069,
+    "text": "to the non-ymmetric situation. Okay. So, uh just to finish, let me let"
+  },
+  {
+    "t_start": 2962.069,
+    "t_end": 2967.349,
+    "text": "Okay. So, uh just to finish, let me let me finish with uh this slide. So, a"
+  },
+  {
+    "t_start": 2967.349,
+    "t_end": 2975.27,
+    "text": "history. Okay. So I think in the modern literature the first mention of the"
+  },
+  {
+    "t_start": 2975.27,
+    "t_end": 2983.03,
+    "text": "possibility of singularity formation is in a 1911 paper by Ozim where he where"
+  },
+  {
+    "t_start": 2983.03,
+    "t_end": 2986.47,
+    "text": "in a 1911 paper by Ozim where he where he constructs uh the solutions"
+  },
+  {
+    "t_start": 2986.47,
+    "t_end": 2993.75,
+    "text": "essentially by this uh Picard iteration is able to do it for a short time and in"
+  },
+  {
+    "t_start": 2993.75,
+    "t_end": 2996.39,
+    "text": "is able to do it for a short time and in a matter of fact he just states that we"
+  },
+  {
+    "t_start": 2996.39,
+    "t_end": 2998.79,
+    "text": "a matter of fact he just states that we don't know but it's conceivable able"
+  },
+  {
+    "t_start": 2998.79,
+    "t_end": 3005.829,
+    "text": "that uh for large data or larger time you can have singularity spontaneously"
+  },
+  {
+    "t_start": 3005.829,
+    "t_end": 3012.39,
+    "text": "forming in the fluid. Okay. Doesn't give his opinion on on whether or not this is"
+  },
+  {
+    "t_start": 3012.39,
+    "t_end": 3014.95,
+    "text": "his opinion on on whether or not this is true. Lar"
+  },
+  {
+    "t_start": 3014.95,
+    "t_end": 3020.87,
+    "text": "in 1934 he writes I have indicated a reason which makes me believe there are"
+  },
+  {
+    "t_start": 3020.87,
+    "t_end": 3023.51,
+    "text": "reason which makes me believe there are motions which become irregular in finite"
+  },
+  {
+    "t_start": 3023.51,
+    "t_end": 3028.309,
+    "text": "motions which become irregular in finite time. Unfortunately I have not uh been I"
+  },
+  {
+    "t_start": 3028.309,
+    "t_end": 3030.63,
+    "text": "time. Unfortunately I have not uh been I have not succeeded in creating an"
+  },
+  {
+    "t_start": 3030.63,
+    "t_end": 3033.109,
+    "text": "have not succeeded in creating an example of such a singularity. This was"
+  },
+  {
+    "t_start": 3033.109,
+    "t_end": 3038.23,
+    "text": "example of such a singularity. This was Larret and then Hop in uh 1951"
+  },
+  {
+    "t_start": 3038.23,
+    "t_end": 3040.549,
+    "text": "Larret and then Hop in uh 1951 wrote it is hard to believe that the"
+  },
+  {
+    "t_start": 3040.549,
+    "t_end": 3042.549,
+    "text": "wrote it is hard to believe that the initial value problem for the viscous"
+  },
+  {
+    "t_start": 3042.549,
+    "t_end": 3045.03,
+    "text": "initial value problem for the viscous fluid in dimension three could have more"
+  },
+  {
+    "t_start": 3045.03,
+    "t_end": 3047.829,
+    "text": "fluid in dimension three could have more than one solution and more work should"
+  },
+  {
+    "t_start": 3047.829,
+    "t_end": 3049.51,
+    "text": "than one solution and more work should be devoted to the study of the"
+  },
+  {
+    "t_start": 3049.51,
+    "t_end": 3052.95,
+    "text": "be devoted to the study of the uniqueness question. So we now know that"
+  },
+  {
+    "t_start": 3052.95,
+    "t_end": 3058.87,
+    "text": "uniqueness question. So we now know that at least in the energy class this is one"
+  },
+  {
+    "t_start": 3058.87,
+    "t_end": 3063.51,
+    "text": "does have non-uniqueness but of course if you go to a slightly more regular"
+  },
+  {
+    "t_start": 3063.51,
+    "t_end": 3067.27,
+    "text": "class it is still open if you have it and this is this graph represent my own"
+  },
+  {
+    "t_start": 3067.27,
+    "t_end": 3071.27,
+    "text": "and this is this graph represent my own personal uh impression of what the from"
+  },
+  {
+    "t_start": 3071.27,
+    "t_end": 3073.67,
+    "text": "personal uh impression of what the from reading the literature what the opinion"
+  },
+  {
+    "t_start": 3073.67,
+    "t_end": 3078.87,
+    "text": "reading the literature what the opinion in the community is about the regularity"
+  },
+  {
+    "t_start": 3078.87,
+    "t_end": 3085.51,
+    "text": "question. Okay. So I started here with Osin who was I think kind of agnostic"
+  },
+  {
+    "t_start": 3085.51,
+    "t_end": 3088.87,
+    "text": "then Lar he he kind of moved towards singularity and then uh at least that's"
+  },
+  {
+    "t_start": 3088.87,
+    "t_end": 3090.95,
+    "text": "singularity and then uh at least that's my impression maybe other people will"
+  },
+  {
+    "t_start": 3090.95,
+    "t_end": 3093.03,
+    "text": "my impression maybe other people will have a different impression. There was"
+  },
+  {
+    "t_start": 3093.03,
+    "t_end": 3099.99,
+    "text": "have a different impression. There was uh like in the second half of the last"
+  },
+  {
+    "t_start": 3099.99,
+    "t_end": 3103.19,
+    "text": "century there was like increasing uh opinion that the solutions are regular"
+  },
+  {
+    "t_start": 3103.19,
+    "t_end": 3111.91,
+    "text": "and for some reason now the the opinion is moving towards uh singularity. Okay."
+  },
+  {
+    "t_start": 3111.91,
+    "t_end": 3121.27,
+    "text": "is moving towards uh singularity. Okay. So uh I venture to make a guess uh which"
+  },
+  {
+    "t_start": 3121.27,
+    "t_end": 3128.39,
+    "text": "uh the the most consistent with everything we know. Okay. So what do we"
+  },
+  {
+    "t_start": 3128.39,
+    "t_end": 3130.549,
+    "text": "know? We know we we never see singularities right in the numerical"
+  },
+  {
+    "t_start": 3130.549,
+    "t_end": 3134.79,
+    "text": "unless maybe if you really try hard some unstable situation and so on maybe we"
+  },
+  {
+    "t_start": 3134.79,
+    "t_end": 3137.75,
+    "text": "unstable situation and so on maybe we see something maybe can tell us"
+  },
+  {
+    "t_start": 3137.75,
+    "t_end": 3141.349,
+    "text": "see something maybe can tell us something about that. uh but generically"
+  },
+  {
+    "t_start": 3141.349,
+    "t_end": 3144.15,
+    "text": "something about that. uh but generically we don't see singularities"
+  },
+  {
+    "t_start": 3144.15,
+    "t_end": 3149.91,
+    "text": "yet nobody can prove regularity right and it's not that people would not try I"
+  },
+  {
+    "t_start": 3149.91,
+    "t_end": 3152.23,
+    "text": "and it's not that people would not try I mean all these uh mathematician nobody"
+  },
+  {
+    "t_start": 3152.23,
+    "t_end": 3156.309,
+    "text": "mean all these uh mathematician nobody can prove regularity so a consistent"
+  },
+  {
+    "t_start": 3156.309,
+    "t_end": 3159.03,
+    "text": "can prove regularity so a consistent conjecture would be that there are"
+  },
+  {
+    "t_start": 3159.03,
+    "t_end": 3161.589,
+    "text": "conjecture would be that there are singularities but they are all unstable"
+  },
+  {
+    "t_start": 3161.589,
+    "t_end": 3165.63,
+    "text": "singularities but they are all unstable so we don't see them okay that's all I"
+  },
+  {
+    "t_start": 3165.63,
+    "t_end": 3175.04,
+    "text": "want to say thank [Applause]"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "ku_video_ZFOPxZtlkig_20",
+    "t_start": 20.6,
+    "t_end": 112.7,
+    "type": "overview",
+    "summary": "well I have to say that describing the languin program even to mathematicians languin program even to mathematicians is probably harder than solving fen's is probably harder than solving fen's Last Theorem but here Last Theorem but here goes goes [Music] [Music] um so we can start at the very beginning solving quadratic equations so of course the solution to this which we all learn in school goes this which we all learn in school goes back to the ancient Greeks and even back to the ancient Greeks and even further uh the Babylonians and so but we won't stop with quadratic equations there a g…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_112",
+    "t_start": 112.7,
+    "t_end": 204.0,
+    "type": "overview",
+    "summary": "rather their generalization cubic curves are also very useful in many ways in cryptography and so on and I was thinking I should do a picture but I learned Le a little while ago that ago that apparently I've already drawn many many curves because apparently all PDF script is actually made up of cubic is actually made up of cubic curves uh which is somehow mindboggling to me apparently it was F these kinds of Curves were first used in the design of Renault cars in the 1960s but they're Renault cars in the 1960s but they're now used in the script okay so here's an now used in the script okay …"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_203",
+    "t_start": 204.0,
+    "t_end": 298.0,
+    "type": "overview",
+    "summary": "and so Talia much against his better judgment gave him the solution um on condition he never cardano never published it but he wrote cardano never published it but he wrote it in the form of a poem so this is the poem and this is a an English translation of translation of it so at the end you can see I've it so at the end you can see I've marked what uh on the right hand side what this translates to in um algebraic translates to in um algebraic terms so in the period this is in so the century they didn't have algebraic notation so um everything was written out in the form of a word problem …"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_300",
+    "t_start": 300.5,
+    "t_end": 391.0,
+    "type": "overview",
+    "summary": "cardano did publish it but only when he heard that Delo had had a solution heard that Delo had had a solution himself so that's cubic equations they himself so that's cubic equations they have this solution and by solution here have this solution and by solution here we mean you're allowing yourself Roots we mean you're allowing yourself Roots so this has a square roots in it and it it so the question was could you solve all equations this way could you solve Roots so the next success was a student of cardano Ferrari who solved the quartic equation I won't write up the solution and then the…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_390",
+    "t_start": 391.0,
+    "t_end": 486.9,
+    "type": "overview",
+    "summary": "uh an example of quintic equation that could not be solved and could not be solved and galwa then later gave a whole Theory when uh General equations would have Solutions and when they wouldn't and Solutions and when they wouldn't and gave a way to analyze gave a way to analyze it arble and galwa were the it arble and galwa were the mathematicians of the 19th century who um most make you think of the Romantic Poets of the era in that arble died of Poets of the era in that arble died of tuberculosis at the age of 26 and gwa in 20 but despite that uh they uh transformed the uh they uh transfo…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_486",
+    "t_start": 486.9,
+    "t_end": 578.6,
+    "type": "overview",
+    "summary": "number zero was first really used mathematically by in Europe by mathematically by in Europe by Fibonacci around 1200 cardano was the first really to use negative numbers and first really to use negative numbers and imaginary imaginary numbers numbers although he didn't allow himself to give an answer in those terms he would only use them to get the solution and then hopefully the solution didn't involve hopefully the solution didn't involve them so because they didn't allow numbers they actually thought of uh not just the problem of one cubic equation just the problem of one cubic equation…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_578",
+    "t_start": 578.6,
+    "t_end": 665.5,
+    "type": "overview",
+    "summary": "people from thinking more broadly about things like negative numbers and things like negative numbers and imaginary numbers uh even for the Greeks multiplying more than three numbers multiplying more than three numbers together was was not natural because the together was was not natural because the volumes only had three numbers volumes only had three numbers multiplied together how would you multiplied together how would you describe them so perhaps not surprisingly once algebra was allowed to interact with algebra was allowed to interact with geometry some of the classical Greek geometry…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_670",
+    "t_start": 670.6,
+    "t_end": 763.2,
+    "type": "overview",
+    "summary": "on well once this notion of algebra is understood then the first two doubling understood then the first two doubling the cube and tricing the angle the cube and tricing the angle become relatively understandable and I think uh probably the people like GA and think uh probably the people like GA and so on did understand that it could be so on did understand that it could be solved uh it wasn't actually published till the 1830s by a Frenchman but uh since no one 1830s by a Frenchman but uh since no one reacted to his paper at all I presume reacted to his paper at all I presume that everybody …"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_763",
+    "t_start": 763.2,
+    "t_end": 856.6,
+    "type": "overview",
+    "summary": "regular 17 agon which is apparently heptagon so I put in commas heptagon so I put in commas constructed because he didn't like many constructed because he didn't like many mathematicians actually draw the picture mathematicians actually draw the picture he reduced it to a problem which he knew he could do it someone else actually drew the picture write down all the details I think he thought it's obvious once he shows you thought it's obvious once he shows you what to do that the regular Eng gon is if the number of sides has to form a power of two times the product of power of two times the…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_856",
+    "t_start": 856.6,
+    "t_end": 949.3,
+    "type": "overview",
+    "summary": "primes he didn't claim to have proved it but he thought it was true but actually but he thought it was true but actually no one has ever found another one and no one has ever found another one and it's unsolved whether there are it's unsolved whether there are anymore and yes you can find a regular anymore and yes you can find a regular 65537 are gone and someone even did the geometric construction it even did the geometric construction it took him 10 years and 200 took him 10 years and 200 Pages um but it probably wasn't worth it okay so now I want to take you to a bit more modern mathemat…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_949",
+    "t_start": 949.3,
+    "t_end": 1039.9,
+    "type": "overview",
+    "summary": "going to allow myself square roots of negative numbers cube root of one is - a half plus the &lt; TK -3 /2 if you try Square plus the &lt; TK -3 /2 if you try Square cubing that and just use the rule like cubing that and just use the rule like cardano would have done that the square cardano would have done that the square &lt; TK of -3 squar is -3 you will find the one and if you take all numbers like this so the cube root of one the fourth this so the cube root of one the fourth root of one the fifth root of one and so on and you allow yourself to add them together and so on and take the e…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_1039",
+    "t_start": 1039.9,
+    "t_end": 1130.8,
+    "type": "overview",
+    "summary": "form so if you've done um group Theory and gawa Theory then aan equations means and gawa Theory then aan equations means you've got an A bilon gawa extension of the rationals and they're given by equations like equations like this but now the question comes can you rational numbers but you start with other kinds of numbers for example you other kinds of numbers for example you start with this number I've written like start with this number I've written like seven 4S plus 6 * the &lt; TK of 73 you start with some other algebraic number and ask what are the ailan equations and ask what are th…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_1130",
+    "t_start": 1130.8,
+    "t_end": 1222.4,
+    "type": "overview",
+    "summary": "mathematicians but the key breakthrough was actually during the first world war was actually during the first world war by a Japanese mathematician the first by a Japanese mathematician the first first one that I'm aware of U called Takagi and sadly he came to Europe in 1920 to the mathematical Congress but because of the first world war there were no Germans allowed at war there were no Germans allowed at that mathematical Congress so takagi's work which he presented was not understood by any of presented was not understood by any of the people there and it was kind of um appreciated but l…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_1222",
+    "t_start": 1222.4,
+    "t_end": 1317.2,
+    "type": "overview",
+    "summary": "those well first just to describe it I need to just remind you what matrices need to just remind you what matrices are um so matrices are these arrays of are um so matrices are these arrays of numbers and I'm just going to talk use numbers and I'm just going to talk use matrices where all the entries are integers and where the determinant is one so the determinant of a 2X two one one so the determinant of a 2X two one the first one I've written the first one I've written 3152 the determinant is 3 * 2 - 1 * 5 3152 the determinant is 3 * 2 - 1 * 5 and that's supposed to be one and you and tha…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_1317",
+    "t_start": 1317.2,
+    "t_end": 1405.6,
+    "type": "overview",
+    "summary": "letter form and sent off to Andre vay who is one of the leading mathematicians who is one of the leading mathematicians of the period langin came from a background um actually an analysis more related to actually an analysis more related to calculus he had calculus he had no no real connection with number Theory this what did he do well ban equations we saw at least over the equations we saw at least over the rationals have some link with with the nth root of one now I wrote it before I gave you a um a calculation of it but in gave you a um a calculation of it but in general the nth root of…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_1408",
+    "t_start": 1408.8,
+    "t_end": 1499.8,
+    "type": "overview",
+    "summary": "relation and what langland realized was that non-solvable realized was that non-solvable equations should correspond to functions which are invariant by certain kinds of matrices and it takes a lot of work to work out exactly takes a lot of work to work out exactly which kinds of matrices um so for example you might have a relation like f of 3x + 1/ 5x + 2 have a relation like f of 3x + 1/ 5x + 2 is x + 2^ 2 * F is x + 2^ 2 * F ofx and maybe you want that for many ofx and maybe you want that for many more matrices and you want it for all X and yes there are some such functions there' been a…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_1499",
+    "t_start": 1499.8,
+    "t_end": 1589.7,
+    "type": "overview",
+    "summary": "these these functions and you can read off the properties of these nonsolvable off the properties of these nonsolvable equations in terms of properties of the functions so it's a correspondence but it's not actually telling you what the are so there are many functions like this and just like the COS function and the S function are used in harmonic analysis they're used for fur analysis they're used in engineering or the time they used to describe the real world and they used to describe the real world and used to solve differential equations and used to solve differential equations and so o…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_1591",
+    "t_start": 1591.7,
+    "t_end": 1685.8,
+    "type": "overview",
+    "summary": "started it became insatiable not insatiable not just equations in one variable as I've here uh the classical equations but whole systems of equations all of whole systems of equations all of algebraic geometry you can write as algebraic geometry you can write as systems of equations and they are supposed to correspond to functions in the same way correspond to functions in the same way even more generally than that you can start with I've said you can change the field from the rationals you can start talking about other fields you can take Fields over the complex numbers and you Fields over…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_1685",
+    "t_start": 1685.8,
+    "t_end": 1777.0,
+    "type": "overview",
+    "summary": "having this correspondence between seemingly two different fields between on the one hand equations in one variable and functions in variant by variable and functions in variant by matrices is that sometimes operations matrices is that sometimes operations are very easy on one side of the predict things on the other side because if if you can do something to an equation then you must be a able to do something on the other side to the something on the other side to the functions and vice versa and by seeing this langin has generated an enormous number of problems generated an enormous number…"
+  },
+  {
+    "id": "ku_video_ZFOPxZtlkig_1776",
+    "t_start": 1777.0,
+    "t_end": 1829.2,
+    "type": "overview",
+    "summary": "fact fma's Last Theorem also used results from the langin program it turned out that the aelan case and class field Theory were not case and class field Theory were not enough even though people thought when they were introduced they probably should be enough Kuma uh worked with those kinds of tools in the middle of the 19th century it did many cases of the farar problem but it it wasn't sufficient and problem but it it wasn't sufficient and in fact it had to wait in fact it had to wait for uh the development of the langin for uh the development of the langin program to to Really program to…"
+  }
+]

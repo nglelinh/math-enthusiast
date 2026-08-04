@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400">
+  <rect width="720" height="400" fill="#fafbfc"/>
+  <text x="360" y="30" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#1a1a1a">δ-tubes: length ~1, radius ~δ</text>
+  <!-- tubes as elongated capsules at different angles -->
+  <g fill="#004586" opacity="0.25" stroke="#004586" stroke-width="1.2">
+    <ellipse cx="200" cy="200" rx="160" ry="14" transform="rotate(-20 200 200)"/>
+    <ellipse cx="320" cy="180" rx="160" ry="14" transform="rotate(15 320 180)"/>
+    <ellipse cx="400" cy="220" rx="160" ry="14" transform="rotate(-40 400 220)"/>
+    <ellipse cx="280" cy="250" rx="160" ry="14" transform="rotate(50 280 250)"/>
+    <ellipse cx="450" cy="160" rx="160" ry="14" transform="rotate(5 450 160)"/>
+    <ellipse cx="360" cy="280" rx="160" ry="14" transform="rotate(-55 360 280)"/>
+  </g>
+  <circle cx="340" cy="210" r="28" fill="#c73e1d" opacity="0.2" stroke="#c73e1d" stroke-width="2"/>
+  <text x="340" y="215" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#c73e1d">heavy</text>
+  <text x="340" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#c73e1d">overlap</text>
+  <text x="360" y="350" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#333">If tubes barely overlap: volume ~ N · δ². If they cluster: union can be much smaller.</text>
+  <text x="360" y="375" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#444">Kakeya analysis asks how small that union can be while covering all directions.</text>
+</svg>

@@ -1,0 +1,1378 @@
+okay first thanks to the organizers for inviting me um
+um so i was told that that people in the school entering the school were not
+assumed or were not required to have any kind of pre-knowledge and that means
+that i will have the honor to tell you for the first time ever in your life
+for the first time ever in your life what a qubit is
+what a qubit is now
+in actual fact probably most of you know the introductory stuff right so what i'm
+going to do is i'll spend a fairly sort of a short amount of time going over the
+of a short amount of time going over the basics more as a reminder than as a
+basics more as a reminder than as a first introduction
+algorithm then i'll take a short break and then i'll explain shor's algorithm
+and then i'll explain shor's algorithm which is one of the main quantum
+which is one of the main quantum algorithms that we have and that's my 90
+algorithms that we have and that's my 90 minutes for today
+and tomorrow i'm going to do another 90 minutes about grover's algorithm and
+minutes about grover's algorithm and some of its applications
+and you can view these things together as sort of the sort of the 1990s view of
+as sort of the sort of the 1990s view of quantum computing
+um let's see i'm happy to take questions both from zoom and from from people here
+both from zoom and from from people here uh just try to interrupt me if something
+is not clear it will help not only you but probably also other people who are
+but probably also other people who are might be confused about something
+might be confused about something um
+right so let me let me get started i think my microphone sounds different
+i think my microphone sounds different depending on how my head is tilted uh
+as long as long as as most of what i'm saying is sort of audible
+okay so where do we start we start with the bit right classical bit
+the bit right classical bit it's a zero or one
+qubits so we need to generalize this to the quantum world and what the quantum
+the quantum world and what the quantum world allows us to do is to take
+states which in the classical world would be mutually exclusive and what do
+would be mutually exclusive and what do we do
+we do we
+values the zero and the one this is now called cat notation we associate these
+called cat notation we associate these two things with two-dimensional vectors
+two things with two-dimensional vectors so this will be the vector
+so this will be the vector one zero
+this will be the vector zero one
+and then we're allowed to take linear combinations of these two basis states
+combinations of these two basis states with complex coefficients
+with complex coefficients so this is now a cubit
+get 0 plus alpha 1 cat 1 and you can also write this as a
+and you can also write this as a two-dimensional vector and you should
+two-dimensional vector and you should think of this as a vector in c2
+two-dimensional complex vector um
+and this is this is just one qubit there's there's really not that much you
+there's there's really not that much you can do with it so we need to generalize
+this is one qubit two qubits
+um so the classical situation for two bits would be that there's four possible
+bits would be that there's four possible basis states 0 0 0 1 1 0 and 1 1 and the
+basis states 0 0 0 1 1 0 and 1 1 and the same will be true in the quantum case
+and again we can take linear combinations of those four possibilities
+combinations of those four possibilities so let's say for instance
+what is the basis state 0 0 this is this this notation here this is really
+this notation here this is really shorthand for a tensor product
+of one qubit in stage 0 and another qubit also in state 0
+and the way tensor product works is you take your first vector
+and you multiply basically each of its entries with the second vector this is
+entries with the second vector this is kind of a
+hands-on definition of tensor product i'm sure a mathematician would disagree
+i'm sure a mathematician would disagree but this is really how it works in
+right so this one here gets replaced by this vector and this zero gets replaced
+this vector and this zero gets replaced by zero times this vector which is just
+right then similarly the other basis states uh
+so for instance zero one which is really an abbreviation of cat
+this would be the basis state or the the vector 0 1 0 0
+or the the vector 0 1 0 0 1 0 would be
+which is the tensor product of this vector with itself looks like this
+and the general state of two qubits would be
+these four basis states with with coefficients with complex coefficients
+coefficients with complex coefficients so you would have alpha 0 0 get 0 0
+0 1 plus alpha 1 0 gets 1 0 plus alpha 1 1
+plus alpha 1 0 gets 1 0 plus alpha 1 1 cat 1 1
+and written as a vector in c4 it just looks like this
+and there's something that sort of automatically happens that when you take
+automatically happens that when you take the standard product which
+which which we sort of take for granted but let me say it explicitly and that is
+that the ordering of these four amplitudes
+each amplitude corresponds to a basis state and this ordering corresponds to
+the bit strings in lexicographical ordering
+so if you if you're a computer scientist then you know that zero zero
+corresponds to the integer zero zero one the binary string zero one
+one zero corresponds to the integer two and one one corresponds to the integer
+and one one corresponds to the integer three
+and so the ordering of these four amplitudes exactly follows this
+amplitudes exactly follows this lexicographical ordering of bit strings
+right then more generally if you have an n-cubit state you get the same thing
+n-cubit state you get the same thing except that that you'll have a
+except that that you'll have a superposition now over all possible two
+superposition now over all possible two to the n classical strings with n bits
+so there's just going to be a state like this
+sum some overall indie says i running over the n-bit strings
+get i and this thing here this is really a tensor product of n individual basis
+states for n separate bits right so this works out because of tensor product to a
+works out because of tensor product to a to the a2 to the n-dimensional vector
+to the a2 to the n-dimensional vector with the one exactly at the i-f position
+because of this lexical graphical ordering
+right then i'm going to always implicitly here just make the
+always implicitly here just make the bijection between the n-bit strings and
+bijection between the n-bit strings and the integers between
+0 and 2 to the n minus 1. so let me write this down explicitly like for
+write this down explicitly like for computer scientists this kind of thing
+computer scientists this kind of thing goes without saying but for physicists
+goes without saying but for physicists it's sometimes confusing unless i say it
+it's sometimes confusing unless i say it explicitly so let me say it explicitly
+explicitly so let me say it explicitly i'm going to identify
+i'm going to identify the set of n bit strings
+between 0 and 2 to the n minus 1. right and sometimes i'm going to write
+an integer and sometimes i'm going to write a binary string and you should in
+your mind just think okay that's the same thing
+is it working out okay by the way with the kind of enlargement for the people
+the kind of enlargement for the people in the back i hope everybody can see it
+well yeah good um
+and then the question of course is okay this this kind of describes states right
+this this kind of describes states right states of one qubit states of two qubits
+states of n qubits and the question is what can you do with this
+and basically there's two things you can do with this and that is to
+do with this and that is to either measure such a state
+either measure such a state or uh do an interesting unitary
+transformation to it you can also do an uninteresting unitary transformation to
+uninteresting unitary transformation to it but why would you
+uh so if you measure your full state let's say we have an n cubit state let's
+let's say we have an n cubit state let's say this guy let's call it psi
+what happens if you measure the state psi in the computational basis well you
+eye nor with the machine so what you will actually see will be one of those
+will actually see will be one of those basic states so one particular cat eye
+basic states so one particular cat eye and quantum mechanics doesn't sort of
+and quantum mechanics doesn't sort of allow you to determine which one you
+allow you to determine which one you will see you can only determine the
+probability distribution over the possible measurement outcomes
+and you will see a particular i get i so that think of that just as a
+get i so that think of that just as a classical and big string right so say
+classical and big string right so say first bit is tell you one second bit is
+first bit is tell you one second bit is value zero third bit is value zero etc
+value zero third bit is value zero etc and you see the outcome i
+and you see the outcome i with probability
+given by its the modulus squared of its amplitude
+should just take it as an axiom here this is this is how the most basic kind
+this is this is how the most basic kind of measurement of a quantum state works
+of measurement of a quantum state works um and if you actually observed your
+state and you got outcome cat i then the state has actually collapsed to that
+state has actually collapsed to that outcome like all the other amplitudes
+outcome like all the other amplitudes will have disappeared
+will have disappeared so the post-measurement state
+it's just going to be this cat eye that you observed
+this cat eye that you observed and physicists who are much better than
+and physicists who are much better than computer scientists at choosing good
+computer scientists at choosing good terminology they call this the collapse
+of the wave function it's very kind of spectacular and also somewhat mysterious
+spectacular and also somewhat mysterious and of course lots of philosophy books
+have written about that but i'm not going to go into that
+going to go into that so that's the most basic measurement
+so that's the most basic measurement notice that this implies
+notice that this implies because these different probabilities
+have to add up to one it means that the sum of squares of the amplitudes has to
+sum of squares of the amplitudes has to be one
+so implication here is that the norm
+is that the norm of
+a quantum state psi or even the squared norm which is the sum of squares of the
+norm which is the sum of squares of the amplitudes
+right so what is a quantum state of n cubits is just a two to the n
+and this is really the most basic measurement where you just measure all
+measurement where you just measure all of your qubits in a computational basis
+of your qubits in a computational basis you can also choose to measure some
+you can also choose to measure some qubits and leave others alone
+qubits and leave others alone so for
+so for instance if you measure
+i can but then i'm losing something here and also on the screen
+well except for this piece here okay but let me
+do this a little bit so if you only measure one qubit out of
+you have a state psi which you can write like this alpha 0
+which you can write like this alpha 0 get 0 for the first qubit and then some
+other normalized state phi 0 plus alpha 1 get 1 and then some other
+normalized states five one if you measure only the first qubit of
+then something happens that you should sort of intuitively expect will happen
+sort of intuitively expect will happen namely you will get an outcome for the
+so you see zero
+alpha zero squared and the state becomes
+phi zero so you sort of collapse to that part of the superposition where the
+part of the superposition where the first qubit was zero
+first qubit was zero and you see one
+and you see one as outcome of your measurement
+with probability
+alpha one squared and the state then becomes
+right so this is sort of partial measurements
+quantum mechanics allows more general kinds of measurement but for the
+kinds of measurement but for the purposes of quantum algorithms which is
+purposes of quantum algorithms which is my focus here this is certainly good
+enough this is all you need to know right so you can measure a state but
+right so you can measure a state but before you measure it you would like to
+before you measure it you would like to do something useful to it
+do something useful to it and the kind of transformations that
+and the kind of transformations that quantum mechanics allows you to do are
+quantum mechanics allows you to do are linear this is a consequence of the
+linear this is a consequence of the schrodinger equation which i will not
+schrodinger equation which i will not explain
+transformations of the vector of two to the n amplitudes they are linear
+and they should also be norm preserving and that just makes conceptual sense
+and that just makes conceptual sense because you start with a vector whose
+because you start with a vector whose length is one the sum of squares of
+amplitudes is one just because you want to give a probability interpretation to
+to give a probability interpretation to these things and the same should still
+be true after your transformation the sum of squares of the new amplitude
+sum of squares of the new amplitude should still be one
+right so it's linear entries per serving sorry norm preserving
+right norm and length in this case is the same thing
+and that means that the transformations we can do on our vector of amplitudes
+so 2 to the n cross 2 to the n unitary matrices this is what we can do
+and there's different ways to kind of define different equivalent ways to
+could say it has to be a matrix that preserves the length of the vector the
+norm of the vector you can say that it has to preserve inner products between
+has to preserve inner products between pairs of vectors you can say that
+pairs of vectors you can say that somehow the matrix version of your
+somehow the matrix version of your transformation its columns have to form
+transformation its columns have to form an orthonormal basis all these things
+an orthonormal basis all these things are equivalent
+and another way to say it is that the inverse so first of all the inverse
+the inverse so first of all the inverse of every unitary matrix exists and
+of every unitary matrix exists and secondly it corresponds to the conjugate
+secondly it corresponds to the conjugate transpose of that matrix
+will be equal to u star physicist would call this dagger but i'm
+physicist would call this dagger but i'm following here the math notation of
+following here the math notation of using a star for the for the conjugate
+using a star for the for the conjugate transpose
+now let me just give a few examples of simple unitary matrices that we will see
+simple unitary matrices that we will see later again
+later again examples of unitary matrices
+so for instance there's the single qubit x
+x unitary matrix which corresponds to
+right this is the matrix expression of the x operation and the only thing the x
+the x operation and the only thing the x operation does is it it flips these two
+get zero goes to cat one cat one goes to get zero right so this is essentially
+except that you can apply it to a superposition if you like
+another important single qubit operation is the z-gate
+which as a matrix looks like this and what this does is it sort of leaves
+and what this does is it sort of leaves the basis states alone except that it
+the basis states alone except that it modifies the amplitude
+of the cat1 base state for a qubit what it will do is it will put a minus in
+it will do is it will put a minus in front of this guy if you apply this to a
+another important gate for many purposes is the so-called
+t-gate that's this guy
+it's sort of like the z-gate in fact it's the what is it the fourth root of
+if you apply the t four times you get the z-gate
+and this puts puts a a complex phase in front of the alpha one amplitude if you
+front of the alpha one amplitude if you have one qubit
+and you can kind of combine these different uh uh single qubits operations
+different uh uh single qubits operations into bigger unitaries by taking the
+into bigger unitaries by taking the tensor product
+for instance if you would like to apply x to the first qubit e to the second
+x to the first qubit e to the second qubit you would take x enter t tensor
+and the most interesting or certainly one of the most interesting unitary
+and this one is very interesting because it really creates
+it really creates superposition
+all of these three guys here they sort of map basic states the basis states
+maybe fiddling a little bit with the amplitudes maybe flipping zeros and once
+amplitudes maybe flipping zeros and once but this guy here really creates
+but this guy here really creates superpositions
+and this is really one of our main tools like as you will see quantum algorithms
+like as you will see quantum algorithms typically start by creating some
+typically start by creating some humongous superposition and one way to
+humongous superposition and one way to create a humongous superposition is to
+create a little superposition on each qubit because this will factor out to a
+big superposition overall right so for instance if you apply h to
+and 0 classical bits which is which is in stage 0
+you get a uniform superposition over 0 and 1.
+and if you apply h to get one you basically get the same thing
+and a minus sign is super important because it gives rise to interference
+because it gives rise to interference effects later
+right and these are literally very small examples because they all apply to
+examples because they all apply to single qubit systems but you can
+single qubit systems but you can similarly give examples for more than
+important example of a two qubit unitary transformation is the so-called
+is if you express it as an operation on basis states it it applies a negation to
+basis states it it applies a negation to the second bit if the first bit is one
+the second bit if the first bit is one let me write this one here
+if you apply it to a basis state of two bits a control bit and a target bit
+bits a control bit and a target bit say c comma t
+c and t would be individual bits then this gets mapped to
+then this gets mapped to c comma
+c comma t
+plus c modulo 2 and this is just a fancy way of saying
+flip the t value if c is one sort of think of this as an if-then
+sort of think of this as an if-then statement but then in the form of a
+two-qubit unitary and i think this is all you need to know
+right sometimes people take whole semesters of course it's about quantum
+semesters of course it's about quantum mechanics i really don't know why really
+mechanics i really don't know why really 20 minutes is enough
+so this is probably a good time to pause for questions if there are any
+like i said i assume most of you sort of know this stuff already
+now this this whole week is about quantum computation and as the name says
+quantum computation and as the name says um
+quantum computation combines quantum and computation the quantum is on the board
+on the left the computation will be on the board on
+and if you look at the classical theory of computation uh the most basic model
+of computation uh the most basic model is the deterring machine which was
+is the deterring machine which was introduced by alan turing in 1936
+at that point quantum mechanics was sort of completed quantum mechanics was
+really a multi-people effort you know people like uh like plunk and boor and
+people like uh like plunk and boor and einstein and schroedinger and heisenberg
+einstein and schroedinger and heisenberg they together over a period of about 25
+years they developed quantum mechanics computation of course like if you have
+this paper by touring in 1936 because it really defines what computation is but
+really defines what computation is but of course also there like earlier stuff
+of course also there like earlier stuff had happened there's
+there's even work by leipnids in the 17th century that is sort of a little
+17th century that is sort of a little bit like defining what computation is
+bit like defining what computation is but in a very wishy-washy way
+but if you want the the sort of the mathematical starting point of computer
+mathematical starting point of computer science as a science it should be
+science as a science it should be turing's 1936 paper about the
+turing's 1936 paper about the computability
+computability and what he defined is the turing
+of course you didn't call it the turing machine that would be greatly immodest
+machine that would be greatly immodest um what a turing machine is is it it's
+essentially a sort of an unlimited binary string
+with a very simple processor which sort of moves over the string and does very
+simple things to it so you have a tape
+let's say it's it's finite at one end consists of cells each cell can take a
+consists of cells each cell can take a bit
+right so let's say that the first cell is zero maybe the second one is also
+is zero maybe the second one is also zero then the third one is one one zero
+and it in principle it's unlimited in the sense that the computer can always
+sort of add all new cells if it needs to and then there's a tape head or you can
+and then there's a tape head or you can think of that as a processor
+and that's sitting at one particular location so it's like a little machine
+location so it's like a little machine or think of it as a robot it's sort of
+and it's a finite state machine it has a it has only like a finite number of
+internal possibilities finite number of states
+and what it does is it looks at the cell where it's standing it looks at whether
+that's a zero or one looks at its internal state and depending on that it
+internal state and depending on that it just looks up in a finite sized table
+just looks up in a finite sized table what to do right and what to do means
+what to do right and what to do means you can you can either change this bit
+you can you can either change this bit or not and you can move left or right or
+you can stay in the same place and that's all that this turing machine
+and that's all that this turing machine does
+and what turing argued quite convincingly is that everything that
+convincingly is that everything that intuitively we call a computation or an
+can be massaged in this form there's this thing called the church
+there's this thing called the church turing thesis
+it's a thesis it's it's not a mathematical statement
+everything that we would reasonably call computation is can be written as a
+computation is can be written as a turing machine or as a turing machine
+turing machine or as a turing machine program so to speak
+program so to speak very reasonable computation
+right and then this model of computation this very peculiar turing machine this
+turns out to be equivalent to lots of other things like if you can if you have
+other things like if you can if you have a turing machine for something you can
+write a c program for it or a python program for it and vice versa
+program for it and vice versa so this is
+i think classical computer science sort of the founding or foundational model of
+of the founding or foundational model of computation but there's another model
+computation but there's another model which in many cases makes more sense or
+is let's say is easier to deal with so that's an alternative model
+and if you write down a boolean circuit for computation what that means is that
+for computation what that means is that you sort of decompose your computation
+you sort of decompose your computation into various tiny little operations each
+into various tiny little operations each of which is called a logic gate
+and each of which is like you can sort of choose which set of elementary logic
+of choose which set of elementary logic gates you allow but very common choice
+gates you allow but very common choice is to allow end gates and or gates and
+and here's the little example of something i don't know if it does
+something i don't know if it does anything useful probably not
+let's say that you have three bits that you that you operate upon
+you that you operate upon then you can
+consisting of these logic gates where the the initial the sort of
+where the the initial the sort of internal vertices are and or and not
+internal vertices are and or and not gates
+right so this bit here gets a not gate applied to it means it becomes a one
+applied to it means it becomes a one let's say that these two guys they get
+let's say that these two guys they get an or gate applied to them
+the output would be one because the or gate is one if at least one of the two
+incoming bits is one and then let's say you could apply an
+and what bit comes out well let's see like this this wire is
+let's see like this this wire is carrying a one now because this zero has
+this buyer is carrying a one because the or gate here had at least one incoming
+wire that was one so two ends are going into this end gate and that means that
+into this end gate and that means that the output bit is a one
+the output bit is a one this is an interesting computation i
+don't really know but as a model of computation it makes sense and it sort
+computation it makes sense and it sort of corresponds to um
+which is and chips certainly don't work like turing machines they sort of work
+like turing machines they sort of work like this
+they sort of have little logic gates that that operate on on individual bits
+that that operate on on individual bits and there's a few things to to sort of
+so you can think of this as time progressing from left to right
+you can also think of it as a list of instructions like first apply a not gate
+instructions like first apply a not gate to this wire then apply an or gate to
+a think of this as a list of instructions
+instructions very simple instructions
+and this is not time in any physics sense of the word it's more like
+sense of the word it's more like succession of operations time goes from
+succession of operations time goes from left to right
+another thing to note here is that this operation is actually non-reversible
+operation is actually non-reversible right and that's just because the
+elementary or and end gates are not reversible two wires go in one wire
+reversible two wires go in one wire comes out you cannot typically recover
+comes out you cannot typically recover from the value of the output wire what
+from the value of the output wire what the two input wires were
+so these are i would say the two main models of um of classical computing the
+models of um of classical computing the turing machine model and the boolean
+turing machine model and the boolean circuit model they're slightly different
+circuit model they're slightly different here in the sense that
+your number of input bits is kind of fixed that's not true for the turing
+fixed that's not true for the turing machine so here you have a separate
+machine so here you have a separate circuit
+circuit for each input length
+machine you know your initial tape could contain as many input bits as you want
+contain as many input bits as you want so you have one turing machine for each
+input length n in the case of the boolean circuit model you have a
+boolean circuit model you have a separate boolean circuit for each input
+and the idea here is that a turing machine is efficient if it doesn't take
+machine is efficient if it doesn't take too many steps before it terminates and
+too many steps before it terminates and the boolean circuit is efficient if it
+the boolean circuit is efficient if it doesn't contain too many internal gates
+doesn't contain too many internal gates and it turns out that these two things
+if there's a turing machine with a polynomial number of steps to solve some
+polynomial number of steps to solve some problem there's going to be a family of
+boolean circuits of polynomial size to solve the same problem
+okay so this is all just preparation on the left you have the quantum computing
+the left you have the quantum computing phrased in in the language of qubits on
+computation and now the whole point of this field of quantum computation is to
+this field of quantum computation is to combine these two things
+combine these two things into quantum computation
+into quantum computation or quantum computing
+right and that means that we somehow have to generalize this classical
+have to generalize this classical computation model to the language not of
+and you can of course do what people did in the early 90s and that is to
+in the early 90s and that is to define a quantum turing machine
+you can do that you can make it well defined it's not easy
+defined it's not easy the big issue here is that because the
+limited you can't really say this is acting on n qubits you need sort of an
+acting on n qubits you need sort of an indefinite number of qubits to define a
+indefinite number of qubits to define a quantum turing machine and that is very
+quantum turing machine and that is very very painful
+so this model of quantum turing machine it exists and it makes sense but it's
+it exists and it makes sense but it's super painful
+super painful so that's not what we typically study in
+instead what we study in practice is a quantum version of this boolean circuit
+quantum version of this boolean circuit model
+model that's called quantum circuits
+because this is sort of the canonical model of quantum computation
+model of quantum computation um
+so what do we have here we have we start with a number of qubits
+we apply a prescribed sequence of elementary unitary operations which are
+elementary unitary operations which are also called gates on the qubits
+and at the end we measure to get a classical output i will only be
+classical output i will only be considering the situation when you have
+considering the situation when you have a classical input and you want a
+a classical input and you want a classical output right think of for
+classical output right think of for instance the factoring problem there's a
+instance the factoring problem there's a number you want to factor what should
+number you want to factor what should come out would be classical binary
+come out would be classical binary descriptions of the factor of that
+descriptions of the factor of that number
+uh what's an elementary unitary well we can be a little bit fuzzy about this
+can be a little bit fuzzy about this because it turns out that that different
+because it turns out that that different sets of elementary unitaries can
+sets of elementary unitaries can typically simulate other sets of
+elementary unitaries so to be specific we can for instance
+that what we allow as our elementary unitaries would be c note gates
+unitaries would be c note gates controlled not gates
+that's the only two qubit gates that i gave as an example over there plus for
+gave as an example over there plus for instance the hadamard gate
+instance the hadamard gate and the t-gate
+for instance take the c naught and all possible single qubit gates of which
+possible single qubit gates of which there are very many continuously many it
+there are very many continuously many it all doesn't really matter these things
+all doesn't really matter these things can all stimulate each other very well
+right and this is really in an analogy with a classical boolean circuit model
+with a classical boolean circuit model where there's like three basic
+operations you can do and or not uh similarly if you define your set of
+uh similarly if you define your set of elementary gates like this there are
+elementary gates like this there are three basic operations you can do and
+you can stack these things together into bigger circuits and that's your quantum
+bigger circuits and that's your quantum algorithm
+superposition with the effects of interference interferences like positive
+and negative amplitudes canceling each other out in the right way whatever that
+do you want to combine superposition
+superposition with interference
+or rather you want to sort of engineer that the right interference effects
+that the right interference effects happen
+to solve your computational problem think
+think factoring integers
+and small means not too many gates so like on a high level like you know if
+like on a high level like you know if you abstract away from the physics which
+you abstract away from the physics which i'm doing here all the time if you
+abstract away from the physics then the number of elementary gates in your
+circuit that's sort of a measure of how much work you need to do to do the
+much work you need to do to do the computation so think of each of these
+computation so think of each of these gates executing one of these gates think
+right then your total amount of work is proportional to the number of gates in
+proportional to the number of gates in your circuit so a small circuit is
+your circuit so a small circuit is efficient and a big circuit with many
+gates is not efficient a small circuit means
+a small circuit means only few gates
+and let me give you one little example of a quantum circuit it's not something
+of a quantum circuit it's not something that computes something interesting but
+it well i mean it's not something that computes a classical output but it does
+computes a classical output but it does produce an interesting state
+produce an interesting state so here's an example of a little circuit
+uh that's probably good yeah so i i will use this board here for the deutsches
+use this board here for the deutsches algorithm and then take a five minute
+algorithm and then take a five minute break
+break uh yes please thanks
+cleaning these boards is a non-trivial exercise
+speaking of which at the end of the lecture i'll assign some exercises that
+lecture i'll assign some exercises that you could think about if you like to for
+so here's a very very simple circuit so just like in the classical case you know
+time goes from left to right and you should think of this circuit as uh
+should think of this circuit as uh as as just prescribing a sequence of
+as as just prescribing a sequence of gates you need to do at
+gates you need to do at particular qubits right so what is what
+does this circuit say well first you do a mark gate on your first qubit and then
+you do a controlled not gate on your both of your qubits and that's it it's a
+super simple example it does do something interesting
+something interesting because it let's say that we start this
+an initial state where both of the qubits are zero
+then you can try to see what what this circuit does on that input state and
+whenever you want to see what a circuit does on the input state kind of the easy
+does on the input state kind of the easy way to do it or at least a
+straightforward way to do it is just to track the state as it goes through the
+track the state as it goes through the circuit
+right so what do we have for instance after the harmar gate has has hit the
+after the harmar gate has has hit the first qubit
+what we're really doing by the way is a two qubit unitary hadamard tensor
+two qubit unitary hadamard tensor identity because this this ongoing wire
+just means that identity matrix in other words nothing is happening to the second
+words nothing is happening to the second qubit right so at this point in time
+qubit right so at this point in time the state is going to be
+the state is going to be 1 over root two
+zero plus one for the first qubit centered with zero for the second qubit
+centered with zero for the second qubit i will typically omit the tensor symbol
+i will typically omit the tensor symbol here just as a shorthand
+right and then the c naught gate happens and what does the c not do as i told you
+whenever the first qubit is one it's going to toggle the second qubit that
+it'll be actually half will be so let me rewrite this state here as one over root
+rewrite this state here as one over root two
+zero zero plus one over root two one one
+where the c naught is gonna do anything will be this part of the superposition
+will be this part of the superposition because here the first bit is one first
+because here the first bit is one first cubit is one so what we'll have after
+the c naught will be one over root two zero zero sorry this is a typo this
+zero zero sorry this is a typo this should be
+should be zero after the c naught we'll have this
+because this this is a simple two-qubit state which cannot be factored as the
+state which cannot be factored as the product of two separate qubits this is a
+product of two separate qubits this is a so-called entangled state
+right entangle means it's not a product state of individual qubits
+state of individual qubits and in general
+this this is what quantum algorithms look like they sort of you get pictures
+what about what at which point in time right so there's going to be time slices
+right so there's going to be time slices whenever nothing is happening to a qubit
+whenever nothing is happening to a qubit at that time slice you should think that
+at that time slice you should think that really an identity is happening on them
+really an identity is happening on them so
+sort of the gates at one time time slice are combined by tensor product and the
+are combined by tensor product and the gates on different time slices are
+gates on different time slices are combined by regular matrix products
+combined by regular matrix products so this is the the model of quantum
+and before the break i want to do a little little algorithm called the
+little little algorithm called the deutsche jose algorithm
+deutsche jose algorithm um
+very good yep thanks
+um i want to do one example uh that sort of illustrates the interplay of
+of illustrates the interplay of superposition and interference
+superposition and interference should probably switch to a better pen
+uh which i guess just like the supremacy experiments that
+rami barans talked about yesterday they're sort of useless but beautiful
+they're sort of useless but beautiful illustrations of the power of quantum
+illustrations of the power of quantum computing
+and it's also kind of to prepare you for short algorithm which is going to have a
+short algorithm which is going to have a somewhat similar structure to the
+deutsche dos algorithm in fact there was a whole sequence of algorithms in the
+a whole sequence of algorithms in the early 90s that sort of
+where one was really built on top of each other and this one is from 1992.
+each other and this one is from 1992. sure's algorithm is from 1994
+and in the middle in 1993 there was another algorithm called simon's
+another algorithm called simon's algorithm and if you see these things in
+really in progression they are they they're like a staircase leading up
+now let me just focus on the deutsche algorithm here
+algorithm here um
+but the idea here is that in addition to our gates we also have some device that
+our gates we also have some device that gives us input to a long sequence of
+gives us input to a long sequence of bits
+bits so
+there's a string x of capital n bits
+and this is going to be a slightly weird model i mean just just sort of bear with
+model i mean just just sort of bear with me here this will smoothly lead to more
+me here this will smoothly lead to more interesting algorithms
+what do i mean by random access memory effectively what i mean is that we have
+and we can put in indie says into this box like integers between zero and
+box like integers between zero and capital n minus one and out comes the
+corresponding bit of x right so in goes the number i
+set of integers between 0 and capital n minus 1. i'd like to number things from
+minus 1. i'd like to number things from 0 because i'm a computer scientist
+0 because i'm a computer scientist and out comes the bit x i
+and out comes the bit x i the i bit of this string
+in order for this to make sense we actually have to write it as a unitary
+actually have to write it as a unitary transformation because our quantum
+circuit should be able to apply this thing as a quantum operation and quantum
+thing as a quantum operation and quantum operations are unitaries
+operations are unitaries so as a quantum operation it looks like
+let me call that o sub x o stands for oracle
+if you apply this this unitary to something like this i'll explain the
+to something like this i'll explain the notation in a minute
+so what is what this is acting on is is a
+state of little n plus one qubits i will typically assume that capital n
+which has the advantage that these i's these indices they they correspond to
+these indices they they correspond to little n bits
+super important by the way to sort of distinguish in your mind the capital and
+distinguish in your mind the capital and from the little n
+from the little n if you don't then all hell breaks loose
+and this b here is just one bit actually let me first put the b equal to
+then really what this ox does is you can sort of think of it as a unitary way of
+sort of think of it as a unitary way of rendering this box here you put in an i
+rendering this box here you put in an i and out comes the x i and i need to kind
+and out comes the x i and i need to kind of keep the eye around in order to keep
+of keep the eye around in order to keep things reversible so you can also think
+things reversible so you can also think of it like this
+there's like two things going in one is the index i that's the number between
+zero and capital n minus one the other is a zero and what outcome what comes
+is a zero and what outcome what comes out
+is again the index i and the bit x i that we asked for and sometimes people
+that we asked for and sometimes people call this a query
+call this a query so one application of ox would be called
+right it's like asking for one bit value and
+previously i had a b here because i really need to fully specify this
+unitary which means i also need to save what it does on base states of the form
+what it does on base states of the form i comma one
+and what it does on basis states of the form i comma one
+is that i get back i and then the negation
+of x i this this is just a trick to make reversible and if you like to write this
+reversible and if you like to write this as one line you get what i wrote before
+you apply o x to a base state i comma b where b is a bit
+where b is a bit you get that i and then
+you get that i and then x i
+this is all technicalities i mean i think this is the picture you want to
+keep in mind here you just have a sort of these these capital and bits they're
+of these these capital and bits they're hitting hidden somewhere you can access
+hitting hidden somewhere you can access them by means of a random access query
+you want to distinguish two cases that are possible for this this long string x
+zero x is constant and it means that all the bits are the same either all zero or
+the bits are the same either all zero or they're all one
+and the second case is where x is balanced
+and over two of the bits are zero and n over two of the bits are one and we
+two cases here and you want to distinguish them perfectly with success
+distinguish them perfectly with success probability one you're not allowed to
+probability one you're not allowed to make any error
+right then if a classical algorithm is supposed to do that and it can kind of
+it will have to make a lot of queries right because imagine yourself you are a
+right because imagine yourself you are a classical algorithm trying to
+look at a bit of x let's say zero you look at another bit of x also happens to
+look at another bit of x also happens to be zero you keep going you make capital
+be zero you keep going you make capital n over two queries and you've only seen
+n over two queries and you've only seen zeros
+right and at that point you still don't have enough information to distinguish
+have enough information to distinguish constant versus balance because it could
+constant versus balance because it could be that the other half of the bits that
+be that the other half of the bits that you haven't queried are all zero and
+you haven't queried are all zero and you're in a constant case but they could
+you're in a constant case but they could also be all one and then you're in the
+so classical algorithms or at least classical deterministic algorithms
+they need a very large number more than n over two queries
+and the beauty of the deutsche algorithm is that it solves the same problem with
+and only little n so logarithm of capital and many other gates
+so let me describe the deutsche jaws algorithm for you
+algorithm for you quantum algorithm
+so it looks like like this and this may look a little bit arbitrary first but
+look a little bit arbitrary first but but you'll see how this goes
+and the first little ender all zero initially
+and the last one starts out to be born and then we apply harmar gates to all of
+and then we apply harmar gates to all of these things
+right so i'm describing a circuit here i'm describing something
+i'm describing something of the shape that we saw on the right
+side of the board except that i'm also now allowed to do
+unitary which corresponds to x operation so i apply haramars
+i apply this unitary ox and i do that only once
+then i apply a further batch of hadamards
+hadamards to the first little and qubits
+i do nothing anymore to the last qubit and i measure
+so this symbol here this indicates measurement in the computational basis
+measurement in the computational basis and now i claim
+that the measurement outcome on these little n qubits is going to be all zero
+i'm in this this constant case so the measurement outcome
+is the all zero string right meaning that you you measure
+outcome zero here you measure outcomes zero here all the way up to the little
+and qubit they're all zero if and only if
+if and only if we're in the balanced case
+uh it's almost time for a break but let me quickly lead you through this
+me quickly lead you through this algorithm to justify this claim
+all right so let's just check the state as it sort of gets modified as we go
+as it sort of gets modified as we go through the circuit
+uh we start out with this basis state here the first little n qubits are zero
+here the first little n qubits are zero the last one is one we apply haramars to
+the last one is one we apply haramars to all of them what do we
+get let me try to kind of write it here what do we have at this point in time
+what do we have at this point in time well
+uniform superposition of zero and one if you do that for n qubits what you're
+you do that for n qubits what you're really going to get is a uniform
+really going to get is a uniform superposition over all possible n bit
+superposition over all possible n bit strings little ended strings
+and this guy here is going to be a superposition over zero and one but with
+superposition over zero and one but with a minus in front of the one
+a minus in front of the one so what do we have here we have the
+so what do we have here we have the state
+one over root two to the n
+some overall indie says i corresponding to strings of little n
+corresponding to strings of little n bits
+which is in the so-called minus state and this this ket minus this is really
+and this this ket minus this is really just an abbreviation
+right so that's what we have after our first block of automar gates
+after our first block of automar gates and a massive superposition has been set
+and a massive superposition has been set up like we have a uniform superposition
+over the indie says of all capital n bits of x
+right i as i said before quantum algorithm is an interplay of
+algorithm is an interplay of superposition and interference
+here's the superposition now where's the interference well the
+because we are in a way looking at all capital m bits of x at the same time
+and i described the ox operation like this
+right with with either a cat 0 or a cat one in the last qubit but if you plug in
+this cat minus state in the last qubit then something very nice happens
+then something very nice happens namely
+the bits x i they actually turn up as phases
+phases so i'll leave that as an exercise for
+but what we get at this point after the ox has happened and we only apply one
+ox has happened and we only apply one query but we do it in a superposition
+query but we do it in a superposition over all i simultaneously
+and the magic of this cat minus state here is that we now get the bits x i
+as pluses or minuses in front of the basis state
+interference yet but at least they're pluses and minuses right an interference
+pluses and minuses right an interference is sort of the cancellation of pluses
+and minuses so we are ready to create our interference and that's what this
+at this point we don't really need to look at the last qubit anymore it's also
+look at the last qubit anymore it's also an intenser product with the rest of the
+an intenser product with the rest of the state so let me just ignore it
+state so let me just ignore it there it's no longer there
+there it's no longer there we do
+we do haramar
+haramar gates these n qubits and we see what we
+and if you work this out what do these hadamard gates do to this state here you
+get the following rather a complicated looking
+superposition 1 over root 2 to the n
+sum over i ranging over all strings of little n
+phases that depend on the x i bits and then
+and then 1 over root 2 to the n sum over j
+that depends on the number of positions where i and j have a one if you work out
+the hadamard gate applied to n qubits simultaneously you get pluses and
+simultaneously you get pluses and minuses like this
+right like the double sum lots of pluses and minus is kind of hard to see what's
+but the trick to analyze the deutsche dos algorithm is just to look at the
+amplitude of the all zero state so what is the amplitude
+so that's the case where j consists of of uh little n zeros what is
+well in that case these faces here they're just uh plus one
+so this amplitude here is actually kind of simple it's 1 over 2 to the n
+and now you can see the interference happening because let's look back at our
+happening because let's look back at our two cases constant versus balanced
+two cases constant versus balanced so this here
+can take two values in a constant case
+namely plus or minus one right because in the constant case
+either all these things are plus one and then the whole thing adds up to plus one
+or all these things are minus one and then the whole thing adds up to minus
+then the whole thing adds up to minus one
+which means that in a constant case all the amplitude
+the amplitude is concentrated on one particular basis
+and then if you measure it you must get that basis state as your measurement
+that basis state as your measurement outcome
+so if capital n over two of the bits are one and the others are zero then these
+one and the others are zero then these these phases here half of them will be
+these phases here half of them will be plus one half of them will be minus one
+right and that justifies the claim either all or none of the amplitude
+on this basis state here which means that your probability of getting that
+that your probability of getting that basis state as your measurement outcome
+is either one or zero and that that exactly allows you to distinguish the
+exactly allows you to distinguish the constant versus balanced cases and like
+constant versus balanced cases and like i said before this is not an interesting
+computational problem but it is a beautiful illustration of the interplay
+beautiful illustration of the interplay of superposition and interference
+so i think this is a good time for last questions before we take a small break
+questions before we take a small break anybody
+anybody anybody else zoom
+yeah actually i do not really work with um
+quantum circuits uh from adiabatic side i actually wanted to ask you about what
+i actually wanted to ask you about what exactly is happening
+after the sec after the ox get like how do you really get to this
+do you really get to this yeah
+yeah you mean how you get to this state here
+yeah what can i say i mean this is i mean my answer will be not very
+mean my answer will be not very satisfactory but it's effectively just
+satisfactory but it's effectively just writing out what happens
+writing out what happens i mean
+what what is relatively easy to analyze is to see what happens
+start here with a basis state cat i instead of a massive superposition
+instead of a massive superposition so if you apply ox
+so if you apply ox to a base state i
+and the last qubit set to cat minus let's just see what happens
+let's just see what happens so this is
+the same as ox applied to i comma 0
+applied to i comma 1 right i've just sort of written out this state here
+sort of written out this state here we know by definition of ox what happens
+here this is the same as
+for my x i minus
+i comma the negation of x i and now you can distinguish two cases
+and now you can distinguish two cases the case where x i is zero
+then you get i comma 0 minus i comma 1
+which is in fact what you started with so it is as if a plus one phase has been
+added in other words nothing has been done if on the other hand
+done if on the other hand x i is one
+then a way these two things have been swapped
+swapped so you now get i
+minus i comma 0 which is the same as minus
+minus i
+interpreted with the cat minus state and here
+and here like a minus sign has been added to the
+and this is just if you start with one particular basis state
+but now the linearity kicks in if you do this in a superposition over different
+this in a superposition over different eyes which is what we have here exactly
+the same is going to happen sort of separately for each of the basis states
+separately for each of the basis states meaning you get exactly these phases
+meaning you get exactly these phases here one phase one plus or minus for
+here one phase one plus or minus for each of the basis states gets i
+each of the basis states gets i right and that's what that's what you
+right and that's what that's what you have here
+so i have that sort of answered the question there's another one over there
+question there's another one over there yes
+switch on the microphone yes sorry can um
+yes sorry can um maybe it's just stupid but um this
+function unitary function uh so basically
+so basically are we
+just copying the amplitude of one single qubit on the second
+on on the remaining bit no like oh x is a map from basis states
+no like oh x is a map from basis states the basis states
+right i describe it as a map from basis states to basis states and the fact that
+states to basis states and the fact that certain amplitudes change plays is kind
+certain amplitudes change plays is kind of a consequence of that it's not the
+of a consequence of that it's not the basic operation that we do it's a
+of of the description of what ox does on basis states
+and i think the operation that ox does on basis states
+you should think of that really as something almost classical like if you
+something almost classical like if you have a classical reversible version of a
+have a classical reversible version of a random access memory call classical bits
+random access memory call classical bits this is what it would look like
+this is what it would look like and we now have the same thing except we
+and we now have the same thing except we can run it on superpositions of
+can run it on superpositions of different eyes
+but my question is maybe but the the eye is not changed after the operation
+right all the yeah i mean correct you can see it here but then isn't this kind
+can see it here but then isn't this kind of like
+cloning one bit on the second part of the register what is the bit that
+of the register what is the bit that would be cloned
+the x i that's a classical bit right there's no issue with cloning if you
+there's no issue with cloning if you talk about copying classical bits for
+talk about copying classical bits for instance a controlled knot is going to
+instance a controlled knot is going to copy a classical bit for you
+right x i is a bit it's not a it's not an arbitrary qubit it's not like it
+an arbitrary qubit it's not like it could be in any any any situ in any
+could be in any any any situ in any state whatsoever then we would
+state whatsoever then we would definitely violate cloning but here we
+copy clustering classical information in fact we do it all the time
+some students even do it for homework set
+uh other questions actually i'm very happy with these questions so please
+happy with these questions so please keep going
+yes uh yeah i'm sorry um so when you say a few gates um in this case if you have
+a few gates um in this case if you have a lot of qubits you will have a lot of
+gates so what do you mean was um in the definition of quantum circuits you mean
+definition of quantum circuits you mean what small means or yes a small number
+what small means or yes a small number of gates well i mean the smaller the
+of gates well i mean the smaller the better of course
+you have let's say some little end qubits here to start with and you want
+qubits here to start with and you want to do something useful to all of them
+to do something useful to all of them you probably need at least n gates
+you probably need at least n gates because otherwise some of you some of
+because otherwise some of you some of your qubits are never touched they're
+your qubits are never touched they're never operated upon
+but what we typically think of as small like if you want me to give you a
+like if you want me to give you a definition definition that would give
+definition definition that would give rise to the complexity class bqp that i
+um think of small as polynomial number of gates in the input length
+of gates in the input length so polynomial
+number of gates in the input length
+and for instance you will see after the break i don't have that much time for
+break i don't have that much time for short's algorithm but i'll sort of
+short's algorithm but i'll sort of sketch it still
+if you want to factor an integer that's that's prescribed but something like n
+that's prescribed but something like n bits think of n as a thousand or two
+thousand as typical size of relevant factoring problems for cryptography uh
+you want a circuit that has a number of gates that's polynomial like n squared
+gates that's polynomial like n squared or n cubed in that input length and that
+will actually be the case for schwarz algorithm its number of gates is going
+to be roughly quadratic in the number of input bits and that's what we consider a
+input bits and that's what we consider a small
+small circuit but of course the smaller the better you know n squared is is
+faster than n cubed that means you have to do less work like we want to do as
+to do less work like we want to do as little work as possible
+and of course there's also like typically there will be many different
+typically there will be many different possible circuits solving the same
+possible circuits solving the same problem we prefer the one that has fewer
+that's the more efficient one other questions there was some at the
+back yeah go ahead
+this is kind of a follow-up question so if i compare these two models the model
+if i compare these two models the model of quantum circuits and like boolean
+circuits if i take a quantum circuit and can i model it as a boolean circuit
+and can i model it as a boolean circuit if i allow randomness and i don't care
+if i allow randomness and i don't care about the number of
+about the number of gates and measurements
+uh your question is whether the quantum circuit can simulate the boolean
+circuit can simulate the boolean circuits no the other way around
+oh if i take a boolean circuit can it simulate the quantum circuits
+can it simulate the quantum circuits well i mean um
+if you have a quantum circuit let's say with a polynomial number of gates on n
+with a polynomial number of gates on n qubits
+you can write down a classical circuit of exponential size that sort of does
+of exponential size that sort of does the same thing
+would not exist if the answer to your question were yes like you know if every
+question were yes like you know if every quantum circuit of a certain size can be
+quantum circuit of a certain size can be simulated by a classical boolean circuit
+simulated by a classical boolean circuit of a very similar size maybe slightly
+bigger there's no point in building a quantum computer
+like the whole the whole goal of this field is to find interesting
+field is to find interesting computational problems such as factoring
+computational problems such as factoring where you have much shorter quantum
+where you have much shorter quantum circuits than boolean circuits much much
+circuits than boolean circuits much much far fewer gates and factoring is a
+the opposite though would also be an interesting question like can this model
+interesting question like can this model simulate boolean circuits can quantum
+simulate boolean circuits can quantum computers simulate classical computers
+computers simulate classical computers in some trivial sense the answer is no
+because these operations here are non-reversible
+right and quantum computers they can only do unitary operations which are
+only do unitary operations which are reversible but you can sort of massage
+reversible but you can sort of massage this boolean circuit a little bit so
+this boolean circuit a little bit so that it becomes reversible
+and then you can actually simulate it by a quantum circuit so quantum circuits
+a quantum circuit so quantum circuits are at least as powerful as classical
+are at least as powerful as classical circuits
+circuits so every every boolean circuit
+classical boolean circuit can be implemented by a quantum circuits
+and this is important right you know otherwise quantum and classical
+computation could be incomparable there could be problems where classical
+computers are better than quantum computers and that's not the case
+simulated by a classical circuit with roughly the same number of gates
+okay other questions yeah so there was one comment online yeah
+but your claim on the left-hand side part uh it's possible that it's reversed
+part uh it's possible that it's reversed that it's measurement outcome zero if
+and only if we're in the constant case yeah thanks time corrected one comment
+yeah thanks time corrected one comment online yeah thanks very much
+indeed because it's the constant case where the amplitude of the all zero
+state comes out to be plus or minus one it's the balanced case where everything
+it's the balanced case where everything cancels and there's no amplitude left on
+cancels and there's no amplitude left on the l0 state
+the l0 state thanks
+okay now it's probably time for a short break there's another question in the
+chat which i think is you know the important question it always comes at
+important question it always comes at this point it's by carl fullinger he
+this point it's by carl fullinger he says the oracle seems a bit mysterious
+says the oracle seems a bit mysterious to me but we must be able to implement
+to me but we must be able to implement it in terms of gates so what would the
+it in terms of gates so what would the oracle actually look like in this
+oracle actually look like in this example okay that's a long discussion um
+example okay that's a long discussion um so
+i guess there's two ways to answer this one is there could be a short circuit
+one is there could be a short circuit that actually computes the oracle
+function you will see that happening in short's algorithm the other answer is i
+short's algorithm the other answer is i think looking at gate complexity for
+think looking at gate complexity for this operation is the wrong measure
+this operation is the wrong measure because even classical rem
+contains capital m bits of memory if you write it as a circuit it's going to be a
+write it as a circuit it's going to be a circuit with capital n gates
+circuit with capital n gates nevertheless a classical memory access
+nevertheless a classical memory access doesn't take time proportional to the
+doesn't take time proportional to the memory length
+so i think gate complexity is not the right measure here
+right measure here um
+but i think this is really like a discussion that it's almost
+philosophical and maybe if some like bother me with it in the exercise
+bother me with it in the exercise session maybe because at this point i
+session maybe because at this point i probably have like 20 minutes left only
+probably have like 20 minutes left only for sure's algorithm which is very
+for sure's algorithm which is very little
+um okay time for break unless there's anything burning
+let's say five minutes and then i will sketch because i don't have a lot of
+sketch because i don't have a lot of time i will sketch shorts algorithm
+time i will sketch shorts algorithm five minutes is not enough uh to grab
+okay i switched sound back on i hope that's working
+okay so let's continue so now what i want to tell you is um
+want to tell you is um is is something that had an enormous
+is is something that had an enormous impact on this field so um
+i joined this field in 1997 that was three years after shore's algorithm came
+three years after shore's algorithm came out
+but if you look at the years before 1994 then this field was like a little fringe
+then this field was like a little fringe activity full of weird people small
+activity full of weird people small numbers of them
+congregating in their conferences about the physics of computation uh sort of
+the physics of computation uh sort of being ignored by most of the rest of the
+and then in 1994 like building upon deutsche algorithm building upon simon's
+deutsche algorithm building upon simon's algorithm peter shore found his
+algorithm to very efficiently factor large numbers
+and this really changed the field because factoring large numbers into
+their prime factors is not just a mathematician's hobby but it's also the
+mathematician's hobby but it's also the foundation of much of of current
+foundation of much of of current cryptography
+right and in particular what that means you know if that if you could build a
+you know if that if you could build a large quantum computer you could break
+large quantum computer you could break everybody's email encryption like like
+online banking transaction etc uh the mafia lots of big countries even small
+mafia lots of big countries even small countries uh are somewhat interested in
+countries uh are somewhat interested in this so suddenly and i'm not
+this so suddenly and i'm not exaggerating suddenly there were people
+exaggerating suddenly there were people from the nsa like spies actually
+from the nsa like spies actually attending quantum computing conferences
+attending quantum computing conferences because they wanted to know what what
+when the field sort of did a phase transition from a small area to a fast
+transition from a small area to a fast growing
+uh field that got a lot of attention and and i think currently we are sort of in
+a more mature phase of that still growing
+but certainly a field that gets a lot of attention and some of the attention
+nowadays of course has shifted to let's say simulations of physics and chemistry
+say simulations of physics and chemistry but i think this short algorithm for
+but i think this short algorithm for factoring is still one of the one of the
+factoring is still one of the one of the pearls of this field
+and i want to give you a rough sketch in in about 15 minutes of how the shores
+in about 15 minutes of how the shores algorithm works
+algorithm works right so this is about the factoring
+and what is the factoring problem i give you a large integer think of
+you a large integer think of let's say something that can that can be
+let's say something that can that can be written down in a thousand bits or 2 000
+bits those are the relative the relevant input lengths for
+for for cryptography given a number n
+right so if i give you the number 15 you're supposed to tell me three times
+you're supposed to tell me three times five if i give if i tell you the number
+i gave you the number 28 you should tell me sorry
+me sorry then it's a it takes a little bit more
+right but this like of course you can do these these small examples in your head
+these these small examples in your head that's not a problem you can do even
+can do slightly bigger examples on a computer and at some point it just gets
+computer and at some point it just gets completely out of hand and if you want
+completely out of hand and if you want to factor an integer uh that that's
+written down in a thousand bits or 2 000 bits then then the best algorithms that
+bits then then the best algorithms that we have
+are very slow they're highly non-trivial but they're still very slow
+so let's let's say that this can be written down with little n bits
+right so the magnitude of capital n is is on the order of something like two to
+the little n think of little n as a thousand or two thousand
+and the best classical algorithms so-called number field civ i think
+so-called number field civ i think that's still the best one
+that's something like 2 to the power n to the one third and i'm suppressing
+to the one third and i'm suppressing some lower order factors in the exponent
+some lower order factors in the exponent here but this is the rough rough size
+here but this is the rough rough size and it's not quite two to the little n
+but it's still pretty bad this is certainly not polynomial
+this is much bigger than polynomial and in practice this is way too slow
+to factor numbers of um
+something like a thousand thousand bits yes like i think let's say commonly
+sizes for rsa encryption will be numbers of 2048 bits consisting of two large
+of 2048 bits consisting of two large prime factors
+like like you can't really factor that on even on a large cluster of very
+on even on a large cluster of very strong computers this is just as far as
+strong computers this is just as far as we know out of reach of what we can do
+we know out of reach of what we can do classically and the hardness of this is
+classically and the hardness of this is actually a blessing
+actually a blessing because this hardness is the basis of
+right and all this kind of public key cryptography it's always based on a
+cryptography it's always based on a certain asymmetry and in this case the
+certain asymmetry and in this case the asymmetry is that multiplying two large
+asymmetry is that multiplying two large prime factors together is kind of easy
+multiplication is cheap even for classical computers but the inverse of
+that operation to take the product and to decompose it into the prime factors
+this is a very hard problem and this asymmetry can be used to design very
+asymmetry can be used to design very good cryptographic systems
+good cryptographic systems that have sustained the digital economy
+for 50 years or so and what sure did is he found a quantum
+to factor large numbers efficiently so this is 1994.
+so that's a quantum algorithm or a quantum circuit if you will
+i think it's like order little n squared maybe times log of little n
+maybe times log of little n elementary gates
+and this is polynomial time little n squared quadratic in good length it's
+squared quadratic in good length it's even a pretty reasonable polynomial like
+even a pretty reasonable polynomial like some polynomial algorithms take time n
+some polynomial algorithms take time n to the 200
+to the 200 that's
+not so great and squared is pretty reasonable
+and like ramy barents in his talk yesterday he mentioned some estimates
+that if you had i don't know i don't remember the exact numbers but something
+remember the exact numbers but something like if you have 10 million reasonably
+like if you have 10 million reasonably good qubits and reasonably good gates
+good qubits and reasonably good gates available
+then you can factor a number of 2 2000 bits in roughly eight hours
+bits in roughly eight hours right and i think
+that would destroy a lot of cryptography there's another problem that a lot of
+cryptography is based on so-called discrete log problem which can equally
+well be broken by a small variation of the algorithm i'm going to present but
+the algorithm i'm going to present but i'll focus on the factoring problem here
+and this algorithm here it has two parts a classical and a
+a classical reduction to the so-called period finding problem
+and it works as follows so what i do is i i'm given this number capital n right
+i i'm given this number capital n right i want to factor it i want to find
+i want to factor it i want to find factors of this number prime factors
+factors of this number prime factors i define a function i pick a random x
+what is it zero and n minus one maybe n minus two doesn't really matter and i
+minus two doesn't really matter and i define a function
+which on input a gives me back x to the power a modulo n
+so this takes an integer as input so let's say a natural number it doesn't
+let's say a natural number it doesn't have to be negative and it spits out x
+to the power a modulo capital n and if you compute this and little a
+and if you compute this and little a here could be very very big
+it could be as big as capital n itself could be even bigger than capital n
+itself so you might be a little bit worried how am i going to compute this
+worried how am i going to compute this function efficiently you know for a
+large a of course you could take x and multiply with x and multiply with x
+that's going to take you a lot of time but there's a nice trick called a very
+but there's a nice trick called a very descriptive name called
+square and multiply which actually solves which can compute this
+in roughly order n squared log n steps
+by the square and multiply methods this is one of the things that you could
+try to do in the exercise session to work this out
+this has nothing to do with quantum by the way this is very basic arithmetic
+the way this is very basic arithmetic um so there's this function
+and this function that follows from a little bit of group theory that this
+function will be sort of a periodic function it's going to cycle
+function it's going to cycle so if you look at
+so if you look at f0
+that's going to be 1 of course because x to the power 0 is 1.
+to the power 0 is 1. and then you look at f1
+and then you look at f1 and f2
+let's say it's some integer r you're going to see the value 1 reappear
+going to see the value 1 reappear and the the numbers before that the r
+and the the numbers before that the r numbers before that
+numbers before that they will all be distinct
+and this sequence of r numbers is then going to repeat itself
+going to repeat itself this is a periodic function
+the second r numbers are the same as the third r numbers etc so just keep in mind
+i mean this picture is a little bit misleading but it's still kind of
+misleading but it's still kind of interesting
+sequence of r in fact distinct values are just going to reappear and reappear
+are just going to reappear and reappear at infinitum
+okay so this function is periodic the period could be very very large so this
+this r here could be sort of almost as big as capital n itself
+um so trying to find the period you know by just computing f0 f1 f2 f3 etc until
+by just computing f0 f1 f2 f3 etc until you see the number one reappearing
+you see the number one reappearing that's not efficient at all
+that's not efficient at all but sure showed using some
+but sure showed using some probably 18th century number theory
+probably 18th century number theory something very elementary
+r you can factor in
+so if you're curious to see how this works i'm going to tell you what i tell
+works i'm going to tell you what i tell all my students which is read my lecture
+all my students which is read my lecture notes
+and and all this stuff here has nothing to do with quantum right this is a
+classical reduction but but introduces it to a very generic problem there is a
+function f we can evaluate it efficiently on any input point a of our
+that means that in the quantum case we can even evaluate it on superpositions
+of a's just like in the deutsch jose case and we want to find this period r
+case and we want to find this period r because if we do we can factor capital n
+because if we do we can factor capital n which is our goal
+so how do we find this r so this is this is what shows the quantum part of
+is what shows the quantum part of short's algorithm actually does
+short's algorithm actually does so sure gave a quantum algorithm for
+to find this unknown number r efficiently
+um so in other words find r
+and the key ingredient for this is something called a quantum fourier
+something called a quantum fourier transform
+and if you know anything about signal processing then it shouldn't be a big
+processing then it shouldn't be a big surprise that
+somehow fourier transforms are relevant for extracting frequency
+relevant for extracting frequency information or periodicity information
+information or periodicity information because that's what fourier transforms
+so a key ingredient here is the quantum fourier transform
+and what the qft does let's let's let's say that it's the qft on
+if you apply this to a basis state let's say k
+capital n is 2 to the little and then this this would just be an integer of
+this this would just be an integer of little n bits
+a message superposition over all the basic states with an intricate pattern
+basic states with an intricate pattern of phases
+of phases phase these are the complex numbers in
+so the j here ranges over all basis states in your state uh in your space
+states in your state uh in your space and you get these complex phases here
+and you get these complex phases here where omega n is the nth root of unity
+e to the 2 pi i over n and the j times k here this is not a product of two
+here this is not a product of two integers in the exponent
+integers in the exponent um and if you think about it then what
+this this sequence of amplitudes that you get this is sort of like like a sine
+it it's like a like a like a like a periodic sequence
+and this map looks very complicated but it is actually there is an efficient
+it is actually there is an efficient circuit for it
+little n squared so quadratic in the number of qubits
+and the reason that there is such an efficient circuit is that you can factor
+efficient circuit is that you can factor this very complicated looking state of
+this very complicated looking state of little and qubits
+little and qubits as a product
+of little and qubits that are all of the form
+get one where this phi here this is a relatively simple phase that depends on
+relatively simple phase that depends on the basis state k that you're starting
+with so if you want to implement this unitary transformation on the basis
+unitary transformation on the basis state
+really all you need to do is prepare n qubits and put in the right phases and
+qubits and put in the right phases and there is an efficient circuit to do that
+there is an efficient circuit to do that and if you get a circuit that works well
+linearity is going to work on everything so i'm not going to sketch the details
+of this but let me just show how it comes into shore's algorithm
+switch maybe somebody needs to switch the camera
+the camera [Music]
+i'm going to draw the circuit for sure's period finding algorithm
+so circuit looks like this you start with a bunch of qubits
+roughly two n of them two little n of them
+that are all zero then another little n qubits that are all zero
+and you start by setting up um a big superposition in the first register the
+superposition in the first register the first little two n qubits
+and you do that by harder mars this is extremely similar to deutsch jose
+extremely similar to deutsch jose algorithm and this is not a coincidence
+time your first register is in a large superposition over very many different
+superposition over very many different integers a
+and you're now going to compute your function f in superposition on all of
+function f in superposition on all of those a's so here i'm going to have a
+which i will call of and what of does
+and what of does is it just computes
+is it just computes given
+given state a comma 0 it computes a comma f a
+and we know there is an efficient circuit to compute f therefore this this
+circuit to compute f therefore this this circuit here this is an efficient
+circuit right and there's no sort of mysterious things like what goes on
+mysterious things like what goes on inside the black box of the query this
+inside the black box of the query this just is an explicit circuit which is
+just is an explicit circuit which is based on this square multiply method
+you can write this as an explicit circuit
+of order n squared log n gates
+and in a way this is just a classical computation but you're allowed to run it
+computation but you're allowed to run it on a superposition
+and then what do you do you measure your second register
+actually maybe it's good if i kind of just
+write down the states in a different point in time so
+use a star here the state at point star is the following
+is 1 over root 2 to the 2 little n sum over all a's
+it can be written with two little n bits a
+then we compute this function here we get this state at this point in time
+star star is the same thing except that the second register has been set to the
+the second register has been set to the value f8
+right so now we are at this point in the circuit we need to measure the second
+register and this is going to be a partial measurement we have three times
+partial measurement we have three times little and qubits and we do just a
+measurement of the of these qubits here we measure these
+and you see some function value we don't have control over which one we see
+have control over which one we see let's say f
+and at that point you you sort of induce a collapse in the first register because
+a collapse in the first register because the first register is going to collapse
+to only the values of a that have this function value
+state that we will have at this point here
+and in the interest of time i'm going to switch to pictures now
+so if you draw the amplitudes in the state star star star let's let's
+in the state star star star let's let's ignore this this second register here it
+ignore this this second register here it has been measured it's a classical value
+has been measured it's a classical value we're going to ignore it at this point
+we're going to ignore it at this point let's look at which states in the first
+let's look at which states in the first register have a non-zero amplitude left
+register have a non-zero amplitude left over right so those are only the basis
+whose function value is the particular value we measured in the second register
+so that's first of all um
+um s
+right so this guy has a bit of amplitude so here we're going to see
+on the y-axis and and names of basis states on the x-axis and which other
+basis states have a non-zero amplitude well those are the ones that are spaced
+well those are the ones that are spaced from s by the periods because of the
+from s by the periods because of the periodicity
+right so these are the the a's that have any non-zero amplitude left they're the
+any non-zero amplitude left they're the the the a's whose function value is the
+the the a's whose function value is the same as
+as the function value of s and because of the periodicity we now have a very
+nicely peaked very sparse pattern of non-zero amplitudes left
+non-zero amplitudes left um
+and we would like to kind of extract this r right we don't care about the
+this r right we don't care about the value of s we care about the value of r
+if you measure this state in a computational basis you get nothing
+because s is unknown and r is unknown so instead what we do is we do a quantum
+instead what we do is we do a quantum fourier transform
+on these qubits and then we measure
+and if you do a quantum fourier transform
+and you work out what happens there's some very nice
+geometric series effectively what's going to happen is that you will have
+only amplitudes left on multiples
+on multiples of um
+the dimension of your fourier transform 2 to the 2n
+2 to the 2n divided by the periods
+divided by the period this will be spice 2 to the 2 n divided by the periods etc
+and it's not going to be exactly such a nice structure it'll be sort of like a
+nice structure it'll be sort of like a little gaussian around it
+little gaussian around it but still almost all of the amplitudes
+around multiples of 2 to the 2 n over r so we measure right that's what this
+so we measure right that's what this this last part of the circuit designates
+this last part of the circuit designates we measure
+we measure and we get a measurement outcome
+and if you assume that this is very sharply peaked then your b is going to
+sharply peaked then your b is going to be a multiple of 2 to the 2n over r
+so some unknown integer multiplier c times 2 to the 2n
+times 2 to the 2n over r
+and if you look at this equation here there are two numbers that we know
+there are two numbers that we know namely b our measurement outcome and 2
+namely b our measurement outcome and 2 to the 2n which we chose ourselves and c
+and r are both unknown so we can rewrite this by saying that
+b over 2 to the
+is the same as c over r and this we know
+and this we know because we know both of those numbers
+and these two numbers we don't know we don't care about what c is the
+don't care about what c is the multiplier but we do care about what r
+but if we're lucky then these two numbers
+um if you write them in lowest terms then you could actually see what r is by
+then you could actually see what r is by just sort of taking this ratio this
+known ratio writing it in lowest terms that meaning dividing out the common
+that meaning dividing out the common divisors up and below
+divisors up and below and just read of r
+by writing the known ratio
+b over 2 to the 2n in lowest terms
+and now you should complain to me about you know we don't have this this sharply
+you know we don't have this this sharply peaked uh
+sharply peak behavior 2 to the 2 n over r it need not even be an integer right
+r it need not even be an integer right so everything is sort of approximate
+so everything is sort of approximate here
+but classical number theory in particular something called uh what's it
+particular something called uh what's it called um
+continuous fraction expansion thank you it can actually deal with this
+it can actually deal with this um and since i'm already way out of time
+and i hope that this sketch in particular like i think this this
+initial amplitude distribution to this amplitude distribution affected by the
+amplitude distribution affected by the qft this is sort of the core picture you
+should have in mind for why shore's algorithm works
+uh it goes from a from a sort of something where the amplitudes the
+non-zero amplitudes are spaced by the unknown period to something where the
+unknown period to something where the uh unknown period unknown
+multiple of one over r and the main thing here is that we got rid of the s
+thing here is that we got rid of the s dependence
+dependence this s dependence here this is kind of
+if you do the q of t they're still an s dependence of course because we can only
+dependence of course because we can only do reversible things but the s
+dependence sits in the face so it doesn't matter anymore for the
+doesn't matter anymore for the magnitudes of the amplitude
+magnitudes of the amplitude really i should put here
+good so sorry for going a bit over time there's still as much time as you want
+there's still as much time as you want for questions in case you want to spoil
+your next coffee break any questions
+uh i just wanted to ask uh if you are given a number n
+what's the lower bound on the number of qubits you need to use to factorize n
+qubits you need to use to factorize n it's a good question
+so let me just repeat the question so the question is how what's a lower bound
+um let me first talk about upper bound so if you want to factor a number of
+so if you want to factor a number of little n bits and it's always important
+when you say the number n here to sort of prefix it by little and or capital n
+of prefix it by little and or capital n then then this description of the shore
+then then this description of the shore algorithm requires three times as many
+number you want to factor if you have a thousand bit number this this would use
+thousand bit number this this would use about 3 000 qubits
+about 3 000 qubits and there are ways to bring this down to
+i think that's the best that's known um it's actually a good question whether
+you can push that further down and i'm sure people have tried to do this right
+sure people have tried to do this right there are these papers i mentioned one
+there are these papers i mentioned one that sort of came up with an estimate of
+that sort of came up with an estimate of eight hours to factor a 2 000 bit number
+eight hours to factor a 2 000 bit number i'm sure they looked very closely at
+i'm sure they looked very closely at sort of reducing the number of qubits i
+sort of reducing the number of qubits i don't know what the the what what the
+best number is this one uses three times as much qubits as the number of input
+as much qubits as the number of input bits
+you can improve that a little bit and i don't think it's known what the lowest
+don't think it's known what the lowest lowest number is
+oh and one thing i wanted to emphasize which i should have is
+which i should have is look at the structural similarity of
+look at the structural similarity of this with the deutsche algorithm right
+this with the deutsche algorithm right set up a superposition by hadamard gates
+set up a superposition by hadamard gates do one big thing in superposition that
+do one big thing in superposition that gives you access to a large number of
+gives you access to a large number of values in the case of deutsche
+it would be the bits in x in the case of offshore it would be many evaluations of
+offshore it would be many evaluations of the function f
+and then last do something that creates the right interference effects
+and many of the especially the early quantum algorithms they look like this
+quantum algorithms they look like this set up superposition make some some sort
+set up superposition make some some sort of access to an exponentially large
+of access to an exponentially large object do the rights interference
+object do the rights interference effects miracles happen your final
+effects miracles happen your final measurement outcome gives you useful
+measurement outcome gives you useful information

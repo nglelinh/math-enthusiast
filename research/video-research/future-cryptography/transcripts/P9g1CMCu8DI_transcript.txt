@@ -1,0 +1,221 @@
+In this video, I'll update you on the current landscape of post-quantum
+current landscape of post-quantum cryptography standards.
+I'll begin with the most influential initiative, the NIST standardization
+initiative, the NIST standardization process,
+and then summarize how international standards bodies and national agencies
+standards bodies and national agencies are aligning their efforts around these
+are aligning their efforts around these new quantum-safe algorithms.
+This is a rapidly evolving field, and many additional standards are expected
+many additional standards are expected to be finalized and published in the
+Standards play a critical role in ensuring that the cryptography we rely
+ensuring that the cryptography we rely on is secure, interoperable, and widely
+on is secure, interoperable, and widely trusted.
+Developing these standards takes time, usually many years,
+and benefits greatly from rigorous review by experts around the globe.
+review by experts around the globe. The most influential effort in PQC
+The most influential effort in PQC standardization comes from the US
+standardization comes from the US government's National Institute of
+Standards and Technology, or NIST. Many organizations, including ETSI, ISO,
+Many organizations, including ETSI, ISO, IETF, and national agencies worldwide
+IETF, and national agencies worldwide are also preparing standards that are
+are also preparing standards that are closely aligned with the NIST standards.
+closely aligned with the NIST standards. This alignment helps maintain
+This alignment helps maintain consistency and trust across the global
+cryptographic ecosystem. Broadly speaking, there are two kinds of
+Core cryptography standards specify the cryptographic primitives, including key
+cryptographic primitives, including key encapsulation mechanisms, signature
+schemes, and hybrid schemes, which securely combine a conventional scheme
+securely combine a conventional scheme with a newer one that is quantum-safe.
+Migration guidance provides roadmaps that help organizations transition
+that help organizations transition safely to quantum-safe cryptography.
+Back in 2016, NIST invited proposals for quantum-resistant signature and key
+quantum-resistant signature and key encapsulation algorithms.
+encapsulation algorithms. There are three main evaluation criteria
+were the following: security against classical as well as
+cost, which cover things like sizes of public keys, signatures, and ciphertext,
+public keys, signatures, and ciphertext, efficiency of public key operations,
+namely key encapsulation and signature verification,
+and private key operations, namely key generation, key decapsulation, and
+generation, key decapsulation, and signature generation,
+signature generation, and algorithm and implementation
+suitability for secure and efficient implementation on a wide variety of
+implementation on a wide variety of platforms, including constrained
+platforms, including constrained environments such as smart cards,
+amenability to parallelization, and ease of incorporation into existing
+simplicity of the design, and whether licensing or patent issues
+By the first deadline, NIST had received 69 submissions from around the world for
+69 submissions from around the world for round one.
+After over a year of intensive public scrutiny and analysis, during which time
+scrutiny and analysis, during which time flaws and weaknesses were exposed in
+flaws and weaknesses were exposed in many proposals,
+many proposals, NIST selected 26 submissions for round
+In July 2020, seven submissions were selected for round three, and a further
+selected for round three, and a further eight were designated as alternate
+eight were designated as alternate candidates.
+Meanwhile, in October 2020, NIST released a standard for stateful
+released a standard for stateful hash-based signature schemes.
+hash-based signature schemes. The standard was outside the main PQC
+Finally, on July the 5th, 2022, the key encapsulation scheme Kyber,
+along with the signature schemes Dilithium, Falcon, and Sphinx+ were
+Dilithium, Falcon, and Sphinx+ were officially chosen for standardization.
+officially chosen for standardization. As of March 2026, NIST has published
+NIST special publication 800-208, released in October 2020,
+released in October 2020, specifies the hash-based Leighton-Micali
+specifies the hash-based Leighton-Micali and extended Merkle signature schemes.
+These signature schemes are considered extremely conservative from a security
+extremely conservative from a security point of view.
+The resistance to both classical and quantum attacks is well understood.
+quantum attacks is well understood. However, they are stateful, meaning that
+However, they are stateful, meaning that implementers must carefully track usage
+implementers must carefully track usage to ensure that the same one-time signing
+The next major milestone was in August of 13, 2024,
+when NIST released three Federal Information Processing Standards, also
+Information Processing Standards, also known as FIPS.
+FIPS 203 specifies Kyber, a lattice-based key encapsulation
+mechanism used for key establishment. The official name for Kyber is ML-KEM.
+The official name for Kyber is ML-KEM. FIPS 204 specifies Dilithium, a
+FIPS 204 specifies Dilithium, a lattice-based signature scheme.
+lattice-based signature scheme. The official name for Dilithium is
+Finally, FIPS 205 describes SPHINCS+, a stateless hash-based signature scheme.
+stateless hash-based signature scheme. The official name for SPHINCS+ is
+While SPHINCS+ offers strong security under well-studied assumptions, it has
+under well-studied assumptions, it has larger signatures and is much slower
+larger signatures and is much slower than Dilithium.
+As a result, it is expected to see more limited deployment in practice.
+NIST is also working to standardize several additional quantum-safe
+several additional quantum-safe algorithms.
+One of these efforts is FIPS 206, which specifies Falcon, a lattice-based
+specifies Falcon, a lattice-based signature scheme.
+Falcon's primary advantage over Dilithium is its much smaller public
+However, it relies on floating-point arithmetic, which is not supported in
+arithmetic, which is not supported in all processors, and can create
+all processors, and can create implementation challenges for validation
+implementation challenges for validation and protection against side-channel
+and protection against side-channel attacks.
+The first draft of FIPS 206 has already been finalized and is expected to be
+been finalized and is expected to be released very soon.
+released very soon. The official name for Falcon is FN-DSA.
+Another algorithm moving towards standardization is HQC, short for
+This is a code-based KEM selected by NIST in March 2025.
+Its security is based on the difficulty of solving the syndrome decoding problem
+of solving the syndrome decoding problem for quasi-cyclic codes.
+A key advantage of HQC is that it relies on a completely different security
+on a completely different security assumption than Kyber,
+making it a viable backup option should weaknesses in Kyber be discovered in the
+weaknesses in Kyber be discovered in the future.
+Meanwhile, NIST is also running a competition focused on alternative
+competition focused on alternative quantum-safe signature schemes.
+The goal is to standardize one or more signature schemes that do not rely on
+signature schemes that do not rely on structured lattices as Dilithium and
+structured lattices as Dilithium and Falcon do, and that offers small public
+along with fast verification. As of March 2026, 14 candidate signature
+As of March 2026, 14 candidate signature schemes are under evaluation.
+schemes are under evaluation. Two are code-based.
+Two are code-based. One isogeny-based.
+One is lattice-based. Five are MPC in the head.
+Five are MPC in the head. Four are multivariate.
+Four are multivariate. And one is symmetric based.
+ETSI, the European Telecommunications Standards Institute, operates a quantum
+safe cryptography working group. Unlike NIST, ETSI does not design new
+Instead, they focus on practical deployment guidance, interoperability,
+deployment guidance, interoperability, and system integration.
+ISO, the International Organization for Standardization, is also developing
+Standardization, is also developing standards for quantum safe KEMs and
+Although draft documents are not publicly available, several documents
+publicly available, several documents indicate that in addition to Kyber,
+ISO is evaluating additional KEMs, including Classic McEliece, a code-based
+including Classic McEliece, a code-based KEM,
+FrodoKEM, which is based on unstructured lattices in contrast to the structured
+lattices in contrast to the structured lattices used in Kyber and Dilithium,
+Let's turn now to the IETF, the organization responsible for the
+protocols that power the internet. Within the IETF, the Crypto Forum
+Within the IETF, the Crypto Forum Research Group, known as CFRG,
+has been playing a leading role in preparing the internet for the
+preparing the internet for the post-quantum era.
+Its work focuses not only on standardizing quantum safe algorithms,
+standardizing quantum safe algorithms, but also providing guidance for
+integrating them into real-world systems, such as TLS, SSH, and PKI.
+systems, such as TLS, SSH, and PKI. The group also provides practical
+The group also provides practical recommendations aimed at engineers.
+recommendations aimed at engineers. Two relevant RFCs have already been
+RFC 8391, which specifies XMSS, the extended Merkle signature scheme,
+extended Merkle signature scheme, and RFC 8554, which specifies the
+Leighton and McAuley hash-based signature scheme.
+signature scheme. Meanwhile, a large body of work is
+Current drafts cover post-quantum algorithms, including Kyber, Dilithium,
+algorithms, including Kyber, Dilithium, Sphinx+, Falcon,
+FrodoKem, and Classic McEliece. Another major focus is hybrid
+Another major focus is hybrid cryptography, which bridges the
+cryptography, which bridges the transition to post-quantum cryptography
+transition to post-quantum cryptography by securely combining a quantum-safe
+mechanism with a classical one. For example, by pairing Kyber with
+Hybrid KEMs provide security even if one of the component KEMs is later found to
+of the component KEMs is later found to be flawed.
+Hybrid KEM IETF drafts include post-quantum hybrid ECDHE ML-KEM key
+post-quantum hybrid ECDHE ML-KEM key agreement for TLS 1.3,
+hybrid key exchange in TLS 1.3, hybrid post-quantum transition key
+hybrid post-quantum transition key encapsulation mechanisms,
+and post-quantum transition hybrid key exchange with ML-KEM in SSH.
+exchange with ML-KEM in SSH. Practical guidance documents include
+Practical guidance documents include post-quantum cryptography for engineers,
+post-quantum cryptography for engineers, guidance for migration to post-quantum
+recommendations for TLS applications, and many more drafts are in progress.
+Elsewhere in the world, national cybersecurity agencies are also moving
+cybersecurity agencies are also moving quickly to prepare for the post-quantum
+quickly to prepare for the post-quantum era.
+Many national strategies are closely aligned with the NIST standards,
+aligned with the NIST standards, including
+the Canadian Centre for Cyber Security, the UK's National Cyber Security Centre,
+the UK's National Cyber Security Centre, Japan's CRYPTREC,
+and the German Federal Office for Information Security or BSI.
+Information Security or BSI. The BSI also recommends the classical
+McEliece CHEM and FrodoKEM. Some countries are pursuing their own
+Among them is South Korea, which in January of 2026 announced four PQC
+January of 2026 announced four PQC standards.
+The signature schemes AIMER and HETE, the former following the MPC and the
+the former following the MPC and the head strategy and only using symmetric
+and the latter being lattice-based with smaller public keys and signatures than
+smaller public keys and signatures than Dilithium.
+And two lattice-based KEMs, NTRU Plus and SMOD T.
+Finally, China is developing its own PQC standards coordinated by the Institute
+standards coordinated by the Institute of Commercial Cryptography Standards.
+of Commercial Cryptography Standards. Here's a table that compares public key
+and ciphertext sizes for Kyber, FrodoKEM, Classic McEliece, and HQC.
+FrodoKEM, Classic McEliece, and HQC. For reference, the classical ECDH key
+For reference, the classical ECDH key agreement scheme using the P-256
+agreement scheme using the P-256 elliptic curve is also included.
+Recall that NIST security levels 1 and 2 roughly correspond to the 128-bit
+roughly correspond to the 128-bit security level.
+As you can see, all post-quantum KEMs have larger public keys and ciphertexts
+have larger public keys and ciphertexts than ECDH.
+Classic McEliece has small ciphertexts but very large public keys.
+but very large public keys. In terms of performance, Kyber's
+In terms of performance, Kyber's encapsulation and decapsulation speeds
+encapsulation and decapsulation speeds are roughly comparable to those of ECDH,
+making it one of the fastest post-quantum alternatives.
+Here's a table that compares performance metrics for the elliptic curve EdDSA
+metrics for the elliptic curve EdDSA signature scheme,
+signature scheme, RSA signing,
+RSA signing, Dilithium,
+Dilithium, Falcon,
+Dilithium's signing and verification speeds are broadly comparable to those
+speeds are broadly comparable to those of EDDSA.
+Falcon offers slower signing, but faster verification.
+While SPHINCS+ is slow for both signing and verification.
+In terms of size, Dilithium has relatively large public keys and
+relatively large public keys and signatures.
+signatures. Falcon's keys and signatures are
+though still quite a bit larger than EDDSA's.
+SPHINCS+ by contrast has small public keys, but very large signatures.
+keys, but very large signatures. You can find performance metrics for
+You can find performance metrics for these signature schemes at the higher
+these signature schemes at the higher NIST security levels at this website.
+NIST security levels at this website. And also for the other signature schemes
+And also for the other signature schemes that are still under consideration for
+that are still under consideration for standardization.
+All right. So, this concludes my summary of PQC standards as of March 2026.
+of PQC standards as of March 2026. Of course, this is a rapidly evolving
+Of course, this is a rapidly evolving field.
+Many additional standards are expected to be finalized and published in the
+I'll continue to track these developments and share important updates
+developments and share important updates in the comments below.

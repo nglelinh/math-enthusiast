@@ -1,0 +1,2787 @@
+[
+  {
+    "t_start": 0.09,
+    "t_end": 4.417,
+    "text": "This is a video about the most important algorithm of all time,"
+  },
+  {
+    "t_start": 4.417,
+    "t_end": 7.35,
+    "text": "the Fast Fourier Transform or FFT."
+  },
+  {
+    "t_start": 7.35,
+    "t_end": 9.27,
+    "text": "I mean, you use it all the time"
+  },
+  {
+    "t_start": 9.27,
+    "t_end": 11.31,
+    "text": "including right now to watch this video"
+  },
+  {
+    "t_start": 11.31,
+    "t_end": 15.39,
+    "text": "and it's used in radar and sonar, 5G and WiFi."
+  },
+  {
+    "t_start": 15.39,
+    "t_end": 17.91,
+    "text": "Basically, anytime a signal is processed,"
+  },
+  {
+    "t_start": 17.91,
+    "t_end": 20.1,
+    "text": "there's a good chance that a Fast Fourier Transform"
+  },
+  {
+    "t_start": 20.1,
+    "t_end": 21.21,
+    "text": "is involved."
+  },
+  {
+    "t_start": 21.21,
+    "t_end": 25.26,
+    "text": "But on top of all this, the FFT was discovered by scientists"
+  },
+  {
+    "t_start": 25.26,
+    "t_end": 28.47,
+    "text": "trying to detect covert nuclear weapons tests."
+  },
+  {
+    "t_start": 28.47,
+    "t_end": 30.54,
+    "text": "And if they had discovered it sooner,"
+  },
+  {
+    "t_start": 30.54,
+    "t_end": 33.423,
+    "text": "it may have put a stop to the nuclear arms race."
+  },
+  {
+    "t_start": 36.75,
+    "t_end": 39.09,
+    "text": "You know I always assumed that the nuclear arms race"
+  },
+  {
+    "t_start": 39.09,
+    "t_end": 41.85,
+    "text": "was inevitable, that once the U.S. dropped atomic bombs"
+  },
+  {
+    "t_start": 41.85,
+    "t_end": 43.44,
+    "text": "on Hiroshima and Nagasaki,"
+  },
+  {
+    "t_start": 43.44,
+    "t_end": 45.96,
+    "text": "it was just unavoidable that all the other major powers"
+  },
+  {
+    "t_start": 45.96,
+    "t_end": 47.37,
+    "text": "would develop nukes."
+  },
+  {
+    "t_start": 47.37,
+    "t_end": 51.09,
+    "text": "But maybe it wasn't because it was clear to everyone"
+  },
+  {
+    "t_start": 51.09,
+    "t_end": 54.06,
+    "text": "that nuclear weapons were game changing."
+  },
+  {
+    "t_start": 54.06,
+    "t_end": 56.76,
+    "text": "The bomb dropped on Hiroshima released a thousand times"
+  },
+  {
+    "t_start": 56.76,
+    "t_end": 59.88,
+    "text": "more energy than the biggest conventional explosive"
+  },
+  {
+    "t_start": 59.88,
+    "t_end": 62.643,
+    "text": "so other countries were rightfully concerned."
+  },
+  {
+    "t_start": 63.63,
+    "t_end": 65.55,
+    "text": "At the end of the war, Canada and the U.K."
+  },
+  {
+    "t_start": 65.55,
+    "t_end": 68.22,
+    "text": "requested a meeting to discuss what would be done"
+  },
+  {
+    "t_start": 68.22,
+    "t_end": 69.9,
+    "text": "about nuclear weapons."
+  },
+  {
+    "t_start": 69.9,
+    "t_end": 72.24,
+    "text": "And contrary to what I expected,"
+  },
+  {
+    "t_start": 72.24,
+    "t_end": 75.51,
+    "text": "the U.S. was actually open to these discussions."
+  },
+  {
+    "t_start": 75.51,
+    "t_end": 78.06,
+    "text": "They realized that they wouldn't be the only nation"
+  },
+  {
+    "t_start": 78.06,
+    "t_end": 79.92,
+    "text": "with nukes for long."
+  },
+  {
+    "t_start": 79.92,
+    "t_end": 82.86,
+    "text": "So they offered to decommission all their nuclear weapons"
+  },
+  {
+    "t_start": 82.86,
+    "t_end": 85.533,
+    "text": "if other nations would pledge never to make them."
+  },
+  {
+    "t_start": 88.77,
+    "t_end": 91.56,
+    "text": "This was known as the Baruch plan"
+  },
+  {
+    "t_start": 91.56,
+    "t_end": 94.29,
+    "text": "and it proposed that an international body would control"
+  },
+  {
+    "t_start": 94.29,
+    "t_end": 96.51,
+    "text": "all radioactive materials on earth,"
+  },
+  {
+    "t_start": 96.51,
+    "t_end": 99.84,
+    "text": "from mining to refining to using these materials"
+  },
+  {
+    "t_start": 99.84,
+    "t_end": 103.23,
+    "text": "for peaceful purposes as a nuclear power generation."
+  },
+  {
+    "t_start": 103.23,
+    "t_end": 105.75,
+    "text": "But the Soviets rejected the proposal."
+  },
+  {
+    "t_start": 105.75,
+    "t_end": 108.24,
+    "text": "They saw it as just another ploy to maintain"
+  },
+  {
+    "t_start": 108.24,
+    "t_end": 109.83,
+    "text": "American nuclear dominance"
+  },
+  {
+    "t_start": 109.83,
+    "t_end": 113.283,
+    "text": "and so the global nuclear arms race began."
+  },
+  {
+    "t_start": 115.56,
+    "t_end": 119.31,
+    "text": "To develop new nuclear weapons required extensive testing"
+  },
+  {
+    "t_start": 119.31,
+    "t_end": 122.16,
+    "text": "and most of it was done in remote places like the Arctic"
+  },
+  {
+    "t_start": 122.16,
+    "t_end": 124.5,
+    "text": "or the South Pacific Islands."
+  },
+  {
+    "t_start": 124.5,
+    "t_end": 127.62,
+    "text": "The U.S. also created a nuclear testing site in Nevada,"
+  },
+  {
+    "t_start": 127.62,
+    "t_end": 130.8,
+    "text": "the radioactive products of which blew across the country"
+  },
+  {
+    "t_start": 130.8,
+    "t_end": 134.19,
+    "text": "so that outside of Japan, the people most adversely affected"
+  },
+  {
+    "t_start": 134.19,
+    "t_end": 138.75,
+    "text": "by American nuclear weapons were Americans themselves."
+  },
+  {
+    "t_start": 138.75,
+    "t_end": 141.51,
+    "text": "The U.S. soon graduated from fission weapons"
+  },
+  {
+    "t_start": 141.51,
+    "t_end": 144.4,
+    "text": "to thermonuclear bombs which combined fission and fusion"
+  },
+  {
+    "t_start": 144.4,
+    "t_end": 147.303,
+    "text": "to release even more energy."
+  },
+  {
+    "t_start": 148.98,
+    "t_end": 151.44,
+    "text": "They were as big leap from the first atomic bombs"
+  },
+  {
+    "t_start": 151.44,
+    "t_end": 154.26,
+    "text": "as those devices were from conventional explosives,"
+  },
+  {
+    "t_start": 154.26,
+    "t_end": 157.203,
+    "text": "a thousand times again more powerful."
+  },
+  {
+    "t_start": 157.203,
+    "t_end": 161.7,
+    "text": "- Annihilation of any life on earth has being brought"
+  },
+  {
+    "t_start": 161.7,
+    "t_end": 164.647,
+    "text": "within the range of technical possibility."
+  },
+  {
+    "t_start": 168.752,
+    "t_end": 171.78,
+    "text": "- [Narrator] In 1954 at Bikini Atoll in the South Pacific,"
+  },
+  {
+    "t_start": 171.78,
+    "t_end": 174.03,
+    "text": "the U.S. tested a new thermonuclear design"
+  },
+  {
+    "t_start": 174.03,
+    "t_end": 176.88,
+    "text": "that used lithium deuteride as a fuel"
+  },
+  {
+    "t_start": 176.88,
+    "t_end": 178.95,
+    "text": "and they expected the device code named Shrimp"
+  },
+  {
+    "t_start": 178.95,
+    "t_end": 183.48,
+    "text": "to release the energy equivalent of six million tons of TNT"
+  },
+  {
+    "t_start": 183.48,
+    "t_end": 184.871,
+    "text": "but they were wrong."
+  },
+  {
+    "t_start": 184.871,
+    "t_end": 187.371,
+    "text": "(bomb blasts)"
+  },
+  {
+    "t_start": 189.27,
+    "t_end": 191.61,
+    "text": "It released two and a half times that"
+  },
+  {
+    "t_start": 191.61,
+    "t_end": 195.21,
+    "text": "due to unanticipated reactions with lithium-7."
+  },
+  {
+    "t_start": 195.21,
+    "t_end": 198.63,
+    "text": "And as a result, more radioactive material was created"
+  },
+  {
+    "t_start": 198.63,
+    "t_end": 202.5,
+    "text": "and it rained down over a much larger area than planned."
+  },
+  {
+    "t_start": 202.5,
+    "t_end": 204.93,
+    "text": "Residents of neighboring atolls were only evacuated"
+  },
+  {
+    "t_start": 204.93,
+    "t_end": 208.26,
+    "text": "three days later suffering from radiation sickness."
+  },
+  {
+    "t_start": 208.26,
+    "t_end": 211.41,
+    "text": "And further east, the 23 crew of a Japanese fishing boat"
+  },
+  {
+    "t_start": 211.41,
+    "t_end": 214.92,
+    "text": "were caught in a flurry of radioactive white ash."
+  },
+  {
+    "t_start": 214.92,
+    "t_end": 215.82,
+    "text": "And by that evening,"
+  },
+  {
+    "t_start": 215.82,
+    "t_end": 218.32,
+    "text": "they were suffering from acute radiation syndrome."
+  },
+  {
+    "t_start": 219.21,
+    "t_end": 221.289,
+    "text": "One of the crew died from ensuing complications"
+  },
+  {
+    "t_start": 221.289,
+    "t_end": 222.497,
+    "text": "six months later."
+  },
+  {
+    "t_start": 222.497,
+    "t_end": 224.074,
+    "text": "- [Reporter] As a result of the extended illness"
+  },
+  {
+    "t_start": 224.074,
+    "t_end": 226.793,
+    "text": "brought about by his exposure to the radiation fallout."
+  },
+  {
+    "t_start": 228.69,
+    "t_end": 231.09,
+    "text": "- These events triggered public outcry"
+  },
+  {
+    "t_start": 231.09,
+    "t_end": 232.8,
+    "text": "against nuclear testing."
+  },
+  {
+    "t_start": 232.8,
+    "t_end": 235.86,
+    "text": "The modern peace sign was designed in the 1950s"
+  },
+  {
+    "t_start": 235.86,
+    "t_end": 239.22,
+    "text": "by combining the semaphore letters for N and D"
+  },
+  {
+    "t_start": 239.22,
+    "t_end": 241.8,
+    "text": "standing for nuclear disarmament."
+  },
+  {
+    "t_start": 241.8,
+    "t_end": 244.65,
+    "text": "A number of world leaders called for a comprehensive"
+  },
+  {
+    "t_start": 244.65,
+    "t_end": 249.09,
+    "text": "test ban, no more testing of nuclear weapons by any state"
+  },
+  {
+    "t_start": 249.09,
+    "t_end": 251.88,
+    "text": "and this call was actually taken seriously"
+  },
+  {
+    "t_start": 251.88,
+    "t_end": 253.5,
+    "text": "by the world's nuclear powers."
+  },
+  {
+    "t_start": 253.5,
+    "t_end": 255.45,
+    "text": "They entered into negotiations at meetings"
+  },
+  {
+    "t_start": 255.45,
+    "t_end": 257.25,
+    "text": "with very literal names like"
+  },
+  {
+    "t_start": 257.25,
+    "t_end": 260.55,
+    "text": "the Conference on the Discontinuance of Nuclear Weapon Tests"
+  },
+  {
+    "t_start": 260.55,
+    "t_end": 262.683,
+    "text": "held in Geneva in 1958."
+  },
+  {
+    "t_start": 264.06,
+    "t_end": 266.19,
+    "text": "And to show just how serious they were,"
+  },
+  {
+    "t_start": 266.19,
+    "t_end": 269.22,
+    "text": "they even stopped all testing during the negotiations"
+  },
+  {
+    "t_start": 269.22,
+    "t_end": 273.42,
+    "text": "which is why 1959 is the only year in a long stretch"
+  },
+  {
+    "t_start": 273.42,
+    "t_end": 275.703,
+    "text": "when no nuclear weapons were detonated."
+  },
+  {
+    "t_start": 276.96,
+    "t_end": 279.36,
+    "text": "But there was a big problem with negotiating"
+  },
+  {
+    "t_start": 279.36,
+    "t_end": 282.75,
+    "text": "a comprehensive test ban which is how do you know"
+  },
+  {
+    "t_start": 282.75,
+    "t_end": 286.17,
+    "text": "that the other side will hold up their end of the bargain?"
+  },
+  {
+    "t_start": 286.17,
+    "t_end": 288.54,
+    "text": "The U.S. worried that the Soviets would continue"
+  },
+  {
+    "t_start": 288.54,
+    "t_end": 291.81,
+    "text": "testing covertly and leapfrog them technologically"
+  },
+  {
+    "t_start": 291.81,
+    "t_end": 295.23,
+    "text": "and the Soviets similarly distrusted the U.S.."
+  },
+  {
+    "t_start": 295.23,
+    "t_end": 296.85,
+    "text": "So to address these concerns,"
+  },
+  {
+    "t_start": 296.85,
+    "t_end": 299.79,
+    "text": "they convened the Conference of Experts to Study"
+  },
+  {
+    "t_start": 299.79,
+    "t_end": 302.25,
+    "text": "the Possibility of Detecting Violations"
+  },
+  {
+    "t_start": 302.25,
+    "t_end": 306.54,
+    "text": "of a Possible Agreement on Suspension of Nuclear Tests."
+  },
+  {
+    "t_start": 306.54,
+    "t_end": 310.503,
+    "text": "Seriously, that was the name, I am not making this up."
+  },
+  {
+    "t_start": 313.26,
+    "t_end": 316.83,
+    "text": "Now detecting atmospheric tests was fairly straightforward."
+  },
+  {
+    "t_start": 316.83,
+    "t_end": 319.44,
+    "text": "The radioactive isotopes they produced disperse"
+  },
+  {
+    "t_start": 319.44,
+    "t_end": 321.12,
+    "text": "in the atmosphere and can be detected"
+  },
+  {
+    "t_start": 321.12,
+    "t_end": 322.983,
+    "text": "thousands of kilometers away."
+  },
+  {
+    "t_start": 323.94,
+    "t_end": 326.52,
+    "text": "Underwater tests produce distinctive sounds"
+  },
+  {
+    "t_start": 326.52,
+    "t_end": 329.61,
+    "text": "that travel efficiently around a kilometer below the surface"
+  },
+  {
+    "t_start": 329.61,
+    "t_end": 332.793,
+    "text": "of the ocean and these can be picked up by hydrophones."
+  },
+  {
+    "t_start": 333.63,
+    "t_end": 337.32,
+    "text": "But underground tests are much harder to detect from afar"
+  },
+  {
+    "t_start": 337.32,
+    "t_end": 340.53,
+    "text": "because their radiation is mostly contained"
+  },
+  {
+    "t_start": 340.53,
+    "t_end": 343.95,
+    "text": "and the Soviets refused to allow onsite compliance visits"
+  },
+  {
+    "t_start": 343.95,
+    "t_end": 346.29,
+    "text": "which they regarded as espionage."
+  },
+  {
+    "t_start": 346.29,
+    "t_end": 349.8,
+    "text": "And this is ultimately why when a test ban treaty was signed"
+  },
+  {
+    "t_start": 349.8,
+    "t_end": 353.67,
+    "text": "in 1963, it was only a partial ban."
+  },
+  {
+    "t_start": 353.67,
+    "t_end": 355.41,
+    "text": "It banned testing underwater,"
+  },
+  {
+    "t_start": 355.41,
+    "t_end": 357.45,
+    "text": "in the atmosphere and in space,"
+  },
+  {
+    "t_start": 357.45,
+    "t_end": 359.67,
+    "text": "places where compliance could be verified,"
+  },
+  {
+    "t_start": 359.67,
+    "t_end": 363.03,
+    "text": "but it didn't ban testing underground for the simple reason"
+  },
+  {
+    "t_start": 363.03,
+    "t_end": 366.33,
+    "text": "that it was almost impossible to verify compliance."
+  },
+  {
+    "t_start": 366.33,
+    "t_end": 368.73,
+    "text": "But scientists had been trying to find a way"
+  },
+  {
+    "t_start": 368.73,
+    "t_end": 371.7,
+    "text": "to reliably detect underground detonations."
+  },
+  {
+    "t_start": 371.7,
+    "t_end": 374.64,
+    "text": "Following the Geneva meeting, American and Soviet scientists"
+  },
+  {
+    "t_start": 374.64,
+    "t_end": 377.4,
+    "text": "formed a working group to discuss the issue"
+  },
+  {
+    "t_start": 377.4,
+    "t_end": 380.19,
+    "text": "and their idea was to use seismometers located"
+  },
+  {
+    "t_start": 380.19,
+    "t_end": 382.68,
+    "text": "outside the countries where nukes were being tested"
+  },
+  {
+    "t_start": 382.68,
+    "t_end": 387.21,
+    "text": "to detect the faint ground vibrations caused by explosions."
+  },
+  {
+    "t_start": 387.21,
+    "t_end": 390.57,
+    "text": "The problem was how do you distinguish a nuclear test"
+  },
+  {
+    "t_start": 390.57,
+    "t_end": 392.34,
+    "text": "from an earthquake?"
+  },
+  {
+    "t_start": 392.34,
+    "t_end": 393.48,
+    "text": "Every day around the world,"
+  },
+  {
+    "t_start": 393.48,
+    "t_end": 395.67,
+    "text": "there are close to 300 earthquakes"
+  },
+  {
+    "t_start": 395.67,
+    "t_end": 397.863,
+    "text": "with a magnitude of three or greater."
+  },
+  {
+    "t_start": 399.3,
+    "t_end": 401.76,
+    "text": "In addition, part of the purpose of detecting"
+  },
+  {
+    "t_start": 401.76,
+    "t_end": 404.46,
+    "text": "your adversaries tests is to spy on them,"
+  },
+  {
+    "t_start": 404.46,
+    "t_end": 407.49,
+    "text": "to know how big of an explosion they can make."
+  },
+  {
+    "t_start": 407.49,
+    "t_end": 410.4,
+    "text": "But the seismometer signal depends not only on the yield"
+  },
+  {
+    "t_start": 410.4,
+    "t_end": 414.36,
+    "text": "of the device but also on how deep it was buried."
+  },
+  {
+    "t_start": 414.36,
+    "t_end": 418.62,
+    "text": "For a given yield, deeper explosions appear smaller."
+  },
+  {
+    "t_start": 418.62,
+    "t_end": 421.5,
+    "text": "So scientists wanted a method to reliably determine"
+  },
+  {
+    "t_start": 421.5,
+    "t_end": 424.53,
+    "text": "whether a given signal was a bomb or an earthquake"
+  },
+  {
+    "t_start": 424.53,
+    "t_end": 426.99,
+    "text": "and if it was a bomb, how big it was"
+  },
+  {
+    "t_start": 426.99,
+    "t_end": 429.24,
+    "text": "and how deep it was buried."
+  },
+  {
+    "t_start": 429.24,
+    "t_end": 431.85,
+    "text": "They knew that all this information was contained"
+  },
+  {
+    "t_start": 431.85,
+    "t_end": 435.21,
+    "text": "in the seismometer signal but it couldn't just be read off"
+  },
+  {
+    "t_start": 435.21,
+    "t_end": 436.8,
+    "text": "by looking at the squiggles."
+  },
+  {
+    "t_start": 436.8,
+    "t_end": 439.74,
+    "text": "They needed to know how much of different frequencies"
+  },
+  {
+    "t_start": 439.74,
+    "t_end": 442.74,
+    "text": "were present which meant they needed to take"
+  },
+  {
+    "t_start": 442.74,
+    "t_end": 448.86,
+    "text": "A Fourier transform is a way of decomposing a signal"
+  },
+  {
+    "t_start": 448.86,
+    "t_end": 452.22,
+    "text": "into pure sine waves, each with its own amplitude"
+  },
+  {
+    "t_start": 452.22,
+    "t_end": 455.58,
+    "text": "and frequency that add to make it up."
+  },
+  {
+    "t_start": 455.58,
+    "t_end": 458.25,
+    "text": "This seems a bit like magic since the sum"
+  },
+  {
+    "t_start": 458.25,
+    "t_end": 460.89,
+    "text": "of a set of sine waves can look arbitrarily complicated"
+  },
+  {
+    "t_start": 460.89,
+    "t_end": 464.04,
+    "text": "and nothing like its component parts."
+  },
+  {
+    "t_start": 464.04,
+    "t_end": 466.23,
+    "text": "There are some elegant ways to understand"
+  },
+  {
+    "t_start": 466.23,
+    "t_end": 467.85,
+    "text": "how Fourier transforms work,"
+  },
+  {
+    "t_start": 467.85,
+    "t_end": 470.73,
+    "text": "shout out to the awesome video by 3Blue1Brown."
+  },
+  {
+    "t_start": 470.73,
+    "t_end": 473.82,
+    "text": "But I wanna take more of a brute force approach."
+  },
+  {
+    "t_start": 473.82,
+    "t_end": 476.7,
+    "text": "If you wanna know how much of a particular sine wave"
+  },
+  {
+    "t_start": 476.7,
+    "t_end": 480.24,
+    "text": "is in a signal, just multiply the signal by the sine wave"
+  },
+  {
+    "t_start": 480.24,
+    "t_end": 485.13,
+    "text": "at each point and then add up the area under the curve."
+  },
+  {
+    "t_start": 485.13,
+    "t_end": 488.67,
+    "text": "As a simple example, say our signal is just a sine wave"
+  },
+  {
+    "t_start": 488.67,
+    "t_end": 491.52,
+    "text": "with a certain frequency but pretend we don't know that"
+  },
+  {
+    "t_start": 491.52,
+    "t_end": 492.93,
+    "text": "and we're trying to figure out"
+  },
+  {
+    "t_start": 492.93,
+    "t_end": 495.6,
+    "text": "which sine waves add to make it up."
+  },
+  {
+    "t_start": 495.6,
+    "t_end": 497.91,
+    "text": "Well, if you multiply this signal by a sine wave"
+  },
+  {
+    "t_start": 497.91,
+    "t_end": 502.11,
+    "text": "of an arbitrary frequency, the two waves are uncorrelated."
+  },
+  {
+    "t_start": 502.11,
+    "t_end": 503.85,
+    "text": "You're just as likely to find places where they have"
+  },
+  {
+    "t_start": 503.85,
+    "t_end": 506.88,
+    "text": "the same sign, both positive or both negative"
+  },
+  {
+    "t_start": 506.88,
+    "t_end": 509.61,
+    "text": "as where they have opposite signs and therefore"
+  },
+  {
+    "t_start": 509.61,
+    "t_end": 512.97,
+    "text": "when you multiply them together, the area above the x-axis"
+  },
+  {
+    "t_start": 512.97,
+    "t_end": 515.49,
+    "text": "is equal to the area below the x-axis."
+  },
+  {
+    "t_start": 515.49,
+    "t_end": 518.88,
+    "text": "So these areas add up to zero which means"
+  },
+  {
+    "t_start": 518.88,
+    "t_end": 522.63,
+    "text": "that frequency sine wave is not a part of your signal"
+  },
+  {
+    "t_start": 522.63,
+    "t_end": 525.12,
+    "text": "and this will be true for almost all frequencies"
+  },
+  {
+    "t_start": 525.12,
+    "t_end": 526.92,
+    "text": "you could try assuming you're looking over"
+  },
+  {
+    "t_start": 526.92,
+    "t_end": 528.63,
+    "text": "a long enough timeframe."
+  },
+  {
+    "t_start": 528.63,
+    "t_end": 531.9,
+    "text": "The only exception is if the frequency of the sine wave"
+  },
+  {
+    "t_start": 531.9,
+    "t_end": 535.08,
+    "text": "exactly matches that of the signal,"
+  },
+  {
+    "t_start": 535.08,
+    "t_end": 537.75,
+    "text": "now these waves are correlated"
+  },
+  {
+    "t_start": 537.75,
+    "t_end": 541.02,
+    "text": "so their product is always positive and so is the area"
+  },
+  {
+    "t_start": 541.02,
+    "t_end": 542.91,
+    "text": "under the curve that indicates"
+  },
+  {
+    "t_start": 542.91,
+    "t_end": 546.39,
+    "text": "that this sine wave is part of our signal."
+  },
+  {
+    "t_start": 546.39,
+    "t_end": 548.82,
+    "text": "And this trick works even if the signal is composed"
+  },
+  {
+    "t_start": 548.82,
+    "t_end": 550.83,
+    "text": "of a bunch of different frequencies."
+  },
+  {
+    "t_start": 550.83,
+    "t_end": 553.56,
+    "text": "If the sine waves frequency is one of the components"
+  },
+  {
+    "t_start": 553.56,
+    "t_end": 555.75,
+    "text": "of the signal it will correlate with the signal"
+  },
+  {
+    "t_start": 555.75,
+    "t_end": 557.85,
+    "text": "producing a non-zero area."
+  },
+  {
+    "t_start": 557.85,
+    "t_end": 560.94,
+    "text": "And the size of this area tells you the relative amplitude"
+  },
+  {
+    "t_start": 560.94,
+    "t_end": 564.06,
+    "text": "of that frequency sine wave in the signal."
+  },
+  {
+    "t_start": 564.06,
+    "t_end": 567.3,
+    "text": "Repeat this process for all frequencies of sine waves"
+  },
+  {
+    "t_start": 567.3,
+    "t_end": 569.19,
+    "text": "and you get the frequency spectrum."
+  },
+  {
+    "t_start": 569.19,
+    "t_end": 571.5,
+    "text": "Essentially which frequencies are present"
+  },
+  {
+    "t_start": 571.5,
+    "t_end": 573.393,
+    "text": "and in what proportions."
+  },
+  {
+    "t_start": 575.58,
+    "t_end": 578.25,
+    "text": "Now so far I've only talked about sine waves"
+  },
+  {
+    "t_start": 578.25,
+    "t_end": 580.8,
+    "text": "but if the signal is a cosine wave,"
+  },
+  {
+    "t_start": 580.8,
+    "t_end": 582.81,
+    "text": "then even if you multiply it by a sine wave"
+  },
+  {
+    "t_start": 582.81,
+    "t_end": 584.64,
+    "text": "of the exact same frequency,"
+  },
+  {
+    "t_start": 584.64,
+    "t_end": 587.4,
+    "text": "the area under the curve will be zero."
+  },
+  {
+    "t_start": 587.4,
+    "t_end": 588.69,
+    "text": "So for each frequency,"
+  },
+  {
+    "t_start": 588.69,
+    "t_end": 591.42,
+    "text": "we actually need to multiply by a sine wave"
+  },
+  {
+    "t_start": 591.42,
+    "t_end": 595.53,
+    "text": "and a cosine wave and find the amplitudes for each."
+  },
+  {
+    "t_start": 595.53,
+    "t_end": 598.83,
+    "text": "The ratio of these amplitudes indicates the phase"
+  },
+  {
+    "t_start": 598.83,
+    "t_end": 601.32,
+    "text": "of the signal that is how much it's shifted"
+  },
+  {
+    "t_start": 601.32,
+    "t_end": 603.33,
+    "text": "to the left or to the right."
+  },
+  {
+    "t_start": 603.33,
+    "t_end": 605.82,
+    "text": "You can calculate these sine and cosine amplitudes"
+  },
+  {
+    "t_start": 605.82,
+    "t_end": 609.57,
+    "text": "separately or you can use Euler's formula"
+  },
+  {
+    "t_start": 609.57,
+    "t_end": 611.16,
+    "text": "so you only need to multiply your signal"
+  },
+  {
+    "t_start": 611.16,
+    "t_end": 613.44,
+    "text": "by one exponential term."
+  },
+  {
+    "t_start": 613.44,
+    "t_end": 616.38,
+    "text": "Then the real part of the sum is the cosine amplitude"
+  },
+  {
+    "t_start": 616.38,
+    "t_end": 619.593,
+    "text": "and the imaginary part is the sine amplitude."
+  },
+  {
+    "t_start": 620.79,
+    "t_end": 622.98,
+    "text": "In the American delegation at the Geneva meeting,"
+  },
+  {
+    "t_start": 622.98,
+    "t_end": 624.87,
+    "text": "there was a physicist, Richard Garwin"
+  },
+  {
+    "t_start": 624.87,
+    "t_end": 627.12,
+    "text": "and a mathematician John Tukey."
+  },
+  {
+    "t_start": 627.12,
+    "t_end": 629.64,
+    "text": "They got into a debate with the Soviet delegation"
+  },
+  {
+    "t_start": 629.64,
+    "t_end": 632.7,
+    "text": "over which nation's seismometers were superior."
+  },
+  {
+    "t_start": 632.7,
+    "t_end": 636.78,
+    "text": "So Garwin simulated the responses of both countries' devices"
+  },
+  {
+    "t_start": 636.78,
+    "t_end": 639.0,
+    "text": "on a computer at CERN."
+  },
+  {
+    "t_start": 639.0,
+    "t_end": 643.5,
+    "text": "The next day, everyone agreed there wasn't much difference."
+  },
+  {
+    "t_start": 643.5,
+    "t_end": 646.86,
+    "text": "The real obstacle to detecting underground explosions"
+  },
+  {
+    "t_start": 646.86,
+    "t_end": 649.17,
+    "text": "wasn't the accuracy of the seismometers,"
+  },
+  {
+    "t_start": 649.17,
+    "t_end": 651.69,
+    "text": "it was the vast amounts of computation required"
+  },
+  {
+    "t_start": 651.69,
+    "t_end": 654.513,
+    "text": "to Fourier transform the seismometer signals."
+  },
+  {
+    "t_start": 656.16,
+    "t_end": 658.2,
+    "text": "Here's an example seismometer signal"
+  },
+  {
+    "t_start": 658.2,
+    "t_end": 660.15,
+    "text": "and its Fourier transform."
+  },
+  {
+    "t_start": 660.15,
+    "t_end": 662.43,
+    "text": "Thus far I've been thinking about signals"
+  },
+  {
+    "t_start": 662.43,
+    "t_end": 664.65,
+    "text": "as infinite continuous waves"
+  },
+  {
+    "t_start": 664.65,
+    "t_end": 666.3,
+    "text": "and when you take their Fourier transform,"
+  },
+  {
+    "t_start": 666.3,
+    "t_end": 669.96,
+    "text": "you get an infinite continuous frequency spectrum."
+  },
+  {
+    "t_start": 669.96,
+    "t_end": 672.24,
+    "text": "But real world signals are not like that."
+  },
+  {
+    "t_start": 672.24,
+    "t_end": 674.94,
+    "text": "They are finite and made up of individual samples"
+  },
+  {
+    "t_start": 674.94,
+    "t_end": 676.44,
+    "text": "or data points."
+  },
+  {
+    "t_start": 676.44,
+    "t_end": 679.05,
+    "text": "Even though a seismometer signal looks smooth"
+  },
+  {
+    "t_start": 679.05,
+    "t_end": 682.2,
+    "text": "and continuous, it doesn't record ground motion"
+  },
+  {
+    "t_start": 682.2,
+    "t_end": 684.18,
+    "text": "with infinite precision."
+  },
+  {
+    "t_start": 684.18,
+    "t_end": 687.27,
+    "text": "There is some fundamental graininess to the data"
+  },
+  {
+    "t_start": 687.27,
+    "t_end": 690.9,
+    "text": "so what you have is discreet finite data."
+  },
+  {
+    "t_start": 690.9,
+    "t_end": 694.89,
+    "text": "So you can't use the idealized Fourier transform."
+  },
+  {
+    "t_start": 694.89,
+    "t_end": 697.11,
+    "text": "Instead, you have to perform something"
+  },
+  {
+    "t_start": 697.11,
+    "t_end": 700.11,
+    "text": "called a Discreet Fourier Transform."
+  },
+  {
+    "t_start": 700.11,
+    "t_end": 702.06,
+    "text": "And one of the distinguishing features"
+  },
+  {
+    "t_start": 702.06,
+    "t_end": 703.86,
+    "text": "of a Discreet Fourier Transform"
+  },
+  {
+    "t_start": 703.86,
+    "t_end": 708.27,
+    "text": "is that the frequency spectrum is also discreet and finite."
+  },
+  {
+    "t_start": 708.27,
+    "t_end": 709.65,
+    "text": "You can think of the frequencies"
+  },
+  {
+    "t_start": 709.65,
+    "t_end": 713.37,
+    "text": "as falling into a finite number of bins."
+  },
+  {
+    "t_start": 713.37,
+    "t_end": 716.37,
+    "text": "And what determines the number and size of these bins"
+  },
+  {
+    "t_start": 716.37,
+    "t_end": 718.29,
+    "text": "is the number of samples in the signal"
+  },
+  {
+    "t_start": 718.29,
+    "t_end": 720.81,
+    "text": "and how closely spaced they are."
+  },
+  {
+    "t_start": 720.81,
+    "t_end": 723.96,
+    "text": "For example, the more spaced out the samples are,"
+  },
+  {
+    "t_start": 723.96,
+    "t_end": 726.66,
+    "text": "the lower the maximum frequency you can measure."
+  },
+  {
+    "t_start": 726.66,
+    "t_end": 728.79,
+    "text": "Because the samples aren't close enough together"
+  },
+  {
+    "t_start": 728.79,
+    "t_end": 732.03,
+    "text": "to capture high frequency oscillations,"
+  },
+  {
+    "t_start": 732.03,
+    "t_end": 734.4,
+    "text": "the shorter the duration of the signal,"
+  },
+  {
+    "t_start": 734.4,
+    "t_end": 737.52,
+    "text": "the harder it is to tell similar frequencies apart."
+  },
+  {
+    "t_start": 737.52,
+    "t_end": 740.55,
+    "text": "So this lowers the frequency resolution."
+  },
+  {
+    "t_start": 740.55,
+    "t_end": 745.23,
+    "text": "The shorter the signal, the wider each frequency bin is."
+  },
+  {
+    "t_start": 745.23,
+    "t_end": 748.95,
+    "text": "The lowest non-zero frequency you can effectively measure"
+  },
+  {
+    "t_start": 748.95,
+    "t_end": 752.85,
+    "text": "is one whose period is equal to the duration of the signal."
+  },
+  {
+    "t_start": 752.85,
+    "t_end": 755.88,
+    "text": "And the higher frequency bins are just integer multiples"
+  },
+  {
+    "t_start": 755.88,
+    "t_end": 756.99,
+    "text": "of this frequency."
+  },
+  {
+    "t_start": 756.99,
+    "t_end": 760.62,
+    "text": "So they fit two, three, four, and so on periods"
+  },
+  {
+    "t_start": 760.62,
+    "t_end": 762.69,
+    "text": "in the duration of the signal."
+  },
+  {
+    "t_start": 762.69,
+    "t_end": 766.2,
+    "text": "The total number of frequency bins is equal"
+  },
+  {
+    "t_start": 766.2,
+    "t_end": 768.57,
+    "text": "to the number of samples in the signal."
+  },
+  {
+    "t_start": 768.57,
+    "t_end": 771.03,
+    "text": "So if the signal is made up of eight samples,"
+  },
+  {
+    "t_start": 771.03,
+    "t_end": 773.76,
+    "text": "then the transform has eight frequency bins"
+  },
+  {
+    "t_start": 773.76,
+    "t_end": 778.53,
+    "text": "going from zero up to seven times the fundamental frequency."
+  },
+  {
+    "t_start": 778.53,
+    "t_end": 780.54,
+    "text": "So let's do an example."
+  },
+  {
+    "t_start": 780.54,
+    "t_end": 783.96,
+    "text": "Say we have a signal made up of eight samples."
+  },
+  {
+    "t_start": 783.96,
+    "t_end": 785.94,
+    "text": "Well, then the discrete Fourier transform"
+  },
+  {
+    "t_start": 785.94,
+    "t_end": 788.46,
+    "text": "will have eight frequency bins."
+  },
+  {
+    "t_start": 788.46,
+    "t_end": 791.94,
+    "text": "The first bin corresponds to a frequency of zero."
+  },
+  {
+    "t_start": 791.94,
+    "t_end": 793.95,
+    "text": "Essentially this measures if the signal"
+  },
+  {
+    "t_start": 793.95,
+    "t_end": 797.25,
+    "text": "is systematically shifted off the x-axis."
+  },
+  {
+    "t_start": 797.25,
+    "t_end": 800.67,
+    "text": "You can think of it as measuring the DC offset."
+  },
+  {
+    "t_start": 800.67,
+    "t_end": 803.07,
+    "text": "You multiply each data point by one"
+  },
+  {
+    "t_start": 803.07,
+    "t_end": 806.673,
+    "text": "and add them all together, in this case, they add to zero."
+  },
+  {
+    "t_start": 808.29,
+    "t_end": 811.26,
+    "text": "The second frequency bin corresponds to the frequency"
+  },
+  {
+    "t_start": 811.26,
+    "t_end": 814.59,
+    "text": "that fits one period in the duration of the signal."
+  },
+  {
+    "t_start": 814.59,
+    "t_end": 817.74,
+    "text": "So in this case that corresponds to one hertz."
+  },
+  {
+    "t_start": 817.74,
+    "t_end": 821.61,
+    "text": "You multiply each point by a sine wave of this frequency"
+  },
+  {
+    "t_start": 821.61,
+    "t_end": 824.43,
+    "text": "and a cosine wave of this frequency"
+  },
+  {
+    "t_start": 824.43,
+    "t_end": 826.74,
+    "text": "and separately add them up."
+  },
+  {
+    "t_start": 826.74,
+    "t_end": 831.39,
+    "text": "For cosine, they add to four"
+  },
+  {
+    "t_start": 831.39,
+    "t_end": 834.84,
+    "text": "and then repeat the process for two hertz, three hertz,"
+  },
+  {
+    "t_start": 834.84,
+    "t_end": 837.39,
+    "text": "and so on, up to seven hertz."
+  },
+  {
+    "t_start": 837.39,
+    "t_end": 840.57,
+    "text": "And you have the discreet Fourier transform"
+  },
+  {
+    "t_start": 840.57,
+    "t_end": 842.97,
+    "text": "of this really simple signal."
+  },
+  {
+    "t_start": 842.97,
+    "t_end": 845.73,
+    "text": "Now this process works fine in principle"
+  },
+  {
+    "t_start": 845.73,
+    "t_end": 847.53,
+    "text": "and you could use it to calculate"
+  },
+  {
+    "t_start": 847.53,
+    "t_end": 849.9,
+    "text": "all discrete Fourier transforms."
+  },
+  {
+    "t_start": 849.9,
+    "t_end": 854.16,
+    "text": "But the problem is it requires way too many calculations."
+  },
+  {
+    "t_start": 854.16,
+    "t_end": 856.59,
+    "text": "To complete one discrete Fourier transform"
+  },
+  {
+    "t_start": 856.59,
+    "t_end": 858.81,
+    "text": "requires multiplying N data points"
+  },
+  {
+    "t_start": 858.81,
+    "t_end": 861.36,
+    "text": "by N different frequency waves."
+  },
+  {
+    "t_start": 861.36,
+    "t_end": 864.99,
+    "text": "So N squared complex multiplications."
+  },
+  {
+    "t_start": 864.99,
+    "t_end": 867.39,
+    "text": "Now this is doable for eight samples"
+  },
+  {
+    "t_start": 867.39,
+    "t_end": 870.18,
+    "text": "but if you had say a million samples,"
+  },
+  {
+    "t_start": 870.18,
+    "t_end": 872.25,
+    "text": "that would require a million squared"
+  },
+  {
+    "t_start": 872.25,
+    "t_end": 875.253,
+    "text": "or one trillion calculations."
+  },
+  {
+    "t_start": 877.35,
+    "t_end": 879.75,
+    "text": "At the speed of 1960s computers,"
+  },
+  {
+    "t_start": 879.75,
+    "t_end": 882.33,
+    "text": "that would take over three years to complete,"
+  },
+  {
+    "t_start": 882.33,
+    "t_end": 884.58,
+    "text": "all for a single transform."
+  },
+  {
+    "t_start": 884.58,
+    "t_end": 887.52,
+    "text": "Now a million samples is admittedly more than you would need"
+  },
+  {
+    "t_start": 887.52,
+    "t_end": 890.91,
+    "text": "for a single seismic event but to analyze tens of events"
+  },
+  {
+    "t_start": 890.91,
+    "t_end": 893.16,
+    "text": "per day from hundreds of seismometers,"
+  },
+  {
+    "t_start": 893.16,
+    "t_end": 895.59,
+    "text": "it would just be far too time consuming"
+  },
+  {
+    "t_start": 895.59,
+    "t_end": 897.63,
+    "text": "and that's what gave scientists the impetus"
+  },
+  {
+    "t_start": 897.63,
+    "t_end": 899.85,
+    "text": "to look for a better way."
+  },
+  {
+    "t_start": 899.85,
+    "t_end": 902.49,
+    "text": "And the breakthrough came in 1963 at a meeting"
+  },
+  {
+    "t_start": 902.49,
+    "t_end": 904.95,
+    "text": "of the President's Science Advisory Committee."
+  },
+  {
+    "t_start": 904.95,
+    "t_end": 906.75,
+    "text": "President John F. Kennedy was there,"
+  },
+  {
+    "t_start": 906.75,
+    "t_end": 908.25,
+    "text": "as were Garwin and Tukey,"
+  },
+  {
+    "t_start": 908.25,
+    "t_end": 911.34,
+    "text": "the physicist and mathematician from the Geneva meeting."
+  },
+  {
+    "t_start": 911.34,
+    "t_end": 914.13,
+    "text": "Although they were discussing issues of national importance"
+  },
+  {
+    "t_start": 914.13,
+    "t_end": 917.25,
+    "text": "like the Apollo program and nuclear fallout shelters,"
+  },
+  {
+    "t_start": 917.25,
+    "t_end": 919.83,
+    "text": "the meeting was apparently pretty boring."
+  },
+  {
+    "t_start": 919.83,
+    "t_end": 923.13,
+    "text": "Garwin observed Tukey doodling throughout"
+  },
+  {
+    "t_start": 923.13,
+    "t_end": 925.02,
+    "text": "but what he was actually doing"
+  },
+  {
+    "t_start": 925.02,
+    "t_end": 928.44,
+    "text": "was working on discreet Fourier transforms."
+  },
+  {
+    "t_start": 928.44,
+    "t_end": 930.39,
+    "text": "At the end of the meeting, Garwin asked Tukey"
+  },
+  {
+    "t_start": 930.39,
+    "t_end": 933.33,
+    "text": "what he had worked out and he was shocked to learn"
+  },
+  {
+    "t_start": 933.33,
+    "t_end": 936.6,
+    "text": "that Tukey knew a way to compute discreet Fourier transforms"
+  },
+  {
+    "t_start": 936.6,
+    "t_end": 939.09,
+    "text": "with many fewer computations."
+  },
+  {
+    "t_start": 939.09,
+    "t_end": 940.95,
+    "text": "It would mean that the calculation that would've taken"
+  },
+  {
+    "t_start": 940.95,
+    "t_end": 945.12,
+    "text": "over three years could be done in just 35 minutes."
+  },
+  {
+    "t_start": 945.12,
+    "t_end": 949.26,
+    "text": "This has aptly become known as the Fast Fourier Transform."
+  },
+  {
+    "t_start": 949.26,
+    "t_end": 951.453,
+    "text": "So here is how it works."
+  },
+  {
+    "t_start": 953.94,
+    "t_end": 956.67,
+    "text": "Consider the example from before with eight samples."
+  },
+  {
+    "t_start": 956.67,
+    "t_end": 958.47,
+    "text": "Each of those data points must be multiplied"
+  },
+  {
+    "t_start": 958.47,
+    "t_end": 960.81,
+    "text": "by the eight different frequency waves."
+  },
+  {
+    "t_start": 960.81,
+    "t_end": 964.26,
+    "text": "Here I'm only showing cosines for simplicity."
+  },
+  {
+    "t_start": 964.26,
+    "t_end": 966.99,
+    "text": "So you would expect this to require eight times eight"
+  },
+  {
+    "t_start": 966.99,
+    "t_end": 970.02,
+    "text": "or 64 complex multiplication."
+  },
+  {
+    "t_start": 970.02,
+    "t_end": 973.17,
+    "text": "But due to the periodic nature of sinusoids,"
+  },
+  {
+    "t_start": 973.17,
+    "t_end": 975.33,
+    "text": "these waves of different frequencies"
+  },
+  {
+    "t_start": 975.33,
+    "t_end": 977.97,
+    "text": "overlap in a predictable way."
+  },
+  {
+    "t_start": 977.97,
+    "t_end": 980.52,
+    "text": "For example, at the middle data point,"
+  },
+  {
+    "t_start": 980.52,
+    "t_end": 985.77,
+    "text": "all of the four odd frequencies have the same value"
+  },
+  {
+    "t_start": 985.77,
+    "t_end": 987.27,
+    "text": "have the same value as well."
+  },
+  {
+    "t_start": 987.27,
+    "t_end": 989.97,
+    "text": "So instead of doing eight multiplication,"
+  },
+  {
+    "t_start": 989.97,
+    "t_end": 992.13,
+    "text": "you only need to do two."
+  },
+  {
+    "t_start": 992.13,
+    "t_end": 993.87,
+    "text": "And this sort of duplication occurs"
+  },
+  {
+    "t_start": 993.87,
+    "t_end": 995.91,
+    "text": "at the other data points as well."
+  },
+  {
+    "t_start": 995.91,
+    "t_end": 1000.773,
+    "text": "So instead of performing 64 calculations, you need only 24."
+  },
+  {
+    "t_start": 1001.7,
+    "t_end": 1004.07,
+    "text": "Now that might seem like a small improvement"
+  },
+  {
+    "t_start": 1004.07,
+    "t_end": 1006.02,
+    "text": "but it's the difference between a calculation"
+  },
+  {
+    "t_start": 1006.02,
+    "t_end": 1009.26,
+    "text": "that scales as N, the number of samples squared"
+  },
+  {
+    "t_start": 1009.26,
+    "t_end": 1012.98,
+    "text": "versus one that scales as Nlog base two of N"
+  },
+  {
+    "t_start": 1012.98,
+    "t_end": 1014.87,
+    "text": "which means the bigger the data set,"
+  },
+  {
+    "t_start": 1014.87,
+    "t_end": 1016.94,
+    "text": "the greater the savings."
+  },
+  {
+    "t_start": 1016.94,
+    "t_end": 1019.82,
+    "text": "A signal with a thousand samples would require"
+  },
+  {
+    "t_start": 1019.82,
+    "t_end": 1023.9,
+    "text": "100 times fewer calculations and a million samples"
+  },
+  {
+    "t_start": 1023.9,
+    "t_end": 1027.623,
+    "text": "would require 50,000 times fewer calculations."
+  },
+  {
+    "t_start": 1028.58,
+    "t_end": 1032.9,
+    "text": "But how do you know which calculations are redundant?"
+  },
+  {
+    "t_start": 1032.9,
+    "t_end": 1035.51,
+    "text": "Well, take your samples and split them"
+  },
+  {
+    "t_start": 1035.51,
+    "t_end": 1038.9,
+    "text": "into even and odd index points."
+  },
+  {
+    "t_start": 1038.9,
+    "t_end": 1040.04,
+    "text": "You still need to multiply"
+  },
+  {
+    "t_start": 1040.04,
+    "t_end": 1043.37,
+    "text": "each of these by the eight different frequency waves."
+  },
+  {
+    "t_start": 1043.37,
+    "t_end": 1046.94,
+    "text": "But now let's look only at the even points and compare"
+  },
+  {
+    "t_start": 1046.94,
+    "t_end": 1051.29,
+    "text": "the first four frequencies to the second four frequencies."
+  },
+  {
+    "t_start": 1051.29,
+    "t_end": 1053.93,
+    "text": "And what you find is that in each case"
+  },
+  {
+    "t_start": 1053.93,
+    "t_end": 1055.73,
+    "text": "at the location of the samples,"
+  },
+  {
+    "t_start": 1055.73,
+    "t_end": 1058.883,
+    "text": "the values of the two sine waves are the same."
+  },
+  {
+    "t_start": 1059.84,
+    "t_end": 1063.62,
+    "text": "A similar pattern can be observed for the odd index points"
+  },
+  {
+    "t_start": 1063.62,
+    "t_end": 1066.86,
+    "text": "except the values of one sine wave are the negative"
+  },
+  {
+    "t_start": 1066.86,
+    "t_end": 1067.94,
+    "text": "of the other."
+  },
+  {
+    "t_start": 1067.94,
+    "t_end": 1071.51,
+    "text": "More generally, they're related by a complex number."
+  },
+  {
+    "t_start": 1071.51,
+    "t_end": 1074.9,
+    "text": "But what this means is that you don't have to do"
+  },
+  {
+    "t_start": 1074.9,
+    "t_end": 1077.18,
+    "text": "all the multiplication for the second half"
+  },
+  {
+    "t_start": 1077.18,
+    "t_end": 1078.68,
+    "text": "of the frequencies."
+  },
+  {
+    "t_start": 1078.68,
+    "t_end": 1081.62,
+    "text": "Once you've calculated the odd and even sums"
+  },
+  {
+    "t_start": 1081.62,
+    "t_end": 1083.72,
+    "text": "for the lower half the frequencies,"
+  },
+  {
+    "t_start": 1083.72,
+    "t_end": 1088.16,
+    "text": "you can reuse these values to find the upper half."
+  },
+  {
+    "t_start": 1088.16,
+    "t_end": 1090.95,
+    "text": "So you've effectively cut the number of calculations"
+  },
+  {
+    "t_start": 1090.95,
+    "t_end": 1095.27,
+    "text": "required in half but that's only a factor of two,"
+  },
+  {
+    "t_start": 1095.27,
+    "t_end": 1098.48,
+    "text": "how do you get down to Nlog base two of N?"
+  },
+  {
+    "t_start": 1098.48,
+    "t_end": 1100.67,
+    "text": "Well, you repeat the same trick,"
+  },
+  {
+    "t_start": 1100.67,
+    "t_end": 1104.42,
+    "text": "split the samples again into even an odd points"
+  },
+  {
+    "t_start": 1104.42,
+    "t_end": 1106.91,
+    "text": "and then again repeatedly"
+  },
+  {
+    "t_start": 1106.91,
+    "t_end": 1110.03,
+    "text": "until you're down to single data points."
+  },
+  {
+    "t_start": 1110.03,
+    "t_end": 1112.73,
+    "text": "At each split, you can exploit the symmetries"
+  },
+  {
+    "t_start": 1112.73,
+    "t_end": 1115.85,
+    "text": "of sinusoidal functions to cut the number of calculations"
+  },
+  {
+    "t_start": 1115.85,
+    "t_end": 1117.14,
+    "text": "in half."
+  },
+  {
+    "t_start": 1117.14,
+    "t_end": 1120.23,
+    "text": "And that is how the Fast Fourier Transform reduces"
+  },
+  {
+    "t_start": 1120.23,
+    "t_end": 1123.233,
+    "text": "N squared calculations down to NlogN."
+  },
+  {
+    "t_start": 1124.07,
+    "t_end": 1125.93,
+    "text": "And it's why today whenever anyone takes"
+  },
+  {
+    "t_start": 1125.93,
+    "t_end": 1128.96,
+    "text": "a Fourier transform, it's almost always done"
+  },
+  {
+    "t_start": 1128.96,
+    "t_end": 1131.123,
+    "text": "as a Fast Fourier Transform."
+  },
+  {
+    "t_start": 1132.11,
+    "t_end": 1134.96,
+    "text": "Garwin approached an IBM researcher, James Cooley"
+  },
+  {
+    "t_start": 1134.96,
+    "t_end": 1138.2,
+    "text": "to program a computer to run the FFT algorithm"
+  },
+  {
+    "t_start": 1138.2,
+    "t_end": 1140.54,
+    "text": "but he didn't tell him the reason was to detect"
+  },
+  {
+    "t_start": 1140.54,
+    "t_end": 1142.37,
+    "text": "underground Soviet nuclear tests."
+  },
+  {
+    "t_start": 1142.37,
+    "t_end": 1144.02,
+    "text": "He said it was to work out the spins"
+  },
+  {
+    "t_start": 1144.02,
+    "t_end": 1146.24,
+    "text": "in a crystal of helium-3."
+  },
+  {
+    "t_start": 1146.24,
+    "t_end": 1148.37,
+    "text": "Cooley and Tukey published the algorithm"
+  },
+  {
+    "t_start": 1148.37,
+    "t_end": 1153.37,
+    "text": "in a seminal 1965 paper and its use immediately took off"
+  },
+  {
+    "t_start": 1153.59,
+    "t_end": 1156.11,
+    "text": "but it was too late to secure"
+  },
+  {
+    "t_start": 1156.11,
+    "t_end": 1158.093,
+    "text": "a comprehensive nuclear test ban."
+  },
+  {
+    "t_start": 1159.129,
+    "t_end": 1161.96,
+    "text": "By that time, the U.K., France and China"
+  },
+  {
+    "t_start": 1161.96,
+    "t_end": 1165.353,
+    "text": "had joined the Soviet Union and the U.S. as nuclear powers."
+  },
+  {
+    "t_start": 1167.06,
+    "t_end": 1168.89,
+    "text": "And the partial test ban treaty,"
+  },
+  {
+    "t_start": 1168.89,
+    "t_end": 1171.56,
+    "text": "far from deescalating the nuclear arms race"
+  },
+  {
+    "t_start": 1171.56,
+    "t_end": 1173.78,
+    "text": "just sent it underground."
+  },
+  {
+    "t_start": 1173.78,
+    "t_end": 1175.7,
+    "text": "The thinking was if you were only allowed"
+  },
+  {
+    "t_start": 1175.7,
+    "t_end": 1179.0,
+    "text": "to test underground, then you better be testing extensively"
+  },
+  {
+    "t_start": 1179.0,
+    "t_end": 1182.42,
+    "text": "so as not to fall behind all the other nuclear states."
+  },
+  {
+    "t_start": 1182.42,
+    "t_end": 1187.04,
+    "text": "So from 1963, 1,500 nuclear weapons were detonated."
+  },
+  {
+    "t_start": 1187.04,
+    "t_end": 1190.97,
+    "text": "That's roughly one a week for 30 years."
+  },
+  {
+    "t_start": 1190.97,
+    "t_end": 1192.98,
+    "text": "This testing facilitated the construction"
+  },
+  {
+    "t_start": 1192.98,
+    "t_end": 1195.38,
+    "text": "of an absurd number of nukes."
+  },
+  {
+    "t_start": 1195.38,
+    "t_end": 1197.161,
+    "text": "At the peak in the mid 1980s,"
+  },
+  {
+    "t_start": 1197.161,
+    "t_end": 1201.35,
+    "text": "70,000 nuclear warheads were in existence."
+  },
+  {
+    "t_start": 1201.35,
+    "t_end": 1203.84,
+    "text": "Total expenditure on nukes in the 20th century"
+  },
+  {
+    "t_start": 1203.84,
+    "t_end": 1208.28,
+    "text": "is estimated at around $10 trillion each for the U.S."
+  },
+  {
+    "t_start": 1208.28,
+    "t_end": 1211.28,
+    "text": "and the Soviet Union adjusting for inflation."
+  },
+  {
+    "t_start": 1211.28,
+    "t_end": 1214.01,
+    "text": "If only scientists had been confident in their ability"
+  },
+  {
+    "t_start": 1214.01,
+    "t_end": 1217.43,
+    "text": "to remotely detect underground tests in the early 1960s,"
+  },
+  {
+    "t_start": 1217.43,
+    "t_end": 1220.22,
+    "text": "then a comprehensive test ban could have been reached,"
+  },
+  {
+    "t_start": 1220.22,
+    "t_end": 1224.39,
+    "text": "stopping the nuclear arms race before it really got going."
+  },
+  {
+    "t_start": 1224.39,
+    "t_end": 1226.58,
+    "text": "To check how realistic this is,"
+  },
+  {
+    "t_start": 1226.58,
+    "t_end": 1229.43,
+    "text": "I asked Richard Garwin himself."
+  },
+  {
+    "t_start": 1229.43,
+    "t_end": 1233.602,
+    "text": "- Well, it's a good story."
+  },
+  {
+    "t_start": 1233.602,
+    "t_end": 1237.53,
+    "text": "- It would've helped and it might have turned the tide."
+  },
+  {
+    "t_start": 1237.53,
+    "t_end": 1240.02,
+    "text": "- But that would've required an earlier discovery"
+  },
+  {
+    "t_start": 1240.02,
+    "t_end": 1243.68,
+    "text": "of the Fast Fourier Transform and as luck would have it,"
+  },
+  {
+    "t_start": 1243.68,
+    "t_end": 1247.193,
+    "text": "it was discovered earlier but then forgotten."
+  },
+  {
+    "t_start": 1248.09,
+    "t_end": 1251.75,
+    "text": "All the way back in 1805, Mathematician Carl Friedrich Gauss"
+  },
+  {
+    "t_start": 1251.75,
+    "t_end": 1253.79,
+    "text": "was studying the newly discovered asteroids"
+  },
+  {
+    "t_start": 1253.79,
+    "t_end": 1256.34,
+    "text": "of Pallas, Ceres and Juno."
+  },
+  {
+    "t_start": 1256.34,
+    "t_end": 1257.93,
+    "text": "To determine the orbit of Juno,"
+  },
+  {
+    "t_start": 1257.93,
+    "t_end": 1260.87,
+    "text": "Gauss devised a novel approach to harmonic analysis"
+  },
+  {
+    "t_start": 1260.87,
+    "t_end": 1262.73,
+    "text": "and he jotted it down in his notes"
+  },
+  {
+    "t_start": 1262.73,
+    "t_end": 1264.8,
+    "text": "but later used a different method"
+  },
+  {
+    "t_start": 1264.8,
+    "t_end": 1267.83,
+    "text": "and he never thought to publish that first insight."
+  },
+  {
+    "t_start": 1267.83,
+    "t_end": 1270.47,
+    "text": "Today we can see that Gauss had figured out"
+  },
+  {
+    "t_start": 1270.47,
+    "t_end": 1273.89,
+    "text": "the discreet Fourier Transform before Joseph Fourier himself"
+  },
+  {
+    "t_start": 1273.89,
+    "t_end": 1275.9,
+    "text": "published it in 1807."
+  },
+  {
+    "t_start": 1275.9,
+    "t_end": 1278.96,
+    "text": "And he had developed the same Fast Fourier Transform"
+  },
+  {
+    "t_start": 1278.96,
+    "t_end": 1283.88,
+    "text": "algorithm as Cooley and Tukey a century and a half earlier."
+  },
+  {
+    "t_start": 1283.88,
+    "t_end": 1285.98,
+    "text": "The reason his breakthrough was not widely adopted"
+  },
+  {
+    "t_start": 1285.98,
+    "t_end": 1289.46,
+    "text": "was because it only appeared after his death in volume three"
+  },
+  {
+    "t_start": 1289.46,
+    "t_end": 1292.52,
+    "text": "of his collected works and it was written with non-standard"
+  },
+  {
+    "t_start": 1292.52,
+    "t_end": 1296.48,
+    "text": "notation in a 19th century version of Latin."
+  },
+  {
+    "t_start": 1296.48,
+    "t_end": 1299.06,
+    "text": "What do you think would've happened if Gauss had realized"
+  },
+  {
+    "t_start": 1299.06,
+    "t_end": 1301.73,
+    "text": "the significance of his discovery and had published it"
+  },
+  {
+    "t_start": 1301.73,
+    "t_end": 1304.16,
+    "text": "in a way that others could understand?"
+  },
+  {
+    "t_start": 1304.16,
+    "t_end": 1306.26,
+    "text": "With our modern network of seismometers"
+  },
+  {
+    "t_start": 1306.26,
+    "t_end": 1308.81,
+    "text": "and computing and the Fast Fourier Transform,"
+  },
+  {
+    "t_start": 1308.81,
+    "t_end": 1311.93,
+    "text": "today, we have the ability to detect magnitude three events"
+  },
+  {
+    "t_start": 1311.93,
+    "t_end": 1315.53,
+    "text": "which correspond to a one kilo ton or so explosion,"
+  },
+  {
+    "t_start": 1315.53,
+    "t_end": 1318.32,
+    "text": "basically anywhere on earth."
+  },
+  {
+    "t_start": 1318.32,
+    "t_end": 1322.46,
+    "text": "Following Cooley and Tukey's paper, the use of FFTs exploded"
+  },
+  {
+    "t_start": 1322.46,
+    "t_end": 1325.34,
+    "text": "and they are the basis for most compression algorithms"
+  },
+  {
+    "t_start": 1325.34,
+    "t_end": 1326.84,
+    "text": "like the ones that allow you to watch"
+  },
+  {
+    "t_start": 1326.84,
+    "t_end": 1329.21,
+    "text": "and listen to this video."
+  },
+  {
+    "t_start": 1329.21,
+    "t_end": 1330.95,
+    "text": "Here's how the Fast Fourier Transform"
+  },
+  {
+    "t_start": 1330.95,
+    "t_end": 1333.29,
+    "text": "allows you to compress an image."
+  },
+  {
+    "t_start": 1333.29,
+    "t_end": 1336.74,
+    "text": "You take the pixel brightness values for each row"
+  },
+  {
+    "t_start": 1336.74,
+    "t_end": 1340.88,
+    "text": "of an image and perform a Fast Fourier transform."
+  },
+  {
+    "t_start": 1340.88,
+    "t_end": 1343.64,
+    "text": "So essentially, you're figuring out what frequencies"
+  },
+  {
+    "t_start": 1343.64,
+    "t_end": 1346.1,
+    "text": "are present in the brightness values"
+  },
+  {
+    "t_start": 1346.1,
+    "t_end": 1347.93,
+    "text": "of the rows of an image."
+  },
+  {
+    "t_start": 1347.93,
+    "t_end": 1350.15,
+    "text": "Here, brightness represents the magnitude"
+  },
+  {
+    "t_start": 1350.15,
+    "t_end": 1352.4,
+    "text": "of each frequency component and the color"
+  },
+  {
+    "t_start": 1352.4,
+    "t_end": 1355.25,
+    "text": "represents the phase, how shifted that frequency is"
+  },
+  {
+    "t_start": 1355.25,
+    "t_end": 1357.02,
+    "text": "to the left or the right."
+  },
+  {
+    "t_start": 1357.02,
+    "t_end": 1362.02,
+    "text": "And then you perform another FFT for the columns of pixels."
+  },
+  {
+    "t_start": 1362.09,
+    "t_end": 1365.3,
+    "text": "It doesn't matter if you do the rows or columns first,"
+  },
+  {
+    "t_start": 1365.3,
+    "t_end": 1368.57,
+    "text": "which you need is a two dimensional FFT"
+  },
+  {
+    "t_start": 1368.57,
+    "t_end": 1369.833,
+    "text": "of the original image."
+  },
+  {
+    "t_start": 1370.7,
+    "t_end": 1373.46,
+    "text": "For almost all real world images,"
+  },
+  {
+    "t_start": 1373.46,
+    "t_end": 1376.28,
+    "text": "you find that a lot of the values in the transform"
+  },
+  {
+    "t_start": 1376.28,
+    "t_end": 1378.2,
+    "text": "are close to zero."
+  },
+  {
+    "t_start": 1378.2,
+    "t_end": 1380.15,
+    "text": "I've taken the log of the transform values"
+  },
+  {
+    "t_start": 1380.15,
+    "t_end": 1383.03,
+    "text": "so you can see them but if I don't, then it's clear"
+  },
+  {
+    "t_start": 1383.03,
+    "t_end": 1385.28,
+    "text": "most of the values, especially toward the edges"
+  },
+  {
+    "t_start": 1385.28,
+    "t_end": 1390.14,
+    "text": "are very small and these correspond to high frequencies."
+  },
+  {
+    "t_start": 1390.14,
+    "t_end": 1392.54,
+    "text": "And what this means is that you can throw out"
+  },
+  {
+    "t_start": 1392.54,
+    "t_end": 1395.18,
+    "text": "a lot of the information in the transformed image"
+  },
+  {
+    "t_start": 1395.18,
+    "t_end": 1397.52,
+    "text": "say 99% of it."
+  },
+  {
+    "t_start": 1397.52,
+    "t_end": 1401.63,
+    "text": "But when you invert that result, you still get a fairly good"
+  },
+  {
+    "t_start": 1401.63,
+    "t_end": 1404.57,
+    "text": "representation of the original image."
+  },
+  {
+    "t_start": 1404.57,
+    "t_end": 1407.54,
+    "text": "So on your computer, most of the images will be saved"
+  },
+  {
+    "t_start": 1407.54,
+    "t_end": 1410.75,
+    "text": "in this form as a two dimensional Fast Fourier Transform"
+  },
+  {
+    "t_start": 1410.75,
+    "t_end": 1412.73,
+    "text": "and then when you wanna look at the picture again,"
+  },
+  {
+    "t_start": 1412.73,
+    "t_end": 1416.39,
+    "text": "the computer simply inverts the transform."
+  },
+  {
+    "t_start": 1416.39,
+    "t_end": 1418.88,
+    "text": "There are so many applications for FFTs"
+  },
+  {
+    "t_start": 1418.88,
+    "t_end": 1422.6,
+    "text": "from solving differential equations to radar and sonar,"
+  },
+  {
+    "t_start": 1422.6,
+    "t_end": 1425.78,
+    "text": "studying crystal structures, WiFi and 5G."
+  },
+  {
+    "t_start": 1425.78,
+    "t_end": 1429.8,
+    "text": "Basically all kinds of signal processing use FFTs"
+  },
+  {
+    "t_start": 1429.8,
+    "t_end": 1432.95,
+    "text": "and that's why mathematician Gilbert Strang called the FFT"
+  },
+  {
+    "t_start": 1432.95,
+    "t_end": 1436.76,
+    "text": "the most important numerical algorithm of our lifetime."
+  },
+  {
+    "t_start": 1436.76,
+    "t_end": 1439.34,
+    "text": "If only it had become more widely adopted"
+  },
+  {
+    "t_start": 1439.34,
+    "t_end": 1440.9,
+    "text": "after Gauss discovered it,"
+  },
+  {
+    "t_start": 1440.9,
+    "t_end": 1443.81,
+    "text": "the FFT may have even more dramatically"
+  },
+  {
+    "t_start": 1443.81,
+    "t_end": 1445.703,
+    "text": "transformed our world."
+  },
+  {
+    "t_start": 1451.13,
+    "t_end": 1453.32,
+    "text": "Now I don't think Gauss could ever have imagined"
+  },
+  {
+    "t_start": 1453.32,
+    "t_end": 1455.39,
+    "text": "how important the FFT would be,"
+  },
+  {
+    "t_start": 1455.39,
+    "t_end": 1458.36,
+    "text": "just as most people don't think about the cumulative impact"
+  },
+  {
+    "t_start": 1458.36,
+    "t_end": 1459.89,
+    "text": "of their life's work."
+  },
+  {
+    "t_start": 1459.89,
+    "t_end": 1463.04,
+    "text": "You know in an average career, you work 40 hours a week,"
+  },
+  {
+    "t_start": 1463.04,
+    "t_end": 1465.68,
+    "text": "50 weeks a year for 40 years"
+  },
+  {
+    "t_start": 1465.68,
+    "t_end": 1468.89,
+    "text": "and that works out to 80,000 hours."
+  },
+  {
+    "t_start": 1468.89,
+    "t_end": 1472.13,
+    "text": "It means that your career might be your biggest opportunity"
+  },
+  {
+    "t_start": 1472.13,
+    "t_end": 1473.87,
+    "text": "to make a difference in the world."
+  },
+  {
+    "t_start": 1473.87,
+    "t_end": 1476.75,
+    "text": "So what do you wanna do with all that time?"
+  },
+  {
+    "t_start": 1476.75,
+    "t_end": 1480.29,
+    "text": "Now the name of this video sponsor is 80,000 Hours"
+  },
+  {
+    "t_start": 1480.29,
+    "t_end": 1482.6,
+    "text": "referencing the amount of impact you can have,"
+  },
+  {
+    "t_start": 1482.6,
+    "t_end": 1484.43,
+    "text": "the amount of hours you spend at work,"
+  },
+  {
+    "t_start": 1484.43,
+    "t_end": 1486.37,
+    "text": "and they are not selling anything."
+  },
+  {
+    "t_start": 1486.37,
+    "t_end": 1488.96,
+    "text": "80,000 Hours is a nonprofit that helps people"
+  },
+  {
+    "t_start": 1488.96,
+    "t_end": 1492.05,
+    "text": "find fulfilling careers that make a positive impact."
+  },
+  {
+    "t_start": 1492.05,
+    "t_end": 1495.02,
+    "text": "The typical advice from career centers or aptitude tests"
+  },
+  {
+    "t_start": 1495.02,
+    "t_end": 1496.79,
+    "text": "really just focuses on finding a job"
+  },
+  {
+    "t_start": 1496.79,
+    "t_end": 1498.65,
+    "text": "that fits your personal preferences."
+  },
+  {
+    "t_start": 1498.65,
+    "t_end": 1501.53,
+    "text": "But what if you care more about doing good?"
+  },
+  {
+    "t_start": 1501.53,
+    "t_end": 1503.0,
+    "text": "Well, they won't really know what to tell you"
+  },
+  {
+    "t_start": 1503.0,
+    "t_end": 1504.71,
+    "text": "besides a few well known professions"
+  },
+  {
+    "t_start": 1504.71,
+    "t_end": 1506.93,
+    "text": "like being a doctor or a teacher."
+  },
+  {
+    "t_start": 1506.93,
+    "t_end": 1510.38,
+    "text": "When I finished college, I knew I liked filmmaking, teaching"
+  },
+  {
+    "t_start": 1510.38,
+    "t_end": 1513.62,
+    "text": "and science and that I wanted to have a big positive impact"
+  },
+  {
+    "t_start": 1513.62,
+    "t_end": 1517.1,
+    "text": "but YouTube didn't exist yet and so I honestly had no idea"
+  },
+  {
+    "t_start": 1517.1,
+    "t_end": 1518.42,
+    "text": "what I was gonna do."
+  },
+  {
+    "t_start": 1518.42,
+    "t_end": 1521.318,
+    "text": "Now I feel really fortunate to be able to do something"
+  },
+  {
+    "t_start": 1521.318,
+    "t_end": 1523.22,
+    "text": "every day that I both enjoy"
+  },
+  {
+    "t_start": 1523.22,
+    "t_end": 1525.83,
+    "text": "and which makes a positive impact on the world."
+  },
+  {
+    "t_start": 1525.83,
+    "t_end": 1528.32,
+    "text": "So believe me, there are a lot of things out there"
+  },
+  {
+    "t_start": 1528.32,
+    "t_end": 1531.59,
+    "text": "that you can do and 80,000 Hours offers tons of resources"
+  },
+  {
+    "t_start": 1531.59,
+    "t_end": 1533.09,
+    "text": "to help you find those things."
+  },
+  {
+    "t_start": 1533.09,
+    "t_end": 1535.79,
+    "text": "From research backed guides on how to pick a career"
+  },
+  {
+    "t_start": 1535.79,
+    "t_end": 1537.44,
+    "text": "that tackles pressing issues"
+  },
+  {
+    "t_start": 1537.44,
+    "t_end": 1539.84,
+    "text": "to a regular newsletter and podcast."
+  },
+  {
+    "t_start": 1539.84,
+    "t_end": 1542.87,
+    "text": "They even have a curated job board that's kept up to date"
+  },
+  {
+    "t_start": 1542.87,
+    "t_end": 1545.93,
+    "text": "with hundreds of jobs they think will make an impact."
+  },
+  {
+    "t_start": 1545.93,
+    "t_end": 1548.72,
+    "text": "They have done over 10 years of research alongside academics"
+  },
+  {
+    "t_start": 1548.72,
+    "t_end": 1551.57,
+    "text": "at Oxford University on how to find a career that is both"
+  },
+  {
+    "t_start": 1551.57,
+    "t_end": 1554.21,
+    "text": "fulfilling and which makes a positive difference."
+  },
+  {
+    "t_start": 1554.21,
+    "t_end": 1556.79,
+    "text": "So their recommendations are accurate, specific,"
+  },
+  {
+    "t_start": 1556.79,
+    "t_end": 1557.96,
+    "text": "and actionable."
+  },
+  {
+    "t_start": 1557.96,
+    "t_end": 1559.49,
+    "text": "If you care about what the evidence says"
+  },
+  {
+    "t_start": 1559.49,
+    "t_end": 1562.79,
+    "text": "about having an impactful career and you want real advice"
+  },
+  {
+    "t_start": 1562.79,
+    "t_end": 1565.79,
+    "text": "that goes beyond empty cliches like follow your passion,"
+  },
+  {
+    "t_start": 1565.79,
+    "t_end": 1567.83,
+    "text": "then check out 80,000 Hours."
+  },
+  {
+    "t_start": 1567.83,
+    "t_end": 1569.69,
+    "text": "Everything they provide from their podcast"
+  },
+  {
+    "t_start": 1569.69,
+    "t_end": 1572.24,
+    "text": "to their job board is free forever."
+  },
+  {
+    "t_start": 1572.24,
+    "t_end": 1573.98,
+    "text": "If you join the newsletter right now,"
+  },
+  {
+    "t_start": 1573.98,
+    "t_end": 1576.29,
+    "text": "you'll also get a free copy of their in-depth career guide"
+  },
+  {
+    "t_start": 1576.29,
+    "t_end": 1577.91,
+    "text": "sent right to your inbox."
+  },
+  {
+    "t_start": 1577.91,
+    "t_end": 1579.74,
+    "text": "So to get started on a career that tackles"
+  },
+  {
+    "t_start": 1579.74,
+    "t_end": 1581.39,
+    "text": "the world's most pressing problems,"
+  },
+  {
+    "t_start": 1581.39,
+    "t_end": 1585.11,
+    "text": "sign up now at 80000hours.org/veritasium."
+  },
+  {
+    "t_start": 1585.11,
+    "t_end": 1587.63,
+    "text": "I will put that link down in the description."
+  },
+  {
+    "t_start": 1587.63,
+    "t_end": 1589.1,
+    "text": "So I wanna thank 80,000 Hours"
+  },
+  {
+    "t_start": 1589.1,
+    "t_end": 1590.63,
+    "text": "for sponsoring this part of the video"
+  },
+  {
+    "t_start": 1590.63,
+    "t_end": 1592.523,
+    "text": "and I wanna thank you for watching."
+  }
+]

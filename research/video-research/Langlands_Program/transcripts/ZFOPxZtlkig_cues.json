@@ -1,0 +1,2062 @@
+[
+  {
+    "t_start": 20.63,
+    "t_end": 25.55,
+    "text": "well I have to say that describing the languin program even to mathematicians"
+  },
+  {
+    "t_start": 25.55,
+    "t_end": 27.63,
+    "text": "languin program even to mathematicians is probably harder than solving fen's"
+  },
+  {
+    "t_start": 27.63,
+    "t_end": 30.55,
+    "text": "is probably harder than solving fen's Last Theorem but here"
+  },
+  {
+    "t_start": 30.55,
+    "t_end": 31.57,
+    "text": "Last Theorem but here goes"
+  },
+  {
+    "t_start": 31.57,
+    "t_end": 33.59,
+    "text": "goes [Music]"
+  },
+  {
+    "t_start": 33.59,
+    "t_end": 35.709,
+    "text": "[Music] um"
+  },
+  {
+    "t_start": 35.709,
+    "t_end": 40.869,
+    "text": "so we can start at the very beginning solving quadratic"
+  },
+  {
+    "t_start": 40.869,
+    "t_end": 46.15,
+    "text": "equations so of course the solution to this which we all learn in school goes"
+  },
+  {
+    "t_start": 46.15,
+    "t_end": 49.31,
+    "text": "this which we all learn in school goes back to the ancient Greeks and even"
+  },
+  {
+    "t_start": 49.31,
+    "t_end": 54.15,
+    "text": "back to the ancient Greeks and even further uh the Babylonians and so"
+  },
+  {
+    "t_start": 55.83,
+    "t_end": 62.349,
+    "text": "but we won't stop with quadratic equations there a gap of probably 2,000"
+  },
+  {
+    "t_start": 62.349,
+    "t_end": 65.75,
+    "text": "equations there a gap of probably 2,000 years before the cubic equation is"
+  },
+  {
+    "t_start": 65.75,
+    "t_end": 68.03,
+    "text": "years before the cubic equation is solved so you're probably not very"
+  },
+  {
+    "t_start": 68.03,
+    "t_end": 73.59,
+    "text": "solved so you're probably not very familiar with this um or not as"
+  },
+  {
+    "t_start": 73.59,
+    "t_end": 78.19,
+    "text": "um but it was actually a topic of great interest for some"
+  },
+  {
+    "t_start": 78.19,
+    "t_end": 83.95,
+    "text": "interest for some time and I'm going to"
+  },
+  {
+    "t_start": 83.95,
+    "t_end": 85.51,
+    "text": "just uh"
+  },
+  {
+    "t_start": 85.51,
+    "t_end": 93.389,
+    "text": "mention uh one application so quadratic equations were used via Pythagoras's"
+  },
+  {
+    "t_start": 93.389,
+    "t_end": 98.749,
+    "text": "Theorem to build uh right angles if you're trying to build structures you"
+  },
+  {
+    "t_start": 98.749,
+    "t_end": 103.109,
+    "text": "need to know what a right angle is and how to decide whether you've got one so"
+  },
+  {
+    "t_start": 103.109,
+    "t_end": 106.069,
+    "text": "how to decide whether you've got one so it was a very practical"
+  },
+  {
+    "t_start": 106.069,
+    "t_end": 109.19,
+    "text": "it was a very practical tool but actually cubic equations or"
+  },
+  {
+    "t_start": 109.19,
+    "t_end": 112.709,
+    "text": "tool but actually cubic equations or rather their generalization cubic curves"
+  },
+  {
+    "t_start": 112.709,
+    "t_end": 117.27,
+    "text": "rather their generalization cubic curves are also very useful in many ways in"
+  },
+  {
+    "t_start": 117.27,
+    "t_end": 121.27,
+    "text": "cryptography and so on and I was thinking I should do a picture but I"
+  },
+  {
+    "t_start": 121.27,
+    "t_end": 123.19,
+    "text": "learned Le a little while ago that"
+  },
+  {
+    "t_start": 123.19,
+    "t_end": 127.389,
+    "text": "ago that apparently I've already drawn many many"
+  },
+  {
+    "t_start": 127.389,
+    "t_end": 135.71,
+    "text": "curves because apparently all PDF script is actually made up of cubic"
+  },
+  {
+    "t_start": 135.71,
+    "t_end": 138.39,
+    "text": "is actually made up of cubic curves uh"
+  },
+  {
+    "t_start": 138.39,
+    "t_end": 143.07,
+    "text": "which is somehow mindboggling to me apparently it was F these kinds of"
+  },
+  {
+    "t_start": 143.07,
+    "t_end": 148.309,
+    "text": "Curves were first used in the design of Renault cars in the 1960s but they're"
+  },
+  {
+    "t_start": 148.309,
+    "t_end": 154.11,
+    "text": "Renault cars in the 1960s but they're now used in the script okay so here's an"
+  },
+  {
+    "t_start": 154.11,
+    "t_end": 156.79,
+    "text": "now used in the script okay so here's an Italian poem so the story of the cubic"
+  },
+  {
+    "t_start": 156.79,
+    "t_end": 162.63,
+    "text": "Italian poem so the story of the cubic equation and the solution of the cubic"
+  },
+  {
+    "t_start": 162.63,
+    "t_end": 166.11,
+    "text": "equation is quite well known um the first solution uh some cases seemed to"
+  },
+  {
+    "t_start": 166.11,
+    "t_end": 168.63,
+    "text": "first solution uh some cases seemed to have been done by Italian mathematician"
+  },
+  {
+    "t_start": 168.63,
+    "t_end": 169.63,
+    "text": "have been done by Italian mathematician Del"
+  },
+  {
+    "t_start": 169.63,
+    "t_end": 175.63,
+    "text": "Faro who passed it on on his deathbed to his favorite student but otherwise kept"
+  },
+  {
+    "t_start": 175.63,
+    "t_end": 176.83,
+    "text": "his favorite student but otherwise kept it"
+  },
+  {
+    "t_start": 176.83,
+    "t_end": 183.67,
+    "text": "secret uh tatalia then also found a solution to a slightly different"
+  },
+  {
+    "t_start": 183.67,
+    "t_end": 187.509,
+    "text": "solution to a slightly different equation and cardano tried for many"
+  },
+  {
+    "t_start": 187.509,
+    "t_end": 189.509,
+    "text": "equation and cardano tried for many years to get him to tell him the"
+  },
+  {
+    "t_start": 189.509,
+    "t_end": 192.83,
+    "text": "years to get him to tell him the solution eventually he found a a"
+  },
+  {
+    "t_start": 192.83,
+    "t_end": 200.07,
+    "text": "powerful form of uh bribery he tried he offered him positions in court and so on"
+  },
+  {
+    "t_start": 200.07,
+    "t_end": 203.99,
+    "text": "offered him positions in court and so on and so Talia much against his better"
+  },
+  {
+    "t_start": 203.99,
+    "t_end": 206.43,
+    "text": "and so Talia much against his better judgment gave him the"
+  },
+  {
+    "t_start": 206.43,
+    "t_end": 212.429,
+    "text": "solution um on condition he never cardano never published it but he wrote"
+  },
+  {
+    "t_start": 212.429,
+    "t_end": 219.229,
+    "text": "cardano never published it but he wrote it in the form of a poem so this is the"
+  },
+  {
+    "t_start": 219.229,
+    "t_end": 221.789,
+    "text": "poem and this is a an English translation of"
+  },
+  {
+    "t_start": 221.789,
+    "t_end": 227.309,
+    "text": "translation of it so at the end you can see I've"
+  },
+  {
+    "t_start": 227.309,
+    "t_end": 230.99,
+    "text": "it so at the end you can see I've marked what"
+  },
+  {
+    "t_start": 234.71,
+    "t_end": 240.19,
+    "text": "uh on the right hand side what this translates to in um algebraic"
+  },
+  {
+    "t_start": 240.19,
+    "t_end": 248.229,
+    "text": "translates to in um algebraic terms so in the period this is in so the"
+  },
+  {
+    "t_start": 250.55,
+    "t_end": 254.91,
+    "text": "century they didn't have algebraic notation so um everything was written"
+  },
+  {
+    "t_start": 254.91,
+    "t_end": 260.509,
+    "text": "out in the form of a word problem I I used to think when I was in school why"
+  },
+  {
+    "t_start": 260.509,
+    "t_end": 262.469,
+    "text": "used to think when I was in school why why do they torture us with these word"
+  },
+  {
+    "t_start": 262.469,
+    "t_end": 267.43,
+    "text": "why do they torture us with these word problems why can't they just give us an"
+  },
+  {
+    "t_start": 267.43,
+    "t_end": 273.51,
+    "text": "realizing then that in fact all of algebra was done this way for for"
+  },
+  {
+    "t_start": 273.51,
+    "t_end": 277.31,
+    "text": "algebra was done this way for for hundreds even thousands of"
+  },
+  {
+    "t_start": 279.629,
+    "t_end": 284.469,
+    "text": "years so he wrote it out in the form of a poem with curiously two seemingly two"
+  },
+  {
+    "t_start": 284.469,
+    "t_end": 288.15,
+    "text": "a poem with curiously two seemingly two mistakes in it U possibly deliberate so"
+  },
+  {
+    "t_start": 288.15,
+    "t_end": 290.31,
+    "text": "mistakes in it U possibly deliberate so that cardano would get the wrong answers"
+  },
+  {
+    "t_start": 290.31,
+    "t_end": 292.39,
+    "text": "that cardano would get the wrong answers when he tried to implement"
+  },
+  {
+    "t_start": 292.39,
+    "t_end": 293.4,
+    "text": "when he tried to implement it"
+  },
+  {
+    "t_start": 293.4,
+    "t_end": 297.99,
+    "text": "it [Music]"
+  },
+  {
+    "t_start": 300.469,
+    "t_end": 307.31,
+    "text": "cardano did publish it but only when he heard that Delo had had a solution"
+  },
+  {
+    "t_start": 307.31,
+    "t_end": 309.909,
+    "text": "heard that Delo had had a solution himself so that's cubic equations they"
+  },
+  {
+    "t_start": 309.909,
+    "t_end": 311.95,
+    "text": "himself so that's cubic equations they have this solution and by solution here"
+  },
+  {
+    "t_start": 311.95,
+    "t_end": 314.31,
+    "text": "have this solution and by solution here we mean you're allowing yourself Roots"
+  },
+  {
+    "t_start": 314.31,
+    "t_end": 320.43,
+    "text": "we mean you're allowing yourself Roots so this has a square roots in it and it"
+  },
+  {
+    "t_start": 324.71,
+    "t_end": 331.71,
+    "text": "it so the question was could you solve all equations this way could you solve"
+  },
+  {
+    "t_start": 334.629,
+    "t_end": 338.15,
+    "text": "Roots so the next success was a student of cardano Ferrari who solved the"
+  },
+  {
+    "t_start": 338.15,
+    "t_end": 344.629,
+    "text": "quartic equation I won't write up the solution and then there was a gap for"
+  },
+  {
+    "t_start": 344.629,
+    "t_end": 348.189,
+    "text": "solution and then there was a gap for more than 250 years while people"
+  },
+  {
+    "t_start": 348.189,
+    "t_end": 350.99,
+    "text": "more than 250 years while people struggled to try and find the solution"
+  },
+  {
+    "t_start": 350.99,
+    "t_end": 356.39,
+    "text": "struggled to try and find the solution for quintic equations and higher degree"
+  },
+  {
+    "t_start": 361.51,
+    "t_end": 367.87,
+    "text": "um that there is no solution to quintic equations of this form well there are"
+  },
+  {
+    "t_start": 367.87,
+    "t_end": 369.55,
+    "text": "equations of this form well there are some quintic equations that can be"
+  },
+  {
+    "t_start": 369.55,
+    "t_end": 376.83,
+    "text": "solved but not all in fact most cannot and the same applies for any higher"
+  },
+  {
+    "t_start": 376.83,
+    "t_end": 379.79,
+    "text": "and the same applies for any higher degree so this a first attempt was made"
+  },
+  {
+    "t_start": 379.79,
+    "t_end": 383.07,
+    "text": "degree so this a first attempt was made by rufini in 1797 that had a problem in"
+  },
+  {
+    "t_start": 383.07,
+    "t_end": 385.11,
+    "text": "by rufini in 1797 that had a problem in the"
+  },
+  {
+    "t_start": 385.11,
+    "t_end": 390.99,
+    "text": "the proof arble then gave"
+  },
+  {
+    "t_start": 390.99,
+    "t_end": 397.029,
+    "text": "uh an example of quintic equation that could not be solved and"
+  },
+  {
+    "t_start": 397.029,
+    "t_end": 403.309,
+    "text": "could not be solved and galwa then later gave a whole Theory"
+  },
+  {
+    "t_start": 403.309,
+    "t_end": 407.55,
+    "text": "when uh General equations would have Solutions and when they wouldn't and"
+  },
+  {
+    "t_start": 407.55,
+    "t_end": 409.95,
+    "text": "Solutions and when they wouldn't and gave a way to analyze"
+  },
+  {
+    "t_start": 409.95,
+    "t_end": 412.35,
+    "text": "gave a way to analyze it arble and galwa were the"
+  },
+  {
+    "t_start": 412.35,
+    "t_end": 417.029,
+    "text": "it arble and galwa were the mathematicians of the 19th century who"
+  },
+  {
+    "t_start": 417.029,
+    "t_end": 425.749,
+    "text": "um most make you think of the Romantic Poets of the era in that arble died of"
+  },
+  {
+    "t_start": 425.749,
+    "t_end": 433.71,
+    "text": "Poets of the era in that arble died of tuberculosis at the age of 26 and gwa in"
+  },
+  {
+    "t_start": 437.83,
+    "t_end": 442.79,
+    "text": "20 but despite that uh they uh transformed the"
+  },
+  {
+    "t_start": 442.79,
+    "t_end": 448.309,
+    "text": "uh they uh transformed the mathematics U used to study such things"
+  },
+  {
+    "t_start": 448.309,
+    "t_end": 450.869,
+    "text": "to study equations"
+  },
+  {
+    "t_start": 450.869,
+    "t_end": 456.39,
+    "text": "in the history of mathematics the ancient Greeks we learn ukian geometry"
+  },
+  {
+    "t_start": 456.39,
+    "t_end": 461.71,
+    "text": "in school and these word problems we don't really see very much we know that"
+  },
+  {
+    "t_start": 461.71,
+    "t_end": 464.23,
+    "text": "don't really see very much we know that Archimedes had some beautiful word"
+  },
+  {
+    "t_start": 464.23,
+    "t_end": 470.149,
+    "text": "Archimedes had some beautiful word problems um maybe you see some of"
+  },
+  {
+    "t_start": 470.149,
+    "t_end": 475.07,
+    "text": "those but over the centuries the idea of using"
+  },
+  {
+    "t_start": 475.07,
+    "t_end": 479.95,
+    "text": "algebra uh had increased um especially with"
+  },
+  {
+    "t_start": 479.95,
+    "t_end": 486.869,
+    "text": "introduction and use of the the the number zero was first really used"
+  },
+  {
+    "t_start": 486.869,
+    "t_end": 489.71,
+    "text": "number zero was first really used mathematically by in Europe by"
+  },
+  {
+    "t_start": 489.71,
+    "t_end": 492.629,
+    "text": "mathematically by in Europe by Fibonacci around"
+  },
+  {
+    "t_start": 492.629,
+    "t_end": 499.029,
+    "text": "1200 cardano was the first really to use negative numbers and"
+  },
+  {
+    "t_start": 499.029,
+    "t_end": 500.23,
+    "text": "first really to use negative numbers and imaginary"
+  },
+  {
+    "t_start": 500.23,
+    "t_end": 502.67,
+    "text": "imaginary numbers"
+  },
+  {
+    "t_start": 502.67,
+    "t_end": 504.99,
+    "text": "numbers although"
+  },
+  {
+    "t_start": 504.99,
+    "t_end": 511.629,
+    "text": "he didn't allow himself to give an answer in those terms he would only use"
+  },
+  {
+    "t_start": 511.629,
+    "t_end": 514.709,
+    "text": "them to get the solution and then hopefully the solution didn't involve"
+  },
+  {
+    "t_start": 514.709,
+    "t_end": 520.11,
+    "text": "hopefully the solution didn't involve them so because they didn't allow"
+  },
+  {
+    "t_start": 520.11,
+    "t_end": 526.269,
+    "text": "numbers they actually thought of uh not just the problem of one cubic equation"
+  },
+  {
+    "t_start": 526.269,
+    "t_end": 528.35,
+    "text": "just the problem of one cubic equation solving one as I've written but there"
+  },
+  {
+    "t_start": 528.35,
+    "t_end": 530.829,
+    "text": "solving one as I've written but there were actually 14 different"
+  },
+  {
+    "t_start": 530.829,
+    "t_end": 538.31,
+    "text": "ones but by the by the time cardono published these results uh these"
+  },
+  {
+    "t_start": 538.31,
+    "t_end": 541.069,
+    "text": "published these results uh these Solutions were all"
+  },
+  {
+    "t_start": 541.069,
+    "t_end": 549.269,
+    "text": "known so geometry was much more in much more easier to appreciate"
+  },
+  {
+    "t_start": 549.269,
+    "t_end": 551.99,
+    "text": "more in much more easier to appreciate you saw the problem you could draw it it"
+  },
+  {
+    "t_start": 551.99,
+    "t_end": 553.829,
+    "text": "you saw the problem you could draw it it was very"
+  },
+  {
+    "t_start": 553.829,
+    "t_end": 560.79,
+    "text": "visual algebra had this slow birth but because the rules of algebra"
+  },
+  {
+    "t_start": 560.79,
+    "t_end": 562.79,
+    "text": "birth but because the rules of algebra are in some sense artificial we make"
+  },
+  {
+    "t_start": 562.79,
+    "t_end": 565.67,
+    "text": "are in some sense artificial we make them up uh whereas geometry is supposed"
+  },
+  {
+    "t_start": 565.67,
+    "t_end": 567.91,
+    "text": "them up uh whereas geometry is supposed to reflect our actual vision of the"
+  },
+  {
+    "t_start": 567.91,
+    "t_end": 571.59,
+    "text": "to reflect our actual vision of the world and we live in a three-dimensional"
+  },
+  {
+    "t_start": 571.59,
+    "t_end": 575.43,
+    "text": "world and we live in a three-dimensional World geometry can and did inhibit"
+  },
+  {
+    "t_start": 575.43,
+    "t_end": 578.63,
+    "text": "World geometry can and did inhibit people from thinking more broadly about"
+  },
+  {
+    "t_start": 578.63,
+    "t_end": 580.269,
+    "text": "people from thinking more broadly about things like negative numbers and"
+  },
+  {
+    "t_start": 580.269,
+    "t_end": 581.71,
+    "text": "things like negative numbers and imaginary"
+  },
+  {
+    "t_start": 581.71,
+    "t_end": 586.59,
+    "text": "numbers uh even for the Greeks multiplying more than three numbers"
+  },
+  {
+    "t_start": 586.59,
+    "t_end": 590.509,
+    "text": "multiplying more than three numbers together was was not natural because the"
+  },
+  {
+    "t_start": 590.509,
+    "t_end": 592.11,
+    "text": "together was was not natural because the volumes only had three numbers"
+  },
+  {
+    "t_start": 592.11,
+    "t_end": 593.71,
+    "text": "volumes only had three numbers multiplied together how would you"
+  },
+  {
+    "t_start": 593.71,
+    "t_end": 595.55,
+    "text": "multiplied together how would you describe"
+  },
+  {
+    "t_start": 595.55,
+    "t_end": 602.71,
+    "text": "them so perhaps not surprisingly once algebra was allowed to interact with"
+  },
+  {
+    "t_start": 602.71,
+    "t_end": 605.19,
+    "text": "algebra was allowed to interact with geometry some of the classical Greek"
+  },
+  {
+    "t_start": 605.19,
+    "t_end": 608.389,
+    "text": "geometry some of the classical Greek problems could actually be"
+  },
+  {
+    "t_start": 608.389,
+    "t_end": 613.23,
+    "text": "solved so as I've said these numbers that are made from extracting Roots"
+  },
+  {
+    "t_start": 613.23,
+    "t_end": 615.31,
+    "text": "that are made from extracting Roots square roots cube roots fourth roots and"
+  },
+  {
+    "t_start": 615.31,
+    "t_end": 621.67,
+    "text": "square roots cube roots fourth roots and so on we call them constructable numbers"
+  },
+  {
+    "t_start": 621.67,
+    "t_end": 624.03,
+    "text": "or you could call them solvable numbers so I've written down a complicated one"
+  },
+  {
+    "t_start": 624.03,
+    "t_end": 627.829,
+    "text": "so I've written down a complicated one here to give you an idea so you can take"
+  },
+  {
+    "t_start": 627.829,
+    "t_end": 629.87,
+    "text": "square roots and fifth roots and whatever positive numbers negative"
+  },
+  {
+    "t_start": 629.87,
+    "t_end": 636.71,
+    "text": "numbers you add them together and so on what are the classical problems well"
+  },
+  {
+    "t_start": 636.71,
+    "t_end": 642.23,
+    "text": "the classical problems were doubling the cube so could you find a cube with twice"
+  },
+  {
+    "t_start": 642.23,
+    "t_end": 646.87,
+    "text": "cube so could you find a cube with twice the volume of a given Cube tricing the"
+  },
+  {
+    "t_start": 646.87,
+    "t_end": 650.269,
+    "text": "the volume of a given Cube tricing the angle squaring the"
+  },
+  {
+    "t_start": 650.269,
+    "t_end": 655.99,
+    "text": "circle and sometimes included as the fourth one construction of regular"
+  },
+  {
+    "t_start": 655.99,
+    "t_end": 659.75,
+    "text": "fourth one construction of regular polygons that's polygons like triang"
+  },
+  {
+    "t_start": 659.75,
+    "t_end": 663.11,
+    "text": "polygons that's polygons like triang equilateral triangles squares pentagons"
+  },
+  {
+    "t_start": 663.11,
+    "t_end": 665.47,
+    "text": "equilateral triangles squares pentagons and so"
+  },
+  {
+    "t_start": 670.59,
+    "t_end": 673.71,
+    "text": "on well once this notion of algebra is understood then the first two doubling"
+  },
+  {
+    "t_start": 673.71,
+    "t_end": 677.269,
+    "text": "understood then the first two doubling the cube and tricing the angle"
+  },
+  {
+    "t_start": 677.269,
+    "t_end": 679.79,
+    "text": "the cube and tricing the angle become"
+  },
+  {
+    "t_start": 679.79,
+    "t_end": 686.91,
+    "text": "relatively understandable and I think uh probably the people like GA and"
+  },
+  {
+    "t_start": 686.91,
+    "t_end": 688.43,
+    "text": "think uh probably the people like GA and so on did understand that it could be"
+  },
+  {
+    "t_start": 688.43,
+    "t_end": 690.03,
+    "text": "so on did understand that it could be solved"
+  },
+  {
+    "t_start": 690.03,
+    "t_end": 695.99,
+    "text": "uh it wasn't actually published till the 1830s by a Frenchman but uh since no one"
+  },
+  {
+    "t_start": 695.99,
+    "t_end": 698.11,
+    "text": "1830s by a Frenchman but uh since no one reacted to his paper at all I presume"
+  },
+  {
+    "t_start": 698.11,
+    "t_end": 700.949,
+    "text": "reacted to his paper at all I presume that everybody already knew uh that they"
+  },
+  {
+    "t_start": 700.949,
+    "t_end": 701.99,
+    "text": "that everybody already knew uh that they were"
+  },
+  {
+    "t_start": 701.99,
+    "t_end": 707.99,
+    "text": "possible squaring the circle was a completely different problem uh that's"
+  },
+  {
+    "t_start": 707.99,
+    "t_end": 714.35,
+    "text": "completely different problem uh that's involved showing that Pi is not a"
+  },
+  {
+    "t_start": 714.35,
+    "t_end": 720.069,
+    "text": "actually shown by showing that it's not even an algebraic number doesn't satisfy"
+  },
+  {
+    "t_start": 720.069,
+    "t_end": 723.31,
+    "text": "even an algebraic number doesn't satisfy any equation at all and that came"
+  },
+  {
+    "t_start": 723.31,
+    "t_end": 726.31,
+    "text": "any equation at all and that came later the fourth one construction of"
+  },
+  {
+    "t_start": 726.31,
+    "t_end": 727.59,
+    "text": "later the fourth one construction of regular"
+  },
+  {
+    "t_start": 727.59,
+    "t_end": 729.55,
+    "text": "regular polygons"
+  },
+  {
+    "t_start": 729.55,
+    "t_end": 735.949,
+    "text": "uh what that amounts to in fact is determining which"
+  },
+  {
+    "t_start": 735.949,
+    "t_end": 743.71,
+    "text": "numbers uh which angles can be constructed using just repeated square"
+  },
+  {
+    "t_start": 743.71,
+    "t_end": 749.949,
+    "text": "roots so you take a square root and then another square root and so on and this"
+  },
+  {
+    "t_start": 749.949,
+    "t_end": 756.269,
+    "text": "was solved by gaus so gaus in 1796 the age of 19 he I"
+  },
+  {
+    "t_start": 756.269,
+    "t_end": 758.43,
+    "text": "gaus so gaus in 1796 the age of 19 he I put inverted commas constructed a"
+  },
+  {
+    "t_start": 758.43,
+    "t_end": 763.189,
+    "text": "put inverted commas constructed a regular 17 agon which is apparently"
+  },
+  {
+    "t_start": 763.189,
+    "t_end": 767.59,
+    "text": "regular 17 agon which is apparently heptagon so I put in commas"
+  },
+  {
+    "t_start": 767.59,
+    "t_end": 770.11,
+    "text": "heptagon so I put in commas constructed because he didn't like many"
+  },
+  {
+    "t_start": 770.11,
+    "t_end": 773.11,
+    "text": "constructed because he didn't like many mathematicians actually draw the picture"
+  },
+  {
+    "t_start": 773.11,
+    "t_end": 778.11,
+    "text": "mathematicians actually draw the picture he reduced it to a problem which he knew"
+  },
+  {
+    "t_start": 778.11,
+    "t_end": 780.67,
+    "text": "he could do it someone else actually drew the picture"
+  },
+  {
+    "t_start": 780.67,
+    "t_end": 788.189,
+    "text": "write down all the details I think he thought it's obvious once he shows you"
+  },
+  {
+    "t_start": 788.189,
+    "t_end": 793.43,
+    "text": "thought it's obvious once he shows you what to do that the regular Eng gon is"
+  },
+  {
+    "t_start": 793.43,
+    "t_end": 799.99,
+    "text": "if the number of sides has to form a power of two times the product of"
+  },
+  {
+    "t_start": 799.99,
+    "t_end": 801.269,
+    "text": "power of two times the product of distinct"
+  },
+  {
+    "t_start": 801.269,
+    "t_end": 808.31,
+    "text": "primes where these primes are each faar primes and a faar prime is a prime that"
+  },
+  {
+    "t_start": 808.31,
+    "t_end": 813.99,
+    "text": "primes and a faar prime is a prime that is at the form 2^ 2 the^ m or +"
+  },
+  {
+    "t_start": 813.99,
+    "t_end": 817.91,
+    "text": "is at the form 2^ 2 the^ m or + one so you look at the first numbers of"
+  },
+  {
+    "t_start": 817.91,
+    "t_end": 823.829,
+    "text": "one so you look at the first numbers of the form well 2 + 1 is 3 2^ 2 + 1 is"
+  },
+  {
+    "t_start": 823.829,
+    "t_end": 829.87,
+    "text": "the form well 2 + 1 is 3 2^ 2 + 1 is 5 2 to the 2 to 2 + 1 is 17 and so on so"
+  },
+  {
+    "t_start": 829.87,
+    "t_end": 833.03,
+    "text": "5 2 to the 2 to 2 + 1 is 17 and so on so each term in this sequence actually you"
+  },
+  {
+    "t_start": 833.03,
+    "t_end": 835.069,
+    "text": "each term in this sequence actually you get by subtracting one from the previous"
+  },
+  {
+    "t_start": 835.069,
+    "t_end": 837.749,
+    "text": "get by subtracting one from the previous one squaring it and then adding"
+  },
+  {
+    "t_start": 837.749,
+    "t_end": 840.03,
+    "text": "one squaring it and then adding one"
+  },
+  {
+    "t_start": 840.03,
+    "t_end": 846.79,
+    "text": "so you get 65537 and then well this one fear"
+  },
+  {
+    "t_start": 846.79,
+    "t_end": 850.59,
+    "text": "65537 and then well this one fear intuition did not work"
+  },
+  {
+    "t_start": 850.59,
+    "t_end": 856.629,
+    "text": "um he thought all these would always be primes he didn't claim to have proved it"
+  },
+  {
+    "t_start": 856.629,
+    "t_end": 861.069,
+    "text": "primes he didn't claim to have proved it but he thought it was true but actually"
+  },
+  {
+    "t_start": 861.069,
+    "t_end": 862.79,
+    "text": "but he thought it was true but actually no one has ever found another one and"
+  },
+  {
+    "t_start": 862.79,
+    "t_end": 865.629,
+    "text": "no one has ever found another one and it's unsolved whether there are"
+  },
+  {
+    "t_start": 865.629,
+    "t_end": 871.55,
+    "text": "it's unsolved whether there are anymore and yes you can find a regular"
+  },
+  {
+    "t_start": 871.55,
+    "t_end": 874.15,
+    "text": "anymore and yes you can find a regular 65537 are"
+  },
+  {
+    "t_start": 874.15,
+    "t_end": 879.629,
+    "text": "gone and someone even did the geometric construction it"
+  },
+  {
+    "t_start": 879.629,
+    "t_end": 882.189,
+    "text": "even did the geometric construction it took him 10 years and 200"
+  },
+  {
+    "t_start": 882.189,
+    "t_end": 891.23,
+    "text": "took him 10 years and 200 Pages um but it probably wasn't worth"
+  },
+  {
+    "t_start": 895.509,
+    "t_end": 897.15,
+    "text": "it okay so now I want to take you to a bit more modern"
+  },
+  {
+    "t_start": 897.15,
+    "t_end": 903.15,
+    "text": "mathematics we're not satisfied so these solvable numbers or"
+  },
+  {
+    "t_start": 903.15,
+    "t_end": 904.71,
+    "text": "so these solvable numbers or constructable"
+  },
+  {
+    "t_start": 904.71,
+    "t_end": 910.23,
+    "text": "numbers are obtained by uh using roots and it's very"
+  },
+  {
+    "t_start": 910.23,
+    "t_end": 912.55,
+    "text": "by uh using roots and it's very surprising but that's not enough"
+  },
+  {
+    "t_start": 912.55,
+    "t_end": 915.87,
+    "text": "surprising but that's not enough information um it's a very powerful"
+  },
+  {
+    "t_start": 915.87,
+    "t_end": 922.629,
+    "text": "information um it's a very powerful tool um but we actually want to build"
+  },
+  {
+    "t_start": 922.629,
+    "t_end": 924.269,
+    "text": "solvable numbers out of a kind of fundamental building blocks which are"
+  },
+  {
+    "t_start": 924.269,
+    "t_end": 925.79,
+    "text": "fundamental building blocks which are ailan"
+  },
+  {
+    "t_start": 925.79,
+    "t_end": 932.309,
+    "text": "equations so I've put some ailan equations here like x^2 + x + 1 = 0 x^2"
+  },
+  {
+    "t_start": 932.309,
+    "t_end": 935.749,
+    "text": "equations here like x^2 + x + 1 = 0 x^2 + 1 = 0 and so"
+  },
+  {
+    "t_start": 935.749,
+    "t_end": 939.47,
+    "text": "+ 1 = 0 and so on these are the equations of the cube"
+  },
+  {
+    "t_start": 939.47,
+    "t_end": 944.829,
+    "text": "on these are the equations of the cube root of one well one is a cube root of"
+  },
+  {
+    "t_start": 944.829,
+    "t_end": 949.269,
+    "text": "which is a cube root of one so now I'm going to allow myself square roots of"
+  },
+  {
+    "t_start": 949.269,
+    "t_end": 950.59,
+    "text": "going to allow myself square roots of negative"
+  },
+  {
+    "t_start": 950.59,
+    "t_end": 957.03,
+    "text": "numbers cube root of one is - a half plus the &lt; TK -3 /2 if you try Square"
+  },
+  {
+    "t_start": 957.03,
+    "t_end": 960.87,
+    "text": "plus the &lt; TK -3 /2 if you try Square cubing that and just use the rule like"
+  },
+  {
+    "t_start": 960.87,
+    "t_end": 962.87,
+    "text": "cubing that and just use the rule like cardano would have done that the square"
+  },
+  {
+    "t_start": 962.87,
+    "t_end": 970.15,
+    "text": "cardano would have done that the square &lt; TK of -3 squar is -3 you will find the"
+  },
+  {
+    "t_start": 970.15,
+    "t_end": 975.389,
+    "text": "one and if you take all numbers like this so the cube root of one the fourth"
+  },
+  {
+    "t_start": 975.389,
+    "t_end": 979.47,
+    "text": "this so the cube root of one the fourth root of one the fifth root of one and so"
+  },
+  {
+    "t_start": 979.47,
+    "t_end": 981.03,
+    "text": "on and you allow yourself to add them together and so"
+  },
+  {
+    "t_start": 981.03,
+    "t_end": 987.35,
+    "text": "on and take the equations Satisfied by those those are what we call aelan"
+  },
+  {
+    "t_start": 987.35,
+    "t_end": 989.71,
+    "text": "those those are what we call aelan equations well"
+  },
+  {
+    "t_start": 989.71,
+    "t_end": 994.79,
+    "text": "equations well in fact a bilon equations over the"
+  },
+  {
+    "t_start": 997.15,
+    "t_end": 999.43,
+    "text": "rationals so the difference between that and solvable numbers is I'm only taking"
+  },
+  {
+    "t_start": 999.43,
+    "t_end": 1004.71,
+    "text": "and solvable numbers is I'm only taking roots of one I'm not taking roots of any"
+  },
+  {
+    "t_start": 1006.949,
+    "t_end": 1012.55,
+    "text": "number so in the 1880s first vber and then"
+  },
+  {
+    "t_start": 1012.55,
+    "t_end": 1019.309,
+    "text": "um developing it show that actually these are the fun fundamental building"
+  },
+  {
+    "t_start": 1019.309,
+    "t_end": 1020.99,
+    "text": "these are the fun fundamental building blocks for solvable"
+  },
+  {
+    "t_start": 1020.99,
+    "t_end": 1023.59,
+    "text": "blocks for solvable numbers"
+  },
+  {
+    "t_start": 1023.59,
+    "t_end": 1030.949,
+    "text": "numbers you start with rationals and use these equations you get what are called"
+  },
+  {
+    "t_start": 1030.949,
+    "t_end": 1033.789,
+    "text": "these equations you get what are called aedan equations so they're all of this"
+  },
+  {
+    "t_start": 1033.789,
+    "t_end": 1039.87,
+    "text": "aedan equations so they're all of this form so if you've done um group Theory"
+  },
+  {
+    "t_start": 1039.87,
+    "t_end": 1043.829,
+    "text": "form so if you've done um group Theory and gawa Theory then aan equations means"
+  },
+  {
+    "t_start": 1043.829,
+    "t_end": 1048.75,
+    "text": "and gawa Theory then aan equations means you've got an A bilon gawa extension of"
+  },
+  {
+    "t_start": 1048.75,
+    "t_end": 1050.71,
+    "text": "the rationals and they're given by equations like"
+  },
+  {
+    "t_start": 1050.71,
+    "t_end": 1054.47,
+    "text": "equations like this but now the question comes can you"
+  },
+  {
+    "t_start": 1054.47,
+    "t_end": 1061.27,
+    "text": "rational numbers but you start with other kinds of numbers for example you"
+  },
+  {
+    "t_start": 1061.27,
+    "t_end": 1064.15,
+    "text": "other kinds of numbers for example you start with this number I've written like"
+  },
+  {
+    "t_start": 1064.15,
+    "t_end": 1070.99,
+    "text": "start with this number I've written like seven 4S plus 6 * the &lt; TK of 73 you"
+  },
+  {
+    "t_start": 1070.99,
+    "t_end": 1073.11,
+    "text": "start with some other algebraic number and ask what are the ailan equations"
+  },
+  {
+    "t_start": 1073.11,
+    "t_end": 1077.51,
+    "text": "and ask what are the ailan equations over that where in fact maybe you like"
+  },
+  {
+    "t_start": 1077.51,
+    "t_end": 1080.07,
+    "text": "over that where in fact maybe you like you allow yourself coefficients instead"
+  },
+  {
+    "t_start": 1080.07,
+    "t_end": 1082.39,
+    "text": "you allow yourself coefficients instead of the coefficients of the equations"
+  },
+  {
+    "t_start": 1082.39,
+    "t_end": 1088.83,
+    "text": "of the coefficients of the equations being just rational numbers you allow"
+  },
+  {
+    "t_start": 1088.83,
+    "t_end": 1095.63,
+    "text": "well and then it's a much much harder problem and it took till about 1940 to"
+  },
+  {
+    "t_start": 1095.63,
+    "t_end": 1097.909,
+    "text": "problem and it took till about 1940 to solve this problem"
+  },
+  {
+    "t_start": 1097.909,
+    "t_end": 1103.75,
+    "text": "completely um interestingly the solution of this problem was probably the"
+  },
+  {
+    "t_start": 1103.75,
+    "t_end": 1107.83,
+    "text": "of this problem was probably the first really Global solution in"
+  },
+  {
+    "t_start": 1107.83,
+    "t_end": 1108.83,
+    "text": "first really Global solution in mathematics"
+  },
+  {
+    "t_start": 1108.83,
+    "t_end": 1114.71,
+    "text": "in modern mathematics um the origins of class field Theory"
+  },
+  {
+    "t_start": 1114.71,
+    "t_end": 1116.23,
+    "text": "um the origins of class field Theory were all in"
+  },
+  {
+    "t_start": 1116.23,
+    "t_end": 1118.149,
+    "text": "were all in Germany"
+  },
+  {
+    "t_start": 1118.149,
+    "t_end": 1123.87,
+    "text": "um the formulation of the problems uh a lot of it was done by David Hilbert"
+  },
+  {
+    "t_start": 1123.87,
+    "t_end": 1125.39,
+    "text": "lot of it was done by David Hilbert around"
+  },
+  {
+    "t_start": 1125.39,
+    "t_end": 1130.75,
+    "text": "1900 grew out of The Chronic of vapa theorem both German"
+  },
+  {
+    "t_start": 1130.75,
+    "t_end": 1136.07,
+    "text": "mathematicians but the key breakthrough was actually during the first world war"
+  },
+  {
+    "t_start": 1136.07,
+    "t_end": 1138.35,
+    "text": "was actually during the first world war by a Japanese mathematician the first"
+  },
+  {
+    "t_start": 1138.35,
+    "t_end": 1143.83,
+    "text": "by a Japanese mathematician the first first one that I'm aware of U called"
+  },
+  {
+    "t_start": 1148.11,
+    "t_end": 1150.549,
+    "text": "Takagi and sadly he came to Europe in 1920 to the mathematical"
+  },
+  {
+    "t_start": 1150.549,
+    "t_end": 1154.75,
+    "text": "Congress but because of the first world war there were no Germans allowed at"
+  },
+  {
+    "t_start": 1154.75,
+    "t_end": 1156.63,
+    "text": "war there were no Germans allowed at that mathematical"
+  },
+  {
+    "t_start": 1156.63,
+    "t_end": 1161.83,
+    "text": "Congress so takagi's work which he presented was not understood by any of"
+  },
+  {
+    "t_start": 1161.83,
+    "t_end": 1167.23,
+    "text": "presented was not understood by any of the people there and it was kind of um"
+  },
+  {
+    "t_start": 1167.23,
+    "t_end": 1171.39,
+    "text": "appreciated but later Artin and then a Russian mathematician"
+  },
+  {
+    "t_start": 1171.39,
+    "t_end": 1177.43,
+    "text": "chatar and those three of them together really um proved all the fundamental"
+  },
+  {
+    "t_start": 1177.43,
+    "t_end": 1180.39,
+    "text": "really um proved all the fundamental results in class field"
+  },
+  {
+    "t_start": 1180.39,
+    "t_end": 1187.19,
+    "text": "mathematicians I should say of course ramanujan is from even slightly earlier"
+  },
+  {
+    "t_start": 1187.19,
+    "t_end": 1191.99,
+    "text": "ramanujan is from even slightly earlier but from the Far East it's the first I'm"
+  },
+  {
+    "t_start": 1191.99,
+    "t_end": 1200.87,
+    "text": "of okay so that's class field Theory and that solved the the problem of"
+  },
+  {
+    "t_start": 1200.87,
+    "t_end": 1207.909,
+    "text": "that solved the the problem of equations um but only ones that are any"
+  },
+  {
+    "t_start": 1211.51,
+    "t_end": 1213.63,
+    "text": "solvable gwa had divided equations into two kinds the ones that are basically"
+  },
+  {
+    "t_start": 1213.63,
+    "t_end": 1222.43,
+    "text": "solvable and the ones that are not what about the ones that are not how do we"
+  },
+  {
+    "t_start": 1222.43,
+    "t_end": 1228.669,
+    "text": "those well first just to describe it I need to just remind you what matrices"
+  },
+  {
+    "t_start": 1228.669,
+    "t_end": 1233.43,
+    "text": "need to just remind you what matrices are um so matrices are these arrays of"
+  },
+  {
+    "t_start": 1233.43,
+    "t_end": 1236.669,
+    "text": "are um so matrices are these arrays of numbers and I'm just going to talk use"
+  },
+  {
+    "t_start": 1236.669,
+    "t_end": 1239.63,
+    "text": "numbers and I'm just going to talk use matrices where all the entries are"
+  },
+  {
+    "t_start": 1239.63,
+    "t_end": 1246.23,
+    "text": "integers and where the determinant is one so the determinant of a 2X two one"
+  },
+  {
+    "t_start": 1246.23,
+    "t_end": 1248.43,
+    "text": "one so the determinant of a 2X two one the first one I've written"
+  },
+  {
+    "t_start": 1248.43,
+    "t_end": 1253.549,
+    "text": "the first one I've written 3152 the determinant is 3 * 2 - 1 * 5"
+  },
+  {
+    "t_start": 1253.549,
+    "t_end": 1256.11,
+    "text": "3152 the determinant is 3 * 2 - 1 * 5 and that's supposed to be one and you"
+  },
+  {
+    "t_start": 1256.11,
+    "t_end": 1258.51,
+    "text": "and that's supposed to be one and you can write down matrices 3 by three"
+  },
+  {
+    "t_start": 1258.51,
+    "t_end": 1260.27,
+    "text": "can write down matrices 3 by three matrices and the formula for the"
+  },
+  {
+    "t_start": 1260.27,
+    "t_end": 1263.19,
+    "text": "matrices and the formula for the determinant is more complicated so these"
+  },
+  {
+    "t_start": 1263.19,
+    "t_end": 1265.71,
+    "text": "determinant is more complicated so these are familiar to anyone who's tried or"
+  },
+  {
+    "t_start": 1265.71,
+    "t_end": 1269.029,
+    "text": "are familiar to anyone who's tried or had to solve linear equations um any"
+  },
+  {
+    "t_start": 1269.029,
+    "t_end": 1271.07,
+    "text": "had to solve linear equations um any undergraduate mathematics will certainly"
+  },
+  {
+    "t_start": 1271.07,
+    "t_end": 1275.39,
+    "text": "undergraduate mathematics will certainly have dealt with these and computed"
+  },
+  {
+    "t_start": 1275.39,
+    "t_end": 1277.269,
+    "text": "determinants and so on"
+  },
+  {
+    "t_start": 1277.269,
+    "t_end": 1278.909,
+    "text": "on okay"
+  },
+  {
+    "t_start": 1278.909,
+    "t_end": 1287.149,
+    "text": "so the langland program langland um started writing these down actually in"
+  },
+  {
+    "t_start": 1287.149,
+    "t_end": 1294.47,
+    "text": "started writing these down actually in um I think 1967 is the year it's"
+  },
+  {
+    "t_start": 1294.47,
+    "t_end": 1296.11,
+    "text": "attributed to he was he'd been a an associate professor at"
+  },
+  {
+    "t_start": 1296.11,
+    "t_end": 1299.549,
+    "text": "associate professor at Princeton uh Princeton hadn't treated"
+  },
+  {
+    "t_start": 1299.549,
+    "t_end": 1306.99,
+    "text": "well I think he'd gone off to Turkey for a year and he' been working in turkey"
+  },
+  {
+    "t_start": 1306.99,
+    "t_end": 1309.19,
+    "text": "a year and he' been working in turkey and he just came up with"
+  },
+  {
+    "t_start": 1309.19,
+    "t_end": 1312.07,
+    "text": "and he just came up with these uh the beginnings of these"
+  },
+  {
+    "t_start": 1312.07,
+    "t_end": 1317.23,
+    "text": "wonderful ideas which he then put in letter form and sent off to Andre vay"
+  },
+  {
+    "t_start": 1317.23,
+    "t_end": 1319.43,
+    "text": "letter form and sent off to Andre vay who is one of the leading mathematicians"
+  },
+  {
+    "t_start": 1319.43,
+    "t_end": 1322.789,
+    "text": "who is one of the leading mathematicians of the"
+  },
+  {
+    "t_start": 1327.149,
+    "t_end": 1329.47,
+    "text": "period langin came from a background um actually an analysis more related to"
+  },
+  {
+    "t_start": 1329.47,
+    "t_end": 1331.31,
+    "text": "actually an analysis more related to calculus he had"
+  },
+  {
+    "t_start": 1331.31,
+    "t_end": 1338.75,
+    "text": "calculus he had no no real connection with number Theory"
+  },
+  {
+    "t_start": 1342.47,
+    "t_end": 1346.07,
+    "text": "this what did he do well ban equations we saw at least over the"
+  },
+  {
+    "t_start": 1346.07,
+    "t_end": 1348.31,
+    "text": "equations we saw at least over the rationals have some link with with the"
+  },
+  {
+    "t_start": 1348.31,
+    "t_end": 1357.83,
+    "text": "nth root of one now I wrote it before I gave you a um a calculation of it but in"
+  },
+  {
+    "t_start": 1357.83,
+    "t_end": 1359.51,
+    "text": "gave you a um a calculation of it but in general the nth root of one can be"
+  },
+  {
+    "t_start": 1359.51,
+    "t_end": 1365.269,
+    "text": "general the nth root of one can be written as COS of 2 Pi / n plus I sin 2"
+  },
+  {
+    "t_start": 1365.269,
+    "t_end": 1371.35,
+    "text": "over so for example the fifth root of one is a solution of that equation x 4 +"
+  },
+  {
+    "t_start": 1371.35,
+    "t_end": 1375.63,
+    "text": "one is a solution of that equation x 4 + x Cub + x^2 + x + 1 ="
+  },
+  {
+    "t_start": 1375.63,
+    "t_end": 1378.51,
+    "text": "x Cub + x^2 + x + 1 = 0 and"
+  },
+  {
+    "t_start": 1378.51,
+    "t_end": 1383.11,
+    "text": "what's interesting about this is he's using one's"
+  },
+  {
+    "t_start": 1383.11,
+    "t_end": 1386.95,
+    "text": "using the COS function and the S function these"
+  },
+  {
+    "t_start": 1386.95,
+    "t_end": 1392.39,
+    "text": "are transcendental functions and they're functions with a very special property"
+  },
+  {
+    "t_start": 1392.39,
+    "t_end": 1393.95,
+    "text": "functions with a very special property that COS of"
+  },
+  {
+    "t_start": 1393.95,
+    "t_end": 1400.95,
+    "text": "X is COS of X plus 2 pi COS of X plus 4 pi and so on it's periodic it satisfies"
+  },
+  {
+    "t_start": 1400.95,
+    "t_end": 1405.59,
+    "text": "pi and so on it's periodic it satisfies some transformation"
+  },
+  {
+    "t_start": 1408.75,
+    "t_end": 1413.909,
+    "text": "relation and what langland realized was that non-solvable"
+  },
+  {
+    "t_start": 1413.909,
+    "t_end": 1418.029,
+    "text": "realized was that non-solvable equations should correspond to functions"
+  },
+  {
+    "t_start": 1418.029,
+    "t_end": 1419.59,
+    "text": "which are invariant"
+  },
+  {
+    "t_start": 1419.59,
+    "t_end": 1425.75,
+    "text": "by certain kinds of matrices and it takes a lot of work to work out exactly"
+  },
+  {
+    "t_start": 1425.75,
+    "t_end": 1427.31,
+    "text": "takes a lot of work to work out exactly which kinds of"
+  },
+  {
+    "t_start": 1427.31,
+    "t_end": 1437.549,
+    "text": "matrices um so for example you might have a relation like f of 3x + 1/ 5x + 2"
+  },
+  {
+    "t_start": 1437.549,
+    "t_end": 1441.669,
+    "text": "have a relation like f of 3x + 1/ 5x + 2 is x + 2^ 2 * F"
+  },
+  {
+    "t_start": 1441.669,
+    "t_end": 1444.43,
+    "text": "is x + 2^ 2 * F ofx and maybe you want that for many"
+  },
+  {
+    "t_start": 1444.43,
+    "t_end": 1449.59,
+    "text": "ofx and maybe you want that for many more matrices and you want it for all"
+  },
+  {
+    "t_start": 1453.95,
+    "t_end": 1457.029,
+    "text": "X and yes there are some such functions there' been a a tiny hint of"
+  },
+  {
+    "t_start": 1457.029,
+    "t_end": 1459.35,
+    "text": "functions there' been a a tiny hint of this in the middle of the 19th century"
+  },
+  {
+    "t_start": 1459.35,
+    "t_end": 1466.31,
+    "text": "but it in some sense it's a red herring because French ma mathematician M me had"
+  },
+  {
+    "t_start": 1466.31,
+    "t_end": 1469.31,
+    "text": "because French ma mathematician M me had shown that you could use some such"
+  },
+  {
+    "t_start": 1469.31,
+    "t_end": 1473.549,
+    "text": "shown that you could use some such functions to actually solve the quintic"
+  },
+  {
+    "t_start": 1477.07,
+    "t_end": 1486.59,
+    "text": "was not quite the same as what happens in the um in the solvable case so langin"
+  },
+  {
+    "t_start": 1486.59,
+    "t_end": 1489.149,
+    "text": "in the um in the solvable case so langin doesn't really directly give you a way"
+  },
+  {
+    "t_start": 1489.149,
+    "t_end": 1492.35,
+    "text": "doesn't really directly give you a way of writing down the roots of this"
+  },
+  {
+    "t_start": 1492.35,
+    "t_end": 1495.43,
+    "text": "of writing down the roots of this equation rather it says that"
+  },
+  {
+    "t_start": 1495.43,
+    "t_end": 1497.549,
+    "text": "equation rather it says that non-solvable equations are related to"
+  },
+  {
+    "t_start": 1497.549,
+    "t_end": 1499.83,
+    "text": "non-solvable equations are related to these these functions and you can read"
+  },
+  {
+    "t_start": 1499.83,
+    "t_end": 1502.43,
+    "text": "these these functions and you can read off the properties of these nonsolvable"
+  },
+  {
+    "t_start": 1502.43,
+    "t_end": 1507.789,
+    "text": "off the properties of these nonsolvable equations in terms of properties of the"
+  },
+  {
+    "t_start": 1507.789,
+    "t_end": 1512.99,
+    "text": "functions so it's a correspondence but it's not actually telling you what the"
+  },
+  {
+    "t_start": 1516.19,
+    "t_end": 1523.31,
+    "text": "are so there are many functions like this and just like the COS function and"
+  },
+  {
+    "t_start": 1523.31,
+    "t_end": 1525.95,
+    "text": "the S function are used in harmonic analysis they're used for fur analysis"
+  },
+  {
+    "t_start": 1525.95,
+    "t_end": 1531.19,
+    "text": "they're used in engineering or the time they used to describe the real world and"
+  },
+  {
+    "t_start": 1531.19,
+    "t_end": 1533.11,
+    "text": "they used to describe the real world and used to solve differential equations and"
+  },
+  {
+    "t_start": 1533.11,
+    "t_end": 1536.51,
+    "text": "used to solve differential equations and so on so these more General functions"
+  },
+  {
+    "t_start": 1536.51,
+    "t_end": 1539.389,
+    "text": "so on so these more General functions invariant by matrices or more generally"
+  },
+  {
+    "t_start": 1539.389,
+    "t_end": 1548.99,
+    "text": "invariant by matrices or more generally invariant by groups or Le groups"
+  },
+  {
+    "t_start": 1548.99,
+    "t_end": 1551.909,
+    "text": "whatever these uh called automorphic functions give you harmonic analysis for"
+  },
+  {
+    "t_start": 1551.909,
+    "t_end": 1553.23,
+    "text": "functions give you harmonic analysis for these"
+  },
+  {
+    "t_start": 1553.23,
+    "t_end": 1560.83,
+    "text": "other groups these matrices and so on and what what happened was that although"
+  },
+  {
+    "t_start": 1560.83,
+    "t_end": 1562.07,
+    "text": "and what what happened was that although there's this"
+  },
+  {
+    "t_start": 1562.07,
+    "t_end": 1569.149,
+    "text": "very uh explicit beginning and actually this is not the beginning that langin"
+  },
+  {
+    "t_start": 1569.149,
+    "t_end": 1575.11,
+    "text": "came from but it's the beginning maybe I would come from uh langin came from the"
+  },
+  {
+    "t_start": 1575.11,
+    "t_end": 1578.63,
+    "text": "would come from uh langin came from the side of the functions and realized that"
+  },
+  {
+    "t_start": 1578.63,
+    "t_end": 1580.789,
+    "text": "side of the functions and realized that there was a relation with arithmetic"
+  },
+  {
+    "t_start": 1580.789,
+    "t_end": 1583.51,
+    "text": "there was a relation with arithmetic rather than coming from arithmetic and"
+  },
+  {
+    "t_start": 1583.51,
+    "t_end": 1589.71,
+    "text": "rather than coming from arithmetic and solving equations as I've done and go to"
+  },
+  {
+    "t_start": 1591.71,
+    "t_end": 1596.149,
+    "text": "started it became insatiable not"
+  },
+  {
+    "t_start": 1596.149,
+    "t_end": 1600.35,
+    "text": "insatiable not just equations in one variable as I've"
+  },
+  {
+    "t_start": 1600.35,
+    "t_end": 1606.19,
+    "text": "here uh the classical equations but whole systems of equations all of"
+  },
+  {
+    "t_start": 1606.19,
+    "t_end": 1608.669,
+    "text": "whole systems of equations all of algebraic geometry you can write as"
+  },
+  {
+    "t_start": 1608.669,
+    "t_end": 1610.83,
+    "text": "algebraic geometry you can write as systems of"
+  },
+  {
+    "t_start": 1610.83,
+    "t_end": 1618.07,
+    "text": "equations and they are supposed to correspond to functions in the same way"
+  },
+  {
+    "t_start": 1618.07,
+    "t_end": 1619.87,
+    "text": "correspond to functions in the same way even more generally than that you can"
+  },
+  {
+    "t_start": 1619.87,
+    "t_end": 1624.909,
+    "text": "start with I've said you can change the field from the rationals you can start"
+  },
+  {
+    "t_start": 1624.909,
+    "t_end": 1631.19,
+    "text": "talking about other fields you can take Fields over the complex numbers and you"
+  },
+  {
+    "t_start": 1631.19,
+    "t_end": 1633.269,
+    "text": "Fields over the complex numbers and you start moving into questions in in"
+  },
+  {
+    "t_start": 1633.269,
+    "t_end": 1636.029,
+    "text": "start moving into questions in in mathematical physics and on the right"
+  },
+  {
+    "t_start": 1636.029,
+    "t_end": 1643.11,
+    "text": "hand side you you get um as I said harmonic analysis you get automorphic"
+  },
+  {
+    "t_start": 1643.11,
+    "t_end": 1651.47,
+    "text": "harmonic analysis you get automorphic forms you get group Theory um so that"
+  },
+  {
+    "t_start": 1651.47,
+    "t_end": 1654.549,
+    "text": "this has become uh a huge Enterprise"
+  },
+  {
+    "t_start": 1657.789,
+    "t_end": 1660.71,
+    "text": "which it seems unlikely will will be solved in the very near future it's it's"
+  },
+  {
+    "t_start": 1660.71,
+    "t_end": 1663.75,
+    "text": "solved in the very near future it's it's so many problems wrapped up together"
+  },
+  {
+    "t_start": 1663.75,
+    "t_end": 1669.87,
+    "text": "that probably um it'll take at least a 100 years I think and maybe more I mean"
+  },
+  {
+    "t_start": 1669.87,
+    "t_end": 1674.47,
+    "text": "100 years I think and maybe more I mean judging by how far we've got so"
+  },
+  {
+    "t_start": 1676.509,
+    "t_end": 1685.83,
+    "text": "so one of the great things about having this correspondence between"
+  },
+  {
+    "t_start": 1685.83,
+    "t_end": 1690.31,
+    "text": "having this correspondence between seemingly two different fields between"
+  },
+  {
+    "t_start": 1690.31,
+    "t_end": 1693.149,
+    "text": "on the one hand equations in one variable and functions in variant by"
+  },
+  {
+    "t_start": 1693.149,
+    "t_end": 1695.71,
+    "text": "variable and functions in variant by matrices is that sometimes operations"
+  },
+  {
+    "t_start": 1695.71,
+    "t_end": 1701.07,
+    "text": "matrices is that sometimes operations are very easy on one side of the"
+  },
+  {
+    "t_start": 1701.07,
+    "t_end": 1706.31,
+    "text": "predict things on the other side because if if you can do something to an"
+  },
+  {
+    "t_start": 1706.31,
+    "t_end": 1710.549,
+    "text": "equation then you must be a able to do something on the other side to the"
+  },
+  {
+    "t_start": 1710.549,
+    "t_end": 1712.63,
+    "text": "something on the other side to the functions and vice"
+  },
+  {
+    "t_start": 1712.63,
+    "t_end": 1719.71,
+    "text": "versa and by seeing this langin has generated an enormous number of problems"
+  },
+  {
+    "t_start": 1719.71,
+    "t_end": 1723.029,
+    "text": "generated an enormous number of problems in fields even without the"
+  },
+  {
+    "t_start": 1723.029,
+    "t_end": 1731.19,
+    "text": "correspondence just on one side so he's given a whole new life to functions on"
+  },
+  {
+    "t_start": 1731.19,
+    "t_end": 1733.389,
+    "text": "given a whole new life to functions on groups because he's predicting the"
+  },
+  {
+    "t_start": 1733.389,
+    "t_end": 1736.07,
+    "text": "groups because he's predicting the existence of many operations on that"
+  },
+  {
+    "t_start": 1736.07,
+    "t_end": 1738.59,
+    "text": "existence of many operations on that that no one had any idea"
+  },
+  {
+    "t_start": 1738.59,
+    "t_end": 1745.509,
+    "text": "existed so anyway it's it's as I say he he won the arble prize a few years ago"
+  },
+  {
+    "t_start": 1745.509,
+    "t_end": 1748.23,
+    "text": "he won the arble prize a few years ago basically for setting this in"
+  },
+  {
+    "t_start": 1748.23,
+    "t_end": 1753.789,
+    "text": "basically for setting this in motion um and having such a profound"
+  },
+  {
+    "t_start": 1753.789,
+    "t_end": 1762.31,
+    "text": "Alex so just as with the earlier use of algebra um the"
+  },
+  {
+    "t_start": 1762.31,
+    "t_end": 1763.83,
+    "text": "with the earlier use of algebra um the quintic and so"
+  },
+  {
+    "t_start": 1763.83,
+    "t_end": 1769.31,
+    "text": "quintic and so on it gave gaus the the tools needed"
+  },
+  {
+    "t_start": 1769.31,
+    "t_end": 1773.11,
+    "text": "on it gave gaus the the tools needed to understand the classical Greek"
+  },
+  {
+    "t_start": 1773.11,
+    "t_end": 1774.95,
+    "text": "to understand the classical Greek problem of regular"
+  },
+  {
+    "t_start": 1774.95,
+    "t_end": 1776.95,
+    "text": "problem of regular polygons so in"
+  },
+  {
+    "t_start": 1776.95,
+    "t_end": 1784.35,
+    "text": "fact fma's Last Theorem also used results from the langin"
+  },
+  {
+    "t_start": 1784.35,
+    "t_end": 1788.71,
+    "text": "program it turned out that the aelan case and class field Theory were not"
+  },
+  {
+    "t_start": 1788.71,
+    "t_end": 1790.59,
+    "text": "case and class field Theory were not enough even"
+  },
+  {
+    "t_start": 1790.59,
+    "t_end": 1794.149,
+    "text": "though people thought when they were introduced they probably should be"
+  },
+  {
+    "t_start": 1794.149,
+    "t_end": 1800.31,
+    "text": "enough Kuma uh worked with those kinds of tools in the middle of the 19th"
+  },
+  {
+    "t_start": 1800.31,
+    "t_end": 1806.029,
+    "text": "century it did many cases of the farar problem but it it wasn't sufficient and"
+  },
+  {
+    "t_start": 1806.029,
+    "t_end": 1808.549,
+    "text": "problem but it it wasn't sufficient and in fact it had to wait"
+  },
+  {
+    "t_start": 1808.549,
+    "t_end": 1811.07,
+    "text": "in fact it had to wait for uh the development of the langin"
+  },
+  {
+    "t_start": 1811.07,
+    "t_end": 1814.99,
+    "text": "for uh the development of the langin program to to Really"
+  },
+  {
+    "t_start": 1814.99,
+    "t_end": 1820.82,
+    "text": "program to to Really U uh find the ultimate solution so thank"
+  },
+  {
+    "t_start": 1820.82,
+    "t_end": 1826.23,
+    "text": "you very [Applause]"
+  },
+  {
+    "t_start": 1826.23,
+    "t_end": 1829.24,
+    "text": "[Applause] much"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ku_video_eIb1cz06UwI_0",
+    "t_start": 0.0,
+    "t_end": 91.0,
+    "type": "overview",
+    "summary": "So, if you want to learn about graph theory, you probably want to learn who is Leonard Euler. Leonard Euler was a very cool guy and he invented graph theory. He did a lot of things by the way. In fact he's famous for many many many many mathematical theorems and  an example would be something like e to the i pi is equal to minus one. So this guy is fantastic and he also invented graph theory and when he invented graph theory it was in order to solve this problem called the seven bridges of Königsberg. So what was the seven bridges Königsberg problem? Well, we can talk about it quite easily …"
+  },
+  {
+    "id": "ku_video_eIb1cz06UwI_91",
+    "t_start": 91.0,
+    "t_end": 182.0,
+    "type": "overview",
+    "summary": "Why don't we give in a go. What we're gonna do is just give it a try. Let's say we start at this part up the City and maybe we walk across this bridge and now in this over here now and what we gonna do maybe let's just go somewhere we haven't been yet, for go across that bridge so by the way every time I've used this bridge this bridge and this bridge I can't use them again so now I really have no choice but to go across one of these two bridges and end up back to this little island part and now that I'm stuck here. I really could go either across this bridge or across this bridge and but s…"
+  },
+  {
+    "id": "ku_video_eIb1cz06UwI_182",
+    "t_start": 182.0,
+    "t_end": 275.0,
+    "type": "overview",
+    "summary": "So how did he think about it? What he did was, he said: “Okay, well you know this seems like a geometry question or a topology question, but really it's not all you care about. In this question is that there's this piece of land mass and this piece of land mass and this piece and this piece and then you also care about the relationships between those. Sign in a draw in red this is a relationship between this land masses and this is another relationship and this is another  relationship. These bridges are just relationships between the parts and it does not matter how the city is laid out ov…"
+  },
+  {
+    "id": "ku_video_eIb1cz06UwI_275",
+    "t_start": 275.0,
+    "t_end": 367.0,
+    "type": "overview",
+    "summary": "two in fact go to this inland anywhere. And if you look down at the bottom you again have two bridges that go to the island and again one that goes across here and don't forget that you have a bridge right here in the middle that goes from here to here So this picture describes exactly everything you need to know in order to figure out the problem. So what is this right here? Let me draw these vertices a little bit darker and when I say vertices that's because that's the technical definition in terms of graph theory. These green bits right here are actually called vertices. Sometimes you'll…"
+  },
+  {
+    "id": "ku_video_eIb1cz06UwI_367",
+    "t_start": 367.0,
+    "t_end": 463.0,
+    "type": "overview",
+    "summary": "but we can work this out together. So this is my new graph. As you can see it looks very similar except I'm missing one of these bridges that goes right through here in this edge and so what I'm gonna do now it I'm gonna try to find a walk that uses every single one of these red edges exactly once what and let's see why  I can do that. What I'm gonna do as I'm gonna start at this bottom projects here and I'm going to use one of these edges up then I'm gonna go up again and then come back again back again I can never use any of those four edges again and I go to this one and then to this one…"
+  },
+  {
+    "id": "ku_video_eIb1cz06UwI_463",
+    "t_start": 463.0,
+    "t_end": 554.0,
+    "type": "overview",
+    "summary": "even number. So let's draw two things like this and then I'm going to give them some edges. Over here I'm going to do an even example and over here I'm going to do an odd example. So let's say I have some even number of things and over here I have some odd number of things. Okay. So let's see if we can understand what is the fundamental problem. If I have and even degree vertex (now I'm using this word degree), what does the degree mean it just means the number of edges that has a particular vertex. So here the degree is four in this particular picture. So if I take a look at something that…"
+  },
+  {
+    "id": "ku_video_eIb1cz06UwI_554",
+    "t_start": 554.0,
+    "t_end": 644.0,
+    "type": "overview",
+    "summary": "Okay. What happens if it's odd? If I enter somewhere and I then can leave and then I do some more of my walk, I come back I come back … Oh! Oh! There's no way for me to leave! So this right here if you have something of odd degree this had better be a start or an end vertex. Okay. So let's think about what we've learned. We learned that in an Eulerian walk we can have a start which is different from our end. And that's fine but you can have at most one place that you start And we learned over here that we can have only an odd degree if we have a start or an end vertex which means that we ca…"
+  },
+  {
+    "id": "ku_video_eIb1cz06UwI_644",
+    "t_start": 644.0,
+    "t_end": 734.0,
+    "type": "overview",
+    "summary": "same as  end vertex then that one special edge that has a starting and that one special edge that has an ending coincide then our vertex again give even degree. So this is when our start vertex equals an end vertex we gonna have zero vertices of degree that is odd. Okay! So now we know that if we hope to get an Eulerian walk we're going to have to have either zero or two vertices which have odd degree. Knowing this, let's go back up and take a look at the degrees of the graph that represents Here's the graph that represents the bridges of Königsberg. And let's take a look at the degree. Rem…"
+  },
+  {
+    "id": "ku_video_eIb1cz06UwI_734",
+    "t_start": 734.0,
+    "t_end": 746.0,
+    "type": "overview",
+    "summary": "the fundamental idea of what is a graph and how we it can be worked with. So see  next time when we give a formal definition of a graph. Subtitles by - Prof. Anna Scola and Dott. Paolo Mangraviti"
+  }
+]

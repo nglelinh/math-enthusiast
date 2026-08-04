@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ku_video_ctC33JAV4FI_0",
+    "t_start": 0.3,
+    "t_end": 92.3,
+    "type": "overview",
+    "summary": "JAMES GRIME: So recently, we had big maths news, didn't we? We had that new prime number that was found. And it was the biggest prime number ever found. And it was big news. And we were all quite excited about it. It was lots of fun. But it got me thinking about one of the classic proofs in mathematics, and that is the proof that there are infinitely many primes. So even though we found this huge, 17-million-digit prime number, it is still not the biggest prime number of all. Because there's infinitely many of them. So shall we do this classic proof? So I'll say before I start that many of you…"
+  },
+  {
+    "id": "ku_video_ctC33JAV4FI_92",
+    "t_start": 92.3,
+    "t_end": 182.7,
+    "type": "overview",
+    "summary": "this number, I'm going to multiply all these together-- prime 1 times prime 2 times prime 3, all the way up to the last one there, prime n. So there'll be only one way to write Q. As a product of primes, it's a unique expression. So there's only one way you can write Q. And then I'm going to add 1. Q is either prime, or it's not. That's the only options it has. If Q is prime, then it's a new prime that's not on this list. That's bad. So hopefully, it's not a prime. If it's not a prime, then it is made up from primes by multiplying primes together. Now, those prime factors of Q will divide Q ex…"
+  },
+  {
+    "id": "ku_video_ctC33JAV4FI_182",
+    "t_start": 182.7,
+    "t_end": 274.8,
+    "type": "overview",
+    "summary": "And in this case, the problem is none of the primes on my list do that trick. They don't divide the number exactly. So there's primes missing. What I've got here is a copy of a book called \"Euclid's Elements.\" And this is a textbook written by a Greek mathematician called Euclid. Now, Euclid lived in 300 BC. So this textbook is 2,300 years old. It's never been out of print. And it's second only to the Bible in that respect. It's one of the most important books in mathematics. It's one of the most important books in human history. And the proof that there are infinitely many primes is in here. …"
+  },
+  {
+    "id": "ku_video_ctC33JAV4FI_274",
+    "t_start": 274.8,
+    "t_end": 368.3,
+    "type": "overview",
+    "summary": "So all his proofs are using straight lines and circles. So it looks quite different, but it's actually quite easy to translate into modern terms. You see, mathematics is the search for truth. And this book is as true today as it was 2,300 years ago. We know a prime number can only be divided by 1 and itself, by no other factors, so how did Euclid define it? It's actually in here. I was quite excited when I found this. So let's have a look. In Definitions-- look here-- at the beginning of Book Seven, he defines terms. Look at that. \"A prime number is that which is measured by a unit alone.\" So …"
+  },
+  {
+    "id": "ku_video_ctC33JAV4FI_368",
+    "t_start": 368.3,
+    "t_end": 425.4,
+    "type": "overview",
+    "summary": "So a prime length would only fit units into it and itself. And that's the definition of primes we have today. BRADY HARAN: So what does that mean for that new prime number that was found? It's just-- JAMES GRIME: It's tiny. That new prime number, 17 million digits long? Tiny. Nothing. Insignificant. To the whole infinity of prime numbers, it is small fry. BRADY HARAN: My understanding is that prime numbers become less frequent the higher you go. Their density becomes lower. Does that mean the next prime number is likely to be a long way away from those 17 million digits? JAMES GRIME: They beco…"
+  }
+]

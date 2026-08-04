@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ku_video_5J3tYU_-IZI_2",
+    "t_start": 3.0,
+    "t_end": 95.0,
+    "type": "overview",
+    "summary": "There's a deceptively simple problem There's a deceptively simple problem that's tormented mathematicians for 50 that's tormented mathematicians for 50 that's tormented mathematicians for 50 years. Suppose you have a needle. What's years. Suppose you have a needle. What's years. Suppose you have a needle. What's the smallest area you can sweep out by the smallest area you can sweep out by the smallest area you can sweep out by rotating it in all directions? This may rotating it in all directions? This may rotating it in all directions? This may seem like a fun exercise in geometry, seem like a…"
+  },
+  {
+    "id": "ku_video_5J3tYU_-IZI_95",
+    "t_start": 95.0,
+    "t_end": 185.9,
+    "type": "overview",
+    "summary": "on a desk. Spin it around and you get a on a desk. Spin it around and you get a circle. circle. circle. If you rotate it like this, you get a If you rotate it like this, you get a If you rotate it like this, you get a different shape, a deltoid with an area different shape, a deltoid with an area different shape, a deltoid with an area half that of the circles. half that of the circles. half that of the circles. These shapes would come to be known as These shapes would come to be known as These shapes would come to be known as CA sets. So the CA problem is CA sets. So the CA problem is CA sets…"
+  },
+  {
+    "id": "ku_video_5J3tYU_-IZI_185",
+    "t_start": 185.9,
+    "t_end": 276.9,
+    "type": "overview",
+    "summary": "dimension that we now call the Manowski dimension that we now call the Manowski dimension. The Manowski dimension dimension. The Manowski dimension dimension. The Manowski dimension measures how many boxes of a given size measures how many boxes of a given size measures how many boxes of a given size are needed to cover a set. For this are needed to cover a set. For this are needed to cover a set. For this reason, it's also known as the box reason, it's also known as the box reason, it's also known as the box counting dimension. counting dimension. counting dimension. Say you have boxes that a…"
+  },
+  {
+    "id": "ku_video_5J3tYU_-IZI_276",
+    "t_start": 276.9,
+    "t_end": 366.9,
+    "type": "overview",
+    "summary": "line segment and fatten it up a little line segment and fatten it up a little bit. Your set now consists of extremely bit. Your set now consists of extremely bit. Your set now consists of extremely thin rectangles. Davies carefully thin rectangles. Davies carefully thin rectangles. Davies carefully calculated the area of the intersection calculated the area of the intersection calculated the area of the intersection between pairs of rectangles depending on between pairs of rectangles depending on between pairs of rectangles depending on their angle. He then summed this their angle. He then sum…"
+  },
+  {
+    "id": "ku_video_5J3tYU_-IZI_366",
+    "t_start": 366.9,
+    "t_end": 458.3,
+    "type": "overview",
+    "summary": "amount of work to to understand this amount of work to to understand this problem. problem. problem. >> That same year, Davies published his >> That same year, Davies published his >> That same year, Davies published his paper, Charles Fefferman made a paper, Charles Fefferman made a paper, Charles Fefferman made a startling discovery that would transform startling discovery that would transform startling discovery that would transform the CAA conjecture from a curiosity to a the CAA conjecture from a curiosity to a the CAA conjecture from a curiosity to a mathematical juggernaut. mathematical…"
+  },
+  {
+    "id": "ku_video_5J3tYU_-IZI_458",
+    "t_start": 458.3,
+    "t_end": 551.1,
+    "type": "overview",
+    "summary": "investigate CATES, finding far-reaching investigate CATES, finding far-reaching connections to open problems in other connections to open problems in other connections to open problems in other fields. On top of the CAA conjecture, fields. On top of the CAA conjecture, fields. On top of the CAA conjecture, they built a hierarchy of conjectures they built a hierarchy of conjectures they built a hierarchy of conjectures about the higherdimensional behavior of about the higherdimensional behavior of about the higherdimensional behavior of the Fier transform and related ideas. On the Fier transfor…"
+  },
+  {
+    "id": "ku_video_5J3tYU_-IZI_551",
+    "t_start": 551.1,
+    "t_end": 641.7,
+    "type": "overview",
+    "summary": "The 3D CA conjecture says that every CAA The 3D CA conjecture says that every CAA set in 3D has Manowski and Howdorf set in 3D has Manowski and Howdorf set in 3D has Manowski and Howdorf dimension 3. dimension 3. dimension 3. To understand what that means, let's To understand what that means, let's To understand what that means, let's return to the 2D CAT. Recall that Davies return to the 2D CAT. Recall that Davies return to the 2D CAT. Recall that Davies thickened these lines into rectangles. thickened these lines into rectangles. thickened these lines into rectangles. Now, let's move into 3D…"
+  },
+  {
+    "id": "ku_video_5J3tYU_-IZI_641",
+    "t_start": 641.7,
+    "t_end": 732.5,
+    "type": "overview",
+    "summary": "conjecture was true for a subset of CAA conjecture was true for a subset of CAA sets that mathematicians call sticky. sets that mathematicians call sticky. sets that mathematicians call sticky. This means that if two tubes are This means that if two tubes are This means that if two tubes are pointing in the same direction, then pointing in the same direction, then pointing in the same direction, then they also have to be located close to they also have to be located close to they also have to be located close to each other in space. each other in space. each other in space. This property makes…"
+  },
+  {
+    "id": "ku_video_5J3tYU_-IZI_732",
+    "t_start": 732.5,
+    "t_end": 824.1,
+    "type": "overview",
+    "summary": "Then they expanded their proof with an Then they expanded their proof with an argument called induction on scales. argument called induction on scales. argument called induction on scales. >> There has been this dream to prove this >> There has been this dream to prove this >> There has been this dream to prove this CA conjecture by what's called induction CA conjecture by what's called induction CA conjecture by what's called induction on scales. It's a way to get from um A on scales. It's a way to get from um A on scales. It's a way to get from um A to B when A very far apart by just just to…"
+  },
+  {
+    "id": "ku_video_5J3tYU_-IZI_824",
+    "t_start": 824.1,
+    "t_end": 898.1,
+    "type": "overview",
+    "summary": "Wang and Z used this structure to tame Wang and Z used this structure to tame the chaos as they changed scale. And so the chaos as they changed scale. And so the chaos as they changed scale. And so you can slightly increase with each time you can slightly increase with each time you can slightly increase with each time you run this argument uh your best you run this argument uh your best you run this argument uh your best estimate on the dimension of kaya sets estimate on the dimension of kaya sets estimate on the dimension of kaya sets until eventually you get all the way up until eventually …"
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+  <rect width="720" height="300" fill="#fafbfc"/>
+  <text x="360" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1a1a">Hilbert hotel: countably infinite rooms</text>
+  <g font-family="system-ui" font-size="12">
+    <rect x="40" y="80" width="50" height="40" fill="#e8f1fa" stroke="#004586"/><text x="65" y="105" text-anchor="middle">1</text>
+    <rect x="100" y="80" width="50" height="40" fill="#e8f1fa" stroke="#004586"/><text x="125" y="105" text-anchor="middle">2</text>
+    <rect x="160" y="80" width="50" height="40" fill="#e8f1fa" stroke="#004586"/><text x="185" y="105" text-anchor="middle">3</text>
+    <rect x="220" y="80" width="50" height="40" fill="#e8f1fa" stroke="#004586"/><text x="245" y="105" text-anchor="middle">4</text>
+    <text x="300" y="105" fill="#333">… all full</text>
+  </g>
+  <path d="M360 100 L400 100" stroke="#c73e1d" stroke-width="2"/>
+  <polygon points="400,95 415,100 400,105" fill="#c73e1d"/>
+  <text x="500" y="90" text-anchor="middle" font-family="system-ui" font-size="12" fill="#c73e1d">Move guest n → room n+1</text>
+  <text x="500" y="115" text-anchor="middle" font-family="system-ui" font-size="12" fill="#c73e1d">Room 1 frees for a new guest</text>
+  <text x="360" y="180" text-anchor="middle" font-family="system-ui" font-size="13" fill="#333">∞ + 1 = ∞ for countable infinity — not a number game, a bijection game.</text>
+  <text x="360" y="220" text-anchor="middle" font-family="system-ui" font-size="13" fill="#444">Even numbers {2,4,6,…} pair with all ℕ: same cardinality as ℕ.</text>
+  <text x="360" y="260" text-anchor="middle" font-family="system-ui" font-size="12" fill="#666">Cantor: ℝ is a strictly larger infinity.</text>
+</svg>

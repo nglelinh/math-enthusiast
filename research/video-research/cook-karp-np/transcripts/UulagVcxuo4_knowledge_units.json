@@ -1,0 +1,233 @@
+[
+  {
+    "id": "ku_video_UulagVcxuo4_6",
+    "t_start": 6.9,
+    "t_end": 99.8,
+    "type": "overview",
+    "summary": "ladies and gentlemen please welcome professor I request one of my colleagues to present self with a book action and I'd like to thank the organizers for inviting me here and organizers for inviting me here and there's made my first trip so I want to talk about the P versus NP problem that's what I wonder the prize problem that's what I wonder the prize awards and first of all just mathematic awards and first of all just mathematic or if it's a mathematical question this or if it's a mathematical question this p1d I'll explain with that means the p1d I'll explain with that means the mathemat…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_103",
+    "t_start": 103.7,
+    "t_end": 193.8,
+    "type": "overview",
+    "summary": "so what about RP and then be so roughly four first rough explanation he sent for four first rough explanation he sent for polynomial time and we think of it is polynomial time and we think of it is the class of Easy computational problems the class of Easy computational problems that can be solved relatively easy on that can be solved relatively easy on puters and rather an MP stands for non puters and rather an MP stands for non deterministic calling a few times and he deterministic calling a few times and he does not stand for not he has some does not stand for not he has some there's a p…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_193",
+    "t_start": 193.8,
+    "t_end": 290.2,
+    "type": "overview",
+    "summary": "there are algorithms solving square roots very fast you know that from here every calculator has a button yes instantly get the square root if I instantly get the square root if I disperse an interesting example because disperse an interesting example because it's not a beating the obvious how to find the square root of a very large number let's take hundreds of digits one number let's take hundreds of digits one thing you can't do and even computers can't do is is to use brute force you successively square every number until successively square every number until you find will pass the squ…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_302",
+    "t_start": 302.1,
+    "t_end": 402.4,
+    "type": "overview",
+    "summary": "okay so that's all they say they're saying I can't hear don't put it up dude saying I can't hear don't put it up dude how's that is that a little better yeah how's that is that a little better yeah I just have to talk about it okay so I just have to talk about it okay so let's get another problem that is let's get another problem that is factory every every number of every product neatly in fact it's a part of the prime numbers and so the interesting the prime numbers and so the interesting computational problem is to find the prime factors we get a number and this is a problem that isn't s…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_402",
+    "t_start": 402.4,
+    "t_end": 494.8,
+    "type": "overview",
+    "summary": "of two primes and so it took the people that took hundreds to hundreds of that took hundreds to hundreds of machine selecta communication where we stand at least can give few years ago in least can give few years ago in factoring them so adds up that's a hard factoring them so adds up that's a hard you're currently it's a hard problem for you're currently it's a hard problem for piece of your heart problem or four piece of your heart problem or four canoes to do and sell speaking one of canoes to do and sell speaking one of the major successes in my field the major successes in my field com…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_494",
+    "t_start": 494.8,
+    "t_end": 585.5,
+    "type": "overview",
+    "summary": "people doing the encryption and the receivers had to agree on the secret key so how is public key encryption work an example is capable send your credit card example is capable send your credit card number securely over the Internet presumably my paypal even though the Internet itself is not secure people can Internet itself is not secure people can be strong but what to send so the way it works paypal sentence the hay house computer and it's a public duty I'm computer and it's a public duty I'm sorry use random bits to find multiple sorry use random bits to find multiple icky and come up w…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_585",
+    "t_start": 585.5,
+    "t_end": 681.0,
+    "type": "overview",
+    "summary": "uses private in to recover your credit card number but the assumption is even card number but the assumption is even those eavesdroppers that that know the public key is in even though the public views to encrypt it can't lose interest views to encrypt it can't lose interest and so it soon be computationally and so it soon be computationally infeasible for just knowing the key to infeasible for just knowing the key to becoming and so in the RSA scheme part becoming and so in the RSA scheme part of the private key and consists of of the private key and consists of generating Ryan large rando…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_681",
+    "t_start": 681.0,
+    "t_end": 773.0,
+    "type": "overview",
+    "summary": "that we talked about in the first to find my Elle column and jacket first to find my Elle column and jacket the 96 mathematical definition is the 96 mathematical definition is consistent problems that have an consistent problems that have an efficient algorithm efficiently that the running time of the algorithm is founded by a fixed power of the input length and by a fixed power of the input length and that's why we call it fixed Paulino thats why we call polynomial time and so and here is the number we need a number and here is the number we need a number of digits for example in the prime…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_772",
+    "t_start": 773.0,
+    "t_end": 869.1,
+    "type": "overview",
+    "summary": "number three principles of polynomial time algorithm to recognize prize but time algorithm to recognize prize but that's different of course the factoring that's different of course the factoring a number recognizing Pines is easier okay now so what about empty non-deterministic polynomial time so that consists of problems that can be efficiently verified and I think it's good to think of any problems or search problems where you have an exponentially problems where you have an exponentially large search space and your time to find problem in an example is a factor in factoring in the searc…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_869",
+    "t_start": 869.1,
+    "t_end": 961.3,
+    "type": "overview",
+    "summary": "guest if you can be required and it's all lines of scheduling problems that all lines of scheduling problems that are NP problems it's important d are NP problems it's important d problems where now we formulate the problems where now we formulate the problem 14 for scheduling trucks you problem 14 for scheduling trucks you would have a bunch of destinations that would have a bunch of destinations that you're trying to deliver goods to and you're trying to deliver goods to and the scheduling and then you say can you organize all the truck stick at all these cities with us they've been given…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_961",
+    "t_start": 961.3,
+    "t_end": 1061.0,
+    "type": "overview",
+    "summary": "solutions but what we'd love to do is prove it mathematically that there are problems cemented that are not me and that's the open million-dollar question that's the open million-dollar question that we claim at mathematics is to offer them can you prove it up in an or bail by the way in group e equals NP there by the way in group e equals NP there may be a million dollars too but we tend may be a million dollars too but we tend to think that's probably not but I just to think that's probably not but I just mention here that proving something isn't he we have an idea how to do you just give…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_1060",
+    "t_start": 1061.0,
+    "t_end": 1157.4,
+    "type": "overview",
+    "summary": "want to put them all in pairs and so is it if you know raptor either suggest a it if you know raptor either suggest a graph problem of nodes in the graph are graph problem of nodes in the graph are the people and the edges connect any two the people and the edges connect any two people that are available so you're just people that are available so you're just trying to find a collection of edges trying to find a collection of edges disjoint edges that kids every person disjoint edges that kids every person and to get a good force is not going to and to get a good force is not going to find …"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_1157",
+    "t_start": 1157.4,
+    "t_end": 1249.2,
+    "type": "overview",
+    "summary": "the problem is TVs could be if they had Oracle for me that it would be used to Oracle for me that it would be used to efficiently solve anything solvay about efficiently solve anything solvay about the time so another it to be at a procedure that's all be I am black box procedures and we don't know how it procedures and we don't know how it works right of any but somehow comes up works right of any but somehow comes up preferences if you can use that salt preferences if you can use that salt than to use P and and the point is if than to use P and and the point is if you hit any good procedu…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_1249",
+    "t_start": 1249.2,
+    "t_end": 1341.4,
+    "type": "overview",
+    "summary": "and so and then we'll call the theorem and easy back in the days and he could and easy back in the days and he could be an a's and feet that people's energy be an a's and feet that people's energy in other words if you want to show in other words if you want to show people's everything is sufficient to find any entity to be problem and give it a polynomial-time healthy and then be it a polynomial-time healthy and then be presented and their turn out to be thousands of any problems and that fat pack is very tempting for the public who pack is very tempting for the public who knows about this…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_1341",
+    "t_start": 1341.4,
+    "t_end": 1433.2,
+    "type": "overview",
+    "summary": "states this problem all the time lots of schedule and examinations where we have schedule and examinations where we have some limited number of time slots and i am sa just three times what is already three with just three times larger three with just three times larger problems difficult and so we have problems difficult and so we have constraints because k more than one exam constraints because k more than one exam obviously can't schedule both there several exams in the same time for different city so how to fight between different city so how to fight between two exams put an edge you pi…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_1433",
+    "t_start": 1433.2,
+    "t_end": 1523.8,
+    "type": "overview",
+    "summary": "three colors red blue green or whatever to each node in such a way that Jason to each node in such a way that Jason knows notes confinement do not the same knows notes confinement do not the same color is that possible Leslie that's the color is that possible Leslie that's the question so here's a simple example and question so here's a simple example and the Petersons graph and the question is the Petersons graph and the question is is there a way of assigned powers for those university ground in such a way that say red blue green that say red blue green those have colors and there is ther…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_1523",
+    "t_start": 1523.8,
+    "t_end": 1616.8,
+    "type": "overview",
+    "summary": "talk a little bit about approving a problem is NP thing so this the existent problem is NP thing so this the existent definition and existence then be three definition and existence then be three columns goes back to the 1971 and discovered by myself and then quite independently by name in lebanon soviet independently by name in lebanon soviet union and so is where didn't get shown to the west until three years later unfortunately because three years later unfortunately because of the pole but anyway us so these of the pole but anyway us so these method items that the standard NP method ite…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_1616",
+    "t_start": 1616.8,
+    "t_end": 1706.9,
+    "type": "overview",
+    "summary": "0 1 2 variables is true and so this is turns out to be a degree complete and an turns out to be a degree complete and an even the special case we've stuff and even the special case we've stuff and visa you're given the formula that looks visa you're given the formula that looks like this it's in conjunctive normal form that means it's a pan that was into each clause like this has the most-read each clause like this has the most-read littleton so X or not one or set is a cause what you can also too and the question again mrs. satisfiable and this question again mrs. satisfiable and this spec…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_1706",
+    "t_start": 1706.9,
+    "t_end": 1803.0,
+    "type": "overview",
+    "summary": "deadly of two that we just allow two variables and applause then the problem variables and applause then the problem the satisfiability problem is as an easy it's calling on the side by millennium take that as the exercise how you easily take that as the exercise how you easily whether conjunctive normal form for know whether conjunctive normal form for know like two little cause has a satisfying like two little cause has a satisfying sign so it turns out okay so every MP by sign so it turns out okay so every MP by definition of and be played every every problem in NP is ben youssef or 3 ce…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_1803",
+    "t_start": 1803.0,
+    "t_end": 1893.4,
+    "type": "overview",
+    "summary": "we get a melissa that kiss626 so on and then you want to know if that cause then you want to know if that cause backgrounds be powerful so what we can backgrounds be powerful so what we can do since that's hard if you directly do since that's hard if you directly we're going to redo we're going to redo 23 cm so we have to then turn this crap 23 cm so we have to then turn this crap into a corresponding to see in that into a corresponding to see in that corner that farmers can resets potable and so how do we do that what's the formula and look like well it's going to formula and look like wel…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_1893",
+    "t_start": 1893.4,
+    "t_end": 1983.6,
+    "type": "overview",
+    "summary": "constraints on the truth assignment put clauses are constraints and that will clauses are constraints and that will ensure that any truth assignment ensure that any truth assignment satisfying all the causes corresponds to satisfying all the causes corresponds to a legal alright the graph and so what are the causes well first of all we want to make causes well first of all we want to make sure that anything to decide assigns at sure that anything to decide assigns at least one color every node graph so here least one color every node graph so here the causes no we won we put our wonder the …"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_1983",
+    "t_start": 1983.6,
+    "t_end": 2071.6,
+    "type": "overview",
+    "summary": "says are not heartbeat or not our club so to satisfy this you can't design in so to satisfy this you can't design in both Note 3 and 5 red of course your kid because that we said it wouldn't be a legal color and similar you do that ruling and with me so if we're every edge we put in three claws and settlers edge we put in three claws and settlers and that's it we take all take these end and that's it we take all take these end and causes and then where he is within and causes and then where he is within these three clauses take their ad and that is the pc in a formula and it's easy to see t…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_2085",
+    "t_start": 2085.5,
+    "t_end": 2177.8,
+    "type": "overview",
+    "summary": "easy now because in general besides my bravery problem is np-complete and as I bravery problem is np-complete and as I claim that general NP problems are claim that general NP problems are easily reducible to satisfiability then easily reducible to satisfiability then it makes SAT solvers become very it makes SAT solvers become very important assets over is a program that important assets over is a program that solves the satisfiability problem and it solves the satisfiability problem and it turns out that this is there's a huge industry in making a vision sat solving problems even though o…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_2177",
+    "t_start": 2177.8,
+    "t_end": 2269.0,
+    "type": "overview",
+    "summary": "what's amazing is these numbers so this z chat processor was able to find about z chat processor was able to find about the setting but in case a CNF formula the setting but in case a CNF formula with 200,000 variables and 7,000 causes with 200,000 variables and 7,000 causes we obviously wasn't using the torch to the number of possible to design is to a thousand variables is exponential 2000 thousand variables is exponential 2000 think of unbeatable day but it was able think of unbeatable day but it was able to find a satisfying assignment and here to find a satisfying assignment and here a…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_2269",
+    "t_start": 2269.0,
+    "t_end": 2359.7,
+    "type": "overview",
+    "summary": "satisfiability problem the SAT solvers children they don't been here they can't children they don't been here they can't back that's not a way the factory least don't work now so as I say touch me there is tended leafy nautical entity there is tended leafy nautical entity but we also like to speculate what would but we also like to speculate what would happen in the world in which p equals a happen in the world in which p equals a and so let's think about that now we're and so let's think about that now we're not only going to be fair here not only not only going to be fair here not only to…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_2359",
+    "t_start": 2359.7,
+    "t_end": 2450.6,
+    "type": "overview",
+    "summary": "has all excited that's a truly efficient all the time now and so that would make power and practice the cryptographic protocols to be jokin there any problems protocols to be jokin there any problems dissonant you're like conventional photography although historians event well good news although historians event well good news all these problems now why it's because all these problems now why it's because if a mathematician can prove the theorem if a mathematician can prove the theorem then the therapist uma blade it can be providing it down in some usable number of symbols of the million s…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_2450",
+    "t_start": 2450.6,
+    "t_end": 2543.1,
+    "type": "overview",
+    "summary": "any problem let's say that the question is is their approval of a given length because their approval of a given length because if proof is there you could verify so if proof is there you could verify so that's an entry problem and if people's that's an entry problem and if people's empty then you can find the and so that empty then you can find the and so that so we approve presumably all the seven so we approve presumably all the seven of millennium prize problems and you can of millennium prize problems and you can make similar arguments for science and make similar arguments for science…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_2543",
+    "t_start": 2543.1,
+    "t_end": 2635.3,
+    "type": "overview",
+    "summary": "be beautiful and if it exists then you can find this anywhere all this is can find this anywhere all this is specular now ok I should also mention specular now ok I should also mention here something about quantum there is a here something about quantum there is a standard mathematical model of a standard mathematical model of a computer so called tradition that goes computer so called tradition that goes back to Alan Turing and in this famous 1936 paper and beautiful numbers for application with China's top so this is application with China's top so this is the accepted general model of a …"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_2635",
+    "t_start": 2635.3,
+    "t_end": 2728.1,
+    "type": "overview",
+    "summary": "search through all three hundred streams like so so there have to be open like so so there have to be open physical limits they said quantum mechanics if you use quantum mechanics of physicists have come up with an of physicists have come up with an illusion of quantum computer illusion of quantum computer particularly Richard Hyndman village particularly Richard Hyndman village take a joy to be the precise time at the wire and so then the model takes advantage of all these strands principles of quantum mechanics like entangled States and the faculty who entangled States and the faculty who…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_2728",
+    "t_start": 2728.1,
+    "t_end": 2821.0,
+    "type": "overview",
+    "summary": "time however the captions so far this is seven reading the quantum computers for seven reading the quantum computers for one more than he gets for that's an interesting question whether we go or not and also if quantum computers can be not and also if quantum computers can be built the experts say while they still built the experts say while they still probably hand salt in three problems and probably hand salt in three problems and note that factoring tom is not possible note that factoring tom is not possible to bleep the hard problem it's in NB is not about the MVP and in fact there's so…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_2820",
+    "t_start": 2821.0,
+    "t_end": 2913.0,
+    "type": "overview",
+    "summary": "less are trying to do that and so these people think answer is yes dai people like the brain is just a large complex computer apparently so should be just computer apparently so should be just question time to simulate frames oh oh question time to simulate frames oh oh this is not universally accepted god this is not universally accepted god this is an example of a long-term pretty and here's a very respected this is this Roger Penrose also skeptical that he think that I had a conversation and it really makes or something going on brian really makes or something going on brian is mainly ph…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_2913",
+    "t_start": 2913.0,
+    "t_end": 3007.2,
+    "type": "overview",
+    "summary": "when brains have evolved to solve problems apparently can stall so anyway problems apparently can stall so anyway closing slide lens for mel wrote a nice closing slide lens for mel wrote a nice article on team he pays the implications and says p versus NP problem discard from an versus NP problem discard from an interesting problem related to logic two interesting problem related to logic two types of us fundamental and important types of us fundamental and important mathematical question where time is mathematical question where time is important power grows more powerful important power g…"
+  },
+  {
+    "id": "ku_video_UulagVcxuo4_3007",
+    "t_start": 3007.2,
+    "t_end": 3094.7,
+    "type": "overview",
+    "summary": "factorize that NP problem into a pea pod and in SB part in there so you are and in SB part in there so you are frightened into your properties of course the tea party maybe TV just it's the recognized you have to verify if it's an empty and if you have a search box you can find anything Sara to be box you can find anything Sara to be part of it what's what I was wondering part of it what's what I was wondering was the poor gentle and two-dimensional was the poor gentle and two-dimensional nothing that rhythm that you think that reduce to the famous algorithm of kale and shapely for the case…"
+  }
+]

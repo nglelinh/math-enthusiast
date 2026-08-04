@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ku_video_R13BD8qKeTg_0",
+    "t_start": 0.0,
+    "t_end": 91.6,
+    "type": "overview",
+    "summary": "Picture this: You wake up one morning and you feel a little bit sick. No particular symptoms, just not 100%. So you go to the doctor and she also doesn't know what's going on with you, so she suggests they run a battery of tests and after a week goes by, the results come back, turns out you tested positive for a very rare disease that affects about 0.1% of the population and it's a nasty disease, horrible consequences, you don't want it. So you ask the doctor \"You know, how certain is it that I have this disease?\" and she says \"Well, the test will correctly identify 99% of people that have …"
+  },
+  {
+    "id": "ku_video_R13BD8qKeTg_91",
+    "t_start": 91.6,
+    "t_end": 182.8,
+    "type": "overview",
+    "summary": "probability that you would test positive if you had the disease - and then divide that by the total probability of the event occurring - that is testing positive. This term is a combination of your probability of having the disease and correctly testing positive plus your probability of not having the disease and being falsely identified. The prior probability that a hypothesis is true is often the hardest part of this equation to figure out and, sometimes, it's no better than a guess. But in this case, a reasonable starting point is the frequency of the disease in the population, so 0.1%. …"
+  },
+  {
+    "id": "ku_video_R13BD8qKeTg_182",
+    "t_start": 182.8,
+    "t_end": 273.3,
+    "type": "overview",
+    "summary": "submit it to the Royal Society of which he was a member, and in fact it was discovered in his papers after he died and he had abandoned it for more than a decade. His relatives asked his friend, Richard Price, to dig through his papers and see if there is anything worth publishing in there. And that's where Price discovered what we now know as the origins of Bayes' Theorem. Bayes originally considered a thought experiment where he was sitting with his back to a perfectly flat, perfectly square table and then he would ask an assistant to throw a ball onto the table. Now this ball could obvio…"
+  },
+  {
+    "id": "ku_video_R13BD8qKeTg_273",
+    "t_start": 273.3,
+    "t_end": 363.5,
+    "type": "overview",
+    "summary": "analogy to a man coming out of a cave, maybe he'd lived his whole life in there and he saw the Sun rise for the first time, and kind of thought to himself: \"Is, Is this a one-off, is this a quirk, or does the Sun always do this?\" And then, every day after that, as the Sun rose again, he could get a little bit more confident, that, well, that was the way the world works. So Bayes' Theorem wasn't just once, it was intended to be used multiple times, each time gaining new evidence and updating your probability that something is true. So if we go back to the first example when you tested positi…"
+  },
+  {
+    "id": "ku_video_R13BD8qKeTg_363",
+    "t_start": 363.5,
+    "t_end": 453.5,
+    "type": "overview",
+    "summary": "test. Bayes' Theorem has found a number of practical applications, including notably filtering your spam. You know, traditional spam filters actually do a kind of bad job, there's too many false positives, too much of your email ends up in spam, but using a Bayesian filter, you can look at the various words that appear in e-mails, and use Bayes' Theorem to give a probability that the email is spam, given that those words appear. Now Bayes' Theorem tells us how to update our beliefs in light of new evidence, but it can't tell us how to set our prior beliefs, and so it's possible for some peo…"
+  },
+  {
+    "id": "ku_video_R13BD8qKeTg_453",
+    "t_start": 453.5,
+    "t_end": 544.4,
+    "type": "overview",
+    "summary": "can get used to results, maybe getting rejected or failing at something or getting paid a low wage and we can internalize that as though we are that man emerging from the cave and we see the Sun rise every day and every day, and we keep updating our beliefs to a point of near certainty that we think nature is, it's the way the world is and there's nothing that we can do to change it. You know, there's Nelson Mandela's quote that: 'Everything is impossible until it's done', and I think that is kind of a very Bayesian viewpoint on the world, if you have no instances of something happening, th…"
+  },
+  {
+    "id": "ku_video_R13BD8qKeTg_544",
+    "t_start": 544.4,
+    "t_end": 636.9,
+    "type": "overview",
+    "summary": "been thinking about? If so, let me know in the comments. Hey, this episode of Veritasium was supported in part by viewers like you on Patreon and by Audible. Audible is a leading provider of spoken audio information including an unmatched selection of audiobooks: original, programming, news, comedy and more. So if you're thinking about trying something new and you haven't tried Audible yet, you should give them a shot, and for viewers of this channel, they offer a free 30-day trial just by going to: audible.com/Veritasium You know, the book I've been listening to on Audible recently is call…"
+  }
+]

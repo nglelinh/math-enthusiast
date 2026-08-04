@@ -1,0 +1,54 @@
+- Hi, I am Graham Steel, Head of Product
+for Cyber here at SandboxAQ,
+and today I am joined by Deirdre Connolly.
+Hi. You worked in cryptography for a number of years.
+Is it fair to say you are an influencer in cryptography?
+- One could use that term,
+- We may say that.
+Okay, awesome. Fantastic.
+Well thanks so much for joining me here today.
+So can you help us to understand
+where are we right now in the process
+of post quantum cryptography, PQC standardization
+in particular by the NIST organization?
+- Yes. US based National Institutes of Standard
+and Technology are trying to set up formal standards
+for new post quantum algorithms for key establishment.
+They have put out first
+and last drafts of the standards that they're looking
+to finalize for one key establishment mechanism called ML-KEM
+, formerly known as Kyber
+and three digital signature algorithms, ML-DSA,
+formerly known as Dilithium, Falcon,
+and I think the other one is Stateless
+Hash-based signatures.
+The first two things I mentioned are
+based on structured lattices.
+Third one I mentioned is also based on lattices,
+but a slightly different character.
+And the third one is based on Hashes.
+When these standards are finalized, we will have
+brand new standards that the US government allows
+for its systems
+and any contractor systems that needs to integrate with it
+or any application that needs to be FIP certified
+to do key establishment and new digital signatures.
+We only have the one KEM that's currently scheduled
+to be finalized this year.
+There are still some other KEMs that are being discussed,
+but that's gonna take a little bit longer.
+So we'll have ML-KEM ready to go this year so
+that you can start swapping out things
+that might've used things like Elliptic curve, Diffie-Hellman
+for something that might use this KEM based on lattices
+or some sort of hybrid.
+- Right, right, right. So that term KEM, just get
+that like totally down.
+Yeah. So it's KEM, correct. Key Encapsulation Mechanism.
+Yes. Awesome. So don't forget to, to subscribe
+to the SandboxAQ Channel,
+make sure you don't miss a video.
+We're gonna have some links under the video to some more
+of this information so you can, you can track
+how the standards are evolving.
+I'm just gonna say thank you Deirdre so much. Thank you, Graham.

@@ -1,0 +1,268 @@
+[
+  {
+    "id": "ku_video_b8e_HMEwKIY_4",
+    "t_start": 4.2,
+    "t_end": 98.4,
+    "type": "overview",
+    "summary": "I feel a little bit overwhelmed you know because to be here and ungrateful to celebrate and to owner aerobic Langlands and his work as aaron has mentioned my and his work as aaron has mentioned my work has been for many years on various subject of the language program that he launched created about 50 years ago so it's it's for all of us who work in this subject and it is it's a big family you subject and it is it's a big family you know we are a big family and and some of know we are a big family and and some of us work in geometry some of us work at us work in geometry some of us work at …"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_103",
+    "t_start": 103.5,
+    "t_end": 195.0,
+    "type": "overview",
+    "summary": "so here is a here's Robert at the Institute for Advanced Study at his Institute for Advanced Study at his office which is very nice office by the office which is very nice office by the way but I would like to to start with a way but I would like to to start with a quote from my compatriot a great Russian quote from my compatriot a great Russian mathematician who was also trailblazer in many ways the first mathematics woman mathematics professor the first woman to mathematics professor the first woman to be an editor of a major mathematics journal and so on and she wrote many people who had…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_194",
+    "t_start": 195.0,
+    "t_end": 291.2,
+    "type": "overview",
+    "summary": "there is poetry in it and you have seen the glimpses of that poetry this morning the glimpses of that poetry this morning when he gave his talk so I would like to when he gave his talk so I would like to emphasize one aspect of his work one of it was already covered by my Steam colleague and friend Jim Arthur earlier colleague and friend Jim Arthur earlier and that aspect is aspect of unification and that aspect is aspect of unification of finding deep connections between of finding deep connections between different areas of mathematics which not to be not that far apart and so that I like…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_291",
+    "t_start": 291.2,
+    "t_end": 381.6,
+    "type": "overview",
+    "summary": "where you do actually see continents so some of these are number theory has been some of these are number theory has been mentioned before study of numbers obviously but the question is what kind of numbers so there's a whole universe of numbers starting with the whole numbers but then also rational numbers numbers but then also rational numbers algebraic numbers p-adic numbers complex algebraic numbers p-adic numbers complex numbers etc finite fields harmonic touched in profound ways by the language program Jim Arthur talked about this in program Jim Arthur talked about this in detail the …"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_381",
+    "t_start": 381.6,
+    "t_end": 475.4,
+    "type": "overview",
+    "summary": "such as a torus which language himself talked about earlier today or this talked about earlier today or this strange figures all of them are called strange figures all of them are called Riemann surfaces after the great German Riemann surfaces after the great German mathematician Bernhard Riemann but these mathematician Bernhard Riemann but these are two-dimensional and of course there are three dimensions of four-dimensional and on and on so the language program as and on and on so the language program as has already been mentioned a number of has already been mentioned a number of times i…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_475",
+    "t_start": 475.4,
+    "t_end": 567.0,
+    "type": "overview",
+    "summary": "talking about and it's so refreshing to see someone who is modest and he's not thing in the world even if it is perhaps the greatest thing in the world but so the greatest thing in the world but so that that letter to entry way and that that letter to entry way and started this this launched this ideas and so I would like what I would like to do since Jim Arthur already gave a bro do since Jim Arthur already gave a bro outline of what the language program is outline of what the language program is about I would like to show you one about I would like to show you one example of what kind of …"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_567",
+    "t_start": 567.0,
+    "t_end": 659.1,
+    "type": "overview",
+    "summary": "modulo 7 so you have 0 1 2 3 4 5 6 and then you fall back onto 0 and so on so then you fall back onto 0 and so on so it's kind of a spy think of it as a it's kind of a spy think of it as a spiral projecting down onto a circle and spiral projecting down onto a circle and then if we have any expression involving then if we have any expression involving whole numbers we can always take the whole numbers we can always take the result modular this fixed number like 7 result modular this fixed number like 7 or any other number and that's what's or any other number and that's what's called arithme…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_659",
+    "t_start": 659.1,
+    "t_end": 750.9,
+    "type": "overview",
+    "summary": "we call it a cubic equation and so you see that the coefficients are whole see that the coefficients are whole numbers integers so we could look for numbers integers so we could look for solutions in terms of whole numbers in terms of integers but we could also look for solutions modulo P which means that we would just substitute for X and Y numbers between 0 and P minus 1 and see numbers between 0 and P minus 1 and see if the left hand side is equal to the if the left hand side is equal to the right hand side but not necessarily on the nose they are allowed to differ by a multiple of P so …"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_750",
+    "t_start": 750.9,
+    "t_end": 843.1,
+    "type": "overview",
+    "summary": "here's one example let's take P equal 5 then we got solutions and you can check then we got solutions and you can check that well if you put 0 0 we get 0 on likewise for X equal 1 y zero and those but but also we can take x equals zero and y equals four if we take y equals four the left hand side 20 take y equals four the left hand side 20 right 16 plus 4 and the right hand side is 0 so we get 20 and 0 which normally we wouldn't say that we would say that we wouldn't say that we would say that they're not equal to each other but divisible by 5 so that we count that as a solution and likewis…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_843",
+    "t_start": 843.1,
+    "t_end": 934.0,
+    "type": "overview",
+    "summary": "found oops wrong button for 4 prime number 5 we have four solutions but then number 5 we have four solutions but then I want to actually it's more convenient I want to actually it's more convenient to record not this number but number P minus this number so for instance in this case P is 5 and this is 4 and the this case P is 5 and this is 4 and the difference 1 and so the last colon difference 1 and so the last colon should be the difference of the first and a second I hope I didn't make any mistakes would you never do right so so mistakes would you never do right so so 13 minus 9 is 4 ok …"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_934",
+    "t_start": 934.0,
+    "t_end": 1024.3,
+    "type": "overview",
+    "summary": "number theory it is in her Monique analysis let me explain the equation analysis let me explain the equation that I'm talking about is this infinite that I'm talking about is this infinite expression so it's Q it bear with me it's Q then you have approach to the product of infinitely many factors and the factors are like this first of all there's Q it appears only once then you there's Q it appears only once then you have 1 minus Q 1 minus Q squared 1 minus have 1 minus Q 1 minus Q squared 1 minus Q to the third power to the fourth power and so on and all of them squared ok then so that's o…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_1024",
+    "t_start": 1024.3,
+    "t_end": 1115.8,
+    "type": "overview",
+    "summary": "if you denote the coefficient of this infinite series obtained in this very infinite series obtained in this very regular procedure very standardized coefficient for example in front of Q to the 5 you know the B of 5 etc so you get the 5 you know the B of 5 etc so you get another sequence of numbers labeled by another sequence of numbers labeled by Prime's note that here actually there are numbers labeled not just by Prime's but by all positive integers but we will but by all positive integers but we will only be interested for now in the only be interested for now in the coefficients in fr…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_1115",
+    "t_start": 1115.8,
+    "t_end": 1208.0,
+    "type": "overview",
+    "summary": "side you have a problem in number theory which has difficult it's a difficult which has difficult it's a difficult problem where we can where we need to problem where we can where we need to you know no a priori visible way of getting those infinitely many this infinite amount of information out on infinite amount of information out on the other side we have harmonic analysis the other side we have harmonic analysis in which this function lives so for now it's just a series it's an infinite series but in a series it's an infinite series but in fact there is more it is actually very fact the…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_1207",
+    "t_start": 1208.0,
+    "t_end": 1298.0,
+    "type": "overview",
+    "summary": "nature this infinite expression can be summed up oops wrong button you see so you can you can sum that some time up it converges so you get a function on the converges so you get a function on the unit disk and it's a very special unit disk and it's a very special function it's not just some random function it's not just some random function it has a function which is function it has a function which is called a modular form which means that it has very nice properties transformation properties under certain transformation properties under certain group of symmetries of the unit disk I'm th…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_1298",
+    "t_start": 1298.0,
+    "t_end": 1389.2,
+    "type": "overview",
+    "summary": "functions which we studied school signs and co-signs their periodic functions which period 2pi and general periodic functions can 2pi and general periodic functions can in some sense be written as combinations in some sense be written as combinations linear combinations of this function linear combinations of this function sine and cosine in this sense that the pieces out of which all other functions periodic functions are composed so in this case the role of the group that i talked about earlier is played by this talked about earlier is played by this circle group and more precisely by the…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_1389",
+    "t_start": 1389.2,
+    "t_end": 1476.6,
+    "type": "overview",
+    "summary": "so now the language program could be or part of a part of language percocet as part of a part of language percocet as we heard from Jim Arthur's lecture there we heard from Jim Arthur's lecture there are actually many different components are actually many different components but one component which I am emphasizing right now is this idea that difficult questions in number theory about things questions in number theory about things such as counting numbers of solutions of such as counting numbers of solutions of algebraic equations such as the cubic equation that I wrote down may be reform…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_1479",
+    "t_start": 1479.5,
+    "t_end": 1569.8,
+    "type": "overview",
+    "summary": "either in algebraic geometry in the study of motives which Jim Hartle talked about earlier or you can take a different point of view and talk about different point of view and talk about the representations of the Galois group counting problem is the Galois group of all of the morphisms of the algebraic closure of rational numbers but we can then generalize that as well by taking then generalize that as well by taking instead of the field of rational numbers instead of the field of rational numbers that is the field of fraction state it's finite extensions then it's algebra closer then it's…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_1569",
+    "t_start": 1569.8,
+    "t_end": 1662.9,
+    "type": "overview",
+    "summary": "equation you can actually associate to it a two-dimensional representation of it a two-dimensional representation of the color group on the first italic i'm not going to get too much into this details but the point is that the smooth details but the point is that the smooth uyama vague conjecture states that to uyama vague conjecture states that to each of those two dimensional representation of the Galois group you can associate a motor form and it's not can associate a motor form and it's not just okay you have a by direction just okay you have a by direction between the objects of one na…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_1662",
+    "t_start": 1662.9,
+    "t_end": 1753.7,
+    "type": "overview",
+    "summary": "ago so you see it's a big deal and but that is just a small small special case that is just a small small special case of the general language conjectures you of the general language conjectures you see where which cover not just elliptic see where which cover not just elliptic curves and not just the first kamalji representation of color groups that's the power and that is astounding really the power and that is astounding really astounding prediction so now I wanted to astounding prediction so now I wanted to it's a small digression and that kind of it's a small digression and that kind o…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_1753",
+    "t_start": 1753.7,
+    "t_end": 1847.1,
+    "type": "overview",
+    "summary": "for instance elliptic curves featured prominently in the news in the last few prominently in the news in the last few years in part because the appearance of this elliptic curves in widely used algorithms in particular some encryption algorithms in particular some encryption algorithms of course there is elliptic different this is an algorithm which is which generates pseudo-random numbers so which generates pseudo-random numbers so here is a United States government here is a United States government official publication now infamous official publication now infamous special publication 80…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_1847",
+    "t_start": 1847.1,
+    "t_end": 1938.5,
+    "type": "overview",
+    "summary": "some of those documents are going to publish reports confirm that indeed that publish reports confirm that indeed that was the case that there was a back door so that the NSA was able to see those random numbers that were being generated random numbers that were being generated and those numbers would in turn be fed actually give you kind of a master key it's much more than just breaking into it's much more than just breaking into your gmail account you see so that's the your gmail account you see so that's the power of mathematics that we have to power of mathematics that we have to know b…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_1938",
+    "t_start": 1938.5,
+    "t_end": 2028.8,
+    "type": "overview",
+    "summary": "question is to use them wisely so well even though it was never confirmed even though it was never confirmed officially that this algorithm was tainted or to put it more bluntly a black a backdoor was inserted by NSA black a backdoor was inserted by NSA nonetheless quietly in this dump this algorithm so kind of in the tacit admission admission so that was just a admission admission so that was just a digression I want to go back to mathematics and I want to talk about another aspect of the language program which to me personally was kind of the reason why I I was I went to work in the reaso…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_2028",
+    "t_start": 2028.8,
+    "t_end": 2119.3,
+    "type": "overview",
+    "summary": "in the proper formulation so that on a number theory side yeah well I switch now I realize that I switch them but let's say on the number theory side the let's say on the number theory side the therapeutic group is now good for non therapeutic group is now good for non specialist group is microbes a concept specialist group is microbes a concept mathematical object which which encapsulates symmetry properties so there is a certain group on a number there is a certain group on a number theory side and there is a group on the analysis and you would think that okay perhaps it's the same group …"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_2119",
+    "t_start": 2119.3,
+    "t_end": 2211.1,
+    "type": "overview",
+    "summary": "something is going on so you know i i've always in this moment i'm reminded of always in this moment i'm reminded of this quote by Arthur Eddington you know this quote by Arthur Eddington you know the famous astronomer who said referring the famous astronomer who said referring to some phenomena quantum physics but I to some phenomena quantum physics but I think it's applicable here something unknown is doing we don't know what you know something unknown is doing we don't know something unknown is doing we don't know what but the result is that on one side the language do a group pops up so…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_2211",
+    "t_start": 2211.1,
+    "t_end": 2302.3,
+    "type": "overview",
+    "summary": "argument to explain it you know there's something very deep and profound going something very deep and profound going on so Jim Arthur already put Lincoln diagrams this is one I think best kept secret might be is one I think best kept secret might be just to keep secrets very well from the just to keep secrets very well from the rest of the world we have so much beauty stashed you know in a in this in this back room and only people special tears back room and only people special tears are allowed and we don't really divulge so much you know so but this is one of them's a drinkin diagram so …"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_2302",
+    "t_start": 2302.3,
+    "t_end": 2395.9,
+    "type": "overview",
+    "summary": "this is I kind of like just want to show you this picture without any words you you this picture without any words you know so this has something to do with e8 know so this has something to do with e8 so that's the kind of structures we are so that's the kind of structures we are talking about and of course it's it's kind of you know in a sense I'm glad they're young people here you know well they're young people here you know well all of you are young of course there are specially young people here and I just hope I hope that you know I wish in a sense I came to my nice kind of later well …"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_2395",
+    "t_start": 2395.9,
+    "t_end": 2486.2,
+    "type": "overview",
+    "summary": "point at the end I call it the Homer Simpsons favorite Riemann surface you Simpsons favorite Riemann surface you know surface of a doughnut and not so many fans of commerce simcha okay and so this when you when you do that so and so this when you when you do that so the idea that the question is natural question to ask is whether when you do that you so you come up with this you that you so you come up with this you look at at a geometric object which is look at at a geometric object which is kind of a complex numbers analog of what kind of a complex numbers analog of what we talked about e…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_2486",
+    "t_start": 2486.2,
+    "t_end": 2576.4,
+    "type": "overview",
+    "summary": "lectures that have given and not to mention my book etc which has been mention my book etc which has been mentioned earlier ok so that opens up a mentioned earlier ok so that opens up a whole new venue a whole new subject of whole new venue a whole new subject of the language program for complex algebraic curves or for human services because of course you can do you can because of course you can do you can take this surface was one whole but then the service two whole successor arbitrary human services there are certain data associated to it in that two sides again and they match but in sur…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_2576",
+    "t_start": 2576.4,
+    "t_end": 2666.9,
+    "type": "overview",
+    "summary": "quantum groups and also quantum physics so it is in this sense that we can speak so it is in this sense that we can speak about it as a grand unified theory of about it as a grand unified theory of mathematics in the sense that there are mathematics in the sense that there are there he found this archetypal almost I there he found this archetypal almost I want to say archetypal patterns and want to say archetypal patterns and which show up in different guises in which show up in different guises in many different parts of mathematics so many different parts of mathematics so it's not like w…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_2666",
+    "t_start": 2666.9,
+    "t_end": 2757.1,
+    "type": "overview",
+    "summary": "very important because look at all the stuff that you know we're talking about stuff that you know we're talking about in a language program look at all these in a language program look at all these patterns that appear and which replicate patterns that appear and which replicate themselves perhaps with some twists and themselves perhaps with some twists and turns how is that not an indication of the unity of this of these hidden connections but why are they hidden connections but why are they hidden because we're not seeing them yet so because we're not seeing them yet so well let's let's …"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_2757",
+    "t_start": 2757.1,
+    "t_end": 2847.2,
+    "type": "overview",
+    "summary": "electrically charged particles such as protons and electrons but we have not yet observed any magnetically charged particles the post for negative magnetic particles the post for negative magnetic charges always come together in magnet right if you break it into two pieces each of them will become a little magnet each of them will become a little magnet too so they're very different and yet too so they're very different and yet the equations of describing these forces the equations of describing these forces turn out to have this hidden duality turn out to have this hidden duality hidden sy…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_2847",
+    "t_start": 2847.2,
+    "t_end": 2938.7,
+    "type": "overview",
+    "summary": "equivalent electric charge in one theory should be one over the electric charge in the other theory the inverse which means that this duality connects quantum means that this duality connects quantum field theories for very small value of field theories for very small value of parameter namely the electric charge and parameter namely the electric charge and for very large values of parameter and that is a huge deal for physicists because a priori physics quantum field because a priori physics quantum field theory is defined only for small values theory is defined only for small values of pa…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_2938",
+    "t_start": 2938.7,
+    "t_end": 3030.0,
+    "type": "overview",
+    "summary": "it from different ingredients just like like a meal you know so you have recipe secret actually so I should not divulge but now imagine that if you divulge but now imagine that if you switch different ingredients imagine that you will get the same soup or maybe get a different soup or maybe get a different soup but actually there's more because from E and one over e the electric charge in the in resected charge so if temperature so it would be like you take borscht in you switch you know potatoes borscht in you switch you know potatoes and onions or whatever and lo and behold and onions or …"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_3030",
+    "t_start": 3030.0,
+    "t_end": 3120.4,
+    "type": "overview",
+    "summary": "and naturally the question is why are they connected so a lot of work has been done in recent years you know so I'm reminding you of the of this picture of reminding you of the of this picture of the countenance a lot of work has been done in trying to understand trying to understand these connections what can be linked and so you see that's how fast that's how ask the project we are that's how ask the project we are talking about we start out a number talking about we start out a number theory and come across this miracle of theory and come across this miracle of questions and number theor…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_3120",
+    "t_start": 3120.4,
+    "t_end": 3212.7,
+    "type": "overview",
+    "summary": "because they saw that electric and magnetic charges in the dual theories magnetic charges in the dual theories have to be given by by the weight and Kuwait lattice lattices or lights of characters and Co characters for the for characters and Co characters for the for the corresponding group now if you take the dual theory the magnetic connector have to switch self to switch characters have to switch self to switch characters and Co characters and that means that we are replacing the group by a different group so they describe the group without group so they describe the group without knowin…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_3212",
+    "t_start": 3212.7,
+    "t_end": 3305.5,
+    "type": "overview",
+    "summary": "mysterious it is the source of all through art and science he to whom all through art and science he to whom the emotion is a stranger who can no the emotion is a stranger who can no longer pause to wonder and stand rapt in longer pause to wonder and stand rapt in awe he's as good as dead his eyes are awe he's as good as dead his eyes are closed so I feel it's very important to emphasize this and especially for young emphasize this and especially for young people because we get caught up so much people because we get caught up so much in this fracture fractured world and it in this fracture…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_3305",
+    "t_start": 3305.5,
+    "t_end": 3400.2,
+    "type": "overview",
+    "summary": "reason why we are gathered here and I think the best testimony to how special think the best testimony to how special this is is was for me his lecture this this is is was for me his lecture this morning robert's lecture this morning you know so here's a man who just won the most so here's a man who just won the most prestigious mathematical prize in the world and the prize right so and what what is he doing so he said last night what is he doing so he said last night he was not sleeping but thinking about he was not sleeping but thinking about his presentation his presentation of his his p…"
+  },
+  {
+    "id": "ku_video_b8e_HMEwKIY_3400",
+    "t_start": 3400.2,
+    "t_end": 3486.3,
+    "type": "overview",
+    "summary": "should never forget why we came to the subject in the first place because of this joy of discovery because of the sense of wonder and mystery you see and sense of wonder and mystery you see and that's why it's so beautiful for me what that's why it's so beautiful for me what we have experienced here today because we have experienced here today because you know we the matter you know there you know we the matter you know there has shown us how it's done she has shown has shown us how it's done she has shown us how it's done and that's why I think also in part that's why we have been gathered…"
+  }
+]

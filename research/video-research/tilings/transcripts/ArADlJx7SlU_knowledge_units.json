@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ku_video_ArADlJx7SlU_0",
+    "t_start": 0.2,
+    "t_end": 92.3,
+    "type": "overview",
+    "summary": "Big news in maths! There's a new tile in town; so we've come to the town of Newtyle to see what it's all about. So you know your regular floor tiles? How they you know they go over and over, they cover the entire plane with a pattern? This new tile goes infinitely but with no repeats. Happy new tile! Okay, so an aperiodic monotile - what's this all about? We need to break that word down. First of all we need to understand what tiling is or tessellation; so let's look at- I mean probably the most simple shape that tiles, triangle. When we tessellate triangles it tends to be a kind of one up,…"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_92",
+    "t_start": 92.3,
+    "t_end": 189.1,
+    "type": "overview",
+    "summary": "exactly the same as this section down here. Okay. So this is periodic because it has translational symmetry, it's got a regular repeating pattern over and over again; you can see how you would take even just a section of two of them, section of three of them, any arbitrary amount and you can find another patch that looks exactly the same and you can pick the entire tessellation up - so this is what we mean by global. The entire tessellation up, move it all over, and maybe up 1, up 2, and it will look exactly the same, fit in exactly where it was before. - (For different shapes presumably th…"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_189",
+    "t_start": 189.1,
+    "t_end": 284.6,
+    "type": "overview",
+    "summary": "is - was - the the lowest amount of tiles that we could have which made this aperiodicity happen. It forced aperiodicity to happen. So the Penrose tiling is either made of kites and darts or a kind of wide rhombus and a thinner rhombus. On their own they definitely tile periodically; but with the Penrose tiling it's a set of the two of them, so you need two tiles to make it happen, and there's these- they're called matching rules. So sometimes you can do it with little notches and it forces you to tile them in such a way that there will never be a translational symmetry. So you pick the who…"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_284",
+    "t_start": 284.6,
+    "t_end": 374.6,
+    "type": "overview",
+    "summary": "got it down to 2. Which he said, I believe in the podcast, that he was surprised how easy it was. To which I say, how come it took so long to find just the 1? The mono tile then? - (So after) (the Penrose tiling was there like a big race for a mono tile? Was this- was this the thing people) (were looking for? Or had people sort of left this area of research and thought 2 was as good as it gets?) I think people wanted to find it but the faith wasn't there. I certainly did not believe that it was possible. You know I'm a little bit younger, so I was not around in the the 60s and the 70s when …"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_374",
+    "t_start": 374.6,
+    "t_end": 465.8,
+    "type": "overview",
+    "summary": "t-shirt and it was just a case of ergonomics; um it's much easier to write the word hat over and over again and if you squint it does look like a hat. I don't think he he even saw that it was clearly t-shirt shaped beforehand, but there's plenty of artworks of it looking like a t-shirt. So this is the solution, this is what we've posed as the solution to the Einstein problem um which is a pun yep - um meaning one stone. We can now tile the entire plane, the infinite plane, without any translational symmetry and only this one stone. You won't be able to find another place that's exactly the …"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_466",
+    "t_start": 466.4,
+    "t_end": 556.5,
+    "type": "overview",
+    "summary": "- you're not ready for this - it's the golden ratio to the power of 4 to 1. (There's obviously a good reason for that hidden in the maths) - It's to do with eigenvectors yeah. So for every 1 flipped over tile you need roughly 6 forward tiles; but that roughly 6 is actually the golden ratio to the power of 4. It would have to be irrational for an aperiodic. Hello! Future Ayliean here but only one week in the future. So just after we finished filming this video, the same team discovered this: the ultimate monotile. It tiles aperiodically but with no cheeky reflections, it's a twist on the ori…"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_556",
+    "t_start": 556.5,
+    "t_end": 646.9,
+    "type": "overview",
+    "summary": "many other tiles that have this property. Let's look at one of them at least. Here's a puzzle from this very old book: a farmer had a square field but had to sell a quarter of it. This quarter is gone. When he died his four sons split up the remainder in four equal portions and each piece had exactly the same shape. How did they do it? Do you want to have a go? - (I'm wondering) (if it's going to involve triangles?) - A lot of people go for that first of all. - Yeah? But no? So if you do the triangles you can split it into four triangles which are all 1, 1, root two right angle triangles bu…"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_646",
+    "t_start": 646.9,
+    "t_end": 737.8,
+    "type": "overview",
+    "summary": "up, put another L shape on there. And I could keep that going for as long as I like. Oh do you know what these are called? Because they're a tile that replicates themselves they're called a rep-tile Okay so this has the the property that we're looking for; this creates an aperiodic tiling. (That feels like it's repeat-y but it's not) - Yeah, well you- it's got the same thing where you know you pick it up, you move it around, you can't um you can't translate it - no translational symmetry. A lot of them have this kind of locally repeating motifs; it feels repeat-y. You know, when you think a…"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_737",
+    "t_start": 737.8,
+    "t_end": 831.7,
+    "type": "overview",
+    "summary": "aperiodically tile as can many other shapes. I really hope that your animation person puts a pinwheel tailing in? They're very nice. And that's just a triangle and we've spoken about those. So these can tile periodically. I could if I want take some L shapes and I could take another L shape and kind of fit them together like this and I could keep that going, and this would make a periodic tile. So what's the new thing is that this can't. You can try as hard as you want but you will never be able to get this to periodically tile - and that's how it was discovered. So David Smith who is a geo…"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_831",
+    "t_start": 831.7,
+    "t_end": 924.8,
+    "type": "overview",
+    "summary": "to make it tile periodically and I can't. And so that was when they started looking at the computer proofs, kind of running through could a computer figure out how to make this tile periodically? Still no; and at that point we have to start looking at actual mathematical proofs of this being the solution to the Einstein problem. It is the one stone which will not tile periodically. There is a new tile that has been invented and we're handing them out obviously because we're in Newtyle. Are you a fan of maths at all? - (Can you fit them together?) Oh nice! - (Well done. So the thing that's s…"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_924",
+    "t_start": 924.8,
+    "t_end": 1015.7,
+    "type": "overview",
+    "summary": "could also go the other direction, can start with an L shape and ask myself where does this sit as part of a larger L-shaped tiling? So that's taking the the L-shaped triomino and then building out the way. So what we've done for - and I say we, I was not part of this team at all - but what humans as- well I mean it's a new a new stride in human knowledge. So what humans have done is take the the hat tile and then build it into meta tiles which look like this. The first meta tile is just that the hat on its own but it has a kind of triangle that goes around it. Then two of the tiles togethe…"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_1015",
+    "t_start": 1015.7,
+    "t_end": 1106.3,
+    "type": "overview",
+    "summary": "that it's it's irregular so three shorter, three longer. And for the substitution rules for this one our hexagon would then be replaced with a combination of three more hexagons, a few of the pentagons, and just one of the triangles and it'll look like this. Drawing skills engage. So we're saying anytime you see this hexagon shape, replace that with this kind of combination of: three more hexagons, a few pentagons, few parallelograms and then the triangle which remember represents just one hat. Then fill it all in with hats. So finding a substitution tiling that makes aperiodicity; you know…"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_1106",
+    "t_start": 1106.3,
+    "t_end": 1200.2,
+    "type": "overview",
+    "summary": "what would be the metatile version of this where they're broken down again, I can have 1, 2, 3, 4 but these are all in cluster 1. So I can say okay this is tile 1,2 for example. I could give it a kind of set of coordinates that means I can always find exactly where it is. And that forces aperiodicity because it means each tile- it only has one place that it fits in. It's it's unique, it's supposed to be there, I can locate it and I can say this is the tile, it exists exactly here and even though I'm looking at an infinite plane of tilings I know where I am because I know which cluster, whic…"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_1200",
+    "t_start": 1200.2,
+    "t_end": 1296.5,
+    "type": "overview",
+    "summary": "You see it as a turtle? Yeah so here's the turtle. When they were first discovered this one is made out of eight kites joins together; this one is made of ten kites joined together. So they were treated as separate entities but they are in fact one and the same as part of a continuum. If you look at the angles, you know we've got right angle down here, a reflex three-quarter angle or inverted right angle over here. The angles are the same as we work the way around, the lengths are different. So if you consider the lengths on the classic hat - it's a classic now - they're all either 1 or roo…"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_1296",
+    "t_start": 1296.5,
+    "t_end": 1388.7,
+    "type": "overview",
+    "summary": "they're both triangular, the the ratios don't match up, so the lengths don't match. And it means you can't you can't rectify them, you can't put them together, they could never- you could never put the chevron onto the comet grid, you couldn't put the comet on the chevron grid with the same area and have them line up with the the lattice points which is the nice bits on the grid. What that means is that all of the shapes in between - like I said aperiodicity is a boundary case - all of the shapes in between the periodic points they fall into this no man's land of aperiodicity. (So does that…"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_1388",
+    "t_start": 1388.7,
+    "t_end": 1482.9,
+    "type": "overview",
+    "summary": "(So it was sitting in front of our faces) - Yeah it's like right there. Yeah yeah I really kicked myself. (It was waiting to be found, in plain sight) - Yep but don't worry we've got it now. You can see that's the- oh it's this way round one. - (So I always thought the reason that it would have) (this aperiodic tiling was because things were constantly rotating at like irrational angles) (or something, never to repeat. But it's actually quite an orderly pattern.) - Yeah you know there's a weird thing, it is a very orderly pattern. I think that there's only six orientations that it would be …"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_1482",
+    "t_start": 1482.9,
+    "t_end": 1574.8,
+    "type": "overview",
+    "summary": "luckily they're nice, they do look really good, I enjoy the Truchet tile version of the hat. - Who's invented this then? - So David Smith discovered it and then three other mathematicians: Joseph Myers, Chaim Goodman-Strauss and Craig Kaplan proved that there's definitely not going to be any repeats, yeah. Do you know what it would be called to find an aperiodic monotile which needs no reflection? - (I don't know) (but I can tell from your face it's going to be a pun) - It's a vampire tile - because it has no reflection? Check links in all the usual places for some extra footage and proofs …"
+  },
+  {
+    "id": "ku_video_ArADlJx7SlU_1574",
+    "t_start": 1574.8,
+    "t_end": 1610.3,
+    "type": "overview",
+    "summary": "and they think the sort of people who like Numberphile videos might also be the sort of people who want a career in their offices around the world. janestreet.com is the place to check them out. That is the sneaky matching rules that Penrose tiles use, just hidden as an underlying grid. - It was exciting to be a part of it and I am just so grateful that that it's causing excitement out in the world. If it causes anybody to be you know one little bit more interested in mathematics, you know then that's fantastic."
+  }
+]

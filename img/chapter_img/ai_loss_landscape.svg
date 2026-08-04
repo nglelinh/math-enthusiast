@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="280" viewBox="0 0 720 280">
+  <rect width="720" height="280" fill="#fafbfc"/>
+  <text x="360" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1a1a">Loss as a function of parameters (cartoon)</text>
+  <path d="M60,200 C120,200 140,80 200,120 S280,220 340,160 S420,60 480,100 S560,200 660,140" fill="none" stroke="#004586" stroke-width="2.5"/>
+  <circle cx="200" cy="120" r="6" fill="#0a6b4a"/>
+  <circle cx="480" cy="100" r="6" fill="#c73e1d"/>
+  <text x="200" y="100" text-anchor="middle" font-family="system-ui" font-size="11" fill="#0a6b4a">local min</text>
+  <text x="480" y="80" text-anchor="middle" font-family="system-ui" font-size="11" fill="#c73e1d">better basin?</text>
+  <text x="360" y="250" text-anchor="middle" font-family="system-ui" font-size="12" fill="#444">Training ≈ optimization on a high-dimensional nonconvex landscape. Theory asks when SGD finds good solutions and why overparameterized nets generalize.</text>
+</svg>

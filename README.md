@@ -1,6 +1,25 @@
+# Math Enthusiast
+
+**Explore the ideas, problems, and discoveries that make modern mathematics fascinating.**
+
+Bilingual (English / Vietnamese) course site built with Jekyll and GitHub Pages. Organized around questions and discoveries rather than a traditional technical syllabus:
+
+1. Great Problems in Mathematics  
+2. Fields Medal & Modern Mathematics  
+3. Mathematics That Changed the World  
+4. Beautiful Mathematics  
+5. Mathematics Through Famous Proofs  
+6. Mathematics of the Future  
+7. Mathematical Explorations  
+8. Abel Prize & Lifetime Mathematics  
+9. Turing Award & Computational Mathematics  
+
+
+---
+
 # Jekyll Course Template - Multilingual Support
 
-Template để tạo trang web khóa học với hỗ trợ đa ngôn ngữ (Tiếng Anh và Tiếng Việt), được xây dựng trên Jekyll và GitHub Pages.
+Template (and this course) support English and Vietnamese, built on Jekyll and GitHub Pages.
 
 ## 🎯 Tính năng chính
 
@@ -114,15 +133,12 @@ Sử dụng LaTeX cho công thức: $$f(x) = x^2$$
 │   ├── multilang_post_url.rb
 │   ├── redirect_generator.rb
 │   └── search_generator.rb
-├── contents/                # Nội dung khóa học
-│   ├── en/                  # Nội dung tiếng Anh
-│   │   ├── chapter00/
-│   │   ├── chapter01/
-│   │   └── ...
-│   └── vi/                  # Nội dung tiếng Việt
-│       ├── chapter00/
-│       ├── chapter01/
-│       └── ...
+├── contents/                # Course content (7 sections)
+│   ├── en/                  # English
+│   │   ├── chapter01/       # Great Problems
+│   │   ├── chapter02/       # Fields Medal & Modern Math
+│   │   ├── …                # chapters 03–07
+│   └── vi/                  # Vietnamese (mirror structure)
 ├── home/                    # Trang chủ
 │   └── _posts/
 ├── img/                     # Hình ảnh
@@ -147,8 +163,8 @@ bundle install
 # Chạy Jekyll local server
 bundle exec jekyll serve
 
-# Truy cập tại
-http://127.0.0.1:4000/your-baseurl/
+# Local site
+http://127.0.0.1:4000/math-enthusiast/
 ```
 
 ### Thêm chương mới

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="240" viewBox="0 0 560 240">
+  <rect width="560" height="240" fill="#fafbfc"/>
+  <text x="20" y="28" font-family="Georgia, serif" font-size="15" fill="#222">Singularity and surgery (cartoon)</text>
+  <!-- dumbbell -->
+  <circle cx="100" cy="120" r="45" fill="#e8f1fb" stroke="#004586" stroke-width="2"/>
+  <circle cx="240" cy="120" r="45" fill="#e8f1fb" stroke="#004586" stroke-width="2"/>
+  <path d="M140 105 C170 105, 170 135, 200 135 L200 105 C170 105, 170 135, 140 135 Z" fill="#fde8e8" stroke="#a11" stroke-width="2"/>
+  <text x="170" y="100" text-anchor="middle" font-size="11" fill="#a11">neck pinch</text>
+  <text x="170" y="200" text-anchor="middle" font-size="12" fill="#444">curvature blows up</text>
+  <path d="M300 120 L340 120" stroke="#666" stroke-width="2"/>
+  <text x="320" y="105" text-anchor="middle" font-size="12" fill="#004586">surgery</text>
+  <!-- two capped components -->
+  <circle cx="400" cy="120" r="40" fill="#e6f6ea" stroke="#1e7e34" stroke-width="2"/>
+  <path d="M430 100 Q455 120 430 140" fill="none" stroke="#1e7e34" stroke-width="2"/>
+  <circle cx="510" cy="120" r="40" fill="#e6f6ea" stroke="#1e7e34" stroke-width="2"/>
+  <path d="M480 100 Q455 120 480 140" fill="none" stroke="#1e7e34" stroke-width="2"/>
+  <text x="455" y="200" text-anchor="middle" font-size="12" fill="#444">cut neck, cap off, continue flow</text>
+</svg>

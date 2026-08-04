@@ -1,0 +1,37 @@
+{
+  "slug": "emergence",
+  "videos": [
+    {
+      "id": "R9Plq-D1gEk",
+      "title": "Numberphile — Inventing Game of Life (Conway)",
+      "has_transcript": true,
+      "chars": 9014,
+      "units": 8,
+      "url": "https://www.youtube.com/watch?v=R9Plq-D1gEk"
+    },
+    {
+      "id": "ouipbDkwHWA",
+      "title": "Introduction to Conway's Game of Life (Steinhart) / complex systems explainers",
+      "has_transcript": true,
+      "chars": 5708,
+      "units": 4,
+      "url": "https://www.youtube.com/watch?v=ouipbDkwHWA"
+    },
+    {
+      "id": "1CCZkHPrhzk",
+      "title": "Pretty Much Physics — Ising model overview",
+      "has_transcript": true,
+      "chars": 2739,
+      "units": 3,
+      "url": "https://www.youtube.com/watch?v=1CCZkHPrhzk"
+    },
+    {
+      "id": "QbUPfMXXQIY",
+      "title": "How do Boids Work? A Flocking Simulation",
+      "has_transcript": true,
+      "chars": 5125,
+      "units": 3,
+      "url": "https://www.youtube.com/watch?v=QbUPfMXXQIY"
+    }
+  ]
+}

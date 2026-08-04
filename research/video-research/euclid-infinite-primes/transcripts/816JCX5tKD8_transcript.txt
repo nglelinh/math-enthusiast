@@ -1,0 +1,120 @@
+okay let's do another classic proof for fun\h
+and once again we'll talk about how to prove a\h\h
+statement by using contradiction and the statement\h
+is that we will show there are infinitely many\h\h
+primes and by the way this right here was done\h
+long time ago right by uket and it's just a\h\h
+classic proof that all the math major students\h
+they have to see it first and you just picked\h\h
+up some techniques from this proof and maybe\h
+later on when you trying to do sound statements\h\h
+you can use a similar technique or similar idea\h
+anyway I will have to ask you guys first what\h\h
+does infinite mean infinite means not finite right\h
+so as you can see this statement here it does have\h\h
+the word not just that in the previous video\h
+I showed you guys how to prove a human being\h\h
+cannot fly so it's a good idea to try to start\h
+off with a contradiction right so suppose for\h\h
+the osod and we'll see what will happen so let's\h
+get going suppose for contradiction meaning that\h\h
+I would just say the opposite of this suppose we\h
+only had finitely many prime numbers right so if\h\h
+this is the starting and now let's see what we can\h
+get from there well since there are only finally\h\h
+many let's just write them down we'll just call\h
+them to be P1 P2 P3 P4 and so on up to PN and N\h\h
+is just a POS the whole number I don't know what\h
+n is it can be 1,000 it can be 5,000 I don't know\h\h
+but usually they just C it to be end right anyway\h
+the important thing is that this are all the prime\h\h
+numbers that we have based on this assumption\h
+and the hard part is based on this assumption\h\h
+all that we want to come with something just\h
+like if you want to prove a human being cannot\h\h
+fly suppose the person can actually fly and you\h
+have to think about what the ways to convince\h\h
+him he cannot fly right you have to think about a\h
+way to mess it up ask him or her to jump off the\h\h
+building right that's why I told you guys in the\h
+previous video but anyway this is the statement\h\h
+this is the approach that youle did long time\h
+ago so here is the most important punch line\h\h
+we are going to consider Q which is this number\h
+P1 * P2 * P3 * P4 and so on so on so on up to PN\h\h
+it's the product of all the prime numbers that we\h
+had right here okay we just multiply all of the\h\h
+primes right here at the end we add a one to it\h
+this number is the punch line all right and you\h\h
+see that first of all Q cannot be prime anymore\h
+because Q is not the same as any of this and the\h\h
+way I wrote it down is Q doesn't belong to the set\h
+of all the prime numbers that we listed earlier\h\h
+right Q is Q is not element Q doesn't belong to\h
+the set of P1 P2 P3 P4 up to PN so just another\h\h
+way to say Q is not the same as one any of this\h
+so since Q cannot be a prime anymore but we can\h\h
+say that Q will have a prime factor because it's\h
+either you prime or you're not prime if you are\h\h
+not a prime number then you will have a prime\h
+factor you can Factor it out right well we're\h\h
+just going to call the prime number to be p k okay\h
+p subk okay and because this right here is just a\h\h
+prime factor prime factor so PK has to be one of\h
+the prime numbers that we listed right here and\h\h
+once again this is notation PK is an element of\h
+the set of all the prime numbers that we listed\h\h
+earlier right so PK is just as important as q\h
+and now next board as we can see since PK is a\h\h
+factor of Q because we said so earlier and of\h
+course PK is a factor of P1 P2 P3 and this are\h\h
+just multiplication up to PN PK is somewhere here\h
+right PK is one of this prime numbers and when you\h\h
+multiply all of them together PK is of course a\h
+factor of the product of all these numbers right\h\h
+all these prime numbers so since PK is a fact\h
+of Q and like as P1 * P2 * da da da up to PN\h\h
+PK is also a factor of Q minus P1 P2 just up to\h
+you multiply up to PQ PN I mean let me try again\h\h
+PK is a factor of Q minus P1 * P2 * P3 * d da da\h
+* PN how do we know well you know P subk divides\h\h
+this likewise P subk divides that you can Factor\h
+the PK so of course if device all that and don't\h\h
+let me please don't ask me to write L for this\h
+it should be really clear right anyway now let's\h\h
+look at this number we know Q minus P1 P2 da PN\h
+this right here is actually one how do we know\h\h
+because we can just look at the definition of q\h
+and subtract this part on both sides right so Q\h\h
+minus p P 1 P2 P3 da da da PN is equal to one and\h
+that's why I have right here is equal to one here\h\h
+is the contradiction let's look at this number on\h
+the left hand side and as we talked about earlier\h\h
+PK is a factor of this so if you look at this and\h
+divide it by PK and because this is equal to one\h\h
+so I should be able to divide the right hand side\h
+by PK as well PK is a factor of this number right\h\h
+so you know after you divide the PK out this right\h
+here it has to be an integer right and that's how\h\h
+you can just denote it this result has to be an\h
+integer well 1 / PK this right here this cannot\h\h
+be an integer how come one is just one PK is a\h
+prime number because b/ because since PK is a\h\h
+prime number and what's the smallest prime number\h
+that we have two isn't it PK has to be greater\h\h
+than or equal to two and when you have one divided\h
+by something that's not one or negative one this\h\h
+has to be a fraction meaning this this right here\h
+cannot be in Z and you see the left hand side we\h\h
+said it to be it's an integer but the right hand\h
+side it's not an integer once again because PK\h\h
+has to be bigger than equal to two so this is the\h
+contradiction and how come we have this messed up\h\h
+part how come with this contradiction well because\h
+our original assumption that we said there were\h\h
+only finally many prime numbers that was bad just\h
+like if you say to a person that you can actually\h\h
+fly that's bad right so truth is in this case all\h
+right we must have infinitely many prime numbers\h\h
+and we are done draw Square do this that's it\h
+hopefully you guys like this video as [Music] well

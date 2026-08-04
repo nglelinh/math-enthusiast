@@ -1,0 +1,1417 @@
+[
+  {
+    "t_start": 15.27,
+    "t_end": 17.43,
+    "text": "hello and welcome to the 2021 fields metal symposium in honor of peter"
+  },
+  {
+    "t_start": 17.43,
+    "t_end": 20.07,
+    "text": "metal symposium in honor of peter schultza i'm jared weinstein professor"
+  },
+  {
+    "t_start": 20.07,
+    "t_end": 22.55,
+    "text": "schultza i'm jared weinstein professor of mathematics at boston university and"
+  },
+  {
+    "t_start": 22.55,
+    "t_end": 26.31,
+    "text": "of mathematics at boston university and it is my great pleasure and honor to be"
+  },
+  {
+    "t_start": 26.31,
+    "t_end": 32.79,
+    "text": "giving this introduction to schultz's work so who is peter schultza and what"
+  },
+  {
+    "t_start": 32.79,
+    "t_end": 38.069,
+    "text": "are his contributions to mathematics schulza was born in dresden in 1987 and"
+  },
+  {
+    "t_start": 38.069,
+    "t_end": 43.27,
+    "text": "early on he displayed an extraordinary talent in mathematics by winning three"
+  },
+  {
+    "t_start": 43.27,
+    "t_end": 48.389,
+    "text": "talent in mathematics by winning three gold medals and one silver medal at the"
+  },
+  {
+    "t_start": 48.389,
+    "t_end": 53.75,
+    "text": "contest for high school students featuring fiendishly difficult problems"
+  },
+  {
+    "t_start": 53.75,
+    "t_end": 58.869,
+    "text": "featuring fiendishly difficult problems schulza attended the university of bonn"
+  },
+  {
+    "t_start": 58.869,
+    "t_end": 63.67,
+    "text": "and completed his bachelor's master's and doctoral degrees in the space of"
+  },
+  {
+    "t_start": 63.67,
+    "t_end": 66.07,
+    "text": "five years his doctoral advisor was michael rappaport whose advisor in turn"
+  },
+  {
+    "t_start": 66.07,
+    "t_end": 69.35,
+    "text": "michael rappaport whose advisor in turn was pierre delena winner of the 1978"
+  },
+  {
+    "t_start": 69.35,
+    "t_end": 71.67,
+    "text": "was pierre delena winner of the 1978 fields medal"
+  },
+  {
+    "t_start": 71.67,
+    "t_end": 78.149,
+    "text": "dissertation at bonn settled a problem posed by delenia decades earlier"
+  },
+  {
+    "t_start": 78.149,
+    "t_end": 80.31,
+    "text": "posed by delenia decades earlier this dissertation which carried the"
+  },
+  {
+    "t_start": 80.31,
+    "t_end": 83.99,
+    "text": "this dissertation which carried the title perfectoid spaces was an instant"
+  },
+  {
+    "t_start": 83.99,
+    "t_end": 85.51,
+    "text": "title perfectoid spaces was an instant sensation"
+  },
+  {
+    "t_start": 85.51,
+    "t_end": 90.39,
+    "text": "now we'll get to what perfectoid spaces actually are in a moment but suffice it"
+  },
+  {
+    "t_start": 90.39,
+    "t_end": 93.109,
+    "text": "actually are in a moment but suffice it to say the appearance of the idea was a"
+  },
+  {
+    "t_start": 93.109,
+    "t_end": 96.069,
+    "text": "to say the appearance of the idea was a tectonic shift for the field"
+  },
+  {
+    "t_start": 96.069,
+    "t_end": 98.069,
+    "text": "tectonic shift for the field in universities and institutions"
+  },
+  {
+    "t_start": 98.069,
+    "t_end": 105.749,
+    "text": "students gathered in seminars for a few hours a week just to discuss the ideas"
+  },
+  {
+    "t_start": 105.749,
+    "t_end": 108.71,
+    "text": "hours a week just to discuss the ideas of this 22 year old from bonn"
+  },
+  {
+    "t_start": 108.71,
+    "t_end": 111.109,
+    "text": "of this 22 year old from bonn there were international conferences"
+  },
+  {
+    "t_start": 111.109,
+    "t_end": 113.27,
+    "text": "there were international conferences special semesters graduate student"
+  },
+  {
+    "t_start": 113.27,
+    "t_end": 118.469,
+    "text": "workshops and all manner of publications devoted to the topic of perfectoid"
+  },
+  {
+    "t_start": 118.469,
+    "t_end": 119.91,
+    "text": "devoted to the topic of perfectoid spaces"
+  },
+  {
+    "t_start": 119.91,
+    "t_end": 124.789,
+    "text": "anyone researching in the field of arithmetic geometry quickly realized"
+  },
+  {
+    "t_start": 124.789,
+    "t_end": 126.389,
+    "text": "arithmetic geometry quickly realized that schultz's dissertation on"
+  },
+  {
+    "t_start": 126.389,
+    "t_end": 128.469,
+    "text": "that schultz's dissertation on perfectoid spaces was"
+  },
+  {
+    "t_start": 128.469,
+    "t_end": 131.589,
+    "text": "perfectoid spaces was required reading"
+  },
+  {
+    "t_start": 131.589,
+    "t_end": 135.99,
+    "text": "in 2011 schulza himself came to the institute for advanced study in"
+  },
+  {
+    "t_start": 135.99,
+    "t_end": 138.229,
+    "text": "institute for advanced study in princeton new jersey to give lectures"
+  },
+  {
+    "t_start": 138.229,
+    "t_end": 139.83,
+    "text": "princeton new jersey to give lectures and meet the researchers who were"
+  },
+  {
+    "t_start": 139.83,
+    "t_end": 141.19,
+    "text": "and meet the researchers who were working there"
+  },
+  {
+    "t_start": 141.19,
+    "t_end": 145.99,
+    "text": "i was fortunate enough to be one of those researchers and schultz's visit"
+  },
+  {
+    "t_start": 145.99,
+    "t_end": 148.79,
+    "text": "those researchers and schultz's visit led to a collaboration which frankly"
+  },
+  {
+    "t_start": 148.79,
+    "t_end": 151.589,
+    "text": "led to a collaboration which frankly changed the course of my career"
+  },
+  {
+    "t_start": 151.589,
+    "t_end": 153.91,
+    "text": "changed the course of my career in the decade that followed schulza"
+  },
+  {
+    "t_start": 153.91,
+    "t_end": 156.07,
+    "text": "in the decade that followed schulza would go on to collaborate with many"
+  },
+  {
+    "t_start": 156.07,
+    "t_end": 158.39,
+    "text": "would go on to collaborate with many mathematicians and produce articles and"
+  },
+  {
+    "t_start": 158.39,
+    "t_end": 163.589,
+    "text": "mathematicians and produce articles and books totaling thousands of pages"
+  },
+  {
+    "t_start": 163.589,
+    "t_end": 165.83,
+    "text": "he would also go on to win many awards including the cole prize the fermat"
+  },
+  {
+    "t_start": 165.83,
+    "t_end": 170.63,
+    "text": "including the cole prize the fermat prize and the leibniz prize"
+  },
+  {
+    "t_start": 170.63,
+    "t_end": 172.79,
+    "text": "as you know by now schultz's fields medal was awarded in"
+  },
+  {
+    "t_start": 172.79,
+    "t_end": 179.19,
+    "text": "2018 but already in 2014 there were whispers that a medal was coming his way"
+  },
+  {
+    "t_start": 179.19,
+    "t_end": 183.03,
+    "text": "whispers that a medal was coming his way since he was so young it was just a"
+  },
+  {
+    "t_start": 183.03,
+    "t_end": 186.71,
+    "text": "question of which year it was going to be so what exactly did schultza"
+  },
+  {
+    "t_start": 186.71,
+    "t_end": 190.79,
+    "text": "be so what exactly did schultza accomplish and why did it electrify so"
+  },
+  {
+    "t_start": 190.79,
+    "t_end": 196.55,
+    "text": "to answer this i must explain what it is that research mathematicians do"
+  },
+  {
+    "t_start": 196.55,
+    "t_end": 201.43,
+    "text": "many people are surprised to learn that mathematical research is a thing"
+  },
+  {
+    "t_start": 201.43,
+    "t_end": 206.47,
+    "text": "because the math they learned in school was presented as static or already"
+  },
+  {
+    "t_start": 206.47,
+    "t_end": 207.589,
+    "text": "was presented as static or already solved"
+  },
+  {
+    "t_start": 207.589,
+    "t_end": 211.19,
+    "text": "but it's quite the opposite mathematicians will never run out of"
+  },
+  {
+    "t_start": 211.19,
+    "t_end": 216.149,
+    "text": "mathematicians will never run out of things to do because there are plenty of"
+  },
+  {
+    "t_start": 216.149,
+    "t_end": 219.91,
+    "text": "unsolved mathematical problems and mathematicians come up with more every"
+  },
+  {
+    "t_start": 219.91,
+    "t_end": 224.949,
+    "text": "problems in math are considered solved when a mathematician produces a formal"
+  },
+  {
+    "t_start": 224.949,
+    "t_end": 229.67,
+    "text": "when a mathematician produces a formal proof just like you might have done in"
+  },
+  {
+    "t_start": 229.67,
+    "t_end": 234.789,
+    "text": "the result of solving a mathematical problem this way is called a theorem"
+  },
+  {
+    "t_start": 234.789,
+    "t_end": 236.869,
+    "text": "problem this way is called a theorem but far from being an exercise in"
+  },
+  {
+    "t_start": 236.869,
+    "t_end": 239.83,
+    "text": "but far from being an exercise in drudgery a proof for a theorem can be"
+  },
+  {
+    "t_start": 239.83,
+    "t_end": 243.19,
+    "text": "drudgery a proof for a theorem can be considered elegant or even beautiful by"
+  },
+  {
+    "t_start": 243.19,
+    "t_end": 245.509,
+    "text": "considered elegant or even beautiful by mathematicians if it produces a"
+  },
+  {
+    "t_start": 245.509,
+    "t_end": 251.67,
+    "text": "maximally powerful result with a maximally simple or short sequence of"
+  },
+  {
+    "t_start": 251.67,
+    "t_end": 253.27,
+    "text": "maximally simple or short sequence of steps"
+  },
+  {
+    "t_start": 253.27,
+    "t_end": 257.749,
+    "text": "to write elegant proofs you need elegant definitions"
+  },
+  {
+    "t_start": 257.749,
+    "t_end": 263.51,
+    "text": "for a mathematician a definition is not quite like what you see in a dictionary"
+  },
+  {
+    "t_start": 263.51,
+    "t_end": 265.749,
+    "text": "quite like what you see in a dictionary rather coming up with a definition is"
+  },
+  {
+    "t_start": 265.749,
+    "t_end": 269.27,
+    "text": "rather coming up with a definition is like writing down the rules for a new"
+  },
+  {
+    "t_start": 269.27,
+    "t_end": 275.43,
+    "text": "for instance the axioms you use in those plane geometry proofs can be seen as a"
+  },
+  {
+    "t_start": 275.43,
+    "t_end": 278.469,
+    "text": "plane geometry proofs can be seen as a definition of the euclidean plane"
+  },
+  {
+    "t_start": 278.469,
+    "t_end": 285.99,
+    "text": "their elegance and economy are the reason they've endured for 2 000 years"
+  },
+  {
+    "t_start": 285.99,
+    "t_end": 288.31,
+    "text": "reason they've endured for 2 000 years we also have a definition of the basic"
+  },
+  {
+    "t_start": 288.31,
+    "t_end": 291.43,
+    "text": "we also have a definition of the basic concept of number as well as the concept"
+  },
+  {
+    "t_start": 291.43,
+    "t_end": 294.31,
+    "text": "concept of number as well as the concept of set"
+  },
+  {
+    "t_start": 297.59,
+    "t_end": 300.39,
+    "text": "in the 20th century geometers wanted to study some more complicated shapes than"
+  },
+  {
+    "t_start": 300.39,
+    "t_end": 301.51,
+    "text": "study some more complicated shapes than the plane"
+  },
+  {
+    "t_start": 301.51,
+    "t_end": 306.71,
+    "text": "the plane like this doughnut-shaped object or this"
+  },
+  {
+    "t_start": 306.71,
+    "t_end": 311.35,
+    "text": "alexander grotendik who won the fields medal in 1966"
+  },
+  {
+    "t_start": 311.35,
+    "t_end": 316.629,
+    "text": "gave us the definition of a scheme a marvelous abstraction tying together"
+  },
+  {
+    "t_start": 316.629,
+    "t_end": 322.15,
+    "text": "a marvelous abstraction tying together all shapes that can be described using"
+  },
+  {
+    "t_start": 322.15,
+    "t_end": 327.749,
+    "text": "grodnek's concept of a scheme was essential to all kinds of breakthroughs"
+  },
+  {
+    "t_start": 327.749,
+    "t_end": 333.029,
+    "text": "essential to all kinds of breakthroughs from pierre delinia's proof of the vae"
+  },
+  {
+    "t_start": 333.029,
+    "t_end": 335.11,
+    "text": "conjectures to andrew wiles's proof of vermont's last theorem"
+  },
+  {
+    "t_start": 335.11,
+    "t_end": 340.71,
+    "text": "to these definitions we now add schultz's perfectoid spaces as well as"
+  },
+  {
+    "t_start": 340.71,
+    "t_end": 347.35,
+    "text": "schultz's perfectoid spaces as well as other exotic novelties such as the"
+  },
+  {
+    "t_start": 347.35,
+    "t_end": 352.55,
+    "text": "schulze and his collaborators wrote down definitions proved the basic theorem"
+  },
+  {
+    "t_start": 352.55,
+    "t_end": 355.11,
+    "text": "definitions proved the basic theorem surrounding them and then they and other"
+  },
+  {
+    "t_start": 355.11,
+    "t_end": 357.99,
+    "text": "surrounding them and then they and other mathematicians used those definitions to"
+  },
+  {
+    "t_start": 357.99,
+    "t_end": 360.87,
+    "text": "mathematicians used those definitions to solve all sorts of problems"
+  },
+  {
+    "t_start": 360.87,
+    "t_end": 363.43,
+    "text": "solve all sorts of problems somehow a dam had burst"
+  },
+  {
+    "t_start": 363.43,
+    "t_end": 366.07,
+    "text": "somehow a dam had burst the enormous opportunities to solve new"
+  },
+  {
+    "t_start": 366.07,
+    "t_end": 368.55,
+    "text": "the enormous opportunities to solve new problems meant that everyone working in"
+  },
+  {
+    "t_start": 368.55,
+    "t_end": 371.35,
+    "text": "problems meant that everyone working in the field of arithmetic geometry was now"
+  },
+  {
+    "t_start": 371.35,
+    "t_end": 375.35,
+    "text": "the field of arithmetic geometry was now obligated to learn all things schultzian"
+  },
+  {
+    "t_start": 375.35,
+    "t_end": 376.309,
+    "text": "obligated to learn all things schultzian so"
+  },
+  {
+    "t_start": 376.309,
+    "t_end": 382.55,
+    "text": "what makes a definition useful in solving problems brevity and simplicity"
+  },
+  {
+    "t_start": 382.55,
+    "t_end": 384.07,
+    "text": "solving problems brevity and simplicity are key"
+  },
+  {
+    "t_start": 384.07,
+    "t_end": 388.95,
+    "text": "schultz himself says that when he works on mathematics he prefers to work"
+  },
+  {
+    "t_start": 388.95,
+    "t_end": 391.59,
+    "text": "on mathematics he prefers to work without writing anything down"
+  },
+  {
+    "t_start": 391.59,
+    "t_end": 396.95,
+    "text": "that means that he must formulate his ideas in the cleanest way possible"
+  },
+  {
+    "t_start": 396.95,
+    "t_end": 400.95,
+    "text": "as he puts it you only have some kind of limited capacity in your head so you"
+  },
+  {
+    "t_start": 400.95,
+    "t_end": 403.909,
+    "text": "limited capacity in your head so you can't do two complicated things"
+  },
+  {
+    "t_start": 403.909,
+    "t_end": 407.99,
+    "text": "can't do two complicated things i'd like to take this idea further and"
+  },
+  {
+    "t_start": 407.99,
+    "t_end": 413.27,
+    "text": "a spider's brain may be too limited to grasp the large-scale structure of its"
+  },
+  {
+    "t_start": 413.27,
+    "t_end": 417.43,
+    "text": "web it certainly does not have the coordinates of where each thread is to"
+  },
+  {
+    "t_start": 417.43,
+    "t_end": 424.15,
+    "text": "coordinates of where each thread is to be placed but it can still spin the web"
+  },
+  {
+    "t_start": 424.15,
+    "t_end": 426.309,
+    "text": "by executing a simple set of rules in this analogy the spider is the"
+  },
+  {
+    "t_start": 426.309,
+    "t_end": 431.749,
+    "text": "mathematician the simple set of rules is the elegant definition and the web is"
+  },
+  {
+    "t_start": 431.749,
+    "t_end": 434.79,
+    "text": "the elegant definition and the web is the complex mathematical object brought"
+  },
+  {
+    "t_start": 434.79,
+    "t_end": 438.629,
+    "text": "the complex mathematical object brought into existence by that definition"
+  },
+  {
+    "t_start": 438.629,
+    "t_end": 439.67,
+    "text": "into existence by that definition so"
+  },
+  {
+    "t_start": 439.67,
+    "t_end": 444.95,
+    "text": "coming up with the right definitions the right rules of the game is much of the"
+  },
+  {
+    "t_start": 444.95,
+    "t_end": 446.87,
+    "text": "right rules of the game is much of the battle in math"
+  },
+  {
+    "t_start": 446.87,
+    "t_end": 451.43,
+    "text": "simple rules can produce complex and useful results"
+  },
+  {
+    "t_start": 451.43,
+    "t_end": 456.309,
+    "text": "once you have the right definitions even the most difficult theorems seem to"
+  },
+  {
+    "t_start": 456.309,
+    "t_end": 458.95,
+    "text": "the most difficult theorems seem to prove themselves"
+  },
+  {
+    "t_start": 458.95,
+    "t_end": 463.67,
+    "text": "i haven't said anything yet about the actual content of schultz's work"
+  },
+  {
+    "t_start": 463.67,
+    "t_end": 467.909,
+    "text": "now schultz's work spans quite a few topics throughout mathematics but"
+  },
+  {
+    "t_start": 467.909,
+    "t_end": 471.11,
+    "text": "topics throughout mathematics but there's a common element to much of what"
+  },
+  {
+    "t_start": 471.11,
+    "t_end": 477.83,
+    "text": "p addict numbers and p-attic geometry let's talk about numbers for a moment"
+  },
+  {
+    "t_start": 477.83,
+    "t_end": 479.83,
+    "text": "let's talk about numbers for a moment everyone starts counting with what we"
+  },
+  {
+    "t_start": 479.83,
+    "t_end": 481.99,
+    "text": "everyone starts counting with what we call the natural numbers"
+  },
+  {
+    "t_start": 481.99,
+    "t_end": 486.79,
+    "text": "1 2 3 and so forth we learn methods for adding and"
+  },
+  {
+    "t_start": 486.79,
+    "t_end": 489.029,
+    "text": "we learn methods for adding and multiplying natural numbers"
+  },
+  {
+    "t_start": 489.029,
+    "t_end": 493.99,
+    "text": "then we learn about representing numbers in between the natural numbers using"
+  },
+  {
+    "t_start": 493.99,
+    "t_end": 496.39,
+    "text": "in between the natural numbers using decimals and we learn how to add and"
+  },
+  {
+    "t_start": 496.39,
+    "t_end": 499.35,
+    "text": "decimals and we learn how to add and multiply those as well"
+  },
+  {
+    "t_start": 499.35,
+    "t_end": 504.629,
+    "text": "at some point we learn about numbers like pi whose decimal representation"
+  },
+  {
+    "t_start": 504.629,
+    "t_end": 507.749,
+    "text": "like pi whose decimal representation doesn't end but nonetheless our rules"
+  },
+  {
+    "t_start": 507.749,
+    "t_end": 510.469,
+    "text": "doesn't end but nonetheless our rules for adding and multiplying extend to"
+  },
+  {
+    "t_start": 510.469,
+    "t_end": 513.029,
+    "text": "for adding and multiplying extend to these as well"
+  },
+  {
+    "t_start": 513.029,
+    "t_end": 516.23,
+    "text": "these as well the numbers you can write down with"
+  },
+  {
+    "t_start": 516.23,
+    "t_end": 521.829,
+    "text": "infinite or not are called real numbers so called because they can represent"
+  },
+  {
+    "t_start": 521.829,
+    "t_end": 525.03,
+    "text": "so called because they can represent quantities in the real world"
+  },
+  {
+    "t_start": 525.03,
+    "t_end": 530.63,
+    "text": "how many kilograms is mount everest or how many meters from here to the moon"
+  },
+  {
+    "t_start": 530.63,
+    "t_end": 532.829,
+    "text": "how many meters from here to the moon the answers are real"
+  },
+  {
+    "t_start": 532.829,
+    "t_end": 539.19,
+    "text": "numbers so we have here a decent definition the rules of the game for"
+  },
+  {
+    "t_start": 539.19,
+    "t_end": 540.79,
+    "text": "definition the rules of the game for real numbers"
+  },
+  {
+    "t_start": 540.79,
+    "t_end": 544.63,
+    "text": "actually there's one more rule we mustn't forget"
+  },
+  {
+    "t_start": 544.63,
+    "t_end": 549.99,
+    "text": "point nine repeating equals one and more generally a tale of repeating"
+  },
+  {
+    "t_start": 549.99,
+    "t_end": 552.23,
+    "text": "and more generally a tale of repeating nines can be rounded up"
+  },
+  {
+    "t_start": 552.23,
+    "t_end": 556.47,
+    "text": "now you may have found this rule strange when you first encountered it and you"
+  },
+  {
+    "t_start": 556.47,
+    "t_end": 562.23,
+    "text": "might have even resisted it a little bit if so you might be stumbling upon some"
+  },
+  {
+    "t_start": 562.23,
+    "t_end": 564.949,
+    "text": "if so you might be stumbling upon some schultzian ideas"
+  },
+  {
+    "t_start": 564.949,
+    "t_end": 570.07,
+    "text": "imagine a number system without the rule of repeating nines in which point nine"
+  },
+  {
+    "t_start": 570.07,
+    "t_end": 573.11,
+    "text": "of repeating nines in which point nine repeating really is less than one it"
+  },
+  {
+    "t_start": 573.11,
+    "t_end": 574.949,
+    "text": "repeating really is less than one it seems simpler that way"
+  },
+  {
+    "t_start": 574.949,
+    "t_end": 578.55,
+    "text": "seems simpler that way but this number system has some let's"
+  },
+  {
+    "t_start": 578.55,
+    "t_end": 584.31,
+    "text": "continuity problems if xeno of elea wants to move one meter"
+  },
+  {
+    "t_start": 584.31,
+    "t_end": 586.63,
+    "text": "if xeno of elea wants to move one meter forward he will first have to move nine"
+  },
+  {
+    "t_start": 586.63,
+    "t_end": 588.79,
+    "text": "forward he will first have to move nine tenths of the way and then nine tenths"
+  },
+  {
+    "t_start": 588.79,
+    "t_end": 593.67,
+    "text": "of the remaining distance and so on but without the rule of repeating nines zeno"
+  },
+  {
+    "t_start": 593.67,
+    "t_end": 595.509,
+    "text": "without the rule of repeating nines zeno never makes it"
+  },
+  {
+    "t_start": 595.509,
+    "t_end": 600.79,
+    "text": "dropping the rule of repeated nines seems to exclude the possibility of"
+  },
+  {
+    "t_start": 600.79,
+    "t_end": 602.949,
+    "text": "seems to exclude the possibility of continuous motion"
+  },
+  {
+    "t_start": 602.949,
+    "t_end": 607.03,
+    "text": "what's left of the real numbers resembles nothing so much as a"
+  },
+  {
+    "t_start": 607.03,
+    "t_end": 610.389,
+    "text": "resembles nothing so much as a disconnected cloud of dust"
+  },
+  {
+    "t_start": 610.389,
+    "t_end": 616.63,
+    "text": "when we reimpose the rule the cloud of dust condenses back into the real number"
+  },
+  {
+    "t_start": 616.63,
+    "t_end": 617.67,
+    "text": "dust condenses back into the real number line"
+  },
+  {
+    "t_start": 617.67,
+    "t_end": 623.11,
+    "text": "this is in fact the idea behind condensed sets a deep new idea developed"
+  },
+  {
+    "t_start": 623.11,
+    "t_end": 625.67,
+    "text": "condensed sets a deep new idea developed by schulza and dustin klausen"
+  },
+  {
+    "t_start": 625.67,
+    "t_end": 631.03,
+    "text": "the idea is that almost any shape can be thought of as a cloud of dust together"
+  },
+  {
+    "t_start": 631.03,
+    "t_end": 635.269,
+    "text": "thought of as a cloud of dust together with a rule that tells you how to glue"
+  },
+  {
+    "t_start": 635.269,
+    "t_end": 640.63,
+    "text": "anyway after settling on the rules of the real number game we can start"
+  },
+  {
+    "t_start": 640.63,
+    "t_end": 642.87,
+    "text": "the real number game we can start talking about geometry"
+  },
+  {
+    "t_start": 642.87,
+    "t_end": 646.87,
+    "text": "talking about geometry arrange all the real numbers in a row"
+  },
+  {
+    "t_start": 646.87,
+    "t_end": 648.87,
+    "text": "and you get a line add another dimension to create the"
+  },
+  {
+    "t_start": 648.87,
+    "t_end": 652.069,
+    "text": "add another dimension to create the plane where each point represents a pair"
+  },
+  {
+    "t_start": 652.069,
+    "t_end": 655.75,
+    "text": "plane where each point represents a pair of real numbers called coordinates"
+  },
+  {
+    "t_start": 655.75,
+    "t_end": 658.23,
+    "text": "of real numbers called coordinates an algebraic equation relating those"
+  },
+  {
+    "t_start": 658.23,
+    "t_end": 661.03,
+    "text": "an algebraic equation relating those coordinates determines a curve"
+  },
+  {
+    "t_start": 661.03,
+    "t_end": 669.67,
+    "text": "the interplay between equations like this and the shapes they represent is"
+  },
+  {
+    "t_start": 669.67,
+    "t_end": 675.91,
+    "text": "an algebraic geometer might look at an equation like this and say of course"
+  },
+  {
+    "t_start": 675.91,
+    "t_end": 681.59,
+    "text": "that's a hyper elliptic curve of genus 2 and its solutions look like a donut with"
+  },
+  {
+    "t_start": 681.59,
+    "t_end": 683.35,
+    "text": "and its solutions look like a donut with two holes"
+  },
+  {
+    "t_start": 683.35,
+    "t_end": 688.47,
+    "text": "so far so good let's revisit the rules that govern real"
+  },
+  {
+    "t_start": 688.47,
+    "t_end": 689.43,
+    "text": "let's revisit the rules that govern real numbers"
+  },
+  {
+    "t_start": 689.43,
+    "t_end": 693.829,
+    "text": "the digits are permitted to go off to the right without end"
+  },
+  {
+    "t_start": 693.829,
+    "t_end": 698.55,
+    "text": "but what if we tweak the game a different way so that the digits are now"
+  },
+  {
+    "t_start": 698.55,
+    "t_end": 702.23,
+    "text": "different way so that the digits are now permitted to go off to the left instead"
+  },
+  {
+    "t_start": 702.23,
+    "t_end": 704.47,
+    "text": "permitted to go off to the left instead the usual rules for addition and"
+  },
+  {
+    "t_start": 704.47,
+    "t_end": 707.67,
+    "text": "the usual rules for addition and multiplication still apply"
+  },
+  {
+    "t_start": 707.67,
+    "t_end": 713.19,
+    "text": "these new numbers don't quantify anything in the real world"
+  },
+  {
+    "t_start": 713.19,
+    "t_end": 718.949,
+    "text": "but as mathematicians we come up with definitions the rules of the game and"
+  },
+  {
+    "t_start": 718.949,
+    "t_end": 724.31,
+    "text": "then stand back and see what happens what we have defined in this game are"
+  },
+  {
+    "t_start": 724.31,
+    "t_end": 727.19,
+    "text": "what we have defined in this game are known as the 10 attic numbers an"
+  },
+  {
+    "t_start": 727.19,
+    "t_end": 729.11,
+    "text": "known as the 10 attic numbers an entirely different number system from"
+  },
+  {
+    "t_start": 729.11,
+    "t_end": 734.949,
+    "text": "entirely different number system from the reals there are some similarities in"
+  },
+  {
+    "t_start": 734.949,
+    "t_end": 737.99,
+    "text": "the real numbers fractions like one-third have repeating decimals"
+  },
+  {
+    "t_start": 737.99,
+    "t_end": 744.15,
+    "text": "one-third have repeating decimals and in the tenatic numbers they have"
+  },
+  {
+    "t_start": 744.15,
+    "t_end": 749.99,
+    "text": "in the real numbers we impose the rule that point nine repeating equals one"
+  },
+  {
+    "t_start": 749.99,
+    "t_end": 752.47,
+    "text": "that point nine repeating equals one in the ten addict numbers there's a"
+  },
+  {
+    "t_start": 752.47,
+    "t_end": 755.43,
+    "text": "in the ten addict numbers there's a corresponding rule where repeating nines"
+  },
+  {
+    "t_start": 755.43,
+    "t_end": 756.79,
+    "text": "corresponding rule where repeating nines give you"
+  },
+  {
+    "t_start": 756.79,
+    "t_end": 758.55,
+    "text": "give you negative 1"
+  },
+  {
+    "t_start": 758.55,
+    "t_end": 767.35,
+    "text": "irrational numbers like the square root of 41 have non-repeating decimals the"
+  },
+  {
+    "t_start": 767.35,
+    "t_end": 773.91,
+    "text": "same is true for the 10 attic numbers we have described the 10 attic numbers"
+  },
+  {
+    "t_start": 773.91,
+    "t_end": 776.15,
+    "text": "we have described the 10 attic numbers here but by working with a base other"
+  },
+  {
+    "t_start": 776.15,
+    "t_end": 778.71,
+    "text": "here but by working with a base other than 10 you can define the p attic"
+  },
+  {
+    "t_start": 778.71,
+    "t_end": 781.509,
+    "text": "than 10 you can define the p attic numbers for any base p"
+  },
+  {
+    "t_start": 781.509,
+    "t_end": 786.87,
+    "text": "for reasons i won't get into mathematicians usually only allow p to"
+  },
+  {
+    "t_start": 786.87,
+    "t_end": 788.629,
+    "text": "mathematicians usually only allow p to be a prime number"
+  },
+  {
+    "t_start": 788.629,
+    "t_end": 794.15,
+    "text": "and in case you were wondering the idea behind the name is to extend the pattern"
+  },
+  {
+    "t_start": 794.15,
+    "t_end": 798.87,
+    "text": "behind the name is to extend the pattern diatic for two triadic for three etc"
+  },
+  {
+    "t_start": 798.87,
+    "t_end": 801.509,
+    "text": "diatic for two triadic for three etc now the periodic numbers are nothing new"
+  },
+  {
+    "t_start": 801.509,
+    "t_end": 803.99,
+    "text": "now the periodic numbers are nothing new they were first described by kurt hensel"
+  },
+  {
+    "t_start": 803.99,
+    "t_end": 807.99,
+    "text": "they were first described by kurt hensel in 1897. so what did peter schultza and"
+  },
+  {
+    "t_start": 807.99,
+    "t_end": 810.629,
+    "text": "in 1897. so what did peter schultza and his collaborators do with them"
+  },
+  {
+    "t_start": 810.629,
+    "t_end": 815.269,
+    "text": "the answer has to do with the kind of geometry you get when you replace the"
+  },
+  {
+    "t_start": 815.269,
+    "t_end": 818.87,
+    "text": "geometry you get when you replace the real numbers with the periodic numbers"
+  },
+  {
+    "t_start": 818.87,
+    "t_end": 822.47,
+    "text": "real numbers with the periodic numbers what happens to the familiar real number"
+  },
+  {
+    "t_start": 822.47,
+    "t_end": 827.75,
+    "text": "well various attempts have been made to visualize the periodic numbers and all"
+  },
+  {
+    "t_start": 827.75,
+    "t_end": 833.35,
+    "text": "visualize the periodic numbers and all of them seem to have a self-similar or"
+  },
+  {
+    "t_start": 833.35,
+    "t_end": 836.23,
+    "text": "fractal nature but none of them is perfect our little spider brains can't"
+  },
+  {
+    "t_start": 836.23,
+    "t_end": 839.03,
+    "text": "perfect our little spider brains can't quite fully grasp the p attic number"
+  },
+  {
+    "t_start": 839.03,
+    "t_end": 843.189,
+    "text": "quite fully grasp the p attic number line the same way we can grasp the real"
+  },
+  {
+    "t_start": 843.189,
+    "t_end": 847.75,
+    "text": "as an example of how mind-bending periodic geometry is consider the"
+  },
+  {
+    "t_start": 847.75,
+    "t_end": 849.829,
+    "text": "periodic geometry is consider the following two facts"
+  },
+  {
+    "t_start": 849.829,
+    "t_end": 855.829,
+    "text": "every triangle is isosceles and every point within a circle is the center of"
+  },
+  {
+    "t_start": 855.829,
+    "t_end": 857.189,
+    "text": "point within a circle is the center of that circle"
+  },
+  {
+    "t_start": 857.189,
+    "t_end": 859.67,
+    "text": "that circle very strange"
+  },
+  {
+    "t_start": 859.67,
+    "t_end": 864.47,
+    "text": "another nice thing about real geometry is that no matter how complicated a"
+  },
+  {
+    "t_start": 864.47,
+    "t_end": 870.15,
+    "text": "shape may be if you take a magnifying glass and zoom in on any particular spot"
+  },
+  {
+    "t_start": 870.15,
+    "t_end": 872.949,
+    "text": "glass and zoom in on any particular spot the shape becomes rather simpler"
+  },
+  {
+    "t_start": 872.949,
+    "t_end": 877.189,
+    "text": "you could then figure out a lot about the shape by describing how these pieces"
+  },
+  {
+    "t_start": 877.189,
+    "t_end": 879.03,
+    "text": "the shape by describing how these pieces fit together"
+  },
+  {
+    "t_start": 879.03,
+    "t_end": 884.629,
+    "text": "but in periodic geometry applying a magnifying glass to a shape doesn't seem"
+  },
+  {
+    "t_start": 884.629,
+    "t_end": 887.43,
+    "text": "magnifying glass to a shape doesn't seem to make it any simpler the fractal"
+  },
+  {
+    "t_start": 887.43,
+    "t_end": 891.509,
+    "text": "to make it any simpler the fractal doesn't become any less of a fractal"
+  },
+  {
+    "t_start": 891.509,
+    "t_end": 894.79,
+    "text": "when you zoom in on it in the 20th century brilliant luminaries"
+  },
+  {
+    "t_start": 894.79,
+    "t_end": 900.23,
+    "text": "in the 20th century brilliant luminaries made huge strides in this field but it"
+  },
+  {
+    "t_start": 900.23,
+    "t_end": 902.47,
+    "text": "was schulza who came up with the incredible idea of just"
+  },
+  {
+    "t_start": 902.47,
+    "t_end": 907.75,
+    "text": "using a better magnifying glass schulza discovered that when you zoom in"
+  },
+  {
+    "t_start": 907.75,
+    "t_end": 911.03,
+    "text": "schulza discovered that when you zoom in ever closer on a periodic shape a new"
+  },
+  {
+    "t_start": 911.03,
+    "t_end": 913.59,
+    "text": "ever closer on a periodic shape a new sort of entity appears and"
+  },
+  {
+    "t_start": 913.59,
+    "t_end": 916.389,
+    "text": "sort of entity appears and that's what a perfectoid space is"
+  },
+  {
+    "t_start": 916.389,
+    "t_end": 921.189,
+    "text": "it's a little like the discovery of a new elementary particle smaller than the"
+  },
+  {
+    "t_start": 921.189,
+    "t_end": 923.509,
+    "text": "new elementary particle smaller than the atomic nucleus"
+  },
+  {
+    "t_start": 923.509,
+    "t_end": 928.949,
+    "text": "now that we know about perfectoid spaces and how they fit together we can gain"
+  },
+  {
+    "t_start": 928.949,
+    "t_end": 931.35,
+    "text": "and how they fit together we can gain all kinds of new insights into p attic"
+  },
+  {
+    "t_start": 931.35,
+    "t_end": 933.11,
+    "text": "all kinds of new insights into p attic geometry"
+  },
+  {
+    "t_start": 933.11,
+    "t_end": 939.749,
+    "text": "schultz's latest work in collaboration with laurent farg is a 350"
+  },
+  {
+    "t_start": 939.749,
+    "t_end": 941.87,
+    "text": "with laurent farg is a 350 treatise entitled"
+  },
+  {
+    "t_start": 941.87,
+    "t_end": 945.91,
+    "text": "treatise entitled geometrization of the local langlen's"
+  },
+  {
+    "t_start": 945.91,
+    "t_end": 950.629,
+    "text": "it came out just a few months ago and my colleagues and i have been feverishly"
+  },
+  {
+    "t_start": 950.629,
+    "t_end": 953.749,
+    "text": "colleagues and i have been feverishly studying it this new work strikes a"
+  },
+  {
+    "t_start": 953.749,
+    "t_end": 955.35,
+    "text": "studying it this new work strikes a dagger into the heart of something"
+  },
+  {
+    "t_start": 955.35,
+    "t_end": 957.91,
+    "text": "dagger into the heart of something called the langlins program which is"
+  },
+  {
+    "t_start": 957.91,
+    "t_end": 960.55,
+    "text": "called the langlins program which is sometimes described as a grand unified"
+  },
+  {
+    "t_start": 960.55,
+    "t_end": 962.069,
+    "text": "sometimes described as a grand unified theory of math"
+  },
+  {
+    "t_start": 962.069,
+    "t_end": 967.59,
+    "text": "bringing together so many different objects in math into perfect harmony"
+  },
+  {
+    "t_start": 967.59,
+    "t_end": 969.59,
+    "text": "objects in math into perfect harmony naturally intimate knowledge of"
+  },
+  {
+    "t_start": 969.59,
+    "t_end": 976.15,
+    "text": "perfectoid spaces is a prerequisite at this point you might be asking this"
+  },
+  {
+    "t_start": 976.15,
+    "t_end": 978.71,
+    "text": "at this point you might be asking this all sounds fascinating clearly a lot of"
+  },
+  {
+    "t_start": 978.71,
+    "t_end": 981.03,
+    "text": "all sounds fascinating clearly a lot of people are interested in it but what is"
+  },
+  {
+    "t_start": 981.03,
+    "t_end": 987.43,
+    "text": "people are interested in it but what is the real use of p attic geometry does it"
+  },
+  {
+    "t_start": 987.43,
+    "t_end": 992.71,
+    "text": "now as a mathematician i am obligated to remind you that basically all the"
+  },
+  {
+    "t_start": 992.71,
+    "t_end": 994.629,
+    "text": "remind you that basically all the technology and science that makes"
+  },
+  {
+    "t_start": 994.629,
+    "t_end": 997.11,
+    "text": "technology and science that makes society function rests at least"
+  },
+  {
+    "t_start": 997.11,
+    "t_end": 999.269,
+    "text": "society function rests at least partially on mathematics"
+  },
+  {
+    "t_start": 999.269,
+    "t_end": 1004.71,
+    "text": "but between you and me when someone like peter schulze discovers new math he's"
+  },
+  {
+    "t_start": 1004.71,
+    "t_end": 1007.35,
+    "text": "peter schulze discovers new math he's not thinking about applications or even"
+  },
+  {
+    "t_start": 1007.35,
+    "t_end": 1010.55,
+    "text": "not thinking about applications or even anything related to the physical world"
+  },
+  {
+    "t_start": 1010.55,
+    "t_end": 1011.749,
+    "text": "anything related to the physical world instead"
+  },
+  {
+    "t_start": 1011.749,
+    "t_end": 1017.829,
+    "text": "he's peering into a universe all its own what others might describe as invention"
+  },
+  {
+    "t_start": 1017.829,
+    "t_end": 1022.31,
+    "text": "what others might describe as invention or creating he might describe simply as"
+  },
+  {
+    "t_start": 1022.31,
+    "t_end": 1027.429,
+    "text": "learning about structures and patterns that are already there"
+  },
+  {
+    "t_start": 1027.429,
+    "t_end": 1031.909,
+    "text": "as schulza puts it for me doing research is really like discovering certain"
+  },
+  {
+    "t_start": 1031.909,
+    "t_end": 1035.35,
+    "text": "things that are just out there the sense of discovering something that's there"
+  },
+  {
+    "t_start": 1035.35,
+    "t_end": 1039.27,
+    "text": "of discovering something that's there completely independently of the world"
+  },
+  {
+    "t_start": 1039.27,
+    "t_end": 1044.949,
+    "text": "mathematicians may disagree on whether math is created or discovered but they"
+  },
+  {
+    "t_start": 1044.949,
+    "t_end": 1047.829,
+    "text": "math is created or discovered but they all agree that learning writing"
+  },
+  {
+    "t_start": 1047.829,
+    "t_end": 1050.789,
+    "text": "all agree that learning writing discussing mathematics brings a powerful"
+  },
+  {
+    "t_start": 1050.789,
+    "t_end": 1054.15,
+    "text": "discussing mathematics brings a powerful sense of satisfaction and joy"
+  },
+  {
+    "t_start": 1054.15,
+    "t_end": 1059.669,
+    "text": "a large part of this joy is sharing it with a community of like-minded souls"
+  },
+  {
+    "t_start": 1059.669,
+    "t_end": 1062.47,
+    "text": "with a community of like-minded souls i myself am immensely grateful to have"
+  },
+  {
+    "t_start": 1062.47,
+    "t_end": 1064.47,
+    "text": "i myself am immensely grateful to have peter schultz in our community of"
+  },
+  {
+    "t_start": 1064.47,
+    "t_end": 1067.27,
+    "text": "peter schultz in our community of mathematicians and i hope you'll join me"
+  },
+  {
+    "t_start": 1067.27,
+    "t_end": 1069.51,
+    "text": "mathematicians and i hope you'll join me in congratulating him on winning the"
+  },
+  {
+    "t_start": 1069.51,
+    "t_end": 1071.27,
+    "text": "in congratulating him on winning the fields medal"
+  },
+  {
+    "t_start": 1071.27,
+    "t_end": 1074.52,
+    "text": "fields medal thank you"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ku_video_R9Plq-D1gEk_0",
+    "t_start": 0.1,
+    "t_end": 90.8,
+    "type": "overview",
+    "summary": "You know- whether it's a game or not is another funny thing but I call it a no player game. I read a book called Automata Studies, a whole series of interesting things about automatic machines, the automaton. In particular, John von Neumann had been interested in colonising the planets. You see, you can't afford to take humans out to the planets; it's a long way away, you've got to carry more food and everything than the weight of the human by a long way. By the way, you've also got to equip your planet with an atmosphere and von Neumann's idea was that you first send some machines over. Hi…"
+  },
+  {
+    "id": "ku_video_R9Plq-D1gEk_90",
+    "t_start": 90.8,
+    "t_end": 180.9,
+    "type": "overview",
+    "summary": "and so now you can build up an atmosphere containing oxygen. I don't think he helped to equip the whole of Mars with such an atmosphere, but maybe you have some kind of shell or dome and in that dome you can have an atmosphere. And then after considerable time when these machines have all been chugging away and making more machines and so on and smelting more iron and producing more oxygen you send the guys over -us, you know. Then he realised that you had to have a machine capable of building a copy of itself, and that seems a bit difficult. Maybe in order to build a machine you need a mor…"
+  },
+  {
+    "id": "ku_video_R9Plq-D1gEk_180",
+    "t_start": 180.9,
+    "t_end": 273.7,
+    "type": "overview",
+    "summary": "machine is specified by that tape. And then if you can do that, and it's fairly easy to do that in a way, you can now feed it with a copy of its own tape and then you can build- in that way you can manage to design a machine and a tape which will build a copy of that machine and copy its own tapes as it will build a copy of itself. Von Neumann's machine, each square had 29 states - in the game of life you only have two states, on and off, or live and dead whatever you want to call them. In von Neumann's you had 29 states, if you wanted it to do something different, to have some other facili…"
+  },
+  {
+    "id": "ku_video_R9Plq-D1gEk_273",
+    "t_start": 273.7,
+    "t_end": 363.8,
+    "type": "overview",
+    "summary": "and you have two or three live neighbours then you survive; I mentioned a birth rule first, to be born you need exactly three live neighbours, to survive you need either two or three. - (Brady: So there were other) (iterations of the game, it could have) (been different?) - Yeah indeed; you know, what was different for quite a long time we tinkered with these rules and finally came up with the ones I said. And they really seemed to have very nice properties, namely didn't seem to be able to predict what would happen. And in the end we succeeded in proving essentially anything could happen, …"
+  },
+  {
+    "id": "ku_video_R9Plq-D1gEk_363",
+    "t_start": 363.8,
+    "t_end": 454.1,
+    "type": "overview",
+    "summary": "didn't think it would interest people- his readers as much as it actually did. Well first of all his first column in the Scientific American was considerably before this about hexaflexagons, and it got more reader mail than any previous article in the entire hundred and something year old history of the magazine up to that time, and so the editors wanted him to write a monthly column. And he said he said to me that he was so broke that he just said yes before he knew whether he could write a monthly column. But anyway he wrote that monthly column very successfully and then when the life gam…"
+  },
+  {
+    "id": "ku_video_R9Plq-D1gEk_454",
+    "t_start": 454.1,
+    "t_end": 545.7,
+    "type": "overview",
+    "summary": "it and I'm trying not to be. (Has it been built upon? Is it one of-) (the mathematics and-) - No it's finished. I mean that's another thing really; you can build upon it in the following sense, you can study particular configurations, you can find the alternative rules that still have the same properties and so on - but nothing I think that followed on, it was just as interesting as the basic fact that this set of rules did exist fairly simple and have these astonishing properties which weren't astonishing to me. Some configurations just died off, after a time there's nothing left on the bo…"
+  },
+  {
+    "id": "ku_video_R9Plq-D1gEk_545",
+    "t_start": 545.7,
+    "t_end": 639.2,
+    "type": "overview",
+    "summary": "logic dating from the 1930s - the Halting Problem, there's no way of absolutely guaranteeing to tell whether a thing will go on forever or fade away completely, that's one of the astonishing properties. You would think that if a thing is governed by very simple rules there would be a very simple way of telling whether this very simple thing is a consequence of those very simple rules, but there isn't a way of telling. (Has the inventor of game of life or) (people who've studied a deeply have a) (deeper understanding? Like can you look) (at a configuration and see something or does it still …"
+  },
+  {
+    "id": "ku_video_R9Plq-D1gEk_639",
+    "t_start": 639.2,
+    "t_end": 666.3,
+    "type": "overview",
+    "summary": "about things and I imagine that the young graduate students there think, you know, this guy's a loony, he did something good once and I don't care, I really don't care. I've been released from worrying about what other people think about about me. I'm often said, I've said for 25 or 30 years, that the one thing I'd really like to know before I die is-"
+  }
+]

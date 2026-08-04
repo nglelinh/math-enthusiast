@@ -1,0 +1,286 @@
+in this video we're going to investigate the mathematics of an epidemic that's
+the mathematics of an epidemic that's spreading around the world
+how can researchers around the world come up with mathematical models that
+come up with mathematical models that predict things such as what is the rate
+of a spread epidemic how bad is the epidemic going to be and so in this
+epidemic going to be and so in this video we're going to study a simple
+video we're going to study a simple epidemic model called the SI R model the
+epidemic model called the SI R model the idea works as follows
+I'm going to imagine taking all the people in the world and dividing them
+people in the world and dividing them into three different categories the
+into three different categories the first category is called susceptibles
+first category is called susceptibles susceptibles are all of the people that
+are capable of becoming sick from an infection in this case we'll assume we
+infection in this case we'll assume we have some sort of infection that is
+have some sort of infection that is capable of infecting everybody so at the
+capable of infecting everybody so at the beginning everybody is going to be
+beginning everybody is going to be susceptible then we have the second
+susceptible then we have the second category of people those are the people
+category of people those are the people who are infected and when you become and
+that did you leave the susceptible category for most diseases after you've
+category for most diseases after you've gotten it after you've been infected
+you're not now susceptible to get it a second time you just get infected once
+second time you just get infected once and then those who have the infected
+and then those who have the infected disease they are going to transition at
+disease they are going to transition at some point hopefully into a recovered
+some point hopefully into a recovered status and as long as I assume that the
+death rate is small compared to the number that are being recovered I'll
+number that are being recovered I'll just imagine that this explains
+just imagine that this explains everybody everything is either
+susceptible which means they could get out or they're currently infected in
+out or they're currently infected in which case they could go and infect
+other people or they could go and become recovered in which case they can neither
+recovered in which case they can neither get this particular illness nor can they
+give it to somebody else those are the assumptions of this model I can write
+assumptions of this model I can write this assumption as an equation by saying
+this assumption as an equation by saying that the sum of the susceptibles the
+infected and the recovered people adds up to n which is everybody perhaps not
+zoom in just want to take one little town we could have envied everybody in a
+town we could have envied everybody in a town one of the things that's going to
+be helpful for us is to give some labels to what happened to these values at time
+to what happened to these values at time T equal to
+conditions and the idea here is that at the beginning there is well no recovery
+the beginning there is well no recovery people because we're at the beginning
+people because we're at the beginning there's going to be a very small number
+of infected people probably just one right at the very beginning although we
+right at the very beginning although we might not start tracking data for a
+might not start tracking data for a little while and so the I not the
+little while and so the I not the initial node of infected people might
+initial node of infected people might just be some relatively small number and
+just be some relatively small number and then the that's not the amount of
+then the that's not the amount of susceptible people at time equal to zero
+susceptible people at time equal to zero with everybody else I saw a very large
+with everybody else I saw a very large number so I sort of described
+number so I sort of described pictorially what's going on that we have
+pictorially what's going on that we have the sort of cascade of people who are
+the sort of cascade of people who are susceptible and then they become
+infected and then the in fact people creating more infected but some of those
+creating more infected but some of those infected people then go on to become
+infected people then go on to become recovered however what I really want to
+do is try to write down equations that govern the behavior of this s of T I of
+T and R of T what I'm going to do here is use the type of mathematics called a
+is use the type of mathematics called a system of differential equations let me
+system of differential equations let me explain what that is the idea is that
+for each of these three things I want to write down a rate of change with respect
+write down a rate of change with respect to T this is what a derivative is so
+this dsdt you can think of as how the number of susceptibles is changing in
+time the IET is our sort of calculus sort and for how the number of infected
+sort and for how the number of infected people is changing expect a time and
+people is changing expect a time and likewise for deep Rd T the number of
+likewise for deep Rd T the number of recovered people how that is changing
+recovered people how that is changing with respect to time so whatever the
+with respect to time so whatever the equation for each of these I think first
+equation for each of these I think first about just dsdt that change in the
+about just dsdt that change in the susceptibles I'm trying to people what
+susceptibles I'm trying to people what does that depend on the way that say I
+was infected and you were susceptible the way that I might infected you would
+be that if you and I both came and contact then there's some probability
+contact then there's some probability that I would infect you so when I think
+about what this should depend on the more there is connections between people
+more there is connections between people there the more the s and the eyes are
+going to multiply together to create more interactions the higher the
+more interactions the higher the likelihood that septum
+people are going to become infected so as an equation I can take that premise
+as an equation I can take that premise and weight it down like this I'm going
+and weight it down like this I'm going to say that the rate of change is
+to say that the rate of change is susceptibles is the negative because the
+susceptibles is the negative because the susceptibles are getting smaller as time
+goes on as they transition to being infected it's a negative some constant a
+infected it's a negative some constant a in which I think it was a positive
+constant here but sort of proportionality constant and then
+multiplied by s and I together because the larger that multiplication is the
+larger the number of interactions between susceptible and infected people
+between susceptible and infected people are ok so that's my dsdt what about my
+di DT well first of all when I think about infected people one way you can
+about infected people one way you can get infected people is that susceptible
+people transition to infect it so if you lost - a si out of the susceptibles then
+lost - a si out of the susceptibles then you're going to gain it here in the
+you're going to gain it here in the infected as well you get a plus a as I
+infected as well you get a plus a as I but that's not the only factor that
+but that's not the only factor that affects infecting people there's new
+lose that to people coming in when you transition from susceptible to infect it
+transition from susceptible to infect it but there are also losses of infected
+but there are also losses of infected people when they get recovered from the
+people when they get recovered from the disease when their immune system sort of
+disease when their immune system sort of kicks in and they fight it off and then
+kicks in and they fight it off and then they're no longer capable of infecting
+they're no longer capable of infecting anybody and so when that happens you
+anybody and so when that happens you also have a loss of infected people
+also have a loss of infected people which is a good thing and therefore a
+which is a good thing and therefore a negative B I turn the more infected
+negative B I turn the more infected there are the bigger the rate of change
+there are the bigger the rate of change of infect is leaving the the bigger this
+sort of bi is going to become but then for the recovered people if you are
+them right back into the recover so you get D re T is equal to B times pi this
+get D re T is equal to B times pi this is a system of differential equations
+and much like a system of equations in general the idea is that all three of
+these must be true at the same time if you have a guess for your SMT I of T and
+you have a guess for your SMT I of T and R of T it must obey all three of these
+R of T it must obey all three of these equations if it's going to satisfy the
+equations if it's going to satisfy the model
+we're developing now in this video we're not going to completely try and solve
+not going to completely try and solve this particular system of so-called
+this particular system of so-called nonlinear differential equations the s
+nonlinear differential equations the s times I creates non-linearity that turns
+times I creates non-linearity that turns out to be challenging but we can still
+get a lot of nice qualitative features about how academics spread from
+about how academics spread from analyzing this system of differential
+equations let me show you some graphs of what the S of T the IMT and our teammate
+what the S of T the IMT and our teammate possibly look like the equations that I
+possibly look like the equations that I have don't give you the SMTV R of T and
+the IMT directly they give you their rates of change equations that govern
+rates of change equations that govern their behavior but if I think about the
+sort of susceptible so if I imagine I've got some town is about 500 people and
+got some town is about 500 people and I'm gonna Majan the course of some
+epidemic that lasts a 60 days so if I look down the yellow what's happening
+look down the yellow what's happening here is that it starts at approximately
+500 and then it drops as time goes along the number of susceptibles goes less and
+the number of susceptibles goes less and less and less and less and less and I'm
+going to imagine any section actually sweeps through this particular town and
+sweeps through this particular town and it's going to infect everybody at the
+it's going to infect everybody at the end of the day the number of susceptible
+end of the day the number of susceptible people go to zero because everybody's
+people go to zero because everybody's had this particular infection and so at
+had this particular infection and so at the end of the day the number of
+susceptible goes to zero because at some point everybody in the town has be
+point everybody in the town has be infected likewise for the recovered
+people if everyone has gotten infected and then gone through that process of
+and then gone through that process of becoming recovered their immune systems
+becoming recovered their immune systems kicked in then the number of recovered
+people which initially was zero in the blue you can see goes up up and gets
+blue you can see goes up up and gets close to the 500 okay but now let's look
+at di DT to sort of the imaging one because if you look at the equation that
+because if you look at the equation that governs di DT that's got two different
+governs di DT that's got two different terms a positive and negative and for
+terms a positive and negative and for the first portion when the number of
+the first portion when the number of susceptibles is large that positive term
+susceptibles is large that positive term that includes the number of susceptible
+dominates and so the infecteds goes up up up up up but as time goes on and the
+up up up up but as time goes on and the number of susceptibles is going to draw
+number of susceptibles is going to draw then the negative term starts to
+dominate the positive term in then the infected people go down in quantity as
+infected people go down in quantity as they transition to be recovered more
+they transition to be recovered more quickly than they get new cases from
+people transitioning out of being susceptible so these three graphs give
+susceptible so these three graphs give one example of the kind of behaviors you
+one example of the kind of behaviors you can get when you try to solve this
+equations let me zoom in a little bit more on that interesting equation the di
+more on that interesting equation the di DT equal to the a si the number of new
+effective minus the BI the loss of effective people to recover people if I
+think about whether there's going to be an epidemic or whether there's not going
+to be an epidemic and one of the quick that the game right before the number of
+that the game right before the number of infected people is skyrocket so if I
+look at that exact same question but I plug in T equal to zero then where I had
+plug in T equal to zero then where I had asked I will write s naught for the
+asked I will write s naught for the initial number of susceptibles and for I
+initial number of susceptibles and for I all right I know fee the initial number
+of infected so the big question here is whether this rate of change is less than
+than zero then di DT the rate of change of infected respect to T is increasing
+to go up I'm gonna have an epidemic if however di DT is less than zero then yes
+however di DT is less than zero then yes new people may get infected but they
+new people may get infected but they leave the status of being infected
+faster the new people are gained and so it's going to die out you're not gonna
+it's going to die out you're not gonna have an epidemic that's what we're
+hoping to have okay so if I look at this I see that my equation has an AI not in
+I see that my equation has an AI not in both terms so I'm gonna cancel my I
+knots and that just says I'm asking is a s naught minus B going to be less than
+zero and if I go and put my B to the other side of them divide it out this is
+other side of them divide it out this is the same thing as asking is a s naught
+the same thing as asking is a s naught divided be less than one so this is the
+question when you look at these coefficients the a missle another step
+coefficients the a missle another step but which is probably everybody in your
+but which is probably everybody in your region you're considering the
+and the be these two different transmission rates this particular ratio
+transmission rates this particular ratio was what we're asking is it less than 1
+or bigger than 1 if I focus on a little bit more it's actually given a name that
+bit more it's actually given a name that you may have seen before it is called or
+you may have seen before it is called or not or not by the way it's not to be
+not or not by the way it's not to be confused with as the initial population
+confused with as the initial population of recovered people a similar sounding
+term I look for that but are not as defined to be this particular ratio so
+defined to be this particular ratio so what does that mean well one of the
+what does that mean well one of the things that we can do is try to
+things that we can do is try to manipulate that Ray shield
+indeed you probably have heard that one of the things that you can do to prevent
+a lot of spreads is to wash your hands so if you lower the transmission right
+if you lower that value of a where they go things susceptible to infect it what
+go things susceptible to infect it what you are doing is that value that that
+content is going down and so a lot of the public health policies that people
+the public health policies that people do for example quarantine eat infected
+do for example quarantine eat infected people which sort of take some of the
+people which sort of take some of the population and prevents their ability to
+population and prevents their ability to spread or just washing your hands which
+spread or just washing your hands which is going to lower that transmission rate
+is going to lower that transmission rate that's getting the a down increasing the
+that's getting the a down increasing the probability that this ratio is less than
+probability that this ratio is less than 1 another thing you could try to do is
+affect the s naught and it depends on what you're talking about if there is a
+what you're talking about if there is a vaccine you can lower the number of
+vaccine you can lower the number of susceptible people by giving them
+vaccines and that's gonna bring this s not way down so for example if you
+not way down so for example if you couldn't say half of the people are
+couldn't say half of the people are going to have the vaccine thing you're
+going to have the vaccine thing you're going to lower your R naught by a factor
+of two the B's a little bit harder to change it says if you have people who
+change it says if you have people who are infected than what is the way to get
+are infected than what is the way to get them to becoming recovered but for most
+them to becoming recovered but for most cases what you're just trying to do here
+is just keep people alive and they're going to recover your immune system is
+going to recover your immune system is gonna go off themselves so you can't
+really affect be too much okay so this is what happened at time T equal to zero
+is what happened at time T equal to zero book and what to sort of look at what
+happens around time T equal to zero isn't what I'm gonna do is I'm gonna
+look at the same equation here this D ID to you I'm going to now imagine that the
+to you I'm going to now imagine that the infected number can increase
+but I'm just going to assume that the S is approximately constant and so this is
+is approximately constant and so this is only going to be true around the time T
+equal to zero I want to look just near the beginning so in other words this is
+the beginning so in other words this is equal to I times some constant this
+constant a s naught minus B well this is a differential equation that relates the
+a differential equation that relates the derivative of a lie to I itself and it
+candidate to be a solution to this differential equation
+is I of T is just the exponential of a s naught minus B times T indeed if you
+naught minus B times T indeed if you took the derivative of that the constant
+took the derivative of that the constant would come out the front and that would
+look just like I again times this constant you plug that in indeed you get
+constant you plug that in indeed you get a solution to that obe so what we're
+saying is that near the beginning when these assumptions are valid so near T
+these assumptions are valid so near T equal to zero where we will assume our
+equal to zero where we will assume our initial susceptibles s naught is
+initial susceptibles s naught is approximately constant then you get
+exponential growth so here we are on march 10th if we look at the epidemic
+march 10th if we look at the epidemic that is facing our world right now we
+that is facing our world right now we can actually go and look at what the
+curves look like for example this is the growth outside of China what you see is
+growth outside of China what you see is that we have exponential growth just
+added by the way it comes from worldö meters which is what the website and I
+meters which is what the website and I will link it down in the description so
+will link it down in the description so this kind of exponential shape that
+this kind of exponential shape that we're here
+well models the behavior from the SAR model in small values of T where T is
+not yet so large as time goes on even in the worst and most horrible cases that
+we would like to avoid as the number of infected people skyrocket and the number
+infected people skyrocket and the number of susceptible Lupul goes down
+of susceptible Lupul goes down eventually this will flatten out and
+eventually this will flatten out and decline as we saw in the earlier
+decline as we saw in the earlier examples for a little region with just
+examples for a little region with just 500 people but we're certainly not there
+500 people but we're certainly not there yet and we're trying to everything from
+yet and we're trying to everything from sort of a public health perspective to
+sort of a public health perspective to contain it so that we don't have to rely
+on that feature to bring number people down this exponential graph is
+people down this exponential graph is sometimes nicer to be viewed
+sometimes nicer to be viewed logarithmically so now we're plotting
+logarithmically so now we're plotting the number of cases on a logarithmic
+exponential you just get a linear indeed this looks relatively linear so the
+this looks relatively linear so the point is that this model is currently
+point is that this model is currently doing a reasonable job of predicting the
+doing a reasonable job of predicting the actual real-world data of course this is
+actual real-world data of course this is a very simplistic model and you're
+actually trying to work and try to model this accurately to make prediction we
+this accurately to make prediction we want to include many other factors that
+we have not included here but nevertheless this sort of traditional
+model gives a good stepping stone into the field of epidemic modeling finally
+if you enjoyed this video give it a like if you have questions republic's leave a
+if you have questions republic's leave a comment down below and we will do some
+comment down below and we will do some more math in the next video

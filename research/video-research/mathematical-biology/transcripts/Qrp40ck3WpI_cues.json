@@ -1,0 +1,1432 @@
+[
+  {
+    "t_start": 1.939,
+    "t_end": 4.61,
+    "text": "in this video we're going to investigate the mathematics of an epidemic that's"
+  },
+  {
+    "t_start": 4.61,
+    "t_end": 6.23,
+    "text": "the mathematics of an epidemic that's spreading around the world"
+  },
+  {
+    "t_start": 6.23,
+    "t_end": 10.61,
+    "text": "how can researchers around the world come up with mathematical models that"
+  },
+  {
+    "t_start": 10.61,
+    "t_end": 15.56,
+    "text": "come up with mathematical models that predict things such as what is the rate"
+  },
+  {
+    "t_start": 15.56,
+    "t_end": 18.29,
+    "text": "of a spread epidemic how bad is the epidemic going to be and so in this"
+  },
+  {
+    "t_start": 18.29,
+    "t_end": 20.3,
+    "text": "epidemic going to be and so in this video we're going to study a simple"
+  },
+  {
+    "t_start": 20.3,
+    "t_end": 24.259,
+    "text": "video we're going to study a simple epidemic model called the SI R model the"
+  },
+  {
+    "t_start": 24.259,
+    "t_end": 25.279,
+    "text": "epidemic model called the SI R model the idea works as follows"
+  },
+  {
+    "t_start": 25.279,
+    "t_end": 29.839,
+    "text": "I'm going to imagine taking all the people in the world and dividing them"
+  },
+  {
+    "t_start": 29.839,
+    "t_end": 31.97,
+    "text": "people in the world and dividing them into three different categories the"
+  },
+  {
+    "t_start": 31.97,
+    "t_end": 34.87,
+    "text": "into three different categories the first category is called susceptibles"
+  },
+  {
+    "t_start": 34.87,
+    "t_end": 40.16,
+    "text": "first category is called susceptibles susceptibles are all of the people that"
+  },
+  {
+    "t_start": 40.16,
+    "t_end": 42.17,
+    "text": "are capable of becoming sick from an infection in this case we'll assume we"
+  },
+  {
+    "t_start": 42.17,
+    "t_end": 43.549,
+    "text": "infection in this case we'll assume we have some sort of infection that is"
+  },
+  {
+    "t_start": 43.549,
+    "t_end": 46.549,
+    "text": "have some sort of infection that is capable of infecting everybody so at the"
+  },
+  {
+    "t_start": 46.549,
+    "t_end": 48.319,
+    "text": "capable of infecting everybody so at the beginning everybody is going to be"
+  },
+  {
+    "t_start": 48.319,
+    "t_end": 50.99,
+    "text": "beginning everybody is going to be susceptible then we have the second"
+  },
+  {
+    "t_start": 50.99,
+    "t_end": 52.549,
+    "text": "susceptible then we have the second category of people those are the people"
+  },
+  {
+    "t_start": 52.549,
+    "t_end": 57.56,
+    "text": "category of people those are the people who are infected and when you become and"
+  },
+  {
+    "t_start": 57.56,
+    "t_end": 60.619,
+    "text": "that did you leave the susceptible category for most diseases after you've"
+  },
+  {
+    "t_start": 60.619,
+    "t_end": 64.429,
+    "text": "category for most diseases after you've gotten it after you've been infected"
+  },
+  {
+    "t_start": 64.429,
+    "t_end": 67.219,
+    "text": "you're not now susceptible to get it a second time you just get infected once"
+  },
+  {
+    "t_start": 67.219,
+    "t_end": 70.91,
+    "text": "second time you just get infected once and then those who have the infected"
+  },
+  {
+    "t_start": 70.91,
+    "t_end": 73.13,
+    "text": "and then those who have the infected disease they are going to transition at"
+  },
+  {
+    "t_start": 73.13,
+    "t_end": 75.62,
+    "text": "disease they are going to transition at some point hopefully into a recovered"
+  },
+  {
+    "t_start": 75.62,
+    "t_end": 80.33,
+    "text": "some point hopefully into a recovered status and as long as I assume that the"
+  },
+  {
+    "t_start": 80.33,
+    "t_end": 81.92,
+    "text": "death rate is small compared to the number that are being recovered I'll"
+  },
+  {
+    "t_start": 81.92,
+    "t_end": 83.42,
+    "text": "number that are being recovered I'll just imagine that this explains"
+  },
+  {
+    "t_start": 83.42,
+    "t_end": 85.07,
+    "text": "just imagine that this explains everybody everything is either"
+  },
+  {
+    "t_start": 85.07,
+    "t_end": 90.2,
+    "text": "susceptible which means they could get out or they're currently infected in"
+  },
+  {
+    "t_start": 90.2,
+    "t_end": 91.55,
+    "text": "out or they're currently infected in which case they could go and infect"
+  },
+  {
+    "t_start": 91.55,
+    "t_end": 96.2,
+    "text": "other people or they could go and become recovered in which case they can neither"
+  },
+  {
+    "t_start": 96.2,
+    "t_end": 100.64,
+    "text": "recovered in which case they can neither get this particular illness nor can they"
+  },
+  {
+    "t_start": 100.64,
+    "t_end": 102.92,
+    "text": "give it to somebody else those are the assumptions of this model I can write"
+  },
+  {
+    "t_start": 102.92,
+    "t_end": 105.08,
+    "text": "assumptions of this model I can write this assumption as an equation by saying"
+  },
+  {
+    "t_start": 105.08,
+    "t_end": 107.66,
+    "text": "this assumption as an equation by saying that the sum of the susceptibles the"
+  },
+  {
+    "t_start": 107.66,
+    "t_end": 113.929,
+    "text": "infected and the recovered people adds up to n which is everybody perhaps not"
+  },
+  {
+    "t_start": 113.929,
+    "t_end": 117.56,
+    "text": "zoom in just want to take one little town we could have envied everybody in a"
+  },
+  {
+    "t_start": 117.56,
+    "t_end": 118.94,
+    "text": "town we could have envied everybody in a town one of the things that's going to"
+  },
+  {
+    "t_start": 118.94,
+    "t_end": 124.34,
+    "text": "be helpful for us is to give some labels to what happened to these values at time"
+  },
+  {
+    "t_start": 124.34,
+    "t_end": 125.83,
+    "text": "to what happened to these values at time T equal to"
+  },
+  {
+    "t_start": 125.83,
+    "t_end": 133.809,
+    "text": "conditions and the idea here is that at the beginning there is well no recovery"
+  },
+  {
+    "t_start": 133.809,
+    "t_end": 134.92,
+    "text": "the beginning there is well no recovery people because we're at the beginning"
+  },
+  {
+    "t_start": 134.92,
+    "t_end": 140.559,
+    "text": "people because we're at the beginning there's going to be a very small number"
+  },
+  {
+    "t_start": 140.559,
+    "t_end": 141.91,
+    "text": "of infected people probably just one right at the very beginning although we"
+  },
+  {
+    "t_start": 141.91,
+    "t_end": 143.71,
+    "text": "right at the very beginning although we might not start tracking data for a"
+  },
+  {
+    "t_start": 143.71,
+    "t_end": 146.05,
+    "text": "might not start tracking data for a little while and so the I not the"
+  },
+  {
+    "t_start": 146.05,
+    "t_end": 147.97,
+    "text": "little while and so the I not the initial node of infected people might"
+  },
+  {
+    "t_start": 147.97,
+    "t_end": 150.22,
+    "text": "initial node of infected people might just be some relatively small number and"
+  },
+  {
+    "t_start": 150.22,
+    "t_end": 153.16,
+    "text": "just be some relatively small number and then the that's not the amount of"
+  },
+  {
+    "t_start": 153.16,
+    "t_end": 155.11,
+    "text": "then the that's not the amount of susceptible people at time equal to zero"
+  },
+  {
+    "t_start": 155.11,
+    "t_end": 156.94,
+    "text": "susceptible people at time equal to zero with everybody else I saw a very large"
+  },
+  {
+    "t_start": 156.94,
+    "t_end": 160.199,
+    "text": "with everybody else I saw a very large number so I sort of described"
+  },
+  {
+    "t_start": 160.199,
+    "t_end": 162.55,
+    "text": "number so I sort of described pictorially what's going on that we have"
+  },
+  {
+    "t_start": 162.55,
+    "t_end": 164.319,
+    "text": "pictorially what's going on that we have the sort of cascade of people who are"
+  },
+  {
+    "t_start": 164.319,
+    "t_end": 166.479,
+    "text": "the sort of cascade of people who are susceptible and then they become"
+  },
+  {
+    "t_start": 166.479,
+    "t_end": 170.35,
+    "text": "infected and then the in fact people creating more infected but some of those"
+  },
+  {
+    "t_start": 170.35,
+    "t_end": 172.03,
+    "text": "creating more infected but some of those infected people then go on to become"
+  },
+  {
+    "t_start": 172.03,
+    "t_end": 174.46,
+    "text": "infected people then go on to become recovered however what I really want to"
+  },
+  {
+    "t_start": 174.46,
+    "t_end": 179.8,
+    "text": "do is try to write down equations that govern the behavior of this s of T I of"
+  },
+  {
+    "t_start": 179.8,
+    "t_end": 184.449,
+    "text": "T and R of T what I'm going to do here is use the type of mathematics called a"
+  },
+  {
+    "t_start": 184.449,
+    "t_end": 188.08,
+    "text": "is use the type of mathematics called a system of differential equations let me"
+  },
+  {
+    "t_start": 188.08,
+    "t_end": 190.42,
+    "text": "system of differential equations let me explain what that is the idea is that"
+  },
+  {
+    "t_start": 190.42,
+    "t_end": 195.67,
+    "text": "for each of these three things I want to write down a rate of change with respect"
+  },
+  {
+    "t_start": 195.67,
+    "t_end": 198.25,
+    "text": "write down a rate of change with respect to T this is what a derivative is so"
+  },
+  {
+    "t_start": 198.25,
+    "t_end": 204.22,
+    "text": "this dsdt you can think of as how the number of susceptibles is changing in"
+  },
+  {
+    "t_start": 204.22,
+    "t_end": 209.65,
+    "text": "time the IET is our sort of calculus sort and for how the number of infected"
+  },
+  {
+    "t_start": 209.65,
+    "t_end": 211.36,
+    "text": "sort and for how the number of infected people is changing expect a time and"
+  },
+  {
+    "t_start": 211.36,
+    "t_end": 213.16,
+    "text": "people is changing expect a time and likewise for deep Rd T the number of"
+  },
+  {
+    "t_start": 213.16,
+    "t_end": 215.53,
+    "text": "likewise for deep Rd T the number of recovered people how that is changing"
+  },
+  {
+    "t_start": 215.53,
+    "t_end": 217.87,
+    "text": "recovered people how that is changing with respect to time so whatever the"
+  },
+  {
+    "t_start": 217.87,
+    "t_end": 221.08,
+    "text": "with respect to time so whatever the equation for each of these I think first"
+  },
+  {
+    "t_start": 221.08,
+    "t_end": 224.11,
+    "text": "equation for each of these I think first about just dsdt that change in the"
+  },
+  {
+    "t_start": 224.11,
+    "t_end": 225.789,
+    "text": "about just dsdt that change in the susceptibles I'm trying to people what"
+  },
+  {
+    "t_start": 225.789,
+    "t_end": 230.589,
+    "text": "susceptibles I'm trying to people what does that depend on the way that say I"
+  },
+  {
+    "t_start": 230.589,
+    "t_end": 236.289,
+    "text": "was infected and you were susceptible the way that I might infected you would"
+  },
+  {
+    "t_start": 236.289,
+    "t_end": 239.22,
+    "text": "be that if you and I both came and contact then there's some probability"
+  },
+  {
+    "t_start": 239.22,
+    "t_end": 245.199,
+    "text": "contact then there's some probability that I would infect you so when I think"
+  },
+  {
+    "t_start": 245.199,
+    "t_end": 247.809,
+    "text": "about what this should depend on the more there is connections between people"
+  },
+  {
+    "t_start": 247.809,
+    "t_end": 252.94,
+    "text": "more there is connections between people there the more the s and the eyes are"
+  },
+  {
+    "t_start": 252.94,
+    "t_end": 255.55,
+    "text": "going to multiply together to create more interactions the higher the"
+  },
+  {
+    "t_start": 255.55,
+    "t_end": 256.91,
+    "text": "more interactions the higher the likelihood that septum"
+  },
+  {
+    "t_start": 256.91,
+    "t_end": 261.14,
+    "text": "people are going to become infected so as an equation I can take that premise"
+  },
+  {
+    "t_start": 261.14,
+    "t_end": 263.45,
+    "text": "as an equation I can take that premise and weight it down like this I'm going"
+  },
+  {
+    "t_start": 263.45,
+    "t_end": 264.83,
+    "text": "and weight it down like this I'm going to say that the rate of change is"
+  },
+  {
+    "t_start": 264.83,
+    "t_end": 267.83,
+    "text": "to say that the rate of change is susceptibles is the negative because the"
+  },
+  {
+    "t_start": 267.83,
+    "t_end": 271.97,
+    "text": "susceptibles is the negative because the susceptibles are getting smaller as time"
+  },
+  {
+    "t_start": 271.97,
+    "t_end": 275.48,
+    "text": "goes on as they transition to being infected it's a negative some constant a"
+  },
+  {
+    "t_start": 275.48,
+    "t_end": 278.99,
+    "text": "infected it's a negative some constant a in which I think it was a positive"
+  },
+  {
+    "t_start": 278.99,
+    "t_end": 281.27,
+    "text": "constant here but sort of proportionality constant and then"
+  },
+  {
+    "t_start": 281.27,
+    "t_end": 285.77,
+    "text": "multiplied by s and I together because the larger that multiplication is the"
+  },
+  {
+    "t_start": 285.77,
+    "t_end": 290.3,
+    "text": "larger the number of interactions between susceptible and infected people"
+  },
+  {
+    "t_start": 290.3,
+    "t_end": 297.53,
+    "text": "between susceptible and infected people are ok so that's my dsdt what about my"
+  },
+  {
+    "t_start": 297.53,
+    "t_end": 299.57,
+    "text": "di DT well first of all when I think about infected people one way you can"
+  },
+  {
+    "t_start": 299.57,
+    "t_end": 302.0,
+    "text": "about infected people one way you can get infected people is that susceptible"
+  },
+  {
+    "t_start": 302.0,
+    "t_end": 308.06,
+    "text": "people transition to infect it so if you lost - a si out of the susceptibles then"
+  },
+  {
+    "t_start": 308.06,
+    "t_end": 310.07,
+    "text": "lost - a si out of the susceptibles then you're going to gain it here in the"
+  },
+  {
+    "t_start": 310.07,
+    "t_end": 313.12,
+    "text": "you're going to gain it here in the infected as well you get a plus a as I"
+  },
+  {
+    "t_start": 313.12,
+    "t_end": 315.35,
+    "text": "infected as well you get a plus a as I but that's not the only factor that"
+  },
+  {
+    "t_start": 315.35,
+    "t_end": 318.38,
+    "text": "but that's not the only factor that affects infecting people there's new"
+  },
+  {
+    "t_start": 318.38,
+    "t_end": 322.04,
+    "text": "lose that to people coming in when you transition from susceptible to infect it"
+  },
+  {
+    "t_start": 322.04,
+    "t_end": 324.65,
+    "text": "transition from susceptible to infect it but there are also losses of infected"
+  },
+  {
+    "t_start": 324.65,
+    "t_end": 326.81,
+    "text": "but there are also losses of infected people when they get recovered from the"
+  },
+  {
+    "t_start": 326.81,
+    "t_end": 328.91,
+    "text": "people when they get recovered from the disease when their immune system sort of"
+  },
+  {
+    "t_start": 328.91,
+    "t_end": 330.59,
+    "text": "disease when their immune system sort of kicks in and they fight it off and then"
+  },
+  {
+    "t_start": 330.59,
+    "t_end": 332.63,
+    "text": "kicks in and they fight it off and then they're no longer capable of infecting"
+  },
+  {
+    "t_start": 332.63,
+    "t_end": 335.45,
+    "text": "they're no longer capable of infecting anybody and so when that happens you"
+  },
+  {
+    "t_start": 335.45,
+    "t_end": 338.24,
+    "text": "anybody and so when that happens you also have a loss of infected people"
+  },
+  {
+    "t_start": 338.24,
+    "t_end": 340.13,
+    "text": "also have a loss of infected people which is a good thing and therefore a"
+  },
+  {
+    "t_start": 340.13,
+    "t_end": 343.82,
+    "text": "which is a good thing and therefore a negative B I turn the more infected"
+  },
+  {
+    "t_start": 343.82,
+    "t_end": 346.88,
+    "text": "negative B I turn the more infected there are the bigger the rate of change"
+  },
+  {
+    "t_start": 346.88,
+    "t_end": 352.07,
+    "text": "there are the bigger the rate of change of infect is leaving the the bigger this"
+  },
+  {
+    "t_start": 352.07,
+    "t_end": 354.14,
+    "text": "sort of bi is going to become but then for the recovered people if you are"
+  },
+  {
+    "t_start": 354.14,
+    "t_end": 361.94,
+    "text": "them right back into the recover so you get D re T is equal to B times pi this"
+  },
+  {
+    "t_start": 361.94,
+    "t_end": 364.55,
+    "text": "get D re T is equal to B times pi this is a system of differential equations"
+  },
+  {
+    "t_start": 364.55,
+    "t_end": 370.46,
+    "text": "and much like a system of equations in general the idea is that all three of"
+  },
+  {
+    "t_start": 370.46,
+    "t_end": 375.71,
+    "text": "these must be true at the same time if you have a guess for your SMT I of T and"
+  },
+  {
+    "t_start": 375.71,
+    "t_end": 378.98,
+    "text": "you have a guess for your SMT I of T and R of T it must obey all three of these"
+  },
+  {
+    "t_start": 378.98,
+    "t_end": 380.39,
+    "text": "R of T it must obey all three of these equations if it's going to satisfy the"
+  },
+  {
+    "t_start": 380.39,
+    "t_end": 381.24,
+    "text": "equations if it's going to satisfy the model"
+  },
+  {
+    "t_start": 381.24,
+    "t_end": 386.28,
+    "text": "we're developing now in this video we're not going to completely try and solve"
+  },
+  {
+    "t_start": 386.28,
+    "t_end": 388.73,
+    "text": "not going to completely try and solve this particular system of so-called"
+  },
+  {
+    "t_start": 388.73,
+    "t_end": 391.38,
+    "text": "this particular system of so-called nonlinear differential equations the s"
+  },
+  {
+    "t_start": 391.38,
+    "t_end": 394.38,
+    "text": "nonlinear differential equations the s times I creates non-linearity that turns"
+  },
+  {
+    "t_start": 394.38,
+    "t_end": 398.55,
+    "text": "times I creates non-linearity that turns out to be challenging but we can still"
+  },
+  {
+    "t_start": 398.55,
+    "t_end": 400.5,
+    "text": "get a lot of nice qualitative features about how academics spread from"
+  },
+  {
+    "t_start": 400.5,
+    "t_end": 403.17,
+    "text": "about how academics spread from analyzing this system of differential"
+  },
+  {
+    "t_start": 403.17,
+    "t_end": 410.43,
+    "text": "equations let me show you some graphs of what the S of T the IMT and our teammate"
+  },
+  {
+    "t_start": 410.43,
+    "t_end": 413.31,
+    "text": "what the S of T the IMT and our teammate possibly look like the equations that I"
+  },
+  {
+    "t_start": 413.31,
+    "t_end": 417.99,
+    "text": "possibly look like the equations that I have don't give you the SMTV R of T and"
+  },
+  {
+    "t_start": 417.99,
+    "t_end": 420.63,
+    "text": "the IMT directly they give you their rates of change equations that govern"
+  },
+  {
+    "t_start": 420.63,
+    "t_end": 425.55,
+    "text": "rates of change equations that govern their behavior but if I think about the"
+  },
+  {
+    "t_start": 425.55,
+    "t_end": 429.84,
+    "text": "sort of susceptible so if I imagine I've got some town is about 500 people and"
+  },
+  {
+    "t_start": 429.84,
+    "t_end": 431.61,
+    "text": "got some town is about 500 people and I'm gonna Majan the course of some"
+  },
+  {
+    "t_start": 431.61,
+    "t_end": 436.86,
+    "text": "epidemic that lasts a 60 days so if I look down the yellow what's happening"
+  },
+  {
+    "t_start": 436.86,
+    "t_end": 439.35,
+    "text": "look down the yellow what's happening here is that it starts at approximately"
+  },
+  {
+    "t_start": 439.35,
+    "t_end": 443.88,
+    "text": "500 and then it drops as time goes along the number of susceptibles goes less and"
+  },
+  {
+    "t_start": 443.88,
+    "t_end": 445.2,
+    "text": "the number of susceptibles goes less and less and less and less and less and I'm"
+  },
+  {
+    "t_start": 445.2,
+    "t_end": 449.01,
+    "text": "going to imagine any section actually sweeps through this particular town and"
+  },
+  {
+    "t_start": 449.01,
+    "t_end": 450.6,
+    "text": "sweeps through this particular town and it's going to infect everybody at the"
+  },
+  {
+    "t_start": 450.6,
+    "t_end": 452.67,
+    "text": "it's going to infect everybody at the end of the day the number of susceptible"
+  },
+  {
+    "t_start": 452.67,
+    "t_end": 454.71,
+    "text": "end of the day the number of susceptible people go to zero because everybody's"
+  },
+  {
+    "t_start": 454.71,
+    "t_end": 457.08,
+    "text": "people go to zero because everybody's had this particular infection and so at"
+  },
+  {
+    "t_start": 457.08,
+    "t_end": 458.76,
+    "text": "had this particular infection and so at the end of the day the number of"
+  },
+  {
+    "t_start": 458.76,
+    "t_end": 463.2,
+    "text": "susceptible goes to zero because at some point everybody in the town has be"
+  },
+  {
+    "t_start": 463.2,
+    "t_end": 467.13,
+    "text": "point everybody in the town has be infected likewise for the recovered"
+  },
+  {
+    "t_start": 467.13,
+    "t_end": 472.35,
+    "text": "people if everyone has gotten infected and then gone through that process of"
+  },
+  {
+    "t_start": 472.35,
+    "t_end": 474.33,
+    "text": "and then gone through that process of becoming recovered their immune systems"
+  },
+  {
+    "t_start": 474.33,
+    "t_end": 478.83,
+    "text": "becoming recovered their immune systems kicked in then the number of recovered"
+  },
+  {
+    "t_start": 478.83,
+    "t_end": 481.68,
+    "text": "people which initially was zero in the blue you can see goes up up and gets"
+  },
+  {
+    "t_start": 481.68,
+    "t_end": 484.89,
+    "text": "blue you can see goes up up and gets close to the 500 okay but now let's look"
+  },
+  {
+    "t_start": 484.89,
+    "t_end": 489.96,
+    "text": "at di DT to sort of the imaging one because if you look at the equation that"
+  },
+  {
+    "t_start": 489.96,
+    "t_end": 492.81,
+    "text": "because if you look at the equation that governs di DT that's got two different"
+  },
+  {
+    "t_start": 492.81,
+    "t_end": 495.57,
+    "text": "governs di DT that's got two different terms a positive and negative and for"
+  },
+  {
+    "t_start": 495.57,
+    "t_end": 497.969,
+    "text": "terms a positive and negative and for the first portion when the number of"
+  },
+  {
+    "t_start": 497.969,
+    "t_end": 500.76,
+    "text": "the first portion when the number of susceptibles is large that positive term"
+  },
+  {
+    "t_start": 500.76,
+    "t_end": 502.49,
+    "text": "susceptibles is large that positive term that includes the number of susceptible"
+  },
+  {
+    "t_start": 502.49,
+    "t_end": 508.469,
+    "text": "dominates and so the infecteds goes up up up up up but as time goes on and the"
+  },
+  {
+    "t_start": 508.469,
+    "t_end": 510.87,
+    "text": "up up up up but as time goes on and the number of susceptibles is going to draw"
+  },
+  {
+    "t_start": 510.87,
+    "t_end": 514.17,
+    "text": "number of susceptibles is going to draw then the negative term starts to"
+  },
+  {
+    "t_start": 514.17,
+    "t_end": 519.21,
+    "text": "dominate the positive term in then the infected people go down in quantity as"
+  },
+  {
+    "t_start": 519.21,
+    "t_end": 521.31,
+    "text": "infected people go down in quantity as they transition to be recovered more"
+  },
+  {
+    "t_start": 521.31,
+    "t_end": 525.33,
+    "text": "they transition to be recovered more quickly than they get new cases from"
+  },
+  {
+    "t_start": 525.33,
+    "t_end": 529.14,
+    "text": "people transitioning out of being susceptible so these three graphs give"
+  },
+  {
+    "t_start": 529.14,
+    "t_end": 532.14,
+    "text": "susceptible so these three graphs give one example of the kind of behaviors you"
+  },
+  {
+    "t_start": 532.14,
+    "t_end": 536.07,
+    "text": "one example of the kind of behaviors you can get when you try to solve this"
+  },
+  {
+    "t_start": 536.07,
+    "t_end": 540.9,
+    "text": "equations let me zoom in a little bit more on that interesting equation the di"
+  },
+  {
+    "t_start": 540.9,
+    "t_end": 547.32,
+    "text": "more on that interesting equation the di DT equal to the a si the number of new"
+  },
+  {
+    "t_start": 547.32,
+    "t_end": 550.26,
+    "text": "effective minus the BI the loss of effective people to recover people if I"
+  },
+  {
+    "t_start": 550.26,
+    "t_end": 555.15,
+    "text": "think about whether there's going to be an epidemic or whether there's not going"
+  },
+  {
+    "t_start": 555.15,
+    "t_end": 558.12,
+    "text": "to be an epidemic and one of the quick that the game right before the number of"
+  },
+  {
+    "t_start": 558.12,
+    "t_end": 560.34,
+    "text": "that the game right before the number of infected people is skyrocket so if I"
+  },
+  {
+    "t_start": 560.34,
+    "t_end": 565.41,
+    "text": "look at that exact same question but I plug in T equal to zero then where I had"
+  },
+  {
+    "t_start": 565.41,
+    "t_end": 567.0,
+    "text": "plug in T equal to zero then where I had asked I will write s naught for the"
+  },
+  {
+    "t_start": 567.0,
+    "t_end": 569.13,
+    "text": "asked I will write s naught for the initial number of susceptibles and for I"
+  },
+  {
+    "t_start": 569.13,
+    "t_end": 575.4,
+    "text": "initial number of susceptibles and for I all right I know fee the initial number"
+  },
+  {
+    "t_start": 575.4,
+    "t_end": 580.95,
+    "text": "of infected so the big question here is whether this rate of change is less than"
+  },
+  {
+    "t_start": 580.95,
+    "t_end": 585.84,
+    "text": "than zero then di DT the rate of change of infected respect to T is increasing"
+  },
+  {
+    "t_start": 585.84,
+    "t_end": 594.21,
+    "text": "to go up I'm gonna have an epidemic if however di DT is less than zero then yes"
+  },
+  {
+    "t_start": 594.21,
+    "t_end": 596.61,
+    "text": "however di DT is less than zero then yes new people may get infected but they"
+  },
+  {
+    "t_start": 596.61,
+    "t_end": 598.56,
+    "text": "new people may get infected but they leave the status of being infected"
+  },
+  {
+    "t_start": 598.56,
+    "t_end": 602.76,
+    "text": "faster the new people are gained and so it's going to die out you're not gonna"
+  },
+  {
+    "t_start": 602.76,
+    "t_end": 603.75,
+    "text": "it's going to die out you're not gonna have an epidemic that's what we're"
+  },
+  {
+    "t_start": 603.75,
+    "t_end": 609.66,
+    "text": "hoping to have okay so if I look at this I see that my equation has an AI not in"
+  },
+  {
+    "t_start": 609.66,
+    "t_end": 611.16,
+    "text": "I see that my equation has an AI not in both terms so I'm gonna cancel my I"
+  },
+  {
+    "t_start": 611.16,
+    "t_end": 616.08,
+    "text": "knots and that just says I'm asking is a s naught minus B going to be less than"
+  },
+  {
+    "t_start": 616.08,
+    "t_end": 620.94,
+    "text": "zero and if I go and put my B to the other side of them divide it out this is"
+  },
+  {
+    "t_start": 620.94,
+    "t_end": 622.56,
+    "text": "other side of them divide it out this is the same thing as asking is a s naught"
+  },
+  {
+    "t_start": 622.56,
+    "t_end": 627.3,
+    "text": "the same thing as asking is a s naught divided be less than one so this is the"
+  },
+  {
+    "t_start": 627.3,
+    "t_end": 629.73,
+    "text": "question when you look at these coefficients the a missle another step"
+  },
+  {
+    "t_start": 629.73,
+    "t_end": 631.53,
+    "text": "coefficients the a missle another step but which is probably everybody in your"
+  },
+  {
+    "t_start": 631.53,
+    "t_end": 633.73,
+    "text": "but which is probably everybody in your region you're considering the"
+  },
+  {
+    "t_start": 633.73,
+    "t_end": 637.78,
+    "text": "and the be these two different transmission rates this particular ratio"
+  },
+  {
+    "t_start": 637.78,
+    "t_end": 643.33,
+    "text": "transmission rates this particular ratio was what we're asking is it less than 1"
+  },
+  {
+    "t_start": 643.33,
+    "t_end": 645.46,
+    "text": "or bigger than 1 if I focus on a little bit more it's actually given a name that"
+  },
+  {
+    "t_start": 645.46,
+    "t_end": 647.17,
+    "text": "bit more it's actually given a name that you may have seen before it is called or"
+  },
+  {
+    "t_start": 647.17,
+    "t_end": 649.72,
+    "text": "you may have seen before it is called or not or not by the way it's not to be"
+  },
+  {
+    "t_start": 649.72,
+    "t_end": 651.55,
+    "text": "not or not by the way it's not to be confused with as the initial population"
+  },
+  {
+    "t_start": 651.55,
+    "t_end": 654.22,
+    "text": "confused with as the initial population of recovered people a similar sounding"
+  },
+  {
+    "t_start": 654.22,
+    "t_end": 658.12,
+    "text": "term I look for that but are not as defined to be this particular ratio so"
+  },
+  {
+    "t_start": 658.12,
+    "t_end": 660.94,
+    "text": "defined to be this particular ratio so what does that mean well one of the"
+  },
+  {
+    "t_start": 660.94,
+    "t_end": 662.56,
+    "text": "what does that mean well one of the things that we can do is try to"
+  },
+  {
+    "t_start": 662.56,
+    "t_end": 664.63,
+    "text": "things that we can do is try to manipulate that Ray shield"
+  },
+  {
+    "t_start": 664.63,
+    "t_end": 671.02,
+    "text": "indeed you probably have heard that one of the things that you can do to prevent"
+  },
+  {
+    "t_start": 671.02,
+    "t_end": 674.86,
+    "text": "a lot of spreads is to wash your hands so if you lower the transmission right"
+  },
+  {
+    "t_start": 674.86,
+    "t_end": 678.91,
+    "text": "if you lower that value of a where they go things susceptible to infect it what"
+  },
+  {
+    "t_start": 678.91,
+    "t_end": 681.25,
+    "text": "go things susceptible to infect it what you are doing is that value that that"
+  },
+  {
+    "t_start": 681.25,
+    "t_end": 685.9,
+    "text": "content is going down and so a lot of the public health policies that people"
+  },
+  {
+    "t_start": 685.9,
+    "t_end": 688.81,
+    "text": "the public health policies that people do for example quarantine eat infected"
+  },
+  {
+    "t_start": 688.81,
+    "t_end": 690.07,
+    "text": "do for example quarantine eat infected people which sort of take some of the"
+  },
+  {
+    "t_start": 690.07,
+    "t_end": 691.9,
+    "text": "people which sort of take some of the population and prevents their ability to"
+  },
+  {
+    "t_start": 691.9,
+    "t_end": 694.3,
+    "text": "population and prevents their ability to spread or just washing your hands which"
+  },
+  {
+    "t_start": 694.3,
+    "t_end": 696.67,
+    "text": "spread or just washing your hands which is going to lower that transmission rate"
+  },
+  {
+    "t_start": 696.67,
+    "t_end": 698.68,
+    "text": "is going to lower that transmission rate that's getting the a down increasing the"
+  },
+  {
+    "t_start": 698.68,
+    "t_end": 700.84,
+    "text": "that's getting the a down increasing the probability that this ratio is less than"
+  },
+  {
+    "t_start": 700.84,
+    "t_end": 706.33,
+    "text": "probability that this ratio is less than 1 another thing you could try to do is"
+  },
+  {
+    "t_start": 706.33,
+    "t_end": 707.83,
+    "text": "affect the s naught and it depends on what you're talking about if there is a"
+  },
+  {
+    "t_start": 707.83,
+    "t_end": 711.49,
+    "text": "what you're talking about if there is a vaccine you can lower the number of"
+  },
+  {
+    "t_start": 711.49,
+    "t_end": 714.01,
+    "text": "vaccine you can lower the number of susceptible people by giving them"
+  },
+  {
+    "t_start": 714.01,
+    "t_end": 717.46,
+    "text": "vaccines and that's gonna bring this s not way down so for example if you"
+  },
+  {
+    "t_start": 717.46,
+    "t_end": 719.44,
+    "text": "not way down so for example if you couldn't say half of the people are"
+  },
+  {
+    "t_start": 719.44,
+    "t_end": 722.26,
+    "text": "couldn't say half of the people are going to have the vaccine thing you're"
+  },
+  {
+    "t_start": 722.26,
+    "t_end": 727.69,
+    "text": "going to have the vaccine thing you're going to lower your R naught by a factor"
+  },
+  {
+    "t_start": 727.69,
+    "t_end": 730.06,
+    "text": "of two the B's a little bit harder to change it says if you have people who"
+  },
+  {
+    "t_start": 730.06,
+    "t_end": 732.7,
+    "text": "change it says if you have people who are infected than what is the way to get"
+  },
+  {
+    "t_start": 732.7,
+    "t_end": 735.34,
+    "text": "are infected than what is the way to get them to becoming recovered but for most"
+  },
+  {
+    "t_start": 735.34,
+    "t_end": 738.85,
+    "text": "them to becoming recovered but for most cases what you're just trying to do here"
+  },
+  {
+    "t_start": 738.85,
+    "t_end": 740.14,
+    "text": "is just keep people alive and they're going to recover your immune system is"
+  },
+  {
+    "t_start": 740.14,
+    "t_end": 741.97,
+    "text": "going to recover your immune system is gonna go off themselves so you can't"
+  },
+  {
+    "t_start": 741.97,
+    "t_end": 747.46,
+    "text": "really affect be too much okay so this is what happened at time T equal to zero"
+  },
+  {
+    "t_start": 747.46,
+    "t_end": 751.87,
+    "text": "is what happened at time T equal to zero book and what to sort of look at what"
+  },
+  {
+    "t_start": 751.87,
+    "t_end": 754.06,
+    "text": "happens around time T equal to zero isn't what I'm gonna do is I'm gonna"
+  },
+  {
+    "t_start": 754.06,
+    "t_end": 758.56,
+    "text": "look at the same equation here this D ID to you I'm going to now imagine that the"
+  },
+  {
+    "t_start": 758.56,
+    "t_end": 760.56,
+    "text": "to you I'm going to now imagine that the infected number can increase"
+  },
+  {
+    "t_start": 760.56,
+    "t_end": 765.12,
+    "text": "but I'm just going to assume that the S is approximately constant and so this is"
+  },
+  {
+    "t_start": 765.12,
+    "t_end": 769.68,
+    "text": "is approximately constant and so this is only going to be true around the time T"
+  },
+  {
+    "t_start": 769.68,
+    "t_end": 771.66,
+    "text": "equal to zero I want to look just near the beginning so in other words this is"
+  },
+  {
+    "t_start": 771.66,
+    "t_end": 773.46,
+    "text": "the beginning so in other words this is equal to I times some constant this"
+  },
+  {
+    "t_start": 773.46,
+    "t_end": 779.79,
+    "text": "constant a s naught minus B well this is a differential equation that relates the"
+  },
+  {
+    "t_start": 779.79,
+    "t_end": 785.61,
+    "text": "a differential equation that relates the derivative of a lie to I itself and it"
+  },
+  {
+    "t_start": 785.61,
+    "t_end": 787.02,
+    "text": "candidate to be a solution to this differential equation"
+  },
+  {
+    "t_start": 787.02,
+    "t_end": 794.22,
+    "text": "is I of T is just the exponential of a s naught minus B times T indeed if you"
+  },
+  {
+    "t_start": 794.22,
+    "t_end": 796.17,
+    "text": "naught minus B times T indeed if you took the derivative of that the constant"
+  },
+  {
+    "t_start": 796.17,
+    "t_end": 800.73,
+    "text": "took the derivative of that the constant would come out the front and that would"
+  },
+  {
+    "t_start": 800.73,
+    "t_end": 803.76,
+    "text": "look just like I again times this constant you plug that in indeed you get"
+  },
+  {
+    "t_start": 803.76,
+    "t_end": 809.37,
+    "text": "constant you plug that in indeed you get a solution to that obe so what we're"
+  },
+  {
+    "t_start": 809.37,
+    "t_end": 811.38,
+    "text": "saying is that near the beginning when these assumptions are valid so near T"
+  },
+  {
+    "t_start": 811.38,
+    "t_end": 813.54,
+    "text": "these assumptions are valid so near T equal to zero where we will assume our"
+  },
+  {
+    "t_start": 813.54,
+    "t_end": 815.1,
+    "text": "equal to zero where we will assume our initial susceptibles s naught is"
+  },
+  {
+    "t_start": 815.1,
+    "t_end": 817.7,
+    "text": "initial susceptibles s naught is approximately constant then you get"
+  },
+  {
+    "t_start": 817.7,
+    "t_end": 822.93,
+    "text": "exponential growth so here we are on march 10th if we look at the epidemic"
+  },
+  {
+    "t_start": 822.93,
+    "t_end": 824.61,
+    "text": "march 10th if we look at the epidemic that is facing our world right now we"
+  },
+  {
+    "t_start": 824.61,
+    "t_end": 827.04,
+    "text": "that is facing our world right now we can actually go and look at what the"
+  },
+  {
+    "t_start": 827.04,
+    "t_end": 832.47,
+    "text": "curves look like for example this is the growth outside of China what you see is"
+  },
+  {
+    "t_start": 832.47,
+    "t_end": 835.47,
+    "text": "growth outside of China what you see is that we have exponential growth just"
+  },
+  {
+    "t_start": 835.47,
+    "t_end": 838.38,
+    "text": "added by the way it comes from worldö meters which is what the website and I"
+  },
+  {
+    "t_start": 838.38,
+    "t_end": 840.62,
+    "text": "meters which is what the website and I will link it down in the description so"
+  },
+  {
+    "t_start": 840.62,
+    "t_end": 843.81,
+    "text": "will link it down in the description so this kind of exponential shape that"
+  },
+  {
+    "t_start": 843.81,
+    "t_end": 844.47,
+    "text": "this kind of exponential shape that we're here"
+  },
+  {
+    "t_start": 844.47,
+    "t_end": 851.25,
+    "text": "well models the behavior from the SAR model in small values of T where T is"
+  },
+  {
+    "t_start": 851.25,
+    "t_end": 857.82,
+    "text": "not yet so large as time goes on even in the worst and most horrible cases that"
+  },
+  {
+    "t_start": 857.82,
+    "t_end": 863.91,
+    "text": "we would like to avoid as the number of infected people skyrocket and the number"
+  },
+  {
+    "t_start": 863.91,
+    "t_end": 866.06,
+    "text": "infected people skyrocket and the number of susceptible Lupul goes down"
+  },
+  {
+    "t_start": 866.06,
+    "t_end": 868.44,
+    "text": "of susceptible Lupul goes down eventually this will flatten out and"
+  },
+  {
+    "t_start": 868.44,
+    "t_end": 870.12,
+    "text": "eventually this will flatten out and decline as we saw in the earlier"
+  },
+  {
+    "t_start": 870.12,
+    "t_end": 872.13,
+    "text": "decline as we saw in the earlier examples for a little region with just"
+  },
+  {
+    "t_start": 872.13,
+    "t_end": 874.38,
+    "text": "examples for a little region with just 500 people but we're certainly not there"
+  },
+  {
+    "t_start": 874.38,
+    "t_end": 876.3,
+    "text": "500 people but we're certainly not there yet and we're trying to everything from"
+  },
+  {
+    "t_start": 876.3,
+    "t_end": 877.68,
+    "text": "yet and we're trying to everything from sort of a public health perspective to"
+  },
+  {
+    "t_start": 877.68,
+    "t_end": 882.93,
+    "text": "sort of a public health perspective to contain it so that we don't have to rely"
+  },
+  {
+    "t_start": 882.93,
+    "t_end": 886.92,
+    "text": "on that feature to bring number people down this exponential graph is"
+  },
+  {
+    "t_start": 886.92,
+    "t_end": 888.71,
+    "text": "people down this exponential graph is sometimes nicer to be viewed"
+  },
+  {
+    "t_start": 888.71,
+    "t_end": 891.42,
+    "text": "sometimes nicer to be viewed logarithmically so now we're plotting"
+  },
+  {
+    "t_start": 891.42,
+    "t_end": 897.03,
+    "text": "logarithmically so now we're plotting the number of cases on a logarithmic"
+  },
+  {
+    "t_start": 897.03,
+    "t_end": 902.94,
+    "text": "exponential you just get a linear indeed this looks relatively linear so the"
+  },
+  {
+    "t_start": 902.94,
+    "t_end": 905.49,
+    "text": "this looks relatively linear so the point is that this model is currently"
+  },
+  {
+    "t_start": 905.49,
+    "t_end": 908.1,
+    "text": "point is that this model is currently doing a reasonable job of predicting the"
+  },
+  {
+    "t_start": 908.1,
+    "t_end": 910.68,
+    "text": "doing a reasonable job of predicting the actual real-world data of course this is"
+  },
+  {
+    "t_start": 910.68,
+    "t_end": 912.15,
+    "text": "actual real-world data of course this is a very simplistic model and you're"
+  },
+  {
+    "t_start": 912.15,
+    "t_end": 916.41,
+    "text": "actually trying to work and try to model this accurately to make prediction we"
+  },
+  {
+    "t_start": 916.41,
+    "t_end": 919.14,
+    "text": "this accurately to make prediction we want to include many other factors that"
+  },
+  {
+    "t_start": 919.14,
+    "t_end": 921.24,
+    "text": "we have not included here but nevertheless this sort of traditional"
+  },
+  {
+    "t_start": 921.24,
+    "t_end": 927.18,
+    "text": "model gives a good stepping stone into the field of epidemic modeling finally"
+  },
+  {
+    "t_start": 927.18,
+    "t_end": 931.5,
+    "text": "if you enjoyed this video give it a like if you have questions republic's leave a"
+  },
+  {
+    "t_start": 931.5,
+    "t_end": 933.12,
+    "text": "if you have questions republic's leave a comment down below and we will do some"
+  },
+  {
+    "t_start": 933.12,
+    "t_end": 936.39,
+    "text": "comment down below and we will do some more math in the next video"
+  }
+]

@@ -1,0 +1,1072 @@
+[
+  {
+    "t_start": 5.99,
+    "t_end": 8.35,
+    "text": "thank you very much so I am going to spend the next 15 minutes giving a"
+  },
+  {
+    "t_start": 8.35,
+    "t_end": 11.27,
+    "text": "spend the next 15 minutes giving a simplified account of the mathematics"
+  },
+  {
+    "t_start": 11.27,
+    "t_end": 17.48,
+    "text": "for which Andrew Wiles has just won this year's árbol prize so let's go straight"
+  },
+  {
+    "t_start": 17.48,
+    "t_end": 19.73,
+    "text": "year's árbol prize so let's go straight to the citation the citation says it's"
+  },
+  {
+    "t_start": 19.73,
+    "t_end": 23.72,
+    "text": "to the citation the citation says it's read it out for his stunning proof of"
+  },
+  {
+    "t_start": 23.72,
+    "t_end": 26.12,
+    "text": "Fermat's Last Theorem by way of the modularity conjecture for semi-stable"
+  },
+  {
+    "t_start": 26.12,
+    "t_end": 30.5,
+    "text": "elliptic curves opening a new era in number theory now there are two elements"
+  },
+  {
+    "t_start": 30.5,
+    "t_end": 32.42,
+    "text": "number theory now there are two elements in this statement that I want to"
+  },
+  {
+    "t_start": 32.42,
+    "t_end": 34.67,
+    "text": "in this statement that I want to highlight firmers Last Theorem"
+  },
+  {
+    "t_start": 34.67,
+    "t_end": 40.63,
+    "text": "and the modularity conjecture I will explain what both of these things are"
+  },
+  {
+    "t_start": 40.63,
+    "t_end": 44.09,
+    "text": "explain what both of these things are how they relate to each other and the"
+  },
+  {
+    "t_start": 44.09,
+    "t_end": 50.15,
+    "text": "how they relate to each other and the work and the role of Andrew Wiles so"
+  },
+  {
+    "t_start": 50.15,
+    "t_end": 54.319,
+    "text": "beginning let's start with Pythagoras theorem this is the most famous theorem"
+  },
+  {
+    "t_start": 54.319,
+    "t_end": 58.91,
+    "text": "in mathematics it is rhetorically the right-angled triangles the square on the"
+  },
+  {
+    "t_start": 58.91,
+    "t_end": 68.39,
+    "text": "squares on the other two sides so if the hypotenuse is said Z the other two sides"
+  },
+  {
+    "t_start": 68.39,
+    "t_end": 71.0,
+    "text": "hypotenuse is said Z the other two sides of X&amp;Y it says that x squared plus y"
+  },
+  {
+    "t_start": 71.0,
+    "t_end": 74.42,
+    "text": "of X&amp;Y it says that x squared plus y squared is equal to Z squared now if"
+  },
+  {
+    "t_start": 74.42,
+    "t_end": 78.14,
+    "text": "squared is equal to Z squared now if there are whole numbers such that whole"
+  },
+  {
+    "t_start": 78.14,
+    "t_end": 82.969,
+    "text": "there are whole numbers such that whole numbers x y&amp;z such that that equation is"
+  },
+  {
+    "t_start": 82.969,
+    "t_end": 85.07,
+    "text": "satisfied we call these numbers Pythagorean triples there the whole"
+  },
+  {
+    "t_start": 85.07,
+    "t_end": 88.34,
+    "text": "numbers solutions for x squared plus y squared equals Z squared for example"
+  },
+  {
+    "t_start": 88.34,
+    "t_end": 93.94,
+    "text": "most simply 3 4 or 5 because 3 squared which is 9 add 4 squared which is 16"
+  },
+  {
+    "t_start": 93.94,
+    "t_end": 102.17,
+    "text": "which is 9 add 4 squared which is 16 equals 25 which is 5 squared it also"
+  },
+  {
+    "t_start": 102.17,
+    "t_end": 104.24,
+    "text": "works with 5 12 and 13 and this big number here in fact there an infinite"
+  },
+  {
+    "t_start": 104.24,
+    "t_end": 106.28,
+    "text": "number here in fact there an infinite number of Pythagorean triples and it's"
+  },
+  {
+    "t_start": 106.28,
+    "t_end": 108.889,
+    "text": "number of Pythagorean triples and it's something that people mathematicians"
+  },
+  {
+    "t_start": 108.889,
+    "t_end": 115.969,
+    "text": "especially are very interested in now pierre de 5 Pierre de Fermat very famous"
+  },
+  {
+    "t_start": 115.969,
+    "t_end": 119.209,
+    "text": "pierre de 5 Pierre de Fermat very famous French 17th century mathematician in"
+  },
+  {
+    "t_start": 119.209,
+    "t_end": 126.999,
+    "text": "his day job he was a judge he's a judge in Toulouse in the South of France and"
+  },
+  {
+    "t_start": 126.999,
+    "t_end": 129.02,
+    "text": "in Toulouse in the South of France and when he came home at night he wasn't"
+  },
+  {
+    "t_start": 129.02,
+    "t_end": 131.57,
+    "text": "when he came home at night he wasn't supposed to go around mixing with with"
+  },
+  {
+    "t_start": 131.57,
+    "t_end": 133.94,
+    "text": "supposed to go around mixing with with people who might be sentencing"
+  },
+  {
+    "t_start": 133.94,
+    "t_end": 136.91,
+    "text": "so he did lots of mathematics in fact he correspondent with the greatest"
+  },
+  {
+    "t_start": 136.91,
+    "t_end": 141.41,
+    "text": "mathematicians of his day and came up with lots of amazing massive himself"
+  },
+  {
+    "t_start": 141.41,
+    "t_end": 143.42,
+    "text": "with lots of amazing massive himself he's known nicknamed the prince of"
+  },
+  {
+    "t_start": 143.42,
+    "t_end": 146.21,
+    "text": "he's known nicknamed the prince of amateurs so he was looking at"
+  },
+  {
+    "t_start": 146.21,
+    "t_end": 149.93,
+    "text": "amateurs so he was looking at Pythagorean theorem triples and then"
+  },
+  {
+    "t_start": 149.93,
+    "t_end": 157.01,
+    "text": "wondered what happens if I even turned the knob up rather than x squared plus y"
+  },
+  {
+    "t_start": 157.01,
+    "t_end": 161.66,
+    "text": "squared equals Z squared what about X cubed plus y cubed equals Z cubed"
+  },
+  {
+    "t_start": 161.66,
+    "t_end": 166.28,
+    "text": "are there any whole number solutions couldn't find any what about X to the 4"
+  },
+  {
+    "t_start": 166.28,
+    "t_end": 171.979,
+    "text": "likewise X 5 was white the 5ik keep on going and then we come to his statement"
+  },
+  {
+    "t_start": 171.979,
+    "t_end": 174.19,
+    "text": "going and then we come to his statement of the theorem he wrote this statement"
+  },
+  {
+    "t_start": 174.19,
+    "t_end": 176.27,
+    "text": "of the theorem he wrote this statement which we now know is fermat's last"
+  },
+  {
+    "t_start": 176.27,
+    "t_end": 182.99,
+    "text": "the N plus YP l equals ed the N has no whole number solutions when n is bigger"
+  },
+  {
+    "t_start": 182.99,
+    "t_end": 187.1,
+    "text": "than 2 now he didn't do like what a mathematician would do these days which"
+  },
+  {
+    "t_start": 187.1,
+    "t_end": 191.809,
+    "text": "mathematician would do these days which is right the theorem and then prove it"
+  },
+  {
+    "t_start": 191.809,
+    "t_end": 194.059,
+    "text": "he actually was reading this book here the arithmetic Abay Diophantus for a"
+  },
+  {
+    "t_start": 194.059,
+    "t_end": 196.309,
+    "text": "the arithmetic Abay Diophantus for a famous Greek mathematician and on a"
+  },
+  {
+    "t_start": 196.309,
+    "t_end": 199.31,
+    "text": "famous Greek mathematician and on a section about Pythagorean triples he"
+  },
+  {
+    "t_start": 199.31,
+    "t_end": 202.58,
+    "text": "section about Pythagorean triples he wrote this statement and then the"
+  },
+  {
+    "t_start": 202.58,
+    "t_end": 205.449,
+    "text": "wrote this statement and then the sentence I have a truly marvelous"
+  },
+  {
+    "t_start": 205.449,
+    "t_end": 207.68,
+    "text": "sentence I have a truly marvelous demonstration of this proposition which"
+  },
+  {
+    "t_start": 207.68,
+    "t_end": 212.289,
+    "text": "this margin is too narrow to contain possibly the most famous line in all of"
+  },
+  {
+    "t_start": 212.289,
+    "t_end": 215.06,
+    "text": "possibly the most famous line in all of the Mayor was non-mathematical line in"
+  },
+  {
+    "t_start": 215.06,
+    "t_end": 219.92,
+    "text": "all of mathematics and the reason why we call it the last theorem it wasn't the"
+  },
+  {
+    "t_start": 219.92,
+    "t_end": 226.22,
+    "text": "last thing he did it was the last thing to be resolved because you know famous"
+  },
+  {
+    "t_start": 226.22,
+    "t_end": 227.449,
+    "text": "to be resolved because you know famous math position says he has a truly"
+  },
+  {
+    "t_start": 227.449,
+    "t_end": 229.37,
+    "text": "math position says he has a truly marvelous demonstration other"
+  },
+  {
+    "t_start": 229.37,
+    "t_end": 235.729,
+    "text": "mathematicians are going to want to try and find it but no one can find it after"
+  },
+  {
+    "t_start": 235.729,
+    "t_end": 239.479,
+    "text": "a hundred years to 200 years after 300 years the middle of the 20th century it"
+  },
+  {
+    "t_start": 239.479,
+    "t_end": 241.819,
+    "text": "years the middle of the 20th century it was the most famous unsolved problem in"
+  },
+  {
+    "t_start": 241.819,
+    "t_end": 249.38,
+    "text": "was the most famous unsolved problem in mathematics in fact it was the subject"
+  },
+  {
+    "t_start": 249.38,
+    "t_end": 254.539,
+    "text": "of books and in 1963 when Andrew Wiles was 10 years old he went and got one of"
+  },
+  {
+    "t_start": 254.539,
+    "t_end": 257.0,
+    "text": "these books out the library is called the last problem and he discovered about"
+  },
+  {
+    "t_start": 257.0,
+    "t_end": 263.87,
+    "text": "the last problem and he discovered about this and he said I knew from that moment"
+  },
+  {
+    "t_start": 263.87,
+    "t_end": 265.56,
+    "text": "on I would never let it go farmers lost theorem I had"
+  },
+  {
+    "t_start": 265.56,
+    "t_end": 272.28,
+    "text": "to solve it so as well as an incredible mathematical journey the story of"
+  },
+  {
+    "t_start": 272.28,
+    "t_end": 277.05,
+    "text": "Angela's proof of Fermat's Last Theorem is a wonderfully inspiring personal"
+  },
+  {
+    "t_start": 277.05,
+    "t_end": 285.51,
+    "text": "journey also now the proof that he found was not something that you could well"
+  },
+  {
+    "t_start": 285.51,
+    "t_end": 287.7,
+    "text": "was not something that you could well the thermo definitely could put in a"
+  },
+  {
+    "t_start": 287.7,
+    "t_end": 290.19,
+    "text": "the thermo definitely could put in a margin but that therm ah there's no way"
+  },
+  {
+    "t_start": 290.19,
+    "t_end": 291.75,
+    "text": "margin but that therm ah there's no way he could have known and is now assumed"
+  },
+  {
+    "t_start": 291.75,
+    "t_end": 293.88,
+    "text": "he could have known and is now assumed that firm R was mistaken by saying that"
+  },
+  {
+    "t_start": 293.88,
+    "t_end": 296.34,
+    "text": "that firm R was mistaken by saying that he had a truly marvelous demonstration"
+  },
+  {
+    "t_start": 296.34,
+    "t_end": 298.56,
+    "text": "he had a truly marvelous demonstration because the mathematics required to"
+  },
+  {
+    "t_start": 298.56,
+    "t_end": 301.35,
+    "text": "because the mathematics required to solve it was what only developed"
+  },
+  {
+    "t_start": 301.35,
+    "t_end": 305.01,
+    "text": "solve it was what only developed discovered way after Fermat died and the"
+  },
+  {
+    "t_start": 305.01,
+    "t_end": 307.79,
+    "text": "discovered way after Fermat died and the two areas of mass that were used one"
+  },
+  {
+    "t_start": 307.79,
+    "t_end": 310.83,
+    "text": "two areas of mass that were used one elliptic curves we heard that in the"
+  },
+  {
+    "t_start": 310.83,
+    "t_end": 314.73,
+    "text": "elliptic curves we heard that in the citation elliptic curves out of the"
+  },
+  {
+    "t_start": 314.73,
+    "t_end": 316.32,
+    "text": "other modular forms so I'm going to explain it a little bit about these two"
+  },
+  {
+    "t_start": 316.32,
+    "t_end": 318.39,
+    "text": "explain it a little bit about these two types of mathematics so an elliptic"
+  },
+  {
+    "t_start": 318.39,
+    "t_end": 323.4,
+    "text": "curve well it comes from an ellipse what's an ellipse an ellipse you can't"
+  },
+  {
+    "t_start": 323.4,
+    "t_end": 327.48,
+    "text": "see it very well there but the the paths of the planets planets orbit in ellipses"
+  },
+  {
+    "t_start": 327.48,
+    "t_end": 330.11,
+    "text": "of the planets planets orbit in ellipses and at the late 18th century"
+  },
+  {
+    "t_start": 330.11,
+    "t_end": 334.53,
+    "text": "mathematicians try to work in at the distance along ellipses came up with"
+  },
+  {
+    "t_start": 334.53,
+    "t_end": 341.82,
+    "text": "another type of curve now that which is an equation so it's not an ellipse it's"
+  },
+  {
+    "t_start": 341.82,
+    "t_end": 345.9,
+    "text": "an equation so it's not an ellipse it's an elliptic curve and it's sort of the"
+  },
+  {
+    "t_start": 345.9,
+    "t_end": 352.41,
+    "text": "equals x ax cube plus ax plus B where a and B are constants and what do they"
+  },
+  {
+    "t_start": 352.41,
+    "t_end": 354.42,
+    "text": "and B are constants and what do they look like well you can map these if you"
+  },
+  {
+    "t_start": 354.42,
+    "t_end": 360.0,
+    "text": "look like well you can map these if you want you can draw these on X Y axis and"
+  },
+  {
+    "t_start": 360.0,
+    "t_end": 361.35,
+    "text": "that's what they look like but if you want to analyze them using complex"
+  },
+  {
+    "t_start": 361.35,
+    "t_end": 362.75,
+    "text": "want to analyze them using complex numbers which is a little bit more"
+  },
+  {
+    "t_start": 362.75,
+    "t_end": 365.52,
+    "text": "numbers which is a little bit more complex complicated area of mathematics"
+  },
+  {
+    "t_start": 365.52,
+    "t_end": 370.29,
+    "text": "complex complicated area of mathematics you can see them in kind of 3d and the"
+  },
+  {
+    "t_start": 370.29,
+    "t_end": 375.03,
+    "text": "solutions there look a bit like this which this is a kind of doughnut that"
+  },
+  {
+    "t_start": 375.03,
+    "t_end": 377.37,
+    "text": "we've sliced and I don't if you recognize that slice in a figure of"
+  },
+  {
+    "t_start": 377.37,
+    "t_end": 383.19,
+    "text": "eight because that is exactly the figure of eight that árbol was drawing in his"
+  },
+  {
+    "t_start": 383.19,
+    "t_end": 385.8,
+    "text": "of eight that árbol was drawing in his famous lemniscate which is on norwegian"
+  },
+  {
+    "t_start": 385.8,
+    "t_end": 387.18,
+    "text": "famous lemniscate which is on norwegian 20 kronor coins"
+  },
+  {
+    "t_start": 387.18,
+    "t_end": 390.48,
+    "text": "okay that's elliptic curves through this kind of interesting curve that come from"
+  },
+  {
+    "t_start": 390.48,
+    "t_end": 393.09,
+    "text": "kind of interesting curve that come from ellipses a modular form a totally"
+  },
+  {
+    "t_start": 393.09,
+    "t_end": 396.45,
+    "text": "ellipses a modular form a totally different type of mathematics modular"
+  },
+  {
+    "t_start": 396.45,
+    "t_end": 400.02,
+    "text": "there has an extremely high number of symmetries what's a mapping a mapping is"
+  },
+  {
+    "t_start": 400.02,
+    "t_end": 404.55,
+    "text": "symmetries what's a mapping a mapping is just something that you take a point"
+  },
+  {
+    "t_start": 404.55,
+    "t_end": 404.999,
+    "text": "from one place and you put it somewhere else"
+  },
+  {
+    "t_start": 404.999,
+    "t_end": 409.589,
+    "text": "it's a Maps something from here to here but think about two different types of"
+  },
+  {
+    "t_start": 409.589,
+    "t_end": 413.04,
+    "text": "but think about two different types of mappings now imagine Li what this plane"
+  },
+  {
+    "t_start": 413.04,
+    "t_end": 415.02,
+    "text": "mappings now imagine Li what this plane here in two different colors and the"
+  },
+  {
+    "t_start": 415.02,
+    "t_end": 417.21,
+    "text": "here in two different colors and the mapping is going to be take any point"
+  },
+  {
+    "t_start": 417.21,
+    "t_end": 421.589,
+    "text": "mapping is going to be take any point and then move it one horizontally to the"
+  },
+  {
+    "t_start": 421.589,
+    "t_end": 426.21,
+    "text": "and then move it one horizontally to the right so just say a point was here it"
+  },
+  {
+    "t_start": 426.21,
+    "t_end": 432.2,
+    "text": "here he would map to there this is one type of mapping the plus one the mapping"
+  },
+  {
+    "t_start": 432.2,
+    "t_end": 437.159,
+    "text": "type of mapping the plus one the mapping there's a different type of mapping that"
+  },
+  {
+    "t_start": 437.159,
+    "t_end": 440.61,
+    "text": "takes any point inside the blue hemisphere or hemisphere so semicircle"
+  },
+  {
+    "t_start": 440.61,
+    "t_end": 447.3,
+    "text": "hemisphere or hemisphere so semicircle the view semicircle and maps it to a"
+  },
+  {
+    "t_start": 447.3,
+    "t_end": 456.749,
+    "text": "outside it likewise any point in the red would be mapped into the semi circle mix"
+  },
+  {
+    "t_start": 456.749,
+    "t_end": 458.939,
+    "text": "would be mapped into the semi circle mix these two together combine them and you"
+  },
+  {
+    "t_start": 458.939,
+    "t_end": 462.779,
+    "text": "these two together combine them and you get this image here and the symmetries"
+  },
+  {
+    "t_start": 462.779,
+    "t_end": 468.48,
+    "text": "get this image here and the symmetries that you see in this image are exactly"
+  },
+  {
+    "t_start": 468.48,
+    "t_end": 470.749,
+    "text": "the same symmetries that you get in certain types of modular forms"
+  },
+  {
+    "t_start": 470.749,
+    "t_end": 476.04,
+    "text": "okay so elliptic curves modular forms totally different different areas of"
+  },
+  {
+    "t_start": 476.04,
+    "t_end": 479.49,
+    "text": "totally different different areas of mathematics thought up by different"
+  },
+  {
+    "t_start": 479.49,
+    "t_end": 487.129,
+    "text": "terminology to solve different problems at different times now in the 1950s to"
+  },
+  {
+    "t_start": 489.33,
+    "t_end": 494.159,
+    "text": "Japanese mathematicians Yutaka taniyama and Girish camera for the first time"
+  },
+  {
+    "t_start": 494.159,
+    "t_end": 498.33,
+    "text": "thought you know what maybe these two areas these two kind of art separate"
+  },
+  {
+    "t_start": 498.33,
+    "t_end": 505.08,
+    "text": "joined or that are actually kind of the same thing in the in certain senses they"
+  },
+  {
+    "t_start": 505.08,
+    "t_end": 508.409,
+    "text": "same thing in the in certain senses they thought that every elliptic curve could"
+  },
+  {
+    "t_start": 508.409,
+    "t_end": 512.029,
+    "text": "thought that every elliptic curve could be associated with its own modular form"
+  },
+  {
+    "t_start": 512.029,
+    "t_end": 516.54,
+    "text": "okay what's this got to do with Fermat's Last Theorem nothing yes let's look back"
+  },
+  {
+    "t_start": 516.54,
+    "t_end": 521.639,
+    "text": "Last Theorem nothing yes let's look back at Talmud Last Theorem the equation X"
+  },
+  {
+    "t_start": 521.639,
+    "t_end": 523.469,
+    "text": "the n plus white the N equals NP n has no whole number solutions for n is"
+  },
+  {
+    "t_start": 523.469,
+    "t_end": 528.09,
+    "text": "no whole number solutions for n is bigger than 2 now everyone was trying to"
+  },
+  {
+    "t_start": 528.09,
+    "t_end": 529.72,
+    "text": "bigger than 2 now everyone was trying to prove it because Fermat said it was true"
+  },
+  {
+    "t_start": 529.72,
+    "t_end": 533.83,
+    "text": "prove it because Fermat said it was true this is conjecture but just say it was"
+  },
+  {
+    "t_start": 533.83,
+    "t_end": 535.72,
+    "text": "false there's also the chance that it was false so let's say let's say it's"
+  },
+  {
+    "t_start": 535.72,
+    "t_end": 541.75,
+    "text": "was false so let's say let's say it's false so if it's false then there is a"
+  },
+  {
+    "t_start": 541.75,
+    "t_end": 543.7,
+    "text": "solution to that equation for n is bigger than two let's imagine a solution"
+  },
+  {
+    "t_start": 543.7,
+    "t_end": 549.01,
+    "text": "bigger than two let's imagine a solution let's call it this so there's big a to"
+  },
+  {
+    "t_start": 549.01,
+    "t_end": 556.24,
+    "text": "the big n plus B TN plus soufiane for some ABC and n bigger than two well in"
+  },
+  {
+    "t_start": 556.24,
+    "t_end": 559.21,
+    "text": "the mid-80s ago had Frye a German mathematician took that and managed to"
+  },
+  {
+    "t_start": 559.21,
+    "t_end": 562.93,
+    "text": "mathematician took that and managed to create this equation here and as that"
+  },
+  {
+    "t_start": 562.93,
+    "t_end": 569.98,
+    "text": "that's an elliptic curve if something is weird about this elliptic curve it looks"
+  },
+  {
+    "t_start": 569.98,
+    "t_end": 572.08,
+    "text": "like it has no modular form something that was confirmed by Ken ribbit a"
+  },
+  {
+    "t_start": 572.08,
+    "t_end": 575.41,
+    "text": "that was confirmed by Ken ribbit a couple of years later but hang on look"
+  },
+  {
+    "t_start": 575.41,
+    "t_end": 577.81,
+    "text": "couple of years later but hang on look what we've got if M is Last Theorem is"
+  },
+  {
+    "t_start": 577.81,
+    "t_end": 578.17,
+    "text": "what we've got if M is Last Theorem is false"
+  },
+  {
+    "t_start": 578.17,
+    "t_end": 584.04,
+    "text": "there's a solution to that then we get an elliptic curve has no modular form"
+  },
+  {
+    "t_start": 584.04,
+    "t_end": 586.18,
+    "text": "an elliptic curve has no modular form but that means the taniyama-shimura"
+  },
+  {
+    "t_start": 586.18,
+    "t_end": 589.39,
+    "text": "conjecture must be false because the Talley Amish American gesture says that"
+  },
+  {
+    "t_start": 589.39,
+    "t_end": 591.61,
+    "text": "Talley Amish American gesture says that every elliptic curve does have a modular"
+  },
+  {
+    "t_start": 591.61,
+    "t_end": 597.52,
+    "text": "every elliptic curve does have a modular form and there's a bit of basic logic"
+  },
+  {
+    "t_start": 597.52,
+    "t_end": 601.42,
+    "text": "B is false so if thermos our theorem as false means that the Tammy Amish America"
+  },
+  {
+    "t_start": 601.42,
+    "t_end": 604.72,
+    "text": "false means that the Tammy Amish America Jetta is false you can do the"
+  },
+  {
+    "t_start": 604.72,
+    "t_end": 608.98,
+    "text": "contrapositive argument which would be that if the Toni AMA conjecture is true"
+  },
+  {
+    "t_start": 608.98,
+    "t_end": 615.4,
+    "text": "is also true so this work in the 1980s translated or replace the problem or"
+  },
+  {
+    "t_start": 615.4,
+    "t_end": 621.49,
+    "text": "rewrote the problem of solving thermos Last Theorem to the problem of solving"
+  },
+  {
+    "t_start": 621.49,
+    "t_end": 628.72,
+    "text": "conjecture that shows that every elliptic curve has a modular form and"
+  },
+  {
+    "t_start": 628.72,
+    "t_end": 629.92,
+    "text": "elliptic curve has a modular form and this is something just because it was"
+  },
+  {
+    "t_start": 629.92,
+    "t_end": 631.6,
+    "text": "this is something just because it was associate it didn't make it any easier"
+  },
+  {
+    "t_start": 631.6,
+    "t_end": 636.85,
+    "text": "possibly the fact that it was related to Fermat mended it was also we didn't have"
+  },
+  {
+    "t_start": 636.85,
+    "t_end": 639.79,
+    "text": "the mathematical tools to be able to solve it but Andrew Wiles solved it how"
+  },
+  {
+    "t_start": 639.79,
+    "t_end": 641.43,
+    "text": "solve it but Andrew Wiles solved it how did he do this is a very simplified"
+  },
+  {
+    "t_start": 641.43,
+    "t_end": 644.02,
+    "text": "did he do this is a very simplified account of how you solve it because it"
+  },
+  {
+    "t_start": 644.02,
+    "t_end": 647.38,
+    "text": "account of how you solve it because it turns out that every elliptic curve you"
+  },
+  {
+    "t_start": 647.38,
+    "t_end": 649.15,
+    "text": "turns out that every elliptic curve you can produce a series of numbers from it"
+  },
+  {
+    "t_start": 649.15,
+    "t_end": 650.77,
+    "text": "can produce a series of numbers from it kind of like it's DNA"
+  },
+  {
+    "t_start": 650.77,
+    "t_end": 655.26,
+    "text": "kind of like it's DNA long string of numbers you get that if"
+  },
+  {
+    "t_start": 655.26,
+    "t_end": 659.25,
+    "text": "more advanced people in the audience from this solutions in modular modular"
+  },
+  {
+    "t_start": 659.25,
+    "t_end": 664.89,
+    "text": "from this solutions in modular modular arithmetic on the side of the modular"
+  },
+  {
+    "t_start": 664.89,
+    "t_end": 666.36,
+    "text": "forms you can also get a kind of DNA produced there which are the"
+  },
+  {
+    "t_start": 666.36,
+    "t_end": 668.01,
+    "text": "produced there which are the coefficients of its Fourier Fourier"
+  },
+  {
+    "t_start": 668.01,
+    "t_end": 673.92,
+    "text": "expansion and what Andrew Wiles did inventing a whole new way of a whole new"
+  },
+  {
+    "t_start": 673.92,
+    "t_end": 679.71,
+    "text": "inventing a whole new way of a whole new toolkit as we call it was to show that"
+  },
+  {
+    "t_start": 679.71,
+    "t_end": 683.16,
+    "text": "you could match the DNA of one to the DNA they were basically identical so"
+  },
+  {
+    "t_start": 683.16,
+    "t_end": 688.44,
+    "text": "once he had solved it there's no longer a conjecture it's called a theorem and"
+  },
+  {
+    "t_start": 688.44,
+    "t_end": 694.74,
+    "text": "it's called the modularity theorem hey there's another amazing thing about this"
+  },
+  {
+    "t_start": 694.74,
+    "t_end": 697.17,
+    "text": "there's another amazing thing about this underworlds solution which is not just"
+  },
+  {
+    "t_start": 697.17,
+    "t_end": 698.91,
+    "text": "underworlds solution which is not just the mathematics it's how he did it"
+  },
+  {
+    "t_start": 698.91,
+    "t_end": 702.69,
+    "text": "the mathematics it's how he did it because normally when you do maths it's"
+  },
+  {
+    "t_start": 702.69,
+    "t_end": 705.06,
+    "text": "because normally when you do maths it's collaborative you talk to people Andrew"
+  },
+  {
+    "t_start": 705.06,
+    "t_end": 708.27,
+    "text": "collaborative you talk to people Andrew Wiles spent seven years solving the"
+  },
+  {
+    "t_start": 708.27,
+    "t_end": 714.18,
+    "text": "problem on his own he didn't tell anyone else apart from his wife and in 1993"
+  },
+  {
+    "t_start": 714.18,
+    "t_end": 715.68,
+    "text": "else apart from his wife and in 1993 when he had the solution he then"
+  },
+  {
+    "t_start": 715.68,
+    "t_end": 717.6,
+    "text": "when he had the solution he then announced it to Cheers"
+  },
+  {
+    "t_start": 717.6,
+    "t_end": 723.93,
+    "text": "here the picture at lecture at a conference in Cambridge it made him"
+  },
+  {
+    "t_start": 723.93,
+    "t_end": 727.44,
+    "text": "conference in Cambridge it made him become the most famous mathematician of"
+  },
+  {
+    "t_start": 727.44,
+    "t_end": 732.21,
+    "text": "the age really and he was on the front cover of the New York Times pretty much"
+  },
+  {
+    "t_start": 732.21,
+    "t_end": 734.36,
+    "text": "cover of the New York Times pretty much all the major newspapers of the world"
+  },
+  {
+    "t_start": 734.36,
+    "t_end": 736.92,
+    "text": "all the major newspapers of the world but then there was a problem a few"
+  },
+  {
+    "t_start": 736.92,
+    "t_end": 743.54,
+    "text": "months later again a little flaw in the proof was discovered so he went back and"
+  },
+  {
+    "t_start": 743.54,
+    "t_end": 746.04,
+    "text": "proof was discovered so he went back and a year later with the help of a student"
+  },
+  {
+    "t_start": 746.04,
+    "t_end": 748.2,
+    "text": "a year later with the help of a student Richard Taylor managed to fix it and"
+  },
+  {
+    "t_start": 748.2,
+    "t_end": 751.29,
+    "text": "Richard Taylor managed to fix it and then in 1995 the final proof was"
+  },
+  {
+    "t_start": 751.29,
+    "t_end": 754.98,
+    "text": "then in 1995 the final proof was published and just to show that the"
+  },
+  {
+    "t_start": 754.98,
+    "t_end": 756.93,
+    "text": "published and just to show that the amazing kind of personal journey that he"
+  },
+  {
+    "t_start": 756.93,
+    "t_end": 758.01,
+    "text": "amazing kind of personal journey that he went on because not only is it"
+  },
+  {
+    "t_start": 758.01,
+    "t_end": 760.62,
+    "text": "went on because not only is it incredible to solve to attack a problem"
+  },
+  {
+    "t_start": 760.62,
+    "t_end": 766.34,
+    "text": "incredible to solve to attack a problem like this and get that far but to find a"
+  },
+  {
+    "t_start": 766.34,
+    "t_end": 774.66,
+    "text": "focus and the stamina to actually solve it to fix the mistake is almost unheard"
+  },
+  {
+    "t_start": 774.66,
+    "t_end": 777.72,
+    "text": "it to fix the mistake is almost unheard of in mathematics so let's just finish"
+  },
+  {
+    "t_start": 777.72,
+    "t_end": 781.52,
+    "text": "of in mathematics so let's just finish again with summing up and the citation"
+  },
+  {
+    "t_start": 781.52,
+    "t_end": 785.22,
+    "text": "again with summing up and the citation because yes what he did was prove"
+  },
+  {
+    "t_start": 785.22,
+    "t_end": 787.29,
+    "text": "because yes what he did was prove Fermat's Last Theorem but really he"
+  },
+  {
+    "t_start": 787.29,
+    "t_end": 788.519,
+    "text": "Fermat's Last Theorem but really he proved something"
+  },
+  {
+    "t_start": 788.519,
+    "t_end": 793.8,
+    "text": "deeper which is the modularity conjectural modularity theorem because"
+  },
+  {
+    "t_start": 793.8,
+    "t_end": 797.699,
+    "text": "it linked these two will confirm that there was this connection between these"
+  },
+  {
+    "t_start": 797.699,
+    "t_end": 800.1,
+    "text": "there was this connection between these two until then thought this different"
+  },
+  {
+    "t_start": 800.1,
+    "t_end": 802.71,
+    "text": "two until then thought this different part of mathematics and through the"
+  },
+  {
+    "t_start": 802.71,
+    "t_end": 805.499,
+    "text": "part of mathematics and through the toolkit that he invented it has opened"
+  },
+  {
+    "t_start": 805.499,
+    "t_end": 810.049,
+    "text": "toolkit that he invented it has opened up whole new areas of number theory and"
+  },
+  {
+    "t_start": 810.049,
+    "t_end": 813.9,
+    "text": "up whole new areas of number theory and mathematics itself thank you very much"
+  },
+  {
+    "t_start": 813.9,
+    "t_end": 815.74,
+    "text": "mathematics itself thank you very much [Applause]"
+  },
+  {
+    "t_start": 815.74,
+    "t_end": 819.7,
+    "text": "[Applause] [Music]"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ku_video_zNzzGgr2mhk_1",
+    "t_start": 1.7,
+    "t_end": 92.8,
+    "type": "overview",
+    "summary": "To find the prime factors of a 2048 number it would take a classical computer millions of years, a quantum computer could do it in just minutes. And that is because a quantum computer is built on qubits, these devices which take advantage of quantum super position to reduce the number of steps required to complete the computation. But how do you actually make a qubit in practice and how do you read and write information on it? I met up with researchers who are using the outer most electron in a phosphorous atom as a qubit. This single phosphorous atom is embedded in a silicon crystal right …"
+  },
+  {
+    "id": "ku_video_zNzzGgr2mhk_92",
+    "t_start": 92.8,
+    "t_end": 185.3,
+    "type": "overview",
+    "summary": "That way you know that the electron will definitely be spin down. &gt;&gt; There is not enough thermal energy in the surroundings to flip it the other way. &gt;&gt; Now if you want to write information onto the qubit, you can put the electron into the spin up state by hitting it with a pulse of microwaves. But that pulse needs to be a very specific frequency and that frequency depends on the magnetic field that the electron is sitting in. &gt;&gt; So what you see here is the frequency that is being produced by this microwave source and it is 45.021 gigahertz, which in the magnetic field tha…"
+  },
+  {
+    "id": "ku_video_zNzzGgr2mhk_185",
+    "t_start": 185.3,
+    "t_end": 279.2,
+    "type": "overview",
+    "summary": "on the shells of an atom. So now if the electron is pointing up, it can jump into the transistor, right, because it has more energy than all the others. It leaves behind the bare nuclear charge of the phosphorous, right? The phosphorous one more positive charge in the nucleus as compared to silicon, but normally it is neutralized by the extra electron so the two things cancel out. But if you take the electron away, then the phosphorous has a positive charge. So it is as if you have a positive voltage, a more positive voltage applied to this gate. It doesn’t come from the gate. It comes from…"
+  },
+  {
+    "id": "ku_video_zNzzGgr2mhk_279",
+    "t_start": 279.2,
+    "t_end": 370.1,
+    "type": "overview",
+    "summary": "the world, it is a qubit that lives for a very long time. &gt;&gt; But how do you read out the spin of the nucleus? Well, you use the electron. Remember that the electron’s frequency that it will respond to depends on the magnetic field that it is sitting in. &gt;&gt; So that magnetic field is the external magnetic field that is produced by the super computing magnet, but there is also an internal magnetic field coming from the nucleus. But that internal magnetic field can have two directions. Right? The nucleus can be pointing up or down itself. So what it means is that there are two frequ…"
+  },
+  {
+    "id": "ku_video_zNzzGgr2mhk_370",
+    "t_start": 370.1,
+    "t_end": 462.2,
+    "type": "overview",
+    "summary": "of a single nucleus and our ability to flip it at will every five seconds. &gt;&gt; The spin of the single nucleus. &gt;&gt; Nucleus. &gt;&gt; Now because all of this depends so sensitively on magnetic fields, you need to make sure to eliminate all spin from the silicon crystal. But, unfortunately, natural silicon contains about five percent the isotope silicon 29 and that does have a spin. &gt;&gt; But, in fact, the beauty of silicon is that it has this isotope called silicon 28 that has no nuclear spin. The nuclear spin is zero. So it is a completely non magnetic atom. &gt;&gt; But where …"
+  },
+  {
+    "id": "ku_video_zNzzGgr2mhk_462",
+    "t_start": 462.2,
+    "t_end": 467.4,
+    "type": "overview",
+    "summary": "offer for one month. So I want to thank Audible.com for supporting Veritasium and I want to thank you for watching."
+  }
+]

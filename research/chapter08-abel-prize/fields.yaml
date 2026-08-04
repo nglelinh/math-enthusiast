@@ -1,0 +1,33 @@
+# Field definitions for Abel Prize chapter deep research
+# detail_level: brief | moderate | detailed
+
+fields:
+  - name: official_citation
+    description: Exact Abel committee citation phrase
+    detail_level: detailed
+  - name: core_objects
+    description: Mathematical objects at the center (curves, free boundaries, expanders, D-modules, ...)
+    detail_level: detailed
+  - name: key_methods
+    description: Named methods/theorems associated with the laureate
+    detail_level: detailed
+  - name: surrounding_landscape
+    description: Adjacent theories and programs (Langlands, Donaldson theory, homogeneous dynamics, ...)
+    detail_level: moderate
+  - name: impact
+    description: What other mathematicians could do afterward
+    detail_level: moderate
+  - name: course_crosslinks
+    description: Links into Math Enthusiast chapters 01–07
+    detail_level: moderate
+  - name: confusions
+    description: Common overclaims and corrections
+    detail_level: moderate
+  - name: exercises
+    description: Seminar-aligned exercises including LO practice
+    detail_level: moderate
+  - name: references
+    description: Abel site, primary papers, surveys
+    detail_level: brief
+
+uncertain: []

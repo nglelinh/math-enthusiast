@@ -1,0 +1,113 @@
+suppose I have some graph and I want to walk through this graph well what I mean
+by that is I want to start on some particular vertex I go along the edge to
+particular vertex I go along the edge to a different vertex I go along with
+different vertex and so on now there is a special name for certain types of ways
+a special name for certain types of ways that I can move through graphs like this
+that I can move through graphs like this and Euler path is one that starts at a
+vertex and it moves along through the graph where every edge is taken up
+graph where every edge is taken up exactly one time not zero not two times
+exactly one time not zero not two times every edge and the entire graph is used
+exactly once that is an Euler path and then Euler circuit is the same idea the
+then Euler circuit is the same idea the same everything has to be hit once but
+vertex so it makes a loop and then we call it an Euler circuit instead of an
+call it an Euler circuit instead of an Euler path that might start somewhere
+Euler path that might start somewhere go through and end up somewhere else
+let's see one example of this let me start at the value of a or I'll
+start at the value of a or I'll highlight I then walk down to C I walk
+over to be maybe I go back up to a I go back down to B I go down to D here I go
+back down to B I go down to D here I go baby I don't know back up to B but then
+gone along and I've used up almost all of the edges exactly once there's still
+of the edges exactly once there's still one edge that's missing this connection
+one edge that's missing this connection between D and C but how do I get there
+because right now I'm hanging out over at B and B's got every one of its five
+different edges that leaves from B is already being used it's already got to
+already being used it's already got to highlight it I've done my owner path and
+walked over them once already so if I wanted to get down to D to C I'd have to
+wanted to get down to D to C I'd have to go over an edge I've already done so in
+go over an edge I've already done so in other words I can't actually get there
+other words I can't actually get there by an Euler path or an Euler circuit so
+by an Euler path or an Euler circuit so in this particular graph at least the
+in this particular graph at least the path that I chose I wasn't able to go
+path that I chose I wasn't able to go and do everything once now you can pause
+the video if you like and see whether you can find some path that gets through
+you can find some path that gets through here that does hit everything but even
+here that does hit everything but even if you don't get a path and I didn't get
+one when I try to do it that maybe there's still somebody out there who's
+there's still somebody out there who's creative enough that could find one so
+creative enough that could find one so is it impossible well it turns out it is
+is it impossible well it turns out it is impossible we're gonna use a little ther
+this it says that if you have a graph with an Euler circuit so one that starts
+with an Euler circuit so one that starts at a vertex goes around gets back to the
+at a vertex goes around gets back to the same place of hit every edge once
+same place of hit every edge once well then every vertex in that graph
+well then every vertex in that graph must have even degree wise after so I've
+must have even degree wise after so I've given a little small portion of the
+given a little small portion of the graph it's got a vertex that has got
+edges leaving it and this is not a graph by itself but has a whole bunch of other
+by itself but has a whole bunch of other vertices around there but I just not
+show them up just gonna zoom in on this one vertex so imagine that I'm going
+through I'm doing my order circuit and I get to this particular vertex a so I
+get to this particular vertex a so I come in and maybe go along from the top
+left and I hit out this value of n okay so I've got to the a now I have to leave
+so I've got to the a now I have to leave so maybe I'll go out the bottom here so
+so maybe I'll go out the bottom here so I leave and then I go off and do a bunch
+of other stuff in the graph who knows but eventually because I want to hit
+but eventually because I want to hit every one of these edges exactly one
+time I'm gonna have to come back in and I go in and get to a again but now I'm
+I go in and get to a again but now I'm standing on a I've come in and I've gone
+standing on a I've come in and I've gone out and I've come in again and now I'm
+on a and I can't get out I'm trapped if I want to leave a I'd have to leave an
+I want to leave a I'd have to leave an edge I've already covered so I can't hit
+edge I've already covered so I can't hit it exactly once and indeed whether it
+it exactly once and indeed whether it was three or five or seven doesn't
+matter as long as you can come in and go out come and go out come and go out any
+out come and go out come and go out any number of times that you want to do this
+even property coming in coming out but if there's an odd number at some point
+trapped and you will not be able to leave and indeed this is even true of
+leave and indeed this is even true of age your starting vertex right let's say
+age your starting vertex right let's say you start there okay well now you leave
+you start there okay well now you leave and come back leave and come back leave
+and come back leave and come back leave and come back but if it's an odd number
+will not be able to come back that the Euler circuit that has to return to its
+Euler circuit that has to return to its origin is not possible by the way if you
+have an Euler path where you have a starting and ending vertex that are
+ending actually have to be odd because your first is not a go and come back
+your first is not a go and come back it's just a go
+and then everything else is going to be a come back and go come back go come
+a come back and go come back go come back and go if you're that starting
+vertex however all the ones in the middle do have to have an even degree to
+be an Euler path now I want to know that this is the statement of my theorem it's
+this is the statement of my theorem it's an
+if Ben and the contrapositive of that particular statement is that if you have
+particular statement is that if you have a graph with an odd degree any vertex at
+all if there's even one vertex with an odd degree then it's impossible then you
+odd degree then it's impossible then you do not have an Euler circuit so let's
+use that to study the particular graph that we started with well in this one
+verdicts is is going to be odd you only need one to break it but every single
+one of them is bad so indeed for this particular graph there is no possible
+particular graph there is no possible Oyler circuit that goes through it
+nor is there an Euler path two of the odd ones could become your starting and
+odd ones could become your starting and finishing ones but all the rest would
+have had to be even and they're all odd here so no boiler past no order circuits
+here so no boiler past no order circuits by the way this theorem this if then
+by the way this theorem this if then actually the converse of it is true the
+actually the converse of it is true the it's an if and only if theorem and that
+it's an if and only if theorem and that is if you have a graph which has even
+degree then it is possible to find an Euler circuit that will that argument a
+Euler circuit that will that argument a little bit more sophisticated than I'm
+little bit more sophisticated than I'm going to do in this video now let's
+return to the original problem that motivated all this graph theory and
+motivated all this graph theory and godess starting back a little while ago
+godess starting back a little while ago and that was to say that this particular
+graph that I have here it came up from this bridges of königsberg problem where
+this bridges of königsberg problem where I had this river and these two islands
+in the river and the two side and then the ABCD that those were going to be my
+masses and I could crossover via the bridges and that was going to go and
+make my graph no question was that order originally posed locked all this graph
+originally posed locked all this graph theory was can you go through these
+theory was can you go through these seven bridges of königsberg and travel
+seven bridges of königsberg and travel them exactly once unless it asking is it
+them exactly once unless it asking is it possible for you to have an Euler path
+possible for you to have an Euler path or an Euler circuit that goes through
+these and now we know that the answer is no it is not possible because every one
+no it is not possible because every one of these vertices is odd it is not

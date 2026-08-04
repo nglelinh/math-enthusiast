@@ -1,0 +1,687 @@
+[
+  {
+    "t_start": 1.74,
+    "t_end": 7.7,
+    "text": "To find the prime factors of a 2048 number it would take a classical computer millions"
+  },
+  {
+    "t_start": 7.7,
+    "t_end": 12.179,
+    "text": "of years, a quantum computer could do it in just minutes."
+  },
+  {
+    "t_start": 12.179,
+    "t_end": 16.09,
+    "text": "And that is because a quantum computer is built on qubits, these devices which take"
+  },
+  {
+    "t_start": 16.09,
+    "t_end": 20.81,
+    "text": "advantage of quantum super position to reduce the number of steps required to complete the"
+  },
+  {
+    "t_start": 20.81,
+    "t_end": 22.22,
+    "text": "computation."
+  },
+  {
+    "t_start": 22.22,
+    "t_end": 26.929,
+    "text": "But how do you actually make a qubit in practice and how do you read and write information"
+  },
+  {
+    "t_start": 26.929,
+    "t_end": 27.929,
+    "text": "on it?"
+  },
+  {
+    "t_start": 27.929,
+    "t_end": 31.71,
+    "text": "I met up with researchers who are using the outer most electron in a phosphorous atom"
+  },
+  {
+    "t_start": 31.71,
+    "t_end": 32.87,
+    "text": "as a qubit."
+  },
+  {
+    "t_start": 32.87,
+    "t_end": 38.9,
+    "text": "This single phosphorous atom is embedded in a silicon crystal right next to a tiny transistor."
+  },
+  {
+    "t_start": 38.9,
+    "t_end": 42.31,
+    "text": "Now the electron has a magnetic dipole called its spin."
+  },
+  {
+    "t_start": 42.31,
+    "t_end": 48.21,
+    "text": "And it has two orientations, up or down, which are like the classical one and zero."
+  },
+  {
+    "t_start": 48.21,
+    "t_end": 52.99,
+    "text": "Now to differentiate the energy state of the electron when it is in spin up and spin down,"
+  },
+  {
+    "t_start": 52.99,
+    "t_end": 55.63,
+    "text": "you need to apply a strong magnetic field."
+  },
+  {
+    "t_start": 55.63,
+    "t_end": 58.27,
+    "text": "&gt;&gt; And to do that we use a super conducting magnet."
+  },
+  {
+    "t_start": 58.27,
+    "t_end": 62.04,
+    "text": "So super conducting magnet is a large solenoid."
+  },
+  {
+    "t_start": 62.04,
+    "t_end": 67.17,
+    "text": "It is a coil of super conducting wire that sits inside of that vessel that is full of"
+  },
+  {
+    "t_start": 67.17,
+    "t_end": 68.17,
+    "text": "liquid helium."
+  },
+  {
+    "t_start": 68.17,
+    "t_end": 71.34,
+    "text": "&gt;&gt; So now the electron will line up with its spin pointing down."
+  },
+  {
+    "t_start": 71.34,
+    "t_end": 72.979,
+    "text": "That is its lowest energy state."
+  },
+  {
+    "t_start": 72.979,
+    "t_end": 77.049,
+    "text": "And it would take some energy to put it into the spin up state."
+  },
+  {
+    "t_start": 77.049,
+    "t_end": 81.13,
+    "text": "But actually not that much energy and if it were at room temperature the electron would"
+  },
+  {
+    "t_start": 81.13,
+    "t_end": 85.99,
+    "text": "have so much thermal energy that it would be bouncing around from spin up to spin down"
+  },
+  {
+    "t_start": 85.99,
+    "t_end": 86.99,
+    "text": "and back."
+  },
+  {
+    "t_start": 86.99,
+    "t_end": 91.159,
+    "text": "And so you need to cool down the whole apparatus to only a few hundredths of a degree above"
+  },
+  {
+    "t_start": 91.159,
+    "t_end": 92.799,
+    "text": "absolute zero."
+  },
+  {
+    "t_start": 92.799,
+    "t_end": 96.539,
+    "text": "That way you know that the electron will definitely be spin down."
+  },
+  {
+    "t_start": 96.539,
+    "t_end": 101.38,
+    "text": "&gt;&gt; There is not enough thermal energy in the surroundings to flip it the other way."
+  },
+  {
+    "t_start": 101.38,
+    "t_end": 105.159,
+    "text": "&gt;&gt; Now if you want to write information onto the qubit, you can put the electron into the"
+  },
+  {
+    "t_start": 105.159,
+    "t_end": 108.57,
+    "text": "spin up state by hitting it with a pulse of microwaves."
+  },
+  {
+    "t_start": 108.57,
+    "t_end": 114.149,
+    "text": "But that pulse needs to be a very specific frequency and that frequency depends on the"
+  },
+  {
+    "t_start": 114.149,
+    "t_end": 116.659,
+    "text": "magnetic field that the electron is sitting in."
+  },
+  {
+    "t_start": 116.659,
+    "t_end": 122.1,
+    "text": "&gt;&gt; So what you see here is the frequency that is being produced by this microwave source"
+  },
+  {
+    "t_start": 122.1,
+    "t_end": 129.5,
+    "text": "and it is 45.021 gigahertz, which in the magnetic field that we are applying now is the resonance"
+  },
+  {
+    "t_start": 129.5,
+    "t_end": 131.24,
+    "text": "frequency of the electron."
+  },
+  {
+    "t_start": 131.24,
+    "t_end": 135.94,
+    "text": "&gt;&gt; So the electron is a little bit like a radio that can only tune in to one station."
+  },
+  {
+    "t_start": 135.94,
+    "t_end": 139.55,
+    "text": "And when that station is broadcasting, the electron gets all excited and turns to the"
+  },
+  {
+    "t_start": 139.55,
+    "t_end": 140.599,
+    "text": "spin up state."
+  },
+  {
+    "t_start": 140.599,
+    "t_end": 142.42,
+    "text": "&gt;&gt; But you can stop at any point."
+  },
+  {
+    "t_start": 142.42,
+    "t_end": 147.599,
+    "text": "So if you just make a new tape and stop your pulse and some specific point, what you have"
+  },
+  {
+    "t_start": 147.599,
+    "t_end": 153.42,
+    "text": "created is a special quantum super position of the spin up and spin down states with a"
+  },
+  {
+    "t_start": 153.42,
+    "t_end": 156.45,
+    "text": "specific phase between the two super positions."
+  },
+  {
+    "t_start": 156.45,
+    "t_end": 157.88,
+    "text": "&gt;&gt; And how do you read out the information?"
+  },
+  {
+    "t_start": 157.88,
+    "t_end": 162.42,
+    "text": "Well, you use the transistor that this phosphorous atom is embedded next to."
+  },
+  {
+    "t_start": 162.42,
+    "t_end": 164.72,
+    "text": "&gt;&gt; The spin down has the lower energy."
+  },
+  {
+    "t_start": 164.72,
+    "t_end": 167.24,
+    "text": "And the spin up has the higher energy."
+  },
+  {
+    "t_start": 167.24,
+    "t_end": 173.57,
+    "text": "Now in this transistor there is, in fact, a little bundle of electrons."
+  },
+  {
+    "t_start": 173.57,
+    "t_end": 178.11,
+    "text": "This bundle of electrons is filled up up to a certain axis."
+  },
+  {
+    "t_start": 178.11,
+    "t_end": 179.91,
+    "text": "This vertical axis here is energy."
+  },
+  {
+    "t_start": 179.91,
+    "t_end": 185.28,
+    "text": "And here we have got all these electrons that line up in energy just like the electrons"
+  },
+  {
+    "t_start": 185.28,
+    "t_end": 186.98,
+    "text": "on the shells of an atom."
+  },
+  {
+    "t_start": 186.98,
+    "t_end": 193.121,
+    "text": "So now if the electron is pointing up, it can jump into the transistor, right, because"
+  },
+  {
+    "t_start": 193.121,
+    "t_end": 195.03,
+    "text": "it has more energy than all the others."
+  },
+  {
+    "t_start": 195.03,
+    "t_end": 200.87,
+    "text": "It leaves behind the bare nuclear charge of the phosphorous, right?"
+  },
+  {
+    "t_start": 200.87,
+    "t_end": 206.16,
+    "text": "The phosphorous one more positive charge in the nucleus as compared to silicon, but normally"
+  },
+  {
+    "t_start": 206.16,
+    "t_end": 209.73,
+    "text": "it is neutralized by the extra electron so the two things cancel out."
+  },
+  {
+    "t_start": 209.73,
+    "t_end": 213.92,
+    "text": "But if you take the electron away, then the phosphorous has a positive charge."
+  },
+  {
+    "t_start": 213.92,
+    "t_end": 219.58,
+    "text": "So it is as if you have a positive voltage, a more positive voltage applied to this gate."
+  },
+  {
+    "t_start": 219.58,
+    "t_end": 220.6,
+    "text": "It doesn’t come from the gate."
+  },
+  {
+    "t_start": 220.6,
+    "t_end": 222.1,
+    "text": "It comes from the atom, but is the same."
+  },
+  {
+    "t_start": 222.1,
+    "t_end": 223.58,
+    "text": "It is just a positive voltage."
+  },
+  {
+    "t_start": 223.58,
+    "t_end": 227.01,
+    "text": "&gt;&gt; It is like the transistor has been switched more on."
+  },
+  {
+    "t_start": 227.01,
+    "t_end": 231.11,
+    "text": "And so you see a pulse of current and that indicates that the electron was in the spin"
+  },
+  {
+    "t_start": 231.11,
+    "t_end": 232.11,
+    "text": "up state."
+  },
+  {
+    "t_start": 232.11,
+    "t_end": 236.061,
+    "text": "&gt;&gt; In this measurement phase, if you find one of these spikes of current, it is because"
+  },
+  {
+    "t_start": 236.061,
+    "t_end": 237.43,
+    "text": "you had an electron spin up."
+  },
+  {
+    "t_start": 237.43,
+    "t_end": 241.33,
+    "text": "So it can play catching a spin up or a spin down event."
+  },
+  {
+    "t_start": 241.33,
+    "t_end": 242.78,
+    "text": "You use, there was no current here."
+  },
+  {
+    "t_start": 242.78,
+    "t_end": 244.05,
+    "text": "That was a spin down event."
+  },
+  {
+    "t_start": 244.05,
+    "t_end": 245.84,
+    "text": "And try again."
+  },
+  {
+    "t_start": 245.84,
+    "t_end": 249.12,
+    "text": "Again a spin down electron."
+  },
+  {
+    "t_start": 249.12,
+    "t_end": 250.21,
+    "text": "Spin up electron."
+  },
+  {
+    "t_start": 250.21,
+    "t_end": 254.32,
+    "text": "&gt;&gt; Now these researchers have actually gone further using the nucleus of the phosphorous"
+  },
+  {
+    "t_start": 254.32,
+    "t_end": 255.82,
+    "text": "atom as a qubit."
+  },
+  {
+    "t_start": 255.82,
+    "t_end": 260.979,
+    "text": "Like an electron, the nucleus has a spin, although it is 2000 times weaker than the"
+  },
+  {
+    "t_start": 260.979,
+    "t_end": 262.27,
+    "text": "spin of the electron."
+  },
+  {
+    "t_start": 262.27,
+    "t_end": 267.0,
+    "text": "But you can still write to it the same way using electromagnetic radiation, only it needs"
+  },
+  {
+    "t_start": 267.0,
+    "t_end": 272.539,
+    "text": "to be a longer wavelength and a longer pulse in order to get the spin to flip."
+  },
+  {
+    "t_start": 272.539,
+    "t_end": 279.18,
+    "text": "&gt;&gt; Because it is so small, so weakly magnetic and so perfectly isolated from the rest of"
+  },
+  {
+    "t_start": 279.18,
+    "t_end": 283.289,
+    "text": "the world, it is a qubit that lives for a very long time."
+  },
+  {
+    "t_start": 283.289,
+    "t_end": 286.229,
+    "text": "&gt;&gt; But how do you read out the spin of the nucleus?"
+  },
+  {
+    "t_start": 286.229,
+    "t_end": 288.8,
+    "text": "Well, you use the electron."
+  },
+  {
+    "t_start": 288.8,
+    "t_end": 293.409,
+    "text": "Remember that the electron’s frequency that it will respond to depends on the magnetic"
+  },
+  {
+    "t_start": 293.409,
+    "t_end": 294.409,
+    "text": "field that it is sitting in."
+  },
+  {
+    "t_start": 294.409,
+    "t_end": 299.159,
+    "text": "&gt;&gt; So that magnetic field is the external magnetic field that is produced by the super"
+  },
+  {
+    "t_start": 299.159,
+    "t_end": 304.139,
+    "text": "computing magnet, but there is also an internal magnetic field coming from the nucleus."
+  },
+  {
+    "t_start": 304.139,
+    "t_end": 306.93,
+    "text": "But that internal magnetic field can have two directions."
+  },
+  {
+    "t_start": 306.93,
+    "t_end": 307.93,
+    "text": "Right?"
+  },
+  {
+    "t_start": 307.93,
+    "t_end": 309.58,
+    "text": "The nucleus can be pointing up or down itself."
+  },
+  {
+    "t_start": 309.58,
+    "t_end": 317.36,
+    "text": "So what it means is that there are two frequencies at which the electron can respond, depending"
+  },
+  {
+    "t_start": 317.36,
+    "t_end": 319.669,
+    "text": "on the direction of the nucleus."
+  },
+  {
+    "t_start": 319.669,
+    "t_end": 323.05,
+    "text": "&gt;&gt; So the nucleus actually acts as a little selector."
+  },
+  {
+    "t_start": 323.05,
+    "t_end": 327.74,
+    "text": "It tells the electron, basically, which radio station it can listen to."
+  },
+  {
+    "t_start": 327.74,
+    "t_end": 334.83,
+    "text": "&gt;&gt; So what you are looking at now is an experiment where we actually flip the nucleus every five"
+  },
+  {
+    "t_start": 334.83,
+    "t_end": 336.02,
+    "text": "seconds."
+  },
+  {
+    "t_start": 336.02,
+    "t_end": 341.689,
+    "text": "So for five seconds you will see that the electron always responds, because the nucleus"
+  },
+  {
+    "t_start": 341.689,
+    "t_end": 346.249,
+    "text": "is always in the right direction to make the electron respond to the frequency we are applying"
+  },
+  {
+    "t_start": 346.249,
+    "t_end": 347.449,
+    "text": "to the electron."
+  },
+  {
+    "t_start": 347.449,
+    "t_end": 351.229,
+    "text": "And then for the other five seconds, the electron will not respond, because we have flipped"
+  },
+  {
+    "t_start": 351.229,
+    "t_end": 352.789,
+    "text": "the nucleus the other way."
+  },
+  {
+    "t_start": 352.789,
+    "t_end": 353.789,
+    "text": "So now watch."
+  },
+  {
+    "t_start": 353.789,
+    "t_end": 354.789,
+    "text": "You see?"
+  },
+  {
+    "t_start": 354.789,
+    "t_end": 358.079,
+    "text": "&gt;&gt; So in this period of time the nucleus has been flipped down."
+  },
+  {
+    "t_start": 358.079,
+    "t_end": 359.079,
+    "text": "&gt;&gt; Yeah."
+  },
+  {
+    "t_start": 359.079,
+    "t_end": 361.219,
+    "text": "&gt;&gt; And now after five seconds it will flip up and then..."
+  },
+  {
+    "t_start": 361.219,
+    "t_end": 362.219,
+    "text": "&gt;&gt; Yeah, you see?"
+  },
+  {
+    "t_start": 362.219,
+    "t_end": 363.479,
+    "text": "&gt;&gt; And then the electron starts responding."
+  },
+  {
+    "t_start": 363.479,
+    "t_end": 364.479,
+    "text": "&gt;&gt; Yeah."
+  },
+  {
+    "t_start": 364.479,
+    "t_end": 370.139,
+    "text": "So you are watching on the oscilloscope screen in real time the measurement of the direction"
+  },
+  {
+    "t_start": 370.139,
+    "t_end": 374.889,
+    "text": "of a single nucleus and our ability to flip it at will every five seconds."
+  },
+  {
+    "t_start": 374.889,
+    "t_end": 376.479,
+    "text": "&gt;&gt; The spin of the single nucleus."
+  },
+  {
+    "t_start": 376.479,
+    "t_end": 377.479,
+    "text": "&gt;&gt; Nucleus."
+  },
+  {
+    "t_start": 377.479,
+    "t_end": 381.449,
+    "text": "&gt;&gt; Now because all of this depends so sensitively on magnetic fields, you need to make sure"
+  },
+  {
+    "t_start": 381.449,
+    "t_end": 384.629,
+    "text": "to eliminate all spin from the silicon crystal."
+  },
+  {
+    "t_start": 384.629,
+    "t_end": 390.939,
+    "text": "But, unfortunately, natural silicon contains about five percent the isotope silicon 29"
+  },
+  {
+    "t_start": 390.939,
+    "t_end": 392.15,
+    "text": "and that does have a spin."
+  },
+  {
+    "t_start": 392.15,
+    "t_end": 397.919,
+    "text": "&gt;&gt; But, in fact, the beauty of silicon is that it has this isotope called silicon 28"
+  },
+  {
+    "t_start": 397.919,
+    "t_end": 399.46,
+    "text": "that has no nuclear spin."
+  },
+  {
+    "t_start": 399.46,
+    "t_end": 401.22,
+    "text": "The nuclear spin is zero."
+  },
+  {
+    "t_start": 401.22,
+    "t_end": 403.639,
+    "text": "So it is a completely non magnetic atom."
+  },
+  {
+    "t_start": 403.639,
+    "t_end": 407.36,
+    "text": "&gt;&gt; But where are you going to find a pure crystal of silicon 28?"
+  },
+  {
+    "t_start": 407.36,
+    "t_end": 409.449,
+    "text": "Oh, wait."
+  },
+  {
+    "t_start": 409.449,
+    "t_end": 414.819,
+    "text": "&gt;&gt; These isotopically purified silicon 28 crystals are being produced anyway for a purpose"
+  },
+  {
+    "t_start": 414.819,
+    "t_end": 416.599,
+    "text": "completely different from particle computing."
+  },
+  {
+    "t_start": 416.599,
+    "t_end": 420.719,
+    "text": "They are being produced to redefine the kilogram through the Avogadro project."
+  },
+  {
+    "t_start": 420.719,
+    "t_end": 426.49,
+    "text": "&gt;&gt; So the off cuts from that silicon sphere are actually being used as the home for qubits."
+  },
+  {
+    "t_start": 426.49,
+    "t_end": 429.319,
+    "text": "That, I think, is incredible."
+  },
+  {
+    "t_start": 429.319,
+    "t_end": 432.21,
+    "text": "There is no waste in this science."
+  },
+  {
+    "t_start": 432.21,
+    "t_end": 434.629,
+    "text": "Hey, there."
+  },
+  {
+    "t_start": 434.629,
+    "t_end": 439.4,
+    "text": "This episode of Veritasium was supported by Audible.com, a leading provider of audio books"
+  },
+  {
+    "t_start": 439.4,
+    "t_end": 443.979,
+    "text": "with over 100,000 titles in fiction, non fiction and periodicals."
+  },
+  {
+    "t_start": 443.979,
+    "t_end": 448.27,
+    "text": "Now I am heading out today on a road trip across the US and I am taking with me Nate"
+  },
+  {
+    "t_start": 448.27,
+    "t_end": 453.449,
+    "text": "Silver’s book The Signal and the Noise: Why so many predictions fail, but some don’t."
+  },
+  {
+    "t_start": 453.449,
+    "t_end": 456.78,
+    "text": "Now if you want to listen to that along with me, you can download it for free by going"
+  },
+  {
+    "t_start": 456.78,
+    "t_end": 462.18,
+    "text": "to Audible.com/Veritasium or you can download any other book you like for free for a trial"
+  },
+  {
+    "t_start": 462.18,
+    "t_end": 463.22,
+    "text": "offer for one month."
+  },
+  {
+    "t_start": 463.22,
+    "t_end": 467.439,
+    "text": "So I want to thank Audible.com for supporting Veritasium and I want to thank you for watching."
+  }
+]

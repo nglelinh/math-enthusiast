@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ku_video_PFDu9oVAE-g_0",
+    "t_start": 0.0,
+    "t_end": 91.0,
+    "type": "overview",
+    "summary": "[Submit subtitle corrections at criblate.com] Eigenvectors and eigenvalues is one of those topics that a lot of students find particularly unintuitive. Questions like, why are we doing this and what does this actually mean, are too often left just floating away in an unanswered sea of computations. And as I've put out the videos of this series, a lot of you have commented about looking forward to visualizing this topic in particular. I suspect that the reason for this is not so much that eigenthings are particularly complicated or poorly explained. In fact, it's comparatively straightforwar…"
+  },
+  {
+    "id": "ku_video_PFDu9oVAE-g_91",
+    "t_start": 91.8,
+    "t_end": 182.5,
+    "type": "overview",
+    "summary": "So it's represented with a matrix whose columns are (3, 0), and (1, 2). Focus in on what it does to one particular vector, and think about the span of that vector, the line passing through its origin and its tip. Most vectors are going to get knocked off their span during the transformation. I mean, it would seem pretty coincidental if the place where the vector landed also happened to be somewhere on that line. But some special vectors do remain on their own span, meaning the effect that the matrix has on such a vector is just to stretch it or squish it, like a scalar. For this specific ex…"
+  },
+  {
+    "id": "ku_video_PFDu9oVAE-g_182",
+    "t_start": 182.5,
+    "t_end": 274.7,
+    "type": "overview",
+    "summary": "with this special property of staying on their span. and those on this diagonal line getting stretched by a factor of 2. Any other vector is going to get rotated somewhat during the transformation, knocked off the line that it spans. As you might have guessed by now, these special vectors are called the eigenvectors of the transformation, and each eigenvector has associated with it what's called an eigenvalue, which is just the factor by which it's stretched or squished during the transformation. Of course, there's nothing special about stretching versus squishing, or the fact that these ei…"
+  },
+  {
+    "id": "ku_video_PFDu9oVAE-g_277",
+    "t_start": 277.0,
+    "t_end": 369.8,
+    "type": "overview",
+    "summary": "In this case, by the way, the corresponding eigenvalue would have to be 1, since rotations never stretch or squish anything, so the length of the vector would remain the same. This pattern shows up a lot in linear algebra. With any linear transformation described by a matrix, you could understand what it's doing by reading off the columns of this matrix as the landing spots for basis vectors. But often, a better way to get at the heart of what the linear transformation actually does, less dependent on your particular coordinate system, is to find the eigenvectors and eigenvalues. I won't co…"
+  },
+  {
+    "id": "ku_video_PFDu9oVAE-g_369",
+    "t_start": 369.8,
+    "t_end": 460.0,
+    "type": "overview",
+    "summary": "multiplication. So let's start by rewriting that right-hand side as some kind of matrix-vector multiplication, using a matrix which has the effect of scaling any vector by a factor of lambda. The columns of such a matrix will represent what happens to each basis vector, and each basis vector is simply multiplied by lambda, so this matrix will have the number lambda down the diagonal, with zeros everywhere else. The common way to write this guy is to factor that lambda out and write it as lambda times I, where I is the identity matrix with 1s down the diagonal. With both sides looking like m…"
+  },
+  {
+    "id": "ku_video_PFDu9oVAE-g_460",
+    "t_start": 460.0,
+    "t_end": 549.5,
+    "type": "overview",
+    "summary": "and think about subtracting off a variable amount, lambda, from each diagonal entry. Now imagine tweaking lambda, turning a knob to change its value. As that value of lambda changes, the matrix itself changes, and so the determinant of the matrix changes. The goal here is to find a value of lambda that will make this determinant zero, meaning the tweaked transformation squishes space into a lower dimension. In this case, the sweet spot comes when lambda equals 1. Of course, if we had chosen some other matrix, the eigenvalue might not necessarily be 1. The sweet spot might be hit at some oth…"
+  },
+  {
+    "id": "ku_video_PFDu9oVAE-g_553",
+    "t_start": 553.4,
+    "t_end": 643.5,
+    "type": "overview",
+    "summary": "This is the kind of thing I mentioned in the introduction. If you didn't have a solid grasp of determinants and why they relate to linear systems of equations having non-zero solutions, an expression like this would feel completely out of the blue. To see this in action, let's revisit the example from the start, with a matrix whose columns are (3, 0) and (1, 2). To find if a value lambda is an eigenvalue, subtract it from the diagonals of this matrix and compute the determinant. Doing this, we get a certain quadratic polynomial in lambda, 3 minus lambda times 2 minus lambda. Since lambda ca…"
+  },
+  {
+    "id": "ku_video_PFDu9oVAE-g_646",
+    "t_start": 646.3,
+    "t_end": 737.1,
+    "type": "overview",
+    "summary": "Now, a 2D transformation doesn't have to have eigenvectors. For example, consider a rotation by 90 degrees. This doesn't have any eigenvectors since it rotates every vector off of its own span. If you actually try computing the eigenvalues of a rotation like this, notice what happens. Its matrix has columns (0, 1) and (-1, 0). Subtract off lambda from the diagonal elements and look for when the determinant is zero. In this case, you get the polynomial lambda squared plus 1. The only roots of that polynomial are the imaginary numbers, i and -i. The fact that there are no real number solution…"
+  },
+  {
+    "id": "ku_video_PFDu9oVAE-g_737",
+    "t_start": 737.1,
+    "t_end": 830.4,
+    "type": "overview",
+    "summary": "that all of the eigenvectors have eigenvalue 1. Keep in mind though, it's also possible to have just one eigenvalue, but with more than just a line full of eigenvectors. A simple example is a matrix that scales everything by 2. The only eigenvalue is 2, but every vector in the plane gets to be an eigenvector with that eigenvalue. Now is another good time to pause and ponder some of this before I move on to the last topic. I want to finish off here with the idea of an eigenbasis, which relies heavily on ideas from the last video. Take a look at what happens if our basis vectors just so happe…"
+  },
+  {
+    "id": "ku_video_PFDu9oVAE-g_830",
+    "t_start": 830.4,
+    "t_end": 922.8,
+    "type": "overview",
+    "summary": "with the diagonal entries of this matrix being their eigenvalues. There are a lot of things that make diagonal matrices much nicer to work with. One big one is that it's easier to compute what will happen if you multiply this matrix by itself a whole bunch of times. Since all one of these matrices does is scale each basis vector by some eigenvalue, applying that matrix many times, say 100 times, is just going to correspond to scaling each basis vector by the 100th power of the corresponding eigenvalue. In contrast, try computing the 100th power of a non-diagonal matrix. Really, try it for a…"
+  },
+  {
+    "id": "ku_video_PFDu9oVAE-g_922",
+    "t_start": 922.8,
+    "t_end": 1006.1,
+    "type": "overview",
+    "summary": "change of basis matrix on its left, the result will be a matrix representing that same transformation, but from the perspective of the new basis vectors coordinate system. The whole point of doing this with eigenvectors is that this new matrix is guaranteed to be diagonal with its corresponding eigenvalues down that diagonal. This is because it represents working in a coordinate system where what happens to the basis vectors is that they get scaled during the transformation. A set of basis vectors which are also eigenvectors is called, again, reasonably enough, an eigenbasis. So if, for exa…"
+  }
+]

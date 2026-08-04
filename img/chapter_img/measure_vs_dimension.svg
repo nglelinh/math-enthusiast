@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380">
+  <rect width="720" height="380" fill="#fafbfc"/>
+  <text x="360" y="32" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#1a1a1a">Two different notions of "size"</text>
+  <rect x="60" y="70" width="260" height="220" rx="8" fill="#fff" stroke="#004586" stroke-width="2"/>
+  <text x="190" y="105" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#004586">Lebesgue measure</text>
+  <text x="190" y="150" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#333">area / volume</text>
+  <text x="190" y="190" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#c73e1d">0</text>
+  <text x="190" y="240" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#555">possible for Kakeya sets</text>
+  <text x="190" y="265" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#555">(Besicovitch, 1920s)</text>
+  <rect x="400" y="70" width="260" height="220" rx="8" fill="#fff" stroke="#0a6b4a" stroke-width="2"/>
+  <text x="530" y="105" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#0a6b4a">Hausdorff / Minkowski dim</text>
+  <text x="530" y="150" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#333">fractal "thickness"</text>
+  <text x="530" y="190" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#0a6b4a">= n</text>
+  <text x="530" y="240" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#555">conjectured for Kakeya in ℝⁿ</text>
+  <text x="530" y="265" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#555">proved for n=2,3</text>
+  <text x="360" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#333">Volume zero does not force dimension less than 3.</text>
+</svg>

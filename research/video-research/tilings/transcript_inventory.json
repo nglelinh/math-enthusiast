@@ -1,0 +1,61 @@
+{
+  "slug": "tilings",
+  "videos": [
+    {
+      "id": "_ZS3Oqg1AX0",
+      "title": "Discovery of the Aperiodic Monotile - Numberphile",
+      "has_transcript": true,
+      "chars": 40420,
+      "units": 21,
+      "url": "https://www.youtube.com/watch?v=_ZS3Oqg1AX0"
+    },
+    {
+      "id": "QTrM-UVcgBY",
+      "title": "Numberphile — 5 and Penrose Tiling",
+      "has_transcript": true,
+      "chars": 6121,
+      "units": 5,
+      "url": "https://www.youtube.com/watch?v=QTrM-UVcgBY"
+    },
+    {
+      "id": "ArADlJx7SlU",
+      "title": "Numberphile — A New Tile in Newtyle (periodic contrast)",
+      "has_transcript": true,
+      "chars": 24504,
+      "units": 18,
+      "url": "https://www.youtube.com/watch?v=ArADlJx7SlU"
+    },
+    {
+      "id": "48sCx-wBs34",
+      "title": "Veritasium — Infinite Pattern (Penrose/Escher-adjacent order) documentaries / talks",
+      "has_transcript": true,
+      "chars": 17903,
+      "units": 14,
+      "url": "https://www.youtube.com/watch?v=48sCx-wBs34"
+    },
+    {
+      "id": "raC3S0ZKIYo",
+      "title": "Oxford Mathematics — The Hat: an aperiodic monotile coverage",
+      "has_transcript": true,
+      "chars": 69195,
+      "units": 37,
+      "url": "https://www.youtube.com/watch?v=raC3S0ZKIYo"
+    },
+    {
+      "id": "tx9ym2qB5PY",
+      "title": "Tiling problem / Wang tiles undecidability culture popular CS-math talks",
+      "has_transcript": true,
+      "chars": 2045,
+      "units": 4,
+      "url": "https://www.youtube.com/watch?v=tx9ym2qB5PY"
+    },
+    {
+      "id": "jJnEIjqbkR4",
+      "title": "IMA Penrose tiles demo",
+      "has_transcript": true,
+      "chars": 2816,
+      "units": 2,
+      "url": "https://www.youtube.com/watch?v=jJnEIjqbkR4"
+    }
+  ]
+}

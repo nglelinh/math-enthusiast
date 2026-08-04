@@ -1,0 +1,1662 @@
+[
+  {
+    "t_start": 2.11,
+    "t_end": 2.12,
+    "text": "one all right today we're going to be"
+  },
+  {
+    "t_start": 2.12,
+    "t_end": 4.99,
+    "text": "one all right today we're going to be talking about caner diagonalization"
+  },
+  {
+    "t_start": 4.99,
+    "t_end": 5.0,
+    "text": "talking about caner diagonalization"
+  },
+  {
+    "t_start": 5.0,
+    "t_end": 7.63,
+    "text": "talking about caner diagonalization argument in order to talk about this"
+  },
+  {
+    "t_start": 7.63,
+    "t_end": 7.64,
+    "text": "argument in order to talk about this"
+  },
+  {
+    "t_start": 7.64,
+    "t_end": 9.35,
+    "text": "argument in order to talk about this argument we have to go over some key"
+  },
+  {
+    "t_start": 9.35,
+    "t_end": 9.36,
+    "text": "argument we have to go over some key"
+  },
+  {
+    "t_start": 9.36,
+    "t_end": 10.99,
+    "text": "argument we have to go over some key Concepts the first which we'll talk"
+  },
+  {
+    "t_start": 10.99,
+    "t_end": 11.0,
+    "text": "Concepts the first which we'll talk"
+  },
+  {
+    "t_start": 11.0,
+    "t_end": 13.589,
+    "text": "Concepts the first which we'll talk about is on toone correspondence so"
+  },
+  {
+    "t_start": 13.589,
+    "t_end": 13.599,
+    "text": "about is on toone correspondence so"
+  },
+  {
+    "t_start": 13.599,
+    "t_end": 16.269,
+    "text": "about is on toone correspondence so given two sets A and B given at the top"
+  },
+  {
+    "t_start": 16.269,
+    "t_end": 16.279,
+    "text": "given two sets A and B given at the top"
+  },
+  {
+    "t_start": 16.279,
+    "t_end": 19.029,
+    "text": "given two sets A and B given at the top right a being 1 and two and B being"
+  },
+  {
+    "t_start": 19.029,
+    "t_end": 19.039,
+    "text": "right a being 1 and two and B being"
+  },
+  {
+    "t_start": 19.039,
+    "t_end": 21.75,
+    "text": "right a being 1 and two and B being three and four a oneone correspondence"
+  },
+  {
+    "t_start": 21.75,
+    "t_end": 21.76,
+    "text": "three and four a oneone correspondence"
+  },
+  {
+    "t_start": 21.76,
+    "t_end": 24.87,
+    "text": "three and four a oneone correspondence is simply a function that maps elements"
+  },
+  {
+    "t_start": 24.87,
+    "t_end": 24.88,
+    "text": "is simply a function that maps elements"
+  },
+  {
+    "t_start": 24.88,
+    "t_end": 27.95,
+    "text": "is simply a function that maps elements in a to elements in B but it has to be"
+  },
+  {
+    "t_start": 27.95,
+    "t_end": 27.96,
+    "text": "in a to elements in B but it has to be"
+  },
+  {
+    "t_start": 27.96,
+    "t_end": 30.83,
+    "text": "in a to elements in B but it has to be one to one and onto"
+  },
+  {
+    "t_start": 30.83,
+    "t_end": 30.84,
+    "text": "one to one and onto"
+  },
+  {
+    "t_start": 30.84,
+    "t_end": 33.59,
+    "text": "one to one and onto so a function that satisfies this would"
+  },
+  {
+    "t_start": 33.59,
+    "t_end": 33.6,
+    "text": "so a function that satisfies this would"
+  },
+  {
+    "t_start": 33.6,
+    "t_end": 36.67,
+    "text": "so a function that satisfies this would be something like X+"
+  },
+  {
+    "t_start": 36.67,
+    "t_end": 36.68,
+    "text": "be something like X+"
+  },
+  {
+    "t_start": 36.68,
+    "t_end": 40.029,
+    "text": "be something like X+ 2 and as you can"
+  },
+  {
+    "t_start": 40.029,
+    "t_end": 40.039,
+    "text": "2 and as you can"
+  },
+  {
+    "t_start": 40.039,
+    "t_end": 43.47,
+    "text": "2 and as you can see from x +"
+  },
+  {
+    "t_start": 43.47,
+    "t_end": 43.48,
+    "text": "see from x +"
+  },
+  {
+    "t_start": 43.48,
+    "t_end": 46.35,
+    "text": "see from x + 2 one would map to"
+  },
+  {
+    "t_start": 46.35,
+    "t_end": 46.36,
+    "text": "2 one would map to"
+  },
+  {
+    "t_start": 46.36,
+    "t_end": 50.549,
+    "text": "2 one would map to three and two would map to four now this"
+  },
+  {
+    "t_start": 50.549,
+    "t_end": 50.559,
+    "text": "three and two would map to four now this"
+  },
+  {
+    "t_start": 50.559,
+    "t_end": 53.47,
+    "text": "three and two would map to four now this is certainly one to one and onto and"
+  },
+  {
+    "t_start": 53.47,
+    "t_end": 53.48,
+    "text": "is certainly one to one and onto and"
+  },
+  {
+    "t_start": 53.48,
+    "t_end": 54.75,
+    "text": "is certainly one to one and onto and since we can do that we can take the"
+  },
+  {
+    "t_start": 54.75,
+    "t_end": 54.76,
+    "text": "since we can do that we can take the"
+  },
+  {
+    "t_start": 54.76,
+    "t_end": 57.869,
+    "text": "since we can do that we can take the inverse of the"
+  },
+  {
+    "t_start": 65.07,
+    "t_end": 65.08,
+    "text": "Y and we can map from elements in the"
+  },
+  {
+    "t_start": 65.08,
+    "t_end": 67.27,
+    "text": "Y and we can map from elements in the codomain back to the co back to the"
+  },
+  {
+    "t_start": 67.27,
+    "t_end": 67.28,
+    "text": "codomain back to the co back to the"
+  },
+  {
+    "t_start": 67.28,
+    "t_end": 70.63,
+    "text": "codomain back to the co back to the domain so simply putting in for three we"
+  },
+  {
+    "t_start": 70.63,
+    "t_end": 70.64,
+    "text": "domain so simply putting in for three we"
+  },
+  {
+    "t_start": 70.64,
+    "t_end": 73.27,
+    "text": "domain so simply putting in for three we would have 3 minus 2 which would map"
+  },
+  {
+    "t_start": 73.27,
+    "t_end": 73.28,
+    "text": "would have 3 minus 2 which would map"
+  },
+  {
+    "t_start": 73.28,
+    "t_end": 76.35,
+    "text": "would have 3 minus 2 which would map back to one and 4 minus 2 which would ma"
+  },
+  {
+    "t_start": 76.35,
+    "t_end": 76.36,
+    "text": "back to one and 4 minus 2 which would ma"
+  },
+  {
+    "t_start": 76.36,
+    "t_end": 78.35,
+    "text": "back to one and 4 minus 2 which would ma back to two and then we would say that"
+  },
+  {
+    "t_start": 78.35,
+    "t_end": 78.36,
+    "text": "back to two and then we would say that"
+  },
+  {
+    "t_start": 78.36,
+    "t_end": 79.749,
+    "text": "back to two and then we would say that there's a one to one correspondence"
+  },
+  {
+    "t_start": 79.749,
+    "t_end": 79.759,
+    "text": "there's a one to one correspondence"
+  },
+  {
+    "t_start": 79.759,
+    "t_end": 82.63,
+    "text": "there's a one to one correspondence between the sets A and B"
+  },
+  {
+    "t_start": 82.63,
+    "t_end": 82.64,
+    "text": "between the sets A and B"
+  },
+  {
+    "t_start": 82.64,
+    "t_end": 85.109,
+    "text": "between the sets A and B from all right now let's define what"
+  },
+  {
+    "t_start": 85.109,
+    "t_end": 85.119,
+    "text": "from all right now let's define what"
+  },
+  {
+    "t_start": 85.119,
+    "t_end": 86.789,
+    "text": "from all right now let's define what determines whether a set is countable or"
+  },
+  {
+    "t_start": 86.789,
+    "t_end": 86.799,
+    "text": "determines whether a set is countable or"
+  },
+  {
+    "t_start": 86.799,
+    "t_end": 89.31,
+    "text": "determines whether a set is countable or not a a set is considered countable if"
+  },
+  {
+    "t_start": 89.31,
+    "t_end": 89.32,
+    "text": "not a a set is considered countable if"
+  },
+  {
+    "t_start": 89.32,
+    "t_end": 90.91,
+    "text": "not a a set is considered countable if it is finite"
+  },
+  {
+    "t_start": 90.91,
+    "t_end": 90.92,
+    "text": "it is finite"
+  },
+  {
+    "t_start": 90.92,
+    "t_end": 96.149,
+    "text": "it is finite such as the"
+  },
+  {
+    "t_start": 100.109,
+    "t_end": 100.119,
+    "text": "set 1 2 3 which is certainly finite"
+  },
+  {
+    "t_start": 100.119,
+    "t_end": 101.63,
+    "text": "set 1 2 3 which is certainly finite because as you can see there's only"
+  },
+  {
+    "t_start": 101.63,
+    "t_end": 101.64,
+    "text": "because as you can see there's only"
+  },
+  {
+    "t_start": 101.64,
+    "t_end": 104.03,
+    "text": "because as you can see there's only three elements"
+  },
+  {
+    "t_start": 104.03,
+    "t_end": 104.04,
+    "text": "three elements"
+  },
+  {
+    "t_start": 104.04,
+    "t_end": 106.429,
+    "text": "three elements and the cardinality of this would then"
+  },
+  {
+    "t_start": 106.429,
+    "t_end": 106.439,
+    "text": "and the cardinality of this would then"
+  },
+  {
+    "t_start": 106.439,
+    "t_end": 109.51,
+    "text": "and the cardinality of this would then be three as well or a set is countable"
+  },
+  {
+    "t_start": 109.51,
+    "t_end": 109.52,
+    "text": "be three as well or a set is countable"
+  },
+  {
+    "t_start": 109.52,
+    "t_end": 111.31,
+    "text": "be three as well or a set is countable if it shares a one toone correspondence"
+  },
+  {
+    "t_start": 111.31,
+    "t_end": 111.32,
+    "text": "if it shares a one toone correspondence"
+  },
+  {
+    "t_start": 111.32,
+    "t_end": 115.51,
+    "text": "if it shares a one toone correspondence with the set of"
+  },
+  {
+    "t_start": 118.709,
+    "t_end": 118.719,
+    "text": "positive integers which we denote the"
+  },
+  {
+    "t_start": 118.719,
+    "t_end": 122.55,
+    "text": "positive integers which we denote the set as Z with the super set plus"
+  },
+  {
+    "t_start": 122.55,
+    "t_end": 122.56,
+    "text": "set as Z with the super set plus"
+  },
+  {
+    "t_start": 122.56,
+    "t_end": 125.109,
+    "text": "set as Z with the super set plus one the cardinality of the set of"
+  },
+  {
+    "t_start": 125.109,
+    "t_end": 125.119,
+    "text": "one the cardinality of the set of"
+  },
+  {
+    "t_start": 125.119,
+    "t_end": 132.15,
+    "text": "one the cardinality of the set of positive"
+  },
+  {
+    "t_start": 146.949,
+    "t_end": 146.959,
+    "text": "null all right so in our definition for"
+  },
+  {
+    "t_start": 146.959,
+    "t_end": 149.11,
+    "text": "null all right so in our definition for whether a set is countable or not we"
+  },
+  {
+    "t_start": 149.11,
+    "t_end": 149.12,
+    "text": "whether a set is countable or not we"
+  },
+  {
+    "t_start": 149.12,
+    "t_end": 152.07,
+    "text": "whether a set is countable or not we just said that if a set can be in one to"
+  },
+  {
+    "t_start": 152.07,
+    "t_end": 152.08,
+    "text": "just said that if a set can be in one to"
+  },
+  {
+    "t_start": 152.08,
+    "t_end": 154.309,
+    "text": "just said that if a set can be in one to one a one to one correspondence with the"
+  },
+  {
+    "t_start": 154.309,
+    "t_end": 154.319,
+    "text": "one a one to one correspondence with the"
+  },
+  {
+    "t_start": 154.319,
+    "t_end": 156.79,
+    "text": "one a one to one correspondence with the set of all positive integers then it's"
+  },
+  {
+    "t_start": 156.79,
+    "t_end": 156.8,
+    "text": "set of all positive integers then it's"
+  },
+  {
+    "t_start": 156.8,
+    "t_end": 159.75,
+    "text": "set of all positive integers then it's countable so that is essentially saying"
+  },
+  {
+    "t_start": 159.75,
+    "t_end": 159.76,
+    "text": "countable so that is essentially saying"
+  },
+  {
+    "t_start": 159.76,
+    "t_end": 161.63,
+    "text": "countable so that is essentially saying that the set of positive integers is in"
+  },
+  {
+    "t_start": 161.63,
+    "t_end": 161.64,
+    "text": "that the set of positive integers is in"
+  },
+  {
+    "t_start": 161.64,
+    "t_end": 166.39,
+    "text": "that the set of positive integers is in itself countable because I can create a"
+  },
+  {
+    "t_start": 166.39,
+    "t_end": 166.4,
+    "text": "itself countable because I can create a"
+  },
+  {
+    "t_start": 166.4,
+    "t_end": 171.149,
+    "text": "itself countable because I can create a function f ofx equal to X and let's say"
+  },
+  {
+    "t_start": 171.149,
+    "t_end": 171.159,
+    "text": "function f ofx equal to X and let's say"
+  },
+  {
+    "t_start": 171.159,
+    "t_end": 175.35,
+    "text": "function f ofx equal to X and let's say that my domain is the set of positive"
+  },
+  {
+    "t_start": 175.35,
+    "t_end": 175.36,
+    "text": "that my domain is the set of positive"
+  },
+  {
+    "t_start": 175.36,
+    "t_end": 178.63,
+    "text": "that my domain is the set of positive integers and my co-"
+  },
+  {
+    "t_start": 178.63,
+    "t_end": 178.64,
+    "text": "integers and my co-"
+  },
+  {
+    "t_start": 178.64,
+    "t_end": 181.309,
+    "text": "integers and my co- domain is is the set of positive"
+  },
+  {
+    "t_start": 181.309,
+    "t_end": 181.319,
+    "text": "domain is is the set of positive"
+  },
+  {
+    "t_start": 181.319,
+    "t_end": 184.309,
+    "text": "domain is is the set of positive integers then I can easily map every"
+  },
+  {
+    "t_start": 184.309,
+    "t_end": 184.319,
+    "text": "integers then I can easily map every"
+  },
+  {
+    "t_start": 184.319,
+    "t_end": 186.07,
+    "text": "integers then I can easily map every element from a set of positive integers"
+  },
+  {
+    "t_start": 186.07,
+    "t_end": 186.08,
+    "text": "element from a set of positive integers"
+  },
+  {
+    "t_start": 186.08,
+    "t_end": 189.589,
+    "text": "element from a set of positive integers to itself in the codomain and I can then"
+  },
+  {
+    "t_start": 189.589,
+    "t_end": 189.599,
+    "text": "to itself in the codomain and I can then"
+  },
+  {
+    "t_start": 189.599,
+    "t_end": 191.789,
+    "text": "to itself in the codomain and I can then take the inverse of the function which"
+  },
+  {
+    "t_start": 191.789,
+    "t_end": 191.799,
+    "text": "take the inverse of the function which"
+  },
+  {
+    "t_start": 191.799,
+    "t_end": 193.91,
+    "text": "take the inverse of the function which doesn't change anything and then map"
+  },
+  {
+    "t_start": 193.91,
+    "t_end": 193.92,
+    "text": "doesn't change anything and then map"
+  },
+  {
+    "t_start": 193.92,
+    "t_end": 196.789,
+    "text": "doesn't change anything and then map back so then I'm I've just shown that"
+  },
+  {
+    "t_start": 196.789,
+    "t_end": 196.799,
+    "text": "back so then I'm I've just shown that"
+  },
+  {
+    "t_start": 196.799,
+    "t_end": 201.75,
+    "text": "back so then I'm I've just shown that the set of positive integers is"
+  },
+  {
+    "t_start": 204.949,
+    "t_end": 204.959,
+    "text": "countable Okay so we've just shown that"
+  },
+  {
+    "t_start": 204.959,
+    "t_end": 206.509,
+    "text": "countable Okay so we've just shown that the set of positive integers is"
+  },
+  {
+    "t_start": 206.509,
+    "t_end": 206.519,
+    "text": "the set of positive integers is"
+  },
+  {
+    "t_start": 206.519,
+    "t_end": 210.429,
+    "text": "the set of positive integers is countable and remember back we said that"
+  },
+  {
+    "t_start": 210.429,
+    "t_end": 210.439,
+    "text": "countable and remember back we said that"
+  },
+  {
+    "t_start": 210.439,
+    "t_end": 212.229,
+    "text": "countable and remember back we said that the cardinality of the positive integer"
+  },
+  {
+    "t_start": 212.229,
+    "t_end": 212.239,
+    "text": "the cardinality of the positive integer"
+  },
+  {
+    "t_start": 212.239,
+    "t_end": 215.75,
+    "text": "the cardinality of the positive integer is represented by this symbol Alf"
+  },
+  {
+    "t_start": 215.75,
+    "t_end": 215.76,
+    "text": "is represented by this symbol Alf"
+  },
+  {
+    "t_start": 215.76,
+    "t_end": 220.27,
+    "text": "is represented by this symbol Alf null and so it might surprise you that"
+  },
+  {
+    "t_start": 220.27,
+    "t_end": 220.28,
+    "text": "null and so it might surprise you that"
+  },
+  {
+    "t_start": 220.28,
+    "t_end": 222.949,
+    "text": "null and so it might surprise you that we can even declare an infinite set to"
+  },
+  {
+    "t_start": 222.949,
+    "t_end": 222.959,
+    "text": "we can even declare an infinite set to"
+  },
+  {
+    "t_start": 222.959,
+    "t_end": 225.47,
+    "text": "we can even declare an infinite set to be countable because after all infinite"
+  },
+  {
+    "t_start": 225.47,
+    "t_end": 225.48,
+    "text": "be countable because after all infinite"
+  },
+  {
+    "t_start": 225.48,
+    "t_end": 227.11,
+    "text": "be countable because after all infinite is a word we use"
+  },
+  {
+    "t_start": 227.11,
+    "t_end": 227.12,
+    "text": "is a word we use"
+  },
+  {
+    "t_start": 227.12,
+    "t_end": 230.35,
+    "text": "is a word we use to describe something that's doesn't"
+  },
+  {
+    "t_start": 230.35,
+    "t_end": 230.36,
+    "text": "to describe something that's doesn't"
+  },
+  {
+    "t_start": 230.36,
+    "t_end": 233.229,
+    "text": "to describe something that's doesn't end um and it might surprise you even"
+  },
+  {
+    "t_start": 233.229,
+    "t_end": 233.239,
+    "text": "end um and it might surprise you even"
+  },
+  {
+    "t_start": 233.239,
+    "t_end": 236.229,
+    "text": "end um and it might surprise you even further that there's"
+  },
+  {
+    "t_start": 236.229,
+    "t_end": 236.239,
+    "text": "further that there's"
+  },
+  {
+    "t_start": 236.239,
+    "t_end": 241.589,
+    "text": "further that there's actually more uh many sizes to infinite"
+  },
+  {
+    "t_start": 241.589,
+    "t_end": 241.599,
+    "text": "actually more uh many sizes to infinite"
+  },
+  {
+    "t_start": 241.599,
+    "t_end": 244.069,
+    "text": "actually more uh many sizes to infinite sets um particularly today we'll be"
+  },
+  {
+    "t_start": 244.069,
+    "t_end": 244.079,
+    "text": "sets um particularly today we'll be"
+  },
+  {
+    "t_start": 244.079,
+    "t_end": 245.39,
+    "text": "sets um particularly today we'll be talking about"
+  },
+  {
+    "t_start": 245.39,
+    "t_end": 245.4,
+    "text": "talking about"
+  },
+  {
+    "t_start": 245.4,
+    "t_end": 247.149,
+    "text": "talking about how the"
+  },
+  {
+    "t_start": 247.149,
+    "t_end": 247.159,
+    "text": "how the"
+  },
+  {
+    "t_start": 247.159,
+    "t_end": 249.67,
+    "text": "how the cardinality of the real"
+  },
+  {
+    "t_start": 249.67,
+    "t_end": 249.68,
+    "text": "cardinality of the real"
+  },
+  {
+    "t_start": 249.68,
+    "t_end": 254.67,
+    "text": "cardinality of the real domain is greater than the"
+  },
+  {
+    "t_start": 257.83,
+    "t_end": 257.84,
+    "text": "cardinality of the set of positive"
+  },
+  {
+    "t_start": 257.84,
+    "t_end": 259.949,
+    "text": "cardinality of the set of positive integers to prove this we'll use"
+  },
+  {
+    "t_start": 259.949,
+    "t_end": 259.959,
+    "text": "integers to prove this we'll use"
+  },
+  {
+    "t_start": 259.959,
+    "t_end": 262.59,
+    "text": "integers to prove this we'll use Canter's diagonalization"
+  },
+  {
+    "t_start": 262.59,
+    "t_end": 262.6,
+    "text": "Canter's diagonalization"
+  },
+  {
+    "t_start": 262.6,
+    "t_end": 265.23,
+    "text": "Canter's diagonalization argument all right so for this proof"
+  },
+  {
+    "t_start": 265.23,
+    "t_end": 265.24,
+    "text": "argument all right so for this proof"
+  },
+  {
+    "t_start": 265.24,
+    "t_end": 267.27,
+    "text": "argument all right so for this proof we'll assume that the set of reals is"
+  },
+  {
+    "t_start": 267.27,
+    "t_end": 267.28,
+    "text": "we'll assume that the set of reals is"
+  },
+  {
+    "t_start": 267.28,
+    "t_end": 269.87,
+    "text": "we'll assume that the set of reals is countable"
+  },
+  {
+    "t_start": 269.87,
+    "t_end": 269.88,
+    "text": "countable"
+  },
+  {
+    "t_start": 269.88,
+    "t_end": 271.95,
+    "text": "countable in other words we're going to attempt to"
+  },
+  {
+    "t_start": 271.95,
+    "t_end": 271.96,
+    "text": "in other words we're going to attempt to"
+  },
+  {
+    "t_start": 271.96,
+    "t_end": 274.55,
+    "text": "in other words we're going to attempt to do a proof by contradiction because"
+  },
+  {
+    "t_start": 274.55,
+    "t_end": 274.56,
+    "text": "do a proof by contradiction because"
+  },
+  {
+    "t_start": 274.56,
+    "t_end": 277.95,
+    "text": "do a proof by contradiction because before we had said the set of reals is"
+  },
+  {
+    "t_start": 277.95,
+    "t_end": 277.96,
+    "text": "before we had said the set of reals is"
+  },
+  {
+    "t_start": 277.96,
+    "t_end": 279.749,
+    "text": "before we had said the set of reals is uncountable because we're assuming that"
+  },
+  {
+    "t_start": 279.749,
+    "t_end": 279.759,
+    "text": "uncountable because we're assuming that"
+  },
+  {
+    "t_start": 279.759,
+    "t_end": 281.469,
+    "text": "uncountable because we're assuming that the set of real numbers is"
+  },
+  {
+    "t_start": 281.469,
+    "t_end": 281.479,
+    "text": "the set of real numbers is"
+  },
+  {
+    "t_start": 281.479,
+    "t_end": 284.31,
+    "text": "the set of real numbers is countable Let's uh let's isolate a"
+  },
+  {
+    "t_start": 284.31,
+    "t_end": 284.32,
+    "text": "countable Let's uh let's isolate a"
+  },
+  {
+    "t_start": 284.32,
+    "t_end": 289.31,
+    "text": "countable Let's uh let's isolate a smaller set so the set from 0 to one of"
+  },
+  {
+    "t_start": 289.31,
+    "t_end": 289.32,
+    "text": "smaller set so the set from 0 to one of"
+  },
+  {
+    "t_start": 289.32,
+    "t_end": 290.55,
+    "text": "smaller set so the set from 0 to one of real"
+  },
+  {
+    "t_start": 290.55,
+    "t_end": 290.56,
+    "text": "real"
+  },
+  {
+    "t_start": 290.56,
+    "t_end": 292.99,
+    "text": "real numbers is certainly a"
+  },
+  {
+    "t_start": 292.99,
+    "t_end": 293.0,
+    "text": "numbers is certainly a"
+  },
+  {
+    "t_start": 293.0,
+    "t_end": 296.79,
+    "text": "numbers is certainly a subset of the entire real domain so if"
+  },
+  {
+    "t_start": 296.79,
+    "t_end": 296.8,
+    "text": "subset of the entire real domain so if"
+  },
+  {
+    "t_start": 296.8,
+    "t_end": 298.43,
+    "text": "subset of the entire real domain so if the set of reals is countable then"
+  },
+  {
+    "t_start": 298.43,
+    "t_end": 298.44,
+    "text": "the set of reals is countable then"
+  },
+  {
+    "t_start": 298.44,
+    "t_end": 301.029,
+    "text": "the set of reals is countable then certainly the set from 0 to one is also"
+  },
+  {
+    "t_start": 301.029,
+    "t_end": 301.039,
+    "text": "certainly the set from 0 to one is also"
+  },
+  {
+    "t_start": 301.039,
+    "t_end": 303.83,
+    "text": "certainly the set from 0 to one is also countable and so next what we're trying"
+  },
+  {
+    "t_start": 303.83,
+    "t_end": 303.84,
+    "text": "countable and so next what we're trying"
+  },
+  {
+    "t_start": 303.84,
+    "t_end": 306.11,
+    "text": "countable and so next what we're trying to do is we're just going to try and"
+  },
+  {
+    "t_start": 306.11,
+    "t_end": 306.12,
+    "text": "to do is we're just going to try and"
+  },
+  {
+    "t_start": 306.12,
+    "t_end": 309.35,
+    "text": "to do is we're just going to try and take the set from Z to"
+  },
+  {
+    "t_start": 309.35,
+    "t_end": 309.36,
+    "text": "take the set from Z to"
+  },
+  {
+    "t_start": 309.36,
+    "t_end": 314.39,
+    "text": "take the set from Z to one and create a"
+  },
+  {
+    "t_start": 317.15,
+    "t_end": 317.16,
+    "text": "bje to the set of positive integers or"
+  },
+  {
+    "t_start": 317.16,
+    "t_end": 318.79,
+    "text": "bje to the set of positive integers or in other words we're going to C try and"
+  },
+  {
+    "t_start": 318.79,
+    "t_end": 318.8,
+    "text": "in other words we're going to C try and"
+  },
+  {
+    "t_start": 318.8,
+    "t_end": 320.59,
+    "text": "in other words we're going to C try and create a one toone correspondence"
+  },
+  {
+    "t_start": 320.59,
+    "t_end": 320.6,
+    "text": "create a one toone correspondence"
+  },
+  {
+    "t_start": 320.6,
+    "t_end": 323.87,
+    "text": "create a one toone correspondence between this set and the set of positive"
+  },
+  {
+    "t_start": 323.87,
+    "t_end": 323.88,
+    "text": "between this set and the set of positive"
+  },
+  {
+    "t_start": 323.88,
+    "t_end": 326.83,
+    "text": "between this set and the set of positive integers and that would allow us to"
+  },
+  {
+    "t_start": 326.83,
+    "t_end": 326.84,
+    "text": "integers and that would allow us to"
+  },
+  {
+    "t_start": 326.84,
+    "t_end": 332.23,
+    "text": "integers and that would allow us to conclude that the set from 0 to one is"
+  },
+  {
+    "t_start": 334.59,
+    "t_end": 334.6,
+    "text": "accountable all right so let's represent"
+  },
+  {
+    "t_start": 334.6,
+    "t_end": 339.23,
+    "text": "accountable all right so let's represent the set from 0 to one of reals as this"
+  },
+  {
+    "t_start": 339.23,
+    "t_end": 339.24,
+    "text": "the set from 0 to one of reals as this"
+  },
+  {
+    "t_start": 339.24,
+    "t_end": 344.469,
+    "text": "the set from 0 to one of reals as this table and notice we've got R1 R2 R3 let"
+  },
+  {
+    "t_start": 344.469,
+    "t_end": 344.479,
+    "text": "table and notice we've got R1 R2 R3 let"
+  },
+  {
+    "t_start": 344.479,
+    "t_end": 348.35,
+    "text": "table and notice we've got R1 R2 R3 let R R1 through RN uh be the numbers in"
+  },
+  {
+    "t_start": 348.35,
+    "t_end": 348.36,
+    "text": "R R1 through RN uh be the numbers in"
+  },
+  {
+    "t_start": 348.36,
+    "t_end": 351.79,
+    "text": "R R1 through RN uh be the numbers in zero and one uh 0 through one and each"
+  },
+  {
+    "t_start": 351.79,
+    "t_end": 351.8,
+    "text": "zero and one uh 0 through one and each"
+  },
+  {
+    "t_start": 351.8,
+    "t_end": 352.95,
+    "text": "zero and one uh 0 through one and each digit will"
+  },
+  {
+    "t_start": 352.95,
+    "t_end": 352.96,
+    "text": "digit will"
+  },
+  {
+    "t_start": 352.96,
+    "t_end": 355.189,
+    "text": "digit will be uh"
+  },
+  {
+    "t_start": 355.189,
+    "t_end": 355.199,
+    "text": "be uh"
+  },
+  {
+    "t_start": 355.199,
+    "t_end": 359.67,
+    "text": "be uh d sub I subj where I is going to be the"
+  },
+  {
+    "t_start": 359.67,
+    "t_end": 359.68,
+    "text": "d sub I subj where I is going to be the"
+  },
+  {
+    "t_start": 359.68,
+    "t_end": 361.95,
+    "text": "d sub I subj where I is going to be the the row and J is going to be the column"
+  },
+  {
+    "t_start": 361.95,
+    "t_end": 361.96,
+    "text": "the row and J is going to be the column"
+  },
+  {
+    "t_start": 361.96,
+    "t_end": 364.15,
+    "text": "the row and J is going to be the column so for instance d11 would be the first"
+  },
+  {
+    "t_start": 364.15,
+    "t_end": 364.16,
+    "text": "so for instance d11 would be the first"
+  },
+  {
+    "t_start": 364.16,
+    "t_end": 367.67,
+    "text": "so for instance d11 would be the first row and the First Column and so di J is"
+  },
+  {
+    "t_start": 367.67,
+    "t_end": 367.68,
+    "text": "row and the First Column and so di J is"
+  },
+  {
+    "t_start": 367.68,
+    "t_end": 379.95,
+    "text": "row and the First Column and so di J is going to be an element"
+  },
+  {
+    "t_start": 384.27,
+    "t_end": 384.28,
+    "text": "of this set 0 1 2 3 4 5 6 7 8"
+  },
+  {
+    "t_start": 384.28,
+    "t_end": 386.27,
+    "text": "of this set 0 1 2 3 4 5 6 7 8 nine all right now we're going to"
+  },
+  {
+    "t_start": 386.27,
+    "t_end": 386.28,
+    "text": "nine all right now we're going to"
+  },
+  {
+    "t_start": 386.28,
+    "t_end": 388.55,
+    "text": "nine all right now we're going to declare a new number a we're going to"
+  },
+  {
+    "t_start": 388.55,
+    "t_end": 388.56,
+    "text": "declare a new number a we're going to"
+  },
+  {
+    "t_start": 388.56,
+    "t_end": 391.589,
+    "text": "declare a new number a we're going to Define it similarly to the RS above such"
+  },
+  {
+    "t_start": 391.589,
+    "t_end": 391.599,
+    "text": "Define it similarly to the RS above such"
+  },
+  {
+    "t_start": 391.599,
+    "t_end": 398.79,
+    "text": "Define it similarly to the RS above such that 0 a sub 1 a sub 2 a sub 3 a sub4"
+  },
+  {
+    "t_start": 398.79,
+    "t_end": 398.8,
+    "text": "that 0 a sub 1 a sub 2 a sub 3 a sub4"
+  },
+  {
+    "t_start": 398.8,
+    "t_end": 402.029,
+    "text": "that 0 a sub 1 a sub 2 a sub 3 a sub4 and so on correspond to the digits so"
+  },
+  {
+    "t_start": 402.029,
+    "t_end": 402.039,
+    "text": "and so on correspond to the digits so"
+  },
+  {
+    "t_start": 402.039,
+    "t_end": 404.189,
+    "text": "and so on correspond to the digits so the rules we're going to say here is"
+  },
+  {
+    "t_start": 404.189,
+    "t_end": 404.199,
+    "text": "the rules we're going to say here is"
+  },
+  {
+    "t_start": 404.199,
+    "t_end": 409.35,
+    "text": "the rules we're going to say here is that a sub I cannot equal d sub I I so"
+  },
+  {
+    "t_start": 409.35,
+    "t_end": 409.36,
+    "text": "that a sub I cannot equal d sub I I so"
+  },
+  {
+    "t_start": 409.36,
+    "t_end": 412.15,
+    "text": "that a sub I cannot equal d sub I I so if we look at that graphically a sub one"
+  },
+  {
+    "t_start": 412.15,
+    "t_end": 412.16,
+    "text": "if we look at that graphically a sub one"
+  },
+  {
+    "t_start": 412.16,
+    "t_end": 416.469,
+    "text": "if we look at that graphically a sub one here has to be different than d sub one1"
+  },
+  {
+    "t_start": 416.469,
+    "t_end": 416.479,
+    "text": "here has to be different than d sub one1"
+  },
+  {
+    "t_start": 416.479,
+    "t_end": 419.589,
+    "text": "here has to be different than d sub one1 similarly a sub 2 has to be different"
+  },
+  {
+    "t_start": 419.589,
+    "t_end": 419.599,
+    "text": "similarly a sub 2 has to be different"
+  },
+  {
+    "t_start": 419.599,
+    "t_end": 423.55,
+    "text": "similarly a sub 2 has to be different then d sub 22 and so on as you can see"
+  },
+  {
+    "t_start": 423.55,
+    "t_end": 423.56,
+    "text": "then d sub 22 and so on as you can see"
+  },
+  {
+    "t_start": 423.56,
+    "t_end": 426.07,
+    "text": "then d sub 22 and so on as you can see we're making a diagonal line here"
+  },
+  {
+    "t_start": 426.07,
+    "t_end": 426.08,
+    "text": "we're making a diagonal line here"
+  },
+  {
+    "t_start": 426.08,
+    "t_end": 428.15,
+    "text": "we're making a diagonal line here through all of the"
+  },
+  {
+    "t_start": 428.15,
+    "t_end": 428.16,
+    "text": "through all of the"
+  },
+  {
+    "t_start": 428.16,
+    "t_end": 431.469,
+    "text": "through all of the D's what this means is that the number a"
+  },
+  {
+    "t_start": 431.469,
+    "t_end": 431.479,
+    "text": "D's what this means is that the number a"
+  },
+  {
+    "t_start": 431.479,
+    "t_end": 433.909,
+    "text": "D's what this means is that the number a is always going to be different from any"
+  },
+  {
+    "t_start": 433.909,
+    "t_end": 433.919,
+    "text": "is always going to be different from any"
+  },
+  {
+    "t_start": 433.919,
+    "t_end": 436.67,
+    "text": "is always going to be different from any of the numbers R previously"
+  },
+  {
+    "t_start": 436.67,
+    "t_end": 436.68,
+    "text": "of the numbers R previously"
+  },
+  {
+    "t_start": 436.68,
+    "t_end": 439.629,
+    "text": "of the numbers R previously defined because we defined all of the"
+  },
+  {
+    "t_start": 439.629,
+    "t_end": 439.639,
+    "text": "defined because we defined all of the"
+  },
+  {
+    "t_start": 439.639,
+    "t_end": 441.67,
+    "text": "defined because we defined all of the set of all the RS as all of the numbers"
+  },
+  {
+    "t_start": 441.67,
+    "t_end": 441.68,
+    "text": "set of all the RS as all of the numbers"
+  },
+  {
+    "t_start": 441.68,
+    "t_end": 444.11,
+    "text": "set of all the RS as all of the numbers between 0 and one but we just found a"
+  },
+  {
+    "t_start": 444.11,
+    "t_end": 444.12,
+    "text": "between 0 and one but we just found a"
+  },
+  {
+    "t_start": 444.12,
+    "t_end": 446.79,
+    "text": "between 0 and one but we just found a new number a that must be in that set"
+  },
+  {
+    "t_start": 446.79,
+    "t_end": 446.8,
+    "text": "new number a that must be in that set"
+  },
+  {
+    "t_start": 446.8,
+    "t_end": 449.55,
+    "text": "new number a that must be in that set there's a contradiction even if we added"
+  },
+  {
+    "t_start": 449.55,
+    "t_end": 449.56,
+    "text": "there's a contradiction even if we added"
+  },
+  {
+    "t_start": 449.56,
+    "t_end": 453.309,
+    "text": "there's a contradiction even if we added a into the set of RS as sum R subn we"
+  },
+  {
+    "t_start": 453.309,
+    "t_end": 453.319,
+    "text": "a into the set of RS as sum R subn we"
+  },
+  {
+    "t_start": 453.319,
+    "t_end": 455.55,
+    "text": "a into the set of RS as sum R subn we could create a new number a because"
+  },
+  {
+    "t_start": 455.55,
+    "t_end": 455.56,
+    "text": "could create a new number a because"
+  },
+  {
+    "t_start": 455.56,
+    "t_end": 457.629,
+    "text": "could create a new number a because there's a new diagonal that's created"
+  },
+  {
+    "t_start": 457.629,
+    "t_end": 457.639,
+    "text": "there's a new diagonal that's created"
+  },
+  {
+    "t_start": 457.639,
+    "t_end": 459.99,
+    "text": "there's a new diagonal that's created when we put in our old"
+  },
+  {
+    "t_start": 459.99,
+    "t_end": 460.0,
+    "text": "when we put in our old"
+  },
+  {
+    "t_start": 460.0,
+    "t_end": 463.029,
+    "text": "when we put in our old a we know now that the set of RS must be"
+  },
+  {
+    "t_start": 463.029,
+    "t_end": 463.039,
+    "text": "a we know now that the set of RS must be"
+  },
+  {
+    "t_start": 463.039,
+    "t_end": 465.149,
+    "text": "a we know now that the set of RS must be uncountable and you might be thinking"
+  },
+  {
+    "t_start": 465.149,
+    "t_end": 465.159,
+    "text": "uncountable and you might be thinking"
+  },
+  {
+    "t_start": 465.159,
+    "t_end": 467.469,
+    "text": "uncountable and you might be thinking what if we started off with a included"
+  },
+  {
+    "t_start": 467.469,
+    "t_end": 467.479,
+    "text": "what if we started off with a included"
+  },
+  {
+    "t_start": 467.479,
+    "t_end": 469.99,
+    "text": "what if we started off with a included in our set of RS it would still be shown"
+  },
+  {
+    "t_start": 469.99,
+    "t_end": 470.0,
+    "text": "in our set of RS it would still be shown"
+  },
+  {
+    "t_start": 470.0,
+    "t_end": 471.99,
+    "text": "in our set of RS it would still be shown as uncountable because even if we had"
+  },
+  {
+    "t_start": 471.99,
+    "t_end": 472.0,
+    "text": "as uncountable because even if we had"
+  },
+  {
+    "t_start": 472.0,
+    "t_end": 475.189,
+    "text": "as uncountable because even if we had that a as some R subn then we would have"
+  },
+  {
+    "t_start": 475.189,
+    "t_end": 475.199,
+    "text": "that a as some R subn then we would have"
+  },
+  {
+    "t_start": 475.199,
+    "t_end": 477.23,
+    "text": "that a as some R subn then we would have a new diagonal which would yield a"
+  },
+  {
+    "t_start": 477.23,
+    "t_end": 477.24,
+    "text": "a new diagonal which would yield a"
+  },
+  {
+    "t_start": 477.24,
+    "t_end": 480.39,
+    "text": "a new diagonal which would yield a different a all right we've just shown"
+  },
+  {
+    "t_start": 480.39,
+    "t_end": 480.4,
+    "text": "different a all right we've just shown"
+  },
+  {
+    "t_start": 480.4,
+    "t_end": 482.869,
+    "text": "different a all right we've just shown the set of numbers between 0 and one is"
+  },
+  {
+    "t_start": 482.869,
+    "t_end": 482.879,
+    "text": "the set of numbers between 0 and one is"
+  },
+  {
+    "t_start": 482.879,
+    "t_end": 484.83,
+    "text": "the set of numbers between 0 and one is uncountable and we know that that's a"
+  },
+  {
+    "t_start": 484.83,
+    "t_end": 484.84,
+    "text": "uncountable and we know that that's a"
+  },
+  {
+    "t_start": 484.84,
+    "t_end": 488.749,
+    "text": "uncountable and we know that that's a subset of all real numbers consequently"
+  },
+  {
+    "t_start": 488.749,
+    "t_end": 488.759,
+    "text": "subset of all real numbers consequently"
+  },
+  {
+    "t_start": 488.759,
+    "t_end": 490.79,
+    "text": "subset of all real numbers consequently we must know now that the set of all"
+  },
+  {
+    "t_start": 490.79,
+    "t_end": 490.8,
+    "text": "we must know now that the set of all"
+  },
+  {
+    "t_start": 490.8,
+    "t_end": 496.51,
+    "text": "we must know now that the set of all real numbers is also"
+  },
+  {
+    "t_start": 499.11,
+    "t_end": 499.12,
+    "text": "uncountable all right previously we told"
+  },
+  {
+    "t_start": 499.12,
+    "t_end": 500.35,
+    "text": "uncountable all right previously we told you that the"
+  },
+  {
+    "t_start": 500.35,
+    "t_end": 500.36,
+    "text": "you that the"
+  },
+  {
+    "t_start": 500.36,
+    "t_end": 502.469,
+    "text": "you that the cardinality of the set of positive"
+  },
+  {
+    "t_start": 502.469,
+    "t_end": 502.479,
+    "text": "cardinality of the set of positive"
+  },
+  {
+    "t_start": 502.479,
+    "t_end": 507.029,
+    "text": "cardinality of the set of positive integers was all of null but now we know"
+  },
+  {
+    "t_start": 507.029,
+    "t_end": 507.039,
+    "text": "integers was all of null but now we know"
+  },
+  {
+    "t_start": 507.039,
+    "t_end": 509.79,
+    "text": "integers was all of null but now we know that all real numbers is uncountable"
+  },
+  {
+    "t_start": 509.79,
+    "t_end": 509.8,
+    "text": "that all real numbers is uncountable"
+  },
+  {
+    "t_start": 509.8,
+    "t_end": 511.67,
+    "text": "that all real numbers is uncountable whereas the set of positive integers is"
+  },
+  {
+    "t_start": 511.67,
+    "t_end": 511.68,
+    "text": "whereas the set of positive integers is"
+  },
+  {
+    "t_start": 511.68,
+    "t_end": 514.11,
+    "text": "whereas the set of positive integers is countable which means the cardinality of"
+  },
+  {
+    "t_start": 514.11,
+    "t_end": 514.12,
+    "text": "countable which means the cardinality of"
+  },
+  {
+    "t_start": 514.12,
+    "t_end": 516.509,
+    "text": "countable which means the cardinality of real numbers must be"
+  },
+  {
+    "t_start": 516.509,
+    "t_end": 516.519,
+    "text": "real numbers must be"
+  },
+  {
+    "t_start": 516.519,
+    "t_end": 519.829,
+    "text": "real numbers must be greater than all if null you might be"
+  },
+  {
+    "t_start": 519.829,
+    "t_end": 519.839,
+    "text": "greater than all if null you might be"
+  },
+  {
+    "t_start": 519.839,
+    "t_end": 522.19,
+    "text": "greater than all if null you might be thinking how is this possible all of"
+  },
+  {
+    "t_start": 522.19,
+    "t_end": 522.2,
+    "text": "thinking how is this possible all of"
+  },
+  {
+    "t_start": 522.2,
+    "t_end": 525.19,
+    "text": "thinking how is this possible all of null is already an infinite number well"
+  },
+  {
+    "t_start": 525.19,
+    "t_end": 525.2,
+    "text": "null is already an infinite number well"
+  },
+  {
+    "t_start": 525.2,
+    "t_end": 528.03,
+    "text": "null is already an infinite number well we know that the cardinality of all real"
+  },
+  {
+    "t_start": 528.03,
+    "t_end": 528.04,
+    "text": "we know that the cardinality of all real"
+  },
+  {
+    "t_start": 528.04,
+    "t_end": 530.19,
+    "text": "we know that the cardinality of all real numbers now being greater than that has"
+  },
+  {
+    "t_start": 530.19,
+    "t_end": 530.2,
+    "text": "numbers now being greater than that has"
+  },
+  {
+    "t_start": 530.2,
+    "t_end": 532.949,
+    "text": "numbers now being greater than that has to be some degree of infinity larger"
+  },
+  {
+    "t_start": 532.949,
+    "t_end": 532.959,
+    "text": "to be some degree of infinity larger"
+  },
+  {
+    "t_start": 532.959,
+    "t_end": 536.43,
+    "text": "to be some degree of infinity larger than all of null and in fact all if null"
+  },
+  {
+    "t_start": 536.43,
+    "t_end": 536.44,
+    "text": "than all of null and in fact all if null"
+  },
+  {
+    "t_start": 536.44,
+    "t_end": 540.279,
+    "text": "than all of null and in fact all if null is the lowest degree of infinity"
+  }
+]

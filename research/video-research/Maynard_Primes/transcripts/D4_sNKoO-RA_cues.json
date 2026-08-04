@@ -1,0 +1,2012 @@
+[
+  {
+    "t_start": 0.53,
+    "t_end": 2.56,
+    "text": "BRADY HARAN: The last video here on \"Numberphile\" was all"
+  },
+  {
+    "t_start": 2.56,
+    "t_end": 5.24,
+    "text": "about gaps between prime numbers."
+  },
+  {
+    "t_start": 5.24,
+    "t_end": 9.47,
+    "text": "Specifically, it was about this paper, which is a proof"
+  },
+  {
+    "t_start": 9.47,
+    "t_end": 11.37,
+    "text": "that's just been published."
+  },
+  {
+    "t_start": 11.37,
+    "t_end": 15.28,
+    "text": "And what it basically says is no matter how high you go in"
+  },
+  {
+    "t_start": 15.28,
+    "t_end": 18.66,
+    "text": "the number line, no matter how high you count, there is"
+  },
+  {
+    "t_start": 18.66,
+    "t_end": 24.14,
+    "text": "always a pair of numbers still to come with a gap of less"
+  },
+  {
+    "t_start": 24.14,
+    "t_end": 25.6,
+    "text": "than 70 million."
+  },
+  {
+    "t_start": 25.6,
+    "t_end": 28.55,
+    "text": "What that exact number is, it doesn't quite say."
+  },
+  {
+    "t_start": 28.55,
+    "t_end": 31.24,
+    "text": "70 million sounds like a really big number."
+  },
+  {
+    "t_start": 31.24,
+    "t_end": 35.23,
+    "text": "But when you think how big numbers can get and how rare"
+  },
+  {
+    "t_start": 35.23,
+    "t_end": 38.76,
+    "text": "prime numbers become as you get higher and higher, it's"
+  },
+  {
+    "t_start": 38.76,
+    "t_end": 39.7,
+    "text": "pretty close."
+  },
+  {
+    "t_start": 39.7,
+    "t_end": 42.25,
+    "text": "But what's really exciting is that a lot of people are"
+  },
+  {
+    "t_start": 42.25,
+    "t_end": 45.15,
+    "text": "saying this paper is taking us a step closer to proving the"
+  },
+  {
+    "t_start": 45.15,
+    "t_end": 46.92,
+    "text": "twin prime conjecture."
+  },
+  {
+    "t_start": 46.92,
+    "t_end": 50.48,
+    "text": "And what that says is that there are an infinite number"
+  },
+  {
+    "t_start": 50.48,
+    "t_end": 54.23,
+    "text": "of prime numbers separated by just two."
+  },
+  {
+    "t_start": 54.23,
+    "t_end": 56.85,
+    "text": "So that means no matter how high you count, when you get"
+  },
+  {
+    "t_start": 56.85,
+    "t_end": 60.73,
+    "text": "to a googolplex or Graham's number or well beyond, there"
+  },
+  {
+    "t_start": 60.73,
+    "t_end": 65.37,
+    "text": "is still an infinite number of prime numbers ahead of you"
+  },
+  {
+    "t_start": 65.37,
+    "t_end": 67.83,
+    "text": "that are separated by just two."
+  },
+  {
+    "t_start": 67.83,
+    "t_end": 70.45,
+    "text": "And when you get that high, prime numbers become"
+  },
+  {
+    "t_start": 70.45,
+    "t_end": 71.77,
+    "text": "incredibly rare."
+  },
+  {
+    "t_start": 71.77,
+    "t_end": 75.22,
+    "text": "So to think that all these pairings are still out there"
+  },
+  {
+    "t_start": 75.22,
+    "t_end": 76.67,
+    "text": "is quite an extraordinary thought."
+  },
+  {
+    "t_start": 76.67,
+    "t_end": 80.34,
+    "text": "Now, this proof is 56 pages long, and it's probably beyond"
+  },
+  {
+    "t_start": 80.34,
+    "t_end": 81.52,
+    "text": "most people."
+  },
+  {
+    "t_start": 81.52,
+    "t_end": 83.68,
+    "text": "But we did make a video about it, and I hope you've watched"
+  },
+  {
+    "t_start": 83.68,
+    "t_end": 84.44,
+    "text": "that already."
+  },
+  {
+    "t_start": 84.44,
+    "t_end": 87.72,
+    "text": "And if you did, there was few off takes and a few extra bits"
+  },
+  {
+    "t_start": 87.72,
+    "t_end": 90.75,
+    "text": "and pieces from that video that we didn't use that I've"
+  },
+  {
+    "t_start": 90.75,
+    "t_end": 92.84,
+    "text": "now put into this video."
+  },
+  {
+    "t_start": 92.84,
+    "t_end": 94.93,
+    "text": "So have a watch of that, and then I'll tell you what I"
+  },
+  {
+    "t_start": 94.93,
+    "t_end": 98.49,
+    "text": "think this paper at the end."
+  },
+  {
+    "t_start": 98.49,
+    "t_end": 100.71,
+    "text": "ED COPELAND: I love it."
+  },
+  {
+    "t_start": 100.71,
+    "t_end": 104.58,
+    "text": "I get excited about everything, but I've always"
+  },
+  {
+    "t_start": 104.58,
+    "t_end": 105.41,
+    "text": "loved numbers."
+  },
+  {
+    "t_start": 105.41,
+    "t_end": 109.7,
+    "text": "And just look at the magnitude of the kind of things."
+  },
+  {
+    "t_start": 109.7,
+    "t_end": 112.29,
+    "text": "How on earth does someone come up with that"
+  },
+  {
+    "t_start": 112.29,
+    "t_end": 113.7,
+    "text": "these are the primes?"
+  },
+  {
+    "t_start": 113.7,
+    "t_end": 117.35,
+    "text": "They're the largest twin pair primes."
+  },
+  {
+    "t_start": 117.35,
+    "t_end": 120.97,
+    "text": "And who knows what the significance of these will be?"
+  },
+  {
+    "t_start": 120.97,
+    "t_end": 123.68,
+    "text": "I love it just for the sake of mathematics and the numbers."
+  },
+  {
+    "t_start": 123.68,
+    "t_end": 127.17,
+    "text": "And I'm full of admiration for people that can this."
+  },
+  {
+    "t_start": 127.17,
+    "t_end": 129.9,
+    "text": "When I was 18, I had a decision to make, whether to"
+  },
+  {
+    "t_start": 129.9,
+    "t_end": 131.91,
+    "text": "do physics or whether to do mathematics."
+  },
+  {
+    "t_start": 131.91,
+    "t_end": 134.6,
+    "text": "And I went the physics route, and I'm very happy I did."
+  },
+  {
+    "t_start": 134.6,
+    "t_end": 136.95,
+    "text": "But if I'd have gone through the mathematics route, this is"
+  },
+  {
+    "t_start": 136.95,
+    "t_end": 138.53,
+    "text": "the kind of thing I would have loved to do."
+  },
+  {
+    "t_start": 138.53,
+    "t_end": 141.34,
+    "text": "But I'm not sure I'm good enough."
+  },
+  {
+    "t_start": 141.34,
+    "t_end": 144.37,
+    "text": "Ones that differ by two are called twin primes."
+  },
+  {
+    "t_start": 144.37,
+    "t_end": 148.64,
+    "text": "You also get, of course, ones that differ by four."
+  },
+  {
+    "t_start": 148.64,
+    "t_end": 152.71,
+    "text": "These are called cousin primes."
+  },
+  {
+    "t_start": 152.71,
+    "t_end": 156.33,
+    "text": "And there's even those that differ by six."
+  },
+  {
+    "t_start": 156.33,
+    "t_end": 159.61,
+    "text": "And these are called sexy primes."
+  },
+  {
+    "t_start": 159.61,
+    "t_end": 162.35,
+    "text": "TONY PADILLA: Now, in principle, it's believed"
+  },
+  {
+    "t_start": 162.35,
+    "t_end": 165.74,
+    "text": "It's believed there's an infinite number of these"
+  },
+  {
+    "t_start": 165.74,
+    "t_end": 166.53,
+    "text": "cousin primes."
+  },
+  {
+    "t_start": 166.53,
+    "t_end": 167.47,
+    "text": "It's believed there's an infinite number"
+  },
+  {
+    "t_start": 167.47,
+    "t_end": 168.32,
+    "text": "of these sexy primes."
+  },
+  {
+    "t_start": 168.32,
+    "t_end": 172.06,
+    "text": "In fact, it's believed that there is an infinite number of"
+  },
+  {
+    "t_start": 172.06,
+    "t_end": 176.13,
+    "text": "each possible even gap between the primes."
+  },
+  {
+    "t_start": 176.13,
+    "t_end": 178.05,
+    "text": "But it's not been proven."
+  },
+  {
+    "t_start": 178.05,
+    "t_end": 180.44,
+    "text": "So what we have here is a pair of primes."
+  },
+  {
+    "t_start": 180.44,
+    "t_end": 182.57,
+    "text": "And they differ by 2n."
+  },
+  {
+    "t_start": 182.57,
+    "t_end": 186.1,
+    "text": "What Zhang has shown is that there are an infinite number"
+  },
+  {
+    "t_start": 186.1,
+    "t_end": 189.28,
+    "text": "of prime numbers where this difference does"
+  },
+  {
+    "t_start": 189.28,
+    "t_end": 199.01,
+    "text": "not exceed 70 million."
+  },
+  {
+    "t_start": 199.01,
+    "t_end": 200.66,
+    "text": "There are an infinity of these guys."
+  },
+  {
+    "t_start": 200.66,
+    "t_end": 204.81,
+    "text": "What's even more remarkable, actually, about the proof that"
+  },
+  {
+    "t_start": 204.81,
+    "t_end": 208.21,
+    "text": "Zhang came up with is that it didn't actually do anything"
+  },
+  {
+    "t_start": 208.21,
+    "t_end": 210.09,
+    "text": "completely different."
+  },
+  {
+    "t_start": 210.09,
+    "t_end": 213.44,
+    "text": "It was really just application of existing ideas but just"
+  },
+  {
+    "t_start": 213.44,
+    "t_end": 214.57,
+    "text": "perseverance."
+  },
+  {
+    "t_start": 214.57,
+    "t_end": 215.62,
+    "text": "And that's quite unusual."
+  },
+  {
+    "t_start": 215.62,
+    "t_end": 217.6,
+    "text": "Sometimes when something hasn't been proven for a very,"
+  },
+  {
+    "t_start": 217.6,
+    "t_end": 219.64,
+    "text": "very long time, it really need some sort of order and"
+  },
+  {
+    "t_start": 219.64,
+    "t_end": 222.11,
+    "text": "magnitude shift in the way people think."
+  },
+  {
+    "t_start": 222.11,
+    "t_end": 223.47,
+    "text": "But this didn't happen here."
+  },
+  {
+    "t_start": 223.47,
+    "t_end": 228.91,
+    "text": "He just really stuck at it, perhaps more than others had."
+  },
+  {
+    "t_start": 228.91,
+    "t_end": 230.95,
+    "text": "It's a pretty impressive proof."
+  },
+  {
+    "t_start": 230.95,
+    "t_end": 231.82,
+    "text": "There's no doubt about it."
+  },
+  {
+    "t_start": 231.82,
+    "t_end": 232.06,
+    "text": "Here it is--"
+  },
+  {
+    "t_start": 232.06,
+    "t_end": 233.47,
+    "text": "56 pages of it."
+  },
+  {
+    "t_start": 233.47,
+    "t_end": 236.33,
+    "text": "So 70 million--"
+  },
+  {
+    "t_start": 236.33,
+    "t_end": 239.26,
+    "text": "I was talking about potentially the googolplex,"
+  },
+  {
+    "t_start": 239.26,
+    "t_end": 241.5,
+    "text": "Graham's number, these kind of crazy numbers."
+  },
+  {
+    "t_start": 241.5,
+    "t_end": 245.11,
+    "text": "But even then, there's gaps of only 70 million."
+  },
+  {
+    "t_start": 245.11,
+    "t_end": 247.19,
+    "text": "So it's a tiny number in that context."
+  },
+  {
+    "t_start": 247.19,
+    "t_end": 249.45,
+    "text": "But actually, of course, it's a lot bigger"
+  },
+  {
+    "t_start": 249.45,
+    "t_end": 252.92,
+    "text": "than 2 or 4 or 6--"
+  },
+  {
+    "t_start": 252.92,
+    "t_end": 256.98,
+    "text": "it is believed that the methods that Zhang used could"
+  },
+  {
+    "t_start": 256.98,
+    "t_end": 258.67,
+    "text": "be optimized even more."
+  },
+  {
+    "t_start": 258.67,
+    "t_end": 261.13,
+    "text": "And you could get this number down to 16."
+  },
+  {
+    "t_start": 261.13,
+    "t_end": 262.87,
+    "text": "That's what's anticipated here."
+  },
+  {
+    "t_start": 262.87,
+    "t_end": 266.12,
+    "text": "So that would be pretty impressive."
+  },
+  {
+    "t_start": 266.12,
+    "t_end": 268.41,
+    "text": "If there's an infinite number of prime numbers that are"
+  },
+  {
+    "t_start": 268.41,
+    "t_end": 271.692,
+    "text": "separated by only 16 numbers, that would be really"
+  },
+  {
+    "t_start": 271.692,
+    "t_end": 272.6,
+    "text": "impressive."
+  },
+  {
+    "t_start": 272.6,
+    "t_end": 273.15,
+    "text": "BRADY HARAN: But not 2."
+  },
+  {
+    "t_start": 273.15,
+    "t_end": 274.37,
+    "text": "They don't reckon he can get it to 2."
+  },
+  {
+    "t_start": 274.37,
+    "t_end": 276.19,
+    "text": "TONY PADILLA: It's not anticipated that these methods"
+  },
+  {
+    "t_start": 276.19,
+    "t_end": 278.05,
+    "text": "would actually get it down to 2."
+  },
+  {
+    "t_start": 278.05,
+    "t_end": 280.41,
+    "text": "16 is the odds."
+  },
+  {
+    "t_start": 280.41,
+    "t_end": 283.91,
+    "text": "And it's related to the fact that a lot of what Zhang did"
+  },
+  {
+    "t_start": 283.91,
+    "t_end": 286.87,
+    "text": "was based on work of these guys--"
+  },
+  {
+    "t_start": 286.87,
+    "t_end": 289.6,
+    "text": "Goldston, Pintz, and Yildirim."
+  },
+  {
+    "t_start": 289.6,
+    "t_end": 294.48,
+    "text": "And they almost got there."
+  },
+  {
+    "t_start": 294.48,
+    "t_end": 295.73,
+    "text": "What they proved--"
+  },
+  {
+    "t_start": 299.78,
+    "t_end": 301.31,
+    "text": "well, they proved a couple of things."
+  },
+  {
+    "t_start": 301.31,
+    "t_end": 304.37,
+    "text": "One thing that they proved was that--"
+  },
+  {
+    "t_start": 304.37,
+    "t_end": 307.68,
+    "text": "so you have this average gap of log n."
+  },
+  {
+    "t_start": 307.68,
+    "t_end": 310.95,
+    "text": "So that's the average gap of between prime numbers."
+  },
+  {
+    "t_start": 310.95,
+    "t_end": 315.05,
+    "text": "So for example, if n is a googolplex, this average gap"
+  },
+  {
+    "t_start": 315.05,
+    "t_end": 319.28,
+    "text": "is around the google, is of that order anyway."
+  },
+  {
+    "t_start": 319.28,
+    "t_end": 323.65,
+    "text": "So now the question is, what did Goldston, Pintz and"
+  },
+  {
+    "t_start": 323.65,
+    "t_end": 324.8,
+    "text": "Yildirim show?"
+  },
+  {
+    "t_start": 324.8,
+    "t_end": 327.02,
+    "text": "They showed that you take any fraction, any"
+  },
+  {
+    "t_start": 327.02,
+    "t_end": 330.67,
+    "text": "so I take some large n and you take any fraction you"
+  },
+  {
+    "t_start": 330.67,
+    "t_end": 332.46,
+    "text": "want of this gap--"
+  },
+  {
+    "t_start": 332.46,
+    "t_end": 336.47,
+    "text": "and I could prove that the gap between primes is less than."
+  },
+  {
+    "t_start": 336.47,
+    "t_end": 339.75,
+    "text": "So I take some fraction, let me call it epsilon."
+  },
+  {
+    "t_start": 339.75,
+    "t_end": 344.08,
+    "text": "So any epsilon greater than zero."
+  },
+  {
+    "t_start": 344.08,
+    "t_end": 348.11,
+    "text": "GPY showed that there exists--"
+  },
+  {
+    "t_start": 348.11,
+    "t_end": 349.54,
+    "text": "so I'm going to show you a little bit of mathematical"
+  },
+  {
+    "t_start": 349.54,
+    "t_end": 350.79,
+    "text": "symbol here, that there exists."
+  },
+  {
+    "t_start": 353.21,
+    "t_end": 355.41,
+    "text": "That means there exists, that backward e."
+  },
+  {
+    "t_start": 355.41,
+    "t_end": 364.4,
+    "text": "There exists prime pairs separated by less than epsilon"
+  },
+  {
+    "t_start": 364.4,
+    "t_end": 368.32,
+    "text": "log n for larger N. So you might think,"
+  },
+  {
+    "t_start": 368.32,
+    "t_end": 369.03,
+    "text": "so what is he showing?"
+  },
+  {
+    "t_start": 369.03,
+    "t_end": 370.72,
+    "text": "And this is any epsilon."
+  },
+  {
+    "t_start": 370.72,
+    "t_end": 373.76,
+    "text": "This just falls short of proving the conjecture."
+  },
+  {
+    "t_start": 373.76,
+    "t_end": 375.25,
+    "text": "Now, why does it just fall short?"
+  },
+  {
+    "t_start": 375.25,
+    "t_end": 377.36,
+    "text": "Well, in principal, I could just take n bigger and bigger"
+  },
+  {
+    "t_start": 377.36,
+    "t_end": 378.21,
+    "text": "and bigger and bigger."
+  },
+  {
+    "t_start": 378.21,
+    "t_end": 381.27,
+    "text": "If n's finite, then OK that's fine."
+  },
+  {
+    "t_start": 381.27,
+    "t_end": 385.37,
+    "text": "But n can be infinite here. n can really get big."
+  },
+  {
+    "t_start": 385.37,
+    "t_end": 389.01,
+    "text": "So that's not enough, because it just falls short of proving"
+  },
+  {
+    "t_start": 389.01,
+    "t_end": 392.72,
+    "text": "the conjecture, because we're talking big n here."
+  },
+  {
+    "t_start": 392.72,
+    "t_end": 395.11,
+    "text": "And n, essentially, you want to tend n to infinity"
+  },
+  {
+    "t_start": 395.11,
+    "t_end": 397.72,
+    "text": "ultimately to prove that there are an infinite number of"
+  },
+  {
+    "t_start": 397.72,
+    "t_end": 398.97,
+    "text": "these pairs."
+  },
+  {
+    "t_start": 401.67,
+    "t_end": 404.23,
+    "text": "You can take this fraction to be arbitrarily small."
+  },
+  {
+    "t_start": 404.23,
+    "t_end": 407.49,
+    "text": "But the thing it's multiplying is getting arbitrarily big."
+  },
+  {
+    "t_start": 407.49,
+    "t_end": 413.67,
+    "text": "So it's not clear that this overall size is actually"
+  },
+  {
+    "t_start": 413.67,
+    "t_end": 416.05,
+    "text": "getting smaller and smaller, can stay small,"
+  },
+  {
+    "t_start": 416.05,
+    "t_end": 417.29,
+    "text": "can even stay finite."
+  },
+  {
+    "t_start": 417.29,
+    "t_end": 419.06,
+    "text": "It may even become infinite."
+  },
+  {
+    "t_start": 419.06,
+    "t_end": 421.6,
+    "text": "So they fell just short of proving the conjecture."
+  },
+  {
+    "t_start": 424.26,
+    "t_end": 426.44,
+    "text": "BRADY HARAN: Our hero of the day today has also fallen"
+  },
+  {
+    "t_start": 426.44,
+    "t_end": 429.44,
+    "text": "short of proving the big conjecture."
+  },
+  {
+    "t_start": 429.44,
+    "t_end": 431.55,
+    "text": "TONY PADILLA: He least proved that there was a finite gap,"
+  },
+  {
+    "t_start": 431.55,
+    "t_end": 434.06,
+    "text": "that ultimately there is a finite gap."
+  },
+  {
+    "t_start": 434.06,
+    "t_end": 436.78,
+    "text": "And there's an infinite number of these guys with finite gap."
+  },
+  {
+    "t_start": 436.78,
+    "t_end": 438.82,
+    "text": "So what GPY did show-- and this is where"
+  },
+  {
+    "t_start": 438.82,
+    "t_end": 441.09,
+    "text": "the 16 comes in--"
+  },
+  {
+    "t_start": 441.09,
+    "t_end": 443.7,
+    "text": "is they showed that if something called the"
+  },
+  {
+    "t_start": 443.7,
+    "t_end": 448.6,
+    "text": "Elliott-Halberstam conjecture, and we don't know it's true."
+  },
+  {
+    "t_start": 448.6,
+    "t_end": 451.09,
+    "text": "It's expected to be true, but they don't know it's true."
+  },
+  {
+    "t_start": 451.09,
+    "t_end": 455.0,
+    "text": "Then there are an infinite number of prime numbers which"
+  },
+  {
+    "t_start": 455.0,
+    "t_end": 457.14,
+    "text": "differ by less than 16."
+  },
+  {
+    "t_start": 457.14,
+    "t_end": 459.06,
+    "text": "So this is where the 16 comes in."
+  },
+  {
+    "t_start": 459.06,
+    "t_end": 461.93,
+    "text": "BRADY HARAN: Just to go back to our hero of today, what is"
+  },
+  {
+    "t_start": 461.93,
+    "t_end": 465.17,
+    "text": "it about his proof that makes 70 million seem such an"
+  },
+  {
+    "t_start": 465.17,
+    "t_end": 467.34,
+    "text": "arbitrary number, and yet it's such a perfect round number?"
+  },
+  {
+    "t_start": 470.04,
+    "t_end": 472.39,
+    "text": "TONY PADILLA: So when people do number theory, how do they"
+  },
+  {
+    "t_start": 472.39,
+    "t_end": 474.98,
+    "text": "actually go about doing these proofs?"
+  },
+  {
+    "t_start": 474.98,
+    "t_end": 477.37,
+    "text": "They tend to use sieve theory."
+  },
+  {
+    "t_start": 477.37,
+    "t_end": 482.37,
+    "text": "Now, the simplest version of a sieve theory comes back from"
+  },
+  {
+    "t_start": 482.37,
+    "t_end": 485.02,
+    "text": "ancient Greece, a guy called Aristophanes."
+  },
+  {
+    "t_start": 485.02,
+    "t_end": 486.925,
+    "text": "ED COPELAND: He wanted to work out what all the primes were,"
+  },
+  {
+    "t_start": 486.925,
+    "t_end": 489.4,
+    "text": "so he began by just writing out all the numbers."
+  },
+  {
+    "t_start": 489.4,
+    "t_end": 494.56,
+    "text": "So he begins with 2, because you know one is not"
+  },
+  {
+    "t_start": 494.56,
+    "t_end": 495.58,
+    "text": "defined as a prime."
+  },
+  {
+    "t_start": 495.58,
+    "t_end": 498.42,
+    "text": "So he begins with 2, 3, 4."
+  },
+  {
+    "t_start": 498.42,
+    "t_end": 501.0,
+    "text": "And I'll do 31 and 32."
+  },
+  {
+    "t_start": 501.0,
+    "t_end": 502.64,
+    "text": "And it goes on and on, of course."
+  },
+  {
+    "t_start": 502.64,
+    "t_end": 505.77,
+    "text": "And what he said is you begin at 2."
+  },
+  {
+    "t_start": 505.77,
+    "t_end": 507.37,
+    "text": "That's going to be your first number."
+  },
+  {
+    "t_start": 507.37,
+    "t_end": 511.35,
+    "text": "And cross out every number that's divisible by 2."
+  },
+  {
+    "t_start": 511.35,
+    "t_end": 512.049,
+    "text": "BRADY HARAN: Why?"
+  },
+  {
+    "t_start": 512.049,
+    "t_end": 515.039,
+    "text": "ED COPELAND: Because that can't be a prime."
+  },
+  {
+    "t_start": 515.039,
+    "t_end": 518.84,
+    "text": "A prime is defined as a number that's divisible only by"
+  },
+  {
+    "t_start": 518.84,
+    "t_end": 524.56,
+    "text": "itself, possibly by 1, but 1 doesn't count usually."
+  },
+  {
+    "t_start": 524.56,
+    "t_end": 525.27,
+    "text": "We begin with 2."
+  },
+  {
+    "t_start": 525.27,
+    "t_end": 527.47,
+    "text": "So 4 across all the even numbers now--"
+  },
+  {
+    "t_start": 527.47,
+    "t_end": 528.86,
+    "text": "immediately wipe out."
+  },
+  {
+    "t_start": 528.86,
+    "t_end": 529.51,
+    "text": "I'm sieving."
+  },
+  {
+    "t_start": 529.51,
+    "t_end": 531.01,
+    "text": "They're falling through the sieve."
+  },
+  {
+    "t_start": 531.01,
+    "t_end": 532.92,
+    "text": "That's exactly what's going on."
+  },
+  {
+    "t_start": 532.92,
+    "t_end": 534.17,
+    "text": "And so I've got rid of that."
+  },
+  {
+    "t_start": 534.17,
+    "t_end": 537.47,
+    "text": "So now you move to 3, which is the next one by itself."
+  },
+  {
+    "t_start": 537.47,
+    "t_end": 538.53,
+    "text": "And you do the same thing."
+  },
+  {
+    "t_start": 538.53,
+    "t_end": 542.15,
+    "text": "Well, 6 already has been ruled out."
+  },
+  {
+    "t_start": 542.15,
+    "t_end": 544.0,
+    "text": "But 9 goes."
+  },
+  {
+    "t_start": 544.0,
+    "t_end": 545.06,
+    "text": "12 is already gone."
+  },
+  {
+    "t_start": 545.06,
+    "t_end": 548.82,
+    "text": "15 goes, 27 goes, 30 is gone."
+  },
+  {
+    "t_start": 548.82,
+    "t_end": 550.52,
+    "text": "4 is already gone."
+  },
+  {
+    "t_start": 550.52,
+    "t_end": 552.736,
+    "text": "5 is the next one."
+  },
+  {
+    "t_start": 552.736,
+    "t_end": 555.66,
+    "text": "So then you start going through."
+  },
+  {
+    "t_start": 555.66,
+    "t_end": 559.38,
+    "text": "Anything divisible by 5 is removed."
+  },
+  {
+    "t_start": 559.38,
+    "t_end": 562.75,
+    "text": "So 10 is already gone."
+  },
+  {
+    "t_start": 562.75,
+    "t_end": 565.12,
+    "text": "25 hasn't gone yet, but has now."
+  },
+  {
+    "t_start": 565.12,
+    "t_end": 568.6,
+    "text": "What you're now left with actually are all the primes."
+  },
+  {
+    "t_start": 568.6,
+    "t_end": 574.192,
+    "text": "If I just label the ones that I left, you've got 11, 13, 17,"
+  },
+  {
+    "t_start": 574.192,
+    "t_end": 579.84,
+    "text": "19, 23, 29, 31."
+  },
+  {
+    "t_start": 579.84,
+    "t_end": 581.51,
+    "text": "I've got all the primes up to 31."
+  },
+  {
+    "t_start": 581.51,
+    "t_end": 585.2,
+    "text": "And this is the technique that you can use to actually sieve"
+  },
+  {
+    "t_start": 585.2,
+    "t_end": 588.08,
+    "text": "This would give me all the primes."
+  },
+  {
+    "t_start": 588.08,
+    "t_end": 590.72,
+    "text": "If I had enough computing power and enough time and I"
+  },
+  {
+    "t_start": 590.72,
+    "t_end": 593.74,
+    "text": "could do it faster, I would get all the primes just by"
+  },
+  {
+    "t_start": 593.74,
+    "t_end": 596.952,
+    "text": "writing out this series and just doing it."
+  },
+  {
+    "t_start": 596.952,
+    "t_end": 599.05,
+    "text": "ED COPELAND: And all infinity of it."
+  },
+  {
+    "t_start": 599.05,
+    "t_end": 601.88,
+    "text": "It took me a long, long time, an infinite amount of time."
+  },
+  {
+    "t_start": 601.88,
+    "t_end": 603.577,
+    "text": "But I could do it."
+  },
+  {
+    "t_start": 603.577,
+    "t_end": 604.92,
+    "text": "BRADY HARAN: Do you know how long it would take you?"
+  },
+  {
+    "t_start": 604.92,
+    "t_end": 606.5,
+    "text": "ED COPELAND: Infinite amount of time."
+  },
+  {
+    "t_start": 606.5,
+    "t_end": 608.27,
+    "text": "So we haven't got that."
+  },
+  {
+    "t_start": 608.27,
+    "t_end": 611.63,
+    "text": "The funding agencies won't fund us for that kind of--"
+  },
+  {
+    "t_start": 611.63,
+    "t_end": 612.91,
+    "text": "BRADY HARAN: We don't have an infinite amount of time."
+  },
+  {
+    "t_start": 612.91,
+    "t_end": 616.16,
+    "text": "We've got another 26 minutes."
+  },
+  {
+    "t_start": 616.16,
+    "t_end": 619.34,
+    "text": "ED COPELAND: What people have done is they've refined this"
+  },
+  {
+    "t_start": 619.34,
+    "t_end": 624.65,
+    "text": "sieve in such a way that it's not as accurate as this."
+  },
+  {
+    "t_start": 624.65,
+    "t_end": 627.91,
+    "text": "So maybe you think of it as a bit more coarse-grained sieve."
+  },
+  {
+    "t_start": 627.91,
+    "t_end": 632.07,
+    "text": "And so more things will fall through."
+  },
+  {
+    "t_start": 632.07,
+    "t_end": 636.57,
+    "text": "But what you are left with, rather than having these fine"
+  },
+  {
+    "t_start": 636.57,
+    "t_end": 639.3,
+    "text": "primes immediately left, what you're left with are groups of"
+  },
+  {
+    "t_start": 639.3,
+    "t_end": 642.87,
+    "text": "numbers with which you improve your chances"
+  },
+  {
+    "t_start": 642.87,
+    "t_end": 644.19,
+    "text": "of finding the primes."
+  },
+  {
+    "t_start": 644.19,
+    "t_end": 647.73,
+    "text": "So you have some idea of the kind of values of numbers"
+  },
+  {
+    "t_start": 647.73,
+    "t_end": 648.91,
+    "text": "you're looking for."
+  },
+  {
+    "t_start": 648.91,
+    "t_end": 651.0,
+    "text": "You develop your sieve accordingly."
+  },
+  {
+    "t_start": 651.0,
+    "t_end": 653.46,
+    "text": "And then all the other stuff comes through, and you're left"
+  },
+  {
+    "t_start": 653.46,
+    "t_end": 656.03,
+    "text": "with this range of numbers, within which you hope you're"
+  },
+  {
+    "t_start": 656.03,
+    "t_end": 657.94,
+    "text": "going to find these big primes."
+  },
+  {
+    "t_start": 657.94,
+    "t_end": 660.57,
+    "text": "Just look at the sizes that we're talking about."
+  },
+  {
+    "t_start": 660.57,
+    "t_end": 666.55,
+    "text": "And so these modified sieves are used by mathematicians to"
+  },
+  {
+    "t_start": 666.55,
+    "t_end": 671.35,
+    "text": "try and establish these bounded sets."
+  },
+  {
+    "t_start": 671.35,
+    "t_end": 676.39,
+    "text": "And the work of Zhang has been based on some earlier work by"
+  },
+  {
+    "t_start": 676.39,
+    "t_end": 684.27,
+    "text": "a group of mathematicians who almost got there to find this"
+  },
+  {
+    "t_start": 684.27,
+    "t_end": 686.215,
+    "text": "bound, but couldn't quite make it."
+  },
+  {
+    "t_start": 686.215,
+    "t_end": 689.26,
+    "text": "And what he did is he basically modified the sieve"
+  },
+  {
+    "t_start": 689.26,
+    "t_end": 692.58,
+    "text": "that he was using, which meant he had just a slightly"
+  },
+  {
+    "t_start": 692.58,
+    "t_end": 697.37,
+    "text": "different way of getting the bigger prime numbers."
+  },
+  {
+    "t_start": 697.37,
+    "t_end": 699.95,
+    "text": "And from it, he was able to demonstrate that indeed there"
+  },
+  {
+    "t_start": 699.95,
+    "t_end": 704.05,
+    "text": "is a bound just based on the type of sieve he was using."
+  },
+  {
+    "t_start": 704.05,
+    "t_end": 706.74,
+    "text": "And this bound turned out to be 70 million"
+  },
+  {
+    "t_start": 706.74,
+    "t_end": 707.91,
+    "text": "that he came up with."
+  },
+  {
+    "t_start": 707.91,
+    "t_end": 712.03,
+    "text": "BRADY HARAN: So 70 million is an artifact of the sieve that"
+  },
+  {
+    "t_start": 712.03,
+    "t_end": 713.5,
+    "text": "he arbitrarily chose."
+  },
+  {
+    "t_start": 713.5,
+    "t_end": 715.38,
+    "text": "ED COPELAND: There are two things."
+  },
+  {
+    "t_start": 715.38,
+    "t_end": 718.62,
+    "text": "There's a sieve and then there's something which I just"
+  },
+  {
+    "t_start": 718.62,
+    "t_end": 720.37,
+    "text": "can't get my head around called the level of"
+  },
+  {
+    "t_start": 720.37,
+    "t_end": 725.04,
+    "text": "distribution which tells you how the prime numbers, how"
+  },
+  {
+    "t_start": 725.04,
+    "t_end": 729.55,
+    "text": "regular they become when you're looking on for very"
+  },
+  {
+    "t_start": 729.55,
+    "t_end": 730.79,
+    "text": "large values."
+  },
+  {
+    "t_start": 730.79,
+    "t_end": 735.61,
+    "text": "And it was this combination that he used and out of it,"
+  },
+  {
+    "t_start": 735.61,
+    "t_end": 737.96,
+    "text": "which no one else had been able to do."
+  },
+  {
+    "t_start": 737.96,
+    "t_end": 744.79,
+    "text": "And there is a nice aspect to this story, which is"
+  },
+  {
+    "t_start": 744.79,
+    "t_end": 747.9,
+    "text": "a, he's over 50."
+  },
+  {
+    "t_start": 747.9,
+    "t_end": 749.11,
+    "text": "And no one had knew about him."
+  },
+  {
+    "t_start": 749.11,
+    "t_end": 750.85,
+    "text": "He works at the University of New Hampshire."
+  },
+  {
+    "t_start": 750.85,
+    "t_end": 755.45,
+    "text": "He'd obviously been working away, which means you can do"
+  },
+  {
+    "t_start": 755.45,
+    "t_end": 757.58,
+    "text": "great math over 50."
+  },
+  {
+    "t_start": 757.58,
+    "t_end": 759.47,
+    "text": "You're not totally burnt out."
+  },
+  {
+    "t_start": 759.47,
+    "t_end": 765.42,
+    "text": "And b, he wasn't that he came up with some phenomenally new"
+  },
+  {
+    "t_start": 765.42,
+    "t_end": 766.17,
+    "text": "breakthrough."
+  },
+  {
+    "t_start": 766.17,
+    "t_end": 770.1,
+    "text": "He just kept plugging away at the techniques people have"
+  },
+  {
+    "t_start": 770.1,
+    "t_end": 770.73,
+    "text": "been doing."
+  },
+  {
+    "t_start": 770.73,
+    "t_end": 773.63,
+    "text": "And just by doing that he was able to modify them"
+  },
+  {
+    "t_start": 773.63,
+    "t_end": 775.19,
+    "text": "sufficiently to make this."
+  },
+  {
+    "t_start": 775.19,
+    "t_end": 779.46,
+    "text": "And he sent it to the journal in April."
+  },
+  {
+    "t_start": 779.46,
+    "t_end": 784.17,
+    "text": "And the journal editor, to their credit--"
+  },
+  {
+    "t_start": 784.17,
+    "t_end": 787.05,
+    "text": "mathematics journals must be inundated with people saying"
+  },
+  {
+    "t_start": 787.05,
+    "t_end": 789.44,
+    "text": "they've solved these problems, because the problems are so"
+  },
+  {
+    "t_start": 789.44,
+    "t_end": 790.9,
+    "text": "easy to say."
+  },
+  {
+    "t_start": 790.9,
+    "t_end": 795.61,
+    "text": "There's an infinite number of primes who differ by two."
+  },
+  {
+    "t_start": 795.61,
+    "t_end": 798.52,
+    "text": "I remember trying to prove this at school, thinking that"
+  },
+  {
+    "t_start": 798.52,
+    "t_end": 799.877,
+    "text": "can't be that difficult."
+  },
+  {
+    "t_start": 799.877,
+    "t_end": 801.427,
+    "text": "BRADY HARAN: The \"Numberphile\" inbox is"
+  },
+  {
+    "t_start": 801.427,
+    "t_end": 802.739,
+    "text": "inundated with people claiming--"
+  },
+  {
+    "t_start": 802.739,
+    "t_end": 803.7,
+    "text": "ED COPELAND: I'm sure it is."
+  },
+  {
+    "t_start": 803.7,
+    "t_end": 807.2,
+    "text": "So to their credit, the editors of the journal"
+  },
+  {
+    "t_start": 807.2,
+    "t_end": 809.21,
+    "text": "realized this guy knew what he was talking about."
+  },
+  {
+    "t_start": 809.21,
+    "t_end": 810.94,
+    "text": "Apparently, the paper was beautifully"
+  },
+  {
+    "t_start": 810.94,
+    "t_end": 812.64,
+    "text": "written, crystal clear."
+  },
+  {
+    "t_start": 812.64,
+    "t_end": 814.4,
+    "text": "And they fast-tracked it through"
+  },
+  {
+    "t_start": 814.4,
+    "t_end": 816.45,
+    "text": "the refereeing process."
+  },
+  {
+    "t_start": 816.45,
+    "t_end": 819.28,
+    "text": "They must have some way of putting it on a conveyor belt"
+  },
+  {
+    "t_start": 819.28,
+    "t_end": 823.2,
+    "text": "that sends it to the referees who all unanimously said this"
+  },
+  {
+    "t_start": 823.2,
+    "t_end": 826.72,
+    "text": "is potentially really important."
+  },
+  {
+    "t_start": 826.72,
+    "t_end": 830.31,
+    "text": "TONY PADILLA: I scanned the proof, but I went online and"
+  },
+  {
+    "t_start": 830.31,
+    "t_end": 834.47,
+    "text": "found some really nice explanations, because one"
+  },
+  {
+    "t_start": 834.47,
+    "t_end": 838.55,
+    "text": "thing that happened is he gave a talk at Harvard."
+  },
+  {
+    "t_start": 838.55,
+    "t_end": 840.13,
+    "text": "And it was extremely well-received."
+  },
+  {
+    "t_start": 840.13,
+    "t_end": 842.47,
+    "text": "And people were very excited about it."
+  },
+  {
+    "t_start": 842.47,
+    "t_end": 843.53,
+    "text": "Everybody loves prime numbers."
+  },
+  {
+    "t_start": 843.53,
+    "t_end": 845.07,
+    "text": "So there were people coming from different"
+  },
+  {
+    "t_start": 845.07,
+    "t_end": 847.62,
+    "text": "fields to see this talk."
+  },
+  {
+    "t_start": 847.62,
+    "t_end": 850.14,
+    "text": "But what people have done is some people who were at that"
+  },
+  {
+    "t_start": 850.14,
+    "t_end": 853.98,
+    "text": "talk have put some really nice explanations online of what"
+  },
+  {
+    "t_start": 853.98,
+    "t_end": 856.89,
+    "text": "the proof involved."
+  },
+  {
+    "t_start": 856.89,
+    "t_end": 861.425,
+    "text": "So those I find particularly useful, because they were"
+  },
+  {
+    "t_start": 861.425,
+    "t_end": 863.23,
+    "text": "written by people who weren't number theorists."
+  },
+  {
+    "t_start": 863.23,
+    "t_end": 866.61,
+    "text": "And I'm not a number theorist, so that was very useful to me."
+  },
+  {
+    "t_start": 866.61,
+    "t_end": 871.99,
+    "text": "Incidentally, there's a nice little quirk of fate which"
+  },
+  {
+    "t_start": 871.99,
+    "t_end": 876.21,
+    "text": "happened while that talk was going on, in that a paper came"
+  },
+  {
+    "t_start": 876.21,
+    "t_end": 878.07,
+    "text": "online while that talk was going on, which actually"
+  },
+  {
+    "t_start": 878.07,
+    "t_end": 881.39,
+    "text": "proved another one of these crazy conjectures."
+  },
+  {
+    "t_start": 881.39,
+    "t_end": 885.32,
+    "text": "And it was the Goldbach conjecture, at least a"
+  },
+  {
+    "t_start": 885.32,
+    "t_end": 888.51,
+    "text": "weakened version of the Goldbach conjecture."
+  },
+  {
+    "t_start": 888.51,
+    "t_end": 890.25,
+    "text": "So the original Goldbach conjecture, which is one of"
+  },
+  {
+    "t_start": 890.25,
+    "t_end": 893.285,
+    "text": "the great problems of mathematics--"
+  },
+  {
+    "t_start": 896.83,
+    "t_end": 897.88,
+    "text": "you get one of these Millennium prizes"
+  },
+  {
+    "t_start": 897.88,
+    "t_end": 900.15,
+    "text": "if you solve it--"
+  },
+  {
+    "t_start": 900.15,
+    "t_end": 904.4,
+    "text": "is that to prove that every even number can be written as"
+  },
+  {
+    "t_start": 904.4,
+    "t_end": 906.44,
+    "text": "the sum of two primes."
+  },
+  {
+    "t_start": 906.44,
+    "t_end": 910.97,
+    "text": "So the weakened version this guy proved that came out while"
+  },
+  {
+    "t_start": 910.97,
+    "t_end": 916.39,
+    "text": "Zhang was giving his talk was that every odd number greater"
+  },
+  {
+    "t_start": 916.39,
+    "t_end": 919.67,
+    "text": "than five can be written as the sum of three primes."
+  },
+  {
+    "t_start": 919.67,
+    "t_end": 921.52,
+    "text": "So he proved there is a slightly weakened version of"
+  },
+  {
+    "t_start": 921.52,
+    "t_end": 922.77,
+    "text": "the original conjecture."
+  },
+  {
+    "t_start": 925.54,
+    "t_end": 928.61,
+    "text": "There's been two really big events within number theory"
+  },
+  {
+    "t_start": 928.61,
+    "t_end": 930.57,
+    "text": "coming together at the same time."
+  },
+  {
+    "t_start": 930.57,
+    "t_end": 935.56,
+    "text": "And the implications for this in terms of--"
+  },
+  {
+    "t_start": 935.56,
+    "t_end": 937.65,
+    "text": "now that there's new ideas coming in, there's even hope"
+  },
+  {
+    "t_start": 937.65,
+    "t_end": 943.155,
+    "text": "that maybe one could solve the Riemann hypothesis."
+  },
+  {
+    "t_start": 943.155,
+    "t_end": 945.54,
+    "text": "So the Riemann hypothesis states that there's a"
+  },
+  {
+    "t_start": 945.54,
+    "t_end": 948.24,
+    "text": "particular function called the Riemann function, which I can"
+  },
+  {
+    "t_start": 948.24,
+    "t_end": 949.96,
+    "text": "write down quite straightforwardly."
+  },
+  {
+    "t_start": 949.96,
+    "t_end": 956.69,
+    "text": "It has the form z through zed is the sum of n of one over n"
+  },
+  {
+    "t_start": 956.69,
+    "t_end": 958.45,
+    "text": "to the zed."
+  },
+  {
+    "t_start": 958.45,
+    "t_end": 960.17,
+    "text": "The Riemann hypothesis asks where are the"
+  },
+  {
+    "t_start": 960.17,
+    "t_end": 961.42,
+    "text": "zeros of this function."
+  },
+  {
+    "t_start": 964.54,
+    "t_end": 967.66,
+    "text": "It seems what he says is that they all lie"
+  },
+  {
+    "t_start": 967.66,
+    "t_end": 970.56,
+    "text": "I'm thinking, where are they in the complex plane?"
+  },
+  {
+    "t_start": 970.56,
+    "t_end": 975.46,
+    "text": "They all lie on the line with real number one half."
+  },
+  {
+    "t_start": 975.46,
+    "t_end": 976.6,
+    "text": "Not obvious--"
+  },
+  {
+    "t_start": 976.6,
+    "t_end": 978.37,
+    "text": "it's a hypothesis."
+  },
+  {
+    "t_start": 978.37,
+    "t_end": 981.38,
+    "text": "Great minds have failed to prove this time and time and"
+  },
+  {
+    "t_start": 981.38,
+    "t_end": 982.43,
+    "text": "time again."
+  },
+  {
+    "t_start": 982.43,
+    "t_end": 988.29,
+    "text": "And one thing that is hoped is that now might be progress to"
+  },
+  {
+    "t_start": 988.29,
+    "t_end": 989.21,
+    "text": "proving this."
+  },
+  {
+    "t_start": 989.21,
+    "t_end": 991.48,
+    "text": "So all these things together, this kind of hope that's"
+  },
+  {
+    "t_start": 991.48,
+    "t_end": 992.68,
+    "text": "there's going to be real progress now."
+  },
+  {
+    "t_start": 992.68,
+    "t_end": 996.29,
+    "text": "Incidentally, we used this Riemann zeta function in"
+  },
+  {
+    "t_start": 996.29,
+    "t_end": 997.48,
+    "text": "quantum field theory as well."
+  },
+  {
+    "t_start": 997.48,
+    "t_end": 1001.8,
+    "text": "So this has applications beyond just number theory."
+  },
+  {
+    "t_start": 1001.8,
+    "t_end": 1002.73,
+    "text": "BRADY HARAN: You're a physicist, not a"
+  },
+  {
+    "t_start": 1002.73,
+    "t_end": 1004.24,
+    "text": "mathematician."
+  },
+  {
+    "t_start": 1004.24,
+    "t_end": 1006.57,
+    "text": "Does this excite you when you read about this and see this?"
+  },
+  {
+    "t_start": 1006.57,
+    "t_end": 1009.27,
+    "text": "TONY PADILLA: I think everybody loves prime numbers."
+  },
+  {
+    "t_start": 1009.27,
+    "t_end": 1013.11,
+    "text": "I think you can't fail to love prime numbers."
+  },
+  {
+    "t_start": 1013.11,
+    "t_end": 1014.8,
+    "text": "I think the great thing--"
+  },
+  {
+    "t_start": 1014.8,
+    "t_end": 1017.45,
+    "text": "I was thinking about this because I knew you'd ask me"
+  },
+  {
+    "t_start": 1017.45,
+    "t_end": 1019.64,
+    "text": "that, Brady--"
+  },
+  {
+    "t_start": 1019.64,
+    "t_end": 1023.37,
+    "text": "the thing about prime numbers that I think fascinates"
+  },
+  {
+    "t_start": 1023.37,
+    "t_end": 1026.77,
+    "text": "anybody who's interested in math, physics, that kind of"
+  },
+  {
+    "t_start": 1026.77,
+    "t_end": 1032.71,
+    "text": "thing is that they seemingly lack some sort of structure."
+  },
+  {
+    "t_start": 1032.71,
+    "t_end": 1036.3,
+    "text": "We like to think that we understand nature, that things"
+  },
+  {
+    "t_start": 1036.3,
+    "t_end": 1039.2,
+    "text": "ultimately will adhere to some sort of structure and we could"
+  },
+  {
+    "t_start": 1039.2,
+    "t_end": 1040.4,
+    "text": "make sense of that."
+  },
+  {
+    "t_start": 1040.4,
+    "t_end": 1043.869,
+    "text": "Thus far, prime numbers seem to sort of evade that"
+  },
+  {
+    "t_start": 1043.869,
+    "t_end": 1044.17,
+    "text": "possibility."
+  },
+  {
+    "t_start": 1044.17,
+    "t_end": 1046.68,
+    "text": "They seem to just be so higgeldy-piggeldy."
+  },
+  {
+    "t_start": 1046.68,
+    "t_end": 1050.32,
+    "text": "What is the structure that underpins prime numbers?"
+  },
+  {
+    "t_start": 1050.32,
+    "t_end": 1053.7,
+    "text": "And these sort of conjectures are sort of going some way"
+  },
+  {
+    "t_start": 1053.7,
+    "t_end": 1061.04,
+    "text": "towards giving prime numbers these elusive things that have"
+  },
+  {
+    "t_start": 1061.04,
+    "t_end": 1066.91,
+    "text": "thus far refused to come on to the grip of our trying to make"
+  },
+  {
+    "t_start": 1066.91,
+    "t_end": 1069.37,
+    "text": "sense to them and to apply structure to them."
+  },
+  {
+    "t_start": 1069.37,
+    "t_end": 1072.2,
+    "text": "These sort of conjectures, improving them is heading some"
+  },
+  {
+    "t_start": 1072.2,
+    "t_end": 1073.77,
+    "text": "way to doing that."
+  },
+  {
+    "t_start": 1073.77,
+    "t_end": 1077.14,
+    "text": "And that's why it's sort of like, is it an almost final"
+  },
+  {
+    "t_start": 1077.14,
+    "t_end": 1079.27,
+    "text": "frontier of our understanding in some way?"
+  },
+  {
+    "t_start": 1079.27,
+    "t_end": 1082.22,
+    "text": "We're making sense of something--"
+  },
+  {
+    "t_start": 1082.22,
+    "t_end": 1084.395,
+    "text": "everybody can understand why three is a prime number, a"
+  },
+  {
+    "t_start": 1084.395,
+    "t_end": 1085.4,
+    "text": "five is a prime number."
+  },
+  {
+    "t_start": 1085.4,
+    "t_end": 1087.37,
+    "text": "And it's something that's familiar to you."
+  },
+  {
+    "t_start": 1087.37,
+    "t_end": 1091.36,
+    "text": "And yet seemingly we understand so little about it."
+  },
+  {
+    "t_start": 1091.36,
+    "t_end": 1092.19,
+    "text": "That's the fascination."
+  },
+  {
+    "t_start": 1092.19,
+    "t_end": 1094.32,
+    "text": "BRADY HARAN: Do you know what else a prime number is?"
+  },
+  {
+    "t_start": 1094.32,
+    "t_end": 1094.63,
+    "text": "TONY PADILLA: What?"
+  },
+  {
+    "t_start": 1094.63,
+    "t_end": 1095.69,
+    "text": "BRADY HARAN: 19."
+  },
+  {
+    "t_start": 1095.69,
+    "t_end": 1098.66,
+    "text": "Stewart Downing."
+  },
+  {
+    "t_start": 1098.66,
+    "t_end": 1100.12,
+    "text": "TONY PADILLA: He's has a good second half of the season,"
+  },
+  {
+    "t_start": 1100.12,
+    "t_end": 1101.512,
+    "text": "Stewart Downing."
+  },
+  {
+    "t_start": 1101.512,
+    "t_end": 1103.44,
+    "text": "BRADY HARAN: Was he a good signing?"
+  },
+  {
+    "t_start": 1103.44,
+    "t_end": 1106.255,
+    "text": "TONY PADILLA: I don't want to say definitely yet."
+  },
+  {
+    "t_start": 1106.255,
+    "t_end": 1107.87,
+    "text": "He had a good second half of the season."
+  },
+  {
+    "t_start": 1107.87,
+    "t_end": 1108.84,
+    "text": "I will say that."
+  },
+  {
+    "t_start": 1108.84,
+    "t_end": 1110.09,
+    "text": "He's improved."
+  },
+  {
+    "t_start": 1111.84,
+    "t_end": 1115.76,
+    "text": "BRADY HARAN: So this paper by Yitang Zhang, which is, by all"
+  },
+  {
+    "t_start": 1115.76,
+    "t_end": 1117.58,
+    "text": "accounts, an extraordinary piece of work."
+  },
+  {
+    "t_start": 1117.58,
+    "t_end": 1120.93,
+    "text": "It's well beyond my capabilities."
+  },
+  {
+    "t_start": 1120.93,
+    "t_end": 1124.39,
+    "text": "But I did note it's 56 pages long."
+  },
+  {
+    "t_start": 1124.39,
+    "t_end": 1126.23,
+    "text": "And I think the typesetters have missed"
+  },
+  {
+    "t_start": 1126.23,
+    "t_end": 1127.51,
+    "text": "an opportunity here."
+  },
+  {
+    "t_start": 1127.51,
+    "t_end": 1131.42,
+    "text": "If they just made the point size a bit bigger or put a bit"
+  },
+  {
+    "t_start": 1131.42,
+    "t_end": 1135.07,
+    "text": "more spacing in there, they could have got it to 59 pages."
+  },
+  {
+    "t_start": 1135.07,
+    "t_end": 1137.146,
+    "text": "And that's a twin prime."
+  },
+  {
+    "t_start": 1137.146,
+    "t_end": 1138.97,
+    "text": "You know that's what I would have done."
+  }
+]

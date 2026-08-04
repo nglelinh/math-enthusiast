@@ -1,0 +1,199 @@
+Another
+incredibly surprisingly difficult
+problem is the colots conjecture. Oh
+yes. Simple to state, beautiful to
+visualize in it simplicity and yet
+extremely uh difficult to solve and yet
+you have been able to make progress. Uh
+Paular said about the coloss conjecture
+that mathematics may not be ready for
+such problems. Others have stated that
+it is an extraordinarily difficult
+problem completely out of reach this is
+in 2010 out of reach of present day
+mathematics and yet you have made some
+progress. Why is it so difficult to
+make? Can you actually even explain what
+it is? Oh yeah. So it's it's a point
+that you can explain um yeah it um it
+helps with some um visual aids but yeah
+so you take any natural number like say
+13 and you apply the the following
+procedure to it. So if it's even you
+divide it by two and if it's odd you
+multiply by three and add one. So even
+numbers get smaller, odd numbers get
+bigger. So 13 would become 40 because 13
+* 3 is 39. Add one you get 40. So it's a
+simple process for odd numbers and even
+numbers. They're both very easy
+operations. And then you put them
+together. It's still reasonably simple.
+Um but then you ask what happens when
+you iterate it. You you take the output
+that you just got and feed it back in.
+So 13 becomes 40. 40 is now even divide
+by 2 is 20. 20 is still even divide by
+10 2 10 5 and then 5 * 3 + 1 is 16 and
+then 8 4 2 1 so uh and then from 1 it
+goes 1 4 2 1 421 it cycles forever so
+this sequence I just described um yeah
+13 40 20 10 and so forth these are also
+called hailstone sequences because
+there's an oversimplified model of of
+hailstone formation yeah which is not
+actually quite correct but it's still
+somehow taught to high school students
+as a first approximation is that um like
+a a little nugget of ice gets gets a
+nice crystal. It forms in a cloud and it
+goes up and down because of the wind and
+sometimes when it's cold it get acquires
+a bit more mass and maybe it melts a
+little bit and this process of going up
+and down creates this sort of partially
+melted ice which eventually because it's
+hellstone and eventually it falls out
+the earth. So the conjecture is that no
+matter how high you start up like you
+take a number which is in the millions
+or billions you go there this process
+that that goes up if you're odd and down
+if you're even eventually um goes down
+to to earth all the time no matter where
+you start with this very simple
+algorithm you end up at one and you
+might climb for a while right yeah so
+it's yeah if you plot it um these
+sequences they look like brownie in
+motion um they look like the stock
+market you know they just go up and down
+in a in a seemingly random pattern and
+in Fact, usually that's what happens
+that that if you plug in a random
+number, you can actually prove at least
+initially that it would look like um
+random walk. Um and that's actually a
+random walk with a downward drift. Um
+it's like if you're always gambling on a
+roulette at at the casino with odds
+slightly weighted against you. So
+sometimes you you win, sometimes you
+lose, but over in the long run you lose
+a bit more than you win. Um and so
+normally your wallet will hit will go to
+zero um if you just keep playing over
+and over again. So statistically it
+makes sense. Yes. So, so the result that
+I I proved roughly speaking ass that
+that statistically like 99% of all
+inputs would would drift down to maybe
+not all the way to one, but to be much
+much smaller than what you started. So,
+it's it's like if I told you that if you
+go to a casino, most of the time you end
+up if you keep playing for long enough,
+you end up with a smaller amount in your
+wallet than when you started. That's
+kind of like the what the result that I
+proved. So why is that result like can
+you continue down that thread
+to prove the full conjecture? Well, the
+problem is that um my I I used arguments
+from probability theory um and there's
+always this exceptional event. So you
+know so in probability we have this this
+law large large numbers um which tells
+you things like if you play a casino
+with a um a game at a casino with a
+losing um expectation over time you are
+guaranteed well almost surely with
+probably probability as close to 100% as
+you wish you're guaranteed to lose money
+but there's always this exceptional
+outlier like it is mathematically
+possible that even in when the game is
+is the odds are not in your favor you
+could just keep winning slightly more
+often than you lose very much like how
+in Nabia Stoke It could be, you know, um
+most of the time um your waves can
+disperse. There could be just one
+outlier choice of initial conditions
+that would lead you to blow up. And
+there could be one outlier choice of um
+um special number that they stick in
+that shoots off infinity while all other
+numbers crash to earth uh crash to one.
+Um in fact um there's some
+mathematicians um who Alex Ktovich for
+instance who proposed that um that
+actually um these collapse uh iterations
+are like these similar automator um
+actually if you look at what they happen
+on in binary they do actually look a
+little bit like like these game of life
+type patterns. Um and in an analogy to
+how the game of life can create these
+these massive like self-plicating
+objects and so forth possibly you could
+create some sort of heavier than air
+flying machine a number which is
+actually encoding this machine which is
+just whose job it is is to encode is to
+create a version of itself which which
+is larger
+heavier than air machine encoded in a
+number that flies forever. Yeah. So
+Conway in fact worked worked on this
+problem as well. Oh wow. So Conway so
+similar in fact that was one of
+inspirations for the Nebby Stokes
+project that Conway studied
+generalizations of the collapse problem
+where instead of multiplying by three
+and adding one or dividing by two you
+have a more complicated branch but but
+instead of having two cases maybe you
+have 17 cases and then you go up and
+down and he showed that once your
+iteration gets complicated enough you
+can actually encode touring machines and
+you can actually make these problems
+undecidable and and do things like this.
+In fact, he invented a programming
+language for uh these kind of fractional
+linear transformations. He called a
+factrat as a play on forrat. Uh and he
+showed that that you could um you can
+program it was too incomplete. You could
+you could you could uh um you could make
+a program that if if your number you
+insert in was encoded as a prime, it
+would sync to zero. It would go down
+otherwise it would go up uh and things
+like that. Um so the general class of
+problems is is really uh as complicated
+as all the mathematics. Some of the
+mystery of the cellular automa that we
+talked about uh having a fra
+mathematical framework to say anything
+about cellular automa maybe the same
+kind of framework is required. Yeah
+injecture. Yeah. If you want to do it
+not statistically but you really want
+100% of all inputs to to to for the
+earth. Yeah. So what might be feasible
+is is statistically 99% you know would
+go to one but like everything yeah that
+book's hard. What would you say is out
+of these within reach famous problems is
+the hardest problem we have today is the
+reman hypothesis
+we want is up there um p= MP is a good
+one because like uh that's a that's a
+meta problem like if you solve that in
+the um in the positive sense that you
+can find a pmp algorithm then
+potentially this solves a lot of other
+problems as

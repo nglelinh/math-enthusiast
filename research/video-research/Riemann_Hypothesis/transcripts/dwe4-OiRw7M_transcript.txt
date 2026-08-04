@@ -1,0 +1,456 @@
+So we're going to be talking about uh some\h
+new world records uh going 23% beyond the\h\h
+Riemann Hypothesis. So the Riemann Hypothesis is\h
+one of the great problems in mathematics with\h\h
+a million dollar prize if you solve it. But\h
+before I get ahead of myself, let's just talk\h\h
+about our favorite numbers - the primes. So the\h
+sequence begins just with 2, 3, 5, 7, 11, 13, 17, 19,\h\h
+23 and so on. So we know by Euclid the sequence of\h
+primes goes on forever but famously the primes\h\h
+are really known for being mysterious and having\h
+a lot of complexity so maybe a simpler thing we could\h\h
+look at is just the last digit. So consider just\h
+lopping off the other digits and just considering\h\h
+the ones at the end. So it starts off the same; for\h
+the single digit primes 2, 3, 5, 7 and once we get to\h\h
+11 we just keep the 1 at the end. 13 we just keep\h
+the 3 at the end, 17 we just keep the 7 at\h\h
+the end and so on. So Brady I'm not so fast writing\h
+all these numbers down, especially if they go on\h\h
+forever, maybe with some help of a computer maybe\h
+we can speed up this process. Let's just consider\h\h
+looking at the list of prime numbers up to 100. So\h
+it starts off as before - 2, 3, 5, 7 - but then it goes up\h\h
+to 97, so that's the largest prime up to 100. So we\h
+look at the last digit of these primes, it starts\h\h
+off again 2, 3, 5, 7 - but then at the end when we're\h
+throwing off we get 89 becomes a 9, 97 becomes a\h\h
+7. The advantage of a computer here is that we can\h
+just change one character and instead of looking\h\h
+at primes up to 100 we could look up primes\h
+to 500 and just generates that list uh pretty\h\h
+readily. And if we do the same thing, just looking\h
+at the last digit, we get this uh longer table of\h\h
+data. As a mathematician once you see a table of\h
+data your ears perk up and you ask uh you know are\h\h
+there any patterns in this data? Um so Brady maybe\h
+if we stare at this table maybe some thoughts\hare
+going to emerge; which numbers occur frequently?\h
+Are there any numbers that don't occur? You see\h\h
+anything?
+- (Brady: There are no even numbers except for the\h2 at the start.)
+- And that's because?
+(It would be\hdivisible by 2.)
+- Right right. So if a number ends\h
+in a 2, ends in an even number, then the whole\h\h
+number itself is even. By a similar argument, maybe\h
+a bit more subtle, there are no 5s in this list\h\h
+after the the first 5 because if a number ends\h
+in a 5 then the whole number itself has to be\h\h
+divisible by 5.
+- (Same for 0?)
+- Yeah so 0 is a double whammy; it hits us both with being even\h\h
+and also being a multiple of 5. So what we've\h
+just shown here by this argument is that we only\h\h
+have a few options here for the digits that can\h
+appear in this list. So so after the single digit\h\h
+numbers eventually it's either going to be a 1
+or a 3 or a 7 or a 9. And here the point that\h\h
+you've just figured out is that the number 10, the\h
+base is equal to 2 times 5 so we've just eliminated\h\h
+all the digits that have a 2 in it or a 5 in it.
+- (Okay so we've got these four numbers; the next)\h\h
+(question I guess people ask is which are most\hcommon?)
+- Yeah I mean that's that's the that's the\h\h
+question. So a natural thing to do is to maybe plot\h
+these numbers on a histogram; so let's look at the\h\h
+numbers up to 100 and look at the digits. So as we\h
+said before there's going to be only one instance\h\h
+of a 2 in this, and we put them into bins, say one\h
+instance of a 2. Similarly there's only one\h\h
+instance of a 5 and all the other numbers up to\h
+100 are either going to have a 1, a 3, a 7 or a\h\h
+9. One of the great advantages of a computer is you\h
+can just change one character again and generate\h\h
+a lot more data. So if we look at numbers up to 1,000
+we can get these bar charts where these\h\h
+single entries are getting slimmer and slimmer\h
+and these other four bars are getting taller and\h\h
+taller. And maybe if we go very far, let's say we\h
+go out to a million, we look at the primes up to\h\h
+a million and look at their last digit there's\h
+just a tiny sliver corresponding to 2; a tiny\h\h
+sliver corresponding to 5 and then all these\h
+other four options seems to be almost the same\h\h
+height. So roughly uh a 25% chance of getting a\h
+1 as a last digit of a prime, same for 3,
+same for 7, same for 9. So there's an equal\h
+chance to get any of these four options. That is no\h\h
+coincidence Brady, this is the prime number theorem\h
+in action. We've been playing this game, this fun\h\h
+little game, uh looking at the last digit, but\h
+really we've been using the fact that we have\h\h
+you know 10 fingers on our hands; but we can look\h
+at other bases. You know, for example computers work\h\h
+in base 2, all their uh data stored with 1s and\h
+0s, so we we can play the same game uh looking\h\h
+at the last digit uh in other bases. Let's just\h
+change one line of code and now uh maybe we get\h\h
+something uh a bit less interesting here so we get\h
+uh our first uh entry is a 0 corresponding to\h\h
+the prime 2 and then all the other primes have\h
+their last digit 1 in binary. So this just means\h\h
+that all the primes after 2 are odd. Maybe this\h
+wasn't as interesting but the next interesting\h\h
+thing we could look at is maybe uh base 3 so\h
+we just increase by one and we look at the prime\h\h
+written in ternary and just extract the last digit.\h
+So as before we just have a 0 corresponding\h\h
+in this case to the number 3 itself but all\h
+the other options for the primes are going to be\h\h
+either a 1 or a 2 for their last digit in ternary.
+And so this really again suggests, why don't we\h\h
+play the same game, now look in base 3, maybe\h
+the numbers up to 1,000 - there's going to be\h\h
+one number, namely 3, that has the last digit 0 but\h
+all other numbers are either going to have a 1
+or a 2. And again these are very much dominating.\h
+Maybe if we go up to a million again we see that\h\h
+the heights of these two options - almost 50/50\h
+split. And again this is no coincidence Brady. So\h\h
+you could pick your favorite base, I don't know\h
+say 101, uh and you can have play a similar game:\h\h
+you look at all the last digits of primes uh in\h
+base 101 let's say numbers up to 5 million and you\h\h
+can get a nice uh roughly uniform distribution. And\h
+maybe there's a bit of wiggle room at the top but\h\h
+as the numbers get larger and larger the wiggles\h
+start to to to damp out and you get this result.
+So Brady this is uh kind of a a fun illustration of\h
+one of the deep results in mathematics, the prime\h\h
+number theorem. So people on the channel may be\h
+familiar, in this case the prime number theorem for\h\h
+arithmetic progressions; which says the last digit\h
+of a prime in any base you pick eventually tends\h\h
+to have an even chance. And that's of course unless\h
+there is some clear reason why there's a violation.\h
+So in the case of an even digit; so as long as\h
+the digit has no shared factors with the base\h\h
+we expect an even spread across all options. So\h
+maybe to be a bit more precise as a mathematician\h\h
+I just want to introduce some math notation: pi\h
+of x here is the number of primes up to x and the\h\h
+more precise count that we are interested in is\h
+looking at the number of primes up to x that have\h\h
+last digit a in base b.
+- (Pi has nothing to do with\hpi pi?)
+- Right. So this is one of those things where\h\h
+mathematicians uh are overloaded with notation\h
+at any time and maybe at some point in 1700s\h\h
+people decided you know this was a a convenient\h
+letter to to use for primes; the same uh the same\h\h
+consonant uh, but yeah it's kind of a stretch.
+So\hthis is the number primes up to x that have last\h\h
+digit equal to a and this is written in base b.\h
+The result of the prime number theorem tells us\h\h
+in a more precise way that each of these options\h
+for digits occur with roughly equal frequency. So\h\h
+for any choice of digit and base, pi of x b comma a\h
+we have this approximate relation that this count\h\h
+is asymptotic to pi of x over phi of b. So here phi\h
+of b is the Euler phi function which just counts;\h
+so phi of b is just counting the number of possible\h
+digits we can use. So the number of digits, a, that\h\h
+have no uh shared factors with b. So in maybe\h
+the mathematical lingo we say that the gcd, the\h\h
+greatest common divisor, of a and b is equal to\h
+1. Yeah so this is a a nice piece of mathematics\h\h
+that holds eventually so as x gets larger. But a\h
+natural question Brady is maybe you're a little\h\h
+bit impatient and you want to know, you know, how\h
+long do I have to wait uh for this to kick in and\h\h
+those bars start to even out?
+- (I mean that depends\h
+how you define even out as well doesn't it?)
+Right I\hmean so so there are certainly very technical- like\h
+various levels of technicality how you want to be\h\h
+precise; but morally speaking all we want to know\h
+is how long do we have to go along the number line\h\h
+to really start to see uh these numbers evening\h
+out. But we've now just with this uh seemingly\h\h
+innocuous question, really gotten thrown in the\h
+deep end. Think of you know people playing around\h\h
+on the shore at the beach, maybe you go snorkeling\h
+and around some coral, but somehow you took a deep\h\h
+dive and somehow you're now at the bottom of\h
+the Marianas trench, you're at the deepest of\h\h
+the deep in mathematics - we've now gotten to the\h
+Riemann Hypothesis. Okay so I really want to narrow in\h\h
+on this this key relationship in the prime number\h
+theorem which is saying the digits really even out\h\h
+in their distribution among the primes, so let's\h
+give this a start here. So the Riemann Hypothesis\h\h
+really has to do with answering the how soon\h
+question about star. So the Riemann Hypothesis\h\h
+tells us that star will hold once we get roughly\h
+speaking uh x being larger than the base squared.\h
+So this is a key threshold; so in other words the\h
+Riemann hypothesis - or more precisely the generalized\h\h
+Riemann hypothesis - says that this relationship star\h
+holds for bases b that are less than the square root\h\h
+of x, as x tends to infinity. In other words the prime\h
+number theorem is telling us a a nice relationship\h\h
+that exists among primes for any base b we we\h
+choose; maybe 10, maybe 3, maybe 101. But the\h\h
+Riemann hypothesis is really telling us that we can get\h
+the same phenomenon occurring even if we allow the\h\h
+size of our base to grow moderately with x, with\h
+the size of the numbers.
+- (I've made videos about)\h\h
+(the Riemann hypothesis before - and I don't pretend to\h
+understand it - but I've seen graphs and critical)
+(strips and and all these different numbers but\h
+I've never heard anything about the last digits of)
+(numbers or bases)
+- Right. I mean there are many ways to\h
+approach this uh great trench of the Riemann hypothesis.
+So one of the kind of links with uh the other for-\h
+perhaps more standard technical formulation of\h\h
+the Riemann hypothesis has to do uh with the zeros\h
+of the Riemann-Zeta function so-called and their\h\h
+placement on so-called the critical line of 1/2.\h
+And it is no coincidence that the critical line of\h\h
+1/2 is the same constant of 1/2 occurring in this\h
+threshold of the square root of x. So these are- these\h\h
+two relationships are intimately linked in this\hway.
+But I- I think this is a I guess a\h\h
+more down to Earth way to kind of talk about the\h
+Riemann hypothesis.
+- (Okay)
+- So obviously the Riemann
+hypothesis is one of these kind of white whales\h
+of mathematics that is still unsolved today. But\h\h
+amazingly in the 1960s mathematicians were able\h
+to prove an average version of this result. \h
+Bombieri\hand Vinogradov in 1965 they were able to show that\h
+this relationship star holds for almost all bases\h\h
+b. I'm meaning that this relationship holds for\h
+over 99.9% of b's up to this Riemann hypothesis\h\h
+range - square root of x. When I first heard about this\h
+result in uh my first year of uh grad school I\h\h
+thought it was- I mean absolutely stunning because\h
+uh I I somehow felt like the Riemann hypothesis was\h\h
+you know somehow unobtainable and no one's\h
+really been able to say anything about it; and so\h\h
+I feel when I first learned about it I was almost\h
+feeling like uh someone's keeping this from me. So\h\h
+I I really feel someone should have told me about\h
+this earlier. And the way I like to think about\h\h
+this result, this over 99% result, maybe an analogy\h
+with with cleaning cleaning tools. You know if you\h\h
+want to clean around the house, maybe you want to\h
+sanitize your hands, you get Purell. Or if you uh want\h\h
+wanted to clean your countertop you get Lysol.\h
+It says on the label if you read it, cleans over\h\h
+99% of germs right. So this is their real real\h
+selling point; and this is because you know for\h\h
+work around the house 99% of germs is really more\h
+than okay. And it's only really in kind of extreme\h\h
+ideal circumstances like being a hospital, in a\h
+hospital where you need a a full sterile room,\h\h
+uh to get that 100%. And so by the same token as\h
+mathematicians uh the Riemann hypothesis is really\h\h
+this kind of Ideal scenario uh getting a full\h
+result that we want to hold but for most practical\h\h
+purposes as a mathematician, in my research, the\h
+Bombieri-Vinogradov theorem is this completely adequate\h\h
+substitute uh for application- for a lot of\happlications.
+- (I'm not having that Jared.) \h
+(I'm not having that. Because in the infinite- because\h
+in the infinite world of numbers 99% isn't)\h\h
+(that much. Like there's still a lot of numbers that\h
+it doesn't work for.)
+- That is definitely true and\h\h
+obviously this is part of the conceptual reason\h
+why we want to have a complete understanding;\h\h
+but in one of the kind of facets of the Riemann
+hypothesis is that people have proven many\h\h
+results uh with the initial caveat 'assume the Riemann
+hypothesis then..' And there were many results in the\h\h
+1960s that went from a conditional uh hypothesis\h
+to uh complete ironclad theorem once this uh\h\h
+result came out; and it turns out in some technical\h
+settings it is enough to just know this 99%\h\h
+version to get the desired end goal if you were\h
+using the Riemann hypothesis implicitly in your work.\h\h
+(But if they found uh a power, an exponent, where
+Fermat's\hLast Theorem broke; there was like one number out)
+(there where Andrew Wiles- this building wouldn't be\h
+named after Andrew Wiles)
+- Yeah yeah. So you know as a\h\h
+mathematician you really want to get that complete\h
+understanding and exceptional cases can really uh\h\h
+be important, and so this also ties in with uh\h
+previous uh things on the channel about Siegel
+zeros which are these potential real uh monsters\h
+is uh trying to thwart the Riemann hypothesis. Before\h\h
+this I mean I just want to emphasize how kind of\h
+amazing I find this, because before this result no\h\h
+one really knew anything. Like you couldn't- uh you\h
+couldn't really say uh much at all, uh and really\h\h
+taking the statistical perspective uh has really\h
+been leading to a flourishing in in mathematical\h\h
+research. So this is well not again the the ideal\h
+scenario but for most practical purposes as\h\h
+a working mathematician around the house uh this\h
+this is really kind of an important uh tool in the toolkit.
+- (Okay I believe you)
+- So now we get- now we\h
+get to the real uh the real beans. Once presented with\h\h
+this result, and if we're if we're only looking at\h
+some of the bases and not all, a question comes up,\h\h
+another question. We asked how soon? But if we're\h
+only looking at some of the bases can we go even\h\h
+sooner? Can we get a rate of convergence faster\h
+than what the Riemann hypothesis is predicting?\h
+So can we get uh bases b that are beyond this\h
+square root x barrier? So in other words Brady\h\h
+I'm asking to go beyond the Riemann hypothesis.
+It was\huh remarkable results in the 1980s that actually\h\h
+first uh made a proof of concept showing we have\hthis-
+- (What is x again? Remind me what x actually is?)
+So x is the size of the numbers- the size of the\h
+primes were going up to. So sometimes it was like\h\h
+100, sometimes 1,000 or a million. And this\h
+gets these- these uh bar charts get more and more\h\h
+refined as as x gets larger. But really the the\h
+meat and potatoes of the question is how soon?\h\h
+Can we go even sooner?
+- (That's how soon they start\h
+evening? But how are you defining evening?)\h\h
+Yeah so I mean uh you can measure - and for example look\h
+at the difference between uh the desired quantity\h\h
+and then the the expected average. And then- so you\h
+know in statistics you have the concept of a a\h\h
+mean or kind of the average of a distribution and\h
+then also the variance or the standard deviation.\h
+And so you can ask more technical questions about\h
+looking at the standard deviation, this is really\h\h
+what the Riemann hypothesis is all about. So this\h
+is kind of the second order question about the\h\h
+distribution of primes. So we have this of course\h
+uh result from 1965 which gets this uh Riemann
+hypothesis on average bound. But this was improved\h
+remarkably in the 1980s, getting exponents up to x\h\h
+to the 0.571. So the way to interpret this Brady,\h
+this breakthrough, is we went 15% beyond the \h
+Riemann hypothesis. And this result really for almost 40\h
+years was the state-of-the-art going beyond the
+Riemann hypothesis until about two years ago where James\h
+Maynard uh actually extended this result. So in\h\h
+2021 he found that there were some bases that\h
+you could take all the way up to x the 0.60. So\h\h
+in other words we can go up to 20% beyond the\h
+Riemann hypothesis. So after almost a four decade\h\h
+uh hiatus uh there's been progress on the problem\h
+by James Mayard who- fans of the channel.
+- (He's up-)
+(He's up there somewhere! His office is up there. We\h
+should have got him in here)
+- Yeah and so today I'm\h\h
+happy to say that we can get even further up to\h
+b up to 0.617 - in other words we can go 23% beyond\h\h
+the Riemann hypothesis.
+- (What does that mean?)
+- So this means that there are some bases b of up to this\h\h
+size going beyond the Riemann hypothesis range, for\h
+which the primes in that base have their digits\h\h
+being kind of nicely uh distributed as we would\h
+expect. So we only have to wait a shorter amount\h\h
+of time, 23% uh less time than we would expect from\h
+the Riemann hypothesis-
+- (Before they start flattening out)
+Before they- so so this is kind of a savings of time uh\h
+in one sense; in other words we can take more bases\h\h
+and this result is holding for for more uh base b\hexpansions.
+- (Do we know what any of these bases are?)\h\h
+Uh so that's one of uh maybe the kind of aspects\h
+of this more statistical approach is that we're\h\h
+looking at families of numbers. And so one of the\h
+insights, all all the way going back to the
+Bombieri-Vinogradov theorem, is that if you look at collections\h
+of numbers or families of numbers together you\h\h
+can gain additional insights that might not\h
+be as apparent from looking at an individual\h\h
+number. So we can't necessarily pinpoint an exact\h
+b that this holds but we can still have a family\h\h
+uh that's of a larger size. And again maybe in in\h
+an ideal scenario we can try to prove the Riemann
+hypothesis and we can prove these nice results for\h
+every single b; but in many practical applications\h\h
+these kinds of results are are very useful. We'd\h
+actually expect this to hold for all the bases\h\h
+but that's again beyond what- so even if you prove\h
+the Riemann hypothesis this would be a question yet\h\h
+beyond what we can do there. So that's maybe far\h
+off in the distance for future generations to\h\h
+think about. But at least from a statistical point\h
+of view this is uh I feel making good progress.\h\h
+(We know that it holds for base 2, 3, 4)
+- Yeah\hso for any- for any individual fixed number, already\h\h
+the prime number theorem is telling us that we get\h
+this nice convergence. But it's only when the bases\h\h
+are allowed to grow moderately um we we want to be\h
+able to quantify that rate of growth. So uh already\h\h
+we know even by the Siegel–Walfisz theorem which\h
+was proven over about 100 years ago we can allow\h\h
+the base to grow logarithmically or very very\h
+slowly with x and not run into trouble, but really\h\h
+you you have to assume these very heavyweight\h
+conjectures like the Riemann hypothesis if you\h\h
+want an individual b to be growing uh like up to\h
+the square root of x. These kinds of results uh I feel\h\h
+have a very uh beautiful aspect where they connect\h
+so that the proof ideas that go into them connect\h\h
+a wide range of ideas across maybe seemingly\h
+disparate areas of math. So on the one hand uh some\h\h
+ideas that go into this relate to modular forms,\h
+these kind of exotic objects uh that actually\h\h
+ended up playing a crucial role for example in\h
+Fermat's last theorem proven by Andrew Wiles and has led\h\h
+to the Langlands programs. Um on the other hand\h
+uh it uses results from algebra geometry; uh more\h\h
+specifically the the Weil bound and the Deligne bound,\h
+from the so-called Riemann hypothesis for curves\h\h
+over finite fields uh which is itself another\h
+story for another time. But I just want to convey\h\h
+the sense that a lot of- uh there's a confluence\h
+of a lot of ideas coming together just to uh make\h\h
+progress on understanding the distribution of\h
+just the primes. And as a just a last shout out,\h
+so I wanted to say that there seems to be a kind\h
+of nice revival in this field of studying these\h\h
+questions uh in the last maybe decade where there\h
+before had been something something of a lull;\h\h
+I just wanted to shout out some people, who are\h\h
+who have been uh doing some interesting work and\h
+we've been having a nice discussion. So it's really\h\h
+good to see this uh flourishing of this this\h
+subject.
+...100. Between 1 and 1,000, between 1
+and 1 million. For any uh n between one and n using\h
+his zeta function. Which is absolutely astonishing\h\h
+because if you think about zeta function, something\h
+has to do with complex numbers and with analytic\h\h
+continuation and so on and so forth. So it's a\h
+particular branch of mathematics which is called\h\h
+complex analysis. But prime numbers live in a\h
+different branch of mathematics.
+- It tells us things\h
+we already suspect because we sort of believe the\h
+Riemann hypothesis is true but there are things we can't\h\h
+prove. So for example how many primes are there\h
+up to a trillion? We have a formula for that that\h\h
+we believe is true but we can only prove that\h
+formula if we know the Riemann hypothesis is true.

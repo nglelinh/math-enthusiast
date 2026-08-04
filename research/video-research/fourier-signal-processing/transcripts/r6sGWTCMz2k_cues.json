@@ -1,0 +1,1852 @@
+[
+  {
+    "t_start": 5.12,
+    "t_end": 8.457,
+    "text": "Here, we look at the math behind an animation like this one,"
+  },
+  {
+    "t_start": 8.457,
+    "t_end": 10.7,
+    "text": "what's known as a complex Fourier series."
+  },
+  {
+    "t_start": 11.24,
+    "t_end": 15.021,
+    "text": "Each little vector is rotating at some constant integer frequency,"
+  },
+  {
+    "t_start": 15.021,
+    "t_end": 20.1,
+    "text": "and when you add them together, tip to tail, the final tip draws out some shape over time."
+  },
+  {
+    "t_start": 21.22,
+    "t_end": 24.375,
+    "text": "By tweaking the initial size and angle of each vector,"
+  },
+  {
+    "t_start": 24.375,
+    "t_end": 28.62,
+    "text": "we can make it draw pretty much anything we want, and here you'll see how."
+  },
+  {
+    "t_start": 31.12,
+    "t_end": 33.566,
+    "text": "Before diving into it all, I want you to take"
+  },
+  {
+    "t_start": 33.566,
+    "t_end": 36.12,
+    "text": "a moment to just linger on how striking this is."
+  },
+  {
+    "t_start": 37.2,
+    "t_end": 40.9,
+    "text": "This particular animation has 300 rotating arrows in total."
+  },
+  {
+    "t_start": 41.42,
+    "t_end": 44.96,
+    "text": "Go full screen for this if you can, the intricacy is worth it."
+  },
+  {
+    "t_start": 50.44,
+    "t_end": 54.229,
+    "text": "Think about this, the action of each individual arrow is perhaps"
+  },
+  {
+    "t_start": 54.229,
+    "t_end": 57.96,
+    "text": "the simplest thing you could imagine, rotation at a steady rate."
+  },
+  {
+    "t_start": 58.6,
+    "t_end": 62.227,
+    "text": "And yet the collection of all added together is anything but simple,"
+  },
+  {
+    "t_start": 62.227,
+    "t_end": 66.538,
+    "text": "and the mind-boggling complexity is put into an even sharper focus the farther we"
+  },
+  {
+    "t_start": 66.538,
+    "t_end": 69.902,
+    "text": "zoom in, revealing the contributions of the littlest, quickest,"
+  },
+  {
+    "t_start": 69.902,
+    "t_end": 71.48,
+    "text": "and downright frenetic arrows."
+  },
+  {
+    "t_start": 72.3,
+    "t_end": 75.274,
+    "text": "When you consider the chaotic frenzy you're looking at,"
+  },
+  {
+    "t_start": 75.274,
+    "t_end": 78.195,
+    "text": "and the clockwork rigidity underlying all the motions,"
+  },
+  {
+    "t_start": 78.195,
+    "t_end": 81.859,
+    "text": "it's bizarre how the swarm acts with a kind of coordination to trace"
+  },
+  {
+    "t_start": 81.859,
+    "t_end": 83.4,
+    "text": "out some very specific shape."
+  },
+  {
+    "t_start": 83.84,
+    "t_end": 87.34,
+    "text": "And unlike much of the emergent complexity you find elsewhere in nature,"
+  },
+  {
+    "t_start": 87.34,
+    "t_end": 91.08,
+    "text": "this is something that we have the math to describe and to control completely."
+  },
+  {
+    "t_start": 91.66,
+    "t_end": 94.68,
+    "text": "Just by tuning the starting conditions, nothing more,"
+  },
+  {
+    "t_start": 94.68,
+    "t_end": 99.378,
+    "text": "we can make this swarm conspire in all of the right ways to draw anything you want,"
+  },
+  {
+    "t_start": 99.378,
+    "t_end": 101.56,
+    "text": "provided you have enough little arrows."
+  },
+  {
+    "t_start": 102.18,
+    "t_end": 106.52,
+    "text": "What's even crazier is that the ultimate formula for all of this is incredibly short."
+  },
+  {
+    "t_start": 112.96,
+    "t_end": 116.855,
+    "text": "Now often, Fourier series are described in terms of something that looks a little"
+  },
+  {
+    "t_start": 116.855,
+    "t_end": 120.56,
+    "text": "different, functions of real numbers being broken down as a sum of sine waves."
+  },
+  {
+    "t_start": 121.26,
+    "t_end": 124.538,
+    "text": "That turns out to be a special case of this more general rotating vector"
+  },
+  {
+    "t_start": 124.538,
+    "t_end": 127.906,
+    "text": "phenomenon that we'll build up to, but it's where Fourier himself started,"
+  },
+  {
+    "t_start": 127.906,
+    "t_end": 130.78,
+    "text": "and there's good reason for us to start the story there as well."
+  },
+  {
+    "t_start": 131.42,
+    "t_end": 134.876,
+    "text": "Technically, this is the third video in a sequence about the heat equation,"
+  },
+  {
+    "t_start": 134.876,
+    "t_end": 137.56,
+    "text": "what Fourier was working on when he developed his big idea."
+  },
+  {
+    "t_start": 138.2,
+    "t_end": 141.768,
+    "text": "I would like to teach you about Fourier series in a way that doesn't depend on"
+  },
+  {
+    "t_start": 141.768,
+    "t_end": 145.337,
+    "text": "you coming from those chapters, but if you have at least a high-level idea for"
+  },
+  {
+    "t_start": 145.337,
+    "t_end": 148.59,
+    "text": "the problem from physics which originally motivated this piece of math,"
+  },
+  {
+    "t_start": 148.59,
+    "t_end": 152.34,
+    "text": "it gives some indication for just how unexpectedly far-reaching Fourier series are."
+  },
+  {
+    "t_start": 152.82,
+    "t_end": 156.82,
+    "text": "All you need to know is that we had a certain equation which tells us"
+  },
+  {
+    "t_start": 156.82,
+    "t_end": 160.591,
+    "text": "how the temperature distribution on a rod would evolve over time,"
+  },
+  {
+    "t_start": 160.591,
+    "t_end": 164.82,
+    "text": "and incidentally it also describes many other phenomena unrelated to heat."
+  },
+  {
+    "t_start": 164.82,
+    "t_end": 169.001,
+    "text": "While it's hard to directly use this equation to figure out what will happen to an"
+  },
+  {
+    "t_start": 169.001,
+    "t_end": 173.233,
+    "text": "arbitrary heat distribution, there's a simple solution if the initial function just"
+  },
+  {
+    "t_start": 173.233,
+    "t_end": 177.616,
+    "text": "happens to look like a cosine wave, with the frequency tuned so that it's flat at each"
+  },
+  {
+    "t_start": 177.616,
+    "t_end": 178.12,
+    "text": "end point."
+  },
+  {
+    "t_start": 178.56,
+    "t_end": 181.501,
+    "text": "Specifically, as you graph what happens over time,"
+  },
+  {
+    "t_start": 181.501,
+    "t_end": 184.384,
+    "text": "these waves simply get scaled down exponentially,"
+  },
+  {
+    "t_start": 184.384,
+    "t_end": 187.96,
+    "text": "with higher frequency waves having a faster exponential decay."
+  },
+  {
+    "t_start": 190.36,
+    "t_end": 195.432,
+    "text": "The heat equation happens to be what's known in the business as a linear equation,"
+  },
+  {
+    "t_start": 195.432,
+    "t_end": 200.2,
+    "text": "meaning if you know two solutions and add them up, that sum is a new solution."
+  },
+  {
+    "t_start": 200.88,
+    "t_end": 203.166,
+    "text": "You can even scale them each by some constant,"
+  },
+  {
+    "t_start": 203.166,
+    "t_end": 207.4,
+    "text": "which gives you some dials to turn to construct a custom function solving the equation."
+  },
+  {
+    "t_start": 209.24,
+    "t_end": 212.71,
+    "text": "This is a fairly straightforward property that you can verify for yourself,"
+  },
+  {
+    "t_start": 212.71,
+    "t_end": 214.08,
+    "text": "but it's incredibly important."
+  },
+  {
+    "t_start": 214.08,
+    "t_end": 217.119,
+    "text": "It means we can take our infinite family of solutions,"
+  },
+  {
+    "t_start": 217.119,
+    "t_end": 221.043,
+    "text": "these exponentially decaying cosine waves, scale a few of them by some"
+  },
+  {
+    "t_start": 221.043,
+    "t_end": 225.465,
+    "text": "custom constants of our choosing, and combine them to get a solution for a new,"
+  },
+  {
+    "t_start": 225.465,
+    "t_end": 229.5,
+    "text": "tailor-made initial condition, which is some combination of cosine waves."
+  },
+  {
+    "t_start": 230.2,
+    "t_end": 234.499,
+    "text": "One important thing I'd like you to notice is that when you combine these waves,"
+  },
+  {
+    "t_start": 234.499,
+    "t_end": 237.046,
+    "text": "because the higher frequency ones decay faster,"
+  },
+  {
+    "t_start": 237.046,
+    "t_end": 240.072,
+    "text": "the sum you construct will tend to smooth out over time,"
+  },
+  {
+    "t_start": 240.072,
+    "t_end": 242.832,
+    "text": "as all the high frequency terms quickly go to zero,"
+  },
+  {
+    "t_start": 242.832,
+    "t_end": 245.38,
+    "text": "leaving only the low frequency terms dominating."
+  },
+  {
+    "t_start": 246.1,
+    "t_end": 249.453,
+    "text": "So in a funny way, all of the complexity in the evolution of this heat"
+  },
+  {
+    "t_start": 249.453,
+    "t_end": 252.524,
+    "text": "distribution which the heat equation implies is captured by this"
+  },
+  {
+    "t_start": 252.524,
+    "t_end": 256.019,
+    "text": "difference in the decay rates for the different pure frequency components."
+  },
+  {
+    "t_start": 258.04,
+    "t_end": 260.48,
+    "text": "It's at this point that Fourier gains immortality."
+  },
+  {
+    "t_start": 261.279,
+    "t_end": 264.204,
+    "text": "I think most normal people at this stage would say, well,"
+  },
+  {
+    "t_start": 264.204,
+    "t_end": 268.541,
+    "text": "I can solve the heat equation when the initial distribution just happens to look like"
+  },
+  {
+    "t_start": 268.541,
+    "t_end": 272.828,
+    "text": "a wave, or a sum of waves, but what a shame it is that most real world distributions"
+  },
+  {
+    "t_start": 272.828,
+    "t_end": 274.24,
+    "text": "don't at all look like that."
+  },
+  {
+    "t_start": 274.8,
+    "t_end": 277.633,
+    "text": "I mean, for example, let's say you brought together two rods"
+  },
+  {
+    "t_start": 277.633,
+    "t_end": 280.42,
+    "text": "which were each at some uniform temperature, and you wanted"
+  },
+  {
+    "t_start": 280.42,
+    "t_end": 283.3,
+    "text": "to know what happens immediately after they come into contact."
+  },
+  {
+    "t_start": 285.06,
+    "t_end": 289.493,
+    "text": "To make the number simple, let's say the temperature of the left rod is 1 degree,"
+  },
+  {
+    "t_start": 289.493,
+    "t_end": 293.115,
+    "text": "and the right rod is negative 1 degree, and that the total length,"
+  },
+  {
+    "t_start": 293.115,
+    "t_end": 294.9,
+    "text": "L, of the combined two rods is 1."
+  },
+  {
+    "t_start": 294.9,
+    "t_end": 299.27,
+    "text": "What this means is our initial temperature distribution is a step function,"
+  },
+  {
+    "t_start": 299.27,
+    "t_end": 303.64,
+    "text": "which is so obviously different from a sine wave, or the sum of sine waves,"
+  },
+  {
+    "t_start": 303.64,
+    "t_end": 304.56,
+    "text": "don't you think?"
+  },
+  {
+    "t_start": 305.1,
+    "t_end": 309.82,
+    "text": "I mean, it's almost entirely flat, not wavy, and for god's sake it's even discontinuous!"
+  },
+  {
+    "t_start": 310.6,
+    "t_end": 313.7,
+    "text": "And yet Fourier thought to ask a question which seems absurd."
+  },
+  {
+    "t_start": 314.3,
+    "t_end": 321.34,
+    "text": "Even more boldly, how do you express any initial distribution as a sum of sine waves?"
+  },
+  {
+    "t_start": 321.8,
+    "t_end": 323.76,
+    "text": "And it's more constrained than just that!"
+  },
+  {
+    "t_start": 324.12,
+    "t_end": 328.56,
+    "text": "You have to restrict yourself to adding waves which satisfy a certain boundary condition,"
+  },
+  {
+    "t_start": 328.56,
+    "t_end": 332.458,
+    "text": "and as we saw last video, that means working with these cosine functions whose"
+  },
+  {
+    "t_start": 332.458,
+    "t_end": 336.06,
+    "text": "frequencies are all some whole number multiple of a given base frequency."
+  },
+  {
+    "t_start": 336.92,
+    "t_end": 340.466,
+    "text": "And by the way, if you were working with some different boundary condition,"
+  },
+  {
+    "t_start": 340.466,
+    "t_end": 344.293,
+    "text": "say that the endpoints have to stay fixed, you'd have a different set of waves at"
+  },
+  {
+    "t_start": 344.293,
+    "t_end": 348.213,
+    "text": "your disposal to piece together, in this case replacing that cosine expression with"
+  },
+  {
+    "t_start": 348.213,
+    "t_end": 348.54,
+    "text": "a sine."
+  },
+  {
+    "t_start": 349.56,
+    "t_end": 352.456,
+    "text": "It's strange how often progress in math looks more like"
+  },
+  {
+    "t_start": 352.456,
+    "t_end": 355.56,
+    "text": "asking a new question rather than simply answering old ones."
+  },
+  {
+    "t_start": 356.24,
+    "t_end": 358.742,
+    "text": "Fourier really does have a kind of immortality now,"
+  },
+  {
+    "t_start": 358.742,
+    "t_end": 361.775,
+    "text": "with his name essentially synonymous with the idea of breaking"
+  },
+  {
+    "t_start": 361.775,
+    "t_end": 365.0,
+    "text": "down functions and patterns as combinations of simple oscillations."
+  },
+  {
+    "t_start": 365.7,
+    "t_end": 369.343,
+    "text": "It's really hard to overstate just how important and far-reaching that idea"
+  },
+  {
+    "t_start": 369.343,
+    "t_end": 372.94,
+    "text": "turned out to be, well beyond anything Fourier himself could have imagined."
+  },
+  {
+    "t_start": 373.6,
+    "t_end": 376.884,
+    "text": "And yet, the origin of all this is a piece of physics which,"
+  },
+  {
+    "t_start": 376.884,
+    "t_end": 380.6,
+    "text": "at first glance, has nothing to do with frequencies and oscillations."
+  },
+  {
+    "t_start": 381.28,
+    "t_end": 383.438,
+    "text": "If nothing else, this should give you a hint about"
+  },
+  {
+    "t_start": 383.438,
+    "t_end": 385.3,
+    "text": "the general applicability of Fourier series."
+  },
+  {
+    "t_start": 386.04,
+    "t_end": 389.537,
+    "text": "Now hang on, I hear some of you saying, none of these sums of sine waves that"
+  },
+  {
+    "t_start": 389.537,
+    "t_end": 393.08,
+    "text": "you're showing are actually the step function, they're all just approximations."
+  },
+  {
+    "t_start": 393.54,
+    "t_end": 397.903,
+    "text": "And it's true, any finite sum of sine waves will never be perfectly flat,"
+  },
+  {
+    "t_start": 397.903,
+    "t_end": 401.5,
+    "text": "except for a constant function, nor will it be discontinuous."
+  },
+  {
+    "t_start": 402.02,
+    "t_end": 405.46,
+    "text": "But Fourier thought more broadly, considering infinite sums."
+  },
+  {
+    "t_start": 406.24,
+    "t_end": 411.663,
+    "text": "In the case of our step function, it turns out to be equal to this infinite sum,"
+  },
+  {
+    "t_start": 411.663,
+    "t_end": 417.355,
+    "text": "where the coefficients are 1, negative one third, plus one fifth, minus one seventh,"
+  },
+  {
+    "t_start": 417.355,
+    "t_end": 422.98,
+    "text": "and so on for all the odd frequencies, and all of it is rescaled by 4 divided by pi."
+  },
+  {
+    "t_start": 423.8,
+    "t_end": 425.96,
+    "text": "I'll explain where those numbers come from in a moment."
+  },
+  {
+    "t_start": 426.4,
+    "t_end": 430.541,
+    "text": "Before that, it's worth being clear about what we mean by a phrase like infinite sum,"
+  },
+  {
+    "t_start": 430.541,
+    "t_end": 432.66,
+    "text": "which runs the risk of being a little vague."
+  },
+  {
+    "t_start": 433.54,
+    "t_end": 437.028,
+    "text": "Consider the simpler context of numbers, where you could say,"
+  },
+  {
+    "t_start": 437.028,
+    "t_end": 441.08,
+    "text": "for example, that this infinite sum of fractions equals pi divided by 4."
+  },
+  {
+    "t_start": 441.68,
+    "t_end": 446.457,
+    "text": "As you keep adding the terms one by one, at all times what you have is rational,"
+  },
+  {
+    "t_start": 446.457,
+    "t_end": 449.76,
+    "text": "it never actually equals the irrational pi divided by 4."
+  },
+  {
+    "t_start": 450.38,
+    "t_end": 454.746,
+    "text": "But this sequence of partial sums approaches pi over 4, which is to say,"
+  },
+  {
+    "t_start": 454.746,
+    "t_end": 457.915,
+    "text": "the numbers you see, while never equaling pi over 4,"
+  },
+  {
+    "t_start": 457.915,
+    "t_end": 462.88,
+    "text": "get arbitrarily close to that value, and they stay arbitrarily close to that value."
+  },
+  {
+    "t_start": 463.72,
+    "t_end": 466.653,
+    "text": "That's all a mouthful to say, so instead we abbreviate"
+  },
+  {
+    "t_start": 466.653,
+    "t_end": 469.16,
+    "text": "and just say the infinite sum equals pi over 4."
+  },
+  {
+    "t_start": 470.62,
+    "t_end": 474.7,
+    "text": "With functions, you're doing the same thing, but with many different values in parallel."
+  },
+  {
+    "t_start": 475.92,
+    "t_end": 478.72,
+    "text": "Consider a specific input, and the value of all"
+  },
+  {
+    "t_start": 478.72,
+    "t_end": 481.52,
+    "text": "of these scaled cosine functions for that input."
+  },
+  {
+    "t_start": 482.12,
+    "t_end": 487.74,
+    "text": "If that input is less than 0.5, as you add more and more terms, the sum will approach 1."
+  },
+  {
+    "t_start": 490.0,
+    "t_end": 493.81,
+    "text": "If that input is greater than 0.5, as you add more and more terms,"
+  },
+  {
+    "t_start": 493.81,
+    "t_end": 495.46,
+    "text": "it would approach negative 1."
+  },
+  {
+    "t_start": 497.26,
+    "t_end": 500.83,
+    "text": "At the input 0.5 itself, all of the cosines are 0,"
+  },
+  {
+    "t_start": 500.83,
+    "t_end": 503.84,
+    "text": "so the limit of the partial sums is also 0."
+  },
+  {
+    "t_start": 504.6,
+    "t_end": 508.813,
+    "text": "That means that, somewhat awkwardly, for this infinite sum to be strictly true,"
+  },
+  {
+    "t_start": 508.813,
+    "t_end": 512.395,
+    "text": "we have to prescribe the value of this set function at the point of"
+  },
+  {
+    "t_start": 512.395,
+    "t_end": 515.24,
+    "text": "discontinuity to be 0, sort of halfway along the jump."
+  },
+  {
+    "t_start": 516.08,
+    "t_end": 520.748,
+    "text": "Analogous to an infinite sum of rational numbers being irrational,"
+  },
+  {
+    "t_start": 520.748,
+    "t_end": 526.74,
+    "text": "the infinite sum of wavy continuous functions can equal a discontinuous flat function."
+  },
+  {
+    "t_start": 527.16,
+    "t_end": 530.442,
+    "text": "Getting limits into the game allows for qualitative changes,"
+  },
+  {
+    "t_start": 530.442,
+    "t_end": 532.38,
+    "text": "which finite sums alone never could."
+  },
+  {
+    "t_start": 533.28,
+    "t_end": 536.66,
+    "text": "There are multiple technical nuances that I'm sweeping under the rug here."
+  },
+  {
+    "t_start": 536.66,
+    "t_end": 539.958,
+    "text": "Does the fact that we're forced into a certain value for the step function"
+  },
+  {
+    "t_start": 539.958,
+    "t_end": 543.3,
+    "text": "at the point of discontinuity make any difference for the heat flow problem?"
+  },
+  {
+    "t_start": 543.82,
+    "t_end": 546.051,
+    "text": "For that matter, what does it really mean to solve"
+  },
+  {
+    "t_start": 546.051,
+    "t_end": 548.02,
+    "text": "a PDE with a discontinuous initial condition?"
+  },
+  {
+    "t_start": 549.28,
+    "t_end": 553.02,
+    "text": "Can we be sure that the limit of solutions to the heat equation is also a solution?"
+  },
+  {
+    "t_start": 553.58,
+    "t_end": 556.88,
+    "text": "And can we be sure that all functions actually have a Fourier series like this?"
+  },
+  {
+    "t_start": 557.18,
+    "t_end": 558.4,
+    "text": "If not, when not?"
+  },
+  {
+    "t_start": 559.08,
+    "t_end": 562.558,
+    "text": "These are exactly the kind of questions which real analysis is built to answer,"
+  },
+  {
+    "t_start": 562.558,
+    "t_end": 565.384,
+    "text": "but it falls a bit deeper in the weeds than I'd like to go here,"
+  },
+  {
+    "t_start": 565.384,
+    "t_end": 568.08,
+    "text": "so I'll relegate that all to links in the video's description."
+  },
+  {
+    "t_start": 568.72,
+    "t_end": 573.145,
+    "text": "The upshot is that when you take the heat equation solutions associated with"
+  },
+  {
+    "t_start": 573.145,
+    "t_end": 577.111,
+    "text": "these cosine waves and add them all up, all infinitely many of them,"
+  },
+  {
+    "t_start": 577.111,
+    "t_end": 581.996,
+    "text": "you do get an exact solution describing how the step function will evolve over time,"
+  },
+  {
+    "t_start": 581.996,
+    "t_end": 586.48,
+    "text": "and if you had done this in 1822, you would have become immortal for doing so."
+  },
+  {
+    "t_start": 587.14,
+    "t_end": 591.24,
+    "text": "The key challenge in all of this, of course, is to find these coefficients."
+  },
+  {
+    "t_start": 593.88,
+    "t_end": 597.124,
+    "text": "So far, we've been thinking about functions with real number outputs,"
+  },
+  {
+    "t_start": 597.124,
+    "t_end": 600.831,
+    "text": "but for the computations, I'd like to show you something more general than what"
+  },
+  {
+    "t_start": 600.831,
+    "t_end": 604.77,
+    "text": "Fourier originally did, applying to functions whose output can be any complex number"
+  },
+  {
+    "t_start": 604.77,
+    "t_end": 608.524,
+    "text": "in the 2D plane, which is where all these rotating vectors from the opening come"
+  },
+  {
+    "t_start": 608.524,
+    "t_end": 609.22,
+    "text": "back into play."
+  },
+  {
+    "t_start": 610.88,
+    "t_end": 612.26,
+    "text": "Why the added complexity?"
+  },
+  {
+    "t_start": 612.26,
+    "t_end": 616.706,
+    "text": "Well, aside from being more general, in my view, the computations become cleaner,"
+  },
+  {
+    "t_start": 616.706,
+    "t_end": 619.58,
+    "text": "and it's easier to understand why they actually work."
+  },
+  {
+    "t_start": 620.3,
+    "t_end": 624.045,
+    "text": "More importantly, it sets a good foundation for the ideas that will come up later on"
+  },
+  {
+    "t_start": 624.045,
+    "t_end": 627.88,
+    "text": "in the series, like the Laplace transform, and the importance of exponential functions."
+  },
+  {
+    "t_start": 629.3,
+    "t_end": 633.736,
+    "text": "We'll still think of functions whose input is some real number on a finite interval,"
+  },
+  {
+    "t_start": 633.736,
+    "t_end": 637.702,
+    "text": "say from 0 up to 1 for simplicity, but whereas something like a temperature"
+  },
+  {
+    "t_start": 637.702,
+    "t_end": 640.416,
+    "text": "function will have outputs on the real number line,"
+  },
+  {
+    "t_start": 640.416,
+    "t_end": 644.54,
+    "text": "this broader view will let the outputs wander anywhere in the 2D complex plane."
+  },
+  {
+    "t_start": 645.12,
+    "t_end": 647.625,
+    "text": "You might think of such a function as a drawing,"
+  },
+  {
+    "t_start": 647.625,
+    "t_end": 651.461,
+    "text": "with a pencil tip tracing out different points in the complex plane as the"
+  },
+  {
+    "t_start": 651.461,
+    "t_end": 652.74,
+    "text": "input ranges from 0 to 1."
+  },
+  {
+    "t_start": 653.34,
+    "t_end": 656.491,
+    "text": "And instead of sine waves being the fundamental building block,"
+  },
+  {
+    "t_start": 656.491,
+    "t_end": 659.937,
+    "text": "as you saw at the start, we'll focus on breaking these functions down"
+  },
+  {
+    "t_start": 659.937,
+    "t_end": 663.68,
+    "text": "as a sum of little vectors, all rotating at some constant integer frequency."
+  },
+  {
+    "t_start": 663.68,
+    "t_end": 669.021,
+    "text": "Functions with real number outputs are essentially really boring drawings,"
+  },
+  {
+    "t_start": 669.021,
+    "t_end": 671.3,
+    "text": "a one-dimensional pencil sketch."
+  },
+  {
+    "t_start": 671.98,
+    "t_end": 674.688,
+    "text": "You might not be used to thinking of them like this,"
+  },
+  {
+    "t_start": 674.688,
+    "t_end": 677.6,
+    "text": "since usually we visualize such a function with a graph,"
+  },
+  {
+    "t_start": 677.6,
+    "t_end": 680.82,
+    "text": "but right now the path being drawn is only in the output space."
+  },
+  {
+    "t_start": 685.42,
+    "t_end": 690.246,
+    "text": "If you do one of these decompositions into rotating vectors for a boring one-dimensional"
+  },
+  {
+    "t_start": 690.246,
+    "t_end": 694.747,
+    "text": "drawing, what will happen is that the vectors with frequency 1 and negative 1 will"
+  },
+  {
+    "t_start": 694.747,
+    "t_end": 698.76,
+    "text": "have the same length, and they'll be horizontal reflections of each other."
+  },
+  {
+    "t_start": 699.5,
+    "t_end": 702.323,
+    "text": "When you just look at the sum of these two as they rotate,"
+  },
+  {
+    "t_start": 702.323,
+    "t_end": 706.2,
+    "text": "that sum stays fixed on the real number line, and it oscillates like a sine wave."
+  },
+  {
+    "t_start": 706.92,
+    "t_end": 711.008,
+    "text": "If you haven't seen it before, this might be a really weird way to think about what a"
+  },
+  {
+    "t_start": 711.008,
+    "t_end": 715.001,
+    "text": "sine wave is, since we're used to looking at its graph rather than the output alone"
+  },
+  {
+    "t_start": 715.001,
+    "t_end": 719.184,
+    "text": "wandering on the real number line, but in the broader context of functions with complex"
+  },
+  {
+    "t_start": 719.184,
+    "t_end": 723.32,
+    "text": "number outputs, this oscillation on the horizontal line is what a sine wave looks like."
+  },
+  {
+    "t_start": 724.92,
+    "t_end": 729.456,
+    "text": "Similarly, the pair of rotating vectors with frequencies 2 and negative 2 will"
+  },
+  {
+    "t_start": 729.456,
+    "t_end": 734.05,
+    "text": "add another sine wave component, and so on, with the sine waves we were looking"
+  },
+  {
+    "t_start": 734.05,
+    "t_end": 738.76,
+    "text": "for earlier now corresponding to pairs of vectors rotating in opposite directions."
+  },
+  {
+    "t_start": 739.64,
+    "t_end": 742.189,
+    "text": "So the context that Fourier originally studied,"
+  },
+  {
+    "t_start": 742.189,
+    "t_end": 745.004,
+    "text": "breaking down real-valued functions into sine waves,"
+  },
+  {
+    "t_start": 745.004,
+    "t_end": 749.2,
+    "text": "is a special case of the more general idea of 2D drawings and rotating vectors."
+  },
+  {
+    "t_start": 754.58,
+    "t_end": 757.835,
+    "text": "And at this point, maybe you don't trust me that widening our view to"
+  },
+  {
+    "t_start": 757.835,
+    "t_end": 761.137,
+    "text": "complex functions makes things easier to understand, but bear with me,"
+  },
+  {
+    "t_start": 761.137,
+    "t_end": 764.021,
+    "text": "it's really worth the added effort to see the fuller picture,"
+  },
+  {
+    "t_start": 764.021,
+    "t_end": 767.463,
+    "text": "and I think you'll be pleased with how clean the actual computation is in"
+  },
+  {
+    "t_start": 767.463,
+    "t_end": 768.44,
+    "text": "this broader context."
+  },
+  {
+    "t_start": 769.1,
+    "t_end": 772.613,
+    "text": "You may also wonder why, if we're going to bump things up into two dimensions,"
+  },
+  {
+    "t_start": 772.613,
+    "t_end": 775.416,
+    "text": "we don't just talk about 2D vectors, what does the square root"
+  },
+  {
+    "t_start": 775.416,
+    "t_end": 777.24,
+    "text": "of negative one have to do with anything?"
+  },
+  {
+    "t_start": 778.1,
+    "t_end": 783.7,
+    "text": "Well, the heart and soul of Fourier series is the complex exponential, e to the i times t."
+  },
+  {
+    "t_start": 784.48,
+    "t_end": 787.94,
+    "text": "As the input t ticks forward with time, this value walks"
+  },
+  {
+    "t_start": 787.94,
+    "t_end": 791.34,
+    "text": "around the unit circle at a rate of one unit per second."
+  },
+  {
+    "t_start": 792.28,
+    "t_end": 796.058,
+    "text": "In the next video you'll see a quick intuition for why exponentiating imaginary"
+  },
+  {
+    "t_start": 796.058,
+    "t_end": 800.12,
+    "text": "numbers walks around circles like this from the perspective of differential equations."
+  },
+  {
+    "t_start": 800.48,
+    "t_end": 803.628,
+    "text": "And beyond that, as the series progresses, I hope to give you some"
+  },
+  {
+    "t_start": 803.628,
+    "t_end": 807.06,
+    "text": "sense for why complex exponentials like this are actually very important."
+  },
+  {
+    "t_start": 807.74,
+    "t_end": 811.798,
+    "text": "In theory, you could describe all of the Fourier series stuff purely in terms of vectors,"
+  },
+  {
+    "t_start": 811.798,
+    "t_end": 814.64,
+    "text": "and never breathe a word of i, the square root of negative one."
+  },
+  {
+    "t_start": 815.3,
+    "t_end": 818.474,
+    "text": "The formulas would become more convoluted, but beyond that,"
+  },
+  {
+    "t_start": 818.474,
+    "t_end": 822.389,
+    "text": "leaving out the function e to the x would somehow no longer authentically"
+  },
+  {
+    "t_start": 822.389,
+    "t_end": 826.78,
+    "text": "reflect why this idea turns out to be so useful for solving differential equations."
+  },
+  {
+    "t_start": 827.42,
+    "t_end": 830.526,
+    "text": "For right now, if you want, you can think of e to the i t as a"
+  },
+  {
+    "t_start": 830.526,
+    "t_end": 833.189,
+    "text": "notational shorthand for describing rotating vectors,"
+  },
+  {
+    "t_start": 833.189,
+    "t_end": 837.48,
+    "text": "but just keep in the back of your mind that it is more significant than mere shorthand."
+  },
+  {
+    "t_start": 838.54,
+    "t_end": 842.58,
+    "text": "You'll notice I'm being a little loose with language using the words vector and complex"
+  },
+  {
+    "t_start": 842.58,
+    "t_end": 846.437,
+    "text": "numbers somewhat interchangeably, in large part because thinking of complex numbers"
+  },
+  {
+    "t_start": 846.437,
+    "t_end": 850.34,
+    "text": "as little arrows makes the idea of adding a lot of them together easier to visualize."
+  },
+  {
+    "t_start": 851.34,
+    "t_end": 853.863,
+    "text": "Alright, armed with the function e to the i times t,"
+  },
+  {
+    "t_start": 853.863,
+    "t_end": 857.72,
+    "text": "let's write down a formula for each of these rotating vectors we're working with."
+  },
+  {
+    "t_start": 858.12,
+    "t_end": 860.396,
+    "text": "For right now, think of each of them as starting"
+  },
+  {
+    "t_start": 860.396,
+    "t_end": 862.58,
+    "text": "pointing one unit to the right at the number 1."
+  },
+  {
+    "t_start": 863.08,
+    "t_end": 867.559,
+    "text": "The easiest vector to describe is the constant one, which stays at the number 1,"
+  },
+  {
+    "t_start": 867.559,
+    "t_end": 872.26,
+    "text": "never moving, or if you prefer, it's quote-unquote rotating just at a frequency of 0."
+  },
+  {
+    "t_start": 873.1,
+    "t_end": 876.772,
+    "text": "Then there will be the vector rotating one cycle every second,"
+  },
+  {
+    "t_start": 876.772,
+    "t_end": 879.22,
+    "text": "which we write as e to the 2 pi i times t."
+  },
+  {
+    "t_start": 879.74,
+    "t_end": 882.961,
+    "text": "That 2 pi is there because as t goes from 0 to 1,"
+  },
+  {
+    "t_start": 882.961,
+    "t_end": 886.44,
+    "text": "it needs to cover a distance of 2 pi along the circle."
+  },
+  {
+    "t_start": 887.7,
+    "t_end": 890.61,
+    "text": "Technically in what's being shown, it's actually one cycle every 10 seconds"
+  },
+  {
+    "t_start": 890.61,
+    "t_end": 893.56,
+    "text": "so things aren't too dizzying, I'm slowing everything down by a factor of 10."
+  },
+  {
+    "t_start": 895.32,
+    "t_end": 899.848,
+    "text": "We also have a vector rotating at one cycle per second in the other direction,"
+  },
+  {
+    "t_start": 899.848,
+    "t_end": 910.276,
+    "text": "Similarly, the one going two rotations per second is e to the 2 times 2 pi i times t,"
+  },
+  {
+    "t_start": 910.276,
+    "t_end": 916.253,
+    "text": "where that 2 times 2 pi in the exponent describes how much distance is covered in one"
+  },
+  {
+    "t_start": 916.253,
+    "t_end": 916.74,
+    "text": "second."
+  },
+  {
+    "t_start": 920.6,
+    "t_end": 925.084,
+    "text": "And we go on like this over all integers, both positive and negative,"
+  },
+  {
+    "t_start": 925.084,
+    "t_end": 928.8,
+    "text": "with a general formula of e to the n times 2 pi times i t."
+  },
+  {
+    "t_start": 929.34,
+    "t_end": 932.766,
+    "text": "Notice, this makes it more consistent to write that constant vector"
+  },
+  {
+    "t_start": 932.766,
+    "t_end": 935.991,
+    "text": "as e to the 0 times 2 pi times i t, which feels like an awfully"
+  },
+  {
+    "t_start": 935.991,
+    "t_end": 939.62,
+    "text": "complicated way to write the number 1, but at least it fits the pattern."
+  },
+  {
+    "t_start": 940.5,
+    "t_end": 943.95,
+    "text": "The control that we have, the set of knobs and dials we get to turn,"
+  },
+  {
+    "t_start": 943.95,
+    "t_end": 946.9,
+    "text": "is the initial size and direction of each of these numbers."
+  },
+  {
+    "t_start": 947.48,
+    "t_end": 951.871,
+    "text": "The way we control that is by multiplying each one by some complex constant,"
+  },
+  {
+    "t_start": 951.871,
+    "t_end": 953.24,
+    "text": "which I'll call c sub n."
+  },
+  {
+    "t_start": 953.88,
+    "t_end": 958.616,
+    "text": "For example, if we wanted the constant vector not to be at the number 1,"
+  },
+  {
+    "t_start": 958.616,
+    "t_end": 961.86,
+    "text": "but to have a length of 0.5, c sub 0 would be 0.5."
+  },
+  {
+    "t_start": 962.54,
+    "t_end": 966.497,
+    "text": "If we wanted the vector rotating at 1 cycle per second to start off at an"
+  },
+  {
+    "t_start": 966.497,
+    "t_end": 970.721,
+    "text": "angle of 45 degrees, we'd multiply it by a complex number which has the effect"
+  },
+  {
+    "t_start": 970.721,
+    "t_end": 975.0,
+    "text": "of rotating it by that much, which you can write as e to the pi fourths times i."
+  },
+  {
+    "t_start": 975.64,
+    "t_end": 978.779,
+    "text": "And if its initial length needed to be 0.3, then the"
+  },
+  {
+    "t_start": 978.779,
+    "t_end": 981.8,
+    "text": "coefficient c sub 1 would be 0.3 times that amount."
+  },
+  {
+    "t_start": 982.76,
+    "t_end": 987.409,
+    "text": "Likewise, everyone in our infinite family of rotating vectors has some complex constant"
+  },
+  {
+    "t_start": 987.409,
+    "t_end": 991.9,
+    "text": "being multiplied into it, which determines its initial angle and its total magnitude."
+  },
+  {
+    "t_start": 992.82,
+    "t_end": 996.468,
+    "text": "Our goal is to express any arbitrary function f of t,"
+  },
+  {
+    "t_start": 996.468,
+    "t_end": 1000.657,
+    "text": "say this one that draws an eighth note as t goes from 0 to 1,"
+  },
+  {
+    "t_start": 1000.657,
+    "t_end": 1006.061,
+    "text": "as a sum of terms like this, so we need some way of picking out these constants"
+  },
+  {
+    "t_start": 1006.061,
+    "t_end": 1009.44,
+    "text": "one by one, given the data of the function itself."
+  },
+  {
+    "t_start": 1011.84,
+    "t_end": 1014.54,
+    "text": "The easiest of these to find is the constant term."
+  },
+  {
+    "t_start": 1015.08,
+    "t_end": 1018.48,
+    "text": "This term represents a sort of center of mass for the full drawing."
+  },
+  {
+    "t_start": 1019.0,
+    "t_end": 1022.771,
+    "text": "If you were to sample a bunch of evenly spaced values for the"
+  },
+  {
+    "t_start": 1022.771,
+    "t_end": 1026.726,
+    "text": "input t as it ranges from 0 to 1, the average of all the outputs"
+  },
+  {
+    "t_start": 1026.726,
+    "t_end": 1030.619,
+    "text": "of the function for those samples would be the constant term c0."
+  },
+  {
+    "t_start": 1031.359,
+    "t_end": 1034.974,
+    "text": "Or more accurately, as you consider finer and finer samples,"
+  },
+  {
+    "t_start": 1034.974,
+    "t_end": 1039.24,
+    "text": "the average of the outputs for these samples approaches c0 in the limit."
+  },
+  {
+    "t_start": 1040.0,
+    "t_end": 1044.162,
+    "text": "What I'm describing, finer and finer sums of a function for samples of"
+  },
+  {
+    "t_start": 1044.162,
+    "t_end": 1048.5,
+    "text": "t from the input range, is an integral, an integral of f of t from 0 to 1."
+  },
+  {
+    "t_start": 1050.82,
+    "t_end": 1053.812,
+    "text": "Normally, since I'm framing this all in terms of averages,"
+  },
+  {
+    "t_start": 1053.812,
+    "t_end": 1057.058,
+    "text": "you would divide the integral by the length of the input range,"
+  },
+  {
+    "t_start": 1057.058,
+    "t_end": 1060.71,
+    "text": "but that length is 1, so in this case, taking an integral and taking an"
+  },
+  {
+    "t_start": 1060.71,
+    "t_end": 1062.08,
+    "text": "average are the same thing."
+  },
+  {
+    "t_start": 1062.64,
+    "t_end": 1066.58,
+    "text": "There's a very nice way to think about why this integral would pull out c0."
+  },
+  {
+    "t_start": 1067.38,
+    "t_end": 1071.617,
+    "text": "Remember, we want to think of this function as a sum of rotating vectors,"
+  },
+  {
+    "t_start": 1071.617,
+    "t_end": 1076.6,
+    "text": "so consider this integral, this continuous average, as being applied to that whole sum."
+  },
+  {
+    "t_start": 1077.46,
+    "t_end": 1082.58,
+    "text": "The average of a sum like this is the same as the sum over the averages of each part."
+  },
+  {
+    "t_start": 1086.08,
+    "t_end": 1089.24,
+    "text": "You can read this move as a sort of subtle shift in perspective."
+  },
+  {
+    "t_start": 1089.52,
+    "t_end": 1093.471,
+    "text": "Rather than looking at the sum of all the vectors at each point in time"
+  },
+  {
+    "t_start": 1093.471,
+    "t_end": 1097.368,
+    "text": "and taking the average value they sweep out, look at the average of an"
+  },
+  {
+    "t_start": 1097.368,
+    "t_end": 1101.54,
+    "text": "individual vector as t goes from 0 to 1, and then add up all these averages."
+  },
+  {
+    "t_start": 1102.48,
+    "t_end": 1107.28,
+    "text": "But each of these vectors just makes a whole number of rotations around 0,"
+  },
+  {
+    "t_start": 1107.28,
+    "t_end": 1110.8,
+    "text": "so its average value as t ranges from 0 to 1 will be 0."
+  },
+  {
+    "t_start": 1111.34,
+    "t_end": 1113.44,
+    "text": "The only exception is the constant term."
+  },
+  {
+    "t_start": 1113.94,
+    "t_end": 1117.361,
+    "text": "Since it stays static and doesn't rotate, its average value"
+  },
+  {
+    "t_start": 1117.361,
+    "t_end": 1120.84,
+    "text": "is just whatever number it happened to start on, which is c0."
+  },
+  {
+    "t_start": 1121.6,
+    "t_end": 1124.412,
+    "text": "So doing this average over the whole function is a"
+  },
+  {
+    "t_start": 1124.412,
+    "t_end": 1127.5,
+    "text": "sort of clever way to kill all the terms that aren't c0."
+  },
+  {
+    "t_start": 1128.04,
+    "t_end": 1129.56,
+    "text": "But here's the actual clever part."
+  },
+  {
+    "t_start": 1129.86,
+    "t_end": 1132.756,
+    "text": "Let's say you wanted to compute a different term, like c2,"
+  },
+  {
+    "t_start": 1132.756,
+    "t_end": 1135.8,
+    "text": "sitting in front of the vector rotating two cycles per second."
+  },
+  {
+    "t_start": 1136.42,
+    "t_end": 1141.037,
+    "text": "The trick is to first multiply f of t by something that makes that vector hold still,"
+  },
+  {
+    "t_start": 1141.037,
+    "t_end": 1145.44,
+    "text": "sort of the mathematical equivalent of giving a smartphone to an overactive child."
+  },
+  {
+    "t_start": 1146.26,
+    "t_end": 1150.629,
+    "text": "Specifically, if you multiply the whole function by e to the negative"
+  },
+  {
+    "t_start": 1150.629,
+    "t_end": 1154.5,
+    "text": "2 times 2 pi i times t, think about what happens to each term."
+  },
+  {
+    "t_start": 1156.64,
+    "t_end": 1161.166,
+    "text": "Since multiplying exponentials results in adding what's in the exponent,"
+  },
+  {
+    "t_start": 1161.166,
+    "t_end": 1165.32,
+    "text": "the frequency term in each of our exponents gets shifted down by 2."
+  },
+  {
+    "t_start": 1169.66,
+    "t_end": 1173.03,
+    "text": "So now, as we do our averages of each term, that c-1"
+  },
+  {
+    "t_start": 1173.03,
+    "t_end": 1176.72,
+    "text": "vector spins around negative 3 times with an average of 0."
+  },
+  {
+    "t_start": 1177.56,
+    "t_end": 1183.196,
+    "text": "The c0 vector, previously constant, now rotates twice as t ranges from 0 to 1,"
+  },
+  {
+    "t_start": 1183.196,
+    "t_end": 1184.98,
+    "text": "so its average is also 0."
+  },
+  {
+    "t_start": 1186.52,
+    "t_end": 1191.737,
+    "text": "And likewise, all vectors other than the c2 term make some whole number of rotations,"
+  },
+  {
+    "t_start": 1191.737,
+    "t_end": 1193.74,
+    "text": "meaning they average out to be 0."
+  },
+  {
+    "t_start": 1195.28,
+    "t_end": 1198.543,
+    "text": "So taking the average of this modified function is"
+  },
+  {
+    "t_start": 1198.543,
+    "t_end": 1201.68,
+    "text": "a clever way to kill all the terms other than c2."
+  },
+  {
+    "t_start": 1202.36,
+    "t_end": 1205.206,
+    "text": "And of course, there's nothing special about the number 2 here,"
+  },
+  {
+    "t_start": 1205.206,
+    "t_end": 1208.676,
+    "text": "you could replace it with any other n, and you have a general formula for cn,"
+  },
+  {
+    "t_start": 1208.676,
+    "t_end": 1210.1,
+    "text": "which is what we're looking for."
+  },
+  {
+    "t_start": 1210.66,
+    "t_end": 1214.322,
+    "text": "Out of context, this expression might look complicated, but remember,"
+  },
+  {
+    "t_start": 1214.322,
+    "t_end": 1217.722,
+    "text": "you can read it as first modifying our function, our 2d drawing,"
+  },
+  {
+    "t_start": 1217.722,
+    "t_end": 1220.234,
+    "text": "so as to make the nth little vector hold still,"
+  },
+  {
+    "t_start": 1220.234,
+    "t_end": 1223.896,
+    "text": "and then performing an average which kills all the moving vectors and"
+  },
+  {
+    "t_start": 1223.896,
+    "t_end": 1225.78,
+    "text": "leaves you only with the still part."
+  },
+  {
+    "t_start": 1226.46,
+    "t_end": 1227.08,
+    "text": "Isn't that crazy?"
+  },
+  {
+    "t_start": 1227.5,
+    "t_end": 1231.69,
+    "text": "All of the complexity in these decompositions you're seeing of drawings into"
+  },
+  {
+    "t_start": 1231.69,
+    "t_end": 1235.88,
+    "text": "sums of many rotating vectors is entirely captured in this little expression."
+  },
+  {
+    "t_start": 1236.54,
+    "t_end": 1240.82,
+    "text": "So when I'm rendering these animations, that's exactly what I'm having the computer do."
+  },
+  {
+    "t_start": 1241.28,
+    "t_end": 1245.846,
+    "text": "It treats the path like a complex function, and for a certain range of values n,"
+  },
+  {
+    "t_start": 1245.846,
+    "t_end": 1249.06,
+    "text": "it computes this integral to find the coefficient c of n."
+  },
+  {
+    "t_start": 1251.08,
+    "t_end": 1254.606,
+    "text": "For those of you curious about where the data for a path itself comes from,"
+  },
+  {
+    "t_start": 1254.606,
+    "t_end": 1257.808,
+    "text": "I'm going the easy route and just having the program read in an SVG,"
+  },
+  {
+    "t_start": 1257.808,
+    "t_end": 1261.752,
+    "text": "which is a file format that defines the image in terms of mathematical curves rather"
+  },
+  {
+    "t_start": 1261.752,
+    "t_end": 1262.82,
+    "text": "than with pixel values."
+  },
+  {
+    "t_start": 1263.28,
+    "t_end": 1268.96,
+    "text": "So the mapping f of t from a time parameter to points in space basically comes predefined."
+  },
+  {
+    "t_start": 1270.54,
+    "t_end": 1274.228,
+    "text": "In what's shown right now, I'm using 101 rotating vectors,"
+  },
+  {
+    "t_start": 1274.228,
+    "t_end": 1277.48,
+    "text": "computing the values of n from negative 50 up to 50."
+  },
+  {
+    "t_start": 1278.12,
+    "t_end": 1281.647,
+    "text": "In practice, each of these integrals is computed numerically,"
+  },
+  {
+    "t_start": 1281.647,
+    "t_end": 1286.653,
+    "text": "basically meaning it chops up the unit interval into many small pieces of size delta t,"
+  },
+  {
+    "t_start": 1286.653,
+    "t_end": 1291.545,
+    "text": "and then adds up this value, f of t times e to the negative n 2 pi i t times delta t,"
+  },
+  {
+    "t_start": 1291.545,
+    "t_end": 1292.74,
+    "text": "for each one of them."
+  },
+  {
+    "t_start": 1293.28,
+    "t_end": 1296.541,
+    "text": "There are fancier methods for more efficient numerical integration,"
+  },
+  {
+    "t_start": 1296.541,
+    "t_end": 1297.98,
+    "text": "but this gives the basic idea."
+  },
+  {
+    "t_start": 1298.82,
+    "t_end": 1302.809,
+    "text": "And after you compute these 101 constants, each one determines an initial"
+  },
+  {
+    "t_start": 1302.809,
+    "t_end": 1307.391,
+    "text": "angle and magnitude for the little vectors, and then you just set them all rotating,"
+  },
+  {
+    "t_start": 1307.391,
+    "t_end": 1311.273,
+    "text": "adding them tip to tail as they go, and the path drawn out by the final"
+  },
+  {
+    "t_start": 1311.273,
+    "t_end": 1314.4,
+    "text": "tip is some approximation of the original path you fed in."
+  },
+  {
+    "t_start": 1315.1,
+    "t_end": 1317.94,
+    "text": "As the number of vectors used approaches infinity,"
+  },
+  {
+    "t_start": 1317.94,
+    "t_end": 1320.78,
+    "text": "the approximation path gets more and more accurate."
+  },
+  {
+    "t_start": 1334.14,
+    "t_end": 1338.275,
+    "text": "To bring this all back down to earth, consider the example we were looking at earlier,"
+  },
+  {
+    "t_start": 1338.275,
+    "t_end": 1342.077,
+    "text": "of a step function, which remember was useful for modeling the heat dissipation"
+  },
+  {
+    "t_start": 1342.077,
+    "t_end": 1345.5,
+    "text": "between two rods at different temperatures after they come into contact."
+  },
+  {
+    "t_start": 1346.62,
+    "t_end": 1349.508,
+    "text": "Like any real number valued function, the step function"
+  },
+  {
+    "t_start": 1349.508,
+    "t_end": 1352.5,
+    "text": "is like a boring drawing that's confined to one dimension."
+  },
+  {
+    "t_start": 1353.24,
+    "t_end": 1358.197,
+    "text": "But this one is an especially dull drawing, since for inputs between 0 and 0.5,"
+  },
+  {
+    "t_start": 1358.197,
+    "t_end": 1362.783,
+    "text": "the output just stays static at the number 1, and then it discontinuously"
+  },
+  {
+    "t_start": 1362.783,
+    "t_end": 1365.82,
+    "text": "jumps to negative 1 for inputs between 0.5 and 1."
+  },
+  {
+    "t_start": 1366.44,
+    "t_end": 1369.87,
+    "text": "So in the Fourier series approximation, the vector sum stays really"
+  },
+  {
+    "t_start": 1369.87,
+    "t_end": 1373.804,
+    "text": "close to 1 for the first half of the cycle, then quickly jumps to negative 1,"
+  },
+  {
+    "t_start": 1373.804,
+    "t_end": 1376.68,
+    "text": "and stays close to that for the second half of the cycle."
+  },
+  {
+    "t_start": 1377.5,
+    "t_end": 1381.116,
+    "text": "And remember, each pair of vectors rotating in opposite directions"
+  },
+  {
+    "t_start": 1381.116,
+    "t_end": 1384.68,
+    "text": "corresponds to one of the cosine waves we were looking at earlier."
+  },
+  {
+    "t_start": 1386.08,
+    "t_end": 1389.315,
+    "text": "To find the coefficients, you would need to compute this integral,"
+  },
+  {
+    "t_start": 1389.315,
+    "t_end": 1393.372,
+    "text": "and for the ambitious viewers among you itching to work out some integrals by hand,"
+  },
+  {
+    "t_start": 1393.372,
+    "t_end": 1396.994,
+    "text": "this is one where you can actually do the calculus to get an exact answer,"
+  },
+  {
+    "t_start": 1396.994,
+    "t_end": 1399.94,
+    "text": "rather than just having a computer do it numerically for you."
+  },
+  {
+    "t_start": 1399.94,
+    "t_end": 1402.287,
+    "text": "I'll leave it as an exercise to work this out,"
+  },
+  {
+    "t_start": 1402.287,
+    "t_end": 1406.132,
+    "text": "and to relate it back to the idea of cosine waves by pairing off the vectors"
+  },
+  {
+    "t_start": 1406.132,
+    "t_end": 1407.88,
+    "text": "that rotate in opposite directions."
+  },
+  {
+    "t_start": 1408.78,
+    "t_end": 1412.736,
+    "text": "And for the even more ambitious, I'll leave another exercise up on the screen for"
+  },
+  {
+    "t_start": 1412.736,
+    "t_end": 1416.693,
+    "text": "how to relate this more general computation with what you might see in a textbook"
+  },
+  {
+    "t_start": 1416.693,
+    "t_end": 1420.94,
+    "text": "describing Fourier series only in terms of real valued functions with sines and cosines."
+  },
+  {
+    "t_start": 1421.84,
+    "t_end": 1424.893,
+    "text": "By the way, if you're looking for more Fourier series content,"
+  },
+  {
+    "t_start": 1424.893,
+    "t_end": 1428.093,
+    "text": "I highly recommend the videos by Mathologer and The Coding Train,"
+  },
+  {
+    "t_start": 1428.093,
+    "t_end": 1431.68,
+    "text": "and I'd also recommend this blog post, links of course in the description."
+  },
+  {
+    "t_start": 1433.62,
+    "t_end": 1437.097,
+    "text": "So on the one hand, this concludes our discussion of the heat equation,"
+  },
+  {
+    "t_start": 1437.097,
+    "t_end": 1440.72,
+    "text": "which was a little window into the study of partial differential equations."
+  },
+  {
+    "t_start": 1441.24,
+    "t_end": 1445.92,
+    "text": "But on the other hand, this Fourier-to-Fourier series is a first glimpse at a deeper idea."
+  },
+  {
+    "t_start": 1446.5,
+    "t_end": 1449.863,
+    "text": "Exponential functions, including their generalization into complex"
+  },
+  {
+    "t_start": 1449.863,
+    "t_end": 1453.98,
+    "text": "numbers and even matrices, play a very important role for differential equations,"
+  },
+  {
+    "t_start": 1453.98,
+    "t_end": 1456.24,
+    "text": "especially when it comes to linear equations."
+  },
+  {
+    "t_start": 1456.92,
+    "t_end": 1459.797,
+    "text": "What you just saw, breaking down a function as a combination"
+  },
+  {
+    "t_start": 1459.797,
+    "t_end": 1463.145,
+    "text": "of these exponentials and using that to solve a differential equation,"
+  },
+  {
+    "t_start": 1463.145,
+    "t_end": 1465.74,
+    "text": "comes up again and again in different shapes and forms."
+  },
+  {
+    "t_start": 1484.9,
+    "t_end": 1485.9,
+    "text": "Thank you."
+  }
+]

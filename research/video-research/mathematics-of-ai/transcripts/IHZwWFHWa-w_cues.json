@@ -1,0 +1,1532 @@
+[
+  {
+    "t_start": 4.18,
+    "t_end": 7.28,
+    "text": "Last video I laid out the structure of a neural network."
+  },
+  {
+    "t_start": 7.68,
+    "t_end": 10.459,
+    "text": "I'll give a quick recap here so that it's fresh in our minds,"
+  },
+  {
+    "t_start": 10.459,
+    "t_end": 12.6,
+    "text": "and then I have two main goals for this video."
+  },
+  {
+    "t_start": 13.1,
+    "t_end": 15.646,
+    "text": "The first is to introduce the idea of gradient descent,"
+  },
+  {
+    "t_start": 15.646,
+    "t_end": 18.054,
+    "text": "which underlies not only how neural networks learn,"
+  },
+  {
+    "t_start": 18.054,
+    "t_end": 20.6,
+    "text": "but how a lot of other machine learning works as well."
+  },
+  {
+    "t_start": 21.12,
+    "t_end": 25.118,
+    "text": "Then after that we'll dig in a little more into how this particular network performs,"
+  },
+  {
+    "t_start": 25.118,
+    "t_end": 27.94,
+    "text": "and what those hidden layers of neurons end up looking for."
+  },
+  {
+    "t_start": 28.98,
+    "t_end": 34.066,
+    "text": "As a reminder, our goal here is the classic example of handwritten digit recognition,"
+  },
+  {
+    "t_start": 34.066,
+    "t_end": 36.22,
+    "text": "the hello world of neural networks."
+  },
+  {
+    "t_start": 37.02,
+    "t_end": 40.032,
+    "text": "These digits are rendered on a 28x28 pixel grid,"
+  },
+  {
+    "t_start": 40.032,
+    "t_end": 43.42,
+    "text": "each pixel with some grayscale value between 0 and 1."
+  },
+  {
+    "t_start": 43.82,
+    "t_end": 50.04,
+    "text": "Those are what determine the activations of 784 neurons in the input layer of the network."
+  },
+  {
+    "t_start": 51.18,
+    "t_end": 55.89,
+    "text": "And then the activation for each neuron in the following layers is based on a weighted"
+  },
+  {
+    "t_start": 55.89,
+    "t_end": 60.82,
+    "text": "sum of all the activations in the previous layer, plus some special number called a bias."
+  },
+  {
+    "t_start": 62.16,
+    "t_end": 64.76,
+    "text": "Then you compose that sum with some other function,"
+  },
+  {
+    "t_start": 64.76,
+    "t_end": 68.94,
+    "text": "like the sigmoid squishification, or a relu, the way I walked through last video."
+  },
+  {
+    "t_start": 69.48,
+    "t_end": 75.107,
+    "text": "In total, given the somewhat arbitrary choice of two hidden layers with 16 neurons each,"
+  },
+  {
+    "t_start": 75.107,
+    "t_end": 79.456,
+    "text": "the network has about 13,000 weights and biases that we can adjust,"
+  },
+  {
+    "t_start": 79.456,
+    "t_end": 84.38,
+    "text": "and it's these values that determine what exactly the network actually does."
+  },
+  {
+    "t_start": 84.88,
+    "t_end": 89.09,
+    "text": "Then what we mean when we say that this network classifies a given digit is that"
+  },
+  {
+    "t_start": 89.09,
+    "t_end": 93.3,
+    "text": "the brightest of those 10 neurons in the final layer corresponds to that digit."
+  },
+  {
+    "t_start": 94.1,
+    "t_end": 97.971,
+    "text": "And remember, the motivation we had in mind here for the layered structure"
+  },
+  {
+    "t_start": 97.971,
+    "t_end": 101.11,
+    "text": "was that maybe the second layer could pick up on the edges,"
+  },
+  {
+    "t_start": 101.11,
+    "t_end": 104.667,
+    "text": "and the third layer might pick up on patterns like loops and lines,"
+  },
+  {
+    "t_start": 104.667,
+    "t_end": 108.8,
+    "text": "and the last one could just piece together those patterns to recognize digits."
+  },
+  {
+    "t_start": 109.8,
+    "t_end": 112.24,
+    "text": "So here, we learn how the network learns."
+  },
+  {
+    "t_start": 112.64,
+    "t_end": 116.781,
+    "text": "What we want is an algorithm where you can show this network a whole bunch of"
+  },
+  {
+    "t_start": 116.781,
+    "t_end": 121.353,
+    "text": "training data, which comes in the form of a bunch of different images of handwritten"
+  },
+  {
+    "t_start": 121.353,
+    "t_end": 124.526,
+    "text": "digits, along with labels for what they're supposed to be,"
+  },
+  {
+    "t_start": 124.526,
+    "t_end": 128.937,
+    "text": "and it'll adjust those 13,000 weights and biases so as to improve its performance"
+  },
+  {
+    "t_start": 128.937,
+    "t_end": 130.12,
+    "text": "on the training data."
+  },
+  {
+    "t_start": 130.72,
+    "t_end": 133.79,
+    "text": "Hopefully, this layered structure will mean that what it"
+  },
+  {
+    "t_start": 133.79,
+    "t_end": 136.86,
+    "text": "learns generalizes to images beyond that training data."
+  },
+  {
+    "t_start": 137.64,
+    "t_end": 140.591,
+    "text": "The way we test that is that after you train the network,"
+  },
+  {
+    "t_start": 140.591,
+    "t_end": 143.645,
+    "text": "you show it more labeled data that it's never seen before,"
+  },
+  {
+    "t_start": 143.645,
+    "t_end": 146.7,
+    "text": "and you see how accurately it classifies those new images."
+  },
+  {
+    "t_start": 151.12,
+    "t_end": 154.871,
+    "text": "Fortunately for us, and what makes this such a common example to start with,"
+  },
+  {
+    "t_start": 154.871,
+    "t_end": 159.264,
+    "text": "is that the good people behind the MNIST database have put together a collection of tens"
+  },
+  {
+    "t_start": 159.264,
+    "t_end": 163.41,
+    "text": "of thousands of handwritten digit images, each one labeled with the numbers they're"
+  },
+  {
+    "t_start": 163.41,
+    "t_end": 164.2,
+    "text": "supposed to be."
+  },
+  {
+    "t_start": 164.9,
+    "t_end": 168.504,
+    "text": "And as provocative as it is to describe a machine as learning,"
+  },
+  {
+    "t_start": 168.504,
+    "t_end": 173.097,
+    "text": "once you see how it works, it feels a lot less like some crazy sci-fi premise,"
+  },
+  {
+    "t_start": 173.097,
+    "t_end": 175.48,
+    "text": "and a lot more like a calculus exercise."
+  },
+  {
+    "t_start": 176.2,
+    "t_end": 179.96,
+    "text": "I mean, basically it comes down to finding the minimum of a certain function."
+  },
+  {
+    "t_start": 181.94,
+    "t_end": 186.222,
+    "text": "Remember, conceptually, we're thinking of each neuron as being connected to all"
+  },
+  {
+    "t_start": 186.222,
+    "t_end": 190.558,
+    "text": "the neurons in the previous layer, and the weights in the weighted sum defining"
+  },
+  {
+    "t_start": 190.558,
+    "t_end": 194.244,
+    "text": "its activation are kind of like the strengths of those connections,"
+  },
+  {
+    "t_start": 194.244,
+    "t_end": 198.96,
+    "text": "and the bias is some indication of whether that neuron tends to be active or inactive."
+  },
+  {
+    "t_start": 199.72,
+    "t_end": 202.171,
+    "text": "And to start things off, we're just going to initialize"
+  },
+  {
+    "t_start": 202.171,
+    "t_end": 204.4,
+    "text": "all of those weights and biases totally randomly."
+  },
+  {
+    "t_start": 204.94,
+    "t_end": 207.873,
+    "text": "Needless to say, this network is going to perform pretty horribly on"
+  },
+  {
+    "t_start": 207.873,
+    "t_end": 210.72,
+    "text": "a given training example, since it's just doing something random."
+  },
+  {
+    "t_start": 211.04,
+    "t_end": 216.02,
+    "text": "For example, you feed in this image of a 3, and the output layer just looks like a mess."
+  },
+  {
+    "t_start": 216.6,
+    "t_end": 221.409,
+    "text": "So what you do is define a cost function, a way of telling the computer,"
+  },
+  {
+    "t_start": 221.409,
+    "t_end": 227.02,
+    "text": "no, bad computer, that output should have activations which are 0 for most neurons,"
+  },
+  {
+    "t_start": 227.02,
+    "t_end": 230.76,
+    "text": "but 1 for this neuron, what you gave me is utter trash."
+  },
+  {
+    "t_start": 231.72,
+    "t_end": 236.438,
+    "text": "To say that a little more mathematically, you add up the squares of the differences"
+  },
+  {
+    "t_start": 236.438,
+    "t_end": 241.212,
+    "text": "between each of those trash output activations and the value you want them to have,"
+  },
+  {
+    "t_start": 241.212,
+    "t_end": 245.02,
+    "text": "and this is what we'll call the cost of a single training example."
+  },
+  {
+    "t_start": 245.96,
+    "t_end": 251.472,
+    "text": "Notice this sum is small when the network confidently classifies the image correctly,"
+  },
+  {
+    "t_start": 251.472,
+    "t_end": 256.4,
+    "text": "but it's large when the network seems like it doesn't know what it's doing."
+  },
+  {
+    "t_start": 258.64,
+    "t_end": 262.012,
+    "text": "So then what you do is consider the average cost over all of"
+  },
+  {
+    "t_start": 262.012,
+    "t_end": 265.44,
+    "text": "the tens of thousands of training examples at your disposal."
+  },
+  {
+    "t_start": 267.04,
+    "t_end": 270.574,
+    "text": "This average cost is our measure for how lousy the network is,"
+  },
+  {
+    "t_start": 270.574,
+    "t_end": 272.74,
+    "text": "and how bad the computer should feel."
+  },
+  {
+    "t_start": 273.42,
+    "t_end": 274.6,
+    "text": "And that's a complicated thing."
+  },
+  {
+    "t_start": 275.04,
+    "t_end": 278.557,
+    "text": "Remember how the network itself was basically a function,"
+  },
+  {
+    "t_start": 278.557,
+    "t_end": 282.198,
+    "text": "one that takes in 784 numbers as inputs, the pixel values,"
+  },
+  {
+    "t_start": 282.198,
+    "t_end": 286.764,
+    "text": "and spits out 10 numbers as its output, and in a sense it's parameterized"
+  },
+  {
+    "t_start": 286.764,
+    "t_end": 288.8,
+    "text": "by all these weights and biases?"
+  },
+  {
+    "t_start": 289.5,
+    "t_end": 292.82,
+    "text": "Well the cost function is a layer of complexity on top of that."
+  },
+  {
+    "t_start": 293.1,
+    "t_end": 296.789,
+    "text": "It takes as its input those 13,000 or so weights and biases,"
+  },
+  {
+    "t_start": 296.789,
+    "t_end": 301.646,
+    "text": "and spits out a single number describing how bad those weights and biases are,"
+  },
+  {
+    "t_start": 301.646,
+    "t_end": 306.564,
+    "text": "and the way it's defined depends on the network's behavior over all the tens of"
+  },
+  {
+    "t_start": 306.564,
+    "t_end": 308.9,
+    "text": "thousands of pieces of training data."
+  },
+  {
+    "t_start": 309.52,
+    "t_end": 311.0,
+    "text": "That's a lot to think about."
+  },
+  {
+    "t_start": 312.4,
+    "t_end": 315.82,
+    "text": "But just telling the computer what a crappy job it's doing isn't very helpful."
+  },
+  {
+    "t_start": 316.22,
+    "t_end": 320.06,
+    "text": "You want to tell it how to change those weights and biases so that it gets better."
+  },
+  {
+    "t_start": 320.78,
+    "t_end": 325.381,
+    "text": "To make it easier, rather than struggling to imagine a function with 13,000 inputs,"
+  },
+  {
+    "t_start": 325.381,
+    "t_end": 330.037,
+    "text": "just imagine a simple function that has one number as an input and one number as an"
+  },
+  {
+    "t_start": 330.037,
+    "t_end": 330.48,
+    "text": "output."
+  },
+  {
+    "t_start": 331.48,
+    "t_end": 335.3,
+    "text": "How do you find an input that minimizes the value of this function?"
+  },
+  {
+    "t_start": 336.46,
+    "t_end": 341.169,
+    "text": "Calculus students will know that you can sometimes figure out that minimum explicitly,"
+  },
+  {
+    "t_start": 341.169,
+    "t_end": 344.728,
+    "text": "but that's not always feasible for really complicated functions,"
+  },
+  {
+    "t_start": 344.728,
+    "t_end": 349.437,
+    "text": "certainly not in the 13,000 input version of this situation for our crazy complicated"
+  },
+  {
+    "t_start": 349.437,
+    "t_end": 351.08,
+    "text": "neural network cost function."
+  },
+  {
+    "t_start": 351.58,
+    "t_end": 354.578,
+    "text": "A more flexible tactic is to start at any input,"
+  },
+  {
+    "t_start": 354.578,
+    "t_end": 359.2,
+    "text": "and figure out which direction you should step to make that output lower."
+  },
+  {
+    "t_start": 360.08,
+    "t_end": 364.092,
+    "text": "Specifically, if you can figure out the slope of the function where you are,"
+  },
+  {
+    "t_start": 364.092,
+    "t_end": 366.732,
+    "text": "then shift to the left if that slope is positive,"
+  },
+  {
+    "t_start": 366.732,
+    "t_end": 369.9,
+    "text": "and shift the input to the right if that slope is negative."
+  },
+  {
+    "t_start": 371.96,
+    "t_end": 375.875,
+    "text": "If you do this repeatedly, at each point checking the new slope and taking the"
+  },
+  {
+    "t_start": 375.875,
+    "t_end": 379.84,
+    "text": "appropriate step, you're going to approach some local minimum of the function."
+  },
+  {
+    "t_start": 380.64,
+    "t_end": 383.8,
+    "text": "The image you might have in mind here is a ball rolling down a hill."
+  },
+  {
+    "t_start": 384.62,
+    "t_end": 387.791,
+    "text": "Notice, even for this really simplified single input function,"
+  },
+  {
+    "t_start": 387.791,
+    "t_end": 390.655,
+    "text": "there are many possible valleys that you might land in,"
+  },
+  {
+    "t_start": 390.655,
+    "t_end": 393.007,
+    "text": "depending on which random input you start at,"
+  },
+  {
+    "t_start": 393.007,
+    "t_end": 396.689,
+    "text": "and there's no guarantee that the local minimum you land in is going to"
+  },
+  {
+    "t_start": 396.689,
+    "t_end": 399.4,
+    "text": "be the smallest possible value of the cost function."
+  },
+  {
+    "t_start": 400.22,
+    "t_end": 402.62,
+    "text": "That will carry over to our neural network case as well."
+  },
+  {
+    "t_start": 403.18,
+    "t_end": 407.568,
+    "text": "And I also want you to notice how if you make your step sizes proportional to the slope,"
+  },
+  {
+    "t_start": 407.568,
+    "t_end": 410.511,
+    "text": "then when the slope is flattening out towards the minimum,"
+  },
+  {
+    "t_start": 410.511,
+    "t_end": 414.6,
+    "text": "your steps get smaller and smaller, and that kind of helps you from overshooting."
+  },
+  {
+    "t_start": 415.94,
+    "t_end": 418.598,
+    "text": "Bumping up the complexity a bit, imagine instead"
+  },
+  {
+    "t_start": 418.598,
+    "t_end": 420.98,
+    "text": "a function with two inputs and one output."
+  },
+  {
+    "t_start": 421.5,
+    "t_end": 424.497,
+    "text": "You might think of the input space as the xy-plane,"
+  },
+  {
+    "t_start": 424.497,
+    "t_end": 428.14,
+    "text": "and the cost function as being graphed as a surface above it."
+  },
+  {
+    "t_start": 428.76,
+    "t_end": 431.803,
+    "text": "Now instead of asking about the slope of the function,"
+  },
+  {
+    "t_start": 431.803,
+    "t_end": 435.297,
+    "text": "you have to ask which direction you should step in this input"
+  },
+  {
+    "t_start": 435.297,
+    "t_end": 438.96,
+    "text": "space so as to decrease the output of the function most quickly."
+  },
+  {
+    "t_start": 439.72,
+    "t_end": 441.76,
+    "text": "In other words, what's the downhill direction?"
+  },
+  {
+    "t_start": 442.38,
+    "t_end": 445.56,
+    "text": "Again, it's helpful to think of a ball rolling down that hill."
+  },
+  {
+    "t_start": 446.66,
+    "t_end": 450.661,
+    "text": "Those of you familiar with multivariable calculus will know that the"
+  },
+  {
+    "t_start": 450.661,
+    "t_end": 454.603,
+    "text": "gradient of a function gives you the direction of steepest ascent,"
+  },
+  {
+    "t_start": 454.603,
+    "t_end": 458.78,
+    "text": "which direction should you step to increase the function most quickly."
+  },
+  {
+    "t_start": 459.56,
+    "t_end": 462.8,
+    "text": "Naturally enough, taking the negative of that gradient gives you"
+  },
+  {
+    "t_start": 462.8,
+    "t_end": 466.04,
+    "text": "the direction to step that decreases the function most quickly."
+  },
+  {
+    "t_start": 467.24,
+    "t_end": 470.569,
+    "text": "Even more than that, the length of this gradient vector is"
+  },
+  {
+    "t_start": 470.569,
+    "t_end": 473.84,
+    "text": "an indication for just how steep that steepest slope is."
+  },
+  {
+    "t_start": 474.54,
+    "t_end": 477.611,
+    "text": "If you're unfamiliar with multivariable calculus and want to learn more,"
+  },
+  {
+    "t_start": 477.611,
+    "t_end": 480.34,
+    "text": "check out some of the work I did for Khan Academy on the topic."
+  },
+  {
+    "t_start": 480.86,
+    "t_end": 484.485,
+    "text": "Honestly though, all that matters for you and me right now is that"
+  },
+  {
+    "t_start": 484.485,
+    "t_end": 487.561,
+    "text": "in principle there exists a way to compute this vector,"
+  },
+  {
+    "t_start": 487.561,
+    "t_end": 491.9,
+    "text": "this vector that tells you what the downhill direction is and how steep it is."
+  },
+  {
+    "t_start": 492.4,
+    "t_end": 496.12,
+    "text": "You'll be okay if that's all you know and you're not rock solid on the details."
+  },
+  {
+    "t_start": 497.2,
+    "t_end": 502.054,
+    "text": "Cause If you can get that, the algorithm for minimizing the function is to compute this"
+  },
+  {
+    "t_start": 502.054,
+    "t_end": 506.74,
+    "text": "gradient direction, then take a small step downhill, and repeat that over and over."
+  },
+  {
+    "t_start": 507.7,
+    "t_end": 512.82,
+    "text": "It's the same basic idea for a function that has 13,000 inputs instead of 2 inputs."
+  },
+  {
+    "t_start": 513.4,
+    "t_end": 516.596,
+    "text": "Imagine organizing all 13,000 weights and biases"
+  },
+  {
+    "t_start": 516.596,
+    "t_end": 519.46,
+    "text": "of our network into a giant column vector."
+  },
+  {
+    "t_start": 520.14,
+    "t_end": 523.919,
+    "text": "The negative gradient of the cost function is just a vector,"
+  },
+  {
+    "t_start": 523.919,
+    "t_end": 528.896,
+    "text": "it's some direction inside this insanely huge input space that tells you which"
+  },
+  {
+    "t_start": 528.896,
+    "t_end": 533.683,
+    "text": "nudges to all of those numbers is going to cause the most rapid decrease to"
+  },
+  {
+    "t_start": 533.683,
+    "t_end": 534.88,
+    "text": "the cost function."
+  },
+  {
+    "t_start": 535.64,
+    "t_end": 538.833,
+    "text": "And of course, with our specially designed cost function,"
+  },
+  {
+    "t_start": 538.833,
+    "t_end": 542.418,
+    "text": "changing the weights and biases to decrease it means making the"
+  },
+  {
+    "t_start": 542.418,
+    "t_end": 546.227,
+    "text": "output of the network on each piece of training data look less like"
+  },
+  {
+    "t_start": 546.227,
+    "t_end": 550.82,
+    "text": "a random array of 10 values, and more like an actual decision we want it to make."
+  },
+  {
+    "t_start": 551.44,
+    "t_end": 555.877,
+    "text": "It's important to remember, this cost function involves an average over all of the"
+  },
+  {
+    "t_start": 555.877,
+    "t_end": 560.693,
+    "text": "training data, so if you minimize it, it means it's a better performance on all of those"
+  },
+  {
+    "t_start": 560.693,
+    "t_end": 561.18,
+    "text": "samples."
+  },
+  {
+    "t_start": 563.82,
+    "t_end": 566.563,
+    "text": "The algorithm for computing this gradient efficiently,"
+  },
+  {
+    "t_start": 566.563,
+    "t_end": 569.764,
+    "text": "which is effectively the heart of how a neural network learns,"
+  },
+  {
+    "t_start": 569.764,
+    "t_end": 573.98,
+    "text": "is called backpropagation, and it's what I'm going to be talking about next video."
+  },
+  {
+    "t_start": 574.66,
+    "t_end": 578.668,
+    "text": "There, I really want to take the time to walk through what exactly happens to"
+  },
+  {
+    "t_start": 578.668,
+    "t_end": 581.635,
+    "text": "each weight and bias for a given piece of training data,"
+  },
+  {
+    "t_start": 581.635,
+    "t_end": 585.903,
+    "text": "trying to give an intuitive feel for what's happening beyond the pile of relevant"
+  },
+  {
+    "t_start": 585.903,
+    "t_end": 587.1,
+    "text": "calculus and formulas."
+  },
+  {
+    "t_start": 587.78,
+    "t_end": 590.78,
+    "text": "Right here, right now, the main thing I want you to know,"
+  },
+  {
+    "t_start": 590.78,
+    "t_end": 594.36,
+    "text": "independent of implementation details, is that what we mean when we"
+  },
+  {
+    "t_start": 594.36,
+    "t_end": 598.36,
+    "text": "talk about a network learning is that it's just minimizing a cost function."
+  },
+  {
+    "t_start": 599.3,
+    "t_end": 603.651,
+    "text": "And notice, one consequence of that is that it's important for this cost function to have"
+  },
+  {
+    "t_start": 603.651,
+    "t_end": 607.611,
+    "text": "a nice smooth output, so that we can find a local minimum by taking little steps"
+  },
+  {
+    "t_start": 607.611,
+    "t_end": 608.1,
+    "text": "downhill."
+  },
+  {
+    "t_start": 609.26,
+    "t_end": 613.889,
+    "text": "This is why, by the way, artificial neurons have continuously ranging activations,"
+  },
+  {
+    "t_start": 613.889,
+    "t_end": 617.333,
+    "text": "rather than simply being active or inactive in a binary way,"
+  },
+  {
+    "t_start": 617.333,
+    "t_end": 619.14,
+    "text": "the way biological neurons are."
+  },
+  {
+    "t_start": 620.22,
+    "t_end": 623.567,
+    "text": "This process of repeatedly nudging an input of a function by some"
+  },
+  {
+    "t_start": 623.567,
+    "t_end": 626.76,
+    "text": "multiple of the negative gradient is called gradient descent."
+  },
+  {
+    "t_start": 627.3,
+    "t_end": 630.837,
+    "text": "It's a way to converge towards some local minimum of a cost function,"
+  },
+  {
+    "t_start": 630.837,
+    "t_end": 632.58,
+    "text": "basically a valley in this graph."
+  },
+  {
+    "t_start": 633.44,
+    "t_end": 636.885,
+    "text": "I'm still showing the picture of a function with two inputs, of course,"
+  },
+  {
+    "t_start": 636.885,
+    "t_end": 640.378,
+    "text": "because nudges in a 13,000 dimensional input space are a little hard to"
+  },
+  {
+    "t_start": 640.378,
+    "t_end": 644.26,
+    "text": "wrap your mind around, but there is a nice non-spatial way to think about this."
+  },
+  {
+    "t_start": 645.08,
+    "t_end": 648.44,
+    "text": "Each component of the negative gradient tells us two things."
+  },
+  {
+    "t_start": 649.06,
+    "t_end": 651.993,
+    "text": "The sign, of course, tells us whether the corresponding"
+  },
+  {
+    "t_start": 651.993,
+    "t_end": 655.14,
+    "text": "component of the input vector should be nudged up or down."
+  },
+  {
+    "t_start": 655.8,
+    "t_end": 659.165,
+    "text": "But importantly, the relative magnitudes of all these"
+  },
+  {
+    "t_start": 659.165,
+    "t_end": 662.72,
+    "text": "components kind of tells you which changes matter more."
+  },
+  {
+    "t_start": 665.22,
+    "t_end": 669.13,
+    "text": "You see, in our network, an adjustment to one of the weights might have a much"
+  },
+  {
+    "t_start": 669.13,
+    "t_end": 673.04,
+    "text": "greater impact on the cost function than the adjustment to some other weight."
+  },
+  {
+    "t_start": 674.8,
+    "t_end": 678.2,
+    "text": "Some of these connections just matter more for our training data."
+  },
+  {
+    "t_start": 679.32,
+    "t_end": 683.626,
+    "text": "So a way you can think about this gradient vector of our mind-warpingly massive"
+  },
+  {
+    "t_start": 683.626,
+    "t_end": 688.095,
+    "text": "cost function is that it encodes the relative importance of each weight and bias,"
+  },
+  {
+    "t_start": 688.095,
+    "t_end": 692.4,
+    "text": "that is, which of these changes is going to carry the most bang for your buck."
+  },
+  {
+    "t_start": 693.62,
+    "t_end": 696.64,
+    "text": "This really is just another way of thinking about direction."
+  },
+  {
+    "t_start": 697.1,
+    "t_end": 701.786,
+    "text": "To take a simpler example, if you have some function with two variables as an input,"
+  },
+  {
+    "t_start": 701.786,
+    "t_end": 706.082,
+    "text": "and you compute that its gradient at some particular point comes out as 3,1,"
+  },
+  {
+    "t_start": 706.082,
+    "t_end": 710.043,
+    "text": "then on the one hand you can interpret that as saying that when you're"
+  },
+  {
+    "t_start": 710.043,
+    "t_end": 715.008,
+    "text": "standing at that input, moving along this direction increases the function most quickly,"
+  },
+  {
+    "t_start": 715.008,
+    "t_end": 718.69,
+    "text": "that when you graph the function above the plane of input points,"
+  },
+  {
+    "t_start": 718.69,
+    "t_end": 722.26,
+    "text": "that vector is what's giving you the straight uphill direction."
+  },
+  {
+    "t_start": 722.86,
+    "t_end": 727.355,
+    "text": "But another way to read that is to say that changes to this first variable have 3"
+  },
+  {
+    "t_start": 727.355,
+    "t_end": 730.463,
+    "text": "times the importance as changes to the second variable,"
+  },
+  {
+    "t_start": 730.463,
+    "t_end": 733.626,
+    "text": "that at least in the neighborhood of the relevant input,"
+  },
+  {
+    "t_start": 733.626,
+    "t_end": 736.9,
+    "text": "nudging the x-value carries a lot more bang for your buck."
+  },
+  {
+    "t_start": 739.88,
+    "t_end": 742.34,
+    "text": "Let's zoom out and sum up where we are so far."
+  },
+  {
+    "t_start": 742.84,
+    "t_end": 747.147,
+    "text": "The network itself is this function with 784 inputs and 10 outputs,"
+  },
+  {
+    "t_start": 747.147,
+    "t_end": 750.04,
+    "text": "defined in terms of all these weighted sums."
+  },
+  {
+    "t_start": 750.64,
+    "t_end": 753.68,
+    "text": "The cost function is a layer of complexity on top of that."
+  },
+  {
+    "t_start": 753.98,
+    "t_end": 757.85,
+    "text": "It takes the 13,000 weights and biases as inputs and spits out"
+  },
+  {
+    "t_start": 757.85,
+    "t_end": 761.72,
+    "text": "a single measure of lousiness based on the training examples."
+  },
+  {
+    "t_start": 762.44,
+    "t_end": 766.9,
+    "text": "And the gradient of the cost function is one more layer of complexity still."
+  },
+  {
+    "t_start": 767.36,
+    "t_end": 770.796,
+    "text": "It tells us what nudges to all these weights and biases cause the"
+  },
+  {
+    "t_start": 770.796,
+    "t_end": 773.439,
+    "text": "fastest change to the value of the cost function,"
+  },
+  {
+    "t_start": 773.439,
+    "t_end": 777.88,
+    "text": "which you might interpret as saying which changes to which weights matter the most."
+  },
+  {
+    "t_start": 782.56,
+    "t_end": 786.089,
+    "text": "So, when you initialize the network with random weights and biases,"
+  },
+  {
+    "t_start": 786.089,
+    "t_end": 789.618,
+    "text": "and adjust them many times based on this gradient descent process,"
+  },
+  {
+    "t_start": 789.618,
+    "t_end": 793.2,
+    "text": "how well does it actually perform on images it's never seen before?"
+  },
+  {
+    "t_start": 794.1,
+    "t_end": 798.961,
+    "text": "The one I've described here, with the two hidden layers of 16 neurons each,"
+  },
+  {
+    "t_start": 798.961,
+    "t_end": 802.136,
+    "text": "chosen mostly for aesthetic reasons, is not bad,"
+  },
+  {
+    "t_start": 802.136,
+    "t_end": 805.96,
+    "text": "classifying about 96% of the new images it sees correctly."
+  },
+  {
+    "t_start": 806.68,
+    "t_end": 810.164,
+    "text": "And honestly, if you look at some of the examples it messes up on,"
+  },
+  {
+    "t_start": 810.164,
+    "t_end": 812.54,
+    "text": "you feel compelled to cut it a little slack."
+  },
+  {
+    "t_start": 816.22,
+    "t_end": 820.324,
+    "text": "Now if you play around with the hidden layer structure and make a couple tweaks,"
+  },
+  {
+    "t_start": 820.324,
+    "t_end": 821.76,
+    "text": "you can get this up to 98%."
+  },
+  {
+    "t_start": 821.76,
+    "t_end": 822.72,
+    "text": "And that's pretty good!"
+  },
+  {
+    "t_start": 823.02,
+    "t_end": 827.851,
+    "text": "It's not the best, you can certainly get better performance by getting more sophisticated"
+  },
+  {
+    "t_start": 827.851,
+    "t_end": 832.03,
+    "text": "than this plain vanilla network, but given how daunting the initial task is,"
+  },
+  {
+    "t_start": 832.03,
+    "t_end": 836.698,
+    "text": "I think there's something incredible about any network doing this well on images it's"
+  },
+  {
+    "t_start": 836.698,
+    "t_end": 841.42,
+    "text": "never seen before, given that we never specifically told it what patterns to look for."
+  },
+  {
+    "t_start": 842.56,
+    "t_end": 846.881,
+    "text": "Originally, the way I motivated this structure was by describing a hope we might have,"
+  },
+  {
+    "t_start": 846.881,
+    "t_end": 849.543,
+    "text": "that the second layer might pick up on little edges,"
+  },
+  {
+    "t_start": 849.543,
+    "t_end": 853.211,
+    "text": "that the third layer would piece together those edges to recognize loops"
+  },
+  {
+    "t_start": 853.211,
+    "t_end": 857.18,
+    "text": "and longer lines, and that those might be pieced together to recognize digits."
+  },
+  {
+    "t_start": 857.96,
+    "t_end": 860.4,
+    "text": "So is this what our network is actually doing?"
+  },
+  {
+    "t_start": 861.08,
+    "t_end": 864.4,
+    "text": "Well, for this one at least, not at all."
+  },
+  {
+    "t_start": 864.82,
+    "t_end": 868.917,
+    "text": "Remember how last video we looked at how the weights of the connections from all"
+  },
+  {
+    "t_start": 868.917,
+    "t_end": 872.809,
+    "text": "the neurons in the first layer to a given neuron in the second layer can be"
+  },
+  {
+    "t_start": 872.809,
+    "t_end": 877.06,
+    "text": "visualized as a given pixel pattern that the second layer neuron is picking up on?"
+  },
+  {
+    "t_start": 877.78,
+    "t_end": 882.622,
+    "text": "Well, when we actually do that for the weights associated with these transitions,"
+  },
+  {
+    "t_start": 882.622,
+    "t_end": 887.762,
+    "text": "from the first layer to the next, instead of picking up on isolated little edges here"
+  },
+  {
+    "t_start": 887.762,
+    "t_end": 892.843,
+    "text": "and there, they look, well, almost random, just with some very loose patterns in the"
+  },
+  {
+    "t_start": 892.843,
+    "t_end": 893.68,
+    "text": "middle there."
+  },
+  {
+    "t_start": 893.76,
+    "t_end": 897.616,
+    "text": "It would seem that in the unfathomably large 13,000 dimensional space"
+  },
+  {
+    "t_start": 897.616,
+    "t_end": 901.248,
+    "text": "of possible weights and biases, our network found itself a happy"
+  },
+  {
+    "t_start": 901.248,
+    "t_end": 905.328,
+    "text": "little local minimum that, despite successfully classifying most images,"
+  },
+  {
+    "t_start": 905.328,
+    "t_end": 908.96,
+    "text": "doesn't exactly pick up on the patterns we might have hoped for."
+  },
+  {
+    "t_start": 909.78,
+    "t_end": 913.82,
+    "text": "And to really drive this point home, watch what happens when you input a random image."
+  },
+  {
+    "t_start": 914.32,
+    "t_end": 918.326,
+    "text": "If the system was smart, you might expect it to feel uncertain,"
+  },
+  {
+    "t_start": 918.326,
+    "t_end": 923.286,
+    "text": "maybe not really activating any of those 10 output neurons or activating them"
+  },
+  {
+    "t_start": 923.286,
+    "t_end": 927.801,
+    "text": "all evenly, but instead it confidently gives you some nonsense answer,"
+  },
+  {
+    "t_start": 927.801,
+    "t_end": 932.825,
+    "text": "as if it feels as sure that this random noise is a 5 as it does that an actual"
+  },
+  {
+    "t_start": 932.825,
+    "t_end": 934.16,
+    "text": "image of a 5 is a 5."
+  },
+  {
+    "t_start": 934.54,
+    "t_end": 938.818,
+    "text": "Phrased differently, even if this network can recognize digits pretty well,"
+  },
+  {
+    "t_start": 938.818,
+    "t_end": 940.7,
+    "text": "it has no idea how to draw them."
+  },
+  {
+    "t_start": 941.42,
+    "t_end": 945.24,
+    "text": "A lot of this is because it's such a tightly constrained training setup."
+  },
+  {
+    "t_start": 945.88,
+    "t_end": 947.74,
+    "text": "I mean, put yourself in the network's shoes here."
+  },
+  {
+    "t_start": 948.14,
+    "t_end": 952.378,
+    "text": "From its point of view, the entire universe consists of nothing but clearly"
+  },
+  {
+    "t_start": 952.378,
+    "t_end": 955.147,
+    "text": "defined unmoving digits centered in a tiny grid,"
+  },
+  {
+    "t_start": 955.147,
+    "t_end": 959.498,
+    "text": "and its cost function never gave it any incentive to be anything but utterly"
+  },
+  {
+    "t_start": 959.498,
+    "t_end": 961.08,
+    "text": "confident in its decisions."
+  },
+  {
+    "t_start": 962.12,
+    "t_end": 965.373,
+    "text": "So with this as the image of what those second layer neurons are really doing,"
+  },
+  {
+    "t_start": 965.373,
+    "t_end": 967.918,
+    "text": "you might wonder why I would introduce this network with the"
+  },
+  {
+    "t_start": 967.918,
+    "t_end": 969.92,
+    "text": "motivation of picking up on edges and patterns."
+  },
+  {
+    "t_start": 969.92,
+    "t_end": 972.3,
+    "text": "I mean, that's just not at all what it ends up doing."
+  },
+  {
+    "t_start": 973.38,
+    "t_end": 977.18,
+    "text": "Well, this is not meant to be our end goal, but instead a starting point."
+  },
+  {
+    "t_start": 977.64,
+    "t_end": 981.417,
+    "text": "Frankly, this is old technology, the kind researched in the 80s and 90s,"
+  },
+  {
+    "t_start": 981.417,
+    "t_end": 985.613,
+    "text": "and you do need to understand it before you can understand more detailed modern"
+  },
+  {
+    "t_start": 985.613,
+    "t_end": 989.495,
+    "text": "variants, and it clearly is capable of solving some interesting problems,"
+  },
+  {
+    "t_start": 989.495,
+    "t_end": 993.114,
+    "text": "but the more you dig into what those hidden layers are really doing,"
+  },
+  {
+    "t_start": 993.114,
+    "t_end": 994.74,
+    "text": "the less intelligent it seems."
+  },
+  {
+    "t_start": 998.48,
+    "t_end": 1002.337,
+    "text": "Shifting the focus for a moment from how networks learn to how you learn,"
+  },
+  {
+    "t_start": 1002.337,
+    "t_end": 1006.3,
+    "text": "that'll only happen if you engage actively with the material here somehow."
+  },
+  {
+    "t_start": 1007.06,
+    "t_end": 1011.705,
+    "text": "One pretty simple thing I want you to do is just pause right now and think deeply"
+  },
+  {
+    "t_start": 1011.705,
+    "t_end": 1016.464,
+    "text": "for a moment about what changes you might make to this system and how it perceives"
+  },
+  {
+    "t_start": 1016.464,
+    "t_end": 1020.88,
+    "text": "images if you wanted it to better pick up on things like edges and patterns."
+  },
+  {
+    "t_start": 1021.48,
+    "t_end": 1024.602,
+    "text": "But better than that, to actually engage with the material,"
+  },
+  {
+    "t_start": 1024.602,
+    "t_end": 1029.1,
+    "text": "I highly recommend the book by Michael Nielsen on deep learning and neural networks."
+  },
+  {
+    "t_start": 1029.68,
+    "t_end": 1034.02,
+    "text": "In it, you can find the code and the data to download and play with for this exact"
+  },
+  {
+    "t_start": 1034.02,
+    "t_end": 1038.36,
+    "text": "example, and the book will walk you through step by step what that code is doing."
+  },
+  {
+    "t_start": 1039.3,
+    "t_end": 1042.447,
+    "text": "What's awesome is that this book is free and publicly available,"
+  },
+  {
+    "t_start": 1042.447,
+    "t_end": 1046.726,
+    "text": "so if you do get something out of it, consider joining me in making a donation towards"
+  },
+  {
+    "t_start": 1046.726,
+    "t_end": 1047.66,
+    "text": "Nielsen's efforts."
+  },
+  {
+    "t_start": 1047.66,
+    "t_end": 1051.625,
+    "text": "I've also linked a couple other resources I like a lot in the description,"
+  },
+  {
+    "t_start": 1051.625,
+    "t_end": 1056.018,
+    "text": "including the phenomenal and beautiful blog post by Chris Ola and the articles in"
+  },
+  {
+    "t_start": 1056.018,
+    "t_end": 1056.5,
+    "text": "Distill."
+  },
+  {
+    "t_start": 1058.28,
+    "t_end": 1060.52,
+    "text": "To close things off here for the last few minutes,"
+  },
+  {
+    "t_start": 1060.52,
+    "t_end": 1063.88,
+    "text": "I want to jump back into a snippet of the interview I had with Leisha Lee."
+  },
+  {
+    "t_start": 1064.3,
+    "t_end": 1067.72,
+    "text": "You might remember her from the last video, she did her PhD work in deep learning."
+  },
+  {
+    "t_start": 1068.3,
+    "t_end": 1072.016,
+    "text": "In this little snippet she talks about two recent papers that really dig into"
+  },
+  {
+    "t_start": 1072.016,
+    "t_end": 1075.78,
+    "text": "how some of the more modern image recognition networks are actually learning."
+  },
+  {
+    "t_start": 1076.12,
+    "t_end": 1078.462,
+    "text": "Just to set up where we were in the conversation,"
+  },
+  {
+    "t_start": 1078.462,
+    "t_end": 1082.621,
+    "text": "the first paper took one of these particularly deep neural networks that's really good"
+  },
+  {
+    "t_start": 1082.621,
+    "t_end": 1086.445,
+    "text": "at image recognition, and instead of training it on a properly labeled dataset,"
+  },
+  {
+    "t_start": 1086.445,
+    "t_end": 1088.74,
+    "text": "shuffled all the labels around before training."
+  },
+  {
+    "t_start": 1089.48,
+    "t_end": 1093.315,
+    "text": "Obviously the testing accuracy here was going to be no better than random,"
+  },
+  {
+    "t_start": 1093.315,
+    "t_end": 1097.201,
+    "text": "since everything's just randomly labeled. But it was still able to achieve"
+  },
+  {
+    "t_start": 1097.201,
+    "t_end": 1100.88,
+    "text": "the same training accuracy as you would on a properly labeled dataset."
+  },
+  {
+    "t_start": 1101.6,
+    "t_end": 1105.259,
+    "text": "Basically, the millions of weights for this particular network were"
+  },
+  {
+    "t_start": 1105.259,
+    "t_end": 1107.88,
+    "text": "enough for it to just memorize the random data,"
+  },
+  {
+    "t_start": 1107.88,
+    "t_end": 1111.594,
+    "text": "which raises the question for whether minimizing this cost function"
+  },
+  {
+    "t_start": 1111.594,
+    "t_end": 1116.4,
+    "text": "actually corresponds to any sort of structure in the image, or is it just memorization?"
+  },
+  {
+    "t_start": 1131.44,
+    "t_end": 1134.397,
+    "text": "...to memorize the entire dataset of what the correct classification is."
+  },
+  {
+    "t_start": 1134.397,
+    "t_end": 1137.765,
+    "text": "And so half a year later at ICML this year, there was not exactly rebuttal paper,"
+  },
+  {
+    "t_start": 1137.765,
+    "t_end": 1139.901,
+    "text": "but paper that addressed some aspects of like, hey,"
+  },
+  {
+    "t_start": 1139.901,
+    "t_end": 1143.022,
+    "text": "actually these networks are doing something a little bit smarter than that."
+  },
+  {
+    "t_start": 1143.022,
+    "t_end": 1146.431,
+    "text": "If you look at that accuracy curve if you were just training on a random data set"
+  },
+  {
+    "t_start": 1146.431,
+    "t_end": 1148.977,
+    "text": "that curve went down very slowly, almost in a linear fashion."
+  },
+  {
+    "t_start": 1148.977,
+    "t_end": 1152.14,
+    "text": "So you\u2019re really struggling to find that local minimum of the right weights."
+  },
+  {
+    "t_start": 1152.24,
+    "t_end": 1155.765,
+    "text": "Whereas if you're actually training on a structured dataset,"
+  },
+  {
+    "t_start": 1155.765,
+    "t_end": 1160.465,
+    "text": "one that has the right labels, you fiddle around a little bit in the beginning,"
+  },
+  {
+    "t_start": 1160.465,
+    "t_end": 1164.577,
+    "text": "but then you kind of dropped very fast to get to that accuracy level,"
+  },
+  {
+    "t_start": 1164.577,
+    "t_end": 1168.22,
+    "text": "and so in some sense it was easier to find that local maxima."
+  },
+  {
+    "t_start": 1168.54,
+    "t_end": 1173.556,
+    "text": "And so what was also interesting about that is it brings into light another paper from"
+  },
+  {
+    "t_start": 1173.556,
+    "t_end": 1178.63,
+    "text": "actually a couple of years ago, which has a lot more simplifications about the network"
+  },
+  {
+    "t_start": 1178.63,
+    "t_end": 1183.821,
+    "text": "layers, but one of the results was saying how if you look at the optimization landscape,"
+  },
+  {
+    "t_start": 1183.821,
+    "t_end": 1188.604,
+    "text": "the local minima that these networks tend to learn are actually of equal quality,"
+  },
+  {
+    "t_start": 1188.604,
+    "t_end": 1191.404,
+    "text": "so in some sense if your dataset is structured,"
+  },
+  {
+    "t_start": 1191.404,
+    "t_end": 1194.32,
+    "text": "you should be able to find that much more easily."
+  },
+  {
+    "t_start": 1198.16,
+    "t_end": 1201.18,
+    "text": "My thanks, as always, to those of you supporting on Patreon."
+  },
+  {
+    "t_start": 1201.52,
+    "t_end": 1204.019,
+    "text": "I've said before just what a game changer Patreon is,"
+  },
+  {
+    "t_start": 1204.019,
+    "t_end": 1206.8,
+    "text": "but these videos really would not be possible without you."
+  },
+  {
+    "t_start": 1207.46,
+    "t_end": 1210.12,
+    "text": "I also want to give a special thanks to the VC firm Amplify Partners"
+  },
+  {
+    "t_start": 1210.12,
+    "t_end": 1212.78,
+    "text": "and their support of these initial videos in the series. Thank you."
+  }
+]

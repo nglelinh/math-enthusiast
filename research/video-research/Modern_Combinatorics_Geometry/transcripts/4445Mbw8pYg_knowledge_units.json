@@ -1,0 +1,107 @@
+[
+  {
+    "id": "ku_video_4445Mbw8pYg_0",
+    "t_start": 0.1,
+    "t_end": 92.1,
+    "type": "overview",
+    "summary": "One of my favorite unsolved problems in mathematics. Maybe it's best to start with Euler's formula. Euler's formula tells something about triangulated spheres. So maybe I have to tell you what a triangulated sphere is. Well, intuitively it is a sphere but it is made combinatorial, so that every face is a triangle. So you want to attach bunch of triangles in such a way that the entire shape is essentially identical to a sphere. You can continuously move it to form it, make it round. So maybe the easiest example is a simplex. So a simplex has four vertices 1, 2, 3, 4. And if you just look at …"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_92",
+    "t_start": 92.5,
+    "t_end": 187.0,
+    "type": "overview",
+    "summary": "say the 2-dimensional spheres, as, as we are considering now. And if you first count the number of vertices, so if I do the tetrahedron I see four vertices: 1, 2, 3, 4. And then I'm going to count the edges: 1, 2, 3, 4, 5, 6. And then I count the triangles, there are 4 triangles in a tetrahedron, so I'm counting 0 dimensional faces, 1 dimensional faces, and 2 dimensional faces. So let me call them f0 and f1 and f2. And what Euler did was to compute the alternating sum, f0 minus f1 plus f2. Which is, in our case, four minus six plus four, which is equal to two. So let me do the same computat…"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_187",
+    "t_start": 187.0,
+    "t_end": 280.8,
+    "type": "overview",
+    "summary": "instead of two-dimensional spheres. And certainly you can triangulate them and there are infinitely many different ways of triangulating them. And you can do the same. Now you have four numbers to think about instead of three; you have vertices, edges, triangles, and many many tetrahedrons. So the triangulated spheres in the next dimension will be a way to make a sphere by gluing together many of the tetrahedrons. The next dimension is always hard to imagine, so before making the correct guess let's, let's go to even a lower dimension. So that was the picture for two dimensional spheres. Bu…"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_280",
+    "t_start": 280.8,
+    "t_end": 373.0,
+    "type": "overview",
+    "summary": "if you have used 7 vertices you are forced to use 7 edges too, because you want the entire thing to be a 1-dimensional sphere, which is a circle. So it - Euler's relation in one dimension is simply saying that f0 minus f1 is 0. So let's go even lower. (Brady: Even lower? Alright?) Yes, and think about zero dimensional spheres. So this is a little bit tricky if you have never thought about zero dimensional spheres; but what is really a sphere? A sphere is supposed to be the, something that lives in our space which consists of all points that are of the same distance from the origin, or whate…"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_374",
+    "t_start": 374.0,
+    "t_end": 467.3,
+    "type": "overview",
+    "summary": "(Brady: What is it gonna- should I guess?) Yeah, you should guess. (Brady: I'm gonn- is this gonna oscillate? Is it gonna go back to zero?) - Yes, that is a correct guess. And in fact, although it's hard to imagine 3-dimensional spheres, for this particular problem we can actually test it for our favourite triangulated 3-spheres. Because there is a higher dimensional analog of the tetrahedron, so there is called a simplex and there is a simplex in any dimension. then you get the tetrahedron. And analogously if you take five general points in 4-dimensional space then you will get a simplex. …"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_468",
+    "t_start": 468.1,
+    "t_end": 561.7,
+    "type": "overview",
+    "summary": "collection of the five points will form a tetrahedral face of that simplex. So we can compute these numbers F: so f0 is 5, and f1 will be 5 choose 2, as one of the binomial coefficients, which is 10. next entry in Pascal's triangle. And f3 will be 5 choose 4, which is 5. So, let's test our prediction. If you start from 5, subtract 10, add 10, subtract 5 - then you get zero. (Brady: It alternated like we said!) That's right. And you can imagine how it would work. And the amazing fact is that something like this happens for all triangulated spheres in any dimension. You just see whether you'r…"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_563",
+    "t_start": 563.0,
+    "t_end": 652.9,
+    "type": "overview",
+    "summary": "which took many many years for mathematicians to rigorously justify; but we know now as a fact that no matter how you triangulate a sphere you always get either 0 or 2. That was great, but you may not like this alternating pattern 0, 2, 0, 2, 0,2. But there is another way of expressing this pattern that does not care about the parity of the dimension. And this is our starting point. So let me express the Euler characteristic in another way. So for example let me start from our octahedron example. 6 vertices, twelve edges, and eight triangles in the octahedron. And what I'm going to do next …"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_653",
+    "t_start": 653.6,
+    "t_end": 744.4,
+    "type": "overview",
+    "summary": "And then I look at 5 and 12 and subtract 5 from 12. I have a 7 here. I do the same, I get 3, I get 3, and I get 1. This sequence, which you get in the end of this process, is called the H vector of the triangulated sphere. And as you see there's a, some pattern here. It is palindromic, it's 1 3 3 1, but if you read it from the other direction is again 1 3 3 1. And this was the case for the octahedron. So let's try to see whether this was an accident or not. So let's maybe try the icosahedron. 12 vertices, 30 edges, 20 triangles. I'll attach a string of 1s on the other side of the triangle a…"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_746",
+    "t_start": 746.6,
+    "t_end": 838.7,
+    "type": "overview",
+    "summary": "So the first one served up, this is built-in, I just wrote down one here. But the fact that one appeared in the last spot was a miracle, sort of. But what was happening? So I started with f0 and f1 and f2, and how did I get 1 in here? I subtract one from f0, and I subtracted f0 minus 1 from f1, and I subtracted this from that. And the assertion is that this is equal to 1. So if I write the same thing again, it is what we have seen before. The Euler's formula. At least for 2-dimensional spheres, Euler's formula is part of a broader pattern, which says that you have this palindromic sequence …"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_839",
+    "t_start": 839.7,
+    "t_end": 931.0,
+    "type": "overview",
+    "summary": "simplex with 5 vertices in 4-space. And we already have computed the number of faces. It had 5 vertices, 10 edges, 10 triangles, and 5 tetrahedrons. And again I add a long string of 1s on the other side. And I do the subtraction. I subtract 1 from 5, subtract 1 from 4, subtract 4 from 10, and continue. And this is what I get: 1 1 1 1 1. There's a palindromic sequence of a very special kind. That's just do, oh, maybe one or two more examples, just to make sure that the pattern we are seeing here is not an accident. So maybe let's do a higher dimensional version of the octahedron. Number of v…"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_930",
+    "t_start": 931.0,
+    "t_end": 1025.6,
+    "type": "overview",
+    "summary": "11, 15, 4, 6, 4, 1. And that's my end result. In this sequence, that you see,  is what is known as the H vector of th- this particular triangulated sphere. But if you think about at least very small part of the symmetry, which predicts that the last entry in your H vector should be 1, then again, it is the Euler's formula for this 3-dimensional sphere. Because think about how you got this 1, starting from the original data. You have your f0, you have your f0 minus 1; and this number is f1 minus f0 plus 1, this number is f2 minus f1 plus f0 minus 1, and this number here is f3 minus f2 plus f…"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_1025",
+    "t_start": 1025.8,
+    "t_end": 1119.5,
+    "type": "overview",
+    "summary": "Euler's formula really just says that in any dimension the last entry of this triangle that you see should be 1. Which is just a very tiny part of the entire symmetry. It's highly non obvious, but in a certain sense it's a natural symmetry. So the other numbers are also interesting, and they are numbers of some higher dimensional space; which is not a sphere, but is constructed from a sphere. And the fact that the sequence is palindromic, for example this 4 here is equal to the other 4 that you see, gives you another formula on the number of faces of various dimensions, which is different f…"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_1119",
+    "t_start": 1119.5,
+    "t_end": 1212.2,
+    "type": "overview",
+    "summary": "they are called the F vector because we usually call f0, f1, f2, f3, f4 the face. (Brady: And so why- and where do we jump to H?) - Well, there is something called the G vector too. And it is really essentially related to the unsolved problem that I promised you to introduce. So this is a fact. We know several different ways of justifying the fact that this H vector is palindromic in whatever dimension for whatever triangulated sphere that you start with - if you produce H vector in terms of the number of bases then you always see this symmetry. But from all these examples that we have exec…"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_1213",
+    "t_start": 1213.5,
+    "t_end": 1304.5,
+    "type": "overview",
+    "summary": "17 many of them. Then you will see the stem somewhere in the relation, which says that your sequence is palindromic. But another pattern that you must see is that it has a single mode in the middle. This happens to be true for all the examples that we and all other mathematicians in the world have tried, but nobody knows how to justify this. And this is the unsolved problem that I have tried to explain you, and it goes under the name the g-conjecture. - (Brady: The g-conjecture?) So G was the missing letter, and G is is the difference of the h's. 2 successive h's. So the G here would be 3, …"
+  },
+  {
+    "id": "ku_video_4445Mbw8pYg_1304",
+    "t_start": 1304.5,
+    "t_end": 1328.7,
+    "type": "overview",
+    "summary": "right now, in explicit examples. So whenever you come up with a new way to triangulate a sphere, you have your chance to disprove this conjecture. [Preview] There- another reason why I love this conjecture is that not only is very elementary and concrete, it actually predicts a very deep analog with several different parts of mathematics."
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ku_video_hwOCqA9Xw6A_0",
+    "t_start": 0.0,
+    "t_end": 90.8,
+    "type": "overview",
+    "summary": "Ricci flow when it was invented by Hamilton in the early 80s nobody would have paid much attention to it except mathematicians. What happened is 20 years later, you know, Hamilton and others, including me, were working on this and trying to prove this so-called Poincaré conjecture and also something a bit more inclusive called the Geometrization conjecture. It was going okay but there was some big roadblocks. What got people's attention is in in the year 2002 this fellow called Perelman, who is famous as much for his eccentricities as as his math, was able to actually prove these important …"
+  },
+  {
+    "id": "ku_video_hwOCqA9Xw6A_90",
+    "t_start": 90.8,
+    "t_end": 181.5,
+    "type": "overview",
+    "summary": "you were driving along there how much how much you'd have to be turning your wheel on the car, it's also sort of the circle that's closest to matching it there. Here there's a small circle, here there's a very large circle and the curvature is sort of 1 over the radius of that circle. Here the circle is very small and so the curvature is very large so the amount- the speed that this point is going to move is going to be very fast and it's going to be moving in this direction quite fast. Here, because the curvature is much smaller you're going to be moving in this direction but it's going to…"
+  },
+  {
+    "id": "ku_video_hwOCqA9Xw6A_181",
+    "t_start": 181.5,
+    "t_end": 271.9,
+    "type": "overview",
+    "summary": "curvature's supposed to be around the same. So you're going to get: this is what it is at time T is equal to now, at time T is equal to say five seconds later it'll be smaller like that and then it's just going to get smaller and smaller. But sometimes, because we don't like to have these things run away from us we'll change the flow a little bit and say let's flow in such a way that the total area inside doesn't change. So if that were the case, if you started with a big circle it would just stay the same. But if you start with something like that or something that has a lot of like- so th…"
+  },
+  {
+    "id": "ku_video_hwOCqA9Xw6A_271",
+    "t_start": 271.9,
+    "t_end": 363.3,
+    "type": "overview",
+    "summary": "And when it when it gets to be very very small the curvature remember is sort of 1 over the radius of the circle, so here the curvature is getting arbitrarily big, so it forms what's called a singularity and it stops- it stops changing. But you could look at something like this: say you have something which has lots and lots of really screwy little things like that and you can say maybe this'll- maybe some of these things will join up, what will ultimately happen? In this simple case what will happen is it will always become a circle after enough time. But if we look at it sort of the next …"
+  },
+  {
+    "id": "ku_video_hwOCqA9Xw6A_363",
+    "t_start": 363.3,
+    "t_end": 455.0,
+    "type": "overview",
+    "summary": "curve shortening flow except now we're moving this two-dimensional surface. And because- and we're going to be mov- the the notion of curvature is is is quite a bit more complicated when you have a higher dimensional- a higher dimensional surface, but it's moved according to what's called the mean curvature which is sort of the average of the curvature in this direction and that direction. The flow - and remember we have this word flow which is telling how is this two-dimensional surface, this this sort of half deflated beach ball, how is it going to move in space? And before when we were t…"
+  },
+  {
+    "id": "ku_video_hwOCqA9Xw6A_455",
+    "t_start": 455.0,
+    "t_end": 545.6,
+    "type": "overview",
+    "summary": "corsets anymore I don't think but anyway- (That's 3D though?) - This is 3D, so think of this as, so this is 3D, think of this the surface as as taking that that beach ball- - (It's like an hourglass?) Like an hourglass, very good, like an hourglass. So what's going to happen here for reasons that are I think a little tricky to explain; but right here where you have a lot of curvature in certain directions, this thing instead of becoming round this whole thing is going to shrink off and it's going to - as we go in time - this is going to basically go down to the radius around here is going t…"
+  },
+  {
+    "id": "ku_video_hwOCqA9Xw6A_545",
+    "t_start": 545.6,
+    "t_end": 636.3,
+    "type": "overview",
+    "summary": "flow, in Perelman's use of Ricci flow to prove the Poincaré conjecture, is figure out how do I quarantine these singularities for me? How do I cut this thing off so to put a little bandage around it? They call it surgery and surgery off the bad place and continue the flow elsewhere. So can we get rid of that stuff? And that's- you can think of that as a fairly arbitrary thing but you have to do it very cleverly if you want to learn things about the nature of the relationship of topology which is kinds of surfaces and curvature which is about how how round and how curved- you know how pointy…"
+  },
+  {
+    "id": "ku_video_hwOCqA9Xw6A_636",
+    "t_start": 636.3,
+    "t_end": 726.4,
+    "type": "overview",
+    "summary": "a 3-dimensional thing or even a 2-dimensional thing in 4 dimensional space. Ricci flow is very different. Now the object you're looking at is not sitting inside a space, you're not moving the object. So maybe I'll try to explain now. With the curve shortening flow and the mean curvature flow we were taking an object, be it a path or the surface of a ball, I mean surface of a deformed ball, and we're moving that in the empty space. Ricci flow you're doing something very different. You're dealing with something called Riemannian geometry. Just think, so I'm going to have to go back - how do I…"
+  },
+  {
+    "id": "ku_video_hwOCqA9Xw6A_726",
+    "t_start": 726.4,
+    "t_end": 819.0,
+    "type": "overview",
+    "summary": "square array of numbers and these numbers, and this is called the metric, these numbers tell in an abstract way what kind of information would you like to know. One thing you would like to know is if you're starting at a point here and you're going to a point there what's the shortest possible path between them? You can take any point on Earth and then another point and find the great circle route between them. And they tend to be just sort of almost straight paths. But say you're in a mountain range and you want to get from the top of one mountain to another, this is a very curvy place and…"
+  },
+  {
+    "id": "ku_video_hwOCqA9Xw6A_818",
+    "t_start": 819.0,
+    "t_end": 881.2,
+    "type": "overview",
+    "summary": "interesting holes in a topology. But if you have- now this wouldn't work in 2 dimensions, in 2 dimensions it's always going to become as round as possible. But if you go to higher dimensions, when you have a lot of curvature in some place it's going to tend to- the flow is going to tend to hit a singularity where the curvature gets arbitrarily big. Understanding how to work with the curvature was very important in Perelman's proof of the Poincaré conjecture and the geometrization conjecture using Ricci flow. If you'd like to see and hear a bit more about the Poincaré conjecture there will b…"
+  }
+]

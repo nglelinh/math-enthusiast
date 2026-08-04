@@ -1,0 +1,722 @@
+good afternoon let me welcome you to the second event in the four-color fest let
+second event in the four-color fest let me remind you after after today's
+lecture there is a reception from 5:00 to 7:00 in Atlas Campbell Alumni Center
+to 7:00 in Atlas Campbell Alumni Center which is the building directly behind
+which is the building directly behind this one you can't miss it
+this one you can't miss it and the events tomorrow are the igl lab
+and the events tomorrow are the igl lab will also be in the same in that place
+from 10:00 to 12:00 and the concert a portrait in four colors which will
+portrait in four colors which will feature an original composition by
+feature an original composition by rudolf Hakan and a virtuoso display of
+rudolf Hakan and a virtuoso display of the how can configure board continuum so
+the how can configure board continuum so it's a great pleasure today to introduce
+it's a great pleasure today to introduce our speaker Andrew Appel who's Eugene
+our speaker Andrew Appel who's Eugene Higgins professor of computer science at
+Higgins professor of computer science at Princeton University he was chairman of
+Princeton University he was chairman of the department from 9 2009 to 2015 he is
+Computing Machinery he's the author of several books such as modern compiler
+several books such as modern compiler implementation in ml I found out what ml
+implementation in ml I found out what ml is today he's the author of over 120
+is today he's the author of over 120 papers he has had 21 PhD students his
+papers he has had 21 PhD students his main interests are software verification
+main interests are software verification and machine proofs computer security and
+and machine proofs computer security and technology policy he's also he's well
+technology policy he's also he's well known in the latter category if his work
+on the security of voting machines I understand I understand that progress is
+understand I understand that progress is being made in the New Jersey Legislature
+and today he will talk about graph coloring and machine proofs
+or can it really be a proof if you can't check it by machine and I'll start with
+check it by machine and I'll start with Alfred B Kemp who you heard about
+Alfred B Kemp who you heard about yesterday in 1876 he proved Kemp's
+yesterday in 1876 he proved Kemp's universality theorem so here's a linkage
+universality theorem so here's a linkage system it's got some things pivoted to
+system it's got some things pivoted to the plane and other rigid bars pivoted
+the plane and other rigid bars pivoted to each other and here it shows that one
+of these pivots is tracing out a straight line segment right so from only
+straight line segment right so from only pivots you can get straight lines and he
+proved that any algebraic curve can be drawn by one of these pivot systems
+drawn by one of these pivot systems except that his proof was invalid so it
+except that his proof was invalid so it was proved a hundred and you know
+was proved a hundred and you know twenty-eight later it's 26 years later
+by Popovich and Milson that's not your professor kovitch that's the brother of
+professor kovitch that's the brother of your professor Kapp of itch okay
+so no problem he moved on to prove the four-color theorem that any map can be
+four-color theorem that any map can be colored with no more than four colors
+colored with no more than four colors here I draw the maps in the sort of
+here I draw the maps in the sort of graph theory style where you color the
+graph theory style where you color the nodes and there are interference edges
+so but of course there was a bug in that proof too that was found as Robin Wilson
+proof too that was found as Robin Wilson explained to yesterday by Percy Haywood
+explained to yesterday by Percy Haywood so let me talk about Alfred Kemp's graph
+coloring result because it actually continues to have importance in computer
+continues to have importance in computer science today and here's a theorem every
+science today and here's a theorem every planar graph has at least one node of
+planar graph has at least one node of degree less than six
+that's provable from Euler's formula about the number of vertices and the
+number of edges and the number of faces in a graph so the average degree of the
+must be some node of degree 5 or less and if you remove one node from a planar
+and if you remove one node from a planar graph the result is a planar graph
+graph the result is a planar graph because you're only taking away stuff
+because you're only taking away stuff and this leads to an algorithm for
+and this leads to an algorithm for coloring graphs so here's how do you six
+coloring graphs so here's how do you six color a planar graph every planar graph
+color a planar graph every planar graph has at least one vertex of degree less
+than or equal to five and remove this vertex color the rest of the gray
+vertex color the rest of the gray F recursively with a recursive call to
+F recursively with a recursive call to the same algorithm and then put the
+the same algorithm and then put the vertex back and when you put it back it
+vertices which use up at most five colors from your palette and so you can
+colors from your palette and so you can use the sixth color for this vertex so
+use the sixth color for this vertex so here's an example note C has degree less
+here's an example note C has degree less than six remove it now by induction
+than six remove it now by induction color the rest of the graph and then
+color the rest of the graph and then when we put node C back we can certainly
+when we put node C back we can certainly find a color because it's only adjacent
+to five other nodes so they can have at most five other colors between them and
+most five other colors between them and so we can use the sixth color to color
+so we can use the sixth color to color node C okay now so that was
+node C okay now so that was straightforward that's how to six color
+straightforward that's how to six color a planar graph here's kemp's for
+coloring algorithm so if you find a node of degree one or degree two or degree
+three you can use the algorithm I just showed you for a degree 4 you can use
+showed you for a degree 4 you can use the method of Kempe chains
+so here's oops there we are the method of Kempe chains suppose when you put
+node K back it's adjacent to nodes of four different colors so then take node
+four different colors so then take node D and recolor it red but that means you
+you have to color this one red and this one green and if it chains all the way
+one green and if it chains all the way back to node J and that didn't work but
+back to node J and that didn't work but if that happens then there can be no
+if that happens then there can be no chain of blue and yellow between G and B
+chain of blue and yellow between G and B so that's the Kempe chain argument and
+so that's the Kempe chain argument and it works just fine
+it works just fine so to prove the the four node case you
+use Kemp chains and then to prove the five node case it's very straightforward
+five node case it's very straightforward you just used a method of simultaneous
+you just used a method of simultaneous Kemp chains which is unsound as shown by
+Kemp chains which is unsound as shown by Haywood in 1890
+Haywood in 1890 okay so Kemp really did end up
+okay so Kemp really did end up successfully proving the six color
+theorem because that method works to six color graph and Haywood really showed in
+color graph and Haywood really showed in 1890 that five color theorem is sound
+1890 that five color theorem is sound but the four color theorem
+was not proved for a while and during the 20th century the method of
+the 20th century the method of unavoidable sets was developed so this
+unavoidable sets was developed so this history of unavoidable sets is from a
+paper by Appel and Haken submitted in 1974 and it's not my father's
+1974 and it's not my father's handwriting so it must be Wolfgang's I
+handwriting so it must be Wolfgang's I think and and it shows that Franklin had
+think and and it shows that Franklin had this unavoidable set so that set by
+this unavoidable set so that set by Franklin every planar graph must have
+one of those configurations in it and if you could find a way to somehow remove
+you could find a way to somehow remove the configuration color to the rest of
+thing then that would be a proof of the four color theorem but unfortunately not
+four color theorem but unfortunately not every configuration in Franklin's
+unavoidable set was reducible in that way and lebesgue had another unavoidable
+way and lebesgue had another unavoidable set in 1940 HISHE had an unavoidable set
+in 1969 with you know 25 configurations in it almost all of which were reducible
+and then in 1970 he had an unavoidable set of 8,000 configurations that look
+set of 8,000 configurations that look like they might be reducible right so so
+like they might be reducible right so so this was the progress up to 1970 that if
+you could find an unavoidable set of reducible configurations that would
+prove the four-color theorem and so he said well someday computers might be
+said well someday computers might be powerful enough to find an unavoidable
+powerful enough to find an unavoidable set of perhaps 10,000 reducible
+set of perhaps 10,000 reducible configurations okay so Kenneth Appel and
+configurations okay so Kenneth Appel and Wolfgang Haken in 1972 decided to
+Wolfgang Haken in 1972 decided to estimate how many configurations might
+estimate how many configurations might be in an unavoidable set of reducible
+configurations and in what year will future computers be fast enough to
+future computers be fast enough to calculate this and they concluded in
+calculate this and they concluded in this paper they submitted in 1974 that
+this paper they submitted in 1974 that it might be about 2000 configurations
+and the year in which computers would be powerful enough to do it well as 1972
+well okay so then they got to work and between 1974 and 1976 they calculated an
+between 1974 and 1976 they calculated an unavoidable set of approximately 2000
+unavoidable set of approximately 2000 configurations and the reducibility
+proof for each configuration is a case analysis on about two hundred thousand
+analysis on about two hundred thousand cases right so for a configuration of
+cases right so for a configuration of ring size fourteen as Robin Wilson
+ring size fourteen as Robin Wilson explained yesterday you need to sort of
+explained yesterday you need to sort of case analysis over fourteen quantified
+case analysis over fourteen quantified variables of four colors and it's you
+can't write that down by hand and you don't even want to print it out from a
+don't even want to print it out from a computer but you could have a computer
+computer but you could have a computer program which my father along with John
+program which my father along with John Koch a computer science graduate student
+Koch a computer science graduate student wrote in Fortran and IBM assembly
+wrote in Fortran and IBM assembly language that would check the two
+ninety of the nineteen hundred and thirty six configurations and a lot of
+thirty six configurations and a lot of the work was done my father used this
+the work was done my father used this teletype ASR thirty three terminal this
+teletype ASR thirty three terminal this is a electromechanical printing terminal
+is a electromechanical printing terminal connected by telephone from southeast
+connected by telephone from southeast Urbana to the University computer on
+Urbana to the University computer on campus it communicates with the central
+computer at the rate of a hundred and ten bits per second so if you're used to
+ten bits per second so if you're used to 50 megabits per second then just divided
+50 megabits per second then just divided by you know half a million or something
+by you know half a million or something and ok and it's very loud it was sitting
+and ok and it's very loud it was sitting right under my bedroom in my father's
+right under my bedroom in my father's study at all hours of the morning ok and
+study at all hours of the morning ok and you know in April Fool's Day of 1975
+you know in April Fool's Day of 1975 about halfway through that second
+about halfway through that second two-year period the mathematical games
+two-year period the mathematical games column in Scientific American had this
+column in Scientific American had this map by you know that Martin Gardner put
+in his mathematical games column and said well a five color map has been
+can't be colored with four colors and when that arrived in the house in the
+when that arrived in the house in the mail my father went down to his study
+and he did not come out until he had colored it okay
+colored it okay so in 1976 Appel and Haken completed the
+so in 1976 Appel and Haken completed the for the proof of the four color theorem
+for the proof of the four color theorem based on approximately 1900 of these
+based on approximately 1900 of these configurations and as Robin Wilson
+configurations and as Robin Wilson explained the dark dots indicate nodes
+explained the dark dots indicate nodes of degree 5 and the the simple vertices
+are nodes of degree 6 and the unshown edges are out to the ring and so on and
+so forth and there is a reducibility argument for any possible coloring of
+argument for any possible coloring of the ring the computer program could
+calculate that you could replace this configuration with a smaller one and
+then when you have to put it back you can recolor in such a way that you can
+can recolor in such a way that you can find colors for the nodes in the
+find colors for the nodes in the configuration and then famously the
+postage meter of the math department of the university of illinois advertised
+this big result on their postage meter back one first-class postage was 13
+back one first-class postage was 13 cents and Robin Wilson reported that the
+cents and Robin Wilson reported that the various Appel and Haken children spent
+various Appel and Haken children spent many hours proofreading the
+configurations with apologies to Robin Wilson he was misinformed it was only
+Wilson he was misinformed it was only two of the children
+Laurel Appel and Dorothea Hakan they did all of this work really the boys slacked
+all of this work really the boys slacked off and hardly did anything
+okay so what does it mean the computer printed out lists of numbers it didn't
+printed out lists of numbers it didn't have a graphic printer that could print
+have a graphic printer that could print out configurations like this so they had
+out configurations like this so they had to check that the list of numbers
+to check that the list of numbers correspond it to the configuration and
+correspond it to the configuration and that their configurations proved
+reducible correspond it to the configurations in unavoidable set and so
+configurations in unavoidable set and so Laurel Appel aged 13 and Dorothea Hakan
+a couple of years older spent months correcting typographical errors and
+bringing the more serious errors to the attention of their fathers and by around
+attention of their fathers and by around the middle of July the proof was
+completed and the the checking of the configurations was completed and the
+result was announced and then the mathematicians went around the country
+giving talks about the result and Armen Hakan who was in a graduate student at
+Hakan who was in a graduate student at Stanford gave a talk explaining how the
+Stanford gave a talk explaining how the result worked and you know people under
+result worked and you know people under 40 well the people over 40 couldn't
+40 well the people over 40 couldn't believe you could trust that some
+believe you could trust that some computer calculations could be a proof
+computer calculations could be a proof and the people under 40 couldn't trust
+the part that was 700 pages of hand calculations and lists of configurations
+history of the four-color theorem and it continued in 1996 Robertson and Sanders
+continued in 1996 Robertson and Sanders and Seymour and Thomas redid the Appel
+and Seymour and Thomas redid the Appel and Haken proof with only 600
+and Haken proof with only 600 configurations and a sort of improved
+version of the same basic recipe and then I'll talk later about Gontier in
+then I'll talk later about Gontier in 2006 but there's another history
+oops I want to tell which is about computing and calculation so Leibniz his
+computing and calculation so Leibniz his dream was you know can we mechanize
+dream was you know can we mechanize mathematics and Babbage started trying
+to mechanize calculation and Hilbert was really interested in mechanizing proof
+really interested in mechanizing proof so the
+just turn the crank and get the proof out for your theorem or the definite
+out for your theorem or the definite information that the conjecture is not
+information that the conjecture is not true and so Goodell in 1929 or so it's
+true and so Goodell in 1929 or so it's already demonstrated that you know
+already demonstrated that you know there's some problems they're entering
+in 1936 demonstrated that there are no decision procedures and in the process
+decision procedures and in the process of demonstrating that Turing had to
+of demonstrating that Turing had to invent computers the concept of
+invent computers the concept of general-purpose computing and and a
+general-purpose computing and and a consequence of Turing result is that
+there must be some short theorem statements whose smallest proof is
+actually quite long which is you know noticeable so then von Neumann and
+noticeable so then von Neumann and others UNIVAC honeywell IBM started
+others UNIVAC honeywell IBM started building computers which was useful to
+building computers which was useful to people trying to prove the four-color
+theorem and in the 1970s there are two parts of computer science that I want to
+parts of computer science that I want to talk about one is at IBM Research having
+talk about one is at IBM Research having to do with optimizing compilers and the
+to do with optimizing compilers and the other was at Edinboro having to do with
+logic and proof so Johncock was one of the most influential computer architects
+the most influential computer architects of the 20th century and one of the most
+compiler is the thing that translates your source program your Fortran program
+your source program your Fortran program or whatever to machine language konk was
+a member in the 1960s of the team that built the Fortran H the IBM Fortran H
+built the Fortran H the IBM Fortran H optimizing compiler which was actually
+optimizing compiler which was actually used by Appel in the four color theorem
+and one of the problems in writing an optimizing compiler is register
+allocation problem on the left you have some program with variables G H F e m
+some program with variables G H F e m and so on and on the right you have the
+and so on and on the right you have the resources of the machine you have some
+small number of fast registers and a large number of
+slow indexable memory locations and you want to decide which variables to keep
+want to decide which variables to keep in registers and which variables can go
+in memory and so I shocked Chandra having seen these talks about the four
+having seen these talks about the four color theorem and Kemp's algorithm for
+color theorem and Kemp's algorithm for coloring graphs and you know I said well
+maybe graph coloring is a good abstraction for the register allocation
+abstraction for the register allocation problem and maybe we could color those
+graphs by finding low degree nodes and removing them and coloring the rest of
+the graph and then putting them back so so he asked gregory chaitin to do it and
+so he asked gregory chaitin to do it and shaitan says you know i didn't know
+shaitan says you know i didn't know about this stuff my field is information
+about this stuff my field is information theory really but a schock Chandra
+theory really but a schock Chandra suggested to Johncock to ask me to do
+suggested to Johncock to ask me to do this coloring algorithm and of course
+this coloring algorithm and of course everybody at the time knew about the
+Appel and Haken result so this was one of the most influential papers in the
+of the most influential papers in the field of computer science register
+allocation via coloring that register allocation can be viewed as a graph
+coloring problem and two nodes are connected by an edge if the quantities
+connected by an edge if the quantities interfere with each other that is if
+interfere with each other that is if they are simultaneously live at some
+they are simultaneously live at some point in the program and that the
+algorithm you use for coloring the graph is Kemp's algorithm for vi coloring a
+so here's live ranges the variable G is defined at the second line and I have an
+defined at the second line and I have an inaccuracy there it's it's used in the
+inaccuracy there it's it's used in the fourth line so the live range of G is
+range of K is from line 0 to line 3 roughly and then it's dead for a while
+roughly and then it's dead for a while and then it's live again down below and
+if two variables are not live at the same time you can put them in the same
+same time you can put them in the same register the register can be
+representing one variable for a while and then another variable later
+and then another variable later so shaytans abstraction was too
+so shaytans abstraction was too understand which pairs of variables
+understand which pairs of variables interfere with each other that is their
+live ranges overlap and then to construct an undirected graph with an
+construct an undirected graph with an edge between any pair of nodes variable
+names whose live ranges overlap so that's the interference graph I'll talk
+just look at the solid edges so there's a graph now these graphs don't have to
+a graph now these graphs don't have to be planar there's no particular reason
+be planar there's no particular reason that register interference graph they're
+that register interference graph they're planar and in fact if you have lots of
+the same time and so you've got a clique of you know size 100 where each node has
+of you know size 100 where each node has degree 99 and there's no guarantee that
+degree 99 and there's no guarantee that there's a small degree node alright so
+here is chayton's heuristic hack of kemp's algorithm to mostly k color a
+graph whether it's planar or not and k the number of colors you have is equal
+to the number of registers on your machine so some machines only have four
+machine so some machines only have four registers and some machines have six
+registers so whatever your K is is there a vertex of degree less than K if so
+a vertex of degree less than K if so remove this vertex color the rest of the
+remove this vertex color the rest of the graph put it back and you will be
+graph put it back and you will be guaranteed to find a color for the node
+guaranteed to find a color for the node that you put back if there is no degree
+that you put back if there is no degree a no node of low degree pick some vertex
+several other nodes color the rest of the graph as best you can and now you
+the graph as best you can and now you put it back if it's well it's when you
+put it back it's going to be adjacent to greater than or equal to K vertices so
+greater than or equal to K vertices so if those vertices happen to have among
+if those vertices happen to have among them less than K colors you'll be able
+them less than K colors you'll be able to find a color for it and if not leave
+it uncoloured that's the great thing about register allocation if you leave
+about register allocation if you leave it on colored that means you're storing
+it on colored that means you're storing this local variable in memory where it's
+this local variable in memory where it's slower instead of a register where it's
+fast but the program will still run so we can get away with this simple hack we
+we can get away with this simple hack we don't even need Kempe chains let alone
+don't even need Kempe chains let alone simultaneous Kempe chains which would
+simultaneous Kempe chains which would have been a big worry so here's how do
+this graph okay if I have a three register machine find a low degree node
+register machine find a low degree node degree less than three remove it push
+degree less than three remove it push its name on the stack right fine that
+lowered the degree of no it'd be in load node M right find a low degree node H
+node M right find a low degree node H remove it put it on the stack that
+lowered the degree of G now it has degree 2 we can remove it now there's no
+degree 2 we can remove it now there's no low degree node every node has degree at
+low degree node every node has degree at least three so we'll pick a node there's
+some heuristics for which node to pick but doesn't matter we'll pick K remove
+but doesn't matter we'll pick K remove it push it on the stack this is actually
+it push it on the stack this is actually Briggs's adjustment of chaitin's
+algorithm color the rest of the graph as I've shown so we've pushed all the nodes
+I've shown so we've pushed all the nodes on the stack and now we can put them
+back in reverse order coloring them so each time we color a node it's adjacent
+each time we color a node it's adjacent to less than K colored nodes so we can
+find a color except when we get here this was the node that had look it's got
+this was the node that had look it's got degree three of colored nodes but by a
+degree three of colored nodes but by a happy coincidence two of them are
+colored the same so we don't have to store this variable in memory we can put
+store this variable in memory we can put it in a register so we give it a color
+finish coloring the graph that's chaitin's algorithm and Briggs in 1984
+chaitin's algorithm and Briggs in 1984 published an improvement of chaitin's
+published an improvement of chaitin's algorithm that does coalescing and
+algorithm that does coalescing and improved spilling
+here's coalescing look at that assignment statement in the original
+program D gets the value of C we move C to D now if we could manage to color C
+to D now if we could manage to color C and D the same that is allocate them
+and D the same that is allocate them into the same register then we don't
+into the same register then we don't need to have that move instruction
+because their register is just moving to itself and we can delete an instruction
+itself and we can delete an instruction from the program so these dotted line
+from the program so these dotted line edges in the graph are coalesced nodes
+edges in the graph are coalesced nodes move nodes excuse me move edges that we
+desire to color J and be the same if possible and we desire to color D and C
+reduction is coalesced move edge C D so it has merge those nodes together if
+it has merge those nodes together if there's no interference edge from C to D
+there's no interference edge from C to D and if the coalescent know it CD would
+and if the coalescent know it CD would have degree less than K because you
+have degree less than K because you don't want to remove moves at the
+don't want to remove moves at the expense of more loads and stores that
+expense of more loads and stores that would be a disaster all right so that's
+would be a disaster all right so that's Briggs's algorithm then while George and
+Briggs's algorithm then while George and I published an improvement to Briggs's
+I published an improvement to Briggs's algorithm that interleaves the
+coalescing operations with the kemp reduction operations and also introduces
+another form of coalescing which i call george reduction because lao invented it
+george reduction because lao invented it not me which you can coalesce c and d if
+there's no interference edge and if the neighbors of d are a subset of the
+neighbors of C then you cannot be increasing the chromatic number of this
+graph by doing that okay so that's our version of Briggs's version of chayton's
+version of Briggs's version of chayton's version of kemp's algorithm and we
+published it in 1996 and this is one of the most widely used algorithms in
+the most widely used algorithms in compilers today for register allocation
+compilers today for register allocation and if you use GCC or whatever you're
+probably using this algorithm ok that was fun
+so that's compilers and computing but let me tell now another history about
+let me tell now another history about logic and proof so in the 1970s Dijkstra
+logic and proof so in the 1970s Dijkstra and Floyd and became interested in
+and Floyd and became interested in how do you prove that a program is
+program verification and that is proofs by hand of course and and then Robin
+by hand of course and and then Robin Milner did something interesting so
+Milner did something interesting so Dijkstra and Floyd and had logics
+Dijkstra and Floyd and had logics for proving programs correct generally
+for proving programs correct generally it's called logic now but all of
+logic was developed around 1970 1971 so really contemporaneously with the
+four-color work and in 1977 or say Oh David Greaves a professor at Cornell
+wrote to my father and said could I get a copy of your reducibility program so
+that I can prove it correct so my father sent him a pile of Fortran and assembly
+sent him a pile of Fortran and assembly language angries said oh well never mind
+language angries said oh well never mind because because that program was not
+well not only was the program not really written in a style that it was easy to
+prove correct but does technology the science of proving programs correct was
+in its infancy in the 1970s it just was not practical to do in around 1978 so 77
+not practical to do in around 1978 so 77 78 very contemporaneously with the
+78 very contemporaneously with the four-color work Robin Milner was
+four-color work Robin Milner was interested in LCF logic for computable
+functions what kind of logic can you machine check about computable functions
+and he built this thing called a proof assistant Edinborough LCF and in a proof
+assistant Edinborough LCF and in a proof assistant you used a computer you
+construct proofs by hand but they are checked by machine checking proofs by
+machine goes back to girdle and Turing and there's a programming language that
+and there's a programming language that comes with it a tactic language that
+allows you to write little programs to help with the trivial parts so that was
+very influential there have been hundreds well maybe one hundred dozens
+hundreds well maybe one hundred dozens of proof assistants built since then I
+of proof assistants built since then I pretty much do all my research these
+pretty much do all my research these days in a proof assistant so let me
+days in a proof assistant so let me demonstrate how a proof assistant works
+demonstrate how a proof assistant works this is the proof assistant
+developed in France from eighteen from 1989 to the present and here I have at
+1989 to the present and here I have at the top left my program and proof script
+and on the top right I have the proof assistant tells me what I am required to
+assistant tells me what I am required to prove and on the Left I have a
+prove and on the Left I have a definition of the piano numbers right a
+number is either a 0 or the successor of some other number and I have a function
+I call ad it's a program it takes a and B which are natural numbers and by case
+analysis on a if a is 0 it returns B and if a is the successor of a prime then it
+if a is the successor of a prime then it returns the successor of ad a prime B so
+it's a recursive function but it's well-founded recursion it's structurally
+well-founded recursion it's structurally recursive on the structure of a so it's
+theorem about this program I can prove that ad is associative for all a B and C
+a of AD BC equals a dove and a B and C everything in green has been accepted so
+everything in green has been accepted so far by the proof assistance proof
+checker now I want to write the proof because it says all right that's what
+because it says all right that's what you claim you're going to prove on the
+you claim you're going to prove on the upper right this is your proof goal you
+upper right this is your proof goal you must prove this so I'm gonna prove it by
+must prove this so I'm gonna prove it by to prove a quantified formula for all I
+to prove a quantified formula for all I could say well let's assume I have
+could say well let's assume I have arbitrary a and B and C so intros
+arbitrary a and B and C so intros this tactic on the left that's just
+about to appear I type in the word intros period and I hit enter and it
+moves a and C and B and C above the line and other assumptions okay so I'll do
+induction on a so this is case analysis on a and here you see I've written the
+on a and here you see I've written the rest of the proof but only the green
+rest of the proof but only the green part has been accepted by the proof
+button so one step at a time it will accept the rest of the proof so the
+first case ad Oh add BC equals ad of Adobe see if I simplify the definition
+of ad oh right by its definition you can see it returns the second argument so if
+see it returns the second argument so if I call simple as I'm doing right here
+I call simple as I'm doing right here this is my remaining proof goal it has
+this is my remaining proof goal it has simplified down to that add BC equals ad
+simplified down to that add BC equals ad BC and this is obviously true but
+BC and this is obviously true but obvious doesn't help it has to actually
+obvious doesn't help it has to actually be valid but it is valid by reflexivity
+of equality so I do that now in the second case the inductive case I have ad
+of successor of a and so on and if I simplify that by the definition of ad it
+simplify that by the definition of ad it simplifies to this and then I apply
+simplifies to this and then I apply reflexivity of equality and well it
+reflexivity of equality and well it turns out reflexivity ecologies invalid
+turns out reflexivity ecologies invalid one very important property of proof
+one very important property of proof assistance is they will reject invalid
+assistance is they will reject invalid proofs
+that's the whole point okay so I will undo that attempt at reflexivity because
+undo that attempt at reflexivity because I don't have equals here and I'll
+I don't have equals here and I'll rewrite by the induction hypothesis iha
+is the name of the induction hypothesis here and it shows that for the smaller a
+rewrite by that equality in the thing that's below the line then this is my
+that's below the line then this is my goal and that is identical things on
+goal and that is identical things on left and right and that proves by
+left and right and that proves by reflectivity so there is a proof in a
+reflectivity so there is a proof in a proof assistant and that's a machine
+proof assistant and that's a machine checked proof and Robert Milner's
+observation and that of many other people census machine check proofs are
+people census machine check proofs are really good for theorems about computer
+programs so one thing about a theorem about a computer program the theorem is
+here's a program and it's correct so that it is it has this observable
+that it is it has this observable behavior in terms of its input and
+behavior in terms of its input and output now many theorems in mathematics
+output now many theorems in mathematics are beautiful and their proofs are
+are beautiful and their proofs are instructive but theorems about computer
+instructive but theorems about computer programs are usually their statements
+it's supposed to do that that's not a very interesting theorem although it may
+very interesting theorem although it may be a very useful theorem and its proof
+may not be instructive it may be long and have many cases and no graduate
+and have many cases and no graduate student would want to have to referee
+that proof and even a 13 year old girl couldn't be convinced to check all the
+couldn't be convinced to check all the cases so so but it's it's really useful
+cases so so but it's it's really useful in software verification and software
+in software verification and software verification is what I do these days so
+here are some landmark results in software verification xavier de huaah at
+software verification xavier de huaah at INRIA built an optimizing c compiler
+INRIA built an optimizing c compiler that's proved correct in the clock proof
+that's proved correct in the clock proof assistant and he has just been named a
+assistant and he has just been named a professor in the college de france which
+professor in the college de france which is a extremely prominent French academic
+is a extremely prominent French academic position Gerwin Klein in Australia
+position Gerwin Klein in Australia proved the correctness and security of
+proved the correctness and security of an operating system microkernel using a
+an operating system microkernel using a different proof assistant and my former
+different proof assistant and my former student zhang chao at yale proved the
+student zhang chao at yale proved the correctness and security of operating
+correctness and security of operating system hypervisor kernel recently in the
+system hypervisor kernel recently in the kakapo phasis tent and i've been
+kakapo phasis tent and i've been laboring away in this field for about 20
+so i proved that a certain ml compiler generates safe machine language code in
+generates safe machine language code in 2005 I have framework for proving the
+2005 I have framework for proving the correctness of C programs
+I prove that a certain cryptographic authentication protocol is both
+correctly implemented and gives you a pseudo-random function with a certain
+guaranteed along with some colleagues of course so that's the third history of
+course so that's the third history of software verification and if you have a
+software verification and if you have a proof of correctness of a program that's
+proof of correctness of a program that's by hand we don't believe it because by
+by hand we don't believe it because by the time somebody finishes refereeing
+that proof the program will have been maintained so it's a different program
+maintained so it's a different program and proofs by machine you can maintain
+and proofs by machine you can maintain the proof by machine along with the
+program and you can check that the proof still corresponds to the program and so
+on and so forth okay three different histories now let's link them together
+remember the under four T's could not be convinced that a proof that big by hand
+convinced that a proof that big by hand was correct what is it magical about the
+was correct what is it magical about the under four T's in 1976 they were born
+under four T's in 1976 they were born after Touring's result Turing's result
+was 1936 he showed what a computer is and what proof checking by computer is
+and anybody born since then has been willing to accept that that's actually
+willing to accept that that's actually meaningful and so by now that's people
+so George Gontier said why can't we check the entire four-color theorem
+inside the proof assistant both the reducibility which had already been
+checked by a Fortran program but the Fortran program had not been proved
+correct and discharging which had been done you know partly by program at some
+point and partly by hand so his proof is entirely inside the cockpit assistant he
+entirely inside the cockpit assistant he has a program to do reducibility just
+has a program to do reducibility just like vacation Appel and Haken but his
+like vacation Appel and Haken but his program is proved correct in Cocke and
+then runs in Cocke and he has the discharging proved correct and so on and
+discharging proved correct and so on and so forth so here's the main statement of
+countries on the map of course he pretty soon converts this to graphs and he
+soon converts this to graphs and he converts the graph to something
+else but his main theorem really is about countries on the map and to define
+about countries on the map and to define the map to define the plane you need
+numbers in about a hundred lines of the logic of caulk and then he defines what
+logic of caulk and then he defines what is a map and a simple map and the color
+ability of a map in about 40 lines of elementary topology written down in the
+elementary topology written down in the language of the proof assistant and
+then he states the theorem for any real model and any M that's a map in that
+real model and if M is a simple map then it's colorable with four colors and then
+it's colorable with four colors and then the proof is sixty thousand lines of
+the proof is sixty thousand lines of caulk which can't have a mistake in it
+caulk which can't have a mistake in it because every line of it is checked by
+because every line of it is checked by the proof assistant as I showed earlier
+the proof assistant as I showed earlier in the slide so that's a very nice
+the four color theorem ok so if you are concerned well if you're under 80 so you
+concerned well if you're under 80 so you were concerned that the by hand part of
+were concerned that the by hand part of the Appel and Haken four color theorem
+the Appel and Haken four color theorem might have a bug in it you need not be
+concerned anymore because there is a version of that theorem that's entirely
+version of that theorem that's entirely checked by machine
+checked by machine okay let's unify computing with software
+okay let's unify computing with software verification and the four color theorem
+so a few years ago I thought you know the one part of the compiler that is not
+the one part of the compiler that is not formally verified is the register
+allocator and i know how to do graph coloring register allocation I published
+coloring register allocation I published a paper about that and I know how to do
+fun to write a paper in which I could cite some results from 1977 by Appel and
+cite some results from 1977 by Appel and Haken so we just took the kemp's
+Haken so we just took the kemp's algorithm or rather the Appel and George
+algorithm or rather the Appel and George version of the brig's version of the
+version of the brig's version of the chaiten version of kemp's algorithm for
+graph coloring with coalescing and Sandrine Bazzi of the University of
+Rennes and her student been well Robbie odd we proved it correct in the kakapo
+odd we proved it correct in the kakapo fascist tent so we merged those and that
+fascist tent so we merged those and that was great fun
+in mathematics sometimes people even resort to machine checked proof even in
+the 21st century so in 1990 well Kepler in 1611 wasn't originally Kepler it was
+in 1611 wasn't originally Kepler it was somebody else but somebody else wrote to
+somebody else but somebody else wrote to Kepler and Kepler is more famous said
+Kepler and Kepler is more famous said the closest way you could pack spheres
+the closest way you could pack spheres is this picture shown like you might
+is this picture shown like you might stack a pyramid of oranges and why were
+stack a pyramid of oranges and why were they interested in this in 1611 because
+they interested in this in 1611 because oranges weren't easy to find in Europe
+in 1611 they were interested in the atomic theory of matter and these close
+atomic theory of matter and these close packings are directly relevant to the
+packings are directly relevant to the atomic theory of matter so Kepler
+atomic theory of matter so Kepler conjectured that there's no denser
+packing than this and it was unsolved for almost 400 years until Thomas Hales
+for almost 400 years until Thomas Hales of the University of Chicago submitted
+of the University of Chicago submitted for publication a proof partly by hand
+and partly by computer that had thousands of planar graphed graphs each
+thousands of planar graphed graphs each with a computerized case analysis
+with a computerized case analysis calculation does that sound familiar
+calculation does that sound familiar okay and although a mathematician in
+okay and although a mathematician in 1976 could just barely get away with
+1976 could just barely get away with submitting a proof that had thousands of
+submitting a proof that had thousands of planar graphs with a big part of the
+proof by hand and a program that did some calculations on each one the
+some calculations on each one the referee said we pretty much believe this
+referee said we pretty much believe this we're 99% certain it's correct but it's
+we're 99% certain it's correct but it's too big for us to have real confidence
+about so its status as a proof was in doubt for a few years so Hales decided
+doubt for a few years so Hales decided let's prove it correct and and in a
+let's prove it correct and and in a proof assistant essentially just as
+proof assistant essentially just as Gontier had been doing for the
+Gontier had been doing for the four-color theorem so he did this it
+took 10 years and this is the team right sometimes machine check proof is a big
+sometimes machine check proof is a big engineering enterprise and if you've
+ever stayed to the very end of a animated movie these days and you see
+animated movie these days and you see the long list of credits of all of the
+the long list of credits of all of the engineers this one animated the
+this one drew the sketches right this was the team it's proved you can't pack
+was the team it's proved you can't pack things any more densely than that and
+things any more densely than that and everybody knows it now even people under
+everybody knows it now even people under 80 okay so I'm pretty much done graph
+80 okay so I'm pretty much done graph coloring with or without proofs is very
+coloring with or without proofs is very useful in computer science and it was
+useful in computer science and it was brought to the attention of computer
+brought to the attention of computer science by the big splashy result in
+1976 the four-color theorem but the algorithm we use really dates back
+algorithm we use really dates back tonight to 1879 Kemp
+computer check proofs are widespread and important in computer science so in my
+important in computer science so in my part of computer science many of the
+sort of top refereed venues asked for machine checked proofs it's not always
+machine checked proofs it's not always mandatory to submit them but if you
+mandatory to submit them but if you submit them then the referees will
+submit them then the referees will actually examine the machine check proof
+actually examine the machine check proof to see that the statement of the theorem
+to what you claimed in the paper and then they'll run the machine check proof
+then they'll run the machine check proof in the proof assistant and this spring
+in May or so my student and I submitted a paper for publication and it was about
+a paper for publication and it was about a certain compiler optimization
+machine check proof but we didn't send it in with the paper because there
+submission form to do that and in July we got the referee reports and said we
+we got the referee reports and said we are willing to accept this paper
+are willing to accept this paper provided that you immediately send us
+run it and check it which we did and the paper has been published so it's part of
+paper has been published so it's part of the it's part of the ethos of certain
+parts of computer science now that your proofs should be machine checked and I
+proofs should be machine checked and I get advertisements companies looking for
+get advertisements companies looking for jobs for industrial proof engineers
+these are people that can formalize the mathematics of computer science for
+machine checked proofs for you know operating systems and file systems and
+operating systems and file systems and compiled
+and so on and computer check proofs are even sometimes becoming important in
+even sometimes becoming important in mathematics thank you
+mathematics thank you [Applause]
+no is the proof assistant so it's it's the program that checks proofs
+every line of it has been checked by the kernel of the proof assistant right
+kernel of the proof assistant right so the point of the machine check proof
+is that I can only construct valid proofs that 60,000 lines is the
+construction of a valid proof if I had a mistake or if don t I had a mistake in
+kernel the proof checker part of it would catch the mistake and so we need
+would catch the mistake and so we need how to find the proof oh well here's how
+how to find the proof oh well here's how Gontier did it he read Robertson's paper
+Gontier did it he read Robertson's paper okay and the way Robertson did it is he
+read up Ellen Hawkins paper right so it's still mathematics
+you know Turing prove that you're not gonna be able to write a program that
+gonna be able to write a program that finds your proofs for you in general but
+finds your proofs for you in general but you can certainly check your proofs so
+you can certainly check your proofs so the question is the question is who is a
+the question is the question is who is a proof check
+right right okay so the question is the question is why should we trust the
+so there's been a lot of work in that area I've done some of it myself
+area I've done some of it myself actually for example in 2004 or so I had
+actually for example in 2004 or so I had a machine checked proof done in the
+a machine checked proof done in the twelfth proof checker and I said okay
+under what basis do I trust the twelfth proof checker so what I did is I first i
+proof checker so what I did is I first i read the refereed paper in the
+scientific literature that explained the logic underlying 12 and the algorithm
+logic underlying 12 and the algorithm for proof checking in 12 which was
+written by two of the most careful computer scientists i know bob harper
+and frank Fenig and then i said ok can i implement an independent checker using
+implement an independent checker using this algorithm as a computer program and
+how long is that computer program and the answer was 800 lines so now I've
+the answer was 800 lines so now I've reduced the problem to trusting that
+reduced the problem to trusting that this 800 lines correctly implements that
+this 800 lines correctly implements that algorithm and that the referees of that
+algorithm and that the referees of that paper and the authors of it are
+trustworthy in that the algorithm is a logic that's consistent okay and then
+you can inspect the 800 lines and the translation of that by the untrustworthy
+translation of that by the untrustworthy compiler to assembly language to make
+compiler to assembly language to make sure that just this once - compiler
+ok so that was a way that I could trust my big hundred thousand line proof
+because it was checked by my 800 line proof checker and the 800 lines is
+proof checker and the 800 lines is trustworthy because it's a clear
+transcription of an algorithm in a refereed journal ok about three years
+refereed journal ok about three years later christian urban said alright let's
+later christian urban said alright let's take that algorithm from the refereed
+take that algorithm from the refereed journal and check the proof that it's
+sound in a proof checker a different proof checker
+proof checker and he found a bug in the proof it was a
+and he found a bug in the proof it was a small bug in one lemma of the proof and
+the theorem was still sound so so does that make us more confident or less it
+that make us more confident or less it makes me plenty continent so there's
+makes me plenty continent so there's lots of good research in in representing
+lots of good research in in representing proof logics in meta logics and proving
+proof logics in meta logics and proving the soundness of the meta logic checkers
+the soundness of the meta logic checkers there's always going to be some amount
+there's always going to be some amount of circularity there nothing's perfect
+but in many cases we can have great confidence in these small programs that
+confidence in these small programs that check proofs yes so you said if I heard
+check proofs yes so you said if I heard you correctly that now when you publish
+you correctly that now when you publish a proof it's customary to release the
+a proof it's customary to release the code for example or expect to have it
+checked by a proof checker as you as part of the publication process in the
+part of the publication process in the field of programming languages which has
+field of programming languages which has higher standards of accuracy than
+higher standards of accuracy than mathematics let me read you something
+mathematics let me read you something that I had a similar conversation with
+that I had a similar conversation with Tom Hales about three years ago I'm
+Tom Hales about three years ago I'm looking at his email response now and
+looking at his email response now and he's quoting the AMS ethical guidelines
+he's quoting the AMS ethical guidelines saying that mathematicians have a
+saying that mathematicians have a responsibility to publish full details
+responsibility to publish full details of results that are announced without
+of results that are announced without unreasonable delay I would put the code
+unreasonable delay I would put the code in that in that category okay so about
+four years ago the top conferences in my end of computer science decided to have
+end of computer science decided to have an explicit artifact evaluation process
+an explicit artifact evaluation process so if your scientific claim is based on
+a proof you could submit a machine checked proof script if your scientific
+checked proof script if your scientific claim is about the high performance of
+claim is about the high performance of some compiler optimization you could
+some compiler optimization you could submit the compiler and the test suite
+which is not a proof at all it's an experimental artifact and the artifact
+experimental artifact and the artifact evaluation committee will examine the
+to see if that it relates to the claim being made and that actually does run
+being made and that actually does run and and so on so and then the artifact
+and and so on so and then the artifact itself is public so that's that's how it
+works in in scientific fields of endeavor

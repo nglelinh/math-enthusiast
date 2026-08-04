@@ -1,0 +1,317 @@
+[
+  {
+    "id": "ku_video_mf_XOB7594c_7",
+    "t_start": 7.5,
+    "t_end": 104.9,
+    "type": "overview",
+    "summary": "Welcome, everyone. My name is Michel Goemans, and I'm the department head in mathematics and I'd like to welcome all of you to the department for these 2025 Simon Lectures in mathematics given by Maryna Viazovska from EFL, École Polytechnique Fédérale de Lausanne where she is the chair of number theory. So the Simons lecture is our prestigious lecture series in the department. It was created about 25 years ago by a generous gift from Jim and Marilyn Simons, and you all aware of the philanthropy of the Simons Foundation and Jim and Marilyn Simons. In fact we're in the Simons Building. A bunc…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_104",
+    "t_start": 104.9,
+    "t_end": 200.2,
+    "type": "overview",
+    "summary": "fields of mathematics and our most celebrated result is of course the fact that E8 lattice provides the densest packing of spheres in eight dimensions and then also the extension with other ones in the room to Leech lattice in 24 dimensions and so this result was cleverly constructing a magic function using L-functions and based on the results of Cohn and Elkies before. So for these set of results she received the Fields medal in 2022. She’s the second woman to be awarded a Fields medal so congratulations. And she has also received many other prizes that the list is very long just I'll get …"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_200",
+    "t_start": 200.2,
+    "t_end": 300.3,
+    "type": "overview",
+    "summary": "person. (laughter) So she's the most accomplished person so and a year ago she was founder of ICMU, the International Center for Mathematics in Ukraine, to provide mathematical activities and stimulation because of in response to all the suffering that the Ukraine people and scientists have endured because of Russia's invasion into Ukraine. She is now the scientific director of that center and in fact we have a representative in the department, Pavel Etingof, of that scientific committee who unfortunately couldn't be today. But you came to listen to her not to me, so please warmly welcome M…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_300",
+    "t_start": 300.3,
+    "t_end": 390.5,
+    "type": "overview",
+    "summary": "speak about magic functions and what they have to do with the upper bounds for sphere packings and how to construct them. And then I plan that for my two other lectures I will speak about lower bounds about how good sphere packings can be. And so, here it seems that now is the moment and new results appear like every two years. So, it's, yeah, and then before that it was maybe like every decade or every century. So, it seems like an exciting moment for lower bound bounds for sphere packing. But, so, for the today's lecture so, let me speak about the magic functions and so, yeah so, let me s…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_390",
+    "t_start": 390.5,
+    "t_end": 490.7,
+    "type": "overview",
+    "summary": "spectra or to finding shortest geodesics on manifolds with certain geometric constraints. So, and for all these types of optimization problems there is a common framework of a common set of tricks or methods that helps us to get a partial result but sometimes even the complete resolution of the problem and so, today the focus would be mostly on the packing problems. So, and what the packing problem is, so, we fix a metric space. In this metric space we have a notion of the distance of course but also, what would we will need some kind of notion of volume in this matrix space would be useful…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_490",
+    "t_start": 490.7,
+    "t_end": 580.7,
+    "type": "overview",
+    "summary": "they're also known to be important for various applications. And so, another somehow related set of problems maybe the way I would see it as some kind of a weighted packing problem or relaxed packing problem would be to minimizing potential energy for the configuration of points again in the matrix space. So, we have our matrix space. We choose points in there. But now we imagine that our points they interact with a certain potential and so, and this potential depends only on the distance. And then the question would be to for fix if you fix the number of points or if we fix the density of …"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_580",
+    "t_start": 580.7,
+    "t_end": 675.0,
+    "type": "overview",
+    "summary": "certain configurations are optimal At the same time the kind there is a type of optimization problems that we know really a lot about and this is linear optimization. And so, here you can see a classical problem of linear optimization is that we have a cone and in this cone we would like to optimize for example value of a linear functional and so, these are very well-studied problems. They also, unfortunately they are also hard but here we have many algorithms. We have a very nice duality theory for this type of optimization problems. And so, this is somehow one of the main so, the duality …"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_674",
+    "t_start": 675.0,
+    "t_end": 767.9,
+    "type": "overview",
+    "summary": "done. So, of course what I'm telling now maybe this is a bit like old news. So, linear optimization is not the only exciting type of optimization. There is also a semi-definite optimization which is maybe more modern and also, can be done quite effectively. But in my story it will be all about linear optimization. So, the idea is to say take this nonlinear optimization problem and reduce it to a linear one. Of course, as we are doing so, we might lose something. There is no guarantee that the new problem has the same solution as the old one but at least we will get some estimate. And so, th…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_767",
+    "t_start": 767.9,
+    "t_end": 861.9,
+    "type": "overview",
+    "summary": "functions which is slight which is a bigger one so-called positive definite functions and so, here the okay not bigger it's a smaller one sorry so, a smaller class of functions is the class of positive definite functions. So, here the condition is stronger so, here this double sum in double sum we are introducing the weights assigned to each point. And so, now such a weighted double sum has to be non-negative for all finite subsets and for all possible complex weights that we assign to the points. And so, of course it just follows from the definition that positive definite functions are all…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_861",
+    "t_start": 861.9,
+    "t_end": 952.6,
+    "type": "overview",
+    "summary": "there strategy for solving packing problems or this energy problems becomes the following so, reduce the problem to an optimization problem in the cone of copositive definite functions and of course this is a relaxation. So, this sharp result is not guaranteed anymore. However this is how we can make estimates and some in many cases those estimates they actually very interesting and it would be difficult to obtain them by other methods and sometimes in some situations like in situations I'm going to speak about today even despite this relaxation we can still solve some interesting optimizat…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_952",
+    "t_start": 952.6,
+    "t_end": 1048.6,
+    "type": "overview",
+    "summary": "than fixed distance r0 is smaller or equal than this minus one divided by n minus one. Then we would know that any r0-code in this matrix space or any packing of balls of radius r0 divided by two it can contain at most capital N points. So, this would be a nice theorem which we can apply to some compact metric spaces. So, for example you can think of a possible application here would be a coding theory in Hamming space and so, here is a very short proof. So, suppose that such a function so, f exists and suppose that X is an r0-code. So, it would be a set of points inside of m. So, such that…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_1048",
+    "t_start": 1048.6,
+    "t_end": 1142.6,
+    "type": "overview",
+    "summary": "points and now we see that because x is an r0-code it means that so, first between for equal points we know that the distance between equal points is zero so, this first term will be just equal to the size of our set X. On the other hand we know that for each term at the second sum it will be this negative is smaller or equal than this negative number. And so, we can estimate our sum in this way. But at the same time we know that this number is bigger or equal than zero and smaller or equal than this expression which involves the size of x. And from here we can deduce that the size of X can…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_1142",
+    "t_start": 1142.6,
+    "t_end": 1233.4,
+    "type": "overview",
+    "summary": "in the Hamming code is 16. So, now it turns out that this method, rather simple method which I showed before, if it's applied to this code it can show that the Hamming code is an optimal one. So, to apply our method to the Hamming space we have to understand what are the positive definite functions on this Hamming space F_2^n. And so, here what I can show you is that okay so, we can we can take so, so, here what really plays an important role here is that Hamming space has a lot of symmetries. It is an abelian group and so, what comes to save us is the Fourier analysis. So, here first we ca…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_1233",
+    "t_start": 1233.4,
+    "t_end": 1334.5,
+    "type": "overview",
+    "summary": "be rewritten as an square of the absolute value of such a single sum and so, this sum is always of course therefore this such a double sum will be always non-negative. And okay at the moment this does not truly satisfy my theorem and this is because this function f_y it's it depends somehow on the element in my space not on the distance to anything like on distance to zero but we can somehow make a little what we can do here we can for example, now if we are averaging this harmonic wave for example over all elements y of the same Hamming length then what we will get again by the symmetries …"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_1334",
+    "t_start": 1334.5,
+    "t_end": 1425.5,
+    "type": "overview",
+    "summary": "And so, here's the following theorem which again goes back to the 1970s. It tells us that ifXx is a binary code of length eight and it has distance four then the number of elements in this code will be smaller or equal than 16. And so, how is it done? It is done by constructing an explicit positive definite function. So, namely the function f is defined as this sum of Krawtchouk polynomials and as we've seen before Krawtchouk polynomials they are positive definite. So, the sum of Krawtchouk polynomials with positive coefficients also, will be positive definite. So, the Krawtchouk polynomial…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_1425",
+    "t_start": 1425.5,
+    "t_end": 1518.9,
+    "type": "overview",
+    "summary": "that have a lot of symmetries. And so, now in my talk I would like to speak about sphere packings in Euclidean space so, here is the adaptation of this theorem that I showed you before to the Euclidean space. And so, this is a result which appeared in a paper of Cohn and Elkies but then independently similar result was disco discovered by Dmitry Gorbachev and so, both results they were published in 2000s so, I think the paper of Cohn and Elkies is from 2003 and the dissertation of Gorbachev is from 2006 But then there of course there will always be before pre-prints and so, just not and so,…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_1518",
+    "t_start": 1518.9,
+    "t_end": 1610.6,
+    "type": "overview",
+    "summary": "spaces but here we need some to find better formulation and so, here it turns out that in Euclidean space the property of being positive definite is captured by the sign of the Fourier transform of the function. So, essentially one can say that functions which are positive definite in Euclidean space are essentially the functions with positive Fourier transform. Of course again here one has to be careful because Fourier transforms don't exist for all the functions. So, there should be some maybe caution about what to do with functions which don't have well-defined Fourier transform but for …"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_1610",
+    "t_start": 1610.6,
+    "t_end": 1701.0,
+    "type": "overview",
+    "summary": "smooth and all of its derivatives decay faster than any inverse power of a polynomial and suppose that our function is non-positive outside of a ball of radius r0 and its Fourier transform is non-negative at all Euclidean space and also, the we normalize our function and it Fourier transform so, that the value of the function at zero and that the value of its Fourier transform at zero is one and then if we can find such a function then we know that each periodic configuration of points in space such that the distance between any two distance point is at least r0 would have density at most o…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_1701",
+    "t_start": 1701.0,
+    "t_end": 1793.2,
+    "type": "overview",
+    "summary": "dimension d which is the density of the densest sphere packing in the Euclidean space R^d. And so, here is a table of the known upper bounds and known densities for small dimensions from one to 36. And so, here you can see the red line it's an upper bound and this upper bound comes from the previous theorem. So, these are the upper bounds obtained by Cohn and Elkieslinear programming method and the blue line: this is the best-known density in each dimensions, and then of course this should be discrete because we have a discrete set of dimensions. So, this is in fact a discrete set of values…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_1793",
+    "t_start": 1793.2,
+    "t_end": 1894.6,
+    "type": "overview",
+    "summary": "remarkable thing here is that at in some points actually two lines coincide or visually coincide numerically coincide and so, we can see that there is this coincidence in dimensions eight and 24 but then we something which is not very visible on this plot is that they also, coincide in dimension one and two. But then the sphere packing problem in dimensions one and two is maybe not so, interesting even though the fact that two lines coincide is quite interesting. Anyways and so, in the 2003 paper of Cohn and Elkies they have really observed that the numerical bounds in dimensions 8 and 24 t…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_1894",
+    "t_start": 1894.6,
+    "t_end": 1987.3,
+    "type": "overview",
+    "summary": "in the Euclidean space of dimension 8 where even means that the lengths the squared lengths of all vectors of all vectors of this lattice they are all even integers and unimodular means that the co-volume of this lattice is one. So, we have roughly speaking one point per unit of volume and of course it also, we it's for example it can be constructed is the root lattice of the E8 root system and we know that the shortest nonzero vector in E8 has length square root of two and so, there are 240 such shortest vectors and interesting fact is that those shortest vectors they also, form a kiss the…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_1987",
+    "t_start": 1987.3,
+    "t_end": 2082.4,
+    "type": "overview",
+    "summary": "co volume is one then the radius should be 1 / square root of two and so, the theorem I would like to speak about today is that the E8 lattice is universally optimal. Oh sorry? What? Okay, so, the, so, first the E8 lattice is the best, sorry, provides the best sphere packing in dimension 8 and so, the another result I would like to talk about today is that the E8 lattice is universally optimal. So, it means that it's optimal not only for the packing problem but also, for the actually for a family of energy optimization problems. So, it's optimal for any Gaussian real Gaussian energy between…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_2082",
+    "t_start": 2082.4,
+    "t_end": 2181.6,
+    "type": "overview",
+    "summary": "does not have any vectors of length square root of two but has the shortest vector of length two and so, the Leech lattice was discovered in 1967 and its construction actually came from coding theory. And if you want to learn about more constructions for the Leech lattice you can refer to John Conway's books. I think in his book he gives like 24 different constructions of Leech lattice. So, it seems like whatever you're trying to construct you will always construct Leech lattice at the end. So, there are many of them like many of them are algebraic coming from different areas of algebra and…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_2181",
+    "t_start": 2181.6,
+    "t_end": 2272.6,
+    "type": "overview",
+    "summary": "we can also, consider the lattice packing associated to the Leech lattice. And so, here it's somehow, it's very convenient. So, we don't if you want to have to take a volume of our co volume of our lattice to be one then we can take balls of radius one which is also, beautiful somehow and so, this is somehow the the natural normalization in um and so, working together with Henry Cohn, Abhinav Kumar, Steven Miller and Danylo Radchenko we have proved proven that the Leech lattice is the best sphere packing in dimension 24 and then the Leech lattice it also, has this property of being universa…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_2272",
+    "t_start": 2272.6,
+    "t_end": 2364.6,
+    "type": "overview",
+    "summary": "then similarly for the Leech lattice also, all this time working together with Steven, Abhinab, Henry, and Danylo we have constructed a magic function which so, radials for Schwartz function which satisfies all the conditions of Cohn-Elkies theorem for dimension 24. And so, as I remember this terminology it was coming from Steven Miller who suggested naming this the functions which somehow provide us with sharp results to calling the magic functions. And so, here is the plot of the function. This is how the function looked like. So, this is the plot of the mag magic function which proves th…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_2364",
+    "t_start": 2364.6,
+    "t_end": 2461.8,
+    "type": "overview",
+    "summary": "magic function what we can observe is that it has a lot of zeros and double zeros and those double zeros they are exactly at the points which are which is the spectrum of our lattice which are the lengths of vector vectors of our lattice. So, on my plot they are lengths squared but again this is this I've done this for aesthetical reasons to to have equally spaced zeros on the on the picture and so, this fact that the function the magic function and its Fourier transform has all these double zeros it's not a coincidence actually this is a consequence of satisfying the Cohn-Elkies conditions…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_2461",
+    "t_start": 2461.8,
+    "t_end": 2553.1,
+    "type": "overview",
+    "summary": "on the plot and so, here this how the story works. So, okay so, here let lambda be any of the two lattices either E8 or the Leech lattice. So, then we if we compute we know that the value of our function at zero it is big or equal than the let sum of this function and this is because we know the because the function satisfies the Cohn-Elkies condition and the Cohn-Elkies condition on the function is that if the length of a vector is big enough then the value is of the function has to be non-negative and so, here we are applying the Poisson summation formula. And so, after we applied the Poi…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_2553",
+    "t_start": 2553.1,
+    "t_end": 2652.6,
+    "type": "overview",
+    "summary": "And so, now we can see that all these inequalities can be true only in the following case. It can be true if the function and then the values of the function and the values of the Fourier transform have to vanish at all nonzero vectors of the lattice. Also, in this case somehow we know that because we are speaking about E8 lattice and Leech lattice that in fact the lattice is equal to its dual. So, and so, the second order of vanishing is also, something we get again from the combination of these equalities and the Cohn-Elkies conditions. Okay. And so, now how to construct the function, oka…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_2652",
+    "t_start": 2652.6,
+    "t_end": 2747.0,
+    "type": "overview",
+    "summary": "So, it will be a function which is defined at the upper half plane and it has nice transformation properties under the group of linear fractional transform transformations. And we also want this integral to converge if r is bigger than the length of the minimal vector in the lattice. Okay. So, this is how the trans. So, now what we have to do we have to first make sure that we have this sign squared which guarantees our zeros and this is how we do it. We do it in a following way. So, we take our function and write it as a sum of three shifted integrals. And now what we do we make a some cha…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_2746",
+    "t_start": 2747.0,
+    "t_end": 2842.2,
+    "type": "overview",
+    "summary": "a function came somehow out of nowhere and later in the lecture I will actually explain a little bit where it where it came from but now it's kind of a wild guess and so, I try to convince you that like this actually this form of the function is well compatible with what we know about the function what we know about the double zeros and also, double zeros for the Fourier transform. The first if our function is written in a such a way then it will be easy for us to compute its Fourier transform. And so, here what I do I because my function is constructed as a contour integral of a Gaussian w…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_2842",
+    "t_start": 2842.2,
+    "t_end": 2935.6,
+    "type": "overview",
+    "summary": "sum of three integrals over vertical lines. And now I would like kind of to go back from here to there and get again the sin squared, yeah. So, now before I can do it, I will have to do some computations with contour integrals changing for example to change the variable. So, here I hope you trust me that I've done it correctly and so, this is what I will get at the end and so, here at the end I'm going to play my last card is that because what I've written before I told you that my function phi is some function defined on the upper half plane it is holomorphic it satisfies some nice transfo…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_2935",
+    "t_start": 2935.6,
+    "t_end": 3031.3,
+    "type": "overview",
+    "summary": "be these equations they can be solved explicitly. And so, if I can solve these functional equations for phi then my three contour integrals will come back into this sin square time 1 contour integral and so, now the final step of course this what I have constructed so, far I have constructed function which satisfies vanishing conditions which are compatible with the Cohn-Elkies theorem. And the same vanishing conditions are satisfied for the Fourier side. And now the final step of course of course the actually in if you go back to the Cohn-Elkies theorem what we need are not the vanishing c…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_3031",
+    "t_start": 3031.3,
+    "t_end": 3125.3,
+    "type": "overview",
+    "summary": "inequalities actually by analyzing the expression under the integral. And so, now we can do similar things for the universal optimality. And so, now let me introduce what is the universal optimality. Okay. So, first in this long and technical slide I define what is the energy of pairwise interactions for a configuration of points in in Euclidean space. So, here of course as speaking about Euclidean space it's not interesting to speak about a finite set of points. It's interesting to speak about infinite set of points which has a well-defined density. You can think of like points in a crysta…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_3125",
+    "t_start": 3125.3,
+    "t_end": 3219.2,
+    "type": "overview",
+    "summary": "rho then we are searching for a configuration of fixed density with the smallest possible energy and because if we don't fix density our solution could be somehow like very, very sparse or on the other hand very very, very condensed set of points. So, and so, now we would say that discrete set of density rho is universally optimal if it minimizes p-energy whenever p is a completely monotonic function of squared distance or easier way to say it if it is minimizes p-energy for any Gaussian like this. So, for any function which is a Gaussian with any positive real parameter alpha and in fact a…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_3219",
+    "t_start": 3219.2,
+    "t_end": 3309.4,
+    "type": "overview",
+    "summary": "minimization problem in Euclidean space. So, this is a theorem by Henry Cohn and Abhinav Kumarand it tells us so, let P be our energy profile and suppose that we can construct an auxiliary function F such that F is a Schwartz function and F is bigger or equal than P for all nonzero X and also, the Fourier transform of F is bigger or equal than zero Then for every sub subset of the dimensional space of density rho its lower energy will be at least this number and so, again it's this is a relaxation of the energy minimization problem and in general it there is no reason for this bound to be s…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_3309",
+    "t_start": 3309.4,
+    "t_end": 3405.0,
+    "type": "overview",
+    "summary": "extra information about auxiliary function f. If we assume that such a function exists and it does provide a sharp bound then this function would have to satisfy also, a number of conditions for example it would the values of a function would have to satisfy with the values of the energy profile at all non-zero lattice points and the Fourier transform of f has to vanish at the all non-zero lattice points of the dual lattice and also, all these equalities they will hold to the second order. And so, it turns out that this information is in fact sufficient to recover the function. And so, in o…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_3405",
+    "t_start": 3405.0,
+    "t_end": 3498.4,
+    "type": "overview",
+    "summary": "later. So, we need to somehow postpone some of the shortest points. And so, it tells us that if we have a radial Schwartz function f and we know all of the values of the function at all square roots of even positive integers and the values of its derivative. And of course here I speak when I say f of square root of n it means that f evaluated at all vectors of the length square root of n. So, here's a bit of using a bit like abuse of notation because it's a radial function. Of course it depends only on the length of the vector and we know the same information on the Fourier side then we can…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_3498",
+    "t_start": 3498.4,
+    "t_end": 3593.4,
+    "type": "overview",
+    "summary": "interpolates only from the values of function but not at the square roots of even integers but at the square roots of all integers and then actually there is also, so, here is a small list of other related results. So, it turns out that on one hand there is nothing so much special about the square root of n and if just if another sequence has the same density properties then also, there will be a Fourier interpolation formula associated to these nodes. But then there are also, other types of like interesting Fourier interpolation formulas for example from coming from the zeros of zetafuncti…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_3593",
+    "t_start": 3593.4,
+    "t_end": 3687.5,
+    "type": "overview",
+    "summary": "by the Fourier interpolation formula this is how it will look like because we know everything what happens on the side of x of f of x but then on everything from the Fourier side it will just vanish because the there all the values of Fourier have to vanish and yeah, so, now if we know the functions An and Bn then we are in principle done. So, we just if you do know An and Bn the last step would be just to prove this inequalities. And so, now the final step would be how to find this numbers the functions An and Bn the interpolating basis and so, we can find it in the following way. So, we c…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_3687",
+    "t_start": 3687.5,
+    "t_end": 3781.7,
+    "type": "overview",
+    "summary": "solving this functional equation we can find the generating function f and therefore find also, the basis An Bn An tilde and Bn tilde. And so, this equation again. So, this equation is a functional equation where l zz acts on the function f If as we think of f as a function defined on the upper half plane for a variable tau which lives at the upper half plane. And so, this would be in fact the complete somehow also, a bit of a hidden information about the function f is that we have this first equation which comes from the from the interpolation formula applied to the Gaussian but other two …"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_3781",
+    "t_start": 3781.7,
+    "t_end": 3877.1,
+    "type": "overview",
+    "summary": "these inequalities for this explicit function f. And so, then these inequalities they already imply the inequalities from the Cohn-Kumar theorem and prove universal optimality of lattice and Leech lattice. So, thank you very much. [Applause] Any questions? And if you have a question you should take the microphone. Really great talk. Thank you. I was just curious if there's some sort of like rigidity or stability result known in dimensions 8 and 24? Actually there is a paper of I think Joao Ramos and Danylo Radchenko where they do establish stability result and actually the stability result …"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_3877",
+    "t_start": 3877.1,
+    "t_end": 3975.4,
+    "type": "overview",
+    "summary": "it seems like it should work numerically, but analytically, actually dimension two seems to be at least for this method it seems to be more challenging than 8 and 24, which is a bit strange, but yeah maybe like the reason as I see it like why things don't like work so, easily is that if you think of the lenses of vectors so, in dimension two of course the candidate is the A2 lattice but if If you think of the lenses of its vectors they have more complicated structure than they're not just like square roots of integers It's like lacunary sequence which is a bit interesting. And so, this and …"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_3975",
+    "t_start": 3975.4,
+    "t_end": 4067.9,
+    "type": "overview",
+    "summary": "we have actually like written down an argument, but it was okay. So, I think now in my original paper this argument of checking this so, the function which we I had to check. So, maybe I can show you okay so, here so, I did not do it for the integral. So, in our cases we are, we were quite lucky, and we could just analyze for example we were writing here an integral and want to show that this function for example is negative but then the expression on the under the integral already was negative. So, integral did not contribute that much and the expression on the integral it was a very expli…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_4067",
+    "t_start": 4067.9,
+    "t_end": 4159.9,
+    "type": "overview",
+    "summary": "just computing the asymptotics, but in the middle it was somehow computing it on a fine grid and but since then there was actually an improvement and now for at least for dimension eight there is a, actually like a mathematical proof which says like, which does not include any use of computer, so, I think it's done by Dan Romik he has done it in dimension 8 and there is another student and I think it's I'm not sure if it's already published or not yet but he have actually found a nice argument which works for both E8 and less but then it's somehow it's proving inequalities like this you kno…"
+  },
+  {
+    "id": "ku_video_mf_XOB7594c_4159",
+    "t_start": 4159.9,
+    "t_end": 4194.1,
+    "type": "overview",
+    "summary": "yeah so, Henry maybe can correct me if I'm wrong, but that theorem is Fourier space. So, I did not have to do anything. So, the last section of the paper when you click just repeating what Henry just said. So let's thank Maryna again. [Applause] And just a reminder, we'll have a second and a third talk tomorrow and the day after, same schedule. Thank you for coming."
+  }
+]

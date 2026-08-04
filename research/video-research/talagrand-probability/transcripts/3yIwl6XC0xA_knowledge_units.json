@@ -1,0 +1,177 @@
+[
+  {
+    "id": "ku_video_3yIwl6XC0xA_5",
+    "t_start": 5.4,
+    "t_end": 97.3,
+    "type": "overview",
+    "summary": "so uh I have chosen to talk about the Gen the chaining in general because uh Gen the chaining in general because uh it's a topic on which I work the longest and it's a kind of fairy tale if you compare the situation of knowledge at compare the situation of knowledge at the beginning and at the end it's not the same universe so uh let so other overview of universe so uh let so other overview of the talk uh so chaining is a method to bound stochastic processes and it was invented by kogoro among so many other invented by kogoro among so many other things uh after working with that for 30 thin…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_97",
+    "t_start": 97.3,
+    "t_end": 191.4,
+    "type": "overview",
+    "summary": "flows next your to your house and uh laas would argue that this is no laas would argue that this is no Randomness it's all deterministic but in Randomness it's all deterministic but in practice uh it's it's a fruitful way to model these things as a stochastic process so we stochastic process which mean we think of these all these quantities at a given time being like a quantities at a given time being like a random variable so we have a collection random variable so we have a collection of random variable Depending on time and process uh and uh so here is a notation you not you denote XT T …"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_191",
+    "t_start": 191.4,
+    "t_end": 284.2,
+    "type": "overview",
+    "summary": "processors so that uh say index by the unit interval so that if you get any two unit interval so that if you get any two values the expected value of the difference XS minus XT to the alpha is less than some power of s minus t the less than some power of s minus t the idea here is that there is things are idea here is that there is things are continuous in nature so if you look at continuous in nature so if you look at two times which are close to each other two times which are close to each other then somehow the random Vari corresponding random variable have to be close to each other and …"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_284",
+    "t_start": 284.2,
+    "t_end": 374.5,
+    "type": "overview",
+    "summary": "him advice on how to do research he told me the very simple thing whenever you me the very simple thing whenever you study a problem always consider it in study a problem always consider it in the most General situation where it the most General situation where it makes sense so I call that share makes sense so I call that share principle in his honor and I used this efficiency and uh of course the the idea of that is that you are not tempted to of that is that you are not tempted to use some information which in fact is use some information which in fact is not relevant if it's not needed …"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_374",
+    "t_start": 374.5,
+    "t_end": 466.8,
+    "type": "overview",
+    "summary": "I have of a whole uh value of of T and uh when you do that you try to prove inequality so when you try to prove inequality to remove technicality the important case is where the index set is finite so here's a fundamental example finite so here's a fundamental example you take n different random variable you take n different random variable which are identically distributed and which are identically distributed and you assume that for a certain number a bigger than a is 1 / n then it's the elementary probability that you find the elementary probability that you find the supremum of the proc…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_466",
+    "t_start": 466.8,
+    "t_end": 559.1,
+    "type": "overview",
+    "summary": "each other but all large so you want to get you don't want to that situation so what you do to get rid of that is you fix a distinguished point in the index fix a distinguished point in the index set and you control the difference XT set and you control the difference XT minus xt0 and you take the Supreme of T and of course you get you can get the uh minus XT subz outside of the uh minus XT subz outside of the Supremo so also I'll make another simplification I'll talk only on the case where the I'll talk only on the case where the size of the supremum is correctly size of the supremum is co…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_559",
+    "t_start": 559.1,
+    "t_end": 653.4,
+    "type": "overview",
+    "summary": "of the taals of that differences which matters so it's a function given s and t matters so it's a function given s and t you want to know how of how often the you want to know how of how often the difference x s minus s is difference x s minus s is large so the idea of chaining is is is large so the idea of chaining is is is so Elementary uh you have a big set to understand so you try to understand it in you can understand it progressively you consider a sequence of approximation by small sets and the first approximation is as simple as it can be you approximate the anti set by one point no…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_653",
+    "t_start": 653.4,
+    "t_end": 744.4,
+    "type": "overview",
+    "summary": "equality here which is a triviality it's a collapsing sum so all the term cancel a collapsing sum so all the term cancel except two of them which are on the except two of them which are on the left and uh uh the conse consequence of that identity is now you have to work on these differences here you have to work on these differences so if you control each difference so for each T and each n each difference so for each T and each n you con you control this difference you you con you control this difference you see you are in a situation that this is less than a certain number a n of t uh the…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_744",
+    "t_start": 744.4,
+    "t_end": 839.1,
+    "type": "overview",
+    "summary": "uh you will choose the number a n of T so that uh all these uh uh so that the so that uh all these uh uh so that the set where uh there is one n and one t so that this happen is small has a small probability and how do you control the probability and how do you control the probability of this set you the most trivial Way by something that the computer scientist call the union bound the probability of a union of set is less than the sum of the probability and exceptional sets where the differences are large now of course you the question are large now of course you the question is why when y…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_839",
+    "t_start": 839.1,
+    "t_end": 931.8,
+    "type": "overview",
+    "summary": "Gan process mean the the family of random variable is is a centered gaussian and uh I always go into a specific representation of gaussian processes because that's what I need for the SQL so one way you can picture what the SQL so one way you can picture what a gausian process is you look you a gausian process is you look you consider an independent sequence of consider an independent sequence of standard random variable standard gaan standard random variable standard gaan random variable means their their uh standard deviation is one and for a sequence of coefficient you consider the seque…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_934",
+    "t_start": 934.4,
+    "t_end": 1026.2,
+    "type": "overview",
+    "summary": "now it was known for a long time that the structure of the metric space t of the index set with that distance it did completely determines the value of the completely determines the value of the supremum of the process this is called slean LMA but the sort of Miracle of nature which happened there is that uh nature which happened there is that uh you can find the quantity which can be you can find the quantity which can be expressed in purely term of the metric expressed in purely term of the metric space you can find something conc read space you can find something conc read uh now gaan pr…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_1026",
+    "t_start": 1026.2,
+    "t_end": 1119.3,
+    "type": "overview",
+    "summary": "of one approximating point and uh if you do that and you essentially copy kogoro's proof you get a very useful bound on the supremum of aan process bound on the supremum of aan process which called does bound and uh it's it's which called does bound and uh it's it's a sum of 2 the minus n and then you have the square root of log square root of the log of the cardinality of the sets uh now this bound is well known that it's not optimal in all cases and it's it took a very long time to go beyond that bound and there is a really beyond that bound and there is a really big Advance is made by Xa…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_1119",
+    "t_start": 1119.3,
+    "t_end": 1209.5,
+    "type": "overview",
+    "summary": "approximate approximating set is to fix a cardinal the cardinality of the N a cardinal the cardinality of the N approximating set should not should be approximating set should not should be less than 2 to the 2 to the N now why it's a log of the cardinality which is important the order of the size of the uh of the log and when a number you want to know what's the order of its log you to know what's the order of its log you compare it to the scale 2 to the 2 to compare it to the scale 2 to the 2 to the N that's how this two to the 2 to the N occur so in that case it it's in fact it's very si…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_1209",
+    "t_start": 1209.5,
+    "t_end": 1304.2,
+    "type": "overview",
+    "summary": "later so I Define this number called this functional called gamma of gamma this functional called gamma of gamma Alpha of a metric space and its distance when T is in set of this sum 2 to the N of alpha distance of T to to T subn now of alpha distance of T to to T subn now the infimum here is over all possible of approximating sh sets T sub with the cardinality as I want and the reformulation on the previous bound on Gan process it looks previous bound on Gan process it looks much much simpler now uh the expected much much simpler now uh the expected value of the supremum is less than const…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_1304",
+    "t_start": 1304.2,
+    "t_end": 1395.7,
+    "type": "overview",
+    "summary": "a witness which will tell you explicitly now following the witness you have a is now this is a sort of a miraculous theorem because uh the expected value of theorem because uh the expected value of the supremum is a probabilistic and then the gamma 2 of the metric space is has nothing to do with probability is is has nothing to do with probability is a feature of a pure metric space and uh a feature of a pure metric space and uh even though we know in complete even though we know in complete generality that these two quantity are generality that these two quantity are of the same size it do…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_1395",
+    "t_start": 1395.7,
+    "t_end": 1492.7,
+    "type": "overview",
+    "summary": "problem can be solved and once you meet a miracle of course we are greedy we a miracle of course we are greedy we expect more miracles so uh I say okay expect more miracles so uh I say okay let us hope that the universe is as let us hope that the universe is as simple as it can be what what could simple as it can be what what could happen so what's the next thing to look at next the gussan process I I made them appear the gussan process I I made them appear combination of independent gaussian combination of independent gaussian random variable let us replace a gaan simpler uh and the simple…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_1492",
+    "t_start": 1492.7,
+    "t_end": 1585.8,
+    "type": "overview",
+    "summary": "uh okay so let me insist that this bound here is based on cancellation of terms of opposite sign now to really see that you look at what happens when you take the sum of N coin flipping you know when you take the sum is uh the plus and the you take the sum is uh the plus and the minus almost cancel so what the subaran minus almost cancel so what the subaran inequality tells you here that uh inequality tells you here that uh the the plus and minus which do not the the plus and minus which do not cancel they are only of the order of cancel they are only of the order of square root of n of the…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_1585",
+    "t_start": 1585.8,
+    "t_end": 1680.1,
+    "type": "overview",
+    "summary": "sub 1 plus T sub 2 is just a set of all possible sum when you take one one uh possible sum when you take one one uh set one coefficient in first set and the set one coefficient in first set and the other in the second set and uh now x sub other in the second set and uh now x sub T1 + T2 this xt1 plus xt2 it's obvious T1 + T2 this xt1 plus xt2 it's obvious on the formula so you can uh bound the on the formula so you can uh bound the process index by T1 + T2 the process process index by T1 + T2 the process here you can buy a trivial way that a sum of two terms and the first term you will use …"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_1680",
+    "t_start": 1680.1,
+    "t_end": 1770.6,
+    "type": "overview",
+    "summary": "decomposition so that um uh the gamma 2 uh okay there is here should sorry here uh okay there is here should sorry here it should be T sub one gamma 2 of the T sub one is less than this the expected value of this and the sum of the absolute value of the coefficient in the second set is also control but what you want uh that's a wonderful theorem uh that's a one which uh needs to be that it is true but it's just too complicated so please somebody simplify complicated so please somebody simplify it before I die I really like to see a uh now the difficulty of that is that the decomposition is …"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_1770",
+    "t_start": 1770.6,
+    "t_end": 1862.0,
+    "type": "overview",
+    "summary": "current proof is rather far from that that so uh now I pushed the this problem uh so uh now I pushed the this problem uh based on philosophical ground because uh based on philosophical ground because uh beru processes it's sort of the simplest beru processes it's sort of the simplest uh type of processes and of course uh type of processes and of course nobody in probability ever saw these are nobody in probability ever saw these are important but my own philosophy was that important but my own philosophy was that since it's the most important the simplest situation it must pay big divid evi…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_1861",
+    "t_start": 1862.0,
+    "t_end": 1954.7,
+    "type": "overview",
+    "summary": "have to understand the tales so what are the tals uh okay sry uh I simplify I the tals uh okay sry uh I simplify I just take the case where all the just take the case where all the function have uh expected value function have uh expected value zero so what are the what are the tales zero so what are the what are the tales of a sum of the F of XI now there is there are of course this has been studied a lot by in statistics and um the notation we use is I'll denote by F sub2 the norm in L2 and F Infinity the sub2 the norm in L2 and F Infinity the supremum norm and the Ben benstein inequality…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_1954",
+    "t_start": 1954.7,
+    "t_end": 2050.8,
+    "type": "overview",
+    "summary": "uh that is but then also for classes of function you can use a bound which function you can use a bound which doesn't use cancellation and the bound which doesn't you just you have a sum you just put absolute values so the sum can be small because the sum of the absolute values is already small obviously then there is no cancellation so that gives you a second bound and uh so that gives you a second bound and uh when you have two bound you can when you have two bound you can interpolate between them so interpolate you know it's exactly what I did before uh you your set of indexes you decomp…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_2050",
+    "t_start": 2050.8,
+    "t_end": 2143.9,
+    "type": "overview",
+    "summary": "inequality sues this is this is sort of interesting ah so the philosophically interesting ah so the philosophically when you are in a cocktail party you inequality explain all the cancellation and then you sure you understand something uh now of course there is no miracle that the decomposition exist doesn't mean that it is easy to discover so in practice what do we do with such a so in practice what do we do with such a theorem well um okay I looked at some very non-trivial examples uh of empirical non-trivial examples uh of empirical processes which had been studied before processes which…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_2143",
+    "t_start": 2143.9,
+    "t_end": 2234.5,
+    "type": "overview",
+    "summary": "compact group and on this group you consider a sequence of characters and you consider independent symmetric random variables so symmetric symmetric random variables so symmetric means they have the same law as their opposite and the problem is of the convergence ofand for in which sense you convergence ofand for in which sense you ask when the the random series ask when the the random series fi converges almost surely at fi converges almost surely at convergence is for the uniform convergence is for the uniform convergence of the the on the space of functions now that's for some mysterious…"
+  },
+  {
+    "id": "ku_video_3yIwl6XC0xA_2234",
+    "t_start": 2234.5,
+    "t_end": 2326.2,
+    "type": "overview",
+    "summary": "this sense but again there is a trivial observation that if you take a sequence observation that if you take a sequence of number with the sum of the absolute value is finite then the corresponding F converges to prly because the characters converges to prly because the characters are bounded by one so so as a consequence of that if you take a random Rand series of random functions so that Rand series of random functions so that the the sum is finite almost surely then the the sum is finite almost surely then the corresponding F will converge almost the corresponding F will converge almost …"
+  }
+]

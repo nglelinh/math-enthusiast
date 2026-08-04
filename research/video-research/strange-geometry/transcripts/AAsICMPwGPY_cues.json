@@ -1,0 +1,587 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 1.74,
+    "text": "Math ain't about numbers."
+  },
+  {
+    "t_start": 1.74,
+    "t_end": 7.74,
+    "text": "If you think math is about numbers, you probably think that Shakespeare is all about words."
+  },
+  {
+    "t_start": 7.74,
+    "t_end": 13.96,
+    "text": "You probably think that dancing is all about shoes."
+  },
+  {
+    "t_start": 13.96,
+    "t_end": 16.14,
+    "text": "Math ain't about numbers."
+  },
+  {
+    "t_start": 16.14,
+    "t_end": 20.62,
+    "text": "Math is about logic, it's about beauty, it's about connections, it's about"
+  },
+  {
+    "t_start": 20.62,
+    "t_end": 22.54,
+    "text": "how you get from one place to another."
+  },
+  {
+    "t_start": 22.54,
+    "t_end": 24.54,
+    "text": "And for me,"
+  },
+  {
+    "t_start": 24.54,
+    "t_end": 28.06,
+    "text": "the cool thing about math is a part of it, called topology."
+  },
+  {
+    "t_start": 28.06,
+    "t_end": 32.44,
+    "text": "I'm not even gonna tell you about topology because what I'm interested in"
+  },
+  {
+    "t_start": 32.44,
+    "t_end": 36.84,
+    "text": "is a little section of topology called Non-Orientable Manifolds."
+  },
+  {
+    "t_start": 37.56,
+    "t_end": 41.44,
+    "text": "More specifically, I'm interrested in Klein Bottles."
+  },
+  {
+    "t_start": 41.44,
+    "t_end": 43.2,
+    "text": "This is a Klein Bottle."
+  },
+  {
+    "t_start": 43.2,
+    "t_end": 45.46,
+    "text": "Wait a second. Wait a second."
+  },
+  {
+    "t_start": 45.46,
+    "t_end": 47.66,
+    "text": "We haven't even touched upon a Möbius Loop."
+  },
+  {
+    "t_start": 47.66,
+    "t_end": 51.86,
+    "text": "How can I talk about a Klein Bottle without talking about a Möbius Loop?"
+  },
+  {
+    "t_start": 51.86,
+    "t_end": 53.42,
+    "text": "I take a piece of paper"
+  },
+  {
+    "t_start": 53.42,
+    "t_end": 58.32,
+    "text": "As everybody knows, if I have this piece of paper, it has two sides, four edges."
+  },
+  {
+    "t_start": 58.32,
+    "t_end": 63.0,
+    "text": "Turn around this way it becomes a cylinder, give it a half-twist, and a piece of tape."
+  },
+  {
+    "t_start": 64.5,
+    "t_end": 66.36,
+    "text": "Becomes a Möbius Loop."
+  },
+  {
+    "t_start": 66.36,
+    "t_end": 71.84,
+    "text": "Well, the cool thing about a Möbius Loop (then there is about fifty or sixty cool things about Möbius Loops)"
+  },
+  {
+    "t_start": 71.84,
+    "t_end": 75.24,
+    "text": "is that, it's got one side, it's got one edge."
+  },
+  {
+    "t_start": 75.24,
+    "t_end": 80.48,
+    "text": "Take two Möbius Loops, one left-handed one, the other right-handed one, and I try to connect them."
+  },
+  {
+    "t_start": 80.48,
+    "t_end": 83.62,
+    "text": "Hey! This one has one edge, this one has one edge."
+  },
+  {
+    "t_start": 83.64,
+    "t_end": 88.06,
+    "text": "What happens if I take two Möbius Loops and sew their edges together?"
+  },
+  {
+    "t_start": 88.06,
+    "t_end": 92.06,
+    "text": "Well, I know from experience,"
+  },
+  {
+    "t_start": 93.4,
+    "t_end": 98.1,
+    "text": "that if I have four edges here and four edges here and I connect them."
+  },
+  {
+    "t_start": 98.1,
+    "t_end": 101.84,
+    "text": "Oh! I'll get something that has fewer edges."
+  },
+  {
+    "t_start": 101.84,
+    "t_end": 106.24,
+    "text": "So if I apply that to a Möbius Loop. I got one edge here, one edge here, sew them together."
+  },
+  {
+    "t_start": 106.24,
+    "t_end": 108.46,
+    "text": "I should get something that has... oh."
+  },
+  {
+    "t_start": 109.02,
+    "t_end": 113.42,
+    "text": "I'd lose this edge, I'd lose that edge. I ought to have something with no edges."
+  },
+  {
+    "t_start": 114.24,
+    "t_end": 114.94,
+    "text": "Cool."
+  },
+  {
+    "t_start": 115.38,
+    "t_end": 119.98,
+    "text": "If I take two Möbius Loops, hook them together. I'll get something without any edges."
+  },
+  {
+    "t_start": 119.98,
+    "t_end": 122.06,
+    "text": "Okay, I'm gonna try it."
+  },
+  {
+    "t_start": 123.78,
+    "t_end": 125.2,
+    "text": "HOT DAMN"
+  },
+  {
+    "t_start": 125.2,
+    "t_end": 126.16,
+    "text": "far out"
+  },
+  {
+    "t_start": 126.98,
+    "t_end": 129.3,
+    "text": "Here is a Möbius Loop, here is another Möbius Loop."
+  },
+  {
+    "t_start": 129.3,
+    "t_end": 134.24,
+    "text": "The cool thing is that if I take two Möbius Loops and try to sew them together."
+  },
+  {
+    "t_start": 134.24,
+    "t_end": 139.4,
+    "text": "I end up with a shape that requires four spacial dimensions to exist."
+  },
+  {
+    "t_start": 140.4,
+    "t_end": 142.94,
+    "text": "In that shape it's called a Klein Bottle"
+  },
+  {
+    "t_start": 142.94,
+    "t_end": 152.44,
+    "text": "Named after Felix Klein! Felix Klein! This guy in 1882 came up with the absolutely nifty idea,"
+  },
+  {
+    "t_start": 152.44,
+    "t_end": 158.48,
+    "text": "that if you can take a cylinder, turn it around, and orient one end of it, and loop it through."
+  },
+  {
+    "t_start": 158.48,
+    "t_end": 167.52,
+    "text": "So, his idea was: take a cylinder, bring it through itself, and have the end of the cylinder welded to a base."
+  },
+  {
+    "t_start": 167.52,
+    "t_end": 173.6,
+    "text": "That this would have the cool property of having only one side. What do I mean by one side?"
+  },
+  {
+    "t_start": 173.86,
+    "t_end": 179.28,
+    "text": "If I have an ant crawling around here. [The] ant or caterpillar crawls around."
+  },
+  {
+    "t_start": 179.28,
+    "t_end": 181.34,
+    "text": "Oh, clearly it can cover this whole thing."
+  },
+  {
+    "t_start": 181.36,
+    "t_end": 190.22,
+    "text": "It can then slide continuously, over there, through this tube, and get to the other side of this piece of glass."
+  },
+  {
+    "t_start": 190.22,
+    "t_end": 196.74,
+    "text": "We never cross an edge to get to the inside. Absolutely nifty."
+  },
+  {
+    "t_start": 196.74,
+    "t_end": 199.84,
+    "text": "In an ordinary... Let me get an ordinary bottle."
+  },
+  {
+    "t_start": 199.84,
+    "t_end": 201.2,
+    "text": "Ordinary bottle."
+  },
+  {
+    "t_start": 201.52,
+    "t_end": 202.56,
+    "text": "Well, if I take—"
+  },
+  {
+    "t_start": 202.88,
+    "t_end": 206.06,
+    "text": "if I leave the cap on the bottle, clearly it has two sides."
+  },
+  {
+    "t_start": 206.06,
+    "t_end": 206.78,
+    "text": "Here's an outside..."
+  },
+  {
+    "t_start": 208.38,
+    "t_end": 210.76,
+    "text": "and the inside of the bottle is where I'm touching right now."
+  },
+  {
+    "t_start": 210.76,
+    "t_end": 213.98,
+    "text": "An ant walking around here couldn't get to the other side."
+  },
+  {
+    "t_start": 214.4,
+    "t_end": 216.94,
+    "text": "If I take the top off, watch this."
+  },
+  {
+    "t_start": 216.94,
+    "t_end": 220.88,
+    "text": "An ant walking along here can get to the other side, but he has to cross"
+  },
+  {
+    "t_start": 220.92,
+    "t_end": 223.32,
+    "text": "a peculiar location called an edge."
+  },
+  {
+    "t_start": 224.02,
+    "t_end": 225.38,
+    "text": "If I make this bottle"
+  },
+  {
+    "t_start": 225.68,
+    "t_end": 227.28,
+    "text": "arbitrarily thin,"
+  },
+  {
+    "t_start": 227.7,
+    "t_end": 229.36,
+    "text": "this edge becomes sharp,"
+  },
+  {
+    "t_start": 229.86,
+    "t_end": 235.96,
+    "text": "and the ant cuts— cuts herself when she tries to walk from the outside to the inside."
+  },
+  {
+    "t_start": 236.32,
+    "t_end": 238.54,
+    "text": "In other words, an ordinary bottle"
+  },
+  {
+    "t_start": 239.7,
+    "t_end": 243.02,
+    "text": "has two sides: an outside that I'm touching,"
+  },
+  {
+    "t_start": 243.38,
+    "t_end": 246.02,
+    "text": "and an inside that my finger is touching right now."
+  },
+  {
+    "t_start": 246.74,
+    "t_end": 249.06,
+    "text": "And they're separated by the lip of the bottle."
+  },
+  {
+    "t_start": 249.76,
+    "t_end": 252.06,
+    "text": "And, okay, we all know this."
+  },
+  {
+    "t_start": 252.34,
+    "t_end": 255.36,
+    "text": "A Klein Bottle, meanwhile... watch this."
+  },
+  {
+    "t_start": 255.9,
+    "t_end": 259.26,
+    "text": "You'd walk around here just like [you'd] walk around here,"
+  },
+  {
+    "t_start": 259.82,
+    "t_end": 261.88,
+    "text": "but the other side of my finger"
+  },
+  {
+    "t_start": 262.24,
+    "t_end": 266.18,
+    "text": "I can get to without ever crossing a sharp edge,"
+  },
+  {
+    "t_start": 266.26,
+    "t_end": 270.64,
+    "text": "by carefully walking along, never crossing an edge,"
+  },
+  {
+    "t_start": 271.08,
+    "t_end": 273.84,
+    "text": "going through this tube,"
+  },
+  {
+    "t_start": 274.26,
+    "t_end": 278.04,
+    "text": "and getting to the place that's just on the other side of my finger,"
+  },
+  {
+    "t_start": 278.36,
+    "t_end": 283.66,
+    "text": "In other words: this is a bottle without an edge."
+  },
+  {
+    "t_start": 283.66,
+    "t_end": 286.74,
+    "text": "BRADY: Cliff, I'm comfortable with that, except you just told me that this wasn't"
+  },
+  {
+    "t_start": 286.74,
+    "t_end": 288.16,
+    "text": "possible in three dimensions."
+  },
+  {
+    "t_start": 288.46,
+    "t_end": 295.68,
+    "text": "CLIFF: If we lived... Aw! If we lived in a universe with four spacial dimensions, four-space,"
+  },
+  {
+    "t_start": 296.44,
+    "t_end": 299.5,
+    "text": "this tube wouldn't have to intersect itself"
+  },
+  {
+    "t_start": 299.5,
+    "t_end": 304.98,
+    "text": "This weird place where there is self intersection, right... *hard k* ...there."
+  },
+  {
+    "t_start": 305.26,
+    "t_end": 309.72,
+    "text": "That would not self-intersect, and an ant walking along this way would go:"
+  },
+  {
+    "t_start": 309.72,
+    "t_end": 312.08,
+    "text": "*boop* *boop* *boop* *boop* *boop* *boop* *voop* *voop* *voop* *voop* *voop* *voop* *voop*"
+  },
+  {
+    "t_start": 312.08,
+    "t_end": 316.46,
+    "text": "and would go right through this piece of glass right here and keep walking to the inside"
+  },
+  {
+    "t_start": 316.46,
+    "t_end": 318.56,
+    "text": "And an ant walking around this way:"
+  },
+  {
+    "t_start": 318.56,
+    "t_end": 320.78,
+    "text": "*dg* *dg* *dg*  *dg* *dg* *dg* *dg* *dg* *hard K*"
+  },
+  {
+    "t_start": 320.78,
+    "t_end": 323.76,
+    "text": "would go right through this and keep walking this way."
+  },
+  {
+    "t_start": 323.76,
+    "t_end": 329.06,
+    "text": "BRADY: Cliff! So that hole you've created there so the tube can get through is like the floor?"
+  },
+  {
+    "t_start": 329.12,
+    "t_end": 337.4,
+    "text": "CLIFF: This is worse than the floor. It's this place right here where the manifold... where the glass intersects itself"
+  },
+  {
+    "t_start": 337.4,
+    "t_end": 341.86,
+    "text": "It's a figment of living in a three dimensional universe"
+  },
+  {
+    "t_start": 341.86,
+    "t_end": 346.24,
+    "text": "If we live in four-space, we could go right through"
+  },
+  {
+    "t_start": 346.4,
+    "t_end": 353.4,
+    "text": "On the other hand, that guy Felix Klein showed that in three dimensions you have to have this intersection"
+  },
+  {
+    "t_start": 353.94,
+    "t_end": 359.94,
+    "text": "In a quality universe that has four spacial dimensions, Klein Bottles would be terrific!"
+  },
+  {
+    "t_start": 359.98,
+    "t_end": 365.02,
+    "text": "Here, unfortunately, my Klein Bottles has to have this self intersection."
+  },
+  {
+    "t_start": 365.02,
+    "t_end": 374.74,
+    "text": "When I make Klein Bottle hats... Right? Here's a hat that is the same thing as that glass Klein Bottle."
+  },
+  {
+    "t_start": 375.7,
+    "t_end": 384.24,
+    "text": "Instead of welding it together, I've knitted this hat so that the peak of the hat comes through itself."
+  },
+  {
+    "t_start": 384.7,
+    "t_end": 394.8,
+    "text": "So that the hat itself can... the loop of the hat can be pulled through itself"
+  },
+  {
+    "t_start": 394.96,
+    "t_end": 402.6,
+    "text": "and turn it inside out. But I'd rather not do this because it takes about five minutes to do"
+  },
+  {
+    "t_start": 402.6,
+    "t_end": 406.56,
+    "text": "and I'm stretching things that shouldn't be stretched"
+  },
+  {
+    "t_start": 407.18,
+    "t_end": 416.64,
+    "text": "but ultimately, I ought to be able to pull this sort of inside out. It's continuously deformable back to itself."
+  },
+  {
+    "t_start": 417.94,
+    "t_end": 418.82,
+    "text": "BRADY: Cool!"
+  },
+  {
+    "t_start": 420.0,
+    "t_end": 424.8,
+    "text": "CLIFF: And, along with a matching  Möbius scarf"
+  },
+  {
+    "t_start": 425.24,
+    "t_end": 428.04,
+    "text": "Ah!"
+  },
+  {
+    "t_start": 428.04,
+    "t_end": 430.96,
+    "text": "I'd like to say I'm ready for a California winter"
+  },
+  {
+    "t_start": 430.96,
+    "t_end": 432.34,
+    "text": "Look! Look! Look! Look! Look! Look!"
+  },
+  {
+    "t_start": 434.2,
+    "t_end": 438.68,
+    "text": "[A] friend of mine, Robert Leng, made a paper origami Klein bottle."
+  },
+  {
+    "t_start": 438.74,
+    "t_end": 443.68,
+    "text": "I mean, absolutely sweet. One sheet of paper: it's an origami Klein bottle"
+  },
+  {
+    "t_start": 443.68,
+    "t_end": 449.08,
+    "text": "One of the neat things about mathematical topology is that you don't care what size something is."
+  },
+  {
+    "t_start": 449.08,
+    "t_end": 456.58,
+    "text": "I could expand this, contract it. I can make this... I could stretch it and it'll still have the same mathematical properties"
+  },
+  {
+    "t_start": 456.96,
+    "t_end": 461.44,
+    "text": "Same number of sides, same number of holes, same number of handles."
+  },
+  {
+    "t_start": 461.44,
+    "t_end": 464.18,
+    "text": "Instead of making a big one, I could make it smaller."
+  },
+  {
+    "t_start": 465.1,
+    "t_end": 468.5,
+    "text": "I could make an even smaller Klein Bottle."
+  },
+  {
+    "t_start": 469.04,
+    "t_end": 474.04,
+    "text": "I mean... I can make a Klein Bottle even smaller."
+  },
+  {
+    "t_start": 474.14,
+    "t_end": 478.42,
+    "text": "To a mathematician, these are all the same thing."
+  },
+  {
+    "t_start": 479.22,
+    "t_end": 482.82,
+    "text": "And, of course, I can go in the other direction as well."
+  },
+  {
+    "t_start": 483.54,
+    "t_end": 484.84,
+    "text": "I can make 'em big!"
+  },
+  {
+    "t_start": 485.34,
+    "t_end": 490.48,
+    "text": "So, I had to put a thousand Klein Bottles some place, so I put 'em under my house."
+  },
+  {
+    "t_start": 491.02,
+    "t_end": 495.1,
+    "text": "...and the wheels. You know? Their little motors drive the wheels around..."
+  },
+  {
+    "t_start": 495.38,
+    "t_end": 503.78,
+    "text": "*whirring*"
+  }
+]

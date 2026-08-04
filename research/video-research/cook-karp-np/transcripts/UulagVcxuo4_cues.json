@@ -1,0 +1,3012 @@
+[
+  {
+    "t_start": 6.929,
+    "t_end": 15.34,
+    "text": "ladies and gentlemen please welcome professor"
+  },
+  {
+    "t_start": 20.47,
+    "t_end": 38.06,
+    "text": "I request one of my colleagues to present self with a book"
+  },
+  {
+    "t_start": 41.189,
+    "t_end": 44.22,
+    "text": "action and I'd like to thank the organizers for inviting me here and"
+  },
+  {
+    "t_start": 44.22,
+    "t_end": 54.95,
+    "text": "organizers for inviting me here and there's made my first trip"
+  },
+  {
+    "t_start": 58.38,
+    "t_end": 62.27,
+    "text": "so I want to talk about the P versus NP problem that's what I wonder the prize"
+  },
+  {
+    "t_start": 62.27,
+    "t_end": 69.749,
+    "text": "problem that's what I wonder the prize awards and first of all just mathematic"
+  },
+  {
+    "t_start": 69.749,
+    "t_end": 71.81,
+    "text": "awards and first of all just mathematic or if it's a mathematical question this"
+  },
+  {
+    "t_start": 71.81,
+    "t_end": 76.95,
+    "text": "or if it's a mathematical question this p1d I'll explain with that means the"
+  },
+  {
+    "t_start": 76.95,
+    "t_end": 79.08,
+    "text": "p1d I'll explain with that means the mathematical communities the"
+  },
+  {
+    "t_start": 79.08,
+    "t_end": 86.54,
+    "text": "well-respected question in Mathematica is one in fact it's one of the seven"
+  },
+  {
+    "t_start": 86.54,
+    "t_end": 89.85,
+    "text": "is one in fact it's one of the seven open questions that's each is worth a"
+  },
+  {
+    "t_start": 89.85,
+    "t_end": 93.359,
+    "text": "open questions that's each is worth a million dollars that was offered as"
+  },
+  {
+    "t_start": 93.359,
+    "t_end": 99.75,
+    "text": "million dollars that was offered as either clay mathematics institute"
+  },
+  {
+    "t_start": 103.71,
+    "t_end": 108.48,
+    "text": "so what about RP and then be so roughly four first rough explanation he sent for"
+  },
+  {
+    "t_start": 108.48,
+    "t_end": 112.41,
+    "text": "four first rough explanation he sent for polynomial time and we think of it is"
+  },
+  {
+    "t_start": 112.41,
+    "t_end": 117.0,
+    "text": "polynomial time and we think of it is the class of Easy computational problems"
+  },
+  {
+    "t_start": 117.0,
+    "t_end": 123.24,
+    "text": "the class of Easy computational problems that can be solved relatively easy on"
+  },
+  {
+    "t_start": 123.24,
+    "t_end": 128.67,
+    "text": "that can be solved relatively easy on puters and rather an MP stands for non"
+  },
+  {
+    "t_start": 128.67,
+    "t_end": 131.4,
+    "text": "puters and rather an MP stands for non deterministic calling a few times and he"
+  },
+  {
+    "t_start": 131.4,
+    "t_end": 135.35,
+    "text": "deterministic calling a few times and he does not stand for not he has some"
+  },
+  {
+    "t_start": 135.35,
+    "t_end": 138.33,
+    "text": "does not stand for not he has some there's a possible confusion there in"
+  },
+  {
+    "t_start": 138.33,
+    "t_end": 149.79,
+    "text": "there's a possible confusion there in fact every problem he is also an NP and"
+  },
+  {
+    "t_start": 149.79,
+    "t_end": 152.4,
+    "text": "so yeah so he subset of envy and the empty problems are the ones that can be"
+  },
+  {
+    "t_start": 152.4,
+    "t_end": 155.82,
+    "text": "empty problems are the ones that can be solved by a non-deterministic she had"
+  },
+  {
+    "t_start": 155.82,
+    "t_end": 164.61,
+    "text": "been guests things and but then it has to verify the guests okay so here I'll"
+  },
+  {
+    "t_start": 164.61,
+    "t_end": 168.39,
+    "text": "to verify the guests okay so here I'll explain more about human p and why it"
+  },
+  {
+    "t_start": 168.39,
+    "t_end": 173.04,
+    "text": "explain more about human p and why it matters whether or not he was ending so"
+  },
+  {
+    "t_start": 173.04,
+    "t_end": 176.58,
+    "text": "matters whether or not he was ending so the VP problem is it examines the"
+  },
+  {
+    "t_start": 176.58,
+    "t_end": 180.26,
+    "text": "the VP problem is it examines the problems the arithmetic"
+  },
+  {
+    "t_start": 180.26,
+    "t_end": 185.91,
+    "text": "traditional applications they're easy to do you have no trouble even with"
+  },
+  {
+    "t_start": 185.91,
+    "t_end": 188.61,
+    "text": "do you have no trouble even with millions of students and with square"
+  },
+  {
+    "t_start": 188.61,
+    "t_end": 191.04,
+    "text": "millions of students and with square roots something little less obvious but"
+  },
+  {
+    "t_start": 191.04,
+    "t_end": 193.83,
+    "text": "roots something little less obvious but there are algorithms solving square"
+  },
+  {
+    "t_start": 193.83,
+    "t_end": 199.17,
+    "text": "there are algorithms solving square roots very fast you know that from here"
+  },
+  {
+    "t_start": 199.17,
+    "t_end": 204.96,
+    "text": "every calculator has a button yes instantly get the square root if I"
+  },
+  {
+    "t_start": 204.96,
+    "t_end": 207.0,
+    "text": "instantly get the square root if I disperse an interesting example because"
+  },
+  {
+    "t_start": 207.0,
+    "t_end": 212.31,
+    "text": "disperse an interesting example because it's not a beating the obvious how to"
+  },
+  {
+    "t_start": 212.31,
+    "t_end": 216.42,
+    "text": "find the square root of a very large number let's take hundreds of digits one"
+  },
+  {
+    "t_start": 216.42,
+    "t_end": 218.49,
+    "text": "number let's take hundreds of digits one thing you can't do and even computers"
+  },
+  {
+    "t_start": 218.49,
+    "t_end": 226.47,
+    "text": "can't do is is to use brute force you successively square every number until"
+  },
+  {
+    "t_start": 226.47,
+    "t_end": 233.4,
+    "text": "successively square every number until you find will pass the square temper you"
+  },
+  {
+    "t_start": 233.4,
+    "t_end": 240.33,
+    "text": "you find will pass the square temper you trying to find the square we go and so"
+  },
+  {
+    "t_start": 240.33,
+    "t_end": 242.53,
+    "text": "if you have a hundred decimal digits know who's ever going to do that"
+  },
+  {
+    "t_start": 242.53,
+    "t_end": 245.83,
+    "text": "know who's ever going to do that users expires using this method but of"
+  },
+  {
+    "t_start": 245.83,
+    "t_end": 248.709,
+    "text": "users expires using this method but of course there are other very fast method"
+  },
+  {
+    "t_start": 248.709,
+    "t_end": 252.959,
+    "text": "course there are other very fast method behind you squeeze the best of you guys"
+  },
+  {
+    "t_start": 252.959,
+    "t_end": 258.49,
+    "text": "behind you squeeze the best of you guys where it's extremely fitted so the point"
+  },
+  {
+    "t_start": 258.49,
+    "t_end": 262.029,
+    "text": "where it's extremely fitted so the point is the method used by computers"
+  },
+  {
+    "t_start": 262.029,
+    "t_end": 268.09,
+    "text": "is the method used by computers crucially important if you want to learn"
+  },
+  {
+    "t_start": 268.09,
+    "t_end": 270.249,
+    "text": "crucially important if you want to learn Latin solvent efficiently and most"
+  },
+  {
+    "t_start": 270.249,
+    "t_end": 279.52,
+    "text": "obvious method is certainly not the one that descriptive efficient I saw another"
+  },
+  {
+    "t_start": 279.52,
+    "t_end": 290.159,
+    "text": "that descriptive efficient I saw another good example is"
+  },
+  {
+    "t_start": 302.07,
+    "t_end": 308.12,
+    "text": "okay so that's all they say they're saying I can't hear don't put it up dude"
+  },
+  {
+    "t_start": 308.12,
+    "t_end": 311.64,
+    "text": "saying I can't hear don't put it up dude how's that is that a little better yeah"
+  },
+  {
+    "t_start": 311.64,
+    "t_end": 317.31,
+    "text": "how's that is that a little better yeah I just have to talk about it okay so"
+  },
+  {
+    "t_start": 317.31,
+    "t_end": 320.12,
+    "text": "I just have to talk about it okay so let's get another problem that is"
+  },
+  {
+    "t_start": 320.12,
+    "t_end": 323.61,
+    "text": "let's get another problem that is factory every every number of every"
+  },
+  {
+    "t_start": 323.61,
+    "t_end": 331.25,
+    "text": "product neatly in fact it's a part of the prime numbers and so the interesting"
+  },
+  {
+    "t_start": 331.25,
+    "t_end": 334.11,
+    "text": "the prime numbers and so the interesting computational problem is to find the"
+  },
+  {
+    "t_start": 334.11,
+    "t_end": 343.26,
+    "text": "prime factors we get a number and this is a problem that isn't so easy it's not"
+  },
+  {
+    "t_start": 343.26,
+    "t_end": 345.27,
+    "text": "is a problem that isn't so easy it's not nothing to be true as a matter of fact"
+  },
+  {
+    "t_start": 345.27,
+    "t_end": 352.56,
+    "text": "nothing to be true as a matter of fact and in fact the security of the RSA"
+  },
+  {
+    "t_start": 352.56,
+    "t_end": 355.11,
+    "text": "and in fact the security of the RSA encryption scheme hands on the"
+  },
+  {
+    "t_start": 355.11,
+    "t_end": 357.09,
+    "text": "encryption scheme hands on the assumption that you can't factor large"
+  },
+  {
+    "t_start": 357.09,
+    "t_end": 359.7,
+    "text": "assumption that you can't factor large numbers easily and there's an"
+  },
+  {
+    "t_start": 359.7,
+    "t_end": 362.67,
+    "text": "numbers easily and there's an illustration of that the RSA"
+  },
+  {
+    "t_start": 362.67,
+    "t_end": 367.98,
+    "text": "illustration of that the RSA organization used to advertise publish"
+  },
+  {
+    "t_start": 367.98,
+    "t_end": 377.18,
+    "text": "organization used to advertise publish large numbers which were products of two"
+  },
+  {
+    "t_start": 377.18,
+    "t_end": 382.38,
+    "text": "kinds and then challenge the world to fabulous so I think the record company"
+  },
+  {
+    "t_start": 382.38,
+    "t_end": 387.63,
+    "text": "fabulous so I think the record company public record happen 2009 when they this"
+  },
+  {
+    "t_start": 387.63,
+    "t_end": 390.15,
+    "text": "public record happen 2009 when they this particular number which a product was"
+  },
+  {
+    "t_start": 390.15,
+    "t_end": 402.45,
+    "text": "232 digits long and it was the product of two primes and so it took the people"
+  },
+  {
+    "t_start": 402.45,
+    "t_end": 405.42,
+    "text": "of two primes and so it took the people that took hundreds to hundreds of"
+  },
+  {
+    "t_start": 405.42,
+    "t_end": 406.12,
+    "text": "that took hundreds to hundreds of machine"
+  },
+  {
+    "t_start": 406.12,
+    "t_end": 413.77,
+    "text": "selecta communication where we stand at least can give few years ago in"
+  },
+  {
+    "t_start": 413.77,
+    "t_end": 416.45,
+    "text": "least can give few years ago in factoring them so adds up that's a hard"
+  },
+  {
+    "t_start": 416.45,
+    "t_end": 419.33,
+    "text": "factoring them so adds up that's a hard you're currently it's a hard problem for"
+  },
+  {
+    "t_start": 419.33,
+    "t_end": 423.35,
+    "text": "you're currently it's a hard problem for piece of your heart problem or four"
+  },
+  {
+    "t_start": 423.35,
+    "t_end": 429.95,
+    "text": "piece of your heart problem or four canoes to do and sell speaking one of"
+  },
+  {
+    "t_start": 429.95,
+    "t_end": 434.42,
+    "text": "canoes to do and sell speaking one of the major successes in my field"
+  },
+  {
+    "t_start": 434.42,
+    "t_end": 436.79,
+    "text": "the major successes in my field computational complexity we tried"
+  },
+  {
+    "t_start": 436.79,
+    "t_end": 446.27,
+    "text": "include pelvis are difficult or are not easy is the I the concept of public and"
+  },
+  {
+    "t_start": 446.27,
+    "t_end": 450.26,
+    "text": "easy is the I the concept of public and encryption and so this was introduced by"
+  },
+  {
+    "t_start": 450.26,
+    "t_end": 453.41,
+    "text": "encryption and so this was introduced by Vivian helmet 1976 and the particular"
+  },
+  {
+    "t_start": 453.41,
+    "t_end": 460.43,
+    "text": "Vivian helmet 1976 and the particular method used RSA in 1978 so the idea is"
+  },
+  {
+    "t_start": 460.43,
+    "t_end": 462.95,
+    "text": "it's possible to securely send an encrypted message in a public channel"
+  },
+  {
+    "t_start": 462.95,
+    "t_end": 464.93,
+    "text": "encrypted message in a public channel without the parties agreeing ahead of"
+  },
+  {
+    "t_start": 464.93,
+    "t_end": 473.56,
+    "text": "time on a secret keeper and of course the security depends on some assumption"
+  },
+  {
+    "t_start": 473.56,
+    "t_end": 477.32,
+    "text": "the security depends on some assumption that is computationally intractable with"
+  },
+  {
+    "t_start": 477.32,
+    "t_end": 480.86,
+    "text": "that is computationally intractable with computers so I've been just pointing"
+  },
+  {
+    "t_start": 480.86,
+    "t_end": 486.05,
+    "text": "computers so I've been just pointing that that the earlier on of course"
+  },
+  {
+    "t_start": 486.05,
+    "t_end": 492.44,
+    "text": "there's plenty of encryption going on and but they're the two parties had the"
+  },
+  {
+    "t_start": 492.44,
+    "t_end": 494.78,
+    "text": "and but they're the two parties had the people doing the encryption and the"
+  },
+  {
+    "t_start": 494.78,
+    "t_end": 502.75,
+    "text": "people doing the encryption and the receivers had to agree on the secret key"
+  },
+  {
+    "t_start": 507.94,
+    "t_end": 511.6,
+    "text": "so how is public key encryption work an example is capable send your credit card"
+  },
+  {
+    "t_start": 511.6,
+    "t_end": 514.65,
+    "text": "example is capable send your credit card number securely over the Internet"
+  },
+  {
+    "t_start": 514.65,
+    "t_end": 519.79,
+    "text": "presumably my paypal even though the Internet itself is not secure people can"
+  },
+  {
+    "t_start": 519.79,
+    "t_end": 529.18,
+    "text": "Internet itself is not secure people can be strong but what to send so the way it"
+  },
+  {
+    "t_start": 529.18,
+    "t_end": 533.47,
+    "text": "works paypal sentence the hay house computer and it's a public duty I'm"
+  },
+  {
+    "t_start": 533.47,
+    "t_end": 536.5,
+    "text": "computer and it's a public duty I'm sorry use random bits to find multiple"
+  },
+  {
+    "t_start": 536.5,
+    "t_end": 538.9,
+    "text": "sorry use random bits to find multiple icky and come up with the public and"
+  },
+  {
+    "t_start": 538.9,
+    "t_end": 549.46,
+    "text": "private key and then Republic is the same to the 70 you take those represent"
+  },
+  {
+    "t_start": 549.46,
+    "t_end": 552.49,
+    "text": "same to the 70 you take those represent some long string of digits to your"
+  },
+  {
+    "t_start": 552.49,
+    "t_end": 555.73,
+    "text": "some long string of digits to your computer and that that's insecure"
+  },
+  {
+    "t_start": 555.73,
+    "t_end": 563.17,
+    "text": "interceding that the other people are listening in and time the public Katie"
+  },
+  {
+    "t_start": 563.17,
+    "t_end": 569.14,
+    "text": "listening in and time the public Katie here your computer uses the public key"
+  },
+  {
+    "t_start": 569.14,
+    "t_end": 572.11,
+    "text": "crypto spread charge your credit card number so it applies function to these"
+  },
+  {
+    "t_start": 572.11,
+    "t_end": 573.369,
+    "text": "number so it applies function to these things and"
+  },
+  {
+    "t_start": 573.369,
+    "t_end": 581.71,
+    "text": "this and then its sense of encrypted code to take hell and paypal is a three"
+  },
+  {
+    "t_start": 581.71,
+    "t_end": 585.519,
+    "text": "code to take hell and paypal is a three uses private in to recover your credit"
+  },
+  {
+    "t_start": 585.519,
+    "t_end": 588.869,
+    "text": "uses private in to recover your credit card number but the assumption is even"
+  },
+  {
+    "t_start": 588.869,
+    "t_end": 593.589,
+    "text": "card number but the assumption is even those eavesdroppers that that know the"
+  },
+  {
+    "t_start": 593.589,
+    "t_end": 599.169,
+    "text": "public key is in even though the public views to encrypt it can't lose interest"
+  },
+  {
+    "t_start": 599.169,
+    "t_end": 601.659,
+    "text": "views to encrypt it can't lose interest and so it soon be computationally"
+  },
+  {
+    "t_start": 601.659,
+    "t_end": 608.499,
+    "text": "and so it soon be computationally infeasible for just knowing the key to"
+  },
+  {
+    "t_start": 608.499,
+    "t_end": 615.129,
+    "text": "infeasible for just knowing the key to becoming and so in the RSA scheme part"
+  },
+  {
+    "t_start": 615.129,
+    "t_end": 617.979,
+    "text": "becoming and so in the RSA scheme part of the private key and consists of"
+  },
+  {
+    "t_start": 617.979,
+    "t_end": 621.009,
+    "text": "of the private key and consists of generating Ryan large random prime"
+  },
+  {
+    "t_start": 621.009,
+    "t_end": 628.719,
+    "text": "numbers of several hundred did you see those numbers of p2 and then the public"
+  },
+  {
+    "t_start": 628.719,
+    "t_end": 631.299,
+    "text": "those numbers of p2 and then the public page consists partly of dis computing"
+  },
+  {
+    "t_start": 631.299,
+    "t_end": 636.819,
+    "text": "the product between Q so and then an assumption is knowing a product that's"
+  },
+  {
+    "t_start": 636.819,
+    "t_end": 640.509,
+    "text": "assumption is knowing a product that's cut really feasible defective and that"
+  },
+  {
+    "t_start": 640.509,
+    "t_end": 642.849,
+    "text": "cut really feasible defective and that seems to be the case at least at least"
+  },
+  {
+    "t_start": 642.849,
+    "t_end": 647.109,
+    "text": "seems to be the case at least at least the present but we can't prove and"
+  },
+  {
+    "t_start": 647.109,
+    "t_end": 649.239,
+    "text": "the present but we can't prove and that's what the mathematics the"
+  },
+  {
+    "t_start": 649.239,
+    "t_end": 654.249,
+    "text": "computation of plexi what we're really trying to do is prove that some problems"
+  },
+  {
+    "t_start": 654.249,
+    "t_end": 657.159,
+    "text": "trying to do is prove that some problems can't be easily computed and that's"
+  },
+  {
+    "t_start": 657.159,
+    "t_end": 667.059,
+    "text": "that's extremely difficult and the example certain factory all right so"
+  },
+  {
+    "t_start": 667.059,
+    "t_end": 671.169,
+    "text": "example certain factory all right so todd computation plexi theory classifies"
+  },
+  {
+    "t_start": 671.169,
+    "t_end": 673.509,
+    "text": "todd computation plexi theory classifies problems according to the computational"
+  },
+  {
+    "t_start": 673.509,
+    "t_end": 681.0,
+    "text": "problems according to the computational difficulty and so the standard class p"
+  },
+  {
+    "t_start": 681.0,
+    "t_end": 686.32,
+    "text": "that we talked about in the first to find my Elle column and jacket"
+  },
+  {
+    "t_start": 686.32,
+    "t_end": 690.79,
+    "text": "first to find my Elle column and jacket the 96 mathematical definition is"
+  },
+  {
+    "t_start": 690.79,
+    "t_end": 693.07,
+    "text": "the 96 mathematical definition is consistent problems that have an"
+  },
+  {
+    "t_start": 693.07,
+    "t_end": 698.65,
+    "text": "consistent problems that have an efficient algorithm efficiently that the"
+  },
+  {
+    "t_start": 698.65,
+    "t_end": 705.49,
+    "text": "running time of the algorithm is founded by a fixed power of the input length and"
+  },
+  {
+    "t_start": 705.49,
+    "t_end": 708.37,
+    "text": "by a fixed power of the input length and that's why we call it fixed Paulino"
+  },
+  {
+    "t_start": 708.37,
+    "t_end": 715.12,
+    "text": "thats why we call polynomial time and so and here is the number we need a number"
+  },
+  {
+    "t_start": 715.12,
+    "t_end": 717.46,
+    "text": "and here is the number we need a number of digits for example in the prime"
+  },
+  {
+    "t_start": 717.46,
+    "t_end": 720.79,
+    "text": "of digits for example in the prime factorization office to the wing of the"
+  },
+  {
+    "t_start": 720.79,
+    "t_end": 723.64,
+    "text": "factorization office to the wing of the input to your confrontation problem and"
+  },
+  {
+    "t_start": 723.64,
+    "t_end": 726.16,
+    "text": "input to your confrontation problem and if there's an algorithm that can solve"
+  },
+  {
+    "t_start": 726.16,
+    "t_end": 730.3,
+    "text": "if there's an algorithm that can solve the problem in some pics power then then"
+  },
+  {
+    "t_start": 730.3,
+    "t_end": 734.47,
+    "text": "the problem in some pics power then then its problems and peeps and so lots of"
+  },
+  {
+    "t_start": 734.47,
+    "t_end": 739.63,
+    "text": "its problems and peeps and so lots of examples that we mentioned are calling"
+  },
+  {
+    "t_start": 739.63,
+    "t_end": 742.57,
+    "text": "examples that we mentioned are calling time problems arithmetics from square"
+  },
+  {
+    "t_start": 742.57,
+    "t_end": 745.78,
+    "text": "time problems arithmetics from square limbs shortest patna proposed pattern"
+  },
+  {
+    "t_start": 745.78,
+    "t_end": 749.88,
+    "text": "limbs shortest patna proposed pattern matching fast fourier transform and"
+  },
+  {
+    "t_start": 749.88,
+    "t_end": 753.07,
+    "text": "matching fast fourier transform and interesting recognizing client numbers"
+  },
+  {
+    "t_start": 753.07,
+    "t_end": 761.35,
+    "text": "interesting recognizing client numbers is turns out to be helping repeat and"
+  },
+  {
+    "t_start": 761.35,
+    "t_end": 766.02,
+    "text": "that's a result that that was open question finally solved by"
+  },
+  {
+    "t_start": 770.7,
+    "t_end": 772.98,
+    "text": "thousand to theirs there is based on number three principles of polynomial"
+  },
+  {
+    "t_start": 772.98,
+    "t_end": 776.64,
+    "text": "number three principles of polynomial time algorithm to recognize prize but"
+  },
+  {
+    "t_start": 776.64,
+    "t_end": 778.44,
+    "text": "time algorithm to recognize prize but that's different of course the factoring"
+  },
+  {
+    "t_start": 778.44,
+    "t_end": 787.49,
+    "text": "that's different of course the factoring a number recognizing Pines is easier"
+  },
+  {
+    "t_start": 790.23,
+    "t_end": 793.35,
+    "text": "okay now so what about empty non-deterministic polynomial time so"
+  },
+  {
+    "t_start": 793.35,
+    "t_end": 797.25,
+    "text": "that consists of problems that can be efficiently verified and I think it's"
+  },
+  {
+    "t_start": 797.25,
+    "t_end": 803.4,
+    "text": "good to think of any problems or search problems where you have an exponentially"
+  },
+  {
+    "t_start": 803.4,
+    "t_end": 809.79,
+    "text": "problems where you have an exponentially large search space and your time to find"
+  },
+  {
+    "t_start": 809.79,
+    "t_end": 817.16,
+    "text": "problem in an example is a factor in factoring in the search space to do we"
+  },
+  {
+    "t_start": 817.16,
+    "t_end": 821.03,
+    "text": "factoring in the search space to do we start of all couples of members and"
+  },
+  {
+    "t_start": 821.03,
+    "t_end": 823.86,
+    "text": "start of all couples of members and you're trying to divide the right one"
+  },
+  {
+    "t_start": 823.86,
+    "t_end": 826.35,
+    "text": "you're trying to divide the right one that represents the prime factors of"
+  },
+  {
+    "t_start": 826.35,
+    "t_end": 835.47,
+    "text": "your number and it but for a prop for a search problem to be an empty you have"
+  },
+  {
+    "t_start": 835.47,
+    "t_end": 839.28,
+    "text": "search problem to be an empty you have to have a pathway is verified decision"
+  },
+  {
+    "t_start": 839.28,
+    "t_end": 841.56,
+    "text": "to have a pathway is verified decision if you find it somehow or somebody tells"
+  },
+  {
+    "t_start": 841.56,
+    "t_end": 845.04,
+    "text": "if you find it somehow or somebody tells you it you can verify solutions and"
+  },
+  {
+    "t_start": 845.04,
+    "t_end": 848.94,
+    "text": "you it you can verify solutions and polynomial time said laughing"
+  },
+  {
+    "t_start": 848.94,
+    "t_end": 854.62,
+    "text": "or an NP foe may be very hard to find solutions whether to find it to Europe"
+  },
+  {
+    "t_start": 854.62,
+    "t_end": 857.949,
+    "text": "solutions whether to find it to Europe and so prime factorization is an entity"
+  },
+  {
+    "t_start": 857.949,
+    "t_end": 861.699,
+    "text": "and so prime factorization is an entity problem in general cracking"
+  },
+  {
+    "t_start": 861.699,
+    "t_end": 869.11,
+    "text": "cryptographic protocols tends to be the guest if you can be required and it's"
+  },
+  {
+    "t_start": 869.11,
+    "t_end": 873.94,
+    "text": "guest if you can be required and it's all lines of scheduling problems that"
+  },
+  {
+    "t_start": 873.94,
+    "t_end": 878.56,
+    "text": "all lines of scheduling problems that are NP problems it's important d"
+  },
+  {
+    "t_start": 878.56,
+    "t_end": 881.139,
+    "text": "are NP problems it's important d problems where now we formulate the"
+  },
+  {
+    "t_start": 881.139,
+    "t_end": 884.41,
+    "text": "problems where now we formulate the problem 14 for scheduling trucks you"
+  },
+  {
+    "t_start": 884.41,
+    "t_end": 888.55,
+    "text": "problem 14 for scheduling trucks you would have a bunch of destinations that"
+  },
+  {
+    "t_start": 888.55,
+    "t_end": 891.37,
+    "text": "would have a bunch of destinations that you're trying to deliver goods to and"
+  },
+  {
+    "t_start": 891.37,
+    "t_end": 897.04,
+    "text": "you're trying to deliver goods to and the scheduling and then you say can you"
+  },
+  {
+    "t_start": 897.04,
+    "t_end": 900.37,
+    "text": "organize all the truck stick at all these cities with us they've been given"
+  },
+  {
+    "t_start": 900.37,
+    "t_end": 902.32,
+    "text": "these cities with us they've been given total mileage limit or something like"
+  },
+  {
+    "t_start": 902.32,
+    "t_end": 909.19,
+    "text": "that and again if you can find the solution you can verify that that it can"
+  },
+  {
+    "t_start": 909.19,
+    "t_end": 920.29,
+    "text": "solution you can verify that that it can be done but the search space is huge is"
+  },
+  {
+    "t_start": 920.29,
+    "t_end": 922.09,
+    "text": "exponential so roughly in are the problems for which the solution is"
+  },
+  {
+    "t_start": 922.09,
+    "t_end": 924.61,
+    "text": "problems for which the solution is getting five and efficiently and heated"
+  },
+  {
+    "t_start": 924.61,
+    "t_end": 930.37,
+    "text": "getting five and efficiently and heated problems for solutions to be efficiently"
+  },
+  {
+    "t_start": 930.37,
+    "t_end": 939.25,
+    "text": "whether every problem then he is in fact in P so we can verify the solution when"
+  },
+  {
+    "t_start": 939.25,
+    "t_end": 941.29,
+    "text": "in P so we can verify the solution when you find it easily than evacuated"
+  },
+  {
+    "t_start": 941.29,
+    "t_end": 947.8,
+    "text": "finding now we think not the examples oh there's lots of examples what he seems"
+  },
+  {
+    "t_start": 947.8,
+    "t_end": 953.38,
+    "text": "there's lots of examples what he seems to be cases so the conjecture week flexi"
+  },
+  {
+    "t_start": 953.38,
+    "t_end": 956.319,
+    "text": "to be cases so the conjecture week flexi nearest conjecture that he is not equal"
+  },
+  {
+    "t_start": 956.319,
+    "t_end": 961.31,
+    "text": "nearest conjecture that he is not equal to that there are problems that do not"
+  },
+  {
+    "t_start": 961.31,
+    "t_end": 968.33,
+    "text": "solutions but what we'd love to do is prove it mathematically that there are"
+  },
+  {
+    "t_start": 968.33,
+    "t_end": 973.09,
+    "text": "problems cemented that are not me and that's the open million-dollar question"
+  },
+  {
+    "t_start": 973.09,
+    "t_end": 982.55,
+    "text": "that's the open million-dollar question that we claim at mathematics is to offer"
+  },
+  {
+    "t_start": 982.55,
+    "t_end": 985.31,
+    "text": "them can you prove it up in an or bail by the way in group e equals NP there"
+  },
+  {
+    "t_start": 985.31,
+    "t_end": 991.52,
+    "text": "by the way in group e equals NP there may be a million dollars too but we tend"
+  },
+  {
+    "t_start": 991.52,
+    "t_end": 996.71,
+    "text": "may be a million dollars too but we tend to think that's probably not but I just"
+  },
+  {
+    "t_start": 996.71,
+    "t_end": 999.29,
+    "text": "to think that's probably not but I just mention here that proving something"
+  },
+  {
+    "t_start": 999.29,
+    "t_end": 1004.18,
+    "text": "isn't he we have an idea how to do you just give the algorithm improve that"
+  },
+  {
+    "t_start": 1004.18,
+    "t_end": 1007.21,
+    "text": "just give the algorithm improve that it's fast and works but it's much much"
+  },
+  {
+    "t_start": 1007.21,
+    "t_end": 1009.78,
+    "text": "it's fast and works but it's much much harder to show their eggs milk no"
+  },
+  {
+    "t_start": 1009.78,
+    "t_end": 1012.49,
+    "text": "harder to show their eggs milk no efficient melton for a problem that"
+  },
+  {
+    "t_start": 1012.49,
+    "t_end": 1018.27,
+    "text": "efficient melton for a problem that turns out the extremely difficult and"
+  },
+  {
+    "t_start": 1021.97,
+    "t_end": 1024.04,
+    "text": "one reason is that there are but there are search problems an example was"
+  },
+  {
+    "t_start": 1024.04,
+    "t_end": 1026.74,
+    "text": "are search problems an example was finding the square where my first thing"
+  },
+  {
+    "t_start": 1026.74,
+    "t_end": 1031.48,
+    "text": "finding the square where my first thing you have to try a lot of all possible"
+  },
+  {
+    "t_start": 1031.48,
+    "t_end": 1035.71,
+    "text": "numbers but AG are secured the totally easy wet and another example is the"
+  },
+  {
+    "t_start": 1035.71,
+    "t_end": 1040.48,
+    "text": "easy wet and another example is the matching problem where one way of it's"
+  },
+  {
+    "t_start": 1040.48,
+    "t_end": 1047.17,
+    "text": "really a rat problem but one way of saying given a large people on you want"
+  },
+  {
+    "t_start": 1047.17,
+    "t_end": 1050.17,
+    "text": "saying given a large people on you want to pair them up to work on projects we"
+  },
+  {
+    "t_start": 1050.17,
+    "t_end": 1050.98,
+    "text": "to pair them up to work on projects we know we"
+  },
+  {
+    "t_start": 1050.98,
+    "t_end": 1060.97,
+    "text": "people are compatible and if possible we want to put them all in pairs and so is"
+  },
+  {
+    "t_start": 1060.97,
+    "t_end": 1063.94,
+    "text": "want to put them all in pairs and so is it if you know raptor either suggest a"
+  },
+  {
+    "t_start": 1063.94,
+    "t_end": 1066.52,
+    "text": "it if you know raptor either suggest a graph problem of nodes in the graph are"
+  },
+  {
+    "t_start": 1066.52,
+    "t_end": 1070.81,
+    "text": "graph problem of nodes in the graph are the people and the edges connect any two"
+  },
+  {
+    "t_start": 1070.81,
+    "t_end": 1072.669,
+    "text": "the people and the edges connect any two people that are available so you're just"
+  },
+  {
+    "t_start": 1072.669,
+    "t_end": 1076.47,
+    "text": "people that are available so you're just trying to find a collection of edges"
+  },
+  {
+    "t_start": 1076.47,
+    "t_end": 1079.87,
+    "text": "trying to find a collection of edges disjoint edges that kids every person"
+  },
+  {
+    "t_start": 1079.87,
+    "t_end": 1085.95,
+    "text": "disjoint edges that kids every person and to get a good force is not going to"
+  },
+  {
+    "t_start": 1085.95,
+    "t_end": 1089.919,
+    "text": "and to get a good force is not going to find this in the United calling them"
+  },
+  {
+    "t_start": 1089.919,
+    "t_end": 1092.94,
+    "text": "find this in the United calling them because they're exponentially many"
+  },
+  {
+    "t_start": 1092.94,
+    "t_end": 1101.56,
+    "text": "possible sets of edges pairs people that might be the answer but it turns out"
+  },
+  {
+    "t_start": 1101.56,
+    "t_end": 1104.31,
+    "text": "might be the answer but it turns out again at the same jacket and student"
+  },
+  {
+    "t_start": 1104.31,
+    "t_end": 1109.15,
+    "text": "again at the same jacket and student polls the problem he proved that there"
+  },
+  {
+    "t_start": 1109.15,
+    "t_end": 1111.43,
+    "text": "polls the problem he proved that there is a very efficient algorithm for"
+  },
+  {
+    "t_start": 1111.43,
+    "t_end": 1114.669,
+    "text": "is a very efficient algorithm for solving the magic problem okay and that"
+  },
+  {
+    "t_start": 1114.669,
+    "t_end": 1118.03,
+    "text": "solving the magic problem okay and that that's not at all obvious on doing so"
+  },
+  {
+    "t_start": 1118.03,
+    "t_end": 1120.76,
+    "text": "that's not at all obvious on doing so again is a problem so some and he"
+  },
+  {
+    "t_start": 1120.76,
+    "t_end": 1123.18,
+    "text": "again is a problem so some and he probably turn out to have easy solutions"
+  },
+  {
+    "t_start": 1123.18,
+    "t_end": 1129.94,
+    "text": "probably turn out to have easy solutions and some apparently done so then of how"
+  },
+  {
+    "t_start": 1129.94,
+    "t_end": 1134.07,
+    "text": "and some apparently done so then of how do we identify problems that are hard"
+  },
+  {
+    "t_start": 1134.07,
+    "t_end": 1135.869,
+    "text": "do we identify problems that are hard and"
+  },
+  {
+    "t_start": 1135.869,
+    "t_end": 1143.459,
+    "text": "sir is well we have a notion that's the NP complete problem of the hard way and"
+  },
+  {
+    "t_start": 1143.459,
+    "t_end": 1146.729,
+    "text": "NP complete problem of the hard way and so how do we define an empty problem"
+  },
+  {
+    "t_start": 1146.729,
+    "t_end": 1149.009,
+    "text": "so how do we define an empty problem when we got the notion of inducibility"
+  },
+  {
+    "t_start": 1149.009,
+    "t_end": 1157.439,
+    "text": "when we got the notion of inducibility so a is P reduce it would be in force P"
+  },
+  {
+    "t_start": 1157.439,
+    "t_end": 1164.689,
+    "text": "the problem is TVs could be if they had Oracle for me that it would be used to"
+  },
+  {
+    "t_start": 1164.689,
+    "t_end": 1168.059,
+    "text": "Oracle for me that it would be used to efficiently solve anything solvay about"
+  },
+  {
+    "t_start": 1168.059,
+    "t_end": 1173.339,
+    "text": "efficiently solve anything solvay about the time so another it to be at a"
+  },
+  {
+    "t_start": 1173.339,
+    "t_end": 1174.899,
+    "text": "procedure that's all be I am black box procedures and we don't know how it"
+  },
+  {
+    "t_start": 1174.899,
+    "t_end": 1177.889,
+    "text": "procedures and we don't know how it works right of any but somehow comes up"
+  },
+  {
+    "t_start": 1177.889,
+    "t_end": 1181.309,
+    "text": "works right of any but somehow comes up preferences if you can use that salt"
+  },
+  {
+    "t_start": 1181.309,
+    "t_end": 1193.079,
+    "text": "preferences if you can use that salt than to use P and and the point is if"
+  },
+  {
+    "t_start": 1193.079,
+    "t_end": 1197.789,
+    "text": "than to use P and and the point is if you hit any good procedure for be course"
+  },
+  {
+    "t_start": 1197.789,
+    "t_end": 1205.379,
+    "text": "you hit any good procedure for be course that would be into procedure for solving"
+  },
+  {
+    "t_start": 1205.379,
+    "t_end": 1214.409,
+    "text": "would be P is P of these easy amazed so class p is robust and a sex is closed"
+  },
+  {
+    "t_start": 1214.409,
+    "t_end": 1217.36,
+    "text": "class p is robust and a sex is closed under"
+  },
+  {
+    "t_start": 1221.27,
+    "t_end": 1223.7,
+    "text": "okay so what about any complete problems pays and be completely first of all it's"
+  },
+  {
+    "t_start": 1223.7,
+    "t_end": 1232.16,
+    "text": "in the class NP and second of all every problem k &amp; B is being useful p so it's"
+  },
+  {
+    "t_start": 1232.16,
+    "t_end": 1236.6,
+    "text": "problem k &amp; B is being useful p so it's a very strong condition intuitively asnd"
+  },
+  {
+    "t_start": 1236.6,
+    "t_end": 1239.99,
+    "text": "a very strong condition intuitively asnd completes as hard as any and he probably"
+  },
+  {
+    "t_start": 1239.99,
+    "t_end": 1249.23,
+    "text": "completes as hard as any and he probably and so and then we'll call the theorem"
+  },
+  {
+    "t_start": 1249.23,
+    "t_end": 1255.32,
+    "text": "and so and then we'll call the theorem and easy back in the days and he could"
+  },
+  {
+    "t_start": 1255.32,
+    "t_end": 1258.11,
+    "text": "and easy back in the days and he could be an a's and feet that people's energy"
+  },
+  {
+    "t_start": 1258.11,
+    "t_end": 1260.27,
+    "text": "be an a's and feet that people's energy in other words if you want to show"
+  },
+  {
+    "t_start": 1260.27,
+    "t_end": 1262.7,
+    "text": "in other words if you want to show people's everything is sufficient to"
+  },
+  {
+    "t_start": 1262.7,
+    "t_end": 1270.1,
+    "text": "find any entity to be problem and give it a polynomial-time healthy and then be"
+  },
+  {
+    "t_start": 1270.1,
+    "t_end": 1279.38,
+    "text": "it a polynomial-time healthy and then be presented and their turn out to be"
+  },
+  {
+    "t_start": 1279.38,
+    "t_end": 1281.75,
+    "text": "thousands of any problems and that fat pack is very tempting for the public who"
+  },
+  {
+    "t_start": 1281.75,
+    "t_end": 1284.42,
+    "text": "pack is very tempting for the public who knows about this million-dollar prize"
+  },
+  {
+    "t_start": 1284.42,
+    "t_end": 1291.33,
+    "text": "and then fact i get triggered email they found a public time solution for"
+  },
+  {
+    "t_start": 1291.33,
+    "t_end": 1295.98,
+    "text": "they found a public time solution for some problem and therefore equals ending"
+  },
+  {
+    "t_start": 1295.98,
+    "t_end": 1307.88,
+    "text": "some problem and therefore equals ending but they've all turned out before okay"
+  },
+  {
+    "t_start": 1311.07,
+    "t_end": 1312.93,
+    "text": "okay as I say so much what's remarkable is that thousands of problems that"
+  },
+  {
+    "t_start": 1312.93,
+    "t_end": 1320.94,
+    "text": "turned out to be an deeply and most scheduling problems like that episode I"
+  },
+  {
+    "t_start": 1320.94,
+    "t_end": 1325.85,
+    "text": "scheduling problems like that episode I mentioned jewelry x exams scheduling etc"
+  },
+  {
+    "t_start": 1325.85,
+    "t_end": 1334.35,
+    "text": "mentioned jewelry x exams scheduling etc turn out to be a complete and maybe so"
+  },
+  {
+    "t_start": 1334.35,
+    "t_end": 1336.75,
+    "text": "here here's an interesting example of a well we call it the exam schedule"
+  },
+  {
+    "t_start": 1336.75,
+    "t_end": 1341.37,
+    "text": "well we call it the exam schedule problem let's say we at university"
+  },
+  {
+    "t_start": 1341.37,
+    "t_end": 1346.86,
+    "text": "states this problem all the time lots of schedule and examinations where we have"
+  },
+  {
+    "t_start": 1346.86,
+    "t_end": 1352.68,
+    "text": "schedule and examinations where we have some limited number of time slots and i"
+  },
+  {
+    "t_start": 1352.68,
+    "t_end": 1355.71,
+    "text": "am sa just three times what is already three with just three times larger"
+  },
+  {
+    "t_start": 1355.71,
+    "t_end": 1360.87,
+    "text": "three with just three times larger problems difficult and so we have"
+  },
+  {
+    "t_start": 1360.87,
+    "t_end": 1364.8,
+    "text": "problems difficult and so we have constraints because k more than one exam"
+  },
+  {
+    "t_start": 1364.8,
+    "t_end": 1368.19,
+    "text": "constraints because k more than one exam obviously can't schedule both there"
+  },
+  {
+    "t_start": 1368.19,
+    "t_end": 1374.73,
+    "text": "several exams in the same time for different city so how to fight between"
+  },
+  {
+    "t_start": 1374.73,
+    "t_end": 1379.1,
+    "text": "different city so how to fight between two exams put an edge you ping a bit to"
+  },
+  {
+    "t_start": 1379.1,
+    "t_end": 1385.96,
+    "text": "the nodes of the graph 20 times and the conflicts are edges between the pair"
+  },
+  {
+    "t_start": 1385.96,
+    "t_end": 1391.34,
+    "text": "executive an edge between the pair of exams is some students is taking has to"
+  },
+  {
+    "t_start": 1391.34,
+    "t_end": 1395.02,
+    "text": "exams is some students is taking has to take over them and they can't be safe"
+  },
+  {
+    "t_start": 1395.02,
+    "t_end": 1400.15,
+    "text": "take over them and they can't be safe but they want the problem is to assign"
+  },
+  {
+    "t_start": 1400.15,
+    "t_end": 1404.53,
+    "text": "but they want the problem is to assign time thoughts come to everything fig jam"
+  },
+  {
+    "t_start": 1404.53,
+    "t_end": 1407.36,
+    "text": "time thoughts come to everything fig jam incessant way there are no final if it"
+  },
+  {
+    "t_start": 1407.36,
+    "t_end": 1410.36,
+    "text": "incessant way there are no final if it exists as part of the decision problem"
+  },
+  {
+    "t_start": 1410.36,
+    "t_end": 1413.18,
+    "text": "exists as part of the decision problem is paper there's no solution terminal"
+  },
+  {
+    "t_start": 1413.18,
+    "t_end": 1419.24,
+    "text": "is paper there's no solution terminal solution and this is this isn't gravity"
+  },
+  {
+    "t_start": 1419.24,
+    "t_end": 1423.77,
+    "text": "this is known as graph green color ability the exams of the nodes of the"
+  },
+  {
+    "t_start": 1423.77,
+    "t_end": 1430.58,
+    "text": "ability the exams of the nodes of the graph and the edges of the constraints"
+  },
+  {
+    "t_start": 1430.58,
+    "t_end": 1433.18,
+    "text": "and the ideas you are signing one of three colors red blue green or whatever"
+  },
+  {
+    "t_start": 1433.18,
+    "t_end": 1438.44,
+    "text": "three colors red blue green or whatever to each node in such a way that Jason"
+  },
+  {
+    "t_start": 1438.44,
+    "t_end": 1441.919,
+    "text": "to each node in such a way that Jason knows notes confinement do not the same"
+  },
+  {
+    "t_start": 1441.919,
+    "t_end": 1444.98,
+    "text": "knows notes confinement do not the same color is that possible Leslie that's the"
+  },
+  {
+    "t_start": 1444.98,
+    "t_end": 1449.169,
+    "text": "color is that possible Leslie that's the question so here's a simple example and"
+  },
+  {
+    "t_start": 1449.169,
+    "t_end": 1454.159,
+    "text": "question so here's a simple example and the Petersons graph and the question is"
+  },
+  {
+    "t_start": 1454.159,
+    "t_end": 1458.84,
+    "text": "the Petersons graph and the question is is there a way of assigned powers for"
+  },
+  {
+    "t_start": 1458.84,
+    "t_end": 1463.22,
+    "text": "those university ground in such a way that say red blue green"
+  },
+  {
+    "t_start": 1463.22,
+    "t_end": 1470.06,
+    "text": "that say red blue green those have colors and there is there is"
+  },
+  {
+    "t_start": 1470.06,
+    "t_end": 1476.64,
+    "text": "those have colors and there is there is easily check look at every age and"
+  },
+  {
+    "t_start": 1476.64,
+    "t_end": 1480.9,
+    "text": "notice is that the colors at the end point to PKG are extinct so you say"
+  },
+  {
+    "t_start": 1480.9,
+    "t_end": 1489.14,
+    "text": "point to PKG are extinct so you say peterson grab is three color now this"
+  },
+  {
+    "t_start": 1489.14,
+    "t_end": 1496.32,
+    "text": "peterson grab is three color now this this grab did i say no this this problem"
+  },
+  {
+    "t_start": 1496.32,
+    "t_end": 1502.58,
+    "text": "this grab did i say no this this problem is np-complete turns out to be enemies"
+  },
+  {
+    "t_start": 1506.1,
+    "t_end": 1508.56,
+    "text": "even with just three colors the problem given a graph in general portugal were"
+  },
+  {
+    "t_start": 1508.56,
+    "t_end": 1516.45,
+    "text": "given a graph in general portugal were hundreds of notes and is there a way the"
+  },
+  {
+    "t_start": 1516.45,
+    "t_end": 1518.57,
+    "text": "sign publisher sweet home satisfying decision that's one of the hardest"
+  },
+  {
+    "t_start": 1518.57,
+    "t_end": 1521.73,
+    "text": "decision that's one of the hardest problems in centimeters okay so let's"
+  },
+  {
+    "t_start": 1521.73,
+    "t_end": 1523.76,
+    "text": "problems in centimeters okay so let's talk a little bit about approving a"
+  },
+  {
+    "t_start": 1523.76,
+    "t_end": 1533.69,
+    "text": "talk a little bit about approving a problem is NP thing so this the existent"
+  },
+  {
+    "t_start": 1533.69,
+    "t_end": 1537.48,
+    "text": "problem is NP thing so this the existent definition and existence then be three"
+  },
+  {
+    "t_start": 1537.48,
+    "t_end": 1544.26,
+    "text": "definition and existence then be three columns goes back to the 1971 and"
+  },
+  {
+    "t_start": 1544.26,
+    "t_end": 1547.44,
+    "text": "discovered by myself and then quite independently by name in lebanon soviet"
+  },
+  {
+    "t_start": 1547.44,
+    "t_end": 1552.11,
+    "text": "independently by name in lebanon soviet union and so is"
+  },
+  {
+    "t_start": 1552.11,
+    "t_end": 1557.81,
+    "text": "where didn't get shown to the west until three years later unfortunately because"
+  },
+  {
+    "t_start": 1557.81,
+    "t_end": 1563.33,
+    "text": "three years later unfortunately because of the pole but anyway us so these"
+  },
+  {
+    "t_start": 1563.33,
+    "t_end": 1567.11,
+    "text": "of the pole but anyway us so these method items that the standard NP"
+  },
+  {
+    "t_start": 1567.11,
+    "t_end": 1573.37,
+    "text": "method items that the standard NP complete problems boolean satisfiability"
+  },
+  {
+    "t_start": 1577.22,
+    "t_end": 1581.48,
+    "text": "so moving former are positional formula has variables explains the and"
+  },
+  {
+    "t_start": 1581.48,
+    "t_end": 1589.1,
+    "text": "has variables explains the and connectors and for not build a formula"
+  },
+  {
+    "t_start": 1589.1,
+    "t_end": 1592.64,
+    "text": "connectors and for not build a formula of those variables connectives and then"
+  },
+  {
+    "t_start": 1592.64,
+    "t_end": 1595.13,
+    "text": "of those variables connectives and then the question is is it satisfied whether"
+  },
+  {
+    "t_start": 1595.13,
+    "t_end": 1601.04,
+    "text": "it's is there a truth assignment to the variables which makes the formula truth"
+  },
+  {
+    "t_start": 1601.04,
+    "t_end": 1607.25,
+    "text": "or is there a zero one assignment is we need to decide to slightly slimmer so 0"
+  },
+  {
+    "t_start": 1607.25,
+    "t_end": 1616.79,
+    "text": "need to decide to slightly slimmer so 0 is false and it's true so can you assign"
+  },
+  {
+    "t_start": 1616.79,
+    "t_end": 1621.91,
+    "text": "0 1 2 variables is true and so this is turns out to be a degree complete and an"
+  },
+  {
+    "t_start": 1621.91,
+    "t_end": 1627.07,
+    "text": "turns out to be a degree complete and an even the special case we've stuff and"
+  },
+  {
+    "t_start": 1627.07,
+    "t_end": 1630.17,
+    "text": "even the special case we've stuff and visa you're given the formula that looks"
+  },
+  {
+    "t_start": 1630.17,
+    "t_end": 1632.93,
+    "text": "visa you're given the formula that looks like this it's in conjunctive normal"
+  },
+  {
+    "t_start": 1632.93,
+    "t_end": 1642.04,
+    "text": "form that means it's a pan that was into each clause like this has the most-read"
+  },
+  {
+    "t_start": 1642.04,
+    "t_end": 1649.37,
+    "text": "each clause like this has the most-read littleton so X or not one or set is a"
+  },
+  {
+    "t_start": 1649.37,
+    "t_end": 1656.76,
+    "text": "cause what you can also too and the question again mrs. satisfiable and this"
+  },
+  {
+    "t_start": 1656.76,
+    "t_end": 1661.95,
+    "text": "question again mrs. satisfiable and this special case turns out to be the three"
+  },
+  {
+    "t_start": 1661.95,
+    "t_end": 1669.03,
+    "text": "special case turns out to be the three preset already turns out so here's"
+  },
+  {
+    "t_start": 1669.03,
+    "t_end": 1674.19,
+    "text": "preset already turns out so here's another example although this one is"
+  },
+  {
+    "t_start": 1674.19,
+    "t_end": 1677.43,
+    "text": "another example although this one is unsatisfiable because it says that every"
+  },
+  {
+    "t_start": 1677.43,
+    "t_end": 1680.09,
+    "text": "unsatisfiable because it says that every pair of variables my wife said what"
+  },
+  {
+    "t_start": 1680.09,
+    "t_end": 1685.44,
+    "text": "pair of variables my wife said what extent as least one of them has to be"
+  },
+  {
+    "t_start": 1685.44,
+    "t_end": 1696.11,
+    "text": "too and these one who has to false so that so ok so this side is np-complete"
+  },
+  {
+    "t_start": 1696.11,
+    "t_end": 1703.32,
+    "text": "that so ok so this side is np-complete that was in the original it is the"
+  },
+  {
+    "t_start": 1703.32,
+    "t_end": 1706.91,
+    "text": "that was in the original it is the deadly of two that we just allow two"
+  },
+  {
+    "t_start": 1706.91,
+    "t_end": 1711.63,
+    "text": "deadly of two that we just allow two variables and applause then the problem"
+  },
+  {
+    "t_start": 1711.63,
+    "t_end": 1720.23,
+    "text": "variables and applause then the problem the satisfiability problem is as an easy"
+  },
+  {
+    "t_start": 1720.23,
+    "t_end": 1726.33,
+    "text": "it's calling on the side by millennium take that as the exercise how you easily"
+  },
+  {
+    "t_start": 1726.33,
+    "t_end": 1730.799,
+    "text": "take that as the exercise how you easily whether conjunctive normal form for know"
+  },
+  {
+    "t_start": 1730.799,
+    "t_end": 1734.61,
+    "text": "whether conjunctive normal form for know like two little cause has a satisfying"
+  },
+  {
+    "t_start": 1734.61,
+    "t_end": 1743.519,
+    "text": "like two little cause has a satisfying sign so it turns out okay so every MP by"
+  },
+  {
+    "t_start": 1743.519,
+    "t_end": 1748.89,
+    "text": "sign so it turns out okay so every MP by definition of and be played every every"
+  },
+  {
+    "t_start": 1748.89,
+    "t_end": 1761.31,
+    "text": "problem in NP is ben youssef or 3 cents and this so let's illustrate this by an"
+  },
+  {
+    "t_start": 1761.31,
+    "t_end": 1763.32,
+    "text": "and this so let's illustrate this by an example in particular three color"
+  },
+  {
+    "t_start": 1763.32,
+    "t_end": 1766.38,
+    "text": "example in particular three color ability which is unity problem is"
+  },
+  {
+    "t_start": 1766.38,
+    "t_end": 1771.779,
+    "text": "ability which is unity problem is reusable please so let's let's talk"
+  },
+  {
+    "t_start": 1771.779,
+    "t_end": 1780.48,
+    "text": "about how to do a reduction in this case it turns out we trying to show that the"
+  },
+  {
+    "t_start": 1780.48,
+    "t_end": 1784.529,
+    "text": "it turns out we trying to show that the three tolerability problem is t be"
+  },
+  {
+    "t_start": 1784.529,
+    "t_end": 1794.94,
+    "text": "usable to the priests a problem so we give it a trap Geno t1 vs n n nodes and"
+  },
+  {
+    "t_start": 1794.94,
+    "t_end": 1803.0,
+    "text": "give it a trap Geno t1 vs n n nodes and we get a melissa that kiss626 so on and"
+  },
+  {
+    "t_start": 1803.0,
+    "t_end": 1807.32,
+    "text": "we get a melissa that kiss626 so on and then you want to know if that cause"
+  },
+  {
+    "t_start": 1807.32,
+    "t_end": 1810.299,
+    "text": "then you want to know if that cause backgrounds be powerful so what we can"
+  },
+  {
+    "t_start": 1810.299,
+    "t_end": 1812.19,
+    "text": "backgrounds be powerful so what we can do since that's hard if you directly"
+  },
+  {
+    "t_start": 1812.19,
+    "t_end": 1813.87,
+    "text": "do since that's hard if you directly we're going to redo"
+  },
+  {
+    "t_start": 1813.87,
+    "t_end": 1819.1,
+    "text": "we're going to redo 23 cm so we have to then turn this crap"
+  },
+  {
+    "t_start": 1819.1,
+    "t_end": 1821.41,
+    "text": "23 cm so we have to then turn this crap into a corresponding to see in that"
+  },
+  {
+    "t_start": 1821.41,
+    "t_end": 1828.48,
+    "text": "into a corresponding to see in that corner that farmers can resets potable"
+  },
+  {
+    "t_start": 1828.48,
+    "t_end": 1835.06,
+    "text": "and so how do we do that what's the formula and look like well it's going to"
+  },
+  {
+    "t_start": 1835.06,
+    "t_end": 1839.41,
+    "text": "formula and look like well it's going to have variables will many variables like"
+  },
+  {
+    "t_start": 1839.41,
+    "t_end": 1844.45,
+    "text": "have variables will many variables like this so r 1 to r and including variables"
+  },
+  {
+    "t_start": 1844.45,
+    "t_end": 1848.08,
+    "text": "this so r 1 to r and including variables into the root R I with its true means"
+  },
+  {
+    "t_start": 1848.08,
+    "t_end": 1850.57,
+    "text": "into the root R I with its true means that we're thinking of see we're"
+  },
+  {
+    "t_start": 1850.57,
+    "t_end": 1856.45,
+    "text": "thinking of a short assignment to these variables it's going to describe a tree"
+  },
+  {
+    "t_start": 1856.45,
+    "t_end": 1860.23,
+    "text": "variables it's going to describe a tree coloring breath that's the idea and so"
+  },
+  {
+    "t_start": 1860.23,
+    "t_end": 1870.669,
+    "text": "intuitively we want to fix it so our ideas aside one true then means that no"
+  },
+  {
+    "t_start": 1870.669,
+    "t_end": 1874.98,
+    "text": "ideas aside one true then means that no not is common thread and this VI is"
+  },
+  {
+    "t_start": 1874.98,
+    "t_end": 1881.2,
+    "text": "not is common thread and this VI is rupees no x color blue and a DI green"
+  },
+  {
+    "t_start": 1881.2,
+    "t_end": 1886.83,
+    "text": "rupees no x color blue and a DI green and okay so then we have to come up with"
+  },
+  {
+    "t_start": 1886.83,
+    "t_end": 1889.48,
+    "text": "and okay so then we have to come up with clauses in the formula these are"
+  },
+  {
+    "t_start": 1889.48,
+    "t_end": 1893.41,
+    "text": "clauses in the formula these are constraints on the truth assignment put"
+  },
+  {
+    "t_start": 1893.41,
+    "t_end": 1896.56,
+    "text": "constraints on the truth assignment put clauses are constraints and that will"
+  },
+  {
+    "t_start": 1896.56,
+    "t_end": 1899.11,
+    "text": "clauses are constraints and that will ensure that any truth assignment"
+  },
+  {
+    "t_start": 1899.11,
+    "t_end": 1903.85,
+    "text": "ensure that any truth assignment satisfying all the causes corresponds to"
+  },
+  {
+    "t_start": 1903.85,
+    "t_end": 1904.77,
+    "text": "satisfying all the causes corresponds to a legal"
+  },
+  {
+    "t_start": 1904.77,
+    "t_end": 1910.92,
+    "text": "alright the graph and so what are the causes well first of all we want to make"
+  },
+  {
+    "t_start": 1910.92,
+    "t_end": 1915.9,
+    "text": "causes well first of all we want to make sure that anything to decide assigns at"
+  },
+  {
+    "t_start": 1915.9,
+    "t_end": 1919.5,
+    "text": "sure that anything to decide assigns at least one color every node graph so here"
+  },
+  {
+    "t_start": 1919.5,
+    "t_end": 1924.12,
+    "text": "least one color every node graph so here the causes no we won we put our wonder"
+  },
+  {
+    "t_start": 1924.12,
+    "t_end": 1930.849,
+    "text": "the causes no we won we put our wonder if you want to deal what that means no"
+  },
+  {
+    "t_start": 1930.849,
+    "t_end": 1933.739,
+    "text": "one at least has to be powered by one can we do that for every node so we get"
+  },
+  {
+    "t_start": 1933.739,
+    "t_end": 1937.639,
+    "text": "can we do that for every node so we get n causes one to any assignment"
+  },
+  {
+    "t_start": 1937.639,
+    "t_end": 1940.399,
+    "text": "n causes one to any assignment satisfying these things will assign the"
+  },
+  {
+    "t_start": 1940.399,
+    "t_end": 1946.999,
+    "text": "least one color there we know now could assign more than one color but we don't"
+  },
+  {
+    "t_start": 1946.999,
+    "t_end": 1949.639,
+    "text": "assign more than one color but we don't care in terms of it because if the truth"
+  },
+  {
+    "t_start": 1949.639,
+    "t_end": 1951.889,
+    "text": "care in terms of it because if the truth assignment is the legal coloring assigns"
+  },
+  {
+    "t_start": 1951.889,
+    "t_end": 1956.599,
+    "text": "assignment is the legal coloring assigns more than one color to a note you can"
+  },
+  {
+    "t_start": 1956.599,
+    "t_end": 1960.109,
+    "text": "get illegal coloring by just going in the end one of the extra colors where we"
+  },
+  {
+    "t_start": 1960.109,
+    "t_end": 1963.469,
+    "text": "the end one of the extra colors where we know color so that's not an issue but"
+  },
+  {
+    "t_start": 1963.469,
+    "t_end": 1967.369,
+    "text": "know color so that's not an issue but what is an issue of course you have to"
+  },
+  {
+    "t_start": 1967.369,
+    "t_end": 1970.639,
+    "text": "make sure that the edges and just getting the colors every edge so here"
+  },
+  {
+    "t_start": 1970.639,
+    "t_end": 1979.309,
+    "text": "getting the colors every edge so here what do we do well fix image 1 be 25 and"
+  },
+  {
+    "t_start": 1979.309,
+    "t_end": 1983.599,
+    "text": "we put in three straight losses this says are not heartbeat or not our club"
+  },
+  {
+    "t_start": 1983.599,
+    "t_end": 1987.439,
+    "text": "says are not heartbeat or not our club so to satisfy this you can't design in"
+  },
+  {
+    "t_start": 1987.439,
+    "t_end": 1995.779,
+    "text": "so to satisfy this you can't design in both Note 3 and 5 red of course your kid"
+  },
+  {
+    "t_start": 1995.779,
+    "t_end": 2000.219,
+    "text": "because that we said it wouldn't be a legal color and similar you do that"
+  },
+  {
+    "t_start": 2000.219,
+    "t_end": 2007.619,
+    "text": "ruling and with me so if we're every edge we put in three claws and settlers"
+  },
+  {
+    "t_start": 2007.619,
+    "t_end": 2014.85,
+    "text": "edge we put in three claws and settlers and that's it we take all take these end"
+  },
+  {
+    "t_start": 2014.85,
+    "t_end": 2018.6,
+    "text": "and that's it we take all take these end and causes and then where he is within"
+  },
+  {
+    "t_start": 2018.6,
+    "t_end": 2021.36,
+    "text": "and causes and then where he is within these three clauses take their ad and"
+  },
+  {
+    "t_start": 2021.36,
+    "t_end": 2028.43,
+    "text": "that is the pc in a formula and it's easy to see that that one is going to be"
+  },
+  {
+    "t_start": 2028.43,
+    "t_end": 2032.61,
+    "text": "easy to see that that one is going to be satisfiable if and only if the gravity"
+  },
+  {
+    "t_start": 2032.61,
+    "t_end": 2038.76,
+    "text": "color because if it says five over these truth assignment satisfying it tells you"
+  },
+  {
+    "t_start": 2038.76,
+    "t_end": 2043.5,
+    "text": "truth assignment satisfying it tells you how to color the graph and if you know"
+  },
+  {
+    "t_start": 2043.5,
+    "t_end": 2047.7,
+    "text": "how to color it crafty you get a do the segment set aside so there's just this"
+  },
+  {
+    "t_start": 2047.7,
+    "t_end": 2050.84,
+    "text": "segment set aside so there's just this kind of abduction is usually pretty easy"
+  },
+  {
+    "t_start": 2050.84,
+    "t_end": 2056.25,
+    "text": "kind of abduction is usually pretty easy area and just episode why intuitively"
+  },
+  {
+    "t_start": 2056.25,
+    "t_end": 2059.34,
+    "text": "area and just episode why intuitively bursitis liability problems and it's"
+  },
+  {
+    "t_start": 2059.34,
+    "t_end": 2067.32,
+    "text": "easy to do this in general you there easy deductions and of course it has to"
+  },
+  {
+    "t_start": 2067.32,
+    "t_end": 2069.3,
+    "text": "easy deductions and of course it has to be you can carry it all the polynomial"
+  },
+  {
+    "t_start": 2069.3,
+    "t_end": 2071.599,
+    "text": "be you can carry it all the polynomial time"
+  },
+  {
+    "t_start": 2085.549,
+    "t_end": 2090.529,
+    "text": "easy now because in general besides my bravery problem is np-complete and as I"
+  },
+  {
+    "t_start": 2090.529,
+    "t_end": 2095.149,
+    "text": "bravery problem is np-complete and as I claim that general NP problems are"
+  },
+  {
+    "t_start": 2095.149,
+    "t_end": 2098.63,
+    "text": "claim that general NP problems are easily reducible to satisfiability then"
+  },
+  {
+    "t_start": 2098.63,
+    "t_end": 2103.759,
+    "text": "easily reducible to satisfiability then it makes SAT solvers become very"
+  },
+  {
+    "t_start": 2103.759,
+    "t_end": 2105.979,
+    "text": "it makes SAT solvers become very important assets over is a program that"
+  },
+  {
+    "t_start": 2105.979,
+    "t_end": 2110.029,
+    "text": "important assets over is a program that solves the satisfiability problem and it"
+  },
+  {
+    "t_start": 2110.029,
+    "t_end": 2115.999,
+    "text": "solves the satisfiability problem and it turns out that this is there's a huge"
+  },
+  {
+    "t_start": 2115.999,
+    "t_end": 2117.41,
+    "text": "industry in making a vision sat solving problems even though of course the"
+  },
+  {
+    "t_start": 2117.41,
+    "t_end": 2119.63,
+    "text": "problems even though of course the problem be complete you don't expect it"
+  },
+  {
+    "t_start": 2119.63,
+    "t_end": 2126.829,
+    "text": "problem be complete you don't expect it to work successfully at all but it turns"
+  },
+  {
+    "t_start": 2126.829,
+    "t_end": 2132.019,
+    "text": "out the word well on a large number of surprise mutters so it is every year"
+  },
+  {
+    "t_start": 2132.019,
+    "t_end": 2136.67,
+    "text": "surprise mutters so it is every year there's a set competition comparing some"
+  },
+  {
+    "t_start": 2136.67,
+    "t_end": 2139.46,
+    "text": "there's a set competition comparing some of these programs and here's an example"
+  },
+  {
+    "t_start": 2139.46,
+    "t_end": 2142.849,
+    "text": "of these programs and here's an example of incredible incredible success that"
+  },
+  {
+    "t_start": 2142.849,
+    "t_end": 2147.47,
+    "text": "these programs you can have and even for practical problems this is the problem"
+  },
+  {
+    "t_start": 2147.47,
+    "t_end": 2155.63,
+    "text": "of trying to verify parts of the Sun microprocessor and you come up with 1g"
+  },
+  {
+    "t_start": 2155.63,
+    "t_end": 2156.849,
+    "text": "microprocessor and you come up with 1g causes"
+  },
+  {
+    "t_start": 2156.849,
+    "t_end": 2162.13,
+    "text": "causes and I guess satisfiable when found a bug"
+  },
+  {
+    "t_start": 2162.13,
+    "t_end": 2166.87,
+    "text": "and I guess satisfiable when found a bug in the processor otherwise well don't"
+  },
+  {
+    "t_start": 2166.87,
+    "t_end": 2173.019,
+    "text": "in the processor otherwise well don't have a budget resetar this way but above"
+  },
+  {
+    "t_start": 2173.019,
+    "t_end": 2177.779,
+    "text": "have a budget resetar this way but above what's amazing is these numbers so this"
+  },
+  {
+    "t_start": 2177.779,
+    "t_end": 2182.559,
+    "text": "what's amazing is these numbers so this z chat processor was able to find about"
+  },
+  {
+    "t_start": 2182.559,
+    "t_end": 2189.249,
+    "text": "z chat processor was able to find about the setting but in case a CNF formula"
+  },
+  {
+    "t_start": 2189.249,
+    "t_end": 2195.86,
+    "text": "the setting but in case a CNF formula with 200,000 variables and 7,000 causes"
+  },
+  {
+    "t_start": 2195.86,
+    "t_end": 2199.22,
+    "text": "with 200,000 variables and 7,000 causes we obviously wasn't using the torch to"
+  },
+  {
+    "t_start": 2199.22,
+    "t_end": 2208.31,
+    "text": "the number of possible to design is to a thousand variables is exponential 2000"
+  },
+  {
+    "t_start": 2208.31,
+    "t_end": 2213.72,
+    "text": "thousand variables is exponential 2000 think of unbeatable day but it was able"
+  },
+  {
+    "t_start": 2213.72,
+    "t_end": 2215.79,
+    "text": "think of unbeatable day but it was able to find a satisfying assignment and here"
+  },
+  {
+    "t_start": 2215.79,
+    "t_end": 2219.59,
+    "text": "to find a satisfying assignment and here also present shine five thousand"
+  },
+  {
+    "t_start": 2219.59,
+    "t_end": 2224.22,
+    "text": "also present shine five thousand examples unsatisfied proved that it was"
+  },
+  {
+    "t_start": 2224.22,
+    "t_end": 2232.26,
+    "text": "examples unsatisfied proved that it was X that's fine so it SAT solvers an"
+  },
+  {
+    "t_start": 2232.26,
+    "t_end": 2238.98,
+    "text": "amazing performance in some cases so many you wonder it's well besides post"
+  },
+  {
+    "t_start": 2238.98,
+    "t_end": 2246.42,
+    "text": "many you wonder it's well besides post be incomplete how many things can do so"
+  },
+  {
+    "t_start": 2246.42,
+    "t_end": 2249.56,
+    "text": "successful and the answer is well you can they don't always work and"
+  },
+  {
+    "t_start": 2249.56,
+    "t_end": 2252.66,
+    "text": "can they don't always work and fortunately for RSA and examples you"
+  },
+  {
+    "t_start": 2252.66,
+    "t_end": 2254.67,
+    "text": "fortunately for RSA and examples you can't break creek as far as we know"
+  },
+  {
+    "t_start": 2254.67,
+    "t_end": 2259.17,
+    "text": "can't break creek as far as we know cryptographic systems using this we"
+  },
+  {
+    "t_start": 2259.17,
+    "t_end": 2265.77,
+    "text": "finally do see the problem is by ability so in particular in trying dude we do"
+  },
+  {
+    "t_start": 2265.77,
+    "t_end": 2269.03,
+    "text": "so in particular in trying dude we do the factoring problem to the"
+  },
+  {
+    "t_start": 2269.03,
+    "t_end": 2275.43,
+    "text": "satisfiability problem the SAT solvers children they don't been here they can't"
+  },
+  {
+    "t_start": 2275.43,
+    "t_end": 2285.21,
+    "text": "children they don't been here they can't back that's not a way the factory least"
+  },
+  {
+    "t_start": 2293.53,
+    "t_end": 2296.849,
+    "text": "don't work now so as I say touch me there is tended leafy nautical entity"
+  },
+  {
+    "t_start": 2296.849,
+    "t_end": 2304.27,
+    "text": "there is tended leafy nautical entity but we also like to speculate what would"
+  },
+  {
+    "t_start": 2304.27,
+    "t_end": 2306.76,
+    "text": "but we also like to speculate what would happen in the world in which p equals a"
+  },
+  {
+    "t_start": 2306.76,
+    "t_end": 2314.47,
+    "text": "happen in the world in which p equals a and so let's think about that now we're"
+  },
+  {
+    "t_start": 2314.47,
+    "t_end": 2317.589,
+    "text": "and so let's think about that now we're not only going to be fair here not only"
+  },
+  {
+    "t_start": 2317.589,
+    "t_end": 2323.47,
+    "text": "not only going to be fair here not only to speed identity but back so that would"
+  },
+  {
+    "t_start": 2323.47,
+    "t_end": 2325.72,
+    "text": "to speed identity but back so that would have people that meaning seth has a poly"
+  },
+  {
+    "t_start": 2325.72,
+    "t_end": 2328.66,
+    "text": "have people that meaning seth has a poly time algorithm but of course that"
+  },
+  {
+    "t_start": 2328.66,
+    "t_end": 2333.7,
+    "text": "time algorithm but of course that algorithm poly time by the definition"
+  },
+  {
+    "t_start": 2333.7,
+    "t_end": 2343.78,
+    "text": "something like an e to the power 100 but so let's empirically natural problems if"
+  },
+  {
+    "t_start": 2343.78,
+    "t_end": 2345.819,
+    "text": "so let's empirically natural problems if they're calling time don't have such"
+  },
+  {
+    "t_start": 2345.819,
+    "t_end": 2352.93,
+    "text": "they're calling time don't have such strange difficult time in 200 but let"
+  },
+  {
+    "t_start": 2352.93,
+    "t_end": 2356.319,
+    "text": "strange difficult time in 200 but let this show let's assume is that not only"
+  },
+  {
+    "t_start": 2356.319,
+    "t_end": 2359.73,
+    "text": "this show let's assume is that not only has all excited that's a truly efficient"
+  },
+  {
+    "t_start": 2359.73,
+    "t_end": 2368.5,
+    "text": "has all excited that's a truly efficient all the time now and so that would make"
+  },
+  {
+    "t_start": 2368.5,
+    "t_end": 2376.0,
+    "text": "power and practice the cryptographic protocols to be jokin there any problems"
+  },
+  {
+    "t_start": 2376.0,
+    "t_end": 2380.289,
+    "text": "protocols to be jokin there any problems dissonant"
+  },
+  {
+    "t_start": 2383.359,
+    "t_end": 2392.509,
+    "text": "you're like conventional photography although historians event well good news"
+  },
+  {
+    "t_start": 2392.509,
+    "t_end": 2404.989,
+    "text": "although historians event well good news all these problems now why it's because"
+  },
+  {
+    "t_start": 2404.989,
+    "t_end": 2407.449,
+    "text": "all these problems now why it's because if a mathematician can prove the theorem"
+  },
+  {
+    "t_start": 2407.449,
+    "t_end": 2416.089,
+    "text": "if a mathematician can prove the theorem then the therapist uma blade it can be"
+  },
+  {
+    "t_start": 2416.089,
+    "t_end": 2420.049,
+    "text": "providing it down in some usable number of symbols of the million sir i'ma tell"
+  },
+  {
+    "t_start": 2420.049,
+    "t_end": 2422.029,
+    "text": "of symbols of the million sir i'ma tell you much about some reasonable number"
+  },
+  {
+    "t_start": 2422.029,
+    "t_end": 2425.659,
+    "text": "you much about some reasonable number and the proof could be formalized that"
+  },
+  {
+    "t_start": 2425.659,
+    "t_end": 2428.209,
+    "text": "and the proof could be formalized that something logic condition we know how to"
+  },
+  {
+    "t_start": 2428.209,
+    "t_end": 2431.329,
+    "text": "something logic condition we know how to use logic perform for each other with"
+  },
+  {
+    "t_start": 2431.329,
+    "t_end": 2434.259,
+    "text": "use logic perform for each other with the informal poop enemies human is not"
+  },
+  {
+    "t_start": 2434.259,
+    "t_end": 2437.419,
+    "text": "the informal poop enemies human is not ridiculously long the previous comment"
+  },
+  {
+    "t_start": 2437.419,
+    "t_end": 2446.959,
+    "text": "ridiculously long the previous comment because warm comment meant you can find"
+  },
+  {
+    "t_start": 2446.959,
+    "t_end": 2450.62,
+    "text": "it it's wrong then so that would mean any problem let's say that the question"
+  },
+  {
+    "t_start": 2450.62,
+    "t_end": 2451.2,
+    "text": "any problem let's say that the question is"
+  },
+  {
+    "t_start": 2451.2,
+    "t_end": 2456.75,
+    "text": "is their approval of a given length because"
+  },
+  {
+    "t_start": 2456.75,
+    "t_end": 2460.77,
+    "text": "their approval of a given length because if proof is there you could verify so"
+  },
+  {
+    "t_start": 2460.77,
+    "t_end": 2463.62,
+    "text": "if proof is there you could verify so that's an entry problem and if people's"
+  },
+  {
+    "t_start": 2463.62,
+    "t_end": 2469.05,
+    "text": "that's an entry problem and if people's empty then you can find the and so that"
+  },
+  {
+    "t_start": 2469.05,
+    "t_end": 2475.01,
+    "text": "empty then you can find the and so that so we approve presumably all the seven"
+  },
+  {
+    "t_start": 2475.01,
+    "t_end": 2481.74,
+    "text": "so we approve presumably all the seven of millennium prize problems and you can"
+  },
+  {
+    "t_start": 2481.74,
+    "t_end": 2484.05,
+    "text": "of millennium prize problems and you can make similar arguments for science and"
+  },
+  {
+    "t_start": 2484.05,
+    "t_end": 2488.79,
+    "text": "make similar arguments for science and engineering and more speculative one is"
+  },
+  {
+    "t_start": 2488.79,
+    "t_end": 2497.91,
+    "text": "engineering and more speculative one is composing music and here you have to"
+  },
+  {
+    "t_start": 2497.91,
+    "t_end": 2503.97,
+    "text": "procedure that can recognize beautiful music and you make that assumption or"
+  },
+  {
+    "t_start": 2503.97,
+    "t_end": 2507.45,
+    "text": "music and you make that assumption or leave some subclasses you if you make"
+  },
+  {
+    "t_start": 2507.45,
+    "t_end": 2513.24,
+    "text": "leave some subclasses you if you make that assumption then you could use the"
+  },
+  {
+    "t_start": 2513.24,
+    "t_end": 2518.849,
+    "text": "faculty was that need to find the expression but that that defines"
+  },
+  {
+    "t_start": 2518.849,
+    "t_end": 2524.22,
+    "text": "beautiful music and then you can also use it suppose because you want to"
+  },
+  {
+    "t_start": 2524.22,
+    "t_end": 2528.51,
+    "text": "use it suppose because you want to compose a beautiful piece why what of"
+  },
+  {
+    "t_start": 2528.51,
+    "t_end": 2531.12,
+    "text": "compose a beautiful piece why what of course you want to have some creativity"
+  },
+  {
+    "t_start": 2531.12,
+    "t_end": 2534.83,
+    "text": "course you want to have some creativity that you say it has to satisfy your"
+  },
+  {
+    "t_start": 2534.83,
+    "t_end": 2543.14,
+    "text": "constraints and other advantages has to be beautiful and if it exists then you"
+  },
+  {
+    "t_start": 2543.14,
+    "t_end": 2546.89,
+    "text": "be beautiful and if it exists then you can find this anywhere all this is"
+  },
+  {
+    "t_start": 2546.89,
+    "t_end": 2556.37,
+    "text": "can find this anywhere all this is specular now ok I should also mention"
+  },
+  {
+    "t_start": 2556.37,
+    "t_end": 2564.56,
+    "text": "specular now ok I should also mention here something about quantum there is a"
+  },
+  {
+    "t_start": 2564.56,
+    "t_end": 2567.14,
+    "text": "here something about quantum there is a standard mathematical model of a"
+  },
+  {
+    "t_start": 2567.14,
+    "t_end": 2569.48,
+    "text": "standard mathematical model of a computer so called tradition that goes"
+  },
+  {
+    "t_start": 2569.48,
+    "t_end": 2577.64,
+    "text": "computer so called tradition that goes back to Alan Turing and in this famous"
+  },
+  {
+    "t_start": 2577.64,
+    "t_end": 2579.83,
+    "text": "1936 paper and beautiful numbers for application with China's top so this is"
+  },
+  {
+    "t_start": 2579.83,
+    "t_end": 2583.01,
+    "text": "application with China's top so this is the accepted general model of a computer"
+  },
+  {
+    "t_start": 2583.01,
+    "t_end": 2586.22,
+    "text": "the accepted general model of a computer even existing computers now conventional"
+  },
+  {
+    "t_start": 2586.22,
+    "t_end": 2595.43,
+    "text": "even existing computers now conventional computers can be modeled recently by"
+  },
+  {
+    "t_start": 2595.43,
+    "t_end": 2598.97,
+    "text": "Turing machines and but they have their limits and presumably of physical wings"
+  },
+  {
+    "t_start": 2598.97,
+    "t_end": 2605.3,
+    "text": "limits and presumably of physical wings on how fast ultimately they mean I know"
+  },
+  {
+    "t_start": 2605.3,
+    "t_end": 2612.38,
+    "text": "we get faster faster computers all behind but surely there there have"
+  },
+  {
+    "t_start": 2615.87,
+    "t_end": 2619.14,
+    "text": "you can't hack bits in your memories on more than the number of electrons in the"
+  },
+  {
+    "t_start": 2619.14,
+    "t_end": 2622.59,
+    "text": "more than the number of electrons in the computer and the clock is limited by the"
+  },
+  {
+    "t_start": 2622.59,
+    "t_end": 2626.07,
+    "text": "computer and the clock is limited by the speed of light between atoms you make"
+  },
+  {
+    "t_start": 2626.07,
+    "t_end": 2628.5,
+    "text": "speed of light between atoms you make assumptions like that that even the"
+  },
+  {
+    "t_start": 2628.5,
+    "t_end": 2635.3,
+    "text": "whole or if it's a computer he couldn't search through all three hundred streams"
+  },
+  {
+    "t_start": 2635.3,
+    "t_end": 2638.58,
+    "text": "search through all three hundred streams like so so there have to be open"
+  },
+  {
+    "t_start": 2638.58,
+    "t_end": 2647.19,
+    "text": "like so so there have to be open physical limits they said quantum"
+  },
+  {
+    "t_start": 2647.19,
+    "t_end": 2654.69,
+    "text": "mechanics if you use quantum mechanics of physicists have come up with an"
+  },
+  {
+    "t_start": 2654.69,
+    "t_end": 2658.07,
+    "text": "of physicists have come up with an illusion of quantum computer"
+  },
+  {
+    "t_start": 2658.07,
+    "t_end": 2661.38,
+    "text": "illusion of quantum computer particularly Richard Hyndman village"
+  },
+  {
+    "t_start": 2661.38,
+    "t_end": 2671.78,
+    "text": "particularly Richard Hyndman village take a joy to be the precise time at the"
+  },
+  {
+    "t_start": 2671.78,
+    "t_end": 2673.77,
+    "text": "wire and so then the model takes advantage of all these strands"
+  },
+  {
+    "t_start": 2673.77,
+    "t_end": 2678.87,
+    "text": "principles of quantum mechanics like entangled States and the faculty who"
+  },
+  {
+    "t_start": 2678.87,
+    "t_end": 2683.07,
+    "text": "entangled States and the faculty who have qubits superposition states so that"
+  },
+  {
+    "t_start": 2683.07,
+    "t_end": 2689.48,
+    "text": "have qubits superposition states so that the 10 cubits good to the impossible"
+  },
+  {
+    "t_start": 2689.48,
+    "t_end": 2697.8,
+    "text": "distresses thinking up and so taking the advantage of these ideas either Shore"
+  },
+  {
+    "t_start": 2697.8,
+    "t_end": 2704.03,
+    "text": "advantage of these ideas either Shore was able to prove that upon effective"
+  },
+  {
+    "t_start": 2706.92,
+    "t_end": 2713.89,
+    "text": "quantum computers that making people appear to be really for some problems"
+  },
+  {
+    "t_start": 2713.89,
+    "t_end": 2720.9,
+    "text": "like because we've no one knows how to two factors of conventional computers"
+  },
+  {
+    "t_start": 2720.9,
+    "t_end": 2728.14,
+    "text": "two factors of conventional computers time however the captions so far this is"
+  },
+  {
+    "t_start": 2728.14,
+    "t_end": 2732.19,
+    "text": "time however the captions so far this is seven reading the quantum computers for"
+  },
+  {
+    "t_start": 2732.19,
+    "t_end": 2738.42,
+    "text": "seven reading the quantum computers for one more than he gets for that's an"
+  },
+  {
+    "t_start": 2738.42,
+    "t_end": 2744.88,
+    "text": "interesting question whether we go or not and also if quantum computers can be"
+  },
+  {
+    "t_start": 2744.88,
+    "t_end": 2747.55,
+    "text": "not and also if quantum computers can be built the experts say while they still"
+  },
+  {
+    "t_start": 2747.55,
+    "t_end": 2750.58,
+    "text": "built the experts say while they still probably hand salt in three problems and"
+  },
+  {
+    "t_start": 2750.58,
+    "t_end": 2753.01,
+    "text": "probably hand salt in three problems and note that factoring tom is not possible"
+  },
+  {
+    "t_start": 2753.01,
+    "t_end": 2760.84,
+    "text": "note that factoring tom is not possible to bleep the hard problem it's in NB is"
+  },
+  {
+    "t_start": 2760.84,
+    "t_end": 2763.93,
+    "text": "not about the MVP and in fact there's something that remains this all the time"
+  },
+  {
+    "t_start": 2763.93,
+    "t_end": 2768.04,
+    "text": "something that remains this all the time Elgin polymer technology factors even a"
+  },
+  {
+    "t_start": 2768.04,
+    "t_end": 2769.96,
+    "text": "Elgin polymer technology factors even a convention that's that's an open"
+  },
+  {
+    "t_start": 2769.96,
+    "t_end": 2773.23,
+    "text": "convention that's that's an open question"
+  },
+  {
+    "t_start": 2779.859,
+    "t_end": 2782.38,
+    "text": "so yeah old Xavier still quantum cryptography is a totally different"
+  },
+  {
+    "t_start": 2782.38,
+    "t_end": 2785.2,
+    "text": "cryptography is a totally different issue because you can use quantum"
+  },
+  {
+    "t_start": 2785.2,
+    "t_end": 2787.9,
+    "text": "issue because you can use quantum effects to send cryptographic colon"
+  },
+  {
+    "t_start": 2787.9,
+    "t_end": 2795.28,
+    "text": "colon bolster can't be done in any conventional way so you can still even"
+  },
+  {
+    "t_start": 2795.28,
+    "t_end": 2796.87,
+    "text": "conventional way so you can still even though our essay to developing to be"
+  },
+  {
+    "t_start": 2796.87,
+    "t_end": 2802.27,
+    "text": "though our essay to developing to be still that's all just nearing the end"
+  },
+  {
+    "t_start": 2802.27,
+    "t_end": 2807.12,
+    "text": "still that's all just nearing the end here of it's interesting to do some"
+  },
+  {
+    "t_start": 2807.12,
+    "t_end": 2810.4,
+    "text": "here of it's interesting to do some speculation with computers that should"
+  },
+  {
+    "t_start": 2810.4,
+    "t_end": 2815.29,
+    "text": "be able to simulate a human brain and this is parsley artificial intelligence"
+  },
+  {
+    "t_start": 2815.29,
+    "t_end": 2820.99,
+    "text": "this is parsley artificial intelligence 12 only the whole group subgroup of"
+  },
+  {
+    "t_start": 2820.99,
+    "t_end": 2828.94,
+    "text": "less are trying to do that and so these people think answer is yes dai people"
+  },
+  {
+    "t_start": 2828.94,
+    "t_end": 2835.24,
+    "text": "like the brain is just a large complex computer apparently so should be just"
+  },
+  {
+    "t_start": 2835.24,
+    "t_end": 2843.67,
+    "text": "computer apparently so should be just question time to simulate frames oh oh"
+  },
+  {
+    "t_start": 2843.67,
+    "t_end": 2850.18,
+    "text": "question time to simulate frames oh oh this is not universally accepted god"
+  },
+  {
+    "t_start": 2850.18,
+    "t_end": 2857.19,
+    "text": "this is not universally accepted god this is an example of a long-term pretty"
+  },
+  {
+    "t_start": 2861.78,
+    "t_end": 2869.55,
+    "text": "and here's a very respected this is this Roger Penrose also skeptical that he"
+  },
+  {
+    "t_start": 2869.55,
+    "t_end": 2873.78,
+    "text": "think that I had a conversation and it really makes or something going on brian"
+  },
+  {
+    "t_start": 2873.78,
+    "t_end": 2878.25,
+    "text": "really makes or something going on brian is mainly physical things that we just"
+  },
+  {
+    "t_start": 2878.25,
+    "t_end": 2882.63,
+    "text": "is mainly physical things that we just don't use any conventional the motion of"
+  },
+  {
+    "t_start": 2882.63,
+    "t_end": 2890.07,
+    "text": "don't use any conventional the motion of consciousness me explain anyway and but"
+  },
+  {
+    "t_start": 2890.07,
+    "t_end": 2894.93,
+    "text": "consciousness me explain anyway and but speaking to consciousness there is some"
+  },
+  {
+    "t_start": 2894.93,
+    "t_end": 2897.24,
+    "text": "speaking to consciousness there is some computer science or by tomorrow walking"
+  },
+  {
+    "t_start": 2897.24,
+    "t_end": 2903.03,
+    "text": "computer science or by tomorrow walking for example the notion of consciousness"
+  },
+  {
+    "t_start": 2903.03,
+    "t_end": 2908.99,
+    "text": "for example the notion of consciousness and also one final five people's energy"
+  },
+  {
+    "t_start": 2908.99,
+    "t_end": 2913.04,
+    "text": "and also one final five people's energy when brains have evolved to solve"
+  },
+  {
+    "t_start": 2913.04,
+    "t_end": 2919.62,
+    "text": "when brains have evolved to solve problems apparently can stall so anyway"
+  },
+  {
+    "t_start": 2919.62,
+    "t_end": 2924.63,
+    "text": "problems apparently can stall so anyway closing slide lens for mel wrote a nice"
+  },
+  {
+    "t_start": 2924.63,
+    "t_end": 2926.15,
+    "text": "closing slide lens for mel wrote a nice article on team"
+  },
+  {
+    "t_start": 2926.15,
+    "t_end": 2933.529,
+    "text": "he pays the implications and says p versus NP problem discard from an"
+  },
+  {
+    "t_start": 2933.529,
+    "t_end": 2935.96,
+    "text": "versus NP problem discard from an interesting problem related to logic two"
+  },
+  {
+    "t_start": 2935.96,
+    "t_end": 2938.089,
+    "text": "interesting problem related to logic two types of us fundamental and important"
+  },
+  {
+    "t_start": 2938.089,
+    "t_end": 2940.609,
+    "text": "types of us fundamental and important mathematical question where time is"
+  },
+  {
+    "t_start": 2940.609,
+    "t_end": 2944.559,
+    "text": "mathematical question where time is important power grows more powerful"
+  },
+  {
+    "t_start": 2944.559,
+    "t_end": 2958.13,
+    "text": "important power grows more powerful widespread okay giving your precious"
+  },
+  {
+    "t_start": 2958.13,
+    "t_end": 2960.319,
+    "text": "widespread okay giving your precious time ganache and enlightening us rewards"
+  },
+  {
+    "t_start": 2960.319,
+    "t_end": 2965.809,
+    "text": "time ganache and enlightening us rewards of wisdom mr. to pc do have your basic"
+  },
+  {
+    "t_start": 2965.809,
+    "t_end": 2982.13,
+    "text": "as we now have an interactive session and in ascii of an answer your questions"
+  },
+  {
+    "t_start": 2985.849,
+    "t_end": 2988.849,
+    "text": "oh you haven't NP problems so can be factorized a FB problem into P and NP"
+  },
+  {
+    "t_start": 2988.849,
+    "t_end": 2994.64,
+    "text": "and then go back rising the NP part of those like the factorized apart and like"
+  },
+  {
+    "t_start": 2994.64,
+    "t_end": 3001.839,
+    "text": "those like the factorized apart and like go on doing so till we reach a point"
+  },
+  {
+    "t_start": 3001.839,
+    "t_end": 3007.18,
+    "text": "have a MV problem okay so can you factorize that NP problem into a pea pod"
+  },
+  {
+    "t_start": 3007.18,
+    "t_end": 3010.96,
+    "text": "factorize that NP problem into a pea pod and in SB part in there so you are"
+  },
+  {
+    "t_start": 3010.96,
+    "t_end": 3013.75,
+    "text": "and in SB part in there so you are frightened into your properties of"
+  },
+  {
+    "t_start": 3013.75,
+    "t_end": 3020.65,
+    "text": "course the tea party maybe TV just it's the recognized you have to verify if"
+  },
+  {
+    "t_start": 3020.65,
+    "t_end": 3030.009,
+    "text": "it's an empty and if you have a search box you can find anything Sara to be"
+  },
+  {
+    "t_start": 3030.009,
+    "t_end": 3036.309,
+    "text": "box you can find anything Sara to be part of it what's what I was wondering"
+  },
+  {
+    "t_start": 3036.309,
+    "t_end": 3039.069,
+    "text": "part of it what's what I was wondering was the poor gentle and two-dimensional"
+  },
+  {
+    "t_start": 3039.069,
+    "t_end": 3041.49,
+    "text": "was the poor gentle and two-dimensional nothing that rhythm that you think that"
+  },
+  {
+    "t_start": 3041.49,
+    "t_end": 3048.999,
+    "text": "reduce to the famous algorithm of kale and shapely for the case of a bipartite"
+  },
+  {
+    "t_start": 3048.999,
+    "t_end": 3054.37,
+    "text": "and shapely for the case of a bipartite graph"
+  },
+  {
+    "t_start": 3055.95,
+    "t_end": 3063.02,
+    "text": "this is the colouring know the man the magic but matching problems are all"
+  },
+  {
+    "t_start": 3063.02,
+    "t_end": 3075.29,
+    "text": "magic but matching problems are all they're all that gets easier the general"
+  },
+  {
+    "t_start": 3075.29,
+    "t_end": 3094.72,
+    "text": "they're all that gets easier the general is much harder"
+  }
+]

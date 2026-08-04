@@ -1,0 +1,1737 @@
+[
+  {
+    "t_start": 3.98,
+    "t_end": 6.2,
+    "text": "Math is sometimes a real tease."
+  },
+  {
+    "t_start": 6.82,
+    "t_end": 10.454,
+    "text": "It seduces us with the beauty of reasoning geometrically in two and three"
+  },
+  {
+    "t_start": 10.454,
+    "t_end": 14.138,
+    "text": "dimensions where there's this really nice back and forth between pairs or"
+  },
+  {
+    "t_start": 14.138,
+    "t_end": 18.32,
+    "text": "triplets of numbers and spatial stuff that our visual cortex is good at processing."
+  },
+  {
+    "t_start": 19.14,
+    "t_end": 24.222,
+    "text": "For example, if you think about a circle with radius 1 centered at the origin,"
+  },
+  {
+    "t_start": 24.222,
+    "t_end": 29.304,
+    "text": "you are in effect conceptualizing every possible pair of numbers x and y that"
+  },
+  {
+    "t_start": 29.304,
+    "t_end": 34.06,
+    "text": "satisfy a certain numerical property that x squared plus y squared is 1."
+  },
+  {
+    "t_start": 35.02,
+    "t_end": 39.052,
+    "text": "And the usefulness here is that a lot of facts that look opaque in a"
+  },
+  {
+    "t_start": 39.052,
+    "t_end": 43.38,
+    "text": "purely analytic context become quite clear geometrically and vice versa."
+  },
+  {
+    "t_start": 44.26,
+    "t_end": 48.248,
+    "text": "Honestly, this channel has been the direct beneficiary of this back"
+  },
+  {
+    "t_start": 48.248,
+    "t_end": 52.474,
+    "text": "and forth since it offers such a rich library of that special category"
+  },
+  {
+    "t_start": 52.474,
+    "t_end": 56.64,
+    "text": "of cleverness that involves connecting two seemingly disparate ideas."
+  },
+  {
+    "t_start": 57.3,
+    "t_end": 59.664,
+    "text": "And I don't just mean the general back and forth between"
+  },
+  {
+    "t_start": 59.664,
+    "t_end": 61.86,
+    "text": "pairs or triplets of numbers and spatial reasoning."
+  },
+  {
+    "t_start": 62.22,
+    "t_end": 66.28,
+    "text": "I mean this specific one between sums of squares and circles and spheres."
+  },
+  {
+    "t_start": 67.12,
+    "t_end": 71.45,
+    "text": "It's at the heart of the video I made showing how pi is connected to number theory"
+  },
+  {
+    "t_start": 71.45,
+    "t_end": 75.78,
+    "text": "and primes and the one showing how to visualize all possible Pythagorean triples."
+  },
+  {
+    "t_start": 76.38,
+    "t_end": 80.52,
+    "text": "It also underlies the video on the Borsuk-Ulam theorem being used to solve"
+  },
+  {
+    "t_start": 80.52,
+    "t_end": 84.94,
+    "text": "what was basically a counting puzzle by using topological facts about spheres."
+  },
+  {
+    "t_start": 85.64,
+    "t_end": 88.631,
+    "text": "There is no doubt that the ability to frame analytic"
+  },
+  {
+    "t_start": 88.631,
+    "t_end": 91.22,
+    "text": "facts geometrically is very useful for math."
+  },
+  {
+    "t_start": 91.72,
+    "t_end": 95.505,
+    "text": "But it's all a tease because when you start asking questions about"
+  },
+  {
+    "t_start": 95.505,
+    "t_end": 99.52,
+    "text": "quadruplets or quintuplets or 100 tuples of numbers it's frustrating."
+  },
+  {
+    "t_start": 100.28,
+    "t_end": 104.0,
+    "text": "The constraints on our physical space seem to have constrained"
+  },
+  {
+    "t_start": 104.0,
+    "t_end": 107.78,
+    "text": "our intuitions about geometry and we lose this back and forth."
+  },
+  {
+    "t_start": 108.52,
+    "t_end": 112.629,
+    "text": "I mean it is completely reasonable to imagine that there are problems out"
+  },
+  {
+    "t_start": 112.629,
+    "t_end": 116.906,
+    "text": "there that would have clever and illuminating solutions if only we knew how"
+  },
+  {
+    "t_start": 116.906,
+    "t_end": 121.24,
+    "text": "to conceptualize say lists of 10 numbers as individual points in some space."
+  },
+  {
+    "t_start": 122.22,
+    "t_end": 126.412,
+    "text": "For mathematicians or computer scientists or physicists problems that are"
+  },
+  {
+    "t_start": 126.412,
+    "t_end": 130.719,
+    "text": "framed in terms of lists of numbers lists of more than three numbers are a"
+  },
+  {
+    "t_start": 130.719,
+    "t_end": 135.083,
+    "text": "regular part of the job and the standard approach to actually doing math in"
+  },
+  {
+    "t_start": 135.083,
+    "t_end": 139.217,
+    "text": "higher dimensions is to use two and three dimensions for analogy but to"
+  },
+  {
+    "t_start": 139.217,
+    "t_end": 143.582,
+    "text": "fundamentally reason about things just analytically somewhat analogous to a"
+  },
+  {
+    "t_start": 143.582,
+    "t_end": 148.52,
+    "text": "pilot relying primarily on instruments and not sight while flying through the clouds."
+  },
+  {
+    "t_start": 148.88,
+    "t_end": 153.278,
+    "text": "Now what I want to offer here is a hybrid between the purely geometric and the"
+  },
+  {
+    "t_start": 153.278,
+    "t_end": 157.732,
+    "text": "purely analytic views a method for making the analytic reasoning a little more"
+  },
+  {
+    "t_start": 157.732,
+    "t_end": 162.073,
+    "text": "visual in a way that generalizes to arbitrarily high dimensions and to drive"
+  },
+  {
+    "t_start": 162.073,
+    "t_end": 166.358,
+    "text": "home the value of a tactic like this I want to share with you a very famous"
+  },
+  {
+    "t_start": 166.358,
+    "t_end": 170.699,
+    "text": "example where analogies with two and three dimensions cannot help because of"
+  },
+  {
+    "t_start": 170.699,
+    "t_end": 175.04,
+    "text": "something extremely counterintuitive that only happens in higher dimensions."
+  },
+  {
+    "t_start": 175.9,
+    "t_end": 180.68,
+    "text": "The hope though is that what I show you here helps to make that phenomenon more intuitive."
+  },
+  {
+    "t_start": 182.1,
+    "t_end": 186.429,
+    "text": "The focus throughout will be on higher dimensional spheres for example"
+  },
+  {
+    "t_start": 186.429,
+    "t_end": 191.005,
+    "text": "when we talk about a four-dimensional sphere say with radius one centered"
+  },
+  {
+    "t_start": 191.005,
+    "t_end": 195.271,
+    "text": "at the origin what that actually is is the set of all quadruplets of"
+  },
+  {
+    "t_start": 195.271,
+    "t_end": 199.6,
+    "text": "numbers x,y,z,w where the sum of the squares of these numbers is one."
+  },
+  {
+    "t_start": 200.3,
+    "t_end": 205.362,
+    "text": "What I have pictured here now is multiple three-dimensional slices of a 4d sphere"
+  },
+  {
+    "t_start": 205.362,
+    "t_end": 210.673,
+    "text": "projected back into three dimensions but it's confusing and even if you do wrap your"
+  },
+  {
+    "t_start": 210.673,
+    "t_end": 216.11,
+    "text": "head around it it just pushes the question back to how you would think about a five or"
+  },
+  {
+    "t_start": 216.11,
+    "t_end": 221.671,
+    "text": "six or a seven dimensional sphere and more importantly squinting your eyes to understand"
+  },
+  {
+    "t_start": 221.671,
+    "t_end": 226.795,
+    "text": "a projection like this is not very reflective of what doing math with a 4d sphere"
+  },
+  {
+    "t_start": 226.795,
+    "t_end": 227.92,
+    "text": "actually entails."
+  },
+  {
+    "t_start": 229.02,
+    "t_end": 231.843,
+    "text": "Instead the basic idea here will be to get very literal"
+  },
+  {
+    "t_start": 231.843,
+    "t_end": 234.46,
+    "text": "about it and to think about four separate numbers."
+  },
+  {
+    "t_start": 235.3,
+    "t_end": 239.4,
+    "text": "I like to picture four vertical number lines with sliders to represent each number."
+  },
+  {
+    "t_start": 240.24,
+    "t_end": 244.177,
+    "text": "Each configuration of these sliders is a point in 4d space,"
+  },
+  {
+    "t_start": 244.177,
+    "t_end": 248.781,
+    "text": "a quadruplet of numbers, and what it means to be on a 4d unit sphere"
+  },
+  {
+    "t_start": 248.781,
+    "t_end": 254.32,
+    "text": "centered at the origin is that the sum of the squares of these four values is one."
+  },
+  {
+    "t_start": 256.58,
+    "t_end": 260.095,
+    "text": "Our goal is to understand which movements of these"
+  },
+  {
+    "t_start": 260.095,
+    "t_end": 263.4,
+    "text": "sliders correspond to movements on the sphere."
+  },
+  {
+    "t_start": 265.5,
+    "t_end": 267.591,
+    "text": "To do that it helps if we knock things down to two"
+  },
+  {
+    "t_start": 267.591,
+    "t_end": 269.64,
+    "text": "dimensions where we can actually see the circle."
+  },
+  {
+    "t_start": 270.52,
+    "t_end": 273.477,
+    "text": "So ask yourself what's a nice way to think about"
+  },
+  {
+    "t_start": 273.477,
+    "t_end": 276.68,
+    "text": "this relation that x squared plus y squared is one?"
+  },
+  {
+    "t_start": 278.04,
+    "t_end": 286.472,
+    "text": "Well I like to think of the value of x squared as the real estate belonging"
+  },
+  {
+    "t_start": 286.472,
+    "t_end": 290.8,
+    "text": "and that they have a total of one unit of real estate to share between them."
+  },
+  {
+    "t_start": 291.54,
+    "t_end": 295.088,
+    "text": "So moving around on the circle corresponds to a constant"
+  },
+  {
+    "t_start": 295.088,
+    "t_end": 298.32,
+    "text": "exchange of real estate between the two variables."
+  },
+  {
+    "t_start": 299.52,
+    "t_end": 303.821,
+    "text": "Part of the reason I choose this term is that it lets us make a very useful"
+  },
+  {
+    "t_start": 303.821,
+    "t_end": 308.752,
+    "text": "analogy that real estate is cheap near zero and more expensive away from To see this,"
+  },
+  {
+    "t_start": 308.752,
+    "t_end": 312.479,
+    "text": "consider starting off in a position where x equals 1 and y is 0,"
+  },
+  {
+    "t_start": 312.479,
+    "t_end": 315.231,
+    "text": "meaning x has all of the real estate to itself,"
+  },
+  {
+    "t_start": 315.231,
+    "t_end": 320.22,
+    "text": "which in our usual geometric picture means we're on the rightmost point of the circle."
+  },
+  {
+    "t_start": 321.24,
+    "t_end": 327.735,
+    "text": "If you move x down just a bit to 0.9 the value of x squared changes to 0.81,"
+  },
+  {
+    "t_start": 327.735,
+    "t_end": 332.52,
+    "text": "so it has in effect given up 0.19 units of real estate."
+  },
+  {
+    "t_start": 333.24,
+    "t_end": 336.691,
+    "text": "But for y squared to increase by that same amount,"
+  },
+  {
+    "t_start": 336.691,
+    "t_end": 340.005,
+    "text": "y has to move an entire 0.44 units away from 0,"
+  },
+  {
+    "t_start": 340.005,
+    "t_end": 343.18,
+    "text": "more than four times the amount that x moved."
+  },
+  {
+    "t_start": 343.94,
+    "t_end": 347.86,
+    "text": "In other words, x changed a little to give up expensive real estate so"
+  },
+  {
+    "t_start": 347.86,
+    "t_end": 351.78,
+    "text": "that y could move a lot and gain the same value of cheap real estate."
+  },
+  {
+    "t_start": 352.78,
+    "t_end": 355.606,
+    "text": "In terms of the usual circle drawing, this corresponds"
+  },
+  {
+    "t_start": 355.606,
+    "t_end": 357.7,
+    "text": "to the steep slope near the right side."
+  },
+  {
+    "t_start": 358.18,
+    "t_end": 361.64,
+    "text": "A small nudge in x allows for a very big change to y."
+  },
+  {
+    "t_start": 362.44,
+    "t_end": 366.065,
+    "text": "Moving forward, let's add some tick marks to these lines to"
+  },
+  {
+    "t_start": 366.065,
+    "t_end": 370.12,
+    "text": "indicate what 0.05 units of real estate looks like at each point."
+  },
+  {
+    "t_start": 370.58,
+    "t_end": 376.46,
+    "text": "That is, how much would x have to change so that the value of x squared changes by 0.05?"
+  },
+  {
+    "t_start": 377.74,
+    "t_end": 382.003,
+    "text": "As you walk around the circle, the trade-off in value between x squared and y"
+  },
+  {
+    "t_start": 382.003,
+    "t_end": 384.66,
+    "text": "squared gives this piston looking dance motion,"
+  },
+  {
+    "t_start": 384.66,
+    "t_end": 389.033,
+    "text": "where the sliders are moving more slowly away from zero because real estate is"
+  },
+  {
+    "t_start": 389.033,
+    "t_end": 390.86,
+    "text": "more expensive in those regions."
+  },
+  {
+    "t_start": 391.42,
+    "t_end": 394.2,
+    "text": "There are just more tick marks to cover per unit distance."
+  },
+  {
+    "t_start": 395.42,
+    "t_end": 400.016,
+    "text": "Also, a nice side effect of the term real estate is that it aligns naturally with"
+  },
+  {
+    "t_start": 400.016,
+    "t_end": 403.023,
+    "text": "the fact that it comes in units of distance squared,"
+  },
+  {
+    "t_start": 403.023,
+    "t_end": 407.505,
+    "text": "so the square root of the total real estate among all coordinates gives us the"
+  },
+  {
+    "t_start": 407.505,
+    "t_end": 408.98,
+    "text": "distance from the origin."
+  },
+  {
+    "t_start": 410.54,
+    "t_end": 414.372,
+    "text": "For a unit sphere in three dimensions, the set of all triplets x, y,"
+  },
+  {
+    "t_start": 414.372,
+    "t_end": 419.332,
+    "text": "z where the sum of their squares is one, all we have to do is add a third slider for z,"
+  },
+  {
+    "t_start": 419.332,
+    "t_end": 424.122,
+    "text": "but these three sliders still only have the one unit of real estate to share between"
+  },
+  {
+    "t_start": 424.122,
+    "t_end": 424.46,
+    "text": "them."
+  },
+  {
+    "t_start": 425.18,
+    "t_end": 429.189,
+    "text": "To get a feel for this, imagine holding x in place at 0.5,"
+  },
+  {
+    "t_start": 429.189,
+    "t_end": 432.3,
+    "text": "where it occupies 0.25 units of real estate."
+  },
+  {
+    "t_start": 433.16,
+    "t_end": 438.035,
+    "text": "What this means is that y and z can move around in the same piston dance motion"
+  },
+  {
+    "t_start": 438.035,
+    "t_end": 442.54,
+    "text": "we saw before as they trade off the remaining 0.75 units of real estate."
+  },
+  {
+    "t_start": 443.5,
+    "t_end": 446.747,
+    "text": "In terms of our typical way of visualizing a sphere,"
+  },
+  {
+    "t_start": 446.747,
+    "t_end": 450.868,
+    "text": "this corresponds to slicing the sphere along the plane where x is"
+  },
+  {
+    "t_start": 450.868,
+    "t_end": 456.3,
+    "text": "0.5 and looking at the circle formed by all of the choices for y and z on that sphere."
+  },
+  {
+    "t_start": 457.6,
+    "t_end": 461.196,
+    "text": "As you increase the value of x, the amount of real estate left"
+  },
+  {
+    "t_start": 461.196,
+    "t_end": 464.792,
+    "text": "over for y and z is smaller, and this more constrained piston"
+  },
+  {
+    "t_start": 464.792,
+    "t_end": 468.62,
+    "text": "dance is what it feels like for the circular slice to be smaller."
+  },
+  {
+    "t_start": 469.5,
+    "t_end": 473.811,
+    "text": "Eventually, once x reaches the value 1, there's no real estate left over,"
+  },
+  {
+    "t_start": 473.811,
+    "t_end": 478.24,
+    "text": "so you reach this singularity point where y and z are both forced to be 0."
+  },
+  {
+    "t_start": 479.56,
+    "t_end": 483.12,
+    "text": "The feeling here is a bit like being a bug on the surface of the sphere."
+  },
+  {
+    "t_start": 483.48,
+    "t_end": 486.56,
+    "text": "You are unable to see the whole sphere all at once."
+  },
+  {
+    "t_start": 487.02,
+    "t_end": 489.34,
+    "text": "Instead, you're just sitting on a single point,"
+  },
+  {
+    "t_start": 489.34,
+    "t_end": 492.4,
+    "text": "and you have some sense for what local movements are allowed."
+  },
+  {
+    "t_start": 495.68,
+    "t_end": 500.24,
+    "text": "In four dimensions and higher, we lose the crutch of the global view that a spatial"
+  },
+  {
+    "t_start": 500.24,
+    "t_end": 505.02,
+    "text": "visual offers, but the fundamental rules of this real estate exchange remain the same."
+  },
+  {
+    "t_start": 505.7,
+    "t_end": 509.542,
+    "text": "If you fix one slider in place and watch the other three trade off,"
+  },
+  {
+    "t_start": 509.542,
+    "t_end": 513.785,
+    "text": "this is basically what it means to take a slice of the 4d sphere to get a"
+  },
+  {
+    "t_start": 513.785,
+    "t_end": 518.2,
+    "text": "small 3d sphere, in much the same way that fixing one of the sliders for the"
+  },
+  {
+    "t_start": 518.2,
+    "t_end": 523.36,
+    "text": "three-dimensional case give us a circular slice when the remaining two were free to vary."
+  },
+  {
+    "t_start": 524.9,
+    "t_end": 528.914,
+    "text": "Now watching these sliders move about and thinking about the real estate"
+  },
+  {
+    "t_start": 528.914,
+    "t_end": 532.761,
+    "text": "exchange is pretty fun, but it runs the risk of being aimless unless"
+  },
+  {
+    "t_start": 532.761,
+    "t_end": 536.44,
+    "text": "we have an actual high-dimensional puzzle to sink our teeth into."
+  },
+  {
+    "t_start": 536.72,
+    "t_end": 540.688,
+    "text": "So let's set aside the sliders for just a moment and bring in a very"
+  },
+  {
+    "t_start": 540.688,
+    "t_end": 544.889,
+    "text": "classic example of something that seems reasonable and even dull in two"
+  },
+  {
+    "t_start": 544.889,
+    "t_end": 549.44,
+    "text": "and three dimensions, but which is totally out of whack in higher dimensions."
+  },
+  {
+    "t_start": 550.66,
+    "t_end": 554.1,
+    "text": "To start, take a 2x2 box centered at the origin."
+  },
+  {
+    "t_start": 554.88,
+    "t_end": 560.64,
+    "text": "Its corners are on the vertices 1,1, 1,-1,-1,1, and 1,-1."
+  },
+  {
+    "t_start": 561.52,
+    "t_end": 566.281,
+    "text": "Draw four circles, each with radius 1, centered at these four vertices,"
+  },
+  {
+    "t_start": 566.281,
+    "t_end": 569.5,
+    "text": "so each one is tangent to two of its neighbors."
+  },
+  {
+    "t_start": 570.56,
+    "t_end": 574.42,
+    "text": "Now I want you to think of the circle centered at the origin which is just"
+  },
+  {
+    "t_start": 574.42,
+    "t_end": 578.54,
+    "text": "large enough to be touching those corner circles, tangent to each one of them."
+  },
+  {
+    "t_start": 579.36,
+    "t_end": 582.671,
+    "text": "What we want to do for this setup and for its analogies in"
+  },
+  {
+    "t_start": 582.671,
+    "t_end": 586.04,
+    "text": "higher dimensions is find the radius of that inner circle."
+  },
+  {
+    "t_start": 588.04,
+    "t_end": 592.711,
+    "text": "Here in two dimensions we can use the Pythagorean theorem to see that the distance from"
+  },
+  {
+    "t_start": 592.711,
+    "t_end": 597.22,
+    "text": "the origin to the corner of the box is the square root of 2, which is around 1.414."
+  },
+  {
+    "t_start": 598.32,
+    "t_end": 602.253,
+    "text": "Then you can subtract off this portion here the radius of the"
+  },
+  {
+    "t_start": 602.253,
+    "t_end": 606.509,
+    "text": "corner circle which by definition is 1, and that means the radius"
+  },
+  {
+    "t_start": 606.509,
+    "t_end": 610.7,
+    "text": "of the inner circle is square root of 2 minus 1, or about 0.414."
+  },
+  {
+    "t_start": 611.54,
+    "t_end": 613.82,
+    "text": "No surprises here, that seems pretty reasonable."
+  },
+  {
+    "t_start": 615.06,
+    "t_end": 617.08,
+    "text": "Now do something analogous in three dimensions."
+  },
+  {
+    "t_start": 617.74,
+    "t_end": 623.383,
+    "text": "Draw a 2x2x2 cube whose corners have vertices 1,1,1,1,1,-1, on and on and on,"
+  },
+  {
+    "t_start": 623.383,
+    "t_end": 629.538,
+    "text": "and then we're going to take eight different spheres, each of which has a radius 1,"
+  },
+  {
+    "t_start": 629.538,
+    "t_end": 636.06,
+    "text": "and center them on these vertices so that each one is tangent to three of its neighbors."
+  },
+  {
+    "t_start": 637.22,
+    "t_end": 640.729,
+    "text": "Now again, think about the sphere centered at the origin which is"
+  },
+  {
+    "t_start": 640.729,
+    "t_end": 644.4,
+    "text": "just large enough to be barely touching those eight corner spheres."
+  },
+  {
+    "t_start": 645.16,
+    "t_end": 648.632,
+    "text": "As before, we can start by thinking about the distance from"
+  },
+  {
+    "t_start": 648.632,
+    "t_end": 652.28,
+    "text": "the origin to the corner of the box, say the corner at 1,1,1."
+  },
+  {
+    "t_start": 653.28,
+    "t_end": 656.868,
+    "text": "By the way, I guess I still haven't yet explicitly said that the"
+  },
+  {
+    "t_start": 656.868,
+    "t_end": 660.456,
+    "text": "way distances work in higher dimensions is always to add up the"
+  },
+  {
+    "t_start": 660.456,
+    "t_end": 664.38,
+    "text": "squares of the components in each direction and take the square root."
+  },
+  {
+    "t_start": 665.04,
+    "t_end": 668.862,
+    "text": "If you've never seen why this follows from the Pythagorean theorem just in the"
+  },
+  {
+    "t_start": 668.862,
+    "t_end": 672.391,
+    "text": "two-dimensional case, it's actually a really fun puzzle to think about,"
+  },
+  {
+    "t_start": 672.391,
+    "t_end": 676.458,
+    "text": "and I've left the relevant image up on the screen for any of you who want to pause"
+  },
+  {
+    "t_start": 676.458,
+    "t_end": 677.34,
+    "text": "and ponder on it."
+  },
+  {
+    "t_start": 678.08,
+    "t_end": 683.298,
+    "text": "Anyway, in our case the distance between the origin and the corner 1,1,1 is the square"
+  },
+  {
+    "t_start": 683.298,
+    "t_end": 687.546,
+    "text": "root of 1 squared plus 1 squared plus 1 squared, or square root of 3,"
+  },
+  {
+    "t_start": 687.546,
+    "t_end": 688.82,
+    "text": "which is about 1.73."
+  },
+  {
+    "t_start": 689.88,
+    "t_end": 693.67,
+    "text": "So the radius of that inner sphere is going to be this quantity"
+  },
+  {
+    "t_start": 693.67,
+    "t_end": 697.46,
+    "text": "minus the radius of a corner sphere, which by definition is 1."
+  },
+  {
+    "t_start": 698.16,
+    "t_end": 703.06,
+    "text": "And again, 0.73 seems like a reasonable radius for that inner sphere."
+  },
+  {
+    "t_start": 703.82,
+    "t_end": 707.04,
+    "text": "But what happens to that inner radius as you increase dimensions?"
+  },
+  {
+    "t_start": 708.1,
+    "t_end": 711.795,
+    "text": "Obviously the reason I bring this up is that something surprising will happen,"
+  },
+  {
+    "t_start": 711.795,
+    "t_end": 714.022,
+    "text": "and some of you might see where this is going,"
+  },
+  {
+    "t_start": 714.022,
+    "t_end": 716.58,
+    "text": "but I actually don't want it to feel like a surprise."
+  },
+  {
+    "t_start": 717.18,
+    "t_end": 720.984,
+    "text": "As fun as it is to wow people with counterintuitive facts and math,"
+  },
+  {
+    "t_start": 720.984,
+    "t_end": 723.88,
+    "text": "the goal here is genuine understanding, not shock."
+  },
+  {
+    "t_start": 724.5,
+    "t_end": 728.653,
+    "text": "For higher dimensions we'll be using sliders to get a gut feel for what's going on,"
+  },
+  {
+    "t_start": 728.653,
+    "t_end": 733.106,
+    "text": "but since it's kind of a different way of viewing things it helps to get a running start"
+  },
+  {
+    "t_start": 733.106,
+    "t_end": 737.51,
+    "text": "by looking back at how to analyze the two and three-dimensional cases in the context of"
+  },
+  {
+    "t_start": 737.51,
+    "t_end": 737.96,
+    "text": "sliders."
+  },
+  {
+    "t_start": 739.1,
+    "t_end": 744.16,
+    "text": "First things first, how do you think about a circle centered at a corner like 1,-1?"
+  },
+  {
+    "t_start": 745.18,
+    "t_end": 748.251,
+    "text": "Well previously, for a circle centered at the origin,"
+  },
+  {
+    "t_start": 748.251,
+    "t_end": 752.597,
+    "text": "the amount of real estate belonging to both x and y was dependent on their"
+  },
+  {
+    "t_start": 752.597,
+    "t_end": 754.22,
+    "text": "distance from the number 0."
+  },
+  {
+    "t_start": 755.14,
+    "t_end": 757.996,
+    "text": "And it's the same basic idea here as you move around the center,"
+  },
+  {
+    "t_start": 757.996,
+    "t_end": 761.522,
+    "text": "it's just that the real estate might be dependent on the distance between each"
+  },
+  {
+    "t_start": 761.522,
+    "t_end": 763.04,
+    "text": "coordinate and some other number."
+  },
+  {
+    "t_start": 763.72,
+    "t_end": 767.495,
+    "text": "So for this circle, centered at 1,-1, the amount of real"
+  },
+  {
+    "t_start": 767.495,
+    "t_end": 777.42,
+    "text": "Likewise, the real estate belonging to y is the square of its distance from negative 1."
+  },
+  {
+    "t_start": 778.1,
+    "t_end": 780.499,
+    "text": "Other than that, the look and feel with this piston"
+  },
+  {
+    "t_start": 780.499,
+    "t_end": 782.38,
+    "text": "dance trade-off is completely the same."
+  },
+  {
+    "t_start": 783.48,
+    "t_end": 787.82,
+    "text": "For simplicity, we'll only focus on one of these circles, the one centered at 1,-1."
+  },
+  {
+    "t_start": 788.78,
+    "t_end": 792.951,
+    "text": "Now ask yourself, what does it mean to find a circle centered at the origin large"
+  },
+  {
+    "t_start": 792.951,
+    "t_end": 797.02,
+    "text": "enough to be tangent to this guy when we're thinking just in terms of sliders?"
+  },
+  {
+    "t_start": 800.12,
+    "t_end": 802.748,
+    "text": "Well notice how this point of tangency happens"
+  },
+  {
+    "t_start": 802.748,
+    "t_end": 805.49,
+    "text": "when the x and y coordinates are both the same."
+  },
+  {
+    "t_start": 806.31,
+    "t_end": 811.43,
+    "text": "Or phrased differently, at the point of this corner circle closest to the origin,"
+  },
+  {
+    "t_start": 811.43,
+    "t_end": 814.59,
+    "text": "the real estate is shared evenly between x and y."
+  },
+  {
+    "t_start": 815.41,
+    "t_end": 819.09,
+    "text": "This will be important for later, so let's really dig in and think about why it's true."
+  },
+  {
+    "t_start": 820.07,
+    "t_end": 824.247,
+    "text": "Imagine perturbing that point slightly, maybe moving x a little closer to 0,"
+  },
+  {
+    "t_start": 824.247,
+    "t_end": 827.27,
+    "text": "which means y would have to move a little away from 0."
+  },
+  {
+    "t_start": 827.91,
+    "t_end": 831.842,
+    "text": "The change in x would have to be a little smaller than the change in y,"
+  },
+  {
+    "t_start": 831.842,
+    "t_end": 835.664,
+    "text": "since the real estate it gains by moving farther away from 1 is more"
+  },
+  {
+    "t_start": 835.664,
+    "t_end": 839.43,
+    "text": "expensive than the real estate that y loses by getting closer to 1."
+  },
+  {
+    "t_start": 840.31,
+    "t_end": 844.61,
+    "text": "But from the perspective of the origin point 0,0 that trade-off is reversed."
+  },
+  {
+    "t_start": 845.33,
+    "t_end": 851.254,
+    "text": "The resulting change to x squared is smaller than the resulting change to y squared,"
+  },
+  {
+    "t_start": 851.254,
+    "t_end": 855.203,
+    "text": "since when real estate is measured with respect to 0,0,"
+  },
+  {
+    "t_start": 855.203,
+    "t_end": 858.87,
+    "text": "that move of y towards 1 is the more expensive one."
+  },
+  {
+    "t_start": 860.15,
+    "t_end": 864.757,
+    "text": "What this means is that any slight perturbation away from this point where real"
+  },
+  {
+    "t_start": 864.757,
+    "t_end": 869.13,
+    "text": "estate is shared evenly results in an increasing distance from the origin."
+  },
+  {
+    "t_start": 870.47,
+    "t_end": 873.985,
+    "text": "The reason we care is that this point is tangent to the inner circle,"
+  },
+  {
+    "t_start": 873.985,
+    "t_end": 877.45,
+    "text": "so we can also think about it as being a point of the inner circle."
+  },
+  {
+    "t_start": 878.13,
+    "t_end": 880.07,
+    "text": "And this will be very useful for higher dimensions."
+  },
+  {
+    "t_start": 880.53,
+    "t_end": 884.47,
+    "text": "It gives us a reference point to understanding the radius of that inner circle."
+  },
+  {
+    "t_start": 885.29,
+    "t_end": 890.131,
+    "text": "Specifically, you can ask how much real estate is shared between x and y at this"
+  },
+  {
+    "t_start": 890.131,
+    "t_end": 894.79,
+    "text": "point when real estate measurements are done with respect to the origin 0,0."
+  },
+  {
+    "t_start": 895.89,
+    "t_end": 900.817,
+    "text": "For example, down here in two dimensions both x and y dip below"
+  },
+  {
+    "t_start": 900.817,
+    "t_end": 905.743,
+    "text": "0.5 in this configuration, so the total value x squared plus y"
+  },
+  {
+    "t_start": 905.743,
+    "t_end": 910.67,
+    "text": "squared is going to be less than 0.5 squared plus 0.5 squared."
+  },
+  {
+    "t_start": 911.67,
+    "t_end": 914.4,
+    "text": "Comparing to this halfway point is really going to come in handy"
+  },
+  {
+    "t_start": 914.4,
+    "t_end": 917.13,
+    "text": "for wrapping our mind around what happens in higher dimensions."
+  },
+  {
+    "t_start": 918.01,
+    "t_end": 920.75,
+    "text": "Taking things one step at a time, let's bump it up to three dimensions."
+  },
+  {
+    "t_start": 922.69,
+    "t_end": 926.27,
+    "text": "Consider the corner sphere with radius 1 centered at 1,1,1."
+  },
+  {
+    "t_start": 926.97,
+    "t_end": 932.331,
+    "text": "The point on that sphere that's closest to the origin corresponds to the configuration"
+  },
+  {
+    "t_start": 932.331,
+    "t_end": 937.63,
+    "text": "of sliders where x, y, and z are all reaching down toward 0 and equal to each other."
+  },
+  {
+    "t_start": 938.45,
+    "t_end": 943.942,
+    "text": "Again, they all have to go a little beyond that halfway point because the"
+  },
+  {
+    "t_start": 943.942,
+    "t_end": 949.51,
+    "text": "position 0.5 only accounts for 0.5 squared, or 0.25 units of real estate."
+  },
+  {
+    "t_start": 950.63,
+    "t_end": 954.407,
+    "text": "So with all three coordinates getting a third of a unit of real estate,"
+  },
+  {
+    "t_start": 954.407,
+    "t_end": 955.95,
+    "text": "they need to be farther out."
+  },
+  {
+    "t_start": 956.75,
+    "t_end": 960.977,
+    "text": "And again, since this is a point where the corner sphere is tangent to the inner sphere,"
+  },
+  {
+    "t_start": 960.977,
+    "t_end": 962.85,
+    "text": "it's also a point of the inner sphere."
+  },
+  {
+    "t_start": 963.61,
+    "t_end": 968.716,
+    "text": "So with reference to the origin 0,0,0, think about the amount of real estate"
+  },
+  {
+    "t_start": 968.716,
+    "t_end": 974.09,
+    "text": "shared between x, y, and z in this position corresponding to the tangent point."
+  },
+  {
+    "t_start": 974.83,
+    "t_end": 981.345,
+    "text": "It's definitely less than 0.75 since all three of these are smaller than 0.5,"
+  },
+  {
+    "t_start": 981.345,
+    "t_end": 985.83,
+    "text": "so each one has less than 0.25 units of real estate."
+  },
+  {
+    "t_start": 986.89,
+    "t_end": 989.95,
+    "text": "And again, we sit back and feel comfortable with this result, right?"
+  },
+  {
+    "t_start": 990.07,
+    "t_end": 992.59,
+    "text": "The inner sphere is smaller than the corner spheres."
+  },
+  {
+    "t_start": 993.55,
+    "t_end": 996.27,
+    "text": "But things get interesting when we move up into four dimensions."
+  },
+  {
+    "t_start": 997.95,
+    "t_end": 1003.6,
+    "text": "Our 2x2x2x2 box is going to have 16 vertices at 1,1,1,1,"
+  },
+  {
+    "t_start": 1003.6,
+    "t_end": 1011.47,
+    "text": "1,1,1,-1 and so on with all possible binary combinations of 1 and negative 1."
+  },
+  {
+    "t_start": 1012.31,
+    "t_end": 1016.487,
+    "text": "What this means is that there are 16 unit spheres centered at these corners,"
+  },
+  {
+    "t_start": 1016.487,
+    "t_end": 1018.85,
+    "text": "each one tangent to four of its neighbors."
+  },
+  {
+    "t_start": 1020.15,
+    "t_end": 1024.55,
+    "text": "As before, we'll just be focusing on one of them, the one centered at 1,1,1,1."
+  },
+  {
+    "t_start": 1024.99,
+    "t_end": 1029.972,
+    "text": "The point of the sphere closest to the origin corresponds to the configuration"
+  },
+  {
+    "t_start": 1029.972,
+    "t_end": 1034.89,
+    "text": "of sliders where all four coordinates reach exactly halfway between 1 and 0."
+  },
+  {
+    "t_start": 1035.77,
+    "t_end": 1040.509,
+    "text": "And that's because when one of the coordinates is 0.5 units away from 1,"
+  },
+  {
+    "t_start": 1040.509,
+    "t_end": 1044.59,
+    "text": "it has 0.25 units of real estate with respect to the point 1."
+  },
+  {
+    "t_start": 1045.37,
+    "t_end": 1048.332,
+    "text": "We do the same trick as before, thinking of this now as a point"
+  },
+  {
+    "t_start": 1048.332,
+    "t_end": 1051.576,
+    "text": "of the inner sphere and measuring things with respect to the origin,"
+  },
+  {
+    "t_start": 1051.576,
+    "t_end": 1054.35,
+    "text": "but you can already see what's cool about four dimensions."
+  },
+  {
+    "t_start": 1054.93,
+    "t_end": 1059.141,
+    "text": "As you switch to thinking of real estate with respect to 0,0,0,0,"
+  },
+  {
+    "t_start": 1059.141,
+    "t_end": 1064.778,
+    "text": "it's still the case that each of these four coordinates has 0.25 units of real estate,"
+  },
+  {
+    "t_start": 1064.778,
+    "t_end": 1068.73,
+    "text": "making for a total of 1 shared between the four coordinates."
+  },
+  {
+    "t_start": 1070.11,
+    "t_end": 1074.71,
+    "text": "In other words, that inner sphere is precisely the same size as the corner spheres."
+  },
+  {
+    "t_start": 1075.67,
+    "t_end": 1078.719,
+    "text": "This matches with what you see numerically, by the way,"
+  },
+  {
+    "t_start": 1078.719,
+    "t_end": 1083.099,
+    "text": "where you can compute the distance between the origin and the corner, 1,1,1,1,"
+  },
+  {
+    "t_start": 1083.099,
+    "t_end": 1087.59,
+    "text": "is the square root of 4, and then when you subtract off the radius of one of the"
+  },
+  {
+    "t_start": 1087.59,
+    "t_end": 1089.53,
+    "text": "corner spheres, what you get is 1."
+  },
+  {
+    "t_start": 1090.43,
+    "t_end": 1094.79,
+    "text": "But there's something much more satisfying about seeing it, rather than just computing it."
+  },
+  {
+    "t_start": 1095.59,
+    "t_end": 1099.57,
+    "text": "In particular, here's a cool aspect of the fact that that inner sphere has radius 1."
+  },
+  {
+    "t_start": 1100.19,
+    "t_end": 1104.461,
+    "text": "Move things around so that all of the real estate goes to the coordinate x,"
+  },
+  {
+    "t_start": 1104.461,
+    "t_end": 1106.91,
+    "text": "and you'll end up at the point 1, 0, 0, 0."
+  },
+  {
+    "t_start": 1107.49,
+    "t_end": 1110.664,
+    "text": "This point is actually touching the 2x2x2x2 box,"
+  },
+  {
+    "t_start": 1110.664,
+    "t_end": 1115.293,
+    "text": "and when you're stuck thinking in the two or three dimensional cases,"
+  },
+  {
+    "t_start": 1115.293,
+    "t_end": 1120.781,
+    "text": "this fact that the inner sphere has radius 1, the same size as the corner spheres,"
+  },
+  {
+    "t_start": 1120.781,
+    "t_end": 1124.55,
+    "text": "and that it touches the box, well it just seems too big."
+  },
+  {
+    "t_start": 1125.29,
+    "t_end": 1129.832,
+    "text": "But it's important to realize this is fundamentally a four-dimensional phenomenon,"
+  },
+  {
+    "t_start": 1129.832,
+    "t_end": 1132.99,
+    "text": "and you just can't cram it down into smaller dimensions."
+  },
+  {
+    "t_start": 1134.17,
+    "t_end": 1135.07,
+    "text": "But things get weirder."
+  },
+  {
+    "t_start": 1135.35,
+    "t_end": 1136.75,
+    "text": "Let's knock it up to five dimensions."
+  },
+  {
+    "t_start": 1137.37,
+    "t_end": 1140.746,
+    "text": "In this case we have quite a few corner spheres, 32 in total,"
+  },
+  {
+    "t_start": 1140.746,
+    "t_end": 1145.45,
+    "text": "but again for simplicity we'll only be thinking about the one centered at 1,1,1,1,1."
+  },
+  {
+    "t_start": 1146.19,
+    "t_end": 1149.175,
+    "text": "Think about the point of the sphere closest to the origin,"
+  },
+  {
+    "t_start": 1149.175,
+    "t_end": 1153.55,
+    "text": "where all five coordinates are equally splitting the one unit of shared real estate."
+  },
+  {
+    "t_start": 1154.43,
+    "t_end": 1158.11,
+    "text": "This time each coordinate is a little higher than 0.5."
+  },
+  {
+    "t_start": 1158.53,
+    "t_end": 1163.841,
+    "text": "If they reach down to 0.5, each one would have 0.25 units of real estate,"
+  },
+  {
+    "t_start": 1163.841,
+    "t_end": 1166.97,
+    "text": "giving a total of 1.25, which is too much."
+  },
+  {
+    "t_start": 1167.75,
+    "t_end": 1172.067,
+    "text": "But the tables are turned when you view this as a point on the inner sphere,"
+  },
+  {
+    "t_start": 1172.067,
+    "t_end": 1176.952,
+    "text": "because with respect to the origin, this configuration has much more than one unit of"
+  },
+  {
+    "t_start": 1176.952,
+    "t_end": 1177.69,
+    "text": "real estate."
+  },
+  {
+    "t_start": 1180.13,
+    "t_end": 1183.842,
+    "text": "Not only is every coordinate more than 0.5 units away from 0,"
+  },
+  {
+    "t_start": 1183.842,
+    "t_end": 1188.894,
+    "text": "but the larger number of dimensions means that there's more total real estate when"
+  },
+  {
+    "t_start": 1188.894,
+    "t_end": 1190.05,
+    "text": "you add it all up."
+  },
+  {
+    "t_start": 1190.65,
+    "t_end": 1195.69,
+    "text": "Specifically you can compute that the radius of that inner sphere is about 1.24."
+  },
+  {
+    "t_start": 1196.53,
+    "t_end": 1200.52,
+    "text": "The intuitive feel for what that means is that the sliders can roam over"
+  },
+  {
+    "t_start": 1200.52,
+    "t_end": 1204.51,
+    "text": "more territory than what just a single unit of real estate would allow."
+  },
+  {
+    "t_start": 1205.61,
+    "t_end": 1208.264,
+    "text": "One fun way to see what this means is to adjust everything"
+  },
+  {
+    "t_start": 1208.264,
+    "t_end": 1211.01,
+    "text": "so that all of the real estate goes to just one coordinate."
+  },
+  {
+    "t_start": 1212.01,
+    "t_end": 1216.284,
+    "text": "Because this coordinate can reach beyond one, what you are seeing is"
+  },
+  {
+    "t_start": 1216.284,
+    "t_end": 1220.81,
+    "text": "that this five dimensional inner sphere actually pokes outside the box."
+  },
+  {
+    "t_start": 1222.67,
+    "t_end": 1225.449,
+    "text": "But to really get a feel for how strange things become,"
+  },
+  {
+    "t_start": 1225.449,
+    "t_end": 1228.33,
+    "text": "as a last example I want to jump up into ten dimensions."
+  },
+  {
+    "t_start": 1229.13,
+    "t_end": 1232.11,
+    "text": "Remember, all this means is that points have ten coordinates."
+  },
+  {
+    "t_start": 1232.77,
+    "t_end": 1235.826,
+    "text": "For a sphere with radius 1, a single unit of real estate"
+  },
+  {
+    "t_start": 1235.826,
+    "t_end": 1238.61,
+    "text": "must be shared among all ten of those coordinates."
+  },
+  {
+    "t_start": 1239.63,
+    "t_end": 1243.099,
+    "text": "As always, the point of this corner sphere closest to the origin"
+  },
+  {
+    "t_start": 1243.099,
+    "t_end": 1246.73,
+    "text": "is the one where all ten coordinates split the real estate evenly."
+  },
+  {
+    "t_start": 1247.45,
+    "t_end": 1251.31,
+    "text": "And here you can really see just how far away this feels from the origin."
+  },
+  {
+    "t_start": 1252.23,
+    "t_end": 1255.177,
+    "text": "Or phrased differently, that inner sphere is allowed"
+  },
+  {
+    "t_start": 1255.177,
+    "t_end": 1257.67,
+    "text": "to have a very large amount of real estate."
+  },
+  {
+    "t_start": 1258.69,
+    "t_end": 1263.69,
+    "text": "In fact, you can compute that the radius of the inner sphere is about 2.16."
+  },
+  {
+    "t_start": 1264.75,
+    "t_end": 1268.957,
+    "text": "And viewed from this perspective, where you have ten full dimensions to share"
+  },
+  {
+    "t_start": 1268.957,
+    "t_end": 1273.219,
+    "text": "that real estate, doesn't it actually feel somewhat reasonable that the inner"
+  },
+  {
+    "t_start": 1273.219,
+    "t_end": 1277.59,
+    "text": "sphere should have a radius more than twice as big as all those corner spheres?"
+  },
+  {
+    "t_start": 1278.83,
+    "t_end": 1282.111,
+    "text": "To get a sense for just how big this inner sphere is,"
+  },
+  {
+    "t_start": 1282.111,
+    "t_end": 1286.816,
+    "text": "look back in two dimensions and imagine a 4x4 box bounding all four circles"
+  },
+  {
+    "t_start": 1286.816,
+    "t_end": 1287.93,
+    "text": "from the outside."
+  },
+  {
+    "t_start": 1288.75,
+    "t_end": 1292.086,
+    "text": "Or go to three dimensions and imagine a 4x4x4 box"
+  },
+  {
+    "t_start": 1292.086,
+    "t_end": 1295.83,
+    "text": "bounding all of those corner spheres from the outside."
+  },
+  {
+    "t_start": 1296.35,
+    "t_end": 1301.992,
+    "text": "Way up here in ten dimensions, that quote-unquote inner sphere is actually large enough"
+  },
+  {
+    "t_start": 1301.992,
+    "t_end": 1307.57,
+    "text": "to poke outside of that outer bounding box, since it has a diameter bigger than four."
+  },
+  {
+    "t_start": 1310.07,
+    "t_end": 1314.89,
+    "text": "I know that seems crazy, but you have to realize that the face of the box is"
+  },
+  {
+    "t_start": 1314.89,
+    "t_end": 1319.71,
+    "text": "always two units away from the origin, no matter how high the dimension is."
+  },
+  {
+    "t_start": 1320.17,
+    "t_end": 1324.25,
+    "text": "And fundamentally it's because it only involves moving along a single axis."
+  },
+  {
+    "t_start": 1325.03,
+    "t_end": 1329.623,
+    "text": "But the point 1,1,1,1,1,1,1,1,1,1, which determines the inner sphere's radius,"
+  },
+  {
+    "t_start": 1329.623,
+    "t_end": 1334.57,
+    "text": "is actually really far away from the center, all the way up here in ten dimensions."
+  },
+  {
+    "t_start": 1335.25,
+    "t_end": 1338.151,
+    "text": "And it's because all ten of those dimensions add"
+  },
+  {
+    "t_start": 1338.151,
+    "t_end": 1340.75,
+    "text": "a full unit of real estate for that point."
+  },
+  {
+    "t_start": 1342.39,
+    "t_end": 1344.819,
+    "text": "And of course as you keep upping the dimensions,"
+  },
+  {
+    "t_start": 1344.819,
+    "t_end": 1347.45,
+    "text": "that inner sphere just keeps growing without bound."
+  },
+  {
+    "t_start": 1347.95,
+    "t_end": 1353.408,
+    "text": "Not only is it poking outside of these boxes, but the proportion of the inner sphere"
+  },
+  {
+    "t_start": 1353.408,
+    "t_end": 1358.67,
+    "text": "lying inside the box decreases exponentially towards zero as the dimension keeps"
+  },
+  {
+    "t_start": 1358.67,
+    "t_end": 1359.45,
+    "text": "increasing."
+  },
+  {
+    "t_start": 1361.61,
+    "t_end": 1365.337,
+    "text": "So taking a step back, one of the things I like about using this slider method"
+  },
+  {
+    "t_start": 1365.337,
+    "t_end": 1368.108,
+    "text": "for teaching is that when I shared it with a few friends,"
+  },
+  {
+    "t_start": 1368.108,
+    "t_end": 1371.644,
+    "text": "the way they started to talk about higher dimensions became a little less"
+  },
+  {
+    "t_start": 1371.644,
+    "t_end": 1375.419,
+    "text": "metaphysical and started to sound more like how you would hear a mathematician"
+  },
+  {
+    "t_start": 1375.419,
+    "t_end": 1376.47,
+    "text": "talk about the topic."
+  },
+  {
+    "t_start": 1377.01,
+    "t_end": 1381.75,
+    "text": "Rather than skeptically asking whether or not ten-dimensional space is a real thing,"
+  },
+  {
+    "t_start": 1381.75,
+    "t_end": 1384.796,
+    "text": "recognizing that it's exactly as real as numbers are,"
+  },
+  {
+    "t_start": 1384.796,
+    "t_end": 1388.746,
+    "text": "people would actually probe at what other properties high-dimensional"
+  },
+  {
+    "t_start": 1388.746,
+    "t_end": 1392.47,
+    "text": "spheres have and what other shapes feel like in terms of sliders."
+  },
+  {
+    "t_start": 1393.45,
+    "t_end": 1397.125,
+    "text": "This box situation is just one in a number of things that feel very"
+  },
+  {
+    "t_start": 1397.125,
+    "t_end": 1400.58,
+    "text": "crazy about higher dimensional spheres, and it's really fun to"
+  },
+  {
+    "t_start": 1400.58,
+    "t_end": 1404.31,
+    "text": "think about these others in the context of sliders and real estate."
+  },
+  {
+    "t_start": 1405.23,
+    "t_end": 1408.763,
+    "text": "It's obviously limited, I mean you're a bug on the surface of these objects,"
+  },
+  {
+    "t_start": 1408.763,
+    "t_end": 1412.25,
+    "text": "only getting a feel for one point at a time and for the rules of movement."
+  },
+  {
+    "t_start": 1413.23,
+    "t_end": 1416.455,
+    "text": "Also, geometry can be quite nice when it's coordinate-free,"
+  },
+  {
+    "t_start": 1416.455,
+    "t_end": 1419.844,
+    "text": "and this is the opposite of that, but it does give a foothold"
+  },
+  {
+    "t_start": 1419.844,
+    "t_end": 1423.67,
+    "text": "into thinking about high-dimensional shapes a little more concretely."
+  },
+  {
+    "t_start": 1426.03,
+    "t_end": 1428.928,
+    "text": "Now you could say that viewing things with sliders is no"
+  },
+  {
+    "t_start": 1428.928,
+    "t_end": 1431.93,
+    "text": "different from thinking about things purely analytically."
+  },
+  {
+    "t_start": 1432.49,
+    "t_end": 1436.171,
+    "text": "I mean, it's honestly little more than representing each coordinate literally,"
+  },
+  {
+    "t_start": 1436.171,
+    "t_end": 1438.53,
+    "text": "it's kind of the most obvious thing you might do."
+  },
+  {
+    "t_start": 1439.25,
+    "t_end": 1443.415,
+    "text": "But this small move makes it much more possible to play with the thought of a"
+  },
+  {
+    "t_start": 1443.415,
+    "t_end": 1447.688,
+    "text": "high-dimensional point, and even little things like thinking about the squares"
+  },
+  {
+    "t_start": 1447.688,
+    "t_end": 1451.961,
+    "text": "of coordinates as real estate can shed light on some seemingly strange aspects"
+  },
+  {
+    "t_start": 1451.961,
+    "t_end": 1456.45,
+    "text": "of high dimensions, like just how far away the corner of a box is from its center."
+  },
+  {
+    "t_start": 1457.29,
+    "t_end": 1460.922,
+    "text": "If anything, the fact that it's such a direct representation of a"
+  },
+  {
+    "t_start": 1460.922,
+    "t_end": 1464.778,
+    "text": "purely analytic description is exactly what makes it such a faithful"
+  },
+  {
+    "t_start": 1464.778,
+    "t_end": 1468.69,
+    "text": "reflection of what genuinely doing math in higher dimensions entails."
+  },
+  {
+    "t_start": 1469.39,
+    "t_end": 1473.453,
+    "text": "We're still flying in the clouds, trusting the instruments of analytic reasoning,"
+  },
+  {
+    "t_start": 1473.453,
+    "t_end": 1477.517,
+    "text": "but this is a redesign of those instruments, one which better takes advantage of"
+  },
+  {
+    "t_start": 1477.517,
+    "t_end": 1481.53,
+    "text": "the fact that such a large portion of our brains goes towards image processing."
+  },
+  {
+    "t_start": 1482.41,
+    "t_end": 1484.66,
+    "text": "I mean, just because you can't visualize something"
+  },
+  {
+    "t_start": 1484.66,
+    "t_end": 1487.09,
+    "text": "doesn't mean you can't still think about it visually."
+  }
+]

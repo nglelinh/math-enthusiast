@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ku_video_Ilg3gGewQ5U_4",
+    "t_start": 4.1,
+    "t_end": 94.5,
+    "type": "overview",
+    "summary": "Here, we tackle backpropagation, the core algorithm behind how neural networks learn. After a quick recap for where we are, the first thing I'll do is an intuitive walkthrough for what the algorithm is actually doing, without any reference to the formulas. Then, for those of you who do want to dive into the math, the next video goes into the calculus underlying all this. If you watched the last two videos, or if you're just jumping in with the appropriate background, you know what a neural network is, and how it feeds forward information. Here, we're doing the classic example of recognizing ha…"
+  },
+  {
+    "id": "ku_video_Ilg3gGewQ5U_94",
+    "t_start": 94.5,
+    "t_end": 186.6,
+    "type": "overview",
+    "summary": "all of these connections, so as to most efficiently decrease the cost. Backpropagation, the topic of this video, is an algorithm for computing that crazy complicated gradient. And the one idea from the last video that I really want you to hold firmly in your mind right now is that because thinking of the gradient vector as a direction in 13,000 dimensions is, to put it lightly, beyond the scope of our imaginations, there's another way you can think about it. The magnitude of each component here is telling you how sensitive the cost function is to each weight and bias. For example, let's say yo…"
+  },
+  {
+    "id": "ku_video_Ilg3gGewQ5U_187",
+    "t_start": 187.7,
+    "t_end": 277.9,
+    "type": "overview",
+    "summary": "So I'm going to start things off here with a complete disregard for the notation, and just step through the effects each training example has on the weights and biases. Because the cost function involves averaging a certain cost per example over all the tens of thousands of training examples, the way we adjust the weights and biases for a single gradient descent step also depends on every single example. Or rather, in principle it should, but for computational efficiency we'll do a little trick later to keep you from needing to hit every single example for every step. In other cases, right now…"
+  },
+  {
+    "id": "ku_video_Ilg3gGewQ5U_277",
+    "t_start": 277.9,
+    "t_end": 371.7,
+    "type": "overview",
+    "summary": "which is already pretty close to where it should be. So zooming in further, let's focus just on this one neuron, the one whose activation we wish to increase. Remember, that activation is defined as a certain weighted sum of all the activations in the previous layer, plus a bias, which is all then plugged into something like the sigmoid squishification function, or a ReLU. So there are three different avenues that can team up together to help increase that activation. You can increase the bias, you can increase the weights, and you can change the activations from the previous layer. Focusing o…"
+  },
+  {
+    "id": "ku_video_Ilg3gGewQ5U_371",
+    "t_start": 371.7,
+    "t_end": 459.6,
+    "type": "overview",
+    "summary": "happens between neurons which are the most active, and the ones which we wish to become more active. In a sense, the neurons that are firing while seeing a 2 get more strongly linked to those firing when thinking about a 2. To be clear, I'm not in a position to make statements one way or another about whether artificial networks of neurons behave anything like biological brains, and this fires together wire together idea comes with a couple meaningful asterisks, but taken as a very loose analogy, I find it interesting to note. Anyway, the third way we can help increase this neuron's activation…"
+  },
+  {
+    "id": "ku_video_Ilg3gGewQ5U_462",
+    "t_start": 462.7,
+    "t_end": 553.7,
+    "type": "overview",
+    "summary": "So, the desire of this digit 2 neuron is added together with the desires of all the other output neurons for what should happen to this second to last layer, again in proportion to the corresponding weights, and in proportion to how much each of those neurons needs to change. This right here is where the idea of propagating backwards comes in. By adding together all these desired effects, you basically get a list of nudges that you want to happen to this second to last layer. And once you have those, you can recursively apply the same process to the relevant weights and biases that determine t…"
+  },
+  {
+    "id": "ku_video_Ilg3gGewQ5U_554",
+    "t_start": 554.4,
+    "t_end": 647.0,
+    "type": "overview",
+    "summary": "I say loosely speaking only because I have yet to get quantitatively precise about those nudges, but if you understood every change I just referenced, why some are proportionally bigger than others, and how they all need to be added together, you understand the mechanics for what backpropagation is actually doing. By the way, in practice, it takes computers an extremely long time to add up the influence of every training example every gradient descent step. So here's what's commonly done instead. You randomly shuffle your training data and then divide it into a whole bunch of mini-batches, let…"
+  },
+  {
+    "id": "ku_video_Ilg3gGewQ5U_647",
+    "t_start": 647.0,
+    "t_end": 739.2,
+    "type": "overview",
+    "summary": "not just in terms of whether they should go up or down, but in terms of what relative proportions to those changes cause the most rapid decrease to the cost. A true gradient descent step would involve doing this for all your tens of thousands of training examples and averaging the desired changes you get. But that's computationally slow, so instead you randomly subdivide the data into mini-batches and compute each step with respect to a mini-batch. Repeatedly going through all of the mini-batches and making these adjustments, you will converge towards a local minimum of the cost function, whic…"
+  },
+  {
+    "id": "ku_video_Ilg3gGewQ5U_739",
+    "t_start": 739.2,
+    "t_end": 747.1,
+    "type": "overview",
+    "summary": "is just getting the labeled training data you actually need, whether that's having people label tens of thousands of images, or whatever other data type you might be dealing with."
+  }
+]

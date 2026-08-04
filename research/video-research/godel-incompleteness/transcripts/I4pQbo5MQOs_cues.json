@@ -1,0 +1,412 @@
+[
+  {
+    "t_start": 6.913,
+    "t_end": 10.871,
+    "text": "Consider the following sentence: “This statement is false.”"
+  },
+  {
+    "t_start": 10.871,
+    "t_end": 12.163,
+    "text": "Is that true?"
+  },
+  {
+    "t_start": 12.163,
+    "t_end": 14.538,
+    "text": "If so, that would make this statement false."
+  },
+  {
+    "t_start": 14.538,
+    "t_end": 16.829,
+    "text": "But if it’s false, then the statement is true."
+  },
+  {
+    "t_start": 16.829,
+    "t_end": 22.121,
+    "text": "By referring to itself directly, this statement creates an unresolvable paradox."
+  },
+  {
+    "t_start": 22.121,
+    "t_end": 25.788,
+    "text": "So if it’s not true and it’s not false— what is it?"
+  },
+  {
+    "t_start": 26.288,
+    "t_end": 29.163,
+    "text": "This question might seem like a silly thought experiment."
+  },
+  {
+    "t_start": 29.163,
+    "t_end": 33.829,
+    "text": "But in the early 20th century, it led Austrian logician Kurt Gödel"
+  },
+  {
+    "t_start": 33.829,
+    "t_end": 37.246,
+    "text": "to a discovery that would change mathematics forever."
+  },
+  {
+    "t_start": 37.746,
+    "t_end": 42.287,
+    "text": "Gödel’s discovery had to do with the limitations of mathematical proofs."
+  },
+  {
+    "t_start": 42.496,
+    "t_end": 45.662,
+    "text": "A proof is a logical argument that demonstrates"
+  },
+  {
+    "t_start": 45.662,
+    "t_end": 48.162,
+    "text": "why a statement about numbers is true."
+  },
+  {
+    "t_start": 48.579,
+    "t_end": 51.912,
+    "text": "The building blocks of these arguments are called axioms—"
+  },
+  {
+    "t_start": 51.912,
+    "t_end": 54.621,
+    "text": "undeniable statements about the numbers involved."
+  },
+  {
+    "t_start": 54.996,
+    "t_end": 57.287,
+    "text": "Every system built on mathematics,"
+  },
+  {
+    "t_start": 57.287,
+    "t_end": 60.329,
+    "text": "from the most complex proof to basic arithmetic,"
+  },
+  {
+    "t_start": 60.329,
+    "t_end": 62.454,
+    "text": "is constructed from axioms."
+  },
+  {
+    "t_start": 62.954,
+    "t_end": 65.704,
+    "text": "And if a statement about numbers is true,"
+  },
+  {
+    "t_start": 65.704,
+    "t_end": 70.288,
+    "text": "mathematicians should be able to confirm it with an axiomatic proof."
+  },
+  {
+    "t_start": 70.788,
+    "t_end": 73.996,
+    "text": "Since ancient Greece, mathematicians used this system"
+  },
+  {
+    "t_start": 73.996,
+    "t_end": 78.204,
+    "text": "to prove or disprove mathematical claims with total certainty."
+  },
+  {
+    "t_start": 78.496,
+    "t_end": 80.413,
+    "text": "But when Gödel entered the field,"
+  },
+  {
+    "t_start": 80.413,
+    "t_end": 85.163,
+    "text": "some newly uncovered logical paradoxes were threatening that certainty."
+  },
+  {
+    "t_start": 86.121,
+    "t_end": 88.746,
+    "text": "Prominent mathematicians were eager to prove"
+  },
+  {
+    "t_start": 88.746,
+    "t_end": 91.288,
+    "text": "that mathematics had no contradictions."
+  },
+  {
+    "t_start": 91.496,
+    "t_end": 93.871,
+    "text": "Gödel himself wasn’t so sure."
+  },
+  {
+    "t_start": 93.871,
+    "t_end": 98.121,
+    "text": "And he was even less confident that mathematics was the right tool"
+  },
+  {
+    "t_start": 98.121,
+    "t_end": 100.038,
+    "text": "to investigate this problem."
+  },
+  {
+    "t_start": 100.413,
+    "t_end": 105.246,
+    "text": "While it’s relatively easy to create a self-referential paradox with words,"
+  },
+  {
+    "t_start": 105.246,
+    "t_end": 108.496,
+    "text": "numbers don't typically talk about themselves."
+  },
+  {
+    "t_start": 108.829,
+    "t_end": 112.038,
+    "text": "A mathematical statement is simply true or false."
+  },
+  {
+    "t_start": 112.038,
+    "t_end": 113.579,
+    "text": "But Gödel had an idea."
+  },
+  {
+    "t_start": 114.038,
+    "t_end": 118.871,
+    "text": "First, he translated mathematical statements and equations into code numbers"
+  },
+  {
+    "t_start": 118.871,
+    "t_end": 123.163,
+    "text": "so that a complex mathematical idea could be expressed in a single number."
+  },
+  {
+    "t_start": 123.621,
+    "t_end": 127.204,
+    "text": "This meant that mathematical statements written with those numbers"
+  },
+  {
+    "t_start": 127.204,
+    "t_end": 131.663,
+    "text": "were also expressing something about the encoded statements of mathematics."
+  },
+  {
+    "t_start": 132.288,
+    "t_end": 136.413,
+    "text": "In this way, the coding allowed mathematics to talk about itself."
+  },
+  {
+    "t_start": 136.746,
+    "t_end": 139.288,
+    "text": "Through this method, he was able to write:"
+  },
+  {
+    "t_start": 139.288,
+    "t_end": 142.746,
+    "text": "“This statement cannot be proved” as an equation,"
+  },
+  {
+    "t_start": 142.746,
+    "t_end": 146.496,
+    "text": "creating the first self-referential mathematical statement."
+  },
+  {
+    "t_start": 147.413,
+    "t_end": 150.913,
+    "text": "However, unlike the ambiguous sentence that inspired him,"
+  },
+  {
+    "t_start": 150.913,
+    "t_end": 154.371,
+    "text": "mathematical statements must be true or false."
+  },
+  {
+    "t_start": 154.579,
+    "t_end": 156.079,
+    "text": "So which is it?"
+  },
+  {
+    "t_start": 156.371,
+    "t_end": 159.913,
+    "text": "If it’s false, that means the statement does have a proof."
+  },
+  {
+    "t_start": 159.913,
+    "t_end": 163.871,
+    "text": "But if a mathematical statement has a proof, then it must be true."
+  },
+  {
+    "t_start": 164.413,
+    "t_end": 168.579,
+    "text": "This contradiction means that Gödel’s statement can’t be false,"
+  },
+  {
+    "t_start": 168.579,
+    "t_end": 173.454,
+    "text": "and therefore it must be true that “this statement cannot be proved.”"
+  },
+  {
+    "t_start": 174.329,
+    "t_end": 176.913,
+    "text": "Yet this result is even more surprising,"
+  },
+  {
+    "t_start": 176.913,
+    "t_end": 180.996,
+    "text": "because it means we now have a true equation of mathematics"
+  },
+  {
+    "t_start": 180.996,
+    "t_end": 183.663,
+    "text": "that asserts it cannot be proved."
+  },
+  {
+    "t_start": 184.121,
+    "t_end": 188.871,
+    "text": "This revelation is at the heart of Gödel’s Incompleteness Theorem,"
+  },
+  {
+    "t_start": 188.871,
+    "t_end": 193.121,
+    "text": "which introduces an entirely new class of mathematical statement."
+  },
+  {
+    "t_start": 193.121,
+    "t_end": 197.496,
+    "text": "In Gödel’s paradigm, statements still are either true or false,"
+  },
+  {
+    "t_start": 197.621,
+    "t_end": 202.163,
+    "text": "but true statements can either be provable or unprovable"
+  },
+  {
+    "t_start": 202.163,
+    "t_end": 204.538,
+    "text": "within a given set of axioms."
+  },
+  {
+    "t_start": 204.746,
+    "t_end": 209.454,
+    "text": "Furthermore, Gödel argues these unprovable true statements"
+  },
+  {
+    "t_start": 209.454,
+    "t_end": 212.371,
+    "text": "exist in every axiomatic system."
+  },
+  {
+    "t_start": 212.788,
+    "t_end": 214.996,
+    "text": "This makes it impossible to create"
+  },
+  {
+    "t_start": 214.996,
+    "t_end": 218.329,
+    "text": "a perfectly complete system using mathematics,"
+  },
+  {
+    "t_start": 218.329,
+    "t_end": 222.371,
+    "text": "because there will always be true statements we cannot prove."
+  },
+  {
+    "t_start": 222.704,
+    "t_end": 225.371,
+    "text": "Even if you account for these unprovable statements"
+  },
+  {
+    "t_start": 225.371,
+    "t_end": 229.413,
+    "text": "by adding them as new axioms to an enlarged mathematical system,"
+  },
+  {
+    "t_start": 229.704,
+    "t_end": 234.704,
+    "text": "that very process introduces new unprovably true statements."
+  },
+  {
+    "t_start": 235.121,
+    "t_end": 237.413,
+    "text": "No matter how many axioms you add,"
+  },
+  {
+    "t_start": 237.413,
+    "t_end": 241.454,
+    "text": "there will always be unprovably true statements in your system."
+  },
+  {
+    "t_start": 241.454,
+    "t_end": 243.621,
+    "text": "It’s Gödels all the way down!"
+  },
+  {
+    "t_start": 244.163,
+    "t_end": 247.204,
+    "text": "This revelation rocked the foundations of the field,"
+  },
+  {
+    "t_start": 247.204,
+    "t_end": 251.329,
+    "text": "crushing those who dreamed that every mathematical claim would one day"
+  },
+  {
+    "t_start": 251.329,
+    "t_end": 253.329,
+    "text": "be proven or disproven."
+  },
+  {
+    "t_start": 253.788,
+    "t_end": 258.704,
+    "text": "While most mathematicians accepted this new reality, some fervently debated it."
+  },
+  {
+    "t_start": 258.954,
+    "t_end": 262.496,
+    "text": "Others still tried to ignore the newly uncovered a hole"
+  },
+  {
+    "t_start": 262.496,
+    "t_end": 264.371,
+    "text": "in the heart of their field."
+  },
+  {
+    "t_start": 264.371,
+    "t_end": 268.788,
+    "text": "But as more classical problems were proven to be unprovably true,"
+  },
+  {
+    "t_start": 268.788,
+    "t_end": 273.413,
+    "text": "some began to worry their life's work would be impossible to complete."
+  },
+  {
+    "t_start": 273.413,
+    "t_end": 277.246,
+    "text": "Still, Gödel’s theorem opened as many doors as a closed."
+  },
+  {
+    "t_start": 277.246,
+    "t_end": 279.871,
+    "text": "Knowledge of unprovably true statements"
+  },
+  {
+    "t_start": 279.871,
+    "t_end": 283.079,
+    "text": "inspired key innovations in early computers."
+  },
+  {
+    "t_start": 283.329,
+    "t_end": 286.413,
+    "text": "And today, some mathematicians dedicate their careers"
+  },
+  {
+    "t_start": 286.413,
+    "t_end": 289.579,
+    "text": "to identifying provably unprovable statements."
+  },
+  {
+    "t_start": 289.871,
+    "t_end": 292.954,
+    "text": "So while mathematicians may have lost some certainty,"
+  },
+  {
+    "t_start": 292.954,
+    "t_end": 295.746,
+    "text": "thanks to Gödel they can embrace the unknown"
+  },
+  {
+    "t_start": 295.746,
+    "t_end": 298.163,
+    "text": "at the heart of any quest for truth."
+  }
+]

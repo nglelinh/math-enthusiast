@@ -1,0 +1,819 @@
+my name is itamar vilner and I'm the head of the Natural Science division of
+head of the Natural Science division of the Israel Academy of
+the Israel Academy of Science um and I'm happy to open this
+year the uh Einstein 2015 uh lectur ship uh that will be
+teren St from UCLA in the United States the lectur ship is uh every year
+States the lectur ship is uh every year uh dedicated to a different
+uh dedicated to a different discipline uh this year it was um this
+year it was the turn of mathematics uh to be the present to be
+mathematics uh to be the present to be the topic of presentation of the
+the topic of presentation of the Einstein lecturer and I must say
+that when I asked our mathematician to select and nominate a
+candidate for the elure it was very easy to find the lecturer because there was a
+to find the lecturer because there was a very nice overlap by the different uh
+very nice overlap by the different uh members who suggested Professor
+to um I would like also to uh say that uh the president of this
+to uh say that uh the president of this Israel Academy of Science and Humanities
+Israel Academy of Science and Humanities Professor
+Arnon um was unable to attend this ceremony and uh she asked me uh to open
+ceremony and uh she asked me uh to open um uh the ceremony I would like before
+uh introducing the uh lecturer I would like to ask the audience that after the
+like to ask the audience that after the end of the lecture
+uh the audience should not leave the hall because we have a very short
+ceremony where we H donate a scroll and a medal to the L Einstein lecturer so
+a medal to the L Einstein lecturer so please stay for additional few minutes I
+please stay for additional few minutes I would like to invite noga alone to
+would like to invite noga alone to introduce speaker
+okay uh it's a great pleasure to introduce a professor teren sta from
+introduce a professor teren sta from UCLA who will deliver the Einstein
+UCLA who will deliver the Einstein lecture
+today uh Terry has made a fundamental contributions in a wide range of
+contributions in a wide range of mathematical areas including a harmonic
+mathematical areas including a harmonic analysis partial differential equation s
+analysis partial differential equation s number Theory and especially the
+number Theory and especially the distribution of primes random Matrix
+distribution of primes random Matrix Theory combinatorics and
+more he received essentially all prices and the ones he didn't get yet he will
+and the ones he didn't get yet he will get in the
+get in the future uh and uh his blog is a the uh
+future uh and uh his blog is a the uh very best place to read about a
+very best place to read about a mathematical news essentially in all
+mathematical news essentially in all areas he has a unique ability to explain
+comprehensible way and in particular some of you may have seen him last
+some of you may have seen him last November in The Colbert Report where he
+November in The Colbert Report where he managed to convince colberts that the
+managed to convince colberts that the prime factorization of 15 is five times
+prime factorization of 15 is five times three uh I want to tell you one story
+about Terry that has very little to do with his mathematics but but I think
+with his mathematics but but I think still it's
+interesting so a few years ago we served together in some committee and the first
+together in some committee and the first meeting of the committee took place in
+Oslo and it so happened that we came together in the same flight from New
+York to a to Oso airport for both of us this has been the first time in Oslo
+this has been the first time in Oslo Airport you know when I come to a a new
+Airport you know when I come to a a new airport you go a after passport control
+airport you go a after passport control you uh you look left and right you try
+you uh you look left and right you try to find where is the ATM
+machine uh where is the train to the city what you should do and indeed I was
+city what you should do and indeed I was going through this
+routine uh and maybe after 30 seconds as I was still looking for the ATM machine
+I was still looking for the ATM machine I noticed that Terry actually already
+I noticed that Terry actually already bought train tickets to the city for
+both of us in fact he managed he bought his tickets he forgot to ask a receipt
+his tickets he forgot to ask a receipt and then he realized that he actually
+and then he realized that he actually needs a receipt so he canceled this
+transaction bought the tickets again with a receipt and this is all when I'm
+still looking for the ATM machine I remember I was very impressed and you
+remember I was very impressed and you know on a second thought maybe it has
+know on a second thought maybe it has something to do with his mathematics
+something to do with his mathematics also so it's not only the case that he
+anything in mathematics better than anybody else he can also do it faster
+anybody else he can also do it faster than anybody
+else so besides all that Terry is also a great speaker as we'll find out next and
+great speaker as we'll find out next and today he will tell us about some new
+today he will tell us about some new ideas regarding the Navia Stokes
+ideas regarding the Navia Stokes equation teren St please very
+equation teren St please very [Applause]
+thank you very much no no so um yes I want to talk about the
+no so um yes I want to talk about the Navia Stokes equations which are a
+Navia Stokes equations which are a system of mathematical equations
+equations um system of mathematical equations modated by physics um and so
+equations modated by physics um and so you know in physics we we study matter
+you know in physics we we study matter um you know so which are modeled by by
+which are systems of of many many molecules or particles um
+okay thank you um but um it's it's very hard to to study directly trillions of
+hard to to study directly trillions of particles so we we approximate um laws
+particles so we we approximate um laws of physics by continuous models um for
+example fluids like water you know rather than model every single atom
+rather than model every single atom individually we uh we use a continuous
+model uh so uh so we we model the fluid by various continuous Fields such as for
+by various continuous Fields such as for example the pressure uh so the pressure
+example the pressure uh so the pressure would at any given time and and and and
+position in space would be some Scala number of P um the the pressure at that
+number of P um the the pressure at that point and also maybe the velocity field
+point and also maybe the velocity field so at any given time and and position
+so at any given time and and position you would have the fluid would have some
+Vector um so this is the model we use to describe um continuous um media but it's
+describe um continuous um media but it's it's not quite um accurate so you know
+at Atomic scales of course um matter is not continuous it's made of atoms and
+not continuous it's made of atoms and molecules um and so um you know there
+molecules um and so um you know there isn't a well- defined velocity field at
+isn't a well- defined velocity field at every single point in space once you go
+every single point in space once you go below the the atomic scale and pressure
+below the the atomic scale and pressure also doesn't make any sense after a
+also doesn't make any sense after a certain point but even if the the model
+certain point but even if the the model is not accurate at Atomic scales you
+is not accurate at Atomic scales you know the hope is that still it's still
+know the hope is that still it's still good enough for accurate to be accurate
+good enough for accurate to be accurate at at larger macroscopic
+at at larger macroscopic scales um
+okay so the the model that uh I'm interested in
+interested in is is
+the so the basic model for um incompossible fluids such as water is
+incompossible fluids such as water is the nav Stokes equations um and so the
+the nav Stokes equations um and so the nav Stokes equations is a system of of
+equations the first one um it's basically um a continuous version of
+Newton's first law fals ma um so this is the derivative of the Velocity so that's
+the derivative of the Velocity so that's that's the a that's the acceleration um
+that's the force that's the f um M has been normalized to be one um but the
+been normalized to be one um but the fluid is moving um and so there's an
+fluid is moving um and so there's an extra term coming from um the transport
+extra term coming from um the transport of the of the um the fluid by by the
+velocity field um and also you assume some friction some viscosity that that
+some friction some viscosity that that uh um that some energy is being
+dissipated and that gives you another term in your equation um and then you
+also assume that your your fluid is incompressible so that the effect the
+incompressible so that the effect the velocity is diverence free
+um and then finally you have to specify some initial conditions you specify the
+some initial conditions you specify the initial um velocity um you don't
+actually have to specify the initial pressure you can actually use this
+equation to solve for the pressure once you have the Velocity so we usually we
+you have the Velocity so we usually we don't specify initial pressure but we do
+don't specify initial pressure but we do specify initial
+velocity um and then this is number new which is the viscosity this is how how
+which is the viscosity this is how how viscous the fluid is and for Navia
+Stokes new is positive um there's a closely related Oiler equations which is
+closely related Oiler equations which is the same equation where when U is is
+okay so we we we have initial initial velocity and then we have this
+incompressible fluid uh solving this equation and this is this the basic most
+fluids and so we have this uh um so we have this this basic mathematical
+have this this basic mathematical problem uh which is actually
+problem for Navia Stokes um so the uh the clay Institute famous of mathematics
+the clay Institute famous of mathematics um famously post seven prize problems in
+um famously post seven prize problems in mathematics these are what called the
+mathematics these are what called the the Millennium prize problems they have
+the Millennium prize problems they have a million dollar prize attached to them
+um so things like p goes NP the reman hypothesis it's very famous questions in
+hypothesis it's very famous questions in in mathematics one of them is solved the
+other six are open and one of these six is the uh the regularity problem for
+Navia Stokes um and the question is that given an initial state for a fluid so so
+given an initial state for a fluid so so so given an initial velocity field which
+you assume to be diversion free for consistency um given any smooth let's
+consistency um given any smooth let's say oh is
+say oh is it oh
+okay um so given any smooth um sufficiently localized um initial
+conditions can uh does um can you always solve these equations globally in times
+solve these equations globally in times can you can you always find um a
+can you can you always find um a velocity field and a pressure field that
+velocity field and a pressure field that exists for all future time uh which
+exists for all future time uh which solve these these nav stes equations so
+solve these these nav stes equations so this is the global regularity problem
+this is the global regularity problem for for Navia
+for for Navia Stokes
+um all right so um what does this have to do with the um you know the actual
+to do with the um you know the actual physical interpretation of
+um of of these equations um so what what you can prove
+equations um so what what you can prove from um sort of standard uh um PD
+from um sort of standard uh um PD methods is uh so you want Global
+existence you want these fluid to exist globally globally in time but what is
+globally globally in time but what is easy um is local
+existence that um uh that if given any nice smooth initial data uh you can
+always find a local solution uh of so so you can always make the fluid exist and
+you can always make the fluid exist and have a well defined smooth pressure
+have a well defined smooth pressure field and smooth velocity field up to
+field and smooth velocity field up to some maximal time tar which could either
+some maximal time tar which could either be finite or infinite so your solution
+infinite time and in either case you get a nice smooth solution which then stops
+a nice smooth solution which then stops if it's finite or it goes on
+fever um and if if it stops uh there's a good reason why it stops because your
+good reason why it stops because your solution is no longer physical um so if
+solution is no longer physical um so if if there is only a finite timee of
+occurs and what blow up means is that the velocity of your fluid is becoming
+the velocity of your fluid is becoming more and more infinite at a at at at
+more and more infinite at a at at at some point so that at some point in
+space your your your the fluid is becoming faster and faster and as you
+becoming faster and faster and as you approach this maximal time of existence
+approach this maximal time of existence you have attained infinite
+velocity um so this is what you can show if if there is blow up and if if if
+there's no blow up if the time of existence is infinite then this doesn't
+happen the Velocity in fact goes to zero as time as time goes into you know just
+as time as time goes into you know just like you actually see in physical
+like you actually see in physical reality you know you splash water around
+reality you know you splash water around you will get uh um you'll get a lot of
+turbulence and velocity but eventually it will all die down and you'll get no
+velocity so that's a mathematical theorem but so what it tells you as a
+consequence is that if if blow up occurs if the nav stes equations are um um can
+if the nav stes equations are um um can only be continued for a finite amount of
+only be continued for a finite amount of time um before blowing up what that
+time um before blowing up what that means is that the naves equations break
+means is that the naves equations break down as a physical model because of
+down as a physical model because of course real life in real life fluids
+course real life in real life fluids cannot attain infinite velocity so if
+cannot attain infinite velocity so if your equation is predicting an infinite
+your equation is predicting an infinite velocity solution then um what that
+velocity solution then um what that means is that your equation is is not
+means is that your equation is is not physically is not physically realistic
+that it is not accurately modeling um um your fluid and what's so so and so what
+your fluid and what's so so and so what that means is that something is going on
+that means is that something is going on at the at the molecular level uh which
+at the at the molecular level uh which uh which can no longer be be captured by
+equations um so if uh if if um these equations blow up then we know that that
+equations blow up then we know that that the nav equations are are not
+describe these fluids and you need to look for more advanced corrected models
+look for more advanced corrected models which we unfortunately we don't have um
+at this point um conversely if you don't have blow up if you know that that these
+that these equations always have Global Solutions um that's called Global
+regularity um then that's evidence that these equations are um are good physical
+these equations are um are good physical models um it's not it's not conclusive
+um it could be that these equations have nice Solutions but these Solutions are
+nice Solutions but these Solutions are still not what actually physically
+still not what actually physically happens but it's it's at least a
+happens but it's it's at least a necessary condition for for physical
+necessary condition for for physical soundness of of these of these equations
+soundness of of these of these equations so that's sort of the the motivation uh
+of this question really as a mathematical question I mean it's it's
+mathematical question I mean it's it's um um sometimes when you look at popular
+articles on the navi Stokes um regularity problem it says that oh if
+regularity problem it says that oh if you can solve this question then you can
+you can solve this question then you can predict the weather or um um um or or
+predict the weather or um um um or or have all these real world consequences
+have all these real world consequences but uh probably it's it's not so direct
+but uh probably it's it's not so direct it's really more of a fundamental
+it's really more of a fundamental Science question then and what one of
+okay so of course we can simulate uh these equations numerically and there's
+these equations numerically and there's a whole field of comp computational
+a whole field of comp computational fluid dynamics which is devoted to
+exactly that um and so what we can see from experiment and numerical simulation
+from experiment and numerical simulation is that Global regularities appears to
+be true at least generically so if you pick real world data uh you know typical
+pick real world data uh you know typical uh initial data
+um typical initial conditions then when whenever we run the we run our
+global smooth solution it may be hard to find it may be computationally intensive
+find it may be computationally intensive to to to find a solution but it it it uh
+we always seem to find one um although an interesting thing
+one um although an interesting thing happens when you look at these Solutions
+happens when you look at these Solutions um when you start with so when you start
+um when you start with so when you start with small data just or data which is
+initial velocity almost zero um nothing much happens the solution just decays to
+much happens the solution just decays to zero quite uh uh quite predictably um
+zero quite uh uh quite predictably um but when you start with large data very
+conditions then um there's a phenomenon of of turbulence the the solution um
+will eventually Decay and and go to zero but it takes its time to go to zero and
+before it goes to zero um it moves its energy into final and final scales so
+energy into final and final scales so let's see if I
+can sorry so the uh um this is this is a a very cartoon picture of of what
+happened of course and it should be three dimensions but I'm not going to
+three dimensions but I'm not going to draw a threedimensional picture here um
+draw a threedimensional picture here um so you know initially your your your
+so you know initially your your your velocity field might be nice and um so
+supposed to schematically describe some velocity field so over here the water's
+flowing this way in some incompressible fashion um and it's it's oscillating at
+a very big spatial scale um but often what happens when you run the equations
+what happens when you run the equations is that is that this these large scale
+is that is that this these large scale um um initial conditions become uh break
+um um initial conditions become uh break up into smaller scale or higher
+up into smaller scale or higher frequency if you wish higher frequency
+um components so the energy gets split up into into into smaller and smaller um
+up into into into smaller and smaller um uh patterns and then you get you get Fin
+and finest scales the energy um gets pushed into Fin and final scales and you
+get all these all these wh Poes and turbulent um turbulent effects um but
+turbulent um turbulent effects um but then at some point the viscosity kicks
+in and and it it it it damps out all these these these these field so it
+eventually the the velocity should die down so this is the type of of dynamics
+that you you see in practice when you have large initial
+okay okay so you know we have all this empirical evidence that that Global
+regularity uh is U um uh is it true at least generically so at least so because
+least generically so at least so because of this the global regularity problem is
+not really um a practical issue in in applications you know the the people who
+applications you know the the people who do computational fluid dynamics they
+don't stay up at night wondering whether Navia is globally regular or not because
+Navia is globally regular or not because they see it in in their in the
+they see it in in their in the simulations um and so they're reasonbly
+simulations um and so they're reasonbly confident at least um uh in the accuracy
+of the models uh at least uh before really heav heavy turbulence once you
+have very heavy turbulence the equ become very unstable um but uh okay but
+become very unstable um but uh okay but at least um they have um but you know
+they sort of know when when when these these these models are accurate and not
+these these models are accurate and not in practice um but nevertheless the
+in practice um but nevertheless the mathematical question of where the blob
+mathematical question of where the blob is at least theoretically possible even
+is at least theoretically possible even if generic data is is is fine there's
+if generic data is is is fine there's still the possibility of exceptional
+still the possibility of exceptional data that there's some special initial
+data that there's some special initial conditions which can lead to to infinite
+conditions which can lead to to infinite amounts of turbulence
+and in fact so what I believe now I can't prove it yet I would love to
+announce I can prove it but that's that's not that's not in the cards yet
+that's not that's not in the cards yet um so in fact I I do believe now that
+actually um there does there do exist extremely special uh choices of initial
+extremely special uh choices of initial condition you which would never appear
+condition you which would never appear in physical practice which so they're
+in physical practice which so they're not physically relevant really but there
+not physically relevant really but there should exist um extremely uh rare
+should exist um extremely uh rare initial conditions which by their design
+initial conditions which by their design do create blowup so I now believe the
+mathematical question actually is is is answered in the negative
+um although I can't prove it yet um but I can try to explain why I think this
+way so some equations blow up and some don't um and um what and um in PD we
+don't um and um what and um in PD we have this classification of of pdes into
+have this classification of of pdes into different types the pdes called critical
+different types the pdes called critical equations super critical and subcritical
+equations super critical and subcritical um and roughly speaking subcritical and
+don't that usually don't blow up uh and super critical ones are the ones which
+super critical ones are the ones which could blow up uh and the navio stes
+equations are in the Super critical category um but um so to explain this um
+category um but um so to explain this um this distinction into critical super
+critical and so forth um I have to do a little bit of of dimensional analysis um
+little bit of of dimensional analysis um to to to describ of the relative sizes
+to to to describ of the relative sizes of of of various things so again this is
+this is the main equation for the nav Stokes equation um describes how the
+Stokes equation um describes how the velocity evolves um and it's it's got
+many terms in it but um the main two terms the terms that are fighting really
+terms the terms that are fighting really fighting each other here um are this
+the nonlinear term coming from the fact that the the the particles travel um in
+that the the the particles travel um in the direction of the Velocity field this
+the direction of the Velocity field this is a transport term it's a nonlinear
+is a transport term it's a nonlinear term and um the viscosity term this this
+term and um the viscosity term this this is the term that's trying to to damp
+things down um um drain all the energy out of the system to make the Vel make
+the velocity go to zero so these two terms are sort of the two terms that are
+terms are sort of the two terms that are fighting the most um the pressure is
+fighting the most um the pressure is just there to keep the the velocity
+just there to keep the the velocity Divergence free so we'll ignore that
+Divergence free so we'll ignore that term um and humanistically if you want
+term um and humanistically if you want to understand which what this equation
+to understand which what this equation is doing uh it basically it's a it's a
+is doing uh it basically it's a it's a question of which of these two terms is
+question of which of these two terms is dominant which one is bigger um and H
+bigger if if this is the big term then you can ignore these two terms and if if
+you can ignore these two terms and if if the velocity term is the biggest um then
+the velocity term is the biggest um then viscosity term is the biggest then your
+which is an equation we understand very well it's a nice linear equation and it
+uh it it's effect is to just send all the velocity uniformly to zero and so
+the velocity uniformly to zero and so you don't get um um yeah so you don't
+you don't get um um yeah so you don't get any turbulent Behavior Uh you just
+get nice linear um Global regularity this is what should happen if the um
+transport term dominates if if the transport term is the biggest then
+transport term is the biggest then that's where you expect very nonlinear
+behavior that that's where all the turbulence is coming from moving energy
+turbulence is coming from moving energy from small scales to to large scales
+from small scales to to large scales that doesn't happen for the heat
+equation but it does happen with these transport equations and so this is the
+transport equations and so this is the regime where blow up could
+happen Okay so the basic question is is is under what what circumstances is the
+is under what what circumstances is the transport ter bigger and what
+circumstances is the viscosity turn bigger and so this is this is where you
+analysis okay so um as a as a model you you assume that your your solution is Al
+you assume that your your solution is Al is is turbulent at some scale so there's
+is is turbulent at some scale so there's some spatial scale of L which is um and
+you assume that your your solution is just so spinning around in in little
+spirals at at scale L and let's say that your velocity is of some speed V so at
+you're moving around some velocity V at various scales of of length L and if you
+various scales of of length L and if you if you make that sort of anzats then you
+um of various quantities so if you a size V and and it's oscillating a size L
+size V and and it's oscillating a size L when you differentiate the gradient of
+when you differentiate the gradient of you should be like V over L you know
+rise over run um and so the transport term should be about this big v^ squ
+term should be about this big v^ squ over l and a similar argument shows that
+over l and a similar argument shows that the the viscosity term which comes from
+the the viscosity term which comes from this Lan is about something like V l^2
+dimensions of of these quantities um and so the prediction from this analysis is
+so the prediction from this analysis is that if your velocity is not too big if
+your velocity is less than the inverse of the scale if the velocity is less
+than the spatial frequency then um viscosity should win and you should see
+viscosity should win and you should see linear Behavior okay so things should
+linear Behavior okay so things should behave very nicely when the velocity is
+behave very nicely when the velocity is less than this this threshold and
+less than this this threshold and conversely if you have large velocity
+large velocity is much bigger than the reciprocal of the length then you should
+reciprocal of the length then you should expect non- Behavior turbulence
+transport um all kinds of of POS and possible potentially blow up so that
+possible potentially blow up so that that's the dimensional analysis
+sistic okay but your your fluid whatever it is it can only have a finite amount
+to how much velocity you can have um in any given region of space because um of
+any given region of space because um of energy conservation
+so you energy of a particle is half mv^ s um so in for for fluid the the
+s um so in for for fluid the the analogous energy the kinetic energy it's
+analogous energy the kinetic energy it's 1 half of the integral of the Velocity
+squared um there's a mass term but because you're incompressible you can
+because you're incompressible you can just scale it out you can think the mass
+one so this is the energy um and it's decreasing in time um that's easy to see
+decreasing in time um that's easy to see so the no matter how far you you go
+so the no matter how far you you go along your energy is always
+bounded um and because the energy is bounded uh so it's bounded from above uh
+bounded uh so it's bounded from above uh on the other hand if your velocity is um
+if your velocity is moving you know so if if you
+have some ball radius L and your solution is moving around as
+L and your solution is moving around as a velocity
+v um the in three dimensions the volume of the BS is about L cubed and the
+um um and and the velocities is V so the the the energy just coming from from a
+the the energy just coming from from a single one of these little wall Pooles
+single one of these little wall Pooles the velocity is at least U so the energy
+the velocity is at least U so the energy is at least v² L Cub um it could be a
+lot bigger because there could be many many of these of these little wall PS
+but but you have at least this one lower bound maybe all the energy maybe your
+bound maybe all the energy maybe your all the energy is stuck in one little
+wall Poole um so you have this lower bound and the energy is bounded above so
+bound and the energy is bounded above so that gives you an upper bound on on the
+velocity so at any given scale L the velocity cannot exceed L Theus 3 because
+velocity cannot exceed L Theus 3 because this has to be bounded
+okay so um so that's how big the velocity could get in principle it may
+it may be a lot smaller than this but if all the energy gets squished into it one
+all the energy gets squished into it one little ball this is this is how large
+the velocity could get and the point is that this bound is bigger than the um
+that this bound is bigger than the um than the threshold between linear and
+than the threshold between linear and nonlinear behavior and this is what it
+means for NV to be a super critical equation that the that the size of the
+solution uh can be so big that it it crosses the threshold between linear and
+crosses the threshold between linear and nonlinear Behavior at small scales when
+nonlinear Behavior at small scales when L is small lus 3es is bigger than lus
+one and so what that means is that if you can manage to push all the energy in
+you can manage to push all the energy in this equation into a single scale into a
+single ball then you can create very very nonlinear behavior in principle and
+very nonlinear behavior in principle and so energy conservation is not strong
+so energy conservation is not strong enough to rule out very very nonlinear
+enough to rule out very very nonlinear behavior um and this is a special
+behavior um and this is a special feature of being in three or more
+feature of being in three or more Dimensions um you can also write down I
+Dimensions um you can also write down I mean of course reality is is is
+mean of course reality is is is threedimensional but uh uh but you know
+threedimensional but uh uh but you know mathematicians can work in any Dimension
+mathematicians can work in any Dimension they please um you know so you can write
+down the nav equations in say two dimensions and if you do the same
+dimensions and if you do the same analysis in two Dimensions uh you find
+analysis in two Dimensions uh you find that it's it's uh yeah the energy bound
+is now v squ l s rather than b s l cubed and the equation now becomes critical um
+and the equation now becomes critical um it's um it's now very hard for the
+energy to actually all concentrate into into so much that uh that you get Nar
+behavior and in fact in this case it's been known for for many years that uh
+been known for for many years that uh you don't have too much nonlinear
+you don't have too much nonlinear Behavior there's a sort of finite amount
+Behavior there's a sort of finite amount of non nonlinear behavior that can
+of non nonlinear behavior that can happen and your solution eventually
+becomes linear and dies down okay so two Dimensions we understand everything
+because is critical three dimensions it's super critical and this this is why
+equation and so basically one of the reasons mathematically why we care about
+reasons mathematically why we care about this problem is that the nav is a very
+equation um I can given that this is the iin lecture the the other really famous
+iin lecture the the other really famous example of the super critical equation
+is the iin equations gravity um but they're much harder than Navia Stokes to
+they're much harder than Navia Stokes to solve um but you know so potentially if
+solve um but you know so potentially if we understand nav Stokes better we might
+we understand nav Stokes better we might also understand the answer and equations
+also understand the answer and equations but I have nothing interesting to say
+but I have nothing interesting to say about the answer equations so
+about the answer equations so unfortunate didn't prepare anything
+unfortunate didn't prepare anything about
+that okay so that's the dimensional analysis um so if you want to to
+analysis um so if you want to to actually make the uh the fluids blow up
+actually make the uh the fluids blow up make these these equations blow up um we
+now have sort of a a scenario a potential scenario that you would like
+potential scenario that you would like to um uh to make happen to make blow up
+to um uh to make happen to make blow up so the um you want to make the velocity
+as large as possible for a given scale and we saw that um the most efficient
+way to do that is to push all the energy into a one single ball and not spread it
+into a one single ball and not spread it around over many many balls so the type
+around over many many balls so the type of scenario scenario blowup scenario
+that should be easiest to um to make happen is is as follows at uh so at at
+happen is is as follows at uh so at at any there should be some special time
+any there should be some special time say T1 where at a certain time T1 um all
+the velocity should be focused in a fairly small ball so there'll be some
+fairly small ball so there'll be some spatial scale L1 some small small radius
+spatial scale L1 some small small radius and inside this ball you have pushed all
+minus three halves L1 is small so this is a big number you have a fairly fast
+is a big number you have a fairly fast velocity field here and so this is what
+velocity field here and so this is what your solution should look like at some
+your solution should look like at some intermediate time
+T um and then what you would like is you should somehow Design Your solution so
+that at a slightly later time say T2 um the solution manages to um compress this
+the solution manages to um compress this energy further so you have you have this
+this energy pattern some sort of Vortex here and you want to you want to somehow
+here and you want to you want to somehow generate um a um um push all the energy
+generate um a um um push all the energy into a into a smaller Vortex um so
+into a into a smaller Vortex um so somehow you should somehow use the
+somehow you should somehow use the nonlinear effects the transport and
+effects of your equation and the pressure to somehow create a smaller
+Vortex like this where the energy is now concentrated in a smaller scale l two
+concentrated in a smaller scale l two maybe say one half the size of the
+maybe say one half the size of the original scale um and so um you push all
+original scale um and so um you push all the energy into this smaller scale and
+the energy into this smaller scale and so now the the velocity field is is
+so now the the velocity field is is moving even faster now it's L2 to Theus
+3es and um how long should it take to get from this pattern this Vortex to
+this pattern well you Contracting your your velocity field your from L1 to L2
+your velocity field your from L1 to L2 and you're moving at a certain speed L1
+over velocity so the the time that in principle that the time that it should
+principle that the time that it should take to get from the first pattern to
+velocity which is something like L1 5 HS okay so in principle at least uh you
+HS okay so in principle at least uh you should be able to take a solution a
+should be able to take a solution a fluid which is rotating at a certain
+fluid which is rotating at a certain velocity and somehow manag to compress
+velocity and somehow manag to compress it to to a smaller
+Vortex and then hope and then you can hope that this process repeats that that
+hope that this process repeats that that maybe if this Vortex is just of the
+right type it compresses to an even smaller Vortex um at an even smaller
+smaller Vortex um at an even smaller scale maybe half the previous scale and
+scale maybe half the previous scale and so on and so forth so you can hope you
+vortices so um if this happens then this this this would eventually lead to
+this this would eventually lead to infinite velocity um because the the
+time taken to get from each Vortex to the next is some positive power of of of
+the next is some positive power of of of the length scale L1 the five halves L2
+the length scale L1 the five halves L2 the five halves and so forth and each
+length scale is half the previous one this is a converging geometric series
+finite time so in principle this would create um a finite hand blow up okay and
+create um a finite hand blow up okay and so you're pushing all your energy into
+so you're pushing all your energy into into into a single point very very fast
+into into a single point very very fast the solution is getting faster and
+faster and concentrating at at at a single point of course this is not what
+this is not what happens when you actually see water okay water doesn't do
+actually see water okay water doesn't do this when you see it in real life but um
+but that's because you know you're not specifying specifically well chosen data
+specifying specifically well chosen data it could be that if you if you really
+choose a specific um special initial condition that you would see this this
+condition that you would see this this phenomenon okay so basically this
+phenomenon okay so basically this solution would be behave like a
+solution would be behave like a self-similar solution and in the
+scenario um the viscosity Force is is is negligible it's tiny compared to the uh
+negligible it's tiny compared to the uh the transport so this should just be a
+that just the effect of transport and incompressibility should create um
+should create this this blow up okay so this this is an example of what we could
+it would essentially be like a self-similar solution it's not it won't
+self-similar solution it's not it won't be exactly self-similar we know that in
+fact n stes equations doesn't have exactly self similar Solutions but be
+exactly self similar Solutions but be approximately self similar
+Solutions okay so this is a scenario it's not um it's consistent with the
+it's not um it's consistent with the dimensional analysis it's consistent
+with energy conservation but it may not actually exist we may not actually find
+actually exist we may not actually find a solution that does this so um so
+a solution that does this so um so that's that's the problem can we
+that's that's the problem can we actually create a solution that actually
+actually create a solution that actually has this predicted
+believe so um so what I can actually prove is that if you allow yourself to
+prove is that if you allow yourself to cheat and this is a very big cheat uh
+the cheat is to change laws of physics um that if you uh if you allow yourself
+um that if you uh if you allow yourself to change the equation of nav Stokes um
+basically you replace the the most difficult term which is this transport
+term by an average version of this of this transport term it's an average in
+this transport term it's an average in some f mullier sense which I don't want
+some f mullier sense which I don't want to to to get into but you can use you
+can use the FIA transform to split up this this uh this nonlinear expression
+this this uh this nonlinear expression into many many pieces different
+into many many pieces different interactions between one frequency
+another frequency or and so on and so forth um and what I did was that I
+forth um and what I did was that I observed that that if you can if you
+allow yourself the freedom to turn some of these interactions off that um you
+of these interactions off that um you don't allow certain physical
+interactions to actually happen you just sort of by U change law of physics at
+certain points um so you actually make this effect this nonlinearity slightly
+smaller in a very carefully designed way um still in a way that preserves energy
+and preserves all the other things we know about the equation but but if we if
+nonlinearity um then for this sort of average version of the equation then you
+average version of the equation then you can create solutions that that that do
+can create solutions that that that do exactly what I said before they they
+exactly what I said before they they start at a single scale as a single
+start at a single scale as a single Vortex and then they they they collapse
+Vortex and then they they they collapse to a slightly smaller Vortex and they
+collapse to even smaller Vortex always the V is increasing and the time between
+the V is increasing and the time between collapses it goes to zero and you get
+up um and the reason why I can do this is that um is that once you allow the
+is that um is that once you allow the freedom to turn off um certain
+freedom to turn off um certain interactions and so you only keep a
+interactions and so you only keep a small number of interactions um it the
+small number of interactions um it the the equations of motion are then
+the equations of motion are then something that you can engineer you can
+something that you can engineer you can then sort of build in into the laws of
+which behave like you know kind of like resistors and capacitors and so for they
+resistors and capacitors and so for they they they behave like like in very
+they they behave like like in very predictable Fashions and then you can
+predictable Fashions and then you can sort of engineer solutions that take
+sort of engineer solutions that take advantage of of these U of these
+circuits that are somehow now inherent in the equation to to build little
+in the equation to to build little machines that are designed to do exactly
+what this this blow um so that's the
+strategy so let's if I can try to explain so I won't actually show you I
+explain so I won't actually show you I mean there's lots of equations but I'll
+mean there's lots of equations but I'll try to show you in pictures um how this
+to uh uh to run okay so um there's a certain Loop that that there sort of a
+certain Loop that that there sort of a program that that your your fluid is now
+program that that your your fluid is now executing so your fluid is now basically
+trying to be a computer or actually a program I mean the the equation is the
+program I mean the the equation is the computer but the fluid is is sort
+of one run runtime instance of this computer so suppose that you've managed
+to somehow reach a certain scale so so your your fluid is now circulating at a
+your your fluid is now circulating at a high velocity in a little ball like this
+um so normally um this this could be somewhat unstable that that the fluid
+May sort of leak out and do all kinds of and develop turbulence here but what we
+and develop turbulence here but what we do is that we turn off all the possible
+interactions that uh so so we turn off all the interactions that would would
+all the interactions that would would disintegrate this this Loop and we just
+disintegrate this this Loop and we just so the loop just keeps circulating and
+interaction so um we we keep one little non interaction uh whose purpose is to
+non interaction uh whose purpose is to drain a little bit of the energy of this
+drain a little bit of the energy of this Loop into um a nearby Loop of about the
+same scale so you have this this big loop of of fluid moving really fast and
+loop of of fluid moving really fast and you you you allow one little nonlinear
+you you you allow one little nonlinear interaction to allow some of the energy
+here to so slowly start so you know right this this portion of fluid starts
+off stationary but then it slowly starts rotating um by a little bit okay um now
+rotating um by a little bit okay um now that by itself we can't use very much
+that by itself we can't use very much but then what you have to do next is
+but then what you have to do next is that you have to use this so of slowly
+um increasing um po Vortex to then trigger a second nonlinear interaction
+so we we uh so then this you you make a you take a third patch of space and you
+you take a third patch of space and you you use this little um this this little
+portion of of of um of energy to start um to start draining energy into um into
+um to start draining energy into um into a
+third Vortex and the point here is that um from the nature of the way that you
+um from the nature of the way that you can Define these nonlinear interactions
+can Define these nonlinear interactions you you can make this this nonlinearity
+grow exponentially um the the velocity here turns out you can only make it grow
+linearly um but this one um you can create exponential growth so it starts
+create exponential growth so it starts off from a very small velocity but the
+velocity over time just shoots up exponentially um so you know when you
+exponentially um so you know when you plot the velocities for a certain period
+plot the velocities for a certain period of time it's it's basically zero and
+of time it's it's basically zero and then suddenly it just turns on it become
+then suddenly it just turns on it become this step is kind of like an analog to
+signal this is a digital signal just so it turns on um and so nothing happens
+for a while and then suddenly this starts
+starts spinning um and then finally what you
+do is that um you you introduce into your laws of physics a third nonlinear
+your laws of physics a third nonlinear interaction which um the moment that
+this interaction becom significant um what it what it will do is that it it it
+what it what it will do is that it it it will it will compress this one so you
+you add in a third nonlinear term who whose purpose is to take um so whenever
+whose purpose is to take um so whenever this mode is activated what it does is
+this mode is activated what it does is is it it takes it very quickly takes
+this large mode and and squishes all the energy of this large mode into a smaller
+mode so uh so so when you run this equation there'll be a time delay where
+equation there'll be a time delay where but you have to set up the second Loop
+and then suddenly it squishes this uh this energy into into um very suddenly
+this energy into into um very suddenly into a smaller
+that's so you design the laws of physics to do exactly this um and then um and
+to do exactly this um and then um and then you um you just repeat the
+process okay so the smaller mode now does exactly the same thing it slowly
+does exactly the same thing it slowly drains a little bit of its energy into
+drains a little bit of its energy into into into other auxiliary modes which at
+into into other auxiliary modes which at some point this mode activates and it
+squishes this mode into an even smaller mode and then um and then you have to
+mode and then um and then you have to wait a while for for for the next stage
+wait a while for for for the next stage to set up and then it squishes it again
+to set up and then it squishes it again and so you get this very discreet um
+and so you get this very discreet um self-similar sort of behavior I mean
+self-similar sort of behavior I mean there there's some left over energy here
+there there's some left over energy here so the energy these Loops still still
+hang around but um they're slower um the these guys um move faster and faster and
+these guys um move faster and faster and at smaller and smaller time scales and
+at smaller and smaller time scales and so it turns out that that these guys can
+certain point and so you can actually if so by by carefully choosing certain
+so by by carefully choosing certain interactions that you like and then
+you don't like um you can create um a system which obeys energy conservation
+and all the dimensional analysis but it it it it hases Blow finite finite time
+it it it hases Blow finite finite time blow
+up okay so so that is uh so this is what you can do if you
+cheat um so literally the million question is what what you do if you if
+question is what what you do if you if you're not allowed to cheat um so
+basically um you want to mimic this um type of behavior um where you're not
+type of behavior um where you're not allowed to turn off all the interactions
+allowed to turn off all the interactions you actually have to use sort of the
+physical laws of motional fluids um but you want to somehow simulate um um um um
+you want to somehow simulate um um um um this this this sort of idealized
+this this this sort of idealized interactions that that that with before
+so you want to create um basically fluid Computing you want to create um patterns
+Computing you want to create um patterns of fluid um which behave like a machine
+which um and you program it to to do things like you know if it's if it's if
+things like you know if it's if it's if your robot is moving in a big loop you
+energy to create a little Loop over here and then another loop over here and then
+and then another loop over here and then uh at some point this this this this
+uh at some point this this this this auxiliary robot that that you
+constructure kind go back and push the energy in your initial world to a
+energy in your initial world to a smaller scale um and so basically it
+smaller scale um and so basically it becomes um um no longer a mathematical
+becomes um um no longer a mathematical task so much more of an engineering task
+task so much more of an engineering task um you have to build um a machine um but
+um you have to build um a machine um but purely out of fluid purely Out of Water
+purely out of fluid purely Out of Water um so I don't know how to do this um so
+you know I mean um the there is fluid Computing in in in real life you know
+Computing in in in real life you know people use it for avionics and and some
+people use it for avionics and and some other specialized applications um but
+other specialized applications um but you know if you if you have fluids to
+together with something else you know like pipes and valves and turbines okay
+like pipes and valves and turbines okay um some solids as well as fluids then
+um some solids as well as fluids then you can make useful machines and um you
+you can make useful machines and um you know you can make very simple machines
+but you can also make these Gates like amplifiers and and and things things
+like logic gates or Gates and Gates and in principle you could make I mean no no
+one does this but you could make um instead of a mechanical computer you can
+instead of a mechanical computer you can make a fluidic computer out out of big
+pipes and you know and and and and uh just you know F of water than
+electricity um you know so I mean Computing is possible if you allow
+Computing is possible if you allow yourself some additional material then
+just you fluid um so what a but I don't see any conceptual problem um you know
+see any conceptual problem um you know just it's just a humongous engineering
+just it's just a humongous engineering problem but you know in principle you
+problem but you know in principle you could maybe use the water itself you
+know maybe some Vortex sheets or something as as your pipes and and and
+and so forth or you can play solons or whatever um you may be able to you know
+whatever um you may be able to you know there there's nothing in principle that
+there there's nothing in principle that stops you from building um logic gates
+stops you from building um logic gates and amplifiers and uh and uh and and all
+and amplifiers and uh and uh and and all these things that we used to in in other
+know you you could be able to to to build these things purely out out out of
+out of water um and I don't know how to do this but if you could do this then in
+do this but if you could do this then in principle you you can uh you can create
+principle you you can uh you can create machines that that that can do arbitrary
+some two incomplete um fluid machines um and if you can you know have these s
+um and if you can you know have these s programmable computers made purely out
+programmable computers made purely out of fluid
+then they doesn't seem to be anything stopping um in principle at least uh the
+stopping um in principle at least uh the creation of of of this this sort of
+creation of of of this this sort of machine that that that replicates itself
+machine that that that replicates itself um I mean these machines have a name
+colonize say Ms the cheapest thing to do is to send one probe up to Mars which
+is to send one probe up to Mars which has the capability to to use this
+has the capability to to use this environment to create another copy of
+environment to create another copy of itself and just maybe you two copies
+ofself is better okay and then you um and then you you keep iterating that um
+and then you you keep iterating that um but uh um you know and in in other
+contexts we know how to do this so for example for for cell automator you know
+example for for cell automator you know this is very famous Conway's Game of
+Life uh which is has very simple rules um much simpler than Navia Stokes um but
+um much simpler than Navia Stokes um but we know in that um you know um in that
+we know in that um you know um in that in in the rules of that Universe we can
+can construct computers and people have constructed huge fomen machines which if
+you run the game of Life they just they create another copy of themselves um and
+in principle you can do that for um you know all you need is somehow these basic
+know all you need is somehow these basic Gates um enough to make things true
+Gates um enough to make things true incomplete um and of course you need all
+error correction and this all huge technical um obstacles but but there's
+technical um obstacles but but there's no physical obstruction to creating this
+no physical obstruction to creating this this sort of U machine which would
+demonstrate U that these equations blow up um and in fact you know I I now
+sufficiently um well anyti system which is super critical and uh and which is s
+is super critical and uh and which is s sufficiently complex that it would
+should be able to design solutions that that that blow up there's no physical
+that that blow up there's no physical reason why why this shouldn't happen but
+reason why why this shouldn't happen but uh actually demonstrating this
+rigorously is is going to be an amazingly difficult task um uh but I
+amazingly difficult task um uh but I hope that can gather some more evidence
+that you can do this that's sort of my my research plan for the next few years
+my research plan for the next few years okay thank you very much
+okay thank you very much [Applause]
+maybe we still have time for question or two
+or more yeah you describe two regimes when either the midterm or the V
+regimes when either the midterm or the V dominate now the one way the one when
+the KN dominated that was simple because that was lar yes now in the other regime
+you have no equals to zero namely it's not equation doesn't that Mak the
+not equation doesn't that Mak the situation s in in principle um yeah in
+situation s in in principle um yeah in principle yes yeah so the equation
+collapses to the oiler equations um which yes yes oh no this this there's
+which yes yes oh no this this there's oil well there's several types of Oiler
+equations there there's oil equation with
+verticity um yeah so um yeah so the equations are simpler um uh this
+equations are simpler um uh this actually makes things harder because um
+actually makes things harder because um the oiler equations have some additional
+the oiler equations have some additional conservation laws which I um so for nav
+conservation law is energy um the oiler equations once you remove vorticity
+equations once you remove vorticity there's there's a few more conservation
+laws something called helicity and and a few other angular momentum and a couple
+other things um which make it a little bit harder to actually design um flows
+bit harder to actually design um flows that do what you want like if you want
+that do what you want like if you want to compress a big Vortex into into a
+small Vortex um it is still consistent that you can do this um with all the
+that you can do this um with all the known conservation laws but it's harder
+known conservation laws but it's harder to find an actual mechanism um but yeah
+the oil equations they're simpler but they're still not so simple that you can
+nonlinear still um so it's uh but you're right the the viscosity is no longer for
+right the the viscosity is no longer for this Paradigm of blow up viscosity is
+blow up at basically the maximal rate um that that turns out to be easiest for my
+that that turns out to be easiest for my analysis um because because that means
+analysis um because because that means that that makes it the easiest to ignore
+the effects of viscosity um if you're blowing up at a slower rate then
+blowing up at a slower rate then viscosity could could could potentially
+viscosity could could could potentially ruin my my blow up solution um so um
+yeah so for technical reasons I I I'm creating solutions that blow up at at as
+creating solutions that blow up at at as fastest as possible but that it may be
+possible to also construct solutions that blow up
+slower if you can you cheat in two Dimensions also um so in in two
+dimension no um any equation of this type that I that I I write down has um
+type that I that I I write down has um um has will have Global Solutions that's
+um every time you uh you pass from one scale to another you a little bit of
+energy leaks and you lose a little bit of energy from dissipation um and in two
+and the amount of energy you lose at each each stage is a constant uh and so
+each each stage is a constant uh and so you can't actually make this process run
+you can't actually make this process run from that have a finite number of steps
+from that have a finite number of steps um but because of the the way Dimensions
+um but because of the the way Dimensions work in three dimensions the the amount
+work in three dimensions the the amount of energy that you lose at each stage
+decreases geometrically um and so there's enough energy to go around to to
+there's enough energy to go around to to make the
+Terence we give you this scroll and I will read
+scroll and I will read the nomination in Hebrew as well as in
+the nomination in Hebrew as well as in English
+English the Albert Einstein Memorial lecture the Israel Academy of Sciences
+lecture the Israel Academy of Sciences and Humanities hereby expresses its
+and Humanities hereby expresses its appreciation to Professor teren stal for
+appreciation to Professor teren stal for his presentation of the Albert Einstein
+his presentation of the Albert Einstein Memorial lecture for 2015
+this occasion serves to commemorate Albert Einstein the man and his
+Albert Einstein the man and his accomplishments Albert Einstein's
+interests and influence were not only restricted to theoretical physics but
+restricted to theoretical physics but embarked a spectrum of areas of profound
+embarked a spectrum of areas of profound significance to science and
+Society in the spirit of Albert Einstein Terence Stow has enriched science and
+Terence Stow has enriched science and Society in many ways rut AR president
+Society in many ways rut AR president itner chairman of the Natural Science
+sure I'm not sure what I'm supposed to say exactly in this ceremony but there
+say exactly in this ceremony but there is also a medal that goes together with
+is also a medal that goes together with this very nice so I hereby give
+this very nice so I hereby give thisal

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ku_video_fDek6cYijxI_0",
+    "t_start": 0.0,
+    "t_end": 92.4,
+    "type": "overview",
+    "summary": "Part of this video is sponsored by LastPass. More about last pass at the end of the show. The butter fly effect is the idea that the tiny causes, like a flay of a butter fly's wings in Brazil, can have huge effects, like setting off a tornado in Texas Now that idea comes straight from the title of a scientific paper published nearly 50 years ago and perhaps more than any other recent scientific concept, it has captured the public imagination I mean on IMDB there is not one but 61 different movies, TV episodes, and short films with 'butterfly effect' in the title not to mention prominent ref…"
+  },
+  {
+    "id": "ku_video_fDek6cYijxI_92",
+    "t_start": 92.4,
+    "t_end": 183.0,
+    "type": "overview",
+    "summary": "that knew everything about the current state of the universe: the positions and momenta of all the particles and how they interact if this intellect were vast enough to submit the data to analysis, he concluded, then the future, just like the past, would be present before its eyes This is total determinism: the view that the future is already fixed, We just have to wait for it to manifest itself I think if you've studied a bit of physics, this is the natural viewpoint to come away with I mean sure there's Heisenberg's uncertainty principle from quantum mechanics, Pretty insignificant on the…"
+  },
+  {
+    "id": "ku_video_fDek6cYijxI_183",
+    "t_start": 183.0,
+    "t_end": 273.6,
+    "type": "overview",
+    "summary": "we know that the final state will be the pendulum at rest hanging straight down and from the graph it looks like the system is attracted to the origin, that one fixed point so this is called a fixed point attractor now if the pendulum doesn't lose energy, well it swings back and forth the same way each time and in phase space we get a loop the pendulum is going fastest at the bottom but the swing is in opposite directions as it goes back and forth the closed loop tells us the motion is periodic and predictable anytime you see an image like this in phase space, you know that this system regu…"
+  },
+  {
+    "id": "ku_video_fDek6cYijxI_273",
+    "t_start": 273.6,
+    "t_end": 367.8,
+    "type": "overview",
+    "summary": "was that there was no simple solution to the three-body problem Poincaré had glimpsed what later became known as chaos. Chaos really came into focus in the 1960s, when meteorologist Ed Lorenz tried to make a basic computer simulation of the Earth's atmosphere he had 12 equations and 12 variables, things like temperature, pressure, humidity and so on and the computer would print out each time step as a row of 12 numbers so you could watch how they evolved over time now the breakthrough came when Lorenz wanted to redo a run but as a shortcut he entered the numbers from halfway through a previ…"
+  },
+  {
+    "id": "ku_video_fDek6cYijxI_367",
+    "t_start": 367.8,
+    "t_end": 462.5,
+    "type": "overview",
+    "summary": "but again, he got the same type of behavior: if he changed the numbers just a tiny bit, results diverged dramatically. Lorenz's system displayed what's become known as sensitive dependence on initial conditions, which is the hallmark of chaos now since Lorenz was working with three variables, we can plot the phase space of his system in three dimensions We can pick any point as our initial state and watch how it evolves. Does our point move toward a fixed attractor? Or a repeating loop? It doesn't seem to In truth, our system will never revisit the same exact state again. Here I actually st…"
+  },
+  {
+    "id": "ku_video_fDek6cYijxI_462",
+    "t_start": 462.5,
+    "t_end": 553.1,
+    "type": "overview",
+    "summary": "and I'm talking infinite decimal places. But the result suggests why even today with huge supercomputers, it's so hard to forecast the weather more than a week in advance In fact, studies have shown that by the eighth day of a long-range forecast, the prediction is less accurate than if you just took the historical average conditions for that day and knowing about chaos, meteorologists no longer make just a single forecast instead they make ensemble forecasts, varying initial conditions and model parameters to create a set of predictions. Now far from being the exception to the rule, chaoti…"
+  },
+  {
+    "id": "ku_video_fDek6cYijxI_553",
+    "t_start": 553.1,
+    "t_end": 647.3,
+    "type": "overview",
+    "summary": "found its behavior as a whole to be chaotic with a characteristic time of about four million years that means within say 10 or 15 million years, some planets or moons may have collided or been flung out of the solar system entirely. The very system we think of as the model of order, is unpredictable on even modest timescales So how well can we predict the future? Not very well at all at least when it comes to chaotic systems The further into the future you try to predict the harder it becomes and past a certain point, predictions are no better than guesses. The same is true when looking int…"
+  },
+  {
+    "id": "ku_video_fDek6cYijxI_647",
+    "t_start": 647.3,
+    "t_end": 739.2,
+    "type": "overview",
+    "summary": "so each path here is actually an infinite curve in a finite space. But how is that possible? Fractals. But that's a story for another video this particular attractor is called the Lorenz attractor, Probably the most famous example of a chaotic attractor though many others have been found for other systems of equations now if people have heard anything about the butterfly effect, it's usually about how tiny causes make the future unpredictable but the science behind the butterfly effect also reveals a deep and beautiful structure underlying the dynamics One that can provide useful insights i…"
+  },
+  {
+    "id": "ku_video_fDek6cYijxI_739",
+    "t_start": 739.2,
+    "t_end": 770.8,
+    "type": "overview",
+    "summary": "or on iOS or Android apps and mobile sites, you never have to remember another password again. Not for the rest of your life and that means no more writing down passwords, no more getting locked out of accounts, no more password resets. You can use your brain for what it's meant to be doing. and if you want extra features like advanced multi-factor authentication, you can upgrade to LastPass premium I got to say, it works like magic. so put your passwords on autopilot with LastPass Click the link below to find out more, and thanks to LastPass for sponsoring this part of the video"
+  }
+]

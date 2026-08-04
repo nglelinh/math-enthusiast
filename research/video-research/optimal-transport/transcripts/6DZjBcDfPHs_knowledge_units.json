@@ -1,0 +1,373 @@
+[
+  {
+    "id": "ku_video_6DZjBcDfPHs_5",
+    "t_start": 5.3,
+    "t_end": 97.2,
+    "type": "overview",
+    "summary": "our last speaker of the symposium is Professor cédric Villani elect member of Professor cédric Villani elect member of French parliament see Jake is an French parliament see Jake is an exceptional mathematician in every way exceptional mathematician in every way he worked on partial differential he worked on partial differential equations Riemannian geometry and equations Riemannian geometry and mathematics physics in 2010 he was mathematics physics in 2010 he was awarded the Fields Medal for his awarded the Fields Medal for his outstanding work on the kinetic theory outstanding work on the…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_97",
+    "t_start": 97.2,
+    "t_end": 190.0,
+    "type": "overview",
+    "summary": "topic to be announced by himself [Applause] [Music] thank you thank you she may everybody hear me Asia including at the back yes pleasure to be here part of this event also to be part of an event which is also to be part of an event which is associated with the name of de moivre and I will also explain why he's one of my the example that I used a lot in my my the example that I used a lot in my public speeches and first let me explain public speeches and first let me explain why the reason of the image you know I why the reason of the image you know I had scheduled to give a handwritten tal…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_190",
+    "t_start": 190.0,
+    "t_end": 280.6,
+    "type": "overview",
+    "summary": "your time or to go on a sideway or whatever let me also insist that one of the reasons why I decided to go for reasons why I decided to go for handwriting's first I love the handwriting's first I love the old-fashioned handwritten talks and secondly the beautiful computer talks like we've seen today require a lot of time in preparing you can do a talk that is 10 times better with the computer but is 10 times better with the computer but it will require you hundred times 100 times more preparation time and you know when you're a politician in Parliament when you're a politician in Parliament…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_280",
+    "t_start": 280.6,
+    "t_end": 376.3,
+    "type": "overview",
+    "summary": "aimed at you so that I will try to be not too technical but I would insist I will tell you about the subject but also about how I came into the subject how I change direction etc so title could be sub optimal Road to optimal transport sub optimal Road to optimal transport the subject is optimal transport okay I will have to write big so that you cannot see right optimal transport is a cannot see right optimal transport is a program by which you want to have some one place to another and you want to do it in the way that is most economical in it in the way that is most economical in the orig…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_376",
+    "t_start": 376.3,
+    "t_end": 466.5,
+    "type": "overview",
+    "summary": "but also with very concrete problems in mind and that has been very enriching so about I wrote two books on the subject which you may was very kind to mention which you may was very kind to mention and I'm very proud of having written and I'm very proud of having written these books enormous amount of effort of synthesis but I will tell you about a sub-optimal road to go into this subject sub-optimal road to go into this subject because the directions which he took for because the directions which he took for me were never of direction which I intended at first and let me explain you about …"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_466",
+    "t_start": 466.5,
+    "t_end": 563.3,
+    "type": "overview",
+    "summary": "picture except that the you know on this side instead of doing it right inside side instead of doing it right inside the ground it will be something like up the ground something like we are transporting an amount of material like transporting an amount of material like this doing something like this let's and this is probability measure mu 1 on some space whatever and assume that you some space whatever and assume that you have a unit of mass here you it you have a certain amount of work to transport it to another position and that will be the to another position and that will be the cost o…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_563",
+    "t_start": 563.3,
+    "t_end": 655.0,
+    "type": "overview",
+    "summary": "to mu 0 so that is a distribution of X 0 and the law of X 1 is equal to mu 1 that state it in trouble istic terms let me give you another way which is equivalent give you another way which is equivalent this will be let's write it this way this will be let's write it this way minimum of double integral of C of X Y square PI of DX dy well this is a joint probability measure imagine that this is probability measure imagine that this is a the space of X 0 this is the space of like X 0 X 1 DX 0 DX 1 will be better an imaginary probability measure here it's imaginary probability measure here it'…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_654",
+    "t_start": 655.0,
+    "t_end": 746.8,
+    "type": "overview",
+    "summary": "it's part of probability measure if you want but it's also part of optimization because you want to make something as small as possible and it turns out it small as possible and it turns out it can also be recast as a problem in features here in the cost x0 x1 so for instance if you work in a twilight to instance if you work in a twilight to the square here sorry there's no square the square here sorry there's no square but very often the cause that you will put will be something like x0 minus x1 square square distance if it's a norm if square square distance if it's a norm if you are worki…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_746",
+    "t_start": 746.8,
+    "t_end": 841.9,
+    "type": "overview",
+    "summary": "which probability theory is incorporated so mixing the geodesic idea with the idea of probability measure how did I go into this subject at first let me tell into this subject at first let me tell you because as you mentioned I was you because as you mentioned I was trained in partial differential equations and the kinetic theory which is theory of gases and and plasmas and is theory of gases and and plasmas and it turns out that in the seventies it turns out that in the seventies Japanese mathematician named Tanaka had Japanese mathematician named Tanaka had showed the following ok never m…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_841",
+    "t_start": 841.9,
+    "t_end": 937.7,
+    "type": "overview",
+    "summary": "that as one of your solutions of the Boltzmann equation evolves with time let's say mu zero T as time goes and the other will be mu one T as time goes to other will be mu one T as time goes to different solutions evolving with time different solutions evolving with time through collisions making the through collisions making the probability distribution change from time to time then you will see that the distance between mu zero T and mu one T distance between mu zero T and mu one T is a decreasing function of time so that is a decreasing function of time so that your two solutions become c…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_937",
+    "t_start": 937.7,
+    "t_end": 1031.2,
+    "type": "overview",
+    "summary": "tails and you throw up your coin in the air and you count the head and the tail you know and I've read it will be 50% 50% but you can look at the you can look 50% but you can look at the you can look at the error the error will be smaller at the error the error will be smaller and smaller as a number of trials increases when we let see what is the distribution of that error if you make a distribution of that error if you make a zoom so that it gets fixed as the number of trials increases you will see a beautiful cows distribution a beautiful beautiful cows distribution a beautiful curve lik…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_1031",
+    "t_start": 1031.2,
+    "t_end": 1123.5,
+    "type": "overview",
+    "summary": "example of the talent that you can lose when you have an approach which is not when you have an approach which is not tolerant and when you start segregating tolerant and when you start segregating people and so on so it's a lesson we should never forget when you try start to put barriers and prevent the freedom to put barriers and prevent the freedom you are losing talent to the outside okay that is for demova let's go back to Tanika and Boltzmann equation so far so Tanika and Boltzmann equation so far so good I took it would be little bit confused but anyway so I was I was a student and v…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_1123",
+    "t_start": 1123.5,
+    "t_end": 1214.5,
+    "type": "overview",
+    "summary": "perspective related to heat diffusion equations then we started discussing with this body at some point he said why don't we organize a conference together don't we organize a conference together in which we will discuss about various aspects related to the dis optimal transport thing I said yes of course of transport thing I said yes of course of course I had to organize a lot of things you a lot also and I did not present my own work instead I rather explain the own work instead I rather explain the work of Tanaka even though it was decades old and I explained how it was interesting in ex…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_1214",
+    "t_start": 1214.5,
+    "t_end": 1306.5,
+    "type": "overview",
+    "summary": "and so on and at some point I see one of the children that was explained by Lulu the children that was explained by Lulu it was through him by telling her about so-called concentration of measure and it was a certain relation in certain it was a certain relation in certain spaces it could be probability measure spaces it could be probability measure relation with the optimal transport problem with the entropy problem which is a way to measure the disorder in the is a way to measure the disorder in the Boltzmann framework and with the so Boltzmann framework and with the so called measure con…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_1306",
+    "t_start": 1306.5,
+    "t_end": 1398.1,
+    "type": "overview",
+    "summary": "published the paper together which was not about a new theorem but about a new not about a new theorem but about a new proof of a theorem which was already stated in this way it was not a big deal I am exaggerating a little bit there was so quite some work but it was you know work of a week's worth of work something work of a week's worth of work something like this and my friend this is my most like this and my friend this is my most quoted paper of all my career not that it is the most important you know one should not it's not that your paper is should not it's not that your paper is the…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_1398",
+    "t_start": 1398.1,
+    "t_end": 1489.2,
+    "type": "overview",
+    "summary": "at a short distance from that I was invited in Atlanta by Eric Allen who was invited in Atlanta by Eric Allen who was member of my jewelry and expecting me to member of my jewelry and expecting me to present some results about Boltzmann equation and when I arrived at the seminar I talked of Boltzmann equation seminar I talked of Boltzmann equation but I also talked about why the work that we did with Otto it was a good piece of chance that in the audience piece of chance that in the audience there was Wilfred gumbo who was a there was Wilfred gumbo who was a specialist of optimal transport …"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_1489",
+    "t_start": 1489.2,
+    "t_end": 1582.5,
+    "type": "overview",
+    "summary": "instead I said yes I will teach optimal transport my friends teaching is by far the best way to learn a subject so I spent a semester working out this course spent a semester working out this course on Atlanta about optimal transport preparing my course at city Ryan in the end this course became my first book on reference textbook kind of in the in the shield and after teaching this course I could say ok now I'm an expert I've read these dozens and dozens of papers I know these dozens and dozens of papers I know the various proofs and making developments etc and the story doesn't finish the…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_1582",
+    "t_start": 1582.5,
+    "t_end": 1671.9,
+    "type": "overview",
+    "summary": "lebesgue measure and you will consider the ball the euclidean ball which has the same measure let's call this alpha' and let's assume that this is the ball bish with the measure that is equal to alpha volume is alpha then the volumes are equal then the measure of the surface of this the surface of this has to be at least the surface of this so let's write it like let's write it like let's write it like let's write it like surface of a is bounded below by the principle and you know it's used to explain about the shape of bubbles air inside is fixed so the volume is given but the energy is mi…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_1677",
+    "t_start": 1677.7,
+    "t_end": 1769.6,
+    "type": "overview",
+    "summary": "so what does it say take and dimensional geometry Romanian manifold as we say so geometry Romanian manifold as we say so you have this geometry with the the you have this geometry with the the surface or generalized surface maybe in surface or generalized surface maybe in many dimensions let's call it let's call it Emma and it has dimension N and on there there is a way to measure distance there there is a way to measure distance which is the geodesic distance there is way to measure the surface etc and you are taking a certain set let's call it a are taking a certain set let's call it a yo…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_1769",
+    "t_start": 1769.6,
+    "t_end": 1860.4,
+    "type": "overview",
+    "summary": "that the sphere is maybe the most simple non Euclidean geometry that you can think of now to define us here you need to know about the dimension and you need to know about the dimension and you need to know about the diameter of the sphere equivalently you need to know about the curvature of the sphere you know if it's very small curvature will be high if it's large the curvature will be low and radius that you want to take will be square root of n minus 1 divided by K square root of n minus 1 divided by K and this K here you take as a lower and this K here you take as a lower found on the …"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_1860",
+    "t_start": 1860.4,
+    "t_end": 1946.4,
+    "type": "overview",
+    "summary": "certain diet radius from a certain point here and you chose your ball in such a way that the volume of the bore divided by the volume of this here is equal to alpha also okay so it's the same as having the same volume that we saw having the same volume that we saw before and then what the theorem says before and then what the theorem says that if this situation is correct then that if this situation is correct then the surface here of this set is not less the surface of this divided by the total volume okay of course I should have made volume okay of course I should have made some compromis…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_1952",
+    "t_start": 1953.0,
+    "t_end": 2046.6,
+    "type": "overview",
+    "summary": "hello Sigma oh this is s Thank You Pascal ok contradiction is important in Pascal ok contradiction is important in our field and it's the basis for a our field and it's the basis for a number a number of developments actually number a number of developments actually Livi was interested in this precisely for same kind of stuff that al Adha was interested in problem about measure few interested in problem about measure few ish because for instance once you know once you have an information like this concentration of measure once you have concentration of measure once you have an information i…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_2046",
+    "t_start": 2046.6,
+    "t_end": 2138.8,
+    "type": "overview",
+    "summary": "problem and these problems are not to known to be extremely technical relying on huge proofs and ok we can use these big black boxes and be happy with it but big black boxes and be happy with it but we may also say come on if I use a very we may also say come on if I use a very sophisticated tools it will be difficult sophisticated tools it will be difficult to generalize it will be difficult to optimize or change the parameters it will not adapt to modern or situation maybe it's not for instance if you replace the smooth geometry that is here replace the smooth geometry that is here by a n…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_2138",
+    "t_start": 2138.8,
+    "t_end": 2229.0,
+    "type": "overview",
+    "summary": "visiting professor under the auspice ality of the mirror Institute with a beautiful visiting program in which there was no research obligation new there was no research obligation new teaching obligation and no do in the mirror Institute was to have lunch once a week with the other fellows lunch once a week with the other fellows of the mirror Institute and tell them of the mirror Institute and tell them about what I was doing yes for this I was paid three times my French salary and a kind of good French salary and a kind of good conditions in which dv4 understand that conditions in which d…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_2229",
+    "t_start": 2229.0,
+    "t_end": 2321.0,
+    "type": "overview",
+    "summary": "into romanian geometry as you said very important or so is that by that time I important or so is that by that time I had spent a few years already in the had spent a few years already in the economic superior de Leon research economic superior de Leon research environment in which I moved in the around 2000 in which the spirit was much more multidisciplinary in a way than more multidisciplinary in a way than what I had known before in in Paris and geometry the fact that I went into this was also psychologically at least due to was also psychologically at least due to the fact that I was di…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_2321",
+    "t_start": 2321.0,
+    "t_end": 2412.3,
+    "type": "overview",
+    "summary": "measure maybe if we are nuclear in space or the volume measure if we are in a non if the space is curved unless I say that we want to know if the curvature of the we want to know if the curvature of the space is non-negative okay and we want space is non-negative okay and we want to do it in a very elementary way to do it in a very elementary way we may be able to explain with two we may be able to explain with two physicists without using any physicists without using any sophisticated notion of differential calculation or whatever just a bit of measure Furion probability so what here measu…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_2412",
+    "t_start": 2412.3,
+    "t_end": 2503.4,
+    "type": "overview",
+    "summary": "so maybe assume this is viewed from the let's say this is used from the top I mean maybe I put here this is my geometry here and I'm seeing here maybe geometry here and I'm seeing here maybe there are places of high probability low there are places of high probability low probability and this is mu1 and all probability and this is mu1 and all along at intermediate time between T equals 0 and T equals 1 at maybe half time it will be a different distribution time it will be a different distribution of mass because all the mass has gone halfway and I look if this map is spread or not spread ac…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_2503",
+    "t_start": 2503.4,
+    "t_end": 2596.8,
+    "type": "overview",
+    "summary": "is that in a space of non negative curvature Jodie's it typically start by curvature Jodie's it typically start by separating out and then they converge separating out and then they converge again so that the gas can afford to be because the geodesics are more spread and that is the basic intuition behind and that is the basic intuition behind it you can translate it in complicated it you can translate it in complicated rigorous mathematics etc but all that is rigorous mathematics etc but all that is technique most important is the first technique most important is the first elimination lik…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_2596",
+    "t_start": 2596.8,
+    "t_end": 2687.2,
+    "type": "overview",
+    "summary": "also has a non negative curvature even if the convergence is very very wild if the convergence is very very wild answer is yes but to prove that the answer is yes we have to first reformulate it using the formalism of probability measures optimal transport and and the measures optimal transport and and the entropy and this is an example of how a problem can be solved in a completely unexpected way you think it's a problem will come with a solution that uses the entropy the intuition coming from the kinetic theory of gases etc that's an example of unexpected Road taken by the example of unex…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_2687",
+    "t_start": 2687.2,
+    "t_end": 2782.1,
+    "type": "overview",
+    "summary": "proof of the latecomer is a parametric inequality and the proof which was exactly as you wanted it to be that is a proof that was robust Elementary giving proof that was robust Elementary giving way to generalizations opening paths to way to generalizations opening paths to new understanding and so on I wish it was my proof but that was not the case and the proof was given by cavaletti and MALDI know after some important very important connection by kata and it's a important connection by kata and it's a long story but full of connections but one too just to tell you one thing that was a ke…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_2782",
+    "t_start": 2782.1,
+    "t_end": 2872.8,
+    "type": "overview",
+    "summary": "make a Fourier tion a kind of partition of your space based on this interface of your space based on this interface for every point which is here you look for every point which is here you look at the point on the boundary which is this and this point here you see what is the point where it is closest think of the point where it is closest think of this like the octagonal projection on the boundary and you will like cover your entire space by this kind of lines your entire space by this kind of lines in which you have these all through in which you have these all through these cruces approx…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_2872",
+    "t_start": 2872.8,
+    "t_end": 2963.5,
+    "type": "overview",
+    "summary": "in some situations solving both problems are equivalent and that you can kind of cases in which the two are equivalent just this psychological changing there just this psychological changing there is a situation in which both programs are equivalent and it's efficient to work out an expert who knows this would be able to go through the proof to reconstruct it etc but just this reconstruct it etc but just this information was very important and very information was very important and very imaginative and the other thing which was due to class tag was a connection with another of two pictures…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_2963",
+    "t_start": 2963.5,
+    "t_end": 3059.7,
+    "type": "overview",
+    "summary": "doing the partition of things into lines we did not intersect my friend in the same picture but to realize that it was the same picture it took somebody who knew about this and that and that was the case of was chaotic and he problem to do an intrinsic way of this needle decomposition that the people in needle decomposition that the people in geometric convex see we were very much geometric convex see we were very much used to it another example of the fact used to it another example of the fact that having one foot in one field and that having one foot in one field and another another fiel…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_3059",
+    "t_start": 3059.7,
+    "t_end": 3151.5,
+    "type": "overview",
+    "summary": "these for instance many many things and it's so turned out that it's even more even even may have been this for quite a long time I'm still amazed by how much long time I'm still amazed by how much it goes into so it will be the it goes into so it will be the connection with my current activities and with one of the themes of this thing's is the connection with the very thing's is the connection with the very famous artificial intelligence business famous artificial intelligence business so let's talk a bit about artificial intelligence I've been mission by the government for a report about…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_3151",
+    "t_start": 3151.5,
+    "t_end": 3241.9,
+    "type": "overview",
+    "summary": "some parts of mathematics came from there but later when I went into research I went into PDEs I went into mathematical physics and like many other mathematical physics and like many other people I thought that artificial intelligence was quite soft not many big results etc actually when one of my results etc actually when one of my collaborators on the optimal transport collaborators on the optimal transport again early he moved to artificial again early he moved to artificial intelligence I told him are you sure intelligence I told him are you sure what you're doing you know it doesn't wh…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_3241",
+    "t_start": 3241.9,
+    "t_end": 3334.8,
+    "type": "overview",
+    "summary": "know but these are very good people or if they are inviting you they have some if they are inviting you they have some plan whatever and said maybe it's plan whatever and said maybe it's because of the similarities with some of because of the similarities with some of the keywords etc and of course I accepted the invitation even though I knew nothing about learning huge but my knew nothing about learning huge but my talk sounded familiar to them their talk talk sounded familiar to them their talk sounded familiar to me I recognized many ingredients when you go into the technique convex opti…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_3334",
+    "t_start": 3334.8,
+    "t_end": 3426.8,
+    "type": "overview",
+    "summary": "worked on more explicitly the connection and optimal transport are drafts key and optimal transport are drafts key chintala button mademou Lakeville go Hong Ling young lee soo cui yahoo yeah with the ocean to the famous geometer with the ocean to the famous geometer all the people who did the explicit link Canadian which are three great nations about artificial intelligence and I very much liked the idea behind so let me to just give you an idea of what it is like just give you an idea of what it is like let me sketch the thing so yes let me sketch the thing so yes absolutely I'm a you know…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_3426",
+    "t_start": 3426.8,
+    "t_end": 3518.4,
+    "type": "overview",
+    "summary": "which tries to reconstruct let's say you have here this is something which have here this is something which depends on a small number of parameters depends on a small number of parameters let's call this Z it's a small space here you have a huge space many many parameters may be in some observations parameters may be in some observations there and you want to construct these there and you want to construct these observations say as a function of this observations say as a function of this which is transporting some given measure which is transporting some given measure on this space F into…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_3518",
+    "t_start": 3518.4,
+    "t_end": 3610.7,
+    "type": "overview",
+    "summary": "work by Luca but then was developed explicitly by these people into the now and so on is that you can measure here the distance between these variations to the distance between these variations to do it with the transport make sure approach with one of these W functional that I told you and that in fact er this problem when you take certain cost functions to measure Hill discrepancy functions to measure Hill discrepancy given in taking the geometry into given in taking the geometry into account these problems here the adversary and the original they are like a dual problem exactly as in the…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_3610",
+    "t_start": 3610.7,
+    "t_end": 3699.1,
+    "type": "overview",
+    "summary": "you think they are okay when you look at them clearly you see there is something which just doesn't work we will see some example with animals in other paper and is one of the key word for this optimal transport kantorovich rubenstein duality transport kantorovich rubenstein duality is another problem is another way for the optimal transport thing and this is this paper that one of these papers this paper that one of these papers Facebook also is involved in which they Facebook also is involved in which they use the optimal transport problem to do the to do their adversarial network trainin…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_3706",
+    "t_start": 3706.1,
+    "t_end": 3773.5,
+    "type": "overview",
+    "summary": "these are some images that Yin Luke and other people for instance show in there other people for instance show in there Oh resolution is not so good okay well this I told you this talk would be a bit messy anyway please those would be a bit messy anyway please those of you who have not seen it Google app of you who have not seen it Google app or quanta up generated adversarial networks images and you will see these creepy images in which you have shaped creepy images in which you have shaped up animals that from a distance they up animals that from a distance they look like familiar and whe…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_3802",
+    "t_start": 3802.6,
+    "t_end": 3893.2,
+    "type": "overview",
+    "summary": "you know one of my problem is that I want to work on everything and at the want to work on everything and at the end but since at the end I am also much much less than I would like to do but this is subject I was intending to but this is subject I was intending to start a PhD thesis in collaboration with start a PhD thesis in collaboration with the Facebook Paris AI research we had the Facebook Paris AI research we had talked about this with some of the guys algorithmics of solving the optimal transport is a is a bit of a mess it's a transport is a is a bit of a mess it's a bit of a mess an…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_3893",
+    "t_start": 3893.2,
+    "t_end": 3984.0,
+    "type": "overview",
+    "summary": "like reinforcement learning to me so far but you never know one of the young but you never know one of the young people there yeah yeah I can see they people there yeah yeah I can see they are working on that yes yes hold on hold on let me come get closer oh my gosh gosh it's my way - now it's oh my gosh gosh it's my way - now it's my duty to think of all kinds of my duty to think of all kinds of features and so on yeah yeah this I was features and so on yeah yeah this I was telling you about development of the telling you about development of the Facebook research lab it has never been my …"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_3983",
+    "t_start": 3984.0,
+    "t_end": 4075.6,
+    "type": "overview",
+    "summary": "with Facebook and so on of course as we know there are many issues about the way know there are many issues about the way we the way these big American companies we the way these big American companies now we can handle them at political now we can handle them at political level fiscal level control level ethical level fiscal level control level ethical level whatever many many ways and in with the current extremely powerful status that they have acquired very very status that they have acquired very very tricky problem in which one has to find a good solution you know we've been discussing…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_4075",
+    "t_start": 4075.6,
+    "t_end": 4166.4,
+    "type": "overview",
+    "summary": "information about ourselves I mean for instance discussion with the researchers instance discussion with the researchers who went from universities to Facebook who went from universities to Facebook by the way my friend Yan that I was he went from university to - to the Facebook research and many other people Facebook research and many other people and when you ask all these people why do you move to the Facebook clubs instead of remaining in the academia many of them tell us things like oh now that I have moved to this lab I am much more have moved to this lab I am much more free for my re…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_4166",
+    "t_start": 4166.4,
+    "t_end": 4258.2,
+    "type": "overview",
+    "summary": "researchers in this very highly competitive area which has strong links competitive area which has strong links with the industry also are given some with the industry also are given some very attractive conditions for working very attractive conditions for working in our laboratories and in our public universities and when I see attractive it's not just a question of salary it's it's not just a question of salary it's a question of having just the tools to yes it indeed is unreasonably effective you know when people talk about you know when people talk about unreasonable effectiveness ofte…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_4258",
+    "t_start": 4258.2,
+    "t_end": 4352.7,
+    "type": "overview",
+    "summary": "know why but then it turns out to be useful in many different contexts so useful in many different contexts so then it's a question of personal choice then it's a question of personal choice some people will say that because we some people will say that because we humans are exposed to many situations humans are exposed to many situations that become good at finding the concepts that become good at finding the concepts which are sensual other people will say which are sensual other people will say that is because the world is written in that is because the world is written in mathematical l…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_4352",
+    "t_start": 4352.7,
+    "t_end": 4442.8,
+    "type": "overview",
+    "summary": "even though the neural networks reasonable vaguely our a neuron examination but one may say it's one of them but there are very few of these concepts so if you're it's important that when one says that recall that this that when one says that recall that this quote about the reasonable effectiveness quote about the reasonable effectiveness of mathematics was coming from a of mathematics was coming from a mathematical physicist I guess vigna and mathematical physicist I guess vigna and somebody involved in the biology somebody involved in the biology application of mathematics may have said …"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_4442",
+    "t_start": 4442.8,
+    "t_end": 4533.6,
+    "type": "overview",
+    "summary": "with the idea that maybe they will be able to recreate this kind of artificial able to recreate this kind of artificial mathematician another reason is that you mathematician another reason is that you cannot think of an artificial cannot think of an artificial in the sense that physicists need in the sense that physicists need experiments while mathematics it's only experiments while mathematics it's only done in the you know from some given axioms and you can try it's one of the field that is in which you can argue field that is in which you can argue that maybe reinforced learning can pl…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_4533",
+    "t_start": 4533.6,
+    "t_end": 4623.9,
+    "type": "overview",
+    "summary": "even tease those guys by saying you know that statistical learning was developed that statistical learning was developed in a sense are the way developed in a putting meaning in it was like let's forget about how things work and which forget about how things work and which is the cause let's just put a bunch of examples and see the thing decide by itself by analogy what is the what is the output and it could be a view that from purely scientific perspective it is from purely scientific perspective it is a regression a regression I think this only time will tell I think this only time will t…"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_4623",
+    "t_start": 4623.9,
+    "t_end": 4714.3,
+    "type": "overview",
+    "summary": "problem was specified it was let's see how many clusters the genomes of the how many clusters the genomes of the giraffes can separate into it was not giraffes can separate into it was not like let's find a new theory for biology like let's find a new theory for biology evolution or something like this okay evolution or something like this okay last last question there okay okay okay that question first one thing to say is that you guys in a French course abroad are privileged usually it works much better the usually it works much better the training in these foreign schools in training in …"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_4714",
+    "t_start": 4714.3,
+    "t_end": 4812.2,
+    "type": "overview",
+    "summary": "has the lowest score of all ocde countries UCD countries it's it's a real countries UCD countries it's it's a real shame by the way we also have disaster results in english-speaking and these are the results in in reading about are the results in in reading about English for sometimes we are competing English for sometimes we are competing with the Italians and the Spanish to be with the Italians and the Spanish to be at the bottom but I think we won the be proud of so to come back to the math question we will soon be giving back our question we will soon be giving back our conclusions and …"
+  },
+  {
+    "id": "ku_video_6DZjBcDfPHs_4812",
+    "t_start": 4812.2,
+    "t_end": 4822.9,
+    "type": "overview",
+    "summary": "currently is in the mood of reforms and improvement so I am very optimistic that improvement so I am very optimistic that we will do it thank you we will do it thank you [Applause] [Applause] [Music]"
+  }
+]

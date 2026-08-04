@@ -1,0 +1,142 @@
+JOHN HUNTON: Well, as far as I'm concerned, the important
+thing about five is that it's not three, four, or six.
+And three, four, or six are each numbers that have really
+special properties in relation to tiling the plane--
+so creating repeating patterns of tiles.
+So I brought some props.
+And here they are squares.
+These are the sort of squares that we all put on our walls.
+And the pattern is very simple.
+And anyone can carry on putting down square tiles, and
+the pattern repeats itself on, and on, and on.
+You don't need instructions because
+you know how it continues.
+Now, suppose you want something a bit
+more exotic than that.
+Let's say you wanted triangle tiles.
+Say your tiles were triangles--
+like that.
+Well, you could put the next one upside down, and the third
+one back the same way.
+And then you can continue, and then you put the next row in.
+And you can continue this for as long as you want.
+So that would carry on for as long as you want, using the
+same rule, again and again and again, just so you know how to
+put down the tiles-- one up, one down.
+So that's gonna be the three.
+So these are tiles with three sides, three corners.
+Our original squares had four sides, four corners.
+But maybe you want something more exotic still, and you
+want to use hexagonal tiles.
+So I can use this pattern again.
+I'll just draw over it.
+So there was a hexagon.
+You see this red.
+And I could have another hexagon.
+It would come in, and that one, and my third
+hexagon, and so.
+And I can continue to put hexagons down, as well.
+This is what the bees know.
+And all the bees have to know is where to put the next
+little cell of their honeycomb.
+So here's the question--
+can we use 5-sided?
+So the answer is, no, we can't.
+five sides, equal sides, equal angles.
+So I might put the next one down here.
+And now you begin to see your problem.
+Because the bit I'd have to fill in around here is a
+bigger angle than my pentagon has at its angle.
+I'd get something like that, and there'd be this little bit
+of extra space.
+Now you see, it didn't happen with the hexagons, because the
+hexagons had just that little bit extra angle.
+And so they filled in these gaps.
+So here you'll have another.
+And you get another gap.
+Triangles, 3-sided figures, squares, 4-sided figures, and
+hexagons, 6-sided figures, are all good for tiling your wall.
+But five, pentagons--
+they're no good.
+Six is the last one you can do.
+As soon as you start getting even bigger figures, again,
+there with many sides, then the angles become too shallow.
+So that the next one would only have a little bit-- if I
+put in another polygon out here to match that one there--
+I'd end up with only a little sliver, and I'd never get
+something in there.
+So you can't do 7-sided figures,
+8-sided, 9-sided, whatever.
+The realization there were problems with pentagons goes
+back a very, very long way.
+Kepler knew that there were problems, and no doubt the
+ancient Greeks did, as well.
+The ancient Greeks had a lot of these
+interesting tiling patterns.
+Kepler made a real concerted effort to get interesting
+patterns using as small a number of
+different shapes as possible.
+And he had something that was pretty nice.
+It contained a lot of structure.
+But it wasn't as good as what Roger Penrose managed to come
+up with in the 1970s, which was a tiling using these, plus
+three other shapes--
+shapes appropriate for filling in these gaps and rules again
+to tell you when to put down a pentagon and when to put in a
+filling-in shape.
+And he was able to come up with a pattern
+that went on forever.
+It had a curious property that it never repeated itself.
+It kept on changing little bits as you go along.
+What Penrose had was he had a systematic way of filling in
+the gaps, and coming up with a pattern where the local
+configurations of all the tilings kept on appearing
+again and again-- just in a different order.
+So there were constant slight changes, but the local patches
+all looked more or less the same as each other.
+And this was the beginning of the realization that there
+were a lot of different patterns that had this strange
+property of non-repeating and yet highly, highly structured.
+How do we know patterns like this never repeat themselves?
+That really depends on the rules that they're given by.
+So each one of these has to come with some kind of
+description as to how you make them.
+One of the most common ways in which patterns like this are
+found are by taking a very regular pattern, but in a much
+higher dimensional space, and then cutting through that
+space at an irrational angle.
+And the irrationality of the way you've cut it will mean
+that you'll never get complete repetition.
+Penrose tilings have been the origin of a lot of excitement
+for some time-- really since the mid-1980s
+when this story started.
+Penrose discovered his tilings in the '70s, and 10 years
+later they were discovered to be out there in nature.
+And Dan Schlectman found that he could make an alloy of
+various different types of metal.
+And the atomic arrangements that went into this alloy, the
+way the atoms sat, arranged themselves on a
+three-dimensional version of a Penrose Tiling.
+It took quite a while for it to be fully established, but I
+guess it now really is definitively established that
+this is so as he got the Nobel Prize for
+Chemistry this last year.
+BRADY HARAN: Why had people not found it in nature before,
+if there's a natural tendency towards it?
+JOHN HUNTON: Well, this is a very interesting, perhaps
+philosophic, question about the nature of language.
+Because one good answer--
+I do believe this is a good answer--
+is we didn't see it, because we didn't look for it.
+I think the story to tell at this point is the way in which
+some years ago--
+I think it was the 1930s--
+material was found that, with hindsight, we realized was
+based on similar sort of non-repeating patterns.
+But we didn't have the mathematics, the pure
+mathematics--
+the geometry had not be discovered--
+and we didn't have the language to be able to either
+talk about it or see it.
+So I find it a great example of how science can't see what
+it doesn't have the language to describe.

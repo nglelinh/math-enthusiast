@@ -1,0 +1,289 @@
+[
+  {
+    "id": "ku_video_EZNpi8H6q1Q_7",
+    "t_start": 7.5,
+    "t_end": 98.5,
+    "type": "overview",
+    "summary": "thank you for my swap for that for that very warm introduction it's a it's a honor to be asked to talk about one of my the work of one of my mathematical my the work of one of my mathematical heroes as and and obviously I'm not heroes as and and obviously I'm not alone in that I wanted to you know in some sense my my assignment was to explain to people who assignment was to explain to people who who haven't really thought about these who haven't really thought about these issues uh what see what's really issues uh what see what's really significant and different about about professor Glenn …"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_98",
+    "t_start": 98.5,
+    "t_end": 189.6,
+    "type": "overview",
+    "summary": "infinite dimensional spaces that are actually intended to capture something actually intended to capture something geometric and the the fundamental geometric and the the fundamental feature of these of these informational feature of these of these informational spaces is that they've been constructed so that one can take limits and limits are the limits are the critical feature are the limits are the critical feature that we need and so I thought before I got into the geometry part I talked a little bit about the about the problem little bit about the about the problem of limits and in how…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_189",
+    "t_start": 189.6,
+    "t_end": 281.9,
+    "type": "overview",
+    "summary": "to get halfway between that point and a and so forth and and so you know and if and so forth and and so you know and if you're thinking somehow or another you're thinking somehow or another everything is discrete and the Greeks everything is discrete and the Greeks really wanted everything to be simple really wanted everything to be simple ratios of irreducible objects if you're ratios of irreducible objects if you're thinking of everything is discrete you thinking of everything is discrete you you think of instants of time and it seems like seems like you have to go through an infinite num…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_281",
+    "t_start": 281.9,
+    "t_end": 373.6,
+    "type": "overview",
+    "summary": "sphere into a number of pieces such that if you such that there they could if you such that there they could correspond to the pieces of the cylinder correspond to the pieces of the cylinder in such a way that every every every in such a way that every every every three of the pieces of the sphere would three of the pieces of the sphere would correspond to two of the pieces of cylinder and you get this ratio of two to three I mean the Greeks really liked to three I mean the Greeks really liked ratios of ratios of small numbers and so ratios of ratios of small numbers and so but there's ther…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_373",
+    "t_start": 373.6,
+    "t_end": 471.4,
+    "type": "overview",
+    "summary": "trapped between the two planes is the same as the surface area on the cylinder this is also a kind of really remarkable theorem especially if you don't have calculus and you can't prove it by or at least there's no obvious way to prove it least there's no obvious way to prove it by by cutting the sphere into some by by cutting the sphere into some finite number of I mean this this this finite number of I mean this this this circular sector into some small number circular sector into some small number of pieces and then reassembling it into reassembling the pieces of the side of the cylinder…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_471",
+    "t_start": 471.4,
+    "t_end": 564.0,
+    "type": "overview",
+    "summary": "we're looking at paths from A to B and obviously and this is now going to be a obviously and this is now going to be a isosceles yes an isosceles triangle this isosceles yes an isosceles triangle this is 45 degrees 45 degrees 90 degrees and is 45 degrees 45 degrees 90 degrees and we know that this length is the square root of 2 times this length so it's obviously longer than this segment but obviously longer than this segment but if you do the following thing if you if if you do the following thing if you if you take the if you take the red path and look at the peak which is goes way off fr…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_563",
+    "t_start": 564.0,
+    "t_end": 658.1,
+    "type": "overview",
+    "summary": "little bit of the tail so the point I want to make our you said it convergence want to make our you said it convergence of graphs but alone does not imply of graphs but alone does not imply convergence of lengths so so something convergence of lengths so so something somehow another you'd have to take somehow another you'd have to take something more into account than just something more into account than just physical proximity if you're going to be physical proximity if you're going to be taking limits right so in fact the taking limits right so in fact the Greeks found many examples of G…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_658",
+    "t_start": 658.1,
+    "t_end": 749.9,
+    "type": "overview",
+    "summary": "to accumulate so here's what I mean by an infinitesimal and infinitesimal is a an infinitesimal and infinitesimal is a is some number so let's say positive one so that no matter how many times copies of it you never get bigger than copies of it you never get bigger than one that's what we call the one that's what we call the infinitesimal and and there's no you infinitesimal and and there's no you know remember the Greeks the Greeks rational numbers if they could help it I mean they knew that there were things mean they knew that there were things there were the magnitudes like the square r…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_749",
+    "t_start": 749.9,
+    "t_end": 845.9,
+    "type": "overview",
+    "summary": "that'll give you the slope anyway Newton used infinitesimal sense calculations used infinitesimal sense calculations sometimes and actually squares and infinitesimal and and quite a lot of arithmetic and but he was severely arithmetic and but he was severely criticized there's a famous quote by famous quote by the philosopher contemporary philosopher George Berkeley who who made fun of Newton and his followers and and said what could these followers and and said what could these infinitesimally be I mean they're I you infinitesimally be I mean they're I you know they're especially flexions …"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_845",
+    "t_start": 845.9,
+    "t_end": 937.0,
+    "type": "overview",
+    "summary": "use the word variation for this the two big leaders at that time now in the now in the in the 19th century were Euler and LaGrange who derived the famous and LaGrange who derived the famous Euler Lagrange equations for figuring out a necessary condition for something to be a critical point in this in this of variable functions and infinitesimal functions and so forth and and and hence functions and so forth and and and hence the calculus of variation was born the calculus of variation was born although I said there were antecedents in the work of Newton and others but but it really got off …"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_937",
+    "t_start": 937.0,
+    "t_end": 1032.9,
+    "type": "overview",
+    "summary": "worrying too much about whether or not it converged but there was this you know it converged but there was this you know Koshi the as people kept doing this Koshi the as people kept doing this along came our our hero album who who along came our our hero album who who was quite disturbed by this habit of was quite disturbed by this habit of using divergent series I'm sorry not using divergent series I'm sorry not everybody here speaks Norwegian I guess everybody here speaks Norwegian I guess I should and in fact Abba was one of the I should and in fact Abba was one of the people who led the…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_1032",
+    "t_start": 1032.9,
+    "t_end": 1123.6,
+    "type": "overview",
+    "summary": "right and the half and this is accepted as a valid equation now actually well some people accept it as a valid equation but what was at stake and this equation but what was at stake and this is the this is sort of the end of the part 1 the introduction that I wanted to mention what was at stake was the very mention what was at stake was the very definition of what we call real numbers definition of what we call real numbers you know people didn't really have a you know people didn't really have a clear concept before a real number was clear concept before a real number was or they didn't ha…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_1123",
+    "t_start": 1123.6,
+    "t_end": 1214.8,
+    "type": "overview",
+    "summary": "limits exist and and there is and there is where the second property comes in that if you take any non-empty set of positive numbers then then that set has positive numbers then then that set has a greatest lower bound that is a number that's less than or equal to all the numbers and set R and greater than numbers and set R and greater than they're equal to any other number that's they're equal to any other number that's less than or equal to all the numbers in infimum of the set s and here again i'll show you the symbols this is the kind of show you the symbols this is the kind of thing th…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_1214",
+    "t_start": 1214.8,
+    "t_end": 1306.4,
+    "type": "overview",
+    "summary": "we now call real numbers I mean you're probably more familiar you never thought probably more familiar you never thought of the issue probably more familiar with thinking real numbers or swings with decimal expansions but that's a theorem decimal expansions but that's a theorem right that anything with these etc etc it actually is going to give us the and just just to conclude let me say the and just just to conclude let me say let me say of why this limit property gets rid of infinitesimal numbers there are no infinitely small positive numbers are no infinitely small positive numbers first…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_1306",
+    "t_start": 1306.4,
+    "t_end": 1397.3,
+    "type": "overview",
+    "summary": "because lambda is twice 1/2 whoops so that's the contradiction and therefore that's the contradiction and therefore there are no infinitesimally if you assume that you can take limits like this now defining the right way to talk this now defining the right way to talk about limits was was essential for about limits was was essential for figuring out what space of numbers we should be working with to do our calculations if we want to take limits calculations if we want to take limits and and once they got this straight it and and once they got this straight it led to an enormous leap forward…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_1397",
+    "t_start": 1397.3,
+    "t_end": 1490.4,
+    "type": "overview",
+    "summary": "find a way to sort of sort of embed that in some complete space where limits will in some complete space where limits will behave and this is the big step and behave and this is the big step and analysis that Karen mentions but doesn't analysis that Karen mentions but doesn't doesn't define and I'm not going to define either but I just want to identify for you this this intellectual identify for you this this intellectual leap finding the right space in which to objects requires both a kind of analytic thinking and a geometric thinking and thinking and a geometric thinking and it's the marr…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_1490",
+    "t_start": 1490.4,
+    "t_end": 1582.1,
+    "type": "overview",
+    "summary": "the ground was Carl Gauss who had actually this is not generally known but actually this is not generally known but he actually spent thirty years carrying he actually spent thirty years carrying out a geodetic survey of the kingdom of out a geodetic survey of the kingdom of Hanover trying to make accurate maps Hanover trying to make accurate maps traveling on horseback with a with a surveying team in the summers and it gave him plenty of time to think about gave him plenty of time to think about geodesics in the shape of surfaces he he geodesics in the shape of surfaces he he began to thin…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_1582",
+    "t_start": 1582.1,
+    "t_end": 1676.3,
+    "type": "overview",
+    "summary": "actually went to the University intending to be intended to study theology he was he was raised in a very devout religious family he himself was devout religious family he himself was quite devout he was studying geometry met Gauss and Gauss House convinced him that that geometry was the thing and and that that geometry was the thing and and mathematics was the thing and and so he he actually then went on to study mathematics and and he gave probably as mathematics and and he gave probably as I like to say the most the most famous I like to say the most the most famous job talking mathemati…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_1676",
+    "t_start": 1676.3,
+    "t_end": 1767.0,
+    "type": "overview",
+    "summary": "dimensions and he wanted to understand the straightest lines the shortest curves in all dimensions and just a brief message from our sponsor we're all brief message from our sponsor we're all familiar with spaces of dimension 1 and familiar with spaces of dimension 1 and we say dimension 1 because you can label such as a distance or an angle like I mean you know distance for a line angle for a circle and in the and in two dimensions you were there we're also dimensions you were there we're also familiar with things like this that familiar with things like this that these two dimensional obj…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_1766",
+    "t_start": 1767.0,
+    "t_end": 1858.0,
+    "type": "overview",
+    "summary": "really draw it fully in 3-space without having an intersection a self that you should imagine separating the the two sheets that come together along the two sheets that come together along this intersection thinking there's separate things and and you get something nice and smooth in small something nice and smooth in small patches each of these can be labeled patches each of these can be labeled using twos numbers but there's no good using twos numbers but there's no good labeling system that works on the whole labeling system that works on the whole surface and in fact as I was saying rea…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_1857",
+    "t_start": 1858.0,
+    "t_end": 1948.0,
+    "type": "overview",
+    "summary": "can be can be embedded in some can be thought of as a subset of some some where you may need more coordinates than just the dimension just like you may just the dimension just like you may need a you may need a for surface in 3-space you may need two dimensions sitting in three to see it in Ramones sitting in three to see it in Ramones program knowing things about shortest curves that is one manifolds in a given s gives you useful information about s s gives you useful information about s in fact what we're interested in is the in fact what we're interested in is the following problem given…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_1948",
+    "t_start": 1948.0,
+    "t_end": 2039.5,
+    "type": "overview",
+    "summary": "that they you and themselves will be smooth curves and there's a fair amount smooth curves and there's a fair amount of analysis that goes into this let me of analysis that goes into this let me just give a couple of examples before I just give a couple of examples before I talk about the analytic result that is it so here let's take of the donut the torus and and here's the red curve it's goes once around the curve this way and if you let it go roughly speaking it'll if you let it go roughly speaking it'll come here and get to the narrowest part come here and get to the narrowest part and …"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_2039",
+    "t_start": 2039.5,
+    "t_end": 2135.4,
+    "type": "overview",
+    "summary": "can see something like something that goes three times around this direction while it goes only two times around that direction and if you draw it just right direction and if you draw it just right you'll actually get a trifle or not that a torus not that is it's only shortest curve that's connects home a topic to it curve that's connects home a topic to it that kind of thing can happen and I want that kind of thing can happen and I want to draw one more somewhat more to draw one more somewhat more complicated picture because this is going to be relevant for the for when we go in the one di…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_2135",
+    "t_start": 2135.4,
+    "t_end": 2228.1,
+    "type": "overview",
+    "summary": "what will happen you'll get a nice smooth curve that will approximate the two that will approximate the two closed geodesics that are sitting there but it geodesics that are sitting there but it won't break apart that's the kind of won't break apart that's the kind of interesting thing that happens it it interesting thing that happens it it stays it stays nice and it stays nice well maybe I I should just go on to the the theorem the theorem and again there the theorem the theorem and again there really should be a star because I picture is is this that if you take a compact guy and let me j…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_2228",
+    "t_start": 2228.1,
+    "t_end": 2318.8,
+    "type": "overview",
+    "summary": "never stops so I want to make sure those things don't happen so that's what this things don't happen so that's what this this one packed just means bounded and this one packed just means bounded and closed contains all its limit points closed contains all its limit points anyway back to the statement the compact in manifold and you take a loop inside that in manifold so this works inside that in manifold so this works for any dimension take a take a given for any dimension take a take a given closed loop then either you can attract closed loop then either you can attract it to a point which…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_2318",
+    "t_start": 2318.8,
+    "t_end": 2413.0,
+    "type": "overview",
+    "summary": "and then work in that finite dimensional space of paths you can do that but but have to find the right space in which to do the contraction get from the right do the contraction get from the right space in which these these limits make sense but once you do you can prove a theorem like this it's really remarkable result but it really does depend on understanding the geometry of limits and and the geometry this of the right space well the natural question is are is this well the natural question is are is this only true for loops that is you know take a one-dimensional closed guy and let it …"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_2412",
+    "t_start": 2413.0,
+    "t_end": 2507.4,
+    "type": "overview",
+    "summary": "that to be true and and here's what my here's what the the intuitive argument here's what the the intuitive argument got how it goes so so remember though got how it goes so so remember though that this surface was made by by taking that this surface was made by by taking two flat sheets you know and and joining two flat sheets you know and and joining the you know cutting out disks in the top and the bottom and joining them well nothing stops us as Karen says well nothing stops us as Karen says we're mathematicians we can do what we we're mathematicians we can do what we want nothing stops…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_2507",
+    "t_start": 2507.4,
+    "t_end": 2602.0,
+    "type": "overview",
+    "summary": "that are the throats I have two balls and now instead of a circle L Circle L I and now instead of a circle L Circle L I have a two sphere sitting there and I want to know what's going to happen to that two sphere if I let it if I let it that two sphere if I let it if I let it shrink well it's kind of interesting your first guess is something like this that will happen is that is that it'll do the same kind of thing just one dimension up that is L will contract and sort of form a form a shell around each one of the each form a shell around each one of the each one of the spheres and and in t…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_2602",
+    "t_start": 2602.0,
+    "t_end": 2695.7,
+    "type": "overview",
+    "summary": "it would try to preserve that rotational symmetry and and and the little tube symmetry and and and the little tube would necessarily be would necessarily would necessarily be would necessarily be a oh is that right oh my god and the be a oh is that right oh my god and the little tube would necessarily be little tube would necessarily be rotationally symmetric and because I've made it I've rigged it so that in the middle it's more or less flat that would middle it's more or less flat that would be just like flat space but uh but as be just like flat space but uh but as I'm going to show in t…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_2695",
+    "t_start": 2695.7,
+    "t_end": 2790.7,
+    "type": "overview",
+    "summary": "surface of rotation if there's a surface of rotation that that's a minimal surface the two you have to be able to translate the two the two circles so that they fit inside the wage and so if the if the circles are too far apart it circles a too far apart and not wide enough then then there will not be a enough then then there will not be a solution between them and you know if solution between them and you know if you like this picture if you if you if you like this picture if you if you if you take your two disks your two so once you take your two disks your two so once you separate it far…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_2790",
+    "t_start": 2790.7,
+    "t_end": 2881.9,
+    "type": "overview",
+    "summary": "proved was that in fact only a small number of bad things can happen and and number of bad things can happen and and the rest of the time it just converges the rest of the time it just converges I'm gonna I'm gonna state the theorem I'm gonna state the theorem Karen please forgive me that I don't put in all the hypotheses I did put a star to to alert you that if you really want to know the you that if you really want to know the theorem you have to you have to look at theorem you have to you have to look at the hypotheses carefully but this is a the hypotheses carefully but this is a hope m…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_2881",
+    "t_start": 2881.9,
+    "t_end": 2974.6,
+    "type": "overview",
+    "summary": "enormous ly increased our understanding of minimal surfaces in the money and aspects of this or been generalized to higher dimensions by Shane and uhlenbeck higher dimensions by Shane and uhlenbeck and and it has applications to harmonic and and it has applications to harmonic Maps the geometry of buildings you know Maps the geometry of buildings you know tremendous number of things that have tremendous number of things that have actually connections with number theory actually connections with number theory it's been a very fruitful breakthrough it's been a very fruitful breakthrough now I…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_2974",
+    "t_start": 2974.6,
+    "t_end": 3070.2,
+    "type": "overview",
+    "summary": "before this and and has had a long full career after but but it was early for me career after but but it was early for me we're not you about it is is this work we're not you about it is is this work with I'm undoubtedly you've heard these with I'm undoubtedly you've heard these words connections engage theory but you words connections engage theory but you may not know what a connection is in fact that's maybe it's probably the hardest thing to get wrap your head hardest thing to get wrap your head around in these things that's what is a around in these things that's what is a connection I…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_3070",
+    "t_start": 3070.2,
+    "t_end": 3162.7,
+    "type": "overview",
+    "summary": "initial state and detecting acceleration rather than velocity which you can rather than velocity which you can detect I mean you cannot detect directly detect I mean you cannot detect directly is is this way of connecting velocities is is this way of connecting velocities at different places and that word at different places and that word connect is is chosen it's chosen for a connect is is chosen it's chosen for a good reason connects velocities at different points of a path another example everywhere on earth except at the poles we have a well-defined notion of north south east well-defin…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_3162",
+    "t_start": 3162.7,
+    "t_end": 3252.8,
+    "type": "overview",
+    "summary": "this on the earth she went straight what seems to be straight for a while made a seems to be straight for a while made a right-hand turn whoops wrong made a right-hand turn went for a while made another right-hand turn for a while made another right-hand turn went for the same distance and would went for the same distance and would come back not as you might think and here I better go to the other picture and if if the go to the other picture and if if the world we're flat you might think if you world we're flat you might think if you did that then you come back and your sense of forward wo…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_3252",
+    "t_start": 3252.8,
+    "t_end": 3344.1,
+    "type": "overview",
+    "summary": "curve without twisting or slipping the the the friction actually tells you how the the friction actually tells you how to connect the orientation of the ball to connect the orientation of the ball as you go around any given path so example of a connection and the end and the fact that you come around the path and come back and the thing is rotated tells you that there's curvature there tells you that there's curvature there even though it may not look like even though it may not look like curvature but that you know the failure of you know going from one dimensional connection to two-dimens…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_3344",
+    "t_start": 3344.1,
+    "t_end": 3433.4,
+    "type": "overview",
+    "summary": "tidal forces and gravity waves yang and Mills in 1954 when I was one-year-old Mills in 1954 when I was one-year-old show how shows a show in fact how strong show how shows a show in fact how strong interactions in quantum electrodynamics interactions in quantum electrodynamics could be explained as a connection whose curvature satisfies and all along or Lagrange equation for tow for minimizing Lagrange equation for tow for minimizing total courage once you realize total courage once you realize connections are things they're just like connections are things they're just like functions you c…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_3436",
+    "t_start": 3436.3,
+    "t_end": 3527.4,
+    "type": "overview",
+    "summary": "there were known difficulties in the analysis because these equations have analysis because these equations have built into generous ease be caused by their very large symmetry groups so-called gauge groups these these groups these symmetries of connections or equivalences of connections are they or equivalences of connections are they had already been identified by li and had already been identified by li and carton many years before but nobody knew carton many years before but nobody knew what to do with them nobody knew what applications they had or how to understand them and there was n…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_3527",
+    "t_start": 3527.4,
+    "t_end": 3618.5,
+    "type": "overview",
+    "summary": "curvatures a two-dimensional thing as I was saying it's what you have to what was saying it's what you have to what you need to figure out what why you can't fill in things in in two dimensions so it's a it's a two-dimensional object and when you're taking the size of it you take it square so you're actually a four dimensional scaling object so so you need four geometric dimension and so that's why four is so important ah and she first four is so important ah and she first showed how to deal with this degeneracy showed how to deal with this degeneracy that vowel had all had uncovered she sh…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_3618",
+    "t_start": 3618.5,
+    "t_end": 3711.1,
+    "type": "overview",
+    "summary": "of global things and and this is my last slide the those two results laid the slide the those two results laid the foundations for for many applications of foundations for for many applications of yang-mills theory in the intervening years the work of Donaldson and tabs that has told so much about the topology that has told so much about the topology of four manifolds and floor three and I of four manifolds and floor three and I mean I really don't have time to say the enormous influence of Karin's work but she continues to develop original but she continues to develop original ideas and in…"
+  },
+  {
+    "id": "ku_video_EZNpi8H6q1Q_3711",
+    "t_start": 3711.1,
+    "t_end": 3725.4,
+    "type": "overview",
+    "summary": "behind from a Honda movie poster and Marshall says says I've been listening Marshall says says I've been listening and everything you said it's completely and everything you said it's completely wrong so I'm hoping that's not about to"
+  }
+]

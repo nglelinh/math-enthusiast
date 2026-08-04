@@ -1,0 +1,132 @@
+[
+  {
+    "t_start": 2.27,
+    "t_end": 4.55,
+    "text": "Renne found a set of three equations a simplified version of equations used to"
+  },
+  {
+    "t_start": 4.55,
+    "t_end": 6.2,
+    "text": "simplified version of equations used to model convection but only three"
+  },
+  {
+    "t_start": 6.2,
+    "t_end": 8.36,
+    "text": "model convection but only three variables that change over time let's"
+  },
+  {
+    "t_start": 8.36,
+    "t_end": 10.28,
+    "text": "variables that change over time let's try graphing them in three dimensions on"
+  },
+  {
+    "t_start": 10.28,
+    "t_end": 12.499,
+    "text": "try graphing them in three dimensions on a modern computer the location of the"
+  },
+  {
+    "t_start": 12.499,
+    "t_end": 14.839,
+    "text": "a modern computer the location of the first point is arbitrary with each point"
+  },
+  {
+    "t_start": 14.839,
+    "t_end": 16.939,
+    "text": "first point is arbitrary with each point after that the computer steps forward in"
+  },
+  {
+    "t_start": 16.939,
+    "t_end": 18.92,
+    "text": "after that the computer steps forward in time by calculating the position of the"
+  },
+  {
+    "t_start": 18.92,
+    "t_end": 24.14,
+    "text": "time by calculating the position of the next point based on the position of the"
+  },
+  {
+    "t_start": 24.14,
+    "t_end": 30.74,
+    "text": "direction at random and it never arrives at the same point twice if it did that"
+  },
+  {
+    "t_start": 30.74,
+    "t_end": 35.72,
+    "text": "would be the beginning of a repeating pattern this type of system is now known"
+  },
+  {
+    "t_start": 35.72,
+    "t_end": 42.08,
+    "text": "particular one is known as the Lorenz attractor now let's try drawing 100"
+  },
+  {
+    "t_start": 42.08,
+    "t_end": 44.299,
+    "text": "attractor now let's try drawing 100 points at random locations and applying"
+  },
+  {
+    "t_start": 44.299,
+    "t_end": 50.06,
+    "text": "points at random locations and applying the equations to each of them at first"
+  },
+  {
+    "t_start": 50.06,
+    "t_end": 53.18,
+    "text": "it looks pretty random but soon a familiar form emerges"
+  },
+  {
+    "t_start": 53.18,
+    "t_end": 55.63,
+    "text": "familiar form emerges [Music]"
+  },
+  {
+    "t_start": 55.63,
+    "t_end": 59.71,
+    "text": "the trajectories that begin on the edges seem to speed off in random directions"
+  },
+  {
+    "t_start": 59.71,
+    "t_end": 61.84,
+    "text": "seem to speed off in random directions but all those that began within a"
+  },
+  {
+    "t_start": 61.84,
+    "t_end": 64.78,
+    "text": "but all those that began within a certain space end up in the attractor it"
+  },
+  {
+    "t_start": 64.78,
+    "t_end": 66.37,
+    "text": "certain space end up in the attractor it might seem that the differences in their"
+  },
+  {
+    "t_start": 66.37,
+    "t_end": 68.62,
+    "text": "might seem that the differences in their starting positions no longer matter but"
+  },
+  {
+    "t_start": 68.62,
+    "t_end": 70.3,
+    "text": "starting positions no longer matter but once they reach the attractor their"
+  },
+  {
+    "t_start": 70.3,
+    "t_end": 72.67,
+    "text": "once they reach the attractor their trajectories diverge each following its"
+  },
+  {
+    "t_start": 72.67,
+    "t_end": 75.39,
+    "text": "trajectories diverge each following its own path indefinitely in never crossing"
+  },
+  {
+    "t_start": 75.39,
+    "t_end": 80.17,
+    "text": "so the small differences in their start positions lead to increasingly different"
+  },
+  {
+    "t_start": 80.17,
+    "t_end": 82.75,
+    "text": "positions lead to increasingly different futures"
+  }
+]

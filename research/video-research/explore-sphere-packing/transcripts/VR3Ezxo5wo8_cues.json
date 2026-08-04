@@ -1,0 +1,2842 @@
+[
+  {
+    "t_start": 26.09,
+    "t_end": 67.19,
+    "text": "do you hear us hello"
+  },
+  {
+    "t_start": 70.36,
+    "t_end": 73.07,
+    "text": "Alexi can we start [Music]"
+  },
+  {
+    "t_start": 73.07,
+    "t_end": 78.67,
+    "text": "uh all right right now yes"
+  },
+  {
+    "t_start": 85.13,
+    "t_end": 88.789,
+    "text": "okay so our second lecture course in this conferences by Marina vazovska it's"
+  },
+  {
+    "t_start": 88.789,
+    "t_end": 92.149,
+    "text": "this conferences by Marina vazovska it's called old and new ideas in sphere"
+  },
+  {
+    "t_start": 92.149,
+    "t_end": 94.85,
+    "text": "called old and new ideas in sphere packing and the first lecture by Marina"
+  },
+  {
+    "t_start": 94.85,
+    "t_end": 116.27,
+    "text": "packing and the first lecture by Marina is called the sphere packing problem"
+  },
+  {
+    "t_start": 123.83,
+    "t_end": 126.77,
+    "text": "hello everyone so this is my first lecture the series of four lectures and"
+  },
+  {
+    "t_start": 126.77,
+    "t_end": 128.749,
+    "text": "lecture the series of four lectures and we will speak about the sphere packing"
+  },
+  {
+    "t_start": 128.749,
+    "t_end": 131.93,
+    "text": "we will speak about the sphere packing problem so as many of you traveled to"
+  },
+  {
+    "t_start": 131.93,
+    "t_end": 134.089,
+    "text": "problem so as many of you traveled to get to this conference you had to solve"
+  },
+  {
+    "t_start": 134.089,
+    "t_end": 136.43,
+    "text": "get to this conference you had to solve kind of a packing problem so I guess"
+  },
+  {
+    "t_start": 136.43,
+    "t_end": 139.61,
+    "text": "kind of a packing problem so I guess everyone has an intuitive idea of what"
+  },
+  {
+    "t_start": 139.61,
+    "t_end": 141.229,
+    "text": "everyone has an intuitive idea of what the problem is"
+  },
+  {
+    "t_start": 141.229,
+    "t_end": 149.05,
+    "text": "and so now let us formalize this problem in the UK for the euclidean space"
+  },
+  {
+    "t_start": 149.05,
+    "t_end": 150.89,
+    "text": "in the UK for the euclidean space and"
+  },
+  {
+    "t_start": 150.89,
+    "t_end": 155.15,
+    "text": "so the settings I will be working is the following so we'll consider the"
+  },
+  {
+    "t_start": 155.15,
+    "t_end": 169.91,
+    "text": "dimensional euclidean space so this would be the standard euclidean space"
+  },
+  {
+    "t_start": 173.15,
+    "t_end": 178.49,
+    "text": "and so this is a dimensional linear space over real numbers and what is"
+  },
+  {
+    "t_start": 178.49,
+    "t_end": 180.05,
+    "text": "important is that here we have the defined"
+  },
+  {
+    "t_start": 180.05,
+    "t_end": 199.43,
+    "text": "scalar product and therefore the ingredient distance"
+  },
+  {
+    "t_start": 209.869,
+    "t_end": 211.369,
+    "text": "and so this way for every two points in the space we can know whether they are"
+  },
+  {
+    "t_start": 211.369,
+    "t_end": 213.229,
+    "text": "the space we can know whether they are close to each other or they're far away"
+  },
+  {
+    "t_start": 213.229,
+    "t_end": 216.589,
+    "text": "close to each other or they're far away from each other and"
+  },
+  {
+    "t_start": 216.589,
+    "t_end": 221.089,
+    "text": "and what is also as you know what is important for the packing problem is the"
+  },
+  {
+    "t_start": 221.089,
+    "t_end": 222.53,
+    "text": "important for the packing problem is the volume"
+  },
+  {
+    "t_start": 222.53,
+    "t_end": 228.05,
+    "text": "volume and so another useful uh object or"
+  },
+  {
+    "t_start": 228.05,
+    "t_end": 230.03,
+    "text": "and so another useful uh object or concept that we have in euclidean space"
+  },
+  {
+    "t_start": 230.03,
+    "t_end": 232.369,
+    "text": "concept that we have in euclidean space is the concept of volume"
+  },
+  {
+    "t_start": 232.369,
+    "t_end": 234.05,
+    "text": "is the concept of volume so"
+  },
+  {
+    "t_start": 234.05,
+    "t_end": 241.789,
+    "text": "so we have a standard volume form"
+  },
+  {
+    "t_start": 244.369,
+    "t_end": 253.009,
+    "text": "now we have all the algebraic structures we need to formulate our problem"
+  },
+  {
+    "t_start": 253.009,
+    "t_end": 259.67,
+    "text": "we need to formulate our problem so once since we have a distance we can"
+  },
+  {
+    "t_start": 259.67,
+    "t_end": 266.629,
+    "text": "and so we'll denote it by B depending on the point x in our euclidean space and"
+  },
+  {
+    "t_start": 266.629,
+    "t_end": 274.249,
+    "text": "the point x in our euclidean space and radius R this would be the open ball"
+  },
+  {
+    "t_start": 289.55,
+    "t_end": 293.27,
+    "text": "which is a positive real number"
+  },
+  {
+    "t_start": 296.45,
+    "t_end": 299.57,
+    "text": "and so now what is a sphere packing sphere packing it will be a"
+  },
+  {
+    "t_start": 299.57,
+    "t_end": 305.57,
+    "text": "set of open balls in our euclidean space and these balls are not allowed to"
+  },
+  {
+    "t_start": 305.57,
+    "t_end": 309.83,
+    "text": "and these balls are not allowed to intersect so they should not overlap"
+  },
+  {
+    "t_start": 309.83,
+    "t_end": 315.37,
+    "text": "and so how how can we achieve that so of course if you want to define a set of"
+  },
+  {
+    "t_start": 315.37,
+    "t_end": 318.65,
+    "text": "course if you want to define a set of balls what is sufficient to do so we"
+  },
+  {
+    "t_start": 318.65,
+    "t_end": 322.37,
+    "text": "balls what is sufficient to do so we will fix some radius R and we will deal"
+  },
+  {
+    "t_start": 322.37,
+    "t_end": 327.23,
+    "text": "will fix some radius R and we will deal only with balls of equal radius so"
+  },
+  {
+    "t_start": 327.23,
+    "t_end": 332.27,
+    "text": "for the sake of this course even when radiuses are all equal already the"
+  },
+  {
+    "t_start": 332.27,
+    "t_end": 334.85,
+    "text": "radiuses are all equal already the problem is quite interesting as I hope"
+  },
+  {
+    "t_start": 334.85,
+    "t_end": 339.71,
+    "text": "you will see at the end of four lectures and so then the only information we need"
+  },
+  {
+    "t_start": 339.71,
+    "t_end": 343.249,
+    "text": "and so then the only information we need is the size of our balls that are"
+  },
+  {
+    "t_start": 343.249,
+    "t_end": 345.529,
+    "text": "is the size of our balls that are reduced and we need to specify their"
+  },
+  {
+    "t_start": 345.529,
+    "t_end": 347.629,
+    "text": "reduced and we need to specify their centers so"
+  },
+  {
+    "t_start": 347.629,
+    "t_end": 352.49,
+    "text": "centers so we have to fix a set X"
+  },
+  {
+    "t_start": 355.189,
+    "t_end": 365.09,
+    "text": "and we want it to be a closed discrete subset of euclidean space"
+  },
+  {
+    "t_start": 369.23,
+    "t_end": 377.09,
+    "text": "and now if we take two points in x which are not equal to each other we"
+  },
+  {
+    "t_start": 379.79,
+    "t_end": 381.83,
+    "text": "request that the distance between these two points is always"
+  },
+  {
+    "t_start": 381.83,
+    "t_end": 386.87,
+    "text": "two points is always bigger or equal than 2R"
+  },
+  {
+    "t_start": 389.029,
+    "t_end": 390.71,
+    "text": "and so now we can Define what is a sphere packing"
+  },
+  {
+    "t_start": 390.71,
+    "t_end": 400.129,
+    "text": "sphere packing so"
+  },
+  {
+    "t_start": 407.09,
+    "t_end": 425.33,
+    "text": "denoted by P with sub index X to be this Union of balls"
+  },
+  {
+    "t_start": 427.61,
+    "t_end": 433.37,
+    "text": "play we want to put as many balls into euclidean space as we can of course here"
+  },
+  {
+    "t_start": 433.37,
+    "t_end": 435.05,
+    "text": "euclidean space as we can of course here we run into a kind of a technical"
+  },
+  {
+    "t_start": 435.05,
+    "t_end": 438.17,
+    "text": "we run into a kind of a technical problem is that our"
+  },
+  {
+    "t_start": 438.17,
+    "t_end": 444.89,
+    "text": "uh euclidean space has infinite volume it's another compact set and we could"
+  },
+  {
+    "t_start": 444.89,
+    "t_end": 449.029,
+    "text": "it's another compact set and we could put there infinitely many balls so we"
+  },
+  {
+    "t_start": 449.029,
+    "t_end": 451.909,
+    "text": "put there infinitely many balls so we need to give some quantitative measure"
+  },
+  {
+    "t_start": 451.909,
+    "t_end": 455.71,
+    "text": "need to give some quantitative measure to somehow what what how to distinguish"
+  },
+  {
+    "t_start": 455.71,
+    "t_end": 458.749,
+    "text": "to somehow what what how to distinguish many spheres from not that many spheres"
+  },
+  {
+    "t_start": 458.749,
+    "t_end": 462.529,
+    "text": "many spheres from not that many spheres if there are infinitely many of them and"
+  },
+  {
+    "t_start": 462.529,
+    "t_end": 465.89,
+    "text": "so this can be done in a very natural way by Computing the density of the"
+  },
+  {
+    "t_start": 465.89,
+    "t_end": 473.089,
+    "text": "way by Computing the density of the sphere packing"
+  },
+  {
+    "t_start": 486.29,
+    "t_end": 491.33,
+    "text": "of sphere packing p is defined as follows"
+  },
+  {
+    "t_start": 494.629,
+    "t_end": 496.49,
+    "text": "we denote it by the letter Delta and it would be"
+  },
+  {
+    "t_start": 496.49,
+    "t_end": 498.35,
+    "text": "would be the"
+  },
+  {
+    "t_start": 498.35,
+    "t_end": 501.11,
+    "text": "the okay"
+  },
+  {
+    "t_start": 511.01,
+    "t_end": 512.51,
+    "text": "as capital r goes to Infinity so what we are doing we are Computing the following"
+  },
+  {
+    "t_start": 512.51,
+    "t_end": 518.57,
+    "text": "are doing we are Computing the following ratio we take the we take our sphere"
+  },
+  {
+    "t_start": 518.57,
+    "t_end": 524.51,
+    "text": "big ball centered at any point of our clearance space for example at zero"
+  },
+  {
+    "t_start": 524.51,
+    "t_end": 529.37,
+    "text": "clearance space for example at zero and then we divided by the"
+  },
+  {
+    "t_start": 529.37,
+    "t_end": 531.11,
+    "text": "and then we divided by the volume of a"
+  },
+  {
+    "t_start": 531.11,
+    "t_end": 536.69,
+    "text": "of this big of this big Pole"
+  },
+  {
+    "t_start": 540.71,
+    "t_end": 543.769,
+    "text": "and so such a limit might not exist but we can take as"
+  },
+  {
+    "t_start": 543.769,
+    "t_end": 549.769,
+    "text": "to limit supremum which also exist and we will call it an upper density and if"
+  },
+  {
+    "t_start": 549.769,
+    "t_end": 551.87,
+    "text": "we will call it an upper density and if just the limit exists then we would say"
+  },
+  {
+    "t_start": 551.87,
+    "t_end": 555.35,
+    "text": "just the limit exists then we would say that our packing has a genuine density"
+  },
+  {
+    "t_start": 555.35,
+    "t_end": 560.269,
+    "text": "and so maybe one thing I should say that I will omit many technicalities here for"
+  },
+  {
+    "t_start": 560.269,
+    "t_end": 562.85,
+    "text": "I will omit many technicalities here for example a quite natural question is what"
+  },
+  {
+    "t_start": 562.85,
+    "t_end": 567.949,
+    "text": "example a quite natural question is what if I take not a zero here but another"
+  },
+  {
+    "t_start": 567.949,
+    "t_end": 573.949,
+    "text": "this number change and it fair in fact it will not just because euclidean space"
+  },
+  {
+    "t_start": 573.949,
+    "t_end": 578.09,
+    "text": "it will not just because euclidean space is a very nice space so if we are"
+  },
+  {
+    "t_start": 578.09,
+    "t_end": 582.29,
+    "text": "space it would be a different story much more complicated from the point of view"
+  },
+  {
+    "t_start": 582.29,
+    "t_end": 585.11,
+    "text": "more complicated from the point of view of analysis but this is a reasonably"
+  },
+  {
+    "t_start": 585.11,
+    "t_end": 589.13,
+    "text": "of analysis but this is a reasonably well behaved analytic definition so and"
+  },
+  {
+    "t_start": 589.13,
+    "t_end": 590.329,
+    "text": "well behaved analytic definition so and it's mainly happens like this because"
+  },
+  {
+    "t_start": 590.329,
+    "t_end": 594.29,
+    "text": "it's mainly happens like this because euclidean space is a very nice space"
+  },
+  {
+    "t_start": 594.29,
+    "t_end": 596.509,
+    "text": "euclidean space is a very nice space and so now what's the some of the"
+  },
+  {
+    "t_start": 596.509,
+    "t_end": 598.43,
+    "text": "and so now what's the some of the problem I will speak about all this for"
+  },
+  {
+    "t_start": 598.43,
+    "t_end": 601.009,
+    "text": "problem I will speak about all this for lectures is the following one"
+  },
+  {
+    "t_start": 601.009,
+    "t_end": 602.99,
+    "text": "lectures is the following one so"
+  },
+  {
+    "t_start": 602.99,
+    "t_end": 606.65,
+    "text": "we would like to find the following quantity which is called is the sphere"
+  },
+  {
+    "t_start": 606.65,
+    "t_end": 621.05,
+    "text": "quantity which is called is the sphere speaking constant so the"
+  },
+  {
+    "t_start": 625.07,
+    "t_end": 626.63,
+    "text": "denoted by Delta with sub-index d and this would be the"
+  },
+  {
+    "t_start": 626.63,
+    "t_end": 629.69,
+    "text": "this would be the supremum of"
+  },
+  {
+    "t_start": 629.69,
+    "t_end": 647.569,
+    "text": "the densities of all packings in the dimensional local dance space"
+  },
+  {
+    "t_start": 649.31,
+    "t_end": 653.769,
+    "text": "and so of course the main difference was the main question so the"
+  },
+  {
+    "t_start": 656.69,
+    "t_end": 664.73,
+    "text": "this sphere breaking problem is the question"
+  },
+  {
+    "t_start": 668.99,
+    "t_end": 676.91,
+    "text": "where D is 1 2 3 and so on so we want to answer it for any Dimensions or for as"
+  },
+  {
+    "t_start": 676.91,
+    "t_end": 680.509,
+    "text": "answer it for any Dimensions or for as many dimensions as we can and for the"
+  },
+  {
+    "t_start": 680.509,
+    "t_end": 687.949,
+    "text": "dimensions where we cannot find this number explicitly we want to prove upper"
+  },
+  {
+    "t_start": 695.75,
+    "t_end": 700.49,
+    "text": "tell you a little bit about motivation so why is it interesting to study this"
+  },
+  {
+    "t_start": 700.49,
+    "t_end": 721.97,
+    "text": "so why is it interesting to study this problem what is special about it and so"
+  },
+  {
+    "t_start": 724.49,
+    "t_end": 725.99,
+    "text": "and so first of all I would say that this is just a beautiful mathematical"
+  },
+  {
+    "t_start": 725.99,
+    "t_end": 738.23,
+    "text": "problem and we don't know an answer to it therefore it's worth studying it so"
+  },
+  {
+    "t_start": 740.93,
+    "t_end": 745.85,
+    "text": "so this is an example of geometric optimization problem and from here we"
+  },
+  {
+    "t_start": 745.85,
+    "t_end": 748.79,
+    "text": "optimization problem and from here we can learn how complicated geometric"
+  },
+  {
+    "t_start": 748.79,
+    "t_end": 753.41,
+    "text": "optimization problems can be and also actually in fact many methods that work"
+  },
+  {
+    "t_start": 753.41,
+    "t_end": 755.75,
+    "text": "actually in fact many methods that work for analyzing this type of problem"
+  },
+  {
+    "t_start": 755.75,
+    "t_end": 757.85,
+    "text": "for analyzing this type of problem they're useful in many many other"
+  },
+  {
+    "t_start": 757.85,
+    "t_end": 759.069,
+    "text": "they're useful in many many other Concepts"
+  },
+  {
+    "t_start": 759.069,
+    "t_end": 760.97,
+    "text": "Concepts and"
+  },
+  {
+    "t_start": 760.97,
+    "t_end": 764.269,
+    "text": "as in mathematics actually this Fair packing problem is related to many"
+  },
+  {
+    "t_start": 764.269,
+    "t_end": 767.09,
+    "text": "packing problem is related to many different areas of mathematics of course"
+  },
+  {
+    "t_start": 767.09,
+    "t_end": 772.85,
+    "text": "different areas of mathematics of course it's related to Geometry as we are"
+  },
+  {
+    "t_start": 780.949,
+    "t_end": 786.23,
+    "text": "analysis because this is where we have to prove many different inequalities of"
+  },
+  {
+    "t_start": 786.23,
+    "t_end": 788.509,
+    "text": "to prove many different inequalities of of various kinds"
+  },
+  {
+    "t_start": 788.509,
+    "t_end": 794.93,
+    "text": "of various kinds and it's also closely connected to"
+  },
+  {
+    "t_start": 797.93,
+    "t_end": 800.629,
+    "text": "because as we will see in a our series of lectures that many"
+  },
+  {
+    "t_start": 800.629,
+    "t_end": 803.15,
+    "text": "our series of lectures that many interesting constructions for spare"
+  },
+  {
+    "t_start": 803.15,
+    "t_end": 807.889,
+    "text": "interesting constructions for spare packings they come from number Theory"
+  },
+  {
+    "t_start": 810.71,
+    "t_end": 812.329,
+    "text": "and so also another reason there has few more reasons to study is surpacking"
+  },
+  {
+    "t_start": 812.329,
+    "t_end": 816.59,
+    "text": "problem one of them is that it is related to computer science namely to"
+  },
+  {
+    "t_start": 816.59,
+    "t_end": 826.97,
+    "text": "related to computer science namely to coding Theory"
+  },
+  {
+    "t_start": 837.65,
+    "t_end": 840.17,
+    "text": "and so this is a discovery by of Claude Shannon and"
+  },
+  {
+    "t_start": 840.17,
+    "t_end": 844.75,
+    "text": "a hemming is that this abstract mathematical picture can be actually"
+  },
+  {
+    "t_start": 844.75,
+    "t_end": 849.889,
+    "text": "useful for coding Theory so I will not focus much on this side but maybe at"
+  },
+  {
+    "t_start": 849.889,
+    "t_end": 851.99,
+    "text": "focus much on this side but maybe at some point I will mention what are the"
+  },
+  {
+    "t_start": 851.99,
+    "t_end": 854.09,
+    "text": "some point I will mention what are the connections"
+  },
+  {
+    "t_start": 854.09,
+    "t_end": 861.11,
+    "text": "and and finally what is also quite a few what has connection to this"
+  },
+  {
+    "t_start": 861.11,
+    "t_end": 864.949,
+    "text": "quite a few what has connection to this problem is physics"
+  },
+  {
+    "t_start": 867.23,
+    "t_end": 872.629,
+    "text": "problem as a toy model of a many body problem and of course it does not uh"
+  },
+  {
+    "t_start": 872.629,
+    "t_end": 874.97,
+    "text": "problem and of course it does not uh it's not exactly physics nothing really"
+  },
+  {
+    "t_start": 874.97,
+    "t_end": 876.91,
+    "text": "it's not exactly physics nothing really physical happens here"
+  },
+  {
+    "t_start": 876.91,
+    "t_end": 884.389,
+    "text": "however this just shows how complicated many many body problems can be and"
+  },
+  {
+    "t_start": 884.389,
+    "t_end": 886.189,
+    "text": "many many body problems can be and again there are many sometimes"
+  },
+  {
+    "t_start": 886.189,
+    "t_end": 888.17,
+    "text": "again there are many sometimes unexpected connect connections between"
+  },
+  {
+    "t_start": 888.17,
+    "t_end": 890.329,
+    "text": "unexpected connect connections between different meaningful physical systems"
+  },
+  {
+    "t_start": 890.329,
+    "t_end": 906.47,
+    "text": "different meaningful physical systems and this type of rather simple geometric"
+  },
+  {
+    "t_start": 908.329,
+    "t_end": 912.05,
+    "text": "erase the Blackboard and maybe it will be an opportunity for you to ask some"
+  },
+  {
+    "t_start": 912.05,
+    "t_end": 939.11,
+    "text": "be an opportunity for you to ask some questions"
+  },
+  {
+    "t_start": 941.15,
+    "t_end": 951.829,
+    "text": "there will be more such opportunities later I assume"
+  },
+  {
+    "t_start": 954.65,
+    "t_end": 961.67,
+    "text": "and so today I will start with the low dimensional examples"
+  },
+  {
+    "t_start": 971.99,
+    "t_end": 977.269,
+    "text": "so let's first look at uh Dimension two"
+  },
+  {
+    "t_start": 982.85,
+    "t_end": 987.65,
+    "text": "and let's uh"
+  },
+  {
+    "t_start": 997.069,
+    "t_end": 1002.59,
+    "text": "maybe we can choose for example R to be one half and X to be the"
+  },
+  {
+    "t_start": 1004.449,
+    "t_end": 1008.41,
+    "text": "Square ladies so this way we will"
+  },
+  {
+    "t_start": 1008.41,
+    "t_end": 1034.329,
+    "text": "get this kind of a sphere packing"
+  },
+  {
+    "t_start": 1037.53,
+    "t_end": 1040.51,
+    "text": "and so now let us compute its density and of course of course this"
+  },
+  {
+    "t_start": 1040.51,
+    "t_end": 1044.59,
+    "text": "its density and of course of course this this is a picture this continued in"
+  },
+  {
+    "t_start": 1044.59,
+    "t_end": 1049.99,
+    "text": "this is a picture this continued in all the all directions of the plane"
+  },
+  {
+    "t_start": 1049.99,
+    "t_end": 1052.57,
+    "text": "all the all directions of the plane so let us compute its density"
+  },
+  {
+    "t_start": 1052.57,
+    "t_end": 1059.169,
+    "text": "and if we look at here then this definition might be a little bit okay"
+  },
+  {
+    "t_start": 1059.169,
+    "t_end": 1061.57,
+    "text": "definition might be a little bit okay scary"
+  },
+  {
+    "t_start": 1061.57,
+    "t_end": 1066.85,
+    "text": "and maybe not that useful however what was one good thing that"
+  },
+  {
+    "t_start": 1066.85,
+    "t_end": 1071.23,
+    "text": "however what was one good thing that happens here is that this set X is set"
+  },
+  {
+    "t_start": 1071.23,
+    "t_end": 1074.049,
+    "text": "happens here is that this set X is set with a lot of structure on it namely it"
+  },
+  {
+    "t_start": 1074.049,
+    "t_end": 1076.57,
+    "text": "with a lot of structure on it namely it is a lettuce"
+  },
+  {
+    "t_start": 1076.57,
+    "t_end": 1081.85,
+    "text": "and so if there's a letter that's uh so to say it's a"
+  },
+  {
+    "t_start": 1081.85,
+    "t_end": 1086.71,
+    "text": "as periodic in the plane as a configuration can be"
+  },
+  {
+    "t_start": 1086.71,
+    "t_end": 1093.25,
+    "text": "and so this means that instead of computing this ratio for very big r what"
+  },
+  {
+    "t_start": 1093.25,
+    "t_end": 1095.95,
+    "text": "computing this ratio for very big r what we can do we can choose a fundamental"
+  },
+  {
+    "t_start": 1095.95,
+    "t_end": 1101.529,
+    "text": "domain of this lattice so a smaller piece of plane which after we translate"
+  },
+  {
+    "t_start": 1101.529,
+    "t_end": 1104.169,
+    "text": "piece of plane which after we translate it with the two it will cover all the"
+  },
+  {
+    "t_start": 1104.169,
+    "t_end": 1111.43,
+    "text": "it with the two it will cover all the all the plane"
+  },
+  {
+    "t_start": 1113.97,
+    "t_end": 1120.669,
+    "text": "and so now it will be sufficient for us to compute"
+  },
+  {
+    "t_start": 1124.51,
+    "t_end": 1126.789,
+    "text": "this ratio not inside of a very big ball versus the radius of ball goes to"
+  },
+  {
+    "t_start": 1126.789,
+    "t_end": 1132.73,
+    "text": "Infinity but rather to look only at this small box and compute same ratio in a"
+  },
+  {
+    "t_start": 1132.73,
+    "t_end": 1133.57,
+    "text": "small box and compute same ratio in a box"
+  },
+  {
+    "t_start": 1133.57,
+    "t_end": 1142.27,
+    "text": "so it would be we can compute the volume of this uh"
+  },
+  {
+    "t_start": 1158.11,
+    "t_end": 1160.33,
+    "text": "and what we will get we will get pi divided over"
+  },
+  {
+    "t_start": 1160.33,
+    "t_end": 1161.83,
+    "text": "pi divided over 4."
+  },
+  {
+    "t_start": 1161.83,
+    "t_end": 1163.87,
+    "text": "4. and"
+  },
+  {
+    "t_start": 1163.87,
+    "t_end": 1170.77,
+    "text": "yeah so if I divide it over four it's yeah something like three quarters which"
+  },
+  {
+    "t_start": 1170.77,
+    "t_end": 1174.37,
+    "text": "yeah something like three quarters which is not a bad result but also somehow not"
+  },
+  {
+    "t_start": 1174.37,
+    "t_end": 1178.029,
+    "text": "and then a plane which we should be able to do better"
+  },
+  {
+    "t_start": 1178.029,
+    "t_end": 1186.669,
+    "text": "to do better so maybe you have another suggestion for"
+  },
+  {
+    "t_start": 1188.71,
+    "t_end": 1190.81,
+    "text": "okay maybe I will denote this packing but not by not by PX but it's like"
+  },
+  {
+    "t_start": 1190.81,
+    "t_end": 1194.11,
+    "text": "but not by not by PX but it's like Square baby making"
+  },
+  {
+    "t_start": 1226.15,
+    "t_end": 1229.75,
+    "text": "yeah so let's instead of considering this Square lattice let's consider the"
+  },
+  {
+    "t_start": 1229.75,
+    "t_end": 1231.97,
+    "text": "this Square lattice let's consider the honeycomb lettuce or"
+  },
+  {
+    "t_start": 1231.97,
+    "t_end": 1239.71,
+    "text": "or triangular regular triangular lattice or it has another name A2 lettuce"
+  },
+  {
+    "t_start": 1243.669,
+    "t_end": 1246.69,
+    "text": "so now X it would be the A2 letters or triangular lattice or we can write in"
+  },
+  {
+    "t_start": 1246.69,
+    "t_end": 1252.01,
+    "text": "or triangular lattice or we can write in after summary normalization we can write"
+  },
+  {
+    "t_start": 1252.01,
+    "t_end": 1261.37,
+    "text": "in terms of its basis so it would be generated by this vectors"
+  },
+  {
+    "t_start": 1277.45,
+    "t_end": 1283.09,
+    "text": "triangular lattice which looks like this so this is this Vector zero"
+  },
+  {
+    "t_start": 1283.09,
+    "t_end": 1291.49,
+    "text": "so this is this Vector zero one and this is the vector"
+  },
+  {
+    "t_start": 1303.549,
+    "t_end": 1324.909,
+    "text": "and so we will have a picture that looks like this"
+  },
+  {
+    "t_start": 1327.25,
+    "t_end": 1328.57,
+    "text": "okay and now we imagine that these are all"
+  },
+  {
+    "t_start": 1328.57,
+    "t_end": 1339.789,
+    "text": "disks of equal radius and that they do not overlap so"
+  },
+  {
+    "t_start": 1341.649,
+    "t_end": 1343.63,
+    "text": "and also of course the picture is repeated and all"
+  },
+  {
+    "t_start": 1343.63,
+    "t_end": 1344.95,
+    "text": "repeated and all directions"
+  },
+  {
+    "t_start": 1344.95,
+    "t_end": 1350.11,
+    "text": "so we could also imagined that this equal disk they pave all the play and so"
+  },
+  {
+    "t_start": 1350.11,
+    "t_end": 1353.529,
+    "text": "equal disk they pave all the play and so even like looking at this"
+  },
+  {
+    "t_start": 1353.529,
+    "t_end": 1360.25,
+    "text": "uh the picture so we see that now that the packing became much denser"
+  },
+  {
+    "t_start": 1360.25,
+    "t_end": 1364.63,
+    "text": "the packing became much denser and of course each disc is touching"
+  },
+  {
+    "t_start": 1364.63,
+    "t_end": 1368.649,
+    "text": "six other disks which is okay"
+  },
+  {
+    "t_start": 1368.649,
+    "t_end": 1373.39,
+    "text": "might be not so obvious on my picture but you have to use your imagination and"
+  },
+  {
+    "t_start": 1373.39,
+    "t_end": 1376.57,
+    "text": "but you have to use your imagination and correct the"
+  },
+  {
+    "t_start": 1378.43,
+    "t_end": 1385.39,
+    "text": "and so now we can also we don't need to actually go to like this very big r here"
+  },
+  {
+    "t_start": 1385.39,
+    "t_end": 1388.029,
+    "text": "actually go to like this very big r here we can again do the same thing we can"
+  },
+  {
+    "t_start": 1388.029,
+    "t_end": 1390.25,
+    "text": "we can again do the same thing we can just choose a fundamental domain"
+  },
+  {
+    "t_start": 1390.25,
+    "t_end": 1394.029,
+    "text": "just choose a fundamental domain and compute"
+  },
+  {
+    "t_start": 1396.13,
+    "t_end": 1398.89,
+    "text": "yeah and it does not think so this should be"
+  },
+  {
+    "t_start": 1398.89,
+    "t_end": 1404.59,
+    "text": "a parallelogram which is which is it is"
+  },
+  {
+    "t_start": 1407.77,
+    "t_end": 1417.549,
+    "text": "morally speaking so and so the density of this baking is now"
+  },
+  {
+    "t_start": 1421.21,
+    "t_end": 1424.87,
+    "text": "it will be pi divided by 2 square roots of three and this is slightly more than"
+  },
+  {
+    "t_start": 1424.87,
+    "t_end": 1426.97,
+    "text": "of three and this is slightly more than 90 percent"
+  },
+  {
+    "t_start": 1426.97,
+    "t_end": 1431.83,
+    "text": "90 percent which is already seems like a serious"
+  },
+  {
+    "t_start": 1435.49,
+    "t_end": 1438.49,
+    "text": "and indeed it's a quiet old theorem so we know that if you are covered packing"
+  },
+  {
+    "t_start": 1438.49,
+    "t_end": 1441.13,
+    "text": "we know that if you are covered packing disks on on the planes or disks of equal"
+  },
+  {
+    "t_start": 1441.13,
+    "t_end": 1447.31,
+    "text": "disks on on the planes or disks of equal radius on a plane then this is the best"
+  },
+  {
+    "t_start": 1447.31,
+    "t_end": 1451.149,
+    "text": "backing that can be achieved and this theorem has somehow long"
+  },
+  {
+    "t_start": 1451.149,
+    "t_end": 1457.51,
+    "text": "theorem has somehow long history that I will speak about a bit"
+  },
+  {
+    "t_start": 1459.43,
+    "t_end": 1468.31,
+    "text": "so this theorem it was first approved by Axel 2"
+  },
+  {
+    "t_start": 1471.99,
+    "t_end": 1475.57,
+    "text": "in I would say the end of 19th century beginning of 20th"
+  },
+  {
+    "t_start": 1475.57,
+    "t_end": 1476.649,
+    "text": "end of 19th century beginning of 20th century"
+  },
+  {
+    "t_start": 1476.649,
+    "t_end": 1484.27,
+    "text": "and then another uh or it was Rewritten or reformulated"
+  },
+  {
+    "t_start": 1484.27,
+    "t_end": 1497.289,
+    "text": "uh or it was Rewritten or reformulated by Las lafe"
+  },
+  {
+    "t_start": 1499.75,
+    "t_end": 1502.149,
+    "text": "and why it had to be Rewritten is because the standards for rigor and"
+  },
+  {
+    "t_start": 1502.149,
+    "t_end": 1505.75,
+    "text": "because the standards for rigor and Mathematics somehow improved and yeah so"
+  },
+  {
+    "t_start": 1505.75,
+    "t_end": 1507.789,
+    "text": "Mathematics somehow improved and yeah so this proof was not accepted by some"
+  },
+  {
+    "t_start": 1507.789,
+    "t_end": 1511.93,
+    "text": "this proof was not accepted by some people as being too sketchy"
+  },
+  {
+    "t_start": 1511.93,
+    "t_end": 1517.93,
+    "text": "so the theorem tells us that the sphere packing constant in dimension 2 is"
+  },
+  {
+    "t_start": 1517.93,
+    "t_end": 1520.21,
+    "text": "packing constant in dimension 2 is indeed the"
+  },
+  {
+    "t_start": 1520.21,
+    "t_end": 1525.73,
+    "text": "equal to the density of the regular triangular lattice or honeycomb"
+  },
+  {
+    "t_start": 1525.73,
+    "t_end": 1533.95,
+    "text": "regular triangular lattice or honeycomb lattice and it is this exactly this"
+  },
+  {
+    "t_start": 1537.669,
+    "t_end": 1539.47,
+    "text": "and so what I have decided to do for today is actually to"
+  },
+  {
+    "t_start": 1539.47,
+    "t_end": 1546.97,
+    "text": "today is actually to read this proof and maybe to to present"
+  },
+  {
+    "t_start": 1549.85,
+    "t_end": 1552.909,
+    "text": "and the proof is somehow it is nice so it is not all that difficult"
+  },
+  {
+    "t_start": 1552.909,
+    "t_end": 1555.01,
+    "text": "it is not all that difficult however it does contain some interesting"
+  },
+  {
+    "t_start": 1555.01,
+    "t_end": 1556.69,
+    "text": "however it does contain some interesting geometric areas"
+  },
+  {
+    "t_start": 1556.69,
+    "t_end": 1561.549,
+    "text": "and also what is interesting or maybe a bit disappointing that yeah this"
+  },
+  {
+    "t_start": 1561.549,
+    "t_end": 1563.95,
+    "text": "bit disappointing that yeah this geometric ideas they do not generalize"
+  },
+  {
+    "t_start": 1563.95,
+    "t_end": 1565.75,
+    "text": "geometric ideas they do not generalize to other dimensions so it's something"
+  },
+  {
+    "t_start": 1565.75,
+    "t_end": 1567.61,
+    "text": "to other dimensions so it's something very nice which works beautifully in"
+  },
+  {
+    "t_start": 1567.61,
+    "t_end": 1571.75,
+    "text": "very nice which works beautifully in dimension two and then does not work in"
+  },
+  {
+    "t_start": 1571.75,
+    "t_end": 1586.12,
+    "text": "other dimensions"
+  },
+  {
+    "t_start": 1610.11,
+    "t_end": 1612.85,
+    "text": "sorry would you mentioned why this constant is sharp"
+  },
+  {
+    "t_start": 1612.85,
+    "t_end": 1618.07,
+    "text": "yeah so that's I'm going to do now I'm going to to explain in this case here we"
+  },
+  {
+    "t_start": 1618.07,
+    "t_end": 1625.39,
+    "text": "and now what now I'm going to explain you how the proof works so yes"
+  },
+  {
+    "t_start": 1627.909,
+    "t_end": 1630.789,
+    "text": "so would you mention why this constant is sharp also in the proof"
+  },
+  {
+    "t_start": 1630.789,
+    "t_end": 1637.09,
+    "text": "sorry would you also mentioned why this constant is sharp in the proof"
+  },
+  {
+    "t_start": 1639.37,
+    "t_end": 1642.97,
+    "text": "because exactly understand the question so what does it mean the constant is"
+  },
+  {
+    "t_start": 1642.97,
+    "t_end": 1645.43,
+    "text": "sharp it means that we know we have an example and we have a proof which"
+  },
+  {
+    "t_start": 1645.43,
+    "t_end": 1647.59,
+    "text": "example and we have a proof which certifies that nothing can be better and"
+  },
+  {
+    "t_start": 1647.59,
+    "t_end": 1649.63,
+    "text": "certifies that nothing can be better and then the constant is sharpened so we"
+  },
+  {
+    "t_start": 1649.63,
+    "t_end": 1652.21,
+    "text": "then the constant is sharpened so we have an we have an example and now I"
+  },
+  {
+    "t_start": 1652.21,
+    "t_end": 1654.73,
+    "text": "have an we have an example and now I will hopefully do the proof and then"
+  },
+  {
+    "t_start": 1654.73,
+    "t_end": 1656.59,
+    "text": "will hopefully do the proof and then hopefully it will be convincing enough"
+  },
+  {
+    "t_start": 1656.59,
+    "t_end": 1663.81,
+    "text": "hopefully it will be convincing enough and then we will see that the constant"
+  },
+  {
+    "t_start": 1666.49,
+    "t_end": 1669.19,
+    "text": "in every Dimension the best backend is periodic or symmetric or how we can call"
+  },
+  {
+    "t_start": 1669.19,
+    "t_end": 1673.57,
+    "text": "periodic or symmetric or how we can call it so okay so I think it's uh it's not"
+  },
+  {
+    "t_start": 1673.57,
+    "t_end": 1676.149,
+    "text": "it so okay so I think it's uh it's not known that it is period always periodic"
+  },
+  {
+    "t_start": 1676.149,
+    "t_end": 1680.11,
+    "text": "known that it is period always periodic to my knowledge but yeah so so what what"
+  },
+  {
+    "t_start": 1680.11,
+    "t_end": 1683.47,
+    "text": "to my knowledge but yeah so so what what is known is that it's known that the"
+  },
+  {
+    "t_start": 1683.47,
+    "t_end": 1690.07,
+    "text": "supremum over the densities it's always achieved for some packing so this part"
+  },
+  {
+    "t_start": 1690.07,
+    "t_end": 1692.35,
+    "text": "achieved for some packing so this part is known so it's not just it's not just"
+  },
+  {
+    "t_start": 1692.35,
+    "t_end": 1694.149,
+    "text": "is known so it's not just it's not just we have like many many packings that are"
+  },
+  {
+    "t_start": 1694.149,
+    "t_end": 1696.13,
+    "text": "we have like many many packings that are you know getting closer and closer but"
+  },
+  {
+    "t_start": 1696.13,
+    "t_end": 1698.649,
+    "text": "you know getting closer and closer but there is a limiting point"
+  },
+  {
+    "t_start": 1698.649,
+    "t_end": 1702.97,
+    "text": "there is a limiting point so this is a maybe not a super difficult"
+  },
+  {
+    "t_start": 1702.97,
+    "t_end": 1708.73,
+    "text": "paper quite old paper about that and the fact that this periodic to my knowledge"
+  },
+  {
+    "t_start": 1708.73,
+    "t_end": 1710.35,
+    "text": "fact that this periodic to my knowledge this is not something we know because"
+  },
+  {
+    "t_start": 1710.35,
+    "t_end": 1712.87,
+    "text": "this is not something we know because because in this limiting process the"
+  },
+  {
+    "t_start": 1712.87,
+    "t_end": 1716.71,
+    "text": "because in this limiting process the periodicity would not be preserved but"
+  },
+  {
+    "t_start": 1716.71,
+    "t_end": 1718.69,
+    "text": "periodicity would not be preserved but yeah and also it seems like it really"
+  },
+  {
+    "t_start": 1718.69,
+    "t_end": 1723.69,
+    "text": "seems like a very difficult question to show that it always will be periodic but"
+  },
+  {
+    "t_start": 1723.69,
+    "t_end": 1727.09,
+    "text": "show that it always will be periodic but I never really thought too much about"
+  },
+  {
+    "t_start": 1727.09,
+    "t_end": 1732.25,
+    "text": "I never really thought too much about about the question so"
+  },
+  {
+    "t_start": 1734.23,
+    "t_end": 1738.19,
+    "text": "and again like I hope assuming periodic periodic is like in a mathematical sense"
+  },
+  {
+    "t_start": 1738.19,
+    "t_end": 1740.23,
+    "text": "because sometimes surf even this is a periodic they mean lettuce"
+  },
+  {
+    "t_start": 1740.23,
+    "t_end": 1742.049,
+    "text": "periodic they mean lettuce and um"
+  },
+  {
+    "t_start": 1742.049,
+    "t_end": 1746.35,
+    "text": "say periodic they mean that it is something which is invariant under some"
+  },
+  {
+    "t_start": 1746.35,
+    "t_end": 1751.75,
+    "text": "something which is invariant under some probably much uh smaller like this"
+  },
+  {
+    "t_start": 1753.49,
+    "t_end": 1758.409,
+    "text": "[Music] sorry"
+  },
+  {
+    "t_start": 1760.21,
+    "t_end": 1764.25,
+    "text": "what are the what about in English"
+  },
+  {
+    "t_start": 1767.649,
+    "t_end": 1770.409,
+    "text": "oh so okay so so I think the two a to later is it is unique among periodic"
+  },
+  {
+    "t_start": 1770.409,
+    "t_end": 1773.59,
+    "text": "later is it is unique among periodic configurations and that probably would"
+  },
+  {
+    "t_start": 1773.59,
+    "t_end": 1777.99,
+    "text": "configurations and that probably would follow from the that would follow from"
+  },
+  {
+    "t_start": 1777.99,
+    "t_end": 1782.71,
+    "text": "here is the question of uniqueness is a bit tricky for Sphere packings for"
+  },
+  {
+    "t_start": 1782.71,
+    "t_end": 1788.37,
+    "text": "bit tricky for Sphere packings for example we can take this optimal packing"
+  },
+  {
+    "t_start": 1788.37,
+    "t_end": 1792.85,
+    "text": "and then remove one disk out of it and the density will not"
+  },
+  {
+    "t_start": 1792.85,
+    "t_end": 1798.01,
+    "text": "so and then we can there are more like sophisticated procedures we can do for"
+  },
+  {
+    "t_start": 1798.01,
+    "t_end": 1803.409,
+    "text": "sophisticated procedures we can do for example we can take fix one Center and"
+  },
+  {
+    "t_start": 1803.409,
+    "t_end": 1805.81,
+    "text": "then make some transform that all the centers of uh"
+  },
+  {
+    "t_start": 1805.81,
+    "t_end": 1810.19,
+    "text": "of all disks they are moved farther away but those discs which are closed are"
+  },
+  {
+    "t_start": 1810.19,
+    "t_end": 1817.21,
+    "text": "away are moved just very very little and then this also will be the configuration"
+  },
+  {
+    "t_start": 1817.21,
+    "t_end": 1820.57,
+    "text": "then this also will be the configuration of the same density so when we speak"
+  },
+  {
+    "t_start": 1820.57,
+    "t_end": 1822.909,
+    "text": "about uniqueness we need to add some more regularity conditions for example a"
+  },
+  {
+    "t_start": 1822.909,
+    "t_end": 1824.71,
+    "text": "more regularity conditions for example a periodicity"
+  },
+  {
+    "t_start": 1824.71,
+    "t_end": 1829.57,
+    "text": "and with so I think at the end of the lecture we will see that actually we"
+  },
+  {
+    "t_start": 1829.57,
+    "t_end": 1830.889,
+    "text": "lecture we will see that actually we will have a"
+  },
+  {
+    "t_start": 1830.889,
+    "t_end": 1840.61,
+    "text": "will have a uniqueness"
+  },
+  {
+    "t_start": 1844.75,
+    "t_end": 1849.19,
+    "text": "okay so so yes but the other ANS they live in other dimensions so"
+  },
+  {
+    "t_start": 1851.649,
+    "t_end": 1853.45,
+    "text": "yeah but if you go to higher dimensions then a n will not be very good for"
+  },
+  {
+    "t_start": 1853.45,
+    "t_end": 1855.909,
+    "text": "then a n will not be very good for packings but this is something I will"
+  },
+  {
+    "t_start": 1855.909,
+    "t_end": 1857.71,
+    "text": "packings but this is something I will speak about maybe at our third lecture"
+  },
+  {
+    "t_start": 1857.71,
+    "t_end": 1859.389,
+    "text": "speak about maybe at our third lecture about this explicit little red"
+  },
+  {
+    "t_start": 1859.389,
+    "t_end": 1861.909,
+    "text": "about this explicit little red constructions for sphere backings and"
+  },
+  {
+    "t_start": 1861.909,
+    "t_end": 1865.51,
+    "text": "constructions for sphere backings and yes"
+  },
+  {
+    "t_start": 1868.63,
+    "t_end": 1871.87,
+    "text": "sorry for for three dimension A3 is which kind of lattice for three"
+  },
+  {
+    "t_start": 1871.87,
+    "t_end": 1878.409,
+    "text": "okay I would have to I I I will answer you today about that"
+  },
+  {
+    "t_start": 1878.409,
+    "t_end": 1880.81,
+    "text": "I I I will answer you today about that yeah so this is standard right through"
+  },
+  {
+    "t_start": 1880.81,
+    "t_end": 1882.669,
+    "text": "yeah so this is standard right through this like"
+  },
+  {
+    "t_start": 1882.669,
+    "t_end": 1886.51,
+    "text": "this like Duncan diagrams that classify them and"
+  },
+  {
+    "t_start": 1886.51,
+    "t_end": 1893.59,
+    "text": "but I think already in dimension three already A3 is not that good I think FCC"
+  },
+  {
+    "t_start": 1893.59,
+    "t_end": 1898.149,
+    "text": "already A3 is not that good I think FCC is not A3 but I will double check it by"
+  },
+  {
+    "t_start": 1898.149,
+    "t_end": 1902.049,
+    "text": "tomorrow before tomorrow"
+  },
+  {
+    "t_start": 1903.97,
+    "t_end": 1908.529,
+    "text": "go with the proof and so the maybe one thing you wanted to mention is that the"
+  },
+  {
+    "t_start": 1908.529,
+    "t_end": 1910.269,
+    "text": "thing you wanted to mention is that the proof I'm presenting now it's written"
+  },
+  {
+    "t_start": 1910.269,
+    "t_end": 1926.889,
+    "text": "proof I'm presenting now it's written down in a book by Jana Spock so"
+  },
+  {
+    "t_start": 1930.13,
+    "t_end": 1939.25,
+    "text": "and it's called the book is combinatorial geometry"
+  },
+  {
+    "t_start": 1947.169,
+    "t_end": 1952.289,
+    "text": "of so that so foreign"
+  },
+  {
+    "t_start": 1954.789,
+    "t_end": 1958.51,
+    "text": "actually found a very nice generalization of it so the theorem of"
+  },
+  {
+    "t_start": 1958.51,
+    "t_end": 1965.409,
+    "text": "fish trough it works not only for uh so this perfect discs but actually for all"
+  },
+  {
+    "t_start": 1965.409,
+    "t_end": 1969.669,
+    "text": "this perfect discs but actually for all convex centrally symmetric compact"
+  },
+  {
+    "t_start": 1969.669,
+    "t_end": 1975.19,
+    "text": "convex centrally symmetric compact bodies and for their congruent packings"
+  },
+  {
+    "t_start": 1975.19,
+    "t_end": 1977.409,
+    "text": "in a plane so it is a very nice geometric result and maybe one thing I"
+  },
+  {
+    "t_start": 1977.409,
+    "t_end": 1980.529,
+    "text": "geometric result and maybe one thing I also wanted to say that on a on a very"
+  },
+  {
+    "t_start": 1980.529,
+    "t_end": 1983.529,
+    "text": "also wanted to say that on a on a very high level how the proof works the proof"
+  },
+  {
+    "t_start": 1983.529,
+    "t_end": 1993.61,
+    "text": "high level how the proof works the proof works in the following way so we uh"
+  },
+  {
+    "t_start": 1997.69,
+    "t_end": 2001.71,
+    "text": "is that we take any packing and we consider the centers of all the"
+  },
+  {
+    "t_start": 2001.71,
+    "t_end": 2006.63,
+    "text": "consider the centers of all the disks in our packing"
+  },
+  {
+    "t_start": 2008.73,
+    "t_end": 2012.57,
+    "text": "and that what we are going to do we will consider the voronoi cells surrounding"
+  },
+  {
+    "t_start": 2012.57,
+    "t_end": 2019.23,
+    "text": "consider the voronoi cells surrounding any of of for this set of points so any"
+  },
+  {
+    "t_start": 2019.23,
+    "t_end": 2021.149,
+    "text": "any of of for this set of points so any configuration any configuration of"
+  },
+  {
+    "t_start": 2021.149,
+    "t_end": 2027.21,
+    "text": "points on a plane leads to the varanoi division of the plane and how it works"
+  },
+  {
+    "t_start": 2027.21,
+    "t_end": 2030.81,
+    "text": "division of the plane and how it works at for each point we will consider the"
+  },
+  {
+    "t_start": 2030.81,
+    "t_end": 2033.87,
+    "text": "at for each point we will consider the set of points that are closest to this"
+  },
+  {
+    "t_start": 2033.87,
+    "t_end": 2036.75,
+    "text": "set of points that are closest to this point from opposed to other points from"
+  },
+  {
+    "t_start": 2036.75,
+    "t_end": 2043.649,
+    "text": "point from opposed to other points from from our set and this way our plane will"
+  },
+  {
+    "t_start": 2043.649,
+    "t_end": 2045.509,
+    "text": "be divided into convex polygons so each"
+  },
+  {
+    "t_start": 2045.509,
+    "t_end": 2051.27,
+    "text": "point will get is a closest polygon around it which would be a"
+  },
+  {
+    "t_start": 2051.27,
+    "t_end": 2055.349,
+    "text": "around it which would be a set of points that are closest to"
+  },
+  {
+    "t_start": 2055.349,
+    "t_end": 2058.129,
+    "text": "set of points that are closest to this one opposed to other"
+  },
+  {
+    "t_start": 2058.129,
+    "t_end": 2064.349,
+    "text": "this one opposed to other points of our configuration"
+  },
+  {
+    "t_start": 2067.649,
+    "t_end": 2073.53,
+    "text": "and now the some of course the packing is dense when so all this"
+  },
+  {
+    "t_start": 2078.51,
+    "t_end": 2082.95,
+    "text": "the packing is a dance when this voronoi cells when they are small"
+  },
+  {
+    "t_start": 2085.53,
+    "t_end": 2093.629,
+    "text": "at the same time the fact that distance between two points is is bounded from"
+  },
+  {
+    "t_start": 2093.629,
+    "t_end": 2095.909,
+    "text": "between two points is is bounded from below it also gives us geometric"
+  },
+  {
+    "t_start": 2095.909,
+    "t_end": 2100.05,
+    "text": "below it also gives us geometric restrictions on the varanoi cell and so"
+  },
+  {
+    "t_start": 2100.05,
+    "t_end": 2104.37,
+    "text": "restrictions on the varanoi cell and so the world cell is small when it has many"
+  },
+  {
+    "t_start": 2104.37,
+    "t_end": 2108.63,
+    "text": "sides right so we have a our"
+  },
+  {
+    "t_start": 2111.69,
+    "t_end": 2114.27,
+    "text": "we have our disk here inside of a very nice cell and of course the smallest"
+  },
+  {
+    "t_start": 2114.27,
+    "t_end": 2117.089,
+    "text": "nice cell and of course the smallest polygon it can be approximated with has"
+  },
+  {
+    "t_start": 2117.089,
+    "t_end": 2120.329,
+    "text": "polygon it can be approximated with has many many sides"
+  },
+  {
+    "t_start": 2120.329,
+    "t_end": 2127.23,
+    "text": "many many sides more sides than smaller the area of the"
+  },
+  {
+    "t_start": 2131.069,
+    "t_end": 2134.01,
+    "text": "however if we have polygons with many many sides it it's very difficult to"
+  },
+  {
+    "t_start": 2134.01,
+    "t_end": 2137.31,
+    "text": "many sides it it's very difficult to pave all the plane with such polygons"
+  },
+  {
+    "t_start": 2137.31,
+    "t_end": 2142.05,
+    "text": "pave all the plane with such polygons because of the topological restrictions"
+  },
+  {
+    "t_start": 2142.05,
+    "t_end": 2143.01,
+    "text": "because of the topological restrictions because"
+  },
+  {
+    "t_start": 2143.01,
+    "t_end": 2144.569,
+    "text": "because [Music]"
+  },
+  {
+    "t_start": 2144.569,
+    "t_end": 2151.349,
+    "text": "we have for example the Euler uh Euler formula which for the number which"
+  },
+  {
+    "t_start": 2151.349,
+    "t_end": 2153.75,
+    "text": "Euler formula which for the number which relates then"
+  },
+  {
+    "t_start": 2153.75,
+    "t_end": 2158.31,
+    "text": "relates then somehow number of faces number of"
+  },
+  {
+    "t_start": 2161.87,
+    "t_end": 2165.349,
+    "text": "edges and number of vertices in any blender graph"
+  },
+  {
+    "t_start": 2168.45,
+    "t_end": 2172.01,
+    "text": "and so it tells us that the Euler formula will tell us that the average"
+  },
+  {
+    "t_start": 2172.01,
+    "t_end": 2177.45,
+    "text": "sides that we can expect in such a very legislation should be six"
+  },
+  {
+    "t_start": 2177.45,
+    "t_end": 2179.13,
+    "text": "legislation should be six more or less"
+  },
+  {
+    "t_start": 2179.13,
+    "t_end": 2184.53,
+    "text": "and so now we are going to we have to play with all these conditions and to"
+  },
+  {
+    "t_start": 2184.53,
+    "t_end": 2189.329,
+    "text": "play with all these conditions and to pack them in a one nice proof and also"
+  },
+  {
+    "t_start": 2189.329,
+    "t_end": 2194.609,
+    "text": "good argument because the result that we want to get it has to be tight"
+  },
+  {
+    "t_start": 2194.609,
+    "t_end": 2196.17,
+    "text": "want to get it has to be tight so"
+  },
+  {
+    "t_start": 2196.17,
+    "t_end": 2200.79,
+    "text": "this should not be just a hand waving what I have presented right now but it"
+  },
+  {
+    "t_start": 2200.79,
+    "t_end": 2204.05,
+    "text": "what I have presented right now but it has to be a really smart argument that"
+  },
+  {
+    "t_start": 2204.05,
+    "t_end": 2206.97,
+    "text": "has to be a really smart argument that resolves all this makes all this"
+  },
+  {
+    "t_start": 2206.97,
+    "t_end": 2227.089,
+    "text": "resolves all this makes all this rigorous"
+  },
+  {
+    "t_start": 2231.51,
+    "t_end": 2239.13,
+    "text": "and so here's the following uh theorem"
+  },
+  {
+    "t_start": 2247.29,
+    "t_end": 2252.089,
+    "text": "it's actually much more than what we need for"
+  },
+  {
+    "t_start": 2252.089,
+    "t_end": 2256.77,
+    "text": "proving this this theorem but still I think it's geometrically beautiful so"
+  },
+  {
+    "t_start": 2256.77,
+    "t_end": 2261.87,
+    "text": "think it's geometrically beautiful so let age be a convex"
+  },
+  {
+    "t_start": 2278.49,
+    "t_end": 2280.71,
+    "text": "and what I mean by convex disk it is a con"
+  },
+  {
+    "t_start": 2280.71,
+    "t_end": 2307.29,
+    "text": "convex compact set with non-empty interior"
+  },
+  {
+    "t_start": 2310.53,
+    "t_end": 2313.17,
+    "text": "and so now when we have this convex disk what we can do we can search for the"
+  },
+  {
+    "t_start": 2313.17,
+    "t_end": 2314.91,
+    "text": "what we can do we can search for the best"
+  },
+  {
+    "t_start": 2314.91,
+    "t_end": 2321.15,
+    "text": "a hexagon that for the hexagon of smallest area"
+  },
+  {
+    "t_start": 2321.15,
+    "t_end": 2323.81,
+    "text": "that for the hexagon of smallest area that contains this"
+  },
+  {
+    "t_start": 2323.81,
+    "t_end": 2325.53,
+    "text": "that contains this so"
+  },
+  {
+    "t_start": 2325.53,
+    "t_end": 2327.93,
+    "text": "so let"
+  },
+  {
+    "t_start": 2327.93,
+    "t_end": 2335.79,
+    "text": "let B6 denote the"
+  },
+  {
+    "t_start": 2364.109,
+    "t_end": 2368.63,
+    "text": "and so now we have the following inequalities that if n"
+  },
+  {
+    "t_start": 2399.69,
+    "t_end": 2405.51,
+    "text": "then we have a Bound for this number n then n is bounded above by the area of"
+  },
+  {
+    "t_start": 2405.51,
+    "t_end": 2408.87,
+    "text": "then n is bounded above by the area of the hexagon h"
+  },
+  {
+    "t_start": 2408.87,
+    "t_end": 2423.69,
+    "text": "divided by the area of the hexagon P6"
+  },
+  {
+    "t_start": 2427.41,
+    "t_end": 2434.55,
+    "text": "and so one of the consequences of this theorem is that now we know how to pack"
+  },
+  {
+    "t_start": 2434.55,
+    "t_end": 2436.589,
+    "text": "theorem is that now we know how to pack all"
+  },
+  {
+    "t_start": 2436.589,
+    "t_end": 2442.109,
+    "text": "convex centrally symmetric bodies and so here one thing I want to say that"
+  },
+  {
+    "t_start": 2442.109,
+    "t_end": 2444.569,
+    "text": "and so here one thing I want to say that what a congruent backing means it means"
+  },
+  {
+    "t_start": 2444.569,
+    "t_end": 2452.37,
+    "text": "that we take our convex disk and we are allowed to move it in a plane using all"
+  },
+  {
+    "t_start": 2452.37,
+    "t_end": 2454.89,
+    "text": "allowed to move it in a plane using all the euclidean Transformations so it can"
+  },
+  {
+    "t_start": 2454.89,
+    "t_end": 2455.75,
+    "text": "the euclidean Transformations so it can be"
+  },
+  {
+    "t_start": 2455.75,
+    "t_end": 2461.97,
+    "text": "more power moved in parallel or it can be rotated"
+  },
+  {
+    "t_start": 2461.97,
+    "t_end": 2468.829,
+    "text": "and so now if our a convex disk is a"
+  },
+  {
+    "t_start": 2471.329,
+    "t_end": 2473.73,
+    "text": "centrally symmetric then it's not difficult to see that or to show that"
+  },
+  {
+    "t_start": 2473.73,
+    "t_end": 2474.32,
+    "text": "difficult to see that or to show that the best"
+  },
+  {
+    "t_start": 2474.32,
+    "t_end": 2476.849,
+    "text": "the best [Music]"
+  },
+  {
+    "t_start": 2476.849,
+    "t_end": 2482.25,
+    "text": "hexagon P6 circumcised around it also would be centrally symmetric"
+  },
+  {
+    "t_start": 2482.25,
+    "t_end": 2487.71,
+    "text": "and then if we have this centrally symmetric hexagons then we can just pave"
+  },
+  {
+    "t_start": 2487.71,
+    "t_end": 2491.99,
+    "text": "symmetric hexagons then we can just pave the plane with hexagon and this will"
+  },
+  {
+    "t_start": 2491.99,
+    "t_end": 2498.45,
+    "text": "the plane with hexagon and this will then by this theorem it will be the best"
+  },
+  {
+    "t_start": 2498.45,
+    "t_end": 2504.87,
+    "text": "packing of the the best congruent packing of those complex disks"
+  },
+  {
+    "t_start": 2518.91,
+    "t_end": 2521.93,
+    "text": "other than four or five ones uh"
+  },
+  {
+    "t_start": 2524.79,
+    "t_end": 2530.13,
+    "text": "really know so but somehow it seems in dimension two hexagons they are very"
+  },
+  {
+    "t_start": 2530.13,
+    "t_end": 2532.71,
+    "text": "dimension two hexagons they are very special because of the Euler's formula"
+  },
+  {
+    "t_start": 2532.71,
+    "t_end": 2533.849,
+    "text": "special because of the Euler's formula so"
+  },
+  {
+    "t_start": 2533.849,
+    "t_end": 2538.65,
+    "text": "uh yeah so it seems probably for other for"
+  },
+  {
+    "t_start": 2538.65,
+    "t_end": 2542.73,
+    "text": "for other polygons we won't have such a neat result"
+  },
+  {
+    "t_start": 2542.73,
+    "t_end": 2548.37,
+    "text": "because here at least in the proof uh six plays very important role"
+  },
+  {
+    "t_start": 2548.37,
+    "t_end": 2597.21,
+    "text": "because this is the average number of sides of a polygon and a Paving"
+  },
+  {
+    "t_start": 2599.75,
+    "t_end": 2606.089,
+    "text": "do the proof or rather I will not be able to give every idea every explained"
+  },
+  {
+    "t_start": 2606.089,
+    "t_end": 2609.329,
+    "text": "able to give every idea every explained every step of the proof but hopefully to"
+  },
+  {
+    "t_start": 2609.329,
+    "t_end": 2615.21,
+    "text": "uh idea and at least mention all the important steps and so here as I already"
+  },
+  {
+    "t_start": 2615.21,
+    "t_end": 2616.829,
+    "text": "important steps and so here as I already told you one there is one useful fact"
+  },
+  {
+    "t_start": 2616.829,
+    "t_end": 2617.849,
+    "text": "told you one there is one useful fact from"
+  },
+  {
+    "t_start": 2617.849,
+    "t_end": 2626.55,
+    "text": "low dimensional topology that we are going to use"
+  },
+  {
+    "t_start": 2630.63,
+    "t_end": 2637.41,
+    "text": "and it says that if every planar graph"
+  },
+  {
+    "t_start": 2656.609,
+    "t_end": 2662.13,
+    "text": "Three N minus six edges"
+  },
+  {
+    "t_start": 2666.69,
+    "t_end": 2668.25,
+    "text": "and so this well this fact I will as you can suggested to you as the first"
+  },
+  {
+    "t_start": 2668.25,
+    "t_end": 2684.39,
+    "text": "can suggested to you as the first exercise of my lecture series"
+  },
+  {
+    "t_start": 2686.67,
+    "t_end": 2690.93,
+    "text": "and as I already mentioned so the hint true for the proof is to use Euler's"
+  },
+  {
+    "t_start": 2690.93,
+    "t_end": 2694.89,
+    "text": "true for the proof is to use Euler's formula for the number of vertices edges"
+  },
+  {
+    "t_start": 2694.89,
+    "t_end": 2696.95,
+    "text": "formula for the number of vertices edges and"
+  },
+  {
+    "t_start": 2696.95,
+    "t_end": 2711.569,
+    "text": "and faces for a planar graph"
+  },
+  {
+    "t_start": 2720.27,
+    "t_end": 2722.01,
+    "text": "okay yeah probably our n has to be big enough yes"
+  },
+  {
+    "t_start": 2722.01,
+    "t_end": 2724.47,
+    "text": "enough yes yeah"
+  },
+  {
+    "t_start": 2756.089,
+    "t_end": 2759.99,
+    "text": "and so now let's enter another use important step is the following"
+  },
+  {
+    "t_start": 2759.99,
+    "t_end": 2765.089,
+    "text": "important step is the following uh lemon"
+  },
+  {
+    "t_start": 2767.73,
+    "t_end": 2771.69,
+    "text": "and all that there's now we're getting a little bit technical solid C1"
+  },
+  {
+    "t_start": 2771.69,
+    "t_end": 2773.25,
+    "text": "little bit technical solid C1 CN"
+  },
+  {
+    "t_start": 2773.25,
+    "t_end": 2779.55,
+    "text": "CN be a system of"
+  },
+  {
+    "t_start": 2805.25,
+    "t_end": 2812.849,
+    "text": "or H is our convex hexagon as before so then"
+  },
+  {
+    "t_start": 2843.75,
+    "t_end": 2845.73,
+    "text": "R1 RN such that"
+  },
+  {
+    "t_start": 2845.73,
+    "t_end": 2863.43,
+    "text": "each of our discs sits inside of one of these polygons"
+  },
+  {
+    "t_start": 2870.87,
+    "t_end": 2873.27,
+    "text": "what is important is that the average number of"
+  },
+  {
+    "t_start": 2873.27,
+    "t_end": 2877.53,
+    "text": "number of the for the number of"
+  },
+  {
+    "t_start": 2879.15,
+    "t_end": 2891.15,
+    "text": "edges of our n or ISO okay"
+  },
+  {
+    "t_start": 2894.45,
+    "t_end": 2908.37,
+    "text": "as I it would be the number of vertices in Array"
+  },
+  {
+    "t_start": 2911.19,
+    "t_end": 2917.25,
+    "text": "okay so maybe one thing okay here's a band right so we would see that the"
+  },
+  {
+    "t_start": 2917.25,
+    "t_end": 2926.849,
+    "text": "I put this convex discs into our convex hexagon and then we divide our hexagon"
+  },
+  {
+    "t_start": 2926.849,
+    "t_end": 2927.99,
+    "text": "hexagon and then we divide our hexagon into"
+  },
+  {
+    "t_start": 2927.99,
+    "t_end": 2930.15,
+    "text": "into polygons"
+  },
+  {
+    "t_start": 2930.15,
+    "t_end": 2935.609,
+    "text": "and the so the average number of vertices in a"
+  },
+  {
+    "t_start": 2935.609,
+    "t_end": 2937.41,
+    "text": "the average number of vertices in a polygon would be smaller or equal than"
+  },
+  {
+    "t_start": 2937.41,
+    "t_end": 2945.27,
+    "text": "polygon would be smaller or equal than six"
+  },
+  {
+    "t_start": 2947.39,
+    "t_end": 2963.03,
+    "text": "and so the proof here is uh"
+  },
+  {
+    "t_start": 3001.25,
+    "t_end": 3005.809,
+    "text": "so my the proof consists of two steps and the first part would be the"
+  },
+  {
+    "t_start": 3005.809,
+    "t_end": 3008.569,
+    "text": "and the first part would be the existence of a partition of H into"
+  },
+  {
+    "t_start": 3008.569,
+    "t_end": 3011.089,
+    "text": "existence of a partition of H into convex polygons and this part probably I"
+  },
+  {
+    "t_start": 3011.089,
+    "t_end": 3018.95,
+    "text": "convex polygons and this part probably I will not speak much about so how we can"
+  },
+  {
+    "t_start": 3018.95,
+    "t_end": 3021.19,
+    "text": "one way to see it is that uh we take our"
+  },
+  {
+    "t_start": 3021.19,
+    "t_end": 3026.45,
+    "text": "convex sets and then starts to Growing them with a condition that they still"
+  },
+  {
+    "t_start": 3026.45,
+    "t_end": 3027.91,
+    "text": "them with a condition that they still have to remind"
+  },
+  {
+    "t_start": 3027.91,
+    "t_end": 3030.55,
+    "text": "have to remind remain convex"
+  },
+  {
+    "t_start": 3030.55,
+    "t_end": 3035.99,
+    "text": "and that they still should not have common interior points and then the"
+  },
+  {
+    "t_start": 3035.99,
+    "t_end": 3044.75,
+    "text": "claim is that if we take so to say maximal element in such a chain of uh if"
+  },
+  {
+    "t_start": 3044.75,
+    "t_end": 3046.49,
+    "text": "maximal element in such a chain of uh if you think of the chain with respect to"
+  },
+  {
+    "t_start": 3046.49,
+    "t_end": 3049.97,
+    "text": "you think of the chain with respect to inclusion of all NSAIDs then the maximal"
+  },
+  {
+    "t_start": 3049.97,
+    "t_end": 3057.95,
+    "text": "element should be a division of age into convex polygons and each of the polygons"
+  },
+  {
+    "t_start": 3057.95,
+    "t_end": 3059.93,
+    "text": "convex polygons and each of the polygons can say contains the corresponding set"
+  },
+  {
+    "t_start": 3059.93,
+    "t_end": 3085.549,
+    "text": "can say contains the corresponding set from here"
+  },
+  {
+    "t_start": 3088.13,
+    "t_end": 3094.91,
+    "text": "so it would then we'll see that okay so the closure of age it would be a union"
+  },
+  {
+    "t_start": 3098.69,
+    "t_end": 3104.63,
+    "text": "the closures of this polygons so interior points"
+  },
+  {
+    "t_start": 3106.21,
+    "t_end": 3109.609,
+    "text": "interior parts of the polygons do not intersect"
+  },
+  {
+    "t_start": 3109.609,
+    "t_end": 3119.329,
+    "text": "intersect so our icon"
+  },
+  {
+    "t_start": 3121.97,
+    "t_end": 3124.609,
+    "text": "and CI is a subset of all right"
+  },
+  {
+    "t_start": 3128.089,
+    "t_end": 3130.849,
+    "text": "and now when we establish the existence of such a division of H now let's"
+  },
+  {
+    "t_start": 3130.849,
+    "t_end": 3133.63,
+    "text": "of such a division of H now let's compute the"
+  },
+  {
+    "t_start": 3133.63,
+    "t_end": 3138.609,
+    "text": "compute the foreign the number of edges"
+  },
+  {
+    "t_start": 3140.87,
+    "t_end": 3149.21,
+    "text": "now let's con suppose that we have such a our phone okay so or hexagon h"
+  },
+  {
+    "t_start": 3153.109,
+    "t_end": 3164.21,
+    "text": "or H and then it is divided into this convex polygons"
+  },
+  {
+    "t_start": 3167.63,
+    "t_end": 3173.45,
+    "text": "this graph each phase will go so we will construct actually a graph which is dual"
+  },
+  {
+    "t_start": 3173.45,
+    "t_end": 3178.97,
+    "text": "construct actually a graph which is dual to this division a planar graph which is"
+  },
+  {
+    "t_start": 3178.97,
+    "t_end": 3195.829,
+    "text": "dual to this division of a plane so now let's construct a graph"
+  },
+  {
+    "t_start": 3208.97,
+    "t_end": 3210.29,
+    "text": "and they will correspond to our"
+  },
+  {
+    "t_start": 3210.29,
+    "t_end": 3218.51,
+    "text": "convex polygons R1 or 2 are n and the complement of"
+  },
+  {
+    "t_start": 3218.51,
+    "t_end": 3221.45,
+    "text": "the complement of a hexagon h"
+  },
+  {
+    "t_start": 3221.45,
+    "t_end": 3224.75,
+    "text": "a hexagon h and then the"
+  },
+  {
+    "t_start": 3224.75,
+    "t_end": 3231.049,
+    "text": "edges between we will have edges between vertices if two faces in this division"
+  },
+  {
+    "t_start": 3231.049,
+    "t_end": 3233.15,
+    "text": "vertices if two faces in this division uh"
+  },
+  {
+    "t_start": 3233.15,
+    "t_end": 3239.329,
+    "text": "have a common Edge so it would be somehow graph dual to"
+  },
+  {
+    "t_start": 3239.329,
+    "t_end": 3241.73,
+    "text": "so it would be somehow graph dual to this for example before between R2 and"
+  },
+  {
+    "t_start": 3241.73,
+    "t_end": 3244.67,
+    "text": "this for example before between R2 and R3 we have an edge because they have a"
+  },
+  {
+    "t_start": 3244.67,
+    "t_end": 3252.349,
+    "text": "R3 we have an edge because they have a common Edge"
+  },
+  {
+    "t_start": 3273.71,
+    "t_end": 3275.87,
+    "text": "and so this way we will construct planar graph"
+  },
+  {
+    "t_start": 3275.87,
+    "t_end": 3294.97,
+    "text": "and so this graph will have some number of edges let's denote it by e"
+  },
+  {
+    "t_start": 3297.589,
+    "t_end": 3302.69,
+    "text": "and so from the fact that we've mentioned before now we know that"
+  },
+  {
+    "t_start": 3304.97,
+    "t_end": 3312.23,
+    "text": "number of edges is smaller than equal than this number"
+  },
+  {
+    "t_start": 3312.23,
+    "t_end": 3315.41,
+    "text": "smaller than equal than this number so we know that"
+  },
+  {
+    "t_start": 3315.41,
+    "t_end": 3323.39,
+    "text": "because we have n plus 1 vertex and it would be bigger or equal than"
+  },
+  {
+    "t_start": 3326.569,
+    "t_end": 3329.329,
+    "text": "the number of edges and now we can con compute our number of edges in another"
+  },
+  {
+    "t_start": 3329.329,
+    "t_end": 3334.549,
+    "text": "compute our number of edges in another way because if we know how many edges"
+  },
+  {
+    "t_start": 3334.549,
+    "t_end": 3340.43,
+    "text": "of the polygons or I has so we can compute it in the following"
+  },
+  {
+    "t_start": 3340.43,
+    "t_end": 3349.069,
+    "text": "so we can compute it in the following way"
+  },
+  {
+    "t_start": 3351.23,
+    "t_end": 3352.569,
+    "text": "okay so unfortunately this is not the end of the"
+  },
+  {
+    "t_start": 3352.569,
+    "t_end": 3360.309,
+    "text": "story so we need to add some kind of a correction"
+  },
+  {
+    "t_start": 3387.77,
+    "t_end": 3408.41,
+    "text": "uh which belong to more than one polygon or"
+  },
+  {
+    "t_start": 3411.89,
+    "t_end": 3413.569,
+    "text": "so for example here what kind of points we have to count we have to count this"
+  },
+  {
+    "t_start": 3413.569,
+    "t_end": 3418.01,
+    "text": "we have to count we have to count this point"
+  },
+  {
+    "t_start": 3427.609,
+    "t_end": 3432.29,
+    "text": "Q would be one two three four Q would be four"
+  },
+  {
+    "t_start": 3434.77,
+    "t_end": 3441.95,
+    "text": "and so now we are almost done"
+  },
+  {
+    "t_start": 3444.309,
+    "t_end": 3451.609,
+    "text": "so now from this inequality here we would see that"
+  },
+  {
+    "t_start": 3452.99,
+    "t_end": 3459.23,
+    "text": "the number of vertices in all our polygons it is"
+  },
+  {
+    "t_start": 3459.23,
+    "t_end": 3467.39,
+    "text": "smaller or equal than 6 n minus Q which is smaller or equal than 6n and this"
+  },
+  {
+    "t_start": 3467.39,
+    "t_end": 3473.75,
+    "text": "is smaller or equal than 6n and this finishes the proof of the Lemma"
+  },
+  {
+    "t_start": 3475.79,
+    "t_end": 3483.829,
+    "text": "probably I will go a little bit over time"
+  },
+  {
+    "t_start": 3492.19,
+    "t_end": 3497.569,
+    "text": "[Music] so as you asked me about what happens"
+  },
+  {
+    "t_start": 3497.569,
+    "t_end": 3505.809,
+    "text": "if we decide to circumcise our closed disks not only by"
+  },
+  {
+    "t_start": 3505.809,
+    "t_end": 3508.63,
+    "text": "circumcise our closed disks not only by hexagons but maybe for other polygons"
+  },
+  {
+    "t_start": 3508.63,
+    "t_end": 3514.609,
+    "text": "hexagons but maybe for other polygons and here there is also a very nice"
+  },
+  {
+    "t_start": 3514.609,
+    "t_end": 3520.91,
+    "text": "geometric result about that and it will be important for us"
+  },
+  {
+    "t_start": 3520.91,
+    "t_end": 3528.829,
+    "text": "and it tells us that if we fix our convex disk and then try to circumcise"
+  },
+  {
+    "t_start": 3528.829,
+    "t_end": 3531.589,
+    "text": "convex disk and then try to circumcise it by polygons with different number of"
+  },
+  {
+    "t_start": 3531.589,
+    "t_end": 3534.309,
+    "text": "it by polygons with different number of sides then that"
+  },
+  {
+    "t_start": 3534.309,
+    "t_end": 3536.93,
+    "text": "sides then that dependence of"
+  },
+  {
+    "t_start": 3536.93,
+    "t_end": 3538.549,
+    "text": "dependence of the volume"
+  },
+  {
+    "t_start": 3538.549,
+    "t_end": 3544.75,
+    "text": "the volume of and gone from of n somehow follows"
+  },
+  {
+    "t_start": 3544.75,
+    "t_end": 3551.93,
+    "text": "has nice properties so it has nice convexity properties"
+  },
+  {
+    "t_start": 3551.93,
+    "t_end": 3562.39,
+    "text": "so it has nice convexity properties this is a quite old but still a pretty"
+  },
+  {
+    "t_start": 3565.73,
+    "t_end": 3567.849,
+    "text": "so we'll see that in 1944 people still had time to think of they think about"
+  },
+  {
+    "t_start": 3567.849,
+    "t_end": 3571.73,
+    "text": "had time to think of they think about convex polygons so"
+  },
+  {
+    "t_start": 3571.73,
+    "t_end": 3575.329,
+    "text": "convex polygons so together"
+  },
+  {
+    "t_start": 3589.01,
+    "t_end": 3591.53,
+    "text": "and N is big or equal than three so"
+  },
+  {
+    "t_start": 3591.53,
+    "t_end": 3597.77,
+    "text": "so so let PN"
+  },
+  {
+    "t_start": 3600.47,
+    "t_end": 3607.309,
+    "text": "be the be an engine"
+  },
+  {
+    "t_start": 3609.91,
+    "t_end": 3616.549,
+    "text": "of minimum area"
+  },
+  {
+    "t_start": 3623.809,
+    "t_end": 3631.75,
+    "text": "Here Comes cry sorry to come scribe to about"
+  },
+  {
+    "t_start": 3635.03,
+    "t_end": 3637.91,
+    "text": "then the following actually convexity property holds so if we"
+  },
+  {
+    "t_start": 3637.91,
+    "t_end": 3645.349,
+    "text": "want to compute this the area of PM it is smaller or equal than"
+  },
+  {
+    "t_start": 3645.349,
+    "t_end": 3660.71,
+    "text": "is smaller or equal than arithmetic win of the volumes of p n"
+  },
+  {
+    "t_start": 3671.99,
+    "t_end": 3677.51,
+    "text": "and so unfortunately I will have no time to prove this theorem and the proof is I"
+  },
+  {
+    "t_start": 3677.51,
+    "t_end": 3686.03,
+    "text": "would say it's very geometric and Elementary it's given in a book of"
+  },
+  {
+    "t_start": 3688.91,
+    "t_end": 3690.65,
+    "text": "but it is somehow it's it takes some some time to"
+  },
+  {
+    "t_start": 3690.65,
+    "t_end": 3694.25,
+    "text": "some time to prove this so"
+  },
+  {
+    "t_start": 3697.97,
+    "t_end": 3700.789,
+    "text": "and so now as we if we believe in this result or accept this result"
+  },
+  {
+    "t_start": 3700.789,
+    "t_end": 3709.549,
+    "text": "then we are now on our finishing client for for the proof of the theorem by"
+  },
+  {
+    "t_start": 3709.549,
+    "t_end": 3746.39,
+    "text": "for for the proof of the theorem by so now we only have to collect all the"
+  },
+  {
+    "t_start": 3749.03,
+    "t_end": 3759.71,
+    "text": "and so now proof of theorem"
+  },
+  {
+    "t_start": 3761.03,
+    "t_end": 3768.349,
+    "text": "foreign that"
+  },
+  {
+    "t_start": 3774.53,
+    "t_end": 3776.45,
+    "text": "so C1 CN our congruent copies of one uh"
+  },
+  {
+    "t_start": 3776.45,
+    "t_end": 3786.89,
+    "text": "uh convex disk C"
+  },
+  {
+    "t_start": 3791.15,
+    "t_end": 3803.03,
+    "text": "and they form a packing inside of convex hexagon h"
+  },
+  {
+    "t_start": 3807.43,
+    "t_end": 3828.01,
+    "text": "and so let r i we convex polygons constructed as before"
+  },
+  {
+    "t_start": 3830.15,
+    "t_end": 3843.23,
+    "text": "it also will be known by PS would be the s-gon of mineral Mal area"
+  },
+  {
+    "t_start": 3854.21,
+    "t_end": 3874.19,
+    "text": "and so we would have the following inequality"
+  },
+  {
+    "t_start": 3877.849,
+    "t_end": 3881.75,
+    "text": "and here of course if we SS polygons are IR also circumscribed about C so their"
+  },
+  {
+    "t_start": 3881.75,
+    "t_end": 3884.569,
+    "text": "IR also circumscribed about C so their volumes have to be bigger or equal than"
+  },
+  {
+    "t_start": 3884.569,
+    "t_end": 3887.569,
+    "text": "volumes have to be bigger or equal than those of a minimum for a minimal polygon"
+  },
+  {
+    "t_start": 3887.569,
+    "t_end": 3891.73,
+    "text": "those of a minimum for a minimal polygon with same number of size"
+  },
+  {
+    "t_start": 3894.589,
+    "t_end": 3898.13,
+    "text": "and so now"
+  },
+  {
+    "t_start": 3904.13,
+    "t_end": 3912.89,
+    "text": "so now what will what we will use we are going to use this convexity here"
+  },
+  {
+    "t_start": 3952.15,
+    "t_end": 3965.99,
+    "text": "coincides with the volume of PS at integer points"
+  },
+  {
+    "t_start": 3968.569,
+    "t_end": 3973.789,
+    "text": "and so now what we are using now what we have to use we have to use"
+  },
+  {
+    "t_start": 3973.789,
+    "t_end": 3975.47,
+    "text": "now what we have to use we have to use the Johnsons inequality use the"
+  },
+  {
+    "t_start": 3975.47,
+    "t_end": 3988.37,
+    "text": "the Johnsons inequality use the complexity"
+  },
+  {
+    "t_start": 4018.67,
+    "t_end": 4021.609,
+    "text": "and so here we use the fact that we know what this average is"
+  },
+  {
+    "t_start": 4021.609,
+    "t_end": 4028.87,
+    "text": "what this average is so we can replace this value here by 6."
+  },
+  {
+    "t_start": 4031.69,
+    "t_end": 4036.789,
+    "text": "yeah and actually this finishes our proof because this is exactly what we"
+  },
+  {
+    "t_start": 4036.789,
+    "t_end": 4043.329,
+    "text": "proof because this is exactly what we wanted to prove in the theorem of first"
+  },
+  {
+    "t_start": 4047.89,
+    "t_end": 4050.95,
+    "text": "and so since um over time now so I will stop at this point and let you ask your"
+  },
+  {
+    "t_start": 4050.95,
+    "t_end": 4054.19,
+    "text": "stop at this point and let you ask your questions thank you"
+  },
+  {
+    "t_start": 4054.19,
+    "t_end": 4055.16,
+    "text": "questions thank you foreign"
+  },
+  {
+    "t_start": 4055.16,
+    "t_end": 4058.749,
+    "text": "foreign [Applause]"
+  }
+]

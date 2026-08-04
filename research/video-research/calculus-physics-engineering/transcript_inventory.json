@@ -1,0 +1,29 @@
+{
+  "slug": "calculus-physics-engineering",
+  "videos": [
+    {
+      "id": "WUvTyaaNkzM",
+      "title": "3Blue1Brown — Essence of calculus (series / ch.1 derivative)",
+      "has_transcript": true,
+      "chars": 15797,
+      "units": 11,
+      "url": "https://www.youtube.com/watch?v=WUvTyaaNkzM"
+    },
+    {
+      "id": "m_Psx7CdvDk",
+      "title": "Brain Station Advanced — Gradient, Divergence and Curl",
+      "has_transcript": true,
+      "chars": 16082,
+      "units": 10,
+      "url": "https://www.youtube.com/watch?v=m_Psx7CdvDk"
+    },
+    {
+      "id": "rB83DpBJQsE",
+      "title": "Khan Academy / 3B1B style multivariable (divergence theorem culture)",
+      "has_transcript": true,
+      "chars": 15674,
+      "units": 11,
+      "url": "https://www.youtube.com/watch?v=rB83DpBJQsE"
+    }
+  ]
+}

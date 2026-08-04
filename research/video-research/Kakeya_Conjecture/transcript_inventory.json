@@ -1,0 +1,59 @@
+{
+  "slug": "Kakeya_Conjecture",
+  "videos": [
+    {
+      "id": "5J3tYU_-IZI",
+      "title": "A Once-in-a-Century Proof: The Kakeya Conjecture",
+      "has_transcript": true,
+      "chars": 14381,
+      "units": 10,
+      "url": "https://www.youtube.com/watch?v=5J3tYU_-IZI"
+    },
+    {
+      "id": "IM-n9c-ARHU",
+      "title": "The Kakeya needle problem (the squeegee approach)",
+      "has_transcript": true,
+      "chars": 15905,
+      "units": 11,
+      "url": "https://www.youtube.com/watch?v=IM-n9c-ARHU"
+    },
+    {
+      "id": "LJcWhcM4okQ",
+      "title": "What is Hausdorff Dimension? Intuition, Gauge Functions, and Hausdorff Measures",
+      "has_transcript": true,
+      "chars": 11551,
+      "units": 9,
+      "url": "https://www.youtube.com/watch?v=LJcWhcM4okQ"
+    },
+    {
+      "id": "FQXbRGmAbUY",
+      "title": "Methods for Estimating Hausdorff Dimension: Bounds and The Mass Distribution Principle",
+      "has_transcript": true,
+      "chars": 8421,
+      "units": 7,
+      "url": "https://www.youtube.com/watch?v=FQXbRGmAbUY"
+    },
+    {
+      "id": "XUkfpgFakMQ",
+      "title": "Pham Manh Tuyen — Giả thuyết Kakeya (VI orientation)",
+      "has_transcript": false,
+      "chars": 0,
+      "units": 0,
+      "url": "https://www.youtube.com/watch?v=XUkfpgFakMQ"
+    },
+    {
+      "id": "pxVMKoZsVc8",
+      "title": "TOÁN PRO — Phỏng đoán Kakeya (VI orientation)",
+      "has_transcript": true,
+      "chars": 11809,
+      "units": 6,
+      "url": "https://www.youtube.com/watch?v=pxVMKoZsVc8",
+      "transcript_chars": 19151,
+      "knowledge_units": 6,
+      "status": "ok",
+      "pack_transcript": "transcripts/pxVMKoZsVc8_transcript.txt",
+      "pack_cues": "transcripts/pxVMKoZsVc8_cues.json",
+      "pack_units": "transcripts/pxVMKoZsVc8_knowledge_units.json"
+    }
+  ]
+}

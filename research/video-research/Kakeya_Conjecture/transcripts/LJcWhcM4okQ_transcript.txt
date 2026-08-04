@@ -1,0 +1,305 @@
+hello I'm wearing the sweater uh I put
+up a short I think I put up a short a
+while ago of when I got this in the mail
+like around Christmas of 2023 uh I
+haven't worn a video yet this is the
+first video I'm wearing it in so it's
+just I I love it so much it's so nice it
+feels so comfy I want to tell you about
+HRA Dimension
+today uh I want to tell you first about
+like the intuitive thing right so the
+goal this video is to talk about H
+Dimension and build it up via these
+things called gauge functions and I want
+to motivate it so in analysis what we
+want to know is growth of things um I
+guess is one of the ways you could put
+it so um if I go ahead and scale an
+object in RN how does that thing grow
+and so in RN usually this is formulated
+intuitively by just like how things
+scale but you can talk about this in
+other metric spaces as well so the idea
+is just comes from a myriad of examples
+so we go ahead and look at a line
+segment and uh you go ahead and stretch
+that by a factor of two then you're
+going to get two copies of that line
+segment it is quote unquote twice as
+long if you do the same thing with a box
+and you scale it up by two you're going
+to get four copies of that box in
+particular there is four times the area
+and then lastly if you go ahead and look
+at say serin's triangle and you go ahead
+and scale that up by a factor of two
+you're going to get three serinsky
+triangles which is three times this
+stuff uh it's not really area it's not
+really length but you're the scaling
+property is that you're getting three
+times as much of the stuff there
+so what is going on with that so there
+are two things happening here the first
+one is that we're changing the dimension
+of the object that we're scaling in some
+sense like in the naive sense right so
+if you go ahead and look at a line we
+naively say that that is a
+onedimensional object you scale up that
+onedimensional thing and that's what
+we're doing in that first example in the
+second example we have this
+two-dimensional box and we're scaling up
+that two-dimensional box and then and
+the last example uh the thing that you
+want to say or the thing that you should
+hopefully want to say is that the object
+that we're scaling
+should be a log base 2 of three
+dimensional object and why does that
+make sense and then the second thing
+that's happening is that we're changing
+our measure we're changing the way that
+we are measuring the object right in the
+first example we're using length and the
+second example we're using area and the
+third example we're using something
+that's not those two things because it's
+not area and it's not length but we're
+getting three times as much of it and so
+before we get into the how we're
+measuring it we should start with the
+why we say it's a certain Dimension part
+of the thing which also can be explained
+intuitively so in the case of the box
+you can think about this as choosing
+different measures to apply to it so the
+first measure that you might want to
+apply to a box might be just with length
+right so you try to apply the measure of
+length to a box and you could make a
+space filling curve that goes through
+the box and that space filling Curve
+will have infinite length uh in other
+words you would require infinitely many
+segments in order to go ahead and
+measure the length of that finite box
+another way to say that is that you
+would require infinitely many segments
+in order to measure the quote unquote
+length of that box and so with respect
+to this measure of length the Box would
+be infinitely big with area we just get
+a finite value which in this case turns
+out to be the length time the width or
+the length times the height however
+you're used to defining how area of
+rectangle works and then you could go up
+higher than area and you could say okay
+well what about volume how much volume
+does it take to measure the Box
+well area doesn't contain any volume so
+or at least hopefully that's an
+intuitive thing that you have in your
+brain from elementary school or primary
+school and so because area does not
+contain any volume the volume measure on
+this box is going to be zero and so if
+we do approach it in this naive way of
+saying that Dimension should be a
+continuous parameter and we go ahead and
+look at these types of measures that are
+associated with each Dimension if we are
+before two we should have infinite
+Dimension and if we are after two we
+should have zero measure and so if
+dimension works like this continuous
+real value thing and for each Dimension
+there is a particular measure we can go
+ahead and use this observation above to
+naively say that well if you are before
+two in this parameter uh of how you're
+measuring things then you should get
+infinite measure on this box and if you
+are after two then with this measure
+Associated to this parameter you should
+get zero measure on the box and there
+should be this jump from Infinity to its
+actual value for two which is that you
+actually get the length times the width
+at two which is some finite value and uh
+then that will jump all the way to zero
+so there's like this jump discontinuity
+that achieves a value somewhere in
+between zero and infinity in the middle
+there it might be zero or it might be
+infinite but there is some jump that
+occurs right and so we we say that
+something is of a certain Dimension when
+this jump occurs uh and this jump occurs
+by looking at all of these different
+types of measures so we need to make
+that type of measure more formal and in
+particular Associated to
+each measure there's this thing called a
+gauge function so a gauge function fee
+from the half closed interval 0 to
+Infinity to the half Clos interval from
+0 to Infinity is a function such that Fe
+of 0 is equal to Z Fe is non
+decreasing Fe of the open interval from
+0 to Infinity is a subset
+of the open interval from 0 to infinity
+and then 0 is equal to F of 0 which is
+equal to the Limit as T goes to zero of
+f of T in particular those last two
+conditions translate to f of x is
+positive when X is positive and f of x
+is continuous at zero the examples of
+gauge functions that are the most
+important in this context are the ones
+that are just your powered
+monomials um that is Fe of T is equal to
+T to the alpha power for Alpha greater
+than zero and we use these gauge
+functions to build what we call the hosr
+dimension and the hos Dimension is going
+to end up being this correct dimension
+thing that does the right stuff with
+objects like serinsky triangle for the
+cases of this video to Define it we have
+to do a little bit of work first let XD
+be a metrix B and Fe from half close 0
+to Infinity to half close 0 to Infinity
+be a gauge function let Delta be greater
+than zero and a be a subset of your
+metric space accountable cover of a such
+that the supremum of the diameters of
+those elements of the cover are less
+than or equal to Delta is said to be a
+Delta cover of a being a cover of a set
+just means that when you un all of those
+sets together you're going to be a
+superet of the set set that you care
+about we go ahead and then Define this H
+sub Fe to the Delta power of a to be by
+definition equal to the infimum of the
+set of
+sums of Fe of the diameter of these CIS
+as I ranges from 1 to Infinity such that
+those CIS form a Delta cover of a
+there's a few things that are going on
+here the first thing is that fee being a
+gauge function what gauge functions
+actually do is that they take this
+information about the metric and they
+translate it into this like relevant
+measure type information you can think
+about this more intuitively with the
+segment and the box so in the case of
+the segment the gauge function is just
+the identity so distance is the correct
+thing to measure with in the case of the
+Box the gauge function is going to be
+t^2 or some constant positive multiple
+of t^2 because it needs to take distance
+information which is uh encoded in the
+diameter of the box and translate it
+into information about the area which we
+get from squaring length next the infom
+uh that we take over all of these things
+is going to make this H sub Fe to the
+Delta a what's called an outer measure I
+don't have enough time in this video to
+tell you what an outer measure is and I
+haven't talked about it before which
+means I should probably take some time
+to do some uh General measure Theory
+things on this channel at some point so
+uh we'll come back to that in the future
+but for now what you need to know is
+that the infimum is important from a
+formalism point of view it makes this
+collection of numbers something that is
+a thing that we can do the correct type
+of analysis with once we have all of
+that down we go ahead and Define then H
+sub Fe of a which is by definition equal
+to the Limit as Delta goes to zero of
+the H sub Fe to the Delta of A's for
+every a within the the particular Burell
+sets of X that we care about taking this
+limit as Delta goes to zero this is what
+makes a measure in the measure theoretic
+sense and we call this the hos dorf
+measure induced by fee and we call the H
+Fe to the Delta thing the hos Dorf outer
+measure induced by Fe now for these
+special gauge functions the ones that
+are F of T is equal to T to the alpha or
+here I'll write down t to the S we're
+going to Define H uh sub t to the S to
+be equal to just H subs and that is
+going to be called the S dimensional hos
+dorf measure and so now we have this
+thing that I've said is the hos dorf me
+measure and I want to somehow
+communicate that it is the thing that is
+appropriate and will give us the hostor
+Dimension or this notion of Dimension
+that we've been intuitively talking
+about for this video and uh to do that
+we just need to do a little bit of
+analysis and in that analysis we want to
+show that the graph behavior that we had
+before happens that is you'll have
+something that starts out at infinity
+and then once it hits the parameter that
+we call the dimension it bounces uh to
+zero and then after that parameter it's
+always zero so to see this we can go
+ahead and just look at a particular case
+Suppose there is a parameter S1 for
+which the S1 dimensional hos dorf
+measure of a is less than infinity so
+now we consider some S2 that's greater
+than S1 then the S2 dimensional hosr
+measure of a is going to be equal to
+that limit as Delta goes to zero of H
+sub S2 to the Delta of a that's less
+than or equal to the Limit as Delta goes
+to zero of Delta the S2 - S1 time H sub
+S1 the Delta of a and then because S2 -
+S1 is greater than Z the Delta to the S2
+minus S1 power that limit is going to go
+to zero so whatever we get out is going
+to be 0 times the S1 dimensional hos
+doorf measure of a which because we said
+it was finite is going to be equal to
+zero so in particular if there is a
+place where it is finite then there is
+this jump point that is exactly as we
+described
+with the box and that's what we call the
+hos Dimension is that jump point for
+this s dimensional hosr measure as s
+ranges over the positive real numbers
+I've told you what hosr dimension is I
+did what the title of the video says so
+we're good right right yes uh so that's
+that's all for today if you enjoyed this
+video give it a thumbs up and you can
+subscribe for more math stuff um I
+usually try to focus on things Beyond
+calculus um but are still analysis and
+flavor
+um well that's not always true uh but I
+have more math things on here so if
+you're interested in more math things
+you can go look at those otherwise um
+you can also leave me a comment if you
+want to see me cover certain things but
+as always I am Nathan this one was chalk
+and I will see you next time

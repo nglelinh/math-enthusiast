@@ -1,0 +1,189 @@
+this video is sponsored by brilliant here is a cosine function with a
+frequency of 1 Hertz and I am going to sample it with a frequency of 7 Herz
+sample it with a frequency of 7 Herz meaning I'll have seven equally spaced
+meaning I'll have seven equally spaced snapshots of the function essentially
+snapshots of the function essentially every second if we think about the
+time now if I take away the original signal and just handed you these samples
+signal and just handed you these samples and I told you the original signal was a
+of one and it was sampled at a rate of 7 Herz so you know mostly everything could
+Herz so you know mostly everything could you then determine what the original
+signal was or asked in a different way are there any other sinusoids that would
+are there any other sinusoids that would have these exact same values and thus
+have these exact same values and thus would look exactly like this if sampled
+would look exactly like this if sampled that's 7 Hertz well our original signal
+that's 7 Hertz well our original signal with a frequency of 1 Herz of course
+with a frequency of 1 Herz of course contains all these samples now if we
+contains all these samples now if we plot a sinusoid with a frequency of 2
+plot a sinusoid with a frequency of 2 Hertz notice it does not contain all
+Hertz notice it does not contain all these samples neither does 3 Herz or
+these samples neither does 3 Herz or four but once we hit six Hertz all the
+samples line up with this new function the same thing also happens at
+function the same thing also happens at 8 Herz 13 Herz 15 Herz and infinitely
+many more so you could not tell me the original function if I gave you these
+original function if I gave you these samples because all the other
+information is lost and you'd have no idea whether the original was this or
+idea whether the original was this or this or something else it could
+this or something else it could technically be anything that goes
+through all these sampled points but if we stick to just sinusoids then you
+we stick to just sinusoids then you still have unlimited
+choices however notice that one Hertz the actual original signal is the lowest
+the actual original signal is the lowest frequency that you could guess if we go
+down to anything else like5 Hertz this clearly will not go through all the
+clearly will not go through all the samples and nothing below 1 Herz
+will now if we go back to our original 1 Herz signal and Sample it a little
+Herz signal and Sample it a little slower let's say four times per second
+slower let's say four times per second well now the same thing will happen but
+well now the same thing will happen but at different
+frequencies these samples correspond to our original one Herz signal but also a
+our original one Herz signal but also a three Herz signal will go through all
+three Herz signal will go through all these points same with 5 Hertz 7 Hertz
+these points same with 5 Hertz 7 Hertz and all odd
+numbers you could guess any of these from the samples given but 1 Herz is
+from the samples given but 1 Herz is still the
+lowest however going back to our original signal something happens when
+original signal something happens when you take the sampling frequency below 2
+Hertz let's say we sample at 1.5 Herz now if I gave you these samples there
+now if I gave you these samples there are still infinitely many other
+are still infinitely many other sinusoids that could contain these like
+sinusoids that could contain these like one with a frequency of 2 Herz or 2.5
+but now another sinusoid that works is one with a frequency of 05 Hertz which
+one with a frequency of 05 Hertz which is a lower frequency than our original
+is a lower frequency than our original signal so of the infinitely many correct
+signal so of the infinitely many correct guesses you can make the original is not
+the one with the lowest frequency in this case there is one
+lower this change happens when your sampling frequency is less than twice
+sampling frequency is less than twice the frequency of your original sinusoid
+the frequency of your original sinusoid the original was 1 Herz meaning you need
+a sample at more than 2 Herz or you'll get this
+issue what we just saw is basically the idea behind the nightquest shanon
+sampling theorem which says you have to sample your signal at a rate faster than
+sample your signal at a rate faster than twice the highest frequency in your
+twice the highest frequency in your original signal to avoid
+Distortion this is why for example when I open audacity to record this video
+I open audacity to record this video there's a preset to a frequency of 44.1
+there's a preset to a frequency of 44.1 khz that number is slightly more than
+khz that number is slightly more than double the maximum frequency humans can
+double the maximum frequency humans can hear 20
+khz so here's where that comes from sine waves have frequency domains that just
+waves have frequency domains that just look like this these two spikes really
+look like this these two spikes really represent one single frequency that is
+represent one single frequency that is the sine wave itself but most other
+the sine wave itself but most other functions like a sync function for
+functions like a sync function for example have a continuous spectrum of
+example have a continuous spectrum of frequencies that make it up but now if I
+frequencies that make this up yes as in what sign functions make up a bunch of
+what sign functions make up a bunch of samples or
+spikes well I'll just tell you the answer and I'm going to make some room
+answer and I'm going to make some room here is you just take the original
+here is you just take the original frequency domain function and make
+frequency domain function and make copies of it around integer multip
+of the sampling frequency so if we were sampling at 7 Hertz then this would be
+sampling at 7 Hertz then this would be seven and 14 and so on both positive and
+seven and 14 and so on both positive and negative and we do this forever so the
+frequencies that make up a bunch of samples is this here that's weird and it
+samples is this here that's weird and it makes sense because the forier transform
+makes sense because the forier transform that calculates a function's frequency
+that calculates a function's frequency domain has this really nice property
+domain has this really nice property that it works in reverse the forier
+that it works in reverse the forier transform of a sync function is the
+transform of a sync function is the rectangular function which means the
+rectangular function which means the forier transform of the rectangular
+function technically applying the forier transform twice gives you the original
+function reflected about the y- AIS but since this is a symmetric function we
+since this is a symmetric function we could kind of ignore it
+here now any periodic function that does the same thing over and over can be made
+the same thing over and over can be made up of several sinusoids at discrete
+up of several sinusoids at discrete frequencies not a continuous spectrum of
+frequencies not a continuous spectrum of them so the frequency domain looks like
+them so the frequency domain looks like this these spikes at different
+this these spikes at different frequencies that represent the sinusoids
+that make it up or the fora series really but this means using that reverse
+really but this means using that reverse operation that if we have a bunch of
+spikes or samples as our original function its frequency domain will look
+function its frequency domain will look like a periodic function what we just
+saw so that's why this sample discrete function has a forier transform that is
+function has a forier transform that is periodic you can think about it
+periodic you can think about it backwards and it makes more
+sense I'm not going to show the math of convolution in this video cuz I feel it
+convolution in this video cuz I feel it needs its own but that's how you would
+needs its own but that's how you would mathematically find this function
+essentially sampling a signal is like multiplying it by all these samples or
+multiplying it by all these samples or dck Delta functions and multiplying in
+dck Delta functions and multiplying in time means doing convolution in the
+time means doing convolution in the frequency domain which kind of involves
+frequency domain which kind of involves sliding one function against another so
+sliding one function against another so that's what leads to this periodic
+that's what leads to this periodic function to
+Infinity but now if someone gave you this sampled function whose frequency
+domain looks like this you could apply a low pass filter to the sampled signal
+low pass filter to the sampled signal and remove the higher
+frequencies giving you back your original frequency domain centered at
+original frequency domain centered at zero and thus You Could reconstruct your
+signal and the reason for even doing this like why sample at all is because
+this like why sample at all is because you can send those samples through a
+you can send those samples through a computer to do complicated stuff if you
+computer to do complicated stuff if you just use the continuous signal of like
+just use the continuous signal of like someone's voice if you want to do
+something to it you need circuits which take time to build and aren't so easy to
+very easy to change now because these copies happen at integer multiples of
+the sampling frequency if you sample at a slower rate those copies start to come
+a slower rate those copies start to come together until you reach a point where
+together until you reach a point where they intersect and combine this is
+called aliasing and that that's when you lose information cuz even when you apply
+a filter you're not getting back the original signal there's Distortion due
+original signal there's Distortion due to the slow sampling and the resulting
+to the slow sampling and the resulting interference in the frequency
+domain and that aliasing will happen once your sampling frequency dips below
+once your sampling frequency dips below twice the highest frequency in your
+signal that's where the overlap starts to happen and if you sample slower and
+to happen and if you sample slower and slower you get more interference where
+these would add together and you could not reconstruct your original signal so
+not reconstruct your original signal so now to bring It full circle if you were
+wondering how I was getting these functions before that would have the
+functions before that would have the same sample values and how we know
+same sample values and how we know there's nothing in between that also
+works it's because of what I just showed here is our original cosine function
+here is our original cosine function frequency 1 Hertz and here's the 4A
+frequency 1 Hertz and here's the 4A transform it's two spikes really
+transform it's two spikes really representing a single frequency of 1
+Hertz it's just mirrored over the Y AIS for reasons so you actually have a spike
+for reasons so you actually have a spike at plus and minus 1 Herz but now when
+at plus and minus 1 Herz but now when you sample this signal up top at let's
+you sample this signal up top at let's say 7 htz to find what the new frequency
+say 7 htz to find what the new frequency domain looks like you make copies at 7
+domain looks like you make copies at 7 Hertz 14 21 and so on same with the
+Hertz 14 21 and so on same with the negative values so in the frequency
+negative values so in the frequency domain after sampling we'll find spikes
+domain after sampling we'll find spikes at 6 Herz 8 H Hertz 13 15 and all the
+numbers I showed before that is where they come from
+and if I zoom in a bit first then we lower the sampling frequency to 1.5
+Hertz the copies start to cross each other and in this case we're left with
+other and in this case we're left with one frequency Spike at 05 here which is
+one frequency Spike at 05 here which is lower than our original
+signal so that's why a lower frequency guess is valid from these samples you
+guess is valid from these samples you didn't sample fast enough and thus
+didn't sample fast enough and thus aliasing occurred to avoid that you need
+aliasing occurred to avoid that you need need to sample at a rate at least twice
+signal so that is the idea behind the Nyquist Shannon sampling theorem and if
+Nyquist Shannon sampling theorem and if you enjoyed what you saw here I highly
+you enjoyed what you saw here I highly recommend checking out brilliant the
+sponsor of this video brilliant is an educational platform home to thousands
+educational platform home to thousands of lessons in math science and
+of lessons in math science and engineering with new lessons being added
+engineering with new lessons being added monthly and a big focus with brilliant
+is real world applications as they show you exactly how to apply the formulas
+you exactly how to apply the formulas and Concepts within their
+lessons their Vector calculus course for example goes through several topics in
+example goes through several topics in multivariable and Vector calculus which
+multivariable and Vector calculus which includes fora transforms a crucial Topic
+includes fora transforms a crucial Topic in math science and engineering and
+in math science and engineering and there you'll get to learn more of these
+problems visuals and their interactive exercises and as you can see there are
+so many courses to choose from so no matter what your background there will
+be something for you and you can now try everything brilliant has to offer free
+for a full 30 days just go to brilliant.org zakar or click the link in
+brilliant.org zakar or click the link in the description below plus the first 200
+the description below plus the first 200 of you to sign up will get 20% off
+brilliant's annual premium subscription with that going to end that video there
+thanks as always to my supporters on patreon social media links to follow me
+patreon social media links to follow me are down below and I'll see you all in

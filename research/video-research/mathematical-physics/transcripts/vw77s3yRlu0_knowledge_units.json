@@ -1,0 +1,317 @@
+[
+  {
+    "id": "ku_video_vw77s3yRlu0_8",
+    "t_start": 8.2,
+    "t_end": 100.6,
+    "type": "overview",
+    "summary": "very happy to be given the opportunity to introduce the first speaker and who's going to talk on one of the topics of one of the clay millennium topics of one of the clay millennium price problems peter constantine was educated at the university in bucharest and did his phd under shemel bucharest and did his phd under shemel agmon at the hebrew university in jerusalem after a long and distinguished career at after a long and distinguished career at the university of chicago he moved last the university of chicago he moved last year to princeton running into william martin and junior departm…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_100",
+    "t_start": 100.6,
+    "t_end": 191.5,
+    "type": "overview",
+    "summary": "with this occasion we have and i would like to thank the clay foundation for like to thank the clay foundation for for facilitating this week we have a for facilitating this week we have a wonderful workshop wonderful workshop on problems related to uh the navy and uh i think that um in some sense that justifies all this endeavor we are that justifies all this endeavor we are here uh to do math and that's what this building is about so i talked about the stocks equations and um i'm imagining an audience of and um i'm imagining an audience of mathematicians but not necessarily mathematicians…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_191",
+    "t_start": 191.5,
+    "t_end": 285.4,
+    "type": "overview",
+    "summary": "uh so um let me put it up a little bit and then i'm gonna uh explain each third and then i'm gonna uh explain each third okay so this equations i'm i also would like to uh refer also to my colleagues the people refer also to my colleagues the people who are actually experts into the workshop and so forth um with a little patience at the end little patience at the end i will give them something this is after all the name of this meeting is a research conference so at i will give them something that is new fresh to buy by anyone in fresh to buy by anyone in order of months and the definition …"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_288",
+    "t_start": 288.5,
+    "t_end": 385.1,
+    "type": "overview",
+    "summary": "so it is vector field differentiating u itself so this is a itself so this is a if you want these are three equations okay new and you'll need to remember that mu is a number and it is the kinematic viscosity positive or zero number uh it has positive or zero number uh it has units of let's say length square over units of let's say length square over time so 10 meters square time so 10 meters square per second if you want the normal in this room maybe about 10-2 um this is the laplacian cartesian um this is the laplacian cartesian laplacian two derivatives in each laplacian two derivatives …"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_385",
+    "t_start": 385.1,
+    "t_end": 476.6,
+    "type": "overview",
+    "summary": "and class d3 music so this is the tangent of the ex the fact so in other words this uh this whole description here if you want your whole description here if you want your description and a tangent space of a description and a tangent space of a infinity dimensional kind of statement the divergence is zero is really the tangent to the statement that really the tangent to the statement that volumes are not changed under this group of transformations a group of this group of transformations a group of volume preserving difficult mortises and this is a statement that has a tangent statement th…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_478",
+    "t_start": 478.6,
+    "t_end": 568.8,
+    "type": "overview",
+    "summary": "you have the parabolic equation and that has an arrow and that is a reflection of mixing molecular which you see um this term here u dot graph u together this term here u dot graph u together with the time derivative with the time derivative is called the material derivative so expresses actually time derivative acro along particle trajectories you can along particle trajectories you can imagine the flow moving and if you instead of sticking a point in space and letting the observing the flow past that point observing the flow past that point you can label the original position and with the…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_568",
+    "t_start": 568.8,
+    "t_end": 664.1,
+    "type": "overview",
+    "summary": "let's think it's a lamborghini and it moves like 200 kilometers an hour it moves like 200 kilometers an hour and there is nothing else okay uh and there is nothing else okay uh this creates a flow because i this creates a flow because i moved something and there is a moved something and there is a resistance in the air and things to um kind of like agitated and these are essentially the and these are essentially the realistic boundary conditions that we realistic boundary conditions that we are not talking about but you can imagine them also as an impulsive initial condition so you have a v…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_664",
+    "t_start": 664.1,
+    "t_end": 754.9,
+    "type": "overview",
+    "summary": "so i apologize it's not gonna be a cute dog so this is the end of the pictures [Music] so um i'm gonna motivate a little bit the issues a little bit the issues with some elements that come from with some elements that come from turbulence turbulence is a very turbulence turbulence is a very important important [Music] endeavor it has practical applications uh it has attempts to theory it is one uh it has attempts to theory it is one of the hardest the hardest non-linear problem and it is hard because it is at human level so the problems that have essentially a balance of scales and balance …"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_754",
+    "t_start": 754.9,
+    "t_end": 845.8,
+    "type": "overview",
+    "summary": "away a little bit from the navies observations and a shuffle of maybe uh open directions so uh turbulence i'm quoting from a book so uh turbulence i'm quoting from a book by yuri alfred who is a a friend and and a a good theorist who the entire and a a good theorist who the entire life for working in terminus and the book is called turbulence and the legacy of called turbulence and the legacy of corporal world and it is corporal world and it is a wonderful book so these are supposed experimental laws so the first one you can read essentially says that if you can read essentially says that i…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_845",
+    "t_start": 845.8,
+    "t_end": 936.5,
+    "type": "overview",
+    "summary": "necessarily small and the statement is that epsilon is now the energy is measured in an average cell so you have here in an average cell so you have here let's say for now a queue which is the unit box in which the things are periodic so box in which the things are periodic so you need period box you need period box uh pretty soon it will be actually so uh the size of of the box or the volume is that cube and one half because it's kinetic energy this is the average kinetic energy this is the average kinetic energy and from the navier-stokes equation and from the navier-stokes equation exerc…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_936",
+    "t_start": 936.5,
+    "t_end": 1030.5,
+    "type": "overview",
+    "summary": "those numbers if you take the velocity increment i'm sorry equal and i wrote it with his notation v it's okay so that means i take you here minus u there and the distance between u there and the distance between here and there is l actually you project description and if they are separated by distance l that the expected behavior is too far two-thirds power two-thirds power so i explain here what the range number the product of the typical velocity well a typical glossy mate is the mean square velocity a typical length in the case of the lamborghini it was in the case of the lamborghini it …"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_1030",
+    "t_start": 1030.5,
+    "t_end": 1122.9,
+    "type": "overview",
+    "summary": "perhaps is essentially in turbulence and this epsilon is the same epsilon from here so in turbulence the statement is that so in turbulence the statement is that what is differential analysis if you what is differential analysis if you think about epsilon being the rate of change of energy that's l square but t squared by another t and square over t squared by another t and square over t cubed and then you multiply by another l it becomes l cubed over t cubed and you want it to u n over t square so there's only two thirds power that can do that this is supposed to happen in the inertial ran…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_1122",
+    "t_start": 1122.9,
+    "t_end": 1214.4,
+    "type": "overview",
+    "summary": "the um spectrum also has a cutoff as supposed to decay like this up to kd as supposed to decay like this up to kd and kd is a cut off where viscosity and and kd is a cut off where viscosity and thursday and at that top off you see again but you see now that the viscosity but you see now that the viscosity becomes very small this k d goes to infinity or l this l goes to zero so in some sense this l goes to zero so in some sense you are taking uh this law to you are taking uh this law to asymptotically becomes valid for all asymptotically becomes valid for all or this log asymptotically becom…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_1214",
+    "t_start": 1214.4,
+    "t_end": 1310.8,
+    "type": "overview",
+    "summary": "behooves us to explain this okay so here are some questions this is this studio is the existence of this product zero or not not not here i write it in a different way is there a viscosity different way is there a viscosity independent positive i mean energy transfer rate in the inertial range so inertial ranges this range of range so inertial ranges this range of wave numbers and you can think of the energy you can freely transform the thing and you can freely transform the thing and truncate that k and ask yourself truncate that k and ask yourself is there a transfer from k to higher case…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_1310",
+    "t_start": 1310.8,
+    "t_end": 1400.8,
+    "type": "overview",
+    "summary": "so um and now maybe there are some engineers and a real physicist in the audience i'm going to be a little going to be a little involved here i think the analysis involved here i think the analysis generates ideas and they're relevant to complex fluids with industry and biological with industry and biological applications uh if anything at all at the minimum they'll give you they'll give you better ways to compute to weather and to fluid structure interaction by which means actually having fluids interacting means actually having fluids interacting with flexible boundaries which have engine…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_1400",
+    "t_start": 1400.8,
+    "t_end": 1492.1,
+    "type": "overview",
+    "summary": "older than the navier stokes equation it actually is due to euler and it's um we'll talk about it pretty soon so there is a conjecture by osaka now so there is a conjecture by osaka now arsenal flagger conjecture is a few years older than kolmogorov's uh spectrum from auburn kolmogorov's uh spectrum from auburn but they didn't know he didn't know and the conjecture is in some sense related to that so the conjecture says that if you take euler equation no laplacian no viscosity euler equation no laplacian no viscosity uh the solutions will conserve energy if are smoother than c13 that means …"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_1492",
+    "t_start": 1492.1,
+    "t_end": 1583.2,
+    "type": "overview",
+    "summary": "world record space but this has been done uh in stages by gregory a by uh wayne on earth and myself richard robert wayne on earth and myself richard robert and then a bunch of friends more and then a bunch of friends more late later this is a complicated space late later this is a complicated space but let me say but let me say l3 we're going to encounter this and i these are lp spaces so you take the object is raising to the third power and integrate in time and the object is the norm of so the other third is this one there so it's a third derivative and then there it's a third derivative …"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_1583",
+    "t_start": 1583.2,
+    "t_end": 1676.2,
+    "type": "overview",
+    "summary": "the situation so there is work by the levy sensei um who went to scs spaces by using convex integration scs spaces by using convex integration ideas each principle and diminishing of nonlinear fluxes so these nonlinear fluxes so these are i both a conjunctions of ideas that and romo and uh the uh the school um and the school of people who do um and the school of people who do convex integration so um the current world record is one-fifth uh a little worse than one-fifth and this is due to phil isaac who's uh and moving to mit and his additional idea was this material derivative as we idea w…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_1676",
+    "t_start": 1676.2,
+    "t_end": 1769.0,
+    "type": "overview",
+    "summary": "the other order is to take time to infinity first that's time to infinity first that's appropriate for experimental situations in let's say a finite region so you can imagine and a finite region so you can imagine and some of you may have actually some of you may have actually participated in these things uh participated in these things uh the taylor kwait experiment in which there are concentric cylinders one is rotated that's how you impart like the lamborghini except that it's a whole fleet of lamborghinis and they whole fleet of lamborghinis and they never stop so it's a sheer induced m…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_1768",
+    "t_start": 1769.0,
+    "t_end": 1859.3,
+    "type": "overview",
+    "summary": "of you go to zero so this is described by selected stationary described by selected stationary statistical solutions by which i mean you take the solution i forgot maybe i didn't because it shouldn't maybe i didn't because it shouldn't depend on initial data that fix new you take a long time average maybe measure it with long time average maybe measure it with some functional some functional then you record that take very long time and only then take the limit to zero measure five goes to some numbers uh and this will end up by being an invasive statistical solution now that's invasive stat…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_1859",
+    "t_start": 1859.3,
+    "t_end": 1949.4,
+    "type": "overview",
+    "summary": "everybody some of the basic basic facts about nabioscope very basic so um there is this global weak solutions refinement energy of treating obvious refinement energy of treating obvious stocks equations this is the result stocks equations this is the result of john the ray around 1934 of john the ray around 1934 so globally is in time and also so globally is in time and also arbitrary initial data in l2 square arbitrary initial data in l2 square integral we means uh the solutions satisfy the equations let's say as distributions equations let's say as distributions okay after we test them wi…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_1949",
+    "t_start": 1949.4,
+    "t_end": 2040.0,
+    "type": "overview",
+    "summary": "in appropriate sets then 3d problem is uh exists global smooth solutions is uh exists global smooth solutions uh for euler 3d euler these solutions smooth solutions for sure and uh a basic balance this is the energy uh a basic balance this is the energy balance if there are no forces that stir balance if there are no forces that stir the fluid the fluid the energy time t is less than the at time zero there is no increase in energy and the rate of energy and the rate of dissipation is proportionate as we saw dissipation is proportionate as we saw with the intelligence with the intelligence y…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_2039",
+    "t_start": 2040.0,
+    "t_end": 2130.8,
+    "type": "overview",
+    "summary": "mu is given then you ask the question for all you okay smooth enough seizure infinity but now the two now the two problems are related and different i'm gonna start talking about how to graph these talking about how to graph these problems and i'll start with some things that make them related make them related a way to grab them in a way that looks and then i'll mention some differences so at this point so at this point uh where uh first of all there is an old result of qatar that for short time qatar that for short time oil solutions are smooth there is a no result of mine that for a long…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_2130",
+    "t_start": 2130.8,
+    "t_end": 2223.8,
+    "type": "overview",
+    "summary": "of that small renault number and there is this gap which i think is quite is this gap which i think is quite artificial and needs to be filled artificial and needs to be filled because that would be a weird situation you have but maybe not because you know there is not there is not initial data for initial data accounting there is a deeper relation because i'm talking about regulation and the deeper talking about regulation and the deeper regulation has to do with vortex regulation has to do with vortex dynamics definition of non-linearity and dynamics definition of non-linearity and vortex…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_2223",
+    "t_start": 2223.8,
+    "t_end": 2315.1,
+    "type": "overview",
+    "summary": "or without viscosity so and also physically the goodies are the issue so vorticity is all i'm going to give you a vorticity is all i'm going to give you a a we're going to try to grab this problem three times and each time i'm going to say this is all because it is all the director criteria because it is all the director criteria so for the navi soaks equations if you knew that the l2 norm l to norm meaning that the l2 norm l to norm meaning integral of the square of the thing to the fourth power so integral of the square of the thing to one half in the fifth so 84 to the fourth power in ti…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_2315",
+    "t_start": 2315.1,
+    "t_end": 2406.8,
+    "type": "overview",
+    "summary": "is that infinity maximum verticity if that is finite that the solution is easy that is finite that the solution is easy what's known for euler what's known for euler nothing for an obvious stocks again this goes back to the rate in the integral of gradient u square and the integral of omega l to square the same thing so this is the dissipation of them okay um what is the story about your recommendation of knowledge let me go recommendation of knowledge let me go back a little bit back a little bit and remind you of this third the reason why this term is absent into d is geometric omega poin…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_2406",
+    "t_start": 2406.8,
+    "t_end": 2497.6,
+    "type": "overview",
+    "summary": "in regions of high vorticity so it doesn't have to be smooth where the doesn't have to be smooth where the vertices vertices might have trouble being defined there stops socially this has been improved over the years by a number of improved over the years by a number of threads removing the the smoothness here so we asked for liquids and then so we asked for liquids and then structures enough and so forth and uh recently by um rich who who did actually a very rich who who did actually a very interesting combination of coherent interesting combination of coherent patterns and the criticality…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_2497",
+    "t_start": 2497.6,
+    "t_end": 2591.1,
+    "type": "overview",
+    "summary": "the um the l one norm okay okay the l unknown the stocks actually is not unknown the stocks actually is not increasing so it's a very good increasing so it's a very good way of of uh quantifying this so we look at that and then people have actually numerics and then what actually numerics and then what they see is tubes intense tubes or they see is tubes intense tubes or vertices and uh the as they stretch because of circulation as you uh know because of circulation as you uh know from watching skating maybe there is a conservation of circulation the closed path of velocity does the faster …"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_2591",
+    "t_start": 2591.1,
+    "t_end": 2683.6,
+    "type": "overview",
+    "summary": "is not allowed in the other equations but it's perfectly allowed and happens a but it's perfectly allowed and happens a lot in viscous fluids lot in viscous fluids and this happens several times and if you don't fall everything goes down fall everything goes down so this is a scenario it's not a fear are an infinity bound on gradient or maybe herder on the gradient maybe herder on the gradient implies regularity and this pathetic implies regularity and this pathetic little bound on the gradient okay so this gap but i think there is physics behind it but i think there is physics behind it so…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_2683",
+    "t_start": 2683.6,
+    "t_end": 2774.9,
+    "type": "overview",
+    "summary": "and what's known uh which i call or antarctica i mentioned a second or antarctica i mentioned a second what's known is that the time integral what's known is that the time integral of u you know infinity is bounded this is a very nice very nice bound actually it tells you that bounded by the energy budget by whatever energy you have initially so this tells you that you cannot carry any blood that occurs if you think it happens here it will happen at most at the distance it's a distance at the at the distance it's a distance at the distance that's prescribed distance that's prescribed after …"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_2774",
+    "t_start": 2774.9,
+    "t_end": 2865.9,
+    "type": "overview",
+    "summary": "and for l3 what's known easily by some interpolation and stuff um is that the entry norm is not bounded but rather integrable to the fourth part but rather integrable to the fourth part so there are always these tantalizing so there are always these tantalizing differences it's not like the thing is differences it's not like the thing is completely hopeless there is a finite distance you think especially if you're not an expert think especially if you're not an expert there's no such thing for euler and no there's no such thing for euler and no such thing for very good reason euler is not r…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_2865",
+    "t_start": 2865.9,
+    "t_end": 2956.8,
+    "type": "overview",
+    "summary": "three dimensions and uh here it is there is no pressure there is no there is no pressure there is no divergence free if you erase this laplacian you shock you create discontinuous velocities if you restore the laplacian the solution is smooth and that is because solution is smooth and that is because there is a maximum principle it doesn't so for navier stokes the straightforward maximum principle that maximum principle that i was just mentioning is obstructed by i struggle to find the right words um i'm not saying that there is no um i'm not saying that there is no maximum principle maximu…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_2956",
+    "t_start": 2956.8,
+    "t_end": 3047.2,
+    "type": "overview",
+    "summary": "this test e3 uh you take uh this squared and if you knew that that's and if you knew that that's uh integrable in time then u is smooth they show that actually you need only lower bounds you don't need lower bounds you don't need absolute value of t and that's a very interesting and harder theorem this upper bound things are very so uh here is why they come you can write down an equation for lq evolution write down an equation for lq evolution of the velocity come from the of the velocity come from the producer and conditions you have the of integrals of velocity to some power you take the …"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_3050",
+    "t_start": 3050.9,
+    "t_end": 3141.8,
+    "type": "overview",
+    "summary": "okay so now uh for those who are patient and uh are still with me and uh are still with me i'm gonna uh write down some formulas for the best now uh the uh treadmill ramp moves up a few and the degree of boredom will increase dramatically because i'm gonna write for me okay so uh those who are interested in these will be interested i interested in these will be interested i believe that are very interesting and very important so we start be taking this is the equation that the pressure this is the equation that the pressure satisfies both euler and obviously satisfies both euler and obvious…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_3141",
+    "t_start": 3141.8,
+    "t_end": 3232.1,
+    "type": "overview",
+    "summary": "course we are thinking about solutions and we are going to take spherical averages this is all this will be on your test okay it is on maybe second year okay so um you take spherical averages it's a you take spherical averages it's a essentially uh essentially uh uh level of freeze john's book on on bd uh level of freeze john's book on on bd take certain averages of a denoted by take certain averages of a denoted by bar at distance r so this is the ball of radius r around my point x and i think it's very good average i'm gonna the only little trick i'm gonna do which is pure luck i think is…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_3232",
+    "t_start": 3232.1,
+    "t_end": 3324.2,
+    "type": "overview",
+    "summary": "heretic equations monopolising dilemmas are an important thing and in this particular case i put quotations that really not monotonic quotations that really not monotonic but you have a local uh odes if you wish and this is uh on the web now and on my webpage so you on the web now and on my webpage so you take a point you take a place and you take a point you take a place and you take any solution including the harmonic pieces that are there i take any vector pieces that are there i take any vector and i compute the r derivative of this average pressure plus something and i get an equation …"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_3324",
+    "t_start": 3324.2,
+    "t_end": 3416.5,
+    "type": "overview",
+    "summary": "think in terms of orders of magnitude so it tells you that p minus p bar is of the order delta r u squared where delta r let's say is the supremum and a distance r i think that's modulus of the distance the vector u at distance r and vector u where i'm interested square that call that delta r of u and i have here that t minus t bar is of and i have here that t minus t bar is of the order delta r of the order delta r of u and this is an average dr overall the same thing so um the fact that p is arbitrary is reflected here because p is known after an harmonic function but for a harmonic funct…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_3416",
+    "t_start": 3416.5,
+    "t_end": 3510.1,
+    "type": "overview",
+    "summary": "annular average so average on the annulus of the pressure and now this is going to be used in a second is going to be bounded so pi is simply the average of that thing is simply the average of that thing before you don't need to remember anything of course but essentially here is the course but essentially here is the annulus you have the annulus you have increments of the velocity with respect to the center square that's what we need to remember you have a singular integral with a very nice symbol and nice symbol and very classical so we have some bounds okay so let's see when are supposed…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_3510",
+    "t_start": 3510.1,
+    "t_end": 3601.6,
+    "type": "overview",
+    "summary": "pressure that do not depend on that and then i can interpolate between this and then i can interpolate between this and the electricity and i get any kind at the price that is circulating okay and then also i can get for the gradients uh a bound that is in terms of l3 and gradient two remember i care about l3 more than other spaces so give me a bounce of it how about the other guy the other guy is small so the other guy is small if the so the other guy is small if the velocity is being continuous in a very well simple way so this inferno needs to vanish with z at any decent rate because i'm…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_3601",
+    "t_start": 3601.6,
+    "t_end": 3693.9,
+    "type": "overview",
+    "summary": "so there are singular times and because of that i cannot say that this because of that i cannot say that this is less than one but if i knew something so these are not criteria for non-blow so these are not criteria for non-blow up for in terms of pi up for in terms of pi so the main idea is the following beta so the main idea is the following beta or base bounds which guarantee global or base bounds which guarantee global regularity so if i could ignore pi i'll be done and the other thing is pi is small for and the other thing is pi is small for smaller so lamborghini passed and we're done…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_3693",
+    "t_start": 3693.9,
+    "t_end": 3784.5,
+    "type": "overview",
+    "summary": "or maybe pi is less than let me square and another function that's in l2 of l3 and another function that's in l2 of l3 okay whenever you result then you okay whenever you result then you receive receive so in particular if the steady condition so in particular if the steady condition in l6 is valid in l6 is valid on the region where velocity is large leds so those are essentially translating into translating into elementary really consequences of the and the common sense that in principle 5 should not so i would like to uh i have a couple more slides about outlook if you don't more slides a…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_3784",
+    "t_start": 3784.5,
+    "t_end": 3878.0,
+    "type": "overview",
+    "summary": "i'll i'll make charlie honorary spanish so then so then it's a standard group and uh they slow that i delight before small data in water which is very non-trivial data in water which is very non-trivial problems and these are recently solved when it comes to two recently solved when it comes to two dimensions which is harder i'm going to quote two large data which solutions that are really very special solutions that are really very special one is old by by by former student resnick which is really here in montpelier which is really here in montpelier and an amazing result for finnish model…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_3877",
+    "t_start": 3878.0,
+    "t_end": 3970.4,
+    "type": "overview",
+    "summary": "um there is a result until it's a result with my student legal and with my student legal and ordering it's another complex model that ordering it's another complex model that is open kind of like they studied and uh very recently two uh very recently two amazing results about long time behavior about super exponential growth of gradients including euler by kisela gradients including euler by kisela transvera so these are amazing results and then there is numerical evidence and then there is numerical evidence right in our workshop by tom howe and uh all who are law uh about accessing mental…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_3970",
+    "t_start": 3970.4,
+    "t_end": 4036.6,
+    "type": "overview",
+    "summary": "total stability of weak solutions uh irregularities in other words the things irregularities in other words the things that you observe are the things that are observable but it has a little bit of beef uh not a whole and finally a stochastic description so by the there are stochastic descriptions by the there are stochastic descriptions meaning that you can represent the uh deterministic 90s stokes as an expected value of the stochastic process expected value of the stochastic process but there are also issues with enlarging but there are also issues with enlarging the whole description in…"
+  },
+  {
+    "id": "ku_video_vw77s3yRlu0_4103",
+    "t_start": 4103.7,
+    "t_end": 4172.9,
+    "type": "overview",
+    "summary": "the situation here is one in which we are dealing are dealing with that we are in bounds so the upper are done in the smooth catheter they are done for solutions that are they are done for solutions that are infinitely smooth and infinitely very infinitely smooth and infinitely very behaved and we would like to find out how well control they are on the other hand the weak solutions they are done in another class of they are done in another class of functions much functions much weaker but not so different and other i tend to try to prove things starting from smooth solutions and keep starti…"
+  }
+]

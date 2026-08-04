@@ -1,0 +1,559 @@
+so uh I have chosen to talk about the Gen the chaining in general because uh
+Gen the chaining in general because uh it's a topic on which I work the longest
+and it's a kind of fairy tale if you compare the situation of knowledge at
+compare the situation of knowledge at the beginning and at the end it's not
+the same universe so uh let so other overview of
+universe so uh let so other overview of the talk uh so chaining is a method to
+bound stochastic processes and it was invented by kogoro among so many other
+invented by kogoro among so many other things uh after working with that for 30
+things uh after working with that for 30 years 40 years we know that for many
+years 40 years we know that for many classes of stochastic
+processes if you use the correct version of chaining then you get an optimal
+of chaining then you get an optimal result the negative point is that
+uh there's no doubt that the proofs are correct but they are still far too
+correct but they are still far too complicated and the reason they are
+complicated and the reason they are complicated is we miss some ingredient
+complicated is we miss some ingredient so there is still work to be
+done on the on the on the topic uh to simplify it like fedman would say being
+simplify it like fedman would say being able to explain it to your grandmother
+which is not the case now uh so example of quantity of Interest which depend on
+of quantity of Interest which depend on time uh the value of your favorite stock
+reactor or the level of the river which flows next your to your house and uh
+flows next your to your house and uh laas would argue that this is no
+laas would argue that this is no Randomness it's all deterministic but in
+Randomness it's all deterministic but in practice uh it's it's a fruitful way to
+model these things as a stochastic process so we stochastic process which
+mean we think of these all these quantities at a given time being like a
+quantities at a given time being like a random variable so we have a collection
+random variable so we have a collection of random variable Depending on time and
+process uh and uh so here is a notation you not you denote XT T belonging to a
+you not you denote XT T belonging to a set which is called the index set and in
+set which is called the index set and in the natural example the index set is a
+now you can consider many things about the stochastic process but the the
+quantity of interest is a super maximum value the stochastic process can take
+value the stochastic process can take that's what I will talk about and for
+example in the the three different examples maximum is very important if
+examples maximum is very important if it's a temperature in your nuclear
+reactor is it going to melt or not if it's a level of the river is the river
+it's a level of the river is the river going to come to my living room or not
+going to come to my living room or not and if it's the value of your favorite
+and if it's the value of your favorite stock if you give a sale order at a
+stock if you give a sale order at a given price you want that price to be
+chosen so that the stock will be will at some time will be a little over little
+some time will be a little over little bit over it but not too
+bit over it but not too much so kogoro uh for example studied
+processors so that uh say index by the unit interval so that if you get any two
+unit interval so that if you get any two values the expected value of the
+difference XS minus XT to the alpha is less than some power of s minus t the
+less than some power of s minus t the idea here is that there is things are
+idea here is that there is things are continuous in nature so if you look at
+continuous in nature so if you look at two times which are close to each other
+two times which are close to each other then somehow the random Vari
+corresponding random variable have to be close to each other and this is a pretty
+obvious way to uh to implement that so this is in all elementary probability
+book you consider this example now but when you do that you run into the great
+when you do that you run into the great difficulty is that your index set is a
+difficulty is that your index set is a real number and your real set your in
+IND X is is a real number you are bound to want to use the structure of the real
+to want to use the structure of the real numbers
+and you cannot resist to that and for some problems like uh when you make this
+some problems like uh when you make this condition here it's completely natural
+condition here it's completely natural to use a structure of real numbers but
+not and that conceptual difficulty uh held back probably for an entire
+held back probably for an entire generation the progress on stochastic
+processes so I was fortunate to be a student of Gustav sh and when I asked
+student of Gustav sh and when I asked him advice on how to do research he told
+him advice on how to do research he told me the very simple thing whenever you
+me the very simple thing whenever you study a problem always consider it in
+study a problem always consider it in the most General situation where it
+the most General situation where it makes sense so I call that share
+makes sense so I call that share principle in his honor and I used this
+efficiency and uh of course the the idea of that is that you are not tempted to
+of that is that you are not tempted to use some information which in fact is
+use some information which in fact is not relevant if it's not needed to ask
+not relevant if it's not needed to ask the problem it's not
+the problem it's not relevant uh now you have to be uh not to
+relevant uh now you have to be uh not to be confused that doesn't mean that it is
+be confused that doesn't mean that it is important to search for the maximum
+important to search for the maximum generality of your results this is not
+generality of your results this is not always a way to to go
+so when you use shet principle instead of thinking of the index set as a subset
+of the real line you think it as an abstract set and of course you are going
+abstract set and of course you are going to have to use some structure on this
+to have to use some structure on this abstract set but the structure you will
+abstract set but the structure you will use are determined by the process not by
+use are determined by the process not by the fact that your index set is an in is
+line so the goal will be to control the size of the supremum of the stochastic
+size of the supremum of the stochastic process so that's that's a that's a
+random variable itself the maximum value I have of a whole uh value of of T and
+I have of a whole uh value of of T and uh when you do that you try to prove
+inequality so when you try to prove inequality to remove technicality the
+important case is where the index set is finite so here's a fundamental example
+finite so here's a fundamental example you take n different random variable
+you take n different random variable which are identically distributed and
+which are identically distributed and you assume that for a certain number a
+bigger than a is 1 / n then it's the elementary probability that you find the
+elementary probability that you find the supremum of the process is at least a
+with a probability close to one 1 minus one / e uh so you have many small
+contribution which pack together to ensure that the pro the supremum is
+large even though each of the variable is not so large not so often so when you
+is not so large not so often so when you see that you see and it's obviously a
+see that you see and it's obviously a quantity which will be relevant in the
+quantity which will be relevant in the size of the tales of the random variable
+size of the tales of the random variable the size of the Tails it's measured by
+the tail of a random variable is just the probability that it's large
+certain value U so that's a function of U and when your random variable as good
+U and when your random variable as good kale is mean this is fast decreasing
+kale is mean this is fast decreasing function of
+you so there there are some trivial cases that you want to eliminate it may
+cases that you want to eliminate it may happen that the supremum of your family
+happen that the supremum of your family of random variable is large because they
+of random variable is large because they are all large and may be each equal to
+each other but all large so you want to get you don't want to that situation so
+what you do to get rid of that is you fix a distinguished point in the index
+fix a distinguished point in the index set and you control the difference XT
+set and you control the difference XT minus xt0 and you take the Supreme of
+T and of course you get you can get the uh minus XT subz outside of the
+uh minus XT subz outside of the Supremo
+so also I'll make another simplification I'll talk only on the case where the
+I'll talk only on the case where the size of the supremum is correctly
+size of the supremum is correctly described by its expectation now that's
+described by its expectation now that's not the case for old random variables
+not the case for old random variables but it's a case for the the situation
+limit myself to that and I will also consider only the case where all the
+consider only the case where all the random variable have zero expectation
+they average themselves is zero so in that case the size of the supremum um
+that case the size of the supremum um you it's the expected value of the
+supremum XT minus xt0 and you put the this out of the supremum and it has
+this out of the supremum and it has expectation zero so which explain that
+expectation zero so which explain that the size of the supremum is correctly
+the size of the supremum is correctly described by expectation of the
+supremum of the process and that's a quantity I'm going to try to
+formulation that uh since you have these differences this is the this is the size
+of the taals of that differences which matters so it's a function given s and t
+matters so it's a function given s and t you want to know how of how often the
+you want to know how of how often the difference x s minus s is
+difference x s minus s is large so the idea of chaining is is is
+large so the idea of chaining is is is so Elementary
+uh you have a big set to understand so you try to understand it in you can
+understand it progressively you consider a sequence of approximation by small
+sets and the first approximation is as simple as it can be you approximate the
+anti set by one point now you don't get much obser much information this way but
+much obser much information this way but uh your successive approximation become
+uh your successive approximation become larger and larger and for each point and
+larger and larger and for each point and each n you consider an approximation Pi
+n of T in the nend set so that you have a sequence of approximation of a point
+a sequence of approximation of a point T and uh since your set is finite then
+you can assume that for large n the approximation of the point will be the
+approximation of the point will be the point itself that's what this
+says and uh so given a point in t you have a w sequence of approximation and
+have a w sequence of approximation and this sequence of approximation it's a
+kind of you think of it as a chain a chain relating the point t to the
+chain relating the point t to the distinguished Point t0 that's where the
+distinguished Point t0 that's where the name chaining come
+from and the starting point of everything is this inequality this
+equality here which is a triviality it's a collapsing sum so all the term cancel
+a collapsing sum so all the term cancel except two of them which are on the
+except two of them which are on the left and uh uh the conse consequence of
+that identity is now you have to work on these differences here you have to work
+on these differences so if you control each difference so for each T and each n
+each difference so for each T and each n you con you control this difference you
+you con you control this difference you see you are in a situation that this is
+less than a certain number a n of t uh then uh you apply that bound to each
+then uh you apply that bound to each term and you find the difference XT
+minus xt0 is less than the sum and when you take the supremum of a t you have
+you take the supremum of a t you have control the supremum here at supremum of
+control the supremum here at supremum of a t or of these these sums now why why
+simple is the uh when you consider the differences here there are not so many
+differences here there are not so many of them because this two approximation
+of them because this two approximation here belongs to some finite set which
+are not so large and uh on the other hand uh since uh since Pi n of T and Pi
+n minus one of T are two approximation of T they are not far from each other so
+of T they are not far from each other so you don't have so many quantities and
+you don't have so many quantities and they are not so large each of
+them so you will do the obvious thing is uh you will choose the number a n of T
+uh you will choose the number a n of T so that uh all these uh uh so that the
+so that uh all these uh uh so that the set where uh there is one n and one t so
+that this happen is small has a small probability and how do you control the
+probability and how do you control the probability of this set you the most
+trivial Way by something that the computer scientist call the union bound
+the probability of a union of set is less than the sum of the probability and
+exceptional sets where the differences are large now of course you the question
+are large now of course you the question is why when you use Such trivial things
+how can you ever get a sharp result of course there is a secret to that is when
+course there is a secret to that is when you use a trivial inequality use it only
+you use a trivial inequality use it only in a case where it's almost inequality
+that's where the sity lies but uh it it's not so apparent
+it's not so apparent uh at first so by okay by doing that and
+uh at first so by okay by doing that and we ensure that with a probabil close to
+we ensure that with a probabil close to one all the differences are controlled
+and then we control the supremum so let me move to the most important classes of
+me move to the most important classes of processes which are gaussian processes
+important if there are some of universal limit of so many processes so uh there
+limit of so many processes so uh there is no hope to understand anything unless
+is no hope to understand anything unless you understand these processes so that's
+you understand these processes so that's why the theory really started there so
+Gan process mean the the family of random variable is is a centered
+gaussian and uh I always go into a specific representation of gaussian
+processes because that's what I need for the SQL so one way you can picture what
+the SQL so one way you can picture what a gausian process is you look you
+a gausian process is you look you consider an independent sequence of
+consider an independent sequence of standard random variable standard gaan
+standard random variable standard gaan random variable means their their uh
+standard deviation is one and for a sequence of coefficient you consider the
+sequence of coefficient you consider the linear combination of these variables
+be square suable so that the sum makes sense so for any set of coefficient you
+sense so for any set of coefficient you associate a gaussian process and and
+it's well known since 1930 that all gaussian process in fact arise this way
+gaussian process in fact arise this way so this is a completely General
+so this is a completely General situation now you see here your index
+Set uh even if for some other reason it was a subset of a real line this is not
+was a subset of a real line this is not what matters what matters is um
+um there is a natural distance on the set on the index T which is just the
+distance on L2 and which happens also to be related to probability uh by being
+be related to probability uh by being the standard deviation of XS minus XT so
+the standard deviation of XS minus XT so when you think of things that way you
+when you think of things that way you see the obvious quantity you have to
+see the obvious quantity you have to work with is the T with the distance on
+work with is the T with the distance on it a metric space
+now it was known for a long time that the structure of the metric space t of
+the index set with that distance it did completely determines the value of the
+completely determines the value of the supremum of the process this is called
+slean LMA but the sort of Miracle of nature which happened there is that uh
+nature which happened there is that uh you can find the quantity which can be
+you can find the quantity which can be expressed in purely term of the metric
+expressed in purely term of the metric space you can find something conc read
+space you can find something conc read uh now gaan process have a nice feature
+uh now gaan process have a nice feature they have nice taals the taals if you
+they have nice taals the taals if you take the difference XS minus XT the
+take the difference XS minus XT the probability that it's larger than U it
+decrease like e to the minus U Square over the square of the distance now the
+over the square of the distance now the e to the minus U Square you have to keep
+that in mind because the inverse function is a function square root of
+log and you are going to see plenty of square root of logs later on for that
+reason so let me uh make look at thing a little bit simpler assuming that I start
+little bit simpler assuming that I start with a set of diameter T which is just a
+of uh rescaling so the the way people were doing chaining for uh a long time
+were doing chaining for uh a long time is to each approximating set you take it
+is to each approximating set you take it as small as possible as its cardinality
+as small as possible as its cardinality as small as possible with the property
+will be within distance 2 to the minus n of one approximating point and uh if you
+of one approximating point and uh if you do that and you essentially copy
+kogoro's proof you get a very useful bound on the supremum of aan process
+bound on the supremum of aan process which called does bound and uh it's it's
+which called does bound and uh it's it's a sum of 2 the minus n and then you have
+the square root of log square root of the log of the cardinality of the
+sets uh now this bound is well known that it's not optimal in all cases and
+it's it took a very long time to go beyond that bound and there is a really
+beyond that bound and there is a really big Advance is made by Xavier ferik who
+big Advance is made by Xavier ferik who found a more efficient way to perform
+found a more efficient way to perform the chaining the the thir thing is that
+the chaining the the thir thing is that was technically very complicated and
+was technically very complicated and also very obscure what he was doing uh
+it took me an enormous time to understand that and the main people main
+understand that and the main people main probabilists thought it was something
+exotic and useless but that's not true it's fic who made the big progress you
+it's fic who made the big progress you know break beond uh dless bound
+know break beond uh dless bound so it was formulated in some term of
+majorizing measure of which I keep the name as an homage to fic so the way um
+name as an homage to fic so the way um in fact to to do the chaining uh is a
+in fact to to do the chaining uh is a slightly different from uh what I
+slightly different from uh what I described before uh after
+so many years uh it it figured out that the right condition to impose on the
+the right condition to impose on the approximate approximating set is to fix
+approximate approximating set is to fix a cardinal the cardinality of the N
+a cardinal the cardinality of the N approximating set should not should be
+approximating set should not should be less than 2 to the 2 to the N now why
+it's a log of the cardinality which is important the order of the size of the
+uh of the log and when a number you want to know what's the order of its log you
+to know what's the order of its log you compare it to the scale 2 to the 2 to
+compare it to the scale 2 to the 2 to the N that's how this two to the 2 to
+the N occur so in that case it it's in fact it's very simple when
+it it's in fact it's very simple when you do that to find the following bound
+you do that to find the following bound that the expected value of the supremum
+that the expected value of the supremum of the process is less than the supremum
+of a t of a su where now in each term now you have the two to to the N / two
+now you have the two to to the N / two which is square root of the log of the
+which is square root of the log of the cardinality of TN and then the distance
+of the point to the approximating set and here L is a universal constant now
+best value so I'm happy to know that it's a number which doesn't depend on
+it's a number which doesn't depend on anything
+quantity of course you have to set a definition and I'm going to define the
+definition and I'm going to define the following characteristic of a metric
+space now I need it I need the parameter Alpha because I'll have several cases
+Alpha because I'll have several cases later so I Define this number called
+later so I Define this number called this functional called gamma of gamma
+this functional called gamma of gamma Alpha of a metric space and its distance
+when T is in set of this sum 2 to the N of alpha distance of T to to T subn now
+of alpha distance of T to to T subn now the infimum here is over all possible of
+approximating sh sets T sub with the cardinality as I
+want and the reformulation on the previous bound on Gan process it looks
+previous bound on Gan process it looks much much simpler now uh the expected
+much much simpler now uh the expected value of the supremum is less than
+constant times gamma 2 of TD and
+the now the first uh result I prove which made me very happy was to prove
+which made me very happy was to prove that this inequality can be reversed now
+that this inequality can be reversed now which I call the majorizing measure
+which I call the majorizing measure theorem because it was expressed that
+theorem because it was expressed that way at the time
+1985 now that means that if you choose the proper set T
+subn then in fact the bound you obtain is of the right order you cannot it's of
+is of the right order you cannot it's of the order of the supremum so the
+chaining if you do it in optimal way will absolutely completely capture the
+will absolutely completely capture the situation so you summarize that by
+saying that chaining explain the size of a gaan process so in other words you
+a gaan process so in other words you know you know now the the Gan process
+has a certain size now you can construct a witness which will tell you explicitly
+a witness which will tell you explicitly now following the witness you have a
+is now this is a sort of a miraculous theorem because uh the expected value of
+theorem because uh the expected value of the supremum is a probabilistic
+and then the gamma 2 of the metric space is has nothing to do with probability is
+is has nothing to do with probability is a feature of a pure metric space and uh
+a feature of a pure metric space and uh even though we know in complete
+even though we know in complete generality that these two quantity are
+generality that these two quantity are of the same size it doesn't mean that we
+examples uh ex even if you look at an something as simple as it could be an
+something as simple as it could be an ellipsoid in in in idian space large
+ellipsoid in in in idian space large Dimension it's absolutely Ely
+non-trivial to compute the gamma 2 purely using geometry uh and in fact
+purely using geometry uh and in fact that's a step that people working on the
+that's a step that people working on the problem couldn't pass uh uh and in my
+the problem in my web page uh there is $1,000 problem where which essentially
+amounts to for a specific class of function to compute what the quantity is
+function to compute what the quantity is the the gamma 2
+uh after I succeeded with the gaan process of course the obvious question
+process of course the obvious question uh see uh this is a miraculous result
+when I proved it Jil P told me you are very lucky and it means that I was lucky
+very lucky and it means that I was lucky that the universe is nice that the
+problem can be solved and once you meet a miracle of course we are greedy we
+a miracle of course we are greedy we expect more miracles so uh I say okay
+expect more miracles so uh I say okay let us hope that the universe is as
+let us hope that the universe is as simple as it can be what what could
+simple as it can be what what could happen
+so what's the next thing to look at next the gussan process I I made them appear
+the gussan process I I made them appear combination of independent gaussian
+combination of independent gaussian random variable let us replace a gaan
+simpler uh and the simplest thing you can do are coin flipping random variable
+can do are coin flipping random variable which takes are independent and take
+which takes are independent and take value one and minus one with probability
+value one and minus one with probability one half so you let me Define beri
+coefficient if you take any sequence of coefficient then you can build a random
+variable by taking the linear combination of this coin flipping
+variable and you can if you take a family of coefficient then it's a b
+family of coefficient then it's a b process now the these uh these uh
+combination these variable here they have very good Tales this is expressed
+suban inequality which say that the tail is better somehow that the corresponding
+is better somehow that the corresponding tail for garan process so since for the
+tail which matter uh the uh you have the same bound as you had for gaan process
+same bound as you had for gaan process the expected value of the supremum of
+the process is uh less than gamma 2 of the the index set now the the fun here
+uh okay so let me insist that this bound here is based on cancellation of terms
+of opposite sign now to really see that you look at what happens when you take
+the sum of N coin flipping you know when you take the sum is uh the plus and the
+you take the sum is uh the plus and the minus almost cancel so what the subaran
+minus almost cancel so what the subaran inequality tells you here that uh
+inequality tells you here that uh the the plus and minus which do not
+the the plus and minus which do not cancel they are only of the order of
+cancel they are only of the order of square root of n of the total
+number so the reason the sum is small is the the term cancel okay not but there
+the the term cancel okay not but there is something different happening here
+is something different happening here you have another completely trivial
+bound on a on a combination of sign is by saying the sign are plus one or minus
+by saying the sign are plus one or minus one so you can put absolute values
+one so you can put absolute values inside the summation instead of putting
+inside the summation instead of putting outside and you get bound and this bound
+outside and you get bound and this bound is a completely different nature so for
+is a completely different nature so for a b process you have this completely
+trivial bound that the expectation of the supremum is less than the supremum
+of the sum of the absolute value of the coefficients and of course now the when
+coefficients and of course now the when you have uh these two bounds you have to
+you have uh these two bounds you have to understand they have nothing to do with
+each other so you can interpolate between them now interpolating between
+them means uh suppose now you have two sets of coefficient T sub one and T sub
+2 now you define their their sum this T sub 1 plus T sub 2 is just a set of all
+sub 1 plus T sub 2 is just a set of all possible sum when you take one one uh
+possible sum when you take one one uh set one coefficient in first set and the
+set one coefficient in first set and the other in the second set and uh now x sub
+other in the second set and uh now x sub T1 + T2 this xt1 plus xt2 it's obvious
+T1 + T2 this xt1 plus xt2 it's obvious on the formula so you can uh bound the
+on the formula so you can uh bound the process index by T1 + T2 the process
+process index by T1 + T2 the process here you can buy a trivial way that a
+sum of two terms and the first term you will use the first bound and the second
+term you will use the second bound which are completely different so uh of course
+are completely different so uh of course everything goes well with the the
+supremum so you found this General bound on B processes which has its infimum
+on B processes which has its infimum over all here something very tricky all
+over all here something very tricky all the way you can find your set of index
+as a subset of a sum and uh okay so that's pretty much
+sum and uh okay so that's pretty much obvious bound and of course the big
+obvious bound and of course the big question is is this bound optim can you
+question is is this bound optim can you essentially reverse that so that's a
+problem on which I work the longest in my life and I couldn't solve it and that
+my life and I couldn't solve it and that that's a problem for which I offered
+$5,000 of my own money and which was the best investment I ever made um so this
+best investment I ever made um so this was proved by bad nose and laala and
+was proved by bad nose and laala and they actually proved that given any set
+they actually proved that given any set of coefficient you can find a
+of coefficient you can find a decomposition so that um uh the gamma 2
+decomposition so that um uh the gamma 2 uh okay there is here should sorry here
+uh okay there is here should sorry here it should be T sub one gamma 2 of the T
+sub one is less than this the expected value of this and the sum of the
+absolute value of the coefficient in the second set is also control but what you
+want uh that's a wonderful theorem uh that's a one which uh needs to be
+that it is true but it's just too complicated so please somebody simplify
+complicated so please somebody simplify it before I die I really like to see a
+uh now the difficulty of that is that the decomposition is not unique and is
+the decomposition is not unique and is not canonical in any way so I could
+reformulate my problem of please simplify it uh um okay so I'm sorry uh
+simplify it uh um okay so I'm sorry uh so the the the way you the way I ref I
+so the the the way you the way I ref I rephrase the BOS laa theorem is to say
+cancellation now there's a part the process where there is no cancellation
+process where there is no cancellation so you you
+cannot you have to use different method but all the all the cancellation
+whichever happened in the process is completely taken into account by the
+chaining that's what it says and the the challenge is since this decomposition is
+challenge is since this decomposition is not unique please find an algorithmic
+proof of it so I give you the set T and find a procedure which will explicitly
+find a procedure which will explicitly construct a set T1 and T2 and the
+current proof is rather far from that
+that so uh now I pushed the this problem uh
+so uh now I pushed the this problem uh based on philosophical ground because uh
+based on philosophical ground because uh beru processes it's sort of the simplest
+beru processes it's sort of the simplest uh type of processes and of course
+uh type of processes and of course nobody in probability ever saw these are
+nobody in probability ever saw these are important but my own philosophy was that
+important but my own philosophy was that since it's the most important the
+simplest situation it must pay big divid evidence if you understand it so that
+evidence if you understand it so that was a philosophical bet and the
+philosophical bet was 100% right because after this the uh latala and bed no Pro
+after this the uh latala and bed no Pro that then in fact it turned out that
+problems you want on in in the same line I'm describing on stochastic process and
+I'm describing on stochastic process and I will describe two of them I'll
+I will describe two of them I'll describe one on empirical processes now
+since I'm short of time I will not talk about empirical process I'll go directly
+about empirical process I'll go directly to the probabilistic problem consider
+to the probabilistic problem consider suppose you have a measured space with n
+independent random points uh in this measure space which are distributed like
+measure space which are distributed like the Bic probability and you consider a
+the Bic probability and you consider a class of function on that and the
+problem is to ex to evaluate the expected value of the supremum of the
+expected value of the supremum of the class of function of all the sum sum of
+the value of the function at your different random variables
+so of course when you see that you know okay a process to control process we
+have to understand the tales so what are the tals uh okay sry uh I simplify I
+the tals uh okay sry uh I simplify I just take the case where all the
+just take the case where all the function have uh expected value
+function have uh expected value zero so what are the what are the tales
+zero so what are the what are the tales of a sum of the F of XI now there is
+there are of course this has been studied a lot by in statistics and um
+the notation we use is I'll denote by F sub2 the norm in L2 and F Infinity the
+sub2 the norm in L2 and F Infinity the supremum norm and the Ben benstein
+inequality 1924 it tells you that the probability that the sum is bigger than
+U is less than exponential minus but now you have two terms you have the minimum
+of two terms and one term is in like in the Garian case is U Square Over N which
+the Garian case is U Square Over N which is normalizing Factor time the square of
+is normalizing Factor time the square of the L2 Norm but you have another term
+exponential and uh once you have a tail on the when you have a bound on the tail
+on the when you have a bound on the tail you go through the chaining machine and
+you get an upper bound and now since in the in the Bound for the tail there are
+two terms you expect that uh it would be a little bit more complicated than in a
+bound you have one term which in in the gamma 2 of the class of function looked
+gamma 2 of the class of function looked at the metrix space with the L2 distance
+at the metrix space with the L2 distance and one the gamma one was looked at the
+uh that is but then also for classes of function you can use a bound which
+function you can use a bound which doesn't use cancellation and the bound
+which doesn't you just you have a sum you just put absolute values so the sum
+can be small because the sum of the absolute values is already small
+obviously then there is no cancellation so that gives you a second bound and uh
+so that gives you a second bound and uh when you have two bound you can
+when you have two bound you can interpolate between them so interpolate
+you know it's exactly what I did before uh you your set of indexes you decompose
+uh you your set of indexes you decompose in function in two pieces for One Piece
+in function in two pieces for One Piece you use the bound from chaining and from
+you use the bound from chaining and from the other piece you use the Bound for
+absolute values and when you have a bound like that then the $100 question
+bound like that then the $100 question is can you reverse this bound is it
+is can you reverse this bound is it optimal so I modestly call that the
+optimal so I modestly call that the fundamental theorem and tical processes
+fundamental theorem and tical processes not everybody will agree that the uh
+given any class of function I can decompose it in that way and that means
+decompose it in that way and that means that Benin inequality explains all the
+that Benin inequality explains all the possible cancellation there is in this s
+possible cancellation there is in this s but if you think about that it's
+but if you think about that it's something completely miraculous which I
+something completely miraculous which I don't fully understand because uh Benin
+don't fully understand because uh Benin inequality is one of many possible
+inequality is one of many possible inequalities you have on these Psalms
+inequalities you have on these Psalms and it happen that this one is
+and it happen that this one is sufficient to capture everything even
+sufficient to capture everything even though you have other inequality which
+in other ranges are better it's Ben inequality sues this is this is sort of
+inequality sues this is this is sort of interesting ah so the philosophically
+interesting ah so the philosophically when you are in a cocktail party you
+inequality explain all the cancellation and then you sure you understand
+something uh now of course there is no miracle that the decomposition exist
+doesn't mean that it is easy to discover so in practice what do we do with such a
+so in practice what do we do with such a theorem well
+um okay I looked at some very non-trivial examples uh of empirical
+non-trivial examples uh of empirical processes which had been studied before
+processes which had been studied before and what what would it how would it help
+and what what would it how would it help me to know this before attacking them
+me to know this before attacking them and the S thing is uh when you see uh
+any kind of difficult theorem the chaining argument are very easy
+all the work is for the rest so that's really what it is only in practice now
+really what it is only in practice now the chaining gr chaining uses explain
+all the cancellation but in practice this mean your chaining argument will be
+this mean your chaining argument will be easy and all the work will be for the
+sadly um now last thing I'll talk are random F series because random F series
+random F series because random F series that's probably
+the topic on which I work the longest uh now ROM for is if you state the problem
+now ROM for is if you state the problem on R it's infinitely difficult because
+on R it's infinitely difficult because you want to use the structure of R so if
+you want to make the problem easy you put an abstract version of it an
+abstract version of it you consider a compact group and on this group you
+compact group and on this group you consider a sequence of
+characters and you consider independent symmetric random variables so symmetric
+symmetric random variables so symmetric means they have the same law as their
+opposite and the problem is of the convergence ofand for in which sense you
+convergence ofand for in which sense you ask when the the random series
+ask when the the random series fi converges almost surely at
+fi converges almost surely at convergence is for the uniform
+convergence is for the uniform convergence of the the on the space of
+functions now that's for some mysterious reason this topic was popular at the
+time uh they are red from Zig Moon P Kahan and last paper was Marcus and P
+Kahan and last paper was Marcus and P who completely transformed the
+the classical result and they went much further they went much further but I was
+not totally satisfied it didn't feel I completely understand so all by myself I
+completely understand so all by myself I work very very long time on that um and
+work very very long time on that um and marus and pza
+proved theorem which is spectacular but in in retrospect is not so difficult
+in in retrospect is not so difficult when your coefficient are square
+when your coefficient are square integrable you can Define the distance
+on the group and the distance the square of the distance in the sum of you take
+the expectation of fi to the square and you take the square of the difference of
+they prove that if the gamma two of the group for this distance is finite then
+group for this distance is finite then the series converge almost surely in
+this sense but again there is a trivial observation that if you take a sequence
+observation that if you take a sequence of number with the sum of the absolute
+value is finite then the corresponding F converges to prly because the characters
+converges to prly because the characters are bounded by one so so as a
+consequence of that if you take a random Rand series of random functions so that
+Rand series of random functions so that the the sum is finite almost surely then
+the the sum is finite almost surely then the corresponding F will converge almost
+the corresponding F will converge almost surely so you have two simple situations
+surely so you have two simple situations where the random F converge almost
+surely now I looked at that problem for 40 years before I dared making the
+40 years before I dared making the conjecture that in fact this was the
+conjecture that in fact this was the only possible case and uh uh I and and
+only possible case and uh uh I and and the Miracle is that it is the general
+the Miracle is that it is the general case where a random F converg almost
+case where a random F converg almost surely it's a mixture of the presiding
+surely it's a mixture of the presiding cases so I don't want won't write it was
+mixture it mixture is very well hidden you cannot easily tell by looking at it
+you cannot easily tell by looking at it that it's a mixture but it's always is
+that it's a mixture but it's always is and it was not very difficult to prove
+and it was not very difficult to prove in fact but
+it such a theorem shouldn't be true so I didn't dare conjecture it could be true
+didn't dare conjecture it could be true and that's among the last thing I did
+my frontal loes when I did that so it must not be so very difficult okay thank
+must not be so very difficult okay thank you so much

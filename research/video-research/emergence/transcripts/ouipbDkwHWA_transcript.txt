@@ -1,0 +1,78 @@
+This is John Conway's game of life. Uh the game of life consists of some
+squares in a space. They are the points in space, sometimes referred to as
+cells. And a point can be either on or off. Black is on, white is off. And you
+off. Black is on, white is off. And you can also call it alive or dead. Now,
+can also call it alive or dead. Now, there's a simple rule that tells us
+there's a simple rule that tells us whether or not cells stay alive or they
+whether or not cells stay alive or they die. And that's this. If a cell has one
+uh if it has no neighbors that are alive,
+it dies. If it has just one neighbor that's alive, it'll die. So, both of
+these will die. But if it has two neighbors that are alive, it'll stay
+neighbors that are alive, it'll stay alive. So, look what happens to this
+alive. So, look what happens to this cell. It's going to stay alive on the
+next moment of time. Of course, something else weird happened there,
+something else weird happened there, right? These two died and these two
+right? These two died and these two became alive. They were born. Let's look
+became alive. They were born. Let's look at that again.
+This cell only has one live neighbor. It's going to die. Same here. It's going
+It's going to die. Same here. It's going to die. So on the next generation, that
+one will die and that one will die. But there's a rule for birth. And the rule
+for birth is this. If a cell has exactly three live neighbors, it will be born.
+three live neighbors, it will be born. This cell has exactly three live
+neighbors and so does that one. So these two will die and that and that will be
+two will die and that and that will be born. And you can see what's going to
+By symmetry it's just going to go back to a horizontal bar and we have now just
+to a horizontal bar and we have now just an oscillator.
+We're continuing here with Conway's game of life. And let's look at this pattern.
+We've got a square. Those are all on. These pointer cells are on or alive.
+These pointer cells are on or alive. They're energized.
+So, this cell has two live neighbors. It's going to stay alive. This cell has
+It's going to stay alive. This cell has two live neighbors. It'll stay alive.
+It'll stay alive. And let's look at this one. That one has three live neighbors.
+one. That one has three live neighbors. So, it's going to be born.
+And that's what happens. It's born. Now, this is a stable pattern, right? Each of
+this is a stable pattern, right? Each of these cells has three live neighbors.
+It's alive. And so, it's going to stay alive. The surrounding cells don't have
+enough energy. They don't have enough life around them to be born. So, this is
+life around them to be born. So, this is just going to be a stable pattern. I'm
+just going to be a stable pattern. I'm actually stepping through time, but
+actually stepping through time, but nothing happens.
+So, that's an interesting pattern. Let's look at this pattern. Now,
+hard to say what this one's going to do, but look what's going to happen. We need
+to use computers to figure this out. If we had to calculate this by hand, that
+would be a little rough. It's going to change.
+Now, you can see it looks like it's it's uh rotated itself, right? uh
+horizontally or vertically. And the same again, you see a reappearance of a
+again, you see a reappearance of a pattern. And look at that. That's just
+pattern. And look at that. That's just back to where it was, except it's back
+back to where it was, except it's back to the same pattern that it was, except
+it's shifted one to the right and one down.
+Let's look at the glider in a little bit more detail here.
+There it is. There's a glider that's ready to glide. So, here, let's go.
+ready to glide. So, here, let's go. Let's step it through time a little bit.
+Let's step it through time a little bit. There's the next moment of time. The
+time. The next moment of time. You can see it's moved. It's kind of walked. But
+see it's moved. It's kind of walked. But what are we talking about when we say
+what are we talking about when we say it? What is the glider? I mean, the
+it? What is the glider? I mean, the cells aren't moving. The points in space
+cells aren't moving. The points in space don't move. The points in space remain
+the same. They remain in their same relations with each other. They don't
+relations with each other. They don't move around. All that's moved is the
+move around. All that's moved is the pattern of qualities, right? The pattern
+pattern of qualities, right? The pattern of colors, black and white. And if you
+think of those as energy, then you've got a moving energy pattern. The glider
+got a moving energy pattern. The glider is a kind of particle, but it's an
+energetic particle. It's like a vortex moving through space.
+It's a pattern of energy that moves through space. And because of its
+through space. And because of its regularity,
+because of its invariance, because of the way its shapes repeat every fourth
+the way its shapes repeat every fourth cycle, it seems to have its own
+cycle, it seems to have its own independent existence.
+Now, some might say that the glider is a thing which emerges from space. Others
+might just say that the glider is a thing which supervenes on space. Perhaps
+thing which supervenes on space. Perhaps it's a whole composed of properties or
+qualities. Or perhaps it's some sort of system or pattern of energy. To use that
+system or pattern of energy. To use that terminology again, let's watch it just
+terminology again, let's watch it just to see that it's the pattern of energy
+There seems to be a distinctive layer of reality, a second layer of reality on
+reality, a second layer of reality on top of space. And here it is.

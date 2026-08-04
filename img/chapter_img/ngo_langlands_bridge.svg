@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="200" viewBox="0 0 560 200">
+  <rect width="560" height="200" fill="#fafbfc"/>
+  <text x="16" y="28" font-family="Georgia, serif" font-size="15" fill="#222">Langlands correspondence (schematic)</text>
+  <rect x="30" y="60" width="180" height="90" rx="10" fill="#e8f1fb" stroke="#004586" stroke-width="2"/>
+  <text x="120" y="100" text-anchor="middle" font-size="13" fill="#004586">Automorphic forms</text>
+  <text x="120" y="120" text-anchor="middle" font-size="11" fill="#666">on reductive groups</text>
+  <path d="M230 105 L320 105" stroke="#a11" stroke-width="3"/>
+  <text x="275" y="95" text-anchor="middle" font-size="12" fill="#a11">L-functions</text>
+  <rect x="340" y="60" width="190" height="90" rx="10" fill="#fff5e6" stroke="#b35c00" stroke-width="2"/>
+  <text x="435" y="100" text-anchor="middle" font-size="13" fill="#b35c00">Galois / motives</text>
+  <text x="435" y="120" text-anchor="middle" font-size="11" fill="#666">arithmetic side</text>
+  <text x="16" y="180" font-size="12" fill="#444">Trace formula comparisons need the Fundamental Lemma.</text>
+</svg>

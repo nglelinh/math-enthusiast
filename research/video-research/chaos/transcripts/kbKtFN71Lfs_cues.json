@@ -1,0 +1,927 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 1.64,
+    "text": "The game is gonna involve three dots."
+  },
+  {
+    "t_start": 1.64,
+    "t_end": 2.46,
+    "text": "They could be anywhere."
+  },
+  {
+    "t_start": 2.46,
+    "t_end": 3.56,
+    "text": "I said I wasn't going to put them in a triangle"
+  },
+  {
+    "t_start": 3.56,
+    "t_end": 5.08,
+    "text": "but that's kind of difficult to avoid."
+  },
+  {
+    "t_start": 5.08,
+    "t_end": 7.66,
+    "text": "Uh, it's not particularly meant to be a an equilateral triangle."
+  },
+  {
+    "t_start": 7.66,
+    "t_end": 10.34,
+    "text": "Let's call this 'A', 'B', and 'C'"
+  },
+  {
+    "t_start": 10.76,
+    "t_end": 12.64,
+    "text": "And I'm going to put a starting point"
+  },
+  {
+    "t_start": 12.64,
+    "t_end": 13.98,
+    "text": "just randomly on the paper."
+  },
+  {
+    "t_start": 13.98,
+    "t_end": 15.78,
+    "text": "And all we're going to do is roll"
+  },
+  {
+    "t_start": 15.78,
+    "t_end": 17.12,
+    "text": "this lovely dice..."
+  },
+  {
+    "t_start": 17.52,
+    "t_end": 19.04,
+    "text": "die? dice? (who cares?)"
+  },
+  {
+    "t_start": 20.12,
+    "t_end": 21.9,
+    "text": "...to decide which point to go towards,"
+  },
+  {
+    "t_start": 21.9,
+    "t_end": 23.02,
+    "text": "and whatever point we choose"
+  },
+  {
+    "t_start": 23.02,
+    "t_end": 23.84,
+    "text": "we're gonna go half way."
+  },
+  {
+    "t_start": 23.84,
+    "t_end": 27.62,
+    "text": "So let's call 'A' 1 or 2."
+  },
+  {
+    "t_start": 27.98,
+    "t_end": 30.16,
+    "text": "If we get one or two, we'll go half way towards 'A'."
+  },
+  {
+    "t_start": 30.84,
+    "t_end": 33.54,
+    "text": "And this is gonna be 3 or 4"
+  },
+  {
+    "t_start": 33.78,
+    "t_end": 36.12,
+    "text": "and C can be 5 or 6."
+  },
+  {
+    "t_start": 36.68,
+    "t_end": 41.68,
+    "text": "Uh, so, I just rolled a 2, so I need to go halfway to the point that has been chosen at random"
+  },
+  {
+    "t_start": 41.84,
+    "t_end": 43.08,
+    "text": "which is A in this case."
+  },
+  {
+    "t_start": 43.32,
+    "t_end": 45.04,
+    "text": "So, um, we could measure this."
+  },
+  {
+    "t_start": 45.24,
+    "t_end": 46.92,
+    "text": "For the sake of speed I'm just gonna go roughly half way"
+  },
+  {
+    "t_start": 47.1,
+    "t_end": 50.18,
+    "text": "I think you could believe that, if you run a line there, we're gonna put a dot there."
+  },
+  {
+    "t_start": 50.18,
+    "t_end": 51.94,
+    "text": "And we're going to keep doing this for a while."
+  },
+  {
+    "t_start": 51.94,
+    "t_end": 55.2,
+    "text": "We're iterating, so we're repeating - we get the last result and work from that."
+  },
+  {
+    "t_start": 55.2,
+    "t_end": 58.94,
+    "text": "But the start point could be anywhere. I could have put the start point outside of the triangle"
+  },
+  {
+    "t_start": 58.94,
+    "t_end": 61.24,
+    "text": "and I could still head towards one of these dots."
+  },
+  {
+    "t_start": 61.24,
+    "t_end": 62.66,
+    "text": "Let's just see what happens when I keep rolling the dice."
+  },
+  {
+    "t_start": 63.9,
+    "t_end": 68.96,
+    "text": "I've just rolled a two again, so from-- that was the dot I had before, and I've gone halfway from the previous dot."
+  },
+  {
+    "t_start": 69.16,
+    "t_end": 71.68,
+    "text": "And that's my halfway point.  So if I roll this one again..."
+  },
+  {
+    "t_start": 72.48,
+    "t_end": 75.04,
+    "text": "One!  Uh, I wish I'd rigged this now."
+  },
+  {
+    "t_start": 75.04,
+    "t_end": 79.7,
+    "text": "From this dot (the last dot I had) halfway towards the 1, so it's gonna-- we're just aiming towards 1."
+  },
+  {
+    "t_start": 79.7,
+    "t_end": 82.78,
+    "text": "This is unlikely to keep going, but, I dunno. Place your bets now."
+  },
+  {
+    "t_start": 83.56,
+    "t_end": 89.76,
+    "text": "Four! Four is the B dot, so I've got to go, kinda from the previous dot, halfway on this line is about there."
+  },
+  {
+    "t_start": 90.08,
+    "t_end": 91.56,
+    "text": "And I've jumped a long way this time."
+  },
+  {
+    "t_start": 92.24,
+    "t_end": 96.62,
+    "text": "One, back towards A, so we're going there. And I'm gonna just keep doing this."
+  },
+  {
+    "t_start": 96.62,
+    "t_end": 99.72,
+    "text": "So, you got the idea I think now. From the previous dot, we go towards one of these."
+  },
+  {
+    "t_start": 100.1,
+    "t_end": 103.04,
+    "text": "Two. Your dice is rigged Brady."
+  },
+  {
+    "t_start": 104.32,
+    "t_end": 106.48,
+    "text": "Six. Excellent, we've gone all the way."
+  },
+  {
+    "t_start": 106.48,
+    "t_end": 108.66,
+    "text": "This was a dot-- kind of halfway over there."
+  },
+  {
+    "t_start": 109.74,
+    "t_end": 110.24,
+    "text": "Six."
+  },
+  {
+    "t_start": 111.88,
+    "t_end": 112.38,
+    "text": "One."
+  },
+  {
+    "t_start": 112.92,
+    "t_end": 114.1,
+    "text": "Back up here..."
+  },
+  {
+    "t_start": 115.58,
+    "t_end": 116.08,
+    "text": "Two."
+  },
+  {
+    "t_start": 118.54,
+    "t_end": 120.42,
+    "text": "Five. All the way down here."
+  },
+  {
+    "t_start": 120.42,
+    "t_end": 123.86,
+    "text": "I'm going to do this a lot now, Brady. Maybe this would be worth speeding up."
+  },
+  {
+    "t_start": 123.86,
+    "t_end": 132.32,
+    "text": "[music]"
+  },
+  {
+    "t_start": 132.32,
+    "t_end": 133.54,
+    "text": "Ah, I'm bored. [Laughs]"
+  },
+  {
+    "t_start": 133.54,
+    "t_end": 138.04,
+    "text": "But, it's not that exciting. The interesting thing that's happening is that it created kind of some lines,"
+  },
+  {
+    "t_start": 138.04,
+    "t_end": 140.5,
+    "text": "but basically I've just made a lot of dots on the paper."
+  },
+  {
+    "t_start": 140.5,
+    "t_end": 143.48,
+    "text": "It's possible that something interesting would happen if I could do this quick enough"
+  },
+  {
+    "t_start": 143.48,
+    "t_end": 145.28,
+    "text": "that I wouldn't get so bored that I have to stop."
+  },
+  {
+    "t_start": 145.58,
+    "t_end": 147.94,
+    "text": "Uh, but maybe we want a computer to do this."
+  },
+  {
+    "t_start": 148.46,
+    "t_end": 150.48,
+    "text": "We have a problem with the computer though on random numbers."
+  },
+  {
+    "t_start": 150.48,
+    "t_end": 154.98,
+    "text": "Like, uh, generating random numbers, uh, it's difficult when a computer has to do what it's told."
+  },
+  {
+    "t_start": 154.98,
+    "t_end": 157.66,
+    "text": "But, let's, uh, park that issue for another video, perhaps."
+  },
+  {
+    "t_start": 158.06,
+    "t_end": 160.83,
+    "text": "If I could get a computer to roll the dice for me and put the dot on,"
+  },
+  {
+    "t_start": 160.83,
+    "t_end": 162.39,
+    "text": "then we could see what happens quickly,"
+  },
+  {
+    "t_start": 162.39,
+    "t_end": 163.58,
+    "text": "and, let's do that."
+  },
+  {
+    "t_start": 163.7,
+    "t_end": 165.78,
+    "text": "This screen has, just as we had,"
+  },
+  {
+    "t_start": 165.78,
+    "t_end": 168.45,
+    "text": "we've got three dots, they're not even in a nice equilateral triangle,"
+  },
+  {
+    "t_start": 168.45,
+    "t_end": 170.22,
+    "text": "they can be anywhere. This thing says 'trace point',"
+  },
+  {
+    "t_start": 170.22,
+    "t_end": 171.88,
+    "text": "it's just going to trace where that goes,"
+  },
+  {
+    "t_start": 171.88,
+    "t_end": 175.7,
+    "text": "and the computer is, with its magic, gonna choose A, B or C,"
+  },
+  {
+    "t_start": 176.48,
+    "t_end": 178.28,
+    "text": "and move that point halfway -- accurately this time."
+  },
+  {
+    "t_start": 178.28,
+    "t_end": 181.22,
+    "text": "So you see that it's leaving a mark anywhere it goes."
+  },
+  {
+    "t_start": 182.84,
+    "t_end": 185.14,
+    "text": "So it's gone to A several times in a row, jumped to B,"
+  },
+  {
+    "t_start": 185.4,
+    "t_end": 187.04,
+    "text": "and then back to A, and then to C."
+  },
+  {
+    "t_start": 187.78,
+    "t_end": 190.76,
+    "text": "But, I mean, doing a running commentary on this for any longer than I have done"
+  },
+  {
+    "t_start": 190.76,
+    "t_end": 193.18,
+    "text": "is probably not going to make anyone's day."
+  },
+  {
+    "t_start": 193.18,
+    "t_end": 198.57,
+    "text": "So let's speed it up, ah, go a little bit faster and you begin to see something similar to the"
+  },
+  {
+    "t_start": 198.57,
+    "t_end": 200.8,
+    "text": "structure I had. The outlines get defined quite well."
+  },
+  {
+    "t_start": 201.54,
+    "t_end": 204.72,
+    "text": "But I'm just going to speed up a little bit more because the outcome of this,"
+  },
+  {
+    "t_start": 205.34,
+    "t_end": 211.6,
+    "text": "I genuinely think is slightly surprising, but also a little tiny bit frightening,"
+  },
+  {
+    "t_start": 211.6,
+    "t_end": 214.34,
+    "text": "because you start to wa-- wait... is that structure I'm seeing..."
+  },
+  {
+    "t_start": 214.86,
+    "t_end": 215.9,
+    "text": "am I imagining that?"
+  },
+  {
+    "t_start": 216.9,
+    "t_end": 218.9,
+    "text": "How is it dodging those little weird patches in the middle?"
+  },
+  {
+    "t_start": 218.91,
+    "t_end": 220.65,
+    "text": "Why is it never going in those?"
+  },
+  {
+    "t_start": 220.65,
+    "t_end": 222.22,
+    "text": "They're definitely triangles now."
+  },
+  {
+    "t_start": 223.14,
+    "t_end": 226.68,
+    "text": "And then I start to see a shape which actually if you've done any sort of"
+  },
+  {
+    "t_start": 226.68,
+    "t_end": 230.28,
+    "text": "investigating bits of recreational maths, this is a familiar shape."
+  },
+  {
+    "t_start": 231.66,
+    "t_end": 232.52,
+    "text": "It's full of triangles."
+  },
+  {
+    "t_start": 233.16,
+    "t_end": 236.212,
+    "text": "It looks like that trace point, wherever it's going, which is definitely going randomly,"
+  },
+  {
+    "t_start": 236.22,
+    "t_end": 238.4,
+    "text": "I haven't rigged this, this is doing it differently every time we run it,"
+  },
+  {
+    "t_start": 239.04,
+    "t_end": 240.86,
+    "text": "but it is dodging those triangles and it's making"
+  },
+  {
+    "t_start": 241.16,
+    "t_end": 243.44,
+    "text": "a shape, which I think everyone can see now."
+  },
+  {
+    "t_start": 243.52,
+    "t_end": 246.6,
+    "text": "This is called the Sierpenski Gasket. It turns up all over the place."
+  },
+  {
+    "t_start": 246.6,
+    "t_end": 248.74,
+    "text": "This is a fractal thing you get, actually you can see now,"
+  },
+  {
+    "t_start": 248.86,
+    "t_end": 250.96,
+    "text": "I think we've got enough to see that the big triangle,"
+  },
+  {
+    "t_start": 251.44,
+    "t_end": 253.38,
+    "text": "uh, has a black triangle in the middle, and..."
+  },
+  {
+    "t_start": 253.78,
+    "t_end": 259.82,
+    "text": "But then each copy of itself has a black bit in the middle and three copies around itself."
+  },
+  {
+    "t_start": 260.48,
+    "t_end": 264.86,
+    "text": "And that's what a fractal is, the self similar thing, you zoom in and you see a little copy of itself."
+  },
+  {
+    "t_start": 264.86,
+    "t_end": 268.66,
+    "text": "But the fact this is genuinely coming from rolling a dice on a computer and doing it quickly..."
+  },
+  {
+    "t_start": 269.26,
+    "t_end": 272.38,
+    "text": "Makes me... sss-- I don't know, just slightly disturbed about reality."
+  },
+  {
+    "t_start": 272.54,
+    "t_end": 277.8,
+    "text": "Brady: I would have thought every point... had-- had a chance of being filled at some stage,"
+  },
+  {
+    "t_start": 278.16,
+    "t_end": 280.58,
+    "text": "but there are lots of areas that will just never get touched."
+  },
+  {
+    "t_start": 280.58,
+    "t_end": 284.04,
+    "text": "Right, and so I mean-- And you can rig it so, I-- I said you could start anywhere, right?"
+  },
+  {
+    "t_start": 284.1,
+    "t_end": 286.0,
+    "text": "So I could start with my point right in the middle."
+  },
+  {
+    "t_start": 286.22,
+    "t_end": 288.66,
+    "text": "And then we definitely have a point right in the middle, in that black."
+  },
+  {
+    "t_start": 288.88,
+    "t_end": 291.6,
+    "text": "But what happens if you iterate enough, it veers away from that."
+  },
+  {
+    "t_start": 291.6,
+    "t_end": 296.02,
+    "text": "So, the long-term behavior is what's interesting, is that even if you start in a black thing..."
+  },
+  {
+    "t_start": 296.48,
+    "t_end": 300.04,
+    "text": "the-- the random going half way moves you away from that black area and you..."
+  },
+  {
+    "t_start": 300.18,
+    "t_end": 303.24,
+    "text": "Actually, the technical term for this shape is called an attractor."
+  },
+  {
+    "t_start": 304.04,
+    "t_end": 307.74,
+    "text": "Um, some people, you may have heard of these things called strange attractors in chaos theory."
+  },
+  {
+    "t_start": 307.84,
+    "t_end": 312.99,
+    "text": "Well it's kind of advanced maths in it, but this shape is the attraction and it's also just, it's just pretty."
+  },
+  {
+    "t_start": 312.99,
+    "t_end": 317.18,
+    "text": "The fact that random behavior produces something which is very structured, it is a nice outcome."
+  },
+  {
+    "t_start": 317.56,
+    "t_end": 321.14,
+    "text": "Well, we had three points. I mean, we could have four, we could have five, we could, pick a number, um,"
+  },
+  {
+    "t_start": 321.46,
+    "t_end": 324.2,
+    "text": "uh, probably a whole number, otherwise counting the points is difficult."
+  },
+  {
+    "t_start": 324.46,
+    "t_end": 328.84,
+    "text": "We could have four points and say, well, let's roll a dice, or a four-sided dice (a d4) to go to one of those."
+  },
+  {
+    "t_start": 329.12,
+    "t_end": 332.72,
+    "text": "What pattern would you get? You could say, instead of going half way, go a third of the way,"
+  },
+  {
+    "t_start": 332.98,
+    "t_end": 334.28,
+    "text": "or 3/4 the way, what will happen?"
+  },
+  {
+    "t_start": 334.64,
+    "t_end": 337.08,
+    "text": "Do any of them make patterns? Do they go chaotic?"
+  },
+  {
+    "t_start": 337.28,
+    "t_end": 339.1,
+    "text": "People have spent a long time fiddling with the rules."
+  },
+  {
+    "t_start": 339.52,
+    "t_end": 342.92,
+    "text": "It's nice to find out for yourself, but there's one rule I'll show you which does something"
+  },
+  {
+    "t_start": 342.92,
+    "t_end": 346.06,
+    "text": "which nobody really expected. So I-- I'm not going to go into details. This is worth looking up."
+  },
+  {
+    "t_start": 346.06,
+    "t_end": 349.96,
+    "text": "But I've got a red shape and a blue shape, and they're kind of just summarizing..."
+  },
+  {
+    "t_start": 350.34,
+    "t_end": 352.02,
+    "text": "two possible outcomes of the rule. Like..."
+  },
+  {
+    "t_start": 352.48,
+    "t_end": 356.48,
+    "text": "we'll start with a point and with some probability would go to one of the corners of the red triangle..."
+  },
+  {
+    "t_start": 356.84,
+    "t_end": 359.64,
+    "text": "um, but with a small probability will-- will flip over to the blue triangle."
+  },
+  {
+    "t_start": 360.02,
+    "t_end": 362.12,
+    "text": "And every time you kind of roll a dice to see where to go..."
+  },
+  {
+    "t_start": 362.6,
+    "t_end": 365.84,
+    "text": "you-- you follow this slightly more complicated set of rules but just, they're just random."
+  },
+  {
+    "t_start": 366.2,
+    "t_end": 369.46,
+    "text": "Like, you go here with a certain probability, and then you flip back to the red one with a certain probability."
+  },
+  {
+    "t_start": 369.64,
+    "t_end": 370.14,
+    "text": "And..."
+  },
+  {
+    "t_start": 370.62,
+    "t_end": 375.1,
+    "text": "if you look up, uh, this particular rule, you get this picture after a while you start to see these"
+  },
+  {
+    "t_start": 375.11,
+    "t_end": 377.719,
+    "text": "green dots appearing in what looks like"
+  },
+  {
+    "t_start": 377.719,
+    "t_end": 379.219,
+    "text": "a very structured way in fact it becomes"
+  },
+  {
+    "t_start": 379.219,
+    "t_end": 380.659,
+    "text": "very obvious if you run it long enough"
+  },
+  {
+    "t_start": 380.66,
+    "t_end": 382.42,
+    "text": "that the picture you're getting looks"
+  },
+  {
+    "t_start": 382.42,
+    "t_end": 384.9,
+    "text": "like something real. It looks like a fern."
+  },
+  {
+    "t_start": 384.9,
+    "t_end": 385.86,
+    "text": "That's crazy!"
+  },
+  {
+    "t_start": 385.94,
+    "t_end": 387.7,
+    "text": "This is called Barnes Lee's fern"
+  },
+  {
+    "t_start": 387.7,
+    "t_end": 390.28,
+    "text": "compare it with a real fern it's"
+  },
+  {
+    "t_start": 390.289,
+    "t_end": 391.579,
+    "text": "surprisingly accurate. This is a nice"
+  },
+  {
+    "t_start": 391.579,
+    "t_end": 392.869,
+    "text": "example of how you don't have to draw"
+  },
+  {
+    "t_start": 392.869,
+    "t_end": 394.909,
+    "text": "something natural by hand. All the"
+  },
+  {
+    "t_start": 394.909,
+    "t_end": 397.009,
+    "text": "information for this fern is captured in"
+  },
+  {
+    "t_start": 397.009,
+    "t_end": 399.11,
+    "text": "a few lines of probability like the"
+  },
+  {
+    "t_start": 399.11,
+    "t_end": 401.449,
+    "text": "rules of the game are the fern or are a"
+  },
+  {
+    "t_start": 401.449,
+    "t_end": 403.069,
+    "text": "picture of a fern. It's actually really"
+  },
+  {
+    "t_start": 403.069,
+    "t_end": 405.14,
+    "text": "useful if you want to program video game graphics."
+  },
+  {
+    "t_start": 405.14,
+    "t_end": 406.82,
+    "text": "You don't want to draw every tree,"
+  },
+  {
+    "t_start": 406.82,
+    "t_end": 409.3,
+    "text": "every fern. So if you can just kind"
+  },
+  {
+    "t_start": 409.309,
+    "t_end": 411.05,
+    "text": "of store all the trees and ferns as a rule"
+  },
+  {
+    "t_start": 411.05,
+    "t_end": 412.369,
+    "text": "and say whene- whenever you want a fern you"
+  },
+  {
+    "t_start": 412.369,
+    "t_end": 414.679,
+    "text": "just do that for a while. That is a much"
+  },
+  {
+    "t_start": 414.679,
+    "t_end": 416.599,
+    "text": "easier way to sort of ca... And lots of"
+  },
+  {
+    "t_start": 416.599,
+    "t_end": 418.579,
+    "text": "natural things turn out to have this fractal"
+  },
+  {
+    "t_start": 418.579,
+    "t_end": 420.769,
+    "text": "structure, self similar things which"
+  },
+  {
+    "t_start": 420.769,
+    "t_end": 422.62,
+    "text": "means you can generate them by iterating stuff."
+  },
+  {
+    "t_start": 422.62,
+    "t_end": 425.26,
+    "text": "Genuinely good graphics coming"
+  },
+  {
+    "t_start": 425.269,
+    "t_end": 427.759,
+    "text": "from the fractal generated graphics"
+  },
+  {
+    "t_start": 427.759,
+    "t_end": 429.619,
+    "text": "rather than hand-painted. To get the"
+  },
+  {
+    "t_start": 429.619,
+    "t_end": 431.479,
+    "text": "structure of a tree on repeat if you"
+  },
+  {
+    "t_start": 431.479,
+    "t_end": 432.939,
+    "text": "just add one tree and you copied it,"
+  },
+  {
+    "t_start": 432.939,
+    "t_end": 434.629,
+    "text": "it becomes really obvious when you're"
+  },
+  {
+    "t_start": 434.629,
+    "t_end": 435.889,
+    "text": "running around the forest like it's just"
+  },
+  {
+    "t_start": 435.889,
+    "t_end": 437.539,
+    "text": "a computer forest. But if it looks,"
+  },
+  {
+    "t_start": 437.539,
+    "t_end": 439.099,
+    "text": "has this natural sort of variation with"
+  },
+  {
+    "t_start": 439.1,
+    "t_end": 441.5,
+    "text": "some randomness in it, you get much more realistic looking"
+  },
+  {
+    "t_start": 441.5,
+    "t_end": 443.94,
+    "text": "trees and ferns and things."
+  },
+  {
+    "t_start": 443.94,
+    "t_end": 448.44,
+    "text": "Our thanks to The Great Courses Plus for making this extra video possible."
+  },
+  {
+    "t_start": 448.8,
+    "t_end": 450.2,
+    "text": "If you have a thirst for knowledge,"
+  },
+  {
+    "t_start": 450.64,
+    "t_end": 451.78,
+    "text": "and you probably do because you're watching"
+  },
+  {
+    "t_start": 451.78,
+    "t_end": 454.12,
+    "text": "Numberphile, then you really should check"
+  },
+  {
+    "t_start": 454.12,
+    "t_end": 456.67,
+    "text": "these guys out. From exoplanets to chess,"
+  },
+  {
+    "t_start": 456.67,
+    "t_end": 459.28,
+    "text": "from ancient Rome to English grammar,"
+  },
+  {
+    "t_start": 459.28,
+    "t_end": 460.9,
+    "text": "you're going to find something that"
+  },
+  {
+    "t_start": 460.9,
+    "t_end": 463.69,
+    "text": "fascinates you among this huge library"
+  },
+  {
+    "t_start": 463.69,
+    "t_end": 466.51,
+    "text": "of online videos. Each is taught by"
+  },
+  {
+    "t_start": 466.51,
+    "t_end": 468.97,
+    "text": "world-class experts from organizations"
+  },
+  {
+    "t_start": 468.97,
+    "t_end": 471.12,
+    "text": "like the Smithsonian, National Geographic,"
+  },
+  {
+    "t_start": 471.12,
+    "t_end": 474.04,
+    "text": "all the top universities. Unlimited"
+  },
+  {
+    "t_start": 474.04,
+    "t_end": 476.2,
+    "text": "access to the full catalog starts from"
+  },
+  {
+    "t_start": 476.2,
+    "t_end": 479.71,
+    "text": "as low as $14.99 a month, but you can sign"
+  },
+  {
+    "t_start": 479.71,
+    "t_end": 482.47,
+    "text": "on for a free trial to see just how good it is."
+  },
+  {
+    "t_start": 482.47,
+    "t_end": 489.2,
+    "text": "Go to thegreatcoursesplus.com/numberphile to check them out."
+  },
+  {
+    "t_start": 489.42,
+    "t_end": 491.602,
+    "text": "There's also a link in the video description."
+  },
+  {
+    "t_start": 491.602,
+    "t_end": 495.61,
+    "text": "I'd recommend this one about the Tibetan Plateau and the Himalayas,"
+  },
+  {
+    "t_start": 495.61,
+    "t_end": 498.365,
+    "text": "bit of an interest of mine. It's got some really cool stuff"
+  },
+  {
+    "t_start": 498.365,
+    "t_end": 501.38,
+    "text": "about how mountains are formed and, would you believe it,"
+  },
+  {
+    "t_start": 501.38,
+    "t_end": 504.52,
+    "text": "it's part of a 36 part series of lectures"
+  },
+  {
+    "t_start": 504.52,
+    "t_end": 507.68,
+    "text": "called \"The World's Greatest Geological Wonders\"."
+  },
+  {
+    "t_start": 508.16,
+    "t_end": 510.44,
+    "text": "Have a look at that, that's seriously interesting stuff."
+  },
+  {
+    "t_start": 510.78,
+    "t_end": 514.86,
+    "text": "That address, again: thegreatcoursesplus.com/numberphile"
+  },
+  {
+    "t_start": 514.86,
+    "t_end": 519.96,
+    "text": "or the link in the description to start you off with that free trial."
+  }
+]

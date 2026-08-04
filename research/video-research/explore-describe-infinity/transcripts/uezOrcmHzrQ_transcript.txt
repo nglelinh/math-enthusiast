@@ -1,0 +1,314 @@
+Today we are checking into Hilbert's Hotel, the infamous Hotel of Hilbert
+with its many, many infinite scores of rooms. However, running a hotel with
+rooms. However, running a hotel with infinite rooms comes with some
+infinite rooms comes with some challenges. And unfortunately, someone
+challenges. And unfortunately, someone has muddled up all of the keys. All of
+those infinite keys are just in a big old bucket. And we have to figure out if
+old bucket. And we have to figure out if we start pulling them out at random,
+we start pulling them out at random, what is the probability we actually end
+what is the probability we actually end up putting the correct key on the
+able to do that? Are you talking about all the hooks or just getting it right
+once? We're going to just see if we can get it right at least once. So, we have
+get it right at least once. So, we have this infinite bucket, right? And let's
+this infinite bucket, right? And let's suppose it's an infinite hotel. So,
+there's an infinite rack where you're going to hang your hook. So, going old
+going to hang your hook. So, going old school with the keys. None of this
+school with the keys. None of this modern nonsense with key cards. Got to
+modern nonsense with key cards. Got to take the key out. out and you're just
+going to take out a key at random and you're going to put it on a hook. So it
+next one hook three. And you can say, well, what's the probability at least
+well, what's the probability at least one of them is correct. So a good way to
+start with any probability problem, especially when we're talking about
+especially when we're talking about infinite numbers of items, let's use
+infinite numbers of items, let's use some helpful notation. So we're going to
+some helpful notation. So we're going to say that AI is going to be the event
+that key I is on the correct hook. Just so we have a way of numbering what's
+so we have a way of numbering what's happening. That's our jackpot. Yeah,
+just just one would be nice. So what we actually want is we want the probability
+actually want is we want the probability that you know maybe A1 is correct or A2
+dot. We don't mind which one I the hooks. Yes, these are the hooks. So this
+hooks. Yes, these are the hooks. So this is this is the event key one goes on
+hook one and it works. It's correct. So that could work. That could be true. Is
+key key one could be correct or key2 could be correct or key3 or key4. We're
+could be correct or key3 or key4. We're not specifying which number hook has to
+not specifying which number hook has to be correct. Any of these are fine. And
+it could be multiple of them. We don't mind that either. So this is going to go
+mind that either. So this is going to go all the way up forever. So to start
+all the way up forever. So to start with, just to keep track of what's going
+with, just to keep track of what's going on, let's stop at some number n just to
+help us get a grip on what's happening. Anytime you're dealing with infinity,
+usually it's a good idea to say, okay, well, let's understand what happens with
+well, let's understand what happens with some very large number and then like
+some very large number and then like take that limit at the end because if
+take that limit at the end because if you start with infinity at the
+beginning, you can very easily get lost and things can get muddled. So, we're
+going to sort of let n be infinity at the end. Now, in order to work out what
+the end. Now, in order to work out what this probability is, we actually want to
+this probability is, we actually want to basically draw a really big vin diagram
+basically draw a really big vin diagram with n overlapping events. But I'm not
+with n overlapping events. But I'm not going to do that. We're going to just
+going to do that. We're going to just try and spot the pattern from smaller
+cases and then you'll take my word for it when I write down the general formula
+it when I write down the general formula or if you're really keen you can prove
+it by induction if you're into that. So if we have n equals 2 we're interested
+if we have n equals 2 we're interested in the probability of a1 or a2 being
+in the probability of a1 or a2 being true. So key1 being correct or key2
+true. So key1 being correct or key2 being correct. This is a poxy little
+hotel this one. Yes. Yeah. This is the budget version just the two rooms. So
+budget version just the two rooms. So we'll draw our ven diagram. This is A1.
+we'll draw our ven diagram. This is A1. this is a2. So if we now say well a good
+place to start is to say this is the probability of a1 plus the probability
+of a2. But we've counted a1 which is all of this and then we've counted a2 which
+is all of this. So you can see we've double counted the bit in the middle. So
+we take away the probability of A1 and A2 and now we've got exactly all of this
+A2 and now we've got exactly all of this area because again we don't mind if both
+area because again we don't mind if both of them are correct. That's okay. We
+of them are correct. That's okay. We just want like just at least one. But
+just want like just at least one. But then suppose we had three to make it a
+little bit more complicated and hopefully we'll then spot the pattern.
+hopefully we'll then spot the pattern. So these are my three rooms. A1, A2, A3.
+probability of A1 or A2 or A3. So let's start by adding them all up. So again,
+start by adding them all up. So again, we've overounted, but let's try and keep
+we've overounted, but let's try and keep track of what we've over counted by how
+Now let's look at red and blue, A1 and A3. So we've counted that bit twice. So
+this means both A1 and A3 are true. It's the overlap between the two of them. So
+the overlap between the two of them. So we definitely need to subtract that.
+We're going to have to also subtract this one, which is A1 and A2. And this
+this one, which is A1 and A2. And this one's double counted as well, which is
+one's double counted as well, which is A2 and A3. But we've now taken away all
+and we've taken away all of this. So that's good because this bit was counted
+that's good because this bit was counted twice and we've only taken it away once.
+twice and we've only taken it away once. This bit we counted twice. We've taken
+This bit we counted twice. We've taken it away once. That little bit. And same
+for this little bit. But the bit in the middle we counted three times, but we've
+middle we counted three times, but we've just taken it away three times. So we've
+that one away too many times. So we add it back in. And that's the pattern. So
+we add back in A1 and A2 and A3. So what we've got here is the n=2 and n equals 3
+we've got here is the n=2 and n equals 3 version of something called the
+version of something called the inclusion exclusion principle which is
+inclusion exclusion principle which is an excellent name because it basically
+you add up all of the single events as we did there as we did there. Then you
+take away the double events and then you add back in the triple events. Then you
+add back in the triple events. Then you take away the four events and you just
+include it and then you exclude it. You include it. You exclude it and it just
+all works beautifully because of the properties of ven diagrams. Fully aware
+this isn't a proof. I don't want to do the induction. That's that's for all of
+the induction. That's that's for all of you watching. But we're going to use the
+general form of this now to try and figure out what this probability is. So
+going to use. So we want the probability of all of these things or or or or. So
+of all of these things or or or or. So this is what we call a union which just
+means or this or that or that. So I'm just going to simplify my notation and
+just say this is the union of one to n of ai. Right? That's just this but you
+of ai. Right? That's just this but you know almost like a sum you would
+know almost like a sum you would normally write here but we just want all
+normally write here but we just want all of them union together. So we then do
+of them union together. So we then do the sum of all of the individual ones.
+So probability of each individual event. So we've included everything but we've
+overounted. So then we exclude all the doubles. So that's going to be um some
+one. And we saw here you have to go through all possible pairings in that
+through all possible pairings in that subtraction part. So what does that
+subtraction part. So what does that mean? Now you'll notice here on purpose
+mean? Now you'll notice here on purpose we of course don't want to double count
+we of course don't want to double count one and two because that's the same as
+one and two because that's the same as two and one, right? The order isn't
+once. So what we do is we just say this is the sum over i smaller than J where
+is the sum over i smaller than J where they both go from one to n. But we just
+they both go from one to n. But we just put that express condition there to make
+put that express condition there to make sure that we're not double counting
+these things. Then we add back in the next one. And now we've got I less than
+next one. And now we've got I less than J less than K because we're now going to
+have the triple of one two three of them. And by imposing this condition, we
+them. And by imposing this condition, we just make sure that we don't end up with
+3 2 1 and 1 2 3 cuz they're the same thing. And then we just dot dot dot dot
+thing. And then we just dot dot dot dot dot. And the sign is going to keep
+minus1 to the n +1. And then we're left with the probability of a1 and a2 and
+all of them up to the nth one at the same time. And we don't know whether n
+same time. And we don't know whether n is odd or even which is why I've written
+is odd or even which is why I've written it right. This this is a plus or a
+minus. It's going to vary depending on we saw here the last one here was a
+n was even it was a minus when n was odd it was a plus. So that's why it's to the
+it was a plus. So that's why it's to the to the n plus one. So it depends on
+Yes. Whether infinity is odd or even. Exactly. Well, yeah, we'll come to that.
+Exactly. Well, yeah, we'll come to that. We'll come to that. Yeah. Okay. So, this
+is the formula. So, now we just need to know what are these bits? What are all
+know what are these bits? What are all these bits? And
+fortunately, the formula itself, I think getting, you know, realizing this is
+getting, you know, realizing this is what's happening is probably harder than
+what's happening is probably harder than the probabilities themselves because we
+the probabilities themselves because we just say, right, well, what is
+just say, right, well, what is probability of a single event? We've got
+probability of a single event? We've got our box of keys. There are n keys in the
+are n keys in the box. So if I pull one of them out at random and put it on hook
+of them out at random and put it on hook one, there's a one in n chance that I
+one, there's a one in n chance that I was right. So there's 100 keys. I have a
+correct key to put on that hook. So the probability of any number being correct
+is actually just one out of n by itself. You know, individually it's just one out
+You know, individually it's just one out of n. But then the probability of two of
+of n. But then the probability of two of them being correct. Again, doesn't
+really matter which two. Well, the first one is one out of n and then I then need
+one is one out of n and then I then need the second one to also be correct. There
+the second one to also be correct. There are n minus one left. There's one less
+are n minus one left. There's one less and they're going to be multiplied
+and they're going to be multiplied because I need both of them to be true.
+So we multiply together those probabilities independent events. So
+probabilities independent events. So it's that and then it's going to
+triple and because all the keys are equally likely that's why doesn't matter
+what value whether it's key 1 2 10 doesn't matter this is now just going to
+doesn't matter this is now just going to be um 1 / n for the first one n minus
+one for the second one and then an n minus2 for that third and we're just
+minus2 for that third and we're just going to keep going this way. So the
+going to keep going this way. So the probabilities are relatively
+maybe a little bit trickier is counting how many terms are in the sums because
+how many terms are in the sums because right the first one here we just have n
+plus 1 / n plus 1 over n we add it to itself n times. But now the second one
+itself n times. But now the second one we're summing over pairs of integers
+pairs of numbers where one of them has to be smaller than the other. So here
+to be smaller than the other. So here you can think of it as follows. picking
+you can think of it as follows. picking this first number, I have n
+this first number, I have n choices, right? I'm looking at one, two,
+choices, right? I'm looking at one, two, three, 43, whatever I want. There's n
+three, 43, whatever I want. There's n different things I'm picking from. And
+once I pick that one, this one now has n minus one choices. I can't pick the same
+minus one choices. I can't pick the same one because we don't look at the same
+event happening. It's got strict inequality. But the important thing is
+we do care about the order because we only want to count them once. So, I've
+only want to count them once. So, I've got n choices for this one and then n
+minus one for this one. But some of them will be the wrong way round. We want i
+will be the wrong way round. We want i to always be smaller than j. So, we're
+to always be smaller than j. So, we're going to actually double count. So, we
+going to actually double count. So, we could get one and three or three and
+one. This would work here, but we don't want that. We throw away the three and
+want that. We throw away the three and one just to make sure we don't double
+one just to make sure we don't double count. So, we actually have to divide by
+two. In red, we've got the number of terms in the sum, first two bits, and
+terms in the sum, first two bits, and then the blue is the actual probability.
+then the blue is the actual probability. So I should say this is actually the sum
+of this is what I'm writing down here because I'm multiplying by the number of
+because I'm multiplying by the number of terms. And then we're going to get a
+terms. And then we're going to get a similar thing here. So again, three of
+them, but they have to be in the right order. So we've got n choices* n minus
+order. So we've got n choices* n minus one * n
+minus2. But we've double counted there, so we divide by two. And then we triple
+counted there, so we divide by three. Some of you, if you're familiar with
+Some of you, if you're familiar with combinotaurics, you're familiar with
+counting and choosing problems. You may have just known immediately what these
+have just known immediately what these were. There's a whole field of maths
+were. There's a whole field of maths which just tells you what these answers
+which just tells you what these answers are. But I always like to think about
+are. But I always like to think about counting them myself. Now we've got the
+counting them myself. Now we've got the formula. What does it turn into? Right?
+formula. What does it turn into? Right? This is the magic. So subbing all of
+This is the magic. So subbing all of this in, the probability that at least
+one key is on the correct hook is out of n. We're still on n at this point. That
+n. We're still on n at this point. That times that. So that's just one. The next
+term, uh, we got an n. N minus one. So n cancels with the n minus one cancel. Got
+cancels with the n minus one cancel. Got one over two. The next one cancels,
+And we got one over. So it's going to be a sixth, but I'm going to leave it as 3
+a sixth, but I'm going to leave it as 3 * 2 because then the next one it's going
+* 2 because then the next one it's going to be the same. It's 1 over 4 factorial.
+It's 1 over 5 factorial. So each time we're getting these factorials, which is
+we're getting these factorials, which is where you take the number and then just
+multiply it by the one less than it all the way down to one. Right? So there is
+technically there's a one here, but we just never write it. And I've forgotten
+just never write it. And I've forgotten that the sign changes. So I've worked
+that the sign changes. So I've worked out all of these things, but remember
+out all of these things, but remember the sign's changing. So this is a minus.
+the sign's changing. So this is a minus. This is a plus. This is a minus. This is
+This is a plus. This is a minus. This is a plus. The next one's going to be a
+minus. So, we're adding together all of these. One divided by factorials. Now,
+these. One divided by factorials. Now, this is starting to look like something
+this is starting to look like something that maybe mathematicians have studied.
+that maybe mathematicians have studied. Feels like it could be, you know, what's
+like one over the factorials added or subtracted. Probably G. Probably G.
+Yeah. Or oiler. Well, it is. It's got to be oiler, actually. Okay. Right. So,
+be oiler, actually. Okay. Right. So, what is this thing? I need more paper,
+So it's 1 minus one. I'm going to write that as two factorial just because we
+that as two factorial just because we want to look at the pattern. 3 factorial
+factorial. And we're just going to keep going. And the last term is going to be
+see what this is going to be because the first one one out of n chances. Second
+already got that one all the way down to that. So it's going to be a one over um
+that. So it's going to be a one over um or a minus
+one to the m + one over n factorial. So again what we were expecting we got the
+again what we were expecting we got the factorial terms on the bottom. So this
+we can actually write as a sum. Um so because there's a pattern here. So it's
+the sum from k = 1 to let's leave it at n. But this is where we're going to let
+n go to infinity. And what we've got is minus one. Now the first term has to be
+minus one. Now the first term has to be positive. So I think if I make
+this k when k is one we need I think k plus one there and then the term on the
+plus one there and then the term on the bottom is going to be k factorial. So I
+bottom is going to be k factorial. So I think that's going to work. So subing k=
+factorial. When k is 2 that's - 1 cub that's negative and then we got the two
+that's negative and then we got the two factorial. So I think that's going to
+factorial. So I think that's going to work. So this is now our probability
+work. So this is now our probability which again some of you might know where
+which again some of you might know where I'm going with this but some of you
+might also be like what on earth is that? So we're going to borrow from
+Oiler. So Oiler showed us that e to the power of x good old exponential function
+power of x good old exponential function can be written as the sum from k= n to
+infinity of x to ^ k / k factorial. Now this is very close to what we've got.
+this is very close to what we've got. It's for a specific value of x and of
+It's for a specific value of x and of course we need to let n go to infinity.
+course we need to let n go to infinity. But if we were to just calculate this
+for larger and larger values of n, it would begin to look more and more like
+would begin to look more and more like the exponential. So if we compare the
+exponential to what we've got the key thing is this is going to be our x it's
+thing is this is going to be our x it's minus one. So what we've actually got
+minus one. So what we've actually got here is or what we can do from oiler is
+e famous oiler's number is according to this sum n to infinity of minus1 to the
+this sum n to infinity of minus1 to the k over k factorial. Now our sum looks
+k over k factorial. Now our sum looks very close to this except we've got a
+very close to this except we've got a different power of minus one. And so
+different power of minus one. And so we're going to let n go to infinity at
+we're going to let n go to infinity at this point
+now actually now have those infinite keys in the bucket. Um and then we just
+keys in the bucket. Um and then we just need to add in we've got the zero term.
+So if I sort of take out the zero term from here when this is zero you get one
+from here when this is zero you get one and then it's one plus the sum from one
+and then it's one plus the sum from one to infinity of minus one to the k
+to infinity of minus one to the k factorial. So now based on our
+factorial. So now based on our probability we've got an extra factor of
+probability we've got an extra factor of minus one. So this is minus the sum from
+minus one. So this is minus the sum from 1 to infinity of minus1 to the k
+1 to infinity of minus1 to the k factorial. So what it means is we are
+factorial. So what it means is we are almost at this. Our value for the
+almost at this. Our value for the probability at least one key is
+probability at least one key is correct is you may have guessed it one
+correct is you may have guessed it one minus one over e which is about
+minus one over e which is about 63% chance. So infinite bucket of keys
+63% chance. So infinite bucket of keys you take them out one by one. You take
+out another key, put it on hook two, and you continue with this, just selecting
+you continue with this, just selecting them at random, all equally likely.
+There is a 63% chance, at least one of them ends up on the right hook. So, at
+them ends up on the right hook. So, at least one of your guests, 63% chance one
+least one of your guests, 63% chance one of your guests ends up in the correct
+room with a key that works on their actual door. You may have noticed before
+actual door. You may have noticed before Number File is supported by Jane Street.
+Number File is supported by Jane Street. They're a worldwide market trading firm
+They're a worldwide market trading firm using machine learning, programmable
+hardware, statistics, all that good stuff to trade on markets around the
+globe. In addition to hiring great people, they also run free programs
+giving a sneak peek into what they do. Here are just some of them, including
+Here are just some of them, including Wise, which is currently accepting
+Wise, which is currently accepting applicants. These two-day programs run
+in New York, London, and Hong Kong. They're aimed at self-identifying women,
+They're aimed at self-identifying women, transgender, and gender expansive people
+transgender, and gender expansive people who are about to start their first year
+university. You can apply from anywhere around the world. No finance experience
+around the world. No finance experience necessary, just a curious mind. Learn
+necessary, just a curious mind. Learn who Jane Street are, what they do, and
+it. You'll also meet a lot of great people just like you, and have a bunch
+people just like you, and have a bunch of
+fun. There's no cost to participate. Travel and accommodation are all
+covered. Applications close in May and June for programs taking place in July
+and August. Also, keep an eye on the Jane Street website for other programs
+Jane Street website for other programs that might suit you. There'll be links
+that might suit you. There'll be links in the description and the comments, all
+in the description and the comments, all the usual
+places. What's the probability that two people get the right key or or loads of
+people get the right key? Exactly. Right. Yeah. It's it's you after all
+Right. Yeah. It's it's you after all these years, you're becoming a
+these years, you're becoming a mathematician, Brady. You're asking the
+questions the mathematicians want to know. Okay. So, um, we know, let's think
+know. Okay. So, um, we know, let's think about what we figured out. So, before we
+about what we figured out. So, before we let cuz that because of course that
+let cuz that because of course that meant there's a 37% chance no one gets

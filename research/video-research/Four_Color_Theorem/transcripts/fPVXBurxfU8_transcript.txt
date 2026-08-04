@@ -1,0 +1,230 @@
+Do you want to talk about a fourcolor theorem a bit and computer proofs? Is
+theorem a bit and computer proofs? Is that something you've got opinions on?
+that something you've got opinions on? And
+&gt;&gt; maybe even the capitalist sphere packing conjecture. You were involved with a
+conjecture. You were involved with a proof of that. The fourcolor theorem was
+proof of that. The fourcolor theorem was the first time
+that such discussions arose &gt;&gt; although we'd run into it in group
+&gt;&gt; although we'd run into it in group theory.
+&gt;&gt; Hacken and appel I almost uh spoonize those two names proved it um
+those two names proved it um uh jointly.
+&gt;&gt; So they reduced the proof to an enormous calculation which they did by machine.
+calculation which they did by machine. &gt;&gt; They interacted with the machine.
+&gt;&gt; They interacted with the machine. Basically, you have a part of the proof
+that says any map, any sufficiently large map, uh, must contain one of these
+then for each of those configurations, you have a reducibility thing that you
+can color this map if and only if you can color a rather smaller one. um and
+can color a rather smaller one. um and that you know putting those two things
+together you prove that there can't be a minimal counter example that needs more
+minimal counter example that needs more than four colors. Um and what happened
+than four colors. Um and what happened with the original proof is
+with the original proof is that they generated this list of
+that they generated this list of configurations to be proved reducible by
+configurations to be proved reducible by hand.
+Um and then uh the machine they had a machine program that tested
+machine program that tested reducability.
+Now as soon as this came out there was a tremendous amount of
+there was a tremendous amount of discussion in things like the scientific
+discussion in things like the scientific American and the new scientist and you
+American and the new scientist and you know in mathematics departments all over
+know in mathematics departments all over the place and the discussion rather
+the place and the discussion rather missed the point. The discussion was can
+call it a proof &gt;&gt; if the machine did it or if it was only
+&gt;&gt; or if no human could ever check it. &gt;&gt; Yeah. Or no human can check it and so
+&gt;&gt; Yeah. Or no human can check it and so on.
+&gt;&gt; Um is it really a proof? The real problem was with the let's call it the
+problem was with the let's call it the hand component. I mean or the human
+hand component. I mean or the human components is perhaps a better word. Um
+components is perhaps a better word. Um the human component was unreliable.
+Even when they announced the proof, [snorts] they were still finding cases
+[snorts] they were still finding cases that they'd missed. Um,
+but uh what happened is if you if you missed a case, you put it
+if you if you missed a case, you put it into the machine and then either it
+into the machine and then either it proved it reducible or it didn't counter
+proved it reducible or it didn't counter example. But then uh after you suppose
+example. But then uh after you suppose it didn't then you sort of asked well
+what's what are the next two faces around here like that splits it into
+around here like that splits it into three or four sub cases and you put
+three or four sub cases and you put those into the machine and the machine
+would check that they were all reducible or maybe one of them wasn't but then you
+do it again and it really is and they had accumulated
+a sort of familiarity with what the machine did and they saw sort of knew
+machine did and they saw sort of knew that uh they were just essentially
+that uh they were just essentially there. You know, if whatever case you
+there. You know, if whatever case you handled, you could it was either
+reducible or could be split into a few cases which maybe one of them needed to
+cases which maybe one of them needed to be split a bit more. But in any case, in
+be split a bit more. But in any case, in the end, they were all reducible. and
+they uh made the mistake in my view of announcing the result when in fact they
+announcing the result when in fact they were still finding errors but they were
+were still finding errors but they were eventually cleared up. The sort of
+eventually cleared up. The sort of public discussion of this never centered
+public discussion of this never centered on that. I mean the problems were not
+the were with the human part. The human path turned out to be highly unreliable
+path turned out to be highly unreliable as anybody with any any experience of
+as anybody with any any experience of mathematical proofs could have told you.
+mathematical proofs could have told you. You know there was a man whose name I
+think was all a l a i e who had almost finished a proof at the time that
+&gt;&gt; a similar machine based proof that hacken and apple uh published their
+proof and he came up with his proof uh about within the next six months or
+uh about within the next six months or so and the original proof had about
+so and the original proof had about 2,000 cases to the tree 1900 and
+something um allow poof was a bit smaller you know and then eventually
+smaller you know and then eventually my colleague um here Paul Seymour at
+my colleague um here Paul Seymour at Princeton
+Princeton um
+mechanized the case discussion part &gt;&gt; so there's no human involvement
+&gt;&gt; no human interaction at all so to speak &gt;&gt; whereas mathematicians wanted to take it
+&gt;&gt; whereas mathematicians wanted to take it the other way
+&gt;&gt; yes I mean by the way I had ideas still have about proving the fourcolor
+have about proving the fourcolor theorem. But um but anyway,
+theorem. But um but anyway, Seymour reduced it to 640 something
+Seymour reduced it to 640 something cases. Uh and um moreover that has been
+cases. Uh and um moreover that has been sort of handched because no hand checked
+sort of handched because no hand checked the case discussion part has been hand
+the case discussion part has been hand checked. The reducibility
+was never a problem. You know, uh there are several different things uh programs
+are several different things uh programs have been written to check reducibility
+have been written to check reducibility and you couldn't run it on any one of
+them and it says it's reducible and they're using slightly different
+methods. The case that I was involved in rather reluctantly, but I wasn't really
+rather reluctantly, but I wasn't really involved was when this perhaps I won't
+mention the name. I mean you were involved in hails
+involved in hails sphere packing conjecture.
+&gt;&gt; Another mathematician claimed to have a proof of the Kepler conjecture how
+proof of the Kepler conjecture how densely you could pack
+and well perhaps the nicest thing to say is it wasn't a proof and the claim
+is it wasn't a proof and the claim didn't stand up. It took quite a a loss
+didn't stand up. It took quite a a loss of discussion to sort of verify that.
+of discussion to sort of verify that. &gt;&gt; But that was not a computer proof. I
+&gt;&gt; computers weren't an issue. Hales and his student Ferguson
+his student Ferguson eventually produced a proof that the
+Um and um on the other hand it started off the same kind of discussion again uh
+off the same kind of discussion again uh because it involved heavy computation. I
+because it involved heavy computation. I had
+I think it was a heart attack and I was recuperating from it in Princeton
+and I heard what the analysts of mathematics was proposing to do about
+mathematics was proposing to do about this Hales proof.
+Um and I was so upset by it that I telephoned the chairman of the editorial
+telephoned the chairman of the editorial committee and suggested I come and make
+a presentation to try and stop them doing this. And what were they proposing
+doing this. And what were they proposing to do?
+&gt;&gt; Well, what they were proposing to do, and it's what they in the end did, and I
+I'm still upset about it. They refereed Hails's
+proof. Well, the Hails Ferguson proof, we should always include Ferguson.
+we should always include Ferguson. Uh in two separate parts.
+Uh in two separate parts. Uh one was the sort of theoretical
+um which they sent to a team of essentially Eastern European refu uh
+essentially Eastern European refu uh mathematicians, referees who um
+were had been interested working on similar problems themselves and so on
+similar problems themselves and so on and they issued a normal referees
+and they issued a normal referees report. But then the computational part
+report. But then the computational part uh they didn't quite do that with and it
+was published in another place and so on. And unfortunately
+on. And unfortunately the editorial comment about this sort of
+the editorial comment about this sort of um
+well left a number of people with the impression that this computational part
+impression that this computational part was
+Well, I mean to say it's not checked gives you the impression that it might
+be wrong, you know. Um, which I think was very misleading because what Hails
+was very misleading because what Hails did was um, in my view set a new
+did was um, in my view set a new standard for these computer assisted
+standard for these computer assisted proofs. Uh you can
+proofs. Uh you can discover,
+you know, you can go to their website or something and you can ask for when this
+something and you can ask for when this particular part of the
+uh the proof was discussed, you know, and you'll you'll they'll say August the
+and you'll you'll they'll say August the 12th, 19 90 something. And then you can
+have a complete log of all the interactions between the people and the
+interactions between the people and the machine on that date. And it amounted to
+And they there were two suppose the inequality is for two functions of one
+inequality is for two functions of one variable. f is always less than or equal
+to g you know then uh you divide the interval up into a finite number of
+interval up into a finite number of regions
+and you check that the inequality holds at all the division points and then you
+at all the division points and then you have bounds for the derivatives of the
+have bounds for the derivatives of the function which it not only holds but it
+holds with something to spur and it can't vary by more than so and so and so
+can't vary by more than so and so and so it's true on each sub interval
+&gt;&gt; and um but Then it goes further than that. They carefully use interval
+that. They carefully use interval arithmetic. So you know they don't just
+&gt;&gt; so they avoid any roundoff error &gt;&gt; real numbers with uh you know possible
+error marks attached to them and so on. And um my god you know the precautions
+And um my god you know the precautions they took were absolutely fantastic and
+they took were absolutely fantastic and you can examine any particular piece of
+you can examine any particular piece of it you like.
+And um in my view, the annals took a wrong view,
+which is remarkable since they're a good journal, you know, of um what the
+journal, you know, of um what the referee's job is. It's a pity because we
+referee's job is. It's a pity because we should be celebrating
+should be celebrating the setting of a new standard for proofs
+&gt;&gt; and it probably is going to become a bigger question.
+&gt;&gt; I don't know if you were involved in any computer proofs. I mean certainly the
+computer proofs. I mean certainly the work on large sporadic groups involved a
+work on large sporadic groups involved a lot of computation.
+lot of computation. &gt;&gt; Yes.
+&gt;&gt; Yes. &gt;&gt; I [snorts] don't know if J4 was computer
+&gt;&gt; Yes. Uh J4 was an example. I was in a way involved in J4. Didn't do any
+way involved in J4. Didn't do any programming or anything but um
+&gt;&gt; you were one of the authors of a paper. &gt;&gt; It was a fairly big computation.
+&gt;&gt; It was a fairly big computation. However, I don't think any, you know, in
+However, I don't think any, you know, in that case or in any of the similar cases
+that you know involve these big groups that there is really any of this sort of
+supposed difficulty involving the machine, you know,
+&gt;&gt; when no one caused any problem in group fy. It was clear what the machine was
+fy. It was clear what the machine was doing
+in every case I think and it was doing things where you could reasonably expect
+things where you could reasonably expect that it was getting them right. You know
+they were sort of after all suppose um in a mathematical paper somebody has
+in a mathematical paper somebody has occasion to refer to the product of two
+occasion to refer to the product of two five-digit numbers and nobody feels oh I
+five-digit numbers and nobody feels oh I have to get out my calculating machine
+or my thing and check that the product of these two five-digit integers is the
+other one. It was the use of a computer for either the fourc color theorem of it
+for either the fourc color theorem of it Kepler conjecture very different from
+Kepler conjecture very different from that the machine was doing fairly
+that the machine was doing fairly straightforward calculations
+&gt;&gt; yes that that's what I think in all these group theoretical things you know
+these group theoretical things you know with many of them the essential part was
+&gt;&gt; or a multiplication of matrices &gt;&gt; that's routine and if you don't believe
+&gt;&gt; that's routine and if you don't believe the answer to so so and so's enumeration
+the answer to so so and so's enumeration You can do it on somebody else's
+You can do it on somebody else's program,
+&gt;&gt; but you're still left with a machine doing it at the end.
+doing it at the end. &gt;&gt; Yes, you certainly are. Um,
+&gt;&gt; Yes, you certainly are. Um, and um
+I feel a little bit unhappy about some of those things. Um
+of those things. Um I suppose, you know, since I've gone on
+about the monster, uh
+you know, I I'm unhappy with the computations involved there. Even though
+computations involved there. Even though you know in in my version of Grace's
+construction and I think in Grace's original construction
+&gt;&gt; his version he said the computation was so large he had to do it by hand instead
+so large he had to do it by hand instead of by machine is his quote.
+&gt;&gt; Yes that's true. when you um you know I've had various plans for studying the
+I've had various plans for studying the monster
+and um a lot of them you will remember Len Sutter mutual friend um he proved a
+Len Sutter mutual friend um he proved a lot of things about the monster by co-et
+lot of things about the monster by co-et enumerations
+but the final things you know to get to the monster itself
+&gt;&gt; was beyond too big to be done by machine it still is I think the big thing there
+it still is I think the big thing there was, you know, to find clever ways of
+was, you know, to find clever ways of thinking of it by hand. Um,
+Grace found a way of constructing it with no use of computation. I think
+with no use of computation. I think there may have been some trivial use. I
+don't know. Um, I simplified his construction. You know, I read his paper
+to see what to do &gt;&gt; and he gave you a road map for your
+&gt;&gt; and then I had this idea of using well Parker had the idea. Parker had this
+clever construction in terms of a loop which he there were two things wrong
+which he there were two things wrong with it. uh first of all he didn't feel
+to actually do it himself and then the other thing is he had the
+and then the other thing is he had the construction slightly wrong. Uh you
+construction slightly wrong. Uh you needed to do an extra twist but um
+needed to do an extra twist but um and you know he didn't find that twist
+and I did this was on the occasion when I was sitting outside while my wife was
+I was sitting outside while my wife was attending the lectures. It produced a
+attending the lectures. It produced a very simple construction in my view. Uh
+very simple construction in my view. Uh yeah. Well, you you know when you talk
+yeah. Well, you you know when you talk about the monster, it has a terrible
+about the monster, it has a terrible effect on me. I want to start thinking
+effect on me. I want to start thinking about it again, you know.

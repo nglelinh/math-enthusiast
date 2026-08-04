@@ -1,0 +1,4622 @@
+[
+  {
+    "t_start": 7.18,
+    "t_end": 9.22,
+    "text": "professor uhlenbeck firstly we want to congratulate you on being awarded the"
+  },
+  {
+    "t_start": 9.22,
+    "t_end": 12.91,
+    "text": "congratulate you on being awarded the other prize for 2019 for your pioneering"
+  },
+  {
+    "t_start": 12.91,
+    "t_end": 15.25,
+    "text": "other prize for 2019 for your pioneering achievements in geometric partial"
+  },
+  {
+    "t_start": 15.25,
+    "t_end": 21.88,
+    "text": "differential equations gauge theory and interval systems and for the fundamental"
+  },
+  {
+    "t_start": 21.88,
+    "t_end": 25.57,
+    "text": "interval systems and for the fundamental impact of your work on analysis geometry"
+  },
+  {
+    "t_start": 25.57,
+    "t_end": 28.179,
+    "text": "impact of your work on analysis geometry and mathematical physics you will"
+  },
+  {
+    "t_start": 28.179,
+    "t_end": 30.46,
+    "text": "and mathematical physics you will receive the prize tomorrow from His"
+  },
+  {
+    "t_start": 30.46,
+    "t_end": 33.25,
+    "text": "receive the prize tomorrow from His Majesty the King of Norway greatly"
+  },
+  {
+    "t_start": 33.25,
+    "t_end": 36.1,
+    "text": "Majesty the King of Norway greatly honored thank you you spent your"
+  },
+  {
+    "t_start": 36.1,
+    "t_end": 41.41,
+    "text": "childhood in New Jersey and you described yourself both as a tomboy and"
+  },
+  {
+    "t_start": 41.41,
+    "t_end": 44.11,
+    "text": "described yourself both as a tomboy and as a reader that sounds contradictory"
+  },
+  {
+    "t_start": 44.11,
+    "t_end": 46.779,
+    "text": "as a reader that sounds contradictory but perhaps it isn't I don't believe it"
+  },
+  {
+    "t_start": 46.779,
+    "t_end": 53.38,
+    "text": "but perhaps it isn't I don't believe it is exactly I I think now you would just"
+  },
+  {
+    "t_start": 53.38,
+    "t_end": 56.56,
+    "text": "is exactly I I think now you would just say that I was interested in sports and"
+  },
+  {
+    "t_start": 56.56,
+    "t_end": 59.38,
+    "text": "say that I was interested in sports and the outdoors tomboy is an old-fashioned"
+  },
+  {
+    "t_start": 59.38,
+    "t_end": 67.81,
+    "text": "word but and I also everybody in my family read so favorite time during the"
+  },
+  {
+    "t_start": 67.81,
+    "t_end": 73.93,
+    "text": "during during the week was our trip to the library your mother was an artist my"
+  },
+  {
+    "t_start": 73.93,
+    "t_end": 75.58,
+    "text": "mother was an art and and your father was an engineer yes"
+  },
+  {
+    "t_start": 75.58,
+    "t_end": 82.0,
+    "text": "were there a strong expectations as to what you and your siblings was to do in"
+  },
+  {
+    "t_start": 82.0,
+    "t_end": 84.67,
+    "text": "what you and your siblings was to do in your later life well yes there were"
+  },
+  {
+    "t_start": 84.67,
+    "t_end": 86.62,
+    "text": "your later life well yes there were strong expectations that we would be"
+  },
+  {
+    "t_start": 86.62,
+    "t_end": 88.15,
+    "text": "strong expectations that we would be able to support ourselves"
+  },
+  {
+    "t_start": 88.15,
+    "t_end": 94.89,
+    "text": "my parents had gotten to get married in the middle of the depression and the"
+  },
+  {
+    "t_start": 94.89,
+    "t_end": 101.11,
+    "text": "difficulties of having enough money to live was very much with them and so they"
+  },
+  {
+    "t_start": 101.11,
+    "t_end": 102.91,
+    "text": "live was very much with them and so they were mostly concerned that we would"
+  },
+  {
+    "t_start": 102.91,
+    "t_end": 108.7,
+    "text": "actually have jobs and that point were nice they had expectations of that my"
+  },
+  {
+    "t_start": 108.7,
+    "t_end": 113.71,
+    "text": "nice they had expectations of that my brother would actually do more would get"
+  },
+  {
+    "t_start": 113.71,
+    "t_end": 118.9,
+    "text": "it would get an engineering degree as being a good profession and so forth and"
+  },
+  {
+    "t_start": 118.9,
+    "t_end": 124.39,
+    "text": "being a good profession and so forth and with me they didn't care so much what I"
+  },
+  {
+    "t_start": 124.39,
+    "t_end": 127.6,
+    "text": "did you say you were interested in everything but you also mentioned that"
+  },
+  {
+    "t_start": 127.6,
+    "t_end": 131.92,
+    "text": "everything but you also mentioned that Latin was the only hard course in high"
+  },
+  {
+    "t_start": 131.92,
+    "t_end": 133.36,
+    "text": "school how did you end up with mathematics I would have thought you"
+  },
+  {
+    "t_start": 133.36,
+    "t_end": 134.66,
+    "text": "mathematics I would have thought you went for Latin that"
+  },
+  {
+    "t_start": 134.66,
+    "t_end": 141.38,
+    "text": "well I don't really know myself why I was only lately I got the explanation"
+  },
+  {
+    "t_start": 141.38,
+    "t_end": 147.14,
+    "text": "was only lately I got the explanation for myself that Latin was actually the"
+  },
+  {
+    "t_start": 147.14,
+    "t_end": 148.73,
+    "text": "only hard subject I had was not something that you could do right away"
+  },
+  {
+    "t_start": 148.73,
+    "t_end": 150.74,
+    "text": "something that you could do right away you really had to work at translating"
+  },
+  {
+    "t_start": 150.74,
+    "t_end": 158.06,
+    "text": "you really had to work at translating Latin and it was also kind of you know"
+  },
+  {
+    "t_start": 158.06,
+    "t_end": 161.6,
+    "text": "to be in this tradition of years and years and years of knowledge and to be"
+  },
+  {
+    "t_start": 161.6,
+    "t_end": 168.41,
+    "text": "written that long ago what's exciting even as a child for me so I I did know"
+  },
+  {
+    "t_start": 168.41,
+    "t_end": 172.22,
+    "text": "even as a child for me so I I did know and at one point I had to choose my last"
+  },
+  {
+    "t_start": 172.22,
+    "t_end": 177.97,
+    "text": "and at one point I had to choose my last year and in high school I signed up for"
+  },
+  {
+    "t_start": 177.97,
+    "t_end": 180.86,
+    "text": "year and in high school I signed up for the honors math course which was"
+  },
+  {
+    "t_start": 180.86,
+    "t_end": 183.11,
+    "text": "the honors math course which was calculus and it conflicted with the"
+  },
+  {
+    "t_start": 183.11,
+    "t_end": 184.96,
+    "text": "calculus and it conflicted with the Latin course so I signed up for"
+  },
+  {
+    "t_start": 184.96,
+    "t_end": 189.02,
+    "text": "Latin course so I signed up for something like Spanish and after one or"
+  },
+  {
+    "t_start": 189.02,
+    "t_end": 193.46,
+    "text": "something like Spanish and after one or two classes in Spanish I went back to"
+  },
+  {
+    "t_start": 193.46,
+    "t_end": 195.35,
+    "text": "Latin and took the regular math of course because somehow or other it"
+  },
+  {
+    "t_start": 195.35,
+    "t_end": 200.18,
+    "text": "course because somehow or other it wasn't the same thing and but then you"
+  },
+  {
+    "t_start": 200.18,
+    "t_end": 201.979,
+    "text": "then you enroll in in in at the University as a physics major that's"
+  },
+  {
+    "t_start": 201.979,
+    "t_end": 207.8,
+    "text": "right I was I had been turned on to physics by my father got books out of"
+  },
+  {
+    "t_start": 207.8,
+    "t_end": 211.28,
+    "text": "physics by my father got books out of the library my father was a very"
+  },
+  {
+    "t_start": 211.28,
+    "t_end": 213.35,
+    "text": "the library my father was a very intellectual person even though it was"
+  },
+  {
+    "t_start": 213.35,
+    "t_end": 217.85,
+    "text": "nothing to do with his job and he got books out of the library and I remember"
+  },
+  {
+    "t_start": 217.85,
+    "t_end": 219.8,
+    "text": "books out of the library and I remember particularly books written by Fred Hoyle"
+  },
+  {
+    "t_start": 219.8,
+    "t_end": 224.479,
+    "text": "particularly books written by Fred Hoyle and I read the I think he rezoned but I"
+  },
+  {
+    "t_start": 224.479,
+    "t_end": 231.77,
+    "text": "mathematics in them but I saw the mathematics in them and I read and I"
+  },
+  {
+    "t_start": 231.77,
+    "t_end": 235.699,
+    "text": "remember books by George Gamow that I found in the library there weren't very"
+  },
+  {
+    "t_start": 235.699,
+    "t_end": 241.069,
+    "text": "found in the library there weren't very many books on math and science in the"
+  },
+  {
+    "t_start": 241.069,
+    "t_end": 243.5,
+    "text": "library at all so I did my resources were somewhat limited but I was"
+  },
+  {
+    "t_start": 243.5,
+    "t_end": 249.62,
+    "text": "fascinated by the physics and so I want to and of course I didn't even know you"
+  },
+  {
+    "t_start": 249.62,
+    "t_end": 254.569,
+    "text": "to and of course I didn't even know you could be a mathematician so that's so I"
+  },
+  {
+    "t_start": 254.569,
+    "t_end": 260.449,
+    "text": "enrolled in as a physics major so you had some revelation when you're starting"
+  },
+  {
+    "t_start": 260.449,
+    "t_end": 263.659,
+    "text": "had some revelation when you're starting at the university experience with"
+  },
+  {
+    "t_start": 263.659,
+    "t_end": 266.36,
+    "text": "at the university experience with mathematics right well I offer I tell"
+  },
+  {
+    "t_start": 266.36,
+    "t_end": 267.95,
+    "text": "mathematics right well I offer I tell the story all the time"
+  },
+  {
+    "t_start": 267.95,
+    "t_end": 273.08,
+    "text": "was three years after the Sputnik went up and so there were programs all over"
+  },
+  {
+    "t_start": 273.08,
+    "t_end": 275.629,
+    "text": "up and so there were programs all over the country in integrated math and"
+  },
+  {
+    "t_start": 275.629,
+    "t_end": 277.76,
+    "text": "the country in integrated math and science encouraging students to study"
+  },
+  {
+    "t_start": 277.76,
+    "t_end": 283.279,
+    "text": "science encouraging students to study math and science and so there were"
+  },
+  {
+    "t_start": 283.279,
+    "t_end": 293.629,
+    "text": "corners in math and an honors course in physics and chemistry and I just really"
+  },
+  {
+    "t_start": 293.629,
+    "t_end": 298.999,
+    "text": "took to the mathematics I mean right from the very beginning I enjoyed it and"
+  },
+  {
+    "t_start": 298.999,
+    "t_end": 304.1,
+    "text": "from the very beginning I enjoyed it and I was caught up in it and I was I think"
+  },
+  {
+    "t_start": 304.1,
+    "t_end": 309.98,
+    "text": "just I was actually very good at it and you know being when you're very good at"
+  },
+  {
+    "t_start": 309.98,
+    "t_end": 312.68,
+    "text": "you know being when you're very good at a subject it also encourages you to go"
+  },
+  {
+    "t_start": 312.68,
+    "t_end": 315.17,
+    "text": "a subject it also encourages you to go on to study but I really enjoyed playing"
+  },
+  {
+    "t_start": 315.17,
+    "t_end": 318.499,
+    "text": "on to study but I really enjoyed playing with the ideas that was there an aha"
+  },
+  {
+    "t_start": 318.499,
+    "t_end": 321.529,
+    "text": "with the ideas that was there an aha moment where you sort of got so"
+  },
+  {
+    "t_start": 321.529,
+    "t_end": 323.6,
+    "text": "moment where you sort of got so fascinated with mathematics you"
+  },
+  {
+    "t_start": 323.6,
+    "t_end": 329.99,
+    "text": "mentioned something about the derivative first time that's right the first time I"
+  },
+  {
+    "t_start": 329.99,
+    "t_end": 336.26,
+    "text": "really saw a derivative the busines the the the method of today it was actually"
+  },
+  {
+    "t_start": 336.26,
+    "t_end": 338.24,
+    "text": "not the professor it was a TA for the course who was doing a problem session"
+  },
+  {
+    "t_start": 338.24,
+    "t_end": 340.76,
+    "text": "course who was doing a problem session we hadn't got to taking derivatives in"
+  },
+  {
+    "t_start": 340.76,
+    "t_end": 345.86,
+    "text": "the class but he showed us how to take a derivative and he showed us how to take"
+  },
+  {
+    "t_start": 345.86,
+    "t_end": 348.129,
+    "text": "a difference quotient and take a limit and I would still remember I remember"
+  },
+  {
+    "t_start": 348.129,
+    "t_end": 353.99,
+    "text": "and I would still remember I remember remembering by now but I still remember"
+  },
+  {
+    "t_start": 353.99,
+    "t_end": 358.52,
+    "text": "there and saying are you allowed to do that I mean I found that it just very"
+  },
+  {
+    "t_start": 358.52,
+    "t_end": 364.36,
+    "text": "that I mean I found that it just very exciting to be able to do that and so I"
+  },
+  {
+    "t_start": 364.36,
+    "t_end": 369.17,
+    "text": "understanding the proof of the Heine Borel theorem I mean I just remembered"
+  },
+  {
+    "t_start": 369.17,
+    "t_end": 372.77,
+    "text": "Borel theorem I mean I just remembered how you know little boxes and things"
+  },
+  {
+    "t_start": 372.77,
+    "t_end": 376.52,
+    "text": "how you know little boxes and things like that and I I was I was very excited"
+  },
+  {
+    "t_start": 376.52,
+    "t_end": 382.279,
+    "text": "like that and I I was I was very excited by the experience and this was at"
+  },
+  {
+    "t_start": 382.279,
+    "t_end": 384.379,
+    "text": "Michigan Michigan it's a first year student yes and the experience at"
+  },
+  {
+    "t_start": 384.379,
+    "t_end": 386.74,
+    "text": "student yes and the experience at Michigan you describe a sort of special"
+  },
+  {
+    "t_start": 386.74,
+    "t_end": 389.749,
+    "text": "Michigan you describe a sort of special as opposed to well you could have"
+  },
+  {
+    "t_start": 389.749,
+    "t_end": 391.82,
+    "text": "as opposed to well you could have perhaps gone out other places but you"
+  },
+  {
+    "t_start": 391.82,
+    "t_end": 393.439,
+    "text": "perhaps gone out other places but you went to Michigan and that turned out to"
+  },
+  {
+    "t_start": 393.439,
+    "t_end": 394.999,
+    "text": "went to Michigan and that turned out to be a good no well I have"
+  },
+  {
+    "t_start": 394.999,
+    "t_end": 397.28,
+    "text": "be a good no well I have they had this Honors Program"
+  },
+  {
+    "t_start": 397.28,
+    "t_end": 403.94,
+    "text": "and I also I met I just met the right people the right things happen to me my"
+  },
+  {
+    "t_start": 403.94,
+    "t_end": 407.66,
+    "text": "people the right things happen to me my first year at the University of Michigan"
+  },
+  {
+    "t_start": 407.66,
+    "t_end": 412.33,
+    "text": "first year at the University of Michigan I earned pocket by spending money by"
+  },
+  {
+    "t_start": 412.33,
+    "t_end": 418.58,
+    "text": "I earned pocket by spending money by waitressing in the dining hall and at at"
+  },
+  {
+    "t_start": 418.58,
+    "t_end": 422.63,
+    "text": "waitressing in the dining hall and at at the break I lived in New Jersey and so I"
+  },
+  {
+    "t_start": 422.63,
+    "t_end": 428.39,
+    "text": "around and one of the breaks I was in an art museum well my mother was an artist"
+  },
+  {
+    "t_start": 428.39,
+    "t_end": 430.07,
+    "text": "art museum well my mother was an artist and I've been going to art museums since"
+  },
+  {
+    "t_start": 430.07,
+    "t_end": 433.28,
+    "text": "and I've been going to art museums since I was in the womb essentially I mean and"
+  },
+  {
+    "t_start": 433.28,
+    "t_end": 439.31,
+    "text": "I was in the art museum and I've bumped into a professor next to me turns out he"
+  },
+  {
+    "t_start": 439.31,
+    "t_end": 441.26,
+    "text": "into a professor next to me turns out he was a math professor his name was Dan"
+  },
+  {
+    "t_start": 441.26,
+    "t_end": 449.78,
+    "text": "Hughes I and he found out who I was and what I did and first thing I knew that I"
+  },
+  {
+    "t_start": 449.78,
+    "t_end": 453.77,
+    "text": "what I did and first thing I knew that I think it was the the next the the next"
+  },
+  {
+    "t_start": 453.77,
+    "t_end": 455.66,
+    "text": "think it was the the next the the next semester might even been my second"
+  },
+  {
+    "t_start": 455.66,
+    "t_end": 461.63,
+    "text": "but the first thing I knew I was grading linear algebra without having ever taken"
+  },
+  {
+    "t_start": 461.63,
+    "t_end": 466.7,
+    "text": "linear algebra without having ever taken it so they I was just taken in and you"
+  },
+  {
+    "t_start": 466.7,
+    "t_end": 468.2,
+    "text": "it so they I was just taken in and you know I didn't think of it as be anything"
+  },
+  {
+    "t_start": 468.2,
+    "t_end": 470.9,
+    "text": "know I didn't think of it as be anything special to me I was just somebody who"
+  },
+  {
+    "t_start": 470.9,
+    "t_end": 472.73,
+    "text": "special to me I was just somebody who didn't know what was going on and wanted"
+  },
+  {
+    "t_start": 472.73,
+    "t_end": 475.01,
+    "text": "didn't know what was going on and wanted to learn things and wasn't anybody but I"
+  },
+  {
+    "t_start": 475.01,
+    "t_end": 477.05,
+    "text": "to learn things and wasn't anybody but I think I got very good treatment by my"
+  },
+  {
+    "t_start": 477.05,
+    "t_end": 479.42,
+    "text": "think I got very good treatment by my math professors so you were actually"
+  },
+  {
+    "t_start": 479.42,
+    "t_end": 485.45,
+    "text": "seen and you were recognized I was senior I was yes in fact I think I sad I"
+  },
+  {
+    "t_start": 485.45,
+    "t_end": 490.13,
+    "text": "senior I was yes in fact I think I sad I took my first graduate course when I was"
+  },
+  {
+    "t_start": 490.13,
+    "t_end": 494.57,
+    "text": "in algebra and I remember we did the veteran lemons and I I remember I didn't"
+  },
+  {
+    "t_start": 494.57,
+    "t_end": 498.71,
+    "text": "veteran lemons and I I remember I didn't understand the course but I had a"
+  },
+  {
+    "t_start": 498.71,
+    "t_end": 501.38,
+    "text": "magical you know three years later when I came to study for prelims I looked at"
+  },
+  {
+    "t_start": 501.38,
+    "t_end": 503.9,
+    "text": "I came to study for prelims I looked at the material and I actually could pull"
+  },
+  {
+    "t_start": 503.9,
+    "t_end": 505.73,
+    "text": "the material and I actually could pull it up and understand it three years"
+  },
+  {
+    "t_start": 505.73,
+    "t_end": 508.76,
+    "text": "it up and understand it three years later so the the it's amazing what you"
+  },
+  {
+    "t_start": 508.76,
+    "t_end": 510.47,
+    "text": "later so the the it's amazing what you acting a brain actually does it's"
+  },
+  {
+    "t_start": 510.47,
+    "t_end": 516.62,
+    "text": "littering is not linear at all anyway so but I was already in in in advanced math"
+  },
+  {
+    "t_start": 516.62,
+    "t_end": 522.2,
+    "text": "but I was already in in in advanced math classes as a as a sophomore and so I had"
+  },
+  {
+    "t_start": 522.2,
+    "t_end": 523.99,
+    "text": "classes as a as a sophomore and so I had and then I'd spent my junior year abroad"
+  },
+  {
+    "t_start": 523.99,
+    "t_end": 526.36,
+    "text": "and then I'd spent my junior year abroad and Minchin"
+  },
+  {
+    "t_start": 526.36,
+    "t_end": 533.14,
+    "text": "and Minchin I had beautiful lectures and and I took"
+  },
+  {
+    "t_start": 533.14,
+    "t_end": 537.37,
+    "text": "I had beautiful lectures and and I took lectures from a professor Rieger and a"
+  },
+  {
+    "t_start": 537.37,
+    "t_end": 542.98,
+    "text": "so was that is socially was that a very different experience from what you were"
+  },
+  {
+    "t_start": 542.98,
+    "t_end": 544.96,
+    "text": "different experience from what you were used to at American American University"
+  },
+  {
+    "t_start": 544.96,
+    "t_end": 550.93,
+    "text": "used to at American American University well it was the program I was in was"
+  },
+  {
+    "t_start": 550.93,
+    "t_end": 556.15,
+    "text": "there were students from all over the US in that program and I remember realizing"
+  },
+  {
+    "t_start": 556.15,
+    "t_end": 559.24,
+    "text": "in that program and I remember realizing at the time how really good my education"
+  },
+  {
+    "t_start": 559.24,
+    "t_end": 561.519,
+    "text": "at the time how really good my education at Michigan was because I was cut there"
+  },
+  {
+    "t_start": 561.519,
+    "t_end": 562.81,
+    "text": "at Michigan was because I was cut there were students in the program from"
+  },
+  {
+    "t_start": 562.81,
+    "t_end": 565.36,
+    "text": "were students in the program from Princeton and Yale and Columbia and so"
+  },
+  {
+    "t_start": 565.36,
+    "t_end": 570.73,
+    "text": "forth and I was as well educated or better educated and I was certainly my"
+  },
+  {
+    "t_start": 570.73,
+    "t_end": 572.56,
+    "text": "better educated and I was certainly my mathematical background was much better"
+  },
+  {
+    "t_start": 572.56,
+    "t_end": 579.19,
+    "text": "mathematical background was much better than a few other math majors so in the"
+  },
+  {
+    "t_start": 579.19,
+    "t_end": 580.87,
+    "text": "program so but that that was also interesting because I rubbed shoulders"
+  },
+  {
+    "t_start": 580.87,
+    "t_end": 583.0,
+    "text": "interesting because I rubbed shoulders with American students from all"
+  },
+  {
+    "t_start": 583.0,
+    "t_end": 585.31,
+    "text": "with American students from all different universities but then the the"
+  },
+  {
+    "t_start": 585.31,
+    "t_end": 592.81,
+    "text": "like the life of an American student you know I went to the Opera I I went to I"
+  },
+  {
+    "t_start": 592.81,
+    "t_end": 602.98,
+    "text": "became enamored of the theater while I was there I learned to ski I think about"
+  },
+  {
+    "t_start": 602.98,
+    "t_end": 607.51,
+    "text": "was there I learned to ski I think about it I of course had a German boyfriend at"
+  },
+  {
+    "t_start": 607.51,
+    "t_end": 609.28,
+    "text": "some point and went for long walks in the englischer garten because it was"
+  },
+  {
+    "t_start": 609.28,
+    "t_end": 614.62,
+    "text": "the englischer garten because it was romantic and well I don't I can't say I"
+  },
+  {
+    "t_start": 614.62,
+    "t_end": 621.31,
+    "text": "know it still but III was pretty good at German weather time I finished yes and I"
+  },
+  {
+    "t_start": 621.31,
+    "t_end": 623.769,
+    "text": "German weather time I finished yes and I don't have an ear for languages after in"
+  },
+  {
+    "t_start": 623.769,
+    "t_end": 625.329,
+    "text": "don't have an ear for languages after in Michigan after University of Michigan"
+  },
+  {
+    "t_start": 625.329,
+    "t_end": 631.66,
+    "text": "you decided to go on with a ph.d program in mathematics and you spent one year at"
+  },
+  {
+    "t_start": 631.66,
+    "t_end": 633.28,
+    "text": "in mathematics and you spent one year at the Quran Institute that's right and"
+  },
+  {
+    "t_start": 633.28,
+    "t_end": 639.94,
+    "text": "then you moved to Brandeis in Boston and because you're why a husband at the time"
+  },
+  {
+    "t_start": 639.94,
+    "t_end": 642.579,
+    "text": "because you're why a husband at the time he was accepted to Harvard he was he was"
+  },
+  {
+    "t_start": 642.579,
+    "t_end": 644.26,
+    "text": "he was accepted to Harvard he was he was a graduate student in fellowship"
+  },
+  {
+    "t_start": 644.26,
+    "t_end": 648.34,
+    "text": "right but you decided for Brandeis and you didn't regret getting to brother"
+  },
+  {
+    "t_start": 648.34,
+    "t_end": 652.93,
+    "text": "even though you may have gotten into both Harvard and then I didn't apply and"
+  },
+  {
+    "t_start": 652.93,
+    "t_end": 657.76,
+    "text": "both Harvard and then I didn't apply and I I feel I did I already was aware of"
+  },
+  {
+    "t_start": 657.76,
+    "t_end": 659.8,
+    "text": "I I feel I did I already was aware of the fact that there were tensions around"
+  },
+  {
+    "t_start": 659.8,
+    "t_end": 660.3,
+    "text": "the fact that there were tensions around me"
+  },
+  {
+    "t_start": 660.3,
+    "t_end": 665.67,
+    "text": "woman in mathematics and I really wasn't interested in them and why you had a"
+  },
+  {
+    "t_start": 665.67,
+    "t_end": 669.09,
+    "text": "interested in them and why you had a very special record from for women that"
+  },
+  {
+    "t_start": 669.09,
+    "t_end": 670.92,
+    "text": "very special record from for women that man bears had been there and trained a"
+  },
+  {
+    "t_start": 670.92,
+    "t_end": 674.9,
+    "text": "man bears had been there and trained a whole generation of women students and"
+  },
+  {
+    "t_start": 674.9,
+    "t_end": 680.82,
+    "text": "so and why you had a very good reputation towards women and Brandeis I"
+  },
+  {
+    "t_start": 680.82,
+    "t_end": 686.49,
+    "text": "reputation towards women and Brandeis I didn't have much of a reputation at all"
+  },
+  {
+    "t_start": 686.49,
+    "t_end": 688.89,
+    "text": "but I had an NSF postdoc I I probably could have gotten into pretty MIT and"
+  },
+  {
+    "t_start": 688.89,
+    "t_end": 692.88,
+    "text": "could have gotten into pretty MIT and Harvard I just I some inner radar said"
+  },
+  {
+    "t_start": 692.88,
+    "t_end": 700.019,
+    "text": "not to do that see and then you choose Richard holiday yes your thesis and can"
+  },
+  {
+    "t_start": 700.019,
+    "t_end": 703.11,
+    "text": "Richard holiday yes your thesis and can you tell me or tell us why you chose him"
+  },
+  {
+    "t_start": 703.11,
+    "t_end": 708.03,
+    "text": "you tell me or tell us why you chose him and what was the thesis right okay yeah"
+  },
+  {
+    "t_start": 708.03,
+    "t_end": 714.15,
+    "text": "and what was the thesis right okay yeah so I can tell you what yes well I took a"
+  },
+  {
+    "t_start": 714.15,
+    "t_end": 719.04,
+    "text": "course from him my first year there I was a second year student and I already"
+  },
+  {
+    "t_start": 719.04,
+    "t_end": 720.21,
+    "text": "was noticed because I came in and I passed my prelims"
+  },
+  {
+    "t_start": 720.21,
+    "t_end": 724.53,
+    "text": "and I think maybe only one of the students that had been there for a year"
+  },
+  {
+    "t_start": 724.53,
+    "t_end": 731.27,
+    "text": "did that so at the time they all took longer and so I already whatever sort of"
+  },
+  {
+    "t_start": 731.27,
+    "t_end": 734.1,
+    "text": "longer and so I already whatever sort of feelings about taking having women's"
+  },
+  {
+    "t_start": 734.1,
+    "t_end": 736.829,
+    "text": "feelings about taking having women's students they disappeared very rapidly"
+  },
+  {
+    "t_start": 736.829,
+    "t_end": 744.6,
+    "text": "students they disappeared very rapidly at brandeis and Richard Pele gave this"
+  },
+  {
+    "t_start": 744.6,
+    "t_end": 749.04,
+    "text": "taught a course on infant dimensional topology the year before but that year"
+  },
+  {
+    "t_start": 749.04,
+    "t_end": 754.11,
+    "text": "topology the year before but that year he taught a course in the calculus of"
+  },
+  {
+    "t_start": 754.11,
+    "t_end": 756.12,
+    "text": "variations which is the basis for his book a calculus of variations a global"
+  },
+  {
+    "t_start": 756.12,
+    "t_end": 760.079,
+    "text": "book a calculus of variations a global analysis and I I was just excited by"
+  },
+  {
+    "t_start": 760.079,
+    "t_end": 761.61,
+    "text": "analysis and I I was just excited by this new field I mean understood"
+  },
+  {
+    "t_start": 761.61,
+    "t_end": 763.74,
+    "text": "this new field I mean understood immediately what global analysis was"
+  },
+  {
+    "t_start": 763.74,
+    "t_end": 768.78,
+    "text": "like and I was he was a beautiful lecturer I still remember the day I went"
+  },
+  {
+    "t_start": 768.78,
+    "t_end": 772.53,
+    "text": "lecturer I still remember the day I went in and asked him what about the heat"
+  },
+  {
+    "t_start": 772.53,
+    "t_end": 780.78,
+    "text": "equation and he told me everything I needed to know for four or five years I"
+  },
+  {
+    "t_start": 780.78,
+    "t_end": 782.79,
+    "text": "mean and so he was and I was very excited about global analysis and I"
+  },
+  {
+    "t_start": 782.79,
+    "t_end": 785.16,
+    "text": "excited about global analysis and I remember just making the this conscious"
+  },
+  {
+    "t_start": 785.16,
+    "t_end": 789.39,
+    "text": "decision I wanted to work in this new field instead of doing a special case of"
+  },
+  {
+    "t_start": 789.39,
+    "t_end": 791.46,
+    "text": "field instead of doing a special case of some boundary value problems somewhere I"
+  },
+  {
+    "t_start": 791.46,
+    "t_end": 793.25,
+    "text": "some boundary value problems somewhere I mean making kind of conscious"
+  },
+  {
+    "t_start": 793.25,
+    "t_end": 801.26,
+    "text": "our decision to jump in so to speak so so the theme was calculus of variation"
+  },
+  {
+    "t_start": 801.26,
+    "t_end": 807.17,
+    "text": "that's right and this was related to or to what is called global analysis that's"
+  },
+  {
+    "t_start": 807.17,
+    "t_end": 808.58,
+    "text": "to what is called global analysis that's right it was really calculus of"
+  },
+  {
+    "t_start": 808.58,
+    "t_end": 811.37,
+    "text": "right it was really calculus of variations from the global and what is"
+  },
+  {
+    "t_start": 811.37,
+    "t_end": 818.93,
+    "text": "variations from the global and what is global analysis can you say I think the"
+  },
+  {
+    "t_start": 818.93,
+    "t_end": 821.39,
+    "text": "end that global analysis was changed from viewing an ordinary or partial"
+  },
+  {
+    "t_start": 821.39,
+    "t_end": 823.22,
+    "text": "from viewing an ordinary or partial differential equation as a very"
+  },
+  {
+    "t_start": 823.22,
+    "t_end": 826.49,
+    "text": "differential equation as a very complicated object with lots of indices"
+  },
+  {
+    "t_start": 826.49,
+    "t_end": 831.98,
+    "text": "complicated object with lots of indices and lots of formulas as simple equations"
+  },
+  {
+    "t_start": 831.98,
+    "t_end": 838.04,
+    "text": "infinite dimensional manifold and the conceptually it simplified what you were"
+  },
+  {
+    "t_start": 838.04,
+    "t_end": 842.84,
+    "text": "conceptually it simplified what you were doing tremendously and you also was also"
+  },
+  {
+    "t_start": 842.84,
+    "t_end": 844.34,
+    "text": "doing tremendously and you also was also discovered that a whole lot of stuff"
+  },
+  {
+    "t_start": 844.34,
+    "t_end": 846.59,
+    "text": "discovered that a whole lot of stuff that you can do in finite dimensions you"
+  },
+  {
+    "t_start": 846.59,
+    "t_end": 850.28,
+    "text": "that you can do in finite dimensions you can do under the right hypothesis and"
+  },
+  {
+    "t_start": 850.28,
+    "t_end": 852.89,
+    "text": "the infinite dimensions and of course the typical example would be the eyeball"
+  },
+  {
+    "t_start": 852.89,
+    "t_end": 853.94,
+    "text": "the typical example would be the eyeball prize-winner"
+  },
+  {
+    "t_start": 853.94,
+    "t_end": 860.54,
+    "text": "well attea and singer who actually at that time proved a theorem about partial"
+  },
+  {
+    "t_start": 860.54,
+    "t_end": 862.22,
+    "text": "that time proved a theorem about partial differential equations that said a"
+  },
+  {
+    "t_start": 862.22,
+    "t_end": 869.12,
+    "text": "linear partial differential equations of a certain type is has a kernel and a co"
+  },
+  {
+    "t_start": 869.12,
+    "t_end": 871.37,
+    "text": "a certain type is has a kernel and a co kernel like in finite dimensions and"
+  },
+  {
+    "t_start": 871.37,
+    "t_end": 873.17,
+    "text": "kernel like in finite dimensions and that the difference between the kernel"
+  },
+  {
+    "t_start": 873.17,
+    "t_end": 878.59,
+    "text": "that the difference between the kernel and Co kernel has topological comes from"
+  },
+  {
+    "t_start": 878.59,
+    "t_end": 884.06,
+    "text": "kapala G and this was a very exciting discovery and it's foundational to just"
+  },
+  {
+    "t_start": 884.06,
+    "t_end": 886.1,
+    "text": "discovery and it's foundational to just the change in perspective towards these"
+  },
+  {
+    "t_start": 886.1,
+    "t_end": 894.58,
+    "text": "the change in perspective towards these equations I I want to read a quote from"
+  },
+  {
+    "t_start": 894.58,
+    "t_end": 896.86,
+    "text": "what you wrote in your article at the Proceedings of the International"
+  },
+  {
+    "t_start": 896.86,
+    "t_end": 903.11,
+    "text": "Conference Congress of mathematics in 1990 in Kyoto where you said the"
+  },
+  {
+    "t_start": 903.11,
+    "t_end": 905.99,
+    "text": "1990 in Kyoto where you said the following in the 1960s the subject"
+  },
+  {
+    "t_start": 905.99,
+    "t_end": 909.02,
+    "text": "following in the 1960s the subject global analysis developed with explicit"
+  },
+  {
+    "t_start": 909.02,
+    "t_end": 912.2,
+    "text": "global analysis developed with explicit goal of solving nonlinear problems via"
+  },
+  {
+    "t_start": 912.2,
+    "t_end": 914.33,
+    "text": "goal of solving nonlinear problems via methods from infinite dimensional"
+  },
+  {
+    "t_start": 914.33,
+    "t_end": 920.93,
+    "text": "methods from infinite dimensional differential topology the optimism of"
+  },
+  {
+    "t_start": 920.93,
+    "t_end": 924.35,
+    "text": "the area of global analysis has ultimately been justified but this did"
+  },
+  {
+    "t_start": 924.35,
+    "t_end": 926.52,
+    "text": "ultimately been justified but this did not happen immediately"
+  },
+  {
+    "t_start": 926.52,
+    "t_end": 932.91,
+    "text": "the problem is essentially in order to this to discover properties of solutions"
+  },
+  {
+    "t_start": 932.91,
+    "t_end": 934.74,
+    "text": "this to discover properties of solutions of ordinary or partial differential"
+  },
+  {
+    "t_start": 934.74,
+    "t_end": 937.04,
+    "text": "of ordinary or partial differential equation which have global significance"
+  },
+  {
+    "t_start": 937.04,
+    "t_end": 944.12,
+    "text": "equation which have global significance it is essential to make estimates could"
+  },
+  {
+    "t_start": 944.12,
+    "t_end": 947.19,
+    "text": "you expand on that let me use maybe something that I've thought of since"
+  },
+  {
+    "t_start": 947.19,
+    "t_end": 952.2,
+    "text": "something that I've thought of since I've started doing interviews and that"
+  },
+  {
+    "t_start": 952.2,
+    "t_end": 955.38,
+    "text": "is it's a little bit like it's the question of the larger the small it"
+  },
+  {
+    "t_start": 955.38,
+    "t_end": 961.53,
+    "text": "might be a little bit like the fact that when you paint a picture you have to"
+  },
+  {
+    "t_start": 961.53,
+    "t_end": 963.36,
+    "text": "when you paint a picture you have to have an overall perspective and an"
+  },
+  {
+    "t_start": 963.36,
+    "t_end": 969.15,
+    "text": "overall design and an overall point of view but the whole thing will fall apart"
+  },
+  {
+    "t_start": 969.15,
+    "t_end": 976.98,
+    "text": "if you can't do the details and so just saying that's a person it's not the same"
+  },
+  {
+    "t_start": 976.98,
+    "t_end": 982.77,
+    "text": "thing as actually making a person out of it carefully with with all the the skill"
+  },
+  {
+    "t_start": 982.77,
+    "t_end": 989.82,
+    "text": "it carefully with with all the the skill and background and all the teaching that"
+  },
+  {
+    "t_start": 989.82,
+    "t_end": 993.0,
+    "text": "you've had so the inequalities are the fundamental thing that the the global"
+  },
+  {
+    "t_start": 993.0,
+    "t_end": 998.49,
+    "text": "picture is made out of but in order to know exactly the right ones to do you"
+  },
+  {
+    "t_start": 998.49,
+    "t_end": 1001.67,
+    "text": "know exactly the right ones to do you need the global picture and examples of"
+  },
+  {
+    "t_start": 1001.67,
+    "t_end": 1003.68,
+    "text": "need the global picture and examples of that would be for instance fine minimal"
+  },
+  {
+    "t_start": 1003.68,
+    "t_end": 1005.81,
+    "text": "that would be for instance fine minimal surfaces and so on in the in the"
+  },
+  {
+    "t_start": 1005.81,
+    "t_end": 1007.94,
+    "text": "surfaces and so on in the in the higher-dimensional et cetera that's"
+  },
+  {
+    "t_start": 1007.94,
+    "t_end": 1016.72,
+    "text": "right well in that case in that case that that problem of minimal surfaces is"
+  },
+  {
+    "t_start": 1016.72,
+    "t_end": 1023.42,
+    "text": "that that problem of minimal surfaces is turns out to be what you call a"
+  },
+  {
+    "t_start": 1023.42,
+    "t_end": 1027.98,
+    "text": "borderline case that is in my thesis I actually wrote down quite a few problems"
+  },
+  {
+    "t_start": 1027.98,
+    "t_end": 1030.31,
+    "text": "actually wrote down quite a few problems in the calculus of variations that"
+  },
+  {
+    "t_start": 1030.31,
+    "t_end": 1034.19,
+    "text": "in the calculus of variations that satisfy topological that satisfy a"
+  },
+  {
+    "t_start": 1034.19,
+    "t_end": 1039.71,
+    "text": "satisfy topological that satisfy a topological probably called Borst theory"
+  },
+  {
+    "t_start": 1039.71,
+    "t_end": 1045.98,
+    "text": "conditions and the techniques of manifold theory go through for analyzing"
+  },
+  {
+    "t_start": 1045.98,
+    "t_end": 1049.61,
+    "text": "manifold theory go through for analyzing the gradient flows and so forth but the"
+  },
+  {
+    "t_start": 1049.61,
+    "t_end": 1051.35,
+    "text": "the gradient flows and so forth but the problem is is that those were made-up"
+  },
+  {
+    "t_start": 1051.35,
+    "t_end": 1055.79,
+    "text": "problem is is that those were made-up problems and the problem is is that now"
+  },
+  {
+    "t_start": 1055.79,
+    "t_end": 1060.18,
+    "text": "you come down to a problem that you really want to solve and you say uh-oh"
+  },
+  {
+    "t_start": 1060.18,
+    "t_end": 1062.58,
+    "text": "well in the case of GED six it's pal a smell and all the"
+  },
+  {
+    "t_start": 1062.58,
+    "t_end": 1064.29,
+    "text": "it's pal a smell and all the infinite-dimensional stuff goes over"
+  },
+  {
+    "t_start": 1064.29,
+    "t_end": 1066.18,
+    "text": "infinite-dimensional stuff goes over beautifully just like that like"
+  },
+  {
+    "t_start": 1066.18,
+    "t_end": 1075.66,
+    "text": "do G OD six we just approximated and my broken broken curves and reduced it to a"
+  },
+  {
+    "t_start": 1075.66,
+    "t_end": 1077.94,
+    "text": "broken broken curves and reduced it to a finite dimensional problem so the"
+  },
+  {
+    "t_start": 1077.94,
+    "t_end": 1079.77,
+    "text": "finite dimensional problem so the question is what what good is it if it"
+  },
+  {
+    "t_start": 1079.77,
+    "t_end": 1085.53,
+    "text": "doesn't solve the problem we want to do and so my observation was is that if you"
+  },
+  {
+    "t_start": 1085.53,
+    "t_end": 1087.84,
+    "text": "and so my observation was is that if you took the equation that you need to"
+  },
+  {
+    "t_start": 1087.84,
+    "t_end": 1093.03,
+    "text": "took the equation that you need to minimize to get a minimal sphere and you"
+  },
+  {
+    "t_start": 1093.03,
+    "t_end": 1095.19,
+    "text": "add a small term onto it then it suddenly satisfies the palace milk"
+  },
+  {
+    "t_start": 1095.19,
+    "t_end": 1099.33,
+    "text": "condition and more serious true now you look at the solutions of that equation"
+  },
+  {
+    "t_start": 1099.33,
+    "t_end": 1106.95,
+    "text": "and you left the perturbation go to zero and you look and see what happens to the"
+  },
+  {
+    "t_start": 1106.95,
+    "t_end": 1111.66,
+    "text": "happens is those solutions approach the solution which could be trivial but"
+  },
+  {
+    "t_start": 1111.66,
+    "t_end": 1114.45,
+    "text": "solution which could be trivial but they're places around in them in the in"
+  },
+  {
+    "t_start": 1114.45,
+    "t_end": 1120.72,
+    "text": "the in the the surface I mean that you're studying where as them as the as"
+  },
+  {
+    "t_start": 1120.72,
+    "t_end": 1122.85,
+    "text": "you're studying where as them as the as the perturbation goes to zero all the"
+  },
+  {
+    "t_start": 1122.85,
+    "t_end": 1125.25,
+    "text": "the perturbation goes to zero all the information collects over that point and"
+  },
+  {
+    "t_start": 1125.25,
+    "t_end": 1128.94,
+    "text": "information collects over that point and so if you take a microscope and look"
+  },
+  {
+    "t_start": 1128.94,
+    "t_end": 1133.05,
+    "text": "around that point and make that point the area around that point bigger and"
+  },
+  {
+    "t_start": 1133.05,
+    "t_end": 1138.03,
+    "text": "actually can get a solution on the whole plane and then you lo and behold notice"
+  },
+  {
+    "t_start": 1138.03,
+    "t_end": 1140.58,
+    "text": "plane and then you lo and behold notice that this in fact solved your problem"
+  },
+  {
+    "t_start": 1140.58,
+    "t_end": 1143.07,
+    "text": "that this in fact solved your problem for you because the point in infinity"
+  },
+  {
+    "t_start": 1143.07,
+    "t_end": 1145.68,
+    "text": "for you because the point in infinity can be added and that's the theorem and"
+  },
+  {
+    "t_start": 1145.68,
+    "t_end": 1150.33,
+    "text": "yeah and that's a technical C R right and when T infinity can be added and you"
+  },
+  {
+    "t_start": 1150.33,
+    "t_end": 1152.82,
+    "text": "and when T infinity can be added and you suddenly have found your minimal sphere"
+  },
+  {
+    "t_start": 1152.82,
+    "t_end": 1155.49,
+    "text": "suddenly have found your minimal sphere so you actually discover that not all"
+  },
+  {
+    "t_start": 1155.49,
+    "t_end": 1159.69,
+    "text": "so you actually discover that not all the solutions persist but enough of them"
+  },
+  {
+    "t_start": 1159.69,
+    "t_end": 1161.07,
+    "text": "the solutions persist but enough of them persist that you could say something"
+  },
+  {
+    "t_start": 1161.07,
+    "t_end": 1162.12,
+    "text": "persist that you could say something about the problem"
+  },
+  {
+    "t_start": 1162.12,
+    "t_end": 1170.1,
+    "text": "we want to move to the following I mean John Nash who won the Nobel Prize or"
+  },
+  {
+    "t_start": 1170.1,
+    "t_end": 1172.26,
+    "text": "John Nash who won the Nobel Prize or share the apple pies in 1915 with the"
+  },
+  {
+    "t_start": 1172.26,
+    "t_end": 1173.34,
+    "text": "share the apple pies in 1915 with the nirenberg"
+  },
+  {
+    "t_start": 1173.34,
+    "t_end": 1179.31,
+    "text": "he intimated to us in the interview we had with him that his paper titled"
+  },
+  {
+    "t_start": 1179.31,
+    "t_end": 1181.74,
+    "text": "had with him that his paper titled continuity of solutions of parabolic and"
+  },
+  {
+    "t_start": 1181.74,
+    "t_end": 1186.99,
+    "text": "continuity of solutions of parabolic and elliptic equations from 1956 758 might"
+  },
+  {
+    "t_start": 1186.99,
+    "t_end": 1189.15,
+    "text": "elliptic equations from 1956 758 might have been decisive in him getting the"
+  },
+  {
+    "t_start": 1189.15,
+    "t_end": 1191.38,
+    "text": "have been decisive in him getting the Fields Medal in 1958"
+  },
+  {
+    "t_start": 1191.38,
+    "t_end": 1196.51,
+    "text": "for the fact that the Giorgio an Italian mathematician independently had approved"
+  },
+  {
+    "t_start": 1196.51,
+    "t_end": 1202.21,
+    "text": "mathematician independently had approved the same result that about the same time"
+  },
+  {
+    "t_start": 1202.21,
+    "t_end": 1204.549,
+    "text": "yes I in 1977 you published a paper in ACTA Mathematica prestigious maths"
+  },
+  {
+    "t_start": 1204.549,
+    "t_end": 1210.46,
+    "text": "journal with the title regularity for a class of nonlinear elliptic systems and"
+  },
+  {
+    "t_start": 1210.46,
+    "t_end": 1213.13,
+    "text": "class of nonlinear elliptic systems and in the introduction you say that the"
+  },
+  {
+    "t_start": 1213.13,
+    "t_end": 1219.61,
+    "text": "results in the paper are an extension of the nasty giorgia most results tell us"
+  },
+  {
+    "t_start": 1219.61,
+    "t_end": 1222.49,
+    "text": "the nasty giorgia most results tell us about this paper and its genesis also"
+  },
+  {
+    "t_start": 1222.49,
+    "t_end": 1225.039,
+    "text": "about this paper and its genesis also the mathematic community took notice and"
+  },
+  {
+    "t_start": 1225.039,
+    "t_end": 1228.19,
+    "text": "the mathematic community took notice and your paper when your paper appeared do"
+  },
+  {
+    "t_start": 1228.19,
+    "t_end": 1233.289,
+    "text": "your paper when your paper appeared do you consider this paper your first great"
+  },
+  {
+    "t_start": 1233.289,
+    "t_end": 1235.18,
+    "text": "paper yes I still consider it my best paper in fact it's a very difficult"
+  },
+  {
+    "t_start": 1235.18,
+    "t_end": 1240.97,
+    "text": "paper and I I wonder how easy it would be for me to understand it now so it was"
+  },
+  {
+    "t_start": 1240.97,
+    "t_end": 1244.15,
+    "text": "be for me to understand it now so it was a long time ago right more than 40 years"
+  },
+  {
+    "t_start": 1244.15,
+    "t_end": 1251.799,
+    "text": "a long time ago right more than 40 years 40 years ago but the the fact is is that"
+  },
+  {
+    "t_start": 1251.799,
+    "t_end": 1254.14,
+    "text": "I had found some calculus of variations problems in my thesis that satisfied"
+  },
+  {
+    "t_start": 1254.14,
+    "t_end": 1259.51,
+    "text": "this more theory so they had a lot of critical points but the problem is is"
+  },
+  {
+    "t_start": 1259.51,
+    "t_end": 1262.57,
+    "text": "critical points but the problem is is that these these the geometrically"
+  },
+  {
+    "t_start": 1262.57,
+    "t_end": 1269.289,
+    "text": "that these these the geometrically simple cases of them were a the"
+  },
+  {
+    "t_start": 1269.289,
+    "t_end": 1271.99,
+    "text": "simple cases of them were a the integrals of a not completely standard"
+  },
+  {
+    "t_start": 1271.99,
+    "t_end": 1278.26,
+    "text": "integrals of a not completely standard sort and it turns out that that you"
+  },
+  {
+    "t_start": 1278.26,
+    "t_end": 1282.73,
+    "text": "sort and it turns out that that you could find minima but these minima were"
+  },
+  {
+    "t_start": 1282.73,
+    "t_end": 1291.49,
+    "text": "not necessarily smooth these minima could have singularities and so I faced"
+  },
+  {
+    "t_start": 1291.49,
+    "t_end": 1297.7,
+    "text": "could have singularities and so I faced the fact that I used to show these these"
+  },
+  {
+    "t_start": 1297.7,
+    "t_end": 1302.35,
+    "text": "solutions not just these what they call weak solutions I learned enough of the"
+  },
+  {
+    "t_start": 1302.35,
+    "t_end": 1306.31,
+    "text": "background in of the theory when I was a graduate student to be able to show that"
+  },
+  {
+    "t_start": 1306.31,
+    "t_end": 1309.49,
+    "text": "graduate student to be able to show that the derivatives were bounded and so but"
+  },
+  {
+    "t_start": 1309.49,
+    "t_end": 1317.65,
+    "text": "any further and I worked a bust at this problem for a long time and in fact if I"
+  },
+  {
+    "t_start": 1317.65,
+    "t_end": 1319.93,
+    "text": "problem for a long time and in fact if I had only been looking at functions that"
+  },
+  {
+    "t_start": 1319.93,
+    "t_end": 1325.18,
+    "text": "had only been looking at functions that were minimum at this time Mosers name is"
+  },
+  {
+    "t_start": 1325.18,
+    "t_end": 1329.08,
+    "text": "often attacked on because he actually simplified the proof so it's the"
+  },
+  {
+    "t_start": 1329.08,
+    "t_end": 1334.87,
+    "text": "simplified the proof so it's the georgian ash poser result and it's so if"
+  },
+  {
+    "t_start": 1334.87,
+    "t_end": 1337.45,
+    "text": "i just been a function that you minimized it this sort that theorem"
+  },
+  {
+    "t_start": 1337.45,
+    "t_end": 1345.58,
+    "text": "the solutions were regular but i had a system that is many functions and those"
+  },
+  {
+    "t_start": 1345.58,
+    "t_end": 1348.84,
+    "text": "system that is many functions and those techniques did did not a priori"
+  },
+  {
+    "t_start": 1348.84,
+    "t_end": 1354.73,
+    "text": "carryover but in fact I actually met Jurgen Moser and he actually sent me"
+  },
+  {
+    "t_start": 1354.73,
+    "t_end": 1360.04,
+    "text": "some of his reprints and which I read care very carefully and at some point I"
+  },
+  {
+    "t_start": 1360.04,
+    "t_end": 1363.07,
+    "text": "care very carefully and at some point I was able to use his Carnac inequalities"
+  },
+  {
+    "t_start": 1363.07,
+    "t_end": 1365.68,
+    "text": "was able to use his Carnac inequalities to actually prove the fact those"
+  },
+  {
+    "t_start": 1365.68,
+    "t_end": 1367.93,
+    "text": "to actually prove the fact those solutions were regular actually they"
+  },
+  {
+    "t_start": 1367.93,
+    "t_end": 1369.13,
+    "text": "solutions were regular actually they have critical points where the"
+  },
+  {
+    "t_start": 1369.13,
+    "t_end": 1375.07,
+    "text": "derivative of the function vanishes but that they were also I was able to see"
+  },
+  {
+    "t_start": 1375.07,
+    "t_end": 1377.44,
+    "text": "that they were also I was able to see that they were smooth enough as smooth"
+  },
+  {
+    "t_start": 1377.44,
+    "t_end": 1384.97,
+    "text": "as you would expected them so yes and that was and that's why I remember yeah"
+  },
+  {
+    "t_start": 1384.97,
+    "t_end": 1388.72,
+    "text": "that was and that's why I remember yeah STL having me come out to California to"
+  },
+  {
+    "t_start": 1388.72,
+    "t_end": 1394.15,
+    "text": "STL having me come out to California to see him and talk to him about that paper"
+  },
+  {
+    "t_start": 1394.15,
+    "t_end": 1396.16,
+    "text": "and that's where I met yo and I had actually met Yasser graduate when he was"
+  },
+  {
+    "t_start": 1396.16,
+    "t_end": 1397.27,
+    "text": "actually met Yasser graduate when he was a graduate student but I"
+  },
+  {
+    "t_start": 1397.27,
+    "t_end": 1403.51,
+    "text": "that's where I met Leon Simon and Rick Shan and yeah we'll get back to you and"
+  },
+  {
+    "t_start": 1403.51,
+    "t_end": 1409.39,
+    "text": "to Shane and so on later on but this paper particular paper was on a partial"
+  },
+  {
+    "t_start": 1409.39,
+    "t_end": 1411.22,
+    "text": "paper particular paper was on a partial differential equation yes very the"
+  },
+  {
+    "t_start": 1411.22,
+    "t_end": 1416.74,
+    "text": "was nothing to do with you but the techniques that you developed were they"
+  },
+  {
+    "t_start": 1416.74,
+    "t_end": 1418.54,
+    "text": "techniques that you developed were they important for you later when you wrote"
+  },
+  {
+    "t_start": 1418.54,
+    "t_end": 1423.88,
+    "text": "important for you later when you wrote the papers later actually no well I'm"
+  },
+  {
+    "t_start": 1423.88,
+    "t_end": 1428.02,
+    "text": "afraid a little bit the story of my mathematical career I could have pursued"
+  },
+  {
+    "t_start": 1428.02,
+    "t_end": 1432.73,
+    "text": "mathematical career I could have pursued it and made extensions of it and carried"
+  },
+  {
+    "t_start": 1432.73,
+    "t_end": 1437.02,
+    "text": "it and made extensions of it and carried that further and I did there were some"
+  },
+  {
+    "t_start": 1437.02,
+    "t_end": 1442.3,
+    "text": "more variables in there and I kind of figured out how to do it but this is my"
+  },
+  {
+    "t_start": 1442.3,
+    "t_end": 1443.05,
+    "text": "figured out how to do it but this is my problem"
+  },
+  {
+    "t_start": 1443.05,
+    "t_end": 1448.87,
+    "text": "I saw you could do it and I didn't know where that those problems we're going to"
+  },
+  {
+    "t_start": 1448.87,
+    "t_end": 1451.06,
+    "text": "where that those problems we're going to be useful and I don't still don't know"
+  },
+  {
+    "t_start": 1451.06,
+    "t_end": 1452.77,
+    "text": "be useful and I don't still don't know whether those problems that problem is"
+  },
+  {
+    "t_start": 1452.77,
+    "t_end": 1457.3,
+    "text": "whether those problems that problem is useful and so I didn't pursue it but"
+  },
+  {
+    "t_start": 1457.3,
+    "t_end": 1457.95,
+    "text": "someone else did Martin folks did actually"
+  },
+  {
+    "t_start": 1457.95,
+    "t_end": 1462.18,
+    "text": "but then then of course we we enter in a different phase in the beginning of the"
+  },
+  {
+    "t_start": 1462.18,
+    "t_end": 1467.94,
+    "text": "different phase in the beginning of the 80s where you publish a series of highly"
+  },
+  {
+    "t_start": 1467.94,
+    "t_end": 1470.909,
+    "text": "influential papers yes these must have been amazing years what were the"
+  },
+  {
+    "t_start": 1470.909,
+    "t_end": 1473.009,
+    "text": "been amazing years what were the conditions that made this possible I"
+  },
+  {
+    "t_start": 1473.009,
+    "t_end": 1477.509,
+    "text": "conditions that made this possible I don't really know because I was getting"
+  },
+  {
+    "t_start": 1477.509,
+    "t_end": 1483.239,
+    "text": "a divorce I moved from University of Illinois in"
+  },
+  {
+    "t_start": 1483.239,
+    "t_end": 1486.21,
+    "text": "I moved from University of Illinois in Champaign Urbana to the University of"
+  },
+  {
+    "t_start": 1486.21,
+    "t_end": 1488.31,
+    "text": "Champaign Urbana to the University of Illinois in Chicago I got together with"
+  },
+  {
+    "t_start": 1488.31,
+    "t_end": 1490.23,
+    "text": "Illinois in Chicago I got together with the new boyfriend and I taught at the"
+  },
+  {
+    "t_start": 1490.23,
+    "t_end": 1497.159,
+    "text": "the new boyfriend and I taught at the University of Illinois in Chicago and I"
+  },
+  {
+    "t_start": 1497.159,
+    "t_end": 1502.739,
+    "text": "taught two courses a term for three terms a three quarters a year and I"
+  },
+  {
+    "t_start": 1502.739,
+    "t_end": 1508.08,
+    "text": "don't know and I think I traveled a lot and so how I did it I have no idea I I"
+  },
+  {
+    "t_start": 1508.08,
+    "t_end": 1512.81,
+    "text": "and so how I did it I have no idea I I find it amazing horrible conditions well"
+  },
+  {
+    "t_start": 1512.81,
+    "t_end": 1515.489,
+    "text": "find it amazing horrible conditions well I'd like to say that because young"
+  },
+  {
+    "t_start": 1515.489,
+    "t_end": 1519.239,
+    "text": "people really think that you have to be at Oxford or something to actually do"
+  },
+  {
+    "t_start": 1519.239,
+    "t_end": 1520.769,
+    "text": "at Oxford or something to actually do good work and I think there's no"
+  },
+  {
+    "t_start": 1520.769,
+    "t_end": 1525.09,
+    "text": "good work and I think there's no evidence that that's really true so one"
+  },
+  {
+    "t_start": 1525.09,
+    "t_end": 1528.389,
+    "text": "evidence that that's really true so one of the first papers in this series is"
+  },
+  {
+    "t_start": 1528.389,
+    "t_end": 1530.82,
+    "text": "of the first papers in this series is the way well you have several ways with"
+  },
+  {
+    "t_start": 1530.82,
+    "t_end": 1533.43,
+    "text": "the way well you have several ways with Sachs YES on the existence of minimal"
+  },
+  {
+    "t_start": 1533.43,
+    "t_end": 1536.609,
+    "text": "Sachs YES on the existence of minimal immersions of two spheres there you"
+  },
+  {
+    "t_start": 1536.609,
+    "t_end": 1541.259,
+    "text": "develop a series of techniques you know both with respect to regularity yes with"
+  },
+  {
+    "t_start": 1541.259,
+    "t_end": 1543.869,
+    "text": "both with respect to regularity yes with in in connection with and and also with"
+  },
+  {
+    "t_start": 1543.869,
+    "t_end": 1550.619,
+    "text": "with compactness and is it so I couldn't find it in the paper but is it here the"
+  },
+  {
+    "t_start": 1550.619,
+    "t_end": 1551.999,
+    "text": "find it in the paper but is it here the bubbling idea stars"
+  },
+  {
+    "t_start": 1551.999,
+    "t_end": 1557.46,
+    "text": "well I asked Jonathan Sacks about where that idea comes from and he thinks that"
+  },
+  {
+    "t_start": 1557.46,
+    "t_end": 1560.19,
+    "text": "that idea comes from and he thinks that I actually used it in some talks I gave"
+  },
+  {
+    "t_start": 1560.19,
+    "t_end": 1562.44,
+    "text": "I actually used it in some talks I gave about this theorem because the the the"
+  },
+  {
+    "t_start": 1562.44,
+    "t_end": 1566.369,
+    "text": "about this theorem because the the the the technique is in the paper but I"
+  },
+  {
+    "t_start": 1566.369,
+    "t_end": 1575.039,
+    "text": "anything and I think I only used it kind of in talks but did the name Quran I and"
+  },
+  {
+    "t_start": 1575.039,
+    "t_end": 1577.95,
+    "text": "of in talks but did the name Quran I and and there he was studying to sphere"
+  },
+  {
+    "t_start": 1577.95,
+    "t_end": 1579.96,
+    "text": "and there he was studying to sphere embedded to spirits or balloons in a"
+  },
+  {
+    "t_start": 1579.96,
+    "t_end": 1583.31,
+    "text": "embedded to spirits or balloons in a bigger cities yeah yeah and and and"
+  },
+  {
+    "t_start": 1583.31,
+    "t_end": 1589.889,
+    "text": "group so sort of a strengths of the balloons and you were saying that you"
+  },
+  {
+    "t_start": 1589.889,
+    "t_end": 1591.75,
+    "text": "balloons and you were saying that you can represent these"
+  },
+  {
+    "t_start": 1591.75,
+    "t_end": 1599.16,
+    "text": "means a particularly nice balloons yeah yeah so so so there were certain certain"
+  },
+  {
+    "t_start": 1599.16,
+    "t_end": 1606.09,
+    "text": "encountered that gave rise to these this bubbling yes yes right well the idea is"
+  },
+  {
+    "t_start": 1606.09,
+    "t_end": 1612.03,
+    "text": "bubbling yes yes right well the idea is is you add a small term on you can do"
+  },
+  {
+    "t_start": 1612.03,
+    "t_end": 1616.67,
+    "text": "you can add a small term on and it satisfies the palace mint condition of"
+  },
+  {
+    "t_start": 1616.67,
+    "t_end": 1621.48,
+    "text": "satisfies the palace mint condition of that that makes that allows you to"
+  },
+  {
+    "t_start": 1621.48,
+    "t_end": 1627.0,
+    "text": "construct a more theory and that gives you lots of solutions ok thats of minima"
+  },
+  {
+    "t_start": 1627.0,
+    "t_end": 1637.26,
+    "text": "you lots of solutions ok thats of minima lots of minima lots of saddle points and"
+  },
+  {
+    "t_start": 1637.26,
+    "t_end": 1640.89,
+    "text": "the the fact so you add the small term but now you really want solutions in the"
+  },
+  {
+    "t_start": 1640.89,
+    "t_end": 1645.09,
+    "text": "problem so you want to take this perturbation away now the problem that"
+  },
+  {
+    "t_start": 1645.09,
+    "t_end": 1652.38,
+    "text": "perturbation away now the problem that that what this phenomena works best in"
+  },
+  {
+    "t_start": 1652.38,
+    "t_end": 1658.32,
+    "text": "meaning that the problem does not really see scale and so what happens in the"
+  },
+  {
+    "t_start": 1658.32,
+    "t_end": 1660.75,
+    "text": "see scale and so what happens in the limit is is you take a limit and you get"
+  },
+  {
+    "t_start": 1660.75,
+    "t_end": 1663.0,
+    "text": "limit is is you take a limit and you get a solution but the solution might"
+  },
+  {
+    "t_start": 1663.0,
+    "t_end": 1669.33,
+    "text": "actually be trivial it might be just a map to a point but you go back and see"
+  },
+  {
+    "t_start": 1669.33,
+    "t_end": 1673.8,
+    "text": "goes to the it actually converges everywhere except at a finite number of"
+  },
+  {
+    "t_start": 1673.8,
+    "t_end": 1676.71,
+    "text": "everywhere except at a finite number of points and around these points what"
+  },
+  {
+    "t_start": 1676.71,
+    "t_end": 1678.66,
+    "text": "points and around these points what happens is it's a scale invariant"
+  },
+  {
+    "t_start": 1678.66,
+    "t_end": 1680.7,
+    "text": "happens is it's a scale invariant problem and so the little region around"
+  },
+  {
+    "t_start": 1680.7,
+    "t_end": 1682.98,
+    "text": "problem and so the little region around the point thinks it's just as good as"
+  },
+  {
+    "t_start": 1682.98,
+    "t_end": 1684.78,
+    "text": "the point thinks it's just as good as the big plane and so you have the"
+  },
+  {
+    "t_start": 1684.78,
+    "t_end": 1687.6,
+    "text": "the big plane and so you have the description of a bubble of a solution a"
+  },
+  {
+    "t_start": 1687.6,
+    "t_end": 1692.37,
+    "text": "description of a bubble of a solution a sphere actually happening around a"
+  },
+  {
+    "t_start": 1692.37,
+    "t_end": 1695.67,
+    "text": "little tiny point and by looking at it with a microscope and and and magnifying"
+  },
+  {
+    "t_start": 1695.67,
+    "t_end": 1702.9,
+    "text": "with a microscope and and and magnifying glass and blowing it up and I think that"
+  },
+  {
+    "t_start": 1702.9,
+    "t_end": 1705.84,
+    "text": "I used that term at this point to blowing it up and kind of undoing that"
+  },
+  {
+    "t_start": 1705.84,
+    "t_end": 1707.97,
+    "text": "blowing it up and kind of undoing that you you get you see the bubble that"
+  },
+  {
+    "t_start": 1707.97,
+    "t_end": 1712.62,
+    "text": "happened at that point and you get a solution on you get a solution actually"
+  },
+  {
+    "t_start": 1712.62,
+    "t_end": 1716.7,
+    "text": "solution on you get a solution actually on the plane and then you prove that you"
+  },
+  {
+    "t_start": 1716.7,
+    "t_end": 1718.53,
+    "text": "can put the point in infinity in so there's that that's a regularity theorem"
+  },
+  {
+    "t_start": 1718.53,
+    "t_end": 1722.4,
+    "text": "there's that that's a regularity theorem that you could put the point of infinity"
+  },
+  {
+    "t_start": 1722.4,
+    "t_end": 1724.93,
+    "text": "in and so that way you can actually construct quite a few of these"
+  },
+  {
+    "t_start": 1724.93,
+    "t_end": 1728.95,
+    "text": "construct quite a few of these phears indeed a generating sense for"
+  },
+  {
+    "t_start": 1728.95,
+    "t_end": 1731.59,
+    "text": "phears indeed a generating sense for pi/2 I think someone else proved that"
+  },
+  {
+    "t_start": 1731.59,
+    "t_end": 1739.48,
+    "text": "but that was one of these things that we saw we could do it and we did but these"
+  },
+  {
+    "t_start": 1739.48,
+    "t_end": 1741.43,
+    "text": "saw we could do it and we did but these bubbles that that occur how do you"
+  },
+  {
+    "t_start": 1741.43,
+    "t_end": 1743.77,
+    "text": "bubbles that that occur how do you control that there are not infinitely"
+  },
+  {
+    "t_start": 1743.77,
+    "t_end": 1750.07,
+    "text": "many or how oh that's an estimate yeah yeah yeah well actually the answer is is"
+  },
+  {
+    "t_start": 1750.07,
+    "t_end": 1751.84,
+    "text": "yeah yeah well actually the answer is is each each bubble needs a certain amount"
+  },
+  {
+    "t_start": 1751.84,
+    "t_end": 1752.44,
+    "text": "each each bubble needs a certain amount of energy"
+  },
+  {
+    "t_start": 1752.44,
+    "t_end": 1756.31,
+    "text": "mm-hm and you only have a finite number of energy so you can sort of you can"
+  },
+  {
+    "t_start": 1756.31,
+    "t_end": 1762.04,
+    "text": "to you can even make an estimate about how many that you couldn't know most you"
+  },
+  {
+    "t_start": 1762.04,
+    "t_end": 1768.82,
+    "text": "could have it is hard to choose but some people hold your truth papers from 82 on"
+  },
+  {
+    "t_start": 1768.82,
+    "t_end": 1772.0,
+    "text": "people hold your truth papers from 82 on gauge Theory removable singularities and"
+  },
+  {
+    "t_start": 1772.0,
+    "t_end": 1777.1,
+    "text": "gauge Theory removable singularities and young mil fields and connections with LP"
+  },
+  {
+    "t_start": 1777.1,
+    "t_end": 1783.67,
+    "text": "bounce on curvature in particular high esteem can you give a brief overview so"
+  },
+  {
+    "t_start": 1783.67,
+    "t_end": 1786.16,
+    "text": "why are the yang-mills equation is important twice gauge invariants"
+  },
+  {
+    "t_start": 1786.16,
+    "t_end": 1787.0,
+    "text": "important twice gauge invariants important"
+  },
+  {
+    "t_start": 1787.0,
+    "t_end": 1792.37,
+    "text": "well the yang-mills er equations are important because the the higher RG"
+  },
+  {
+    "t_start": 1792.37,
+    "t_end": 1794.2,
+    "text": "important because the the higher RG theoretical physicists told us they were"
+  },
+  {
+    "t_start": 1794.2,
+    "t_end": 1796.6,
+    "text": "theoretical physicists told us they were important mathematicians could very well"
+  },
+  {
+    "t_start": 1796.6,
+    "t_end": 1798.22,
+    "text": "important mathematicians could very well have written and done done the whole"
+  },
+  {
+    "t_start": 1798.22,
+    "t_end": 1802.0,
+    "text": "series they just didn't think to do it so it's one of these evidences where"
+  },
+  {
+    "t_start": 1802.0,
+    "t_end": 1804.31,
+    "text": "so it's one of these evidences where pure mathematics really needs input from"
+  },
+  {
+    "t_start": 1804.31,
+    "t_end": 1807.78,
+    "text": "pure mathematics really needs input from outside from outside of itself too"
+  },
+  {
+    "t_start": 1807.78,
+    "t_end": 1812.32,
+    "text": "outside from outside of itself too sometimes it's even another branch of"
+  },
+  {
+    "t_start": 1812.32,
+    "t_end": 1813.88,
+    "text": "mathematics but it the ideas from outside mathematics are actually"
+  },
+  {
+    "t_start": 1813.88,
+    "t_end": 1815.5,
+    "text": "outside mathematics are actually important in theoretical physics in"
+  },
+  {
+    "t_start": 1815.5,
+    "t_end": 1822.18,
+    "text": "important in theoretical physics in theoretical mathematics but in this case"
+  },
+  {
+    "t_start": 1822.18,
+    "t_end": 1825.25,
+    "text": "the first question was that mathematicians actually I mean"
+  },
+  {
+    "t_start": 1825.25,
+    "t_end": 1830.62,
+    "text": "physicists actually got very excited to be out mathematics partly because this"
+  },
+  {
+    "t_start": 1830.62,
+    "t_end": 1832.69,
+    "text": "be out mathematics partly because this was an application of the Atia singer"
+  },
+  {
+    "t_start": 1832.69,
+    "t_end": 1834.55,
+    "text": "was an application of the Atia singer index theorem to tell you what the"
+  },
+  {
+    "t_start": 1834.55,
+    "t_end": 1836.89,
+    "text": "index theorem to tell you what the dimension of the space of solutions was"
+  },
+  {
+    "t_start": 1836.89,
+    "t_end": 1843.91,
+    "text": "dimension of the space of solutions was and this was something that it it's a"
+  },
+  {
+    "t_start": 1843.91,
+    "t_end": 1849.88,
+    "text": "global and thus needs this beginnings of global analysis to answer and but they"
+  },
+  {
+    "t_start": 1849.88,
+    "t_end": 1853.18,
+    "text": "global analysis to answer and but they they they had they had explicit"
+  },
+  {
+    "t_start": 1853.18,
+    "t_end": 1858.46,
+    "text": "they they had they had explicit solutions of a certain type on the"
+  },
+  {
+    "t_start": 1858.46,
+    "t_end": 1862.75,
+    "text": "they could explicitly write down and they had some more complicated once they"
+  },
+  {
+    "t_start": 1862.75,
+    "t_end": 1864.43,
+    "text": "they had some more complicated once they could write down and and they knew they"
+  },
+  {
+    "t_start": 1864.43,
+    "t_end": 1866.5,
+    "text": "could write down and and they knew they didn't actually know all the solutions"
+  },
+  {
+    "t_start": 1866.5,
+    "t_end": 1872.98,
+    "text": "didn't actually know all the solutions of the more complicated sort by the UT"
+  },
+  {
+    "t_start": 1872.98,
+    "t_end": 1874.75,
+    "text": "cigarette Dexter and so they had a question about what the spaces of"
+  },
+  {
+    "t_start": 1874.75,
+    "t_end": 1880.69,
+    "text": "solutions of such things look like and the removable singularities theorem"
+  },
+  {
+    "t_start": 1880.69,
+    "t_end": 1885.85,
+    "text": "comes from the fact that if you take a sequence of these solutions and it does"
+  },
+  {
+    "t_start": 1885.85,
+    "t_end": 1888.61,
+    "text": "sequence of these solutions and it does not converge to a solution you know that"
+  },
+  {
+    "t_start": 1888.61,
+    "t_end": 1890.95,
+    "text": "not converge to a solution you know that it converges to a solution of a"
+  },
+  {
+    "t_start": 1890.95,
+    "t_end": 1893.71,
+    "text": "it converges to a solution of a particular point and that point the same"
+  },
+  {
+    "t_start": 1893.71,
+    "t_end": 1898.06,
+    "text": "particular point and that point the same bubbling phenomena the points the same"
+  },
+  {
+    "t_start": 1898.06,
+    "t_end": 1900.25,
+    "text": "bubbling phenomena happens and so my theorem about the first theorem about"
+  },
+  {
+    "t_start": 1900.25,
+    "t_end": 1906.7,
+    "text": "removable singularities was proving that you could put in that point that where"
+  },
+  {
+    "t_start": 1906.7,
+    "t_end": 1909.25,
+    "text": "you could put in that point that where where where the where where the solution"
+  },
+  {
+    "t_start": 1909.25,
+    "t_end": 1915.399,
+    "text": "where where the where where the solution failed to converge and the it was and"
+  },
+  {
+    "t_start": 1915.399,
+    "t_end": 1918.37,
+    "text": "failed to converge and the it was and see this the second the second series of"
+  },
+  {
+    "t_start": 1918.37,
+    "t_end": 1925.289,
+    "text": "see this the second the second series of papers is second paper is a little bit"
+  },
+  {
+    "t_start": 1925.289,
+    "t_end": 1930.909,
+    "text": "different the yang-mills equations themselves are not elliptic equations"
+  },
+  {
+    "t_start": 1930.909,
+    "t_end": 1933.73,
+    "text": "themselves are not elliptic equations they have a coordinate invariance it's"
+  },
+  {
+    "t_start": 1933.73,
+    "t_end": 1938.11,
+    "text": "they have a coordinate invariance it's like you're looking at a plane and you"
+  },
+  {
+    "t_start": 1938.11,
+    "t_end": 1940.63,
+    "text": "have you you're not using Cartesian coordinates using any arbitrary set of"
+  },
+  {
+    "t_start": 1940.63,
+    "t_end": 1947.649,
+    "text": "you still have a plane and you have all these ways of describing it and so what"
+  },
+  {
+    "t_start": 1947.649,
+    "t_end": 1950.2,
+    "text": "these ways of describing it and so what happens in gauge theory is is that you"
+  },
+  {
+    "t_start": 1950.2,
+    "t_end": 1952.36,
+    "text": "happens in gauge theory is is that you have these physical these physical"
+  },
+  {
+    "t_start": 1952.36,
+    "t_end": 1957.909,
+    "text": "have these physical these physical objects called connections I think they"
+  },
+  {
+    "t_start": 1957.909,
+    "t_end": 1963.34,
+    "text": "objects called connections I think they call them fields and physics we call"
+  },
+  {
+    "t_start": 1963.34,
+    "t_end": 1969.58,
+    "text": "gauge invariance which means they have a coordinate that's free and there's way"
+  },
+  {
+    "t_start": 1969.58,
+    "t_end": 1974.2,
+    "text": "coordinate that's free and there's way too many of them and you have to divide"
+  },
+  {
+    "t_start": 1974.2,
+    "t_end": 1979.899,
+    "text": "it's you have to divide out by them and the problem is is that you have to do"
+  },
+  {
+    "t_start": 1979.899,
+    "t_end": 1981.399,
+    "text": "the problem is is that you have to do something ridges like construct"
+  },
+  {
+    "t_start": 1981.399,
+    "t_end": 1987.19,
+    "text": "Euclidian coordinates on them and what I did is I showed that under what"
+  },
+  {
+    "t_start": 1987.19,
+    "t_end": 1988.69,
+    "text": "did is I showed that under what circumstances you could actually"
+  },
+  {
+    "t_start": 1988.69,
+    "t_end": 1991.51,
+    "text": "circumstances you could actually construct these coordinates"
+  },
+  {
+    "t_start": 1991.51,
+    "t_end": 1996.43,
+    "text": "and then once you have the right coordinate system you just treat it from"
+  },
+  {
+    "t_start": 1996.43,
+    "t_end": 1999.13,
+    "text": "coordinate system you just treat it from standard PDE methods that's already in"
+  },
+  {
+    "t_start": 1999.13,
+    "t_end": 2000.84,
+    "text": "standard PDE methods that's already in the book so you need but you need this"
+  },
+  {
+    "t_start": 2000.84,
+    "t_end": 2003.45,
+    "text": "the book so you need but you need this secondary equation and that's somebody"
+  },
+  {
+    "t_start": 2003.45,
+    "t_end": 2007.77,
+    "text": "had to do it I mean I have to say this is one example where somebody would if I"
+  },
+  {
+    "t_start": 2007.77,
+    "t_end": 2009.12,
+    "text": "is one example where somebody would if I hadn't done that somebody would have"
+  },
+  {
+    "t_start": 2009.12,
+    "t_end": 2014.64,
+    "text": "done it I mean we were talking now about yang-mills equation and engaged theory"
+  },
+  {
+    "t_start": 2014.64,
+    "t_end": 2018.54,
+    "text": "yang-mills equation and engaged theory and of course this is ideas that popped"
+  },
+  {
+    "t_start": 2018.54,
+    "t_end": 2021.33,
+    "text": "up in physics but had tremendous influence on mathematics and of course"
+  },
+  {
+    "t_start": 2021.33,
+    "t_end": 2024.27,
+    "text": "influence on mathematics and of course you know we all know this famous saying"
+  },
+  {
+    "t_start": 2024.27,
+    "t_end": 2027.75,
+    "text": "you know we all know this famous saying by Eugene Wigner the unreasonable"
+  },
+  {
+    "t_start": 2027.75,
+    "t_end": 2032.82,
+    "text": "effectiveness of mathematics in the Natural Sciences that he wrote in 1960"
+  },
+  {
+    "t_start": 2032.82,
+    "t_end": 2035.19,
+    "text": "Natural Sciences that he wrote in 1960 now it maybe could turn things around"
+  },
+  {
+    "t_start": 2035.19,
+    "t_end": 2039.24,
+    "text": "now it maybe could turn things around and considering what has happened in"
+  },
+  {
+    "t_start": 2039.24,
+    "t_end": 2041.82,
+    "text": "and considering what has happened in global theory the unreasonable effect"
+  },
+  {
+    "t_start": 2041.82,
+    "t_end": 2047.57,
+    "text": "that physics has had on mathematics no but that's been since the foundation of"
+  },
+  {
+    "t_start": 2047.57,
+    "t_end": 2054.0,
+    "text": "but that's been since the foundation of well I don't know about the Greeks but"
+  },
+  {
+    "t_start": 2054.0,
+    "t_end": 2059.79,
+    "text": "no difference between math and physics at the time of Newton and the division"
+  },
+  {
+    "t_start": 2059.79,
+    "t_end": 2066.53,
+    "text": "in fact the real division between math and physics occurred in the 19th century"
+  },
+  {
+    "t_start": 2066.53,
+    "t_end": 2069.149,
+    "text": "and physics occurred in the 19th century you know people like virus stars started"
+  },
+  {
+    "t_start": 2069.149,
+    "t_end": 2071.82,
+    "text": "you know people like virus stars started putting it putting all sorts of holes in"
+  },
+  {
+    "t_start": 2071.82,
+    "t_end": 2073.53,
+    "text": "putting it putting all sorts of holes in the arguments that people were doing"
+  },
+  {
+    "t_start": 2073.53,
+    "t_end": 2079.59,
+    "text": "minimizing you take a sequence of things maybe there isn't any minimum how do you"
+  },
+  {
+    "t_start": 2079.59,
+    "t_end": 2081.599,
+    "text": "maybe there isn't any minimum how do you know there's a minimum you you"
+  },
+  {
+    "t_start": 2081.599,
+    "t_end": 2083.399,
+    "text": "know there's a minimum you you physicists you've been assuming these"
+  },
+  {
+    "t_start": 2083.399,
+    "t_end": 2089.28,
+    "text": "physicists you've been assuming these are all there and so you you get a real"
+  },
+  {
+    "t_start": 2089.28,
+    "t_end": 2095.669,
+    "text": "separated itself because it needed a foundation of rigor I mean you see it's"
+  },
+  {
+    "t_start": 2095.669,
+    "t_end": 2097.8,
+    "text": "foundation of rigor I mean you see it's it's you you could see this happening"
+  },
+  {
+    "t_start": 2097.8,
+    "t_end": 2101.28,
+    "text": "it's you you could see this happening with infinite dimensional vector spaces"
+  },
+  {
+    "t_start": 2101.28,
+    "t_end": 2107.31,
+    "text": "with infinite dimensional vector spaces became very important in the theory of"
+  },
+  {
+    "t_start": 2107.31,
+    "t_end": 2109.2,
+    "text": "calculus of variations what the most important space is called Hilbert space"
+  },
+  {
+    "t_start": 2109.2,
+    "t_end": 2115.05,
+    "text": "important space is called Hilbert space so that will date that for you and and"
+  },
+  {
+    "t_start": 2115.05,
+    "t_end": 2116.55,
+    "text": "but of course they're very there is absolutely essential in quantum"
+  },
+  {
+    "t_start": 2116.55,
+    "t_end": 2122.46,
+    "text": "mechanics and physicists are the ones that introduced direct Delta's and so"
+  },
+  {
+    "t_start": 2122.46,
+    "t_end": 2124.24,
+    "text": "that introduced direct Delta's and so forth but the mathematics had"
+  },
+  {
+    "t_start": 2124.24,
+    "t_end": 2126.43,
+    "text": "forth but the mathematics had separate and make it rigorous before it"
+  },
+  {
+    "t_start": 2126.43,
+    "t_end": 2128.38,
+    "text": "separate and make it rigorous before it could actually be a mathematical subject"
+  },
+  {
+    "t_start": 2128.38,
+    "t_end": 2132.82,
+    "text": "could actually be a mathematical subject so you see a real division between math"
+  },
+  {
+    "t_start": 2132.82,
+    "t_end": 2135.61,
+    "text": "and physics at this point math kind of separated itself and made it you know"
+  },
+  {
+    "t_start": 2135.61,
+    "t_end": 2140.02,
+    "text": "separated itself and made it you know robust and rigorous and the physicists"
+  },
+  {
+    "t_start": 2140.02,
+    "t_end": 2143.98,
+    "text": "weren't real interested in this and actually the mathematicians stop being"
+  },
+  {
+    "t_start": 2143.98,
+    "t_end": 2150.07,
+    "text": "actually the mathematicians stop being interested in the physics so and then I"
+  },
+  {
+    "t_start": 2150.07,
+    "t_end": 2154.24,
+    "text": "but it's sort of interesting the example you mentioned because of Irish trust of"
+  },
+  {
+    "t_start": 2154.24,
+    "t_end": 2156.4,
+    "text": "you mentioned because of Irish trust of course complaint was about a Rhema"
+  },
+  {
+    "t_start": 2156.4,
+    "t_end": 2158.47,
+    "text": "course complaint was about a Rhema assuming that the directly problem could"
+  },
+  {
+    "t_start": 2158.47,
+    "t_end": 2160.93,
+    "text": "assuming that the directly problem could that's right that's cause Riemann was"
+  },
+  {
+    "t_start": 2160.93,
+    "t_end": 2163.72,
+    "text": "that's right that's cause Riemann was more a physicist in client mathematician"
+  },
+  {
+    "t_start": 2163.72,
+    "t_end": 2166.12,
+    "text": "more a physicist in client mathematician than certainly advise transfer that's I"
+  },
+  {
+    "t_start": 2166.12,
+    "t_end": 2168.25,
+    "text": "than certainly advise transfer that's I see well I wouldn't I didn't actually"
+  },
+  {
+    "t_start": 2168.25,
+    "t_end": 2172.12,
+    "text": "see well I wouldn't I didn't actually realize that Riemann but Riemann was I"
+  },
+  {
+    "t_start": 2172.12,
+    "t_end": 2174.19,
+    "text": "realize that Riemann but Riemann was I wouldn't I didn't I don't really know"
+  },
+  {
+    "t_start": 2174.19,
+    "t_end": 2179.68,
+    "text": "wouldn't I didn't I don't really know too much about that part of history he"
+  },
+  {
+    "t_start": 2179.68,
+    "t_end": 2182.89,
+    "text": "argued physically I think things but then of course your your theories from"
+  },
+  {
+    "t_start": 2182.89,
+    "t_end": 2188.35,
+    "text": "then of course your your theories from from these two papers are taken further"
+  },
+  {
+    "t_start": 2188.35,
+    "t_end": 2190.39,
+    "text": "at this time you're an established mathematician and you're seeing people"
+  },
+  {
+    "t_start": 2190.39,
+    "t_end": 2197.89,
+    "text": "are grabbing hold of the things you're doing and proving things that I at least"
+  },
+  {
+    "t_start": 2197.89,
+    "t_end": 2199.81,
+    "text": "doing and proving things that I at least I don't see any connections with what"
+  },
+  {
+    "t_start": 2199.81,
+    "t_end": 2201.64,
+    "text": "I don't see any connections with what the physicist originally were thinking"
+  },
+  {
+    "t_start": 2201.64,
+    "t_end": 2207.79,
+    "text": "about but now all of a sudden you have deep theorems about what form of force"
+  },
+  {
+    "t_start": 2207.79,
+    "t_end": 2211.18,
+    "text": "deep theorems about what form of force it was train it tells PhD is in physics"
+  },
+  {
+    "t_start": 2211.18,
+    "t_end": 2214.42,
+    "text": "it was train it tells PhD is in physics mhm so and he wrote as a graduate"
+  },
+  {
+    "t_start": 2214.42,
+    "t_end": 2216.7,
+    "text": "mhm so and he wrote as a graduate student a book called vortices and"
+  },
+  {
+    "t_start": 2216.7,
+    "t_end": 2222.61,
+    "text": "student a book called vortices and monocles with his adviser Jaffe so it's"
+  },
+  {
+    "t_start": 2222.61,
+    "t_end": 2225.46,
+    "text": "monocles with his adviser Jaffe so it's not it's not true that that that all of"
+  },
+  {
+    "t_start": 2225.46,
+    "t_end": 2230.41,
+    "text": "not it's not true that that that all of that was a lot of some of that is"
+  },
+  {
+    "t_start": 2230.41,
+    "t_end": 2235.87,
+    "text": "physics physics and in fact one of the hot subjects topics in that subject"
+  },
+  {
+    "t_start": 2235.87,
+    "t_end": 2239.95,
+    "text": "hot subjects topics in that subject right now is is Higgs bundles and the"
+  },
+  {
+    "t_start": 2239.95,
+    "t_end": 2243.58,
+    "text": "right now is is Higgs bundles and the physicists it's physicists and my"
+  },
+  {
+    "t_start": 2243.58,
+    "t_end": 2251.17,
+    "text": "department Andy Andy nightsky at Texas was studying them just as hard as any"
+  },
+  {
+    "t_start": 2251.17,
+    "t_end": 2254.62,
+    "text": "was studying them just as hard as any mathematician what so I don't I don't I"
+  },
+  {
+    "t_start": 2254.62,
+    "t_end": 2257.04,
+    "text": "mathematician what so I don't I don't I don't know that they've separated so"
+  },
+  {
+    "t_start": 2257.04,
+    "t_end": 2262.29,
+    "text": "since but but certainly they they started having a life of their own in"
+  },
+  {
+    "t_start": 2262.29,
+    "t_end": 2266.04,
+    "text": "started having a life of their own in mathematics how do you respond to the"
+  },
+  {
+    "t_start": 2266.04,
+    "t_end": 2268.26,
+    "text": "mathematics how do you respond to the following I mean the conventional or the"
+  },
+  {
+    "t_start": 2268.26,
+    "t_end": 2270.6,
+    "text": "following I mean the conventional or the romantic picture is often that a good"
+  },
+  {
+    "t_start": 2270.6,
+    "t_end": 2273.39,
+    "text": "romantic picture is often that a good mathematician is a person with really"
+  },
+  {
+    "t_start": 2273.39,
+    "t_end": 2275.91,
+    "text": "mathematician is a person with really outstanding intellectual power who"
+  },
+  {
+    "t_start": 2275.91,
+    "t_end": 2280.62,
+    "text": "solves the problem through his or her superior genius and the solution comes"
+  },
+  {
+    "t_start": 2280.62,
+    "t_end": 2286.08,
+    "text": "superior genius and the solution comes as a kind of bolt of lightning we know"
+  },
+  {
+    "t_start": 2286.08,
+    "t_end": 2288.48,
+    "text": "as a kind of bolt of lightning we know of course that this is not the case"
+  },
+  {
+    "t_start": 2288.48,
+    "t_end": 2291.15,
+    "text": "of course that this is not the case seldom it's more well there's a lot of"
+  },
+  {
+    "t_start": 2291.15,
+    "t_end": 2293.94,
+    "text": "seldom it's more well there's a lot of luck involved"
+  },
+  {
+    "t_start": 2295.65,
+    "t_end": 2297.96,
+    "text": "there's a lot of knowledge about how to take advantage of luck right but it's"
+  },
+  {
+    "t_start": 2297.96,
+    "t_end": 2301.74,
+    "text": "take advantage of luck right but it's also important qualities perseverance"
+  },
+  {
+    "t_start": 2301.74,
+    "t_end": 2308.1,
+    "text": "and the capacity of concentration yes have you had moments of epiphanies where"
+  },
+  {
+    "t_start": 2308.1,
+    "t_end": 2309.93,
+    "text": "have you had moments of epiphanies where you enough flash saw the solution to"
+  },
+  {
+    "t_start": 2309.93,
+    "t_end": 2311.58,
+    "text": "you enough flash saw the solution to problems do you have been struggling"
+  },
+  {
+    "t_start": 2311.58,
+    "t_end": 2316.95,
+    "text": "with I think the let me answer your last question first and the answer is yes"
+  },
+  {
+    "t_start": 2316.95,
+    "t_end": 2323.04,
+    "text": "it's you struggle with the problem and and get it can be a period of years and"
+  },
+  {
+    "t_start": 2323.04,
+    "t_end": 2325.14,
+    "text": "and get it can be a period of years and you suddenly get some insight that you"
+  },
+  {
+    "t_start": 2325.14,
+    "t_end": 2331.08,
+    "text": "of view and you say goodness it has to be like that and you think all along it"
+  },
+  {
+    "t_start": 2331.08,
+    "t_end": 2335.91,
+    "text": "has to be like that but you don't see why and then suddenly at some moment it"
+  },
+  {
+    "t_start": 2335.91,
+    "t_end": 2338.55,
+    "text": "why and then suddenly at some moment it can be also a very simple idea suddenly"
+  },
+  {
+    "t_start": 2338.55,
+    "t_end": 2342.39,
+    "text": "can be also a very simple idea suddenly hits you and I I can remember where I"
+  },
+  {
+    "t_start": 2342.39,
+    "t_end": 2346.14,
+    "text": "hits you and I I can remember where I was or what I was doing when I had those"
+  },
+  {
+    "t_start": 2346.14,
+    "t_end": 2350.67,
+    "text": "moments and it was a moment both the like there's a moment when you suddenly"
+  },
+  {
+    "t_start": 2350.67,
+    "t_end": 2355.5,
+    "text": "like there's a moment when you suddenly realize that you see how to do it and"
+  },
+  {
+    "t_start": 2355.5,
+    "t_end": 2358.41,
+    "text": "then of course that's after all the struggle you had struggle isn't right"
+  },
+  {
+    "t_start": 2358.41,
+    "t_end": 2364.71,
+    "text": "because you wouldn't do it if it weren't a lot of fun but all the time you spent"
+  },
+  {
+    "t_start": 2364.71,
+    "t_end": 2368.58,
+    "text": "thinking about this problem and then of course you got the problem which is even"
+  },
+  {
+    "t_start": 2368.58,
+    "t_end": 2371.01,
+    "text": "worse is you got to write it up so I mean but there is this moment right in"
+  },
+  {
+    "t_start": 2371.01,
+    "t_end": 2373.04,
+    "text": "mean but there is this moment right in between when you're it's really great"
+  },
+  {
+    "t_start": 2373.04,
+    "t_end": 2379.68,
+    "text": "and and in fact I do have to say since I had a similar moment a year or so ago"
+  },
+  {
+    "t_start": 2379.68,
+    "t_end": 2381.6,
+    "text": "had a similar moment a year or so ago about the problem then I would started"
+  },
+  {
+    "t_start": 2381.6,
+    "t_end": 2386.19,
+    "text": "about the problem then I would started working on then I kept on going back and"
+  },
+  {
+    "t_start": 2386.19,
+    "t_end": 2390.66,
+    "text": "checking it to be sure it was right I mean I remember the moment but I have to"
+  },
+  {
+    "t_start": 2390.66,
+    "t_end": 2392.55,
+    "text": "tell you when if which it's it's suddenly everything fits together you"
+  },
+  {
+    "t_start": 2392.55,
+    "t_end": 2400.11,
+    "text": "suddenly everything fits together you keep going back and checking that it's"
+  },
+  {
+    "t_start": 2400.11,
+    "t_end": 2402.18,
+    "text": "right but let's see you're the first part of your question was oh yes"
+  },
+  {
+    "t_start": 2402.18,
+    "t_end": 2405.09,
+    "text": "part of your question was oh yes well I I I think I mentioned this before"
+  },
+  {
+    "t_start": 2405.09,
+    "t_end": 2410.01,
+    "text": "well I I I think I mentioned this before but I don't think you can do pure"
+  },
+  {
+    "t_start": 2410.01,
+    "t_end": 2413.88,
+    "text": "mathematics without the ability to concentrate I mean that's that's where"
+  },
+  {
+    "t_start": 2413.88,
+    "t_end": 2414.84,
+    "text": "concentrate I mean that's that's where the fun is"
+  },
+  {
+    "t_start": 2414.84,
+    "t_end": 2419.88,
+    "text": "you rest of the world fades away and it's you and the mathematics and I don't"
+  },
+  {
+    "t_start": 2419.88,
+    "t_end": 2422.34,
+    "text": "it's you and the mathematics and I don't think there's any other way to do"
+  },
+  {
+    "t_start": 2422.34,
+    "t_end": 2425.31,
+    "text": "think there's any other way to do mathematics and of course that's one of"
+  },
+  {
+    "t_start": 2425.31,
+    "t_end": 2426.62,
+    "text": "mathematics and of course that's one of the reasons there are so few"
+  },
+  {
+    "t_start": 2426.62,
+    "t_end": 2430.02,
+    "text": "the reasons there are so few mathematicians compared to the rest of"
+  },
+  {
+    "t_start": 2430.02,
+    "t_end": 2434.55,
+    "text": "mathematicians compared to the rest of the population well we don't I don't"
+  },
+  {
+    "t_start": 2434.55,
+    "t_end": 2438.0,
+    "text": "the population well we don't I don't think Society has has the will the will"
+  },
+  {
+    "t_start": 2438.0,
+    "t_end": 2440.0,
+    "text": "think Society has has the will the will to support too many mathematicians"
+  },
+  {
+    "t_start": 2440.0,
+    "t_end": 2445.02,
+    "text": "that's one aspect but also to be as serious mathematician requires you have"
+  },
+  {
+    "t_start": 2445.02,
+    "t_end": 2450.51,
+    "text": "serious mathematician requires you have to have a certain perseverance well you"
+  },
+  {
+    "t_start": 2450.51,
+    "t_end": 2456.03,
+    "text": "escape some of us really see it as an escape but there's two sides to this"
+  },
+  {
+    "t_start": 2456.03,
+    "t_end": 2457.98,
+    "text": "escape but there's two sides to this coin as well of course the community is"
+  },
+  {
+    "t_start": 2457.98,
+    "t_end": 2460.44,
+    "text": "coin as well of course the community is important and we promise to come back to"
+  },
+  {
+    "t_start": 2460.44,
+    "t_end": 2463.41,
+    "text": "important and we promise to come back to yo who was one of the persons who really"
+  },
+  {
+    "t_start": 2463.41,
+    "t_end": 2465.3,
+    "text": "yo who was one of the persons who really believed in you yes that's correct and"
+  },
+  {
+    "t_start": 2465.3,
+    "t_end": 2469.86,
+    "text": "believed in you yes that's correct and and and that of course can be crucial as"
+  },
+  {
+    "t_start": 2469.86,
+    "t_end": 2472.44,
+    "text": "well yes yeah Yau is actually a brilliant mathematician but he's he was"
+  },
+  {
+    "t_start": 2472.44,
+    "t_end": 2474.54,
+    "text": "brilliant mathematician but he's he was he's also good at collecting people he's"
+  },
+  {
+    "t_start": 2474.54,
+    "t_end": 2481.26,
+    "text": "he's also good at collecting people he's also he's good at inspiring students but"
+  },
+  {
+    "t_start": 2481.26,
+    "t_end": 2484.68,
+    "text": "he's also good at finding mathematical results that he likes and getting to"
+  },
+  {
+    "t_start": 2484.68,
+    "t_end": 2489.02,
+    "text": "results that he likes and getting to know and getting the person involved"
+  },
+  {
+    "t_start": 2489.02,
+    "t_end": 2491.55,
+    "text": "know and getting the person involved learning their mathematics has his"
+  },
+  {
+    "t_start": 2491.55,
+    "t_end": 2496.8,
+    "text": "students learn their mathematics and you published this in 1985 you published a"
+  },
+  {
+    "t_start": 2496.8,
+    "t_end": 2499.29,
+    "text": "published this in 1985 you published a paper together video yes title on the"
+  },
+  {
+    "t_start": 2499.29,
+    "t_end": 2500.9,
+    "text": "paper together video yes title on the existence of hermitian yang-mills"
+  },
+  {
+    "t_start": 2500.9,
+    "t_end": 2506.7,
+    "text": "connections table vector bambbles that's right and that work was profound in"
+  },
+  {
+    "t_start": 2506.7,
+    "t_end": 2510.66,
+    "text": "right and that work was profound in impact it had on complex geometry and"
+  },
+  {
+    "t_start": 2510.66,
+    "t_end": 2513.03,
+    "text": "impact it had on complex geometry and eye sight or a quote but edward witten"
+  },
+  {
+    "t_start": 2513.03,
+    "t_end": 2516.12,
+    "text": "eye sight or a quote but edward witten declare that hermitian yang-mills is one"
+  },
+  {
+    "t_start": 2516.12,
+    "t_end": 2517.79,
+    "text": "declare that hermitian yang-mills is one of the major building blocks of"
+  },
+  {
+    "t_start": 2517.79,
+    "t_end": 2520.53,
+    "text": "of the major building blocks of supersymmetric string theory it provides"
+  },
+  {
+    "t_start": 2520.53,
+    "t_end": 2523.54,
+    "text": "supersymmetric string theory it provides a very elegant existence here and by"
+  },
+  {
+    "t_start": 2523.54,
+    "t_end": 2528.94,
+    "text": "criterion in terms of purely algebraic geometry so this was how did that work"
+  },
+  {
+    "t_start": 2528.94,
+    "t_end": 2533.08,
+    "text": "geometry so this was how did that work with the outcome about and and you have"
+  },
+  {
+    "t_start": 2533.08,
+    "t_end": 2538.36,
+    "text": "with the outcome about and and you have already talked about it both to see how"
+  },
+  {
+    "t_start": 2538.36,
+    "t_end": 2540.67,
+    "text": "important for you I mean your self-esteem as a mathematician I knew"
+  },
+  {
+    "t_start": 2540.67,
+    "t_end": 2545.92,
+    "text": "self-esteem as a mathematician I knew from the late 70s that yeah admired my"
+  },
+  {
+    "t_start": 2545.92,
+    "t_end": 2550.03,
+    "text": "from the late 70s that yeah admired my mathematics I mean in fact Rick Shan and"
+  },
+  {
+    "t_start": 2550.03,
+    "t_end": 2553.39,
+    "text": "mathematics I mean in fact Rick Shan and Yau and Jonathan Sacks and I published"
+  },
+  {
+    "t_start": 2553.39,
+    "t_end": 2555.67,
+    "text": "Yau and Jonathan Sacks and I published essentially the same paper about the"
+  },
+  {
+    "t_start": 2555.67,
+    "t_end": 2559.63,
+    "text": "essentially the same paper about the minimal emergence of Riemann surfaces"
+  },
+  {
+    "t_start": 2559.63,
+    "t_end": 2569.08,
+    "text": "the minimal objects of different shapes than is to sphere like a torus or a two"
+  },
+  {
+    "t_start": 2569.08,
+    "t_end": 2572.11,
+    "text": "than is to sphere like a torus or a two hole torus or something and so I already"
+  },
+  {
+    "t_start": 2572.11,
+    "t_end": 2574.93,
+    "text": "hole torus or something and so I already knew and so he approached me and told me"
+  },
+  {
+    "t_start": 2574.93,
+    "t_end": 2581.14,
+    "text": "knew and so he approached me and told me the problem and I I didn't know anything"
+  },
+  {
+    "t_start": 2581.14,
+    "t_end": 2587.02,
+    "text": "the problem and I I didn't know anything about the field at all so I'm not sure"
+  },
+  {
+    "t_start": 2587.02,
+    "t_end": 2591.85,
+    "text": "one of the problems is is what the stability condition means and but and"
+  },
+  {
+    "t_start": 2591.85,
+    "t_end": 2596.4,
+    "text": "and also it's there's a different formulation in terms of complex geometry"
+  },
+  {
+    "t_start": 2596.4,
+    "t_end": 2603.63,
+    "text": "formulation in terms of complex geometry than in real geometry and so I was able"
+  },
+  {
+    "t_start": 2603.63,
+    "t_end": 2606.55,
+    "text": "to absorb this and of course why a contribution was is that I did what I'd"
+  },
+  {
+    "t_start": 2606.55,
+    "t_end": 2609.4,
+    "text": "contribution was is that I did what I'd done before I added an epsilon and in"
+  },
+  {
+    "t_start": 2609.4,
+    "t_end": 2613.47,
+    "text": "done before I added an epsilon and in term that made the problem solvable and"
+  },
+  {
+    "t_start": 2613.47,
+    "t_end": 2615.67,
+    "text": "term that made the problem solvable and pretty you've proved you solved that"
+  },
+  {
+    "t_start": 2615.67,
+    "t_end": 2617.38,
+    "text": "pretty you've proved you solved that problem and then you took the"
+  },
+  {
+    "t_start": 2617.38,
+    "t_end": 2619.54,
+    "text": "problem and then you took the perturbation away and looked at limits"
+  },
+  {
+    "t_start": 2619.54,
+    "t_end": 2626.5,
+    "text": "perturbation away and looked at limits and again you have the same problem that"
+  },
+  {
+    "t_start": 2626.5,
+    "t_end": 2628.84,
+    "text": "in fact you you you have to know what the limit looks like and that was the"
+  },
+  {
+    "t_start": 2628.84,
+    "t_end": 2630.37,
+    "text": "the limit looks like and that was the hard part of the paper actually you"
+  },
+  {
+    "t_start": 2630.37,
+    "t_end": 2634.33,
+    "text": "hard part of the paper actually you think said something about two types of"
+  },
+  {
+    "t_start": 2634.33,
+    "t_end": 2636.64,
+    "text": "think said something about two types of mathematicians one that is thinking"
+  },
+  {
+    "t_start": 2636.64,
+    "t_end": 2639.34,
+    "text": "mathematicians one that is thinking linearly I mean step by step by step and"
+  },
+  {
+    "t_start": 2639.34,
+    "t_end": 2645.13,
+    "text": "linearly I mean step by step by step and so on and then you have the more"
+  },
+  {
+    "t_start": 2645.13,
+    "t_end": 2651.82,
+    "text": "sort of also very say talk about the theory builder or and then we have this"
+  },
+  {
+    "t_start": 2651.82,
+    "t_end": 2655.36,
+    "text": "theory builder or and then we have this problem solver right and you you belong"
+  },
+  {
+    "t_start": 2655.36,
+    "t_end": 2657.28,
+    "text": "problem solver right and you you belong to the problem so I definitely"
+  },
+  {
+    "t_start": 2657.28,
+    "t_end": 2663.64,
+    "text": "to the problem-solver I'm really not much of a theory builder at all and and"
+  },
+  {
+    "t_start": 2663.64,
+    "t_end": 2665.38,
+    "text": "much of a theory builder at all and and in fact I don't even read papers that"
+  },
+  {
+    "t_start": 2665.38,
+    "t_end": 2665.8,
+    "text": "in fact I don't even read papers that way"
+  },
+  {
+    "t_start": 2665.8,
+    "t_end": 2669.85,
+    "text": "I don't read papers from start to finish I look at the beginning I look at the"
+  },
+  {
+    "t_start": 2669.85,
+    "t_end": 2674.05,
+    "text": "I look at the beginning I look at the errand I look at the references I try to"
+  },
+  {
+    "t_start": 2674.05,
+    "t_end": 2681.04,
+    "text": "their definitions and then I try to find the key lemmas and then I try to prove"
+  },
+  {
+    "t_start": 2681.04,
+    "t_end": 2687.01,
+    "text": "the key lemmas and when I got stuck on the key limb as I go back and look at"
+  },
+  {
+    "t_start": 2687.01,
+    "t_end": 2690.94,
+    "text": "scenario for the way I would read a paper so that might give some idea about"
+  },
+  {
+    "t_start": 2690.94,
+    "t_end": 2694.39,
+    "text": "paper so that might give some idea about how I'm not Alan not not and why I don't"
+  },
+  {
+    "t_start": 2694.39,
+    "t_end": 2697.9,
+    "text": "how I'm not Alan not not and why I don't actually build theories Hilbert said"
+  },
+  {
+    "t_start": 2697.9,
+    "t_end": 2701.29,
+    "text": "actually build theories Hilbert said something about that problems is the"
+  },
+  {
+    "t_start": 2701.29,
+    "t_end": 2703.78,
+    "text": "something about that problems is the lifeblood of mathematics and if I feel"
+  },
+  {
+    "t_start": 2703.78,
+    "t_end": 2706.54,
+    "text": "lifeblood of mathematics and if I feel doesn't have good problems it's sort of"
+  },
+  {
+    "t_start": 2706.54,
+    "t_end": 2713.23,
+    "text": "going to die how do you on this scale Hilbert sort of thought up the panorama"
+  },
+  {
+    "t_start": 2713.23,
+    "t_end": 2716.2,
+    "text": "Hilbert sort of thought up the panorama how do you rate global analysis what"
+  },
+  {
+    "t_start": 2716.2,
+    "t_end": 2719.35,
+    "text": "how do you rate global analysis what does it have the big problems ahead of"
+  },
+  {
+    "t_start": 2719.35,
+    "t_end": 2722.02,
+    "text": "does it have the big problems ahead of it or how is that how do you evaluate"
+  },
+  {
+    "t_start": 2722.02,
+    "t_end": 2729.7,
+    "text": "it or how is that how do you evaluate that well a lot of the areas of areas in"
+  },
+  {
+    "t_start": 2729.7,
+    "t_end": 2731.47,
+    "text": "that well a lot of the areas of areas in which you really would like to"
+  },
+  {
+    "t_start": 2731.47,
+    "t_end": 2734.65,
+    "text": "which you really would like to understand the problems are very"
+  },
+  {
+    "t_start": 2734.65,
+    "t_end": 2741.25,
+    "text": "difficult and quite stuck that is I mean one of the one of the typical examples"
+  },
+  {
+    "t_start": 2741.25,
+    "t_end": 2746.92,
+    "text": "of which is very interesting is there are a lot of problems which have to do"
+  },
+  {
+    "t_start": 2746.92,
+    "t_end": 2751.21,
+    "text": "are a lot of problems which have to do with a complex gauge group the the gauge"
+  },
+  {
+    "t_start": 2751.21,
+    "t_end": 2755.74,
+    "text": "with a complex gauge group the the gauge theory and that I was talking about all"
+  },
+  {
+    "t_start": 2755.74,
+    "t_end": 2758.38,
+    "text": "had to do with things like unitary groups or special unitary groups and you"
+  },
+  {
+    "t_start": 2758.38,
+    "t_end": 2760.06,
+    "text": "groups or special unitary groups and you can actually look at special linear"
+  },
+  {
+    "t_start": 2760.06,
+    "t_end": 2763.06,
+    "text": "can actually look at special linear groups and so there's an imaginary part"
+  },
+  {
+    "t_start": 2763.06,
+    "t_end": 2766.15,
+    "text": "groups and so there's an imaginary part of the connection which acts as a Higgs"
+  },
+  {
+    "t_start": 2766.15,
+    "t_end": 2769.21,
+    "text": "of the connection which acts as a Higgs field and those problems cliff tabs have"
+  },
+  {
+    "t_start": 2769.21,
+    "t_end": 2770.89,
+    "text": "field and those problems cliff tabs have spent a lot of time trying to understand"
+  },
+  {
+    "t_start": 2770.89,
+    "t_end": 2772.78,
+    "text": "spent a lot of time trying to understand those problems the two-dimensional case"
+  },
+  {
+    "t_start": 2772.78,
+    "t_end": 2778.78,
+    "text": "of Higgs bundles is actually a very hot area of research the last five years or"
+  },
+  {
+    "t_start": 2778.78,
+    "t_end": 2785.26,
+    "text": "area of research the last five years or six years or so but that that it's kind"
+  },
+  {
+    "t_start": 2785.26,
+    "t_end": 2787.21,
+    "text": "of it's a big open problem to how to think of these things because the limits"
+  },
+  {
+    "t_start": 2787.21,
+    "t_end": 2790.37,
+    "text": "think of these things because the limits of solutions have seen"
+  },
+  {
+    "t_start": 2790.37,
+    "t_end": 2794.3,
+    "text": "hilarities and that's always very difficult to understand singularities so"
+  },
+  {
+    "t_start": 2794.3,
+    "t_end": 2796.94,
+    "text": "difficult to understand singularities so that's a that's a big open problem I"
+  },
+  {
+    "t_start": 2796.94,
+    "t_end": 2803.57,
+    "text": "that's a that's a big open problem I don't my answer to you about Bill what"
+  },
+  {
+    "t_start": 2803.57,
+    "t_end": 2812.51,
+    "text": "would all be there if we knew what they were so I I don't and I also have not"
+  },
+  {
+    "t_start": 2812.51,
+    "t_end": 2814.34,
+    "text": "were so I I don't and I also have not been so active mathematically for the"
+  },
+  {
+    "t_start": 2814.34,
+    "t_end": 2816.8,
+    "text": "been so active mathematically for the past decades so I don't I don't know"
+  },
+  {
+    "t_start": 2816.8,
+    "t_end": 2821.36,
+    "text": "past decades so I don't I don't know that I'm the right person to I've"
+  },
+  {
+    "t_start": 2821.36,
+    "t_end": 2826.4,
+    "text": "counted on other people to bring me good problems but in 1988 you did make some"
+  },
+  {
+    "t_start": 2826.4,
+    "t_end": 2828.83,
+    "text": "problems but in 1988 you did make some predictions oh dear oh dear yeah in the"
+  },
+  {
+    "t_start": 2828.83,
+    "t_end": 2831.19,
+    "text": "predictions oh dear oh dear yeah in the instance and they're really a relative's"
+  },
+  {
+    "t_start": 2831.19,
+    "t_end": 2838.22,
+    "text": "so you had four and a five key points where you were thinking that mathematics"
+  },
+  {
+    "t_start": 2838.22,
+    "t_end": 2841.13,
+    "text": "where you were thinking that mathematics were moving towards one was simplicity"
+  },
+  {
+    "t_start": 2841.13,
+    "t_end": 2843.38,
+    "text": "were moving towards one was simplicity through complexity I think that was"
+  },
+  {
+    "t_start": 2843.38,
+    "t_end": 2845.87,
+    "text": "through complexity I think that was about moduli that's right do you feel"
+  },
+  {
+    "t_start": 2845.87,
+    "t_end": 2849.65,
+    "text": "about moduli that's right do you feel that mathematics has gone in that"
+  },
+  {
+    "t_start": 2849.65,
+    "t_end": 2853.07,
+    "text": "that mathematics has gone in that direction yeah I I think so I think you"
+  },
+  {
+    "t_start": 2853.07,
+    "t_end": 2858.8,
+    "text": "can regard there are a lot of I'm not quite sure the thing is there are a lot"
+  },
+  {
+    "t_start": 2858.8,
+    "t_end": 2863.15,
+    "text": "quite sure the thing is there are a lot of topological invariants that are"
+  },
+  {
+    "t_start": 2863.15,
+    "t_end": 2870.68,
+    "text": "constructed using models that were originally gauge of a gauge group and an"
+  },
+  {
+    "t_start": 2870.68,
+    "t_end": 2875.6,
+    "text": "originally gauge of a gauge group and an Associated Higgs bundle and that that"
+  },
+  {
+    "t_start": 2875.6,
+    "t_end": 2881.87,
+    "text": "very complicated because there are a lot of fields and a lot of different terms"
+  },
+  {
+    "t_start": 2881.87,
+    "t_end": 2883.55,
+    "text": "but when you actually write down the equations you're trying to solve and"
+  },
+  {
+    "t_start": 2883.55,
+    "t_end": 2886.43,
+    "text": "equations you're trying to solve and look at them the space of solutions the"
+  },
+  {
+    "t_start": 2886.43,
+    "t_end": 2888.89,
+    "text": "look at them the space of solutions the moduli space is actually very simple"
+  },
+  {
+    "t_start": 2888.89,
+    "t_end": 2893.06,
+    "text": "moduli space is actually very simple so I think that that that that's fair to"
+  },
+  {
+    "t_start": 2893.06,
+    "t_end": 2900.74,
+    "text": "say that and you asked just a question and after theoretical physics yes sir so"
+  },
+  {
+    "t_start": 2900.74,
+    "t_end": 2903.32,
+    "text": "and after theoretical physics yes sir so I think you're thinking that inspiration"
+  },
+  {
+    "t_start": 2903.32,
+    "t_end": 2905.33,
+    "text": "I think you're thinking that inspiration to mathematics will not only come from"
+  },
+  {
+    "t_start": 2905.33,
+    "t_end": 2908.06,
+    "text": "to mathematics will not only come from physics anymore but from other natural"
+  },
+  {
+    "t_start": 2908.06,
+    "t_end": 2913.04,
+    "text": "physics anymore but from other natural or other Sciences well I keep on"
+  },
+  {
+    "t_start": 2913.04,
+    "t_end": 2915.08,
+    "text": "thinking it ought to be because certainly the field of mathematical"
+  },
+  {
+    "t_start": 2915.08,
+    "t_end": 2921.71,
+    "text": "certainly the field of mathematical biology has grown the field of computer"
+  },
+  {
+    "t_start": 2921.71,
+    "t_end": 2923.81,
+    "text": "biology has grown the field of computer science has lots of interesting as"
+  },
+  {
+    "t_start": 2923.81,
+    "t_end": 2926.26,
+    "text": "science has lots of interesting as spec's that must have mathematical"
+  },
+  {
+    "t_start": 2926.26,
+    "t_end": 2928.25,
+    "text": "spec's that must have mathematical connotations and so forth"
+  },
+  {
+    "t_start": 2928.25,
+    "t_end": 2933.29,
+    "text": "but you say something interesting also I hope that no comments on the place of"
+  },
+  {
+    "t_start": 2933.29,
+    "t_end": 2935.51,
+    "text": "hope that no comments on the place of women in mathematics are even relevant"
+  },
+  {
+    "t_start": 2935.51,
+    "t_end": 2940.91,
+    "text": "women in mathematics are even relevant by 2038 so we certainly hope so yes"
+  },
+  {
+    "t_start": 2940.91,
+    "t_end": 2941.78,
+    "text": "by 2038 so we certainly hope so yes right"
+  },
+  {
+    "t_start": 2941.78,
+    "t_end": 2947.36,
+    "text": "IIIi want to say I wouldn't say I would really hope that yeah that was a that"
+  },
+  {
+    "t_start": 2947.36,
+    "t_end": 2954.23,
+    "text": "was a good wish so continuing on that then for a short moment reflections on"
+  },
+  {
+    "t_start": 2954.23,
+    "t_end": 2956.03,
+    "text": "then for a short moment reflections on your own experience in an interview with"
+  },
+  {
+    "t_start": 2956.03,
+    "t_end": 2962.54,
+    "text": "your own experience in an interview with The New Yorker and you say I figured if"
+  },
+  {
+    "t_start": 2962.54,
+    "t_end": 2964.07,
+    "text": "I've been five years older I could not have become a mathematician"
+  },
+  {
+    "t_start": 2964.07,
+    "t_end": 2970.46,
+    "text": "because disapproval would have been so strong could you expand on that well I"
+  },
+  {
+    "t_start": 2970.46,
+    "t_end": 2973.55,
+    "text": "strong could you expand on that well I became a mathematician as a result in"
+  },
+  {
+    "t_start": 2973.55,
+    "t_end": 2974.87,
+    "text": "became a mathematician as a result in some sense of the second wave of"
+  },
+  {
+    "t_start": 2974.87,
+    "t_end": 2982.42,
+    "text": "feminism Sputnik and the second wave of feminism and the the point is is that"
+  },
+  {
+    "t_start": 2982.42,
+    "t_end": 2985.12,
+    "text": "feminism and the the point is is that Betty Friedan's The Feminine Mystique"
+  },
+  {
+    "t_start": 2985.12,
+    "t_end": 2991.04,
+    "text": "opened up the eyes to the fact that women were not that all the lot of life"
+  },
+  {
+    "t_start": 2991.04,
+    "t_end": 2995.96,
+    "text": "was not open to women and so this is the early 60s I'm already in school at this"
+  },
+  {
+    "t_start": 2995.96,
+    "t_end": 2998.75,
+    "text": "early 60s I'm already in school at this time but by the time I actually got into"
+  },
+  {
+    "t_start": 2998.75,
+    "t_end": 3001.24,
+    "text": "time but by the time I actually got into graduate school and then looked for a"
+  },
+  {
+    "t_start": 3001.24,
+    "t_end": 3004.96,
+    "text": "graduate school and then looked for a job the fact that women might do"
+  },
+  {
+    "t_start": 3004.96,
+    "t_end": 3007.51,
+    "text": "job the fact that women might do something else was actually in the"
+  },
+  {
+    "t_start": 3007.51,
+    "t_end": 3011.08,
+    "text": "something else was actually in the discussion anyway I mean it wasn't five"
+  },
+  {
+    "t_start": 3011.08,
+    "t_end": 3013.21,
+    "text": "discussion anyway I mean it wasn't five years before it probably wasn't really"
+  },
+  {
+    "t_start": 3013.21,
+    "t_end": 3015.19,
+    "text": "years before it probably wasn't really in the discussion that women might that"
+  },
+  {
+    "t_start": 3015.19,
+    "t_end": 3018.79,
+    "text": "in the discussion that women might that there might be women doing this in an"
+  },
+  {
+    "t_start": 3018.79,
+    "t_end": 3027.37,
+    "text": "and so I I feel the combination of Sputnik and the second second feminist"
+  },
+  {
+    "t_start": 3027.37,
+    "t_end": 3034.42,
+    "text": "Sputnik and the second second feminist movement really paved the way for the"
+  },
+  {
+    "t_start": 3034.42,
+    "t_end": 3036.52,
+    "text": "doors to open for me so and and five years earlier I would have missed that"
+  },
+  {
+    "t_start": 3036.52,
+    "t_end": 3039.73,
+    "text": "years earlier I would have missed that and you say that you were respected by"
+  },
+  {
+    "t_start": 3039.73,
+    "t_end": 3041.89,
+    "text": "and you say that you were respected by your immediate mathematical colleagues"
+  },
+  {
+    "t_start": 3041.89,
+    "t_end": 3047.23,
+    "text": "who actually recognized the brilliant mathematics that you were doing that but"
+  },
+  {
+    "t_start": 3047.23,
+    "t_end": 3050.22,
+    "text": "mathematics that you were doing that but that the broader community was less"
+  },
+  {
+    "t_start": 3050.22,
+    "t_end": 3054.779,
+    "text": "that the broader community was less accepting do I see a parallel here to"
+  },
+  {
+    "t_start": 3054.779,
+    "t_end": 3060.539,
+    "text": "your predecessor most famous one I mean there was treated way before the way"
+  },
+  {
+    "t_start": 3060.539,
+    "t_end": 3064.679,
+    "text": "there was treated way before the way earlier that's nothing change Wow"
+  },
+  {
+    "t_start": 3064.679,
+    "t_end": 3066.809,
+    "text": "earlier that's nothing change Wow something changed but it changed in the"
+  },
+  {
+    "t_start": 3066.809,
+    "t_end": 3073.769,
+    "text": "60s but but still still the wider community not your immediate colleagues"
+  },
+  {
+    "t_start": 3073.769,
+    "t_end": 3076.319,
+    "text": "community not your immediate colleagues were still very skeptical you're you're"
+  },
+  {
+    "t_start": 3076.319,
+    "t_end": 3078.919,
+    "text": "were still very skeptical you're you're saying to being there"
+  },
+  {
+    "t_start": 3078.919,
+    "t_end": 3086.009,
+    "text": "saying to being there yeah I I guess I guess I'm going out on"
+  },
+  {
+    "t_start": 3086.009,
+    "t_end": 3091.169,
+    "text": "a limb now really going out on a limb talking about women and mathematics and"
+  },
+  {
+    "t_start": 3091.169,
+    "t_end": 3098.789,
+    "text": "of course this is some many faceted issue and questions so cultural factors"
+  },
+  {
+    "t_start": 3098.789,
+    "t_end": 3104.669,
+    "text": "prejudices etc etcetera so we are not going to be into that but starting with"
+  },
+  {
+    "t_start": 3104.669,
+    "t_end": 3107.279,
+    "text": "going to be into that but starting with emanated I mean she certainly is one of"
+  },
+  {
+    "t_start": 3107.279,
+    "t_end": 3109.199,
+    "text": "emanated I mean she certainly is one of the great mathematicians of all time I"
+  },
+  {
+    "t_start": 3109.199,
+    "t_end": 3112.109,
+    "text": "the great mathematicians of all time I mean in the 20th century absolutely one"
+  },
+  {
+    "t_start": 3112.109,
+    "t_end": 3117.809,
+    "text": "mean in the 20th century absolutely one of the greatest and she gave a talk at"
+  },
+  {
+    "t_start": 3117.809,
+    "t_end": 3123.749,
+    "text": "mathematicians in Syria 1932 and the next woman that gave at a plenary talk"
+  },
+  {
+    "t_start": 3123.749,
+    "t_end": 3126.419,
+    "text": "next woman that gave at a plenary talk at this meeting were you in 1990 in"
+  },
+  {
+    "t_start": 3126.419,
+    "t_end": 3129.329,
+    "text": "at this meeting were you in 1990 in Kyoto that's great and then we had the"
+  },
+  {
+    "t_start": 3129.329,
+    "t_end": 3131.64,
+    "text": "Kyoto that's great and then we had the Fields Medal first women Fields Medal"
+  },
+  {
+    "t_start": 3131.64,
+    "t_end": 3133.529,
+    "text": "Fields Medal first women Fields Medal was in 2014"
+  },
+  {
+    "t_start": 3133.529,
+    "t_end": 3136.649,
+    "text": "was in 2014 Marian made sacani we want the Fields"
+  },
+  {
+    "t_start": 3136.649,
+    "t_end": 3143.699,
+    "text": "then comes the the thing going out on the limb mathematics is certainly my men"
+  },
+  {
+    "t_start": 3143.699,
+    "t_end": 3147.449,
+    "text": "the limb mathematics is certainly my men dominated I mean for instance when"
+  },
+  {
+    "t_start": 3147.449,
+    "t_end": 3150.539,
+    "text": "dominated I mean for instance when Miriam mr. Carney got the Fields Medal"
+  },
+  {
+    "t_start": 3150.539,
+    "t_end": 3153.839,
+    "text": "Miriam mr. Carney got the Fields Medal she is there were already 60 medals that"
+  },
+  {
+    "t_start": 3153.839,
+    "t_end": 3157.679,
+    "text": "she is there were already 60 medals that had been awarded to men and in case of"
+  },
+  {
+    "t_start": 3157.679,
+    "t_end": 3159.359,
+    "text": "had been awarded to men and in case of course with the oval prize you the first"
+  },
+  {
+    "t_start": 3159.359,
+    "t_end": 3165.689,
+    "text": "course with the oval prize you the first poem 20 that will have got the price and"
+  },
+  {
+    "t_start": 3165.689,
+    "t_end": 3168.769,
+    "text": "now comes this prejudice which I don't share that that we find certain"
+  },
+  {
+    "t_start": 3168.769,
+    "t_end": 3171.509,
+    "text": "share that that we find certain attitudes in mathematical community and"
+  },
+  {
+    "t_start": 3171.509,
+    "t_end": 3173.729,
+    "text": "attitudes in mathematical community and I certainly wanted to respond to that"
+  },
+  {
+    "t_start": 3173.729,
+    "t_end": 3176.819,
+    "text": "I certainly wanted to respond to that thing namely apart from all the social"
+  },
+  {
+    "t_start": 3176.819,
+    "t_end": 3179.819,
+    "text": "thing namely apart from all the social factors and all the prejudices has the"
+  },
+  {
+    "t_start": 3179.819,
+    "t_end": 3185.659,
+    "text": "factors and all the prejudices has the fact that math is so dominated by men"
+  },
+  {
+    "t_start": 3185.659,
+    "t_end": 3187.52,
+    "text": "something to do with men being predisposed"
+  },
+  {
+    "t_start": 3187.52,
+    "t_end": 3192.53,
+    "text": "to mathematics and more generally abstract thinking oh absolutely not I"
+  },
+  {
+    "t_start": 3192.53,
+    "t_end": 3198.17,
+    "text": "abstract thinking oh absolutely not I don't believe that that's that's among"
+  },
+  {
+    "t_start": 3198.17,
+    "t_end": 3202.31,
+    "text": "other things is not even clear what you need to be a good mathematician the more"
+  },
+  {
+    "t_start": 3202.31,
+    "t_end": 3204.5,
+    "text": "need to be a good mathematician the more diverse population you have doing"
+  },
+  {
+    "t_start": 3204.5,
+    "t_end": 3206.3,
+    "text": "diverse population you have doing something like mathematics the better"
+  },
+  {
+    "t_start": 3206.3,
+    "t_end": 3211.33,
+    "text": "robust the more inventive the better it is so I think that that's a completely"
+  },
+  {
+    "t_start": 3211.33,
+    "t_end": 3216.14,
+    "text": "is so I think that that's a completely misguided viewpoint and the fact is is"
+  },
+  {
+    "t_start": 3216.14,
+    "t_end": 3218.29,
+    "text": "misguided viewpoint and the fact is is there were no women mathematicians"
+  },
+  {
+    "t_start": 3218.29,
+    "t_end": 3223.49,
+    "text": "because they couldn't get jobs there were they couldn't study they couldn't"
+  },
+  {
+    "t_start": 3223.49,
+    "t_end": 3229.43,
+    "text": "were they couldn't study they couldn't support them so they couldn't get jobs"
+  },
+  {
+    "t_start": 3229.43,
+    "t_end": 3231.74,
+    "text": "they it was hard that they had a hard time getting respect from all but their"
+  },
+  {
+    "t_start": 3231.74,
+    "t_end": 3237.2,
+    "text": "time getting respect from all but their immediate colleagues because and the"
+  },
+  {
+    "t_start": 3237.2,
+    "t_end": 3244.19,
+    "text": "immediate colleagues because and the other women didn't accept it we even add"
+  },
+  {
+    "t_start": 3244.19,
+    "t_end": 3251.66,
+    "text": "period of years but and that certainly has changed the fact that just changing"
+  },
+  {
+    "t_start": 3251.66,
+    "t_end": 3253.97,
+    "text": "has changed the fact that just changing the laws didn't actually make it change"
+  },
+  {
+    "t_start": 3253.97,
+    "t_end": 3257.51,
+    "text": "the laws didn't actually make it change overnight but there's no question in my"
+  },
+  {
+    "t_start": 3257.51,
+    "t_end": 3261.08,
+    "text": "overnight but there's no question in my mind but that you'll see at least see"
+  },
+  {
+    "t_start": 3261.08,
+    "t_end": 3267.47,
+    "text": "mind but that you'll see at least see things have really improved at least in"
+  },
+  {
+    "t_start": 3267.47,
+    "t_end": 3269.9,
+    "text": "the United States I I don't my understanding is is from from talking to"
+  },
+  {
+    "t_start": 3269.9,
+    "t_end": 3277.13,
+    "text": "understanding is is from from talking to people is that this may that it hasn't"
+  },
+  {
+    "t_start": 3277.13,
+    "t_end": 3283.94,
+    "text": "approved everywhere and it's still true that women in their 50s have a tough"
+  },
+  {
+    "t_start": 3283.94,
+    "t_end": 3289.28,
+    "text": "time but the younger women really are kind of the they seem to have found in"
+  },
+  {
+    "t_start": 3289.28,
+    "t_end": 3293.03,
+    "text": "kind of the they seem to have found in acceptance and an open the community has"
+  },
+  {
+    "t_start": 3293.03,
+    "t_end": 3295.25,
+    "text": "acceptance and an open the community has changed the women are more vit the"
+  },
+  {
+    "t_start": 3295.25,
+    "t_end": 3302.3,
+    "text": "younger women are more visible they're more talkative they're more involved in"
+  },
+  {
+    "t_start": 3302.3,
+    "t_end": 3306.26,
+    "text": "more talkative they're more involved in the community and I like to I like to"
+  },
+  {
+    "t_start": 3306.26,
+    "t_end": 3308.09,
+    "text": "the community and I like to I like to think that things have really changed"
+  },
+  {
+    "t_start": 3308.09,
+    "t_end": 3311.6,
+    "text": "think that things have really changed but people don't realize what it was"
+  },
+  {
+    "t_start": 3311.6,
+    "t_end": 3316.24,
+    "text": "but people don't realize what it was like well in the sixties even so"
+  },
+  {
+    "t_start": 3316.24,
+    "t_end": 3322.43,
+    "text": "so you think really doubt this but it what they say that the window ceiling"
+  },
+  {
+    "t_start": 3322.43,
+    "t_end": 3326.0,
+    "text": "what they say that the window ceiling has now been broken glass ceiling glass"
+  },
+  {
+    "t_start": 3326.0,
+    "t_end": 3332.74,
+    "text": "has now been broken glass ceiling glass ceiling oh I see well I wouldn't say"
+  },
+  {
+    "t_start": 3332.74,
+    "t_end": 3338.81,
+    "text": "it's just a lot better than it was and I also have to say that I really don't for"
+  },
+  {
+    "t_start": 3338.81,
+    "t_end": 3340.52,
+    "text": "also have to say that I really don't for example know what it's like in Norway"
+  },
+  {
+    "t_start": 3340.52,
+    "t_end": 3344.359,
+    "text": "example know what it's like in Norway you voice concerned for minorities yes"
+  },
+  {
+    "t_start": 3344.359,
+    "t_end": 3349.94,
+    "text": "in mathematics as well you voice that accurate when you actually was told that"
+  },
+  {
+    "t_start": 3349.94,
+    "t_end": 3352.28,
+    "text": "accurate when you actually was told that remember to get the price is that"
+  },
+  {
+    "t_start": 3352.28,
+    "t_end": 3354.14,
+    "text": "remember to get the price is that something that you have been concerned"
+  },
+  {
+    "t_start": 3354.14,
+    "t_end": 3361.19,
+    "text": "something that you have been concerned about for a long time is that related to"
+  },
+  {
+    "t_start": 3361.19,
+    "t_end": 3363.2,
+    "text": "other initiatives that well every actually quite a few people are"
+  },
+  {
+    "t_start": 3363.2,
+    "t_end": 3366.859,
+    "text": "actually quite a few people are concerned about it I mean the the fact"
+  },
+  {
+    "t_start": 3366.859,
+    "t_end": 3369.98,
+    "text": "concerned about it I mean the the fact is is that perhaps not when I was"
+  },
+  {
+    "t_start": 3369.98,
+    "t_end": 3375.41,
+    "text": "younger but when I was by the time I got up into the 90s and started trying to"
+  },
+  {
+    "t_start": 3375.41,
+    "t_end": 3378.56,
+    "text": "up into the 90s and started trying to help women one became aware of the"
+  },
+  {
+    "t_start": 3378.56,
+    "t_end": 3381.19,
+    "text": "help women one became aware of the difficulties that underrepresented"
+  },
+  {
+    "t_start": 3381.19,
+    "t_end": 3389.06,
+    "text": "minority students have III also knew very well Efram Armendariz who is our"
+  },
+  {
+    "t_start": 3389.06,
+    "t_end": 3399.2,
+    "text": "chairman at Texas for many years who was Hispanic and so I and and we we all many"
+  },
+  {
+    "t_start": 3399.2,
+    "t_end": 3401.24,
+    "text": "Hispanic and so I and and we we all many people are concerned about the"
+  },
+  {
+    "t_start": 3401.24,
+    "t_end": 3402.89,
+    "text": "people are concerned about the difficulties that minority"
+  },
+  {
+    "t_start": 3402.89,
+    "t_end": 3407.93,
+    "text": "mathematicians have the question is what you can do about it because and not only"
+  },
+  {
+    "t_start": 3407.93,
+    "t_end": 3410.329,
+    "text": "you can do about it because and not only that not everybody is concerned but I"
+  },
+  {
+    "t_start": 3410.329,
+    "t_end": 3415.49,
+    "text": "don't I don't want to say it's not a concern that the problem is is that one"
+  },
+  {
+    "t_start": 3415.49,
+    "t_end": 3417.079,
+    "text": "concern that the problem is is that one doesn't know what to do about it"
+  },
+  {
+    "t_start": 3417.079,
+    "t_end": 3419.81,
+    "text": "doesn't know what to do about it but but you've had initiatives like the"
+  },
+  {
+    "t_start": 3419.81,
+    "t_end": 3422.21,
+    "text": "but but you've had initiatives like the Park City and mathematics Institute and"
+  },
+  {
+    "t_start": 3422.21,
+    "t_end": 3426.589,
+    "text": "Park City and mathematics Institute and but well I mean that story of Park see"
+  },
+  {
+    "t_start": 3426.589,
+    "t_end": 3429.859,
+    "text": "that's how I got involved with the women's program was is it that you know"
+  },
+  {
+    "t_start": 3429.859,
+    "t_end": 3433.25,
+    "text": "women's program was is it that you know when I found it I thought this is great"
+  },
+  {
+    "t_start": 3433.25,
+    "t_end": 3435.44,
+    "text": "you know I see other women mathematicians say conferences will have"
+  },
+  {
+    "t_start": 3435.44,
+    "t_end": 3437.78,
+    "text": "mathematicians say conferences will have Park City and they'll be they'll be a"
+  },
+  {
+    "t_start": 3437.78,
+    "t_end": 3440.66,
+    "text": "Park City and they'll be they'll be a handful of woman and they'll all get"
+  },
+  {
+    "t_start": 3440.66,
+    "t_end": 3444.77,
+    "text": "what had the problem that happened was is it there were there weren't even a"
+  },
+  {
+    "t_start": 3444.77,
+    "t_end": 3448.849,
+    "text": "is it there were there weren't even a handful of women that showed up it was"
+  },
+  {
+    "t_start": 3448.849,
+    "t_end": 3454.609,
+    "text": "so predominantly male and so that that's when I became"
+  },
+  {
+    "t_start": 3454.609,
+    "t_end": 3458.329,
+    "text": "male and so that that's when I became involved with women and basically I got"
+  },
+  {
+    "t_start": 3458.329,
+    "t_end": 3459.95,
+    "text": "involved with women and basically I got involved because the Institute for"
+  },
+  {
+    "t_start": 3459.95,
+    "t_end": 3463.999,
+    "text": "involved because the Institute for Advanced Study gave me money secretarial"
+  },
+  {
+    "t_start": 3463.999,
+    "t_end": 3467.089,
+    "text": "Advanced Study gave me money secretarial support and the prestige to actually try"
+  },
+  {
+    "t_start": 3467.089,
+    "t_end": 3474.829,
+    "text": "support and the prestige to actually try to start a program and and I had Julian"
+  },
+  {
+    "t_start": 3474.829,
+    "t_end": 3482.359,
+    "text": "do math what we thought we could do mass at the same time we were actually doing"
+  },
+  {
+    "t_start": 3482.359,
+    "t_end": 3488.12,
+    "text": "this organization and we did manage to do a little bit maths right through this"
+  },
+  {
+    "t_start": 3488.12,
+    "t_end": 3488.9,
+    "text": "but so you know when I see an opportunity"
+  },
+  {
+    "t_start": 3488.9,
+    "t_end": 3494.45,
+    "text": "the I'm actually not much one for a theory but when I see an opportunity to"
+  },
+  {
+    "t_start": 3494.45,
+    "t_end": 3496.609,
+    "text": "theory but when I see an opportunity to do something then I'll do something that"
+  },
+  {
+    "t_start": 3496.609,
+    "t_end": 3502.22,
+    "text": "do something then I'll do something that I'll try to do something when I learned"
+  },
+  {
+    "t_start": 3502.22,
+    "t_end": 3506.63,
+    "text": "to got the prize I was of course amazed and overwhelmed and so forth it but the"
+  },
+  {
+    "t_start": 3506.63,
+    "t_end": 3508.249,
+    "text": "and overwhelmed and so forth it but the very next day before it was even"
+  },
+  {
+    "t_start": 3508.249,
+    "t_end": 3510.229,
+    "text": "very next day before it was even publicly announced somebody said what"
+  },
+  {
+    "t_start": 3510.229,
+    "t_end": 3514.22,
+    "text": "are you going to do with the money and I said money I haven't thought about that"
+  },
+  {
+    "t_start": 3514.22,
+    "t_end": 3519.95,
+    "text": "said money I haven't thought about that yet but I thought about I realized what"
+  },
+  {
+    "t_start": 3519.95,
+    "t_end": 3526.099,
+    "text": "thing was is it I want to do something for underrepresented minorities and so I"
+  },
+  {
+    "t_start": 3526.099,
+    "t_end": 3530.269,
+    "text": "I thought about it and I also said but I don't want I want to do something that's"
+  },
+  {
+    "t_start": 3530.269,
+    "t_end": 3534.2,
+    "text": "don't want I want to do something that's going to work I don't want to just go"
+  },
+  {
+    "t_start": 3534.2,
+    "t_end": 3539.69,
+    "text": "out there and you know do anything and so I I called up my friend Rhonda Hughes"
+  },
+  {
+    "t_start": 3539.69,
+    "t_end": 3543.589,
+    "text": "so I I called up my friend Rhonda Hughes who I knew from the women's program and"
+  },
+  {
+    "t_start": 3543.589,
+    "t_end": 3545.66,
+    "text": "who I knew from the women's program and I know she's been running an edge"
+  },
+  {
+    "t_start": 3545.66,
+    "t_end": 3549.62,
+    "text": "I know she's been running an edge program she and sylva Sylvia Bozeman"
+  },
+  {
+    "t_start": 3549.62,
+    "t_end": 3554.479,
+    "text": "from Spelman College have run a program for beginning graduate students that's"
+  },
+  {
+    "t_start": 3554.479,
+    "t_end": 3556.789,
+    "text": "for beginning graduate students that's half way half minority women have"
+  },
+  {
+    "t_start": 3556.789,
+    "t_end": 3562.16,
+    "text": "offered women but half minorities and so and then she has excellent ties with the"
+  },
+  {
+    "t_start": 3562.16,
+    "t_end": 3565.009,
+    "text": "and then she has excellent ties with the minority mass community and so I called"
+  },
+  {
+    "t_start": 3565.009,
+    "t_end": 3571.579,
+    "text": "her up and talked about her and so I made the decision and I'm going to give"
+  },
+  {
+    "t_start": 3571.579,
+    "t_end": 3577.4,
+    "text": "a third of that will go to the Institute for Advanced Study and two-thirds of"
+  },
+  {
+    "t_start": 3577.4,
+    "t_end": 3582.23,
+    "text": "for Advanced Study and two-thirds of that half will go to the edge foundation"
+  },
+  {
+    "t_start": 3582.23,
+    "t_end": 3588.109,
+    "text": "fellowships to minority mathematicians the Institute for Advanced Study I would"
+  },
+  {
+    "t_start": 3588.109,
+    "t_end": 3591.29,
+    "text": "the Institute for Advanced Study I would like to say has already matched the"
+  },
+  {
+    "t_start": 3591.29,
+    "t_end": 3593.09,
+    "text": "like to say has already matched the money I gave them for this purpose"
+  },
+  {
+    "t_start": 3593.09,
+    "t_end": 3596.33,
+    "text": "money I gave them for this purpose that's very nice very nice so we end"
+  },
+  {
+    "t_start": 3596.33,
+    "t_end": 3598.66,
+    "text": "that's very nice very nice so we end this by asking the question what"
+  },
+  {
+    "t_start": 3598.66,
+    "t_end": 3601.4,
+    "text": "this by asking the question what interests hobbies do you have outside of"
+  },
+  {
+    "t_start": 3601.4,
+    "t_end": 3607.22,
+    "text": "interests hobbies do you have outside of mathematics well walking in the"
+  },
+  {
+    "t_start": 3607.22,
+    "t_end": 3613.76,
+    "text": "mountains would go on the top I still paint a little or I started to paint a"
+  },
+  {
+    "t_start": 3613.76,
+    "t_end": 3619.25,
+    "text": "little bit actually I was not so well for a while and I actually did I started"
+  },
+  {
+    "t_start": 3619.25,
+    "t_end": 3623.81,
+    "text": "for a while and I actually did I started playing the recorder again and I started"
+  },
+  {
+    "t_start": 3623.81,
+    "t_end": 3631.43,
+    "text": "I've started doing math again and so I find that at this age I need to keep up"
+  },
+  {
+    "t_start": 3631.43,
+    "t_end": 3633.74,
+    "text": "find that at this age I need to keep up my exercise program and do mathematics"
+  },
+  {
+    "t_start": 3633.74,
+    "t_end": 3641.84,
+    "text": "and keep up with my friends and I find that life is already very full ok thank"
+  },
+  {
+    "t_start": 3641.84,
+    "t_end": 3643.33,
+    "text": "that life is already very full ok thank you very much for a very interesting"
+  },
+  {
+    "t_start": 3643.33,
+    "t_end": 3648.92,
+    "text": "you very much for a very interesting into you and me thank you on behalf of"
+  },
+  {
+    "t_start": 3648.92,
+    "t_end": 3651.23,
+    "text": "Bjorn and also on behalf of the Norwegian mass society thank you very"
+  },
+  {
+    "t_start": 3651.23,
+    "t_end": 3660.38,
+    "text": "much it's a pleasure thank you very much for the price I mean I'm deeply honored"
+  }
+]

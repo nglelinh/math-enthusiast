@@ -1,0 +1,37 @@
+{
+  "slug": "number-theory-cryptography",
+  "videos": [
+    {
+      "id": "M7kEpw1tn50",
+      "title": "",
+      "has_transcript": true,
+      "chars": 7935,
+      "units": 7,
+      "url": "https://www.youtube.com/watch?v=M7kEpw1tn50"
+    },
+    {
+      "id": "YQw124CtvO0",
+      "title": "RSA-129 - Numberphile",
+      "has_transcript": true,
+      "chars": 10698,
+      "units": 7,
+      "url": "https://www.youtube.com/watch?v=YQw124CtvO0"
+    },
+    {
+      "id": "GSIDS_lvRv4",
+      "title": "Public Key Cryptography - Computerphile",
+      "has_transcript": true,
+      "chars": 5594,
+      "units": 4,
+      "url": "https://www.youtube.com/watch?v=GSIDS_lvRv4"
+    },
+    {
+      "id": "NmM9HA2MQGI",
+      "title": "",
+      "has_transcript": true,
+      "chars": 9107,
+      "units": 6,
+      "url": "https://www.youtube.com/watch?v=NmM9HA2MQGI"
+    }
+  ]
+}

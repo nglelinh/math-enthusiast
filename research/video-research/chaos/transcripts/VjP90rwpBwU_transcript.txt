@@ -1,0 +1,26 @@
+Renne found a set of three equations a simplified version of equations used to
+simplified version of equations used to model convection but only three
+model convection but only three variables that change over time let's
+variables that change over time let's try graphing them in three dimensions on
+try graphing them in three dimensions on a modern computer the location of the
+a modern computer the location of the first point is arbitrary with each point
+first point is arbitrary with each point after that the computer steps forward in
+after that the computer steps forward in time by calculating the position of the
+time by calculating the position of the next point based on the position of the
+direction at random and it never arrives at the same point twice if it did that
+would be the beginning of a repeating pattern this type of system is now known
+particular one is known as the Lorenz attractor now let's try drawing 100
+attractor now let's try drawing 100 points at random locations and applying
+points at random locations and applying the equations to each of them at first
+it looks pretty random but soon a familiar form emerges
+familiar form emerges [Music]
+the trajectories that begin on the edges seem to speed off in random directions
+seem to speed off in random directions but all those that began within a
+but all those that began within a certain space end up in the attractor it
+certain space end up in the attractor it might seem that the differences in their
+might seem that the differences in their starting positions no longer matter but
+starting positions no longer matter but once they reach the attractor their
+once they reach the attractor their trajectories diverge each following its
+trajectories diverge each following its own path indefinitely in never crossing
+so the small differences in their start positions lead to increasingly different
+positions lead to increasingly different futures

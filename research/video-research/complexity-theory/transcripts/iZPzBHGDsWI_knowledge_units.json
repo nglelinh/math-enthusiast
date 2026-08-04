@@ -1,0 +1,394 @@
+[
+  {
+    "id": "ku_video_iZPzBHGDsWI_27",
+    "t_start": 27.5,
+    "t_end": 118.5,
+    "type": "overview",
+    "summary": "welcome everyone um back to um theory of computation we are now at lecture number 15 and if this is an important if this is an important lecture um well all of our lectures are this is i'm going to introduce one of the major topics one of the major topics that we're going to see going on in various forms through the rest of the semester which is the notion rest of the semester which is the notion of a complete problem in this case it's going to be an np complete problem and i think some of you have probably heard of that concept already maybe you've of that concept already maybe you've seen…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_120",
+    "t_start": 120.6,
+    "t_end": 213.7,
+    "type": "overview",
+    "summary": "let's [Music] what it means for one problem to be polynomial time reducible to another polynomial time reducible to another this follows our pattern of this follows our pattern of reducibility concepts where um if a problem is reducible to another problem and that other problem is solvable so if a problem is reducible to an easy problem that problem becomes an easy problem that problem becomes easy too easy too um and to be looking at here are the mapping reductions but now where the reductions reductions but now where the reductions are computable in polynomial time are computable in polyn…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_213",
+    "t_start": 213.7,
+    "t_end": 307.9,
+    "type": "overview",
+    "summary": "that the input is a member of that language language um big question of the field which remains an unsolved problem an unsolved problem is whether p equals np it's called the p and we don't know the answer so whether there are problems that are in np um solvable and nondeterministic polynomial time typically these are polynomial time typically these are problems that involve searching whether problems that involve searching whether they can be solved in polynomial time typically without the searching um and were equal to np then you could always eliminate searching and a p were different fr…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_307",
+    "t_start": 307.9,
+    "t_end": 399.4,
+    "type": "overview",
+    "summary": "is in p then p equals np so in a sense sat is kind of you know the sat is kind of you know the uh np problem in the sense that all of the difficulty of any np problem is is embedded within sat so if sat becomes easy then all of the other np problems easy then all of the other np problems become easy um and we'll eventually become easy um and we'll eventually prove that but right now we're kind of setting up the um terminology to allow us to do that um so uh anyway we'll we'll we'll get there um um so the the the key ingredient for proving this kook 11 theorem is polynomial time what we're g…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_399",
+    "t_start": 399.4,
+    "t_end": 489.7,
+    "type": "overview",
+    "summary": "specific polynomial time reductions today um today um and we'll start out with a reduction between two problems we have not yet seen one of two problems we have not yet seen one of them called threesat and the other one them called threesat and the other one called clique so on this slide we're called clique so on this slide we're going to introduce those two problems so remembering again about boolean formulas we're going to consider a special class of boolean formulas a restricted form of boolean form formulas called conjunctive boolean form formulas called conjunctive normal form and so …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_489",
+    "t_start": 489.7,
+    "t_end": 580.2,
+    "type": "overview",
+    "summary": "pointy intersection symbol so maybe that's if you haven't seen those seen that's if you haven't seen those seen that connection before maybe it's that connection before maybe it's interesting to observe that interesting to observe that but anyway um but anyway um what makes this uh formula be in conjunctive normal form well the conjunctive normal form well the conjunctive normal form formulas formulas are organized in a certain way they have these groups called clauses within the parentheses that are added together that are connected by these and connected by these and and operations um and…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_580",
+    "t_start": 580.2,
+    "t_end": 670.6,
+    "type": "overview",
+    "summary": "clauses here each of the clauses has an or of of liter of literals in it or of of liter of literals in it now conjunctive normal form uh formula i guess they're both c and uh formula i guess they're both c and f's but uh it's conjunctive normal form formula is one that's written as an and of these okay so we take these clauses which themselves are ors we and them together themselves are ors we and them together we get a formula that's conjunctive we get a formula that's conjunctive normal form conjunctive stands for and i and then a three cnf is a cnf where each clause has exactly three lit…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_671",
+    "t_start": 671.5,
+    "t_end": 764.6,
+    "type": "overview",
+    "summary": "imagine that this might be an easier problem to solve but in general it turns problem to solve but in general it turns out not to be as we will see this is just as solving this special case is just as har as hard as solving the general case for satisfiability um now let's turn to the second of these two languages up in the headline uh the clique problem um so for that we gonna turn to graph theory so we're going to consider graphs you know points and lines connecting them and we will say that a clique and we will say that a clique in a graph is a collection of nodes collection of the points…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_764",
+    "t_start": 764.6,
+    "t_end": 856.6,
+    "type": "overview",
+    "summary": "satisfiability problem is a decidable problem you can just try every possible and see whether it constitutes a clique but that's in general going to be an but that's in general going to be an exponential algorithm if you have you exponential algorithm if you have you know you know k is a large value like it might be half the size of the graph you might be half the size of the graph you might be looking for a very large clique whether uh any one of them is a clique it's also going to be and i hope you get it's also going to be and i hope you get this intuition this is a problem that's this i…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_856",
+    "t_start": 856.6,
+    "t_end": 949.7,
+    "type": "overview",
+    "summary": "but we do give that uh we will give that reduction and um it then that implies that if you can find a way of solving the clique can find a way of solving the clique problem quickly that'll give you a way problem quickly that'll give you a way of solving the the three set problem of solving the the three set problem quickly um and that's going to be the whole point of this um point of this um so we're going to show this over the slide or two um this this polynomial time reduction and this is something i'm but this is one where you it's really important to try to get a sense of how important …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_949",
+    "t_start": 949.7,
+    "t_end": 1046.3,
+    "type": "overview",
+    "summary": "first of all yes the answer is you can always convert a boolean formula into an always convert a boolean formula into an equivalent one in ins into in cnf equivalent one in ins into in cnf but in general that might make the formula exponentially larger exponentially larger [Music] [Music] so just the mere fact that you can convert formulas into into conjunctive normal formulas into into conjunctive normal form doesn't mean form doesn't mean that solving um that solving um that you know that solving uh conjunctive normal form uh formulas for testing satisfiability of the of the cnf testing s…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_1046",
+    "t_start": 1046.3,
+    "t_end": 1137.1,
+    "type": "overview",
+    "summary": "of course then depending upon what you're looking for you might be able to find something smaller um this is a this is a i guess a good basic question question why is clique in np because isn't doesn't verifying that you have a clique require going through all have a clique require going through all the possible cliques the possible cliques once i means verifying means you can verify something if you're given a certificate something if you're given a certificate in the case of a clique in the case of a clique the click problem the certificate is the the click problem the certificate is the …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_1137",
+    "t_start": 1137.1,
+    "t_end": 1230.5,
+    "type": "overview",
+    "summary": "three sat to click okay okay here we go so i'm just going to give a reduction that's that's that's what the definition that's that's that's what the definition means i'm going to give a way of converting formulas formulas to to pairs where the formula is going to be solid satisfiable if and only if the graph has satisfiable if and only if the graph has a k click okay so let's kind of a little bit do it by example by example and so here's going to be a formula now it's in three cnf that's what i need you know in three cnf that's what i need you know in order to be doing this reduction i'm in…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_1230",
+    "t_start": 1230.5,
+    "t_end": 1320.7,
+    "type": "overview",
+    "summary": "and to make a clause true you have to make at least one of the so it's another way of thinking about uh satisfying this formula uh satisfying this formula you need satisfying these and a satisfying assignment makes at least one true literal in every it's really important to think about it that way because that's what's going to be um [Music] kind of the basis for doing this reduction and all of the reductions it's kind of what makes three set easy to think about in terms of its satisfiability if you had a sort of a general um satisfiability problem and you had a satisfiability problem and y…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_1320",
+    "t_start": 1320.7,
+    "t_end": 1411.8,
+    "type": "overview",
+    "summary": "so right now my job is to do this reduction is to exhibit that graph okay so i'm going to do that in kind of two steps i'll first i'm going to tell two steps i'll first i'm going to tell you what the nodes of the graph are you what the nodes of the graph are then then i'll tell you what the edges of that graph finally i'll tell you what the number k that's the way this polynomial time reduction is going to work reduction is going to work and we have to also observe at the very end that the reduction that i'm given giving procedure for building this graph can be done in polynomial time but t…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_1411",
+    "t_start": 1411.8,
+    "t_end": 1506.3,
+    "type": "overview",
+    "summary": "the forbidden edges are what what edges i'm going to and then the ones that i will include are going to be all the okay so what are going to be the forbidden edges first of all um forbidden edges first of all um the the forbidden edges are going to be of two types one is the edges between nodes is the edges between nodes that come from literals in the same clause so i would just call that no edges within a clause okay so for example these three nodes okay so for example these three nodes will not be connected to one another and will not be connected to one another and i'm going to indicate …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_1506",
+    "t_start": 1506.3,
+    "t_end": 1597.6,
+    "type": "overview",
+    "summary": "for b a bar to a or for example from this c bar to c this c bar to c forbidden okay so imagine you're going to write down all of those forbidden edges and down all of those forbidden edges and then once you've done that then once you've done that uh those are all of the the forbidden edges and then after and then after [Music] you're going to be putting in all the other edges possible so for example as a let me just uh gray those out so they don't interfere gray those out so they don't interfere with the picture b from a to a to d um there's going to be an edge um um there's going to be an …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_1597",
+    "t_start": 1597.6,
+    "t_end": 1688.1,
+    "type": "overview",
+    "summary": "and i'm going to claim that this graph here that i just described will have a k clique will have a k clique k is the number of clauses fee was satisfiable it's kind of kind of cool you know um if it's kind of kind of cool you know um if he is satisfiable then there will be a he is satisfiable then there will be a cake leak here and if he was not satisfiable okay clean so we have to we're gonna prove that as so we have to we're gonna prove that as a claim on the next slide a claim on the next slide okay so k is the number of clauses all right um construction so i've done with the constructio…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_1688",
+    "t_start": 1688.1,
+    "t_end": 1781.4,
+    "type": "overview",
+    "summary": "of thing that you're going to want to do when you're exhibiting a you know one of these reductions which is you're going to have an which is you're going to have an opportunity to do that um and we'll do opportunity to do that um and we'll do do that too do that too in our examples in our examples uh uh okay uh what i'm what i want to show is that is that uh if fee is satisfiable so let's prove the forward direction if p is satisfiable forward direction if p is satisfiable then g has a k click okay so first of all if fee is satisfiable that means it has a satisfiable that means it has a sat…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_1781",
+    "t_start": 1781.4,
+    "t_end": 1873.3,
+    "type": "overview",
+    "summary": "that satisfying assignment and remember that in any satisfying assignment uh to a formula in cnf uh to a formula in cnf that makes at least one literal true in let's just pick one of those there might be several clauses which have multiple be several clauses which have multiple true literals in that case just pick one of them arbitrarily okay so i don't know what the i don't have this sort of indicated on this have this sort of indicated on this diagram here but imagine you know maybe diagram here but imagine you know maybe in the very first clause a was true in in the very first clause a w…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_1873",
+    "t_start": 1873.3,
+    "t_end": 1966.5,
+    "type": "overview",
+    "summary": "i'm picking one node per click i already said k is the number of cliques so i'm said k is the number of cliques so i'm getting exactly ka nodes so i have at getting exactly ka nodes so i have at least the right number of nodes but how do i know they're all connected to one another those nodes uh connected to one another those nodes uh that i just picked well they're all connected to each other because i'm going to say well because because i'm going to say well because there were no forbidden edges among them there were no forbidden edges among them and remember that we put in all possible a…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_1966",
+    "t_start": 1966.5,
+    "t_end": 2059.4,
+    "type": "overview",
+    "summary": "those are all of the true letters they were all true literals in clauses it's not possible that a was true in this clause and a bar is true in true in this clause and a bar is true in that clause because if a is true here a bar has got to be false it can't be the true literal in this clause true literal in this clause so i cannot have any inconsistent any so i cannot have any inconsistent any inconsistent nodes inconsistent nodes appearing among the nodes of my clique and so they're not in the same clause they're not inconsistent so the edge has to be there and that's going to be true to be…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_2061",
+    "t_start": 2061.8,
+    "t_end": 2153.3,
+    "type": "overview",
+    "summary": "it can't have two nodes in the same clause or zero nodes in in a clause first of all it can't have two nodes in the same clause why well because those the same clause why well because those nodes are never connected to one another so that they cannot be both in the same clique because all the nodes in a clique clique because all the nodes in a clique are connected to one another are connected to one another um by construction by the way we um by construction by the way we construct a g nodes from the same clause are not connected so they cannot appear in a connected so they cannot appear in…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_2153",
+    "t_start": 2153.3,
+    "t_end": 2244.4,
+    "type": "overview",
+    "summary": "um or setting um you know if the literal was a bar then setting a to be false because you want a bar to be true you want to set the literals to be well now we're setting um there's one note in each clause we're setting one note in each clause we're setting one literal uh the corresponding literal literal uh the corresponding literal true so that's going to set one true so that means it's going to be satisfying there's one thing that one satisfying there's one thing that one has to really to be careful here to double check to make sure that we're doing this consistently sure that we're doing…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_2244",
+    "t_start": 2244.4,
+    "t_end": 2338.8,
+    "type": "overview",
+    "summary": "and it tells you also that if i could solve click quickly then i can stop threesat quickly and this is the whole point and this is the whole point because i can convert now clique because i can convert now clique problems to three sat problems problems to three sat problems no no i couldn't i'm sorry i got backwards convert three set problems the clique easily then i can solve three set easily right i just showed a way of converting right i just showed a way of converting these formulas to graphs so if that's so these formulas to graphs so if that's so that says if i can solve the graphs ea…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_2340",
+    "t_start": 2340.9,
+    "t_end": 2430.9,
+    "type": "overview",
+    "summary": "truth is losing out unfortunately all right oh it's really close but still all right oh it's really close but still okay okay uh okay almost done seconds are we done here okay that's it uh ending polling truth is thank god thank god um yeah it works for any size clause we didn't use the fact that it's a three c didn't use the fact that it's a three c and f it could have been any number here and f it could have been any number here uh so it's well we've got a i guess it's a plural plurality here though that not a plural plurality here though that not a majority um no we didn't where did we u…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_2430",
+    "t_start": 2430.9,
+    "t_end": 2524.0,
+    "type": "overview",
+    "summary": "this whole argument is going to still work so please check that make sure you work so please check that make sure you understand what's going on because i can understand what's going on because i can see that a good chunk of you see that a good chunk of you have not got this right have not got this right um uh so i got a good question here uh what if it's only just one big clause so it's if it's only just one big clause so it's like the whole formula is just one big war so what does happen in that case good question so in that case um so the you know suppose has one big clause with a hundre…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_2530",
+    "t_start": 2530.5,
+    "t_end": 2630.6,
+    "type": "overview",
+    "summary": "i think we're actually pretty near the break also we'll just see break also we'll just see yeah um yeah um so why don't i um so i i think i'm gonna start start the clock going down for our um our coffee clock going down for our um our coffee break and um and i will take some of these questions i'll try to answer some of these questions oops um try to answer some of these questions afterward uh all right good all right so i got a question about making sure why nodes don't have making sure why nodes don't have inconsistent labels if i understand the inconsistent labels if i understand the que…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_2632",
+    "t_start": 2632.7,
+    "t_end": 2725.9,
+    "type": "overview",
+    "summary": "monomial time reducible to clique but not for the reason that any boolean not for the reason that any boolean formula can be converted to c and f formula can be converted to c and f because because that conversion is going to be an exponential conversion in general the conversion to c and f so you have to be careful about what we mean by converting a formula to cnf mean by converting a formula to cnf um uh so also getting questions what happens in the case of one set well we didn't really talk about one set uh suppose or i guess so the question is suppose there's only a single literal per c…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_2725",
+    "t_start": 2725.9,
+    "t_end": 2818.0,
+    "type": "overview",
+    "summary": "never have inconsistent literals um and that's the only case when you would not have an edge because you're not the forbidden is the forbidden condition won't happen because you don't have more than one uh node per per clause every than one uh node per per clause every clause is going to have just a single it really comes down to whether or not you have an inconsistently labeled um you have an inconsistently labeled um inconsistent clauses inconsistent clauses i i didn't explain that super well but the argument still works there you should check it for yourself should check it for yourself …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_2817",
+    "t_start": 2818.0,
+    "t_end": 2909.5,
+    "type": "overview",
+    "summary": "you only have k clauses so the answer is no you cannot have a so the answer is no you cannot have a bigger a bigger than a k click it's just not going to happen does each clause need to have the same number of literals i don't see why number of literals i don't see why um so question is why are we worrying about threesat um since it didn't seem to matter here there are other examples where it does there are other examples where it does matter i i i'm actually not sure if matter i i i'm actually not sure if we'll see one or not but um there there are cases where it does matter um let me just…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_2909",
+    "t_start": 2909.5,
+    "t_end": 2999.8,
+    "type": "overview",
+    "summary": "it's polynomial in the representation of of the input which is if you want to of the input which is if you want to think about it in terms of bits that's think about it in terms of bits that's fine or whatever it's not going to fine or whatever it's not going to matter if you use some larger alphabet matter if you use some larger alphabet but the number of symbols you need you but the number of symbols you need you know in your fixed size alphabet the know in your fixed size alphabet the number of symbols you need to write down number of symbols you need to write down that input in whatever…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_2999",
+    "t_start": 2999.8,
+    "t_end": 3090.9,
+    "type": "overview",
+    "summary": "to that language to that np complete language in order for it to be np okay so simple picture has to be in nnp and everything in np reduces to it and so that's kind of the magical property that we claimed that that sat property that we claimed that that sat has sat for for one thing is obviously in np and the cook 11 theorem shows or will show everything in npe is reducible to sat so that's going to be our first example of that's going to be our first example of an np complete problem an np complete problem um uh and we're going to get what we claimed also for sat that if sat or any claimed…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_3090",
+    "t_start": 3090.9,
+    "t_end": 3184.9,
+    "type": "overview",
+    "summary": "that we have uh sat as empty complete okay so we're gonna we're gonna be using some of the things that were proving next lecture uh just in the terminology that we're going to be talking today okay so here's the picture here's the class np and everything in np sat itself is a member of np but i didn't want to show it that way because didn't want to show it that way because it makes the picture kind of hard to uh hard to uh hard to display just from the perspective of the reduction everything in np is polynomial reduction everything in np is polynomial time reducible to sad we'll show that t…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_3184",
+    "t_start": 3184.9,
+    "t_end": 3276.5,
+    "type": "overview",
+    "summary": "combination is going to be polynomial so now we know that three sat is going to we can reduce anything in np to stat and then to three set and then we get a reduction directly to three sat by composing those two reductions and then composing those two reductions and then furthermore at the clique so now we furthermore at the clique so now we uh have several np complete problems and uh have several np complete problems and moving beyond that we have the hand path problem which we are going to talk about next and we'll are going to talk about next and we'll show another show another reduction…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_3276",
+    "t_start": 3276.5,
+    "t_end": 3368.3,
+    "type": "overview",
+    "summary": "and this is going to get a little bit at the uh some of the chat questions um the uh some of the chat questions um first of all if you're faced with some copy new computational problem you've got some computational problem you've got some robotics problem um that you want to solve in your thesis and you need to some algorithm about move in a certain such a way and involve searching you know possibly searching through a space of different kinds of motions and you want to know you know i need a either i'd like to have a i like to find a polynomial algorithm to solve to find a polynomial algor…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_3368",
+    "t_start": 3368.3,
+    "t_end": 3462.2,
+    "type": "overview",
+    "summary": "working on trying to find a polynomial algorithm for it because if you do algorithm for it because if you do you know you don't have to worry about you know you don't have to worry about robotics anymore you're going to you robotics anymore you're going to you know become famous as a complexity know become famous as a complexity theory person um so i wouldn't worry about so if you show problems np complete you can pretty much problems np complete you can pretty much assume it's almost certainly not in p um assume it's almost certainly not in p um now there's another reason related to now th…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_3462",
+    "t_start": 3462.2,
+    "t_end": 3554.5,
+    "type": "overview",
+    "summary": "in p it was the wrong problem to pick even though p might be different from np even though p might be different from np but what np completeness guarantees is that if you work on a problem which is np-complete you could you can't pick the np-complete you could you can't pick the wrong problem because if any problem is wrong problem because if any problem is in np and not in p an np complete in np and not in p an np complete problem is going to be an example of right because if the np complete problem is in p everything in np is in p so if np is different from p you know the complete problem…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_3554",
+    "t_start": 3554.5,
+    "t_end": 3645.0,
+    "type": "overview",
+    "summary": "yes this is a lot like eight atm why well because for one thing we showed in a homework problem a homework problem that all um touring recognizable languages are reducible to atm mapping reducible to reducible to atm mapping reducible to atm so that's a little bit like the that we have for satisfiability um because all np problems are going to um because all np problems are going to be reducible to sad be reducible to sad um and the other thing too is that once we start once we uh we started we want to show other problems are undecidable we reduced atm problems are undecidable we reduced at…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_3645",
+    "t_start": 3645.0,
+    "t_end": 3737.7,
+    "type": "overview",
+    "summary": "see later that diagonalization is not going to work to prove sat going to work to prove sat outside of p outside of p and besides that we don't really have any good methods good methods um um so uh anyway uh let's move on uh let's move on why is etm less analogous i know because atm was the first problem we showed undecidable and sad is kind of we showed undecidable and sad is kind of the first problem that we're going to be the first problem that we're going to be showing np complete showing np complete i guess that would be my answer okay let's continue so let's show now that handpath is …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_3739",
+    "t_start": 3739.8,
+    "t_end": 3830.5,
+    "type": "overview",
+    "summary": "okay these are going to be substructures of either you know the graph in this case that you're that you're building um that you're that you're building um we'll see what that means so let's take a formula here and uh let's again try to imagine how we would reduce that to the hand path problem so the reduction would produce a graph no it would produce a hand path instance so a g s and t want to know is instance so a g s and t want to know is there a hamiltonian path from s to t in and this is going to be not the whole graph but this is going to be a substructure in that graph the next slide …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_3830",
+    "t_start": 3830.5,
+    "t_end": 3920.8,
+    "type": "overview",
+    "summary": "trying to get from this node to that node imagine now you're trying to build a hamiltonian path because this is going to be a part of that graph g that i'm constructing that i'm constructing now remember for them there to be a hamiltonian graph that means you have to go through every in the graph so if i want to get from s to t the only way i'm going to be able to to go to hit these go to hit these horizontal nodes here horizontal nodes here is is um by picking them up uh uh as i go from s to t so the only possibility is if you think about it is it would be for the about it is it would be f…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_3920",
+    "t_start": 3920.8,
+    "t_end": 4012.3,
+    "type": "overview",
+    "summary": "dual going to the right then going out to the left and then down to the bottom to the left and then down to the bottom i'm going to call that i'm going to call that a zigzig and uh with a little kind of little diagram here just to summarize what it diagram here just to summarize what it means and this is the this is the classic thing for a variable gadget thing for a variable gadget because it's a structure that when you're trying to think about how the object that you're asking whether it exists or not the hamiltonian path how it relates to that hamiltonian path how it relates to that obje…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_4012",
+    "t_start": 4012.3,
+    "t_end": 4104.4,
+    "type": "overview",
+    "summary": "is going to correspond to um satisfying that clause to having a true literal in that clause literal in that clause um and now how am i going to get i'm going to have it enable a detour from these horizontal nodes out to this clause gadget so here it is here's that detour as i'm going from left to right as i'm going from left to right i can instead of jump doing a single i can instead of jump doing a single jump here i could branch out and visit that clause node and then come back and pick up my left uh path as as i was doing before you realize what i'm trying what's you realize what i'm try…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_4104",
+    "t_start": 4104.4,
+    "t_end": 4194.7,
+    "type": "overview",
+    "summary": "now i come want to come back that note has already been taken it only works if i'm going zag zig from going from right to left the left to right if i'm going from left to right then i can do it for going so this is going to correspond if you think of left the left to right think of left the left to right direction as true that's going to direction as true that's going to correspond to that variable appearing in the positive way in that clause um but not in the negative way the negative way not in the negative way the negative way i would reverse of the dot of the detour flip that around so …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_4194",
+    "t_start": 4194.7,
+    "t_end": 4288.1,
+    "type": "overview",
+    "summary": "and let's say it has m variables and k clauses i'm going to call them clause c1 c2 up to ck here the m variables appearing to ck here the m variables appearing either negated in that formula and this is the way the global structure and this is the way the global structure of g is going to look like now i'm horizontal nodes what role do they play there those nodes are there to allow me there those nodes are there to allow me to visit to visit those those clause clause nodes the the nodes which represent the clause gadgets which i'm going to place over um here is i mean this is almost a hole …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_4288",
+    "t_start": 4288.1,
+    "t_end": 4380.5,
+    "type": "overview",
+    "summary": "let me just try to show you what that looks like so i'm going to magnify looks like so i'm going to magnify little pieces here uh from from these gadgets here and show you how these guys are connected up you how these guys are connected up so here is the x1 gadget right here's x1 and c1 and so that means when i'm going left to right i'm going when i'm going left to right i'm going to be a possibility of visiting c1 but now let's look what happens with um uh uh uh which was the next one i met i i had here here uh okay um so so uh so the next one is oh yeah so that's so x1 appears positively …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_4380",
+    "t_start": 4380.5,
+    "t_end": 4472.9,
+    "type": "overview",
+    "summary": "me to take a detour either out to c1 or out to c2 but not to both or out to c2 but not to both because the hamiltonian path is either because the hamiltonian path is either going to go left to right or right to going to go left to right or right to left it can't do both left it can't do both when it's going through x the x one uh didn't kind of you have to i'll try to help you through it but you have to try help you through it but you have to try to think about why it's working to think about why it's working so what let's think again together so what let's think again together so x2 also a…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_4472",
+    "t_start": 4472.9,
+    "t_end": 4566.8,
+    "type": "overview",
+    "summary": "why is this true so you take any satisfying assignment as i suggested satisfying assignment as i suggested you make the corresponding zigzags or you make the corresponding zigzags or zag zigs through the variable gadgets zag zigs through the variable gadgets from s to t and then take the detours to the reverse direction actually is slightly trickier we're not gonna have slightly trickier we're not gonna have time to go through the subtlety of it what you want to make sure here is that you don't have a kind of a a is that you don't have a kind of a a weird path weird path um occurring becaus…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_4566",
+    "t_start": 4566.8,
+    "t_end": 4658.7,
+    "type": "overview",
+    "summary": "otherwise you would never be able to visit those uh visit those uh spacer notes spacer notes you have to look in the book for that uh there is a little bit of a detail that you have to go through you have to show it must be zig zags and zig zag zigs and then you get the corresponding truth and then you get the corresponding truth assignment and the most satisfied fee uh for all paths okay let's uh again the reduction is polynomial time computable i'm not going polynomial time computable i'm not going to say more about that we're kind of a little bit low on time um last check in um last chec…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_4658",
+    "t_start": 4658.7,
+    "t_end": 4751.5,
+    "type": "overview",
+    "summary": "explaining it but uh that's what that's what the purpose is um does that mean we need only does that mean we need only two does that mean we need only two inside nodes uh do we know that so the the horizontal nodes do we only need two you won't be able to reuse the reuse these nodes for multiple detours for one these nodes for multiple detours for one thing you know once you've gone to a detour you come back to the node next over and so you better not overlay multiple detours detours and also you need to keep them separated from each other don't forget and this from each other don't forget …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_4751",
+    "t_start": 4751.5,
+    "t_end": 4842.0,
+    "type": "overview",
+    "summary": "x9 was in c c1 yeah if x9 down here was in c1 yeah i would it'd be messy it's okay my c is allowed all right i think we're let's end the polling you all are you all in polling you all are you all in all right all right share results uh the construction depends on this being directed i mean you can see that being directed i mean you can see that all over the place but for one thing all over the place but for one thing uh you know the whole point of these detours is the directions of the of the detours is the directions of the of the um edges and so um edges and so without that the the this c…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_4841",
+    "t_start": 4842.0,
+    "t_end": 4937.1,
+    "type": "overview",
+    "summary": "which is not in p um that would that would have been a mistake because composites is in p mistake because composites is in p that would be just i would would have that would be just i would would have been working hard to prove something been working hard to prove something which we now know was false so we don't want to spend time working on the wrong language working on the wrong language um you know but the nice thing about np complete languages is that we have a complete languages is that we have a guarantee that if p is different from np that that language is not in p are there problem…"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_4937",
+    "t_start": 4937.1,
+    "t_end": 5031.4,
+    "type": "overview",
+    "summary": "neither np complete nor in p they're np problems but they're not empty complete problems but they're not empty complete not in p um so not in p um so uh those problems themselves are perhaps uh those problems themselves are perhaps somewhat artificial but they at least somewhat artificial but they at least prove the point that it is possible to have these intermediate problems um so somebody's asking isn't factorization one not no you know we one not no you know we for the case of factorization um or you have to make sure to make a language out of that by the way um language out of that by …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_5031",
+    "t_start": 5031.4,
+    "t_end": 5122.1,
+    "type": "overview",
+    "summary": "who was one of my professors at berkeley where i was a graduate student he that where i was a graduate student he that was done before i got there it was around 1971 um when so there were two famous papers there's the cook paper there's also the lemon paper that was in russian that took a while for people to russian that took a while for people to discover out here in the west but the cook paper was 1971 and very quickly followed after he just showed sat as np followed after he just showed sat as np complete complete but uh after that uh carp was he combinatorial problems and he had a list …"
+  },
+  {
+    "id": "ku_video_iZPzBHGDsWI_5122",
+    "t_start": 5122.1,
+    "t_end": 5141.5,
+    "type": "overview",
+    "summary": "of people about what should be the right language to use for the for that term language to use for the for that term and i think he came up with it all right i'm gonna head off guys nice uh seeing you all uh so until uh uh seeing you all uh so until uh thursday oh until tuesday uh bye-bye"
+  }
+]

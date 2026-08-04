@@ -1,0 +1,1682 @@
+[
+  {
+    "t_start": 0.96,
+    "t_end": 4.95,
+    "text": "Is it possible to invent a computer that computes anything in a flash?"
+  },
+  {
+    "t_start": 5.67,
+    "t_end": 10.317,
+    "text": "Or do problems exist that would stump even the most powerful computers imaginable?"
+  },
+  {
+    "t_start": 10.317,
+    "t_end": 13.47,
+    "text": "How complex is too complex for computation?"
+  },
+  {
+    "t_start": 14.16,
+    "t_end": 17.383,
+    "text": "These questions are central to a fascinating conundrum"
+  },
+  {
+    "t_start": 17.383,
+    "t_end": 19.793,
+    "text": "called the P versus NP problem."
+  },
+  {
+    "t_start": 20.22,
+    "t_end": 21.54,
+    "text": "P versus NP,"
+  },
+  {
+    "t_start": 21.63,
+    "t_end": 26.868,
+    "text": "is one of the great unsolved problems in all of math and computer science,"
+  },
+  {
+    "t_start": 26.878,
+    "t_end": 30.18,
+    "text": "or, you know, really in all of human knowledge, if we're being honest."
+  },
+  {
+    "t_start": 30.57,
+    "t_end": 35.49,
+    "text": "Anyone who finds a solution could win a handsome $1 million prize offered by"
+  },
+  {
+    "t_start": 35.49,
+    "t_end": 36.48,
+    "text": "the Clay Institute."
+  },
+  {
+    "t_start": 37.14,
+    "t_end": 40.174,
+    "text": "And this solution could lead to breakthroughs in everything"
+  },
+  {
+    "t_start": 40.174,
+    "t_end": 42.265,
+    "text": "from medicine to artificial intelligence,"
+  },
+  {
+    "t_start": 42.265,
+    "t_end": 45.0,
+    "text": "and even the perfect game of Mario Brothers."
+  },
+  {
+    "t_start": 45.81,
+    "t_end": 47.46,
+    "text": "But it would come at a cost."
+  },
+  {
+    "t_start": 47.97,
+    "t_end": 52.315,
+    "text": "A definitive answer to the P versus NP problem could break your bank account"
+  },
+  {
+    "t_start": 52.315,
+    "t_end": 55.14,
+    "text": "and even lead to the end of the internet as we know it."
+  },
+  {
+    "t_start": 57.81,
+    "t_end": 60.99,
+    "text": "To find out why, let's start with a simple logic puzzle."
+  },
+  {
+    "t_start": 62.07,
+    "t_end": 66.3,
+    "text": "A robot arrives in a foreign land where everyone either always tells the truth"
+  },
+  {
+    "t_start": 66.51,
+    "t_end": 67.872,
+    "text": "or always lies."
+  },
+  {
+    "t_start": 67.872,
+    "t_end": 71.13,
+    "text": "The robot reaches a fork in the road with two choices."
+  },
+  {
+    "t_start": 71.64,
+    "t_end": 74.46,
+    "text": "One path leads to safety in the land of truth tellers,"
+  },
+  {
+    "t_start": 74.82,
+    "t_end": 78.028,
+    "text": "while the other leads to doom. In the land of liars."
+  },
+  {
+    "t_start": 78.028,
+    "t_end": 79.56,
+    "text": "A sentry appears."
+  },
+  {
+    "t_start": 79.95,
+    "t_end": 82.14,
+    "text": "But it's unclear which group they belong to."
+  },
+  {
+    "t_start": 82.83,
+    "t_end": 85.83,
+    "text": "What question can the robot ask to determine the safe route?"
+  },
+  {
+    "t_start": 86.88,
+    "t_end": 87.84,
+    "text": "Here's some options..."
+  },
+  {
+    "t_start": 91.92,
+    "t_end": 93.313,
+    "text": "And here's the answer."
+  },
+  {
+    "t_start": 93.313,
+    "t_end": 95.91,
+    "text": "With this one question,"
+  },
+  {
+    "t_start": 96.21,
+    "t_end": 99.45,
+    "text": "both types of sentries would point to the correct safe path,"
+  },
+  {
+    "t_start": 99.54,
+    "t_end": 102.349,
+    "text": "allowing the robot to solve the problem quickly."
+  },
+  {
+    "t_start": 102.349,
+    "t_end": 105.636,
+    "text": "Now, what if the robot encounters multiple sentries"
+  },
+  {
+    "t_start": 105.636,
+    "t_end": 108.09,
+    "text": "and dozens of pathways leading who knows where?"
+  },
+  {
+    "t_start": 108.54,
+    "t_end": 111.227,
+    "text": "What can it do to find safe passage?"
+  },
+  {
+    "t_start": 111.227,
+    "t_end": 113.07,
+    "text": "Compared to the first problem,"
+  },
+  {
+    "t_start": 113.37,
+    "t_end": 116.73,
+    "text": "is a correct solution here proportionately more difficult to find?"
+  },
+  {
+    "t_start": 117.09,
+    "t_end": 119.07,
+    "text": "Or is it exponentially harder?"
+  },
+  {
+    "t_start": 119.85,
+    "t_end": 122.16,
+    "text": "Maybe there's a shortcut that could speed things up?"
+  },
+  {
+    "t_start": 123.06,
+    "t_end": 127.77,
+    "text": "Or maybe finding a solution to this complex situation is nearly impossible."
+  },
+  {
+    "t_start": 129.0,
+    "t_end": 133.11,
+    "text": "The question of how hard a problem is to solve lies at the very heart of an"
+  },
+  {
+    "t_start": 133.11,
+    "t_end": 137.31,
+    "text": "important field of computer science called computational complexity."
+  },
+  {
+    "t_start": 137.49,
+    "t_end": 142.38,
+    "text": "Computational complexity is the study of the inherent resources"
+  },
+  {
+    "t_start": 142.38,
+    "t_end": 146.1,
+    "text": "such as time and space that are needed to solve"
+  },
+  {
+    "t_start": 146.13,
+    "t_end": 150.6,
+    "text": "computational problems, such as factoring numbers, for example."
+  },
+  {
+    "t_start": 150.81,
+    "t_end": 154.321,
+    "text": "And especially it's the study of how those resources scale"
+  },
+  {
+    "t_start": 154.321,
+    "t_end": 156.833,
+    "text": "as the problems get bigger and bigger."
+  },
+  {
+    "t_start": 157.05,
+    "t_end": 162.555,
+    "text": "Computational complexity theorists want to know which problems are solvable using clever algorithms."
+  },
+  {
+    "t_start": 162.555,
+    "t_end": 165.18,
+    "text": "And which problems are truly difficult,"
+  },
+  {
+    "t_start": 165.42,
+    "t_end": 168.993,
+    "text": "maybe even practically impossible for computers to crack."
+  },
+  {
+    "t_start": 168.993,
+    "t_end": 172.74,
+    "text": "So how do computers solve problems in the first place?"
+  },
+  {
+    "t_start": 173.64,
+    "t_end": 176.188,
+    "text": "A computer's core function is to compute."
+  },
+  {
+    "t_start": 176.188,
+    "t_end": 180.922,
+    "text": "These machines perform basic mathematical operations  like addition and multiplication"
+  },
+  {
+    "t_start": 180.922,
+    "t_end": 182.44,
+    "text": "faster than any human."
+  },
+  {
+    "t_start": 183.58,
+    "t_end": 188.41,
+    "text": "In 1936, a 23-year-old British University student, Alan Turing,"
+  },
+  {
+    "t_start": 188.56,
+    "t_end": 191.084,
+    "text": "developed a fundamental theory of computation."
+  },
+  {
+    "t_start": 191.084,
+    "t_end": 194.249,
+    "text": "While attempting to solve a problem about the foundations of math,"
+  },
+  {
+    "t_start": 194.249,
+    "t_end": 195.91,
+    "text": "Turing claimed in a paper,"
+  },
+  {
+    "t_start": 196.12,
+    "t_end": 200.35,
+    "text": "it's possible to invent a machine which can compute any computable sequence"
+  },
+  {
+    "t_start": 200.38,
+    "t_end": 202.431,
+    "text": "given enough time and memory."
+  },
+  {
+    "t_start": 202.431,
+    "t_end": 204.97,
+    "text": "This simple, theoretical Turing machine,"
+  },
+  {
+    "t_start": 205.21,
+    "t_end": 207.296,
+    "text": "which includes a place to store information"
+  },
+  {
+    "t_start": 207.296,
+    "t_end": 209.67,
+    "text": "and a device to read and write new information"
+  },
+  {
+    "t_start": 209.67,
+    "t_end": 211.27,
+    "text": "based on a set of instructions,"
+  },
+  {
+    "t_start": 211.51,
+    "t_end": 214.81,
+    "text": "is the basic framework for all digital computers to come."
+  },
+  {
+    "t_start": 215.5,
+    "t_end": 220.12,
+    "text": "One of the key insights of computer science is that Turing machines are"
+  },
+  {
+    "t_start": 220.12,
+    "t_end": 224.44,
+    "text": "mathematically equivalent to just about any other programming"
+  },
+  {
+    "t_start": 224.44,
+    "t_end": 227.02,
+    "text": "formalism that anyone has invented,"
+  },
+  {
+    "t_start": 227.23,
+    "t_end": 229.24,
+    "text": "at least for conventional computers."
+  },
+  {
+    "t_start": 229.66,
+    "t_end": 233.86,
+    "text": "Inside a digital computer, data are represented as binary bits,"
+  },
+  {
+    "t_start": 234.04,
+    "t_end": 235.93,
+    "text": "sequences of ones and zeros."
+  },
+  {
+    "t_start": 236.23,
+    "t_end": 239.362,
+    "text": "And these bits can be manipulated through logical operations"
+  },
+  {
+    "t_start": 239.362,
+    "t_end": 242.79,
+    "text": "using a branch of math that preceded the invention of computers"
+  },
+  {
+    "t_start": 242.79,
+    "t_end": 244.45,
+    "text": "called Boolean algebra."
+  },
+  {
+    "t_start": 246.37,
+    "t_end": 250.684,
+    "text": "The basic rules of Boolean algebra were formulated in 1847"
+  },
+  {
+    "t_start": 250.684,
+    "t_end": 253.218,
+    "text": "by English mathematician, George Boole."
+  },
+  {
+    "t_start": 253.218,
+    "t_end": 256.203,
+    "text": "Boolean algebra formulates decision problems,"
+  },
+  {
+    "t_start": 256.75,
+    "t_end": 261.513,
+    "text": "yes or no problems that can be asked in sequence to answer complicated questions."
+  },
+  {
+    "t_start": 261.79,
+    "t_end": 266.08,
+    "text": "The output of a Boolean function for any given input can be represented in"
+  },
+  {
+    "t_start": 266.08,
+    "t_end": 270.01,
+    "text": "what's called a truth table, and it is either one or zero."
+  },
+  {
+    "t_start": 270.61,
+    "t_end": 272.23,
+    "text": "True or false."
+  },
+  {
+    "t_start": 272.92,
+    "t_end": 277.39,
+    "text": "Expressions in Boolean logic consist of multiple variables linked together by"
+  },
+  {
+    "t_start": 277.39,
+    "t_end": 278.736,
+    "text": "three logic gates:"
+  },
+  {
+    "t_start": 278.736,
+    "t_end": 279.639,
+    "text": "AND"
+  },
+  {
+    "t_start": 279.639,
+    "t_end": 280.866,
+    "text": "OR"
+  },
+  {
+    "t_start": 280.866,
+    "t_end": 281.366,
+    "text": "NOT."
+  },
+  {
+    "t_start": 282.34,
+    "t_end": 285.16,
+    "text": "These logic gates work like this."
+  },
+  {
+    "t_start": 285.16,
+    "t_end": 289.9,
+    "text": "For an AND gate, when the inputs for both variables X and Y are true,"
+  },
+  {
+    "t_start": 290.11,
+    "t_end": 294.19,
+    "text": "the expression evaluates to true otherwise it's false."
+  },
+  {
+    "t_start": 295.36,
+    "t_end": 296.193,
+    "text": "With the OR gate,"
+  },
+  {
+    "t_start": 296.68,
+    "t_end": 300.67,
+    "text": "the expression evaluates to true when either X or Y is true."
+  },
+  {
+    "t_start": 301.57,
+    "t_end": 304.51,
+    "text": "A NOT gate simply inverts the value of a variable,"
+  },
+  {
+    "t_start": 304.72,
+    "t_end": 307.6,
+    "text": "switching a true to false or vice versa."
+  },
+  {
+    "t_start": 308.26,
+    "t_end": 310.18,
+    "text": "By using only these three simple,"
+  },
+  {
+    "t_start": 310.18,
+    "t_end": 313.87,
+    "text": "logical operations and building them up into various configurations,"
+  },
+  {
+    "t_start": 314.17,
+    "t_end": 318.58,
+    "text": "Boolean formulas can operate like a Turing machine and theoretically solve any"
+  },
+  {
+    "t_start": 318.58,
+    "t_end": 319.728,
+    "text": "computable problem."
+  },
+  {
+    "t_start": 319.728,
+    "t_end": 322.39,
+    "text": "In 1937,"
+  },
+  {
+    "t_start": 322.75,
+    "t_end": 325.45,
+    "text": "an electrical engineering graduate student, Claude Shannon,"
+  },
+  {
+    "t_start": 326.01,
+    "t_end": 330.49,
+    "text": "demonstrated in his master's thesis that the Boolean operations AND, OR,"
+  },
+  {
+    "t_start": 330.49,
+    "t_end": 333.91,
+    "text": "and NOT can be calculated using electronic switching circuits."
+  },
+  {
+    "t_start": 334.69,
+    "t_end": 335.65,
+    "text": "A decade later,"
+  },
+  {
+    "t_start": 335.8,
+    "t_end": 339.85,
+    "text": "Bell Labs introduced the first solid state semiconducting transistor."
+  },
+  {
+    "t_start": 340.78,
+    "t_end": 344.71,
+    "text": "Transistors are simple, electronically controlled switches with three wires,"
+  },
+  {
+    "t_start": 345.01,
+    "t_end": 348.55,
+    "text": "a control wire, and two electrodes to input and output data."
+  },
+  {
+    "t_start": 349.33,
+    "t_end": 352.39,
+    "text": "They can be in one of two states, on or off,"
+  },
+  {
+    "t_start": 352.78,
+    "t_end": 356.68,
+    "text": "representing either a one or zero. True or false."
+  },
+  {
+    "t_start": 357.05,
+    "t_end": 360.392,
+    "text": "Transistors can be combined and arranged in different configurations"
+  },
+  {
+    "t_start": 360.392,
+    "t_end": 363.95,
+    "text": "to mimic the Boolean logic gates of AND OR, and NOT."
+  },
+  {
+    "t_start": 365.21,
+    "t_end": 367.632,
+    "text": "By combining enough of these transistors together"
+  },
+  {
+    "t_start": 367.632,
+    "t_end": 370.79,
+    "text": "on computer chips in complex arrangements called circuits,"
+  },
+  {
+    "t_start": 371.15,
+    "t_end": 374.06,
+    "text": "it's theoretically possible to compute almost anything,"
+  },
+  {
+    "t_start": 374.6,
+    "t_end": 376.63,
+    "text": "anything that is computable, that is,"
+  },
+  {
+    "t_start": 376.63,
+    "t_end": 378.11,
+    "text": "More about that later."
+  },
+  {
+    "t_start": 379.94,
+    "t_end": 384.08,
+    "text": "In the 1950s, Hungarian American mathematician and computer scientist,"
+  },
+  {
+    "t_start": 384.14,
+    "t_end": 386.419,
+    "text": "John von Neumann brought the modern computer"
+  },
+  {
+    "t_start": 386.419,
+    "t_end": 388.1,
+    "text": "one step closer to reality."
+  },
+  {
+    "t_start": 388.67,
+    "t_end": 392.06,
+    "text": "He developed the architecture of the universal electronic computer,"
+  },
+  {
+    "t_start": 392.36,
+    "t_end": 396.56,
+    "text": "the same architecture at work inside most electronic computing devices today,"
+  },
+  {
+    "t_start": 396.92,
+    "t_end": 399.11,
+    "text": "from smartphones to supercomputers."
+  },
+  {
+    "t_start": 399.83,
+    "t_end": 404.63,
+    "text": "Since the mid 1950s when the first transistor based electronic computers were built,"
+  },
+  {
+    "t_start": 404.63,
+    "t_end": 407.016,
+    "text": "the technology has swiftly advanced."
+  },
+  {
+    "t_start": 407.016,
+    "t_end": 411.08,
+    "text": "by scaling down and cramming more and more transistors onto tiny chips,"
+  },
+  {
+    "t_start": 411.38,
+    "t_end": 415.101,
+    "text": "computing power and speed has nearly doubled every two years."
+  },
+  {
+    "t_start": 415.101,
+    "t_end": 419.12,
+    "text": "Today, computers can perform trillions of calculations per second."
+  },
+  {
+    "t_start": 419.87,
+    "t_end": 422.36,
+    "text": "But even that's not always good enough."
+  },
+  {
+    "t_start": 422.66,
+    "t_end": 425.27,
+    "text": "There's a class of problems that computers can never solve."
+  },
+  {
+    "t_start": 425.96,
+    "t_end": 429.77,
+    "text": "A quandary Alan Turing foresaw in the same paper where he conjured up his"
+  },
+  {
+    "t_start": 429.77,
+    "t_end": 431.237,
+    "text": "calculating machine."
+  },
+  {
+    "t_start": 431.237,
+    "t_end": 435.77,
+    "text": "Turing had the insight and in fact proved that not everything is computable."
+  },
+  {
+    "t_start": 436.19,
+    "t_end": 440.96,
+    "text": "The limiting factor is not the hardware, but instead the software or program."
+  },
+  {
+    "t_start": 443.12,
+    "t_end": 447.17,
+    "text": "Computers solve problems by followinglists of instructions called algorithms."
+  },
+  {
+    "t_start": 447.53,
+    "t_end": 452.15,
+    "text": "An algorithm just means a step-by-step procedure for solving a problem."
+  },
+  {
+    "t_start": 452.84,
+    "t_end": 456.398,
+    "text": "Running an algorithm is analogous to following the steps of a recipe"
+  },
+  {
+    "t_start": 456.398,
+    "t_end": 458.03,
+    "text": "or an IKEA assembly manual."
+  },
+  {
+    "t_start": 458.87,
+    "t_end": 463.35,
+    "text": "Here's an example of an algorithm that sorts a list of numbers from lowest to highest."
+  },
+  {
+    "t_start": 463.35,
+    "t_end": 465.258,
+    "text": "It works like this."
+  },
+  {
+    "t_start": 465.258,
+    "t_end": 467.03,
+    "text": "Take a random list of numbers."
+  },
+  {
+    "t_start": 467.27,
+    "t_end": 470.69,
+    "text": "Start with a first number from the left, which here is six."
+  },
+  {
+    "t_start": 471.29,
+    "t_end": 474.59,
+    "text": "Now look through the remaining numbers and identify the smallest one,"
+  },
+  {
+    "t_start": 475.01,
+    "t_end": 476.855,
+    "text": "which in this case is three."
+  },
+  {
+    "t_start": 476.855,
+    "t_end": 479.45,
+    "text": "Next, swap the places of six and three,"
+  },
+  {
+    "t_start": 479.66,
+    "t_end": 482.3,
+    "text": "and you'll have the smallest number in the group on the left."
+  },
+  {
+    "t_start": 482.96,
+    "t_end": 484.94,
+    "text": "Take a second pass this time,"
+  },
+  {
+    "t_start": 484.94,
+    "t_end": 486.988,
+    "text": "starting with the second number from the left."
+  },
+  {
+    "t_start": 486.988,
+    "t_end": 489.5,
+    "text": "Swap with the smallest and so on."
+  },
+  {
+    "t_start": 491.27,
+    "t_end": 495.08,
+    "text": "After enough passes, all the numbers are sorted, lowest to highest"
+  },
+  {
+    "t_start": 495.14,
+    "t_end": 496.64,
+    "text": "using this simple algorithm."
+  },
+  {
+    "t_start": 498.26,
+    "t_end": 501.41,
+    "text": "Any problem that can be solved by an algorithm is computable."
+  },
+  {
+    "t_start": 501.92,
+    "t_end": 506.81,
+    "text": "But by the 1970s, computer scientists realize that not all computable problems"
+  },
+  {
+    "t_start": 506.81,
+    "t_end": 508.117,
+    "text": "are created equal."
+  },
+  {
+    "t_start": 508.117,
+    "t_end": 509.72,
+    "text": "Some turned out to be easy,"
+  },
+  {
+    "t_start": 510.08,
+    "t_end": 511.657,
+    "text": "while others seemed hard."
+  },
+  {
+    "t_start": 511.657,
+    "t_end": 514.04,
+    "text": "For problems like multiplication,"
+  },
+  {
+    "t_start": 514.34,
+    "t_end": 517.03,
+    "text": "computer scientists found really fast algorithms,"
+  },
+  {
+    "t_start": 517.03,
+    "t_end": 520.52,
+    "text": "but for others,  like optimizing the operations in a factory,"
+  },
+  {
+    "t_start": 520.88,
+    "t_end": 523.25,
+    "text": "they couldn't find any easy solutions."
+  },
+  {
+    "t_start": 524.36,
+    "t_end": 526.58,
+    "text": "And it turned out that some problems were so hard,"
+  },
+  {
+    "t_start": 526.85,
+    "t_end": 530.4,
+    "text": "the only known way to solve them could end up taking more solution steps"
+  },
+  {
+    "t_start": 530.4,
+    "t_end": 533.591,
+    "text": "than there are subatomic particles in the universe."
+  },
+  {
+    "t_start": 533.591,
+    "t_end": 536.94,
+    "text": "Thus, the P versus NP problem was born."
+  },
+  {
+    "t_start": 538.29,
+    "t_end": 541.02,
+    "text": "So what exactly does P and NP mean?"
+  },
+  {
+    "t_start": 542.04,
+    "t_end": 545.557,
+    "text": "P problems, or problems that can be solved in polynomial time"
+  },
+  {
+    "t_start": 545.557,
+    "t_end": 549.48,
+    "text": "are the types of problems that are relatively easy for computers to solve."
+  },
+  {
+    "t_start": 549.78,
+    "t_end": 554.592,
+    "text": "The vast majority of what we use our computers for on a day-to-day basis,"
+  },
+  {
+    "t_start": 554.592,
+    "t_end": 558.06,
+    "text": "you know, you could think of as solving various problems in P."
+  },
+  {
+    "t_start": 558.81,
+    "t_end": 561.577,
+    "text": "From finding the shortest path between two points on a map."
+  },
+  {
+    "t_start": 561.577,
+    "t_end": 564.239,
+    "text": "to sorting a list of names alphabetically,"
+  },
+  {
+    "t_start": 564.239,
+    "t_end": 566.27,
+    "text": "or searching for an item on a list."
+  },
+  {
+    "t_start": 566.88,
+    "t_end": 569.91,
+    "text": "These are all examples of polynomial P problems."
+  },
+  {
+    "t_start": 570.69,
+    "t_end": 572.977,
+    "text": "A polynomial is a mathematical function"
+  },
+  {
+    "t_start": 572.977,
+    "t_end": 577.079,
+    "text": "that can contain variables raised to a fixed power or exponent"
+  },
+  {
+    "t_start": 577.079,
+    "t_end": 579.54,
+    "text": "like N to the power of two or n cubed."
+  },
+  {
+    "t_start": 580.44,
+    "t_end": 584.528,
+    "text": "The time it takes a computer to solve P problems grows polynomially"
+  },
+  {
+    "t_start": 584.528,
+    "t_end": 586.702,
+    "text": "as the input increases in size."
+  },
+  {
+    "t_start": 586.702,
+    "t_end": 589.11,
+    "text": "Given enough computing power,"
+  },
+  {
+    "t_start": 589.26,
+    "t_end": 593.28,
+    "text": "all problems in P can be solved by a computer in a practical amount of time."
+  },
+  {
+    "t_start": 597.12,
+    "t_end": 601.08,
+    "text": "Now, NP problems are a class of problems that share a unique feature."
+  },
+  {
+    "t_start": 601.86,
+    "t_end": 606.444,
+    "text": "If given the solution, it turns out to be quick and easy to verify If it's correct."
+  },
+  {
+    "t_start": 606.444,
+    "t_end": 611.741,
+    "text": "Easily solved P problems are contained within the class of all NP problems"
+  },
+  {
+    "t_start": 611.741,
+    "t_end": 615.946,
+    "text": "because they can also be verified relatively quickly in polynomial time."
+  },
+  {
+    "t_start": 615.946,
+    "t_end": 620.285,
+    "text": "However, there's a class of NP problems that are easy to check,"
+  },
+  {
+    "t_start": 620.61,
+    "t_end": 622.95,
+    "text": "yet seem difficult to solve in the first place."
+  },
+  {
+    "t_start": 623.31,
+    "t_end": 629.0,
+    "text": "It's really helpful to think about something like a jigsaw puzzle or a Sudoku puzzle, right?"
+  },
+  {
+    "t_start": 629.0,
+    "t_end": 631.32,
+    "text": "We all have experience that, you know,"
+  },
+  {
+    "t_start": 631.33,
+    "t_end": 635.82,
+    "text": "these could require an enormous amount of trial and error to solve."
+  },
+  {
+    "t_start": 635.88,
+    "t_end": 638.73,
+    "text": "But nevertheless, you know, if someone says that they solved it,"
+  },
+  {
+    "t_start": 638.73,
+    "t_end": 641.1,
+    "text": "it's much easier to check whether they did."
+  },
+  {
+    "t_start": 641.82,
+    "t_end": 646.02,
+    "text": "If someone gives you a completed hard puzzle like a large Sudoku or crossword,"
+  },
+  {
+    "t_start": 646.35,
+    "t_end": 649.8,
+    "text": "the answers can be verified much fasterthan it can be solved in the first place."
+  },
+  {
+    "t_start": 649.8,
+    "t_end": 652.38,
+    "text": "It's the same for a computer."
+  },
+  {
+    "t_start": 652.98,
+    "t_end": 655.868,
+    "text": "The reason these types of NP problems can be more difficult"
+  },
+  {
+    "t_start": 655.868,
+    "t_end": 658.92,
+    "text": "for a computer to solve is because as far as we know,"
+  },
+  {
+    "t_start": 659.07,
+    "t_end": 663.42,
+    "text": "their complexity increases exponentially as their input increases."
+  },
+  {
+    "t_start": 664.17,
+    "t_end": 667.2,
+    "text": "An exponential function has the variable in the exponent"
+  },
+  {
+    "t_start": 667.2,
+    "t_end": 673.2,
+    "text": "like two to the power of N. Here's an example of exponential versus polynomial growth."
+  },
+  {
+    "t_start": 673.23,
+    "t_end": 674.576,
+    "text": "For the same input."
+  },
+  {
+    "t_start": 674.576,
+    "t_end": 677.82,
+    "text": "With these hard, exponential NP problems,"
+  },
+  {
+    "t_start": 678.0,
+    "t_end": 682.05,
+    "text": "the increased complexity of large inputs can quickly exceed the limits of what a"
+  },
+  {
+    "t_start": 682.05,
+    "t_end": 684.72,
+    "text": "computer can compute in a reasonable amount of time."
+  },
+  {
+    "t_start": 685.32,
+    "t_end": 689.76,
+    "text": "And solving them using brute force techniques alone is practically impossible."
+  },
+  {
+    "t_start": 690.57,
+    "t_end": 692.34,
+    "text": "You could be doing that, you know,"
+  },
+  {
+    "t_start": 692.34,
+    "t_end": 696.661,
+    "text": "from from now until the whole universe has degenerated into black holes"
+  },
+  {
+    "t_start": 696.661,
+    "t_end": 699.18,
+    "text": "and you wouldn't have even made a dent in it."
+  },
+  {
+    "t_start": 700.14,
+    "t_end": 700.973,
+    "text": "Over the years,"
+  },
+  {
+    "t_start": 701.04,
+    "t_end": 704.97,
+    "text": "mathematicians discovered clever polynomial algorithms for some seemingly"
+  },
+  {
+    "t_start": 704.97,
+    "t_end": 706.41,
+    "text": "difficult NP problems."
+  },
+  {
+    "t_start": 706.71,
+    "t_end": 710.118,
+    "text": "Proving that these problems were actually in the simpler class P"
+  },
+  {
+    "t_start": 710.118,
+    "t_end": 712.87,
+    "text": "and making them solvable by a computer."
+  },
+  {
+    "t_start": 712.87,
+    "t_end": 715.48,
+    "text": "This opened the door to the question,"
+  },
+  {
+    "t_start": 716.05,
+    "t_end": 718.96,
+    "text": "are all NP problems really P problems?"
+  },
+  {
+    "t_start": 719.59,
+    "t_end": 723.58,
+    "text": "Could every problem that is seemingly intractable for a computer to solve today"
+  },
+  {
+    "t_start": 723.97,
+    "t_end": 725.77,
+    "text": "turn out to be easy in the future?"
+  },
+  {
+    "t_start": 727.09,
+    "t_end": 730.57,
+    "text": "P equaling NP would have far ranging consequences."
+  },
+  {
+    "t_start": 730.96,
+    "t_end": 734.71,
+    "text": "Solutions to nearly any problem would be well within our reach."
+  },
+  {
+    "t_start": 735.52,
+    "t_end": 737.789,
+    "text": "AI would become smarter overnight."
+  },
+  {
+    "t_start": 737.789,
+    "t_end": 741.868,
+    "text": "Businesses could solve complicated optimization and logistics problems"
+  },
+  {
+    "t_start": 741.868,
+    "t_end": 743.5,
+    "text": "boosting the global economy."
+  },
+  {
+    "t_start": 743.86,
+    "t_end": 746.92,
+    "text": "And scientists could make once unthinkable breakthroughs."
+  },
+  {
+    "t_start": 747.43,
+    "t_end": 750.73,
+    "text": "Maybe we could even find a cure for the common cold?"
+  },
+  {
+    "t_start": 751.99,
+    "t_end": 754.12,
+    "text": "However, if P equals NP,"
+  },
+  {
+    "t_start": 754.36,
+    "t_end": 758.176,
+    "text": "that would also mean that all current methods for strong encryption"
+  },
+  {
+    "t_start": 758.176,
+    "t_end": 761.424,
+    "text": "security measures that protect everything from your online privacy"
+  },
+  {
+    "t_start": 761.424,
+    "t_end": 762.43,
+    "text": "to your crypto wallet"
+  },
+  {
+    "t_start": 762.82,
+    "t_end": 764.909,
+    "text": "would instantly become obsolete."
+  },
+  {
+    "t_start": 764.909,
+    "t_end": 766.6,
+    "text": "It would be hacker heaven."
+  },
+  {
+    "t_start": 768.88,
+    "t_end": 770.02,
+    "text": "In the 1970s,"
+  },
+  {
+    "t_start": 770.17,
+    "t_end": 772.435,
+    "text": "mathematicians Stephen Cook and Leonid Levin"
+  },
+  {
+    "t_start": 772.435,
+    "t_end": 776.2,
+    "text": "working independently on opposite sides of the Iron Curtain,"
+  },
+  {
+    "t_start": 776.65,
+    "t_end": 780.94,
+    "text": "made important discoveries that have come to define the P versus NP problem."
+  },
+  {
+    "t_start": 781.54,
+    "t_end": 784.63,
+    "text": "They discovered the idea of NP Completeness."
+  },
+  {
+    "t_start": 785.56,
+    "t_end": 790.868,
+    "text": "Almost all of the notoriously difficult problems in NP are actually equivalent."
+  },
+  {
+    "t_start": 790.928,
+    "t_end": 793.84,
+    "text": "So if you could prove one of those is equal to P,"
+  },
+  {
+    "t_start": 794.26,
+    "t_end": 796.48,
+    "text": "you've solved all of P versus NP."
+  },
+  {
+    "t_start": 798.28,
+    "t_end": 802.263,
+    "text": "This is kind of like a veterinarian realizing that even though toy poodles"
+  },
+  {
+    "t_start": 802.263,
+    "t_end": 804.37,
+    "text": "and St. Bernard's look very different,"
+  },
+  {
+    "t_start": 804.7,
+    "t_end": 806.755,
+    "text": "they're in fact the same species"
+  },
+  {
+    "t_start": 806.755,
+    "t_end": 810.7,
+    "text": "and a treatment that works on one would very well work on the other."
+  },
+  {
+    "t_start": 811.96,
+    "t_end": 814.81,
+    "text": "There are hundreds of known NP Complete problems,"
+  },
+  {
+    "t_start": 815.2,
+    "t_end": 819.58,
+    "text": "and finding a single solution would lead to breakthroughs on multiple fronts,"
+  },
+  {
+    "t_start": 819.82,
+    "t_end": 822.52,
+    "text": "including physics, economics, and biology."
+  },
+  {
+    "t_start": 822.88,
+    "t_end": 825.04,
+    "text": "Not to mention computer science itself."
+  },
+  {
+    "t_start": 826.27,
+    "t_end": 829.78,
+    "text": "NP Complete problems include a host of famous problems you may have heard of,"
+  },
+  {
+    "t_start": 830.08,
+    "t_end": 831.61,
+    "text": "including the Knapsack Problem,"
+  },
+  {
+    "t_start": 831.85,
+    "t_end": 835.712,
+    "text": "which involves the most efficient way to pack items like in a suitcase."
+  },
+  {
+    "t_start": 835.712,
+    "t_end": 840.28,
+    "text": "Or the Traveling Salesman problem, which involves route planning and navigation."
+  },
+  {
+    "t_start": 841.03,
+    "t_end": 843.04,
+    "text": "Complicated NP Complete problems,"
+  },
+  {
+    "t_start": 843.1,
+    "t_end": 845.427,
+    "text": "even underlie everyday tasks"
+  },
+  {
+    "t_start": 845.427,
+    "t_end": 848.928,
+    "text": "like figuring out how to deliver millions of Amazon packages on time"
+  },
+  {
+    "t_start": 848.928,
+    "t_end": 853.097,
+    "text": "or efficient in life-saving matching of organ donors with recipients,"
+  },
+  {
+    "t_start": 853.097,
+    "t_end": 857.2,
+    "text": "and even mastering games like Tetris or Candy Crush,"
+  },
+  {
+    "t_start": 858.88,
+    "t_end": 862.9,
+    "text": "All known NP Complete problems can be transformed into one another."
+  },
+  {
+    "t_start": 863.26,
+    "t_end": 867.16,
+    "text": "The most famous of these is what's called the Boolean Satisfiability problem,"
+  },
+  {
+    "t_start": 867.58,
+    "t_end": 868.577,
+    "text": "or SAT."
+  },
+  {
+    "t_start": 868.577,
+    "t_end": 871.9,
+    "text": "SAT is one of the most famous problems in computer science."
+  },
+  {
+    "t_start": 872.11,
+    "t_end": 874.39,
+    "text": "Besides its theoretical interest,"
+  },
+  {
+    "t_start": 874.39,
+    "t_end": 879.04,
+    "text": "it's a very fundamental workhorse problem in applied computer science,"
+  },
+  {
+    "t_start": 879.22,
+    "t_end": 881.68,
+    "text": "especially in software verification."
+  },
+  {
+    "t_start": 882.16,
+    "t_end": 884.819,
+    "text": "SAT is a decision problem that asks:"
+  },
+  {
+    "t_start": 884.819,
+    "t_end": 886.93,
+    "text": "for a given Boolean formula or"
+  },
+  {
+    "t_start": 886.94,
+    "t_end": 891.56,
+    "text": "expression made up of N variables and the logical operators AND, OR,"
+  },
+  {
+    "t_start": 891.56,
+    "t_end": 892.393,
+    "text": "and NOT."
+  },
+  {
+    "t_start": 892.79,
+    "t_end": 896.96,
+    "text": "Is there a combination of true-false variable assignments for which the entire"
+  },
+  {
+    "t_start": 896.96,
+    "t_end": 899.16,
+    "text": "formula evaluates to true?"
+  },
+  {
+    "t_start": 899.16,
+    "t_end": 900.59,
+    "text": "If so,"
+  },
+  {
+    "t_start": 900.89,
+    "t_end": 902.69,
+    "text": "then it is said to be satisfiable."
+  },
+  {
+    "t_start": 903.56,
+    "t_end": 906.636,
+    "text": "If someone can devise a clever fast algorithm for the SAT problem"
+  },
+  {
+    "t_start": 906.636,
+    "t_end": 912.59,
+    "text": "making it easy to compute, then voila! Proof that P equals NP."
+  },
+  {
+    "t_start": 914.12,
+    "t_end": 919.07,
+    "text": "However, most computer science researchers believe that P doesn't equal NP."
+  },
+  {
+    "t_start": 920.18,
+    "t_end": 924.89,
+    "text": "And proving P doesn't equal NP has turned out to be one of the hardest problems"
+  },
+  {
+    "t_start": 924.92,
+    "t_end": 926.93,
+    "text": "in math and computer science."
+  },
+  {
+    "t_start": 926.93,
+    "t_end": 928.88,
+    "text": "In the 1980s,"
+  },
+  {
+    "t_start": 929.09,
+    "t_end": 933.11,
+    "text": "one promising avenue of research emerged called circuit complexity."
+  },
+  {
+    "t_start": 933.56,
+    "t_end": 938.263,
+    "text": "The field studies the complexity of Boolean functions when represented as circuits."
+  },
+  {
+    "t_start": 938.96,
+    "t_end": 943.28,
+    "text": "The behavior of any given Boolean function can be described by its truth table."
+  },
+  {
+    "t_start": 943.64,
+    "t_end": 948.223,
+    "text": "However, the same truth table can be produced by circuits of differing complexity"
+  },
+  {
+    "t_start": 948.223,
+    "t_end": 951.222,
+    "text": "as seen in these two examples."
+  },
+  {
+    "t_start": 951.222,
+    "t_end": 953.147,
+    "text": "A Boolean function's circuit complexity"
+  },
+  {
+    "t_start": 953.147,
+    "t_end": 956.99,
+    "text": "is defined as the total number of logic gates in the smallest circuit,"
+  },
+  {
+    "t_start": 957.11,
+    "t_end": 958.61,
+    "text": "which can compute that function."
+  },
+  {
+    "t_start": 959.99,
+    "t_end": 964.61,
+    "text": "Researchers study circuit complexity to understand the limits of computation and"
+  },
+  {
+    "t_start": 964.61,
+    "t_end": 967.4,
+    "text": "to optimize the design of algorithms and hardware."
+  },
+  {
+    "t_start": 968.66,
+    "t_end": 970.04,
+    "text": "For some Boolean functions,"
+  },
+  {
+    "t_start": 970.16,
+    "t_end": 973.005,
+    "text": "the minimum number of logic gates grows polynomially"
+  },
+  {
+    "t_start": 973.005,
+    "t_end": 975.62,
+    "text": "as the number of input variables increases."
+  },
+  {
+    "t_start": 976.7,
+    "t_end": 978.996,
+    "text": "These are said to have low circuit complexity"
+  },
+  {
+    "t_start": 978.996,
+    "t_end": 982.19,
+    "text": "and are analogous to P-class computational problems."
+  },
+  {
+    "t_start": 983.81,
+    "t_end": 987.77,
+    "text": "Functions where the number of necessary logic gates grows exponentially with"
+  },
+  {
+    "t_start": 987.83,
+    "t_end": 989.403,
+    "text": "increasing input variables"
+  },
+  {
+    "t_start": 989.403,
+    "t_end": 991.61,
+    "text": "are said to have high circuit complexity."
+  },
+  {
+    "t_start": 992.57,
+    "t_end": 997.28,
+    "text": "One potential approach for proving P doesn't equal NP required researchers to"
+  },
+  {
+    "t_start": 997.29,
+    "t_end": 1001.0,
+    "text": "identify a single function known to be in the class of NP,"
+  },
+  {
+    "t_start": 1001.27,
+    "t_end": 1004.344,
+    "text": "that's also definitely has high circuit complexity."
+  },
+  {
+    "t_start": 1004.344,
+    "t_end": 1010.712,
+    "text": "In 1949, Claude Shannon proved that most Boolean functions have high circuit complexity."
+  },
+  {
+    "t_start": 1011.2,
+    "t_end": 1014.042,
+    "text": "So how hard could it be to find one instance?"
+  },
+  {
+    "t_start": 1014.042,
+    "t_end": 1015.76,
+    "text": "Harder than it sounds."
+  },
+  {
+    "t_start": 1017.95,
+    "t_end": 1022.6,
+    "text": "Alas researchers encountered a mathematical roadblock called the Natural Proofs"
+  },
+  {
+    "t_start": 1022.6,
+    "t_end": 1023.433,
+    "text": "Barrier."
+  },
+  {
+    "t_start": 1023.89,
+    "t_end": 1028.78,
+    "text": "This barrier implies that any proof that P doesn't equal NP using known circuit"
+  },
+  {
+    "t_start": 1028.78,
+    "t_end": 1033.04,
+    "text": "complexity techniques would have to have a bizarre and self-defeating character."
+  },
+  {
+    "t_start": 1033.85,
+    "t_end": 1036.07,
+    "text": "Clearly, a different way forward was needed."
+  },
+  {
+    "t_start": 1036.97,
+    "t_end": 1039.73,
+    "text": "While most researchers started looking for other approaches,"
+  },
+  {
+    "t_start": 1040.03,
+    "t_end": 1043.63,
+    "text": "some began to investigate the Natural Proofs Barrier itself,"
+  },
+  {
+    "t_start": 1043.66,
+    "t_end": 1045.37,
+    "text": "leading them to new questions."
+  },
+  {
+    "t_start": 1046.15,
+    "t_end": 1050.26,
+    "text": "How hard is it to determine the hardness of various computational problems?"
+  },
+  {
+    "t_start": 1050.71,
+    "t_end": 1053.17,
+    "text": "And why is it hard to determine how hard it is?"
+  },
+  {
+    "t_start": 1053.47,
+    "t_end": 1057.64,
+    "text": "It's a very meta area of computer science called meta-complexity."
+  },
+  {
+    "t_start": 1058.6,
+    "t_end": 1063.13,
+    "text": "It has turned out that a lot of the progress that one can make on"
+  },
+  {
+    "t_start": 1063.13,
+    "t_end": 1066.94,
+    "text": "problems like the P versus NP problem today, you know,"
+  },
+  {
+    "t_start": 1066.94,
+    "t_end": 1073.49,
+    "text": "arguments, involves sort of turning inward."
+  },
+  {
+    "t_start": 1073.85,
+    "t_end": 1075.793,
+    "text": "Given the limits of known techniques,"
+  },
+  {
+    "t_start": 1075.793,
+    "t_end": 1077.525,
+    "text": "meta-complexity researchers are"
+  },
+  {
+    "t_start": 1077.525,
+    "t_end": 1080.87,
+    "text": "searching for new approaches to solve some of the most important"
+  },
+  {
+    "t_start": 1080.96,
+    "t_end": 1083.3,
+    "text": "unanswered questions in computer science."
+  },
+  {
+    "t_start": 1083.75,
+    "t_end": 1086.956,
+    "text": "And crucially meta-complexity is intimately connected"
+  },
+  {
+    "t_start": 1086.956,
+    "t_end": 1091.43,
+    "text": "to the question of whether provably secure cryptography schemes even exist."
+  },
+  {
+    "t_start": 1093.2,
+    "t_end": 1097.07,
+    "text": "One important current focus of research is what's called the Minimum Circuit"
+  },
+  {
+    "t_start": 1097.07,
+    "t_end": 1099.53,
+    "text": "Size Problem, or MCSP."
+  },
+  {
+    "t_start": 1100.31,
+    "t_end": 1104.3,
+    "text": "MCSP is interested in determining the smallest possible circuit that can"
+  },
+  {
+    "t_start": 1104.3,
+    "t_end": 1107.076,
+    "text": "accurately compute a given Boolean function."
+  },
+  {
+    "t_start": 1107.076,
+    "t_end": 1108.74,
+    "text": "Is there a simple solution?"
+  },
+  {
+    "t_start": 1109.37,
+    "t_end": 1113.06,
+    "text": "The Minimum Circuit Size Problem is a problem about circuit complexity,"
+  },
+  {
+    "t_start": 1113.63,
+    "t_end": 1116.18,
+    "text": "but how complex is the problem itself?"
+  },
+  {
+    "t_start": 1116.84,
+    "t_end": 1120.41,
+    "text": "Researchers suspect that MCSP is NP complete,"
+  },
+  {
+    "t_start": 1121.1,
+    "t_end": 1124.85,
+    "text": "but unlike many other similar problems, they haven't been able to prove it."
+  },
+  {
+    "t_start": 1125.87,
+    "t_end": 1130.85,
+    "text": "A proof of MCSP's NP-completeness would be a big step towards showing that"
+  },
+  {
+    "t_start": 1130.86,
+    "t_end": 1133.19,
+    "text": "secure cryptography does exist."
+  },
+  {
+    "t_start": 1134.0,
+    "t_end": 1137.33,
+    "text": "And recently there's been tantalizing progress towards that goal."
+  },
+  {
+    "t_start": 1138.71,
+    "t_end": 1141.8,
+    "text": "Like the robot searching for safe passage in a foreign land,"
+  },
+  {
+    "t_start": 1142.07,
+    "t_end": 1147.073,
+    "text": "the pursuit of meta-complexity is blazing a trail for theoretical computer science."
+  },
+  {
+    "t_start": 1147.2,
+    "t_end": 1151.97,
+    "text": "A path that may lead to an answer to whether P equals NP or not."
+  },
+  {
+    "t_start": 1152.21,
+    "t_end": 1155.69,
+    "text": "If civilization lasts long enough, you know,"
+  },
+  {
+    "t_start": 1155.69,
+    "t_end": 1160.46,
+    "text": "I would tend to think that probably problems like P versus NP will"
+  },
+  {
+    "t_start": 1160.46,
+    "t_end": 1163.64,
+    "text": "someday be solved, and my main uncertainty is,"
+  },
+  {
+    "t_start": 1163.82,
+    "t_end": 1167.75,
+    "text": "is it humans who solve them or is it AI?"
+  },
+  {
+    "t_start": 1167.87,
+    "t_end": 1170.18,
+    "text": "Is it GPT 10 that"
+  },
+  {
+    "t_start": 1170.3,
+    "t_end": 1172.97,
+    "text": "solves the P versus NP problem for us?"
+  },
+  {
+    "t_start": 1172.97,
+    "t_end": 1176.21,
+    "text": "And then will we be able to understand the solution if it does?"
+  }
+]

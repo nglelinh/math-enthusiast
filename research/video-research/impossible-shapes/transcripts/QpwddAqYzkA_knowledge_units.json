@@ -1,0 +1,303 @@
+[
+  {
+    "id": "ku_video_QpwddAqYzkA_3",
+    "t_start": 3.9,
+    "t_end": 95.0,
+    "type": "overview",
+    "summary": "what I have done here and it might be possible to build at least an illusion possible to build at least an illusion of it and if you stare it long enough of it and if you stare it long enough you realize why it's impossible it does look like it has uh three right angles which doesn't really work in the normal which doesn't really work in the normal sense of a triangle um it's called an impossible triangle or the impossible tri-bar or a Penrose the impossible tri-bar or a Penrose triangle because it was not first triangle because it was not first discovered by Mr Penrose actually the discove…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_95",
+    "t_start": 95.0,
+    "t_end": 186.7,
+    "type": "overview",
+    "summary": "3D if you're gonna create an illusion that looked like the impossible tri-bar that looked like the impossible tri-bar could really exist in real space which has been done as you can see in some famous photos which are all on Wikipedia if you want to look them up so uh here's what I've ended up building in Johor and what I've ended up building in Johor and the rest of this video is me bashing my the rest of this video is me bashing my head against the brick wall or the head against the brick wall or the impossible brick wall of trying to build so I want to make an impossible shape in Jonesbo…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_186",
+    "t_start": 186.7,
+    "t_end": 279.8,
+    "type": "overview",
+    "summary": "we're going to try and I uh I don't know really how easy this is going to be but it's got to be it's got to be possible so I'm going to turn on the 3D Graphics I've turned on accidentally the second Graphics mode I don't really need that um I might leave the first Graphics mode open to have some buttons on and stuff open to have some buttons on and stuff and eventually I'll probably pop out the and eventually I'll probably pop out the Ultra review but let's just leave it all Ultra review but let's just leave it all like this to start with and the first thing to realize is that I think the p…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_279",
+    "t_start": 279.8,
+    "t_end": 371.2,
+    "type": "overview",
+    "summary": "well let's let's have a try starting I'm going to build it in the sort of going to build it in the sort of positive quadrant well I'm aware that we're sort of looking at an angle that might not be ideal maybe we should have might not be ideal maybe we should have all the things coming out towards us let's let's go over there so all the arrows are pointing sort of towards us arrows are pointing sort of towards us rather than away from us with a certain length and if we make that length of variable from the word go that length of variable from the word go then we should be able to change the …"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_371",
+    "t_start": 371.2,
+    "t_end": 462.2,
+    "type": "overview",
+    "summary": "the origin and I want four vertices I want it to be standing up so I guess this polygon needs some sort of is there a command for the Axis or the direction let's go back to the polygon direction let's go back to the polygon yeah there's a direction command yeah there's a direction command okay well let's try that again okay well let's try that again minus one zero zero zero zero zero um four vertices and Direction presumably means the normal Direction presumably means the normal Direction which would be the y-axis point is going that way okay let's just switch them over this is I haven't qu…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_462",
+    "t_start": 462.2,
+    "t_end": 559.0,
+    "type": "overview",
+    "summary": "1 and that's what I did before I must have undone it when I did controls it have undone it when I did controls it okay there's my cuboid so that's the okay there's my cuboid so that's the first cuboid length of my Tri bar let's set it to 10. and the nice Tri bar let's set it to 10. and the nice thing is we've got a slider we can thing is we've got a slider we can change it later on um so it's like length 10 I've got a width of one I didn't change the width of one I didn't change the yeah let's have another slider you know yeah let's have another slider you know for the sort of the width of …"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_560",
+    "t_start": 560.2,
+    "t_end": 650.6,
+    "type": "overview",
+    "summary": "and the direction will need to be the z-axis so let's just try and get the vertices and we'll do Z axis so I'm just kind of filling it in backwards these two points of them I'm not sure about so one of them needs to be the length of one of them needs to be the length of the bar so let's call that L that's the bar so let's call that L that's probably on the probably on the the y-axis the top of that keyboard so that's going to be the width of the original bar so that's going to be w and the next point and how it's going to draw it so let's try doing just one one back along that try doing jus…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_650",
+    "t_start": 650.6,
+    "t_end": 741.4,
+    "type": "overview",
+    "summary": "so far so good I have two bars you can already see however bar back here if this is angled in the right way it looks like it's going to overlap but the angle like it's going to overlap but the angle really does matter and that's confused really does matter and that's confused me now so it's rubbed I don't want it to and so getting it just right is going to be a pain we're going to have to do this sort of programmed scripted to get the angle right I think and let's just do angle right I think and let's just do the third cuboid I'm now worried that so that bar is length 10 but this one's got …"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_741",
+    "t_start": 741.4,
+    "t_end": 830.7,
+    "type": "overview",
+    "summary": "negative W to come away from the origin there there the y-axis needs to be zero then axis zero and then negative W on the X the Y needs to be the width so let's the right place I think that's actually where I wanted it I'm slightly impressed where I wanted it I'm slightly impressed with myself and I press return without with myself and I press return without meaning to too excited and let's just prismify that that's a verb don't at me that's a verb don't at me probably three height is this is where probably three height is this is where I'm not sure again L uh let's go the is that gone the …"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_832",
+    "t_start": 832.5,
+    "t_end": 916.9,
+    "type": "overview",
+    "summary": "okay let's get a way of viewing it correctly and to do that I think we're correctly and to do that I think we're gonna have to use a command called set gonna have to use a command called set view Direction and I want it to be at 45 degrees down exactly where everything's sort of oh exactly where everything's sort of oh that was that was pretty close um that was that was pretty close um so into the screen at the moment is I think it's negative on all of the axes because I made all the axes pointing out towards me so I think it is just the view direction that let's do set view view direction …"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_925",
+    "t_start": 925.3,
+    "t_end": 1017.2,
+    "type": "overview",
+    "summary": "that one's length nine uh I don't know what's going on let's try out minus one on that yeah you see one but yeah maybe this is the see one but yeah maybe this is the effect we need effect we need okay let's do the last one then this is going to be length plus one before I do it hey that's kind plus one before I do it hey that's kind of working it is kind of working okay now they're all length nine I mean it it looks right doesn't it as soon as I move the V round you're like wow that's not right but okay getting back to that view Direction by the way back to that view Direction by the way yo…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_1017",
+    "t_start": 1017.2,
+    "t_end": 1111.7,
+    "type": "overview",
+    "summary": "to interpret as a vector which is fine but I think that was it oh I just did but I think that was it oh I just did those two hopefully this button will just do it for us if I get it wrong and I can click that let me go back nice okay uh let's have a think about what to well what to do next is the thing is check that the variability that we built check that the variability that we built in is working which means if I change the length that does change the length of everything that's looking promising and if I change the width it just should just change the width it just should just change ea…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_1113",
+    "t_start": 1113.3,
+    "t_end": 1203.8,
+    "type": "overview",
+    "summary": "but it's not a length of 10 over there it's 11 over there and if I shift that it's not going to line up anymore okay well let's just try shifting and then deal with it so the then deal with it so the let's say the the length of the full the width which is w and the length of the actual cuboid so what have I made the actual cuboid so what have I made the length of the actual keyboard let's the length of the actual keyboard let's go back to that I think it was a L minus one so I think it needs to be almost W that might fix it that might almost W that might fix it that might fix it circular de…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_1203",
+    "t_start": 1203.8,
+    "t_end": 1295.0,
+    "type": "overview",
+    "summary": "you get these things lining up now to make it look like they actually join I make it look like they actually join I think we're gonna have to be think we're gonna have to be a bit clever and what I'd also like to faces look continuous so this face which is facing in the sort of X Direction out capturing my mouse pointer so I've been pointing to things and it hasn't been pointing to things and it hasn't been obvious let me just fix that obvious let me just fix that apologies if I've been talking all the apologies if I've been talking all the way through the first part of this video happening…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_1294",
+    "t_start": 1295.0,
+    "t_end": 1387.0,
+    "type": "overview",
+    "summary": "first of all let's make these opaque so they look the same and do that quick way they look the same and do that quick way of doing it this is the opacity slider of doing it this is the opacity slider okay uh why are they different colors okay uh why are they different colors what's going on there are they just that face I want to look the same color as that are they are they just different as that are they are they just different colors no I'm going to turn the auxiliary objects on and then do away this mess I'm going to turn on object type so that we've got points polygons and those are th…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_1388",
+    "t_start": 1388.6,
+    "t_end": 1478.6,
+    "type": "overview",
+    "summary": "doesn't like updating that one that's strange but it is oh that was that was the square sorry have I just been changing the properties of building things no I was changing that let's just change this to bright red and see what happens red and see what happens and but now the edges are visible again those edges let's just turn all the edges if I turn them all on and then all and we need to check whether JoJo is using the lighting so in the graphics using the lighting so in the graphics drop down drop down um in projection no in basic you can use lighting let's see what that you can use light…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_1478",
+    "t_start": 1478.6,
+    "t_end": 1574.8,
+    "type": "overview",
+    "summary": "different faces so maybe I do all of them as like a pair of faces faces in here so let's face one is not obvious uh I'm also going to make all of obvious uh I'm also going to make all of these things only visible on graphics 3D these things only visible on graphics 3D Graphics let's take them off that and Graphics let's take them off that and hopefully oh they do still tell them hopefully oh they do still tell them because these quadrilaterals oh that's a because these quadrilaterals oh that's a mess uh tell you what let's let's hide mess uh tell you what let's let's hide them all right the…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_1576",
+    "t_start": 1576.7,
+    "t_end": 1666.9,
+    "type": "overview",
+    "summary": "I'm not sure what I want for the moment but anyway there's the Zed facing faces but anyway there's the Zed facing faces that I care about so let's do the same with the X and Y let's find out which ones they are the ones facing out let's ones they are the ones facing out let's find one of them that's facing in the X Direction and so also will be this one nope this one nope also will be this one nope this one nope this one nope and this one yay those two and the Y faces facing that way facing that way no that one doesn't need one so it's one of these that one and that one and those are the on…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_1668",
+    "t_start": 1668.6,
+    "t_end": 1758.6,
+    "type": "overview",
+    "summary": "I'm worried that I'm getting confused by the way JoJo rebuilds solids and if I just build them faces Facebook like manually that would have been better but manually that would have been better but let's let's carry on working with this if I just turn on right so the x-faces is five and four let's just the x-faces is five and four let's just turn those two on turn those two on and the and the y faces are six and ten and the Z faces are three and eleven so these are the only ones I really need you can see that's got the shapes going you can see that's got the shapes going I want I still got t…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_1758",
+    "t_start": 1758.6,
+    "t_end": 1848.0,
+    "type": "overview",
+    "summary": "go with that has that worked is it because it's kind of the face it thinks the face is the other way around which might be doing clever things that I don't want to do okay right fine I don't want to do okay right fine that's working now except for the fact that that overlaps so what I need to do instead I think so what I need to do instead I think just to get the effect and by the way you see now they're just it's just the shells of the cuboids it's just the shells of the cuboids going on that's all I need to make the the colors aren't sufficiently different but I'll deal with that in a bit…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_1855",
+    "t_start": 1855.0,
+    "t_end": 1946.6,
+    "type": "overview",
+    "summary": "maybe yeah I think that point is in the right place it looks like it's lined up right place it looks like it's lined up I mean obviously it's only there when I I mean obviously it's only there when I line it that's the point so I kind of want to build a face that just chops that corner build a face that just chops that corner off so let's turn that face off which one is it uh four no five and build a new one that's dead and build a new one that's dead confusing now let's just build a polygon from some points I'm gonna I'm gonna type them there's probably a better way to do this but let's ju…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_1946",
+    "t_start": 1946.6,
+    "t_end": 2039.1,
+    "type": "overview",
+    "summary": "finally let's just call it m because I've just defined that I've just defined that right now it's the wrong color but that's looking good I don't want the segments to be visible so let's just segments to be visible so let's just turn those off and let's make M invisible as well I don't really need the m to be seen don't really need the m to be seen that's looking promising I'd like it to that's looking promising I'd like it to be opaque or let's call this off q1 be opaque or let's call this off q1 that's confusing but I made these dark blue no that's already looking like the no that's alrea…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_2041",
+    "t_start": 2041.3,
+    "t_end": 2137.7,
+    "type": "overview",
+    "summary": "let's do the spinning first and the bit that's worrying me here is that I've got that's worrying me here is that I've got to get the right Axis to rotate this to get the right Axis to rotate this around so I want to leave the angle with which is in the sort of 45 degree down Direction that's what it looks like to Direction that's what it looks like to me I have no idea how these pointing me I have no idea how these pointing things this is hard enough for me to things this is hard enough for me to think about let's think about how you're think about let's think about how you're seeing it on …"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_2139",
+    "t_start": 2139.5,
+    "t_end": 2232.9,
+    "type": "overview",
+    "summary": "okay I could go and do some maths but doing this live is probably going to doing this live is probably going to take longer for me I want to feel I feel geometric way of engineering A Center Point that's easier for me just to do so first of all it's the center of this apparent equilateral triangle here that's only apparent because it's not a triangle it's a bit earlier shape made so that I can't sort of like draw that triangle and find its Center or I could triangle and find its Center or I could well but I have to Define that point there which doesn't yet exist which doesn't yet exist from…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_2232",
+    "t_start": 2232.9,
+    "t_end": 2323.4,
+    "type": "overview",
+    "summary": "the point up there yeah so it's that or maybe it is going to be where I thought maybe it is going to be where I thought it was so let's just zoom out a bit and I need the 11 back I think it's wait is it drawing a triangle for me wait is it drawing a triangle for me already what let's try that again there there will snap to points there and let's go back to that one so if I view that from the correct angle that's not the triangle I was going for that's not the triangle I was going for I need to go out another one there but luckily I should just be able to drag queue so that is a right angle …"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_2323",
+    "t_start": 2323.4,
+    "t_end": 2413.9,
+    "type": "overview",
+    "summary": "button here I don't know what let's find out if I just click on that polygon doing that there we go it's made it end as well and it is negative four three but it will change as I move this around Australia and it's defined it's called Australia and it's defined it's called or centroid of course it is there's a forgotten about and I need to make p o and Q which Define this triangle depend and Q which Define this triangle depend on not w on not w but on l okay and the way I've built it is that P should stay where it is so right let's should stay where it is so right let's make Q make Q B l pl…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_2413",
+    "t_start": 2413.9,
+    "t_end": 2511.5,
+    "type": "overview",
+    "summary": "negative one and zero on the height not what I expected I've got to go the weird I'm very puzzled about that but I think Q is in the right place if I I'm going to change out as well before I check whether this is working so check whether this is working so well let's make well let's make this be uh the menu here so it's not a point on the wireless I just want it just to be a wireless I just want it just to be a point which has x coordinate zero y point which has x coordinate zero y coordinate I feel like I might have to have W in this and we're NZ zero is that working I think that's working…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_2513",
+    "t_start": 2513.3,
+    "t_end": 2604.0,
+    "type": "overview",
+    "summary": "uh strange Q see what happens uh Point Q is defined to be L let's do it is defined to be L let's do it 2W this time and that's going to be looking better already and O needs adjusting instead of plus one it should adjusting instead of plus one it should be plus W why did that change don't be weird that I think is defining always the that I think is defining always the right angle triangle that when you view right angle triangle that when you view it from the correct angle looks like the it from the correct angle looks like the bounding equilateral triangle let's set bounding equilateral tri…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_2603",
+    "t_start": 2604.0,
+    "t_end": 2696.1,
+    "type": "overview",
+    "summary": "and now I hope if I rotate these things up here they should become visible let's I don't know if this is going to work let's try it rotate let's just do X faces for now uh about oh I need a slider for an angle let's call it Theta see if it offers me let's call it Theta see if it offers me a slide of theta and I think I need the axis which is going to be the line I don't know if that's the order it wants don't know if that's the order it wants it the Theta going on let's use it just what haven't I used Alpha let's try that create a slide forever yes please this is looking promising right I n…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_2696",
+    "t_start": 2696.1,
+    "t_end": 2781.2,
+    "type": "overview",
+    "summary": "I just get the rotating ones so let's color these something nice maybe I'll color these something nice maybe I'll change my color scheme now the rotated X uh is gonna be kind of I'm going to stick with dark blue maybe I'll try and stick with dark blue maybe I'll try and get some other blues and we'll make it get some other blues and we'll make it opaque and that is opaque and that is promising let's just do the other ones rotate the Y faces the Y faces by Alpha by Alpha about I this person will make them opaque and maybe I'll get a proper color choice this is where I need to think about how…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_2786",
+    "t_start": 2786.4,
+    "t_end": 2877.8,
+    "type": "overview",
+    "summary": "let's try again if I jump that up to I don't know 100 maybe I should be using a different color uh system color uh system foreign foreign that looks better I can't tell if the selection is doing something funny if I select it it's something funny if I select it it's going to change going to change ah dead confusing ah dead confusing stop selecting it if everything is oh no okay things are bugging out uh today and I'm annoyed bugging out uh today and I'm annoyed about it but we're just gonna roll with about it but we're just gonna roll with it because it's almost working it because it's almo…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_2880",
+    "t_start": 2880.1,
+    "t_end": 2970.6,
+    "type": "overview",
+    "summary": "because this object doesn't exist in 3D it looks like it does I'm going to turn it looks like it does I'm going to turn the the main Graphics Plane off here and the the main Graphics Plane off here and maybe I'll just make alpha increase maybe I'll just make alpha increase instead of oscillate at it from any other angle you can see it's just this framework spinning around it's just this framework spinning around a particular axis I like that it's a pleasing it's pleasing to me if no one else watching it likes it else watching it likes it that's fine the axes here as well like if it was in f…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_2970",
+    "t_start": 2970.6,
+    "t_end": 3062.9,
+    "type": "overview",
+    "summary": "in that lecture but one of the particular ones he talks about is how particular ones he talks about is how you get lightings and Shadow to look you get lightings and Shadow to look right really easily using a piece of vector maths which is the idea that if you know which angle the idea that if you know which angle the light is coming from or you have a and you have a surface then it basically all that matters is what angle it all that matters is what angle it strikes a surface if it's bang on you strikes a surface if it's bang on you feel like you're going to get a uh a lot of reflection an…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_3062",
+    "t_start": 3062.9,
+    "t_end": 3153.1,
+    "type": "overview",
+    "summary": "able to drag this dot around in fact that's just a a point for the light to that's just a a point for the light to come through come from and maybe I come through come from and maybe I should always aim the light towards the should always aim the light towards the shape oh now I'm confused again where's the center of this shape to aim at I could use that point I'd defined at I could use that point I'd defined earlier what was it called n right arbitrarily I'm just going to say the the light comes from R and let's the the light comes from R and let's rename R to be something we can remember …"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_3153",
+    "t_start": 3153.1,
+    "t_end": 3242.9,
+    "type": "overview",
+    "summary": "and I'm not I'm a bit color vision deficient I have issues I think I'd do deficient I have issues I think I'd do Tanner deficient or something red green colorblind is what a lot of people call it um it's really hard to describe what it um it's really hard to describe what it is because it looks normal to me but apparently I'm seeing stuff weirdly that's not an excuse there are there are that's not an excuse there are there are three ways to Define colors at least in jojoba and in lots of other Graphics applications I think I talked about this applications I think I talked about this in anot…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_3244",
+    "t_start": 3244.3,
+    "t_end": 3336.2,
+    "type": "overview",
+    "summary": "now I don't know what I'm doing so I gotta pick a random Hue uh let's just go gotta pick a random Hue uh let's just go in the middle I've no idea think of it as a wheel but I'm just I think this judge Works between zero and think this judge Works between zero and one so I'm going to go halfway through one so I'm going to go halfway through uh what's that done has that made it blue is that by some complete fluke the same color as I just had no idea let's no idea let's keep going keep going um saturation one I don't want like normals as well so before I can do this I need the normals that com…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_3338",
+    "t_start": 3338.2,
+    "t_end": 3428.3,
+    "type": "overview",
+    "summary": "think it's all right let's check it on this one then so uh we'll just work with this one then so uh we'll just work with that change the Z faces so that its color depends on that so the value of depends on that so the value of do I do it in here do I Define it in do I do it in here do I Define it in Jojo and I'm just going to try it dot is do I have a light Vector what's it called I didn't name it did I oh you let's rename it elvec for light Vector again with my terrible naming convention let's let's finish the job now surely I've got enough information now the I'd like the enough informati…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_3428",
+    "t_start": 3428.3,
+    "t_end": 3520.3,
+    "type": "overview",
+    "summary": "this rotate I need an I want a button for spin the thing you can use a for spin the thing you can use a checkbox not doing this in a particularly good order but let's do uh a spin button there's a check box for yes on like if it's either spinning or it's not it's it's either spinning or it's not it's Boolean value D and on the update I want Alpha based on this value I'll just make called D I think that that will just do called D I think that that will just do it instantly it instantly spin spin has gone dark is it gonna get bright again it's gone Bright Now okay I I think that is doing what…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_3520",
+    "t_start": 3520.3,
+    "t_end": 3610.5,
+    "type": "overview",
+    "summary": "anyway this is working so don't ask too many questions questions don't ask too many questions questions Alpha about hi no that's no no no no no Alpha about hi no that's no no no no no no no I yeah check my input damn straight should have a little axis rotation going on on yeah there they are that's kind of nice and now I'm ready to to dot them so the Y faces in the advanced I'm going to change it to Hue saturation and value to Hue saturation and value it's got Hue that at the moment what I don't know what I want there let's just try that oh it's gone just try that oh it's gone green I don't…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_3610",
+    "t_start": 3610.5,
+    "t_end": 3703.4,
+    "type": "overview",
+    "summary": "up okay but now they they should be the same color but just with different same color but just with different lighting on them they you could there must be a place where they're the same color let's do it it's kind of a greeny cyan I guess cyan has value 0.50 oh sorry Q 0.5 guess cyan has value 0.50 oh sorry Q 0.5 don't say value when that's a different don't say value when that's a different thing thing let's do the last one the x-faces uh HSB 0.5 saturation one valued dot this time extra which I think I have with L deck it's cool I can feel like I'm moving a light source around and if I j…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_3703",
+    "t_start": 3703.4,
+    "t_end": 3796.1,
+    "type": "overview",
+    "summary": "elvec doesn't need a name though n should probably disappear maybe I should make the light dot yellow can make the background dark oh no I I want to make the background different color maybe I do background let's make certainly gives him more impression of light coming from light coming from a thing of niceness where's that why did the light disappear there why is it Vanishing there why is it Vanishing ah changes color when it's selected I don't get how these uh these colors work let's uh make it big I could actually put a sphere around it but I maybe that dark gray is the selected color so…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_3796",
+    "t_start": 3796.1,
+    "t_end": 3888.5,
+    "type": "overview",
+    "summary": "okay I I think I've been messing around with this enough for now let's like with this enough for now let's like let's just report back on what we've let's just report back on what we've done we've got this object which looks done we've got this object which looks great uh it's being lit by a real light object uh particularly if I turn the axes off it's not cutting any axes but uh depending on where I put the light it looks different and you know and I know looks different and you know and I know that that object is impossible and the that that object is impossible and the only way that is e…"
+  },
+  {
+    "id": "ku_video_QpwddAqYzkA_3890",
+    "t_start": 3890.3,
+    "t_end": 3951.8,
+    "type": "overview",
+    "summary": "oh I looked at it from the back there by the way if you if you um if you do the the way if you if you um if you do the command set view Direction and it's command set view Direction and it's already on the Right View it'll do the already on the Right View it'll do the negative of that um and this is looking negative of that um and this is looking from the back and you can see something from the back and you can see something weird is happening because we've just weird is happening because we've just we're looking sort of inside these we're looking sort of inside these objects it does look q…"
+  }
+]

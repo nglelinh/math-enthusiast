@@ -1,0 +1,1352 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 2.73,
+    "text": "Picture this: You wake up one morning and"
+  },
+  {
+    "t_start": 2.73,
+    "t_end": 5.1,
+    "text": "you feel a little bit sick. No particular"
+  },
+  {
+    "t_start": 5.1,
+    "t_end": 7.23,
+    "text": "symptoms, just not 100%."
+  },
+  {
+    "t_start": 7.23,
+    "t_end": 9.269,
+    "text": "So you go to the doctor and she also"
+  },
+  {
+    "t_start": 9.269,
+    "t_end": 10.62,
+    "text": "doesn't know what's going on with you, so"
+  },
+  {
+    "t_start": 10.62,
+    "t_end": 13.2,
+    "text": "she suggests they run a battery of tests"
+  },
+  {
+    "t_start": 13.2,
+    "t_end": 15.929,
+    "text": "and after a week goes by, the results"
+  },
+  {
+    "t_start": 15.929,
+    "t_end": 18.27,
+    "text": "come back, turns out you tested positive"
+  },
+  {
+    "t_start": 18.27,
+    "t_end": 20.58,
+    "text": "for a very rare disease that affects"
+  },
+  {
+    "t_start": 20.58,
+    "t_end": 22.02,
+    "text": "about 0.1% of the"
+  },
+  {
+    "t_start": 22.02,
+    "t_end": 23.73,
+    "text": "population and it's a nasty disease,"
+  },
+  {
+    "t_start": 23.73,
+    "t_end": 25.32,
+    "text": "horrible consequences, you don't want it."
+  },
+  {
+    "t_start": 25.32,
+    "t_end": 27.63,
+    "text": "So you ask the doctor \"You know, how"
+  },
+  {
+    "t_start": 27.63,
+    "t_end": 29.67,
+    "text": "certain is it that I have this disease?\""
+  },
+  {
+    "t_start": 29.67,
+    "t_end": 31.8,
+    "text": "and she says \"Well, the test will"
+  },
+  {
+    "t_start": 31.8,
+    "t_end": 34.62,
+    "text": "correctly identify 99% of people that"
+  },
+  {
+    "t_start": 34.62,
+    "t_end": 36.96,
+    "text": "have the disease and only incorrectly"
+  },
+  {
+    "t_start": 36.96,
+    "t_end": 39.059,
+    "text": "identify 1% of people who don't"
+  },
+  {
+    "t_start": 39.059,
+    "t_end": 42.0,
+    "text": "have the disease\". So that sounds pretty"
+  },
+  {
+    "t_start": 42.0,
+    "t_end": 44.489,
+    "text": "bad. I mean, what are the chances that you"
+  },
+  {
+    "t_start": 44.489,
+    "t_end": 47.85,
+    "text": "actually have this disease? I think most"
+  },
+  {
+    "t_start": 47.85,
+    "t_end": 50.43,
+    "text": "people would say 99%, because"
+  },
+  {
+    "t_start": 50.43,
+    "t_end": 53.85,
+    "text": "that's the accuracy of the test. But that"
+  },
+  {
+    "t_start": 53.85,
+    "t_end": 57.82,
+    "text": "is not actually correct! You need Bayes' Theorem"
+  },
+  {
+    "t_start": 57.9,
+    "t_end": 61.56,
+    "text": "to get some perspective."
+  },
+  {
+    "t_start": 68.34,
+    "t_end": 70.24,
+    "text": "Bayes' Theorem can give you the"
+  },
+  {
+    "t_start": 70.24,
+    "t_end": 72.07,
+    "text": "probability that some hypothesis, say"
+  },
+  {
+    "t_start": 72.07,
+    "t_end": 73.72,
+    "text": "that you actually have the disease, is"
+  },
+  {
+    "t_start": 73.72,
+    "t_end": 76.96,
+    "text": "true given an event; that you tested"
+  },
+  {
+    "t_start": 76.96,
+    "t_end": 79.21,
+    "text": "positive for the disease. To calculate"
+  },
+  {
+    "t_start": 79.21,
+    "t_end": 80.5,
+    "text": "this, you need to take the prior"
+  },
+  {
+    "t_start": 80.5,
+    "t_end": 82.72,
+    "text": "probability of the hypothesis was true - that"
+  },
+  {
+    "t_start": 82.72,
+    "t_end": 84.52,
+    "text": "is, how likely you thought it was that"
+  },
+  {
+    "t_start": 84.52,
+    "t_end": 86.11,
+    "text": "you have this disease before you got the"
+  },
+  {
+    "t_start": 86.11,
+    "t_end": 88.03,
+    "text": "test results - and multiply it by the"
+  },
+  {
+    "t_start": 88.03,
+    "t_end": 89.71,
+    "text": "probability of the event given the"
+  },
+  {
+    "t_start": 89.71,
+    "t_end": 91.6,
+    "text": "hypothesis is true - that is, the"
+  },
+  {
+    "t_start": 91.6,
+    "t_end": 92.89,
+    "text": "probability that you would test positive"
+  },
+  {
+    "t_start": 92.89,
+    "t_end": 95.77,
+    "text": "if you had the disease - and then divide"
+  },
+  {
+    "t_start": 95.77,
+    "t_end": 97.6,
+    "text": "that by the total probability of the"
+  },
+  {
+    "t_start": 97.6,
+    "t_end": 99.399,
+    "text": "event occurring - that is testing positive."
+  },
+  {
+    "t_start": 99.399,
+    "t_end": 101.71,
+    "text": "This term is a combination of your"
+  },
+  {
+    "t_start": 101.71,
+    "t_end": 103.21,
+    "text": "probability of having the disease and"
+  },
+  {
+    "t_start": 103.21,
+    "t_end": 105.34,
+    "text": "correctly testing positive plus your"
+  },
+  {
+    "t_start": 105.34,
+    "t_end": 106.899,
+    "text": "probability of not having the disease"
+  },
+  {
+    "t_start": 106.899,
+    "t_end": 109.75,
+    "text": "and being falsely identified. The prior"
+  },
+  {
+    "t_start": 109.75,
+    "t_end": 111.729,
+    "text": "probability that a hypothesis is true is"
+  },
+  {
+    "t_start": 111.729,
+    "t_end": 113.35,
+    "text": "often the hardest part of this equation"
+  },
+  {
+    "t_start": 113.35,
+    "t_end": 115.96,
+    "text": "to figure out and, sometimes, it's no"
+  },
+  {
+    "t_start": 115.96,
+    "t_end": 117.97,
+    "text": "better than a guess. But in this case, a"
+  },
+  {
+    "t_start": 117.97,
+    "t_end": 119.56,
+    "text": "reasonable starting point is the"
+  },
+  {
+    "t_start": 119.56,
+    "t_end": 120.789,
+    "text": "frequency of the disease in the"
+  },
+  {
+    "t_start": 120.789,
+    "t_end": 123.729,
+    "text": "population, so 0.1%. And if"
+  },
+  {
+    "t_start": 123.729,
+    "t_end": 125.11,
+    "text": "you plug in the rest of the numbers, you"
+  },
+  {
+    "t_start": 125.11,
+    "t_end": 126.97,
+    "text": "find that you have a 9% chance"
+  },
+  {
+    "t_start": 126.97,
+    "t_end": 129.34,
+    "text": "of actually having the disease after"
+  },
+  {
+    "t_start": 129.34,
+    "t_end": 132.28,
+    "text": "testing positive. Which is incredibly low"
+  },
+  {
+    "t_start": 132.28,
+    "t_end": 134.739,
+    "text": "if you think about it. Now, this isn't"
+  },
+  {
+    "t_start": 134.739,
+    "t_end": 137.17,
+    "text": "some sort of crazy magic. It's actually"
+  },
+  {
+    "t_start": 137.17,
+    "t_end": 139.87,
+    "text": "common sense applied to mathematics. Just"
+  },
+  {
+    "t_start": 139.87,
+    "t_end": 142.03,
+    "text": "think about a sample size of 1000"
+  },
+  {
+    "t_start": 142.03,
+    "t_end": 144.67,
+    "text": "people. Now, one person out of that"
+  },
+  {
+    "t_start": 144.67,
+    "t_end": 147.04,
+    "text": "thousand, is likely to actually have the"
+  },
+  {
+    "t_start": 147.04,
+    "t_end": 148.18,
+    "text": "disease. And the test would likely"
+  },
+  {
+    "t_start": 148.18,
+    "t_end": 150.16,
+    "text": "identify them correctly as having the"
+  },
+  {
+    "t_start": 150.16,
+    "t_end": 153.25,
+    "text": "disease. But out of the 999 other people,"
+  },
+  {
+    "t_start": 153.25,
+    "t_end": 157.03,
+    "text": "1% or 10 people would falsely"
+  },
+  {
+    "t_start": 157.03,
+    "t_end": 158.92,
+    "text": "be identified as having the disease. So,"
+  },
+  {
+    "t_start": 158.92,
+    "t_end": 160.84,
+    "text": "if you're one of those people who has a"
+  },
+  {
+    "t_start": 160.84,
+    "t_end": 163.18,
+    "text": "positive test result and everyone's just"
+  },
+  {
+    "t_start": 163.18,
+    "t_end": 164.53,
+    "text": "selected at random - well, you're actually"
+  },
+  {
+    "t_start": 164.53,
+    "t_end": 166.78,
+    "text": "part of a group of 11 where only one"
+  },
+  {
+    "t_start": 166.78,
+    "t_end": 170.019,
+    "text": "person has the disease. So your chances"
+  },
+  {
+    "t_start": 170.019,
+    "t_end": 176.109,
+    "text": "of actually having it are 1 in 11. 9%. It just makes sense. When Bayes"
+  },
+  {
+    "t_start": 176.109,
+    "t_end": 178.03,
+    "text": "first came up with this theorem he"
+  },
+  {
+    "t_start": 178.03,
+    "t_end": 181.18,
+    "text": "revolutionary. He didn't even think it"
+  },
+  {
+    "t_start": 181.18,
+    "t_end": 182.769,
+    "text": "was worthy of publication, he didn't"
+  },
+  {
+    "t_start": 182.769,
+    "t_end": 184.87,
+    "text": "submit it to the Royal Society of which"
+  },
+  {
+    "t_start": 184.87,
+    "t_end": 187.0,
+    "text": "he was a member, and in fact it was"
+  },
+  {
+    "t_start": 187.0,
+    "t_end": 189.4,
+    "text": "discovered in his papers after he died"
+  },
+  {
+    "t_start": 189.4,
+    "t_end": 192.37,
+    "text": "and he had abandoned it for more than a"
+  },
+  {
+    "t_start": 192.37,
+    "t_end": 194.89,
+    "text": "decade. His relatives asked his friend,"
+  },
+  {
+    "t_start": 194.89,
+    "t_end": 196.81,
+    "text": "Richard Price, to dig through his papers"
+  },
+  {
+    "t_start": 196.81,
+    "t_end": 198.43,
+    "text": "and see if there is anything worth"
+  },
+  {
+    "t_start": 198.43,
+    "t_end": 199.63,
+    "text": "publishing in there. And that's where"
+  },
+  {
+    "t_start": 199.63,
+    "t_end": 201.45,
+    "text": "Price discovered what we now know as"
+  },
+  {
+    "t_start": 201.45,
+    "t_end": 204.15,
+    "text": "the origins of Bayes' Theorem. Bayes"
+  },
+  {
+    "t_start": 204.15,
+    "t_end": 205.98,
+    "text": "originally considered a thought"
+  },
+  {
+    "t_start": 205.98,
+    "t_end": 208.05,
+    "text": "experiment where he was sitting with his"
+  },
+  {
+    "t_start": 208.05,
+    "t_end": 210.03,
+    "text": "back to a perfectly flat, perfectly"
+  },
+  {
+    "t_start": 210.03,
+    "t_end": 211.95,
+    "text": "square table and then he would ask an"
+  },
+  {
+    "t_start": 211.95,
+    "t_end": 214.23,
+    "text": "assistant to throw a ball onto the table."
+  },
+  {
+    "t_start": 214.23,
+    "t_end": 217.17,
+    "text": "Now this ball could obviously land and"
+  },
+  {
+    "t_start": 217.17,
+    "t_end": 219.3,
+    "text": "end up anywhere on the table and he"
+  },
+  {
+    "t_start": 219.3,
+    "t_end": 221.28,
+    "text": "wanted to figure out where it was. So"
+  },
+  {
+    "t_start": 221.28,
+    "t_end": 223.05,
+    "text": "what he'd asked his assistant to do was"
+  },
+  {
+    "t_start": 223.05,
+    "t_end": 225.51,
+    "text": "to throw on another ball and then tell him"
+  },
+  {
+    "t_start": 225.51,
+    "t_end": 227.76,
+    "text": "if it landed to the left, or to the right,"
+  },
+  {
+    "t_start": 227.76,
+    "t_end": 230.79,
+    "text": "or in front, behind of the first ball, and"
+  },
+  {
+    "t_start": 230.79,
+    "t_end": 234.63,
+    "text": "he would note that down and then ask for"
+  },
+  {
+    "t_start": 234.63,
+    "t_end": 236.31,
+    "text": "more and more balls to be thrown on the"
+  },
+  {
+    "t_start": 236.31,
+    "t_end": 238.56,
+    "text": "table. What he realized, was that through"
+  },
+  {
+    "t_start": 238.56,
+    "t_end": 241.019,
+    "text": "this method he could keep updating his"
+  },
+  {
+    "t_start": 241.019,
+    "t_end": 243.39,
+    "text": "idea of where the first ball was. Now of"
+  },
+  {
+    "t_start": 243.39,
+    "t_end": 244.62,
+    "text": "course, he would never be completely"
+  },
+  {
+    "t_start": 244.62,
+    "t_end": 246.66,
+    "text": "certain, but with each new piece of"
+  },
+  {
+    "t_start": 246.66,
+    "t_end": 248.97,
+    "text": "evidence, he would get more and more"
+  },
+  {
+    "t_start": 248.97,
+    "t_end": 252.69,
+    "text": "accurate, and that's how Bayes saw the"
+  },
+  {
+    "t_start": 252.69,
+    "t_end": 254.579,
+    "text": "world. It wasn't that he thought the"
+  },
+  {
+    "t_start": 254.579,
+    "t_end": 257.19,
+    "text": "world was not determined, that reality"
+  },
+  {
+    "t_start": 257.19,
+    "t_end": 260.01,
+    "text": "didn't quite exist, but it was that we"
+  },
+  {
+    "t_start": 260.01,
+    "t_end": 262.38,
+    "text": "couldn't know it perfectly, and all we"
+  },
+  {
+    "t_start": 262.38,
+    "t_end": 264.419,
+    "text": "could hope to do was update our"
+  },
+  {
+    "t_start": 264.419,
+    "t_end": 266.88,
+    "text": "understanding as more and more evidence"
+  },
+  {
+    "t_start": 266.88,
+    "t_end": 269.729,
+    "text": "became available. When Richard Price"
+  },
+  {
+    "t_start": 269.729,
+    "t_end": 273.33,
+    "text": "introduced Bayes' Theorem, he made an"
+  },
+  {
+    "t_start": 273.33,
+    "t_end": 275.58,
+    "text": "analogy to a man coming out of a cave,"
+  },
+  {
+    "t_start": 275.58,
+    "t_end": 277.77,
+    "text": "maybe he'd lived his whole life in there"
+  },
+  {
+    "t_start": 277.77,
+    "t_end": 279.78,
+    "text": "and he saw the Sun rise for the first"
+  },
+  {
+    "t_start": 279.78,
+    "t_end": 281.97,
+    "text": "time, and kind of thought to himself: \"Is,"
+  },
+  {
+    "t_start": 281.97,
+    "t_end": 284.039,
+    "text": "Is this a one-off, is this a quirk, or"
+  },
+  {
+    "t_start": 284.039,
+    "t_end": 286.68,
+    "text": "does the Sun always do this?\" And then,"
+  },
+  {
+    "t_start": 286.68,
+    "t_end": 289.41,
+    "text": "every day after that, as the Sun rose"
+  },
+  {
+    "t_start": 289.41,
+    "t_end": 291.9,
+    "text": "again, he could get a little bit more"
+  },
+  {
+    "t_start": 291.9,
+    "t_end": 295.05,
+    "text": "confident, that, well, that was the way the"
+  },
+  {
+    "t_start": 295.05,
+    "t_end": 297.51,
+    "text": "world works. So Bayes' Theorem wasn't"
+  },
+  {
+    "t_start": 297.51,
+    "t_end": 300.84,
+    "text": "just once, it was intended to be used"
+  },
+  {
+    "t_start": 300.84,
+    "t_end": 303.27,
+    "text": "multiple times, each time gaining new"
+  },
+  {
+    "t_start": 303.27,
+    "t_end": 305.94,
+    "text": "evidence and updating your probability"
+  },
+  {
+    "t_start": 305.94,
+    "t_end": 308.19,
+    "text": "that something is true. So if we go back"
+  },
+  {
+    "t_start": 308.19,
+    "t_end": 309.75,
+    "text": "to the first example when you tested"
+  },
+  {
+    "t_start": 309.75,
+    "t_end": 312.389,
+    "text": "positive for a disease, what would happen"
+  },
+  {
+    "t_start": 312.389,
+    "t_end": 314.669,
+    "text": "if you went to another doctor, get a"
+  },
+  {
+    "t_start": 314.669,
+    "t_end": 316.56,
+    "text": "second opinion and get that test run"
+  },
+  {
+    "t_start": 316.56,
+    "t_end": 318.479,
+    "text": "again, but let's say by a different lab,"
+  },
+  {
+    "t_start": 318.479,
+    "t_end": 320.039,
+    "text": "just to be sure that those tests are"
+  },
+  {
+    "t_start": 320.039,
+    "t_end": 322.83,
+    "text": "independent, and let's say that test also"
+  },
+  {
+    "t_start": 322.83,
+    "t_end": 325.56,
+    "text": "comes back as positive. Now what is the"
+  },
+  {
+    "t_start": 325.56,
+    "t_end": 327.419,
+    "text": "probability that you actually have the"
+  },
+  {
+    "t_start": 327.419,
+    "t_end": 329.64,
+    "text": "disease? Well, you can use Bayes formula"
+  },
+  {
+    "t_start": 329.64,
+    "t_end": 332.099,
+    "text": "again, except this time for your prior"
+  },
+  {
+    "t_start": 332.099,
+    "t_end": 333.599,
+    "text": "probability that you have the disease,"
+  },
+  {
+    "t_start": 333.599,
+    "t_end": 335.4,
+    "text": "you have to put in the posterior"
+  },
+  {
+    "t_start": 335.4,
+    "t_end": 337.29,
+    "text": "probability, the probability that we"
+  },
+  {
+    "t_start": 337.29,
+    "t_end": 339.03,
+    "text": "worked out before which is 9%,"
+  },
+  {
+    "t_start": 339.03,
+    "t_end": 340.53,
+    "text": "because you've already had one positive"
+  },
+  {
+    "t_start": 340.53,
+    "t_end": 343.8,
+    "text": "test. If you crunch those numbers, the new"
+  },
+  {
+    "t_start": 343.8,
+    "t_end": 346.919,
+    "text": "probability based on two positive tests"
+  },
+  {
+    "t_start": 346.919,
+    "t_end": 349.259,
+    "text": "is 91%. There's a"
+  },
+  {
+    "t_start": 349.259,
+    "t_end": 350.58,
+    "text": "91% chance that you"
+  },
+  {
+    "t_start": 350.58,
+    "t_end": 352.199,
+    "text": "actually have the disease, which kind of"
+  },
+  {
+    "t_start": 352.199,
+    "t_end": 354.9,
+    "text": "makes sense. 2 positive results by"
+  },
+  {
+    "t_start": 354.9,
+    "t_end": 357.18,
+    "text": "different labs are unlikely to just be"
+  },
+  {
+    "t_start": 357.18,
+    "t_end": 358.229,
+    "text": "chance, but you'll notice that"
+  },
+  {
+    "t_start": 358.229,
+    "t_end": 360.99,
+    "text": "probability is still not as high as the"
+  },
+  {
+    "t_start": 360.99,
+    "t_end": 363.479,
+    "text": "accuracy, the reported accuracy of the"
+  },
+  {
+    "t_start": 363.479,
+    "t_end": 366.479,
+    "text": "test. Bayes' Theorem has found a number of"
+  },
+  {
+    "t_start": 366.479,
+    "t_end": 368.76,
+    "text": "practical applications, including notably"
+  },
+  {
+    "t_start": 368.76,
+    "t_end": 371.4,
+    "text": "filtering your spam. You know, traditional"
+  },
+  {
+    "t_start": 371.4,
+    "t_end": 373.919,
+    "text": "spam filters actually do a kind of bad"
+  },
+  {
+    "t_start": 373.919,
+    "t_end": 375.93,
+    "text": "job, there's too many false positives, too"
+  },
+  {
+    "t_start": 375.93,
+    "t_end": 378.3,
+    "text": "much of your email ends up in spam, but"
+  },
+  {
+    "t_start": 378.3,
+    "t_end": 380.37,
+    "text": "using a Bayesian filter, you can look at"
+  },
+  {
+    "t_start": 380.37,
+    "t_end": 382.199,
+    "text": "the various words that appear in e-mails,"
+  },
+  {
+    "t_start": 382.199,
+    "t_end": 385.229,
+    "text": "and use Bayes' Theorem to give a"
+  },
+  {
+    "t_start": 385.229,
+    "t_end": 387.96,
+    "text": "probability that the email is spam, given"
+  },
+  {
+    "t_start": 387.96,
+    "t_end": 391.289,
+    "text": "that those words appear. Now Bayes' Theorem"
+  },
+  {
+    "t_start": 391.289,
+    "t_end": 393.24,
+    "text": "tells us how to update our beliefs in"
+  },
+  {
+    "t_start": 393.24,
+    "t_end": 395.55,
+    "text": "light of new evidence, but it can't tell"
+  },
+  {
+    "t_start": 395.55,
+    "t_end": 398.31,
+    "text": "us how to set our prior beliefs, and so"
+  },
+  {
+    "t_start": 398.31,
+    "t_end": 399.9,
+    "text": "it's possible for some people to hold"
+  },
+  {
+    "t_start": 399.9,
+    "t_end": 401.01,
+    "text": "that certain things are true with a"
+  },
+  {
+    "t_start": 401.01,
+    "t_end": 403.08,
+    "text": "100% certainty, and other"
+  },
+  {
+    "t_start": 403.08,
+    "t_end": 405.06,
+    "text": "people to hold those same things are"
+  },
+  {
+    "t_start": 405.06,
+    "t_end": 407.58,
+    "text": "true with 0% certainty. What"
+  },
+  {
+    "t_start": 407.58,
+    "t_end": 409.44,
+    "text": "Bayes' Theorem shows us is that in those"
+  },
+  {
+    "t_start": 409.44,
+    "t_end": 411.93,
+    "text": "cases, there is absolutely no evidence,"
+  },
+  {
+    "t_start": 411.93,
+    "t_end": 414.84,
+    "text": "nothing anyone could do to change their"
+  },
+  {
+    "t_start": 414.84,
+    "t_end": 417.389,
+    "text": "minds, and so as Nate Silver points out"
+  },
+  {
+    "t_start": 417.389,
+    "t_end": 420.15,
+    "text": "in his book, The Signal and The Noise, we"
+  },
+  {
+    "t_start": 420.15,
+    "t_end": 421.889,
+    "text": "should probably not have debates between"
+  },
+  {
+    "t_start": 421.889,
+    "t_end": 423.57,
+    "text": "people with a 100% prior"
+  },
+  {
+    "t_start": 423.57,
+    "t_end": 425.07,
+    "text": "certainty, and 0% prior"
+  },
+  {
+    "t_start": 425.07,
+    "t_end": 427.56,
+    "text": "certainty, because, well really, they'll"
+  },
+  {
+    "t_start": 427.56,
+    "t_end": 429.12,
+    "text": "never convince each other of anything."
+  },
+  {
+    "t_start": 429.12,
+    "t_end": 432.72,
+    "text": "Most of the time when people talk about"
+  },
+  {
+    "t_start": 432.72,
+    "t_end": 434.669,
+    "text": "Bayes' Theorem, they discussed how"
+  },
+  {
+    "t_start": 434.669,
+    "t_end": 436.8,
+    "text": "counterintuitive it is and how we don't"
+  },
+  {
+    "t_start": 436.8,
+    "t_end": 439.26,
+    "text": "really have an inbuilt sense of it, but"
+  },
+  {
+    "t_start": 439.26,
+    "t_end": 441.15,
+    "text": "recently my concern has been the"
+  },
+  {
+    "t_start": 441.15,
+    "t_end": 443.55,
+    "text": "opposite: that maybe we're too good at"
+  },
+  {
+    "t_start": 443.55,
+    "t_end": 446.28,
+    "text": "internalizing the thinking behind Bayes' Theorem,"
+  },
+  {
+    "t_start": 446.28,
+    "t_end": 448.83,
+    "text": "and the reason I'm worried about"
+  },
+  {
+    "t_start": 448.83,
+    "t_end": 451.5,
+    "text": "that is because, I think in life we can"
+  },
+  {
+    "t_start": 451.5,
+    "t_end": 453.51,
+    "text": "get used to particular circumstances, we"
+  },
+  {
+    "t_start": 453.51,
+    "t_end": 455.639,
+    "text": "can get used to results, maybe getting"
+  },
+  {
+    "t_start": 455.639,
+    "t_end": 457.59,
+    "text": "rejected or failing at something or"
+  },
+  {
+    "t_start": 457.59,
+    "t_end": 461.159,
+    "text": "getting paid a low wage and we can"
+  },
+  {
+    "t_start": 461.159,
+    "t_end": 464.279,
+    "text": "internalize that as though we are that"
+  },
+  {
+    "t_start": 464.279,
+    "t_end": 465.84,
+    "text": "man emerging from the cave and we see"
+  },
+  {
+    "t_start": 465.84,
+    "t_end": 467.58,
+    "text": "the Sun rise every day and every day,"
+  },
+  {
+    "t_start": 467.58,
+    "t_end": 471.569,
+    "text": "and we keep updating our beliefs to a"
+  },
+  {
+    "t_start": 471.569,
+    "t_end": 474.15,
+    "text": "point of near certainty that we think"
+  },
+  {
+    "t_start": 474.15,
+    "t_end": 478.919,
+    "text": "nature is, it's the way the world is and"
+  },
+  {
+    "t_start": 478.919,
+    "t_end": 480.21,
+    "text": "there's nothing that we can do to change it."
+  },
+  {
+    "t_start": 480.21,
+    "t_end": 482.969,
+    "text": "You know, there's Nelson Mandela's"
+  },
+  {
+    "t_start": 482.969,
+    "t_end": 485.189,
+    "text": "quote that: 'Everything is impossible"
+  },
+  {
+    "t_start": 485.189,
+    "t_end": 487.439,
+    "text": "until it's done', and I think that is kind"
+  },
+  {
+    "t_start": 487.439,
+    "t_end": 489.84,
+    "text": "of a very Bayesian viewpoint on the"
+  },
+  {
+    "t_start": 489.84,
+    "t_end": 492.93,
+    "text": "world, if you have no instances of"
+  },
+  {
+    "t_start": 492.93,
+    "t_end": 495.449,
+    "text": "something happening, then what is your"
+  },
+  {
+    "t_start": 495.449,
+    "t_end": 498.24,
+    "text": "prior for that event? It will seem"
+  },
+  {
+    "t_start": 498.24,
+    "t_end": 500.25,
+    "text": "completely impossible your prior may be"
+  },
+  {
+    "t_start": 500.25,
+    "t_end": 503.31,
+    "text": "0 until it actually happens. You know, the"
+  },
+  {
+    "t_start": 503.31,
+    "t_end": 505.379,
+    "text": "thing we forget in Bayes' Theorem is that:"
+  },
+  {
+    "t_start": 505.379,
+    "t_end": 507.78,
+    "text": "our actions play a role in determining"
+  },
+  {
+    "t_start": 507.78,
+    "t_end": 510.27,
+    "text": "outcomes, and determining how true things"
+  },
+  {
+    "t_start": 510.27,
+    "t_end": 513.87,
+    "text": "actually are. But if we internalize that"
+  },
+  {
+    "t_start": 513.87,
+    "t_end": 515.76,
+    "text": "something is true and maybe we're a"
+  },
+  {
+    "t_start": 515.76,
+    "t_end": 517.32,
+    "text": "100% sure that it's true, and"
+  },
+  {
+    "t_start": 517.32,
+    "t_end": 518.88,
+    "text": "there's nothing we can do to change it,"
+  },
+  {
+    "t_start": 518.88,
+    "t_end": 521.519,
+    "text": "well, then we're going to keep on doing"
+  },
+  {
+    "t_start": 521.519,
+    "t_end": 523.38,
+    "text": "the same thing, and we're going to keep"
+  },
+  {
+    "t_start": 523.38,
+    "t_end": 525.48,
+    "text": "on getting the same result, it's a"
+  },
+  {
+    "t_start": 525.48,
+    "t_end": 528.779,
+    "text": "self-fulfilling prophecy, so I think a"
+  },
+  {
+    "t_start": 528.779,
+    "t_end": 530.55,
+    "text": "really good understanding of Bayes'"
+  },
+  {
+    "t_start": 530.55,
+    "t_end": 533.61,
+    "text": "Theorem implies that experimentation is"
+  },
+  {
+    "t_start": 533.61,
+    "t_end": 536.37,
+    "text": "essential. If you've been doing the same"
+  },
+  {
+    "t_start": 536.37,
+    "t_end": 537.66,
+    "text": "thing for a long time and getting the"
+  },
+  {
+    "t_start": 537.66,
+    "t_end": 539.01,
+    "text": "same result that you're not necessarily"
+  },
+  {
+    "t_start": 539.01,
+    "t_end": 543.149,
+    "text": "happy with, maybe it's time to change."
+  },
+  {
+    "t_start": 543.149,
+    "t_end": 544.44,
+    "text": "So is there something like that that you've"
+  },
+  {
+    "t_start": 544.44,
+    "t_end": 546.54,
+    "text": "been thinking about? If so, let me know in the comments."
+  },
+  {
+    "t_start": 560.0,
+    "t_end": 562.44,
+    "text": "Hey, this episode of Veritasium was"
+  },
+  {
+    "t_start": 562.44,
+    "t_end": 564.06,
+    "text": "supported in part by viewers like you on"
+  },
+  {
+    "t_start": 564.07,
+    "t_end": 566.52,
+    "text": "Patreon and by Audible. Audible is a"
+  },
+  {
+    "t_start": 566.53,
+    "t_end": 568.39,
+    "text": "leading provider of spoken audio"
+  },
+  {
+    "t_start": 568.39,
+    "t_end": 570.4,
+    "text": "information including an unmatched"
+  },
+  {
+    "t_start": 570.4,
+    "t_end": 572.08,
+    "text": "selection of audiobooks: original,"
+  },
+  {
+    "t_start": 572.08,
+    "t_end": 574.72,
+    "text": "programming, news, comedy and more."
+  },
+  {
+    "t_start": 574.72,
+    "t_end": 576.25,
+    "text": "So if you're thinking about trying something new and"
+  },
+  {
+    "t_start": 576.25,
+    "t_end": 578.2,
+    "text": "you haven't tried Audible yet, you"
+  },
+  {
+    "t_start": 578.2,
+    "t_end": 579.88,
+    "text": "should give them a shot, and for viewers"
+  },
+  {
+    "t_start": 579.88,
+    "t_end": 581.83,
+    "text": "of this channel, they offer a free 30-day"
+  },
+  {
+    "t_start": 581.83,
+    "t_end": 584.9,
+    "text": "trial just by going to: audible.com/Veritasium"
+  },
+  {
+    "t_start": 585.0,
+    "t_end": 586.15,
+    "text": "You know, the book I've"
+  },
+  {
+    "t_start": 586.15,
+    "t_end": 587.77,
+    "text": "been listening to on Audible recently is"
+  },
+  {
+    "t_start": 587.77,
+    "t_end": 589.9,
+    "text": "called: 'The Theory That Would Not Die' by"
+  },
+  {
+    "t_start": 589.9,
+    "t_end": 592.48,
+    "text": "Sharon Bertsch McGrayne, and it is an"
+  },
+  {
+    "t_start": 592.48,
+    "t_end": 594.52,
+    "text": "incredible in-depth look at Bayes'"
+  },
+  {
+    "t_start": 594.52,
+    "t_end": 597.07,
+    "text": "Theorem, and I've learned a lot just"
+  },
+  {
+    "t_start": 597.07,
+    "t_end": 598.48,
+    "text": "listening to this book, including the crazy"
+  },
+  {
+    "t_start": 598.48,
+    "t_end": 600.25,
+    "text": "fact that Bayes never came up with the"
+  },
+  {
+    "t_start": 600.25,
+    "t_end": 601.72,
+    "text": "mathematical formulation of his rule"
+  },
+  {
+    "t_start": 601.72,
+    "t_end": 603.58,
+    "text": "that was done independently by the"
+  },
+  {
+    "t_start": 603.58,
+    "t_end": 605.77,
+    "text": "mathematician Pierre-Simon Laplace so,"
+  },
+  {
+    "t_start": 605.77,
+    "t_end": 607.81,
+    "text": "really I think he deserves a lot of a"
+  },
+  {
+    "t_start": 607.81,
+    "t_end": 610.18,
+    "text": "credit for this theory, but Bayes gets"
+  },
+  {
+    "t_start": 610.18,
+    "t_end": 612.31,
+    "text": "naming rights because he was first, and"
+  },
+  {
+    "t_start": 612.31,
+    "t_end": 614.14,
+    "text": "if you want, you can download this book"
+  },
+  {
+    "t_start": 614.14,
+    "t_end": 616.48,
+    "text": "and listen to it, as I have, when I've"
+  },
+  {
+    "t_start": 616.48,
+    "t_end": 619.18,
+    "text": "just been driving in the car or going to"
+  },
+  {
+    "t_start": 619.18,
+    "t_end": 622.51,
+    "text": "the gym, which I'm doing again, and so if"
+  },
+  {
+    "t_start": 622.51,
+    "t_end": 624.04,
+    "text": "there's a part of your day that you feel"
+  },
+  {
+    "t_start": 624.04,
+    "t_end": 626.08,
+    "text": "is kind of boring then I can highly"
+  },
+  {
+    "t_start": 626.08,
+    "t_end": 628.7,
+    "text": "recommend trying out audiobooks from Audible."
+  },
+  {
+    "t_start": 628.8,
+    "t_end": 630.34,
+    "text": "Just go to: audible.com/Veritasium"
+  },
+  {
+    "t_start": 630.9,
+    "t_end": 631.93,
+    "text": "So as always I want to thank:"
+  },
+  {
+    "t_start": 631.93,
+    "t_end": 633.52,
+    "text": "Audible for supporting me, and I"
+  },
+  {
+    "t_start": 633.52,
+    "t_end": 636.9,
+    "text": "want to thank you for watching."
+  }
+]

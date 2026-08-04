@@ -1,0 +1,347 @@
+[
+  {
+    "t_start": 2.95,
+    "t_end": 5.67,
+    "text": "so here's my implementation of uh the boids flocking simulation which a"
+  },
+  {
+    "t_start": 5.67,
+    "t_end": 11.27,
+    "text": "million people have done over the years um so there's one void and it's sort of"
+  },
+  {
+    "t_start": 11.27,
+    "t_end": 12.709,
+    "text": "um so there's one void and it's sort of moving randomly and it's avoiding some"
+  },
+  {
+    "t_start": 12.709,
+    "t_end": 14.589,
+    "text": "moving randomly and it's avoiding some obstacles but what gets really"
+  },
+  {
+    "t_start": 14.589,
+    "t_end": 18.71,
+    "text": "interesting is when we put a lot together they behave like a flock of"
+  },
+  {
+    "t_start": 18.71,
+    "t_end": 22.31,
+    "text": "together they behave like a flock of birds or fish or whatever you want um"
+  },
+  {
+    "t_start": 22.31,
+    "t_end": 23.95,
+    "text": "birds or fish or whatever you want um and they do this with a couple of"
+  },
+  {
+    "t_start": 23.95,
+    "t_end": 27.23,
+    "text": "and they do this with a couple of different rules uh that when combined"
+  },
+  {
+    "t_start": 27.23,
+    "t_end": 31.47,
+    "text": "together in a group you get this really interesting sort of imerg Behavior I can"
+  },
+  {
+    "t_start": 31.47,
+    "t_end": 34.11,
+    "text": "interesting sort of imerg Behavior I can use a buzz word you'll see they they"
+  },
+  {
+    "t_start": 34.11,
+    "t_end": 35.91,
+    "text": "use a buzz word you'll see they they break up and reform and do all these"
+  },
+  {
+    "t_start": 35.91,
+    "t_end": 38.72,
+    "text": "break up and reform and do all these interesting things just based on those"
+  },
+  {
+    "t_start": 38.72,
+    "t_end": 42.069,
+    "text": "interesting things just based on those [Music]"
+  },
+  {
+    "t_start": 45.389,
+    "t_end": 47.389,
+    "text": "rules so the first rule here is uh alignment and um you know I'll just put"
+  },
+  {
+    "t_start": 47.389,
+    "t_end": 49.15,
+    "text": "alignment and um you know I'll just put a bunch of guys out here for"
+  },
+  {
+    "t_start": 49.15,
+    "t_end": 55.029,
+    "text": "fun so what each boy does is it looks to its neighbors its friends in kind of a"
+  },
+  {
+    "t_start": 55.029,
+    "t_end": 58.389,
+    "text": "its neighbors its friends in kind of a small radius um maybe about two or three"
+  },
+  {
+    "t_start": 58.389,
+    "t_end": 61.229,
+    "text": "small radius um maybe about two or three body lengths as long as they are now and"
+  },
+  {
+    "t_start": 61.229,
+    "t_end": 63.229,
+    "text": "body lengths as long as they are now and it averages the position of all of its"
+  },
+  {
+    "t_start": 63.229,
+    "t_end": 65.229,
+    "text": "it averages the position of all of its friends headings right the direction"
+  },
+  {
+    "t_start": 65.229,
+    "t_end": 68.91,
+    "text": "that they're facing and it moves a little bit towards that direction so if"
+  },
+  {
+    "t_start": 68.91,
+    "t_end": 70.149,
+    "text": "little bit towards that direction so if all of its friends are looking to the"
+  },
+  {
+    "t_start": 70.149,
+    "t_end": 71.83,
+    "text": "all of its friends are looking to the left it turns a little bit towards the"
+  },
+  {
+    "t_start": 71.83,
+    "t_end": 74.39,
+    "text": "left it turns a little bit towards the left um and every boy does that for"
+  },
+  {
+    "t_start": 74.39,
+    "t_end": 75.71,
+    "text": "left um and every boy does that for every other boid that's in that little"
+  },
+  {
+    "t_start": 75.71,
+    "t_end": 78.87,
+    "text": "every other boid that's in that little radius of it's its friends group um so"
+  },
+  {
+    "t_start": 78.87,
+    "t_end": 81.67,
+    "text": "radius of it's its friends group um so if I turn that off you'll see they just"
+  },
+  {
+    "t_start": 81.67,
+    "t_end": 83.109,
+    "text": "if I turn that off you'll see they just kind of go everywhere they don't really"
+  },
+  {
+    "t_start": 83.109,
+    "t_end": 86.59,
+    "text": "have a reason to go in any One Direction or another now there's some other rules"
+  },
+  {
+    "t_start": 86.59,
+    "t_end": 87.749,
+    "text": "or another now there's some other rules obviously you can see they like to be"
+  },
+  {
+    "t_start": 87.749,
+    "t_end": 90.87,
+    "text": "obviously you can see they like to be near each other and um that's the second"
+  },
+  {
+    "t_start": 90.87,
+    "t_end": 93.63,
+    "text": "near each other and um that's the second rule there's a cohesion rule they take"
+  },
+  {
+    "t_start": 93.63,
+    "t_end": 94.429,
+    "text": "rule there's a cohesion rule they take that"
+  },
+  {
+    "t_start": 94.429,
+    "t_end": 101.99,
+    "text": "same um grouping that same uh radius around themselves of friends and average"
+  },
+  {
+    "t_start": 101.99,
+    "t_end": 103.63,
+    "text": "around themselves of friends and average their positions they say okay for all"
+  },
+  {
+    "t_start": 103.63,
+    "t_end": 106.469,
+    "text": "their positions they say okay for all the the boids around me roughly wears"
+  },
+  {
+    "t_start": 106.469,
+    "t_end": 111.67,
+    "text": "the the boids around me roughly wears the center of all of them and they seek"
+  },
+  {
+    "t_start": 111.67,
+    "t_end": 114.789,
+    "text": "towards that a little bit so there's also a balancing Force against that if"
+  },
+  {
+    "t_start": 114.789,
+    "t_end": 117.069,
+    "text": "they get two close to all the other voids that are near them they they back"
+  },
+  {
+    "t_start": 117.069,
+    "t_end": 121.27,
+    "text": "voids that are near them they they back away they avoid crowding so you can see"
+  },
+  {
+    "t_start": 121.27,
+    "t_end": 124.91,
+    "text": "little fish swimming around they like to be near each other but not so near but"
+  },
+  {
+    "t_start": 124.91,
+    "t_end": 126.029,
+    "text": "be near each other but not so near but because they don't care about what"
+  },
+  {
+    "t_start": 126.029,
+    "t_end": 127.63,
+    "text": "because they don't care about what direction they're facing right now since"
+  },
+  {
+    "t_start": 127.63,
+    "t_end": 130.029,
+    "text": "direction they're facing right now since i' have turned off alignment they just"
+  },
+  {
+    "t_start": 130.029,
+    "t_end": 131.47,
+    "text": "i' have turned off alignment they just kind of flit around and as soon as I"
+  },
+  {
+    "t_start": 131.47,
+    "t_end": 133.15,
+    "text": "kind of flit around and as soon as I turn that back"
+  },
+  {
+    "t_start": 133.15,
+    "t_end": 138.229,
+    "text": "on suddenly it looks like they have a purpose they're swimming fast you know"
+  },
+  {
+    "t_start": 138.229,
+    "t_end": 141.43,
+    "text": "purpose they're swimming fast you know you even see that group just reformed"
+  },
+  {
+    "t_start": 141.43,
+    "t_end": 144.63,
+    "text": "with another group so those are the three rules and um I can turn these"
+  },
+  {
+    "t_start": 144.63,
+    "t_end": 148.19,
+    "text": "three rules and um I can turn these these things off at will here if we uh"
+  },
+  {
+    "t_start": 148.19,
+    "t_end": 149.99,
+    "text": "turn off crowding rule they'll get really really close together they want"
+  },
+  {
+    "t_start": 149.99,
+    "t_end": 152.75,
+    "text": "to be near each other and they want to cop each other's heading so they formed"
+  },
+  {
+    "t_start": 152.75,
+    "t_end": 157.47,
+    "text": "cop each other's heading so they formed into just a line I turn that back on"
+  },
+  {
+    "t_start": 157.47,
+    "t_end": 158.83,
+    "text": "they they'll puff back out um and there's some other stuff going on here"
+  },
+  {
+    "t_start": 158.83,
+    "t_end": 162.149,
+    "text": "there's some other stuff going on here they have um you know they have some"
+  },
+  {
+    "t_start": 162.149,
+    "t_end": 164.19,
+    "text": "they have um you know they have some noise if I turn off the noise they're"
+  },
+  {
+    "t_start": 164.19,
+    "t_end": 166.869,
+    "text": "noise if I turn off the noise they're pretty smooth and if I turn it back on"
+  },
+  {
+    "t_start": 166.869,
+    "t_end": 172.71,
+    "text": "jiggle um so if I turn off all of the rules here now they're fully random and"
+  },
+  {
+    "t_start": 172.71,
+    "t_end": 174.67,
+    "text": "rules here now they're fully random and they don't care about each other at all"
+  },
+  {
+    "t_start": 174.67,
+    "t_end": 178.27,
+    "text": "they don't care about each other at all if I turn off the noise they just kind"
+  },
+  {
+    "t_start": 178.27,
+    "t_end": 180.149,
+    "text": "of drift they still care about getting away from the the barriers here on the"
+  },
+  {
+    "t_start": 180.149,
+    "t_end": 185.83,
+    "text": "away from the the barriers here on the edge and in fact I can come in here and"
+  },
+  {
+    "t_start": 185.83,
+    "t_end": 190.55,
+    "text": "turn these rules back on and lay down a bunch"
+  },
+  {
+    "t_start": 192.39,
+    "t_end": 197.91,
+    "text": "um barriers for them to avoid and lay down a bunch more voids and you'll see"
+  },
+  {
+    "t_start": 197.91,
+    "t_end": 200.75,
+    "text": "down a bunch more voids and you'll see lots of interesting stuff happen they"
+  },
+  {
+    "t_start": 200.75,
+    "t_end": 203.67,
+    "text": "lots of interesting stuff happen they void areas stick back"
+  },
+  {
+    "t_start": 203.67,
+    "t_end": 208.96,
+    "text": "void areas stick back together all sorts of stuff"
+  },
+  {
+    "t_start": 211.83,
+    "t_end": 216.67,
+    "text": "so if you want to uh download and play with this uh it's on my GitHub linked"
+  },
+  {
+    "t_start": 216.67,
+    "t_end": 221.37,
+    "text": "with this uh it's on my GitHub linked here or in the description"
+  }
+]

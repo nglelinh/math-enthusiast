@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ku_5mFpVDpKX70_0",
+    "t_start": 0.0,
+    "t_end": 92.8,
+    "type": "overview",
+    "summary": "Jeff Lagarias, a mathematician I admire a lot, thinks it's one of the hardest problems around. Erdos actually said \"this is a problem for which mathematics is perhaps not ready\" Turns out that all this fuss is about a problem that any fourth-grader can understand. To show you how this all works I'm gonna give you an example: Brady, chose a number between one and ten. [Brady, off camera: I shall go for seven] Alright, let us start with seven. Now, I'm gonna apply two rules depending on what number I get I'm gonna do this in succession [..] then if n is even I'm gonna take n and divide it by two…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_5mFpVDpKX70_93",
+    "t_start": 93.1,
+    "t_end": 184.4,
+    "type": "overview",
+    "summary": "divide by 2 and get 26. still even. divide by 2 again and get 13. now it's odd. multiply by 3 and add one. 40. 40 is even. I divide, I get 20. I divide again I get 10. I divide again, I get 5. Boy, we fell down a long way! Maybe we're heading for a small number after all. multiply by 3 and add 1, I get 16. Whoa! 16. VERY even number! I get 8. I get 4. I get 2. And I get 1. If I do it again, something interesting happens. I go 3 times 1 plus one is four. whoops, I'm back to 4. But now I'm just going to cycle forever, going through 1 over and over again. So I got to one. Seven got to one. Now, p…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_5mFpVDpKX70_184",
+    "t_start": 184.4,
+    "t_end": 280.4,
+    "type": "overview",
+    "summary": "that every number, all the numbers we haven't ever tried, WILL get to one. You could just try this on your computer; it's a good test for your personal computer too. How fast a program can you make? Here's a little hint. Every time I take an odd number and multiply by three and add one, I get an even number. So why not take two steps at once? to three n plus one over two. Combine those two steps... when I get and odd number. that speeds things up a bit. And there are other tricks like that. So people make graphs like this, and they're called \"trees\". Right. So far, all the number go down to on…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_5mFpVDpKX70_280",
+    "t_start": 280.4,
+    "t_end": 373.2,
+    "type": "overview",
+    "summary": "Goes to seven. So I can begin doing this and build up my tree. I don't have to go all the way each time. I know what's going to happen after I get to seven. If you look at the cover of this book that I showed you first, that's a tree of just this kind. But people have built up HUGE trees of this kind. And there's a wonderful article on Wikipedia which you can look at which shows some of the pictures of this. [Brady: there. there does seem to be a very striking feature of it, and this is this line down the middle here]. Yes, that's right. This is like the third rail. Once you touch that line, y…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_5mFpVDpKX70_373",
+    "t_start": 373.2,
+    "t_end": 464.9,
+    "type": "overview",
+    "summary": "that great resource and you'll find a table of the record holding numbers. You'll also find a table of the numbers that hold the record for the longest time to get to one. Let's get a couple of examples here. There's some wonderful ones. For instance, the longest , the one, the record holder, for the numbers under a hundred million, people, people know all these things, is 63,728,127. and that takes nine hundred and forty nine steps to get to one. I bet the person who found it thought maybe (s)he was on to something Maybe finally had a counter example. But no. There are records and records and…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_5mFpVDpKX70_464",
+    "t_start": 464.9,
+    "t_end": 471.9,
+    "type": "overview",
+    "summary": "by clicking the links on the screen or in the video description] You draw that line, and then draw this line..",
+    "depth": "intro"
+  }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#fafbfc"/>
+  <text x="360" y="36" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#1a1a1a">Unit segments in many directions (Kakeya set idea)</text>
+  <g stroke="#004586" stroke-width="2.5" stroke-linecap="round">
+    <line x1="120" y1="210" x2="280" y2="210"/>
+    <line x1="200" y1="120" x2="320" y2="240"/>
+    <line x1="220" y1="300" x2="340" y2="180"/>
+    <line x1="380" y1="100" x2="420" y2="280"/>
+    <line x1="450" y1="140" x2="580" y2="220"/>
+    <line x1="460" y1="280" x2="600" y2="200"/>
+    <line x1="150" y1="150" x2="250" y2="320"/>
+  </g>
+  <circle cx="360" cy="210" r="6" fill="#c73e1d"/>
+  <text x="360" y="390" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#444">Every direction appears as a length-1 segment; the containing set can still be "small".</text>
+</svg>

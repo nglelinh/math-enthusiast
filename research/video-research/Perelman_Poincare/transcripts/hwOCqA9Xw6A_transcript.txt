@@ -1,0 +1,387 @@
+Ricci flow when it was invented by
+Hamilton in the early 80s nobody would
+have paid much attention to it except
+mathematicians. What happened is 20 years
+later, you know, Hamilton and others,
+including me, were working on this and
+trying to prove this so-called Poincaré
+conjecture and also something a bit
+more inclusive called the
+Geometrization conjecture. It was going okay but
+there was some big roadblocks. What got
+people's attention is in in the year
+2002 this fellow called Perelman, who is
+famous as much for his eccentricities as
+as his math, was able to actually prove
+these important theorems using the Ricci flow.
+It's hard to describe exactly how
+Ricci flow works, so I thought what I'd do
+is talk about something which is very
+closely related to Ricci flow. We'll
+start with something called curve
+shortening flow. Think about the two
+dimensional space and let's just draw a
+smooth path, closed path, on that surface
+and what we want what we want to do is
+see if we can move it, deform it, change
+it into a new path. Let's take this this point
+here and I'm going to draw the tangent
+line here; and so we're going to move it
+in a direction which is perpendicular to
+that, so either this way or that way. And
+remember this is happening at each point
+along this path, the amount you
+move is is proportional to how much
+curvature you have. Curvature is sort of-
+think of it as how tightly- you know, if
+you were driving along there how much
+how much you'd have to be turning your
+wheel on the car, it's also sort of the
+circle that's closest to matching it
+there. Here there's a small circle, here
+there's a very large circle and the
+curvature is sort of 1 over the radius
+of that circle. Here the circle is
+very small and so the curvature is very
+large so the amount- the speed that this
+point is going to move is going to be
+very fast and it's going to be moving in
+this direction quite fast. Here, because
+the curvature is much smaller you're
+going to be moving in this direction but
+it's going to be only a little bit. So if
+you think about this
+path, after a certain amount of time - and
+this time is artificial it's not real
+time it's just something you're putting
+on artificially on this - this this point
+will move just a little bit in there,
+this point will move quite a bit more.
+Here it's going to basically not- so the
+circle is going to be huge, here it's
+going to basically not move at all. Qhen
+the curvature is sort of going backwards
+so the circle is not inside but outside
+then you're going to be moving in that
+direction. - (Brady: What's happening? Is this is)
+(this thing shrinking or is this thing)
+(expanding? When this thing flows what's)
+(going to happen to it?) - Well it's going to-
+actually if you take a- if you start with
+a big circle and you move it according
+to the so called curve shortening flow
+it's going to be moving uniformly in at
+each point; the same amount because the
+curvature - lousy drawing - but the
+curvature's supposed to be around the
+same. So you're going to get: this is what
+it is at time T is equal to now, at time
+T is equal to say five seconds later
+it'll be smaller like that and then it's
+just going to get smaller and smaller.
+But sometimes, because we don't like to
+have these things run away from us
+we'll change the flow a little bit and
+say let's flow in such a way that the
+total area inside doesn't change. So if
+that were the case, if you started with a
+big circle it would just stay the same.
+But if you start with something like
+that or something that has a lot of
+like- so this is going to move out, this
+is going to move in, this isn't going to
+move very much, this will move out, this
+will move in. This will become rounder as
+you go on in time so it'll become more
+like that and then eventually as time
+goes on it will become essentially round.
+This is a very simple model, there's not
+a lot of interesting things going on
+here but it's a nice first picture of of
+what what I'll ultimately relate to,
+Ricci flow. - (This is like an artificial)
+(thing then? You- this is just like a game)
+(mathematicians play? Like this isn't- )
+(you've just said let's draw a shape and)
+(let's- ) - Yeah it's- yeah it's it's a little
+yeah it's it's a game and you can you
+can ask questions like; say you don't
+keep the area fixed, how long does it take
+for it to- for to go down to a tiny point?
+And when it when it gets to be
+very very small the curvature remember
+is sort of 1 over the radius of the
+circle, so here the curvature is getting
+arbitrarily big, so it forms what's
+called a singularity and it stops- it
+stops changing. But you could look at
+something like this: say you have
+something which has lots and lots of
+really screwy little things like that
+and you can say maybe this'll- maybe
+some of these things will join up, what
+will ultimately happen? In this simple
+case what will happen is it will always
+become a circle after enough time. But if
+we look at it sort of the next I think
+simple model for Ricci flow, which is
+mean curvature flow, there it gets a lot
+more interesting. So now instead of
+thinking of this as a two-dimensional
+surface with one-dimensional closed
+paths in there, now let's think of this
+as a three dimensional surface. So I'll
+think of a axis there, I don't want to
+always draw that, but think of this as
+three dimensions and we could be
+thinking about say a sphere, a beach ball.
+You know you can think of a beach ball
+which, if it's all blown up, is is nice
+and round but if it's if it's not you
+know if you've left it you know get to
+the middle of the winter it's going to
+be maybe instead of being a nice round
+one it's going to be you know sort of
+something like this, and think of this
+always as two dimensions and maybe it
+has a little, you know sort of a- this is
+a two dimensional surface in three
+dimensions. So we're in a three
+dimensional space but we're thinking of
+a two-dimensional surface, just like the
+surface of the Earth. The so-called mean
+curvature flow is similar to the
+curve shortening flow except now we're
+moving this two-dimensional surface. And
+because- and we're going to be mov- the
+the notion of curvature is is is quite a
+bit more complicated when you have a
+higher dimensional- a higher dimensional
+surface, but it's moved according to
+what's called the mean curvature which is
+sort of the average of the curvature in
+this direction and that direction. The
+flow - and remember we have this word flow
+which is telling how is this
+two-dimensional surface, this this sort
+of half deflated beach ball, how is it
+going to move in space? And before
+when we were talking about a path in
+space we talked about a tangent line, now
+we have a tangent plane. Think of the
+surface of this ball
+and you sort of take a two dimensional surface and fit
+it at that point, that'll be the tangent
+plane, and this point is going to move in
+the direction which is 90 degrees to
+every- to that plane so it's in the- again
+the sort of orthogonal normal direction.
+(So our wonky beach ball is going to get bigger)
+(or smaller or?) - Well actually - and I
+shouldn't have drawn it this way because
+this curvature it would tend to go in
+this direction - our beach ball, unless we
+tell it to make sure that the that the
+volume contained inside is is constant,
+you can do that. You can change the flow
+of it, if you don't it's going to become
+smaller and smaller and rounder and
+rounder. Unless- but the interesting thing
+that can happen here that's a little bit
+different from that simple curve curve
+shortening I was talking about before is
+say you have one that starts out like
+this, I think of this as a sphere with a
+very tight corset. People don't wear
+corsets anymore I don't think but anyway-
+(That's 3D though?) - This is 3D, so think of this as, so this
+is 3D, think of this the surface as as
+taking that that beach ball- - (It's like an hourglass?)
+Like an hourglass, very good, like an hourglass. So
+what's going to happen here for reasons
+that are I think a little tricky to
+explain; but right here where you have a
+lot of curvature in certain directions,
+this thing instead of becoming round
+this whole thing is going to shrink off
+and it's going to - as we go in time - this
+is going to basically go down to
+the radius around here is going to go
+down to zero. The curvature now blows up;
+when I say blow up I mean it becomes
+infinite. What happens here now is you
+have to stop the flow because the flow
+can't move anymore. The flow is saying,
+move a given point in a direction which
+is orthogonal to the surface, orthogonal to
+the tangent plane, and move it in an amount
+that's proportional to the curvature. If
+the curvature is infinite you can't do that anymore.
+(Jim isn't it only that point that can't move?)
+(Can't all the other points on)
+(our hourglass continue?) - You can. You can
+do that if you say I'm going to- so what
+people- you sort of do a quarantine. You
+say okay we're not going to work with
+these guys anymore let's- in fact you
+could try to throw it out and look we can
+continue to work with these. The problem
+with just continuing
+everywhere else, the disease that's happened
+here if you will is going to spread very
+quickly and very quickly the whole thing
+is not going to make any sense.
+So what one would like to do, and this
+was a very important thing in the Ricci
+flow, in Perelman's use of Ricci flow to
+prove the Poincaré conjecture, is
+figure out how do I quarantine these
+singularities for me? How do I cut this
+thing off so to put a little bandage
+around it? They call it surgery and
+surgery off the bad place and continue
+the flow elsewhere. So can we get rid of that stuff?
+And that's- you can think of that as a
+fairly arbitrary thing but you have to
+do it very cleverly if you want to learn
+things about the nature of the
+relationship of topology which is kinds
+of surfaces and curvature which is about
+how how round and how curved- you know how
+pointy things are. So here we're dealing
+with 2-dimensional surfaces in
+3-dimensional space;
+mathematicians like to abstract things
+so we could think about
+3-dimensional surfaces in 4
+dimensional space. Now I'm not going to
+try to draw a picture, even here this is
+a bit of a lie because I'm drawing on a
+2-dimensional surface. But one can do
+that. Now you have more curvatures and
+more interesting things you can do.
+That's still not Ricci flow. Ricci flow
+is a big step away from mean curvature
+flow or inverse mean curvature flow in
+the following abstract way: in the in
+this kind of thing where we're first
+talking about 2-dimensional surfaces
+in 3-space or even 3-dimensional
+surfaces in 4-space; you can still
+picture, picture that big empty space and
+you have this this like the the deflated
+beach ball you have that thing sitting
+in the space. And it's easy for our minds
+to picture going to a 4-dimensional
+space I think relatively easy,
+maybe I'm fooling myself; but to picture
+a 3-dimensional thing or even a
+2-dimensional thing in 4
+dimensional space. Ricci flow is very
+different. Now the object you're looking
+at is not sitting inside a space, you're
+not moving the object. So maybe I'll try
+to explain now.
+With the curve shortening flow and the
+mean curvature flow we were taking an
+object, be it a path or the surface of a
+ball, I mean surface of a deformed ball, and
+we're moving that in the empty space.
+Ricci flow you're doing something very
+different. You're dealing with something
+called Riemannian geometry. Just think,
+so I'm going to have to go back - how do I
+do this? Mathematics is about
+abstracting. Some abstractions, like going
+from 2-dimensional objects in 3
+space to 3-dimensional objects in
+4-space, you can sort of trick your
+mind into thinking about that. But when
+you do the abstraction in going to
+Riemannian geometry you have to think
+about- think about the surface of
+that ball but forget the inside, forget
+the outside, it's not moving. So I'm going
+to draw the same old picture of this
+this- think of this 2-dimensional
+surface. Except, don't think of it sitting
+inside a big space, think of it as
+something where you specify a function
+and the function is going to assign a
+matrix. So think of a matrix, well usually
+it's called G, and at each point - let's
+say the point is labelled by x - there's a
+component G11 in this corner,
+function of x G12 and maybe- it's a
+square matrix that goes. So you have a
+square array of numbers and these
+numbers, and this is called the metric,
+these numbers tell in an abstract way
+what kind of information would you like
+to know. One thing you would like to know
+is if you're starting at a point here
+and you're going to a point there what's
+the shortest possible path between them?
+You can take any point on Earth and then
+another point and find the great circle
+route between them. And they tend to be
+just sort of almost straight paths. But
+say you're in a mountain range and you
+want to get from the top of one mountain
+to another, this is a very curvy place
+and if you try to find the shortest
+possible path between them it can be
+very complicated. You can think about
+this kind of thing for a surface in
+space or what you can do is say I'm not
+thinking about this this this surface in
+space, I'm just going to assign it
+something called the metric and using a
+little bit of mathematics you can use
+that metric to decide what shortest
+possible paths are going to be, what
+volume- what the area of different
+regions is going to be and what the
+curvature of this thing is going to be.
+You can think of Ricci flow as, let's take this
+metric, the metric changes in accordance
+with something that involves the
+curvature. So the basic idea is the same
+don't move the surface in space we move
+this thing, we change this thing which is
+describing the geometry. A very
+interesting and important feature of
+Ricci flow, like that mean curvature flow,
+is if you have something and I'm going
+to- this is not fair but if I draw that
+same picture where somewhere there's a
+lot of curvature there, maybe it has some
+interesting holes in a topology. But if
+you have- now this wouldn't work in 2
+dimensions, in 2 dimensions it's always
+going to become as round as possible. But
+if you go to higher dimensions, when you
+have a lot of curvature in some place
+it's going to tend to- the flow is going
+to tend to hit a singularity where the
+curvature gets arbitrarily big.
+Understanding how to work with the
+curvature was very important in
+Perelman's proof of the Poincaré
+conjecture and the geometrization
+conjecture using Ricci flow.
+If you'd like to see and hear a bit more about the
+Poincaré conjecture there will be links
+on the screen and in the video
+description; we've got sort of a fairly
+simple video about it. And there's also a
+lot more of my interview with Jim about
+the conjecture and also how the Ricci
+flow sort of contributed to it finally
+been cracked. If you haven't subscribed
+to Numberphile please do, we'd love to
+have you on board. And if there are other
+subjects you're into like chemistry and
+physics, astronomy have a look in the
+video description, I'll have links to my
+other channels there.

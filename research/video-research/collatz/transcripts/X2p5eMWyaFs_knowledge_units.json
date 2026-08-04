@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ku_X2p5eMWyaFs_241",
+    "t_start": 241.6,
+    "t_end": 332.5,
+    "type": "overview",
+    "summary": "so many thanks so many thanks to terence tao for being here with all to terence tao for being here with all to terence tao for being here with all of us of us of us and and and offering this opportunity to a large offering this opportunity to a large offering this opportunity to a large number of students at the last year of number of students at the last year of number of students at the last year of the high school the high school the high school and the this i think is a a positive and the this i think is a a positive and the this i think is a a positive opportunity using a word that we had…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_332",
+    "t_start": 332.5,
+    "t_end": 422.5,
+    "type": "overview",
+    "summary": "i'll try it on this okay i'll try it on this okay so i'm going to talk about um and one of so i'm going to talk about um and one of so i'm going to talk about um and one of the most the most the most notorious uh but also one of the most notorious uh but also one of the most notorious uh but also one of the most basic uh unsolved problems in basic uh unsolved problems in basic uh unsolved problems in mathematics oh okay so um all right oh okay so um all right it's called the collapse conjecture it it's called the collapse conjecture it it's called the collapse conjecture it is um is um is um i…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_422",
+    "t_start": 422.5,
+    "t_end": 514.1,
+    "type": "overview",
+    "summary": "and odd numbers become bigger by about and odd numbers become bigger by about three and odd numbers become smaller by three and odd numbers become smaller by three and odd numbers become smaller by about a factor of two about a factor of two about a factor of two and so that's the collapse function and so that's the collapse function and so that's the collapse function uh here's a little table of what the uh here's a little table of what the uh here's a little table of what the function does so for all function does so for all function does so for all eight it just gets divided by two so eight…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_514",
+    "t_start": 514.1,
+    "t_end": 604.9,
+    "type": "overview",
+    "summary": "divide by two you get one divide by two you get one but then one is odd so you multiply by but then one is odd so you multiply by but then one is odd so you multiply by um three and you add one you get back to um three and you add one you get back to um three and you add one you get back to four and then you go to two and so forth four and then you go to two and so forth four and then you go to two and so forth so uh so uh so uh every input creates this this orbit every input creates this this orbit every input creates this this orbit which goes up and down which goes up and down which goes up…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_604",
+    "t_start": 604.9,
+    "t_end": 697.5,
+    "type": "overview",
+    "summary": "three three is odd three three is odd and add one you go up to ten times three plus one sixteen eight four times three plus one sixteen eight four and then it gets trapped in this loop and then it gets trapped in this loop and then it gets trapped in this loop okay so okay so okay so so so so we'll bounce up and down but eventually we'll bounce up and down but eventually we'll bounce up and down but eventually it will get trapped in here it will get trapped in here it will get trapped in here now now now this number six it only took like what this number six it only took like what this number …",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_697",
+    "t_start": 697.5,
+    "t_end": 790.2,
+    "type": "overview",
+    "summary": "if you open up old textbooks as to how if you open up old textbooks as to how hail is made hail is made hail is made you could you often see a picture like you could you often see a picture like you could you often see a picture like this you see that in a cloud there are this you see that in a cloud there are this you see that in a cloud there are water droplets water droplets water droplets and and and they get there is wind that brings them they get there is wind that brings them they get there is wind that brings them up into and past a certain level up into and past a certain level up int…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_790",
+    "t_start": 790.2,
+    "t_end": 881.2,
+    "type": "overview",
+    "summary": "conjecture um so it's it's fairly easy conjecture um so it's it's fairly easy to state you don't need really advanced to state you don't need really advanced to state you don't need really advanced mathematics i mean the most complicated mathematics i mean the most complicated mathematics i mean the most complicated thing we had was multiplication and thing we had was multiplication and thing we had was multiplication and division division division um and we still can't solve it which is um and we still can't solve it which is um and we still can't solve it which is very frustrating very frust…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_881",
+    "t_start": 881.2,
+    "t_end": 971.4,
+    "type": "overview",
+    "summary": "so he reported so he reported that for about a month everyone at yale that for about a month everyone at yale that for about a month everyone at yale worked on it with no result worked on it with no result worked on it with no result a similar phenomenon happened when i a similar phenomenon happened when i a similar phenomenon happened when i mentioned at the university of chicago a joke was made that this problem was a joke was made that this problem was part of a conspiracy to slow down part of a conspiracy to slow down part of a conspiracy to slow down mathematical progress in the united ma…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_971",
+    "t_start": 971.4,
+    "t_end": 1065.2,
+    "type": "overview",
+    "summary": "so so why do we care about this problem i mean why do we care about this problem i mean why do we care about this problem i mean this this is this is uh this doesn't this this is this is uh this doesn't this this is this is uh this doesn't look like a problem which has many look like a problem which has many look like a problem which has many practical applications has nothing to do practical applications has nothing to do practical applications has nothing to do with with with any real world problem you know like you any real world problem you know like you any real world problem you know lik…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_1066",
+    "t_start": 1066.8,
+    "t_end": 1157.1,
+    "type": "overview",
+    "summary": "there actually are some cash prizes for there actually are some cash prizes for solving this problem although uh you solving this problem although uh you solving this problem although uh you really cannot make a living in really cannot make a living in really cannot make a living in mathematics solving uh mathematics solving uh mathematics solving uh solving um uh problems with prizes but solving um uh problems with prizes but solving um uh problems with prizes but there are some prizes i think uh in the there are some prizes i think uh in the there are some prizes i think uh in the 60s howard…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_1157",
+    "t_start": 1157.1,
+    "t_end": 1247.5,
+    "type": "overview",
+    "summary": "your current state should determine the your current state should determine the next state and that's called a shift map next state and that's called a shift map next state and that's called a shift map and so once you have a shift map and so once you have a shift map and so once you have a shift map you can start with any state and you can you can start with any state and you can you can start with any state and you can start applying the shift over and over start applying the shift over and over start applying the shift over and over again again again and that's called the and that's called …",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_1247",
+    "t_start": 1247.5,
+    "t_end": 1344.7,
+    "type": "overview",
+    "summary": "ecosystems the stock market ecosystems the stock market pretty much any pretty much any pretty much any real world system um any of the sciences will be governed by any of the sciences will be governed by one of these dynamical systems one of these dynamical systems one of these dynamical systems and knowing what the orbit of these and knowing what the orbit of these and knowing what the orbit of these things are becomes very important you things are becomes very important you things are becomes very important you know what is the long time long-term know what is the long time long-term know w…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_1350",
+    "t_start": 1350.1,
+    "t_end": 1442.7,
+    "type": "overview",
+    "summary": "the partial the partial version of the problem you can still on the problems that we care about on the problems that we care about um um um but in addition to making progress it's but in addition to making progress it's but in addition to making progress it's also um good to to also um good to to also um good to to understand what the opposite of progress understand what the opposite of progress understand what the opposite of progress is is is so so so just specific difficulties that block a specific difficulties that block a certain approach um um okay so if partial progress is going halfway…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_1443",
+    "t_start": 1443.6,
+    "t_end": 1534.6,
+    "type": "overview",
+    "summary": "okay okay so while we can't solve the uh the glass so while we can't solve the uh the glass so while we can't solve the uh the glass conjecture we do have many partial conjecture we do have many partial conjecture we do have many partial results and we do have many obstructions results and we do have many obstructions results and we do have many obstructions and so this is what i can tell you about and so this is what i can tell you about and so this is what i can tell you about um um um uh okay uh okay uh okay so the class conjecture says that so the class conjecture says that so the class co…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_1534",
+    "t_start": 1534.6,
+    "t_end": 1627.0,
+    "type": "overview",
+    "summary": "computing powers now used for computing powers now used for cryptocurrency but uh there used to be a cryptocurrency but uh there used to be a cryptocurrency but uh there used to be a lot of spare computing power to do these lot of spare computing power to do these lot of spare computing power to do these things things things um so one thing this tells you is that um so one thing this tells you is that um so one thing this tells you is that um it's unlikely that you're going to um um it's unlikely that you're going to um um it's unlikely that you're going to um find a counter example discontext…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_1627",
+    "t_start": 1627.0,
+    "t_end": 1717.4,
+    "type": "overview",
+    "summary": "in 93 el yahu showed in 93 el yahu showed that um that um that um if there is a cycle out there other than if there is a cycle out there other than if there is a cycle out there other than one four two one four two one four two one four two one four two one four two uh any other cycle has to be very very uh any other cycle has to be very very uh any other cycle has to be very very long um there was no long um there was no long um there was no all cycles in the system other than the all cycles in the system other than the all cycles in the system other than the one forty two cycle have to be at…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_1717",
+    "t_start": 1717.4,
+    "t_end": 1807.8,
+    "type": "overview",
+    "summary": "three and plus one maybe i can i can use three and plus one maybe i can i can use maybe three and minus one maybe three and minus one maybe three and minus one so you can you can change the problem a so you can you can change the problem a so you can you can change the problem a little bit and uh little bit and uh little bit and uh maybe study a slightly different maybe study a slightly different maybe study a slightly different process where you process where you process where you um um um map every odd number into three and map every odd number into three and map every odd number into three …",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_1807",
+    "t_start": 1807.8,
+    "t_end": 1899.0,
+    "type": "overview",
+    "summary": "conjecture's not true for three and conjecture's not true for three and minus one minus one minus one okay so that's an obstruction it tells okay so that's an obstruction it tells okay so that's an obstruction it tells you that you that you that the problem is difficult okay um okay um here is uh i'm talking i discovered here is uh i'm talking i discovered here is uh i'm talking i discovered actually about five or six years ago actually about five or six years ago actually about five or six years ago um um um that that that if the classic conjecture is true it if the classic conjecture is true…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_1898",
+    "t_start": 1899.0,
+    "t_end": 1989.5,
+    "type": "overview",
+    "summary": "place where a power of two and power place where a power of two and power three are distance one apart as as you three are distance one apart as as you three are distance one apart as as you keep going to bigger and bigger powers keep going to bigger and bigger powers keep going to bigger and bigger powers the gaps become bigger the gaps become bigger the gaps become bigger for example um 32 is a power of two for example um 32 is a power of two for example um 32 is a power of two groups groups groups it's a power of two and 27 it's a power of two and 27 it's a power of two and 27 is a power th…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_1989",
+    "t_start": 1989.5,
+    "t_end": 2082.5,
+    "type": "overview",
+    "summary": "short proof short proof so this suggests that the collapse so this suggests that the collapse so this suggests that the collapse conjecture doesn't have a short proof conjecture doesn't have a short proof conjecture doesn't have a short proof because otherwise you would be able to because otherwise you would be able to because otherwise you would be able to prove this theorem prove this theorem prove this theorem much more easily than we can right now okay um okay um one very popular way to try to solve one very popular way to try to solve one very popular way to try to solve this question is …",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_2082",
+    "t_start": 2082.5,
+    "t_end": 2175.6,
+    "type": "overview",
+    "summary": "but we have partial results but we have partial results oops oops oops so for example so for example so for example those out about those out about those out about 20 years ago uh classic governor 20 years ago uh classic governor 20 years ago uh classic governor nogarius uh used a computer actually to nogarius uh used a computer actually to nogarius uh used a computer actually to prove prove prove that um that um that um uh if you look at this big tree and um uh if you look at this big tree and um uh if you look at this big tree and um you you pick a big number x like say a you you pick a big …",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_2175",
+    "t_start": 2175.6,
+    "t_end": 2269.6,
+    "type": "overview",
+    "summary": "and he actually uh managed to uh and he actually uh managed to uh create a computer language create a computer language create a computer language out of collage type iteration this is out of collage type iteration this is out of collage type iteration this is it's a really weird thing but this is it's a really weird thing but this is it's a really weird thing but this is actually something that he's very good actually something that he's very good actually something that he's very good at at at conway was always very good at making conway was always very good at making conway was always very …",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_2272",
+    "t_start": 2272.1,
+    "t_end": 2362.5,
+    "type": "overview",
+    "summary": "if you start with the number two if you start with the number two and you apply this and you apply this and you apply this procedure over and over again you'll get procedure over and over again you'll get procedure over and over again you'll get all kinds of numbers all kinds of numbers all kinds of numbers uh and every so often you'll get a power uh and every so often you'll get a power uh and every so often you'll get a power of two you might you'll get two cubes of two you might you'll get two cubes of two you might you'll get two cubes somewhere you get two to the five somewhere you get tw…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_2362",
+    "t_start": 2362.5,
+    "t_end": 2454.0,
+    "type": "overview",
+    "summary": "inputs where we will never know whether inputs where we will never know whether the input will ever reach a certain the input will ever reach a certain the input will ever reach a certain value that there are certain value that there are certain value that there are certain there are certain um fracturing programs there are certain um fracturing programs there are certain um fracturing programs that are what are called undecidable that are what are called undecidable that are what are called undecidable that you will never be able to prove or that you will never be able to prove or that you wi…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_2453",
+    "t_start": 2454.0,
+    "t_end": 2546.6,
+    "type": "overview",
+    "summary": "and you have to you have to be you have and you have to you have to be you have you might be lucky and you might find you might be lucky and you might find you might be lucky and you might find uh just by cleverness some solution but uh just by cleverness some solution but uh just by cleverness some solution but but there's no recipe for doing so but there's no recipe for doing so but there's no recipe for doing so um and so the collapse problem is like um and so the collapse problem is like um and so the collapse problem is like that there's never going to be an that there's never going to be…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_2546",
+    "t_start": 2546.6,
+    "t_end": 2637.0,
+    "type": "overview",
+    "summary": "get smaller uh but not but it will still get smaller uh but not but it will still be a little bit bigger than the number be a little bit bigger than the number be a little bit bigger than the number you started with it's about it's three you started with it's about it's three you started with it's about it's three halves um roughly times as big so it's halves um roughly times as big so it's halves um roughly times as big so it's about fifty percent larger so it still about fifty percent larger so it still about fifty percent larger so it still gets a little bit bigger gets a little bit bigger …",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_2637",
+    "t_start": 2637.0,
+    "t_end": 2725.3,
+    "type": "overview",
+    "summary": "but you know um most games on in a but you know um most games on in a casino are rigged against you you know casino are rigged against you you know casino are rigged against you you know like if you play roulette um the like if you play roulette um the like if you play roulette um the expected odds of of of roulette um expected odds of of of roulette um expected odds of of of roulette um you always you expect to get less money you always you expect to get less money you always you expect to get less money out than you come in and if you keep out than you come in and if you keep out than you co…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_2727",
+    "t_start": 2727.4,
+    "t_end": 2818.7,
+    "type": "overview",
+    "summary": "maybe maybe but maybe we can prove something um but maybe we can prove something um but maybe we can prove something um but maybe we can prove that most orbits but maybe we can prove that most orbits but maybe we can prove that most orbits maybe go to one um maybe go to one um maybe go to one um crash and maybe we can say something we crash and maybe we can say something we crash and maybe we can say something we can say um some sort of statistical can say um some sort of statistical can say um some sort of statistical result that that maybe we can say that result that that maybe we can say th…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_2818",
+    "t_start": 2818.7,
+    "t_end": 2910.5,
+    "type": "overview",
+    "summary": "uh when you apply this well not every uh when you apply this well not every number but almost all numbers of a number but almost all numbers of a number but almost all numbers of a certain size will drop become less than certain size will drop become less than certain size will drop become less than uh ends up 0.869 which is a little bit uh ends up 0.869 which is a little bit uh ends up 0.869 which is a little bit smaller than n and then um that going to improve a and then um that going to improve a little bit later to end the point seven little bit later to end the point seven little bit late…",
+    "depth": "standard"
+  },
+  {
+    "id": "ku_X2p5eMWyaFs_2910",
+    "t_start": 2910.5,
+    "t_end": 3002.2,
+    "type": "overview",
+    "summary": "be as small as this log log log log be as small as this log log log log thing thing thing okay that's very very close so in some okay that's very very close so in some okay that's very very close so in some way this is about as close as you can way this is about as close as you can way this is about as close as you can get to the class conjecture with get to the class conjecture with get to the class conjecture with actually solving it actually solving it actually solving it which is very frustrating um which is very frustrating um which is very frustrating um yeah so it's like yeah it's the p…",
+    "depth": "standard"
+  }
+]

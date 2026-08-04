@@ -1,0 +1,29 @@
+{
+  "slug": "P_vs_NP",
+  "videos": [
+    {
+      "id": "pQsdygaYcE4",
+      "title": "Quanta — *Biggest Puzzle in Computer Science: P vs. NP*",
+      "has_transcript": true,
+      "chars": 17513,
+      "units": 13,
+      "url": "https://www.youtube.com/watch?v=pQsdygaYcE4"
+    },
+    {
+      "id": "dJUEkjxylBw",
+      "title": "Computerphile — *P vs NP on TV*",
+      "has_transcript": true,
+      "chars": 4868,
+      "units": 4,
+      "url": "https://www.youtube.com/watch?v=dJUEkjxylBw"
+    },
+    {
+      "id": "a89cr5htPZQ",
+      "title": "ACM — Fortnow *Fifty Years of P vs. NP* short",
+      "has_transcript": true,
+      "chars": 5084,
+      "units": 3,
+      "url": "https://www.youtube.com/watch?v=a89cr5htPZQ"
+    }
+  ]
+}

@@ -1,0 +1,1937 @@
+[
+  {
+    "t_start": 0.26,
+    "t_end": 3.8,
+    "text": "Hey, Vsauce. Michael here. There's a famous way"
+  },
+  {
+    "t_start": 3.8,
+    "t_end": 8.2,
+    "text": "to seemingly create chocolate out of nothing."
+  },
+  {
+    "t_start": 8.2,
+    "t_end": 11.46,
+    "text": "Maybe you've seen it before. This chocolate bar is"
+  },
+  {
+    "t_start": 11.46,
+    "t_end": 15.75,
+    "text": "4 squares by 8 squares, but if you cut it like this"
+  },
+  {
+    "t_start": 15.75,
+    "t_end": 19.189,
+    "text": "and then like this and finally like this"
+  },
+  {
+    "t_start": 19.189,
+    "t_end": 22.199,
+    "text": "you can rearrange the pieces like so"
+  },
+  {
+    "t_start": 22.199,
+    "t_end": 25.66,
+    "text": "and wind up with the same 4 by 8"
+  },
+  {
+    "t_start": 25.66,
+    "t_end": 29.539,
+    "text": "bar but with a leftover piece, apparently created"
+  },
+  {
+    "t_start": 29.539,
+    "t_end": 33.239,
+    "text": "out of thin air. There's a popular animation of this illusion"
+  },
+  {
+    "t_start": 33.239,
+    "t_end": 37.059,
+    "text": "as well. I call it an illusion because"
+  },
+  {
+    "t_start": 37.059,
+    "t_end": 40.69,
+    "text": "it's just that. Fake. In reality,"
+  },
+  {
+    "t_start": 40.69,
+    "t_end": 44.46,
+    "text": "the final bar is a bit smaller. It contains"
+  },
+  {
+    "t_start": 44.46,
+    "t_end": 50.03,
+    "text": "this much less chocolate. Each square along the cut is shorter than it was in"
+  },
+  {
+    "t_start": 50.03,
+    "t_end": 50.91,
+    "text": "the original,"
+  },
+  {
+    "t_start": 50.91,
+    "t_end": 55.07,
+    "text": "but the cut makes it difficult to notice right away. The animation is"
+  },
+  {
+    "t_start": 55.07,
+    "t_end": 58.579,
+    "text": "extra misleading, because it tries to cover up its deception."
+  },
+  {
+    "t_start": 58.579,
+    "t_end": 62.8,
+    "text": "The lost height of each square is surreptitiously"
+  },
+  {
+    "t_start": 62.8,
+    "t_end": 66.35,
+    "text": "added in while the piece moves to make it hard to notice."
+  },
+  {
+    "t_start": 66.35,
+    "t_end": 70.939,
+    "text": "I mean, come on, obviously you cannot cut up a chocolate bar"
+  },
+  {
+    "t_start": 70.939,
+    "t_end": 74.679,
+    "text": "and rearrange the pieces into more than you started with."
+  },
+  {
+    "t_start": 76.13,
+    "t_end": 79.2,
+    "text": "Or can you? One of the strangest"
+  },
+  {
+    "t_start": 79.2,
+    "t_end": 82.88,
+    "text": "theorems in modern mathematics is the Banach-Tarski"
+  },
+  {
+    "t_start": 82.88,
+    "t_end": 84.34,
+    "text": "paradox."
+  },
+  {
+    "t_start": 84.34,
+    "t_end": 88.64,
+    "text": "It proves that there is, in fact, a way to take an object"
+  },
+  {
+    "t_start": 88.64,
+    "t_end": 91.96,
+    "text": "and separate it into 5"
+  },
+  {
+    "t_start": 91.96,
+    "t_end": 93.48,
+    "text": "different pieces."
+  },
+  {
+    "t_start": 97.51,
+    "t_end": 100.86,
+    "text": "And then, with those five pieces, simply"
+  },
+  {
+    "t_start": 100.86,
+    "t_end": 104.71,
+    "text": "rearrange them. No stretching required into"
+  },
+  {
+    "t_start": 104.71,
+    "t_end": 108.72,
+    "text": "two exact copies of the original"
+  },
+  {
+    "t_start": 108.72,
+    "t_end": 112.3,
+    "text": "item. Same density, same size,"
+  },
+  {
+    "t_start": 112.3,
+    "t_end": 114.48,
+    "text": "same everything."
+  },
+  {
+    "t_start": 115.66,
+    "t_end": 118.71,
+    "text": "Seriously. To dive into the mind blow"
+  },
+  {
+    "t_start": 118.71,
+    "t_end": 122.5,
+    "text": "that it is and the way it fundamentally questions math"
+  },
+  {
+    "t_start": 122.5,
+    "t_end": 126.79,
+    "text": "and ourselves, we have to start by asking a few questions."
+  },
+  {
+    "t_start": 127.62,
+    "t_end": 130.28,
+    "text": "First, what is infinity?"
+  },
+  {
+    "t_start": 131.1,
+    "t_end": 133.64,
+    "text": "A number? I mean, it's nowhere"
+  },
+  {
+    "t_start": 133.64,
+    "t_end": 136.959,
+    "text": "on the number line, but we often say things like"
+  },
+  {
+    "t_start": 136.959,
+    "t_end": 141.01,
+    "text": "there's an infinite \"number\" of blah-blah-blah."
+  },
+  {
+    "t_start": 141.01,
+    "t_end": 144.41,
+    "text": "And as far as we know, infinity could be real."
+  },
+  {
+    "t_start": 144.41,
+    "t_end": 147.62,
+    "text": "The universe may be infinite in size"
+  },
+  {
+    "t_start": 147.62,
+    "t_end": 151.459,
+    "text": "and flat, extending out for ever and ever"
+  },
+  {
+    "t_start": 151.459,
+    "t_end": 154.5,
+    "text": "without end, beyond even the part we can observe"
+  },
+  {
+    "t_start": 154.5,
+    "t_end": 157.88,
+    "text": "or ever hope to observe."
+  },
+  {
+    "t_start": 157.88,
+    "t_end": 161.53,
+    "text": "That's exactly what infinity is. Not a number"
+  },
+  {
+    "t_start": 161.53,
+    "t_end": 165.39,
+    "text": "per se, but rather a size. The size"
+  },
+  {
+    "t_start": 165.39,
+    "t_end": 169.95,
+    "text": "of something that doesn't end. Infinity is not the biggest"
+  },
+  {
+    "t_start": 169.95,
+    "t_end": 173.32,
+    "text": "number, instead, it is how many numbers"
+  },
+  {
+    "t_start": 173.32,
+    "t_end": 177.37,
+    "text": "there are. But there are different sizes of infinity."
+  },
+  {
+    "t_start": 177.37,
+    "t_end": 180.37,
+    "text": "The smallest type of infinity is"
+  },
+  {
+    "t_start": 180.37,
+    "t_end": 183.94,
+    "text": "countable infinity. The number of hours"
+  },
+  {
+    "t_start": 183.94,
+    "t_end": 187.81,
+    "text": "in forever. It's also the number of whole numbers that there are,"
+  },
+  {
+    "t_start": 187.81,
+    "t_end": 190.83,
+    "text": "natural number,  the numbers we use when counting"
+  },
+  {
+    "t_start": 190.83,
+    "t_end": 194.22,
+    "text": "things, like 1, 2, 3, 4, 5, 6"
+  },
+  {
+    "t_start": 194.22,
+    "t_end": 197.84,
+    "text": "and so on. Sets like these are unending,"
+  },
+  {
+    "t_start": 197.84,
+    "t_end": 203.04,
+    "text": "but they are countable. Countable means that you can count them"
+  },
+  {
+    "t_start": 203.04,
+    "t_end": 206.27,
+    "text": "from one element to any other in a"
+  },
+  {
+    "t_start": 206.27,
+    "t_end": 211.28,
+    "text": "finite amount of time, even if that finite amount of time is longer than you"
+  },
+  {
+    "t_start": 211.28,
+    "t_end": 212.16,
+    "text": "will live"
+  },
+  {
+    "t_start": 212.16,
+    "t_end": 216.27,
+    "text": "or the universe will exist for, it's still finite."
+  },
+  {
+    "t_start": 216.27,
+    "t_end": 220.06,
+    "text": "Uncountable infinity, on the other hand, is literally"
+  },
+  {
+    "t_start": 220.06,
+    "t_end": 223.37,
+    "text": "bigger. Too big to even count."
+  },
+  {
+    "t_start": 223.37,
+    "t_end": 226.55,
+    "text": "The number of real numbers that there are,"
+  },
+  {
+    "t_start": 226.55,
+    "t_end": 230.02,
+    "text": "not just whole numbers, but all numbers is"
+  },
+  {
+    "t_start": 230.02,
+    "t_end": 233.56,
+    "text": "uncountably infinite. You literally cannot count"
+  },
+  {
+    "t_start": 233.56,
+    "t_end": 237.66,
+    "text": "even from 0 to 1 in a finite amount of time by naming"
+  },
+  {
+    "t_start": 237.66,
+    "t_end": 240.91,
+    "text": "every real number in between. I mean,"
+  },
+  {
+    "t_start": 240.91,
+    "t_end": 244.03,
+    "text": "where do you even start? Zero,"
+  },
+  {
+    "t_start": 244.03,
+    "t_end": 250.94,
+    "text": "okay. But what comes next? 0.000000..."
+  },
+  {
+    "t_start": 250.94,
+    "t_end": 254.29,
+    "text": "Eventually, we would imagine a 1"
+  },
+  {
+    "t_start": 254.29,
+    "t_end": 257.609,
+    "text": "going somewhere at the end, but there is no end."
+  },
+  {
+    "t_start": 257.609,
+    "t_end": 261.51,
+    "text": "We could always add another 0. Uncountability"
+  },
+  {
+    "t_start": 261.51,
+    "t_end": 266.15,
+    "text": "makes this set so much larger than the set of all whole numbers"
+  },
+  {
+    "t_start": 266.15,
+    "t_end": 270.1,
+    "text": "that even between 0 and 1, there are more numbers"
+  },
+  {
+    "t_start": 270.1,
+    "t_end": 274.08,
+    "text": "than there are whole numbers on the entire endless number line."
+  },
+  {
+    "t_start": 274.08,
+    "t_end": 277.12,
+    "text": "Georg Cantor's famous diagonal argument helps"
+  },
+  {
+    "t_start": 277.12,
+    "t_end": 280.18,
+    "text": "illustrate this. Imagine listing every number"
+  },
+  {
+    "t_start": 280.18,
+    "t_end": 285.77,
+    "text": "between zero and one. Since they are uncountable and can't be listed in order,"
+  },
+  {
+    "t_start": 285.77,
+    "t_end": 288.86,
+    "text": "let's imagine randomly generating them forever"
+  },
+  {
+    "t_start": 288.86,
+    "t_end": 294.04,
+    "text": "with no repeats. Each number regenerate can be paired"
+  },
+  {
+    "t_start": 294.04,
+    "t_end": 299.82,
+    "text": "with a whole number. If there's a one to one correspondence between the two,"
+  },
+  {
+    "t_start": 299.82,
+    "t_end": 303.74,
+    "text": "that is if we can match one whole number to each real number"
+  },
+  {
+    "t_start": 303.74,
+    "t_end": 306.78,
+    "text": "on our list, that would mean that countable"
+  },
+  {
+    "t_start": 306.78,
+    "t_end": 311.49,
+    "text": "and uncountable sets are the same size. But we can't do that,"
+  },
+  {
+    "t_start": 311.49,
+    "t_end": 314.84,
+    "text": "even though this list goes on for"
+  },
+  {
+    "t_start": 314.84,
+    "t_end": 319.26,
+    "text": "ever. Forever isn't enough. Watch this."
+  },
+  {
+    "t_start": 319.26,
+    "t_end": 323.06,
+    "text": "If we go diagonally down our endless list"
+  },
+  {
+    "t_start": 323.06,
+    "t_end": 327.24,
+    "text": "of real numbers and take the first decimal of the first number"
+  },
+  {
+    "t_start": 327.24,
+    "t_end": 331.21,
+    "text": "and the second of the second number, the third of the third and so on"
+  },
+  {
+    "t_start": 331.21,
+    "t_end": 334.729,
+    "text": "and add one to each, subtracting one"
+  },
+  {
+    "t_start": 334.729,
+    "t_end": 338.279,
+    "text": "if it happens to be a nine, we can generate a new"
+  },
+  {
+    "t_start": 338.279,
+    "t_end": 341.979,
+    "text": "real number that is obviously between 0 and 1,"
+  },
+  {
+    "t_start": 341.979,
+    "t_end": 344.99,
+    "text": "but since we've defined it to be different"
+  },
+  {
+    "t_start": 344.99,
+    "t_end": 349.18,
+    "text": "from every number on our endless list and at least one place"
+  },
+  {
+    "t_start": 349.18,
+    "t_end": 352.319,
+    "text": "it's clearly not contained in the list."
+  },
+  {
+    "t_start": 352.319,
+    "t_end": 356.469,
+    "text": "In other words, we've used up every single whole number,"
+  },
+  {
+    "t_start": 356.469,
+    "t_end": 360.02,
+    "text": "the entire infinity of them and yet we can still"
+  },
+  {
+    "t_start": 360.02,
+    "t_end": 365.409,
+    "text": "come up with more real numbers. Here's something else that is true"
+  },
+  {
+    "t_start": 365.409,
+    "t_end": 368.759,
+    "text": "but counter-intuitive. There are the same number"
+  },
+  {
+    "t_start": 368.759,
+    "t_end": 371.87,
+    "text": "of even numbers as there are even"
+  },
+  {
+    "t_start": 371.87,
+    "t_end": 377.419,
+    "text": "and odd numbers. At first, that sounds ridiculous. Clearly, there are only half"
+  },
+  {
+    "t_start": 377.419,
+    "t_end": 377.819,
+    "text": "as many"
+  },
+  {
+    "t_start": 377.82,
+    "t_end": 382.219,
+    "text": "even numbers as all whole numbers, but that intuition is wrong."
+  },
+  {
+    "t_start": 382.219,
+    "t_end": 385.509,
+    "text": "The set of all whole numbers is denser but"
+  },
+  {
+    "t_start": 385.509,
+    "t_end": 388.71,
+    "text": "every even number can be matched with a whole number."
+  },
+  {
+    "t_start": 388.71,
+    "t_end": 393.46,
+    "text": "You will never run out of members either set, so this one to one correspondence"
+  },
+  {
+    "t_start": 393.46,
+    "t_end": 397.069,
+    "text": "shows that both sets are the same size."
+  },
+  {
+    "t_start": 398.08,
+    "t_end": 401.539,
+    "text": "In other words, infinity divided by two"
+  },
+  {
+    "t_start": 401.539,
+    "t_end": 407.449,
+    "text": "Infinity plus one is also infinity."
+  },
+  {
+    "t_start": 407.449,
+    "t_end": 410.85,
+    "text": "A good illustration of this is Hilbert's paradox"
+  },
+  {
+    "t_start": 410.85,
+    "t_end": 414.139,
+    "text": "up the Grand Hotel. Imagine a hotel"
+  },
+  {
+    "t_start": 414.139,
+    "t_end": 417.9,
+    "text": "with a countably infinite number of rooms. But now,"
+  },
+  {
+    "t_start": 417.9,
+    "t_end": 422.33,
+    "text": "imagine that there is a person booked into every single room."
+  },
+  {
+    "t_start": 422.33,
+    "t_end": 427.139,
+    "text": "Seemingly, it's fully booked, right? No."
+  },
+  {
+    "t_start": 427.84,
+    "t_end": 430.68,
+    "text": "Infinite sets go against common sense."
+  },
+  {
+    "t_start": 430.68,
+    "t_end": 434.08,
+    "text": "You see, if a new guest shows up and wants a room,"
+  },
+  {
+    "t_start": 434.08,
+    "t_end": 437.84,
+    "text": "all the hotel has to do is move the guest in room number 1"
+  },
+  {
+    "t_start": 437.84,
+    "t_end": 442.0,
+    "text": "to room number 2. And a guest in room 2 to room 3 and 3 to 4 and 4 to"
+  },
+  {
+    "t_start": 442.0,
+    "t_end": 443.21,
+    "text": "5 and so on."
+  },
+  {
+    "t_start": 443.21,
+    "t_end": 446.65,
+    "text": "Because the number of rooms is never ending"
+  },
+  {
+    "t_start": 446.65,
+    "t_end": 450.139,
+    "text": "we cannot run out of rooms. Infinity"
+  },
+  {
+    "t_start": 450.139,
+    "t_end": 454.03,
+    "text": "-1 is also infinity again."
+  },
+  {
+    "t_start": 454.03,
+    "t_end": 457.159,
+    "text": "If one guest leaves the hotel, we can shift"
+  },
+  {
+    "t_start": 457.159,
+    "t_end": 460.72,
+    "text": "every guest the other way. Guest 2 goes to room 1,"
+  },
+  {
+    "t_start": 460.72,
+    "t_end": 464.409,
+    "text": "3 to 2, 4 to 3 and so on, because we have an"
+  },
+  {
+    "t_start": 464.409,
+    "t_end": 468.909,
+    "text": "infinite amount of guests. That is a never ending supply of them."
+  },
+  {
+    "t_start": 468.909,
+    "t_end": 472.949,
+    "text": "No room will be left empty. As it turns out,"
+  },
+  {
+    "t_start": 472.949,
+    "t_end": 476.61,
+    "text": "you can subtract any finite number from infinity"
+  },
+  {
+    "t_start": 476.61,
+    "t_end": 480.53,
+    "text": "and still be left with infinity. It doesn't care."
+  },
+  {
+    "t_start": 480.53,
+    "t_end": 484.53,
+    "text": "It's unending. Banach-Tarski hasn't left our sights yet."
+  },
+  {
+    "t_start": 484.53,
+    "t_end": 487.61,
+    "text": "All of this is related. We are now ready to move on"
+  },
+  {
+    "t_start": 487.61,
+    "t_end": 491.27,
+    "text": "to shapes. Hilbert's hotel can be applied"
+  },
+  {
+    "t_start": 491.27,
+    "t_end": 495.15,
+    "text": "to a circle. Points around the circumference can be thought of as"
+  },
+  {
+    "t_start": 495.15,
+    "t_end": 499.37,
+    "text": "guests. If we remove one point from the circle"
+  },
+  {
+    "t_start": 499.37,
+    "t_end": 504.58,
+    "text": "that point is gone, right? Infinity tells us"
+  },
+  {
+    "t_start": 504.58,
+    "t_end": 507.669,
+    "text": "it doesn't matter. The circumference of a circle"
+  },
+  {
+    "t_start": 507.669,
+    "t_end": 511.25,
+    "text": "is irrational. It's the radius times 2Pi."
+  },
+  {
+    "t_start": 511.25,
+    "t_end": 514.5,
+    "text": "So, if we mark off points beginning from the whole,"
+  },
+  {
+    "t_start": 514.5,
+    "t_end": 518.899,
+    "text": "every radius length along the circumference going clockwise"
+  },
+  {
+    "t_start": 518.899,
+    "t_end": 522.27,
+    "text": "we will never land on the same point twice,"
+  },
+  {
+    "t_start": 522.27,
+    "t_end": 525.61,
+    "text": "ever. We can count off each point we mark"
+  },
+  {
+    "t_start": 525.61,
+    "t_end": 529.76,
+    "text": "with a whole number. So this set is never-ending,"
+  },
+  {
+    "t_start": 529.76,
+    "t_end": 533.39,
+    "text": "but countable, just like guests and rooms in Hilbert's hotel."
+  },
+  {
+    "t_start": 533.39,
+    "t_end": 536.67,
+    "text": "And like those guests, even though one has checked out,"
+  },
+  {
+    "t_start": 536.67,
+    "t_end": 540.07,
+    "text": "we can just shift the rest. Move them"
+  },
+  {
+    "t_start": 540.07,
+    "t_end": 544.36,
+    "text": "counterclockwise and every room will be filled"
+  },
+  {
+    "t_start": 544.36,
+    "t_end": 550.95,
+    "text": "fills in the place where point 1 used to be, 3 fills in 2"
+  },
+  {
+    "t_start": 550.95,
+    "t_end": 556.05,
+    "text": "and so on. Since we have a unending supply of numbered points,"
+  },
+  {
+    "t_start": 556.05,
+    "t_end": 559.13,
+    "text": "no hole will be left unfilled."
+  },
+  {
+    "t_start": 559.13,
+    "t_end": 564.19,
+    "text": "The missing point is forgotten. We apparently never needed it"
+  },
+  {
+    "t_start": 564.19,
+    "t_end": 568.6,
+    "text": "to be complete. There's one last needo consequence of infinity"
+  },
+  {
+    "t_start": 568.6,
+    "t_end": 572.98,
+    "text": "we should discuss before tackling Banach-Tarski. Ian Stewart"
+  },
+  {
+    "t_start": 572.98,
+    "t_end": 576.26,
+    "text": "famously proposed a brilliant dictionary."
+  },
+  {
+    "t_start": 576.26,
+    "t_end": 580.54,
+    "text": "One that he called the Hyperwebster. The Hyperwebster"
+  },
+  {
+    "t_start": 580.54,
+    "t_end": 584.07,
+    "text": "lists every single possible word of any length"
+  },
+  {
+    "t_start": 584.07,
+    "t_end": 587.56,
+    "text": "formed from the 26 letters in the English alphabet."
+  },
+  {
+    "t_start": 587.56,
+    "t_end": 591.33,
+    "text": "It begins with \"a,\" followed by \"aa,\""
+  },
+  {
+    "t_start": 591.33,
+    "t_end": 594.41,
+    "text": "then \"aaa,\" then \"aaaa.\""
+  },
+  {
+    "t_start": 594.41,
+    "t_end": 597.75,
+    "text": "And after an infinite number of those, \"ab,\""
+  },
+  {
+    "t_start": 597.75,
+    "t_end": 601.95,
+    "text": "then \"aba,\" then \"abaa\", \"abaaa,\""
+  },
+  {
+    "t_start": 601.95,
+    "t_end": 605.13,
+    "text": "and so on until \"z, \"za,\""
+  },
+  {
+    "t_start": 605.13,
+    "t_end": 608.29,
+    "text": "\"zaa,\" et cetera, et cetera, until the final entry in"
+  },
+  {
+    "t_start": 608.29,
+    "t_end": 611.92,
+    "text": "infinite sequence of \"z\"s. Such"
+  },
+  {
+    "t_start": 611.92,
+    "t_end": 614.99,
+    "text": "a dictionary would contain every"
+  },
+  {
+    "t_start": 614.99,
+    "t_end": 618.48,
+    "text": "single word. Every single thought,"
+  },
+  {
+    "t_start": 618.48,
+    "t_end": 622.01,
+    "text": "definition, description, truth, lie, name,"
+  },
+  {
+    "t_start": 622.01,
+    "t_end": 625.24,
+    "text": "story. What happened to Amelia Earhart would be"
+  },
+  {
+    "t_start": 625.24,
+    "t_end": 629.22,
+    "text": "in that dictionary, as well as every single thing that"
+  },
+  {
+    "t_start": 629.22,
+    "t_end": 631.97,
+    "text": "didn't happened to Amelia Earhart."
+  },
+  {
+    "t_start": 631.97,
+    "t_end": 635.26,
+    "text": "Everything that could be said using our"
+  },
+  {
+    "t_start": 635.26,
+    "t_end": 639.5,
+    "text": "alphabet. Obviously, it would be huge,"
+  },
+  {
+    "t_start": 639.5,
+    "t_end": 643.01,
+    "text": "but the company publishing it might realize that they could take"
+  },
+  {
+    "t_start": 643.01,
+    "t_end": 646.8,
+    "text": "a shortcut. If they put all the words that begin with"
+  },
+  {
+    "t_start": 646.8,
+    "t_end": 649.96,
+    "text": "a in a volume titled \"A,\""
+  },
+  {
+    "t_start": 649.96,
+    "t_end": 654.21,
+    "text": "they wouldn't have to print the initial \"a.\" Readers would know to just add the \"a,\""
+  },
+  {
+    "t_start": 654.21,
+    "t_end": 657.32,
+    "text": "because it's the \"a\" volume. By removing the initial"
+  },
+  {
+    "t_start": 657.32,
+    "t_end": 660.76,
+    "text": "\"a,\" the publisher is left with every \"a\" word"
+  },
+  {
+    "t_start": 660.76,
+    "t_end": 664.31,
+    "text": "sans the first \"a,\" which has surprisingly"
+  },
+  {
+    "t_start": 664.31,
+    "t_end": 667.91,
+    "text": "become every possible word. Just one"
+  },
+  {
+    "t_start": 667.91,
+    "t_end": 672.82,
+    "text": "of the 26 volumes has been decomposed into the entire thing."
+  },
+  {
+    "t_start": 674.0,
+    "t_end": 677.62,
+    "text": "It is now that we're ready to investigate this video's"
+  },
+  {
+    "t_start": 677.63,
+    "t_end": 681.27,
+    "text": "titular paradox. What if we turned an object,"
+  },
+  {
+    "t_start": 681.27,
+    "t_end": 684.71,
+    "text": "a 3D thing into a Hyperwebster?"
+  },
+  {
+    "t_start": 684.71,
+    "t_end": 688.7,
+    "text": "Could we decompose pieces of it into the whole thing?"
+  },
+  {
+    "t_start": 690.08,
+    "t_end": 692.36,
+    "text": "Yes. The first thing we need to do"
+  },
+  {
+    "t_start": 692.36,
+    "t_end": 695.89,
+    "text": "is give every single point on the surface of the sphere"
+  },
+  {
+    "t_start": 695.89,
+    "t_end": 700.94,
+    "text": "one name and one name only. A good way to do this is to name them after how they"
+  },
+  {
+    "t_start": 700.94,
+    "t_end": 703.62,
+    "text": "can be reached by a given starting point."
+  },
+  {
+    "t_start": 703.62,
+    "t_end": 707.74,
+    "text": "If we move this starting point across the surface of the sphere"
+  },
+  {
+    "t_start": 707.74,
+    "t_end": 711.74,
+    "text": "in steps that are just the right length, no matter how many times"
+  },
+  {
+    "t_start": 711.74,
+    "t_end": 715.11,
+    "text": "or in what direction we rotate, so long as we never"
+  },
+  {
+    "t_start": 715.11,
+    "t_end": 718.42,
+    "text": "backtrack, it will never wind up in the same place"
+  },
+  {
+    "t_start": 718.42,
+    "t_end": 723.08,
+    "text": "twice. We only need to rotate in four directions to achieve this paradox."
+  },
+  {
+    "t_start": 723.08,
+    "t_end": 726.28,
+    "text": "Up, down, left and right around"
+  },
+  {
+    "t_start": 726.28,
+    "t_end": 730.0,
+    "text": "two perpendicular axes. We are going to need"
+  },
+  {
+    "t_start": 730.0,
+    "t_end": 733.23,
+    "text": "every single possible sequence that can be made"
+  },
+  {
+    "t_start": 733.23,
+    "t_end": 737.27,
+    "text": "of any finite length out of just these four rotations."
+  },
+  {
+    "t_start": 737.27,
+    "t_end": 740.27,
+    "text": "That means we will need lef, right,"
+  },
+  {
+    "t_start": 740.27,
+    "t_end": 744.25,
+    "text": "up and down as well as left left,"
+  },
+  {
+    "t_start": 744.25,
+    "t_end": 747.46,
+    "text": "left up, left down, but of course not"
+  },
+  {
+    "t_start": 747.46,
+    "t_end": 751.01,
+    "text": "left right, because, well, that's backtracking. Going left"
+  },
+  {
+    "t_start": 751.01,
+    "t_end": 754.76,
+    "text": "and then right means you're the same as you were before you did anything, so"
+  },
+  {
+    "t_start": 754.76,
+    "t_end": 757.87,
+    "text": "no left rights, no right lefts and no up downs and"
+  },
+  {
+    "t_start": 757.87,
+    "t_end": 762.22,
+    "text": "no down ups. Also notice that I'm writing the rotations in order"
+  },
+  {
+    "t_start": 762.22,
+    "t_end": 765.3,
+    "text": "right to left, so the final rotation"
+  },
+  {
+    "t_start": 765.3,
+    "t_end": 768.95,
+    "text": "is the leftmost letter. That will be important later on."
+  },
+  {
+    "t_start": 768.95,
+    "t_end": 773.96,
+    "text": "Anyway. A list of all possible sequences of allowed rotations that are finite"
+  },
+  {
+    "t_start": 773.96,
+    "t_end": 777.04,
+    "text": "in lenght is, well,"
+  },
+  {
+    "t_start": 777.04,
+    "t_end": 780.21,
+    "text": "huge. Countably infinite, in fact."
+  },
+  {
+    "t_start": 780.21,
+    "t_end": 783.58,
+    "text": "But if we apply each one of them to a starting point"
+  },
+  {
+    "t_start": 783.58,
+    "t_end": 786.88,
+    "text": "in green here and then name the point we land on"
+  },
+  {
+    "t_start": 786.88,
+    "t_end": 789.93,
+    "text": "after the sequence that brought us there, we can name"
+  },
+  {
+    "t_start": 789.93,
+    "t_end": 793.19,
+    "text": "a countably infinite set of points on the surface."
+  },
+  {
+    "t_start": 793.19,
+    "t_end": 797.05,
+    "text": "Let's look at how, say, these four strings on our list would work."
+  },
+  {
+    "t_start": 797.05,
+    "t_end": 801.85,
+    "text": "Right up left. Okay, rotating the starting point this way takes"
+  },
+  {
+    "t_start": 801.85,
+    "t_end": 807.26,
+    "text": "us here. Let's colour code the point based on the final rotation in its string,"
+  },
+  {
+    "t_start": 807.26,
+    "t_end": 811.19,
+    "text": "in this case it's left and for that we will use"
+  },
+  {
+    "t_start": 811.19,
+    "t_end": 814.339,
+    "text": "purple. Next up down down."
+  },
+  {
+    "t_start": 814.339,
+    "t_end": 818.73,
+    "text": "That sequence takes us here. We name the point DD"
+  },
+  {
+    "t_start": 818.73,
+    "t_end": 821.959,
+    "text": "and color it blue, since we ended with a down"
+  },
+  {
+    "t_start": 821.959,
+    "t_end": 826.1,
+    "text": "rotation. RDR, that will be this point's name,"
+  },
+  {
+    "t_start": 826.1,
+    "t_end": 829.88,
+    "text": "takes us here. And for a final right rotation,"
+  },
+  {
+    "t_start": 829.88,
+    "t_end": 832.99,
+    "text": "let's use red. Finally, for a sequence that end with"
+  },
+  {
+    "t_start": 832.99,
+    "t_end": 836.07,
+    "text": "up, let's colour code the point orange."
+  },
+  {
+    "t_start": 836.07,
+    "t_end": 839.29,
+    "text": "Now, if we imagine completing this process for"
+  },
+  {
+    "t_start": 839.29,
+    "t_end": 843.74,
+    "text": "every single sequence, we will have a countably infinite number of points"
+  },
+  {
+    "t_start": 843.74,
+    "t_end": 844.33,
+    "text": "named"
+  },
+  {
+    "t_start": 844.33,
+    "t_end": 847.51,
+    "text": "and color-coded. That's great, but"
+  },
+  {
+    "t_start": 847.51,
+    "t_end": 851.27,
+    "text": "not enough. There are an uncountably"
+  },
+  {
+    "t_start": 851.27,
+    "t_end": 855.11,
+    "text": "infinite number of points on a sphere's surface."
+  },
+  {
+    "t_start": 855.11,
+    "t_end": 858.14,
+    "text": "But no worries, we can just pick a point we missed."
+  },
+  {
+    "t_start": 858.14,
+    "t_end": 861.56,
+    "text": "Any point and color it green, making it"
+  },
+  {
+    "t_start": 861.56,
+    "t_end": 865.35,
+    "text": "a new starting point and then run every sequence"
+  },
+  {
+    "t_start": 865.35,
+    "t_end": 868.66,
+    "text": "from here. After doing this to an"
+  },
+  {
+    "t_start": 868.66,
+    "t_end": 872.45,
+    "text": "uncountably infinite number of starting point we will have indeed"
+  },
+  {
+    "t_start": 872.45,
+    "t_end": 875.99,
+    "text": "named and colored every single point on the surface"
+  },
+  {
+    "t_start": 875.99,
+    "t_end": 879.709,
+    "text": "just once. With the exception"
+  },
+  {
+    "t_start": 879.709,
+    "t_end": 884.39,
+    "text": "of poles. Every sequence has two poles of rotation."
+  },
+  {
+    "t_start": 884.39,
+    "t_end": 888.74,
+    "text": "Locations on the sphere that come back to exactly where they started."
+  },
+  {
+    "t_start": 888.74,
+    "t_end": 892.13,
+    "text": "For any sequence of right or left"
+  },
+  {
+    "t_start": 892.13,
+    "t_end": 895.3,
+    "text": "rotations, the polls are the north and south poles."
+  },
+  {
+    "t_start": 895.3,
+    "t_end": 899.58,
+    "text": "The problem with poles like these is that more than one sequence can lead us"
+  },
+  {
+    "t_start": 899.58,
+    "t_end": 900.28,
+    "text": "to them."
+  },
+  {
+    "t_start": 900.28,
+    "t_end": 903.85,
+    "text": "They can be named more than once and be colored"
+  },
+  {
+    "t_start": 903.85,
+    "t_end": 908.29,
+    "text": "in more than one color. For example, if you follow some other sequence to the"
+  },
+  {
+    "t_start": 908.29,
+    "t_end": 909.68,
+    "text": "north or south pole,"
+  },
+  {
+    "t_start": 909.68,
+    "t_end": 912.99,
+    "text": "any subsequent rights or lefts will"
+  },
+  {
+    "t_start": 912.99,
+    "t_end": 917.49,
+    "text": "be equally valid names. In order to deal with this we're going to just count them out"
+  },
+  {
+    "t_start": 917.49,
+    "t_end": 917.75,
+    "text": "of the"
+  },
+  {
+    "t_start": 917.75,
+    "t_end": 921.47,
+    "text": "normal scheme and color them all yellow. Every sequence has two,"
+  },
+  {
+    "t_start": 921.47,
+    "t_end": 924.58,
+    "text": "so there are a countably infinite amount"
+  },
+  {
+    "t_start": 924.58,
+    "t_end": 928.54,
+    "text": "of them. Now, with every point on the sphere given just"
+  },
+  {
+    "t_start": 928.54,
+    "t_end": 933.86,
+    "text": "one name and just one of six colors, we are ready to take the entire sphere"
+  },
+  {
+    "t_start": 933.86,
+    "t_end": 938.86,
+    "text": "apart. Every point on the surface corresponds to a unique line of points"
+  },
+  {
+    "t_start": 938.86,
+    "t_end": 939.63,
+    "text": "below it"
+  },
+  {
+    "t_start": 939.63,
+    "t_end": 943.27,
+    "text": "all the way to the center point. And we will be dragging"
+  },
+  {
+    "t_start": 943.27,
+    "t_end": 947.33,
+    "text": "every point's line along with it. The lone center point"
+  },
+  {
+    "t_start": 947.33,
+    "t_end": 952.2,
+    "text": "we will set aside. Okay, first we cut out and extract all the yellow"
+  },
+  {
+    "t_start": 952.2,
+    "t_end": 955.37,
+    "text": "poles, the green starting points, the"
+  },
+  {
+    "t_start": 955.37,
+    "t_end": 959.39,
+    "text": "orange up points, the blue down points"
+  },
+  {
+    "t_start": 959.39,
+    "t_end": 962.73,
+    "text": "and the red and purple left and right points."
+  },
+  {
+    "t_start": 963.54,
+    "t_end": 966.1,
+    "text": "That's the entire sphere. With just"
+  },
+  {
+    "t_start": 966.1,
+    "t_end": 970.59,
+    "text": "these pieces you could build the whole thing. But take a look at the left piece."
+  },
+  {
+    "t_start": 970.59,
+    "t_end": 973.77,
+    "text": "It is defined by being a piece composed of"
+  },
+  {
+    "t_start": 973.77,
+    "t_end": 977.22,
+    "text": "every point, accessed via a sequence ending"
+  },
+  {
+    "t_start": 977.22,
+    "t_end": 981.34,
+    "text": "with a left rotation. If we rotate this piece"
+  },
+  {
+    "t_start": 981.34,
+    "t_end": 984.73,
+    "text": "right, that's the same as adding an \"R\" to"
+  },
+  {
+    "t_start": 984.73,
+    "t_end": 988.25,
+    "text": "every point's name. But left and then right"
+  },
+  {
+    "t_start": 988.25,
+    "t_end": 992.2,
+    "text": "is a backtrack, they cancel each other out. And look what happens when you"
+  },
+  {
+    "t_start": 992.2,
+    "t_end": 992.98,
+    "text": "reduce"
+  },
+  {
+    "t_start": 992.98,
+    "t_end": 996.98,
+    "text": "them away. The set becomes the same"
+  },
+  {
+    "t_start": 996.98,
+    "t_end": 1000.55,
+    "text": "as a set of all points with names that end with L,"
+  },
+  {
+    "t_start": 1000.55,
+    "t_end": 1004.54,
+    "text": "but also U, D and every point reached"
+  },
+  {
+    "t_start": 1004.54,
+    "t_end": 1007.87,
+    "text": "with no rotation. That's the full set of starting points."
+  },
+  {
+    "t_start": 1007.87,
+    "t_end": 1013.04,
+    "text": "We have turned less than a quarter of the sphere into nearly three-quarters"
+  },
+  {
+    "t_start": 1013.04,
+    "t_end": 1020.22,
+    "text": "just by rotating it. We added nothing. It's like the Hyperwebster. If we had the right"
+  },
+  {
+    "t_start": 1020.22,
+    "t_end": 1020.92,
+    "text": "piece"
+  },
+  {
+    "t_start": 1020.92,
+    "t_end": 1025.65,
+    "text": "and the poles of rotation and the center point, well, we've got the entire sphere"
+  },
+  {
+    "t_start": 1025.65,
+    "t_end": 1029.76,
+    "text": "again, but with stuff left over. To make a second copy,"
+  },
+  {
+    "t_start": 1029.76,
+    "t_end": 1033.26,
+    "text": "let's rotate the up piece down. The"
+  },
+  {
+    "t_start": 1033.26,
+    "t_end": 1036.959,
+    "text": "down ups cancel because, well, it's the same as going nowhere"
+  },
+  {
+    "t_start": 1036.959,
+    "t_end": 1040.25,
+    "text": "and we're left with a set of all starting points, the entire"
+  },
+  {
+    "t_start": 1040.25,
+    "t_end": 1044.55,
+    "text": "up piece, the right piece and the left piece, but there's a problem here."
+  },
+  {
+    "t_start": 1044.55,
+    "t_end": 1048.73,
+    "text": "We don't need this extra set of starting points. We still haven't"
+  },
+  {
+    "t_start": 1048.73,
+    "t_end": 1052.7,
+    "text": "used the original ones. No worries, let's just start over."
+  },
+  {
+    "t_start": 1052.7,
+    "t_end": 1055.7,
+    "text": "We can just move everything from the up piece"
+  },
+  {
+    "t_start": 1055.7,
+    "t_end": 1058.81,
+    "text": "that turns into a starting point when rotated down."
+  },
+  {
+    "t_start": 1058.81,
+    "t_end": 1062.63,
+    "text": "That means every point whose final rotation is up. Let's put them"
+  },
+  {
+    "t_start": 1062.63,
+    "t_end": 1067.4,
+    "text": "in the piece. Of course, after rotating points named"
+  },
+  {
+    "t_start": 1067.4,
+    "t_end": 1071.92,
+    "text": "UU will just turn into points named U, and that would give us a copy here"
+  },
+  {
+    "t_start": 1071.92,
+    "t_end": 1075.13,
+    "text": "and here. So, as it turns out, we need to move"
+  },
+  {
+    "t_start": 1075.13,
+    "t_end": 1078.77,
+    "text": "all points with any name that is just a string of Us."
+  },
+  {
+    "t_start": 1078.77,
+    "t_end": 1081.96,
+    "text": "We will put them in the down piece and rotate the up"
+  },
+  {
+    "t_start": 1081.96,
+    "t_end": 1085.17,
+    "text": "piece down, which makes it congruent to the up right"
+  },
+  {
+    "t_start": 1085.17,
+    "t_end": 1089.04,
+    "text": "and left pieces, add in the down piece along with some up"
+  },
+  {
+    "t_start": 1089.04,
+    "t_end": 1092.929,
+    "text": "and the starting point piece and, well, we're almost done."
+  },
+  {
+    "t_start": 1092.929,
+    "t_end": 1095.86,
+    "text": "The poles of rotation and center are missing"
+  },
+  {
+    "t_start": 1095.86,
+    "t_end": 1098.789,
+    "text": "from this copy, but no worries. There's a countably"
+  },
+  {
+    "t_start": 1098.789,
+    "t_end": 1102.659,
+    "text": "infinite number of holes, where the poles of rotations used to be,"
+  },
+  {
+    "t_start": 1102.659,
+    "t_end": 1108.13,
+    "text": "which means there is some pole around which we can rotate this sphere such that"
+  },
+  {
+    "t_start": 1108.13,
+    "t_end": 1112.07,
+    "text": "every pole hole orbits around without hitting another."
+  },
+  {
+    "t_start": 1112.07,
+    "t_end": 1115.649,
+    "text": "Well, this is just a bunch of circles with one point missing."
+  },
+  {
+    "t_start": 1115.649,
+    "t_end": 1120.52,
+    "text": "We fill them each like we did earlier. And we do the same for the centerpoint."
+  },
+  {
+    "t_start": 1120.52,
+    "t_end": 1124.039,
+    "text": "Imagine a circle that contains it inside the sphere"
+  },
+  {
+    "t_start": 1124.039,
+    "t_end": 1127.27,
+    "text": "and just fill in from infinity and look what we've done."
+  },
+  {
+    "t_start": 1127.27,
+    "t_end": 1133.33,
+    "text": "We have taken one sphere and turned it into two identical spheres"
+  },
+  {
+    "t_start": 1133.33,
+    "t_end": 1136.679,
+    "text": "without adding anything."
+  },
+  {
+    "t_start": 1136.679,
+    "t_end": 1141.159,
+    "text": "One plus one equals 1. That took"
+  },
+  {
+    "t_start": 1141.159,
+    "t_end": 1144.929,
+    "text": "a while to go through, but the implications are huge."
+  },
+  {
+    "t_start": 1144.929,
+    "t_end": 1149.6,
+    "text": "And mathematicians, scientists and philosophers are still debating them."
+  },
+  {
+    "t_start": 1149.6,
+    "t_end": 1153.57,
+    "text": "Could such a process happen in the real world?"
+  },
+  {
+    "t_start": 1153.57,
+    "t_end": 1158.789,
+    "text": "I mean, it can happen mathematically and math allows us to abstractly predict and"
+  },
+  {
+    "t_start": 1158.789,
+    "t_end": 1161.32,
+    "text": "describe a lot of things in the real world"
+  },
+  {
+    "t_start": 1161.32,
+    "t_end": 1166.039,
+    "text": "with amazing accuracy, but does the Banach-Tarski paradox"
+  },
+  {
+    "t_start": 1166.039,
+    "t_end": 1169.929,
+    "text": "take it too far? Is it a place where math and physics"
+  },
+  {
+    "t_start": 1169.929,
+    "t_end": 1173.33,
+    "text": "separate? We still don't know."
+  },
+  {
+    "t_start": 1173.33,
+    "t_end": 1177.999,
+    "text": "History is full of examples of mathematical concepts developed in the"
+  },
+  {
+    "t_start": 1177.999,
+    "t_end": 1178.749,
+    "text": "abstract"
+  },
+  {
+    "t_start": 1178.749,
+    "t_end": 1182.59,
+    "text": "that we did not think would ever apply to the real world"
+  },
+  {
+    "t_start": 1182.59,
+    "t_end": 1187.09,
+    "text": "for years, decades, centuries, until eventually science caught up and"
+  },
+  {
+    "t_start": 1187.09,
+    "t_end": 1190.21,
+    "text": "realized they were totally applicable"
+  },
+  {
+    "t_start": 1190.21,
+    "t_end": 1196.769,
+    "text": "and useful. The Banach-Tarski paradox could actually happen in our real-world,"
+  },
+  {
+    "t_start": 1196.769,
+    "t_end": 1201.2,
+    "text": "the only catch of course is that the five pieces you cut your object into"
+  },
+  {
+    "t_start": 1201.2,
+    "t_end": 1205.44,
+    "text": "aren't simple shapes. They must be infinitely complex"
+  },
+  {
+    "t_start": 1205.44,
+    "t_end": 1210.899,
+    "text": "and detailed. That's not possible to do in the real world, where measurements can"
+  },
+  {
+    "t_start": 1210.899,
+    "t_end": 1212.34,
+    "text": "only get so small"
+  },
+  {
+    "t_start": 1212.34,
+    "t_end": 1216.98,
+    "text": "and there's only a finite amount of time to do anything, but math says it's"
+  },
+  {
+    "t_start": 1216.98,
+    "t_end": 1219.509,
+    "text": "theoretically valid and some scientists"
+  },
+  {
+    "t_start": 1219.509,
+    "t_end": 1222.72,
+    "text": "think it may be physically valid too."
+  },
+  {
+    "t_start": 1223.42,
+    "t_end": 1226.4,
+    "text": "There have been a number of papers published suggesting"
+  },
+  {
+    "t_start": 1226.409,
+    "t_end": 1229.619,
+    "text": "a link between by Banach-Tarski"
+  },
+  {
+    "t_start": 1229.619,
+    "t_end": 1232.95,
+    "text": "and the way tiny tiny sub-atomic particles"
+  },
+  {
+    "t_start": 1232.95,
+    "t_end": 1238.01,
+    "text": "can collide at high energies and turn into more particles"
+  },
+  {
+    "t_start": 1238.01,
+    "t_end": 1239.51,
+    "text": "than we began with."
+  },
+  {
+    "t_start": 1242.32,
+    "t_end": 1246.62,
+    "text": "We are finite creatures. Our lives"
+  },
+  {
+    "t_start": 1246.62,
+    "t_end": 1251.36,
+    "text": "are small and can only scientifically consider a small part of"
+  },
+  {
+    "t_start": 1251.36,
+    "t_end": 1254.909,
+    "text": "reality. What's common for us is just"
+  },
+  {
+    "t_start": 1254.909,
+    "t_end": 1259.029,
+    "text": "a sliver of what's available. We can only see so much of the electromagnetic"
+  },
+  {
+    "t_start": 1259.029,
+    "t_end": 1259.99,
+    "text": "spectrum."
+  },
+  {
+    "t_start": 1259.99,
+    "t_end": 1263.429,
+    "text": "We can only delve so deep into extensions of space."
+  },
+  {
+    "t_start": 1263.429,
+    "t_end": 1267.37,
+    "text": "Common sense applies to that which we can"
+  },
+  {
+    "t_start": 1267.37,
+    "t_end": 1270.789,
+    "text": "access. But common sense is just that."
+  },
+  {
+    "t_start": 1271.56,
+    "t_end": 1274.02,
+    "text": "Common. If total sense"
+  },
+  {
+    "t_start": 1274.029,
+    "t_end": 1278.7,
+    "text": "is what we want, we should be prepared to accept that we shouldn't call infinity"
+  },
+  {
+    "t_start": 1278.7,
+    "t_end": 1280.33,
+    "text": "weird or strange."
+  },
+  {
+    "t_start": 1280.33,
+    "t_end": 1284.669,
+    "text": "The results we've arrived at by accepting it are valid,"
+  },
+  {
+    "t_start": 1284.669,
+    "t_end": 1288.919,
+    "text": "true within the system we use to understand, measure, predict and order the"
+  },
+  {
+    "t_start": 1288.919,
+    "t_end": 1289.74,
+    "text": "universe."
+  },
+  {
+    "t_start": 1289.74,
+    "t_end": 1294.289,
+    "text": "Perhaps the system still needs perfecting, but at the end of day,"
+  },
+  {
+    "t_start": 1294.289,
+    "t_end": 1298.98,
+    "text": "history continues to show us that the universe isn't strange."
+  },
+  {
+    "t_start": 1300.48,
+    "t_end": 1301.8,
+    "text": "We are."
+  },
+  {
+    "t_start": 1302.95,
+    "t_end": 1304.61,
+    "text": "And as always,"
+  },
+  {
+    "t_start": 1304.61,
+    "t_end": 1306.57,
+    "text": "thanks for watching."
+  },
+  {
+    "t_start": 1326.779,
+    "t_end": 1330.69,
+    "text": "Finally, as always, the description is full of links to learn more."
+  },
+  {
+    "t_start": 1330.69,
+    "t_end": 1334.09,
+    "text": "There are also a number of books linked down there that really helped me"
+  },
+  {
+    "t_start": 1334.09,
+    "t_end": 1337.389,
+    "text": "wrap my mind kinda around Banach-Tarski."
+  },
+  {
+    "t_start": 1337.389,
+    "t_end": 1342.33,
+    "text": "First of all, Leonard Wapner's \"The Pea and the Sun.\" This book is fantastic and it's full of"
+  },
+  {
+    "t_start": 1342.33,
+    "t_end": 1343.929,
+    "text": "lot of the preliminaries needed"
+  },
+  {
+    "t_start": 1343.929,
+    "t_end": 1347.659,
+    "text": "to understand the proof that comes later. He also talks a lot about the"
+  },
+  {
+    "t_start": 1347.659,
+    "t_end": 1348.94,
+    "text": "ramifications"
+  },
+  {
+    "t_start": 1348.94,
+    "t_end": 1353.019,
+    "text": "of what Banach-Tarski and their theorem might mean for mathematics."
+  },
+  {
+    "t_start": 1353.019,
+    "t_end": 1356.869,
+    "text": "Also, if you wanna talk about math and whether it's discovered or invented,"
+  },
+  {
+    "t_start": 1356.869,
+    "t_end": 1357.72,
+    "text": "whether"
+  },
+  {
+    "t_start": 1357.72,
+    "t_end": 1361.659,
+    "text": "it really truly will map onto the universe, Yanofsky's"
+  },
+  {
+    "t_start": 1361.659,
+    "t_end": 1365.09,
+    "text": "\"The Outer Limits of Reason\" is great."
+  },
+  {
+    "t_start": 1365.09,
+    "t_end": 1369.019,
+    "text": "This is the favorite book of mine that I've read this entire year. Another good one is E."
+  },
+  {
+    "t_start": 1369.019,
+    "t_end": 1370.139,
+    "text": "Brian Davies'"
+  },
+  {
+    "t_start": 1370.139,
+    "t_end": 1373.489,
+    "text": "\"Why Beliefs Matter.\" This is actually Corn's favorite book,"
+  },
+  {
+    "t_start": 1373.489,
+    "t_end": 1377.389,
+    "text": "as you might be able to see there. It's delicious and full of lots of great"
+  },
+  {
+    "t_start": 1377.389,
+    "t_end": 1379.759,
+    "text": "information about the limits of what we can know"
+  },
+  {
+    "t_start": 1379.759,
+    "t_end": 1383.919,
+    "text": "and what science is and what mathematics is."
+  },
+  {
+    "t_start": 1383.919,
+    "t_end": 1388.399,
+    "text": "If you love infinity and math, I cannot more highly recommend Matt Parker's"
+  },
+  {
+    "t_start": 1388.399,
+    "t_end": 1391.72,
+    "text": "\"Things to Make and Do in the Fourth Dimension.\" He's hilarious and this book"
+  },
+  {
+    "t_start": 1391.72,
+    "t_end": 1391.96,
+    "text": "is"
+  },
+  {
+    "t_start": 1391.96,
+    "t_end": 1395.309,
+    "text": "very very great at explaining some pretty awesome things."
+  },
+  {
+    "t_start": 1395.309,
+    "t_end": 1399.23,
+    "text": "So keep reading, and if you're looking for something to watch,"
+  },
+  {
+    "t_start": 1399.23,
+    "t_end": 1402.73,
+    "text": "I hope you've already watched Kevin Lieber's film on"
+  },
+  {
+    "t_start": 1402.73,
+    "t_end": 1406.109,
+    "text": "Field Day. I already did a documentary about Whittier, Alaska over there."
+  },
+  {
+    "t_start": 1406.109,
+    "t_end": 1409.619,
+    "text": "Kevin's got a great short film about putting things out on the Internet"
+  },
+  {
+    "t_start": 1409.619,
+    "t_end": 1412.809,
+    "text": "and having people react to them. There's a rumor that Jake Roper might be doing"
+  },
+  {
+    "t_start": 1412.809,
+    "t_end": 1414.179,
+    "text": "something on Field Day soon."
+  },
+  {
+    "t_start": 1414.179,
+    "t_end": 1417.269,
+    "text": "So check out mine, check out Kevin's and"
+  },
+  {
+    "t_start": 1417.269,
+    "t_end": 1421.139,
+    "text": "subscribe to Field Day for upcoming Jake Roper action, yeah?"
+  },
+  {
+    "t_start": 1421.139,
+    "t_end": 1425.509,
+    "text": "He's actually in this room right now, say hi, Jake. [Jake:] Hi. Thanks for filming this, by"
+  },
+  {
+    "t_start": 1425.509,
+    "t_end": 1426.029,
+    "text": "the way."
+  },
+  {
+    "t_start": 1426.029,
+    "t_end": 1429.95,
+    "text": "Guys, I really appreciate who you all are."
+  },
+  {
+    "t_start": 1429.95,
+    "t_end": 1431.63,
+    "text": "And as always,"
+  },
+  {
+    "t_start": 1431.63,
+    "t_end": 1432.75,
+    "text": "thanks for watching."
+  }
+]

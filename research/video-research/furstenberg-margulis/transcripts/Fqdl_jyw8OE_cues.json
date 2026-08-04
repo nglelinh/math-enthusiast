@@ -1,0 +1,537 @@
+[
+  {
+    "t_start": 11.71,
+    "t_end": 17.99,
+    "text": "I'm now going to give a brief overview of the laureates work in five minutes I"
+  },
+  {
+    "t_start": 17.99,
+    "t_end": 20.48,
+    "text": "of the laureates work in five minutes I can only give a glimpse of their immense"
+  },
+  {
+    "t_start": 20.48,
+    "t_end": 23.33,
+    "text": "can only give a glimpse of their immense contributions to mathematics I would"
+  },
+  {
+    "t_start": 23.33,
+    "t_end": 27.65,
+    "text": "contributions to mathematics I would like to show some of the themes of their"
+  },
+  {
+    "t_start": 27.65,
+    "t_end": 31.78,
+    "text": "work and also give a sense of their wider legacy we start with a streetlamp"
+  },
+  {
+    "t_start": 31.78,
+    "t_end": 34.49,
+    "text": "wider legacy we start with a streetlamp imagine a drunkards sleeping at the base"
+  },
+  {
+    "t_start": 34.49,
+    "t_end": 39.8,
+    "text": "of his lamppost she wakes up takes a step in an armory Direction collapses to"
+  },
+  {
+    "t_start": 39.8,
+    "t_end": 42.17,
+    "text": "step in an armory Direction collapses to the ground wakes up again takes the step"
+  },
+  {
+    "t_start": 42.17,
+    "t_end": 44.21,
+    "text": "the ground wakes up again takes the step in an arbitrary direction collapses"
+  },
+  {
+    "t_start": 44.21,
+    "t_end": 50.75,
+    "text": "again and repeats this ad infinitum in mathematical language the path traveled"
+  },
+  {
+    "t_start": 50.75,
+    "t_end": 56.9,
+    "text": "by a drunken friend is a random walk a sequence of steps where each step is in"
+  },
+  {
+    "t_start": 56.9,
+    "t_end": 60.26,
+    "text": "sequence of steps where each step is in a random Direction random walks are a"
+  },
+  {
+    "t_start": 60.26,
+    "t_end": 64.939,
+    "text": "well-known concept that is used to model many phenomena such as in economics the"
+  },
+  {
+    "t_start": 64.939,
+    "t_end": 69.8,
+    "text": "variations as an oppressive stock or in physics the behavior of molecules of gas"
+  },
+  {
+    "t_start": 69.8,
+    "t_end": 75.62,
+    "text": "physics the behavior of molecules of gas in fact this image which looks like a"
+  },
+  {
+    "t_start": 75.62,
+    "t_end": 78.789,
+    "text": "gas propagating is for random walk starting from the same place after about"
+  },
+  {
+    "t_start": 78.789,
+    "t_end": 81.889,
+    "text": "starting from the same place after about 10,000 steps well it's the sort of"
+  },
+  {
+    "t_start": 81.889,
+    "t_end": 83.599,
+    "text": "10,000 steps well it's the sort of question that a mathematician might want"
+  },
+  {
+    "t_start": 83.599,
+    "t_end": 88.55,
+    "text": "question that a mathematician might want to ask about a random walk well what are"
+  },
+  {
+    "t_start": 88.55,
+    "t_end": 93.98,
+    "text": "bump his head on the lamppost in other words that his path will return to the"
+  },
+  {
+    "t_start": 93.98,
+    "t_end": 99.709,
+    "text": "point of origin the chances are 100% now let's say the"
+  },
+  {
+    "t_start": 99.709,
+    "t_end": 102.169,
+    "text": "the chances are 100% now let's say the path is in three dimensions we have a"
+  },
+  {
+    "t_start": 102.169,
+    "t_end": 107.899,
+    "text": "drunken be starting from a dot in space whose flight path is a random walk in"
+  },
+  {
+    "t_start": 107.899,
+    "t_end": 110.899,
+    "text": "whose flight path is a random walk in three dimensions now the chance of the"
+  },
+  {
+    "t_start": 110.899,
+    "t_end": 114.169,
+    "text": "three dimensions now the chance of the fly returning to its original point its"
+  },
+  {
+    "t_start": 114.169,
+    "t_end": 121.73,
+    "text": "fly returning to its original point its point of origin is only about 34% this"
+  },
+  {
+    "t_start": 121.73,
+    "t_end": 124.19,
+    "text": "idea that random walks behave differently depending on where they take"
+  },
+  {
+    "t_start": 124.19,
+    "t_end": 132.28,
+    "text": "differently depending on where they take place is central to the work of both"
+  },
+  {
+    "t_start": 132.28,
+    "t_end": 135.05,
+    "text": "hello fürstenberg and Gregory McGinnis one abstract space under stain"
+  },
+  {
+    "t_start": 135.05,
+    "t_end": 136.76,
+    "text": "one abstract space under stain investigated the behavior of random"
+  },
+  {
+    "t_start": 136.76,
+    "t_end": 143.809,
+    "text": "walks is Lea groups Ally group is a mathematical tool that's used to analyze"
+  },
+  {
+    "t_start": 143.809,
+    "t_end": 144.89,
+    "text": "mathematical tool that's used to analyze objects"
+  },
+  {
+    "t_start": 144.89,
+    "t_end": 151.49,
+    "text": "whose symmetries can be understood in terms of smooth motions Furstenberg and"
+  },
+  {
+    "t_start": 151.49,
+    "t_end": 153.559,
+    "text": "terms of smooth motions Furstenberg and Mike Gillis both made important"
+  },
+  {
+    "t_start": 153.559,
+    "t_end": 155.899,
+    "text": "Mike Gillis both made important discoveries about the behavior of random"
+  },
+  {
+    "t_start": 155.899,
+    "t_end": 159.8,
+    "text": "discoveries about the behavior of random walks on Lee groups their approach"
+  },
+  {
+    "t_start": 159.8,
+    "t_end": 163.16,
+    "text": "walks on Lee groups their approach however was groundbreaking rather than"
+  },
+  {
+    "t_start": 163.16,
+    "t_end": 166.99,
+    "text": "simply looking at the behavior of random walks they went in the other direction"
+  },
+  {
+    "t_start": 166.99,
+    "t_end": 169.729,
+    "text": "walks they went in the other direction showing how the behavior of the random"
+  },
+  {
+    "t_start": 169.729,
+    "t_end": 172.88,
+    "text": "showing how the behavior of the random walks revealed deep properties about the"
+  },
+  {
+    "t_start": 172.88,
+    "t_end": 175.449,
+    "text": "walks revealed deep properties about the structures of the groups"
+  },
+  {
+    "t_start": 175.449,
+    "t_end": 182.119,
+    "text": "hello Furstenberg was born in Germany in 1935 his family fled the Nazis when he"
+  },
+  {
+    "t_start": 182.119,
+    "t_end": 184.129,
+    "text": "1935 his family fled the Nazis when he was a boy and they settled in New York"
+  },
+  {
+    "t_start": 184.129,
+    "t_end": 185.99,
+    "text": "was a boy and they settled in New York aged 30 he moved to the Hebrew"
+  },
+  {
+    "t_start": 185.99,
+    "t_end": 187.91,
+    "text": "aged 30 he moved to the Hebrew University of Jerusalem where he has"
+  },
+  {
+    "t_start": 187.91,
+    "t_end": 191.809,
+    "text": "University of Jerusalem where he has been ever since Furstenberg helped turn"
+  },
+  {
+    "t_start": 191.809,
+    "t_end": 193.879,
+    "text": "been ever since Furstenberg helped turn the Hebrew University into a world"
+  },
+  {
+    "t_start": 193.879,
+    "t_end": 196.46,
+    "text": "the Hebrew University into a world center for mathematics in particular in"
+  },
+  {
+    "t_start": 196.46,
+    "t_end": 199.039,
+    "text": "center for mathematics in particular in a Gothic theory a type of probability"
+  },
+  {
+    "t_start": 199.039,
+    "t_end": 201.649,
+    "text": "a Gothic theory a type of probability theory that looks at the measurable"
+  },
+  {
+    "t_start": 201.649,
+    "t_end": 204.89,
+    "text": "theory that looks at the measurable aspects of dynamical systems like rides"
+  },
+  {
+    "t_start": 204.89,
+    "t_end": 210.05,
+    "text": "aspects of dynamical systems like rides of gas in 1977 first Berg used a Gothic"
+  },
+  {
+    "t_start": 210.05,
+    "t_end": 212.15,
+    "text": "of gas in 1977 first Berg used a Gothic theory to give a proof of a well known"
+  },
+  {
+    "t_start": 212.15,
+    "t_end": 214.939,
+    "text": "theory to give a proof of a well known theorem by andreas em already about"
+  },
+  {
+    "t_start": 214.939,
+    "t_end": 217.67,
+    "text": "theorem by andreas em already about arithmetic or progressions that is a"
+  },
+  {
+    "t_start": 217.67,
+    "t_end": 226.159,
+    "text": "sequence of numbers the increases by a fixed amount each time like 10 12 14 16"
+  },
+  {
+    "t_start": 226.159,
+    "t_end": 228.8,
+    "text": "etc which decreased by two the surprising use of a probabilistic method"
+  },
+  {
+    "t_start": 228.8,
+    "t_end": 233.589,
+    "text": "surprising use of a probabilistic method to prove something in number theory a"
+  },
+  {
+    "t_start": 233.589,
+    "t_end": 238.849,
+    "text": "spectacular the insight was later used in the proof of a famous theorem by"
+  },
+  {
+    "t_start": 238.849,
+    "t_end": 241.189,
+    "text": "in the proof of a famous theorem by Terence Tao and Ben Green that the"
+  },
+  {
+    "t_start": 241.189,
+    "t_end": 243.619,
+    "text": "Terence Tao and Ben Green that the sequence of prime numbers contains our"
+  },
+  {
+    "t_start": 243.619,
+    "t_end": 246.11,
+    "text": "sequence of prime numbers contains our 'but rarely large arithmetic"
+  },
+  {
+    "t_start": 246.11,
+    "t_end": 251.869,
+    "text": "progressions Gregory McGinnis 10 years younger than Furstenberg was born in"
+  },
+  {
+    "t_start": 251.869,
+    "t_end": 254.149,
+    "text": "younger than Furstenberg was born in Moscow his early work on lead groups"
+  },
+  {
+    "t_start": 254.149,
+    "t_end": 257.99,
+    "text": "Moscow his early work on lead groups whenever the 1978 film medal at that"
+  },
+  {
+    "t_start": 257.99,
+    "t_end": 260.33,
+    "text": "whenever the 1978 film medal at that time Soviet academics were not allowed"
+  },
+  {
+    "t_start": 260.33,
+    "t_end": 267.5,
+    "text": "to leave the country and he was refused a visa to attend in the Fields Medal as"
+  },
+  {
+    "t_start": 267.5,
+    "t_end": 269.39,
+    "text": "a result of Soviet isolation my Goudas was largely cut off from the work going"
+  },
+  {
+    "t_start": 269.39,
+    "t_end": 270.36,
+    "text": "was largely cut off from the work going on in his area"
+  },
+  {
+    "t_start": 270.36,
+    "t_end": 275.79,
+    "text": "the worst he first traveled abroad in 1979 and eventually emigrated to the"
+  },
+  {
+    "t_start": 275.79,
+    "t_end": 280.8,
+    "text": "1979 and eventually emigrated to the u.s. in 1991 Furstenberg and markoulis"
+  },
+  {
+    "t_start": 280.8,
+    "t_end": 282.93,
+    "text": "u.s. in 1991 Furstenberg and markoulis have never lived on the same continent"
+  },
+  {
+    "t_start": 282.93,
+    "t_end": 288.33,
+    "text": "have never lived on the same continent at the same time and have never cover it"
+  },
+  {
+    "t_start": 288.33,
+    "t_end": 291.12,
+    "text": "in a paper they are awarded the árbol prize jointly however because of their"
+  },
+  {
+    "t_start": 291.12,
+    "t_end": 294.51,
+    "text": "prize jointly however because of their innovative use of probability and agogic"
+  },
+  {
+    "t_start": 294.51,
+    "t_end": 300.96,
+    "text": "innovative use of probability and agogic theory and also because of the way they"
+  },
+  {
+    "t_start": 300.96,
+    "t_end": 307.83,
+    "text": "between different fields mark Judas for example used representation theory to"
+  },
+  {
+    "t_start": 307.83,
+    "t_end": 313.05,
+    "text": "prove results in graph theory now a graph can be thought of as a bunch of"
+  },
+  {
+    "t_start": 313.05,
+    "t_end": 315.42,
+    "text": "graph can be thought of as a bunch of dots that are gonna be joined by lines"
+  },
+  {
+    "t_start": 315.42,
+    "t_end": 320.279,
+    "text": "the dots could say be computers and we need to link them together one type of"
+  },
+  {
+    "t_start": 320.279,
+    "t_end": 323.219,
+    "text": "need to link them together one type of question asked by mathematicians is what"
+  },
+  {
+    "t_start": 323.219,
+    "t_end": 328.74,
+    "text": "question asked by mathematicians is what is the most efficient way to join the"
+  },
+  {
+    "t_start": 328.74,
+    "t_end": 330.21,
+    "text": "dots here is one way every dark John's with every other dog it's not very"
+  },
+  {
+    "t_start": 330.21,
+    "t_end": 335.49,
+    "text": "efficient here is another way every dog joins with a single dot not very robust"
+  },
+  {
+    "t_start": 335.49,
+    "t_end": 337.56,
+    "text": "joins with a single dot not very robust and here's another way every dot joins"
+  },
+  {
+    "t_start": 337.56,
+    "t_end": 339.51,
+    "text": "and here's another way every dot joins just to his neighbor's again not very"
+  },
+  {
+    "t_start": 339.51,
+    "t_end": 341.79,
+    "text": "just to his neighbor's again not very efficient since it takes many steps to"
+  },
+  {
+    "t_start": 341.79,
+    "t_end": 347.4,
+    "text": "efficient since it takes many steps to go from one corner to the other in the"
+  },
+  {
+    "t_start": 347.4,
+    "t_end": 351.089,
+    "text": "1970s grid you my Googlers discovered the first family of expander grass which"
+  },
+  {
+    "t_start": 351.089,
+    "t_end": 355.95,
+    "text": "the first family of expander grass which is a way of organizing them network such"
+  },
+  {
+    "t_start": 355.95,
+    "t_end": 362.46,
+    "text": "that every dot links to every other dot in a small number of stairs yet the"
+  },
+  {
+    "t_start": 362.46,
+    "t_end": 365.43,
+    "text": "total number of links is relatively small his discovery has had important"
+  },
+  {
+    "t_start": 365.43,
+    "t_end": 367.68,
+    "text": "small his discovery has had important applications in computer science in the"
+  },
+  {
+    "t_start": 367.68,
+    "t_end": 369.99,
+    "text": "applications in computer science in the construction of error correcting codes"
+  },
+  {
+    "t_start": 369.99,
+    "t_end": 375.839,
+    "text": "to summarize the work of Hillel Furstenberg and Gregory McGinnis stands"
+  },
+  {
+    "t_start": 375.839,
+    "t_end": 378.689,
+    "text": "Furstenberg and Gregory McGinnis stands out not only because they introduced"
+  },
+  {
+    "t_start": 378.689,
+    "t_end": 381.29,
+    "text": "out not only because they introduced many influential ideas and proved"
+  },
+  {
+    "t_start": 381.29,
+    "t_end": 384.779,
+    "text": "many influential ideas and proved long-standing open questions but also"
+  },
+  {
+    "t_start": 384.779,
+    "t_end": 386.46,
+    "text": "long-standing open questions but also because they've brought different"
+  },
+  {
+    "t_start": 386.46,
+    "t_end": 392.46,
+    "text": "mathematical fields together thanks to them applied probabilistic methods like"
+  },
+  {
+    "t_start": 392.46,
+    "t_end": 398.7,
+    "text": "them applied probabilistic methods like random walks are now ubiquitous in some"
+  },
+  {
+    "t_start": 398.7,
+    "t_end": 402.97,
+    "text": "of the purest most abstract areas of research I return to the image of a"
+  },
+  {
+    "t_start": 402.97,
+    "t_end": 410.79,
+    "text": "the work of the 2020 Arbor laureates illuminates brilliantly the surprising"
+  },
+  {
+    "t_start": 410.79,
+    "t_end": 413.29,
+    "text": "illuminates brilliantly the surprising interconnectedness of several"
+  },
+  {
+    "t_start": 413.29,
+    "t_end": 419.98,
+    "text": "mathematical fields and as such is a beautiful demonstration of mathematics"
+  },
+  {
+    "t_start": 419.98,
+    "t_end": 422.26,
+    "text": "beautiful demonstration of mathematics as a unified whole"
+  },
+  {
+    "t_start": 422.26,
+    "t_end": 426.88,
+    "text": "as a unified whole [Music]"
+  }
+]

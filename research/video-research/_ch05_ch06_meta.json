@@ -1,0 +1,1415 @@
+[
+  {
+    "slug": "euclid-infinite-primes",
+    "title": "Euclid: Infinitely Many Primes",
+    "chapter": "05",
+    "en": "contents/en/chapter05/_posts/21-01-01-05_02_Euclid_Infinite_Primes.md",
+    "vi": "contents/vi/chapter05/_posts/21-01-01-05_02_Euclid_Infinite_Primes.md",
+    "status": "**Proved** (classical; Euclid, Elements IX.20). Status closed; pedagogy of the *idea* remains active.",
+    "theorem_line": "There are infinitely many primes. Proof idea: from finite list $p_1,\\ldots,p_k$, form $N=P+1$ with $P=\\prod p_i$; any prime factor of $N$ is new.",
+    "videos": [
+      [
+        "V1",
+        "Numberphile — Infinite Primes (James Grime / Euclid)",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=ctC33JAV4FI"
+      ],
+      [
+        "V2",
+        "blackpenredpen — Euclid's proof infinitely many primes",
+        "CORE",
+        "https://www.youtube.com/watch?v=816JCX5tKD8"
+      ],
+      [
+        "V3",
+        "Wrath of Math — Proof: infinitely many primes",
+        "FOUNDATION",
+        "https://www.youtube.com/watch?v=ZYkZws-23R8"
+      ],
+      [
+        "V4",
+        "Maths and Stats — Number Theory: Infinitude of Primes (Euclid)",
+        "FOUNDATION",
+        "https://www.youtube.com/watch?v=YPb0JC18AC4"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Euclid, Elements IX.20 (standard translation editions)",
+        "https://en.wikipedia.org/wiki/Euclid%27s_Elements"
+      ],
+      [
+        "P2",
+        "Wikipedia — Euclid's theorem (survey of proofs)",
+        "https://en.wikipedia.org/wiki/Euclid%27s_theorem"
+      ],
+      [
+        "P3",
+        "Proofs that there are infinitely many primes (math encyclopedia style)",
+        "https://mathworld.wolfram.com/EuclidsTheorems.html"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Wikipedia — Euclid's theorem",
+        "https://en.wikipedia.org/wiki/Euclid%27s_theorem"
+      ],
+      [
+        "W2",
+        "MacTutor / history of primes (background)",
+        "https://mathshistory.st-andrews.ac.uk/HistTopics/Prime_numbers/"
+      ],
+      [
+        "W3",
+        "Stanford Encyclopedia-style / intro number theory notes (search Euclid primes)",
+        "https://en.wikipedia.org/wiki/Prime_number"
+      ]
+    ],
+    "definitions": [
+      [
+        "Prime",
+        "Integer $p>1$ whose only positive divisors are $1$ and $p$."
+      ],
+      [
+        "Euclid number (idea-level)",
+        "Given primes $p_1,\\ldots,p_k$, set $N=p_1\\cdots p_k+1$. $N$ need not be prime."
+      ]
+    ],
+    "confusions": [
+      "Claiming $N$ itself is always prime (false; e.g. $2\\cdot3\\cdot5\\cdot7\\cdot11\\cdot13+1=30031=59\\cdot509$).",
+      "Confusing infinitude with a formula for the $n$th prime."
+    ]
+  },
+  {
+    "slug": "cantor-diagonal",
+    "title": "Cantor's Diagonal Argument",
+    "chapter": "05",
+    "en": "contents/en/chapter05/_posts/21-01-01-05_03_Cantor_Diagonal.md",
+    "vi": "contents/vi/chapter05/_posts/21-01-01-05_03_Cantor_Diagonal.md",
+    "status": "**Proved** (Cantor). Uncountability of $\\mathbb{R}$ / power set of $\\mathbb{N}$ is standard theorem; representation hygiene is the main student pitfall.",
+    "theorem_line": "No surjection $\\mathbb{N}\\to\\{0,1\\}^{\\mathbb{N}}$ (equivalently $\\mathbb{R}$ is uncountable). Diagonal flips $a_{nn}$ to build an escaped sequence.",
+    "videos": [
+      [
+        "V1",
+        "Numberphile — Infinity is bigger than you think (James Grime / Cantor)",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=elvOZm0d4H0"
+      ],
+      [
+        "V2",
+        "Numberphile page for V1",
+        "META",
+        "https://www.numberphile.com/videos/infinity-is-bigger-than-you-think"
+      ],
+      [
+        "V3",
+        "Cantor's Diagonalization Argument (classic classroom upload)",
+        "FOUNDATION",
+        "https://www.youtube.com/watch?v=qGYDQWm49wU"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Wikipedia — Cantor's diagonal argument",
+        "https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument"
+      ],
+      [
+        "P2",
+        "Stillwell / standard set-theory texts (Roads to Infinity style)",
+        "https://en.wikipedia.org/wiki/Cardinality"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Wikipedia — Countable set",
+        "https://en.wikipedia.org/wiki/Countable_set"
+      ],
+      [
+        "W2",
+        "Wikipedia — Uncountable set",
+        "https://en.wikipedia.org/wiki/Uncountable_set"
+      ],
+      [
+        "W3",
+        "MathStack discussion: what diagonalization proves",
+        "https://math.stackexchange.com/questions/2176304/georg-cantors-diagonal-argument-what-exactly-does-it-prove"
+      ]
+    ],
+    "definitions": [
+      [
+        "Countable",
+        "In bijection with a subset of $\\mathbb{N}$ (or finite)."
+      ],
+      [
+        "Diagonal construction",
+        "Given listed sequences $a_i=(a_{i1},a_{i2},\\ldots)$, define $b_n \\\\neq a_{nn}$ so $b$ is not any $a_i$."
+      ]
+    ],
+    "confusions": [
+      "Applying diagonalization naively to $\\mathbb{Q}$ (rationals *are* countable).",
+      "Ignoring dual expansions $0.1999\\ldots=0.2000\\ldots$ without a digit rule that avoids both."
+    ]
+  },
+  {
+    "slug": "godel-incompleteness",
+    "title": "Gödel's Incompleteness Theorems",
+    "chapter": "05",
+    "en": "contents/en/chapter05/_posts/21-01-01-05_04_Godel_Incompleteness.md",
+    "vi": "contents/vi/chapter05/_posts/21-01-01-05_04_Godel_Incompleteness.md",
+    "status": "**Proved** (Gödel 1931). First and second incompleteness theorems are theorems of mathematical logic; popularizations often overclaim 'math is broken'.",
+    "theorem_line": "Any consistent, effectively axiomatized theory capable of arithmetic is incomplete: there are true (in $\\mathbb{N}$) sentences unprovable in the theory. Second: such a theory cannot prove its own consistency (under standard formalizations).",
+    "videos": [
+      [
+        "V1",
+        "Numberphile — Gödel's Incompleteness Theorem (Marcus du Sautoy)",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=O4ndIDcDSGc"
+      ],
+      [
+        "V2",
+        "TED-Ed — Paradox at the heart of mathematics (du Sautoy)",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=I4pQbo5MQOs"
+      ],
+      [
+        "V3",
+        "Veritasium — Math's Fundamental Flaw (Gödel + undecidability arc)",
+        "CORE",
+        "https://www.youtube.com/watch?v=HeQX2HjkcNo"
+      ],
+      [
+        "V4",
+        "Computerphile — Gödel's Incompleteness (Altenkirch / Lean)",
+        "FOUNDATION",
+        "https://www.youtube.com/watch?v=IuX8QMgy4qE"
+      ],
+      [
+        "V5",
+        "Numberphile page",
+        "META",
+        "https://www.numberphile.com/videos/godels-incompleteness-theorem"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Wikipedia — Gödel's incompleteness theorems",
+        "https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems"
+      ],
+      [
+        "P2",
+        "Stanford Encyclopedia of Philosophy — Gödel's incompleteness",
+        "https://plato.stanford.edu/entries/goedel-incompleteness/"
+      ],
+      [
+        "P3",
+        "N. Raatikainen SEP entry (same as above)",
+        "https://plato.stanford.edu/entries/goedel-incompleteness/"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "TED-Ed lesson page",
+        "https://ed.ted.com/lessons/the-paradox-at-the-heart-of-mathematics-godel-s-incompleteness-theorem-marcus-du-sautoy"
+      ],
+      [
+        "W2",
+        "Wikipedia — Hilbert's program (context)",
+        "https://en.wikipedia.org/wiki/Hilbert%27s_program"
+      ]
+    ],
+    "definitions": [
+      [
+        "Formal theory",
+        "Language + effective axioms + rules of inference; theorems = derivable sentences."
+      ],
+      [
+        "Gödel sentence (idea)",
+        "Self-referential arithmetical sentence asserting its own unprovability in $T$."
+      ]
+    ],
+    "confusions": [
+      "Interpreting incompleteness as 'nothing can be proved' or 'all systems are inconsistent'.",
+      "Conflating incompleteness with undecidability of arbitrary natural-language questions."
+    ]
+  },
+  {
+    "slug": "euler-konigsberg",
+    "title": "Euler and the Königsberg Bridges",
+    "chapter": "05",
+    "en": "contents/en/chapter05/_posts/21-01-01-05_05_Euler_Konigsberg.md",
+    "vi": "contents/vi/chapter05/_posts/21-01-01-05_05_Euler_Konigsberg.md",
+    "status": "**Proved** (Euler 1736 necessity; full sufficiency of Eulerian criteria completed later, Hierholzer). Founding theorem of graph theory.",
+    "theorem_line": "A connected graph has an Eulerian circuit iff every vertex has even degree; an Eulerian trail iff exactly 0 or 2 odd-degree vertices. Königsberg multigraph has four odd vertices → impossible.",
+    "videos": [
+      [
+        "V1",
+        "Numberphile — Seven Bridges of Königsberg (Cliff Stoll)",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=W18FDEA1jRQ"
+      ],
+      [
+        "V2",
+        "TED-Ed — How the Königsberg bridge problem changed mathematics",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=nZwSo4vfw6c"
+      ],
+      [
+        "V3",
+        "Sarada Herke — Graph Theory: Seven Bridges of Konigsberg",
+        "FOUNDATION",
+        "https://www.youtube.com/watch?v=eIb1cz06UwI"
+      ],
+      [
+        "V4",
+        "Dr. Trefor Bazett — Euler Paths & 7 Bridges",
+        "CORE",
+        "https://www.youtube.com/watch?v=dSK5jTEe-AM"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Wikipedia — Seven Bridges of Königsberg",
+        "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg"
+      ],
+      [
+        "P2",
+        "MathWorld — Königsberg Bridge Problem",
+        "https://mathworld.wolfram.com/KoenigsbergBridgeProblem.html"
+      ],
+      [
+        "P3",
+        "Euler 1736 paper (historical translations / surveys)",
+        "https://en.wikipedia.org/wiki/Leonhard_Euler"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Mathigon course — Bridges of Königsberg",
+        "https://mathigon.org/course/graph-theory/bridges"
+      ],
+      [
+        "W2",
+        "Numberphile page",
+        "https://www.numberphile.com/videos/the-seven-bridges-of-knigsberg"
+      ]
+    ],
+    "definitions": [
+      [
+        "Degree",
+        "Number of edge ends at a vertex (loops contribute 2)."
+      ],
+      [
+        "Eulerian circuit / trail",
+        "Closed / open walk using each edge exactly once."
+      ]
+    ],
+    "confusions": [
+      "Thinking the answer depends on bridge lengths or geometry (only incidence matters).",
+      "Mixing Hamiltonian (vertices once) with Eulerian (edges once)."
+    ]
+  },
+  {
+    "slug": "irrationality-sqrt2",
+    "title": "Irrationality of √2",
+    "chapter": "05",
+    "en": "contents/en/chapter05/_posts/21-01-01-05_06_Irrationality_Sqrt2.md",
+    "vi": "contents/vi/chapter05/_posts/21-01-01-05_06_Irrationality_Sqrt2.md",
+    "status": "**Proved** (classical Pythagorean / Euclidean tradition). Many independent proofs (parity, descent, unique factorization, geometric Apostol).",
+    "theorem_line": "$\\sqrt{2}$ is irrational: if $a/b$ in lowest terms with $a^2=2b^2$, then $a$ and $b$ are both even — contradiction.",
+    "videos": [
+      [
+        "V1",
+        "D!NG — A Proof That The Square Root of Two Is Irrational",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=LmpLlcNjPj0"
+      ],
+      [
+        "V2",
+        "Wrath of Math — Most Beautiful Proof √2 irrational (Apostol geometric)",
+        "CORE",
+        "https://www.youtube.com/watch?v=NegYPgMAua4"
+      ],
+      [
+        "V3",
+        "Tipping Point Math — 5 Best Proofs √2 irrational",
+        "SURVEY",
+        "https://www.youtube.com/watch?v=zEXcsZo4hOQ"
+      ],
+      [
+        "V4",
+        "Khan Academy — Proof √2 is irrational",
+        "FOUNDATION",
+        "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:irrational-numbers/x2f8bb11595b61c86:proofs-concerning-irrational-numbers/v/proof-that-square-root-of-2-is-irrational"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Wikipedia — Square root of 2 / proofs of irrationality",
+        "https://en.wikipedia.org/wiki/Square_root_of_2"
+      ],
+      [
+        "P2",
+        "Apostol, AMM 2000 geometric proof (reference)",
+        "https://www.jstor.org/stable/2589021"
+      ],
+      [
+        "P3",
+        "Homeschoolmath writeup of classical proof",
+        "https://www.homeschoolmath.net/teaching/proof_square_root_2_irrational.php"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Wikipedia — Proof that √2 is irrational",
+        "https://en.wikipedia.org/wiki/Square_root_of_2#Proofs_of_irrationality"
+      ],
+      [
+        "W2",
+        "MathWorld — Irrational Number",
+        "https://mathworld.wolfram.com/IrrationalNumber.html"
+      ]
+    ],
+    "definitions": [
+      [
+        "Rational",
+        "$x=a/b$ with $a,b\\\\in\\\\mathbb{Z}$, $b\\\\neq 0$."
+      ],
+      [
+        "Infinite descent (idea)",
+        "From a positive integer solution produce a strictly smaller one — impossible."
+      ]
+    ],
+    "confusions": [
+      "Thinking the proof only works for √2 and not primes $p\\equiv 3\\pmod 4$ etc. without adapting the parity argument.",
+      "Confusing irrationality with transcendence."
+    ]
+  },
+  {
+    "slug": "four-color-proof",
+    "title": "Four Color Theorem (Computer-Assisted Proof)",
+    "chapter": "05",
+    "en": "contents/en/chapter05/_posts/21-01-01-05_07_Four_Color_Proof.md",
+    "vi": "contents/vi/chapter05/_posts/21-01-01-05_07_Four_Color_Proof.md",
+    "status": "**Proved** (Appel–Haken 1976; simplified/verified later, Robertson et al., computer-checked formalizations). Philosophical debate about computer proofs is separate from theorem status.",
+    "theorem_line": "Every planar graph is 4-colorable (equivalently, every map on the plane/sphere can be colored with 4 colors so adjacent regions differ). Proof architecture: unavoidable set of reducible configurations + discharging.",
+    "videos": [
+      [
+        "V1",
+        "Numberphile — Four Color Map Theorem (James Grime)",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=NgbK43jB4rQ"
+      ],
+      [
+        "V2",
+        "Quanta — Math's Map Coloring Problem / first computer-assisted proof",
+        "CORE",
+        "https://www.youtube.com/watch?v=h7kqlYUV1l8"
+      ],
+      [
+        "V3",
+        "Up and Atom — Four Color Theorem: What Counts as a Proof?",
+        "HYGIENE",
+        "https://www.youtube.com/watch?v=42-ws3bkrKM"
+      ],
+      [
+        "V4",
+        "Numberphile2 — Four Color extra footage",
+        "SECONDARY",
+        "https://www.youtube.com/watch?v=laMkuPrad3s"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Wikipedia — Four color theorem",
+        "https://en.wikipedia.org/wiki/Four_color_theorem"
+      ],
+      [
+        "P2",
+        "Appel & Haken historical account (survey pages)",
+        "https://en.wikipedia.org/wiki/Kenneth_Appel"
+      ],
+      [
+        "P3",
+        "Robertson, Sanders, Seymour, Thomas — new proof survey (1997 era)",
+        "https://en.wikipedia.org/wiki/Four_color_theorem#Simplification_and_verification"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Numberphile page",
+        "https://www.numberphile.com/videos/the-four-color-map-theorem"
+      ],
+      [
+        "W2",
+        "Quanta Magazine related articles (map coloring / computer proofs)",
+        "https://www.quantamagazine.org/"
+      ]
+    ],
+    "definitions": [
+      [
+        "Planar graph",
+        "Graph drawable in the plane without edge crossings."
+      ],
+      [
+        "Reducible configuration",
+        "Local pattern that cannot appear in a minimal counterexample."
+      ]
+    ],
+    "confusions": [
+      "Thinking 4 colors are needed for *every* map (many need fewer; 4 is worst-case bound).",
+      "Conflating 'computer-assisted' with 'unverified' after modern checks."
+    ]
+  },
+  {
+    "slug": "fermat-last-theorem",
+    "title": "Fermat's Last Theorem (Wiles)",
+    "chapter": "05",
+    "en": "contents/en/chapter05/_posts/21-01-01-05_08_Fermat_Last_Theorem.md",
+    "vi": "contents/vi/chapter05/_posts/21-01-01-05_08_Fermat_Last_Theorem.md",
+    "status": "**Proved** (Wiles 1995, with Taylor; modularity for semistable elliptic curves + Ribet). Status closed; full modularity theorem later completed by others.",
+    "theorem_line": "No positive integers $a,b,c,n$ with $n>2$ satisfy $a^n+b^n=c^n$. Modern idea: Frey curve from a hypothetical solution would be a non-modular semistable elliptic curve, contradicting Wiles–Taylor modularity + Ribet.",
+    "videos": [
+      [
+        "V1",
+        "Numberphile — Fermat's Last Theorem",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=qiNcEguuFSA"
+      ],
+      [
+        "V2",
+        "Numberphile — Bridges to Fermat's Last Theorem (Ken Ribet)",
+        "CORE",
+        "https://www.youtube.com/watch?v=nUN4NDVIfVI"
+      ],
+      [
+        "V3",
+        "Numberphile Podcast — FLT with Ken Ribet",
+        "SECONDARY",
+        "https://www.youtube.com/watch?v=NPOw4iIxN6o"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Wikipedia — Wiles's proof of Fermat's Last Theorem",
+        "https://en.wikipedia.org/wiki/Wiles%27s_proof_of_Fermat%27s_Last_Theorem"
+      ],
+      [
+        "P2",
+        "Wikipedia — Fermat's Last Theorem",
+        "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem"
+      ],
+      [
+        "P3",
+        "Cambridge Maths feature — 30 years since announcement",
+        "https://www.maths.cam.ac.uk/features/fermats-last-theorem-history-new-mathematics"
+      ],
+      [
+        "P4",
+        "Wiles, Modular elliptic curves and Fermat's Last Theorem, Annals 1995 (paywall/library)",
+        "https://en.wikipedia.org/wiki/Wiles%27s_proof_of_Fermat%27s_Last_Theorem"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Numberphile podcast page",
+        "https://www.numberphile.com/videos/podcast-ken-ribet"
+      ],
+      [
+        "W2",
+        "Clay / public expositions of modularity idea",
+        "https://en.wikipedia.org/wiki/Modularity_theorem"
+      ]
+    ],
+    "definitions": [
+      [
+        "Elliptic curve (slogan)",
+        "Smooth cubic curve $y^2=x^3+Ax+B$ with group law."
+      ],
+      [
+        "Frey curve idea",
+        "From $a^n+b^n=c^n$ form $y^2=x(x-a^n)(x+b^n)$ — too exotic to be modular if non-modular cases existed."
+      ]
+    ],
+    "confusions": [
+      "Claiming Wiles proved full modularity for all elliptic curves in 1995 (he proved the semistable case needed for FLT).",
+      "Treating popular documentaries as proofs."
+    ]
+  },
+  {
+    "slug": "poincare-proof",
+    "title": "Poincaré Conjecture (Perelman)",
+    "chapter": "05",
+    "en": "contents/en/chapter05/_posts/21-01-01-05_09_Poincare_Proof.md",
+    "vi": "contents/vi/chapter05/_posts/21-01-01-05_09_Poincare_Proof.md",
+    "status": "**Proved** (Perelman 2002–2003, Ricci flow with surgery completing Hamilton's program). Only solved Clay Millennium Problem as of 2026.",
+    "theorem_line": "Every simply connected closed 3-manifold is homeomorphic to $S^3$. Stronger: Thurston geometrization (Perelman). Method: Ricci flow $\\\\partial_t g=-2\\\\operatorname{Ric}$ with surgery at singularities + entropy/monotonicity controls.",
+    "videos": [
+      [
+        "V1",
+        "Numberphile — Poincaré Conjecture (Isenberg)",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=GItmC9lxeco"
+      ],
+      [
+        "V2",
+        "Numberphile — Ricci Flow (Isenberg / MSRI)",
+        "CORE",
+        "https://www.youtube.com/watch?v=hwOCqA9Xw6A"
+      ],
+      [
+        "V3",
+        "Aleph 0 — Poincaré Conjecture and Ricci Flow",
+        "CORE",
+        "https://www.youtube.com/watch?v=PwRl5W-whTs"
+      ],
+      [
+        "V4",
+        "Numberphile extras Isenberg",
+        "SECONDARY",
+        "https://www.youtube.com/watch?v=7eJleW0JcKg"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Wikipedia — Poincaré conjecture",
+        "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture"
+      ],
+      [
+        "P2",
+        "Clay Math — Poincaré problem page",
+        "https://www.claymath.org/millennium-problems/poincar%C3%A9-conjecture"
+      ],
+      [
+        "P3",
+        "Perelman arXiv papers (entropy formula / Ricci flow with surgery)",
+        "https://arxiv.org/abs/math/0211159"
+      ],
+      [
+        "P4",
+        "Morgan–Tian book PDF (Clay)",
+        "https://www.claymath.org/wp-content/uploads/2022/03/Ricci-pdf.pdf"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Numberphile Ricci Flow page",
+        "https://www.numberphile.com/videos/ricci-flow"
+      ],
+      [
+        "W2",
+        "Numberphile Poincaré page",
+        "https://www.numberphile.com/videos/poincar-conjecture"
+      ]
+    ],
+    "definitions": [
+      [
+        "Simply connected",
+        "Every loop can be continuously contracted to a point."
+      ],
+      [
+        "Ricci flow (slogan)",
+        "Metric evolves by $\\\\partial_t g_{ij}=-2R_{ij}$, smoothing geometry like heat flow."
+      ]
+    ],
+    "confusions": [
+      "Thinking Perelman only proved Poincaré and not geometrization (he sketched geometrization).",
+      "Confusing topological $S^3$ characterization with smooth exotic structures in higher dimensions."
+    ]
+  },
+  {
+    "slug": "mathematics-of-ai",
+    "title": "Mathematics of AI / Deep Learning",
+    "chapter": "06",
+    "en": "contents/en/chapter06/_posts/21-01-01-06_02_Mathematics_of_AI.md",
+    "vi": "contents/vi/chapter06/_posts/21-01-01-06_02_Mathematics_of_AI.md",
+    "status": "**Active research field.** Core engineering practice is mature; mathematical understanding of deep learning (generalization, optimization landscapes, feature learning) remains partial as of 2026.",
+    "theorem_line": "Universal approximation (classical) is a *representation* theorem, not a training theorem. Training is empirical risk minimization via SGD on nonconvex $L(\\\\theta)$. Generalization of overparameterized nets is not settled by classical VC alone.",
+    "videos": [
+      [
+        "V1",
+        "3Blue1Brown — But what is a neural network?",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=aircAruvnKk"
+      ],
+      [
+        "V2",
+        "3Blue1Brown — Gradient descent, how neural networks learn",
+        "CORE",
+        "https://www.youtube.com/watch?v=IHZwWFHWa-w"
+      ],
+      [
+        "V3",
+        "3Blue1Brown — What is backpropagation really doing?",
+        "CORE",
+        "https://www.youtube.com/watch?v=Ilg3gGewQ5U"
+      ],
+      [
+        "V4",
+        "3Blue1Brown — Backpropagation calculus",
+        "FOUNDATION",
+        "https://www.youtube.com/watch?v=tIeHLnjs5U8"
+      ],
+      [
+        "V5",
+        "3Blue1Brown Neural Networks playlist",
+        "META",
+        "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Goodfellow, Bengio, Courville — Deep Learning (book site)",
+        "https://www.deeplearningbook.org/"
+      ],
+      [
+        "P2",
+        "Wikipedia — Universal approximation theorem",
+        "https://en.wikipedia.org/wiki/Universal_approximation_theorem"
+      ],
+      [
+        "P3",
+        "Double descent literature hub (Belkin et al. 2019)",
+        "https://arxiv.org/abs/1812.11118"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "3Blue1Brown site",
+        "https://www.3blue1brown.com/"
+      ],
+      [
+        "W2",
+        "Wikipedia — Deep learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ]
+    ],
+    "definitions": [
+      [
+        "Layer map",
+        "$x\\\\mapsto \\\\sigma(Wx+b)$ with nonlinearity $\\\\sigma$."
+      ],
+      [
+        "Empirical risk",
+        "$\\\\frac1n\\\\sum_i \\\\ell(f_\\\\theta(x_i),y_i)$ vs true risk $\\\\mathbb{E}\\\\ell$."
+      ]
+    ],
+    "confusions": [
+      "Universal approximation ⇒ training finds the approximator.",
+      "Equating product demos with mathematical theorems."
+    ]
+  },
+  {
+    "slug": "quantum-information",
+    "title": "Quantum Information",
+    "chapter": "06",
+    "en": "contents/en/chapter06/_posts/21-01-01-06_03_Quantum_Information.md",
+    "vi": "contents/vi/chapter06/_posts/21-01-01-06_03_Quantum_Information.md",
+    "status": "**Mature mathematical framework** (states, channels, entanglement) with **engineering frontiers** (fault tolerance, NISQ algorithms). Shor/Grover are theorems in the circuit model; physical scalability is experimental.",
+    "theorem_line": "Qubit state $|\\psi\\\\rangle=\\\\alpha|0\\\\rangle+\\\\beta|1\\\\rangle$ in $\\\\mathbb{C}^2$; multipartite systems use tensor products. Unitary evolution + measurement projectors. No-cloning is a theorem; Bell nonlocality is experimentally confirmed.",
+    "videos": [
+      [
+        "V1",
+        "Michael Nielsen — Quantum computing for the determined (playlist)",
+        "CORE",
+        "https://www.youtube.com/playlist?list=PL1826E60FD05B44E4"
+      ],
+      [
+        "V2",
+        "Veritasium — How does a quantum computer work?",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=g_IaVepNDT4"
+      ],
+      [
+        "V3",
+        "Veritasium — How to make a quantum bit",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=zNzzGgr2mhk"
+      ],
+      [
+        "V4",
+        "Ronald de Wolf — Intro to Quantum Computing (lecture 1)",
+        "FOUNDATION",
+        "https://www.youtube.com/watch?v=MvSYyxZcAr8"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Nielsen & Chuang — Quantum Computation and Quantum Information",
+        "https://en.wikipedia.org/wiki/Quantum_Computation_and_Quantum_Information"
+      ],
+      [
+        "P2",
+        "Wikipedia — Quantum information",
+        "https://en.wikipedia.org/wiki/Quantum_information"
+      ],
+      [
+        "P3",
+        "Wikipedia — Shor's algorithm",
+        "https://en.wikipedia.org/wiki/Shor%27s_algorithm"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "OSU QIS prep resources (video list)",
+        "https://u.osu.edu/quantinfo/research/researchprep/"
+      ],
+      [
+        "W2",
+        "Wikipedia — Qubit",
+        "https://en.wikipedia.org/wiki/Qubit"
+      ]
+    ],
+    "definitions": [
+      [
+        "Qubit",
+        "Unit vector in $\\\\mathbb{C}^2$ up to global phase; density matrices for mixed states."
+      ],
+      [
+        "Entanglement",
+        "Non-product multipartite state; cannot write as $|\\\\psi\\\\rangle\\\\otimes|\\\\phi\\\\rangle$."
+      ]
+    ],
+    "confusions": [
+      "Thinking measurement 'computes all answers at once' without readout/post-processing structure.",
+      "Conflating QKD with post-quantum classical crypto."
+    ]
+  },
+  {
+    "slug": "mathematical-biology",
+    "title": "Mathematical Biology",
+    "chapter": "06",
+    "en": "contents/en/chapter06/_posts/21-01-01-06_04_Mathematical_Biology.md",
+    "vi": "contents/vi/chapter06/_posts/21-01-01-06_04_Mathematical_Biology.md",
+    "status": "**Broad applied field.** ODE/PDE population models are classical; stochastic chemical kinetics, spatial pattern formation, and data-driven inference remain active.",
+    "theorem_line": "SIR-type compartment models: $\\\\dot S=-\\\\beta SI$, $\\\\dot I=\\\\beta SI-\\\\gamma I$, $\\\\dot R=\\\\gamma I$. Threshold $R_0=\\\\beta/\\\\gamma$ governs invasion. Pattern formation via Turing instability is a classical PDE mechanism.",
+    "videos": [
+      [
+        "V1",
+        "3Blue1Brown — Epidemic modeling / differential equations (related DE series)",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=Kas0tIxDvrg"
+      ],
+      [
+        "V2",
+        "3Blue1Brown — Differential equations playlist entry points",
+        "FOUNDATION",
+        "https://www.youtube.com/playlist?list=PLZHQObOWTQDDr3M1VmPZyiHkqHe7pf4Rs"
+      ],
+      [
+        "V3",
+        "Numberphile / popular SIR explainers (search SIR model)",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=zk4U5_ftxpU"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Wikipedia — Mathematical biology",
+        "https://en.wikipedia.org/wiki/Mathematical_and_theoretical_biology"
+      ],
+      [
+        "P2",
+        "Wikipedia — Compartmental models in epidemiology",
+        "https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology"
+      ],
+      [
+        "P3",
+        "Murray — Mathematical Biology (standard textbook reference)",
+        "https://en.wikipedia.org/wiki/James_D._Murray"
+      ],
+      [
+        "P4",
+        "Wikipedia — Reaction–diffusion system / Turing pattern",
+        "https://en.wikipedia.org/wiki/Reaction%E2%80%93diffusion_system"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Wikipedia — Lotka–Volterra equations",
+        "https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations"
+      ],
+      [
+        "W2",
+        "Wikipedia — Chemical master equation",
+        "https://en.wikipedia.org/wiki/Chemical_master_equation"
+      ]
+    ],
+    "definitions": [
+      [
+        "$R_0$",
+        "Expected secondary cases from one infectious in a fully susceptible population."
+      ],
+      [
+        "Mass-action incidence",
+        "Infection term $\\\\beta SI$ in well-mixed ODEs."
+      ]
+    ],
+    "confusions": [
+      "Treating ODE forecasts as exact predictions without parameter/structural uncertainty.",
+      "Ignoring stochastic extinction in small populations."
+    ]
+  },
+  {
+    "slug": "network-science",
+    "title": "Network Science",
+    "chapter": "06",
+    "en": "contents/en/chapter06/_posts/21-01-01-06_05_Network_Science.md",
+    "vi": "contents/vi/chapter06/_posts/21-01-01-06_05_Network_Science.md",
+    "status": "**Active interdisciplinary field.** Erdős–Rényi, small-world, scale-free models are classical baselines; inference and dynamics on networks remain research-active.",
+    "theorem_line": "ER random graphs $G(n,p)$ have giant component threshold $p\\\\sim 1/n$. Preferential attachment (Barabási–Albert) yields power-law degree tails under stated mechanisms — empirical claims need careful statistics.",
+    "videos": [
+      [
+        "V1",
+        "Barabási — Network Science: From Abstract to Physical (UiO)",
+        "CORE",
+        "https://www.youtube.com/watch?v=oqOyTdLsq3o"
+      ],
+      [
+        "V2",
+        "Barabási — DTU Ørsted Lecture: Architecture of Complexity",
+        "CORE",
+        "https://www.youtube.com/watch?v=ZmJ9c-daNDY"
+      ],
+      [
+        "V3",
+        "Systems Innovation — Centralized & Scale Free Networks",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=qmCrtuS9vtU"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Barabási — Network Science (free book)",
+        "http://networksciencebook.com/"
+      ],
+      [
+        "P2",
+        "Chapter 4 scale-free property",
+        "https://networksciencebook.com/chapter/4"
+      ],
+      [
+        "P3",
+        "Wikipedia — Network science",
+        "https://en.wikipedia.org/wiki/Network_science"
+      ],
+      [
+        "P4",
+        "Wikipedia — Barabási–Albert model",
+        "https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Wikipedia — Erdős–Rényi model",
+        "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model"
+      ],
+      [
+        "W2",
+        "Wikipedia — Small-world network",
+        "https://en.wikipedia.org/wiki/Small-world_network"
+      ]
+    ],
+    "definitions": [
+      [
+        "Degree distribution",
+        "$P(k)=$ fraction of vertices of degree $k$."
+      ],
+      [
+        "Adjacency matrix",
+        "$A_{ij}=1$ if edge $ij$ (weighted variants exist)."
+      ]
+    ],
+    "confusions": [
+      "Assuming all real networks are scale-free without statistical tests.",
+      "Confusing correlation with causal influence on graphs."
+    ]
+  },
+  {
+    "slug": "future-cryptography",
+    "title": "Future Cryptography (PQC & Beyond)",
+    "chapter": "06",
+    "en": "contents/en/chapter06/_posts/21-01-01-06_06_Future_Cryptography.md",
+    "vi": "contents/vi/chapter06/_posts/21-01-01-06_06_Future_Cryptography.md",
+    "status": "**Standards evolving.** NIST released first PQC FIPS (203–205) in 2024; migration is ongoing. QKD is a different technology stack from classical PQC algorithms.",
+    "theorem_line": "Shor's algorithm breaks RSA/ECC on a large fault-tolerant quantum computer (theorem in circuit model). PQC bases security on lattice/code/hash/isogeny-type problems believed hard for quantum adversaries — hardness is *conjectural*, not proved.",
+    "videos": [
+      [
+        "V1",
+        "SandboxAQ — NIST's PQC Standardization Explained",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=crPe69NeTdk"
+      ],
+      [
+        "V2",
+        "IBM Research — NIST post-quantum standards webcast",
+        "CORE",
+        "https://www.youtube.com/watch?v=YJ00O4gBs0I"
+      ],
+      [
+        "V3",
+        "Cryptography 101 — PQC Standards explained",
+        "FOUNDATION",
+        "https://www.youtube.com/watch?v=P9g1CMCu8DI"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "NIST — What is Post-Quantum Cryptography?",
+        "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography"
+      ],
+      [
+        "P2",
+        "NIST PQC project",
+        "https://csrc.nist.gov/projects/post-quantum-cryptography"
+      ],
+      [
+        "P3",
+        "Wikipedia — NIST PQC Standardization",
+        "https://en.wikipedia.org/wiki/NIST_Post-Quantum_Cryptography_Standardization"
+      ],
+      [
+        "P4",
+        "NIST video page — PQC Good/Bad/Powerful",
+        "https://www.nist.gov/video/post-quantum-cryptography-good-bad-and-powerful"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Wikipedia — Post-quantum cryptography",
+        "https://en.wikipedia.org/wiki/Post-quantum_cryptography"
+      ],
+      [
+        "W2",
+        "Wikipedia — Shor's algorithm",
+        "https://en.wikipedia.org/wiki/Shor%27s_algorithm"
+      ]
+    ],
+    "definitions": [
+      [
+        "PQC",
+        "Classical crypto designed to resist quantum adversaries."
+      ],
+      [
+        "Crypto-agility",
+        "Ability to swap algorithms as standards/attacks evolve."
+      ]
+    ],
+    "confusions": [
+      "Assuming quantum computers already break RSA at scale today.",
+      "Equating QKD with PQC (different trust and deployment models)."
+    ]
+  },
+  {
+    "slug": "complexity-theory",
+    "title": "Complexity Theory",
+    "chapter": "06",
+    "en": "contents/en/chapter06/_posts/21-01-01-06_07_Complexity_Theory.md",
+    "vi": "contents/vi/chapter06/_posts/21-01-01-06_07_Complexity_Theory.md",
+    "status": "**P vs NP remains open** (as of 2026). NP-completeness theory is mature; circuit lower bounds and derandomization are major frontiers.",
+    "theorem_line": "Cook–Levin: SAT is NP-complete. Thousands of natural problems are NP-complete via poly-time reductions. P=NP? is open; most experts conjecture P≠NP.",
+    "videos": [
+      [
+        "V1",
+        "Michael Sipser — Beyond Computation: P vs NP (Harvard)",
+        "CORE",
+        "https://www.youtube.com/watch?v=msp2y_Y5MLE"
+      ],
+      [
+        "V2",
+        "MIT OCW Sipser — NP-Completeness lecture",
+        "FOUNDATION",
+        "https://www.youtube.com/watch?v=iZPzBHGDsWI"
+      ],
+      [
+        "V3",
+        "Quanta — Biggest Puzzle in CS: P vs NP (course-linked)",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=pQsdygaYcE4"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Wikipedia — P versus NP",
+        "https://en.wikipedia.org/wiki/P_versus_NP"
+      ],
+      [
+        "P2",
+        "Clay Math — P vs NP",
+        "https://www.claymath.org/millennium-problems/p-vs-np-problem"
+      ],
+      [
+        "P3",
+        "Wikipedia — NP-completeness",
+        "https://en.wikipedia.org/wiki/NP-completeness"
+      ],
+      [
+        "P4",
+        "MIT OCW 18.404J Theory of Computation",
+        "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Wikipedia — Complexity class",
+        "https://en.wikipedia.org/wiki/Complexity_class"
+      ],
+      [
+        "W2",
+        "Wikipedia — Cook–Levin theorem",
+        "https://en.wikipedia.org/wiki/Cook%E2%80%93Levin_theorem"
+      ]
+    ],
+    "definitions": [
+      [
+        "P / NP",
+        "P: decidable in poly time. NP: verifiable in poly time given a witness."
+      ],
+      [
+        "Reduction",
+        "Poly-time many-one map preserving yes/no answers."
+      ]
+    ],
+    "confusions": [
+      "Thinking NP means 'not polynomial' (it means nondeterministic poly / verifiable).",
+      "Claiming AI solves NP-complete problems 'in general' in poly time."
+    ]
+  },
+  {
+    "slug": "high-dimensional-geometry",
+    "title": "High-Dimensional Geometry",
+    "chapter": "06",
+    "en": "contents/en/chapter06/_posts/21-01-01-06_08_High_Dimensional_Geometry.md",
+    "vi": "contents/vi/chapter06/_posts/21-01-01-06_08_High_Dimensional_Geometry.md",
+    "status": "**Classical + modern probability.** Concentration of measure and JL lemma are theorems; geometric aspects of data analysis remain active.",
+    "theorem_line": "Concentration: Lipschitz functions on high-dimensional spheres/Gaussians are nearly constant. Johnson–Lindenstrauss: $n$ points in Euclidean space embed in $O(\\\\varepsilon^{-2}\\\\log n)$ dimensions preserving distances up to $1\\\\pm\\\\varepsilon$.",
+    "videos": [
+      [
+        "V1",
+        "Roman Vershynin — High-Dimensional Probability Lecture 1",
+        "CORE",
+        "https://www.youtube.com/watch?v=nKmYjFoiuYM"
+      ],
+      [
+        "V2",
+        "Simons Institute — High Dimensional Geometry and Concentration I",
+        "FOUNDATION",
+        "https://www.youtube.com/watch?v=UHvT1MxFuvo"
+      ],
+      [
+        "V3",
+        "Vershynin course page (all lectures)",
+        "META",
+        "https://www.math.uci.edu/~rvershyn/teaching/hdp/hdp.html"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Vershynin — High-Dimensional Probability (book PDF via author)",
+        "https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html"
+      ],
+      [
+        "P2",
+        "Wikipedia — Concentration of measure",
+        "https://en.wikipedia.org/wiki/Concentration_of_measure"
+      ],
+      [
+        "P3",
+        "Wikipedia — Johnson–Lindenstrauss lemma",
+        "https://en.wikipedia.org/wiki/Johnson%E2%80%93Lindenstrauss_lemma"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Wikipedia — Curse of dimensionality",
+        "https://en.wikipedia.org/wiki/Curse_of_dimensionality"
+      ],
+      [
+        "W2",
+        "Wikipedia — High-dimensional statistics",
+        "https://en.wikipedia.org/wiki/High-dimensional_statistics"
+      ]
+    ],
+    "definitions": [
+      [
+        "Concentration",
+        "A r.v. $X$ concentrates if $P(|X-\\\\mathbb{E}X|>t)$ decays rapidly in $t$."
+      ],
+      [
+        "Intrinsic dimension",
+        "Effective degrees of freedom of a data set, often $\\\\ll$ ambient $d$."
+      ]
+    ],
+    "confusions": [
+      "Thinking all high-d phenomena are 'curses' (concentration also enables algorithms).",
+      "Ignoring that data often lie near low-dimensional structures."
+    ]
+  },
+  {
+    "slug": "optimal-transport",
+    "title": "Optimal Transport",
+    "chapter": "06",
+    "en": "contents/en/chapter06/_posts/21-01-01-06_09_Optimal_Transport.md",
+    "vi": "contents/vi/chapter06/_posts/21-01-01-06_09_Optimal_Transport.md",
+    "status": "**Mature theory, booming applications.** Monge–Kantorovich theory classical; Sinkhorn/entropic OT and gradient flows are modern computational engines.",
+    "theorem_line": "Kantorovich problem: $\\\\inf_{\\\\pi\\\\in\\\\Pi(\\\\mu,\\\\nu)}\\\\int c\\\\,d\\\\pi$. Wasserstein-$p$ metrizes weak convergence (on suitable spaces). Brenier: under conditions, optimal maps are gradients of convex potentials.",
+    "videos": [
+      [
+        "V1",
+        "Villani — Optimal Transport Theory (Imperial College)",
+        "CORE",
+        "https://www.youtube.com/watch?v=6DZjBcDfPHs"
+      ],
+      [
+        "V2",
+        "Fields Institute — Optimal Transportation Lecture 01",
+        "FOUNDATION",
+        "https://www.youtube.com/watch?v=TAnoqeYfO1Y"
+      ],
+      [
+        "V3",
+        "Simons — Crash Course on Optimal Transport",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=GMC7uOPAa_Y"
+      ],
+      [
+        "V4",
+        "UniHeidelberg — Sinkhorn iterations (discrete OT)",
+        "COMPUTATION",
+        "https://www.youtube.com/watch?v=BfOjrQAhG4M"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Wikipedia — Transportation theory (mathematics)",
+        "https://en.wikipedia.org/wiki/Transportation_theory_(mathematics)"
+      ],
+      [
+        "P2",
+        "Wikipedia — Wasserstein metric",
+        "https://en.wikipedia.org/wiki/Wasserstein_metric"
+      ],
+      [
+        "P3",
+        "Peyré & Cuturi — Computational OT (arXiv survey)",
+        "https://arxiv.org/abs/1803.00567"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Carmin.tv OT intro lectures",
+        "https://www.carmin.tv/en/video/introduction-to-optimal-transport-theory-lecture-2"
+      ],
+      [
+        "W2",
+        "Wikipedia — Earth mover's distance",
+        "https://en.wikipedia.org/wiki/Earth_mover%27s_distance"
+      ]
+    ],
+    "definitions": [
+      [
+        "Coupling",
+        "Joint $\\\\pi$ with marginals $\\\\mu,\\\\nu$."
+      ],
+      [
+        "Sinkhorn",
+        "Entropic regularization of OT solved by matrix scaling."
+      ]
+    ],
+    "confusions": [
+      "Thinking OT always yields a deterministic Monge map in discrete equal-mass unbalanced settings without hypotheses.",
+      "Ignoring sample complexity blow-up of empirical W_p in high dimension."
+    ]
+  },
+  {
+    "slug": "ml-theory",
+    "title": "Machine Learning Theory",
+    "chapter": "06",
+    "en": "contents/en/chapter06/_posts/21-01-01-06_10_ML_Theory.md",
+    "vi": "contents/vi/chapter06/_posts/21-01-01-06_10_ML_Theory.md",
+    "status": "**Active.** Classical PAC/VC is theorem-complete for uniform convergence regimes; modern deep learning theory (interpolation, implicit bias, double descent) is incomplete.",
+    "theorem_line": "PAC learnability linked to finite VC dimension for binary classification (fundamental theorem of statistical learning, rough statement). Uniform convergence controls generalization for restricted classes; interpolating deep nets need other stories.",
+    "videos": [
+      [
+        "V1",
+        "3Blue1Brown neural network series (optimization/learning intuition)",
+        "ORIENTATION",
+        "https://www.youtube.com/watch?v=aircAruvnKk"
+      ],
+      [
+        "V2",
+        "3Blue1Brown gradient descent",
+        "CORE",
+        "https://www.youtube.com/watch?v=IHZwWFHWa-w"
+      ],
+      [
+        "V3",
+        "Sipser / complexity contrast videos (hardness vs learnability culture)",
+        "SECONDARY",
+        "https://www.youtube.com/watch?v=msp2y_Y5MLE"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Wikipedia — Probably approximately correct learning",
+        "https://en.wikipedia.org/wiki/Probably_approximately_correct_learning"
+      ],
+      [
+        "P2",
+        "Wikipedia — Vapnik–Chervonenkis theory",
+        "https://en.wikipedia.org/wiki/Vapnik%E2%80%93Chervonenkis_theory"
+      ],
+      [
+        "P3",
+        "Belkin et al. — Reconciling modern ML and bias-variance (double descent)",
+        "https://arxiv.org/abs/1812.11118"
+      ],
+      [
+        "P4",
+        "Wikipedia — Statistical learning theory",
+        "https://en.wikipedia.org/wiki/Statistical_learning_theory"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Wikipedia — Rademacher complexity",
+        "https://en.wikipedia.org/wiki/Rademacher_complexity"
+      ],
+      [
+        "W2",
+        "Wikipedia — Overfitting",
+        "https://en.wikipedia.org/wiki/Overfitting"
+      ]
+    ],
+    "definitions": [
+      [
+        "PAC",
+        "Learn hypothesis with error $\\\\le\\\\varepsilon$ with probability $\\\\ge 1-\\\\delta$ from poly samples."
+      ],
+      [
+        "VC dimension",
+        "Size of largest shattered set; measures binary classifier class complexity."
+      ]
+    ],
+    "confusions": [
+      "Applying classical U-shaped bias-variance as universal law after the interpolation peak.",
+      "Reading empirical scaling laws as theorems."
+    ]
+  },
+  {
+    "slug": "mathematical-physics",
+    "title": "Mathematical Physics",
+    "chapter": "06",
+    "en": "contents/en/chapter06/_posts/21-01-01-06_11_Mathematical_Physics.md",
+    "vi": "contents/vi/chapter06/_posts/21-01-01-06_11_Mathematical_Physics.md",
+    "status": "**Broad interface.** Many physical PDEs have incomplete global theories; Navier–Stokes regularity is a Clay Millennium Problem (**open** as of 2026). QFT axiomatization partial.",
+    "theorem_line": "Navier–Stokes (Clay): global existence and smoothness of smooth finite-energy solutions to 3D incompressible NS on $\\\\mathbb{R}^3$ is open. Spectral theorem / operator theory underpin QM rigorously in standard settings.",
+    "videos": [
+      [
+        "V1",
+        "Clay — Luis Caffarelli, Navier–Stokes existence and smoothness",
+        "CORE",
+        "https://www.youtube.com/watch?v=ta6Q70y6YVU"
+      ],
+      [
+        "V2",
+        "Clay — Vladimir Šverak, report on Navier–Stokes",
+        "FRONTIER",
+        "https://www.youtube.com/watch?v=BaDxv5Z4LkU"
+      ],
+      [
+        "V3",
+        "Clay — Peter Constantin on NS",
+        "SECONDARY",
+        "https://www.youtube.com/watch?v=vw77s3yRlu0"
+      ],
+      [
+        "V4",
+        "Millennium series playlist",
+        "META",
+        "https://www.youtube.com/playlist?list=PL0NRmB0fnLJQMoxt798STT8ztdHHHa1TV"
+      ]
+    ],
+    "papers": [
+      [
+        "P1",
+        "Clay Math — Navier–Stokes equation",
+        "https://www.claymath.org/millennium/navier-stokes-equation/"
+      ],
+      [
+        "P2",
+        "Fefferman official Clay description PDF",
+        "https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf"
+      ],
+      [
+        "P3",
+        "Wikipedia — Mathematical physics",
+        "https://en.wikipedia.org/wiki/Mathematical_physics"
+      ],
+      [
+        "P4",
+        "Wikipedia — Navier–Stokes existence and smoothness",
+        "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness"
+      ]
+    ],
+    "web": [
+      [
+        "W1",
+        "Wikipedia — Yang–Mills existence and mass gap",
+        "https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap"
+      ],
+      [
+        "W2",
+        "Wikipedia — Spectral theorem",
+        "https://en.wikipedia.org/wiki/Spectral_theorem"
+      ]
+    ],
+    "definitions": [
+      [
+        "Mathematical physics",
+        "Rigorous analysis of structures motivated by physics (not the same as theoretical physics practice)."
+      ],
+      [
+        "Weak solution",
+        "Solution in a distributional / energy space sense, possibly singular."
+      ]
+    ],
+    "confusions": [
+      "Thinking physicists' successful numerical NS simulations close the Clay problem.",
+      "Conflating effective field theory practice with complete constructive QFT."
+    ]
+  }
+]

@@ -1,0 +1,3502 @@
+[
+  {
+    "t_start": 18.47,
+    "t_end": 23.75,
+    "text": "so I'll be talking about some work um with David Colin from Oxford and Jacob"
+  },
+  {
+    "t_start": 23.75,
+    "t_end": 27.509,
+    "text": "with David Colin from Oxford and Jacob Fox from"
+  },
+  {
+    "t_start": 31.029,
+    "t_end": 33.27,
+    "text": "MIT so 10 years ago green and Terry T proved their remarkable theorem that the"
+  },
+  {
+    "t_start": 33.27,
+    "t_end": 35.389,
+    "text": "proved their remarkable theorem that the prime numbers contain arbitrarily long"
+  },
+  {
+    "t_start": 35.389,
+    "t_end": 37.79,
+    "text": "prime numbers contain arbitrarily long arithmetic progressions so I remember"
+  },
+  {
+    "t_start": 37.79,
+    "t_end": 41.31,
+    "text": "arithmetic progressions so I remember first hearing about this term when I was"
+  },
+  {
+    "t_start": 41.31,
+    "t_end": 43.91,
+    "text": "still high school student and being quite excited such a simple sounding"
+  },
+  {
+    "t_start": 43.91,
+    "t_end": 47.99,
+    "text": "quite excited such a simple sounding result but of course the proof is very"
+  },
+  {
+    "t_start": 47.99,
+    "t_end": 50.389,
+    "text": "very deep U okay so here are some examples of such uh arithmetic"
+  },
+  {
+    "t_start": 50.389,
+    "t_end": 57.83,
+    "text": "progressions in the prime numbers and so the purpose of this talk is to explain"
+  },
+  {
+    "t_start": 57.83,
+    "t_end": 62.75,
+    "text": "proof of the green to theorem as we we now come to understand it uh so we've"
+  },
+  {
+    "t_start": 62.75,
+    "t_end": 65.27,
+    "text": "now come to understand it uh so we've done some work where we simplify the"
+  },
+  {
+    "t_start": 65.27,
+    "t_end": 67.35,
+    "text": "done some work where we simplify the main technical ingredient in the proof"
+  },
+  {
+    "t_start": 67.35,
+    "t_end": 70.07,
+    "text": "main technical ingredient in the proof and I will explain"
+  },
+  {
+    "t_start": 70.07,
+    "t_end": 71.749,
+    "text": "and I will explain that"
+  },
+  {
+    "t_start": 71.749,
+    "t_end": 78.429,
+    "text": "so to talk about some green t theem I must also talk about samur term so samur"
+  },
+  {
+    "t_start": 78.429,
+    "t_end": 83.55,
+    "text": "must also talk about samur term so samur proved in the 70s that if you take a"
+  },
+  {
+    "t_start": 83.55,
+    "t_end": 89.149,
+    "text": "subset of the positive integers with positive density then the set must also"
+  },
+  {
+    "t_start": 89.149,
+    "t_end": 91.19,
+    "text": "contain arbitrarily long arithmetic progressions"
+  },
+  {
+    "t_start": 91.19,
+    "t_end": 96.63,
+    "text": "now the density is defined in the usual way so for example the even numbers of"
+  },
+  {
+    "t_start": 96.63,
+    "t_end": 101.83,
+    "text": "one2 we know from the prime number theorem that the primes have density"
+  },
+  {
+    "t_start": 101.83,
+    "t_end": 104.149,
+    "text": "theorem that the primes have density decaying as one over log"
+  },
+  {
+    "t_start": 104.149,
+    "t_end": 111.35,
+    "text": "n and so samur theorem itself does not directly imply green to theorem and in"
+  },
+  {
+    "t_start": 111.35,
+    "t_end": 113.709,
+    "text": "directly imply green to theorem and in fact even the best quantitative bounds"
+  },
+  {
+    "t_start": 113.709,
+    "t_end": 119.35,
+    "text": "fact even the best quantitative bounds on S THM known today are not quite"
+  },
+  {
+    "t_start": 119.35,
+    "t_end": 121.31,
+    "text": "enough to prove the green tow themm directly although for the three- term"
+  },
+  {
+    "t_start": 121.31,
+    "t_end": 126.59,
+    "text": "directly although for the three- term case the best bounds due to Tom Sanders"
+  },
+  {
+    "t_start": 126.59,
+    "t_end": 132.79,
+    "text": "enough it is a famous conjecture of ERS that the density of the primes alone"
+  },
+  {
+    "t_start": 132.79,
+    "t_end": 135.19,
+    "text": "that the density of the primes alone should imply that they contain long"
+  },
+  {
+    "t_start": 135.19,
+    "t_end": 137.869,
+    "text": "should imply that they contain long arithmetic progressions but that's um"
+  },
+  {
+    "t_start": 137.869,
+    "t_end": 140.63,
+    "text": "still an open conjecture and that's something that know people would very"
+  },
+  {
+    "t_start": 140.63,
+    "t_end": 142.229,
+    "text": "something that know people would very much love to"
+  },
+  {
+    "t_start": 142.229,
+    "t_end": 149.11,
+    "text": "prove so then what is green to strategy given that they're not improving on Sam"
+  },
+  {
+    "t_start": 149.11,
+    "t_end": 151.11,
+    "text": "given that they're not improving on Sam STM for the purpose of proving uh the"
+  },
+  {
+    "t_start": 151.11,
+    "t_end": 152.35,
+    "text": "STM for the purpose of proving uh the result of our"
+  },
+  {
+    "t_start": 152.35,
+    "t_end": 157.71,
+    "text": "primes the strategy is as follows I first start with my set of"
+  },
+  {
+    "t_start": 157.71,
+    "t_end": 158.949,
+    "text": "follows I first start with my set of primes"
+  },
+  {
+    "t_start": 158.949,
+    "t_end": 164.91,
+    "text": "p and they embed this primes in a somewhat larger set for the purpose of"
+  },
+  {
+    "t_start": 164.91,
+    "t_end": 170.71,
+    "text": "this talk uh let's call the set the almost primes now this is not quite an"
+  },
+  {
+    "t_start": 170.71,
+    "t_end": 178.27,
+    "text": "for our purpose and you can think of P being embedded in Q as a set of positive"
+  },
+  {
+    "t_start": 178.27,
+    "t_end": 181.63,
+    "text": "being embedded in Q as a set of positive relative density"
+  },
+  {
+    "t_start": 181.63,
+    "t_end": 187.789,
+    "text": "and they show two things first they show a relative s"
+  },
+  {
+    "t_start": 187.789,
+    "t_end": 190.39,
+    "text": "things first they show a relative s theem which informally says that if you"
+  },
+  {
+    "t_start": 190.39,
+    "t_end": 198.309,
+    "text": "start with a set s so here s is my q and if s satisfies certain pseudo Randomness"
+  },
+  {
+    "t_start": 198.309,
+    "t_end": 201.11,
+    "text": "if s satisfies certain pseudo Randomness conditions then it satisfies this"
+  },
+  {
+    "t_start": 201.11,
+    "t_end": 203.509,
+    "text": "conditions then it satisfies this relative similarity property meaning"
+  },
+  {
+    "t_start": 203.509,
+    "t_end": 208.99,
+    "text": "relative similarity property meaning that every subset of s of positive"
+  },
+  {
+    "t_start": 208.99,
+    "t_end": 215.789,
+    "text": "arithmetic progression s so this is their main technical result in their"
+  },
+  {
+    "t_start": 215.789,
+    "t_end": 221.11,
+    "text": "work in the Second Step they construct such a pseudo random host or starting"
+  },
+  {
+    "t_start": 221.11,
+    "t_end": 223.91,
+    "text": "such a pseudo random host or starting from the primes they construct this"
+  },
+  {
+    "t_start": 223.91,
+    "t_end": 229.149,
+    "text": "super set of primes or more generally a major Rising measure which satisfies the"
+  },
+  {
+    "t_start": 229.149,
+    "t_end": 231.309,
+    "text": "major Rising measure which satisfies the desired pseudo Randomness conditions and"
+  },
+  {
+    "t_start": 231.309,
+    "t_end": 236.149,
+    "text": "for this part uh they borrow ideas from a the time recent works of ghern and yum"
+  },
+  {
+    "t_start": 236.149,
+    "t_end": 240.67,
+    "text": "a the time recent works of ghern and yum on uh small gaps between Primes"
+  },
+  {
+    "t_start": 240.67,
+    "t_end": 244.39,
+    "text": "I will mostly focus on the combinatorial aspect of it in this talk and this is"
+  },
+  {
+    "t_start": 244.39,
+    "t_end": 247.789,
+    "text": "aspect of it in this talk and this is the part that we improve"
+  },
+  {
+    "t_start": 250.67,
+    "t_end": 252.27,
+    "text": "on so what do I mean by pseudo Randomness"
+  },
+  {
+    "t_start": 252.27,
+    "t_end": 256.67,
+    "text": "conditions in Green talw work they require two different kinds of pseudo"
+  },
+  {
+    "t_start": 256.67,
+    "t_end": 259.31,
+    "text": "require two different kinds of pseudo Randomness conditions which they called"
+  },
+  {
+    "t_start": 259.31,
+    "t_end": 262.35,
+    "text": "Randomness conditions which they called linear forms condition and correlation"
+  },
+  {
+    "t_start": 262.35,
+    "t_end": 267.79,
+    "text": "linear forms condition and correlation condition I'll explain what the linear"
+  },
+  {
+    "t_start": 267.79,
+    "t_end": 269.749,
+    "text": "forms condition is in more detail but the correlation condition is suffice as"
+  },
+  {
+    "t_start": 269.749,
+    "t_end": 274.23,
+    "text": "is to say that it's a it's a somewhat more technical condition that seems less"
+  },
+  {
+    "t_start": 274.23,
+    "t_end": 275.749,
+    "text": "more technical condition that seems less natural for the purpose of this"
+  },
+  {
+    "t_start": 275.749,
+    "t_end": 278.43,
+    "text": "natural for the purpose of this particular problem and it almost feels"
+  },
+  {
+    "t_start": 278.43,
+    "t_end": 280.87,
+    "text": "particular problem and it almost feels as if it shouldn't be"
+  },
+  {
+    "t_start": 280.87,
+    "t_end": 286.43,
+    "text": "there this is a very interesting result I think in of its own and a natural"
+  },
+  {
+    "t_start": 286.43,
+    "t_end": 289.99,
+    "text": "I think in of its own and a natural question that arises is well what pseud"
+  },
+  {
+    "t_start": 289.99,
+    "t_end": 292.029,
+    "text": "question that arises is well what pseud Randomness conditions do you really need"
+  },
+  {
+    "t_start": 292.029,
+    "t_end": 294.469,
+    "text": "Randomness conditions do you really need to guarantee such a consequence of"
+  },
+  {
+    "t_start": 294.469,
+    "t_end": 297.67,
+    "text": "to guarantee such a consequence of having you know uh dense subsets"
+  },
+  {
+    "t_start": 297.67,
+    "t_end": 300.11,
+    "text": "having you know uh dense subsets containing long APS"
+  },
+  {
+    "t_start": 300.11,
+    "t_end": 305.31,
+    "text": "so can you do with weaker and more natural pseudo Randomness conditions on"
+  },
+  {
+    "t_start": 305.31,
+    "t_end": 306.469,
+    "text": "natural pseudo Randomness conditions on the host"
+  },
+  {
+    "t_start": 306.469,
+    "t_end": 311.749,
+    "text": "set and our main result is that you can in fact completely get rid of this"
+  },
+  {
+    "t_start": 311.749,
+    "t_end": 315.189,
+    "text": "in fact completely get rid of this correlation condition and we can use a"
+  },
+  {
+    "t_start": 315.189,
+    "t_end": 318.309,
+    "text": "correlation condition and we can use a much weaker form of green to's linear"
+  },
+  {
+    "t_start": 318.309,
+    "t_end": 320.469,
+    "text": "much weaker form of green to's linear forms condition and I'll explain what"
+  },
+  {
+    "t_start": 320.469,
+    "t_end": 327.909,
+    "text": "forms condition and I'll explain what our linear forms condition says and it"
+  },
+  {
+    "t_start": 332.11,
+    "t_end": 336.59,
+    "text": "interpretation so um to give an overview of things so we started out with Samar"
+  },
+  {
+    "t_start": 336.59,
+    "t_end": 338.83,
+    "text": "STM where you can think of it as a result with the host set is all of the"
+  },
+  {
+    "t_start": 338.83,
+    "t_end": 341.71,
+    "text": "result with the host set is all of the positive integers and relative samur"
+  },
+  {
+    "t_start": 341.71,
+    "t_end": 346.95,
+    "text": "theorem where the host set is instead of the entire set of positive integers just"
+  },
+  {
+    "t_start": 346.95,
+    "t_end": 353.67,
+    "text": "the entire set of positive integers just some sparse set in both cases the"
+  },
+  {
+    "t_start": 353.67,
+    "t_end": 356.83,
+    "text": "conclusion is that a relatively dense subset should contain long arithmetic"
+  },
+  {
+    "t_start": 356.83,
+    "t_end": 360.23,
+    "text": "subset should contain long arithmetic progressions to put our work in some"
+  },
+  {
+    "t_start": 360.23,
+    "t_end": 365.39,
+    "text": "you can ask well what about different kinds of host sets so if you start with"
+  },
+  {
+    "t_start": 365.39,
+    "t_end": 370.79,
+    "text": "a random host set so for instance I take one to n and I choose each element to be"
+  },
+  {
+    "t_start": 370.79,
+    "t_end": 373.15,
+    "text": "one to n and I choose each element to be in my set with some probability P you"
+  },
+  {
+    "t_start": 373.15,
+    "t_end": 376.27,
+    "text": "in my set with some probability P you know when does it have this property so"
+  },
+  {
+    "t_start": 376.27,
+    "t_end": 377.71,
+    "text": "know when does it have this property so this question was first studied by"
+  },
+  {
+    "t_start": 377.71,
+    "t_end": 383.83,
+    "text": "kakawa gak and Roto in the 90s where they proved that for uh three term"
+  },
+  {
+    "t_start": 383.83,
+    "t_end": 385.749,
+    "text": "they proved that for uh three term arithmetic"
+  },
+  {
+    "t_start": 385.749,
+    "t_end": 391.189,
+    "text": "progressions the this probability is the correct threshold so for p above 1 /are"
+  },
+  {
+    "t_start": 391.189,
+    "t_end": 395.11,
+    "text": "correct threshold so for p above 1 /are root of n you have this property and for"
+  },
+  {
+    "t_start": 395.11,
+    "t_end": 396.029,
+    "text": "p much less than that you don't have that"
+  },
+  {
+    "t_start": 396.029,
+    "t_end": 402.629,
+    "text": "breakthrough uh a few years ago by Colin goers and independently shock where they"
+  },
+  {
+    "t_start": 402.629,
+    "t_end": 405.309,
+    "text": "goers and independently shock where they resolved this problem in general for Co"
+  },
+  {
+    "t_start": 405.309,
+    "t_end": 407.189,
+    "text": "resolved this problem in general for Co K term arithmetic progressions so this"
+  },
+  {
+    "t_start": 407.189,
+    "t_end": 408.589,
+    "text": "K term arithmetic progressions so this is in the random"
+  },
+  {
+    "t_start": 408.589,
+    "t_end": 413.83,
+    "text": "case uh in this talk I will only talk about the pseudo random case and as I"
+  },
+  {
+    "t_start": 413.83,
+    "t_end": 416.27,
+    "text": "about the pseudo random case and as I mentioned green and to proved a version"
+  },
+  {
+    "t_start": 416.27,
+    "t_end": 418.15,
+    "text": "mentioned green and to proved a version of this relative similarity theorem"
+  },
+  {
+    "t_start": 418.15,
+    "t_end": 423.39,
+    "text": "under the conditions of linear forms and correlation and we prove it under just"
+  },
+  {
+    "t_start": 423.39,
+    "t_end": 425.07,
+    "text": "correlation and we prove it under just correlation in fact a slightly weaker"
+  },
+  {
+    "t_start": 425.07,
+    "t_end": 427.309,
+    "text": "correlation in fact a slightly weaker version of their cor of the just under"
+  },
+  {
+    "t_start": 427.309,
+    "t_end": 429.189,
+    "text": "version of their cor of the just under linear forms and a slightly weaker"
+  },
+  {
+    "t_start": 429.189,
+    "t_end": 430.55,
+    "text": "linear forms and a slightly weaker version of their linear"
+  },
+  {
+    "t_start": 430.55,
+    "t_end": 434.07,
+    "text": "version of their linear forms"
+  },
+  {
+    "t_start": 436.71,
+    "t_end": 438.83,
+    "text": "yeah that's right One Direction so for p much less than this you can show that"
+  },
+  {
+    "t_start": 438.83,
+    "t_end": 444.99,
+    "text": "there's um much fewer 3 APS than the number of elements in your set so you"
+  },
+  {
+    "t_start": 444.99,
+    "t_end": 446.67,
+    "text": "number of elements in your set so you can just take out those three APS and"
+  },
+  {
+    "t_start": 446.67,
+    "t_end": 452.469,
+    "text": "destroy all the three APS right so it's the it's the existence that's a harder"
+  },
+  {
+    "t_start": 452.469,
+    "t_end": 454.749,
+    "text": "the it's the existence that's a harder Direction okay any other"
+  },
+  {
+    "t_start": 454.749,
+    "t_end": 457.67,
+    "text": "Direction okay any other questions okay"
+  },
+  {
+    "t_start": 457.67,
+    "t_end": 465.469,
+    "text": "so um so I want to First outline a proof of this classic result of rth on three"
+  },
+  {
+    "t_start": 465.469,
+    "t_end": 472.149,
+    "text": "ap3 sets so it says that so this is a three- term uh version of samur STM it"
+  },
+  {
+    "t_start": 472.149,
+    "t_end": 474.11,
+    "text": "three- term uh version of samur STM it says that you have a set which is 33"
+  },
+  {
+    "t_start": 474.11,
+    "t_end": 477.39,
+    "text": "says that you have a set which is 33 then it contains a sublinear number of"
+  },
+  {
+    "t_start": 477.39,
+    "t_end": 480.149,
+    "text": "then it contains a sublinear number of elements it will be somewhat easier to"
+  },
+  {
+    "t_start": 480.149,
+    "t_end": 485.51,
+    "text": "work in Zod n because of the CC group structure and roughly these two settings"
+  },
+  {
+    "t_start": 485.51,
+    "t_end": 487.309,
+    "text": "structure and roughly these two settings are the same the only difference is that"
+  },
+  {
+    "t_start": 487.309,
+    "t_end": 491.629,
+    "text": "are the same the only difference is that in Zod n you're allowed wrap arounds the"
+  },
+  {
+    "t_start": 491.629,
+    "t_end": 493.39,
+    "text": "three piece could wrap around zero but there's a standard trick to get rid of"
+  },
+  {
+    "t_start": 493.39,
+    "t_end": 497.27,
+    "text": "there's a standard trick to get rid of that which is to if you start with one"
+  },
+  {
+    "t_start": 497.27,
+    "t_end": 499.309,
+    "text": "to end then you bet embed this in a slightly larger cular group so that"
+  },
+  {
+    "t_start": 499.309,
+    "t_end": 503.189,
+    "text": "wraparounds no longer cause an issue so for our purpose these two settings are"
+  },
+  {
+    "t_start": 503.189,
+    "t_end": 505.83,
+    "text": "for our purpose these two settings are really the same and we'll just work with"
+  },
+  {
+    "t_start": 505.83,
+    "t_end": 508.79,
+    "text": "really the same and we'll just work with Zod so let me show you a a graph"
+  },
+  {
+    "t_start": 508.79,
+    "t_end": 510.869,
+    "text": "Zod so let me show you a a graph theoretic proof of rth so this is not"
+  },
+  {
+    "t_start": 510.869,
+    "t_end": 512.79,
+    "text": "theoretic proof of rth so this is not Roth's original proof which is suor"
+  },
+  {
+    "t_start": 512.79,
+    "t_end": 514.43,
+    "text": "Roth's original proof which is suor analysis but it's a graph theoretic"
+  },
+  {
+    "t_start": 514.43,
+    "t_end": 517.79,
+    "text": "proof and the point of this is to motivate the construction that will be"
+  },
+  {
+    "t_start": 517.79,
+    "t_end": 521.19,
+    "text": "motivate the construction that will be needed to explain the pseudo Randomness"
+  },
+  {
+    "t_start": 521.19,
+    "t_end": 524.71,
+    "text": "needed to explain the pseudo Randomness condition starting with my set a as a"
+  },
+  {
+    "t_start": 524.71,
+    "t_end": 526.87,
+    "text": "condition starting with my set a as a subset of Z modm let me construct the"
+  },
+  {
+    "t_start": 526.87,
+    "t_end": 529.79,
+    "text": "subset of Z modm let me construct the following tripartite graph where I have"
+  },
+  {
+    "t_start": 529.79,
+    "t_end": 535.59,
+    "text": "three sets of vertices X Y and Z where the vertices are labeled all by elements"
+  },
+  {
+    "t_start": 535.59,
+    "t_end": 537.79,
+    "text": "the vertices are labeled all by elements of Zod"
+  },
+  {
+    "t_start": 537.79,
+    "t_end": 545.269,
+    "text": "n i putting my edges as follows so between X and uh the set so between"
+  },
+  {
+    "t_start": 545.269,
+    "t_end": 548.269,
+    "text": "between X and uh the set so between these two vertex sets I putting an edge"
+  },
+  {
+    "t_start": 548.269,
+    "t_end": 550.47,
+    "text": "these two vertex sets I putting an edge between X and Y if and only if this"
+  },
+  {
+    "t_start": 550.47,
+    "t_end": 555.67,
+    "text": "linear form 2x + y is in my set a okay so there's just some rule for putting in"
+  },
+  {
+    "t_start": 555.67,
+    "t_end": 557.509,
+    "text": "so there's just some rule for putting in the edges you can think of it as a"
+  },
+  {
+    "t_start": 557.509,
+    "t_end": 560.03,
+    "text": "the edges you can think of it as a modified KD"
+  },
+  {
+    "t_start": 560.03,
+    "t_end": 566.31,
+    "text": "graph similarly I putting an edge between x and z if x minus Z is in my"
+  },
+  {
+    "t_start": 566.31,
+    "t_end": 567.75,
+    "text": "between x and z if x minus Z is in my set"
+  },
+  {
+    "t_start": 567.75,
+    "t_end": 575.15,
+    "text": "a and between x uh between Y and Z if minus Yus 2 Z is in a okay so these are"
+  },
+  {
+    "t_start": 575.15,
+    "t_end": 577.069,
+    "text": "minus Yus 2 Z is in a okay so these are just the rules for putting in the"
+  },
+  {
+    "t_start": 577.069,
+    "t_end": 583.509,
+    "text": "edges okay so why do I put in these edges why do I choose these three linear"
+  },
+  {
+    "t_start": 583.509,
+    "t_end": 590.15,
+    "text": "because if I think about what are the triangles in this graph so when do"
+  },
+  {
+    "t_start": 590.15,
+    "t_end": 596.03,
+    "text": "vertices X Y and Z form a triangle they form a triangle if and only if these"
+  },
+  {
+    "t_start": 596.03,
+    "t_end": 602.91,
+    "text": "form a triangle if and only if these three linear forms are all in my set a"
+  },
+  {
+    "t_start": 602.91,
+    "t_end": 606.91,
+    "text": "so that's just reading off the rules but these three Expressions notice"
+  },
+  {
+    "t_start": 606.91,
+    "t_end": 609.43,
+    "text": "rules but these three Expressions notice that they form a three- term arithmetic"
+  },
+  {
+    "t_start": 609.43,
+    "t_end": 612.19,
+    "text": "that they form a three- term arithmetic progression with this common difference"
+  },
+  {
+    "t_start": 612.19,
+    "t_end": 617.11,
+    "text": "so that's the reason why those three linear forms were chosen so triangles in"
+  },
+  {
+    "t_start": 617.11,
+    "t_end": 620.87,
+    "text": "linear forms were chosen so triangles in this graph correspond precisely to three"
+  },
+  {
+    "t_start": 620.87,
+    "t_end": 625.829,
+    "text": "this graph correspond precisely to three term arithmetic progressions in the set"
+  },
+  {
+    "t_start": 629.35,
+    "t_end": 630.91,
+    "text": "a but I started out with a set a with which doesn't have any three- term"
+  },
+  {
+    "t_start": 630.91,
+    "t_end": 632.31,
+    "text": "which doesn't have any three- term arithmetic"
+  },
+  {
+    "t_start": 632.31,
+    "t_end": 639.15,
+    "text": "progressions so does that mean that there's no triangles in this"
+  },
+  {
+    "t_start": 642.829,
+    "t_end": 644.269,
+    "text": "graph almost not quite but almost there are still some"
+  },
+  {
+    "t_start": 644.269,
+    "t_end": 648.269,
+    "text": "triangles because we still have some trivial three- term arithmetic"
+  },
+  {
+    "t_start": 648.269,
+    "t_end": 653.59,
+    "text": "progressions with common difference zero and they're still being picked up by"
+  },
+  {
+    "t_start": 653.59,
+    "t_end": 659.829,
+    "text": "construction so but these are the only triangles and in particular particular"
+  },
+  {
+    "t_start": 659.829,
+    "t_end": 664.829,
+    "text": "triangles and in particular particular what notice is that every Edge in this"
+  },
+  {
+    "t_start": 664.829,
+    "t_end": 667.069,
+    "text": "graph is contained in exactly one triangle namely the one that completes"
+  },
+  {
+    "t_start": 667.069,
+    "t_end": 675.069,
+    "text": "triangle namely the one that completes the equation x + y + z equals to"
+  },
+  {
+    "t_start": 675.069,
+    "t_end": 681.03,
+    "text": "which has 3 n vertices 3 n * a edges so think of there a k graph so there are a"
+  },
+  {
+    "t_start": 681.03,
+    "t_end": 682.99,
+    "text": "think of there a k graph so there are a edges between so coming out of every"
+  },
+  {
+    "t_start": 682.99,
+    "t_end": 685.75,
+    "text": "edges between so coming out of every vertex between every two vertex sets and"
+  },
+  {
+    "t_start": 685.75,
+    "t_end": 687.79,
+    "text": "vertex between every two vertex sets and every Edge is in exactly one"
+  },
+  {
+    "t_start": 687.79,
+    "t_end": 690.47,
+    "text": "every Edge is in exactly one triangle and there's a nice result of"
+  },
+  {
+    "t_start": 690.47,
+    "t_end": 697.11,
+    "text": "Ria and samti in the 70s that says that such a graph if every Edge is containing"
+  },
+  {
+    "t_start": 697.11,
+    "t_end": 698.75,
+    "text": "such a graph if every Edge is containing exactly one"
+  },
+  {
+    "t_start": 698.75,
+    "t_end": 705.269,
+    "text": "triangle has a subquadratic number of edges so this is a consequence of what's"
+  },
+  {
+    "t_start": 705.269,
+    "t_end": 707.11,
+    "text": "edges so this is a consequence of what's known as a triangle removal"
+  },
+  {
+    "t_start": 707.11,
+    "t_end": 712.87,
+    "text": "Lama using this result we deduced that the number of edges is little of n^ s"
+  },
+  {
+    "t_start": 712.87,
+    "t_end": 719.069,
+    "text": "and hence a has size little over it so that completes the proof of roster of"
+  },
+  {
+    "t_start": 719.069,
+    "t_end": 724.19,
+    "text": "course of course most of the content of the proof is sort of hidden in in this"
+  },
+  {
+    "t_start": 724.19,
+    "t_end": 729.99,
+    "text": "the proof is sort of hidden in in this result and uh so to the standard proof"
+  },
+  {
+    "t_start": 729.99,
+    "t_end": 733.87,
+    "text": "the point of you showing this proof is not necessarily to show you how to prove"
+  },
+  {
+    "t_start": 733.87,
+    "t_end": 736.069,
+    "text": "not necessarily to show you how to prove Roser but I want to use this"
+  },
+  {
+    "t_start": 736.069,
+    "t_end": 738.23,
+    "text": "Roser but I want to use this construction this graph theoretic"
+  },
+  {
+    "t_start": 738.23,
+    "t_end": 742.55,
+    "text": "construction this graph theoretic construction on the previous slide and"
+  },
+  {
+    "t_start": 742.55,
+    "t_end": 746.67,
+    "text": "this explanation shows that that construction is related to three- term"
+  },
+  {
+    "t_start": 746.67,
+    "t_end": 752.15,
+    "text": "progressions Okay so now I want to explain what is the pseudo Randomness"
+  },
+  {
+    "t_start": 752.15,
+    "t_end": 755.35,
+    "text": "explain what is the pseudo Randomness condition that we use in relative samur"
+  },
+  {
+    "t_start": 755.35,
+    "t_end": 758.11,
+    "text": "condition that we use in relative samur in particular relative"
+  },
+  {
+    "t_start": 758.11,
+    "t_end": 764.71,
+    "text": "Roth so rout of rosm for us says the following if I start with a subset of Z"
+  },
+  {
+    "t_start": 764.71,
+    "t_end": 767.43,
+    "text": "following if I start with a subset of Z mod M which satisfies what I will"
+  },
+  {
+    "t_start": 767.43,
+    "t_end": 770.67,
+    "text": "mod M which satisfies what I will explain a three linear forms"
+  },
+  {
+    "t_start": 770.67,
+    "t_end": 779.67,
+    "text": "condition then a subset of it which is 3 ap3 contains a uh a has necess to be"
+  },
+  {
+    "t_start": 779.67,
+    "t_end": 782.87,
+    "text": "ap3 contains a uh a has necess to be sparse relatively speaking to the host"
+  },
+  {
+    "t_start": 782.87,
+    "t_end": 790.59,
+    "text": "set and what is this three linear forms condition well if I start with this scph"
+  },
+  {
+    "t_start": 790.59,
+    "t_end": 792.949,
+    "text": "condition well if I start with this scph GS so this is the same construction as"
+  },
+  {
+    "t_start": 792.949,
+    "t_end": 795.43,
+    "text": "GS so this is the same construction as before except that I build my edges"
+  },
+  {
+    "t_start": 795.43,
+    "t_end": 800.79,
+    "text": "based on the set s the host set s so I drawing these edges using basically the"
+  },
+  {
+    "t_start": 800.79,
+    "t_end": 802.75,
+    "text": "drawing these edges using basically the same"
+  },
+  {
+    "t_start": 802.75,
+    "t_end": 807.949,
+    "text": "rules then the three linear forms condition says that this graph GS is"
+  },
+  {
+    "t_start": 807.949,
+    "t_end": 810.91,
+    "text": "condition says that this graph GS is pseudo random in the following"
+  },
+  {
+    "t_start": 810.91,
+    "t_end": 817.79,
+    "text": "sense that if I want to count the number of embeddings of k222 so k222 is this"
+  },
+  {
+    "t_start": 817.79,
+    "t_end": 819.31,
+    "text": "of embeddings of k222 so k222 is this object"
+  },
+  {
+    "t_start": 819.31,
+    "t_end": 825.829,
+    "text": "here then the number of embeddings of k222 should be roughly the same as the"
+  },
+  {
+    "t_start": 825.829,
+    "t_end": 828.87,
+    "text": "k222 should be roughly the same as the number of embeddings of k222 into a"
+  },
+  {
+    "t_start": 828.87,
+    "t_end": 831.31,
+    "text": "number of embeddings of k222 into a random graph of the same"
+  },
+  {
+    "t_start": 831.31,
+    "t_end": 837.79,
+    "text": "density so um if my set s has density P then the density of embeddings of these"
+  },
+  {
+    "t_start": 837.79,
+    "t_end": 845.59,
+    "text": "things should be P to the power 12th power up to 1 plus to one multiplicative"
+  },
+  {
+    "t_start": 845.59,
+    "t_end": 848.99,
+    "text": "power up to 1 plus to one multiplicative correction we need just a bit"
+  },
+  {
+    "t_start": 848.99,
+    "t_end": 854.67,
+    "text": "more we want to say that not just for k222 but also all subgraphs of k222 for"
+  },
+  {
+    "t_start": 854.67,
+    "t_end": 856.71,
+    "text": "k222 but also all subgraphs of k222 for example this thing should also have the"
+  },
+  {
+    "t_start": 856.71,
+    "t_end": 858.79,
+    "text": "example this thing should also have the correct number of embeddings but that's"
+  },
+  {
+    "t_start": 858.79,
+    "t_end": 861.79,
+    "text": "correct number of embeddings but that's it so just saying that these subgraphs"
+  },
+  {
+    "t_start": 861.79,
+    "t_end": 863.749,
+    "text": "it so just saying that these subgraphs have the correct number of embeddings"
+  },
+  {
+    "t_start": 863.749,
+    "t_end": 865.43,
+    "text": "have the correct number of embeddings that's all the pseudo Randomness"
+  },
+  {
+    "t_start": 865.43,
+    "t_end": 866.829,
+    "text": "that's all the pseudo Randomness conditions that we need and this"
+  },
+  {
+    "t_start": 866.829,
+    "t_end": 869.15,
+    "text": "conditions that we need and this guarantees this relative Rost so that's"
+  },
+  {
+    "t_start": 869.15,
+    "t_end": 873.389,
+    "text": "guarantees this relative Rost so that's the result"
+  },
+  {
+    "t_start": 876.87,
+    "t_end": 883.59,
+    "text": "next slide so let me um draw some okay so of course k222 comes out of the proof"
+  },
+  {
+    "t_start": 883.59,
+    "t_end": 885.629,
+    "text": "so of course k222 comes out of the proof but just to convince you that a natural"
+  },
+  {
+    "t_start": 885.629,
+    "t_end": 887.99,
+    "text": "but just to convince you that a natural condition let me draw some analogies to"
+  },
+  {
+    "t_start": 887.99,
+    "t_end": 889.59,
+    "text": "condition let me draw some analogies to some classical results about quasi"
+  },
+  {
+    "t_start": 889.59,
+    "t_end": 895.15,
+    "text": "random graphs so in the late 80s of Chong Graham and Wilson have this famous"
+  },
+  {
+    "t_start": 895.15,
+    "t_end": 897.79,
+    "text": "Chong Graham and Wilson have this famous result that uh so they explored the"
+  },
+  {
+    "t_start": 897.79,
+    "t_end": 900.03,
+    "text": "result that uh so they explored the notion of Quasi randomness in graphs and"
+  },
+  {
+    "t_start": 900.03,
+    "t_end": 901.829,
+    "text": "notion of Quasi randomness in graphs and show that there's a number of different"
+  },
+  {
+    "t_start": 901.829,
+    "t_end": 904.509,
+    "text": "show that there's a number of different definitions all of which are equivalent"
+  },
+  {
+    "t_start": 904.509,
+    "t_end": 906.55,
+    "text": "definitions all of which are equivalent and one that in particular that stands"
+  },
+  {
+    "t_start": 906.55,
+    "t_end": 910.47,
+    "text": "and one that in particular that stands out so some of these conditions are I"
+  },
+  {
+    "t_start": 910.47,
+    "t_end": 913.79,
+    "text": "counts and so on but there's one condition that stands out is having the"
+  },
+  {
+    "t_start": 913.79,
+    "t_end": 920.43,
+    "text": "correct C4 count and just having the correct C4 count is equivalent to a host"
+  },
+  {
+    "t_start": 920.43,
+    "t_end": 925.509,
+    "text": "conditions but just for dense graphs so their results only work for dense graphs"
+  },
+  {
+    "t_start": 925.509,
+    "t_end": 928.069,
+    "text": "their results only work for dense graphs and they break down if you have sparse"
+  },
+  {
+    "t_start": 928.069,
+    "t_end": 930.71,
+    "text": "and they break down if you have sparse graphs"
+  },
+  {
+    "t_start": 930.71,
+    "t_end": 936.949,
+    "text": "one way to see our result as an analogy to um this type of result is that if I"
+  },
+  {
+    "t_start": 936.949,
+    "t_end": 939.71,
+    "text": "to um this type of result is that if I want to study some extrem or Ry type"
+  },
+  {
+    "t_start": 939.71,
+    "t_end": 941.67,
+    "text": "want to study some extrem or Ry type result about a graph H so for the"
+  },
+  {
+    "t_start": 941.67,
+    "t_end": 946.59,
+    "text": "purpose of Ross theorem H is a triangle as I we saw earlier in the in the graph"
+  },
+  {
+    "t_start": 946.59,
+    "t_end": 948.91,
+    "text": "as I we saw earlier in the in the graph theoretic proof of Ross theem so if I"
+  },
+  {
+    "t_start": 948.91,
+    "t_end": 951.829,
+    "text": "theoretic proof of Ross theem so if I want to know some extremal results about"
+  },
+  {
+    "t_start": 951.829,
+    "t_end": 954.79,
+    "text": "want to know some extremal results about the triangle in a sparse graph then I"
+  },
+  {
+    "t_start": 954.79,
+    "t_end": 957.91,
+    "text": "the triangle in a sparse graph then I have everything I need provided that"
+  },
+  {
+    "t_start": 957.91,
+    "t_end": 959.43,
+    "text": "have everything I need provided that there is some host graph"
+  },
+  {
+    "t_start": 959.43,
+    "t_end": 961.749,
+    "text": "there is some host graph which behaves pseudo randomly with"
+  },
+  {
+    "t_start": 961.749,
+    "t_end": 968.23,
+    "text": "respect to the two blow up of the triangle so that's one way to to to"
+  },
+  {
+    "t_start": 968.23,
+    "t_end": 970.67,
+    "text": "triangle so that's one way to to to remember this result and in retrospect"
+  },
+  {
+    "t_start": 970.67,
+    "t_end": 975.59,
+    "text": "you can view Chong Graham and Wilson as saying that I have knowledge about dense"
+  },
+  {
+    "t_start": 975.59,
+    "t_end": 980.67,
+    "text": "graphs if I know the correct count of the two blow up of a single edge whereas"
+  },
+  {
+    "t_start": 980.67,
+    "t_end": 982.189,
+    "text": "the two blow up of a single edge whereas for sparse graphs if I want to know"
+  },
+  {
+    "t_start": 982.189,
+    "t_end": 983.629,
+    "text": "for sparse graphs if I want to know something about triangles and to know"
+  },
+  {
+    "t_start": 983.629,
+    "t_end": 986.03,
+    "text": "something about triangles and to know the tube blob of a"
+  },
+  {
+    "t_start": 986.03,
+    "t_end": 989.389,
+    "text": "the tube blob of a triangle so that's just an analogy"
+  },
+  {
+    "t_start": 989.389,
+    "t_end": 995.15,
+    "text": "triangle so that's just an analogy um okay so uh more generally R of semar"
+  },
+  {
+    "t_start": 995.15,
+    "t_end": 997.99,
+    "text": "um okay so uh more generally R of semar theorem we have long longer arithmetic"
+  },
+  {
+    "t_start": 997.99,
+    "t_end": 999.43,
+    "text": "theorem we have long longer arithmetic progressions but"
+  },
+  {
+    "t_start": 999.43,
+    "t_end": 1004.11,
+    "text": "kaps says the same thing except I switch out this three linear forms condition by"
+  },
+  {
+    "t_start": 1004.11,
+    "t_end": 1008.069,
+    "text": "out this three linear forms condition by what we call the K linear forms"
+  },
+  {
+    "t_start": 1008.069,
+    "t_end": 1010.47,
+    "text": "condition and that's a natural generalization of this graph theoretic"
+  },
+  {
+    "t_start": 1010.47,
+    "t_end": 1016.79,
+    "text": "construction where now instead of taking graphs I now take a hyper graph so for"
+  },
+  {
+    "t_start": 1016.79,
+    "t_end": 1020.23,
+    "text": "graphs I now take a hyper graph so for example for four term arithmetic"
+  },
+  {
+    "t_start": 1020.23,
+    "t_end": 1026.069,
+    "text": "progressions I built for you a four parti sorry there's no weighted here so"
+  },
+  {
+    "t_start": 1026.069,
+    "t_end": 1029.39,
+    "text": "parti sorry there's no weighted here so four parti a three uniform hyper graph"
+  },
+  {
+    "t_start": 1029.39,
+    "t_end": 1033.23,
+    "text": "four parti a three uniform hyper graph so all the vertex sets are Z mod"
+  },
+  {
+    "t_start": 1033.23,
+    "t_end": 1036.669,
+    "text": "so all the vertex sets are Z mod n i putting my edges according to these"
+  },
+  {
+    "t_start": 1036.669,
+    "t_end": 1038.63,
+    "text": "n i putting my edges according to these rules know very similar to the rules"
+  },
+  {
+    "t_start": 1038.63,
+    "t_end": 1040.99,
+    "text": "rules know very similar to the rules that we saw"
+  },
+  {
+    "t_start": 1040.99,
+    "t_end": 1047.51,
+    "text": "earlier and so these rules are chosen so that uh these linear forms they form a"
+  },
+  {
+    "t_start": 1047.51,
+    "t_end": 1049.43,
+    "text": "that uh these linear forms they form a four-term arithmetic progression so just"
+  },
+  {
+    "t_start": 1049.43,
+    "t_end": 1055.59,
+    "text": "four-term arithmetic progression so just like what we saw earlier and the pseudo"
+  },
+  {
+    "t_start": 1055.59,
+    "t_end": 1057.11,
+    "text": "Randomness condition is that this graph constructed here this hypergraph"
+  },
+  {
+    "t_start": 1057.11,
+    "t_end": 1063.71,
+    "text": "constructed here has the correct count of the two blow up of the Simplex so the"
+  },
+  {
+    "t_start": 1063.71,
+    "t_end": 1066.71,
+    "text": "of the two blow up of the Simplex so the Simplex is the complete three uniform"
+  },
+  {
+    "t_start": 1066.71,
+    "t_end": 1070.27,
+    "text": "Simplex is the complete three uniform graph on four vertices so they're the"
+  },
+  {
+    "t_start": 1070.27,
+    "t_end": 1075.39,
+    "text": "tetrahedron and that's it so it's just the it's a natural generalization of the"
+  },
+  {
+    "t_start": 1075.39,
+    "t_end": 1079.909,
+    "text": "what we saw in the three case for the rest of the talk the so I will just talk"
+  },
+  {
+    "t_start": 1079.909,
+    "t_end": 1086.669,
+    "text": "rest of the talk the so I will just talk about the three AP case uh it turns out"
+  },
+  {
+    "t_start": 1086.669,
+    "t_end": 1089.029,
+    "text": "so if you're familiar with Sam term you know that for in all different proofs of"
+  },
+  {
+    "t_start": 1089.029,
+    "t_end": 1092.27,
+    "text": "know that for in all different proofs of SAR term actually all of the proofs are"
+  },
+  {
+    "t_start": 1092.27,
+    "t_end": 1094.23,
+    "text": "difficult but in all the different proofs the three term case is"
+  },
+  {
+    "t_start": 1094.23,
+    "t_end": 1098.27,
+    "text": "proofs the three term case is substantially easier than the longer uh"
+  },
+  {
+    "t_start": 1098.27,
+    "t_end": 1102.909,
+    "text": "substantially easier than the longer uh version it turns out though for the"
+  },
+  {
+    "t_start": 1102.909,
+    "t_end": 1104.19,
+    "text": "purpose of proving relative samity THM and I'll outline the strategy of the"
+  },
+  {
+    "t_start": 1104.19,
+    "t_end": 1109.35,
+    "text": "proof on the next slide for the purpose of proving relative samur themm there is"
+  },
+  {
+    "t_start": 1109.35,
+    "t_end": 1114.149,
+    "text": "of proving relative samur themm there is no at least the way we do it there's no"
+  },
+  {
+    "t_start": 1114.149,
+    "t_end": 1120.07,
+    "text": "between 3 AP or longer AP the notation gets bit more clumsier which is why I"
+  },
+  {
+    "t_start": 1120.07,
+    "t_end": 1122.549,
+    "text": "gets bit more clumsier which is why I don't want to talk about longer APS but"
+  },
+  {
+    "t_start": 1122.549,
+    "t_end": 1123.87,
+    "text": "don't want to talk about longer APS but the substance of the proof is all"
+  },
+  {
+    "t_start": 1123.87,
+    "t_end": 1126.35,
+    "text": "the substance of the proof is all contained in what I will explain for"
+  },
+  {
+    "t_start": 1126.35,
+    "t_end": 1128.11,
+    "text": "contained in what I will explain for three term arithmetic progressions so"
+  },
+  {
+    "t_start": 1128.11,
+    "t_end": 1133.99,
+    "text": "three term arithmetic progressions so I'll just do three term from that"
+  },
+  {
+    "t_start": 1133.99,
+    "t_end": 1135.11,
+    "text": "one okay um so there's a couple of different"
+  },
+  {
+    "t_start": 1135.11,
+    "t_end": 1139.11,
+    "text": "different approaches we first arrived at this"
+  },
+  {
+    "t_start": 1139.11,
+    "t_end": 1143.95,
+    "text": "um in this paper that titled a relative sumity theorem where we transfer the"
+  },
+  {
+    "t_start": 1143.95,
+    "t_end": 1151.27,
+    "text": "hypergraph removal Lum so this is one of the ways of proving summar the through"
+  },
+  {
+    "t_start": 1151.27,
+    "t_end": 1153.43,
+    "text": "the ways of proving summar the through hypergraph removal Lama and we transfer"
+  },
+  {
+    "t_start": 1153.43,
+    "t_end": 1161.029,
+    "text": "meaning that we assume this hypergraph removal LMA as a black box and transfer"
+  },
+  {
+    "t_start": 1161.029,
+    "t_end": 1166.11,
+    "text": "setting subsequently I found a a different approach of proving more or"
+  },
+  {
+    "t_start": 1166.11,
+    "t_end": 1169.19,
+    "text": "less the same result where instead of transferring a particular particular way"
+  },
+  {
+    "t_start": 1169.19,
+    "t_end": 1175.23,
+    "text": "transferring a particular particular way of proving s the STM transfer s STM"
+  },
+  {
+    "t_start": 1175.23,
+    "t_end": 1177.59,
+    "text": "directly meaning that if you start with any proof of sem STM for example any for"
+  },
+  {
+    "t_start": 1177.59,
+    "t_end": 1179.75,
+    "text": "any proof of sem STM for example any for thetic proof or anything then I can"
+  },
+  {
+    "t_start": 1179.75,
+    "t_end": 1181.83,
+    "text": "thetic proof or anything then I can transfer that proof and its balce down"
+  },
+  {
+    "t_start": 1181.83,
+    "t_end": 1185.99,
+    "text": "transfer that proof and its balce down to the sparse setting and so this is the"
+  },
+  {
+    "t_start": 1185.99,
+    "t_end": 1189.59,
+    "text": "approach that I will explain in this talk it's somewhat more direct whereas"
+  },
+  {
+    "t_start": 1189.59,
+    "t_end": 1194.789,
+    "text": "this hypergraph proof is somewhat more General and it could be applied to some"
+  },
+  {
+    "t_start": 1194.789,
+    "t_end": 1200.31,
+    "text": "other situations and this is is a short note"
+  },
+  {
+    "t_start": 1200.31,
+    "t_end": 1202.75,
+    "text": "situations and this is is a short note okay"
+  },
+  {
+    "t_start": 1202.75,
+    "t_end": 1209.23,
+    "text": "so so here's an outline of what the the proof of relative rosm is so I start"
+  },
+  {
+    "t_start": 1209.23,
+    "t_end": 1215.63,
+    "text": "with relative rthm one way to say is that is that if I fix a Delta then any"
+  },
+  {
+    "t_start": 1215.63,
+    "t_end": 1218.95,
+    "text": "that is that if I fix a Delta then any such set with at least density Delta"
+  },
+  {
+    "t_start": 1218.95,
+    "t_end": 1221.51,
+    "text": "such set with at least density Delta should contain a three- term arithmetic"
+  },
+  {
+    "t_start": 1221.51,
+    "t_end": 1223.83,
+    "text": "should contain a three- term arithmetic progression provided it's always n is"
+  },
+  {
+    "t_start": 1223.83,
+    "t_end": 1225.669,
+    "text": "progression provided it's always n is large"
+  },
+  {
+    "t_start": 1225.669,
+    "t_end": 1230.27,
+    "text": "enough it will be helpful and there's a standard averaging argument to go from"
+  },
+  {
+    "t_start": 1230.27,
+    "t_end": 1237.549,
+    "text": "version where I get not just one 3ap but many 3 APS a quadratic number of 3 APS"
+  },
+  {
+    "t_start": 1237.549,
+    "t_end": 1238.99,
+    "text": "many 3 APS a quadratic number of 3 APS okay so this is a a fairly standard"
+  },
+  {
+    "t_start": 1238.99,
+    "t_end": 1240.83,
+    "text": "okay so this is a a fairly standard argument roughly goes like this if I"
+  },
+  {
+    "t_start": 1240.83,
+    "t_end": 1248.909,
+    "text": "start with a set a that has this density then I just sample a uh AP of length n"
+  },
+  {
+    "t_start": 1248.909,
+    "t_end": 1252.909,
+    "text": "then I just sample a uh AP of length n where n is some large but fixed constant"
+  },
+  {
+    "t_start": 1252.909,
+    "t_end": 1254.789,
+    "text": "where n is some large but fixed constant then by this version I see at least one"
+  },
+  {
+    "t_start": 1254.789,
+    "t_end": 1259.99,
+    "text": "then by this version I see at least one 3 AP but if I keep sampling then I would"
+  },
+  {
+    "t_start": 1259.99,
+    "t_end": 1262.029,
+    "text": "see a quadratic number of of 3 APS so it's a standard sampling"
+  },
+  {
+    "t_start": 1262.029,
+    "t_end": 1268.71,
+    "text": "argument from this counting version then we can prove this relative Ross theorem"
+  },
+  {
+    "t_start": 1268.71,
+    "t_end": 1270.909,
+    "text": "we can prove this relative Ross theorem using the following outline so I start"
+  },
+  {
+    "t_start": 1270.909,
+    "t_end": 1275.43,
+    "text": "using the following outline so I start with a sparse set of um so a sparse set"
+  },
+  {
+    "t_start": 1275.43,
+    "t_end": 1279.11,
+    "text": "with a sparse set of um so a sparse set a contained inside some pseudo random"
+  },
+  {
+    "t_start": 1279.11,
+    "t_end": 1287.95,
+    "text": "a contained inside some pseudo random s the first step we find a dense Model A"
+  },
+  {
+    "t_start": 1287.95,
+    "t_end": 1293.31,
+    "text": "TAA for a where a TAA is an approximation for a in some cut Norm"
+  },
+  {
+    "t_start": 1293.31,
+    "t_end": 1298.63,
+    "text": "later but the main thing to remember here is that a TOA is a dense subset and"
+  },
+  {
+    "t_start": 1298.63,
+    "t_end": 1304.269,
+    "text": "the density of a TOA in Z mod n is roughly the same as the relative density"
+  },
+  {
+    "t_start": 1304.269,
+    "t_end": 1307.95,
+    "text": "roughly the same as the relative density of a in the set"
+  },
+  {
+    "t_start": 1310.269,
+    "t_end": 1312.47,
+    "text": "s and then there will be another step called a counting LMA which will tell us"
+  },
+  {
+    "t_start": 1312.47,
+    "t_end": 1315.75,
+    "text": "called a counting LMA which will tell us that if a TOA is a good approximation"
+  },
+  {
+    "t_start": 1315.75,
+    "t_end": 1319.47,
+    "text": "that if a TOA is a good approximation for a then the number of three term"
+  },
+  {
+    "t_start": 1319.47,
+    "t_end": 1326.39,
+    "text": "in a will be similar to that in a Tilda once you do the appropriate"
+  },
+  {
+    "t_start": 1326.39,
+    "t_end": 1330.95,
+    "text": "normalization but we know from the counting version of Ross theorem that"
+  },
+  {
+    "t_start": 1330.95,
+    "t_end": 1338.31,
+    "text": "counting version of Ross theorem that because a TAA is a dense set that a TAA"
+  },
+  {
+    "t_start": 1338.31,
+    "t_end": 1345.99,
+    "text": "APS and this would then imply that a also contains many 3 APS and that"
+  },
+  {
+    "t_start": 1345.99,
+    "t_end": 1347.75,
+    "text": "also contains many 3 APS and that basically concludes the proof of the"
+  },
+  {
+    "t_start": 1347.75,
+    "t_end": 1349.39,
+    "text": "basically concludes the proof of the relative roster"
+  },
+  {
+    "t_start": 1349.39,
+    "t_end": 1353.19,
+    "text": "right so at this point you already know that a contains many 3 APS and we're"
+  },
+  {
+    "t_start": 1353.19,
+    "t_end": 1356.07,
+    "text": "that a contains many 3 APS and we're pretty much done of course there's you"
+  },
+  {
+    "t_start": 1356.07,
+    "t_end": 1357.71,
+    "text": "pretty much done of course there's you know these two steps and I need to"
+  },
+  {
+    "t_start": 1357.71,
+    "t_end": 1362.71,
+    "text": "know these two steps and I need to explain what are these two"
+  },
+  {
+    "t_start": 1364.75,
+    "t_end": 1370.909,
+    "text": "so so this was the counting version of rerm that we saw earlier that a contains"
+  },
+  {
+    "t_start": 1370.909,
+    "t_end": 1374.19,
+    "text": "rerm that we saw earlier that a contains many three- term arithmetic"
+  },
+  {
+    "t_start": 1374.19,
+    "t_end": 1379.23,
+    "text": "progressions it will be convenient to work with a instead of a discrete"
+  },
+  {
+    "t_start": 1379.23,
+    "t_end": 1384.39,
+    "text": "version a weighted version of rosm where instead of taking sets I now put weights"
+  },
+  {
+    "t_start": 1384.39,
+    "t_end": 1386.39,
+    "text": "instead of taking sets I now put weights on my elements of Z mod"
+  },
+  {
+    "t_start": 1386.39,
+    "t_end": 1390.59,
+    "text": "on my elements of Z mod M um and these two results are"
+  },
+  {
+    "t_start": 1390.59,
+    "t_end": 1393.11,
+    "text": "M um and these two results are equivalent up to a change of constants"
+  },
+  {
+    "t_start": 1393.11,
+    "t_end": 1395.11,
+    "text": "equivalent up to a change of constants so this version says that if I start"
+  },
+  {
+    "t_start": 1395.11,
+    "t_end": 1397.63,
+    "text": "so this version says that if I start with any function on zodan taking values"
+  },
+  {
+    "t_start": 1397.63,
+    "t_end": 1398.95,
+    "text": "with any function on zodan taking values taking bounded"
+  },
+  {
+    "t_start": 1398.95,
+    "t_end": 1406.95,
+    "text": "values then the 3 AP density in my function f right so this expression here"
+  },
+  {
+    "t_start": 1406.95,
+    "t_end": 1411.669,
+    "text": "function f right so this expression here so where if f is a indicator function of"
+  },
+  {
+    "t_start": 1411.669,
+    "t_end": 1414.149,
+    "text": "a set and this is precisely the 3 AP density and the 3 AP density in the"
+  },
+  {
+    "t_start": 1414.149,
+    "t_end": 1420.51,
+    "text": "function f is at least C provided end is large enough so this is just the uh the"
+  },
+  {
+    "t_start": 1420.51,
+    "t_end": 1423.63,
+    "text": "large enough so this is just the uh the weighted relaxation of the usual"
+  },
+  {
+    "t_start": 1423.63,
+    "t_end": 1428.71,
+    "text": "convenient to use this for a couple of reasons one is that in the proof having"
+  },
+  {
+    "t_start": 1428.71,
+    "t_end": 1431.63,
+    "text": "reasons one is that in the proof having weights really helps the second reason"
+  },
+  {
+    "t_start": 1431.63,
+    "t_end": 1435.87,
+    "text": "is that if you actually want to prove the green t the about primes it would be"
+  },
+  {
+    "t_start": 1435.87,
+    "t_end": 1439.51,
+    "text": "the green t the about primes it would be much better to use a weighted uh so"
+  },
+  {
+    "t_start": 1439.51,
+    "t_end": 1441.71,
+    "text": "much better to use a weighted uh so weighted setting where instead of taking"
+  },
+  {
+    "t_start": 1441.71,
+    "t_end": 1444.23,
+    "text": "weighted setting where instead of taking majorizing sets you take majorizing"
+  },
+  {
+    "t_start": 1444.23,
+    "t_end": 1448.63,
+    "text": "measures so from now on we'll switch over to the weighted setting so the"
+  },
+  {
+    "t_start": 1448.63,
+    "t_end": 1451.63,
+    "text": "over to the weighted setting so the functional form of"
+  },
+  {
+    "t_start": 1451.63,
+    "t_end": 1458.43,
+    "text": "everything but this is the weighted version of Roser for dense sets so for"
+  },
+  {
+    "t_start": 1458.43,
+    "t_end": 1462.11,
+    "text": "version of Roser for dense sets so for the dense version so what would the"
+  },
+  {
+    "t_start": 1462.11,
+    "t_end": 1469.71,
+    "text": "sparse version correspond to if I start with some sparse host set"
+  },
+  {
+    "t_start": 1469.71,
+    "t_end": 1476.51,
+    "text": "this corresponds to a normalized measure new where you can think of new"
+  },
+  {
+    "t_start": 1476.51,
+    "t_end": 1478.51,
+    "text": "new where you can think of new corresponding to a set S as the"
+  },
+  {
+    "t_start": 1478.51,
+    "t_end": 1480.149,
+    "text": "corresponding to a set S as the normalized indicator function where I"
+  },
+  {
+    "t_start": 1480.149,
+    "t_end": 1482.07,
+    "text": "normalized indicator function where I just normalize it so that it has"
+  },
+  {
+    "t_start": 1482.07,
+    "t_end": 1485.19,
+    "text": "just normalize it so that it has expectation one so in particular new"
+  },
+  {
+    "t_start": 1485.19,
+    "t_end": 1491.029,
+    "text": "expectation one so in particular new will not be bounded by one so there's a"
+  },
+  {
+    "t_start": 1491.029,
+    "t_end": 1496.63,
+    "text": "scaling that happens here then the subset a of s relatively"
+  },
+  {
+    "t_start": 1496.63,
+    "t_end": 1498.87,
+    "text": "here then the subset a of s relatively dense subset will then correspond"
+  },
+  {
+    "t_start": 1498.87,
+    "t_end": 1503.19,
+    "text": "dense subset will then correspond to a function f which is measured by new"
+  },
+  {
+    "t_start": 1503.19,
+    "t_end": 1504.909,
+    "text": "so this is the condition that corresponds to being a"
+  },
+  {
+    "t_start": 1504.909,
+    "t_end": 1507.149,
+    "text": "corresponds to being a subset"
+  },
+  {
+    "t_start": 1507.149,
+    "t_end": 1511.63,
+    "text": "and F will also have expectation at least Delta so this the condition that"
+  },
+  {
+    "t_start": 1511.63,
+    "t_end": 1515.789,
+    "text": "least Delta so this the condition that corresponds to being relatively"
+  },
+  {
+    "t_start": 1520.23,
+    "t_end": 1527.029,
+    "text": "dense then a relative rosm says the following yeah"
+  },
+  {
+    "t_start": 1529.909,
+    "t_end": 1535.59,
+    "text": "questions okay um so so here's a statement of a relative Ross"
+  },
+  {
+    "t_start": 1535.59,
+    "t_end": 1538.029,
+    "text": "statement of a relative Ross theem if I have"
+  },
+  {
+    "t_start": 1538.029,
+    "t_end": 1543.269,
+    "text": "a major Rising measure new which satisfies the three linear forms"
+  },
+  {
+    "t_start": 1543.269,
+    "t_end": 1547.19,
+    "text": "condition so this is basically the k222 condition that I mentioned earlier but I"
+  },
+  {
+    "t_start": 1547.19,
+    "t_end": 1549.43,
+    "text": "condition that I mentioned earlier but I will say it again on the next"
+  },
+  {
+    "t_start": 1549.43,
+    "t_end": 1551.95,
+    "text": "will say it again on the next slide and any function f which is"
+  },
+  {
+    "t_start": 1551.95,
+    "t_end": 1555.87,
+    "text": "slide and any function f which is majorized by new and the expectation of"
+  },
+  {
+    "t_start": 1555.87,
+    "t_end": 1558.43,
+    "text": "majorized by new and the expectation of f is at least Delta"
+  },
+  {
+    "t_start": 1558.43,
+    "t_end": 1562.59,
+    "text": "f is at least Delta then the 3 AP density in F is bounded"
+  },
+  {
+    "t_start": 1562.59,
+    "t_end": 1572.19,
+    "text": "below so this is the dispar extension of the dense version of"
+  },
+  {
+    "t_start": 1574.95,
+    "t_end": 1577.35,
+    "text": "roster and this three lar forms condition says the following essentially"
+  },
+  {
+    "t_start": 1577.35,
+    "t_end": 1581.51,
+    "text": "condition says the following essentially it's about the density of the k222"
+  },
+  {
+    "t_start": 1581.51,
+    "t_end": 1588.75,
+    "text": "object in yeah"
+  },
+  {
+    "t_start": 1592.47,
+    "t_end": 1594.23,
+    "text": "normalized by theity ah so everything is already normalized so you should think"
+  },
+  {
+    "t_start": 1594.23,
+    "t_end": 1596.549,
+    "text": "already normalized so you should think of this as having constant expectation"
+  },
+  {
+    "t_start": 1596.549,
+    "t_end": 1599.23,
+    "text": "of this as having constant expectation word right so so that's why there's no"
+  },
+  {
+    "t_start": 1599.23,
+    "t_end": 1602.83,
+    "text": "word right so so that's why there's no normalization it's already part of the"
+  },
+  {
+    "t_start": 1604.909,
+    "t_end": 1606.47,
+    "text": "normalization yeah so f is not just indicator function but normalized in the"
+  },
+  {
+    "t_start": 1606.47,
+    "t_end": 1609.75,
+    "text": "indicator function but normalized in the same way that new"
+  },
+  {
+    "t_start": 1612.51,
+    "t_end": 1615.87,
+    "text": "is so the three linear forms condition basically says that the density of k222"
+  },
+  {
+    "t_start": 1615.87,
+    "t_end": 1620.51,
+    "text": "basically says that the density of k222 in this weighted graph right so it's the"
+  },
+  {
+    "t_start": 1620.51,
+    "t_end": 1622.99,
+    "text": "the weighted analog what we saw earlier that this density is correct so"
+  },
+  {
+    "t_start": 1622.99,
+    "t_end": 1628.07,
+    "text": "earlier that this density is correct so 1 plus the toal one and if I just write"
+  },
+  {
+    "t_start": 1628.07,
+    "t_end": 1632.43,
+    "text": "out the whole thing it would say that this expression here is 1 plus l 1 as"
+  },
+  {
+    "t_start": 1632.43,
+    "t_end": 1634.23,
+    "text": "this expression here is 1 plus l 1 as well as if any subset of these 12"
+  },
+  {
+    "t_start": 1634.23,
+    "t_end": 1635.99,
+    "text": "well as if any subset of these 12 factors were"
+  },
+  {
+    "t_start": 1635.99,
+    "t_end": 1641.31,
+    "text": "deleted and this is the complete statement of our result for relative"
+  },
+  {
+    "t_start": 1641.31,
+    "t_end": 1647.149,
+    "text": "Rost okay now how do we prove this result so this is a essentially the same"
+  },
+  {
+    "t_start": 1647.149,
+    "t_end": 1649.31,
+    "text": "result so this is a essentially the same transference slide that we saw earlier"
+  },
+  {
+    "t_start": 1649.31,
+    "t_end": 1655.31,
+    "text": "but now written for the weighted form so I want to prove this about new F and new"
+  },
+  {
+    "t_start": 1655.31,
+    "t_end": 1657.029,
+    "text": "I want to prove this about new F and new so these are sparse"
+  },
+  {
+    "t_start": 1657.029,
+    "t_end": 1663.87,
+    "text": "objects the dense model theorem First Step says that we can approximate this F"
+  },
+  {
+    "t_start": 1663.87,
+    "t_end": 1667.19,
+    "text": "Step says that we can approximate this F in terms of the scut norm by a dense"
+  },
+  {
+    "t_start": 1667.19,
+    "t_end": 1670.31,
+    "text": "in terms of the scut norm by a dense object F TOA so dense basically means"
+  },
+  {
+    "t_start": 1670.31,
+    "t_end": 1672.35,
+    "text": "object F TOA so dense basically means that it's bounded sparse means that it's"
+  },
+  {
+    "t_start": 1672.35,
+    "t_end": 1679.31,
+    "text": "not bounded you want to normalize so everything has constant expectation word"
+  },
+  {
+    "t_start": 1681.35,
+    "t_end": 1683.63,
+    "text": "the second step is a counting LMA which says that if I have this approximation"
+  },
+  {
+    "t_start": 1683.63,
+    "t_end": 1690.47,
+    "text": "then the 3 a density in F should be roughly the same as a 3 a density in F"
+  },
+  {
+    "t_start": 1693.07,
+    "t_end": 1698.99,
+    "text": "version of Ros THM that the 3 AP density in F TOA is bounded from below so this"
+  },
+  {
+    "t_start": 1698.99,
+    "t_end": 1700.71,
+    "text": "in F TOA is bounded from below so this then implies the relative Ross term that"
+  },
+  {
+    "t_start": 1700.71,
+    "t_end": 1707.789,
+    "text": "then implies the relative Ross term that the 3 AP density in F is at least C"
+  },
+  {
+    "t_start": 1707.789,
+    "t_end": 1709.59,
+    "text": "basically okay so let me explain now these two two"
+  },
+  {
+    "t_start": 1709.59,
+    "t_end": 1714.149,
+    "text": "these two two steps first the dense model"
+  },
+  {
+    "t_start": 1717.149,
+    "t_end": 1719.87,
+    "text": "theorem so in what sense does the St Model F TAA approximate the sparse"
+  },
+  {
+    "t_start": 1719.87,
+    "t_end": 1720.909,
+    "text": "Model F TAA approximate the sparse object"
+  },
+  {
+    "t_start": 1720.909,
+    "t_end": 1726.83,
+    "text": "F so in the previous approach uh taken by Green cow they used some notion which"
+  },
+  {
+    "t_start": 1726.83,
+    "t_end": 1729.549,
+    "text": "by Green cow they used some notion which is based on the G uniformity"
+  },
+  {
+    "t_start": 1729.549,
+    "t_end": 1732.19,
+    "text": "is based on the G uniformity Norm our main simplification here is"
+  },
+  {
+    "t_start": 1732.19,
+    "t_end": 1736.47,
+    "text": "that we do not at all use the G uniformity Norm so we use something much"
+  },
+  {
+    "t_start": 1736.47,
+    "t_end": 1740.31,
+    "text": "uniformity Norm so we use something much weaker which is the cut Norm it's also"
+  },
+  {
+    "t_start": 1740.31,
+    "t_end": 1746.389,
+    "text": "discrepancy and the advantage is okay so so how do how do these two approaches"
+  },
+  {
+    "t_start": 1746.389,
+    "t_end": 1748.63,
+    "text": "so so how do how do these two approaches compare the advantage of using the cut"
+  },
+  {
+    "t_start": 1748.63,
+    "t_end": 1752.909,
+    "text": "Norm is that we obtain a much cheaper dense model themm cheaper meaning that"
+  },
+  {
+    "t_start": 1752.909,
+    "t_end": 1755.99,
+    "text": "dense model themm cheaper meaning that we require fewer sud Randomness"
+  },
+  {
+    "t_start": 1755.99,
+    "t_end": 1758.43,
+    "text": "we require fewer sud Randomness hypothesis the expenses that requires a"
+  },
+  {
+    "t_start": 1758.43,
+    "t_end": 1759.83,
+    "text": "hypothesis the expenses that requires a trickier accounting Lama and this is"
+  },
+  {
+    "t_start": 1759.83,
+    "t_end": 1761.35,
+    "text": "trickier accounting Lama and this is really the main technical advents in our"
+  },
+  {
+    "t_start": 1761.35,
+    "t_end": 1766.149,
+    "text": "really the main technical advents in our work that we come up with a new counting"
+  },
+  {
+    "t_start": 1766.149,
+    "t_end": 1769.389,
+    "text": "Lama based on the cut Norm instead of the G uniformity Norm"
+  },
+  {
+    "t_start": 1769.389,
+    "t_end": 1774.99,
+    "text": "okay so what is this U dense model theorem so let me first remind you what"
+  },
+  {
+    "t_start": 1774.99,
+    "t_end": 1778.83,
+    "text": "theorem so let me first remind you what the cut Norm is so if I start with a"
+  },
+  {
+    "t_start": 1778.83,
+    "t_end": 1786.11,
+    "text": "graph between sets X and Y and some weighted graph G so I can Define the cut"
+  },
+  {
+    "t_start": 1786.11,
+    "t_end": 1788.71,
+    "text": "weighted graph G so I can Define the cut Norm of G to be this quantity and"
+  },
+  {
+    "t_start": 1788.71,
+    "t_end": 1790.59,
+    "text": "Norm of G to be this quantity and essentially it says that the cut Norm is"
+  },
+  {
+    "t_start": 1790.59,
+    "t_end": 1794.43,
+    "text": "essentially it says that the cut Norm is small if whenever I take a large set a"
+  },
+  {
+    "t_start": 1794.43,
+    "t_end": 1799.549,
+    "text": "small if whenever I take a large set a and large set B here then the sum of the"
+  },
+  {
+    "t_start": 1799.549,
+    "t_end": 1801.19,
+    "text": "edge weights between A and B is never too large so somehow The Edge weights"
+  },
+  {
+    "t_start": 1801.19,
+    "t_end": 1803.789,
+    "text": "too large so somehow The Edge weights they all cancel out so but precisely"
+  },
+  {
+    "t_start": 1803.789,
+    "t_end": 1808.11,
+    "text": "they all cancel out so but precisely it's this expression here that's the cut"
+  },
+  {
+    "t_start": 1811.149,
+    "t_end": 1816.389,
+    "text": "one from the cut Norm definition for graphs I can define a cut Norm on"
+  },
+  {
+    "t_start": 1816.389,
+    "t_end": 1821.71,
+    "text": "functions on Z mod n so starting from a function on Z mod n"
+  },
+  {
+    "t_start": 1821.71,
+    "t_end": 1825.669,
+    "text": "n so starting from a function on Z mod n basically I construct a bipar graph"
+  },
+  {
+    "t_start": 1825.669,
+    "t_end": 1828.63,
+    "text": "basically I construct a bipar graph where the edge weights are given by"
+  },
+  {
+    "t_start": 1828.63,
+    "t_end": 1831.47,
+    "text": "where the edge weights are given by F evaluated at X+"
+  },
+  {
+    "t_start": 1831.47,
+    "t_end": 1839.75,
+    "text": "Y and then take the cut Norm of that graph so written down it looks like that"
+  },
+  {
+    "t_start": 1839.75,
+    "t_end": 1843.63,
+    "text": "graph so written down it looks like that so it's the cut Norm of this Associated"
+  },
+  {
+    "t_start": 1843.63,
+    "t_end": 1846.59,
+    "text": "so it's the cut Norm of this Associated graph so this this so this is a norm on"
+  },
+  {
+    "t_start": 1846.59,
+    "t_end": 1850.11,
+    "text": "graph so this this so this is a norm on zount n and the dense model theorem then"
+  },
+  {
+    "t_start": 1850.11,
+    "t_end": 1851.63,
+    "text": "zount n and the dense model theorem then says the"
+  },
+  {
+    "t_start": 1851.63,
+    "t_end": 1857.19,
+    "text": "following if I start with a new which satisfies the following actually rather"
+  },
+  {
+    "t_start": 1857.19,
+    "t_end": 1863.029,
+    "text": "satisfies the following actually rather weak Sol this condition which is that"
+  },
+  {
+    "t_start": 1863.029,
+    "t_end": 1868.07,
+    "text": "new is close to one in this cut Norm then every function majorized by"
+  },
+  {
+    "t_start": 1868.07,
+    "t_end": 1873.35,
+    "text": "Norm then every function majorized by new can be approximated by a dense Model"
+  },
+  {
+    "t_start": 1873.35,
+    "t_end": 1882.029,
+    "text": "TOA and this approximation also is in terms of this cut"
+  },
+  {
+    "t_start": 1884.549,
+    "t_end": 1886.75,
+    "text": "Lo okay so that's the dense model theem that we will"
+  },
+  {
+    "t_start": 1886.75,
+    "t_end": 1893.19,
+    "text": "that we will use okay"
+  },
+  {
+    "t_start": 1905.75,
+    "t_end": 1909.87,
+    "text": "right ah so um it happens because of the normalization right so you should think"
+  },
+  {
+    "t_start": 1909.87,
+    "t_end": 1913.47,
+    "text": "normalization right so you should think of the expectation of F and the"
+  },
+  {
+    "t_start": 1913.47,
+    "t_end": 1918.389,
+    "text": "of the expectation of F and the expectation of f TOA as the relative"
+  },
+  {
+    "t_start": 1918.389,
+    "t_end": 1923.31,
+    "text": "so f as a set is sparse but because I start out with new there's a"
+  },
+  {
+    "t_start": 1923.31,
+    "t_end": 1926.23,
+    "text": "start out with new there's a normalization that boosts up the weights"
+  },
+  {
+    "t_start": 1926.23,
+    "t_end": 1932.029,
+    "text": "normalization that boosts up the weights right so when I take the expectation of"
+  },
+  {
+    "t_start": 1932.029,
+    "t_end": 1933.07,
+    "text": "f that's the relative density of f in the host"
+  },
+  {
+    "t_start": 1933.07,
+    "t_end": 1935.149,
+    "text": "the host set"
+  },
+  {
+    "t_start": 1935.149,
+    "t_end": 1940.87,
+    "text": "and them being closed in Cut Norm in particular implies that they're closed"
+  },
+  {
+    "t_start": 1940.87,
+    "t_end": 1942.669,
+    "text": "particular implies that they're closed in the"
+  },
+  {
+    "t_start": 1942.669,
+    "t_end": 1946.83,
+    "text": "expectation so if you just take A and B to be the whole thing that means that"
+  },
+  {
+    "t_start": 1946.83,
+    "t_end": 1949.11,
+    "text": "to be the whole thing that means that they're in particular close in"
+  },
+  {
+    "t_start": 1949.11,
+    "t_end": 1951.47,
+    "text": "they're in particular close in expectation okay"
+  },
+  {
+    "t_start": 1951.47,
+    "t_end": 1957.269,
+    "text": "there so I won't actually show you the proof but let me just outline some of"
+  },
+  {
+    "t_start": 1957.269,
+    "t_end": 1959.95,
+    "text": "proof but let me just outline some of the different approaches so there's a"
+  },
+  {
+    "t_start": 1959.95,
+    "t_end": 1964.389,
+    "text": "there's a more General dense model theorem that applies to uh other norms"
+  },
+  {
+    "t_start": 1964.389,
+    "t_end": 1965.95,
+    "text": "theorem that applies to uh other norms and in particular the original intention"
+  },
+  {
+    "t_start": 1965.95,
+    "t_end": 1970.19,
+    "text": "of green and toal is to apply it to this variant of the G uniformity Norm for the"
+  },
+  {
+    "t_start": 1970.19,
+    "t_end": 1972.95,
+    "text": "variant of the G uniformity Norm for the purpose of proving their result and"
+  },
+  {
+    "t_start": 1972.95,
+    "t_end": 1975.509,
+    "text": "purpose of proving their result and their original approach was to prove"
+  },
+  {
+    "t_start": 1975.509,
+    "t_end": 1977.549,
+    "text": "their original approach was to prove prove this General dense model theorem"
+  },
+  {
+    "t_start": 1977.549,
+    "t_end": 1979.629,
+    "text": "prove this General dense model theorem using using a energy increment type"
+  },
+  {
+    "t_start": 1979.629,
+    "t_end": 1983.549,
+    "text": "using using a energy increment type argument similar to what you would do in"
+  },
+  {
+    "t_start": 1983.549,
+    "t_end": 1985.07,
+    "text": "to prove the regularity Lama Sim regularity"
+  },
+  {
+    "t_start": 1985.07,
+    "t_end": 1989.31,
+    "text": "Lama there was a subsequent simplification due to gaers and"
+  },
+  {
+    "t_start": 1989.31,
+    "t_end": 1996.669,
+    "text": "vadam where they came up with a a very neat proof it's much shorter uh that"
+  },
+  {
+    "t_start": 1996.669,
+    "t_end": 1998.59,
+    "text": "neat proof it's much shorter uh that involves two ingredients the first"
+  },
+  {
+    "t_start": 1998.59,
+    "t_end": 2001.149,
+    "text": "involves two ingredients the first ingredient being a separating hyperplane"
+  },
+  {
+    "t_start": 2001.149,
+    "t_end": 2006.029,
+    "text": "ingredient being a separating hyperplane themm also sometimes known as the honar"
+  },
+  {
+    "t_start": 2006.029,
+    "t_end": 2008.47,
+    "text": "theorem those these guys phrased it as the Minimax theorem roughly they amount"
+  },
+  {
+    "t_start": 2008.47,
+    "t_end": 2012.19,
+    "text": "the Minimax theorem roughly they amount to the same thing and the Second Step"
+  },
+  {
+    "t_start": 2012.19,
+    "t_end": 2016.31,
+    "text": "approximation ter so it's a these are two different approaches and this one is"
+  },
+  {
+    "t_start": 2016.31,
+    "t_end": 2018.029,
+    "text": "two different approaches and this one is considered the simpler approach that was"
+  },
+  {
+    "t_start": 2018.029,
+    "t_end": 2019.43,
+    "text": "considered the simpler approach that was found"
+  },
+  {
+    "t_start": 2019.43,
+    "t_end": 2024.83,
+    "text": "subsequently uh so it's quite simple and that's in fact made even simpler so"
+  },
+  {
+    "t_start": 2024.83,
+    "t_end": 2026.95,
+    "text": "that's in fact made even simpler so there's an additional observation that"
+  },
+  {
+    "t_start": 2026.95,
+    "t_end": 2031.99,
+    "text": "there's an additional observation that says that if you look at this proof and"
+  },
+  {
+    "t_start": 2031.99,
+    "t_end": 2038.23,
+    "text": "Norm then essentially amounts the saying that the Dual objects to the cut Norm is"
+  },
+  {
+    "t_start": 2038.23,
+    "t_end": 2040.549,
+    "text": "that the Dual objects to the cut Norm is closed under multiplication so that's"
+  },
+  {
+    "t_start": 2040.549,
+    "t_end": 2043.71,
+    "text": "closed under multiplication so that's not true for the G uniformity Norm but"
+  },
+  {
+    "t_start": 2043.71,
+    "t_end": 2045.029,
+    "text": "it is true for the cut Norm that the Dual objects are closed under"
+  },
+  {
+    "t_start": 2045.029,
+    "t_end": 2046.509,
+    "text": "Dual objects are closed under multiplication and that really"
+  },
+  {
+    "t_start": 2046.509,
+    "t_end": 2049.909,
+    "text": "simplifies things a lot and that's part of why we get much simpler pseudo"
+  },
+  {
+    "t_start": 2049.909,
+    "t_end": 2051.47,
+    "text": "of why we get much simpler pseudo Randomness"
+  },
+  {
+    "t_start": 2051.47,
+    "t_end": 2057.79,
+    "text": "conditions um so with those observations so we have this form of the dense model"
+  },
+  {
+    "t_start": 2057.79,
+    "t_end": 2065.669,
+    "text": "so we have this form of the dense model theorem that we'll use for relative"
+  },
+  {
+    "t_start": 2069.47,
+    "t_end": 2079.069,
+    "text": "this three linear forms condition so it's in particular implied by the three"
+  },
+  {
+    "t_start": 2081.99,
+    "t_end": 2085.669,
+    "text": "it's I I don't really know how to explain more than just saying that you"
+  },
+  {
+    "t_start": 2085.669,
+    "t_end": 2089.95,
+    "text": "explain more than just saying that you know the cut Norm being small but it is"
+  },
+  {
+    "t_start": 2089.95,
+    "t_end": 2094.19,
+    "text": "it is weaker much weaker than even actually this having small G uniformity"
+  },
+  {
+    "t_start": 2094.19,
+    "t_end": 2098.349,
+    "text": "actually this having small G uniformity nor it's quite big"
+  },
+  {
+    "t_start": 2098.349,
+    "t_end": 2103.03,
+    "text": "okay so uh what about for longer arithmetic progressions so I said I"
+  },
+  {
+    "t_start": 2103.03,
+    "t_end": 2104.349,
+    "text": "arithmetic progressions so I said I won't really go into what longer"
+  },
+  {
+    "t_start": 2104.349,
+    "t_end": 2105.67,
+    "text": "won't really go into what longer arithmetic progressions but but let me"
+  },
+  {
+    "t_start": 2105.67,
+    "t_end": 2110.51,
+    "text": "just say a little bit about what the the correct generalization is let's say for"
+  },
+  {
+    "t_start": 2110.51,
+    "t_end": 2112.069,
+    "text": "correct generalization is let's say for four-term arithmetic progression so we"
+  },
+  {
+    "t_start": 2112.069,
+    "t_end": 2117.43,
+    "text": "saw that this involves a three uniform weighted hyper graph between um and the"
+  },
+  {
+    "t_start": 2117.43,
+    "t_end": 2119.71,
+    "text": "weighted hyper graph between um and the correct generalization of the cut Norm"
+  },
+  {
+    "t_start": 2119.71,
+    "t_end": 2123.829,
+    "text": "correct generalization of the cut Norm that we use here okay so the first thing"
+  },
+  {
+    "t_start": 2123.829,
+    "t_end": 2126.069,
+    "text": "you might come up with is you take subsets of vertices and evaluate the sum"
+  },
+  {
+    "t_start": 2126.069,
+    "t_end": 2130.31,
+    "text": "subsets of vertices and evaluate the sum of the edge weights okay that's not"
+  },
+  {
+    "t_start": 2130.31,
+    "t_end": 2135.47,
+    "text": "thing to do is instead of taking subsets of vertices and now I take a subset of"
+  },
+  {
+    "t_start": 2135.47,
+    "t_end": 2139.829,
+    "text": "pairs so I take an underlying two graph and evaluate the discrepancy on top of"
+  },
+  {
+    "t_start": 2139.829,
+    "t_end": 2144.75,
+    "text": "that two graph and this is a it's a fairly standard thing to do if you ever"
+  },
+  {
+    "t_start": 2144.75,
+    "t_end": 2147.23,
+    "text": "fairly standard thing to do if you ever talk about hypergraph regularity for"
+  },
+  {
+    "t_start": 2147.23,
+    "t_end": 2150.43,
+    "text": "talk about hypergraph regularity for instance but um so so that's the"
+  },
+  {
+    "t_start": 2150.43,
+    "t_end": 2152.87,
+    "text": "instance but um so so that's the generalization for hypergraphs and for"
+  },
+  {
+    "t_start": 2152.87,
+    "t_end": 2157.03,
+    "text": "generalization for hypergraphs and for longer arithmetic progressions but other"
+  },
+  {
+    "t_start": 2157.03,
+    "t_end": 2160.27,
+    "text": "than this everything else is more or less the same"
+  },
+  {
+    "t_start": 2163.47,
+    "t_end": 2164.95,
+    "text": "okay so that was the dense model theorem the Second Step I want to explain"
+  },
+  {
+    "t_start": 2164.95,
+    "t_end": 2166.95,
+    "text": "the Second Step I want to explain essentially the main technical advaning"
+  },
+  {
+    "t_start": 2166.95,
+    "t_end": 2172.75,
+    "text": "n work which is the new counting LMA the sparse counting L it says that if F and"
+  },
+  {
+    "t_start": 2172.75,
+    "t_end": 2175.27,
+    "text": "sparse counting L it says that if F and F TOA are closed in this cut Norm then"
+  },
+  {
+    "t_start": 2175.27,
+    "t_end": 2179.27,
+    "text": "F TOA are closed in this cut Norm then they share a similar 3 AP"
+  },
+  {
+    "t_start": 2179.27,
+    "t_end": 2182.51,
+    "text": "they share a similar 3 AP counts okay so first let me"
+  },
+  {
+    "t_start": 2182.51,
+    "t_end": 2185.71,
+    "text": "counts okay so first let me explain a the classical counting Lama"
+  },
+  {
+    "t_start": 2185.71,
+    "t_end": 2188.349,
+    "text": "explain a the classical counting Lama for the dense setting"
+  },
+  {
+    "t_start": 2188.349,
+    "t_end": 2191.069,
+    "text": "it will be much easier to do this for graphs and you'll see it's a lot more"
+  },
+  {
+    "t_start": 2191.069,
+    "t_end": 2192.91,
+    "text": "graphs and you'll see it's a lot more intuitive so let's you know forget about"
+  },
+  {
+    "t_start": 2192.91,
+    "t_end": 2194.55,
+    "text": "intuitive so let's you know forget about the arithmetic setting for now and just"
+  },
+  {
+    "t_start": 2194.55,
+    "t_end": 2195.67,
+    "text": "the arithmetic setting for now and just think about"
+  },
+  {
+    "t_start": 2195.67,
+    "t_end": 2201.51,
+    "text": "graphs let's say I have two weighted graphs on uh so two tripartite weighted"
+  },
+  {
+    "t_start": 2201.51,
+    "t_end": 2204.63,
+    "text": "graphs on uh so two tripartite weighted graphs G and G TOA first let's think"
+  },
+  {
+    "t_start": 2204.63,
+    "t_end": 2206.67,
+    "text": "graphs G and G TOA first let's think about the dense setting so dense setting"
+  },
+  {
+    "t_start": 2206.67,
+    "t_end": 2208.71,
+    "text": "about the dense setting so dense setting again means that they're bounded The"
+  },
+  {
+    "t_start": 2208.71,
+    "t_end": 2210.15,
+    "text": "again means that they're bounded The Edge weights are"
+  },
+  {
+    "t_start": 2210.15,
+    "t_end": 2216.79,
+    "text": "bounded the triangle counting Lama says that if G and G TOA are close in this"
+  },
+  {
+    "t_start": 2216.79,
+    "t_end": 2218.71,
+    "text": "that if G and G TOA are close in this cut Norm"
+  },
+  {
+    "t_start": 2218.71,
+    "t_end": 2223.67,
+    "text": "then the triangle densities so this is the expression for the triangle density"
+  },
+  {
+    "t_start": 2223.67,
+    "t_end": 2228.03,
+    "text": "the expression for the triangle density the triangle densities of G and G TOA"
+  },
+  {
+    "t_start": 2228.03,
+    "t_end": 2232.71,
+    "text": "are close as long as they're close in Cut nor okay so let me show you how to"
+  },
+  {
+    "t_start": 2232.71,
+    "t_end": 2237.03,
+    "text": "prove this the proof is very short recall the definition of um the"
+  },
+  {
+    "t_start": 2237.03,
+    "t_end": 2238.63,
+    "text": "short recall the definition of um the cut"
+  },
+  {
+    "t_start": 2238.63,
+    "t_end": 2245.829,
+    "text": "Norm one way to phrase it is that if you have G and G TOA then if I restrict this"
+  },
+  {
+    "t_start": 2245.829,
+    "t_end": 2248.87,
+    "text": "have G and G TOA then if I restrict this expectation to any any subsets of"
+  },
+  {
+    "t_start": 2248.87,
+    "t_end": 2254.63,
+    "text": "vertices A and B then this expectation is never more than Epsilon so this is"
+  },
+  {
+    "t_start": 2254.63,
+    "t_end": 2256.51,
+    "text": "is never more than Epsilon so this is just a rephrasing of the definition of"
+  },
+  {
+    "t_start": 2256.51,
+    "t_end": 2257.91,
+    "text": "just a rephrasing of the definition of the cut"
+  },
+  {
+    "t_start": 2257.91,
+    "t_end": 2260.19,
+    "text": "the cut Mark more"
+  },
+  {
+    "t_start": 2260.19,
+    "t_end": 2268.15,
+    "text": "generally I can replace subsets of a of X and Y by functions bounded functions"
+  },
+  {
+    "t_start": 2268.15,
+    "t_end": 2269.63,
+    "text": "X and Y by functions bounded functions on X and"
+  },
+  {
+    "t_start": 2269.63,
+    "t_end": 2274.63,
+    "text": "Y just because if you look at this expression here it's bilinear in these"
+  },
+  {
+    "t_start": 2274.63,
+    "t_end": 2281.109,
+    "text": "expression here it's bilinear in these two factors so it's bilinear in these"
+  },
+  {
+    "t_start": 2281.109,
+    "t_end": 2285.03,
+    "text": "two factors um so if I want to obtain the extreme extrema for this expectation"
+  },
+  {
+    "t_start": 2285.03,
+    "t_end": 2291.349,
+    "text": "allowing myself to vary A and B the best way to do it is to take A and B at their"
+  },
+  {
+    "t_start": 2291.349,
+    "t_end": 2297.75,
+    "text": "then that just becomes a set version so these two versions of the cut Norm are"
+  },
+  {
+    "t_start": 2297.75,
+    "t_end": 2301.069,
+    "text": "these two versions of the cut Norm are equivalent but now let's take a look at"
+  },
+  {
+    "t_start": 2301.069,
+    "t_end": 2304.67,
+    "text": "equivalent but now let's take a look at the triangle count so let me start with"
+  },
+  {
+    "t_start": 2304.67,
+    "t_end": 2309.47,
+    "text": "the triangle count so let me start with the triangle counting G"
+  },
+  {
+    "t_start": 2313.23,
+    "t_end": 2315.829,
+    "text": "I claim that I can swap out one of the the blue factors so blue is the G and"
+  },
+  {
+    "t_start": 2315.829,
+    "t_end": 2324.47,
+    "text": "the blue factors so blue is the G and red is G TAA so I can swap out one of"
+  },
+  {
+    "t_start": 2324.47,
+    "t_end": 2328.47,
+    "text": "the G by G TAA at a cost of at most Epsilon the reason is that if I look at"
+  },
+  {
+    "t_start": 2328.47,
+    "t_end": 2332.15,
+    "text": "the difference between these two expressions here it precisely has this"
+  },
+  {
+    "t_start": 2332.15,
+    "t_end": 2337.43,
+    "text": "expressions here it precisely has this form if I fix a particular value of Z if"
+  },
+  {
+    "t_start": 2337.43,
+    "t_end": 2338.87,
+    "text": "I fix any value of Z then the differ difference has this form so it's bounded"
+  },
+  {
+    "t_start": 2338.87,
+    "t_end": 2344.589,
+    "text": "difference has this form so it's bounded by Epsilon so now I let Z vary then the"
+  },
+  {
+    "t_start": 2344.589,
+    "t_end": 2349.23,
+    "text": "Epsilon this allows me to swap out one of the factors and I can do exactly the"
+  },
+  {
+    "t_start": 2349.23,
+    "t_end": 2352.069,
+    "text": "of the factors and I can do exactly the same thing to the two other"
+  },
+  {
+    "t_start": 2352.069,
+    "t_end": 2358.79,
+    "text": "factors and at the end I obtain that t of G differs from T of G TOA by at most"
+  },
+  {
+    "t_start": 2358.79,
+    "t_end": 2359.67,
+    "text": "of G differs from T of G TOA by at most"
+  },
+  {
+    "t_start": 2359.68,
+    "t_end": 2365.47,
+    "text": "Epsilon and this completes the proof of the triangle counting Lama in the dense"
+  },
+  {
+    "t_start": 2365.47,
+    "t_end": 2372.109,
+    "text": "case now what about the sparse case so sparse as you recall corresponds to when"
+  },
+  {
+    "t_start": 2372.109,
+    "t_end": 2375.069,
+    "text": "sparse as you recall corresponds to when let's say G here is"
+  },
+  {
+    "t_start": 2375.069,
+    "t_end": 2377.67,
+    "text": "let's say G here is unbounded this entire proof breaks down"
+  },
+  {
+    "t_start": 2377.67,
+    "t_end": 2382.55,
+    "text": "unbounded this entire proof breaks down from step one because if I look at the"
+  },
+  {
+    "t_start": 2382.55,
+    "t_end": 2385.309,
+    "text": "difference of these two things then I can't use this condition anymore G is no"
+  },
+  {
+    "t_start": 2385.309,
+    "t_end": 2387.55,
+    "text": "can't use this condition anymore G is no longer bounded so one has to do"
+  },
+  {
+    "t_start": 2387.55,
+    "t_end": 2390.27,
+    "text": "longer bounded so one has to do something else so and this becomes"
+  },
+  {
+    "t_start": 2390.27,
+    "t_end": 2392.15,
+    "text": "something else so and this becomes potentially quite"
+  },
+  {
+    "t_start": 2392.15,
+    "t_end": 2399.589,
+    "text": "tricky so here's our main um technical advance which is the a new sparse"
+  },
+  {
+    "t_start": 2399.589,
+    "t_end": 2401.19,
+    "text": "advance which is the a new sparse triangle counting"
+  },
+  {
+    "t_start": 2401.19,
+    "t_end": 2407.589,
+    "text": "Lama it says that if new satisfies this three linear forms"
+  },
+  {
+    "t_start": 2407.589,
+    "t_end": 2409.15,
+    "text": "three linear forms condition"
+  },
+  {
+    "t_start": 2409.15,
+    "t_end": 2415.069,
+    "text": "meaning well so this is what we saw before this k222 condition then we have"
+  },
+  {
+    "t_start": 2415.069,
+    "t_end": 2417.03,
+    "text": "before this k222 condition then we have a counting LMA provided that one"
+  },
+  {
+    "t_start": 2417.03,
+    "t_end": 2420.03,
+    "text": "a counting LMA provided that one subgraph is majorized by new then the"
+  },
+  {
+    "t_start": 2420.03,
+    "t_end": 2421.51,
+    "text": "subgraph is majorized by new then the other subgraph is"
+  },
+  {
+    "t_start": 2421.51,
+    "t_end": 2430.15,
+    "text": "dense then there's a triangle counting number okay so how does the proof"
+  },
+  {
+    "t_start": 2430.15,
+    "t_end": 2434.03,
+    "text": "work I won't tell you the whole proof but just I'll highlight some of the"
+  },
+  {
+    "t_start": 2434.03,
+    "t_end": 2436.349,
+    "text": "but just I'll highlight some of the elements so there are three main"
+  },
+  {
+    "t_start": 2436.349,
+    "t_end": 2438.829,
+    "text": "elements so there are three main ingredients uh the first is repeated"
+  },
+  {
+    "t_start": 2438.829,
+    "t_end": 2440.03,
+    "text": "ingredients uh the first is repeated applications of the Koshi shorts"
+  },
+  {
+    "t_start": 2440.03,
+    "t_end": 2441.39,
+    "text": "applications of the Koshi shorts inequality so this is a standard"
+  },
+  {
+    "t_start": 2441.39,
+    "t_end": 2445.75,
+    "text": "technique in this area as you know popularized by goers through his for"
+  },
+  {
+    "t_start": 2445.75,
+    "t_end": 2451.309,
+    "text": "I won't go too much into this but it's one of those things where you've seen it"
+  },
+  {
+    "t_start": 2451.309,
+    "t_end": 2454.39,
+    "text": "one of those things where you've seen it done once then you'll recognize it here"
+  },
+  {
+    "t_start": 2454.39,
+    "t_end": 2455.589,
+    "text": "done once then you'll recognize it here there's a lot of Koshi shorts"
+  },
+  {
+    "t_start": 2455.589,
+    "t_end": 2457.39,
+    "text": "there's a lot of Koshi shorts applications okay so the main thing"
+  },
+  {
+    "t_start": 2457.39,
+    "t_end": 2459.069,
+    "text": "applications okay so the main thing which we introduce is this technique"
+  },
+  {
+    "t_start": 2459.069,
+    "t_end": 2460.589,
+    "text": "which we introduce is this technique that we call densification I will"
+  },
+  {
+    "t_start": 2460.589,
+    "t_end": 2462.589,
+    "text": "that we call densification I will explain this on the next"
+  },
+  {
+    "t_start": 2462.589,
+    "t_end": 2469.91,
+    "text": "slide we also um reduce this problem to the dense case that we saw earlier so"
+  },
+  {
+    "t_start": 2469.91,
+    "t_end": 2471.71,
+    "text": "the dense case that we saw earlier so somehow we reduce the the sparse version"
+  },
+  {
+    "t_start": 2471.71,
+    "t_end": 2476.43,
+    "text": "somehow we reduce the the sparse version to the dense version so let me explain"
+  },
+  {
+    "t_start": 2478.309,
+    "t_end": 2480.109,
+    "text": "santifico shorts okay so many applications of Koshi shortz roughly"
+  },
+  {
+    "t_start": 2480.109,
+    "t_end": 2482.91,
+    "text": "applications of Koshi shortz roughly corresponds to each step doubling a"
+  },
+  {
+    "t_start": 2482.91,
+    "t_end": 2484.63,
+    "text": "corresponds to each step doubling a Vertex so there's a square involved"
+  },
+  {
+    "t_start": 2484.63,
+    "t_end": 2487.829,
+    "text": "Vertex so there's a square involved whenever you have a square a Vertex gets"
+  },
+  {
+    "t_start": 2487.829,
+    "t_end": 2493.069,
+    "text": "so if you want to count triangles one of the intermediate steps that you"
+  },
+  {
+    "t_start": 2493.069,
+    "t_end": 2495.67,
+    "text": "the intermediate steps that you get happens to be this four"
+  },
+  {
+    "t_start": 2495.67,
+    "t_end": 2500.23,
+    "text": "cycle right so somehow this is a natural obstacle if you want to count triangles"
+  },
+  {
+    "t_start": 2500.23,
+    "t_end": 2504.15,
+    "text": "obstacle if you want to count triangles you better know how to count this guy"
+  },
+  {
+    "t_start": 2504.15,
+    "t_end": 2505.91,
+    "text": "here okay so this comes up for example if you start with a triangle and then"
+  },
+  {
+    "t_start": 2505.91,
+    "t_end": 2507.51,
+    "text": "if you start with a triangle and then look at one vertex and double that"
+  },
+  {
+    "t_start": 2507.51,
+    "t_end": 2512.75,
+    "text": "vertex as a result of the Koshi shorts so let me explain how do I prove a"
+  },
+  {
+    "t_start": 2512.75,
+    "t_end": 2515.829,
+    "text": "so let me explain how do I prove a counting Lama for counting this for"
+  },
+  {
+    "t_start": 2515.829,
+    "t_end": 2521.349,
+    "text": "counting Lama for counting this for cycle the four CLE cyle is this this um"
+  },
+  {
+    "t_start": 2521.349,
+    "t_end": 2527.47,
+    "text": "here well let's see let me create an auxiliary graph"
+  },
+  {
+    "t_start": 2527.47,
+    "t_end": 2528.63,
+    "text": "see let me create an auxiliary graph called G"
+  },
+  {
+    "t_start": 2528.63,
+    "t_end": 2534.79,
+    "text": "Prime G Prime is defined by this formula but basically what it is is that it"
+  },
+  {
+    "t_start": 2534.79,
+    "t_end": 2536.95,
+    "text": "but basically what it is is that it records the Cod degrees the common"
+  },
+  {
+    "t_start": 2536.95,
+    "t_end": 2541.589,
+    "text": "number of common neighbors it records the Cod degrees between vertices between"
+  },
+  {
+    "t_start": 2541.589,
+    "t_end": 2543.069,
+    "text": "the Cod degrees between vertices between X and"
+  },
+  {
+    "t_start": 2543.069,
+    "t_end": 2547.75,
+    "text": "Y this is by the way where having weights really comes in handy like"
+  },
+  {
+    "t_start": 2547.75,
+    "t_end": 2549.67,
+    "text": "weights really comes in handy like everything else I said before more or"
+  },
+  {
+    "t_start": 2549.67,
+    "t_end": 2551.069,
+    "text": "everything else I said before more or less you can do the same thing without"
+  },
+  {
+    "t_start": 2551.069,
+    "t_end": 2552.91,
+    "text": "less you can do the same thing without weights but this step introducing"
+  },
+  {
+    "t_start": 2552.91,
+    "t_end": 2556.27,
+    "text": "weights but this step introducing weights really helps a"
+  },
+  {
+    "t_start": 2559.109,
+    "t_end": 2561.19,
+    "text": "lot even though we started out with a graph or weighted graph which is"
+  },
+  {
+    "t_start": 2561.19,
+    "t_end": 2563.47,
+    "text": "graph or weighted graph which is sparsely supported and"
+  },
+  {
+    "t_start": 2563.47,
+    "t_end": 2568.91,
+    "text": "unbounded once I take code degrees Things become a lot nicer they become a"
+  },
+  {
+    "t_start": 2568.91,
+    "t_end": 2574.43,
+    "text": "Things become a lot nicer they become a lot smoother so the the code degrees are"
+  },
+  {
+    "t_start": 2574.43,
+    "t_end": 2577.829,
+    "text": "bounded and this is partly because of the solar random"
+  },
+  {
+    "t_start": 2577.829,
+    "t_end": 2582.95,
+    "text": "host set but the point is that the Cod degrees are more or less bounded you can"
+  },
+  {
+    "t_start": 2582.95,
+    "t_end": 2585.51,
+    "text": "degrees are more or less bounded you can think of them as okay they're they're"
+  },
+  {
+    "t_start": 2585.51,
+    "t_end": 2588.309,
+    "text": "think of them as okay they're they're basically bounded almost all the time"
+  },
+  {
+    "t_start": 2588.309,
+    "t_end": 2589.67,
+    "text": "basically bounded almost all the time and so let's just think about think"
+  },
+  {
+    "t_start": 2589.67,
+    "t_end": 2596.27,
+    "text": "about the G Prime as a bounded graph this allows me to replace two of"
+  },
+  {
+    "t_start": 2596.27,
+    "t_end": 2599.79,
+    "text": "graph this allows me to replace two of these factors by a g Prime and now I've"
+  },
+  {
+    "t_start": 2599.79,
+    "t_end": 2602.87,
+    "text": "these factors by a g Prime and now I've arrived at this expression here which is"
+  },
+  {
+    "t_start": 2602.87,
+    "t_end": 2607.309,
+    "text": "arrived at this expression here which is a triangle count expression so we when"
+  },
+  {
+    "t_start": 2607.309,
+    "t_end": 2610.349,
+    "text": "a triangle count expression so we when from initially counting triangles and I"
+  },
+  {
+    "t_start": 2610.349,
+    "t_end": 2612.19,
+    "text": "from initially counting triangles and I said that through some koshy shorts one"
+  },
+  {
+    "t_start": 2612.19,
+    "t_end": 2613.87,
+    "text": "said that through some koshy shorts one of the things to reduce the counting is"
+  },
+  {
+    "t_start": 2613.87,
+    "t_end": 2616.67,
+    "text": "of the things to reduce the counting is a for cycle and through this reduction"
+  },
+  {
+    "t_start": 2616.67,
+    "t_end": 2618.549,
+    "text": "a for cycle and through this reduction we've somehow gone back to counting a"
+  },
+  {
+    "t_start": 2618.549,
+    "t_end": 2621.95,
+    "text": "we've somehow gone back to counting a triangle so at first it seems like we've"
+  },
+  {
+    "t_start": 2621.95,
+    "t_end": 2623.67,
+    "text": "gone back in a loop but we gained something really important which is that"
+  },
+  {
+    "t_start": 2623.67,
+    "t_end": 2628.79,
+    "text": "something really important which is that we swapped out one of the pairs which"
+  },
+  {
+    "t_start": 2628.79,
+    "t_end": 2630.75,
+    "text": "was initially spared by something which behaves like a dense"
+  },
+  {
+    "t_start": 2630.75,
+    "t_end": 2637.549,
+    "text": "graph now just do it three more times oh two more times right do it two"
+  },
+  {
+    "t_start": 2637.549,
+    "t_end": 2642.27,
+    "text": "times oh two more times right do it two more times and then we've reduced the"
+  },
+  {
+    "t_start": 2642.27,
+    "t_end": 2645.15,
+    "text": "whole problem to the dense version of the triangle counting Lama which we know"
+  },
+  {
+    "t_start": 2645.15,
+    "t_end": 2646.19,
+    "text": "the triangle counting Lama which we know how to"
+  },
+  {
+    "t_start": 2646.19,
+    "t_end": 2651.109,
+    "text": "do okay so then this is the rough outline and this the main idea main new"
+  },
+  {
+    "t_start": 2651.109,
+    "t_end": 2654.63,
+    "text": "outline and this the main idea main new idea in the proof of the triangle"
+  },
+  {
+    "t_start": 2657.39,
+    "t_end": 2658.51,
+    "text": "counting okay so this is a outline of the proof of"
+  },
+  {
+    "t_start": 2658.51,
+    "t_end": 2663.589,
+    "text": "roster so I explained to you what the dense model theorem is about and also"
+  },
+  {
+    "t_start": 2663.589,
+    "t_end": 2665.15,
+    "text": "dense model theorem is about and also showed you some aspects of the counting"
+  },
+  {
+    "t_start": 2665.15,
+    "t_end": 2667.67,
+    "text": "showed you some aspects of the counting LMA and then combining everything you"
+  },
+  {
+    "t_start": 2667.67,
+    "t_end": 2671.51,
+    "text": "LMA and then combining everything you get a proof and the whole thing is not"
+  },
+  {
+    "t_start": 2671.51,
+    "t_end": 2676.03,
+    "text": "long so of course no I don't have time to go into all the details of this proof"
+  },
+  {
+    "t_start": 2676.03,
+    "t_end": 2677.069,
+    "text": "to go into all the details of this proof but if you want to learn about the"
+  },
+  {
+    "t_start": 2677.069,
+    "t_end": 2679.15,
+    "text": "but if you want to learn about the details so we're finishing up an"
+  },
+  {
+    "t_start": 2679.15,
+    "t_end": 2685.95,
+    "text": "exposition uh of the green t theem where we give a a gentle Exposition containing"
+  },
+  {
+    "t_start": 2685.95,
+    "t_end": 2688.95,
+    "text": "we give a a gentle Exposition containing a complete and a self-contained proof of"
+  },
+  {
+    "t_start": 2688.95,
+    "t_end": 2690.549,
+    "text": "a complete and a self-contained proof of the green tole"
+  },
+  {
+    "t_start": 2690.549,
+    "t_end": 2697.549,
+    "text": "theorem also including some the the prime uh the number thetic estimates"
+  },
+  {
+    "t_start": 2697.549,
+    "t_end": 2701.63,
+    "text": "with one caveat so we have to assume sem ter so that's a that's a heavy gun that"
+  },
+  {
+    "t_start": 2701.63,
+    "t_end": 2703.47,
+    "text": "ter so that's a that's a heavy gun that you're not going to be able to prove in"
+  },
+  {
+    "t_start": 2703.47,
+    "t_end": 2705.39,
+    "text": "you're not going to be able to prove in this short Exposition and it will be"
+  },
+  {
+    "t_start": 2705.39,
+    "t_end": 2707.589,
+    "text": "this short Exposition and it will be around 25 pages so we're finishing this"
+  },
+  {
+    "t_start": 2707.589,
+    "t_end": 2709.39,
+    "text": "around 25 pages so we're finishing this up as we speak and hopefully it should"
+  },
+  {
+    "t_start": 2709.39,
+    "t_end": 2713.069,
+    "text": "up as we speak and hopefully it should come out really really soon and um so so"
+  },
+  {
+    "t_start": 2713.069,
+    "t_end": 2714.829,
+    "text": "come out really really soon and um so so if you want to learn more about this"
+  },
+  {
+    "t_start": 2714.829,
+    "t_end": 2717.309,
+    "text": "if you want to learn more about this proof so that hopefully will put on the"
+  },
+  {
+    "t_start": 2717.309,
+    "t_end": 2719.829,
+    "text": "proof so that hopefully will put on the archive within the next couple weeks or"
+  },
+  {
+    "t_start": 2719.829,
+    "t_end": 2723.64,
+    "text": "archive within the next couple weeks or so and with that I want to thank you for"
+  },
+  {
+    "t_start": 2723.64,
+    "t_end": 2729.469,
+    "text": "your attention [Applause]"
+  }
+]

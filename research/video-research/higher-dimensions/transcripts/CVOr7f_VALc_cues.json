@@ -1,0 +1,792 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 5.46,
+    "text": "I want to tell you about exotic objects in topology. Before I do that let me just tell"
+  },
+  {
+    "t_start": 5.46,
+    "t_end": 11.64,
+    "text": "you more generally what topologists do. We study geometric shapes, but unlike in ordinary geometry"
+  },
+  {
+    "t_start": 11.64,
+    "t_end": 19.5,
+    "text": "we don't care about lengths, angles, areas, volumes - we don't care about any of that. We just care about"
+  },
+  {
+    "t_start": 19.5,
+    "t_end": 26.52,
+    "text": "what properties geometric shapes have that are unchanged when you deform them; and by deform I"
+  },
+  {
+    "t_start": 26.52,
+    "t_end": 31.2,
+    "text": "mean you're allowed to bend it and twist it and stretch it as if it's made of an elastic"
+  },
+  {
+    "t_start": 31.2,
+    "t_end": 36.84,
+    "text": "material, but you're not allowed to break it. -(Brady: So a square for example, if we started manipulating)"
+  },
+  {
+    "t_start": 36.84,
+    "t_end": 40.74,
+    "text": "(that it would very quickly not be a square anymore.) - That's right we have a square right"
+  },
+  {
+    "t_start": 40.74,
+    "t_end": 47.52,
+    "text": "here, and I could turn it into a circle or more or less a circle by just bending it. And I could"
+  },
+  {
+    "t_start": 47.52,
+    "t_end": 53.7,
+    "text": "also turn it into a triangle. But what I cannot do is turn let's say a circle into two circles."
+  },
+  {
+    "t_start": 53.7,
+    "t_end": 59.22,
+    "text": "The only way to do this would be to break it and then glue it back but that's not allowed."
+  },
+  {
+    "t_start": 59.22,
+    "t_end": 66.18,
+    "text": "Similarly I could have a ball and I could turn it into a cube. There's a saying that topologists"
+  },
+  {
+    "t_start": 66.18,
+    "t_end": 72.42,
+    "text": "are people who cannot tell apart donuts from coffee mugs so, for example, here is a donut"
+  },
+  {
+    "t_start": 73.62,
+    "t_end": 81.24,
+    "text": "and here is a coffee mug. I mean they're the same, they're the same for us because you could deform"
+  },
+  {
+    "t_start": 81.24,
+    "t_end": 87.12,
+    "text": "one into the other, they both have this hole through them. But what I cannot do is turn the"
+  },
+  {
+    "t_start": 87.12,
+    "t_end": 92.16,
+    "text": "donut into a ball because the ball doesn't have a hole so I don't want to punch a hole in it, that's"
+  },
+  {
+    "t_start": 92.16,
+    "t_end": 97.56,
+    "text": "not allowed. And while I could do that by taking a bite out of the donut, but we topologists are"
+  },
+  {
+    "t_start": 97.56,
+    "t_end": 102.06,
+    "text": "healthy people, we're not supposed to be eating donuts. The objects that we mostly care about"
+  },
+  {
+    "t_start": 102.06,
+    "t_end": 109.38,
+    "text": "are called manifolds. These are objects that look- from any given point they look pretty much like"
+  },
+  {
+    "t_start": 109.38,
+    "t_end": 115.62,
+    "text": "flat space or n-dimensional hyperspace. What is n-dimensional hyperspace? In dimension 1 we"
+  },
+  {
+    "t_start": 115.62,
+    "t_end": 121.08,
+    "text": "have a line, in dimension 2 we have the plane, in dimension 3 we have space; and then you"
+  },
+  {
+    "t_start": 121.08,
+    "t_end": 126.12,
+    "text": "can think about dimension 4, just add another variable say time and that's four dimensional"
+  },
+  {
+    "t_start": 126.12,
+    "t_end": 131.16,
+    "text": "hyperspace. And you can just add more variables: five dimensional and six dimensional and so on;"
+  },
+  {
+    "t_start": 131.16,
+    "t_end": 137.1,
+    "text": "it's not something that we can visualize but we can think of it mathematically anyway and we"
+  },
+  {
+    "t_start": 137.1,
+    "t_end": 143.834,
+    "text": "can write down equations. - (And manifolds sit in this space? Or are manifolds the space themselves?)"
+  },
+  {
+    "t_start": 143.834,
+    "t_end": 152.4,
+    "text": "They can stay- they can sit in the space but they could also look like that space around any point. So let"
+  },
+  {
+    "t_start": 152.4,
+    "t_end": 158.82,
+    "text": "me tell you an example: the surface of the Earth is a great example. It's a sphere; more or less, it's"
+  },
+  {
+    "t_start": 158.82,
+    "t_end": 164.46,
+    "text": "called a geoid, it has mountains and valleys - but remember we can all deform them and make it into"
+  },
+  {
+    "t_start": 164.46,
+    "t_end": 170.1,
+    "text": "a sphere. Topologically it's a sphere; and it sits in 3-dimensional space but around any point"
+  },
+  {
+    "t_start": 170.1,
+    "t_end": 175.92,
+    "text": "it looks like 2-dimensional plane because I can move in basically two directions, I can move left"
+  },
+  {
+    "t_start": 175.92,
+    "t_end": 181.32,
+    "text": "and right and forwards and backwards, there are two degrees of freedom. So that's what I'm saying that"
+  },
+  {
+    "t_start": 181.32,
+    "t_end": 187.2,
+    "text": "the sphere is a 2-dimensional manifold even though it lives in 3-dimensional space."
+  },
+  {
+    "t_start": 187.2,
+    "t_end": 193.86,
+    "text": "Other examples of 2-dimensional manifolds would be the surface of the donut or this famous Klein"
+  },
+  {
+    "t_start": 193.86,
+    "t_end": 199.56,
+    "text": "bottle, yes, if I live on it again I wouldn't be able to tell the difference from- from a plane. Just"
+  },
+  {
+    "t_start": 199.56,
+    "t_end": 205.44,
+    "text": "like it's very hard to tell the difference between a plane and the the Earth, the sphere, from where we"
+  },
+  {
+    "t_start": 205.44,
+    "t_end": 210.12,
+    "text": "are. To really tell them apart you would have to go far away and see that you come back. There are"
+  },
+  {
+    "t_start": 210.12,
+    "t_end": 215.4,
+    "text": "also 1-dimensional manifolds like this circle right here, it's a 1-dimensional manifold. If we"
+  },
+  {
+    "t_start": 215.4,
+    "t_end": 220.62,
+    "text": "only lived on this- on the circle then we would only have one direction in which to move in. And"
+  },
+  {
+    "t_start": 220.62,
+    "t_end": 227.4,
+    "text": "then there are 3-dimensional manifolds like our ordinary space or the universe. Around every"
+  },
+  {
+    "t_start": 227.4,
+    "t_end": 232.8,
+    "text": "point it looks like we have three dimensions to go into, we also have the bottom and top,"
+  },
+  {
+    "t_start": 233.4,
+    "t_end": 238.62,
+    "text": "uh but we actually don't know the shape of the universe. It's a 3-dimensional manifold; it"
+  },
+  {
+    "t_start": 238.62,
+    "t_end": 244.44,
+    "text": "could be hyperspace but it could be what's called a 3-dimensional hypersphere. Perhaps if we go"
+  },
+  {
+    "t_start": 244.44,
+    "t_end": 249.18,
+    "text": "very high up then we would come back to where we are. Nobody has done that but we don't know"
+  },
+  {
+    "t_start": 249.18,
+    "t_end": 254.7,
+    "text": "if it's possible or not, just like on the surface of the Earth when you go around you come back."
+  },
+  {
+    "t_start": 255.36,
+    "t_end": 260.1,
+    "text": "So we just know it's a three-dimensional manifold- - (Is there no way to test for that? It seems strange)"
+  },
+  {
+    "t_start": 260.1,
+    "t_end": 263.82,
+    "text": "(that we could not know that even the one we're living in, the one we're living and breathing in.)"
+  },
+  {
+    "t_start": 263.82,
+    "t_end": 269.1,
+    "text": "(Is the only way to test to walk forever and see if I come back?) - No there are other ways, people are"
+  },
+  {
+    "t_start": 269.1,
+    "t_end": 275.46,
+    "text": "looking at cosmic microwave background radiation, and they they have put forward various theories"
+  },
+  {
+    "t_start": 275.46,
+    "t_end": 279.84,
+    "text": "about what the shape of the universe is but there is no definite theory that everyone"
+  },
+  {
+    "t_start": 279.84,
+    "t_end": 285.54,
+    "text": "accepts, that it's not yet known what shape it is - but there are some hints from the universe."
+  },
+  {
+    "t_start": 285.54,
+    "t_end": 290.88,
+    "text": "Okay so we have 3-dimensional objects and then we can think about 4-dimensionals and"
+  },
+  {
+    "t_start": 290.88,
+    "t_end": 296.82,
+    "text": "so on. A good example is this hypersphere; so in dimension 1 we have the circle which"
+  },
+  {
+    "t_start": 296.82,
+    "t_end": 302.16,
+    "text": "is a 1-dimensional manifold and it's the set of points at the given distance from the origin. It's"
+  },
+  {
+    "t_start": 302.16,
+    "t_end": 307.8,
+    "text": "given by the equation x squared plus y squared equals 1. Similarly we have the sphere which"
+  },
+  {
+    "t_start": 307.8,
+    "t_end": 313.2,
+    "text": "is, again, the set of points at distance 1 from a given point but it lives in 3-dimensional"
+  },
+  {
+    "t_start": 313.2,
+    "t_end": 318.84,
+    "text": "space and it's given by the equation x squared plus y squared plus z squared equals 1. And"
+  },
+  {
+    "t_start": 318.84,
+    "t_end": 324.24,
+    "text": "we can generalize this; we can talk about the n-dimensional hypersphere which is given by the"
+  },
+  {
+    "t_start": 324.24,
+    "t_end": 331.74,
+    "text": "equation x1 squared + ... + xn squared plus another variable xn plus 1 squared equals"
+  },
+  {
+    "t_start": 331.74,
+    "t_end": 336.18,
+    "text": "1. It lives in n+1-dimensional space and it's an n-dimensional manifold."
+  },
+  {
+    "t_start": 337.32,
+    "t_end": 342.84,
+    "text": "Now I'm getting to the crux of the matter: the exotic objects. What are exotic objects?"
+  },
+  {
+    "t_start": 343.86,
+    "t_end": 352.8,
+    "text": "These are things that are topologically the same but are smoothly different. So there are two ways"
+  },
+  {
+    "t_start": 352.8,
+    "t_end": 359.04,
+    "text": "of thinking about the formations in topology; I showed you before that a circle can be turned"
+  },
+  {
+    "t_start": 359.04,
+    "t_end": 364.62,
+    "text": "into a square and in the process of course you have to make a corner. Now the circle is smooth"
+  },
+  {
+    "t_start": 364.62,
+    "t_end": 370.26,
+    "text": "and you can turn it into other smooth curves - like maybe something like an ellipse - and the process"
+  },
+  {
+    "t_start": 370.26,
+    "t_end": 376.26,
+    "text": "would be smooth. Now could it be that we have two smooth objects and you can deform one into"
+  },
+  {
+    "t_start": 376.26,
+    "t_end": 383.34,
+    "text": "the other but the only way to do so is by making corners somewhere in the middle? Then those objects"
+  },
+  {
+    "t_start": 383.34,
+    "t_end": 388.44,
+    "text": "would be topologically the same but smoothly different. And- I don't know, if you're more familiar"
+  },
+  {
+    "t_start": 388.44,
+    "t_end": 393.06,
+    "text": "with one of the objects you would say that the second one is an exotic copy of the other one."
+  },
+  {
+    "t_start": 393.06,
+    "t_end": 398.88,
+    "text": "It's like if you live on the first object and you go to the second one it's like going to an exotic"
+  },
+  {
+    "t_start": 398.88,
+    "t_end": 404.52,
+    "text": "vacation; some things are the same but some things are just different. Now how can this be? How can you"
+  },
+  {
+    "t_start": 404.52,
+    "t_end": 410.4,
+    "text": "have two smooth things but to deform one into the other you need to make corners? Here is an example,"
+  },
+  {
+    "t_start": 411.42,
+    "t_end": 418.62,
+    "text": "we have a figure eight and can I turn it into a circle? Well I can I can do so if I make one of"
+  },
+  {
+    "t_start": 418.62,
+    "t_end": 425.16,
+    "text": "the loops smaller and smaller but at some point I have to make a corner and then it becomes a circle."
+  },
+  {
+    "t_start": 427.2,
+    "t_end": 434.22,
+    "text": "Now that's not actually a good example; because if I had a 3rd dimension, if I allow myself to just"
+  },
+  {
+    "t_start": 434.22,
+    "t_end": 440.94,
+    "text": "lift this up, then it would become a circle just smoothly. So this is not a real example of exotic"
+  },
+  {
+    "t_start": 440.94,
+    "t_end": 446.64,
+    "text": "objects - in fact I cannot show you exotic objects because they don't exist in dimensions 1, 2"
+  },
+  {
+    "t_start": 446.64,
+    "t_end": 451.86,
+    "text": "and 3, in the dimensions that we can easily visualize. They only start existing in dimension"
+  },
+  {
+    "t_start": 451.86,
+    "t_end": 459.42,
+    "text": "4 and higher. The first examples were found in 1956 by a mathematician called John Milnor and"
+  },
+  {
+    "t_start": 459.42,
+    "t_end": 466.02,
+    "text": "they were found in dimension 7. They are exotic hyperspheres of 7 dimensions. So there is some"
+  },
+  {
+    "t_start": 466.02,
+    "t_end": 472.08,
+    "text": "object, an exotic sphere, that you can deform into the ordinary 7-dimensional sphere but not"
+  },
+  {
+    "t_start": 472.08,
+    "t_end": 479.04,
+    "text": "smoothly. An exotic sphere is a smooth object that I can deform into a sphere. But I cannot deform"
+  },
+  {
+    "t_start": 479.04,
+    "t_end": 484.56,
+    "text": "it smoothly, I would have to make corners in the middle. Let me show you now the numbers of spheres"
+  },
+  {
+    "t_start": 484.56,
+    "t_end": 492.42,
+    "text": "in each dimension: in dimension 1, 2, 3 there's just one, the standard one. The same goes in dimensions"
+  },
+  {
+    "t_start": 492.42,
+    "t_end": 498.9,
+    "text": "5 and 6. Now in dimension 7 we actually have 28 spheres so there's the standard one and"
+  },
+  {
+    "t_start": 498.9,
+    "t_end": 505.62,
+    "text": "then there are 27 different ones. Then we have two spheres in dimension 8; then eight then"
+  },
+  {
+    "t_start": 505.62,
+    "t_end": 513.9,
+    "text": "six. Then in dimension 11 we have 992 spheres. In dimension 12 we have just one, then 2, then"
+  },
+  {
+    "t_start": 513.9,
+    "t_end": 522.06,
+    "text": "16256 and so on. If you look at this sequence of numbers it looks strange, I grant"
+  },
+  {
+    "t_start": 522.06,
+    "t_end": 529.38,
+    "text": "you that, but there are some patterns. For example in dimensions 7, 11, 15 - every four dimensions - you"
+  },
+  {
+    "t_start": 529.38,
+    "t_end": 534.72,
+    "text": "have- you get a lot more exotic spheres than in the other nearby dimensions. One thing you can"
+  },
+  {
+    "t_start": 534.72,
+    "t_end": 541.44,
+    "text": "ask is, in what dimensions do exotic spheres exist? And in what dimensions does just the standard one?"
+  },
+  {
+    "t_start": 542.1,
+    "t_end": 549.0,
+    "text": "We see that there's just one sphere in dimensions 1, 2, 3, 5, 6, 12; and"
+  },
+  {
+    "t_start": 549.0,
+    "t_end": 556.5,
+    "text": "also mathematicians figure out the same is true in dimensions 56 and 61. - (So does that mean if I)"
+  },
+  {
+    "t_start": 556.5,
+    "t_end": 561.24,
+    "text": "(was an object living in a 61-dimensional universe it's a little bit more boring than some of the)"
+  },
+  {
+    "t_start": 561.24,
+    "t_end": 566.22,
+    "text": "(other ones?) - That's right, yes, these are the boring dimensions. You don't have exotic spheres - although"
+  },
+  {
+    "t_start": 566.22,
+    "t_end": 570.84,
+    "text": "you do have some other exotic objects in these dimensions just not spheres. - (These numbers seem so)"
+  },
+  {
+    "t_start": 570.84,
+    "t_end": 576.6,
+    "text": "(arbitrary; I assume it's impossible for someone to easily explain why it's certain numbers that are)"
+  },
+  {
+    "t_start": 576.6,
+    "t_end": 582.18,
+    "text": "(boring and other ones that are hyper exotic?) - These numbers are hard to compute, there's a whole story"
+  },
+  {
+    "t_start": 582.18,
+    "t_end": 588.06,
+    "text": "involving Bernoulli numbers and homotopy groups of spheres. The most interesting thing about them"
+  },
+  {
+    "t_start": 588.06,
+    "t_end": 593.28,
+    "text": "is that we can compute them in any dimension except in dimension 4. That's where I left"
+  },
+  {
+    "t_start": 593.28,
+    "t_end": 598.98,
+    "text": "a question mark. That's the biggest mystery, it's one of the most famous open problems in topology;"
+  },
+  {
+    "t_start": 598.98,
+    "t_end": 604.2,
+    "text": "it's called the 4-dimensional smooth Poincaré Conjecture which says that there are no"
+  },
+  {
+    "t_start": 604.2,
+    "t_end": 610.5,
+    "text": "exotic spheres in dimension 4. - (But we don't know that for sure yet?) - We don't know. There are"
+  },
+  {
+    "t_start": 610.5,
+    "t_end": 617.64,
+    "text": "examples of objects that are smooth and you can deform them into the ordinary 4-dimensional"
+  },
+  {
+    "t_start": 617.64,
+    "t_end": 622.68,
+    "text": "sphere by introducing corners; but people don't know if you can do that smoothly or not."
+  },
+  {
+    "t_start": 623.28,
+    "t_end": 627.783,
+    "text": "I have also looked for exotic 4-dimensional sphere myself and I couldn't find any."
+  },
+  {
+    "t_start": 627.783,
+    "t_end": 633.54,
+    "text": "(If you did would you become a very famous mathematician?) - Absolutely. - (Yeah? Is that- is it- it's not)"
+  },
+  {
+    "t_start": 633.54,
+    "t_end": 637.38,
+    "text": "(like a millennium problem is it or anything- or is it?) - No there was a similar conjecture in"
+  },
+  {
+    "t_start": 637.38,
+    "t_end": 642.66,
+    "text": "dimension 3 - the Poincaré Conjecture - that was the one problem in topology among the"
+  },
+  {
+    "t_start": 642.66,
+    "t_end": 648.54,
+    "text": "millennium problems. That was solved by Perelman in 2003; and I think now the most"
+  },
+  {
+    "t_start": 648.54,
+    "t_end": 653.22,
+    "text": "famous remaining open problem in topology is this one about dimension 4. But it hasn't yet made"
+  },
+  {
+    "t_start": 653.22,
+    "t_end": 658.08,
+    "text": "it to the list of millennium problems. - (Professor, don't waste your time making Numberphile videos,)"
+  },
+  {
+    "t_start": 658.08,
+    "t_end": 663.94,
+    "text": "(you need to go upstairs and solve this problem!) - Numberphile videos are important too."
+  },
+  {
+    "t_start": 665.46,
+    "t_end": 672.66,
+    "text": "(So why is dimension 4 so difficult?) - Good question. Well it's more difficult than the lower dimensions -"
+  },
+  {
+    "t_start": 672.66,
+    "t_end": 678.36,
+    "text": "1, 2, 3 - because in those dimensions we can see things and there are also geometric techniques"
+  },
+  {
+    "t_start": 678.36,
+    "t_end": 683.7,
+    "text": "that mathematicians use to study shapes in these dimensions. What's interesting is that it's also"
+  },
+  {
+    "t_start": 683.7,
+    "t_end": 689.58,
+    "text": "simpler than dimensions 5, 6 and greater; and the reason for that is a trick about separating"
+  },
+  {
+    "t_start": 689.58,
+    "t_end": 697.56,
+    "text": "disks. To explain it, let me say one way in which topologists distinguish between shapes. If I have"
+  },
+  {
+    "t_start": 698.34,
+    "t_end": 703.8,
+    "text": "a lasso and I throw it somewhere on the plane, or even on the surface of the Earth which is a"
+  },
+  {
+    "t_start": 703.8,
+    "t_end": 711.36,
+    "text": "sphere, it would surround a region. So I could just contract it into a blob around a little point. But"
+  },
+  {
+    "t_start": 711.36,
+    "t_end": 716.4,
+    "text": "if I have the same lasso and I would put it around a surface- around a hole in a donut"
+  },
+  {
+    "t_start": 716.4,
+    "t_end": 721.68,
+    "text": "then I wouldn't be able to contract it without breaking the donut. And that's one way you can"
+  },
+  {
+    "t_start": 721.68,
+    "t_end": 728.04,
+    "text": "tell the donut apart from the sphere. So to study these objects mathematicians are looking at loops"
+  },
+  {
+    "t_start": 728.04,
+    "t_end": 733.14,
+    "text": "and how you contract them, and the contraction spans a disc. A disc is a 2-dimensional object."
+  },
+  {
+    "t_start": 733.14,
+    "t_end": 738.84,
+    "text": "And it's easier to study these objects if you can split apart the disks so that you can study each"
+  },
+  {
+    "t_start": 738.84,
+    "t_end": 745.02,
+    "text": "complication one at a time. All right, how can you split apart disks? Well let me start with lines. If"
+  },
+  {
+    "t_start": 745.02,
+    "t_end": 751.44,
+    "text": "I have two lines and they're on the plane and they intersect, if I move one a little bit I'm not going"
+  },
+  {
+    "t_start": 751.44,
+    "t_end": 756.9,
+    "text": "to be able to take it off the other. But I can take it off if I allow myself to go into space. The"
+  },
+  {
+    "t_start": 756.9,
+    "t_end": 763.98,
+    "text": "reason is that 3 is greater than 1+1. Each line is a 1-dimensional object, and 1+1"
+  },
+  {
+    "t_start": 763.98,
+    "t_end": 770.34,
+    "text": "is 2 but I have one extra dimension, and that's why I can do it. Similarly, if I'm interested in"
+  },
+  {
+    "t_start": 770.34,
+    "t_end": 775.86,
+    "text": "separating disks: each disk is a 2-dimensional object and 2+2 is 4 so I need one"
+  },
+  {
+    "t_start": 775.86,
+    "t_end": 782.22,
+    "text": "extra dimension. So in dimensions 5 and higher I can separate disks and that just makes topological"
+  },
+  {
+    "t_start": 782.22,
+    "t_end": 788.52,
+    "text": "objects easier to study. This is called the Whitney Trick and it led to the classification of smooth"
+  },
+  {
+    "t_start": 788.52,
+    "t_end": 794.88,
+    "text": "manifolds in higher dimensions back in the 60s. - (And this is the problem with dimension 4; you can't-)"
+  },
+  {
+    "t_start": 794.88,
+    "t_end": 800.054,
+    "text": "(in dimension 4 you haven't got the space what- to to break- to separate two discs?)"
+  },
+  {
+    "t_start": 800.054,
+    "t_end": 804.72,
+    "text": "That's right, we don't have the geometric methods from lower dimensions; and we don't have this trick about"
+  },
+  {
+    "t_start": 804.72,
+    "t_end": 811.56,
+    "text": "separating disks. And that makes dimension 4 the hardest to wrap our heads around. To give you an"
+  },
+  {
+    "t_start": 811.56,
+    "t_end": 817.08,
+    "text": "example of something that's unique to dimension 4: instead of looking at exotic spheres, let's"
+  },
+  {
+    "t_start": 817.08,
+    "t_end": 822.96,
+    "text": "look at the exotic hyperspaces. Remember we had the line and then the plane and then the space and in"
+  },
+  {
+    "t_start": 822.96,
+    "t_end": 829.62,
+    "text": "n dimensions we have the hyperspace. So could you have an exotic hyperspace? Something that looks"
+  },
+  {
+    "t_start": 829.62,
+    "t_end": 835.92,
+    "text": "like like a plane or a space and you can deform it into the ordinary one but only by making corners?"
+  },
+  {
+    "t_start": 836.82,
+    "t_end": 843.12,
+    "text": "Here are the numbers of hyperspaces in each dimension. In any dimension except 4 there"
+  },
+  {
+    "t_start": 843.12,
+    "t_end": 848.64,
+    "text": "is just one; there's just a standard one and there are no exotic hyperspaces. But in dimension 4"
+  },
+  {
+    "t_start": 848.64,
+    "t_end": 855.06,
+    "text": "we have infinitely many. In fact, it's more than infinitely many, it's uncountably many. It's not"
+  },
+  {
+    "t_start": 855.06,
+    "t_end": 861.96,
+    "text": "the kind of infinity that you can count - 1, 2, 3 and so on - it's as many exotic hyperspaces"
+  },
+  {
+    "t_start": 861.96,
+    "t_end": 868.98,
+    "text": "as there are real numbers. And this doesn't happen in any other dimensions. If you have exotic objects"
+  },
+  {
+    "t_start": 868.98,
+    "t_end": 873.6,
+    "text": "in some other dimensions, you know that there are always finitely many of them. There's finitely"
+  },
+  {
+    "t_start": 873.6,
+    "t_end": 878.22,
+    "text": "many exotic spheres, as I showed you that list of numbers. But in dimension 4 you can have"
+  },
+  {
+    "t_start": 878.22,
+    "t_end": 883.852,
+    "text": "infinitely many exotic objects. And, yeah, that's what makes dimension 4 so fascinating."
+  },
+  {
+    "t_start": 883.852,
+    "t_end": 889.62,
+    "text": "(Does this mean dimension 4 is something that you should be spending more time on because it's so special)"
+  },
+  {
+    "t_start": 889.62,
+    "t_end": 893.94,
+    "text": "(or is this a sign that maybe this is a bit of an aberration that you should leave alone? It's)"
+  },
+  {
+    "t_start": 893.94,
+    "t_end": 899.94,
+    "text": "(a place where you shouldn't play?) - That depends on your perspective. There are mathematicians"
+  },
+  {
+    "t_start": 899.94,
+    "t_end": 904.56,
+    "text": "who work on the other dimensions, and there are mathematicians that work on dimension 4. I'm"
+  },
+  {
+    "t_start": 904.56,
+    "t_end": 908.94,
+    "text": "in the latter category. - (Because quite often when I speak to number theorists and they talk)"
+  },
+  {
+    "t_start": 908.94,
+    "t_end": 913.08,
+    "text": "(to me about prime numbers, and they're showing me some interesting property of prime numbers, they)"
+  },
+  {
+    "t_start": 913.08,
+    "t_end": 917.88,
+    "text": "(very often discard 2. They say we're not going to use 2 because that's an aberration and it ruins)"
+  },
+  {
+    "t_start": 917.88,
+    "t_end": 921.78,
+    "text": "(everything. It ruins all our laws and principles and that and they just throw it aside. It sounds)"
+  },
+  {
+    "t_start": 921.78,
+    "t_end": 927.6,
+    "text": "(like the 4th dimension is your equivalent.) - That's pretty much it. In many theorems you say"
+  },
+  {
+    "t_start": 927.6,
+    "t_end": 932.58,
+    "text": "this is happening in all dimensions except 4 and we understand what's happening, and we just don't"
+  },
+  {
+    "t_start": 932.58,
+    "t_end": 937.8,
+    "text": "know what's happening in dimension 4. But I find that interesting and worthy of study."
+  }
+]

@@ -1,0 +1,947 @@
+[
+  {
+    "t_start": 2.629,
+    "t_end": 4.67,
+    "text": "this video is sponsored by brilliant here is a cosine function with a"
+  },
+  {
+    "t_start": 4.67,
+    "t_end": 10.87,
+    "text": "frequency of 1 Hertz and I am going to sample it with a frequency of 7 Herz"
+  },
+  {
+    "t_start": 10.87,
+    "t_end": 13.829,
+    "text": "sample it with a frequency of 7 Herz meaning I'll have seven equally spaced"
+  },
+  {
+    "t_start": 13.829,
+    "t_end": 16.15,
+    "text": "meaning I'll have seven equally spaced snapshots of the function essentially"
+  },
+  {
+    "t_start": 16.15,
+    "t_end": 19.91,
+    "text": "snapshots of the function essentially every second if we think about the"
+  },
+  {
+    "t_start": 19.91,
+    "t_end": 26.07,
+    "text": "time now if I take away the original signal and just handed you these samples"
+  },
+  {
+    "t_start": 26.07,
+    "t_end": 31.269,
+    "text": "signal and just handed you these samples and I told you the original signal was a"
+  },
+  {
+    "t_start": 31.269,
+    "t_end": 37.11,
+    "text": "of one and it was sampled at a rate of 7 Herz so you know mostly everything could"
+  },
+  {
+    "t_start": 37.11,
+    "t_end": 39.75,
+    "text": "Herz so you know mostly everything could you then determine what the original"
+  },
+  {
+    "t_start": 39.75,
+    "t_end": 46.389,
+    "text": "signal was or asked in a different way are there any other sinusoids that would"
+  },
+  {
+    "t_start": 46.389,
+    "t_end": 49.069,
+    "text": "are there any other sinusoids that would have these exact same values and thus"
+  },
+  {
+    "t_start": 49.069,
+    "t_end": 51.43,
+    "text": "have these exact same values and thus would look exactly like this if sampled"
+  },
+  {
+    "t_start": 51.43,
+    "t_end": 54.79,
+    "text": "would look exactly like this if sampled that's 7 Hertz well our original signal"
+  },
+  {
+    "t_start": 54.79,
+    "t_end": 56.67,
+    "text": "that's 7 Hertz well our original signal with a frequency of 1 Herz of course"
+  },
+  {
+    "t_start": 56.67,
+    "t_end": 59.43,
+    "text": "with a frequency of 1 Herz of course contains all these samples now if we"
+  },
+  {
+    "t_start": 59.43,
+    "t_end": 62.27,
+    "text": "contains all these samples now if we plot a sinusoid with a frequency of 2"
+  },
+  {
+    "t_start": 62.27,
+    "t_end": 65.03,
+    "text": "plot a sinusoid with a frequency of 2 Hertz notice it does not contain all"
+  },
+  {
+    "t_start": 65.03,
+    "t_end": 68.95,
+    "text": "Hertz notice it does not contain all these samples neither does 3 Herz or"
+  },
+  {
+    "t_start": 68.95,
+    "t_end": 75.19,
+    "text": "these samples neither does 3 Herz or four but once we hit six Hertz all the"
+  },
+  {
+    "t_start": 75.19,
+    "t_end": 77.71,
+    "text": "samples line up with this new function the same thing also happens at"
+  },
+  {
+    "t_start": 77.71,
+    "t_end": 82.55,
+    "text": "function the same thing also happens at 8 Herz 13 Herz 15 Herz and infinitely"
+  },
+  {
+    "t_start": 82.55,
+    "t_end": 88.23,
+    "text": "many more so you could not tell me the original function if I gave you these"
+  },
+  {
+    "t_start": 88.23,
+    "t_end": 90.23,
+    "text": "original function if I gave you these samples because all the other"
+  },
+  {
+    "t_start": 90.23,
+    "t_end": 95.469,
+    "text": "information is lost and you'd have no idea whether the original was this or"
+  },
+  {
+    "t_start": 95.469,
+    "t_end": 98.55,
+    "text": "idea whether the original was this or this or something else it could"
+  },
+  {
+    "t_start": 98.55,
+    "t_end": 100.27,
+    "text": "this or something else it could technically be anything that goes"
+  },
+  {
+    "t_start": 100.27,
+    "t_end": 104.91,
+    "text": "through all these sampled points but if we stick to just sinusoids then you"
+  },
+  {
+    "t_start": 104.91,
+    "t_end": 106.95,
+    "text": "we stick to just sinusoids then you still have unlimited"
+  },
+  {
+    "t_start": 106.95,
+    "t_end": 113.27,
+    "text": "choices however notice that one Hertz the actual original signal is the lowest"
+  },
+  {
+    "t_start": 113.27,
+    "t_end": 119.469,
+    "text": "the actual original signal is the lowest frequency that you could guess if we go"
+  },
+  {
+    "t_start": 119.469,
+    "t_end": 121.59,
+    "text": "down to anything else like5 Hertz this clearly will not go through all the"
+  },
+  {
+    "t_start": 121.59,
+    "t_end": 124.469,
+    "text": "clearly will not go through all the samples and nothing below 1 Herz"
+  },
+  {
+    "t_start": 124.469,
+    "t_end": 129.51,
+    "text": "will now if we go back to our original 1 Herz signal and Sample it a little"
+  },
+  {
+    "t_start": 129.51,
+    "t_end": 132.949,
+    "text": "Herz signal and Sample it a little slower let's say four times per second"
+  },
+  {
+    "t_start": 132.949,
+    "t_end": 135.15,
+    "text": "slower let's say four times per second well now the same thing will happen but"
+  },
+  {
+    "t_start": 135.15,
+    "t_end": 136.35,
+    "text": "well now the same thing will happen but at different"
+  },
+  {
+    "t_start": 136.35,
+    "t_end": 141.509,
+    "text": "frequencies these samples correspond to our original one Herz signal but also a"
+  },
+  {
+    "t_start": 141.509,
+    "t_end": 143.15,
+    "text": "our original one Herz signal but also a three Herz signal will go through all"
+  },
+  {
+    "t_start": 143.15,
+    "t_end": 146.589,
+    "text": "three Herz signal will go through all these points same with 5 Hertz 7 Hertz"
+  },
+  {
+    "t_start": 146.589,
+    "t_end": 148.19,
+    "text": "these points same with 5 Hertz 7 Hertz and all odd"
+  },
+  {
+    "t_start": 148.19,
+    "t_end": 154.47,
+    "text": "numbers you could guess any of these from the samples given but 1 Herz is"
+  },
+  {
+    "t_start": 154.47,
+    "t_end": 155.589,
+    "text": "from the samples given but 1 Herz is still the"
+  },
+  {
+    "t_start": 155.589,
+    "t_end": 160.309,
+    "text": "lowest however going back to our original signal something happens when"
+  },
+  {
+    "t_start": 160.309,
+    "t_end": 167.869,
+    "text": "original signal something happens when you take the sampling frequency below 2"
+  },
+  {
+    "t_start": 167.869,
+    "t_end": 170.55,
+    "text": "Hertz let's say we sample at 1.5 Herz now if I gave you these samples there"
+  },
+  {
+    "t_start": 170.55,
+    "t_end": 172.43,
+    "text": "now if I gave you these samples there are still infinitely many other"
+  },
+  {
+    "t_start": 172.43,
+    "t_end": 175.149,
+    "text": "are still infinitely many other sinusoids that could contain these like"
+  },
+  {
+    "t_start": 175.149,
+    "t_end": 181.19,
+    "text": "sinusoids that could contain these like one with a frequency of 2 Herz or 2.5"
+  },
+  {
+    "t_start": 181.19,
+    "t_end": 187.589,
+    "text": "but now another sinusoid that works is one with a frequency of 05 Hertz which"
+  },
+  {
+    "t_start": 187.589,
+    "t_end": 190.83,
+    "text": "one with a frequency of 05 Hertz which is a lower frequency than our original"
+  },
+  {
+    "t_start": 190.83,
+    "t_end": 194.19,
+    "text": "is a lower frequency than our original signal so of the infinitely many correct"
+  },
+  {
+    "t_start": 194.19,
+    "t_end": 199.63,
+    "text": "signal so of the infinitely many correct guesses you can make the original is not"
+  },
+  {
+    "t_start": 199.63,
+    "t_end": 203.949,
+    "text": "the one with the lowest frequency in this case there is one"
+  },
+  {
+    "t_start": 203.949,
+    "t_end": 210.27,
+    "text": "lower this change happens when your sampling frequency is less than twice"
+  },
+  {
+    "t_start": 210.27,
+    "t_end": 213.509,
+    "text": "sampling frequency is less than twice the frequency of your original sinusoid"
+  },
+  {
+    "t_start": 213.509,
+    "t_end": 218.75,
+    "text": "the frequency of your original sinusoid the original was 1 Herz meaning you need"
+  },
+  {
+    "t_start": 218.75,
+    "t_end": 220.11,
+    "text": "a sample at more than 2 Herz or you'll get this"
+  },
+  {
+    "t_start": 220.11,
+    "t_end": 226.11,
+    "text": "issue what we just saw is basically the idea behind the nightquest shanon"
+  },
+  {
+    "t_start": 226.11,
+    "t_end": 231.91,
+    "text": "sampling theorem which says you have to sample your signal at a rate faster than"
+  },
+  {
+    "t_start": 231.91,
+    "t_end": 234.229,
+    "text": "sample your signal at a rate faster than twice the highest frequency in your"
+  },
+  {
+    "t_start": 234.229,
+    "t_end": 237.67,
+    "text": "twice the highest frequency in your original signal to avoid"
+  },
+  {
+    "t_start": 237.67,
+    "t_end": 243.309,
+    "text": "Distortion this is why for example when I open audacity to record this video"
+  },
+  {
+    "t_start": 243.309,
+    "t_end": 247.35,
+    "text": "I open audacity to record this video there's a preset to a frequency of 44.1"
+  },
+  {
+    "t_start": 247.35,
+    "t_end": 251.229,
+    "text": "there's a preset to a frequency of 44.1 khz that number is slightly more than"
+  },
+  {
+    "t_start": 251.229,
+    "t_end": 253.83,
+    "text": "khz that number is slightly more than double the maximum frequency humans can"
+  },
+  {
+    "t_start": 253.83,
+    "t_end": 255.67,
+    "text": "double the maximum frequency humans can hear 20"
+  },
+  {
+    "t_start": 255.67,
+    "t_end": 261.59,
+    "text": "khz so here's where that comes from sine waves have frequency domains that just"
+  },
+  {
+    "t_start": 261.59,
+    "t_end": 264.27,
+    "text": "waves have frequency domains that just look like this these two spikes really"
+  },
+  {
+    "t_start": 264.27,
+    "t_end": 267.07,
+    "text": "look like this these two spikes really represent one single frequency that is"
+  },
+  {
+    "t_start": 267.07,
+    "t_end": 270.15,
+    "text": "represent one single frequency that is the sine wave itself but most other"
+  },
+  {
+    "t_start": 270.15,
+    "t_end": 272.029,
+    "text": "the sine wave itself but most other functions like a sync function for"
+  },
+  {
+    "t_start": 272.029,
+    "t_end": 274.67,
+    "text": "functions like a sync function for example have a continuous spectrum of"
+  },
+  {
+    "t_start": 274.67,
+    "t_end": 280.51,
+    "text": "example have a continuous spectrum of frequencies that make it up but now if I"
+  },
+  {
+    "t_start": 280.51,
+    "t_end": 286.39,
+    "text": "frequencies that make this up yes as in what sign functions make up a bunch of"
+  },
+  {
+    "t_start": 286.39,
+    "t_end": 288.23,
+    "text": "what sign functions make up a bunch of samples or"
+  },
+  {
+    "t_start": 288.23,
+    "t_end": 291.95,
+    "text": "spikes well I'll just tell you the answer and I'm going to make some room"
+  },
+  {
+    "t_start": 291.95,
+    "t_end": 294.59,
+    "text": "answer and I'm going to make some room here is you just take the original"
+  },
+  {
+    "t_start": 294.59,
+    "t_end": 297.189,
+    "text": "here is you just take the original frequency domain function and make"
+  },
+  {
+    "t_start": 297.189,
+    "t_end": 300.23,
+    "text": "frequency domain function and make copies of it around integer multip"
+  },
+  {
+    "t_start": 300.23,
+    "t_end": 304.909,
+    "text": "of the sampling frequency so if we were sampling at 7 Hertz then this would be"
+  },
+  {
+    "t_start": 304.909,
+    "t_end": 308.27,
+    "text": "sampling at 7 Hertz then this would be seven and 14 and so on both positive and"
+  },
+  {
+    "t_start": 308.27,
+    "t_end": 312.99,
+    "text": "seven and 14 and so on both positive and negative and we do this forever so the"
+  },
+  {
+    "t_start": 312.99,
+    "t_end": 316.99,
+    "text": "frequencies that make up a bunch of samples is this here that's weird and it"
+  },
+  {
+    "t_start": 316.99,
+    "t_end": 319.67,
+    "text": "samples is this here that's weird and it makes sense because the forier transform"
+  },
+  {
+    "t_start": 319.67,
+    "t_end": 321.43,
+    "text": "makes sense because the forier transform that calculates a function's frequency"
+  },
+  {
+    "t_start": 321.43,
+    "t_end": 324.029,
+    "text": "that calculates a function's frequency domain has this really nice property"
+  },
+  {
+    "t_start": 324.029,
+    "t_end": 326.55,
+    "text": "domain has this really nice property that it works in reverse the forier"
+  },
+  {
+    "t_start": 326.55,
+    "t_end": 328.35,
+    "text": "that it works in reverse the forier transform of a sync function is the"
+  },
+  {
+    "t_start": 328.35,
+    "t_end": 330.27,
+    "text": "transform of a sync function is the rectangular function which means the"
+  },
+  {
+    "t_start": 330.27,
+    "t_end": 333.909,
+    "text": "rectangular function which means the forier transform of the rectangular"
+  },
+  {
+    "t_start": 333.909,
+    "t_end": 341.99,
+    "text": "function technically applying the forier transform twice gives you the original"
+  },
+  {
+    "t_start": 341.99,
+    "t_end": 343.909,
+    "text": "function reflected about the y- AIS but since this is a symmetric function we"
+  },
+  {
+    "t_start": 343.909,
+    "t_end": 345.99,
+    "text": "since this is a symmetric function we could kind of ignore it"
+  },
+  {
+    "t_start": 345.99,
+    "t_end": 351.469,
+    "text": "here now any periodic function that does the same thing over and over can be made"
+  },
+  {
+    "t_start": 351.469,
+    "t_end": 354.189,
+    "text": "the same thing over and over can be made up of several sinusoids at discrete"
+  },
+  {
+    "t_start": 354.189,
+    "t_end": 357.029,
+    "text": "up of several sinusoids at discrete frequencies not a continuous spectrum of"
+  },
+  {
+    "t_start": 357.029,
+    "t_end": 360.029,
+    "text": "frequencies not a continuous spectrum of them so the frequency domain looks like"
+  },
+  {
+    "t_start": 360.029,
+    "t_end": 361.749,
+    "text": "them so the frequency domain looks like this these spikes at different"
+  },
+  {
+    "t_start": 361.749,
+    "t_end": 364.27,
+    "text": "this these spikes at different frequencies that represent the sinusoids"
+  },
+  {
+    "t_start": 364.27,
+    "t_end": 370.189,
+    "text": "that make it up or the fora series really but this means using that reverse"
+  },
+  {
+    "t_start": 370.189,
+    "t_end": 375.39,
+    "text": "really but this means using that reverse operation that if we have a bunch of"
+  },
+  {
+    "t_start": 375.39,
+    "t_end": 378.15,
+    "text": "spikes or samples as our original function its frequency domain will look"
+  },
+  {
+    "t_start": 378.15,
+    "t_end": 384.35,
+    "text": "function its frequency domain will look like a periodic function what we just"
+  },
+  {
+    "t_start": 384.35,
+    "t_end": 386.749,
+    "text": "saw so that's why this sample discrete function has a forier transform that is"
+  },
+  {
+    "t_start": 386.749,
+    "t_end": 388.749,
+    "text": "function has a forier transform that is periodic you can think about it"
+  },
+  {
+    "t_start": 388.749,
+    "t_end": 390.909,
+    "text": "periodic you can think about it backwards and it makes more"
+  },
+  {
+    "t_start": 390.909,
+    "t_end": 395.309,
+    "text": "sense I'm not going to show the math of convolution in this video cuz I feel it"
+  },
+  {
+    "t_start": 395.309,
+    "t_end": 397.629,
+    "text": "convolution in this video cuz I feel it needs its own but that's how you would"
+  },
+  {
+    "t_start": 397.629,
+    "t_end": 399.95,
+    "text": "needs its own but that's how you would mathematically find this function"
+  },
+  {
+    "t_start": 399.95,
+    "t_end": 404.749,
+    "text": "essentially sampling a signal is like multiplying it by all these samples or"
+  },
+  {
+    "t_start": 404.749,
+    "t_end": 407.39,
+    "text": "multiplying it by all these samples or dck Delta functions and multiplying in"
+  },
+  {
+    "t_start": 407.39,
+    "t_end": 409.909,
+    "text": "dck Delta functions and multiplying in time means doing convolution in the"
+  },
+  {
+    "t_start": 409.909,
+    "t_end": 412.35,
+    "text": "time means doing convolution in the frequency domain which kind of involves"
+  },
+  {
+    "t_start": 412.35,
+    "t_end": 414.749,
+    "text": "frequency domain which kind of involves sliding one function against another so"
+  },
+  {
+    "t_start": 414.749,
+    "t_end": 416.629,
+    "text": "sliding one function against another so that's what leads to this periodic"
+  },
+  {
+    "t_start": 416.629,
+    "t_end": 418.15,
+    "text": "that's what leads to this periodic function to"
+  },
+  {
+    "t_start": 418.15,
+    "t_end": 422.71,
+    "text": "Infinity but now if someone gave you this sampled function whose frequency"
+  },
+  {
+    "t_start": 422.71,
+    "t_end": 428.83,
+    "text": "domain looks like this you could apply a low pass filter to the sampled signal"
+  },
+  {
+    "t_start": 428.83,
+    "t_end": 430.869,
+    "text": "low pass filter to the sampled signal and remove the higher"
+  },
+  {
+    "t_start": 430.869,
+    "t_end": 435.23,
+    "text": "frequencies giving you back your original frequency domain centered at"
+  },
+  {
+    "t_start": 435.23,
+    "t_end": 441.029,
+    "text": "original frequency domain centered at zero and thus You Could reconstruct your"
+  },
+  {
+    "t_start": 441.029,
+    "t_end": 443.309,
+    "text": "signal and the reason for even doing this like why sample at all is because"
+  },
+  {
+    "t_start": 443.309,
+    "t_end": 445.189,
+    "text": "this like why sample at all is because you can send those samples through a"
+  },
+  {
+    "t_start": 445.189,
+    "t_end": 449.55,
+    "text": "you can send those samples through a computer to do complicated stuff if you"
+  },
+  {
+    "t_start": 449.55,
+    "t_end": 451.589,
+    "text": "computer to do complicated stuff if you just use the continuous signal of like"
+  },
+  {
+    "t_start": 451.589,
+    "t_end": 454.15,
+    "text": "just use the continuous signal of like someone's voice if you want to do"
+  },
+  {
+    "t_start": 454.15,
+    "t_end": 461.909,
+    "text": "something to it you need circuits which take time to build and aren't so easy to"
+  },
+  {
+    "t_start": 461.909,
+    "t_end": 467.149,
+    "text": "very easy to change now because these copies happen at integer multiples of"
+  },
+  {
+    "t_start": 467.149,
+    "t_end": 472.589,
+    "text": "the sampling frequency if you sample at a slower rate those copies start to come"
+  },
+  {
+    "t_start": 472.589,
+    "t_end": 474.83,
+    "text": "a slower rate those copies start to come together until you reach a point where"
+  },
+  {
+    "t_start": 474.83,
+    "t_end": 477.71,
+    "text": "together until you reach a point where they intersect and combine this is"
+  },
+  {
+    "t_start": 477.71,
+    "t_end": 484.469,
+    "text": "called aliasing and that that's when you lose information cuz even when you apply"
+  },
+  {
+    "t_start": 484.469,
+    "t_end": 487.23,
+    "text": "a filter you're not getting back the original signal there's Distortion due"
+  },
+  {
+    "t_start": 487.23,
+    "t_end": 489.39,
+    "text": "original signal there's Distortion due to the slow sampling and the resulting"
+  },
+  {
+    "t_start": 489.39,
+    "t_end": 491.71,
+    "text": "to the slow sampling and the resulting interference in the frequency"
+  },
+  {
+    "t_start": 491.71,
+    "t_end": 498.11,
+    "text": "domain and that aliasing will happen once your sampling frequency dips below"
+  },
+  {
+    "t_start": 498.11,
+    "t_end": 502.71,
+    "text": "once your sampling frequency dips below twice the highest frequency in your"
+  },
+  {
+    "t_start": 502.71,
+    "t_end": 505.39,
+    "text": "signal that's where the overlap starts to happen and if you sample slower and"
+  },
+  {
+    "t_start": 505.39,
+    "t_end": 508.149,
+    "text": "to happen and if you sample slower and slower you get more interference where"
+  },
+  {
+    "t_start": 508.149,
+    "t_end": 513.35,
+    "text": "these would add together and you could not reconstruct your original signal so"
+  },
+  {
+    "t_start": 513.35,
+    "t_end": 517.19,
+    "text": "not reconstruct your original signal so now to bring It full circle if you were"
+  },
+  {
+    "t_start": 517.19,
+    "t_end": 518.75,
+    "text": "wondering how I was getting these functions before that would have the"
+  },
+  {
+    "t_start": 518.75,
+    "t_end": 520.79,
+    "text": "functions before that would have the same sample values and how we know"
+  },
+  {
+    "t_start": 520.79,
+    "t_end": 522.75,
+    "text": "same sample values and how we know there's nothing in between that also"
+  },
+  {
+    "t_start": 522.75,
+    "t_end": 527.87,
+    "text": "works it's because of what I just showed here is our original cosine function"
+  },
+  {
+    "t_start": 527.87,
+    "t_end": 530.269,
+    "text": "here is our original cosine function frequency 1 Hertz and here's the 4A"
+  },
+  {
+    "t_start": 530.269,
+    "t_end": 532.67,
+    "text": "frequency 1 Hertz and here's the 4A transform it's two spikes really"
+  },
+  {
+    "t_start": 532.67,
+    "t_end": 535.23,
+    "text": "transform it's two spikes really representing a single frequency of 1"
+  },
+  {
+    "t_start": 535.23,
+    "t_end": 540.67,
+    "text": "Hertz it's just mirrored over the Y AIS for reasons so you actually have a spike"
+  },
+  {
+    "t_start": 540.67,
+    "t_end": 543.829,
+    "text": "for reasons so you actually have a spike at plus and minus 1 Herz but now when"
+  },
+  {
+    "t_start": 543.829,
+    "t_end": 546.31,
+    "text": "at plus and minus 1 Herz but now when you sample this signal up top at let's"
+  },
+  {
+    "t_start": 546.31,
+    "t_end": 549.43,
+    "text": "you sample this signal up top at let's say 7 htz to find what the new frequency"
+  },
+  {
+    "t_start": 549.43,
+    "t_end": 552.67,
+    "text": "say 7 htz to find what the new frequency domain looks like you make copies at 7"
+  },
+  {
+    "t_start": 552.67,
+    "t_end": 555.99,
+    "text": "domain looks like you make copies at 7 Hertz 14 21 and so on same with the"
+  },
+  {
+    "t_start": 555.99,
+    "t_end": 558.55,
+    "text": "Hertz 14 21 and so on same with the negative values so in the frequency"
+  },
+  {
+    "t_start": 558.55,
+    "t_end": 561.23,
+    "text": "negative values so in the frequency domain after sampling we'll find spikes"
+  },
+  {
+    "t_start": 561.23,
+    "t_end": 568.67,
+    "text": "domain after sampling we'll find spikes at 6 Herz 8 H Hertz 13 15 and all the"
+  },
+  {
+    "t_start": 568.67,
+    "t_end": 570.75,
+    "text": "numbers I showed before that is where they come from"
+  },
+  {
+    "t_start": 570.75,
+    "t_end": 576.31,
+    "text": "and if I zoom in a bit first then we lower the sampling frequency to 1.5"
+  },
+  {
+    "t_start": 576.31,
+    "t_end": 581.949,
+    "text": "Hertz the copies start to cross each other and in this case we're left with"
+  },
+  {
+    "t_start": 581.949,
+    "t_end": 585.35,
+    "text": "other and in this case we're left with one frequency Spike at 05 here which is"
+  },
+  {
+    "t_start": 585.35,
+    "t_end": 587.87,
+    "text": "one frequency Spike at 05 here which is lower than our original"
+  },
+  {
+    "t_start": 587.87,
+    "t_end": 593.67,
+    "text": "signal so that's why a lower frequency guess is valid from these samples you"
+  },
+  {
+    "t_start": 593.67,
+    "t_end": 596.31,
+    "text": "guess is valid from these samples you didn't sample fast enough and thus"
+  },
+  {
+    "t_start": 596.31,
+    "t_end": 599.389,
+    "text": "didn't sample fast enough and thus aliasing occurred to avoid that you need"
+  },
+  {
+    "t_start": 599.389,
+    "t_end": 604.31,
+    "text": "aliasing occurred to avoid that you need need to sample at a rate at least twice"
+  },
+  {
+    "t_start": 604.31,
+    "t_end": 610.23,
+    "text": "signal so that is the idea behind the Nyquist Shannon sampling theorem and if"
+  },
+  {
+    "t_start": 610.23,
+    "t_end": 612.15,
+    "text": "Nyquist Shannon sampling theorem and if you enjoyed what you saw here I highly"
+  },
+  {
+    "t_start": 612.15,
+    "t_end": 613.829,
+    "text": "you enjoyed what you saw here I highly recommend checking out brilliant the"
+  },
+  {
+    "t_start": 613.829,
+    "t_end": 618.03,
+    "text": "sponsor of this video brilliant is an educational platform home to thousands"
+  },
+  {
+    "t_start": 618.03,
+    "t_end": 619.87,
+    "text": "educational platform home to thousands of lessons in math science and"
+  },
+  {
+    "t_start": 619.87,
+    "t_end": 621.949,
+    "text": "of lessons in math science and engineering with new lessons being added"
+  },
+  {
+    "t_start": 621.949,
+    "t_end": 627.55,
+    "text": "engineering with new lessons being added monthly and a big focus with brilliant"
+  },
+  {
+    "t_start": 627.55,
+    "t_end": 630.15,
+    "text": "is real world applications as they show you exactly how to apply the formulas"
+  },
+  {
+    "t_start": 630.15,
+    "t_end": 631.949,
+    "text": "you exactly how to apply the formulas and Concepts within their"
+  },
+  {
+    "t_start": 631.949,
+    "t_end": 636.629,
+    "text": "lessons their Vector calculus course for example goes through several topics in"
+  },
+  {
+    "t_start": 636.629,
+    "t_end": 639.269,
+    "text": "example goes through several topics in multivariable and Vector calculus which"
+  },
+  {
+    "t_start": 639.269,
+    "t_end": 641.91,
+    "text": "multivariable and Vector calculus which includes fora transforms a crucial Topic"
+  },
+  {
+    "t_start": 641.91,
+    "t_end": 644.19,
+    "text": "includes fora transforms a crucial Topic in math science and engineering and"
+  },
+  {
+    "t_start": 644.19,
+    "t_end": 647.79,
+    "text": "in math science and engineering and there you'll get to learn more of these"
+  },
+  {
+    "t_start": 647.79,
+    "t_end": 654.59,
+    "text": "problems visuals and their interactive exercises and as you can see there are"
+  },
+  {
+    "t_start": 654.59,
+    "t_end": 656.31,
+    "text": "so many courses to choose from so no matter what your background there will"
+  },
+  {
+    "t_start": 656.31,
+    "t_end": 661.19,
+    "text": "be something for you and you can now try everything brilliant has to offer free"
+  },
+  {
+    "t_start": 661.19,
+    "t_end": 666.389,
+    "text": "for a full 30 days just go to brilliant.org zakar or click the link in"
+  },
+  {
+    "t_start": 666.389,
+    "t_end": 668.99,
+    "text": "brilliant.org zakar or click the link in the description below plus the first 200"
+  },
+  {
+    "t_start": 668.99,
+    "t_end": 674.59,
+    "text": "the description below plus the first 200 of you to sign up will get 20% off"
+  },
+  {
+    "t_start": 674.59,
+    "t_end": 677.99,
+    "text": "brilliant's annual premium subscription with that going to end that video there"
+  },
+  {
+    "t_start": 677.99,
+    "t_end": 680.03,
+    "text": "thanks as always to my supporters on patreon social media links to follow me"
+  },
+  {
+    "t_start": 680.03,
+    "t_end": 685.839,
+    "text": "patreon social media links to follow me are down below and I'll see you all in"
+  }
+]

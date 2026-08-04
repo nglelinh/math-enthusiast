@@ -1,0 +1,692 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 4.02,
+    "text": "[Submit subtitle corrections at criblate.com]"
+  },
+  {
+    "t_start": 4.02,
+    "t_end": 6.702,
+    "text": "The hard assumption here is that you've watched part 3,"
+  },
+  {
+    "t_start": 6.702,
+    "t_end": 9.92,
+    "text": "giving an intuitive walkthrough of the backpropagation algorithm."
+  },
+  {
+    "t_start": 11.04,
+    "t_end": 14.22,
+    "text": "Here we get a little more formal and dive into the relevant calculus."
+  },
+  {
+    "t_start": 14.82,
+    "t_end": 17.265,
+    "text": "It's normal for this to be at least a little confusing,"
+  },
+  {
+    "t_start": 17.265,
+    "t_end": 20.6,
+    "text": "so the mantra to regularly pause and ponder certainly applies as much here"
+  },
+  {
+    "t_start": 20.6,
+    "t_end": 21.4,
+    "text": "as anywhere else."
+  },
+  {
+    "t_start": 21.94,
+    "t_end": 25.875,
+    "text": "Our main goal is to show how people in machine learning commonly think about"
+  },
+  {
+    "t_start": 25.875,
+    "t_end": 28.825,
+    "text": "the chain rule from calculus in the context of networks,"
+  },
+  {
+    "t_start": 28.825,
+    "t_end": 32.501,
+    "text": "which has a different feel from how most introductory calculus courses"
+  },
+  {
+    "t_start": 32.501,
+    "t_end": 33.64,
+    "text": "approach the subject."
+  },
+  {
+    "t_start": 34.34,
+    "t_end": 36.971,
+    "text": "For those of you uncomfortable with the relevant calculus,"
+  },
+  {
+    "t_start": 36.971,
+    "t_end": 38.74,
+    "text": "I do have a whole series on the topic."
+  },
+  {
+    "t_start": 39.96,
+    "t_end": 43.021,
+    "text": "Let's start off with an extremely simple network,"
+  },
+  {
+    "t_start": 43.021,
+    "t_end": 46.02,
+    "text": "one where each layer has a single neuron in it."
+  },
+  {
+    "t_start": 46.32,
+    "t_end": 49.896,
+    "text": "This network is determined by three weights and three biases,"
+  },
+  {
+    "t_start": 49.896,
+    "t_end": 54.88,
+    "text": "and our goal is to understand how sensitive the cost function is to these variables."
+  },
+  {
+    "t_start": 55.42,
+    "t_end": 58.096,
+    "text": "That way, we know which adjustments to those terms will"
+  },
+  {
+    "t_start": 58.096,
+    "t_end": 60.82,
+    "text": "cause the most efficient decrease to the cost function."
+  },
+  {
+    "t_start": 61.96,
+    "t_end": 64.84,
+    "text": "And we're just going to focus on the connection between the last two neurons."
+  },
+  {
+    "t_start": 65.98,
+    "t_end": 70.238,
+    "text": "Let's label the activation of that last neuron with a superscript L,"
+  },
+  {
+    "t_start": 70.238,
+    "t_end": 75.56,
+    "text": "indicating which layer it's in, so the activation of the previous neuron is a^(L-1)."
+  },
+  {
+    "t_start": 76.36,
+    "t_end": 80.092,
+    "text": "These are not exponents, they're just a way of indexing what we're talking about,"
+  },
+  {
+    "t_start": 80.092,
+    "t_end": 83.04,
+    "text": "since I want to save subscripts for different indices later on."
+  },
+  {
+    "t_start": 83.72,
+    "t_end": 87.95,
+    "text": "Let's say that the value we want this last activation to be for"
+  },
+  {
+    "t_start": 87.95,
+    "t_end": 92.18,
+    "text": "a given training example is y, for example, y might be 0 or 1."
+  },
+  {
+    "t_start": 92.84,
+    "t_end": 99.24,
+    "text": "So the cost of this network for a single training example is a^(L - y) squared."
+  },
+  {
+    "t_start": 100.26,
+    "t_end": 104.38,
+    "text": "We'll denote the cost of that one training example as C0."
+  },
+  {
+    "t_start": 105.9,
+    "t_end": 109.84,
+    "text": "As a reminder, this last activation is determined by a weight,"
+  },
+  {
+    "t_start": 109.84,
+    "t_end": 115.242,
+    "text": "which I'm going to call w(L), times the previous neuron's activation plus some bias,"
+  },
+  {
+    "t_start": 115.242,
+    "t_end": 116.64,
+    "text": "which I'll call b(L)."
+  },
+  {
+    "t_start": 117.42,
+    "t_end": 121.32,
+    "text": "And then you pump that through some special nonlinear function like the sigmoid or ReLU."
+  },
+  {
+    "t_start": 121.8,
+    "t_end": 125.442,
+    "text": "It's actually going to make things easier for us if we give a special name to"
+  },
+  {
+    "t_start": 125.442,
+    "t_end": 129.32,
+    "text": "this weighted sum, like z, with the same superscript as the relevant activations."
+  },
+  {
+    "t_start": 130.38,
+    "t_end": 135.331,
+    "text": "This is a lot of terms, and a way you might conceptualize it is that the weight,"
+  },
+  {
+    "t_start": 135.331,
+    "t_end": 139.353,
+    "text": "previous action and the bias all together are used to compute z,"
+  },
+  {
+    "t_start": 139.353,
+    "t_end": 143.871,
+    "text": "which in turn lets us compute a, which finally, along with a constant y,"
+  },
+  {
+    "t_start": 143.871,
+    "t_end": 145.48,
+    "text": "lets us compute the cost."
+  },
+  {
+    "t_start": 147.34,
+    "t_end": 151.998,
+    "text": "And of course a(L-1) is influenced by its own weight and bias and such..."
+  },
+  {
+    "t_start": 151.998,
+    "t_end": 155.06,
+    "text": "but we're not going to focus on that right now."
+  },
+  {
+    "t_start": 155.7,
+    "t_end": 157.62,
+    "text": "All of these are just numbers, right?"
+  },
+  {
+    "t_start": 158.06,
+    "t_end": 161.04,
+    "text": "And it can be nice to think of each one as having its own little number line."
+  },
+  {
+    "t_start": 161.72,
+    "t_end": 165.183,
+    "text": "Our first goal is to understand how sensitive the"
+  },
+  {
+    "t_start": 165.183,
+    "t_end": 169.0,
+    "text": "cost function is to small changes in our weight w(L)."
+  },
+  {
+    "t_start": 169.54,
+    "t_end": 174.86,
+    "text": "Or phrased differently, what is the derivative of C with respect to w(L)?"
+  },
+  {
+    "t_start": 175.6,
+    "t_end": 180.666,
+    "text": "When you see this del w term, think of it as meaning some tiny nudge to W,"
+  },
+  {
+    "t_start": 180.666,
+    "t_end": 184.979,
+    "text": "like a change by 0.01, and think of this del C term as meaning"
+  },
+  {
+    "t_start": 184.979,
+    "t_end": 188.06,
+    "text": "whatever the resulting nudge to the cost is."
+  },
+  {
+    "t_start": 188.06,
+    "t_end": 190.22,
+    "text": "What we want is their ratio."
+  },
+  {
+    "t_start": 191.26,
+    "t_end": 195.79,
+    "text": "Conceptually, this tiny nudge to w(L) causes some nudge to z(L),"
+  },
+  {
+    "t_start": 195.79,
+    "t_end": 201.24,
+    "text": "which in turn causes some nudge to a(L), which directly influences the cost."
+  },
+  {
+    "t_start": 203.12,
+    "t_end": 208.225,
+    "text": "So we break things up by first looking at the ratio of a tiny change to z(L) to"
+  },
+  {
+    "t_start": 208.225,
+    "t_end": 213.2,
+    "text": "this tiny change w(L), that is, the derivative of z(L) with respect to w(L)."
+  },
+  {
+    "t_start": 213.2,
+    "t_end": 216.959,
+    "text": "Likewise, you then consider the ratio of the change to a(L) to"
+  },
+  {
+    "t_start": 216.959,
+    "t_end": 220.658,
+    "text": "the tiny change in z(L) that caused it, as well as the ratio"
+  },
+  {
+    "t_start": 220.658,
+    "t_end": 224.66,
+    "text": "between the final nudge to C and this intermediate nudge to a(L)."
+  },
+  {
+    "t_start": 225.74,
+    "t_end": 230.371,
+    "text": "This right here is the chain rule, where multiplying together these"
+  },
+  {
+    "t_start": 230.371,
+    "t_end": 235.14,
+    "text": "three ratios gives us the sensitivity of C to small changes in w(L)."
+  },
+  {
+    "t_start": 236.88,
+    "t_end": 239.562,
+    "text": "So on screen right now, there's a lot of symbols,"
+  },
+  {
+    "t_start": 239.562,
+    "t_end": 242.901,
+    "text": "and take a moment to make sure it's clear what they all are,"
+  },
+  {
+    "t_start": 242.901,
+    "t_end": 246.24,
+    "text": "because now we're going to compute the relevant derivatives."
+  },
+  {
+    "t_start": 247.44,
+    "t_end": 253.16,
+    "text": "The derivative of C with respect to a(L) works out to be 2(a(L)-y)."
+  },
+  {
+    "t_start": 253.98,
+    "t_end": 258.592,
+    "text": "Notice this means its size is proportional to the difference between the network's"
+  },
+  {
+    "t_start": 258.592,
+    "t_end": 262.922,
+    "text": "output and the thing we want it to be, so if that output was very different,"
+  },
+  {
+    "t_start": 262.922,
+    "t_end": 267.14,
+    "text": "even slight changes stand to have a big impact on the final cost function."
+  },
+  {
+    "t_start": 267.84,
+    "t_end": 271.917,
+    "text": "The derivative of a(L) with respect to z(L) is just the derivative"
+  },
+  {
+    "t_start": 271.917,
+    "t_end": 276.18,
+    "text": "of our sigmoid function, or whatever nonlinearity you choose to use."
+  },
+  {
+    "t_start": 277.22,
+    "t_end": 284.66,
+    "text": "And the derivative of z(L) with respect to w(L)... In this case comes out to be a(L-1)."
+  },
+  {
+    "t_start": 285.76,
+    "t_end": 289.384,
+    "text": "Now I don't know about you, but I think it's easy to get stuck head down in the"
+  },
+  {
+    "t_start": 289.384,
+    "t_end": 293.42,
+    "text": "formulas without taking a moment to sit back and remind yourself of what they all mean."
+  },
+  {
+    "t_start": 293.92,
+    "t_end": 298.254,
+    "text": "In the case of this last derivative, the amount that the small nudge to the"
+  },
+  {
+    "t_start": 298.254,
+    "t_end": 302.82,
+    "text": "weight influenced the last layer depends on how strong the previous neuron is."
+  },
+  {
+    "t_start": 303.38,
+    "t_end": 308.28,
+    "text": "Remember, this is where the neurons-that-fire-together-wire-together idea comes in."
+  },
+  {
+    "t_start": 309.2,
+    "t_end": 312.372,
+    "text": "And all of this is the derivative with respect to w(L)"
+  },
+  {
+    "t_start": 312.372,
+    "t_end": 315.72,
+    "text": "only of the cost for a specific single training example."
+  },
+  {
+    "t_start": 316.44,
+    "t_end": 319.902,
+    "text": "Since the full cost function involves averaging together all"
+  },
+  {
+    "t_start": 319.902,
+    "t_end": 322.96,
+    "text": "those costs across many different training examples,"
+  },
+  {
+    "t_start": 322.96,
+    "t_end": 327.46,
+    "text": "its derivative requires averaging this expression over all training examples."
+  },
+  {
+    "t_start": 328.38,
+    "t_end": 331.833,
+    "text": "And of course, that is just one component of the gradient vector,"
+  },
+  {
+    "t_start": 331.833,
+    "t_end": 335.073,
+    "text": "which itself is built up from the partial derivatives of the"
+  },
+  {
+    "t_start": 335.073,
+    "t_end": 338.26,
+    "text": "cost function with respect to all those weights and biases."
+  },
+  {
+    "t_start": 340.64,
+    "t_end": 343.838,
+    "text": "But even though that's just one of the many partial derivatives we need,"
+  },
+  {
+    "t_start": 343.838,
+    "t_end": 345.26,
+    "text": "it's more than 50% of the work."
+  },
+  {
+    "t_start": 346.34,
+    "t_end": 349.72,
+    "text": "The sensitivity to the bias, for example, is almost identical."
+  },
+  {
+    "t_start": 350.04,
+    "t_end": 355.02,
+    "text": "We just need to change out this del z del w term for a del z del b."
+  },
+  {
+    "t_start": 358.42,
+    "t_end": 362.4,
+    "text": "And if you look at the relevant formula, that derivative comes out to be 1."
+  },
+  {
+    "t_start": 366.14,
+    "t_end": 370.263,
+    "text": "Also, and this is where the idea of propagating backwards comes in,"
+  },
+  {
+    "t_start": 370.263,
+    "t_end": 375.74,
+    "text": "you can see how sensitive this cost function is to the activation of the previous layer."
+  },
+  {
+    "t_start": 375.74,
+    "t_end": 379.972,
+    "text": "Namely, this initial derivative in the chain rule expression,"
+  },
+  {
+    "t_start": 379.972,
+    "t_end": 385.66,
+    "text": "the sensitivity of z to the previous activation, comes out to be the weight w(L)."
+  },
+  {
+    "t_start": 386.64,
+    "t_end": 390.482,
+    "text": "And again, even though we're not going to be able to directly influence"
+  },
+  {
+    "t_start": 390.482,
+    "t_end": 393.891,
+    "text": "that previous layer activation, it's helpful to keep track of,"
+  },
+  {
+    "t_start": 393.891,
+    "t_end": 397.949,
+    "text": "because now we can just keep iterating this same chain rule idea backwards"
+  },
+  {
+    "t_start": 397.949,
+    "t_end": 402.44,
+    "text": "to see how sensitive the cost function is to previous weights and previous biases."
+  },
+  {
+    "t_start": 403.18,
+    "t_end": 407.289,
+    "text": "And you might think this is an overly simple example, since all layers have one neuron,"
+  },
+  {
+    "t_start": 407.289,
+    "t_end": 411.02,
+    "text": "and things are going to get exponentially more complicated for a real network."
+  },
+  {
+    "t_start": 411.7,
+    "t_end": 415.909,
+    "text": "But honestly, not that much changes when we give the layers multiple neurons,"
+  },
+  {
+    "t_start": 415.909,
+    "t_end": 418.86,
+    "text": "really it's just a few more indices to keep track of."
+  },
+  {
+    "t_start": 419.38,
+    "t_end": 422.753,
+    "text": "Rather than the activation of a given layer simply being a(L),"
+  },
+  {
+    "t_start": 422.753,
+    "t_end": 427.16,
+    "text": "it's also going to have a subscript indicating which neuron of that layer it is."
+  },
+  {
+    "t_start": 427.16,
+    "t_end": 434.42,
+    "text": "Let's use the letter k to index the layer L-1, and j to index the layer L."
+  },
+  {
+    "t_start": 435.26,
+    "t_end": 438.567,
+    "text": "For the cost, again we look at what the desired output is,"
+  },
+  {
+    "t_start": 438.567,
+    "t_end": 443.128,
+    "text": "but this time we add up the squares of the differences between these last layer"
+  },
+  {
+    "t_start": 443.128,
+    "t_end": 445.18,
+    "text": "activations and the desired output."
+  },
+  {
+    "t_start": 446.08,
+    "t_end": 450.84,
+    "text": "That is, you take a sum over a(L)j minus yj squared."
+  },
+  {
+    "t_start": 453.04,
+    "t_end": 457.12,
+    "text": "Since there's a lot more weights, each one has to have a couple more"
+  },
+  {
+    "t_start": 457.12,
+    "t_end": 461.08,
+    "text": "indices to keep track of where it is, so let's call the weight of"
+  },
+  {
+    "t_start": 461.08,
+    "t_end": 464.92,
+    "text": "the edge connecting this kth neuron to the jth neuron, w(L)_jk."
+  },
+  {
+    "t_start": 465.62,
+    "t_end": 468.38,
+    "text": "Those indices might feel a little backwards at first,"
+  },
+  {
+    "t_start": 468.38,
+    "t_end": 472.183,
+    "text": "but it lines up with how you'd index the weight matrix I talked about in"
+  },
+  {
+    "t_start": 472.183,
+    "t_end": 473.12,
+    "text": "the part 1 video."
+  },
+  {
+    "t_start": 473.62,
+    "t_end": 477.881,
+    "text": "Just as before, it's still nice to give a name to the relevant weighted sum,"
+  },
+  {
+    "t_start": 477.881,
+    "t_end": 482.366,
+    "text": "like z, so that the activation of the last layer is just your special function,"
+  },
+  {
+    "t_start": 482.366,
+    "t_end": 484.16,
+    "text": "like the sigmoid, applied to z."
+  },
+  {
+    "t_start": 484.66,
+    "t_end": 488.992,
+    "text": "You can see what I mean, where all of these are essentially the same equations we had"
+  },
+  {
+    "t_start": 488.992,
+    "t_end": 493.018,
+    "text": "before in the one-neuron-per-layer case, it's just that it looks a little more"
+  },
+  {
+    "t_start": 493.018,
+    "t_end": 493.68,
+    "text": "complicated."
+  },
+  {
+    "t_start": 495.44,
+    "t_end": 499.223,
+    "text": "And indeed, the chain-ruled derivative expression describing how"
+  },
+  {
+    "t_start": 499.223,
+    "t_end": 503.42,
+    "text": "sensitive the cost is to a specific weight looks essentially the same."
+  },
+  {
+    "t_start": 503.92,
+    "t_end": 506.84,
+    "text": "I'll leave it to you to pause and think about each of those terms if you want."
+  },
+  {
+    "t_start": 508.98,
+    "t_end": 512.918,
+    "text": "What does change here, though, is the derivative of the cost"
+  },
+  {
+    "t_start": 512.918,
+    "t_end": 516.66,
+    "text": "with respect to one of the activations in the layer L-1."
+  },
+  {
+    "t_start": 517.78,
+    "t_end": 520.469,
+    "text": "In this case, the difference is that the neuron influences"
+  },
+  {
+    "t_start": 520.469,
+    "t_end": 522.88,
+    "text": "the cost function through multiple different paths."
+  },
+  {
+    "t_start": 524.68,
+    "t_end": 530.219,
+    "text": "That is, on the one hand, it influences a(L)0, which plays a role in the cost function,"
+  },
+  {
+    "t_start": 530.219,
+    "t_end": 535.63,
+    "text": "but it also has an influence on a(L)1, which also plays a role in the cost function,"
+  },
+  {
+    "t_start": 535.63,
+    "t_end": 537.54,
+    "text": "and you have to add those up."
+  },
+  {
+    "t_start": 539.82,
+    "t_end": 543.04,
+    "text": "And that, well, that's pretty much it."
+  },
+  {
+    "t_start": 543.5,
+    "t_end": 546.283,
+    "text": "Once you know how sensitive the cost function is to the"
+  },
+  {
+    "t_start": 546.283,
+    "t_end": 549.42,
+    "text": "activations in this second-to-last layer, you can just repeat"
+  },
+  {
+    "t_start": 549.42,
+    "t_end": 552.86,
+    "text": "the process for all the weights and biases feeding into that layer."
+  },
+  {
+    "t_start": 553.9,
+    "t_end": 554.96,
+    "text": "So pat yourself on the back!"
+  },
+  {
+    "t_start": 555.3,
+    "t_end": 560.056,
+    "text": "If all of this makes sense, you have now looked deep into the heart of backpropagation,"
+  },
+  {
+    "t_start": 560.056,
+    "t_end": 562.68,
+    "text": "the workhorse behind how neural networks learn."
+  },
+  {
+    "t_start": 563.3,
+    "t_end": 568.186,
+    "text": "These chain rule expressions give you the derivatives that determine each component in"
+  },
+  {
+    "t_start": 568.186,
+    "t_end": 573.3,
+    "text": "the gradient that helps minimize the cost of the network by repeatedly stepping downhill."
+  },
+  {
+    "t_start": 574.3,
+    "t_end": 578.395,
+    "text": "If you sit back and think about all that, this is a lot of layers of complexity to"
+  },
+  {
+    "t_start": 578.395,
+    "t_end": 582.74,
+    "text": "wrap your mind around, so don't worry if it takes time for your mind to digest it all."
+  }
+]

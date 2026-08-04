@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ku_video_3vGiWK_ZyKs_3",
+    "t_start": 3.2,
+    "t_end": 94.8,
+    "type": "overview",
+    "summary": "this talk will be an introduction to the birch swinot and dyer conjecture at a roughly graduate student level and so first of all it's named after two so birch is brian birch and swinners and dye is peter and swinners and dye is peter swinnes and dyer or professor sir peter and the birch windows and dire conjecture relates the following two objects we take the rank of a mordell group and we're going to relate it to the order order of zero of the l function at s equals one so i better start i will start by explaining what all these various things are like what is an elliptic curve what is th…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_94",
+    "t_start": 94.8,
+    "t_end": 185.4,
+    "type": "overview",
+    "summary": "and we've got a curve like this so typically an elliptic curve typically an elliptic curve if you draw it it might look something and the problem here b and c are going to be rational to be rational and the problem we want to do we want to solve is find all rational points um for instance a well-known historical example studied by ferma is an elliptic curve y squared equals x cubed minus two equals x cubed minus two and this obviously has one rational and this obviously has one rational point five three for example and if you look at it you see it's really rather a difficult problem to figu…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_185",
+    "t_start": 185.4,
+    "t_end": 274.2,
+    "type": "overview",
+    "summary": "this curve you see it intersects the curve in three and we can define a group structure on the points of the elliptic curve by the points of the elliptic curve by saying a plus b plus c equals naught if and only if a b c lie on if and only if a b c lie on a line and this turns out to make the points on the elliptic curve into an abelian group and that's not at all obvious by the way i mean all obvious by the way i mean in particular checking associativity of in particular checking associativity of this edition is quite complicated uh i should say that the the zero point of the group say tha…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_278",
+    "t_start": 278.6,
+    "t_end": 373.5,
+    "type": "overview",
+    "summary": "um this means that it's a finite abelian group group which are pretty well understood direct number of copies of z where where this number here is called the rank of the mordelve group um and we would like to understand both this finite part and the rank and we this finite part and the rank and we sort of pretty much understand the sort of pretty much understand the finite part so finite part so barry mazer showed that the finite part at most 12. so we've sort of got it under control under control the rank is much more mysterious for example one obvious question is can the rank be arbitrary…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_373",
+    "t_start": 373.5,
+    "t_end": 466.0,
+    "type": "overview",
+    "summary": "19 when i last heard and one of rank 28 numbers may have gone up since i last 28 numbers may have gone up since i last checked this of course um so the rank of an elliptic curve is still a somewhat mysterious object and still a somewhat mysterious object and it's this rank of the elliptic curve it's this rank of the elliptic curve that the birch swimness and dire that the birch swimness and dire conjecture conjecture tells us or conjectures something about so we noticed first of all that the rank is equal to naught if and only if rank is equal to naught if and only if the number of points i…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_465",
+    "t_start": 466.0,
+    "t_end": 560.3,
+    "type": "overview",
+    "summary": "and that sort of means you're slightly more likely to have a point modulo p more likely to have a point modulo p so what we do is we let np be the number of points on the elliptic curve mod p in other words we're trying to solve y squared equals x cubed plus b x plus c mod p and that number is not p because we really ought to count a point at infinity that i'm point at infinity that i'm being a bit sloppy about so if you've got a rational point then most of the time you can reduce it mod p of the time you can reduce it mod p as long as p doesn't divide the as long as p doesn't divide the de…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_560",
+    "t_start": 560.3,
+    "t_end": 647.9,
+    "type": "overview",
+    "summary": "this might correspond to a finite number of points well one problem is there's no reason why this should actually converge even why this should actually converge even if it's finite i mean these if it's finite i mean these these numbers might just sort of these numbers might just sort of oscillate up and down a little bit oscillate up and down a little bit it's really not clear but what you can it's really not clear but what you can do instead of looking at this product do instead of looking at this product you can look at the product for p less than equal to n of np over p and look at this…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_651",
+    "t_start": 651.0,
+    "t_end": 741.0,
+    "type": "overview",
+    "summary": "um well obviously you you can look into that a bit more closely and that a bit more closely and try and um compare the rate of growth of the product over p less than equal to n of n p over p with the order of the zero so that so they looked order of the zero so that so they looked at this too they they tried to see how at this too they they tried to see how this number grew with n and compared it with the order and the elliptic curve and what they found elliptic curve and what they found is that um this expression here is that um this expression here is grows roughly like is grows roughly l…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_741",
+    "t_start": 741.0,
+    "t_end": 832.4,
+    "type": "overview",
+    "summary": "number of points on an elliptic curve modulo p so if we have an elliptic curve modulo p then the number of points is equal to p then the number of points is equal to p minus alpha p minus alpha p prime minus alpha p minus alpha p prime plus one where alpha p is a complex number of absolute value square root of p this is the famous well it's the riemann hypothesis for elliptic curves which was first proved elliptic curves which was first proved by hasa it's quite a lot easier than the riemann hypothesis for riemann zeta function hypothesis for riemann zeta function um and the elliptic curve …"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_832",
+    "t_start": 832.4,
+    "t_end": 923.9,
+    "type": "overview",
+    "summary": "bad primes where you need to think a little bit harder about it little bit harder about it so so this equality is not quite true but i'm going to sort of ignore that um now um you notice this product is looks a bit like the product for the riemann zeta function so the ordinary riemann zeta function so the ordinary riemann zeta function looks like the product over p of one over one minus p minus s and if you notice this one over one minus p minus s looks this one over one minus p minus s looks just like this factor here just like this factor here so you find this the zeta function of is um t…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_927",
+    "t_start": 927.2,
+    "t_end": 1022.8,
+    "type": "overview",
+    "summary": "minus alpha p minus alpha bar p plus one is equal to one over l p of one is equal to one over l p of one so the product over all these numbers n so the product over all these numbers n p over p is essentially one over l of one where this is the l function of the elliptic curve so this is the product that birch and soreness and dye were investigating this is the elliptic curve investigating this is the elliptic curve well the trouble is well the trouble is this product does not converge um so you've got to be a bit careful we're just sort of arguing informally we're just sort of arguing info…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_1022",
+    "t_start": 1022.8,
+    "t_end": 1114.7,
+    "type": "overview",
+    "summary": "the the l function of the elliptic curve is non-zero at one so this is the first of the birch swinus and dire conjecture that the the that it gives a criterion that the the that it gives a criterion for an elliptic curve to have an infinite number of points it has an infinite number of points if and only if l series um vanishes at one or rather i should say this this has to or rather i should say this this has to be an analytic continuation of the l be an analytic continuation of the l series because as i said the series because as i said the l series doesn't actually converge at s that's a…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_1114",
+    "t_start": 1114.7,
+    "t_end": 1207.4,
+    "type": "overview",
+    "summary": "group of elliptic curve is equal to the order of the zero of the elliptic curve at s equals one um this is one form of the birch source and diet conjecture merchants and diet conjecture merchants and i actually refined this a bit you can say l e of s is equal to s minus 1 to the s is equal to s minus 1 to the g where you conjecture this g is the g here times some constant and birch and swino's diet also pinned and birch and swino's diet also pinned down what they felt this constant taught down what they felt this constant taught to be and it turns out to be rather to be and it turns out to …"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_1207",
+    "t_start": 1207.4,
+    "t_end": 1294.6,
+    "type": "overview",
+    "summary": "tachofarovic group was again a little bit dubious um so um that's what so that's what the um that's what so that's what the birch sweetness and diet conjecture says birch sweetness and diet conjecture says roughly speaking what i'm going to do now is to discuss some of the progress that has been made some of the progress that has been made on proving it and we've actually come quite a long way stayed so i guess the first substantial progress was made by coats substantial progress was made by coats and wilds i guess this would be in the late 70s it said that suppose elliptic curve has it sai…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_1297",
+    "t_start": 1297.6,
+    "t_end": 1383.3,
+    "type": "overview",
+    "summary": "of an elliptic curve e and they all have endomorphisms which take take a point a to n times a for n in the integers and a few of them have in the integers and a few of them have extra endomorphisms so let me give some examples an example of a curve with extra endomorphisms of a curve with extra endomorphisms we might look at the curve y squared x and this actually has some extra automorphisms you see here the only automorphisms you see here the only automorphisms would be when n is plus or and it certainly has these automorphisms because we can change y to minus y map x to x and this will b…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_1390",
+    "t_start": 1391.0,
+    "t_end": 1476.2,
+    "type": "overview",
+    "summary": "um then they showed that um l one um which could be written as um algebraic number times some transcendental constant the the algebraic number would have to be divisible by an infinite number of which are sort of actually vaguely related to irregular primes but never related to irregular primes but never mind so you could say roughly speaking that if the mordell group is infinite then l if the mordell group is infinite then l of one is divisible by an infinite number of primes and this shouldn't be taken too seriously because shouldn't be taken too seriously because this is actually a real …"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_1487",
+    "t_start": 1487.1,
+    "t_end": 1578.3,
+    "type": "overview",
+    "summary": "and um the proof of this use something called called haydner points so let me explain very roughly what a modular curve is and what a hagener point is so modular means roughly that the elliptic modular means roughly that the elliptic curve can be parametrized by modular curve can be parametrized by modular functions this means there's a map from functions this means there's a map from the upper half plane the upper half plane to the elliptic curve given by some sort and a modular function is one that well the simplest sort of modular function the simplest sort of modular function being vari…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_1578",
+    "t_start": 1578.3,
+    "t_end": 1670.0,
+    "type": "overview",
+    "summary": "point with algebraic coordinates but then by fiddling around with that and summing over galway groups or something you can get a rational point something you can get a rational point out of it so so by looking at these quadratic irrationals in the upper half plane irrationals in the upper half plane we can get points on the elliptic curve and the idea of gross and zagias proof was they showed that the height on the elliptic curve e is related to the derivative of the l series at s equals one it's some complicated constant times this derivative constant times this derivative so so the height…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_1669",
+    "t_start": 1670.0,
+    "t_end": 1755.0,
+    "type": "overview",
+    "summary": "of modular elliptic curves let me give an example of a modular elliptic curve so suppose you take the elliptic curve y squared minus y equals x cubed minus x squared minus y equals x cubed minus x squared um then it turns out to be related by it's related to the following related to the following modular um modular form a modular form modular um modular form a modular form is a going to write sum of cnq to the n is given by the following series q times is given by the following series q times product 1 minus q product 1 minus q to the n times 1 minus q to 11 done modular forms you might rec…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_1761",
+    "t_start": 1761.8,
+    "t_end": 1852.3,
+    "type": "overview",
+    "summary": "in particular so the l series of this curve would be the melon transform curve would be the melon transform of this modular form here in particular of this modular form here in particular this means the l series can be continued so for modular elliptic curves we know the l series does actually make sense at the l series does actually make sense at s equals one um there's another interesting point about it interesting point about it that these modular forms satisfy a um and um a certain function equation and this implies that the l series also and this implies that the l series also satisfie…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_1852",
+    "t_start": 1852.3,
+    "t_end": 1943.3,
+    "type": "overview",
+    "summary": "um if the zero has as has ordered greater than one then all the hegel greater than one then all the hegel points turn out to be zero and you and points turn out to be zero and you and and are much less useful um so the next piece of progress i'm going to talk about was by i'm going to talk about was by colliervargen caulivargen sorry um again may assume that is modular so it can be parametrized by modular functions modular functions and he showed that if the l series has a of order zero or one then the more delve group or the mordell then the more delve group or the mordell group has rank z…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_1943",
+    "t_start": 1943.3,
+    "t_end": 2034.6,
+    "type": "overview",
+    "summary": "where you um look at the um coefficient so so where you look at the coefficient so so where you look at the coefficient um c where you're looking at um where the l series um where the l series is about some constant times is about some constant times s minus 1 to the g so so far all these results only applied to modular elliptic curves so the next to modular elliptic curves so the next very big breakthrough very big breakthrough was by wiles um and his his proof was soon after extended by royal and conrad and diamond and taylor who showed not just many elliptic curves and modular but all cu…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_2034",
+    "t_start": 2034.6,
+    "t_end": 2129.4,
+    "type": "overview",
+    "summary": "show that all elliptic curves are modular this the the this is the famous modular this the the this is the famous tanyama shimuro way conjecture so while sort of turned this upside down he showed that this upside down he showed that he he managed to solve what everybody he he managed to solve what everybody thought was the hard part of the birch thought was the hard part of the birch swinot and dyer conjecture swinot and dyer conjecture in particular this shows that the l series is always equals one so in particular the birch surface and diode conjecture actually surface and diode conjectur…"
+  },
+  {
+    "id": "ku_video_3vGiWK_ZyKs_2129",
+    "t_start": 2129.4,
+    "t_end": 2222.9,
+    "type": "overview",
+    "summary": "modular which was thought to be the hard part of it so what's left to do in the birch swimming and die conjecture well what's left what is still well what's left what is still open is the case of ranks greater than and what's the main problem with doing this well i think one of the main problem is that points on an elliptic curve e with rank greater than one or it seems e with rank greater than one or it seems to be really hard um so if if the rank is zero then there's no problem because there are only a finite number of points so you're only a finite number of points away from having them …"
+  }
+]

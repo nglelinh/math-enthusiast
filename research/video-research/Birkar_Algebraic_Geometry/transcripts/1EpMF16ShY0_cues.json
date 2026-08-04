@@ -1,0 +1,77 @@
+[
+  {
+    "t_start": 8.24,
+    "t_end": 12.78,
+    "text": "My name is Caucher Birkar. I'm a professor of mathematics at the"
+  },
+  {
+    "t_start": 12.78,
+    "t_end": 15.679,
+    "text": "University of Cambridge."
+  },
+  {
+    "t_start": 18.77,
+    "t_end": 25.04,
+    "text": "I think it's important to have something original something authentic both in"
+  },
+  {
+    "t_start": 25.04,
+    "t_end": 30.65,
+    "text": "mathematics and also generally in life. Because I believe that a lot of problem"
+  },
+  {
+    "t_start": 30.65,
+    "t_end": 36.44,
+    "text": "in the world, social and political, arise because people imitate other people,"
+  },
+  {
+    "t_start": 36.44,
+    "t_end": 41.54,
+    "text": "because countries imitate other countries. It's okay to learn from others,"
+  },
+  {
+    "t_start": 41.54,
+    "t_end": 48.4,
+    "text": "to take ideas and to develop it. But it's not good I think just to imitate others."
+  },
+  {
+    "t_start": 52.629,
+    "t_end": 57.91,
+    "text": "In algebraic geometry, geometric spaces are called algebraic varieties and some"
+  },
+  {
+    "t_start": 57.91,
+    "t_end": 62.409,
+    "text": "of them are more special than others. Especially there are some of them which"
+  },
+  {
+    "t_start": 62.409,
+    "t_end": 67.57,
+    "text": "are called final varieties and the one of the building blocks of algebraic"
+  },
+  {
+    "t_start": 67.57,
+    "t_end": 72.97,
+    "text": "varieties and what I proved is that if you put some mild conditions on this"
+  },
+  {
+    "t_start": 72.97,
+    "t_end": 78.82,
+    "text": "kind of varieties then you can parameterize them by only finitely many"
+  },
+  {
+    "t_start": 78.82,
+    "t_end": 85.149,
+    "text": "set of parameters. In a simple language that just means that you need"
+  },
+  {
+    "t_start": 85.149,
+    "t_end": 91.36,
+    "text": "only a fixed set of variables and equations of a bounded degree to define"
+  },
+  {
+    "t_start": 91.36,
+    "t_end": 94.77,
+    "text": "all such varieties."
+  }
+]

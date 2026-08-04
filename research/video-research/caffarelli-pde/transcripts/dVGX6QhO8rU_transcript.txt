@@ -1,0 +1,693 @@
+so this is the title non-linear and local surfaces structural problems and
+local surfaces structural problems and some their applications okay and so well
+list of the world so what is the diffusion process and uh
+diffusion process and uh uh okay so here are some some stuff so
+uh okay so here are some some stuff so so
+okay so basically as I test over there right we want to
+study the structure of some problem of some surface right
+so this is a we want to model then equations the
+we want to model then equations the advantage in space and time so here they
+advantage in space and time so here they are in space and then we have to make
+variations of it right or probability densities or
+densities or speed
+speed of a fro or even a ball in elastic is a
+of a fro or even a ball in elastic is a Christian local diffusion equations
+etc etc etc okay so basically let's try to look at this at this mathematics and
+to look at this at this mathematics and see how it evolves okay so as I says
+they are these models that in general that we are discussing is many times
+describe using partial differential equations here
+oops here we have a case right and here we have another right this is a Surface
+we have another right this is a Surface which is bent up from One Direction and
+which is bent up from One Direction and bend up on the other right and that has
+tangent line and some point right the amount of that it bends down is equal to
+amount of that it bends down is equal to the amount as that indents up and
+the amount as that indents up and therefore if that's the case then it
+therefore if that's the case then it satisfies an equation that basically
+says that the laplacian is zero because you lose one of half of the LaPlace and
+you lose one of half of the LaPlace and down the other up at the right times
+down the other up at the right times okay so basically
+okay so basically oops sorry
+oops sorry which this no
+yeah okay so so this is the picture here radio this way is bending up and none
+level and so basically you have the this the surface is equal to zeros so I mean
+the surface is equal to zeros so I mean curvature so what is
+the sum of the principle or the principal
+curvature's mother in the in the diffusion operator in Divergence form in
+other words we have this a diffusion operator is the same Revenge bending but
+operator is the same Revenge bending but while saying that the bending is the
+same above and down right and so this
+measuring how is you bending you have to do the Divergence of the graphics which
+is the Divergence of the gradient of U right and so that is what the Alaska how
+right and so that is what the Alaska how the bending is right if you take at the
+point that tangential law surface right and they make that their basis and then
+when you have here your point now is tangential zero and then you look at the
+tangential zero and then you look at the what happens with the laplacian that is
+what happens with the laplacian that is the way that function is bending up and
+applications it is interesting when this is a Divergence of some oscillation of
+the gradient of U of X right this is a family of problems which has some sense
+family of problems which has some sense of many
+applications right because it's not so flat as these we are the surfaces so
+flat as these we are the surfaces so like this you know when there are
+like this you know when there are ingredients right in the for instance in
+ingredients right in the for instance in the quality of this quantity that
+the quality of this quantity that um is more
+interesting for in that case you have to look at Divergence of some quantity of
+gradient of view which I hope will may appear later and the same beautiful the
+appear later and the same beautiful the simplest one is this one the laplacian
+simplest one is this one the laplacian okay so let's see if oop we can go a
+little bit to the LaPlace and here we have another example right of of an
+elliptic questions right you have here some parts on Circle going up and down
+some parts on Circle going up and down right solid liquid temperature so
+basically you have this circle and then here you have a a surface where there is
+here you have a a surface where there is a separation right from the solid liquid
+temperature tea right so here are the t is a positive right and here the t is oh
+is a positive right and here the t is oh it's my fault now okay
+and here is negative right and so there is this is separating this
+place right like we are seeking and temperature right so that this is a
+temperature right so that this is a fluid for instance and so you're looking
+fluid for instance and so you're looking at the temperature and there is this
+at the temperature and there is this this
+this foreign
+for another reason it's just that the temperature
+was negative below and it is transforming above right and so this is
+transforming above right and so this is the change in surface okay
+and so uh here it is the solid region a temperature this year or less than zero
+temperature this year or less than zero with a free boundary surface write this
+with a free boundary surface write this one right which is uh which is uh the
+one right which is uh which is uh the one that separates right that capital T
+of X Little T because it is this surface is changing in time right
+this surface is changing in time right so
+and this is the T of x t equal to 0 is this this the what happens in this
+surface which is evaluation right so the temperature in liquid region evolves
+according to the heat equation right so the coordinating if if it is negative
+the coordinating if if it is negative the end you have that the the change it
+is here right is what I said at the beginning that instead of doing the
+LaPlace and you have the dij of some quantity that gives you more or less
+quantity that gives you more or less what is happening it's not just the
+what is happening it's not just the direction how things are bending right
+direction how things are bending right which is this tij
+which is this tij of X right
+which in the classical case is just one right or uh or a characteristic of K
+right or uh or a characteristic of K right so but here now it is as I said as
+a variation diver D of x j of this coefficient k i j of x d x r d j x okay
+coefficient k i j of x d x r d j x okay of the function T of x and t right in
+other words this is evolving at the beginning looks like there was no T but
+beginning looks like there was no T but now we are saying no we are going to
+now we are saying no we are going to look at the case where the surface is is
+look at the case where the surface is is evolving right and therefore that's what
+evolving right and therefore that's what the equation that you are interested is
+the equation that you are interested is not anymore the laplacian but it is this
+let's see how did I get to get a new Holland now uh you push it up
+maybe it's my fault okay okay well but I don't want to squeeze now in a little
+don't want to squeeze now in a little white I'm going to squeeze now let me
+get to a second problem right so the first one was this surface Swim Club
+this is a family of things that are translating upwards right as you can see
+translating upwards right as you can see from this is now we are looking at the
+surface at the function right that is moving upwards right and of course to
+moving upwards right and of course to make it nice or well at least
+make it nice or well at least interesting right uh different in
+different lines it moves with a different invest the velocity right but
+different invest the velocity right but this mathematically is very close to the
+first example right so we have this uh this movement
+here right and if you make it you cut the translation then with the picture
+that you say is this distribution right like saying near the center the velocity
+like saying near the center the velocity is a smaller than near the edges right
+and then oh
+accelerates the particle uh spice time positions right so you have x and t and
+positions right so you have x and t and they said there is a particle
+they said there is a particle accelerator in different
+accelerator in different in a different way at some x t x y x one
+in a different way at some x t x y x one t one then I have to zero to zero right
+t one then I have to zero to zero right so it's like oops okay so basically it's
+so it's like oops okay so basically it's a as I said here is a fluid right flow
+with some velocity Phi right and this velocity V is a velocity of x and t and
+then how does one Express these diffusion equations mathematically right
+diffusion equations mathematically right one possibility is to compare the
+average velocity V of YT in a tiny ball right B Epsilon of x0 around x0 with the
+actuality velocity V of x0 T and to take the quantity the average right of V of Y
+the quantity the average right of V of Y T minus V of x 0 t d y right
+T minus V of x 0 t d y right B Epsilon of exceed in other words I am
+B Epsilon of exceed in other words I am a tuxedo and I look at the little
+a tuxedo and I look at the little neighborhood right this Y is a little
+neighborhood right this Y is a little neighborhood around exceed all right and
+neighborhood around exceed all right and then you are looking at the Velocity in
+this Epsilon there right that is saying this is a little circle right and so
+this is a little circle right and so what I'm looking is here as the veracity
+what I'm looking is here as the veracity at here I think back this picture more
+at here I think back this picture more let's say here is the Exile right and
+here is the Y and the Y is near x0 are going faster right and it is what is DC
+going faster right and it is what is DC in this in this formula right that is
+this average of the Velocity at y t minus x0 t right and is positive because
+minus x0 t right and is positive because this is the notion of diffusion we want
+this is the notion of diffusion we want to use in this case Okay in other words
+to use in this case Okay in other words you can get different
+you can get different with different uh advantages
+become somebody that helps me yes so I have so I wait to see diffusion
+operators as averaging right so I want we have these examples of whatever
+we have these examples of whatever diffusions and things like that so now
+diffusions and things like that so now we want to go more uh close more inside
+we want to go more uh close more inside the mathematics of it okay so basically
+the mathematics of it okay so basically we want to make a more just description
+we want to make a more just description of what is the diffusion operator right
+okay and so basically a way to see the integral averaging as a diffusion
+integral averaging as a diffusion process in the in the
+In the Heat of fluid equation is to introduce the laplacian PD operators
+also the laplacian right it was in the general case we got a generalization of
+general case we got a generalization of the replacing here just get the
+laplacian right uxx plus u y y or something like that okay so here we have
+something like that okay so here we have in this case right we have this is an
+we go to zero and you get the laplacian in some sets so basically you will take
+U of X plus c h so we are doing the averaging around x x right so basically
+averaging around x x right so basically you are taking the discrete way to do
+that is you are taking U of X Plus H minus U plus X is Frozen right now
+minus U plus X is Frozen right now sounds of Frozen at this point and then
+you have U of X Plus H minus E of X that is U of X at the surrounding against the
+o u right and then so uh we this is making an overages right because you are
+making an overages right because you are making this a sort of other integral
+making this a sort of other integral also the the age is the Epsilon as it
+says here so the age makes a u of X Plus H to be around U of X in a low circle
+H to be around U of X in a low circle right differential of a FH of that is
+right differential of a FH of that is the things in the the little ball right
+so basically I'm looking at the average right if you take this and this and you
+right if you take this and this and you averages with the point of the low Point
+averages with the point of the low Point uh y around the zero then basically what
+you are Computing is there sort of fractional laplacian in some
+sort of fractional laplacian in some sense right that is U of X Plus H minus
+G of x d h right and in that in the kernel of that in this place of size be
+kernel of that in this place of size be Epsilon but then you divide by B to that
+by Epsilon Square to make really an average right so you have you are
+average you want to want to solve in some sense the the laplacian right and
+some sense the the laplacian right and then you approach it by the average
+increase here you take an Epsilon you are doing the Avalanche divide by the
+are doing the Avalanche divide by the average square right and then you make
+average square right and then you make Epsilon go to zero and when you do that
+what do you get is the tangential laplacian perfume right you have the
+trace of the IJ of U of X or what it is the same the laplacian of U attacks okay
+the same the laplacian of U attacks okay so
+the the important thing I want to to to to tell you is right it is it is an
+to tell you is right it is it is an interesting important thing is this way
+interesting important thing is this way right of approaching the laplacian
+because it has many applications right like if you have a medium which is not
+like if you have a medium which is not just like what corresponds to the
+just like what corresponds to the laplacian but it has you throw some
+laplacian but it has you throw some quantity of something and that makes a
+quantity of something and that makes a mice make makeup it's more variations of
+mice make makeup it's more variations of himself being the laplacian it's a tiny
+himself being the laplacian it's a tiny average
+this in some sense is much more easier to understand because to understand
+Point wise you know this looks okay whatever but to describe something that
+is in interaction like us that between the points right as the laplacian it is
+the points right as the laplacian it is like a second point the second
+derivative which is it is hard to decide that this this have this corresponds to
+that this this have this corresponds to an interaction between myself and the
+an interaction between myself and the people around right that means okay you
+people around right that means okay you accept right
+while if you look at as a small average then there starts to be important
+then there starts to be important interaction right I am here and I have
+interaction right I am here and I have enough this I can do from myself
+enough this I can do from myself something to the people that announce me
+something to the people that announce me and each one there can do the same again
+and again and again right so it is very important to really understand better
+important to really understand better not just the laplacian but the
+not just the laplacian but the fractional of what it's called the
+so a more General situation then is this non-local diffusion equation written in
+non-local diffusion equation written in this form right where you are having now
+I'm going to tell you T of U of x 0 that is fraction of laplacian part and then
+is fraction of laplacian part and then I'm going to look at the average oops
+I'm going to look at the average oops the average of U of X U at x t minus U
+the average of U of X U at x t minus U of x 0 t so now the time is fixed and
+I'm looking at the averaging in space right and then okay and then what do I
+have for this laplacian and so I said like I'd like to understand how things
+like I'd like to understand how things happens when I have this special case of
+Sigma of Y minus X here this is the average more General average in that
+average more General average in that what I mentioned before right and
+depending on the sigma what you have here is not necessarily the laplacian of
+here is not necessarily the laplacian of the function right but some average
+the function right but some average laplacian times average in right so it's
+segment Sigma let's call it sigmas Sigma Alpha U of x0 T okay so basically
+Sigma Alpha U of x0 T okay so basically here the picture is that I am let's say
+here the picture is that I am let's say 40 fix right what you have is all of
+40 fix right what you have is all of these Rings right which are given by
+this K Sigma right and so gives at the point x 0 of what is going on at y okay
+point x 0 of what is going on at y okay for all y belonging to uh uh R to the N
+for all y belonging to uh uh R to the N okay note that when at Sigma is one the
+okay note that when at Sigma is one the average operator becomes a laplacian but
+average operator becomes a laplacian but many times you are interested in
+many times you are interested in but places where the averaging uh the
+but places where the averaging uh the volume of the quality of the averaging
+around a point kind that can depends very much on the position and things
+very much on the position and things like that so it's not just the the
+like that so it's not just the the laplacian okay so uh
+laplacian okay so uh um so typical so let me show you some
+examples of that right there's a surface diffusion in free boundary problems in
+diffusion in free boundary problems in probability in integral diffusion
+processes right that is not continuous that is Levy process in optimal control
+that is Levy process in optimal control game theory and finance models okay so
+game theory and finance models okay so there are many applications where this
+there are many applications where this non-lock non-infinikesimal non-local
+media appears okay so in continuous mechanics they appear when considering
+mechanics they appear when considering surface diffusion or Surface
+surface diffusion or Surface discontinuities that is when they are
+jump on the boundary that perceive long-range perceived long
+ranges from the interactions taking place on both sides of the surface
+place on both sides of the surface fundamental examples are requisite
+fundamental examples are requisite geostromic drafts geostrophic equations
+geostromic drafts geostrophic equations for asean atmosphere
+interactions that is where there is mixing between water and solid parts
+mixing between water and solid parts right semi-permeable membranes and bran
+right semi-permeable membranes and bran plane scratch propagation okay so it's
+plane scratch propagation okay so it's basically cases where there is a known
+basically cases where there is a known it's not infinitesimal anymore the the
+it's not infinitesimal anymore the the mathematics right there is averaging and
+jumping and so on so in fluid dynamics model for turbulence flows or particular
+model for turbulence flows or particular Integrations
+bouncing through random media that's what I was saying of this thing nearby
+what I was saying of this thing nearby that you want to average and differences
+that you want to average and differences case so
+here are some of the classical authors right so surface difference
+right so surface difference surface differential processes includes
+you can say right surface difference processes induces by interfaces right
+processes induces by interfaces right and interface problem study
+configurations consisting okay so inter when we go a little bit so it's a second
+when we go a little bit so it's a second in inter
+integration problem study configurations consisting in having a diffusion
+consisting in having a diffusion equations with two or more different
+Medias in other words with different distance and so on think of the solid
+distance and so on think of the solid eyes right when you have eyes and liquid
+eyes right when you have eyes and liquid water then it was a solid and the liquid
+and there is this in the surface of melting right that the big an important
+melting right that the big an important role there okay the
+uh schematically the solution of such a problem that is how the the
+melding things then schematically the solution of such a problem for any fixed
+solution of such a problem for any fixed time describe a surface s in a boundary
+time describe a surface s in a boundary boundary of interaction between the C
+boundary of interaction between the C diffusion equations
+institution equation on each of the surfaces in other words I have this
+surfaces in other words I have this differentiation and here we have the
+differentiation and here we have the medium a and we have to have the medium
+evolve in time as we can see so we have these three boundary surfaces called
+this so an important family of examples concerns or versus diffusion in other
+concerns or versus diffusion in other words we have the today the the
+difference the separation right and then we want to see how that evolves okay so
+we want to see how that evolves okay so in that case quantitative quantities
+that live on the surface was flows through a membrane in our discuss the
+through a membrane in our discuss the membrane and things flow through the
+flow and affects and affected by long-range interactions could be here
+long-range interactions could be here right through media A and B at both
+surface s in other words okay great so here this is a as I said is a much more
+here this is a as I said is a much more interesting what we are looking up to
+interesting what we are looking up to now was circular things and very special
+now was circular things and very special and very even here now becomes more
+interesting things where you have two media right I mean imagine your one
+media right I mean imagine your one solid and not so solid or water or with
+solid and not so solid or water or with different properties right and so you
+different properties right and so you have this surface of discontinuity right
+have this surface of discontinuity right that will may want to try again to move
+bending or something like that so in this case quantities that live on the
+this case quantities that live on the surface right
+surface right foreign
+membrane and you have the medium and the other medium right and are affected
+other medium right and are affected for Long by long-range interaction
+through media A and B so you have this medium a right because these are going
+medium a right because these are going to be some Quantum quantity with some
+to be some Quantum quantity with some properties of melting or something like
+that and there is another property of melting or of heating or something like
+melting or of heating or something like that and then there is this separation
+that and then there is this separation right and so here are the interesting
+right and so here are the interesting thing that is the movement or the
+thing that is the movement or the evolution is in this Jump Place in this
+evolution is in this Jump Place in this surface of discontinuity right from
+medium a to medium by and okay in that case quantities that live on the surface
+case quantities that live on the surface right flow through a membrane that is
+right flow through a membrane that is the membrane right so the membrane
+sort of describes the surface and our affected by long-range interactions that
+affected by long-range interactions that the interactions through media a so and
+B in other words a medium something happens
+and then that's what makes interesting is what happens with the surface in
+is what happens with the surface in between okay so
+between okay so [Music]
+[Music] um
+oh did you just move it yeah great thank you I just cannot look up just okay so
+you I just cannot look up just okay so Movement by integral curvature right
+Movement by integral curvature right which is
+moving by integral curvature and surfaces minimizing non-local energy
+surfaces minimizing non-local energy okay so let's look at this uh uh problem
+right [Music]
+has changed okay class and so classify minimal server first of
+and so classify minimal server first of all so to find a perimeter right minimal
+surface as are those obtained by a
+minimization process as the stating stating so we have a any local
+stating so we have a any local you have any local perturbation of
+and suppose that this will be horizontal right like here are some Some solid
+right like here are some Some solid thing and above some liquid sinks and
+thing and above some liquid sinks and then there is some some then they bend
+in a particular initial way and you know a style Dropbox is a bending maybe more
+a style Dropbox is a bending maybe more and more right so any local
+and more right so any local perturbations of volumes D increases the
+perturbations of volumes D increases the perimeter right because the the
+perimeter is the the bending right is a perimeter so here we will have so here
+perimeter so here we will have so here the geometry is we have as a sigma right
+volume domain so you have here the sigma right the solid thing is a volume domain
+right the solid thing is a volume domain and S that is boundary of the of Omega
+is the minimal surface so you have the bias bases on the edges of the minimal
+Surplus right and the is based on the concept that
+either or what happens is that either prescribed either prescribe any change
+on Boundary of Omega by the perturbation of boundary of d right so we have here
+of boundary of d right so we have here boundary of Omega and here we have D so
+when D moves that perters then Delta Sigma right
+without taking into account what is outside the volume perturbation so this
+outside the volume perturbation so this is a d is
+mathematical problem we are basically we have what happens with d and how that
+have what happens with d and how that moves the top and I'm saying nothing of
+moves the top and I'm saying nothing of what happens above right so this is one
+what happens above right so this is one example right so either prescribe any
+example right so either prescribe any change boundary of Omega by the
+perturbation boundary of D without taking intact into account account what
+taking intact into account account what it is outside the volume per term D that
+is above so this is the classical meme curvature equation is local in this case
+or we can quantify the zero
+mean curvature condition as a highly as a higher order density cancellation in
+a higher order density cancellation in counseling or Omega and the complement
+counseling or Omega and the complement of Omega in the ball BR of exedo okay so
+of Omega in the ball BR of exedo okay so can I click let's see
+okay so that's the surface pick up the surface s that was in the middle right
+surface s that was in the middle right and which is uh which is the boundary of
+and which is uh which is the boundary of this Omega in other words in this case
+this Omega in other words in this case the the tall the the heavy thing is on
+is not on the surface but on below right and the surface just gives a quality of
+and the surface just gives a quality of how the edges the edge of uh is on the
+how the edges the edge of uh is on the top evolves right so here it says then
+top evolves right so here it says then the average of the of such a ball BR of
+the average of the of such a ball BR of x0 have different order depending on the
+x0 have different order depending on the surface as regularity right so the
+surface as regularity right so the surface remember was the one like that
+if Ash it was the boundary of Omega has mean curvature
+zero is satisfied uh smallest average on the ball b r of x0
+smallest average on the ball b r of x0 right so you have that the average of
+brbr of x0 of U of X is equal to the average of BR of x 0 of the boundary of
+average of BR of x 0 of the boundary of Omega minus
+volume of Sigma minus the volume of complement of Sigma DX that is equal to
+complement of Sigma DX that is equal to the O of R so basically
+the O of R so basically PR is more or less a little
+PR is more or less a little yeah a middle picture right where you
+yeah a middle picture right where you have separation here you have the d The
+Omega the lower Omega here we have S the Omega and then this how this evolves it
+Omega and then this how this evolves it is a
+elliptic or parabolic thing we want to consider okay but if s of 6 0 is the
+consider okay but if s of 6 0 is the boundary of Omega for any smooth
+or if the surface s equals boundary of Omega is just lip cheese then the
+Omega is just lip cheese then the resulting integrals have high higher
+resulting integrals have high higher order changing the scaling of the
+observations as a function of the ball radius R so in other words this is there
+radius R so in other words this is there is here some variation of its if this
+is here some variation of its if this structure right is is not just solid
+like as evaluating okay so here we have again your our friend right which was
+again your our friend right which was you remember this was the average in
+right and you have the U of the X right and the and you have this quantity b r
+and the and you have this quantity b r of R of x 0 right U of DX right and this
+is equal to the average remember this integral with the line right of a
+integral with the line right of a capital capital
+capital capital Sigma minus capital Sigma complement
+so we got the average this quantity is equal to the average and the ball of
+equal to the average and the ball of radius R of this difference of capital
+right on one side and the other right so remember this quantity is equal to this
+remember this quantity is equal to this quantity that looks at the two sides of
+the one above and it's equal to the average term of r r is a radius or the
+average term of r r is a radius or the average of one respectively okay so is
+average of one respectively okay so is the the various variation variance looks
+the the various variation variance looks I've seen these equations okay so the
+so this is laplacian along the boundary of Omega of U is equal to laplacian of
+minus the characteristic of the complement that's basically the same
+across the boundary of Omega okay so so we are interested in the case in
+so so we are interested in the case in which that is zero in Earth there is
+which that is zero in Earth there is this cancellation of the part above with
+this cancellation of the part above with the part below okay so so here there is
+another this is in some sense maybe the most interesting to my taste case right
+most interesting to my taste case right which is the different
+happenings when the equation has different energy right and so here we
+different energy right and so here we have two examples right so here we have
+in this disk let's say of radius one here we have a part which is
+here we have a part which is uh one here and
+minus 1 or 0 here and this thing in the middle and this thing in the middle is
+middle and this thing in the middle is like a slight tilted thing right and so
+like a slight tilted thing right and so what what is a way to describe that well
+what what is a way to describe that well this says that we have these functions
+this says that we have these functions with laplacian it is zero here it is
+hero here maybe it is zero here or not but it has this jump over here right and
+but it has this jump over here right and so these uh basically you look at that
+so these uh basically you look at that and that it is maybe interesting but you
+don't know very well why and this is interesting when
+here are the first derivative right it is smooth here smooth here and that is
+the gradient is smooth here smooth here and here has this jump but really what
+and here has this jump but really what is interesting at least for mathematics
+is interesting at least for mathematics in many cases what happens is when this
+do this steeper and steeper we are converging to something which is 1 minus
+converging to something which is 1 minus one and vertical zero which means that
+one and vertical zero which means that the the derivative now right here says
+the the derivative now right here says jump over here the derivative here is
+zero here is zero but here is Jump becomes vertical okay and therefore uh
+becomes vertical okay and therefore uh this if the limit of this it is
+this if the limit of this it is interesting because this is a general
+interesting because this is a general surface here but what happens with the
+surface here but what happens with the function is that this elliptic and noise
+function is that this elliptic and noise when it is flat right but the so that
+the second derivatives is infinity on this surface so it's as Epsilon goes to
+zero the the minimal surface the minimal surface here let's see here
+explaining better right the minimony and the energy functions your Epsilon gets
+very close to one and minus one with an a Epsilon narrow region of phase change
+a Epsilon narrow region of phase change which is this one due to the dominant
+which is this one due to the dominant potential F of U sub Epsilon whose
+potential F of U sub Epsilon whose organization is dominated by the free
+organization is dominated by the free energy the integral of the gradient of U
+energy the integral of the gradient of U so the plush and of U Square so the
+minimum myself solution limit so so in this first case right you have an
+this first case right you have an example of a function that is in the
+example of a function that is in the limit is this uh it has
+limit is this uh it has it is bounded but it has a discontinuity
+it is bounded but it has a discontinuity due to the first derivative so that
+means that there is is that you want to see how nice is this fine jewelry that's
+see how nice is this fine jewelry that's a little laplacian sense and so on but
+a little laplacian sense and so on but what you have is that it's very nice
+here but it is not very nice in everywhere because it has a jump on the
+everywhere because it has a jump on the on the derivatives such as the
+derivative is zero is zero but it has a jump at this point so this zipper is a
+jump at this point so this zipper is a one example of perturbed energy
+functional inwards when it is like this it's a nice energy functional but it is
+it's a nice energy functional but it is pertured in the sense that it has this
+pertured in the sense that it has this jump at the end which is here you can
+Epsilon goes to zero right then this is okay right is okay but here you have the
+okay right is okay but here you have the one over Epsilon one over Epsilon the
+one over Epsilon one over Epsilon the integral of rfn that makes the jump
+okay so so this is averse a very interesting possibility another type is
+interesting possibility another type is if you have
+something like this right this is another minimization solution limit
+right so when Epsilon goes to C okay let me see you have U sub T and here what
+me see you have U sub T and here what you have is uh
+you have is uh laughs
+that you have the boundary of Omega Alpha Omega right and so the boundary
+Alpha Omega right and so the boundary moves proportionally to its meaning
+curvature okay so here what we have is this surface that has a curvature like
+this surface that has a curvature like this and then a sort of bends here it's
+vertical here this produces a just an angle okay so here we have the
+just an angle okay so here we have the boundary of the Omega which is uh here
+boundary of the Omega which is uh here is for the red right and the and the uh
+oh my on the characteristic of Omega right and so then they have that this
+right and so then they have that this bending come becomes make an angle over
+bending come becomes make an angle over here so this is not as bad as this this
+here so this is not as bad as this this is more like lip cheese right like this
+so let's look a little bit careful about this formulas right we just look at the
+this formulas right we just look at the pictures and that was nice but let's
+pictures and that was nice but let's look uh the free boundary detection for
+look uh the free boundary detection for contingents discontinuity success latest
+contingents discontinuity success latest limited case so there is a first one as
+I said there is a limit case where the derivative has a jump right but it
+derivative has a jump right but it doesn't go to infinity and in that case
+doesn't go to infinity and in that case what you have is that the energy right
+what you have is that the energy right is the integral of RN as the gradient of
+is the integral of RN as the gradient of U Epsilon square plus and here you have
+U Epsilon square plus and here you have the characteristic of the set where
+a absolute value of U was less than Epsilon right remember there was this
+Epsilon right remember there was this curved thing in the example before right
+so this is the standard energy that happens Below in the curve or on the
+happens Below in the curve or on the sides and then there is this
+this girl this line let's say your curve where there is this Jam but not
+where there is this Jam but not discontinuity it's just that the
+function it has at this level and then just takes another Direction but it's
+just takes another Direction but it's just lip cheese okay you just lip cheeks
+just lip cheese okay you just lip cheeks and so when you look at the energy you
+look at the gradient of U Square which is since it is lips it is nice and well
+is since it is lips it is nice and well and then there is this area right or the
+set of U is equal to zero right and so this is the lateral thing to the curve
+right so this is a much melder think that the only case where the thing
+think that the only case where the thing was just broken right from the the you
+was just broken right from the the you here the U has
+bounded laplacian in other words you have a part where a u is zero and
+you have a part where a u is zero and then this part where the gradient of U
+then this part where the gradient of U is
+quantity acceptable the results extended to the George theory for doubles boil
+sleep change as the one before and but has a more information because that and
+has a more information because that and along the interface is right but did you
+along the interface is right but did you have something flat and that in in the
+have something flat and that in in the in the lip cheesecake you have something
+let's say for instance flood and then something which is curved or that makes
+something which is curved or that makes a round ball and keeps going right
+a round ball and keeps going right and so the solution in that case has a
+gradient of a positive square the negative square R so this is
+equal to H of a which is the mean curvature of s so it is a case where you
+curvature of s so it is a case where you have a bending on one side it does it
+lift is on one side the lip is on the other right but you don't want to say
+other right but you don't want to say that what happens when one gets together
+that what happens when one gets together to the other so these nice lip cheese
+to the other so these nice lip cheese Theory right then there is a digiorgi
+Theory right then there is a digiorgi okay example like in Georgia the surface
+okay example like in Georgia the surface s is smooth except for a set of
+s is smooth except for a set of Dimension n minus eight and I never knew
+Dimension n minus eight and I never knew very well why this was so written minus
+very well why this was so written minus eight but this is what the Georgia wrote
+eight but this is what the Georgia wrote at this time right and so it's uh by The
+at this time right and so it's uh by The Soil Service so as I said here right it
+Soil Service so as I said here right it depends on the topology generated by the
+depends on the topology generated by the surface segregation potential okay so
+surface segregation potential okay so this is a nice classical the Georgia
+theorem okay see the when there is a ellipse is one right and ellipse is one
+ellipse is one right and ellipse is one uh
+uh is
+to straightforward by using a suitable multiple of the distance function
+multiple of the distance function distance from X to S as upper barrier
+this you have a x and you have this s bonding above right
+as an upper barrier for you then you slip this again and the free boundary
+slip this again and the free boundary condition uh absolute value of gradient
+condition uh absolute value of gradient Q is equal to Capital of U that is is
+bounded okay so um
+um whoops
+they jump a lot a little bit jump a lot okay but anyway let me just
+jump a lot okay but anyway let me just tell you about the the little bit thing
+tell you about the the little bit thing we saw before right
+that is interesting because it's a family of lip cheese variation right of
+family of lip cheese variation right of the functions in other words you have
+surfaces that can be C2 C1 plus cell and so on but there is this in in reality
+so on but there is this in in reality right it's a very important unusual
+right it's a very important unusual things is when you have some surface
+things is when you have some surface here where something is constant value
+here where something is constant value or constant strength or whatever
+but there is in some particular thing there is this a jump but not the jump
+there is this a jump but not the jump discontinuity right it's more like that
+discontinuity right it's more like that you have this surface quantity and you
+push on it right and the way you push on it it creates you different variations
+it it creates you different variations Road of the of the body of the change
+Road of the of the body of the change but usually you expect to be okay you
+can expect to be just jump convict to have time
+tangents of order one that is at an angle fixed angle right or at a complex
+angle fixed angle right or at a complex angle right complex because they are
+more bending than the linear or others which are interesting because they are
+flatter than the linear right and so these are different and very important
+these are different and very important things because if you think a little bit
+you can find half a dozen things that have this form right that is
+cut it in half and put it there right he has this angle elliptic angle you can
+he has this angle elliptic angle you can take a material and material
+that you bend right this is a metal thing you can bend it right and then can
+thing you can bend it right and then can be lip cheese right or even if it's
+be lip cheese right or even if it's impended tangently is C1 Alpha right so
+impended tangently is C1 Alpha right so so this is a very general theory of
+developed by many important mathematicians Through Time
+okay here it is a little bit what I said that you have a harmonic function which
+that you have a harmonic function which is lips along a boundary surface where
+is lips along a boundary surface where it vanishes so that's what the cases I
+it vanishes so that's what the cases I say dry or become the terms we are the
+say dry or become the terms we are the you new plus Square R minus U plus minus
+you new plus Square R minus U plus minus square is equal to zero so there is I
+square is equal to zero so there is I think it's an interesting thing that you
+think it's an interesting thing that you can look at it carefully is not terribly
+can look at it carefully is not terribly difficult but it is interesting it is
+difficult but it is interesting it is interesting to know that things exist in
+because there are many applications where you have Medias that have an angle
+separation or vertical separations and different depending on the things that
+different depending on the things that you are interested in in
+you are interested in in study then those are different then
+could you move it um
+oh you didn't wow I cannot look at exercise okay
+okay let's go directly here well the previous one that you prove is around
+can you look that this is a nice picture okay this is a separation of two yes now
+I already talked about that okay so so the product of energy okay
+what I mentioned of you having this surface which is horizontal and then has
+an angle right and let's see what this is a little bit more of a variation of I
+is a little bit more of a variation of I did before right uh here somewhere left
+did before right uh here somewhere left has a more delicate description right
+has a more delicate description right mathematical description of of the
+situation right here we have the gradient square at the top and x n minus
+2 at the bottom and you can if the ratio between the gradient and the function is
+between the gradient and the function is appropriate then you have a CR file C1
+Alpha a surface separation you can look at the computation and you can see here
+that the function before R bigger than S the function is less than this angle
+the function is less than this angle right times this quantity and if you
+right times this quantity and if you look at it carefully at this quantity
+look at it carefully at this quantity you have an idea of the the angle right
+uh no air function on there okay so there's not too much time but I think
+so there's not too much time but I think you should if you have some time it is
+you should if you have some time it is something very interesting and learn
+something that is worthwhile to learn and interact in very well because it has
+and interact in very well because it has many applications on that order okay and
+many applications on that order okay and what else do you have okay that's
+what else do you have okay that's another of that type right here because
+another of that type right here because the Georgia I told you the Georgie has
+the Georgia I told you the Georgie has these things which are flat and then go
+these things which are flat and then go well here is one at the Georgia type
+well here is one at the Georgia type iteration right we have a sequence of
+these things right so you have a case where you have the the flat part right
+the flat part and then you have the part which is coming at an angle from there
+which is coming at an angle from there from in this in this picture goes from
+there with an angle and Below to an angle so it is the case where you have
+together others as I mentioned can be constant and occurred so I see they are
+constant and occurred so I see they are all of these variations okay and they
+are all a sort of have important applications in in anything right that
+you are looking at a plastic something and you bend it right you have this this
+and you bend it right you have this this situation right if you want if you have
+soup right have this metal thing on the top and then the base is is another one
+and there is this angle right so again there and with the angle is very little
+angle is bigger it's a bigger but the older person can enjoy it better right
+older person can enjoy it better right so so it is important how the the
+so so it is important how the the mathematics of this type right are over
+mathematics of this type right are over over everywhere although you don't pay
+over everywhere although you don't pay too much attention of that okay
+too much attention of that okay so here it is a elliptic is encountered
+so here it is a elliptic is encountered in the free boundary so fast as lip
+cheese and high CR for regularity for horror follows okay so you have the
+horror follows okay so you have the different possibilities okay
+different possibilities okay pardon
+okay so this is the rubber okay what this is good enough okay then to Natural
+this is good enough okay then to Natural questions alright right so I think it's
+more or less what I was saying how to extend this concept to Sigma fractional
+extend this concept to Sigma fractional free energy for potentials F of U equal
+absolute value of U is less or equal than Epsilon so this is one of I told
+than Epsilon so this is one of I told you there is a bunch of different ways
+you there is a bunch of different ways in which two things come together okay
+in which two things come together okay and then the first for the the the first
+and then the first for the the the first one is a classic one right so F of U is
+a characteristic of the absolute value of U Less Than Epsilon that is when the
+but when the U is close to zero right and the next one says how are the
+and the next one says how are the corresponding all the lagrant equations
+corresponding all the lagrant equations and free boundaries for fractional
+and free boundaries for fractional calculus model
+so you can take and look at the first thing and you can even take a piece of
+thing and you can even take a piece of place and start to drawing then the the
+place and start to drawing then the the sizes and what is the possibilities to
+we go right they can say okay I got this characteristic but I'm not saying that
+characteristic but I'm not saying that there is regularity ex regularity for
+there is regularity ex regularity for the use so you can have something that
+right and it is zero in part of the bleeding and another in the other and
+bleeding and another in the other and sometimes if you can add a little
+sometimes if you can add a little properties like asking that the place
+properties like asking that the place where you is zero a slip cheese so you
+can have a things which is very narrow where U is equal to zero so that would
+where U is equal to zero so that would be it's probably a very important
+be it's probably a very important application if you are really doing some
+application if you are really doing some materials you are doing a square or
+something right with material to have a good
+understanding of when you be when you build these Pages I'm paste them
+build these Pages I'm paste them together right
+what is the ways we run to a metal to bend it in an acceptable thing that that
+bend it in an acceptable thing that that could be just curve no more than curving
+could be just curve no more than curving except on an edge where it makes an
+except on an edge where it makes an angle and things like that okay so so
+angle and things like that okay so so what you look at it and seems like easy
+that is very milking as is non-trivial at all so let me thank you very much for

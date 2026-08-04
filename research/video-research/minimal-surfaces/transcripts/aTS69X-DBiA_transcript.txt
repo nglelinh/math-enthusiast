@@ -1,0 +1,963 @@
+okay thank you very much for the very nice introduction it's a great pleasure
+nice introduction it's a great pleasure to be here in this prestigious
+University and in this prestigious venue to give you an idea about the research
+to give you an idea about the research that I've been doing actually in the
+that I've been doing actually in the last ten years and so this is actually a
+talk which is thought for non mathematicians in principle at least at
+the beginning so the idea is that I want to convey idea some ideas of our subject
+to convey idea some ideas of our subject to scientists and maybe also to just
+to scientists and maybe also to just some people to have some familiarity
+some people to have some familiarity with certain mathematical concepts only
+something for the experts I mean I hope this is going to be fine most likely I
+this is going to be fine most likely I will make myself not understandable by
+will make myself not understandable by the non experts and boring to the
+the non experts and boring to the experience but ok so that's life so
+experience but ok so that's life so let's start with telling you what is
+let's start with telling you what is this plateaus problem like pretty much
+this plateaus problem like pretty much everything in mathematics it is not
+everything in mathematics it is not named after the person who really first
+named after the person who really first invented the problem actually the
+plateaus problem was first posed by Lagrange but nonetheless so there's
+something very nice that you can do so take a wire dip it in a bucket of soap
+of water and pull it out okay you will see that the wire spends I mean if you
+see that the wire spends I mean if you do it carefully if they do if you do it
+take the wire out of the soap water you will see that there is a soap film which
+will see that there is a soap film which is attaching to the wire and the soap
+is attaching to the wire and the soap film makes interesting shape so it's
+film makes interesting shape so it's fragile that's sufficiently stable okay
+fragile that's sufficiently stable okay so the mathematical question that goes
+so the mathematical question that goes under the name of plateaus problem is
+soap film so the contribution of Plateau who was a Belgian physicist working in
+the 19th century was to give a very nice and elegant answer to this problem so if
+and elegant answer to this problem so if you look at the surface which is which
+you look at the surface which is which is realized by a soap film you will
+is realized by a soap film you will actually find a
+the surface which minimizes the area among all possible surfaces which spend
+that same wire okay so if you want to be a little bit more precise actually that
+a little bit more precise actually that is a local minimizer not a global
+minimizer I mean that is what the physical principle tells you if you want
+physical principle tells you if you want to be maybe even more precise what it
+of the area functional so that is for the experts and maybe for the physicists
+the experts and maybe for the physicists who are in the audience okay so
+therefore you can state what is called the classical plateau problem the
+original plateau problem so I give you a wire in the three-dimensional space a
+wire in the three-dimensional space a wire in that three-dimensional space is
+a curve and I'm looking for a two-dimensional surface which spans this
+two-dimensional surface which spans this wire and which minimizes the area among
+all two-dimensional surfaces which span this wire so this is the original
+this wire so this is the original plateau problem now there's a famous
+plateau problem now there's a famous saying bye-bye good in German it sounds
+saying bye-bye good in German it sounds like this the mathematical z-9 up from
+like this the mathematical z-9 up from those Man Ray that is to even suitable
+those Man Ray that is to even suitable sets in a cine - process and also bodies
+sets in a cine - process and also bodies the scans it was sadness so if you
+the scans it was sadness so if you translate it it's the following saying
+translate it it's the following saying so the mathematicians are like French so
+so the mathematicians are like French so you talk to them they translate what you
+you talk to them they translate what you were saying
+in their own language and all of a sudden it's something completely
+different so in fact what we call plateaus problem in the mathematical
+instead of being given a curve which is a one-dimensional object you are given a
+a one-dimensional object you are given a general surface a general M dimensional
+surface so M is the arbitrary dimension of course it cannot be just a completely
+of course it cannot be just a completely general surface of reasons the wire is
+general surface of reasons the wire is what we call a closed surface right so
+attaching I mean if you just put a piece of metal like a line of metal inside you
+of metal like a line of metal inside you will see you you get it outside and
+there is no soap film okay so it's a it's what a mathematician would would
+call an M dimensional surface which is a boundary okay so that that's the name
+boundary okay so that that's the name for the title of the talk boundaries
+for the title of the talk boundaries okay so you're given an M dimensional
+okay so you're given an M dimensional boundary and you are now not
+maybe in a very high dimensional space I mean maybe the space has 17 dimensions
+mean maybe the space has 17 dimensions say and it's not even our usual
+say and it's not even our usual Euclidean space is what people actually
+Euclidean space is what people actually call every Mannion manifold so some
+call every Mannion manifold so some ambient geometry which is not
+necessarily flat like our space and now what you are looking for is a surface of
+what you are looking for is a surface of one dimension more so here you had
+one dimension more so here you had two-dimensional surfaces here you have M
+two-dimensional surfaces here you have M plus one dimensional surfaces which are
+in your ambient space which are in some sense spanning your boundary so they are
+sense spanning your boundary so they are attached to the boundary and which
+attached to the boundary and which minimize the area or the volume the n
+plus 1 dimensional area or volume among all possible surfaces which spend that
+all possible surfaces which spend that boundary ok so of course one of them I
+mean one of the things that you could ask is you know why ok the two
+motivated it has some interest some obvious interest if you're interested in
+obvious interest if you're interested in certain type of physics why are you
+certain type of physics why are you actually wondering about this very
+general question ok so let me give you a few answers so first of all it is a
+few answers so first of all it is a prototypical prototypical problem of
+what people call calculus of variations okay so in the calculus of variations
+called an energy it assigns a number in a class of objects and your interest is
+a class of objects and your interest is in the objects which minimize this
+quantity okay so of course usually this part it is called the energy because you
+part it is called the energy because you have in mind some system in the Natural
+have in mind some system in the Natural Sciences or some physical system and the
+minimizer of the energy actually characterized the stable the stable
+points of the system right so it's physically highly motivated and it's a
+physically highly motivated and it's a prototypical problem because it's very
+prototypical problem because it's very easy to state in geometric languages so
+in mathematics often you take prototypical problems as a starting
+prototypical problems as a starting point for your investigations because
+point for your investigations because you hope to develop techniques to
+you hope to develop techniques to understand the prototypical problem
+which will actually be available for much more general problems so it has a
+certain mathematical elegance which might you make think that if you develop
+might you make think that if you develop something for this problem then you can
+something for this problem then you can solve many others which are similar
+solve many others which are similar it has actually very many geometrical
+it has actually very many geometrical applications so again in mathematics in
+applications so again in mathematics in geometry what happens is that area
+geometry what happens is that area minimizing surfaces so minimum or
+minimizing surfaces so minimum or solutions of the plateau problem they
+solutions of the plateau problem they are natural candidates to for instance
+cut more complicated and in spaces in to simpler pieces I mean at the point that
+simpler pieces I mean at the point that this is an remark for mathematicians of
+this is an remark for mathematicians of course at the point that for instance if
+you take the famous resolution of the touchstones geometry zation conjecture
+touchstones geometry zation conjecture for three dimensional manifolds there
+are actually steps that precisely use this idea I mean three dimensional
+this idea I mean three dimensional ambient spaces which sometimes are cut
+ambient spaces which sometimes are cut into simpler pieces and you have to
+into simpler pieces and you have to think that the surface is along which
+think that the surface is along which you are actually cutting your space as
+you are actually cutting your space as surfaces which minimize the area so
+there are some situations in which you do this another thing actually the fancy
+do this another thing actually the fancy high dimensional version has very
+high dimensional version has very surprising connections with modern
+surprising connections with modern theoretical physics so in string theory
+things which are called D branes and actually you know most Biton invariants
+actually you know most Biton invariants for distance count a certain type of
+for distance count a certain type of area minimizing surfaces in certain
+minimizing surfaces and they are in very high dimension and codimension okay so
+high dimension and codimension okay so now this is another simple geometric
+now this is another simple geometric example of what I understand by a
+example of what I understand by a general ambient manifold and minimizing
+general ambient manifold and minimizing the area so here you have a donut
+so what mathematicians called a torus okay so actually more precisely you
+okay so actually more precisely you don't have the donut but just the outer
+don't have the donut but just the outer surface of a doughnut okay so it's a
+surface of a doughnut okay so it's a two-dimensional surface and imagine that
+two-dimensional surface and imagine that you put actually an elastic wire around
+you just stretch in elastic I mean you think it's a very small elastic you put
+think it's a very small elastic you put it around this surface and then you let
+it around this surface and then you let it go okay so the elastic we try
+it go okay so the elastic we try actually to minimize the length of
+course you cannot I mean if if the donut is sufficiently solid it cannot go
+is sufficiently solid it cannot go inside so the elastic will stabilize
+inside so the elastic will stabilize among occur
+which in a sense minimizes the length among all curves which cannot be
+shrinked to a point by staying over this surface so this is an example in which
+surface so this is an example in which we have a simple situation so the
+we have a simple situation so the minimizer is actually one dimensional
+the ambient geometry is two-dimensional and you see a simple geometric problem
+actually pops out naturally okay now of course it's a little bit more difficult
+course it's a little bit more difficult to understand what is a nambian
+to understand what is a nambian three-dimensional space which is not our
+usual nucleon space and what is a 2-dimensional minimizer inside okay that
+is a bit more difficult to draw so of course if you if you look at it from the
+course if you if you look at it from the point of view of mathematicians there
+would like to ask at the beginning so if you want to solve this problem what
+you want to solve this problem what should you understand as a surface so
+should you understand as a surface so what is a surface in particular what
+what is a surface in particular what should should you consider only surfaces
+should should you consider only surfaces which are nice they're smooth they're
+which are nice they're smooth they're regular or should you actually consider
+regular or should you actually consider also surfaces which have corners should
+also surfaces which have corners should you consider surfaces which have cusps
+or not in your own problem so it's a very natural question if you start
+very natural question if you start introducing surfaces which are rough how
+introducing surfaces which are rough how rough can you take them can you take
+factors for instance when you have surfaces which are quite general what
+surfaces which are quite general what does it mean that actually your surface
+does it mean that actually your surface spends your boundary this is another
+spends your boundary this is another fundamental question a third fundamental
+fundamental question a third fundamental question is what is the area of the very
+you compute it and then there are the typical questions that actually the the
+typical questions that actually the the mathematicians like so there are these
+mathematicians like so there are these existence questions so can you prove
+that there is a minimizer I mean often for people in Natural Sciences that that
+for people in Natural Sciences that that looks like a weird question because
+looks like a weird question because often the answer of the mathematician is
+often the answer of the mathematician is that there is a minimizer's for for some
+reason and the answer that there is a minimizer is completely irrelevant for
+finding the minimizer or for having an algorithm which gives you the minimizer
+algorithm which gives you the minimizer so give birth to to his students used to
+so give birth to to his students used to give the following example so if you are
+sitting in a room that is certainly somebody who has the maximum amount of
+somebody who has the maximum amount of hair because
+churches finally many people somebody has the maximum and so it's an existence
+mathematics but it's in some sense and interesting also right of course there
+interesting also right of course there are also the people who have least
+amount of hair and they are easier to identify reasons here it's very easy to
+identify reasons here it's very easy to identify them now after you have proven
+identify them now after you have proven though what if a minimizer exists you
+can ask deeper questions so what is the shape of the minimizer and it happens
+shape of the minimizer and it happens often that actually your existence proof
+often that actually your existence proof is giving you some insight what is the
+is giving you some insight what is the shape of a minimizer one basic question
+shape of a minimizer one basic question for instance is can the minimizer itself
+for instance is can the minimizer itself have singularities right so is it a nice
+regular surface or is it not I mean these are all very deep questions and
+these are all very deep questions and and and mathematicians actually wrote
+books and tons of papers on them there is a extensive literature so let me go
+is a extensive literature so let me go very easy on you and just look at a very
+picture so say that you have the easiest situation so in the easiest situation
+you can think that you have a zero dimensional boundary so dots and then we
+dimensional boundary so dots and then we are looking for a one dimensional object
+are looking for a one dimensional object which is connecting the dots you are
+which is connecting the dots you are looking for a one dimensional object
+looking for a one dimensional object which is connecting the dots and which
+is minimizing the length okay so this sounds very abstract but you can simply
+sounds very abstract but you can simply think about the following so here you
+have three cities okay and you want to build a railway and you want to be in
+build a railway and you want to be in the railway which connects the three
+the railway which connects the three cities and has the minimal length okay
+so this is an example so this is a minimal railway which is connecting
+these three cities you also see a motivation for considering a geometry
+motivation for considering a geometry which is different from your usual
+geometry so this is something which will be very very useful if your earth is
+be very very useful if your earth is completely flat but earth is not
+completely flat if you have mountains in the middle probably this is not going to
+the middle probably this is not going to be the best choice anyway right because
+you have to go up and go down so you're actually using more length than what you
+actually using more length than what you actually see in practice on your own
+actually see in practice on your own chart on your own map okay unless this
+chart on your own map okay unless this is an example and in this example it's
+is an example and in this example it's very easy to understand what you
+you what what is your context what is your framework so you have dots you are
+your framework so you have dots you are connecting them with a network and
+network you can think it's just made of straight lines so all these straight
+you cannot have just two groups and what you want to do is one that the straight
+you want to do is one that the straight lines contain these three dots and
+minimize the total length and that is a framework for solving your problem okay
+framework for solving your problem okay so this framework actually shows you
+so this framework actually shows you immediately that singularities can occur
+immediately that singularities can occur right so here you have a tripod junction
+so for instance it's a point where if your train is going through it it's
+your train is going through it it's probably a very good place where to put
+probably a very good place where to put an intermediate station okay
+so that for instance your train can decide to go in one direction or to go
+decide to go in one direction or to go in the other direction so this is the
+first things that you learn so singularities are actually likely to
+occur that is also a motivation to why you should ask a question like what is
+the type of surfaces that you want to consider even in that in this very
+simple situation you will see that there are singularities now it's a clear
+framework but you have to say that it avoids several challenges so it's a
+clear framework that it has been used to give solutions to the plateau problem in
+give solutions to the plateau problem in very high dimension and code dimension
+very high dimension and code dimension so it's a way that you use a path that
+you can take even the in the higher dimensional case but there are some
+things that it does not face okay so of course the first thing that you see is
+course the first thing that you see is that it's using polygonal curves that
+that it's using polygonal curves that will not be okay in general so surfaces
+if you if you're looking at two-dimensional surfaces which span and
+two-dimensional surfaces which span and wire right you will immediately realize
+if you just make very few experiments that you will not get polygonal surfaces
+that you will not get polygonal surfaces you will get actually services which
+Bend so the higher dimensional case is certainly much more complicated but not
+certainly much more complicated but not only that so there are two points which
+are not faced by by this framework and it's the orientation problem and the
+it's the orientation problem and the multiplicity problem so this can be
+example so let me twist the problem a little bit so let me say that instead of
+little bit so let me say that instead of instead of bending in vague ways you
+instead of bending in vague ways you have the following situation so you have
+have the following situation so you have some factories which are producing some
+some factories which are producing some Goods here so these are the factories
+and you have some cities when you actually want to distribute the goods so
+actually want to distribute the goods so the dots now they are slightly different
+the dots now they are slightly different so for instance you see that this dot is
+here and the reason is that because this Factory is producing twice as much goods
+Factory is producing twice as much goods as this factory over here okay now you
+are the person owning the factories you have trucks you're not using the railway
+your trucks in such a way that they distribute your goods to the cities okay
+distribute your goods to the cities okay so let's say that each city is consuming
+so let's say that each city is consuming a unit of one so you have one consumer
+one consumer one consumer you have a factory which produces two and you have
+factory which produces two and you have a factory which produces one okay and
+now you want to minimize the rolls the amount of Road that the trucks are
+amount of Road that the trucks are actually going to use okay of course
+actually going to use okay of course what you do what you do the very same
+this very simple solution you take one truck here and you should sit and you
+truck here and you should sit and you shoot it to the closest city right it
+from here to this dot and the truck from here to that dot now what do you do over
+here to that dot now what do you do over here so you use two trucks because you
+have to reach two cities and you just go directly with one track to that city and
+directly with one track to that city and directly to with another truck to the
+directly to with another truck to the other city now if you had a railway you
+would build a railway up to here and then have an intermediate station and
+then distribute to other railways in two different directions but now you have
+trucks of course you can make the trucks go along together for a certain piece of
+the road and then bifurcate at a certain point but that is not effective in terms
+point but that is not effective in terms of costs because you are moving two
+trucks and each of them they are taking a longer load okay so if you want to
+a longer load okay so if you want to model this situation it means that if
+model this situation it means that if you make a connection which is a tripod
+you make a connection which is a tripod junction over here you have to take into
+account that for a certain amount of Road actually you're going with two
+trucks on the same road but with two trucks so that road actually should
+trucks so that road actually should count for two and that is what I mean by
+this you can do in higher dimension as well it's a little bit more complicated
+well it's a little bit more complicated though so let me give you a very simple
+example so you have this wire over here and this wire over here and they have an
+and this wire over here and they have an orientation which I call negative so
+orientation which I call negative so this is like negative oriented and this
+is positively oriented okay if you have this situation an oriented surface which
+this situation an oriented surface which is spending this wire is a piece of a
+catenoid so you have to imagine that here there is a surface of revolution
+which looks like a band cone right so you have to imagine a cone or a piece of
+you have to imagine a cone or a piece of a cone which is connecting these two
+circles and then you bend it a little bit because by bending it a little bit
+you're actually saving area okay and this is allowed because these two disks
+this is allowed because these two disks these two curves have opposite
+orientation but if you have two curves which are oriented in the same way would
+which are oriented in the same way would be like having two factories in your
+be like having two factories in your problem before and you don't want to
+problem before and you don't want to connect the factory with another factor
+connect the factory with another factor you want actually to connect the factory
+with the city okay so if you have two curves which have the same orientation
+curves which have the same orientation the solution of your plateau problem
+the solution of your plateau problem would be to film one curve with the disc
+which you see over here and to film another curve with another disc okay so
+another curve with another disc okay so this is a solution what we call the
+oriented Plateau problem we cannot simply take arbitrary pieces of the
+simply take arbitrary pieces of the curves and connecting them they have to
+curves and connecting them they have to have a compatibility condition okay as
+have a compatibility condition okay as before you had a compatibility condition
+although it looks a little bit weird it's actually something which in nature
+it's actually something which in nature happens so if you are dipping two
+circles in support and you take them out you actually find two disks now if you
+you actually find two disks now if you are connecting the two wires with a
+are connecting the two wires with a little tube and you pull it out then in
+annoyed in some situation you see this in some other situations you actually
+see the two disks so both situations occur in nature
+in fact okay so now this entire dimension takes into account for
+dimension takes into account for orientation now do the following
+orientation now do the following experiment so you have your solution
+over here and your solution over here in both situations take your circles and
+both situations take your circles and slide them down until they touch okay so
+in this situation you have the upper disc which is moving close to the lower
+disc so when the truth when the two circles become co-planner you find the
+circles become co-planner you find the outer disk and a superposition of the
+inner disc and the outer disc at a certain point okay here the surface is
+empty on the top so you only have the lateral surface when you are sliding the
+lateral surface when you are sliding the top circle towards the lower circle when
+top circle towards the lower circle when you become co-planner okay your surface
+you become co-planner okay your surface will degenerate into a corona that is
+into an inner disc weed out the outer disk okay so now imagine that you have
+disk okay so now imagine that you have slide the circle until they become
+slide the circle until they become co-planner and look at them from above
+co-planner and look at them from above okay if you look at them from above you
+see a circle with a hole okay so the white hole means that your surface is
+white hole means that your surface is only this Corona in the right you will
+only this Corona in the right you will see the collapsing of the two disks so
+you an outer disk which is counted with multiplicity one and then a core I mean
+multiplicity one and then a core I mean this is the black core that I have draw
+in here that core is the superposition of the two disks okay you should count
+it twice so the inner core has multiplicity two so now you have an
+multiplicity two so now you have an interesting situation so the boundary so
+interesting situation so the boundary so your wire is this disc and this disc
+over here I mean this circle and this circle that is the boundary and here
+this circle in one case we will say that the boundary points are one-sided right
+so the surface is always on this boundary the surface is always lying on
+boundary the surface is always lying on this side on this boundary the surface
+is always lied on the other side but when you are sitting at the boundary you
+when you are sitting at the boundary you always see a surface on your right maybe
+always see a surface on your right maybe or your left depending on where you are
+and you see nothing on your left so these are one-sided boundary points in
+these are one-sided boundary points in this example if you're sitting at this
+point you are one sided so you see your surface on one side of yourself and you
+see nothing on the other side but if you are sitting at the boundary between the
+are sitting at the boundary between the black region and the shaded region you
+will see surface on both sides of you only on one side you will see a surface
+counted twice on the other side you will see a surface counted once okay so these
+see a surface counted once okay so these points we will call them two-sided and
+points we will call them two-sided and what we conclude from these examples is
+what we conclude from these examples is that actually the oriented plateaus
+that actually the oriented plateaus problem admits minimizer's which have
+two sided boundaries okay and this will be very relevant for what I'm going to
+be very relevant for what I'm going to tell you in a few slides okay so what I
+tell you in a few slides okay so what I mean what what have mathematicians done
+then in this situation okay so back in the 60s and 70s through the code through
+the 60s and 70s through the code through the major contributions of three
+mathematicians so the Georgie in Italy and federal and Fleming in the United
+States so these mathematicians funded the theory of integral carbons so what
+did they do what did they do so they defined the most general surfaces with
+defined the most general surfaces with orientation which have finite area and
+which have oriented boundary with finite area okay so in our previous situations
+area okay so in our previous situations we have a curve of finite length which
+we have a curve of finite length which is bounding a minimizer this minimizer
+is an oriented two-dimensional surface with finite area okay so you could ask
+with finite area okay so you could ask what is the most general object which I
+what is the most general object which I can define with this idea so how rough
+can define with this idea so how rough can they be how singular and the answer
+is in this theory which is called the theory of integral currents
+general objects they actually proved two theorems so the first theorem is an
+existence theorem so the theorem says the space of integral cabins is closed
+the space of integral cabins is closed and compact so these are certain
+and compact so these are certain mathematical properties which ensure you
+mathematical properties which ensure you one thing for any reasonable boundary
+one thing for any reasonable boundary oriented boundary in a reasonable
+Romanian ambient space so in a reasonable geometry there is always a
+reasonable geometry there is always a solution of the oriented plateau problem
+solution of the oriented plateau problem so there is always a generalized surface
+so there is always a generalized surface and oriented generalized surface which
+and oriented generalized surface which is the absolute minimum of the area
+is the absolute minimum of the area functional which is therefore a
+functional which is therefore a candidate solution for your classical
+candidate solution for your classical plateau problem so that's one theorem
+plateau problem so that's one theorem okay the second theorem is more
+okay the second theorem is more difficult to explain
+so for mathematicians the second theorem is saying that the space of integral
+of your initial problem so what are what what exactly does this theorem says so
+space of surfaces that you have defined is slightly more general than the space
+is slightly more general than the space of usual surfaces it's the minimal
+of usual surfaces it's the minimal generalization that you can use to prove
+generalization that you can use to prove that theorem so it's true you admitted
+surfaces which have a certain type of singularities but you didn't get too
+singularities but you didn't get too much junk okay the least amount of junk
+much junk okay the least amount of junk and irregular surfaces that you can
+include in your theory to have a nice problem in the calculus of variations so
+problem in the calculus of variations so these are the two theorems which are
+fundamental and for the experts this is I mean here I'm just giving a poor man
+I mean here I'm just giving a poor man version of the compactness theorem and
+version of the compactness theorem and here I'm doing I'm giving a corollary or
+a poor man corollary of the deformation lemma your famous theorems okay now what
+lemma your famous theorems okay now what happens so you have general surfaces and
+happens so you have general surfaces and now you have a minimizer you want to
+shape of this minimizer so for instance what is the type of singularities that
+what is the type of singularities that might occur maybe they don't talk her I
+might occur maybe they don't talk her I mean maybe you minimize the area and you
+mean maybe you minimize the area and you always find something regular
+always find something regular okay so the answer is yes actually they
+okay so the answer is yes actually they always say I mean that there are in in
+always say I mean that there are in in most situations there are there might be
+most situations there are there might be singularities so one interesting
+singularities so one interesting situation and the best-studied situation
+situation and the best-studied situation is the so called code I mentioned one
+case so what does it mean could I mention one case this is very similar to
+mention one case this is very similar to the original Plateau problem so your
+the original Plateau problem so your ambient space has one dimension more
+ambient space has one dimension more than your minimizer so for instance the
+than your minimizer so for instance the plateau problem is in the three
+plateau problem is in the three dimensional space you look for two
+dimensional space you look for two dimensional surfaces which minimize the
+area so the minimizer as dimension to the ambien surf the ambient geometry has
+the ambien surf the ambient geometry has dimension three so one less so this is
+dimension three so one less so this is called code I mentioned one now in code
+called code I mentioned one now in code I mention one a famous example was given
+Giusti in 1970 actually the example was written down by Simons and it's the fort
+written down by Simons and it's the fort called the simons cone and what these
+called the simons cone and what these people what these three famous
+people what these three famous mathematicians did they proved that this
+mathematicians did they proved that this corn the corn actually has a very simple
+corn the corn actually has a very simple formula so this formula gives you a
+formula so this formula gives you a seven dimensional surface in the eight
+seven dimensional surface in the eight dimensional space it has a singularity
+dimensional space it has a singularity in the origin so when all the
+in the origin so when all the coordinates are equal to zero you get
+the tip of the cone if you want and this object is actually a minimizer of the
+object is actually a minimizer of the area but so what do I mean by a
+infinite cone so you cut it with a very large sphere when you cut it you find
+large sphere when you cut it you find the boundary and your cone is the only
+the boundary and your cone is the only way of continuing your boundary inside
+way of continuing your boundary inside by minimizing the area so there is no
+other minimizer is even the unique minimizer okay and it has a singularity
+at the origin so it's a seven dimensional space a seven dimensional
+solution of the oriented plateau problem in eight dimensions and it has a point
+singularity okay even in higher codimension actually you have
+singularities you have many even more so Federer in 1979 and gave an example of a
+Federer in 1979 and gave an example of a two-dimensional surface so the surface
+two-dimensional surface so the surface is very steady
+very low dimension but it's in the fourth dimensional space so the space is
+fourth dimensional space so the space is two dimensions more than the minimizer
+the surface you can write it in complex coordinates and so in complex notation
+coordinates and so in complex notation this is the equation which is satisfied
+this is the equation which is satisfied by the coordinates so you see that you
+have one single equation but this is these are complex numbers so if you
+these are complex numbers so if you write the equation for the real part and
+write the equation for the real part and the equation for the imaginary part you
+equations in four unknowns gives you two degrees of freedom this should be a
+degrees of freedom this should be a two-dimensional surface in the four
+dimensional space and it has again a singularity at the origin okay now this
+is very nice but of course although the singularities exist they are very small
+so you could ask the next question which is okay maybe there are similarities but
+is okay maybe there are similarities but how large are these singularities and
+how large are these singularities and the first very nice theorem which was
+the first very nice theorem which was proved in the 1970s by the cumulated
+work of several people starting with the georgy and then going on with flaming
+georgy and then going on with flaming anger and Simons and Federer is that in
+anger and Simons and Federer is that in Co dimension 1 the Simon's cone is the
+Co dimension 1 the Simon's cone is the first occurrence of a singularity so the
+first occurrence of a singularity so the singularities can have dimension em the
+singularities can have dimension em the dimension of the minimizer -7 so if you
+a point but if you have a 6 dimensional surface which minimizes the area in the
+surface which minimizes the area in the seven dimensional space the singularity
+this means it has to be the empty set so there are no singularities you actually
+there are no singularities you actually smooth now in the higher dimension
+smooth now in the higher dimension that's also another theorem that tells
+you and this theorem is by undrained in 1980 it tells you that also the example
+1980 it tells you that also the example of Federer is optimal so in higher
+of Federer is optimal so in higher codimension an n-dimensional minimizer
+codimension an n-dimensional minimizer has a singularity which has dimension at
+most n minus 2 so if you have a two-dimensional surface the singularity
+two-dimensional surface the singularity can only be 0 dimensional so can only be
+it's very nice because it tells you that you have the examples and that you have
+you have the examples and that you have also a full answer on how large the
+singularities could be so the examples are the first or the easiest singularity
+are the first or the easiest singularity examples that you can imagine there's
+examples that you can imagine there's nothing more complicated than that okay
+nothing more complicated than that okay so now there are some issues with this
+though could I mention one is well understood so it's a theory it's a
+understood so it's a theory it's a theorem which is streamlined it has a
+textbooks I mean I can give you several references it's the textbooks for well
+references it's the textbooks for well advanced mathematics students but it's a
+advanced mathematics students but it's a textbook anyway I mean you can learn it
+for instance in your master studies at the University I mean maybe if you're
+the University I mean maybe if you're brave even you know in your bachelor
+brave even you know in your bachelor studies that show starts maybe to be a
+studies that show starts maybe to be a little bit exaggerated but in master
+little bit exaggerated but in master studies for sure there are several
+studies for sure there are several powerful generalizations and it has
+powerful generalizations and it has actually been applied in several
+actually been applied in several situations I mean it has been applied
+even to very famous problems in mathematical physics
+so for instance the positive mass theorem in general relativity is proved
+theorem in general relativity is proved by using this theorem any that had a
+mathematical literature so the ideas of the proof has been used have been used
+the proof has been used have been used in several places now in higher per
+in several places now in higher per dimension the situation is completely
+different so first of all Allen's proof is scary so it's it was at the beginning
+is scary so it's it was at the beginning when he wrote it one thousand seven
+when he wrote it one thousand seven hundred twenty eight pages
+it was never checked by anybody it has not been published in a journal it has
+been collected in a book which is very fat book of a thousand pages because the
+fat book of a thousand pages because the font is very very tiny and the pages are
+large and it is available but probably nobody has checked it there were no
+nobody has checked it there were no generalizations up to some few years ago
+generalizations up to some few years ago and people would even scare to apply it
+for instance I mentioned the gromov-witten invariants so there was a
+gromov-witten invariants so there was a famous mathematician who wanted to apply
+famous mathematician who wanted to apply it but of course you're scary you're
+it but of course you're scary you're applying a proof about one thousand
+applying a proof about one thousand seven hundred pages that nobody has
+seven hundred pages that nobody has checked so what happens if actually the
+checked so what happens if actually the proof is wrong and you want actually to
+infer some consequences of the proof okay so so so family was mentioning that
+okay so so so family was mentioning that one of my works has been in the last
+year's to actually produce a shorter proof so together with my former PhD
+proof so together with my former PhD student Emmanuel Espada wrote from 2009
+student Emmanuel Espada wrote from 2009 to 2015 we have produced actually a
+to 2015 we have produced actually a shorter proof in five papers but your
+shorter proof in five papers but your papers on normal size and this has
+papers on normal size and this has actually some added value so there are
+actually some added value so there are some generalizations I don't want to go
+through all of them I mean you see somehow the people who were involved and
+somehow the people who were involved and there are a few others that are coming I
+there are a few others that are coming I mean if I had more time I would explain
+mean if I had more time I would explain you what are these generalizations over
+you what are these generalizations over here but let me not go over this let me
+that by building upon this work we can actually tackle new open questions so in
+actually tackle new open questions so in particular one very nice question
+of anguillan so at the very end of the book he asks the following open problem
+book he asks the following open problem so it's a very natural geometric problem
+so it's a very natural geometric problem so assume that you have your boundary
+so assume that you have your boundary and that your boundary has only
+surface and it consists of one piece so in mathematics we say it's a connected
+in mathematics we say it's a connected surface now the question is the
+minimizer does it consist of also one single piece or does it consist of maybe
+single piece or does it consist of maybe more pieces now intuitively what you
+more pieces now intuitively what you would believe is that yes it should
+would believe is that yes it should consist of a single piece and the idea
+consist of a single piece and the idea would be something like this that every
+would be something like this that every regular piece should actually touch the
+regular piece should actually touch the boundary and since the boundary is one
+boundary and since the boundary is one single piece once it touches the
+boundary it actually touches the whole boundary now your piece reasonably will
+boundary now your piece reasonably will have the boundary I mean if your please
+has multiplicity 12 to your boundary will be taken with multiplicity 2 okay
+now if you have several pieces with multiplicity 2 3 4 whatever the total
+multiplicity 2 3 4 whatever the total area is the sum of the areas of all
+area is the sum of the areas of all pieces counted with the respective
+pieces counted with the respective multiplicity but one single piece
+counted with multiplicity one is already bounding your boundary so of course that
+bounding your boundary so of course that one has much less area than the sum of
+the sum of all of them so it should be of one single piece now why does he ask
+of one single piece now why does he ask actually this question because you could
+actually this question because you could say okay so this proof is convincing but
+if you want to formalize that is one problem so for instance one thing which
+problem so for instance one thing which looks very simple is the following thing
+looks very simple is the following thing over here so I'm just saying the regular
+pieces of the minimizer with different multiplicity should be totally separated
+multiplicity should be totally separated so they should be really things which
+are far apart that's not obvious so if you remember the example of the
+configuration of the tripod Junction okay so here you have a tripod junction
+junction I told you here you have the two tracks and they are bifurcating into
+two tracks and they are bifurcating into one track over here and one track over
+multiplicity one here you have a piece with multiplicity one and here you have
+with multiplicity one and here you have a place with multiplicity two but there
+exiting so this point over here is not the boundary point so the idea that each
+the boundary point so the idea that each single piece should touch the boundary
+single piece should touch the boundary and should touch only the boundary and
+bound that particular boundary and be completely separated from the other
+completely separated from the other pieces is not correct actually the
+singularities so that might happen now although that is true so you see
+something like this so here you have a one-dimensional example and you have a
+one-dimensional example and you have a point singularity so the reality is that
+point singularity so the reality is that the singularities can jump I mean the
+the singularities can jump I mean the multiplicities can jump but they can
+sufficiently large if you are looking at lines the multiplicities can jump at
+points but if you are looking at surfaces the multiplicity can only jump
+surfaces the multiplicity can only jump along curves so your singularity where
+along curves so your singularity where your multiplicity is jumping should be
+your multiplicity is jumping should be at least of dimension 1 less the
+at least of dimension 1 less the dimension of your surface okay
+dimension of your surface okay
+can jump at interiors in Euler it is but the singularities must be large in an M
+the singularities must be large in an M dimensional surface the multiplicity can
+jump only along M minus 1 dimensional singularities but and then told you that
+singularities but and then told you that the singularities in the interior have
+dimension at most M minus 2 so there are not enough singularities in the interior
+not enough singularities in the interior to allow to the multiplicity to jump so
+to allow to the multiplicity to jump so this point a that is that every single
+this point a that is that every single piece every single regular piece as its
+piece every single regular piece as its own multiplicity and it's kind of
+own multiplicity and it's kind of separated from the other pieces is
+separated from the other pieces is essentially correct so they can join on
+essentially correct so they can join on for instance two-dimensional pieces can
+for instance two-dimensional pieces can join on points but I can not join on
+boundary lines so that tells you that the first part of the intuitive proof is
+the first part of the intuitive proof is correct now what about the other two
+parts so what about my claims at the boundary so I have my regular pieces
+which are separated but I told you they are regular inside I don't didn't tell
+are regular inside I don't didn't tell you anything on how they touch the
+you anything on how they touch the boundary right so so far I only cared
+boundary right so so far I only cared about interior singularities or interior
+about interior singularities or interior regular points but never about boundary
+regular points ok so this is a simple remark so the program the proof would be
+remark so the program the proof would be correct if the boundary is taken in a
+regular range so what do we understand by a regular way the sheet is coming and
+it stops nicely at this curve ok it doesn't make some sort of fractal
+doesn't make some sort of fractal construction towards this curve it's not
+construction towards this curve it's not kind of bending crazy or doing things
+kind of bending crazy or doing things like that now there's a very nice
+like that now there's a very nice theorem this was a fundamental result in
+theorem this was a fundamental result in the 1980s and it actually tells you in
+Co dimension 1 I mean in the situation which was very understood in the
+which was very understood in the interior actually there are no singular
+interior actually there are no singular points at the boundary ok so if the
+points at the boundary ok so if the boundary is nice the surface the
+minimizer arrives at the boundary nicely there can be interior similar points but
+there can be interior similar points but then this means the interior similar
+then this means the interior similar points have to be at a certain distance
+from the boundary you cannot have singular points which are getting closer
+this was a fantastic result and it tells you that the answer to on this question
+you that the answer to on this question is yes in the case of hyper surfaces but
+higher Co dimension so even for the mathematicians even real analytic curves
+mathematicians even real analytic curves in the four dimensional space can
+in the four dimensional space can actually have boundary singularities so
+even the best-behaved curves can have boundary singularities for the oriented
+boundary singularities for the oriented plateau problem and the four we cannot
+hope to prove the theorem of hard and sign okay now there's a good news so
+there is a simple remark that you can do by using the theory which exists up to
+by using the theory which exists up to now I mean it's it's it's a proof of
+alpha page so it's a remark that I've made together with these friends of mine
+made together with these friends of mine we do the Felipe's unity channel is
+amassed such a see this year and the remark is that actually you don't need
+remark is that actually you don't need the boundary to be completely regular
+you need one single regular point at the boundary so one place where the surface
+boundary so one place where the surface is reasonable at your boundary and then
+is reasonable at your boundary and then the answer to unrest question is
+the answer to unrest question is positive so problem although it looks
+very strange up to now the situation of the literature is that in general you
+the literature is that in general you don't know that there is a singular
+point at the boundary where your minimizer is reasonable it might
+minimizer is reasonable it might actually be that all the boundary
+actually be that all the boundary consists of singularities you have kind
+consists of singularities you have kind of a scary fractal behavior at all the
+boundary points so which is kind of completely opposite to what we know in
+completely opposite to what we know in the interior where we know that the
+the interior where we know that the singularities are actually few okay so
+singularities are actually few okay so now remember the following so it because
+this is going to be very relevant for the next 10 minutes so in this business
+the next 10 minutes so in this business boundary points might be two sided and
+might be one sided and actually what happens is that the two sided situation
+happens is that the two sided situation is what is clearly creating really lot
+is what is clearly creating really lot of problems and that is because it was
+known since the PhD theses of another famous man
+in addition Villar learned that if you can exclude two-sided boundary points so
+can exclude two-sided boundary points so at every point of your boundary the
+right or your left but it cannot be on both sides then actually that point or
+both sides then actually that point or the whole boundary has to be regular so
+the whole boundary has to be regular so now this seems a nasty strong assumption
+now this seems a nasty strong assumption but it's not so there are a lot of
+situations where your action can't you can actually ensure that there are no
+can actually ensure that there are no two-sided points a priori so let me give
+two-sided points a priori so let me give you an example so assume for instance
+you an example so assume for instance you are in three-dimension and your
+curve is lying on a sphere so your curve is lying on a convex surface okay so
+is lying on a convex surface okay so there is something which is called
+there is something which is called maximum principle or barrier argument
+maximum principle or barrier argument which guarantee is that your minimizer
+has to be only on this side I mean the minimize that cannot go outside of the
+minimize that cannot go outside of the sphere it has to be only on the inside
+actually that you are one sided and so it guarantees by allah's theorem that
+it guarantees by allah's theorem that you're actually regular okay so as I
+you're actually regular okay so as I said the core of the argument is that
+said the core of the argument is that the convex surface acts as a barrier and
+it tells you right away if you're sitting at the point of the boundary you
+sitting at the point of the boundary you just look at the point in such a way
+that the outside of the sphere is lying on the left and the inside of the sphere
+is lying on the right and then the maximum principle the barrier argument
+maximum principle the barrier argument actually guarantees there's no surface
+on this side it has to be in here so the surface is never going to be two-sided I
+surface is never going to be two-sided I mean it sounds easy actually this part
+mean it sounds easy actually this part of the PhD this is of build so it's not
+now in our standard Euclidean space you can actually use this idea to find at
+can actually use this idea to find at least some boundary point I mean say
+that they give you a curve okay I sit say in the middle of the curve somewhere
+say in the middle of the curve somewhere say in the origin the curve is around me
+I can look at the most distant point at the most distant point there is a sphere
+in such a way that the curve is all on this side of the sphere and that sphere
+actually acts as a barrier and it tells me that that point can only be one sided
+me that that point can only be one sided and if that point can only be one sided
+our last theorem actually tells me that that point is regular so here is an
+that point is regular so here is an illustration I mean I was trying to draw
+illustration I mean I was trying to draw this I mean it's the old surface see I
+mean this is where the the curve should lie if it were on the sphere and this is
+getting inside I mean it's a kind of spike okay allas theorem will tell you I
+spike okay allas theorem will tell you I don't know anything about this spike in
+don't know anything about this spike in this spike actually the surface might be
+the curve is all lying on the other side on these points actually I'm regular so
+on these points actually I'm regular so now this means in our situation in the
+now this means in our situation in the classical space in the classical
+Euclidean space I know that there is at least one boundary regular point by a
+least one boundary regular point by a last you know okay so in the standard
+last you know okay so in the standard Euclidean space there is always an
+Euclidean space there is always an outermost point
+and Alice theorem actually guarantees that that point is a boundary regular
+that that point is a boundary regular point that is the upshot however you
+point that is the upshot however you need the concept of most distant point
+you need the convex of a concept of convex surface which is kind of
+enclosing your object and that is only available in some special geometries so
+but if you have a general geometry it is not and you might wonder how likely it
+not and you might wonder how likely it is that your geometry allows for these
+is that your geometry allows for these barriers and actually the answer is that
+it's very unlikely usually you don't have these barriers as soon as you have
+have these barriers as soon as you have for instance an ambient manifold which
+for instance an ambient manifold which is not infinite I mean an ambient
+bounded and closed like it would be a normal fear for instance then you cannot
+normal fear for instance then you cannot apply this argument and you are left
+apply this argument and you are left with the problem that you don't know
+with the problem that you don't know whether there are boundary regular
+points at all okay so we have been working at this problem since four years
+working at this problem since four years I think five years Annaliza suggesting
+I think five years Annaliza suggesting we are writing what on a
+we are writing what on a our calls the I mean our own personal
+our calls the I mean our own personal version of Tolstoy's war and peace
+version of Tolstoy's war and peace because it's a pretty long work but it's
+because it's a pretty long work but it's all written we are to feeding it and it
+all written we are to feeding it and it actually proves the following so in any
+actually proves the following so in any situation in any ambient geometry for
+any dimension in Co dimension the regular points at the boundary are dense
+regular points at the boundary are dense its dense relatively open set that's
+its dense relatively open set that's what we would say in mathematics in
+what we would say in mathematics in laymen words that means the
+laymen words that means the singularities the boundary irregular
+points can only be a scattered set so it can only occur in relatively few points
+can only occur in relatively few points relatively few in the topological sense
+so it's a kind of powder which is scattered around it doesn't have any
+bulk and so since it does not have any bulk it tells you there are a lot of
+bulk it tells you there are a lot of regular points at least that is one but
+regular points at least that is one but there are actually many and you have to
+there are actually many and you have to notice that it tells you something
+notice that it tells you something interesting even in the old case even in
+interesting even in the old case even in the Euclidian case so Ireland in this
+situation was telling you these points are regular and here who knows our
+are regular and here who knows our theorem is telling you here there might
+theorem is telling you here there might be singular points but they are few so
+be singular points but they are few so even in here in the portion of the curve
+even in here in the portion of the curve to which I cannot apply a large argument
+to which I cannot apply a large argument I will find a lot of regular points so
+it's giving you actually an interesting information even in that case ok that is
+information even in that case ok that is the theorem now another thing which you
+the theorem now another thing which you should actually be aware of is that we
+should actually be aware of is that we found out that the boundary regularity
+found out that the boundary regularity is much more trickier than is much it's
+is much more trickier than is much it's much more tricky than the interior
+two-dimensional surfaces I told you that the singularity can hold only half
+dimension 0 but I can actually do something much stronger I can tell you
+if there is a singular point the singular point is there isolated all
+point everything is regular now this is a theorem which was claimed by Chang in
+a theorem which was claimed by Chang in 1988 and in fact he provide he provided
+1988 and in fact he provide he provided the correct proof but the correct proof
+which was missing one ingredient okay so if you literally read the paper of chunk
+if you literally read the paper of chunk it would tell you okay so here there's
+it would tell you okay so here there's 80 pages proof but you should read the
+1,700 pages of Amran redo it in a way and after after you have redone it in a
+and after after you have redone it in a way you start with my proof and I
+manual Spadaro and Lucas Paulo or we can actually build this missing pieces by
+actually build this missing pieces by modifying our proof of annelids theorem
+modifying our proof of annelids theorem instead of going through the 1,700 pages
+okay so we have provided somehow a written confirmation that this missing
+piece actually can be proved okay the situation is different at the boundary
+situation is different at the boundary so at the boundary I can have singular
+I mean singular points which are the limit of a sequence of singular points
+limit of a sequence of singular points so I cannot claim that around that
+so I cannot claim that around that singular point that is a neighborhood
+singular point that is a neighborhood where all the other guys around the
+where all the other guys around the irregular
+okay so I have infinitely many singular points which are converging to it so in
+the interior I have locally only finitely many singularities because I
+finitely many singularities because I cannot converge with a singularity
+this is false which actually tells you that our theorem is possibly harder than
+that our theorem is possibly harder than the one at the interior so there's
+the one at the interior so there's something more mysterious going on that
+something more mysterious going on that we have not completely understood okay
+we have not completely understood okay so now this since I have some fellows
+equations here so the last four slides are for them okay so if you I mean if
+are for them okay so if you I mean if you are just not a mathematician not yet
+you are just not a mathematician not yet a professional mathematician and you're
+a professional mathematician and you're not understanding these slides don't
+not understanding these slides don't worry
+so I'm not saying you should sort of switch off the brain because maybe you
+switch off the brain because maybe you you have enough calculus to understand
+something but I mean this is more for experts because they have been sitting
+experts because they have been sitting here for 45 minutes listening to me I
+automatically some mathematics some formulas okay so I cannot of course give
+for this because it's a very complicated thing but I can give you a very nice
+differential equations which is really cute okay so let me state something
+cute okay so let me state something which is an exercise essentially okay
+which is an exercise essentially okay well for the plus in partial
+well for the plus in partial differential equations is certainly an
+differential equations is certainly an exercise so consider the harmonic
+exercise so consider the harmonic function on one some domain some open
+domain okay so you have a function which solves Laplace U equals zero assume the
+solves Laplace U equals zero assume the origin is in your domain and assume your
+origin is in your domain and assume your function vanishes at the origin so it's
+a zero the origin is a zero of U now assume the origin is actually a zero of
+assume the origin is actually a zero of infinite order so the function U of X
+vanishing faster than any polynomial than any model at the point zero okay
+than any model at the point zero okay then the exercise is to prove that you
+then the exercise is to prove that you vanishes identically and of course a
+vanishes identically and of course a good student would solve it immediately
+good student would solve it immediately I mean a good student would tell you
+analytic if it is real analytic in a neighborhood of 0 it has a power series
+neighborhood of 0 it has a power series expansion if the power series has one
+non-trivial polynomial okay then it's vanishing at that order if it vanishes
+at all the order that means that all polynomial in the power series expansion
+polynomial in the power series expansion is trivial and the for the power series
+function is identically 0 and in the neighborhood of your point you have to
+be 0 of course you don't have to vanish on the whole Omega because maybe Omega
+on the whole Omega because maybe Omega is disconnected ok so that's nice but
+is disconnected ok so that's nice but it's a complicated proof because it has
+it's a complicated proof because it has to go through the theorem in which you
+to go through the theorem in which you prove that a harmonic function is not
+prove that a harmonic function is not analytic which is non-trivial
+so that's actually a solution which only uses calculus to I mean only uses
+uses calculus to I mean only uses calculus to without any regularity any
+ok and the solution is the following and in fact it's a by
+product or balance theorem so look at this function so this function is a
+function of the radius R so you integrate over the ball the directly
+integrate over the ball the directly energy and you multiply by R and you
+energy and you multiply by R and you integrate over the sphere modules of U
+integrate over the sphere modules of U squared okay this function as long as it
+squared okay this function as long as it is defined I mean you might have
+is defined I mean you might have problems defining it because in
+principle you have not yet proven that your harmonic function cannot vanish on
+your harmonic function cannot vanish on the boundary but okay let's assume that
+the boundary but okay let's assume that it's easy to prove so this function is
+it's easy to prove so this function is actually monotone non increasing okay in
+actually monotone non increasing okay in particular since it is monotone non
+increasing you can take the limit as R goes to 0 and the limit as R goes to
+zero is finite now it's not that difficult I mean it's it's it's it's a
+difficult I mean it's it's it's it's a pretty tough exercise but the solution
+pretty tough exercise but the solution is very easy so it's a perfect exercise
+monotone is not easy but once I show you the proof the proof is only a simple
+the proof the proof is only a simple computation mean it's a half a page
+computation mean it's a half a page computation now the very nice
+computation now the very nice observation which is also elementary is
+observation which is also elementary is that this number which is the limit is a
+positive integral and it is the degree of the first non-trivial polynomial in
+the Taylor expansion I mean with one caveat you don't need to know that the
+function is we are analytic to show that the function cannot vanish faster than a
+the function cannot vanish faster than a polynomial with that degree you can
+prove it in an elementary way okay and this is I mean it's a very simple is
+this is I mean it's a very simple is absolutely beautiful piece of work and
+absolutely beautiful piece of work and this very simple first building block is
+this very simple first building block is the starting point for hundreds 1,700
+the starting point for hundreds 1,700 pages proof but it's a simple
+pages proof but it's a simple observations half a page computation
+observations half a page computation okay now there's something similar in
+okay now there's something similar in our work at the boundary so I modified
+in the following way I give you a boundary point and I assume that the
+boundary point and I assume that the function not always not only is an ad
+function not always not only is an ad monic function but it also is 0 at the
+now assume of course that your barber is not bounded is not a big
+not bounded is not a big otherwise the harmonic function would be
+otherwise the harmonic function would be identically zero okay but imagine your
+identically zero okay but imagine your harmonic function is defined on the
+upper half plane and it's very Shing on a line okay now the theorem is still
+a line okay now the theorem is still true if the function vanishes at
+infinite order at this point okay then it is identically 0 at that point and if
+it is identically 0 at that point and if you have a function which is harmonic on
+you have a function which is harmonic on the upper half plane of course your
+the upper half plane of course your smart student would give the following
+smart student would give the following proof you make spots reflection and you
+proof you make spots reflection and you produce in our monic function on the
+produce in our monic function on the whole plane which is which has 0 of
+whole plane which is which has 0 of infinite order at that point ok but now
+infinite order at that point ok but now it's more tricky because if your
+it's more tricky because if your boundary Omega is not flat you cannot
+boundary Omega is not flat you cannot use fast deflection principle but you
+use fast deflection principle but you can try to use it but then you have to
+different you have to use shadow theory I'm not saying you cannot modify that
+proof so that it works but it's going to be more complicated ok and now I give
+be more complicated ok and now I give you a slick proof and the slick proof is
+you a slick proof and the slick proof is a consequence of our theorem although
+it's a Khan service of our theorem that will arise after five years of work I
+will arise after five years of work I mean we had written all the proof and
+mean we had written all the proof and then we have realized this theorem which
+then we have realized this theorem which is a very nice computation so the
+is a very nice computation so the theorem tells you modify your frequency
+theorem tells you modify your frequency function of a line so your function I of
+so here you have the integral of a test function Phi I will tell you what it is
+function Phi I will tell you what it is and here there is something which looks
+and here there is something which looks like a distance from zero ok so this is
+numerator and here is what you have actually at the denominator now provided
+actually at the denominator now provided you have the following properties so
+you have the following properties so provided v is decreasing so phi prime is
+provided v is decreasing so phi prime is less or equal than zero it's a function
+less or equal than zero it's a function of one real variable because this
+of one real variable because this function D is like a distance function
+function D is like a distance function provided this distance function as the
+property that the gradient of D is tangent to the boundary and provided
+tangent to the boundary and provided that this distance function behaves like
+that this distance function behaves like modules of X as importantly around zero
+modules of X as importantly around zero I mean I could be precise about this I
+I mean I could be precise about this I mean it for the experts it needs the
+mean it for the experts it needs the func
+the first derivative and the second derivative to have the same asymptotic
+decay or blow-up of modules of the corresponding derivatives of modules of
+X okay you can perturb it by a higher power okay provided you have these three
+power okay provided you have these three these three properties then that
+function is actually monotone and that function can substitute Enron's function
+function can substitute Enron's function in the proof of the exercise in the
+solution of the exercise and producing three functions producing two functions
+three functions producing two functions so Phi and D with these three properties
+is a very simple calculus exercise as long as your boundaries sufficient
+protection so you have to produce a kind of distorted distance function okay so
+of distorted distance function okay so the nice observation is that actually
+this is a strict generalization of Ayn Rand's theorem because it works in the
+Rand's theorem because it works in the interior and Ayn Rand's function is a
+interior and Ayn Rand's function is a particular case so animal function is
+the particular case in which Phi of X is the indicator function of the ball of
+radius 1 then this bulk integral is literally the same integral as we saw
+literally the same integral as we saw before and this integral down
+degenerates to a surface integral ok and in endurance frequency function the
+distance X is exactly modules of X ok so there is no asymptotics it's exactly the
+there is no asymptotics it's exactly the precise modulus of X and then you
+precise modulus of X and then you recover actually Ambulance function ok
+recover actually Ambulance function ok and with this thank you very much for

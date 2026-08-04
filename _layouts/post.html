@@ -5,13 +5,6 @@ layout: default
 <div class="post">
   <h1 class="post-title">
     {{ page.title }}
-    {% if page.lesson_type %}
-      {% if page.lesson_type == 'required' %}
-        <span class="lesson-badge required large">{% t required %}</span>
-      {% elsif page.lesson_type == 'optional' %}
-        <span class="lesson-badge optional large">{% t optional %}</span>
-      {% endif %}
-    {% endif %}
   </h1>
   {{ content }}
 </div>
@@ -27,45 +20,48 @@ layout: default
   </div>
 {% endif %}
 
-{% assign full_name = page.chapter | prepend: "chapter" %}
-{% assign all_posts = site.categories[full_name] | sort_natural: "order" %}
-{% assign current_lang = page.lang | default: site.default_lang %}
-{% assign post_list = all_posts | where: "lang", current_lang %}
+{% if page.chapter and page.order %}
+  {% assign full_name = page.chapter | prepend: "chapter" %}
+  {% assign chapter_posts = site.categories[full_name] %}
+  {% if chapter_posts %}
+    {% assign all_posts = chapter_posts | sort: "order" %}
+    {% assign current_lang = page.lang | default: site.default_lang %}
+    {% assign post_list = all_posts | where: "lang", current_lang %}
 
-{% assign post_order = page.order%}
+    {% assign post_before = page.order | minus: 1 %}
+    {% assign post_after = page.order | plus: 1 %}
 
-{% assign post_before = page.order | minus: 1 %}
-{% assign post_after = page.order | plus: 1 %}
-
-{% if post_list.size >= 2 %}
-<div class="related">
-  <ul class="related-posts">
-    {% for post in post_list%}
-      {% if post.order == post_before %}
-        <li>
-          <h2>Previous Post</h2>
-          <h3>
-            <a href="{{ site.baseurl }}{{ post.url }}">
-              {{ post.title }}
-            </a>
-          </h3>
-        </li>
-      {% endif %}
-    {% endfor %}
-    {% for post in post_list%}
-    {% if post.order == post_after %}
-      <li>
-        <h2>Next Post</h2>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </h3>
-      </li>
+    {% if post_list.size >= 2 %}
+    <div class="related">
+      <ul class="related-posts">
+        {% for post in post_list %}
+          {% if post.order == post_before %}
+            <li>
+              <h2>Previous Post</h2>
+              <h3>
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                  {{ post.title }}
+                </a>
+              </h3>
+            </li>
+          {% endif %}
+        {% endfor %}
+        {% for post in post_list %}
+          {% if post.order == post_after %}
+            <li>
+              <h2>Next Post</h2>
+              <h3>
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                  {{ post.title }}
+                </a>
+              </h3>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
     {% endif %}
-  {% endfor %}
-  </ul>
-</div>
+  {% endif %}
 {% endif %}
 
 

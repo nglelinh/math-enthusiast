@@ -1,0 +1,254 @@
+[
+  {
+    "id": "ku_video_oqMaziDIBYY_2",
+    "t_start": 2.6,
+    "t_end": 93.6,
+    "type": "overview",
+    "summary": "so thank you very much for your kind introduction so as as you as John mentioned in the introduction I had the great privilege of being Andrew Wiles great privilege of being Andrew Wiles postdoc in Princeton in the Yi in the time when the proof of firm are was announced and I remember the the months announced and I remember the the months and even the year after that announcement is where everyone was scrambling to catch up and to understand scrambling to catch up and to understand the ideas that have been introduced as the ideas that have been introduced as among the most exciting of my am…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_93",
+    "t_start": 93.6,
+    "t_end": 185.6,
+    "type": "overview",
+    "summary": "the impact its had and that'll be so what are the goals of my lecture so committee to give this lecture I was told that my mission should I choose to told that my mission should I choose to accept it would be to explain to an accept it would be to explain to an audience of non experts and maybe with audience of non experts and maybe with an undergraduate background in mathematics what are some of the important ideas in Wiles proof and the important ideas in Wiles proof and the reason why they've had such an impact reason why they've had such an impact okay so maybe this is a mission impossi…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_185",
+    "t_start": 185.6,
+    "t_end": 279.1,
+    "type": "overview",
+    "summary": "what had of course the greatest public impact it was feature in the front page of the New York Times a rather large spread that came out in the days spread that came out in the days following Andrews announcement and it following Andrews announcement and it led to the publication of some very popular books like the one of Simon saying which you'll be hearing about saying which you'll be hearing about more I guess in the afternoons lecture more I guess in the afternoons lecture the second reason is that it's a crucial central statement and the fear of elliptic curves and futility occurs is e…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_279",
+    "t_start": 279.1,
+    "t_end": 370.0,
+    "type": "overview",
+    "summary": "speaking it's a kind of it connects questions of number theory questions about whole numbers dire facts and equations with mathematical structures equations with mathematical structures our priori seem completely unrelated having to do with analysis with continuous transformation groups of a continuous transformation groups of a kind that were for example studied by so fiercely another great Norwegian mathematician so yes this graphic is mathematician so yes this graphic is meant to kind of convey this kind of little bit more try to kind of be a bit more precise about what the nature of thi…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_370",
+    "t_start": 370.0,
+    "t_end": 462.1,
+    "type": "overview",
+    "summary": "themes of this this week I guess another example is the which is also very well example is the which is also very well studied and then celebrated the studied and then celebrated the so-called prime equipped Appel equation that was studied first by the Indian mathematician in Burma Gupta in the 7th mathematician in Burma Gupta in the 7th century so it's equation expert minus dy century so it's equation expert minus dy squared equals one where x and y are the variables and G is kind of a parameter of the equation and finally third class of the equation and finally third class of equations is…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_462",
+    "t_start": 462.1,
+    "t_end": 553.2,
+    "type": "overview",
+    "summary": "rational numbers or something and the real numbers are the set of residues modulo given integer n which already made an appearance in in Andrews lecture made an appearance in in Andrews lecture before so the set of integers from 0 to n minus 1 equipped with the usual arithmetic operations of addition subtraction and multiplication but where every time you take the remainder after every time you take the remainder after division by n to stay within this set so classes modulo n it's a nice color so the residue ring modulo n and so it's the residue ring modulo n and so it's equipped with all t…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_553",
+    "t_start": 553.2,
+    "t_end": 647.2,
+    "type": "overview",
+    "summary": "ality tests and if I scan wahoo also appeared a previous lecture and I'm sure appeared a previous lecture and I'm sure in a number of other discussions today in a number of other discussions today also observed I mean one of his big theory which is famous for was to see that for every prime power repower the prime there is in fact a field a finite field of that cardinality so a structure field of that cardinality so a structure in which the four basic arithmetic in which the four basic arithmetic operations are defined and in which you arithmetic and in fact this field with P to the R eleme…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_647",
+    "t_start": 647.2,
+    "t_end": 737.4,
+    "type": "overview",
+    "summary": "prime P and some one question we could ask is how does this sequence behave ask is how does this sequence behave does it satisfy any nice patterns or does it satisfy any nice patterns or what patterns are satisfied this what patterns are satisfied this sequence now a typical gambit when sequence now a typical gambit when you're trying to understand the sequence you're trying to understand the sequence in arithmetic or combinatorics or many in arithmetic or combinatorics or many other parts of mathematics to try to package this sequence in a generating series so the most naive thing to do wo…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_737",
+    "t_start": 737.4,
+    "t_end": 829.8,
+    "type": "overview",
+    "summary": "know a lot about these Zeta functions they have many beautiful remarkable they have many beautiful remarkable properties so the first fundamental we thought we have about them is that they're actually rational functions in T the zeta function is actually a ratio of polynomials P and Q in the variable T so polynomials P and Q in the variable T so that's the first which was proved by that's the first which was proved by very I mean they'd work the second thing very I mean they'd work the second thing we know and this is a remarkable insight we know and this is a remarkable insight which was i…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_832",
+    "t_start": 832.7,
+    "t_end": 923.7,
+    "type": "overview",
+    "summary": "for the land grants program but I wanted to get to and that's simply the question to get to and that's simply the question that arises if you try to understand the function which to a prime P Associates this number NP discounting function or this number NP discounting function or if you want to be a little bit more associates the zeta function so how this is a function of an equation vary as a function of the prime P and so yeah so this is the question we will see a in the the study of the Z dependence of this function has least deep insights this function has least deep insights about the …"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_923",
+    "t_start": 923.7,
+    "t_end": 1015.4,
+    "type": "overview",
+    "summary": "equation x equals 0 well in that case it's very easy to solve over any field it's very easy to solve over any field whatsoever the number of solutions is whatsoever the number of solutions is always 1 so this is the equation for a points if you think of an algebraic geometry terms and therefore they a number NP to the R is always equal to 1 so that means that if you define if you so that means that if you define if you look at the zeta function okay there's a usually the sum of T to the R over R which is this simple rational function 1 which is this simple rational function 1 minus T univer…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_1015",
+    "t_start": 1015.4,
+    "t_end": 1111.7,
+    "type": "overview",
+    "summary": "therefore this number and P of the equation is either 0 or 2 depending on equation is either 0 or 2 depending on this property of the discriminant so we this property of the discriminant so we can ask is there a simple formula for can ask is there a simple formula for this quantity and P as the prime P varies when you first see this recipe it doesn't seem apparent that it's going to doesn't seem apparent that it's going to be a simple recipe because well you know be a simple recipe because well you know checking the Delta is a square or not square mod P you would have to maybe if you were a…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_1111",
+    "t_start": 1111.7,
+    "t_end": 1203.8,
+    "type": "overview",
+    "summary": "digit is 3 or 7 there seemed to be no roots so that's what it seems to be it's roots so that's what it seems to be it's really your only depends usually depend only on what the prime is modulo 10 so now of course your understanding of this now of course your understanding of this function is dramatically improved in need to look at the last digit of your prime ok so that's a front based on this prime ok so that's a front based on this evidence you might make its educated guess at NPS too precisely when P is 1 or 4 modulo 5 in fact it really only pays on the prime modulo 5 and it's 0 if P is…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_1203",
+    "t_start": 1203.8,
+    "t_end": 1294.9,
+    "type": "overview",
+    "summary": "integers that are primed to 5 with a pattern so we kind of and it repeats pattern so we kind of and it repeats with period length 4 with a pattern of with period length 4 with a pattern of sines plus minus minus plus etc so course having this simple shape allows us to make some some analysis of V of us to make some some analysis of V of the zeta function so these right hand the zeta function so these right hand examples are these are kind of function there are called Dirac lay L Series or Dirac layout functions and Series or Dirac layout functions and they're somehow in some sense the they'…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_1294",
+    "t_start": 1294.9,
+    "t_end": 1390.6,
+    "type": "overview",
+    "summary": "things will become more interesting when we begin to consider equations of higher we begin to consider equations of higher degree okay so let's move on to cubic which looks a bit similar to the one we had before I now consider the equation X had before I now consider the equation X cubed minus X minus 1 ok so that has cubed minus X minus 1 ok so that has this coming -23 you can compute the this coming -23 you can compute the discriminant and it's turns out to be minus 23 and well the provided the prime doesn't divide 23 provided the prime doesn't divide 23 then this panel will have distinct…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_1390",
+    "t_start": 1390.6,
+    "t_end": 1483.1,
+    "type": "overview",
+    "summary": "whether P can be represented as the value of a certain binary quadratic form value of a certain binary quadratic form so these two binary chronic forms to a squared plus a B plus B squared are our quadratic forms of discriminant minus 23 quadratic forms of discriminant minus 23 so you see this minus twenty-three appearing again here and this is a kind of an arithmetic characterization of how of an arithmetic characterization of how this cubic polynomial factors modulo P this cubic polynomial factors modulo P in terms of the represent ability of the prime by as the value of a certain binary …"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_1483",
+    "t_start": 1483.1,
+    "t_end": 1573.9,
+    "type": "overview",
+    "summary": "a restatement of hackus theorem you sum from this you can derive heck is theorem that well so what is a P is closely related to NP etc and it depends on related to NP etc and it depends on whether P arises as a value of this whether P arises as a value of this quadratic form or that one and it also quadratic form or that one and it also has this very striking infinite product expansion so this is a really remarkable identity of formal power series I would identity of formal power series I would challenge you I mean this is me you can go on a computer and you can test you can see that this i…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_1573",
+    "t_start": 1573.9,
+    "t_end": 1667.7,
+    "type": "overview",
+    "summary": "two by two matrices and sl2 Z which are upper triangular module 23:33 was a upper triangular module 23:33 was a discriminant that we had before and the discriminant that we had before and the only difference with the transformation only difference with the transformation property that came up in Andrews lecture before is that in this autumn or fee factor this transformation autumn or fee factor this transformation factor here we have a 1 instead of a 2 for this as an example of what's called a modular form of weight 1 and level 23 and in fact hecka proved that similar properties are satisfi…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_1667",
+    "t_start": 1667.7,
+    "t_end": 1759.5,
+    "type": "overview",
+    "summary": "a broad into the following very simple form y squared equals x cube plus ax form y squared equals x cube plus ax plus B so it's an equation of an plus B so it's an equation of an elliptic curve and this is sort of elliptic curve and this is sort of what's called the sort Weierstrass form what's called the sort Weierstrass form so essentially we use no generality by so essentially we use no generality by considering cubic equations of that type considering cubic equations of that type we're closely related and so here's an we're closely related and so here's an example we could consider the …"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_1759",
+    "t_start": 1759.5,
+    "t_end": 1850.4,
+    "type": "overview",
+    "summary": "for the cubic equation in one variable which is to be expected since now we which is to be expected since now we have more solutions even that we have have more solutions even that we have two variables and it turns out again two variables and it turns out again that like the Q Series we had before that like the Q Series we had before this one satisfy is a very remarkable this one satisfy is a very remarkable factorization formula of this sort so factorization formula of this sort so there's a very nice identity and in fact modular form so this is a simple special case concrete special case…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_1850",
+    "t_start": 1850.4,
+    "t_end": 1943.7,
+    "type": "overview",
+    "summary": "Wiles proved so while show that if E is any semi-stable elliptic curve then e any semi-stable elliptic curve then e satisfies that she mauritania my conjecture and this is a picture of I think he announcement like the last think he announcement like the last lecture in Cambridge where this result lecture in Cambridge where this result was announced so more precisely again we was announced so more precisely again we had this kind of transformation behavior had this kind of transformation behavior under matrices which are upper triangular modulo an integer n the same integer n that occurred i…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_1943",
+    "t_start": 1943.7,
+    "t_end": 2036.0,
+    "type": "overview",
+    "summary": "adaiah fantine equation is said to be modular if it's zeta function can be modular if it's zeta function can be expressed in terms of generating series expressed in terms of generating series attached to modular forms in some very so the actual buzzword for that is these are sometimes referred to as all morphic are sometimes referred to as all morphic representations that they also made a representations that they also made a very brief appearance in andrew's lecture i'll see very little about them but there is this sort of very well I want to convey so this is very general notion the gener…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_2036",
+    "t_start": 2036.0,
+    "t_end": 2129.1,
+    "type": "overview",
+    "summary": "as I explained then the work of Hecker and mass somehow led to the and mass somehow led to the understanding that all cubic equations understanding that all cubic equations in one variable are modular their in one variable are modular their associated some kind of modular form either a form of weight one or something called the mass form and then there is called the mass form and then there is this wonderful theorem of Magnus Tuttle this wonderful theorem of Magnus Tuttle which plays a very important role in which plays a very important role in Andrus proof as well also was explained Andrus…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_2129",
+    "t_start": 2129.1,
+    "t_end": 2221.2,
+    "type": "overview",
+    "summary": "which modularity was known and and and the way that it was proved for these finitely many elliptic curves up to isomorphism was by essentially almost verification I mean there was no no general technique for for getting the general technique for for getting the modularity so why is the modularity modularity so why is the modularity elliptic curves important I mean return elliptic curves important I mean return to that question which I also raised at the beginning of my talk well so of course this theorem confirms the course this theorem confirms the language conjecture in an important new l…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_2221",
+    "t_start": 2221.2,
+    "t_end": 2313.6,
+    "type": "overview",
+    "summary": "more but okay so another point that I want to make this is what I'm going to want to make this is what I'm going to focus on for the remainder of my lecture focus on for the remainder of my lecture is that Wiles proof leads to a is that Wiles proof leads to a revolutionary new approach to understanding modularity in much more general settings and I want to sort of general settings and I want to sort of focus on the ingredient or the element focus on the ingredient or the element in Wiles proof that somehow gives us a or further progress on the landlines program and on modularity results and…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_2313",
+    "t_start": 2313.6,
+    "t_end": 2404.6,
+    "type": "overview",
+    "summary": "field l and so this group now is so the in red I put the slightly more technical in red I put the slightly more technical parts of the lecture thing that you parts of the lecture thing that you don't really have to understand if you don't really have to understand if you don't need to know the definition don't don't need to know the definition don't worry too much so we look at some kind of sub extension of the full set of algebraic numbers okay and L is a field algebraic numbers okay and L is a field which is endowed with some kind of which is endowed with some kind of topology which allow…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_2404",
+    "t_start": 2404.6,
+    "t_end": 2495.7,
+    "type": "overview",
+    "summary": "Prize then you really should work on Galois presentations okay so well to a Galois presentations okay so well to a gala or a presentation we can associate gala or a presentation we can associate a seder function in much the same way that it was done for the diophantus equations before so this group gqs this equations before so this group gqs this gamma group of the algebraic numbers gamma group of the algebraic numbers contains a distinguished element for each prime P which is different from s and this is what was that's called the and this is what was that's called the Frobenius element at…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_2495",
+    "t_start": 2495.7,
+    "t_end": 2586.5,
+    "type": "overview",
+    "summary": "Zeta functions as a functions of dye effect in equations and the Zeta effect in equations and the Zeta functions of gamma our presentations are functions of gamma our presentations are intimately related and that if X is any collection or you can find two gamma or presentations in fact for which the zeta presentations in fact for which the zeta function of the equation can be written as a ratio of the zeta function of these two Galois recitations function of these two Galois recitations but gamma representations have this extra feature that I mean when you're looking at representations of a…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_2586",
+    "t_start": 2586.5,
+    "t_end": 2677.4,
+    "type": "overview",
+    "summary": "saying that a gala or presentation is modular if its data function can be modular if its data function can be expressed in terms of modular forms a expressed in terms of modular forms a very natural generalization of course very natural generalization of course and the fundamental problem the rangas and the fundamental problem the rangas program not can be reformulated as a the goal now is to show that olga our presentations eventually with some presentations eventually with some technical restrictions that somehow promised that they would come from diaphoretic weijun's are associated to di…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_2677",
+    "t_start": 2677.4,
+    "t_end": 2768.5,
+    "type": "overview",
+    "summary": "what does that mean that's like a very artificial thing to do from the point of artificial thing to do from the point of view of gob our presentation is view of gob our presentation is completely natural because you have this completely natural because you have this natural homomorphism from GL n ZL 2gl NFL okay now I can state a result which is somewhat more technical than the is somewhat more technical than the modularity theorem of Wiles but in some modularity theorem of Wiles but in some sense is really the heart of Andrew Wiles proof and it is the statement that has led to a fantastic …"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_2768",
+    "t_start": 2768.5,
+    "t_end": 2860.9,
+    "type": "overview",
+    "summary": "making further progress on the Langlands program and well so this has really program and well so this has really generate a whole industry in that too a lot of advances as I said just before and well before I before I say anything and well before I before I say anything about the new progress in the language about the new progress in the language program that kind of arose from this program that kind of arose from this modularity lifting theorem or its modularity lifting theorem or its generalizations let me explain to you generalizations let me explain to you how this can be used to prove …"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_2860",
+    "t_start": 2860.9,
+    "t_end": 2953.6,
+    "type": "overview",
+    "summary": "MA the three tours and points on the elliptic curve have a modularity elliptic curve have a modularity property for exactly the same reason property for exactly the same reason that the quartic equation is solvable that the quartic equation is solvable because they have the same underlying because they have the same underlying group of symmetries so so it's I think group of symmetries so so it's I think it's actually a wonderful example of it's actually a wonderful example of continuity in mathematical ideas the reason why the Italian geometry algebra is of the Renaissance were able to solv…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_2953",
+    "t_start": 2953.6,
+    "t_end": 3047.5,
+    "type": "overview",
+    "summary": "really I think what was the main thing that accounts for the tremendous impact that accounts for the tremendous impact that Wiles ideas have had over the last two decades and sort of why these results have opened a new era in number results have opened a new era in number theory as as in the words of the Abel theory as as in the words of the Abel prize citation and indeed since 1994 prize citation and indeed since 1994 when Wiles proof was was published the subject has really had a real golden age of a new of progress in which many open of a new of progress in which many open problems that …"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_3047",
+    "t_start": 3047.5,
+    "t_end": 3144.9,
+    "type": "overview",
+    "summary": "conjecture which was also mentioned briefly in Andrews lecture but when briefly in Andrews lecture but when considers instead representations of the considers instead representations of the Galois group with values in a finite representations and still odd and this was conjectured by ser that all such was conjectured by ser that all such representations were modular and it was representations were modular and it was money some other philosophical underpinning of the humour a taniyama implies firma and this was proved around implies firma and this was proved around to four published at least…"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_3144",
+    "t_start": 3144.9,
+    "t_end": 3238.7,
+    "type": "overview",
+    "summary": "distribution of the numbers and PVE attached to an elliptic curve and that attached to an elliptic curve and that was proved in large part and then was proved in large part and then gradually more and more generality by close L Harris Shepard Barron and Taylor and using again I mean so - and again and using again I mean so - and again the idea was to get a handle on the zeta function by proving an appropriate modularity lifting and I know well when consider also cases of modularity of a more general number of modularity of a more general number fields the most natural case after the fields …"
+  },
+  {
+    "id": "ku_video_oqMaziDIBYY_3238",
+    "t_start": 3238.7,
+    "t_end": 3264.1,
+    "type": "overview",
+    "summary": "I also want to maybe conclude with the remark that I think Andrew Wiles is the far so the whole that you shouldn't be only about legacy so as I congratulate only about legacy so as I congratulate him on his herbal prize I would have wished him many more decades of beautiful and influential mathematics beautiful and influential mathematics thank you"
+  }
+]

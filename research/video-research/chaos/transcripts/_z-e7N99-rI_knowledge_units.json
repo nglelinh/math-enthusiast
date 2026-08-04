@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ku_video__z-e7N99-rI_3",
+    "t_start": 3.8,
+    "t_end": 96.3,
+    "type": "overview",
+    "summary": "hey everybody catsins tv and today we are exploring the logistic map over the are exploring the logistic map over the course of two videos we are going to delve into the simple functions properties including period doubling and properties including period doubling and chaos but first please do subscribe to this channel for more cultural content coming channel for more cultural content coming out regularly and please do consider out regularly and please do consider supporting us via patreon or kofi links supporting us via patreon or kofi links in the description below take a quadratic functi…"
+  },
+  {
+    "id": "ku_video__z-e7N99-rI_96",
+    "t_start": 96.3,
+    "t_end": 189.8,
+    "type": "overview",
+    "summary": "parameters with a simple program i'm going to once again use the functional going to once again use the functional language haskell because i can easily language haskell because i can easily express the logistic map this way express the logistic map this way and also generate functions for and also generate functions for different values of a different values of a [Music] using the built-in function iterate we can run the map for as many iterations as we want we encapsulate it in this little one line program to take the little one line program to take the first 300 values and print them out…"
+  },
+  {
+    "id": "ku_video__z-e7N99-rI_189",
+    "t_start": 189.8,
+    "t_end": 281.2,
+    "type": "overview",
+    "summary": "this time in the language swift if we look at the plot we see how the periods and that the period doubling gets faster and faster until the onset of chaos at around 3.57 we call this plot a bifurcation diagram and it is endlessly bifurcation diagram and it is endlessly fascinating even after the onset of fascinating even after the onset of chaos there are these interesting chaos there are these interesting pockets of stability like this range where we see repetitions of three values we can zoom in and look more closely at that range between 3.8 and 3.9 within the stable range we see many th…"
+  },
+  {
+    "id": "ku_video__z-e7N99-rI_281",
+    "t_start": 281.2,
+    "t_end": 336.5,
+    "type": "overview",
+    "summary": "approach chaos via period doubling let's look at another map the sine map look at another map the sine map although it is generated from a very although it is generated from a very different function we see that its different function we see that its bifurcation diagram is quite similar its bifurcation diagram is quite similar its period doubling is still proportional to period doubling is still proportional to the feigenbound constant and we see the feigenbound constant and we see similar areas of stability after the similar areas of stability after the onset of chaos this universality is …"
+  }
+]

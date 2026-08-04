@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ku_video_NgbK43jB4rQ_0",
+    "t_start": 0.0,
+    "t_end": 93.3,
+    "type": "overview",
+    "summary": "So let's talk about the four color theorem! It's a favorite with mathematicians. It's easy to state, so the statement is, every map can be colored using four colors, such that two neighboring countries are different colors. That would be confusing if it wasn't. So all maps can be done in four colors. In other words I'm saying there are no maps that need five colors. It's not obvious, and you'd think more complicated maps would need more colors, but apparently all maps can be done with just four colors or better. So this problem was unsolved for a long time. 125 years, it was unsolved. It wa…"
+  },
+  {
+    "id": "ku_video_NgbK43jB4rQ_93",
+    "t_start": 93.3,
+    "t_end": 184.4,
+    "type": "overview",
+    "summary": "So people were trying it. And if you try it with maps, it does work. If you try it with the map of the world, you can color it with four colors. If you try it with the map of the United States, you can do it with four colors. I mean you can get this problem to children, right, you want to keep them quiet. After a while, you start to think, \"Well, maybe I'll need to invent a map. Maybe if I can invent a weird, complicated map, I can find one that needs five colors.\" So that's what you start to do -- doesn't look like any sort of real-life map. So we got this map, and now we're going to color…"
+  },
+  {
+    "id": "ku_video_NgbK43jB4rQ_184",
+    "t_start": 184.4,
+    "t_end": 277.1,
+    "type": "overview",
+    "summary": "So we'll do this one in orange... [Brady] And now we need a fourth color. [Dr. Grime] We do need -- we have to go to the fourth color, do we? Yeah, yeah, yep, purple, blue and orange are being used; this does have to go into the fourth color. I've got pink here. On the opposite side, it's the same, obviously; I'll use pink over here. It looks like we had to use four colors for that. So okay, so this is a map that was solvable with four colors. Here's another important map. I'm gonna make it like that. There's only four countries, but if we try and color it in, Uh, I'll do something similar.…"
+  },
+  {
+    "id": "ku_video_NgbK43jB4rQ_277",
+    "t_start": 277.1,
+    "t_end": 369.3,
+    "type": "overview",
+    "summary": "better?\" is the same question of saying \"can this network be colored using four colors or better such that two countries that are connected with a line are not the same color?\" So it kind of boils down the problem; it makes it more abstract but that's actually a good thing. it makes it easier to solve, there are things we can learn now about maps by studying networks instead. So the reason we want to use networks; for a start, it shows when two maps are the same. I'll show you what I mean. What about if I had a this map looks like a handbag as Brady just told me, but if we draw the network …"
+  },
+  {
+    "id": "ku_video_NgbK43jB4rQ_369",
+    "t_start": 369.3,
+    "t_end": 461.9,
+    "type": "overview",
+    "summary": "map, because if you try and turn that into a map it's not going to work. The problem is the lines cross which when you try and turn it into a map doesn't make sense. You can try but it just doesn't make sense. It is allowed if we can untangle the lines and that might happen. i'll show you what i mean so say these are countries here and let's say these countries touch each other as well so i would connect them with a line, but if I do that you see the lines cross. I don't have to do it that way: I could have drawn a line like that. So I could have untangled that. So if I can untangle it that…"
+  },
+  {
+    "id": "ku_video_NgbK43jB4rQ_461",
+    "t_start": 461.9,
+    "t_end": 553.6,
+    "type": "overview",
+    "summary": "reasonable, but every map will have at least one country that looks like one of these. What you can't have is every country connected to six other countries or more. All I'm saying is there is at least one country in that map that's either connected to one, or two, or three, or four, or five. But if you have a map where they're all mutually connected to six or more countries, that's a network that can't be untangled. So all maps have this feature one of the countries is one of these on this list. Now we can start talking about the four color theorem this is actually going to be useful. So t…"
+  },
+  {
+    "id": "ku_video_NgbK43jB4rQ_553",
+    "t_start": 553.6,
+    "t_end": 645.0,
+    "type": "overview",
+    "summary": "smaller map. Now, because it's a smaller map, that means you can do it in six colors. Do you remember, the map I had was the smallest that had to use seven? So if I take a country away, smaller, I can do it with six, great. If I put my country A back in, that means i have a spare color to use for A.  I mean the worst case scenario is this last one here. and these could be all different colors. If I put A back in I'm still going to have a spare color, a sixth color that i can use, which shows that the map can be done in six colors after all. Now to show that all maps can be done with five co…"
+  },
+  {
+    "id": "ku_video_NgbK43jB4rQ_644",
+    "t_start": 645.0,
+    "t_end": 736.0,
+    "type": "overview",
+    "summary": "thought \"Oh! It's done.\" And then oh! They found a mistake and when actually that doesn't hold up and then \"Oh no, it wasn't proved.\" And we have to go back to square one, we have to find a way to prove this problem. So it took till the 1970s to solve this problem. So the final solution: it was done by two guys, Kenneth Appel and Wolfgang Haken from the University of Illinois. They did it in 1976. It's kind of similar to my proof I mentioned before. They made a list of networks and they said, every map must have at least one of these networks within it. And they showed that every map contai…"
+  },
+  {
+    "id": "ku_video_NgbK43jB4rQ_735",
+    "t_start": 736.0,
+    "t_end": 826.2,
+    "type": "overview",
+    "summary": "start, one of the problems is -- it involves checking lots of cases. That's not the best kind of proof. It is a proof and it is valid, but the problem with that is it doesn't give you a deeper understanding of why something is true: just checking lots of cases. Mathematicians not -- do not necessarily like that kind of proof; it's not the best kind. But it's still a valid proof. The proof has been improved for starts, we had this long list of networks that we had to show we could color in. That got shortened. I think it got shortened to some like 1400 and something -- I think it's shorter n…"
+  },
+  {
+    "id": "ku_video_NgbK43jB4rQ_826",
+    "t_start": 826.2,
+    "t_end": 858.9,
+    "type": "overview",
+    "summary": "much more professional, give them a look. It really doesn't matter what you're doing these days, whether it's just sort of a CV type site or some kind of shop, you really need a classy online presence and that's what you're going to get here, go to squarespace.com/numberphile and check them out. You can even do a free trial before committing and remember to use numberphile to get ten percent off your first purchase squarespace.com/numberphile or you can use the code \"numberphile\". Thanks to them for supporting this video."
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ku_video_BfOjrQAhG4M_4",
+    "t_start": 4.2,
+    "t_end": 103.0,
+    "type": "overview",
+    "summary": "okay so we've seen that optimal transport can well that can be formulated as a linear program that it can be solved by network flow problem but that this linear programming problem but that this linear programming formulation also has you know it is the exact thing um it is it gives us the best solution um it is it gives us the best solution for the problem that we're asking but for the problem that we're asking but sometimes we're not so sure about which sometimes we're not so sure about which problem we should be asking problem we should be asking the costs of transporting the costs of tr…"
+  },
+  {
+    "id": "ku_video_BfOjrQAhG4M_102",
+    "t_start": 103.0,
+    "t_end": 201.2,
+    "type": "overview",
+    "summary": "regularization what does that mean it is perhaps best explained by it is perhaps best explained by this picture here taken from this this picture here taken from this book of peri so let's say that we have a triangular feasible region here a triangular feasible region here we're looking for the sweetest spot we're looking for the sweetest spot in this permissible region to solve a in this permissible region to solve a linear program the linear program has a cost vector like so and well the sweetest spot like so and well the sweetest spot given this feasible region and given given this feasi…"
+  },
+  {
+    "id": "ku_video_BfOjrQAhG4M_203",
+    "t_start": 204.0,
+    "t_end": 298.3,
+    "type": "overview",
+    "summary": "this mixed objective function will have an optimum which no longer lies on a corner of your polyhedron so you remember that if the cost vector if it pointed here we found this corner if it pointed here we found this corner as optimal solution if the cost vector pointed there we would have found that corner as an we would have found that corner as an optimal solution optimal solution and well if we add the entropic then under the blue vector we will find this solution we will find this solution and under the green cost vector we will that solution so practically the same or almost the same s…"
+  },
+  {
+    "id": "ku_video_BfOjrQAhG4M_298",
+    "t_start": 298.3,
+    "t_end": 387.7,
+    "type": "overview",
+    "summary": "of this polytope it means that we get really dense solutions out that we get really dense solutions out so what do i mean by that in the optimal we saw one so for these source and target distributions these source and target distributions and for that transport cost matrix shown on the right the resulting optimal solution was the the resulting optimal solution was the transport plan shown on the left and well the most striking thing is that actually most of striking thing is that actually most of the elements in the transport plan are zero or in other words we looked at this dark blue eleme…"
+  },
+  {
+    "id": "ku_video_BfOjrQAhG4M_391",
+    "t_start": 391.3,
+    "t_end": 482.9,
+    "type": "overview",
+    "summary": "why is that so i've here shown you a one-dimensional example so a one-dimensional example so let's say that here is my feasible region let's say the feasible is given by everything to the right of the zero that would be my feasible region and in this one dimensional region and in this one dimensional optimization problem optimization problem my cost vector is just a scalar number it says that the further right i go the higher the cost so my linear programming solution in this case would be at this case would be at zero because i want to make the cost as but i cannot go to the left of zero s…"
+  },
+  {
+    "id": "ku_video_BfOjrQAhG4M_482",
+    "t_start": 482.9,
+    "t_end": 575.8,
+    "type": "overview",
+    "summary": "and the result is that my optimum solution will move away from my optimum solution will move away from the boundary so in fact here if my cost factor has a slope of plus one then i would look for the place where the the cost and the which would be at the point where this has a slope of minus -1 so probably this has a slope of minus -1 so probably the optimum solution would be the optimum solution would be no longer zero but round about here and this was a one-dimensional example but the same holds in higher dimensions but the same holds in higher dimensions okay so if you look at the black …"
+  },
+  {
+    "id": "ku_video_BfOjrQAhG4M_578",
+    "t_start": 578.3,
+    "t_end": 670.5,
+    "type": "overview",
+    "summary": "so to solve this kind of optimization problem one way forward is to formulate the lagrangian so the lagrangian lagrangian so the lagrangian depends on my original variable that i but also on lagrange multiplier here vectors of lagrange multipliers and in this lagrangian i have copied down the objective i have copied down the objective function and then there are these extra terms lagrange multiplier times constraint so the p times 1 should be a times 1 should be a so here this one is again the this was the normalization constraint that our transport plan should transport everything away fro…"
+  },
+  {
+    "id": "ku_video_BfOjrQAhG4M_670",
+    "t_start": 670.5,
+    "t_end": 763.8,
+    "type": "overview",
+    "summary": "it nicely cancels and you are left with this and if you you find that the optimal transport plan is given by a product of three things is given by a product of three things namely an exponentiated um negative lagrange multiplier where we again have in the denominator again have in the denominator this gamma so something like temperature now we have the exponentiated element of the and the other lagrange multiplier and we can just u this is an element of a vector v and this matrix here we call it a kernel and this matrix here we call it a kernel matrix element of a curl matrix k and so overa…"
+  },
+  {
+    "id": "ku_video_BfOjrQAhG4M_766",
+    "t_start": 766.8,
+    "t_end": 860.5,
+    "type": "overview",
+    "summary": "so here in more detail these were the normalization constraints so we know that p times 1 should be a and p transpose one should be a and p transpose one should be b and in in terms of vector matrix products it is this where this funny notation it is this where this funny notation here means this is an element-wise product so k was a matrix v was a vector so the so k was a matrix v was a vector so the entire thing is a vector u was also a vector and so i'm here taking the element-wise product taking the element-wise product of the vector on the left and of the vector on the right and now so…"
+  },
+  {
+    "id": "ku_video_BfOjrQAhG4M_860",
+    "t_start": 860.5,
+    "t_end": 955.6,
+    "type": "overview",
+    "summary": "a very fast algorithm so um here from this paper that i cited earlier we see how much stuff you want to transport away and want to transport somewhere so the biggest thing here is histograms so the biggest thing here is histograms with 4 000 items or bins and the execution time here is a logarithmic so you can see that this is something like you know that this is something like you know three orders of magnitude faster than three orders of magnitude faster than a previous algorithm which already was a previous algorithm which already was was not was not bad and because these are all matrix …"
+  },
+  {
+    "id": "ku_video_BfOjrQAhG4M_955",
+    "t_start": 955.6,
+    "t_end": 1049.3,
+    "type": "overview",
+    "summary": "in the one dimensional case here for these absolutely continuous these absolutely continuous distributions and the optimal transport plan would really be zero outside a you know this curve here and curve here and so the one extreme if you let gamma go you approach the exact solution the other extreme if you let gamma go to infinity well this thing here is just the outer of the two limiting distributions this is always a valid transport plan this is always a valid transport plan yeah so if somebody asks you to come up a valid transport plan you know without doing any math doing any math ther…"
+  },
+  {
+    "id": "ku_video_BfOjrQAhG4M_1049",
+    "t_start": 1049.3,
+    "t_end": 1141.3,
+    "type": "overview",
+    "summary": "but you take a little bit of dirt from the source and you distribute it perfectly according to where the target wants it but regardless of what you do with all the other yeah so this is the stupid solution but this one you reach solution but this one you reach in the limit of infinite temperature in the limit of infinite temperature now the number of iterations that you need depends on this temperature now if you want to be really close to to the exact solution you have to choose a small gamma and you see that working with a small gamma is more expensive than working with a large gamma so t…"
+  },
+  {
+    "id": "ku_video_BfOjrQAhG4M_1141",
+    "t_start": 1141.3,
+    "t_end": 1193.8,
+    "type": "overview",
+    "summary": "is anyway it's something that you can always differentiate always differentiate through so in summary the synchron iterations are fast they're differentiable and they're they're differentiable and they're approximate which sometimes is good if you want this smoothness with respect if you want this smoothness with respect to the cost it's sometimes bad in particular if you care about getting spar solutions out care about getting spar solutions out you know this is not what you get here but this is a very nice solver for discrete optimal transport and again discrete optimal transport and agai…"
+  }
+]

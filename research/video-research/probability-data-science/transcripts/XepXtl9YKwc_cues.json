@@ -1,0 +1,502 @@
+[
+  {
+    "t_start": 9.79,
+    "t_end": 14.11,
+    "text": "it's bad to the bone. StatQuest, check it out."
+  },
+  {
+    "t_start": 14.11,
+    "t_end": 20.11,
+    "text": "StatQuest, check it out. It's bad to the bone."
+  },
+  {
+    "t_start": 23.11,
+    "t_end": 26.31,
+    "text": "Hello, and welcome to StatQuest. StatQuest is brought to you by the"
+  },
+  {
+    "t_start": 26.31,
+    "t_end": 30.75,
+    "text": "friendly folks in the genetics department at the University of North"
+  },
+  {
+    "t_start": 30.75,
+    "t_end": 34.71,
+    "text": "Carolina at Chapel Hill. Today, we're going to be talking about"
+  },
+  {
+    "t_start": 34.71,
+    "t_end": 40.95,
+    "text": "Let's say we weighed a bunch of mice. The goal of maximum likelihood is to"
+  },
+  {
+    "t_start": 40.95,
+    "t_end": 42.91,
+    "text": "The goal of maximum likelihood is to find the optimal way to fit a"
+  },
+  {
+    "t_start": 42.91,
+    "t_end": 45.51,
+    "text": "find the optimal way to fit a distribution to the data."
+  },
+  {
+    "t_start": 45.51,
+    "t_end": 50.63,
+    "text": "There are lots of different types of distributions for different types of"
+  },
+  {
+    "t_start": 50.63,
+    "t_end": 56.83,
+    "text": "Here's a normal distribution. Here's what an exponential distribution"
+  },
+  {
+    "t_start": 56.83,
+    "t_end": 59.99,
+    "text": "And here's what a gamma distribution looks like."
+  },
+  {
+    "t_start": 59.99,
+    "t_end": 65.75,
+    "text": "The reason you want to fit a distribution to your data is it can be"
+  },
+  {
+    "t_start": 65.75,
+    "t_end": 71.07,
+    "text": "easier to work with, and it is also more general. It applies to every experiment"
+  },
+  {
+    "t_start": 71.07,
+    "t_end": 73.15,
+    "text": "general. It applies to every experiment of the same type."
+  },
+  {
+    "t_start": 73.15,
+    "t_end": 78.27,
+    "text": "In this case, we think the weights might be normally distributed."
+  },
+  {
+    "t_start": 78.27,
+    "t_end": 82.39,
+    "text": "be normally distributed. That means we think it came from this"
+  },
+  {
+    "t_start": 82.39,
+    "t_end": 86.51,
+    "text": "type of distribution. Normally distributed means a number of"
+  },
+  {
+    "t_start": 86.51,
+    "t_end": 90.67,
+    "text": "First, we expect most of the measurements, for example, mouse"
+  },
+  {
+    "t_start": 90.67,
+    "t_end": 95.03,
+    "text": "measurements, for example, mouse weights, to be close to the mean or"
+  },
+  {
+    "t_start": 95.03,
+    "t_end": 100.51,
+    "text": "And we see, lo and behold, in our data set, most of the mice weigh close to the"
+  },
+  {
+    "t_start": 100.51,
+    "t_end": 102.15,
+    "text": "set, most of the mice weigh close to the average."
+  },
+  {
+    "t_start": 102.15,
+    "t_end": 107.55,
+    "text": "We also expect the measurements to be relatively symmetrical around the mean."
+  },
+  {
+    "t_start": 107.55,
+    "t_end": 111.51,
+    "text": "relatively symmetrical around the mean. Although the measurements are not"
+  },
+  {
+    "t_start": 111.51,
+    "t_end": 116.31,
+    "text": "perfectly symmetrical around the mean, they are not crazy skewed to one side,"
+  },
+  {
+    "t_start": 116.31,
+    "t_end": 118.67,
+    "text": "either. This is pretty good. Normal distributions come in all kinds"
+  },
+  {
+    "t_start": 118.67,
+    "t_end": 121.03,
+    "text": "Normal distributions come in all kinds of shapes and sizes."
+  },
+  {
+    "t_start": 121.03,
+    "t_end": 122.75,
+    "text": "of shapes and sizes. They can be skinny,"
+  },
+  {
+    "t_start": 122.75,
+    "t_end": 126.55,
+    "text": "They can be skinny, medium, or large-boned."
+  },
+  {
+    "t_start": 126.55,
+    "t_end": 131.39,
+    "text": "Once we settle on the shape, we have to figure out where to center the thing."
+  },
+  {
+    "t_start": 131.39,
+    "t_end": 135.19,
+    "text": "figure out where to center the thing. Is one location better than another?"
+  },
+  {
+    "t_start": 135.19,
+    "t_end": 137.79,
+    "text": "Is one location better than another? Before we get too technical, let's just"
+  },
+  {
+    "t_start": 137.79,
+    "t_end": 140.35,
+    "text": "Before we get too technical, let's just pick any old normal distribution and see"
+  },
+  {
+    "t_start": 140.35,
+    "t_end": 142.71,
+    "text": "pick any old normal distribution and see how well it fits the data."
+  },
+  {
+    "t_start": 142.71,
+    "t_end": 145.15,
+    "text": "how well it fits the data. This distribution says, \"Most of the"
+  },
+  {
+    "t_start": 145.15,
+    "t_end": 147.35,
+    "text": "This distribution says, \"Most of the values you measure should be near my"
+  },
+  {
+    "t_start": 147.35,
+    "t_end": 148.99,
+    "text": "values you measure should be near my average.\""
+  },
+  {
+    "t_start": 148.99,
+    "t_end": 154.27,
+    "text": "The distribution's average is the black dotted line. In this case, that's"
+  },
+  {
+    "t_start": 154.27,
+    "t_end": 156.43,
+    "text": "dotted line. In this case, that's different from the average of the actual"
+  },
+  {
+    "t_start": 156.43,
+    "t_end": 158.23,
+    "text": "different from the average of the actual measurements."
+  },
+  {
+    "t_start": 158.23,
+    "t_end": 159.75,
+    "text": "measurements. Unfortunately,"
+  },
+  {
+    "t_start": 159.75,
+    "t_end": 164.55,
+    "text": "most of the values we measured are far from the distribution's average."
+  },
+  {
+    "t_start": 164.55,
+    "t_end": 169.99,
+    "text": "from the distribution's average. According to a normal distribution with"
+  },
+  {
+    "t_start": 169.99,
+    "t_end": 172.71,
+    "text": "a mean value over here, the probability or likelihood of"
+  },
+  {
+    "t_start": 172.71,
+    "t_end": 176.23,
+    "text": "the probability or likelihood of observing all these weights is low."
+  },
+  {
+    "t_start": 176.23,
+    "t_end": 177.67,
+    "text": "observing all these weights is low. What if we shifted the normal"
+  },
+  {
+    "t_start": 177.67,
+    "t_end": 180.47,
+    "text": "What if we shifted the normal distribution over so that its mean was"
+  },
+  {
+    "t_start": 180.47,
+    "t_end": 183.43,
+    "text": "distribution over so that its mean was the same as the average weight?"
+  },
+  {
+    "t_start": 183.43,
+    "t_end": 185.79,
+    "text": "the same as the average weight? According to a normal distribution with"
+  },
+  {
+    "t_start": 185.79,
+    "t_end": 188.35,
+    "text": "According to a normal distribution with a mean value here,"
+  },
+  {
+    "t_start": 188.35,
+    "t_end": 193.11,
+    "text": "the probability or likelihood of observing these weights is relatively"
+  },
+  {
+    "t_start": 193.11,
+    "t_end": 195.15,
+    "text": "observing these weights is relatively high."
+  },
+  {
+    "t_start": 195.15,
+    "t_end": 199.27,
+    "text": "If we kept shifting the normal distribution over,"
+  },
+  {
+    "t_start": 199.27,
+    "t_end": 204.15,
+    "text": "then the probability or likelihood of observing these measurements would go"
+  },
+  {
+    "t_start": 204.15,
+    "t_end": 205.949,
+    "text": "observing these measurements would go down again."
+  },
+  {
+    "t_start": 205.949,
+    "t_end": 211.91,
+    "text": "We can plot the likelihood of observing the data over the location of the center"
+  },
+  {
+    "t_start": 211.91,
+    "t_end": 214.11,
+    "text": "the data over the location of the center of the distribution."
+  },
+  {
+    "t_start": 214.11,
+    "t_end": 217.87,
+    "text": "We start on the left side and we calculate the likelihood of observing"
+  },
+  {
+    "t_start": 217.87,
+    "t_end": 221.63,
+    "text": "calculate the likelihood of observing the data, and then we shift the"
+  },
+  {
+    "t_start": 221.63,
+    "t_end": 225.87,
+    "text": "distribution to the right and recalculate. We just do this all the way"
+  },
+  {
+    "t_start": 225.87,
+    "t_end": 229.509,
+    "text": "Once we've tried all the possible locations we could center the normal"
+  },
+  {
+    "t_start": 229.509,
+    "t_end": 234.87,
+    "text": "locations we could center the normal distribution on, we want the location"
+  },
+  {
+    "t_start": 234.87,
+    "t_end": 241.07,
+    "text": "observing the weights we measured. This location for the mean maximizes the"
+  },
+  {
+    "t_start": 241.07,
+    "t_end": 243.67,
+    "text": "This location for the mean maximizes the likelihood of observing the weights we"
+  },
+  {
+    "t_start": 243.67,
+    "t_end": 244.99,
+    "text": "likelihood of observing the weights we measured."
+  },
+  {
+    "t_start": 244.99,
+    "t_end": 250.27,
+    "text": "Thus, it is the maximum likelihood estimate for the mean."
+  },
+  {
+    "t_start": 250.27,
+    "t_end": 255.55,
+    "text": "In this case, we're specifically talking about the mean of the distribution, not"
+  },
+  {
+    "t_start": 255.55,
+    "t_end": 260.349,
+    "text": "about the mean of the distribution, not the mean of the data. However, with a"
+  },
+  {
+    "t_start": 260.349,
+    "t_end": 262.07,
+    "text": "normal distribution, those two things are the same."
+  },
+  {
+    "t_start": 262.07,
+    "t_end": 266.31,
+    "text": "Great. Now we have figured out the maximum likelihood estimate for the"
+  },
+  {
+    "t_start": 266.31,
+    "t_end": 267.99,
+    "text": "maximum likelihood estimate for the mean."
+  },
+  {
+    "t_start": 267.99,
+    "t_end": 271.87,
+    "text": "Now we have to figure out the maximum likelihood estimate for the standard"
+  },
+  {
+    "t_start": 271.87,
+    "t_end": 273.43,
+    "text": "likelihood estimate for the standard deviation."
+  },
+  {
+    "t_start": 273.43,
+    "t_end": 278.23,
+    "text": "Again, we can plot the likelihood of observing the data over different values"
+  },
+  {
+    "t_start": 278.23,
+    "t_end": 280.55,
+    "text": "observing the data over different values for the standard deviation."
+  },
+  {
+    "t_start": 280.55,
+    "t_end": 285.63,
+    "text": "Now we found the standard deviation that maximizes the likelihood of observing"
+  },
+  {
+    "t_start": 285.63,
+    "t_end": 288.35,
+    "text": "maximizes the likelihood of observing the weights we measured."
+  },
+  {
+    "t_start": 288.35,
+    "t_end": 293.19,
+    "text": "This is the normal distribution that has been fit to the data by using the"
+  },
+  {
+    "t_start": 293.19,
+    "t_end": 295.75,
+    "text": "been fit to the data by using the maximum likelihood estimations for the"
+  },
+  {
+    "t_start": 295.75,
+    "t_end": 301.19,
+    "text": "maximum likelihood estimations for the mean and the standard deviation."
+  },
+  {
+    "t_start": 301.19,
+    "t_end": 303.23,
+    "text": "Now, when someone says that they have the maximum likelihood estimates for the"
+  },
+  {
+    "t_start": 303.23,
+    "t_end": 307.99,
+    "text": "the maximum likelihood estimates for the mean or the standard deviation or for"
+  },
+  {
+    "t_start": 307.99,
+    "t_end": 312.71,
+    "text": "you know that they found the value for the mean or the standard deviation or"
+  },
+  {
+    "t_start": 312.71,
+    "t_end": 317.87,
+    "text": "for whatever that maximizes the likelihood that you observed the things"
+  },
+  {
+    "t_start": 317.87,
+    "t_end": 320.43,
+    "text": "likelihood that you observed the things that you observed."
+  },
+  {
+    "t_start": 320.43,
+    "t_end": 322.63,
+    "text": "that you observed. Terminology alert."
+  },
+  {
+    "t_start": 322.63,
+    "t_end": 328.75,
+    "text": "In everyday conversation, probability and likelihood mean the same thing."
+  },
+  {
+    "t_start": 328.75,
+    "t_end": 331.95,
+    "text": "and likelihood mean the same thing. However, in stats land, likelihood"
+  },
+  {
+    "t_start": 331.95,
+    "t_end": 334.47,
+    "text": "However, in stats land, likelihood specifically refers to this situation"
+  },
+  {
+    "t_start": 334.47,
+    "t_end": 336.27,
+    "text": "specifically refers to this situation we've covered here,"
+  },
+  {
+    "t_start": 336.27,
+    "t_end": 341.59,
+    "text": "where you are trying to find the optimal value for the mean or standard deviation"
+  },
+  {
+    "t_start": 341.59,
+    "t_end": 343.83,
+    "text": "value for the mean or standard deviation for a distribution given a bunch of"
+  },
+  {
+    "t_start": 343.83,
+    "t_end": 345.909,
+    "text": "for a distribution given a bunch of observed measurements."
+  },
+  {
+    "t_start": 345.909,
+    "t_end": 349.75,
+    "text": "observed measurements. This is how we fit a distribution to"
+  },
+  {
+    "t_start": 349.75,
+    "t_end": 354.79,
+    "text": "Hooray! We've made it to the end of another exciting StatQuest."
+  },
+  {
+    "t_start": 354.79,
+    "t_end": 359.23,
+    "text": "If you like this StatQuest and want to see more like it, please subscribe. It's"
+  },
+  {
+    "t_start": 359.23,
+    "t_end": 361.23,
+    "text": "see more like it, please subscribe. It's super easy. Just click the little button"
+  },
+  {
+    "t_start": 361.23,
+    "t_end": 362.63,
+    "text": "super easy. Just click the little button below."
+  },
+  {
+    "t_start": 362.63,
+    "t_end": 367.19,
+    "text": "And if you have any suggestions for other StatQuests that I could do, put"
+  },
+  {
+    "t_start": 367.19,
+    "t_end": 369.51,
+    "text": "other StatQuests that I could do, put them in the comments. All right, until"
+  },
+  {
+    "t_start": 369.51,
+    "t_end": 373.44,
+    "text": "them in the comments. All right, until next time, quest on."
+  }
+]

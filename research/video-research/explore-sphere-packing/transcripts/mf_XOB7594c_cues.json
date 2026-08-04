@@ -1,0 +1,2512 @@
+[
+  {
+    "t_start": 7.52,
+    "t_end": 15.2,
+    "text": "Welcome, everyone. My name is Michel Goemans, and I'm the department head in mathematics and I'd"
+  },
+  {
+    "t_start": 15.2,
+    "t_end": 22.88,
+    "text": "like to welcome all of you to the department for these 2025 Simon Lectures in mathematics"
+  },
+  {
+    "t_start": 23.44,
+    "t_end": 31.04,
+    "text": "given by Maryna Viazovska from EFL, École Polytechnique Fédérale de Lausanne where"
+  },
+  {
+    "t_start": 31.04,
+    "t_end": 37.68,
+    "text": "she is the chair of number theory. So the Simons lecture is our prestigious lecture series in the"
+  },
+  {
+    "t_start": 37.68,
+    "t_end": 45.68,
+    "text": "department. It was created about 25 years ago by a generous gift from Jim and Marilyn Simons,"
+  },
+  {
+    "t_start": 45.68,
+    "t_end": 55.36,
+    "text": "and you all aware of the philanthropy of the Simons Foundation and Jim and Marilyn Simons."
+  },
+  {
+    "t_start": 55.36,
+    "t_end": 66.0,
+    "text": "In fact we're in the Simons Building. A bunch of Simon Professors in the audience, Simons fellows,"
+  },
+  {
+    "t_start": 66.0,
+    "t_end": 77.36,
+    "text": "Simon investigators and so on in the building and we have had some amazing speakers in the past and"
+  },
+  {
+    "t_start": 77.36,
+    "t_end": 86.56,
+    "text": "this year is no exception. So Maryna was born in Kiev, Ukraine and studied both in Ukraine and in"
+  },
+  {
+    "t_start": 86.56,
+    "t_end": 95.52,
+    "text": "Germany, getting her doctorate from the University of Bonn. She's maybe a number theorist but"
+  },
+  {
+    "t_start": 96.96,
+    "t_end": 104.88,
+    "text": "in the next point in modular forms and L-functions but her work has really transcended to into other"
+  },
+  {
+    "t_start": 104.88,
+    "t_end": 113.44,
+    "text": "fields of mathematics and our most celebrated result is of course the fact that E8 lattice"
+  },
+  {
+    "t_start": 113.44,
+    "t_end": 124.88,
+    "text": "provides the densest packing of spheres in eight dimensions and then also the extension with other"
+  },
+  {
+    "t_start": 124.88,
+    "t_end": 137.76,
+    "text": "ones in the room to Leech lattice in 24 dimensions and so this result was cleverly constructing a"
+  },
+  {
+    "t_start": 137.76,
+    "t_end": 145.36,
+    "text": "magic function using L-functions and based on the results of Cohn and Elkies before."
+  },
+  {
+    "t_start": 147.6,
+    "t_end": 155.68,
+    "text": "So for these set of results she received the Fields medal in 2022. She’s the"
+  },
+  {
+    "t_start": 156.48,
+    "t_end": 166.24,
+    "text": "second woman to be awarded a Fields medal so congratulations. And she has also received many"
+  },
+  {
+    "t_start": 166.24,
+    "t_end": 172.96,
+    "text": "other prizes that the list is very long just I'll get started but I'll have to start before the end:"
+  },
+  {
+    "t_start": 173.68,
+    "t_end": 179.12,
+    "text": "the SALEM prize, the SASTRA Ramanujan prize, the Clay Research Award, The Fermat Prize,"
+  },
+  {
+    "t_start": 179.12,
+    "t_end": 185.76,
+    "text": "New Horizons Prize, and so on. So, in addition to our impressive research accomplishments"
+  },
+  {
+    "t_start": 187.36,
+    "t_end": 193.84,
+    "text": "it's also impressive to see that Maryna is a leading administrative figure. So, she has been"
+  },
+  {
+    "t_start": 193.84,
+    "t_end": 200.16,
+    "text": "the chair of the math department at EFL. At MIT, they chose the LEAST accomplished"
+  },
+  {
+    "t_start": 200.16,
+    "t_end": 212.88,
+    "text": "person. (laughter) So she's the most accomplished person so and a year ago she was founder of ICMU,"
+  },
+  {
+    "t_start": 212.88,
+    "t_end": 221.92,
+    "text": "the International Center for Mathematics in Ukraine, to provide mathematical activities and"
+  },
+  {
+    "t_start": 221.92,
+    "t_end": 231.36,
+    "text": "stimulation because of in response to all the suffering that the Ukraine people and"
+  },
+  {
+    "t_start": 231.36,
+    "t_end": 240.0,
+    "text": "scientists have endured because of Russia's invasion into Ukraine. She is now the scientific"
+  },
+  {
+    "t_start": 240.0,
+    "t_end": 247.36,
+    "text": "director of that center and in fact we have a representative in the department, Pavel Etingof,"
+  },
+  {
+    "t_start": 247.36,
+    "t_end": 255.64,
+    "text": "of that scientific committee who unfortunately couldn't be today. But you came to listen to her"
+  },
+  {
+    "t_start": 255.64,
+    "t_end": 272.56,
+    "text": "not to me, so please warmly welcome Maryna. [Applause]"
+  },
+  {
+    "t_start": 272.56,
+    "t_end": 277.84,
+    "text": "Thank you very much for the introduction. So, it's a great pleasure to be here and to give"
+  },
+  {
+    "t_start": 277.84,
+    "t_end": 282.96,
+    "text": "the series of lectures and so, all my three lectures will be about the sphere packing as"
+  },
+  {
+    "t_start": 282.96,
+    "t_end": 290.08,
+    "text": "I find it a very fascinating subject and so, the first lecture would be about upper bounds,"
+  },
+  {
+    "t_start": 290.08,
+    "t_end": 300.32,
+    "text": "about how good the sphere packings cannot be. So, and so, here Michel already told you that I will"
+  },
+  {
+    "t_start": 300.32,
+    "t_end": 305.84,
+    "text": "speak about magic functions and what they have to do with the upper bounds for sphere packings and"
+  },
+  {
+    "t_start": 305.84,
+    "t_end": 313.36,
+    "text": "how to construct them. And then I plan that for my two other lectures I will speak about lower"
+  },
+  {
+    "t_start": 313.36,
+    "t_end": 322.08,
+    "text": "bounds about how good sphere packings can be. And so, here it seems that now is the moment and new"
+  },
+  {
+    "t_start": 322.08,
+    "t_end": 328.88,
+    "text": "results appear like every two years. So, it's, yeah, and then before that it was maybe like"
+  },
+  {
+    "t_start": 328.88,
+    "t_end": 336.0,
+    "text": "every decade or every century. So, it seems like an exciting moment for lower bound bounds for"
+  },
+  {
+    "t_start": 336.0,
+    "t_end": 344.48,
+    "text": "sphere packing. But, so, for the today's lecture so, let me speak about the magic functions and so,"
+  },
+  {
+    "t_start": 344.48,
+    "t_end": 353.68,
+    "text": "yeah so, let me start a little bit from far away. So, yes, so, one of the areas of mathematics that"
+  },
+  {
+    "t_start": 353.68,
+    "t_end": 360.32,
+    "text": "I love a lot are the geometric optimization problems and of course geometric optimization"
+  },
+  {
+    "t_start": 360.32,
+    "t_end": 367.76,
+    "text": "problems. This is a very wide class of questions, but here are the kind of questions that I thought"
+  },
+  {
+    "t_start": 367.76,
+    "t_end": 374.16,
+    "text": "about at some point or that I find interesting. So, for example, the various types of packing"
+  },
+  {
+    "t_start": 374.16,
+    "t_end": 382.56,
+    "text": "problems or they are somehow sister the various types of covering problems and it turns out that"
+  },
+  {
+    "t_start": 382.56,
+    "t_end": 390.48,
+    "text": "both these types of problems they're also, closely related to finding optimal to optimizing Laplace"
+  },
+  {
+    "t_start": 390.48,
+    "t_end": 400.72,
+    "text": "spectra or to finding shortest geodesics on manifolds with certain geometric constraints."
+  },
+  {
+    "t_start": 401.84,
+    "t_end": 408.72,
+    "text": "So, and for all these types of optimization problems there is a common framework of a"
+  },
+  {
+    "t_start": 408.72,
+    "t_end": 416.88,
+    "text": "common set of tricks or methods that helps us to get a partial result but sometimes even the"
+  },
+  {
+    "t_start": 416.88,
+    "t_end": 427.6,
+    "text": "complete resolution of the problem and so, today the focus would be mostly on the packing problems."
+  },
+  {
+    "t_start": 427.6,
+    "t_end": 437.2,
+    "text": "So, and what the packing problem is, so, we fix a metric space. In this metric space we have a"
+  },
+  {
+    "t_start": 437.2,
+    "t_end": 442.08,
+    "text": "notion of the distance of course but also, what would we will need some kind of notion of volume"
+  },
+  {
+    "t_start": 442.08,
+    "t_end": 449.28,
+    "text": "in this matrix space would be useful for us and then the question we can ask ourselves is how"
+  },
+  {
+    "t_start": 449.28,
+    "t_end": 455.68,
+    "text": "many balls of a given radius can be contained in a metric space and then again there is a"
+  },
+  {
+    "t_start": 455.68,
+    "t_end": 463.92,
+    "text": "wide class of questions which can be put into this category. So, maybe some most famous are"
+  },
+  {
+    "t_start": 463.92,
+    "t_end": 473.36,
+    "text": "the sphere packing in Euclidian space or the theory of error correcting codes or finding"
+  },
+  {
+    "t_start": 473.36,
+    "t_end": 480.16,
+    "text": "independence numbers in a graph. So, all of these questions they can be phrased as a certain packing"
+  },
+  {
+    "t_start": 480.16,
+    "t_end": 490.72,
+    "text": "problem in a suitable metric space. And so, these problems they are known to be hard and"
+  },
+  {
+    "t_start": 490.72,
+    "t_end": 499.36,
+    "text": "they're also known to be important for various applications. And so, another somehow related"
+  },
+  {
+    "t_start": 500.64,
+    "t_end": 509.92,
+    "text": "set of problems maybe the way I would see it as some kind of a weighted packing problem or"
+  },
+  {
+    "t_start": 509.92,
+    "t_end": 516.96,
+    "text": "relaxed packing problem would be to minimizing potential energy for the configuration of points"
+  },
+  {
+    "t_start": 516.96,
+    "t_end": 521.12,
+    "text": "again in the matrix space. So, we have our matrix space. We choose points in there."
+  },
+  {
+    "t_start": 521.12,
+    "t_end": 526.56,
+    "text": "But now we imagine that our points they interact with a certain potential and so,"
+  },
+  {
+    "t_start": 526.56,
+    "t_end": 534.4,
+    "text": "and this potential depends only on the distance. And then the question would be to for fix if"
+  },
+  {
+    "t_start": 534.4,
+    "t_end": 540.32,
+    "text": "you fix the number of points or if we fix the density of points we would like to find these"
+  },
+  {
+    "t_start": 540.32,
+    "t_end": 546.72,
+    "text": "configurations with minimal possible energy. And then of course for so, what this has to do with"
+  },
+  {
+    "t_start": 546.72,
+    "t_end": 552.08,
+    "text": "a packing problem: for a packing problem we can think of a this energy potential being for example"
+  },
+  {
+    "t_start": 552.08,
+    "t_end": 558.32,
+    "text": "in infinity if two points are too close together and zero if they are farther away then this would"
+  },
+  {
+    "t_start": 558.32,
+    "t_end": 567.04,
+    "text": "be this way we could see how packing problem is a partial case or limiting case of of such a problem"
+  },
+  {
+    "t_start": 567.04,
+    "t_end": 574.0,
+    "text": "and so, again problems of this type they're known to be difficult and we don't have a general method"
+  },
+  {
+    "t_start": 574.0,
+    "t_end": 580.72,
+    "text": "at how to solve all of them or how to for example how to obtain sharp results to show to show that"
+  },
+  {
+    "t_start": 580.72,
+    "t_end": 589.36,
+    "text": "certain configurations are optimal At the same time the kind there is a type of optimization"
+  },
+  {
+    "t_start": 589.36,
+    "t_end": 597.28,
+    "text": "problems that we know really a lot about and this is linear optimization. And so, here you can see a"
+  },
+  {
+    "t_start": 597.28,
+    "t_end": 605.36,
+    "text": "classical problem of linear optimization is that we have a cone and in this cone we would like to"
+  },
+  {
+    "t_start": 605.36,
+    "t_end": 620.88,
+    "text": "optimize for example value of a linear functional and so, these are very well-studied problems."
+  },
+  {
+    "t_start": 620.88,
+    "t_end": 627.04,
+    "text": "They also, unfortunately they are also hard but here we have many algorithms. We have a very"
+  },
+  {
+    "t_start": 627.04,
+    "t_end": 637.2,
+    "text": "nice duality theory for this type of optimization problems. And so, this is somehow one of the main"
+  },
+  {
+    "t_start": 640.72,
+    "t_end": 648.08,
+    "text": "so, the duality is one of the main ways to find sharp solutions to their optimization"
+  },
+  {
+    "t_start": 650.32,
+    "t_end": 658.24,
+    "text": "problems. And so, now one of the, again, ways which was established is that we have this"
+  },
+  {
+    "t_start": 658.24,
+    "t_end": 663.68,
+    "text": "nonlinear difficult packing problem or energy minimization problem and one of the things we"
+  },
+  {
+    "t_start": 663.68,
+    "t_end": 674.96,
+    "text": "can do, we can reduce it to a linear optimization problem. So, this is something that is typically"
+  },
+  {
+    "t_start": 674.96,
+    "t_end": 679.44,
+    "text": "done. So, of course what I'm telling now maybe this is a bit like old news. So,"
+  },
+  {
+    "t_start": 679.44,
+    "t_end": 686.08,
+    "text": "linear optimization is not the only exciting type of optimization. There is also a semi-definite"
+  },
+  {
+    "t_start": 686.08,
+    "t_end": 692.4,
+    "text": "optimization which is maybe more modern and also, can be done quite effectively. But in my story it"
+  },
+  {
+    "t_start": 692.4,
+    "t_end": 700.32,
+    "text": "will be all about linear optimization. So, the idea is to say take this nonlinear optimization"
+  },
+  {
+    "t_start": 700.32,
+    "t_end": 707.2,
+    "text": "problem and reduce it to a linear one. Of course, as we are doing so, we might lose something. There"
+  },
+  {
+    "t_start": 707.2,
+    "t_end": 712.08,
+    "text": "is no guarantee that the new problem has the same solution as the old one but at least we will get"
+  },
+  {
+    "t_start": 712.08,
+    "t_end": 722.4,
+    "text": "some estimate. And so, the way to linearize this energy minimization problems is the following is"
+  },
+  {
+    "t_start": 722.4,
+    "t_end": 729.76,
+    "text": "by considering the so-called cone of copositive functions. So, what is a copositive function so?"
+  },
+  {
+    "t_start": 729.76,
+    "t_end": 739.84,
+    "text": "let M be our metric space and then we would say that a function from the support of the metric on"
+  },
+  {
+    "t_start": 739.84,
+    "t_end": 746.8,
+    "text": "this space to the complex numbers is copositive if the following double sum is always real and"
+  },
+  {
+    "t_start": 746.8,
+    "t_end": 756.64,
+    "text": "non-negative for all finite subsets of M and so, of course this the definition of copositive"
+  },
+  {
+    "t_start": 756.64,
+    "t_end": 767.92,
+    "text": "functions it will depend on our metric case. And so, here there is another class of"
+  },
+  {
+    "t_start": 767.92,
+    "t_end": 775.68,
+    "text": "functions which is slight which is a bigger one so-called positive definite functions and so,"
+  },
+  {
+    "t_start": 775.68,
+    "t_end": 781.76,
+    "text": "here the okay not bigger it's a smaller one sorry so, a smaller class of functions is the"
+  },
+  {
+    "t_start": 781.76,
+    "t_end": 788.32,
+    "text": "class of positive definite functions. So, here the condition is stronger so, here this double sum in"
+  },
+  {
+    "t_start": 788.32,
+    "t_end": 795.92,
+    "text": "double sum we are introducing the weights assigned to each point. And so, now such a weighted double"
+  },
+  {
+    "t_start": 795.92,
+    "t_end": 804.32,
+    "text": "sum has to be non-negative for all finite subsets and for all possible complex weights that we"
+  },
+  {
+    "t_start": 804.32,
+    "t_end": 812.24,
+    "text": "assign to the points. And so, of course it just follows from the definition that positive definite"
+  },
+  {
+    "t_start": 812.24,
+    "t_end": 818.4,
+    "text": "functions are all copositive functions. And so, now here a typical situation which happens so,"
+  },
+  {
+    "t_start": 818.4,
+    "t_end": 824.32,
+    "text": "I will maybe formulate it not in a very formal way but usually this cone of copositive functions"
+  },
+  {
+    "t_start": 824.32,
+    "t_end": 832.72,
+    "text": "is a very difficult cone and so, for many interesting matrix spaces it's even known"
+  },
+  {
+    "t_start": 832.72,
+    "t_end": 838.88,
+    "text": "that somehow it doesn't we don't have an effective description of compositive functions and if we had"
+  },
+  {
+    "t_start": 838.88,
+    "t_end": 847.52,
+    "text": "it then like we would solve many problems that are believed to be difficult so, this cone of"
+  },
+  {
+    "t_start": 847.52,
+    "t_end": 854.8,
+    "text": "compositive functions. It's a difficult one at the same time for many interesting matrix spaces"
+  },
+  {
+    "t_start": 854.8,
+    "t_end": 861.92,
+    "text": "this the cone of positive definite functions is actually simple and we can work with it and so,"
+  },
+  {
+    "t_start": 861.92,
+    "t_end": 870.8,
+    "text": "there strategy for solving packing problems or this energy problems becomes the following so,"
+  },
+  {
+    "t_start": 870.8,
+    "t_end": 881.12,
+    "text": "reduce the problem to an optimization problem in the cone of copositive definite functions and of"
+  },
+  {
+    "t_start": 881.12,
+    "t_end": 888.32,
+    "text": "course this is a relaxation. So, this sharp result is not guaranteed anymore. However this is how we"
+  },
+  {
+    "t_start": 888.32,
+    "t_end": 895.68,
+    "text": "can make estimates and some in many cases those estimates they actually very interesting and"
+  },
+  {
+    "t_start": 895.68,
+    "t_end": 900.56,
+    "text": "it would be difficult to obtain them by other methods and sometimes in some situations like"
+  },
+  {
+    "t_start": 900.56,
+    "t_end": 908.0,
+    "text": "in situations I'm going to speak about today even despite this relaxation we can still solve some"
+  },
+  {
+    "t_start": 908.0,
+    "t_end": 919.28,
+    "text": "interesting optimization problems and so, yeah okay so, here are the, for example an theorem"
+  },
+  {
+    "t_start": 919.28,
+    "t_end": 930.56,
+    "text": "which is maybe like a very simple version of how this cone of how the energy problem can be"
+  },
+  {
+    "t_start": 931.36,
+    "t_end": 942.16,
+    "text": "linearized. Okay. So, suppose that there exist so, that there exists a copositive function such"
+  },
+  {
+    "t_start": 942.16,
+    "t_end": 952.64,
+    "text": "that the value of this function at zero is one and the value of the function at every distance bigger"
+  },
+  {
+    "t_start": 952.64,
+    "t_end": 960.64,
+    "text": "than fixed distance r0 is smaller or equal than this minus one divided by n minus one. Then we"
+  },
+  {
+    "t_start": 960.64,
+    "t_end": 969.84,
+    "text": "would know that any r0-code in this matrix space or any packing of balls of radius r0 divided by"
+  },
+  {
+    "t_start": 969.84,
+    "t_end": 978.56,
+    "text": "two it can contain at most capital N points. So, this would be a nice theorem which we can apply"
+  },
+  {
+    "t_start": 978.56,
+    "t_end": 988.8,
+    "text": "to some compact metric spaces. So, for example you can think of a possible application here would be"
+  },
+  {
+    "t_start": 988.8,
+    "t_end": 997.92,
+    "text": "a coding theory in Hamming space and so, here is a very short proof. So, suppose that such a function"
+  },
+  {
+    "t_start": 997.92,
+    "t_end": 1007.28,
+    "text": "so, f exists and suppose that X is an r0-code. So, it would be a set of points inside of m. So, such"
+  },
+  {
+    "t_start": 1007.28,
+    "t_end": 1016.32,
+    "text": "that the distance between any two distinct points is bigger or equal than r0 then we know that this"
+  },
+  {
+    "t_start": 1016.32,
+    "t_end": 1027.04,
+    "text": "the function f is a copositive function. We know that such a double sum has to be non-negative and"
+  },
+  {
+    "t_start": 1027.04,
+    "t_end": 1034.4,
+    "text": "at the same time we also know that our function f satisfies this special conditions and so, we can"
+  },
+  {
+    "t_start": 1034.4,
+    "t_end": 1042.32,
+    "text": "rewrite this double sum in the following way: we will separately write sum of pairs which are which"
+  },
+  {
+    "t_start": 1042.32,
+    "t_end": 1048.64,
+    "text": "lie at the diagonal where two elements in the pair are equal and the sum over pairs of non-equal"
+  },
+  {
+    "t_start": 1048.64,
+    "t_end": 1059.28,
+    "text": "points and now we see that because x is an r0-code it means that so, first between for equal points"
+  },
+  {
+    "t_start": 1059.28,
+    "t_end": 1066.72,
+    "text": "we know that the distance between equal points is zero so, this first term will be just equal to the"
+  },
+  {
+    "t_start": 1066.72,
+    "t_end": 1076.16,
+    "text": "size of our set X. On the other hand we know that for each term at the second sum it will be this"
+  },
+  {
+    "t_start": 1076.96,
+    "t_end": 1083.68,
+    "text": "negative is smaller or equal than this negative number. And so, we can estimate our sum in this"
+  },
+  {
+    "t_start": 1083.68,
+    "t_end": 1090.48,
+    "text": "way. But at the same time we know that this number is bigger or equal than zero and smaller or equal"
+  },
+  {
+    "t_start": 1090.48,
+    "t_end": 1096.96,
+    "text": "than this expression which involves the size of x. And from here we can deduce that the size of X"
+  },
+  {
+    "t_start": 1096.96,
+    "t_end": 1112.72,
+    "text": "cannot be bigger than N. And so, for example this, so, one of the historical uses of this theorem"
+  },
+  {
+    "t_start": 1112.72,
+    "t_end": 1120.32,
+    "text": "which I showed you was that lizard's proof of the optimality of Hamming code. So, this is a Hamming"
+  },
+  {
+    "t_start": 1120.32,
+    "t_end": 1131.84,
+    "text": "code. It's a binary code of length 8 and dimension four. And here in gray you can see the generating"
+  },
+  {
+    "t_start": 1131.84,
+    "t_end": 1142.64,
+    "text": "matrix of this code. And so, the minimal distance of Hamming code is four and the number of elements"
+  },
+  {
+    "t_start": 1142.64,
+    "t_end": 1148.4,
+    "text": "in the Hamming code is 16. So, now it turns out that this method, rather simple method which"
+  },
+  {
+    "t_start": 1148.4,
+    "t_end": 1154.24,
+    "text": "I showed before, if it's applied to this code it can show that the Hamming code is an optimal one."
+  },
+  {
+    "t_start": 1154.24,
+    "t_end": 1166.72,
+    "text": "So, to apply our method to the Hamming space we have to understand what are the positive definite"
+  },
+  {
+    "t_start": 1166.72,
+    "t_end": 1182.72,
+    "text": "functions on this Hamming space F_2^n. And so, here what I can show you is that okay so, we can"
+  },
+  {
+    "t_start": 1184.4,
+    "t_end": 1191.6,
+    "text": "we can take so, so, here what really plays an important role here is that Hamming space has a"
+  },
+  {
+    "t_start": 1191.6,
+    "t_end": 1199.84,
+    "text": "lot of symmetries. It is an abelian group and so, what comes to save us is the Fourier analysis. So,"
+  },
+  {
+    "t_start": 1199.84,
+    "t_end": 1206.24,
+    "text": "here first we can see this function f_y(x) which is just a harmonic wave going through"
+  },
+  {
+    "t_start": 1206.24,
+    "t_end": 1215.92,
+    "text": "our Hamming space. And so, here x doty it's a scalar product of two vectors. And so,"
+  },
+  {
+    "t_start": 1215.92,
+    "t_end": 1224.8,
+    "text": "now if we take any sum like this here if we fix y and take sum over pairs x1 x2 which are elements"
+  },
+  {
+    "t_start": 1224.8,
+    "t_end": 1233.36,
+    "text": "of any subset X of the Hamming space what we will get we will see that this double sum in fact can"
+  },
+  {
+    "t_start": 1233.36,
+    "t_end": 1241.84,
+    "text": "be rewritten as an square of the absolute value of such a single sum and so, this sum is always"
+  },
+  {
+    "t_start": 1241.84,
+    "t_end": 1246.96,
+    "text": "of course therefore this such a double sum will be always non-negative. And okay at the moment"
+  },
+  {
+    "t_start": 1246.96,
+    "t_end": 1254.8,
+    "text": "this does not truly satisfy my theorem and this is because this function f_y it's it depends somehow"
+  },
+  {
+    "t_start": 1254.8,
+    "t_end": 1261.76,
+    "text": "on the element in my space not on the distance to anything like on distance to zero but we can"
+  },
+  {
+    "t_start": 1261.76,
+    "t_end": 1276.88,
+    "text": "somehow make a little what we can do here we can for example, now if we are averaging this harmonic"
+  },
+  {
+    "t_start": 1276.88,
+    "t_end": 1283.6,
+    "text": "wave for example over all elements y of the same Hamming length then what we will get again by"
+  },
+  {
+    "t_start": 1283.6,
+    "t_end": 1289.6,
+    "text": "the symmetries we will get a function which will depend only on the Hamming distance from x to zero"
+  },
+  {
+    "t_start": 1289.6,
+    "t_end": 1295.84,
+    "text": "and we can construct our function which depends only on the distance of between points as this"
+  },
+  {
+    "t_start": 1295.84,
+    "t_end": 1308.88,
+    "text": "averaged harmonic wave applied to the distance to the difference of two points. And so, the actually"
+  },
+  {
+    "t_start": 1308.88,
+    "t_end": 1315.68,
+    "text": "so, if we do the averaging we know that the result would be expressed in terms of the what is called"
+  },
+  {
+    "t_start": 1315.68,
+    "t_end": 1334.48,
+    "text": "the Krawtchouk polynomials which depends on the dimension, length of x, and length of y."
+  },
+  {
+    "t_start": 1334.48,
+    "t_end": 1345.52,
+    "text": "And so, here's the following theorem which again goes back to the 1970s. It tells us that ifXx is a"
+  },
+  {
+    "t_start": 1352.16,
+    "t_end": 1360.48,
+    "text": "binary code of length eight and it has distance four then the number of elements in this code"
+  },
+  {
+    "t_start": 1360.48,
+    "t_end": 1370.16,
+    "text": "will be smaller or equal than 16. And so, how is it done? It is done by constructing an explicit"
+  },
+  {
+    "t_start": 1370.16,
+    "t_end": 1382.72,
+    "text": "positive definite function. So, namely the function f is defined as this sum of Krawtchouk"
+  },
+  {
+    "t_start": 1382.72,
+    "t_end": 1389.04,
+    "text": "polynomials and as we've seen before Krawtchouk polynomials they are positive definite. So,"
+  },
+  {
+    "t_start": 1389.04,
+    "t_end": 1402.4,
+    "text": "the sum of Krawtchouk polynomials with positive coefficients also, will be positive definite. So,"
+  },
+  {
+    "t_start": 1402.4,
+    "t_end": 1410.24,
+    "text": "the Krawtchouk polynomials definitely generate all the set of positive definite in"
+  },
+  {
+    "t_start": 1410.24,
+    "t_end": 1416.64,
+    "text": "Yes, I think yes and this is a theorem, this is a Schaumberg Berger theorem and it works not only"
+  },
+  {
+    "t_start": 1416.64,
+    "t_end": 1425.52,
+    "text": "for Hamming space but there's a more general somehow theory for like essentially for spaces"
+  },
+  {
+    "t_start": 1425.52,
+    "t_end": 1444.8,
+    "text": "that have a lot of symmetries. And so, now in my talk I would like to speak about sphere packings"
+  },
+  {
+    "t_start": 1444.8,
+    "t_end": 1450.64,
+    "text": "in Euclidean space so, here is the adaptation of this theorem that I showed you before to the"
+  },
+  {
+    "t_start": 1450.64,
+    "t_end": 1458.08,
+    "text": "Euclidean space. And so, this is a result which appeared in a paper of Cohn and Elkies but then"
+  },
+  {
+    "t_start": 1458.08,
+    "t_end": 1465.84,
+    "text": "independently similar result was disco discovered by Dmitry Gorbachev and so, both results they were"
+  },
+  {
+    "t_start": 1465.84,
+    "t_end": 1478.64,
+    "text": "published in 2000s so, I think the paper of Cohn and Elkies is from 2003 and the dissertation of"
+  },
+  {
+    "t_start": 1478.64,
+    "t_end": 1483.52,
+    "text": "Gorbachev is from 2006 But then there of course there will always be before pre-prints and so,"
+  },
+  {
+    "t_start": 1483.52,
+    "t_end": 1493.28,
+    "text": "just not and so, this so, maybe like let me tell like what is a bit of course why Euclidean space"
+  },
+  {
+    "t_start": 1493.28,
+    "t_end": 1500.16,
+    "text": "needs special adaptation so, what is technically more difficult about Euclidean space: it is that"
+  },
+  {
+    "t_start": 1500.16,
+    "t_end": 1509.84,
+    "text": "the total volume of the space is infinite and so, it somehow one really needs to think how to adapt"
+  },
+  {
+    "t_start": 1514.32,
+    "t_end": 1518.88,
+    "text": "the theorem from the previous slide because previous theorem it worked nicely for compact"
+  },
+  {
+    "t_start": 1518.88,
+    "t_end": 1528.64,
+    "text": "spaces but here we need some to find better formulation and so, here it turns out that in"
+  },
+  {
+    "t_start": 1528.64,
+    "t_end": 1537.12,
+    "text": "Euclidean space the property of being positive definite is captured by the sign of the Fourier"
+  },
+  {
+    "t_start": 1537.12,
+    "t_end": 1544.4,
+    "text": "transform of the function. So, essentially one can say that functions which are positive definite in"
+  },
+  {
+    "t_start": 1544.4,
+    "t_end": 1553.28,
+    "text": "Euclidean space are essentially the functions with positive Fourier transform. Of course again here"
+  },
+  {
+    "t_start": 1553.28,
+    "t_end": 1557.68,
+    "text": "one has to be careful because Fourier transforms don't exist for all the functions. So, there"
+  },
+  {
+    "t_start": 1557.68,
+    "t_end": 1563.28,
+    "text": "should be some maybe caution about what to do with functions which don't have well-defined Fourier"
+  },
+  {
+    "t_start": 1563.28,
+    "t_end": 1569.76,
+    "text": "transform but for us actually for us to obtain our result it's sufficient to work only with Schwartz"
+  },
+  {
+    "t_start": 1569.76,
+    "t_end": 1576.4,
+    "text": "functions so, with functions which have fast decay and maybe one more remark I would like to say that"
+  },
+  {
+    "t_start": 1576.4,
+    "t_end": 1588.24,
+    "text": "the original paper of Cohn and Elkies it is about, it was not only for Schwartz functions but for a"
+  },
+  {
+    "t_start": 1588.24,
+    "t_end": 1594.0,
+    "text": "wider class of functions. So, here maybe requiring for function to be Schwartz it's a bit of an"
+  },
+  {
+    "t_start": 1594.0,
+    "t_end": 1600.4,
+    "text": "overkill but this works later in my application. So, I just want to simplify my life a little bit."
+  },
+  {
+    "t_start": 1600.4,
+    "t_end": 1605.6,
+    "text": "So, suppose that so, the theorem is the following. So, suppose that we have a function f which is a"
+  },
+  {
+    "t_start": 1605.6,
+    "t_end": 1610.64,
+    "text": "Schwartz function and it means that the function and all of its so, the function is infinitely"
+  },
+  {
+    "t_start": 1610.64,
+    "t_end": 1619.28,
+    "text": "smooth and all of its derivatives decay faster than any inverse power of a polynomial and suppose"
+  },
+  {
+    "t_start": 1619.28,
+    "t_end": 1627.44,
+    "text": "that our function is non-positive outside of a ball of radius r0 and its Fourier transform is"
+  },
+  {
+    "t_start": 1627.44,
+    "t_end": 1633.52,
+    "text": "non-negative at all Euclidean space and also, the we normalize our function and it Fourier transform"
+  },
+  {
+    "t_start": 1633.52,
+    "t_end": 1637.84,
+    "text": "so, that the value of the function at zero and that the value of its Fourier transform at zero"
+  },
+  {
+    "t_start": 1637.84,
+    "t_end": 1648.56,
+    "text": "is one and then if we can find such a function then we know that each periodic configuration of"
+  },
+  {
+    "t_start": 1649.36,
+    "t_end": 1656.16,
+    "text": "points in space such that the distance between any two distance point is at least r0 would"
+  },
+  {
+    "t_start": 1656.16,
+    "t_end": 1663.2,
+    "text": "have density at most one. So, here again what I'm hiding a little bit. So, I do not define what is,"
+  },
+  {
+    "t_start": 1663.2,
+    "t_end": 1667.76,
+    "text": "okay I think it's okay. So, here I speak about periodic configurations and then what is the"
+  },
+  {
+    "t_start": 1667.76,
+    "t_end": 1673.92,
+    "text": "density of periodic configuration is more or less clear. It's just that the number of points per"
+  },
+  {
+    "t_start": 1673.92,
+    "t_end": 1680.24,
+    "text": "volume in a fundamental and we can take it in a fundamental domain. And then of course if we know"
+  },
+  {
+    "t_start": 1680.24,
+    "t_end": 1688.0,
+    "text": "this statement for periodic configurations we can also, make it work for reasonable"
+  },
+  {
+    "t_start": 1688.0,
+    "t_end": 1701.04,
+    "text": "non-periodic configurations. And so, now let's denote by delta d the sphere packing constant in"
+  },
+  {
+    "t_start": 1701.04,
+    "t_end": 1711.2,
+    "text": "dimension d which is the density of the densest sphere packing in the Euclidean space R^d."
+  },
+  {
+    "t_start": 1711.2,
+    "t_end": 1727.68,
+    "text": "And so, here is a table of the known upper bounds and known densities for small dimensions from one"
+  },
+  {
+    "t_start": 1727.68,
+    "t_end": 1738.08,
+    "text": "to 36. And so, here you can see the red line it's an upper bound and this upper bound comes from the"
+  },
+  {
+    "t_start": 1738.08,
+    "t_end": 1746.08,
+    "text": "previous theorem. So, these are the upper bounds obtained by Cohn and Elkieslinear programming"
+  },
+  {
+    "t_start": 1746.08,
+    "t_end": 1754.4,
+    "text": "method and the blue line: this is the best-known density in each dimensions, and then of course"
+  },
+  {
+    "t_start": 1754.4,
+    "t_end": 1758.72,
+    "text": "this should be discrete because we have a discrete set of dimensions. So, this is in fact a discrete"
+  },
+  {
+    "t_start": 1758.72,
+    "t_end": 1766.4,
+    "text": "set of values but then I connect them by line just to improve the visibility of the plot. And so,"
+  },
+  {
+    "t_start": 1766.4,
+    "t_end": 1774.24,
+    "text": "if we look at this plot so, there are few things we can see okay first is that when d is big it"
+  },
+  {
+    "t_start": 1774.24,
+    "t_end": 1780.16,
+    "text": "seems that like the gap between two bounds is kind of growing and growing and growing. So,"
+  },
+  {
+    "t_start": 1780.16,
+    "t_end": 1785.6,
+    "text": "here what I told you that indeed this method of linearization it's a nice method but then probably"
+  },
+  {
+    "t_start": 1785.6,
+    "t_end": 1793.2,
+    "text": "it does not tell us all the truth about the sphere packing problem. On the other hand other"
+  },
+  {
+    "t_start": 1793.2,
+    "t_end": 1799.68,
+    "text": "remarkable thing here is that at in some points actually two lines coincide or visually coincide"
+  },
+  {
+    "t_start": 1799.68,
+    "t_end": 1808.72,
+    "text": "numerically coincide and so, we can see that there is this coincidence in dimensions eight and 24 but"
+  },
+  {
+    "t_start": 1808.72,
+    "t_end": 1813.84,
+    "text": "then we something which is not very visible on this plot is that they also, coincide in"
+  },
+  {
+    "t_start": 1813.84,
+    "t_end": 1819.52,
+    "text": "dimension one and two. But then the sphere packing problem in dimensions one and two is maybe not so,"
+  },
+  {
+    "t_start": 1819.52,
+    "t_end": 1828.0,
+    "text": "interesting even though the fact that two lines coincide is quite interesting. Anyways and so, in"
+  },
+  {
+    "t_start": 1828.0,
+    "t_end": 1837.52,
+    "text": "the 2003 paper of Cohn and Elkies they have really observed that the numerical bounds in dimensions"
+  },
+  {
+    "t_start": 1837.52,
+    "t_end": 1845.44,
+    "text": "8 and 24 they come very closely to the densities of the E8 lattice and the densities of the Leech"
+  },
+  {
+    "t_start": 1845.44,
+    "t_end": 1859.52,
+    "text": "lattice. And so, this is the result I would like to speak about today is that actually the proof"
+  },
+  {
+    "t_start": 1859.52,
+    "t_end": 1870.64,
+    "text": "that these two bounds they indeed coincide and so, here are some facts about the E8 lattice and"
+  },
+  {
+    "t_start": 1870.64,
+    "t_end": 1877.28,
+    "text": "Leech lattice. So, these are somehow remarkable geometric and combinatorial objects. They appear"
+  },
+  {
+    "t_start": 1877.28,
+    "t_end": 1882.4,
+    "text": "in many different areas of mathematics. Probably if you have not heard of them from my talk maybe"
+  },
+  {
+    "t_start": 1882.4,
+    "t_end": 1894.64,
+    "text": "you learned from about them from some other place. And so, E8 is the unique even unimodular lattice"
+  },
+  {
+    "t_start": 1894.64,
+    "t_end": 1902.72,
+    "text": "in the Euclidean space of dimension 8 where even means that the lengths the squared lengths of all"
+  },
+  {
+    "t_start": 1902.72,
+    "t_end": 1910.8,
+    "text": "vectors of all vectors of this lattice they are all even integers and unimodular means that the"
+  },
+  {
+    "t_start": 1910.8,
+    "t_end": 1920.56,
+    "text": "co-volume of this lattice is one. So, we have roughly speaking one point per unit of volume"
+  },
+  {
+    "t_start": 1920.56,
+    "t_end": 1926.56,
+    "text": "and of course it also, we it's for example it can be constructed is the root lattice of the E8 root"
+  },
+  {
+    "t_start": 1926.56,
+    "t_end": 1935.68,
+    "text": "system and we know that the shortest nonzero vector in E8 has length square root of two and"
+  },
+  {
+    "t_start": 1935.68,
+    "t_end": 1945.6,
+    "text": "so, there are 240 such shortest vectors and interesting fact is that those shortest vectors"
+  },
+  {
+    "t_start": 1945.6,
+    "t_end": 1950.64,
+    "text": "they also, form a kiss they provide a kissing configuration. So, the best possible"
+  },
+  {
+    "t_start": 1950.64,
+    "t_end": 1958.64,
+    "text": "kissing configuration in dimension 8. And so, yes so, then if we scale our"
+  },
+  {
+    "t_start": 1960.0,
+    "t_end": 1973.28,
+    "text": "lattice properly, we can construct sphere packing by placing a ball at the each a ball with a center"
+  },
+  {
+    "t_start": 1973.28,
+    "t_end": 1979.04,
+    "text": "at each point of the E8 lattice and choosing the radius so, that it will be the length of"
+  },
+  {
+    "t_start": 1979.04,
+    "t_end": 1987.28,
+    "text": "the shortest vector divided by two. And so, then if we want to normalize our lattice so, that it's"
+  },
+  {
+    "t_start": 1987.28,
+    "t_end": 1998.48,
+    "text": "co volume is one then the radius should be 1 / square root of two and so, the theorem I would"
+  },
+  {
+    "t_start": 1998.48,
+    "t_end": 2010.08,
+    "text": "like to speak about today is that the E8 lattice is universally optimal. Oh sorry? What? Okay, so,"
+  },
+  {
+    "t_start": 2010.88,
+    "t_end": 2023.12,
+    "text": "the, so, first the E8 lattice is the best, sorry, provides the best sphere packing in dimension 8"
+  },
+  {
+    "t_start": 2023.12,
+    "t_end": 2030.08,
+    "text": "and so, the another result I would like to talk about today is that the E8 lattice is universally"
+  },
+  {
+    "t_start": 2030.08,
+    "t_end": 2037.52,
+    "text": "optimal. So, it means that it's optimal not only for the packing problem but also, for the actually"
+  },
+  {
+    "t_start": 2037.52,
+    "t_end": 2046.64,
+    "text": "for a family of energy optimization problems. So, it's optimal for any Gaussian real Gaussian energy"
+  },
+  {
+    "t_start": 2046.64,
+    "t_end": 2060.32,
+    "text": "between points. And so, Leech lattice is a lattice also, somehow similar properties. And so, here"
+  },
+  {
+    "t_start": 2060.32,
+    "t_end": 2069.68,
+    "text": "we know that in dimension 24 there are 24 even unimodular lattices up to an isomorphism and only"
+  },
+  {
+    "t_start": 2069.68,
+    "t_end": 2076.08,
+    "text": "one of them has shortest vector of length two. So, of course if we speak about even lattices then"
+  },
+  {
+    "t_start": 2076.08,
+    "t_end": 2082.4,
+    "text": "smallest possible length is square root of two. But here like among this 24 there is one which"
+  },
+  {
+    "t_start": 2082.4,
+    "t_end": 2088.16,
+    "text": "does not have any vectors of length square root of two but has the shortest vector of length two and"
+  },
+  {
+    "t_start": 2088.16,
+    "t_end": 2101.04,
+    "text": "so, the Leech lattice was discovered in 1967 and its construction actually came from coding theory."
+  },
+  {
+    "t_start": 2103.04,
+    "t_end": 2110.72,
+    "text": "And if you want to learn about more constructions for the Leech lattice you can refer to John"
+  },
+  {
+    "t_start": 2110.72,
+    "t_end": 2115.76,
+    "text": "Conway's books. I think in his book he gives like 24 different constructions of Leech lattice. So,"
+  },
+  {
+    "t_start": 2115.76,
+    "t_end": 2120.24,
+    "text": "it seems like whatever you're trying to construct you will always construct Leech lattice at the"
+  },
+  {
+    "t_start": 2123.84,
+    "t_end": 2129.28,
+    "text": "end. So, there are many of them like many of them are algebraic coming from different"
+  },
+  {
+    "t_start": 2131.36,
+    "t_end": 2138.24,
+    "text": "areas of algebra and so, what is also, interesting that the number of shortest vectors of Leech"
+  },
+  {
+    "t_start": 2138.24,
+    "t_end": 2146.32,
+    "text": "lattice is quite big. So, it is this six-digit number and those vectors they also, provide the"
+  },
+  {
+    "t_start": 2146.32,
+    "t_end": 2151.76,
+    "text": "kissing configuration in dimension 24 and it's actually known that it is this configuration is"
+  },
+  {
+    "t_start": 2151.76,
+    "t_end": 2157.84,
+    "text": "the best and it is unique and yes, so, this is also, known actually for quite a long time. So,"
+  },
+  {
+    "t_start": 2157.84,
+    "t_end": 2163.68,
+    "text": "it was simultaneously proven that the kissing number was simultaneously found for dimensions"
+  },
+  {
+    "t_start": 2163.68,
+    "t_end": 2169.76,
+    "text": "8 and 24 and it was found by the same method and the method is again the method I showed you before"
+  },
+  {
+    "t_start": 2169.76,
+    "t_end": 2181.6,
+    "text": "that was this method of linear programming which in this case gives just a perfect result. And so,"
+  },
+  {
+    "t_start": 2181.6,
+    "t_end": 2188.96,
+    "text": "we can also, consider the lattice packing associated to the Leech lattice. And so,"
+  },
+  {
+    "t_start": 2188.96,
+    "t_end": 2194.4,
+    "text": "here it's somehow, it's very convenient. So, we don't if you want to have to take a volume of our"
+  },
+  {
+    "t_start": 2195.6,
+    "t_end": 2200.8,
+    "text": "co volume of our lattice to be one then we can take balls of radius one which is also,"
+  },
+  {
+    "t_start": 2200.8,
+    "t_end": 2214.4,
+    "text": "beautiful somehow and so, this is somehow the the natural normalization in um and so,"
+  },
+  {
+    "t_start": 2214.4,
+    "t_end": 2219.6,
+    "text": "working together with Henry Cohn, Abhinav Kumar, Steven Miller and Danylo Radchenko"
+  },
+  {
+    "t_start": 2219.6,
+    "t_end": 2227.6,
+    "text": "we have proved proven that the Leech lattice is the best sphere packing in dimension 24 and then"
+  },
+  {
+    "t_start": 2227.6,
+    "t_end": 2232.4,
+    "text": "the Leech lattice it also, has this property of being universally optimal. So, it's optimal not"
+  },
+  {
+    "t_start": 2232.4,
+    "t_end": 2238.8,
+    "text": "only for the packing problem but also, for the for the problem of finding configurations with"
+  },
+  {
+    "t_start": 2238.8,
+    "t_end": 2253.84,
+    "text": "minimal Gaussian energy. And so, the solution of the problem for dimension 8 was to actually"
+  },
+  {
+    "t_start": 2253.84,
+    "t_end": 2265.36,
+    "text": "to find explicitly this function which satisfies the properties of the Cohn-Elkies theorem and so,"
+  },
+  {
+    "t_start": 2265.36,
+    "t_end": 2272.64,
+    "text": "this is what I'm going to speak about today is to show you how to construct this function. And"
+  },
+  {
+    "t_start": 2272.64,
+    "t_end": 2281.92,
+    "text": "then similarly for the Leech lattice also, all this time working together with Steven, Abhinab,"
+  },
+  {
+    "t_start": 2286.32,
+    "t_end": 2294.24,
+    "text": "Henry, and Danylo we have constructed a magic function which so, radials for Schwartz"
+  },
+  {
+    "t_start": 2294.24,
+    "t_end": 2305.68,
+    "text": "function which satisfies all the conditions of Cohn-Elkies theorem for dimension 24. And so,"
+  },
+  {
+    "t_start": 2305.68,
+    "t_end": 2312.4,
+    "text": "as I remember this terminology it was coming from Steven Miller who suggested naming this"
+  },
+  {
+    "t_start": 2312.4,
+    "t_end": 2324.88,
+    "text": "the functions which somehow provide us with sharp results to calling the magic functions. And so,"
+  },
+  {
+    "t_start": 2324.88,
+    "t_end": 2329.12,
+    "text": "here is the plot of the function. This is how the function looked like. So,"
+  },
+  {
+    "t_start": 2329.12,
+    "t_end": 2338.16,
+    "text": "this is the plot of the mag magic function which proves the optimality of E8 lattice and so,"
+  },
+  {
+    "t_start": 2338.16,
+    "t_end": 2345.52,
+    "text": "here it's because this is a Schwartz function so, it has rather fast decay. So, to make it a bit to"
+  },
+  {
+    "t_start": 2345.52,
+    "t_end": 2350.8,
+    "text": "look a bit more interesting I've normalized it and multiplied by this exponential function. So,"
+  },
+  {
+    "t_start": 2350.8,
+    "t_end": 2357.92,
+    "text": "the multiple the rate by which I multiplied it is a bit arbitrary here. This is just to see better"
+  },
+  {
+    "t_start": 2357.92,
+    "t_end": 2364.64,
+    "text": "the profile of the function and so, what we can see here. Okay. So, we can if you look at this"
+  },
+  {
+    "t_start": 2364.64,
+    "t_end": 2376.4,
+    "text": "magic function what we can observe is that it has a lot of zeros and double zeros and those double"
+  },
+  {
+    "t_start": 2376.4,
+    "t_end": 2383.12,
+    "text": "zeros they are exactly at the points which are which is the spectrum of our lattice which are"
+  },
+  {
+    "t_start": 2383.12,
+    "t_end": 2388.72,
+    "text": "the lengths of vector vectors of our lattice. So, on my plot they are lengths squared but"
+  },
+  {
+    "t_start": 2388.72,
+    "t_end": 2396.32,
+    "text": "again this is this I've done this for aesthetical reasons to to have equally spaced zeros on the on"
+  },
+  {
+    "t_start": 2396.32,
+    "t_end": 2403.92,
+    "text": "the picture and so, this fact that the function the magic function and its Fourier transform has"
+  },
+  {
+    "t_start": 2403.92,
+    "t_end": 2411.52,
+    "text": "all these double zeros it's not a coincidence actually this is a consequence of satisfying"
+  },
+  {
+    "t_start": 2411.52,
+    "t_end": 2420.32,
+    "text": "the Cohn-Elkies conditions and also, the existence of E8 lattice and so, this is some sometimes in a"
+  },
+  {
+    "t_start": 2420.32,
+    "t_end": 2426.8,
+    "text": "linear so, in optimization this is what is called complementary slackness. So, if we are searching"
+  },
+  {
+    "t_start": 2426.8,
+    "t_end": 2433.76,
+    "text": "for an optimal solution then we can expect this optimal solution to satisfy a number of linear"
+  },
+  {
+    "t_start": 2433.76,
+    "t_end": 2445.04,
+    "text": "constraints and so, here these double zeros they actually give us a clue on how to find"
+  },
+  {
+    "t_start": 2445.04,
+    "t_end": 2454.24,
+    "text": "this the magic functions. Okay. The first here is this again like the proof that"
+  },
+  {
+    "t_start": 2454.24,
+    "t_end": 2461.76,
+    "text": "both the magic functions they all they need to have well the double zeros which we have seen"
+  },
+  {
+    "t_start": 2461.76,
+    "t_end": 2471.12,
+    "text": "on the plot and so, here this how the story works. So, okay so, here let lambda be any of"
+  },
+  {
+    "t_start": 2471.12,
+    "t_end": 2480.64,
+    "text": "the two lattices either E8 or the Leech lattice. So, then we if we compute we know that the value"
+  },
+  {
+    "t_start": 2480.64,
+    "t_end": 2486.88,
+    "text": "of our function at zero it is big or equal than the let sum of this function and this is because"
+  },
+  {
+    "t_start": 2486.88,
+    "t_end": 2492.0,
+    "text": "we know the because the function satisfies the Cohn-Elkies condition and the Cohn-Elkies"
+  },
+  {
+    "t_start": 2492.0,
+    "t_end": 2499.2,
+    "text": "condition on the function is that if the length of a vector is big enough then the value is of"
+  },
+  {
+    "t_start": 2499.2,
+    "t_end": 2505.84,
+    "text": "the function has to be non-negative and so, here we are applying the Poisson summation formula."
+  },
+  {
+    "t_start": 2507.12,
+    "t_end": 2516.56,
+    "text": "And so, after we applied the Poisson summation formula we know that the sum of the values of"
+  },
+  {
+    "t_start": 2516.56,
+    "t_end": 2524.56,
+    "text": "Poisson of forget transform over the dual of our lattice will be bigger equal than the value"
+  },
+  {
+    "t_start": 2524.56,
+    "t_end": 2531.92,
+    "text": "at zero. And this is because the again because of the function satisfies Cohn-Elkies conditions and"
+  },
+  {
+    "t_start": 2531.92,
+    "t_end": 2537.04,
+    "text": "the Cohn-Elkies conditions on the Fourier side is that the values of the Fourier transform are"
+  },
+  {
+    "t_start": 2537.04,
+    "t_end": 2544.8,
+    "text": "non-negative. So, we can throw away all of them except for one and we will get an inequality and"
+  },
+  {
+    "t_start": 2544.8,
+    "t_end": 2553.12,
+    "text": "then we know that the value of Fourier transform at zero is one because this is our normalization."
+  },
+  {
+    "t_start": 2553.12,
+    "t_end": 2559.28,
+    "text": "And so, now we can see that all these inequalities can be true only in the following case. It can be"
+  },
+  {
+    "t_start": 2559.28,
+    "t_end": 2566.4,
+    "text": "true if the function and then the values of the function and the values of the Fourier transform"
+  },
+  {
+    "t_start": 2566.4,
+    "t_end": 2574.64,
+    "text": "have to vanish at all nonzero vectors of the lattice. Also, in this case somehow we know that"
+  },
+  {
+    "t_start": 2575.68,
+    "t_end": 2581.2,
+    "text": "because we are speaking about E8 lattice and Leech lattice that in fact the lattice is"
+  },
+  {
+    "t_start": 2581.2,
+    "t_end": 2590.08,
+    "text": "equal to its dual. So, and so, the second order of vanishing is also, something we get again"
+  },
+  {
+    "t_start": 2590.08,
+    "t_end": 2601.92,
+    "text": "from the combination of these equalities and the Cohn-Elkies conditions. Okay. And so, now how to"
+  },
+  {
+    "t_start": 2601.92,
+    "t_end": 2608.08,
+    "text": "construct the function, okay. So, now the function it turns out that the function can be constructed"
+  },
+  {
+    "t_start": 2608.08,
+    "t_end": 2619.92,
+    "text": "in the following way. So, it can be given as an explicit contour integral and so, and the so,"
+  },
+  {
+    "t_start": 2619.92,
+    "t_end": 2628.64,
+    "text": "and the chicken claw contour will be used to prove that it's the, such a function indeed satisfies"
+  },
+  {
+    "t_start": 2628.64,
+    "t_end": 2634.96,
+    "text": "all the conditions of the Cohn-Elkies theorem and so, here we will define our function in the"
+  },
+  {
+    "t_start": 2634.96,
+    "t_end": 2642.16,
+    "text": "following way. So, it would be a sin square times the integral and here f lambda is a holomorphic"
+  },
+  {
+    "t_start": 2642.16,
+    "t_end": 2652.64,
+    "text": "function and it will it's supposed to have nice transformation properties at the upper half plane."
+  },
+  {
+    "t_start": 2652.64,
+    "t_end": 2656.8,
+    "text": "So, it will be a function which is defined at the upper half plane and it has nice transformation"
+  },
+  {
+    "t_start": 2656.8,
+    "t_end": 2666.48,
+    "text": "properties under the group of linear fractional transform transformations. And we also want this"
+  },
+  {
+    "t_start": 2666.48,
+    "t_end": 2679.44,
+    "text": "integral to converge if r is bigger than the length of the minimal vector in the lattice."
+  },
+  {
+    "t_start": 2683.76,
+    "t_end": 2703.6,
+    "text": "Okay. So, this is how the trans. So, now what we have to do we have to first make sure that we"
+  },
+  {
+    "t_start": 2703.6,
+    "t_end": 2711.52,
+    "text": "have this sign squared which guarantees our zeros and this is how we do it. We do it in a following"
+  },
+  {
+    "t_start": 2711.52,
+    "t_end": 2723.6,
+    "text": "way. So, we take our function and write it as a sum of three shifted integrals. And now what we"
+  },
+  {
+    "t_start": 2723.6,
+    "t_end": 2734.48,
+    "text": "do we make a some changing these three contours into one. So, this is the chicken claw contour."
+  },
+  {
+    "t_start": 2739.04,
+    "t_end": 2746.96,
+    "text": "Okay. So, we can so, now what is somehow what is the advantage so, here I like this presentation of"
+  },
+  {
+    "t_start": 2746.96,
+    "t_end": 2752.4,
+    "text": "a function came somehow out of nowhere and later in the lecture I will actually explain a little"
+  },
+  {
+    "t_start": 2752.4,
+    "t_end": 2760.16,
+    "text": "bit where it where it came from but now it's kind of a wild guess and so, I try to convince you that"
+  },
+  {
+    "t_start": 2760.16,
+    "t_end": 2766.4,
+    "text": "like this actually this form of the function is well compatible with what we know about the"
+  },
+  {
+    "t_start": 2766.4,
+    "t_end": 2771.36,
+    "text": "function what we know about the double zeros and also, double zeros for the Fourier transform. The"
+  },
+  {
+    "t_start": 2771.36,
+    "t_end": 2778.88,
+    "text": "first if our function is written in a such a way then it will be easy for us to compute its Fourier"
+  },
+  {
+    "t_start": 2778.88,
+    "t_end": 2788.4,
+    "text": "transform. And so, here what I do I because my function is constructed as a contour integral of a"
+  },
+  {
+    "t_start": 2788.4,
+    "t_end": 2798.72,
+    "text": "Gaussian with a complex coefficient with a complex parameter z. So, here Z it's a number in the"
+  },
+  {
+    "t_start": 2799.28,
+    "t_end": 2809.92,
+    "text": "upper half plane and so, we know how to compute Fourier transforms of Gaussians and so, this way"
+  },
+  {
+    "t_start": 2809.92,
+    "t_end": 2821.52,
+    "text": "formally this would be the Fourier transform of the function I have defined and so, now the"
+  },
+  {
+    "t_start": 2821.52,
+    "t_end": 2831.76,
+    "text": "what we would like to somehow to do to guarantee that such an such a contour integral will also,"
+  },
+  {
+    "t_start": 2831.76,
+    "t_end": 2842.24,
+    "text": "have this double zeros. So, here somehow I want to really so, now I have my function written as this"
+  },
+  {
+    "t_start": 2842.24,
+    "t_end": 2852.56,
+    "text": "sum of three integrals over vertical lines. And now I would like kind of to go back from here to"
+  },
+  {
+    "t_start": 2852.56,
+    "t_end": 2864.0,
+    "text": "there and get again the sin squared, yeah. So, now before I can do it, I will have to do some"
+  },
+  {
+    "t_start": 2864.0,
+    "t_end": 2871.68,
+    "text": "computations with contour integrals changing for example to change the variable. So, here I hope"
+  },
+  {
+    "t_start": 2871.68,
+    "t_end": 2880.64,
+    "text": "you trust me that I've done it correctly and so, this is what I will get at the end and so,"
+  },
+  {
+    "t_start": 2880.64,
+    "t_end": 2886.32,
+    "text": "here at the end I'm going to play my last card is that because what I've written before I told you"
+  },
+  {
+    "t_start": 2886.32,
+    "t_end": 2891.44,
+    "text": "that my function phi is some function defined on the upper half plane it is holomorphic it"
+  },
+  {
+    "t_start": 2891.44,
+    "t_end": 2899.04,
+    "text": "satisfies some nice transformation properties and at this step I will actually impose transformation"
+  },
+  {
+    "t_start": 2899.04,
+    "t_end": 2907.44,
+    "text": "properties on phi. And of course, we'll hope that such a function does exist and does what I want it"
+  },
+  {
+    "t_start": 2907.44,
+    "t_end": 2917.84,
+    "text": "to do. And so, now it turns out that these are actually if I think about all the conditions,"
+  },
+  {
+    "t_start": 2917.84,
+    "t_end": 2924.24,
+    "text": "everything I want to have from my function. It turns out that this in red these would be the"
+  },
+  {
+    "t_start": 2924.24,
+    "t_end": 2935.6,
+    "text": "conditions I will get. And it turns out that I am lucky and these conditions actually they can"
+  },
+  {
+    "t_start": 2935.6,
+    "t_end": 2948.64,
+    "text": "be these equations they can be solved explicitly. And so, if I can solve these functional equations"
+  },
+  {
+    "t_start": 2948.64,
+    "t_end": 2961.84,
+    "text": "for phi then my three contour integrals will come back into this sin square time 1 contour integral"
+  },
+  {
+    "t_start": 2961.84,
+    "t_end": 2969.04,
+    "text": "and so, now the final step of course this what I have constructed so, far I have constructed"
+  },
+  {
+    "t_start": 2969.04,
+    "t_end": 2974.16,
+    "text": "function which satisfies vanishing conditions which are compatible with the Cohn-Elkies theorem."
+  },
+  {
+    "t_start": 2974.16,
+    "t_end": 2980.4,
+    "text": "And the same vanishing conditions are satisfied for the Fourier side. And now the final step of"
+  },
+  {
+    "t_start": 2980.4,
+    "t_end": 2986.24,
+    "text": "course of course the actually in if you go back to the Cohn-Elkies theorem what we need are not the"
+  },
+  {
+    "t_start": 2986.24,
+    "t_end": 2991.76,
+    "text": "vanishing conditions but are the inequalities. So, now I need to check that the function satisfies"
+  },
+  {
+    "t_start": 2991.76,
+    "t_end": 2997.6,
+    "text": "inequalities. So, in a sense I've imposed all these conditions on of phi and with my assumptions"
+  },
+  {
+    "t_start": 2997.6,
+    "t_end": 3003.04,
+    "text": "I could get only one reasonable function. And now the final test is to see okay so,"
+  },
+  {
+    "t_start": 3003.04,
+    "t_end": 3010.72,
+    "text": "does it satisfy the inequalities. And so, the very final step is to see that this"
+  },
+  {
+    "t_start": 3010.72,
+    "t_end": 3018.0,
+    "text": "function indeed satisfies the inequalities of the Cohn-Elkies theorem. And fortunately for me"
+  },
+  {
+    "t_start": 3018.8,
+    "t_end": 3024.88,
+    "text": "this function did satisfy this inequality. So, the function itself it could be written explicitly in"
+  },
+  {
+    "t_start": 3024.88,
+    "t_end": 3031.28,
+    "text": "terms of modular forms and because it was a very explicit function it was possible to verify the"
+  },
+  {
+    "t_start": 3031.28,
+    "t_end": 3044.56,
+    "text": "inequalities actually by analyzing the expression under the integral. And so, now we can do similar"
+  },
+  {
+    "t_start": 3044.56,
+    "t_end": 3055.28,
+    "text": "things for the universal optimality. And so, now let me introduce what is the universal optimality."
+  },
+  {
+    "t_start": 3055.28,
+    "t_end": 3064.0,
+    "text": "Okay. So, first in this long and technical slide I define what is the energy of pairwise interactions"
+  },
+  {
+    "t_start": 3064.0,
+    "t_end": 3070.16,
+    "text": "for a configuration of points in in Euclidean space. So, here of course as speaking about"
+  },
+  {
+    "t_start": 3070.16,
+    "t_end": 3074.72,
+    "text": "Euclidean space it's not interesting to speak about a finite set of points. It's interesting"
+  },
+  {
+    "t_start": 3074.72,
+    "t_end": 3080.88,
+    "text": "to speak about infinite set of points which has a well-defined density. You can think of like points"
+  },
+  {
+    "t_start": 3080.88,
+    "t_end": 3088.32,
+    "text": "in a crystal or for or maybe in some molecular and some very big body. So, we kind we want to"
+  },
+  {
+    "t_start": 3088.32,
+    "t_end": 3095.28,
+    "text": "think of it as being big enough and then we want to normalize somehow to go away from infinity. So,"
+  },
+  {
+    "t_start": 3095.28,
+    "t_end": 3103.52,
+    "text": "we, what we would like to do, we will compute the average energy per one particle. And so,"
+  },
+  {
+    "t_start": 3103.52,
+    "t_end": 3118.72,
+    "text": "this is the quantity we would like to minimize. And of course, the well-posed problem would be"
+  },
+  {
+    "t_start": 3118.72,
+    "t_end": 3125.28,
+    "text": "like this. Suppose that we consider all this configurations of points with a fixed density"
+  },
+  {
+    "t_start": 3125.28,
+    "t_end": 3135.76,
+    "text": "rho then we are searching for a configuration of fixed density with the smallest possible energy"
+  },
+  {
+    "t_start": 3135.76,
+    "t_end": 3140.32,
+    "text": "and because if we don't fix density our solution could be somehow like very, very sparse or on"
+  },
+  {
+    "t_start": 3140.32,
+    "t_end": 3152.72,
+    "text": "the other hand very very, very condensed set of points. So, and so, now we would say that discrete"
+  },
+  {
+    "t_start": 3152.72,
+    "t_end": 3158.64,
+    "text": "set of density rho is universally optimal if it minimizes p-energy whenever p is a completely"
+  },
+  {
+    "t_start": 3158.64,
+    "t_end": 3168.88,
+    "text": "monotonic function of squared distance or easier way to say it if it is minimizes p-energy for any"
+  },
+  {
+    "t_start": 3168.88,
+    "t_end": 3176.96,
+    "text": "Gaussian like this. So, for any function which is a Gaussian with any positive real parameter alpha"
+  },
+  {
+    "t_start": 3176.96,
+    "t_end": 3183.92,
+    "text": "and in fact all completely monotonic functions of squared distance they're all linear combinations"
+  },
+  {
+    "t_start": 3183.92,
+    "t_end": 3194.32,
+    "text": "of such gaussians not linear but like convex combinations and so, this is the theorem we proved"
+  },
+  {
+    "t_start": 3194.32,
+    "t_end": 3201.2,
+    "text": "together with Henry Cohn, Abhinav Kumar, Stephen Miller, and Danylo Radchenko is that the lattices"
+  },
+  {
+    "t_start": 3202.48,
+    "t_end": 3210.72,
+    "text": "E8 and the Leech lattice are universally optimal. And so, here again the method for proving this is"
+  },
+  {
+    "t_start": 3210.72,
+    "t_end": 3219.2,
+    "text": "the linear programming. And so, here is the linear programming method which is adopted for energy"
+  },
+  {
+    "t_start": 3219.2,
+    "t_end": 3227.12,
+    "text": "minimization problem in Euclidean space. So, this is a theorem by Henry Cohn and Abhinav Kumarand"
+  },
+  {
+    "t_start": 3227.12,
+    "t_end": 3234.88,
+    "text": "it tells us so, let P be our energy profile and suppose that we can construct an auxiliary"
+  },
+  {
+    "t_start": 3234.88,
+    "t_end": 3246.0,
+    "text": "function F such that F is a Schwartz function and F is bigger or equal than P for all nonzero X and"
+  },
+  {
+    "t_start": 3246.0,
+    "t_end": 3255.28,
+    "text": "also, the Fourier transform of F is bigger or equal than zero Then for every sub subset of the"
+  },
+  {
+    "t_start": 3255.28,
+    "t_end": 3266.72,
+    "text": "dimensional space of density rho its lower energy will be at least this number and so, again it's"
+  },
+  {
+    "t_start": 3266.72,
+    "t_end": 3273.28,
+    "text": "this is a relaxation of the energy minimization problem and in general it there is no reason for"
+  },
+  {
+    "t_start": 3273.28,
+    "t_end": 3282.32,
+    "text": "this bound to be sharp. However for this case of optimization of Gaussian potentials of in"
+  },
+  {
+    "t_start": 3282.32,
+    "t_end": 3289.36,
+    "text": "a dimensional and 24-dimensional space it turns out that actually this method gives the optimal"
+  },
+  {
+    "t_start": 3289.92,
+    "t_end": 3309.36,
+    "text": "result. And so, here again we can use this idea of complimentary slackness to get"
+  },
+  {
+    "t_start": 3309.36,
+    "t_end": 3316.08,
+    "text": "extra information about auxiliary function f. If we assume that such a function exists and it does"
+  },
+  {
+    "t_start": 3316.08,
+    "t_end": 3323.36,
+    "text": "provide a sharp bound then this function would have to satisfy also, a number of conditions"
+  },
+  {
+    "t_start": 3323.36,
+    "t_end": 3329.6,
+    "text": "for example it would the values of a function would have to satisfy with the values of the"
+  },
+  {
+    "t_start": 3329.6,
+    "t_end": 3338.24,
+    "text": "energy profile at all non-zero lattice points and the Fourier transform of f has to vanish"
+  },
+  {
+    "t_start": 3338.24,
+    "t_end": 3345.76,
+    "text": "at the all non-zero lattice points of the dual lattice and also, all these equalities they will"
+  },
+  {
+    "t_start": 3345.76,
+    "t_end": 3358.8,
+    "text": "hold to the second order. And so, it turns out that this information is in fact sufficient to"
+  },
+  {
+    "t_start": 3358.8,
+    "t_end": 3366.8,
+    "text": "recover the function. And so, in order to show this, we have proven the Fourier interpolation"
+  },
+  {
+    "t_start": 3366.8,
+    "t_end": 3375.92,
+    "text": "formula and the formula says the following. This also, from the joint work with Henry,"
+  },
+  {
+    "t_start": 3375.92,
+    "t_end": 3383.04,
+    "text": "Abhinav, Stephen, and Danylo. So, we have proven this formula for dimensions eight and 24 because"
+  },
+  {
+    "t_start": 3383.04,
+    "t_end": 3390.4,
+    "text": "this was what our application needed but it can be proven actually in any dimension. So, the only"
+  },
+  {
+    "t_start": 3390.4,
+    "t_end": 3397.2,
+    "text": "difference would be that here we have these two numbers d which is the dimension and n0 is the"
+  },
+  {
+    "t_start": 3397.2,
+    "t_end": 3405.04,
+    "text": "point where we need to start sampling our function and as dimension is bigger we can start sampling"
+  },
+  {
+    "t_start": 3405.04,
+    "t_end": 3418.32,
+    "text": "later. So, we need to somehow postpone some of the shortest points. And so, it tells us that if we"
+  },
+  {
+    "t_start": 3418.32,
+    "t_end": 3426.4,
+    "text": "have a radial Schwartz function f and we know all of the values of the function at all square roots"
+  },
+  {
+    "t_start": 3426.4,
+    "t_end": 3433.76,
+    "text": "of even positive integers and the values of its derivative. And of course here I speak when I say"
+  },
+  {
+    "t_start": 3433.76,
+    "t_end": 3441.12,
+    "text": "f of square root of n it means that f evaluated at all vectors of the length square root of n. So,"
+  },
+  {
+    "t_start": 3441.12,
+    "t_end": 3445.36,
+    "text": "here's a bit of using a bit like abuse of notation because it's a radial function. Of course it"
+  },
+  {
+    "t_start": 3445.36,
+    "t_end": 3455.04,
+    "text": "depends only on the length of the vector and we know the same information on the Fourier side then"
+  },
+  {
+    "t_start": 3455.04,
+    "t_end": 3470.72,
+    "text": "we can actually recover the function and so, since this formula we have actually recently some other"
+  },
+  {
+    "t_start": 3470.72,
+    "t_end": 3477.76,
+    "text": "Fourier interpolation formulas have been proven. So, as a preparation for this 2019 result we have"
+  },
+  {
+    "t_start": 3477.76,
+    "t_end": 3487.28,
+    "text": "proven a simple Fourier interpolation formula. So, not here this is a second order interpolation"
+  },
+  {
+    "t_start": 3487.28,
+    "t_end": 3492.72,
+    "text": "formula by interpolating function from the values of function and its derivatives and"
+  },
+  {
+    "t_start": 3493.52,
+    "t_end": 3498.4,
+    "text": "to prepare for it together with Danylo we have constructed a Fourier interpolation formula which"
+  },
+  {
+    "t_start": 3498.4,
+    "t_end": 3504.72,
+    "text": "interpolates only from the values of function but not at the square roots of even integers but at"
+  },
+  {
+    "t_start": 3504.72,
+    "t_end": 3513.04,
+    "text": "the square roots of all integers and then actually there is also, so, here is a small list of other"
+  },
+  {
+    "t_start": 3513.04,
+    "t_end": 3518.08,
+    "text": "related results. So, it turns out that on one hand there is nothing so much special about the square"
+  },
+  {
+    "t_start": 3518.08,
+    "t_end": 3525.2,
+    "text": "root of n and if just if another sequence has the same density properties then also,"
+  },
+  {
+    "t_start": 3525.2,
+    "t_end": 3531.92,
+    "text": "there will be a Fourier interpolation formula associated to these nodes. But then there are"
+  },
+  {
+    "t_start": 3531.92,
+    "t_end": 3537.36,
+    "text": "also, other types of like interesting Fourier interpolation formulas for example from coming"
+  },
+  {
+    "t_start": 3537.36,
+    "t_end": 3551.12,
+    "text": "from the zeros of zetafunction but this might be an include mostly for the destruction and so,"
+  },
+  {
+    "t_start": 3551.12,
+    "t_end": 3557.76,
+    "text": "now if you know the Fourier interpolation so, now we can actually can maybe explain you a little bit"
+  },
+  {
+    "t_start": 3557.76,
+    "t_end": 3563.92,
+    "text": "again like where this modular forms condition is coming from. So, because in the packing problem it"
+  },
+  {
+    "t_start": 3563.92,
+    "t_end": 3570.56,
+    "text": "seems like a guess but maybe this actually solving this problem helps to explain where the gas is"
+  },
+  {
+    "t_start": 3570.56,
+    "t_end": 3580.56,
+    "text": "coming from and so, now we would see that okay so, first is that if we do have this magic function"
+  },
+  {
+    "t_start": 3580.56,
+    "t_end": 3587.12,
+    "text": "then from the complimentary slackness we would know that our magic function would have to look"
+  },
+  {
+    "t_start": 3587.12,
+    "t_end": 3593.36,
+    "text": "like this. So, the com magic function of course it will depend on the energy profile p and so,"
+  },
+  {
+    "t_start": 3593.36,
+    "t_end": 3599.44,
+    "text": "by the Fourier interpolation formula this is how it will look like because we know everything what"
+  },
+  {
+    "t_start": 3599.44,
+    "t_end": 3605.92,
+    "text": "happens on the side of x of f of x but then on everything from the Fourier side it will just"
+  },
+  {
+    "t_start": 3605.92,
+    "t_end": 3622.48,
+    "text": "vanish because the there all the values of Fourier have to vanish and yeah, so, now if we know the"
+  },
+  {
+    "t_start": 3622.48,
+    "t_end": 3631.6,
+    "text": "functions An and Bn then we are in principle done. So, we just if you do know An and Bn the last step"
+  },
+  {
+    "t_start": 3631.6,
+    "t_end": 3648.08,
+    "text": "would be just to prove this inequalities. And so, now the final step would be how to find this"
+  },
+  {
+    "t_start": 3648.08,
+    "t_end": 3657.04,
+    "text": "numbers the functions An and Bn the interpolating basis and so, we can find it in the following way."
+  },
+  {
+    "t_start": 3657.04,
+    "t_end": 3669.6,
+    "text": "So, we can arrange this interpolation basis into a generating function. And but now if we think of"
+  },
+  {
+    "t_start": 3669.6,
+    "t_end": 3676.56,
+    "text": "the interpolation formula for the complex Gaussian we would see that it is in fact equivalent to"
+  },
+  {
+    "t_start": 3676.56,
+    "t_end": 3687.52,
+    "text": "the following functional equation for this generating function. And so, and so, now by"
+  },
+  {
+    "t_start": 3687.52,
+    "t_end": 3693.76,
+    "text": "solving this functional equation we can find the generating function f and therefore find also, the"
+  },
+  {
+    "t_start": 3693.76,
+    "t_end": 3704.16,
+    "text": "basis An Bn An tilde and Bn tilde. And so, this equation again. So, this equation is a functional"
+  },
+  {
+    "t_start": 3704.16,
+    "t_end": 3718.96,
+    "text": "equation where l zz acts on the function f If as we think of f as a function defined on the"
+  },
+  {
+    "t_start": 3718.96,
+    "t_end": 3726.56,
+    "text": "upper half plane for a variable tau which lives at the upper half plane. And so, this would be in"
+  },
+  {
+    "t_start": 3726.56,
+    "t_end": 3734.32,
+    "text": "fact the complete somehow also, a bit of a hidden information about the function f is that we have"
+  },
+  {
+    "t_start": 3734.32,
+    "t_end": 3742.16,
+    "text": "this first equation which comes from the from the interpolation formula applied to the Gaussian but"
+  },
+  {
+    "t_start": 3742.16,
+    "t_end": 3748.48,
+    "text": "other two equations they come from periodicity and this periodicity is built in into the generating"
+  },
+  {
+    "t_start": 3748.48,
+    "t_end": 3756.32,
+    "text": "function itself just because it's defined as such a as such a series. So, the series they"
+  },
+  {
+    "t_start": 3756.32,
+    "t_end": 3766.08,
+    "text": "just defined to be to have this double periodicity property or or being linear periodic. And so, now"
+  },
+  {
+    "t_start": 3766.08,
+    "t_end": 3775.92,
+    "text": "it turns out that this function it can be solved explicitly in terms of and so, this function"
+  },
+  {
+    "t_start": 3775.92,
+    "t_end": 3781.68,
+    "text": "capital f will have an integral representation. And so, then the final step is actually to prove"
+  },
+  {
+    "t_start": 3781.68,
+    "t_end": 3790.88,
+    "text": "these inequalities for this explicit function f. And so, then these inequalities they already imply"
+  },
+  {
+    "t_start": 3790.88,
+    "t_end": 3797.76,
+    "text": "the inequalities from the Cohn-Kumar theorem and prove universal optimality of lattice and Leech"
+  },
+  {
+    "t_start": 3797.76,
+    "t_end": 3811.6,
+    "text": "lattice. So, thank you very much. [Applause]"
+  },
+  {
+    "t_start": 3811.6,
+    "t_end": 3827.2,
+    "text": "Any questions? And if you have a question you should take the microphone."
+  },
+  {
+    "t_start": 3827.2,
+    "t_end": 3833.44,
+    "text": "Really great talk. Thank you. I was just curious if there's some sort of like rigidity or stability"
+  },
+  {
+    "t_start": 3833.44,
+    "t_end": 3842.8,
+    "text": "result known in dimensions 8 and 24? Actually there is a paper of I think Joao Ramos and Danylo"
+  },
+  {
+    "t_start": 3842.8,
+    "t_end": 3848.48,
+    "text": "Radchenko where they do establish stability result and actually the stability result does use the"
+  },
+  {
+    "t_start": 3848.48,
+    "t_end": 3858.0,
+    "text": "also, the magic function to show the stability. Thank you. Any other questions?"
+  },
+  {
+    "t_start": 3862.0,
+    "t_end": 3870.48,
+    "text": "For sphere packing, this argument seemed to be tight for dimensions 1 2 8 24 for this sort of"
+  },
+  {
+    "t_start": 3871.36,
+    "t_end": 3877.12,
+    "text": "universal optimality. What does the situation look like in say dimension two? Yes. So, there also,"
+  },
+  {
+    "t_start": 3877.12,
+    "t_end": 3883.28,
+    "text": "it seems like it should work numerically, but analytically, actually dimension two seems to"
+  },
+  {
+    "t_start": 3883.28,
+    "t_end": 3889.12,
+    "text": "be at least for this method it seems to be more challenging than 8 and 24, which is a bit strange,"
+  },
+  {
+    "t_start": 3889.12,
+    "t_end": 3897.44,
+    "text": "but yeah maybe like the reason as I see it like why things don't like work so, easily is that"
+  },
+  {
+    "t_start": 3897.44,
+    "t_end": 3904.32,
+    "text": "if you think of the lenses of vectors so, in dimension two of course the candidate is the"
+  },
+  {
+    "t_start": 3904.32,
+    "t_end": 3911.6,
+    "text": "A2 lattice but if If you think of the lenses of its vectors they have more complicated structure"
+  },
+  {
+    "t_start": 3911.6,
+    "t_end": 3917.92,
+    "text": "than they're not just like square roots of integers It's like lacunary sequence which is"
+  },
+  {
+    "t_start": 3917.92,
+    "t_end": 3925.84,
+    "text": "a bit interesting. And so, this and also, it could happen I don't know maybe now it's a bit more like"
+  },
+  {
+    "t_start": 3925.84,
+    "t_end": 3933.52,
+    "text": "a speculation. So, here it seems that in this case if this magic functions are unique at least if we"
+  },
+  {
+    "t_start": 3933.52,
+    "t_end": 3940.08,
+    "text": "search for magic functions in a reasonably good space and in dimension two I'm not so convinced."
+  },
+  {
+    "t_start": 3940.08,
+    "t_end": 3943.84,
+    "text": "So, maybe one of the reasons why dimension two is more difficult is that because there"
+  },
+  {
+    "t_start": 3943.84,
+    "t_end": 3953.76,
+    "text": "is like not one on e but many magic functions and it's difficult to choose one of them."
+  },
+  {
+    "t_start": 3953.76,
+    "t_end": 3959.12,
+    "text": "Maryna, thank you for a beautiful talk. I have a question. So, if you're given some magic functions"
+  },
+  {
+    "t_start": 3959.12,
+    "t_end": 3966.32,
+    "text": "given by explicit formulas but involving integrals it's a big lengthy expression. How one can check"
+  },
+  {
+    "t_start": 3966.32,
+    "t_end": 3975.36,
+    "text": "that this function is nonnegative somewhere? Yes. So, of course as how we have done it"
+  },
+  {
+    "t_start": 3975.36,
+    "t_end": 3981.92,
+    "text": "we have actually like written down an argument, but it was okay. So, I think now in my original"
+  },
+  {
+    "t_start": 3981.92,
+    "t_end": 3986.48,
+    "text": "paper this argument of checking this so, the function which we I had to check. So,"
+  },
+  {
+    "t_start": 3986.48,
+    "t_end": 3993.52,
+    "text": "maybe I can show you okay so, here so, I did not do it for the integral. So, in our cases we are,"
+  },
+  {
+    "t_start": 3993.52,
+    "t_end": 3998.96,
+    "text": "we were quite lucky, and we could just analyze for example we were writing here an integral"
+  },
+  {
+    "t_start": 3998.96,
+    "t_end": 4005.12,
+    "text": "and want to show that this function for example is negative but then the expression on the under the"
+  },
+  {
+    "t_start": 4005.12,
+    "t_end": 4011.28,
+    "text": "integral already was negative. So, integral did not contribute that much and the expression on the"
+  },
+  {
+    "t_start": 4011.28,
+    "t_end": 4018.88,
+    "text": "integral it was a very explicit function. So, like some combination of modular forms of small weight."
+  },
+  {
+    "t_start": 4018.88,
+    "t_end": 4023.68,
+    "text": "So, in a sense like if with a suitable change of coordinates it could be expressed I think in"
+  },
+  {
+    "t_start": 4023.68,
+    "t_end": 4032.24,
+    "text": "terms of like polynomials of like variables on of two variables on a square logarithms and elliptic"
+  },
+  {
+    "t_start": 4032.24,
+    "t_end": 4041.12,
+    "text": "integrals so, those are and then it was somehow just so, some kind of brutal force argument how"
+  },
+  {
+    "t_start": 4041.12,
+    "t_end": 4047.84,
+    "text": "to then there was a numerical aspect to it to show that okay this is like this very explicit function"
+  },
+  {
+    "t_start": 4047.84,
+    "t_end": 4053.28,
+    "text": "we have this bound on its derivative and then we have computed on this small grid and so, therefore"
+  },
+  {
+    "t_start": 4053.28,
+    "t_end": 4062.32,
+    "text": "it has to be positive. So, like for example here it's like because the function for like on so,"
+  },
+  {
+    "t_start": 4062.32,
+    "t_end": 4067.92,
+    "text": "so, for example at the like boundary of this square we could have like a separate argument"
+  },
+  {
+    "t_start": 4067.92,
+    "t_end": 4073.68,
+    "text": "just computing the asymptotics, but in the middle it was somehow computing it on a fine grid and but"
+  },
+  {
+    "t_start": 4073.68,
+    "t_end": 4082.8,
+    "text": "since then there was actually an improvement and now for at least for dimension eight there is a,"
+  },
+  {
+    "t_start": 4082.8,
+    "t_end": 4091.12,
+    "text": "actually like a mathematical proof which says like, which does not include any use of computer,"
+  },
+  {
+    "t_start": 4091.12,
+    "t_end": 4098.4,
+    "text": "so, I think it's done by Dan Romik he has done it in dimension 8 and there is another student"
+  },
+  {
+    "t_start": 4098.4,
+    "t_end": 4102.56,
+    "text": "and I think it's I'm not sure if it's already published or not yet but he have actually found"
+  },
+  {
+    "t_start": 4102.56,
+    "t_end": 4110.96,
+    "text": "a nice argument which works for both E8 and less but then it's somehow it's proving inequalities"
+  },
+  {
+    "t_start": 4110.96,
+    "t_end": 4115.84,
+    "text": "like this you know this modular form has positive coefficients Therefore it has to be positive or"
+  },
+  {
+    "t_start": 4115.84,
+    "t_end": 4121.28,
+    "text": "this now like take a polynomial of it which has no roots therefore it also, has to be positive. So,"
+  },
+  {
+    "t_start": 4121.28,
+    "t_end": 4128.549,
+    "text": "it can be broken into those like smaller steps, but yeah like analysis, you know."
+  },
+  {
+    "t_start": 4128.549,
+    "t_end": 4140.4,
+    "text": "Thank you. Let's take one more question. Thank you. So, if I recall correctly the"
+  },
+  {
+    "t_start": 4140.4,
+    "t_end": 4145.6,
+    "text": "Cohn and Kumar 2007 paper is on the sphere, and you stated the result for"
+  },
+  {
+    "t_start": 4146.16,
+    "t_end": 4151.52,
+    "text": "configurations on the Ukan space and I was wondering if it's easy to go from the sphere"
+  },
+  {
+    "t_start": 4151.52,
+    "t_end": 4159.92,
+    "text": "to the Euclidean? Oh, but okay, that theorem is actually stated for Euclidian space. So,"
+  },
+  {
+    "t_start": 4159.92,
+    "t_end": 4164.72,
+    "text": "yeah so, Henry maybe can correct me if I'm wrong, but that theorem is Fourier space. So,"
+  },
+  {
+    "t_start": 4164.72,
+    "t_end": 4174.4,
+    "text": "I did not have to do anything. So, the last section of the paper when you click just"
+  },
+  {
+    "t_start": 4174.4,
+    "t_end": 4179.76,
+    "text": "repeating what Henry just said. So let's thank Maryna again."
+  },
+  {
+    "t_start": 4179.76,
+    "t_end": 4186.748,
+    "text": "[Applause] And just a reminder, we'll"
+  },
+  {
+    "t_start": 4186.748,
+    "t_end": 4194.135,
+    "text": "have a second and a third talk tomorrow and the day after, same schedule. Thank you for coming."
+  }
+]

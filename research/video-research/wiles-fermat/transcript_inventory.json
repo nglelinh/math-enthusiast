@@ -1,0 +1,53 @@
+{
+  "slug": "wiles-fermat",
+  "videos": [
+    {
+      "id": "4t1mgEBx1nQ",
+      "title": "Andrew Wiles: Fermat's Last theorem: abelian and non-abelian approaches",
+      "has_transcript": true,
+      "chars": 50746,
+      "units": 34,
+      "url": "https://www.youtube.com/watch?v=4t1mgEBx1nQ"
+    },
+    {
+      "id": "oqMaziDIBYY",
+      "title": "Darmon — Wiles' marvelous proof",
+      "has_transcript": true,
+      "chars": 68839,
+      "units": 36,
+      "url": "https://www.youtube.com/watch?v=oqMaziDIBYY"
+    },
+    {
+      "id": "cWKAzX5U85Q",
+      "title": "Abel interview with Wiles",
+      "has_transcript": true,
+      "chars": 62942,
+      "units": 39,
+      "url": "https://www.youtube.com/watch?v=cWKAzX5U85Q"
+    },
+    {
+      "id": "baUlp5EWhCk",
+      "title": "Live interview Wiles (Oslo)",
+      "has_transcript": true,
+      "chars": 20906,
+      "units": 15,
+      "url": "https://www.youtube.com/watch?v=baUlp5EWhCk"
+    },
+    {
+      "id": "2Pu4vZZu3JA",
+      "title": "Alex Bellos on Wiles/FLT",
+      "has_transcript": true,
+      "chars": 16065,
+      "units": 9,
+      "url": "https://www.youtube.com/watch?v=2Pu4vZZu3JA"
+    },
+    {
+      "id": "nlUimyJpWtI",
+      "title": "INI — Thirty years of proof (Wiles anniversary)",
+      "has_transcript": true,
+      "chars": 1946,
+      "units": 2,
+      "url": "https://www.youtube.com/watch?v=nlUimyJpWtI"
+    }
+  ]
+}

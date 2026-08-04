@@ -1,0 +1,4812 @@
+[
+  {
+    "t_start": 13.35,
+    "t_end": 14.07,
+    "text": "hello everyone and thank you for joining us today"
+  },
+  {
+    "t_start": 14.07,
+    "t_end": 18.39,
+    "text": "this is an informal conversation hosted by the word federation of science"
+  },
+  {
+    "t_start": 18.39,
+    "t_end": 19.189,
+    "text": "by the word federation of science journalists"
+  },
+  {
+    "t_start": 19.189,
+    "t_end": 22.55,
+    "text": "together with the norwegian academy of science and letters"
+  },
+  {
+    "t_start": 22.55,
+    "t_end": 26.95,
+    "text": "we are deeply honored to have a chance to meet the two hubble prize laureates"
+  },
+  {
+    "t_start": 26.95,
+    "t_end": 27.349,
+    "text": "to meet the two hubble prize laureates today"
+  },
+  {
+    "t_start": 27.349,
+    "t_end": 32.31,
+    "text": "professor laszlo lovas of edward laurent university in budapest hungary"
+  },
+  {
+    "t_start": 32.31,
+    "t_end": 36.229,
+    "text": "and professor avi wigderson of the institute for advanced study in"
+  },
+  {
+    "t_start": 36.229,
+    "t_end": 37.67,
+    "text": "institute for advanced study in princeton usa"
+  },
+  {
+    "t_start": 37.67,
+    "t_end": 41.51,
+    "text": "thanks to them discreet mathematics and theoretical computer science"
+  },
+  {
+    "t_start": 41.51,
+    "t_end": 45.709,
+    "text": "theoretical computer science are now established at central areas of"
+  },
+  {
+    "t_start": 45.709,
+    "t_end": 49.67,
+    "text": "modern mathematics congratulations on winning this award"
+  },
+  {
+    "t_start": 49.67,
+    "t_end": 55.67,
+    "text": "thank you and i know that there's someone else who would like to"
+  },
+  {
+    "t_start": 55.67,
+    "t_end": 57.91,
+    "text": "someone else who would like to congratulate both of you the chairperson"
+  },
+  {
+    "t_start": 57.91,
+    "t_end": 59.43,
+    "text": "congratulate both of you the chairperson of the abel committee"
+  },
+  {
+    "t_start": 59.43,
+    "t_end": 62.47,
+    "text": "of the abel committee professor hans muntekas professor"
+  },
+  {
+    "t_start": 62.47,
+    "t_end": 66.23,
+    "text": "professor hans muntekas professor if you'd like to say a couple of words"
+  },
+  {
+    "t_start": 66.23,
+    "t_end": 70.87,
+    "text": "yeah i would be very happy to to congratulate dasolovas and aviv"
+  },
+  {
+    "t_start": 70.87,
+    "t_end": 76.149,
+    "text": "on behalf of the hubble prize committee this year the committee has consisted of"
+  },
+  {
+    "t_start": 76.149,
+    "t_end": 77.109,
+    "text": "this year the committee has consisted of claire vossa"
+  },
+  {
+    "t_start": 77.109,
+    "t_end": 81.59,
+    "text": "claire vossa sylvia sarfati alex lubotsky and mr"
+  },
+  {
+    "t_start": 81.59,
+    "t_end": 86.39,
+    "text": "and the purpose of the prizes here is to celebrate the"
+  },
+  {
+    "t_start": 86.39,
+    "t_end": 90.069,
+    "text": "immensely fruitful interactions between computer science and mathematics"
+  },
+  {
+    "t_start": 90.069,
+    "t_end": 94.71,
+    "text": "and and then i think we in in our citation emphasize that this this is"
+  },
+  {
+    "t_start": 94.71,
+    "t_end": 98.149,
+    "text": "citation emphasize that this this is a two-way interaction that is"
+  },
+  {
+    "t_start": 98.149,
+    "t_end": 103.109,
+    "text": "and i think that this price is a very important price because i think for"
+  },
+  {
+    "t_start": 103.109,
+    "t_end": 106.95,
+    "text": "important price because i think for mathematical sciences that this focus on"
+  },
+  {
+    "t_start": 106.95,
+    "t_end": 109.03,
+    "text": "mathematical sciences that this focus on algorithms and computational issues is"
+  },
+  {
+    "t_start": 109.03,
+    "t_end": 112.71,
+    "text": "algorithms and computational issues is uh something that is really"
+  },
+  {
+    "t_start": 112.71,
+    "t_end": 114.069,
+    "text": "revolutionizing all the areas of mathematics and and"
+  },
+  {
+    "t_start": 114.069,
+    "t_end": 119.03,
+    "text": "it's also bringing together uh i mean in in in the last century"
+  },
+  {
+    "t_start": 119.03,
+    "t_end": 121.109,
+    "text": "i mean in in in the last century mathematics was diverging a lot in in"
+  },
+  {
+    "t_start": 121.109,
+    "t_end": 122.63,
+    "text": "mathematics was diverging a lot in in pure and applied mathematics but"
+  },
+  {
+    "t_start": 122.63,
+    "t_end": 126.149,
+    "text": "pure and applied mathematics but i think this emphasize on the emphasis"
+  },
+  {
+    "t_start": 126.149,
+    "t_end": 130.07,
+    "text": "on computations and algorithms and this kind of structures"
+  },
+  {
+    "t_start": 130.07,
+    "t_end": 134.309,
+    "text": "is really bringing mathematical sciences together again so it's a really"
+  },
+  {
+    "t_start": 134.309,
+    "t_end": 142.79,
+    "text": "development for mathematics and even for science in general i think in lobos"
+  },
+  {
+    "t_start": 145.75,
+    "t_end": 147.67,
+    "text": "is writing about pe versus nps as as a principle of nature and so on so it it"
+  },
+  {
+    "t_start": 147.67,
+    "t_end": 150.55,
+    "text": "principle of nature and so on so it it is far far reaching uh consequences i"
+  },
+  {
+    "t_start": 150.55,
+    "t_end": 152.63,
+    "text": "is far far reaching uh consequences i think i stop at this point and"
+  },
+  {
+    "t_start": 152.63,
+    "t_end": 158.949,
+    "text": "congratulate to uh lawrence again thank you"
+  },
+  {
+    "t_start": 161.509,
+    "t_end": 162.63,
+    "text": "thank you so much before we start i just want to say that"
+  },
+  {
+    "t_start": 162.63,
+    "t_end": 165.91,
+    "text": "want to say that we have a chat box and everyone here can"
+  },
+  {
+    "t_start": 165.91,
+    "t_end": 172.949,
+    "text": "questions i'll start with a simple question for both our laureates"
+  },
+  {
+    "t_start": 172.949,
+    "t_end": 176.07,
+    "text": "a simple question for both our laureates um why do you love math and"
+  },
+  {
+    "t_start": 176.07,
+    "t_end": 179.27,
+    "text": "um why do you love math and what does matt mean to you you'll have"
+  },
+  {
+    "t_start": 179.27,
+    "t_end": 183.19,
+    "text": "who to go first i can tell you from experience"
+  },
+  {
+    "t_start": 183.19,
+    "t_end": 188.309,
+    "text": "hungarians are extremely polite and they always let you go first so don't"
+  },
+  {
+    "t_start": 188.309,
+    "t_end": 197.67,
+    "text": "always let you go first so don't tell us okay avi would you like to"
+  },
+  {
+    "t_start": 203.509,
+    "t_end": 205.03,
+    "text": "well i'm sure that i have some natural attraction to it this has to"
+  },
+  {
+    "t_start": 205.03,
+    "t_end": 208.869,
+    "text": "attraction to it this has to be crazy i love math because"
+  },
+  {
+    "t_start": 208.869,
+    "t_end": 212.07,
+    "text": "be crazy i love math because you know it's just it has truth"
+  },
+  {
+    "t_start": 212.07,
+    "t_end": 215.67,
+    "text": "you know it's just it has truth it has beauty it has a mystery"
+  },
+  {
+    "t_start": 215.67,
+    "t_end": 219.67,
+    "text": "it has beauty it has a mystery it has surprises"
+  },
+  {
+    "t_start": 219.67,
+    "t_end": 226.149,
+    "text": "it has surprises and it's both a meditative"
+  },
+  {
+    "t_start": 226.149,
+    "t_end": 232.63,
+    "text": "hand it's a very social way of life you can do it by yourself you can do it with"
+  },
+  {
+    "t_start": 232.63,
+    "t_end": 234.309,
+    "text": "can do it by yourself you can do it with others and"
+  },
+  {
+    "t_start": 234.309,
+    "t_end": 240.07,
+    "text": "mainly because there are wonderful other people to do it with"
+  },
+  {
+    "t_start": 240.07,
+    "t_end": 243.19,
+    "text": "people to do it with a great answer professor lopez why do"
+  },
+  {
+    "t_start": 243.19,
+    "t_end": 250.07,
+    "text": "love math i uh well it it it is a word where"
+  },
+  {
+    "t_start": 250.07,
+    "t_end": 254.07,
+    "text": "well it it it is a word where where you have beauty and harmony"
+  },
+  {
+    "t_start": 254.07,
+    "t_end": 256.92,
+    "text": "where you have beauty and harmony uh without all the for the"
+  },
+  {
+    "t_start": 256.92,
+    "t_end": 258.31,
+    "text": "uh without all the for the [Music]"
+  },
+  {
+    "t_start": 258.31,
+    "t_end": 264.79,
+    "text": "slings and arrows of of the real world uh i uh"
+  },
+  {
+    "t_start": 264.79,
+    "t_end": 268.31,
+    "text": "i served for six years as the president of the academy"
+  },
+  {
+    "t_start": 268.31,
+    "t_end": 274.95,
+    "text": "of the academy and some of those were very difficult"
+  },
+  {
+    "t_start": 274.95,
+    "t_end": 283.59,
+    "text": "i was teaching a course and i i still sort of"
+  },
+  {
+    "t_start": 283.59,
+    "t_end": 285.67,
+    "text": "a course and i i still sort of remember that whenever i entered the"
+  },
+  {
+    "t_start": 285.67,
+    "t_end": 287.35,
+    "text": "remember that whenever i entered the classroom and closed"
+  },
+  {
+    "t_start": 287.35,
+    "t_end": 292.15,
+    "text": "classroom and closed the door i i all of a sudden was in a"
+  },
+  {
+    "t_start": 292.15,
+    "t_end": 295.99,
+    "text": "different world and uh and that was it was nice and"
+  },
+  {
+    "t_start": 295.99,
+    "t_end": 302.31,
+    "text": "and relaxing and similarly on the weekends i tried to do some research or"
+  },
+  {
+    "t_start": 302.31,
+    "t_end": 305.59,
+    "text": "weekends i tried to do some research or write up some stuff that i"
+  },
+  {
+    "t_start": 305.59,
+    "t_end": 309.189,
+    "text": "write up some stuff that i wanted to for some time"
+  },
+  {
+    "t_start": 309.189,
+    "t_end": 317.27,
+    "text": "and that also had this kind of calming effect on the uh"
+  },
+  {
+    "t_start": 317.27,
+    "t_end": 324.07,
+    "text": "all the difficult bureaucratic and political and other problems"
+  },
+  {
+    "t_start": 324.07,
+    "t_end": 330.79,
+    "text": "i was able to to go south speaking of difficult times i know that"
+  },
+  {
+    "t_start": 330.79,
+    "t_end": 331.909,
+    "text": "speaking of difficult times i know that both your lives"
+  },
+  {
+    "t_start": 331.909,
+    "t_end": 337.59,
+    "text": "played out in certain geopolitical and economic times that shaped your"
+  },
+  {
+    "t_start": 337.59,
+    "t_end": 338.629,
+    "text": "economic times that shaped your decisions"
+  },
+  {
+    "t_start": 338.629,
+    "t_end": 342.15,
+    "text": "uh professor lovas you lived behind the iron curtain"
+  },
+  {
+    "t_start": 342.15,
+    "t_end": 345.51,
+    "text": "iron curtain while avi you spent your childhood in"
+  },
+  {
+    "t_start": 345.51,
+    "t_end": 349.51,
+    "text": "how has this influenced your lives and your decisions"
+  },
+  {
+    "t_start": 349.51,
+    "t_end": 354.15,
+    "text": "your decisions professor louis um"
+  },
+  {
+    "t_start": 357.189,
+    "t_end": 363.909,
+    "text": "hungary was not really the worst country behind the iron curtain it was probably"
+  },
+  {
+    "t_start": 363.909,
+    "t_end": 365.029,
+    "text": "behind the iron curtain it was probably the most liberal"
+  },
+  {
+    "t_start": 365.029,
+    "t_end": 369.51,
+    "text": "which meant that we did have uh connections with the west and"
+  },
+  {
+    "t_start": 369.51,
+    "t_end": 372.55,
+    "text": "connections with the west and uh access to"
+  },
+  {
+    "t_start": 372.55,
+    "t_end": 377.27,
+    "text": "uh access to conferences even travel one or two times"
+  },
+  {
+    "t_start": 377.27,
+    "t_end": 381.749,
+    "text": "um in addition when i was very young it had the advantage"
+  },
+  {
+    "t_start": 381.749,
+    "t_end": 388.39,
+    "text": "for me that my older colleagues who were already"
+  },
+  {
+    "t_start": 388.39,
+    "t_end": 391.83,
+    "text": "colleagues who were already well-established mathematicians"
+  },
+  {
+    "t_start": 391.83,
+    "t_end": 398.15,
+    "text": "they they they didn't they were not occupied by traveling abroad or doing"
+  },
+  {
+    "t_start": 398.15,
+    "t_end": 400.23,
+    "text": "occupied by traveling abroad or doing long travels"
+  },
+  {
+    "t_start": 400.23,
+    "t_end": 408.469,
+    "text": "so they had much more time to uh to talk to or to teach"
+  },
+  {
+    "t_start": 408.469,
+    "t_end": 413.589,
+    "text": "uh to talk to or to teach young people and that was a benefit for"
+  },
+  {
+    "t_start": 413.589,
+    "t_end": 417.83,
+    "text": "how about you avi how was your childhood in haifa"
+  },
+  {
+    "t_start": 417.83,
+    "t_end": 424.39,
+    "text": "well it was wonderful i i grew up uh you know uh two minutes"
+  },
+  {
+    "t_start": 424.39,
+    "t_end": 425.51,
+    "text": "i grew up uh you know uh two minutes walk from the beach"
+  },
+  {
+    "t_start": 425.51,
+    "t_end": 430.23,
+    "text": "so i spent uh you know half my life on the beach and the rest uh"
+  },
+  {
+    "t_start": 430.23,
+    "t_end": 438.07,
+    "text": "playing soccer uh except that my dad kept intriguing me with the"
+  },
+  {
+    "t_start": 438.07,
+    "t_end": 442.07,
+    "text": "my dad kept intriguing me with the with mathematics puzzles so uh"
+  },
+  {
+    "t_start": 442.07,
+    "t_end": 449.11,
+    "text": "with mathematics puzzles so uh yeah so that's captivated me and"
+  },
+  {
+    "t_start": 449.11,
+    "t_end": 453.909,
+    "text": "i spent lots of hours on that as well so yeah"
+  },
+  {
+    "t_start": 456.23,
+    "t_end": 456.95,
+    "text": "yeah that's more or less a story of my childhood"
+  },
+  {
+    "t_start": 456.95,
+    "t_end": 461.99,
+    "text": "childhood my parents were both holocaust survivors"
+  },
+  {
+    "t_start": 461.99,
+    "t_end": 467.029,
+    "text": "my parents were both holocaust survivors they never talked much about this but"
+  },
+  {
+    "t_start": 467.029,
+    "t_end": 470.07,
+    "text": "they never talked much about this but i think we all i have two brothers"
+  },
+  {
+    "t_start": 470.07,
+    "t_end": 477.67,
+    "text": "we all were always encouraged to do what we loved and pursue the passions we"
+  },
+  {
+    "t_start": 477.67,
+    "t_end": 479.029,
+    "text": "what we loved and pursue the passions we had"
+  },
+  {
+    "t_start": 479.029,
+    "t_end": 482.79,
+    "text": "my brother was very much inclined to nature and"
+  },
+  {
+    "t_start": 482.79,
+    "t_end": 487.43,
+    "text": "kept bringing i know cockroaches from the field and worms and put them in the"
+  },
+  {
+    "t_start": 487.43,
+    "t_end": 488.469,
+    "text": "the field and worms and put them in the fridge"
+  },
+  {
+    "t_start": 488.469,
+    "t_end": 494.79,
+    "text": "and my youngest was the only one who listened to my dad when he talked about"
+  },
+  {
+    "t_start": 494.79,
+    "t_end": 498.23,
+    "text": "listened to my dad when he talked about his engineering uh problems at work and"
+  },
+  {
+    "t_start": 498.23,
+    "t_end": 501.43,
+    "text": "his engineering uh problems at work and taught him how to fix everything well"
+  },
+  {
+    "t_start": 501.43,
+    "t_end": 503.35,
+    "text": "taught him how to fix everything well me and me were never interested in that"
+  },
+  {
+    "t_start": 503.35,
+    "t_end": 504.629,
+    "text": "me and me were never interested in that so i think yeah"
+  },
+  {
+    "t_start": 504.629,
+    "t_end": 508.869,
+    "text": "we try to implement it with our kids also you know it's just we were left"
+  },
+  {
+    "t_start": 508.869,
+    "t_end": 511.99,
+    "text": "also you know it's just we were left free to explore what we really loved and"
+  },
+  {
+    "t_start": 511.99,
+    "t_end": 515.909,
+    "text": "free to explore what we really loved and invest time in what we loved and"
+  },
+  {
+    "t_start": 518.469,
+    "t_end": 519.11,
+    "text": "sounds like a fantastic childhood i know that"
+  },
+  {
+    "t_start": 519.11,
+    "t_end": 523.029,
+    "text": "the two of you have known each other for many many decades"
+  },
+  {
+    "t_start": 523.029,
+    "t_end": 529.03,
+    "text": "and professor lovas you said during an interview actually with avi that you"
+  },
+  {
+    "t_start": 529.03,
+    "t_end": 530.63,
+    "text": "interview actually with avi that you were lucky to start your"
+  },
+  {
+    "t_start": 530.63,
+    "t_end": 536.55,
+    "text": "um career in a time when mathematics developed together with its applications"
+  },
+  {
+    "t_start": 536.55,
+    "t_end": 537.11,
+    "text": "developed together with its applications why"
+  },
+  {
+    "t_start": 537.11,
+    "t_end": 541.67,
+    "text": "why was that interesting and helpful"
+  },
+  {
+    "t_start": 543.75,
+    "t_end": 545.35,
+    "text": "in fact i said i said that it was a special time"
+  },
+  {
+    "t_start": 545.35,
+    "t_end": 551.19,
+    "text": "special time when mathematics the part of mathematics"
+  },
+  {
+    "t_start": 551.19,
+    "t_end": 555.67,
+    "text": "i we were doing in hungary uh discrete mathematics"
+  },
+  {
+    "t_start": 555.67,
+    "t_end": 559.43,
+    "text": "mathematics which was"
+  },
+  {
+    "t_start": 562.07,
+    "t_end": 565.75,
+    "text": "through the mentorship of paul abdush but also many other"
+  },
+  {
+    "t_start": 568.47,
+    "t_end": 574.63,
+    "text": "outstanding mathematicians it was a it was an area which was quite uh"
+  },
+  {
+    "t_start": 574.63,
+    "t_end": 575.99,
+    "text": "very very strong in hungary but this area was"
+  },
+  {
+    "t_start": 575.99,
+    "t_end": 580.07,
+    "text": "a little bit outside the mainstream of mathematics it was"
+  },
+  {
+    "t_start": 580.07,
+    "t_end": 587.99,
+    "text": "uh often the motivation were for particular results were puzzles or"
+  },
+  {
+    "t_start": 587.99,
+    "t_end": 593.67,
+    "text": "for particular results were puzzles or kind of methylene problems and the like"
+  },
+  {
+    "t_start": 593.67,
+    "t_end": 599.269,
+    "text": "kind of methylene problems and the like and then all of a sudden in the late 60s"
+  },
+  {
+    "t_start": 599.269,
+    "t_end": 604.23,
+    "text": "it turned out that that there is this whole new area of computer"
+  },
+  {
+    "t_start": 604.23,
+    "t_end": 607.829,
+    "text": "whole new area of computer science where discrete mathematics"
+  },
+  {
+    "t_start": 607.829,
+    "t_end": 612.389,
+    "text": "science where discrete mathematics is the part of mathematics which is the"
+  },
+  {
+    "t_start": 612.389,
+    "t_end": 616.19,
+    "text": "real really uh important there which which is"
+  },
+  {
+    "t_start": 616.19,
+    "t_end": 623.509,
+    "text": "mathematical foundation of the theory of computing and"
+  },
+  {
+    "t_start": 623.509,
+    "t_end": 630.23,
+    "text": "the theory of computing and so many of us got very enthusiastic"
+  },
+  {
+    "t_start": 633.509,
+    "t_end": 641.19,
+    "text": "i i said uh a few times that i consider this sort of analogous to the"
+  },
+  {
+    "t_start": 641.19,
+    "t_end": 644.23,
+    "text": "uh to the 18th 19th century where the anal analysis"
+  },
+  {
+    "t_start": 644.23,
+    "t_end": 647.91,
+    "text": "where the anal analysis differential and integral"
+  },
+  {
+    "t_start": 651.269,
+    "t_end": 652.069,
+    "text": "calculus developed hand in hand with physics"
+  },
+  {
+    "t_start": 652.069,
+    "t_end": 658.069,
+    "text": "so the most important players were both mathematicians and physicists don't know"
+  },
+  {
+    "t_start": 658.069,
+    "t_end": 660.79,
+    "text": "mathematicians and physicists don't know whether euler is an astronautician or a"
+  },
+  {
+    "t_start": 660.79,
+    "t_end": 665.35,
+    "text": "physicist or a neutron"
+  },
+  {
+    "t_start": 668.79,
+    "t_end": 675.91,
+    "text": "so so this was such a such a period and i had a little"
+  },
+  {
+    "t_start": 675.91,
+    "t_end": 677.269,
+    "text": "such a such a period and i had a little bit this feeling"
+  },
+  {
+    "t_start": 677.269,
+    "t_end": 683.19,
+    "text": "about the theory of computing and discrete mathematics"
+  },
+  {
+    "t_start": 683.19,
+    "t_end": 691.11,
+    "text": "in the in the 60s 70s 80s i have one question for you um"
+  },
+  {
+    "t_start": 691.11,
+    "t_end": 696.15,
+    "text": "one more question because we all worry that the very secure passwords"
+  },
+  {
+    "t_start": 696.15,
+    "t_end": 700.15,
+    "text": "that the very secure passwords that we're using today as well as our"
+  },
+  {
+    "t_start": 700.15,
+    "t_end": 703.509,
+    "text": "encrypted conversations that are stored today could be easily"
+  },
+  {
+    "t_start": 703.509,
+    "t_end": 709.91,
+    "text": "in the future by a quantum computer yet the math that you created can be used to"
+  },
+  {
+    "t_start": 709.91,
+    "t_end": 710.629,
+    "text": "the math that you created can be used to guarantee"
+  },
+  {
+    "t_start": 710.629,
+    "t_end": 714.069,
+    "text": "the security of new cryptographic systems that could withstand attacks"
+  },
+  {
+    "t_start": 714.069,
+    "t_end": 716.069,
+    "text": "systems that could withstand attacks even by quantum computers"
+  },
+  {
+    "t_start": 716.069,
+    "t_end": 721.67,
+    "text": "could you um explain this a little bit could you explain it how it works maybe"
+  },
+  {
+    "t_start": 721.67,
+    "t_end": 723.59,
+    "text": "could you explain it how it works maybe for non-mathematicians"
+  },
+  {
+    "t_start": 723.59,
+    "t_end": 729.99,
+    "text": "for non-mathematicians um well uh"
+  },
+  {
+    "t_start": 733.19,
+    "t_end": 740.629,
+    "text": "that's not my area probably avi can much explain this much better but"
+  },
+  {
+    "t_start": 740.629,
+    "t_end": 744.79,
+    "text": "much explain this much better but uh the basic idea is that"
+  },
+  {
+    "t_start": 744.79,
+    "t_end": 748.389,
+    "text": "uh the basic idea is that for for uh communication over a not"
+  },
+  {
+    "t_start": 748.389,
+    "t_end": 750.629,
+    "text": "for for uh communication over a not completely secure channel"
+  },
+  {
+    "t_start": 750.629,
+    "t_end": 755.509,
+    "text": "you have to encode what your the information you're sending"
+  },
+  {
+    "t_start": 755.509,
+    "t_end": 759.35,
+    "text": "information you're sending and then you have to encode it in such a"
+  },
+  {
+    "t_start": 759.35,
+    "t_end": 763.75,
+    "text": "at least without a key the decoding should be difficult"
+  },
+  {
+    "t_start": 763.75,
+    "t_end": 770.55,
+    "text": "and it's this kind of situation that you do a computation in one way it's easy"
+  },
+  {
+    "t_start": 770.55,
+    "t_end": 773.03,
+    "text": "do a computation in one way it's easy but to reverse it is difficult"
+  },
+  {
+    "t_start": 773.03,
+    "t_end": 776.47,
+    "text": "but to reverse it is difficult that's what is behind these"
+  },
+  {
+    "t_start": 776.47,
+    "t_end": 779.99,
+    "text": "that's what is behind these these"
+  },
+  {
+    "t_start": 788.389,
+    "t_end": 790.87,
+    "text": "the theory of computing has this big answer of problems like p equals np"
+  },
+  {
+    "t_start": 790.87,
+    "t_end": 791.67,
+    "text": "answer of problems like p equals np which"
+  },
+  {
+    "t_start": 791.67,
+    "t_end": 799.11,
+    "text": "are uh exactly about try claiming and uh they we would like to"
+  },
+  {
+    "t_start": 799.11,
+    "t_end": 800.31,
+    "text": "claiming and uh they we would like to have a proof"
+  },
+  {
+    "t_start": 800.31,
+    "t_end": 804.79,
+    "text": "that these these functions are really behave like that"
+  },
+  {
+    "t_start": 804.79,
+    "t_end": 811.35,
+    "text": "now some of them you know that against uh traditional computers they"
+  },
+  {
+    "t_start": 811.35,
+    "t_end": 814.069,
+    "text": "against uh traditional computers they probably behave like that"
+  },
+  {
+    "t_start": 814.069,
+    "t_end": 817.91,
+    "text": "probably behave like that it's very difficult to prove that they"
+  },
+  {
+    "t_start": 817.91,
+    "t_end": 821.35,
+    "text": "behave like that but that quantum computers can broke"
+  },
+  {
+    "t_start": 821.35,
+    "t_end": 826.31,
+    "text": "i wouldn't be too worried at the moment because"
+  },
+  {
+    "t_start": 829.59,
+    "t_end": 833.269,
+    "text": "quantum computers are not yet really functional in this in this sense"
+  },
+  {
+    "t_start": 833.269,
+    "t_end": 838.79,
+    "text": "functional in this in this sense uh and even then even if these can be"
+  },
+  {
+    "t_start": 838.79,
+    "t_end": 844.23,
+    "text": "broken either by compute quantum computers or traditional"
+  },
+  {
+    "t_start": 844.23,
+    "t_end": 848.79,
+    "text": "as long as there is a gap between the difficulty going one way and the other"
+  },
+  {
+    "t_start": 848.79,
+    "t_end": 850.71,
+    "text": "difficulty going one way and the other there will be always that can always be"
+  },
+  {
+    "t_start": 850.71,
+    "t_end": 852.389,
+    "text": "there will be always that can always be some kind of race"
+  },
+  {
+    "t_start": 852.389,
+    "t_end": 861.59,
+    "text": "some kind of race about uh with making it it's like an"
+  },
+  {
+    "t_start": 865.509,
+    "t_end": 869.59,
+    "text": "so one of the things that apparently is secure against quantum computers"
+  },
+  {
+    "t_start": 869.59,
+    "t_end": 873.75,
+    "text": "is secure against quantum computers i think that only means that nobody else"
+  },
+  {
+    "t_start": 873.75,
+    "t_end": 876.23,
+    "text": "found their way of using even a theoretically existing quantum"
+  },
+  {
+    "t_start": 876.23,
+    "t_end": 878.15,
+    "text": "even a theoretically existing quantum computer to break it"
+  },
+  {
+    "t_start": 878.15,
+    "t_end": 884.71,
+    "text": "is indeed based on what's called the shortest lattice factor problem"
+  },
+  {
+    "t_start": 884.71,
+    "t_end": 892.949,
+    "text": "that is somewhat connected to this algorithm that is mentioned in the"
+  },
+  {
+    "t_start": 892.949,
+    "t_end": 895.91,
+    "text": "this algorithm that is mentioned in the report of the committee what are your"
+  },
+  {
+    "t_start": 895.91,
+    "t_end": 897.59,
+    "text": "report of the committee what are your thoughts on this avi do you"
+  },
+  {
+    "t_start": 897.59,
+    "t_end": 900.71,
+    "text": "thoughts on this avi do you agree with this race of"
+  },
+  {
+    "t_start": 900.71,
+    "t_end": 901.99,
+    "text": "agree with this race of trying to encrypt and to break"
+  },
+  {
+    "t_start": 901.99,
+    "t_end": 905.75,
+    "text": "trying to encrypt and to break encryption yeah i mean it's been going"
+  },
+  {
+    "t_start": 905.75,
+    "t_end": 910.15,
+    "text": "you know since ancient times with [Music]"
+  },
+  {
+    "t_start": 910.15,
+    "t_end": 913.67,
+    "text": "people always try to uh people always had secrets"
+  },
+  {
+    "t_start": 913.67,
+    "t_end": 918.31,
+    "text": "and try to keep them share them with the people they wanted to and uh"
+  },
+  {
+    "t_start": 918.31,
+    "t_end": 920.629,
+    "text": "people they wanted to and uh prevent others from understanding them"
+  },
+  {
+    "t_start": 920.629,
+    "t_end": 922.79,
+    "text": "prevent others from understanding them people constructed the"
+  },
+  {
+    "t_start": 922.79,
+    "t_end": 927.59,
+    "text": "codes uh you know since the time of caesar or even earlier"
+  },
+  {
+    "t_start": 927.59,
+    "t_end": 930.949,
+    "text": "caesar or even earlier uh now the famous story is about the"
+  },
+  {
+    "t_start": 930.949,
+    "t_end": 937.91,
+    "text": "uh you know this place uh uh of privacy and secrecy uh"
+  },
+  {
+    "t_start": 937.91,
+    "t_end": 943.749,
+    "text": "between uh people who develop security systems and people try to break them is"
+  },
+  {
+    "t_start": 943.749,
+    "t_end": 950.87,
+    "text": "continuing i think what's important uh is that since from computational"
+  },
+  {
+    "t_start": 950.87,
+    "t_end": 954.15,
+    "text": "is that since from computational complexity can came to the scene this is"
+  },
+  {
+    "t_start": 954.15,
+    "t_end": 959.43,
+    "text": "uh it became a mathematical algorithmic problem both the design"
+  },
+  {
+    "t_start": 959.43,
+    "t_end": 966.389,
+    "text": "of secure systems and uh you know the ability to argue"
+  },
+  {
+    "t_start": 966.389,
+    "t_end": 970.069,
+    "text": "you know the ability to argue specifically you know rigorously about"
+  },
+  {
+    "t_start": 970.069,
+    "t_end": 973.99,
+    "text": "their security their you know we can prove theorems about"
+  },
+  {
+    "t_start": 973.99,
+    "t_end": 979.11,
+    "text": "um you know this claim that we can relate the security of a system to a"
+  },
+  {
+    "t_start": 979.11,
+    "t_end": 981.03,
+    "text": "relate the security of a system to a difficulty or easiness"
+  },
+  {
+    "t_start": 981.03,
+    "t_end": 985.43,
+    "text": "difficulty or easiness of a concrete mathematical problem like"
+  },
+  {
+    "t_start": 985.43,
+    "t_end": 990.069,
+    "text": "factoring integers or finding in the way of latte uh finding a"
+  },
+  {
+    "t_start": 990.069,
+    "t_end": 995.35,
+    "text": "in an artist so uh it's extremely important that people understand that"
+  },
+  {
+    "t_start": 995.35,
+    "t_end": 1001.189,
+    "text": "today and in the future uh whatever you know their frequency and"
+  },
+  {
+    "t_start": 1001.189,
+    "t_end": 1003.269,
+    "text": "whatever you know their frequency and privacy is based on is uh"
+  },
+  {
+    "t_start": 1003.269,
+    "t_end": 1007.829,
+    "text": "privacy is based on is uh about the ability or inability to find"
+  },
+  {
+    "t_start": 1007.829,
+    "t_end": 1011.35,
+    "text": "fast algorithms for concrete problems that are underlying"
+  },
+  {
+    "t_start": 1011.35,
+    "t_end": 1016.79,
+    "text": "systems one of your favorite achievements is the concept of"
+  },
+  {
+    "t_start": 1016.79,
+    "t_end": 1017.99,
+    "text": "favorite achievements is the concept of zero knowledge proof"
+  },
+  {
+    "t_start": 1017.99,
+    "t_end": 1021.269,
+    "text": "zero knowledge proof which means that you can prove something"
+  },
+  {
+    "t_start": 1021.269,
+    "t_end": 1026.549,
+    "text": "without revealing any of the details how does this work maybe you could"
+  },
+  {
+    "t_start": 1026.549,
+    "t_end": 1027.949,
+    "text": "how does this work maybe you could explain it a little bit for"
+  },
+  {
+    "t_start": 1027.949,
+    "t_end": 1029.59,
+    "text": "explain it a little bit for non-mathematicians"
+  },
+  {
+    "t_start": 1029.59,
+    "t_end": 1034.309,
+    "text": "yeah so uh first let me say it's not that i can prove something to you"
+  },
+  {
+    "t_start": 1034.309,
+    "t_end": 1036.15,
+    "text": "that i can prove something to you without revealing the details i can"
+  },
+  {
+    "t_start": 1036.15,
+    "t_end": 1039.029,
+    "text": "without revealing the details i can prove anything to you anything"
+  },
+  {
+    "t_start": 1039.029,
+    "t_end": 1043.35,
+    "text": "prove anything to you anything everything i know if i have a you know"
+  },
+  {
+    "t_start": 1043.35,
+    "t_end": 1046.789,
+    "text": "some conviction and the information to support this i"
+  },
+  {
+    "t_start": 1046.789,
+    "t_end": 1052.31,
+    "text": "convince you of it and not give you any thread of this information"
+  },
+  {
+    "t_start": 1052.31,
+    "t_end": 1055.75,
+    "text": "thread of this information yeah it's a very paradoxical notion"
+  },
+  {
+    "t_start": 1055.75,
+    "t_end": 1061.43,
+    "text": "most people can't imagine that you can convince anyone of anything without"
+  },
+  {
+    "t_start": 1061.43,
+    "t_end": 1065.51,
+    "text": "convince anyone of anything without giving information"
+  },
+  {
+    "t_start": 1069.27,
+    "t_end": 1071.43,
+    "text": "i should say uh that one way to uh find uh the answer to your question is to"
+  },
+  {
+    "t_start": 1071.43,
+    "t_end": 1073.75,
+    "text": "uh the answer to your question is to look at the prize announcement"
+  },
+  {
+    "t_start": 1073.75,
+    "t_end": 1077.75,
+    "text": "look at the prize announcement uh where alex bellows have done a"
+  },
+  {
+    "t_start": 1077.75,
+    "t_end": 1082.789,
+    "text": "wonderful five-minute explanation of basically our original"
+  },
+  {
+    "t_start": 1082.789,
+    "t_end": 1087.19,
+    "text": "proof with uh with gold rush and michali"
+  },
+  {
+    "t_start": 1090.549,
+    "t_end": 1095.669,
+    "text": "let me say that a key element is cryptography so"
+  },
+  {
+    "t_start": 1095.669,
+    "t_end": 1099.75,
+    "text": "a key element is cryptography so whatever i want to prove to you is"
+  },
+  {
+    "t_start": 1099.75,
+    "t_end": 1105.909,
+    "text": "and one has to remember that a proof is something that's easy to"
+  },
+  {
+    "t_start": 1105.909,
+    "t_end": 1106.71,
+    "text": "a proof is something that's easy to verify"
+  },
+  {
+    "t_start": 1106.71,
+    "t_end": 1110.63,
+    "text": "something local that any anybody can check is it"
+  },
+  {
+    "t_start": 1110.63,
+    "t_end": 1113.83,
+    "text": "check is it so if i had a proof at least if i wrote"
+  },
+  {
+    "t_start": 1113.83,
+    "t_end": 1118.15,
+    "text": "it would be very easy for you to go step by step and see that one follows from"
+  },
+  {
+    "t_start": 1118.15,
+    "t_end": 1119.43,
+    "text": "by step and see that one follows from the other"
+  },
+  {
+    "t_start": 1119.43,
+    "t_end": 1124.47,
+    "text": "uh mechanically in fact and so the idea is to break this pieces of the"
+  },
+  {
+    "t_start": 1124.47,
+    "t_end": 1125.59,
+    "text": "the idea is to break this pieces of the proof"
+  },
+  {
+    "t_start": 1125.59,
+    "t_end": 1132.549,
+    "text": "and put each one of them in an envelope okay uh so that when you want to check"
+  },
+  {
+    "t_start": 1132.549,
+    "t_end": 1135.27,
+    "text": "okay uh so that when you want to check me to see if the proof is correct that"
+  },
+  {
+    "t_start": 1135.27,
+    "t_end": 1139.11,
+    "text": "the you know what i'm trying to convince you of uh"
+  },
+  {
+    "t_start": 1139.11,
+    "t_end": 1143.51,
+    "text": "you can ask me to open some of these envelopes and see that at least"
+  },
+  {
+    "t_start": 1143.51,
+    "t_end": 1147.27,
+    "text": "you know in some small step i didn't cheat you so maybe you pick them"
+  },
+  {
+    "t_start": 1147.27,
+    "t_end": 1148.71,
+    "text": "cheat you so maybe you pick them randomly"
+  },
+  {
+    "t_start": 1148.71,
+    "t_end": 1153.029,
+    "text": "okay so that's a that's a one important ingredient"
+  },
+  {
+    "t_start": 1153.029,
+    "t_end": 1157.35,
+    "text": "uh the second is of course you know maybe i she said you you know maybe it's"
+  },
+  {
+    "t_start": 1157.35,
+    "t_end": 1162.87,
+    "text": "maybe i she said you you know maybe it's a hundred pages long and you asked me"
+  },
+  {
+    "t_start": 1162.87,
+    "t_end": 1166.47,
+    "text": "you know lines three and yeah okay the the arrow is not there but it's"
+  },
+  {
+    "t_start": 1166.47,
+    "t_end": 1167.75,
+    "text": "the arrow is not there but it's somewhere else"
+  },
+  {
+    "t_start": 1167.75,
+    "t_end": 1171.75,
+    "text": "so the second idea is to repeat it to repeat this process"
+  },
+  {
+    "t_start": 1171.75,
+    "t_end": 1175.19,
+    "text": "repeat this process and if you repeat it just like uh you"
+  },
+  {
+    "t_start": 1175.19,
+    "t_end": 1178.87,
+    "text": "changing anything then of course you will eventually open all the envelopes"
+  },
+  {
+    "t_start": 1178.87,
+    "t_end": 1180.31,
+    "text": "will eventually open all the envelopes and know everything"
+  },
+  {
+    "t_start": 1180.31,
+    "t_end": 1187.19,
+    "text": "so another key really fundamental uh property of what we do is that after"
+  },
+  {
+    "t_start": 1187.19,
+    "t_end": 1187.83,
+    "text": "property of what we do is that after you've"
+  },
+  {
+    "t_start": 1187.83,
+    "t_end": 1191.51,
+    "text": "opened you know these few envelopes and checked locally that there is no error"
+  },
+  {
+    "t_start": 1191.51,
+    "t_end": 1193.029,
+    "text": "checked locally that there is no error there"
+  },
+  {
+    "t_start": 1193.029,
+    "t_end": 1197.59,
+    "text": "i completely uh saw you know i saw all the envelopes and make"
+  },
+  {
+    "t_start": 1197.59,
+    "t_end": 1201.99,
+    "text": "new ones and they there's an ability which i cannot explain"
+  },
+  {
+    "t_start": 1201.99,
+    "t_end": 1206.07,
+    "text": "which i cannot explain to make it so that uh if i have one"
+  },
+  {
+    "t_start": 1206.07,
+    "t_end": 1209.83,
+    "text": "a number of proofs and i choose one of them randomly which"
+  },
+  {
+    "t_start": 1209.83,
+    "t_end": 1217.59,
+    "text": "makes whatever you open if if the proof is correct whatever you open"
+  },
+  {
+    "t_start": 1217.59,
+    "t_end": 1223.029,
+    "text": "something you could have tossed yourself so that therefore because you could have"
+  },
+  {
+    "t_start": 1223.029,
+    "t_end": 1229.909,
+    "text": "uh uh you know you don't learn anything and and the last point is that if i"
+  },
+  {
+    "t_start": 1229.909,
+    "t_end": 1231.43,
+    "text": "and and the last point is that if i didn't have a proof if i"
+  },
+  {
+    "t_start": 1231.43,
+    "t_end": 1235.19,
+    "text": "didn't have a proof if i was trying to treat you there must be an"
+  },
+  {
+    "t_start": 1235.19,
+    "t_end": 1239.51,
+    "text": "error somewhere after a few trials you will find it"
+  },
+  {
+    "t_start": 1243.19,
+    "t_end": 1244.23,
+    "text": "this idea i think also has applications in blockchain"
+  },
+  {
+    "t_start": 1244.23,
+    "t_end": 1251.11,
+    "text": "technology and um i was wondering how do you feel about this and whether"
+  },
+  {
+    "t_start": 1251.11,
+    "t_end": 1253.51,
+    "text": "how do you feel about this and whether you're interested in bitcoin dot coin or"
+  },
+  {
+    "t_start": 1253.51,
+    "t_end": 1256.549,
+    "text": "you're interested in bitcoin dot coin or cryptocurrency in general"
+  },
+  {
+    "t_start": 1256.549,
+    "t_end": 1260.39,
+    "text": "cryptocurrency in general uh yeah how do i feel about it you you"
+  },
+  {
+    "t_start": 1260.39,
+    "t_end": 1265.19,
+    "text": "how do i feel about any mathematical result or any"
+  },
+  {
+    "t_start": 1265.19,
+    "t_end": 1269.669,
+    "text": "piece of knowledge that scientists or mathematicians arrive at being used by"
+  },
+  {
+    "t_start": 1269.669,
+    "t_end": 1270.87,
+    "text": "mathematicians arrive at being used by society"
+  },
+  {
+    "t_start": 1270.87,
+    "t_end": 1276.31,
+    "text": "i think that you know generally i feel great about it i think knowledge is very"
+  },
+  {
+    "t_start": 1276.31,
+    "t_end": 1279.75,
+    "text": "great about it i think knowledge is very important for society"
+  },
+  {
+    "t_start": 1279.75,
+    "t_end": 1287.669,
+    "text": "you know many people use knowledge people companies governments"
+  },
+  {
+    "t_start": 1287.669,
+    "t_end": 1295.029,
+    "text": "everybody use knowledge and mostly i think it's being used for good"
+  },
+  {
+    "t_start": 1295.029,
+    "t_end": 1298.87,
+    "text": "purposes sometimes it's used for bad purposes but there is"
+  },
+  {
+    "t_start": 1298.87,
+    "t_end": 1305.43,
+    "text": "acquiring knowledge and propagating it so i feel good about discoveries in"
+  },
+  {
+    "t_start": 1305.43,
+    "t_end": 1306.149,
+    "text": "so i feel good about discoveries in general"
+  },
+  {
+    "t_start": 1306.149,
+    "t_end": 1311.35,
+    "text": "any intellectual discovery uh i am personally not interested uh"
+  },
+  {
+    "t_start": 1311.35,
+    "t_end": 1314.47,
+    "text": "personally not interested uh very much in digital currencies or in"
+  },
+  {
+    "t_start": 1314.47,
+    "t_end": 1321.51,
+    "text": "in many practical applications i'm aware of them i think my field uh"
+  },
+  {
+    "t_start": 1321.51,
+    "t_end": 1324.87,
+    "text": "of them i think my field uh has benefited greatly from the practical"
+  },
+  {
+    "t_start": 1324.87,
+    "t_end": 1326.549,
+    "text": "has benefited greatly from the practical world because it suggests"
+  },
+  {
+    "t_start": 1326.549,
+    "t_end": 1334.149,
+    "text": "models to study uh computing systems uh natural systems such as models"
+  },
+  {
+    "t_start": 1334.149,
+    "t_end": 1336.23,
+    "text": "natural systems such as models to study mathematically and understand"
+  },
+  {
+    "t_start": 1336.23,
+    "t_end": 1339.75,
+    "text": "to study mathematically and understand their power limitations properties and"
+  },
+  {
+    "t_start": 1339.75,
+    "t_end": 1344.149,
+    "text": "and yeah i'm interested on the mathematical"
+  },
+  {
+    "t_start": 1344.149,
+    "t_end": 1347.51,
+    "text": "mathematical mathematical style the problems it"
+  },
+  {
+    "t_start": 1347.51,
+    "t_end": 1356.71,
+    "text": "could tell us a little bit the story of the ll algorithm how was it born"
+  },
+  {
+    "t_start": 1356.71,
+    "t_end": 1360.149,
+    "text": "of the ll algorithm how was it born um well that's uh an interesting story"
+  },
+  {
+    "t_start": 1360.149,
+    "t_end": 1364.23,
+    "text": "um well that's uh an interesting story because it sort of shows the"
+  },
+  {
+    "t_start": 1364.23,
+    "t_end": 1369.27,
+    "text": "because it sort of shows the quite uh sometimes"
+  },
+  {
+    "t_start": 1369.27,
+    "t_end": 1377.35,
+    "text": "binding way in which you arrive but at a particular result"
+  },
+  {
+    "t_start": 1381.029,
+    "t_end": 1383.59,
+    "text": "so i was working with uh my friends and collaborators martin gruchel"
+  },
+  {
+    "t_start": 1383.59,
+    "t_end": 1385.11,
+    "text": "friends and collaborators martin gruchel and black scriber"
+  },
+  {
+    "t_start": 1385.11,
+    "t_end": 1391.99,
+    "text": "we are writing a book on the ellipsoid method which was a a"
+  },
+  {
+    "t_start": 1391.99,
+    "t_end": 1399.83,
+    "text": "famous new algorithm at that time and in one of the theorems we had to make a"
+  },
+  {
+    "t_start": 1399.83,
+    "t_end": 1402.47,
+    "text": "in one of the theorems we had to make a kind of"
+  },
+  {
+    "t_start": 1402.47,
+    "t_end": 1412.549,
+    "text": "simple but a little bit awkward or out of place condition"
+  },
+  {
+    "t_start": 1416.789,
+    "t_end": 1420.87,
+    "text": "certain parameters had to be rational with a bounded number of of"
+  },
+  {
+    "t_start": 1420.87,
+    "t_end": 1427.99,
+    "text": "a bounded denominator and numerator and this kind of condition could all always"
+  },
+  {
+    "t_start": 1427.99,
+    "t_end": 1429.19,
+    "text": "this kind of condition could all always be achieved in"
+  },
+  {
+    "t_start": 1429.19,
+    "t_end": 1433.51,
+    "text": "be achieved in some way you could get around this"
+  },
+  {
+    "t_start": 1433.51,
+    "t_end": 1439.11,
+    "text": "but but you wanted to to get the the simplest possible statement of the"
+  },
+  {
+    "t_start": 1439.11,
+    "t_end": 1440.71,
+    "text": "the simplest possible statement of the result"
+  },
+  {
+    "t_start": 1440.71,
+    "t_end": 1447.83,
+    "text": "and so i at the time i was i was thinking about"
+  },
+  {
+    "t_start": 1447.83,
+    "t_end": 1449.029,
+    "text": "at the time i was i was thinking about it alone i"
+  },
+  {
+    "t_start": 1449.029,
+    "t_end": 1454.95,
+    "text": "i i realized that this can be reduced to a classical problem in number"
+  },
+  {
+    "t_start": 1454.95,
+    "t_end": 1455.51,
+    "text": "reduced to a classical problem in number theory"
+  },
+  {
+    "t_start": 1455.51,
+    "t_end": 1458.87,
+    "text": "which was not solved algorithmically at that time"
+  },
+  {
+    "t_start": 1458.87,
+    "t_end": 1462.23,
+    "text": "that time but i could find an algorithm to solve"
+  },
+  {
+    "t_start": 1462.23,
+    "t_end": 1469.11,
+    "text": "and so this way i got this it's algorithm"
+  },
+  {
+    "t_start": 1469.11,
+    "t_end": 1476.71,
+    "text": "and i wrote to handy glenn straw where i knew that he was"
+  },
+  {
+    "t_start": 1476.71,
+    "t_end": 1483.11,
+    "text": "he was working on similar problems asking him if he thinks that this is an"
+  },
+  {
+    "t_start": 1483.11,
+    "t_end": 1485.99,
+    "text": "asking him if he thinks that this is an interesting or useful result and then he"
+  },
+  {
+    "t_start": 1485.99,
+    "t_end": 1486.31,
+    "text": "interesting or useful result and then he and"
+  },
+  {
+    "t_start": 1486.31,
+    "t_end": 1491.269,
+    "text": "his brother aryan wrote back quite enthusiastically that"
+  },
+  {
+    "t_start": 1491.269,
+    "t_end": 1494.39,
+    "text": "enthusiastically that if this is the case then they can solve"
+  },
+  {
+    "t_start": 1494.39,
+    "t_end": 1500.95,
+    "text": "uh sort of basic algorithmic problem in algebra namely"
+  },
+  {
+    "t_start": 1500.95,
+    "t_end": 1507.909,
+    "text": "algebra namely factoring polynomials into irreducible"
+  },
+  {
+    "t_start": 1511.19,
+    "t_end": 1519.83,
+    "text": "so we published this paper this way and then lagarius and disco discovered"
+  },
+  {
+    "t_start": 1519.83,
+    "t_end": 1523.669,
+    "text": "and then lagarius and disco discovered a year or two later that this algorithm"
+  },
+  {
+    "t_start": 1523.669,
+    "t_end": 1529.59,
+    "text": "can be used to to to break one of the proposed uh"
+  },
+  {
+    "t_start": 1529.59,
+    "t_end": 1533.35,
+    "text": "to to to break one of the proposed uh coding systems uh knapsack codes"
+  },
+  {
+    "t_start": 1533.35,
+    "t_end": 1539.19,
+    "text": "coding systems uh knapsack codes and uh so this how the algorithm sort of"
+  },
+  {
+    "t_start": 1539.19,
+    "t_end": 1542.549,
+    "text": "moved over into cryptography i have not followed it there actually"
+  },
+  {
+    "t_start": 1542.549,
+    "t_end": 1547.669,
+    "text": "this is a mono this is an interesting story because it shows that"
+  },
+  {
+    "t_start": 1547.669,
+    "t_end": 1554.87,
+    "text": "story because it shows that that knowledge is not necessarily"
+  },
+  {
+    "t_start": 1554.87,
+    "t_end": 1560.789,
+    "text": "where it is most needed sometimes the you know intellectual challenge to do"
+  },
+  {
+    "t_start": 1560.789,
+    "t_end": 1561.43,
+    "text": "you know intellectual challenge to do something"
+  },
+  {
+    "t_start": 1561.43,
+    "t_end": 1567.669,
+    "text": "is is also very important speaking of challenges i read in the new"
+  },
+  {
+    "t_start": 1567.669,
+    "t_end": 1568.789,
+    "text": "speaking of challenges i read in the new york times that"
+  },
+  {
+    "t_start": 1568.789,
+    "t_end": 1572.789,
+    "text": "one of the first people you wanted to call after you learned that"
+  },
+  {
+    "t_start": 1572.789,
+    "t_end": 1579.11,
+    "text": "you got the prize was your wife kotlin who's also an elite mathematician and"
+  },
+  {
+    "t_start": 1579.11,
+    "t_end": 1580.789,
+    "text": "who's also an elite mathematician and you've worked together so much and"
+  },
+  {
+    "t_start": 1580.789,
+    "t_end": 1583.11,
+    "text": "you've worked together so much and you've published papers together"
+  },
+  {
+    "t_start": 1583.11,
+    "t_end": 1586.87,
+    "text": "you've published papers together while most of us can barely manage a"
+  },
+  {
+    "t_start": 1586.87,
+    "t_end": 1593.909,
+    "text": "um how is working with her different than any other collaborations you've had"
+  },
+  {
+    "t_start": 1593.909,
+    "t_end": 1596.83,
+    "text": "than any other collaborations you've had does it lead to interesting"
+  },
+  {
+    "t_start": 1596.83,
+    "t_end": 1602.63,
+    "text": "does it lead to interesting conversations"
+  },
+  {
+    "t_start": 1606.23,
+    "t_end": 1607.59,
+    "text": "well we have been together since high school"
+  },
+  {
+    "t_start": 1607.59,
+    "t_end": 1614.07,
+    "text": "school and of course we know each other very"
+  },
+  {
+    "t_start": 1617.11,
+    "t_end": 1623.83,
+    "text": "uh we do have a number of joint papers that's not the only"
+  },
+  {
+    "t_start": 1623.83,
+    "t_end": 1626.95,
+    "text": "joint papers that's not the only sort of help that give each other"
+  },
+  {
+    "t_start": 1626.95,
+    "t_end": 1637.669,
+    "text": "sort of help that give each other we are both very sort of devoted to"
+  },
+  {
+    "t_start": 1639.75,
+    "t_end": 1641.909,
+    "text": "she has now retired but while she was teaching we often"
+  },
+  {
+    "t_start": 1641.909,
+    "t_end": 1646.47,
+    "text": "or almost all the time we discussed uh how to teach that what"
+  },
+  {
+    "t_start": 1646.47,
+    "t_end": 1653.43,
+    "text": "what to use how how to make this better presentation of the material"
+  },
+  {
+    "t_start": 1653.43,
+    "t_end": 1657.83,
+    "text": "better presentation of the material uh then we also wrote some"
+  },
+  {
+    "t_start": 1657.83,
+    "t_end": 1660.95,
+    "text": "uh then we also wrote some papers several papers together"
+  },
+  {
+    "t_start": 1660.95,
+    "t_end": 1664.789,
+    "text": "papers several papers together [Music]"
+  },
+  {
+    "t_start": 1667.99,
+    "t_end": 1668.549,
+    "text": "and and of course over the period when i was"
+  },
+  {
+    "t_start": 1668.549,
+    "t_end": 1672.63,
+    "text": "uh as i mentioned these sort of hard years"
+  },
+  {
+    "t_start": 1672.63,
+    "t_end": 1680.83,
+    "text": "as president of the hungarian academy then i had a sort of a free advice or"
+  },
+  {
+    "t_start": 1680.83,
+    "t_end": 1683.75,
+    "text": "then i had a sort of a free advice or uh where i could discuss"
+  },
+  {
+    "t_start": 1683.75,
+    "t_end": 1689.029,
+    "text": "uh where i could discuss the issues with so it was very important"
+  },
+  {
+    "t_start": 1689.029,
+    "t_end": 1696.31,
+    "text": "i'd like to go to avi now um you're based in the us right now you're"
+  },
+  {
+    "t_start": 1696.31,
+    "t_end": 1699.669,
+    "text": "you're based in the us right now you're obviously an elite mathematician"
+  },
+  {
+    "t_start": 1699.669,
+    "t_end": 1705.909,
+    "text": "but do you do your own taxes uh texas uh you have someone helping you"
+  },
+  {
+    "t_start": 1705.909,
+    "t_end": 1706.95,
+    "text": "uh texas uh you have someone helping you with that"
+  },
+  {
+    "t_start": 1706.95,
+    "t_end": 1713.269,
+    "text": "yeah we have uh yeah and uh my wife uh is uh"
+  },
+  {
+    "t_start": 1713.269,
+    "t_end": 1717.19,
+    "text": "my wife uh is uh is uh handling the taxes there but we"
+  },
+  {
+    "t_start": 1717.19,
+    "t_end": 1721.909,
+    "text": "yeah we just collect collect the papers and give it to a"
+  },
+  {
+    "t_start": 1721.909,
+    "t_end": 1726.789,
+    "text": "and give it to a tax person"
+  },
+  {
+    "t_start": 1729.909,
+    "t_end": 1732.63,
+    "text": "yeah i guess edna is a far more practical person in the house"
+  },
+  {
+    "t_start": 1732.63,
+    "t_end": 1735.75,
+    "text": "practical person in the house as compared to me so uh"
+  },
+  {
+    "t_start": 1735.75,
+    "t_end": 1739.43,
+    "text": "as compared to me so uh yeah i'd say most practical matters"
+  },
+  {
+    "t_start": 1739.43,
+    "t_end": 1742.23,
+    "text": "yeah i'd say most practical matters she takes care of she's also a"
+  },
+  {
+    "t_start": 1742.23,
+    "t_end": 1743.35,
+    "text": "she takes care of she's also a mathematician"
+  },
+  {
+    "t_start": 1743.35,
+    "t_end": 1749.99,
+    "text": "by training then she moved to uh computer science the real computer"
+  },
+  {
+    "t_start": 1749.99,
+    "t_end": 1755.43,
+    "text": "science spouse is a programmer and a systems person also"
+  },
+  {
+    "t_start": 1755.43,
+    "t_end": 1761.029,
+    "text": "institute for advanced study at the confusing group"
+  },
+  {
+    "t_start": 1763.43,
+    "t_end": 1764.23,
+    "text": "you're interested in so many things that are um"
+  },
+  {
+    "t_start": 1764.23,
+    "t_end": 1768.07,
+    "text": "at the intersection of math and and computer science um avi"
+  },
+  {
+    "t_start": 1768.07,
+    "t_end": 1771.11,
+    "text": "computer science um avi i was wondering maybe you could tell us"
+  },
+  {
+    "t_start": 1771.11,
+    "t_end": 1773.909,
+    "text": "a little bit about how the field evolved since you started"
+  },
+  {
+    "t_start": 1773.909,
+    "t_end": 1775.99,
+    "text": "the field evolved since you started tackling these problems"
+  },
+  {
+    "t_start": 1775.99,
+    "t_end": 1782.07,
+    "text": "tackling these problems uh i think that like lots he said uh"
+  },
+  {
+    "t_start": 1784.87,
+    "t_end": 1785.51,
+    "text": "i feel lucky to uh have been born when i was"
+  },
+  {
+    "t_start": 1785.51,
+    "t_end": 1791.669,
+    "text": "uh born because the field yeah i was really young when i"
+  },
+  {
+    "t_start": 1791.669,
+    "t_end": 1794.07,
+    "text": "the field yeah i was really young when i was born in the"
+  },
+  {
+    "t_start": 1794.07,
+    "t_end": 1797.43,
+    "text": "was born in the 50s and and"
+  },
+  {
+    "t_start": 1797.43,
+    "t_end": 1805.83,
+    "text": "by the time i reached the college it was beginning to solidify with the"
+  },
+  {
+    "t_start": 1808.07,
+    "t_end": 1809.269,
+    "text": "all the major results and understanding of methodology"
+  },
+  {
+    "t_start": 1809.269,
+    "t_end": 1816.07,
+    "text": "of pnp efficiency resources completeness"
+  },
+  {
+    "t_start": 1816.07,
+    "t_end": 1821.35,
+    "text": "resources completeness many randomness many central ideas were"
+  },
+  {
+    "t_start": 1821.35,
+    "t_end": 1826.23,
+    "text": "and from that point on i mean the field was very small and young"
+  },
+  {
+    "t_start": 1826.23,
+    "t_end": 1830.07,
+    "text": "was very small and young and from that point on i think a lot of"
+  },
+  {
+    "t_start": 1830.07,
+    "t_end": 1836.71,
+    "text": "uh understood the you know how how fertilized um"
+  },
+  {
+    "t_start": 1836.71,
+    "t_end": 1842.71,
+    "text": "and joined it people uh many mathematicians loss is a great example"
+  },
+  {
+    "t_start": 1842.71,
+    "t_end": 1846.31,
+    "text": "mathematicians loss is a great example michael reading you know"
+  },
+  {
+    "t_start": 1846.31,
+    "t_end": 1850.87,
+    "text": "michael reading you know many mathematicians joined it and it"
+  },
+  {
+    "t_start": 1850.87,
+    "t_end": 1857.269,
+    "text": "uh bloom in every possible sense it got deeper it understood what it was doing"
+  },
+  {
+    "t_start": 1857.269,
+    "t_end": 1860.95,
+    "text": "deeper it understood what it was doing and why it was doing it it understood"
+  },
+  {
+    "t_start": 1860.95,
+    "t_end": 1869.19,
+    "text": "modeling uh computing systems but also uh modeling natural phenomena uh"
+  },
+  {
+    "t_start": 1869.19,
+    "t_end": 1872.549,
+    "text": "i should say by the way that this was also understood by the fathers of the"
+  },
+  {
+    "t_start": 1872.549,
+    "t_end": 1873.43,
+    "text": "also understood by the fathers of the field like"
+  },
+  {
+    "t_start": 1873.43,
+    "t_end": 1878.71,
+    "text": "both alan turing who sort of invented the algorithm and created the"
+  },
+  {
+    "t_start": 1878.71,
+    "t_end": 1883.75,
+    "text": "you know the computer revolution and john von neumann who was here at the"
+  },
+  {
+    "t_start": 1883.75,
+    "t_end": 1891.11,
+    "text": "they worked on uh biology and on on physics uh you know really amazing uh"
+  },
+  {
+    "t_start": 1891.11,
+    "t_end": 1894.87,
+    "text": "on physics uh you know really amazing uh foresight anyway the field you know just"
+  },
+  {
+    "t_start": 1894.87,
+    "t_end": 1901.11,
+    "text": "started diversifying into loss by back today the theory of compensation has"
+  },
+  {
+    "t_start": 1901.11,
+    "t_end": 1902.87,
+    "text": "today the theory of compensation has lots of different parts studying"
+  },
+  {
+    "t_start": 1902.87,
+    "t_end": 1904.789,
+    "text": "lots of different parts studying parallel algorithms and distributed"
+  },
+  {
+    "t_start": 1904.789,
+    "t_end": 1910.07,
+    "text": "parallel algorithms and distributed algorithms and online algorithms and"
+  },
+  {
+    "t_start": 1910.07,
+    "t_end": 1916.23,
+    "text": "and uh lots of others so uh and of course cryptography was an important"
+  },
+  {
+    "t_start": 1916.23,
+    "t_end": 1919.269,
+    "text": "course cryptography was an important early development because we started"
+  },
+  {
+    "t_start": 1919.269,
+    "t_end": 1921.75,
+    "text": "early development because we started studying not just efficiency of"
+  },
+  {
+    "t_start": 1921.75,
+    "t_end": 1924.31,
+    "text": "studying not just efficiency of algorithms but properties of algorithms"
+  },
+  {
+    "t_start": 1924.31,
+    "t_end": 1928.71,
+    "text": "algorithms but properties of algorithms like the knowledge inside an algorithm"
+  },
+  {
+    "t_start": 1928.71,
+    "t_end": 1929.99,
+    "text": "like what we discussed before on zero knowledge uh"
+  },
+  {
+    "t_start": 1929.99,
+    "t_end": 1935.43,
+    "text": "so the goals they broadened and the community broadened and the phenomenal"
+  },
+  {
+    "t_start": 1935.43,
+    "t_end": 1936.549,
+    "text": "community broadened and the phenomenal talent"
+  },
+  {
+    "t_start": 1936.549,
+    "t_end": 1940.31,
+    "text": "entered and keeps entering and the connections with the"
+  },
+  {
+    "t_start": 1940.31,
+    "t_end": 1943.509,
+    "text": "connections with the i think one major uh"
+  },
+  {
+    "t_start": 1943.509,
+    "t_end": 1948.95,
+    "text": "thing that happened that developed in the past 20 years even though as i"
+  },
+  {
+    "t_start": 1948.95,
+    "t_end": 1956.07,
+    "text": "it's connections with all sciences uh i'd like to say that uh you know um"
+  },
+  {
+    "t_start": 1956.07,
+    "t_end": 1958.31,
+    "text": "i'd like to say that uh you know um computation there's a famous saying of"
+  },
+  {
+    "t_start": 1958.31,
+    "t_end": 1959.43,
+    "text": "computation there's a famous saying of uh"
+  },
+  {
+    "t_start": 1959.43,
+    "t_end": 1963.99,
+    "text": "dijkstra who was one of the pioneers of algorithms in"
+  },
+  {
+    "t_start": 1963.99,
+    "t_end": 1970.63,
+    "text": "in the 60s he said that computer science is about computers just as much as"
+  },
+  {
+    "t_start": 1970.63,
+    "t_end": 1974.87,
+    "text": "is about computers just as much as astrophysics is about telescopes"
+  },
+  {
+    "t_start": 1977.83,
+    "t_end": 1979.029,
+    "text": "computation uh is everywhere you know people you"
+  },
+  {
+    "t_start": 1979.029,
+    "t_end": 1983.35,
+    "text": "used to think or maybe still think that it's about the manipulation of bits and"
+  },
+  {
+    "t_start": 1983.35,
+    "t_end": 1984.389,
+    "text": "it's about the manipulation of bits and computers"
+  },
+  {
+    "t_start": 1984.389,
+    "t_end": 1987.83,
+    "text": "but the same type of operations happen between the"
+  },
+  {
+    "t_start": 1987.83,
+    "t_end": 1994.95,
+    "text": "neurons in our brain and cells in our tissues and you know prices"
+  },
+  {
+    "t_start": 1994.95,
+    "t_end": 2000.71,
+    "text": "in the market and friends on facebook and i can give an infinite number of"
+  },
+  {
+    "t_start": 2000.71,
+    "t_end": 2003.11,
+    "text": "and i can give an infinite number of examples every natural system"
+  },
+  {
+    "t_start": 2003.11,
+    "t_end": 2008.95,
+    "text": "has processes in which the interact interacting parts many many"
+  },
+  {
+    "t_start": 2008.95,
+    "t_end": 2010.149,
+    "text": "interact interacting parts many many interacting parts"
+  },
+  {
+    "t_start": 2010.149,
+    "t_end": 2013.669,
+    "text": "interacting parts in a simple way creating beautiful"
+  },
+  {
+    "t_start": 2013.669,
+    "t_end": 2020.149,
+    "text": "like the body or the solar system or you know you name it and uh"
+  },
+  {
+    "t_start": 2020.149,
+    "t_end": 2022.23,
+    "text": "you know you name it and uh understanding these processes building"
+  },
+  {
+    "t_start": 2022.23,
+    "t_end": 2024.07,
+    "text": "understanding these processes building scientific theories"
+  },
+  {
+    "t_start": 2024.07,
+    "t_end": 2029.509,
+    "text": "uh in order to do that you have to understand them also as computing"
+  },
+  {
+    "t_start": 2029.509,
+    "t_end": 2032.07,
+    "text": "understand them also as computing systems you have to understand their"
+  },
+  {
+    "t_start": 2032.07,
+    "t_end": 2038.149,
+    "text": "their interactions their resources and they may be different than the computer"
+  },
+  {
+    "t_start": 2038.149,
+    "t_end": 2041.669,
+    "text": "if you are thinking about neurons in the brain maybe you need to take into"
+  },
+  {
+    "t_start": 2041.669,
+    "t_end": 2043.509,
+    "text": "brain maybe you need to take into account the heat"
+  },
+  {
+    "t_start": 2043.509,
+    "t_end": 2048.149,
+    "text": "dissipation the energy needs you know whatever chemicals they're"
+  },
+  {
+    "t_start": 2048.149,
+    "t_end": 2053.19,
+    "text": "going and so on but you know it's computation nonetheless so the field"
+  },
+  {
+    "t_start": 2053.19,
+    "t_end": 2054.629,
+    "text": "computation nonetheless so the field understood"
+  },
+  {
+    "t_start": 2054.629,
+    "t_end": 2060.069,
+    "text": "that its knowledge is exploited in analyzing algorithms and computation"
+  },
+  {
+    "t_start": 2060.069,
+    "t_end": 2065.43,
+    "text": "analyzing algorithms and computation is useful to all these sciences and so"
+  },
+  {
+    "t_start": 2065.43,
+    "t_end": 2067.909,
+    "text": "fantastic communications and the collaboration started with physics"
+  },
+  {
+    "t_start": 2067.909,
+    "t_end": 2072.55,
+    "text": "collaboration started with physics and with the biology and with economics"
+  },
+  {
+    "t_start": 2072.55,
+    "t_end": 2077.51,
+    "text": "social sciences and uh yeah it's just the beginning this"
+  },
+  {
+    "t_start": 2077.51,
+    "t_end": 2082.79,
+    "text": "revolution is just at its inception and of course with mathematics as well"
+  },
+  {
+    "t_start": 2082.79,
+    "t_end": 2085.03,
+    "text": "and of course with mathematics as well which seems like a static field"
+  },
+  {
+    "t_start": 2085.03,
+    "t_end": 2089.19,
+    "text": "which seems like a static field it seemed like no processes but"
+  },
+  {
+    "t_start": 2092.389,
+    "t_end": 2094.95,
+    "text": "one type of theorem that keep being posed in mathematics is some"
+  },
+  {
+    "t_start": 2094.95,
+    "t_end": 2096.629,
+    "text": "being posed in mathematics is some objects exist"
+  },
+  {
+    "t_start": 2096.629,
+    "t_end": 2099.75,
+    "text": "objects exist some objects with wonderful properties"
+  },
+  {
+    "t_start": 2099.75,
+    "t_end": 2104.55,
+    "text": "and then the algorithmic question is really well show me one"
+  },
+  {
+    "t_start": 2104.55,
+    "t_end": 2108.31,
+    "text": "really well show me one and show me one is an algorithmic"
+  },
+  {
+    "t_start": 2108.31,
+    "t_end": 2111.829,
+    "text": "question find objects with you know desired properties"
+  },
+  {
+    "t_start": 2111.829,
+    "t_end": 2117.27,
+    "text": "uh kind of question goes even deeper to any field in mathematics"
+  },
+  {
+    "t_start": 2117.27,
+    "t_end": 2123.03,
+    "text": "topology geometry algebra and so on and yeah lots of collaborations and"
+  },
+  {
+    "t_start": 2123.03,
+    "t_end": 2124.87,
+    "text": "yeah lots of collaborations and beautiful results are there"
+  },
+  {
+    "t_start": 2124.87,
+    "t_end": 2129.67,
+    "text": "beautiful results are there and many more will come and none of you"
+  },
+  {
+    "t_start": 2129.67,
+    "t_end": 2133.75,
+    "text": "because my understanding is that you both love what you're doing"
+  },
+  {
+    "t_start": 2133.75,
+    "t_end": 2139.99,
+    "text": "and um professor lovas i know that you have some very recent work you would"
+  },
+  {
+    "t_start": 2139.99,
+    "t_end": 2141.03,
+    "text": "you have some very recent work you would like to"
+  },
+  {
+    "t_start": 2141.03,
+    "t_end": 2145.589,
+    "text": "share with us i'm thinking about large networks and graph limits maybe"
+  },
+  {
+    "t_start": 2145.589,
+    "t_end": 2149.03,
+    "text": "networks and graph limits maybe you could explain your most recent work"
+  },
+  {
+    "t_start": 2149.03,
+    "t_end": 2157.19,
+    "text": "or non-mathematicians so uh almost every object we would like to"
+  },
+  {
+    "t_start": 2157.19,
+    "t_end": 2158.55,
+    "text": "uh almost every object we would like to understand"
+  },
+  {
+    "t_start": 2158.55,
+    "t_end": 2162.39,
+    "text": "is really a network it could be a network of"
+  },
+  {
+    "t_start": 2162.39,
+    "t_end": 2167.19,
+    "text": "of cells a network of individuals a network of gadgets"
+  },
+  {
+    "t_start": 2167.19,
+    "t_end": 2175.109,
+    "text": "or or perhaps just a network of atoms and and so we would like to understand"
+  },
+  {
+    "t_start": 2175.109,
+    "t_end": 2177.03,
+    "text": "and and so we would like to understand these kind of very large networks"
+  },
+  {
+    "t_start": 2177.03,
+    "t_end": 2179.19,
+    "text": "these kind of very large networks billions and billions of nodes"
+  },
+  {
+    "t_start": 2179.19,
+    "t_end": 2182.63,
+    "text": "billions and billions of nodes connected in certain ways"
+  },
+  {
+    "t_start": 2182.63,
+    "t_end": 2185.99,
+    "text": "connected in certain ways uh and uh at"
+  },
+  {
+    "t_start": 2185.99,
+    "t_end": 2193.349,
+    "text": "the last two decades more or less uh i was very interested in"
+  },
+  {
+    "t_start": 2193.349,
+    "t_end": 2200.95,
+    "text": "uh questions like but there is this huge network how to describe it how to"
+  },
+  {
+    "t_start": 2200.95,
+    "t_end": 2206.79,
+    "text": "approximate it how to run algorithms on it these are all"
+  },
+  {
+    "t_start": 2206.79,
+    "t_end": 2208.87,
+    "text": "run algorithms on it these are all different questions"
+  },
+  {
+    "t_start": 2208.87,
+    "t_end": 2216.069,
+    "text": "which are related to similar questions in classical"
+  },
+  {
+    "t_start": 2216.069,
+    "t_end": 2219.99,
+    "text": "similar questions in classical computer science or mathematics about"
+  },
+  {
+    "t_start": 2219.99,
+    "t_end": 2229.109,
+    "text": "but the conditions are different and so one of the"
+  },
+  {
+    "t_start": 2229.109,
+    "t_end": 2232.87,
+    "text": "so one of the underlying ideas of what we have been"
+  },
+  {
+    "t_start": 2232.87,
+    "t_end": 2239.349,
+    "text": "is that uh if you if you if you look look at the piece of metal"
+  },
+  {
+    "t_start": 2239.349,
+    "t_end": 2243.349,
+    "text": "if you look look at the piece of metal uh it is a network of atoms"
+  },
+  {
+    "t_start": 2243.349,
+    "t_end": 2246.63,
+    "text": "uh it is a network of atoms usually it is an irregular network of"
+  },
+  {
+    "t_start": 2246.63,
+    "t_end": 2251.67,
+    "text": "it's a network of atoms but if an engineer thinks about it"
+  },
+  {
+    "t_start": 2251.67,
+    "t_end": 2255.99,
+    "text": "engineer thinks about it they don't think about it as a network"
+  },
+  {
+    "t_start": 2255.99,
+    "t_end": 2259.51,
+    "text": "of atoms they want to see whether the bridge will"
+  },
+  {
+    "t_start": 2259.51,
+    "t_end": 2263.27,
+    "text": "hold they will not write up an equation for"
+  },
+  {
+    "t_start": 2263.27,
+    "t_end": 2269.589,
+    "text": "every possible atom but they look at some kind of"
+  },
+  {
+    "t_start": 2271.43,
+    "t_end": 2272.95,
+    "text": "and continuous should say approximation so they"
+  },
+  {
+    "t_start": 2272.95,
+    "t_end": 2277.27,
+    "text": "they they think of it as a continuous material and then you can"
+  },
+  {
+    "t_start": 2277.27,
+    "t_end": 2283.349,
+    "text": "write up i don't know how the heat is distributed how tangents are distributed"
+  },
+  {
+    "t_start": 2283.349,
+    "t_end": 2284.39,
+    "text": "distributed how tangents are distributed but the"
+  },
+  {
+    "t_start": 2284.39,
+    "t_end": 2291.51,
+    "text": "deformations so you can use tools from from analysis"
+  },
+  {
+    "t_start": 2291.51,
+    "t_end": 2295.43,
+    "text": "tools from from analysis and differential equations to understand"
+  },
+  {
+    "t_start": 2295.43,
+    "t_end": 2299.19,
+    "text": "and so the idea was what other networks can be approximated"
+  },
+  {
+    "t_start": 2299.19,
+    "t_end": 2303.91,
+    "text": "in various ways so that instead the network we consider"
+  },
+  {
+    "t_start": 2303.91,
+    "t_end": 2309.829,
+    "text": "some kind of limiting object so that's the idea of graph limit theory"
+  },
+  {
+    "t_start": 2309.829,
+    "t_end": 2311.19,
+    "text": "so that's the idea of graph limit theory which we have"
+  },
+  {
+    "t_start": 2311.19,
+    "t_end": 2320.23,
+    "text": "worked on and in this most recent project we look at uh"
+  },
+  {
+    "t_start": 2322.47,
+    "t_end": 2325.829,
+    "text": "dynamics on the networks on the big network so a network is just like"
+  },
+  {
+    "t_start": 2325.829,
+    "t_end": 2328.31,
+    "text": "network so a network is just like skeleton of something and in order to"
+  },
+  {
+    "t_start": 2328.31,
+    "t_end": 2329.51,
+    "text": "skeleton of something and in order to work"
+  },
+  {
+    "t_start": 2329.51,
+    "t_end": 2333.75,
+    "text": "there but there must be several other things happening"
+  },
+  {
+    "t_start": 2333.75,
+    "t_end": 2338.829,
+    "text": "things happening for example on uh on the internet there"
+  },
+  {
+    "t_start": 2338.829,
+    "t_end": 2344.95,
+    "text": "uh sent back and forth or on the social network on the network of"
+  },
+  {
+    "t_start": 2344.95,
+    "t_end": 2345.99,
+    "text": "on the social network on the network of people"
+  },
+  {
+    "t_start": 2345.99,
+    "t_end": 2352.23,
+    "text": "uh diseases are spreading as well as other things information and"
+  },
+  {
+    "t_start": 2352.23,
+    "t_end": 2352.95,
+    "text": "as well as other things information and so on"
+  },
+  {
+    "t_start": 2352.95,
+    "t_end": 2358.71,
+    "text": "so this is uh this is dynamics of networks and we would like to"
+  },
+  {
+    "t_start": 2358.71,
+    "t_end": 2362.79,
+    "text": "networks and we would like to to extend the existing theory of large"
+  },
+  {
+    "t_start": 2362.79,
+    "t_end": 2366.15,
+    "text": "networks to this dynamical"
+  },
+  {
+    "t_start": 2369.43,
+    "t_end": 2376.63,
+    "text": "oh sure yeah i think that uh yeah this is just uh the most recent the"
+  },
+  {
+    "t_start": 2376.63,
+    "t_end": 2378.79,
+    "text": "yeah this is just uh the most recent the theory of darth limits that latte and"
+  },
+  {
+    "t_start": 2378.79,
+    "t_end": 2380.47,
+    "text": "theory of darth limits that latte and his collaborators"
+  },
+  {
+    "t_start": 2380.47,
+    "t_end": 2385.67,
+    "text": "just the last installment of uh lassie's famous way of connecting"
+  },
+  {
+    "t_start": 2385.67,
+    "t_end": 2389.03,
+    "text": "famous way of connecting uh different parts of mathematics uh"
+  },
+  {
+    "t_start": 2389.03,
+    "t_end": 2392.15,
+    "text": "he's done it for me zeros and uh solving many"
+  },
+  {
+    "t_start": 2392.15,
+    "t_end": 2395.99,
+    "text": "bringing tools from outside discrete mathematics to"
+  },
+  {
+    "t_start": 2395.99,
+    "t_end": 2400.95,
+    "text": "solve these problems here i think that the magic in this continuous"
+  },
+  {
+    "t_start": 2400.95,
+    "t_end": 2402.39,
+    "text": "the magic in this continuous approximations of this"
+  },
+  {
+    "t_start": 2402.39,
+    "t_end": 2406.309,
+    "text": "approximations of this large network is that you can simply"
+  },
+  {
+    "t_start": 2406.309,
+    "t_end": 2412.87,
+    "text": "continuous techniques for mathematics you can bring analysis in"
+  },
+  {
+    "t_start": 2412.87,
+    "t_end": 2414.39,
+    "text": "and other tools of continuous mathematics to bring"
+  },
+  {
+    "t_start": 2414.39,
+    "t_end": 2421.99,
+    "text": "there on studying discrete structures and this is a absolutely major"
+  },
+  {
+    "t_start": 2421.99,
+    "t_end": 2427.99,
+    "text": "major shift in discrete mathematics and it's being employed not just to study"
+  },
+  {
+    "t_start": 2427.99,
+    "t_end": 2432.23,
+    "text": "it's being employed not just to study uh networks it's employed to study"
+  },
+  {
+    "t_start": 2432.23,
+    "t_end": 2434.069,
+    "text": "sequences and it's employed to study groups and many other"
+  },
+  {
+    "t_start": 2434.069,
+    "t_end": 2437.51,
+    "text": "groups and many other discrete structures today and it's uh"
+  },
+  {
+    "t_start": 2437.51,
+    "t_end": 2443.27,
+    "text": "yeah it's it's an extremely powerful tool"
+  },
+  {
+    "t_start": 2446.95,
+    "t_end": 2449.91,
+    "text": "many people say that um both of you like to mentor young mathematician and"
+  },
+  {
+    "t_start": 2449.91,
+    "t_end": 2451.27,
+    "text": "like to mentor young mathematician and i'm curious to know"
+  },
+  {
+    "t_start": 2451.27,
+    "t_end": 2454.55,
+    "text": "i'm curious to know what do you teach them about math and"
+  },
+  {
+    "t_start": 2454.55,
+    "t_end": 2460.47,
+    "text": "life in general um what are some of the things that could be done to make it"
+  },
+  {
+    "t_start": 2460.47,
+    "t_end": 2462.47,
+    "text": "things that could be done to make it a little bit easier for for the next"
+  },
+  {
+    "t_start": 2462.47,
+    "t_end": 2465.43,
+    "text": "a little bit easier for for the next generation of elite mathematicians"
+  },
+  {
+    "t_start": 2465.43,
+    "t_end": 2468.55,
+    "text": "generation of elite mathematicians professor lovas would you like to go"
+  },
+  {
+    "t_start": 2468.55,
+    "t_end": 2474.95,
+    "text": "um i know that at some point you've been part of a group of elite high school"
+  },
+  {
+    "t_start": 2474.95,
+    "t_end": 2476.069,
+    "text": "part of a group of elite high school students"
+  },
+  {
+    "t_start": 2476.069,
+    "t_end": 2480.23,
+    "text": "who were thought advanced math maybe you could um tell us"
+  },
+  {
+    "t_start": 2480.23,
+    "t_end": 2487.03,
+    "text": "about that experience as well uh yeah that was nice although it was not so"
+  },
+  {
+    "t_start": 2487.03,
+    "t_end": 2487.51,
+    "text": "that was nice although it was not so much"
+  },
+  {
+    "t_start": 2487.51,
+    "t_end": 2495.67,
+    "text": "the the material that we were studying uh it was much more important that"
+  },
+  {
+    "t_start": 2495.67,
+    "t_end": 2498.15,
+    "text": "uh it was much more important that we were together we're inspiring each"
+  },
+  {
+    "t_start": 2498.15,
+    "t_end": 2499.109,
+    "text": "we were together we're inspiring each other"
+  },
+  {
+    "t_start": 2499.109,
+    "t_end": 2505.99,
+    "text": "and then of course that outstanding mathematicians like paul anders who was"
+  },
+  {
+    "t_start": 2505.99,
+    "t_end": 2507.43,
+    "text": "mathematicians like paul anders who was one of the most influential"
+  },
+  {
+    "t_start": 2507.43,
+    "t_end": 2513.91,
+    "text": "mathematicians of the 20th century he visited this class and chatted with"
+  },
+  {
+    "t_start": 2513.91,
+    "t_end": 2514.55,
+    "text": "he visited this class and chatted with us"
+  },
+  {
+    "t_start": 2514.55,
+    "t_end": 2520.309,
+    "text": "sometimes gave a talk or just gave suggested problems to think about so"
+  },
+  {
+    "t_start": 2520.309,
+    "t_end": 2522.069,
+    "text": "suggested problems to think about so that was uh"
+  },
+  {
+    "t_start": 2522.069,
+    "t_end": 2528.47,
+    "text": "that was very inspirational it was again a lucky situation because"
+  },
+  {
+    "t_start": 2528.47,
+    "t_end": 2531.67,
+    "text": "it was again a lucky situation because uh discrete mathematics was"
+  },
+  {
+    "t_start": 2531.67,
+    "t_end": 2536.069,
+    "text": "uh discrete mathematics was was i don't i wouldn't say infancy but"
+  },
+  {
+    "t_start": 2536.069,
+    "t_end": 2542.87,
+    "text": "young science so you could find the problems that were quite"
+  },
+  {
+    "t_start": 2542.87,
+    "t_end": 2547.67,
+    "text": "accessible you didn't have to study years and years before you understood"
+  },
+  {
+    "t_start": 2547.67,
+    "t_end": 2548.47,
+    "text": "years and years before you understood what"
+  },
+  {
+    "t_start": 2548.47,
+    "t_end": 2554.95,
+    "text": "they were about uh now about teaching other people"
+  },
+  {
+    "t_start": 2554.95,
+    "t_end": 2561.27,
+    "text": "now about teaching other people what to teach them so certainly the"
+  },
+  {
+    "t_start": 2561.27,
+    "t_end": 2567.589,
+    "text": "i what i one other thing i learned from paul anders is is an openness so that"
+  },
+  {
+    "t_start": 2567.589,
+    "t_end": 2568.55,
+    "text": "paul anders is is an openness so that you don't"
+  },
+  {
+    "t_start": 2568.55,
+    "t_end": 2575.109,
+    "text": "try to keep your results to yourself but what you share the ideas with others"
+  },
+  {
+    "t_start": 2575.109,
+    "t_end": 2576.87,
+    "text": "what you share the ideas with others when the others will"
+  },
+  {
+    "t_start": 2576.87,
+    "t_end": 2583.109,
+    "text": "they respond to them and this way you get better results uh"
+  },
+  {
+    "t_start": 2583.109,
+    "t_end": 2589.349,
+    "text": "and also that you should not especially in an early age try to"
+  },
+  {
+    "t_start": 2589.349,
+    "t_end": 2591.75,
+    "text": "especially in an early age try to try to be trying to broaden your"
+  },
+  {
+    "t_start": 2591.75,
+    "t_end": 2593.829,
+    "text": "try to be trying to broaden your perspective"
+  },
+  {
+    "t_start": 2593.829,
+    "t_end": 2601.27,
+    "text": "i uh okay may i i quote uh something which one of my"
+  },
+  {
+    "t_start": 2601.27,
+    "t_end": 2604.95,
+    "text": "i quote uh something which one of my one of my most successful"
+  },
+  {
+    "t_start": 2604.95,
+    "t_end": 2610.87,
+    "text": "one of my most successful student said that he said that"
+  },
+  {
+    "t_start": 2613.51,
+    "t_end": 2616.069,
+    "text": "thanks to me he is not an algebraic he's a mathematician"
+  },
+  {
+    "t_start": 2616.069,
+    "t_end": 2622.87,
+    "text": "he can't understand what i am saying avi would you like to add something on"
+  },
+  {
+    "t_start": 2622.87,
+    "t_end": 2623.27,
+    "text": "avi would you like to add something on this"
+  },
+  {
+    "t_start": 2623.27,
+    "t_end": 2626.87,
+    "text": "how do you work with the young mathematicians that you're mentoring"
+  },
+  {
+    "t_start": 2626.87,
+    "t_end": 2631.27,
+    "text": "mathematicians that you're mentoring what do you tell them"
+  },
+  {
+    "t_start": 2631.27,
+    "t_end": 2632.71,
+    "text": "first of all i want to stress that working with the"
+  },
+  {
+    "t_start": 2632.71,
+    "t_end": 2636.23,
+    "text": "young mathematicians or also students in college but many"
+  },
+  {
+    "t_start": 2636.23,
+    "t_end": 2643.109,
+    "text": "uh graduate students and postdocs is not only with teaching it's learning"
+  },
+  {
+    "t_start": 2643.109,
+    "t_end": 2643.67,
+    "text": "is not only with teaching it's learning i"
+  },
+  {
+    "t_start": 2643.67,
+    "t_end": 2647.03,
+    "text": "i find myself learning from the young all the time"
+  },
+  {
+    "t_start": 2647.03,
+    "t_end": 2651.109,
+    "text": "they are you know they come fresh with fresh minds and"
+  },
+  {
+    "t_start": 2651.109,
+    "t_end": 2657.349,
+    "text": "uh not preset ideas and they have uh you know uh yeah"
+  },
+  {
+    "t_start": 2657.349,
+    "t_end": 2664.069,
+    "text": "it's it's just wonderful to be in such an environment all the time"
+  },
+  {
+    "t_start": 2664.069,
+    "t_end": 2666.97,
+    "text": "such an environment all the time yeah i love i love teaching i think that"
+  },
+  {
+    "t_start": 2666.97,
+    "t_end": 2669.589,
+    "text": "yeah i love i love teaching i think that [Music]"
+  },
+  {
+    "t_start": 2669.589,
+    "t_end": 2674.829,
+    "text": "it's very important everything that latzi said of course i sign on"
+  },
+  {
+    "t_start": 2674.829,
+    "t_end": 2675.99,
+    "text": "latzi said of course i sign on completely"
+  },
+  {
+    "t_start": 2675.99,
+    "t_end": 2680.95,
+    "text": "i think that it's very important for uh people who start to do research to"
+  },
+  {
+    "t_start": 2680.95,
+    "t_end": 2683.27,
+    "text": "people who start to do research to realize that it's not only technical"
+  },
+  {
+    "t_start": 2683.27,
+    "t_end": 2685.03,
+    "text": "realize that it's not only technical results that are important and"
+  },
+  {
+    "t_start": 2685.03,
+    "t_end": 2686.79,
+    "text": "results that are important and understanding uh"
+  },
+  {
+    "t_start": 2686.79,
+    "t_end": 2693.19,
+    "text": "how things were proven but why and what was the flow of ideas that somehow"
+  },
+  {
+    "t_start": 2693.19,
+    "t_end": 2695.349,
+    "text": "what was the flow of ideas that somehow brought things together like what latin"
+  },
+  {
+    "t_start": 2695.349,
+    "t_end": 2697.349,
+    "text": "brought things together like what latin described with the ll algorithm how"
+  },
+  {
+    "t_start": 2697.349,
+    "t_end": 2698.79,
+    "text": "described with the ll algorithm how important it is"
+  },
+  {
+    "t_start": 2698.79,
+    "t_end": 2704.82,
+    "text": "important it is to know uh to broaden up when you are"
+  },
+  {
+    "t_start": 2704.82,
+    "t_end": 2706.309,
+    "text": "young [Music]"
+  },
+  {
+    "t_start": 2706.309,
+    "t_end": 2711.349,
+    "text": "[Music] i once gave a lecture at some conference"
+  },
+  {
+    "t_start": 2711.349,
+    "t_end": 2715.91,
+    "text": "more or less why should you should you go to listen to lectures in other areas"
+  },
+  {
+    "t_start": 2715.91,
+    "t_end": 2718.79,
+    "text": "go to listen to lectures in other areas i think that the there are amazing"
+  },
+  {
+    "t_start": 2718.79,
+    "t_end": 2720.309,
+    "text": "i think that the there are amazing connections between different"
+  },
+  {
+    "t_start": 2720.309,
+    "t_end": 2724.069,
+    "text": "connections between different areas and uh yeah they when you are"
+  },
+  {
+    "t_start": 2724.069,
+    "t_end": 2730.55,
+    "text": "to uh be more you know to broaden up i uh you know i"
+  },
+  {
+    "t_start": 2730.55,
+    "t_end": 2735.109,
+    "text": "broaden up i uh you know i uh we definitely talk about life a lot"
+  },
+  {
+    "t_start": 2735.109,
+    "t_end": 2741.51,
+    "text": "uh you know people coming into research uh find that uh"
+  },
+  {
+    "t_start": 2741.51,
+    "t_end": 2744.79,
+    "text": "uh find that uh despite the propaganda it's not just"
+  },
+  {
+    "t_start": 2744.79,
+    "t_end": 2751.51,
+    "text": "you don't have to do anything and you get paid i think the people who come to"
+  },
+  {
+    "t_start": 2751.51,
+    "t_end": 2752.87,
+    "text": "get paid i think the people who come to this are"
+  },
+  {
+    "t_start": 2752.87,
+    "t_end": 2756.15,
+    "text": "you know are passionate about what they want to do"
+  },
+  {
+    "t_start": 2756.15,
+    "t_end": 2761.75,
+    "text": "and they have to realize i mean they do realize and they have to cope with that"
+  },
+  {
+    "t_start": 2761.75,
+    "t_end": 2765.349,
+    "text": "like i told you in the beginning in our private conversation"
+  },
+  {
+    "t_start": 2765.349,
+    "t_end": 2770.79,
+    "text": "uh they often fail i think that uh doing research especially in mathematics"
+  },
+  {
+    "t_start": 2770.79,
+    "t_end": 2772.71,
+    "text": "doing research especially in mathematics where you don't have a"
+  },
+  {
+    "t_start": 2772.71,
+    "t_end": 2778.23,
+    "text": "way to validate your you know where you stand with measurements or something"
+  },
+  {
+    "t_start": 2778.23,
+    "t_end": 2781.75,
+    "text": "stand with measurements or something uh you know"
+  },
+  {
+    "t_start": 2781.75,
+    "t_end": 2785.349,
+    "text": "uh you know you have to love it i mean you have to"
+  },
+  {
+    "t_start": 2785.349,
+    "t_end": 2788.39,
+    "text": "doing what you're doing even if you're friends"
+  },
+  {
+    "t_start": 2788.39,
+    "t_end": 2791.589,
+    "text": "it's very important to follow your passions and"
+  },
+  {
+    "t_start": 2791.589,
+    "t_end": 2797.03,
+    "text": "i think passion and talent go together i mean you have to discover"
+  },
+  {
+    "t_start": 2797.03,
+    "t_end": 2800.71,
+    "text": "mean you have to discover what particular you know problems you"
+  },
+  {
+    "t_start": 2800.71,
+    "t_end": 2805.91,
+    "text": "you know what what you like to study and what you like to work on you"
+  },
+  {
+    "t_start": 2805.91,
+    "t_end": 2808.069,
+    "text": "you need to discover that and then you discover your talents"
+  },
+  {
+    "t_start": 2808.069,
+    "t_end": 2815.99,
+    "text": "and uh yeah i think it's an amazing life it may not be for"
+  },
+  {
+    "t_start": 2815.99,
+    "t_end": 2818.23,
+    "text": "it's an amazing life it may not be for everybody but"
+  },
+  {
+    "t_start": 2818.23,
+    "t_end": 2823.589,
+    "text": "it's an amazing life to uh to be able to do research and"
+  },
+  {
+    "t_start": 2823.589,
+    "t_end": 2830.71,
+    "text": "i think that known knowledge is you know i wouldn't say as much fun but almost as"
+  },
+  {
+    "t_start": 2830.71,
+    "t_end": 2831.67,
+    "text": "i wouldn't say as much fun but almost as much fun"
+  },
+  {
+    "t_start": 2831.67,
+    "t_end": 2835.43,
+    "text": "much fun as the discovery knowledge"
+  },
+  {
+    "t_start": 2837.829,
+    "t_end": 2839.67,
+    "text": "okay thank you so much for this i think we can open the chat for"
+  },
+  {
+    "t_start": 2839.67,
+    "t_end": 2843.109,
+    "text": "we can open the chat for questions so um if anyone has questions"
+  },
+  {
+    "t_start": 2843.109,
+    "t_end": 2844.309,
+    "text": "questions so um if anyone has questions please"
+  },
+  {
+    "t_start": 2844.309,
+    "t_end": 2848.47,
+    "text": "use our chat but before we do that i want to do something"
+  },
+  {
+    "t_start": 2848.47,
+    "t_end": 2851.51,
+    "text": "want to do something interesting since the two of you know"
+  },
+  {
+    "t_start": 2851.51,
+    "t_end": 2855.109,
+    "text": "each other um i'd like to ask each of you to tell"
+  },
+  {
+    "t_start": 2855.109,
+    "t_end": 2861.67,
+    "text": "a secret about the other person or um is this is there something"
+  },
+  {
+    "t_start": 2861.67,
+    "t_end": 2867.51,
+    "text": "each of you would like to know about the other person javi would you like to"
+  },
+  {
+    "t_start": 2867.51,
+    "t_end": 2874.23,
+    "text": "tell us something we don't know about professor lovas"
+  },
+  {
+    "t_start": 2876.22,
+    "t_end": 2879.829,
+    "text": "i told you in the beginning that is [Music]"
+  },
+  {
+    "t_start": 2882.309,
+    "t_end": 2886.63,
+    "text": "extremely gentle and polite and sometimes it's embarrassing"
+  },
+  {
+    "t_start": 2886.63,
+    "t_end": 2891.349,
+    "text": "sometimes it's embarrassing uh this he always gives way to me in"
+  },
+  {
+    "t_start": 2891.349,
+    "t_end": 2898.549,
+    "text": "uh uh yeah it's lassie is a kind of a perfect person it's impor impossible to"
+  },
+  {
+    "t_start": 2898.549,
+    "t_end": 2898.95,
+    "text": "perfect person it's impor impossible to find"
+  },
+  {
+    "t_start": 2898.95,
+    "t_end": 2902.069,
+    "text": "any flaw or any well of course maybe maybe"
+  },
+  {
+    "t_start": 2902.069,
+    "t_end": 2908.87,
+    "text": "carty would tell us if he was listening uh we've known each other you know"
+  },
+  {
+    "t_start": 2908.87,
+    "t_end": 2913.67,
+    "text": "uh we've known each other you know from the mid 80s probably"
+  },
+  {
+    "t_start": 2917.67,
+    "t_end": 2921.91,
+    "text": "i uh you know by the time i entered the science he was already a giant and uh"
+  },
+  {
+    "t_start": 2921.91,
+    "t_end": 2925.03,
+    "text": "science he was already a giant and uh it was great to you know"
+  },
+  {
+    "t_start": 2925.03,
+    "t_end": 2928.47,
+    "text": "it was great to you know meet the person and become friends with"
+  },
+  {
+    "t_start": 2928.47,
+    "t_end": 2929.589,
+    "text": "meet the person and become friends with them our families"
+  },
+  {
+    "t_start": 2929.589,
+    "t_end": 2934.309,
+    "text": "them our families uh you know became friends and we've"
+  },
+  {
+    "t_start": 2934.309,
+    "t_end": 2942.95,
+    "text": "you know family friends since then i uh um uh yeah i wish i could embarrass him"
+  },
+  {
+    "t_start": 2942.95,
+    "t_end": 2946.309,
+    "text": "um uh yeah i wish i could embarrass him but"
+  },
+  {
+    "t_start": 2949.99,
+    "t_end": 2954.47,
+    "text": "let's see if the other way around um yeah i i also have difficulty because"
+  },
+  {
+    "t_start": 2954.47,
+    "t_end": 2958.71,
+    "text": "yeah i i also have difficulty because uh avi is such an open personality"
+  },
+  {
+    "t_start": 2958.71,
+    "t_end": 2961.75,
+    "text": "uh avi is such an open personality that uh he"
+  },
+  {
+    "t_start": 2961.75,
+    "t_end": 2966.47,
+    "text": "he has no secrets he he tells you what he thinks he tells you"
+  },
+  {
+    "t_start": 2966.47,
+    "t_end": 2971.589,
+    "text": "what he thinks about so it's very difficult it would be difficult to"
+  },
+  {
+    "t_start": 2971.589,
+    "t_end": 2976.549,
+    "text": "difficult it would be difficult to to find something that he doesn't tell"
+  },
+  {
+    "t_start": 2976.549,
+    "t_end": 2983.51,
+    "text": "which is why why i love him but that's uh that's the way"
+  },
+  {
+    "t_start": 2983.51,
+    "t_end": 2987.19,
+    "text": "that's uh that's the way he he is"
+  },
+  {
+    "t_start": 2989.99,
+    "t_end": 2992.15,
+    "text": "this is not how i expected it to be but um"
+  },
+  {
+    "t_start": 2992.15,
+    "t_end": 2997.91,
+    "text": "i can work with that um andre at may science would like to um ask"
+  },
+  {
+    "t_start": 2997.91,
+    "t_end": 2998.63,
+    "text": "may science would like to um ask something to"
+  },
+  {
+    "t_start": 2998.63,
+    "t_end": 3004.069,
+    "text": "both of you he pointed out that both of you collaborated with a great number of"
+  },
+  {
+    "t_start": 3004.069,
+    "t_end": 3008.23,
+    "text": "how do you comment on the myth of the solitary mathematician"
+  },
+  {
+    "t_start": 3008.23,
+    "t_end": 3014.79,
+    "text": "or scientist is this just a myth would you like to go first it's not a"
+  },
+  {
+    "t_start": 3014.79,
+    "t_end": 3015.829,
+    "text": "would you like to go first it's not a myth it's uh"
+  },
+  {
+    "t_start": 3015.829,
+    "t_end": 3021.109,
+    "text": "you know i think that's very important for every mathematician every scientist"
+  },
+  {
+    "t_start": 3021.109,
+    "t_end": 3026.23,
+    "text": "for every mathematician every scientist everything here to find the mode of work"
+  },
+  {
+    "t_start": 3026.23,
+    "t_end": 3027.91,
+    "text": "that boosts them best it's like discovering your passions and"
+  },
+  {
+    "t_start": 3027.91,
+    "t_end": 3032.47,
+    "text": "like discovering your passions and talents i think that"
+  },
+  {
+    "t_start": 3035.91,
+    "t_end": 3040.15,
+    "text": "many work fantastically well in solitary and and i think even for"
+  },
+  {
+    "t_start": 3040.15,
+    "t_end": 3044.87,
+    "text": "uh you know the fact that we collaborate and love collaborating so much"
+  },
+  {
+    "t_start": 3044.87,
+    "t_end": 3048.95,
+    "text": "and love collaborating so much doesn't mean that we don't spend uh"
+  },
+  {
+    "t_start": 3048.95,
+    "t_end": 3051.99,
+    "text": "spend a lot of time thinking by ourselves uh"
+  },
+  {
+    "t_start": 3051.99,
+    "t_end": 3056.47,
+    "text": "thinking by ourselves uh it just me personally i find the social"
+  },
+  {
+    "t_start": 3056.47,
+    "t_end": 3063.51,
+    "text": "in doing mathematics so deal and so uh fertile and uh that i just enjoy it"
+  },
+  {
+    "t_start": 3063.51,
+    "t_end": 3069.43,
+    "text": "so much that i just can't think of if i have any idea i run and tell it to"
+  },
+  {
+    "t_start": 3069.43,
+    "t_end": 3076.309,
+    "text": "immediately i also think that every mathematician"
+  },
+  {
+    "t_start": 3076.309,
+    "t_end": 3081.43,
+    "text": "mathematician needs the time and sitting alone"
+  },
+  {
+    "t_start": 3081.43,
+    "t_end": 3084.47,
+    "text": "needs the time and sitting alone or walking or whatever the favorite some"
+  },
+  {
+    "t_start": 3084.47,
+    "t_end": 3091.51,
+    "text": "or walking or whatever the favorite some some people lie down on the couch but"
+  },
+  {
+    "t_start": 3091.51,
+    "t_end": 3095.03,
+    "text": "sort of stay inside your your uh your your own thoughts"
+  },
+  {
+    "t_start": 3095.03,
+    "t_end": 3101.589,
+    "text": "your your own thoughts your euron had uh"
+  },
+  {
+    "t_start": 3101.589,
+    "t_end": 3109.75,
+    "text": "for example when i was young some of the best ideas came when i was"
+  },
+  {
+    "t_start": 3109.75,
+    "t_end": 3114.79,
+    "text": "some of the best ideas came when i was standing on a crowded bus and"
+  },
+  {
+    "t_start": 3114.79,
+    "t_end": 3119.43,
+    "text": "standing on a crowded bus and you know getting somewhere and"
+  },
+  {
+    "t_start": 3122.39,
+    "t_end": 3124.069,
+    "text": "nobody was asking anything from me on the other hand i i"
+  },
+  {
+    "t_start": 3124.069,
+    "t_end": 3129.51,
+    "text": "i also found that that it's very nice to work with other people"
+  },
+  {
+    "t_start": 3129.51,
+    "t_end": 3135.829,
+    "text": "and there are some people with whom it works better and with some other stones"
+  },
+  {
+    "t_start": 3135.829,
+    "t_end": 3139.19,
+    "text": "works better and with some other stones and uh"
+  },
+  {
+    "t_start": 3139.19,
+    "t_end": 3144.23,
+    "text": "one of my most uh one of my favorite one of my favorite"
+  },
+  {
+    "t_start": 3144.23,
+    "t_end": 3150.309,
+    "text": "uh collaborators is like driver from amsterdam and then i know"
+  },
+  {
+    "t_start": 3150.309,
+    "t_end": 3151.99,
+    "text": "driver from amsterdam and then i know exactly what the point is"
+  },
+  {
+    "t_start": 3151.99,
+    "t_end": 3156.069,
+    "text": "exactly what the point is i have a kind of geometric view of"
+  },
+  {
+    "t_start": 3156.069,
+    "t_end": 3162.15,
+    "text": "imagine things geometrically and he is extremely good in algebra so"
+  },
+  {
+    "t_start": 3162.15,
+    "t_end": 3164.829,
+    "text": "and he is extremely good in algebra so he immediately sees how to do"
+  },
+  {
+    "t_start": 3164.829,
+    "t_end": 3166.79,
+    "text": "he immediately sees how to do computations and so we"
+  },
+  {
+    "t_start": 3166.79,
+    "t_end": 3172.95,
+    "text": "alternate adding new ideas and that eventually comes out to something"
+  },
+  {
+    "t_start": 3172.95,
+    "t_end": 3175.19,
+    "text": "that eventually comes out to something quite nice"
+  },
+  {
+    "t_start": 3175.19,
+    "t_end": 3178.47,
+    "text": "miklos shimonovitz said about you professor lovas"
+  },
+  {
+    "t_start": 3178.47,
+    "t_end": 3181.67,
+    "text": "professor lovas some mathematicians think in pictures"
+  },
+  {
+    "t_start": 3181.67,
+    "t_end": 3188.309,
+    "text": "think in formulas lovas applies both method what is your thinking style"
+  },
+  {
+    "t_start": 3188.309,
+    "t_end": 3191.589,
+    "text": "method what is your thinking style do you visualize formulas on the ceiling"
+  },
+  {
+    "t_start": 3191.589,
+    "t_end": 3194.549,
+    "text": "do you visualize formulas on the ceiling like beth from the queen's gambid if"
+  },
+  {
+    "t_start": 3194.549,
+    "t_end": 3197.349,
+    "text": "like beth from the queen's gambid if you've seen the miniseries"
+  },
+  {
+    "t_start": 3197.349,
+    "t_end": 3201.829,
+    "text": "you've seen the miniseries um i think"
+  },
+  {
+    "t_start": 3201.829,
+    "t_end": 3206.95,
+    "text": "um i think for me the geomatic pictures are what"
+  },
+  {
+    "t_start": 3206.95,
+    "t_end": 3213.27,
+    "text": "i can do some computation in in uh in my head very formulas"
+  },
+  {
+    "t_start": 3213.27,
+    "t_end": 3216.15,
+    "text": "in uh in my head very formulas but but that's often better than on"
+  },
+  {
+    "t_start": 3216.15,
+    "t_end": 3216.79,
+    "text": "but but that's often better than on paper"
+  },
+  {
+    "t_start": 3216.79,
+    "t_end": 3223.27,
+    "text": "paper or some other more modern tools like"
+  },
+  {
+    "t_start": 3223.27,
+    "t_end": 3228.47,
+    "text": "or some other more modern tools like maple but the"
+  },
+  {
+    "t_start": 3230.95,
+    "t_end": 3232.95,
+    "text": "my my basic way of looking at mathematics is trying to"
+  },
+  {
+    "t_start": 3232.95,
+    "t_end": 3238.39,
+    "text": "mathematics is trying to build up a mental geometric image of"
+  },
+  {
+    "t_start": 3238.39,
+    "t_end": 3242.87,
+    "text": "one more question for both of you if you could go back to the beginning of your"
+  },
+  {
+    "t_start": 3242.87,
+    "t_end": 3243.589,
+    "text": "could go back to the beginning of your careers"
+  },
+  {
+    "t_start": 3243.589,
+    "t_end": 3250.79,
+    "text": "would you pick the same area of mathematics as i'm sure you would be"
+  },
+  {
+    "t_start": 3250.79,
+    "t_end": 3254.47,
+    "text": "mathematicians again avi uh yeah absolutely i think i was lucky"
+  },
+  {
+    "t_start": 3254.47,
+    "t_end": 3260.87,
+    "text": "to land where i am in this area between computer science and mathematics"
+  },
+  {
+    "t_start": 3264.39,
+    "t_end": 3271.27,
+    "text": "and no i won't change anything i think i i went to an into a field that is so"
+  },
+  {
+    "t_start": 3271.27,
+    "t_end": 3278.39,
+    "text": "you know uh interesting and so important scientifically and and"
+  },
+  {
+    "t_start": 3278.39,
+    "t_end": 3280.309,
+    "text": "important scientifically and and practically and"
+  },
+  {
+    "t_start": 3280.309,
+    "t_end": 3286.23,
+    "text": "has such fantastic people and to work with and such fantastic problems to icon"
+  },
+  {
+    "t_start": 3286.23,
+    "t_end": 3286.63,
+    "text": "with and such fantastic problems to icon and"
+  },
+  {
+    "t_start": 3286.63,
+    "t_end": 3292.069,
+    "text": "it just have to imagine i mean i i consider myself extremely lucky to have"
+  },
+  {
+    "t_start": 3292.069,
+    "t_end": 3295.349,
+    "text": "consider myself extremely lucky to have ended where i am"
+  },
+  {
+    "t_start": 3298.789,
+    "t_end": 3301.67,
+    "text": "i agree i i also would not change of course looking back there might be"
+  },
+  {
+    "t_start": 3301.67,
+    "t_end": 3304.47,
+    "text": "of course looking back there might be areas where i said yeah i should have"
+  },
+  {
+    "t_start": 3304.47,
+    "t_end": 3307.99,
+    "text": "areas where i said yeah i should have studied them a little bit more or"
+  },
+  {
+    "t_start": 3307.99,
+    "t_end": 3311.27,
+    "text": "studied them a little bit more or yeah this was sometimes spent on"
+  },
+  {
+    "t_start": 3311.27,
+    "t_end": 3313.19,
+    "text": "yeah this was sometimes spent on on reading up on something which"
+  },
+  {
+    "t_start": 3313.19,
+    "t_end": 3315.109,
+    "text": "on reading up on something which eventually had no"
+  },
+  {
+    "t_start": 3315.109,
+    "t_end": 3322.309,
+    "text": "uh no no use for in my own research but the basic uh area i would not"
+  },
+  {
+    "t_start": 3322.309,
+    "t_end": 3329.589,
+    "text": "the basic uh area i would not change i would stick to the same thing"
+  },
+  {
+    "t_start": 3329.589,
+    "t_end": 3334.309,
+    "text": "um avi yeah go ahead please i was just going to say uh i think both"
+  },
+  {
+    "t_start": 3334.309,
+    "t_end": 3341.51,
+    "text": "uh so for it's just that you can always imagine other things you could have done"
+  },
+  {
+    "t_start": 3341.51,
+    "t_end": 3344.549,
+    "text": "imagine other things you could have done but nobody does with their life"
+  },
+  {
+    "t_start": 3344.549,
+    "t_end": 3347.109,
+    "text": "but nobody does with their life everything they could have wanted to do"
+  },
+  {
+    "t_start": 3347.109,
+    "t_end": 3349.19,
+    "text": "everything they could have wanted to do it's just impossible"
+  },
+  {
+    "t_start": 3349.19,
+    "t_end": 3352.789,
+    "text": "it's just impossible so some people they you know i think"
+  },
+  {
+    "t_start": 3352.789,
+    "t_end": 3357.19,
+    "text": "things that didn't and other people just enjoy the fact that they've done"
+  },
+  {
+    "t_start": 3357.19,
+    "t_end": 3358.87,
+    "text": "enjoy the fact that they've done whatever"
+  },
+  {
+    "t_start": 3358.87,
+    "t_end": 3364.71,
+    "text": "and i think we are both like that um i do have a question about"
+  },
+  {
+    "t_start": 3364.71,
+    "t_end": 3366.47,
+    "text": "um i do have a question about popularizing mathematics and"
+  },
+  {
+    "t_start": 3366.47,
+    "t_end": 3370.95,
+    "text": "and educating the public um avi you've been offering your book mathematics and"
+  },
+  {
+    "t_start": 3370.95,
+    "t_end": 3372.63,
+    "text": "been offering your book mathematics and computation free of charge"
+  },
+  {
+    "t_start": 3372.63,
+    "t_end": 3377.109,
+    "text": "computation free of charge on your website the digital version is"
+  },
+  {
+    "t_start": 3377.109,
+    "t_end": 3380.309,
+    "text": "available there why do you do this and what are some of"
+  },
+  {
+    "t_start": 3380.309,
+    "t_end": 3386.39,
+    "text": "best ways to popularize mathematics to the public"
+  },
+  {
+    "t_start": 3389.99,
+    "t_end": 3395.91,
+    "text": "so latia has written great many books i i learned from his books as a graduate"
+  },
+  {
+    "t_start": 3395.91,
+    "t_end": 3396.47,
+    "text": "i i learned from his books as a graduate student"
+  },
+  {
+    "t_start": 3396.47,
+    "t_end": 3402.87,
+    "text": "and i think uh expositing knowledge especially in a very"
+  },
+  {
+    "t_start": 3402.87,
+    "t_end": 3404.069,
+    "text": "knowledge especially in a very accessible way"
+  },
+  {
+    "t_start": 3404.069,
+    "t_end": 3409.99,
+    "text": "is is the you know fundamental to progress of science and mathematics"
+  },
+  {
+    "t_start": 3409.99,
+    "t_end": 3410.39,
+    "text": "to progress of science and mathematics and"
+  },
+  {
+    "t_start": 3410.39,
+    "t_end": 3417.589,
+    "text": "uh yeah i think books like lattices are prime examples i for many years"
+  },
+  {
+    "t_start": 3417.589,
+    "t_end": 3421.109,
+    "text": "prime examples i for many years you know did what you know"
+  },
+  {
+    "t_start": 3421.109,
+    "t_end": 3427.67,
+    "text": "normal mathematicians do you know i give teach and give lectures and"
+  },
+  {
+    "t_start": 3427.67,
+    "t_end": 3431.99,
+    "text": "teach and give lectures and so on and then about 10 years ago i"
+  },
+  {
+    "t_start": 3431.99,
+    "t_end": 3439.19,
+    "text": "started on this project i have only one book"
+  },
+  {
+    "t_start": 3442.789,
+    "t_end": 3447.589,
+    "text": "this one but it's uh it's really i'm showing this to you just because i'm"
+  },
+  {
+    "t_start": 3447.589,
+    "t_end": 3453.67,
+    "text": "proud of the design my son-in-law helped me create"
+  },
+  {
+    "t_start": 3456.71,
+    "t_end": 3457.589,
+    "text": "i offer it free of charge because i want people to read"
+  },
+  {
+    "t_start": 3457.589,
+    "t_end": 3461.67,
+    "text": "people to read it i mean i think that nobody you know"
+  },
+  {
+    "t_start": 3461.67,
+    "t_end": 3465.109,
+    "text": "you know math books for you know becoming"
+  },
+  {
+    "t_start": 3465.109,
+    "t_end": 3471.75,
+    "text": "billionaires right i mean you want to uh propagate this knowledge so i realized"
+  },
+  {
+    "t_start": 3471.75,
+    "t_end": 3473.03,
+    "text": "propagate this knowledge so i realized that"
+  },
+  {
+    "t_start": 3473.03,
+    "t_end": 3476.95,
+    "text": "lots of the lectures i've been doing especially the more popular ones except"
+  },
+  {
+    "t_start": 3476.95,
+    "t_end": 3481.589,
+    "text": "especially the more popular ones except explaining you know uh my field and the"
+  },
+  {
+    "t_start": 3481.589,
+    "t_end": 3482.309,
+    "text": "motivations and the ideas and the high level"
+  },
+  {
+    "t_start": 3482.309,
+    "t_end": 3488.309,
+    "text": "structure uh really more efficient you know something like realized in his"
+  },
+  {
+    "t_start": 3488.309,
+    "t_end": 3489.51,
+    "text": "you know something like realized in his twenties"
+  },
+  {
+    "t_start": 3489.51,
+    "t_end": 3494.309,
+    "text": "i realized uh uh quite like would be more efficient if i just put it"
+  },
+  {
+    "t_start": 3494.309,
+    "t_end": 3494.95,
+    "text": "more efficient if i just put it somewhere"
+  },
+  {
+    "t_start": 3494.95,
+    "t_end": 3498.23,
+    "text": "somewhere and so that everybody has access to it"
+  },
+  {
+    "t_start": 3498.23,
+    "t_end": 3504.789,
+    "text": "yeah so it's i find it very natural you know to put it on my my website and"
+  },
+  {
+    "t_start": 3504.789,
+    "t_end": 3506.71,
+    "text": "you know to put it on my my website and i hope that many people"
+  },
+  {
+    "t_start": 3506.71,
+    "t_end": 3510.47,
+    "text": "i hope that many people will look at it yeah"
+  },
+  {
+    "t_start": 3514.549,
+    "t_end": 3518.71,
+    "text": "i i have always found it important to to popularize mathematics and"
+  },
+  {
+    "t_start": 3518.71,
+    "t_end": 3521.75,
+    "text": "to popularize mathematics and i i feel that"
+  },
+  {
+    "t_start": 3521.75,
+    "t_end": 3526.63,
+    "text": "i i feel that we should we should have our"
+  },
+  {
+    "t_start": 3529.99,
+    "t_end": 3533.829,
+    "text": "science presented in a way that is uh that is not as"
+  },
+  {
+    "t_start": 3533.829,
+    "t_end": 3540.309,
+    "text": "and as uh as uh outputting as as the most most of the"
+  },
+  {
+    "t_start": 3540.309,
+    "t_end": 3542.829,
+    "text": "outputting as as the most most of the time it is"
+  },
+  {
+    "t_start": 3542.829,
+    "t_end": 3545.03,
+    "text": "time it is uh"
+  },
+  {
+    "t_start": 3545.03,
+    "t_end": 3549.51,
+    "text": "actually computer science is a good good area for that because"
+  },
+  {
+    "t_start": 3549.51,
+    "t_end": 3553.829,
+    "text": "area for that because people do have know at least the notion"
+  },
+  {
+    "t_start": 3553.829,
+    "t_end": 3560.71,
+    "text": "computer i mean if you want to popularize the theory of"
+  },
+  {
+    "t_start": 3560.71,
+    "t_end": 3564.309,
+    "text": "popularize the theory of differentiable sympathetic manifolds"
+  },
+  {
+    "t_start": 3564.309,
+    "t_end": 3568.39,
+    "text": "differentiable sympathetic manifolds then it would be extremely difficult to"
+  },
+  {
+    "t_start": 3568.39,
+    "t_end": 3574.309,
+    "text": "either of the words in the in the title so so people working in"
+  },
+  {
+    "t_start": 3574.309,
+    "t_end": 3576.23,
+    "text": "in the title so so people working in those areas have a more difficult more"
+  },
+  {
+    "t_start": 3576.23,
+    "t_end": 3578.549,
+    "text": "those areas have a more difficult more difficult time"
+  },
+  {
+    "t_start": 3578.549,
+    "t_end": 3586.71,
+    "text": "i i always thought that that if you you can explain"
+  },
+  {
+    "t_start": 3586.71,
+    "t_end": 3590.069,
+    "text": "that if you you can explain some elements of your work"
+  },
+  {
+    "t_start": 3590.069,
+    "t_end": 3593.349,
+    "text": "some elements of your work but you have to adjust it very very much"
+  },
+  {
+    "t_start": 3593.349,
+    "t_end": 3597.589,
+    "text": "to the to the audience"
+  },
+  {
+    "t_start": 3600.789,
+    "t_end": 3603.91,
+    "text": "and and some people are good at that and then they uh they they should"
+  },
+  {
+    "t_start": 3603.91,
+    "t_end": 3611.109,
+    "text": "should continue doing it because uh it is dangerous for for science if"
+  },
+  {
+    "t_start": 3611.109,
+    "t_end": 3612.23,
+    "text": "uh it is dangerous for for science if people"
+  },
+  {
+    "t_start": 3612.23,
+    "t_end": 3616.95,
+    "text": "people which i often get from uh"
+  },
+  {
+    "t_start": 3620.95,
+    "t_end": 3628.069,
+    "text": "people who are not in in maybe in social science sciences they"
+  },
+  {
+    "t_start": 3628.069,
+    "t_end": 3628.71,
+    "text": "maybe in social science sciences they say"
+  },
+  {
+    "t_start": 3628.71,
+    "t_end": 3632.95,
+    "text": "they start the conversation with you i mean of course i have always"
+  },
+  {
+    "t_start": 3632.95,
+    "t_end": 3635.51,
+    "text": "mean of course i have always hated mathematics but i understand that"
+  },
+  {
+    "t_start": 3635.51,
+    "t_end": 3636.47,
+    "text": "hated mathematics but i understand that you were"
+  },
+  {
+    "t_start": 3636.47,
+    "t_end": 3643.99,
+    "text": "so so this is this is not a good start of a conversation and i would very"
+  },
+  {
+    "t_start": 3643.99,
+    "t_end": 3645.349,
+    "text": "start of a conversation and i would very much"
+  },
+  {
+    "t_start": 3645.349,
+    "t_end": 3651.27,
+    "text": "hope that it will i mean i i would very much encourage"
+  },
+  {
+    "t_start": 3651.27,
+    "t_end": 3653.349,
+    "text": "i mean i i would very much encourage everybody to try to"
+  },
+  {
+    "t_start": 3653.349,
+    "t_end": 3657.99,
+    "text": "everybody to try to make sure that mathematics is not not"
+  },
+  {
+    "t_start": 3657.99,
+    "t_end": 3661.589,
+    "text": "yeah let me just one word about it i completely agree and i"
+  },
+  {
+    "t_start": 3661.589,
+    "t_end": 3667.03,
+    "text": "just want to say that uh many i mean i had these conversations numerous times"
+  },
+  {
+    "t_start": 3667.03,
+    "t_end": 3668.23,
+    "text": "i had these conversations numerous times which start with"
+  },
+  {
+    "t_start": 3668.23,
+    "t_end": 3671.67,
+    "text": "which start with i hated mathematics as a kid i think"
+  },
+  {
+    "t_start": 3671.67,
+    "t_end": 3674.87,
+    "text": "there's absolutely no reason for that except"
+  },
+  {
+    "t_start": 3674.87,
+    "t_end": 3679.51,
+    "text": "the way kids are educated in math uh you know they are just being"
+  },
+  {
+    "t_start": 3679.51,
+    "t_end": 3684.069,
+    "text": "frightened and bored by it and then you cannot fix it when you are"
+  },
+  {
+    "t_start": 3684.069,
+    "t_end": 3687.75,
+    "text": "cannot fix it when you are both frightened and bored uh at the age"
+  },
+  {
+    "t_start": 3687.75,
+    "t_end": 3691.829,
+    "text": "uh five six seven eight it's very hard to pull you out"
+  },
+  {
+    "t_start": 3691.829,
+    "t_end": 3695.27,
+    "text": "to pull you out discreet mathematics puzzles games"
+  },
+  {
+    "t_start": 3695.27,
+    "t_end": 3700.549,
+    "text": "which are never shown to you uh you know when you're a kid in elementary"
+  },
+  {
+    "t_start": 3700.549,
+    "t_end": 3706.549,
+    "text": "you know when you're a kid in elementary you know when you start to be educated"
+  },
+  {
+    "t_start": 3706.549,
+    "t_end": 3709.03,
+    "text": "you know three four five six seven uh that's a time to start with fun things"
+  },
+  {
+    "t_start": 3709.03,
+    "t_end": 3711.03,
+    "text": "that's a time to start with fun things about mathematics which are"
+  },
+  {
+    "t_start": 3711.03,
+    "t_end": 3720.23,
+    "text": "far deeper than just adding or multiples yeah so that's uh i think that"
+  },
+  {
+    "t_start": 3720.23,
+    "t_end": 3724.23,
+    "text": "yeah so that's uh i think that changing a little bit it will take i"
+  },
+  {
+    "t_start": 3724.23,
+    "t_end": 3730.309,
+    "text": "a generation still discreet mathematics makes it to elementary education"
+  },
+  {
+    "t_start": 3730.309,
+    "t_end": 3735.029,
+    "text": "you know big time and then it will be far less growing much more interesting"
+  },
+  {
+    "t_start": 3735.029,
+    "t_end": 3737.75,
+    "text": "far less growing much more interesting and certainly not frightening there are"
+  },
+  {
+    "t_start": 3737.75,
+    "t_end": 3739.589,
+    "text": "and certainly not frightening there are also is"
+  },
+  {
+    "t_start": 3739.589,
+    "t_end": 3743.19,
+    "text": "this basic feature that there is not just one"
+  },
+  {
+    "t_start": 3743.19,
+    "t_end": 3746.63,
+    "text": "correct answer and you know you are otherwise you are wrong"
+  },
+  {
+    "t_start": 3746.63,
+    "t_end": 3750.39,
+    "text": "otherwise you are wrong wrong wrong there are many ways to"
+  },
+  {
+    "t_start": 3750.39,
+    "t_end": 3753.75,
+    "text": "approach a problem they are better or you know you can"
+  },
+  {
+    "t_start": 3753.75,
+    "t_end": 3757.109,
+    "text": "in uh finding ways algorithms that lots he said"
+  },
+  {
+    "t_start": 3757.109,
+    "t_end": 3760.87,
+    "text": "to solve the problem and uh you know it's just"
+  },
+  {
+    "t_start": 3760.87,
+    "t_end": 3766.71,
+    "text": "it's friendlier it's richer and it's yeah i hope it gets there"
+  },
+  {
+    "t_start": 3766.71,
+    "t_end": 3769.99,
+    "text": "yeah i hope it gets there if you could have any superpower other"
+  },
+  {
+    "t_start": 3769.99,
+    "t_end": 3770.71,
+    "text": "if you could have any superpower other than"
+  },
+  {
+    "t_start": 3770.71,
+    "t_end": 3778.71,
+    "text": "than mastering mathematics what would that be"
+  },
+  {
+    "t_start": 3780.63,
+    "t_end": 3782.63,
+    "text": "i don't think i need anything more than i have"
+  },
+  {
+    "t_start": 3782.63,
+    "t_end": 3789.109,
+    "text": "i'm i am satisfied with my uh situation i would of course uh"
+  },
+  {
+    "t_start": 3789.109,
+    "t_end": 3792.23,
+    "text": "uh situation i would of course uh like to have uh"
+  },
+  {
+    "t_start": 3792.23,
+    "t_end": 3799.589,
+    "text": "maybe more more respect for teachers that would be i think uh very important"
+  },
+  {
+    "t_start": 3799.589,
+    "t_end": 3803.91,
+    "text": "that would be i think uh very important in many places in the world or"
+  },
+  {
+    "t_start": 3803.91,
+    "t_end": 3807.99,
+    "text": "in many places in the world or for more more appreciation of science"
+  },
+  {
+    "t_start": 3807.99,
+    "t_end": 3811.43,
+    "text": "for more more appreciation of science but but other i'm i am really"
+  },
+  {
+    "t_start": 3811.43,
+    "t_end": 3815.75,
+    "text": "but but other i'm i am really content with what i'm doing"
+  },
+  {
+    "t_start": 3818.63,
+    "t_end": 3819.51,
+    "text": "but what i have achieved that's everything"
+  },
+  {
+    "t_start": 3819.51,
+    "t_end": 3823.109,
+    "text": "everything anyone could ask for um"
+  },
+  {
+    "t_start": 3823.109,
+    "t_end": 3828.069,
+    "text": "cryptography is a powerful tool when it comes to cybersecurity"
+  },
+  {
+    "t_start": 3828.069,
+    "t_end": 3832.47,
+    "text": "comes to cybersecurity and also the geopolitics of"
+  },
+  {
+    "t_start": 3832.47,
+    "t_end": 3835.51,
+    "text": "cybersecurity do you worry that your math could be"
+  },
+  {
+    "t_start": 3835.51,
+    "t_end": 3839.109,
+    "text": "to influence the balance of power in the world"
+  },
+  {
+    "t_start": 3839.109,
+    "t_end": 3842.15,
+    "text": "is there something that doesn't let you sleep"
+  },
+  {
+    "t_start": 3842.15,
+    "t_end": 3850.069,
+    "text": "at night avi uh no no uh i i"
+  },
+  {
+    "t_start": 3850.069,
+    "t_end": 3853.67,
+    "text": "uh no no uh i i talked about this in the beginning i"
+  },
+  {
+    "t_start": 3853.67,
+    "t_end": 3859.91,
+    "text": "knowledge uh is just an inevitable force of uh and the strife for knowledge"
+  },
+  {
+    "t_start": 3859.91,
+    "t_end": 3862.309,
+    "text": "force of uh and the strife for knowledge is an inevitable force of uh"
+  },
+  {
+    "t_start": 3862.309,
+    "t_end": 3865.109,
+    "text": "is an inevitable force of uh mankind what people do with knowledge"
+  },
+  {
+    "t_start": 3865.109,
+    "t_end": 3870.87,
+    "text": "mankind what people do with knowledge what governments do with knowledge"
+  },
+  {
+    "t_start": 3872.87,
+    "t_end": 3874.789,
+    "text": "you know people can slaughter each other with bare hands or with knives"
+  },
+  {
+    "t_start": 3874.789,
+    "t_end": 3877.91,
+    "text": "with bare hands or with knives and you know do as much"
+  },
+  {
+    "t_start": 3877.91,
+    "t_end": 3880.95,
+    "text": "and you know do as much good for medicine or for"
+  },
+  {
+    "t_start": 3880.95,
+    "t_end": 3888.069,
+    "text": "you know the opposite with the developments of biology and uh"
+  },
+  {
+    "t_start": 3888.069,
+    "t_end": 3892.309,
+    "text": "developments of biology and uh i think it is beyond beyond our control"
+  },
+  {
+    "t_start": 3892.309,
+    "t_end": 3895.51,
+    "text": "i think that we are in the maybe lucky to be"
+  },
+  {
+    "t_start": 3895.51,
+    "t_end": 3903.27,
+    "text": "in the maybe lucky to be in the purest side of uh"
+  },
+  {
+    "t_start": 3905.91,
+    "t_end": 3906.549,
+    "text": "pursuit of knowledge but you are right that"
+  },
+  {
+    "t_start": 3906.549,
+    "t_end": 3912.15,
+    "text": "some of our discoveries are used i would like to think that they are used mainly"
+  },
+  {
+    "t_start": 3912.15,
+    "t_end": 3913.81,
+    "text": "like to think that they are used mainly uh for positive"
+  },
+  {
+    "t_start": 3913.81,
+    "t_end": 3915.19,
+    "text": "uh for positive [Music]"
+  },
+  {
+    "t_start": 3915.19,
+    "t_end": 3919.99,
+    "text": "outcomes uh you know cryptography really enabled"
+  },
+  {
+    "t_start": 3919.99,
+    "t_end": 3923.67,
+    "text": "enabled and i stress this was a theory before it"
+  },
+  {
+    "t_start": 3923.67,
+    "t_end": 3928.549,
+    "text": "cyber security uh the theory of cryptography asked questions about"
+  },
+  {
+    "t_start": 3928.549,
+    "t_end": 3935.029,
+    "text": "privacy and uh once the tours were built in the late 70s early"
+  },
+  {
+    "t_start": 3935.029,
+    "t_end": 3936.47,
+    "text": "tours were built in the late 70s early 80s"
+  },
+  {
+    "t_start": 3936.47,
+    "t_end": 3940.309,
+    "text": "these theoretical ideas i mean people were playing games"
+  },
+  {
+    "t_start": 3940.309,
+    "t_end": 3944.95,
+    "text": "like uh poker over the telephone or useless things like that"
+  },
+  {
+    "t_start": 3944.95,
+    "t_end": 3948.87,
+    "text": "why would you ever want to play poker over the telephone without cards"
+  },
+  {
+    "t_start": 3948.87,
+    "t_end": 3954.549,
+    "text": "this was the beginning of uh you know modern cryptography uh once"
+  },
+  {
+    "t_start": 3954.549,
+    "t_end": 3956.789,
+    "text": "you know modern cryptography uh once this was available this tool that classy"
+  },
+  {
+    "t_start": 3956.789,
+    "t_end": 3958.549,
+    "text": "this was available this tool that classy explained before with the one-way"
+  },
+  {
+    "t_start": 3958.549,
+    "t_end": 3959.67,
+    "text": "explained before with the one-way functions"
+  },
+  {
+    "t_start": 3959.67,
+    "t_end": 3966.39,
+    "text": "uh suddenly uh people realize is economic power in that and electronic"
+  },
+  {
+    "t_start": 3966.39,
+    "t_end": 3968.39,
+    "text": "is economic power in that and electronic commerce was born and once electronic"
+  },
+  {
+    "t_start": 3968.39,
+    "t_end": 3974.789,
+    "text": "commerce idea was born networks the internet developed because"
+  },
+  {
+    "t_start": 3974.789,
+    "t_end": 3979.67,
+    "text": "it was possible to uh you know make promise transfer money"
+  },
+  {
+    "t_start": 3979.67,
+    "t_end": 3985.109,
+    "text": "do all the wonderful things send emails securely and so on many things that we"
+  },
+  {
+    "t_start": 3985.109,
+    "t_end": 3991.589,
+    "text": "uh so a lot of the world economy today rests on that right"
+  },
+  {
+    "t_start": 3991.589,
+    "t_end": 3992.95,
+    "text": "world economy today rests on that right so lots of good"
+  },
+  {
+    "t_start": 3992.95,
+    "t_end": 3996.63,
+    "text": "and of course the most education the ability of accessing"
+  },
+  {
+    "t_start": 3996.63,
+    "t_end": 4002.069,
+    "text": "knowledge everybody's part of life is googling for information that you"
+  },
+  {
+    "t_start": 4002.069,
+    "t_end": 4007.99,
+    "text": "googling for information that you that you need but yeah"
+  },
+  {
+    "t_start": 4007.99,
+    "t_end": 4008.87,
+    "text": "it's uh it's a source like every technology"
+  },
+  {
+    "t_start": 4008.87,
+    "t_end": 4012.71,
+    "text": "is uh you know can be potentially dangerous at the"
+  },
+  {
+    "t_start": 4012.71,
+    "t_end": 4019.43,
+    "text": "malicious sense and uh one has to combat that but i think"
+  },
+  {
+    "t_start": 4022.789,
+    "t_end": 4024.309,
+    "text": "you know it's uh yeah maybe if i had the superpower"
+  },
+  {
+    "t_start": 4024.309,
+    "t_end": 4029.029,
+    "text": "i would make sure that all people are good intentions"
+  },
+  {
+    "t_start": 4029.029,
+    "t_end": 4038.87,
+    "text": "and i would like to add one uh one thing one thought to this is that uh"
+  },
+  {
+    "t_start": 4038.87,
+    "t_end": 4041.99,
+    "text": "one thing one thought to this is that uh the the publication of scientific"
+  },
+  {
+    "t_start": 4041.99,
+    "t_end": 4042.63,
+    "text": "the the publication of scientific research"
+  },
+  {
+    "t_start": 4042.63,
+    "t_end": 4047.19,
+    "text": "the community a large community that knows about"
+  },
+  {
+    "t_start": 4047.19,
+    "t_end": 4054.069,
+    "text": "most of them what they are doing where they are what are the new results"
+  },
+  {
+    "t_start": 4054.069,
+    "t_end": 4056.069,
+    "text": "where they are what are the new results so this community"
+  },
+  {
+    "t_start": 4056.069,
+    "t_end": 4059.27,
+    "text": "so this community is some uh"
+  },
+  {
+    "t_start": 4059.27,
+    "t_end": 4066.63,
+    "text": "the defense against uh protection against uh against outsiders"
+  },
+  {
+    "t_start": 4066.63,
+    "t_end": 4071.51,
+    "text": "protection against uh against outsiders coming up with scientific results you"
+  },
+  {
+    "t_start": 4071.51,
+    "t_end": 4075.43,
+    "text": "know the mad scientist who is uh trying to conquer the world"
+  },
+  {
+    "t_start": 4075.43,
+    "t_end": 4078.47,
+    "text": "uh trying to conquer the world this is like"
+  },
+  {
+    "t_start": 4078.47,
+    "t_end": 4083.109,
+    "text": "i don't know if this can be completely excluded that this happens somewhere or"
+  },
+  {
+    "t_start": 4083.109,
+    "t_end": 4084.069,
+    "text": "excluded that this happens somewhere or maybe"
+  },
+  {
+    "t_start": 4084.069,
+    "t_end": 4088.789,
+    "text": "a mad scientist in some country where we would not want"
+  },
+  {
+    "t_start": 4088.789,
+    "t_end": 4093.19,
+    "text": "would not want but but but if if if researchers have"
+  },
+  {
+    "t_start": 4093.19,
+    "t_end": 4099.11,
+    "text": "uh mainstream where they where they interact with each other they"
+  },
+  {
+    "t_start": 4099.11,
+    "t_end": 4099.99,
+    "text": "where they interact with each other they talk about it"
+  },
+  {
+    "t_start": 4099.99,
+    "t_end": 4105.349,
+    "text": "they talk with each other their students visit each other and so on"
+  },
+  {
+    "t_start": 4105.349,
+    "t_end": 4108.95,
+    "text": "visit each other and so on that that would be more difficult for uh"
+  },
+  {
+    "t_start": 4108.95,
+    "t_end": 4112.229,
+    "text": "that that would be more difficult for uh for the math scientists to compete with"
+  },
+  {
+    "t_start": 4112.229,
+    "t_end": 4115.91,
+    "text": "for the math scientists to compete with and uh and therefore i think if"
+  },
+  {
+    "t_start": 4115.91,
+    "t_end": 4119.11,
+    "text": "and uh and therefore i think if if we try to hold back scientific"
+  },
+  {
+    "t_start": 4119.11,
+    "t_end": 4123.99,
+    "text": "then the math side and we give advantage to this that scientist"
+  },
+  {
+    "t_start": 4123.99,
+    "t_end": 4130.95,
+    "text": "if if the if there is an open community which does research"
+  },
+  {
+    "t_start": 4130.95,
+    "t_end": 4134.87,
+    "text": "community which does research then the mad scientist has the last"
+  },
+  {
+    "t_start": 4134.87,
+    "t_end": 4137.91,
+    "text": "chance to do something bad"
+  },
+  {
+    "t_start": 4140.709,
+    "t_end": 4141.91,
+    "text": "that's a wonderful note to end our conversation"
+  },
+  {
+    "t_start": 4141.91,
+    "t_end": 4148.149,
+    "text": "on on doing science openly and collaboratively thank you again for uh"
+  },
+  {
+    "t_start": 4148.149,
+    "t_end": 4150.63,
+    "text": "collaboratively thank you again for uh being with us today congratulations"
+  },
+  {
+    "t_start": 4150.63,
+    "t_end": 4151.189,
+    "text": "being with us today congratulations again"
+  },
+  {
+    "t_start": 4151.189,
+    "t_end": 4157.03,
+    "text": "on the awful prize this conversation was hosted by the world federation of"
+  },
+  {
+    "t_start": 4157.03,
+    "t_end": 4158.95,
+    "text": "hosted by the world federation of science journalists together with the"
+  },
+  {
+    "t_start": 4158.95,
+    "t_end": 4164.95,
+    "text": "science journalists together with the norwegian academy of science and letters"
+  },
+  {
+    "t_start": 4164.95,
+    "t_end": 4177.51,
+    "text": "thanks everyone for being here today and i'll see everyone soon"
+  }
+]

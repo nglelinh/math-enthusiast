@@ -1,0 +1,4812 @@
+[
+  {
+    "t_start": 87.35,
+    "t_end": 92.149,
+    "text": "so it's a tremendous pleasure and honor to be here uh this is an amazing"
+  },
+  {
+    "t_start": 92.149,
+    "t_end": 97.609,
+    "text": "occasion uh on the birth of not one but two a periodic mono tiles and to have"
+  },
+  {
+    "t_start": 97.609,
+    "t_end": 100.069,
+    "text": "two a periodic mono tiles and to have the opportunity to introduce uh the"
+  },
+  {
+    "t_start": 100.069,
+    "t_end": 105.109,
+    "text": "subject for the third time perhaps today but it's new for uh many of the people"
+  },
+  {
+    "t_start": 105.109,
+    "t_end": 111.109,
+    "text": "in the audience and so uh and then of course to participate in this panel so"
+  },
+  {
+    "t_start": 111.109,
+    "t_end": 115.13,
+    "text": "course to participate in this panel so and above all to be on the team that to"
+  },
+  {
+    "t_start": 115.13,
+    "t_end": 122.51,
+    "text": "really to see this these tiles sort of emerge see their birth up close has been"
+  },
+  {
+    "t_start": 122.51,
+    "t_end": 124.91,
+    "text": "emerge see their birth up close has been quite quite nice so I've been involved"
+  },
+  {
+    "t_start": 124.91,
+    "t_end": 130.85,
+    "text": "in this subject area since I was a wee one in some sense and so uh this feels"
+  },
+  {
+    "t_start": 130.85,
+    "t_end": 133.25,
+    "text": "one in some sense and so uh this feels sort of like the culmination of really"
+  },
+  {
+    "t_start": 133.25,
+    "t_end": 139.01,
+    "text": "sort of like the culmination of really Decades of questions in some sense so so"
+  },
+  {
+    "t_start": 139.01,
+    "t_end": 140.33,
+    "text": "what are the Hat inspector a periodic monotols of course if you were here"
+  },
+  {
+    "t_start": 140.33,
+    "t_end": 147.11,
+    "text": "today earlier you you got a big dose of all of this so this will be a bit of a"
+  },
+  {
+    "t_start": 147.11,
+    "t_end": 149.21,
+    "text": "repetition but for this is for a wider audience and um"
+  },
+  {
+    "t_start": 149.21,
+    "t_end": 154.25,
+    "text": "will be seen elsewhere so we all saw this wonderful movie that"
+  },
+  {
+    "t_start": 154.25,
+    "t_end": 156.53,
+    "text": "we all saw this wonderful movie that Craig produced and we'll come back to it"
+  },
+  {
+    "t_start": 156.53,
+    "t_end": 158.089,
+    "text": "Craig produced and we'll come back to it so it's not just one"
+  },
+  {
+    "t_start": 158.089,
+    "t_end": 162.35,
+    "text": "uh monotol or two but actually in some sense an infinite family of"
+  },
+  {
+    "t_start": 162.35,
+    "t_end": 165.53,
+    "text": "sense an infinite family of combinatorially equivalent monetiles"
+  },
+  {
+    "t_start": 165.53,
+    "t_end": 172.85,
+    "text": "you know we should avoid using technical jargon unnecessarily but it's helpful"
+  },
+  {
+    "t_start": 172.85,
+    "t_end": 177.11,
+    "text": "jargon unnecessarily but it's helpful sometimes so a monotile is just a way of"
+  },
+  {
+    "t_start": 177.11,
+    "t_end": 179.15,
+    "text": "referring to a shape that you can actually fit together to form copies of"
+  },
+  {
+    "t_start": 179.15,
+    "t_end": 180.89,
+    "text": "actually fit together to form copies of the entire plane it's a tile it's one"
+  },
+  {
+    "t_start": 180.89,
+    "t_end": 185.69,
+    "text": "tile that can form copies of the entire plane and a typical monotile might be"
+  },
+  {
+    "t_start": 185.69,
+    "t_end": 187.729,
+    "text": "plane and a typical monotile might be able to form many different tilings so"
+  },
+  {
+    "t_start": 187.729,
+    "t_end": 190.67,
+    "text": "able to form many different tilings so this L tile certainly can it can file or"
+  },
+  {
+    "t_start": 190.67,
+    "t_end": 193.309,
+    "text": "this L tile certainly can it can file or chair toe as is more usually called"
+  },
+  {
+    "t_start": 193.309,
+    "t_end": 195.949,
+    "text": "chair toe as is more usually called perhaps so it can form periodic tilings"
+  },
+  {
+    "t_start": 195.949,
+    "t_end": 199.67,
+    "text": "and we can tell that this is a periodic tiling because there's a translation or"
+  },
+  {
+    "t_start": 199.67,
+    "t_end": 206.33,
+    "text": "whole invariant or does not change it as a whole you can see every once in a"
+  },
+  {
+    "t_start": 206.33,
+    "t_end": 210.77,
+    "text": "a whole you can see every once in a while as a some point in this movie"
+  },
+  {
+    "t_start": 210.77,
+    "t_end": 212.869,
+    "text": "let's just pause it for a second so obviously not everywhere but every"
+  },
+  {
+    "t_start": 212.869,
+    "t_end": 215.089,
+    "text": "so obviously not everywhere but every once in a while"
+  },
+  {
+    "t_start": 215.089,
+    "t_end": 222.229,
+    "text": "um you know it's everything lines up and everything lines up again and so in this"
+  },
+  {
+    "t_start": 222.229,
+    "t_end": 226.13,
+    "text": "sense it's periodic equivalently that means that there's some well it's"
+  },
+  {
+    "t_start": 226.13,
+    "t_end": 231.589,
+    "text": "uh but that there's some chunk that can be repeated to form a tiling of the hole"
+  },
+  {
+    "t_start": 231.589,
+    "t_end": 233.39,
+    "text": "be repeated to form a tiling of the hole actually it's not equivalent quite"
+  },
+  {
+    "t_start": 233.39,
+    "t_end": 234.949,
+    "text": "actually it's not equivalent quite because in the picture I've shown"
+  },
+  {
+    "t_start": 234.949,
+    "t_end": 237.649,
+    "text": "because in the picture I've shown there's just one set of translations"
+  },
+  {
+    "t_start": 237.649,
+    "t_end": 239.75,
+    "text": "there's just one set of translations that would leave the you know that would"
+  },
+  {
+    "t_start": 239.75,
+    "t_end": 242.69,
+    "text": "that would leave the you know that would you could shift the whole tiling over"
+  },
+  {
+    "t_start": 242.69,
+    "t_end": 244.009,
+    "text": "and have everything line up but in fact you can do that in multiple directions"
+  },
+  {
+    "t_start": 244.009,
+    "t_end": 247.07,
+    "text": "you can do that in multiple directions and in that way you can find a finite"
+  },
+  {
+    "t_start": 247.07,
+    "t_end": 251.21,
+    "text": "and uh so of course you can see what clearly that finite chunk is it's this"
+  },
+  {
+    "t_start": 251.21,
+    "t_end": 252.89,
+    "text": "clearly that finite chunk is it's this pair here"
+  },
+  {
+    "t_start": 252.89,
+    "t_end": 254.089,
+    "text": "pair here okay"
+  },
+  {
+    "t_start": 254.089,
+    "t_end": 259.069,
+    "text": "this a tiling is another tiling by the L tile or chair tile that appears to be"
+  },
+  {
+    "t_start": 259.069,
+    "t_end": 260.569,
+    "text": "tile or chair tile that appears to be non-periodic or maybe it doesn't appear"
+  },
+  {
+    "t_start": 260.569,
+    "t_end": 262.129,
+    "text": "non-periodic or maybe it doesn't appear to be non-periodic"
+  },
+  {
+    "t_start": 262.129,
+    "t_end": 267.29,
+    "text": "you see that the same pieces appear over and over again it's certainly repetitive"
+  },
+  {
+    "t_start": 267.29,
+    "t_end": 270.77,
+    "text": "and over again it's certainly repetitive in some very strong sense but any"
+  },
+  {
+    "t_start": 270.77,
+    "t_end": 272.629,
+    "text": "in some very strong sense but any translation"
+  },
+  {
+    "t_start": 272.629,
+    "t_end": 275.93,
+    "text": "no matter where I stopped this movie something will be out of sync so like"
+  },
+  {
+    "t_start": 275.93,
+    "t_end": 279.29,
+    "text": "something will be out of sync so like there for example quite sorry"
+  },
+  {
+    "t_start": 279.29,
+    "t_end": 280.31,
+    "text": "there for example quite sorry um"
+  },
+  {
+    "t_start": 280.31,
+    "t_end": 287.15,
+    "text": "there you know you can get some of it to line up and if I go a little further I"
+  },
+  {
+    "t_start": 287.15,
+    "t_end": 291.11,
+    "text": "might get even more of it to line up and I'm not you know there I've gotten quite"
+  },
+  {
+    "t_start": 291.11,
+    "t_end": 294.83,
+    "text": "I'm not you know there I've gotten quite a bit of it to line up you can get"
+  },
+  {
+    "t_start": 294.83,
+    "t_end": 298.909,
+    "text": "arbitrarily small amounts of it to not line up but you'll never be able to have"
+  },
+  {
+    "t_start": 298.909,
+    "t_end": 300.53,
+    "text": "everything line up entirely and I'll explain the principle behind this which"
+  },
+  {
+    "t_start": 300.53,
+    "t_end": 305.09,
+    "text": "explain the principle behind this which is the same that underlies the hat and"
+  },
+  {
+    "t_start": 305.09,
+    "t_end": 309.83,
+    "text": "so it's important to realize that being periodic or non-periodic is a global"
+  },
+  {
+    "t_start": 309.83,
+    "t_end": 311.689,
+    "text": "periodic or non-periodic is a global property of the entire infinite plane"
+  },
+  {
+    "t_start": 311.689,
+    "t_end": 316.909,
+    "text": "you would never be able to detect this in a finite human manner you'd have to"
+  },
+  {
+    "t_start": 316.909,
+    "t_end": 318.89,
+    "text": "in a finite human manner you'd have to have some rules for describing the"
+  },
+  {
+    "t_start": 318.89,
+    "t_end": 320.629,
+    "text": "have some rules for describing the entire tiling to be able to decide"
+  },
+  {
+    "t_start": 320.629,
+    "t_end": 322.31,
+    "text": "entire tiling to be able to decide whether or not it's periodic or"
+  },
+  {
+    "t_start": 322.31,
+    "t_end": 324.83,
+    "text": "whether or not it's periodic or non-periodic and in particular just to"
+  },
+  {
+    "t_start": 324.83,
+    "t_end": 326.51,
+    "text": "non-periodic and in particular just to emphasize that this seems period this"
+  },
+  {
+    "t_start": 326.51,
+    "t_end": 330.71,
+    "text": "emphasize that this seems period this seems non-periodic you can certainly"
+  },
+  {
+    "t_start": 330.71,
+    "t_end": 332.93,
+    "text": "make a non-periodic tiling by taking those rectangles and then just flipping"
+  },
+  {
+    "t_start": 332.93,
+    "t_end": 336.89,
+    "text": "those rectangles and then just flipping some of them over randomly if you do"
+  },
+  {
+    "t_start": 336.89,
+    "t_end": 338.81,
+    "text": "that you can expect that there'd be no way that you you know that if it's"
+  },
+  {
+    "t_start": 338.81,
+    "t_end": 342.89,
+    "text": "completely random any shift was you know will be detectable because nothing will"
+  },
+  {
+    "t_start": 342.89,
+    "t_end": 348.409,
+    "text": "ever quite repeat but on the other hand you really do have to look at the entire"
+  },
+  {
+    "t_start": 348.409,
+    "t_end": 354.65,
+    "text": "just with a little bit bigger chunk than was uh that was repeated than what was"
+  },
+  {
+    "t_start": 354.65,
+    "t_end": 360.77,
+    "text": "was uh that was repeated than what was on the screen so it's a global property"
+  },
+  {
+    "t_start": 360.77,
+    "t_end": 362.93,
+    "text": "the trick is and this seemed like a miracle to me when I first learned of it"
+  },
+  {
+    "t_start": 362.93,
+    "t_end": 364.79,
+    "text": "miracle to me when I first learned of it and honestly it still seems like a"
+  },
+  {
+    "t_start": 364.79,
+    "t_end": 366.23,
+    "text": "and honestly it still seems like a miracle and we should all pause no"
+  },
+  {
+    "t_start": 366.23,
+    "t_end": 367.73,
+    "text": "miracle and we should all pause no matter how well acquainted we are with"
+  },
+  {
+    "t_start": 367.73,
+    "t_end": 373.37,
+    "text": "this idea to just be in awe really of how remarkable a property this might be"
+  },
+  {
+    "t_start": 373.37,
+    "t_end": 376.43,
+    "text": "how remarkable a property this might be that a set of tiles or a tile"
+  },
+  {
+    "t_start": 376.43,
+    "t_end": 379.969,
+    "text": "whether it's one tile or many is a periodic if it can form these"
+  },
+  {
+    "t_start": 379.969,
+    "t_end": 385.49,
+    "text": "non-periodic tilings sorry it can form tilings but only these non-periodic ones"
+  },
+  {
+    "t_start": 385.49,
+    "t_end": 390.35,
+    "text": "that it can never form a periodic tiling in some sense this requires that just by"
+  },
+  {
+    "t_start": 390.35,
+    "t_end": 392.51,
+    "text": "in some sense this requires that just by the tiles fitting together neighbor to"
+  },
+  {
+    "t_start": 392.51,
+    "t_end": 398.21,
+    "text": "neighbor that this disrupts order at all scales that there'd be no period at you"
+  },
+  {
+    "t_start": 398.21,
+    "t_end": 401.51,
+    "text": "scales that there'd be no period at you know a foot across a mile across light"
+  },
+  {
+    "t_start": 401.51,
+    "t_end": 405.29,
+    "text": "know a foot across a mile across light year across 10 to the 100th times the"
+  },
+  {
+    "t_start": 405.29,
+    "t_end": 408.35,
+    "text": "width of the universe across because we're mathematicians and so but it's"
+  },
+  {
+    "t_start": 408.35,
+    "t_end": 412.909,
+    "text": "important to realize that the L tile is not an aperotic monoton because it can"
+  },
+  {
+    "t_start": 412.909,
+    "t_end": 415.189,
+    "text": "not an aperotic monoton because it can also form it can form non-periodic"
+  },
+  {
+    "t_start": 415.189,
+    "t_end": 420.409,
+    "text": "tilings but also form periodic ones the ltyl is not an aperiodic monotol it"
+  },
+  {
+    "t_start": 420.409,
+    "t_end": 425.689,
+    "text": "requires to be aperiodic that it can only form these non-periodic tilings"
+  },
+  {
+    "t_start": 425.689,
+    "t_end": 430.49,
+    "text": "that's a really subtle point and it really is often missed in the popular"
+  },
+  {
+    "t_start": 430.49,
+    "t_end": 434.09,
+    "text": "press I think the popular press did a pretty good job honestly because every"
+  },
+  {
+    "t_start": 434.09,
+    "t_end": 438.95,
+    "text": "single interview any of us had we like just hammered this point over hammered"
+  },
+  {
+    "t_start": 438.95,
+    "t_end": 444.83,
+    "text": "make sure but there were still plenty of you can find easily accounts of the Hat"
+  },
+  {
+    "t_start": 444.83,
+    "t_end": 447.589,
+    "text": "you can find easily accounts of the Hat where this point was missed"
+  },
+  {
+    "t_start": 447.589,
+    "t_end": 451.55,
+    "text": "um that the point of is that it cannot it's not just they can form non-periodic"
+  },
+  {
+    "t_start": 451.55,
+    "t_end": 452.809,
+    "text": "it's not just they can form non-periodic tilings but it can only form"
+  },
+  {
+    "t_start": 452.809,
+    "t_end": 455.57,
+    "text": "tilings but it can only form non-periodic tilings the Hat the altile"
+  },
+  {
+    "t_start": 455.57,
+    "t_end": 462.469,
+    "text": "non-periodic tilings the Hat the altile is not it's not an Einstein and I'm sure"
+  },
+  {
+    "t_start": 462.469,
+    "t_end": 464.089,
+    "text": "um we are mostly acquainted with this term"
+  },
+  {
+    "t_start": 464.089,
+    "t_end": 468.65,
+    "text": "which is due to Ludwig donzer and he you know if you look over the last few"
+  },
+  {
+    "t_start": 468.65,
+    "t_end": 470.089,
+    "text": "know if you look over the last few months we saw enormous amount of"
+  },
+  {
+    "t_start": 470.089,
+    "t_end": 472.309,
+    "text": "months we saw enormous amount of publicity about the hat and the Specter"
+  },
+  {
+    "t_start": 472.309,
+    "t_end": 476.99,
+    "text": "publicity about the hat and the Specter and particularly the the Einstein uh you"
+  },
+  {
+    "t_start": 476.99,
+    "t_end": 480.71,
+    "text": "know silly things with like Einstein wearing a hat and so on and you might"
+  },
+  {
+    "t_start": 480.71,
+    "t_end": 486.11,
+    "text": "really was a cheap trick and it was on purpose Ludwig Dons are introduced the"
+  },
+  {
+    "t_start": 486.11,
+    "t_end": 487.73,
+    "text": "purpose Ludwig Dons are introduced the term Einstein about 30 years ago"
+  },
+  {
+    "t_start": 487.73,
+    "t_end": 490.37,
+    "text": "term Einstein about 30 years ago precisely so that we get people excited"
+  },
+  {
+    "t_start": 490.37,
+    "t_end": 493.969,
+    "text": "precisely so that we get people excited I suppose and it worked because look we"
+  },
+  {
+    "t_start": 493.969,
+    "t_end": 495.409,
+    "text": "have all these stupid pictures of Einstein with that"
+  },
+  {
+    "t_start": 495.409,
+    "t_end": 497.45,
+    "text": "Einstein with that and so uh"
+  },
+  {
+    "t_start": 497.45,
+    "t_end": 501.95,
+    "text": "and then it's quite incredible that this would even be possible and the original"
+  },
+  {
+    "t_start": 501.95,
+    "t_end": 504.05,
+    "text": "would even be possible and the original conjecture which is if you see here it"
+  },
+  {
+    "t_start": 504.05,
+    "t_end": 505.79,
+    "text": "conjecture which is if you see here it says what appears to be quite a"
+  },
+  {
+    "t_start": 505.79,
+    "t_end": 507.95,
+    "text": "says what appears to be quite a reasonable conjecture"
+  },
+  {
+    "t_start": 507.95,
+    "t_end": 512.81,
+    "text": "I won't decode what's said there in this talk tomorrow morning I'll go into this"
+  },
+  {
+    "t_start": 512.81,
+    "t_end": 514.07,
+    "text": "talk tomorrow morning I'll go into this a bit more"
+  },
+  {
+    "t_start": 514.07,
+    "t_end": 518.029,
+    "text": "but what seems to be a reasonable conjecture is that there's no such thing"
+  },
+  {
+    "t_start": 518.029,
+    "t_end": 520.61,
+    "text": "conjecture is that there's no such thing as an aperiodic set of tiles"
+  },
+  {
+    "t_start": 520.61,
+    "t_end": 523.13,
+    "text": "as an aperiodic set of tiles he was interested in this because if"
+  },
+  {
+    "t_start": 523.13,
+    "t_end": 524.63,
+    "text": "he was interested in this because if there were no such thing as an aperiodic"
+  },
+  {
+    "t_start": 524.63,
+    "t_end": 526.13,
+    "text": "there were no such thing as an aperiodic set of tiles there'd be a decision"
+  },
+  {
+    "t_start": 526.13,
+    "t_end": 527.509,
+    "text": "set of tiles there'd be a decision procedure that could answer the"
+  },
+  {
+    "t_start": 527.509,
+    "t_end": 529.49,
+    "text": "procedure that could answer the following question in finite time it"
+  },
+  {
+    "t_start": 529.49,
+    "t_end": 534.65,
+    "text": "could answer yes or no you take in a set of tiles and you answer a finite amount"
+  },
+  {
+    "t_start": 534.65,
+    "t_end": 536.57,
+    "text": "of tiles and you answer a finite amount of time yes they do tile or no they do"
+  },
+  {
+    "t_start": 536.57,
+    "t_end": 538.49,
+    "text": "of time yes they do tile or no they do not tile if they don't tile that's it's"
+  },
+  {
+    "t_start": 538.49,
+    "t_end": 540.889,
+    "text": "not tile if they don't tile that's it's easy to check not easy but with a"
+  },
+  {
+    "t_start": 540.889,
+    "t_end": 543.11,
+    "text": "easy to check not easy but with a appropriate Computer Resources you just"
+  },
+  {
+    "t_start": 543.11,
+    "t_end": 545.69,
+    "text": "appropriate Computer Resources you just enumerate larger and larger patches and"
+  },
+  {
+    "t_start": 545.69,
+    "t_end": 550.13,
+    "text": "enumerate larger and larger patches and eventually you'll run out and you'll"
+  },
+  {
+    "t_start": 550.13,
+    "t_end": 551.99,
+    "text": "know the answer no in finite time but it's not really obvious how you would"
+  },
+  {
+    "t_start": 551.99,
+    "t_end": 556.009,
+    "text": "it's not really obvious how you would tell if a tile tiles or tiles tile emits"
+  },
+  {
+    "t_start": 556.009,
+    "t_end": 560.389,
+    "text": "tell if a tile tiles or tiles tile emits a tiling at all because you just make"
+  },
+  {
+    "t_start": 560.389,
+    "t_end": 561.829,
+    "text": "bigger and bigger patches and maybe you haven't crashed yet"
+  },
+  {
+    "t_start": 561.829,
+    "t_end": 566.81,
+    "text": "so but he observed that if there's no such thing as an aperonic tiling tile"
+  },
+  {
+    "t_start": 566.81,
+    "t_end": 571.85,
+    "text": "such thing as an aperonic tiling tile set of tiles that is to say if every set"
+  },
+  {
+    "t_start": 571.85,
+    "t_end": 577.07,
+    "text": "of tiles either admitted a periodic tiling or did not admit a tiling at all"
+  },
+  {
+    "t_start": 577.07,
+    "t_end": 578.93,
+    "text": "then you'd simply have this dumb procedure of enumerating larger and"
+  },
+  {
+    "t_start": 578.93,
+    "t_end": 584.269,
+    "text": "because not only would it tell you if you failed to have a tile link because"
+  },
+  {
+    "t_start": 584.269,
+    "t_end": 586.19,
+    "text": "you failed to have a tile link because you'd run out of patches but also you"
+  },
+  {
+    "t_start": 586.19,
+    "t_end": 590.21,
+    "text": "could check along the way to see if you have a finite patch that could be then"
+  },
+  {
+    "t_start": 590.21,
+    "t_end": 591.29,
+    "text": "have a finite patch that could be then repeated"
+  },
+  {
+    "t_start": 591.29,
+    "t_end": 592.43,
+    "text": "repeated so"
+  },
+  {
+    "t_start": 592.43,
+    "t_end": 597.53,
+    "text": "he was hopeful in some sense that no such thing would exist and that there"
+  },
+  {
+    "t_start": 597.53,
+    "t_end": 598.97,
+    "text": "such thing would exist and that there would be a decision procedure it would"
+  },
+  {
+    "t_start": 598.97,
+    "t_end": 601.37,
+    "text": "would be a decision procedure it would have helped his other work"
+  },
+  {
+    "t_start": 601.37,
+    "t_end": 607.389,
+    "text": "tremendous luck for us within a few years his student Robert Berger found"
+  },
+  {
+    "t_start": 607.389,
+    "t_end": 611.509,
+    "text": "years his student Robert Berger found this incredible set of this oft-quoted"
+  },
+  {
+    "t_start": 611.509,
+    "t_end": 616.73,
+    "text": "I think we just love that number because it's like so you know look what we did"
+  },
+  {
+    "t_start": 616.73,
+    "t_end": 622.07,
+    "text": "we got it down from twenty thousand to six to two and now to one so but Burgers"
+  },
+  {
+    "t_start": 622.07,
+    "t_end": 624.65,
+    "text": "six to two and now to one so but Burgers it's hierarchical construction which I'm"
+  },
+  {
+    "t_start": 624.65,
+    "t_end": 627.41,
+    "text": "it's hierarchical construction which I'm going to describe shortly is really"
+  },
+  {
+    "t_start": 627.41,
+    "t_end": 629.269,
+    "text": "going to describe shortly is really foundationally important in the sense"
+  },
+  {
+    "t_start": 629.269,
+    "t_end": 635.35,
+    "text": "foundationally important in the sense that over the next 60 years now I guess"
+  },
+  {
+    "t_start": 635.35,
+    "t_end": 640.49,
+    "text": "uh some very large percentage of the known constructions really rest on this"
+  },
+  {
+    "t_start": 640.49,
+    "t_end": 645.47,
+    "text": "idea of burgers and that's not to say that's the only method at all in fact in"
+  },
+  {
+    "t_start": 645.47,
+    "t_end": 647.269,
+    "text": "that's the only method at all in fact in the new paper in the Hat construction"
+  },
+  {
+    "t_start": 647.269,
+    "t_end": 649.85,
+    "text": "the new paper in the Hat construction there's a Joseph Myers had as a brand"
+  },
+  {
+    "t_start": 649.85,
+    "t_end": 652.37,
+    "text": "there's a Joseph Myers had as a brand new way of proving a periodicity but"
+  },
+  {
+    "t_start": 652.37,
+    "t_end": 655.19,
+    "text": "new way of proving a periodicity but there's remarkably few methods known and"
+  },
+  {
+    "t_start": 655.19,
+    "t_end": 660.949,
+    "text": "there's remarkably few methods known and uh in some sense a very large part of my"
+  },
+  {
+    "t_start": 660.949,
+    "t_end": 663.35,
+    "text": "career has basically been studying just this one idea Burgers what's Burgers"
+  },
+  {
+    "t_start": 663.35,
+    "t_end": 665.389,
+    "text": "this one idea Burgers what's Burgers hierarchical method"
+  },
+  {
+    "t_start": 665.389,
+    "t_end": 670.97,
+    "text": "and so let me show you with the L tile because I thought I like the LT quite a"
+  },
+  {
+    "t_start": 670.97,
+    "t_end": 672.59,
+    "text": "because I thought I like the LT quite a bit obviously so the ltile is not an"
+  },
+  {
+    "t_start": 672.59,
+    "t_end": 674.81,
+    "text": "bit obviously so the ltile is not an aperiodic monotile but this is how you"
+  },
+  {
+    "t_start": 674.81,
+    "t_end": 677.69,
+    "text": "aperiodic monotile but this is how you can form non-periodic so-called"
+  },
+  {
+    "t_start": 677.69,
+    "t_end": 682.73,
+    "text": "hierarchical tilings with it using what we might call a tiling substitution rule"
+  },
+  {
+    "t_start": 682.73,
+    "t_end": 685.009,
+    "text": "we might call a tiling substitution rule this vocabulary all sort of changed over"
+  },
+  {
+    "t_start": 685.009,
+    "t_end": 688.25,
+    "text": "this vocabulary all sort of changed over the decades but this is the way I like"
+  },
+  {
+    "t_start": 688.25,
+    "t_end": 692.389,
+    "text": "so we can take this shape and we can rep we can inflate it"
+  },
+  {
+    "t_start": 692.389,
+    "t_end": 699.71,
+    "text": "the process again and do this process again and in this way we can make larger"
+  },
+  {
+    "t_start": 699.71,
+    "t_end": 703.009,
+    "text": "again and in this way we can make larger and larger super tiles it's not obvious"
+  },
+  {
+    "t_start": 703.009,
+    "t_end": 704.509,
+    "text": "and larger super tiles it's not obvious in fact it's"
+  },
+  {
+    "t_start": 704.509,
+    "t_end": 708.889,
+    "text": "it well it might seem obvious in fact if it seems obvious that's terrific because"
+  },
+  {
+    "t_start": 708.889,
+    "t_end": 712.61,
+    "text": "it seemed like you can make larger and larger super tiles that seems reasonable"
+  },
+  {
+    "t_start": 712.61,
+    "t_end": 716.329,
+    "text": "larger super tiles that seems reasonable to expect that you can then therefore"
+  },
+  {
+    "t_start": 716.329,
+    "t_end": 718.19,
+    "text": "cover the entire plane in some sense with an infinite super tile and that's"
+  },
+  {
+    "t_start": 718.19,
+    "t_end": 720.47,
+    "text": "with an infinite super tile and that's true but it's not obvious it sounds"
+  },
+  {
+    "t_start": 720.47,
+    "t_end": 722.509,
+    "text": "true but it's not obvious it sounds obvious but there's some subtleties here"
+  },
+  {
+    "t_start": 722.509,
+    "t_end": 727.19,
+    "text": "obvious but there's some subtleties here but basically you can imagine that this"
+  },
+  {
+    "t_start": 727.19,
+    "t_end": 733.85,
+    "text": "eventually get a tiling of the entire plane in fact you get as many tilings of"
+  },
+  {
+    "t_start": 733.85,
+    "t_end": 734.87,
+    "text": "plane in fact you get as many tilings of the plane"
+  },
+  {
+    "t_start": 734.87,
+    "t_end": 738.829,
+    "text": "that all look just like this as there are real numbers there's this"
+  },
+  {
+    "t_start": 738.829,
+    "t_end": 741.769,
+    "text": "are real numbers there's this uncountably infinitely many l tilings"
+  },
+  {
+    "t_start": 741.769,
+    "t_end": 744.05,
+    "text": "uncountably infinitely many l tilings with this exact same structure"
+  },
+  {
+    "t_start": 744.05,
+    "t_end": 748.85,
+    "text": "and what is this structure it's that every individual tile not just this red"
+  },
+  {
+    "t_start": 748.85,
+    "t_end": 751.069,
+    "text": "every individual tile not just this red one but any tile you would pick"
+  },
+  {
+    "t_start": 751.069,
+    "t_end": 753.59,
+    "text": "one but any tile you would pick lies within a unique"
+  },
+  {
+    "t_start": 753.59,
+    "t_end": 761.03,
+    "text": "of four tiles which is a an l and then those four lie in a unique cluster here"
+  },
+  {
+    "t_start": 761.03,
+    "t_end": 765.829,
+    "text": "those four lie in a unique cluster here shown in tan of what we might call a"
+  },
+  {
+    "t_start": 765.829,
+    "t_end": 770.449,
+    "text": "and that that clust the four of those lie in a unique third low second level"
+  },
+  {
+    "t_start": 770.449,
+    "t_end": 773.03,
+    "text": "lie in a unique third low second level third level fourth level and so on"
+  },
+  {
+    "t_start": 773.03,
+    "t_end": 778.43,
+    "text": "now this doesn't mean that the ltile is apiotic at all it just means that this"
+  },
+  {
+    "t_start": 778.43,
+    "t_end": 780.11,
+    "text": "apiotic at all it just means that this is a way of making non-periodic"
+  },
+  {
+    "t_start": 780.11,
+    "t_end": 781.37,
+    "text": "is a way of making non-periodic structures"
+  },
+  {
+    "t_start": 781.37,
+    "t_end": 787.61,
+    "text": "and why is this non-periodic so if we paint on back these lines we"
+  },
+  {
+    "t_start": 787.61,
+    "t_end": 789.11,
+    "text": "so if we paint on back these lines we can see"
+  },
+  {
+    "t_start": 789.11,
+    "t_end": 792.59,
+    "text": "this is now we can see this is with the hierarchical structure highlighted but"
+  },
+  {
+    "t_start": 792.59,
+    "t_end": 795.59,
+    "text": "it was always there whether it was highlighted or not you can reconstruct"
+  },
+  {
+    "t_start": 795.59,
+    "t_end": 799.37,
+    "text": "highlighted or not you can reconstruct it just because every L lies in a unique"
+  },
+  {
+    "t_start": 799.37,
+    "t_end": 801.29,
+    "text": "super tile lies within a unique Next Level unique next level"
+  },
+  {
+    "t_start": 801.29,
+    "t_end": 805.069,
+    "text": "Level unique next level with these lines it's more it's a little"
+  },
+  {
+    "t_start": 805.069,
+    "t_end": 811.91,
+    "text": "sort of structure at all possible scales and in particular suppose that you have"
+  },
+  {
+    "t_start": 811.91,
+    "t_end": 813.53,
+    "text": "and in particular suppose that you have a translation that you're interested in"
+  },
+  {
+    "t_start": 813.53,
+    "t_end": 815.81,
+    "text": "a translation that you're interested in suppose that you believe that maybe that"
+  },
+  {
+    "t_start": 815.81,
+    "t_end": 816.769,
+    "text": "suppose that you believe that maybe that shift"
+  },
+  {
+    "t_start": 816.769,
+    "t_end": 820.67,
+    "text": "which is obviously not going to leave the tiling alone that you'll obviously"
+  },
+  {
+    "t_start": 820.67,
+    "t_end": 823.31,
+    "text": "the tiling alone that you'll obviously be able to tell something moved with"
+  },
+  {
+    "t_start": 823.31,
+    "t_end": 825.71,
+    "text": "be able to tell something moved with that particular crazy shift"
+  },
+  {
+    "t_start": 825.71,
+    "t_end": 829.61,
+    "text": "but any shift you possibly could care about no matter how big particularly so"
+  },
+  {
+    "t_start": 829.61,
+    "t_end": 831.65,
+    "text": "about no matter how big particularly so whether it's a foot across a mile across"
+  },
+  {
+    "t_start": 831.65,
+    "t_end": 833.569,
+    "text": "whether it's a foot across a mile across a light year across"
+  },
+  {
+    "t_start": 833.569,
+    "t_end": 839.269,
+    "text": "you know vastly bigger than the universe across there's some L tile that's bigger"
+  },
+  {
+    "t_start": 839.269,
+    "t_end": 840.65,
+    "text": "across there's some L tile that's bigger than that"
+  },
+  {
+    "t_start": 840.65,
+    "t_end": 845.449,
+    "text": "and remember that this these hierarchies or hierarchies are unique"
+  },
+  {
+    "t_start": 845.449,
+    "t_end": 849.829,
+    "text": "that you can uniquely reconstruct the position of any tile within this"
+  },
+  {
+    "t_start": 849.829,
+    "t_end": 853.91,
+    "text": "position of any tile within this hierarchy of super tiles so suppose this"
+  },
+  {
+    "t_start": 853.91,
+    "t_end": 859.37,
+    "text": "then you move it over something has to be out of sync because if some if"
+  },
+  {
+    "t_start": 859.37,
+    "t_end": 866.09,
+    "text": "tile would land on top of itself in some way and in particular then you just I"
+  },
+  {
+    "t_start": 866.09,
+    "t_end": 868.129,
+    "text": "way and in particular then you just I wish I had made it I wasn't able to"
+  },
+  {
+    "t_start": 868.129,
+    "t_end": 869.93,
+    "text": "wish I had made it I wasn't able to manage the I'm sorry about this slide it"
+  },
+  {
+    "t_start": 869.93,
+    "t_end": 873.59,
+    "text": "manage the I'm sorry about this slide it didn't quite line up I'd like to have it"
+  },
+  {
+    "t_start": 873.59,
+    "t_end": 875.21,
+    "text": "line up at least a little bit so that some tile was lined up but you can"
+  },
+  {
+    "t_start": 875.21,
+    "t_end": 876.41,
+    "text": "some tile was lined up but you can imagine"
+  },
+  {
+    "t_start": 876.41,
+    "t_end": 881.569,
+    "text": "that some tile here uh here's the pointer"
+  },
+  {
+    "t_start": 881.569,
+    "t_end": 885.23,
+    "text": "if I can make it work that's some so suppose that that tile would actually"
+  },
+  {
+    "t_start": 885.23,
+    "t_end": 888.949,
+    "text": "suppose that that tile would actually lined up with itself that this tile"
+  },
+  {
+    "t_start": 888.949,
+    "t_end": 891.29,
+    "text": "would then lie in two different hierarchies of else"
+  },
+  {
+    "t_start": 891.29,
+    "t_end": 897.949,
+    "text": "but it doesn't it only lies in one the Ergo this didn't really happen"
+  },
+  {
+    "t_start": 900.17,
+    "t_end": 902.03,
+    "text": "so hierarchical tilings of this kind with the tiles organized into larger"
+  },
+  {
+    "t_start": 902.03,
+    "t_end": 905.629,
+    "text": "with the tiles organized into larger copies of themselves and Etc"
+  },
+  {
+    "t_start": 905.629,
+    "t_end": 908.269,
+    "text": "copies of themselves and Etc are necessarily non-periodic that is to"
+  },
+  {
+    "t_start": 908.269,
+    "t_end": 910.25,
+    "text": "are necessarily non-periodic that is to say I guess I should say hierarchically"
+  },
+  {
+    "t_start": 910.25,
+    "t_end": 913.55,
+    "text": "say I guess I should say hierarchically organized into uniquely organized into"
+  },
+  {
+    "t_start": 913.55,
+    "t_end": 918.71,
+    "text": "organized into uniquely organized into larger copies of themselves but that's"
+  },
+  {
+    "t_start": 918.71,
+    "t_end": 923.389,
+    "text": "or non-periodic now the ltol is not an a periodic monoton but nonetheless we can"
+  },
+  {
+    "t_start": 923.389,
+    "t_end": 927.35,
+    "text": "periodic monoton but nonetheless we can imitate that structure in some cases"
+  },
+  {
+    "t_start": 927.35,
+    "t_end": 931.67,
+    "text": "um in the Hat tile we don't have to go through any contortions with some other"
+  },
+  {
+    "t_start": 931.67,
+    "t_end": 933.41,
+    "text": "through any contortions with some other examples we don't"
+  },
+  {
+    "t_start": 933.41,
+    "t_end": 937.37,
+    "text": "have to worry about this quite so much but for the L tiles it turns out that"
+  },
+  {
+    "t_start": 937.37,
+    "t_end": 938.81,
+    "text": "but for the L tiles it turns out that these two tiles even though they don't"
+  },
+  {
+    "t_start": 938.81,
+    "t_end": 943.91,
+    "text": "these two tiles even though they don't look like L tiles when they fit together"
+  },
+  {
+    "t_start": 943.91,
+    "t_end": 945.59,
+    "text": "they can only create this ltile structure in the following way so just"
+  },
+  {
+    "t_start": 945.59,
+    "t_end": 946.55,
+    "text": "structure in the following way so just by some"
+  },
+  {
+    "t_start": 946.55,
+    "t_end": 952.009,
+    "text": "brute force uh non-interest not very easy to explain or interesting to"
+  },
+  {
+    "t_start": 952.009,
+    "t_end": 956.569,
+    "text": "explain but just chasing down the possibilities literally just decide like"
+  },
+  {
+    "t_start": 956.569,
+    "t_end": 958.31,
+    "text": "possibilities literally just decide like in this fit this way this way this way"
+  },
+  {
+    "t_start": 958.31,
+    "t_end": 964.73,
+    "text": "in this fit this way this way this way it finds that this tile can only form"
+  },
+  {
+    "t_start": 964.73,
+    "t_end": 972.23,
+    "text": "and these colored regions are sort of active in the sense of determining"
+  },
+  {
+    "t_start": 972.23,
+    "t_end": 974.81,
+    "text": "active in the sense of determining further structure that's"
+  },
+  {
+    "t_start": 974.81,
+    "t_end": 979.67,
+    "text": "so they can only do this and then those in turn can only organize up another"
+  },
+  {
+    "t_start": 979.67,
+    "t_end": 981.71,
+    "text": "in turn can only organize up another level so this is just chasing it down"
+  },
+  {
+    "t_start": 981.71,
+    "t_end": 984.889,
+    "text": "level so this is just chasing it down there's no real reason other than it"
+  },
+  {
+    "t_start": 984.889,
+    "t_end": 987.29,
+    "text": "there's no real reason other than it were like you just argue for 10 pages"
+  },
+  {
+    "t_start": 987.29,
+    "t_end": 988.61,
+    "text": "were like you just argue for 10 pages that it works"
+  },
+  {
+    "t_start": 988.61,
+    "t_end": 992.93,
+    "text": "and literally this is actually a remarkably complicated proof for this"
+  },
+  {
+    "t_start": 992.93,
+    "t_end": 994.009,
+    "text": "remarkably complicated proof for this little guy"
+  },
+  {
+    "t_start": 994.009,
+    "t_end": 1000.73,
+    "text": "which is itself kind of interesting and uh and then those can only in turn"
+  },
+  {
+    "t_start": 1000.73,
+    "t_end": 1002.61,
+    "text": "form larger and if you squint you can see that"
+  },
+  {
+    "t_start": 1002.61,
+    "t_end": 1007.689,
+    "text": "the if you just sort of erase all the extraneous markings you can reconstruct"
+  },
+  {
+    "t_start": 1007.689,
+    "t_end": 1010.15,
+    "text": "extraneous markings you can reconstruct underneath that this hierarchy of L's"
+  },
+  {
+    "t_start": 1010.15,
+    "t_end": 1014.47,
+    "text": "underneath that this hierarchy of L's that may or may not be real clear but"
+  },
+  {
+    "t_start": 1014.47,
+    "t_end": 1015.49,
+    "text": "you can kind of begin to see some of that"
+  },
+  {
+    "t_start": 1015.49,
+    "t_end": 1020.61,
+    "text": "and so these guys are aperiodic because they"
+  },
+  {
+    "t_start": 1020.61,
+    "t_end": 1027.25,
+    "text": "structure and this is really Berger's idea going back to the very beginning of"
+  },
+  {
+    "t_start": 1027.25,
+    "t_end": 1028.809,
+    "text": "idea going back to the very beginning of the field"
+  },
+  {
+    "t_start": 1028.809,
+    "t_end": 1035.71,
+    "text": "of course we have the magical Penrose ROMs with the hierarchy of pentagons"
+  },
+  {
+    "t_start": 1035.71,
+    "t_end": 1038.289,
+    "text": "ROMs with the hierarchy of pentagons upon pentagons"
+  },
+  {
+    "t_start": 1038.289,
+    "t_end": 1045.73,
+    "text": "we have an example by Amman who this remarkable example and there's many more"
+  },
+  {
+    "t_start": 1045.73,
+    "t_end": 1050.11,
+    "text": "remarkable example and there's many more and of course the natural question is"
+  },
+  {
+    "t_start": 1050.11,
+    "t_end": 1053.53,
+    "text": "okay we started with thousands of tiles quickly Berger got this to uh under 200"
+  },
+  {
+    "t_start": 1053.53,
+    "t_end": 1059.95,
+    "text": "I believe and then quickly down to six and then two and for decades it remained"
+  },
+  {
+    "t_start": 1059.95,
+    "t_end": 1065.47,
+    "text": "and then two and for decades it remained at two and of course we ask naturally"
+  },
+  {
+    "t_start": 1065.47,
+    "t_end": 1070.87,
+    "text": "answer now but you didn't a few weeks ago and is there an aperiodic monotile"
+  },
+  {
+    "t_start": 1070.87,
+    "t_end": 1077.169,
+    "text": "ago and is there an aperiodic monotile in particular or is there an Einstein"
+  },
+  {
+    "t_start": 1077.169,
+    "t_end": 1080.35,
+    "text": "so that's how it was and then where are you Dave where's Dave where"
+  },
+  {
+    "t_start": 1080.35,
+    "t_end": 1085.75,
+    "text": "where are you Dave where's Dave where yeah let's give them a hand is he here"
+  },
+  {
+    "t_start": 1085.75,
+    "t_end": 1089.65,
+    "text": "I don't see him there he is There's the Man okay so all"
+  },
+  {
+    "t_start": 1089.65,
+    "t_end": 1092.59,
+    "text": "right so thanks Dave"
+  },
+  {
+    "t_start": 1094.39,
+    "t_end": 1098.71,
+    "text": "really thanks I really really honestly on behalf of all of us really most"
+  },
+  {
+    "t_start": 1098.71,
+    "t_end": 1100.63,
+    "text": "sincerely thank you because this is a big deal actually can we just do that"
+  },
+  {
+    "t_start": 1100.63,
+    "t_end": 1106.21,
+    "text": "big deal actually can we just do that again let's now we know where it is"
+  },
+  {
+    "t_start": 1113.11,
+    "t_end": 1117.49,
+    "text": "I won't make us do that a third time but you know I feel it so uh we got the"
+  },
+  {
+    "t_start": 1117.49,
+    "t_end": 1118.99,
+    "text": "you know I feel it so uh we got the story a little earlier this afternoon"
+  },
+  {
+    "t_start": 1118.99,
+    "t_end": 1124.51,
+    "text": "story a little earlier this afternoon from Craig but of course uh uh many are"
+  },
+  {
+    "t_start": 1124.51,
+    "t_end": 1129.31,
+    "text": "new here so this is the first uh as I understand it the first computer"
+  },
+  {
+    "t_start": 1129.31,
+    "t_end": 1134.289,
+    "text": "generated patch of hats out to some distance using Craig's"
+  },
+  {
+    "t_start": 1134.289,
+    "t_end": 1138.73,
+    "text": "software for I guess it's discovering hash numbers would be a characterization"
+  },
+  {
+    "t_start": 1138.73,
+    "t_end": 1141.25,
+    "text": "hash numbers would be a characterization of it and I find it quite remarkable"
+  },
+  {
+    "t_start": 1141.25,
+    "t_end": 1145.27,
+    "text": "of it and I find it quite remarkable honestly that just staring at this thing"
+  },
+  {
+    "t_start": 1145.27,
+    "t_end": 1147.669,
+    "text": "honestly that just staring at this thing quickly you guys found this"
+  },
+  {
+    "t_start": 1147.669,
+    "t_end": 1153.43,
+    "text": "from the distance you know like a mirage and there we have some structure to work"
+  },
+  {
+    "t_start": 1153.43,
+    "t_end": 1154.21,
+    "text": "and there we have some structure to work with"
+  },
+  {
+    "t_start": 1154.21,
+    "t_end": 1160.63,
+    "text": "and soon after noticing that this can be discovered this can be decomposed this"
+  },
+  {
+    "t_start": 1160.63,
+    "t_end": 1163.81,
+    "text": "discovered this can be decomposed this can actually be handled differently so"
+  },
+  {
+    "t_start": 1163.81,
+    "t_end": 1167.65,
+    "text": "out in the lobby we have a different method of of composing the hats into"
+  },
+  {
+    "t_start": 1167.65,
+    "t_end": 1169.69,
+    "text": "method of of composing the hats into larger and larger structures which I"
+  },
+  {
+    "t_start": 1169.69,
+    "t_end": 1171.789,
+    "text": "larger and larger structures which I think probably will could ultimately"
+  },
+  {
+    "t_start": 1171.789,
+    "t_end": 1178.09,
+    "text": "lead to a proof similar to that of the Specter if somebody will pursue that but"
+  },
+  {
+    "t_start": 1178.09,
+    "t_end": 1179.89,
+    "text": "Specter if somebody will pursue that but this is the proof we have in the paper"
+  },
+  {
+    "t_start": 1179.89,
+    "t_end": 1183.789,
+    "text": "this is the proof we have in the paper so that these tiles uh by Brute Force"
+  },
+  {
+    "t_start": 1183.789,
+    "t_end": 1186.43,
+    "text": "so that these tiles uh by Brute Force checked can be checked that they can"
+  },
+  {
+    "t_start": 1186.43,
+    "t_end": 1192.01,
+    "text": "only form configurations that can be decomposed into these four chunks here"
+  },
+  {
+    "t_start": 1192.01,
+    "t_end": 1194.71,
+    "text": "decomposed into these four chunks here that this that this stuff here is is"
+  },
+  {
+    "t_start": 1194.71,
+    "t_end": 1201.07,
+    "text": "uniquely determined that it's it's just force that you can always do that and"
+  },
+  {
+    "t_start": 1201.07,
+    "t_end": 1202.75,
+    "text": "then these in turn have this nice hierarchical structure right out the"
+  },
+  {
+    "t_start": 1202.75,
+    "t_end": 1206.23,
+    "text": "hierarchical structure right out the gate so it's a little this is a pretty"
+  },
+  {
+    "t_start": 1206.23,
+    "t_end": 1211.15,
+    "text": "slide to look at at a glance you have to really study it but essentially at the"
+  },
+  {
+    "t_start": 1211.15,
+    "t_end": 1212.71,
+    "text": "really study it but essentially at the upper left"
+  },
+  {
+    "t_start": 1212.71,
+    "t_end": 1218.409,
+    "text": "we have uh we have a little guy that's inflated to a bigger chunk to a bigger"
+  },
+  {
+    "t_start": 1218.409,
+    "t_end": 1223.69,
+    "text": "inflated to a bigger chunk to a bigger chunk to a bigger chunk still it's the"
+  },
+  {
+    "t_start": 1223.69,
+    "t_end": 1226.33,
+    "text": "exact same phenomenon of having these hierarchical uh structures and for the"
+  },
+  {
+    "t_start": 1226.33,
+    "t_end": 1228.669,
+    "text": "hierarchical uh structures and for the exact same reason this is non-periodic"
+  },
+  {
+    "t_start": 1228.669,
+    "t_end": 1229.81,
+    "text": "exact same reason this is non-periodic that there'd be"
+  },
+  {
+    "t_start": 1229.81,
+    "t_end": 1234.25,
+    "text": "uh whatever scale you consider this at there's some larger super tile than that"
+  },
+  {
+    "t_start": 1234.25,
+    "t_end": 1235.75,
+    "text": "there's some larger super tile than that scale"
+  },
+  {
+    "t_start": 1235.75,
+    "t_end": 1240.85,
+    "text": "and immediately we saw this phenomenal arrang like this is like within 48 hours"
+  },
+  {
+    "t_start": 1240.85,
+    "t_end": 1242.71,
+    "text": "arrang like this is like within 48 hours or something right we started to see"
+  },
+  {
+    "t_start": 1242.71,
+    "t_end": 1245.169,
+    "text": "or something right we started to see this incredible so I mean it's it's I've"
+  },
+  {
+    "t_start": 1245.169,
+    "t_end": 1247.15,
+    "text": "this incredible so I mean it's it's I've never it's just astonishing and of"
+  },
+  {
+    "t_start": 1247.15,
+    "t_end": 1248.83,
+    "text": "never it's just astonishing and of course everybody agrees that it's a"
+  },
+  {
+    "t_start": 1248.83,
+    "t_end": 1253.81,
+    "text": "shirt so somehow they uh no but I mean it's funny to see your emails because"
+  },
+  {
+    "t_start": 1253.81,
+    "t_end": 1255.43,
+    "text": "it's funny to see your emails because you and Dave both thought it was assured"
+  },
+  {
+    "t_start": 1255.43,
+    "t_end": 1256.77,
+    "text": "you and Dave both thought it was assured initially and then"
+  },
+  {
+    "t_start": 1256.77,
+    "t_end": 1262.51,
+    "text": "backed into a hat but it but anyway it is a hat it's a hat and that's the story"
+  },
+  {
+    "t_start": 1262.51,
+    "t_end": 1264.61,
+    "text": "is a hat it's a hat and that's the story and we're sticking with it so we"
+  },
+  {
+    "t_start": 1264.61,
+    "t_end": 1267.909,
+    "text": "and we're sticking with it so we immediately saw this wonderful example"
+  },
+  {
+    "t_start": 1267.909,
+    "t_end": 1272.23,
+    "text": "and I guess we should remind ourselves of this I'll I'll put a little blurb up"
+  },
+  {
+    "t_start": 1272.23,
+    "t_end": 1274.75,
+    "text": "of this I'll I'll put a little blurb up of that at the end and incredible"
+  },
+  {
+    "t_start": 1274.75,
+    "t_end": 1279.19,
+    "text": "of that at the end and incredible examples and this uh amazing"
+  },
+  {
+    "t_start": 1279.19,
+    "t_end": 1283.81,
+    "text": "examples and this uh amazing thing so you can get yourself a beer and"
+  },
+  {
+    "t_start": 1283.81,
+    "t_end": 1288.01,
+    "text": "um and then just to quickly say something about this that Joseph soon"
+  },
+  {
+    "t_start": 1288.01,
+    "t_end": 1290.289,
+    "text": "something about this that Joseph soon noticed this combinatorial equivalence"
+  },
+  {
+    "t_start": 1290.289,
+    "t_end": 1296.169,
+    "text": "family and that remarkably that led to a whole nother proof a whole new style of"
+  },
+  {
+    "t_start": 1296.169,
+    "t_end": 1298.75,
+    "text": "whole nother proof a whole new style of proof of apriadicity which itself is"
+  },
+  {
+    "t_start": 1298.75,
+    "t_end": 1299.95,
+    "text": "proof of apriadicity which itself is very exciting"
+  },
+  {
+    "t_start": 1299.95,
+    "t_end": 1303.43,
+    "text": "and of course the question came up of whether or not we should allow"
+  },
+  {
+    "t_start": 1303.43,
+    "t_end": 1306.01,
+    "text": "whether or not we should allow Reflections I think this is a beautiful"
+  },
+  {
+    "t_start": 1306.01,
+    "t_end": 1308.169,
+    "text": "Reflections I think this is a beautiful beautiful"
+  },
+  {
+    "t_start": 1308.169,
+    "t_end": 1314.11,
+    "text": "um graphic by yoshiarakai and in particular if it's really two shapes"
+  },
+  {
+    "t_start": 1314.11,
+    "t_end": 1318.07,
+    "text": "then why is it so hard to tell the difference you know really I think this"
+  },
+  {
+    "t_start": 1318.07,
+    "t_end": 1319.45,
+    "text": "difference you know really I think this is also kind of a compelling argument"
+  },
+  {
+    "t_start": 1319.45,
+    "t_end": 1321.97,
+    "text": "is also kind of a compelling argument for being one shape but just on that"
+  },
+  {
+    "t_start": 1321.97,
+    "t_end": 1323.71,
+    "text": "for being one shape but just on that note not to sound too defensive about it"
+  },
+  {
+    "t_start": 1323.71,
+    "t_end": 1326.77,
+    "text": "note not to sound too defensive about it but even Euclid himself and and not none"
+  },
+  {
+    "t_start": 1326.77,
+    "t_end": 1328.57,
+    "text": "but even Euclid himself and and not none other than proper the fourth proposition"
+  },
+  {
+    "t_start": 1328.57,
+    "t_end": 1333.19,
+    "text": "other than proper the fourth proposition and the first book of Euclid's elements"
+  },
+  {
+    "t_start": 1333.19,
+    "t_end": 1335.47,
+    "text": "quite clearly takes Reflections to mean the same he talks about the when two"
+  },
+  {
+    "t_start": 1335.47,
+    "t_end": 1336.789,
+    "text": "the same he talks about the when two triangles are equivalent and it's"
+  },
+  {
+    "t_start": 1336.789,
+    "t_end": 1338.59,
+    "text": "triangles are equivalent and it's obvious he means Reflections now that"
+  },
+  {
+    "t_start": 1338.59,
+    "t_end": 1341.23,
+    "text": "obvious he means Reflections now that may sound a little defensive that's fine"
+  },
+  {
+    "t_start": 1341.23,
+    "t_end": 1343.51,
+    "text": "may sound a little defensive that's fine because quickly we took care of the"
+  },
+  {
+    "t_start": 1343.51,
+    "t_end": 1346.81,
+    "text": "because quickly we took care of the situation and uh thanks to Dave noticing"
+  },
+  {
+    "t_start": 1346.81,
+    "t_end": 1348.85,
+    "text": "situation and uh thanks to Dave noticing that the Specter the so-called Specter"
+  },
+  {
+    "t_start": 1348.85,
+    "t_end": 1354.31,
+    "text": "might work so this is a variation it's of course in the movie it's right in the"
+  },
+  {
+    "t_start": 1354.31,
+    "t_end": 1358.57,
+    "text": "of course in the movie it's right in the middle when all of the edge lengths are"
+  },
+  {
+    "t_start": 1358.57,
+    "t_end": 1361.09,
+    "text": "equivalent you have the possibility of not reflecting and still have and just"
+  },
+  {
+    "t_start": 1361.09,
+    "t_end": 1365.77,
+    "text": "by a miracle let's just face it it is there's no reason to ex like come into"
+  },
+  {
+    "t_start": 1365.77,
+    "t_end": 1367.27,
+    "text": "there's no reason to ex like come into this with the expectation that any of"
+  },
+  {
+    "t_start": 1367.27,
+    "t_end": 1368.83,
+    "text": "this with the expectation that any of this would have worked right I don't"
+  },
+  {
+    "t_start": 1368.83,
+    "t_end": 1369.669,
+    "text": "this would have worked right I don't think"
+  },
+  {
+    "t_start": 1369.669,
+    "t_end": 1375.31,
+    "text": "think not this maybe next time but they um"
+  },
+  {
+    "t_start": 1375.31,
+    "t_end": 1381.13,
+    "text": "but by some miracle so it has enough Flex it has too much flexibility if you"
+  },
+  {
+    "t_start": 1381.13,
+    "t_end": 1385.45,
+    "text": "but if you don't flip it over then now suddenly magically you've removed just"
+  },
+  {
+    "t_start": 1385.45,
+    "t_end": 1389.409,
+    "text": "suddenly magically you've removed just enough flexibility that suddenly it's an"
+  },
+  {
+    "t_start": 1389.409,
+    "t_end": 1393.789,
+    "text": "and uh because it's chiral you can modify the edges with even more exciting"
+  },
+  {
+    "t_start": 1393.789,
+    "t_end": 1395.169,
+    "text": "modify the edges with even more exciting possibilities"
+  },
+  {
+    "t_start": 1395.169,
+    "t_end": 1400.51,
+    "text": "and so here's another Yoshi drawing here's rob batauer it really is a"
+  },
+  {
+    "t_start": 1400.51,
+    "t_end": 1401.71,
+    "text": "here's rob batauer it really is a specter"
+  },
+  {
+    "t_start": 1401.71,
+    "t_end": 1408.49,
+    "text": "this is a absolutely beautiful uh piece of cloth by I believe Ellie Baker"
+  },
+  {
+    "t_start": 1408.49,
+    "t_end": 1412.51,
+    "text": "and this is coming up I don't know if I've got the money right I forgot to ask"
+  },
+  {
+    "t_start": 1412.51,
+    "t_end": 1415.81,
+    "text": "I've got the money right I forgot to ask is this right so the Einstein Matt Hat"
+  },
+  {
+    "t_start": 1415.81,
+    "t_end": 1418.39,
+    "text": "is this right so the Einstein Matt Hat awards are coming up with uh with real"
+  },
+  {
+    "t_start": 1418.39,
+    "t_end": 1421.51,
+    "text": "awards are coming up with uh with real cash prizes I'm not actually quite sure"
+  },
+  {
+    "t_start": 1421.51,
+    "t_end": 1422.83,
+    "text": "cash prizes I'm not actually quite sure if that's right but it's really a"
+  },
+  {
+    "t_start": 1422.83,
+    "t_end": 1424.27,
+    "text": "if that's right but it's really a substantial amount of money that's not"
+  },
+  {
+    "t_start": 1424.27,
+    "t_end": 1426.25,
+    "text": "substantial amount of money that's not all for one prize but distributed across"
+  },
+  {
+    "t_start": 1426.25,
+    "t_end": 1428.169,
+    "text": "all for one prize but distributed across there'll be a contest for school"
+  },
+  {
+    "t_start": 1428.169,
+    "t_end": 1430.45,
+    "text": "there'll be a contest for school children in the UK in the U.S"
+  },
+  {
+    "t_start": 1430.45,
+    "t_end": 1432.31,
+    "text": "children in the UK in the U.S what's that"
+  },
+  {
+    "t_start": 1432.31,
+    "t_end": 1437.47,
+    "text": "yeah I know I actually I apologize to everybody here in everybody British here"
+  },
+  {
+    "t_start": 1437.47,
+    "t_end": 1441.27,
+    "text": "everybody here in everybody British here but I couldn't you'll have to tell me"
+  },
+  {
+    "t_start": 1441.27,
+    "t_end": 1444.549,
+    "text": "where the pound key is I'm so sorry I meant to do that and I just uh"
+  },
+  {
+    "t_start": 1444.549,
+    "t_end": 1448.33,
+    "text": "I meant to do that and I just uh forgot so anyway that's all I have to"
+  },
+  {
+    "t_start": 1448.33,
+    "t_end": 1452.06,
+    "text": "say to introduce this wonderful wonderful uh topic to you and uh thank"
+  },
+  {
+    "t_start": 1452.06,
+    "t_end": 1461.289,
+    "text": "you very much [Applause]"
+  },
+  {
+    "t_start": 1461.289,
+    "t_end": 1464.89,
+    "text": "let me first of all start with a question that kind of acknowledges the"
+  },
+  {
+    "t_start": 1464.89,
+    "t_end": 1465.909,
+    "text": "question that kind of acknowledges the uh"
+  },
+  {
+    "t_start": 1465.909,
+    "t_end": 1471.07,
+    "text": "um what time was already mentioning if uh tremendous public interest uh into"
+  },
+  {
+    "t_start": 1471.07,
+    "t_end": 1472.87,
+    "text": "uh tremendous public interest uh into this discovery"
+  },
+  {
+    "t_start": 1472.87,
+    "t_end": 1478.57,
+    "text": "um so what do you think about this particular mathematical story has made"
+  },
+  {
+    "t_start": 1478.57,
+    "t_end": 1483.789,
+    "text": "particular mathematical story has made it so interesting to just about anybody"
+  },
+  {
+    "t_start": 1483.789,
+    "t_end": 1487.99,
+    "text": "and is this something that we could ever repeat"
+  },
+  {
+    "t_start": 1489.49,
+    "t_end": 1493.149,
+    "text": "well I think the thing is it's very easy to understand what you're doing I mean a"
+  },
+  {
+    "t_start": 1493.149,
+    "t_end": 1495.13,
+    "text": "to understand what you're doing I mean a lot of mathematics you have to explain"
+  },
+  {
+    "t_start": 1495.13,
+    "t_end": 1497.59,
+    "text": "lot of mathematics you have to explain this and the the other thing before"
+  },
+  {
+    "t_start": 1497.59,
+    "t_end": 1499.81,
+    "text": "this and the the other thing before people know what you've really done"
+  },
+  {
+    "t_start": 1499.81,
+    "t_end": 1503.23,
+    "text": "people know what you've really done whereas in this case you can cheat the"
+  },
+  {
+    "t_start": 1503.23,
+    "t_end": 1509.83,
+    "text": "necessarily see that it covers the whole play and that's a little trickier"
+  },
+  {
+    "t_start": 1509.83,
+    "t_end": 1511.81,
+    "text": "play and that's a little trickier you can't necessarily see that if it"
+  },
+  {
+    "t_start": 1511.81,
+    "t_end": 1515.35,
+    "text": "you can't necessarily see that if it covers the whole plane it's not doing it"
+  },
+  {
+    "t_start": 1515.35,
+    "t_end": 1521.049,
+    "text": "but the idea is a very simple one so I think that's why it catches on"
+  },
+  {
+    "t_start": 1521.049,
+    "t_end": 1523.27,
+    "text": "think that's why it catches on certainly most mathematical ideas you"
+  },
+  {
+    "t_start": 1523.27,
+    "t_end": 1526.149,
+    "text": "certainly most mathematical ideas you have to do a lot of explaining what"
+  },
+  {
+    "t_start": 1526.149,
+    "t_end": 1532.93,
+    "text": "and a lot of Prior understanding of what kind of mathematics goes into it"
+  },
+  {
+    "t_start": 1532.93,
+    "t_end": 1539.35,
+    "text": "kind of mathematics goes into it so I think that's this one reason"
+  },
+  {
+    "t_start": 1541.57,
+    "t_end": 1546.13,
+    "text": "I agree with that completely and I think along with that is the fact that you can"
+  },
+  {
+    "t_start": 1546.13,
+    "t_end": 1548.409,
+    "text": "do it you can cut these out and you can play with them and see how they fit"
+  },
+  {
+    "t_start": 1548.409,
+    "t_end": 1551.71,
+    "text": "together and how they don't fit together and get some understanding that way"
+  },
+  {
+    "t_start": 1551.71,
+    "t_end": 1553.39,
+    "text": "and get some understanding that way which is very unusual I'm thinking"
+  },
+  {
+    "t_start": 1553.39,
+    "t_end": 1556.269,
+    "text": "which is very unusual I'm thinking comparison of this wonderful Discovery"
+  },
+  {
+    "t_start": 1556.269,
+    "t_end": 1562.09,
+    "text": "comparison of this wonderful Discovery with the proof of fair Mars Last Theorem"
+  },
+  {
+    "t_start": 1562.09,
+    "t_end": 1563.83,
+    "text": "which was a great great uh event in mathematics too but you can't sit and"
+  },
+  {
+    "t_start": 1563.83,
+    "t_end": 1566.35,
+    "text": "mathematics too but you can't sit and play with fairness there very well uh"
+  },
+  {
+    "t_start": 1566.35,
+    "t_end": 1568.81,
+    "text": "play with fairness there very well uh this one anybody can take that shape and"
+  },
+  {
+    "t_start": 1568.81,
+    "t_end": 1570.49,
+    "text": "this one anybody can take that shape and cut it out and make cookies and eat them"
+  },
+  {
+    "t_start": 1570.49,
+    "t_end": 1573.25,
+    "text": "cut it out and make cookies and eat them whatever you need to do but you can uh"
+  },
+  {
+    "t_start": 1573.25,
+    "t_end": 1577.81,
+    "text": "you can get your hands on them literally and I think that gives it gives not only"
+  },
+  {
+    "t_start": 1577.81,
+    "t_end": 1582.93,
+    "text": "and I think that gives it gives not only understanding but also appreciation"
+  },
+  {
+    "t_start": 1586.75,
+    "t_end": 1591.07,
+    "text": "uh yeah fall yeah it also helps the era we're in where it has been so easy to"
+  },
+  {
+    "t_start": 1591.07,
+    "t_end": 1595.21,
+    "text": "both by releasing the paper in a way that people could see and software"
+  },
+  {
+    "t_start": 1595.21,
+    "t_end": 1599.529,
+    "text": "anybody could play with and we live in an age where all of these incredible"
+  },
+  {
+    "t_start": 1599.529,
+    "t_end": 1602.649,
+    "text": "an age where all of these incredible tools laser cutters 3D printers are"
+  },
+  {
+    "t_start": 1602.649,
+    "t_end": 1604.33,
+    "text": "tools laser cutters 3D printers are immediately accessible to so many people"
+  },
+  {
+    "t_start": 1604.33,
+    "t_end": 1610.029,
+    "text": "immediately accessible to so many people so that even makes it easier to to do"
+  },
+  {
+    "t_start": 1610.029,
+    "t_end": 1614.59,
+    "text": "that kind of playing around I've signed many physical tiles"
+  },
+  {
+    "t_start": 1619.99,
+    "t_end": 1623.47,
+    "text": "I would just like to add I would just oh sorry I would just like to add though"
+  },
+  {
+    "t_start": 1623.47,
+    "t_end": 1625.75,
+    "text": "that it's just astonishing isn't it I mean I I can't I certainly can't think"
+  },
+  {
+    "t_start": 1625.75,
+    "t_end": 1633.31,
+    "text": "of anything like it and I don't expect to see anything like it I don't know but"
+  },
+  {
+    "t_start": 1633.31,
+    "t_end": 1637.81,
+    "text": "have made it their own and the the level at which like people have really taken"
+  },
+  {
+    "t_start": 1637.81,
+    "t_end": 1639.13,
+    "text": "at which like people have really taken possession of it"
+  },
+  {
+    "t_start": 1639.13,
+    "t_end": 1643.75,
+    "text": "in their hearts in some fundamental way that um I don't think I've been"
+  },
+  {
+    "t_start": 1643.75,
+    "t_end": 1645.85,
+    "text": "that um I don't think I've been associated with anything that has"
+  },
+  {
+    "t_start": 1645.85,
+    "t_end": 1648.37,
+    "text": "associated with anything that has perhaps the same possibility of some"
+  },
+  {
+    "t_start": 1648.37,
+    "t_end": 1650.59,
+    "text": "perhaps the same possibility of some permanence in this world and universe"
+  },
+  {
+    "t_start": 1650.59,
+    "t_end": 1654.31,
+    "text": "permanence in this world and universe it's remarkable"
+  },
+  {
+    "t_start": 1655.21,
+    "t_end": 1659.95,
+    "text": "um so let me follow up on that this is like a a personal conundrum um so when"
+  },
+  {
+    "t_start": 1659.95,
+    "t_end": 1661.69,
+    "text": "like a a personal conundrum um so when you go around and you meet people most"
+  },
+  {
+    "t_start": 1661.69,
+    "t_end": 1662.649,
+    "text": "you go around and you meet people most of them friends they say some"
+  },
+  {
+    "t_start": 1662.649,
+    "t_end": 1663.85,
+    "text": "of them friends they say some mathematicians anyway so I'd have to"
+  },
+  {
+    "t_start": 1663.85,
+    "t_end": 1666.49,
+    "text": "mathematicians anyway so I'd have to talk to people who are not my"
+  },
+  {
+    "t_start": 1666.49,
+    "t_end": 1670.149,
+    "text": "um but um if you do and you say that they're a mathematician then the"
+  },
+  {
+    "t_start": 1670.149,
+    "t_end": 1674.23,
+    "text": "they're a mathematician then the response is often oh I was never any"
+  },
+  {
+    "t_start": 1674.23,
+    "t_end": 1677.95,
+    "text": "um or people feel they're mathematics somehow abstract and it's out there and"
+  },
+  {
+    "t_start": 1677.95,
+    "t_end": 1680.35,
+    "text": "somehow abstract and it's out there and um something that not anybody not just"
+  },
+  {
+    "t_start": 1680.35,
+    "t_end": 1685.81,
+    "text": "anybody can enjoy so can you give me a good response to that what should I tell"
+  },
+  {
+    "t_start": 1685.81,
+    "t_end": 1688.269,
+    "text": "good response to that what should I tell people what should I say"
+  },
+  {
+    "t_start": 1688.269,
+    "t_end": 1694.029,
+    "text": "so what was it I didn't quite get what the question was sorry oh what do you"
+  },
+  {
+    "t_start": 1694.029,
+    "t_end": 1695.47,
+    "text": "the question was sorry oh what do you respond to people when they"
+  },
+  {
+    "t_start": 1695.47,
+    "t_end": 1702.31,
+    "text": "mathematics that it's oh I see for them you're saying they never was any good at"
+  },
+  {
+    "t_start": 1702.31,
+    "t_end": 1706.21,
+    "text": "you're saying they never was any good at mathematics for example yeah yes well I"
+  },
+  {
+    "t_start": 1706.21,
+    "t_end": 1709.99,
+    "text": "mathematics for example yeah yes well I can sort of understand it I mean I'm"
+  },
+  {
+    "t_start": 1709.99,
+    "t_end": 1714.669,
+    "text": "passion I think if you are interested in mathematics there is a certain passion"
+  },
+  {
+    "t_start": 1714.669,
+    "t_end": 1716.47,
+    "text": "mathematics there is a certain passion one has for the subject"
+  },
+  {
+    "t_start": 1716.47,
+    "t_end": 1718.57,
+    "text": "one has for the subject which I find quite understandable if"
+  },
+  {
+    "t_start": 1718.57,
+    "t_end": 1720.97,
+    "text": "which I find quite understandable if somebody doesn't have that passion and"
+  },
+  {
+    "t_start": 1720.97,
+    "t_end": 1724.75,
+    "text": "somebody doesn't have that passion and when is something a beautiful idea or"
+  },
+  {
+    "t_start": 1724.75,
+    "t_end": 1729.07,
+    "text": "when is it something a little bit obscure and not have anything directly"
+  },
+  {
+    "t_start": 1729.07,
+    "t_end": 1732.07,
+    "text": "obscure and not have anything directly connected with everyday life"
+  },
+  {
+    "t_start": 1732.07,
+    "t_end": 1738.85,
+    "text": "huge amount to do with everyday life but I think that's to see directly what it"
+  },
+  {
+    "t_start": 1738.85,
+    "t_end": 1741.97,
+    "text": "I think that's to see directly what it does is not easy"
+  },
+  {
+    "t_start": 1741.97,
+    "t_end": 1747.31,
+    "text": "does is not easy so I think that's the best I can do for"
+  },
+  {
+    "t_start": 1749.529,
+    "t_end": 1751.63,
+    "text": "did you want anybody else I guess I guess it's my I'm now currently working"
+  },
+  {
+    "t_start": 1751.63,
+    "t_end": 1756.669,
+    "text": "guess it's my I'm now currently working at momath and so I suppose it's my job"
+  },
+  {
+    "t_start": 1756.669,
+    "t_end": 1758.11,
+    "text": "to help people think Math is fun but it's a difficult question right because"
+  },
+  {
+    "t_start": 1758.11,
+    "t_end": 1759.789,
+    "text": "it's a difficult question right because as mathematicians to engage in"
+  },
+  {
+    "t_start": 1759.789,
+    "t_end": 1765.669,
+    "text": "different than the kind of ways that we encourage people to approach mathematics"
+  },
+  {
+    "t_start": 1765.669,
+    "t_end": 1770.59,
+    "text": "encourage people to approach mathematics as a friendly kind of endeavor and I"
+  },
+  {
+    "t_start": 1770.59,
+    "t_end": 1772.99,
+    "text": "can't really square that Circle I don't really know somehow though cert"
+  },
+  {
+    "t_start": 1772.99,
+    "t_end": 1775.149,
+    "text": "really know somehow though cert obviously it's possible to enjoy"
+  },
+  {
+    "t_start": 1775.149,
+    "t_end": 1778.149,
+    "text": "obviously it's possible to enjoy mathematical ideas as a as a consumer as"
+  },
+  {
+    "t_start": 1778.149,
+    "t_end": 1784.269,
+    "text": "mathematical ideas as a as a consumer as it were and participate fully but um"
+  },
+  {
+    "t_start": 1784.269,
+    "t_end": 1786.07,
+    "text": "I don't know mathematics is hard what can you say"
+  },
+  {
+    "t_start": 1786.07,
+    "t_end": 1791.649,
+    "text": "it's fun and it's hard but I think every subject is hard if you're"
+  },
+  {
+    "t_start": 1791.649,
+    "t_end": 1793.57,
+    "text": "I think every subject is hard if you're really studying it and I think that"
+  },
+  {
+    "t_start": 1793.57,
+    "t_end": 1795.75,
+    "text": "really studying it and I think that maybe culturally people are"
+  },
+  {
+    "t_start": 1795.75,
+    "t_end": 1801.01,
+    "text": "think that they can't do math and therefore it's okay to say that so the"
+  },
+  {
+    "t_start": 1801.01,
+    "t_end": 1804.49,
+    "text": "people have come up to me and say I can't oh you do man I can't do math and"
+  },
+  {
+    "t_start": 1804.49,
+    "t_end": 1811.029,
+    "text": "can't do history yeah I I never could do French I couldn't speak German I mean we"
+  },
+  {
+    "t_start": 1811.029,
+    "t_end": 1813.01,
+    "text": "French I couldn't speak German I mean we don't say things like that usually but"
+  },
+  {
+    "t_start": 1813.01,
+    "t_end": 1815.289,
+    "text": "don't say things like that usually but it's the same Spirit if you feel if"
+  },
+  {
+    "t_start": 1815.289,
+    "t_end": 1818.649,
+    "text": "that's how you feel and I think that people who think they can't do math"
+  },
+  {
+    "t_start": 1818.649,
+    "t_end": 1819.789,
+    "text": "people who think they can't do math don't know what they're talking about"
+  },
+  {
+    "t_start": 1819.789,
+    "t_end": 1820.98,
+    "text": "don't know what they're talking about literally"
+  },
+  {
+    "t_start": 1820.98,
+    "t_end": 1827.909,
+    "text": "literally [Laughter]"
+  },
+  {
+    "t_start": 1830.71,
+    "t_end": 1836.529,
+    "text": "I understand the the motivation for outreach and I do it too I don't do it"
+  },
+  {
+    "t_start": 1836.529,
+    "t_end": 1840.669,
+    "text": "um that being said right so it's not a problem we know how to solve we've been"
+  },
+  {
+    "t_start": 1840.669,
+    "t_end": 1844.57,
+    "text": "problem we know how to solve we've been we've been every year we bring our hands"
+  },
+  {
+    "t_start": 1844.57,
+    "t_end": 1847.09,
+    "text": "at the University how do we get more people to love well computer science how"
+  },
+  {
+    "t_start": 1847.09,
+    "t_end": 1851.529,
+    "text": "people to love well computer science how do we get more people obsessed with it"
+  },
+  {
+    "t_start": 1851.529,
+    "t_end": 1853.63,
+    "text": "the way we are and of course what would success look like were we"
+  },
+  {
+    "t_start": 1853.63,
+    "t_end": 1855.19,
+    "text": "what would success look like were we going to make everybody into a computer"
+  },
+  {
+    "t_start": 1855.19,
+    "t_end": 1859.09,
+    "text": "going to make everybody into a computer scientist no that we need historians we"
+  },
+  {
+    "t_start": 1859.09,
+    "t_end": 1864.549,
+    "text": "need people who can like fix my toilet because I certainly can right and that's"
+  },
+  {
+    "t_start": 1864.549,
+    "t_end": 1868.63,
+    "text": "because I certainly can right and that's fine we need people to do all the things"
+  },
+  {
+    "t_start": 1868.63,
+    "t_end": 1870.61,
+    "text": "at best I would just hope that we don't have people walking around thinking you"
+  },
+  {
+    "t_start": 1870.61,
+    "t_end": 1875.47,
+    "text": "have people walking around thinking you know I can't do math and therefore it is"
+  },
+  {
+    "t_start": 1875.47,
+    "t_end": 1880.029,
+    "text": "detestable somehow I don't mind if people can't do math as long as they can"
+  },
+  {
+    "t_start": 1880.029,
+    "t_end": 1886.93,
+    "text": "something people care about and that it ought to be done even if not by them"
+  },
+  {
+    "t_start": 1886.93,
+    "t_end": 1891.49,
+    "text": "mathematics needs to be done we need to keep on discovering we need to get on"
+  },
+  {
+    "t_start": 1891.49,
+    "t_end": 1895.149,
+    "text": "somehow the society has a at large to agree with us right otherwise they won't"
+  },
+  {
+    "t_start": 1895.149,
+    "t_end": 1897.21,
+    "text": "agree with us right otherwise they won't let us do that"
+  },
+  {
+    "t_start": 1897.21,
+    "t_end": 1898.83,
+    "text": "let us do that yeah"
+  },
+  {
+    "t_start": 1898.83,
+    "t_end": 1903.61,
+    "text": "that's very important but I think there is something which is a a love of the"
+  },
+  {
+    "t_start": 1903.61,
+    "t_end": 1905.95,
+    "text": "is something which is a a love of the subject which not everybody has"
+  },
+  {
+    "t_start": 1905.95,
+    "t_end": 1910.33,
+    "text": "subject which not everybody has so it's not just that it's useful and so"
+  },
+  {
+    "t_start": 1910.33,
+    "t_end": 1912.73,
+    "text": "on I'm sure it is but not all mathematics that's just probably most of"
+  },
+  {
+    "t_start": 1912.73,
+    "t_end": 1915.85,
+    "text": "mathematics that's just probably most of the mathematics that's done in"
+  },
+  {
+    "t_start": 1915.85,
+    "t_end": 1920.35,
+    "text": "doesn't have any direct use to anything but occasionally you'll find something"
+  },
+  {
+    "t_start": 1920.35,
+    "t_end": 1923.35,
+    "text": "but occasionally you'll find something which does but that's not the reason you"
+  },
+  {
+    "t_start": 1923.35,
+    "t_end": 1929.649,
+    "text": "so it's there is something beyond the utility in the subject which I think is"
+  },
+  {
+    "t_start": 1929.649,
+    "t_end": 1931.269,
+    "text": "utility in the subject which I think is is really important"
+  },
+  {
+    "t_start": 1931.269,
+    "t_end": 1936.85,
+    "text": "that certain people seem to have a love of the subject and certain people don't"
+  },
+  {
+    "t_start": 1936.85,
+    "t_end": 1940.269,
+    "text": "of the subject and certain people don't and I don't know that I need an act"
+  },
+  {
+    "t_start": 1940.269,
+    "t_end": 1946.029,
+    "text": "I don't have an explanation for that it just seems to be a fact of life"
+  },
+  {
+    "t_start": 1946.029,
+    "t_end": 1949.45,
+    "text": "just seems to be a fact of life so we just have to make most of our"
+  },
+  {
+    "t_start": 1949.45,
+    "t_end": 1953.289,
+    "text": "um also it's not always the same you see there's different kinds of mathematics"
+  },
+  {
+    "t_start": 1953.289,
+    "t_end": 1958.33,
+    "text": "you see some people are very Visual and like geometrical things and some people"
+  },
+  {
+    "t_start": 1958.33,
+    "t_end": 1963.97,
+    "text": "don't like that they like to work out conceptual ideas and algebra and things"
+  },
+  {
+    "t_start": 1963.97,
+    "t_end": 1967.87,
+    "text": "conceptual ideas and algebra and things like that so you don't directly have"
+  },
+  {
+    "t_start": 1967.87,
+    "t_end": 1969.61,
+    "text": "something visual so it's not there are different qualities in mathematics which"
+  },
+  {
+    "t_start": 1969.61,
+    "t_end": 1976.81,
+    "text": "different qualities in mathematics which attract different people in different"
+  },
+  {
+    "t_start": 1978.85,
+    "t_end": 1984.13,
+    "text": "about what was it made people so excited about this well they wouldn't be so"
+  },
+  {
+    "t_start": 1984.13,
+    "t_end": 1985.87,
+    "text": "about this well they wouldn't be so excited about some other equally"
+  },
+  {
+    "t_start": 1985.87,
+    "t_end": 1987.85,
+    "text": "excited about some other equally important maybe Discovery but this one"
+  },
+  {
+    "t_start": 1987.85,
+    "t_end": 1990.43,
+    "text": "important maybe Discovery but this one has really generated enthusiasm around"
+  },
+  {
+    "t_start": 1990.43,
+    "t_end": 1994.93,
+    "text": "has really generated enthusiasm around the world"
+  },
+  {
+    "t_start": 1997.57,
+    "t_end": 2002.61,
+    "text": "talking about the monotile um you say okay the geometry of it and"
+  },
+  {
+    "t_start": 2002.61,
+    "t_end": 2005.97,
+    "text": "um you say okay the geometry of it and the beauty of it and the width you can"
+  },
+  {
+    "t_start": 2005.97,
+    "t_end": 2007.049,
+    "text": "make it your own by eating it if you like"
+  },
+  {
+    "t_start": 2007.049,
+    "t_end": 2012.69,
+    "text": "um so what about the area of sort of apiatric order crystallography what"
+  },
+  {
+    "t_start": 2012.69,
+    "t_end": 2015.57,
+    "text": "apiatric order crystallography what about that makes it fascinating to you"
+  },
+  {
+    "t_start": 2015.57,
+    "t_end": 2019.889,
+    "text": "and what what about that do you think you could give to a non-specialist"
+  },
+  {
+    "t_start": 2019.889,
+    "t_end": 2021.57,
+    "text": "you could give to a non-specialist to take home"
+  },
+  {
+    "t_start": 2021.57,
+    "t_end": 2027.149,
+    "text": "well of course a lot of the patterns are very attractive and repeating patterns"
+  },
+  {
+    "t_start": 2027.149,
+    "t_end": 2029.549,
+    "text": "very attractive and repeating patterns have a an appeal"
+  },
+  {
+    "t_start": 2029.549,
+    "t_end": 2034.47,
+    "text": "and then these things don't repeat I'm not sure what to say"
+  },
+  {
+    "t_start": 2034.47,
+    "t_end": 2035.19,
+    "text": "not sure what to say um"
+  },
+  {
+    "t_start": 2035.19,
+    "t_end": 2038.61,
+    "text": "so it can't be just repeating patterns which have an appeal but there's a"
+  },
+  {
+    "t_start": 2038.61,
+    "t_end": 2039.69,
+    "text": "which have an appeal but there's a certain"
+  },
+  {
+    "t_start": 2039.69,
+    "t_end": 2042.93,
+    "text": "getting something complicated out of something so simple"
+  },
+  {
+    "t_start": 2042.93,
+    "t_end": 2046.529,
+    "text": "I think has an attractive about attractiveness about it"
+  },
+  {
+    "t_start": 2046.529,
+    "t_end": 2048.21,
+    "text": "attractiveness about it uh"
+  },
+  {
+    "t_start": 2048.21,
+    "t_end": 2052.829,
+    "text": "this is a difficult question why certain things are appealing"
+  },
+  {
+    "t_start": 2052.829,
+    "t_end": 2057.51,
+    "text": "things are appealing in mathematics is a difficult"
+  },
+  {
+    "t_start": 2057.51,
+    "t_end": 2060.99,
+    "text": "I don't think there's a simple answer to that question yeah it comes under"
+  },
+  {
+    "t_start": 2060.99,
+    "t_end": 2065.79,
+    "text": "personal tastes right there is that but then there's something Beyond it too I"
+  },
+  {
+    "t_start": 2065.79,
+    "t_end": 2067.23,
+    "text": "then there's something Beyond it too I think"
+  },
+  {
+    "t_start": 2067.23,
+    "t_end": 2067.889,
+    "text": "think um"
+  },
+  {
+    "t_start": 2067.889,
+    "t_end": 2072.329,
+    "text": "yeah somehow mathematicians tend to converge to the same problems we all"
+  },
+  {
+    "t_start": 2072.329,
+    "t_end": 2073.889,
+    "text": "consider the same problems to be interesting and important right it does"
+  },
+  {
+    "t_start": 2073.889,
+    "t_end": 2074.609,
+    "text": "interesting and important right it does happen"
+  },
+  {
+    "t_start": 2074.609,
+    "t_end": 2078.51,
+    "text": "sure so there's something Universal about it yes"
+  },
+  {
+    "t_start": 2078.51,
+    "t_end": 2083.31,
+    "text": "well I'm not so sure I mean one thing about this particular subject is that"
+  },
+  {
+    "t_start": 2083.31,
+    "t_end": 2086.01,
+    "text": "about this particular subject is that often it's like too tangible some sense"
+  },
+  {
+    "t_start": 2086.01,
+    "t_end": 2088.349,
+    "text": "often it's like too tangible some sense for many mathematicians taste you know"
+  },
+  {
+    "t_start": 2088.349,
+    "t_end": 2089.669,
+    "text": "for many mathematicians taste you know you can touch it you can play with it"
+  },
+  {
+    "t_start": 2089.669,
+    "t_end": 2094.49,
+    "text": "you can touch it you can play with it you can even explain it to people what"
+  },
+  {
+    "t_start": 2097.29,
+    "t_end": 2099.81,
+    "text": "but but clearly the the you know it's just these fascinating patterns we I"
+  },
+  {
+    "t_start": 2099.81,
+    "t_end": 2103.95,
+    "text": "just these fascinating patterns we I mean it's just human beings we enjoy"
+  },
+  {
+    "t_start": 2103.95,
+    "t_end": 2108.089,
+    "text": "repetition is even more appealing this tension between order and disorder we"
+  },
+  {
+    "t_start": 2108.089,
+    "t_end": 2113.069,
+    "text": "tension between order and disorder we see across the Arts and every number any"
+  },
+  {
+    "t_start": 2113.069,
+    "t_end": 2115.91,
+    "text": "number of ways there is a sort of mathematical snobbery I would say"
+  },
+  {
+    "t_start": 2115.91,
+    "t_end": 2122.79,
+    "text": "if it's a little too easy that's right proper mathematics absolutely yes"
+  },
+  {
+    "t_start": 2122.79,
+    "t_end": 2124.41,
+    "text": "proper mathematics absolutely yes yeah"
+  },
+  {
+    "t_start": 2124.41,
+    "t_end": 2130.77,
+    "text": "um yeah okay um so um the heart was discovered the"
+  },
+  {
+    "t_start": 2130.77,
+    "t_end": 2132.21,
+    "text": "um so um the heart was discovered the hat and the Specter"
+  },
+  {
+    "t_start": 2132.21,
+    "t_end": 2134.13,
+    "text": "hat and the Specter um were discovered by"
+  },
+  {
+    "t_start": 2134.13,
+    "t_end": 2139.17,
+    "text": "um Dave who doesn't have any form of mathematical training which is wonderful"
+  },
+  {
+    "t_start": 2139.17,
+    "t_end": 2144.21,
+    "text": "mathematical training which is wonderful um and um I'm just wondering what you"
+  },
+  {
+    "t_start": 2144.21,
+    "t_end": 2146.49,
+    "text": "can mention this but um if if you might have something in mind of other uh"
+  },
+  {
+    "t_start": 2146.49,
+    "t_end": 2148.589,
+    "text": "have something in mind of other uh discoveries in our area"
+  },
+  {
+    "t_start": 2148.589,
+    "t_end": 2153.29,
+    "text": "or other areas where somebody who's a non-specialist has found"
+  },
+  {
+    "t_start": 2153.29,
+    "t_end": 2156.99,
+    "text": "non-specialist has found well I'm taking the same area because it"
+  },
+  {
+    "t_start": 2156.99,
+    "t_end": 2161.97,
+    "text": "Dave Smith because there was Robert their man who who had no mathematical"
+  },
+  {
+    "t_start": 2161.97,
+    "t_end": 2163.29,
+    "text": "their man who who had no mathematical training and he worked in the post"
+  },
+  {
+    "t_start": 2163.29,
+    "t_end": 2168.63,
+    "text": "office and then I think for a while and then he got fired or something I can't"
+  },
+  {
+    "t_start": 2168.63,
+    "t_end": 2170.37,
+    "text": "remember but he produced these very remarkable"
+  },
+  {
+    "t_start": 2170.37,
+    "t_end": 2171.349,
+    "text": "remarkable um"
+  },
+  {
+    "t_start": 2171.349,
+    "t_end": 2177.81,
+    "text": "non-periodic some of the ones we've seen on earlier and he had no training at all"
+  },
+  {
+    "t_start": 2177.81,
+    "t_end": 2179.97,
+    "text": "on earlier and he had no training at all so I don't think"
+  },
+  {
+    "t_start": 2179.97,
+    "t_end": 2182.13,
+    "text": "so I don't think it's so surprising"
+  },
+  {
+    "t_start": 2182.13,
+    "t_end": 2187.349,
+    "text": "I think what's also not so surprising is that this is an area"
+  },
+  {
+    "t_start": 2187.349,
+    "t_end": 2191.31,
+    "text": "where you can see what's going on without having a deep breath you don't"
+  },
+  {
+    "t_start": 2191.31,
+    "t_end": 2193.23,
+    "text": "without having a deep breath you don't need to know sophisticated mathematical"
+  },
+  {
+    "t_start": 2193.23,
+    "t_end": 2195.089,
+    "text": "need to know sophisticated mathematical ideas to appreciate it"
+  },
+  {
+    "t_start": 2195.089,
+    "t_end": 2200.55,
+    "text": "so it is something accessible in that sense somebody can play around"
+  },
+  {
+    "t_start": 2200.55,
+    "t_end": 2204.63,
+    "text": "um John Taylor and other there were other people also who had no particular"
+  },
+  {
+    "t_start": 2204.63,
+    "t_end": 2206.849,
+    "text": "other people also who had no particular mathematical training in this area they"
+  },
+  {
+    "t_start": 2206.849,
+    "t_end": 2209.37,
+    "text": "mathematical training in this area they could make genuine progress"
+  },
+  {
+    "t_start": 2209.37,
+    "t_end": 2214.71,
+    "text": "but if you're trying to do some you know comology Theory or something much more"
+  },
+  {
+    "t_start": 2214.71,
+    "t_end": 2217.71,
+    "text": "comology Theory or something much more sophisticated it's not so easy to see"
+  },
+  {
+    "t_start": 2217.71,
+    "t_end": 2218.67,
+    "text": "sophisticated it's not so easy to see how"
+  },
+  {
+    "t_start": 2218.67,
+    "t_end": 2224.19,
+    "text": "actually I'm not not such a good example of that one in some respects but um you"
+  },
+  {
+    "t_start": 2224.19,
+    "t_end": 2227.01,
+    "text": "of that one in some respects but um you can you can appreciate it"
+  },
+  {
+    "t_start": 2227.01,
+    "t_end": 2230.01,
+    "text": "can you can appreciate it certain without knowing what you're"
+  },
+  {
+    "t_start": 2230.01,
+    "t_end": 2231.27,
+    "text": "doing yeah"
+  },
+  {
+    "t_start": 2231.27,
+    "t_end": 2235.589,
+    "text": "I mean some of Usher's remarkable pictures to exhibit certain"
+  },
+  {
+    "t_start": 2235.589,
+    "t_end": 2237.87,
+    "text": "remarkable pictures to exhibit certain mathematical ideas which are"
+  },
+  {
+    "t_start": 2237.87,
+    "t_end": 2243.569,
+    "text": "mathematical ideas which are not easy to appreciate"
+  },
+  {
+    "t_start": 2246.45,
+    "t_end": 2251.19,
+    "text": "Robert's an interesting case uh do you remember I don't remember he had a few"
+  },
+  {
+    "t_start": 2251.19,
+    "t_end": 2253.71,
+    "text": "remember I don't remember he had a few years of University mathematics uh no"
+  },
+  {
+    "t_start": 2253.71,
+    "t_end": 2259.41,
+    "text": "not not a few no he he uh yeah I'm sorry I'm sorry yeah go ahead"
+  },
+  {
+    "t_start": 2259.41,
+    "t_end": 2260.73,
+    "text": "yeah I'm sorry I'm sorry yeah go ahead I'll I'll take it back okay I'll get"
+  },
+  {
+    "t_start": 2260.73,
+    "t_end": 2265.829,
+    "text": "I'll I'll take it back okay I'll get back don't Robert was a child prodigy"
+  },
+  {
+    "t_start": 2265.829,
+    "t_end": 2271.17,
+    "text": "um but also very difficult complicated person and every every college but one I"
+  },
+  {
+    "t_start": 2271.17,
+    "t_end": 2272.97,
+    "text": "person and every every college but one I think that he applied to"
+  },
+  {
+    "t_start": 2272.97,
+    "t_end": 2276.95,
+    "text": "um they invited him to apply and then when they interviewed him"
+  },
+  {
+    "t_start": 2276.95,
+    "t_end": 2282.45,
+    "text": "they told him not to but he did go to one and unfortunately he was thrown out"
+  },
+  {
+    "t_start": 2282.45,
+    "t_end": 2286.41,
+    "text": "after two years because he never went to a class and never did any work and they"
+  },
+  {
+    "t_start": 2286.41,
+    "t_end": 2290.01,
+    "text": "a class and never did any work and they just said that was enough and so then he"
+  },
+  {
+    "t_start": 2290.01,
+    "t_end": 2291.69,
+    "text": "got the job at the post office because he liked sorting mail he thought it was"
+  },
+  {
+    "t_start": 2291.69,
+    "t_end": 2297.15,
+    "text": "he liked sorting mail he thought it was a good thing to do and he uh he also"
+  },
+  {
+    "t_start": 2297.15,
+    "t_end": 2299.69,
+    "text": "knew it was a civil service job but he couldn't be fired from it"
+  },
+  {
+    "t_start": 2299.69,
+    "t_end": 2306.21,
+    "text": "lots of spare time he read Martin Gardner's column and tried to answer the"
+  },
+  {
+    "t_start": 2306.21,
+    "t_end": 2308.069,
+    "text": "Gardner's column and tried to answer the question that Gardner post and that"
+  },
+  {
+    "t_start": 2308.069,
+    "t_end": 2311.849,
+    "text": "included quite a bit of geometry and he actually solved some of those problems"
+  },
+  {
+    "t_start": 2311.849,
+    "t_end": 2314.79,
+    "text": "actually solved some of those problems not just on the on the period aperiodic"
+  },
+  {
+    "t_start": 2314.79,
+    "t_end": 2320.609,
+    "text": "not just on the on the period aperiodic times and then when he read that uh"
+  },
+  {
+    "t_start": 2320.609,
+    "t_end": 2325.65,
+    "text": "discovered aperectiles and Gardner said he would report on them later Ammon"
+  },
+  {
+    "t_start": 2325.65,
+    "t_end": 2330.569,
+    "text": "wrote to Gardner said oh I did too and he sent in here which then Gardner sent"
+  },
+  {
+    "t_start": 2330.569,
+    "t_end": 2332.849,
+    "text": "he sent in here which then Gardner sent to you didn't he and you saw that and"
+  },
+  {
+    "t_start": 2332.849,
+    "t_end": 2336.15,
+    "text": "to you didn't he and you saw that and they were essentially the same yes I was"
+  },
+  {
+    "t_start": 2336.15,
+    "t_end": 2337.349,
+    "text": "they were essentially the same yes I was interested in the history of that"
+  },
+  {
+    "t_start": 2337.349,
+    "t_end": 2344.37,
+    "text": "because I mean I've had my well the cuts and dots and put some tiles and uh"
+  },
+  {
+    "t_start": 2344.37,
+    "t_end": 2346.829,
+    "text": "and dots and put some tiles and uh I didn't publish it certainly for a"
+  },
+  {
+    "t_start": 2346.829,
+    "t_end": 2349.47,
+    "text": "I didn't publish it certainly for a while and then John Conway got"
+  },
+  {
+    "t_start": 2349.47,
+    "t_end": 2354.51,
+    "text": "interested and he had a long discussion with Martin Gardner and that was the"
+  },
+  {
+    "t_start": 2354.51,
+    "t_end": 2356.55,
+    "text": "with Martin Gardner and that was the source of the Scientific American"
+  },
+  {
+    "t_start": 2356.55,
+    "t_end": 2361.71,
+    "text": "article now at a certain time a little after that not very long after that I"
+  },
+  {
+    "t_start": 2361.71,
+    "t_end": 2364.29,
+    "text": "after that not very long after that I had a letter which Martin Gardner"
+  },
+  {
+    "t_start": 2364.29,
+    "t_end": 2367.71,
+    "text": "Gardner passed over to me and he didn't understand what this person was saying"
+  },
+  {
+    "t_start": 2367.71,
+    "t_end": 2372.03,
+    "text": "understand what this person was saying did it make sense and I looked at him"
+  },
+  {
+    "t_start": 2372.03,
+    "t_end": 2374.67,
+    "text": "and I said yes he's rediscovered the rhombus time that's right and this was"
+  },
+  {
+    "t_start": 2374.67,
+    "t_end": 2376.95,
+    "text": "rhombus time that's right and this was Robert Downey actually I'm not even"
+  },
+  {
+    "t_start": 2376.95,
+    "t_end": 2378.81,
+    "text": "Robert Downey actually I'm not even totally sure whether he rediscovered it"
+  },
+  {
+    "t_start": 2378.81,
+    "t_end": 2380.609,
+    "text": "totally sure whether he rediscovered it or had it first"
+  },
+  {
+    "t_start": 2380.609,
+    "t_end": 2386.49,
+    "text": "I don't know what the history of this is I've had the impression that he'd picked"
+  },
+  {
+    "t_start": 2386.49,
+    "t_end": 2391.53,
+    "text": "I've had the impression that he'd picked up on it from a sort of hint in Martin"
+  },
+  {
+    "t_start": 2391.53,
+    "t_end": 2395.25,
+    "text": "he'd had he indicated that he was going to do something a little unusual in the"
+  },
+  {
+    "t_start": 2395.25,
+    "t_end": 2398.97,
+    "text": "to do something a little unusual in the next one whether that was enough hint to"
+  },
+  {
+    "t_start": 2398.97,
+    "t_end": 2401.069,
+    "text": "next one whether that was enough hint to get Robert down and started on it I"
+  },
+  {
+    "t_start": 2401.069,
+    "t_end": 2403.109,
+    "text": "get Robert down and started on it I didn't think that's probably right well"
+  },
+  {
+    "t_start": 2403.109,
+    "t_end": 2405.089,
+    "text": "didn't think that's probably right well I the best I know I knew him and I"
+  },
+  {
+    "t_start": 2405.089,
+    "t_end": 2411.15,
+    "text": "wrote about him so that's why I'm saying what I think he was meant uh that he had"
+  },
+  {
+    "t_start": 2411.15,
+    "t_end": 2413.01,
+    "text": "what I think he was meant uh that he had been playing with this and then when he"
+  },
+  {
+    "t_start": 2413.01,
+    "t_end": 2415.47,
+    "text": "been playing with this and then when he read that that you were going that"
+  },
+  {
+    "t_start": 2415.47,
+    "t_end": 2418.95,
+    "text": "Gardner was going to publisher about yours he thought that he should make his"
+  },
+  {
+    "t_start": 2418.95,
+    "t_end": 2420.45,
+    "text": "yours he thought that he should make his known also"
+  },
+  {
+    "t_start": 2420.45,
+    "t_end": 2426.21,
+    "text": "so it wasn't that that announcement that said oh I should think up a periodic"
+  },
+  {
+    "t_start": 2426.21,
+    "t_end": 2429.51,
+    "text": "that and what he was doing he came to it from a very different perspective than"
+  },
+  {
+    "t_start": 2429.51,
+    "t_end": 2432.75,
+    "text": "from a very different perspective than anybody else until until much later and"
+  },
+  {
+    "t_start": 2432.75,
+    "t_end": 2435.39,
+    "text": "anybody else until until much later and that was he was interested in printing"
+  },
+  {
+    "t_start": 2435.39,
+    "t_end": 2440.97,
+    "text": "color printing and he noticed that they used five different colors of ink and uh"
+  },
+  {
+    "t_start": 2440.97,
+    "t_end": 2443.849,
+    "text": "used five different colors of ink and uh the the way that these came in lines on"
+  },
+  {
+    "t_start": 2443.849,
+    "t_end": 2445.53,
+    "text": "the the way that these came in lines on the printed page to be yellow blinds and"
+  },
+  {
+    "t_start": 2445.53,
+    "t_end": 2446.91,
+    "text": "the printed page to be yellow blinds and then there'd be red lines crossing and"
+  },
+  {
+    "t_start": 2446.91,
+    "t_end": 2451.05,
+    "text": "blue lines I didn't that's just how he described it I don't know that uh myself"
+  },
+  {
+    "t_start": 2451.05,
+    "t_end": 2453.089,
+    "text": "described it I don't know that uh myself but anyway he said he looked at that and"
+  },
+  {
+    "t_start": 2453.089,
+    "t_end": 2455.37,
+    "text": "but anyway he said he looked at that and he looked at the way these lines were"
+  },
+  {
+    "t_start": 2455.37,
+    "t_end": 2458.37,
+    "text": "intersecting there were five different colors and the way they were"
+  },
+  {
+    "t_start": 2458.37,
+    "t_end": 2460.349,
+    "text": "intersecting and each there were two kinds of intersections and he began"
+  },
+  {
+    "t_start": 2460.349,
+    "t_end": 2464.73,
+    "text": "kinds of intersections and he began playing with that amazing and that so in"
+  },
+  {
+    "t_start": 2464.73,
+    "t_end": 2466.65,
+    "text": "a way he was anticipating the high dimensional approach to it but he never"
+  },
+  {
+    "t_start": 2466.65,
+    "t_end": 2468.089,
+    "text": "dimensional approach to it but he never thought that way and one evening I"
+  },
+  {
+    "t_start": 2468.089,
+    "t_end": 2473.93,
+    "text": "actually had him at my house with uh mg de bruyne who did pioneer the pilot"
+  },
+  {
+    "t_start": 2473.93,
+    "t_end": 2475.77,
+    "text": "de bruyne who did pioneer the pilot five-dimensional approach I haven't"
+  },
+  {
+    "t_start": 2475.77,
+    "t_end": 2481.109,
+    "text": "five-dimensional approach I haven't thought that was nonsense"
+  },
+  {
+    "t_start": 2482.67,
+    "t_end": 2488.069,
+    "text": "like a mathematician but he was thinking and he was thinking about how the kinds"
+  },
+  {
+    "t_start": 2488.069,
+    "t_end": 2489.45,
+    "text": "of these five different sets of lines intersected"
+  },
+  {
+    "t_start": 2489.45,
+    "t_end": 2494.609,
+    "text": "he certainly did it in a very different way from from my Approach yeah yes yeah"
+  },
+  {
+    "t_start": 2494.609,
+    "t_end": 2498.81,
+    "text": "way from from my Approach yeah yes yeah yes so he can just to clarify you're"
+  },
+  {
+    "t_start": 2498.81,
+    "t_end": 2500.55,
+    "text": "saying he had no idea of any of the previous literature and the only hint"
+  },
+  {
+    "t_start": 2500.55,
+    "t_end": 2503.43,
+    "text": "previous literature and the only hint that he had was that this cryptic note"
+  },
+  {
+    "t_start": 2503.43,
+    "t_end": 2505.17,
+    "text": "that he had was that this cryptic note in a Martin Gardner column that"
+  },
+  {
+    "t_start": 2505.17,
+    "t_end": 2511.17,
+    "text": "far as I know it's already done the work he'd already got the word but completely"
+  },
+  {
+    "t_start": 2511.17,
+    "t_end": 2513.03,
+    "text": "he'd already got the word but completely independent of oh yeah burger and"
+  },
+  {
+    "t_start": 2513.03,
+    "t_end": 2513.99,
+    "text": "independent of oh yeah burger and everybody you know he was just"
+  },
+  {
+    "t_start": 2513.99,
+    "t_end": 2516.17,
+    "text": "everybody you know he was just interested in that he got interested"
+  },
+  {
+    "t_start": 2516.17,
+    "t_end": 2522.65,
+    "text": "interested in that he got interested who's interested in dinosaurs"
+  },
+  {
+    "t_start": 2525.27,
+    "t_end": 2530.67,
+    "text": "to get back to the original question uh there's a bit more to say so about the"
+  },
+  {
+    "t_start": 2530.67,
+    "t_end": 2535.41,
+    "text": "contributions by non-mathematicians to the field we've already mentioned Robert"
+  },
+  {
+    "t_start": 2535.41,
+    "t_end": 2538.589,
+    "text": "we mentioned uh Joan Taylor uh there also is famously Marjorie rice who"
+  },
+  {
+    "t_start": 2538.589,
+    "t_end": 2541.589,
+    "text": "also is famously Marjorie rice who discovered again in response to a Martin"
+  },
+  {
+    "t_start": 2541.589,
+    "t_end": 2544.55,
+    "text": "discovered again in response to a Martin Gardner column uh that was cataloging"
+  },
+  {
+    "t_start": 2544.55,
+    "t_end": 2547.349,
+    "text": "Gardner column uh that was cataloging convex pentagons that could tile the"
+  },
+  {
+    "t_start": 2547.349,
+    "t_end": 2549.569,
+    "text": "convex pentagons that could tile the plane in different ways and I think"
+  },
+  {
+    "t_start": 2549.569,
+    "t_end": 2552.27,
+    "text": "plane in different ways and I think Gardner was reporting on who's whose"
+  },
+  {
+    "t_start": 2552.27,
+    "t_end": 2556.95,
+    "text": "result at the time Jensen nurse I don't remember exactly saying here they are we"
+  },
+  {
+    "t_start": 2556.95,
+    "t_end": 2558.87,
+    "text": "remember exactly saying here they are we found all nine or all eight of them or"
+  },
+  {
+    "t_start": 2558.87,
+    "t_end": 2561.03,
+    "text": "found all nine or all eight of them or something and and murder just went off"
+  },
+  {
+    "t_start": 2561.03,
+    "t_end": 2562.829,
+    "text": "something and and murder just went off and again not a mathematician by"
+  },
+  {
+    "t_start": 2562.829,
+    "t_end": 2564.45,
+    "text": "and again not a mathematician by training I think nothing Beyond High"
+  },
+  {
+    "t_start": 2564.45,
+    "t_end": 2567.15,
+    "text": "training I think nothing Beyond High School mathematics uh uh came up by"
+  },
+  {
+    "t_start": 2567.15,
+    "t_end": 2569.55,
+    "text": "School mathematics uh uh came up by doodling around with a few more three"
+  },
+  {
+    "t_start": 2569.55,
+    "t_end": 2574.109,
+    "text": "three or four more types to add to the list and that became an ongoing problem"
+  },
+  {
+    "t_start": 2574.109,
+    "t_end": 2577.41,
+    "text": "list and that became an ongoing problem in mathematics that we now believe has"
+  },
+  {
+    "t_start": 2577.41,
+    "t_end": 2579.089,
+    "text": "in mathematics that we now believe has been finally solved in the last couple"
+  },
+  {
+    "t_start": 2579.089,
+    "t_end": 2584.97,
+    "text": "of years by Michael Rao uh who who I was actually Casey Mann who discovered and"
+  },
+  {
+    "t_start": 2584.97,
+    "t_end": 2589.17,
+    "text": "actually Casey Mann who discovered and collaborators who discovered the 15th"
+  },
+  {
+    "t_start": 2589.17,
+    "t_end": 2590.97,
+    "text": "type of Pentagon that tiles the plane and then Michael had this ingenious"
+  },
+  {
+    "t_start": 2590.97,
+    "t_end": 2593.67,
+    "text": "and then Michael had this ingenious computer search that we believe has"
+  },
+  {
+    "t_start": 2593.67,
+    "t_end": 2597.93,
+    "text": "proven that those are all the ones that can exist which is actually a little"
+  },
+  {
+    "t_start": 2597.93,
+    "t_end": 2600.27,
+    "text": "can exist which is actually a little disappointing because I saw the 15th I'm"
+  },
+  {
+    "t_start": 2600.27,
+    "t_end": 2601.65,
+    "text": "disappointing because I saw the 15th I'm like oh cool there's going to be more"
+  },
+  {
+    "t_start": 2601.65,
+    "t_end": 2603.39,
+    "text": "like oh cool there's going to be more and then Michael's like no sorry that's"
+  },
+  {
+    "t_start": 2603.39,
+    "t_end": 2605.73,
+    "text": "and then Michael's like no sorry that's that really was it we found them so"
+  },
+  {
+    "t_start": 2605.73,
+    "t_end": 2607.53,
+    "text": "that really was it we found them so that's Marjorie rice and I in in the"
+  },
+  {
+    "t_start": 2607.53,
+    "t_end": 2609.089,
+    "text": "that's Marjorie rice and I in in the last couple of months musing on this"
+  },
+  {
+    "t_start": 2609.089,
+    "t_end": 2611.67,
+    "text": "last couple of months musing on this question of the contributions by amateur"
+  },
+  {
+    "t_start": 2611.67,
+    "t_end": 2614.37,
+    "text": "question of the contributions by amateur mathematicians I really feel like I want"
+  },
+  {
+    "t_start": 2614.37,
+    "t_end": 2618.089,
+    "text": "mathematicians I really feel like I want to include Escher in that list and I"
+  },
+  {
+    "t_start": 2618.089,
+    "t_end": 2620.91,
+    "text": "think Roger hinted at that I mean in some sense Escher was the most"
+  },
+  {
+    "t_start": 2620.91,
+    "t_end": 2625.77,
+    "text": "some sense Escher was the most inspirational source of uh of of tiling"
+  },
+  {
+    "t_start": 2625.77,
+    "t_end": 2627.93,
+    "text": "inspirational source of uh of of tiling ideas and certainly had a profound"
+  },
+  {
+    "t_start": 2627.93,
+    "t_end": 2630.69,
+    "text": "ideas and certainly had a profound influence on my life just discovering"
+  },
+  {
+    "t_start": 2630.69,
+    "t_end": 2634.53,
+    "text": "Usher as a little kid and and you know carrying around a lot of those drawings"
+  },
+  {
+    "t_start": 2634.53,
+    "t_end": 2638.79,
+    "text": "carrying around a lot of those drawings in my head all the way through you know"
+  },
+  {
+    "t_start": 2638.79,
+    "t_end": 2641.609,
+    "text": "and and then being dragged into tiling theory in graduate school and and tying"
+  },
+  {
+    "t_start": 2641.609,
+    "t_end": 2647.309,
+    "text": "theory in graduate school and and tying that back to my love of Usher so and he"
+  },
+  {
+    "t_start": 2647.309,
+    "t_end": 2650.13,
+    "text": "was definitely not a mathematician but made really cool contributions that"
+  },
+  {
+    "t_start": 2650.13,
+    "t_end": 2653.79,
+    "text": "made really cool contributions that filtered back into math afterwards"
+  },
+  {
+    "t_start": 2653.79,
+    "t_end": 2655.41,
+    "text": "filtered back into math afterwards an interesting question he doesn't"
+  },
+  {
+    "t_start": 2655.41,
+    "t_end": 2660.39,
+    "text": "claimed not to be a mathematician yes he obviously had a very deep a really good"
+  },
+  {
+    "t_start": 2660.39,
+    "t_end": 2663.15,
+    "text": "obviously had a very deep a really good mathematical mind yes"
+  },
+  {
+    "t_start": 2663.15,
+    "t_end": 2670.589,
+    "text": "of the people that we just discussed I mean I mean so there's a clearly trained"
+  },
+  {
+    "t_start": 2670.589,
+    "t_end": 2671.97,
+    "text": "mean I mean so there's a clearly trained as a mathematician going to school"
+  },
+  {
+    "t_start": 2671.97,
+    "t_end": 2673.95,
+    "text": "as a mathematician going to school learning lots of comology and stuff like"
+  },
+  {
+    "t_start": 2673.95,
+    "t_end": 2678.39,
+    "text": "that as one thing but but all of these people are mathematicians Dave you are I"
+  },
+  {
+    "t_start": 2678.39,
+    "t_end": 2680.67,
+    "text": "people are mathematicians Dave you are I mean it's just just how we discuss it"
+  },
+  {
+    "t_start": 2680.67,
+    "t_end": 2683.55,
+    "text": "mean it's just just how we discuss it and it's a little it's it's unfortunate"
+  },
+  {
+    "t_start": 2683.55,
+    "t_end": 2685.53,
+    "text": "and it's a little it's it's unfortunate that the word amateur has"
+  },
+  {
+    "t_start": 2685.53,
+    "t_end": 2690.63,
+    "text": "really been debased in English and the French one of the French reporters that"
+  },
+  {
+    "t_start": 2690.63,
+    "t_end": 2691.89,
+    "text": "French one of the French reporters that we were talking to amateur apparently"
+  },
+  {
+    "t_start": 2691.89,
+    "t_end": 2695.25,
+    "text": "means what it used to in French I don't know if anyone can confirm that or not"
+  },
+  {
+    "t_start": 2695.25,
+    "t_end": 2697.89,
+    "text": "know if anyone can confirm that or not but truly a lover of the subject and a"
+  },
+  {
+    "t_start": 2697.89,
+    "t_end": 2699.15,
+    "text": "but truly a lover of the subject and a passionate"
+  },
+  {
+    "t_start": 2699.15,
+    "t_end": 2702.45,
+    "text": "passionate so"
+  },
+  {
+    "t_start": 2705.51,
+    "t_end": 2707.49,
+    "text": "so in Heritage said that um it would have been it is surprising that somebody"
+  },
+  {
+    "t_start": 2707.49,
+    "t_end": 2709.05,
+    "text": "have been it is surprising that somebody was not a mathematician mathematician"
+  },
+  {
+    "t_start": 2709.05,
+    "t_end": 2711.15,
+    "text": "was not a mathematician mathematician found the monophile"
+  },
+  {
+    "t_start": 2711.15,
+    "t_end": 2715.349,
+    "text": "um but that it would have been even more surprising he was a mathematician so is"
+  },
+  {
+    "t_start": 2715.349,
+    "t_end": 2717.03,
+    "text": "surprising he was a mathematician so is that is there another problem that you"
+  },
+  {
+    "t_start": 2717.03,
+    "t_end": 2721.829,
+    "text": "that is there another problem that you kind of can see that's probably going to"
+  },
+  {
+    "t_start": 2721.829,
+    "t_end": 2723.63,
+    "text": "have an amateur solver in the near future"
+  },
+  {
+    "t_start": 2723.63,
+    "t_end": 2728.01,
+    "text": "in the near future you think it's all about somebody who's"
+  },
+  {
+    "t_start": 2728.01,
+    "t_end": 2733.29,
+    "text": "yes absolutely yeah yeah so there's a whole there's all range like well this"
+  },
+  {
+    "t_start": 2733.29,
+    "t_end": 2735.15,
+    "text": "whole there's all range like well this is only two monotiles come on people get"
+  },
+  {
+    "t_start": 2735.15,
+    "t_end": 2737.67,
+    "text": "is only two monotiles come on people get to work yourself and then and then of"
+  },
+  {
+    "t_start": 2737.67,
+    "t_end": 2738.75,
+    "text": "to work yourself and then and then of course there's all kinds of other"
+  },
+  {
+    "t_start": 2738.75,
+    "t_end": 2740.49,
+    "text": "course there's all kinds of other related these kinds like with just"
+  },
+  {
+    "t_start": 2740.49,
+    "t_end": 2741.99,
+    "text": "related these kinds like with just within tiling there's other kinds of"
+  },
+  {
+    "t_start": 2741.99,
+    "t_end": 2743.97,
+    "text": "within tiling there's other kinds of these Hands-On combinatorial questions"
+  },
+  {
+    "t_start": 2743.97,
+    "t_end": 2748.47,
+    "text": "like can we get the H number up and so forth so in fact yeah haitian's problem"
+  },
+  {
+    "t_start": 2748.47,
+    "t_end": 2751.829,
+    "text": "is one of my personal favorites in case you weren't here for the rest of the day"
+  },
+  {
+    "t_start": 2751.829,
+    "t_end": 2754.41,
+    "text": "you weren't here for the rest of the day it's like take a shape surrounded by a"
+  },
+  {
+    "t_start": 2754.41,
+    "t_end": 2757.95,
+    "text": "it's like take a shape surrounded by a layer of copies surround that by a layer"
+  },
+  {
+    "t_start": 2757.95,
+    "t_end": 2759.87,
+    "text": "surround that by layer if a shape doesn't tile how many layers are"
+  },
+  {
+    "t_start": 2759.87,
+    "t_end": 2763.95,
+    "text": "possible and the answer is we don't know but it's at least six and six isn't a"
+  },
+  {
+    "t_start": 2763.95,
+    "t_end": 2765.39,
+    "text": "but it's at least six and six isn't a very big number"
+  },
+  {
+    "t_start": 2765.39,
+    "t_end": 2769.47,
+    "text": "um and and this is uh in fact I mean this is something Davis worked on as"
+  },
+  {
+    "t_start": 2769.47,
+    "t_end": 2774.45,
+    "text": "well I had written this paper that did this enormous computer search that like"
+  },
+  {
+    "t_start": 2774.45,
+    "t_end": 2777.75,
+    "text": "this enormous computer search that like burned through who knows how many tons"
+  },
+  {
+    "t_start": 2777.75,
+    "t_end": 2784.29,
+    "text": "burned through who knows how many tons of CO2 to you know to like find no new"
+  },
+  {
+    "t_start": 2784.29,
+    "t_end": 2786.87,
+    "text": "results like I got up to Hash number four and meanwhile Dave sent an email to"
+  },
+  {
+    "t_start": 2786.87,
+    "t_end": 2788.73,
+    "text": "four and meanwhile Dave sent an email to the tiling mailing list that a lot of"
+  },
+  {
+    "t_start": 2788.73,
+    "t_end": 2790.89,
+    "text": "the tiling mailing list that a lot of people in the room are so anyway here's"
+  },
+  {
+    "t_start": 2790.89,
+    "t_end": 2792.45,
+    "text": "people in the room are so anyway here's some examples of nation number five that"
+  },
+  {
+    "t_start": 2792.45,
+    "t_end": 2797.849,
+    "text": "some examples of nation number five that I found just by playing around so it is"
+  },
+  {
+    "t_start": 2797.849,
+    "t_end": 2804.51,
+    "text": "shape over there that nobody thought to look at that would break the records for"
+  },
+  {
+    "t_start": 2804.51,
+    "t_end": 2806.309,
+    "text": "look at that would break the records for Haitian numbers or for isohedral numbers"
+  },
+  {
+    "t_start": 2806.309,
+    "t_end": 2812.55,
+    "text": "Haitian numbers or for isohedral numbers uh is another one we've talked about"
+  },
+  {
+    "t_start": 2812.55,
+    "t_end": 2817.29,
+    "text": "hopefully they will yeah um so good luck to everybody"
+  },
+  {
+    "t_start": 2817.29,
+    "t_end": 2821.309,
+    "text": "I I know that we've heard some answers to this question already uh but maybe"
+  },
+  {
+    "t_start": 2821.309,
+    "t_end": 2825.21,
+    "text": "let me just repeat this question before the path was found did you think that"
+  },
+  {
+    "t_start": 2825.21,
+    "t_end": 2829.71,
+    "text": "the path was found did you think that there would be did you think that there"
+  },
+  {
+    "t_start": 2829.71,
+    "t_end": 2834.21,
+    "text": "um and then did you think it would be like this no I thought it was quite"
+  },
+  {
+    "t_start": 2834.21,
+    "t_end": 2836.67,
+    "text": "like this no I thought it was quite possible there would be one but not that"
+  },
+  {
+    "t_start": 2836.67,
+    "t_end": 2839.01,
+    "text": "possible there would be one but not that you see what's interesting about these"
+  },
+  {
+    "t_start": 2839.01,
+    "t_end": 2842.609,
+    "text": "you see what's interesting about these hats I haven't heard its stress but"
+  },
+  {
+    "t_start": 2842.609,
+    "t_end": 2845.849,
+    "text": "hats I haven't heard its stress but they are based on a periodic letters you"
+  },
+  {
+    "t_start": 2845.849,
+    "t_end": 2848.55,
+    "text": "they are based on a periodic letters you can take the ordinary last equilateral"
+  },
+  {
+    "t_start": 2848.55,
+    "t_end": 2851.43,
+    "text": "can take the ordinary last equilateral triangles and each triangle you split"
+  },
+  {
+    "t_start": 2851.43,
+    "t_end": 2853.41,
+    "text": "triangles and each triangle you split into three parts by taking the center"
+  },
+  {
+    "t_start": 2853.41,
+    "t_end": 2855.569,
+    "text": "into three parts by taking the center and dropping a perpendicular to each"
+  },
+  {
+    "t_start": 2855.569,
+    "t_end": 2860.67,
+    "text": "and dropping a perpendicular to each Edge so you have a quadrilateral and all"
+  },
+  {
+    "t_start": 2860.67,
+    "t_end": 2862.589,
+    "text": "of these are made out of those quadrilaterals and that quadrilateral"
+  },
+  {
+    "t_start": 2862.589,
+    "t_end": 2871.23,
+    "text": "pattern is completely uniform and uh it's a tiling regular tiling and the hat"
+  },
+  {
+    "t_start": 2871.23,
+    "t_end": 2875.25,
+    "text": "it's a tiling regular tiling and the hat I think uses eight of them in the"
+  },
+  {
+    "t_start": 2875.25,
+    "t_end": 2877.77,
+    "text": "Specter of ten is it I can't remember um but they have a different character"
+  },
+  {
+    "t_start": 2877.77,
+    "t_end": 2879.69,
+    "text": "um but they have a different character from the ones that I was playing around"
+  },
+  {
+    "t_start": 2879.69,
+    "t_end": 2881.55,
+    "text": "from the ones that I was playing around with it's completely different because"
+  },
+  {
+    "t_start": 2881.55,
+    "t_end": 2884.43,
+    "text": "with it's completely different because they had no such basic"
+  },
+  {
+    "t_start": 2884.43,
+    "t_end": 2890.19,
+    "text": "um periodic lattice so you one might ask a question and are there monotones which"
+  },
+  {
+    "t_start": 2890.19,
+    "t_end": 2891.329,
+    "text": "a question and are there monotones which are"
+  },
+  {
+    "t_start": 2891.329,
+    "t_end": 2897.45,
+    "text": "based on not having a basic uh periodic lattice underlying them I mean there are"
+  },
+  {
+    "t_start": 2897.45,
+    "t_end": 2899.49,
+    "text": "lattice underlying them I mean there are other questions one might certainly ask"
+  },
+  {
+    "t_start": 2899.49,
+    "t_end": 2900.569,
+    "text": "other questions one might certainly ask about this"
+  },
+  {
+    "t_start": 2900.569,
+    "t_end": 2909.089,
+    "text": "but you're quite sort of simple straightforward questions"
+  },
+  {
+    "t_start": 2912.569,
+    "t_end": 2914.25,
+    "text": "so um anybody else wanna weigh in on was it likely"
+  },
+  {
+    "t_start": 2914.25,
+    "t_end": 2920.37,
+    "text": "um for many many years I mean obviously I find it likely enough that it was"
+  },
+  {
+    "t_start": 2920.37,
+    "t_end": 2922.47,
+    "text": "I find it likely enough that it was worth looking for them"
+  },
+  {
+    "t_start": 2922.47,
+    "t_end": 2929.37,
+    "text": "um I would never have said there I would never have conjecture that there does"
+  },
+  {
+    "t_start": 2929.37,
+    "t_end": 2931.43,
+    "text": "not exist in a periodic momentiles absolutely willing to believe I mean"
+  },
+  {
+    "t_start": 2931.43,
+    "t_end": 2936.69,
+    "text": "it's bad luck that it we we spent as many decades as we did unable to find"
+  },
+  {
+    "t_start": 2936.69,
+    "t_end": 2940.47,
+    "text": "many decades as we did unable to find one but that is certainly not by any"
+  },
+  {
+    "t_start": 2940.47,
+    "t_end": 2942.75,
+    "text": "one but that is certainly not by any means proof that it can't exist"
+  },
+  {
+    "t_start": 2942.75,
+    "t_end": 2948.27,
+    "text": "um the only thing that I I strongly believed was a proof of non-existence"
+  },
+  {
+    "t_start": 2948.27,
+    "t_end": 2950.67,
+    "text": "believed was a proof of non-existence would be much much more difficult"
+  },
+  {
+    "t_start": 2950.67,
+    "t_end": 2957.15,
+    "text": "then a proof of this particular shape is a periodic so I'm I'm glad you know that"
+  },
+  {
+    "t_start": 2957.15,
+    "t_end": 2959.69,
+    "text": "a periodic so I'm I'm glad you know that we we live in the good Universe where"
+  },
+  {
+    "t_start": 2959.69,
+    "t_end": 2962.49,
+    "text": "we we live in the good Universe where euclidean geometry is obliged us with a"
+  },
+  {
+    "t_start": 2962.49,
+    "t_end": 2964.349,
+    "text": "euclidean geometry is obliged us with a shape that we can study relatively"
+  },
+  {
+    "t_start": 2964.349,
+    "t_end": 2968.19,
+    "text": "shape that we can study relatively easily in the end once we knew what it"
+  },
+  {
+    "t_start": 2968.19,
+    "t_end": 2972.75,
+    "text": "so unfortunately I'm on record for having conjectured that there's no"
+  },
+  {
+    "t_start": 2972.75,
+    "t_end": 2974.75,
+    "text": "having conjectured that there's no substance"
+  },
+  {
+    "t_start": 2974.75,
+    "t_end": 2981.27,
+    "text": "in a more naive part of my life and in fact now I understand something which I"
+  },
+  {
+    "t_start": 2981.27,
+    "t_end": 2985.53,
+    "text": "fact now I understand something which I call Conway's presumption which is a way"
+  },
+  {
+    "t_start": 2985.53,
+    "t_end": 2989.849,
+    "text": "kinds of issues kick in and with I mean it's very straightforward when you have"
+  },
+  {
+    "t_start": 2989.849,
+    "t_end": 2991.29,
+    "text": "it's very straightforward when you have sort of a certain threshold of"
+  },
+  {
+    "t_start": 2991.29,
+    "t_end": 2996.29,
+    "text": "complexity you might as well just bet on it sort of continuing and paying out"
+  },
+  {
+    "t_start": 2996.29,
+    "t_end": 3000.23,
+    "text": "and that the least you won't be likely to be contradicted just because exactly"
+  },
+  {
+    "t_start": 3000.23,
+    "t_end": 3003.65,
+    "text": "to be contradicted just because exactly what you say it's very hard to prove"
+  },
+  {
+    "t_start": 3003.65,
+    "t_end": 3008.87,
+    "text": "there's a limit on the complexity of the situation but then honestly I think uh"
+  },
+  {
+    "t_start": 3008.87,
+    "t_end": 3011.03,
+    "text": "situation but then honestly I think uh looking back we're sort of reviewing my"
+  },
+  {
+    "t_start": 3011.03,
+    "t_end": 3012.589,
+    "text": "looking back we're sort of reviewing my notes for this conference and so on I"
+  },
+  {
+    "t_start": 3012.589,
+    "t_end": 3015.23,
+    "text": "notes for this conference and so on I see this kind of gradual progression you"
+  },
+  {
+    "t_start": 3015.23,
+    "t_end": 3016.55,
+    "text": "see this kind of gradual progression you know like oh well maybe Conway's"
+  },
+  {
+    "t_start": 3016.55,
+    "t_end": 3019.19,
+    "text": "know like oh well maybe Conway's presumption tells us that and so really"
+  },
+  {
+    "t_start": 3019.19,
+    "t_end": 3024.23,
+    "text": "presumption tells us that and so really about a year ago you know I was asked by"
+  },
+  {
+    "t_start": 3024.23,
+    "t_end": 3028.49,
+    "text": "a friend if I thought and so I had at that time you know he reminded me I had"
+  },
+  {
+    "t_start": 3028.49,
+    "t_end": 3032.47,
+    "text": "said yes I thought maybe maybe but that certainly would be much more"
+  },
+  {
+    "t_start": 3032.47,
+    "t_end": 3038.99,
+    "text": "it's just this is not really what we were look expecting you know so for sure"
+  },
+  {
+    "t_start": 3038.99,
+    "t_end": 3040.91,
+    "text": "were look expecting you know so for sure but on the other hand this does point to"
+  },
+  {
+    "t_start": 3040.91,
+    "t_end": 3043.01,
+    "text": "but on the other hand this does point to some possibilities the like perhaps"
+  },
+  {
+    "t_start": 3043.01,
+    "t_end": 3044.69,
+    "text": "some possibilities the like perhaps finding other highly symmetrical"
+  },
+  {
+    "t_start": 3044.69,
+    "t_end": 3048.65,
+    "text": "lattices and tilings for example let me just put this out there folks the"
+  },
+  {
+    "t_start": 3048.65,
+    "t_end": 3050.75,
+    "text": "just put this out there folks the truncated octahedron has some nice"
+  },
+  {
+    "t_start": 3050.75,
+    "t_end": 3054.47,
+    "text": "chopped up ways of chopping it up and perhaps recombining some pieces out of"
+  },
+  {
+    "t_start": 3054.47,
+    "t_end": 3056.15,
+    "text": "perhaps recombining some pieces out of that to form some three-dimensional"
+  },
+  {
+    "t_start": 3056.15,
+    "t_end": 3060.95,
+    "text": "that to form some three-dimensional analogues of this thing that might be"
+  },
+  {
+    "t_start": 3060.95,
+    "t_end": 3063.41,
+    "text": "this might point to some future directions"
+  },
+  {
+    "t_start": 3063.41,
+    "t_end": 3070.069,
+    "text": "from my own perspective I mean what was really the original I mean the whole"
+  },
+  {
+    "t_start": 3070.069,
+    "t_end": 3074.93,
+    "text": "idea is original but the what was really different is to use this particular kind"
+  },
+  {
+    "t_start": 3074.93,
+    "t_end": 3077.03,
+    "text": "different is to use this particular kind of lattice I mean those you know"
+  },
+  {
+    "t_start": 3077.03,
+    "t_end": 3078.53,
+    "text": "of lattice I mean those you know triangles and hexagons and things like"
+  },
+  {
+    "t_start": 3078.53,
+    "t_end": 3080.69,
+    "text": "triangles and hexagons and things like that obvious lattices which don't get"
+  },
+  {
+    "t_start": 3080.69,
+    "t_end": 3081.89,
+    "text": "that obvious lattices which don't get you very far"
+  },
+  {
+    "t_start": 3081.89,
+    "t_end": 3083.329,
+    "text": "you very far or squares"
+  },
+  {
+    "t_start": 3083.329,
+    "t_end": 3090.77,
+    "text": "whereas here if there's a richness which which you don't see that's true"
+  },
+  {
+    "t_start": 3090.77,
+    "t_end": 3096.23,
+    "text": "yeah that's one going up a dimension well that's another question yes and no"
+  },
+  {
+    "t_start": 3096.23,
+    "t_end": 3101.63,
+    "text": "well that's another question yes and no I it is I mean we and we have looked"
+  },
+  {
+    "t_start": 3101.63,
+    "t_end": 3106.01,
+    "text": "Myers look way out down the list of those and never found any a periodicity"
+  },
+  {
+    "t_start": 3106.01,
+    "t_end": 3111.109,
+    "text": "and we can say I posteriorate the this kite grid has a little bit more richness"
+  },
+  {
+    "t_start": 3111.109,
+    "t_end": 3113.63,
+    "text": "kite grid has a little bit more richness on the other hand we've looked quite far"
+  },
+  {
+    "t_start": 3113.63,
+    "t_end": 3116.15,
+    "text": "on the other hand we've looked quite far down the list of polykites as well and"
+  },
+  {
+    "t_start": 3116.15,
+    "t_end": 3118.73,
+    "text": "down the list of polykites as well and we haven't found any other aperiodic"
+  },
+  {
+    "t_start": 3118.73,
+    "t_end": 3120.53,
+    "text": "we haven't found any other aperiodic monotones so"
+  },
+  {
+    "t_start": 3120.53,
+    "t_end": 3125.39,
+    "text": "it's obviously more flexible than hexagons or squares because here's the"
+  },
+  {
+    "t_start": 3125.39,
+    "t_end": 3127.67,
+    "text": "hexagons or squares because here's the proof of that but"
+  },
+  {
+    "t_start": 3127.67,
+    "t_end": 3132.29,
+    "text": "in in the limit right it could it is theoretically possible this is just"
+  },
+  {
+    "t_start": 3132.29,
+    "t_end": 3134.99,
+    "text": "theoretically possible this is just purely anomalous we have we have we"
+  },
+  {
+    "t_start": 3134.99,
+    "t_end": 3141.29,
+    "text": "don't know like is there going to be a 50 kite that is also a periodic like if"
+  },
+  {
+    "t_start": 3141.29,
+    "t_end": 3143.63,
+    "text": "50 kite that is also a periodic like if if this was somehow the right space of"
+  },
+  {
+    "t_start": 3143.63,
+    "t_end": 3145.67,
+    "text": "if this was somehow the right space of shapes to Surge I would have hoped to"
+  },
+  {
+    "t_start": 3145.67,
+    "t_end": 3148.849,
+    "text": "shapes to Surge I would have hoped to find another aperiodic monotonial maybe"
+  },
+  {
+    "t_start": 3148.849,
+    "t_end": 3154.97,
+    "text": "find another aperiodic monotonial maybe like a 20 kite or a 21 kite or a 16 kite"
+  },
+  {
+    "t_start": 3154.97,
+    "t_end": 3156.17,
+    "text": "but I can tell you with certainty that they don't exist"
+  },
+  {
+    "t_start": 3156.17,
+    "t_end": 3162.049,
+    "text": "so I I don't know I I want to believe polychics are somehow special but I"
+  },
+  {
+    "t_start": 3162.049,
+    "t_end": 3163.73,
+    "text": "polychics are somehow special but I actually know don't know if that's true"
+  },
+  {
+    "t_start": 3163.73,
+    "t_end": 3168.77,
+    "text": "and maybe we need to look again in a totally different bin of shapes if we're"
+  },
+  {
+    "t_start": 3168.77,
+    "t_end": 3170.69,
+    "text": "totally different bin of shapes if we're going to try to find more monetize so we"
+  },
+  {
+    "t_start": 3170.69,
+    "t_end": 3171.829,
+    "text": "going to try to find more monetize so we actually had a question from the"
+  },
+  {
+    "t_start": 3171.829,
+    "t_end": 3172.849,
+    "text": "actually had a question from the audience"
+  },
+  {
+    "t_start": 3172.849,
+    "t_end": 3178.069,
+    "text": "about this they were asking whether it's possible to carve out more mono tiles"
+  },
+  {
+    "t_start": 3178.069,
+    "t_end": 3180.47,
+    "text": "possible to carve out more mono tiles from other polygons maybe some other"
+  },
+  {
+    "t_start": 3180.47,
+    "t_end": 3185.27,
+    "text": "regular Tidings of the plane so well whoever asks that should get to work I"
+  },
+  {
+    "t_start": 3185.27,
+    "t_end": 3188.65,
+    "text": "whoever asks that should get to work I mean that's the obvious question"
+  },
+  {
+    "t_start": 3190.849,
+    "t_end": 3195.89,
+    "text": "again I see no reason why it shouldn't be true particularly given that the the"
+  },
+  {
+    "t_start": 3195.89,
+    "t_end": 3198.109,
+    "text": "be true particularly given that the the hat is like"
+  },
+  {
+    "t_start": 3198.109,
+    "t_end": 3204.589,
+    "text": "kind of dumb it's just this random blog right like what quoting uh Jim prop uh"
+  },
+  {
+    "t_start": 3204.589,
+    "t_end": 3206.75,
+    "text": "right like what quoting uh Jim prop uh did was it you or Natalie said pointed"
+  },
+  {
+    "t_start": 3206.75,
+    "t_end": 3208.73,
+    "text": "did was it you or Natalie said pointed out like you know mundane and that's how"
+  },
+  {
+    "t_start": 3208.73,
+    "t_end": 3210.71,
+    "text": "out like you know mundane and that's how I described it in the paper it's mundane"
+  },
+  {
+    "t_start": 3210.71,
+    "t_end": 3212.75,
+    "text": "I described it in the paper it's mundane there's you can't look at this shape and"
+  },
+  {
+    "t_start": 3212.75,
+    "t_end": 3215.569,
+    "text": "there's you can't look at this shape and predict the the level of complexity that"
+  },
+  {
+    "t_start": 3215.569,
+    "t_end": 3217.67,
+    "text": "predict the the level of complexity that arises from it yeah"
+  },
+  {
+    "t_start": 3217.67,
+    "t_end": 3221.39,
+    "text": "um yeah I mean yeah if I had shown it to you you're like you know so what right"
+  },
+  {
+    "t_start": 3221.39,
+    "t_end": 3228.73,
+    "text": "it's not special so yeah where should we look right what what other we don't know"
+  },
+  {
+    "t_start": 3228.73,
+    "t_end": 3230.63,
+    "text": "look right what what other we don't know and that's part of the reason why it"
+  },
+  {
+    "t_start": 3230.63,
+    "t_end": 3233.87,
+    "text": "and that's part of the reason why it took so long to find so um uh we should"
+  },
+  {
+    "t_start": 3233.87,
+    "t_end": 3235.79,
+    "text": "took so long to find so um uh we should perhaps move on to a question from the"
+  },
+  {
+    "t_start": 3235.79,
+    "t_end": 3237.29,
+    "text": "perhaps move on to a question from the audience soon but uh let's finish up by"
+  },
+  {
+    "t_start": 3237.29,
+    "t_end": 3238.67,
+    "text": "audience soon but uh let's finish up by asking"
+  },
+  {
+    "t_start": 3238.67,
+    "t_end": 3242.21,
+    "text": "um in your experience what is it that leads to a break for a result what do"
+  },
+  {
+    "t_start": 3242.21,
+    "t_end": 3244.73,
+    "text": "leads to a break for a result what do you have to do to get something amazing"
+  },
+  {
+    "t_start": 3244.73,
+    "t_end": 3246.37,
+    "text": "you have to do to get something amazing done"
+  },
+  {
+    "t_start": 3246.37,
+    "t_end": 3248.349,
+    "text": "done foreign"
+  },
+  {
+    "t_start": 3248.349,
+    "t_end": 3253.37,
+    "text": "the whole trouble is there isn't a rule like that if there was a an easy rule to"
+  },
+  {
+    "t_start": 3253.37,
+    "t_end": 3254.45,
+    "text": "like that if there was a an easy rule to say here's where you make the"
+  },
+  {
+    "t_start": 3254.45,
+    "t_end": 3255.89,
+    "text": "say here's where you make the breakthroughs it wouldn't be a proper"
+  },
+  {
+    "t_start": 3255.89,
+    "t_end": 3258.049,
+    "text": "breakthroughs it wouldn't be a proper breakthrough these are ideas which come"
+  },
+  {
+    "t_start": 3258.049,
+    "t_end": 3260.809,
+    "text": "breakthrough these are ideas which come from who knows where you're not"
+  },
+  {
+    "t_start": 3260.809,
+    "t_end": 3262.37,
+    "text": "from who knows where you're not clearly"
+  },
+  {
+    "t_start": 3262.37,
+    "t_end": 3265.91,
+    "text": "coming out of something people already knew about because that's what we mean"
+  },
+  {
+    "t_start": 3265.91,
+    "t_end": 3268.01,
+    "text": "knew about because that's what we mean by breakthrough after all isn't it"
+  },
+  {
+    "t_start": 3268.01,
+    "t_end": 3273.109,
+    "text": "so I would say no to that one there's nothing yeah well there was something"
+  },
+  {
+    "t_start": 3273.109,
+    "t_end": 3279.829,
+    "text": "as I understand it Dave did do something had an intention and deliberate space in"
+  },
+  {
+    "t_start": 3279.829,
+    "t_end": 3282.47,
+    "text": "had an intention and deliberate space in which he was searching and of course it"
+  },
+  {
+    "t_start": 3282.47,
+    "t_end": 3286.67,
+    "text": "you know nobody a priori could say well this is going to work out but there was"
+  },
+  {
+    "t_start": 3286.67,
+    "t_end": 3288.049,
+    "text": "this is going to work out but there was an idea"
+  },
+  {
+    "t_start": 3288.049,
+    "t_end": 3296.329,
+    "text": "I didn't you know that systematic approach so I don't know what it's worth"
+  },
+  {
+    "t_start": 3298.73,
+    "t_end": 3304.849,
+    "text": "you you I don't I I had no useful advice like you can't"
+  },
+  {
+    "t_start": 3304.849,
+    "t_end": 3308.329,
+    "text": "I I had no useful advice like you can't plan I mean you can you can"
+  },
+  {
+    "t_start": 3308.329,
+    "t_end": 3310.67,
+    "text": "plan I mean you can you can work around the problem"
+  },
+  {
+    "t_start": 3310.67,
+    "t_end": 3316.609,
+    "text": "so that when the inspiration comes you're prepared for it and I think all"
+  },
+  {
+    "t_start": 3316.609,
+    "t_end": 3318.829,
+    "text": "you're prepared for it and I think all of us who worked on this paper were"
+  },
+  {
+    "t_start": 3318.829,
+    "t_end": 3321.29,
+    "text": "of us who worked on this paper were lucky enough to be in that position like"
+  },
+  {
+    "t_start": 3321.29,
+    "t_end": 3322.309,
+    "text": "lucky enough to be in that position like you know"
+  },
+  {
+    "t_start": 3322.309,
+    "t_end": 3328.13,
+    "text": "Joseph and I had both studied writing computer algorithms to classify shapes"
+  },
+  {
+    "t_start": 3328.13,
+    "t_end": 3335.75,
+    "text": "properties we had the right mental and software toolkit so that if someone"
+  },
+  {
+    "t_start": 3335.75,
+    "t_end": 3339.77,
+    "text": "software toolkit so that if someone handed us the shape we could say aha"
+  },
+  {
+    "t_start": 3339.77,
+    "t_end": 3341.51,
+    "text": "okay now I just put it into my my Pipeline and I get an answer at the"
+  },
+  {
+    "t_start": 3341.51,
+    "t_end": 3346.089,
+    "text": "Pipeline and I get an answer at the other end but I mean it came out of"
+  },
+  {
+    "t_start": 3346.089,
+    "t_end": 3352.069,
+    "text": "but as one a member a person was not on that team uh I just want to say that it"
+  },
+  {
+    "t_start": 3352.069,
+    "t_end": 3354.41,
+    "text": "that team uh I just want to say that it was an amazing group and I think that"
+  },
+  {
+    "t_start": 3354.41,
+    "t_end": 3356.99,
+    "text": "was an amazing group and I think that this has had a played a huge role in its"
+  },
+  {
+    "t_start": 3356.99,
+    "t_end": 3358.91,
+    "text": "this has had a played a huge role in its success in finding this and its"
+  },
+  {
+    "t_start": 3358.91,
+    "t_end": 3360.53,
+    "text": "success in finding this and its properties is the fact that the four of"
+  },
+  {
+    "t_start": 3360.53,
+    "t_end": 3362.089,
+    "text": "properties is the fact that the four of you brought such different strengths to"
+  },
+  {
+    "t_start": 3362.089,
+    "t_end": 3365.93,
+    "text": "you brought such different strengths to it and different backgrounds to it and"
+  },
+  {
+    "t_start": 3365.93,
+    "t_end": 3367.849,
+    "text": "not only that you were amazing in Sharing all this with each other and"
+  },
+  {
+    "t_start": 3367.849,
+    "t_end": 3369.77,
+    "text": "Sharing all this with each other and with everybody else and putting things"
+  },
+  {
+    "t_start": 3369.77,
+    "t_end": 3371.27,
+    "text": "with everybody else and putting things online and making them accessible and"
+  },
+  {
+    "t_start": 3371.27,
+    "t_end": 3376.849,
+    "text": "that's a big part of the success too well let me just give credit to Craig"
+  },
+  {
+    "t_start": 3376.849,
+    "t_end": 3379.01,
+    "text": "well let me just give credit to Craig for all of that I mean particularly all"
+  },
+  {
+    "t_start": 3379.01,
+    "t_end": 3381.589,
+    "text": "for all of that I mean particularly all the tools and software and animations"
+  },
+  {
+    "t_start": 3381.589,
+    "t_end": 3386.53,
+    "text": "the tools and software and animations and so forth that are on your website or"
+  },
+  {
+    "t_start": 3386.53,
+    "t_end": 3391.79,
+    "text": "largely is that's fun it's YouTube and it's a H enjoy one day"
+  },
+  {
+    "t_start": 3391.79,
+    "t_end": 3395.15,
+    "text": "it's YouTube and it's a H enjoy one day but it took all four backgrounds and"
+  },
+  {
+    "t_start": 3395.15,
+    "t_end": 3397.37,
+    "text": "but it took all four backgrounds and perspectives to be able to make this"
+  },
+  {
+    "t_start": 3397.37,
+    "t_end": 3400.73,
+    "text": "breakthrough you had to be willing to mess around how many mathematicians will"
+  },
+  {
+    "t_start": 3400.73,
+    "t_end": 3402.65,
+    "text": "mess around how many mathematicians will really spend time doing that just"
+  },
+  {
+    "t_start": 3402.65,
+    "t_end": 3404.21,
+    "text": "really spend time doing that just playing with shapes and looking to see"
+  },
+  {
+    "t_start": 3404.21,
+    "t_end": 3405.95,
+    "text": "playing with shapes and looking to see what happens that's part of it but then"
+  },
+  {
+    "t_start": 3405.95,
+    "t_end": 3407.809,
+    "text": "what happens that's part of it but then also knowing how to computerize and be"
+  },
+  {
+    "t_start": 3407.809,
+    "t_end": 3409.79,
+    "text": "also knowing how to computerize and be able to give yeah it was really"
+  },
+  {
+    "t_start": 3409.79,
+    "t_end": 3412.01,
+    "text": "able to give yeah it was really complementary yes yeah it's kind of"
+  },
+  {
+    "t_start": 3412.01,
+    "t_end": 3414.589,
+    "text": "complementary yes yeah it's kind of magical yeah"
+  },
+  {
+    "t_start": 3414.589,
+    "t_end": 3418.75,
+    "text": "so that's a secret get three collaborators"
+  },
+  {
+    "t_start": 3418.75,
+    "t_end": 3424.43,
+    "text": "yeah make good connections um thank you very much for"
+  },
+  {
+    "t_start": 3424.43,
+    "t_end": 3429.589,
+    "text": "um all of the uh thoughts that you've shared but I think it's time for us to"
+  },
+  {
+    "t_start": 3429.589,
+    "t_end": 3432.23,
+    "text": "shared but I think it's time for us to start uh wrapping up so uh can I just"
+  },
+  {
+    "t_start": 3432.23,
+    "t_end": 3434.48,
+    "text": "start uh wrapping up so uh can I just have a round of applause for the funnel"
+  },
+  {
+    "t_start": 3434.48,
+    "t_end": 3439.73,
+    "text": "have a round of applause for the funnel [Applause]"
+  }
+]

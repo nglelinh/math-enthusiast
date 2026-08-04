@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ku_094y1Z2wpJg_0",
+    "t_start": 0.1,
+    "t_end": 93.2,
+    "type": "overview",
+    "summary": "- This is the most dangerous problem in mathematics, one that young mathematicians are warned not to waste their time on. It's a simple conjecture that not even the world's best mathematicians have been able to solve. Paul Erdos, a famous mathematician, said, \"Mathematics is not yet ripe enough for such questions.\" Here's how it works. Pick a number, any number. Seven? Good choice. Okay, we're gonna apply two rules. If the number is odd, we multiply by three and add one. So three times seven is 21, plus one is 22. If the number is even, we divide by two. So 22 divided by two is 11. Now, we kee…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_93",
+    "t_start": 93.2,
+    "t_end": 181.3,
+    "type": "overview",
+    "summary": "Now, the conjecture is this: every positive integer, if you apply these rules, will eventually end up in the four, two, one loop. This is commonly called the Collatz conjecture after German mathematician, Luther Collatz, who may have come up with it in the 1930s. But the problem has many origin stories and many names. It's also known as the Ulam conjecture, Kakutani's problem, Thwaites conjecture, Hasse's algorithm, the Syracuse problem, and simply 3N+1. Why is 3x+1 so famous? - Among professional mathematicians, maybe it's not famous but infamous, in the sense that if someone actually admits …",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_183",
+    "t_start": 183.4,
+    "t_end": 274.7,
+    "type": "overview",
+    "summary": "As an altitude, that is higher than Mount Everest, before it too falls back to the ground. In total, it takes 111 steps for 27 to get down to one and end up in the four, two, one loop. The paths that different numbers take vary so widely, even numbers right next to each other. So how do you even start to make progress on this problem? Well, honestly, mathematicians struggled. - People just decided that this was something invented by the Soviets to slow down U.S. science, and it was doing a good job at it 'cause everybody's sitting there twiddling their thumbs and making no progress on this tri…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_274",
+    "t_start": 274.7,
+    "t_end": 369.0,
+    "type": "overview",
+    "summary": "But if you take the logarithm, you find this wiggly graph with a downward trend. It looks like the stock market on a bad day. And this is no coincidence. Both are examples of geometric Brownian motion. That means if you take the log and remove the linear trend, the fluctuations are random. It's like flipping a coin each step. If the coin is heads, the line goes up, tails, it goes down. 3x+1 is just like the random wiggles of the stock market. Over long-enough periods, the stock market tends to trend upwards, while 3x+1 trends down. Another way to analyze 3x+1 is by looking at the leading digit…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_369",
+    "t_start": 369.0,
+    "t_end": 460.0,
+    "type": "overview",
+    "summary": "and the frequency decreases for higher digits. Fewer than 5% of all the numbers start with nine. Now, this pattern is not unique to 3x+1. It actually comes up everywhere, from the populations of countries, to the value of companies, all the physical constants and the Fibonacci numbers, just to name a few. The distribution is known as Benford's law, and it is even used to detect fraud. If all the numbers on your income tax forms obey Benford's law, then, well, you're probably being honest. If not, you may be hiding something. In elections, Benford's law can be used to spot irregularities, thoug…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_460",
+    "t_start": 460.0,
+    "t_end": 550.4,
+    "type": "overview",
+    "summary": "So odd numbers are not actually tripled by 3x+1. They're increased by a factor of about three over two. I'm neglecting the plus one because it's insignificant for large numbers. And 3/2 is actually the most an odd number can grow in one step. Think of the path from one odd number in a sequence to the next odd number. After multiplying by three and adding one, you have an even number. And 50% of the time, dividing by two brings you back to an odd number. But a quarter of the time, you can divide by four before you get to the next odd number. So, for a quarter of numbers, the next one in the seq…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_550",
+    "t_start": 550.4,
+    "t_end": 642.2,
+    "type": "overview",
+    "summary": "This is called a directed graph. It looks like a tree or a series of little streams that flow into each other. If the conjecture is true, it means that every single number is connected to this graph. Every tiny stream all the way out to infinity eventually flows into the massive river of four, two, one. Some mathematicians have modified this visualization by rotating the graph at each number; anticlockwise if it's an odd number, and clockwise if it's even. And then you end up with a structure that looks like a coral or seaweed. And by adjusting the degree of rotation for odd and even numbers, …",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_649",
+    "t_start": 649.1,
+    "t_end": 739.4,
+    "type": "overview",
+    "summary": "We know, for certain, that every single one of those numbers eventually comes back down to one. We have tested nearly 300 quintillion numbers, and none of them disproves the conjecture. In fact, given this information, mathematicians calculate that any loop other than four, two, one must be at least 186 billion numbers long. So, it seems pretty likely that the conjecture is true, but this doesn't prove it. One way mathematicians have attempted to prove it is by making a scatterplot with all the seed numbers on the x-axis and a number from each seeds sequence on the y-axis. Now, if you can show…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_739",
+    "t_start": 739.4,
+    "t_end": 830.4,
+    "type": "overview",
+    "summary": "In this case, the term almost all numbers has a technical mathematical definition. It means that as the numbers you're looking at go to infinity, the fraction that end up under the curve goes to one. Then in 2019, one of the world's greatest living mathematicians, Terry Tao, was able to show 3x+1 obeys even stricter criteria. He showed almost all numbers will end up smaller than any arbitrary function f of x so long as that function goes to infinity as x goes to infinity. But the function can rise as slowly as you like. So, log x is an example, or log, log, log x works too, or log, log, log, l…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_830",
+    "t_start": 830.4,
+    "t_end": 922.9,
+    "type": "overview",
+    "summary": "and then I realized what the correct statement should have been. And then a month later, I proved the correct statement. Maybe we should be spending more energy looking for counterexamples than we're currently spending. - [Narrator] I mean, remember how the number 27 grows all the way to 9,232? Here is a plot of seed numbers up to 10,000, with the largest number reached for each seed plotted on the y-axis. The y-axis stops at a 100,000, but not all numbers can be shown at this scale. The seed 9,663, for example, climbs as high as 27 million. And as yet, no one has proven why a number couldn't …",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_922",
+    "t_start": 922.9,
+    "t_end": 1014.3,
+    "type": "overview",
+    "summary": "isn't the same thing as proving that all numbers do. How many numbers between one and 100 are perfect squares? The answer is 10. So, 10% of numbers up to 100 are perfect squares. How many numbers between one and 1,000 are perfect squares? The answer is 31. So only 3.1% of the numbers up to 1,000 are perfect squares. And the higher you go, the smaller this percentage becomes, such that in the limit, you could say almost all numbers are not perfect squares. The fraction of numbers that are not perfect squares goes to one as X goes to infinity. And yet we know there are an infinite number of perf…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_1014",
+    "t_start": 1014.3,
+    "t_end": 1105.8,
+    "type": "overview",
+    "summary": "One way to think about 3x+1 is as though it's a simple program run on a turing machine. The seed number is the input to the machine. So in this picture, two to the 68 is simply an input tape 68 squares long. You can think of them as a string of ones and zeros or black and white squares. Saying the machine has transformed every input up to this 68 square taped down to one should not give you a lot of confidence that it will do so for all inputs. In fact, it's fairly simple to calculate a number that shows any arbitrary behavior you like, so long as it is finite. But if you want a number that in…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_1107",
+    "t_start": 1107.5,
+    "t_end": 1199.7,
+    "type": "overview",
+    "summary": "And so, could it be that everyone is struggling to prove this thing because it's not actually true? And two to the 60 is not a lot of evidence. And even the statistical version is maybe true and not evidence for the non-existence of a divergent trajectory somewhere in the 3x+1 sequence. - Of course there is another option, and that is that we'll never know, that the problem is undecidable. In 1987, John Conway created a generalization of 3x+1. It was a mathematical machine that he called FRACTRAN. And he was able to show this machine is turing-complete, which means it can do anything a modern …",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_1199",
+    "t_start": 1199.7,
+    "t_end": 1290.7,
+    "type": "overview",
+    "summary": "full of patterns, symmetry, and repetition. But what I'm realizing only now is just how peculiar numbers really are. You can see this most clearly in the coral representation. From a simple mathematical operation comes something intricate, organic-looking, and, thus far, intractable to us. Do all numbers connect to the structure, or is there some unique filament, a spindly little thread, that doesn't connect to any of this, that runs off to infinity? And why is it so hard to tell? I think that's why Paul Erdos said, \"Mathematics is not yet ripe enough for such questions.\" (gentle music) What I…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_094y1Z2wpJg_1290",
+    "t_start": 1290.7,
+    "t_end": 1328.7,
+    "type": "overview",
+    "summary": "that takes your understanding to the next level. I'd highly recommend their course on mathematical fundamentals, which now has even more interactivity and it has topics that are relevant to all areas of STEM and algorithm fundamentals for anyone interested in coding. It's great to have a resource like this to inspire you to learn something new every single day. I try to start off my day by challenging myself with Brilliant. And so if you'd like to join me and a community of 8 million other learners, go to brilliant.org/veritasium. I will put that link down in the description. So I wanna thank …",
+    "depth": "intro"
+  }
+]

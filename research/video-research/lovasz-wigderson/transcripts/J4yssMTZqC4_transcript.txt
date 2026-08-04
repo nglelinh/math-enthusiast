@@ -1,0 +1,962 @@
+hello everyone and thank you for joining us today
+this is an informal conversation hosted by the word federation of science
+by the word federation of science journalists
+together with the norwegian academy of science and letters
+we are deeply honored to have a chance to meet the two hubble prize laureates
+to meet the two hubble prize laureates today
+professor laszlo lovas of edward laurent university in budapest hungary
+and professor avi wigderson of the institute for advanced study in
+institute for advanced study in princeton usa
+thanks to them discreet mathematics and theoretical computer science
+theoretical computer science are now established at central areas of
+modern mathematics congratulations on winning this award
+thank you and i know that there's someone else who would like to
+someone else who would like to congratulate both of you the chairperson
+congratulate both of you the chairperson of the abel committee
+of the abel committee professor hans muntekas professor
+professor hans muntekas professor if you'd like to say a couple of words
+yeah i would be very happy to to congratulate dasolovas and aviv
+on behalf of the hubble prize committee this year the committee has consisted of
+this year the committee has consisted of claire vossa
+claire vossa sylvia sarfati alex lubotsky and mr
+and the purpose of the prizes here is to celebrate the
+immensely fruitful interactions between computer science and mathematics
+and and then i think we in in our citation emphasize that this this is
+citation emphasize that this this is a two-way interaction that is
+and i think that this price is a very important price because i think for
+important price because i think for mathematical sciences that this focus on
+mathematical sciences that this focus on algorithms and computational issues is
+algorithms and computational issues is uh something that is really
+revolutionizing all the areas of mathematics and and
+it's also bringing together uh i mean in in in the last century
+i mean in in in the last century mathematics was diverging a lot in in
+mathematics was diverging a lot in in pure and applied mathematics but
+pure and applied mathematics but i think this emphasize on the emphasis
+on computations and algorithms and this kind of structures
+is really bringing mathematical sciences together again so it's a really
+development for mathematics and even for science in general i think in lobos
+is writing about pe versus nps as as a principle of nature and so on so it it
+principle of nature and so on so it it is far far reaching uh consequences i
+is far far reaching uh consequences i think i stop at this point and
+congratulate to uh lawrence again thank you
+thank you so much before we start i just want to say that
+want to say that we have a chat box and everyone here can
+questions i'll start with a simple question for both our laureates
+a simple question for both our laureates um why do you love math and
+um why do you love math and what does matt mean to you you'll have
+who to go first i can tell you from experience
+hungarians are extremely polite and they always let you go first so don't
+always let you go first so don't tell us okay avi would you like to
+well i'm sure that i have some natural attraction to it this has to
+attraction to it this has to be crazy i love math because
+be crazy i love math because you know it's just it has truth
+you know it's just it has truth it has beauty it has a mystery
+it has beauty it has a mystery it has surprises
+it has surprises and it's both a meditative
+hand it's a very social way of life you can do it by yourself you can do it with
+can do it by yourself you can do it with others and
+mainly because there are wonderful other people to do it with
+people to do it with a great answer professor lopez why do
+love math i uh well it it it is a word where
+well it it it is a word where where you have beauty and harmony
+where you have beauty and harmony uh without all the for the
+uh without all the for the [Music]
+slings and arrows of of the real world uh i uh
+i served for six years as the president of the academy
+of the academy and some of those were very difficult
+i was teaching a course and i i still sort of
+a course and i i still sort of remember that whenever i entered the
+remember that whenever i entered the classroom and closed
+classroom and closed the door i i all of a sudden was in a
+different world and uh and that was it was nice and
+and relaxing and similarly on the weekends i tried to do some research or
+weekends i tried to do some research or write up some stuff that i
+write up some stuff that i wanted to for some time
+and that also had this kind of calming effect on the uh
+all the difficult bureaucratic and political and other problems
+i was able to to go south speaking of difficult times i know that
+speaking of difficult times i know that both your lives
+played out in certain geopolitical and economic times that shaped your
+economic times that shaped your decisions
+uh professor lovas you lived behind the iron curtain
+iron curtain while avi you spent your childhood in
+how has this influenced your lives and your decisions
+your decisions professor louis um
+hungary was not really the worst country behind the iron curtain it was probably
+behind the iron curtain it was probably the most liberal
+which meant that we did have uh connections with the west and
+connections with the west and uh access to
+uh access to conferences even travel one or two times
+um in addition when i was very young it had the advantage
+for me that my older colleagues who were already
+colleagues who were already well-established mathematicians
+they they they didn't they were not occupied by traveling abroad or doing
+occupied by traveling abroad or doing long travels
+so they had much more time to uh to talk to or to teach
+uh to talk to or to teach young people and that was a benefit for
+how about you avi how was your childhood in haifa
+well it was wonderful i i grew up uh you know uh two minutes
+i grew up uh you know uh two minutes walk from the beach
+so i spent uh you know half my life on the beach and the rest uh
+playing soccer uh except that my dad kept intriguing me with the
+my dad kept intriguing me with the with mathematics puzzles so uh
+with mathematics puzzles so uh yeah so that's captivated me and
+i spent lots of hours on that as well so yeah
+yeah that's more or less a story of my childhood
+childhood my parents were both holocaust survivors
+my parents were both holocaust survivors they never talked much about this but
+they never talked much about this but i think we all i have two brothers
+we all were always encouraged to do what we loved and pursue the passions we
+what we loved and pursue the passions we had
+my brother was very much inclined to nature and
+kept bringing i know cockroaches from the field and worms and put them in the
+the field and worms and put them in the fridge
+and my youngest was the only one who listened to my dad when he talked about
+listened to my dad when he talked about his engineering uh problems at work and
+his engineering uh problems at work and taught him how to fix everything well
+taught him how to fix everything well me and me were never interested in that
+me and me were never interested in that so i think yeah
+we try to implement it with our kids also you know it's just we were left
+also you know it's just we were left free to explore what we really loved and
+free to explore what we really loved and invest time in what we loved and
+sounds like a fantastic childhood i know that
+the two of you have known each other for many many decades
+and professor lovas you said during an interview actually with avi that you
+interview actually with avi that you were lucky to start your
+um career in a time when mathematics developed together with its applications
+developed together with its applications why
+why was that interesting and helpful
+in fact i said i said that it was a special time
+special time when mathematics the part of mathematics
+i we were doing in hungary uh discrete mathematics
+mathematics which was
+through the mentorship of paul abdush but also many other
+outstanding mathematicians it was a it was an area which was quite uh
+very very strong in hungary but this area was
+a little bit outside the mainstream of mathematics it was
+uh often the motivation were for particular results were puzzles or
+for particular results were puzzles or kind of methylene problems and the like
+kind of methylene problems and the like and then all of a sudden in the late 60s
+it turned out that that there is this whole new area of computer
+whole new area of computer science where discrete mathematics
+science where discrete mathematics is the part of mathematics which is the
+real really uh important there which which is
+mathematical foundation of the theory of computing and
+the theory of computing and so many of us got very enthusiastic
+i i said uh a few times that i consider this sort of analogous to the
+uh to the 18th 19th century where the anal analysis
+where the anal analysis differential and integral
+calculus developed hand in hand with physics
+so the most important players were both mathematicians and physicists don't know
+mathematicians and physicists don't know whether euler is an astronautician or a
+physicist or a neutron
+so so this was such a such a period and i had a little
+such a such a period and i had a little bit this feeling
+about the theory of computing and discrete mathematics
+in the in the 60s 70s 80s i have one question for you um
+one more question because we all worry that the very secure passwords
+that the very secure passwords that we're using today as well as our
+encrypted conversations that are stored today could be easily
+in the future by a quantum computer yet the math that you created can be used to
+the math that you created can be used to guarantee
+the security of new cryptographic systems that could withstand attacks
+systems that could withstand attacks even by quantum computers
+could you um explain this a little bit could you explain it how it works maybe
+could you explain it how it works maybe for non-mathematicians
+for non-mathematicians um well uh
+that's not my area probably avi can much explain this much better but
+much explain this much better but uh the basic idea is that
+uh the basic idea is that for for uh communication over a not
+for for uh communication over a not completely secure channel
+you have to encode what your the information you're sending
+information you're sending and then you have to encode it in such a
+at least without a key the decoding should be difficult
+and it's this kind of situation that you do a computation in one way it's easy
+do a computation in one way it's easy but to reverse it is difficult
+but to reverse it is difficult that's what is behind these
+that's what is behind these these
+the theory of computing has this big answer of problems like p equals np
+answer of problems like p equals np which
+are uh exactly about try claiming and uh they we would like to
+claiming and uh they we would like to have a proof
+that these these functions are really behave like that
+now some of them you know that against uh traditional computers they
+against uh traditional computers they probably behave like that
+probably behave like that it's very difficult to prove that they
+behave like that but that quantum computers can broke
+i wouldn't be too worried at the moment because
+quantum computers are not yet really functional in this in this sense
+functional in this in this sense uh and even then even if these can be
+broken either by compute quantum computers or traditional
+as long as there is a gap between the difficulty going one way and the other
+difficulty going one way and the other there will be always that can always be
+there will be always that can always be some kind of race
+some kind of race about uh with making it it's like an
+so one of the things that apparently is secure against quantum computers
+is secure against quantum computers i think that only means that nobody else
+found their way of using even a theoretically existing quantum
+even a theoretically existing quantum computer to break it
+is indeed based on what's called the shortest lattice factor problem
+that is somewhat connected to this algorithm that is mentioned in the
+this algorithm that is mentioned in the report of the committee what are your
+report of the committee what are your thoughts on this avi do you
+thoughts on this avi do you agree with this race of
+agree with this race of trying to encrypt and to break
+trying to encrypt and to break encryption yeah i mean it's been going
+you know since ancient times with [Music]
+people always try to uh people always had secrets
+and try to keep them share them with the people they wanted to and uh
+people they wanted to and uh prevent others from understanding them
+prevent others from understanding them people constructed the
+codes uh you know since the time of caesar or even earlier
+caesar or even earlier uh now the famous story is about the
+uh you know this place uh uh of privacy and secrecy uh
+between uh people who develop security systems and people try to break them is
+continuing i think what's important uh is that since from computational
+is that since from computational complexity can came to the scene this is
+uh it became a mathematical algorithmic problem both the design
+of secure systems and uh you know the ability to argue
+you know the ability to argue specifically you know rigorously about
+their security their you know we can prove theorems about
+um you know this claim that we can relate the security of a system to a
+relate the security of a system to a difficulty or easiness
+difficulty or easiness of a concrete mathematical problem like
+factoring integers or finding in the way of latte uh finding a
+in an artist so uh it's extremely important that people understand that
+today and in the future uh whatever you know their frequency and
+whatever you know their frequency and privacy is based on is uh
+privacy is based on is uh about the ability or inability to find
+fast algorithms for concrete problems that are underlying
+systems one of your favorite achievements is the concept of
+favorite achievements is the concept of zero knowledge proof
+zero knowledge proof which means that you can prove something
+without revealing any of the details how does this work maybe you could
+how does this work maybe you could explain it a little bit for
+explain it a little bit for non-mathematicians
+yeah so uh first let me say it's not that i can prove something to you
+that i can prove something to you without revealing the details i can
+without revealing the details i can prove anything to you anything
+prove anything to you anything everything i know if i have a you know
+some conviction and the information to support this i
+convince you of it and not give you any thread of this information
+thread of this information yeah it's a very paradoxical notion
+most people can't imagine that you can convince anyone of anything without
+convince anyone of anything without giving information
+i should say uh that one way to uh find uh the answer to your question is to
+uh the answer to your question is to look at the prize announcement
+look at the prize announcement uh where alex bellows have done a
+wonderful five-minute explanation of basically our original
+proof with uh with gold rush and michali
+let me say that a key element is cryptography so
+a key element is cryptography so whatever i want to prove to you is
+and one has to remember that a proof is something that's easy to
+a proof is something that's easy to verify
+something local that any anybody can check is it
+check is it so if i had a proof at least if i wrote
+it would be very easy for you to go step by step and see that one follows from
+by step and see that one follows from the other
+uh mechanically in fact and so the idea is to break this pieces of the
+the idea is to break this pieces of the proof
+and put each one of them in an envelope okay uh so that when you want to check
+okay uh so that when you want to check me to see if the proof is correct that
+the you know what i'm trying to convince you of uh
+you can ask me to open some of these envelopes and see that at least
+you know in some small step i didn't cheat you so maybe you pick them
+cheat you so maybe you pick them randomly
+okay so that's a that's a one important ingredient
+uh the second is of course you know maybe i she said you you know maybe it's
+maybe i she said you you know maybe it's a hundred pages long and you asked me
+you know lines three and yeah okay the the arrow is not there but it's
+the arrow is not there but it's somewhere else
+so the second idea is to repeat it to repeat this process
+repeat this process and if you repeat it just like uh you
+changing anything then of course you will eventually open all the envelopes
+will eventually open all the envelopes and know everything
+so another key really fundamental uh property of what we do is that after
+property of what we do is that after you've
+opened you know these few envelopes and checked locally that there is no error
+checked locally that there is no error there
+i completely uh saw you know i saw all the envelopes and make
+new ones and they there's an ability which i cannot explain
+which i cannot explain to make it so that uh if i have one
+a number of proofs and i choose one of them randomly which
+makes whatever you open if if the proof is correct whatever you open
+something you could have tossed yourself so that therefore because you could have
+uh uh you know you don't learn anything and and the last point is that if i
+and and the last point is that if i didn't have a proof if i
+didn't have a proof if i was trying to treat you there must be an
+error somewhere after a few trials you will find it
+this idea i think also has applications in blockchain
+technology and um i was wondering how do you feel about this and whether
+how do you feel about this and whether you're interested in bitcoin dot coin or
+you're interested in bitcoin dot coin or cryptocurrency in general
+cryptocurrency in general uh yeah how do i feel about it you you
+how do i feel about any mathematical result or any
+piece of knowledge that scientists or mathematicians arrive at being used by
+mathematicians arrive at being used by society
+i think that you know generally i feel great about it i think knowledge is very
+great about it i think knowledge is very important for society
+you know many people use knowledge people companies governments
+everybody use knowledge and mostly i think it's being used for good
+purposes sometimes it's used for bad purposes but there is
+acquiring knowledge and propagating it so i feel good about discoveries in
+so i feel good about discoveries in general
+any intellectual discovery uh i am personally not interested uh
+personally not interested uh very much in digital currencies or in
+in many practical applications i'm aware of them i think my field uh
+of them i think my field uh has benefited greatly from the practical
+has benefited greatly from the practical world because it suggests
+models to study uh computing systems uh natural systems such as models
+natural systems such as models to study mathematically and understand
+to study mathematically and understand their power limitations properties and
+and yeah i'm interested on the mathematical
+mathematical mathematical style the problems it
+could tell us a little bit the story of the ll algorithm how was it born
+of the ll algorithm how was it born um well that's uh an interesting story
+um well that's uh an interesting story because it sort of shows the
+because it sort of shows the quite uh sometimes
+binding way in which you arrive but at a particular result
+so i was working with uh my friends and collaborators martin gruchel
+friends and collaborators martin gruchel and black scriber
+we are writing a book on the ellipsoid method which was a a
+famous new algorithm at that time and in one of the theorems we had to make a
+in one of the theorems we had to make a kind of
+simple but a little bit awkward or out of place condition
+certain parameters had to be rational with a bounded number of of
+a bounded denominator and numerator and this kind of condition could all always
+this kind of condition could all always be achieved in
+be achieved in some way you could get around this
+but but you wanted to to get the the simplest possible statement of the
+the simplest possible statement of the result
+and so i at the time i was i was thinking about
+at the time i was i was thinking about it alone i
+i i realized that this can be reduced to a classical problem in number
+reduced to a classical problem in number theory
+which was not solved algorithmically at that time
+that time but i could find an algorithm to solve
+and so this way i got this it's algorithm
+and i wrote to handy glenn straw where i knew that he was
+he was working on similar problems asking him if he thinks that this is an
+asking him if he thinks that this is an interesting or useful result and then he
+interesting or useful result and then he and
+his brother aryan wrote back quite enthusiastically that
+enthusiastically that if this is the case then they can solve
+uh sort of basic algorithmic problem in algebra namely
+algebra namely factoring polynomials into irreducible
+so we published this paper this way and then lagarius and disco discovered
+and then lagarius and disco discovered a year or two later that this algorithm
+can be used to to to break one of the proposed uh
+to to to break one of the proposed uh coding systems uh knapsack codes
+coding systems uh knapsack codes and uh so this how the algorithm sort of
+moved over into cryptography i have not followed it there actually
+this is a mono this is an interesting story because it shows that
+story because it shows that that knowledge is not necessarily
+where it is most needed sometimes the you know intellectual challenge to do
+you know intellectual challenge to do something
+is is also very important speaking of challenges i read in the new
+speaking of challenges i read in the new york times that
+one of the first people you wanted to call after you learned that
+you got the prize was your wife kotlin who's also an elite mathematician and
+who's also an elite mathematician and you've worked together so much and
+you've worked together so much and you've published papers together
+you've published papers together while most of us can barely manage a
+um how is working with her different than any other collaborations you've had
+than any other collaborations you've had does it lead to interesting
+does it lead to interesting conversations
+well we have been together since high school
+school and of course we know each other very
+uh we do have a number of joint papers that's not the only
+joint papers that's not the only sort of help that give each other
+sort of help that give each other we are both very sort of devoted to
+she has now retired but while she was teaching we often
+or almost all the time we discussed uh how to teach that what
+what to use how how to make this better presentation of the material
+better presentation of the material uh then we also wrote some
+uh then we also wrote some papers several papers together
+papers several papers together [Music]
+and and of course over the period when i was
+uh as i mentioned these sort of hard years
+as president of the hungarian academy then i had a sort of a free advice or
+then i had a sort of a free advice or uh where i could discuss
+uh where i could discuss the issues with so it was very important
+i'd like to go to avi now um you're based in the us right now you're
+you're based in the us right now you're obviously an elite mathematician
+but do you do your own taxes uh texas uh you have someone helping you
+uh texas uh you have someone helping you with that
+yeah we have uh yeah and uh my wife uh is uh
+my wife uh is uh is uh handling the taxes there but we
+yeah we just collect collect the papers and give it to a
+and give it to a tax person
+yeah i guess edna is a far more practical person in the house
+practical person in the house as compared to me so uh
+as compared to me so uh yeah i'd say most practical matters
+yeah i'd say most practical matters she takes care of she's also a
+she takes care of she's also a mathematician
+by training then she moved to uh computer science the real computer
+science spouse is a programmer and a systems person also
+institute for advanced study at the confusing group
+you're interested in so many things that are um
+at the intersection of math and and computer science um avi
+computer science um avi i was wondering maybe you could tell us
+a little bit about how the field evolved since you started
+the field evolved since you started tackling these problems
+tackling these problems uh i think that like lots he said uh
+i feel lucky to uh have been born when i was
+uh born because the field yeah i was really young when i
+the field yeah i was really young when i was born in the
+was born in the 50s and and
+by the time i reached the college it was beginning to solidify with the
+all the major results and understanding of methodology
+of pnp efficiency resources completeness
+resources completeness many randomness many central ideas were
+and from that point on i mean the field was very small and young
+was very small and young and from that point on i think a lot of
+uh understood the you know how how fertilized um
+and joined it people uh many mathematicians loss is a great example
+mathematicians loss is a great example michael reading you know
+michael reading you know many mathematicians joined it and it
+uh bloom in every possible sense it got deeper it understood what it was doing
+deeper it understood what it was doing and why it was doing it it understood
+modeling uh computing systems but also uh modeling natural phenomena uh
+i should say by the way that this was also understood by the fathers of the
+also understood by the fathers of the field like
+both alan turing who sort of invented the algorithm and created the
+you know the computer revolution and john von neumann who was here at the
+they worked on uh biology and on on physics uh you know really amazing uh
+on physics uh you know really amazing uh foresight anyway the field you know just
+started diversifying into loss by back today the theory of compensation has
+today the theory of compensation has lots of different parts studying
+lots of different parts studying parallel algorithms and distributed
+parallel algorithms and distributed algorithms and online algorithms and
+and uh lots of others so uh and of course cryptography was an important
+course cryptography was an important early development because we started
+early development because we started studying not just efficiency of
+studying not just efficiency of algorithms but properties of algorithms
+algorithms but properties of algorithms like the knowledge inside an algorithm
+like what we discussed before on zero knowledge uh
+so the goals they broadened and the community broadened and the phenomenal
+community broadened and the phenomenal talent
+entered and keeps entering and the connections with the
+connections with the i think one major uh
+thing that happened that developed in the past 20 years even though as i
+it's connections with all sciences uh i'd like to say that uh you know um
+i'd like to say that uh you know um computation there's a famous saying of
+computation there's a famous saying of uh
+dijkstra who was one of the pioneers of algorithms in
+in the 60s he said that computer science is about computers just as much as
+is about computers just as much as astrophysics is about telescopes
+computation uh is everywhere you know people you
+used to think or maybe still think that it's about the manipulation of bits and
+it's about the manipulation of bits and computers
+but the same type of operations happen between the
+neurons in our brain and cells in our tissues and you know prices
+in the market and friends on facebook and i can give an infinite number of
+and i can give an infinite number of examples every natural system
+has processes in which the interact interacting parts many many
+interact interacting parts many many interacting parts
+interacting parts in a simple way creating beautiful
+like the body or the solar system or you know you name it and uh
+you know you name it and uh understanding these processes building
+understanding these processes building scientific theories
+uh in order to do that you have to understand them also as computing
+understand them also as computing systems you have to understand their
+their interactions their resources and they may be different than the computer
+if you are thinking about neurons in the brain maybe you need to take into
+brain maybe you need to take into account the heat
+dissipation the energy needs you know whatever chemicals they're
+going and so on but you know it's computation nonetheless so the field
+computation nonetheless so the field understood
+that its knowledge is exploited in analyzing algorithms and computation
+analyzing algorithms and computation is useful to all these sciences and so
+fantastic communications and the collaboration started with physics
+collaboration started with physics and with the biology and with economics
+social sciences and uh yeah it's just the beginning this
+revolution is just at its inception and of course with mathematics as well
+and of course with mathematics as well which seems like a static field
+which seems like a static field it seemed like no processes but
+one type of theorem that keep being posed in mathematics is some
+being posed in mathematics is some objects exist
+objects exist some objects with wonderful properties
+and then the algorithmic question is really well show me one
+really well show me one and show me one is an algorithmic
+question find objects with you know desired properties
+uh kind of question goes even deeper to any field in mathematics
+topology geometry algebra and so on and yeah lots of collaborations and
+yeah lots of collaborations and beautiful results are there
+beautiful results are there and many more will come and none of you
+because my understanding is that you both love what you're doing
+and um professor lovas i know that you have some very recent work you would
+you have some very recent work you would like to
+share with us i'm thinking about large networks and graph limits maybe
+networks and graph limits maybe you could explain your most recent work
+or non-mathematicians so uh almost every object we would like to
+uh almost every object we would like to understand
+is really a network it could be a network of
+of cells a network of individuals a network of gadgets
+or or perhaps just a network of atoms and and so we would like to understand
+and and so we would like to understand these kind of very large networks
+these kind of very large networks billions and billions of nodes
+billions and billions of nodes connected in certain ways
+connected in certain ways uh and uh at
+the last two decades more or less uh i was very interested in
+uh questions like but there is this huge network how to describe it how to
+approximate it how to run algorithms on it these are all
+run algorithms on it these are all different questions
+which are related to similar questions in classical
+similar questions in classical computer science or mathematics about
+but the conditions are different and so one of the
+so one of the underlying ideas of what we have been
+is that uh if you if you if you look look at the piece of metal
+if you look look at the piece of metal uh it is a network of atoms
+uh it is a network of atoms usually it is an irregular network of
+it's a network of atoms but if an engineer thinks about it
+engineer thinks about it they don't think about it as a network
+of atoms they want to see whether the bridge will
+hold they will not write up an equation for
+every possible atom but they look at some kind of
+and continuous should say approximation so they
+they they think of it as a continuous material and then you can
+write up i don't know how the heat is distributed how tangents are distributed
+distributed how tangents are distributed but the
+deformations so you can use tools from from analysis
+tools from from analysis and differential equations to understand
+and so the idea was what other networks can be approximated
+in various ways so that instead the network we consider
+some kind of limiting object so that's the idea of graph limit theory
+so that's the idea of graph limit theory which we have
+worked on and in this most recent project we look at uh
+dynamics on the networks on the big network so a network is just like
+network so a network is just like skeleton of something and in order to
+skeleton of something and in order to work
+there but there must be several other things happening
+things happening for example on uh on the internet there
+uh sent back and forth or on the social network on the network of
+on the social network on the network of people
+uh diseases are spreading as well as other things information and
+as well as other things information and so on
+so this is uh this is dynamics of networks and we would like to
+networks and we would like to to extend the existing theory of large
+networks to this dynamical
+oh sure yeah i think that uh yeah this is just uh the most recent the
+yeah this is just uh the most recent the theory of darth limits that latte and
+theory of darth limits that latte and his collaborators
+just the last installment of uh lassie's famous way of connecting
+famous way of connecting uh different parts of mathematics uh
+he's done it for me zeros and uh solving many
+bringing tools from outside discrete mathematics to
+solve these problems here i think that the magic in this continuous
+the magic in this continuous approximations of this
+approximations of this large network is that you can simply
+continuous techniques for mathematics you can bring analysis in
+and other tools of continuous mathematics to bring
+there on studying discrete structures and this is a absolutely major
+major shift in discrete mathematics and it's being employed not just to study
+it's being employed not just to study uh networks it's employed to study
+sequences and it's employed to study groups and many other
+groups and many other discrete structures today and it's uh
+yeah it's it's an extremely powerful tool
+many people say that um both of you like to mentor young mathematician and
+like to mentor young mathematician and i'm curious to know
+i'm curious to know what do you teach them about math and
+life in general um what are some of the things that could be done to make it
+things that could be done to make it a little bit easier for for the next
+a little bit easier for for the next generation of elite mathematicians
+generation of elite mathematicians professor lovas would you like to go
+um i know that at some point you've been part of a group of elite high school
+part of a group of elite high school students
+who were thought advanced math maybe you could um tell us
+about that experience as well uh yeah that was nice although it was not so
+that was nice although it was not so much
+the the material that we were studying uh it was much more important that
+uh it was much more important that we were together we're inspiring each
+we were together we're inspiring each other
+and then of course that outstanding mathematicians like paul anders who was
+mathematicians like paul anders who was one of the most influential
+mathematicians of the 20th century he visited this class and chatted with
+he visited this class and chatted with us
+sometimes gave a talk or just gave suggested problems to think about so
+suggested problems to think about so that was uh
+that was very inspirational it was again a lucky situation because
+it was again a lucky situation because uh discrete mathematics was
+uh discrete mathematics was was i don't i wouldn't say infancy but
+young science so you could find the problems that were quite
+accessible you didn't have to study years and years before you understood
+years and years before you understood what
+they were about uh now about teaching other people
+now about teaching other people what to teach them so certainly the
+i what i one other thing i learned from paul anders is is an openness so that
+paul anders is is an openness so that you don't
+try to keep your results to yourself but what you share the ideas with others
+what you share the ideas with others when the others will
+they respond to them and this way you get better results uh
+and also that you should not especially in an early age try to
+especially in an early age try to try to be trying to broaden your
+try to be trying to broaden your perspective
+i uh okay may i i quote uh something which one of my
+i quote uh something which one of my one of my most successful
+one of my most successful student said that he said that
+thanks to me he is not an algebraic he's a mathematician
+he can't understand what i am saying avi would you like to add something on
+avi would you like to add something on this
+how do you work with the young mathematicians that you're mentoring
+mathematicians that you're mentoring what do you tell them
+first of all i want to stress that working with the
+young mathematicians or also students in college but many
+uh graduate students and postdocs is not only with teaching it's learning
+is not only with teaching it's learning i
+i find myself learning from the young all the time
+they are you know they come fresh with fresh minds and
+uh not preset ideas and they have uh you know uh yeah
+it's it's just wonderful to be in such an environment all the time
+such an environment all the time yeah i love i love teaching i think that
+yeah i love i love teaching i think that [Music]
+it's very important everything that latzi said of course i sign on
+latzi said of course i sign on completely
+i think that it's very important for uh people who start to do research to
+people who start to do research to realize that it's not only technical
+realize that it's not only technical results that are important and
+results that are important and understanding uh
+how things were proven but why and what was the flow of ideas that somehow
+what was the flow of ideas that somehow brought things together like what latin
+brought things together like what latin described with the ll algorithm how
+described with the ll algorithm how important it is
+important it is to know uh to broaden up when you are
+young [Music]
+[Music] i once gave a lecture at some conference
+more or less why should you should you go to listen to lectures in other areas
+go to listen to lectures in other areas i think that the there are amazing
+i think that the there are amazing connections between different
+connections between different areas and uh yeah they when you are
+to uh be more you know to broaden up i uh you know i
+broaden up i uh you know i uh we definitely talk about life a lot
+uh you know people coming into research uh find that uh
+uh find that uh despite the propaganda it's not just
+you don't have to do anything and you get paid i think the people who come to
+get paid i think the people who come to this are
+you know are passionate about what they want to do
+and they have to realize i mean they do realize and they have to cope with that
+like i told you in the beginning in our private conversation
+uh they often fail i think that uh doing research especially in mathematics
+doing research especially in mathematics where you don't have a
+way to validate your you know where you stand with measurements or something
+stand with measurements or something uh you know
+uh you know you have to love it i mean you have to
+doing what you're doing even if you're friends
+it's very important to follow your passions and
+i think passion and talent go together i mean you have to discover
+mean you have to discover what particular you know problems you
+you know what what you like to study and what you like to work on you
+you need to discover that and then you discover your talents
+and uh yeah i think it's an amazing life it may not be for
+it's an amazing life it may not be for everybody but
+it's an amazing life to uh to be able to do research and
+i think that known knowledge is you know i wouldn't say as much fun but almost as
+i wouldn't say as much fun but almost as much fun
+much fun as the discovery knowledge
+okay thank you so much for this i think we can open the chat for
+we can open the chat for questions so um if anyone has questions
+questions so um if anyone has questions please
+use our chat but before we do that i want to do something
+want to do something interesting since the two of you know
+each other um i'd like to ask each of you to tell
+a secret about the other person or um is this is there something
+each of you would like to know about the other person javi would you like to
+tell us something we don't know about professor lovas
+i told you in the beginning that is [Music]
+extremely gentle and polite and sometimes it's embarrassing
+sometimes it's embarrassing uh this he always gives way to me in
+uh uh yeah it's lassie is a kind of a perfect person it's impor impossible to
+perfect person it's impor impossible to find
+any flaw or any well of course maybe maybe
+carty would tell us if he was listening uh we've known each other you know
+uh we've known each other you know from the mid 80s probably
+i uh you know by the time i entered the science he was already a giant and uh
+science he was already a giant and uh it was great to you know
+it was great to you know meet the person and become friends with
+meet the person and become friends with them our families
+them our families uh you know became friends and we've
+you know family friends since then i uh um uh yeah i wish i could embarrass him
+um uh yeah i wish i could embarrass him but
+let's see if the other way around um yeah i i also have difficulty because
+yeah i i also have difficulty because uh avi is such an open personality
+uh avi is such an open personality that uh he
+he has no secrets he he tells you what he thinks he tells you
+what he thinks about so it's very difficult it would be difficult to
+difficult it would be difficult to to find something that he doesn't tell
+which is why why i love him but that's uh that's the way
+that's uh that's the way he he is
+this is not how i expected it to be but um
+i can work with that um andre at may science would like to um ask
+may science would like to um ask something to
+both of you he pointed out that both of you collaborated with a great number of
+how do you comment on the myth of the solitary mathematician
+or scientist is this just a myth would you like to go first it's not a
+would you like to go first it's not a myth it's uh
+you know i think that's very important for every mathematician every scientist
+for every mathematician every scientist everything here to find the mode of work
+that boosts them best it's like discovering your passions and
+like discovering your passions and talents i think that
+many work fantastically well in solitary and and i think even for
+uh you know the fact that we collaborate and love collaborating so much
+and love collaborating so much doesn't mean that we don't spend uh
+spend a lot of time thinking by ourselves uh
+thinking by ourselves uh it just me personally i find the social
+in doing mathematics so deal and so uh fertile and uh that i just enjoy it
+so much that i just can't think of if i have any idea i run and tell it to
+immediately i also think that every mathematician
+mathematician needs the time and sitting alone
+needs the time and sitting alone or walking or whatever the favorite some
+or walking or whatever the favorite some some people lie down on the couch but
+sort of stay inside your your uh your your own thoughts
+your your own thoughts your euron had uh
+for example when i was young some of the best ideas came when i was
+some of the best ideas came when i was standing on a crowded bus and
+standing on a crowded bus and you know getting somewhere and
+nobody was asking anything from me on the other hand i i
+i also found that that it's very nice to work with other people
+and there are some people with whom it works better and with some other stones
+works better and with some other stones and uh
+one of my most uh one of my favorite one of my favorite
+uh collaborators is like driver from amsterdam and then i know
+driver from amsterdam and then i know exactly what the point is
+exactly what the point is i have a kind of geometric view of
+imagine things geometrically and he is extremely good in algebra so
+and he is extremely good in algebra so he immediately sees how to do
+he immediately sees how to do computations and so we
+alternate adding new ideas and that eventually comes out to something
+that eventually comes out to something quite nice
+miklos shimonovitz said about you professor lovas
+professor lovas some mathematicians think in pictures
+think in formulas lovas applies both method what is your thinking style
+method what is your thinking style do you visualize formulas on the ceiling
+do you visualize formulas on the ceiling like beth from the queen's gambid if
+like beth from the queen's gambid if you've seen the miniseries
+you've seen the miniseries um i think
+um i think for me the geomatic pictures are what
+i can do some computation in in uh in my head very formulas
+in uh in my head very formulas but but that's often better than on
+but but that's often better than on paper
+paper or some other more modern tools like
+or some other more modern tools like maple but the
+my my basic way of looking at mathematics is trying to
+mathematics is trying to build up a mental geometric image of
+one more question for both of you if you could go back to the beginning of your
+could go back to the beginning of your careers
+would you pick the same area of mathematics as i'm sure you would be
+mathematicians again avi uh yeah absolutely i think i was lucky
+to land where i am in this area between computer science and mathematics
+and no i won't change anything i think i i went to an into a field that is so
+you know uh interesting and so important scientifically and and
+important scientifically and and practically and
+has such fantastic people and to work with and such fantastic problems to icon
+with and such fantastic problems to icon and
+it just have to imagine i mean i i consider myself extremely lucky to have
+consider myself extremely lucky to have ended where i am
+i agree i i also would not change of course looking back there might be
+of course looking back there might be areas where i said yeah i should have
+areas where i said yeah i should have studied them a little bit more or
+studied them a little bit more or yeah this was sometimes spent on
+yeah this was sometimes spent on on reading up on something which
+on reading up on something which eventually had no
+uh no no use for in my own research but the basic uh area i would not
+the basic uh area i would not change i would stick to the same thing
+um avi yeah go ahead please i was just going to say uh i think both
+uh so for it's just that you can always imagine other things you could have done
+imagine other things you could have done but nobody does with their life
+but nobody does with their life everything they could have wanted to do
+everything they could have wanted to do it's just impossible
+it's just impossible so some people they you know i think
+things that didn't and other people just enjoy the fact that they've done
+enjoy the fact that they've done whatever
+and i think we are both like that um i do have a question about
+um i do have a question about popularizing mathematics and
+and educating the public um avi you've been offering your book mathematics and
+been offering your book mathematics and computation free of charge
+computation free of charge on your website the digital version is
+available there why do you do this and what are some of
+best ways to popularize mathematics to the public
+so latia has written great many books i i learned from his books as a graduate
+i i learned from his books as a graduate student
+and i think uh expositing knowledge especially in a very
+knowledge especially in a very accessible way
+is is the you know fundamental to progress of science and mathematics
+to progress of science and mathematics and
+uh yeah i think books like lattices are prime examples i for many years
+prime examples i for many years you know did what you know
+normal mathematicians do you know i give teach and give lectures and
+teach and give lectures and so on and then about 10 years ago i
+started on this project i have only one book
+this one but it's uh it's really i'm showing this to you just because i'm
+proud of the design my son-in-law helped me create
+i offer it free of charge because i want people to read
+people to read it i mean i think that nobody you know
+you know math books for you know becoming
+billionaires right i mean you want to uh propagate this knowledge so i realized
+propagate this knowledge so i realized that
+lots of the lectures i've been doing especially the more popular ones except
+especially the more popular ones except explaining you know uh my field and the
+motivations and the ideas and the high level
+structure uh really more efficient you know something like realized in his
+you know something like realized in his twenties
+i realized uh uh quite like would be more efficient if i just put it
+more efficient if i just put it somewhere
+somewhere and so that everybody has access to it
+yeah so it's i find it very natural you know to put it on my my website and
+you know to put it on my my website and i hope that many people
+i hope that many people will look at it yeah
+i i have always found it important to to popularize mathematics and
+to popularize mathematics and i i feel that
+i i feel that we should we should have our
+science presented in a way that is uh that is not as
+and as uh as uh outputting as as the most most of the
+outputting as as the most most of the time it is
+time it is uh
+actually computer science is a good good area for that because
+area for that because people do have know at least the notion
+computer i mean if you want to popularize the theory of
+popularize the theory of differentiable sympathetic manifolds
+differentiable sympathetic manifolds then it would be extremely difficult to
+either of the words in the in the title so so people working in
+in the title so so people working in those areas have a more difficult more
+those areas have a more difficult more difficult time
+i i always thought that that if you you can explain
+that if you you can explain some elements of your work
+some elements of your work but you have to adjust it very very much
+to the to the audience
+and and some people are good at that and then they uh they they should
+should continue doing it because uh it is dangerous for for science if
+uh it is dangerous for for science if people
+people which i often get from uh
+people who are not in in maybe in social science sciences they
+maybe in social science sciences they say
+they start the conversation with you i mean of course i have always
+mean of course i have always hated mathematics but i understand that
+hated mathematics but i understand that you were
+so so this is this is not a good start of a conversation and i would very
+start of a conversation and i would very much
+hope that it will i mean i i would very much encourage
+i mean i i would very much encourage everybody to try to
+everybody to try to make sure that mathematics is not not
+yeah let me just one word about it i completely agree and i
+just want to say that uh many i mean i had these conversations numerous times
+i had these conversations numerous times which start with
+which start with i hated mathematics as a kid i think
+there's absolutely no reason for that except
+the way kids are educated in math uh you know they are just being
+frightened and bored by it and then you cannot fix it when you are
+cannot fix it when you are both frightened and bored uh at the age
+uh five six seven eight it's very hard to pull you out
+to pull you out discreet mathematics puzzles games
+which are never shown to you uh you know when you're a kid in elementary
+you know when you're a kid in elementary you know when you start to be educated
+you know three four five six seven uh that's a time to start with fun things
+that's a time to start with fun things about mathematics which are
+far deeper than just adding or multiples yeah so that's uh i think that
+yeah so that's uh i think that changing a little bit it will take i
+a generation still discreet mathematics makes it to elementary education
+you know big time and then it will be far less growing much more interesting
+far less growing much more interesting and certainly not frightening there are
+and certainly not frightening there are also is
+this basic feature that there is not just one
+correct answer and you know you are otherwise you are wrong
+otherwise you are wrong wrong wrong there are many ways to
+approach a problem they are better or you know you can
+in uh finding ways algorithms that lots he said
+to solve the problem and uh you know it's just
+it's friendlier it's richer and it's yeah i hope it gets there
+yeah i hope it gets there if you could have any superpower other
+if you could have any superpower other than
+than mastering mathematics what would that be
+i don't think i need anything more than i have
+i'm i am satisfied with my uh situation i would of course uh
+uh situation i would of course uh like to have uh
+maybe more more respect for teachers that would be i think uh very important
+that would be i think uh very important in many places in the world or
+in many places in the world or for more more appreciation of science
+for more more appreciation of science but but other i'm i am really
+but but other i'm i am really content with what i'm doing
+but what i have achieved that's everything
+everything anyone could ask for um
+cryptography is a powerful tool when it comes to cybersecurity
+comes to cybersecurity and also the geopolitics of
+cybersecurity do you worry that your math could be
+to influence the balance of power in the world
+is there something that doesn't let you sleep
+at night avi uh no no uh i i
+uh no no uh i i talked about this in the beginning i
+knowledge uh is just an inevitable force of uh and the strife for knowledge
+force of uh and the strife for knowledge is an inevitable force of uh
+is an inevitable force of uh mankind what people do with knowledge
+mankind what people do with knowledge what governments do with knowledge
+you know people can slaughter each other with bare hands or with knives
+with bare hands or with knives and you know do as much
+and you know do as much good for medicine or for
+you know the opposite with the developments of biology and uh
+developments of biology and uh i think it is beyond beyond our control
+i think that we are in the maybe lucky to be
+in the maybe lucky to be in the purest side of uh
+pursuit of knowledge but you are right that
+some of our discoveries are used i would like to think that they are used mainly
+like to think that they are used mainly uh for positive
+uh for positive [Music]
+outcomes uh you know cryptography really enabled
+enabled and i stress this was a theory before it
+cyber security uh the theory of cryptography asked questions about
+privacy and uh once the tours were built in the late 70s early
+tours were built in the late 70s early 80s
+these theoretical ideas i mean people were playing games
+like uh poker over the telephone or useless things like that
+why would you ever want to play poker over the telephone without cards
+this was the beginning of uh you know modern cryptography uh once
+you know modern cryptography uh once this was available this tool that classy
+this was available this tool that classy explained before with the one-way
+explained before with the one-way functions
+uh suddenly uh people realize is economic power in that and electronic
+is economic power in that and electronic commerce was born and once electronic
+commerce idea was born networks the internet developed because
+it was possible to uh you know make promise transfer money
+do all the wonderful things send emails securely and so on many things that we
+uh so a lot of the world economy today rests on that right
+world economy today rests on that right so lots of good
+and of course the most education the ability of accessing
+knowledge everybody's part of life is googling for information that you
+googling for information that you that you need but yeah
+it's uh it's a source like every technology
+is uh you know can be potentially dangerous at the
+malicious sense and uh one has to combat that but i think
+you know it's uh yeah maybe if i had the superpower
+i would make sure that all people are good intentions
+and i would like to add one uh one thing one thought to this is that uh
+one thing one thought to this is that uh the the publication of scientific
+the the publication of scientific research
+the community a large community that knows about
+most of them what they are doing where they are what are the new results
+where they are what are the new results so this community
+so this community is some uh
+the defense against uh protection against uh against outsiders
+protection against uh against outsiders coming up with scientific results you
+know the mad scientist who is uh trying to conquer the world
+uh trying to conquer the world this is like
+i don't know if this can be completely excluded that this happens somewhere or
+excluded that this happens somewhere or maybe
+a mad scientist in some country where we would not want
+would not want but but but if if if researchers have
+uh mainstream where they where they interact with each other they
+where they interact with each other they talk about it
+they talk with each other their students visit each other and so on
+visit each other and so on that that would be more difficult for uh
+that that would be more difficult for uh for the math scientists to compete with
+for the math scientists to compete with and uh and therefore i think if
+and uh and therefore i think if if we try to hold back scientific
+then the math side and we give advantage to this that scientist
+if if the if there is an open community which does research
+community which does research then the mad scientist has the last
+chance to do something bad
+that's a wonderful note to end our conversation
+on on doing science openly and collaboratively thank you again for uh
+collaboratively thank you again for uh being with us today congratulations
+being with us today congratulations again
+on the awful prize this conversation was hosted by the world federation of
+hosted by the world federation of science journalists together with the
+science journalists together with the norwegian academy of science and letters
+thanks everyone for being here today and i'll see everyone soon

@@ -1,0 +1,179 @@
+one all right today we're going to be
+talking about caner diagonalization
+argument in order to talk about this
+argument we have to go over some key
+Concepts the first which we'll talk
+about is on toone correspondence so
+given two sets A and B given at the top
+right a being 1 and two and B being
+three and four a oneone correspondence
+is simply a function that maps elements
+in a to elements in B but it has to be
+one to one and onto
+so a function that satisfies this would
+be something like X+
+2 and as you can
+see from x +
+2 one would map to
+three and two would map to four now this
+is certainly one to one and onto and
+since we can do that we can take the
+inverse of the
+function well actually we want
+Y and we can map from elements in the
+codomain back to the co back to the
+domain so simply putting in for three we
+would have 3 minus 2 which would map
+back to one and 4 minus 2 which would ma
+back to two and then we would say that
+there's a one to one correspondence
+between the sets A and B
+from all right now let's define what
+determines whether a set is countable or
+not a a set is considered countable if
+it is finite
+such as the
+set 1 2 3 which is certainly finite
+because as you can see there's only
+three elements
+and the cardinality of this would then
+be three as well or a set is countable
+if it shares a one toone correspondence
+with the set of
+positive integers which we denote the
+set as Z with the super set plus
+one the cardinality of the set of
+positive
+integers is denoted by the symbol for LF
+null all right so in our definition for
+whether a set is countable or not we
+just said that if a set can be in one to
+one a one to one correspondence with the
+set of all positive integers then it's
+countable so that is essentially saying
+that the set of positive integers is in
+itself countable because I can create a
+function f ofx equal to X and let's say
+that my domain is the set of positive
+integers and my co-
+domain is is the set of positive
+integers then I can easily map every
+element from a set of positive integers
+to itself in the codomain and I can then
+take the inverse of the function which
+doesn't change anything and then map
+back so then I'm I've just shown that
+the set of positive integers is
+countable Okay so we've just shown that
+the set of positive integers is
+countable and remember back we said that
+the cardinality of the positive integer
+is represented by this symbol Alf
+null and so it might surprise you that
+we can even declare an infinite set to
+be countable because after all infinite
+is a word we use
+to describe something that's doesn't
+end um and it might surprise you even
+further that there's
+actually more uh many sizes to infinite
+sets um particularly today we'll be
+talking about
+how the
+cardinality of the real
+domain is greater than the
+cardinality of the set of positive
+integers to prove this we'll use
+Canter's diagonalization
+argument all right so for this proof
+we'll assume that the set of reals is
+countable
+in other words we're going to attempt to
+do a proof by contradiction because
+before we had said the set of reals is
+uncountable because we're assuming that
+the set of real numbers is
+countable Let's uh let's isolate a
+smaller set so the set from 0 to one of
+real
+numbers is certainly a
+subset of the entire real domain so if
+the set of reals is countable then
+certainly the set from 0 to one is also
+countable and so next what we're trying
+to do is we're just going to try and
+take the set from Z to
+one and create a
+bje to the set of positive integers or
+in other words we're going to C try and
+create a one toone correspondence
+between this set and the set of positive
+integers and that would allow us to
+conclude that the set from 0 to one is
+accountable all right so let's represent
+the set from 0 to one of reals as this
+table and notice we've got R1 R2 R3 let
+R R1 through RN uh be the numbers in
+zero and one uh 0 through one and each
+digit will
+be uh
+d sub I subj where I is going to be the
+the row and J is going to be the column
+so for instance d11 would be the first
+row and the First Column and so di J is
+going to be an element
+of this set 0 1 2 3 4 5 6 7 8
+nine all right now we're going to
+declare a new number a we're going to
+Define it similarly to the RS above such
+that 0 a sub 1 a sub 2 a sub 3 a sub4
+and so on correspond to the digits so
+the rules we're going to say here is
+that a sub I cannot equal d sub I I so
+if we look at that graphically a sub one
+here has to be different than d sub one1
+similarly a sub 2 has to be different
+then d sub 22 and so on as you can see
+we're making a diagonal line here
+through all of the
+D's what this means is that the number a
+is always going to be different from any
+of the numbers R previously
+defined because we defined all of the
+set of all the RS as all of the numbers
+between 0 and one but we just found a
+new number a that must be in that set
+there's a contradiction even if we added
+a into the set of RS as sum R subn we
+could create a new number a because
+there's a new diagonal that's created
+when we put in our old
+a we know now that the set of RS must be
+uncountable and you might be thinking
+what if we started off with a included
+in our set of RS it would still be shown
+as uncountable because even if we had
+that a as some R subn then we would have
+a new diagonal which would yield a
+different a all right we've just shown
+the set of numbers between 0 and one is
+uncountable and we know that that's a
+subset of all real numbers consequently
+we must know now that the set of all
+real numbers is also
+uncountable all right previously we told
+you that the
+cardinality of the set of positive
+integers was all of null but now we know
+that all real numbers is uncountable
+whereas the set of positive integers is
+countable which means the cardinality of
+real numbers must be
+greater than all if null you might be
+thinking how is this possible all of
+null is already an infinite number well
+we know that the cardinality of all real
+numbers now being greater than that has
+to be some degree of infinity larger
+than all of null and in fact all if null
+is the lowest degree of infinity

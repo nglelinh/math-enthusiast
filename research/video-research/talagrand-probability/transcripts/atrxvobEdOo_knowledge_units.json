@@ -1,0 +1,303 @@
+[
+  {
+    "id": "ku_video_atrxvobEdOo_3",
+    "t_start": 3.2,
+    "t_end": 96.4,
+    "type": "overview",
+    "summary": "I don't know how many of you ER read the citation for the prize there were three main topics there were there was a spin classes which shav will talk about there was H chaining which I get Michelle and Sarah talked about and my main goal here Sarah talked about and my main goal here is to discuss uh the remaining two which is to discuss uh the remaining two which the main one is concentration of measure the main one is concentration of measure and we and also um mahar's problem but and we and also um mahar's problem but what I want to um do is what I want to um do is um is to to try to um i…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_96",
+    "t_start": 96.4,
+    "t_end": 187.9,
+    "type": "overview",
+    "summary": "problem because it's chronologically um where Michelle started um but also because I think that most of the talk will be in concentration of measure and will be in concentration of measure and we can easily just get trapped there so we can easily just get trapped there so I want to get one thing which is a little different so the so um the the situation is is a the setting is very set um people are far away is this big enough yeah you have a set and let's say a sigma is an is an I'm used to Sigma algebras but this is just an algebra so it's a collection of just an algebra so it's a collecti…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_187",
+    "t_start": 187.9,
+    "t_end": 280.8,
+    "type": "overview",
+    "summary": "the empty set is is mapped to zero it's monotone so if a is a subset a is less than F of B and it's sub additive so F of a union B is less than F of a plus F of B okay so it's um and then it's a measure okay so it's um and then it's a measure if there is equality so um this only in this very soon I'm going to pass to to Sigma additive measures so but but just in this part I'm going to say measure but I'm going to mean finitely additive equality then we say just then we say it's a measure but it's finite additive okay so this is the setting um now we're interested in functions um now we're i…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_280",
+    "t_start": 280.8,
+    "t_end": 353.1,
+    "type": "overview",
+    "summary": "intersect whenever that happens the limit of f of fi F of AI is zero okay so that is so that's what's called exhaustive I'll get to this a bit called exhaustive I'll get to this a bit later suppose this holds so but there is later suppose this holds so but there is a quantifier for every choice of a quantifier for every choice of sequences of set that go to zero um so does anybody see in your mind an example of a function that has this an example of a function that has this property whenever you are whenever you property whenever you are whenever you have a measure it has to have this Union…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_377",
+    "t_start": 377.1,
+    "t_end": 471.0,
+    "type": "overview",
+    "summary": "mu by that I mean give me an Epsilon um for every Epsilon there is a Epsilon um for every Epsilon there is a Delta um such that um if you give me a set where mu of a is less than Delta that forces f of a to be less than Epsilon um or if you have a SE the same Epsilon um or if you have a SE the same thing is saying if if mu of AI tends to thing is saying if if mu of AI tends to zero then also F of AI tends to zero so that's by Design um holding whenever um uh f is absolutely continuous with respect to a measure and in maharam in respect to a measure and in maharam in the 40s dth maharam so i…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_470",
+    "t_start": 471.0,
+    "t_end": 563.6,
+    "type": "overview",
+    "summary": "um many many people looked at it um many equivalent formulations many equivalent formulations many applications it's quite close to being true um so in in 1979 Michelle a conjectured or suggested the Michelle a conjectured or suggested the following a stronger version so so H so following a stronger version so so H so let's look at this conjecture in this let's look at this conjecture in this condition here there is just a condition here there is just a limit we're not saying anything about limit we're not saying anything about rates so let's introduce some rate let's rates so let's introdu…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_563",
+    "t_start": 563.6,
+    "t_end": 657.7,
+    "type": "overview",
+    "summary": "small it's enough not to you're not looking at the infinite sequence you looking at the infinite sequence you just there is some n depending on just there is some n depending on Epsilon then one of them will be less Epsilon then one of them will be less than that and that's again obviously than that and that's again obviously true for a measure or anything which true for a measure or anything which is um absolute continuous with respect to a measure um right for a measure it's right the N will be linear in epsilon in one over Epsilon because the sum of AI will be less than mu of X over Epsi…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_660",
+    "t_start": 660.7,
+    "t_end": 752.1,
+    "type": "overview",
+    "summary": "result it's a superb theorem I I this um the proof uses expander graphs even though this seems like a um has nothing to do with combinatorics and I think to do with combinatorics and I think expander graphs have been immensely expander graphs have been immensely powerful in in computer science for example but I think this if this is not the first really serious application of first and it was done by analysts so the proof is interesting and it brings in proof is interesting and it brings in Concepts that were after words really Concepts that were after words really revolutionary in revoluti…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_752",
+    "t_start": 752.1,
+    "t_end": 843.2,
+    "type": "overview",
+    "summary": "again in computer science so there is very recent developments which actually very recent developments which actually use that development that theorem to use that development that theorem to solve questions um in computer solve questions um in computer science um so that was a I think this is okay I'll do my best to write you know stronger way above the bad racing stronger way above the bad racing um um until T it appeared in8 eight I probably was a preprint for a while Pro that maham's preprint for a while Pro that maham's conjecture is false okay so um and this is this is not just a cons…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_843",
+    "t_start": 843.2,
+    "t_end": 930.9,
+    "type": "overview",
+    "summary": "a sub additive a sub measure on it which satisfies these condition so you have to satisfies these condition so you have to be able to to prove that it holds for every sequence of this joint subsets of the algebra so there is something interesting just even checking that it interesting just even checking that it satisfies a condition and then you have satisfies a condition and then you have to prove a theorem which has a to prove a theorem which has a quantifier every measure no measure controls for no measure your f is is a is a absolutely continuous with respect to it so it's a counter exa…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_965",
+    "t_start": 965.7,
+    "t_end": 1062.0,
+    "type": "overview",
+    "summary": "okay so um so concentration of measure and this is a property of a pro of a probability space so you have some p a probability space [Applause] and we want to say something along the lines of um every large subset of the lines of um every large subset of the space so you CH you choose your favorite space so you CH you choose your favorite large subset of your set Omega um so for every large subset so it's something of the form we want to it's something of the form we want to say for every say for every large subset Omega a almost the majority or most of the almost the majority or most of th…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_1065",
+    "t_start": 1065.4,
+    "t_end": 1152.2,
+    "type": "overview",
+    "summary": "continuous a function if an Omega if an Omega um a f is almost constant space okay so for this to make sense so these types of phenomena are known to be these types of phenomena are known to be um equivalent to each other under um equivalent to each other under reasonable conditions this is the same reasonable conditions this is the same thing this is a property of the space um it is vague because H there are all kinds of things that we didn't say so kinds of things that we didn't say so large okay it's a probability space so let's say probability at least a half so also most could be inter…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_1155",
+    "t_start": 1155.4,
+    "t_end": 1243.2,
+    "type": "overview",
+    "summary": "Michelle's um transformation of this area is a is that uh he invented highly area is a is that uh he invented highly original interpretations of what what's original interpretations of what what's underlined here so he discovered underlined here so he discovered phenomena which are not would which would not be your first Cas in to introduce a itional structure which is introduce a itional structure which is hidden in the problem so the first guess hidden in the problem so the first guess would be in don't just take a a measure space a probability space but also put some Metric on it and clo…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_1246",
+    "t_start": 1246.1,
+    "t_end": 1337.1,
+    "type": "overview",
+    "summary": "sphere normaliz so it's a probability measure okay and then so for example measure okay and then so for example here's a nice example of of a function f here's a nice example of of a function f of X1 up to xn is X1 the first coordinate so this is just a computation coordinate so this is just a computation you can see that you can check that for you can see that you can check that for every Epsilon bigger than zero the every Epsilon bigger than zero the probability that probability that uh uh F this F is a is bigger than uh uh F this F is a is bigger than Epsilon is less than e to Theus c n …"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_1340",
+    "t_start": 1340.9,
+    "t_end": 1429.3,
+    "type": "overview",
+    "summary": "holds for any for every let's say one equivalently um every subset of the sphere which has let's say at least half of the mass um right so you take some this is the sphere take some subset a which has at least a half of the mass and now you look at its Epsilon neighborhood so you look at all the points so a Epsilon is all the points in the sphere whose distance from a is less than Epsilon let's say the ukian distance or the geodesic distance on the sphere this the geodesic distance on the sphere this set P of a Epsilon is at least or maybe the complement is at least 1 minus c e to complemen…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_1432",
+    "t_start": 1433.0,
+    "t_end": 1524.4,
+    "type": "overview",
+    "summary": "um so I think it's it's fair to say that H before Michelle came on the scene H before Michelle came on the scene there were two types of ways there were two types of ways concentration of measure phenomena concentration of measure phenomena theorems were proved one of them was a of maybe a variational argument which is just solve the this optimization problem just solve the this optimization problem look at among all A's with let's say measure at least a half find the one which minimizes what's written here and which minimizes what's written here and you can do local perturbations loal you …"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_1524",
+    "t_start": 1524.4,
+    "t_end": 1615.3,
+    "type": "overview",
+    "summary": "encode this there are spectral methods there's pointor inequalities but morally there's pointor inequalities but morally it's always writing the value of f as a sum of small contributions and showing that the increments are don't contribute that the increments are don't contribute much um so this changed completely by works of Michelle and um so there is a mini monograph that he so there is a mini monograph that he wrote but there were also previous Pap wrote but there were also previous Pap earlier papers of his and later papers that led to it and came from it about um concentration of mea…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_1615",
+    "t_start": 1615.3,
+    "t_end": 1708.9,
+    "type": "overview",
+    "summary": "coordinate and yet you can prove deviation inequalities of this type so deviation inequalities of this type so there's a whole list and people there's a whole list and people definitely care about concentration that there are many theorems which have nothing to do with probability in their nothing to do with probability in their statement and we only know how to prove inequality I'm going to write next so I'm so here I'm just I'm choosing one I'm so here I'm just I'm choosing one I'm not saying it's the best one but it's one that um I think anybody can understand and it's the following thin…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_1708",
+    "t_start": 1708.9,
+    "t_end": 1802.6,
+    "type": "overview",
+    "summary": "be so the question is um um how how large should n be a so that g contains all K vertex graphs okay so let's say k equal 6 so you can you can try to do it it's something that anybody can try to do on a piece of paper you can write down all the graphs paper you can write down all the graphs of size six let's say five okay 1 2 3 4 of size six let's say five okay 1 2 3 4 5 six one two 3 four ah yeah I don't know how to count um so here is one and here is suppose I'm here is one and here is suppose I'm going to maybe maybe here's another or another you can write down all the six point graphs an…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_1802",
+    "t_start": 1802.6,
+    "t_end": 1894.1,
+    "type": "overview",
+    "summary": "natural to ask um how large or how how small how large should the universal object be okay and the answer is we know it today but it's only in 2017 it's a it today but it's only in 2017 it's a the of alone so this is a theorem alone from 2017 which says a the smallest n so so that you can get an N vertx graph which that you can get an N vertx graph which contains all K vertices all K vertx contains all K vertices all K vertx graphs is up to a little of one so up to an additive lower order term it's 2 to the additive lower order term it's 2 to the kus1 / little a little one but let's say if …"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_1894",
+    "t_start": 1894.1,
+    "t_end": 1992.1,
+    "type": "overview",
+    "summary": "to now explain and we do not know how to do it otherwise so this but this theorem do it otherwise so this but this theorem has nothing to do with probability and there are many things of this type um um that these things are useful for so let me H tell you what went in the guts of the proof of that um and this is the following beautiful approach extremely creative um beautiful approach extremely creative um I I as I was looking up papers that refer to that paper um it's I I I found all kinds and I I I I won't name name all kinds and I I I I won't name name names but there were multiple auth…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_1994",
+    "t_start": 1994.4,
+    "t_end": 2084.7,
+    "type": "overview",
+    "summary": "spaces um and Omega is just going to be the mu1 the product so right so the the points here entes of points so you take you select the Omega 1 independently according to the Omega 1 independently according to mu1 Omega 2 independently according to and chosen according to mu and um and they're independent and this is a the they're independent and this is a the probability space you see high probability space you see high Dimensions appearing here obviously Dimensions appearing here obviously there is a product of many okay so and then you do so this is the the theor I'm going to say is going…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_2084",
+    "t_start": 2084.7,
+    "t_end": 2179.8,
+    "type": "overview",
+    "summary": "and later maybe I will is just the discrete Cube so just the vertices of discrete Cube so just the vertices of the N dimensional points what I'm going to say is new in this case new was new in the early '90s this case new was new in the early '90s um so you take a set um so you take a set a and a point x and I want to say what do I mean by X is nearby a there was no distance so I is nearby a there was no distance so I officially I Michelle introduces something to the picture and it's the following you associate to this pair a set u x a is going to be a subset of the cube so and you it just …"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_2179",
+    "t_start": 2179.8,
+    "t_end": 2272.5,
+    "type": "overview",
+    "summary": "look and I just look at the indicator of where where Y is different from X the coordinates where Y is different from X is that clear so this is a subset of n so let's say let's say these were I want to be able to draw what I'm about to to be able to draw what I'm about to draw say these three points but it's draw say these three points but it's higher dimensional okay and now the notion of closest of X2 a is fi of XA that Michelle defines and a is fi of XA that Michelle defines and this is really out of the blue at the this is really out of the blue at the time is um is just the distance in…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_2272",
+    "t_start": 2272.5,
+    "t_end": 2356.9,
+    "type": "overview",
+    "summary": "here so zero is already in the set does everybody see that so this is set does everybody see that so this is some funny notion of closeness of a some funny notion of closeness of a point in an abstract set abstract product of spaces to a set by introducing ukian structure in convexity introducing ukian structure in convexity to a problem where it wasn't written before okay and the theorem 1992 3 something like that up to um the exact year I'm not um it the If U of A is at least a half then um mu of the set of points half then um mu of the set of points where where 5xa is bigger than"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_2365",
+    "t_start": 2365.7,
+    "t_end": 2462.4,
+    "type": "overview",
+    "summary": "um is less than e to Theus C Epsilon 2 independent there is no n appearing here even this is a product of many spaces this is very important so this notion of rarely there is no dimension in the picture and I I I hope you realize know picture and I I I hope you realize know that there is something creative here that there is something creative here this this is introducing into the this this is introducing into the picture a structure which wasn't in the original setting okay okay so using this there is a slew of results that you can this is an results that you can this is an extremely usef…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_2462",
+    "t_start": 2462.4,
+    "t_end": 2561.9,
+    "type": "overview",
+    "summary": "points is the shortest path that goes through all of them okay I I hope that through all of them okay I I hope that you have seen this is a very classical you have seen this is a very classical optimization problem it depends in a optimization problem it depends in a very complicated way and the inputs X1 very complicated way and the inputs X1 up to xn but so if X1 up to xn or IID are identically if X1 up to xn or IID are identically ENT independently chosen identically independent identically chosen random random points in in the Square then this tsp sorry tsp of this is this a this is sor…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_2561",
+    "t_start": 2561.9,
+    "t_end": 2654.2,
+    "type": "overview",
+    "summary": "um n object say n n n computers that that each one demands n n computers that that each one demands some sort of resource require some sort some sort of resource require some sort of resource electricity but let's say no let's say this number the numbers are between zero and one and you want to uh between zero and one and you want to uh settis this resources so the bin packing settis this resources so the bin packing B of this X1 up to xn is just you do the following so you want to find a so you you want to find a want to find a so you you want to find a partition A1 up to a k partition of …"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_2654",
+    "t_start": 2654.2,
+    "t_end": 2746.9,
+    "type": "overview",
+    "summary": "the sum is less than one we can change we can normalize by a different constant we can normalize by a different constant and you want to do this in such a way that the number of pieces the number of bins is as small as possible very very bins is as small as possible very very simple question this is EXT another simple question this is EXT another example of an empty hard problem and example of an empty hard problem and then you can ask what happens when the then you can ask what happens when the XI are random according to any measure XI are random according to any measure so again so so aga…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_2746",
+    "t_start": 2746.9,
+    "t_end": 2841.6,
+    "type": "overview",
+    "summary": "has something very substantial here just even coming up with it even coming up with it um okay so let me just um okay so let me just sketch what how you prove it N okay and I think there are some students here the the fun part about induction is that sometimes you have to strengthen the sometimes you have to strengthen the induction hypothesis and um so in this part so so so a big part of this is coming up is what is the hypothesis that coming up is what is the hypothesis that that you want to write in this that you want to write in this particular case what we're going to particular case w…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_2841",
+    "t_start": 2841.6,
+    "t_end": 2934.7,
+    "type": "overview",
+    "summary": "you bounded how big the to the thing that you care about squared is in that you care about squared is in expectation so that by Mark of expectation so that by Mark of inequality will give you what you need inequality will give you what you need okay so in this so this is what I want me okay so we're in this setting but now let's take n+ one I want to place from n let's take n+ one I want to place from n to n+1 um okay so now remember we have a set inside is Omega * Omega n + 1 inside is Omega * Omega n + 1 and um and I'm I'm assuming the and um and I'm I'm assuming the induction hypothesis …"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_2934",
+    "t_start": 2934.7,
+    "t_end": 3027.7,
+    "type": "overview",
+    "summary": "right so there are two ways to do it this is this is a so you can look at the fibers so you fix this is Omega n + one this is Omega in Omega n + one and then you write a Omega is the slice so it's all write a Omega is the slice so it's all the the points h y in Omega such that if you put right your given uh Omega in the last your given uh Omega in the last coordinate you get an element of a okay so that is H so where this is okay I should have done the slice here okay I should have done the slice here so that would be this and this that would be a Omega okay and then and the other so that's…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_3027",
+    "t_start": 3027.7,
+    "t_end": 3120.6,
+    "type": "overview",
+    "summary": "it gives you the following Lemma which it's just it's not even it doesn't which it's just it's not even it doesn't it's not even a proof it's just an observation is that for every Lambda between zero and between zero and one if you look at um okay right there one if you look at um okay right there was this distance to the convex Hall um was this distance to the convex Hall um so right I mean one dimension higher so so right I mean one dimension higher so look at X comma look at X comma Omega a that's less than Lambda fi of x a fi of x a Omega + 1 - Omega + 1 - Lambda f Lambda f of x b + 1 -…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_3120",
+    "t_start": 3120.6,
+    "t_end": 3205.4,
+    "type": "overview",
+    "summary": "Hall this is witnessed by another point in the convex Hall but the property of in the convex Hall but the property of convex all is that you can take convex convex all is that you can take convex combination of these points and this combination of these points and this additional 1us Lambda squ was precisely additional 1us Lambda squ was precisely because there is one more coordinate and because there is one more coordinate and there was a ukian metric oh there's a square sorry about that okay so this is this is really the definition was set up this is really the definition was set up for t…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_3248",
+    "t_start": 3248.1,
+    "t_end": 3328.3,
+    "type": "overview",
+    "summary": "um okay but we wanted to compute the expectation so this is this a point-wise expectation so this is this a point-wise thing um so notice something interesting here this was true for every Lambda so I'm this was true for every Lambda so I'm allowed to let Lambda depend on allowed to let Lambda depend on Omega so I'm going to what I'm going to do is I'm going to analyze this inequality for a random Lambda which is inequality for a random Lambda which is going to be chosen carefully okay and convexity allows you to choose any Lambda in particular we're to choose any Lambda in particular we're…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_3343",
+    "t_start": 3343.9,
+    "t_end": 3435.8,
+    "type": "overview",
+    "summary": "yeah and then e to the4 5 the4 5 XB squared to the one I hope I copied correctly this is the thing this is something that this is the thing this is something that you can see better than me I copied correctly okay and now this is Helder inequal right think of Helder with one inequal right think of Helder with one over Lambda so one over Lambda so 1/ p+ over Lambda so one over Lambda so 1/ p+ 1/ this is Helder inequality I can put the Lambda outside the expectation and make Lambda outside the expectation and make a product of a product of expectations this and then put an good okay so this i…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_3435",
+    "t_start": 3435.8,
+    "t_end": 3529.4,
+    "type": "overview",
+    "summary": "or the product measure so this is Mu of a Omega to the Lambda and then we have 1 / mu to the B to the 1 minus Lambda that's the induction hypothesis I'm applying it for induction hypothesis I'm applying it for sets in a lower dimensional right so what is the only thing we really know about Omega is we know that really know about Omega is we know that if we take expectation an Omega of mu of we get mu over a so this is like the n one and we get the this is Mu is this is the measure in the N Fold product and here measure in the N Fold product and here I'm writing the measure in the N plus pro…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_3529",
+    "t_start": 3529.4,
+    "t_end": 3619.5,
+    "type": "overview",
+    "summary": "it um how would I say it let's do it let's do it U of mu of a Omega sorry mu of yeah okay let's do it h mu of a Omega over mu of Omega over mu of B to the minus B to the minus Lambda times 1 / mu of B okay but I want to I want to write something linear in mu of a Omega so let's well this is you think about let's well this is you think about that's the the only thing you can do you that's the the only thing you can do you write one minus this thing times there was one over mu of B and I put it divided by this term which is but here it behaves linearly in the numerator of"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_3619",
+    "t_start": 3619.5,
+    "t_end": 3710.7,
+    "type": "overview",
+    "summary": "it behaves linearly in the numerator of Omega this just a rewriting of the same thing but it turns out that right this is this this call this number I don't know R so we have this function e to Theus Lambda S 4 R to Theus Lambda 1 / 2 Theus Lambda S 4 R to Theus Lambda 1 / 2 - R turns out that this function is always bounded by one sorry it's the minimum of it is always at most one so for every Omega always at most one so for every Omega there is a there is a Lambda depending only on this ratio which makes this be one so by choosing the Lambda correctly we can make this be at one but now La…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_3710",
+    "t_start": 3710.7,
+    "t_end": 3802.2,
+    "type": "overview",
+    "summary": "nothing to do with this initially um are there any questions about this this is there any questions about this this is was just one example of a very very big body of work just to see to show are there any questions in there any questions in this okay so um let me just again now this is just a um a random selection of um of a um a random selection of um of um of Works um I'm choosing ones which are important for various important for various reasons um that I can exp that the maybe break so um as I so there are there I can definitely I have easily 100 papers can definitely I have easily 100…"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_3805",
+    "t_start": 3805.9,
+    "t_end": 3896.9,
+    "type": "overview",
+    "summary": "is a set that when you have two points the interval between them is completely the interval between them is completely inside and you can add convex inside and you can add convex sets yeah can do one more minute just to say this theorem or one minute it's really it's really the end okay so now so what is the simplest example of a convex set is the simplest example of a convex set given that you want two points to be given that you want two points to be joined by an joined by an interval um I'm really running a bit late I'm looking at that clock okay I'm looking at that clock okay I'm sorry …"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_3896",
+    "t_start": 3896.9,
+    "t_end": 3991.2,
+    "type": "overview",
+    "summary": "set that exists so if I give you a zonotope you know that there is a a sequence of zonoids which tend to it sequence of zonoids which tend to it that's a definition all the limits of that's a definition all the limits of sums of intervals but I'm not but but it sums of intervals but I'm not but but it could be that you need two to the two to could be that you need two to the two to the two to the two to the two two to the the two to the two to the two two to the two to then intervals to approximate let's your set what Michelle proved was this is that this is not so if you want this is that …"
+  },
+  {
+    "id": "ku_video_atrxvobEdOo_3991",
+    "t_start": 3991.2,
+    "t_end": 4016.4,
+    "type": "overview",
+    "summary": "step each the first step increases the number of intervals the second up decreases it by it's a random construction so you increase it looks construction so you increase it looks like it's going the wrong direction but like it's going the wrong direction but you decrease it by a little bit more and you're going down up to and log in it's a very very nice proof um which I'm over a very very nice proof um which I'm over time so I'll stop and that's just a tiny sample of what he proved [Applause]"
+  }
+]

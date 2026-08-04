@@ -1,0 +1,812 @@
+[
+  {
+    "t_start": 0.47,
+    "t_end": 4.58,
+    "text": "A problem worthy of attack proves its worth by fighting back."
+  },
+  {
+    "t_start": 4.58,
+    "t_end": 9.21,
+    "text": "And that's what Fermat's last theorem was doing, it was fighting back."
+  },
+  {
+    "t_start": 9.21,
+    "t_end": 13.6,
+    "text": "So we are talking about Fermat's last theorem I suppose the place to start is with Fermat,"
+  },
+  {
+    "t_start": 13.599,
+    "t_end": 14.789,
+    "text": "Pierre de Fermat,"
+  },
+  {
+    "t_start": 14.789,
+    "t_end": 18.469,
+    "text": "he was a 17th-century mathematician living and working in"
+  },
+  {
+    "t_start": 18.469,
+    "t_end": 24.469,
+    "text": "but working as a judge. Every evening he'd go home - and math was his hobby -"
+  },
+  {
+    "t_start": 24.469,
+    "t_end": 27.618,
+    "text": "one evening he was looking at an equation"
+  },
+  {
+    "t_start": 27.618,
+    "t_end": 31.589,
+    "text": "which looks a bit like Pythagoras' equation which I suppose is"
+  },
+  {
+    "t_start": 31.589,
+    "t_end": 35.549,
+    "text": "X squared plus Y squared equals Z squared."
+  },
+  {
+    "t_start": 35.549,
+    "t_end": 38.479,
+    "text": "And he was looking for whole number solutions to that equation, and there are"
+  },
+  {
+    "t_start": 38.479,
+    "t_end": 40.64,
+    "text": "lots, you know there's 3 squared plus"
+  },
+  {
+    "t_start": 40.64,
+    "t_end": 44.679,
+    "text": "4 squared, 5 squared. So that's a whole number solution to"
+  },
+  {
+    "t_start": 44.679,
+    "t_end": 48.759,
+    "text": "&lt;b&gt;x^2 + y^2 = z^2&lt;/b&gt;. Now Fermat asked himself the question:"
+  },
+  {
+    "t_start": 48.759,
+    "t_end": 52.049,
+    "text": "\"What if I change this equation so instead of it being x squared,"
+  },
+  {
+    "t_start": 52.049,
+    "t_end": 56.799,
+    "text": "what about if it's x cubed or x to the fourth power?"
+  },
+  {
+    "t_start": 56.799,
+    "t_end": 60.519,
+    "text": "Are there solutions to that equation? So in general we're talking about"
+  },
+  {
+    "t_start": 60.52,
+    "t_end": 64.719,
+    "text": "&lt;b&gt;x^n + y^n = z^n&lt;/b&gt;"
+  },
+  {
+    "t_start": 64.719,
+    "t_end": 68.929,
+    "text": "where &lt;b&gt;n&lt;/b&gt; is bigger than 2. Does that equation"
+  },
+  {
+    "t_start": 68.93,
+    "t_end": 72.28,
+    "text": "have any whole number solution?\" He thought about it for a while"
+  },
+  {
+    "t_start": 72.28,
+    "t_end": 75.14,
+    "text": "and couldn't find any whole number solutions, and then he went one step"
+  },
+  {
+    "t_start": 75.14,
+    "t_end": 75.728,
+    "text": "further:"
+  },
+  {
+    "t_start": 75.728,
+    "t_end": 78.899,
+    "text": "not only could he not find any whole number solutions,"
+  },
+  {
+    "t_start": 78.899,
+    "t_end": 82.608,
+    "text": "he believed he found an argument, he beleived he found a proof"
+  },
+  {
+    "t_start": 82.608,
+    "t_end": 85.879,
+    "text": "that showed without any doubt whatsoever"
+  },
+  {
+    "t_start": 85.879,
+    "t_end": 89.089,
+    "text": "there were no whole number solutions. So this is kinda weird,"
+  },
+  {
+    "t_start": 89.09,
+    "t_end": 92.859,
+    "text": "because we have one equation &lt;b&gt;x^2 + y^2 = z^2&lt;/b&gt;"
+  },
+  {
+    "t_start": 92.858,
+    "t_end": 96.318,
+    "text": "that has not just one solution, it actually has an infinite number"
+  },
+  {
+    "t_start": 96.319,
+    "t_end": 97.179,
+    "text": "of solutions."
+  },
+  {
+    "t_start": 97.179,
+    "t_end": 101.039,
+    "text": "And then we have an infinite number of equations: &lt;b&gt;x^3 + y^3 = z^3&lt;/b&gt;,"
+  },
+  {
+    "t_start": 101.039,
+    "t_end": 105.118,
+    "text": "&lt;b&gt;x^4 + y^4 = z^4&lt;/b&gt;,"
+  },
+  {
+    "t_start": 105.118,
+    "t_end": 108.67,
+    "text": "an infinite number of equations which apparently have no solutions."
+  },
+  {
+    "t_start": 108.67,
+    "t_end": 111.92,
+    "text": "And Fermat discovered it's proof, and he wrote"
+  },
+  {
+    "t_start": 111.92,
+    "t_end": 116.31,
+    "text": "in the margin of a book he was reading that evening, called the Arithmetica by Diophantus,"
+  },
+  {
+    "t_start": 116.31,
+    "t_end": 120.969,
+    "text": "he wrote in the margin in his book, he wrote: &lt;i&gt;I have a truly marvelous proof"
+  },
+  {
+    "t_start": 120.968,
+    "t_end": 124.349,
+    "text": "which this margin is too narrow to contain.&lt;/i&gt;"
+  },
+  {
+    "t_start": 124.349,
+    "t_end": 128.159,
+    "text": "&lt;i&gt;Hanc marginis exiguitas non caperet&lt;/i&gt; in Latin."
+  },
+  {
+    "t_start": 128.159,
+    "t_end": 132.77,
+    "text": "In other words: \"I know how to prove that this equation has no solutions,"
+  },
+  {
+    "t_start": 132.77,
+    "t_end": 136.719,
+    "text": "but I don't have the space to write it down.\" And then he drops dead."
+  },
+  {
+    "t_start": 136.719,
+    "t_end": 141.199,
+    "text": "It very much was a secret proof which he never wrote down,"
+  },
+  {
+    "t_start": 141.199,
+    "t_end": 145.219,
+    "text": "and after his death his son, Samuel Clémant"
+  },
+  {
+    "t_start": 145.219,
+    "t_end": 150.229,
+    "text": "I think, rediscovered this book which had this marginal note:"
+  },
+  {
+    "t_start": 150.229,
+    "t_end": 154.979,
+    "text": "&lt;i&gt;I have a truly marvelous proof - demonstrationem mirabilem -"
+  },
+  {
+    "t_start": 154.979,
+    "t_end": 158.84,
+    "text": "which these margins are too narrow to contain.&lt;/i&gt; In fact the book is full of"
+  },
+  {
+    "t_start": 158.84,
+    "t_end": 162.479,
+    "text": "these little annoying notes: \"I can prove this but I gotta go to feed the cat, I can prove"
+  },
+  {
+    "t_start": 162.479,
+    "t_end": 163.859,
+    "text": "this but I gotta go and wash my hair.\""
+  },
+  {
+    "t_start": 163.86,
+    "t_end": 167.189,
+    "text": "So Fermat was quite annoying in this respect."
+  },
+  {
+    "t_start": 167.188,
+    "t_end": 170.799,
+    "text": "So his son published a new version of the book"
+  },
+  {
+    "t_start": 170.799,
+    "t_end": 174.62,
+    "text": "- the Arithmetica by Diophantus - the book with all of Fermat's little"
+  },
+  {
+    "t_start": 174.62,
+    "t_end": 179.31,
+    "text": "notes printed in the text. And people would look at these notes,"
+  },
+  {
+    "t_start": 179.31,
+    "t_end": 182.37,
+    "text": "and they were: \"Fermat said he can prove this, let's try!\""
+  },
+  {
+    "t_start": 182.37,
+    "t_end": 186.379,
+    "text": "And one by one people rediscovered the missing proofs."
+  },
+  {
+    "t_start": 186.378,
+    "t_end": 190.889,
+    "text": "And every case where Fermat said \"I have a proof\", he was right, there was a"
+  },
+  {
+    "t_start": 190.889,
+    "t_end": 191.539,
+    "text": "proof,"
+  },
+  {
+    "t_start": 191.539,
+    "t_end": 194.639,
+    "text": "except in this one example here."
+  },
+  {
+    "t_start": 194.639,
+    "t_end": 198.768,
+    "text": "Fermat's last theorem is called Fermat's last theorem because it was the last one that"
+  },
+  {
+    "t_start": 198.769,
+    "t_end": 203.14,
+    "text": "anybody could actually find the proof for. And of course because it's the last one that"
+  },
+  {
+    "t_start": 203.139,
+    "t_end": 204.218,
+    "text": "anyone can prove"
+  },
+  {
+    "t_start": 204.218,
+    "t_end": 207.348,
+    "text": "it's the most precious one, it's the one that's the most desirable."
+  },
+  {
+    "t_start": 207.348,
+    "t_end": 211.389,
+    "text": "And the more that people try, the more they fail, the more wonderful it becomes."
+  },
+  {
+    "t_start": 211.389,
+    "t_end": 215.318,
+    "text": "And this goes on for decades, it goes on for centuries."
+  },
+  {
+    "t_start": 215.318,
+    "t_end": 218.729,
+    "text": "Right through to the 20th century were people desperate"
+  },
+  {
+    "t_start": 218.729,
+    "t_end": 221.828,
+    "text": "to rediscover what Fermat's proof might have been."
+  },
+  {
+    "t_start": 221.829,
+    "t_end": 225.39,
+    "text": "[Brady]Is that they have widely-held that he had done it or had he disclaimed, like"
+  },
+  {
+    "t_start": 225.389,
+    "t_end": 230.627,
+    "text": "was he telling the truth? [Singh]I think by the time we get to 20th century it's quite clear"
+  },
+  {
+    "t_start": 230.628,
+    "t_end": 234.0,
+    "text": "that this is an incredibly complex problem. Its"
+  },
+  {
+    "t_start": 234.0,
+    "t_end": 238.229,
+    "text": "simple to jot down in a few scribbles what the question is, it's easy to"
+  },
+  {
+    "t_start": 238.229,
+    "t_end": 239.378,
+    "text": "describe the problem."
+  },
+  {
+    "t_start": 239.378,
+    "t_end": 242.518,
+    "text": "The proof is clearly profound"
+  },
+  {
+    "t_start": 242.519,
+    "t_end": 247.908,
+    "text": "and probably beyond Fermat's reach to be honest."
+  },
+  {
+    "t_start": 247.908,
+    "t_end": 251.28,
+    "text": "Some people say Fermat was just fooling around, that it was just a trick,"
+  },
+  {
+    "t_start": 251.28,
+    "t_end": 254.64,
+    "text": "that he left something in his book that he knew would trouble subsequent generations -"
+  },
+  {
+    "t_start": 254.639,
+    "t_end": 255.968,
+    "text": "I think that's the least likely."
+  },
+  {
+    "t_start": 255.968,
+    "t_end": 259.17,
+    "text": "Some people say that he did have a genuine proof"
+  },
+  {
+    "t_start": 259.17,
+    "t_end": 262.55,
+    "text": "and it's beautiful, it's elegant and it's 17th century,"
+  },
+  {
+    "t_start": 262.55,
+    "t_end": 266.97,
+    "text": "and we could kinda rediscover that proof but we're just not quite clever enough."
+  },
+  {
+    "t_start": 266.97,
+    "t_end": 270.199,
+    "text": "I think that's possible but unlikely."
+  },
+  {
+    "t_start": 270.199,
+    "t_end": 273.52,
+    "text": "I think the most likely explanation is Fermat"
+  },
+  {
+    "t_start": 273.519,
+    "t_end": 276.689,
+    "text": "thought he had a proof. Because he was working on his own"
+  },
+  {
+    "t_start": 276.689,
+    "t_end": 279.759,
+    "text": "and because he didn't show this proof to anybody else"
+  },
+  {
+    "t_start": 279.759,
+    "t_end": 283.699,
+    "text": "nobody could tell him: \"Ow, there is a mistake there, that line 3"
+  },
+  {
+    "t_start": 283.699,
+    "t_end": 287.6,
+    "text": "has got something wrong with it.\" And that's very likely because we know that"
+  },
+  {
+    "t_start": 287.6,
+    "t_end": 289.55,
+    "text": "subsequent generations of mathematicians"
+  },
+  {
+    "t_start": 289.55,
+    "t_end": 294.09,
+    "text": "thought they'd found a proof and then they publish it and people would tear"
+  },
+  {
+    "t_start": 294.089,
+    "t_end": 295.429,
+    "text": "it apart and find the error."
+  },
+  {
+    "t_start": 295.43,
+    "t_end": 299.709,
+    "text": "So what we're looking for is not Fermat's proof -"
+  },
+  {
+    "t_start": 299.709,
+    "t_end": 303.409,
+    "text": "which was probably flawed - but we're looking for some kind of proof to see"
+  },
+  {
+    "t_start": 303.411,
+    "t_end": 307.669,
+    "text": "wheter Fermat was right all along? It has a happy ending."
+  },
+  {
+    "t_start": 307.668,
+    "t_end": 311.189,
+    "text": "And it starts with a ten-year-old child,"
+  },
+  {
+    "t_start": 311.189,
+    "t_end": 315.209,
+    "text": "a child called Andrew Wiles, who was reading a book one day -"
+  },
+  {
+    "t_start": 315.209,
+    "t_end": 319.388,
+    "text": "he's growing up in Cambridge, he wents to the library, he got a book called &lt;i&gt;The last"
+  },
+  {
+    "t_start": 319.389,
+    "t_end": 321.59,
+    "text": "problem&lt;/i&gt; by E.T. Bell."
+  },
+  {
+    "t_start": 321.589,
+    "t_end": 325.75,
+    "text": "And the book is all about Fermat's last theorem."
+  },
+  {
+    "t_start": 325.75,
+    "t_end": 329.06,
+    "text": "And little Andrew Wiles, age 10,"
+  },
+  {
+    "t_start": 329.06,
+    "t_end": 332.819,
+    "text": "decided that he was going to rediscover the missing proof."
+  },
+  {
+    "t_start": 332.819,
+    "t_end": 336.46,
+    "text": "Because a bright ten-year-old can understand the problem. A bright ten-year-old"
+  },
+  {
+    "t_start": 336.459,
+    "t_end": 338.519,
+    "text": "doesn't realize what they're letting themselves in for,"
+  },
+  {
+    "t_start": 338.519,
+    "t_end": 341.769,
+    "text": "but that's another story. And he tried, he talked about, to the"
+  },
+  {
+    "t_start": 341.769,
+    "t_end": 347.5,
+    "text": "he talked to his A-level teachers about the problem, he goes to university talked to his"
+  },
+  {
+    "t_start": 347.5,
+    "t_end": 349.62,
+    "text": "undergraduate lecturers about the problem."
+  },
+  {
+    "t_start": 349.62,
+    "t_end": 354.168,
+    "text": "He has a PhD and still this problem is obsessing him."
+  },
+  {
+    "t_start": 354.168,
+    "t_end": 358.689,
+    "text": "I think he was about in his late 30's by this time he was a Princeton professor -"
+  },
+  {
+    "t_start": 358.689,
+    "t_end": 361.699,
+    "text": "there was something called the Taniyama-Shimura conjecture which"
+  },
+  {
+    "t_start": 361.699,
+    "t_end": 365.28,
+    "text": "I kinda think we don't really want to get into at the moment -"
+  },
+  {
+    "t_start": 365.279,
+    "t_end": 369.859,
+    "text": "which had been proposed in the 50's. So a conjecture is an idea that"
+  },
+  {
+    "t_start": 369.86,
+    "t_end": 373.379,
+    "text": "we don't know whether it's true or not, but somebody is putting it on the table. Somebody"
+  },
+  {
+    "t_start": 373.379,
+    "t_end": 376.229,
+    "text": "proved that there was a link between these two conjectures."
+  },
+  {
+    "t_start": 376.228,
+    "t_end": 380.56,
+    "text": "It is much as: if you could prove most of the Taniyama-Shimura conjecture"
+  },
+  {
+    "t_start": 380.56,
+    "t_end": 385.519,
+    "text": "you would get Fermat's last theorem for free. So somehow Fermat's last theorem is embedded in"
+  },
+  {
+    "t_start": 385.519,
+    "t_end": 387.128,
+    "text": "this other conjecture."
+  },
+  {
+    "t_start": 387.129,
+    "t_end": 392.27,
+    "text": "And Andrew Wiles' childhood passion, his childhood obsession is reignited"
+  },
+  {
+    "t_start": 392.269,
+    "t_end": 396.128,
+    "text": "because he thinks the Taniyama-Shimura conjecture is worth a go."
+  },
+  {
+    "t_start": 396.129,
+    "t_end": 399.379,
+    "text": "You know he thinks he can get his teeth into that. But it's still"
+  },
+  {
+    "t_start": 399.379,
+    "t_end": 403.729,
+    "text": "a crazy thing to try and do and so because it was such an absurd and"
+  },
+  {
+    "t_start": 403.729,
+    "t_end": 408.319,
+    "text": "ambitious challenge, Wiles didn't tell anybody about it."
+  },
+  {
+    "t_start": 408.319,
+    "t_end": 411.729,
+    "text": "He worked on in complete secrecy,"
+  },
+  {
+    "t_start": 411.728,
+    "t_end": 416.378,
+    "text": "he started not attending committee meetings, he started going to his office"
+  },
+  {
+    "t_start": 416.379,
+    "t_end": 418.509,
+    "text": "less and less, he started to"
+  },
+  {
+    "t_start": 418.509,
+    "t_end": 421.96,
+    "text": "focus on this problem. Once again:"
+  },
+  {
+    "t_start": 421.959,
+    "t_end": 425.459,
+    "text": "not because it was the Taniyama-Shimura conjecture but because it would give him"
+  },
+  {
+    "t_start": 425.459,
+    "t_end": 428.198,
+    "text": "Fermat's last theorem for free."
+  },
+  {
+    "t_start": 428.199,
+    "t_end": 431.59,
+    "text": "And for 7 years he worked in complete secrecy"
+  },
+  {
+    "t_start": 431.589,
+    "t_end": 436.049,
+    "text": "and at the end of 7 years he suddenly realized"
+  },
+  {
+    "t_start": 436.05,
+    "t_end": 440.348,
+    "text": "that he had Taniyama-Shimura and if he had Taniyama-Shimura,"
+  },
+  {
+    "t_start": 440.348,
+    "t_end": 445.009,
+    "text": "he had a proof of Fermat's last theorem. He went to Cambridge, he presented his proof on a"
+  },
+  {
+    "t_start": 445.009,
+    "t_end": 445.97,
+    "text": "black board,"
+  },
+  {
+    "t_start": 445.97,
+    "t_end": 450.319,
+    "text": "it was a three-part lecture, the world cheered, he was the front page of the"
+  },
+  {
+    "t_start": 450.319,
+    "t_end": 451.56,
+    "text": "New York Times, he was"
+  },
+  {
+    "t_start": 451.56,
+    "t_end": 454.839,
+    "text": "on CNN he was everywhere. But the sting in the tale"
+  },
+  {
+    "t_start": 454.839,
+    "t_end": 459.06,
+    "text": "is that in any mathematical proof you have to have it checked."
+  },
+  {
+    "t_start": 459.06,
+    "t_end": 463.537,
+    "text": "You have to have it refereed and published, and when he went through the checking process"
+  },
+  {
+    "t_start": 463.538,
+    "t_end": 466.628,
+    "text": "somebody found a mistake. Wiles assumed that he could fix it,"
+  },
+  {
+    "t_start": 466.629,
+    "t_end": 471.25,
+    "text": "but the more he tried to unravel this problem the worse it became."
+  },
+  {
+    "t_start": 471.25,
+    "t_end": 475.43,
+    "text": "And it became a huge embarrassment, you know you've been loathed(?) as the greatest"
+  },
+  {
+    "t_start": 475.43,
+    "t_end": 477.8,
+    "text": "mathematician of the 20th century,"
+  },
+  {
+    "t_start": 477.8,
+    "t_end": 481.228,
+    "text": "you are a hero figure and now you have to admit you made a mistake."
+  },
+  {
+    "t_start": 481.228,
+    "t_end": 485.219,
+    "text": "And it took a whole year, but at the end of that year"
+  },
+  {
+    "t_start": 485.22,
+    "t_end": 488.22,
+    "text": "Andrew Wiles working with a chap(?) called Richard Taylor"
+  },
+  {
+    "t_start": 488.22,
+    "t_end": 492.139,
+    "text": "managed to fix the proof. I think it's a bit like"
+  },
+  {
+    "t_start": 492.139,
+    "t_end": 495.449,
+    "text": "the Terminator film, I often talk about, you know when you just think you've"
+  },
+  {
+    "t_start": 495.449,
+    "t_end": 499.509,
+    "text": "slained the monster when you've killed the Terminator it comes back to life and"
+  },
+  {
+    "t_start": 499.509,
+    "t_end": 503.65,
+    "text": "you have to fight in one last time. And somebody, one mathematician I think"
+  },
+  {
+    "t_start": 503.649,
+    "t_end": 504.739,
+    "text": "Pete Hines"
+  },
+  {
+    "t_start": 504.74,
+    "t_end": 507.879,
+    "text": "once wrote: &lt;i&gt;\"A problem worthy of attack"
+  },
+  {
+    "t_start": 507.879,
+    "t_end": 512.24,
+    "text": "proves its worth by fighting back.\"&lt;/i&gt; And that's what Fermat's last theorem was doing,"
+  },
+  {
+    "t_start": 512.24,
+    "t_end": 513.799,
+    "text": "it was fighting back,"
+  },
+  {
+    "t_start": 513.799,
+    "t_end": 517.598,
+    "text": "but Wiles proved that he was too good. And of course what Wiles proved"
+  },
+  {
+    "t_start": 517.599,
+    "t_end": 520.82,
+    "text": "is that Fermat was right, this equation"
+  },
+  {
+    "t_start": 520.82,
+    "t_end": 524.74,
+    "text": "&lt;b&gt;x^n + y^n = z^n&lt;b&gt;, &lt;b&gt;n&lt;/b&gt; bigger than 2,"
+  },
+  {
+    "t_start": 524.74,
+    "t_end": 528.879,
+    "text": "has no whole number solutions and that's the end of the story."
+  },
+  {
+    "t_start": 528.879,
+    "t_end": 531.789,
+    "text": "[Brady]If you'd like to see a bit more from this interview with Simon, I've got some"
+  },
+  {
+    "t_start": 531.789,
+    "t_end": 532.849,
+    "text": "extra footage,"
+  },
+  {
+    "t_start": 532.85,
+    "t_end": 536.87,
+    "text": "I'll put a link in the description. Simon's also got a book about Fermat's last"
+  },
+  {
+    "t_start": 536.87,
+    "t_end": 538.99,
+    "text": "theorem, that's excellent, I recommend that,"
+  },
+  {
+    "t_start": 538.99,
+    "t_end": 543.139,
+    "text": "links below, and just this week he's got a new book out -"
+  },
+  {
+    "t_start": 543.139,
+    "t_end": 546.819,
+    "text": "funny about that - it's all about mathematics in the Simpsons and I think"
+  },
+  {
+    "t_start": 546.82,
+    "t_end": 549.39,
+    "text": "anyone who likes Numberphile is gonna love this one."
+  },
+  {
+    "t_start": 549.389,
+    "t_end": 552.519,
+    "text": "I'll put a link below, but he's also done an interview with me"
+  },
+  {
+    "t_start": 552.519,
+    "t_end": 555.6,
+    "text": "about Fermat's last theorem in the Simpsons,"
+  },
+  {
+    "t_start": 555.6,
+    "t_end": 559.44,
+    "text": "which I think you'll all enjoy and I'll put that on to Numberphile really soon."
+  },
+  {
+    "t_start": 559.44,
+    "t_end": 564.279,
+    "text": "But in the meantime, lots of links below I'll put a link to the Wiles paper,"
+  },
+  {
+    "t_start": 564.278,
+    "t_end": 567.379,
+    "text": "a few other bits and pieces that I want you to see,"
+  },
+  {
+    "t_start": 567.379,
+    "t_end": 567.95,
+    "text": "so have a good look."
+  }
+]

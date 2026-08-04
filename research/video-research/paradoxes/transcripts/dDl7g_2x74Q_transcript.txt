@@ -1,0 +1,395 @@
+MARK JAGO: We're going to talk
+about four paradoxes that
+touch on the topic
+of infinity.
+First one, we've got
+the Hilbert Hotel.
+This is a hotel with infinitely
+many rooms.
+And at the moment, there's
+somebody in every single room.
+So it's a full hotel, and then a
+new customer rolls up at the
+reception desk.
+Now, you might think they're
+going to turn him away because
+the hotel's full.
+But the manager's clever.
+And here's what he does.
+He shifts the person in room 1
+to room 2, and the person in
+room 2 to room 3, and the
+person in room 3 to
+room 4, and so on.
+Everyone gets shifted
+forward one room.
+And because there's infinitely
+many rooms, you never run out
+of rooms to put people in.
+And when you've done all
+of this, room 1's free.
+So the new guest gets put
+in room number 1.
+So you can fit in a new guest.
+You can fit in two new guests.
+You could fit in
+10 new guests.
+And even if an infinite bus of
+new customers rolls up, you
+can fit them all in.
+I guess it's that when I first
+heard the description, I
+thought, well, that
+hotel's full.
+You can't fit anybody in it.
+That's how full hotels work.
+But then once you're shown that
+you can fit as many new
+people in the hotel as you like,
+you learn something new
+about infinity.
+So your intuitions change.
+And the trick is because it's an
+infinite hotel, there is no
+final room.
+If there were a final room, you
+could count all the rooms,
+and there wouldn't be infinitely
+many of them.
+I think he's using the idea to
+say, infinity is interesting,
+it's philosophically interesting
+because you might
+have thought things
+went like this.
+But they don't, and we can show
+mathematically that they don't.
+Paradox number two--
+this is the paradox
+of Gabriel's trumpet.
+So the idea is we have this
+mathematical shape, this
+mathematical object.
+And it's shaped like
+a trumpet.
+It'll start off here, and it'll
+taper and get thinner
+and thinner and thinner and
+thinner and thinner.
+And it tends off to infinity,
+getting thinner and thinner
+all the way.
+So that mathematical object has
+an infinite surface area.
+But the volume it encloses, the
+air in the center of the
+trumpet, is only a
+finite volume.
+Suppose you were told
+you had to paint the
+inside of that trumpet.
+Well, on the one hand, you've
+got to paint an
+infinitely big surface.
+So you're going to need an
+infinite bucket of paint.
+But on the other hand, you could
+just take a finite, big
+enough can of paint, tip it into
+the trumpet, and let it
+filter its way down.
+So it looks like you only need
+a finite amount of paint to
+paint an infinite
+surface area.
+That's really, really strange.
+If we're thinking about real
+physical paint, you just can't
+paint the whole surface.
+Because it gets so thin at one
+end that you're just not going
+to fit the paint down there.
+So I guess the clash arises
+when we think about the
+difference between the
+mathematical idea of a surface
+and the physical idea
+of paint, which
+is real thick stuff.
+If we had mathematical paint
+where the molecules had no
+size whatsoever, looks like
+you'd need an infinite amount
+of that to cover that infinite
+surface area.
+He thought there was something
+really strange going on here.
+He gave lots of proofs of this
+idea because I think at first,
+he thought he'd made
+a mistake.
+And lots of mathematicians
+thought that there was
+something wrong with the idea
+of infinity, that maybe
+somehow we should
+banish infinity.
+Because puzzles like
+this clash.
+They show there's something
+wrong with the idea, so we
+should somehow ban it from
+our mathematics.
+But in fact, infinity works
+just fine in mathematics.
+But we have to sometimes change
+our ideas about how the
+world works to fit it in.
+Number three-- so this is the
+puzzle of the dartboard.
+So we suppose we've
+got a dartboard,
+and we've got a dart.
+And we're going to throw the
+dart at the dartboard.
+And let's just suppose we're
+guaranteed 100% chance to hit
+the dartboard.
+And then we ask the question,
+think about the exact center
+point of the dart.
+And we think about an exact
+point, a mathematical point on
+the dartboard.
+And we ask the question, what's
+the chance our dart is
+going to hit that exact point?
+And it turns out we can't
+give a sensible answer.
+So suppose on the one hand that
+we say, it's got a chance
+greater than 0 of hitting
+that point.
+Well, there's a problem
+with that.
+If it's got a greater than 0
+chance of hitting that point,
+the same goes for every other
+point on the dartboard.
+And there's infinitely
+many of them.
+In fact, there's a big
+infinity of those
+mathematical points.
+When we add all those chances
+together to give us the chance
+that the dart's going to hit the
+dartboard at all, we end
+up with an infinite
+probability.
+But we can't have an infinite
+probability.
+You can't get a probability
+bigger than 1 that something
+will happen.
+OK, so we've got a problem with
+the idea that the chance
+of the dart hitting that
+point is bigger than 0.
+So on the other hand, what
+happened to the chance of 0?
+Well, that's also strange.
+Because if the chance of hitting
+that point is 0, we
+could say the same
+for every point.
+So the chance of hitting any
+point on the dart board is 0.
+It's not going to happen.
+But that's really strange
+because we're sure the dart's
+going to hit the dartboard
+somewhere.
+Again, one thing philosophers
+say about this is the idea of
+banning infinity.
+So we say, don't think about the
+exact mathematical point
+of the dart.
+We think about an area--
+any real physical dart has
+an area at its center.
+And we think about what's the
+chance that it hits an area on
+the dartboard.
+And then we divide these
+up in a finite way.
+And the problem goes away.
+As the area gets bigger, the
+probability that the dart hits
+there is bigger.
+As it gets smaller, the
+probability the dart hits
+there gets smaller.
+BRADY HARAN: So it's this kind
+of granular nature of our
+existence that gets
+us out of trouble?
+MARK JAGO: Yeah, that's right.
+So if everything that we think
+about is an area rather than
+an exact point, the
+problem goes away.
+But that's not completely
+satisfying.
+After all, we can think of an
+area getting smaller and
+smaller and smaller and
+tending to infinity.
+Shouldn't we have a decent
+answer to this problem when we
+get to the infinite case?
+And maybe we don't have a
+very good answer to it.
+OK, so here's the
+fourth paradox.
+This is perhaps the most
+interesting one of them all
+because it relates to what
+rational humans should do in
+betting games.
+You go to a casino, and they
+put a pound in the pot.
+And they say, we're going
+to flip a fair coin.
+And when it lands on a tail, you
+get whatever's in the pot.
+If we flip a head, the casino
+doubles what's in the pot, and
+we play again.
+If it gets a tail, you get
+what's in the pot.
+If it's a head, they
+double the pot,
+and we carry on playing.
+But then they ask you the
+question, how much would you
+pay to get into this game?
+Name your price.
+You've got to pay something
+to play.
+What would you pay?
+And I think most people think
+about this a bit and say
+something like, maybe
+a few pounds?
+Maybe if you're rich,
+you'd say 20 pounds.
+The mathematical theory, on the
+other hand, tells you, bet
+whatever you've got.
+Stake any amount of money you
+can get your hands on on this
+game, because the expected
+winnings is infinite.
+Your expected take home is
+infinite if you play the game.
+So the way we work out the
+expected take-home winnings is
+we look at each case.
+If you flip a tail on
+the first go, how
+much would you win?
+Add it to if you flip a tail
+on the second go, how much
+would you win?
+Add it to if you flip a tail
+on the third go, how much
+would you win?
+And we sum all of these.
+But because the game hasn't got
+a fixed end point, we sum
+infinitely many of these.
+And in fact, the expected
+value of each play
+of the game is 1/2.
+So we're adding 1/2 to
+1/2 to 1/2 to 1/2
+infinitely many times.
+That's why the expected value of
+what you will take home is
+infinitely big.
+BRADY HARAN: But we wouldn't
+bet our house, would we?
+We wouldn't bet everything.
+MARK JAGO: I wouldn't.
+And I don't think you would.
+And--
+BRADY HARAN: What
+does that say?
+MARK JAGO: I think it says
+something interesting
+perhaps about us.
+Perhaps it says that we're
+more risk averse than the
+mathematical theory would
+have us believe.
+Perhaps it says that the
+value of money changes
+the more you accrue.
+Perhaps it says something else
+that we haven't quite worked
+yet, that we should figure in
+to what makes us rational
+reasoners that we haven't yet
+taken account of in the maths.
+BRADY HARAN: You're sort of
+saying that as if humans are
+wrong to not bet everything
+on it.
+But surely if humans did that,
+casinos would set that game up
+and own all our houses by now.
+MARK JAGO: Well, good point.
+To make the maths come out, the
+casino has to guarantee,
+so you have to know in advance
+that they will bet as
+much as they need.
+So there would have to be a
+casino with an infinite amount
+of money, potentially, to
+put into this game.
+So one way out of it is to say,
+look, there's no casino
+with that amount of money.
+And if we say after x amount of
+money has been put in the
+pot, that's it, that's all
+the casino can do.
+Then the numbers change, and
+it turns out you would be
+irrational to put lots
+of money into it.
+We have this mathematical
+theory of
+rational decision making.
+Most mathematical theories don't
+crumble when you put
+infinity in.
+They work just fine.
+So why is it that theories about
+us, how we should or
+shouldn't behave, go really
+weird when you
+put infinity in?
+So suppose we take all the
+natural numbers together.
+None of those are
+infinitely big.
+Each one is a finite number.
+But there's infinitely
+many of them.
+So if we were asked to count
+them, we'd say there's an
+infinite connection.

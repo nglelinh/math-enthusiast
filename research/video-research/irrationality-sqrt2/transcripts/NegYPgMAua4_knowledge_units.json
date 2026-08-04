@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ku_video_NegYPgMAua4_5",
+    "t_start": 5.4,
+    "t_end": 102.1,
+    "type": "overview",
+    "summary": "0.375 is an example of what we call a rational number because it can be expressed as a ratio of two integers in particular it's equal to 3 over 8 very particular it's equal to 3 over 8 very famously not every number has this famously not every number has this property of being rational indeed the very well-known number Pi which is the ratio of a circle circumference to its ratio of a circle circumference to its diameter is not a rational number although Pi is most famous of these irrational numbers it's not the first irrational numbers it's not the first number that was proven to be irratio…"
+  },
+  {
+    "id": "ku_video_NegYPgMAua4_102",
+    "t_start": 102.1,
+    "t_end": 196.5,
+    "type": "overview",
+    "summary": "hesus was a follower of Pythagoras in his quasi religious Brotherhood of his quasi religious Brotherhood of pythagoreans and they believed that all pythagoreans and they believed that all could be described with positive could be described with positive integers by establishing that wasn't the integers by establishing that wasn't the case hesus totally blew up their case hesus totally blew up their worldview and so the story goes that worldview and so the story goes that they drowned him although there is no they drowned him although there is no evidence to support this it's a neat evidence…"
+  },
+  {
+    "id": "ku_video_NegYPgMAua4_196",
+    "t_start": 196.5,
+    "t_end": 290.5,
+    "type": "overview",
+    "summary": "prices on eBay Tom Apostle's proof of the irrationality of the square &lt; TK of the irrationality of the square &lt; TK of two is not only quite brief but it's also geometric and pretty easy to follow now one question you might have is why now one question you might have is why we should be so concerned with the Square &lt; t of two anyways I mean if it was a contrived number that would never was a contrived number that would never actually show up in natural actually show up in natural circumstances then perhaps we wouldn't circumstances then perhaps we wouldn't have to worry so much abou…"
+  },
+  {
+    "id": "ku_video_NegYPgMAua4_290",
+    "t_start": 290.5,
+    "t_end": 381.7,
+    "type": "overview",
+    "summary": "have an isoceles right triangle now as mathematicians often do let us do some mathematicians often do let us do some supposing suppose that the square &lt; TK supposing suppose that the square &lt; TK of two is rational if the square &lt; TK of two is rational then by definition of a rational number that means we could write it as a ratio of two integers A and B where B is not zero now since the and B where B is not zero now since the length of this hypotenuse is the square length of this hypotenuse is the square &lt; TK of two well its length must also be these sides by a factor of B to sc…"
+  },
+  {
+    "id": "ku_video_NegYPgMAua4_381",
+    "t_start": 381.7,
+    "t_end": 475.1,
+    "type": "overview",
+    "summary": "an integer right triangle with integer sides well we're talking about the lengths of sides so we're certainly talking about positive integers and there is a smallest positive integer namely one so if there's an isoceles namely one so if there's an isoceles right triangle with integer sides then right triangle with integer sides then certainly there is a smallest isoceles certainly there is a smallest isoceles right triangle with integer sides and right triangle with integer sides and this is where the trouble begins imagine if I said to you there exists a least number you would say well tha…"
+  },
+  {
+    "id": "ku_video_NegYPgMAua4_475",
+    "t_start": 475.1,
+    "t_end": 568.5,
+    "type": "overview",
+    "summary": "means that the angles opposite them must be congruent so this angle maybe it has be congruent so this angle maybe it has a measure of X must have the same a measure of X must have the same measure as that one over there which measure as that one over there which would then also have a measure of X now what we're going to do is use this isoceles right triangle with integer sides to construct a smaller isoceles right triangle with integer sides that's right triangle with integer sides that's going to be a contradiction because we going to be a contradiction because we assume this was the smal…"
+  },
+  {
+    "id": "ku_video_NegYPgMAua4_568",
+    "t_start": 568.5,
+    "t_end": 661.4,
+    "type": "overview",
+    "summary": "point and call it D all right now here with BC D we clearly have a right with BC D we clearly have a right triangle it has been constructed to be a triangle it has been constructed to be a right triangle what remains to be proven isoceles for one and we need to prove that its sides have integer lengths that its sides have integer lengths clearly it's smaller than the original clearly it's smaller than the original triangle because we've constructed it inside the original triangle so if we can establish those other two facts we can establish those other two facts we will complete the proof n…"
+  },
+  {
+    "id": "ku_video_NegYPgMAua4_661",
+    "t_start": 661.4,
+    "t_end": 752.1,
+    "type": "overview",
+    "summary": "lengths is actually very easy as well because remember AO we know has an integer length because we assume this is an isoceles right triangle with integer sides and we took that side to be the radius of the circle that this Arc came from which means that this guy over here a is also a radius of that Circle since a is also a radius of that Circle since it goes from a to this point on the arc radius this is a radius so AC must in fact have the same length as AO those fact have the same length as AO those segments are congruent and so this AC segments are congruent and so this AC must also have…"
+  },
+  {
+    "id": "ku_video_NegYPgMAua4_752",
+    "t_start": 752.1,
+    "t_end": 843.9,
+    "type": "overview",
+    "summary": "the circle because they intersect the circle perpendicular to the radi now if two segments are tangent to a circle from the same external point they have from the same external point they have to be congruent that is a basic fact of want to proof of that but yeah that's the result two segments that are tangent the result two segments that are tangent to the exterior of a circle from the to the exterior of a circle from the same exterior point they must be same exterior point they must be congruent so that means that D is also congruent so that means that D is also an integer but remember Bo…"
+  },
+  {
+    "id": "ku_video_NegYPgMAua4_843",
+    "t_start": 843.9,
+    "t_end": 888.7,
+    "type": "overview",
+    "summary": "the same type and that's a contradiction if this is the smallest well certainly if this is the smallest well certainly we can't construct a smaller one and so we can't construct a smaller one and so indeed as true now as it was back in 500 indeed as true now as it was back in 500 BC the square root of two is irrational BC the square root of two is irrational and so with that we'll end our proof the way mathematicians often do r i p i mean QED QED don't kill me an AR to keep the cable cutting un table if Texas Instruments don't reply I think if Texas Instruments don't reply I think this time…"
+  }
+]

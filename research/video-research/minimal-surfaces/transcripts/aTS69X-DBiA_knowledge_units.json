@@ -1,0 +1,275 @@
+[
+  {
+    "id": "ku_video_aTS69X-DBiA_2",
+    "t_start": 2.4,
+    "t_end": 93.3,
+    "type": "overview",
+    "summary": "okay thank you very much for the very nice introduction it's a great pleasure nice introduction it's a great pleasure to be here in this prestigious University and in this prestigious venue to give you an idea about the research to give you an idea about the research that I've been doing actually in the that I've been doing actually in the last ten years and so this is actually a talk which is thought for non mathematicians in principle at least at the beginning so the idea is that I want to convey idea some ideas of our subject to convey idea some ideas of our subject to scientists and may…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_93",
+    "t_start": 93.3,
+    "t_end": 183.7,
+    "type": "overview",
+    "summary": "is attaching to the wire and the soap film makes interesting shape so it's film makes interesting shape so it's fragile that's sufficiently stable okay fragile that's sufficiently stable okay so the mathematical question that goes so the mathematical question that goes under the name of plateaus problem is soap film so the contribution of Plateau who was a Belgian physicist working in the 19th century was to give a very nice and elegant answer to this problem so if and elegant answer to this problem so if you look at the surface which is which you look at the surface which is which is reali…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_183",
+    "t_start": 183.7,
+    "t_end": 276.5,
+    "type": "overview",
+    "summary": "all two-dimensional surfaces which span this wire so this is the original this wire so this is the original plateau problem now there's a famous plateau problem now there's a famous saying bye-bye good in German it sounds saying bye-bye good in German it sounds like this the mathematical z-9 up from like this the mathematical z-9 up from those Man Ray that is to even suitable those Man Ray that is to even suitable sets in a cine - process and also bodies sets in a cine - process and also bodies the scans it was sadness so if you the scans it was sadness so if you translate it it's the follo…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_276",
+    "t_start": 276.5,
+    "t_end": 369.9,
+    "type": "overview",
+    "summary": "say and it's not even our usual Euclidean space is what people actually Euclidean space is what people actually call every Mannion manifold so some call every Mannion manifold so some ambient geometry which is not necessarily flat like our space and now what you are looking for is a surface of what you are looking for is a surface of one dimension more so here you had one dimension more so here you had two-dimensional surfaces here you have M two-dimensional surfaces here you have M plus one dimensional surfaces which are in your ambient space which are in some sense spanning your boundary …"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_369",
+    "t_start": 369.9,
+    "t_end": 460.4,
+    "type": "overview",
+    "summary": "points of the system right so it's physically highly motivated and it's a physically highly motivated and it's a prototypical problem because it's very prototypical problem because it's very easy to state in geometric languages so in mathematics often you take prototypical problems as a starting prototypical problems as a starting point for your investigations because point for your investigations because you hope to develop techniques to you hope to develop techniques to understand the prototypical problem which will actually be available for much more general problems so it has a certain …"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_460",
+    "t_start": 460.4,
+    "t_end": 553.9,
+    "type": "overview",
+    "summary": "high dimensional version has very surprising connections with modern surprising connections with modern theoretical physics so in string theory things which are called D branes and actually you know most Biton invariants actually you know most Biton invariants for distance count a certain type of for distance count a certain type of area minimizing surfaces in certain minimizing surfaces and they are in very high dimension and codimension okay so high dimension and codimension okay so now this is another simple geometric now this is another simple geometric example of what I understand by a…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_553",
+    "t_start": 553.9,
+    "t_end": 644.8,
+    "type": "overview",
+    "summary": "actually pops out naturally okay now of course it's a little bit more difficult course it's a little bit more difficult to understand what is a nambian to understand what is a nambian three-dimensional space which is not our usual nucleon space and what is a 2-dimensional minimizer inside okay that is a bit more difficult to draw so of course if you if you look at it from the course if you if you look at it from the point of view of mathematicians there would like to ask at the beginning so if you want to solve this problem what you want to solve this problem what should you understand as a…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_644",
+    "t_start": 644.8,
+    "t_end": 737.0,
+    "type": "overview",
+    "summary": "reason and the answer that there is a minimizer is completely irrelevant for finding the minimizer or for having an algorithm which gives you the minimizer algorithm which gives you the minimizer so give birth to to his students used to so give birth to to his students used to give the following example so if you are sitting in a room that is certainly somebody who has the maximum amount of somebody who has the maximum amount of hair because churches finally many people somebody has the maximum and so it's an existence mathematics but it's in some sense and interesting also right of course …"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_736",
+    "t_start": 737.0,
+    "t_end": 828.8,
+    "type": "overview",
+    "summary": "dimensional boundary so dots and then we are looking for a one dimensional object are looking for a one dimensional object which is connecting the dots you are which is connecting the dots you are looking for a one dimensional object looking for a one dimensional object which is connecting the dots and which is minimizing the length okay so this sounds very abstract but you can simply sounds very abstract but you can simply think about the following so here you have three cities okay and you want to build a railway and you want to be in build a railway and you want to be in the railway whic…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_828",
+    "t_start": 828.8,
+    "t_end": 922.2,
+    "type": "overview",
+    "summary": "so this framework actually shows you immediately that singularities can occur immediately that singularities can occur right so here you have a tripod junction so for instance it's a point where if your train is going through it it's your train is going through it it's probably a very good place where to put probably a very good place where to put an intermediate station okay so that for instance your train can decide to go in one direction or to go decide to go in one direction or to go in the other direction so this is the first things that you learn so singularities are actually likely t…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_922",
+    "t_start": 922.2,
+    "t_end": 1012.9,
+    "type": "overview",
+    "summary": "example so let me twist the problem a little bit so let me say that instead of little bit so let me say that instead of instead of bending in vague ways you instead of bending in vague ways you have the following situation so you have have the following situation so you have some factories which are producing some some factories which are producing some Goods here so these are the factories and you have some cities when you actually want to distribute the goods so actually want to distribute the goods so the dots now they are slightly different the dots now they are slightly different so fo…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_1012",
+    "t_start": 1012.9,
+    "t_end": 1110.3,
+    "type": "overview",
+    "summary": "directly with one track to that city and directly to with another truck to the directly to with another truck to the other city now if you had a railway you would build a railway up to here and then have an intermediate station and then distribute to other railways in two different directions but now you have trucks of course you can make the trucks go along together for a certain piece of the road and then bifurcate at a certain point but that is not effective in terms point but that is not effective in terms of costs because you are moving two trucks and each of them they are taking a lon…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_1110",
+    "t_start": 1110.3,
+    "t_end": 1206.1,
+    "type": "overview",
+    "summary": "you have to imagine a cone or a piece of a cone which is connecting these two circles and then you bend it a little bit because by bending it a little bit you're actually saving area okay and this is allowed because these two disks this is allowed because these two disks these two curves have opposite orientation but if you have two curves which are oriented in the same way would which are oriented in the same way would be like having two factories in your be like having two factories in your problem before and you don't want to problem before and you don't want to connect the factory with …"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_1206",
+    "t_start": 1206.1,
+    "t_end": 1302.0,
+    "type": "overview",
+    "summary": "see the two disks so both situations occur in nature in fact okay so now this entire dimension takes into account for dimension takes into account for orientation now do the following orientation now do the following experiment so you have your solution over here and your solution over here in both situations take your circles and both situations take your circles and slide them down until they touch okay so in this situation you have the upper disc which is moving close to the lower disc so when the truth when the two circles become co-planner you find the circles become co-planner you fin…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_1302",
+    "t_start": 1302.0,
+    "t_end": 1392.3,
+    "type": "overview",
+    "summary": "multiplicity one and then a core I mean this is the black core that I have draw in here that core is the superposition of the two disks okay you should count it twice so the inner core has multiplicity two so now you have an multiplicity two so now you have an interesting situation so the boundary so interesting situation so the boundary so your wire is this disc and this disc over here I mean this circle and this circle that is the boundary and here this circle in one case we will say that the boundary points are one-sided right so the surface is always on this boundary the surface is alwa…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_1392",
+    "t_start": 1392.3,
+    "t_end": 1483.0,
+    "type": "overview",
+    "summary": "points we will call them two-sided and what we conclude from these examples is what we conclude from these examples is that actually the oriented plateaus that actually the oriented plateaus problem admits minimizer's which have two sided boundaries okay and this will be very relevant for what I'm going to be very relevant for what I'm going to tell you in a few slides okay so what I tell you in a few slides okay so what I mean what what have mathematicians done then in this situation okay so back in the 60s and 70s through the code through the 60s and 70s through the code through the major…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_1483",
+    "t_start": 1483.0,
+    "t_end": 1573.3,
+    "type": "overview",
+    "summary": "mathematical properties which ensure you one thing for any reasonable boundary one thing for any reasonable boundary oriented boundary in a reasonable Romanian ambient space so in a reasonable geometry there is always a reasonable geometry there is always a solution of the oriented plateau problem solution of the oriented plateau problem so there is always a generalized surface so there is always a generalized surface and oriented generalized surface which and oriented generalized surface which is the absolute minimum of the area is the absolute minimum of the area functional which is there…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_1573",
+    "t_start": 1573.3,
+    "t_end": 1664.6,
+    "type": "overview",
+    "summary": "a poor man corollary of the deformation lemma your famous theorems okay now what lemma your famous theorems okay now what happens so you have general surfaces and happens so you have general surfaces and now you have a minimizer you want to shape of this minimizer so for instance what is the type of singularities that what is the type of singularities that might occur maybe they don't talk her I might occur maybe they don't talk her I mean maybe you minimize the area and you mean maybe you minimize the area and you always find something regular always find something regular okay so the answ…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_1664",
+    "t_start": 1664.6,
+    "t_end": 1756.7,
+    "type": "overview",
+    "summary": "mathematicians did they proved that this corn the corn actually has a very simple corn the corn actually has a very simple formula so this formula gives you a formula so this formula gives you a seven dimensional surface in the eight seven dimensional surface in the eight dimensional space it has a singularity dimensional space it has a singularity in the origin so when all the in the origin so when all the coordinates are equal to zero you get the tip of the cone if you want and this object is actually a minimizer of the object is actually a minimizer of the area but so what do I mean by a…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_1756",
+    "t_start": 1756.7,
+    "t_end": 1847.9,
+    "type": "overview",
+    "summary": "these are complex numbers so if you write the equation for the real part and write the equation for the real part and the equation for the imaginary part you equations in four unknowns gives you two degrees of freedom this should be a degrees of freedom this should be a two-dimensional surface in the four dimensional space and it has again a singularity at the origin okay now this is very nice but of course although the singularities exist they are very small so you could ask the next question which is okay maybe there are similarities but is okay maybe there are similarities but how large …"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_1847",
+    "t_start": 1847.9,
+    "t_end": 1939.1,
+    "type": "overview",
+    "summary": "1980 it tells you that also the example of Federer is optimal so in higher of Federer is optimal so in higher codimension an n-dimensional minimizer codimension an n-dimensional minimizer has a singularity which has dimension at most n minus 2 so if you have a two-dimensional surface the singularity two-dimensional surface the singularity can only be 0 dimensional so can only be it's very nice because it tells you that you have the examples and that you have you have the examples and that you have also a full answer on how large the singularities could be so the examples are the first or th…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_1939",
+    "t_start": 1939.1,
+    "t_end": 2031.8,
+    "type": "overview",
+    "summary": "the proof has been used have been used in several places now in higher per in several places now in higher per dimension the situation is completely different so first of all Allen's proof is scary so it's it was at the beginning is scary so it's it was at the beginning when he wrote it one thousand seven when he wrote it one thousand seven hundred twenty eight pages it was never checked by anybody it has not been published in a journal it has been collected in a book which is very fat book of a thousand pages because the fat book of a thousand pages because the font is very very tiny and t…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_2031",
+    "t_start": 2031.8,
+    "t_end": 2124.3,
+    "type": "overview",
+    "summary": "somehow the people who were involved and there are a few others that are coming I there are a few others that are coming I mean if I had more time I would explain mean if I had more time I would explain you what are these generalizations over you what are these generalizations over here but let me not go over this let me that by building upon this work we can actually tackle new open questions so in actually tackle new open questions so in particular one very nice question of anguillan so at the very end of the book he asks the following open problem book he asks the following open problem …"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_2124",
+    "t_start": 2124.3,
+    "t_end": 2217.2,
+    "type": "overview",
+    "summary": "multiplicity 2 3 4 whatever the total area is the sum of the areas of all area is the sum of the areas of all pieces counted with the respective pieces counted with the respective multiplicity but one single piece counted with multiplicity one is already bounding your boundary so of course that bounding your boundary so of course that one has much less area than the sum of the sum of all of them so it should be of one single piece now why does he ask of one single piece now why does he ask actually this question because you could actually this question because you could say okay so this pro…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_2217",
+    "t_start": 2217.2,
+    "t_end": 2308.9,
+    "type": "overview",
+    "summary": "singularities so that might happen now although that is true so you see something like this so here you have a one-dimensional example and you have a one-dimensional example and you have a point singularity so the reality is that point singularity so the reality is that the singularities can jump I mean the the singularities can jump I mean the multiplicities can jump but they can sufficiently large if you are looking at lines the multiplicities can jump at points but if you are looking at surfaces the multiplicity can only jump surfaces the multiplicity can only jump along curves so your s…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_2308",
+    "t_start": 2308.9,
+    "t_end": 2401.7,
+    "type": "overview",
+    "summary": "for instance two-dimensional pieces can join on points but I can not join on boundary lines so that tells you that the first part of the intuitive proof is the first part of the intuitive proof is correct now what about the other two parts so what about my claims at the boundary so I have my regular pieces which are separated but I told you they are regular inside I don't didn't tell are regular inside I don't didn't tell you anything on how they touch the you anything on how they touch the boundary right so so far I only cared boundary right so so far I only cared about interior singularit…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_2401",
+    "t_start": 2401.7,
+    "t_end": 2495.2,
+    "type": "overview",
+    "summary": "you that the answer to on this question is yes in the case of hyper surfaces but higher Co dimension so even for the mathematicians even real analytic curves mathematicians even real analytic curves in the four dimensional space can in the four dimensional space can actually have boundary singularities so even the best-behaved curves can have boundary singularities for the oriented boundary singularities for the oriented plateau problem and the four we cannot hope to prove the theorem of hard and sign okay now there's a good news so there is a simple remark that you can do by using the theo…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_2495",
+    "t_start": 2495.2,
+    "t_end": 2585.9,
+    "type": "overview",
+    "summary": "boundary points so which is kind of completely opposite to what we know in completely opposite to what we know in the interior where we know that the the interior where we know that the singularities are actually few okay so singularities are actually few okay so now remember the following so it because this is going to be very relevant for the next 10 minutes so in this business the next 10 minutes so in this business boundary points might be two sided and might be one sided and actually what happens is that the two sided situation happens is that the two sided situation is what is clearly…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_2585",
+    "t_start": 2585.9,
+    "t_end": 2677.2,
+    "type": "overview",
+    "summary": "has to be only on this side I mean the minimize that cannot go outside of the minimize that cannot go outside of the sphere it has to be only on the inside actually that you are one sided and so it guarantees by allah's theorem that it guarantees by allah's theorem that you're actually regular okay so as I you're actually regular okay so as I said the core of the argument is that said the core of the argument is that the convex surface acts as a barrier and it tells you right away if you're sitting at the point of the boundary you sitting at the point of the boundary you just look at the po…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_2677",
+    "t_start": 2677.2,
+    "t_end": 2768.7,
+    "type": "overview",
+    "summary": "our last theorem actually tells me that that point is regular so here is an that point is regular so here is an illustration I mean I was trying to draw illustration I mean I was trying to draw this I mean it's the old surface see I mean this is where the the curve should lie if it were on the sphere and this is getting inside I mean it's a kind of spike okay allas theorem will tell you I spike okay allas theorem will tell you I don't know anything about this spike in don't know anything about this spike in this spike actually the surface might be the curve is all lying on the other side on…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_2768",
+    "t_start": 2768.7,
+    "t_end": 2865.8,
+    "type": "overview",
+    "summary": "for instance an ambient manifold which is not infinite I mean an ambient bounded and closed like it would be a normal fear for instance then you cannot normal fear for instance then you cannot apply this argument and you are left apply this argument and you are left with the problem that you don't know with the problem that you don't know whether there are boundary regular points at all okay so we have been working at this problem since four years working at this problem since four years I think five years Annaliza suggesting I think five years Annaliza suggesting we are writing what on a w…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_2865",
+    "t_start": 2865.8,
+    "t_end": 2959.4,
+    "type": "overview",
+    "summary": "situation was telling you these points are regular and here who knows our are regular and here who knows our theorem is telling you here there might theorem is telling you here there might be singular points but they are few so be singular points but they are few so even in here in the portion of the curve even in here in the portion of the curve to which I cannot apply a large argument to which I cannot apply a large argument I will find a lot of regular points so it's giving you actually an interesting information even in that case ok that is information even in that case ok that is the t…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_2959",
+    "t_start": 2959.4,
+    "t_end": 3049.9,
+    "type": "overview",
+    "summary": "and after after you have redone it in a way you start with my proof and I manual Spadaro and Lucas Paulo or we can actually build this missing pieces by actually build this missing pieces by modifying our proof of annelids theorem modifying our proof of annelids theorem instead of going through the 1,700 pages okay so we have provided somehow a written confirmation that this missing piece actually can be proved okay the situation is different at the boundary situation is different at the boundary so at the boundary I can have singular I mean singular points which are the limit of a sequence…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_3049",
+    "t_start": 3049.9,
+    "t_end": 3142.5,
+    "type": "overview",
+    "summary": "switch off the brain because maybe you you have enough calculus to understand something but I mean this is more for experts because they have been sitting experts because they have been sitting here for 45 minutes listening to me I automatically some mathematics some formulas okay so I cannot of course give for this because it's a very complicated thing but I can give you a very nice differential equations which is really cute okay so let me state something cute okay so let me state something which is an exercise essentially okay which is an exercise essentially okay well for the plus in pa…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_3142",
+    "t_start": 3142.5,
+    "t_end": 3233.4,
+    "type": "overview",
+    "summary": "neighborhood of 0 it has a power series expansion if the power series has one non-trivial polynomial okay then it's vanishing at that order if it vanishes at all the order that means that all polynomial in the power series expansion polynomial in the power series expansion is trivial and the for the power series function is identically 0 and in the neighborhood of your point you have to be 0 of course you don't have to vanish on the whole Omega because maybe Omega on the whole Omega because maybe Omega is disconnected ok so that's nice but is disconnected ok so that's nice but it's a compli…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_3233",
+    "t_start": 3233.4,
+    "t_end": 3325.0,
+    "type": "overview",
+    "summary": "actually monotone non increasing okay in particular since it is monotone non increasing you can take the limit as R goes to 0 and the limit as R goes to zero is finite now it's not that difficult I mean it's it's it's it's a difficult I mean it's it's it's it's a pretty tough exercise but the solution pretty tough exercise but the solution is very easy so it's a perfect exercise monotone is not easy but once I show you the proof the proof is only a simple the proof the proof is only a simple computation mean it's a half a page computation mean it's a half a page computation now the very nic…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_3325",
+    "t_start": 3325.0,
+    "t_end": 3419.2,
+    "type": "overview",
+    "summary": "now assume of course that your barber is not bounded is not a big not bounded is not a big otherwise the harmonic function would be otherwise the harmonic function would be identically zero okay but imagine your identically zero okay but imagine your harmonic function is defined on the upper half plane and it's very Shing on a line okay now the theorem is still a line okay now the theorem is still true if the function vanishes at infinite order at this point okay then it is identically 0 at that point and if it is identically 0 at that point and if you have a function which is harmonic on y…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_3419",
+    "t_start": 3419.2,
+    "t_end": 3509.4,
+    "type": "overview",
+    "summary": "numerator and here is what you have actually at the denominator now provided actually at the denominator now provided you have the following properties so you have the following properties so provided v is decreasing so phi prime is provided v is decreasing so phi prime is less or equal than zero it's a function less or equal than zero it's a function of one real variable because this of one real variable because this function D is like a distance function function D is like a distance function provided this distance function as the property that the gradient of D is tangent to the boundary…"
+  },
+  {
+    "id": "ku_video_aTS69X-DBiA_3509",
+    "t_start": 3509.4,
+    "t_end": 3566.2,
+    "type": "overview",
+    "summary": "this is a strict generalization of Ayn Rand's theorem because it works in the Rand's theorem because it works in the interior and Ayn Rand's function is a interior and Ayn Rand's function is a particular case so animal function is the particular case in which Phi of X is the indicator function of the ball of radius 1 then this bulk integral is literally the same integral as we saw literally the same integral as we saw before and this integral down degenerates to a surface integral ok and in endurance frequency function the distance X is exactly modules of X ok so there is no asymptotics it'…"
+  }
+]

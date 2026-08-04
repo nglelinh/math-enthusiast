@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ku_video_LJcWhcM4okQ_3",
+    "t_start": 3.1,
+    "t_end": 94.8,
+    "type": "overview",
+    "summary": "hello I'm wearing the sweater uh I put hello I'm wearing the sweater uh I put up a short I think I put up a short a up a short I think I put up a short a up a short I think I put up a short a while ago of when I got this in the mail while ago of when I got this in the mail while ago of when I got this in the mail like around Christmas of 2023 uh I like around Christmas of 2023 uh I like around Christmas of 2023 uh I haven't worn a video yet this is the haven't worn a video yet this is the haven't worn a video yet this is the first video I'm wearing it in so it's first video I'm wearing it in s…"
+  },
+  {
+    "id": "ku_video_LJcWhcM4okQ_94",
+    "t_start": 94.8,
+    "t_end": 185.3,
+    "type": "overview",
+    "summary": "at say serin's triangle and you go ahead at say serin's triangle and you go ahead and scale that up by a factor of two and scale that up by a factor of two and scale that up by a factor of two you're going to get three serinsky you're going to get three serinsky you're going to get three serinsky triangles which is three times this triangles which is three times this triangles which is three times this stuff uh it's not really area it's not stuff uh it's not really area it's not stuff uh it's not really area it's not really length but you're the scaling really length but you're the scaling rea…"
+  },
+  {
+    "id": "ku_video_LJcWhcM4okQ_185",
+    "t_start": 185.3,
+    "t_end": 275.9,
+    "type": "overview",
+    "summary": "why we say it's a certain Dimension part why we say it's a certain Dimension part of the thing which also can be explained of the thing which also can be explained of the thing which also can be explained intuitively so in the case of the box intuitively so in the case of the box intuitively so in the case of the box you can think about this as choosing you can think about this as choosing you can think about this as choosing different measures to apply to it so the different measures to apply to it so the different measures to apply to it so the first measure that you might want to first meas…"
+  },
+  {
+    "id": "ku_video_LJcWhcM4okQ_275",
+    "t_start": 275.9,
+    "t_end": 367.4,
+    "type": "overview",
+    "summary": "contain any volume the volume measure on contain any volume the volume measure on this box is going to be zero and so if this box is going to be zero and so if this box is going to be zero and so if we do approach it in this naive way of we do approach it in this naive way of we do approach it in this naive way of saying that Dimension should be a saying that Dimension should be a saying that Dimension should be a continuous parameter and we go ahead and continuous parameter and we go ahead and continuous parameter and we go ahead and look at these types of measures that are look at these type…"
+  },
+  {
+    "id": "ku_video_LJcWhcM4okQ_367",
+    "t_start": 367.4,
+    "t_end": 458.4,
+    "type": "overview",
+    "summary": "particular Associated to particular Associated to each measure there's this thing called a each measure there's this thing called a each measure there's this thing called a gauge function so a gauge function fee gauge function so a gauge function fee gauge function so a gauge function fee from the half closed interval 0 to from the half closed interval 0 to from the half closed interval 0 to Infinity to the half Clos interval from Infinity to the half Clos interval from Infinity to the half Clos interval from 0 to Infinity is a function such that Fe 0 to Infinity is a function such that Fe 0 t…"
+  },
+  {
+    "id": "ku_video_LJcWhcM4okQ_458",
+    "t_start": 458.4,
+    "t_end": 548.8,
+    "type": "overview",
+    "summary": "be a gauge function let Delta be greater be a gauge function let Delta be greater than zero and a be a subset of your than zero and a be a subset of your than zero and a be a subset of your metric space accountable cover of a such metric space accountable cover of a such metric space accountable cover of a such that the supremum of the diameters of that the supremum of the diameters of that the supremum of the diameters of those elements of the cover are less those elements of the cover are less those elements of the cover are less than or equal to Delta is said to be a than or equal to Delta …"
+  },
+  {
+    "id": "ku_video_LJcWhcM4okQ_548",
+    "t_start": 548.8,
+    "t_end": 641.8,
+    "type": "overview",
+    "summary": "diameter of the box and translate it diameter of the box and translate it into information about the area which we into information about the area which we into information about the area which we get from squaring length next the infom get from squaring length next the infom get from squaring length next the infom uh that we take over all of these things uh that we take over all of these things uh that we take over all of these things is going to make this H sub Fe to the is going to make this H sub Fe to the is going to make this H sub Fe to the Delta a what's called an outer measure I Delta…"
+  },
+  {
+    "id": "ku_video_LJcWhcM4okQ_641",
+    "t_start": 641.8,
+    "t_end": 734.5,
+    "type": "overview",
+    "summary": "going to Define H uh sub t to the S to going to Define H uh sub t to the S to be equal to just H subs and that is be equal to just H subs and that is be equal to just H subs and that is going to be called the S dimensional hos going to be called the S dimensional hos going to be called the S dimensional hos dorf measure and so now we have this dorf measure and so now we have this dorf measure and so now we have this thing that I've said is the hos dorf me thing that I've said is the hos dorf me thing that I've said is the hos dorf me measure and I want to somehow measure and I want to somehow …"
+  },
+  {
+    "id": "ku_video_LJcWhcM4okQ_734",
+    "t_start": 734.5,
+    "t_end": 799.2,
+    "type": "overview",
+    "summary": "to be 0 times the S1 dimensional hos to be 0 times the S1 dimensional hos doorf measure of a which because we said doorf measure of a which because we said doorf measure of a which because we said it was finite is going to be equal to it was finite is going to be equal to it was finite is going to be equal to zero so in particular if there is a zero so in particular if there is a zero so in particular if there is a place where it is finite then there is place where it is finite then there is place where it is finite then there is this jump point that is exactly as we this jump point that is ex…"
+  }
+]

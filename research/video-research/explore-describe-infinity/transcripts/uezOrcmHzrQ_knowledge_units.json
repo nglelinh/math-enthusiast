@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ku_video_uezOrcmHzrQ_2",
+    "t_start": 2.8,
+    "t_end": 95.8,
+    "type": "overview",
+    "summary": "Today we are checking into Hilbert's Hotel, the infamous Hotel of Hilbert with its many, many infinite scores of rooms. However, running a hotel with rooms. However, running a hotel with infinite rooms comes with some infinite rooms comes with some challenges. And unfortunately, someone challenges. And unfortunately, someone has muddled up all of the keys. All of those infinite keys are just in a big old bucket. And we have to figure out if old bucket. And we have to figure out if we start pulling them out at random, we start pulling them out at random, what is the probability we actually e…"
+  },
+  {
+    "id": "ku_video_uezOrcmHzrQ_95",
+    "t_start": 95.8,
+    "t_end": 186.8,
+    "type": "overview",
+    "summary": "dot. We don't mind which one I the hooks. Yes, these are the hooks. So this hooks. Yes, these are the hooks. So this is this is the event key one goes on hook one and it works. It's correct. So that could work. That could be true. Is key key one could be correct or key2 could be correct or key3 or key4. We're could be correct or key3 or key4. We're not specifying which number hook has to not specifying which number hook has to be correct. Any of these are fine. And it could be multiple of them. We don't mind that either. So this is going to go mind that either. So this is going to go all th…"
+  },
+  {
+    "id": "ku_video_uezOrcmHzrQ_186",
+    "t_start": 186.8,
+    "t_end": 277.7,
+    "type": "overview",
+    "summary": "budget version just the two rooms. So we'll draw our ven diagram. This is A1. we'll draw our ven diagram. This is A1. this is a2. So if we now say well a good place to start is to say this is the probability of a1 plus the probability of a2. But we've counted a1 which is all of this and then we've counted a2 which is all of this. So you can see we've double counted the bit in the middle. So we take away the probability of A1 and A2 and now we've got exactly all of this A2 and now we've got exactly all of this area because again we don't mind if both area because again we don't mind if both …"
+  },
+  {
+    "id": "ku_video_uezOrcmHzrQ_277",
+    "t_start": 277.7,
+    "t_end": 370.9,
+    "type": "overview",
+    "summary": "that's good because this bit was counted twice and we've only taken it away once. twice and we've only taken it away once. This bit we counted twice. We've taken This bit we counted twice. We've taken it away once. That little bit. And same for this little bit. But the bit in the middle we counted three times, but we've middle we counted three times, but we've just taken it away three times. So we've that one away too many times. So we add it back in. And that's the pattern. So we add back in A1 and A2 and A3. So what we've got here is the n=2 and n equals 3 we've got here is the n=2 and n …"
+  },
+  {
+    "id": "ku_video_uezOrcmHzrQ_370",
+    "t_start": 370.9,
+    "t_end": 463.9,
+    "type": "overview",
+    "summary": "overounted. So then we exclude all the doubles. So that's going to be um some one. And we saw here you have to go through all possible pairings in that through all possible pairings in that subtraction part. So what does that subtraction part. So what does that mean? Now you'll notice here on purpose mean? Now you'll notice here on purpose we of course don't want to double count we of course don't want to double count one and two because that's the same as one and two because that's the same as two and one, right? The order isn't once. So what we do is we just say this is the sum over i sma…"
+  },
+  {
+    "id": "ku_video_uezOrcmHzrQ_463",
+    "t_start": 463.9,
+    "t_end": 558.1,
+    "type": "overview",
+    "summary": "is the formula. So, now we just need to know what are these bits? What are all know what are these bits? What are all these bits? And fortunately, the formula itself, I think getting, you know, realizing this is getting, you know, realizing this is what's happening is probably harder than what's happening is probably harder than the probabilities themselves because we the probabilities themselves because we just say, right, well, what is just say, right, well, what is probability of a single event? We've got probability of a single event? We've got our box of keys. There are n keys in the a…"
+  },
+  {
+    "id": "ku_video_uezOrcmHzrQ_558",
+    "t_start": 558.1,
+    "t_end": 649.4,
+    "type": "overview",
+    "summary": "how many terms are in the sums because right the first one here we just have n plus 1 / n plus 1 over n we add it to itself n times. But now the second one itself n times. But now the second one we're summing over pairs of integers pairs of numbers where one of them has to be smaller than the other. So here to be smaller than the other. So here you can think of it as follows. picking you can think of it as follows. picking this first number, I have n this first number, I have n choices, right? I'm looking at one, two, choices, right? I'm looking at one, two, three, 43, whatever I want. Ther…"
+  },
+  {
+    "id": "ku_video_uezOrcmHzrQ_649",
+    "t_start": 649.4,
+    "t_end": 741.5,
+    "type": "overview",
+    "summary": "order. So we've got n choices* n minus one * n minus2. But we've double counted there, so we divide by two. And then we triple counted there, so we divide by three. Some of you, if you're familiar with Some of you, if you're familiar with combinotaurics, you're familiar with counting and choosing problems. You may have just known immediately what these have just known immediately what these were. There's a whole field of maths were. There's a whole field of maths which just tells you what these answers which just tells you what these answers are. But I always like to think about are. But I …"
+  },
+  {
+    "id": "ku_video_uezOrcmHzrQ_741",
+    "t_start": 741.5,
+    "t_end": 832.9,
+    "type": "overview",
+    "summary": "Yeah. Or oiler. Well, it is. It's got to be oiler, actually. Okay. Right. So, be oiler, actually. Okay. Right. So, what is this thing? I need more paper, So it's 1 minus one. I'm going to write that as two factorial just because we that as two factorial just because we want to look at the pattern. 3 factorial factorial. And we're just going to keep going. And the last term is going to be see what this is going to be because the first one one out of n chances. Second already got that one all the way down to that. So it's going to be a one over um that. So it's going to be a one over um or a …"
+  },
+  {
+    "id": "ku_video_uezOrcmHzrQ_832",
+    "t_start": 832.9,
+    "t_end": 925.1,
+    "type": "overview",
+    "summary": "might also be like what on earth is that? So we're going to borrow from Oiler. So Oiler showed us that e to the power of x good old exponential function power of x good old exponential function can be written as the sum from k= n to infinity of x to ^ k / k factorial. Now this is very close to what we've got. this is very close to what we've got. It's for a specific value of x and of It's for a specific value of x and of course we need to let n go to infinity. course we need to let n go to infinity. But if we were to just calculate this for larger and larger values of n, it would begin to l…"
+  },
+  {
+    "id": "ku_video_uezOrcmHzrQ_925",
+    "t_start": 925.1,
+    "t_end": 1017.5,
+    "type": "overview",
+    "summary": "minus one. So this is minus the sum from 1 to infinity of minus1 to the k 1 to infinity of minus1 to the k factorial. So what it means is we are factorial. So what it means is we are almost at this. Our value for the almost at this. Our value for the probability at least one key is probability at least one key is correct is you may have guessed it one correct is you may have guessed it one minus one over e which is about minus one over e which is about 63% chance. So infinite bucket of keys 63% chance. So infinite bucket of keys you take them out one by one. You take out another key, put it…"
+  },
+  {
+    "id": "ku_video_uezOrcmHzrQ_1017",
+    "t_start": 1017.5,
+    "t_end": 1083.8,
+    "type": "overview",
+    "summary": "university. You can apply from anywhere around the world. No finance experience around the world. No finance experience necessary, just a curious mind. Learn necessary, just a curious mind. Learn who Jane Street are, what they do, and it. You'll also meet a lot of great people just like you, and have a bunch people just like you, and have a bunch of fun. There's no cost to participate. Travel and accommodation are all covered. Applications close in May and June for programs taking place in July and August. Also, keep an eye on the Jane Street website for other programs Jane Street website f…"
+  }
+]

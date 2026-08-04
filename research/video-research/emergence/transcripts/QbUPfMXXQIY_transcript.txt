@@ -1,0 +1,69 @@
+so here's my implementation of uh the boids flocking simulation which a
+million people have done over the years um so there's one void and it's sort of
+um so there's one void and it's sort of moving randomly and it's avoiding some
+moving randomly and it's avoiding some obstacles but what gets really
+interesting is when we put a lot together they behave like a flock of
+together they behave like a flock of birds or fish or whatever you want um
+birds or fish or whatever you want um and they do this with a couple of
+and they do this with a couple of different rules uh that when combined
+together in a group you get this really interesting sort of imerg Behavior I can
+interesting sort of imerg Behavior I can use a buzz word you'll see they they
+use a buzz word you'll see they they break up and reform and do all these
+break up and reform and do all these interesting things just based on those
+interesting things just based on those [Music]
+rules so the first rule here is uh alignment and um you know I'll just put
+alignment and um you know I'll just put a bunch of guys out here for
+fun so what each boy does is it looks to its neighbors its friends in kind of a
+its neighbors its friends in kind of a small radius um maybe about two or three
+small radius um maybe about two or three body lengths as long as they are now and
+body lengths as long as they are now and it averages the position of all of its
+it averages the position of all of its friends headings right the direction
+that they're facing and it moves a little bit towards that direction so if
+little bit towards that direction so if all of its friends are looking to the
+all of its friends are looking to the left it turns a little bit towards the
+left it turns a little bit towards the left um and every boy does that for
+left um and every boy does that for every other boid that's in that little
+every other boid that's in that little radius of it's its friends group um so
+radius of it's its friends group um so if I turn that off you'll see they just
+if I turn that off you'll see they just kind of go everywhere they don't really
+have a reason to go in any One Direction or another now there's some other rules
+or another now there's some other rules obviously you can see they like to be
+obviously you can see they like to be near each other and um that's the second
+near each other and um that's the second rule there's a cohesion rule they take
+rule there's a cohesion rule they take that
+same um grouping that same uh radius around themselves of friends and average
+around themselves of friends and average their positions they say okay for all
+their positions they say okay for all the the boids around me roughly wears
+the the boids around me roughly wears the center of all of them and they seek
+towards that a little bit so there's also a balancing Force against that if
+they get two close to all the other voids that are near them they they back
+voids that are near them they they back away they avoid crowding so you can see
+little fish swimming around they like to be near each other but not so near but
+be near each other but not so near but because they don't care about what
+because they don't care about what direction they're facing right now since
+direction they're facing right now since i' have turned off alignment they just
+i' have turned off alignment they just kind of flit around and as soon as I
+kind of flit around and as soon as I turn that back
+on suddenly it looks like they have a purpose they're swimming fast you know
+purpose they're swimming fast you know you even see that group just reformed
+with another group so those are the three rules and um I can turn these
+three rules and um I can turn these these things off at will here if we uh
+turn off crowding rule they'll get really really close together they want
+to be near each other and they want to cop each other's heading so they formed
+cop each other's heading so they formed into just a line I turn that back on
+they they'll puff back out um and there's some other stuff going on here
+there's some other stuff going on here they have um you know they have some
+they have um you know they have some noise if I turn off the noise they're
+noise if I turn off the noise they're pretty smooth and if I turn it back on
+jiggle um so if I turn off all of the rules here now they're fully random and
+rules here now they're fully random and they don't care about each other at all
+they don't care about each other at all if I turn off the noise they just kind
+of drift they still care about getting away from the the barriers here on the
+away from the the barriers here on the edge and in fact I can come in here and
+turn these rules back on and lay down a bunch
+um barriers for them to avoid and lay down a bunch more voids and you'll see
+down a bunch more voids and you'll see lots of interesting stuff happen they
+lots of interesting stuff happen they void areas stick back
+void areas stick back together all sorts of stuff
+so if you want to uh download and play with this uh it's on my GitHub linked
+with this uh it's on my GitHub linked here or in the description

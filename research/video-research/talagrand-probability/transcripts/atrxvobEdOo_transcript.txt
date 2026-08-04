@@ -1,0 +1,802 @@
+I don't know how many of you ER read the citation for the prize there were three
+main topics there were there was a spin classes which shav will talk about there
+was H chaining which I get Michelle and Sarah talked about and my main goal here
+Sarah talked about and my main goal here is to discuss uh the remaining two which
+is to discuss uh the remaining two which the main one is concentration of measure
+the main one is concentration of measure and we and also um mahar's problem but
+and we and also um mahar's problem but what I want to um do is
+what I want to um do is um is to to try to
+um is to to try to indicate how much um these ideas go far
+from probability and how much work there is
+Michelle which ER which is very different from these topics as well so
+um all around mathematics and um and and the ideas are it's not just statements
+the ideas are it's not just statements of theorems but it's insights that are
+places one one thing that I want to say that um this is the Sarah when we split
+that um this is the Sarah when we split it up in the way
+that I didn't get to talk about chaining this is the hardest thing for me to
+this is the hardest thing for me to force myself not to talk about chaining
+force myself not to talk about chaining so chaining
+appears um in many many many places in a very very very powerful way and um and
+and this is the one thing that I will not cover because it was covered before
+not cover because it was covered before even though it should be covered okay so
+um okay I want to start with mahar's problem because it's chronologically um
+problem because it's chronologically um where Michelle started um but also
+because I think that most of the talk will be in concentration of measure and
+will be in concentration of measure and we can easily just get trapped there so
+we can easily just get trapped there so I want to get one thing which is a
+little different so the so um the the situation is is a the setting is very
+set um people are far away is this big enough
+yeah you have a set and let's say a sigma is an is an
+I'm used to Sigma algebras but this is just an algebra so it's a collection of
+just an algebra so it's a collection of sets which is closed under
+sets which is closed under intersection a union contains the empty
+intersection a union contains the empty set okay um
+and um and complement okay and um so now you so um you have a
+you so um you have a function that assigns to every set some
+number right so so F of a is some number negative and a for
+a is some number negative and a for every a in Sigma and we'll say that it's
+very obvious axum so what we say that the empty set is is mapped to
+the empty set is is mapped to zero it's monotone so if a is a subset
+a is less than F of B and it's sub additive so F of a union
+B is less than F of a plus F of B okay so it's um and then it's a measure
+okay so it's um and then it's a measure if there is equality so um this only in
+this very soon I'm going to pass to to Sigma additive measures so but but just
+in this part I'm going to say measure but I'm going to mean finitely additive
+equality then we say just then we say it's a measure but it's finite
+additive okay so this is the setting um now we're interested in functions
+um now we're interested in functions which have the following property which
+is called exhaustive so suppose the following hold so um whenever you have a
+following hold so um whenever you have a sequence
+sequence [Applause]
+AI these are ele elements in the algebra and they are disjoint so for every
+disjoint sequence so no two of them intersect whenever that happens the
+intersect whenever that happens the limit of f of fi F of AI is
+zero okay so that is so that's what's called exhaustive I'll get to this a bit
+called exhaustive I'll get to this a bit later suppose this holds so but there is
+later suppose this holds so but there is a quantifier for every choice of
+a quantifier for every choice of sequences of set that go to
+zero um so does anybody see in your mind an example of a function that has this
+an example of a function that has this property whenever you are whenever you
+property whenever you are whenever you have a measure it has to have this
+Union of A1 A2 up to a n is is equal to the sum of the fs of AI which is at most
+the sum of the fs of AI which is at most F of the entire space which is some
+finite number okay so this obviously holds
+a if f is a
+measure right um um and um but it also holds if a little bit more it holds if
+holds if a little bit more it holds if also also holds for the same
+mu by that I mean give me an Epsilon um for every Epsilon there is a
+Epsilon um for every Epsilon there is a Delta um such that um if you give me a
+set where mu of a is less than Delta that forces f
+of a to be less than Epsilon um or if you have a SE the same
+Epsilon um or if you have a SE the same thing is saying if if mu of AI tends to
+thing is saying if if mu of AI tends to zero then also F of AI tends to zero so
+that's by Design um holding whenever
+um uh f is absolutely continuous with respect to a measure and in maharam in
+respect to a measure and in maharam in the 40s dth
+maharam so it's the 19 40s I don't know exactly when
+conjectured that this is if and only [Applause]
+if okay so that if you have this this a stringent property so for every choice
+of of of this joint sets F tends to zero along them then that this can only come
+along them then that this can only come if f is a controlled by is is absolutely
+if f is a controlled by is is absolutely with respect to a measure for which this
+obvious okay so um so there is so that would be a very
+um so there is so that would be a very nice result this this this is this is
+nice result this this this is this is what this
+was a truly central question in measure Theory a very very old and Central and
+Theory a very very old and Central and um many many people looked at it um many
+um many many people looked at it um many equivalent formulations many
+equivalent formulations many applications it's quite close to being
+true um so in in 1979 Michelle a conjectured or suggested the
+Michelle a conjectured or suggested the following a stronger version so so H so
+following a stronger version so so H so let's look at this conjecture in this
+let's look at this conjecture in this condition here there is just a
+condition here there is just a limit we're not saying anything about
+limit we're not saying anything about rates so let's introduce some rate let's
+rates so let's introduce some rate let's make this
+make this uniform
+um um so a so this is just terminology f is
+a so this is just terminology f is uniform
+exhausting if um again for every Epsilon there exists an
+that uh if A1 a n elements of our algebra are
+minimum of f of AI is less than Epsilon that's a stronger version there
+Epsilon that's a stronger version there is right there is you want it to be
+small it's enough not to you're not looking at the infinite sequence you
+looking at the infinite sequence you just there is some n depending on
+just there is some n depending on Epsilon then one of them will be less
+Epsilon then one of them will be less than that and that's again obviously
+than that and that's again obviously true for a measure or anything which
+true for a measure or anything which is
+um absolute continuous with respect to a measure um right for a measure it's
+right the N will be linear in epsilon in one over Epsilon because the sum of AI
+will be less than mu of X over Epsilon so one of them is less than Epsilon over
+so one of them is less than Epsilon over n and and and Michelle conjectured that
+n and and and Michelle conjectured that well this is a special case of maharam
+but at least in this case um it's true and this is a wonderful theorem so this
+and this is a wonderful theorem so this is truly I I I highly recommend reading
+is truly I I I highly recommend reading this paper of Calton and
+Roberts in 1983 so this so this this was a
+1983 so this so this this was a a
+79 um where he studied this question and and and and and he proved that it's true
+and and and and he proved that it's true so if
+so if f is uniformly
+exhaustive then um it is then it is absolutely
+um it is then it is absolutely continuous with respect to a
+result it's a superb theorem I I this um the proof uses expander graphs even
+though this seems like a um has nothing to do with combinatorics and I think
+to do with combinatorics and I think expander graphs have been immensely
+expander graphs have been immensely powerful in in computer science for
+example but I think this if this is not the first really serious application of
+first and it was done by analysts so the proof is interesting and it brings in
+proof is interesting and it brings in Concepts that were after words really
+Concepts that were after words really revolutionary in
+revolutionary in mathematics
+um um the reason Michelle I think you made this conjecture is because your
+made this conjecture is because your paper and earlier papers of Christensen
+paper and earlier papers of Christensen Etc you were trying to build a counter
+example to mahar's problem and those attempts
+failed um and and you saw that this lack of uniformity is what H is what um
+what's going on so um no sorry you were in all the the attempts there was this
+in all the the attempts there was this uniformity and that's why the attempts
+failed so it was a natural thing to make this conjecture uh it's interesting so
+this conjecture uh it's interesting so as I said this was a This was um one of
+the first really substantial uses of expanders um for um for
+expanders um for um for um a serious application um but very
+um a serious application um but very recently I think in
+2016 uh the proof in this scon and Roberts has also a decisive applications
+Roberts has also a decisive applications again in computer science so there is
+again in computer science so there is very recent developments which actually
+very recent developments which actually use that development that theorem to
+use that development that theorem to solve questions um in computer
+solve questions um in computer science um so that was a I think this is
+okay I'll do my best to write you know stronger way above the bad racing
+stronger way above the bad racing um
+um until
+T it appeared in8 eight I probably was a preprint for a while Pro that maham's
+preprint for a while Pro that maham's conjecture is
+false okay so um and this is this is not just a construction of a comforter
+example let's think for a moment what has to be done you have to cook up a set
+has to be done you have to cook up a set with an alge with an algebra of Subs
+with an alge with an algebra of Subs a sub additive a sub measure on it which
+a sub additive a sub measure on it which satisfies these condition so you have to
+satisfies these condition so you have to be able to to prove that it holds for
+every sequence of this joint subsets of the
+algebra so there is something interesting just even checking that it
+interesting just even checking that it satisfies a condition and then you have
+satisfies a condition and then you have to prove a theorem which has a
+to prove a theorem which has a quantifier every measure no measure
+controls for no measure your f is is a is a absolutely continuous with respect
+to it so it's a counter example which has but you have to prove a theorem with
+every measure in order to do that so this is um um um thank you um so this is
+this is um um um thank you um so this is a I think a beautiful story I think this
+a I think a beautiful story I think this was related to your dissertation problem
+was related to your dissertation problem right the did the sh suggest it to you
+the maharam problem or I don't
+yes you don't okay um but in any case um Michelle returned to this so many years
+Michelle returned to this so many years after and just obliterated it um but
+after and just obliterated it um but both the positive results started from a
+both the positive results started from a question that he asked and it led to
+question that he asked and it led to very nice mathematics and the proof that
+very nice mathematics and the proof that it's false is a very interesting proof
+so this is a an early chapter of of Michelle's contributions
+chapter of of Michelle's contributions but whose closure actually is
+um so yeah so now my talk is eclectic because I want to show many things now I
+because I want to show many things now I want to pass to uh a concentration of
+want to pass to uh a concentration of measure
+okay so um so concentration of
+measure and this is a property of a pro of a probability space so you have some
+p a probability space [Applause]
+and we want to say something along the lines of um every large subset of the
+lines of um every large subset of the space so you CH you choose your favorite
+space so you CH you choose your favorite large subset of your set
+Omega um so for every large subset so it's something of the form we want to
+it's something of the form we want to say for every
+say for every large subset
+Omega a almost the majority or most of the
+almost the majority or most of the points of Omega is close to
+a and what something which is essentially equivalent which is a a for
+a nice say sufficiently
+continuous a function if an Omega
+if an Omega um a f is almost constant
+space okay so for this to make sense so these types of phenomena are known to be
+these types of phenomena are known to be um equivalent to each other under
+um equivalent to each other under reasonable conditions this is the same
+reasonable conditions this is the same thing this is a property of the space um
+it is vague because H there are all kinds of things that we didn't say so
+kinds of things that we didn't say so large okay it's a probability space so
+let's say probability at least a half so also most could be interpreted in this
+way this is problematic close to cuz I we're not dealing with a metric here or
+we're not dealing with a metric here or there's no notion of closeness and the
+there's no notion of closeness and the analogous thing for for functions would
+analogous thing for for functions would be what do we mean by
+continuous okay so we have to what does sufficiently continuous or what does
+nice function mean and um so I'll give you examples and then I'm going to state
+you examples and then I'm going to state state and explain a proof of one theorem
+Michelle's um transformation of this area is a is that uh he invented highly
+area is a is that uh he invented highly original interpretations of what what's
+original interpretations of what what's underlined here so he discovered
+underlined here so he discovered phenomena which are not would which
+would not be your first Cas in to introduce a itional structure which is
+introduce a itional structure which is hidden in the problem so the first guess
+hidden in the problem so the first guess would be in don't just take a a measure
+space a probability space but also put some Metric on it and close means close
+some Metric on it and close means close in the sense of metric and let's say
+sufficiently continuous would be lip sheets function or something of this
+sheets function or something of this type and um and that was essentially the
+type and um and that was essentially the entire there's a very very nice work
+entire there's a very very nice work earlier and this and very influential
+work but everything was kind of this in this van vanilla setting until Michelle
+this van vanilla setting until Michelle came along so but let just before I I
+State something let's just analyze let me tell you some
+examples um so the the kind of thing you should imagine this this sounds strange
+should imagine this this sounds strange but it's so let take omega to be let's
+say the ukian sphere so this is just all the points
+and then p is just going to be the surface area
+sphere normaliz so it's a probability measure okay and then so for example
+measure okay and then so for example here's a nice example of of a function f
+here's a nice example of of a function f of X1 up to
+xn is X1 the first coordinate so this is just a computation
+coordinate so this is just a computation you can see that you can check that for
+you can see that you can check that for every Epsilon bigger than zero the
+every Epsilon bigger than zero the probability that
+probability that uh uh F this F is a is bigger than
+uh uh F this F is a is bigger than Epsilon is less than e to Theus c n
+Epsilon is less than e to Theus c n Epsilon s when I write Twi I mean a
+Epsilon s when I write Twi I mean a universal Conant two something like that
+universal Conant two something like that or um some some Universal constant and
+or um some some Universal constant and also when I write C I mean universal
+also when I write C I mean universal constant but you see if you so if if you
+constant but you see if you so if if you ask where is f bigger than 0.0 0 01 if
+sphere of course it happens in the sphere X1 can be as large as one but it
+happens on an exponentially small fraction of the
+okay there is nothing this is a specific F the phenomenon the reason the sphere
+F the phenomenon the reason the sphere satisfies the concentration of measure
+phenomenon is is that this holds for every one liit function f
+every one liit function f so l v proved in the
+so l v proved in the 20s
+or I think 20s that this
+holds for any for every let's say one
+equivalently um every subset of the sphere which has let's say at least half
+of the mass um right so you take
+some this is the sphere take some subset a which has at least a half of the
+mass and now you look at its Epsilon neighborhood so you look at all the
+points so a Epsilon is all the
+points in the sphere whose distance from a is less than
+Epsilon let's say the ukian distance or the geodesic distance on the sphere this
+the geodesic distance on the sphere this set P of a
+Epsilon is at least or maybe the complement is at least 1 minus c e to
+complement is at least 1 minus c e to Theus c n Epsilon s it's the same it's a
+Theus c n Epsilon s it's the same it's a you can pass from one to the other so we
+computed this for special F but it's actually the reason the phenomenon holds
+actually the reason the phenomenon holds here is because is that it holds for
+every reasonable F and that is an an immensely powerful thing to know when
+immensely powerful thing to know when you when you have
+you when you have this so
+um so I think it's it's fair to say that H before Michelle came on the scene
+H before Michelle came on the scene there were two types of ways
+there were two types of ways concentration of measure phenomena
+concentration of measure phenomena theorems were proved one of them was a
+of maybe a variational argument which is just solve the this optimization problem
+just solve the this optimization problem look at among all A's with let's say
+measure at least a half find the one which minimizes what's written here and
+which minimizes what's written here and you can do local perturbations loal
+you can do local perturbations loal symmetrizations there there are ways to
+symmetrizations there there are ways to and and and there also
+some there are other ways but but but it was solving this problem exactly
+understanding how to solve this problem exactly that's one of them and the other
+one was this intuition which is a correct intuition which
+is when your measure space here some is there there is some something very high
+there there is some something very high dimensional happening there there's
+dimensional happening there there's input for many many random
+variables that are somehow uncorrelated with each other let's say independent
+they don't have to be independent but each one doesn't contribute much to the
+each one doesn't contribute much to the value of f when that
+happens um you have a phenomenon of this type and um and the proofs really just
+type and um and the proofs really just examined ER that directly so Martin Gale
+examined ER that directly so Martin Gale the compositions you broke you you just
+the compositions you broke you you just understood what is the contribution of
+each of these hidden variables or underlying variables you wrote it the
+underlying variables you wrote it the value of f is a sum of these
+value of f is a sum of these contributions and you Prov that all of
+contributions and you Prov that all of them are are small there are ways to
+encode this there are spectral methods there's pointor inequalities but morally
+there's pointor inequalities but morally it's always writing the value of f as a
+sum of small contributions and showing that the increments are don't contribute
+that the increments are don't contribute much um so this changed
+completely by works of Michelle and um so there is a mini monograph that he
+so there is a mini monograph that he wrote but there were also previous Pap
+wrote but there were also previous Pap earlier papers of his and later papers
+that led to it and came from it about um concentration of measure um I'm going to
+concentration of measure um I'm going to explain one theorem and I'm going to
+want to indicate his proof because this is a method called that people call a t
+is a method called that people call a t induction so I want to explain what a t
+before explaining it I want to give you an example of what it's good for so
+an example of what it's good for so um um so so for example let's just
+um um so I'll write down the the the um um the inequality in a second but
+um um so there are two types of applications of concentration of measure
+applications of concentration of measure of of your work and concentration of
+measure most of them are saying that certain very interesting specific random
+certain very interesting specific random variables are
+concentrated okay I will example traveling salesman problem Bean packing
+traveling salesman problem Bean packing Etc they're very very complicated
+Etc they're very very complicated they're definitely not just the first
+coordinate and yet you can prove deviation inequalities of this type so
+deviation inequalities of this type so there's a whole list and people
+there's a whole list and people definitely care about concentration
+that there are many theorems which have nothing to do with probability in their
+nothing to do with probability in their statement and we only know how to prove
+inequality I'm going to write next so I'm so here I'm just I'm choosing one
+I'm so here I'm just I'm choosing one I'm not saying it's the best one but
+it's one that um I think anybody can understand and it's the following thing
+understand and it's the following thing so it's here's a effect an effect
+extremal effect in graph Theory um that has nothing to do with probability
+and the only way we know the answer that I'm going to show you is through T
+I'm going to show you is through T inequality um so um so here is the so
+inequality um so um so here is the so you have a graph so
+you have a graph so G is a let's say it's a combinatorial
+vertices so this is just you have n points
+and some of them are joined by edges as simple an object as you can
+imagine and um and you ask the so whenever you have this is something
+which is standard in mathematics um you look it up it's very natural to ask and
+look it up it's very natural to ask and this has decades what I'm going to say
+this has decades what I'm going to say now is something that has been studied
+now is something that has been studied for decades is
+how large do Universal objects have to be so the question is
+be so the question is um
+um how
+how large should n
+be a so that g
+contains all K vertex graphs
+okay so let's say k equal 6 so you can you can try to do it it's something that
+anybody can try to do on a piece of paper you can write down all the graphs
+paper you can write down all the graphs of size six let's say five okay 1 2 3 4
+of size six let's say five okay 1 2 3 4 5 six one two 3 four
+ah yeah I don't know how to count um so here is one and here is suppose I'm
+here is one and here is suppose I'm going to maybe maybe here's another or
+another you can write down all the six point graphs and and you want all those
+point graphs and and you want all those pictures to appear in the N vertex graph
+pictures to appear in the N vertex graph so you let's say you want so for this
+so you let's say you want so for this one you want that somewhere in this
+Universal object there will be six
+on these six veres this is exactly that's what's called an induc subgraph
+that's what's called an induc subgraph so whenever you
+have some mathematical object it's very natural to ask um how large or how how
+natural to ask um how large or how how small how large should the universal
+object be okay and the answer is we know it today but it's only in 2017 it's a
+it today but it's only in 2017 it's a the of alone
+so this is a theorem alone from
+2017 which says a the smallest n so so that you can get an N vertx graph which
+that you can get an N vertx graph which contains all K vertices all K vertx
+contains all K vertices all K vertx graphs
+is up to a little of one so up to an additive lower order term it's 2 to the
+additive lower order term it's 2 to the kus1 /
+little a little one but let's say if K is 200 then we know that the answer is
+is 200 then we know that the answer is roughly 2 to the
+199 okay but there's a one plus of one as the as the 200 goes to
+Infinity okay so this is a basic question if there is a long history of
+question if there is a long history of this from the 60s
+the solution uses deep in the proof the the exact ton inequality which I'm going
+to now explain and we do not know how to do it otherwise so this but this theorem
+do it otherwise so this but this theorem has nothing to do with
+probability and there are many things of this type um um that these things are
+useful for so let me H tell you what went in the guts of the proof of that
+um and this is the following beautiful approach extremely creative um
+beautiful approach extremely creative um I I as I was looking up papers that
+refer to that paper um it's I I I found all kinds and I I I I won't name name
+all kinds and I I I I won't name name names but there were multiple authors
+names but there were multiple authors when they introduced your inequality
+they described it they said we're going to use the following unusual inequality
+to use the following unusual inequality of T and and many people use the word
+so and so it it is genuinely a different perspective than what was done
+before the creativity here will be both in the formulation and in the proof that
+in the formulation and in the proof that I'm going to indicate um so here is the
+setting so suppose you have n probability spaces so let's say mu1 o
+Omega 1 mu1 up to Omega n mu n are probability
+spaces um and Omega is just going to be the
+mu1 the product so right so the the points here
+entes of points so you take you select the Omega 1 independently according to
+the Omega 1 independently according to mu1 Omega 2 independently according to
+and chosen according to mu and um and they're independent and this is a the
+they're independent and this is a the probability space you see high
+probability space you see high Dimensions appearing here obviously
+Dimensions appearing here obviously there is a product of many
+okay so and then you do so this is the the theor I'm going to
+say is going to be in this setting and and this should already be concerning
+because I opened by saying we need some Metric some notion of what it means to
+be near a set there is no such thing so the creativity comes here by introducing
+the creativity comes here by introducing something external to the problem a
+something external to the problem a notion of distance which isn't written
+this is just in the context of met of measure spaces there is no metric yet so
+measure spaces there is no metric yet so what telr did was the following
+what telr did was the following he um so okay so you take a set a of a
+subset a of this big product space and by the way you can you can
+think and I'm going in many most cases this is good enough for the applications
+this is good enough for the applications you just can't you can think of Omega
+and later maybe I will is just the discrete Cube so just the vertices of
+discrete Cube so just the vertices of the N dimensional
+points what I'm going to say is new in this case new was new in the early '90s
+this case new was new in the early '90s um so you take a set
+um so you take a set a and a point
+x and I want to say what do I mean by X is nearby a there was no distance so I
+is nearby a there was no distance so I officially I Michelle introduces
+something to the picture and it's the following you associate to this pair a
+set u x a is going to be a subset of the cube so and you it just defined as the
+cube so and you it just defined as the following so um you run over all the
+points Y in a for every such y you write the
+Vector you write a a vector of zero is in one so this a subset of 0 one to the
+N I'm going to write one in the I coordinate so if x i is not
+coordinate so if x i is not Yi and zero if x i is y
+running over all the sets a so this is a big product space I have a subset which
+big product space I have a subset which is some bubble in it which contains half
+is some bubble in it which contains half of the points in the product
+run over all the points Y and a and I look and I just look at the indicator of
+look and I just look at the indicator of where where Y is different from X the
+coordinates where Y is different from X is that clear so this is a subset of n
+so let's say let's say these were I want to be able to draw what I'm about to
+to be able to draw what I'm about to draw say these three points but it's
+draw say these three points but it's higher dimensional
+okay and now the notion of closest of X2 a is fi of XA that Michelle defines and
+a is fi of XA that Michelle defines and this is really out of the blue at the
+this is really out of the blue at the time is um is
+just the distance in the UK metric between zero and the convex
+metric between zero and the convex Hall of u
+Hall of u x
+x a so that I mean it's the
+a so that I mean it's the minimum of
+a of a the ukian length of a point z z is in
+a the ukian length of a point z z is in the convex
+that was a then I'm going to look at this the convex all is going to be this
+this the convex all is going to be this triangle going from this Edge to that
+corner here is zero and I look at what is the nearest
+Point okay so if x itself was were in a then this would be zero because one of
+then this would be zero because one of the points would be um right if if Y is
+here so zero is already in the set does everybody see that so this is
+set does everybody see that so this is some funny notion of closeness of a
+some funny notion of closeness of a point in an abstract set abstract
+product of spaces to a set by introducing ukian structure in convexity
+introducing ukian structure in convexity to a problem where it wasn't written
+before okay and the theorem
+1992 3 something like that up to um the exact year I'm not um it the
+If U of A is at least a half then um mu of the set of points
+half then um mu of the set of points where
+where 5xa is bigger than
+um is less than e to Theus C Epsilon 2 independent there is no n appearing here
+even this is a product of many spaces this is very important so this notion of
+rarely there is no dimension in the picture and I I I hope you realize know
+picture and I I I hope you realize know that there is something creative here
+that there is something creative here this this is introducing into the
+this this is introducing into the picture a structure which wasn't in the
+original setting okay
+okay so using this there is a slew of results that you can this is an
+results that you can this is an extremely useful fact I I I this
+appeared in the theorem of alone that I showed you there are all kinds of random
+showed you there are all kinds of random variables that um that this shows that
+variables that um that this shows that it's it gives the best
+it's it gives the best known
+um concentration inequalities for I would not be surprised if once a week
+would not be surprised if once a week there there's a paper that uses that
+appears that uses this and solve some problem this is an extremely useful fact
+problem this is an extremely useful fact um like for example so you can do um
+um like for example so you can do um let's say tsp the traving sales person
+let's say tsp the traving sales person problem right you can imagine um so you
+problem right you can imagine um so you have end points
+have end points X1
+X2 up to xn let's say they're all in the unit
+square and the traveling T sorry tsp of these
+points is the shortest path that goes through all of them okay I I hope that
+through all of them okay I I hope that you have seen this is a very classical
+you have seen this is a very classical optimization problem it depends in a
+optimization problem it depends in a very complicated way and the inputs X1
+very complicated way and the inputs X1 up to
+xn but so if X1 up to xn or IID are identically
+if X1 up to xn or IID are identically ENT independently chosen
+identically independent identically chosen random random points in in the
+Square then this tsp sorry tsp of this is this a this is
+sorry tsp of this is this a this is definitely not the first
+coordinate yet this is is Con concentrated and the best known
+concentrated and the best known bound comes from uh applying this
+bound comes from uh applying this inequality okay another example is Bean
+packing again a very old and well-studied problem and and and there
+there are so many we can easily just get stuck here so I'm going to show this is
+stuck here so I'm going to show this is a lot of very old and extremely well
+a lot of very old and extremely well studied questions this this streets
+studied questions this this streets so Bean packing another thing that
+understand so suppose you have um n object say n
+um n object say n n n computers that that each one demands
+n n computers that that each one demands some sort of resource require some sort
+some sort of resource require some sort of resource electricity but let's say no
+let's say this number the numbers are between zero and one and you want to uh
+between zero and one and you want to uh settis this resources so the bin packing
+settis this resources so the bin packing B of this X1 up to
+xn is just you do the following so you want to find a so you you want to find a
+want to find a so you you want to find a partition A1 up to a k partition of of
+partition A1 up to a k partition of of these
+numbers of the numbers one to [Applause]
+[Applause] n and now you want to say um you want to
+you want to look you want to partition the indexes that's let's say x i i in
+resource in each of these boxes think of a a a100 is a box you want to put in
+a a a100 is a box you want to put in a100 these requests but you want the
+total so these are positive numbers you want this to be at most one no box has
+want this to be at most one no box has more than one Demand on it's some bound
+more than one Demand on it's some bound and you want the smallest case that is
+possible okay so this is a function of the initial numbers X1 to
+you okay group them up in such a way that in each group the total amount of
+the sum is less than one we can change we can normalize by a different constant
+we can normalize by a different constant and you want to do this in such a way
+that the number of pieces the number of bins is as small as possible very very
+bins is as small as possible very very simple question this is EXT another
+simple question this is EXT another example of an empty hard problem and
+example of an empty hard problem and then you can ask what happens when the
+then you can ask what happens when the XI are random according to any measure
+XI are random according to any measure so again so
+so again so if
+X1 are independent then the best bounds
+okay and there's many many more so these are kind of the vanilla applications
+are kind of the vanilla applications they're not obvious and they were
+they're all a big deal but as I said there are all these other applications
+there are all these other applications which don't involve probability at all
+which don't involve probability at all there are theorems in just deterministic
+there are theorems in just deterministic mathematics but somewhere in the guts
+mathematics but somewhere in the guts this thing is being used so this is and
+this thing is being used so this is and this is one of many um such things and I
+want to um um when you look at the literature if you search you there is
+literature if you search you there is there telr inequalities and this is an
+archetypical one but there's also a taling on induction and I want the
+taling on induction and I want the method in which this was proved was also
+method in which this was proved was also Innovative and I want to say a word
+about the method before I move on to other topics okay so it's not just the
+other topics okay so it's not just the statement it's also the approach and and
+actually of course the statement itself has something very substantial here just
+has something very substantial here just even coming up with it
+even coming up with it um okay so let me just
+um okay so let me just sketch what how you prove it
+N okay and I think there are some students here
+the the fun part about induction is that sometimes you have to strengthen the
+sometimes you have to strengthen the induction hypothesis and um so in this
+part so so so a big part of this is coming up is what is the hypothesis that
+coming up is what is the hypothesis that that you want to write in this
+that you want to write in this particular case what we're going to
+particular case what we're going to prove that is is that
+prove that is is that um so you look at e to the quarter I
+think um
+f XA so take e to the e to the power this number that you are measuring the
+this number that you are measuring the distance to the set the expectation of
+distance to the set the expectation of this according to this product measure
+this according to this product measure mu sorry
+squared is less than one over the probability of
+a okay this will imply I think it's still up there right when when the
+probability of a is at least a half this is just most two the right hand side and
+you bounded how big the to the thing that you care about squared is in
+that you care about squared is in expectation so that by Mark of
+expectation so that by Mark of inequality will give you what you need
+inequality will give you what you need okay so in this so this is what I want
+me okay so we're in this setting but now let's take n+ one I want to place from n
+let's take n+ one I want to place from n to n+1
+um okay so now remember we have a set inside is Omega * Omega n + 1
+inside is Omega * Omega n + 1 and um and I'm I'm assuming the
+and um and I'm I'm assuming the induction hypothesis for you have to
+induction hypothesis for you have to check it for n equals 1 this a calculus
+exercise that inequality but let's assume we did that this is really an
+um so how do you so if you have a set in a product space how do you get you want
+a product space how do you get you want to apply the induction hypothesis to the
+to apply the induction hypothesis to the the product of the the first n then uh
+right so there are two ways to do it this is
+this is a so you can look at the fibers so you fix this is Omega n + one this is
+Omega in Omega n + one and then you write a Omega is the slice so it's all
+write a Omega is the slice so it's all the
+the points
+h y in Omega such that if you put right your given uh Omega in the last
+your given uh Omega in the last coordinate you get an element of
+a okay so that is H so where this is okay I should have done the slice here
+okay I should have done the slice here so that would
+be this and this that would be a Omega okay and then and the other so
+that's a slice and the next thing that you can do is a projection right so you
+you can do is a projection right so you can define B to be the projection of a
+onto Omega which is just the union of a Omega
+right so it's now it's going to be everything okay so that's the obvious
+everything okay so that's the obvious two ways to start from a set a and get
+object and what does conve this convexification of the problem give you
+it gives you the following Lemma which it's just it's not even it doesn't
+which it's just it's not even it doesn't it's not even a proof it's just an
+observation is that for every Lambda between zero and
+between zero and one if you look at um okay right there
+one if you look at um okay right there was this distance to the convex Hall um
+was this distance to the convex Hall um so right I mean one dimension higher so
+so right I mean one dimension higher so look at X comma
+look at X comma Omega
+a that's less than Lambda fi of x a
+fi of x a Omega + 1 -
+Omega + 1 - Lambda f
+Lambda f of x b + 1 - Lambda s so
+of x b + 1 - Lambda s so my letters are big cuz the room is big
+my letters are big cuz the room is big but this is nothing okay so this is the
+kind of thing that when you unravel the notation it's impossible not to prove it
+notation it's impossible not to prove it okay and those students in the room
+okay and those students in the room there's also there's a the opposite of
+this I always tell my students it's also impossible to prove it unless you know
+impossible to prove it unless you know unravel the notation so it's even but
+unravel the notation so it's even but this is just about unraveling what this
+this is just about unraveling what this says right um this was the the distance
+auxiliary sorry from zero to the convex hle of the auxiliary point so it's it's
+Hall this is witnessed by another point in the convex Hall but the property of
+in the convex Hall but the property of convex all is that you can take convex
+convex all is that you can take convex combination of these points and this
+combination of these points and this additional 1us Lambda squ was precisely
+additional 1us Lambda squ was precisely because there is one more coordinate and
+because there is one more coordinate and there was a ukian metric oh there's a
+square sorry about that okay so this is this is really the definition was set up
+this is really the definition was set up for this there is this is this is what
+for this there is this is this is what convexity gives
+you okay but then what did we care about um right so we had this over there maybe
+um right so we had this over there maybe I should
+I should start um right we had e to the quarter
+start um right we had e to the quarter 5x
+Omega a sar
+um so that's less than e to the 5
+than e to the 5 x a
+Omega squared there's a quarter I want to write it like this to the
+to write it like this to the Lambda time e to4
+Lambda time e to4 5x b^ 2 to the 1us
+5x b^ 2 to the 1us Lambda time e 1 - Lambda 2/ 4 I just
+Lambda time e 1 - Lambda 2/ 4 I just expon exponentiated this
+um okay but we wanted to compute the expectation so this is this a point-wise
+expectation so this is this a point-wise thing
+um so notice something interesting here this was true for every Lambda so I'm
+this was true for every Lambda so I'm allowed to let Lambda depend on
+allowed to let Lambda depend on Omega so I'm going to what I'm going to
+do is I'm going to analyze this inequality for a random Lambda which is
+inequality for a random Lambda which is going to be chosen
+carefully okay and convexity allows you to choose any Lambda in particular we're
+to choose any Lambda in particular we're going to get the best Lambda for for for
+this so um right so um so if we do expectation
+um right so um so if we do expectation just an X this is the induction
+hypothesis of what I cared about so e okay this
+coordinate this is at most so we have this e to the 1 - Lambda 2 over 4 and
+this e to the 1 - Lambda 2 over 4 and then e to the E what's written there
+yeah and then e to the4 5
+the4 5 XB squared
+to the one I hope I copied correctly this is the thing this is something that
+this is the thing this is something that you can see better than me I copied
+correctly okay and now this is Helder inequal right think of Helder with one
+inequal right think of Helder with one over Lambda so one over Lambda so 1/ p+
+over Lambda so one over Lambda so 1/ p+ 1/
+this is Helder inequality I can put the Lambda outside the expectation and make
+Lambda outside the expectation and make a product of
+a product of expectations this and then put an
+good okay so this is kosi Schwartz we saw in in Sarah but Helder is inequality
+saw in in Sarah but Helder is inequality okay remember Lambda is still not chosen
+okay remember Lambda is still not chosen here and Omega was
+fixed but now this is all happening in the lower dimensional space so we can
+the lower dimensional space so we can imply that induction
+hypothesis so what do we get we get that this is by induction e to 1us Lambda s
+this is by induction e to 1us Lambda s over
+4 times what was the induction was one over P was
+over P was mu right
+or the product measure so this is
+Mu of a Omega to the
+Lambda and then we have 1 / mu to the
+B to the 1 minus Lambda that's the induction hypothesis I'm applying it for
+induction hypothesis I'm applying it for sets in a lower dimensional
+right so what is the only thing we really know about Omega is we know that
+really know about Omega is we know that if we take expectation an Omega of mu of
+we get mu over a so this is like the n one and we
+get the this is Mu is this is the measure in the N Fold product and here
+measure in the N Fold product and here I'm writing the measure in the N plus
+product right this is just Fus theorem if you take the measure of the slices
+and you integrate you get the measure of the thing upstairs so we really would
+the thing upstairs so we really would want something which is behaves linearly
+want something which is behaves linearly in a of in mu of a Omega in order to cuz
+this was true for every fix and I want to take expect a here okay so when I
+to take expect a here okay so when I stare at this I'm I I would be I would
+be much happier if there is a mu of a Omega which appearing here not this uh
+Omega which appearing here not this uh Behavior so you force it so you you um
+Behavior so you force it so you you um so
+right I'm just let's write it um how would I say
+it um how would I say it let's do
+it let's do it U of
+mu of a Omega sorry mu
+of yeah okay let's do it h mu of a Omega over mu of
+Omega over mu of B to the minus
+B to the minus Lambda
+times 1 / mu of B okay but I want to I want to write
+something linear in mu of a Omega so let's well this is you think about
+let's well this is you think about that's the the only thing you can do you
+that's the the only thing you can do you write one minus this
+thing times there was one over mu of B and I put it
+divided by this term which is but here it behaves linearly in the numerator of
+it behaves linearly in the numerator of Omega this just a rewriting of the same
+thing but it turns out that right this is this this call this number I don't
+know R so we have this function e to Theus Lambda S 4 R to Theus Lambda 1 / 2
+Theus Lambda S 4 R to Theus Lambda 1 / 2 -
+R turns out that this function is always bounded by
+one sorry it's the minimum of it is always at most one so for every Omega
+always at most one so for every Omega there is a there is a Lambda depending
+only on this ratio which makes this be one so by choosing the Lambda correctly
+we can make this be at one but now Lambda we so appli heler inequality with
+Lambda we so appli heler inequality with random
+random exponents so the claim is that this is
+calculus R to Theus Lambda 1 / 2 - Lambda the minimum of
+this over R is at most
+always be chosen to be at most one if Lambda is chosen correctly as a function
+Lambda is chosen correctly as a function of Omega what remains is now lar and
+this you can integrate with respect to Omega and just becomes the inequality
+Omega and just becomes the inequality okay so that's how the induction
+okay so that's how the induction Works um and this is there is many many
+Works um and this is there is many many more examples of things like this
+working um there are more complicated in a lot of creativity in just coming up
+a lot of creativity in just coming up with Notions of distance and again many
+with Notions of distance and again many applications I I plan to do a few more
+applications I I plan to do a few more applications but I want to change to
+applications but I want to change to show some other topics which have
+nothing to do with this initially um are there any questions about this this is
+there any questions about this this is was just one example of a very very big
+body of work just to see to show are there any questions in
+there any questions in this okay so um let me just again now
+this is just a um a random selection of um of
+a um a random selection of um of um of
+Works um I'm choosing ones which are important for various
+important for various reasons um that I can exp that the maybe
+break so um as I so there are there I can definitely I have easily 100 papers
+can definitely I have easily 100 papers to choose from let me choose one or two
+to choose from let me choose one or two more before the talk ends um so here's a
+more before the talk ends um so here's a theorem of telr about um it's a a really
+theorem of telr about um it's a a really it's it can be viewed as a theorem about
+reduction um or in approximation Theory um so it says so there is right so if
+um so it says so there is right so if you have
+subsets A and B in our
+B in our n
+convex or they don't have to be convex but um you can you can there is a notion
+but um you can you can there is a notion of minkovski addition so you can look at
+b which appeared already in in Michelle's talk right so it's all the
+Michelle's talk right so it's all the sums it's not an index set anymore
+is a set that when you have two points the interval between them is completely
+the interval between them is completely inside and you can add convex
+inside and you can add convex sets
+yeah can do one more minute just to say this theorem or one minute it's really
+it's really the end okay so now so what is the simplest example of a convex set
+is the simplest example of a convex set given that you want two points to be
+given that you want two points to be joined by an
+joined by an interval
+um I'm really running a bit late I'm looking at that clock okay I'm
+looking at that clock okay I'm sorry okay okay okay so I really one
+minute I'll just say Okay so the most basic convex that you can look at is an
+basic convex that you can look at is an interval I that's that's a definition of
+interval I that's that's a definition of convexity so you can look at what is the
+closure of intervals under this operation so a
+so any anything that can be obtained by summing up intervals in many different
+summing up intervals in many different directions example the hyper cube is
+like that if you sum the the N orthogonal directions you get a hyper
+orthogonal directions you get a hyper Cube okay that's a zonotope a
+limit of zonotopes in your favorite let's say House of
+metric so not every convex set can be written as so this is the the closure of
+written as so this is the the closure of the separation of the most basic convex
+the separation of the most basic convex set that
+set that exists so if I give you a
+zonotope you know that there is a a sequence of zonoids which tend to it
+sequence of zonoids which tend to it that's a definition all the limits of
+that's a definition all the limits of sums of intervals but I'm not but but it
+sums of intervals but I'm not but but it could be that you need two to the two to
+could be that you need two to the two to the two to the two to the two two to the
+the two to the two to the two two to the two to then intervals to approximate
+let's your set what Michelle proved was this is that this is not so if you want
+this is that this is not so if you want to approximate if you if some if I give
+you if I promise you that something is a limit of sums of intervals and you want
+limit of sums of intervals and you want to approximate it up to Epsilon then you
+to approximate it up to Epsilon then you need only n you can approximate it using
+linearly removing this log in is a huge open problem and a new idea so so so so
+open problem and a new idea so so so so there exists such ZK such that the
+there exists such ZK such that the distance from
+ZK to Z is less than epon let's say in the house of distance
+the house of distance and um
+ZK is a sum of Big O depending on Epsilon n log
+sum of Big O depending on Epsilon n log n
+convex body is a sum of two to the two is a limit of at any rate I can actually
+is a limit of at any rate I can actually get a rate which is essentially linear
+get a rate which is essentially linear in the dimension and that's a very nice
+it's an iteration where in each step each the first step increases the
+step each the first step increases the number of intervals the second up
+decreases it by it's a random construction so you increase it looks
+construction so you increase it looks like it's going the wrong direction but
+like it's going the wrong direction but you decrease it by a little bit more and
+you're going down up to and log in it's a very very nice proof um which I'm over
+a very very nice proof um which I'm over time so I'll stop and that's just a tiny
+sample of what he proved [Applause]

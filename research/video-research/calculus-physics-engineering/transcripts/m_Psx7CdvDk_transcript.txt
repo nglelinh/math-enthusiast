@@ -1,0 +1,226 @@
+This is going to be a super fun video. Gradient, divergence, and curl belong to
+Gradient, divergence, and curl belong to the world of vector calculus, which is a
+specialized subfield of multivariable calculus, and in order to understand
+them, we first need to build a solid foundation with four basic concepts:
+foundation with four basic concepts: scalars, vectors, scalar fields, and
+scalars, vectors, scalar fields, and vector fields. A scalar is simply a
+number. It has magnitude, but no direction. Examples of scalars are
+direction. Examples of scalars are temperature, mass, time, or height.
+For instance, if the temperature at a place is 30°, that number alone fully
+place is 30°, that number alone fully describes it. There is no direction
+describes it. There is no direction involved. Then, a vector has both
+involved. Then, a vector has both magnitude and direction. For example,
+magnitude and direction. For example, wind blowing with a speed of 10 units
+is, and east tells you which way it points. Next, a scalar field is formed
+when a scalar value is assigned to every point in space. For example, suppose at
+point in space. For example, suppose at the point with coordinates 4,3,
+the point with coordinates 4,3, the temperature is 217°
+the temperature is 217° C,
+and at the point 8 and 1, the temperature is 83° C. Each point has a
+temperature is 83° C. Each point has a Each point has a single number attached
+That collection of numbers spread over space is called a scalar field.
+Then, a vector field works the same way. But instead of a single number at each
+point, we assign a vector at each point. A classic example is wind flow. At every
+A classic example is wind flow. At every coordinate in space, the wind has a
+speed and a direction. So, at one point, the wind might be blowing slowly toward
+the wind might be blowing slowly toward the northwest, while at another point,
+it might be blowing faster toward the southwest or northeast. The collection
+southwest or northeast. The collection of all these vectors distributed in
+of all these vectors distributed in space forms a vector field. Now, to
+space forms a vector field. Now, to describe scalar fields mathematically,
+we use scalar functions. A scalar function takes coordinates as input and
+function takes coordinates as input and outputs a single number.
+For example, a function might take X and Y as input and give you a height value
+Y as input and give you a height value like f of x {comma} y = x ^
+like f of x {comma} y = x ^ 2 + y ^
+2, which outputs a single number like 13 when x is 3 and y is 2. So, the height
+when x is 3 and y is 2. So, the height at 3 {comma} 2 is 13 units. Then, at
+origin, height is 0. Then, maybe at 1 {comma} 3, the height is 10 units. Now,
+{comma} 3, the height is 10 units. Now, if we want to draw this in 3D, do one
+thing. At each point in the XY plane, whatever is the value of the height,
+make a segment of that length rising upward from the plane along the Z axis
+like this. This way, if you plot it in three dimensions with X and Y as X and Y
+three dimensions with X and Y as X and Y coordinates and Z representing the value
+coordinates and Z representing the value of the function, it creates a smooth
+surface shaped like a giant bowl or pit centered at the origin.
+mathematically, we use vector functions. A vector function takes coordinates as
+A vector function takes coordinates as input and outputs a vector with
+input and outputs a vector with components in different directions. For
+components in different directions. For example, v of x {comma} y equals a
+column vector where the first entry is 2x and the second entry is y.
+point 1 {comma} 3, the output is a vector telling you to move two units to
+vector telling you to move two units to the right and three units up.
+At the point 3 {comma} 4, the output is a vector that tells you to move six
+a vector that tells you to move six units to the right and four units up.
+units to the right and four units up. This means the further you move away
+This means the further you move away from the origin, the longer and stronger
+from the origin, the longer and stronger the vectors become because the magnitude
+the vectors become because the magnitude of the output increases with the
+Now, we introduce a very important object called the del operator.
+object called the del operator. It is written as a downward-pointing
+It is written as a downward-pointing triangle and pronounced as del.
+triangle and pronounced as del. The del operator is a vector-type
+The del operator is a vector-type operator that performs partial
+two dimensions, you can think of it as having one component that differentiates
+having one component that differentiates with respect to X and another that
+differentiates with respect to Y. Because it has multiple directional
+components, it behaves like a vector. To understand what a partial derivative
+To understand what a partial derivative is intuitively, imagine you are standing
+is intuitively, imagine you are standing on a hill where the height depends on
+on a hill where the height depends on both your X and Y coordinates.
+Now, if you want to know how the slope of this hill changes as you walk
+of this hill changes as you walk strictly to the right,
+in positive X direction while keeping your Y position perfectly constant, that
+your Y position perfectly constant, that rate of change is the partial derivative
+rate of change is the partial derivative with respect to X.
+Similarly, if you want to know how the slope of this hill changes as you walk
+slope of this hill changes as you walk strictly to the north, in positive Y
+strictly to the north, in positive Y direction while keeping your X position
+direction while keeping your X position perfectly constant,
+that rate of change is the partial derivative with respect to Y.
+Let us now see what happens when we apply the del operator to a scalar
+apply the del operator to a scalar field.
+This operation is called the gradient. When we take the gradient of a scalar
+field, the result is always a vector field. This is extremely important.
+field. This is extremely important. This is because the gradient calculates
+the partial derivative in each coordinate direction simultaneously.
+Instead of just giving you a number, the gradient points toward the higher scalar
+gradient points toward the higher scalar values. To see how this works in
+values. To see how this works in practice, let us look at a concrete
+practice, let us look at a concrete mathematical example.
+mathematical example. If we have a scalar function f of x, y
+= x ^ 2 + y ^ 2. As mentioned earlier, this creates a
+As mentioned earlier, this creates a surface shaped like a giant bowl or a
+Now, the partial derivative of this function with respect to x is 2x.
+function with respect to x is 2x. This is because while taking a partial
+This is because while taking a partial derivative with respect to x, we treat y
+derivative with respect to x, we treat y as a constant and thus its derivative
+as a constant and thus its derivative becomes zero. Similarly, the partial
+becomes zero. Similarly, the partial derivative of this function with respect
+derivative of this function with respect to y is 2y.
+Now, to find the gradient, we apply the del operator, which gives us a vector
+del operator, which gives us a vector field of 2x, 2y.
+Its vector field will look something like this, right?
+Suppose you place a ball on this surface at the coordinate 1, 2. So, x is 1 and y
+at the coordinate 1, 2. So, x is 1 and y is 2.
+Put it here and we get the vector 2, 4 as the gradient.
+Now, note that even though the bowl is three-dimensional, the gradient only
+three-dimensional, the gradient only lives in the two-dimensional world of x
+When we find that the gradient at the coordinate 1, 2 is the vector 2, 4, we
+coordinate 1, 2 is the vector 2, 4, we are looking at a flat map of the bowl
+are looking at a flat map of the bowl from above.
+This vector 2, 4 does not point up into the air. It points along the flat ground
+the air. It points along the flat ground toward the direction where the hill is
+toward the direction where the hill is rising the fastest.
+So, after moving two units to the right and four units to the north, the next
+At that point, you will have a height of 45 units. So, in 3D, it would look like
+45 units. So, in 3D, it would look like the ball moved from this point to this
+the ball moved from this point to this point along the surface.
+Ultimately, if you place a ball on the surface, the gradient tells you which
+surface, the gradient tells you which direction you would have to push it to
+go uphill as fast as possible. Conversely, the ball would naturally
+roll in the exact opposite direction of the gradient to find the bottom of the
+the gradient to find the bottom of the pit.
+Now, let us move on to vector fields. When we try to apply the del operator
+When we try to apply the del operator directly to a vector field, we must be
+Both the del operator and the vector field are vectors.
+There are only two meaningful ways to combine two vectors, either the dot
+combine two vectors, either the dot product or the cross product.
+product or the cross product. If we use the dot product, we get
+divergence. If we use the cross product, we get the
+First, let us talk about divergence. Divergence is defined as the dot product
+Divergence is defined as the dot product of the del operator with a vector field.
+The result of divergence is always a scalar field.
+The word divergence literally means spreading out.
+To build intuition and understand it mathematically, imagine a vector field V
+mathematically, imagine a vector field V of X, Y equals a matrix, where the first
+entry is X and the second entry is Y. On a graph, it will look like this.
+On a graph, it will look like this. Say this vector field represents the
+flow of a fluid, such as air or water. At each point, the vector tells you how
+At each point, the vector tells you how the fluid is moving.
+Here is the del operator. Now, take the dot product of these two vectors.
+It will give us divergence of this vector field. We get this plus this.
+vector field. We get this plus this. The partial derivative of X with respect
+The partial derivative of X with respect to X is 1, and the partial derivative of
+Y with respect to Y is also 1. When we add them together, we get a
+When we add them together, we get a constant divergence of two.
+Now, imagine placing a tiny square region in this flow and watching what
+region in this flow and watching what happens to particles inside that region.
+happens to particles inside that region. If more particles leave the region than
+enter it, the density or the number of fluid particles packed inside the square
+fluid particles packed inside the square region decreases.
+In this case, because the vectors point outward and get longer as they move away
+outward and get longer as they move away from the center, more particles leave
+the region than enter it and thus the density inside decreases. This means the
+field is spreading out there and the divergence is positive. Next, consider a
+vector field where the first entry is minus X and the second entry is minus Y.
+minus X and the second entry is minus Y. Here, the partial derivative of minus X
+with respect to X is minus one and the partial derivative of minus Y with
+respect to Y is also minus one, giving us a divergence of minus two. In this
+us a divergence of minus two. In this flow, all the vectors point toward the
+flow, all the vectors point toward the origin. If more particles enter our tiny
+origin. If more particles enter our tiny square region than leave, the density
+square region than leave, the density increases.
+This means our vector field is converging and the divergence is
+converging and the divergence is negative.
+Then, let us look at a field where the first entry is minus Y and the second
+first entry is minus Y and the second entry is X.
+entry is X. On a graph, this vector field will look
+The partial derivative of minus Y with respect to X is zero and the partial
+derivative of X with respect to Y is also zero. So, the divergence is exactly
+also zero. So, the divergence is exactly zero. In this scenario, the fluid is
+simply rotating in a circle. If the number of particles entering the region
+number of particles entering the region equals the number leaving, the density
+stays the same and the divergence is zero.
+This tells us that even though the fluid is moving, it is not spreading out or
+is moving, it is not spreading out or packing together.
+We could have also taken the vector field as constant like this,
+field as constant like this, representing a steady stream of water
+flowing uniformly to the right at a constant speed. Every single vector in
+constant speed. Every single vector in the entire space is identical in length
+Because the fluid is moving at the exact same speed everywhere, the amount of
+the square is identical to the amount of water exiting through the right side. If
+water exiting through the right side. If the number of particles entering equals
+the number leaving, the density inside the square stays the same, and thus the
+the square stays the same, and thus the divergence is zero.
+divergence is zero. Amazing. Now, divergence appears in
+where divergence is used in one of Maxwell's equations.
+A positive electric charge produces an electric field that spreads outward.
+electric field that spreads outward. This corresponds to positive divergence.
+This corresponds to positive divergence. A negative electric charge produces an
+A negative electric charge produces an electric field that converges inward,
+electric field that converges inward, corresponding to negative divergence.
+corresponding to negative divergence. Now, let us move to our third and final
+Curl is obtained by taking the cross product of the del operator with a
+product of the del operator with a vector field. Unlike divergence, curl
+vector field. Unlike divergence, curl produces a vector field as its result.
+Curl measures rotation rather than spreading. To understand curl
+intuitively, imagine placing a tiny paddle wheel in a flowing fluid
+paddle wheel in a flowing fluid described by this vector field.
+described by this vector field. If the fluid makes the wheel spin, then
+To find the curl of this vector field, the cross product of this field with the
+del operator is calculated by finding the determinant of this matrix, where
+the top row contains the unit vectors I, J, and K. The second row consists of the
+J, and K. The second row consists of the partial derivative operators with
+respect to X, Y, and Z. While the bottom row contains the actual components of
+row contains the actual components of our vector field.
+It turns out to be this. For this specific field, the partial
+derivative of X with respect to X is 1, and the partial derivative of minus Y
+with respect to Y is minus 1. When we subtract minus 1 from 1, we get 1 plus
+subtract minus 1 from 1, we get 1 plus 1, which equals 2. Now, because the curl
+1, which equals 2. Now, because the curl is 2, the flow will rotate the paddle
+is 2, the flow will rotate the paddle wheel.
+The higher the curl value, the faster it will spin, which indicates a much
+will spin, which indicates a much stronger rotational force at that
+stronger rotational force at that specific point in the field. Conversely,
+specific point in the field. Conversely, if the curl value were minus 2, the
+paddle wheel would spin at the same speed, but in the opposite direction. If
+speed, but in the opposite direction. If the wheel does not spin, and only moves
+straight, then the curl is zero. So, curl tells us whether the field has a
+tendency to rotate around a point. Okay, I am super tired right now as
+editing such videos is really exhausting.
+But I am doing it just for the love of math. So, if you enjoyed this video,
+math. So, if you enjoyed this video, please don't forget to like, share, and
+please don't forget to like, share, and subscribe to our channel.
+subscribe to our channel. So good.
+So good. &gt;&gt; [music]

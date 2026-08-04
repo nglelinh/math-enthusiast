@@ -1,0 +1,77 @@
+[
+  {
+    "t_start": 3.35,
+    "t_end": 7.27,
+    "text": "I guess everybody many people know P in NPA they don't understand what it is but"
+  },
+  {
+    "t_start": 7.27,
+    "t_end": 10.759,
+    "text": "NPA they don't understand what it is but well obviously it's an important"
+  },
+  {
+    "t_start": 10.759,
+    "t_end": 16.189,
+    "text": "well obviously it's an important question and well for one thing if P"
+  },
+  {
+    "t_start": 16.189,
+    "t_end": 20.71,
+    "text": "question and well for one thing if P equals NP it's gonna rule out a lot of"
+  },
+  {
+    "t_start": 20.71,
+    "t_end": 24.679,
+    "text": "equals NP it's gonna rule out a lot of cryptography it's hard to imagine how we"
+  },
+  {
+    "t_start": 24.679,
+    "t_end": 28.24,
+    "text": "cryptography it's hard to imagine how we could have any of the cryptographic"
+  },
+  {
+    "t_start": 28.24,
+    "t_end": 35.6,
+    "text": "could have any of the cryptographic protocols like like RSA and so on public"
+  },
+  {
+    "t_start": 35.6,
+    "t_end": 38.2,
+    "text": "protocols like like RSA and so on public key encryption seem to be impossible and"
+  },
+  {
+    "t_start": 38.2,
+    "t_end": 45.29,
+    "text": "so yeah that's on the 1/2 it turns out P equals NP and on the other hand if P not"
+  },
+  {
+    "t_start": 45.29,
+    "t_end": 47.119,
+    "text": "equals NP and on the other hand if P not equal NP course you want to know more"
+  },
+  {
+    "t_start": 47.119,
+    "t_end": 52.91,
+    "text": "you want to know just how hard is NP and so on you we can't help but learning a"
+  },
+  {
+    "t_start": 52.91,
+    "t_end": 54.86,
+    "text": "so on you we can't help but learning a lot more about the problems either way"
+  },
+  {
+    "t_start": 54.86,
+    "t_end": 59.93,
+    "text": "lot more about the problems either way if either way it goes P equals NP R P"
+  },
+  {
+    "t_start": 59.93,
+    "t_end": 62.42,
+    "text": "not equal NP we're gonna learn a lot more about computation that's if the"
+  },
+  {
+    "t_start": 62.42,
+    "t_end": 65.3,
+    "text": "more about computation that's if the problem is solved"
+  }
+]

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="180" viewBox="0 0 560 180">
+  <rect width="560" height="180" fill="#fafbfc"/>
+  <text x="16" y="28" font-family="Georgia, serif" font-size="15" fill="#222">Geometry enters (schematic)</text>
+  <rect x="40" y="55" width="150" height="70" rx="8" fill="#f3e8fb" stroke="#6b2d8b" stroke-width="2"/>
+  <text x="115" y="85" text-anchor="middle" font-size="12" fill="#6b2d8b">p-adic analysis</text>
+  <text x="115" y="105" text-anchor="middle" font-size="11" fill="#666">orbital integrals</text>
+  <path d="M200 90 L250 90" stroke="#004586" stroke-width="2"/>
+  <text x="225" y="78" text-anchor="middle" font-size="11" fill="#004586">Ngô</text>
+  <rect x="260" y="55" width="150" height="70" rx="8" fill="#e6f6ea" stroke="#1e7e34" stroke-width="2"/>
+  <text x="335" y="85" text-anchor="middle" font-size="12" fill="#1e7e34">algebraic geometry</text>
+  <text x="335" y="105" text-anchor="middle" font-size="11" fill="#666">Hitchin-type fibration</text>
+  <path d="M420 90 L470 90" stroke="#004586" stroke-width="2"/>
+  <text x="500" y="95" text-anchor="middle" font-size="12" fill="#004586">FL</text>
+  <text x="16" y="155" font-size="12" fill="#444">Cohomological counting on geometric fibers unlocks analytic identities.</text>
+</svg>

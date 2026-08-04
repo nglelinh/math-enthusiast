@@ -1,0 +1,742 @@
+[
+  {
+    "t_start": 6.15,
+    "t_end": 8.23,
+    "text": "Consider this lake flowing. If I gave you the velocity and pressure at every"
+  },
+  {
+    "t_start": 8.23,
+    "t_end": 9.75,
+    "text": "you the velocity and pressure at every single point, would you be able to"
+  },
+  {
+    "t_start": 9.75,
+    "t_end": 13.509,
+    "text": "single point, would you be able to predict how the lake flows over time?"
+  },
+  {
+    "t_start": 13.509,
+    "t_end": 15.749,
+    "text": "predict how the lake flows over time? This question points to the Navia Stokes"
+  },
+  {
+    "t_start": 15.749,
+    "t_end": 17.91,
+    "text": "This question points to the Navia Stokes equations, a set of equations that can"
+  },
+  {
+    "t_start": 17.91,
+    "t_end": 23.83,
+    "text": "equations, a set of equations that can describe any fluid you can think of from"
+  },
+  {
+    "t_start": 23.83,
+    "t_end": 25.029,
+    "text": "water to air to honey to so on. You might have heard of these equations"
+  },
+  {
+    "t_start": 25.029,
+    "t_end": 28.95,
+    "text": "because they're a part of the Millennium Prize problems. A collection of seven"
+  },
+  {
+    "t_start": 28.95,
+    "t_end": 30.87,
+    "text": "Prize problems. A collection of seven incredibly important and difficult"
+  },
+  {
+    "t_start": 30.87,
+    "t_end": 33.11,
+    "text": "incredibly important and difficult mathematical problems. A correct"
+  },
+  {
+    "t_start": 33.11,
+    "t_end": 38.069,
+    "text": "solution to any of these seven problems is awarded a million dollar cash prize."
+  },
+  {
+    "t_start": 38.069,
+    "t_end": 40.15,
+    "text": "is awarded a million dollar cash prize. Today, let's talk about this particular"
+  },
+  {
+    "t_start": 40.15,
+    "t_end": 42.47,
+    "text": "Today, let's talk about this particular problem. The existence and smoothness of"
+  },
+  {
+    "t_start": 42.47,
+    "t_end": 45.03,
+    "text": "problem. The existence and smoothness of the Navia Stokes equation. The Navia"
+  },
+  {
+    "t_start": 45.03,
+    "t_end": 48.79,
+    "text": "the Navia Stokes equation. The Navia Stokes equations are probably one of the"
+  },
+  {
+    "t_start": 48.79,
+    "t_end": 52.869,
+    "text": "equations for fluid mechanics. They're used to forecast the weather, model"
+  },
+  {
+    "t_start": 52.869,
+    "t_end": 54.95,
+    "text": "used to forecast the weather, model airplanes and rockets, and predict water"
+  },
+  {
+    "t_start": 54.95,
+    "t_end": 57.59,
+    "text": "airplanes and rockets, and predict water currents. Despite their extensive usage,"
+  },
+  {
+    "t_start": 57.59,
+    "t_end": 60.869,
+    "text": "currents. Despite their extensive usage, there's still not that much we know"
+  },
+  {
+    "t_start": 60.869,
+    "t_end": 65.35,
+    "text": "speaking. But first, let's talk about what these equations actually are. For"
+  },
+  {
+    "t_start": 65.35,
+    "t_end": 68.31,
+    "text": "the purpose of this video, I'm going to make a few assumptions about the fluid"
+  },
+  {
+    "t_start": 68.31,
+    "t_end": 70.469,
+    "text": "make a few assumptions about the fluid we're talking about. The first"
+  },
+  {
+    "t_start": 70.469,
+    "t_end": 71.91,
+    "text": "we're talking about. The first assumption is that the fluid is"
+  },
+  {
+    "t_start": 71.91,
+    "t_end": 73.83,
+    "text": "assumption is that the fluid is Newtonian. There was a really good"
+  },
+  {
+    "t_start": 73.83,
+    "t_end": 75.429,
+    "text": "Newtonian. There was a really good answer on Stack Exchange that explained"
+  },
+  {
+    "t_start": 75.429,
+    "t_end": 78.789,
+    "text": "what it meant for a fluid to be Newtonian, but let me just summarize it"
+  },
+  {
+    "t_start": 78.789,
+    "t_end": 85.27,
+    "text": "for you. When we call a fluid Newtonian, it means that the rate at which we apply"
+  },
+  {
+    "t_start": 85.27,
+    "t_end": 87.749,
+    "text": "some sheer stress has no effect on its viscosity. An example from this answer"
+  },
+  {
+    "t_start": 87.749,
+    "t_end": 90.39,
+    "text": "viscosity. An example from this answer on stack exchange is ketchup. When we"
+  },
+  {
+    "t_start": 90.39,
+    "t_end": 92.23,
+    "text": "on stack exchange is ketchup. When we have difficulty removing ketchup from a"
+  },
+  {
+    "t_start": 92.23,
+    "t_end": 95.59,
+    "text": "have difficulty removing ketchup from a bottle, something we all do is hit the"
+  },
+  {
+    "t_start": 95.59,
+    "t_end": 97.27,
+    "text": "bottom of the bottle and the ketchup comes out with ease. Looking at"
+  },
+  {
+    "t_start": 97.27,
+    "t_end": 99.35,
+    "text": "comes out with ease. Looking at ketchup's sheer rate versus viscosity"
+  },
+  {
+    "t_start": 99.35,
+    "t_end": 103.35,
+    "text": "graph, we can see that hitting the bottle, which increases the shear rate,"
+  },
+  {
+    "t_start": 103.35,
+    "t_end": 109.83,
+    "text": "bottle, which increases the shear rate, decreases its viscosity, which lets the"
+  },
+  {
+    "t_start": 111.749,
+    "t_end": 114.31,
+    "text": "The second assumption is that the fluid is incompressible. It means exactly what"
+  },
+  {
+    "t_start": 114.31,
+    "t_end": 118.389,
+    "text": "is incompressible. It means exactly what you think. If I compress the fluid that"
+  },
+  {
+    "t_start": 118.389,
+    "t_end": 122.069,
+    "text": "is at pressure, there's no considerable variation in the volume of the fluid."
+  },
+  {
+    "t_start": 122.069,
+    "t_end": 128.469,
+    "text": "The last assumption is that the fluid is isothermal. This just means that as the"
+  },
+  {
+    "t_start": 128.469,
+    "t_end": 131.11,
+    "text": "fluid flows, there's no loss or gain of heat. And this takes us to the Navia"
+  },
+  {
+    "t_start": 131.11,
+    "t_end": 133.589,
+    "text": "heat. And this takes us to the Navia Stokes equations. As daunting as they"
+  },
+  {
+    "t_start": 133.589,
+    "t_end": 135.03,
+    "text": "Stokes equations. As daunting as they may seem, they're actually based on"
+  },
+  {
+    "t_start": 135.03,
+    "t_end": 138.07,
+    "text": "may seem, they're actually based on quite well-known physics properties."
+  },
+  {
+    "t_start": 138.07,
+    "t_end": 141.75,
+    "text": "Note that when we talk about fluids, we typically talk about an infinite decimal"
+  },
+  {
+    "t_start": 141.75,
+    "t_end": 145.51,
+    "text": "typically talk about an infinite decimal volume of fluid. And so we're trying to"
+  },
+  {
+    "t_start": 145.51,
+    "t_end": 150.949,
+    "text": "describe the motion of each individual molecule rather than the fluid as a"
+  },
+  {
+    "t_start": 152.79,
+    "t_end": 155.35,
+    "text": "This first equation right here tells us that mass is conserved within the fluid."
+  },
+  {
+    "t_start": 155.35,
+    "t_end": 157.11,
+    "text": "that mass is conserved within the fluid. The operator here is called the"
+  },
+  {
+    "t_start": 157.11,
+    "t_end": 159.67,
+    "text": "The operator here is called the divergence of a vector field. The vector"
+  },
+  {
+    "t_start": 159.67,
+    "t_end": 165.19,
+    "text": "divergence of a vector field. The vector field in this case u is the velocity"
+  },
+  {
+    "t_start": 165.19,
+    "t_end": 168.79,
+    "text": "A vector field is what you get when you assign every single point in space to a"
+  },
+  {
+    "t_start": 168.79,
+    "t_end": 171.35,
+    "text": "assign every single point in space to a vector. Vector fields can describe many"
+  },
+  {
+    "t_start": 171.35,
+    "t_end": 173.75,
+    "text": "vector. Vector fields can describe many things from fluids to electric fields to"
+  },
+  {
+    "t_start": 173.75,
+    "t_end": 176.15,
+    "text": "things from fluids to electric fields to gravitational fields and so on. The"
+  },
+  {
+    "t_start": 176.15,
+    "t_end": 178.07,
+    "text": "gravitational fields and so on. The divergence of a vector field is an"
+  },
+  {
+    "t_start": 178.07,
+    "t_end": 182.79,
+    "text": "operator that tells us how much a point tends to divert vectors away from it."
+  },
+  {
+    "t_start": 182.79,
+    "t_end": 184.47,
+    "text": "tends to divert vectors away from it. Consider this vector field. It appears"
+  },
+  {
+    "t_start": 184.47,
+    "t_end": 188.55,
+    "text": "Consider this vector field. It appears that vectors seem to be moving away from"
+  },
+  {
+    "t_start": 188.55,
+    "t_end": 191.589,
+    "text": "the origin. This indicates positive divergence."
+  },
+  {
+    "t_start": 193.589,
+    "t_end": 195.91,
+    "text": "Similarly, this vector field seems to have vectors that flow into the origin."
+  },
+  {
+    "t_start": 195.91,
+    "t_end": 199.509,
+    "text": "have vectors that flow into the origin. This indicates negative divergence."
+  },
+  {
+    "t_start": 199.509,
+    "t_end": 203.67,
+    "text": "Numerically, we write the divergence as a dotproduct between the gradient vector"
+  },
+  {
+    "t_start": 203.67,
+    "t_end": 206.149,
+    "text": "a dotproduct between the gradient vector and its vector field. This fantastic"
+  },
+  {
+    "t_start": 206.149,
+    "t_end": 208.63,
+    "text": "and its vector field. This fantastic video by 31bound explains why. So, if"
+  },
+  {
+    "t_start": 208.63,
+    "t_end": 211.83,
+    "text": "video by 31bound explains why. So, if you're interested, check it out."
+  },
+  {
+    "t_start": 211.83,
+    "t_end": 215.589,
+    "text": "In terms of fluids, the divergence of a vector field indicates how much or how"
+  },
+  {
+    "t_start": 215.589,
+    "t_end": 217.509,
+    "text": "vector field indicates how much or how little a point acts as a source of a"
+  },
+  {
+    "t_start": 217.509,
+    "t_end": 220.55,
+    "text": "little a point acts as a source of a fluid. If we imagine water in some area,"
+  },
+  {
+    "t_start": 220.55,
+    "t_end": 222.47,
+    "text": "fluid. If we imagine water in some area, it's impossible for the water to simply"
+  },
+  {
+    "t_start": 222.47,
+    "t_end": 224.55,
+    "text": "it's impossible for the water to simply disappear. It could either change forms"
+  },
+  {
+    "t_start": 224.55,
+    "t_end": 228.55,
+    "text": "disappear. It could either change forms but mass is never destroyed and thus the"
+  },
+  {
+    "t_start": 228.55,
+    "t_end": 230.71,
+    "text": "divergence across the fluid has to be zero. And hence the first Navia Stokes"
+  },
+  {
+    "t_start": 230.71,
+    "t_end": 234.949,
+    "text": "zero. And hence the first Navia Stokes equation."
+  },
+  {
+    "t_start": 237.03,
+    "t_end": 239.67,
+    "text": "The second equation is just a rewritten version of Newton's second law. If you"
+  },
+  {
+    "t_start": 239.67,
+    "t_end": 241.27,
+    "text": "version of Newton's second law. If you remember, Newton's second law tells us"
+  },
+  {
+    "t_start": 241.27,
+    "t_end": 245.27,
+    "text": "remember, Newton's second law tells us that the sum of forces acting on a body"
+  },
+  {
+    "t_start": 245.27,
+    "t_end": 246.869,
+    "text": "can be written as its mass time the acceleration."
+  },
+  {
+    "t_start": 246.869,
+    "t_end": 253.509,
+    "text": "of a fluid, let's see how we can derive the second Navia Stokes equation. First"
+  },
+  {
+    "t_start": 253.509,
+    "t_end": 255.11,
+    "text": "the second Navia Stokes equation. First of all, since we're considering each"
+  },
+  {
+    "t_start": 255.11,
+    "t_end": 257.03,
+    "text": "of all, since we're considering each individual point, let's replace mass"
+  },
+  {
+    "t_start": 257.03,
+    "t_end": 259.59,
+    "text": "individual point, let's replace mass with density. The mathematical reason"
+  },
+  {
+    "t_start": 259.59,
+    "t_end": 263.43,
+    "text": "behind doing this is that to consider each individual point, we have to divide"
+  },
+  {
+    "t_start": 263.43,
+    "t_end": 265.99,
+    "text": "each individual point, we have to divide by volume. And mass by volume is equal"
+  },
+  {
+    "t_start": 265.99,
+    "t_end": 268.469,
+    "text": "by volume. And mass by volume is equal to density. Next, let's consider"
+  },
+  {
+    "t_start": 268.469,
+    "t_end": 270.469,
+    "text": "to density. Next, let's consider acceleration."
+  },
+  {
+    "t_start": 270.469,
+    "t_end": 275.99,
+    "text": "Well, we have the velocity vector field U. And we know that the acceleration is"
+  },
+  {
+    "t_start": 275.99,
+    "t_end": 281.11,
+    "text": "vector field. So we can replace a with du by dt. A quick side note, you might"
+  },
+  {
+    "t_start": 281.11,
+    "t_end": 287.03,
+    "text": "see this part written as d u by del t plus u.grad u. This is essentially the"
+  },
+  {
+    "t_start": 287.03,
+    "t_end": 289.83,
+    "text": "plus u.grad u. This is essentially the same thing. When we expand du by dt, we"
+  },
+  {
+    "t_start": 289.83,
+    "t_end": 291.51,
+    "text": "same thing. When we expand du by dt, we use the chain rule which gives us this"
+  },
+  {
+    "t_start": 291.51,
+    "t_end": 293.83,
+    "text": "use the chain rule which gives us this other expression."
+  },
+  {
+    "t_start": 293.83,
+    "t_end": 297.51,
+    "text": "Now we need to consider what are all the forces acting on this molecule of a"
+  },
+  {
+    "t_start": 297.51,
+    "t_end": 299.909,
+    "text": "forces acting on this molecule of a fluid."
+  },
+  {
+    "t_start": 299.909,
+    "t_end": 303.83,
+    "text": "We can break this down into internal forces which are forces exerted by the"
+  },
+  {
+    "t_start": 303.83,
+    "t_end": 305.67,
+    "text": "forces which are forces exerted by the molecule of the fluid itself and"
+  },
+  {
+    "t_start": 305.67,
+    "t_end": 308.07,
+    "text": "molecule of the fluid itself and external forces which are forces exerted"
+  },
+  {
+    "t_start": 308.07,
+    "t_end": 312.95,
+    "text": "external forces which are forces exerted by some external object. The first"
+  },
+  {
+    "t_start": 312.95,
+    "t_end": 315.51,
+    "text": "internal force we take into account is pressure. Consider drinking from a"
+  },
+  {
+    "t_start": 315.51,
+    "t_end": 319.67,
+    "text": "straw. Sucking on the end of a straw creates an area of low pressure which"
+  },
+  {
+    "t_start": 319.67,
+    "t_end": 321.51,
+    "text": "creates an area of low pressure which forces the drink to move from the area"
+  },
+  {
+    "t_start": 321.51,
+    "t_end": 325.909,
+    "text": "forces the drink to move from the area of high pressure which is below to the"
+  },
+  {
+    "t_start": 325.909,
+    "t_end": 328.15,
+    "text": "area of lower pressure. This force is dependent on the change in pressure or"
+  },
+  {
+    "t_start": 328.15,
+    "t_end": 333.909,
+    "text": "dependent on the change in pressure or the pressure gradient which we can write"
+  },
+  {
+    "t_start": 335.909,
+    "t_end": 338.31,
+    "text": "The second force we factor in is friction or viscosity. If I pour water"
+  },
+  {
+    "t_start": 338.31,
+    "t_end": 342.469,
+    "text": "into a cup, the water moves quite fast. Whereas if I'm pouring honey, it moves"
+  },
+  {
+    "t_start": 342.469,
+    "t_end": 344.39,
+    "text": "Whereas if I'm pouring honey, it moves quite slow. This is because there's a"
+  },
+  {
+    "t_start": 344.39,
+    "t_end": 345.99,
+    "text": "quite slow. This is because there's a lot more friction between the molecules"
+  },
+  {
+    "t_start": 345.99,
+    "t_end": 349.99,
+    "text": "lot more friction between the molecules of honey compared to the molecules of"
+  },
+  {
+    "t_start": 349.99,
+    "t_end": 352.07,
+    "text": "water. The mathematical way of writing this force for Newtonian fluids is this"
+  },
+  {
+    "t_start": 352.07,
+    "t_end": 353.749,
+    "text": "this force for Newtonian fluids is this expression right here. I'm not going to"
+  },
+  {
+    "t_start": 353.749,
+    "t_end": 357.51,
+    "text": "expression right here. I'm not going to go into depth as to how this equation"
+  },
+  {
+    "t_start": 357.51,
+    "t_end": 361.189,
+    "text": "arises, but I've left a few resources you can use to read up about this."
+  },
+  {
+    "t_start": 361.189,
+    "t_end": 362.95,
+    "text": "you can use to read up about this. And finally, to account for the external"
+  },
+  {
+    "t_start": 362.95,
+    "t_end": 365.11,
+    "text": "And finally, to account for the external forces, we just denote any external"
+  },
+  {
+    "t_start": 365.11,
+    "t_end": 367.67,
+    "text": "forces, we just denote any external force by the letter F."
+  },
+  {
+    "t_start": 367.67,
+    "t_end": 371.27,
+    "text": "It's pretty common that gravity is the only external force. So, we sometimes"
+  },
+  {
+    "t_start": 371.27,
+    "t_end": 376.309,
+    "text": "only external force. So, we sometimes write row * G instead of F."
+  },
+  {
+    "t_start": 377.83,
+    "t_end": 379.909,
+    "text": "And this is why the Navia Stokes equations can model any fluid. There's"
+  },
+  {
+    "t_start": 379.909,
+    "t_end": 381.749,
+    "text": "equations can model any fluid. There's simply two fundamental laws of physics"
+  },
+  {
+    "t_start": 381.749,
+    "t_end": 385.43,
+    "text": "simply two fundamental laws of physics written out for fluids. So why do these"
+  },
+  {
+    "t_start": 385.43,
+    "t_end": 388.309,
+    "text": "equations have a million-doll prize attached to it? Well, to answer that,"
+  },
+  {
+    "t_start": 388.309,
+    "t_end": 389.749,
+    "text": "attached to it? Well, to answer that, let's just look at the actual problem"
+  },
+  {
+    "t_start": 389.749,
+    "t_end": 394.55,
+    "text": "from the Clay Math Institute. It goes as follows. To give reasonable leeway to"
+  },
+  {
+    "t_start": 394.55,
+    "t_end": 396.55,
+    "text": "follows. To give reasonable leeway to solvers while retaining the heart of the"
+  },
+  {
+    "t_start": 396.55,
+    "t_end": 401.67,
+    "text": "solvers while retaining the heart of the problem, we ask for a proof of one of"
+  },
+  {
+    "t_start": 401.67,
+    "t_end": 405.749,
+    "text": "The first two questions ask for a smooth solution to the Navia Stokes equations."
+  },
+  {
+    "t_start": 405.749,
+    "t_end": 407.67,
+    "text": "solution to the Navia Stokes equations. Let's break down what this means. When"
+  },
+  {
+    "t_start": 407.67,
+    "t_end": 409.189,
+    "text": "Let's break down what this means. When we say that a solution is smooth,"
+  },
+  {
+    "t_start": 409.189,
+    "t_end": 410.629,
+    "text": "we say that a solution is smooth, mathematically it means that the"
+  },
+  {
+    "t_start": 410.629,
+    "t_end": 412.71,
+    "text": "mathematically it means that the solution is differentiable. Chaotic"
+  },
+  {
+    "t_start": 412.71,
+    "t_end": 416.309,
+    "text": "doesn't mean that it's random. It simply means that if I slightly change the"
+  },
+  {
+    "t_start": 416.309,
+    "t_end": 418.55,
+    "text": "means that if I slightly change the initial condition, it results in a large"
+  },
+  {
+    "t_start": 418.55,
+    "t_end": 424.15,
+    "text": "initial condition, it results in a large change in the outcome. And this is where"
+  },
+  {
+    "t_start": 424.15,
+    "t_end": 427.99,
+    "text": "the question gets incredibly difficult. Sure, the Navia Stokes equations lets us"
+  },
+  {
+    "t_start": 427.99,
+    "t_end": 429.67,
+    "text": "take some state of a fluid and let us predict what will happen in the future."
+  },
+  {
+    "t_start": 429.67,
+    "t_end": 431.589,
+    "text": "predict what will happen in the future. But the chaotic nature of the fluids"
+  },
+  {
+    "t_start": 431.589,
+    "t_end": 433.749,
+    "text": "But the chaotic nature of the fluids with turbulence makes it incredibly hard"
+  },
+  {
+    "t_start": 433.749,
+    "t_end": 436.39,
+    "text": "with turbulence makes it incredibly hard to make long-term predictions. This is"
+  },
+  {
+    "t_start": 436.39,
+    "t_end": 437.749,
+    "text": "to make long-term predictions. This is why we can't predict the weather for"
+  },
+  {
+    "t_start": 437.749,
+    "t_end": 440.15,
+    "text": "why we can't predict the weather for more than 7 days."
+  },
+  {
+    "t_start": 440.15,
+    "t_end": 443.11,
+    "text": "This is also why we can't predict when we're going to have turbulence on an"
+  },
+  {
+    "t_start": 443.11,
+    "t_end": 445.029,
+    "text": "we're going to have turbulence on an airplane."
+  },
+  {
+    "t_start": 445.029,
+    "t_end": 449.029,
+    "text": "Despite this, the Na'vi Stokes equations are incredibly useful. They're used"
+  },
+  {
+    "t_start": 449.029,
+    "t_end": 450.87,
+    "text": "are incredibly useful. They're used extensively to model aerodynamic"
+  },
+  {
+    "t_start": 450.87,
+    "t_end": 454.79,
+    "text": "objects. For example, a plane or a car. Like I mentioned before, the weather"
+  },
+  {
+    "t_start": 454.79,
+    "t_end": 459.029,
+    "text": "forecast also relies on the Naver Stokes equations. It still remains one of the"
+  },
+  {
+    "t_start": 459.029,
+    "t_end": 460.629,
+    "text": "equations. It still remains one of the most important partial differential"
+  },
+  {
+    "t_start": 460.629,
+    "t_end": 466.2,
+    "text": "most important partial differential equations ever. Thanks for watching."
+  }
+]

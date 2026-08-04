@@ -1,0 +1,310 @@
+[
+  {
+    "id": "ku_video_f2NiGO8zC1c_403",
+    "t_start": 403.1,
+    "t_end": 494.8,
+    "type": "overview",
+    "summary": "It's working now. Okay. Okay. So, So, um Should we start? Okay. Okay. Um Al- Alan Bordin, a university professor at the University university professor at the University of Toronto, will introduce the uh the speaker. Thank you. Thank you. Um I don't know. I think I'm more nervous than Avi. I think I'm more nervous than Avi. Uh is my uh honor and great pleasure to introduce Avi Wigderson, the recipient introduce Avi Wigderson, the recipient of the 2023 Turing Award. Avi's seminal work spans the most fundamental areas of fundamental areas of computer science as well as pure which is not to sa…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_494",
+    "t_start": 494.8,
+    "t_end": 586.0,
+    "type": "overview",
+    "summary": "also being the recipient of the Nevanlinna Prize, and the viewed at the time as the Fields Prize for our field, and the Abel Prize in for our field, and the Abel Prize in mathematics, as many as well as many other deserved awards. And Avi is the first person to win both the Abel Prize first person to win both the Abel Prize and the Turing Award. Perhaps as important as his research is Avi's role as a leader Avi's role as a leader of our community, and especially his of our community, and especially his mentoring of young men and not-so-young Good chance that Avi has written a letter for man…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_586",
+    "t_start": 586.0,
+    "t_end": 681.8,
+    "type": "overview",
+    "summary": "There was a very high, steep slide at the park, and of course Eyal, then 7 the park, and of course Eyal, then 7 years old, did that slide a couple of years old, did that slide a couple of times encouraging Avi to do it. Now, times encouraging Avi to do it. Now, this is one of those slides, you know, this is one of those slides, you know, it's you climb and as you take off you leave the slide. And it feels like it's probably only a second, but it feels like eternity. And I I don't know if Avi would really want to do this slide, but finally guilt want to do this slide, but finally guilt or lo…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_681",
+    "t_start": 681.8,
+    "t_end": 773.1,
+    "type": "overview",
+    "summary": "about my experience in the last 6 weeks preparing this talk. Uh so there's a brilliant idea. You know, what do you talk about for the why not talk about Alan Turing? And you know, as as many of you maybe I thought know, as as many of you maybe I thought I you know, I learned about him. I heard and I know a lot and then I started reading and I discovered how much I reading and I discovered how much I don't know. And I'll share with you some of this. Um I I will not talk about his personal life at all. life at all. Uh there's a lot to say. It's a short tragic and and I will just talk about pr…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_773",
+    "t_start": 773.1,
+    "t_end": 863.7,
+    "type": "overview",
+    "summary": "anything practical like his work on building computers or computer building computers or computer evolution. About his work on programming and programming practice which is programming practice which is you know, it's really amazing how much and wrote about this. His work on the central limit theorem as an undergrad, central limit theorem as an undergrad, his work on numerical analysis inventing his work on numerical analysis inventing LU decomposition, condition number. You LU decomposition, condition number. You may have not known that. may have not known that. His work on encryption, on …"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_863",
+    "t_start": 863.7,
+    "t_end": 955.5,
+    "type": "overview",
+    "summary": "want to say that it's complete, anything that's provable it proves that's provable it proves it's consistent, no contradictions, it's consistent, no contradictions, otherwise one will be trivial. And that if something is provable, there's a mechanical procedure there's a mechanical procedure that's his word in German though uh to to generate a proof. Of course, as we all know, Gödel killed Of course, as we all know, Gödel killed the first two the first two and Turing in this paper killed the third one. That's the Entscheidungsproblem, one. That's the Entscheidungsproblem, the decision probl…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_955",
+    "t_start": 955.5,
+    "t_end": 1045.7,
+    "type": "overview",
+    "summary": "foundations work, uh he asked him to take Turing as a graduate student, which which is what Turing wanted. The main question that Turing and anybody working on this has to ask anybody working on this has to ask themselves is what is computation? What themselves is what is computation? What is a mechanical procedure? So this is a question and it's you know, almost you know, it's hard to you know, almost you know, it's hard to think of something more fundamental more think of something more fundamental more fundamental. fundamental. Uh mean? And people suggested things. Naturally, Gödel and H…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_1045",
+    "t_start": 1045.7,
+    "t_end": 1138.1,
+    "type": "overview",
+    "summary": "it should, it captures computation. And Turing, like in many other papers, goes to the length of explaining this in every possible way. First of all, so you want to argue that this captures anything that is computable in any way. and he says I'll give you three different reasons, different kinds of different reasons, different kinds of reasons. One is that it emulates the way computers work. Well, computer was the name of a work. Well, computer was the name of a profession, of a human profession, of profession, of a human profession, of somebody who does these calculations, mainly women. Uh…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_1139",
+    "t_start": 1139.8,
+    "t_end": 1232.3,
+    "type": "overview",
+    "summary": "complexity theory is already embedded in this model because there is a definite this model because there is a definite mathematical precise notion of a unit of time and of a unit of space. And so we can define a unit of space. And so we can define these classes as Hartmanis and Stearns these classes as Hartmanis and Stearns did. Uh time classes, space we can count exactly how much an algorithm spends and exactly how much an algorithm spends and of course, these were just the of course, these were just the first complexity classes and since then first complexity classes and since then we hav…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_1232",
+    "t_start": 1232.3,
+    "t_end": 1323.1,
+    "type": "overview",
+    "summary": "uncertainty principle or the second law of thermodynamics. They had to discover of thermodynamics. They had to discover quantum mechanics quantum mechanics other limitations. Uh it's hard to underestimate and it's not stressed enough I think in the not stressed enough I think in the courses what impact it has on mathematics. Mathematics was always computational. I Mathematics was always computational. I always maintain this. Mathematicians are computer scientists from Euclid on. Uh but this has an amazing effect because uh it offers a way to say when can you understand a mathematical proble…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_1323",
+    "t_start": 1323.1,
+    "t_end": 1414.8,
+    "type": "overview",
+    "summary": "These are word problems starting with semigroups and then uh semigroups and then uh famously in groups. And in the '70s this took quite a bit uh because there are the reductions to uh because there are the reductions to the halting problem are more the halting problem are more sophisticated. Matiyasevich proved that sophisticated. Matiyasevich proved that the polynomial equations cannot be The technique that Hilbert that Turing developed is something we, you know, could immediately use. Of course know, could immediately use. Of course uh in the paper we have the notion that program is data …"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_1414",
+    "t_start": 1414.8,
+    "t_end": 1504.9,
+    "type": "overview",
+    "summary": "version of the P versus NP question. In linear time non-deterministic linear time non-deterministic uh non-determinism buys you more power. Again, very sophisticated diagonalization plus diagonalization plus uh uh clever combinatorial result. Anyway this was combinatorial result. Anyway this was Turing offered us started being used all over the place till today. Uh one thing that I don't think that is recognized by any by many. I actually recognized by any by many. I actually asked the cup the asked the cup the on Saturday and he didn't know it. Uh where does it come from? Who introduced th…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_1504",
+    "t_start": 1504.9,
+    "t_end": 1600.3,
+    "type": "overview",
+    "summary": "happens in non-deterministic machines. And of course this was taken again non-determinism and determinism uh first of all is captured by his well, I would of all is captured by his well, I would say that in our field uh say that in our field uh uh Cook was the most logical uh of the, you know, of the people who started the NP-completeness. His paper started the NP-completeness. His paper on NP-completeness in fact is called the complexity of theorem proving procedures. And then later with Rachel uh the last session was on proof Uh he introduces this approach to propositional uh you know, ba…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_1600",
+    "t_start": 1600.3,
+    "t_end": 1690.4,
+    "type": "overview",
+    "summary": "interactive verification, probabilistic verification, quantum verification and there is this amazing uh set of works and all the works that preceded them in which we not only preceded them in which we not only understand uh you know, have different understand uh you know, have different notions of proof systems but we also notions of proof systems but we also have exact characterizations of all of have exact characterizations of all of them well, except for NP them well, except for NP in terms of their computational power. in terms of their computational power. And for NP we have the PCP th…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_1690",
+    "t_start": 1690.4,
+    "t_end": 1783.8,
+    "type": "overview",
+    "summary": "it was Yeah. Yeah. Uh he even talks about this but let me skip. Anyway, he also sees this. He sees skip. Anyway, he also sees this. He sees this in a paper called systems of logic this in a paper called systems of logic based on on ordinals in which he was trying to do whether some you can do something about some you can do something about undecidability or about incompleteness. undecidability or about incompleteness. What happens for example if you give your computer the ability to solve the halting problem? Can then maybe it halting problem? Can then maybe it solves everything? solves eve…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_1783",
+    "t_start": 1783.8,
+    "t_end": 1875.4,
+    "type": "overview",
+    "summary": "also diagonalize against oracle machines. machines. And this is used. It's used uh establishing a hierarchy of unsolvability unsolvability during the grades or the arithmetic Uh was first defined by uh the number of quantifiers in uh uh the number of quantifiers in uh logical formulas by Kleene, but then logical formulas by Kleene, but then Post realized that can be used can be Post realized that can be used can be defined by oracles. So, you really defined by oracles. So, you really define the ice level using giving an define the ice level using giving an oracle of the previous level to th…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_1875",
+    "t_start": 1875.4,
+    "t_end": 1966.8,
+    "type": "overview",
+    "summary": "Thorne, and Cook, and so on for short of proving P different than NP? And the proving P different than NP? And the answer, because you can make P either equal and P or unequal and P with and with different oracles, and the diagonalization simulation diagonalization simulation diagonalization technique doesn't So, you cannot use these techniques. And this is the first barrier result. And this is the first barrier result. And we, of course, became enamored of we, of course, became enamored of barrier results. And uh being introspective, I think that's another very important property of our an…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_1968",
+    "t_start": 1968.9,
+    "t_end": 2062.0,
+    "type": "overview",
+    "summary": "Uh I want to move to the next phase of Turing's life, which is uh the period of World War II. As uh again, I'm sure you know, at least from again, I'm sure you know, at least from the movie, uh he spent his years just as the war broke out, he enlisted in Bletchley broke out, he enlisted in Bletchley Park. He actually the year before he took a code-breaking class. Uh and Uh and uh went to Bletchley Park, was assigned to Hut uh Hut 8, famous Hut 8, where they were uh Hut 8, famous Hut 8, where they were assigned to break the naval Enigma code. assigned to break the naval Enigma code. There we…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_2061",
+    "t_start": 2062.0,
+    "t_end": 2274.3,
+    "type": "overview",
+    "summary": "being, you know, uh torpedoed. torpedoed. You know, many a month. Uh problem. I cannot imagine the pressure of people who had to, you know, who knew of people who had to, you know, who knew about these and had to defend against about these and had to defend against this. And you can think of it as a war between uh two machines, the Enigma encryption uh two machines, the Enigma encryption machine and the Bombe, what's so-called machine and the Bombe, what's so-called the Bombe, which was actually initially designed by by uh Polish mathematicians and imported just a month mathematicians and i…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_2277",
+    "t_start": 2277.1,
+    "t_end": 2370.6,
+    "type": "overview",
+    "summary": "search, mechanical alphabet. Okay? And ask you, that the next one will be uh an item that appears k time in the uh an item that appears k time in the sample? So, you want to estimate P of k, probability of seeing something which probability of seeing something which appears an item s which appears k time answer will be k over n. What's the big deal? Well, the big deal is that this is deal? Well, the big deal is that this is a setting which we don't normally a setting which we don't normally consider, where the alphabet is consider, where the alphabet is something like all German words. some…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_2370",
+    "t_start": 2370.6,
+    "t_end": 2462.4,
+    "type": "overview",
+    "summary": "good uh reason to do it. They understood that you should also smooth it. And uh they didn't prove anything as far as I know about this. The first proof as I know about this. The first proof came out in 2015 that this is optimal. came out in 2015 that this is optimal. So, it's the best estimate you can have, So, it's the best estimate you can have, no matter what the distribution D is. It looks a bit weird because if you know D, you know exactly. But, you don't know D, you know exactly. But, you don't know exactly. It may be that the distribution assigns two items different probabilities, bu…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_2462",
+    "t_start": 2462.4,
+    "t_end": 2553.2,
+    "type": "overview",
+    "summary": "log P of X over Q of X. Of course, you recognize this. Uh he suggests studying this distribution. And it's familiar because distribution. And it's familiar because the expectation of this distribution is the expectation of this distribution is what we now called KL divergence. We call KL divergence, which was you know, defined much later. But, I always know, defined much later. But, I always thought that the expectation is everything. I knew KL divergence, but in fact Turing studies and good, they study fact Turing studies and good, they study higher moments. And they get uh you higher mome…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_2555",
+    "t_start": 2556.0,
+    "t_end": 2647.2,
+    "type": "overview",
+    "summary": "Okay. So, I want to move So, after the war, Turing went to London actually for war, Turing went to London actually for 3 years trying to build the ACE 3 years trying to build the ACE computer, definitely designing it. And then left in frustration because the government was not really and his you know, the engineers uh were not really excited about his ideas. They thought excited about his ideas. They thought they were too elaborate. they were too elaborate. Uh Anyway, he went to Max Newman, who was in Manchester at the time trying to in Manchester at the time trying to build his own compute…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_2647",
+    "t_start": 2647.2,
+    "t_end": 2737.5,
+    "type": "overview",
+    "summary": "both lectures and debates with others about the idea of machines and about the idea of machines and intelligence. Uh and I want to tell you about this paper. I'll get to the imitation game. paper. I'll get to the imitation game. You won't You all know about the You won't You all know about the imitation game. Uh certainly from the movie and probably before the movie. But, I want to tell you about other things in this paper that I had no idea So, first, he introduces probabilistic algorithms. So, this also something he thought about. It appears in other papers, about. It appears in other pap…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_2737",
+    "t_start": 2737.5,
+    "t_end": 2830.3,
+    "type": "overview",
+    "summary": "He in other papers, he suggested various Also here, he says maybe an electronic Also here, he says maybe an electronic process. He in other papers and actually process. He in other papers and actually in devices he designed and built, in devices he designed and built, uh he is using thermal noise, uh he is using thermal noise, you know, or less with radium. He you know, or less with radium. He suggests all these other uh ideas for generating randomness. So, he thought about that as well. So, he thought about that as well. He thought about pseudo randomness. He thought about pseudo randomnes…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_2830",
+    "t_start": 2830.3,
+    "t_end": 2922.1,
+    "type": "overview",
+    "summary": "replies sufficient about the program to be able to predict be able to predict another value. That's the definition of a pseudo random function. It's there. Of course, he's using it to argue that machines can be unpredictable. People, you know, and in unpredictable. People, you know, and in his many arguments, uh with others, people say machines, you know, are totally predictable. They are know, are totally predictable. They are thinking maybe of a cow or thinking maybe of a cow or I don't know. I don't know. Um So, anyway, he had this already in Okay. Another thing he had, which again at th…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_2922",
+    "t_start": 2922.1,
+    "t_end": 3016.7,
+    "type": "overview",
+    "summary": "change their own instructions. He's thinking of that already then. People thinking of that already then. People didn't think like that. didn't think like that. He's uh Again, this is in arguments. People say machines may People say machines may you know, they always produce you know, Uh and you don't tolerate it if they make errors. He said, \"If a machine is make errors. He said, \"If a machine is expected to be infallible, it cannot be expected to be infallible, it cannot be intelligent.\" He already proceeds to think that, you know, we should think of learning and know, we should think of l…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_3016",
+    "t_start": 3016.7,
+    "t_end": 3109.3,
+    "type": "overview",
+    "summary": "ago. And then on the pack learning uh theory and book and I was thinking theory and book and I was thinking Turing would have been, you know, really Turing would have been, you know, really happy to see how how developed, how elaborate his ideas were were carried out to be by Valiant were were carried out to be by Valiant and of course many others. and of course many others. Okay, finally I get to Okay, finally I get to uh this uh this uh Turing test, uh imitation game. imitation game. So, he writes again in this uh beautiful style saying, \"Uh how do we beautiful style saying, \"Uh how do we…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_3109",
+    "t_start": 3109.3,
+    "t_end": 3204.6,
+    "type": "overview",
+    "summary": "a human and a robot, and uh you want to test maybe intelligence or maybe the test maybe intelligence or maybe the ability to converse. ability to converse. And uh you think of these two worlds in uh a person in this case who doesn't know which world it is put in, know which world it is put in, communicates with these objects and then communicates with these objects and then decides, gives a number between zero and saying, let's say, \"I think this is a human.\" uh and this number will be P0 in the left and P1 in the right. And you call left and P1 in the right. And you call the robot successf…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_3204",
+    "t_start": 3204.6,
+    "t_end": 3297.0,
+    "type": "overview",
+    "summary": "you know, refer to the uh notion at hand. And one key thing about this uh I think about Turing and I think about all the about Turing and I think about all the work done in the field, often the most work done in the field, often the most important step is making the right important step is making the right notion, defining the right notion. Once you know, the rest of the theory, theorems, proofs, constructions follow. theorems, proofs, constructions follow. And in this case, I'll just demonstrate in a minute or two the power of this particular paradigm, the imitation game particular paradig…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_3296",
+    "t_start": 3297.0,
+    "t_end": 3390.3,
+    "type": "overview",
+    "summary": "so many things that follow from this definition. For example, the fact that definition. For example, the fact that encryption must be probabilistic. This tells you, if it was deterministic, you would try, you know, both and see you would try, you know, both and see which one is encrypted. which one is encrypted. Anyway, secure encryption is defined this way, but in fact, almost every notion in but in fact, almost every notion in cryptography is defined by an imitation cryptography is defined by an imitation game. If you want to know if a protocol computation, you want to know if a protocol …"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_3390",
+    "t_start": 3390.3,
+    "t_end": 3485.8,
+    "type": "overview",
+    "summary": "anti-coins as pseudorandom? Simply let any algorithm, you know, do with them what they like, an efficient algorithm, and produce something. And if it behaves like these gold coins, like a uniform distribution, gold coins, like a uniform distribution, indistinguishable from the uniform distribution, then we call it pseudorandom. And you know what happened pseudorandom. And you know what happened with that. Privacy. So, the seminal notion by now of differential privacy is again, I mean, an imitation game. When is there a way to filter a database to various way to filter a database to various …"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_3485",
+    "t_start": 3485.8,
+    "t_end": 3583.5,
+    "type": "overview",
+    "summary": "minutes to the uh one of the last papers that Turing wrote. Uh also in Manchester. it's a paper in biology. It's called The Chemical Basis of It's called The Chemical Basis of Morphogenesis. I wonder how many people Morphogenesis. I wonder how many people heard about this paper. heard about this paper. Raise your hands. Okay. So, never heard of this. So, this is not just a paper in biology. This is one of just a paper in biology. This is one of the most quoted, one of the most referenced papers in biology. It's like 20,000 references. it's about the problem that, you know, well, I told you …"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_3583",
+    "t_start": 3583.5,
+    "t_end": 3676.6,
+    "type": "overview",
+    "summary": "homogeneous beginning, a fertilized egg. How do you get this? You know, this the stripes, I don't know, the legs, the head, the tail, the know, the legs, the head, the tail, the body direction. It's not just that body direction. It's not just that asymmetry arises from symmetry. asymmetry arises from symmetry. It's not just asymmetry. All zebras look alike, right? We recognize zebras or you recognize So, it's really about how does different structures and what kind of different structures and what kind of this different structures can later So, I don't know if I was faced with this problem,…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_3676",
+    "t_start": 3676.6,
+    "t_end": 3770.9,
+    "type": "overview",
+    "summary": "morphogenesis is the emergence of these rich rich structures from homogeneity. Well, it's based on chemicals, which he calls morphogens, and the system is calls morphogens, and the system is called a reaction-diffusion. I'll called a reaction-diffusion. I'll explain it in a second. Uh, it's just uh nice to read. He's uh, you know, um um uh uh Yeah, he says that uh we we consider it in some detail in the case of an it in some detail in the case of an isolated ring of cells. isolated ring of cells. A mathematically convenient though A mathematically convenient though biologically unusual syst…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_3770",
+    "t_start": 3770.9,
+    "t_end": 3865.0,
+    "type": "overview",
+    "summary": "there's, you know, 9 mg of A and 2 mg of B in this cell and so on. B in this cell and so on. And the way this evolves is by reaction and diffusion. Reaction happens in the cell, diffusion. Reaction happens in the cell, a chemical reaction between whatever a chemical reaction between whatever chemicals are there. chemicals are there. Diffusion happens if your concentration in one cell is different than the concentration, let's different than the concentration, let's say, of chemical A in the other, then there's some diffusion to make them similar at some rate. This is the only input. Of cour…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_3864",
+    "t_start": 3865.0,
+    "t_end": 3955.0,
+    "type": "overview",
+    "summary": "same amount, then some instability will occur, and then in the long term, not only symmetry breaks, but structures emerge, and you can actually quantify emerge, and you can actually quantify and describe them. Let me show you this He actually considers not only a ring of cells, he considers also a sphere, a cells, he considers also a sphere, a three-dimensional model, and he three-dimensional model, and he considers lattices, considers lattices, and he studies them all. in fact, he invents cellular automata before, you know, Ulam and von Neumann. before, you know, Ulam and von Neumann. This…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_3955",
+    "t_start": 3955.0,
+    "t_end": 4050.1,
+    "type": "overview",
+    "summary": "divide, and for a while it's a homogeneous ball of cells. And this is a blastula. In some place, the gastrulation happens, and symmetry breaks, and a direction is formed, basically the direction of the formed, basically the direction of the spine. So, how does this happen? Well, he has this model can explain gastrulation. this model can explain gastrulation. And third object he was really And third object he was really interested in is this dappling, these interested in is this dappling, these patches. And here he doesn't analyze this mathematically. The first two he does. Uh, he he even so…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_4052",
+    "t_start": 4052.8,
+    "t_end": 4145.0,
+    "type": "overview",
+    "summary": "what we do with this, we do uh yeah, we follow him also here. Of course, many uh former members are doing collaborations, introducing the computational point of view in biology, economics. We had a great talk biology, economics. We had a great talk this morning from Michael Feldman about this morning from Michael Feldman about uh uh contracts contracts and computer science point of contact, social science, physics, math, and social science, physics, math, and anything else. anything else. Uh, there are collaborations, cross-fertilization. cross-fertilization. Uh I think that we are seeing o…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_4145",
+    "t_start": 4145.0,
+    "t_end": 4237.7,
+    "type": "overview",
+    "summary": "you is is to read his papers. He writes so beautifully. Uh, clearly, you know, a great thinker and a great thinker and with an amazing amazing impact with an amazing amazing impact on the world, on the what on the world, on the what we are experiencing. I think it's it's really I didn't know that. And again, from reading, you see that. And again, from reading, you see uh his different paths. I mean, he he uh his different paths. I mean, he he loved math and, you know, things like loved math and, you know, things like number theory. Uh, he's a real number theory. Uh, he's a real mathematicia…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_4237",
+    "t_start": 4237.7,
+    "t_end": 4330.4,
+    "type": "overview",
+    "summary": "this. Uh, an encryption machine. Yeah, pretty amazing. Uh, he, yeah, managed to, uh, you know, study really a you know, study really a stunning variety of fundamental issues. stunning variety of fundamental issues. And with each of them, really deeply. I mean, getting to the heart of many of mean, getting to the heart of many of these things. I think it's it's hard to these things. I think it's it's hard to imagine how fearless, I mean, it's hard nothing. He was willing to go anywhere. Uh, he really had a deep desire to understand it to understand these and, of course, use the value of theo…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_4330",
+    "t_start": 4330.4,
+    "t_end": 4425.8,
+    "type": "overview",
+    "summary": "and the way he writes, clarify as this. And, uh, goes for, as you saw, really really simple models. Simple models. Einstein simple models. Simple models. Einstein said is famous for saying, \"Everything should be made as simple as possible, but not simpler.\" And I think that, uh, Turing agreed. And, uh, yeah, and he Before he Before he took out the paper, he said everything he could say about. he said everything he could say about. He He thought it out and said, \"That's He He thought it out and said, \"That's all I have to say. Now you you'll deal Anyway, uh, thank you. I'll end with my my us…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_4432",
+    "t_start": 4432.5,
+    "t_end": 4523.7,
+    "type": "overview",
+    "summary": "the dinner we opened at 7:30 at the restaurant, Glowbal, which is a restaurant, Glowbal, which is a 10-minute walk away from here. 10-minute walk away from here. Um, I don't have directions. Everybody have a phone? That's your question. Yeah, that's good. Um, does somebody want to give directions? I don't uh, I I I think Bruce, do you want I I thought people are intelligent enough to find the restaurant. So, those enough to find the restaurant. So, those there will still be hungry. Who's going there will still be hungry. Who's going to tell people how to get there? to tell people how to get…"
+  },
+  {
+    "id": "ku_video_f2NiGO8zC1c_4523",
+    "t_start": 4523.7,
+    "t_end": 4555.8,
+    "type": "overview",
+    "summary": "turn right. Then, when you get to Georgia, turn right. If you go out the uh, you know, from the, uh, other end entrance on Hornby Street, turn left on entrance on Hornby Street, turn left on Hornby Street. Then, when you get to for go past Granville, uh, go past Richards, you'll get to Seymour. And, Richards, you'll get to Seymour. And, uh, I believe it's on the south uh, I believe it's on the south southeast corner there. And, yeah, it's southeast corner there. And, yeah, it's kind of a massive place. It's hard to"
+  }
+]

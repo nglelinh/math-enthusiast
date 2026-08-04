@@ -1,0 +1,4547 @@
+[
+  {
+    "t_start": 2.649,
+    "t_end": 8.179,
+    "text": "so thank you very much for your kind introduction so as as you as John"
+  },
+  {
+    "t_start": 8.179,
+    "t_end": 12.379,
+    "text": "mentioned in the introduction I had the great privilege of being Andrew Wiles"
+  },
+  {
+    "t_start": 12.379,
+    "t_end": 14.72,
+    "text": "great privilege of being Andrew Wiles postdoc in Princeton in the Yi in the"
+  },
+  {
+    "t_start": 14.72,
+    "t_end": 18.8,
+    "text": "time when the proof of firm are was announced and I remember the the months"
+  },
+  {
+    "t_start": 18.8,
+    "t_end": 22.519,
+    "text": "announced and I remember the the months and even the year after that"
+  },
+  {
+    "t_start": 22.519,
+    "t_end": 25.73,
+    "text": "announcement is where everyone was scrambling to catch up and to understand"
+  },
+  {
+    "t_start": 25.73,
+    "t_end": 27.109,
+    "text": "scrambling to catch up and to understand the ideas that have been introduced as"
+  },
+  {
+    "t_start": 27.109,
+    "t_end": 29.12,
+    "text": "the ideas that have been introduced as among the most exciting of my"
+  },
+  {
+    "t_start": 29.12,
+    "t_end": 30.849,
+    "text": "among the most exciting of my mathematical life so it's a pleasure to"
+  },
+  {
+    "t_start": 30.849,
+    "t_end": 32.84,
+    "text": "mathematical life so it's a pleasure to to be here to take part in the"
+  },
+  {
+    "t_start": 32.84,
+    "t_end": 35.319,
+    "text": "to be here to take part in the celebration of Andrew Wiles achievements"
+  },
+  {
+    "t_start": 35.319,
+    "t_end": 42.41,
+    "text": "celebration of Andrew Wiles achievements so the title of my lecture Andrew Wiles"
+  },
+  {
+    "t_start": 42.41,
+    "t_end": 46.61,
+    "text": "marvelous proof is a reference to the famous sanitation of Burma in the margin"
+  },
+  {
+    "t_start": 46.61,
+    "t_end": 50.029,
+    "text": "famous sanitation of Burma in the margin of his copy of a Diophantus where after"
+  },
+  {
+    "t_start": 50.029,
+    "t_end": 51.86,
+    "text": "of his copy of a Diophantus where after writing down the what was later to be"
+  },
+  {
+    "t_start": 51.86,
+    "t_end": 55.369,
+    "text": "writing down the what was later to be known as from as Last Theorem he wrote I"
+  },
+  {
+    "t_start": 55.369,
+    "t_end": 58.01,
+    "text": "known as from as Last Theorem he wrote I have discovered a truly marvelous proof"
+  },
+  {
+    "t_start": 58.01,
+    "t_end": 64.46,
+    "text": "of this which the margin is too small to contain so of course we will never know"
+  },
+  {
+    "t_start": 64.46,
+    "t_end": 66.109,
+    "text": "contain so of course we will never know what from us"
+  },
+  {
+    "t_start": 66.109,
+    "t_end": 70.64,
+    "text": "marvelous proof was there are even questions about whether this proof"
+  },
+  {
+    "t_start": 70.64,
+    "t_end": 77.48,
+    "text": "actually existed on the other hand we've had the privilege of having of knowing"
+  },
+  {
+    "t_start": 77.48,
+    "t_end": 79.73,
+    "text": "had the privilege of having of knowing Andrew Wiles marvelous proof it's been"
+  },
+  {
+    "t_start": 79.73,
+    "t_end": 83.539,
+    "text": "now in the public domain for over 20 years and he's had a remarkable impact"
+  },
+  {
+    "t_start": 83.539,
+    "t_end": 87.05,
+    "text": "years and he's had a remarkable impact on number theory at mathematics and so"
+  },
+  {
+    "t_start": 87.05,
+    "t_end": 93.58,
+    "text": "on number theory at mathematics and so why I want to talk a little bit about"
+  },
+  {
+    "t_start": 93.58,
+    "t_end": 99.92,
+    "text": "the impact its had and that'll be so what are the goals of my lecture so"
+  },
+  {
+    "t_start": 99.92,
+    "t_end": 108.56,
+    "text": "committee to give this lecture I was told that my mission should I choose to"
+  },
+  {
+    "t_start": 108.56,
+    "t_end": 113.899,
+    "text": "told that my mission should I choose to accept it would be to explain to an"
+  },
+  {
+    "t_start": 113.899,
+    "t_end": 116.69,
+    "text": "accept it would be to explain to an audience of non experts and maybe with"
+  },
+  {
+    "t_start": 116.69,
+    "t_end": 117.77,
+    "text": "audience of non experts and maybe with an undergraduate background in"
+  },
+  {
+    "t_start": 117.77,
+    "t_end": 122.81,
+    "text": "mathematics what are some of the important ideas in Wiles proof and the"
+  },
+  {
+    "t_start": 122.81,
+    "t_end": 124.539,
+    "text": "important ideas in Wiles proof and the reason why they've had such an impact"
+  },
+  {
+    "t_start": 124.539,
+    "t_end": 125.719,
+    "text": "reason why they've had such an impact okay"
+  },
+  {
+    "t_start": 125.719,
+    "t_end": 132.199,
+    "text": "so maybe this is a mission impossible I don't know so in my lecture in fact I'm"
+  },
+  {
+    "t_start": 132.199,
+    "t_end": 134.45,
+    "text": "don't know so in my lecture in fact I'm going to talk say almost nothing"
+  },
+  {
+    "t_start": 134.45,
+    "t_end": 139.28,
+    "text": "about from a sauce theorem but rather I will focus solely on the modularity"
+  },
+  {
+    "t_start": 139.28,
+    "t_end": 141.5,
+    "text": "will focus solely on the modularity conjecture which was also of course one"
+  },
+  {
+    "t_start": 141.5,
+    "t_end": 143.02,
+    "text": "conjecture which was also of course one of the themes in Andrews lecture before"
+  },
+  {
+    "t_start": 143.02,
+    "t_end": 147.86,
+    "text": "of the themes in Andrews lecture before and so I want to talk about I want to"
+  },
+  {
+    "t_start": 147.86,
+    "t_end": 149.09,
+    "text": "and so I want to talk about I want to give you first a feeling for the"
+  },
+  {
+    "t_start": 149.09,
+    "t_end": 151.07,
+    "text": "give you first a feeling for the statement of the modularity conjecture"
+  },
+  {
+    "t_start": 151.07,
+    "t_end": 155.96,
+    "text": "statement of the modularity conjecture but even more I want to convey some of"
+  },
+  {
+    "t_start": 155.96,
+    "t_end": 158.09,
+    "text": "the ideas in the proof that have had later on a tremendous impact on the"
+  },
+  {
+    "t_start": 158.09,
+    "t_end": 163.49,
+    "text": "subject and sort of present a larger context in which this proof fits in this"
+  },
+  {
+    "t_start": 163.49,
+    "t_end": 170.0,
+    "text": "context in which this proof fits in this is my goal for my talk so let me begin"
+  },
+  {
+    "t_start": 170.0,
+    "t_end": 172.82,
+    "text": "by reminding you or or telling you I guess some of the reasons why this"
+  },
+  {
+    "t_start": 172.82,
+    "t_end": 174.68,
+    "text": "guess some of the reasons why this modularity theorem of Wiles is so"
+  },
+  {
+    "t_start": 174.68,
+    "t_end": 181.7,
+    "text": "important so of course the first one is that the most well-known is that it"
+  },
+  {
+    "t_start": 181.7,
+    "t_end": 185.63,
+    "text": "supplies from as last theorem this is what had of course the greatest public"
+  },
+  {
+    "t_start": 185.63,
+    "t_end": 189.53,
+    "text": "what had of course the greatest public impact it was feature in the front page"
+  },
+  {
+    "t_start": 189.53,
+    "t_end": 192.11,
+    "text": "of the New York Times a rather large spread that came out in the days"
+  },
+  {
+    "t_start": 192.11,
+    "t_end": 195.11,
+    "text": "spread that came out in the days following Andrews announcement and it"
+  },
+  {
+    "t_start": 195.11,
+    "t_end": 199.58,
+    "text": "following Andrews announcement and it led to the publication of some very"
+  },
+  {
+    "t_start": 199.58,
+    "t_end": 200.6,
+    "text": "popular books like the one of Simon saying which you'll be hearing about"
+  },
+  {
+    "t_start": 200.6,
+    "t_end": 204.76,
+    "text": "saying which you'll be hearing about more I guess in the afternoons lecture"
+  },
+  {
+    "t_start": 204.76,
+    "t_end": 209.96,
+    "text": "more I guess in the afternoons lecture the second reason is that it's a crucial"
+  },
+  {
+    "t_start": 209.96,
+    "t_end": 211.55,
+    "text": "central statement and the fear of elliptic curves and futility occurs is"
+  },
+  {
+    "t_start": 211.55,
+    "t_end": 214.699,
+    "text": "elliptic curves and futility occurs is itself a very important part of number"
+  },
+  {
+    "t_start": 214.699,
+    "t_end": 216.8,
+    "text": "itself a very important part of number theory today and this is something"
+  },
+  {
+    "t_start": 216.8,
+    "t_end": 218.33,
+    "text": "theory today and this is something that's going to be discussed in more"
+  },
+  {
+    "t_start": 218.33,
+    "t_end": 221.24,
+    "text": "that's going to be discussed in more detail in a manual bargainers lecture"
+  },
+  {
+    "t_start": 221.24,
+    "t_end": 225.949,
+    "text": "detail in a manual bargainers lecture the first lecture this afternoon but the"
+  },
+  {
+    "t_start": 225.949,
+    "t_end": 229.61,
+    "text": "the first lecture this afternoon but the third reason and this is also can"
+  },
+  {
+    "t_start": 229.61,
+    "t_end": 231.41,
+    "text": "conveyed a little bit in the andrews lecture before is that this small you"
+  },
+  {
+    "t_start": 231.41,
+    "t_end": 233.66,
+    "text": "lecture before is that this small you already conjecture for the two curves is"
+  },
+  {
+    "t_start": 233.66,
+    "t_end": 235.58,
+    "text": "already conjecture for the two curves is actually a small part of a much larger"
+  },
+  {
+    "t_start": 235.58,
+    "t_end": 238.1,
+    "text": "actually a small part of a much larger picture concern for is with"
+  },
+  {
+    "t_start": 238.1,
+    "t_end": 240.47,
+    "text": "picture concern for is with understanding non abelian extensions of"
+  },
+  {
+    "t_start": 240.47,
+    "t_end": 242.39,
+    "text": "understanding non abelian extensions of the rationals this picture was"
+  },
+  {
+    "t_start": 242.39,
+    "t_end": 243.68,
+    "text": "the rationals this picture was elaborated by a number of mathematicians"
+  },
+  {
+    "t_start": 243.68,
+    "t_end": 246.86,
+    "text": "elaborated by a number of mathematicians among them Kimura and line lines and has"
+  },
+  {
+    "t_start": 246.86,
+    "t_end": 249.5,
+    "text": "among them Kimura and line lines and has since then been become known as the"
+  },
+  {
+    "t_start": 249.5,
+    "t_end": 252.83,
+    "text": "since then been become known as the Langlands program and this is the aspect"
+  },
+  {
+    "t_start": 252.83,
+    "t_end": 258.199,
+    "text": "Langlands program and this is the aspect I want to focus on the role of I mean"
+  },
+  {
+    "t_start": 258.199,
+    "t_end": 260.42,
+    "text": "whether the place of Andrew Wiles work within the larger framework of the"
+  },
+  {
+    "t_start": 260.42,
+    "t_end": 266.08,
+    "text": "language program and the remarkable progress and it's led to in this program"
+  },
+  {
+    "t_start": 266.08,
+    "t_end": 269.09,
+    "text": "progress and it's led to in this program okay so the landlines program has often"
+  },
+  {
+    "t_start": 269.09,
+    "t_end": 270.77,
+    "text": "okay so the landlines program has often been called one of the grand unifying"
+  },
+  {
+    "t_start": 270.77,
+    "t_end": 273.68,
+    "text": "been called one of the grand unifying theories revisions in in mathematics and"
+  },
+  {
+    "t_start": 273.68,
+    "t_end": 279.11,
+    "text": "theories revisions in in mathematics and number theory in particular roughly"
+  },
+  {
+    "t_start": 279.11,
+    "t_end": 280.97,
+    "text": "speaking it's a kind of it connects questions of number theory questions"
+  },
+  {
+    "t_start": 280.97,
+    "t_end": 285.98,
+    "text": "about whole numbers dire facts and equations with mathematical structures"
+  },
+  {
+    "t_start": 285.98,
+    "t_end": 291.16,
+    "text": "equations with mathematical structures our priori seem completely unrelated"
+  },
+  {
+    "t_start": 291.16,
+    "t_end": 294.2,
+    "text": "having to do with analysis with continuous transformation groups of a"
+  },
+  {
+    "t_start": 294.2,
+    "t_end": 297.62,
+    "text": "continuous transformation groups of a kind that were for example studied by so"
+  },
+  {
+    "t_start": 297.62,
+    "t_end": 302.69,
+    "text": "fiercely another great Norwegian mathematician so yes this graphic is"
+  },
+  {
+    "t_start": 302.69,
+    "t_end": 308.15,
+    "text": "mathematician so yes this graphic is meant to kind of convey this kind of"
+  },
+  {
+    "t_start": 308.15,
+    "t_end": 313.01,
+    "text": "little bit more try to kind of be a bit more precise about what the nature of"
+  },
+  {
+    "t_start": 313.01,
+    "t_end": 317.24,
+    "text": "this program is what it does so I want to give a kind of beginning a beginner's"
+  },
+  {
+    "t_start": 317.24,
+    "t_end": 319.159,
+    "text": "to give a kind of beginning a beginner's guide to the Langlands program without"
+  },
+  {
+    "t_start": 319.159,
+    "t_end": 322.159,
+    "text": "guide to the Langlands program without assuming any prior background so at"
+  },
+  {
+    "t_start": 322.159,
+    "t_end": 325.94,
+    "text": "least to give you a feeling for the kind of questions that the language program"
+  },
+  {
+    "t_start": 325.94,
+    "t_end": 330.53,
+    "text": "of questions that the language program tries to understand so I'm going to"
+  },
+  {
+    "t_start": 330.53,
+    "t_end": 333.409,
+    "text": "tries to understand so I'm going to begin with objects that are the mainstay"
+  },
+  {
+    "t_start": 333.409,
+    "t_end": 335.78,
+    "text": "begin with objects that are the mainstay of number theory namely Diophantine"
+  },
+  {
+    "t_start": 335.78,
+    "t_end": 341.93,
+    "text": "equations so dire fact in equation is simply a polynomial in a certain number"
+  },
+  {
+    "t_start": 341.93,
+    "t_end": 344.95,
+    "text": "simply a polynomial in a certain number of variables with integer coefficients"
+  },
+  {
+    "t_start": 344.95,
+    "t_end": 351.26,
+    "text": "okay so something like this and one could also if wanted to be a little bit"
+  },
+  {
+    "t_start": 351.26,
+    "t_end": 356.03,
+    "text": "polynomials but I'm not going to do that for me one polynomial is quite enough"
+  },
+  {
+    "t_start": 356.03,
+    "t_end": 358.13,
+    "text": "for me one polynomial is quite enough for the examples are consider so some"
+  },
+  {
+    "t_start": 358.13,
+    "t_end": 359.659,
+    "text": "for the examples are consider so some very classical examples of Daiya"
+  },
+  {
+    "t_start": 359.659,
+    "t_end": 365.62,
+    "text": "fountain equations are the of course for mass equation which is one of the main"
+  },
+  {
+    "t_start": 365.62,
+    "t_end": 370.04,
+    "text": "mass equation which is one of the main themes of this this week I guess another"
+  },
+  {
+    "t_start": 370.04,
+    "t_end": 373.46,
+    "text": "themes of this this week I guess another example is the which is also very well"
+  },
+  {
+    "t_start": 373.46,
+    "t_end": 375.11,
+    "text": "example is the which is also very well studied and then celebrated the"
+  },
+  {
+    "t_start": 375.11,
+    "t_end": 377.09,
+    "text": "studied and then celebrated the so-called prime equipped Appel equation"
+  },
+  {
+    "t_start": 377.09,
+    "t_end": 380.719,
+    "text": "that was studied first by the Indian mathematician in Burma Gupta in the 7th"
+  },
+  {
+    "t_start": 380.719,
+    "t_end": 383.93,
+    "text": "mathematician in Burma Gupta in the 7th century so it's equation expert minus dy"
+  },
+  {
+    "t_start": 383.93,
+    "t_end": 388.58,
+    "text": "century so it's equation expert minus dy squared equals one where x and y are the"
+  },
+  {
+    "t_start": 388.58,
+    "t_end": 392.3,
+    "text": "variables and G is kind of a parameter of the equation and finally third class"
+  },
+  {
+    "t_start": 392.3,
+    "t_end": 394.04,
+    "text": "of the equation and finally third class of equations is also very important for"
+  },
+  {
+    "t_start": 394.04,
+    "t_end": 396.29,
+    "text": "of equations is also very important for a study are the elliptic curves the"
+  },
+  {
+    "t_start": 396.29,
+    "t_end": 402.21,
+    "text": "cubic equations in two variables x and y we're here a and B are parameters of the"
+  },
+  {
+    "t_start": 402.21,
+    "t_end": 403.74,
+    "text": "we're here a and B are parameters of the equation which could be integers it"
+  },
+  {
+    "t_start": 403.74,
+    "t_end": 408.9,
+    "text": "might also be rational numbers okay so what makes this study Diophantine why do"
+  },
+  {
+    "t_start": 408.9,
+    "t_end": 410.43,
+    "text": "what makes this study Diophantine why do we call these different equations is"
+  },
+  {
+    "t_start": 410.43,
+    "t_end": 412.97,
+    "text": "we call these different equations is that we're interested in the set of"
+  },
+  {
+    "t_start": 412.97,
+    "t_end": 415.65,
+    "text": "that we're interested in the set of solutions to the equation will either"
+  },
+  {
+    "t_start": 415.65,
+    "t_end": 422.37,
+    "text": "integer values or sometimes as the case may be rational coordinates so we were"
+  },
+  {
+    "t_start": 422.37,
+    "t_end": 427.7,
+    "text": "may be rational coordinates so we were interested in he sets X of Z sorry"
+  },
+  {
+    "t_start": 432.18,
+    "t_end": 437.76,
+    "text": "accept Z of integer solutions or X of Q of rational solutions okay so one of the"
+  },
+  {
+    "t_start": 437.76,
+    "t_end": 440.25,
+    "text": "of rational solutions okay so one of the insights which at first seems rather"
+  },
+  {
+    "t_start": 440.25,
+    "t_end": 441.54,
+    "text": "insights which at first seems rather simple-minded but turns out to be"
+  },
+  {
+    "t_start": 441.54,
+    "t_end": 444.27,
+    "text": "simple-minded but turns out to be remarkably profound in the study of"
+  },
+  {
+    "t_start": 444.27,
+    "t_end": 446.07,
+    "text": "remarkably profound in the study of Diophantus equation is that one can gain"
+  },
+  {
+    "t_start": 446.07,
+    "t_end": 450.78,
+    "text": "a lot of handle on the equation say if you want to resent the integer solutions"
+  },
+  {
+    "t_start": 450.78,
+    "t_end": 453.39,
+    "text": "you want to resent the integer solutions by trying to understand first equation"
+  },
+  {
+    "t_start": 453.39,
+    "t_end": 456.36,
+    "text": "by trying to understand first equation over simpler number systems and in"
+  },
+  {
+    "t_start": 456.36,
+    "t_end": 458.91,
+    "text": "over simpler number systems and in algebra one of the simplest number"
+  },
+  {
+    "t_start": 458.91,
+    "t_end": 462.09,
+    "text": "systems simpler than the integers of the rational numbers or something and the"
+  },
+  {
+    "t_start": 462.09,
+    "t_end": 467.55,
+    "text": "rational numbers or something and the real numbers are the set of residues"
+  },
+  {
+    "t_start": 467.55,
+    "t_end": 469.47,
+    "text": "modulo given integer n which already made an appearance in in Andrews lecture"
+  },
+  {
+    "t_start": 469.47,
+    "t_end": 474.81,
+    "text": "made an appearance in in Andrews lecture before so the set of integers from 0 to"
+  },
+  {
+    "t_start": 474.81,
+    "t_end": 476.07,
+    "text": "n minus 1 equipped with the usual arithmetic operations of addition"
+  },
+  {
+    "t_start": 476.07,
+    "t_end": 482.22,
+    "text": "subtraction and multiplication but where every time you take the remainder after"
+  },
+  {
+    "t_start": 482.22,
+    "t_end": 486.99,
+    "text": "every time you take the remainder after division by n to stay within this set so"
+  },
+  {
+    "t_start": 486.99,
+    "t_end": 492.87,
+    "text": "classes modulo n it's a nice color so the residue ring modulo n and so it's"
+  },
+  {
+    "t_start": 492.87,
+    "t_end": 494.33,
+    "text": "the residue ring modulo n and so it's equipped with all these natural"
+  },
+  {
+    "t_start": 494.33,
+    "t_end": 496.2,
+    "text": "equipped with all these natural arithmetic operations addition"
+  },
+  {
+    "t_start": 496.2,
+    "t_end": 505.2,
+    "text": "subtraction and multiplication and it's particularly simple system for example"
+  },
+  {
+    "t_start": 505.2,
+    "t_end": 509.01,
+    "text": "it's a finite set and in fact if the modulus n is a prime number then this is"
+  },
+  {
+    "t_start": 509.01,
+    "t_end": 510.53,
+    "text": "modulus n is a prime number then this is how to break structure is even nicer"
+  },
+  {
+    "t_start": 510.53,
+    "t_end": 513.45,
+    "text": "how to break structure is even nicer it's it what's called the field it's"
+  },
+  {
+    "t_start": 513.45,
+    "t_end": 514.86,
+    "text": "it's it what's called the field it's endowed with an extra arithmetic"
+  },
+  {
+    "t_start": 514.86,
+    "t_end": 516.75,
+    "text": "endowed with an extra arithmetic operation of division namely every"
+  },
+  {
+    "t_start": 516.75,
+    "t_end": 519.33,
+    "text": "operation of division namely every element has a multiplicative inverse an"
+  },
+  {
+    "t_start": 519.33,
+    "t_end": 521.1,
+    "text": "element has a multiplicative inverse an inverse under multiplication so you can"
+  },
+  {
+    "t_start": 521.1,
+    "t_end": 523.59,
+    "text": "inverse under multiplication so you can within this algebraic structure which"
+  },
+  {
+    "t_start": 523.59,
+    "t_end": 527.94,
+    "text": "within this algebraic structure which seems our priori very simple you can"
+  },
+  {
+    "t_start": 527.94,
+    "t_end": 530.08,
+    "text": "even perform division by nonzero elements"
+  },
+  {
+    "t_start": 530.08,
+    "t_end": 537.13,
+    "text": "and in fact this fact that the residue ring modulo P is a field has a division"
+  },
+  {
+    "t_start": 537.13,
+    "t_end": 539.41,
+    "text": "ring modulo P is a field has a division is a property that characterizes the"
+  },
+  {
+    "t_start": 539.41,
+    "t_end": 541.81,
+    "text": "is a property that characterizes the prime numbers among all integers and in"
+  },
+  {
+    "t_start": 541.81,
+    "t_end": 544.87,
+    "text": "prime numbers among all integers and in fact it's a very very valuable algebraic"
+  },
+  {
+    "t_start": 544.87,
+    "t_end": 546.16,
+    "text": "fact it's a very very valuable algebraic characterization of the primes isn't"
+  },
+  {
+    "t_start": 546.16,
+    "t_end": 547.42,
+    "text": "characterization of the primes isn't realize from for example many prime"
+  },
+  {
+    "t_start": 547.42,
+    "t_end": 553.18,
+    "text": "realize from for example many prime ality tests and if I scan wahoo also"
+  },
+  {
+    "t_start": 553.18,
+    "t_end": 556.39,
+    "text": "ality tests and if I scan wahoo also appeared a previous lecture and I'm sure"
+  },
+  {
+    "t_start": 556.39,
+    "t_end": 558.42,
+    "text": "appeared a previous lecture and I'm sure in a number of other discussions today"
+  },
+  {
+    "t_start": 558.42,
+    "t_end": 563.38,
+    "text": "in a number of other discussions today also observed I mean one of his big"
+  },
+  {
+    "t_start": 563.38,
+    "t_end": 569.019,
+    "text": "theory which is famous for was to see that for every prime power repower the"
+  },
+  {
+    "t_start": 569.019,
+    "t_end": 574.99,
+    "text": "prime there is in fact a field a finite field of that cardinality so a structure"
+  },
+  {
+    "t_start": 574.99,
+    "t_end": 576.61,
+    "text": "field of that cardinality so a structure in which the four basic arithmetic"
+  },
+  {
+    "t_start": 576.61,
+    "t_end": 581.2,
+    "text": "in which the four basic arithmetic operations are defined and in which you"
+  },
+  {
+    "t_start": 581.2,
+    "t_end": 586.829,
+    "text": "arithmetic and in fact this field with P to the R elements is even unique up to"
+  },
+  {
+    "t_start": 586.829,
+    "t_end": 592.12,
+    "text": "to the R elements is even unique up to isomorphism of structures okay so if we"
+  },
+  {
+    "t_start": 592.12,
+    "t_end": 595.84,
+    "text": "have one of these finite fields well we can consider the set of solutions of the"
+  },
+  {
+    "t_start": 595.84,
+    "t_end": 601.78,
+    "text": "can consider the set of solutions of the equation of the V so what we have now"
+  },
+  {
+    "t_start": 601.78,
+    "t_end": 603.46,
+    "text": "are X which is a which is a polynomial equation so some polynomial while they"
+  },
+  {
+    "t_start": 603.46,
+    "t_end": 605.079,
+    "text": "equation so some polynomial while they coefficients the polynomial or integers"
+  },
+  {
+    "t_start": 605.079,
+    "t_end": 608.74,
+    "text": "coefficients the polynomial or integers but an integer can be viewed as an"
+  },
+  {
+    "t_start": 608.74,
+    "t_end": 610.54,
+    "text": "element of this finite field by taking the corresponding residue class and"
+  },
+  {
+    "t_start": 610.54,
+    "t_end": 619.12,
+    "text": "therefore we can consider the set of all values of x1 up to xn in this finite"
+  },
+  {
+    "t_start": 619.12,
+    "t_end": 622.57,
+    "text": "values of x1 up to xn in this finite field which satisfy the equation so this"
+  },
+  {
+    "t_start": 622.57,
+    "t_end": 624.37,
+    "text": "field which satisfy the equation so this solution set is of course a finite set"
+  },
+  {
+    "t_start": 624.37,
+    "t_end": 632.38,
+    "text": "since x1 up to xn are ranging over FP to the years to the AR and therefore while"
+  },
+  {
+    "t_start": 632.38,
+    "t_end": 633.64,
+    "text": "the years to the AR and therefore while over the most basic invariant we can"
+  },
+  {
+    "t_start": 633.64,
+    "t_end": 635.32,
+    "text": "over the most basic invariant we can associate to this status is cardinality"
+  },
+  {
+    "t_start": 635.32,
+    "t_end": 640.12,
+    "text": "associate to this status is cardinality which I will call n sub P to the yard so"
+  },
+  {
+    "t_start": 640.12,
+    "t_end": 642.82,
+    "text": "in this way we obtain an arithmetic sequence and P and P squared etc which"
+  },
+  {
+    "t_start": 642.82,
+    "t_end": 647.23,
+    "text": "is indexed by the powers of a fixed prime P and some one question we could"
+  },
+  {
+    "t_start": 647.23,
+    "t_end": 648.85,
+    "text": "prime P and some one question we could ask is how does this sequence behave"
+  },
+  {
+    "t_start": 648.85,
+    "t_end": 651.97,
+    "text": "ask is how does this sequence behave does it satisfy any nice patterns or"
+  },
+  {
+    "t_start": 651.97,
+    "t_end": 653.17,
+    "text": "does it satisfy any nice patterns or what patterns are satisfied this"
+  },
+  {
+    "t_start": 653.17,
+    "t_end": 655.48,
+    "text": "what patterns are satisfied this sequence now a typical gambit when"
+  },
+  {
+    "t_start": 655.48,
+    "t_end": 657.449,
+    "text": "sequence now a typical gambit when you're trying to understand the sequence"
+  },
+  {
+    "t_start": 657.449,
+    "t_end": 660.67,
+    "text": "you're trying to understand the sequence in arithmetic or combinatorics or many"
+  },
+  {
+    "t_start": 660.67,
+    "t_end": 662.72,
+    "text": "in arithmetic or combinatorics or many other parts of mathematics"
+  },
+  {
+    "t_start": 662.72,
+    "t_end": 667.55,
+    "text": "to try to package this sequence in a generating series so the most naive"
+  },
+  {
+    "t_start": 667.55,
+    "t_end": 673.129,
+    "text": "thing to do would be to consider the sum of n P to the R times T to the R so the"
+  },
+  {
+    "t_start": 673.129,
+    "t_end": 675.41,
+    "text": "of n P to the R times T to the R so the infinite power series like that or T is"
+  },
+  {
+    "t_start": 675.41,
+    "t_end": 677.15,
+    "text": "infinite power series like that or T is just a formal variable and see what you"
+  },
+  {
+    "t_start": 677.15,
+    "t_end": 680.509,
+    "text": "just a formal variable and see what you can say about this series for technical"
+  },
+  {
+    "t_start": 680.509,
+    "t_end": 682.759,
+    "text": "can say about this series for technical reasons it turns out to be better to"
+  },
+  {
+    "t_start": 682.759,
+    "t_end": 684.86,
+    "text": "reasons it turns out to be better to consider this kind of modified series"
+  },
+  {
+    "t_start": 684.86,
+    "t_end": 687.56,
+    "text": "consider this kind of modified series when you divide the arch term by the"
+  },
+  {
+    "t_start": 687.56,
+    "t_end": 692.03,
+    "text": "when you divide the arch term by the integer R and in fact even to"
+  },
+  {
+    "t_start": 692.03,
+    "t_end": 694.25,
+    "text": "integer R and in fact even to exponentiate it to apply the exponential"
+  },
+  {
+    "t_start": 694.25,
+    "t_end": 695.9,
+    "text": "exponentiate it to apply the exponential which is you another formal power series"
+  },
+  {
+    "t_start": 695.9,
+    "t_end": 701.21,
+    "text": "which is you another formal power series in the variable T okay this power series"
+  },
+  {
+    "t_start": 701.21,
+    "t_end": 710.389,
+    "text": "definition I gave here it turns out to have actually integer coefficients okay"
+  },
+  {
+    "t_start": 710.389,
+    "t_end": 715.91,
+    "text": "these this is what leads us to the zeta function of the equation X associated to"
+  },
+  {
+    "t_start": 715.91,
+    "t_end": 718.49,
+    "text": "function of the equation X associated to a fixed prime P and these Zeta functions"
+  },
+  {
+    "t_start": 718.49,
+    "t_end": 722.689,
+    "text": "a fixed prime P and these Zeta functions were somehow implicit already I think in"
+  },
+  {
+    "t_start": 722.689,
+    "t_end": 724.34,
+    "text": "were somehow implicit already I think in the work of Gauss maybe even before that"
+  },
+  {
+    "t_start": 724.34,
+    "t_end": 727.61,
+    "text": "the work of Gauss maybe even before that and they were first formally defined by"
+  },
+  {
+    "t_start": 727.61,
+    "t_end": 735.59,
+    "text": "Artin and Hass a at the beginning of the 20th century okay so we it turns out we"
+  },
+  {
+    "t_start": 735.59,
+    "t_end": 737.389,
+    "text": "20th century okay so we it turns out we know a lot about these Zeta functions"
+  },
+  {
+    "t_start": 737.389,
+    "t_end": 739.61,
+    "text": "know a lot about these Zeta functions they have many beautiful remarkable"
+  },
+  {
+    "t_start": 739.61,
+    "t_end": 742.73,
+    "text": "they have many beautiful remarkable properties so the first fundamental we"
+  },
+  {
+    "t_start": 742.73,
+    "t_end": 747.889,
+    "text": "thought we have about them is that they're actually rational functions in T"
+  },
+  {
+    "t_start": 747.889,
+    "t_end": 754.97,
+    "text": "the zeta function is actually a ratio of polynomials P and Q in the variable T so"
+  },
+  {
+    "t_start": 754.97,
+    "t_end": 757.189,
+    "text": "polynomials P and Q in the variable T so that's the first which was proved by"
+  },
+  {
+    "t_start": 757.189,
+    "t_end": 764.15,
+    "text": "that's the first which was proved by very I mean they'd work the second thing"
+  },
+  {
+    "t_start": 764.15,
+    "t_end": 766.49,
+    "text": "very I mean they'd work the second thing we know and this is a remarkable insight"
+  },
+  {
+    "t_start": 766.49,
+    "t_end": 767.78,
+    "text": "we know and this is a remarkable insight which was interesting introduced first"
+  },
+  {
+    "t_start": 767.78,
+    "t_end": 772.1,
+    "text": "which was interesting introduced first by vais and was part of what are called"
+  },
+  {
+    "t_start": 772.1,
+    "t_end": 774.199,
+    "text": "the vague conjecture z' is that the degrees of this numerator and"
+  },
+  {
+    "t_start": 774.199,
+    "t_end": 775.55,
+    "text": "degrees of this numerator and denominator that occur in the zeta"
+  },
+  {
+    "t_start": 775.55,
+    "t_end": 782.09,
+    "text": "function are determined by the shape of the complex solutions of the equation so"
+  },
+  {
+    "t_start": 782.09,
+    "t_end": 783.71,
+    "text": "the complex solutions of the equation so this is a remarkable interaction between"
+  },
+  {
+    "t_start": 783.71,
+    "t_end": 785.569,
+    "text": "this is a remarkable interaction between so this counting functions which i"
+  },
+  {
+    "t_start": 785.569,
+    "t_end": 788.18,
+    "text": "so this counting functions which i priori are formed by by counting"
+  },
+  {
+    "t_start": 788.18,
+    "t_end": 790.16,
+    "text": "priori are formed by by counting solutions of the equation modulo various"
+  },
+  {
+    "t_start": 790.16,
+    "t_end": 795.29,
+    "text": "solutions of the equation modulo various prime e modulus are in various finite"
+  },
+  {
+    "t_start": 795.29,
+    "t_end": 800.45,
+    "text": "and that somehow is connects with the topology of a complex solutions this is"
+  },
+  {
+    "t_start": 800.45,
+    "t_end": 801.47,
+    "text": "topology of a complex solutions this is the first indication these deep"
+  },
+  {
+    "t_start": 801.47,
+    "t_end": 803.57,
+    "text": "the first indication these deep principles of of kind of resonance"
+  },
+  {
+    "t_start": 803.57,
+    "t_end": 810.5,
+    "text": "between the behaviors of the equations over different fields and the third fact"
+  },
+  {
+    "t_start": 810.5,
+    "t_end": 815.99,
+    "text": "over different fields and the third fact we know about is that the roots of these"
+  },
+  {
+    "t_start": 815.99,
+    "t_end": 820.01,
+    "text": "roots are complex numbers of some given absolute value this last fact is there's"
+  },
+  {
+    "t_start": 820.01,
+    "t_end": 821.18,
+    "text": "absolute value this last fact is there's a very important is what's called the"
+  },
+  {
+    "t_start": 821.18,
+    "t_end": 822.62,
+    "text": "a very important is what's called the Riemann hypothesis for the zeta function"
+  },
+  {
+    "t_start": 822.62,
+    "t_end": 829.81,
+    "text": "Riemann hypothesis for the zeta function and is one of the things that earned the"
+  },
+  {
+    "t_start": 832.73,
+    "t_end": 838.22,
+    "text": "for the land grants program but I wanted to get to and that's simply the question"
+  },
+  {
+    "t_start": 838.22,
+    "t_end": 843.68,
+    "text": "to get to and that's simply the question that arises if you try to understand the"
+  },
+  {
+    "t_start": 843.68,
+    "t_end": 847.22,
+    "text": "function which to a prime P Associates this number NP discounting function or"
+  },
+  {
+    "t_start": 847.22,
+    "t_end": 850.43,
+    "text": "this number NP discounting function or if you want to be a little bit more"
+  },
+  {
+    "t_start": 850.43,
+    "t_end": 860.21,
+    "text": "associates the zeta function so how this is a function of an equation vary as a"
+  },
+  {
+    "t_start": 860.21,
+    "t_end": 865.49,
+    "text": "function of the prime P and so yeah so this is the question we will see a in"
+  },
+  {
+    "t_start": 865.49,
+    "t_end": 873.41,
+    "text": "the the study of the Z dependence of this function has least deep insights"
+  },
+  {
+    "t_start": 873.41,
+    "t_end": 874.85,
+    "text": "this function has least deep insights about the behavior of the equation over"
+  },
+  {
+    "t_start": 874.85,
+    "t_end": 879.95,
+    "text": "the integers of the rational numbers that's the first thing and I was away I"
+  },
+  {
+    "t_start": 879.95,
+    "t_end": 881.3,
+    "text": "that's the first thing and I was away I mean keeping in line with this"
+  },
+  {
+    "t_start": 881.3,
+    "t_end": 882.62,
+    "text": "mean keeping in line with this philosophy of packaging the arithmetic"
+  },
+  {
+    "t_start": 882.62,
+    "t_end": 885.02,
+    "text": "philosophy of packaging the arithmetic information into a generating series we"
+  },
+  {
+    "t_start": 885.02,
+    "t_end": 887.06,
+    "text": "information into a generating series we can define the zeta function of the"
+  },
+  {
+    "t_start": 887.06,
+    "t_end": 889.79,
+    "text": "can define the zeta function of the Diophantus equation over the integers by"
+  },
+  {
+    "t_start": 889.79,
+    "t_end": 895.43,
+    "text": "Diophantus equation over the integers by taking a product over all the primes of"
+  },
+  {
+    "t_start": 895.43,
+    "t_end": 896.93,
+    "text": "these Zeta functions but now we don't want to just take the product as 8ft"
+  },
+  {
+    "t_start": 896.93,
+    "t_end": 898.82,
+    "text": "want to just take the product as 8ft because that might have convergence"
+  },
+  {
+    "t_start": 898.82,
+    "t_end": 904.91,
+    "text": "issues but rather we plug in P to the minus s in the zeta function at P and"
+  },
+  {
+    "t_start": 904.91,
+    "t_end": 906.17,
+    "text": "minus s in the zeta function at P and then take the infinite product and hope"
+  },
+  {
+    "t_start": 906.17,
+    "t_end": 907.49,
+    "text": "then take the infinite product and hope that that converges somewhere which it"
+  },
+  {
+    "t_start": 907.49,
+    "t_end": 912.29,
+    "text": "always does so here s you can think of as an integer variable and it's a fact"
+  },
+  {
+    "t_start": 912.29,
+    "t_end": 914.45,
+    "text": "as an integer variable and it's a fact that this infinite product converges"
+  },
+  {
+    "t_start": 914.45,
+    "t_end": 919.36,
+    "text": "that this infinite product converges once s is large enough okay"
+  },
+  {
+    "t_start": 919.36,
+    "t_end": 923.739,
+    "text": "so let me begin with the simplest kind of equations that could arise the"
+  },
+  {
+    "t_start": 923.739,
+    "t_end": 928.03,
+    "text": "equation x equals 0 well in that case it's very easy to solve over any field"
+  },
+  {
+    "t_start": 928.03,
+    "t_end": 929.35,
+    "text": "it's very easy to solve over any field whatsoever the number of solutions is"
+  },
+  {
+    "t_start": 929.35,
+    "t_end": 934.449,
+    "text": "whatsoever the number of solutions is always 1 so this is the equation for a"
+  },
+  {
+    "t_start": 934.449,
+    "t_end": 937.299,
+    "text": "points if you think of an algebraic geometry terms and therefore they a"
+  },
+  {
+    "t_start": 937.299,
+    "t_end": 943.119,
+    "text": "number NP to the R is always equal to 1 so that means that if you define if you"
+  },
+  {
+    "t_start": 943.119,
+    "t_end": 945.999,
+    "text": "so that means that if you define if you look at the zeta function okay there's a"
+  },
+  {
+    "t_start": 945.999,
+    "t_end": 951.639,
+    "text": "usually the sum of T to the R over R which is this simple rational function 1"
+  },
+  {
+    "t_start": 951.639,
+    "t_end": 954.819,
+    "text": "which is this simple rational function 1 minus T universe and then the infinite"
+  },
+  {
+    "t_start": 954.819,
+    "t_end": 960.009,
+    "text": "minus T universe and then the infinite product over all the primes of this you"
+  },
+  {
+    "t_start": 960.009,
+    "t_end": 963.16,
+    "text": "affiliate products pression for the Riemann zeta function and indeed what"
+  },
+  {
+    "t_start": 963.16,
+    "t_end": 968.86,
+    "text": "you get at the end is just the famous Riemann zeta function so you can already"
+  },
+  {
+    "t_start": 968.86,
+    "t_end": 971.92,
+    "text": "Riemann zeta function so you can already see for the simplest conceivable daya"
+  },
+  {
+    "t_start": 971.92,
+    "t_end": 973.48,
+    "text": "see for the simplest conceivable daya fountain equation the zeta function is"
+  },
+  {
+    "t_start": 973.48,
+    "t_end": 975.489,
+    "text": "fountain equation the zeta function is already a very interesting object which"
+  },
+  {
+    "t_start": 975.489,
+    "t_end": 977.079,
+    "text": "already a very interesting object which with many years of course many"
+  },
+  {
+    "t_start": 977.079,
+    "t_end": 981.639,
+    "text": "with many years of course many interesting questions about it so let's"
+  },
+  {
+    "t_start": 981.639,
+    "t_end": 989.47,
+    "text": "it's the case of quadratic equations in one variable so as you all learned in"
+  },
+  {
+    "t_start": 989.47,
+    "t_end": 990.939,
+    "text": "one variable so as you all learned in grade school when you said equal an"
+  },
+  {
+    "t_start": 990.939,
+    "t_end": 993.22,
+    "text": "grade school when you said equal an equation the basic invariant that"
+  },
+  {
+    "t_start": 993.22,
+    "t_end": 997.499,
+    "text": "governs the behavior of the equation is a discriminant b squared minus 4ac and"
+  },
+  {
+    "t_start": 997.499,
+    "t_end": 1000.119,
+    "text": "a discriminant b squared minus 4ac and you know that the equation has two roots"
+  },
+  {
+    "t_start": 1000.119,
+    "t_end": 1002.129,
+    "text": "you know that the equation has two roots when the discriminant is a non zero"
+  },
+  {
+    "t_start": 1002.129,
+    "t_end": 1004.799,
+    "text": "when the discriminant is a non zero square and the zero roots if the"
+  },
+  {
+    "t_start": 1004.799,
+    "t_end": 1009.36,
+    "text": "discriminant is a non square and that fact is true algebraically over any"
+  },
+  {
+    "t_start": 1009.36,
+    "t_end": 1012.66,
+    "text": "fact is true algebraically over any field and so we know we see that"
+  },
+  {
+    "t_start": 1012.66,
+    "t_end": 1015.42,
+    "text": "field and so we know we see that therefore this number and P of the"
+  },
+  {
+    "t_start": 1015.42,
+    "t_end": 1017.999,
+    "text": "therefore this number and P of the equation is either 0 or 2 depending on"
+  },
+  {
+    "t_start": 1017.999,
+    "t_end": 1023.549,
+    "text": "equation is either 0 or 2 depending on this property of the discriminant so we"
+  },
+  {
+    "t_start": 1023.549,
+    "t_end": 1026.1,
+    "text": "this property of the discriminant so we can ask is there a simple formula for"
+  },
+  {
+    "t_start": 1026.1,
+    "t_end": 1028.439,
+    "text": "can ask is there a simple formula for this quantity and P as the prime P"
+  },
+  {
+    "t_start": 1028.439,
+    "t_end": 1032.52,
+    "text": "varies when you first see this recipe it doesn't seem apparent that it's going to"
+  },
+  {
+    "t_start": 1032.52,
+    "t_end": 1034.649,
+    "text": "doesn't seem apparent that it's going to be a simple recipe because well you know"
+  },
+  {
+    "t_start": 1034.649,
+    "t_end": 1036.329,
+    "text": "be a simple recipe because well you know checking the Delta is a square or not"
+  },
+  {
+    "t_start": 1036.329,
+    "t_end": 1041.25,
+    "text": "square mod P you would have to maybe if you were at your most naive run through"
+  },
+  {
+    "t_start": 1041.25,
+    "t_end": 1043.049,
+    "text": "you were at your most naive run through all the quadratic residues or non"
+  },
+  {
+    "t_start": 1043.049,
+    "t_end": 1047.52,
+    "text": "residue modulo P I mean so look at all the squares and see whether your Delta"
+  },
+  {
+    "t_start": 1047.52,
+    "t_end": 1050.71,
+    "text": "the squares and see whether your Delta is in this list or not and if P is very"
+  },
+  {
+    "t_start": 1050.71,
+    "t_end": 1054.789,
+    "text": "this would take a long time so it looks a priori like a rather subtle condition"
+  },
+  {
+    "t_start": 1054.789,
+    "t_end": 1061.24,
+    "text": "a priori like a rather subtle condition on the prime P so let's look at an"
+  },
+  {
+    "t_start": 1061.24,
+    "t_end": 1063.63,
+    "text": "example so here's the example expert minus X minus 1 for this equation"
+  },
+  {
+    "t_start": 1063.63,
+    "t_end": 1065.799,
+    "text": "minus X minus 1 for this equation discriminant is 5 they rooted this"
+  },
+  {
+    "t_start": 1065.799,
+    "t_end": 1068.11,
+    "text": "discriminant is 5 they rooted this equation is the celebrated golden ratio"
+  },
+  {
+    "t_start": 1068.11,
+    "t_end": 1071.799,
+    "text": "equation is the celebrated golden ratio and you can count these npe and when you"
+  },
+  {
+    "t_start": 1071.799,
+    "t_end": 1074.71,
+    "text": "and you can count these npe and when you do that so you can do it on a computer"
+  },
+  {
+    "t_start": 1074.71,
+    "t_end": 1076.84,
+    "text": "if you want just do it experimentally you find that there are actually two"
+  },
+  {
+    "t_start": 1076.84,
+    "t_end": 1079.6,
+    "text": "you find that there are actually two distinct roots when P is a prime"
+  },
+  {
+    "t_start": 1079.6,
+    "t_end": 1082.149,
+    "text": "distinct roots when P is a prime different from five among this list of"
+  },
+  {
+    "t_start": 1082.149,
+    "t_end": 1083.74,
+    "text": "different from five among this list of primes these are the first few Prime's"
+  },
+  {
+    "t_start": 1083.74,
+    "t_end": 1089.289,
+    "text": "primes these are the first few Prime's where you have two roots and here are"
+  },
+  {
+    "t_start": 1089.289,
+    "t_end": 1094.419,
+    "text": "zero roots so you can see that it's sort of 2 or 0 equally often roughly and then"
+  },
+  {
+    "t_start": 1094.419,
+    "t_end": 1096.22,
+    "text": "of 2 or 0 equally often roughly and then you can try to detect patterns see when"
+  },
+  {
+    "t_start": 1096.22,
+    "t_end": 1100.98,
+    "text": "it is and if you stare at this list it won't take you very long to realize that"
+  },
+  {
+    "t_start": 1100.98,
+    "t_end": 1103.72,
+    "text": "won't take you very long to realize that the answer whether there are cures your"
+  },
+  {
+    "t_start": 1103.72,
+    "t_end": 1104.23,
+    "text": "the answer whether there are cures your roots"
+  },
+  {
+    "t_start": 1104.23,
+    "t_end": 1111.669,
+    "text": "of the prime so the last digit is 109 then there are two roots and if the last"
+  },
+  {
+    "t_start": 1111.669,
+    "t_end": 1119.23,
+    "text": "digit is 3 or 7 there seemed to be no roots so that's what it seems to be it's"
+  },
+  {
+    "t_start": 1119.23,
+    "t_end": 1120.76,
+    "text": "roots so that's what it seems to be it's really your only depends usually depend"
+  },
+  {
+    "t_start": 1120.76,
+    "t_end": 1124.09,
+    "text": "only on what the prime is modulo 10 so now of course your understanding of this"
+  },
+  {
+    "t_start": 1124.09,
+    "t_end": 1125.83,
+    "text": "now of course your understanding of this function is dramatically improved in"
+  },
+  {
+    "t_start": 1125.83,
+    "t_end": 1131.95,
+    "text": "need to look at the last digit of your prime ok so that's a front based on this"
+  },
+  {
+    "t_start": 1131.95,
+    "t_end": 1133.24,
+    "text": "prime ok so that's a front based on this evidence you might make its educated"
+  },
+  {
+    "t_start": 1133.24,
+    "t_end": 1138.49,
+    "text": "guess at NPS too precisely when P is 1 or 4 modulo 5 in fact it really only"
+  },
+  {
+    "t_start": 1138.49,
+    "t_end": 1146.049,
+    "text": "pays on the prime modulo 5 and it's 0 if P is 2 or 3 and in fact this guess is"
+  },
+  {
+    "t_start": 1146.049,
+    "t_end": 1148.84,
+    "text": "P is 2 or 3 and in fact this guess is right and it's general it's a part of a"
+  },
+  {
+    "t_start": 1148.84,
+    "t_end": 1152.919,
+    "text": "right and it's general it's a part of a more general phenomenon which is one of"
+  },
+  {
+    "t_start": 1152.919,
+    "t_end": 1157.69,
+    "text": "the most important consequences of quadratic reciprocity so the fact is"
+  },
+  {
+    "t_start": 1157.69,
+    "t_end": 1161.47,
+    "text": "that for any equity any quadratic equation in one variable the with the"
+  },
+  {
+    "t_start": 1161.47,
+    "t_end": 1163.149,
+    "text": "equation in one variable the with the certain discriminant Delta then the"
+  },
+  {
+    "t_start": 1163.149,
+    "t_end": 1166.09,
+    "text": "certain discriminant Delta then the function which 2sp associate NP is"
+  },
+  {
+    "t_start": 1166.09,
+    "t_end": 1169.48,
+    "text": "function which 2sp associate NP is actually a periodic function for period"
+  },
+  {
+    "t_start": 1169.48,
+    "t_end": 1172.779,
+    "text": "actually a periodic function for period length for Delta so to understand this"
+  },
+  {
+    "t_start": 1172.779,
+    "t_end": 1178.24,
+    "text": "values up to Delta or a for Delta you know and then you know the function"
+  },
+  {
+    "t_start": 1178.24,
+    "t_end": 1184.75,
+    "text": "know and then you know the function always for forever ok so that has of"
+  },
+  {
+    "t_start": 1184.75,
+    "t_end": 1190.06,
+    "text": "function of the equation so for example for this original equation x squared"
+  },
+  {
+    "t_start": 1190.06,
+    "t_end": 1194.29,
+    "text": "for this original equation x squared minus X minus 1 the zeta function has"
+  },
+  {
+    "t_start": 1194.29,
+    "t_end": 1196.15,
+    "text": "minus X minus 1 the zeta function has it's very simple shape so it's the"
+  },
+  {
+    "t_start": 1196.15,
+    "t_end": 1198.19,
+    "text": "it's very simple shape so it's the riemann zeta function times another"
+  },
+  {
+    "t_start": 1198.19,
+    "t_end": 1203.77,
+    "text": "riemann zeta function times another factor and this other factor is a sum of"
+  },
+  {
+    "t_start": 1203.77,
+    "t_end": 1208.06,
+    "text": "integers that are primed to 5 with a pattern so we kind of and it repeats"
+  },
+  {
+    "t_start": 1208.06,
+    "t_end": 1210.49,
+    "text": "pattern so we kind of and it repeats with period length 4 with a pattern of"
+  },
+  {
+    "t_start": 1210.49,
+    "t_end": 1213.46,
+    "text": "with period length 4 with a pattern of sines plus minus minus plus etc so"
+  },
+  {
+    "t_start": 1213.46,
+    "t_end": 1218.71,
+    "text": "course having this simple shape allows us to make some some analysis of V of"
+  },
+  {
+    "t_start": 1218.71,
+    "t_end": 1221.98,
+    "text": "us to make some some analysis of V of the zeta function so these right hand"
+  },
+  {
+    "t_start": 1221.98,
+    "t_end": 1224.31,
+    "text": "the zeta function so these right hand examples are these are kind of"
+  },
+  {
+    "t_start": 1224.31,
+    "t_end": 1231.28,
+    "text": "function there are called Dirac lay L Series or Dirac layout functions and"
+  },
+  {
+    "t_start": 1231.28,
+    "t_end": 1232.6,
+    "text": "Series or Dirac layout functions and they're somehow in some sense the"
+  },
+  {
+    "t_start": 1232.6,
+    "t_end": 1234.94,
+    "text": "they're somehow in some sense the simplest generalization of the zeta"
+  },
+  {
+    "t_start": 1234.94,
+    "t_end": 1240.49,
+    "text": "simplest generalization of the zeta function and so we can say therefore"
+  },
+  {
+    "t_start": 1240.49,
+    "t_end": 1245.5,
+    "text": "cranek reciprocity essentially that the zeta function of quadratic equations are"
+  },
+  {
+    "t_start": 1245.5,
+    "t_end": 1247.12,
+    "text": "zeta function of quadratic equations are very are well understood and"
+  },
+  {
+    "t_start": 1247.12,
+    "t_end": 1253.27,
+    "text": "analytically ok it turns out that a similar thing is true for quadratic"
+  },
+  {
+    "t_start": 1253.27,
+    "t_end": 1255.28,
+    "text": "similar thing is true for quadratic equations in more than one variable so"
+  },
+  {
+    "t_start": 1255.28,
+    "t_end": 1257.74,
+    "text": "equations in more than one variable so the same pattern persists so it's a"
+  },
+  {
+    "t_start": 1257.74,
+    "t_end": 1260.02,
+    "text": "the same pattern persists so it's a general fact that the zeta function of"
+  },
+  {
+    "t_start": 1260.02,
+    "t_end": 1261.4,
+    "text": "general fact that the zeta function of completely general quadratic equation"
+  },
+  {
+    "t_start": 1261.4,
+    "t_end": 1267.34,
+    "text": "and in variables can be broken up into factors that involve only these basic"
+  },
+  {
+    "t_start": 1267.34,
+    "t_end": 1269.62,
+    "text": "factors that involve only these basic constituents the zeta function or the"
+  },
+  {
+    "t_start": 1269.62,
+    "t_end": 1273.07,
+    "text": "constituents the zeta function or the more general Dirac male functions okay"
+  },
+  {
+    "t_start": 1273.07,
+    "t_end": 1277.24,
+    "text": "so as so it's sort of how the same behaviors in the one variable case and"
+  },
+  {
+    "t_start": 1277.24,
+    "t_end": 1280.03,
+    "text": "behaviors in the one variable case and that means that in some sense quadratic"
+  },
+  {
+    "t_start": 1280.03,
+    "t_end": 1281.38,
+    "text": "that means that in some sense quadratic defiant in equations are well understood"
+  },
+  {
+    "t_start": 1281.38,
+    "t_end": 1286.54,
+    "text": "defiant in equations are well understood at least from the point of view of their"
+  },
+  {
+    "t_start": 1286.54,
+    "t_end": 1289.93,
+    "text": "Zeta functions maybe other questions that are more subtle but from this point"
+  },
+  {
+    "t_start": 1289.93,
+    "t_end": 1293.29,
+    "text": "of view we we have a good handle on quadratic equations so that means that"
+  },
+  {
+    "t_start": 1293.29,
+    "t_end": 1294.88,
+    "text": "quadratic equations so that means that things will become more interesting when"
+  },
+  {
+    "t_start": 1294.88,
+    "t_end": 1296.56,
+    "text": "things will become more interesting when we begin to consider equations of higher"
+  },
+  {
+    "t_start": 1296.56,
+    "t_end": 1303.43,
+    "text": "we begin to consider equations of higher degree okay so let's move on to cubic"
+  },
+  {
+    "t_start": 1303.43,
+    "t_end": 1309.34,
+    "text": "which looks a bit similar to the one we had before I now consider the equation X"
+  },
+  {
+    "t_start": 1309.34,
+    "t_end": 1313.75,
+    "text": "had before I now consider the equation X cubed minus X minus 1 ok so that has"
+  },
+  {
+    "t_start": 1313.75,
+    "t_end": 1315.58,
+    "text": "cubed minus X minus 1 ok so that has this coming -23 you can compute the"
+  },
+  {
+    "t_start": 1315.58,
+    "t_end": 1316.8,
+    "text": "this coming -23 you can compute the discriminant and it's"
+  },
+  {
+    "t_start": 1316.8,
+    "t_end": 1323.73,
+    "text": "turns out to be minus 23 and well the provided the prime doesn't divide 23"
+  },
+  {
+    "t_start": 1323.73,
+    "t_end": 1327.03,
+    "text": "provided the prime doesn't divide 23 then this panel will have distinct roots"
+  },
+  {
+    "t_start": 1327.03,
+    "t_end": 1334.65,
+    "text": "then this panel will have distinct roots and it will have either 0 1 or 3 roots"
+  },
+  {
+    "t_start": 1334.65,
+    "t_end": 1339.48,
+    "text": "could be either 0 1 or 3 and we'd like to know what kind of pattern would be"
+  },
+  {
+    "t_start": 1339.48,
+    "t_end": 1342.99,
+    "text": "to know what kind of pattern would be satisfied with NP so this is a theorem"
+  },
+  {
+    "t_start": 1342.99,
+    "t_end": 1350.64,
+    "text": "that was proved by heck I think in this case so for all Prime's differing from"
+  },
+  {
+    "t_start": 1350.64,
+    "t_end": 1358.23,
+    "text": "going to ignore that case so the first scenario is if P is not a square modulo"
+  },
+  {
+    "t_start": 1358.23,
+    "t_end": 1363.27,
+    "text": "scenario is if P is not a square modulo 23 and if P is not a square module 23"
+  },
+  {
+    "t_start": 1363.27,
+    "t_end": 1366.0,
+    "text": "then there's always a single root over that field so that's a criterion that"
+  },
+  {
+    "t_start": 1366.0,
+    "t_end": 1367.5,
+    "text": "that field so that's a criterion that looks like what we had before the"
+  },
+  {
+    "t_start": 1367.5,
+    "t_end": 1369.42,
+    "text": "looks like what we had before the quadratic equation governs somehow by"
+  },
+  {
+    "t_start": 1369.42,
+    "t_end": 1372.05,
+    "text": "quadratic equation governs somehow by quadratic reciprocity the interesting"
+  },
+  {
+    "t_start": 1372.05,
+    "t_end": 1380.34,
+    "text": "novelty is what happens when P is a square modulo 23 and in that case there"
+  },
+  {
+    "t_start": 1380.34,
+    "t_end": 1382.65,
+    "text": "square modulo 23 and in that case there are two possible scenarios NP is either"
+  },
+  {
+    "t_start": 1382.65,
+    "t_end": 1390.57,
+    "text": "are two possible scenarios NP is either is 0 or 3 and which it is depends on"
+  },
+  {
+    "t_start": 1390.57,
+    "t_end": 1393.09,
+    "text": "whether P can be represented as the value of a certain binary quadratic form"
+  },
+  {
+    "t_start": 1393.09,
+    "t_end": 1397.92,
+    "text": "value of a certain binary quadratic form so these two binary chronic forms to a"
+  },
+  {
+    "t_start": 1397.92,
+    "t_end": 1406.5,
+    "text": "squared plus a B plus B squared are our quadratic forms of discriminant minus 23"
+  },
+  {
+    "t_start": 1406.5,
+    "t_end": 1407.88,
+    "text": "quadratic forms of discriminant minus 23 so you see this minus twenty-three"
+  },
+  {
+    "t_start": 1407.88,
+    "t_end": 1415.74,
+    "text": "appearing again here and this is a kind of an arithmetic characterization of how"
+  },
+  {
+    "t_start": 1415.74,
+    "t_end": 1418.29,
+    "text": "of an arithmetic characterization of how this cubic polynomial factors modulo P"
+  },
+  {
+    "t_start": 1418.29,
+    "t_end": 1420.51,
+    "text": "this cubic polynomial factors modulo P in terms of the represent ability of the"
+  },
+  {
+    "t_start": 1420.51,
+    "t_end": 1425.43,
+    "text": "prime by as the value of a certain binary quadratic form so this means that"
+  },
+  {
+    "t_start": 1425.43,
+    "t_end": 1427.65,
+    "text": "binary quadratic form so this means that the problem again is endowed with a"
+  },
+  {
+    "t_start": 1427.65,
+    "t_end": 1432.3,
+    "text": "the problem again is endowed with a certain arithmetic structure and well"
+  },
+  {
+    "t_start": 1432.3,
+    "t_end": 1437.79,
+    "text": "heck is theorem can be used to say something about the zeta function of the"
+  },
+  {
+    "t_start": 1437.79,
+    "t_end": 1442.11,
+    "text": "something about the zeta function of the equation so I can write this a 2 X cubed"
+  },
+  {
+    "t_start": 1442.11,
+    "t_end": 1444.51,
+    "text": "minus X minus 1 is this a 2 function times the remaining series which is the"
+  },
+  {
+    "t_start": 1444.51,
+    "t_end": 1448.18,
+    "text": "times the remaining series which is the interesting part the sum of a and n to"
+  },
+  {
+    "t_start": 1448.18,
+    "t_end": 1450.82,
+    "text": "this is going to be some kind of direct clay series some kind of linear"
+  },
+  {
+    "t_start": 1450.82,
+    "t_end": 1452.68,
+    "text": "clay series some kind of linear combination of reciprocals of powers of"
+  },
+  {
+    "t_start": 1452.68,
+    "t_end": 1458.83,
+    "text": "combination of reciprocals of powers of n and the coefficients a n that arise"
+  },
+  {
+    "t_start": 1458.83,
+    "t_end": 1460.899,
+    "text": "here I'm going to package them in a slightly different way as a generating"
+  },
+  {
+    "t_start": 1460.899,
+    "t_end": 1467.86,
+    "text": "which is common to do in the theories we try to understand the sequence of a s in"
+  },
+  {
+    "t_start": 1467.86,
+    "t_end": 1469.389,
+    "text": "try to understand the sequence of a s in the zeta function of the cubic equation"
+  },
+  {
+    "t_start": 1469.389,
+    "t_end": 1471.639,
+    "text": "the zeta function of the cubic equation by packaging into what's called a Q"
+  },
+  {
+    "t_start": 1471.639,
+    "t_end": 1474.31,
+    "text": "by packaging into what's called a Q series some times and this Q series"
+  },
+  {
+    "t_start": 1474.31,
+    "t_end": 1476.86,
+    "text": "series some times and this Q series satisfies many striking patterns the"
+  },
+  {
+    "t_start": 1476.86,
+    "t_end": 1483.129,
+    "text": "first is this formula here which is just a restatement of hackus theorem you sum"
+  },
+  {
+    "t_start": 1483.129,
+    "t_end": 1489.759,
+    "text": "a restatement of hackus theorem you sum from this you can derive heck is theorem"
+  },
+  {
+    "t_start": 1489.759,
+    "t_end": 1492.07,
+    "text": "that well so what is a P is closely related to NP etc and it depends on"
+  },
+  {
+    "t_start": 1492.07,
+    "t_end": 1496.749,
+    "text": "related to NP etc and it depends on whether P arises as a value of this"
+  },
+  {
+    "t_start": 1496.749,
+    "t_end": 1500.95,
+    "text": "whether P arises as a value of this quadratic form or that one and it also"
+  },
+  {
+    "t_start": 1500.95,
+    "t_end": 1503.379,
+    "text": "quadratic form or that one and it also has this very striking infinite product"
+  },
+  {
+    "t_start": 1503.379,
+    "t_end": 1510.279,
+    "text": "expansion so this is a really remarkable identity of formal power series I would"
+  },
+  {
+    "t_start": 1510.279,
+    "t_end": 1513.85,
+    "text": "identity of formal power series I would challenge you I mean this is me you can"
+  },
+  {
+    "t_start": 1513.85,
+    "t_end": 1514.99,
+    "text": "go on a computer and you can test you can see that this identity is true"
+  },
+  {
+    "t_start": 1514.99,
+    "t_end": 1517.869,
+    "text": "can see that this identity is true however far you want I would put you to"
+  },
+  {
+    "t_start": 1517.869,
+    "t_end": 1519.119,
+    "text": "however far you want I would put you to a challenge to try to prove that"
+  },
+  {
+    "t_start": 1519.119,
+    "t_end": 1523.36,
+    "text": "a challenge to try to prove that directly from just first principles the"
+  },
+  {
+    "t_start": 1523.36,
+    "t_end": 1525.759,
+    "text": "directly from just first principles the fact that's such a beautiful and"
+  },
+  {
+    "t_start": 1525.759,
+    "t_end": 1527.769,
+    "text": "fact that's such a beautiful and striking patterns emerge is the"
+  },
+  {
+    "t_start": 1527.769,
+    "t_end": 1534.549,
+    "text": "this is a sort of part of the general well one of the many wondrous identities"
+  },
+  {
+    "t_start": 1534.549,
+    "t_end": 1538.899,
+    "text": "well one of the many wondrous identities that arise from the theory of modular"
+  },
+  {
+    "t_start": 1538.899,
+    "t_end": 1540.999,
+    "text": "forms and so this is how modular forms first make an appearance in our"
+  },
+  {
+    "t_start": 1540.999,
+    "t_end": 1545.259,
+    "text": "first make an appearance in our discussion so the so in fact the fact is"
+  },
+  {
+    "t_start": 1545.259,
+    "t_end": 1552.519,
+    "text": "that if you replace the Q this formal variable Q by e to the 2 pi R is e so as"
+  },
+  {
+    "t_start": 1552.519,
+    "t_end": 1554.649,
+    "text": "variable Q by e to the 2 pi R is e so as we had in andrew's lecture that makes"
+  },
+  {
+    "t_start": 1554.649,
+    "t_end": 1556.539,
+    "text": "we had in andrew's lecture that makes that makes the series automatically"
+  },
+  {
+    "t_start": 1556.539,
+    "t_end": 1562.749,
+    "text": "periodic of period 1 and this series turns out to be the prototypical example"
+  },
+  {
+    "t_start": 1562.749,
+    "t_end": 1565.629,
+    "text": "turns out to be the prototypical example of a modular form so it satisfies this"
+  },
+  {
+    "t_start": 1565.629,
+    "t_end": 1567.519,
+    "text": "of a modular form so it satisfies this kind of transformation property where"
+  },
+  {
+    "t_start": 1567.519,
+    "t_end": 1573.94,
+    "text": "you have a sort of a invariance under two by two matrices and sl2 Z which are"
+  },
+  {
+    "t_start": 1573.94,
+    "t_end": 1576.58,
+    "text": "two by two matrices and sl2 Z which are upper triangular module 23:33 was a"
+  },
+  {
+    "t_start": 1576.58,
+    "t_end": 1579.369,
+    "text": "upper triangular module 23:33 was a discriminant that we had before and the"
+  },
+  {
+    "t_start": 1579.369,
+    "t_end": 1581.169,
+    "text": "discriminant that we had before and the only difference with the transformation"
+  },
+  {
+    "t_start": 1581.169,
+    "t_end": 1582.53,
+    "text": "only difference with the transformation property that came up in"
+  },
+  {
+    "t_start": 1582.53,
+    "t_end": 1587.03,
+    "text": "Andrews lecture before is that in this autumn or fee factor this transformation"
+  },
+  {
+    "t_start": 1587.03,
+    "t_end": 1592.43,
+    "text": "autumn or fee factor this transformation factor here we have a 1 instead of a 2"
+  },
+  {
+    "t_start": 1592.43,
+    "t_end": 1599.75,
+    "text": "for this as an example of what's called a modular form of weight 1 and level 23"
+  },
+  {
+    "t_start": 1599.75,
+    "t_end": 1602.06,
+    "text": "and in fact hecka proved that similar properties are satisfied by the Zeta"
+  },
+  {
+    "t_start": 1602.06,
+    "t_end": 1605.0,
+    "text": "properties are satisfied by the Zeta functions of arbitrary cubic polynomials"
+  },
+  {
+    "t_start": 1605.0,
+    "t_end": 1609.68,
+    "text": "functions of arbitrary cubic polynomials in one cubic equations in one variable"
+  },
+  {
+    "t_start": 1609.68,
+    "t_end": 1612.91,
+    "text": "this is a computing general phenomenon for equations of degree three"
+  },
+  {
+    "t_start": 1612.91,
+    "t_end": 1619.43,
+    "text": "now modular forms appear in many guises in a number theory and I certainly"
+  },
+  {
+    "t_start": 1619.43,
+    "t_end": 1623.02,
+    "text": "in a number theory and I certainly wanted to mention this famous quote of"
+  },
+  {
+    "t_start": 1623.02,
+    "t_end": 1625.01,
+    "text": "wanted to mention this famous quote of Martin Eisler who was one of the"
+  },
+  {
+    "t_start": 1625.01,
+    "t_end": 1626.87,
+    "text": "Martin Eisler who was one of the mathematicians very active in this field"
+  },
+  {
+    "t_start": 1626.87,
+    "t_end": 1632.02,
+    "text": "mathematicians very active in this field in its early days they said that there"
+  },
+  {
+    "t_start": 1632.02,
+    "t_end": 1634.19,
+    "text": "are five elementary arithmetic operations addition subtraction"
+  },
+  {
+    "t_start": 1634.19,
+    "t_end": 1640.73,
+    "text": "multiplication division and modular forms and I think I first heard this"
+  },
+  {
+    "t_start": 1640.73,
+    "t_end": 1642.2,
+    "text": "forms and I think I first heard this quote actually and Simon sings a"
+  },
+  {
+    "t_start": 1642.2,
+    "t_end": 1644.6,
+    "text": "quote actually and Simon sings a documentary about that about the proof"
+  },
+  {
+    "t_start": 1644.6,
+    "t_end": 1651.32,
+    "text": "documentary about that about the proof of firma so so now let's move on ok so"
+  },
+  {
+    "t_start": 1651.32,
+    "t_end": 1652.49,
+    "text": "of firma so so now let's move on ok so we I said something about cubic"
+  },
+  {
+    "t_start": 1652.49,
+    "t_end": 1653.69,
+    "text": "we I said something about cubic equations in one variable what happens"
+  },
+  {
+    "t_start": 1653.69,
+    "t_end": 1660.62,
+    "text": "we look at equation like well any cubic equation in two variables providing that"
+  },
+  {
+    "t_start": 1660.62,
+    "t_end": 1662.9,
+    "text": "equation in two variables providing that already has one rational solution so"
+  },
+  {
+    "t_start": 1662.9,
+    "t_end": 1667.73,
+    "text": "we'll assume that now can I'm always be a broad into the following very simple"
+  },
+  {
+    "t_start": 1667.73,
+    "t_end": 1672.08,
+    "text": "a broad into the following very simple form y squared equals x cube plus ax"
+  },
+  {
+    "t_start": 1672.08,
+    "t_end": 1673.37,
+    "text": "form y squared equals x cube plus ax plus B so it's an equation of an"
+  },
+  {
+    "t_start": 1673.37,
+    "t_end": 1674.93,
+    "text": "plus B so it's an equation of an elliptic curve and this is sort of"
+  },
+  {
+    "t_start": 1674.93,
+    "t_end": 1677.15,
+    "text": "elliptic curve and this is sort of what's called the sort Weierstrass form"
+  },
+  {
+    "t_start": 1677.15,
+    "t_end": 1680.03,
+    "text": "what's called the sort Weierstrass form so essentially we use no generality by"
+  },
+  {
+    "t_start": 1680.03,
+    "t_end": 1682.91,
+    "text": "so essentially we use no generality by considering cubic equations of that type"
+  },
+  {
+    "t_start": 1682.91,
+    "t_end": 1686.78,
+    "text": "considering cubic equations of that type we're closely related and so here's an"
+  },
+  {
+    "t_start": 1686.78,
+    "t_end": 1688.34,
+    "text": "we're closely related and so here's an example we could consider the equation y"
+  },
+  {
+    "t_start": 1688.34,
+    "t_end": 1693.92,
+    "text": "example we could consider the equation y y plus 1 equals x cubed which is"
+  },
+  {
+    "t_start": 1693.92,
+    "t_end": 1697.07,
+    "text": "actually not quite of of that type but almost and we can compute it zeta"
+  },
+  {
+    "t_start": 1697.07,
+    "t_end": 1700.19,
+    "text": "almost and we can compute it zeta function so like as before I what the"
+  },
+  {
+    "t_start": 1700.19,
+    "t_end": 1702.02,
+    "text": "function so like as before I what the cubic equation in one variable the zeta"
+  },
+  {
+    "t_start": 1702.02,
+    "t_end": 1705.01,
+    "text": "cubic equation in one variable the zeta function of our Provari elliptic curve"
+  },
+  {
+    "t_start": 1705.01,
+    "t_end": 1708.95,
+    "text": "function of our Provari elliptic curve factors as something's kind of simple"
+  },
+  {
+    "t_start": 1708.95,
+    "t_end": 1710.3,
+    "text": "factors as something's kind of simple and well understood which is an ascent"
+  },
+  {
+    "t_start": 1710.3,
+    "t_end": 1712.84,
+    "text": "and well understood which is an ascent of the Riemann zeta function"
+  },
+  {
+    "t_start": 1712.84,
+    "t_end": 1715.61,
+    "text": "of the Riemann zeta function times a more mysterious piece which"
+  },
+  {
+    "t_start": 1715.61,
+    "t_end": 1721.19,
+    "text": "remains so it's a direct play series where with integer coefficients these a"
+  },
+  {
+    "t_start": 1721.19,
+    "t_end": 1725.15,
+    "text": "where with integer coefficients these a ends are integers and we would like to"
+  },
+  {
+    "t_start": 1725.15,
+    "t_end": 1732.11,
+    "text": "coefficients in the zeta function and again we package them into a q series"
+  },
+  {
+    "t_start": 1732.11,
+    "t_end": 1734.45,
+    "text": "again we package them into a q series like this I write F of Q as this linear"
+  },
+  {
+    "t_start": 1734.45,
+    "t_end": 1736.67,
+    "text": "like this I write F of Q as this linear combination and the first few"
+  },
+  {
+    "t_start": 1736.67,
+    "t_end": 1741.86,
+    "text": "coefficients look like that so this is sort of to underscore the fact that they"
+  },
+  {
+    "t_start": 1741.86,
+    "t_end": 1743.99,
+    "text": "sort of to underscore the fact that they really are integers the expansion is"
+  },
+  {
+    "t_start": 1743.99,
+    "t_end": 1745.13,
+    "text": "really are integers the expansion is kind of interesting it looks a bit"
+  },
+  {
+    "t_start": 1745.13,
+    "t_end": 1746.93,
+    "text": "kind of interesting it looks a bit sparse I mean there are many many"
+  },
+  {
+    "t_start": 1746.93,
+    "t_end": 1749.12,
+    "text": "sparse I mean there are many many coefficients that are 0 and the"
+  },
+  {
+    "t_start": 1749.12,
+    "t_end": 1754.76,
+    "text": "coefficients that are nonzero seem to grow a little bit but not too much but"
+  },
+  {
+    "t_start": 1754.76,
+    "t_end": 1757.28,
+    "text": "grow a little bit but not too much but more than the coefficients we had before"
+  },
+  {
+    "t_start": 1757.28,
+    "t_end": 1759.47,
+    "text": "more than the coefficients we had before for the cubic equation in one variable"
+  },
+  {
+    "t_start": 1759.47,
+    "t_end": 1761.75,
+    "text": "for the cubic equation in one variable which is to be expected since now we"
+  },
+  {
+    "t_start": 1761.75,
+    "t_end": 1763.49,
+    "text": "which is to be expected since now we have more solutions even that we have"
+  },
+  {
+    "t_start": 1763.49,
+    "t_end": 1767.93,
+    "text": "have more solutions even that we have two variables and it turns out again"
+  },
+  {
+    "t_start": 1767.93,
+    "t_end": 1770.09,
+    "text": "two variables and it turns out again that like the Q Series we had before"
+  },
+  {
+    "t_start": 1770.09,
+    "t_end": 1772.22,
+    "text": "that like the Q Series we had before this one satisfy is a very remarkable"
+  },
+  {
+    "t_start": 1772.22,
+    "t_end": 1775.82,
+    "text": "this one satisfy is a very remarkable factorization formula of this sort so"
+  },
+  {
+    "t_start": 1775.82,
+    "t_end": 1780.44,
+    "text": "factorization formula of this sort so there's a very nice identity and in fact"
+  },
+  {
+    "t_start": 1780.44,
+    "t_end": 1787.04,
+    "text": "modular form so this is a simple special case concrete special case of the"
+  },
+  {
+    "t_start": 1787.04,
+    "t_end": 1791.99,
+    "text": "general theorem that Wiles proof to the modularity theorem for elliptic curves"
+  },
+  {
+    "t_start": 1791.99,
+    "t_end": 1797.95,
+    "text": "so it's in a search at this generating series as we saw in the previous lecture"
+  },
+  {
+    "t_start": 1797.95,
+    "t_end": 1801.17,
+    "text": "series as we saw in the previous lecture transforms nicely under matrices which"
+  },
+  {
+    "t_start": 1801.17,
+    "t_end": 1802.31,
+    "text": "transforms nicely under matrices which are now this time upper triangular"
+  },
+  {
+    "t_start": 1802.31,
+    "t_end": 1806.45,
+    "text": "are now this time upper triangular module 27 and the transformation form"
+  },
+  {
+    "t_start": 1806.45,
+    "t_end": 1811.13,
+    "text": "module 27 and the transformation form factor involves now a square of the"
+  },
+  {
+    "t_start": 1811.13,
+    "t_end": 1816.55,
+    "text": "denominator of the fractional linear transformation okay so this is what is"
+  },
+  {
+    "t_start": 1816.55,
+    "t_end": 1821.6,
+    "text": "transformation okay so this is what is this was what it's called known as"
+  },
+  {
+    "t_start": 1821.6,
+    "t_end": 1823.55,
+    "text": "before why is the key mauritania conjecture or she mauritania very"
+  },
+  {
+    "t_start": 1823.55,
+    "t_end": 1824.3,
+    "text": "conjecture or she mauritania very conjecture"
+  },
+  {
+    "t_start": 1824.3,
+    "t_end": 1830.08,
+    "text": "so if E is any cubic equation in two variables then this pattern persists the"
+  },
+  {
+    "t_start": 1830.08,
+    "t_end": 1838.04,
+    "text": "variables then this pattern persists the zeta function is of this form where"
+  },
+  {
+    "t_start": 1838.04,
+    "t_end": 1843.68,
+    "text": "that's left over this one here is the Dirac play series attached to a modular"
+  },
+  {
+    "t_start": 1843.68,
+    "t_end": 1848.86,
+    "text": "form of way to in a certain level more precisely okay so that yeah that's"
+  },
+  {
+    "t_start": 1848.86,
+    "t_end": 1850.42,
+    "text": "more precisely okay so that yeah that's the thing and that was exactly what"
+  },
+  {
+    "t_start": 1850.42,
+    "t_end": 1856.75,
+    "text": "Wiles proved so while show that if E is any semi-stable elliptic curve then e"
+  },
+  {
+    "t_start": 1856.75,
+    "t_end": 1859.18,
+    "text": "any semi-stable elliptic curve then e satisfies that she mauritania my"
+  },
+  {
+    "t_start": 1859.18,
+    "t_end": 1864.04,
+    "text": "conjecture and this is a picture of I think he announcement like the last"
+  },
+  {
+    "t_start": 1864.04,
+    "t_end": 1865.6,
+    "text": "think he announcement like the last lecture in Cambridge where this result"
+  },
+  {
+    "t_start": 1865.6,
+    "t_end": 1871.51,
+    "text": "lecture in Cambridge where this result was announced so more precisely again we"
+  },
+  {
+    "t_start": 1871.51,
+    "t_end": 1873.33,
+    "text": "was announced so more precisely again we had this kind of transformation behavior"
+  },
+  {
+    "t_start": 1873.33,
+    "t_end": 1875.47,
+    "text": "had this kind of transformation behavior under matrices which are upper"
+  },
+  {
+    "t_start": 1875.47,
+    "t_end": 1879.67,
+    "text": "triangular modulo an integer n the same integer n that occurred in Andrews"
+  },
+  {
+    "t_start": 1879.67,
+    "t_end": 1881.83,
+    "text": "integer n that occurred in Andrews lecture before this limit is called a"
+  },
+  {
+    "t_start": 1881.83,
+    "t_end": 1886.75,
+    "text": "level of the modular form and it can be computed independently as the conductor"
+  },
+  {
+    "t_start": 1886.75,
+    "t_end": 1892.21,
+    "text": "of the elliptic curve which what's called the arithmetic conductor of E and"
+  },
+  {
+    "t_start": 1892.21,
+    "t_end": 1898.93,
+    "text": "intercept equation it's a curve by an algorithm of Tate and the semi-stable"
+  },
+  {
+    "t_start": 1898.93,
+    "t_end": 1902.5,
+    "text": "curve so there's this condition of semi stability that occurs in the original"
+  },
+  {
+    "t_start": 1902.5,
+    "t_end": 1905.11,
+    "text": "stability that occurs in the original modularity theorem of Wiles this"
+  },
+  {
+    "t_start": 1905.11,
+    "t_end": 1908.11,
+    "text": "modularity theorem of Wiles this condition can be phrased concretely as"
+  },
+  {
+    "t_start": 1908.11,
+    "t_end": 1910.87,
+    "text": "condition can be phrased concretely as the condition that the conductor is"
+  },
+  {
+    "t_start": 1910.87,
+    "t_end": 1916.69,
+    "text": "square-free it's not divisible by the square of any prime number well anyway"
+  },
+  {
+    "t_start": 1916.69,
+    "t_end": 1919.03,
+    "text": "square of any prime number well anyway the condition of semi stability was"
+  },
+  {
+    "t_start": 1919.03,
+    "t_end": 1921.73,
+    "text": "the condition of semi stability was later removed by refer the refinements"
+  },
+  {
+    "t_start": 1921.73,
+    "t_end": 1927.79,
+    "text": "of a technique u2 by Conrad diamond and Taylor so now we have the modularity we"
+  },
+  {
+    "t_start": 1927.79,
+    "t_end": 1930.04,
+    "text": "Taylor so now we have the modularity we theorem for all it occurs over the"
+  },
+  {
+    "t_start": 1930.04,
+    "t_end": 1934.84,
+    "text": "theorem for all it occurs over the rational numbers okay so how does this"
+  },
+  {
+    "t_start": 1934.84,
+    "t_end": 1938.32,
+    "text": "rational numbers okay so how does this modularity fit into the more general"
+  },
+  {
+    "t_start": 1938.32,
+    "t_end": 1943.66,
+    "text": "framework of the language program so a adaiah fantine equation is said to be"
+  },
+  {
+    "t_start": 1943.66,
+    "t_end": 1948.3,
+    "text": "adaiah fantine equation is said to be modular if it's zeta function can be"
+  },
+  {
+    "t_start": 1948.3,
+    "t_end": 1951.37,
+    "text": "modular if it's zeta function can be expressed in terms of generating series"
+  },
+  {
+    "t_start": 1951.37,
+    "t_end": 1955.42,
+    "text": "expressed in terms of generating series attached to modular forms in some very"
+  },
+  {
+    "t_start": 1955.42,
+    "t_end": 1960.4,
+    "text": "so the actual buzzword for that is these are sometimes referred to as all morphic"
+  },
+  {
+    "t_start": 1960.4,
+    "t_end": 1961.84,
+    "text": "are sometimes referred to as all morphic representations that they also made a"
+  },
+  {
+    "t_start": 1961.84,
+    "t_end": 1963.79,
+    "text": "representations that they also made a very brief appearance in andrew's"
+  },
+  {
+    "t_start": 1963.79,
+    "t_end": 1968.86,
+    "text": "lecture i'll see very little about them but there is this sort of very well I"
+  },
+  {
+    "t_start": 1968.86,
+    "t_end": 1972.52,
+    "text": "want to convey so this is very general notion the generalization of of an"
+  },
+  {
+    "t_start": 1972.52,
+    "t_end": 1977.36,
+    "text": "object which in way of which modular forms are in some sense the simplest"
+  },
+  {
+    "t_start": 1977.36,
+    "t_end": 1981.5,
+    "text": "and the main conjecture of the landlines program is that in this generalized"
+  },
+  {
+    "t_start": 1981.5,
+    "t_end": 1984.44,
+    "text": "program is that in this generalized sense all Diophantine equations that"
+  },
+  {
+    "t_start": 1984.44,
+    "t_end": 1987.2,
+    "text": "sense all Diophantine equations that occur are modular their zeta function"
+  },
+  {
+    "t_start": 1987.2,
+    "t_end": 1990.71,
+    "text": "occur are modular their zeta function can be understood via a connection with"
+  },
+  {
+    "t_start": 1990.71,
+    "t_end": 1993.08,
+    "text": "can be understood via a connection with some kind of modular form or automatic"
+  },
+  {
+    "t_start": 1993.08,
+    "t_end": 1998.09,
+    "text": "some kind of modular form or automatic representation and this fundamental"
+  },
+  {
+    "t_start": 1998.09,
+    "t_end": 2002.71,
+    "text": "problem of the Langa's program is really it can be viewed of course as a vast"
+  },
+  {
+    "t_start": 2002.71,
+    "t_end": 2008.71,
+    "text": "which underlies the calculation the zeta function of a quadratic equation and it"
+  },
+  {
+    "t_start": 2008.71,
+    "t_end": 2010.75,
+    "text": "function of a quadratic equation and it sort of course underlies these non"
+  },
+  {
+    "t_start": 2010.75,
+    "t_end": 2012.97,
+    "text": "sort of course underlies these non abelian reciprocity laws and it's not"
+  },
+  {
+    "t_start": 2012.97,
+    "t_end": 2015.04,
+    "text": "abelian reciprocity laws and it's not the study of non abelian extensions"
+  },
+  {
+    "t_start": 2015.04,
+    "t_end": 2017.32,
+    "text": "the study of non abelian extensions which andrew was referring to in his"
+  },
+  {
+    "t_start": 2017.32,
+    "t_end": 2019.6,
+    "text": "which andrew was referring to in his lectures one of the main themes of his"
+  },
+  {
+    "t_start": 2019.6,
+    "t_end": 2023.08,
+    "text": "lectures one of the main themes of his lecture so what was known about"
+  },
+  {
+    "t_start": 2023.08,
+    "t_end": 2025.45,
+    "text": "lecture so what was known about modularity of Diophantus equations"
+  },
+  {
+    "t_start": 2025.45,
+    "t_end": 2031.15,
+    "text": "before the work of Andrew Wiles well we knew the corral that quadratic equations"
+  },
+  {
+    "t_start": 2031.15,
+    "t_end": 2036.04,
+    "text": "knew the corral that quadratic equations the modular that's quadratic reciprocity"
+  },
+  {
+    "t_start": 2036.04,
+    "t_end": 2038.43,
+    "text": "as I explained then the work of Hecker and mass somehow led to the"
+  },
+  {
+    "t_start": 2038.43,
+    "t_end": 2041.169,
+    "text": "and mass somehow led to the understanding that all cubic equations"
+  },
+  {
+    "t_start": 2041.169,
+    "t_end": 2043.03,
+    "text": "understanding that all cubic equations in one variable are modular their"
+  },
+  {
+    "t_start": 2043.03,
+    "t_end": 2045.01,
+    "text": "in one variable are modular their associated some kind of modular form"
+  },
+  {
+    "t_start": 2045.01,
+    "t_end": 2050.26,
+    "text": "either a form of weight one or something called the mass form and then there is"
+  },
+  {
+    "t_start": 2050.26,
+    "t_end": 2051.85,
+    "text": "called the mass form and then there is this wonderful theorem of Magnus Tuttle"
+  },
+  {
+    "t_start": 2051.85,
+    "t_end": 2053.49,
+    "text": "this wonderful theorem of Magnus Tuttle which plays a very important role in"
+  },
+  {
+    "t_start": 2053.49,
+    "t_end": 2057.399,
+    "text": "which plays a very important role in Andrus proof as well also was explained"
+  },
+  {
+    "t_start": 2057.399,
+    "t_end": 2059.86,
+    "text": "Andrus proof as well also was explained in the previous talk that quartic"
+  },
+  {
+    "t_start": 2059.86,
+    "t_end": 2062.59,
+    "text": "in the previous talk that quartic equations in one variable are also"
+  },
+  {
+    "t_start": 2062.59,
+    "t_end": 2065.169,
+    "text": "equations in one variable are also modular so equations of degree for"
+  },
+  {
+    "t_start": 2065.169,
+    "t_end": 2070.21,
+    "text": "modular as well and the fact that these cubic and quartic equations can be"
+  },
+  {
+    "t_start": 2070.21,
+    "t_end": 2072.72,
+    "text": "cubic and quartic equations can be handled can improve the modularity is"
+  },
+  {
+    "t_start": 2072.72,
+    "t_end": 2078.07,
+    "text": "really what underlies that is the fact that these equations can be solved by"
+  },
+  {
+    "t_start": 2078.07,
+    "t_end": 2080.379,
+    "text": "that these equations can be solved by radicals so the very same fact that"
+  },
+  {
+    "t_start": 2080.379,
+    "t_end": 2083.29,
+    "text": "radicals so the very same fact that allowed the Italian algebra is of the"
+  },
+  {
+    "t_start": 2083.29,
+    "t_end": 2085.45,
+    "text": "allowed the Italian algebra is of the Renaissance to solve the equations by"
+  },
+  {
+    "t_start": 2085.45,
+    "t_end": 2090.399,
+    "text": "radical or what allows us to prove the modularity and their symmetry groups in"
+  },
+  {
+    "t_start": 2090.399,
+    "t_end": 2092.74,
+    "text": "modularity and their symmetry groups in part you know the reason from the point"
+  },
+  {
+    "t_start": 2092.74,
+    "t_end": 2095.5,
+    "text": "part you know the reason from the point of view of Galois theory if you want is"
+  },
+  {
+    "t_start": 2095.5,
+    "t_end": 2100.93,
+    "text": "three and four letters which are have this property of being solvable which is"
+  },
+  {
+    "t_start": 2100.93,
+    "t_end": 2104.71,
+    "text": "this property of being solvable which is a which means they're not too far the"
+  },
+  {
+    "t_start": 2104.71,
+    "t_end": 2106.83,
+    "text": "sense from being abelian they can be kind of broken up into a billion"
+  },
+  {
+    "t_start": 2106.83,
+    "t_end": 2108.7,
+    "text": "kind of broken up into a billion constituents and that's what makes these"
+  },
+  {
+    "t_start": 2108.7,
+    "t_end": 2110.72,
+    "text": "constituents and that's what makes these equations more tractable"
+  },
+  {
+    "t_start": 2110.72,
+    "t_end": 2115.849,
+    "text": "got a point of view of modularity and well prior to this work of wilds"
+  },
+  {
+    "t_start": 2115.849,
+    "t_end": 2119.0,
+    "text": "well prior to this work of wilds modularity was only known for finitely"
+  },
+  {
+    "t_start": 2119.0,
+    "t_end": 2120.92,
+    "text": "modularity was only known for finitely many elliptic curves over Q so there"
+  },
+  {
+    "t_start": 2120.92,
+    "t_end": 2123.259,
+    "text": "many elliptic curves over Q so there were really no serious examples of"
+  },
+  {
+    "t_start": 2123.259,
+    "t_end": 2125.72,
+    "text": "were really no serious examples of equations in more than one variable for"
+  },
+  {
+    "t_start": 2125.72,
+    "t_end": 2129.14,
+    "text": "equations in more than one variable for which modularity was known and and and"
+  },
+  {
+    "t_start": 2129.14,
+    "t_end": 2132.38,
+    "text": "which modularity was known and and and the way that it was proved for these"
+  },
+  {
+    "t_start": 2132.38,
+    "t_end": 2136.069,
+    "text": "finitely many elliptic curves up to isomorphism was by essentially almost"
+  },
+  {
+    "t_start": 2136.069,
+    "t_end": 2141.799,
+    "text": "verification I mean there was no no general technique for for getting the"
+  },
+  {
+    "t_start": 2141.799,
+    "t_end": 2147.89,
+    "text": "general technique for for getting the modularity so why is the modularity"
+  },
+  {
+    "t_start": 2147.89,
+    "t_end": 2149.72,
+    "text": "modularity so why is the modularity elliptic curves important I mean return"
+  },
+  {
+    "t_start": 2149.72,
+    "t_end": 2153.799,
+    "text": "elliptic curves important I mean return to that question which I also raised at"
+  },
+  {
+    "t_start": 2153.799,
+    "t_end": 2156.109,
+    "text": "the beginning of my talk well so of course this theorem confirms the"
+  },
+  {
+    "t_start": 2156.109,
+    "t_end": 2158.059,
+    "text": "course this theorem confirms the language conjecture in an important new"
+  },
+  {
+    "t_start": 2158.059,
+    "t_end": 2160.67,
+    "text": "language conjecture in an important new case in either case of elliptic curves"
+  },
+  {
+    "t_start": 2160.67,
+    "t_end": 2164.63,
+    "text": "but you could still say well among all the fighting equations I could arise the"
+  },
+  {
+    "t_start": 2164.63,
+    "t_end": 2166.25,
+    "text": "the fighting equations I could arise the clickers are still one very special"
+  },
+  {
+    "t_start": 2166.25,
+    "t_end": 2168.2,
+    "text": "clickers are still one very special instance and you know what does what"
+  },
+  {
+    "t_start": 2168.2,
+    "t_end": 2173.329,
+    "text": "does it tell us about the broader picture well still the elliptic curves"
+  },
+  {
+    "t_start": 2173.329,
+    "t_end": 2174.74,
+    "text": "picture well still the elliptic curves have a really special place in number"
+  },
+  {
+    "t_start": 2174.74,
+    "t_end": 2176.359,
+    "text": "have a really special place in number theory even though they might seem"
+  },
+  {
+    "t_start": 2176.359,
+    "t_end": 2178.37,
+    "text": "theory even though they might seem especially to someone with algebraic"
+  },
+  {
+    "t_start": 2178.37,
+    "t_end": 2180.98,
+    "text": "especially to someone with algebraic geometry sensibilities has a very very"
+  },
+  {
+    "t_start": 2180.98,
+    "t_end": 2182.839,
+    "text": "geometry sensibilities has a very very special kind of equation"
+  },
+  {
+    "t_start": 2182.839,
+    "t_end": 2190.069,
+    "text": "and a lot of a very deep number theory has been done entirely around the theme"
+  },
+  {
+    "t_start": 2190.069,
+    "t_end": 2191.15,
+    "text": "has been done entirely around the theme of elliptic curves this is something"
+  },
+  {
+    "t_start": 2191.15,
+    "t_end": 2193.309,
+    "text": "of elliptic curves this is something you'll hear more about in man Jules"
+  },
+  {
+    "t_start": 2193.309,
+    "t_end": 2196.279,
+    "text": "you'll hear more about in man Jules lecture this afternoon and they also"
+  },
+  {
+    "t_start": 2196.279,
+    "t_end": 2198.95,
+    "text": "lecture this afternoon and they also have had many applications and things"
+  },
+  {
+    "t_start": 2198.95,
+    "t_end": 2200.45,
+    "text": "have had many applications and things like cryptography and nice so they're"
+  },
+  {
+    "t_start": 2200.45,
+    "t_end": 2202.249,
+    "text": "like cryptography and nice so they're really a wonderful structure for number"
+  },
+  {
+    "t_start": 2202.249,
+    "t_end": 2208.4,
+    "text": "theory yeah I have one thing point is that that modularity is sort of plays an"
+  },
+  {
+    "t_start": 2208.4,
+    "t_end": 2210.17,
+    "text": "that that modularity is sort of plays an essential role and in the mirror in the"
+  },
+  {
+    "t_start": 2210.17,
+    "t_end": 2215.569,
+    "text": "formulation of the BSD conjecture which is something that Manuel will talk about"
+  },
+  {
+    "t_start": 2215.569,
+    "t_end": 2221.15,
+    "text": "is something that Manuel will talk about more but okay so another point that I"
+  },
+  {
+    "t_start": 2221.15,
+    "t_end": 2222.41,
+    "text": "more but okay so another point that I want to make this is what I'm going to"
+  },
+  {
+    "t_start": 2222.41,
+    "t_end": 2224.269,
+    "text": "want to make this is what I'm going to focus on for the remainder of my lecture"
+  },
+  {
+    "t_start": 2224.269,
+    "t_end": 2228.14,
+    "text": "focus on for the remainder of my lecture is that Wiles proof leads to a"
+  },
+  {
+    "t_start": 2228.14,
+    "t_end": 2230.69,
+    "text": "is that Wiles proof leads to a revolutionary new approach to"
+  },
+  {
+    "t_start": 2230.69,
+    "t_end": 2235.819,
+    "text": "understanding modularity in much more general settings and I want to sort of"
+  },
+  {
+    "t_start": 2235.819,
+    "t_end": 2238.849,
+    "text": "general settings and I want to sort of focus on the ingredient or the element"
+  },
+  {
+    "t_start": 2238.849,
+    "t_end": 2244.4,
+    "text": "focus on the ingredient or the element in Wiles proof that somehow gives us a"
+  },
+  {
+    "t_start": 2244.4,
+    "t_end": 2250.67,
+    "text": "or further progress on the landlines program and on modularity results and to"
+  },
+  {
+    "t_start": 2250.67,
+    "t_end": 2254.63,
+    "text": "explain in this point I really have to discuss gallo representations which were"
+  },
+  {
+    "t_start": 2254.63,
+    "t_end": 2260.66,
+    "text": "discuss gallo representations which were also an object that came up in Andrews"
+  },
+  {
+    "t_start": 2260.66,
+    "t_end": 2263.53,
+    "text": "talk before so ago or presentation in general is a function is a homomorphism"
+  },
+  {
+    "t_start": 2263.53,
+    "t_end": 2268.07,
+    "text": "general is a function is a homomorphism from the absolute Galois group of Q so"
+  },
+  {
+    "t_start": 2268.07,
+    "t_end": 2270.95,
+    "text": "this is the order more efficient group of the field generated by all algebraic"
+  },
+  {
+    "t_start": 2270.95,
+    "t_end": 2274.37,
+    "text": "of the field generated by all algebraic numbers this group is very large so for"
+  },
+  {
+    "t_start": 2274.37,
+    "t_end": 2276.26,
+    "text": "numbers this group is very large so for technical reasons it's good to restrict"
+  },
+  {
+    "t_start": 2276.26,
+    "t_end": 2282.53,
+    "text": "technical reasons it's good to restrict to a certain quotient which I will call"
+  },
+  {
+    "t_start": 2282.53,
+    "t_end": 2286.82,
+    "text": "to a certain quotient which I will call GQ s which consists subsets of algebraic"
+  },
+  {
+    "t_start": 2286.82,
+    "t_end": 2289.46,
+    "text": "GQ s which consists subsets of algebraic numbers that have good reduction outside"
+  },
+  {
+    "t_start": 2289.46,
+    "t_end": 2293.57,
+    "text": "numbers that have good reduction outside a finite set of primes s is going to be"
+  },
+  {
+    "t_start": 2293.57,
+    "t_end": 2295.64,
+    "text": "a finite set of primes and so we only look at algebraic numbers that are good"
+  },
+  {
+    "t_start": 2295.64,
+    "t_end": 2302.33,
+    "text": "outside of that finite set and we look at how amorphous in today so we look at"
+  },
+  {
+    "t_start": 2302.33,
+    "t_end": 2304.34,
+    "text": "quotients of this group that can be realized as subgroups of the general"
+  },
+  {
+    "t_start": 2304.34,
+    "t_end": 2307.82,
+    "text": "linear group the group of n by n invertible matrices with entries in a"
+  },
+  {
+    "t_start": 2307.82,
+    "t_end": 2313.63,
+    "text": "invertible matrices with entries in a field l and so this group now is so the"
+  },
+  {
+    "t_start": 2313.63,
+    "t_end": 2316.55,
+    "text": "field l and so this group now is so the in red I put the slightly more technical"
+  },
+  {
+    "t_start": 2316.55,
+    "t_end": 2318.14,
+    "text": "in red I put the slightly more technical parts of the lecture thing that you"
+  },
+  {
+    "t_start": 2318.14,
+    "t_end": 2319.4,
+    "text": "parts of the lecture thing that you don't really have to understand if you"
+  },
+  {
+    "t_start": 2319.4,
+    "t_end": 2320.6,
+    "text": "don't really have to understand if you don't need to know the definition don't"
+  },
+  {
+    "t_start": 2320.6,
+    "t_end": 2326.42,
+    "text": "don't need to know the definition don't worry too much so we look at some kind"
+  },
+  {
+    "t_start": 2326.42,
+    "t_end": 2331.46,
+    "text": "of sub extension of the full set of algebraic numbers okay and L is a field"
+  },
+  {
+    "t_start": 2331.46,
+    "t_end": 2333.14,
+    "text": "algebraic numbers okay and L is a field which is endowed with some kind of"
+  },
+  {
+    "t_start": 2333.14,
+    "t_end": 2335.03,
+    "text": "which is endowed with some kind of topology which allows us to talk about"
+  },
+  {
+    "t_start": 2335.03,
+    "t_end": 2337.76,
+    "text": "topology which allows us to talk about continuous homomorphisms and the main"
+  },
+  {
+    "t_start": 2337.76,
+    "t_end": 2342.08,
+    "text": "examples for our discussion are going to be the field of real or complex numbers"
+  },
+  {
+    "t_start": 2342.08,
+    "t_end": 2345.38,
+    "text": "be the field of real or complex numbers the finite fields of cardinality L to"
+  },
+  {
+    "t_start": 2345.38,
+    "t_end": 2351.17,
+    "text": "the R where L as a prime and the subfields are what are what are called"
+  },
+  {
+    "t_start": 2351.17,
+    "t_end": 2359.72,
+    "text": "the melodic numbers okay there's a typo here this would be an L okay okay well"
+  },
+  {
+    "t_start": 2359.72,
+    "t_end": 2361.85,
+    "text": "here this would be an L okay okay well Galois representations are really an"
+  },
+  {
+    "t_start": 2361.85,
+    "t_end": 2363.82,
+    "text": "Galois representations are really an absolutely crucial"
+  },
+  {
+    "t_start": 2363.82,
+    "t_end": 2369.65,
+    "text": "object of number theory many many famous number theories have made contributions"
+  },
+  {
+    "t_start": 2369.65,
+    "t_end": 2372.02,
+    "text": "number theories have made contributions to the study of Galois presentations"
+  },
+  {
+    "t_start": 2372.02,
+    "t_end": 2375.17,
+    "text": "to the study of Galois presentations including in fact three former Apple"
+  },
+  {
+    "t_start": 2375.17,
+    "t_end": 2377.1,
+    "text": "including in fact three former Apple Prize winners before Andrew Weil"
+  },
+  {
+    "t_start": 2377.1,
+    "t_end": 2383.94,
+    "text": "so here in fact here you have a picture of jean-pierre sir and he the NP that"
+  },
+  {
+    "t_start": 2383.94,
+    "t_end": 2386.07,
+    "text": "of jean-pierre sir and he the NP that appears in the lecture he's giving is"
+  },
+  {
+    "t_start": 2386.07,
+    "t_end": 2391.74,
+    "text": "exactly the same NP as in my lecture so it's the counting points on on for some"
+  },
+  {
+    "t_start": 2391.74,
+    "t_end": 2395.46,
+    "text": "it's the counting points on on for some equation so fair at eight and Dooley"
+  },
+  {
+    "t_start": 2395.46,
+    "t_end": 2397.38,
+    "text": "equation so fair at eight and Dooley have all really made fundamental so"
+  },
+  {
+    "t_start": 2397.38,
+    "t_end": 2401.49,
+    "text": "have all really made fundamental so based on the record in fact you could"
+  },
+  {
+    "t_start": 2401.49,
+    "t_end": 2404.61,
+    "text": "theorist and you want to win a Nobel Prize then you really should work on"
+  },
+  {
+    "t_start": 2404.61,
+    "t_end": 2410.07,
+    "text": "Prize then you really should work on Galois presentations okay so well to a"
+  },
+  {
+    "t_start": 2410.07,
+    "t_end": 2411.84,
+    "text": "Galois presentations okay so well to a gala or a presentation we can associate"
+  },
+  {
+    "t_start": 2411.84,
+    "t_end": 2416.07,
+    "text": "gala or a presentation we can associate a seder function in much the same way"
+  },
+  {
+    "t_start": 2416.07,
+    "t_end": 2420.09,
+    "text": "that it was done for the diophantus equations before so this group gqs this"
+  },
+  {
+    "t_start": 2420.09,
+    "t_end": 2422.55,
+    "text": "equations before so this group gqs this gamma group of the algebraic numbers"
+  },
+  {
+    "t_start": 2422.55,
+    "t_end": 2425.07,
+    "text": "gamma group of the algebraic numbers contains a distinguished element for"
+  },
+  {
+    "t_start": 2425.07,
+    "t_end": 2430.08,
+    "text": "each prime P which is different from s and this is what was that's called the"
+  },
+  {
+    "t_start": 2430.08,
+    "t_end": 2432.33,
+    "text": "and this is what was that's called the Frobenius element at P that was"
+  },
+  {
+    "t_start": 2432.33,
+    "t_end": 2435.9,
+    "text": "Frobenius element at P that was mentioned also in Andrews talk and this"
+  },
+  {
+    "t_start": 2435.9,
+    "t_end": 2440.24,
+    "text": "for being is going to be denoted Sigma P actually much as in the previous talk so"
+  },
+  {
+    "t_start": 2440.24,
+    "t_end": 2442.71,
+    "text": "actually much as in the previous talk so from this we get an arithmetic sequence"
+  },
+  {
+    "t_start": 2442.71,
+    "t_end": 2444.21,
+    "text": "from this we get an arithmetic sequence that we can associate to any color"
+  },
+  {
+    "t_start": 2444.21,
+    "t_end": 2445.77,
+    "text": "that we can associate to any color representation if we have a"
+  },
+  {
+    "t_start": 2445.77,
+    "t_end": 2454.16,
+    "text": "representation row we can take the image of the earth power of the Frobenius at P"
+  },
+  {
+    "t_start": 2454.16,
+    "t_end": 2457.26,
+    "text": "of the earth power of the Frobenius at P now this is a matrix which is well"
+  },
+  {
+    "t_start": 2457.26,
+    "t_end": 2458.94,
+    "text": "now this is a matrix which is well defined up to conjugation because the"
+  },
+  {
+    "t_start": 2458.94,
+    "t_end": 2463.53,
+    "text": "defined up to conjugation because the Frobenius is only defined up to"
+  },
+  {
+    "t_start": 2463.53,
+    "t_end": 2464.94,
+    "text": "conjugacy but then the trace is a completely well-defined numerical"
+  },
+  {
+    "t_start": 2464.94,
+    "t_end": 2472.08,
+    "text": "invariant and this number is what we call n sub P 2d R and now we package"
+  },
+  {
+    "t_start": 2472.08,
+    "t_end": 2476.01,
+    "text": "call n sub P 2d R and now we package these n sub P to the RS in exactly the"
+  },
+  {
+    "t_start": 2476.01,
+    "t_end": 2480.68,
+    "text": "equations and we get 10 as a de function associated to the Galois representation"
+  },
+  {
+    "t_start": 2480.68,
+    "t_end": 2487.38,
+    "text": "and they one of the most I think important insights in the number theory"
+  },
+  {
+    "t_start": 2487.38,
+    "t_end": 2494.04,
+    "text": "important insights in the number theory in the 20th 20th century largely was the"
+  },
+  {
+    "t_start": 2494.04,
+    "t_end": 2495.72,
+    "text": "understanding that the two classes of Zeta functions as a functions of dye"
+  },
+  {
+    "t_start": 2495.72,
+    "t_end": 2497.55,
+    "text": "Zeta functions as a functions of dye effect in equations and the Zeta"
+  },
+  {
+    "t_start": 2497.55,
+    "t_end": 2499.35,
+    "text": "effect in equations and the Zeta functions of gamma our presentations are"
+  },
+  {
+    "t_start": 2499.35,
+    "t_end": 2505.14,
+    "text": "functions of gamma our presentations are intimately related and that if X is any"
+  },
+  {
+    "t_start": 2505.14,
+    "t_end": 2509.28,
+    "text": "collection or you can find two gamma or presentations in fact for which the zeta"
+  },
+  {
+    "t_start": 2509.28,
+    "t_end": 2511.32,
+    "text": "presentations in fact for which the zeta function of the equation"
+  },
+  {
+    "t_start": 2511.32,
+    "t_end": 2516.29,
+    "text": "can be written as a ratio of the zeta function of these two Galois recitations"
+  },
+  {
+    "t_start": 2516.29,
+    "t_end": 2518.43,
+    "text": "function of these two Galois recitations but gamma representations have this"
+  },
+  {
+    "t_start": 2518.43,
+    "t_end": 2521.73,
+    "text": "extra feature that I mean when you're looking at representations of a group"
+  },
+  {
+    "t_start": 2521.73,
+    "t_end": 2524.64,
+    "text": "looking at representations of a group it's natural to single single out the"
+  },
+  {
+    "t_start": 2524.64,
+    "t_end": 2527.01,
+    "text": "it's natural to single single out the ones that are irreducible that represent"
+  },
+  {
+    "t_start": 2527.01,
+    "t_end": 2529.47,
+    "text": "ones that are irreducible that represent in some sense the atomic constituents"
+  },
+  {
+    "t_start": 2529.47,
+    "t_end": 2531.81,
+    "text": "in some sense the atomic constituents the irreducible pieces of a general"
+  },
+  {
+    "t_start": 2531.81,
+    "t_end": 2535.77,
+    "text": "the irreducible pieces of a general representation and so you can more"
+  },
+  {
+    "t_start": 2535.77,
+    "t_end": 2537.63,
+    "text": "representation and so you can more generally express the zeta function of a"
+  },
+  {
+    "t_start": 2537.63,
+    "t_end": 2541.73,
+    "text": "generally express the zeta function of a diophantus equation as a product of"
+  },
+  {
+    "t_start": 2541.73,
+    "t_end": 2545.49,
+    "text": "diophantus equation as a product of Zetas associated to irreducible Galois"
+  },
+  {
+    "t_start": 2545.49,
+    "t_end": 2547.14,
+    "text": "Zetas associated to irreducible Galois representations with eventually some"
+  },
+  {
+    "t_start": 2547.14,
+    "t_end": 2553.8,
+    "text": "integer exponents so you always have such an expansion and in some sense the"
+  },
+  {
+    "t_start": 2553.8,
+    "t_end": 2555.6,
+    "text": "such an expansion and in some sense the Zeta functions with our presentations"
+  },
+  {
+    "t_start": 2555.6,
+    "t_end": 2558.81,
+    "text": "Zeta functions with our presentations are more fundamental objects they reveal"
+  },
+  {
+    "t_start": 2558.81,
+    "t_end": 2562.62,
+    "text": "are more fundamental objects they reveal that you can view them as somehow the"
+  },
+  {
+    "t_start": 2562.62,
+    "t_end": 2567.06,
+    "text": "underlying zeta function or of the underlying diophantus equation and they"
+  },
+  {
+    "t_start": 2567.06,
+    "t_end": 2570.48,
+    "text": "underlying diophantus equation and they sort of reveal hidden structure in the"
+  },
+  {
+    "t_start": 2570.48,
+    "t_end": 2576.84,
+    "text": "underlying equation which wouldn't be apparent when you first look at it"
+  },
+  {
+    "t_start": 2576.84,
+    "t_end": 2578.67,
+    "text": "so that's C and a lot of the work on proving modularity is of course in the"
+  },
+  {
+    "t_start": 2578.67,
+    "t_end": 2581.34,
+    "text": "proving modularity is of course in the language of gamma representations so now"
+  },
+  {
+    "t_start": 2581.34,
+    "t_end": 2585.03,
+    "text": "language of gamma representations so now we can rephrase the landlines program by"
+  },
+  {
+    "t_start": 2585.03,
+    "t_end": 2586.5,
+    "text": "we can rephrase the landlines program by saying that a gala or presentation is"
+  },
+  {
+    "t_start": 2586.5,
+    "t_end": 2588.51,
+    "text": "saying that a gala or presentation is modular if its data function can be"
+  },
+  {
+    "t_start": 2588.51,
+    "t_end": 2590.52,
+    "text": "modular if its data function can be expressed in terms of modular forms a"
+  },
+  {
+    "t_start": 2590.52,
+    "t_end": 2592.5,
+    "text": "expressed in terms of modular forms a very natural generalization of course"
+  },
+  {
+    "t_start": 2592.5,
+    "t_end": 2595.29,
+    "text": "very natural generalization of course and the fundamental problem the rangas"
+  },
+  {
+    "t_start": 2595.29,
+    "t_end": 2600.57,
+    "text": "and the fundamental problem the rangas program not can be reformulated as a the"
+  },
+  {
+    "t_start": 2600.57,
+    "t_end": 2602.91,
+    "text": "goal now is to show that olga our presentations eventually with some"
+  },
+  {
+    "t_start": 2602.91,
+    "t_end": 2605.36,
+    "text": "presentations eventually with some technical restrictions that somehow"
+  },
+  {
+    "t_start": 2605.36,
+    "t_end": 2610.47,
+    "text": "promised that they would come from diaphoretic weijun's are associated to"
+  },
+  {
+    "t_start": 2610.47,
+    "t_end": 2616.83,
+    "text": "diaphoretic weijun's are associated to modular forms or to automatic"
+  },
+  {
+    "t_start": 2616.83,
+    "t_end": 2627.15,
+    "text": "modern view of looking at the language program and okay so we can look at some"
+  },
+  {
+    "t_start": 2627.15,
+    "t_end": 2628.89,
+    "text": "program and okay so we can look at some one of the things that we gain by doing"
+  },
+  {
+    "t_start": 2628.89,
+    "t_end": 2632.15,
+    "text": "one of the things that we gain by doing this is that if we have now a"
+  },
+  {
+    "t_start": 2632.15,
+    "t_end": 2634.86,
+    "text": "this is that if we have now a representation with values in the"
+  },
+  {
+    "t_start": 2634.86,
+    "t_end": 2640.44,
+    "text": "illogic integers so ZL is the inverse limit of Z mod L to the N so we saw a"
+  },
+  {
+    "t_start": 2640.44,
+    "t_end": 2642.09,
+    "text": "limit of Z mod L to the N so we saw a gawah person whose values in Z mod L to"
+  },
+  {
+    "t_start": 2642.09,
+    "t_end": 2644.039,
+    "text": "gawah person whose values in Z mod L to the N in the previous talk and you can"
+  },
+  {
+    "t_start": 2644.039,
+    "t_end": 2645.419,
+    "text": "the N in the previous talk and you can packaged them together to get these"
+  },
+  {
+    "t_start": 2645.419,
+    "t_end": 2648.809,
+    "text": "packaged them together to get these so-called alaric gal representations and"
+  },
+  {
+    "t_start": 2648.809,
+    "t_end": 2652.829,
+    "text": "so-called alaric gal representations and when you have such a thing you can"
+  },
+  {
+    "t_start": 2652.829,
+    "t_end": 2654.63,
+    "text": "consider its mod l-reduction which is a simpler thing as finite image in"
+  },
+  {
+    "t_start": 2654.63,
+    "t_end": 2658.62,
+    "text": "simpler thing as finite image in particular and this operation of"
+  },
+  {
+    "t_start": 2658.62,
+    "t_end": 2660.989,
+    "text": "particular and this operation of reduction modulo L would seem very"
+  },
+  {
+    "t_start": 2660.989,
+    "t_end": 2663.9,
+    "text": "reduction modulo L would seem very contrived from the point of view of the"
+  },
+  {
+    "t_start": 2663.9,
+    "t_end": 2668.699,
+    "text": "NP of adaiah fantine equation so you take your diet fat equation your Campus"
+  },
+  {
+    "t_start": 2668.699,
+    "t_end": 2671.819,
+    "text": "take your diet fat equation your Campus Solutions mod over finite fields of"
+  },
+  {
+    "t_start": 2671.819,
+    "t_end": 2673.919,
+    "text": "Solutions mod over finite fields of cardinality P and then you take this"
+  },
+  {
+    "t_start": 2673.919,
+    "t_end": 2675.809,
+    "text": "cardinality P and then you take this resulting number you would use modulo L"
+  },
+  {
+    "t_start": 2675.809,
+    "t_end": 2677.429,
+    "text": "resulting number you would use modulo L what does that mean that's like a very"
+  },
+  {
+    "t_start": 2677.429,
+    "t_end": 2679.439,
+    "text": "what does that mean that's like a very artificial thing to do from the point of"
+  },
+  {
+    "t_start": 2679.439,
+    "t_end": 2680.549,
+    "text": "artificial thing to do from the point of view of gob our presentation is"
+  },
+  {
+    "t_start": 2680.549,
+    "t_end": 2683.219,
+    "text": "view of gob our presentation is completely natural because you have this"
+  },
+  {
+    "t_start": 2683.219,
+    "t_end": 2692.309,
+    "text": "completely natural because you have this natural homomorphism from GL n ZL 2gl"
+  },
+  {
+    "t_start": 2692.309,
+    "t_end": 2694.589,
+    "text": "NFL okay now I can state a result which is somewhat more technical than the"
+  },
+  {
+    "t_start": 2694.589,
+    "t_end": 2697.229,
+    "text": "is somewhat more technical than the modularity theorem of Wiles but in some"
+  },
+  {
+    "t_start": 2697.229,
+    "t_end": 2700.499,
+    "text": "modularity theorem of Wiles but in some sense is really the heart of Andrew"
+  },
+  {
+    "t_start": 2700.499,
+    "t_end": 2705.049,
+    "text": "Wiles proof and it is the statement that has led to a fantastic and a number of"
+  },
+  {
+    "t_start": 2705.049,
+    "t_end": 2706.979,
+    "text": "has led to a fantastic and a number of generalizations and fantastic progress"
+  },
+  {
+    "t_start": 2706.979,
+    "t_end": 2712.349,
+    "text": "in the language program this is the so-called modularity lifting theorem the"
+  },
+  {
+    "t_start": 2712.349,
+    "t_end": 2717.269,
+    "text": "so-called modularity lifting theorem the modularity lifting theorem asserts that"
+  },
+  {
+    "t_start": 2717.269,
+    "t_end": 2721.469,
+    "text": "if you start with Ag our presentation into GL 2 gee L 2 ZL which satisfies"
+  },
+  {
+    "t_start": 2721.469,
+    "t_end": 2724.469,
+    "text": "into GL 2 gee L 2 ZL which satisfies some technical conditions and me needed"
+  },
+  {
+    "t_start": 2724.469,
+    "t_end": 2728.339,
+    "text": "some technical conditions and me needed to ensure that somehow they can do"
+  },
+  {
+    "t_start": 2728.339,
+    "t_end": 2731.249,
+    "text": "to ensure that somehow they can do things then if the model reduction is"
+  },
+  {
+    "t_start": 2731.249,
+    "t_end": 2738.239,
+    "text": "modular then so is the representation role so what while says and in this type"
+  },
+  {
+    "t_start": 2738.239,
+    "t_end": 2739.769,
+    "text": "of result at the time when it was introduced by Wallace was completely"
+  },
+  {
+    "t_start": 2739.769,
+    "t_end": 2746.819,
+    "text": "stunning and and completely new no one had ever seen a statement of this kind"
+  },
+  {
+    "t_start": 2746.819,
+    "t_end": 2748.829,
+    "text": "since those days these kind of modularity lifting theorems have"
+  },
+  {
+    "t_start": 2748.829,
+    "t_end": 2753.63,
+    "text": "proliferated there have been dozens hundreds maybe of generalizations of"
+  },
+  {
+    "t_start": 2753.63,
+    "t_end": 2758.189,
+    "text": "this modularity theorem with weaker and weaker conditions are working in more"
+  },
+  {
+    "t_start": 2758.189,
+    "t_end": 2760.439,
+    "text": "weaker conditions are working in more and more general case cases and these"
+  },
+  {
+    "t_start": 2760.439,
+    "t_end": 2762.449,
+    "text": "and more general case cases and these modularity fears have how are the ones"
+  },
+  {
+    "t_start": 2762.449,
+    "t_end": 2766.019,
+    "text": "modularity fears have how are the ones that have led to finesse so this kind of"
+  },
+  {
+    "t_start": 2766.019,
+    "t_end": 2768.479,
+    "text": "a wonderful template a paradigm for making further progress on the Langlands"
+  },
+  {
+    "t_start": 2768.479,
+    "t_end": 2774.87,
+    "text": "making further progress on the Langlands program and well so this has really"
+  },
+  {
+    "t_start": 2774.87,
+    "t_end": 2777.04,
+    "text": "program and well so this has really generate a whole industry in that too"
+  },
+  {
+    "t_start": 2777.04,
+    "t_end": 2784.06,
+    "text": "a lot of advances as I said just before and well before I before I say anything"
+  },
+  {
+    "t_start": 2784.06,
+    "t_end": 2786.31,
+    "text": "and well before I before I say anything about the new progress in the language"
+  },
+  {
+    "t_start": 2786.31,
+    "t_end": 2789.52,
+    "text": "about the new progress in the language program that kind of arose from this"
+  },
+  {
+    "t_start": 2789.52,
+    "t_end": 2791.47,
+    "text": "program that kind of arose from this modularity lifting theorem or its"
+  },
+  {
+    "t_start": 2791.47,
+    "t_end": 2793.69,
+    "text": "modularity lifting theorem or its generalizations let me explain to you"
+  },
+  {
+    "t_start": 2793.69,
+    "t_end": 2800.44,
+    "text": "generalizations let me explain to you how this can be used to prove the"
+  },
+  {
+    "t_start": 2800.44,
+    "t_end": 2805.84,
+    "text": "it has Wiles proof of the modularity so we start with an elliptic curve and you"
+  },
+  {
+    "t_start": 2805.84,
+    "t_end": 2808.27,
+    "text": "we start with an elliptic curve and you consider The Associated mod 3"
+  },
+  {
+    "t_start": 2808.27,
+    "t_end": 2812.83,
+    "text": "consider The Associated mod 3 representation which whose image is a"
+  },
+  {
+    "t_start": 2812.83,
+    "t_end": 2817.84,
+    "text": "subgroup of GL 2 of the field with three elements and we can then consider the"
+  },
+  {
+    "t_start": 2817.84,
+    "t_end": 2819.609,
+    "text": "elements and we can then consider the corresponding three attic representation"
+  },
+  {
+    "t_start": 2819.609,
+    "t_end": 2823.9,
+    "text": "which has values in a much bigger group I mean and to prove the module I already"
+  },
+  {
+    "t_start": 2823.9,
+    "t_end": 2828.88,
+    "text": "I mean and to prove the module I already built a curve all we need to do is to"
+  },
+  {
+    "t_start": 2828.88,
+    "t_end": 2830.92,
+    "text": "show that this representation row is modular since yeah the zeta function of"
+  },
+  {
+    "t_start": 2830.92,
+    "t_end": 2837.1,
+    "text": "Rho is essentially the zeta function of the elliptic curve ok so we start with a"
+  },
+  {
+    "t_start": 2837.1,
+    "t_end": 2838.9,
+    "text": "the elliptic curve ok so we start with a result of longlines tunnel which tells"
+  },
+  {
+    "t_start": 2838.9,
+    "t_end": 2843.79,
+    "text": "result of longlines tunnel which tells us that row bar is modular and the"
+  },
+  {
+    "t_start": 2843.79,
+    "t_end": 2845.98,
+    "text": "reason why we know that row bar is modular is that this this happy"
+  },
+  {
+    "t_start": 2845.98,
+    "t_end": 2848.05,
+    "text": "modular is that this this happy circumstances Andrew also explained in"
+  },
+  {
+    "t_start": 2848.05,
+    "t_end": 2855.28,
+    "text": "this talk that the target group GL to f3 module of the center is isomorphic the"
+  },
+  {
+    "t_start": 2855.28,
+    "t_end": 2860.859,
+    "text": "module of the center is isomorphic the symmetric group on four letters so the"
+  },
+  {
+    "t_start": 2860.859,
+    "t_end": 2862.06,
+    "text": "MA the three tours and points on the elliptic curve have a modularity"
+  },
+  {
+    "t_start": 2862.06,
+    "t_end": 2864.73,
+    "text": "elliptic curve have a modularity property for exactly the same reason"
+  },
+  {
+    "t_start": 2864.73,
+    "t_end": 2866.56,
+    "text": "property for exactly the same reason that the quartic equation is solvable"
+  },
+  {
+    "t_start": 2866.56,
+    "t_end": 2868.24,
+    "text": "that the quartic equation is solvable because they have the same underlying"
+  },
+  {
+    "t_start": 2868.24,
+    "t_end": 2874.48,
+    "text": "because they have the same underlying group of symmetries so so it's I think"
+  },
+  {
+    "t_start": 2874.48,
+    "t_end": 2875.74,
+    "text": "group of symmetries so so it's I think it's actually a wonderful example of"
+  },
+  {
+    "t_start": 2875.74,
+    "t_end": 2877.99,
+    "text": "it's actually a wonderful example of continuity in mathematical ideas the"
+  },
+  {
+    "t_start": 2877.99,
+    "t_end": 2883.33,
+    "text": "reason why the Italian geometry algebra is of the Renaissance were able to solve"
+  },
+  {
+    "t_start": 2883.33,
+    "t_end": 2885.34,
+    "text": "is of the Renaissance were able to solve the quartic equation by radicals it's"
+  },
+  {
+    "t_start": 2885.34,
+    "t_end": 2887.32,
+    "text": "the quartic equation by radicals it's the same reason why language Stannah"
+  },
+  {
+    "t_start": 2887.32,
+    "t_end": 2891.52,
+    "text": "were able to prove the modularity of all quartet equations and that's the same"
+  },
+  {
+    "t_start": 2891.52,
+    "t_end": 2896.62,
+    "text": "reason why Wiles was able to prove the modularity of sufficiently many phreatic"
+  },
+  {
+    "t_start": 2896.62,
+    "t_end": 2898.03,
+    "text": "modularity of sufficiently many phreatic our presentation is to get the"
+  },
+  {
+    "t_start": 2898.03,
+    "t_end": 2902.25,
+    "text": "our presentation is to get the modularity of all the little curves over"
+  },
+  {
+    "t_start": 2902.25,
+    "t_end": 2906.67,
+    "text": "okay so then well so from this we know if the models for your positions modular"
+  },
+  {
+    "t_start": 2906.67,
+    "t_end": 2909.96,
+    "text": "if the models for your positions modular and if semi-stable turns out that the"
+  },
+  {
+    "t_start": 2909.96,
+    "t_end": 2917.309,
+    "text": "the original modularity lifting theorem of Wiles are satisfied more or less and"
+  },
+  {
+    "t_start": 2917.309,
+    "t_end": 2919.68,
+    "text": "then one concludes using wireless modularity lifting theorem that the"
+  },
+  {
+    "t_start": 2919.68,
+    "t_end": 2921.21,
+    "text": "modularity lifting theorem that the representation row is modular and"
+  },
+  {
+    "t_start": 2921.21,
+    "t_end": 2925.8,
+    "text": "therefore so is e this is a slightly oversimplified account of the proof I"
+  },
+  {
+    "t_start": 2925.8,
+    "t_end": 2927.45,
+    "text": "oversimplified account of the proof I mean there are some extra complications"
+  },
+  {
+    "t_start": 2927.45,
+    "t_end": 2934.349,
+    "text": "that arose on the way but it's a sort of conceptual account okay so the principle"
+  },
+  {
+    "t_start": 2934.349,
+    "t_end": 2936.72,
+    "text": "conceptual account okay so the principle that that's really important in the"
+  },
+  {
+    "t_start": 2936.72,
+    "t_end": 2938.819,
+    "text": "that that's really important in the modularity lifting theorem of Wiles is"
+  },
+  {
+    "t_start": 2938.819,
+    "t_end": 2942.54,
+    "text": "modularity lifting theorem of Wiles is this a principle that modularity is in"
+  },
+  {
+    "t_start": 2942.54,
+    "t_end": 2946.89,
+    "text": "some sense contagious that in many situations one can hope that it will be"
+  },
+  {
+    "t_start": 2946.89,
+    "t_end": 2953.55,
+    "text": "representation to the corresponding a logic representation and so that's"
+  },
+  {
+    "t_start": 2953.55,
+    "t_end": 2957.24,
+    "text": "really I think what was the main thing that accounts for the tremendous impact"
+  },
+  {
+    "t_start": 2957.24,
+    "t_end": 2963.48,
+    "text": "that accounts for the tremendous impact that Wiles ideas have had over the last"
+  },
+  {
+    "t_start": 2963.48,
+    "t_end": 2966.359,
+    "text": "two decades and sort of why these results have opened a new era in number"
+  },
+  {
+    "t_start": 2966.359,
+    "t_end": 2969.75,
+    "text": "results have opened a new era in number theory as as in the words of the Abel"
+  },
+  {
+    "t_start": 2969.75,
+    "t_end": 2975.18,
+    "text": "theory as as in the words of the Abel prize citation and indeed since 1994"
+  },
+  {
+    "t_start": 2975.18,
+    "t_end": 2977.7,
+    "text": "prize citation and indeed since 1994 when Wiles proof was was published the"
+  },
+  {
+    "t_start": 2977.7,
+    "t_end": 2982.92,
+    "text": "subject has really had a real golden age of a new of progress in which many open"
+  },
+  {
+    "t_start": 2982.92,
+    "t_end": 2984.72,
+    "text": "of a new of progress in which many open problems that before then seem"
+  },
+  {
+    "t_start": 2984.72,
+    "t_end": 2986.18,
+    "text": "problems that before then seem completely out of reach"
+  },
+  {
+    "t_start": 2986.18,
+    "t_end": 2990.9,
+    "text": "gradually succumbed to the same kind of techniques that had been used to prove"
+  },
+  {
+    "t_start": 2990.9,
+    "t_end": 2993.75,
+    "text": "techniques that had been used to prove the modularity of elliptic curves and so"
+  },
+  {
+    "t_start": 2993.75,
+    "t_end": 2996.0,
+    "text": "the modularity of elliptic curves and so let me now just finish my talk by"
+  },
+  {
+    "t_start": 2996.0,
+    "t_end": 2998.579,
+    "text": "let me now just finish my talk by quickly telling you a few of these"
+  },
+  {
+    "t_start": 2998.579,
+    "t_end": 3005.42,
+    "text": "examples of these results so for example the two-dimensional art in conjecture"
+  },
+  {
+    "t_start": 3005.42,
+    "t_end": 3006.65,
+    "text": "the two-dimensional art in conjecture these concerns"
+  },
+  {
+    "t_start": 3006.65,
+    "t_end": 3011.9,
+    "text": "Galois representations with values in jail to see an art in conjecture"
+  },
+  {
+    "t_start": 3011.9,
+    "t_end": 3013.19,
+    "text": "jail to see an art in conjecture something which essentially amounts to"
+  },
+  {
+    "t_start": 3013.19,
+    "t_end": 3016.97,
+    "text": "something which essentially amounts to the modularity of these Galois"
+  },
+  {
+    "t_start": 3016.97,
+    "t_end": 3021.23,
+    "text": "representations provided there are the complex conjugation has a certain"
+  },
+  {
+    "t_start": 3021.23,
+    "t_end": 3026.78,
+    "text": "behavior and this was proved in many new cases in fact many so it was known in"
+  },
+  {
+    "t_start": 3026.78,
+    "t_end": 3029.72,
+    "text": "cases in fact many so it was known in cases of solvable image before by heck"
+  },
+  {
+    "t_start": 3029.72,
+    "t_end": 3032.03,
+    "text": "cases of solvable image before by heck Langlands tunnel and so on it was proved"
+  },
+  {
+    "t_start": 3032.03,
+    "t_end": 3034.099,
+    "text": "Langlands tunnel and so on it was proved in many non solvable cases so-called"
+  },
+  {
+    "t_start": 3034.099,
+    "t_end": 3037.79,
+    "text": "in many non solvable cases so-called icosahedral image case by notably buzzer"
+  },
+  {
+    "t_start": 3037.79,
+    "t_end": 3040.309,
+    "text": "icosahedral image case by notably buzzer dickinson Shepard Byron and Taylor"
+  },
+  {
+    "t_start": 3040.309,
+    "t_end": 3041.53,
+    "text": "dickinson Shepard Byron and Taylor around"
+  },
+  {
+    "t_start": 3041.53,
+    "t_end": 3047.53,
+    "text": "and three there in their sales conjecture which was also mentioned"
+  },
+  {
+    "t_start": 3047.53,
+    "t_end": 3049.99,
+    "text": "conjecture which was also mentioned briefly in Andrews lecture but when"
+  },
+  {
+    "t_start": 3049.99,
+    "t_end": 3052.45,
+    "text": "briefly in Andrews lecture but when considers instead representations of the"
+  },
+  {
+    "t_start": 3052.45,
+    "t_end": 3055.51,
+    "text": "considers instead representations of the Galois group with values in a finite"
+  },
+  {
+    "t_start": 3055.51,
+    "t_end": 3061.78,
+    "text": "representations and still odd and this was conjectured by ser that all such"
+  },
+  {
+    "t_start": 3061.78,
+    "t_end": 3063.43,
+    "text": "was conjectured by ser that all such representations were modular and it was"
+  },
+  {
+    "t_start": 3063.43,
+    "t_end": 3064.86,
+    "text": "representations were modular and it was money some other philosophical"
+  },
+  {
+    "t_start": 3064.86,
+    "t_end": 3074.35,
+    "text": "underpinning of the humour a taniyama implies firma and this was proved around"
+  },
+  {
+    "t_start": 3074.35,
+    "t_end": 3076.45,
+    "text": "implies firma and this was proved around to four published at least one 2008 by"
+  },
+  {
+    "t_start": 3076.45,
+    "t_end": 3080.47,
+    "text": "to four published at least one 2008 by Kerry and venturi as as Andrew also I"
+  },
+  {
+    "t_start": 3080.47,
+    "t_end": 3083.8,
+    "text": "Kerry and venturi as as Andrew also I mentioned the fourth major conjecture"
+  },
+  {
+    "t_start": 3083.8,
+    "t_end": 3086.11,
+    "text": "mentioned the fourth major conjecture which concerns now two-dimensional gamma"
+  },
+  {
+    "t_start": 3086.11,
+    "t_end": 3089.17,
+    "text": "which concerns now two-dimensional gamma presentations with p-adic coefficients"
+  },
+  {
+    "t_start": 3089.17,
+    "t_end": 3094.78,
+    "text": "presentations with p-adic coefficients and here one is interested not just in"
+  },
+  {
+    "t_start": 3094.78,
+    "t_end": 3099.55,
+    "text": "the more basic question of what are the periodic representations that arise from"
+  },
+  {
+    "t_start": 3099.55,
+    "t_end": 3101.08,
+    "text": "periodic representations that arise from daya fighting equations it turns out"
+  },
+  {
+    "t_start": 3101.08,
+    "t_end": 3103.18,
+    "text": "daya fighting equations it turns out that not all p-adic representations have"
+  },
+  {
+    "t_start": 3103.18,
+    "t_end": 3107.14,
+    "text": "that not all p-adic representations have this property so what has to kind of"
+  },
+  {
+    "t_start": 3107.14,
+    "t_end": 3110.74,
+    "text": "have some conditions but then but then well surprisingly it seems that the"
+  },
+  {
+    "t_start": 3110.74,
+    "t_end": 3115.63,
+    "text": "simplest route to showing that a color presentation arises from daya fantine"
+  },
+  {
+    "t_start": 3115.63,
+    "t_end": 3120.16,
+    "text": "presentation arises from daya fantine equation is to show its modularity and"
+  },
+  {
+    "t_start": 3120.16,
+    "t_end": 3123.46,
+    "text": "that's what led to progress on this front end maser conjecture arising from"
+  },
+  {
+    "t_start": 3123.46,
+    "t_end": 3128.7,
+    "text": "front end maser conjecture arising from work of many people including corn maize"
+  },
+  {
+    "t_start": 3128.7,
+    "t_end": 3133.71,
+    "text": "work of many people including corn maize Emerton and kissing around 2010"
+  },
+  {
+    "t_start": 3133.71,
+    "t_end": 3135.7,
+    "text": "Emerton and kissing around 2010 chateau-thierry conjecture is a"
+  },
+  {
+    "t_start": 3135.7,
+    "t_end": 3144.91,
+    "text": "chateau-thierry conjecture is a conjecture which was formulated by Sato"
+  },
+  {
+    "t_start": 3144.91,
+    "t_end": 3154.6,
+    "text": "distribution of the numbers and PVE attached to an elliptic curve and that"
+  },
+  {
+    "t_start": 3154.6,
+    "t_end": 3156.97,
+    "text": "attached to an elliptic curve and that was proved in large part and then"
+  },
+  {
+    "t_start": 3156.97,
+    "t_end": 3159.51,
+    "text": "was proved in large part and then gradually more and more generality by"
+  },
+  {
+    "t_start": 3159.51,
+    "t_end": 3166.09,
+    "text": "close L Harris Shepard Barron and Taylor and using again I mean so - and again"
+  },
+  {
+    "t_start": 3166.09,
+    "t_end": 3170.74,
+    "text": "and using again I mean so - and again the idea was to get a handle on the zeta"
+  },
+  {
+    "t_start": 3170.74,
+    "t_end": 3172.66,
+    "text": "function by proving an appropriate modularity lifting"
+  },
+  {
+    "t_start": 3172.66,
+    "t_end": 3176.9,
+    "text": "and I know well when consider also cases of modularity of a more general number"
+  },
+  {
+    "t_start": 3176.9,
+    "t_end": 3179.48,
+    "text": "of modularity of a more general number fields the most natural case after the"
+  },
+  {
+    "t_start": 3179.48,
+    "t_end": 3180.559,
+    "text": "fields the most natural case after the rational members are quadratic"
+  },
+  {
+    "t_start": 3180.559,
+    "t_end": 3184.88,
+    "text": "extensions of Q or real kradic fields for example and so one can consider the"
+  },
+  {
+    "t_start": 3184.88,
+    "t_end": 3186.2,
+    "text": "for example and so one can consider the module I because there were real erratic"
+  },
+  {
+    "t_start": 3186.2,
+    "t_end": 3187.819,
+    "text": "module I because there were real erratic fields as a generalization is she more"
+  },
+  {
+    "t_start": 3187.819,
+    "t_end": 3189.95,
+    "text": "fields as a generalization is she more Otaniemi conjecture which was sort of"
+  },
+  {
+    "t_start": 3189.95,
+    "t_end": 3191.9,
+    "text": "Otaniemi conjecture which was sort of implicit already I think in the in the"
+  },
+  {
+    "t_start": 3191.9,
+    "t_end": 3196.519,
+    "text": "in the original conjecture and that's been proved quite recently around 2015"
+  },
+  {
+    "t_start": 3196.519,
+    "t_end": 3203.99,
+    "text": "been proved quite recently around 2015 by new no fright us bow hung and some"
+  },
+  {
+    "t_start": 3206.42,
+    "t_end": 3209.329,
+    "text": "so in conclusion well I mean I just wanted to explain that all these results"
+  },
+  {
+    "t_start": 3209.329,
+    "t_end": 3210.799,
+    "text": "wanted to explain that all these results that I quickly went through here are"
+  },
+  {
+    "t_start": 3210.799,
+    "t_end": 3216.109,
+    "text": "just examples there are many more of the rich intellectual legacy of Wiles proof"
+  },
+  {
+    "t_start": 3216.109,
+    "t_end": 3219.62,
+    "text": "rich intellectual legacy of Wiles proof and well there's still many many open"
+  },
+  {
+    "t_start": 3219.62,
+    "t_end": 3221.48,
+    "text": "and well there's still many many open problems on this program it's very far"
+  },
+  {
+    "t_start": 3221.48,
+    "t_end": 3225.92,
+    "text": "problems on this program it's very far from being solved and so in some times"
+  },
+  {
+    "t_start": 3225.92,
+    "t_end": 3227.269,
+    "text": "from being solved and so in some times the wilds revolution growing out of"
+  },
+  {
+    "t_start": 3227.269,
+    "t_end": 3228.859,
+    "text": "the wilds revolution growing out of these exploiting is modularity I think"
+  },
+  {
+    "t_start": 3228.859,
+    "t_end": 3232.73,
+    "text": "these exploiting is modularity I think theorems is still far from over and it's"
+  },
+  {
+    "t_start": 3232.73,
+    "t_end": 3238.73,
+    "text": "subject so having to spend a lot of time talking about the legacy of Wiles proof"
+  },
+  {
+    "t_start": 3238.73,
+    "t_end": 3244.49,
+    "text": "I also want to maybe conclude with the remark that I think Andrew Wiles is the"
+  },
+  {
+    "t_start": 3244.49,
+    "t_end": 3249.559,
+    "text": "far so the whole that you shouldn't be only about legacy so as I congratulate"
+  },
+  {
+    "t_start": 3249.559,
+    "t_end": 3253.039,
+    "text": "only about legacy so as I congratulate him on his herbal prize I would have"
+  },
+  {
+    "t_start": 3253.039,
+    "t_end": 3255.22,
+    "text": "wished him many more decades of beautiful and influential mathematics"
+  },
+  {
+    "t_start": 3255.22,
+    "t_end": 3264.13,
+    "text": "beautiful and influential mathematics thank you"
+  }
+]

@@ -47,7 +47,6 @@ owner: "Your Name"
 lang: en
 categories:
 - chapter18
-lesson_type: required
 ---
 ```
 
@@ -58,7 +57,6 @@ lesson_type: required
 - **owner** is the post maintainer.
 - **lang** is `en` or `vi`.
 - **categories** must match the chapter directory name (e.g. `chapter18`).
-- **lesson_type** is `required` or `optional`.
 
 ### 2.2. LaTeX
 

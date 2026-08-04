@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ku_video_Jv5FU8oUWEY_2",
+    "t_start": 2.6,
+    "t_end": 95.5,
+    "type": "overview",
+    "summary": "this video is sponsored by brilliant here is a cosine function with a frequency of 1 Hertz and I am going to sample it with a frequency of 7 Herz sample it with a frequency of 7 Herz meaning I'll have seven equally spaced meaning I'll have seven equally spaced snapshots of the function essentially snapshots of the function essentially every second if we think about the time now if I take away the original signal and just handed you these samples signal and just handed you these samples and I told you the original signal was a of one and it was sampled at a rate of 7 Herz so you know mostly …"
+  },
+  {
+    "id": "ku_video_Jv5FU8oUWEY_95",
+    "t_start": 95.5,
+    "t_end": 187.6,
+    "type": "overview",
+    "summary": "idea whether the original was this or this or something else it could this or something else it could technically be anything that goes through all these sampled points but if we stick to just sinusoids then you we stick to just sinusoids then you still have unlimited choices however notice that one Hertz the actual original signal is the lowest the actual original signal is the lowest frequency that you could guess if we go down to anything else like5 Hertz this clearly will not go through all the clearly will not go through all the samples and nothing below 1 Herz will now if we go back t…"
+  },
+  {
+    "id": "ku_video_Jv5FU8oUWEY_187",
+    "t_start": 187.6,
+    "t_end": 280.5,
+    "type": "overview",
+    "summary": "one with a frequency of 05 Hertz which is a lower frequency than our original is a lower frequency than our original signal so of the infinitely many correct signal so of the infinitely many correct guesses you can make the original is not the one with the lowest frequency in this case there is one lower this change happens when your sampling frequency is less than twice sampling frequency is less than twice the frequency of your original sinusoid the frequency of your original sinusoid the original was 1 Herz meaning you need a sample at more than 2 Herz or you'll get this issue what we ju…"
+  },
+  {
+    "id": "ku_video_Jv5FU8oUWEY_280",
+    "t_start": 280.5,
+    "t_end": 375.4,
+    "type": "overview",
+    "summary": "frequencies that make this up yes as in what sign functions make up a bunch of what sign functions make up a bunch of samples or spikes well I'll just tell you the answer and I'm going to make some room answer and I'm going to make some room here is you just take the original here is you just take the original frequency domain function and make frequency domain function and make copies of it around integer multip of the sampling frequency so if we were sampling at 7 Hertz then this would be sampling at 7 Hertz then this would be seven and 14 and so on both positive and seven and 14 and so o…"
+  },
+  {
+    "id": "ku_video_Jv5FU8oUWEY_375",
+    "t_start": 375.4,
+    "t_end": 467.1,
+    "type": "overview",
+    "summary": "spikes or samples as our original function its frequency domain will look function its frequency domain will look like a periodic function what we just saw so that's why this sample discrete function has a forier transform that is function has a forier transform that is periodic you can think about it periodic you can think about it backwards and it makes more sense I'm not going to show the math of convolution in this video cuz I feel it convolution in this video cuz I feel it needs its own but that's how you would needs its own but that's how you would mathematically find this function es…"
+  },
+  {
+    "id": "ku_video_Jv5FU8oUWEY_467",
+    "t_start": 467.1,
+    "t_end": 558.5,
+    "type": "overview",
+    "summary": "the sampling frequency if you sample at a slower rate those copies start to come a slower rate those copies start to come together until you reach a point where together until you reach a point where they intersect and combine this is called aliasing and that that's when you lose information cuz even when you apply a filter you're not getting back the original signal there's Distortion due original signal there's Distortion due to the slow sampling and the resulting to the slow sampling and the resulting interference in the frequency domain and that aliasing will happen once your sampling f…"
+  },
+  {
+    "id": "ku_video_Jv5FU8oUWEY_558",
+    "t_start": 558.5,
+    "t_end": 654.6,
+    "type": "overview",
+    "summary": "negative values so in the frequency domain after sampling we'll find spikes domain after sampling we'll find spikes at 6 Herz 8 H Hertz 13 15 and all the numbers I showed before that is where they come from and if I zoom in a bit first then we lower the sampling frequency to 1.5 Hertz the copies start to cross each other and in this case we're left with other and in this case we're left with one frequency Spike at 05 here which is one frequency Spike at 05 here which is lower than our original signal so that's why a lower frequency guess is valid from these samples you guess is valid from t…"
+  },
+  {
+    "id": "ku_video_Jv5FU8oUWEY_654",
+    "t_start": 654.6,
+    "t_end": 685.8,
+    "type": "overview",
+    "summary": "so many courses to choose from so no matter what your background there will be something for you and you can now try everything brilliant has to offer free for a full 30 days just go to brilliant.org zakar or click the link in brilliant.org zakar or click the link in the description below plus the first 200 the description below plus the first 200 of you to sign up will get 20% off brilliant's annual premium subscription with that going to end that video there thanks as always to my supporters on patreon social media links to follow me patreon social media links to follow me are down below …"
+  }
+]

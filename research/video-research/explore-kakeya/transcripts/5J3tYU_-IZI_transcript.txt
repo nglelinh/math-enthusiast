@@ -1,0 +1,406 @@
+There's a deceptively simple problem
+that's tormented mathematicians for 50
+years. Suppose you have a needle. What's
+the smallest area you can sweep out by
+rotating it in all directions? This may
+seem like a fun exercise in geometry,
+but by posing a similar question,
+researchers have uncovered a vast trove
+of mathematics. We're talking about the
+CAA conjecture, the first step in a
+tower of conjectures that form some of
+the biggest open problems in harmonic
+analysis. The study of the mathematics
+of signals and waves. Everything's
+resting on this ca conjecture. So
+there's a chance if that's wrong, then
+the whole tower of implications kind of
+collapses, right? Everything fails.
+>> For decades, higher dimensional cases of
+the CA conjecture have eluded the
+world's greatest mathematical minds. But
+in early 2025, two mathematicians
+published a once- ina century proof
+>> in harmonic analysis. This is probably
+the biggest development in at least 20
+years. You really try hard to to not let
+yourself get carried away by the
+excitement.
+>> The result has profound connections to
+open questions about the behavior of the
+Fier transform, differential equations,
+and much more. But what is the CA
+conjecture? How did a problem about
+spinning a needle become a cornerstone
+of modern analysis and geometry? And
+what are some of the ideas behind the
+new groundbreaking proof?
+In 1917, Japanese mathematician Suichi
+Kaya was pondering the geometric
+properties of space.
+He considered an infinitely thin needle
+on a desk. Spin it around and you get a
+circle.
+If you rotate it like this, you get a
+different shape, a deltoid with an area
+half that of the circles.
+These shapes would come to be known as
+CA sets. So the CA problem is
+understanding how small these sets can
+be because they contain lines in every
+possible direction. We expect that they
+can't be too small. Russian
+mathematician Abraham Besovich became
+captivated by the CAA problem. Just 2
+years later, he found a surprising
+answer. If you take a complicated set of
+U-turns, you can cover no space at all.
+>> He showed that in fact you can construct
+cure sets that have arbitrarily small
+area, even zero area. This is quite
+counterintuitive.
+This is one of the sets that Bezakovich
+created. How could the shape have a
+total area of zero? It seems that
+something about CATs are still large,
+just not in the usual sense of area. We
+need a different way to describe how the
+shape fills space. We need the notion of
+dimensionality.
+Dimensions describe how many independent
+directions or degrees of freedom an
+object has in space. A point has zero
+dimensions. A line has one. A plane has
+two. A cube has three. But it's also
+possible for shapes to have fractional
+dimensions. Some fractals, for example,
+have a dimension that's between 1 and
+two.
+To study fractals, mathematician Herman
+Mancowski defined a new notion of
+dimension that we now call the Manowski
+dimension. The Manowski dimension
+measures how many boxes of a given size
+are needed to cover a set. For this
+reason, it's also known as the box
+counting dimension.
+Say you have boxes that are each a tenth
+of a unit wide. Now you have a line
+segment of length one. You'll need at
+least 10 boxes to cover it.
+But if you have a square of area 1,
+you'll need 10 squared or 100 boxes to
+cover it. The manowski dimension is the
+value of this exponent. So the line
+segment has a Minowski dimension of 1
+because the exponent here is one. The
+square has a Minowski dimension of two.
+But a fractal curve might have a
+Manowski dimension between 1 and two
+because of the number of boxes needed to
+cover it.
+[Music]
+Later, mathematician Felix Hausdorf
+refined Manowsk's way of measuring the
+dimensions of irregular sets. We call
+this different formulation the housedorf
+dimension. Roughly speaking, it's the
+same idea as box counting. But whereas
+in box counting all the pixels of the
+same size, you allow some regions of
+space to use big boxes and some region
+to use small boxes.
+In the 1970s, mathematician Roy Davies
+began exploring the complicated
+irregular geometry of CATS using these
+new approaches to dimension. He
+wondered, what's the smallest possible
+dimension for a CA set? To see how we
+tackled the question, let's take each
+line segment and fatten it up a little
+bit. Your set now consists of extremely
+thin rectangles. Davies carefully
+calculated the area of the intersection
+between pairs of rectangles depending on
+their angle. He then summed this
+quantity over all pairs of rectangles.
+He concluded that most pairs of
+rectangles have small intersections.
+This forces the union of all of the
+rectangles to be large and spread out in
+space. In effect, a geometric
+requirement that limits how much you can
+compress a CAT. Davies proved that every
+two-dimensional CA set has a housedorf
+and manowski dimension of two.
+>> These CA sets can have small area but
+they have to be full-dimensional
+objects. So they have to be
+two-dimensional. By reframing the CAA
+problem in terms of dimension, Davies
+laid the foundation for the CAA
+conjecture which generalizes his claim
+to all dimensions. It says that every
+CAT in n spatial dimensions must also
+have Howdorf and Manowski dimension N.
+In other words, a CATE must always have
+the same dimension as the space it
+inhabits, even if its area is zero.
+Intuitively, this makes sense. To have
+lines going everywhere, you need a lot
+of something. But while this statement
+may seem simple, mathematicians have
+struggled to prove it. Once you
+formulate the problem in a particular
+way, it really becomes about
+understanding how lines can intersect
+and cross over one another. That seems
+like a very elementary thing, but
+nevertheless, it's taken an immense
+amount of work to to understand this
+problem.
+>> That same year, Davies published his
+paper, Charles Fefferman made a
+startling discovery that would transform
+the CAA conjecture from a curiosity to a
+mathematical juggernaut.
+Fefferman was working on the Fier
+transform, a powerful tool from the
+field of harmonic analysis that allows
+mathematicians to study complicated
+signals or functions by writing them as
+sums of sine waves with different
+frequencies. The Furer transforms a very
+fundamental concept in mathematics. It's
+basically ubiquitous. There are
+surprising connections where you
+wouldn't initially imagine the Fer
+transform to play a role, but it
+nevertheless does.
+>> Here's what Feerman wanted to know. If
+you're given just some of your functions
+frequencies, can you reverse the Fier
+transform to rebuild your original
+function? Mathematicians already knew
+how to do this in dimension one. But
+what about higher dimensions?
+>> So it seems very intuitive and natural
+that you could it recover the function,
+but then Charles Fman disproved it. And
+so this was a big surprise.
+>> So that was already a surprising result.
+But what was also surprising was the way
+he did it. He used the solution to the
+CA needle problem.
+>> In a shock to the mathematical world,
+there was suddenly an intimate link
+between harmonic analysis and the CAA
+conjecture.
+>> So it was a fundamental new connection.
+It became increasingly clear that the
+path forward to solving these questions
+in analysis was was to understand
+geometry.
+>> Many top mathematicians began to
+investigate CATES, finding far-reaching
+connections to open problems in other
+fields. On top of the CAA conjecture,
+they built a hierarchy of conjectures
+about the higherdimensional behavior of
+the Fier transform and related ideas. On
+the first level is the restriction
+conjecture which asks how the Fier
+transform behaves when we look at it on
+a curved surface like a sphere.
+Then there's the Bachner Ree conjecture
+which asks whether we can use the Fier
+transform to clean up and smooth out the
+edges of a signal without accidentally
+introducing noise or distortion.
+And at the very top is the local
+smoothing conjecture, a problem about
+differential equations. It's a deep
+question about how waves propagate in
+space.
+>> So there are very very deep connections
+between the CA problem and propagation
+of waves.
+>> If the CA conjecture is false, then so
+are the statements above and the
+hierarchy.
+If it's true, then the methods used to
+prove it could also help attack the
+conjectures above it. It became
+increasingly important to understand
+this CA conjecture because it's part of
+a whole family of of really difficult
+conjectures in many fields.
+>> In the decades following Davies's proof,
+mathematicians set their sights on
+proving the CAA conjecture in dimensions
+beyond 2D.
+>> The big difference is the family of
+different directions in three dimensions
+is much richer and much more
+complicated. And as a consequence of
+this, there's a lot of phenomena that
+occur in three dimensions that you don't
+really see at all in two dimensions.
+The 3D CA conjecture says that every CAA
+set in 3D has Manowski and Howdorf
+dimension 3.
+To understand what that means, let's
+return to the 2D CAT. Recall that Davies
+thickened these lines into rectangles.
+Now, let's move into 3D space. If we
+pursue the same strategy, we get a
+collection of extremely thin tubes.
+In 2D, these lines often intersect, but
+in 3D, the tubes rarely intersect.
+>> They tend to miss each other. And in the
+Kaic conjecture, what you're trying to
+prove, what it really boils down to is
+showing that if you have a collection of
+tubes pointing in different directions,
+then they can't intersect very much.
+It's not enough just to say you have
+many lines, but you have to have this
+special property that the lines point in
+different directions. And that turns out
+to be surprisingly difficult to actually
+exploit. You can't just consider one
+configuration. You have to consider all
+possible ways you can arrange these
+needles in different regions. And
+there's there's an infinite number
+basically of all these configurations.
+And you want to show that every single
+one of these has to occupy a large
+amount of space.
+>> For a decade, Terrence Tao and dozens of
+other mathematicians refined
+increasingly creative approaches to the
+problem.
+>> People were stuck for a long time. I
+spent many years working on this
+problem, but we were missing big chunks
+of the program.
+>> In 2022, Hong Wang and Joshua Zal joined
+the effort to crack the CAA conjecture
+in 3D.
+First, they set out to prove that the
+conjecture was true for a subset of CAA
+sets that mathematicians call sticky.
+This means that if two tubes are
+pointing in the same direction, then
+they also have to be located close to
+each other in space.
+This property makes the geometry of
+sticky sets more structured and
+predictable than non-sticky sets.
+>> If you assume stickiness, then you have
+a lot of information like the the set is
+quite rigid. Assuming stickiness is
+intuitively easier to prove.
+>> In 2022, the pair proved the conjecture
+was true for sticky sets.
+>> That was really strong evidence that
+they were closing in on the go. They
+they had handled the most difficult case
+of the problem. And then they needed
+some argument to also deal with the
+non-sticky case.
+>> Non-sticky sets exhibit an irregular
+geometry with tubes scattered in all
+directions. To tackle them, Wong and Z
+started with the discovery from
+mathematician Larry Guth who showed that
+any counterexample to the Kaya
+conjecture needed to have a special
+property called graininess.
+Graininess is a forced consequence of
+trying to compress all directions into a
+small CA set. The set develops small
+regions called grains where many tubes
+overlap.
+>> And we spent quite a bit of time trying
+to understand how these grains interact
+with each other.
+>> Studying grains imposed a structure that
+Wang and Z could exploit. They proved
+that grains from one part of the Kaya
+set could not have large intersections
+with grains from another part.
+Then they expanded their proof with an
+argument called induction on scales.
+>> There has been this dream to prove this
+CA conjecture by what's called induction
+on scales. It's a way to get from um A
+to B when A very far apart by just just
+little steps.
+>> Previous attempts to prove the CA
+conjecture with the induction on scales
+had resulted in inefficiencies and
+losses. A classic example is the game
+Chinese whispers where you get a lot of
+people in a row and someone whispers a
+sentence to the next person who whispers
+a sentence to the next person. Um, if
+they had perfect reproduction, then by
+then by induction the person at the end
+would have exactly the same sentence as
+what they started with. But if you only
+have even a tiny amount of of of loss in
+each transmission step, then the end
+result can can be can be worthless or or
+at least hilarious.
+Wang and Z figured out that graininess
+was the key to controlling these losses.
+To understand how, recall that CATEST
+are irregular. At small scales, the
+tubes interact in unpredictable ways.
+For example, it's possible to imagine
+regions where the tubes overlap too
+efficiently, allowing a 3D CAT to
+squeeze into a smaller dimensional
+space.
+If this were to happen too much, the CA
+conjecture would be false.
+Instead of studying how tubes overlap,
+Wong and Zaul analyzed grains. They
+showed that no point in space can lie in
+too many grains.
+This imposed a limit on how much the
+tubes could overlap and how much the set
+could be compressed.
+Wang and Z used this structure to tame
+the chaos as they changed scale. And so
+you can slightly increase with each time
+you run this argument uh your best
+estimate on the dimension of kaya sets
+until eventually you get all the way up
+to three.
+>> They gradually raise the known lower
+bound on the dimension step by step
+until they prove the kaya conjecture in
+manowski and howdorf dimension 3.
+>> It's kind of the way math should work.
+Everyone contributes some partial
+result. It all gets synthesized at the
+end. So it's very satisfying.
+Mathematicians are hopeful that they can
+use the result to help build up proofs
+of the more ambitious conjectures above
+it.
+>> It doesn't fully solve the remaining
+questions, but it kind of knocks out
+half the difficulty. It's now given us a
+lot more confidence that all these
+beautiful conjectures we have that
+they're going to hopefully be true.
+People are just going to start climbing
+this hierarchy and I think one by one
+these other conjectures are going to
+either be solved completely or we'll see
+a lot of dramatic progress.
+[Music]

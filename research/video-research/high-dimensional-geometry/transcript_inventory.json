@@ -1,0 +1,21 @@
+{
+  "slug": "high-dimensional-geometry",
+  "videos": [
+    {
+      "id": "nKmYjFoiuYM",
+      "title": "Roman Vershynin — High-Dimensional Probability Lecture 1",
+      "has_transcript": true,
+      "chars": 21434,
+      "units": 22,
+      "url": "https://www.youtube.com/watch?v=nKmYjFoiuYM"
+    },
+    {
+      "id": "UHvT1MxFuvo",
+      "title": "Simons Institute — High Dimensional Geometry and Concentration I",
+      "has_transcript": true,
+      "chars": 43883,
+      "units": 38,
+      "url": "https://www.youtube.com/watch?v=UHvT1MxFuvo"
+    }
+  ]
+}

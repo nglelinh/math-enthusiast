@@ -1,0 +1,29 @@
+{
+  "slug": "paradoxes",
+  "videos": [
+    {
+      "id": "u7Z9UnWOJNY",
+      "title": "Numberphile — Zeno's Paradox",
+      "has_transcript": true,
+      "chars": 9657,
+      "units": 8,
+      "url": "https://www.youtube.com/watch?v=u7Z9UnWOJNY"
+    },
+    {
+      "id": "s86-Z-CbaHA",
+      "title": "Vsauce — The Banach–Tarski Paradox (measure paradox cousin)",
+      "has_transcript": true,
+      "chars": 18945,
+      "units": 16,
+      "url": "https://www.youtube.com/watch?v=s86-Z-CbaHA"
+    },
+    {
+      "id": "dDl7g_2x74Q",
+      "title": "Numberphile — Infinity Paradoxes (Hilbert hotel)",
+      "has_transcript": true,
+      "chars": 9703,
+      "units": 7,
+      "url": "https://www.youtube.com/watch?v=dDl7g_2x74Q"
+    }
+  ]
+}

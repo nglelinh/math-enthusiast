@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ku_video_Ra7aQlenTb8_6",
+    "t_start": 6.2,
+    "t_end": 97.3,
+    "type": "overview",
+    "summary": "Consider this lake flowing. If I gave you the velocity and pressure at every you the velocity and pressure at every single point, would you be able to single point, would you be able to predict how the lake flows over time? predict how the lake flows over time? This question points to the Navia Stokes This question points to the Navia Stokes equations, a set of equations that can equations, a set of equations that can describe any fluid you can think of from water to air to honey to so on. You might have heard of these equations because they're a part of the Millennium Prize problems. A col…"
+  },
+  {
+    "id": "ku_video_Ra7aQlenTb8_97",
+    "t_start": 97.3,
+    "t_end": 188.6,
+    "type": "overview",
+    "summary": "comes out with ease. Looking at ketchup's sheer rate versus viscosity graph, we can see that hitting the bottle, which increases the shear rate, bottle, which increases the shear rate, decreases its viscosity, which lets the The second assumption is that the fluid is incompressible. It means exactly what is incompressible. It means exactly what you think. If I compress the fluid that is at pressure, there's no considerable variation in the volume of the fluid. The last assumption is that the fluid is isothermal. This just means that as the fluid flows, there's no loss or gain of heat. And t…"
+  },
+  {
+    "id": "ku_video_Ra7aQlenTb8_188",
+    "t_start": 188.6,
+    "t_end": 281.1,
+    "type": "overview",
+    "summary": "the origin. This indicates positive divergence. Similarly, this vector field seems to have vectors that flow into the origin. have vectors that flow into the origin. This indicates negative divergence. Numerically, we write the divergence as a dotproduct between the gradient vector a dotproduct between the gradient vector and its vector field. This fantastic and its vector field. This fantastic video by 31bound explains why. So, if video by 31bound explains why. So, if you're interested, check it out. In terms of fluids, the divergence of a vector field indicates how much or how vector fiel…"
+  },
+  {
+    "id": "ku_video_Ra7aQlenTb8_281",
+    "t_start": 281.1,
+    "t_end": 371.3,
+    "type": "overview",
+    "summary": "see this part written as d u by del t plus u.grad u. This is essentially the plus u.grad u. This is essentially the same thing. When we expand du by dt, we same thing. When we expand du by dt, we use the chain rule which gives us this use the chain rule which gives us this other expression. Now we need to consider what are all the forces acting on this molecule of a forces acting on this molecule of a fluid. We can break this down into internal forces which are forces exerted by the forces which are forces exerted by the molecule of the fluid itself and molecule of the fluid itself and exte…"
+  },
+  {
+    "id": "ku_video_Ra7aQlenTb8_371",
+    "t_start": 371.3,
+    "t_end": 466.2,
+    "type": "overview",
+    "summary": "only external force. So, we sometimes write row * G instead of F. And this is why the Navia Stokes equations can model any fluid. There's equations can model any fluid. There's simply two fundamental laws of physics simply two fundamental laws of physics written out for fluids. So why do these equations have a million-doll prize attached to it? Well, to answer that, attached to it? Well, to answer that, let's just look at the actual problem from the Clay Math Institute. It goes as follows. To give reasonable leeway to follows. To give reasonable leeway to solvers while retaining the heart o…"
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "id": "ku_video_J4yssMTZqC4_13",
+    "t_start": 13.3,
+    "t_end": 107.0,
+    "type": "overview",
+    "summary": "hello everyone and thank you for joining us today this is an informal conversation hosted by the word federation of science by the word federation of science journalists together with the norwegian academy of science and letters we are deeply honored to have a chance to meet the two hubble prize laureates to meet the two hubble prize laureates today professor laszlo lovas of edward laurent university in budapest hungary and professor avi wigderson of the institute for advanced study in institute for advanced study in princeton usa thanks to them discreet mathematics and theoretical computer…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_106",
+    "t_start": 107.0,
+    "t_end": 197.7,
+    "type": "overview",
+    "summary": "mathematical sciences that this focus on algorithms and computational issues is algorithms and computational issues is uh something that is really revolutionizing all the areas of mathematics and and it's also bringing together uh i mean in in in the last century i mean in in in the last century mathematics was diverging a lot in in mathematics was diverging a lot in in pure and applied mathematics but pure and applied mathematics but i think this emphasize on the emphasis on computations and algorithms and this kind of structures is really bringing mathematical sciences together again so i…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_203",
+    "t_start": 203.5,
+    "t_end": 296.0,
+    "type": "overview",
+    "summary": "well i'm sure that i have some natural attraction to it this has to attraction to it this has to be crazy i love math because be crazy i love math because you know it's just it has truth you know it's just it has truth it has beauty it has a mystery it has beauty it has a mystery it has surprises it has surprises and it's both a meditative hand it's a very social way of life you can do it by yourself you can do it with can do it by yourself you can do it with others and mainly because there are wonderful other people to do it with people to do it with a great answer professor lopez why do l…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_295",
+    "t_start": 296.0,
+    "t_end": 388.4,
+    "type": "overview",
+    "summary": "and relaxing and similarly on the weekends i tried to do some research or weekends i tried to do some research or write up some stuff that i write up some stuff that i wanted to for some time and that also had this kind of calming effect on the uh all the difficult bureaucratic and political and other problems i was able to to go south speaking of difficult times i know that speaking of difficult times i know that both your lives played out in certain geopolitical and economic times that shaped your economic times that shaped your decisions uh professor lovas you lived behind the iron curta…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_388",
+    "t_start": 388.4,
+    "t_end": 479.0,
+    "type": "overview",
+    "summary": "colleagues who were already well-established mathematicians they they they didn't they were not occupied by traveling abroad or doing occupied by traveling abroad or doing long travels so they had much more time to uh to talk to or to teach uh to talk to or to teach young people and that was a benefit for how about you avi how was your childhood in haifa well it was wonderful i i grew up uh you know uh two minutes i grew up uh you know uh two minutes walk from the beach so i spent uh you know half my life on the beach and the rest uh playing soccer uh except that my dad kept intriguing me w…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_479",
+    "t_start": 479.0,
+    "t_end": 574.6,
+    "type": "overview",
+    "summary": "my brother was very much inclined to nature and kept bringing i know cockroaches from the field and worms and put them in the the field and worms and put them in the fridge and my youngest was the only one who listened to my dad when he talked about listened to my dad when he talked about his engineering uh problems at work and his engineering uh problems at work and taught him how to fix everything well taught him how to fix everything well me and me were never interested in that me and me were never interested in that so i think yeah we try to implement it with our kids also you know it's…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_574",
+    "t_start": 574.6,
+    "t_end": 665.4,
+    "type": "overview",
+    "summary": "very very strong in hungary but this area was a little bit outside the mainstream of mathematics it was uh often the motivation were for particular results were puzzles or for particular results were puzzles or kind of methylene problems and the like kind of methylene problems and the like and then all of a sudden in the late 60s it turned out that that there is this whole new area of computer whole new area of computer science where discrete mathematics science where discrete mathematics is the part of mathematics which is the real really uh important there which which is mathematical foun…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_668",
+    "t_start": 668.8,
+    "t_end": 759.4,
+    "type": "overview",
+    "summary": "so so this was such a such a period and i had a little such a such a period and i had a little bit this feeling about the theory of computing and discrete mathematics in the in the 60s 70s 80s i have one question for you um one more question because we all worry that the very secure passwords that the very secure passwords that we're using today as well as our encrypted conversations that are stored today could be easily in the future by a quantum computer yet the math that you created can be used to the math that you created can be used to guarantee the security of new cryptographic system…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_759",
+    "t_start": 759.4,
+    "t_end": 850.7,
+    "type": "overview",
+    "summary": "at least without a key the decoding should be difficult and it's this kind of situation that you do a computation in one way it's easy do a computation in one way it's easy but to reverse it is difficult but to reverse it is difficult that's what is behind these that's what is behind these these the theory of computing has this big answer of problems like p equals np answer of problems like p equals np which are uh exactly about try claiming and uh they we would like to claiming and uh they we would like to have a proof that these these functions are really behave like that now some of them…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_850",
+    "t_start": 850.7,
+    "t_end": 943.7,
+    "type": "overview",
+    "summary": "there will be always that can always be some kind of race some kind of race about uh with making it it's like an so one of the things that apparently is secure against quantum computers is secure against quantum computers i think that only means that nobody else found their way of using even a theoretically existing quantum even a theoretically existing quantum computer to break it is indeed based on what's called the shortest lattice factor problem that is somewhat connected to this algorithm that is mentioned in the this algorithm that is mentioned in the report of the committee what are …"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_943",
+    "t_start": 943.7,
+    "t_end": 1034.3,
+    "type": "overview",
+    "summary": "continuing i think what's important uh is that since from computational is that since from computational complexity can came to the scene this is uh it became a mathematical algorithmic problem both the design of secure systems and uh you know the ability to argue you know the ability to argue specifically you know rigorously about their security their you know we can prove theorems about um you know this claim that we can relate the security of a system to a relate the security of a system to a difficulty or easiness difficulty or easiness of a concrete mathematical problem like factoring …"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_1034",
+    "t_start": 1034.3,
+    "t_end": 1124.5,
+    "type": "overview",
+    "summary": "that i can prove something to you without revealing the details i can without revealing the details i can prove anything to you anything prove anything to you anything everything i know if i have a you know some conviction and the information to support this i convince you of it and not give you any thread of this information thread of this information yeah it's a very paradoxical notion most people can't imagine that you can convince anyone of anything without convince anyone of anything without giving information i should say uh that one way to uh find uh the answer to your question is to…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_1124",
+    "t_start": 1124.5,
+    "t_end": 1217.6,
+    "type": "overview",
+    "summary": "the idea is to break this pieces of the proof and put each one of them in an envelope okay uh so that when you want to check okay uh so that when you want to check me to see if the proof is correct that the you know what i'm trying to convince you of uh you can ask me to open some of these envelopes and see that at least you know in some small step i didn't cheat you so maybe you pick them cheat you so maybe you pick them randomly okay so that's a that's a one important ingredient uh the second is of course you know maybe i she said you you know maybe it's maybe i she said you you know mayb…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_1217",
+    "t_start": 1217.6,
+    "t_end": 1311.3,
+    "type": "overview",
+    "summary": "something you could have tossed yourself so that therefore because you could have uh uh you know you don't learn anything and and the last point is that if i and and the last point is that if i didn't have a proof if i didn't have a proof if i was trying to treat you there must be an error somewhere after a few trials you will find it this idea i think also has applications in blockchain technology and um i was wondering how do you feel about this and whether how do you feel about this and whether you're interested in bitcoin dot coin or you're interested in bitcoin dot coin or cryptocurren…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_1311",
+    "t_start": 1311.3,
+    "t_end": 1402.5,
+    "type": "overview",
+    "summary": "personally not interested uh very much in digital currencies or in in many practical applications i'm aware of them i think my field uh of them i think my field uh has benefited greatly from the practical has benefited greatly from the practical world because it suggests models to study uh computing systems uh natural systems such as models natural systems such as models to study mathematically and understand to study mathematically and understand their power limitations properties and and yeah i'm interested on the mathematical mathematical mathematical style the problems it could tell us …"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_1402",
+    "t_start": 1402.5,
+    "t_end": 1494.4,
+    "type": "overview",
+    "summary": "simple but a little bit awkward or out of place condition certain parameters had to be rational with a bounded number of of a bounded denominator and numerator and this kind of condition could all always this kind of condition could all always be achieved in be achieved in some way you could get around this but but you wanted to to get the the simplest possible statement of the the simplest possible statement of the result and so i at the time i was i was thinking about at the time i was i was thinking about it alone i i i realized that this can be reduced to a classical problem in number r…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_1494",
+    "t_start": 1494.4,
+    "t_end": 1586.9,
+    "type": "overview",
+    "summary": "uh sort of basic algorithmic problem in algebra namely algebra namely factoring polynomials into irreducible so we published this paper this way and then lagarius and disco discovered and then lagarius and disco discovered a year or two later that this algorithm can be used to to to break one of the proposed uh to to to break one of the proposed uh coding systems uh knapsack codes coding systems uh knapsack codes and uh so this how the algorithm sort of moved over into cryptography i have not followed it there actually this is a mono this is an interesting story because it shows that story …"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_1586",
+    "t_start": 1586.9,
+    "t_end": 1680.8,
+    "type": "overview",
+    "summary": "um how is working with her different than any other collaborations you've had than any other collaborations you've had does it lead to interesting does it lead to interesting conversations well we have been together since high school school and of course we know each other very uh we do have a number of joint papers that's not the only joint papers that's not the only sort of help that give each other sort of help that give each other we are both very sort of devoted to she has now retired but while she was teaching we often or almost all the time we discussed uh how to teach that what what…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_1680",
+    "t_start": 1680.8,
+    "t_end": 1771.1,
+    "type": "overview",
+    "summary": "then i had a sort of a free advice or uh where i could discuss uh where i could discuss the issues with so it was very important i'd like to go to avi now um you're based in the us right now you're you're based in the us right now you're obviously an elite mathematician but do you do your own taxes uh texas uh you have someone helping you uh texas uh you have someone helping you with that yeah we have uh yeah and uh my wife uh is uh my wife uh is uh is uh handling the taxes there but we yeah we just collect collect the papers and give it to a and give it to a tax person yeah i guess edna is…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_1771",
+    "t_start": 1771.1,
+    "t_end": 1869.2,
+    "type": "overview",
+    "summary": "a little bit about how the field evolved since you started the field evolved since you started tackling these problems tackling these problems uh i think that like lots he said uh i feel lucky to uh have been born when i was uh born because the field yeah i was really young when i the field yeah i was really young when i was born in the was born in the 50s and and by the time i reached the college it was beginning to solidify with the all the major results and understanding of methodology of pnp efficiency resources completeness resources completeness many randomness many central ideas were…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_1869",
+    "t_start": 1869.2,
+    "t_end": 1959.4,
+    "type": "overview",
+    "summary": "i should say by the way that this was also understood by the fathers of the also understood by the fathers of the field like both alan turing who sort of invented the algorithm and created the you know the computer revolution and john von neumann who was here at the they worked on uh biology and on on physics uh you know really amazing uh on physics uh you know really amazing uh foresight anyway the field you know just started diversifying into loss by back today the theory of compensation has today the theory of compensation has lots of different parts studying lots of different parts stud…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_1959",
+    "t_start": 1959.4,
+    "t_end": 2053.2,
+    "type": "overview",
+    "summary": "dijkstra who was one of the pioneers of algorithms in in the 60s he said that computer science is about computers just as much as is about computers just as much as astrophysics is about telescopes computation uh is everywhere you know people you used to think or maybe still think that it's about the manipulation of bits and it's about the manipulation of bits and computers but the same type of operations happen between the neurons in our brain and cells in our tissues and you know prices in the market and friends on facebook and i can give an infinite number of and i can give an infinite n…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_2053",
+    "t_start": 2053.2,
+    "t_end": 2145.6,
+    "type": "overview",
+    "summary": "computation nonetheless so the field understood that its knowledge is exploited in analyzing algorithms and computation analyzing algorithms and computation is useful to all these sciences and so fantastic communications and the collaboration started with physics collaboration started with physics and with the biology and with economics social sciences and uh yeah it's just the beginning this revolution is just at its inception and of course with mathematics as well and of course with mathematics as well which seems like a static field which seems like a static field it seemed like no proce…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_2145",
+    "t_start": 2145.6,
+    "t_end": 2239.3,
+    "type": "overview",
+    "summary": "networks and graph limits maybe you could explain your most recent work or non-mathematicians so uh almost every object we would like to uh almost every object we would like to understand is really a network it could be a network of of cells a network of individuals a network of gadgets or or perhaps just a network of atoms and and so we would like to understand and and so we would like to understand these kind of very large networks these kind of very large networks billions and billions of nodes billions and billions of nodes connected in certain ways connected in certain ways uh and uh a…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_2239",
+    "t_start": 2239.3,
+    "t_end": 2329.5,
+    "type": "overview",
+    "summary": "if you look look at the piece of metal uh it is a network of atoms uh it is a network of atoms usually it is an irregular network of it's a network of atoms but if an engineer thinks about it engineer thinks about it they don't think about it as a network of atoms they want to see whether the bridge will hold they will not write up an equation for every possible atom but they look at some kind of and continuous should say approximation so they they they think of it as a continuous material and then you can write up i don't know how the heat is distributed how tangents are distributed distri…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_2329",
+    "t_start": 2329.5,
+    "t_end": 2422.0,
+    "type": "overview",
+    "summary": "there but there must be several other things happening things happening for example on uh on the internet there uh sent back and forth or on the social network on the network of on the social network on the network of people uh diseases are spreading as well as other things information and as well as other things information and so on so this is uh this is dynamics of networks and we would like to networks and we would like to to extend the existing theory of large networks to this dynamical oh sure yeah i think that uh yeah this is just uh the most recent the yeah this is just uh the most …"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_2421",
+    "t_start": 2422.0,
+    "t_end": 2513.9,
+    "type": "overview",
+    "summary": "major shift in discrete mathematics and it's being employed not just to study it's being employed not just to study uh networks it's employed to study sequences and it's employed to study groups and many other groups and many other discrete structures today and it's uh yeah it's it's an extremely powerful tool many people say that um both of you like to mentor young mathematician and like to mentor young mathematician and i'm curious to know i'm curious to know what do you teach them about math and life in general um what are some of the things that could be done to make it things that coul…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_2513",
+    "t_start": 2513.9,
+    "t_end": 2604.9,
+    "type": "overview",
+    "summary": "he visited this class and chatted with us sometimes gave a talk or just gave suggested problems to think about so suggested problems to think about so that was uh that was very inspirational it was again a lucky situation because it was again a lucky situation because uh discrete mathematics was uh discrete mathematics was was i don't i wouldn't say infancy but young science so you could find the problems that were quite accessible you didn't have to study years and years before you understood years and years before you understood what they were about uh now about teaching other people now …"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_2604",
+    "t_start": 2604.9,
+    "t_end": 2695.3,
+    "type": "overview",
+    "summary": "one of my most successful student said that he said that thanks to me he is not an algebraic he's a mathematician he can't understand what i am saying avi would you like to add something on avi would you like to add something on this how do you work with the young mathematicians that you're mentoring mathematicians that you're mentoring what do you tell them first of all i want to stress that working with the young mathematicians or also students in college but many uh graduate students and postdocs is not only with teaching it's learning is not only with teaching it's learning i i find mys…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_2695",
+    "t_start": 2695.3,
+    "t_end": 2785.3,
+    "type": "overview",
+    "summary": "brought things together like what latin described with the ll algorithm how described with the ll algorithm how important it is important it is to know uh to broaden up when you are young [Music] [Music] i once gave a lecture at some conference more or less why should you should you go to listen to lectures in other areas go to listen to lectures in other areas i think that the there are amazing i think that the there are amazing connections between different connections between different areas and uh yeah they when you are to uh be more you know to broaden up i uh you know i broaden up i u…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_2785",
+    "t_start": 2785.3,
+    "t_end": 2874.2,
+    "type": "overview",
+    "summary": "doing what you're doing even if you're friends it's very important to follow your passions and i think passion and talent go together i mean you have to discover mean you have to discover what particular you know problems you you know what what you like to study and what you like to work on you you need to discover that and then you discover your talents and uh yeah i think it's an amazing life it may not be for it's an amazing life it may not be for everybody but it's an amazing life to uh to be able to do research and i think that known knowledge is you know i wouldn't say as much fun but…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_2876",
+    "t_start": 2876.2,
+    "t_end": 2966.5,
+    "type": "overview",
+    "summary": "i told you in the beginning that is [Music] extremely gentle and polite and sometimes it's embarrassing sometimes it's embarrassing uh this he always gives way to me in uh uh yeah it's lassie is a kind of a perfect person it's impor impossible to perfect person it's impor impossible to find any flaw or any well of course maybe maybe carty would tell us if he was listening uh we've known each other you know uh we've known each other you know from the mid 80s probably i uh you know by the time i entered the science he was already a giant and uh science he was already a giant and uh it was gre…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_2966",
+    "t_start": 2966.5,
+    "t_end": 3056.5,
+    "type": "overview",
+    "summary": "what he thinks about so it's very difficult it would be difficult to difficult it would be difficult to to find something that he doesn't tell which is why why i love him but that's uh that's the way that's uh that's the way he he is this is not how i expected it to be but um i can work with that um andre at may science would like to um ask may science would like to um ask something to both of you he pointed out that both of you collaborated with a great number of how do you comment on the myth of the solitary mathematician or scientist is this just a myth would you like to go first it's no…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_3056",
+    "t_start": 3056.5,
+    "t_end": 3150.3,
+    "type": "overview",
+    "summary": "in doing mathematics so deal and so uh fertile and uh that i just enjoy it so much that i just can't think of if i have any idea i run and tell it to immediately i also think that every mathematician mathematician needs the time and sitting alone needs the time and sitting alone or walking or whatever the favorite some or walking or whatever the favorite some some people lie down on the couch but sort of stay inside your your uh your your own thoughts your your own thoughts your euron had uh for example when i was young some of the best ideas came when i was some of the best ideas came when…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_3150",
+    "t_start": 3150.3,
+    "t_end": 3242.9,
+    "type": "overview",
+    "summary": "driver from amsterdam and then i know exactly what the point is exactly what the point is i have a kind of geometric view of imagine things geometrically and he is extremely good in algebra so and he is extremely good in algebra so he immediately sees how to do he immediately sees how to do computations and so we alternate adding new ideas and that eventually comes out to something that eventually comes out to something quite nice miklos shimonovitz said about you professor lovas professor lovas some mathematicians think in pictures think in formulas lovas applies both method what is your t…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_3242",
+    "t_start": 3242.9,
+    "t_end": 3334.3,
+    "type": "overview",
+    "summary": "could go back to the beginning of your careers would you pick the same area of mathematics as i'm sure you would be mathematicians again avi uh yeah absolutely i think i was lucky to land where i am in this area between computer science and mathematics and no i won't change anything i think i i went to an into a field that is so you know uh interesting and so important scientifically and and important scientifically and and practically and has such fantastic people and to work with and such fantastic problems to icon with and such fantastic problems to icon and it just have to imagine i mea…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_3334",
+    "t_start": 3334.3,
+    "t_end": 3427.7,
+    "type": "overview",
+    "summary": "uh so for it's just that you can always imagine other things you could have done imagine other things you could have done but nobody does with their life but nobody does with their life everything they could have wanted to do everything they could have wanted to do it's just impossible it's just impossible so some people they you know i think things that didn't and other people just enjoy the fact that they've done enjoy the fact that they've done whatever and i think we are both like that um i do have a question about um i do have a question about popularizing mathematics and and educating…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_3427",
+    "t_start": 3427.7,
+    "t_end": 3518.7,
+    "type": "overview",
+    "summary": "teach and give lectures and so on and then about 10 years ago i started on this project i have only one book this one but it's uh it's really i'm showing this to you just because i'm proud of the design my son-in-law helped me create i offer it free of charge because i want people to read people to read it i mean i think that nobody you know you know math books for you know becoming billionaires right i mean you want to uh propagate this knowledge so i realized propagate this knowledge so i realized that lots of the lectures i've been doing especially the more popular ones except especially…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_3518",
+    "t_start": 3518.7,
+    "t_end": 3611.1,
+    "type": "overview",
+    "summary": "to popularize mathematics and i i feel that i i feel that we should we should have our science presented in a way that is uh that is not as and as uh as uh outputting as as the most most of the outputting as as the most most of the time it is time it is uh actually computer science is a good good area for that because area for that because people do have know at least the notion computer i mean if you want to popularize the theory of popularize the theory of differentiable sympathetic manifolds differentiable sympathetic manifolds then it would be extremely difficult to either of the words …"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_3611",
+    "t_start": 3611.1,
+    "t_end": 3706.5,
+    "type": "overview",
+    "summary": "uh it is dangerous for for science if people people which i often get from uh people who are not in in maybe in social science sciences they maybe in social science sciences they say they start the conversation with you i mean of course i have always mean of course i have always hated mathematics but i understand that hated mathematics but i understand that you were so so this is this is not a good start of a conversation and i would very start of a conversation and i would very much hope that it will i mean i i would very much encourage i mean i i would very much encourage everybody to try…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_3706",
+    "t_start": 3706.5,
+    "t_end": 3799.6,
+    "type": "overview",
+    "summary": "you know three four five six seven uh that's a time to start with fun things that's a time to start with fun things about mathematics which are far deeper than just adding or multiples yeah so that's uh i think that yeah so that's uh i think that changing a little bit it will take i a generation still discreet mathematics makes it to elementary education you know big time and then it will be far less growing much more interesting far less growing much more interesting and certainly not frightening there are and certainly not frightening there are also is this basic feature that there is not…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_3799",
+    "t_start": 3799.6,
+    "t_end": 3892.3,
+    "type": "overview",
+    "summary": "that would be i think uh very important in many places in the world or in many places in the world or for more more appreciation of science for more more appreciation of science but but other i'm i am really but but other i'm i am really content with what i'm doing but what i have achieved that's everything everything anyone could ask for um cryptography is a powerful tool when it comes to cybersecurity comes to cybersecurity and also the geopolitics of cybersecurity do you worry that your math could be to influence the balance of power in the world is there something that doesn't let you s…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_3892",
+    "t_start": 3892.3,
+    "t_end": 3985.1,
+    "type": "overview",
+    "summary": "i think that we are in the maybe lucky to be in the maybe lucky to be in the purest side of uh pursuit of knowledge but you are right that some of our discoveries are used i would like to think that they are used mainly like to think that they are used mainly uh for positive uh for positive [Music] outcomes uh you know cryptography really enabled enabled and i stress this was a theory before it cyber security uh the theory of cryptography asked questions about privacy and uh once the tours were built in the late 70s early tours were built in the late 70s early 80s these theoretical ideas i …"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_3985",
+    "t_start": 3985.1,
+    "t_end": 4075.4,
+    "type": "overview",
+    "summary": "uh so a lot of the world economy today rests on that right world economy today rests on that right so lots of good and of course the most education the ability of accessing knowledge everybody's part of life is googling for information that you googling for information that you that you need but yeah it's uh it's a source like every technology is uh you know can be potentially dangerous at the malicious sense and uh one has to combat that but i think you know it's uh yeah maybe if i had the superpower i would make sure that all people are good intentions and i would like to add one uh one t…"
+  },
+  {
+    "id": "ku_video_J4yssMTZqC4_4075",
+    "t_start": 4075.4,
+    "t_end": 4177.5,
+    "type": "overview",
+    "summary": "uh trying to conquer the world this is like i don't know if this can be completely excluded that this happens somewhere or excluded that this happens somewhere or maybe a mad scientist in some country where we would not want would not want but but but if if if researchers have uh mainstream where they where they interact with each other they where they interact with each other they talk about it they talk with each other their students visit each other and so on visit each other and so on that that would be more difficult for uh that that would be more difficult for uh for the math scientis…"
+  }
+]

@@ -1,0 +1,507 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 5.46,
+    "text": "Jeff Lagarias, a mathematician I admire a lot, thinks it's one of the hardest problems around."
+  },
+  {
+    "t_start": 5.46,
+    "t_end": 10.32,
+    "text": "Erdos actually said \"this is a problem for which mathematics is perhaps not ready\""
+  },
+  {
+    "t_start": 10.32,
+    "t_end": 14.84,
+    "text": "Turns out that all this fuss is about a problem that any fourth-grader can understand."
+  },
+  {
+    "t_start": 14.96,
+    "t_end": 17.7,
+    "text": "To show you how this all works I'm gonna give you an example:"
+  },
+  {
+    "t_start": 17.7,
+    "t_end": 20.2,
+    "text": "Brady, chose a number between one and ten."
+  },
+  {
+    "t_start": 20.34,
+    "t_end": 21.7,
+    "text": "[Brady, off camera: I shall go for seven]"
+  },
+  {
+    "t_start": 21.78,
+    "t_end": 23.34,
+    "text": "Alright, let us start with seven."
+  },
+  {
+    "t_start": 23.34,
+    "t_end": 27.04,
+    "text": "Now,  I'm gonna apply two rules depending on what number I get"
+  },
+  {
+    "t_start": 27.1,
+    "t_end": 29.12,
+    "text": "I'm gonna do this in succession"
+  },
+  {
+    "t_start": 29.12,
+    "t_end": 32.78,
+    "text": "[..] then if n is even I'm gonna take n and divide it by two"
+  },
+  {
+    "t_start": 32.78,
+    "t_end": 36.46,
+    "text": "If n is odd then I'm gonna take n"
+  },
+  {
+    "t_start": 36.46,
+    "t_end": 38.94,
+    "text": "Can't divide it by two and get a whole number"
+  },
+  {
+    "t_start": 39.28,
+    "t_end": 42.4,
+    "text": "so I'm gonna take n and multiply it by three and add one"
+  },
+  {
+    "t_start": 42.4,
+    "t_end": 43.88,
+    "text": "Those are my rules."
+  },
+  {
+    "t_start": 43.88,
+    "t_end": 49.0,
+    "text": "and I'm interested in what happens to n. Does it grow to infinity? Does it get small?"
+  },
+  {
+    "t_start": 49.26,
+    "t_end": 51.62,
+    "text": "let's see what happens with 7"
+  },
+  {
+    "t_start": 51.62,
+    "t_end": 57.0,
+    "text": "7 seems to be an odd number, so I multiply by 3 and add 1. Three times seven is 21"
+  },
+  {
+    "t_start": 57.02,
+    "t_end": 63.74,
+    "text": "check me on this, and add one is 22. I go to 22. 22 is certainly even"
+  },
+  {
+    "t_start": 63.78,
+    "t_end": 71.22,
+    "text": "so I'll divide by two and get eleven. Eleven is odd, so I'll multiply by 3, getting 33 and add one and get 34."
+  },
+  {
+    "t_start": 71.22,
+    "t_end": 74.4,
+    "text": "34 is even, I divide by 2 and I get 17"
+  },
+  {
+    "t_start": 74.54,
+    "t_end": 81.94,
+    "text": "so far it's going up and down. But 34 was the biggest yet, so maybe it's headed off to infinity after all."
+  },
+  {
+    "t_start": 81.94,
+    "t_end": 86.34,
+    "text": "17... so 17 is odd, I multiply by 3"
+  },
+  {
+    "t_start": 86.42,
+    "t_end": 92.82,
+    "text": "3 times 10 is 30, 3 times 7 is 21. 51 plus 1 is 52. Even."
+  },
+  {
+    "t_start": 93.08,
+    "t_end": 99.66,
+    "text": "divide by 2 and get 26. still even. divide by 2 again and get 13. now it's odd."
+  },
+  {
+    "t_start": 99.66,
+    "t_end": 103.54,
+    "text": "multiply by 3 and add one. 40. 40 is even."
+  },
+  {
+    "t_start": 103.54,
+    "t_end": 114.12,
+    "text": "I divide, I get 20. I divide again I get 10. I divide again, I get 5. Boy, we fell down a long way! Maybe we're heading for a small number after all."
+  },
+  {
+    "t_start": 114.24,
+    "t_end": 120.66,
+    "text": "multiply by 3 and add 1, I get 16. Whoa! 16. VERY even number!"
+  },
+  {
+    "t_start": 120.68,
+    "t_end": 127.62,
+    "text": "I get 8. I get 4. I get 2. And I get 1."
+  },
+  {
+    "t_start": 127.62,
+    "t_end": 134.28,
+    "text": "If I do it again, something interesting happens. I go 3 times 1 plus one is four."
+  },
+  {
+    "t_start": 134.28,
+    "t_end": 141.02,
+    "text": "whoops, I'm back to 4. But now I'm just going to cycle forever, going through 1 over and over again."
+  },
+  {
+    "t_start": 141.02,
+    "t_end": 144.78,
+    "text": "So I got to one. Seven got to one."
+  },
+  {
+    "t_start": 144.78,
+    "t_end": 151.0,
+    "text": "Now,  people have tried lots of numbers beginning this way, and so far, all of them have gone to one."
+  },
+  {
+    "t_start": 151.0,
+    "t_end": 156.76,
+    "text": "They've tried roughly two to the sixtieth numbers, that's almost ten to the twentieth..."
+  },
+  {
+    "t_start": 156.76,
+    "t_end": 163.5,
+    "text": "So the famous Collatz conjecture says that every number, every whole number, will eventually get to one."
+  },
+  {
+    "t_start": 163.52,
+    "t_end": 169.62,
+    "text": "And a huge amount of work has been done on this problem by combinatorialists, by number theorists."
+  },
+  {
+    "t_start": 169.64,
+    "t_end": 173.88,
+    "text": "This is the problem that maybe mathematics is not ready for,"
+  },
+  {
+    "t_start": 173.88,
+    "t_end": 179.46,
+    "text": "but that any fourth grader could play with and try, right? Try some numbers."
+  },
+  {
+    "t_start": 179.46,
+    "t_end": 184.4,
+    "text": "First of all, we'd like to understand what's happening, in such a way that we can say for certainty"
+  },
+  {
+    "t_start": 184.4,
+    "t_end": 189.2,
+    "text": "that every number, all the numbers we haven't ever tried, WILL get to one."
+  },
+  {
+    "t_start": 189.2,
+    "t_end": 193.84,
+    "text": "You could just try this on your computer; it's a good test for your personal computer too."
+  },
+  {
+    "t_start": 193.84,
+    "t_end": 195.84,
+    "text": "How fast a program can you make?"
+  },
+  {
+    "t_start": 195.84,
+    "t_end": 202.02,
+    "text": "Here's a little hint. Every time I take an odd number and multiply by three and add one, I get an even number."
+  },
+  {
+    "t_start": 202.02,
+    "t_end": 205.32,
+    "text": "So why not take two steps at once?"
+  },
+  {
+    "t_start": 205.32,
+    "t_end": 211.48,
+    "text": "to three n plus one over two. Combine those two steps..."
+  },
+  {
+    "t_start": 211.48,
+    "t_end": 216.56,
+    "text": "when I get and odd number. that speeds things up a bit. And there are other tricks like that."
+  },
+  {
+    "t_start": 216.56,
+    "t_end": 223.34,
+    "text": "So people make graphs like this, and they're called \"trees\". Right. So far, all the number go down to one,"
+  },
+  {
+    "t_start": 223.34,
+    "t_end": 226.44,
+    "text": "but we might start with another number. If we started with five,"
+  },
+  {
+    "t_start": 226.44,
+    "t_end": 231.96,
+    "text": "we already see what the answer would be. Any number that appears here, we already know the answer."
+  },
+  {
+    "t_start": 231.96,
+    "t_end": 238.18,
+    "text": "We don't have to do it again. What's the first number that doesn't appear here? I think it's six."
+  },
+  {
+    "t_start": 238.3,
+    "t_end": 241.62,
+    "text": "Shall we try six? [Brady, off camera: Let's do it!]. Let's do it."
+  },
+  {
+    "t_start": 241.82,
+    "t_end": 249.92,
+    "text": "okay, 6. And 6 goes, well, it's even. Goes to 3. 3 goes to 10. And we got 10. Whoops, there's 10"
+  },
+  {
+    "t_start": 250.02,
+    "t_end": 253.22,
+    "text": "So, I should just draw the 3 going down to 10 instead."
+  },
+  {
+    "t_start": 253.22,
+    "t_end": 260.02,
+    "text": "And now I know, I'm beginning to build up my tree. And now I've tried now all the numbers up through seven."
+  },
+  {
+    "t_start": 260.02,
+    "t_end": 267.22,
+    "text": "Uh, 8 I got. 9 I thought I had somewhere. Didn't I have a nine? [Brady: I can't see a nine]."
+  },
+  {
+    "t_start": 267.22,
+    "t_end": 270.12,
+    "text": "No, I don't see a nine. Let's try nine. So, nine."
+  },
+  {
+    "t_start": 270.12,
+    "t_end": 280.44,
+    "text": "ok. Odd number. three times nine plus one: 28. 28, 14... whoops, seven. Where's my seven? There it is."
+  },
+  {
+    "t_start": 280.44,
+    "t_end": 284.76,
+    "text": "Goes to seven. So I can begin doing this and build up my tree."
+  },
+  {
+    "t_start": 284.76,
+    "t_end": 288.82,
+    "text": "I don't have to go all the way each time. I know what's going to happen after I get to seven."
+  },
+  {
+    "t_start": 288.82,
+    "t_end": 294.62,
+    "text": "If you look at the cover of this book that I showed you first, that's a tree of just this kind."
+  },
+  {
+    "t_start": 294.62,
+    "t_end": 298.08,
+    "text": "But people have built up HUGE trees of this kind."
+  },
+  {
+    "t_start": 298.08,
+    "t_end": 303.18,
+    "text": "And there's a wonderful article on Wikipedia which you can look at which shows some of the pictures of this."
+  },
+  {
+    "t_start": 303.18,
+    "t_end": 306.8,
+    "text": "[Brady: there. there does seem to be a very striking feature of it, and this is this line down the middle here]."
+  },
+  {
+    "t_start": 306.8,
+    "t_end": 308.74,
+    "text": "Yes, that's right. This is like the third rail."
+  },
+  {
+    "t_start": 308.74,
+    "t_end": 312.92,
+    "text": "Once you touch that line, you fall right away to 1."
+  },
+  {
+    "t_start": 312.92,
+    "t_end": 317.18,
+    "text": "By the way, there's another name for the this problem, which is the Hailstone problem."
+  },
+  {
+    "t_start": 317.18,
+    "t_end": 322.5,
+    "text": "And the reason is, as you probably know, when hailstones form in the clouds,"
+  },
+  {
+    "t_start": 322.5,
+    "t_end": 326.92,
+    "text": "the way they form, the way they get bigger, is that they start low and they"
+  },
+  {
+    "t_start": 326.92,
+    "t_end": 330.6,
+    "text": "get blown up by the winds, and they get some ice on them. And they fall down a bit,"
+  },
+  {
+    "t_start": 330.6,
+    "t_end": 333.56,
+    "text": "and then they go up and down. They go up and down many times."
+  },
+  {
+    "t_start": 333.56,
+    "t_end": 337.46,
+    "text": "and finally they fall to Earth. If they never get to Earth, then of course they're not hailstones."
+  },
+  {
+    "t_start": 337.54,
+    "t_end": 339.78,
+    "text": "And it's just like numbers here."
+  },
+  {
+    "t_start": 339.78,
+    "t_end": 345.6,
+    "text": "They go seemingly randomly up and down and up and down and then eventually they seem to fall to one."
+  },
+  {
+    "t_start": 345.6,
+    "t_end": 350.18,
+    "text": "To the ground. What kind of things have people done with this funny funny problem?"
+  },
+  {
+    "t_start": 350.18,
+    "t_end": 353.58,
+    "text": "Well, they've compiled, for instance, records"
+  },
+  {
+    "t_start": 353.58,
+    "t_end": 360.5,
+    "text": "I, I got a long string with seven. What's the next number after seven which gives a longer string?"
+  },
+  {
+    "t_start": 360.5,
+    "t_end": 364.9,
+    "text": "well, it's not 8. 8 is down here. we found it already, it's 9."
+  },
+  {
+    "t_start": 364.9,
+    "t_end": 370.18,
+    "text": "Nine only goes through seven. What's the next number after that? Well, you can look on the"
+  },
+  {
+    "t_start": 370.18,
+    "t_end": 373.2,
+    "text": "online encyclopedia of integer sequences,"
+  },
+  {
+    "t_start": 373.2,
+    "t_end": 374.84,
+    "text": "that great resource"
+  },
+  {
+    "t_start": 374.84,
+    "t_end": 378.36,
+    "text": "and you'll find a table of the record holding numbers."
+  },
+  {
+    "t_start": 378.36,
+    "t_end": 383.7,
+    "text": "You'll also find a table of the numbers that hold the record for the longest time to get to one."
+  },
+  {
+    "t_start": 383.7,
+    "t_end": 386.46,
+    "text": "Let's get a couple of examples here. There's some wonderful ones."
+  },
+  {
+    "t_start": 386.46,
+    "t_end": 390.82,
+    "text": "For instance, the longest , the one, the record holder, for the numbers under a hundred million,"
+  },
+  {
+    "t_start": 390.82,
+    "t_end": 399.4,
+    "text": "people, people know all these things,  is 63,728,127."
+  },
+  {
+    "t_start": 399.4,
+    "t_end": 403.1,
+    "text": "and that takes nine hundred and forty nine steps to get to one."
+  },
+  {
+    "t_start": 403.1,
+    "t_end": 407.52,
+    "text": "I bet the person who found it thought maybe (s)he was on to something"
+  },
+  {
+    "t_start": 407.52,
+    "t_end": 410.1,
+    "text": "Maybe finally had a counter example. But no."
+  },
+  {
+    "t_start": 410.1,
+    "t_end": 415.98,
+    "text": "There are records and records and records. And people have tabulated this looking for patterns"
+  },
+  {
+    "t_start": 415.98,
+    "t_end": 419.32,
+    "text": "that might help them understand  what's really going on."
+  },
+  {
+    "t_start": 419.32,
+    "t_end": 423.34,
+    "text": "So the randomness of this is what seems to make it hard."
+  },
+  {
+    "t_start": 423.34,
+    "t_end": 430.32,
+    "text": "The fact that you don't see a pattern and that no matter how hard you look, the patterns you see tend to be"
+  },
+  {
+    "t_start": 430.32,
+    "t_end": 435.56,
+    "text": "illusory somehow. They, they melt away when you look further, or you don't understand them."
+  },
+  {
+    "t_start": 435.56,
+    "t_end": 442.12,
+    "text": "Like the pattern of always going to one. That one holds sure, but we don't understand why it's there."
+  },
+  {
+    "t_start": 442.12,
+    "t_end": 445.98,
+    "text": "[Brady: If you'd like to see even more of this interview about the Collatz Conjecture,"
+  },
+  {
+    "t_start": 445.98,
+    "t_end": 450.36,
+    "text": "I've posted it at Numberphile2].  Why 3n+1? Why not 3n-1?"
+  },
+  {
+    "t_start": 450.36,
+    "t_end": 453.9,
+    "text": "Brady, let's try a 3n-1.."
+  },
+  {
+    "t_start": 453.9,
+    "t_end": 457.58,
+    "text": "[Brady: in case you don't know, Professor Eisenbud is the director at MSRI"
+  },
+  {
+    "t_start": 457.58,
+    "t_end": 460.52,
+    "text": "which is a huge supporter of Numberphile]"
+  },
+  {
+    "t_start": 460.52,
+    "t_end": 464.88,
+    "text": "[Brady: You can see more videos with Professor Eisenbud or other videos filmed at MSRI"
+  },
+  {
+    "t_start": 464.88,
+    "t_end": 468.78,
+    "text": "by clicking the links on the screen or in the video description]"
+  },
+  {
+    "t_start": 468.78,
+    "t_end": 471.88,
+    "text": "You draw that line, and then draw this line.."
+  }
+]

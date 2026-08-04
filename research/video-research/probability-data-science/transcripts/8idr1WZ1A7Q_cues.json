@@ -1,0 +1,892 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 2.9,
+    "text": "You're buying a product online, and you see three different sellers."
+  },
+  {
+    "t_start": 3.46,
+    "t_end": 6.2,
+    "text": "They're all offering that same product at essentially the same price."
+  },
+  {
+    "t_start": 6.72,
+    "t_end": 10.64,
+    "text": "One of them has a 100% positive rating, but with only 10 reviews."
+  },
+  {
+    "t_start": 11.18,
+    "t_end": 19.56,
+    "text": "And yet another has a 93% positive rating, but with 200 total reviews."
+  },
+  {
+    "t_start": 20.3,
+    "t_end": 21.36,
+    "text": "Which one should you buy from?"
+  },
+  {
+    "t_start": 28.12,
+    "t_end": 31.038,
+    "text": "I think we all have this instinct that the more data we see,"
+  },
+  {
+    "t_start": 31.038,
+    "t_end": 33.24,
+    "text": "it gives us more confidence in a given rating."
+  },
+  {
+    "t_start": 33.76,
+    "t_end": 35.99,
+    "text": "We're a little suspicious of seeing 100% ratings,"
+  },
+  {
+    "t_start": 35.99,
+    "t_end": 38.979,
+    "text": "since more often than not they come from a tiny number of reviews,"
+  },
+  {
+    "t_start": 38.979,
+    "t_end": 42.146,
+    "text": "which makes it feel more plausible that things could have gone another"
+  },
+  {
+    "t_start": 42.146,
+    "t_end": 43.44,
+    "text": "way and given a lower rating."
+  },
+  {
+    "t_start": 43.92,
+    "t_end": 45.84,
+    "text": "But how do you make that intuition quantitative?"
+  },
+  {
+    "t_start": 46.42,
+    "t_end": 49.864,
+    "text": "What's the rational way to reason about the trade-off here between the"
+  },
+  {
+    "t_start": 49.864,
+    "t_end": 53.26,
+    "text": "confidence gained from more data versus the lower absolute percentage?"
+  },
+  {
+    "t_start": 54.54,
+    "t_end": 58.402,
+    "text": "This particular example is a slight modification from one that John Cook"
+  },
+  {
+    "t_start": 58.402,
+    "t_end": 62.16,
+    "text": "gave in his excellent blog post, A Bayesian Review of Amazon Resellers."
+  },
+  {
+    "t_start": 62.62,
+    "t_end": 65.209,
+    "text": "For you and me, it's a wonderful excuse to dig into"
+  },
+  {
+    "t_start": 65.209,
+    "t_end": 67.6,
+    "text": "a few core topics in probability and statistics."
+  },
+  {
+    "t_start": 68.32,
+    "t_end": 71.0,
+    "text": "And to really cover these topics properly, it takes time."
+  },
+  {
+    "t_start": 71.56,
+    "t_end": 74.434,
+    "text": "So what I'm going to do is break this down into three videos,"
+  },
+  {
+    "t_start": 74.434,
+    "t_end": 77.402,
+    "text": "where in this first one we'll set up a model for the situation,"
+  },
+  {
+    "t_start": 77.402,
+    "t_end": 79.86,
+    "text": "and start by talking about the binomial distribution."
+  },
+  {
+    "t_start": 79.98,
+    "t_end": 83.234,
+    "text": "The second is going to bring in ideas of Bayesian updating,"
+  },
+  {
+    "t_start": 83.234,
+    "t_end": 86.38,
+    "text": "and how to work with probabilities over continuous values."
+  },
+  {
+    "t_start": 87.04,
+    "t_end": 90.415,
+    "text": "And in the third, we'll look at something known as a beta distribution,"
+  },
+  {
+    "t_start": 90.415,
+    "t_end": 93.088,
+    "text": "and pull up a little python to analyze the data we have,"
+  },
+  {
+    "t_start": 93.088,
+    "t_end": 96.98,
+    "text": "and come to various different answers depending on what it is you want to optimize."
+  },
+  {
+    "t_start": 99.66,
+    "t_end": 102.214,
+    "text": "Now, to throw you a bone before we dive into all the math,"
+  },
+  {
+    "t_start": 102.214,
+    "t_end": 104.898,
+    "text": "let me just show you what one of the answers turns out to be,"
+  },
+  {
+    "t_start": 104.898,
+    "t_end": 106.24,
+    "text": "since it's delightfully simple."
+  },
+  {
+    "t_start": 106.88,
+    "t_end": 110.324,
+    "text": "When you see an online rating, something like this 10 out of 10,"
+  },
+  {
+    "t_start": 110.324,
+    "t_end": 114.352,
+    "text": "you pretend that there were two more reviews, one that was positive and one"
+  },
+  {
+    "t_start": 114.352,
+    "t_end": 115.2,
+    "text": "that's negative."
+  },
+  {
+    "t_start": 115.86,
+    "t_end": 120.48,
+    "text": "In this case, that means you pretend that it's 11 out of 12, which would give 91.7%."
+  },
+  {
+    "t_start": 121.5,
+    "t_end": 126.08,
+    "text": "This number is your probability of having a good experience with that seller."
+  },
+  {
+    "t_start": 128.139,
+    "t_end": 133.044,
+    "text": "So in the case of 50 reviews, where you have 48 positive and 2 negative,"
+  },
+  {
+    "t_start": 133.044,
+    "t_end": 138.755,
+    "text": "you pretend that it's 49 positive and 3 negative, which would give you 49 out of 52,"
+  },
+  {
+    "t_start": 138.755,
+    "t_end": 139.36,
+    "text": "or 94.2%."
+  },
+  {
+    "t_start": 140.5,
+    "t_end": 143.84,
+    "text": "That's your probability of having a good experience with the second seller."
+  },
+  {
+    "t_start": 145.32,
+    "t_end": 150.705,
+    "text": "Playing the same game with our third seller who had 200 reviews,"
+  },
+  {
+    "t_start": 150.705,
+    "t_end": 153.44,
+    "text": "you get 187 out of 202, or 92.6%."
+  },
+  {
+    "t_start": 154.64,
+    "t_end": 158.66,
+    "text": "So according to this rule, it would mean your best bet is to go with seller number 2."
+  },
+  {
+    "t_start": 159.3,
+    "t_end": 162.247,
+    "text": "This is something known as Laplace's rule of succession,"
+  },
+  {
+    "t_start": 162.247,
+    "t_end": 166.745,
+    "text": "it dates back to the 18th century, To understand what assumptions are underlying this,"
+  },
+  {
+    "t_start": 166.745,
+    "t_end": 170.365,
+    "text": "and how changing either those assumptions or your underlying goal can"
+  },
+  {
+    "t_start": 170.365,
+    "t_end": 174.14,
+    "text": "change the choice you make, we really do need to go through all the math."
+  },
+  {
+    "t_start": 174.66,
+    "t_end": 176.36,
+    "text": "So without further ado, let's dive in."
+  },
+  {
+    "t_start": 180.84,
+    "t_end": 183.512,
+    "text": "Step 1, how exactly are we modeling the situation,"
+  },
+  {
+    "t_start": 183.512,
+    "t_end": 186.08,
+    "text": "and what exactly is it that you want to optimize?"
+  },
+  {
+    "t_start": 186.7,
+    "t_end": 191.496,
+    "text": "One option is to think of each seller as producing random experiences that are either"
+  },
+  {
+    "t_start": 191.496,
+    "t_end": 195.958,
+    "text": "positive or negative, and that each seller has some kind of constant underlying"
+  },
+  {
+    "t_start": 195.958,
+    "t_end": 200.643,
+    "text": "probability of giving a good experience, what we're going to call the success rate,"
+  },
+  {
+    "t_start": 200.643,
+    "t_end": 201.48,
+    "text": "or S for short."
+  },
+  {
+    "t_start": 201.9,
+    "t_end": 204.1,
+    "text": "The whole challenge is that we don't know S."
+  },
+  {
+    "t_start": 205.64,
+    "t_end": 208.429,
+    "text": "When you see that first rating of 100% with 10 reviews,"
+  },
+  {
+    "t_start": 208.429,
+    "t_end": 211.12,
+    "text": "that doesn't mean the underlying success rate is 100%."
+  },
+  {
+    "t_start": 211.64,
+    "t_end": 213.92,
+    "text": "It could very well be something like 95%."
+  },
+  {
+    "t_start": 213.92,
+    "t_end": 217.584,
+    "text": "And just to illustrate, let me run a little simulation,"
+  },
+  {
+    "t_start": 217.584,
+    "t_end": 222.556,
+    "text": "where I choose a random number between 0 and 1, and if it's less than 0.95,"
+  },
+  {
+    "t_start": 222.556,
+    "t_end": 227.66,
+    "text": "I'll record it as a positive review, otherwise record it as a negative review."
+  },
+  {
+    "t_start": 228.76,
+    "t_end": 234.301,
+    "text": "Now do this 10 times in a row, and then make 10 more, and 10 more,"
+  },
+  {
+    "t_start": 234.301,
+    "t_end": 239.512,
+    "text": "and 10 more, and so on, to get a sense of what sequences of 10"
+  },
+  {
+    "t_start": 239.512,
+    "t_end": 245.22,
+    "text": "reviews for a seller with this success rate, would tend to look like."
+  },
+  {
+    "t_start": 245.74,
+    "t_end": 249.52,
+    "text": "Quite a few of those, around 60% actually, give 10 out of 10."
+  },
+  {
+    "t_start": 250.02,
+    "t_end": 254.46,
+    "text": "So the data we see seems perfectly plausible if the seller's true success rate was 95%."
+  },
+  {
+    "t_start": 255.58,
+    "t_end": 258.04,
+    "text": "Or maybe it's really 90%, or 99%."
+  },
+  {
+    "t_start": 258.7,
+    "t_end": 260.68,
+    "text": "The whole challenge is that we just don't know."
+  },
+  {
+    "t_start": 261.6,
+    "t_end": 265.28,
+    "text": "As to the goal, let's say you simply want to maximize your probability of"
+  },
+  {
+    "t_start": 265.28,
+    "t_end": 268.96,
+    "text": "having a positive experience, despite not being sure of this success rate."
+  },
+  {
+    "t_start": 269.86,
+    "t_end": 274.448,
+    "text": "So think about this here, we've got many different possible success rates for"
+  },
+  {
+    "t_start": 274.448,
+    "t_end": 279.096,
+    "text": "each seller, any number from 0 up to 1, and we need to say something about how"
+  },
+  {
+    "t_start": 279.096,
+    "t_end": 283.92,
+    "text": "likely each one of these success rates is, a kind of probability of probabilities."
+  },
+  {
+    "t_start": 285.12,
+    "t_end": 289.196,
+    "text": "Unlike the more gamified examples like coin flips and die tosses and the"
+  },
+  {
+    "t_start": 289.196,
+    "t_end": 292.211,
+    "text": "sort of things you see in an intro probability class,"
+  },
+  {
+    "t_start": 292.211,
+    "t_end": 295.785,
+    "text": "where you go in assuming a long run frequency, like 1.5 or 1.6,"
+  },
+  {
+    "t_start": 295.785,
+    "t_end": 299.694,
+    "text": "what we have here is uncertainty about the long run frequency itself,"
+  },
+  {
+    "t_start": 299.694,
+    "t_end": 302.04,
+    "text": "which is a much more potent kind of doubt."
+  },
+  {
+    "t_start": 303.16,
+    "t_end": 307.367,
+    "text": "I should also emphasize that this kind of setup is relevant to many many situations in"
+  },
+  {
+    "t_start": 307.367,
+    "t_end": 311.72,
+    "text": "the real world where you need to make a judgment about a random process from limited data."
+  },
+  {
+    "t_start": 312.86,
+    "t_end": 316.566,
+    "text": "For example, let's say that you're setting up a factory producing cars,"
+  },
+  {
+    "t_start": 316.566,
+    "t_end": 320.84,
+    "text": "and in an initial test of 100 cars, two of them come out with some kind of problem."
+  },
+  {
+    "t_start": 321.4,
+    "t_end": 324.568,
+    "text": "If you plan to spin things up to produce a million cars,"
+  },
+  {
+    "t_start": 324.568,
+    "t_end": 329.292,
+    "text": "what are you willing to confidently say about how many total cars will have problems"
+  },
+  {
+    "t_start": 329.292,
+    "t_end": 330.46,
+    "text": "that need addressing?"
+  },
+  {
+    "t_start": 331.24,
+    "t_end": 335.005,
+    "text": "It's not like the test guarantees that the true error rate is 2%,"
+  },
+  {
+    "t_start": 335.005,
+    "t_end": 336.66,
+    "text": "but what exactly does it say?"
+  },
+  {
+    "t_start": 338.62,
+    "t_end": 340.56,
+    "text": "As your first challenge, let me ask you this."
+  },
+  {
+    "t_start": 340.84,
+    "t_end": 345.985,
+    "text": "If you did magically know the true success rate for a given seller,"
+  },
+  {
+    "t_start": 345.985,
+    "t_end": 351.054,
+    "text": "say it was 95%, how would you compute the probability of seeing 10"
+  },
+  {
+    "t_start": 351.054,
+    "t_end": 356.2,
+    "text": "positive reviews and 0 negative reviews, or 48 and 2, or 186 and 14?"
+  },
+  {
+    "t_start": 357.12,
+    "t_end": 362.16,
+    "text": "In other words, what's the probability of seeing the data given an assumed success rate?"
+  },
+  {
+    "t_start": 363.06,
+    "t_end": 366.329,
+    "text": "A moment ago I showed you something like this with a simulation,"
+  },
+  {
+    "t_start": 366.329,
+    "t_end": 370.251,
+    "text": "generating 10 random reviews, and with a little programming you could just do"
+  },
+  {
+    "t_start": 370.251,
+    "t_end": 374.526,
+    "text": "that many times, building up a histogram to get some sense of what this distribution"
+  },
+  {
+    "t_start": 374.526,
+    "t_end": 375.08,
+    "text": "looks like."
+  },
+  {
+    "t_start": 381.66,
+    "t_end": 384.435,
+    "text": "Likewise, you could simulate sets of 50 reviews,"
+  },
+  {
+    "t_start": 384.435,
+    "t_end": 389.08,
+    "text": "and get some sense for how probable it would be to see 48 positive and 2 negative."
+  },
+  {
+    "t_start": 389.9,
+    "t_end": 391.58,
+    "text": "You see, this is the nice thing about probability."
+  },
+  {
+    "t_start": 391.96,
+    "t_end": 394.812,
+    "text": "A little programming can almost always let you cheat a little"
+  },
+  {
+    "t_start": 394.812,
+    "t_end": 397.48,
+    "text": "and see what the answer is ahead of time by simulating it."
+  },
+  {
+    "t_start": 397.84,
+    "t_end": 401.74,
+    "text": "For example, after a few hundred thousand samples of 50 reviews,"
+  },
+  {
+    "t_start": 401.74,
+    "t_end": 406.96,
+    "text": "assuming the success rate is 95%, it looks like about 26.1% of them would give us this"
+  },
+  {
+    "t_start": 406.96,
+    "t_end": 408.16,
+    "text": "48 out of 50 review."
+  },
+  {
+    "t_start": 409.2,
+    "t_end": 412.44,
+    "text": "Luckily, in this case, an exact formula is not bad at all."
+  },
+  {
+    "t_start": 412.98,
+    "t_end": 416.82,
+    "text": "The probability of seeing exactly 48 out of 50 looks like this."
+  },
+  {
+    "t_start": 417.74,
+    "t_end": 423.037,
+    "text": "This first term is pronounced 50 choose 48, and it represents the total"
+  },
+  {
+    "t_start": 423.037,
+    "t_end": 428.04,
+    "text": "number of ways that you could take 50 slots and fill out 48 of them."
+  },
+  {
+    "t_start": 429.1,
+    "t_end": 438.66,
+    "text": "or maybe you start with 47 good reviews and then it goes bad good bad, and so on."
+  },
+  {
+    "t_start": 439.1,
+    "t_end": 443.175,
+    "text": "In principle, if you were to enumerate every possible way of"
+  },
+  {
+    "t_start": 443.175,
+    "t_end": 449.187,
+    "text": "filling 48 out of 50 slots like this, the total number of these patterns is 50 choose 48,"
+  },
+  {
+    "t_start": 449.187,
+    "t_end": 451.86,
+    "text": "which in this case works out to be 1225."
+  },
+  {
+    "t_start": 452.68,
+    "t_end": 454.0,
+    "text": "What do we multiply by this count?"
+  },
+  {
+    "t_start": 454.0,
+    "t_end": 457.298,
+    "text": "Well, it's the probability of any one of these patterns,"
+  },
+  {
+    "t_start": 457.298,
+    "t_end": 460.943,
+    "text": "which is the probability of a single positive review raised to"
+  },
+  {
+    "t_start": 460.943,
+    "t_end": 464.82,
+    "text": "the 48th times the probability of a single negative review squared."
+  },
+  {
+    "t_start": 465.64,
+    "t_end": 469.23,
+    "text": "Crucial is that we assume each review is independent of the last,"
+  },
+  {
+    "t_start": 469.23,
+    "t_end": 472.549,
+    "text": "so we can multiply all the probabilities together like this,"
+  },
+  {
+    "t_start": 472.549,
+    "t_end": 476.792,
+    "text": "and with the numbers we have, when you evaluate it, it works out to be 0.261,"
+  },
+  {
+    "t_start": 476.792,
+    "t_end": 480.22,
+    "text": "which matches what we just saw empirically with the simulation."
+  },
+  {
+    "t_start": 481.38,
+    "t_end": 484.672,
+    "text": "You could also replace this 48 with some other value,"
+  },
+  {
+    "t_start": 484.672,
+    "t_end": 489.305,
+    "text": "and compute the probability of seeing any other number of positive reviews,"
+  },
+  {
+    "t_start": 489.305,
+    "t_end": 491.5,
+    "text": "again assuming a given success rate."
+  },
+  {
+    "t_start": 494.76,
+    "t_end": 498.852,
+    "text": "What you're looking at right now, by the way, is known in the business as a"
+  },
+  {
+    "t_start": 498.852,
+    "t_end": 503.16,
+    "text": "binomial distribution, one of the most fundamental distributions in probability."
+  },
+  {
+    "t_start": 503.86,
+    "t_end": 506.809,
+    "text": "It comes up whenever you have something like a coin flip,"
+  },
+  {
+    "t_start": 506.809,
+    "t_end": 511.08,
+    "text": "a random event that can go one of two ways, and you repeat it some number of times,"
+  },
+  {
+    "t_start": 511.08,
+    "t_end": 515.2,
+    "text": "and what you want to know is the probability of getting various different totals."
+  },
+  {
+    "t_start": 516.72,
+    "t_end": 521.375,
+    "text": "For our purposes, this formula gives us the probability of seeing the data given"
+  },
+  {
+    "t_start": 521.375,
+    "t_end": 526.146,
+    "text": "an assumed success rate, which ultimately we want to somehow use to make judgments"
+  },
+  {
+    "t_start": 526.146,
+    "t_end": 530.86,
+    "text": "about the opposite, the probability of a success rate given the fixed data we see."
+  },
+  {
+    "t_start": 531.32,
+    "t_end": 533.44,
+    "text": "These are related, but definitely distinct."
+  },
+  {
+    "t_start": 534.06,
+    "t_end": 538.201,
+    "text": "To get more in that direction, let's play around with this value of s"
+  },
+  {
+    "t_start": 538.201,
+    "t_end": 542.58,
+    "text": "and see what happens as we change it to different numbers between 0 and 1."
+  },
+  {
+    "t_start": 544.56,
+    "t_end": 547.603,
+    "text": "The binomial distribution that it produces kind of looks"
+  },
+  {
+    "t_start": 547.603,
+    "t_end": 550.86,
+    "text": "like this pile that's centered around whatever s times 50 is."
+  },
+  {
+    "t_start": 551.46,
+    "t_end": 555.964,
+    "text": "The value we care about, the probability of seeing 48 out of 50 reviews,"
+  },
+  {
+    "t_start": 555.964,
+    "t_end": 558.68,
+    "text": "is represented by this highlighted 48th bar."
+  },
+  {
+    "t_start": 559.4,
+    "t_end": 564.6,
+    "text": "Let's draw a second plot on the bottom, representing how that value depends on s."
+  },
+  {
+    "t_start": 565.48,
+    "t_end": 570.32,
+    "text": "When s is equal to 0.96, that value is as high as it's ever going to get."
+  },
+  {
+    "t_start": 570.84,
+    "t_end": 575.419,
+    "text": "And this should kind of make sense, because when you look at that review of 96%,"
+  },
+  {
+    "t_start": 575.419,
+    "t_end": 579.32,
+    "text": "it should be most likely if the true underlying success rate was 96%."
+  },
+  {
+    "t_start": 581.0,
+    "t_end": 585.22,
+    "text": "As s increases, it kind of peters out, going to 0 as s approaches 1,"
+  },
+  {
+    "t_start": 585.22,
+    "t_end": 590.48,
+    "text": "since someone with a perfect success rate would never have those two negative reviews."
+  },
+  {
+    "t_start": 591.42,
+    "t_end": 594.56,
+    "text": "Also, as you move to the left, it approaches 0 pretty quickly."
+  },
+  {
+    "t_start": 596.9,
+    "t_end": 601.146,
+    "text": "By the time you get to s equals 0.8, getting 48 out of 50 reviews"
+  },
+  {
+    "t_start": 601.146,
+    "t_end": 605.2,
+    "text": "by chance is exceedingly rare, it would happen 1 in 1000 times."
+  },
+  {
+    "t_start": 606.24,
+    "t_end": 609.608,
+    "text": "This plot we have on the bottom is a great start to getting a more"
+  },
+  {
+    "t_start": 609.608,
+    "t_end": 613.38,
+    "text": "quantitative description for which values of s feel more or less plausible."
+  },
+  {
+    "t_start": 614.2,
+    "t_end": 618.908,
+    "text": "Written down as a formula, what I want you to remember is that as a function"
+  },
+  {
+    "t_start": 618.908,
+    "t_end": 623.371,
+    "text": "of the success rate s, the curve looks like some constant times s to the"
+  },
+  {
+    "t_start": 623.371,
+    "t_end": 628.08,
+    "text": "number of positive reviews times 1 minus s to the number of negative reviews."
+  },
+  {
+    "t_start": 629.1,
+    "t_end": 633.848,
+    "text": "In principle, if we had more data, like 480 positive reviews and 20 negative reviews,"
+  },
+  {
+    "t_start": 633.848,
+    "t_end": 636.94,
+    "text": "the resulting plot would still be centered around 0.96,"
+  },
+  {
+    "t_start": 636.94,
+    "t_end": 639.48,
+    "text": "but it would be smaller and more concentrated."
+  },
+  {
+    "t_start": 639.93,
+    "t_end": 644.22,
+    "text": "A good exercise right now would be to see if you could explain why that's the case."
+  },
+  {
+    "t_start": 645.48,
+    "t_end": 649.48,
+    "text": "There is a lingering question, though, of what to actually do with these curves."
+  },
+  {
+    "t_start": 650.22,
+    "t_end": 653.044,
+    "text": "I mean, our goal is to compute the probability that you"
+  },
+  {
+    "t_start": 653.044,
+    "t_end": 656.02,
+    "text": "have a good experience with this seller, so what do you do?"
+  },
+  {
+    "t_start": 657.0,
+    "t_end": 659.833,
+    "text": "Naively, you might think that probability is 96%,"
+  },
+  {
+    "t_start": 659.833,
+    "t_end": 664.026,
+    "text": "since that's where the peak of the graph is, which in a sense is the most"
+  },
+  {
+    "t_start": 664.026,
+    "t_end": 665.16,
+    "text": "likely success rate."
+  },
+  {
+    "t_start": 665.62,
+    "t_end": 667.86,
+    "text": "But think of the example with 10 out of 10 positives."
+  },
+  {
+    "t_start": 667.86,
+    "t_end": 673.26,
+    "text": "In that case, the whole binomial formula simplifies to be s to the power 10."
+  },
+  {
+    "t_start": 675.08,
+    "t_end": 677.865,
+    "text": "The probability of seeing 10 consecutive good reviews is"
+  },
+  {
+    "t_start": 677.865,
+    "t_end": 680.65,
+    "text": "the probability of seeing one of them raised to the 10th."
+  },
+  {
+    "t_start": 681.32,
+    "t_end": 683.933,
+    "text": "The closer the true success rate is to 1, the"
+  },
+  {
+    "t_start": 683.933,
+    "t_end": 686.66,
+    "text": "higher the probability of seeing a 10 out of 10."
+  },
+  {
+    "t_start": 687.22,
+    "t_end": 690.98,
+    "text": "Our plot on the bottom only ever increases as s approaches 1."
+  },
+  {
+    "t_start": 692.4,
+    "t_end": 695.98,
+    "text": "But even if s equals 1 is the value that maximizes this probability,"
+  },
+  {
+    "t_start": 695.98,
+    "t_end": 699.302,
+    "text": "surely you wouldn't feel comfortable saying that you personally"
+  },
+  {
+    "t_start": 699.302,
+    "t_end": 702.52,
+    "text": "have a 100% probability of a good experience with this seller."
+  },
+  {
+    "t_start": 703.46,
+    "t_end": 706.855,
+    "text": "Maybe you think that instead we should look for some kind of center"
+  },
+  {
+    "t_start": 706.855,
+    "t_end": 710.4,
+    "text": "of mass of this graph, and that would absolutely be on the right track."
+  },
+  {
+    "t_start": 711.3,
+    "t_end": 715.826,
+    "text": "First, though, we need to explain how to take this expression for the probability"
+  },
+  {
+    "t_start": 715.826,
+    "t_end": 720.629,
+    "text": "of the data we're seeing given a value of s, and get the probability for a value of s,"
+  },
+  {
+    "t_start": 720.629,
+    "t_end": 724.88,
+    "text": "the thing we actually don't know, given the data, the thing we actually know."
+  },
+  {
+    "t_start": 725.38,
+    "t_end": 729.98,
+    "text": "And that requires us to talk about Bayes' rule, and also probability density functions."
+  },
+  {
+    "t_start": 730.62,
+    "t_end": 732.06,
+    "text": "For those, I'll see you in part 2."
+  }
+]

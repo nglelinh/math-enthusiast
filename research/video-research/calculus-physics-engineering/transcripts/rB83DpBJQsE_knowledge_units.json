@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ku_video_rB83DpBJQsE_0",
+    "t_start": 0.0,
+    "t_end": 92.6,
+    "type": "overview",
+    "summary": "[Translated by Grant Sanderson. Submit corrections at criblate.com] Today, you and I are going to get into divergence and curl. To make sure we're all on the same page, let's begin by talking about vector fields. Essentially a vector field is what you get if you associate each point in space with a vector, some magnitude and direction. Maybe those vectors represent the velocities of particles of fluid at each point in space, or maybe they represent the force of gravity at many different points in space, or maybe a magnetic field strength. Quick note on drawing these, often if you were to dr…"
+  },
+  {
+    "id": "ku_video_rB83DpBJQsE_93",
+    "t_start": 93.4,
+    "t_end": 185.0,
+    "type": "overview",
+    "summary": "What if these vectors describing gravitational force instead defined a fluid flow? What would that flow look like? And what can the properties of that flow tell us about the original gravitational force? And what if the vectors defining a fluid flow were thought of as describing the downhill direction of a certain hill? Does such a hill even exist? And if so, what does it tell us about the original flow? These sorts of questions can be surprisingly helpful. For example, the ideas of divergence and curl are particularly viscerally understood when the vector field is thought of as representin…"
+  },
+  {
+    "id": "ku_video_rB83DpBJQsE_185",
+    "t_start": 185.4,
+    "t_end": 276.8,
+    "type": "overview",
+    "summary": "The divergence would also be positive if it was just that the fluid coming into it from one direction was slower than the flow coming out of it in another direction, since that would still insinuate a certain spontaneous generation. Now on the flip side, if in a small region around a point there seems to be more fluid flowing into it than out of it, the divergence at that point would be a negative number. Remember, this vector field is really a function that takes in 2-dimensional inputs and spits out 2-dimensional outputs. The divergence of that vector field gives you a new function, one t…"
+  },
+  {
+    "id": "ku_video_rB83DpBJQsE_276",
+    "t_start": 276.8,
+    "t_end": 367.3,
+    "type": "overview",
+    "summary": "but this time you ask how much that fluid tends to rotate around the point. As in, if you were to drop a twig in the fluid at that point, somehow fixing its center in place, would it tend to spin around? Regions where that rotation is clockwise are said to have positive curl, and regions where it's counterclockwise have negative curl. It doesn't have to be that all the vectors around the input are pointing counterclockwise, or all of them are pointing clockwise. A point inside a region like this one, for example, would also have non-zero curl, since the flow is slow at the bottom, but quick…"
+  },
+  {
+    "id": "ku_video_rB83DpBJQsE_367",
+    "t_start": 367.9,
+    "t_end": 460.4,
+    "type": "overview",
+    "summary": "This top one, for example, is Gauss's law, stating that the divergence of an electric field at a given point is proportional to the charge density at that point. Unpacking the intuition for this, you might imagine positively charged regions as acting like sources of some imagined fluid, and negatively charged regions as being the sinks of that fluid, and throughout parts of space where there is no charge, the fluid would be flowing incompressibly, just like water. Of course, there's not some literal electric fluid, but it's a very useful and pretty way to read an equation like this. Similar…"
+  },
+  {
+    "id": "ku_video_rB83DpBJQsE_460",
+    "t_start": 460.4,
+    "t_end": 550.9,
+    "type": "overview",
+    "summary": "which don't even seem spatial in nature at first. To take a classic example that students of differential equations often study, let's say that you wanted to track the population sizes of two different species, where maybe one of them is a predator of another. The state of this system at a given time, meaning the two population sizes, could be thought of as a point in two-dimensional space, what you would call the phase space of this system. For a given pair of population sizes, these populations may be inclined to change based on things like how reproductive are the two species, or just ho…"
+  },
+  {
+    "id": "ku_video_rB83DpBJQsE_551",
+    "t_start": 551.8,
+    "t_end": 643.1,
+    "type": "overview",
+    "summary": "Notice, this is a case where the vector field is not about physical space, but instead it's a representation of a certain dynamic system that has two variables, and how that system evolves over time. This can maybe also give a sense for why mathematicians care about studying the geometry of higher dimensions. What if our system was tracking more than just two or three numbers? The flow associated with this field is called the phase flow for our differential equation, and it's a way to conceptualize, at a glance, how many possible starting states would evolve over time. Operations like diver…"
+  },
+  {
+    "id": "ku_video_rB83DpBJQsE_643",
+    "t_start": 643.8,
+    "t_end": 737.2,
+    "type": "overview",
+    "summary": "Commonly, the divergence is written as a dot product between this upside-down triangle thing and your vector field function, and the curl is written as a similar cross product. Sometimes students are told that this is just a notational trick, each computation involves a certain sum of certain derivatives, and treating this upside-down triangle as if it was a vector of derivative operators can be a helpful way to keep everything straight. But it is actually more than just a mnemonic device, there is a real connection between divergence and the dot product, and between curl and the cross prod…"
+  },
+  {
+    "id": "ku_video_rB83DpBJQsE_737",
+    "t_start": 737.2,
+    "t_end": 828.9,
+    "type": "overview",
+    "summary": "dot product of a step with a change to the output it causes over all possible step directions, assuming that things are rescaled appropriately. I mean, think about it, if a step in some direction causes a change to that vector in that same direction, this corresponds to a tendency for outward flow, for positive divergence. And on the flip side, if those dot products tend to be negative, meaning the difference vector is pointing in the opposite direction from the step vector, that corresponds with a tendency for inward flow, negative divergence. Similarly, remember that the cross product is …"
+  },
+  {
+    "id": "ku_video_rB83DpBJQsE_828",
+    "t_start": 828.9,
+    "t_end": 919.0,
+    "type": "overview",
+    "summary": "can better accomplish their goal if each one of them feels like it's just about you and me sharing in a love of math, with no other motive, especially in the cases where the viewers are students. There are some other reasons, and I wrote up some of my full thoughts on this over on Patreon, which you certainly don't have to be a supporter to read, that's just where it lives. I think advertising on the internet occupies a super wide spectrum, from truly degenerate clickbait up to genuinely well-aligned win-win-win partnerships. I've always taken care only to do promotions for companies that I…"
+  },
+  {
+    "id": "ku_video_rB83DpBJQsE_920",
+    "t_start": 920.0,
+    "t_end": 927.4,
+    "type": "overview",
+    "summary": "Anyway, if you want to hear more of my thoughts, I'll link to the Patreon post. And thank you again to existing supporters for making this possible, and I'll see you all next video."
+  }
+]

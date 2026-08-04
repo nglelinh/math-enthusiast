@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360">
+  <rect width="760" height="360" fill="#fafbfc"/>
+  <text x="380" y="32" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#1a1a1a">Besicovitch idea: cut, shift, increase overlap</text>
+  <!-- left triangle -->
+  <polygon points="80,280 200,80 320,280" fill="#e8f1fa" stroke="#004586" stroke-width="2"/>
+  <line x1="200" y1="80" x2="200" y2="280" stroke="#c73e1d" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="200" y="310" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#333">1. Equilateral triangle</text>
+  <text x="200" y="330" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#666">cut down the middle</text>
+  <!-- arrow -->
+  <path d="M340 180 L390 180" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#333"/>
+    </marker>
+  </defs>
+  <!-- right: overlapped halves -->
+  <polygon points="430,280 520,90 580,280" fill="#cfe0f2" stroke="#004586" stroke-width="2" opacity="0.9"/>
+  <polygon points="500,280 590,90 650,280" fill="#9ec0e0" stroke="#004586" stroke-width="2" opacity="0.75"/>
+  <text x="555" y="310" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#333">2. Shift halves to maximize overlap</text>
+  <text x="555" y="330" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#666">area shrinks; directions largely preserved</text>
+</svg>

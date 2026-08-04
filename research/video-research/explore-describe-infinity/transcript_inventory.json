@@ -1,0 +1,29 @@
+{
+  "slug": "explore-describe-infinity",
+  "videos": [
+    {
+      "id": "dDl7g_2x74Q",
+      "title": "Numberphile — Infinity Paradoxes (Hilbert hotel)",
+      "has_transcript": true,
+      "chars": 9703,
+      "units": 7,
+      "url": "https://www.youtube.com/watch?v=dDl7g_2x74Q"
+    },
+    {
+      "id": "p1KkXA0vKsQ",
+      "title": "Wi-Phi / Rayo — Sizes of Infinity Part 1 (Hilbert)",
+      "has_transcript": true,
+      "chars": 6951,
+      "units": 7,
+      "url": "https://www.youtube.com/watch?v=p1KkXA0vKsQ"
+    },
+    {
+      "id": "uezOrcmHzrQ",
+      "title": "Numberphile — Infinite hotel keys problem",
+      "has_transcript": true,
+      "chars": 24141,
+      "units": 12,
+      "url": "https://www.youtube.com/watch?v=uezOrcmHzrQ"
+    }
+  ]
+}

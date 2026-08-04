@@ -1,0 +1,192 @@
+[
+  {
+    "t_start": 12.34,
+    "t_end": 15.21,
+    "text": "I wasn't always very excited about math."
+  },
+  {
+    "t_start": 15.21,
+    "t_end": 21.59,
+    "text": "I was more excited about reading novels, and I thought I would become a writer one day."
+  },
+  {
+    "t_start": 21.59,
+    "t_end": 27.1,
+    "text": "I got excited about it maybe just as a challenge, but then I realized that it's really nice"
+  },
+  {
+    "t_start": 27.1,
+    "t_end": 29.289,
+    "text": "and that I enjoy it."
+  },
+  {
+    "t_start": 29.289,
+    "t_end": 31.97,
+    "text": "These were quite difficult times."
+  },
+  {
+    "t_start": 31.97,
+    "t_end": 34.65,
+    "text": "It was during the war."
+  },
+  {
+    "t_start": 34.65,
+    "t_end": 37.21,
+    "text": "Right after the war, I had a lot of opportunities."
+  },
+  {
+    "t_start": 37.24,
+    "t_end": 40.14,
+    "text": "I went to a very good middle school and then high school."
+  },
+  {
+    "t_start": 40.16,
+    "t_end": 46.08,
+    "text": "I think I was the lucky generation because I was a teenager when things became more stable."
+  },
+  {
+    "t_start": 50.57,
+    "t_end": 54.52,
+    "text": "My main interest is understanding structures you can put on a surface."
+  },
+  {
+    "t_start": 54.52,
+    "t_end": 56.31,
+    "text": "There are different ways of looking at it."
+  },
+  {
+    "t_start": 56.31,
+    "t_end": 62.309,
+    "text": "Either you have a surface with some additional geometric structures, or these kinds of problems"
+  },
+  {
+    "t_start": 62.309,
+    "t_end": 66.659,
+    "text": "are related to understanding the space of such structures."
+  },
+  {
+    "t_start": 66.659,
+    "t_end": 70.88,
+    "text": "One very famous example is if you have a billiard table and you start from from a point and"
+  },
+  {
+    "t_start": 70.88,
+    "t_end": 76.479,
+    "text": "you hit the ball and it hits the boundaries and it moves forever, you want to see the"
+  },
+  {
+    "t_start": 76.479,
+    "t_end": 78.179,
+    "text": "trajectory of the ball."
+  },
+  {
+    "t_start": 78.179,
+    "t_end": 81.28,
+    "text": "Would it cover all your billiard table?"
+  },
+  {
+    "t_start": 81.28,
+    "t_end": 86.81,
+    "text": "Can you find closed billiard paths and interestingly enough, this is an open question in general,"
+  },
+  {
+    "t_start": 86.81,
+    "t_end": 90.229,
+    "text": "if you don't put any restrictions on angles of the polygon that you started."
+  },
+  {
+    "t_start": 90.229,
+    "t_end": 92.179,
+    "text": "There are two types of questions."
+  },
+  {
+    "t_start": 92.179,
+    "t_end": 96.759,
+    "text": "One is: You have a surface with a geometric structure, and you're trying to understand"
+  },
+  {
+    "t_start": 96.759,
+    "t_end": 99.32,
+    "text": "some properties of the geometric structure that you have."
+  },
+  {
+    "t_start": 99.32,
+    "t_end": 102.899,
+    "text": "The other questions are related to: You have a surface, and you have a geometric structure"
+  },
+  {
+    "t_start": 102.899,
+    "t_end": 105.5,
+    "text": "and you start deforming this geometric structure."
+  },
+  {
+    "t_start": 105.5,
+    "t_end": 108.2,
+    "text": "And then you want to see what kind of surfaces you would get."
+  },
+  {
+    "t_start": 108.2,
+    "t_end": 113.929,
+    "text": "Some of the problems like, you know the properties of a generic surface, a random surface."
+  },
+  {
+    "t_start": 113.929,
+    "t_end": 119.099,
+    "text": "But it's really hard to say something about a single given geometric structure on the"
+  },
+  {
+    "t_start": 119.099,
+    "t_end": 120.099,
+    "text": "surface."
+  },
+  {
+    "t_start": 120.099,
+    "t_end": 125.959,
+    "text": "Some of the work that I've done with different collaborators shows that sometimes a surface"
+  },
+  {
+    "t_start": 125.959,
+    "t_end": 128.44,
+    "text": "is very to one of a generic surface."
+  },
+  {
+    "t_start": 128.44,
+    "t_end": 134.64,
+    "text": "You can ask these questions about hyperbolic surfaces or these flat surfaces or different"
+  },
+  {
+    "t_start": 134.64,
+    "t_end": 136.38,
+    "text": "geometric structures."
+  },
+  {
+    "t_start": 138.17,
+    "t_end": 144.34,
+    "text": "I think these problems are important because they are related to some other problems."
+  },
+  {
+    "t_start": 144.34,
+    "t_end": 148.849,
+    "text": "Even if you are interested in high-dimensional manifolds, one way of dealing with them is"
+  },
+  {
+    "t_start": 148.849,
+    "t_end": 152.36,
+    "text": "trying to find some nice surface inside of them."
+  },
+  {
+    "t_start": 152.36,
+    "t_end": 158.349,
+    "text": "You end up learning a lot about other spaces and properties of other action, so it give"
+  },
+  {
+    "t_start": 158.349,
+    "t_end": 159.349,
+    "text": "you a lot of information."
+  },
+  {
+    "t_start": 159.349,
+    "t_end": 163.109,
+    "text": "It's not only the question, but the way you try to solve it."
+  }
+]

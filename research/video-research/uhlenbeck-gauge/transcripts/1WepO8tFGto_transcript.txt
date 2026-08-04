@@ -1,0 +1,724 @@
+well thank you very much I'm not sure exactly who does who to thank but thank
+exactly who does who to thank but thank you all for being here and I appreciate
+all the all the recognition and I've been getting actually I'm told that the
+been getting actually I'm told that the Abba laureate last year came in and said
+Abba laureate last year came in and said he wasn't going to give the talk he
+prepared he stayed up all night the night before and made a new one well I
+night before and made a new one well I changed the title of my talk Monday but
+changed the title of my talk Monday but it's now glimpses into the calculus of
+it's now glimpses into the calculus of variations but I've been working longer
+variations but I've been working longer than that on the talk I hope I I hope I
+than that on the talk I hope I I hope I I know I'm a dinosaur I never really got
+I know I'm a dinosaur I never really got made it into the technology into the
+made it into the technology into the technical to technology but and I think
+the outline of the talk is a little ambitious and I I hope but I would like
+ambitious and I I hope but I would like to get to two point eight so I also want
+to say that my one of my stories has been stolen twice already now okay so
+been stolen twice already now okay so anyway we'll start the calculus of
+anyway we'll start the calculus of variations has as well you wander you'll
+variations has as well you wander you'll understand I hope by the end of the talk
+understand I hope by the end of the talk so the calculus variation isn't always
+so the calculus variation isn't always about minimizing things but conceptually
+about minimizing things but conceptually it starts with questions of minimizing
+research on the web because this is a general talk and I needed entertaining
+general talk and I needed entertaining stories and so forth and I found all
+sorts of stuff on the web and let me tell you don't trust Wikipedia the
+tell you don't trust Wikipedia the University websites are far more
+University websites are far more reliable and anyway but I found
+somewhere on the web and I'll never I couldn't find it again so I couldn't
+couldn't find it again so I couldn't give you the reference the question
+give you the reference the question found in the web is do animals do
+mathematics they seem to know the shortest distance between two points is
+shortest distance between two points is along a straight line so that's the
+along a straight line so that's the first example that we all know of a
+okay and now if you look in Greek mathematics they actually don't talk
+mathematics they actually don't talk about at least Euclid doesn't talk about
+he taught they actually make a lot of constructions that are shortest
+distances for example the fact that you can drop that this that you can drop a
+perpendicular from a point to a plane or in fact the most complicated one is that
+in fact the most complicated one is that you you can draw draws a lot between if
+you you can draw draws a lot between if you have to say lines in space Q lines
+you have to say lines in space Q lines in space that and that don't intersect
+in space that and that don't intersect they actually have a have a
+perpendicular to both of them which and and that of course does realize the
+and that of course does realize the shortest distance but it is certainly a
+shortest distance but it is certainly a statement by Aristotle that the shortest
+statement by Aristotle that the shortest distance between two points is along a
+distance between two points is along a straight line so that that's the first
+straight line so that that's the first quote the Greeks didn't have a good
+quote the Greeks didn't have a good description of arbitrary curves I mean
+description of arbitrary curves I mean this is what mathematics is for is it
+this is what mathematics is for is it tells you how to describe things and
+tells you how to describe things and they didn't do it but they gave lots of
+they didn't do it but they gave lots of these constructions and they did have
+the machinery to prove that these were the shortest the the constructions they
+made were indeed the shortest paths among all piecewise linear paths that is
+broken straight lines and it's interesting because we'll come back to
+interesting because we'll come back to the that that in 10 BCE he heroine
+the that that in 10 BCE he heroine proved that the shortest path between
+proved that the shortest path between between two points with any number of
+mirror and then you say oh yeah but I can do it for any number and so and you
+can do it for any number and so and you know is and gotten by if you want to
+know is and gotten by if you want to find the distance to the mirror you
+find the distance to the mirror you actually reflect the point through the
+mirror we'll come back to this and you actually draw the straight line and then
+actually draw the straight line and then you reflect the line so that's
+okay but so we want to have some women in this talk so the Dinos problem is in
+in this talk so the Dinos problem is in from Virgil's Aeneid which is ten BCE
+from Virgil's Aeneid which is ten BCE and the question is the question asked
+and the question is the question asked is the story is is that she was a
+difficulties with her brother and so she sailed off looking for to found a new
+sailed off looking for to found a new city and she arrived on the coast of
+sorry Carla Carthage right and she met the barbarians there and asked for some
+land and she asked for the amount of land that she could you can enclose in a
+land that she could you can enclose in a height of a bull and the so they said oh
+sure the silly woman will give her what she wants
+she wants and so she the first part is clever but
+and so she the first part is clever but the second part is mathematics she cut
+the hide in two very long thin strips and of course nowadays we would say it's
+and of course nowadays we would say it's mathematicians we can cut them into
+mathematicians we can cut them into infinitely thin strips we get in
+infinitely thin strips we get in infinitely whose long line but the
+infinitely whose long line but the Greeks the Greeks weren't that ambitious
+Greeks the Greeks weren't that ambitious and then she arranged this strip in a
+circle if you have a length of string and you and want to enclose the biggest
+and you and want to enclose the biggest area inside it you would arrange that in
+a circle and that is called the isoparametric inequality and it's of
+isoparametric inequality and it's of course been extend to many other
+course been extend to many other different kinds of geometry and it's
+different kinds of geometry and it's interesting because again since the
+Greeks didn't have the description of curves they couldn't actually prove this
+curves they couldn't actually prove this but in 150 BCE the zener doris gave a
+but in 150 BCE the zener doris gave a rigorous proof that if you did this with
+rigorous proof that if you did this with an
+and God that is a and again that was they were ambitious any number of cited
+they were ambitious any number of cited saying that that the the solution was
+saying that that the the solution was the regular and God with even sides now
+right now maybe this is the time to explain what variation means in the
+explain what variation means in the calculus of variations so we're we're
+calculus of variations so we're we're going to we're going to be Dido and we
+have a long strip of bull hide that we've cut and tied it up and we've
+arranged it down and we want to know how does how to think that the circle is the
+does how to think that the circle is the answer well if we lay it down and we
+want to know can we make it shorter can we could close more area what we do is
+we could close more area what we do is is we actually choose a direction and we
+move the string in that direction and we calculate the difference in the area now
+calculate the difference in the area now this motion is actually in the and we
+would actually in modern days we'd assign a parameter to that motion people
+assign a parameter to that motion people often say time but that's confusing
+often say time but that's confusing because time it isn't time it's an
+because time it isn't time it's an external parameter and you move the
+external promise and you see if the area changes and in fact so you actually what
+changes and in fact so you actually what you do in modern days is you calculate
+you do in modern days is you calculate the derivative of the area along that
+that motion and if the derivative is zero like for a circle we we know that
+we don't know that it's a minimum but we do know that we didn't know there's no
+do know that we didn't know there's no obvious counter example whereas if it's
+obvious counter example whereas if it's not a minimum that we know we move it in
+this direction and get becomes becomes less and so that's our test for a
+less and so that's our test for a minimum okay so now we come to we go
+minimum okay so now we come to we go back to Zen odorous and so firma and and
+back to Zen odorous and so firma and and so this is a big skip in time we're
+going to have several big skips in time firma in 1662
+derive the laws of reflection and refraction they claim that that light
+refraction they claim that that light travels from P to Q along the path the
+travels from P to Q along the path the shortest length and again in the the
+shortest length and again in the the path this is this is this is heroin
+again that is you want to go from P to Q and by the way notice it's not a minimum
+and by the way notice it's not a minimum notice that if you were to draw the
+notice that if you were to draw the straight line from P to P to Q here it
+straight line from P to P to Q here it would be less time so what you do is you
+would be less time so what you do is you reflect Q to Q Prime draw the straight
+reflect Q to Q Prime draw the straight line and then reflect the line and again
+line and then reflect the line and again the laws of refraction are derived if
+the laws of refraction are derived if you have the light travels with a
+you have the light travels with a different velocity in this medium from
+this from the top medium to the bottom medium then the the past still takes the
+medium then the the past still takes the least time and so you can think about it
+a little bit about I drew this picture on purpose and you can decide which
+on purpose and you can decide which where which what is the velocity is
+where which what is the velocity is smaller here larger here or here from
+the picture you should be able to tell but I found it very interesting because
+but I found it very interesting because and especially because the law rules
+about the laws of physics are very very much based on conceptually minimizing
+things and in the same year so we skipped along general a lot of a lot of
+skipped along general a lot of a lot of centuries there but in the same year de
+principle you take is the basis of your proof namely that nature always acts by
+proof namely that nature always acts by using the simplest and shortest path is
+using the simplest and shortest path is merely moral and not physical and cannot
+merely moral and not physical and cannot be the cause of any effect in nature
+well you can think about that because [Laughter]
+now we come to the you know brachistochrone problem
+oh okay oh the producer this is the one that my funder has been stolen here so
+that my funder has been stolen here so the question is is what is the curve
+along which a particle falls from PDQ under the influence of gravity in the
+under the influence of gravity in the shortest time and I don't actually know
+why this question came up and I never heard before I came to us so that it was
+heard before I came to us so that it was called the ski-jump problem but anyway
+called the ski-jump problem but anyway what is interesting is is that Galileo
+was able to compute that a circle was better than a straight line that is it
+better than a straight line that is it was faster but and he actually proposed
+was faster but and he actually proposed that that was the solution but so it's
+good to know that that great mathematicians make mistakes but and
+Johann Bernoulli in June of 1969 posts this as a challenge problem I understand
+again I don't know how much you believe when you read this on the web but Mohini
+when you read this on the web but Mohini knew the solution at this point and he
+he also listed at the familiar people his brother also submitted the solution
+his brother also submitted the solution and there was a lot of controversy so
+mathematics has never been a peaceful subject and both live Nets l'hopital and
+subject and both live Nets l'hopital and Newton submitted solutions and the story
+Newton submitted solutions and the story of Newton is very very very I don't know
+of Newton is very very very I don't know it's supposed to be apocryphal so but he
+it's supposed to be apocryphal so but he received the problem in the mail when he
+received the problem in the mail when he came back from a hard day at the mint
+you know he was and by twelve twelve hours later he solved it and he
+hours later he solved it and he submitted it on a nominee an anonymously
+Bernoulli got the solution he read it and he said we recognized the lion by
+and he said we recognized the lion by his paw okay and actually I have a
+his paw okay and actually I have a challenge for you because
+just needs calculus but III first of all you have to set the problem up which is
+you have to set the problem up which is non-trivial and I don't actually know
+how Galileo did that but anyway you have to set the problem up and then you have
+going to tell you what the answer is and I challenge you if you can do it because
+I challenge you if you can do it because it's not that easy and if you do and if
+probably wouldn't think of the right way to go about it so so we get into the
+to go about it so so we get into the really things so we jump again
+but not not quite so much to 1744 by 7044 both oiler and motorists had
+7044 both oiler and motorists had formulated calculus variations problems
+formulated calculus variations problems that attempted to describe Newton's laws
+so Newton Newton Newton I should say Newton actually the first calculus of
+variations problem is not the Bert Christie comb apparently he tried to
+Christie comb apparently he tried to compute he formulated a problem about
+compute he formulated a problem about the shape of a saw of rotationally
+the shape of a saw of rotationally symmetric solid that you could move
+symmetric solid that you could move through the air
+we don't remit and he actually set it up and solved it the thing is is the
+and solved it the thing is is the physics was wrong so we don't remember
+physics was wrong so we don't remember that problem anymore
+that problem anymore but in any case by set up by 7044
+but in any case by set up by 7044 everybody was working at this point
+everybody was working at this point there was a whole gang of these people
+lonely people lonely out back there of course they took longer to communicate
+course they took longer to communicate with each other but so and in fact my
+with each other but so and in fact my purpose is actually often-quoted that's
+purpose is actually often-quoted that's the person to first derive the least
+the person to first derive the least action least energy principle but well
+action least energy principle but well oiler proposed I give you our proposal
+oiler proposed I give you our proposal and here the physics quantities are
+and here the physics quantities are position which is a function of T I've
+used Q equal f of T that's not the classical notation Q is the classical
+classical notation Q is the classical notation but we're gonna see F
+is the thing we're looking for in the whole talk so we write down an a of an a
+whole talk so we write down an a of an a is actually what we're gonna minimize so
+is actually what we're gonna minimize so keep that in mind in that and so the
+keep that in mind in that and so the physics quantity is Q and the position
+physics quantity is Q and the position loss and the velocity is the derivative
+derivative and the function is an arbitrary function of time fixed in
+arbitrary function of time fixed in space at the endpoints but we've
+space at the endpoints but we've actually forgotten that because in 1762
+actually forgotten that because in 1762 LeBron's gave the form and everybody
+LeBron's gave the form and everybody immediately dropped what they were doing
+immediately dropped what they were doing and grabbed onto what his idea and so he
+actually wrote down an action this is a for action
+so that's classically in physics action so you minimize the action integral and
+so you minimize the action integral and here f can be any function
+I mean L can be any function doesn't have to have any meaning whatsoever
+have to have any meaning whatsoever you know we're mathematicians we can do
+anything we want and if you never wondered why people do mathematics you
+wondered why people do mathematics you should realize that if you have
+physicists you have to make sense of L if you're a mathematician you can do
+if you're a mathematician you can do anything so formally and and so in
+anything so formally and and so in mechanic's L is the difference of
+mechanic's L is the difference of kinetic energy and potential energy so
+it is not a question of minimizing energy that minimizes the difference and
+energy that minimizes the difference and he drives the Euler Lagrange equations
+he drives the Euler Lagrange equations which look like this and again these
+this is one of the few equations we'll see in the class you you take that this
+see in the class you you take that this is grammatically totally incorrect but
+is grammatically totally incorrect but most people understand you you have to
+take a partial derivative of L in the direction of the velocity and then then
+direction of the velocity and then then you you take the derivative of that
+whole thing and that's the partial derivative of Allen the direction of F
+derivative of Allen the direction of F these are purely stationary solutions a
+these are purely stationary solutions a state these are called critical or
+stationary and they're purely formal they can have no physical meaning
+whatsoever or you they can you can have something that's not a minimum and
+something that's not a minimum and in any sense and it still has meaning so
+in any sense and it still has meaning so so we have to skip a whole lot I'm sorry
+there's there's a lot of good stories and so forth but if I'm going to get
+today we're gonna skip okay we're going to go back to least distance okay and
+to go back to least distance okay and and something is least distance and we
+have to also talk about where it's least distance okay so modern mathematics in
+distance okay so modern mathematics in geometry usually deals with something
+geometry usually deals with something called a manifold now that sounds pretty
+physicists from way back you know of course knew about some manifolds because
+course knew about some manifolds because they wrote they wrote Z's equal to G of
+they wrote they wrote Z's equal to G of XY and thought of that as the surface in
+space and you also can write the the manifold is given as implicit function
+manifold is given as implicit function the G of three coordinates is a function
+the G of three coordinates is a function of three coordinates is zero and the
+gradient doesn't vanish you have to use the implicit function theorem so those
+the implicit function theorem so those of you and and these were studied I mean
+I didn't even look up the history because and they they're actually justly
+because and they they're actually justly yield the Euler Lagrange equations that
+yield the Euler Lagrange equations that we already saw and there's something
+we already saw and there's something called the Lagrange multiplier things
+are thrown in there so it's a little bit more complicated and you can generalize
+more complicated and you can generalize see we're mathematicians we can do
+anything we want so we put any number of variables we change XY and Z 2 X 1 X 2
+variables we change XY and Z 2 X 1 X 2 and so forth xn and we change the W to
+any number of variables and this just now this might seem maybe there's
+something that we want to call a Romani and manifold that isn't described this
+and manifold that isn't described this way but it's a theorem of nash and nash
+I mean I'm very honored to be one of the people that share that had to get the
+people that share that had to get the Apple prize because Nash important work
+Apple prize because Nash important work is very important no Nash in bedding
+theorem and what happens if you think about it is is that you have K uh you
+unknowns say and you have two equations you have you have you have sorry K
+equations for n plus K unknowns did I get that did I get that right anyway so
+get that did I get that right anyway so we set this points which solve such
+we set this points which solve such equations is defining an end met
+equations is defining an end met dimensional manifold so okay so now we
+want to meet my demise so so we have to think of we're in a big Euclidean space
+think of we're in a big Euclidean space or you know just think of us are being
+in a surface in in the three space and we want to minimize the distance along
+we want to minimize the distance along that surface and so we write down an
+that surface and so we write down an integral which minimizes length now we
+come to a problem and this all goes back remember the Greeks didn't know how to
+remember the Greeks didn't know how to describe curves well when we run across
+describe curves well when we run across this problem we run across another case
+where we don't the description isn't very good because if we actually
+parameterize the curve the way we want a curve we we have actually we don't have
+a we can just reverse rise it in any way we want we can go along it fast to first
+we want we can go along it fast to first and then slow or slow and fast and the
+turns out this way to handle the problem mathematically is is to parameterize it
+parameterize according to arc length we minimize not the Velata norm of velocity
+minimize not the Velata norm of velocity or speed we minimize the norm of the
+velocity squared and that gives us all the answers parameterize by arc lengths
+the answers parameterize by arc lengths and so these curves are called geodesics
+and so these curves are called geodesics and they're very important in the
+and they're very important in the development of geometric analysis okay
+development of geometric analysis okay so night
+century mathematics was up to proving the existence of minima
+I mean I'll explain a little bit why that's so and so if we again this around
+that's so and so if we again this around the turn of the century this was of the
+the turn of the century this was of the sorry this turned from the 19th 20th
+century this was a question of real interest the question came up if you
+interest the question came up if you have I'll give the explicit example if
+you the question was if you have a manifold how many clothes gd6 are there
+manifold how many clothes gd6 are there on it that is a gd6 that comes back and
+meets itself now if you're on the regular two-dimensional sphere
+you know actually what all the geodesics are there the great circles and notice
+the great circle that goes around is not minimal because you can actually slide
+minimal because you can actually slide it off but it is a place where the
+you just if you look at the slide or slide the the circle to the top and the
+slide the the circle to the top and the bottom the first derivative is actually
+bottom the first derivative is actually zero it's and it's the second derivative
+that actually takes you down so so if you have an ordinary sphere you actually
+you have an ordinary sphere you actually have a lot of close to please close to
+and of course you do see that if you take two points on here I'm not I'm not
+here I'm not I haven't given this talk a lot so if you take two different points
+lot so if you take two different points on here between here and here it is
+minimal it's just but when you go up and go past the points and you go from here
+go past the points and you go from here to here this is minimal but this is not
+to here this is minimal but this is not metal around there and so those that
+metal around there and so those that that was that was a phenomena that had
+that was that was a phenomena that had been well studied in there in the 19th
+century so if you actually change the shape of this sphere the question
+shape of this sphere the question Poincare I asked was he actually asked
+Poincare I asked was he actually asked are there still three now that's a
+are there still three now that's a little bit of topology to argue that
+little bit of topology to argue that there should be at least three left but
+there should be at least three left but but you see they would be they would but
+but you see they would be they would but then you wouldn't have all the great
+circles anymore the claim is is that three of them would survive and actually
+three of them would survive and actually this is a very hard problem which
+this is a very hard problem which actually only was only solved in the
+last few decades it's it's not but in fact Birkhoff gave a positive answer
+fact Birkhoff gave a positive answer that there was actually one that
+that there was actually one that survived
+if you deformed the to sphere so so the the a much more extensive theorem is
+the a much more extensive theorem is implied by Morse theory so I'm going to
+implied by Morse theory so I'm going to explain to you about Morse theory
+explain to you about Morse theory because what I'm talking about that's a
+so understanding Morris theory requires quite a bit about the subject of
+topology and we don't want to go into that here that's doing well we'll do a
+that here that's doing well we'll do a little bit but so we'll think of it as a
+it's and I should tell you that at the time more morfs was actually doing his
+work the topology he was trying to do was not really well formulated so he was
+was not really well formulated so he was actually struggling with proving the
+theorem that Judy six was also stream tried struggling with what topology was
+tried struggling with what topology was and nowadays of course it's you it's
+and nowadays of course it's you it's something you actually learn you
+certainly take a course in topology as an undergraduate in mathematics but but
+an undergraduate in mathematics but but and and all graduate students know a
+little bit about it anyway but at the time the more Morris was working the it
+time the more Morris was working the it really wasn't well formulated which is
+really wasn't well formulated which is very interesting because if you try to
+very interesting because if you try to read his paper his book actually it's a
+read his paper his book actually it's a book you'll find yourself struggling
+from the point is it's apology more than anything else okay so so the the claim
+anything else okay so so the the claim is is that that if you
+have this manifold remember that it's some extension of the idea of a surface
+some extension of the idea of a surface and three-dimensional space that you're
+and three-dimensional space that you're trying to describe the topological
+trying to describe the topological properties ensure in terms of these
+properties ensure in terms of these shortest distances and I want to also
+shortest distances and I want to also point out that you you you think you've
+asked the question one way that is is there a geodesic but in fact one of the
+there a geodesic but in fact one of the most very fundamental applications was
+most very fundamental applications was the other way around
+it's called the baat periodicity theorem and there's some manifolds called Li
+groups and we know all the geodesics on them because they're so symmetric and
+them because they're so symmetric and there's group theory and there's all
+this material all the stuff we can do so we know all the geodesics on them but we
+we know all the geodesics on them but we don't understand their topology because
+don't understand their topology because I mean these are big some of these
+groups are very large dimensional and you even mathematicians can't think that
+you even mathematicians can't think that big and so but turns out this is we know
+all the geodesics more Ceri tells us something about the topology so that's
+something about the topology so that's to give you some idea of why it's so
+proof is is instructive and I also it also explains why that historically why
+also explains why that historically why what I'm talking about describes some of
+what I'm talking about describes some of the history of what I'm trying to talk
+about so the way you go about it is is to solve the problem of geodesics you
+to solve the problem of geodesics you take an arbitrary curve and you actually
+sort of put a bound on the energy of it because you're trying to minimize energy
+because you're trying to minimize energy and so you you you turns out that you
+and so you you you turns out that you divide the curve up into a certain
+divide the curve up into a certain number of points and you solve the
+problem of the gd6 between nearby points now this is something you could do
+classically so this could be done in people knew they could find the distance
+people knew they could find the distance between two closed points classically
+between two closed points classically and so you solve that now you actually
+geodesic and you actually now this is a there's a finite number of points so
+this is an energy on a finite number of points it's a calculus problem so you
+points it's a calculus problem so you know a calculus
+you know you know that you know theorems the fact that you exist in some minima
+the fact that you exist in some minima you can take gradient flows you can do
+all this and so what you do is you use the gradient flows on these broken gd6
+the gradient flows on these broken gd6 okay the simplest application is the
+okay the simplest application is the mountain path lemma and this will
+mountain path lemma and this will explain a little bit about topology okay
+explain a little bit about topology okay so here I'll just I'll just draw the
+picture here you could actually do an explicit calculation where you have I've
+explicit calculation where you have I've used new variables U and V so we don't
+mix up with what we said before so we have Z as a function of U and V and it's
+have Z as a function of U and V and it's so so we have these a function of U and
+V and so f here I'm sorry this is actually a this is our action is Z this
+actually a this is our action is Z this time so we're way down in two dimensions
+time so we're way down in two dimensions instead of looking at curves and we're
+instead of looking at curves and we're looking at function at minimizing the
+looking at function at minimizing the the height function now if I take two
+and I try to connect them with a with a with a with a path actually I can make
+the the the path go down as far as I want so I can actually connect P and Q
+want so I can actually connect P and Q by a curve that stays at the same level
+it doesn't but now if I take the Q on the other side of the saddle then oh by
+the other side of the saddle then oh by the way this is a potato-chip
+we always called it a saddle when I was a kid but it's now called the potato
+a kid but it's now called the potato chip so you want to go from here to here
+chip so you want to go from here to here and you want to go with you want to go
+along the path so you go along here and you say oh this is the maximum here and
+you say well I could have gone down a little bit and you test it out and then
+little bit and you test it out and then you discover that yes the minimum of the
+you discover that yes the minimum of the maximum is this point here which is a
+maximum is this point here which is a critical point but not a minimum
+but notice it has one direction up and one direction down so that's anyway okay
+one direction down so that's anyway okay so we're get we're getting there so now
+so we're get we're getting there so now we come to many physics problems are
+we come to many physics problems are defined using integrals that depend on
+defined using integrals that depend on functions of more than one variable we
+functions of more than one variable we can define the Laplace operator which I
+can define the Laplace operator which I hope some people are familiar with
+hope some people are familiar with anyway we have two independent variables
+anyway we have two independent variables so we're replacing T by X and y now and
+we write the oil this is the action integral which is naturally it's really
+integral which is naturally it's really just the norm squared of the gradient
+just the norm squared of the gradient integrated over region and if we
+integrated over region and if we actually do look at the oil Lagrange
+actually do look at the oil Lagrange equations we get the laplacian
+divergence of the gradient equals zero so that's and the equations are also
+remember F is always the unknown in my problem and notice that wave equations
+are also described this way and this is actually considered an important fact in
+physics but there's no way you ever find a minimum for a net wave equation I mean
+a minimum for a net wave equation I mean you have the you can't you you can't
+you have the you can't you you can't find a minimum and you can't find a
+maximum you can find a stationary equation stationary F because it's
+stationary if it's also the wave equation the usual wave equation in X
+and T it's a stationary point for this but it's not a minimum okay so it this
+but it's not a minimum okay so it this is I am talking about one of Hilbert's
+is I am talking about one of Hilbert's problems okay
+problems okay Hilbert was lit at the 1900 listed of a
+Hilbert was lit at the 1900 listed of a famous set of problems this is his last
+famous set of problems this is his last problem and it's unlike I've written it
+problem and it's unlike I've written it out I don't want to I don't want to go
+out I don't want to I don't want to go into it I think I'm running out of time
+but but he says in general what he basically says is that we don't know
+anything about the calculus of variations in more than one independent
+variations in more than one independent variable and we've got now we got all
+variable and we've got now we got all these problems with two independent
+these problems with two independent variables
+and I should I should I throw in here at the point that this there's this guy
+the point that this there's this guy from fire stress from from the
+nineteenth end of the 19th century who actually showed that a lot of things
+actually showed that a lot of things that mathematicians assumed were true
+like you could find a minimum just weren't true and so they knew at this
+weren't true and so they knew at this point that there were a lot of problems
+point that there were a lot of problems and it took most of the 20th century to
+actually shed any clarity on this question so we come down we're coming
+question so we come down we're coming down to my life in mathematics okay and
+down to my life in mathematics okay and that's I've called section I've called
+infinite dimensional manifolds and the Paris mail condition and so so at least
+Paris mail condition and so so at least the partial solution or
+the in in the early part of the twentieth century it was a partial
+twentieth century it was a partial solution of Hilbert's problem and it
+solution of Hilbert's problem and it involves introducing function spaces now
+I don't function spaces are putting norms on spaces and functions so Fourier
+norms on spaces and functions so Fourier series give you a method of that you
+series give you a method of that you have a function and you take its Fourier
+series then you notice it has an infinite number of coefficients and you
+infinite number of coefficients and you can think of those coefficients as
+you can either say this is very important in quantum mechanics that you
+can think of that you can think of a function as being an infinite number of
+unfortunately Fourier series are not a good way to go about solving calculus of
+good way to go about solving calculus of variations problem so and the word for
+variations problem so and the word for the topological applications the real
+problem was to do the functions of one variable we approximated it by a finite
+variable we approximated it by a finite dimensional set a finite number of
+points that sat in a manifold and that was so we were actually approximating
+was so we were actually approximating the problem by a finite dimensional
+the problem by a finite dimensional problem and from calculus that was
+problem and from calculus that was developed during the 19th century one
+developed during the 19th century one new had
+handle these problems of a finite number of variables but they really tried they
+function on a plane and you're trying to figure out a way to approximate it and
+so how are you going to do this well in fact of course with computers we do it
+fact of course with computers we do it real easy we just put a whole bunch of
+points on we take a lot of difference quotients and we actually approximate
+quotients and we actually approximate all the derivatives by difference
+quotients and so forth but they didn't have computers and the and and and also
+have computers and the and and and also sort of for rigorous mathematics it's
+not it's a little bit hard to take that approach but so the IV the solution that
+approach but so the IV the solution that was discovered in the early part of the
+20th century was is that we use these function spaces so so now we come to the
+function spaces so so now we come to the question of how we treat problems like
+question of how we treat problems like the geodesic problem I mean a typical
+the geodesic problem I mean a typical example if you really want it is that of
+problem which is you have a curve in 3-space and you want to put a minimal
+3-space and you want to put a minimal surface area surface in it but if you
+surface area surface in it but if you have a curved space-time a space if it's
+have a curved space-time a space if it's curved then the problem even setting up
+curved then the problem even setting up the problem becomes difficult because
+the problem becomes difficult because you you don't you you you don't you
+don't really have the right tools and it turned out so what the solution that
+turned out so what the solution that actually of solving these these
+geometric calculus problem calculus of variations problem with more than one
+variations problem with more than one independent variable was to introduce
+independent variable was to introduce infinite dimensional manifolds and this
+was done in mostly in the 60s I think I'm not when I was a student you see so
+I'm not when I was a student you see so so we introduced infinite dimensional
+so we introduced infinite dimensional manifolds and I'm calling these
+different in these manifolds I've the space X is your function space now
+the function X is a Hilbert space or a Hilbert space with with our a functions
+Hilbert space with with our a functions with one derivative in a Hilbert space
+or it's the space of C infinity functions or there are many different
+functions or there are many different kinds of spaces you can actually I mean
+there are so many different kinds of spaces they have different norms on them
+spaces they have different norms on them they're all known spaces of functions
+but you put what different ways of computing the distance between the two
+functions you could take the maximum of the distance over points between the two
+functions you can take the integral of the distance between two points over the
+the distance between two points over the functions and here and so there are two
+manifolds involved one is the manifold that you start with we can actually
+that you start with we can actually really think of starting with a
+really think of starting with a two-dimensional plane for the easiest
+case and we want to map it and we want to look at the space of functions that
+to look at the space of functions that go from a plane into a curved space and
+go from a plane into a curved space and it is the Bechet of n that's important
+it is the Bechet of n that's important okay
+that's remember we couldn't go from one independent variable to two independent
+independent variable to two independent variables with the classical notions so
+we had to so so we what we couldn't go from one to two without actually
+changing the way we did things and in two dimensions it's the dimension of M
+two dimensions it's the dimension of M which is important and all the analysis
+which is important and all the analysis is based on the linear analysis in the
+function space of maps from your say two-dimensional object into a Euclidean
+two-dimensional object into a Euclidean space which is linear space which you
+understand and you also have people that you would go ask questions to and they
+about them and so so what the what the manifold is is geometrically the spaces
+manifold is is geometrically the spaces the space it's the space of functions in
+the linear vector space of maps into Euclidean space that actually
+sit and tie the manifold we're using the gnashing betting theorem again I mean
+gnashing betting theorem again I mean that's you know the national betting
+that's you know the national betting theorem is not absolutely essential you
+theorem is not absolutely essential you can do it without the national betting
+can do it without the national betting theorem but it simplifies simplifies
+like pages of work to use it so it's so it was very exciting to discover that
+it was very exciting to discover that calculus works under all the right
+calculus works under all the right conditions okay you could actually do
+conditions okay you could actually do calculus and infinite dimensions now you
+calculus and infinite dimensions now you think and you know people are really
+kind of how do you think about infinite dimensions well functions or infinite
+dimensions so you have to think about functions and then you know so what you
+fight discover about in different dimensions is ordinary differential
+equations could be solved you use the same proof I mean as as you do in your
+same proof I mean as as you do in your ordinary differential equations the
+inverse function serums are true darling that the same proof works you have norms
+that the same proof works you have norms and distances and so forth and you do it
+and distances and so forth and you do it in two dimensions and you can do it in
+infinite dimensions and you can you can also set up mention concepts of
+also set up mention concepts of measuring distance and I also mentioned
+measuring distance and I also mentioned I noticed that also there was sort of an
+I noticed that also there was sort of an indication that this was a really
+indication that this was a really interesting area of endeavor because the
+interesting area of endeavor because the Atia singer index theorem could connect
+Atia singer index theorem could connect the dimensions of spaces of solutions
+with the topology of the manifold you were working on so it was a clue that
+were working on so it was a clue that there was something really interesting
+there was something really interesting going on I mentioned a TN singer both
+have a bow prices so so the for the calculus of variations the the important
+calculus of variations the the important thing is the palace male condition okay
+and the palace male condition basically is a condition and it says if we have a
+bound on the function remember act our action integrals what we're trying to
+find out something about we're trying to minimize it or we're trying to actually
+we have the size of a is bounded but the gradient when we computed and we have a
+gradient when we computed and we have a sequence of points
+which a is bounded and we have a sequence of points along which the
+sequence of points along which the derivative goes to zero but but so we're
+derivative goes to zero but but so we're actually following a gradient curve and
+actually following a gradient curve and we're trying to figure out where the
+gradient curve goes and the tile I smell condition is a condition that says it's
+condition is a condition that says it's a condition you have to say v functional
+and it's used to show the curves of gradient descent have limit points okay
+gradient descent have limit points okay so in fact this found a lot of
+so in fact this found a lot of applications to the mountain path limit
+it gives an easy proof of Moore's theory for the geodesics and it gives very many
+for the geodesics and it gives very many many applications of mountain pass there
+many applications of mountain pass there so in fact however it's interesting that
+so in fact however it's interesting that it was not accepted as being a very
+it was not accepted as being a very excited thing it was way overblown we
+excited thing it was way overblown we didn't really didn't really do
+everything it promised it this was a new subject a whole new idea a whole new way
+subject a whole new idea a whole new way of putting things but it wasn't all that
+great and I think it's really interesting you make that point it isn't
+interesting you make that point it isn't when something happens so it's useful
+that everybody jumps on the bot bus I mean there's always these people saying
+oh no you do it the old way we don't want to do it this way so I also want to
+want to do it this way so I also want to point out that the one that bothers me
+point out that the one that bothers me the most is you can't integrate an
+infinite dimensions and so you can't do quantum field theory as rigorously in
+mathematics at all and that bugs me the most but ok so this gives a quick I'm
+most but ok so this gives a quick I'm running out of time but the the this is
+running out of time but the the this is this is really this sets the stage for
+the work its theorem for myself and current theorems in the calculus of
+variations in the last 40 years which has been the time period with that and
+has been the time period with that and what we now have a classification
+problem that we usually have a set of problems that we can define in any
+problems that we can define in any dimension and the dimension always being
+dimension and the dimension always being the number of independent variables and
+if the power smell condition is true is valid or with other conditions it's
+valid or with other conditions it's below the critical condition and that's
+below the critical condition and that's how I smell if it's a scale invariant
+it's called borderline and those are a lot of interesting problems minimal
+lot of interesting problems minimal surfaces yang-mills equations and so
+surfaces yang-mills equations and so forth fall into that and above the
+critical dimension is a singularity singularities always exist so that
+singularities always exist so that answers Hilbert's problem forget that
+the thing and it's a mess so we still studied that that's what we're looking
+studied that that's what we're looking at we're looking at the singularities
+but okay well I want to stop this oh okay yeah okay so what follows oh yeah
+okay yeah okay so what follows oh yeah and I should I should say something
+and I should I should say something about so actually I'm actually study
+most of the work I'm best known for is for the scale invariant case and what
+you do is you add a little bit to the functional and it's how I smell and then
+functional and it's how I smell and then you take the little bit away and you see
+what happens and I say probably Robert Bryan's gonna tell you a little bit
+Bryan's gonna tell you a little bit about actually what happens in that case
+about actually what happens in that case so so I really want to get to the end so
+so so I really want to get to the end so what what looks interesting well you
+know people keep on asking what sort of bass you could do and the answer is if I
+knew I'd be there but anyway I have to put talk I've heard so many talks on
+put talk I've heard so many talks on this I have to mention it and this is
+this I have to mention it and this is the question of deep learning and
+the question of deep learning and computer science and computer so
+computer this is really hot I mean and it's not hot in mathematics but it's hot
+it's not hot in mathematics but it's hot in computer science and you can easily
+hear a talk here we have our F now is a our unknown is the well there's first of
+our unknown is the well there's first of all a fight we have a finite number of
+all a fight we have a finite number of sample and you should think of a sample
+as being a whole bunch of people I don't like to use that they they use pictures
+like to use that they they use pictures but that's I mean photographs but that's
+but that's I mean photographs but that's not good because you're thinking space
+there don't think space a whole bunch of samples like a list of people and their
+samples like a list of people and their medical records of you know what they're
+medical records of you know what they're whether they measured and so
+and then you say you look at some outcome and that's when did they die it
+outcome and that's when did they die it could be two things when did they die
+and did they die of cancer or not or something like that it could be ten
+something like that it could be ten things but it's usually only a small
+things but it's usually only a small number and and so the product the way it
+number and and so the product the way it goes about is is that you had you have
+goes about is is that you had you have this sample and now you want to predict
+somebody not in the sample so what's done is is the deep learning involves a
+done is is the deep learning involves a very complicated method of constructing
+very complicated method of constructing possible maps from the census from
+elements in the sample to the outcomes and that's the deep part it's very
+and that's the deep part it's very complicated and those computer
+scientists will tell you all about it extent but what we want to do is
+extent but what we want to do is understanding what they're doing and so
+understanding what they're doing and so so this this it's a very large set but
+so this this it's a very large set but it's a finite dimensional one and it's
+it's a finite dimensional one and it's very important and how its constructed
+very important and how its constructed is very important at its finite
+minimize a loss functional which is our a again but now this is still a calculus
+a again but now this is still a calculus problem because we're in finite we only
+problem because we're in finite we only have a finite it's F that's finite we
+only have a finite number of choices of ways to go from the people to from the
+ways to go from the people to from the people's data to the outcome of whether
+they died and it's a calculus problem because it's it's it's it's it and so
+because it's it's it's it's it and so gradient descent gradient descent
+they work beautifully you put all this stuff on the computer and you tell it to
+stuff on the computer and you tell it to find the the best function and it does
+it gives you an F bar and not only there's a lot of interesting thing about
+there's a lot of interesting thing about this the trouble is is they don't really
+this the trouble is is they don't really know what's going on they're doing it
+know what's going on they're doing it and it's a magic kind of thing it's not
+and it's a magic kind of thing it's not a calculus of variations problem because
+a calculus of variations problem because there's the sum here which you like to
+make an integral but there's no way how are you going to get a DX in
+are you going to get a DX in are you know where where is that there
+are you know where where is that there there's it doesn't it's not a calculus
+there's it doesn't it's not a calculus variation and there's no integral
+involved and gradient descent gives an answer just because computers are great
+answer just because computers are great at that they've been doing that ever
+at that they've been doing that ever since computers were invented and they
+since computers were invented and they really know how to dig gradient they
+don't know how to construct the functions that space of functions is
+functions that space of functions is their art but and and in actual facts
+their art but and and in actual facts the loss function is usually very close
+to zero so in fact the f bar found whether the computer actually gives the
+whether the computer actually gives the right answer for all the samples that
+doubt so what happens well then you go out and test your f bar and it's really
+out and test your f bar and it's really good and the question so so so let's
+that we come to the oh I really okay now they're two things the loss function
+now they're two things the loss function is not convex and they're presumably
+loss of saddle points and in fact they know this from the computer experiments
+choice and the question is why does this work and computer science talks for math
+work and computer science talks for math department for math audiences
+talk about the they're very confusing about choosing X but but they do always
+about choosing X but but they do always end up with why is this working because
+end up with why is this working because the function is not convex and why is it
+why is f bar good and I want to I want to point out the first obvious thing is
+to point out the first obvious thing is you can easily construct we're about
+you can easily construct we're about petitions we don't stick to the facts we
+petitions we don't stick to the facts we can easily find data that actually
+can easily find data that actually doesn't fit this at all and the second
+thing is is that I have a young colleague at the Institute who was one
+colleague at the Institute who was one of the few math makiura mathematicians
+of the few math makiura mathematicians thinking about this and she says that
+thinking about this and she says that she could prove that if if there is a
+minimum where a of F is zero then in fact there's a whole big dimensional
+fact there's a whole big dimensional space ism there's lots of minim you can
+mathematically the question is why are the ones that they're finding so good
+anyway so I have to say they're my conjecture is is there's some
+interesting mathematics going on of some sort that I have no idea anyway

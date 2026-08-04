@@ -1,0 +1,1432 @@
+[
+  {
+    "t_start": 4.22,
+    "t_end": 5.4,
+    "text": "This is a 3."
+  },
+  {
+    "t_start": 6.06,
+    "t_end": 10.713,
+    "text": "It's sloppily written and rendered at an extremely low resolution of 28x28 pixels,"
+  },
+  {
+    "t_start": 10.713,
+    "t_end": 13.72,
+    "text": "but your brain has no trouble recognizing it as a 3."
+  },
+  {
+    "t_start": 14.34,
+    "t_end": 16.559,
+    "text": "And I want you to take a moment to appreciate how"
+  },
+  {
+    "t_start": 16.559,
+    "t_end": 18.96,
+    "text": "crazy it is that brains can do this so effortlessly."
+  },
+  {
+    "t_start": 19.7,
+    "t_end": 22.962,
+    "text": "I mean, this, this and this are also recognizable as 3s,"
+  },
+  {
+    "t_start": 22.962,
+    "t_end": 27.213,
+    "text": "even though the specific values of each pixel is very different from one"
+  },
+  {
+    "t_start": 27.213,
+    "t_end": 28.32,
+    "text": "image to the next."
+  },
+  {
+    "t_start": 28.9,
+    "t_end": 32.948,
+    "text": "The particular light-sensitive cells in your eye that are firing when you"
+  },
+  {
+    "t_start": 32.948,
+    "t_end": 36.94,
+    "text": "see this 3 are very different from the ones firing when you see this 3."
+  },
+  {
+    "t_start": 37.52,
+    "t_end": 42.74,
+    "text": "But something in that crazy-smart visual cortex of yours resolves these as representing"
+  },
+  {
+    "t_start": 42.74,
+    "t_end": 47.84,
+    "text": "the same idea, while at the same time recognizing other images as their own distinct"
+  },
+  {
+    "t_start": 47.84,
+    "t_end": 48.34,
+    "text": "ideas."
+  },
+  {
+    "t_start": 49.22,
+    "t_end": 54.634,
+    "text": "But if I told you, hey, sit down and write for me a program that takes in a grid of"
+  },
+  {
+    "t_start": 54.634,
+    "t_end": 59.135,
+    "text": "28x28 pixels like this and outputs a single number between 0 and 10,"
+  },
+  {
+    "t_start": 59.135,
+    "t_end": 64.745,
+    "text": "telling you what it thinks the digit is, well the task goes from comically trivial to"
+  },
+  {
+    "t_start": 64.745,
+    "t_end": 66.18,
+    "text": "dauntingly difficult."
+  },
+  {
+    "t_start": 67.16,
+    "t_end": 70.857,
+    "text": "Unless you've been living under a rock, I think I hardly need to motivate the relevance"
+  },
+  {
+    "t_start": 70.857,
+    "t_end": 74.64,
+    "text": "and importance of machine learning and neural networks to the present and to the future."
+  },
+  {
+    "t_start": 75.12,
+    "t_end": 78.95,
+    "text": "But what I want to do here is show you what a neural network actually is,"
+  },
+  {
+    "t_start": 78.95,
+    "t_end": 82.256,
+    "text": "assuming no background, and to help visualize what it's doing,"
+  },
+  {
+    "t_start": 82.256,
+    "t_end": 84.46,
+    "text": "not as a buzzword but as a piece of math."
+  },
+  {
+    "t_start": 85.02,
+    "t_end": 88.777,
+    "text": "My hope is that you come away feeling like the structure itself is motivated,"
+  },
+  {
+    "t_start": 88.777,
+    "t_end": 91.461,
+    "text": "and to feel like you know what it means when you read,"
+  },
+  {
+    "t_start": 91.461,
+    "t_end": 94.34,
+    "text": "or you hear about a neural network quote-unquote learning."
+  },
+  {
+    "t_start": 95.36,
+    "t_end": 98.261,
+    "text": "This video is just going to be devoted to the structure component of that,"
+  },
+  {
+    "t_start": 98.261,
+    "t_end": 100.26,
+    "text": "and the following one is going to tackle learning."
+  },
+  {
+    "t_start": 100.96,
+    "t_end": 103.278,
+    "text": "What we're going to do is put together a neural"
+  },
+  {
+    "t_start": 103.278,
+    "t_end": 106.04,
+    "text": "network that can learn to recognize handwritten digits."
+  },
+  {
+    "t_start": 109.36,
+    "t_end": 112.06,
+    "text": "This is a somewhat classic example for introducing the topic,"
+  },
+  {
+    "t_start": 112.06,
+    "t_end": 114.228,
+    "text": "and I'm happy to stick with the status quo here,"
+  },
+  {
+    "t_start": 114.228,
+    "t_end": 117.503,
+    "text": "because at the end of the two videos I want to point you to a couple good"
+  },
+  {
+    "t_start": 117.503,
+    "t_end": 120.911,
+    "text": "resources where you can learn more, and where you can download the code that"
+  },
+  {
+    "t_start": 120.911,
+    "t_end": 123.08,
+    "text": "does this and play with it on your own computer."
+  },
+  {
+    "t_start": 125.04,
+    "t_end": 127.661,
+    "text": "There are many many variants of neural networks,"
+  },
+  {
+    "t_start": 127.661,
+    "t_end": 132.246,
+    "text": "and in recent years there's been sort of a boom in research towards these variants,"
+  },
+  {
+    "t_start": 132.246,
+    "t_end": 136.942,
+    "text": "but in these two introductory videos you and I are just going to look at the simplest"
+  },
+  {
+    "t_start": 136.942,
+    "t_end": 139.18,
+    "text": "plain vanilla form with no added frills."
+  },
+  {
+    "t_start": 139.86,
+    "t_end": 143.89,
+    "text": "This is kind of a necessary prerequisite for understanding any of the more powerful"
+  },
+  {
+    "t_start": 143.89,
+    "t_end": 148.212,
+    "text": "modern variants, and trust me it still has plenty of complexity for us to wrap our minds"
+  },
+  {
+    "t_start": 148.212,
+    "t_end": 148.712,
+    "text": "around."
+  },
+  {
+    "t_start": 149.12,
+    "t_end": 153.195,
+    "text": "But even in this simplest form it can learn to recognize handwritten digits,"
+  },
+  {
+    "t_start": 153.195,
+    "t_end": 156.52,
+    "text": "which is a pretty cool thing for a computer to be able to do."
+  },
+  {
+    "t_start": 157.48,
+    "t_end": 159.807,
+    "text": "And at the same time you'll see how it does fall"
+  },
+  {
+    "t_start": 159.807,
+    "t_end": 162.28,
+    "text": "short of a couple hopes that we might have for it."
+  },
+  {
+    "t_start": 163.38,
+    "t_end": 168.5,
+    "text": "As the name suggests neural networks are inspired by the brain, but let's break that down."
+  },
+  {
+    "t_start": 168.52,
+    "t_end": 171.66,
+    "text": "What are the neurons, and in what sense are they linked together?"
+  },
+  {
+    "t_start": 172.5,
+    "t_end": 178.021,
+    "text": "Right now when I say neuron all I want you to think about is a thing that holds a number,"
+  },
+  {
+    "t_start": 178.021,
+    "t_end": 180.44,
+    "text": "specifically a number between 0 and 1."
+  },
+  {
+    "t_start": 180.68,
+    "t_end": 182.56,
+    "text": "It's really not more than that."
+  },
+  {
+    "t_start": 183.78,
+    "t_end": 188.822,
+    "text": "For example the network starts with a bunch of neurons corresponding to"
+  },
+  {
+    "t_start": 188.822,
+    "t_end": 194.22,
+    "text": "each of the 28x28 pixels of the input image, which is 784 neurons in total."
+  },
+  {
+    "t_start": 194.7,
+    "t_end": 199.414,
+    "text": "Each one of these holds a number that represents the grayscale value of the"
+  },
+  {
+    "t_start": 199.414,
+    "t_end": 204.38,
+    "text": "corresponding pixel, ranging from 0 for black pixels up to 1 for white pixels."
+  },
+  {
+    "t_start": 205.3,
+    "t_end": 208.253,
+    "text": "This number inside the neuron is called its activation,"
+  },
+  {
+    "t_start": 208.253,
+    "t_end": 212.603,
+    "text": "and the image you might have in mind here is that each neuron is lit up when its"
+  },
+  {
+    "t_start": 212.603,
+    "t_end": 214.16,
+    "text": "activation is a high number."
+  },
+  {
+    "t_start": 216.72,
+    "t_end": 221.86,
+    "text": "So all of these 784 neurons make up the first layer of our network."
+  },
+  {
+    "t_start": 226.5,
+    "t_end": 229.426,
+    "text": "Now jumping over to the last layer, this has 10 neurons,"
+  },
+  {
+    "t_start": 229.426,
+    "t_end": 231.36,
+    "text": "each representing one of the digits."
+  },
+  {
+    "t_start": 232.04,
+    "t_end": 236.616,
+    "text": "The activation in these neurons, again some number that's between 0 and 1,"
+  },
+  {
+    "t_start": 236.616,
+    "t_end": 242.12,
+    "text": "represents how much the system thinks that a given image corresponds with a given digit."
+  },
+  {
+    "t_start": 243.04,
+    "t_end": 246.421,
+    "text": "There's also a couple layers in between called the hidden layers,"
+  },
+  {
+    "t_start": 246.421,
+    "t_end": 249.855,
+    "text": "which for the time being should just be a giant question mark for"
+  },
+  {
+    "t_start": 249.855,
+    "t_end": 253.6,
+    "text": "how on earth this process of recognizing digits is going to be handled."
+  },
+  {
+    "t_start": 254.26,
+    "t_end": 257.86,
+    "text": "In this network I chose two hidden layers, each one with 16 neurons,"
+  },
+  {
+    "t_start": 257.86,
+    "t_end": 260.56,
+    "text": "and admittedly that's kind of an arbitrary choice."
+  },
+  {
+    "t_start": 261.02,
+    "t_end": 264.655,
+    "text": "To be honest I chose two layers based on how I want to motivate the structure in"
+  },
+  {
+    "t_start": 264.655,
+    "t_end": 268.2,
+    "text": "just a moment, and 16, well that was just a nice number to fit on the screen."
+  },
+  {
+    "t_start": 268.78,
+    "t_end": 272.34,
+    "text": "In practice there is a lot of room for experiment with a specific structure here."
+  },
+  {
+    "t_start": 273.02,
+    "t_end": 275.667,
+    "text": "The way the network operates, activations in one"
+  },
+  {
+    "t_start": 275.667,
+    "t_end": 278.48,
+    "text": "layer determine the activations of the next layer."
+  },
+  {
+    "t_start": 279.2,
+    "t_end": 283.811,
+    "text": "And of course the heart of the network as an information processing mechanism comes down"
+  },
+  {
+    "t_start": 283.811,
+    "t_end": 288.213,
+    "text": "to exactly how those activations from one layer bring about activations in the next"
+  },
+  {
+    "t_start": 288.213,
+    "t_end": 288.713,
+    "text": "layer."
+  },
+  {
+    "t_start": 289.14,
+    "t_end": 293.633,
+    "text": "It's meant to be loosely analogous to how in biological networks of neurons,"
+  },
+  {
+    "t_start": 293.633,
+    "t_end": 297.18,
+    "text": "some groups of neurons firing cause certain others to fire."
+  },
+  {
+    "t_start": 298.12,
+    "t_end": 301.581,
+    "text": "Now the network I'm showing here has already been trained to recognize digits,"
+  },
+  {
+    "t_start": 301.581,
+    "t_end": 303.4,
+    "text": "and let me show you what I mean by that."
+  },
+  {
+    "t_start": 303.64,
+    "t_end": 308.294,
+    "text": "It means if you feed in an image, lighting up all 784 neurons of the input layer"
+  },
+  {
+    "t_start": 308.294,
+    "t_end": 311.551,
+    "text": "according to the brightness of each pixel in the image,"
+  },
+  {
+    "t_start": 311.551,
+    "t_end": 316.205,
+    "text": "that pattern of activations causes some very specific pattern in the next layer"
+  },
+  {
+    "t_start": 316.205,
+    "t_end": 318.939,
+    "text": "which causes some pattern in the one after it,"
+  },
+  {
+    "t_start": 318.939,
+    "t_end": 322.08,
+    "text": "which finally gives some pattern in the output layer."
+  },
+  {
+    "t_start": 322.56,
+    "t_end": 326.517,
+    "text": "And the brightest neuron of that output layer is the network's choice,"
+  },
+  {
+    "t_start": 326.517,
+    "t_end": 329.4,
+    "text": "so to speak, for what digit this image represents."
+  },
+  {
+    "t_start": 332.56,
+    "t_end": 336.337,
+    "text": "And before jumping into the math for how one layer influences the next,"
+  },
+  {
+    "t_start": 336.337,
+    "t_end": 340.062,
+    "text": "or how training works, let's just talk about why it's even reasonable"
+  },
+  {
+    "t_start": 340.062,
+    "t_end": 343.52,
+    "text": "to expect a layered structure like this to behave intelligently."
+  },
+  {
+    "t_start": 344.06,
+    "t_end": 345.22,
+    "text": "What are we expecting here?"
+  },
+  {
+    "t_start": 345.4,
+    "t_end": 347.6,
+    "text": "What is the best hope for what those middle layers might be doing?"
+  },
+  {
+    "t_start": 348.92,
+    "t_end": 353.52,
+    "text": "Well, when you or I recognize digits, we piece together various components."
+  },
+  {
+    "t_start": 354.2,
+    "t_end": 356.82,
+    "text": "A 9 has a loop up top and a line on the right."
+  },
+  {
+    "t_start": 357.38,
+    "t_end": 361.18,
+    "text": "An 8 also has a loop up top, but it's paired with another loop down low."
+  },
+  {
+    "t_start": 361.98,
+    "t_end": 366.82,
+    "text": "A 4 basically breaks down into three specific lines, and things like that."
+  },
+  {
+    "t_start": 367.6,
+    "t_end": 371.558,
+    "text": "Now in a perfect world, we might hope that each neuron in the second"
+  },
+  {
+    "t_start": 371.558,
+    "t_end": 374.992,
+    "text": "to last layer corresponds with one of these subcomponents,"
+  },
+  {
+    "t_start": 374.992,
+    "t_end": 378.484,
+    "text": "that anytime you feed in an image with, say, a loop up top,"
+  },
+  {
+    "t_start": 378.484,
+    "t_end": 382.383,
+    "text": "like a 9 or an 8, there's some specific neuron whose activation is"
+  },
+  {
+    "t_start": 382.383,
+    "t_end": 383.78,
+    "text": "going to be close to 1."
+  },
+  {
+    "t_start": 384.5,
+    "t_end": 386.906,
+    "text": "And I don't mean this specific loop of pixels,"
+  },
+  {
+    "t_start": 386.906,
+    "t_end": 391.56,
+    "text": "the hope would be that any generally loopy pattern towards the top sets off this neuron."
+  },
+  {
+    "t_start": 392.44,
+    "t_end": 396.049,
+    "text": "That way, going from the third layer to the last one just requires"
+  },
+  {
+    "t_start": 396.049,
+    "t_end": 400.04,
+    "text": "learning which combination of subcomponents corresponds to which digits."
+  },
+  {
+    "t_start": 401.0,
+    "t_end": 403.199,
+    "text": "Of course, that just kicks the problem down the road,"
+  },
+  {
+    "t_start": 403.199,
+    "t_end": 405.399,
+    "text": "because how would you recognize these subcomponents,"
+  },
+  {
+    "t_start": 405.399,
+    "t_end": 407.64,
+    "text": "or even learn what the right subcomponents should be?"
+  },
+  {
+    "t_start": 408.06,
+    "t_end": 411.218,
+    "text": "And I still haven't even talked about how one layer influences the next,"
+  },
+  {
+    "t_start": 411.218,
+    "t_end": 413.06,
+    "text": "but run with me on this one for a moment."
+  },
+  {
+    "t_start": 413.68,
+    "t_end": 416.68,
+    "text": "Recognizing a loop can also break down into subproblems."
+  },
+  {
+    "t_start": 417.28,
+    "t_end": 419.891,
+    "text": "One reasonable way to do this would be to first"
+  },
+  {
+    "t_start": 419.891,
+    "t_end": 422.78,
+    "text": "recognize the various little edges that make it up."
+  },
+  {
+    "t_start": 423.78,
+    "t_end": 428.399,
+    "text": "Similarly, a long line, like the kind you might see in the digits 1 or 4 or 7,"
+  },
+  {
+    "t_start": 428.399,
+    "t_end": 433.432,
+    "text": "is really just a long edge, or maybe you think of it as a certain pattern of several"
+  },
+  {
+    "t_start": 433.432,
+    "t_end": 434.32,
+    "text": "smaller edges."
+  },
+  {
+    "t_start": 435.14,
+    "t_end": 438.808,
+    "text": "So maybe our hope is that each neuron in the second layer of"
+  },
+  {
+    "t_start": 438.808,
+    "t_end": 442.72,
+    "text": "the network corresponds with the various relevant little edges."
+  },
+  {
+    "t_start": 443.54,
+    "t_end": 447.511,
+    "text": "Maybe when an image like this one comes in, it lights up all of the"
+  },
+  {
+    "t_start": 447.511,
+    "t_end": 451.185,
+    "text": "neurons associated with around 8 to 10 specific little edges,"
+  },
+  {
+    "t_start": 451.185,
+    "t_end": 455.156,
+    "text": "which in turn lights up the neurons associated with the upper loop"
+  },
+  {
+    "t_start": 455.156,
+    "t_end": 459.72,
+    "text": "and a long vertical line, and those light up the neuron associated with a 9."
+  },
+  {
+    "t_start": 460.68,
+    "t_end": 464.683,
+    "text": "Whether or not this is what our final network actually does is another question,"
+  },
+  {
+    "t_start": 464.683,
+    "t_end": 467.936,
+    "text": "one that I'll come back to once we see how to train the network,"
+  },
+  {
+    "t_start": 467.936,
+    "t_end": 471.99,
+    "text": "but this is a hope that we might have, a sort of goal with the layered structure"
+  },
+  {
+    "t_start": 471.99,
+    "t_end": 472.54,
+    "text": "like this."
+  },
+  {
+    "t_start": 473.16,
+    "t_end": 476.756,
+    "text": "Moreover, you can imagine how being able to detect edges and patterns"
+  },
+  {
+    "t_start": 476.756,
+    "t_end": 480.3,
+    "text": "like this would be really useful for other image recognition tasks."
+  },
+  {
+    "t_start": 480.88,
+    "t_end": 484.012,
+    "text": "And even beyond image recognition, there are all sorts of intelligent"
+  },
+  {
+    "t_start": 484.012,
+    "t_end": 487.28,
+    "text": "things you might want to do that break down into layers of abstraction."
+  },
+  {
+    "t_start": 488.04,
+    "t_end": 492.729,
+    "text": "Parsing speech, for example, involves taking raw audio and picking out distinct sounds,"
+  },
+  {
+    "t_start": 492.729,
+    "t_end": 496.503,
+    "text": "which combine to make certain syllables, which combine to form words,"
+  },
+  {
+    "t_start": 496.503,
+    "t_end": 500.06,
+    "text": "which combine to make up phrases and more abstract thoughts, etc."
+  },
+  {
+    "t_start": 501.1,
+    "t_end": 503.685,
+    "text": "But getting back to how any of this actually works,"
+  },
+  {
+    "t_start": 503.685,
+    "t_end": 507.943,
+    "text": "picture yourself right now designing how exactly the activations in one layer might"
+  },
+  {
+    "t_start": 507.943,
+    "t_end": 509.92,
+    "text": "determine the activations in the next."
+  },
+  {
+    "t_start": 510.86,
+    "t_end": 515.988,
+    "text": "The goal is to have some mechanism that could conceivably combine pixels into edges,"
+  },
+  {
+    "t_start": 515.988,
+    "t_end": 518.98,
+    "text": "or edges into patterns, or patterns into digits."
+  },
+  {
+    "t_start": 519.44,
+    "t_end": 523.268,
+    "text": "And to zoom in on one very specific example, let's say the hope"
+  },
+  {
+    "t_start": 523.268,
+    "t_end": 526.914,
+    "text": "is for one particular neuron in the second layer to pick up"
+  },
+  {
+    "t_start": 526.914,
+    "t_end": 530.62,
+    "text": "on whether or not the image has an edge in this region here."
+  },
+  {
+    "t_start": 531.44,
+    "t_end": 535.1,
+    "text": "The question at hand is what parameters should the network have?"
+  },
+  {
+    "t_start": 535.64,
+    "t_end": 539.65,
+    "text": "What dials and knobs should you be able to tweak so that it's expressive"
+  },
+  {
+    "t_start": 539.65,
+    "t_end": 543.659,
+    "text": "enough to potentially capture this pattern, or any other pixel pattern,"
+  },
+  {
+    "t_start": 543.659,
+    "t_end": 547.78,
+    "text": "or the pattern that several edges can make a loop, and other such things?"
+  },
+  {
+    "t_start": 548.72,
+    "t_end": 551.814,
+    "text": "Well, what we'll do is assign a weight to each one of the"
+  },
+  {
+    "t_start": 551.814,
+    "t_end": 555.56,
+    "text": "connections between our neuron and the neurons from the first layer."
+  },
+  {
+    "t_start": 556.32,
+    "t_end": 557.7,
+    "text": "These weights are just numbers."
+  },
+  {
+    "t_start": 558.54,
+    "t_end": 561.898,
+    "text": "Then take all of those activations from the first layer"
+  },
+  {
+    "t_start": 561.898,
+    "t_end": 565.5,
+    "text": "and compute their weighted sum according to these weights."
+  },
+  {
+    "t_start": 567.7,
+    "t_end": 571.097,
+    "text": "I find it helpful to think of these weights as being organized into a"
+  },
+  {
+    "t_start": 571.097,
+    "t_end": 574.642,
+    "text": "little grid of their own, and I'm going to use green pixels to indicate"
+  },
+  {
+    "t_start": 574.642,
+    "t_end": 577.743,
+    "text": "positive weights, and red pixels to indicate negative weights,"
+  },
+  {
+    "t_start": 577.743,
+    "t_end": 581.78,
+    "text": "where the brightness of that pixel is some loose depiction of the weight's value."
+  },
+  {
+    "t_start": 582.78,
+    "t_end": 586.527,
+    "text": "Now if we made the weights associated with almost all of the pixels zero"
+  },
+  {
+    "t_start": 586.527,
+    "t_end": 590.066,
+    "text": "except for some positive weights in this region that we care about,"
+  },
+  {
+    "t_start": 590.066,
+    "t_end": 593.865,
+    "text": "then taking the weighted sum of all the pixel values really just amounts"
+  },
+  {
+    "t_start": 593.865,
+    "t_end": 597.82,
+    "text": "to adding up the values of the pixel just in the region that we care about."
+  },
+  {
+    "t_start": 599.14,
+    "t_end": 602.392,
+    "text": "And if you really wanted to pick up on whether there's an edge here,"
+  },
+  {
+    "t_start": 602.392,
+    "t_end": 606.6,
+    "text": "what you might do is have some negative weights associated with the surrounding pixels."
+  },
+  {
+    "t_start": 607.48,
+    "t_end": 610.037,
+    "text": "Then the sum is largest when those middle pixels"
+  },
+  {
+    "t_start": 610.037,
+    "t_end": 612.7,
+    "text": "are bright but the surrounding pixels are darker."
+  },
+  {
+    "t_start": 614.26,
+    "t_end": 618.647,
+    "text": "When you compute a weighted sum like this, you might come out with any number,"
+  },
+  {
+    "t_start": 618.647,
+    "t_end": 623.54,
+    "text": "but for this network what we want is for activations to be some value between 0 and 1."
+  },
+  {
+    "t_start": 624.12,
+    "t_end": 628.246,
+    "text": "So a common thing to do is to pump this weighted sum into some function"
+  },
+  {
+    "t_start": 628.246,
+    "t_end": 632.14,
+    "text": "that squishes the real number line into the range between 0 and 1."
+  },
+  {
+    "t_start": 632.46,
+    "t_end": 635.833,
+    "text": "And a common function that does this is called the sigmoid function,"
+  },
+  {
+    "t_start": 635.833,
+    "t_end": 637.42,
+    "text": "also known as a logistic curve."
+  },
+  {
+    "t_start": 638.0,
+    "t_end": 643.351,
+    "text": "Basically very negative inputs end up close to 0, positive inputs end up close to 1,"
+  },
+  {
+    "t_start": 643.351,
+    "t_end": 646.6,
+    "text": "and it just steadily increases around the input 0."
+  },
+  {
+    "t_start": 649.12,
+    "t_end": 652.637,
+    "text": "So the activation of the neuron here is basically a"
+  },
+  {
+    "t_start": 652.637,
+    "t_end": 656.36,
+    "text": "measure of how positive the relevant weighted sum is."
+  },
+  {
+    "t_start": 657.54,
+    "t_end": 659.641,
+    "text": "But maybe it's not that you want the neuron to"
+  },
+  {
+    "t_start": 659.641,
+    "t_end": 661.88,
+    "text": "light up when the weighted sum is bigger than 0."
+  },
+  {
+    "t_start": 662.28,
+    "t_end": 666.36,
+    "text": "Maybe you only want it to be active when the sum is bigger than say 10."
+  },
+  {
+    "t_start": 666.84,
+    "t_end": 670.26,
+    "text": "That is, you want some bias for it to be inactive."
+  },
+  {
+    "t_start": 671.38,
+    "t_end": 675.466,
+    "text": "What we'll do then is just add in some other number like negative 10 to this"
+  },
+  {
+    "t_start": 675.466,
+    "t_end": 679.66,
+    "text": "weighted sum before plugging it through the sigmoid squishification function."
+  },
+  {
+    "t_start": 680.58,
+    "t_end": 682.44,
+    "text": "That additional number is called the bias."
+  },
+  {
+    "t_start": 683.46,
+    "t_end": 687.31,
+    "text": "So the weights tell you what pixel pattern this neuron in the second"
+  },
+  {
+    "t_start": 687.31,
+    "t_end": 691.217,
+    "text": "layer is picking up on, and the bias tells you how high the weighted"
+  },
+  {
+    "t_start": 691.217,
+    "t_end": 695.18,
+    "text": "sum needs to be before the neuron starts getting meaningfully active."
+  },
+  {
+    "t_start": 696.12,
+    "t_end": 697.68,
+    "text": "And that is just one neuron."
+  },
+  {
+    "t_start": 698.28,
+    "t_end": 702.477,
+    "text": "Every other neuron in this layer is going to be connected to"
+  },
+  {
+    "t_start": 702.477,
+    "t_end": 706.673,
+    "text": "all 784 pixel neurons from the first layer, and each one of"
+  },
+  {
+    "t_start": 706.673,
+    "t_end": 710.94,
+    "text": "those 784 connections has its own weight associated with it."
+  },
+  {
+    "t_start": 711.6,
+    "t_end": 714.575,
+    "text": "Also, each one has some bias, some other number that you add"
+  },
+  {
+    "t_start": 714.575,
+    "t_end": 717.6,
+    "text": "on to the weighted sum before squishing it with the sigmoid."
+  },
+  {
+    "t_start": 718.11,
+    "t_end": 719.54,
+    "text": "And that's a lot to think about!"
+  },
+  {
+    "t_start": 719.96,
+    "t_end": 726.198,
+    "text": "With this hidden layer of 16 neurons, that's a total of 784 times 16 weights,"
+  },
+  {
+    "t_start": 726.198,
+    "t_end": 727.98,
+    "text": "along with 16 biases."
+  },
+  {
+    "t_start": 728.84,
+    "t_end": 731.94,
+    "text": "And all of that is just the connections from the first layer to the second."
+  },
+  {
+    "t_start": 732.52,
+    "t_end": 734.883,
+    "text": "The connections between the other layers also have"
+  },
+  {
+    "t_start": 734.883,
+    "t_end": 737.34,
+    "text": "a bunch of weights and biases associated with them."
+  },
+  {
+    "t_start": 738.34,
+    "t_end": 743.8,
+    "text": "All said and done, this network has almost exactly 13,000 total weights and biases."
+  },
+  {
+    "t_start": 743.8,
+    "t_end": 747.065,
+    "text": "13,000 knobs and dials that can be tweaked and turned"
+  },
+  {
+    "t_start": 747.065,
+    "t_end": 749.96,
+    "text": "to make this network behave in different ways."
+  },
+  {
+    "t_start": 751.04,
+    "t_end": 754.262,
+    "text": "So when we talk about learning, what that's referring to is"
+  },
+  {
+    "t_start": 754.262,
+    "t_end": 757.647,
+    "text": "getting the computer to find a valid setting for all of these"
+  },
+  {
+    "t_start": 757.647,
+    "t_end": 761.36,
+    "text": "many many numbers so that it'll actually solve the problem at hand."
+  },
+  {
+    "t_start": 762.62,
+    "t_end": 767.186,
+    "text": "One thought experiment that is at once fun and kind of horrifying is to imagine sitting"
+  },
+  {
+    "t_start": 767.186,
+    "t_end": 770.23,
+    "text": "down and setting all of these weights and biases by hand,"
+  },
+  {
+    "t_start": 770.23,
+    "t_end": 774.323,
+    "text": "purposefully tweaking the numbers so that the second layer picks up on edges,"
+  },
+  {
+    "t_start": 774.323,
+    "t_end": 776.58,
+    "text": "the third layer picks up on patterns, etc."
+  },
+  {
+    "t_start": 776.98,
+    "t_end": 781.342,
+    "text": "I personally find this satisfying rather than just treating the network as a total black"
+  },
+  {
+    "t_start": 781.342,
+    "t_end": 784.812,
+    "text": "box, because when the network doesn't perform the way you anticipate,"
+  },
+  {
+    "t_start": 784.812,
+    "t_end": 789.025,
+    "text": "if you've built up a little bit of a relationship with what those weights and biases"
+  },
+  {
+    "t_start": 789.025,
+    "t_end": 793.09,
+    "text": "actually mean, you have a starting place for experimenting with how to change the"
+  },
+  {
+    "t_start": 793.09,
+    "t_end": 794.18,
+    "text": "structure to improve."
+  },
+  {
+    "t_start": 794.96,
+    "t_end": 798.433,
+    "text": "Or when the network does work but not for the reasons you might expect,"
+  },
+  {
+    "t_start": 798.433,
+    "t_end": 802.249,
+    "text": "digging into what the weights and biases are doing is a good way to challenge"
+  },
+  {
+    "t_start": 802.249,
+    "t_end": 805.82,
+    "text": "your assumptions and really expose the full space of possible solutions."
+  },
+  {
+    "t_start": 806.84,
+    "t_end": 809.963,
+    "text": "By the way, the actual function here is a little cumbersome to write down,"
+  },
+  {
+    "t_start": 809.963,
+    "t_end": 810.68,
+    "text": "don't you think?"
+  },
+  {
+    "t_start": 812.5,
+    "t_end": 817.14,
+    "text": "So let me show you a more notationally compact way that these connections are represented."
+  },
+  {
+    "t_start": 817.66,
+    "t_end": 820.52,
+    "text": "This is how you'd see it if you choose to read up more about neural networks."
+  },
+  {
+    "t_start": 820.52,
+    "t_end": 828.023,
+    "text": "Organize all of the activations from one layer into a column as a vector."
+  },
+  {
+    "t_start": 828.357,
+    "t_end": 830.038,
+    "text": "Then organize all of the weights as a matrix, where each row of that matrix corresponds"
+  },
+  {
+    "t_start": 830.038,
+    "t_end": 838.0,
+    "text": "to the connections between one layer and a particular neuron in the next layer."
+  },
+  {
+    "t_start": 838.54,
+    "t_end": 842.214,
+    "text": "What that means is that taking the weighted sum of the activations in"
+  },
+  {
+    "t_start": 842.214,
+    "t_end": 845.887,
+    "text": "the first layer according to these weights corresponds to one of the"
+  },
+  {
+    "t_start": 845.887,
+    "t_end": 849.88,
+    "text": "terms in the matrix vector product of everything we have on the left here."
+  },
+  {
+    "t_start": 854.0,
+    "t_end": 857.714,
+    "text": "By the way, so much of machine learning just comes down to having a good"
+  },
+  {
+    "t_start": 857.714,
+    "t_end": 861.119,
+    "text": "grasp of linear algebra, so for any of you who want a nice visual"
+  },
+  {
+    "t_start": 861.119,
+    "t_end": 864.834,
+    "text": "understanding for matrices and what matrix vector multiplication means,"
+  },
+  {
+    "t_start": 864.834,
+    "t_end": 868.6,
+    "text": "take a look at the series I did on linear algebra, especially chapter 3."
+  },
+  {
+    "t_start": 869.24,
+    "t_end": 873.593,
+    "text": "Back to our expression, instead of talking about adding the bias to each one of"
+  },
+  {
+    "t_start": 873.593,
+    "t_end": 878.002,
+    "text": "these values independently, we represent it by organizing all those biases into"
+  },
+  {
+    "t_start": 878.002,
+    "t_end": 882.3,
+    "text": "a vector, and adding the entire vector to the previous matrix vector product."
+  },
+  {
+    "t_start": 883.28,
+    "t_end": 886.814,
+    "text": "Then as a final step, I'll wrap a sigmoid around the outside here,"
+  },
+  {
+    "t_start": 886.814,
+    "t_end": 890.67,
+    "text": "and what that's supposed to represent is that you're going to apply the"
+  },
+  {
+    "t_start": 890.67,
+    "t_end": 894.74,
+    "text": "sigmoid function to each specific component of the resulting vector inside."
+  },
+  {
+    "t_start": 895.94,
+    "t_end": 900.478,
+    "text": "So once you write down this weight matrix and these vectors as their own symbols,"
+  },
+  {
+    "t_start": 900.478,
+    "t_end": 905.408,
+    "text": "you can communicate the full transition of activations from one layer to the next in an"
+  },
+  {
+    "t_start": 905.408,
+    "t_end": 910.338,
+    "text": "extremely tight and neat little expression, and this makes the relevant code both a lot"
+  },
+  {
+    "t_start": 910.338,
+    "t_end": 914.764,
+    "text": "simpler and a lot faster, since many libraries optimize the heck out of matrix"
+  },
+  {
+    "t_start": 914.764,
+    "t_end": 915.66,
+    "text": "multiplication."
+  },
+  {
+    "t_start": 917.82,
+    "t_end": 921.46,
+    "text": "Remember how earlier I said these neurons are simply things that hold numbers?"
+  },
+  {
+    "t_start": 922.22,
+    "t_end": 927.33,
+    "text": "Well of course the specific numbers that they hold depends on the image you feed in,"
+  },
+  {
+    "t_start": 927.33,
+    "t_end": 931.588,
+    "text": "so it's actually more accurate to think of each neuron as a function,"
+  },
+  {
+    "t_start": 931.588,
+    "t_end": 936.88,
+    "text": "one that takes in the outputs of all the neurons in the previous layer and spits out a"
+  },
+  {
+    "t_start": 936.88,
+    "t_end": 938.34,
+    "text": "number between 0 and 1."
+  },
+  {
+    "t_start": 939.2,
+    "t_end": 943.13,
+    "text": "Really the entire network is just a function, one that takes in"
+  },
+  {
+    "t_start": 943.13,
+    "t_end": 947.06,
+    "text": "784 numbers as an input and spits out 10 numbers as an output."
+  },
+  {
+    "t_start": 947.56,
+    "t_end": 951.462,
+    "text": "It's an absurdly complicated function, one that involves 13,000 parameters"
+  },
+  {
+    "t_start": 951.462,
+    "t_end": 955.416,
+    "text": "in the forms of these weights and biases that pick up on certain patterns,"
+  },
+  {
+    "t_start": 955.416,
+    "t_end": 959.265,
+    "text": "and which involves iterating many matrix vector products and the sigmoid"
+  },
+  {
+    "t_start": 959.265,
+    "t_end": 962.64,
+    "text": "squishification function, but it's just a function nonetheless."
+  },
+  {
+    "t_start": 963.4,
+    "t_end": 966.66,
+    "text": "And in a way it's kind of reassuring that it looks complicated."
+  },
+  {
+    "t_start": 967.34,
+    "t_end": 969.701,
+    "text": "I mean if it were any simpler, what hope would we have"
+  },
+  {
+    "t_start": 969.701,
+    "t_end": 972.28,
+    "text": "that it could take on the challenge of recognizing digits?"
+  },
+  {
+    "t_start": 973.34,
+    "t_end": 974.7,
+    "text": "And how does it take on that challenge?"
+  },
+  {
+    "t_start": 975.08,
+    "t_end": 979.36,
+    "text": "How does this network learn the appropriate weights and biases just by looking at data?"
+  },
+  {
+    "t_start": 980.14,
+    "t_end": 983.194,
+    "text": "Well that's what I'll show in the next video, and I'll also dig a little"
+  },
+  {
+    "t_start": 983.194,
+    "t_end": 986.12,
+    "text": "more into what this particular network we're seeing is really doing."
+  },
+  {
+    "t_start": 987.58,
+    "t_end": 990.748,
+    "text": "Now is the point I suppose I should say subscribe to stay notified"
+  },
+  {
+    "t_start": 990.748,
+    "t_end": 993.148,
+    "text": "about when that video or any new videos come out,"
+  },
+  {
+    "t_start": 993.148,
+    "t_end": 997.42,
+    "text": "but realistically most of you don't actually receive notifications from YouTube, do you?"
+  },
+  {
+    "t_start": 998.02,
+    "t_end": 1001.276,
+    "text": "Maybe more honestly I should say subscribe so that the neural networks"
+  },
+  {
+    "t_start": 1001.276,
+    "t_end": 1004.578,
+    "text": "that underlie YouTube's recommendation algorithm are primed to believe"
+  },
+  {
+    "t_start": 1004.578,
+    "t_end": 1007.88,
+    "text": "that you want to see content from this channel get recommended to you."
+  },
+  {
+    "t_start": 1008.56,
+    "t_end": 1009.94,
+    "text": "Anyway, stay posted for more."
+  },
+  {
+    "t_start": 1010.76,
+    "t_end": 1013.5,
+    "text": "Thank you very much to everyone supporting these videos on Patreon."
+  },
+  {
+    "t_start": 1014.0,
+    "t_end": 1017.439,
+    "text": "I've been a little slow to progress in the probability series this summer,"
+  },
+  {
+    "t_start": 1017.439,
+    "t_end": 1019.716,
+    "text": "but I'm jumping back into it after this project,"
+  },
+  {
+    "t_start": 1019.716,
+    "t_end": 1021.9,
+    "text": "so patrons you can look out for updates there."
+  },
+  {
+    "t_start": 1023.6,
+    "t_end": 1027.09,
+    "text": "To close things off here I have with me Lisha Li who did her PhD work on the"
+  },
+  {
+    "t_start": 1027.09,
+    "t_end": 1030.717,
+    "text": "theoretical side of deep learning and who currently works at a venture capital"
+  },
+  {
+    "t_start": 1030.717,
+    "t_end": 1034.62,
+    "text": "firm called Amplify Partners who kindly provided some of the funding for this video."
+  },
+  {
+    "t_start": 1035.46,
+    "t_end": 1039.12,
+    "text": "So Lisha one thing I think we should quickly bring up is this sigmoid function."
+  },
+  {
+    "t_start": 1039.7,
+    "t_end": 1043.158,
+    "text": "As I understand it early networks use this to squish the relevant weighted"
+  },
+  {
+    "t_start": 1043.158,
+    "t_end": 1046.522,
+    "text": "sum into that interval between zero and one, you know kind of motivated"
+  },
+  {
+    "t_start": 1046.522,
+    "t_end": 1049.84,
+    "text": "by this biological analogy of neurons either being inactive or active."
+  },
+  {
+    "t_start": 1050.28,
+    "t_end": 1054.04,
+    "text": "Exactly. But relatively few modern networks actually use sigmoid anymore."
+  },
+  {
+    "t_start": 1054.32,
+    "t_end": 1055.76,
+    "text": "Yeah. It's kind of old school right?"
+  },
+  {
+    "t_start": 1055.76,
+    "t_end": 1058.98,
+    "text": "Yeah or rather ReLU seems to be much easier to train."
+  },
+  {
+    "t_start": 1059.4,
+    "t_end": 1062.34,
+    "text": "And ReLU, ReLU stands for rectified linear unit?"
+  },
+  {
+    "t_start": 1062.68,
+    "t_end": 1067.401,
+    "text": "Yes it's this kind of function where you're just taking a max of zero"
+  },
+  {
+    "t_start": 1067.401,
+    "t_end": 1072.054,
+    "text": "and a where a is given by what you were explaining in the video and"
+  },
+  {
+    "t_start": 1072.054,
+    "t_end": 1076.57,
+    "text": "what this was sort of motivated from I think was a partially by a"
+  },
+  {
+    "t_start": 1076.57,
+    "t_end": 1081.36,
+    "text": "biological analogy with how neurons would either be activated or not."
+  },
+  {
+    "t_start": 1081.36,
+    "t_end": 1086.02,
+    "text": "And so if it passes a certain threshold it would be the identity function but if it did"
+  },
+  {
+    "t_start": 1086.02,
+    "t_end": 1090.84,
+    "text": "not then it would just not be activated so it'd be zero so it's kind of a simplification."
+  },
+  {
+    "t_start": 1091.16,
+    "t_end": 1095.695,
+    "text": "Using sigmoids didn't help training or it was very difficult to"
+  },
+  {
+    "t_start": 1095.695,
+    "t_end": 1100.229,
+    "text": "train at some point and people just tried ReLU and it happened"
+  },
+  {
+    "t_start": 1100.229,
+    "t_end": 1104.62,
+    "text": "to work very well for these incredibly deep neural networks."
+  },
+  {
+    "t_start": 1105.1,
+    "t_end": 1105.64,
+    "text": "All right thank you Lisha."
+  }
+]

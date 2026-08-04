@@ -1,0 +1,100 @@
+[
+  {
+    "id": "ku_video_dwe4-OiRw7M_0",
+    "t_start": 0.0,
+    "t_end": 92.2,
+    "type": "overview",
+    "summary": "So we're going to be talking about uh some\\h new world records uh going 23% beyond the\\h\\h Riemann Hypothesis. So the Riemann Hypothesis is\\h one of the great problems in mathematics with\\h\\h a million dollar prize if you solve it. But\\h before I get ahead of myself, let's just talk\\h\\h about our favorite numbers - the primes. So the\\h sequence begins just with 2, 3, 5, 7, 11, 13, 17, 19,\\h\\h 23 and so on. So we know by Euclid the sequence of\\h primes goes on forever but famously the primes\\h\\h are really known for being mysterious and having\\h a lot of complexity so maybe a simpler thing we c…"
+  },
+  {
+    "id": "ku_video_dwe4-OiRw7M_92",
+    "t_start": 92.2,
+    "t_end": 183.9,
+    "type": "overview",
+    "summary": "there any patterns in this data? Um so Brady maybe\\h if we stare at this table maybe some thoughts\\hare going to emerge; which numbers occur frequently?\\h Are there any numbers that don't occur? You see\\h\\h anything? - (Brady: There are no even numbers except for the\\h2 at the start.) - And that's because? (It would be\\hdivisible by 2.) - Right right. So if a number ends\\h in a 2, ends in an even number, then the whole\\h\\h number itself is even. By a similar argument, maybe\\h a bit more subtle, there are no 5s in this list\\h\\h after the the first 5 because if a number ends\\h in a 5 then the wh…"
+  },
+  {
+    "id": "ku_video_dwe4-OiRw7M_183",
+    "t_start": 183.9,
+    "t_end": 275.2,
+    "type": "overview",
+    "summary": "9. One of the great advantages of a computer is you\\h can just change one character again and generate\\h\\h a lot more data. So if we look at numbers up to 1,000 we can get these bar charts where these\\h\\h single entries are getting slimmer and slimmer\\h and these other four bars are getting taller and\\h\\h taller. And maybe if we go very far, let's say we\\h go out to a million, we look at the primes up to\\h\\h a million and look at their last digit there's\\h just a tiny sliver corresponding to 2; a tiny\\h\\h sliver corresponding to 5 and then all these\\h other four options seems to be almost the …"
+  },
+  {
+    "id": "ku_video_dwe4-OiRw7M_275",
+    "t_start": 275.2,
+    "t_end": 369.3,
+    "type": "overview",
+    "summary": "in this case to the number 3 itself but all\\h the other options for the primes are going to be\\h\\h either a 1 or a 2 for their last digit in ternary. And so this really again suggests, why don't we\\h\\h play the same game, now look in base 3, maybe\\h the numbers up to 1,000 - there's going to be\\h\\h one number, namely 3, that has the last digit 0 but\\h all other numbers are either going to have a 1 or a 2. And again these are very much dominating.\\h Maybe if we go up to a million again we see that\\h\\h the heights of these two options - almost 50/50\\h split. And again this is no coincidence Brad…"
+  },
+  {
+    "id": "ku_video_dwe4-OiRw7M_369",
+    "t_start": 369.3,
+    "t_end": 463.7,
+    "type": "overview",
+    "summary": "more precise count that we are interested in is\\h looking at the number of primes up to x that have\\h\\h last digit a in base b. - (Pi has nothing to do with\\hpi pi?) - Right. So this is one of those things where\\h\\h mathematicians uh are overloaded with notation\\h at any time and maybe at some point in 1700s\\h\\h people decided you know this was a a convenient\\h letter to to use for primes; the same uh the same\\h\\h consonant uh, but yeah it's kind of a stretch. So\\hthis is the number primes up to x that have last\\h\\h digit equal to a and this is written in base b.\\h The result of the prime numb…"
+  },
+  {
+    "id": "ku_video_dwe4-OiRw7M_463",
+    "t_start": 463.7,
+    "t_end": 558.2,
+    "type": "overview",
+    "summary": "to really start to see uh these numbers evening\\h out. But we've now just with this uh seemingly\\h\\h innocuous question, really gotten thrown in the\\h deep end. Think of you know people playing around\\h\\h on the shore at the beach, maybe you go snorkeling\\h and around some coral, but somehow you took a deep\\h\\h dive and somehow you're now at the bottom of\\h the Marianas trench, you're at the deepest of\\h\\h the deep in mathematics - we've now gotten to the\\h Riemann Hypothesis. Okay so I really want to narrow in\\h\\h on this this key relationship in the prime number\\h theorem which is saying the…"
+  },
+  {
+    "id": "ku_video_dwe4-OiRw7M_558",
+    "t_start": 558.2,
+    "t_end": 648.4,
+    "type": "overview",
+    "summary": "So one of the kind of links with uh the other for-\\h perhaps more standard technical formulation of\\h\\h the Riemann hypothesis has to do uh with the zeros\\h of the Riemann-Zeta function so-called and their\\h\\h placement on so-called the critical line of 1/2.\\h And it is no coincidence that the critical line of\\h\\h 1/2 is the same constant of 1/2 occurring in this\\h threshold of the square root of x. So these are- these\\h\\h two relationships are intimately linked in this\\hway. But I- I think this is a I guess a\\h\\h more down to Earth way to kind of talk about the\\h Riemann hypothesis. - (Okay) …"
+  },
+  {
+    "id": "ku_video_dwe4-OiRw7M_648",
+    "t_start": 648.4,
+    "t_end": 738.7,
+    "type": "overview",
+    "summary": "this result, this over 99% result, maybe an analogy\\h with with cleaning cleaning tools. You know if you\\h\\h want to clean around the house, maybe you want to\\h sanitize your hands, you get Purell. Or if you uh want\\h\\h wanted to clean your countertop you get Lysol.\\h It says on the label if you read it, cleans over\\h\\h 99% of germs right. So this is their real real\\h selling point; and this is because you know for\\h\\h work around the house 99% of germs is really more\\h than okay. And it's only really in kind of extreme\\h\\h ideal circumstances like being a hospital, in a\\h hospital where you n…"
+  },
+  {
+    "id": "ku_video_dwe4-OiRw7M_738",
+    "t_start": 738.7,
+    "t_end": 831.4,
+    "type": "overview",
+    "summary": "result came out; and it turns out in some technical\\h settings it is enough to just know this 99%\\h\\h version to get the desired end goal if you were\\h using the Riemann hypothesis implicitly in your work.\\h\\h (But if they found uh a power, an exponent, where Fermat's\\hLast Theorem broke; there was like one number out) (there where Andrew Wiles- this building wouldn't be\\h named after Andrew Wiles) - Yeah yeah. So you know as a\\h\\h mathematician you really want to get that complete\\h understanding and exceptional cases can really uh\\h\\h be important, and so this also ties in with uh\\h previous…"
+  },
+  {
+    "id": "ku_video_dwe4-OiRw7M_831",
+    "t_start": 831.4,
+    "t_end": 923.8,
+    "type": "overview",
+    "summary": "So can we get uh bases b that are beyond this\\h square root x barrier? So in other words Brady\\h\\h I'm asking to go beyond the Riemann hypothesis. It was\\huh remarkable results in the 1980s that actually\\h\\h first uh made a proof of concept showing we have\\hthis- - (What is x again? Remind me what x actually is?) So x is the size of the numbers- the size of the\\h primes were going up to. So sometimes it was like\\h\\h 100, sometimes 1,000 or a million. And this\\h gets these- these uh bar charts get more and more\\h\\h refined as as x gets larger. But really the the\\h meat and potatoes of the quest…"
+  },
+  {
+    "id": "ku_video_dwe4-OiRw7M_923",
+    "t_start": 923.8,
+    "t_end": 1017.1,
+    "type": "overview",
+    "summary": "Riemann hypothesis. And this result really for almost 40\\h years was the state-of-the-art going beyond the Riemann hypothesis until about two years ago where James\\h Maynard uh actually extended this result. So in\\h\\h 2021 he found that there were some bases that\\h you could take all the way up to x the 0.60. So\\h\\h in other words we can go up to 20% beyond the\\h Riemann hypothesis. So after almost a four decade\\h\\h uh hiatus uh there's been progress on the problem\\h by James Mayard who- fans of the channel. - (He's up-) (He's up there somewhere! His office is up there. We\\h should have got hi…"
+  },
+  {
+    "id": "ku_video_dwe4-OiRw7M_1017",
+    "t_start": 1017.1,
+    "t_end": 1107.3,
+    "type": "overview",
+    "summary": "Bombieri-Vinogradov theorem, is that if you look at collections\\h of numbers or families of numbers together you\\h\\h can gain additional insights that might not\\h be as apparent from looking at an individual\\h\\h number. So we can't necessarily pinpoint an exact\\h b that this holds but we can still have a family\\h\\h uh that's of a larger size. And again maybe in in\\h an ideal scenario we can try to prove the Riemann hypothesis and we can prove these nice results for\\h every single b; but in many practical applications\\h\\h these kinds of results are are very useful. We'd\\h actually expect this t…"
+  },
+  {
+    "id": "ku_video_dwe4-OiRw7M_1107",
+    "t_start": 1107.3,
+    "t_end": 1200.5,
+    "type": "overview",
+    "summary": "have a very uh beautiful aspect where they connect\\h so that the proof ideas that go into them connect\\h\\h a wide range of ideas across maybe seemingly\\h disparate areas of math. So on the one hand uh some\\h\\h ideas that go into this relate to modular forms,\\h these kind of exotic objects uh that actually\\h\\h ended up playing a crucial role for example in\\h Fermat's last theorem proven by Andrew Wiles and has led\\h\\h to the Langlands programs. Um on the other hand\\h uh it uses results from algebra geometry; uh more\\h\\h specifically the the Weil bound and the Deligne bound,\\h from the so-called…"
+  },
+  {
+    "id": "ku_video_dwe4-OiRw7M_1200",
+    "t_start": 1200.5,
+    "t_end": 1227.0,
+    "type": "overview",
+    "summary": "continuation and so on and so forth. So it's a\\h particular branch of mathematics which is called\\h\\h complex analysis. But prime numbers live in a\\h different branch of mathematics. - It tells us things\\h we already suspect because we sort of believe the\\h Riemann hypothesis is true but there are things we can't\\h\\h prove. So for example how many primes are there\\h up to a trillion? We have a formula for that that\\h\\h we believe is true but we can only prove that\\h formula if we know the Riemann hypothesis is true."
+  }
+]

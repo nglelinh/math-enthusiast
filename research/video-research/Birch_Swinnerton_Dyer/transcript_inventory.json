@@ -1,0 +1,37 @@
+{
+  "slug": "Birch_Swinnerton_Dyer",
+  "videos": [
+    {
+      "id": "_-feKGb6-gc",
+      "title": "Manjul Bhargava — *What is the Birch-Swinnerton-Dyer Conjecture?* (Abel Prize)",
+      "has_transcript": true,
+      "chars": 87654,
+      "units": 41,
+      "url": "https://www.youtube.com/watch?v=_-feKGb6-gc"
+    },
+    {
+      "id": "3vGiWK_ZyKs",
+      "title": "Richard Borcherds — *BSD: Introduction*",
+      "has_transcript": true,
+      "chars": 33152,
+      "units": 24,
+      "url": "https://www.youtube.com/watch?v=3vGiWK_ZyKs"
+    },
+    {
+      "id": "14-9iCoclFE",
+      "title": "Barry Mazur — *About the Birch and Swinnerton–Dyer Conjecture* (Harvard CMSA / Clay lecture 2026)",
+      "has_transcript": true,
+      "chars": 43021,
+      "units": 33,
+      "url": "https://www.youtube.com/watch?v=14-9iCoclFE"
+    },
+    {
+      "id": "EHKAQUl1Exc",
+      "title": "Short popular explainer (secondary)",
+      "has_transcript": true,
+      "chars": 5211,
+      "units": 3,
+      "url": "https://www.youtube.com/watch?v=EHKAQUl1Exc"
+    }
+  ]
+}

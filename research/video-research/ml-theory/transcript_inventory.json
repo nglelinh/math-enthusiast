@@ -1,0 +1,29 @@
+{
+  "slug": "ml-theory",
+  "videos": [
+    {
+      "id": "aircAruvnKk",
+      "title": "3Blue1Brown — But what is a neural network?",
+      "has_transcript": true,
+      "chars": 18430,
+      "units": 12,
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk"
+    },
+    {
+      "id": "IHZwWFHWa-w",
+      "title": "3Blue1Brown — Gradient descent, how neural networks learn",
+      "has_transcript": true,
+      "chars": 20163,
+      "units": 14,
+      "url": "https://www.youtube.com/watch?v=IHZwWFHWa-w"
+    },
+    {
+      "id": "msp2y_Y5MLE",
+      "title": "Michael Sipser — Beyond Computation: P vs NP (Harvard)",
+      "has_transcript": true,
+      "chars": 65212,
+      "units": 40,
+      "url": "https://www.youtube.com/watch?v=msp2y_Y5MLE"
+    }
+  ]
+}

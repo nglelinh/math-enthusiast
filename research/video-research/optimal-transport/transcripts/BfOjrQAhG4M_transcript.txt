@@ -1,0 +1,259 @@
+okay so we've seen that optimal transport
+can well that can be formulated as a linear program
+that it can be solved by network flow problem but that this linear programming
+problem but that this linear programming formulation
+also has you know it is the exact thing um it is it gives us the best solution
+um it is it gives us the best solution for the problem that we're asking but
+for the problem that we're asking but sometimes we're not so sure about which
+sometimes we're not so sure about which problem we should be asking
+problem we should be asking the costs of transporting
+the costs of transporting things from somewhere to somewhere
+if estimated by neural network the costs themselves are not completely reliable
+themselves are not completely reliable and so perhaps we will be fine with an
+solution if it is much much faster if in addition it is differentiable and
+if in addition it is differentiable and has utter nice properties
+has utter nice properties and this is a strategy giving you all of
+is what i want to discuss now namely discrete optimal transport
+namely discrete optimal transport using sinkhorn iterations sinkhorn
+iterations have been known since at least the 60s and they were
+since at least the 60s and they were you know picked up repeatedly in machine
+you know picked up repeatedly in machine learning but
+this is the paper that i'm referring to in particular
+which you know focused on it or brought attention to it again
+in the context of optimal transport all right here is a reminder of what we
+all right here is a reminder of what we said at the end of
+said at the end of the last lecture and
+one way forward here is to use entropic regularization what does that mean
+regularization what does that mean it is perhaps best explained by
+it is perhaps best explained by this picture here taken from this
+this picture here taken from this book of peri
+so let's say that we have a triangular feasible region here
+a triangular feasible region here we're looking for the sweetest spot
+we're looking for the sweetest spot in this permissible region to solve a
+in this permissible region to solve a linear program
+the linear program has a cost vector like so and well the sweetest spot
+like so and well the sweetest spot given this feasible region and given
+given this feasible region and given this cost vector
+is this corner of the polytope remember solutions are always at a
+remember solutions are always at a corner of a polytope
+corner of a polytope or at most on the face of a of a
+you also see color coded the cost where here red is better
+and blue is worse now one can add
+now one can add a little bit of negative entropy or
+a lot of it as as a regularizer and
+add this p log p term to the originally linear objective
+to the originally linear objective and you get a mixed objective function
+this mixed objective function will have an
+optimum which no longer lies on a corner of your polyhedron
+so you remember that if the cost vector if it pointed here we found this corner
+if it pointed here we found this corner as optimal solution
+if the cost vector pointed there we would have found that corner as an
+we would have found that corner as an optimal solution
+optimal solution and well if we add the entropic
+then under the blue vector we will find this solution
+we will find this solution and under the green cost vector we will
+that solution so practically the same or almost the same solution or
+the same or almost the same solution or let's say as we change the cost vector
+uh changes smoothly and does not you know suddenly jump
+from one corner to another corner and that is desirable if we want to be
+and that is desirable if we want to be able to end to end
+able to end to end train such systems
+a disadvantage is that if you think of the corners of this
+meaning that there is or is not flow or assignment
+or is not flow or assignment or let's say flow between source element
+and the sync element um if we have the solution in the inside
+of this polytope it means that we get really dense solutions out
+that we get really dense solutions out so what do i mean by that in the optimal
+we saw one so for these source and target distributions
+these source and target distributions and for that
+transport cost matrix shown on the right the resulting optimal solution was the
+the resulting optimal solution was the transport plan
+shown on the left and well the most striking thing is that actually most of
+striking thing is that actually most of the elements in the transport plan
+are zero or in other words we looked at this dark blue element here
+we looked at this dark blue element here before
+before the dark blue element some of it went
+here excuse me some of it went to the second
+and some of it went to the fourth pin and
+none of it went anywhere else exactly none of it
+if we now use this entropy regularization
+regularization well we will push a little bit of it
+and a little bit over there and a little bit over there so we will get
+a much smoother solutions where each source bin
+contributes to every target bin and well this can be a problem and
+and well this can be a problem and depending on what you want which is why
+depending on what you want which is why i'm mentioning it here
+i'm mentioning it here explicitly
+why is that so i've here shown you a one-dimensional example so
+a one-dimensional example so let's say that
+here is my feasible region let's say the feasible
+is given by everything to the right of
+the zero that would be my feasible region and in this one dimensional
+region and in this one dimensional optimization problem
+optimization problem my cost vector is just a scalar number
+it says that the further right i go the higher the cost
+so my linear programming solution in this case would be at
+this case would be at zero because i want to make the cost as
+but i cannot go to the left of zero so my linear programming solution here
+so my linear programming solution here would be at
+zero if i now add a little bit of negative entropy
+add a little bit of negative entropy um so p log p which
+um so p log p which is the green curve that i've shown there
+then this curve will have an infinite slope at the origin
+an infinite slope at the origin that means if we make an infinitesimally
+away to from zero in the positive direction
+the gain from the organization term because it has an infinite
+because it has an infinite negative slope will be much larger than
+and the result is that my optimum solution will move away from
+my optimum solution will move away from the boundary
+so in fact here if my cost factor has a slope of plus one
+then i would look for the place where the the cost and the
+which would be at the point where this has a slope of minus -1 so probably
+this has a slope of minus -1 so probably the optimum solution would be
+the optimum solution would be no longer zero but round about here
+and this was a one-dimensional example but the same holds in higher dimensions
+but the same holds in higher dimensions okay so if you look at the black thing
+the linear programming formulation of optimal transport
+that we saw before again p was the matrix describing the
+p was the matrix describing the transportation plan
+transportation plan c was the matrix describing the cost
+vector and we now add to it this green term
+and we now add to it this green term and the main thing you see here is plp
+a user choice or you know this factor gamma uh which the user needs to
+factor gamma uh which the user needs to determine
+how big do we want to make this contribution
+and there is a minus one in there which is in there just to make the math
+which is in there just to make the math nicer okay
+nicer okay as you will see in a moment
+so to solve this kind of optimization problem
+one way forward is to formulate the lagrangian so the lagrangian
+lagrangian so the lagrangian depends on my original variable that i
+but also on lagrange multiplier here vectors of lagrange multipliers
+and in this lagrangian i have copied down the objective
+i have copied down the objective function
+and then there are these extra terms lagrange multiplier
+times constraint so the p times 1 should be a
+times 1 should be a so here this one is again the
+this was the normalization constraint that our transport plan
+should transport everything away from a and it should bring everything we need
+constraints are now no longer constraints but are added to the
+and then you differentiate this lagrangian with respect to the variable
+lagrangian with respect to the variable that we want to optimize over and i'm
+quickly because i still want to talk about wasserstein guns later today
+you can study this in more detail but um you know the this funny minus one that
+you know the this funny minus one that you saw earlier in the objective
+you saw earlier in the objective it nicely cancels and
+it nicely cancels and you are left with this and if you
+you find that the optimal transport plan is given by a product of three things
+is given by a product of three things namely an exponentiated um
+negative lagrange multiplier where we again have in the denominator
+again have in the denominator this gamma so
+something like temperature now we have the exponentiated element of the
+and the other lagrange multiplier and we can just
+u this is an element of a vector v and this matrix here we call it a kernel
+and this matrix here we call it a kernel matrix
+element of a curl matrix k and so overall
+this is a true statement the trouble being that well it depends
+the trouble being that well it depends on these lagrange multipliers alpha and
+on these lagrange multipliers alpha and beta which we do not know
+and now you know what what happens is the munchausen thing the thing you don't
+the munchausen thing the thing you don't know you guess it somehow
+get a new update from which you improve your estimate of alpha and beta
+improve your estimate of alpha and beta or the exponentiated versions
+or the exponentiated versions and you iterate okay this is the basic
+so here in more detail these were the normalization constraints
+so we know that p times 1 should be a and p transpose one
+should be a and p transpose one should be b and
+in in terms of vector matrix products it is this where this funny notation
+it is this where this funny notation here means
+this is an element-wise product so k was a matrix v was a vector so the
+so k was a matrix v was a vector so the entire thing is a vector
+u was also a vector and so i'm here taking the element-wise product
+taking the element-wise product of the vector on the left and of the
+vector on the right and now solving this respect with
+which involves the lagrange multipliers alpha we get
+something which so a is known this is the stuff we wanted to transport
+this is the stuff we wanted to transport away b
+is known this is the stuff where we wanted to
+stuff to end up k is known as the exponentiated
+cost matrix and the v and u are unknown and you see that the update equation for
+you depends on v and the update equation for v depends on
+you and you can now iterate this and you will
+a stationary point and overall this gives you
+overall this gives you a very fast algorithm
+a very fast algorithm so um
+here from this paper that i cited earlier
+we see how much stuff you want to transport away
+and want to transport somewhere so the biggest thing here is histograms
+so the biggest thing here is histograms with
+4 000 items or bins and the execution time here
+is a logarithmic so you can see that this is something like you know
+that this is something like you know three orders of magnitude faster than
+three orders of magnitude faster than a previous algorithm which already was
+a previous algorithm which already was was not
+was not bad and because these are all matrix vector operations they are
+all matrix vector operations they are very gpu friendly
+so if you do it on gpu and you are about an order of magnitude faster than
+about an order of magnitude faster than if you do this on
+if you do this on on cpu
+now there was this fudge factor gamma you know which looked a little bit
+like a temperature and here you see its effect
+let the temperature go towards zero you approximate the exact solution so shown
+approximate the exact solution so shown here
+by the way you know what is this diagram this is the stuff
+this is the stuff this is our source this is our sink and
+p is our transport plan so where stuff goes and
+in the one dimensional case here for these absolutely continuous
+these absolutely continuous distributions
+and the optimal transport plan would really be zero
+outside a you know this curve here and
+curve here and so the one extreme if you let gamma go
+you approach the exact solution the other extreme if you let
+gamma go to infinity well this thing here is just the outer
+of the two limiting distributions this is always a valid transport plan
+this is always a valid transport plan yeah so if somebody asks you to come up
+a valid transport plan you know without doing any math
+doing any math there's always this solution which just
+means well you know it's a stupid solution but
+let's say you take this you take a shovel and the bit of mass at
+you take a shovel and the bit of mass at this location
+you doggedly distribute it according to you know where the target
+according to you know where the target distribution
+wants it so if i if i cut across this
+distribution here i find just the thing at the top yeah and vice versa
+so and now i mixed up source and target but you take a little bit of dirt from
+but you take a little bit of dirt from the source
+and you distribute it perfectly according to
+where the target wants it but regardless of what you do with
+all the other yeah so this is the stupid solution but this one you reach
+solution but this one you reach in the limit of infinite temperature
+in the limit of infinite temperature now the number of iterations that you
+need depends on this temperature now if you want to be really close to
+to the exact solution you have to choose a small gamma and you see that working
+with a small gamma is more expensive than working with a
+large gamma
+so the thing is fast as it is it can be made faster still
+it can be made faster still if in these matrix vector operations you
+if in these matrix vector operations you don't use
+don't use the full matrix and the full vector but
+subsample both and how to do that is describe for example
+describe for example in this paper here
+and it is also differentiable why because we the entire
+way or to the solution is just you know a long series of matrix vector
+you know a long series of matrix vector products element wise or are in the
+products element wise or are in the conventional sense
+and such linear operations are something that you can formally you
+are something that you can formally you know write as a new network
+know write as a new network is anyway it's something that you can
+is anyway it's something that you can always differentiate
+always differentiate through so in summary the synchron
+iterations are fast they're differentiable and they're
+they're differentiable and they're approximate
+which sometimes is good if you want this smoothness with respect
+if you want this smoothness with respect to the cost
+it's sometimes bad in particular if you care about getting spar solutions out
+care about getting spar solutions out you know this is not what you get here
+but this is a very nice solver for discrete optimal transport and again
+discrete optimal transport and again the reference for
+this work is here but it's also very nicely described in this book by
+nicely described in this book by perry and kotori what you find in the

@@ -1,0 +1,623 @@
+I'm Dan Frerieded and uh it's a pleasure to welcome you here to the fifth in this
+to welcome you here to the fifth in this series of seven lectures about the
+series of seven lectures about the Millennium Prize problems. These
+lectures are sponsored jointly by the mathematics department here by the CMSA
+mathematics department here by the CMSA Harvard Center Mathematical Sciences and
+Harvard Center Mathematical Sciences and Applications and also by the Clay
+Um, I keep these introductions short, so we're just going to go right to the this
+we're just going to go right to the this problem, the Birch and Schwinderton Dire
+problem, the Birch and Schwinderton Dire conjecture, and we're thrilled to have
+conjecture, and we're thrilled to have our own Barry Maser tell us about it
+&gt;&gt; Well, as Dan just said, uh, we're going to muse about uh the Burge Thorn
+to muse about uh the Burge Thorn architecture. Whoops. Oh gosh, I got to
+architecture. Whoops. Oh gosh, I got to learn how to manage this
+uh clicker. Um, and um, it's a Millennium Prize problem and I'll be
+Millennium Prize problem and I'll be thinking about it. Um, and thinking
+thinking about it. Um, and thinking about uh, Dick Gross who died recently.
+He was a blessing to um uh all of his friends and family of
+uh all of his friends and family of course and to the math department, to
+course and to the math department, to the university,
+the university, to the
+uh community of mathematicians, in fact to anyone he encountered.
+to anyone he encountered. And we'll see his influence on the
+Now there you see um the originators of our little subject Burch and Swin and D
+our little subject Burch and Swin and D conjecture. There's uh
+I have to learn how to run this thing. There's Birch and there's Sw and Dire in
+There's Birch and there's Sw and Dire in their youth incarnations
+their youth incarnations and there below in their maturity and
+wisdom and they had the wisdom in uh the 1950s
+and they had the wisdom in uh the 1950s um to use the EDSAC computer in
+um to use the EDSAC computer in Cambridge uh to make um
+Cambridge uh to make um uh computations
+uh which suggested striking connection between
+striking connection between a basic global
+curve defined over the field of rational numbers that is say the rank of its
+numbers that is say the rank of its group of rational points and something
+group of rational points and something that uh seems somewhat uh different
+that uh seems somewhat uh different uh certain asmtoics
+of its local arithmetic invariance uh the number of its rational points
+uh the number of its rational points over finite fields
+and the this initial observation evolved into their conjecture and I'm
+evolved into their conjecture and I'm going to talk about general ideas the
+going to talk about general ideas the general shape of it and uh it's
+general shape of it and uh it's everexpanding development and I'll try
+everexpanding development and I'll try to do this in as um non-technical a way
+as uh as as is feasible feasible so it's a conjecture that I write here
+that unifies um
+there's power in the word words that I've put on that screen conjecture
+I've put on that screen conjecture problem hypothesis program they're
+problem hypothesis program they're frames for mathematical assertions that
+call for that call us to do new mathematics
+now a conjecture might take on a devil's advocate posture
+might take on a devil's advocate posture here.
+Prove me wrong if you can. It might capture mathematical ideas in a
+It might capture mathematical ideas in a volatile early state. I say think of
+volatile early state. I say think of Remon's hypothesis. Now, if uh you take
+Remon's hypothesis. Now, if uh you take a glance at the uh Remon's 1859 paper,
+you'll see that the subject is completely volatile or the Parker
+conjecture. Do the same with Parker A. It's even more volatile in his uh uh
+It's even more volatile in his uh uh framing of what we call the point
+framing of what we call the point conjecture
+and might be meant to inspire further developments.
+developments. The famous uh uh unifier of that sort is
+The famous uh uh unifier of that sort is the Langland's program. uh it un it's
+the Langland's program. uh it un it's meant to unify to bind together
+meant to unify to bind together different ways of seeing different types
+different ways of seeing different types of intuition different subjects
+and the Burin Swint and Dire I'm going to call uh it BSD for short is a unifier
+to call uh it BSD for short is a unifier and not only has it unified but it's in
+and not only has it unified but it's in constant uh uh evolution even even today
+constant uh uh evolution even even today uh here's program.
+I'm going to begin by discussing three different formats of what I want to call
+different formats of what I want to call uh classic BSD.
+uh classic BSD. And there are three versions of classic
+There is uh the first one which is just the historical starter the initial
+conception of Bert and Swint and Dire which gives an asmtoic expression for
+which gives an asmtoic expression for uh the variable X to the rank of the
+uh the variable X to the rank of the group of rational points of E over Q as
+and it the asintoic expression is as I mentioned uh in the previous slide is in
+mentioned uh in the previous slide is in terms of local invariance of E.
+terms of local invariance of E. Um, version two is similar,
+but it's a much neater formula. It's something you can actually uh you might
+be uh tempted to actually look at uh sort of more closely for the rank of uh
+sort of more closely for the rank of uh the group of rational points also in
+the group of rational points also in terms of local invariance but with a
+twist here. And the version three is a structural uh statement. I'll call it
+structural uh statement. I'll call it this that doesn't have a standard name,
+this that doesn't have a standard name, but I'll call it the rank equals
+but I'll call it the rank equals multiplicity conjecture.
+And all three of them are they're very close uh close to each other. They're
+close uh close to each other. They're closely related
+ways of expressing as I say the beginning form of the conjecture.
+beginning form of the conjecture. Now, at that point, we'll pass to what
+And as I said said a minute ago, it it evolves, it evolves, it evolves. And uh
+evolves, it evolves, it evolves. And uh finally to what I'll call BSD expanded.
+Okay. As I said a few minutes ago, uh classic BSD
+expresses a specific global invariance of olytic curve. the rank of the group
+of olytic curve. the rank of the group of its rational points over Q in terms
+of local invariance the number of its rational points but over finite fields.
+rational points but over finite fields. Refined BSD is uh
+is quite a thing. It draws into the same arena all these uh theories if you want
+arena all these uh theories if you want or aspects of the elliptic curve. There
+or aspects of the elliptic curve. There is the uh uh local local arithmetic as
+is the uh uh local local arithmetic as the group of rational points of the
+the group of rational points of the elliptic curve over
+um prime fields. There's the the analytic number theory of the elliptic
+analytic number theory of the elliptic curve. There's the global arithmetic.
+And I put the global arithmetic in two boxes here because what's um curious is
+boxes here because what's um curious is uh it's it's a group uh and you could
+uh it's it's a group uh and you could take it bod torsion and if you take it
+by torsion it plays one role in the final structure of the conjecture and if
+final structure of the conjecture and if you take the torsion uh subgroup
+you take the torsion uh subgroup uh separately that will play a different
+Okay, there's a precursor for BSD. It's usually called the class
+The class number formula is uh uh it's a statement about a number
+uh it's a statement about a number field, not an elliptic curve.
+And it's a theorem, not a conjecture. It began as a uh surmise by Gaus about
+began as a uh surmise by Gaus about quadratic fields.
+It was then extended to sort of an actual statement by Derek
+sort of an actual statement by Derek Lelay. Quadratic fields again uh
+generalized to all number fields and finally over a century later there was
+finally over a century later there was an actual proof.
+Now that class number formula is a model for BSD in some sense because it too is
+brings in the analytic number theory of K, the class number of K, the order of
+the ideal class group of K and the global arithmetic of the K that is say
+global arithmetic of the K that is say the units
+mod torsion and the torsion in the group of units alias the roots of unity in K.
+of units alias the roots of unity in K. Yeah.
+So I'm going to give you names for all those things. So H K is the class number
+those things. So H K is the class number of K.
+LK I want to call LK the the analytic L of K rather than have having to use say
+of K rather than have having to use say all the time it's the residue of the net
+all the time it's the residue of the net zeta function of K at S equals one but
+The regulator you take uh the group of units in the number field mod torsion
+and you can embed it in the uklidian space just by taking sort of a natural
+space just by taking sort of a natural logarithm mapping and then you get a
+logarithm mapping and then you get a lattice. The lattice has a fundamental
+lattice. The lattice has a fundamental domain. The fundamental domain has a
+and W K is you can call it the order of the torsion subgroup of K star if you
+the torsion subgroup of K star if you want to be a uh uh well anyway it's it
+want to be a uh uh well anyway it's it is just the number of roots of unity in
+is just the number of roots of unity in K
+and this is the formula there are some elementary terms which uh
+live up to the complexity of the boxes with blue objects in there. Um, uh, the
+with blue objects in there. Um, uh, the class number, it's a class number
+formula. So I write it as the class number is equal to something and it's
+number is equal to something and it's equal to some elementary things times
+equal to some elementary things times the W K over the regulator times the
+the W K over the regulator times the analytic L of K.
+But we're going to talk about elliptic curves. So let's do that. Elliptic
+curves. So let's do that. Elliptic curves and their global arithmetic
+curves and their global arithmetic invariance.
+And I want to do it in as I say in the spirit of poare and take a look at that
+spirit of poare and take a look at that picture. He's he's thinking of
+picture. He's he's thinking of something. [laughter]
+He uh viewed an elliptic curve as a plain cubic curve.
+uh he doesn't never says defined over Q in the paper but anyway as a plain cubic
+in the paper but anyway as a plain cubic curve situated in the projective plane
+curve situated in the projective plane in such a way that the line at infinity
+in such a way that the line at infinity intersects it at a single uh point
+intersects it at a single uh point therefore a flex point point of
+multiplicity three. Uh to put it in another way, if you uh ignore the line
+another way, if you uh ignore the line at infinity there's there say take it as
+at infinity there's there say take it as an aphine plane curve you're missing
+an aphine plane curve you're missing only one point the point at infinity.
+only one point the point at infinity. Now every line in the projective plane
+intersects the curve in three points counting multiplicity and here's the
+counting multiplicity and here's the standard
+picture of it. Um and such a smooth projective curve
+and such a smooth projective curve uh has uh amazingly a canonical aidian
+uh has uh amazingly a canonical aidian group structure.
+The flex points at infinity is the origin and uh all the triplets of
+origin and uh all the triplets of colinear points that is the intersection
+colinear points that is the intersection taken with multiplicity of the curve
+with the projective lines out to zero. So we've got P + Q plus R equals Z if P
+So we've got P + Q plus R equals Z if P Q and R are collinear. And of course if
+Q and R are collinear. And of course if you you get uh similar statements with
+you you get uh similar statements with counting multiplicities if there are
+counting multiplicities if there are multiplicities.
+multiplicities. Now uh uh in his 1901 paper uh really
+Now uh uh in his 1901 paper uh really got things started.
+got things started. Um here's Panker
+always with everything he wrote by the way it has a flare
+and he's he wrote a lot a lot a lot about the philosophy of mathematics as
+about the philosophy of mathematics as well. Okay so here's what he writes. Uh
+let's first study the distribution of rational points on these curves. I note
+that knowledge of two rational points on a rational cubic is sufficient to get us
+a rational cubic is sufficient to get us to know a third
+I don't know whether u this this would anyway
+uh now without stating this explicitly views
+uh the set of rational points as an ob being group and he There are no proofs
+being group and he There are no proofs in his paper, none at all. But he
+in his paper, none at all. But he defines the rank uh to be the number of
+needed to get all the rational points on the curve of the Rs such that uh you've
+the curve of the Rs such that uh you've got those uh collinear triplets P plus Q
+got those uh collinear triplets P plus Q plus R equals infinity.
+plus R equals infinity. Pretty good. In effect he anticipates uh
+Modell's ser theorem which is uh uh proved as I say two two
+and here's Mell in youth and in uh wisdom the the um headline there is
+wisdom the the um headline there is beats the world at mathematics.
+beats the world at mathematics. Okay. And this is how they how they how
+Okay. And this is how they how they how he
+states it in his paper. If a non-s singular rational pane cubic curve has a
+singular rational pane cubic curve has a rational point then the group of
+rational point then the group of rational points is finally generated
+rational points is finally generated finally generated. So it is uh of the
+that which is finite and a free part which has to look like z to the r for
+some r and so it gives us uh the global arithmetic invariance of our elliptic
+arithmetic invariance of our elliptic curve that is the torsion subgroup
+group of torsion points and it's a theorem that only finally many such uh
+theorem that only finally many such uh isomeorphism classes of 500 a billion
+groups can occur as such a group and much is known about them and its rank.
+much is known about them and its rank. Now the rank well that's uh much is
+For example, uh is there a finite upper bound for these ranks? And uh uh there
+bound for these ranks? And uh uh there is a conjecture of the people in the two
+is a conjecture of the people in the two blue lines um at the bottom of this
+screen and that paper is really interesting. Take a look at it.
+the elliptic curve with the highest rank found so far is this thing in red
+found so far is this thing in red which um I'm sure would have amazed Bur
+which um I'm sure would have amazed Bur and Swint and Dy who in the 1950s did
+and Swint and Dy who in the 1950s did their computations where I don't know
+how I don't think there's anybody in this room who did computations in the
+this room who did computations in the mid 1950s but they come they came Then
+mid 1950s but they come they came Then sheets of uh uh of of paper
+sheets of uh uh of of paper uh leaning in an in its angle of repose
+illeible numbers on and you have to figure out what you've got. And I got
+figure out what you've got. And I got such on my in my in my office. Shimura
+such on my in my in my office. Shimura gave me a
+gave me a a big uh um bookcase full of papers uh
+a big uh um bookcase full of papers uh for values of heck operators at roughly
+for values of heck operators at roughly this well a little later than this but
+this well a little later than this but pretty much at that time
+pretty much at that time um the curve um um was recently
+um the curve um um was recently discovered by Gnome
+discovered by Gnome are you're here there you
+you agree you discovered this and Zeb No, I'm not sure. I'm not sure.
+No, I'm not sure. I'm not sure. &gt;&gt; What?
+&gt;&gt; Yes. &gt;&gt; Yeah. Yeah. Yeah. Okay. Great. Terrific.
+&gt;&gt; Yeah. Yeah. Yeah. Okay. Great. Terrific. Um and um [clears throat]
+uh it has a rank greater than equal to 29. And using GRH you can prove its rank
+29. And using GRH you can prove its rank is exactly 29.
+Now for the local arithmet arithmetic invariance of elliptic curve I'm writing
+invariance of elliptic curve I'm writing uh the equations that define elliptic
+uh the equations that define elliptic curves in the uh form of that equation
+equation one and um
+and um uh
+the c's are all rational integers and you can get any elliptic curve over q uh
+you can get any elliptic curve over q uh uh with such an equation and one often
+uh with such an equation and one often chooses such parameterization with
+chooses such parameterization with smallest discriminant. The blue um
+subscripts there say how the coefficients change if you um uh um uh
+coefficients change if you um uh um uh zoom zoom the the exponents.
+Um so assume we have such a thing minimal discriminant
+and so that all these C's are integers. So we can uh um for every prime p we can
+So we can uh um for every prime p we can reduce mod p we get a cubic curve over
+and if p doesn't uh divide the discriminant the curve is an elliptic
+discriminant the curve is an elliptic curve over fp. So we can play the game
+of uh putting np to be the number of points on that uh elliptic curve over fp
+points on that uh elliptic curve over fp and uh the thing in blue is what I'm
+going to take as the ensemble of local arithmetic invariance of e
+arithmetic invariance of e okay
+and uh you get such a thing for every p not dividing the discriminant
+Now then comes the first classic version of uh BSD.
+uh I say the asmtoics of the local invariance seem to determine the rank
+invariance seem to determine the rank and uh the um
+and uh the um equation
+uh at the bottom of this screen simply says that the product of the nps over ps
+says that the product of the nps over ps for p less than or equal to x varies
+for p less than or equal to x varies like a power of log x
+uh and that power is the rank that's the that's their observation and conjecture
+that's their observation and conjecture in their in their in the initial form.
+the log of that thing is linear so to asmtoically linear in log log x and the
+asmtoically linear in log log x and the uh slope of that linearity is the rank.
+So here are some examples. uh look at the elliptic curves a d
+as um on the screen and for the
+and for the uh five values of d in blue up there
+uh five values of d in blue up there um the elliptic curve ed has rank zero
+um the elliptic curve ed has rank zero one two three and four respectively
+log of the product of np over p for p less than or equal to x as a function of
+less than or equal to x as a function of x but uh uh graphed over log
+x but uh uh graphed over log graphed over log log x.
+There it is. Uh I took it from a paper of uh K Ruven Alice Silverberg.
+of uh K Ruven Alice Silverberg. uh and by golly these uh uh the slopes
+uh and by golly these uh uh the slopes there correspond to the ranks of the
+there correspond to the ranks of the five curves. The uh data [clears throat]
+five curves. The uh data [clears throat] uh for each of the five curves looks
+like it's the the data is hovering around the line of the appropriate
+around the line of the appropriate slope. So uh all of this seems to be in
+Here's a second classic version. Um the first thing to say is uh that the
+Um the first thing to say is uh that the local and arithmetic invariance of
+local and arithmetic invariance of elliptic curves well you'll see we'll
+we're going to take them not what they are but just take them as error terms
+are but just take them as error terms following the results of helmet hassa
+following the results of helmet hassa hassa um
+noted that the number of rational points of any smooth irreducible curve over a
+of any smooth irreducible curve over a finite field tends to hover around
+finite field tends to hover around [clears throat] the number of rational
+[clears throat] the number of rational points of the line over FP namely P+1
+and it does this with roughly square root accuracy.
+This uh might suggest that if we want to focus our attention more uh uh
+focus our attention more uh uh specifically
+to what's happening, we could reormalize the local arithmetic invariance of
+ellipt of elliptic of an elliptic curve by focusing on the error term there.
+by focusing on the error term there. And uh we have Hassa's theorem. Hassa
+And uh we have Hassa's theorem. Hassa proves for um
+um uh P not dividing the discriminant of E that if you form this error term AP is
+E that if you form this error term AP is 1 + P minus NP it really does grow uh uh
+1 + P minus NP it really does grow uh uh NP is [clears throat]
+NP is [clears throat] uh it's uh
+accuracy if you take 1 plus P that is say the absolute value of a is less than
+say the absolute value of a is less than twice the square root of p.
+uh ensemble of these error terms the apiece as a more focused form of local
+apiece as a more focused form of local arithmetic invariance of e.
+arithmetic invariance of e. Uh, I have some um every once in a while
+you're going to see um a footnote
+that will be in the u uh in my slides in my web page. Probably more footnotes
+my web page. Probably more footnotes than um than are here, but um
+than um than are here, but um uh
+there's a there's a beautiful version of this in the paper that I've just uh
+And you could take a look at it more um specifically in the slides on my web
+specifically in the slides on my web page. Um
+but if you replace the NPS by these APS you get as as a corollary of the
+you get as as a corollary of the analytic theory that we will discuss uh
+analytic theory that we will discuss uh this formula for the rank of E that is
+um limit of 1 / log x times the sum of a of e log p over ps
+of e log p over ps um is equal to that 12 minus the rank of
+uh you should notice that the rank of E comes as a negative sign there. That is
+comes as a negative sign there. That is say the APS
+become uh tend to be negative if the rank is large and that will that makes
+rank is large and that will that makes sense because that may means the NPs are
+large if the uh rank is large. third classical version classic version
+third classical version classic version um and it applies the second one uh is
+um and it applies the second one uh is by um passing to L functions.
+by um passing to L functions. Now [clears throat]
+we're still using the arithmetic behavior of E over finite fields
+behavior of E over finite fields and uh we're passing uh to the analytic
+and uh we're passing uh to the analytic number theory of E with input from the
+arithmetic behavior of E over finite field.
+We do this by the H l function which um is an infinite product at the
+which um is an infinite product at the moment. They're just a formal infinite
+moment. They're just a formal infinite product of mathematical symbols
+product of mathematical symbols where each of these bracketed things are
+called oiler factors. And um
+there it is as a formal infinite product.
+The epsilon just stands for elementary factors that don't is not going to play
+a role in anything we say. And if you write it out as a derlay
+sum of a n / n to the s. The coefficients are turn out to be um uh
+coefficients are turn out to be um uh for n prime are exactly the apes of the
+for n prime are exactly the apes of the previous uh version of classic PSD. So
+previous uh version of classic PSD. So the le of s is just another way of u uh
+the le of s is just another way of u uh so to speak uh denoting [clears throat]
+so to speak uh denoting [clears throat] um the local
+um the local uh arithmetic invariance.
+But Hassa's theorem actually tells us that it converges to an analytic
+that it converges to an analytic function uh if the real part of S is
+So that's good. It's no longer a mere formal device. It's got an it's an
+formal device. It's got an it's an analytic function. real part of S is
+analytic function. real part of S is greater than three halves. And so we
+might take that full ensemble a n of e for all n as our third version of local
+for all n as our third version of local arithmetic invariance of e and view them
+arithmetic invariance of e and view them as coefficients of the directly series
+as coefficients of the directly series given in the equation.
+given in the equation. Uh the great thing though is
+continuation to an analytic function on the entire complex plane. And that's not
+the entire complex plane. And that's not um an exercise in analytic number
+um an exercise in analytic number theory. It's a consequence of the
+theory. It's a consequence of the modular modularity theorem proven by uh
+modular modularity theorem proven by uh by these people.
+Okay. So the analytic function L of S around s= 1 well it's an analytic
+around s= 1 well it's an analytic function it has a behavior
+function it has a behavior but even though the infinite product
+but even though the infinite product expression
+expression uh for uh the hass l
+uh for uh the hass l function doesn't converge that infinite
+product expression doesn't converge at s equals 1 the analytic continuation still
+equals 1 the analytic continuation still exists and so we so it might be fun to
+take a look at the oiler factors for P not dividing the discriminant
+not dividing the discriminant um
+uh at that value of s at s= 1 and that's what it looks like and if you take a
+look at what it looks like it turns out to be the inverse of np over p so even
+to be the inverse of np over p so even though the infinite product of oiler
+though the infinite product of oiler factors doesn't converge for sals 1 we
+factors doesn't converge for sals 1 we can play with
+And we could write le of one. There are uh quotation marks around the equal sign
+uh quotation marks around the equal sign is equal to the product of np over p uh
+times uh the harmless factors that I ignored before. Um uh inverse
+and this product is overall primes p. So uh this doesn't make any sense. Um but
+uh you can uh view it in in this way. You could say the left hand side of this
+You could say the left hand side of this equation
+uh stands for the manner in which the analytic function tends to or doesn't
+tend to zero as s tends to one namely as a power of s minus one. The power being
+a power of s minus one. The power being the multiplicity of the zero of l of s
+at s= 1. And similarly the right hand side stands for the manner in which the
+inverse of the product of np over ps for p less than or equal to x tends to zero
+p less than or equal to x tends to zero as x tends to infinity and after all
+conjecturally that's bendar conjecture asmtoically is x to the minus rank of e.
+uh that equation that doesn't make much sense except as a as a go uh suggests
+sense except as a as a go uh suggests that we that uh those two powers are
+that we that uh those two powers are equal and gives us the following third
+version of classic BSD which I call the rank equals multiplicity conjecture. The
+rank equals multiplicity conjecture. The analytic function L E of S has a zero at
+S equals one of multiplicity its rank and we might state it uh uh more
+succinctly if we define Rn to be the analytic rank the multiplicity of zero
+and R alge the algebraic rank to be the rank of the group of rational points and
+rank of the group of rational points and then we could say R alge is equal the
+conjecture is R alge is equal to RN now
+uh thanks to work of uh these people and I'm not again I'm not going to um go
+I'm not again I'm not going to um go through it uh here but it will be on my
+web page in a greater uh um with more explicit uh um
+uh um with more explicit uh um discussion of what each of these people
+discussion of what each of these people did. uh we have uh partial results
+did. uh we have uh partial results towards the rank equals multiplicity
+towards the rank equals multiplicity conjecture and towards its substantial
+For example, that rank equals multiplicity conjecture is true if the
+multiplicity conjecture is true if the analytic rank is less than or equal to
+one. Okay, now we're ready for refined BSD.
+uh the basic ingredients the analytic L of E
+uh is uh simply well you this is defined by assuming the classic BSD conjecture.
+by assuming the classic BSD conjecture. So we can write uh L E of S is equal to
+So we can write uh L E of S is equal to some constant a nonzero constant
+some constant a nonzero constant actually a real constant uh times S -1
+to the R plus higher terms um and where the R there is we were
+um [clears throat] either the algebraic rank or the analytic rank uh at your uh
+rank or the analytic rank uh at your uh uh pleasure.
+Now comes the thing that's uh analogous to the class number except it's
+analogous to this class number in the formula. It's in by no means analogous
+computation. Class number is a sort of very friendly uh invariant. You really
+very friendly uh invariant. You really it really wants to be computed although
+it takes some computation. This is a different sort of thing. By definition,
+different sort of thing. By definition, an E tosser over Q is a projective
+smooth curve over Q. That's a homogeneous space with a transitive and
+homogeneous space with a transitive and free action by the elliptic curve where
+the elliptic curve is viewed as an algebraic group acting on on that curve.
+algebraic group acting on on that curve. So um
+uh it's it's a curve if you want or it's an uh as you'll see we're only
+an uh as you'll see we're only interested in isomeorphism classes of
+these curves and I'll call such an etorser a curve a good etorser if it has
+etorser a curve a good etorser if it has a
+qpr rational point for every prime p and a rational point over r
+may not have a rational point of a cube If it has a rational point of a Q, this
+If it has a rational point of a Q, this good
+uh E to series is really very good. It's isomorphic to E. If it doesn't, uh it's
+isomorphic to E. If it doesn't, uh it's interesting.
+Now there's a natural being group structure on the set of isomorphism
+structure on the set of isomorphism classes of these good u etors
+and it's denoted by this um uh Russian letter sha e and called the shepher
+group of e and then there is the conjecture the chef tate conjecture is
+conjecture the chef tate conjecture is that that shai is finite well hey if
+it's supposed to be analogous to the class number it better be finite. Um but
+um uh what's interesting about this conjecture is that when it was made,
+conjecture is that when it was made, there wasn't a single
+uh example where it was known to be finite. So it takes a certain amount of
+finite. So it takes a certain amount of daring to make it. On the other hand, uh
+daring to make it. On the other hand, uh if you go to the um collected volumes of
+of John Tate or Shepher, you won't find it there. uh they they
+don't own it exactly but they clearly are uh have set the
+but they clearly are uh have set the stage uh miraculously well to make such
+stage uh miraculously well to make such a conjecture.
+a conjecture. Okay, here's um uh the most famous
+Okay, here's um uh the most famous example of a good torser and it's really
+example of a good torser and it's really the starter for studying such tors and
+the starter for studying such tors and for Selma groups that we'll be talk
+we'll be talking about in a few minutes. uh and it's called Selmer's cubic curve
+uh and it's called Selmer's cubic curve and it's the easiest uh
+uh uh uh it's the easiest equation you you can imagine for a curve. There it
+cubic curve. It has a QP rational point for every prime P and a real point but
+for every prime P and a real point but no Q rational point. And it's a
+no Q rational point. And it's a homogeneous space for the elliptic curve
+homogeneous space for the elliptic curve x cub + y cub + 60 z cub = z. Let us say
+Now there's e of q. Let us say the group of rational points of the elliptic curve
+over q. There's this sha e which is conjecturally finite. Uh but we we don't
+know. And you might think uh as I say here on first view that the various ways
+here on first view that the various ways of computing rational points on elliptic
+of computing rational points on elliptic curves are completely different from uh
+curves are completely different from uh the ways of computing shaw which has to
+do with algebraic curves on with uh with action of algebraic
+uh the first is a problem in arithmetic and the second being uh about objects in
+and the second being uh about objects in algebraic geometry sources.
+But as I say happily for our subject there's a natural family of intermediary
+there's a natural family of intermediary objects much more directly computable
+than either of these things that plays a role in helping compute both of them.
+role in helping compute both of them. namely
+namely uh
+selmer groups associated to the elliptic curve. So what's in that box here is for
+every n you get a group. It's an it's a finite debate group selmer ne
+finite debate group selmer ne and uh it's defined
+very easily in terms of coology related to not even related to all of e all all
+you need to know is the subgroup of n torion of e with its gala action and you
+torion of e with its gala action and you get this group
+get this group well
+um that you would you would expect uh it's um easily computable and it is and
+it's um easily computable and it is and there are natural exact sequences that
+there are natural exact sequences that combine
+rational points and sha with selmer in this way
+this way uh
+uh what this is uh rational points modulo n times rational points so for
+example of e of q would be Z to Z R then this would be um Z mod N to the R uh and
+this would be um Z mod N to the R uh and um uh the brackets N here means the
+kernel of multiplication by N in SHA so it's a good piece of SHA if n is large
+and as I say here the uh it plays an important role in
+understanding both E of K Q and jaw e uh and uh a a strange way of thinking about
+and uh a a strange way of thinking about the group of rational points of E at
+the group of rational points of E at least when you tensor it by QP
+least when you tensor it by QP a str and what I'm writing here assumes
+a str and what I'm writing here assumes the shepherd state conjecture
+that is say for every prime P there's a canonical isomorphism between E of Q
+well tensed with QP and the limit of these selma groups again tensored with
+these selma groups again tensored with QP
+Sha. Now it's a discussion of the uh the uh regulator of E corresponding to the
+uh regulator of E corresponding to the regulator of the number field. Namely,
+there's a canonical height pairing on rational points of elliptic curve and
+rational points of elliptic curve and Non and Tate uh introduced
+Non and Tate uh introduced their canonical height pairing which is
+their canonical height pairing which is a non- degenerate bilinear pairing on
+a non- degenerate bilinear pairing on the group of rational points of elliptic
+the group of rational points of elliptic curves that pro that provides us with a
+curves that pro that provides us with a canonical embedding of E mod torsion as
+canonical embedding of E mod torsion as a lattice in uklidian space just like
+one has units mod torsion as a lattice. in uklidian space and you take it its
+in uklidian space and you take it its volume to get uh the regulator of the
+number field. Well, the volume of this lattice is uh uh denoted reggg e and uh
+lattice is uh uh denoted reggg e and uh it's the reg it's called the regulator
+it's the reg it's called the regulator of the elliptic curve.
+Okay. So here's the refined burch and swinn dire conjecture.
+swinn dire conjecture. um
+uh and it's totally as I say here resonant with the classical class number
+resonant with the classical class number formula
+formula uh it's I the way I put it is uh uh as a
+uh it's I the way I put it is uh uh as a as a as a formula for shai
+sha is elementary terms that are don't play that much of a um a role as a
+play that much of a um a role as a mystery uh times
+the square of the order of the torsion group of E of Q that's like W K over the
+group of E of Q that's like W K over the regulator of E that's like the regulator
+regulator of E that's like the regulator of K times L of E uh the um analytic L
+of K times L of E uh the um analytic L of E that's like the analytic L of K
+uh I say it's I said it's a resonant with class number formula but there are
+with class number formula but there are differences. And here are a few. It's
+differences. And here are a few. It's not so you you might argue that they're
+not so you you might argue that they're not even though they look pretty much
+not even though they look pretty much the same, they seem to have a slightly
+structure if you want. Uh and also the full conjectured meaning of the analytic
+L of E is already embedded in the refined BSD uh conjecture. And also also
+refined BSD uh conjecture. And also also um the chevage t conjecture is embedded
+um the chevage t conjecture is embedded in it. And finally it's the square of
+the order of the torsion that enters rather than the torsion. But these are
+if you want minor differences and uh um set the set set the pattern
+and uh um set the set set the pattern for further expansions.
+So one can expand further as I say here from elliptic curves of a queue to a
+from elliptic curves of a queue to a billion varieties over global fields and
+billion varieties over global fields and by making explicit the role of certain
+by making explicit the role of certain types of rational points in the formula
+and this brings us to what's called higra points. A hnap point is associated
+higra points. A hnap point is associated to the elliptic curve and
+to the elliptic curve and appropriate an appropriate auxiliary
+appropriate an appropriate auxiliary quadratic imaginary field.
+Now a choice of hign point uh really introduces the main character
+uh really introduces the main character in the proof of what I've uh said before
+was proved namely the rank equal multiplicity conjecture
+multiplicity conjecture uh when uh the analytic rank is less
+So now here I'm quoting from Brian Burch's Higna Points the beginning. He
+writes that in 1982 he received a number of letters from Dick Gross. The first of
+of letters from Dick Gross. The first of which began I recently found an amusing
+which began I recently found an amusing method to study heum points on J0 of N.
+Brian writes, "It was exciting because for the first time it related the index
+for the first time it related the index of the Hign point and EFQ to the order
+And he responded to Dick, "You seem to be opening so many doors that I'm almost
+be opening so many doors that I'm almost afraid to push."
+Brian recalls that Dick translated this into get shoving, you lucky soando.
+Okay. So, gross and zagier and kibben. So, suppose we we know the rank equal
+multiplicity conjecture uh um
+uh and that both uh rank and uh and algebraic rank and analytic rank is
+equal to one. Suppose we know all that and then it would follow from BSD that
+there is a point I mean after all if the uh algebraic rack is one the um group of
+uh algebraic rack is one the um group of rational points of Q is just uh uh Z
+a point of infinite order that would be a finite index in that uh group. So you
+a finite index in that uh group. So you might uh look for um
+might uh look for um an expression
+an expression for the um refined BSD uh in this way.
+for the um refined BSD uh in this way. L E equals elementary factors time
+L E equals elementary factors time height of P time sha
+over the uh index of the group um generated by the point in uh the full
+generated by the point in uh the full group of rational points squared.
+Now it would be a stronger result if we could actually produce explicitly a
+point P fitting into that equation. And as I say here, this is exactly what Dick
+as I say here, this is exactly what Dick Gross and Dons are do in their paper. Uh
+Gross and Dons are do in their paper. Uh the point being a Higner point. I have
+the point being a Higner point. I have some some footnotes here. I say since
+this talk is only an hour long, I'll not get into the elegant definition of he
+get into the elegant definition of he points.
+Think of them as points in EQ defined and made explicit via their their
+and made explicit via their their structural uh relationship to the
+structural uh relationship to the elliptic curve.
+Now kolivan's work complements gross and zagier by proving that the hnum point p
+zagier by proving that the hnum point p has infinite order and uh the group it
+has infinite order and uh the group it generates in the group of rational
+points is a finite index if the analytic rank is one and that is what completes
+rank is one and that is what completes the proof of the rank equal multiplicity
+the proof of the rank equal multiplicity conjecture when the rank is equal to one
+the analytic rank is equal to one you can go further
+That's called the blockatoto conjecture. You're moving from elliptic curves over
+You're moving from elliptic curves over Q to algebraic geometry over number
+fields K. So block and cotto as I say here uh they extended the frame of that
+here uh they extended the frame of that conjecture from elliptic curves to all
+conjecture from elliptic curves to all smooth proper algebraic varieties over
+smooth proper algebraic varieties over number fields. K.
+As I say here too, this generalization is elegant since uh to formulate it, you
+is elegant since uh to formulate it, you don't even know much about the the the
+don't even know much about the the the algebraic variety X.
+They deal with an object V. That's just a piic gala representation
+That's just a piic gala representation that comes from the geometry of X.
+that comes from the geometry of X. Oops.
+That might be a a a sign. This is the this is my last
+the time might uh be such that if I wanted questions the time for questions
+this would be a good time to um uh end it. I did have a little discussion about
+it. I did have a little discussion about blockicata
+blockicata which will be on my
+um on my web page. Okay. What we see here is uh circled the very beginning of
+here is uh circled the very beginning of the story NP.
+the story NP. And um
+as I write up there, this is not yet the end of the expansion and evolution of
+end of the expansion and evolution of that initial observation of
+Birch and Spin and Dire. Okay. And I'm I I'm happy that at least I have time for
+I'm happy that at least I have time for questions.
+questions. [applause]

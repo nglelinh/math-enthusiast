@@ -1,0 +1,2777 @@
+[
+  {
+    "t_start": 0.06,
+    "t_end": 1.77,
+    "text": "We've got a number which is apparently"
+  },
+  {
+    "t_start": 1.77,
+    "t_end": 3.57,
+    "text": "so famous that it's up there on the"
+  },
+  {
+    "t_start": 3.57,
+    "t_end": 5.43,
+    "text": "mathematical constants list. Up there"
+  },
+  {
+    "t_start": 5.43,
+    "t_end": 8.16,
+    "text": "with pi and e and root 2; but this one"
+  },
+  {
+    "t_start": 8.16,
+    "t_end": 9.99,
+    "text": "I'd never heard of until recently. And"
+  },
+  {
+    "t_start": 9.99,
+    "t_end": 11.55,
+    "text": "apparently- well they're pretty sure it's"
+  },
+  {
+    "t_start": 11.55,
+    "t_end": 12.84,
+    "text": "irrational so I'm just going to give you"
+  },
+  {
+    "t_start": 12.84,
+    "t_end": 14.88,
+    "text": "the first bit of it. This is Feigenbaum's"
+  },
+  {
+    "t_start": 14.88,
+    "t_end": 16.41,
+    "text": "constant, or one of Feigenbaum's"
+  },
+  {
+    "t_start": 16.41,
+    "t_end": 18.06,
+    "text": "constants, there's another one. If you"
+  },
+  {
+    "t_start": 18.06,
+    "t_end": 19.35,
+    "text": "find references to two of them- I'm not going to"
+  },
+  {
+    "t_start": 19.35,
+    "t_end": 20.279,
+    "text": "talk about the second one which has a"
+  },
+  {
+    "t_start": 20.279,
+    "t_end": 22.26,
+    "text": "symbol alpha. There's a paper in, I think"
+  },
+  {
+    "t_start": 22.26,
+    "t_end": 24.8,
+    "text": "1970 odd, by Robert May about a"
+  },
+  {
+    "t_start": 24.8,
+    "t_end": 26.4,
+    "text": "equation which I'm going to write down"
+  },
+  {
+    "t_start": 26.4,
+    "t_end": 29.64,
+    "text": "which models population growth. X, so it's"
+  },
+  {
+    "t_start": 29.64,
+    "t_end": 30.66,
+    "text": "traditional, and this is going to be like"
+  },
+  {
+    "t_start": 30.66,
+    "t_end": 32.88,
+    "text": "a population level. And it's a way of"
+  },
+  {
+    "t_start": 32.88,
+    "t_end": 34.32,
+    "text": "modeling like how things breed so"
+  },
+  {
+    "t_start": 34.32,
+    "t_end": 36.21,
+    "text": "maybe rabbits or frogs; let's go with"
+  },
+  {
+    "t_start": 36.21,
+    "t_end": 37.62,
+    "text": "rabbits because they breed like,"
+  },
+  {
+    "t_start": 37.62,
+    "t_end": 39.809,
+    "text": "yeah rabbits. It's going to have some"
+  },
+  {
+    "t_start": 39.809,
+    "t_end": 41.61,
+    "text": "other variables in it; this is what they"
+  },
+  {
+    "t_start": 41.61,
+    "t_end": 44.219,
+    "text": "call the logistic map. Math is like a posh"
+  },
+  {
+    "t_start": 44.219,
+    "t_end": 45.93,
+    "text": "word for a function, you get an input and"
+  },
+  {
+    "t_start": 45.93,
+    "t_end": 47.34,
+    "text": "output and it's mapping one value to"
+  },
+  {
+    "t_start": 47.34,
+    "t_end": 49.02,
+    "text": "another one. But what this does is it"
+  },
+  {
+    "t_start": 49.02,
+    "t_end": 50.67,
+    "text": "predicts what the next year's population"
+  },
+  {
+    "t_start": 50.67,
+    "t_end": 52.77,
+    "text": "is going to be for a community of"
+  },
+  {
+    "t_start": 52.77,
+    "t_end": 54.42,
+    "text": "animals. The first component here is the"
+  },
+  {
+    "t_start": 54.42,
+    "t_end": 57.78,
+    "text": "next year population, so that means this one"
+  },
+  {
+    "t_start": 57.78,
+    "t_end": 60.18,
+    "text": "here is the previous. And so we're just"
+  },
+  {
+    "t_start": 60.18,
+    "t_end": 61.949,
+    "text": "we're kind of counting populations,"
+  },
+  {
+    "t_start": 61.949,
+    "t_end": 63.539,
+    "text": "they're going to be between 0 &amp; 1 like"
+  },
+  {
+    "t_start": 63.539,
+    "t_end": 65.64,
+    "text": "empty dead population and a full"
+  },
+  {
+    "t_start": 65.64,
+    "t_end": 67.59,
+    "text": "population, and that's what this number"
+  },
+  {
+    "t_start": 67.59,
+    "t_end": 69.36,
+    "text": "is as well. So we've got like- we're"
+  },
+  {
+    "t_start": 69.36,
+    "t_end": 70.47,
+    "text": "going to iterate this, we're going to get"
+  },
+  {
+    "t_start": 70.47,
+    "t_end": 72.03,
+    "text": "an answer out and put it back in to get the"
+  },
+  {
+    "t_start": 72.03,
+    "t_end": 73.74,
+    "text": "next year's thing. And then the important"
+  },
+  {
+    "t_start": 73.74,
+    "t_end": 75.96,
+    "text": "number here is this lambda. It's like the"
+  },
+  {
+    "t_start": 75.96,
+    "t_end": 78.72,
+    "text": "fertility, so if this is high these"
+  },
+  {
+    "t_start": 78.72,
+    "t_end": 80.52,
+    "text": "things are going to breed like like like"
+  },
+  {
+    "t_start": 80.52,
+    "t_end": 82.59,
+    "text": "rabbits; and if it's zero they're not"
+  },
+  {
+    "t_start": 82.59,
+    "t_end": 84.27,
+    "text": "going to breed at all. And changing this"
+  },
+  {
+    "t_start": 84.27,
+    "t_end": 85.74,
+    "text": "number is what the biologists were using"
+  },
+  {
+    "t_start": 85.74,
+    "t_end": 87.09,
+    "text": "to sort of model different"
+  },
+  {
+    "t_start": 87.09,
+    "t_end": 88.619,
+    "text": "populations. If the previous population"
+  },
+  {
+    "t_start": 88.619,
+    "t_end": 90.659,
+    "text": "is high you'd expect the next one to be high;"
+  },
+  {
+    "t_start": 90.659,
+    "t_end": 91.56,
+    "text": "so you kind of multiplying by the"
+  },
+  {
+    "t_start": 91.56,
+    "t_end": 93.42,
+    "text": "previous year's population. But also if"
+  },
+  {
+    "t_start": 93.42,
+    "t_end": 94.89,
+    "text": "it's too high they're going to run out of"
+  },
+  {
+    "t_start": 94.89,
+    "t_end": 96.6,
+    "text": "food so that's what you do one minus the"
+  },
+  {
+    "t_start": 96.6,
+    "t_end": 98.64,
+    "text": "previous population. So this is like the"
+  },
+  {
+    "t_start": 98.64,
+    "t_end": 100.32,
+    "text": "breeding, and this is like starvation."
+  },
+  {
+    "t_start": 100.32,
+    "t_end": 101.97,
+    "text": "What's interesting is you you can just"
+  },
+  {
+    "t_start": 101.97,
+    "t_end": 103.17,
+    "text": "put numbers into this; so I'm going to"
+  },
+  {
+    "t_start": 103.17,
+    "t_end": 106.229,
+    "text": "start with a population X1 of 1/2. So"
+  },
+  {
+    "t_start": 106.229,
+    "t_end": 107.85,
+    "text": "remember this is gonna- it's between 0"
+  },
+  {
+    "t_start": 107.85,
+    "t_end": 109.74,
+    "text": "&amp; 1, the population is half full to start"
+  },
+  {
+    "t_start": 109.74,
+    "t_end": 111.63,
+    "text": "with. In fact you can start with anything,"
+  },
+  {
+    "t_start": 111.63,
+    "t_end": 113.52,
+    "text": "what's interesting is what happens over"
+  },
+  {
+    "t_start": 113.52,
+    "t_end": 114.899,
+    "text": "a long time. So we need to choose a"
+  },
+  {
+    "t_start": 114.899,
+    "t_end": 116.85,
+    "text": "fertility, I'm going to choose - just for this"
+  },
+  {
+    "t_start": 116.85,
+    "t_end": 119.31,
+    "text": "particular example - lambda the fertility"
+  },
+  {
+    "t_start": 119.31,
+    "t_end": 121.35,
+    "text": "to be, I don't know- it turns out you need to"
+  },
+  {
+    "t_start": 121.35,
+    "t_end": 123.479,
+    "text": "be between 0 &amp; 4, there are complicated"
+  },
+  {
+    "t_start": 123.479,
+    "t_end": 124.56,
+    "text": "reasons for that which I'm not going to"
+  },
+  {
+    "t_start": 124.56,
+    "t_end": 126.119,
+    "text": "go into right now, so I'm going to choose"
+  },
+  {
+    "t_start": 126.119,
+    "t_end": 128.489,
+    "text": "2.3. So we're about middle in our range"
+  },
+  {
+    "t_start": 128.489,
+    "t_end": 130.53,
+    "text": "of fertility. So this calculation"
+  },
+  {
+    "t_start": 130.53,
+    "t_end": 132.12,
+    "text": "tells me that the next year's population has"
+  },
+  {
+    "t_start": 132.12,
+    "t_end": 135.33,
+    "text": "gone up, I've got 0.575."
+  },
+  {
+    "t_start": 135.33,
+    "t_end": 136.59,
+    "text": "So my population's increased, I've got"
+  },
+  {
+    "t_start": 136.59,
+    "t_end": 138.569,
+    "text": "enough fertility that the breeding is"
+  },
+  {
+    "t_start": 138.569,
+    "t_end": 139.92,
+    "text": "happening well. What's interesting though"
+  },
+  {
+    "t_start": 139.92,
+    "t_end": 141.959,
+    "text": "is what happens over a long time. For"
+  },
+  {
+    "t_start": 141.959,
+    "t_end": 145.28,
+    "text": "year three we get 0.562."
+  },
+  {
+    "t_start": 145.28,
+    "t_end": 148.129,
+    "text": "(Brady: The population dropped?) - Yeah the population's dropped."
+  },
+  {
+    "t_start": 148.129,
+    "t_end": 149.459,
+    "text": "So we've clearly gone high enough that the"
+  },
+  {
+    "t_start": 149.459,
+    "t_end": 151.14,
+    "text": "competition started kicking in and maybe"
+  },
+  {
+    "t_start": 151.14,
+    "t_end": 152.849,
+    "text": "they can't sustain that high population."
+  },
+  {
+    "t_start": 152.849,
+    "t_end": 155.76,
+    "text": "What's interesting though is if you you-"
+  },
+  {
+    "t_start": 155.76,
+    "t_end": 157.379,
+    "text": "if you wonder- is this going to bounce"
+  },
+  {
+    "t_start": 157.379,
+    "t_end": 159.33,
+    "text": "lots of times? And actually typing this"
+  },
+  {
+    "t_start": 159.33,
+    "t_end": 161.4,
+    "text": "in every time is extraordinarily tedious;"
+  },
+  {
+    "t_start": 161.4,
+    "t_end": 163.319,
+    "text": "although I know you're watching this for"
+  },
+  {
+    "t_start": 163.319,
+    "t_end": 164.879,
+    "text": "exactly that reason but we could speed this"
+  },
+  {
+    "t_start": 164.879,
+    "t_end": 166.14,
+    "text": "up and you can do it on any of these"
+  },
+  {
+    "t_start": 166.14,
+    "t_end": 167.64,
+    "text": "calculators because it has an iteration"
+  },
+  {
+    "t_start": 167.64,
+    "t_end": 169.62,
+    "text": "function. If I clear this and I type"
+  },
+  {
+    "t_start": 169.62,
+    "t_end": 172.53,
+    "text": "2.3 times answer, whatever the previous"
+  },
+  {
+    "t_start": 172.53,
+    "t_end": 173.819,
+    "text": "answer was is going to turn up there,"
+  },
+  {
+    "t_start": 173.819,
+    "t_end": 175.89,
+    "text": "and then 1 minus answer. And then I"
+  },
+  {
+    "t_start": 175.89,
+    "t_end": 177.33,
+    "text": "I never have to type anything in again,"
+  },
+  {
+    "t_start": 177.33,
+    "t_end": 180.15,
+    "text": "which is my idea of maths. So next year - I'm"
+  },
+  {
+    "t_start": 180.15,
+    "t_end": 181.23,
+    "text": "not going to write them down anymore - but"
+  },
+  {
+    "t_start": 181.23,
+    "t_end": 184.489,
+    "text": "next year X4 we get 0.566,"
+  },
+  {
+    "t_start": 184.489,
+    "t_end": 187.23,
+    "text": "it's gone up. And if I keep pressing"
+  },
+  {
+    "t_start": 187.23,
+    "t_end": 188.4,
+    "text": "equals. I'm not going to read them out"
+  },
+  {
+    "t_start": 188.4,
+    "t_end": 189.599,
+    "text": "anymore but keep an eye on what's"
+  },
+  {
+    "t_start": 189.599,
+    "t_end": 190.44,
+    "text": "happening, I'm just going to keep pressing"
+  },
+  {
+    "t_start": 190.44,
+    "t_end": 192.95,
+    "text": "equals. 0.56494,"
+  },
+  {
+    "t_start": 192.95,
+    "t_end": 197.46,
+    "text": "0.565, 0.56519,"
+  },
+  {
+    "t_start": 197.46,
+    "t_end": 204.73,
+    "text": "0.56522, 0.56522;"
+  },
+  {
+    "t_start": 204.73,
+    "t_end": 205.95,
+    "text": "okay you know what's going to happen."
+  },
+  {
+    "t_start": 205.95,
+    "t_end": 207.81,
+    "text": "It looks like actually- and this"
+  },
+  {
+    "t_start": 207.81,
+    "t_end": 209.73,
+    "text": "is believable right, sometimes"
+  },
+  {
+    "t_start": 209.73,
+    "t_end": 212.19,
+    "text": "populations stabilise. And this is good"
+  },
+  {
+    "t_start": 212.19,
+    "t_end": 213.45,
+    "text": "because this is the real world being"
+  },
+  {
+    "t_start": 213.45,
+    "t_end": 216.209,
+    "text": "described by a simple equation. This is"
+  },
+  {
+    "t_start": 216.209,
+    "t_end": 217.62,
+    "text": "not all that exciting I have to say but"
+  },
+  {
+    "t_start": 217.62,
+    "t_end": 218.909,
+    "text": "but at least I can do this calculation"
+  },
+  {
+    "t_start": 218.909,
+    "t_end": 220.65,
+    "text": "repeatedly, I can bash the button as many"
+  },
+  {
+    "t_start": 220.65,
+    "t_end": 222.03,
+    "text": "times as I like and it it's not changing"
+  },
+  {
+    "t_start": 222.03,
+    "t_end": 223.08,
+    "text": "anymore. It's genuinely doing the"
+  },
+  {
+    "t_start": 223.08,
+    "t_end": 224.37,
+    "text": "calculation but it's giving the same"
+  },
+  {
+    "t_start": 224.37,
+    "t_end": 225.959,
+    "text": "answer, it's what they call a fixed point"
+  },
+  {
+    "t_start": 225.959,
+    "t_end": 227.519,
+    "text": "of the iteration. So the rabbits are"
+  },
+  {
+    "t_start": 227.519,
+    "t_end": 229.409,
+    "text": "breeding, but they're also dying and"
+  },
+  {
+    "t_start": 229.409,
+    "t_end": 230.489,
+    "text": "they're dying and breeding at the same"
+  },
+  {
+    "t_start": 230.489,
+    "t_end": 232.47,
+    "text": "rate and something's balanced. And this"
+  },
+  {
+    "t_start": 232.47,
+    "t_end": 234.209,
+    "text": "is good because the biologists needed a"
+  },
+  {
+    "t_start": 234.209,
+    "t_end": 235.86,
+    "text": "simple way of modeling real populations"
+  },
+  {
+    "t_start": 235.86,
+    "t_end": 237.36,
+    "text": "and real populations do you balance out"
+  },
+  {
+    "t_start": 237.36,
+    "t_end": 239.939,
+    "text": "eventually. What's nice about this is this map,"
+  },
+  {
+    "t_start": 239.939,
+    "t_end": 241.86,
+    "text": "or this function or this equation, is it"
+  },
+  {
+    "t_start": 241.86,
+    "t_end": 243.93,
+    "text": "also manages to capture some more"
+  },
+  {
+    "t_start": 243.93,
+    "t_end": 245.159,
+    "text": "complicated behaviour which is what"
+  },
+  {
+    "t_start": 245.159,
+    "t_end": 248.28,
+    "text": "happens if you change our lambda number."
+  },
+  {
+    "t_start": 248.28,
+    "t_end": 249.87,
+    "text": "Which is what we should do now. I"
+  },
+  {
+    "t_start": 249.87,
+    "t_end": 251.549,
+    "text": "won't write all the calculations but I"
+  },
+  {
+    "t_start": 251.549,
+    "t_end": 253.83,
+    "text": "can show you on my calculator what"
+  },
+  {
+    "t_start": 253.83,
+    "t_end": 255.269,
+    "text": "happens if you change lambda. I'm going"
+  },
+  {
+    "t_start": 255.269,
+    "t_end": 257.669,
+    "text": "to do a lower fertility and I'm going to"
+  },
+  {
+    "t_start": 257.669,
+    "t_end": 258.72,
+    "text": "do this quickly because I think you"
+  },
+  {
+    "t_start": 258.72,
+    "t_end": 260.29,
+    "text": "might be able to predict what happens if we have less"
+  },
+  {
+    "t_start": 260.29,
+    "t_end": 262.78,
+    "text": "fertile rabbits. So I'm actually going to"
+  },
+  {
+    "t_start": 262.78,
+    "t_end": 264.4,
+    "text": "reset my population to be a half, I'm"
+  },
+  {
+    "t_start": 264.4,
+    "t_end": 266.8,
+    "text": "going to put 0.5 and press equals and"
+  },
+  {
+    "t_start": 266.8,
+    "t_end": 269.26,
+    "text": "store that as the previous answer. I'm just"
+  },
+  {
+    "t_start": 269.26,
+    "t_end": 270.91,
+    "text": "going to type in now a pop- we'll do a"
+  },
+  {
+    "t_start": 270.91,
+    "t_end": 272.8,
+    "text": "lambda of- do you want to pick a lambda"
+  },
+  {
+    "t_start": 272.8,
+    "t_end": 278.22,
+    "text": "between 0 and 1, Brady? - Can we have 0.65?"
+  },
+  {
+    "t_start": 278.22,
+    "t_end": 281.05,
+    "text": "We can have 0.65, I'll do 0.65. So we"
+  },
+  {
+    "t_start": 281.05,
+    "t_end": 282.85,
+    "text": "start with a half, after one year we have a"
+  },
+  {
+    "t_start": 282.85,
+    "t_end": 285.79,
+    "text": "population of 0.1625. Your"
+  },
+  {
+    "t_start": 285.79,
+    "t_end": 288.04,
+    "text": "rabbits are dying. But if I keep pressing it,"
+  },
+  {
+    "t_start": 288.04,
+    "t_end": 289.09,
+    "text": "obviously I can now just keep pressing"
+  },
+  {
+    "t_start": 289.09,
+    "t_end": 291.81,
+    "text": "it to see what happens: 0.08,"
+  },
+  {
+    "t_start": 291.81,
+    "t_end": 295.51,
+    "text": "0.05, 0.03 - this is it"
+  },
+  {
+    "t_start": 295.51,
+    "t_end": 297.07,
+    "text": "not looking good. I'm just going to go"
+  },
+  {
+    "t_start": 297.07,
+    "t_end": 299.95,
+    "text": "for it now, 0.0009,"
+  },
+  {
+    "t_start": 299.95,
+    "t_end": 303.46,
+    "text": "0.0006 - eventually my"
+  },
+  {
+    "t_start": 303.46,
+    "t_end": 304.78,
+    "text": "calculator is going to say, look stop"
+  },
+  {
+    "t_start": 304.78,
+    "t_end": 306.76,
+    "text": "pressing equals they're all dead. In fact"
+  },
+  {
+    "t_start": 306.76,
+    "t_end": 308.68,
+    "text": "I'm now at zero. And maybe it's not quite"
+  },
+  {
+    "t_start": 308.68,
+    "t_end": 310.36,
+    "text": "zero, but it's off the end of the"
+  },
+  {
+    "t_start": 310.36,
+    "t_end": 312.62,
+    "text": "accuracy I care about. - (Brady: I killed the rabbits!)"
+  },
+  {
+    "t_start": 312.62,
+    "t_end": 315.16,
+    "text": "Yeah. Well, again, useful to a sort of heartless"
+  },
+  {
+    "t_start": 315.16,
+    "t_end": 316.21,
+    "text": "biologist to model sometimes"
+  },
+  {
+    "t_start": 316.21,
+    "t_end": 318.1,
+    "text": "populations die out. What happens in the"
+  },
+  {
+    "t_start": 318.1,
+    "t_end": 319.6,
+    "text": "wild though is that sometimes populations"
+  },
+  {
+    "t_start": 319.6,
+    "t_end": 320.77,
+    "text": "die and sometimes they're stable"
+  },
+  {
+    "t_start": 320.77,
+    "t_end": 322.45,
+    "text": "and sometimes they do funky things. And"
+  },
+  {
+    "t_start": 322.45,
+    "t_end": 325.0,
+    "text": "and it kind of surprised them that they could get the"
+  },
+  {
+    "t_start": 325.0,
+    "t_end": 326.5,
+    "text": "funky things. So one funky thing, if"
+  },
+  {
+    "t_start": 326.5,
+    "t_end": 328.48,
+    "text": "I pick a higher fertility. So I'm going"
+  },
+  {
+    "t_start": 328.48,
+    "t_end": 330.79,
+    "text": "to set up my population to be a half, 0.5,"
+  },
+  {
+    "t_start": 330.79,
+    "t_end": 332.98,
+    "text": "equals that's the first answer gone in."
+  },
+  {
+    "t_start": 332.98,
+    "t_end": 334.71,
+    "text": "And then I'm going to use lambda is"
+  },
+  {
+    "t_start": 334.71,
+    "t_end": 336.73,
+    "text": "3.2 this time, so clear this:"
+  },
+  {
+    "t_start": 336.73,
+    "t_end": 339.82,
+    "text": "3.2 times previous population, times 1"
+  },
+  {
+    "t_start": 339.82,
+    "t_end": 342.94,
+    "text": "minus previous population. And this time"
+  },
+  {
+    "t_start": 342.94,
+    "t_end": 344.83,
+    "text": "we started at half after one year we've"
+  },
+  {
+    "t_start": 344.83,
+    "t_end": 347.23,
+    "text": "got 0.8. Populations gone up. No"
+  },
+  {
+    "t_start": 347.23,
+    "t_end": 349.42,
+    "text": "big surprise, fertile rabbits. Next year,"
+  },
+  {
+    "t_start": 349.42,
+    "t_end": 350.8,
+    "text": "well there's lots of them now so you"
+  },
+  {
+    "t_start": 350.8,
+    "t_end": 352.09,
+    "text": "know their competition kicks in, next"
+  },
+  {
+    "t_start": 352.09,
+    "t_end": 354.19,
+    "text": "year 0.51. It's dropped way"
+  },
+  {
+    "t_start": 354.19,
+    "t_end": 355.51,
+    "text": "back down to almost where we started."
+  },
+  {
+    "t_start": 355.51,
+    "t_end": 357.55,
+    "text": "Well, too many rabbits. You know there's"
+  },
+  {
+    "t_start": 357.55,
+    "t_end": 359.68,
+    "text": "not enough grass or the foxes are like"
+  },
+  {
+    "t_start": 359.68,
+    "t_end": 362.01,
+    "text": "wha-hey rabbit season and they've ate- and I"
+  },
+  {
+    "t_start": 362.01,
+    "t_end": 364.21,
+    "text": "realise we're not counting foxes in this"
+  },
+  {
+    "t_start": 364.21,
+    "t_end": 365.47,
+    "text": "thing, but somehow this is capturing the"
+  },
+  {
+    "t_start": 365.47,
+    "t_end": 366.85,
+    "text": "behaviour the populations go up and then"
+  },
+  {
+    "t_start": 366.85,
+    "t_end": 368.11,
+    "text": "they quite often drop suddenly if there's"
+  },
+  {
+    "t_start": 368.11,
+    "t_end": 370.69,
+    "text": "too many. If I press equals again we're"
+  },
+  {
+    "t_start": 370.69,
+    "t_end": 372.16,
+    "text": "at 0.79, it's gone back up"
+  },
+  {
+    "t_start": 372.16,
+    "t_end": 374.11,
+    "text": "again. Definitely feels like we've got a"
+  },
+  {
+    "t_start": 374.11,
+    "t_end": 376.51,
+    "text": "bit of a bouncy behaviour; and it's"
+  },
+  {
+    "t_start": 376.51,
+    "t_end": 377.89,
+    "text": "believable. If I keep pressing"
+  },
+  {
+    "t_start": 377.89,
+    "t_end": 379.9,
+    "text": "equals: 0.51, 0.79,"
+  },
+  {
+    "t_start": 379.9,
+    "t_end": 383.32,
+    "text": "0.51, 0.79; in fact"
+  },
+  {
+    "t_start": 383.32,
+    "t_end": 384.46,
+    "text": "I'm going to press it a few times, it"
+  },
+  {
+    "t_start": 384.46,
+    "t_end": 385.69,
+    "text": "might like take a bit of catching up but-"
+  },
+  {
+    "t_start": 385.69,
+    "t_end": 391.97,
+    "text": "If I slow down in a moment - 0.51304,"
+  },
+  {
+    "t_start": 391.97,
+    "t_end": 396.984,
+    "text": "0.79946, 0.51304,"
+  },
+  {
+    "t_start": 396.984,
+    "t_end": 398.477,
+    "text": "0.79946."
+  },
+  {
+    "t_start": 398.477,
+    "t_end": 399.94,
+    "text": "It's not changing - except it is"
+  },
+  {
+    "t_start": 399.94,
+    "t_end": 402.94,
+    "text": "changing every year but it's not"
+  },
+  {
+    "t_start": 402.94,
+    "t_end": 404.259,
+    "text": "changing between these two values."
+  },
+  {
+    "t_start": 404.259,
+    "t_end": 406.75,
+    "text": "And so it's stabilised, we've got what"
+  },
+  {
+    "t_start": 406.75,
+    "t_end": 408.16,
+    "text": "they call a fixed point but it's not"
+  },
+  {
+    "t_start": 408.16,
+    "t_end": 410.669,
+    "text": "just one fixed point we have a two cycle."
+  },
+  {
+    "t_start": 410.669,
+    "t_end": 414.009,
+    "text": "- (Brady: A yo-yo fixed point?) - Yeah exactly and if you drew a graph"
+  },
+  {
+    "t_start": 414.009,
+    "t_end": 415.27,
+    "text": "of it you'd see it bounce up and down and it"
+  },
+  {
+    "t_start": 415.27,
+    "t_end": 416.53,
+    "text": "might be interesting to draw some graphs"
+  },
+  {
+    "t_start": 416.53,
+    "t_end": 418.18,
+    "text": "of this in a moment because if I-"
+  },
+  {
+    "t_start": 418.18,
+    "t_end": 420.94,
+    "text": "I'll draw you a graph. The first behaviour"
+  },
+  {
+    "t_start": 420.94,
+    "t_end": 423.85,
+    "text": "we had was- was rabbits doing this,"
+  },
+  {
+    "t_start": 423.85,
+    "t_end": 426.22,
+    "text": "stabilising. And then the next behaviour"
+  },
+  {
+    "t_start": 426.22,
+    "t_end": 428.77,
+    "text": "you had was rabbits dying. And then we've"
+  },
+  {
+    "t_start": 428.77,
+    "t_end": 431.199,
+    "text": "just seen something else can happen; and"
+  },
+  {
+    "t_start": 431.199,
+    "t_end": 432.789,
+    "text": "it happens out there in the real world,"
+  },
+  {
+    "t_start": 432.789,
+    "t_end": 434.289,
+    "text": "is that you start somewhere and it sort of"
+  },
+  {
+    "t_start": 434.289,
+    "t_end": 436.75,
+    "text": "bounces up here then down and then it- but"
+  },
+  {
+    "t_start": 436.75,
+    "t_end": 438.52,
+    "text": "it doesn't stabilise ever, it keeps bouncing"
+  },
+  {
+    "t_start": 438.52,
+    "t_end": 441.55,
+    "text": "like this. Now the reason this map is"
+  },
+  {
+    "t_start": 441.55,
+    "t_end": 442.9,
+    "text": "being- this function is being used is"
+  },
+  {
+    "t_start": 442.9,
+    "t_end": 445.0,
+    "text": "that it's capturing even more complicated"
+  },
+  {
+    "t_start": 445.0,
+    "t_end": 446.41,
+    "text": "behaviours than just life and death."
+  },
+  {
+    "t_start": 446.41,
+    "t_end": 448.81,
+    "text": "So we've got life but high population - are"
+  },
+  {
+    "t_start": 448.81,
+    "t_end": 449.949,
+    "text": "too many rabbits so they kind of die"
+  },
+  {
+    "t_start": 449.949,
+    "t_end": 451.12,
+    "text": "off but next year there's loads of space"
+  },
+  {
+    "t_start": 451.12,
+    "t_end": 452.229,
+    "text": "for them so they grow again and then"
+  },
+  {
+    "t_start": 452.229,
+    "t_end": 454.09,
+    "text": "they bounce. I'm going to pick lambda to be-"
+  },
+  {
+    "t_start": 454.09,
+    "t_end": 456.43,
+    "text": "this is a carefully chosen value, I'm"
+  },
+  {
+    "t_start": 456.43,
+    "t_end": 460.3,
+    "text": "going to pick it to be 3.5, let's try"
+  },
+  {
+    "t_start": 460.3,
+    "t_end": 462.389,
+    "text": "that one. Gonna set the population to be 1/2,"
+  },
+  {
+    "t_start": 462.389,
+    "t_end": 465.789,
+    "text": "3.5 is lambda multiplied by the previous"
+  },
+  {
+    "t_start": 465.789,
+    "t_end": 466.99,
+    "text": "population, multiplied by 1 minus"
+  },
+  {
+    "t_start": 466.99,
+    "t_end": 469.15,
+    "text": "previous population - this time of goes"
+  },
+  {
+    "t_start": 469.15,
+    "t_end": 475.15,
+    "text": "up to 0.875, 0.38, 0.82, 0.5 - wait,"
+  },
+  {
+    "t_start": 475.15,
+    "t_end": 476.889,
+    "text": "these are all different. I'm just going"
+  },
+  {
+    "t_start": 476.889,
+    "t_end": 478.539,
+    "text": "to keep pressing it but it's definitely"
+  },
+  {
+    "t_start": 478.539,
+    "t_end": 480.43,
+    "text": "not settling down, I'll show you I'll show"
+  },
+  {
+    "t_start": 480.43,
+    "t_end": 481.33,
+    "text": "what's happening on the screen. We've got"
+  },
+  {
+    "t_start": 481.33,
+    "t_end": 486.58,
+    "text": "0.5, 0.87, 0.38, 0.82,"
+  },
+  {
+    "t_start": 486.58,
+    "t_end": 489.07,
+    "text": "0.5, 0.87, 0.38,"
+  },
+  {
+    "t_start": 489.07,
+    "t_end": 492.46,
+    "text": "0.82 - actually it is cycling but"
+  },
+  {
+    "t_start": 492.46,
+    "t_end": 495.88,
+    "text": "it's not two. It's now four. And so if I"
+  },
+  {
+    "t_start": 495.88,
+    "t_end": 497.8,
+    "text": "drew a graph of this one, this time it's"
+  },
+  {
+    "t_start": 497.8,
+    "t_end": 500.349,
+    "text": "going sort of down, up, down, down a bit,"
+  },
+  {
+    "t_start": 500.349,
+    "t_end": 502.21,
+    "text": "further up a bit further and then down,"
+  },
+  {
+    "t_start": 502.21,
+    "t_end": 504.28,
+    "text": "up, down bit further, up a bit further; so"
+  },
+  {
+    "t_start": 504.28,
+    "t_end": 505.449,
+    "text": "actually we've got a we've got a four"
+  },
+  {
+    "t_start": 505.449,
+    "t_end": 507.759,
+    "text": "cycle. At this point- like doing this on a"
+  },
+  {
+    "t_start": 507.759,
+    "t_end": 509.8,
+    "text": "calculator it becomes a bit of a waste"
+  },
+  {
+    "t_start": 509.8,
+    "t_end": 510.789,
+    "text": "of time, but what the biologists were"
+  },
+  {
+    "t_start": 510.789,
+    "t_end": 512.14,
+    "text": "doing with a computer was saying, okay"
+  },
+  {
+    "t_start": 512.14,
+    "t_end": 515.079,
+    "text": "even complicated behaviour like a four"
+  },
+  {
+    "t_start": 515.079,
+    "t_end": 517.0,
+    "text": "year cycle of populations can be modelled"
+  },
+  {
+    "t_start": 517.0,
+    "t_end": 518.529,
+    "text": "by this, with still just this one parameter,"
+  },
+  {
+    "t_start": 518.529,
+    "t_end": 520.63,
+    "text": "this one fertility thing. And that"
+  },
+  {
+    "t_start": 520.63,
+    "t_end": 522.849,
+    "text": "surprised them. What they didn't know was"
+  },
+  {
+    "t_start": 522.849,
+    "t_end": 523.69,
+    "text": "about to happen, was"
+  },
+  {
+    "t_start": 523.69,
+    "t_end": 525.97,
+    "text": "what happens if you go above 3.5. Because"
+  },
+  {
+    "t_start": 525.97,
+    "t_end": 527.47,
+    "text": "no one ever did, because it looked like"
+  },
+  {
+    "t_start": 527.47,
+    "t_end": 529.089,
+    "text": "it didn't do anything useful. If you"
+  },
+  {
+    "t_start": 529.089,
+    "t_end": 531.399,
+    "text": "change lamda beyond roughly"
+  },
+  {
+    "t_start": 531.399,
+    "t_end": 534.61,
+    "text": "3.59, something strange"
+  },
+  {
+    "t_start": 534.61,
+    "t_end": 536.259,
+    "text": "happens, which we we should try and see on a"
+  },
+  {
+    "t_start": 536.259,
+    "t_end": 538.149,
+    "text": "picture. I'll do a little graph here. This"
+  },
+  {
+    "t_start": 538.149,
+    "t_end": 540.189,
+    "text": "is going to be- this time it's not time,"
+  },
+  {
+    "t_start": 540.189,
+    "t_end": 542.86,
+    "text": "this is going to be the lambda axis, so"
+  },
+  {
+    "t_start": 542.86,
+    "t_end": 543.85,
+    "text": "I'm going to capture different"
+  },
+  {
+    "t_start": 543.85,
+    "t_end": 545.889,
+    "text": "values of lambda, the fertility, on this"
+  },
+  {
+    "t_start": 545.889,
+    "t_end": 547.35,
+    "text": "axis; this is still going to be"
+  },
+  {
+    "t_start": 547.35,
+    "t_end": 549.97,
+    "text": "population between zero and one. I'm"
+  },
+  {
+    "t_start": 549.97,
+    "t_end": 552.459,
+    "text": "going to mark this at four, and this is"
+  },
+  {
+    "t_start": 552.459,
+    "t_end": 555.339,
+    "text": "one. So this is the behaviour after it's"
+  },
+  {
+    "t_start": 555.339,
+    "t_end": 558.819,
+    "text": "settled down. So between 0 and 1- it turns"
+  },
+  {
+    "t_start": 558.819,
+    "t_end": 560.439,
+    "text": "out if you pick lambda between 0 and 1,"
+  },
+  {
+    "t_start": 560.439,
+    "t_end": 563.17,
+    "text": "eventually things die. As you as you"
+  },
+  {
+    "t_start": 563.17,
+    "t_end": 564.49,
+    "text": "nicely exemplified you killed all the"
+  },
+  {
+    "t_start": 564.49,
+    "t_end": 565.72,
+    "text": "rabbits, because they're not fertile"
+  },
+  {
+    "t_start": 565.72,
+    "t_end": 567.459,
+    "text": "enough. So after you've pressed equals"
+  },
+  {
+    "t_start": 567.459,
+    "t_end": 568.629,
+    "text": "thousands of times we're going to plot"
+  },
+  {
+    "t_start": 568.629,
+    "t_end": 570.897,
+    "text": "what happens. - (Brady: So this is the Death Zone?)"
+  },
+  {
+    "t_start": 570.897,
+    "t_end": 573.189,
+    "text": "This is the Death Zone yeh, let me write death"
+  },
+  {
+    "t_start": 573.189,
+    "t_end": 576.279,
+    "text": "here, because over time the population"
+  },
+  {
+    "t_start": 576.279,
+    "t_end": 577.509,
+    "text": "stabilises as zero."
+  },
+  {
+    "t_start": 577.509,
+    "t_end": 580.0,
+    "text": "You chose 0.6 something and it was"
+  },
+  {
+    "t_start": 580.0,
+    "t_end": 581.23,
+    "text": "in the Death Zone so this is kind of your"
+  },
+  {
+    "t_start": 581.23,
+    "t_end": 582.97,
+    "text": "point here. When we did it earlier we"
+  },
+  {
+    "t_start": 582.97,
+    "t_end": 585.16,
+    "text": "chose 2.3 here which is"
+  },
+  {
+    "t_start": 585.16,
+    "t_end": 587.05,
+    "text": "about here but it stabilised to be"
+  },
+  {
+    "t_start": 587.05,
+    "t_end": 589.419,
+    "text": "about 0.56, think it was about 0.565"
+  },
+  {
+    "t_start": 589.419,
+    "t_end": 591.069,
+    "text": "when we did it, so it's kind of"
+  },
+  {
+    "t_start": 591.069,
+    "t_end": 592.779,
+    "text": "just over half. So there's a mark on our"
+  },
+  {
+    "t_start": 592.779,
+    "t_end": 594.55,
+    "text": "graph here. And if you do this, and you"
+  },
+  {
+    "t_start": 594.55,
+    "t_end": 595.75,
+    "text": "could plot this on a spreadsheet if you"
+  },
+  {
+    "t_start": 595.75,
+    "t_end": 597.55,
+    "text": "wanted to, you see that the stability"
+  },
+  {
+    "t_start": 597.55,
+    "t_end": 599.92,
+    "text": "changes in this sort of pattern. And that"
+  },
+  {
+    "t_start": 599.92,
+    "t_end": 601.449,
+    "text": "different values of fertility give you"
+  },
+  {
+    "t_start": 601.449,
+    "t_end": 603.49,
+    "text": "different stable populations. Interestingly"
+  },
+  {
+    "t_start": 603.49,
+    "t_end": 604.959,
+    "text": "it sort of levels off at about"
+  },
+  {
+    "t_start": 604.959,
+    "t_end": 606.519,
+    "text": "two-thirds, it looks like you can't have"
+  },
+  {
+    "t_start": 606.519,
+    "t_end": 607.839,
+    "text": "a stable population that's fuller than"
+  },
+  {
+    "t_start": 607.839,
+    "t_end": 609.819,
+    "text": "that according to this model. But you've"
+  },
+  {
+    "t_start": 609.819,
+    "t_end": 611.47,
+    "text": "already seen that something interesting"
+  },
+  {
+    "t_start": 611.47,
+    "t_end": 615.55,
+    "text": "happens, we tried 3.2 I think"
+  },
+  {
+    "t_start": 615.55,
+    "t_end": 617.829,
+    "text": "earlier, so 3.2 gave us a two"
+  },
+  {
+    "t_start": 617.829,
+    "t_end": 619.48,
+    "text": "cycle which means over a long time we're"
+  },
+  {
+    "t_start": 619.48,
+    "t_end": 621.1,
+    "text": "going to have two marks on this graph."
+  },
+  {
+    "t_start": 621.1,
+    "t_end": 622.66,
+    "text": "And so I'm just going to sort of"
+  },
+  {
+    "t_start": 622.66,
+    "t_end": 624.55,
+    "text": "estimate they're about here and here. And"
+  },
+  {
+    "t_start": 624.55,
+    "t_end": 626.47,
+    "text": "the graph if you plot it bifurcates,"
+  },
+  {
+    "t_start": 626.47,
+    "t_end": 628.87,
+    "text": "which is a posh way of saying it forks."
+  },
+  {
+    "t_start": 628.87,
+    "t_end": 629.709,
+    "text": "Like, they call it a pitchfork"
+  },
+  {
+    "t_start": 629.709,
+    "t_end": 632.439,
+    "text": "bifurcation. So this is; we've got dead,"
+  },
+  {
+    "t_start": 632.439,
+    "t_end": 636.16,
+    "text": "we've got stable, and then from about"
+  },
+  {
+    "t_start": 636.16,
+    "t_end": 639.519,
+    "text": "three we get a two cycle. But we have"
+  },
+  {
+    "t_start": 639.519,
+    "t_end": 641.29,
+    "text": "also seen that at 3.5 it"
+  },
+  {
+    "t_start": 641.29,
+    "t_end": 644.379,
+    "text": "settled into a four-cycle so then- you"
+  },
+  {
+    "t_start": 644.379,
+    "t_end": 645.819,
+    "text": "can kind of guess what's going to happen."
+  },
+  {
+    "t_start": 645.819,
+    "t_end": 647.319,
+    "text": "If I put the four and they happen to be"
+  },
+  {
+    "t_start": 647.319,
+    "t_end": 649.42,
+    "text": "around here, you can see that somewhere"
+  },
+  {
+    "t_start": 649.42,
+    "t_end": 653.079,
+    "text": "it splits. And it bifurcates again, or it"
+  },
+  {
+    "t_start": 653.079,
+    "t_end": 655.19,
+    "text": "forks again. The posh word for"
+  },
+  {
+    "t_start": 655.19,
+    "t_end": 658.07,
+    "text": "this is- the period of these cycles, this"
+  },
+  {
+    "t_start": 658.07,
+    "t_end": 659.78,
+    "text": "is a one-cycle because it's got one"
+  },
+  {
+    "t_start": 659.78,
+    "t_end": 661.58,
+    "text": "value, this is a two-cycle the period's two,"
+  },
+  {
+    "t_start": 661.58,
+    "t_end": 663.77,
+    "text": "and then it goes to four. And they call"
+  },
+  {
+    "t_start": 663.77,
+    "t_end": 665.48,
+    "text": "this a period doubling. What's"
+  },
+  {
+    "t_start": 665.48,
+    "t_end": 667.79,
+    "text": "intriguing is that by picking certain"
+  },
+  {
+    "t_start": 667.79,
+    "t_end": 670.31,
+    "text": "values of lambda you can get any periods"
+  },
+  {
+    "t_start": 670.31,
+    "t_end": 672.47,
+    "text": "you want, as long if it's a power of two,"
+  },
+  {
+    "t_start": 672.47,
+    "t_end": 674.42,
+    "text": "because it doubles every time. So if you"
+  },
+  {
+    "t_start": 674.42,
+    "t_end": 676.85,
+    "text": "want a sixteen cycle there is a value of"
+  },
+  {
+    "t_start": 676.85,
+    "t_end": 678.83,
+    "text": "lambda, - I'll let you go and find it - it's"
+  },
+  {
+    "t_start": 678.83,
+    "t_end": 680.21,
+    "text": "not much higher than what we used at"
+  },
+  {
+    "t_start": 680.21,
+    "t_end": 682.1,
+    "text": "3.5 because; come and have a"
+  },
+  {
+    "t_start": 682.1,
+    "t_end": 683.54,
+    "text": "look at this graph again. The graph"
+  },
+  {
+    "t_start": 683.54,
+    "t_end": 686.93,
+    "text": "doubles again, and again, and again, and"
+  },
+  {
+    "t_start": 686.93,
+    "t_end": 689.75,
+    "text": "again; and quicker, and quicker, and"
+  },
+  {
+    "t_start": 689.75,
+    "t_end": 692.75,
+    "text": "quicker. So a tiny change in this lambda"
+  },
+  {
+    "t_start": 692.75,
+    "t_end": 694.82,
+    "text": "gives you a new branch. And it gets"
+  },
+  {
+    "t_start": 694.82,
+    "t_end": 696.98,
+    "text": "insane, it gets- it gets so you can't"
+  },
+  {
+    "t_start": 696.98,
+    "t_end": 698.39,
+    "text": "make any change even to the accuracy of"
+  },
+  {
+    "t_start": 698.39,
+    "t_end": 700.55,
+    "text": "your calculator and expect to notice the"
+  },
+  {
+    "t_start": 700.55,
+    "t_end": 701.93,
+    "text": "difference but massively different"
+  },
+  {
+    "t_start": 701.93,
+    "t_end": 703.31,
+    "text": "behaviour is happening. And if you"
+  },
+  {
+    "t_start": 703.31,
+    "t_end": 704.57,
+    "text": "recognise this sort of thing, this is"
+  },
+  {
+    "t_start": 704.57,
+    "t_end": 706.88,
+    "text": "this was being studied before the word"
+  },
+  {
+    "t_start": 706.88,
+    "t_end": 709.46,
+    "text": "chaos was used, but we now understand"
+  },
+  {
+    "t_start": 709.46,
+    "t_end": 710.99,
+    "text": "technically the word chaos - apart from"
+  },
+  {
+    "t_start": 710.99,
+    "t_end": 713.78,
+    "text": "just meaning mess; it means technically something"
+  },
+  {
+    "t_start": 713.78,
+    "t_end": 715.46,
+    "text": "which is really sensitive to initial"
+  },
+  {
+    "t_start": 715.46,
+    "t_end": 717.53,
+    "text": "conditions. So this is a good example: a"
+  },
+  {
+    "t_start": 717.53,
+    "t_end": 719.03,
+    "text": "tiny change in our lambda gave you"
+  },
+  {
+    "t_start": 719.03,
+    "t_end": 721.19,
+    "text": "massively different behaviour. And from a"
+  },
+  {
+    "t_start": 721.19,
+    "t_end": 723.44,
+    "text": "modelling point of view for rabbits, this"
+  },
+  {
+    "t_start": 723.44,
+    "t_end": 725.42,
+    "text": "stops getting useful because it becomes"
+  },
+  {
+    "t_start": 725.42,
+    "t_end": 726.47,
+    "text": "very hard to predict what's going to"
+  },
+  {
+    "t_start": 726.47,
+    "t_end": 727.82,
+    "text": "happen with a certain value of lambda."
+  },
+  {
+    "t_start": 727.82,
+    "t_end": 730.7,
+    "text": "But there is a final twist. Before I get"
+  },
+  {
+    "t_start": 730.7,
+    "t_end": 732.11,
+    "text": "to a final twist, which is what happens"
+  },
+  {
+    "t_start": 732.11,
+    "t_end": 733.73,
+    "text": "that graph further to the right,"
+  },
+  {
+    "t_start": 733.73,
+    "t_end": 735.95,
+    "text": "Mitchell Feigenbaum got involved in this"
+  },
+  {
+    "t_start": 735.95,
+    "t_end": 737.51,
+    "text": "at this point, in the 70s. And he was"
+  },
+  {
+    "t_start": 737.51,
+    "t_end": 738.79,
+    "text": "looking at this thinking, this is- it's"
+  },
+  {
+    "t_start": 738.79,
+    "t_end": 741.14,
+    "text": "surprising that a simple function does"
+  },
+  {
+    "t_start": 741.14,
+    "t_end": 742.64,
+    "text": "an interesting thing like this. And he"
+  },
+  {
+    "t_start": 742.64,
+    "t_end": 744.41,
+    "text": "started to study how quickly this"
+  },
+  {
+    "t_start": 744.41,
+    "t_end": 746.54,
+    "text": "doubling happened. So that that took a"
+  },
+  {
+    "t_start": 746.54,
+    "t_end": 751.22,
+    "text": "little gap, and this took a shorter gap,"
+  },
+  {
+    "t_start": 751.22,
+    "t_end": 752.69,
+    "text": "because it's going quicker and quicker."
+  },
+  {
+    "t_start": 752.69,
+    "t_end": 754.28,
+    "text": "And he thought it'd be interesting to know"
+  },
+  {
+    "t_start": 754.28,
+    "t_end": 755.78,
+    "text": "if this is a sort of regular scaling"
+  },
+  {
+    "t_start": 755.78,
+    "t_end": 757.1,
+    "text": "thing; he didn't think it would be"
+  },
+  {
+    "t_start": 757.1,
+    "t_end": 759.89,
+    "text": "because it's doing crazy stuff, but he"
+  },
+  {
+    "t_start": 759.89,
+    "t_end": 761.12,
+    "text": "started dividing one of these these"
+  },
+  {
+    "t_start": 761.12,
+    "t_end": 763.19,
+    "text": "regions so like, if you divide that width"
+  },
+  {
+    "t_start": 763.19,
+    "t_end": 764.69,
+    "text": "by that width and then that one by the"
+  },
+  {
+    "t_start": 764.69,
+    "t_end": 766.4,
+    "text": "previous one, just to see the ratio. And"
+  },
+  {
+    "t_start": 766.4,
+    "t_end": 768.11,
+    "text": "he got this number, Feigenbaum's constant"
+  },
+  {
+    "t_start": 768.11,
+    "t_end": 770.23,
+    "text": "it's called now: 4.669."
+  },
+  {
+    "t_start": 770.23,
+    "t_end": 773.15,
+    "text": "Now, in itself is quite amazing this has"
+  },
+  {
+    "t_start": 773.15,
+    "t_end": 774.98,
+    "text": "a nice regular behaviour, what it's saying"
+  },
+  {
+    "t_start": 774.98,
+    "t_end": 777.74,
+    "text": "is that this gap is about 4.6 times"
+  },
+  {
+    "t_start": 777.74,
+    "t_end": 779.42,
+    "text": "smaller than the previous gap."
+  },
+  {
+    "t_start": 779.42,
+    "t_end": 781.01,
+    "text": "So the period doubling is getting"
+  },
+  {
+    "t_start": 781.01,
+    "t_end": 782.48,
+    "text": "quicker and quicker, it's a geometric"
+  },
+  {
+    "t_start": 782.48,
+    "t_end": 785.19,
+    "text": "series in fact. If you multiply that by 1 over"
+  },
+  {
+    "t_start": 785.19,
+    "t_end": 787.32,
+    "text": "4.669 you'd roughly get this one. And"
+  },
+  {
+    "t_start": 787.32,
+    "t_end": 788.94,
+    "text": "if you keep going he managed to prove"
+  },
+  {
+    "t_start": 788.94,
+    "t_end": 790.56,
+    "text": "that this is the ratio it's tending"
+  },
+  {
+    "t_start": 790.56,
+    "t_end": 792.06,
+    "text": "towards. But he doesn't know what this"
+  },
+  {
+    "t_start": 792.06,
+    "t_end": 793.35,
+    "text": "number is and still no one knows"
+  },
+  {
+    "t_start": 793.35,
+    "t_end": 795.57,
+    "text": "actually what this number is - we don't we"
+  },
+  {
+    "t_start": 795.57,
+    "t_end": 798.0,
+    "text": "don't have a closed form of explaining"
+  },
+  {
+    "t_start": 798.0,
+    "t_end": 798.75,
+    "text": "what this number is."
+  },
+  {
+    "t_start": 798.75,
+    "t_end": 801.48,
+    "text": "What is genuinely shocking is that he"
+  },
+  {
+    "t_start": 801.48,
+    "t_end": 803.31,
+    "text": "then looked at some other equations."
+  },
+  {
+    "t_start": 803.31,
+    "t_end": 805.14,
+    "text": "Forget biology now, he just looked at"
+  },
+  {
+    "t_start": 805.14,
+    "t_end": 807.21,
+    "text": "other quadratic equations; if you haven't"
+  },
+  {
+    "t_start": 807.21,
+    "t_end": 808.32,
+    "text": "spotted already I'm just gonna point it"
+  },
+  {
+    "t_start": 808.32,
+    "t_end": 810.78,
+    "text": "out, this equation here is a quadratic"
+  },
+  {
+    "t_start": 810.78,
+    "t_end": 813.15,
+    "text": "because it has an x times an x. He looked"
+  },
+  {
+    "t_start": 813.15,
+    "t_end": 815.43,
+    "text": "at all sorts of other functions, all of"
+  },
+  {
+    "t_start": 815.43,
+    "t_end": 816.81,
+    "text": "them having a single sort of hump and"
+  },
+  {
+    "t_start": 816.81,
+    "t_end": 818.19,
+    "text": "this is a quadratic map with a single"
+  },
+  {
+    "t_start": 818.19,
+    "t_end": 821.49,
+    "text": "hump. And he found that every function he"
+  },
+  {
+    "t_start": 821.49,
+    "t_end": 823.53,
+    "text": "looked at not only exhibited this period"
+  },
+  {
+    "t_start": 823.53,
+    "t_end": 825.75,
+    "text": "doubling, if you started fiddling with"
+  },
+  {
+    "t_start": 825.75,
+    "t_end": 828.51,
+    "text": "the parameter, but it also scaled with"
+  },
+  {
+    "t_start": 828.51,
+    "t_end": 830.82,
+    "text": "that number. And it turns out now this is"
+  },
+  {
+    "t_start": 830.82,
+    "t_end": 832.77,
+    "text": "called Feigenbaum's constant because every"
+  },
+  {
+    "t_start": 832.77,
+    "t_end": 836.34,
+    "text": "uni-modal map for quadratic map scales"
+  },
+  {
+    "t_start": 836.34,
+    "t_end": 838.23,
+    "text": "like this. And no one knows what this"
+  },
+  {
+    "t_start": 838.23,
+    "t_end": 840.18,
+    "text": "number is, or why things are behaving"
+  },
+  {
+    "t_start": 840.18,
+    "t_end": 841.86,
+    "text": "like this but it seems to describe a"
+  },
+  {
+    "t_start": 841.86,
+    "t_end": 843.45,
+    "text": "whole raft of things which no one had"
+  },
+  {
+    "t_start": 843.45,
+    "t_end": 844.74,
+    "text": "ever looked at before. And there was this"
+  },
+  {
+    "t_start": 844.74,
+    "t_end": 846.39,
+    "text": "concept of universality, that even"
+  },
+  {
+    "t_start": 846.39,
+    "t_end": 848.4,
+    "text": "different situations are still captured"
+  },
+  {
+    "t_start": 848.4,
+    "t_end": 850.17,
+    "text": "by this number. So I'm going to recreate"
+  },
+  {
+    "t_start": 850.17,
+    "t_end": 852.45,
+    "text": "the diagram we had earlier on paper, I'm just"
+  },
+  {
+    "t_start": 852.45,
+    "t_end": 854.46,
+    "text": "going to start that here. So we've"
+  },
+  {
+    "t_start": 854.46,
+    "t_end": 857.1,
+    "text": "got our lambda along here, and this"
+  },
+  {
+    "t_start": 857.1,
+    "t_end": 858.72,
+    "text": "little red dot which is now tracking"
+  },
+  {
+    "t_start": 858.72,
+    "t_end": 860.13,
+    "text": "across- we're in the dead zone here."
+  },
+  {
+    "t_start": 860.13,
+    "t_end": 862.89,
+    "text": "This is where population is dead, but"
+  },
+  {
+    "t_start": 862.89,
+    "t_end": 865.02,
+    "text": "after 1 you see it spikes up. So this"
+  },
+  {
+    "t_start": 865.02,
+    "t_end": 867.78,
+    "text": "is a stable population now. And it's"
+  },
+  {
+    "t_start": 867.78,
+    "t_end": 868.95,
+    "text": "going to go all the way to 3 before"
+  },
+  {
+    "t_start": 868.95,
+    "t_end": 869.97,
+    "text": "it does- you can you remember what"
+  },
+  {
+    "t_start": 869.97,
+    "t_end": 872.13,
+    "text": "happens it's going to split, bifurcate, at"
+  },
+  {
+    "t_start": 872.13,
+    "t_end": 875.04,
+    "text": "3. So that's our two-cycle. And then"
+  },
+  {
+    "t_start": 875.04,
+    "t_end": 876.47,
+    "text": "I told you that it does something"
+  },
+  {
+    "t_start": 876.47,
+    "t_end": 879.3,
+    "text": "roundabout 3.4, just a little bit"
+  },
+  {
+    "t_start": 879.3,
+    "t_end": 880.83,
+    "text": "afterwards I'll show you that now, splits again."
+  },
+  {
+    "t_start": 880.83,
+    "t_end": 883.5,
+    "text": "That's our second bifurcation. But you"
+  },
+  {
+    "t_start": 883.5,
+    "t_end": 884.52,
+    "text": "know it's going to get quicker and"
+  },
+  {
+    "t_start": 884.52,
+    "t_end": 886.08,
+    "text": "quicker, this is what Feigenbaum found. So"
+  },
+  {
+    "t_start": 886.08,
+    "t_end": 888.57,
+    "text": "after this it's going to period double"
+  },
+  {
+    "t_start": 888.57,
+    "t_end": 891.33,
+    "text": "very very very quickly. But actually at a"
+  },
+  {
+    "t_start": 891.33,
+    "t_end": 893.45,
+    "text": "point which is about 3.59,"
+  },
+  {
+    "t_start": 893.45,
+    "t_end": 896.43,
+    "text": "it's not very far away, you can"
+  },
+  {
+    "t_start": 896.43,
+    "t_end": 898.47,
+    "text": "prove the period doubling must stop at"
+  },
+  {
+    "t_start": 898.47,
+    "t_end": 900.51,
+    "text": "that point, because that would be like"
+  },
+  {
+    "t_start": 900.51,
+    "t_end": 902.82,
+    "text": "the- if you add a geometric series up"
+  },
+  {
+    "t_start": 902.82,
+    "t_end": 904.23,
+    "text": "to infinity there's there's a limit. And"
+  },
+  {
+    "t_start": 904.23,
+    "t_end": 906.75,
+    "text": "so the prediction doesn't tell you what"
+  },
+  {
+    "t_start": 906.75,
+    "t_end": 909.27,
+    "text": "happens after that point, but you can see"
+  },
+  {
+    "t_start": 909.27,
+    "t_end": 911.47,
+    "text": "it. We can go beyond infinity right now."
+  },
+  {
+    "t_start": 911.47,
+    "t_end": 913.42,
+    "text": "So at 3.6 the period doubling is going"
+  },
+  {
+    "t_start": 913.42,
+    "t_end": 914.56,
+    "text": "to stop and something else is going to"
+  },
+  {
+    "t_start": 914.56,
+    "t_end": 920.32,
+    "text": "take over, and just a little watch of this. So"
+  },
+  {
+    "t_start": 920.32,
+    "t_end": 922.39,
+    "text": "there's a very strange behaviour. It's nice"
+  },
+  {
+    "t_start": 922.39,
+    "t_end": 925.24,
+    "text": "and simple and then crazy. And actually"
+  },
+  {
+    "t_start": 925.24,
+    "t_end": 927.13,
+    "text": "this is a good example of chaos as well."
+  },
+  {
+    "t_start": 927.13,
+    "t_end": 928.45,
+    "text": "I'm going to zoom in on that region. So"
+  },
+  {
+    "t_start": 928.45,
+    "t_end": 931.3,
+    "text": "here's the two-cycle and then it's split"
+  },
+  {
+    "t_start": 931.3,
+    "t_end": 932.98,
+    "text": "again to a four-cycle and then eight then"
+  },
+  {
+    "t_start": 932.98,
+    "t_end": 934.99,
+    "text": "sixteen and then right there we've gone"
+  },
+  {
+    "t_start": 934.99,
+    "t_end": 937.09,
+    "text": "in what we call the onset of chaos. And"
+  },
+  {
+    "t_start": 937.09,
+    "t_end": 939.13,
+    "text": "it's a technical term; chaos meaning"
+  },
+  {
+    "t_start": 939.13,
+    "t_end": 941.47,
+    "text": "really sensitive. But it's it's almost"
+  },
+  {
+    "t_start": 941.47,
+    "t_end": 943.18,
+    "text": "beautiful, there's weird structure"
+  },
+  {
+    "t_start": 943.18,
+    "t_end": 945.13,
+    "text": "happening here, this is not a glitch in"
+  },
+  {
+    "t_start": 945.13,
+    "t_end": 947.65,
+    "text": "my software - and yet it looks like for"
+  },
+  {
+    "t_start": 947.65,
+    "t_end": 949.24,
+    "text": "most of it it's spitting out random. So these"
+  },
+  {
+    "t_start": 949.24,
+    "t_end": 950.47,
+    "text": "are the populations, every time you press"
+  },
+  {
+    "t_start": 950.47,
+    "t_end": 952.48,
+    "text": "equal it's creating a dot. - (Brady: Does this get)"
+  },
+  {
+    "t_start": 952.48,
+    "t_end": 955.48,
+    "text": "(crazier then like the Mandelbrot set?) - You're right to spot"
+  },
+  {
+    "t_start": 955.48,
+    "t_end": 957.1,
+    "text": "that, the Mandelbrot set is involved with"
+  },
+  {
+    "t_start": 957.1,
+    "t_end": 959.05,
+    "text": "this because this is a fractal. If you zoom"
+  },
+  {
+    "t_start": 959.05,
+    "t_end": 961.42,
+    "text": "in on stuff, so if I zoomed in on this period"
+  },
+  {
+    "t_start": 961.42,
+    "t_end": 963.07,
+    "text": "doubling bit you could see more period"
+  },
+  {
+    "t_start": 963.07,
+    "t_end": 965.62,
+    "text": "doubling, it's self-similar. But then the"
+  },
+  {
+    "t_start": 965.62,
+    "t_end": 966.85,
+    "text": "self-similarity seems to sort of go a"
+  },
+  {
+    "t_start": 966.85,
+    "t_end": 969.4,
+    "text": "bit crazy. Actually this is the"
+  },
+  {
+    "t_start": 969.4,
+    "t_end": 971.32,
+    "text": "Mandelbrot set, but you're only seeing one"
+  },
+  {
+    "t_start": 971.32,
+    "t_end": 973.3,
+    "text": "dimension of it. The Mandelbrot set, as"
+  },
+  {
+    "t_start": 973.3,
+    "t_end": 975.31,
+    "text": "you may know, is all about using complex"
+  },
+  {
+    "t_start": 975.31,
+    "t_end": 976.81,
+    "text": "numbers, you need two dimensional numbers."
+  },
+  {
+    "t_start": 976.81,
+    "t_end": 978.73,
+    "text": "If you just looked at the central line"
+  },
+  {
+    "t_start": 978.73,
+    "t_end": 980.92,
+    "text": "of the Mandelbrot set and plotted what"
+  },
+  {
+    "t_start": 980.92,
+    "t_end": 982.03,
+    "text": "the points do when you do the"
+  },
+  {
+    "t_start": 982.03,
+    "t_end": 984.07,
+    "text": "iteration this is what you're seeing. And"
+  },
+  {
+    "t_start": 984.07,
+    "t_end": 985.51,
+    "text": "actually this was happening the same"
+  },
+  {
+    "t_start": 985.51,
+    "t_end": 986.92,
+    "text": "time as Benoit Mandelbrot was"
+  },
+  {
+    "t_start": 986.92,
+    "t_end": 988.54,
+    "text": "discovering about the beginnings of"
+  },
+  {
+    "t_start": 988.54,
+    "t_end": 989.98,
+    "text": "fractals and chaos, so this is all tied"
+  },
+  {
+    "t_start": 989.98,
+    "t_end": 991.72,
+    "text": "together. What's lovely about this is that"
+  },
+  {
+    "t_start": 991.72,
+    "t_end": 993.82,
+    "text": "even in chaos you get order turning up."
+  },
+  {
+    "t_start": 993.82,
+    "t_end": 996.4,
+    "text": "So this here is a three-cycle. It's going"
+  },
+  {
+    "t_start": 996.4,
+    "t_end": 997.9,
+    "text": "crazy over here, and then suddenly it"
+  },
+  {
+    "t_start": 997.9,
+    "t_end": 999.31,
+    "text": "settles down to stable behaviour, three"
+  },
+  {
+    "t_start": 999.31,
+    "t_end": 1002.64,
+    "text": "cycle, in fact it doubles to a- you get 6"
+  },
+  {
+    "t_start": 1002.64,
+    "t_end": 1004.68,
+    "text": "and then you get 12 but then it goes"
+  },
+  {
+    "t_start": 1004.68,
+    "t_end": 1007.26,
+    "text": "back to chaos again. And nobody expected"
+  },
+  {
+    "t_start": 1007.26,
+    "t_end": 1008.94,
+    "text": "this behaviour to happen from a really"
+  },
+  {
+    "t_start": 1008.94,
+    "t_end": 1010.23,
+    "text": "simple equation, it's just the same"
+  },
+  {
+    "t_start": 1010.23,
+    "t_end": 1011.43,
+    "text": "equation we've been using all along. And"
+  },
+  {
+    "t_start": 1011.43,
+    "t_end": 1012.96,
+    "text": "it was the beginning of chaos theory,"
+  },
+  {
+    "t_start": 1012.96,
+    "t_end": 1014.64,
+    "text": "what they call non-linear dynamics now,"
+  },
+  {
+    "t_start": 1014.64,
+    "t_end": 1017.07,
+    "text": "where simple deterministic"
+  },
+  {
+    "t_start": 1017.07,
+    "t_end": 1018.75,
+    "text": "equations have very unpredictable"
+  },
+  {
+    "t_start": 1018.75,
+    "t_end": 1021.089,
+    "text": "results. And one massive application for"
+  },
+  {
+    "t_start": 1021.089,
+    "t_end": 1022.98,
+    "text": "it is if you want a computer to generate"
+  },
+  {
+    "t_start": 1022.98,
+    "t_end": 1026.25,
+    "text": "a random number - you can't. Like, you tell"
+  },
+  {
+    "t_start": 1026.25,
+    "t_end": 1027.209,
+    "text": "the computer to pick something random"
+  },
+  {
+    "t_start": 1027.209,
+    "t_end": 1030.42,
+    "text": "and it goes, uhh 7? No it doesn't have a 'uhh'"
+  },
+  {
+    "t_start": 1030.42,
+    "t_end": 1032.64,
+    "text": "function like we do, although we always"
+  },
+  {
+    "t_start": 1032.64,
+    "t_end": 1034.5,
+    "text": "pick 7 it seems. But if you wanted a"
+  },
+  {
+    "t_start": 1034.5,
+    "t_end": 1035.76,
+    "text": "computer to spit out a random number you"
+  },
+  {
+    "t_start": 1035.76,
+    "t_end": 1037.14,
+    "text": "have to pretend- you have to tell you"
+  },
+  {
+    "t_start": 1037.14,
+    "t_end": 1038.579,
+    "text": "what to do because it's a computer; but"
+  },
+  {
+    "t_start": 1038.579,
+    "t_end": 1040.14,
+    "text": "what you could do is tell it to use this"
+  },
+  {
+    "t_start": 1040.14,
+    "t_end": 1041.79,
+    "text": "function,"
+  },
+  {
+    "t_start": 1041.79,
+    "t_end": 1043.47,
+    "text": "press equals a few times near the end of"
+  },
+  {
+    "t_start": 1043.47,
+    "t_end": 1045.93,
+    "text": "our diagram and it would spit out a"
+  },
+  {
+    "t_start": 1045.93,
+    "t_end": 1047.25,
+    "text": "number which appears to be random, they"
+  },
+  {
+    "t_start": 1047.25,
+    "t_end": 1048.63,
+    "text": "call them pseudo-random numbers, but"
+  },
+  {
+    "t_start": 1048.63,
+    "t_end": 1050.73,
+    "text": "this formula was one of the first ones"
+  },
+  {
+    "t_start": 1050.73,
+    "t_end": 1053.19,
+    "text": "they ever used to make what we now call"
+  },
+  {
+    "t_start": 1053.19,
+    "t_end": 1054.92,
+    "text": "pseudo-random numbers."
+  },
+  {
+    "t_start": 1056.56,
+    "t_end": 1058.62,
+    "text": "If you've enjoyed this video you might be the sort of"
+  },
+  {
+    "t_start": 1058.62,
+    "t_end": 1060.51,
+    "text": "person who would like the Great Courses"
+  },
+  {
+    "t_start": 1060.51,
+    "t_end": 1063.3,
+    "text": "Plus. This is a huge on-demand video"
+  },
+  {
+    "t_start": 1063.3,
+    "t_end": 1065.85,
+    "text": "library starring the best lecturers and"
+  },
+  {
+    "t_start": 1065.85,
+    "t_end": 1067.8,
+    "text": "teachers from around the world. Joining"
+  },
+  {
+    "t_start": 1067.8,
+    "t_end": 1069.78,
+    "text": "up gives you unlimited access to this"
+  },
+  {
+    "t_start": 1069.78,
+    "t_end": 1072.6,
+    "text": "vast library of really in-depth meaty"
+  },
+  {
+    "t_start": 1072.6,
+    "t_end": 1074.48,
+    "text": "courses about all sorts of things."
+  },
+  {
+    "t_start": 1074.48,
+    "t_end": 1076.53,
+    "text": "Including some brilliant ones about"
+  },
+  {
+    "t_start": 1076.53,
+    "t_end": 1079.95,
+    "text": "mathematics and, for example, this one all"
+  },
+  {
+    "t_start": 1079.95,
+    "t_end": 1080.97,
+    "text": "about fractals."
+  },
+  {
+    "t_start": 1080.97,
+    "t_end": 1082.65,
+    "text": "But whatever your passion or interest"
+  },
+  {
+    "t_start": 1082.65,
+    "t_end": 1084.99,
+    "text": "the Great Courses Plus is going to have"
+  },
+  {
+    "t_start": 1084.99,
+    "t_end": 1087.84,
+    "text": "something, probably many things, up your alley."
+  },
+  {
+    "t_start": 1087.84,
+    "t_end": 1090.0,
+    "text": "Just lately I've been watching this"
+  },
+  {
+    "t_start": 1090.0,
+    "t_end": 1092.28,
+    "text": "particular video all about the early"
+  },
+  {
+    "t_start": 1092.28,
+    "t_end": 1094.95,
+    "text": "days of aviation because, well, I love"
+  },
+  {
+    "t_start": 1094.95,
+    "t_end": 1096.96,
+    "text": "anything to do with planes. To have a look"
+  },
+  {
+    "t_start": 1096.96,
+    "t_end": 1100.89,
+    "text": "go to TheGreatCoursesPlus.com/numberphile,"
+  },
+  {
+    "t_start": 1100.89,
+    "t_end": 1102.03,
+    "text": "the link's there on the"
+  },
+  {
+    "t_start": 1102.03,
+    "t_end": 1103.77,
+    "text": "screen, and there's also a link in the"
+  },
+  {
+    "t_start": 1103.77,
+    "t_end": 1105.24,
+    "text": "video description you can just click on."
+  },
+  {
+    "t_start": 1105.24,
+    "t_end": 1107.43,
+    "text": "Using the link will give you a free"
+  },
+  {
+    "t_start": 1107.43,
+    "t_end": 1110.13,
+    "text": "one-month trial with total access to the"
+  },
+  {
+    "t_start": 1110.13,
+    "t_end": 1112.05,
+    "text": "whole archive. So why not give them a"
+  },
+  {
+    "t_start": 1112.05,
+    "t_end": 1113.22,
+    "text": "look? It's a way of showing a bit of"
+  },
+  {
+    "t_start": 1113.22,
+    "t_end": 1114.96,
+    "text": "support for Numberphile but also a"
+  },
+  {
+    "t_start": 1114.96,
+    "t_end": 1117.98,
+    "text": "chance to do some serious binge learning."
+  },
+  {
+    "t_start": 1117.98,
+    "t_end": 1123.78,
+    "text": "[Outtakes] Oi, what are you doing? - Hello Audrey"
+  },
+  {
+    "t_start": 1123.78,
+    "t_end": 1124.92,
+    "text": "You heard about chaos and thought that'll be"
+  },
+  {
+    "t_start": 1124.92,
+    "t_end": 1128.52,
+    "text": "exciting, yeh? - Aww cutie"
+  },
+  {
+    "t_start": 1128.52,
+    "t_end": 1130.46,
+    "text": "You are delightful!"
+  },
+  {
+    "t_start": 1130.46,
+    "t_end": 1134.11,
+    "text": "Come on, out we go. Out, out!"
+  }
+]

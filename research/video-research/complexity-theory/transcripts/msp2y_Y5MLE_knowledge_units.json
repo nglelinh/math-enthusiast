@@ -1,0 +1,282 @@
+[
+  {
+    "id": "ku_video_msp2y_Y5MLE_36",
+    "t_start": 36.8,
+    "t_end": 128.2,
+    "type": "overview",
+    "summary": "well thank you so much for coming here tonight to uh listen to a talk about tonight to uh listen to a talk about mathematics I'm Jim Carlson president of mathematics I'm Jim Carlson president of the clay Mathematics Institute which is the clay Mathematics Institute which is uh located on one Bow Street right by however you wish to locate it um the clay Mathematics Institute is dedicated clay Mathematics Institute is dedicated to furthering the creation and to furthering the creation and dissemination of mathematics it was dissemination of mathematics it was formed due to the generosity of L…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_128",
+    "t_start": 128.2,
+    "t_end": 220.2,
+    "type": "overview",
+    "summary": "versus NP problem I won't say anything about it because uh Michael can say it much better than I can uh Michael was an undergraduate at Cornell University he received his PhD at Berkeley and since 1980 he has been at MIT he's taught many 1980 he has been at MIT he's taught many courses there including everything from courses there including everything from basic calculus to graduate courses in complexity he also the author of a widely used textbook introduction to the widely used textbook introduction to the theory of complexity his research theory of complexity his research interests are l…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_220",
+    "t_start": 220.2,
+    "t_end": 313.0,
+    "type": "overview",
+    "summary": "various problems on a computer now even though computer is very fast um for certain kinds of problems they seem to take a long time and it's they seem to take a long time and it's not really well understood why that is not really well understood why that is so we're going to explore that let's so we're going to explore that let's we'll start off with something we'll start off with something simple let's take the problem simple let's take the problem um 7 * 13 that's an example of something multiplication just for you know in case you're just getting up to speed the you're just getting up to…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_313",
+    "t_start": 313.0,
+    "t_end": 404.1,
+    "type": "overview",
+    "summary": "second but let's take a look at something more interesting what happens something more interesting what happens if you look at the reverse problem the product well we already know what the answer is but suppose you didn't write answer is but suppose you didn't write it down from the previous SL it down from the previous SL you just went directly from you just went directly from this let's see oops this uh product this this let's see oops this uh product this product here in blue to the and you wanted to figure out what the two factors were okay so that's something you could solve on a compu…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_404",
+    "t_start": 404.1,
+    "t_end": 500.6,
+    "type": "overview",
+    "summary": "problem so if you want to turn on your computers and you know want to spend previous one it's going to be more than 20 computer years probably a lot more um 20 computer years probably a lot more um but you can earn $30,000 that way now but you can earn $30,000 that way now why in the world is somebody spending why in the world is somebody spending that kind of money to fact numbers well that kind of money to fact numbers well this is actually comes from this company called RSA and you can just Google it on if you Google you know the RSA factoring if you Google you know the RSA factoring cha…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_500",
+    "t_start": 500.6,
+    "t_end": 593.1,
+    "type": "overview",
+    "summary": "solve on a computer well um the reason for that is in contrast with for that is in contrast with multiplication we can kind of Zoom right multiplication we can kind of Zoom right in on the answer and for factoring all in on the answer and for factoring all we know how to do is to search for the answer given your number that you want to factor you try dividing by two by three you can confine yourself just to the prime numbers to save yourself a little bit of time anyway and you try you know dividing by five seven if at you know dividing by five seven if at any point you find a number find on…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_593",
+    "t_start": 593.1,
+    "t_end": 688.8,
+    "type": "overview",
+    "summary": "say the factoring problem that Zooms in on the answer without searching that would be amazing and in fact we don't know the answer to that fact we don't know the answer to that question seems like factoring needs searching at least as far as we know I mean you can do some things that are mean you can do some things that are some some improvements on the simple-minded method that I gave you and cut down the search space somewhat but cut down the search space somewhat but the only Al the only procedures that we the only Al the only procedures that we know still involve searching through a kno…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_688",
+    "t_start": 688.8,
+    "t_end": 783.9,
+    "type": "overview",
+    "summary": "three click this a four click four nodes all connected by lines and so on and if what I'm interested in doing is finding Among The Faculty among these nodes Among The Faculty among these nodes groups which form clicks presumably as large as I can get so I can have a decent sized party so you know over here decent sized party so you know over here I got a a three click down here I got a four click question is is that the best I can click question is is that the best I can do or maybe can I find a bigger click than that well you're really quick you can see that in fact there is a five cleak i…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_783",
+    "t_start": 783.9,
+    "t_end": 877.3,
+    "type": "overview",
+    "summary": "know of a reasonably decent size it would take centuries maybe even would take centuries maybe even Millennia of computer time to search Millennia of computer time to search through all the possibilities you see it's a very similar kind of situation with factoring similar kind of situation with factoring and it's even more similar in that you can ask the same question do you really need to search or is there some way to need to search or is there some way to zoom in on those on that big click quickly without searching we don't know so both the click and the factoring problem are examples of…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_877",
+    "t_start": 877.3,
+    "t_end": 969.0,
+    "type": "overview",
+    "summary": "all so the question that we're asking in the case of factoring and click is there the case of factoring and click is there some kind of mathematical analog to the some kind of mathematical analog to the magnet that pulls out the answer without magnet that pulls out the answer without having to search for it in neither of those cases do we know and in fact that phenomenon is very very pervasive it's phenomenon is very very pervasive it's very widespread spread throughout very widespread spread throughout problem in Engineering in in economics problem in Engineering in in economics in optimiz…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_968",
+    "t_start": 969.0,
+    "t_end": 1062.2,
+    "type": "overview",
+    "summary": "one knows if there's a you know if there's a faster way another problem of interest to mathematicians is the problem of theorem proving another searching type problem if I want to know is there a proof of a if I want to know is there a proof of a theorem of a certain length so okay you theorem of a certain length so okay you know I given some mathematical know I given some mathematical statements say and I want to know is which is at most 100 Pages well I could do that in principle Pages well I could do that in principle by a computer I can make that check by possible proof of 100 pages lon…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_1062",
+    "t_start": 1062.2,
+    "t_end": 1152.8,
+    "type": "overview",
+    "summary": "want to get too technical about it but for our point of view polinomial time for our point of view polinomial time where you you're you're considering how long the procedure is going to run in terms of the length of the input to the terms of the length of the input to the procedure and it only Grows by a procedure and it only Grows by a polinomial number of steps compared with polinomial number of steps compared with um an exponential number of steps which is what you would need if you had a a searching problem polinomial time is searching problem polinomial time is considered fast so the P…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_1152",
+    "t_start": 1152.8,
+    "t_end": 1240.8,
+    "type": "overview",
+    "summary": "multiplying them together and seeing if I get the right result so checking is easy that's the essence of NP same with click if I'm essence of NP same with click if I'm trying to determine does my NE you know trying to determine does my NE you know is there a n within my network are there is there a n within my network are there a hundred nodes that form a click that a hundred nodes that form a click that are all connected to one another it might take me a long time to find it but once I have found it I can check that it once I have found it I can check that it works that it's really a 100 n…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_1244",
+    "t_start": 1244.0,
+    "t_end": 1334.8,
+    "type": "overview",
+    "summary": "different from NP then we know that there are certain checkable problems which are not certain easily checkable problems which are not easily solvable and so that tells us that there were certain problems that really require certain problems that really require searching can't be eliminated so if you didn't follow that exactly all thing to remember is that either P thing to remember is that either P equals NP which means you can always equals NP which means you can always eliminate searching or p is different eliminate searching or p is different from NP which tells you that sometimes from …"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_1334",
+    "t_start": 1334.8,
+    "t_end": 1425.7,
+    "type": "overview",
+    "summary": "bunch of interesting theorems at the same time now some years after that in 1970s there were several papers by cook Lev and and carp which established the P Lev and and carp which established the P versus NP question as an important one versus NP question as an important one and and sort of this companion notion of and and sort of this companion notion of NP completeness which I'll talk about in NP completeness which I'll talk about in a bit so it really in the literature the P versus NP question traces its roots back to the early 1970s okay but about 15 years ago an amazing Discovery was m…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_1425",
+    "t_start": 1425.7,
+    "t_end": 1513.3,
+    "type": "overview",
+    "summary": "that in any reasonable mathematical system there are certain true statements system there are certain true statements which cannot be proven to be true within certain mathematicians of that day because they had believed belied that because they had believed belied that anything any mathematical question would anything any mathematical question would ultimately be resolved if he just worked wasn't true there are some things that are some in some sense can might never be known um this happens to be the H 100th anniversary anniversary of his birth at the same time as being the 50th anniversary…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_1518",
+    "t_start": 1518.1,
+    "t_end": 1610.5,
+    "type": "overview",
+    "summary": "um so it starts off liba her vanman this is the salutation Dear Mr vanoyan um and is the salutation Dear Mr vanoyan um and here's the uh date March 20th here's the uh date March 20th 1956 and Prince now and one thing that's sort of curious is both girdle and vanman were at The is both girdle and vanman were at The Institute for advanced study at Institute for advanced study at Princeton presumably with offices down Princeton presumably with offices down the hall from one another um so it's sort of strange that girl is writing voman a letter like this um however you voman a letter like this …"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_1610",
+    "t_start": 1610.5,
+    "t_end": 1703.7,
+    "type": "overview",
+    "summary": "um he says suppose we have a machine which can tell whether a mathematical which can tell whether a mathematical statement has a proof of length n for how much time does that machine need and remember that's the question we talked remember that's the question we talked about just a few slides back this is a machine can certainly get the answer but it would have to search through all it would have to search through all possible proofs of length n and that possible proofs of length n and that would take a long time so here is what says you know def Fraga East blah blah blah the question blah …"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_1703",
+    "t_start": 1703.7,
+    "t_end": 1794.6,
+    "type": "overview",
+    "summary": "that this would be uh very important to resolve this question it's a very resolve this question it's a very significant uh uh one way or the other significant uh uh one way or the other other um and over here oops he refers to bossen probin which I think Loosely translates to brute force think Loosely translates to brute force or exhaustive search I think it or exhaustive search I think it literally means something like blind or literally means something like blind or or bar trying but you know it's he's aware of this issue of exhaustive search as you this issue of exhaustive search as you …"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_1794",
+    "t_start": 1794.6,
+    "t_end": 1885.0,
+    "type": "overview",
+    "summary": "so in the 50 years since girdle's letter um P versus NP question has kind of um P versus NP question has kind of ained a certain almost Mythic status ained a certain almost Mythic status within computer science field within within computer science field within theoretical computer science it's kind of now thought of as the Holy Grail problem of theoretical computer science problem of theoretical computer science and also within the mathematical and also within the mathematical Community it's it's considered to be one Community it's it's considered to be one of the great problems in contempo…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_1885",
+    "t_start": 1885.0,
+    "t_end": 1976.9,
+    "type": "overview",
+    "summary": "mark there it doesn't have a bullet anymore because that problem has anymore because that problem has actually been solved um you probably know uh the story of Pearlman I'm not going to get into that whole complicated going to get into that whole complicated mess uh but he uh didn't accept the mess uh but he uh didn't accept the fields medal um uh few month ago or so fields medal um uh few month ago or so and um even though he's the one who and um even though he's the one who solved this problem and it's not known solved this problem and it's not known yet whether he's going to accept a yet…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_1976",
+    "t_start": 1976.9,
+    "t_end": 2068.1,
+    "type": "overview",
+    "summary": "couple of times a year I get a manuscript of someone purporting to manuscript of someone purporting to solve the P versus MP solve the P versus MP question some reason I'm question some reason I'm a I get sent these things I don't know why um and they uh they invariably even though they're like 40 pages long all they the the the essence pages long all they the the the essence of it is the problem's obviously of it is the problem's obviously true that's the content pretty much true that's the content pretty much always in these papers and you know always in these papers and you know there's …"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_2068",
+    "t_start": 2068.1,
+    "t_end": 2158.9,
+    "type": "overview",
+    "summary": "a factor you know it's not Prime but there that's very slow as I pointed out there that's very slow as I pointed out that searching type method but there's a that searching type method but there's a there we now know that there are there we now know that there are dramatically faster ways of testing if a dramatically faster ways of testing if a number is prime and I give you a little flavor of how that goes um and the B these all sort of rest on a centuries these all sort of rest on a centuries old theorem due to Forma um in number Theory and you know this is as technical as the talk is thi…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_2158",
+    "t_start": 2158.9,
+    "t_end": 2252.4,
+    "type": "overview",
+    "summary": "number a which is two in our example you raise it to the P minus one power then raise it to the P minus one power then you divide by P and take the remainder you divide by P and take the remainder so throw away the quotient only look at so throw away the quotient only look at the remainder after you do the division you always get one for the remainder so let's actually walk ourselves through an let's actually walk ourselves through an example so if p is seven and a is two as I mentioned you raise two which is a to mentioned you raise two which is a to the 7 minus 1 or 6 power which is 64 se…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_2252",
+    "t_start": 2252.4,
+    "t_end": 2345.5,
+    "type": "overview",
+    "summary": "calculation that I just did proves to you that 15 isn't Prime of course we you that 15 isn't Prime of course we knew that already but this proves it to you in a different way it doesn't prove it to you by exhibiting the factors 3 * 5 of P it proves it to you by saying well P fails to have a property that we know prime to have a property that we know prime numbers have and therefore it can't be numbers have and therefore it can't be Prime and the thing is is that you can use this as a basis of a test basis of an algorithm which can test primality algorithm which can test primality without go…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_2345",
+    "t_start": 2345.5,
+    "t_end": 2437.0,
+    "type": "overview",
+    "summary": "this it tells you that the the that the problems in NP these searching problems problems in NP these searching problems are in many cases linked to one another and what I mean by that is if you find a way of solving the click you find a way of solving the click problem remember this you know this problem remember this you know this problem with the net network of nodes if you can find a way of solving that problem without searching you immediately get a way of solving the factoring problem without solving the factoring problem without searching even though those two problems searching even …"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_2436",
+    "t_start": 2437.0,
+    "t_end": 2527.7,
+    "type": "overview",
+    "summary": "problem that gets spit out is that if you find a large click in that Network that gets produced it immediately translates into the factors of the original factoring problem so you get the idea that's why problem so you get the idea that's why these The Click problem is related to these The Click problem is related to the factoring problem this way and the factoring problem this way and incidentally the reverse transformation incidentally the reverse transformation is not known to be true so we don't know how to convert click problems into factoring problems only only this way factoring prob…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_2527",
+    "t_start": 2527.7,
+    "t_end": 2618.9,
+    "type": "overview",
+    "summary": "are certain problems that you can solve by be able to check the answer quickly by be able to check the answer quickly it's not a given that just because you it's not a given that just because you can solve it by searching that you can can solve it by searching that you can always check the answer correctly always check the answer correctly um so take the case of um so take the case of Chess and you want to know which side would win under optimal play if both sides played perfectly play if both sides played perfectly would white win would black win or would would white win would black win or…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_2618",
+    "t_start": 2618.9,
+    "t_end": 2710.3,
+    "type": "overview",
+    "summary": "trying to get the the sense that this is a search seeing which side has the win a search seeing which side has the win under optimal play is a searching under optimal play is a searching problem but it's not an NP type searching problem it's kind of in some worse than NP because you don't even worse than NP because you don't even have this feature that you can check the answer quickly okay so just sort of summarizing quickly okay so just sort of summarizing some of the information that we've been some of the information that we've been discussing recently we have the classes discussing rece…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_2710",
+    "t_start": 2710.3,
+    "t_end": 2801.3,
+    "type": "overview",
+    "summary": "problems according to all sorts of different parameters the amount of time different parameters the amount of time you need the amount of space you need whether that you can solve it more quickly with parallelism or Randomness quickly with parallelism or Randomness and so on um and it's been populated by these are real problems that people are interested in solving that uh occur as interested in solving that uh occur as far as we know it within this far as we know it within this hierarchy now and I also want to mention hierarchy now and I also want to mention that this hierarchy is by no me…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_2801",
+    "t_start": 2801.3,
+    "t_end": 2896.0,
+    "type": "overview",
+    "summary": "solve search problems without searching I believe that as most you know I'm not unique most of the other people in the field feel the same way that some of problems really do require searching we just don't know how to prove just don't know how to prove that and then why why that and then why why why is it so hard to prove well um the reason is algorithms can operate in very clever unforeseen ways just like in the testing there's all sorts of devil fish bizarre ways of solving problems that we might not have thought of and it's very difficult to prove that none of those can possibly work in…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_2895",
+    "t_start": 2896.0,
+    "t_end": 2982.0,
+    "type": "overview",
+    "summary": "so here's a strategy that myself and some other people have taken on over the some other people have taken on over the years is try to limit the power of the years is try to limit the power of the Machine by kind of handicapping it in Machine by kind of handicapping it in some way okay and then for this handicap machine it can't run anymore it can only it can't run anymore it can only limp and when you have a machine that can only limp maybe you have an advantage in being able to prove it's advantage in being able to prove it's going to have you know you're limiting the kinds of operations …"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_2986",
+    "t_start": 2986.2,
+    "t_end": 3079.6,
+    "type": "overview",
+    "summary": "approach well you know here's a in combination with that here's an approach combination with that here's an approach that people take is they try to figure finding an input to the machine on which the machine would fail so here's you the machine would fail so here's you know a a machine that operates quickly it doesn't search so presumably this doesn't search so presumably this machine is not able to solve say the problem but how do you prove that it doesn't Sol can't solve The Click problem you know if it's not able to search well you want to find some kind of an input an example of a clic…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_3079",
+    "t_start": 3079.6,
+    "t_end": 3171.0,
+    "type": "overview",
+    "summary": "finite case you know again none of these things have paid off otherwise I would things have paid off otherwise I would be giving a different talk today um but be giving a different talk today um but those are ideas that people have those are ideas that people have tried um okay so drawing to the end of my talk um will the P versus then be question ever will the P versus then be question ever be solved it seems clear that the be solved it seems clear that the collection of techniques that we have at collection of techniques that we have at present is inade is inadequate we're going to have t…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_3171",
+    "t_start": 3171.0,
+    "t_end": 3273.9,
+    "type": "overview",
+    "summary": "graduate student student um um well I paid off luckily the price of gold when I was a graduate student was around $700 an ounce now it's around $600 an ounce when I paid off it was around $250 an ounce I paid off it was around $250 an ounce so I got lucky there but so I got lucky there but um uh but you know that's uh anyway that's that's my story that's my story um and uh I don't know I think you know I'm still hopeful that you know we'll see the solution I I it's a great problem and and I'm looking forward to to seeing and I'm looking forward to to seeing what happens with it um so that's…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_3277",
+    "t_start": 3277.0,
+    "t_end": 3367.3,
+    "type": "overview",
+    "summary": "yeah sure I mean there's you know if you're willing to settle for less than you're willing to settle for less than the best in many different senses then the best in many different senses then you can solve these problems in some you can solve these problems in some cases quickly um so if you're willing to cases quickly um so if you're willing to settle for an approximate solution settle for an approximate solution instead of finding the biggest click instead of finding the biggest click well click is probably not the best example but I mean there are other because in the case in some cases…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_3369",
+    "t_start": 3369.7,
+    "t_end": 3461.2,
+    "type": "overview",
+    "summary": "you actually I don't know but it's claimed that the answer is yes yes in claimed that the answer is yes yes in the back there no you computer that can solve it well I mean if there is a distributed computer with if there is a distributed computer with a moderate amount of um processors you could simulate that with a ordinary sequential you know with a ordinary sequential you know single processor computer just by you know H that one one machine just taking you know pretending to be each one of you know pretending to be each one of those distributed machines one at a time those distributed m…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_3477",
+    "t_start": 3477.8,
+    "t_end": 3570.8,
+    "type": "overview",
+    "summary": "yeah I was trying to be careful when I made my actual statements to about NP so made my actual statements to about NP so the question is I mean there were two the question is I mean there were two slightly variations of one another in terms of the click problem am I just looking for the largest possible click looking for the largest possible click in the network or am I looking for a click of a certain specified Target size the the latter is the one that's in size the the latter is the one that's in NP the other one is not an NP problem because you can't check that you have you can't check …"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_3570",
+    "t_start": 3570.8,
+    "t_end": 3662.5,
+    "type": "overview",
+    "summary": "it one way or the other um and you know I can argue that both ways my personal view is that you know it's a very concrete downto Earth kind of a question um it's not the type of question that you would normally think question that you would normally think of as being one which is independent of of as being one which is independent of axioms like the Axiom of choice or you know um the Continuum hypothesis which concerns Infinity and things that are concerns Infinity and things that are very far away from ordinary intuition very far away from ordinary intuition it's a very kind of concrete qu…"
+  },
+  {
+    "id": "ku_video_msp2y_Y5MLE_3662",
+    "t_start": 3662.5,
+    "t_end": 3684.9,
+    "type": "overview",
+    "summary": "be solved someday though I'm not taking any more bets well thank you thank you very much for for coming thank"
+  }
+]

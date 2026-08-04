@@ -1,0 +1,1072 @@
+[
+  {
+    "t_start": 5.75,
+    "t_end": 8.83,
+    "text": "I'm assuming everybody here also watches Numberphile"
+  },
+  {
+    "t_start": 9.769,
+    "t_end": 14.378,
+    "text": "Giuseppe, we're watching Numberphile. Oh yeah Numberphile is great. So just in case you don't watch numberphile"
+  },
+  {
+    "t_start": 14.379,
+    "t_end": 17.979,
+    "text": "You really should and we've got it was one of our recommended channels up there"
+  },
+  {
+    "t_start": 18.74,
+    "t_end": 23.41,
+    "text": "Now recently Numberphile posted a video just a couple of days ago about the very very famous"
+  },
+  {
+    "t_start": 24.14,
+    "t_end": 30.13,
+    "text": "Kakeya needle problem, it was great as usual, but it got a bit technical in parts and"
+  },
+  {
+    "t_start": 30.859,
+    "t_end": 36.249,
+    "text": "Quite a few people actually got lost and so we had a challenge from some of our viewers who also watch Numberphile"
+  },
+  {
+    "t_start": 36.379,
+    "t_end": 39.879,
+    "text": "to see whether we could do it a little bit simpler and"
+  },
+  {
+    "t_start": 40.399,
+    "t_end": 45.968,
+    "text": "Maybe even without any numbers without any formulas so here's our answer to this challenge, okay?"
+  },
+  {
+    "t_start": 46.129,
+    "t_end": 51.399,
+    "text": "So I'll take a slightly different approach one from what people usually do okay? I'm going to use a squeegee"
+  },
+  {
+    "t_start": 51.399,
+    "t_end": 53.399,
+    "text": "I'm not going to use a needle"
+  },
+  {
+    "t_start": 53.78,
+    "t_end": 61.359,
+    "text": "okay, the squeegee starts out in this screen position here and then it ends in the blue position and"
+  },
+  {
+    "t_start": 61.76,
+    "t_end": 66.699,
+    "text": "So you can go for the green position to the blue position many many different ways let's just do the most obvious one"
+  },
+  {
+    "t_start": 66.7,
+    "t_end": 71.83,
+    "text": "so we kind of start it out here, and then we could just swipe across like that, okay and"
+  },
+  {
+    "t_start": 72.62,
+    "t_end": 79.09,
+    "text": "So it swipes across area because it basically it's the area that gets cleaned, and we're interested in this area, okay?"
+  },
+  {
+    "t_start": 79.1,
+    "t_end": 83.62,
+    "text": "And we can swipe in many many different ways let's do it in a second way, so for example"
+  },
+  {
+    "t_start": 83.62,
+    "t_end": 86.649,
+    "text": "We could swipe up there, and then we could swipe"
+  },
+  {
+    "t_start": 87.62,
+    "t_end": 89.62,
+    "text": "down there"
+  },
+  {
+    "t_start": 90.26,
+    "t_end": 92.829,
+    "text": "That gives us a different area right, and now"
+  },
+  {
+    "t_start": 93.08,
+    "t_end": 98.319,
+    "text": "obviously, we can go really really wild but kind of swiping like this before we kind of get to blue and"
+  },
+  {
+    "t_start": 98.9,
+    "t_end": 104.08,
+    "text": "That will get like one more area, but now it's a slightly strange question"
+  },
+  {
+    "t_start": 104.75,
+    "t_end": 112.659,
+    "text": "What's the minimal area we can create like this so how can we get from left to right and create minimal wiping area?"
+  },
+  {
+    "t_start": 113.21,
+    "t_end": 115.15,
+    "text": "Okay, and it might seem that well"
+  },
+  {
+    "t_start": 115.15,
+    "t_end": 120.969,
+    "text": "I mean there was the square at the beginning, and there's this arrow here actually the same area. oh yeah, yeah"
+  },
+  {
+    "t_start": 120.97,
+    "t_end": 127.449,
+    "text": "Yeah, this one's a little bit bigger. Well. It isn't well anyway, maybe maybe the guys can sort it out the comments again"
+  },
+  {
+    "t_start": 127.45,
+    "t_end": 129.45,
+    "text": "Why are these two areas the same?"
+  },
+  {
+    "t_start": 130.129,
+    "t_end": 134.828,
+    "text": "Okay, now it turns out that you can actually make it a lot smaller than this"
+  },
+  {
+    "t_start": 135.769,
+    "t_end": 137.769,
+    "text": "And I'll just show you what the trick is"
+  },
+  {
+    "t_start": 137.95,
+    "t_end": 145.42,
+    "text": "So what you do is these two line segments are parallel and actually the squeegee is a mathematical as a mathematical line segment"
+  },
+  {
+    "t_start": 145.42,
+    "t_end": 148.78,
+    "text": "so it doesn't have any width for this sort of setup here and"
+  },
+  {
+    "t_start": 149.45,
+    "t_end": 151.78,
+    "text": "then what we do is we kind of just extend"
+  },
+  {
+    "t_start": 152.69,
+    "t_end": 156.639,
+    "text": "the Green Line and the Blue Line and the first move"
+  },
+  {
+    "t_start": 156.64,
+    "t_end": 161.86,
+    "text": "We do is we just kind of move it along this line and since it doesn't have any width"
+  },
+  {
+    "t_start": 162.17,
+    "t_end": 165.759,
+    "text": "It's actually not wiping out any area okay, so so far"
+  },
+  {
+    "t_start": 165.76,
+    "t_end": 170.53,
+    "text": "we've not wiped anything now we aim from this point up here to that point down there and"
+  },
+  {
+    "t_start": 171.05,
+    "t_end": 174.339,
+    "text": "now we wipe like that, okay, and"
+  },
+  {
+    "t_start": 174.95,
+    "t_end": 180.039,
+    "text": "now we just move along this line so no extra area created, and then we wipe again and"
+  },
+  {
+    "t_start": 180.65,
+    "t_end": 182.36,
+    "text": "then we just move"
+  },
+  {
+    "t_start": 182.36,
+    "t_end": 184.25,
+    "text": "Where we want to go?"
+  },
+  {
+    "t_start": 184.25,
+    "t_end": 189.91,
+    "text": "Finished right? Now, we will just compare the wiped area to what we had before to this one here"
+  },
+  {
+    "t_start": 189.91,
+    "t_end": 195.729,
+    "text": "You can see it's... smaller. It's smaller and make sure we can make it even smaller. Can you imagine?"
+  },
+  {
+    "t_start": 195.73,
+    "t_end": 199.69,
+    "text": "How can we make it even smaller? And Giuseppe hasn't actually seen this before so just think about it."
+  },
+  {
+    "t_start": 199.69,
+    "t_end": 201.69,
+    "text": "How can we make it even smaller?"
+  },
+  {
+    "t_start": 201.7,
+    "t_end": 208.14,
+    "text": "Yeah, so we just go way higher. The higher we go the smaller the angle will be. That's right. So the first move"
+  },
+  {
+    "t_start": 208.14,
+    "t_end": 209.4,
+    "text": "You just go higher up, okay?"
+  },
+  {
+    "t_start": 209.41,
+    "t_end": 211.41,
+    "text": "So you just go higher up and then"
+  },
+  {
+    "t_start": 211.489,
+    "t_end": 216.339,
+    "text": "these angles will get smaller actually it's pretty obvious that these two angles are always going to be the same much and"
+  },
+  {
+    "t_start": 216.709,
+    "t_end": 222.669,
+    "text": "So um you know they simultaneously get smaller okay, and I now if I push it really high up"
+  },
+  {
+    "t_start": 222.67,
+    "t_end": 225.009,
+    "text": "You know your basic can make this as small as you want"
+  },
+  {
+    "t_start": 225.38,
+    "t_end": 231.789,
+    "text": "So if you give me any positive number as small as you want I can make the wiping area that number basically"
+  },
+  {
+    "t_start": 235.01,
+    "t_end": 239.44,
+    "text": "Well because we really have to get from left to right and to get from left to right we have to"
+  },
+  {
+    "t_start": 239.75,
+    "t_end": 242.5,
+    "text": "Angle this thing at some point in time as as soon as you angle it"
+  },
+  {
+    "t_start": 242.6,
+    "t_end": 249.159,
+    "text": "It's going to be positive area doesn't matter how far we go everyone okay? So let's kind of just the warm-up exercise, okay, and"
+  },
+  {
+    "t_start": 250.01,
+    "t_end": 251.29,
+    "text": "So why did this work?"
+  },
+  {
+    "t_start": 251.29,
+    "t_end": 254.35,
+    "text": "Why does this kind of counter-intuitive thing come up?"
+  },
+  {
+    "t_start": 254.35,
+    "t_end": 259.359,
+    "text": "Well mainly because the initial position and the last position are parallel, right?"
+  },
+  {
+    "t_start": 259.359,
+    "t_end": 264.579,
+    "text": "So then you can kind of go up, and then with minimal swipe we can kind of bring this into the second position"
+  },
+  {
+    "t_start": 264.889,
+    "t_end": 272.168,
+    "text": "So what happens now if we make the second position here like not parallel to the first more like this right or like that"
+  },
+  {
+    "t_start": 272.5,
+    "t_end": 275.109,
+    "text": "Or whatever then we also can swipe from here to there"
+  },
+  {
+    "t_start": 275.87,
+    "t_end": 279.94,
+    "text": "What's the answer then? How small can we make things? And actually we're just going to go kind of for the"
+  },
+  {
+    "t_start": 280.61,
+    "t_end": 282.53,
+    "text": "for the worst possible scenario"
+  },
+  {
+    "t_start": 282.53,
+    "t_end": 291.46,
+    "text": "Where we kind of have? This as the initial position and as the final position we kind of have to the whole thing kind of turned 180 degrees"
+  },
+  {
+    "t_start": 291.95,
+    "t_end": 295.749,
+    "text": "So what we're requiring here. Is that during the motion"
+  },
+  {
+    "t_start": 296.42,
+    "t_end": 301.719,
+    "text": "We are going through 180 degrees before we can come back to what we started with up here"
+  },
+  {
+    "t_start": 301.72,
+    "t_end": 308.95,
+    "text": "And that's basically the Kakeya needle problem. It asks if we want to do this. What's the smallest area I can create?okay?"
+  },
+  {
+    "t_start": 311.3,
+    "t_end": 315.52,
+    "text": "The answer is also pretty surprising, but let's see how"
+  },
+  {
+    "t_start": 316.07,
+    "t_end": 323.079,
+    "text": "Anybody taken off the street like an expert in this would solve the problem of turning like from here to there"
+  },
+  {
+    "t_start": 323.08,
+    "t_end": 328.9,
+    "text": "Okay, so I mean I think what everybody would be doing is kind of try something like this all right?"
+  },
+  {
+    "t_start": 328.9,
+    "t_end": 330.94,
+    "text": "so we're just going to just go in a circle and"
+  },
+  {
+    "t_start": 332.0,
+    "t_end": 335.26,
+    "text": "With it swept out like this - can we do any better than this?"
+  },
+  {
+    "t_start": 335.66,
+    "t_end": 339.76,
+    "text": "Do you think Giuseppe can we do any better than this? Well obviously because I set it up like"
+  },
+  {
+    "t_start": 342.11,
+    "t_end": 343.58,
+    "text": "Yeah"
+  },
+  {
+    "t_start": 343.58,
+    "t_end": 346.059,
+    "text": "There's definitely a better way, so here's a nice one"
+  },
+  {
+    "t_start": 346.64,
+    "t_end": 352.029,
+    "text": "so we just start with our line segment like that, then we swipe like 30 degrees and"
+  },
+  {
+    "t_start": 353.33,
+    "t_end": 355.33,
+    "text": "We swipe like that"
+  },
+  {
+    "t_start": 355.729,
+    "t_end": 362.289,
+    "text": "And we swipe like that, and we swipe like that and basically what we've done. Now is we've swept out an equilateral triangle"
+  },
+  {
+    "t_start": 363.56,
+    "t_end": 367.839,
+    "text": "whose height is the length of the squeegee and actually we're going to make the lengths of the squeegee one?"
+  },
+  {
+    "t_start": 367.97,
+    "t_end": 371.799,
+    "text": "One centimetre, one meter or whatever one unit of something, okay there one"
+  },
+  {
+    "t_start": 372.02,
+    "t_end": 377.41,
+    "text": "And now we can actually compare the areas of those two guys and so the area of that one here is"
+  },
+  {
+    "t_start": 378.169,
+    "t_end": 383.139,
+    "text": "0.7 something and the area of this one here is 0.57 so it's actually a lot better and"
+  },
+  {
+    "t_start": 385.13,
+    "t_end": 386.69,
+    "text": "for some"
+  },
+  {
+    "t_start": 386.69,
+    "t_end": 387.979,
+    "text": "Setup, this is actually the best"
+  },
+  {
+    "t_start": 387.979,
+    "t_end": 390.639,
+    "text": "so if you've got like aiming for an area"
+  },
+  {
+    "t_start": 390.64,
+    "t_end": 396.039,
+    "text": "That's swept, that doesn't have any kind of indentation or like you know then this is one's actually the best"
+  },
+  {
+    "t_start": 396.32,
+    "t_end": 399.159,
+    "text": "But if you are a little bit more relaxed about what you can do"
+  },
+  {
+    "t_start": 399.16,
+    "t_end": 404.979,
+    "text": "There's actually better ways of doing this and the problem is like a hundred years old and even then they came up with"
+  },
+  {
+    "t_start": 405.249,
+    "t_end": 407.249,
+    "text": "Think better and I'll show you what they came up with"
+  },
+  {
+    "t_start": 408.859,
+    "t_end": 413.888,
+    "text": "So what you start out with here is a big circle and inside the big circle is a small circle"
+  },
+  {
+    "t_start": 413.899,
+    "t_end": 417.879,
+    "text": "The small circle is one-third of the diameter of the big one"
+  },
+  {
+    "t_start": 418.029,
+    "t_end": 420.819,
+    "text": "and I will just draw this guy here and so a"
+  },
+  {
+    "t_start": 421.099,
+    "t_end": 427.358,
+    "text": "Point on the boundary trace out is a curve and if you just scale things right we get this figure so the our"
+  },
+  {
+    "t_start": 427.909,
+    "t_end": 431.169,
+    "text": "One segment, just fits in like that and now we can"
+  },
+  {
+    "t_start": 431.749,
+    "t_end": 433.749,
+    "text": "turn it around in here and"
+  },
+  {
+    "t_start": 434.029,
+    "t_end": 436.058,
+    "text": "It's actually quite an amazing"
+  },
+  {
+    "t_start": 436.699,
+    "t_end": 440.438,
+    "text": "Movement. You can see like at any any point throughout the movement"
+  },
+  {
+    "t_start": 441.199,
+    "t_end": 443.348,
+    "text": "We've got that end bit here touching"
+  },
+  {
+    "t_start": 443.419,
+    "t_end": 448.748,
+    "text": "The boundary of the curve this one here that runs all those three points that are really on the boundary it's a very"
+  },
+  {
+    "t_start": 448.749,
+    "t_end": 454.539,
+    "text": "tight fit that's it's something really really quite miraculous by itself, so that shape is called the deltoid and"
+  },
+  {
+    "t_start": 455.329,
+    "t_end": 457.329,
+    "text": "So how small is [that] one now?"
+  },
+  {
+    "t_start": 457.579,
+    "t_end": 463.479,
+    "text": "Well quite a bit smaller than this guy. So any part of the moving segment"
+  },
+  {
+    "t_start": 463.479,
+    "t_end": 468.818,
+    "text": "is always touching all three sides.  Yep, always!"
+  },
+  {
+    "t_start": 469.429,
+    "t_end": 471.129,
+    "text": "Okay, now"
+  },
+  {
+    "t_start": 471.129,
+    "t_end": 476.289,
+    "text": "The thing is, you know it's a hundred years old, at some point of time they actually figure out we can do even better"
+  },
+  {
+    "t_start": 476.749,
+    "t_end": 480.428,
+    "text": "You can do it significantly better and here's what we do"
+  },
+  {
+    "t_start": 480.709,
+    "t_end": 485.229,
+    "text": "So we'll start out with the same triangle that we'll just use to kind of swipe things out, okay"
+  },
+  {
+    "t_start": 485.229,
+    "t_end": 490.148,
+    "text": "and now we'll cut this into little triangles, so the"
+  },
+  {
+    "t_start": 490.789,
+    "t_end": 493.748,
+    "text": "Basis of all those little triangles are the same width"
+  },
+  {
+    "t_start": 497.209,
+    "t_end": 503.798,
+    "text": "We'll cut it apart like this and overlap those little triangles and overlap more and overlap more okay?"
+  },
+  {
+    "t_start": 504.319,
+    "t_end": 508.898,
+    "text": "So now we've gone from a equilateral triangle to a shape that's got an area"
+  },
+  {
+    "t_start": 508.899,
+    "t_end": 515.229,
+    "text": "that's a lot less all right, and actually if you use more triangles and are really smart about this pushing together"
+  },
+  {
+    "t_start": 515.36,
+    "t_end": 520.509,
+    "text": "You can actually make the area of this shape as small as we want. That's pretty surprising"
+  },
+  {
+    "t_start": 520.669,
+    "t_end": 524.018,
+    "text": "It's actually pretty tricky to prove - but it's true"
+  },
+  {
+    "t_start": 524.149,
+    "t_end": 528.609,
+    "text": "So you know chop it up into maybe a gazillion little triangles"
+  },
+  {
+    "t_start": 528.61,
+    "t_end": 531.129,
+    "text": "And you know push them together in just the right way and actually"
+  },
+  {
+    "t_start": 531.35,
+    "t_end": 533.98,
+    "text": "Getting pretty close to zero with the total area okay?"
+  },
+  {
+    "t_start": 533.98,
+    "t_end": 538.24,
+    "text": "And now I'm going to show you how you can turn needle around, it is something like this"
+  },
+  {
+    "t_start": 538.64,
+    "t_end": 543.099,
+    "text": "so we've got this little tree here, and we've got the initial triangle, okay, and"
+  },
+  {
+    "t_start": 543.8,
+    "t_end": 548.979,
+    "text": "Now what we're going to do is let's just focus on the two little triangles on the left, okay"
+  },
+  {
+    "t_start": 549.11,
+    "t_end": 555.099,
+    "text": "And I'm going to highlight them here in purple and then brown and I'm also highlighting the common"
+  },
+  {
+    "t_start": 555.68,
+    "t_end": 562.06,
+    "text": "You know edge okay? So in yellow, and now [we're] these two guys here in in the tree well"
+  },
+  {
+    "t_start": 562.58,
+    "t_end": 564.58,
+    "text": "the Brown Triangle is here and"
+  },
+  {
+    "t_start": 564.98,
+    "t_end": 570.64,
+    "text": "The blue triangle is there and obviously those two yellow lines are they parallel"
+  },
+  {
+    "t_start": 571.4,
+    "t_end": 576.189,
+    "text": "They are parallel obviously, it's going to be important for later again, okay now"
+  },
+  {
+    "t_start": 576.19,
+    "t_end": 580.63,
+    "text": "We're going to start turning our needle in here, or our squeegee"
+  },
+  {
+    "t_start": 581.21,
+    "t_end": 584.559,
+    "text": "So for me the squeegee for you know the usual celibates"
+  },
+  {
+    "t_start": 584.56,
+    "t_end": 590.59,
+    "text": "It's a needle that's being turned in the plane okay, so there is the squeegee and we're turning it no problem"
+  },
+  {
+    "t_start": 590.66,
+    "t_end": 593.86,
+    "text": "What's on the left and on the right now obviously here is stuck, right?"
+  },
+  {
+    "t_start": 594.41,
+    "t_end": 598.0,
+    "text": "There's actually no way you can turn this thing further in just inside the figure"
+  },
+  {
+    "t_start": 598.19,
+    "t_end": 604.989,
+    "text": "But now we remember the trick the magic move that we designed at the very beginning right and we've got these two parallel lines"
+  },
+  {
+    "t_start": 605.089,
+    "t_end": 607.899,
+    "text": "So we do is exactly there right remember that I?"
+  },
+  {
+    "t_start": 608.6,
+    "t_end": 610.9,
+    "text": "Didn't come back and now we can turn"
+  },
+  {
+    "t_start": 611.63,
+    "t_end": 617.619,
+    "text": "Alright, so that works and well. I mean there's these little wedges that also get swept out here"
+  },
+  {
+    "t_start": 617.78,
+    "t_end": 624.789,
+    "text": "But what you really have to imagine is that we've going a lot further out right so basically I said we can push this too"
+  },
+  {
+    "t_start": 625.01,
+    "t_end": 630.159,
+    "text": "Close to zero so we kind of just forget about it for forever. What comes next okay? So that's why I mean"
+  },
+  {
+    "t_start": 631.43,
+    "t_end": 633.38,
+    "text": "becomes negative, okay"
+  },
+  {
+    "t_start": 633.38,
+    "t_end": 634.7,
+    "text": "So now we just keep on going"
+  },
+  {
+    "t_start": 634.7,
+    "t_end": 641.319,
+    "text": "But putting in a lot more of those connections and just kind of keep repeating this trick over and over and you can see"
+  },
+  {
+    "t_start": 642.56,
+    "t_end": 648.489,
+    "text": "That we're succeeding in slowly turning the squeegee through 60 degrees smart"
+  },
+  {
+    "t_start": 649.4,
+    "t_end": 651.4,
+    "text": "So almost there"
+  },
+  {
+    "t_start": 653.15,
+    "t_end": 655.15,
+    "text": "and just the last"
+  },
+  {
+    "t_start": 655.67,
+    "t_end": 658.96,
+    "text": "What and with wipe sixty degrees if it sort of [wycliffe] degrees?"
+  },
+  {
+    "t_start": 659.69,
+    "t_end": 664.419,
+    "text": "Okay, well with [sixty] degrees, but we need 180 so what do we do next well?"
+  },
+  {
+    "t_start": 664.52,
+    "t_end": 667.9,
+    "text": "We bring a second tree in okay, so a second tree like this"
+  },
+  {
+    "t_start": 668.659,
+    "t_end": 670.369,
+    "text": "[sixty] degrees and"
+  },
+  {
+    "t_start": 670.369,
+    "t_end": 673.358,
+    "text": "Then we make a transfer using the same kind of Magic move"
+  },
+  {
+    "t_start": 674.719,
+    "t_end": 676.189,
+    "text": "and again"
+  },
+  {
+    "t_start": 676.189,
+    "t_end": 679.418,
+    "text": "Imagine that this is really pushed out forever right and coming back"
+  },
+  {
+    "t_start": 679.419,
+    "t_end": 684.609,
+    "text": "and we're starting our second 60 degrees and just keep on going like this and we get a"
+  },
+  {
+    "t_start": 685.309,
+    "t_end": 686.889,
+    "text": "120 and we need a third tree"
+  },
+  {
+    "t_start": 686.889,
+    "t_end": 689.318,
+    "text": "And I'm just to see what the whole figure here looks like"
+  },
+  {
+    "t_start": 689.719,
+    "t_end": 694.569,
+    "text": "So that's the whole thing you know let's arrange it like this and get this nice [fish-like]"
+  },
+  {
+    "t_start": 695.539,
+    "t_end": 696.589,
+    "text": "thing"
+  },
+  {
+    "t_start": 696.589,
+    "t_end": 700.958,
+    "text": "And now I'm just going to show you how the whole hundred eighty works, so [it's] a starting position"
+  },
+  {
+    "t_start": 700.959,
+    "t_end": 705.459,
+    "text": "We want to get back to that at the end, but you know we've want to have turned 180 degrees"
+  },
+  {
+    "t_start": 706.189,
+    "t_end": 708.728,
+    "text": "So now we go all this complicated movement"
+  },
+  {
+    "t_start": 708.729,
+    "t_end": 711.579,
+    "text": "It gets us to there then we make the transfer, alright"
+  },
+  {
+    "t_start": 711.579,
+    "t_end": 717.788,
+    "text": "And we get another complicated movement now the transfer and another complicated movement gets us here"
+  },
+  {
+    "t_start": 717.789,
+    "t_end": 722.049,
+    "text": "And then we can just push up and we're back to where we started from so pretty pretty cool"
+  },
+  {
+    "t_start": 722.179,
+    "t_end": 729.548,
+    "text": "And now what does this say? Well what I said is that if we kind of cut up the triangle at the beginning"
+  },
+  {
+    "t_start": 729.769,
+    "t_end": 734.108,
+    "text": "Into lots lots of pieces you can make this overlapping tree as small as we want"
+  },
+  {
+    "t_start": 734.419,
+    "t_end": 740.679,
+    "text": "that means we can make the three trees as small as we want and by pushing out like these transfers"
+  },
+  {
+    "t_start": 740.989,
+    "t_end": 744.459,
+    "text": "you know really really far. We can make everything"
+  },
+  {
+    "t_start": 745.009,
+    "t_end": 748.389,
+    "text": "Inside here as small as we want so give me any"
+  },
+  {
+    "t_start": 749.119,
+    "t_end": 750.589,
+    "text": "positive number"
+  },
+  {
+    "t_start": 750.589,
+    "t_end": 755.018,
+    "text": "Doesn't matter how small it is, I can arrange this whole set up here"
+  },
+  {
+    "t_start": 755.019,
+    "t_end": 759.728,
+    "text": "so the total area swept by the squeegee throughout the movement is"
+  },
+  {
+    "t_start": 760.97,
+    "t_end": 762.97,
+    "text": "Smack on this number or less"
+  },
+  {
+    "t_start": 763.099,
+    "t_end": 767.619,
+    "text": "So the number of tree the number of trees will still be three"
+  },
+  {
+    "t_start": 767.619,
+    "t_end": 774.158,
+    "text": "But then what increases as we're getting smaller and smaller is the number of branches. The number of branches. That's right yeah"
+  },
+  {
+    "t_start": 774.159,
+    "t_end": 777.129,
+    "text": "So that's basically one branch or well one tip"
+  },
+  {
+    "t_start": 777.47,
+    "t_end": 782.019,
+    "text": "Little triangle that we're using, so there's going to be a lot more tips a lot more of these"
+  },
+  {
+    "t_start": 782.479,
+    "t_end": 787.778,
+    "text": "Like kind of Lines starting out and also kind of the pass that you or the distance that you're covering"
+  },
+  {
+    "t_start": 788.269,
+    "t_end": 790.298,
+    "text": "Throughout that your journey here is going to be"
+  },
+  {
+    "t_start": 791.539,
+    "t_end": 793.539,
+    "text": "Ridiculous and"
+  },
+  {
+    "t_start": 793.999,
+    "t_end": 799.599,
+    "text": "So that's that's basically all there is right. And if I wanted to do a  full circle would I need more trees?"
+  },
+  {
+    "t_start": 799.809,
+    "t_end": 805.209,
+    "text": "No We just kind of repeat the whole thing in here because we've done 108 degrees never just kind of go for a second round"
+  },
+  {
+    "t_start": 805.209,
+    "t_end": 807.209,
+    "text": "We get 360 degrees"
+  },
+  {
+    "t_start": 807.209,
+    "t_end": 808.73,
+    "text": "So that's the maximum amount of trees?"
+  },
+  {
+    "t_start": 808.73,
+    "t_end": 810.849,
+    "text": "Yeah, so for this one here it's fine"
+  },
+  {
+    "t_start": 810.85,
+    "t_end": 814.48,
+    "text": "We could even do like - we could start off at a 90 degree triangle"
+  },
+  {
+    "t_start": 814.48,
+    "t_end": 821.259,
+    "text": "And we would just need two basically, that's also doable. Now why did the Numberphile video turn out"
+  },
+  {
+    "t_start": 822.05,
+    "t_end": 823.999,
+    "text": "a little bit technical?"
+  },
+  {
+    "t_start": 823.999,
+    "t_end": 826.989,
+    "text": "Well the guy who was explaining it I mean"
+  },
+  {
+    "t_start": 826.99,
+    "t_end": 828.889,
+    "text": "He's actually the genius category, right?"
+  },
+  {
+    "t_start": 828.889,
+    "t_end": 835.959,
+    "text": "so he's like a Fields medallist like really really serious stuff basically equivalent of a Nobel prize winner in maths and"
+  },
+  {
+    "t_start": 837.17,
+    "t_end": 841.629,
+    "text": "He's actually interested in these sorts of things. I mean it might seem like a pretty trivial problem"
+  },
+  {
+    "t_start": 841.629,
+    "t_end": 845.679,
+    "text": "You know it's cute, but I mean, what does that all to do with real maths well?"
+  },
+  {
+    "t_start": 845.68,
+    "t_end": 852.339,
+    "text": "It's kind of the starting point for some really really deep stuff, that actually quite a few of these Fields medallists are"
+  },
+  {
+    "t_start": 852.529,
+    "t_end": 860.078,
+    "text": "are interested in. And I'm going to do a provide some links down here at the bottom to some survey articles by Terry Tao."
+  },
+  {
+    "t_start": 861.499,
+    "t_end": 864.639,
+    "text": "An Australian Fields medallist who talks about this stuff"
+  },
+  {
+    "t_start": 864.639,
+    "t_end": 867.099,
+    "text": "and he just have a look at it and kind of get a feel for what's going on and"
+  },
+  {
+    "t_start": 867.74,
+    "t_end": 872.349,
+    "text": "so there were two things that made Numberphile's video complicated and"
+  },
+  {
+    "t_start": 874.339,
+    "t_end": 879.219,
+    "text": "What the guy was trying to do was actually get you a little bit closer to this"
+  },
+  {
+    "t_start": 879.889,
+    "t_end": 886.209,
+    "text": "To the deep end right, by really giving you a good idea of why we can make these things arbitrarily small"
+  },
+  {
+    "t_start": 886.209,
+    "t_end": 891.698,
+    "text": "I was skipping over that, right? So he was giving quite a bit of detail there why he can make the the trees really arbitrarily"
+  },
+  {
+    "t_start": 891.699,
+    "t_end": 893.54,
+    "text": "small, but also"
+  },
+  {
+    "t_start": 893.54,
+    "t_end": 897.519,
+    "text": "He talked a lot more about how exactly you're going to push them together"
+  },
+  {
+    "t_start": 897.519,
+    "t_end": 903.248,
+    "text": "And that's very important for later on so basically we can we can subdivide into you know"
+  },
+  {
+    "t_start": 904.16,
+    "t_end": 910.179,
+    "text": "Four triangles, eight triangles, sixteen triangles. Maybe doubling up every time and then we can make up these trees"
+  },
+  {
+    "t_start": 911.179,
+    "t_end": 915.699,
+    "text": "Now the deep people they are interested in making up the tree"
+  },
+  {
+    "t_start": 915.699,
+    "t_end": 922.659,
+    "text": "So they're kind of connected to this making it a sequence of trees that kind of converges to something and in the limit"
+  },
+  {
+    "t_start": 923.149,
+    "t_end": 928.869,
+    "text": "This something has very interesting properties, so what it tears is it has area zero"
+  },
+  {
+    "t_start": 929.329,
+    "t_end": 934.669,
+    "text": "So we are just getting close to zero this thing. They're really interested in has area zero and"
+  },
+  {
+    "t_start": 935.58,
+    "t_end": 943.58,
+    "text": "also, what it still has is basically like a line segment of unit lengths in every single direction right so I mean"
+  },
+  {
+    "t_start": 943.58,
+    "t_end": 948.109,
+    "text": "As we turn around we can kind of see like the individual moments that it kind of moves"
+  },
+  {
+    "t_start": 948.11,
+    "t_end": 953.33,
+    "text": "You can see like one line segment pointing this way, one line segment pointing this way, one outside, so in all possible directions"
+  },
+  {
+    "t_start": 953.34,
+    "t_end": 961.1,
+    "text": "We've got line segments here in our constructions, but the total area is still positive. So what they're getting there is something that has"
+  },
+  {
+    "t_start": 961.92,
+    "t_end": 964.4,
+    "text": "Zero area it still has all"
+  },
+  {
+    "t_start": 965.31,
+    "t_end": 969.739,
+    "text": "lines in all possible directions and with that sort of stuff you can then do some really amazing things and"
+  },
+  {
+    "t_start": 970.2,
+    "t_end": 974.629,
+    "text": "Just in general you want to ask anything about this or anything about The Numberphile's video?"
+  },
+  {
+    "t_start": 975.42,
+    "t_end": 982.43,
+    "text": "You know just feel free post in the comments. I'm happy to answer all these things and so now to finish off"
+  },
+  {
+    "t_start": 982.43,
+    "t_end": 987.169,
+    "text": "I mean, it just gave me a really really good idea. I mean, I just brought in the pumpkin Pi because it's"
+  },
+  {
+    "t_start": 987.9,
+    "t_end": 992.78,
+    "text": "Halloween in a couple days time but of course I mean what I really am going to do now is"
+  },
+  {
+    "t_start": 993.27,
+    "t_end": 996.59,
+    "text": "do a t-shirt of my kakeya fish"
+  },
+  {
+    "t_start": 998.58,
+    "t_end": 1000.58,
+    "text": "And that's it for today"
+  }
+]

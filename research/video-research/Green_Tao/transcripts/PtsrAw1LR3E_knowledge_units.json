@@ -1,0 +1,226 @@
+[
+  {
+    "id": "ku_video_PtsrAw1LR3E_3",
+    "t_start": 3.9,
+    "t_end": 94.6,
+    "type": "overview",
+    "summary": "Joseph rudnik I'm the interim dean of physical sciences and it is my uh privilege and my pleasure to introduce the speaker at my pleasure to introduce the speaker at uh today's UCLA science faculty research uh today's UCLA science faculty research colloquium uh this ongoing lecture colloquium uh this ongoing lecture series showcases the exciting work being series showcases the exciting work being done by our faculty across the campus it's sponsored by the division of Life Sciences and the division of physical sciences in our UCLA's college of letters and science with the participation of th…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_94",
+    "t_start": 94.6,
+    "t_end": 184.9,
+    "type": "overview",
+    "summary": "numerous honors and I'm only listing a few he's been a SLO fellow a Packard fellow he's won a fellowship from the clay Mathematics Institute um he was clay Mathematics Institute um he was just awarded a MacArthur Fellowship you just awarded a MacArthur Fellowship you know the so-called genius grants and of know the so-called genius grants and of course this year he uh was awarded a course this year he uh was awarded a Fields medal uh colloquially known as Fields medal uh colloquially known as the Nobel Prize of mathematics uh the citation for that medal is uh for his contributions to medal …"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_184",
+    "t_start": 184.9,
+    "t_end": 275.3,
+    "type": "overview",
+    "summary": "much on my own work actually but uh on a field that I work in number Theory one field that I work in number Theory one of the four Fields Jo mention um so of the four Fields Jo mention um so number Theory and specifically in the study of prime numbers which is a a very significant slice of of number Theory and uh this is a very old topic um you know 2,000 years of of research has gone know 2,000 years of of research has gone into this this topic and I'm not going to talk about all of this in one hour um so just a whirlwind tour you so the the so just a whirlwind tour you so the the equivale…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_275",
+    "t_start": 275.3,
+    "t_end": 366.7,
+    "type": "overview",
+    "summary": "dating back to uid 300 BC which is the fundamental theorem of arithmetic that fundamental theorem of arithmetic that any natural number bigger than one can be expressed as the product of one or more primes uh so it's just like every more primes uh so it's just like every molecule can be Express in terms of molecule can be Express in terms of atoms um every natural number can atoms um every natural number can express in terms of primes and express in terms of primes and furthermore there's really only one way furthermore there's really only one way to express each number in terms of to expre…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_366",
+    "t_start": 366.7,
+    "t_end": 456.7,
+    "type": "overview",
+    "summary": "of a whole bunch of ones but that's not the case for multiplication so um I'm actually going to give you a proof of this to I know that this is a non- technical audience and I don't want to I'm not going to and I don't want to I'm not going to inflict any real mathematics any real this one proof is so beautiful that I think it just and quite simple that it think it just and quite simple that it it has to be shown so um it it it has to be shown so um it it introduces one of the uh uh one of the introduces one of the uh uh one of the the best tools in improving um very unable tool in mathemat…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_456",
+    "t_start": 456.7,
+    "t_end": 547.8,
+    "type": "overview",
+    "summary": "that gives you two uh two new numbers distance two apart which I'll come back distance two apart which I'll come back to later um and so these numbers these to later um and so these numbers these this pair of numbers they're both larger this pair of numbers they're both larger than one but they can't be they can't be than one but they can't be they can't be divided by any of the prime numbers that you already have okay because 2 * 2 * 5 is already divisible by two three and five so if you add and subtract one uh they can't be divided by 2 305 um and they can't be divided by 2 305 um and tho…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_547",
+    "t_start": 547.8,
+    "t_end": 639.5,
+    "type": "overview",
+    "summary": "explicitly is 232 m582 6657 minus 1 so that Beast is almost 10 million digits that Beast is almost 10 million digits long and uh it required a distributed long and uh it required a distributed internet project to show that it's Prime internet project to show that it's Prime so that's the biggest Prime we know of so even though we know was infinitely many that's we that's the biggest one we many that's we that's the biggest one we can actually write can actually write down um okay so in ukus proof um I took a bunch of prime multip them together and bunch of prime multip them together and add…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_639",
+    "t_start": 639.5,
+    "t_end": 735.7,
+    "type": "overview",
+    "summary": "infinitely many twin primes um UK's argument suggests maybe we should start argument suggests maybe we should start multiplying some primes together and add multiplying some primes together and add subtract one but it doesn't work for subtract one but it doesn't work for example if you add the first four primes example if you add the first four primes together 2 three five and seven and you subtract one you get 209 that turns out not to be prime it's not divisible by 2 not to be prime it's not divisible by 2 3507 but unfortunately it's divisible by it is divisible by 11 and 19 um so so um t…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_735",
+    "t_start": 735.7,
+    "t_end": 827.5,
+    "type": "overview",
+    "summary": "number is well not easily okay I can't tell you that the 1,000th prime number tell you that the 1,000th prime number without a lot of work so the U the nth PN um but we don't have a good formula for PN well I mean other than PN itself for PN well I mean other than PN itself is not a very good formula but um yeah is not a very good formula but um yeah we don't have a useful formula for the we don't have a useful formula for the anine so um and just so the primes are anine so um and just so the primes are doing they're trying I mean there doing they're trying I mean there there's only one pri…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_827",
+    "t_start": 827.5,
+    "t_end": 919.4,
+    "type": "overview",
+    "summary": "approximately n * log n and this is log not log base 10 um which would be kind of weird since uh you know natural numbers don't care that we have 10 numbers don't care that we have 10 fingers but it's um it's log based the fingers but it's um it's log based the natural log e 2.71828 um okay so PN is approximately n log n and uh what what approximately means is a precise meaning here but I won't talk about that so this is uh a won't talk about that so this is uh a it's a funny theorem it's really um it's it's a funny theorem it's really um it's wi considered basically the um wi considered ba…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_919",
+    "t_start": 919.4,
+    "t_end": 1009.9,
+    "type": "overview",
+    "summary": "you can make it's it's a function um and you take this function um and you listen you take this function um and you listen to it um okay so the precise what listen means is that you take a FIA transform actually you don't quite do that you actually you don't quite do that you take what's called a melon transform which is almost the same as a FIA transform um so you you listen to the transform um so you you listen to the sound wave and you will hear certain you hear um and the notes have a name then the notes are called the zeros of the reman Z function which I will not talk about here um co…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_1009",
+    "t_start": 1009.9,
+    "t_end": 1100.6,
+    "type": "overview",
+    "summary": "is there are more Elementary ways to prove the pom theorem but but those proofs are longer and uh also not very intuitive in fact many people yeah they intuitive in fact many people yeah they don't the the um the elementary proofs are not con considered anywhere near as elegant or as as informative as as these elegant or as as informative as as these much more modern proofs um these non-elementary proofs so just to give you some example of the prime number of you some example of the prime number of Human Action um the 1000th prime is 7,99 whereas this n logn prediction is roughly 697 that's…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_1100",
+    "t_start": 1100.6,
+    "t_end": 1191.0,
+    "type": "overview",
+    "summary": "they can have is 1 three seven or nine there are no primes in in six or eight there are no primes in in six or eight or zero um and only one prime ins in in five or two so all large primes in in 1379 that's easy but what's not so 1379 that's easy but what's not so obvious is that um is that those digits obvious is that um is that those digits occur equally likely that there are just as many primes ending in one as there are ending in three or five or sorry not five 1 3 79 20 they 25% of all large primes in in one 25 and in three and so forth that is not an obvious fact um and that took quit…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_1190",
+    "t_start": 1191.0,
+    "t_end": 1286.0,
+    "type": "overview",
+    "summary": "from 2002 all numbers larger than 10 to 1,346 all odd numbers larger than 10 1,336 are known to be the sum of three OD tribes uh we also know that all numbers less than 10 to the 20 the sum of three less than 10 to the 20 the sum of three odd primes by a very different method um so that's the odd GoBack conjecture so presumably as this Gap conjecture so presumably as this Gap will close eventually but um you know will close eventually but um you know even with with with the best computers even with with with the best computers right now there there there's no chance right now there there th…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_1286",
+    "t_start": 1286.0,
+    "t_end": 1377.0,
+    "type": "overview",
+    "summary": "prize clay Millennium prize problems and there's a $1 million prize attached if um okay and it um this will will will not mean anything if you don't actually not mean anything if you don't actually know what the hypothesis is but it's saying that this music of the primes is actually arranged like a chord in some actually arranged like a chord in some sense um but that it's a very cryptic comment um at this point so just to illustrate how accurate this prediction illustrate how accurate this prediction is here again is the thousandth Prime is here again is the thousandth Prime millionth Prim…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_1377",
+    "t_start": 1377.0,
+    "t_end": 1468.4,
+    "type": "overview",
+    "summary": "numbers and and sort of deal deal out the primes in in some random fashion um in in some sense um you would expect that the um the human hypothesis um type that the um the human hypothesis um type prediction there to hold exactly this error um due to something called The Law of large numbers which I not talk about of large numbers which I not talk about here um so what the rean hypothesis is here um so what the rean hypothesis is saying somehow is that the primes behave saying somehow is that the primes behave as if they were they were they were um um they were dealt randomly somehow um amo…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_1468",
+    "t_start": 1468.4,
+    "t_end": 1559.1,
+    "type": "overview",
+    "summary": "business about showing primes and things for the primes pseud random is is not a purely academic concern there are um very many important um things in um very many important um things in um which underly um um um internet security or banking security these days which rely on a belief that many things Rel to maans predict them to um and so yeah in many ways the you know trillions of many ways the you know trillions of dollars hang on on on um on certain beliefs about the primes actually um and so to give one example of this is um something called the Diffy home and key exchange protocol this…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_1559",
+    "t_start": 1559.1,
+    "t_end": 1651.9,
+    "type": "overview",
+    "summary": "met before they could they can only talk to each other in a completely open way to each other in a completely open way if they arrange a code everyone hears them so you can't just sort of try to um set up a code that way um there was a uh set up a code that way um there was a uh this is a digital problem but you can this is a digital problem but you can think of a physical analogy um imagine think of a physical analogy um imagine that um Alice wants to mail um by physical mail you know in an envelope um a message um to to Bob but um but um he a message um to to Bob but um but um he knows th…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_1651",
+    "t_start": 1651.9,
+    "t_end": 1743.6,
+    "type": "overview",
+    "summary": "Alice and Bob never have to communicate with each other but they can send they they can transmit the message so that's how you solve the physical problem and how you solve the physical problem and um the the digital problem is is done analogously uh math is all about anal analogies um and so roughly speaking uh if you want to send a secret number G if Alice wants to send a secret number G to Bob what you do that you first agree on a large Prime um you could pick any a large Prime um you could pick any Prime that big Prime I mentioned before Prime that big Prime I mentioned before you could …"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_1743",
+    "t_start": 1743.6,
+    "t_end": 1834.9,
+    "type": "overview",
+    "summary": "we don't actually have a proof that this is secure um if if the EAS dropper is secure um if if the EAS dropper actually sees all these secret numbers actually sees all these secret numbers going back and forth it might be going back and forth it might be possible that this the EAS dropper could possible that this the EAS dropper could actually Crack the Code u in in some actually Crack the Code u in in some reasonable on our time um we don't know reasonable on our time um we don't know that's true um we believe it's we believe it's secure but we have no proof that's related to another one o…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_1834",
+    "t_start": 1834.9,
+    "t_end": 1929.8,
+    "type": "overview",
+    "summary": "most significant digits it doesn't the um uh if if if the E gets all the digits then maybe um maybe he or she can can decode the code quite fun this result decode the code quite fun this result because it uses one of one of my own because it uses one of one of my own results from a few years back but that's results from a few years back but that's a another story okay oh uh some disclaimers um what I described is not actually how what I described is not actually how foman Works um it's close it's foman Works um it's close it's oversimplified um but um that's that's that's a Comm okay um onl…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_1929",
+    "t_start": 1929.8,
+    "t_end": 2021.3,
+    "type": "overview",
+    "summary": "primes are uh behave somewhat randomly but they're not completely random um but they're not completely random um there are some obvious patterns in the there are some obvious patterns in the primes right for instance almost all the primes right for instance almost all the prime numbers are odd with one exception prime numbers are odd with one exception um almost all the prime numbers are adjacent to a multiple of six that's a with two exceptions this time that's a nice little result and so on and so forth so so there are some obvious forth so so there are some obvious things that the primes…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_2021",
+    "t_start": 2021.3,
+    "t_end": 2111.6,
+    "type": "overview",
+    "summary": "as some sort of a block of granite and um what you're doing is you're trying to um what you're doing is you're trying to carve out the um the uh the primes out of this block of granite so what you do is that you take this big Mallet and you walk you're going to whack off big chunks of of off of this uh off of this chunks of of off of this uh off of this this gr sculpture and then after a while smaller pieces and then you take you put your chisel and then you take a needle your chisel and then you take a needle and you a little little tiny fine adjustments and then eventually you can get the…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_2111",
+    "t_start": 2111.6,
+    "t_end": 2205.3,
+    "type": "overview",
+    "summary": "take the the the M of 997 throw them out and then at last after all that everybody that survives is a prime and this is how you get all the Primes from million okay so this is the standard Civ um for various reasons it's not a very um for various reasons it's not a very efficient Civ there are uh more advanced efficient Civ there are uh more advanced cves we use nowadays which are much more don't know it's more like a a student application form for you you um you uh application form for you you um you uh you assign numbers various scores or you assign numbers various scores or weights depen…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_2205",
+    "t_start": 2205.3,
+    "t_end": 2295.5,
+    "type": "overview",
+    "summary": "also get some some extra stuff attached to the primes called The Almost primes to the primes called The Almost primes um almost primes are numbers which are um almost primes are numbers which are not prime which may not be prime themselves but very few prime factors maybe numbers that only have two or maybe numbers that only have two or three prime factors um and what cives have done for us is that basically roughly speaking uh us is that basically roughly speaking uh while we don't understand the primes so while we don't understand the primes so well we do understand the almost primes quit…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_2295",
+    "t_start": 2295.5,
+    "t_end": 2385.5,
+    "type": "overview",
+    "summary": "arithmetic progression is a sequence of numbers which are equally spaced every every number is the same spacing from the previous one uh and my theorem with Ben that I proved two years ago Ben green uh is that uh the primes inside the primes somewhere you can there exist arithmetic progressions of of arbitrary arithmetic progressions of of arbitrary length so somewhere in the primes there are progressions of length 1 million some of thees there's a progression of some of thees there's a progression of length one billion I can't tell you exactly where they are but I can tell you that that ju…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_2385",
+    "t_start": 2385.5,
+    "t_end": 2478.7,
+    "type": "overview",
+    "summary": "and I haven't written it down here um what's the longest progression here um what's the longest progression that of primes that we know of uh we that of primes that we know of uh we only the only explicit the longest explicit progression of primes that we know of has been 23 okay we we have um know of has been 23 okay we we have um an example of of a progression arithmetic progression primes of 23 just 23 that's all but already um these primes are what this is 56 trillion and the spacing is 44 trillion um it's um the spacing is 44 trillion um it's um you know yeah of course you need a you k…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_2478",
+    "t_start": 2478.7,
+    "t_end": 2569.4,
+    "type": "overview",
+    "summary": "working um on it but we we still don't know exactly how they distribute it but know exactly how they distribute it but um what we managed to do what what Ben and I managed to do is is we by two different arguments we could show that different arguments we could show that regardless of whether the primes are regardless of whether the primes are structured or random inside the almost structured or random inside the almost almost primes it doesn't matter which almost primes it doesn't matter which one regardless of how they're one regardless of how they're distributed in either case they must …"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_2569",
+    "t_start": 2569.4,
+    "t_end": 2660.5,
+    "type": "overview",
+    "summary": "um the the conjectured is more like K to K so one exponential this is seven K so one exponential this is seven exponentials um there's several inefficiencies in our proof um that we have to resolve but um just to connect have to resolve but um just to connect with a previous thing this this reman with a previous thing this this reman hypothesis that we say we can't solve if hypothesis that we say we can't solve if we can if that's true we can get rid of about but uh not the not the rest unfortunately anyway that's a good place unfortunately anyway that's a good place of start thank you very…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_2660",
+    "t_start": 2660.5,
+    "t_end": 2752.1,
+    "type": "overview",
+    "summary": "bunch of stars arranged like an umbrella so um the ging PR are the same property so um the ging PR are the same property if you give me a shape like an umbrella if you give me a shape like an umbrella eventually somewhere in the in the there's some arrangement Gan primes that is shaped like that umbrella um it's use the same method actually do you by CH know how the larg found um yeah so um that particular number is you may observe that it's it's number is you may observe that it's it's um it's almost a power of two it's um it's almost a power of two it's what's called a missen prime here i…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_2752",
+    "t_start": 2752.1,
+    "t_end": 2847.2,
+    "type": "overview",
+    "summary": "um um yeah it it's it's possible but I think um someone will have to stumble think um someone will have to stumble across something unexpected you can't Sol it just by using all the known technology something you have to known technology something you have to discover something that hasn't been discover something that hasn't been discovered before yeah but it might happen I mean we didn't expect the point way to be to we didn't expect the point way to be to be proven I it was so I know everyone has their own favorite um well you know there there's a sort of um you you want problems that are…"
+  },
+  {
+    "id": "ku_video_PtsrAw1LR3E_2849",
+    "t_start": 2849.2,
+    "t_end": 2871.5,
+    "type": "overview",
+    "summary": "recognition award but it's really a certificate of appreciation for coming certificate of appreciation for coming and talking USF of everybody I'd like to thank you again [Applause] [Applause] [Music]"
+  }
+]

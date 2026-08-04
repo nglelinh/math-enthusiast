@@ -1,0 +1,1425 @@
+so uh welcome everyone uh people here in person and I hear there's a very large
+person and I hear there's a very large audience online as well uh so welcome to
+audience online as well uh so welcome to this very special lecture uh by
+this very special lecture uh by Professor Ms ragunathan on an overview
+Professor Ms ragunathan on an overview of the um the historic ATA s index
+of the um the historic ATA s index theorem
+uh so uh sometime back Professor aatan wrote saying uh uh he would like to give
+wrote saying uh uh he would like to give some talks on a new proof of the AA
+some talks on a new proof of the AA singer theorem that he has been
+developing and U it was uh so I jumped at the opportunity and uh I made a
+at the opportunity and uh I made a special request to him that of course uh
+special request to him that of course uh we will have the technical talks but uh
+we would very much like to hear his uh broader perspective and also to kind of
+for the general members of icts and others to have the the larger context in
+others to have the the larger context in which this theorem sort of sits and
+since it is one of the very important uh foundational U results of 20th century
+foundational U results of 20th century mathematics uh so and indeed has had a
+physics and condensed m physics in many areas uh so so it was very uh kind and
+areas uh so so it was very uh kind and generous of him to agree to prepare uh
+generous of him to agree to prepare uh such a broad talk as well for this for a
+such a broad talk as well for this for a broader audience
+and so he will also give us the series of technical lectures building on this
+and so for those of you who would like to see uh um a proof of the theorem uh
+to see uh um a proof of the theorem uh this will be developed over the f ing
+this will be developed over the f ing three lectures or so uh by Professor
+three lectures or so uh by Professor ragunathan I think the next lecture is
+ragunathan I think the next lecture is on Monday at uh 1030 a.m. these will
+on Monday at uh 1030 a.m. these will also be broadcast over zoom and I think
+also be broadcast over zoom and I think um I said Monday okay Wednesday sorry uh
+um I said Monday okay Wednesday sorry uh Wednesday day after tomorrow at 10:30
+Wednesday day after tomorrow at 10:30 a.m. and then the following Monday and I
+a.m. and then the following Monday and I think Wednesday after that uh that's
+think Wednesday after that uh that's right over the uh three uh lectures
+these will also be broadcast over zoom and the link will be a able uh so please
+and the link will be a able uh so please join
+in I would of course it's a bit Superfluous to introduce Professor aatan
+Superfluous to introduce Professor aatan but as many of you know he is one of the
+H who has whose work has had a global impact with fundamental contributions in
+the um to the structure and chology of discrete subgroups of leag groups and um
+discrete subgroups of leag groups and um which has uh shaped the subject uh in
+which has uh shaped the subject uh in particular his uh he settled a famous
+particular his uh he settled a famous conjecture of selberg on the
+arithmeticity of certain higher Q rank luses in semi simple Le groups and
+luses in semi simple Le groups and results on the congruent subgroup
+results on the congruent subgroup problem uh and U uh
+and one of his very uh famous conjectures on the relationship between
+conjectures on the relationship between erodic Theory and um the oppenheim
+Theory spurred a lot of result research and results which was eventually settled
+and results which was eventually settled by margulis the fields medalist um so uh
+profor ragunathan has not only had uh multiple impactful contributions in
+mathematics but he has also been very much involved in the development of
+much involved in the development of mathematics in India uh at various
+levels um I mean both in the school of mathematics at tifr now uh through the
+mathematics at tifr now uh through the NCM in I Mumbai uh but also uh through
+the um for many years his involvement even continuing with the national board
+for high mathematics nbhm uh the The Entity which sort of uh has um helped to
+Entity which sort of uh has um helped to uh sustain mathematics in across the
+uh sustain mathematics in across the country in many ways starting from the
+Olympiad level and you may have all heard of the uh the remarkable
+heard of the uh the remarkable performance by Indian school children
+performance by Indian school children this year uh so these are some of the
+ways in which nbhm has impacted uh Indian mathematics and Professor
+ragunathan has been very uh key in that uh it was also his brainchild to bring
+uh it was also his brainchild to bring the international Congress of
+conference in mathematics uh once in four years U which was held in Hyderabad
+four years U which was held in Hyderabad in 2012 I think um and so that was again
+in 2012 I think um and so that was again organizing such a massive Enterprise
+organizing such a massive Enterprise also speaks to
+also speaks to his the his other
+skills in terms of his um uh impact in mathematics also through his students
+some of his students are very eminent mathematicians in their own right like
+mathematicians in their own right like Professor gopal Prasad uh s g Dan
+Professor gopal Prasad uh s g Dan Professor Dan and
+V diod there and so on so so anyway I will not go on and we will hand it over
+will not go on and we will hand it over now to Professor aatan I should only add
+now to Professor aatan I should only add that uh I think this is Professor runan
+is returning to a kind of a early love of his on topology and geometry or
+of his on topology and geometry or probably an abiding one which and and
+probably an abiding one which and and returning to the a by returning to the A
+returning to the a by returning to the A singer index theum thank you very much
+singer index theum thank you very much and please uh thank you rajes for your
+introduction I'm afraid I'm not too sure that I will live up to what he expects
+that I will live up to what he expects of me from this lecture I'm going to say
+of me from this lecture I'm going to say some about theas singer index theem I as
+some about theas singer index theem I as he said I have a slightly different
+he said I have a slightly different proof from the original proof and also
+proof from the original proof and also very different from all the proofs given
+by P uh uh bought p
+bought p and p himself ser and then there
+uh proofs by other people bisou has a proof which uses probability techniques
+proof which uses probability techniques which I know nothing about really and uh
+there is this uh Michelle one that's Michel W has a proof using
+Michel W has a proof using the D operator
+uh whereas uh gilki also has a proof using Gil's proof is really both Gil and
+using Gil's proof is really both Gil and Michel W the proves are takeoffs on P's
+Michel W the proves are takeoffs on P's method uh they simplify the various
+method uh they simplify the various calculations that P did using some
+calculations that P did using some invariant Theory I have some uh
+invariant Theory I have some uh acquaintance with those proofs but I'm
+acquaintance with those proofs but I'm not a I don't have a really deep
+not a I don't have a really deep knowledge of that anyway I say something
+knowledge of that anyway I say something about those things uh but I I I deviced
+about those things uh but I I I deviced a proof I I shouldn't say it's it's not
+an entirely new proof it's based on what the outlines is the same as that of atas
+the outlines is the same as that of atas the original proof atya singer but there
+the original proof atya singer but there several points where it is much
+several points where it is much simplified that's the kind of proof and
+simplified that's the kind of proof and I'll talk about it today uh I do not
+know it's a little difficult to get to an audience with without the kind of
+an audience with without the kind of background in different geometry
+topology and differential equations to convey what exactly this theorem is all
+convey what exactly this theorem is all about and nevertheless I'll try
+something and if I failed I would not be surprised but I I hope you will not be
+surprised but I I hope you will not be disappointed see preparing the slides
+disappointed see preparing the slides has been a difficult job for me it's
+never easy to do these things uh but I've I've done something and in
+fact after the slides end I still have to something more to say because I
+couldn't put them in the slides I didn't have the time to do it so I I'll say
+something on the board which is with which I'll be more much more comfortable
+which I'll be more much more comfortable the atas theorem is certainly one of the
+the atas theorem is certainly one of the great theorems of the 20th century it's
+a theorem was proved in
+so it's now 62 62 years old so 6 61 years
+old in fact at the time when was 50 years old world I wrote to AA inviting
+years old world I wrote to AA inviting him to come to India and give a talk
+him to come to India and give a talk give some talks on the on the on the a
+give some talks on the on the on the a singer index celebrating its golden
+jubilee he he agreed readily and I was very happy but a few months later he
+very happy but a few months later he wrote to me saying that he can't come
+wrote to me saying that he can't come because his wife doesn't want him to
+travel so that was the end of I mean I had a Fascination for this ever since it
+had a Fascination for this ever since it came on the scene you know my first
+came on the scene you know my first introduction was in a seminar which
+introduction was in a seminar which narim and RAM had organized a TFR in
+lectured a good deal in that course and where we fixed up all the proofs we saw
+where we fixed up all the proofs we saw the announcement we didn't have the pro
+the announcement we didn't have the pro proofs cleared up but we had the
+announcement and we had sort of worked out the proofs more or less completely
+out the proofs more or less completely that seminar but in that seminar we
+that seminar but in that seminar we followed we batting everything that was
+done said in the atas singer announcement and later of course there's
+announcement and later of course there's a seminar on the singer index conducted
+by P P where all the details are given and we we we didn't really cover all the
+and we we we didn't really cover all the details there because uh we were not
+details there because uh we were not familiar with them and went a lot of
+familiar with them and went a lot of hard work to get to understand what was
+hard work to get to understand what was going on but we had a broad idea of what
+was going on and with some hand waving we did give a complete proof of the
+we did give a complete proof of the theorem in that seminar anyway that
+actually uh some years later about how many years now uh 15 years years back
+many years now uh 15 years years back there was a conference in honor of
+raman's 70th birthday in Spain and uh I was wondering what I could I was asked
+was wondering what I could I was asked to give a talk there and I was wondering
+what I should talk about and then you know in a bout of nostalgia I thought
+know in a bout of nostalgia I thought about the seminar we had and thinking
+about the seminar we had and thinking about it I arrived at somewhat different
+about it I arrived at somewhat different proofs pleaser easier proofs uh than the
+proofs pleaser easier proofs uh than the origin singer proof and I wrote it up as
+a paper and uh it appeared in that volume
+volume the
+Ramadan 70th birthday volume it has appeared and my what I want to talk
+appeared and my what I want to talk about will be based on that paper uh
+about will be based on that paper uh though it's 15 years old not many people
+though it's 15 years old not many people know about it it's not known I sent the
+paper to aa aa by that time had kind of lost interest in the business and so he
+lost interest in the business and so he didn't really respond and I I persisted
+sent the paper I hope you received it he said yes yes I received it and it's a
+it's a good idea to dedicate the paper to Ran's birthday that's all you would
+to Ran's birthday that's all you would say anyway that's the background story
+say anyway that's the background story so it's a theem which really
+so it's a theem which really fascinated the entire Matha community
+fascinated the entire Matha community and it the interface of different areas
+results from those areas so I will essentially describe the theorem and
+essentially describe the theorem and make some historical remarks actually
+the historical remarks will not come in the slides they'll come after the slides
+because I didn't have time to put them in the slide I was working on the slides
+in the slide I was working on the slides till about an hour ago so I will spend
+information necessary it won't be it will necess necessarily be sketchy and
+will necess necessarily be sketchy and uh somewhat vague some hand waving is
+uh somewhat vague some hand waving is inevitable I expect that uh the audience
+inevitable I expect that uh the audience have some similarity all same with these
+have some similarity all same with these areas even if they do not work in the
+relevant area this theorem is about elliptic differential operators on a
+elliptic differential operators on a compact manifold from one vector bundle
+compact manifold from one vector bundle to another I'm going to tell you what an
+elliptic operator from a vector bundle to another is to Define this notion we
+to another is to Define this notion we need the concept of a vector bundle
+which most of you will be familiar with nevertheless I'll go through the motions
+nevertheless I'll go through the motions of making a
+definition so F will be real numbers or complex numbers I'll be talking about
+complex or Vector mods most of the time it be about complex Vector mod but real
+it be about complex Vector mod but real Vector modles will inevitably figure so
+Vector modles will inevitably figure so I Define a vector bundle it's a pair
+I Define a vector bundle it's a pair consisting of a topological space e and
+a projection map p e to X consisting of a topological space and a continuous map
+a topological space and a continuous map P satisfying the following conditions
+first condition for every x x there is given a vector space structure on EX the
+given a vector space structure on EX the fiber there was Space X here and bigger
+fiber there was Space X here and bigger space is here the map down here each or
+space is here the map down here each or each point on this on each of these this
+each point on this on each of these this is a vector space
+X that's there given and then there's a local triality condition for every x and
+local triality condition for every x and x there's an open neighborhood U over
+x there's an open neighborhood U over which this
+which this the space will look like just a
+product and I spelled it out in precise terms for every for every x in x there's
+terms for every for every x in x there's an open set u in X with x in U this U
+here is opens there's a mapping from U cross this Vector
+space some of some rank r f into the into this the inverse image of this
+into this the inverse image of this portion this is say this is U so the
+portion there is a homeomorphism which on each fiber on this fiber there's the
+on each fiber on this fiber there's the vector space
+simply each is mapped Vector space isomorphically on the corresponding
+isomorphically on the corresponding inverse image
+fiber so and the mapping is compartible projection here is same as the
+projection here when you compose the homeomorphism that's the definition
+homeomorphism that's the definition Vector
+bundle when X is a smooth manifold base space is x when X is smooth manifold we
+space is x when X is smooth manifold we can talk of smooth Vector modle where
+can talk of smooth Vector modle where you all maps should become all all
+objects are going to be manifolds smooth smooth manifolds and all mappings smooth
+smooth manifolds and all mappings smooth differentiable Infinity that's the kind
+differentiable Infinity that's the kind of
+thing so the definition of the this is such a thing is called a local
+such a thing is called a local localization and in that definition also
+localization and in that definition also you demand if it's a smooth Vector modle
+morphism then you call it a smooth Vector
+mod from now on all Vector models if I talk of vector bundle or smooth manifold
+talk of vector bundle or smooth manifold automatically assume it's a smooth
+automatically assume it's a smooth Vector
+bundle for x and M a smooth manifold txm and txm represent the so-called tangent
+and txm represent the so-called tangent and cotangent space these are
+and cotangent space these are essentially if you have
+a something you call something a tangent Vector if look at all curves passing
+through that point which touch each other their common thing is called
+whatever is common to them is called the tangent vector and they that forms the
+vector space which I call txm M is the manifold X is the point on manifold txm
+manifold X is the point on manifold txm is a is a tangent space and it's dual is
+is a is a tangent space and it's dual is called the cotangent space the disjoint
+Union Union TX star xn M has a structure of real Vector bundle and is denoted TM
+of real Vector bundle and is denoted TM and t St M respectively so when you
+and t St M respectively so when you have if you like if you have a if you
+have if you like if you have a if you think of a manifold something sitting
+inside ID in space you have at every Point tangent vectors to that point
+these are of course you have the tangent plane there or tangent space of some
+plane there or tangent space of some Dimension translate to the origin and
+Dimension translate to the origin and then you get vectors of space here
+then you get vectors of space here that's how txm can be identified in the
+that's how txm can be identified in the case when the manifold is sub manifold
+case when the manifold is sub manifold of UK space usual notion of tangent
+space our intuitive notion of tangent space works and so as a structure so
+space works and so as a structure so this Union of Union of all the tangent
+this Union of Union of all the tangent space at various points considered as
+space at various points considered as the joint has a structure of a real
+the joint has a structure of a real Vector bundle and is denoted TM and the
+corresponding dual is the thing is T STM and is a tangent or cotangent bundle of
+and is a tangent or cotangent bundle of M PTM txm equals X for Vector bundle you
+projection takes the tangent space at X into X that's the definition of the
+into X that's the definition of the tangent mod now next I will talk a
+little bit about K Theory which intervenes very decisively in the
+statement even in the statement of the index the there is a way of getting
+technically you can go around without using K Theory but it's it's not clear
+why how I mean if you don't know K the you don't see how it works that method
+of doing it you can use curvature form and use do something with it and arrive
+and use do something with it and arrive at it but it's without K it's not clear
+for the index so one of course as notion of homomorphisms I will usually use the
+of homomorphisms I will usually use the word morphism which is more common among
+word morphism which is more common among mathematicians a homeomorphism and
+morphism are the same so you have the notion of a homeomorphism between Vector
+notion of a homeomorphism between Vector bundles it's the obvious definition you
+bundles it's the obvious definition you have you have a map of
+the one vector leading to another which which lies about identity map of the
+which lies about identity map of the base M and such that in each fiber the
+space and there are obvious definitions of direct sums and tensor products e t e
+Prime and e e direct and E Prime two Vector bundles on x
+you just have to put together for you have two Vector E and F say you just
+have to look at the vector space e ex X is the fiber over X of E and F is the FX
+is the fiber over X of E and F is the FX is the fiber over X of f then you just
+look at TX tensor FX and take the disjoint Union of those and make it into
+disjoint Union of those and make it into Vector modle like we did in the case of
+modle so that's where T direct is also defined similarly we need these Concepts
+defined similarly we need these Concepts now for for the definition of what is
+now for for the definition of what is called KX for topical Space X let VX be
+the set of script VX be the set of isomorphism classes of complex Vector
+bundles on X for a vector bundle S I use Greek letter s for Vector mod which will
+Greek letter s for Vector mod which will denote which which will mean a pair
+already so Vector mod s and that I forgot to put the right slash before the
+forgot to put the right slash before the XI so that's I
+XI so that's I and it's is is simply denoted s so if s
+bundle it's is classis square bracket
+side then one forms ax is the free Aban group on VX and BX and and and BX is the
+group on VX and BX and and and BX is the subgroup generated by S ISM class of S
+subgroup generated by S ISM class of S Plus ISM class of that's in the ailan
+where Vector you pass to the quent of ax by the subgroup the X by BX is called is
+by the subgroup the X by BX is called is usually denoted KX and that
+is it's a fun from the category of topological spaces into the category of
+topological spaces into the category of vector mods sorry into the category of
+Aion groups so for each X you KX whenever you continuous map from X to Y
+you are mapping from K KY to KX backwards is what they call cont variant
+backwards is what they call cont variant Factor the definition of KX is simply ax
+by BX if x to Y is a continuous map and E Prime is a vector bundle on y the
+E Prime is a vector bundle on y the fiber product X cross y e Prime is a
+vector bundle that is you have Vector
+bundle y on E you have X here you form the product X Cross C the cartisian
+product and in this look at so x in x so this is f here by E there and look at
+this is f here by E there and look at all x
+e in X Cross C with the condition
+v FX this is called the fiber product basically you have this space here and
+you have this space here over each fiber each Vector space and just you just if
+you take a point x and here is FX you take the vector space over that plug it
+take the vector space over that plug it in there that way you build a vector
+bundle on X that's called the induced bundle or inverse image bundle under F
+bundle or inverse image bundle under F and it's denoted F star e
+and it's denoted F star e Prime the map e Prime to F star D Prime
+to use a morphism KF from KY to KX when so the vector level each Vector mod is
+so the vector level each Vector mod is pulled back and then you can do form the
+you get a mapping from the free ail group to the free abil group and the
+group to the free abil group and the corresponding kernels maap the
+the kernel and then the kernel Maps into the corresponding kernel and then you
+the corresponding kernel and then you get a mapping of the qus so that is KF
+from KY to KX
+now and then when we defin k group for a pair
+pair XA where X is a topological space
+space for such a pair you define kxa as follows it's defined
+follows it's defined as you look
+k x by a point let's explain what this means X by a is a space you have this x
+means X by a is a space you have this x here and you have close sub space here
+here and you have close sub space here blow this down to your point so this
+blow this down to your point so this whole thing has become a point
+here for instance if you take a interval blow down this is say the end
+blow down this is say the end points together is a a a is
+when you blow down the thing you get a circle this is you just end points are
+circle this is you just end points are simply into single thing that's the kind
+simply into single thing that's the kind of thing but if you like
+of thing but if you like you take a dis for
+you take a dis for instance D2 and circle D2 by S1 is
+sphere fold over that's how the spaces X by a is defined and then one defines
+by a is defined and then one defines mapping
+mapping K now what's the definition look at k x
+star is defined as you have a natural map from KX by
+problem k x by a to K of star what is KF star star is a single
+star what is KF star star is a single point in Vector simply Vector space this
+point in Vector simply Vector space this is nothing and the rank gives
+is nothing and the rank gives you with
+z so you get a mapping of kxa into Z the kernel is what is
+KX by a comma point so and KX is simply defined as K
+point so and KX is simply defined as K you blow down a with a space with a
+space automatically has acquires a point the whole a has being blown down to a
+point it acquires a point and so that's the definition of k x
+so KX B the Kel of the mapping k i the the inclusion
+the inclusion I of point in a induces map from as as
+I of point in a induces map from as as said earlier k k to K star and this is
+it's a map from the
+the SP KX to
+sorry okay rank Stars the mapping from KX to K of star when you have a point
+KX to K of star when you have a point star Z and when this star is
+star Z and when this star is something which is there already you
+I'll forget this Rank and simply call it rank but if if you have lots of points
+rank but if if you have lots of points it goes
+into it's a function to Z which is locally constant if there's no star
+locally constant if there's no star locally
+Vector bundle if you take any point the neighborhood it looks like you cross a
+neighborhood it looks like you cross a fixed Vector space and so the rank is
+fixed Vector space and so the rank is well defined in that entire neighborhood
+well defined in that entire neighborhood in every so every point is a
+neighborhood in which it is constant and therefore it's locally constant so it
+therefore it's locally constant so it will be constant on connected
+components when X is the point the map IND the map rank map gives you home off
+IND the map rank map gives you home off of KX into Z formation of tensor product
+of KX into Z formation of tensor product of vector bundles reach to a ring
+structure on KX by a and the assignment XA to kxa is a contan fun from the
+XA to kxa is a contan fun from the category of fair XA
+ex subset into the category of compitative rings there's a ring
+structure on KX kxy in general it's it comes from formation of tensor the
+vector bundle level then you have to of course check that you have free you have
+course check that you have free you have free group on ISM classes tens free
+free group on ISM classes tens free group on ISM classes into free
+sorry the tensor prodct gives you a mapping from set of isos classes tens
+mapping from set of isos classes tens cross
+cross classes
+into certif classes e f going to eor f and then that gives you a mapping
+and then that gives you a mapping ultimately from KX t k KX to KX which is
+ultimately from KX t k KX to KX which is a
+multiplication KX by a t KX by KX by so each this KX this kxa is a
+by so each this KX this kxa is a ring
+ring natural given by the T of product
+construction which is important from the point of view of theas index the suppose
+point of view of theas index the suppose you given two Vector
+BS and an ism Fe of e restricted to a restriction to a makes sense because you
+restriction to a makes sense because you just take the portion over a that's
+just take the portion over a that's restriction of a so and suppose there's
+restriction of a so and suppose there's there given two vect and
+Prime restrict to a then one can define an element bracket Fe in K XA as follows
+an element bracket Fe in K XA as follows what one does is the
+what one does is the following you
+following you have space
+have space x sub space
+here have Vector model on this and Vector model also on this and
+this and Vector model also on this and or the portion
+isorm in such a situation you can Define this data gives an element Fe in K
+so you get the element K and this construction is important in the new uh
+construction is important in the new uh for the index in
+fact right the short way talk about the symbol the symbol and the K theoretic
+symbol the symbol and the K theoretic symbol and that depends very much on
+construction well I don't want to go much into the construction for but very
+much into the construction for but very quickly what one can do is to add
+quickly what one can do is to add a by adding
+direct some with another bundle F these are two bundles this is e here and F
+here and what can to do is to make can add it's a theorem that you can find the
+add it's a theorem that you can find the bundle fime such that this becomes a
+bundle fime such that this becomes a product
+bundle if you are working on S Cross C and you obviously have a fe
+Direction one will be ismism between e will be
+will be a
+yeah e direct some f Prime restricted to
+some f Prime restricted to a
+on F dire fime restricted to a so and this is I to
+fime restricted to a so and this is I to trivial bundle so this is nothing but a
+CQ and now in such a situation what you can do is when you you can blow down a
+can do is when you you can blow down a and use this isomorphism to identify all
+and use this isomorphism to identify all the fibers over a on both sides and
+therefore you'll get a vector bundle which
+which is which is get a vector X by a and with
+is which is get a vector X by a and with a trivialization on on the base point
+a trivialization on on the base point which you get which which is the
+which you get which which is the definition which gives you the
+definition of element KX so that's the difference
+construction guaranteed that you will find such an there's always an fime such
+find such an there's always an fime such f plus fime is the capital N is not
+fixed the capital N or what you call Q here sorry here youve called it probably
+Q or capital N uh the the no that see that is oh should should have been y the
+that is oh should should have been y the Q should have been Capital yeah so but
+that capital N is not fixed in terms of the ranks of the original yeah I mean
+the ranks of the original yeah I mean the thing is that there's no uniqueness
+the thing is that there's no uniqueness about okay could be anything could be I
+about okay could be anything could be I mean for instance you start with one e
+can so that gives to kxa and there's number of the definition there number of
+number of the definition there number of choices involved but the ultimate
+element in kxa which you get that bracket fee is independent of the
+bracket fee is independent of the choices involved you have to choose some
+choices involved you have to choose some e Prime there it doesn't matter what you
+choose okay now I come to definition of linear differential operators and their
+linear differential operators and their symbols m is a smooth manifold one can
+speak of smooth Vector models e smooth and P smooth Etc I've already said all
+this uh we denote by gamma U the set of all SP sections V or U so a section
+all SP sections V or U so a section simply here is
+simply here is the vector
+bundle the manifold here and you have suppose you have an open set here it
+sections mapping the other direction just that when you when you come back
+just that when you when you come back with the projection here you get
+identity that is for each point you pick a point of stress such that which is
+a point of stress such that which is smooth the mapping is smooth and the
+composition is identity that's a section you can obviously add sections if it's a
+vector bundle you can add sections and multiply sections by scalers so it's
+multiply sections by scalers so it's section set of sections become a vector
+so a definition is of a linear differential operator L from E to F is a
+Lu for every open setu Lu is a linear map C linear map from gamma U to GMA
+map C linear map from gamma U to GMA that should be GMA not
+g gamma U GMA U is section GMA u e Prime section sections of e Prime so GMA U to
+GMA U Prime you have a map for every U such that you take a section restricted
+such that you take a section restricted to some open set you have on on the
+have LV and on the bigger open set L and that diagram should be com to that is
+that diagram should be com to that is whichever way you go you get the same
+whichever way you go you get the same amount whether you go this way or this
+mean what it means to say the diagram is compettive so such a thing is a linear
+compettive so such a thing is a linear def operator now of course one may be a
+little puzzled about this kind of definition but it out that the theorem
+definition but it out that the theorem says that this is gives us back our idea
+of a differential operator on nuc in space without any further assumptions
+space without any further assumptions here is a following theorem is a result
+of Jac Petra which says that the differ is not at variance with our ideas about
+is not at variance with our ideas about differential equations in RN so res to
+differential equations in RN so res to sufficient small open set then sections
+of that open set can simply t as Vector value functions on that open set because
+value functions on that open set because over that open set the thing is a
+go into the fiber which is a fix so sections so Vector valid functions on U
+sections so Vector valid functions on U and you want from Vector valid functions
+on youu say Vector values in a vector space RP
+another you get functions the operator gives you a map into functions on the
+gives you a map into functions on the same U but with values in some fq
+same U but with values in some fq different FP spe and fq so from Vector
+different FP spe and fq so from Vector valid function to Vector valid functions
+valid function to Vector valid functions of the size of the vectors are different
+you get a map D and then it turns out you you get back the usual notion of our
+you you get back the usual notion of our differ nucle space it's the theorem
+differ nucle space it's the theorem which is not very difficult to prove but
+somewhat technically
+involved that theorem is due to Petra now that will happen only on a
+Petra now that will happen only on a relatively compact open set what would
+relatively compact open set what would happen is you can write even on UK space
+you can write a differential equation say a alpha x d alpha and then you can
+make a alpha know the
+Can can be non zero for larger and larger Alpha as you go to Infinity that
+larger Alpha as you go to Infinity that can that kind of thing can happen in any
+can that kind of thing can happen in any compact set it won't happen but it can
+compact set it won't happen but it can you can increase the degree I mean you
+you can increase the degree I mean you can
+can write for instance one variable you can
+write d by DX power n a and X these functions a and
+X can all be F compact support but the support May grow as you as goes larger
+larger so you cannot put a bound on the order of the operator that that's that's
+order of the operator that that's that's one thing one should keep in
+mind if you look at the definition on any relatively compact set you get do
+any relatively compact set you get do get a bound it gets written as a n d by
+n so I written it out d alpha means d by dx1 ET so this operator after composing
+dx1 ET so this operator after composing with on both sides with suitable
+with on both sides with suitable function
+suitable isomorphisms you find that it's the usual linear differential operator
+on UK space the differ operator L is of order D if in every for every coordinate
+order D if in every for every coordinate chart UF M with u compact as du less D
+fixed D independent compact set if you have then you call it different operator
+have then you call it different operator of order less than equal to D and
+something is of order equal to D if it's of order less than equal to D but not
+one let L be a linear differential operator of order D in the coordinate
+operator of order D in the coordinate chart you have fixed the coordinate
+chart the dxi one L to I to P at every Point constitute basis of the cotangent
+space at any point of view once you have that then if you look at look at the map
+that then if you look at look at the map Sigma TI dxi going
+to take only the coefficient the top degree top order operators Alpha is d
+alpha is composition of DX d by dx1 alpha alpha 1 plus Alpha 2 alpha n is
+alpha alpha 1 plus Alpha 2 alpha n is fixed I call mod Alpha fix mod Alpha
+fixed I call mod Alpha fix mod Alpha equal to D and then look at
+equal to D and then look at look at this polinomial in the T1 T2 T
+ke t t
+t TI
+TP this should be the manifold I've always been talking of being Dimension n
+always been talking of being Dimension n so that should be n never mind so here
+it's as if the man is dimension P I write it like this then I get this you
+write it like this then I get this you get a homogeneous polinomial of degree D
+get a homogeneous polinomial of degree D on the tangent on this Vector space span
+on the tangent on this Vector space span by dxi
+you get a matrix Valu homogeneous polom on the on the cang space txr at X for
+on the on the cang space txr at X for every X and U the trivializations of the
+every X and U the trivializations of the bundles enables one to identify the
+bundles enables one to identify the matrices elements of Home ex ex
+Prime it's easy to see that this hom polinomial is independent of the choice
+of the chart as a polinomial on the cotangent space it's independent of the
+cotangent space it's independent of the chart in different chart you'll get a
+chart in different chart you'll get a different basis but the polinomial also
+different basis but the polinomial also look different but when you think of
+them as the same tangent cotangent vectors then you're in good shape the
+value though so we get a in other words we get a vectoral morphism of the
+we get a vectoral morphism of the pullback of
+V from morphism of the pullback of Vu to the pullback of U Prime under PT star P
+the pullback of U Prime under PT star P St M so for each
+Vector we in the cotangent space you get an isomorphism of you get a polinomial
+an isomorphism of you get a polinomial map into theomorphism ex into e Prime X
+map into theomorphism ex into e Prime X so what you get is a essentially
+so what you get is a essentially morphism of the pullback of V to the
+pullback of V Prime under PT STM this bundle morphism is called the symbol
+bundle morphism is called the symbol slfl that is you have this bifold here
+this the tangent bundle say Cent bundle
+and you have the other bundles also sitting
+here e
+f so what you want take a element V in the cang modle and you have the symbol
+the cang modle and you have the symbol gives you V is Ling over
+gives you V is Ling over X and you get X over X you have X here
+X and you get X over X you have X here so CX and FX here and you get for each V
+so CX and FX here and you get for each V you get a home OBS of e to
+is SV depending on V SV and the way the V SV depends
+V SV depends on V is is a polinomial dependence
+is a homogeneous polinomial and that's I called it by B pH s
+called it by B pH s l symbol let called the
+l symbol let called the symbol
+sorry what is the symb yeah of thean Sigma x i Square Sig Square that's
+thean Sigma x i Square Sig Square that's itl yes so after all Sigma d ² by DX s
+itl yes so after all Sigma d ² by DX s is LA and you just to think of this
+is LA and you just to think of this is if
+I Vector like tangent Vector like this I just i1 sare plus I2 Square sin Square
+just i1 sare plus I2 Square sin Square nor square is the
+simple the top order terms is the S symbol thought of as a polinomial
+symbol thought of as a polinomial function on the tangent space on the
+cotangent space now fix a rem metric on M and let DM and SM denote the unit dis
+M and let DM and SM denote the unit dis and unit sphere bundle it's clear how to
+and unit sphere bundle it's clear how to define it that is when you have REM
+define it that is when you have REM metric on every of the one of those
+metric on every of the one of those tangent spaces or cotangent spaces you
+have a in a product you have in manifold and therefore it makes sense to talk of
+and therefore it makes sense to talk of unit vectors in that or or vectors of
+Norm less than to one in each of those fibers and just take only those of Norm
+fibers and just take only those of Norm less to one you call that the dis bundle
+less to one you call that the dis bundle and those of Norm exactly equal to one
+and those of Norm exactly equal to one you call them the sphere bundle so at
+you call them the sphere bundle so at each point you have a sphere and a dis
+bounce so thus we have two Vector BND e and D Prime both pH e and both pH m d
+over DM and homomorphism s e e Prime which is the isomorphism over SM so take
+which is the isomorphism over SM so take think of DM as a space X and SM as
+Subspace S A then we have two on them and home morphism which on the sub BND
+and home morphism which on the sub BND on the on Subspace is isomorphism so we
+on the on Subspace is isomorphism so we are ready to make the different
+are ready to make the different difference construction and therefore
+difference construction and therefore you will get an element you get an
+element Sigma L which depends on the original operator
+L which depends on the original operator the we have the we had a morphism cell
+the we have the we had a morphism cell and now on which is an is as as SM is
+and now on which is an is as as SM is concerned Sig in KDM SM is is the is the
+concerned Sig in KDM SM is is the is the ktic symbol the elliptic operator yeah I
+ktic symbol the elliptic operator yeah I forgot to say the operator set to be
+elliptic If the symbol my map is an ism on the sphere bundle so you have on the
+on the sphere bundle so you have on the dis bundle you mapping you have a vector
+bundle on the dis bundle and home morphism another Vector bundle which
+morphism another Vector bundle which when you restrict to the sphere bundle
+isomorphism and that's why the difference construction comes up and so
+you get an element of K B dis bundle mod sphere bundle K dmsm
+B dis bundle mod sphere bundle K dmsm and Sig that is called the
+and Sig that is called the symbol of of the elliptic operators
+symbol of of the elliptic operators defined only for elliptic operators it's
+not defined for arbitary operators because we
+want mapping to be isomorphism and all the nonzero vectors in particular if
+it's going to it's a homogenous po if it's non zero on the spher sphere it's
+vectors if going to rise all the nonzero vectors and this element is independent
+vectors and this element is independent of
+the choice of metric these are not difficult things to prove but technical
+so the following result is well known I want to Define now the analytic index of
+want to Define now the analytic index of Elric operator MB a compact manifold e e
+Elric operator MB a compact manifold e e prime vector bundles on L and L vect on
+prime vector bundles on L and L vect on M and ltic operator from E Prime then
+Dimension LM and dimension cocon realm are finite if you have mapping from
+are finite if you have mapping from one vector space to another P Prime the
+one vector space to another P Prime the col set of
+col set of elements X and
+elements X and V PX is
+V PX is z and
+z and cernal by definition is V
+prime or V the Quant V Prime of or TV both these are find at when the
+a now standard theorem on differential equations the actually these terms were
+equations the actually these terms were proved essentially at the in the first
+proved essentially at the in the first half of 20th century not before that I
+mean for one reason people are not thinking of compact manifolds before
+thinking of compact manifolds before that but anyway that is
+see that's a theorem and then that theorem enables to define the index of
+theorem enables to define the index of an operator the integer Dimension kernel
+an operator the integer Dimension kernel LM minus CERN LM LM is the operator from
+kernel LM minus Dimension cernal LM is the analytic index ofl so this takes all
+the analytic index ofl so this takes all this time to define the analytic index
+okay and of course when you have a differential operator one would very
+much like to understand what it kernel is like what are the solutions to the
+operation but that is usually intractable problem you cannot in
+general get hold of that very easily however it's easier to get hold of the
+however it's easier to get hold of the difference between the dimension of the
+C and the dimension of Co for for number of lesion firstly you it is observed for
+of lesion firstly you it is observed for instance that if you vary the
+instance that if you vary the differential operator
+continuously St keeping it elliptic but very very continuously then the kernel
+minus cernal the dimension does not change the kernel may change the cocon
+may change but if the Cur increases so does the cocon so the difference Remains
+does the cocon so the difference Remains the Same so in other words under
+perturbations differ the index doesn't change whereas Solutions
+can completely go off the radar a crucial fact needed in the proof of the
+index is the following I and I prime for ELC L Prime on a compact manifold sorry
+ELC L Prime on a compact manifold sorry a crucial fact need the pro index is
+a crucial fact need the pro index is these are equal if L and L Sigma L and
+these are equal if L and L Sigma L and sigma L Prime are equal I I I seem to
+have forgotten completely to put that that's the crucial statement if the K
+that's the crucial statement if the K theoretic symbols are the same the
+theoretic symbols are the same the theorem
+theorem is
+if Sigma L = Sigma L Prime both are differential operators
+elliptic then analytic
+analytic index the same as is the same for
+mean basically suppose you have suppose the you take the
+symbol of one symbol of L and symbol of L Prime suppose you can move them
+continuously then it's really theem in function
+analysis using some inequalities for elliptic operators if you move through
+elliptic operators if you move through elliptic operator from one to another
+elliptic operator from one to another but that suggest that this may be true
+but that suggest that this may be true but this is much stronger it's not clear
+move things are in the deformation of that kind the kind I'm speaking about
+that kind the kind I'm speaking about because during the def first of all
+symbol all the symbols must have the same homogeneous
+degree and they move then you can prove Pro the kind of statement one wants but
+Pro the kind of statement one wants but it suggests that there's something much
+it suggests that there's something much more valid namely if the K thetic
+more valid namely if the K thetic elements are the same then the analytic
+elements are the same then the analytic indices are the same okay this is a true
+theorem and the proof originally given by yeah can I ask a question sure sure
+uh is there a formula actually for this uh sorry is there a formula for the
+index uh in terms of the the index is the formula for the index analytic index
+the formula for the index analytic index in terms of some topological invariance
+in terms of some topological invariance H so that's what I'm asking actually so
+H so that's what I'm asking actually so that's that's index the the says there
+that's that's index the the says there going to be another thing which defined
+analysis which turns out to be equal number which turns out to be equal to
+this so actually question is more specific actually that if I know if I
+specific actually that if I know if I know a dra operator in the presence of
+uh gauge field or if I look at the operator in a reman manifold I
+operator in a reman manifold I understand this type of thing but
+understand this type of thing but suppose I give you some arbitrary
+suppose I give you some arbitrary elliptic operator no no then there is a
+elliptic operator no no then there is a geometric way of it another number which
+geometric way of it another number which is called the topological index and I'm
+is called the topological index and I'm going to describe that and the theorem
+geometric topological index is same as the analytic index the geometric index
+the analytic index the geometric index is does not have involve any analysis
+okay it's all completely geometric in character
+I can complete what I want to say in 60 minutes maybe it's spill over I I I plan
+for 90 minutes but maybe I won't take 90 minutes I take less so to prove to prove
+minutes I take less so to prove to prove that
+IAL Prime for when the K theoretic symbols are the same is a difficult
+symbols are the same is a difficult result it's not easy and the device used
+by a and singer is a sophisticated Machinery of so-call Pudo differential
+Machinery of so-call Pudo differential operators
+what happens is that there are symbols there are certain operators for
+symbols there are certain operators for which you can the whole class of
+operator for which you can Define symbols these symbols are no longer
+symbols these symbols are no longer homogeneous pols of any particular
+homogeneous pols of any particular degree they're simply continuous
+functions or at least smooth simply smooth functions on the dis bundled
+values in the isomorphisms of e to F that that's the kind of stuff you deal
+that that's the kind of stuff you deal with and though those there are
+with and though those there are corresponding operat which are called
+corresponding operat which are called pseudo differential operators they they
+pseudo differential operators they they have symbols but symbols no longer
+homogeneous pols they are simply some continuous function or smooth functions
+continuous function or smooth functions instead of being homogeneous pols like
+here on each fiber they're going to be on each fi some continuous functions and
+on each fi some continuous functions and El once have symbols eliptic is defined
+similar way and El once eliptic defined you get an ismism purely from ktic point
+you get an ismism purely from ktic point of view we don't care whether they're
+of view we don't care whether they're homogeneous polins or not there some
+homogeneous polins or not there some continuous mapping and so you do get a
+to is that kind of data and once you have that kind of data you can Define
+the ktic symbol but for pseudo differential
+operators you can you can do the homotopy in any way you like you don't
+homotopy in any way you like you don't have to pass through only homogeneous
+pooms okay I mean you can pass through same pols on the sphere at one end it
+same pols on the sphere at one end it may be homogenity of some kind at
+may be homogenity of some kind at another
+other homogenity of another kind but as far as stud operators are
+but as far as stud operators are concerned you can do that and conclude
+concerned you can do that and conclude that the index Remains the Same and that
+that the index Remains the Same and that flexibility is what enables them to
+prove what aan s enables them to Pro what enan to prove that the K symbol
+what enan to prove that the K symbol determines the analytic index of a Pudo
+determines the analytic index of a Pudo defal operator and sudal operator is
+much more flexible but there's a lot of Machin which goes into it in defining
+Machin which goes into it in defining and proving properties of of those
+operators but this theorem is not true for sudo differential operator which I
+mean the equality if L and L Prime are two arbitrary yeah it's true for is true
+two arbitrary yeah it's true for is true for True for operators if they Pro The
+for True for operators if they Pro The foral Operators more what I'm going to
+foral Operators more what I'm going to describe is for differ operators and it
+describe is for differ operators and it can be extended to operat by some
+further work but what I'm going to talk about essentially proof in the case of
+about essentially proof in the case of sud in the case of differential
+operators okay that sounds much more powerful the that
+but so you're saying this result is true for pseudo differential operators but
+for pseudo differential operators but the index theorem will finally be only
+for different is also for operators
+theer you know the reason I confin different oper one is that that Pudo
+different oper one is that that Pudo operators are make it much more
+operators are make it much more complicated to explain what they
+complicated to explain what they are it's a very sophisticated
+are it's a very sophisticated business okay and also I mean also
+business okay and also I mean also theorem main main interest the theorem
+is for differential operators those Pudo different operators are interesting in
+different operators are interesting in their own right and they have they have
+their own right and they have they have probably role in physics as well but I
+don't know but anyway so the but the point is that the usually most people
+are interested only in differential operators and for that it's enough and
+operators and for that it's enough and after after proving it for differential
+after after proving it for differential operators with a little bit of work you
+EXO difference operator practically once you know the definition difference
+sudo differ operator once you Pro for differ operators so but there'll be a
+differ operators so but there'll be a certain class of function I mean when
+certain class of function I mean when you go from homogeneous polinomial uh
+you go from homogeneous polinomial uh now there's a certain class of functions
+now there's a certain class of functions that you will restrict to for the symbol
+that you will restrict to for the symbol of the corresponding differential operat
+of the corresponding differential operat is even the very definition of is
+complicated you'll have a sequence of homogeneous functions of of different
+homogeneous functions of of different Sigma Sigma Lambda 1 Sigma Lambda 2
+Sigma Sigma Lambda 1 Sigma Lambda 2 Sigma Lambda and of hom functions the
+F homeomorphism of E and F you have a sequence like that Lambda 1 Lambda
+Lambda n decreasing with something the top Lambda one will be called the degree
+top Lambda one will be called the degree of the oper operator
+Lambda one will because degree Lambda be really can be any real number it's not
+really can be any real number it's not an integer and then of course which
+an integer and then of course which extended homogeneously course when you
+do the homogeneous extension it need not even be continuous at the origin you'll
+even be continuous at the origin you'll get operators which are not necessarily
+get operators which are not necessarily continuous to the origin so fractional
+continuous to the origin so fractional powers and so and for such so for such a
+powers and so and for such so for such a sequence of Sigma Lambda you can define
+sequence of Sigma Lambda you can define an operator from
+from the you can only different operate from the whole of sections of M sections
+from the whole of sections of M sections over the whole of M to sections of you
+can't do it for every open set that becomes more complicated so would
+becomes more complicated so would something like e to theasian be uh well
+something like e to theasian be uh well e to
+the if you put e to minus t Delta they the heat they have good kernel yeah but
+the heat they have good kernel yeah but with positivity doesn't even make sense
+with positivity doesn't even make sense you have to be careful won't converge
+you have to be careful won't converge you know so that's
+why that won't be even over a compact familiar with the singular operator soal
+familiar with the singular operator soal sing interal operator there are special
+sing interal operator there are special case of sudal
+operators it's a pretty sophisticated business to talk about them so I my own
+business to talk about them so I my own knowledge is not very deep so I dare not
+knowledge is not very deep so I dare not talk talk about it so a and singer use
+talk talk about it so a and singer use the invoke the theory but however it can
+the invoke the theory but however it can be proved using fairly Elementary facts
+be proved using fairly Elementary facts about different
+operators the trade off is that you have to use somewhat more sophisticated
+topology than what they use the key step the about for proving this statement
+the about for proving this statement this theorem that analytic index of L
+their symbols ktic symbols are equal one can use purely
+can use purely differential differential equations and
+differential differential equations and that two not very sophisticated things
+but uh the key step is to construct a self adjoint elliptic operator a of
+self adjoint elliptic operator a of order one from the trivial bundle to the
+trivial bundle of rank 2^ n + one you can construct this and this construction
+can construct this and this construction is uh very closely follows the usual
+from if you think of exor differentiation on manifolds goes from
+exor P forms to exor p+1 forms and if you take it adjoint Del call it Del and
+you take it adjoint Del call it Del and that goes from P plus1 form to P forms
+that goes from P plus1 form to P forms and if you look at D plus d that can be
+even forms to odd forms that is a one as is well known in eliptic operator and
+is well known in eliptic operator and this kind of construction imitated in
+this kind of construction imitated in general to get on any
+general to get on any manifold elliptic s joint operator from
+manifold elliptic s joint operator from a vector
+bundle in fact a vect into itself one can manage that the construction
+can manage that the construction essentially is suggested by H Theory Dam
+Theory don't I think I skip this I will not along the way one also uses the fact
+not along the way one also uses the fact that SL SL1 Prime SL2 prime or homotopic
+that SL SL1 Prime SL2 prime or homotopic through homotopic through symbols s all
+through homotopic through symbols s all of the same
+then it is easy to show by using functional analysis that the analytic
+IND index is the same but so suppose the homotopy is not through things but at
+homotopy is not through things but at either end suppose the operator same you
+either end suppose the operator same you approximate it using you can approximate
+approximate it using you can approximate using by pols along the fiber by the
+standard method except you there's a parameter along the manifold you can
+convolve with E power minus TX s and make an approximation but E power minus
+TX s on each f t Norm square e minus n Square on each fiber separate it varies
+Square on each fiber separate it varies with X but you do you can do that
+with X but you do you can do that convolution and get the approximation
+convolution and get the approximation you want but the approximation will will
+truncate any point thing and get polom approximations but pols are homogeneous
+approximations but pols are homogeneous but what you can do is to
+replace look at one of the sphere and make them all homogeneous by multiplying
+make them all homogeneous by multiplying by
+suitable power of Norm size Square by such a process you can make them all
+such a process you can make them all omous and then it is then the theorem
+omous and then it is then the theorem will be proved that's that's the kind of
+will be proved that's that's the kind of thing you can do without having recourse
+thing you can do without having recourse too defal operators okay then
+too defal operators okay then first in the special case when the
+first in the special case when the manifold is odd dimensional it turns out
+manifold is odd dimensional it turns out that I is zero index is always zero this
+that I is zero index is always zero this is uh
+proved uh by uh using some very sophisticated business of the Kel of the
+sophisticated business of the Kel of the heat heat heat
+Astic expansion of the heat kernel along the diagonal on M CRM on the diagonal
+the diagonal on M CRM on the diagonal and by using sophisticated arguments it
+and by using sophisticated arguments it can be
+done but I can also use the kind of arguments I used to prove that uh the
+arguments I used to prove that uh the the purely differential operator
+arguments which are used to prove the dependence of analytic index only on the
+dependence of analytic index only on the cas symbol to come to this conclusion
+also I don't want to go into details it's uh bit messy but it's it's it's lot
+it's uh bit messy but it's it's it's lot easier than the method using heat
+equations kernel of the heat equation but at some other point I do have to
+talk about the heat of the kernel equation for something else so I just
+equation for something else so I just explain you the point is
+uh yeah in the in the case in the dimensions odd first point to notice is
+dimensions odd first point to notice is that when you take the vector Bund go up
+the vector TM has everywhere non zero section because o character is zero one
+section because o character is zero one knows that an OD dimensional manifold
+knows that an OD dimensional manifold admits everywhere non-zero Vector field
+admits everywhere non-zero Vector field it's a standard theorem in topology
+it's a standard theorem in topology because of
+that you find that the two Vector bals lifted Vector bals are of course
+lifted Vector bals are of course isomorphic on the sphere and therefore
+they even the original ones have to be isomorphic because there's a section and
+isomorphic because there's a section and you come come back the composite is
+you come come back the composite is identity so the vector are isomorphic
+that has to be used crucially in this now I now come to the so far I've talked
+now I now come to the so far I've talked only of the antic index yes
+previous SL trivial in the sense like self adjoint operator always the last
+statement in the previous slide is it trivial that uh self adjoined operator
+has index zero the fact that the symbol of uh this self adjoint operators index
+of uh this self adjoint operators index is zero is it a trivial statement that's
+is zero is it a trivial statement that's obvious first of all if you have joint
+obvious first of all if you have joint operator Delta the kernel is of Delta is
+operator Delta the kernel is of Delta is same as in general for any tic operator
+D kernel of D is isomorphic to the coel of D star when D equals D star kernel
+of D star when D equals D star kernel and CERN become isomorphic yes that's
+and CERN become isomorphic yes that's easy functional analysis now I'm going
+easy functional analysis now I'm going to talk next I'm going to talk about the
+operator now this here I'm I think I'm going to assume a lot of statements from
+going to assume a lot of statements from topology
+firstly for any s k XA there is a coic c s called the churn character of s in
+which is an element of the direct sum of HQ XY Q when Q is even x a it should be
+HQ XY Q when Q is even x a it should be it's not y x a q so whenever for every
+it's not y x a q so whenever for every element you can associate a homology
+element you can associate a homology Class A mixed class not homogenous class
+Class A mixed class not homogenous class not particular degree but some of
+not particular degree but some of various things it's called the CH
+various things it's called the CH character you can associate that which
+character you can associate that which is an element of the even Coy even only
+the even degree terms added up it's a rational with you have to take rational
+rational with you have to take rational coefficients CH classes there are
+coefficients CH classes there are something called CH classes which are
+coefficients but these CH characters are kind of polinomial the churn classes
+kind of polinomial the churn classes with Q coefficients so you'll only end
+with Q coefficients so you'll only end up in having class coefficient Q in fact
+up in having class coefficient Q in fact s c is a natural trans from the funter K
+to the funter H xq on the category of pairs other words we are the following
+pairs other words we are the following competive
+competive diagram apply K is for the fun CH is
+diagram apply K is for the fun CH is natural trans goes from one fun to
+natural trans goes from one fun to another fun so this diagram comitative
+another fun so this diagram comitative is what a natural transformation means
+is what a natural transformation means it's all the is true it then there's
+class which depends only on the manifold it's it's the it's a soal characteristic
+it's it's the it's a soal characteristic class associated with tangent of
+manifold TM actually not the tangent tensored with complex numbers so you
+tensored with complex numbers so you it's a it's a complex Vector modle which
+it's a it's a complex Vector modle which you have whose CH
+classes whose class are actually called P classes and it's an element in
+P classes and it's an element in the kology sigma 4K H 4K mq 4K
+the kology sigma 4K H 4K mq 4K dimensional 4K degree coy
+and a polom and the element is a polom p classes of M and the orientation on M
+classes of M and the orientation on M determines for each P generate one p of
+the highest homolog HP DPM SPM m is twice the dimension of twice the
+dimension of M this m should be 2 m if m is a dimension of M moreover there's a
+is a dimension of M moreover there's a coic called to M if you like THM
+in hm DM SM Z such that it's called class such that THM restricts to the
+class such that THM restricts to the generator in each fiber each fiber if
+you look at DM the fiber of DM is a dis and the fiber of SM is a bounding sphere
+and the fiber of SM is a bounding sphere and if you look at hm disk modul sphere
+and if you look at hm disk modul sphere that is always Z and what what want the
+that is always Z and what what want the th class as a property that when you
+th class as a property that when you restrict it it becomes a
+restrict it it becomes a generator of that uh DM
+modm yeah and the mapping which takes well it's the mapping here is the
+takes well it's the mapping here is the situation here is H
+M what one can do is this you have a projection like
+projection like this so sorry you you have
+uh a projection like this you can now it turns out there is a special class th
+turns out there is a special class th here
+th is an element here THM what I called it there special class here such that
+it there special class here such that you take this El Alpha here take an El
+you take this El Alpha here take an El Alpha
+herey being a controver factor you get P star Alpha
+here and now there is a pairing H
+DM cross H star D
+again this so called cup product is app pairing like this so you put this there
+pairing like this so you put this there is an element which is lying here which
+is an element which is lying here which is
+called there an element which I called to M there
+th M here so what you do is you take this you have this Alpha here pick up P
+this you have this Alpha here pick up P star Alpha and you have THM
+here and you can form the product product here and gets you into H
+dmar dmsm this product it turns out that that so you get such a mapping from hm
+that so you get such a mapping from hm to H DM SM which is forming the C
+to H DM SM which is forming the C to to this turns out to be an is it's
+to to this turns out to be an is it's called the th Isis
+basically what happens is this if you have a cycle to the base take the
+have a cycle to the base take the inverse Imes like cycle cross a sphere
+cycle sphere itself is a cycle and that so it's a cycle in this in this space
+so it's a cycle in this in this space and so that's how you define
+the the homology level that's how you get a map you dualize you get chology
+get a map you dualize you get chology you have
+yeah now the topolog index is defined like this you take the the symbol of
+like this you take the the symbol of ktic symbol apply CH character right and
+ktic symbol apply CH character right and form the cup product with the pullback
+form the cup product with the pullback of THM pull back of TM to the dis bundle
+of THM pull back of TM to the dis bundle pull back of that to take that form the
+cup product and then evaluate it on the fundamental class of D STM SM St m d St
+fundamental class of D STM SM St m d St mm star that
+pair should be simp D St star there's no M there that doesn't make sense D star
+M there that doesn't make sense D star SM star is a manifold with boundary and
+SM star is a manifold with boundary and it's boundary that's pair and such a
+pair has a higher highest Dimension cycle so you can form
+the evaluate this on this homology class and as said this D mm Z in this element
+this should have been Z that element is a generator of
+z the generat detered with the orientation so the whole thing is some
+orientation so the whole thing is some chromologic class which you manufactured
+chromologic class which you manufactured out of the geometric data and evaluated
+on the fundamental class of DM star SM we can now State the index theorem for a
+we can now State the index theorem for a linear elliptic differential operator
+from Vector bundle e to another F on a compact manifold antic index is equal
+compact manifold antic index is equal topological index the topologic index
+is looks pretty complicated in its definition the analytic index is much
+definition the analytic index is much pleaser to Define on the other hand
+tall order if you have the topological data the index is effectively computed
+okay now so the theorem is that the analytic index is equal to to index the
+analytic index is equal to to index the way what aan sing Pro theorem is to
+prove a number of properties which are common to both
+both the top index as well as the analytic index number of properties are
+analytic index number of properties are true it's clear that top index depends
+only on the K thetic symbol very definition analytic index we to prove
+some things but that is taken now so to prove this what they do is to prove they
+prove this what they do is to prove they both of them have number of properties
+both of them have number of properties and if you
+and if you have certain if you have mapping from K
+dmsm into into into rational numbers two two such homomorphisms which
+numbers two two such homomorphisms which have this number of properties they have
+have this number of properties they have to be equal so to index and analytic
+index have all these properties so they have to equal the proof if they have all
+these properties what other properties they want
+they want firstly
+firstly okay
+yeah the one remarkable thing out of the index theem is that
+the analytic index obviously integer but the rational but the top index is only a
+the rational but the top index is only a rational number because the the CH
+character and so on involves polom with large denominators big denominators so
+you can only say it's Ral number the remarkable thing is once you know that
+remarkable thing is once you know that the antic index is equal to the index is
+an integer and in fact this gave rise to some integrative theorem there something
+some integrative theorem there something called the a Genus which essentially was
+introduced and that they had Gus turn out to be the
+index it turns out it's a topological number which comes out it
+turns out that the topolog number is nothing but the topological index of the
+nothing but the topological index of the direct operator on a spin on a suitable
+direct operator on a spin on a suitable spin manifold and therefore
+spin manifold and therefore the the a has to been integer yeah the
+of topolog index and analytic index so some of them we already talked about
+some of them we already talked about because
+it's obvious that both of them depend only on the ktic symbol that's the first
+only on the ktic symbol that's the first property
+and secondly if you take product M and N are two manifolds and
+you have an operator L on M and an operator L Dash on N you can form a kind
+operator L Dash on N you can form a kind of new operator out of L and L Prime on
+of new operator out of L and L Prime on M cross n which you can call the product
+M cross n which you can call the product operator and for that operator on if if
+the top index index coincide for L and L Prime then it coincides for the product
+Prime then it coincides for the product operator l l Prime on M cross
+operator l l Prime on M cross n so that's an important property both
+n so that's an important property both both of them process so number of common
+properties what they did was to prove that it's enough to prove it for some
+operators namely one one of the special operator you use is the uh you take the
+operator you use is the uh you take the dam complex of differential forms and
+dam complex of differential forms and isolate the take the some of the even
+isolate the take the some of the even forms and some of the odd forms and then
+where D is the different ex differ D is the joint D plus d if you look at it if
+the joint D plus d if you look at it if you look at the you can compute the
+you look at the you can compute the analytic index because of H Theory D
+plus d goes from even forms forms and H the tells you that the kernel of D plus
+the tells you that the kernel of D plus Del is precisely isomorphic Coy and the
+Del is precisely isomorphic Coy and the coel again which is same thing as
+coel again which is same thing as essentially of De it's the same it's the
+essentially of De it's the same it's the it is the is even odd chology and
+eveny minus odology the ranks if you take is prec the oil characteristic and
+that is the analytic index and the for the to index what it turns out what you
+the to index what it turns out what you get is a certain differential form who
+get is a certain differential form who which comes out with the G Bon formula
+which comes out with the G Bon formula and whose integral one knows is the oil
+and whose integral one knows is the oil characteristic so that
+proves for the special case for for the dam operator you also have another
+dam operator you also have another operator introduced by hitu who proved
+operator introduced by hitu who proved something about the what is called
+something about the what is called Signature of the manifold it's a
+Signature of the manifold it's a topological object and he proved that
+topological object and he proved that the signature given is got as the
+the signature given is got as the analytic index of suitable operator I
+mean he didn't put it in the framework but once you have this framework you can
+but once you have this framework you can interpret this theem in this fashion so
+interpret this theem in this fashion so what AA and S did was to use elaborate
+my reduce this to these two special cases signature operator and theam
+cases signature operator and theam operator theam H
+operator theam H operator
+now I think I'll skip this I've already told you that if uh the topolog index as
+well as the analytic index are zero in the case of odd dimensional manifold and
+the case of odd dimensional manifold and so for the a diens bfold the theorem is
+true the index is true now for the uh index for the even
+true now for the uh index for the even dimensional case we have to introduce a
+dimensional case we have to introduce a number of the problem has been reduced
+number of the problem has been reduced to first one reduce the problem to what
+are called Twisted signature operators
+this reduction to Twisted signature operators is again comes from a deep
+theorem in topology the Twisted signature operators are certain of
+signature operators are certain of operators which sit
+on Vector bundle into itself and so on the manifold D and as
+itself and so on the manifold D and as you VAR Vector you get number of Twisted
+you VAR Vector you get number of Twisted operators each of them gives you a
+symbol so from e to the Twisted symbol you get a mapping which goes from K
+theory of the bmsm the pair because it's eliptic operator you get and this is an
+eliptic operator you get and this is an isph after tensor with Q This is a
+isph after tensor with Q This is a fairly deep result in topology but this
+has to be used use that and so you can formulate everything as something to on
+formulate everything as something to on about K theory on the manifold itself
+bmsm and then there is one another theem so this this Twisted operators he
+so this this Twisted operators he so you have manifold M of Dimension 2 2
+say and the Twisted operators have got like this something like this you take
+like this something like this you take the d plus Del of the dam
+complex this goes from Omega forms even forms to out
+forms but you can think of it as going from Omega to Omega itself D plus d now
+from Omega to Omega itself D plus d now there is a star
+there is a star operator on
+operator on forms and you look at star square is
+equal to minus1 on odd
+and even forms now you can introduce another
+forms now you can introduce another operator star
+Prime which is nothing but I power P into i^ n minus P where on P
+I power P into i^ n minus P where on P forms
+forms Then star square look at this sorry star
+Then star square look at this sorry star and then look at Prime Star
+and then look at Prime Star Square this again is going to
+Square this again is going to be it's
+can be one or minus one that is star square is 1 or minus one on even forms
+square is 1 or minus one on even forms it's one and OD forms it's minus
+it's one and OD forms it's minus one
+one sorry
+sorry yeah therefore you look at
+Square this star square commutes with d plus Del because they scalar operators
+after all and so it's spaces will be stable so you have I space corresponding
+stable so you have I space corresponding to
+I here I here minus one here so I spaces min-1 + one are the I values here and
+min-1 + one are the I values here and this here the values for R square are I
+I separate the space into decompose Omega in a different way
+into decompose Omega in a different way as I spaces corresponding to + one and I
+as I spaces corresponding to + one and I bu them together and take the space
+bu them together and take the space correspond to minus1 andus I punch them
+correspond to minus1 andus I punch them together so it's a different
+together so it's a different decomposition from from instead of odd
+operator D+ goes from one to the other one space to the other this is the it's
+one space to the other this is the it's a broke Twisted index I mean index
+a broke Twisted index I mean index operator but if you have Vector BND
+operator but if you have Vector BND addition you can do all this with the
+tensor with E and then you use a connection to in of EX differentiation D
+connection to in of EX differentiation D Omega given by the connection performs
+Omega given by the connection performs with values the vector model and that is
+operator so it is enough to prove the theem for these operators and for these
+theem for these operators and for these operators what what is more another
+suppose so now I'm doing things on the on the manifold M itself M and you have
+on the manifold M itself M and you have suppose m m
+suppose m m Prime are
+Prime are manifolds which together bound which
+manifolds which together bound which together bound another manifold
+W so this is W here M and M Prime B this and suppose you have Vector mod e on
+W restrict e to W get to M you get a vector mod on M and similarly on M Prime
+vector mod on M and similarly on M Prime you have such a situation and you take
+you have such a situation and you take the
+and twist it by that connection Delta gamma on these again spaces let me
+Delta gamma on these again spaces let me call them w+ and W
+M look at this operator and this is antic operator and similarly you have D
+GMA gamma on W plus M Prime M Prime
+it turns out IA the analytic index of this is equal to the analytic index
+of D GMA Delta gamma here this is on M and this is on M Prime if the two
+together bound and there's a vector bundle which restricts the a certain
+bundle here and a certain bundle here for those two corresponding bundles the
+for those two corresponding bundles the analytic the analytic index is the same
+analytic the analytic index is the same for this
+the proof is quite delicate I mean what a singer views
+is some kind of theorems about solu to the boundary value problem for so-called
+the boundary value problem for so-called with Cove boundary conditions that's the
+way of doing it using the heat equation which I deviced and but it's again too
+which I deviced and but it's again too much too complicated to talk about also
+much too complicated to talk about also run out of time uh so I think
+run out of time uh so I think I will not say more about
+I will not say more about it as you see as you see the general way
+it as you see as you see the general way of approaching the problem of various
+of approaching the problem of various steps are similar to what aan s did
+though at every stage there are differences in the way the problem is
+differences in the way the problem is attacked the especially one of last
+attacked the especially one of last statement using the heat equation proof
+statement using the heat equation proof it's I'm kind of proud of that proof so
+it's a nice proof anyway uh okay now some general remarks after this uh I
+have some more slides to show but I will not go into it uh it has do with proof
+not go into it uh it has do with proof the whole thing yeah for D plus d star
+the whole thing yeah for D plus d star yeah this last step reduces to H Theory
+yeah this last step reduces to H Theory to the HJ theorem is it reduces to the H
+theorem is it yeah and for the twist redm yeah and the case of de for this
+other reduces to H Brook the about
+uh the signature L genus being equal to Signature L genus turns out L polom
+Signature L genus turns out L polom turns out to be
+the topological thing okay and the signature turns out to be the you break
+signature turns out to be the you break up like this and you look at kernels are
+always some part of homology you're looking at some I values in the homology
+space and you get you find all the except for the middle Dimension you get
+pairing off of negative and positive okay okay and only in the
+Dimension the entire positive St give you the kernel and negatives give you
+you the kernel and negatives give you the co kernel okay that's the way it
+works okay now uh some remarks the theorem that that the antic index can be
+theorem that that the antic index can be computable using purely topical methods
+computable using purely topical methods is something conjectured gan
+uh Gan conjectured it but he didn't write down any formula and so on and his
+write down any formula and so on and his and was fairly sound reasoning but not
+and was fairly sound reasoning but not entirely satisfactory essentially said
+if you homop one symbol to another symbol clearly index doesn't change so
+that was gan's idea and in fact he supposed to remk when the theorem came
+out big deal I guessed it kind of thing but very unfair Because the actual form
+but very unfair Because the actual form that it is the topological uh
+that it is the topological uh index involves
+so on it's not it's not by any means obvious but that was guessed that partly
+obvious but that was guessed that partly because of earlier theorems hit had
+because of earlier theorems hit had proved so his socaled remon Rock which
+proved so his socaled remon Rock which which again becomes a special case of
+which again becomes a special case of this and they look at the kind of polom
+integrating to get the result and that the class he was arriving at and so
+that the class he was arriving at and so on that's one thing and uh also this
+leg there some connection the direct operator so they guessed that could be
+operator so they guessed that could be the index that it integral com come out
+the index they guess all this put together and they guessed the actual
+together and they guessed the actual form the topological
+index formula for the topolog index that's and now of course there have been
+that's and now of course there have been as far as the fact that the index
+as far as the fact that the index depends only on the ktic
+symbol this the so-called all new proofs start from that point they assume that
+start from that point they assume that for instance theas singer P proof
+for instance theas singer P proof assumes that it is true that it depends
+assumes that it is true that it depends only on the kar thing it's after that
+essentially what was proposed by singer originally B use this singer method
+singer there's a joint paper of mckin and singer in which they had a general
+and singer in which they had a general conjecture about differential operators
+conjecture about differential operators why are the heat how to compute the
+kernel heat kernel once you have heat kernel it rest of it is topology so to
+kernel it rest of it is topology so to speak it's a different geometry what
+they proposed was to the heat canel you by the heat I mean you have the operator
+by the heat I mean you have the operator D introduce D star D star D plus d star
+D introduce D star D star D plus d star D is elliptic on One D disar thetic on
+equations and you have the heat kernel which has a asymptotic expansion along
+which has a asymptotic expansion along the diagonal heat kernel is something on
+the diagonal heat kernel is something on M cross M so have Astic expansion along
+M cross M so have Astic expansion along theal in
+t as T goes to zero it and it starts with some T power minus n by n by 2 in
+with some T power minus n by n by 2 in general you should it should start with
+general you should it should start with t powerus n by2 and go n by D where D is
+plus 2 by D and so on that's the way it goes I suppose something like that maybe
+goes I suppose something like that maybe off by something anyway and they looked
+off by something anyway and they looked at the starting terms
+T and if you look at it as the as the col of the operator e minus t Delta then
+col of the operator e minus t Delta then you can easily show that the the
+you can easily show that the the the what you after the analytic index
+the the operator the trace of the operator Trace LL star minus Trace
+l l star L minus Trace LL star that's and for each of these you use the heat
+and for each of these you use the heat heat equation expansion for the kernel
+heat equation expansion for the kernel and integrate it on the manifold and
+and integrate it on the manifold and allow T to multiply by T
+per by a or something and allow it to go to zero then you get the you will get
+to zero then you get the you will get some expression but that expression what
+some expression but that expression what exactly it's a big it's a big deal I
+mean it's not easy to what what P he did was he first dealt with the dam operator
+was he first dealt with the dam operator where he proved that you get the oil
+integrate the ghost Bon term is what you find that's that's what he proved and
+find that's that's what he proved and that was quite a big accomplishment no
+question about it then he went on to do it for more and more operators then he
+it for more and more operators then he Prov the using that method and
+everything depend on the fact there's a big cancellation in this SYM totic
+big cancellation in this SYM totic expansions When You Subtract one from
+expansions When You Subtract one from the other lots of cancellations takes
+the other lots of cancellations takes place and what remains is a nice
+place and what remains is a nice expression which you
+can interpret in chological terms in that that's that's what he did and
+then he got of course invited after this performance he was called inv but singer
+performance he was called inv but singer and and so on but I must say before that
+he sent his paper the paper he wrote up and sent it to singer singer did not
+and sent it to singer singer did not respond a few months after that narim
+respond a few months after that narim and Raman who were abroad came back from
+and Raman who were abroad came back from abroad and they want asked him to
+explain the proof to them then they made him recast the whole thing in better
+him recast the whole thing in better language and it's that language which
+language and it's that language which helped people to understand the theorem
+helped people to understand the theorem original pus work was very difficult to
+for but between n and R they saw to it that he relo the whole thing is all his
+that he relo the whole thing is all his ideas but in a form which is accessible
+ideas but in a form which is accessible to General it's one day after that these
+to General it's one day after that these people started getting excited over
+people started getting excited over part's work the first manuscript which
+was sent to uh singer did not get any response but later the revised manp had
+response but later the revised manp had immediate response so that is the way
+which year was this uh 19 this guy joined must be 70
+this uh 19 this guy joined must be 70 one or 72 I see okay no P remarkable guy
+I mean nobody knew he was working on this problem at the Tata Institute I
+this problem at the Tata Institute I mean he was a graduate student and was
+talking of course he was recognized as an outstanding student there no question
+an outstanding student there no question about that but nobody knew that this guy
+about that but nobody knew that this guy is working on this mck singer conjecture
+is working on this mck singer conjecture one sudden day he just produces this Con
+produces this paper and say so and then of course so after the point that it
+depends only on the ktic symbol there are several ways of attacking it one is
+are several ways of attacking it one is the what is by
+the what is by AA the point
+is suggested by mck and singer one way of attack on that because the the they
+after cancellation the terms which you get are going to be differential forms
+get are going to be differential forms and the differental forms are really
+and the differental forms are really substitutions of some certain
+polinomial so in some polinomial of the curvature form of suitable connection of
+curvature form of suitable connection of a metric that is what to prove and which
+P did with remarkable facility and that is the way on and so on and then instead
+of instead of doing it all this has to be done for Signature operator whatever
+be done for Signature operator whatever oper I mean for
+the you need to prove for all signature operators which is
+Whata did but you can also have a different approach and instead of that
+different approach and instead of that use the D operator the direct operator
+manifold the direct operator also gives an is K the of the base and K the of BM
+dmsm and so you can use the D operator direct operator again first you have the
+direct operator again first you have the first direct some direct operator turn
+operator so you have to prove the Twisted D and large bit of it was done
+Twisted D and large bit of it was done by what's her name now I forgotten
+by what's her name now I forgotten already anyway French
+ready did it with the dra operator and then there are Al other takeoffs I there
+then there are Al other takeoffs I there is the question of family of elliptic
+is the question of family of elliptic operators and then there's the theorem
+operators and then there's the theorem which tells you how to the family El
+index index then becomes a family of vector space which means a vector bundle
+vector space which means a vector bundle so you have two Vector bnds but not
+dimension may change dimension of the kernel or coel may change though the
+change so you but still you can Define using those things you can define a
+base the the kernel at each point gives you Vector space even though kernel
+you Vector space even though kernel minus
+Co that is constant but dimension of Kernel Dimension Co independently may
+not be constant but nevertheless you can manage to define a vector bundle out of
+that so what you have done is to for every element in K theory of the top you
+get liit of K3 in the image space and there is something called the growth and
+there is something called the growth and de Rock which can be reformulated in
+de Rock which can be reformulated in this context and that
+works okay there are been other efforts but I don't I don't know too much about
+these things and as I said there's a proof using probability methods but once
+proof using probability methods but once again the heat equation plays an
+again the heat equation plays an important role
+there by bism let's see sorry I have taken 90 minutes
+taken 90 minutes [Applause]
+for taking us through this very uh seminal result and at least showing the
+seminal result and at least showing the Contours of the uh uh uh the proof we
+look forward to uh the technical lectures but before that any questions
+lectures but before that any questions either online or in person to make one
+comment that around mid 1960s physicists actually also
+discovered some version ofor index what I was saying is that around mid
+I was saying is that around mid 1960s physicists also were looking at
+1960s physicists also were looking at phenomena similar and they are called
+phenomena similar and they are called anomalous conservation
+laws uh it's called the I mean the Adler beljak anomalies and I just wanted to
+beljak anomalies and I just wanted to draw this parallel that in both the
+draw this parallel that in both the areas mathematics and physics something
+similar was being done actually and in fact there's a deep connection and it's
+fact there's a deep connection and it's the same stuff actually I mean yeah
+the same stuff actually I mean yeah physics and maths always had a what you
+physics and maths always had a what you call symbiotic
+relationship yeah in fact it is from the direct operator it's the same direct
+direct operator it's the same direct operators properties that lead to this
+thank you very [Laughter]
+much so this uh process of reduction you said for the most General one it could
+said for the most General one it could be reduced to one of these very simple
+be reduced to one of these very simple cases that is just is it the statement
+cases that is just is it the statement that you said that uh it satisfies
+certain properties and uh once you show that that that's all so it sounds like a
+that that that's all so it sounds like a very powerful way which you can reduce
+for a very general operator to uh yeah yeah I mean no point you take if you go
+yeah I mean no point you take if you go beyond operat
+beyond operat huh yeah
+yeah reduces toer order two is big is a very big step yeah I mean that seems
+very big step yeah I mean that seems very non-trivial that it you could argue
+very non-trivial that it you could argue that maybe yeah but you know me are
+that maybe yeah but you know me are I mean I I don't think the kind of
+I mean I I don't think the kind of methods
+methods used be like with
+in even among mathematicians know there are followers
+are followers of like but
+two two operators and I don't think if you don't no even the heat equation Syms
+are when you go to higher Dimension becomes much more
+messy it's the same idea but you know way number of things you have to handle
+at the same time huge number and so it becomes really messy but have managed it
+becomes really messy but have managed it they've done it they've made an Astic
+they've done it they've made an Astic expansion even for the Pudo differential
+expansion even for the Pudo differential operators are ASM totic expansions but
+operators are ASM totic expansions but it's
+uh I I you can follow the what's going on you know step by step but you don't
+on you know step by step but you don't get a global picture of what's happening
+get a global picture of what's happening with with operator AUD to you are in
+with with operator AUD to you are in much greater comfort and it's therefore
+much greater comfort and it's therefore it's nice to reduce it to such operators
+because it uses uh you know the cism is one of the big tools and being a very
+one of the big tools and being a very font of topology I'm happy
+font of topology I'm happy and the
+other P proof for instance is much more analysis and Def
+instance is much more analysis and Def geometry my proof I give or is much more
+accessible to topologist so uh you mentioned at that
+uh the fact that the topological index is an integer was uh the only proof was
+is an integer was uh the only proof was through the fact that it was equal to
+the analytic index the fact that the topological index is an integer when it
+one the fact that it's actually an integer was because of this theorem that
+integer was because of this theorem that it's equal but and is there since been
+it's equal but and is there since been uh independent understanding of that uh
+uh independent understanding of that uh I don't I don't think so I don't think
+I don't I don't think so I don't think so I don't think so
+results which topist could prove by other means could also be proved by this
+other means could also be proved by this method by using suitable operators and
+method by using suitable operators and so
+on this idea of you know considering all objects of a certain kind and so on this
+is something started only with Hilbert so it's a 20th century phenomenon before
+so it's a 20th century phenomenon before that people were not looking at things
+in that fashion you look at all objects satisfying something and you want to Pro
+satisfying something and you want to Pro properties about all of them that kind
+of thing it's a very much a 20th century phenomenon and this construction of the
+phenomenon and this construction of the K groups of
+K groups of dmsm or uh that was due
+question no I just want to know if your uh proof your proof works for man folds
+uh proof your proof works for man folds with boundary sorry does your proof work
+boundary no yeah that's another story I I have not really looked at it possible
+I have not really looked at it possible to I mean even the statement for
+to I mean even the statement for manifold of boundary is something I not
+manifold of boundary is something I not yet really understood what it means okay
+yet really understood what it means okay so I have to look at that
+before I can attempt to push my proof and actually I I don't think I should
+and actually I I don't think I should looking it's a problem for a graduate
+looking it's a problem for a graduate student clearly
+student clearly for the audience
+on is this analytic index invariant on uh invariant of what I mean on uh the
+uh invariant of what I mean on uh the index is invariant right on compact
+index is invariant right on compact manifolds he's asking if the analytic
+manifolds he's asking if the analytic index for a differential operators
+differential operator is are in variant for manifolds with boundary can that
+for manifolds with boundary can that first of all the formulation has be
+first of all the formulation has be different you have to man boundary you
+different you have to man boundary you have
+have to
+operator see I'm not very familiar with that if you impose certain boundary
+that if you impose certain boundary conditions then the and Co will be
+finite then index can be defined and the problem is to arrive with the index by
+some geometric method I I have not studied the papers relating to manifa
+studied the papers relating to manifa boundary so I don't really know but
+boundary so I don't really know but there are no concrete results on that
+there are no concrete results on that there are there there is a theorem for
+there are there there is a theorem for manfor
+boundary there is a for manfor boundary and different elliptic operators on it
+and different elliptic operators on it and and you're looking for Solutions of
+and and you're looking for Solutions of boundary value problem that kind of
+boundary value problem that kind of thing okay uh if there are no further
+uh so let's uh thank Professor aratan again for a very enlightening lecture
+again for a very enlightening lecture and uh look forward to seeing you on

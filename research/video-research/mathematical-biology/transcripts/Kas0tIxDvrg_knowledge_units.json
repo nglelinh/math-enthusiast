@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ku_video_Kas0tIxDvrg_2",
+    "t_start": 2.9,
+    "t_end": 95.3,
+    "type": "overview",
+    "summary": "The phrase exponential growth is familiar to most people, and yet human intuition has a hard time really recognizing what it means sometimes. We can anchor on a sequence of small seeming numbers and then become surprised when suddenly those numbers look big, even if the overall trend follows an exponential perfectly consistently. This right here is the data for the recorded cases of COVID-19, aka the coronavirus, at least at the time I'm writing this. Never one to waste an opportunity for a math lesson, I thought this might be a good time for all of us to go back to the basics on what expon…"
+  },
+  {
+    "id": "ku_video_Kas0tIxDvrg_95",
+    "t_start": 95.3,
+    "t_end": 189.4,
+    "type": "overview",
+    "summary": "because if n gets big, it means the rate of growth itself is getting big. One way to think about this is that as you add the new cases to get the next day's growth, you can factor out the n, so it's just the same as multiplying by some constant that's bigger than 1. This is sometimes easier to see if we put the y-axis of our graph on a logarithmic scale, which means that each step of a fixed distance corresponds to multiplying by a certain factor, in this case each step is another power of 10. On this scale, exponential growth should look like a straight line. Looking at our data, it seems …"
+  },
+  {
+    "id": "ku_video_Kas0tIxDvrg_189",
+    "t_start": 189.4,
+    "t_end": 282.8,
+    "type": "overview",
+    "summary": "it would mean hitting a million cases in 30 days, hitting 10 million in 47 days, 100 million in 64 days, and 1 billion in 81 days. Needless to say, though, you can't just draw out a line like this forever, it clearly has to start slowing down at some point. But the crucial question is when. Is it like the SARS outbreak of 2002 which capped out around 8000 cases, or the Spanish flu of 1918 which ultimately infected about 27% of the world's population? In general, with no context, just drawing a line through your data is not a great way to make predictions, but remember, there's an actual rea…"
+  },
+  {
+    "id": "ku_video_Kas0tIxDvrg_282",
+    "t_start": 282.8,
+    "t_end": 373.1,
+    "type": "overview",
+    "summary": "like 1 minus the proportion of people in the world who are already infected. Including that factor, and then solving for how N grows, you get what's known in the model. ss as a logistic curve, which is essentially indistinguishable from an exponential at the beginning, but ultimately levels out once you're approaching the total population size, which is what you would expect. True exponentials essentially never exist in the real world, every one of them is the start of a logistic curve. This point right here, where that logistic curve goes from curving upward to instead curving downward, is…"
+  },
+  {
+    "id": "ku_video_Kas0tIxDvrg_373",
+    "t_start": 373.1,
+    "t_end": 465.9,
+    "type": "overview",
+    "summary": "to be about 15% more than the number of new cases the previous day, and contrast that with what it would feel like for it to be about the same. Just looking at the totals they result in, they don't really feel that different. But if the growth factor is one, it could mean you're at the inflection point of a logistic, which would mean the total number of cases is going to max out at about two times wherever you are now. But a growth factor bigger than one, subtle though that might seem, means you're on the exponential part, which could imply there are orders of magnitude of growth still wait…"
+  },
+  {
+    "id": "ku_video_Kas0tIxDvrg_465",
+    "t_start": 465.9,
+    "t_end": 512.3,
+    "type": "overview",
+    "summary": "thing that can cause the two factors we care about to go down. The amount of exposure can also go down when people stop gathering and traveling, and the infection rate can go down when people just wash their hands more. The other thing that's counterintuitive about exponential growth, this time in a more optimistic sense, is just how sensitive it is to this constant. For example, if it's 15%, like it is as I'm recording this, and we're at 21,000 cases now, that would mean that 61 days from now you hit over 100 million. But if through a bit less exposure and infection, that rate drops down t…"
+  }
+]

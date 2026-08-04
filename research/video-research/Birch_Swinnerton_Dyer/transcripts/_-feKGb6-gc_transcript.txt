@@ -1,0 +1,1147 @@
+well thank you very much it's a it's really a great honor to be here at the
+celebration of the Appel prize to Professor Wiles professor Wiles has had
+Professor Wiles professor Wiles has had a great influence on mathematics and on
+a great influence on mathematics and on mathematicians in general myself
+included I was a PhD student of his and well that was a that was a really
+experience for me as we all got to see this morning presser Wiles is not just a
+this morning presser Wiles is not just a great mathematician but also a really
+always struck me the most was that he has a real feel for what's important in
+has a real feel for what's important in mathematics what are the most promising
+mathematics what are the most promising directions in mathematics and as a
+directions in mathematics and as a result of this incredible intuition that
+result of this incredible intuition that he has about the direction of the field
+he's had a great impact on on many central problems in mathematics of
+central problems in mathematics of course burma's Last Theorem is the most
+famous one but actually many many central problems have seen progress in
+central problems have seen progress in large part influenced by his work and so
+large part influenced by his work and so the problem I want to talk about today
+the problem I want to talk about today is the vergence Winterton dire
+conjecture which has become one of the most fundamental problems in mathematics
+most fundamental problems in mathematics and in particular in number theory it's
+the next frontier in the solving of equations as I'll explain in number
+theory and of course andrew has had a great impact on the progress that we've
+great impact on the progress that we've seen towards this conjecture although of
+seen towards this conjecture although of course there's also much more to be done
+conjecture and so that's what I want to talk about today is first of all I want
+to describe in elementary terms what this conjecture is and then explain a
+this conjecture is and then explain a little bit about what's known about it
+little bit about what's known about it what Andrews influence has been and what
+what Andrews influence has been and what remains to be done hopefully that'll
+remains to be done hopefully that'll attract many people into the area
+attract many people into the area including many of the young people who
+yeah okay so the versed in spirit generic conjecture it's one of the clay
+generic conjecture it's one of the clay millennium problems so in celebration of
+the new millennium in 2000 the clay mathematics Institute established a list
+mathematics Institute established a list of seven millennium prize problems for
+of seven millennium prize problems for which they offer 1 million dollars each
+which they offer 1 million dollars each for for the solutions you don't have to
+for for the solutions you don't have to solve all seven for the million dollars
+and the problems are a lot of computer science most basic problem P versus NP
+science most basic problem P versus NP there's the Riemann hypothesis there's
+there's the Riemann hypothesis there's the Hodge conjecture
+there's the yang-mills existence and mass gap problem there's the
+there's the Bert since winter 10 Dyer conjecture and there's the Poincare
+conjecture so these are the seven millennium prize problems of a clay
+millennium prize problems of a clay mathematics Institute of these seven so
+these were announced in 2001 has been solved so far which is the pranic query
+solved so far which is the pranic query conjecture that was solved in 2002 only
+conjecture that was solved in 2002 only two years after they announced the
+two years after they announced the problems which kind of surprised them I
+problems which kind of surprised them I don't know how ready they were with that
+don't know how ready they were with that what the money yeah but luckily for them
+what the money yeah but luckily for them Perelman famously turned down the
+million dollars so they didn't have to worry about that actually the the money
+worry about that actually the the money has now been given to the pond query
+Institute in Paris to fund positions there in celebration of the solution of
+there in celebration of the solution of the park Creek injector so each of these
+problems has has descriptions official descriptions written about them which
+you can find on the clay mathematics Institute webpage and in particular the
+Institute webpage and in particular the bird since winners in dire conjecture
+bird since winners in dire conjecture the description has been written by by
+Andrew Wiles and so you're welcome to go and look at that after this lecture what
+and look at that after this lecture what I wanted to do in this lecture though is
+to describe the problem in elementary terms and really motivate where the
+terms and really motivate where the problem came from and why it's there and
+and why mathematicians and number theorists in particular are so
+so that's what I that's what I hoped you do today so I'm gonna concentrate just
+on this one problem namely the bird since Winterton dire conjecture
+so number theory in large part is about solving equations in the whole numbers
+or in the rational numbers as we saw for example in fermat's last theorem we're
+example in fermat's last theorem we're interested in solving a certain equation
+interested in solving a certain equation namely X to the n plus y to the N equals
+Z to the N in whole numbers and that's been the basic problem of number theory
+been the basic problem of number theory since ancient times number theorists
+since ancient times number theorists have been interested in finding integer
+have been interested in finding integer solutions or rational solutions to
+polynomial equations so those may be equations in one variable like x squared
+minus 2 X plus 3 x squared plus y squared equals 100 or higher degree
+equations like y squared equals x q plus 2 X plus 3 or sometimes we're interested
+2 X plus 3 or sometimes we're interested in solving equations in more variables x
+in solving equations in more variables x squared plus y squared plus 2z squared
+equals 7 so these are kind of the typical kinds of equations that arise in
+typical kinds of equations that arise in number theory and instead of defining
+number theory and instead of defining whole number solutions number theorists
+whole number solutions number theorists in general are interested in finding
+equations rational numbers being ratios of whole numbers so the case of one
+of whole numbers so the case of one variable equations turns out over the
+variable equations turns out over the rational numbers is fairly easy to
+rational numbers is fairly easy to understand so an equation in one
+variable looks like a polynomial in one variable set equal to zero so it looks
+variable set equal to zero so it looks like a 0 X to the n plus a a 1 X to the
+n minus 1 plus da plus a N equals 0 where the AI are integers and we're
+where the AI are integers and we're interested in finding what are the
+interested in finding what are the rational number solutions to that
+equation and well this is something that we we all learned in high school it's
+we we all learned in high school it's called it's called the rational root
+theorem so the fundamental theorem of algebra says that there can be at most
+numbers but to know which ones can be rational there we learned what it's
+rational there we learned what it's called the rational root theorem which
+called the rational root theorem which says that any rational solution to this
+has to be a factor of a n divided by a factor of a zero right a factor of the
+factor of a zero right a factor of the last coefficient divided by a factor the
+first coefficient and so you can that gives you an algorithm to solve such an
+gives you an algorithm to solve such an equation in rational numbers you take
+all the factors of a N and you divide them by all the factors of a nut and you
+all the solutions and that's I follows from the rational root theorem that's
+not the most efficient way to do it but at least it is an algorithm that will
+at least it is an algorithm that will terminate usually the way we would go
+terminate usually the way we would go about it today is you'd use the
+about it today is you'd use the fundamental theorem of algebra to
+fundamental theorem of algebra to numerically approximate those end
+numerically approximate those end solutions and then try to rationally
+quickest way to do it but in case there is a quick algorithm to decide what are
+is a quick algorithm to decide what are the rational solutions to one variable
+the rational solutions to one variable equations so it's two variable
+starts to get interesting and in fact unsolved one variable equations we know
+how to do very quickly and already with two variable equations a number of years
+two variable equations a number of years today still don't know how to find all
+today still don't know how to find all rational solutions to two variable
+rational solutions to two variable polynomial equations but in small
+degrees we do know how to find all rational solutions so for example if you
+rational solutions so for example if you look at two variable equations of degree
+look at two variable equations of degree one those are not so difficult to solve
+so if you want to find all rational solutions to a two variable equation of
+solutions to a two variable equation of degree one well that looks like y equals
+degree one well that looks like y equals ax plus B a and B say are integers and
+ax plus B a and B say are integers and you want to find all rational solutions
+in x and y such that y equals ax plus B that's pretty easy plug in any rational
+rational value of y and we found all the rational solutions okay so that's the
+rational solutions okay so that's the case of degree one so degree one is is
+case of degree one so degree one is is it solved we know how to find all
+rational solutions to two variable equations of degree one what about
+degree two if you look at two variable polynomial equations of degree two it
+polynomial equations of degree two it turns out that those finding the
+turns out that those finding the rational solutions to two variable
+equations i've degree two it's also pretty easy and just to give you an
+pretty easy and just to give you an example because one examples actually
+for example suppose you want to find all the rational solutions to x squared plus
+the rational solutions to x squared plus y squared equals one so these are all
+the rational coordinate points on the unit circle right
+so here's a picture of the unit circle and when number three was talked about
+and when number three was talked about rational points it just means a point on
+rational points it just means a point on a graph of your polynomial equation
+a graph of your polynomial equation whose coordinates are rational so when
+whose coordinates are rational so when we're looking for rational solutions to
+we're looking for rational solutions to x squared plus y squared equals one
+x squared plus y squared equals one that's equivalent to finding rational
+points on the unit circle right so there are some obvious rational points on the
+are some obvious rational points on the unit circle for example minus one comma
+unit circle for example minus one comma zero which is the leftmost point on the
+zero which is the leftmost point on the unit circle here well that's a rational
+unit circle here well that's a rational point so that's a that's a rational
+equals one and the key observation to find all the other rational points on
+the unit circle is as follows is that if X comma Y is another rational point on
+X comma Y is another rational point on the unit circle then if you connect so
+say it's over here X comma Y if you take the line that connects minus 1 0 with X
+the line that connects minus 1 0 with X comma Y if you take that line well
+comma Y if you take that line well that's going to have rational slope
+that's going to have rational slope right because it's connecting its
+coordinates so that when you compete the slope that's also going to be rational
+slope that's also going to be rational what maybe the more surprising thing
+what maybe the more surprising thing here is that the converse is also true
+that if you take a line of rational slope through minus one comma zero and
+slope through minus one comma zero and look at the second point of intersection
+look at the second point of intersection with the circle that will give you a
+rational point and so that would that will then give you a complete
+will then give you a complete description of the rational points
+namely just take all the rational sloped lines through minus one comma zero look
+lines through minus one comma zero look at the second point of intersection and
+at the second point of intersection and that will give you all rational points
+that will give you all rational points so why is that the case that any
+so why is that the case that any rational sloped line through minus one
+rational sloped line through minus one comma zero will intersect the circle in
+comma zero will intersect the circle in another rational point ok well suppose
+another rational point ok well suppose we take a line of rational slope through
+minus 1 comma 0 the equation of this line will look like y equals s times X
+line will look like y equals s times X plus 1 right where s is the slope and if
+plus 1 right where s is the slope and if we want to find the second point of
+we want to find the second point of intersection of this line that has slope
+intersection of this line that has slope s with the unit circle well we can take
+that equation y equals s times X plus 1 and plug it into the equation x squared
+and plug it into the equation x squared plus y squared equals 1 and solve and
+plus y squared equals 1 and solve and that'll give us the points of
+that'll give us the points of intersection
+well if you if you plug in equation one there into equation two well you get a
+quadratic equation in X and so you can solve that using the quadratic formula
+solve that using the quadratic formula you'll find that one of them one of the
+solutions is going to be given by x equals minus one which of course had to
+equals minus one which of course had to happen because we know that one of the
+comma zero so that of course had to be a root but the other root will give you
+root but the other root will give you the x coordinate of the second point of
+other root you find it's the negative of s squared minus one over s squared plus
+one and once you have the x value you can plug it into equation one write the
+equation of a line and you find that Y is given by 2 s over s squared plus one
+is given by 2 s over s squared plus one and you notice that if s was a rational
+and you notice that if s was a rational number
+all right if s was the slope of rational number then X comma Y the second point
+number then X comma Y the second point of intersection is also going to be a
+of intersection is also going to be a rational number we have an explicit
+formula for it and so this point P equals x comma Y which if s is rational
+equals x comma Y which if s is rational is also rational gives the other point
+is also rational gives the other point of intersection with the unit circle and
+of intersection with the unit circle and it's a rational point and so that show
+the other direction that if you take a point a line of rational slope through
+point a line of rational slope through minus one comma zero it will intersect a
+second point on the circle that has rational coordinates and so this is a
+rational coordinates and so this is a complete parametrization he was just
+plug in all rational values of s and you get all pairs X comma Y that are going
+get all pairs X comma Y that are going to be rational points on the circle and
+so we found all rational solutions to x squared plus y squared equals one so the
+squared plus y squared equals one so the main theorem about rational points on
+main theorem about rational points on the unit circle what we've proven is the
+the unit circle what we've proven is the following is that the rational points X
+comma Y in the unit circle x squared plus y squared equals 1 are naturally in
+elements s the slopes s in the set of rational numbers together with infinity
+rational numbers together with infinity infinity also has to be considered a
+what's the second point of intersection when you when you take the line of slope
+infinity well it has a double intersection with minus 1 comma 0 so
+intersection with minus 1 comma 0 so this infinity that's corresponding to
+this infinity that's corresponding to minus 1 comma 0 and then all the other
+rational numbers that are given as slopes will correspond to all the other
+slopes will correspond to all the other rational points on the unit circle
+rational points on the unit circle and the correspondence is between
+and the correspondence is between rational slopes s and rational slopes s
+rational slopes s and rational slopes s correspond to that explicit value of x
+comma y that we found earlier which is the second point of intersection of the
+line with the unit circle having slope s going through minus 1 comma 0 and you'll
+going through minus 1 comma 0 and you'll notice in this formula that if you plug
+notice in this formula that if you plug in s equals infinity what do you get
+should be minus 1 comma 0 and of course when you plug in s equals infinity here
+when you plug in s equals infinity here well the first coordinate becomes minus
+well the first coordinate becomes minus 1 as you can see and the second
+coordinate when you plug in s equals infinity right as s approaches infinity
+that becomes 0 that's now so in plugging in s equals infinity gives the original
+in s equals infinity gives the original point minus 1 comma 0 but all the other
+rational points on the unit circle and we've so we've explicitly determined all
+we've so we've explicitly determined all rational points on the unit circle and
+rational solutions to x squared plus y squared equals 1 so we've completely
+squared equals 1 so we've completely solved quadratic and two variables over
+solved quadratic and two variables over the rational numbers and there's nothing
+the rational numbers and there's nothing special that we used about the unit
+circle here we only use the fact that the unit circle its equation has degree
+2 and so in fact we could solve any conic this way over the rational numbers
+conic this way over the rational numbers by by the same method and so the
+by by the same method and so the fundamental theorem about rational
+points on conics is is as follows let f of XY be a quadratic polynomial in x and
+of XY be a quadratic polynomial in x and y with rational coefficients so in other
+y with rational coefficients so in other words the equation of a conic then the
+set of rational points X Y on the conic is given by the same procedure that we
+is given by the same procedure that we just used you start with a rational
+just used you start with a rational point on the on the conic and then you
+point on the on the conic and then you take lines of rational slope through it
+take lines of rational slope through it and the second points of intersection
+and the second points of intersection will parameterize all the rational
+points now there's the problem with this argument which is that they're made
+there may not be a rational point to begin with and then you can't even get
+begin with and then you can't even get started and that actually happens
+sometimes if you look at here an example is x squared plus y squared equals 3 you
+is x squared plus y squared equals 3 you will not be able to find a rational
+will not be able to find a rational solution even to get started so the
+solution even to get started so the fundamental theorem of all points on the
+fundamental theorem of all points on the konnex says that the set of all rational
+points X comma Y on a conic f of X y equals 0 is either empty because you
+equals 0 is either empty because you can't even get started with this
+can't even get started with this procedure yeah but if it's not empty
+procedure yeah but if it's not empty then it's in one-to-one correspondence
+then it's in one-to-one correspondence with rational slopes together with
+with rational slopes together with infiniti the infiniti slope
+and if we're in case two above where there are some rational points then one
+there are some rational points then one can explicitly find all the rational
+points as follows you start with the base rational point which was minus one
+base rational point which was minus one comma zero in the case when we were
+comma zero in the case when we were looking at x squared plus y squared
+looking at x squared plus y squared equals one start with the base rational
+equals one start with the base rational point if it exists if it doesn't exist
+point if it exists if it doesn't exist where in the empty case if it does exist
+and we take all lines of rational slope through P and we compute the second
+through P and we compute the second point of intersection of each of these
+lines with rational slope and those will will give you all the rational points on
+will give you all the rational points on mechanic and so that's how you can solve
+mechanic and so that's how you can solve the general quadratic in two variables
+the general quadratic in two variables over the rational numbers and the
+over the rational numbers and the further amazing thing which we haven't
+further amazing thing which we haven't proved here is that turns out there is
+proved here is that turns out there is an effective way of determining whether
+an effective way of determining whether we're in case one or case two okay so
+given a conic there is an effective method there's an algorithm that'll tell
+method there's an algorithm that'll tell you whether the set of rational points
+you whether the set of rational points is empty or whether there is a rational
+point to start with to get started on finding all the rational points and this
+finding all the rational points and this is called the Haase Minkowski theorem it
+is called the Haase Minkowski theorem it allows you to take a conic and decide
+allows you to take a conic and decide whether it has a rational point or not
+whether it has a rational point or not in an algorithmic way and so this
+in an algorithmic way and so this theorem is is entirely effective okay so
+theorem is is entirely effective okay so that's that's the whole story about
+that's that's the whole story about quadratics in two variables solving them
+quadratics in two variables solving them over the rational numbers we can this
+you can go and do on any of your favorite cuttings okay so the next case
+favorite cuttings okay so the next case naturally then to consider if we're
+naturally then to consider if we're talking about two variable equations is
+talking about two variable equations is those of degree three okay suppose you
+those of degree three okay suppose you have a two variable polynomial equation
+have a two variable polynomial equation of degree three we've already solved the
+of degree three we've already solved the degrees one and two well it turns out if
+you have a two variable equation of degree three it can have zero solutions
+that happens it could have some positive finite number of solutions remember that
+finite number of solutions remember that wasn't possible in the degree two case
+wasn't possible in the degree two case right if you have a conic it is not
+possible to have four solutions that just doesn't never happens right because
+our argument showed that if we had one solution to start with we could take any
+solution to start with we could take any line of rational slope and that would
+line of rational slope and that would produce infinitely many
+Solutions but in degree three it turns out you can have zero solutions you can
+out you can have zero solutions you can have four solutions or some positive
+finite number of solutions or you can have implementing rational solutions all
+have implementing rational solutions all three of these possibilities can happen
+three of these possibilities can happen for degree three equations in two
+for degree three equations in two variables and the embarrassing thing is
+variables and the embarrassing thing is it's already an unsolved problem to
+it's already an unsolved problem to decide which of those cases we're in
+decide which of those cases we're in given a two variable equation of degree
+given a two variable equation of degree three it's an unsolved problem to decide
+three it's an unsolved problem to decide whether say it has zero solutions or
+whether say it has zero solutions or whether it has implementing solutions so
+whether it has implementing solutions so the case of cubic equations in two
+variables is really the first case where we just don't know how to find all the
+we just don't know how to find all the rational solutions and this is exactly
+rational solutions and this is exactly where the bertson's Winterton dire
+conjecture comes in if the bird since Winterton died our conjecture were true
+Winterton died our conjecture were true it would give an effective method to
+it would give an effective method to find all rational solutions to a cubic
+find all rational solutions to a cubic equation in two variables and in
+equation in two variables and in particular to determine whether it has
+particular to determine whether it has finitely many solutions or infinitely
+finitely many solutions or infinitely many solutions and so this really is the
+next frontier this is a problem that mathematicians have been studying for
+know how to solve it but at least we now have a conjectured method to solve it
+have a conjectured method to solve it and that is what the birch and Swinton
+and that is what the birch and Swinton dire conjecture gives us so I want to
+dire conjecture gives us so I want to describe what the birch and swenerton
+describe what the birch and swenerton Derik conjecture says because if it's
+Derik conjecture says because if it's true it would give us a method to solve
+the very next case of equations that number theorists don't yet know how to
+number theorists don't yet know how to solve
+so as was already mentioned in Andrews and Henry's lecture the the structure of
+and Henry's lecture the the structure of rational points on cubic curves in other
+rational points on cubic curves in other words the graphs of cubic equations and
+two variables the set of rational points has a very amazing structure so suppose
+has a very amazing structure so suppose we have a smooth cubic equation smooth
+just means that when you graph it there they're no kinks that it's smooth when
+they're no kinks that it's smooth when you graph it and suppose so suppose we
+have an equation f of X y equals 0 of degree 3 f is a degree 3 polynomial that
+degree 3 f is a degree 3 polynomial that has a rational solution X naught comma y
+naught okay let's call that P then it's an elementary fact that one can always
+an elementary fact that one can always make a rational change of variable so
+make a rational change of variable so that P is sent to infinity in a way so
+just looks like Y squared equals x cubed plus ax plus B and if the f of X Y had
+plus ax plus B and if the f of X Y had rational coefficients then we can
+actually assume that a and B are now integers and the discriminant of this
+integers and the discriminant of this cubic polynomial is called the
+discriminant of this curve which is minus 4a cubed minus 27 B squared and
+minus 4a cubed minus 27 B squared and the condition of this cubic curve being
+the condition of this cubic curve being smooth is exactly that this discriminant
+smooth is exactly that this discriminant is nonzero it turns out and if you want
+you can always make such a change of variable you can look at this amazing
+variable you can look at this amazing book by Silverman and Tate Tate is of
+book by Silverman and Tate Tate is of course one of the recent Babel Prize
+course one of the recent Babel Prize winners he's written a book with
+winners he's written a book with Silverman that's really accessible to a
+Silverman that's really accessible to a high school student about elliptic
+high school student about elliptic curves highly recommended as a first
+book to learn about elliptic curves ok so any cubic curve in two variables you
+so any cubic curve in two variables you can always if it has a rational point
+can always if it has a rational point you can always transform it into
+you can always transform it into something that looks like Y squared
+equals x cubed plus ax plus B and where we can assume that a and B are integers
+if the original equation had rational coefficients and an equation of this
+type is called an elliptic curve or an elliptic curve and short Weierstrass
+elliptic curve and short Weierstrass form
+and it's very convenient to use this canonical form so most of the time
+canonical form so most of the time you'll see when you see elliptic curves
+will often be written in this form y squared equals x q plus a X plus B where
+squared equals x q plus a X plus B where a and B are constants and once you've
+a and B are constants and once you've written into this in this way it's
+written into this in this way it's actually easy to describe an amazing
+actually easy to describe an amazing structure on the set of rational
+structure on the set of rational solutions to Y squared equals x cubed
+solutions to Y squared equals x cubed plus ax plus B that are possessed by by
+plus ax plus B that are possessed by by the rational points on this on this
+the rational points on this on this curve called in lipstick curve so first
+curve called in lipstick curve so first of all what is the what is the graph of
+y squared equals x q plus ax plus B look like well if you just think about it if
+like well if you just think about it if you graph it in r2 in the real plane it
+turns out it tends to look like one of these two pictures so either it looks
+these two pictures so either it looks like a picture with two connected
+like a picture with two connected components like this this part is called
+components like this this part is called the egg of the elliptic curve and this
+is the infinite part sometimes you only have the infinite part and the egg is
+curve in r2 tends to look like one of these two pictures and it just depends
+these two pictures and it just depends on whether the cubic polynomial so we
+on whether the cubic polynomial so we have y squared equals a cubic polynomial
+in x xu plus ax plus b if that cubic polynomial in X has three real roots
+polynomial in X has three real roots then you'll see three points of
+then you'll see three points of intersection right through the x axis
+intersection right through the x axis and that's why you get this extra
+and that's why you get this extra component here but if your cubic
+equation only has one real root then the elliptic curve will only intersect the x
+elliptic curve will only intersect the x axis and one in one point and the lists
+axis and one in one point and the lists have this one infinite component so the
+graph tends to look like one of these two pictures depending on whether the
+cubic polynomial in X has one real root or three real roots okay so that's the
+or three real roots okay so that's the picture to keep in mind when you're
+picture to keep in mind when you're talking about elliptic curves looks like
+talking about elliptic curves looks like one of those two pictures and now we can
+describe what the group law on elliptic curves look like so if one has two
+curves look like so if one has two rational points on a plain elliptic
+curve okay so y squared equals x q plus ax plus B and then the line connecting
+ax plus B and then the line connecting those two rational points so say you
+those two rational points so say you have two solutions to Y squared equals x
+cubed plus ax plus B then the line connecting those two rational points
+connecting those two rational points will always intersect the elliptic curve
+and a third point just like when we were talking about conics we started with one
+talking about conics we started with one point we took a line through it it would
+the cubic case you can start with two points you take the line through them it
+allow it the first two points were rational coordinated coordinated have
+rational coordinated coordinated have rational coordinates then the third will
+something that's easy easy to check these this has to do with the fact that
+these this has to do with the fact that if you when you're finding that third
+if you when you're finding that third point of intersection you'll be solving
+point of intersection you'll be solving the cubic equation just like we were
+the cubic equation just like we were solving a quadratic equation before we
+solving a quadratic equation before we had one rational solution therefore the
+had one rational solution therefore the other had to be rational because the
+the same way here when we're trying to find that third point of intersection we
+find that third point of intersection we start with two rational points take a
+start with two rational points take a line through it find the third point of
+line through it find the third point of intersection with your elliptic curve
+intersection with your elliptic curve you're gonna be solving a cubic equation
+to find that third x coordinate that cubic equation will have rational
+cubic equation will have rational coefficients the first two roots are
+rational therefore the third has to be rational and that's what allows you to
+prove that if you have two rational points P and Q on an elliptic curve and
+points P and Q on an elliptic curve and you take the line through them that
+you take the line through them that third point of intersection will again
+be a rational point so this is what's amazing about cubic curves is it allows
+amazing about cubic curves is it allows you to take two points that are rational
+you to take two points that are rational and produce a third that's rational and
+and produce a third that's rational and there's a natural law of addition that
+you can define namely if you have two rational points on your elliptic curve
+rational points on your elliptic curve two points that have rational
+plus Q as the point that you get by taking the line through P and Q taking
+the third point of intersection and then reflecting it across the x-axis because
+reflecting it across the x-axis because remember the graphs of the elliptic
+curves are symmetric about the x-axis so you can reflect it across the x-axis and
+and that gives you a way of taking two rational points in producing a third one
+rational points in producing a third one if you have two rational points P and Q
+this point P plus Q will also have rational coordinates and why do we call
+rational coordinates and why do we call it P plus Q well one checks that
+it P plus Q well one checks that together with the point at infinity
+together with the point at infinity which is the point that you get when you
+down to infinity they're the same point and you call that the point at infinity
+then this law of addition plus and dows the set of rational points on a with the
+the set of rational points on a with the structure of an abelian group where the
+structure of an abelian group where the identity of this abelian group is the
+point at infinity so B Lynn group just means that you can add points and every
+means that you can add points and every point has negative
+and a building just means that P plus Q is the same as Q plus P which of course
+and Q is the same as the line connecting Q and P so clearly P plus Q is Q plus P
+addition to prove but what you can do in an elementary way is to show that P plus
+an elementary way is to show that P plus Q plus R is the same as P plus Q plus R
+same as P added to Q plus R that's not obvious at all but that's true with this
+obvious at all but that's true with this addition law it has a natural
+addition law it has a natural explanation in terms of modern algebraic
+explanation in terms of modern algebraic geometry but it can also be verified
+geometry but it can also be verified just elementary by playing with
+coordinates okay so this gives the law of addition on on rational points on an
+of addition on on rational points on an elliptic curve something that's very
+special for elliptic curves is that it's rational solutions have this natural
+points you can add them and make a third point that also has rational coordinates
+point that also has rational coordinates and that's a really beautiful structure
+and that's a really beautiful structure on elliptic curves so when you're
+studying rational points on an elliptic curve you don't have to just think of it
+as a set but you can think of as a set with this addition structure that gives
+with this addition structure that gives it the structure of an abelian group and
+that's very special to cubic curves so cubic equations in two variables
+so if you have a rational elliptic curve he was given with rational coefficients
+he was given with rational coefficients this group with this abelian group of
+this group with this abelian group of rational points on e it's usually
+rational points on e it's usually denoted a of Q and one question that you
+denoted a of Q and one question that you might ask is can you always start with
+might ask is can you always start with some finite set of rational points so
+some finite set of rational points so that just by playing with this addition
+that just by playing with this addition operation you can produce all the
+want to think of it in terms of the B Lynn group you can think of it can you
+Lynn group you can think of it can you always start with a finite set of
+always start with a finite set of rational points even if it hasn't fully
+rational points even if it hasn't fully many rational points your elliptic curve
+may have been flume any rational points but the question is can you always start
+but the question is can you always start with some finite set of rational points
+with some finite set of rational points so that just by playing let's connect
+so that just by playing let's connect the dots procedure where you take two
+the dots procedure where you take two and connect them and find a third
+and connect them and find a third rational point and keep repeating that
+rational point and keep repeating that can you get to all rational points and
+that was one of the very first fundamental questions that came up about
+fundamental questions that came up about elliptic curves there may be
+elliptic curves there may be implementing rational points but maybe
+you can always start with some finite set so if that's just by playing let's
+set so if that's just by playing let's connect the dots game you can find all
+connect the dots game you can find all the rational points just by using the
+addition law and this is the celebrated theorem of more Dell more Dell theorem
+theorem of more Dell more Dell theorem says that the group II of Q of rational
+points on e is finitely generated and what that means in elementary terms is
+what that means in elementary terms is that you can always start with some
+that you can always start with some finite set of rational points that's
+finite set of rational points that's that just by using this addition
+that just by using this addition operation or just connecting the dots
+operation or just connecting the dots operation you can produce all the
+inflamed any rational points more Dells theorem says you can there's actually
+theorem says you can there's actually only finite amount of information there
+set of rational points to start with and then use this addition law to produce
+then use this addition law to produce all the rational points kind of just
+like in the case of conics or even that when there were implementing rational
+when there were implementing rational points on x squared plus y squared
+equals 1 you could always start with one point and that was enough to to find all
+point and that was enough to to find all the rational points just by taking
+rational sloped lines through there the analog here is on a cubic curve you can
+always start with some finite set of rational points and then just by
+rational points and then just by connecting pairs at a time you can
+connecting pairs at a time you can actually produce all the rational points
+this is the amazing theorem of more Dell in terms of group theory since e of Q is
+in terms of group theory since e of Q is a finitely generated group you can use
+a finitely generated group you can use the addition law to produce all the
+the addition law to produce all the rational points from some finite
+rational points from some finite starting set the fundamental theorem of
+starting set the fundamental theorem of abelian groups says that if you have a
+finitely generated being in group it always looks like the product of cyclic
+always looks like the product of cyclic groups some number of infinite cyclic
+groups some number of infinite cyclic groups which look like the integers
+groups which look like the integers so Eve Q since it's finally generated
+so Eve Q since it's finally generated fundamental theorem of abelian group
+says that if Q has to look like some product of copies of infinite cyclic
+product of copies of infinite cyclic groups namely the integers raised to
+this M there may be are copies times some finite abelian group called T which
+is also going to be a product of finite cyclic groups and so you can kind of see
+cyclic groups and so you can kind of see from this that the big part of the group
+from this that the big part of the group is sort of measured by this R this R how
+how many infinite cyclic groups do we have inside e that kind of measures the
+have inside e that kind of measures the size of Eve Q now it's a theorem of
+size of Eve Q now it's a theorem of Mazur
+that the group T this finite group here is bounded in size by 16 so it never
+is bounded in size by 16 so it never gets very big so even in a stronger
+gets very big so even in a stronger sense it is really this R that's
+sense it is really this R that's measuring the size of this this set of
+solutions C of Q so our kind of measure is how big the group II of Q is and it's
+is how big the group II of Q is and it's called the rank the rank of e is the R
+called the rank the rank of e is the R that comes out of tell measures the
+number of infinite cyclic groups that you're getting inside this group of
+you're getting inside this group of rational points in elementary terms if
+rational points in elementary terms if you're not familiar with group Theory
+you're not familiar with group Theory the rank of e just measures the number
+the rank of e just measures the number of points basically it's measuring the
+of points basically it's measuring the number of points that you need to start
+with on your elliptic curve so that every other rational point can be
+every other rational point can be obtained just by connecting pairs and
+obtained just by connecting pairs and finally the third point of intersection
+finally the third point of intersection and repeating that procedure so what
+does the minimum number of points that you need to start with to get all the
+points on the elliptic curve by just using the addition law yeah and that's
+the rank and buy more Dells theorem this number is always finite you can always
+start with some finite set of rational points so that all the rational points
+points so that all the rational points can be found I had the connect-the-dots
+minimal number of points you need is essentially the rank ignoring this two
+essentially the rank ignoring this two part here
+okay so are this rank is really the fundamental invariant right that
+measures how big how many solutions you have R equals zero corresponds to the
+corresponds to the case where a of Q is finite but once R is 1 or more than the
+finite but once R is 1 or more than the number of rational points is infinite
+and then R measures how infinite right the bigger R is the more infinite the
+the bigger R is the more infinite the set of rational points so R is the
+set of rational points so R is the fundamental invariant given an elliptic
+cubic equation in two variables R is the fundamental invariant that measures how
+fundamental invariant that measures how many rational points you have R equals 0
+points R equals one or more corresponds to lay many rational points and most
+to lay many rational points and most basic questions that you might ask about
+basic questions that you might ask about the basic invariant about cubic
+the basic invariant about cubic equations and two variables are unsolved
+equations and two variables are unsolved so for example you can ask what is the
+curve can be no one has any idea in fact no one even knows whether the rank can
+no one even knows whether the rank can be unbounded is there a maximum we don't
+be unbounded is there a maximum we don't know it's a maximum it might go all the
+way the ranks Michael all the way up to infinity or maybe they they stop at
+infinity or maybe they they stop at around 30 I say 30 because the current
+around 30 I say 30 because the current record for the largest rank ever found
+record for the largest rank ever found is 28 found by no Amell keys in 2006 so
+is 28 found by no Amell keys in 2006 so he showed that the rank of this curve
+he showed that the rank of this curve that he found is at least 28 well you
+that he found is at least 28 well you can ask more statistical questions you
+is the average size of the rank as you vary across the loop two curves that's
+also unknown do most curves have rank 0 or 1 most people expect that most curves
+have rank 0 or one can one prove that even say 1% of all two curves have Frank
+even say 1% of all two curves have Frank 0 1 and and then of course the most
+0 1 and and then of course the most fundamental question that I was asking
+fundamental question that I was asking the beginning Oh is there any algorithm
+the beginning Oh is there any algorithm to determine the rank of an elliptic
+to determine the rank of an elliptic curve that will provably terminate with
+curve that will provably terminate with the correct answer so given an elliptic
+the correct answer so given an elliptic curve y squared equals x people say X
+curve y squared equals x people say X plus B can you design an algorithm that
+plus B can you design an algorithm that will you know you put in the elliptic
+curve and it spits out are the rank well it's exactly that last question given it
+it's exactly that last question given it looked a curve can you algorithmically
+looked a curve can you algorithmically determine the rank
+that's exactly the question that the bertson's Winterton dire conjecture
+addresses okay so I want to tell you how it addresses this question and it gives
+it addresses this question and it gives you it gives you a reasonable way
+actually to find what the rank is in a way that actually terminates if the
+conjecture is true so as is often the case in number theory to try and solve
+case in number theory to try and solve to solve an equation over the integers
+to solve an equation over the integers or the rational numbers the key idea is
+look at y squared equals x people say X plus B reduce it mod P and you count the
+plus B reduce it mod P and you count the number of solutions in in the integers
+number of solutions in in the integers mod P in other words just just in that
+finite field so in 1960 bertson's for Newton Dyer did some computations of
+Newton Dyer did some computations of ranks of elliptic curves and and they
+ranks of elliptic curves and and they also did computations of the number of
+solutions mod P on the elliptic curve alright so what is the maximum number of
+solutions mod p to an elliptic curve well remember it's a two variable
+equation so x and y each will have about P possibilities so the maximum number of
+P possibilities so the maximum number of solutions is P squared and so they would
+for x and y right and they would count the number of solutions but they had to
+the number of solutions but they had to write code to do these computations in
+write code to do these computations in extremely clever ways because this is
+extremely clever ways because this is phone this was in 1960 their computer
+so even storing the elliptic curve and the prime number was already taking a
+lot of the memory and then their program was taking a lot of the memory and then
+the computations and so they had to design very very clever ways to do these
+design very very clever ways to do these computations and so actually a lot of
+computations and so actually a lot of the the breakthroughs that they made at
+the the breakthroughs that they made at the time which we've taken advantage of
+theoretically later on they made a lot of theoretical breakthroughs in order to
+of theoretical breakthroughs in order to do these computations because they had
+do these computations because they had to fit their programs in such tiny
+to fit their programs in such tiny amounts of memory so as I said if you're
+amounts of memory so as I said if you're looking at y squared equals x q plus ax
+looking at y squared equals x q plus ax plus B mod P then the maximum number of
+plus B mod P then the maximum number of solutions mod P is P squared because X
+solutions mod P is P squared because X has P possibilities and Y has P
+possibilities but actually the correct order of magnitude of how many points
+order of magnitude of how many points you'll actually have on this curve
+you'll actually have on this curve modulo P you expected to have about P
+not p-squared points why is that well once you plug in a value of X mod P then
+once you plug in a value of X mod P then how many then you can solve for y Y will
+how many then you can solve for y Y will hat Y squared equals this number of mod
+hat Y squared equals this number of mod p that'll happen most two solutions so
+p that'll happen most two solutions so but how often how often you expect when
+you when you plug in a value mod p 4x cubed plus ax plus B you don't expect it
+cubed plus ax plus B you don't expect it to be a square all the time it'll be a
+to be a square all the time it'll be a square about half the time because half
+square about half the time because half the numbers mod P are squares so when
+you plug in a number mod p for X half the time you'll get a square and then Y
+the time you'll get a square and then Y will take one of those two square roots
+as values so half the time that X Q plus ax plus B will be a square and half the
+time when that is a square Y will have two solutions so when you plug in the P
+two solutions so when you plug in the P possible values for X about half of them
+possible values for X about half of them will be a square and then you'll get two
+will be a square and then you'll get two solutions for Y so the number the
+because about P over two values of X will give you a square but then for each
+will give you a square but then for each of those you have two solutions okay so
+of those you have two solutions okay so you have about P solutions for X comma Y
+mod P right on this curve okay so you expect about P solutions and so if we
+expect about P solutions and so if we use the same notation NP that say are
+use the same notation NP that say are used in his very first I have a lecture
+used in his very first I have a lecture and the under used earlier today NP if
+and the under used earlier today NP if you use that to denote the number of
+you use that to denote the number of points mod p on this on his curve y
+points mod p on this on his curve y squared equals x q plus ax plus B you
+squared equals x q plus ax plus B you expect NP to be about P and therefore
+you expect NP over P to be about one yeah as P varies you expect that to be
+yeah as P varies you expect that to be about one most of the time but here was
+about one most of the time but here was Bert since Winterton dyers incredible
+is if he has lots of rational points on it in other words if this rank R is very
+it in other words if this rank R is very large then these points if you take
+large then these points if you take those rational numbers and you reduce
+those rational numbers and you reduce the mod P remember you can take a
+right because you can it's a mod P as a finite field so you can divide so you
+finite field so you can divide so you have a rational point on elliptic curve
+have a rational point on elliptic curve you can reduce in mod P and that will
+give you a point mod P on the elliptic curve if there are lots of rational
+curve if there are lots of rational points and you reduce the mod P
+points and you reduce the mod P shouldn't be getting lots and lots of
+points mod P and so somehow NP should be pushed a little higher than P in those
+pushed a little higher than P in those cases so bertson's winners and I are
+cases so bertson's winners and I are they hypothesized that if the rank of
+they hypothesized that if the rank of the elliptic curve a is large then on
+average one should notice a having more than P points the expected number
+of people in that case so if the rank is zero then maybe NP should be about P but
+zero then maybe NP should be about P but if there are lots of rational points and
+if there are lots of rational points and the rank is large then maybe NP tends to
+the rank is large then maybe NP tends to be a little bit higher than P as you
+be a little bit higher than P as you vary across prime numbers P so maybe you
+vary across prime numbers P so maybe you should be able to pick up this large
+should be able to pick up this large rank by noticing lots of points mod P
+for for lots of Prime's P so their computations in this direction confirmed
+the suspicion in large part and it led them to the following really spectacular
+them to the following really spectacular conjecture so there's the birch since we
+EES an elliptic curve y squared equals x q plus ax plus B and ours it's rank an
+q plus ax plus B and ours it's rank an NP denotes the number of points mod P on
+NP denotes the number of points mod P on the on the elliptic curve which tends to
+the on the elliptic curve which tends to be about P but might be higher when the
+rank is larger than what they what they conjectured is that if you take n P over
+ok so n P over P remember we expect it to be about 1 but we're trying to test
+to be about 1 but we're trying to test maybe it's a little bit higher when the
+maybe it's a little bit higher when the rank is large what they can what the
+rank is large what they can what the conjecture does if you take n P over P
+conjecture does if you take n P over P which tends to let be very close to 1
+which tends to let be very close to 1 and you multiply n P over P over all
+and you multiply n P over P over all Prime's
+less than or equal to X where X is some large number then as X grows this should
+large number then as X grows this should also grow as C times log of X to the
+rank so this is how the rank so this is exactly what we were saying before if
+the rank is large but somehow these NP s over P's should be maybe a little bit
+over P's should be maybe a little bit bigger than one so that when you take
+bigger than one so that when you take the product it grows as log of X they
+the product it grows as log of X they take the product over all Prime's less
+than equal to X it actually grows in a way that depends on the rank and if the
+way that depends on the rank and if the rank is zero then then the product of n
+P over P as for all P less than X as X gets big they said we remain bounded in
+gets big they said we remain bounded in other words these things really were
+other words these things really were like 1
+but when R is big then maybe as you take the products of NP s over P it actually
+the products of NP s over P it actually grows and it grows in a way that depends
+grows and it grows in a way that depends on the rank and this is this is the
+birch and Swinton dire conjecture the original format the Burton's mentioned
+original format the Burton's mentioned our conjecture in a really very
+our conjecture in a really very beautiful conjecture because it's
+relating the structure of rational points how many rational points you have
+which is a widget an infinite set with the counts of these finite sets name
+your the set of solutions mod P and it's saying there's a correlation that if
+saying there's a correlation that if there are lots of rational points then
+there are lots of rational points then the number of points mod P tends to be
+way so there's the bridge since we're in dire conjecture what is this constancy
+dire conjecture what is this constancy well they actually made a conjecture
+well they actually made a conjecture about that too so bertson's foreigner
+about that too so bertson's foreigner also gave an explicit expression for c
+also gave an explicit expression for c in terms of various other invariants of
+in terms of various other invariants of the elliptic curve e and that's called
+the elliptic curve e and that's called the strong form of the conjecture and
+well this is exactly the if you can prove this conjecture you win a million
+prove this conjecture you win a million dollars and actually I should mention
+form of the conjecture to get a million dollars in case that helps but there is
+dollars in case that helps but there is also a formula for C but that's not part
+also a formula for C but that's not part of you that's not part of them to claim
+millenium problem okay so that's it that's the that's the bertson's for
+engine data conjecture there's a modern formulation that has been hinted at
+formulation that has been hinted at today in the earlier lectures already
+now the modern formulation is in terms of what is called an l function of the
+of what is called an l function of the elliptic curve fees an elliptic curve
+elliptic curve fees an elliptic curve and NP denotes the number of points mod
+remember we said that NP tends to be about P so you can measure the deviation
+about P so you can measure the deviation from that expected value of P or P plus
+from that expected value of P or P plus 1 by setting a P to be P plus 1 minus NP
+so this number now tends to be fairly small and then you can define what's
+small and then you can define what's called the incomplete l function of e by
+called the incomplete l function of e by just saying the product over all primes
+just saying the product over all primes that don't divide the discriminant so
+that don't divide the discriminant so basically product over all Prime's of
+this expression 1 over 1 minus a P times P to the minus s plus P to the 1 minus 2
+P to the minus s plus P to the 1 minus 2 s and there's a natural motivation for
+s and there's a natural motivation for for why you define this but again it's
+just depending on the right Dale functions just depending on the count of
+on the curve and you make this make the cell function and you think of it as a
+function of a complex variable s and you find that this product converges for all
+find that this product converges for all s with real part of s bigger than
+s with real part of s bigger than three-halves but a conjecture of hosta
+three-halves but a conjecture of hosta says that it should have an analytic
+says that it should have an analytic continuation a continuation to the
+continuation a continuation to the entire complex plane and if it did have
+entire complex plane and if it did have a analytic continuation to the entire
+a analytic continuation to the entire complex plane then it would make sense
+complex plane then it would make sense to talk about the value of this function
+to talk about the value of this function at s equals 1 and when you plug in s
+at s equals 1 and when you plug in s equals 1 well then you notice that
+equals 1 well then you notice that you're basically taking products of P
+you're basically taking products of P over N P in this expression right and so
+over N P in this expression right and so that might have something to do with
+that might have something to do with vergence winners and IRAs original
+conjecture and they in fact reformulated in terms of the value at s equals 1
+we don't know but we didn't know about the analytic continuation at that time
+but notice that the partial products of this function at s equals 1 are exactly
+this function at s equals 1 are exactly when you plug in s equals 1 that's
+exactly looking at the reciprocals of the expressions product of n P over P
+and so the conjecture of right since winners and dire was about this analytic
+winners and dire was about this analytic function the behavior at s equals 1 and
+what they conjectured is that the rank of EE should be equal to the order of
+equals 1 so in other words if you took a Taylor expansion around s equals 1 the
+Taylor expansion around s equals 1 the first Taylor coefficient would look like
+first Taylor coefficient would look like C times s minus 1 to the R and that
+would be the first and then all the other terms would be higher order terms
+so just the order of vanishing remember where it looks like the reciprocal now
+where it looks like the reciprocal now so going to the rate of going to
+infinity has been replaced by the rate of going to zero and so how fast is
+vanishing is now measuring this the growth of n P over P for P less than
+growth of n P over P for P less than equal to X and so their conjectures just
+equal to X and so their conjectures just says that the rank of E is equal to the
+order of vanishing at s equals 1 of a particular analytic function it's quite
+particular analytic function it's quite an amazing conjectures relating the
+an amazing conjectures relating the behavior of an analytic function of
+analysis to something algebraic the structure of rational solutions to an
+structure of rational solutions to an equation quite an amazing conjecture
+equation quite an amazing conjecture especially because this al function was
+especially because this al function was not even known to be defined at s equals
+1 at the time one of the great contributions of what of Andrews
+modularity theorem of Wiles and boy Conrad diamond Taylor is that it allows
+Conrad diamond Taylor is that it allows this modern formulation of the birch in
+this modern formulation of the birch in swinish entire conjecture to make sense
+swinish entire conjecture to make sense so a consequence of the work of wilds is
+that for any elliptic curve e the l function Eliav s does actually have an
+function Eliav s does actually have an analytic continuation to the entire
+complex plane so this of course was many years after the conjecture of britain
+years after the conjecture of britain swenerton dire was made about the l
+function at s equals 1 theta knows defined there but the work of Wiles
+allows us to know that the function is actually defined at s equals 1 so the
+actually defined at s equals 1 so the version swenerton dire conjecture and
+version swenerton dire conjecture and the modern formulation makes sense
+Conrad diamond Taylor and the proof of the modularity theorem and the reason
+the modularity theorem and the reason that the L function has an analytic
+analytic in the entire complex plane and therefore the elf function is to through
+therefore the elf function is to through a technique called the Mellon transform
+a technique called the Mellon transform so because modular functions are defined
+so because modular functions are defined on the entire complex plane so are the
+elf functions of these elliptic curves if you look to curves are modular and so
+we now know that the L function is defined at s equals 1 and so this
+defined at s equals 1 and so this formulation of the britons mentioned our
+formulation of the britons mentioned our conjecture makes sense because of that
+conjecture makes sense because of that and and that's that's huge because to
+solve a if you want to solve the bridge since Winterson our conjecture you do
+want to know that it makes sense first and so this really helps a lot ok so let
+and so this really helps a lot ok so let u be an elliptic curve and let r be its
+rank ok by the theorem of wiles and board conrad diamond taylor the
+board conrad diamond taylor the modularity theorem we know now that
+modularity theorem we know now that therefore there exists in our prime such
+therefore there exists in our prime such that the taylor expansion of this
+analytic function at s equals 1 is of the form some constant times s minus r
+to the r prime plus higher order terms what does analytic means it just means
+what does analytic means it just means that you have a power series expansion
+that you have a power series expansion at that point if it's analytic at s
+equals one it means you can do a Taylor expansion at s equals one and you get
+expansion at s equals one and you get some leading term the first exponent you
+some leading term the first exponent you can call our prime and then you have
+this our prime is exactly what it means to talk about the order of vanishing at
+to talk about the order of vanishing at s equals one and that's called the
+s equals one and that's called the analytic rank quantity our prime is
+called the analytic rank okay it's the exponent of the first term in the Taylor
+exponent of the first term in the Taylor series at s equals one where we now know
+it's known to be defined by the modularity theorem of Wiles well okay so
+modularity theorem of Wiles well okay so the quantity R prime is called the
+the quantity R prime is called the analytic rank of e and so the conjecture
+now makes sense and we can say the rank of e is equal to the analytic rank of e
+of e is equal to the analytic rank of e that's what the bertson's Winterton dyer
+that's what the bertson's Winterton dyer conjecture says the rank is defined in
+terms of the rank of the group of solutions of rational points on this
+quantity our prime is the order of vanishing of this analytic function
+that's defined in terms of the point point counts mod P make a you make a
+point counts mod P make a you make a generating function called the L
+generating function called the L function and you look at the order of
+construction that's called R Prime and the bertson's finish and our conjecture
+the bertson's finish and our conjecture says that R equals R prime ones defined
+says that R equals R prime ones defined algebraically wants to find analytically
+and they're the same that's the kind of thing that really excites mathematicians
+thing that really excites mathematicians the unity of the way you're defining
+the unity of the way you're defining these quantities in two completely
+these quantities in two completely different ways algebra and analysis and
+different ways algebra and analysis and they're the same that's the that's the
+winners and our conjecture in a way that is now known to make sense due to the
+is now known to make sense due to the work of Wiles okay so that's that's the
+work of Wiles okay so that's that's the Burton swenerton Dyer conjecture I
+well as it's modern formulation both of which now makes sense it takes much less
+which now makes sense it takes much less time to describe what is known about the
+time to describe what is known about the conjecture
+but one of the very first theoretical results to where you know there are lots
+results to where you know there are lots of there was lots of mounting
+of there was lots of mounting computational evidence for the bird
+computational evidence for the bird since we mentioned dire conjecture but
+since we mentioned dire conjecture but one of the very first theoretical
+evidences of the Virgin swenerton dire conjecture was actually an in Andrews
+conjecture was actually an in Andrews PhD thesis with his PhD advisor John
+Coates so those coats and Wiles in 1977 they gave the first theoretical evidence
+they gave the first theoretical evidence towards the bridge in swinish and our
+conjecture and what they showed is that if he's an elliptic curve of the form y
+squared equals x cubed plus ax or y squared equals x cubed plus B and these
+were actually exactly the kinds of equations that bertson's Winterton dire
+equations that bertson's Winterton dire were doing their computations on to test
+their to to test out their conjecture they were doing computation of these
+the kinds of curves that coats and while studied in 1977 and what they showed is
+studied in 1977 and what they showed is that for these kinds of curves y squared
+that for these kinds of curves y squared equals x people say x or y squared
+equals x people's be if our prime equals 0 that analytic order of vanishing of
+the l function is 0 then the rank is also 0 they're finitely many rational
+also 0 they're finitely many rational points that was that was the results of
+points that was that was the results of coats and Wiles their results actually
+coats and Wiles their results actually applied to a more general class of
+applied to a more general class of elliptic curves not just those two kinds
+elliptic curves not just those two kinds I wrote there and although those two
+kinds are the ones that it's been cited for the most and used for the most
+because that was part of the original bsd computations but more generally the
+bsd computations but more generally the quotes whilst theorem if you're familiar
+quotes whilst theorem if you're familiar with what it means to have complex
+with what it means to have complex multiplication the Cotswolds theorem
+applies to any elliptic curve having complex multiplication by the ring of
+complex multiplication by the ring of integers in an imaginary quadratic field
+integers in an imaginary quadratic field having class number 1 but these two
+having class number 1 but these two kinds of equations are typical examples
+kinds of equations are typical examples of curves that have complex
+multiplication by the ring of integers of an imaginary quadratic field of class
+of an imaginary quadratic field of class number 1 namely this has complex
+multiplication inside q joint I and this has complex multiplication inside Q join
+the cube root of unity ok but the result still applied to a very special class of
+still applied to a very special class of elliptic curves but that that was the
+elliptic curves but that that was the first indication that it was possible to
+make progress on the bridge since Winterton dire conjecture even if it's
+Winterton dire conjecture even if it's for a special class of elliptic curves
+and only in the case of our prime equals 0 it was the first theoretical evidence
+0 it was the first theoretical evidence that said the verse since winners and
+that said the verse since winners and dire conjecture is true
+for for infinitely many elliptic curves in this in the special case the the
+results of coats and Wiles was extended to general elliptic curves and also for
+to general elliptic curves and also for the case of our prime equals one my
+the case of our prime equals one my remarkable works in the 1980s by Coley
+remarkable works in the 1980s by Coley bagging and my gross and saggy what they
+bagging and my gross and saggy what they showed is that for any elliptic curve if
+showed is that for any elliptic curve if our prime equals 0 or 1 they have to
+our prime equals 0 or 1 they have to assume that the elliptic curve is
+assume that the elliptic curve is modular which they didn't know yet but
+modular which they didn't know yet but that's about to happen a few years later
+that's about to happen a few years later so I'll let it slide if our prime equals
+so I'll let it slide if our prime equals 0 or 1 for an elliptic curve II
+0 or 1 for an elliptic curve II Thunderbird since we mentioned dire
+conjecture is true for e in other words if our prime equals 0 then R equals 0
+for our prime equals 1 then R equals 1 this was a great contribution of gross
+this was a great contribution of gross saggy and Koli vagon in the 80s and
+saggy and Koli vagon in the 80s and applies to any elliptic curve no
+applies to any elliptic curve no restrictions except that it's modular
+restrictions except that it's modular which we knew a few years later by the
+than using modular their techniques were quite different than those with coats
+quite different than those with coats and miles and the question has been for
+a while if our prime equals 0 or 1 then that implies R equals 0 1 what about the
+that implies R equals 0 1 what about the converse if R equals 0 can we conclude
+still don't know that but we know it in certain cases now and same thing if R
+certain cases now and same thing if R equals 1 can we conclude that our prime
+equals 1 that converse is still not known but inspired by and taking further
+known but inspired by and taking further these ideas of coats and Wiles and gross
+these ideas of coats and Wiles and gross Agia kohli buggin as well as works that
+Agia kohli buggin as well as works that came later Cocteau actually proved
+reproved the result of gross saggy and Kohli bagging in the case our prime
+Kohli bagging in the case our prime equals 0 using methods that are very
+equals 0 using methods that are very reminiscent of coats and Wiles so they
+reminiscent of coats and Wiles so they found catio found an alternate proof and
+found catio found an alternate proof and then there was all this amazing work of
+Mazur Wiles and Wiles on the Asama main conjecture and putting all these ideas
+together the recent work of Skinner and urbe and John just in 2013 they've been
+urbe and John just in 2013 they've been able to prove a converse of sorts
+able to prove a converse of sorts although there's still lots of
+restrictions but they prove that if R equals 0 or 1 for an elliptic curve and
+equals 0 or 1 for an elliptic curve and E satisfies various technical conditions
+E satisfies various technical conditions and I'll give you an example for some of
+you who know these terms on some of the terminology so one of their conditions
+terminology so one of their conditions is for some prime P greater than equal
+to 5 he should have peace on my rank 0 or 1
+you should have certain kinds of reduction mod P their various other
+things that it would take a whole slide to say but I want to mention that these
+to say but I want to mention that these technical conditions are actually
+checkable conditions so given an elliptic curve you can actually check
+elliptic curve you can actually check these conditions fairly easily and if
+these conditions fairly easily and if those technical conditions are satisfied
+those technical conditions are satisfied then they conclude that our prime equals
+0 or our prime equals 1 so this kind of converse is now known under certain
+converse is now known under certain conditions that are very checkable so we
+conditions that are very checkable so we kind of basically know BSD for these
+kind of basically know BSD for these cases of rank 0 and 1 and analytic rank
+cases of rank 0 and 1 and analytic rank 0 and 1 under certain technical
+hypotheses now the question is so if R equals 0 or 1 we can check these
+equals 0 or 1 we can check these technical hypotheses and often they
+turns out to be well they're not true when you prove with theorem like this
+when you prove with theorem like this with lots of technical hypotheses their
+with lots of technical hypotheses their first question is always does it apply
+first question is always does it apply to any lip to curves at all so do these
+listen to any elliptic curve satisfy these conditions that's the natural
+question to ask and that was a question that I got very interested in because I
+that I got very interested in because I wanted to know ok this converse is it
+wanted to know ok this converse is it actually hold for any lipstick rips so
+so how do you what does it mean to does it how do you test whether it holds for
+you can write any elliptic curve in the form y squared equals x q plus ax plus B
+form y squared equals x q plus ax plus B so we can order we can call that EAB and
+so we can order we can call that EAB and as a and B vary that varies across all
+elliptic curves over Q and so what you can do is you can just order all
+can do is you can just order all elliptic curves right list them all in
+take bigger and bigger a and B and just list them all so make way to make that
+list them all so make way to make that precise you define the height of e by
+precise you define the height of e by the size of the coefficients of the
+defining equation which are a and B you can define the height of EAB is just to
+can define the height of EAB is just to be the maximum of a and B or it's more
+natural to compare the size of a cubed and B squared so you can order all up
+and B squared so you can order all up the curve by what's called the height of
+the curve by what's called the height of e which is just the maximum for a cubed
+maximum of the absolute values of for a cubed and 27 B squared remember these
+cubed and 27 B squared remember these are the two terms in the discriminant
+I've the elliptic curve but what this just means is that we're taking all up
+just means is that we're taking all up two curves and we're just listing them
+two curves and we're just listing them all in order of increasing sizes of a
+and B and then when we order all elliptic curves that way by what we call
+elliptic curves that way by what we call the height we order all elliptic curves
+in order of increasing height and then we can ask statistical questions
+we can ask statistical questions relating to the rank okay
+what did how does the rank very does it get bigger and bigger as a and B get
+probability that B SD is satisfied as a and B the conjecture is that it should
+and B the conjecture is that it should be satisfied by a hundred percent of
+be satisfied by a hundred percent of curves and we can ask what proportions
+curves and we can ask what proportions satisfy the conditions of skinner by and
+satisfy the conditions of skinner by and young so that we actually know that the
+young so that we actually know that the Burstyn spinach and our conjecture is
+Burstyn spinach and our conjecture is true so so these are kind of statistical
+true so so these are kind of statistical questions that some of us have been
+questions that some of us have been asking lately and first question is do
+asking lately and first question is do most elliptic curves have small rank and
+most elliptic curves have small rank and it's been conjectured that a hundred
+it's been conjectured that a hundred percent of elliptic curves have rank
+percent of elliptic curves have rank zero or one one hundred percent doesn't
+mean all it just means one hundred percent there could be zero percent that
+percent there could be zero percent that have higher rank and in a density sense
+it's just like Prime's are zero percent of the integers but they're still
+inflamed any of them okay so do most of Lipton curves have small rankle all the
+Lipton curves have small rankle all the conjectures at 100% should have rank
+conjectures at 100% should have rank zero or one it wasn't known before
+zero or one it wasn't known before whether more than zero percent of rank
+zero or one but we now know in recent work that most elliptic curves do have
+work that most elliptic curves do have rank zero or one so that's good for
+rank zero or one so that's good for that's good from the point of the VSD
+that's good from the point of the VSD theorems that we have which are only
+there are lots of curves with rank 0 one is nice to know because that means we
+know BSD for some curves and so this is joint work with RL Schenker just in 2013
+joint work with RL Schenker just in 2013 we proved that at least eighty-three
+percent of all elliptic curves at rank zero or one okay the conjecture is still
+zero or one okay the conjecture is still that one hundred percent have zero rank
+that one hundred percent have zero rank zero one but at least we know that most
+actually do have ranks U or one so that's good so lots of the at least some
+conditions about the rank of being zero one are satisfied in fact our methods
+one are satisfied in fact our methods that we use to show that eighty three
+that we use to show that eighty three percent of elliptic curves have rank
+zero one actually establish some of the technical conditions that Skinner inner
+technical conditions that Skinner inner bra
+and jiang require in their converse Niram to deduce that the analytic rank
+Niram to deduce that the analytic rank is 0-1 and so a corollary of our of our
+is 0-1 and so a corollary of our of our proof that most elliptic curves have
+rank zero one is that a positive proportion of elliptic curves satisfy
+proportion of elliptic curves satisfy the burners and our conjecture this
+the burners and our conjecture this positive proportion we established was
+less than 1% but it was still positive so we were happy with that but that led
+so we were happy with that but that led us to to ask actually what proportion do
+us to to ask actually what proportion do all current results actually allow us to
+prove if we just hit every if we just hit every work on the lifted curve
+that's out there so including gross zaggy and Colavecchia and skinnier
+zaggy and Colavecchia and skinnier bronzong as well as other recent results
+that says the doc should sir brothers who proved results about the
+brothers who proved results about the burst minute and dire conjecture modulo
+two if we throw everything at it what's the maximum proportion that we can prove
+the maximum proportion that we can prove satisfied the rich and dark injector and
+satisfied the rich and dark injector and so in joint work with with Chris Skinner
+so in joint work with with Chris Skinner and way Jiang we just threw everything
+at it just to see how how how much for what proportion of elliptic curves do we
+what proportion of elliptic curves do we understand the risk mentioned our
+conjecture and we didn't know more for more than 0 percent before but now we
+can say that the bursar mentioned ir conjecture is true for more than 66
+conjecture is true for more than 66 percent of all elliptic curves so it's
+percent of all elliptic curves so it's definitely true more often than not and
+definitely true more often than not and and that's well that's that's a good
+and that's well that's that's a good feeling at least we feel like we know we
+curves a common question before you ask it this does not mean that we win six
+it this does not mean that we win six hundred sixty thousand dollars
+hundred sixty thousand dollars [Laughter]
+okay so what remains to be done that's basically I just summarized basically
+everything we know about the about the British mentioned dire conjecture what
+remains to be done well everything we talked about so far has been about curbs
+of rank zero or one all right Oh Inc that should be ranked at zero or one but
+that should be ranked at zero or one but of course rank zero one curves are
+of course rank zero one curves are conjectured to be a hundred percent of
+conjectured to be a hundred percent of curves so to really prove the Britain's
+curves so to really prove the Britain's winters and direct conjecture for a
+winters and direct conjecture for a hundred percent of curves well the
+hundred percent of curves well the technical the technical conditions in
+technical the technical conditions in the theorem of Skinner van Jiang must
+still be removed we've shown that they're not actually that major that
+they're not actually that major that most curves actually do satisfy those
+conditions but to really get to a hundred percent and some of those
+hundred percent and some of those conditions still must be removed and
+conditions still must be removed and once that's accomplished this would
+once that's accomplished this would likely mean that we understand BSC for a
+are conjectured to have ranks U or one however it really is the remaining zero
+however it really is the remaining zero percent of elliptic curves having ranked
+percent of elliptic curves having ranked at least two that has been causing
+at least two that has been causing mathematicians the greatest difficulty
+mathematicians the greatest difficulty so even if it's zero percent of the
+the real sticking point in making further progress in BST understanding
+further progress in BST understanding rank two and higher and it is known that
+they're inflamed any so even though they're rare there are implementing
+Liptak herbs having rank at least two and four such curves essentially nothing
+and four such curves essentially nothing is known regarding BSD and so that's
+really what needs to be done next this is where the next big idea is needed is
+is where the next big idea is needed is to understand ranks at least to
+to understand ranks at least to understanding the personage and dire
+understanding the personage and dire conjecture there so that's really where
+conjecture there so that's really where the next big ideas needed I think that's
+that really needs to be studied and just yeah it needs right now they're really
+yeah it needs right now they're really no ideas that have have made any
+no ideas that have have made any progress and so that's where the next
+progress and so that's where the next big ideas needed also what I mentioned
+big ideas needed also what I mentioned finally that there are many beautiful
+finally that there are many beautiful extensions of the Burt since winners and
+extensions of the Burt since winners and dire conjecture and all the results that
+I mentioned there many beautiful extensions of that too for these
+extensions of that too for these generalizations of the Bertrand are
+block Kanto conjecture which extends the births winter entire conjecture beyond
+cubic equations and so unless you think that this is just about cubic equations
+actually if you make progress the bird since winters and dire
+the bird since winters and dire conjecture they're likely implications
+for this more general conjecture called the block cacio conjecture which applies
+the block cacio conjecture which applies to the situations beyond cubic equations
+to the situations beyond cubic equations they're also p-adic analogues of the vs.
+looking at the l function as a complex analytic function you can look at it as
+a P attic analytic function and their corresponding conjectures there the
+first one was due to a maser Tate and entitled bomb and there's parent guru
+and there's their V attic versions of the Barossa a formula due to Bertolini
+the Barossa a formula due to Bertolini and Henry and Karthik for sundar and
+and Henry and Karthik for sundar and then finally they're generalizations
+totally real number fields there's been this amazing work of John and his school
+this amazing work of John and his school proving versions of gross Sagi a /
+proving versions of gross Sagi a / totally real fields so it's not just the
+totally real fields so it's not just the BSD conjecture but what it leads to
+BSD conjecture but what it leads to that's become so central and in in the
+that's become so central and in in the area of number theory so I just want to
+end by first of all congratulating Andrew for for the Apple prize we're
+very excited about it he's done so much already in in bringing us to where we
+already in in bringing us to where we are for the births per Newton dark
+are for the births per Newton dark conjecture but I also want to point out
+that there's so much more to do I hope people more people get interested in it
+people more people get interested in it especially lots of the end people here
+yeah thank you very much [Applause]

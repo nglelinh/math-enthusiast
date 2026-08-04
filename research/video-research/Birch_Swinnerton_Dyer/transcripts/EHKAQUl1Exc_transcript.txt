@@ -1,0 +1,72 @@
+Welcome. Today we are diving into one of the most fascinating and challenging
+the most fascinating and challenging problems in modern mathematics. The
+problems in modern mathematics. The Birch and Swton Dire conjecture. This
+Birch and Swton Dire conjecture. This conjecture sits at the crossroads of
+conjecture sits at the crossroads of elliptic curves and lunctions.
+Connecting the worlds of geometry and analysis in a profound way. It is also
+analysis in a profound way. It is also one of the Clay Institutees Millennium
+one of the Clay Institutees Millennium Prize problems. Solving it will win you
+Prize problems. Solving it will win you $1 million US.
+So what exactly is an elliptic curve? An elliptic curve is essentially a non-s
+elliptic curve is essentially a non-s singular cubic curve in two variables
+singular cubic curve in two variables defined over a field and it has a
+defined over a field and it has a special point at infinity. Non-s
+special point at infinity. Non-s singular means that the curve has no
+Typically we represent an elliptic curve using the wire stress normal form which
+using the wire stress normal form which is given by the equation y^2= x cub plus
+a * x + b. Here a and b are constants that determine the specific shape and
+that determine the specific shape and properties of the curve.
+Now let's talk about L functions. L functions are meamorphic functions on
+functions are meamorphic functions on the complex plane that generalize the
+famous reman zeta function. They are defined by a deerllet series expressed
+as l of s equals the sum of a subn * n to the power of s where s is a complex
+to the power of s where s is a complex variable. n ranges over the natural
+variable. n ranges over the natural numbers and the subn are coefficients
+numbers and the subn are coefficients that encode arithmetic information. L
+that encode arithmetic information. L functions also possess some very useful
+functions also possess some very useful properties. They have an oiler product
+properties. They have an oiler product formula, allow for analytic continuation
+formula, allow for analytic continuation and satisfy a functional equation.
+and satisfy a functional equation. Here comes the main topic. The Bur and
+abbreviated as the BSD conjecture proposes a deep connection between an
+proposes a deep connection between an elliptic curve and its associated L
+elliptic curve and its associated L function. The conjecture states that the
+function. The conjecture states that the algebraic rank of an elliptic curve is
+equal to the analytic rank of its L function. In mathematical terms, rank of
+function. In mathematical terms, rank of E over Q equals the order of zero at S=
+1 of L of E S. This equation tells us that the number of rational points on an
+that the number of rational points on an elliptic curve is intimately connected
+elliptic curve is intimately connected to the behavior of its l function at s
+The BSD conjecture is significant because it bridges the gap between the
+because it bridges the gap between the discrete world of arithmetic represented
+discrete world of arithmetic represented by the group of rational points on an
+elliptic curve and the continuous world of analysis represented by the behavior
+of analysis represented by the behavior of the l function. Geometrically, it
+connects the finite group of rational points to infinite analytic properties.
+points to infinite analytic properties. Analytically, it transforms difficult
+Analytically, it transforms difficult geometric questions into tractable
+geometric questions into tractable analysis.
+The implications of the BSD conjecture extend far beyond pure mathematics.
+extend far beyond pure mathematics. Elliptic curves and therefore the BSD
+Elliptic curves and therefore the BSD conjecture have significant applications
+conjecture have significant applications in cryptography.
+fundamental to modern encryption and digital security. Also, it helps in
+digital security. Also, it helps in solving diapont equations and
+solving diapont equations and understanding rational point
+understanding rational point distributions, all of which have
+So, where do we stand with the BSD conjecture today? Significant progress
+conjecture today? Significant progress has been made and the conjecture has
+been proven for special cases such as elliptic curves with complex
+elliptic curves with complex multiplication.
+However, the general proof remains elusive. Connecting the finite and
+infinite worlds continues to be a significant challenge for
+significant challenge for mathematicians.
+In conclusion, the Bur and Swton Dire conjecture represents the deepest
+conjecture represents the deepest mystery connecting geometry and analysis
+Solving it would revolutionize our understanding of elliptic curves and
+understanding of elliptic curves and unlock new frontiers in number theory.
+unlock new frontiers in number theory. It remains one of the seven millennium
+It remains one of the seven millennium prize problems.
+If you like this video, hit that like button and don't forget to subscribe.
+button and don't forget to subscribe. Visit codelucky.com for more such useful
+Visit codelucky.com for more such useful content.

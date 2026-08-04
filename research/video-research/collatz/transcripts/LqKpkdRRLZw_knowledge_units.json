@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ku_LqKpkdRRLZw_0",
+    "t_start": 0.1,
+    "t_end": 94.8,
+    "type": "overview",
+    "summary": "What do you think this is? Like maybe seaweed? Or... -It definitely looks like something from the sea, like... Okay well it's interesting mathematical seaweed, and I can explain exactly how we made that image, because to me that image is one of the most mind-blowing pictures, illustrations of very simple math ideas. So it is - and we're going to get there - the Collatz Conjecture. I know you've done videos on the Collatz Conjecture, but here is your quick refresher. When you take a number and we can do two things to this number depending on its parity, that's whether it is odd or it is even. I…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_LqKpkdRRLZw_94",
+    "t_start": 94.8,
+    "t_end": 186.4,
+    "type": "overview",
+    "summary": "is eventually going to go down to 1. So some of them are going to go all over the place, but eventually everything's going to 1 as a conjecture, which is, we think is true but we can't prove it and one of the reasons why the conjecture is one of the most famous unsolved problems in math is that we appear to be nowhere close to a solution, nowhere close at all. People believe that whole new bits of math need to be invented before we can do this, and is one of the few things that is so simple to state, yet still so complicated. It's got the sort of mythical status now among advanced mathematicia…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_LqKpkdRRLZw_186",
+    "t_start": 186.4,
+    "t_end": 282.3,
+    "type": "overview",
+    "summary": "and it looks like something in a math textbook. But actually what Edmund has done is to make it so it's... interesting to look at, but so that you get more of an insight about why this whole problem is interesting. Imagine if you start at the bottom, either we are going to go up to an odd number or an even number. If we're getting to an even number, it's going to slightly go off in that direction. If it's going to an odd number it's going slightly in that direction. -Clockwise or anti-clockwise. -Yeah anti-clockwise for odd, and clockwise for even. And then you get - the tree becomes this. Thi…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_LqKpkdRRLZw_282",
+    "t_start": 282.5,
+    "t_end": 374.3,
+    "type": "overview",
+    "summary": "And to think that something so natural looking, something so organic, something so complicated, comes from something so simple, this to me is the best way to explain the kind of complicated nature of the Collatz Conjecture, because what it's doing is you're looking and you're thinking, oh my god that looks complicated, and you think, oh now I understand why no one's got a clue. If you've enjoyed this video and want to dig even deeper into the world of knowledge, why not check out the Great Courses Plus? They've got an extensive collection of videos presented by world experts in all sorts of fi…",
+    "depth": "intro"
+  },
+  {
+    "id": "ku_LqKpkdRRLZw_374",
+    "t_start": 374.3,
+    "t_end": 376.9,
+    "type": "overview",
+    "summary": "and now thanks to them for supporting this video.",
+    "depth": "intro"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ku_video_CVOr7f_VALc_0",
+    "t_start": 0.0,
+    "t_end": 92.2,
+    "type": "overview",
+    "summary": "I want to tell you about exotic objects in topology. Before I do that let me just tell you more generally what topologists do. We study geometric shapes, but unlike in ordinary geometry we don't care about lengths, angles, areas, volumes - we don't care about any of that. We just care about what properties geometric shapes have that are unchanged when you deform them; and by deform I mean you're allowed to bend it and twist it and stretch it as if it's made of an elastic material, but you're not allowed to break it. -(Brady: So a square for example, if we started manipulating) (that it woul…"
+  },
+  {
+    "id": "ku_video_CVOr7f_VALc_92",
+    "t_start": 92.2,
+    "t_end": 187.2,
+    "type": "overview",
+    "summary": "not allowed. And while I could do that by taking a bite out of the donut, but we topologists are healthy people, we're not supposed to be eating donuts. The objects that we mostly care about are called manifolds. These are objects that look- from any given point they look pretty much like flat space or n-dimensional hyperspace. What is n-dimensional hyperspace? In dimension 1 we have a line, in dimension 2 we have the plane, in dimension 3 we have space; and then you can think about dimension 4, just add another variable say time and that's four dimensional hyperspace. And you can just add …"
+  },
+  {
+    "id": "ku_video_CVOr7f_VALc_187",
+    "t_start": 187.2,
+    "t_end": 279.8,
+    "type": "overview",
+    "summary": "Other examples of 2-dimensional manifolds would be the surface of the donut or this famous Klein bottle, yes, if I live on it again I wouldn't be able to tell the difference from- from a plane. Just like it's very hard to tell the difference between a plane and the the Earth, the sphere, from where we are. To really tell them apart you would have to go far away and see that you come back. There are also 1-dimensional manifolds like this circle right here, it's a 1-dimensional manifold. If we only lived on this- on the circle then we would only have one direction in which to move in. And the…"
+  },
+  {
+    "id": "ku_video_CVOr7f_VALc_279",
+    "t_start": 279.8,
+    "t_end": 370.3,
+    "type": "overview",
+    "summary": "accepts, that it's not yet known what shape it is - but there are some hints from the universe. Okay so we have 3-dimensional objects and then we can think about 4-dimensionals and so on. A good example is this hypersphere; so in dimension 1 we have the circle which is a 1-dimensional manifold and it's the set of points at the given distance from the origin. It's given by the equation x squared plus y squared equals 1. Similarly we have the sphere which is, again, the set of points at distance 1 from a given point but it lives in 3-dimensional space and it's given by the equation x squared …"
+  },
+  {
+    "id": "ku_video_CVOr7f_VALc_370",
+    "t_start": 370.3,
+    "t_end": 466.0,
+    "type": "overview",
+    "summary": "would be smooth. Now could it be that we have two smooth objects and you can deform one into the other but the only way to do so is by making corners somewhere in the middle? Then those objects would be topologically the same but smoothly different. And- I don't know, if you're more familiar with one of the objects you would say that the second one is an exotic copy of the other one. It's like if you live on the first object and you go to the second one it's like going to an exotic vacation; some things are the same but some things are just different. Now how can this be? How can you have t…"
+  },
+  {
+    "id": "ku_video_CVOr7f_VALc_466",
+    "t_start": 466.0,
+    "t_end": 556.5,
+    "type": "overview",
+    "summary": "object, an exotic sphere, that you can deform into the ordinary 7-dimensional sphere but not smoothly. An exotic sphere is a smooth object that I can deform into a sphere. But I cannot deform it smoothly, I would have to make corners in the middle. Let me show you now the numbers of spheres in each dimension: in dimension 1, 2, 3 there's just one, the standard one. The same goes in dimensions 5 and 6. Now in dimension 7 we actually have 28 spheres so there's the standard one and then there are 27 different ones. Then we have two spheres in dimension 8; then eight then six. Then in dimension…"
+  },
+  {
+    "id": "ku_video_CVOr7f_VALc_556",
+    "t_start": 556.5,
+    "t_end": 648.5,
+    "type": "overview",
+    "summary": "(was an object living in a 61-dimensional universe it's a little bit more boring than some of the) (other ones?) - That's right, yes, these are the boring dimensions. You don't have exotic spheres - although you do have some other exotic objects in these dimensions just not spheres. - (These numbers seem so) (arbitrary; I assume it's impossible for someone to easily explain why it's certain numbers that are) (boring and other ones that are hyper exotic?) - These numbers are hard to compute, there's a whole story involving Bernoulli numbers and homotopy groups of spheres. The most interestin…"
+  },
+  {
+    "id": "ku_video_CVOr7f_VALc_648",
+    "t_start": 648.5,
+    "t_end": 738.8,
+    "type": "overview",
+    "summary": "famous remaining open problem in topology is this one about dimension 4. But it hasn't yet made it to the list of millennium problems. - (Professor, don't waste your time making Numberphile videos,) (you need to go upstairs and solve this problem!) - Numberphile videos are important too. (So why is dimension 4 so difficult?) - Good question. Well it's more difficult than the lower dimensions - 1, 2, 3 - because in those dimensions we can see things and there are also geometric techniques that mathematicians use to study shapes in these dimensions. What's interesting is that it's also simple…"
+  },
+  {
+    "id": "ku_video_CVOr7f_VALc_738",
+    "t_start": 738.8,
+    "t_end": 829.6,
+    "type": "overview",
+    "summary": "complication one at a time. All right, how can you split apart disks? Well let me start with lines. If I have two lines and they're on the plane and they intersect, if I move one a little bit I'm not going to be able to take it off the other. But I can take it off if I allow myself to go into space. The reason is that 3 is greater than 1+1. Each line is a 1-dimensional object, and 1+1 is 2 but I have one extra dimension, and that's why I can do it. Similarly, if I'm interested in separating disks: each disk is a 2-dimensional object and 2+2 is 4 so I need one extra dimension. So in dimensio…"
+  },
+  {
+    "id": "ku_video_CVOr7f_VALc_829",
+    "t_start": 829.6,
+    "t_end": 921.8,
+    "type": "overview",
+    "summary": "like like a plane or a space and you can deform it into the ordinary one but only by making corners? Here are the numbers of hyperspaces in each dimension. In any dimension except 4 there is just one; there's just a standard one and there are no exotic hyperspaces. But in dimension 4 we have infinitely many. In fact, it's more than infinitely many, it's uncountably many. It's not the kind of infinity that you can count - 1, 2, 3 and so on - it's as many exotic hyperspaces as there are real numbers. And this doesn't happen in any other dimensions. If you have exotic objects in some other dim…"
+  },
+  {
+    "id": "ku_video_CVOr7f_VALc_921",
+    "t_start": 921.8,
+    "t_end": 937.8,
+    "type": "overview",
+    "summary": "(like the 4th dimension is your equivalent.) - That's pretty much it. In many theorems you say this is happening in all dimensions except 4 and we understand what's happening, and we just don't know what's happening in dimension 4. But I find that interesting and worthy of study."
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "ku_video_VCZeVsTb7DU_9",
+    "t_start": 9.8,
+    "t_end": 105.4,
+    "type": "overview",
+    "summary": "me so today I will speak about spare packing in higher dimensions okay so so packing in higher dimensions okay so so imagine that you have a very big box and also you have a unlimited supply of equally sized balls and those balls they equally sized balls and those balls they could be a cannon balls and a ship or they could be items in a condensed body or they could be messages in a noisy Channel and so the problem we are interested in is to find the solve the interested in is to find the solve the sphere packing problem so to find the configurations of such a balls in the dimensional Euclid…"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_105",
+    "t_start": 105.4,
+    "t_end": 197.2,
+    "type": "overview",
+    "summary": "problem is a bit more interesting but it was solved by bees and so here you see was solved by bees and so here you see this packing of balls which is sometimes this packing of balls which is sometimes called the honeycomb packing or called the honeycomb packing or hexagonal packing for this hexagonal shape and so disks on a plane they can cover more than 90 percent of the plane cover more than 90 percent of the plane and so in dimension 3 actually things and so in dimension 3 actually things become much more interesting and sphere become much more interesting and sphere packing problem in d…"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_197",
+    "t_start": 197.2,
+    "t_end": 287.8,
+    "type": "overview",
+    "summary": "points and we measure them like this so if we have two vectors then we take the if we have two vectors then we take the differences of their coordinates take each difference take to the square sum them up and take a square root of that them up and take a square root of that and it's a nice notion of distance so and it's a nice notion of distance so now when we know what a point is and what a distance is we can also say what's a dimensional ball so the same as what's a dimensional ball so the same as in our familiar two and three dimensions in our familiar two and three dimensions so the bal…"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_287",
+    "t_start": 287.8,
+    "t_end": 379.3,
+    "type": "overview",
+    "summary": "so in dimension 2 for example we have one best coordinate configuration and one best coordinate configuration and it's not difficult to believe that it's it's not difficult to believe that it's the best one and but in dimension 3 they actually have uncountably many equally dense configurations so the picture with dense configurations so the picture with the oranges which I showed you before so here at each layer we have somehow two choices how to store our oranges so we choices how to store our oranges so we have some out to two ways and to which have some out to two ways and to which holes…"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_379",
+    "t_start": 379.3,
+    "t_end": 470.5,
+    "type": "overview",
+    "summary": "only in this problem and for it we're also able to prove that this is the best also able to prove that this is the best possible packing so you see that somehow possible packing so you see that somehow from this picture you see from the table you can see that when dimension grows somehow ours is very packing constant somehow ours is very packing constant becomes smaller and smaller and smaller becomes smaller and smaller and smaller so for example 25% seems seems much smaller than 74 but for dimension 8 is actually a very big number and so this of course leaves us with many open questions s…"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_470",
+    "t_start": 470.5,
+    "t_end": 564.3,
+    "type": "overview",
+    "summary": "different from a previous one and it seems like each new dimension requires a seems like each new dimension requires a new method so it's very interesting to know what those methods will be and so but but other question which I also find but but other question which I also find very interesting so that what happens in very interesting so that what happens in big dimensions for example when dimensions up to 10 or maybe 20 be more or less no which configures we believe or less no which configures we believe what are the optimal configurations we've already found them and now it's only a matte…"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_564",
+    "t_start": 564.3,
+    "t_end": 655.5,
+    "type": "overview",
+    "summary": "2 n + 2 3 and the the best packing problem was solved by geometric methods problem was solved by geometric methods so this packing problem which is somehow problem with infinitely many degree of freedom using some smart combinatorial methods this was reduced to a finite amount of the finite geometric problems amount of the finite geometric problems for example problems about maximal or for example problems about maximal or minimal volume of polytopes with certain minimal volume of polytopes with certain particular properties so this is how the particular properties so this is how the proble…"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_655",
+    "t_start": 655.5,
+    "t_end": 751.3,
+    "type": "overview",
+    "summary": "in all small dimensions the optimal configurations they seem to be very configurations they seem to be very different when we change from dimension different when we change from dimension to dimension and for example in many small dimensions the best baking is always selected packing it's given by a lattice and so lettuce it's a kind of a configuration which has the maximal post configuration which has the maximal post possible translational symmetry so here possible translational symmetry so here you see a two-dimensional you see a two-dimensional example so we can have one point so here f…"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_751",
+    "t_start": 751.3,
+    "t_end": 843.8,
+    "type": "overview",
+    "summary": "of disks in hexagonal packing so we see that here we can rotate this whole that here we can rotate this whole configuration by 60 degrees and vehicles also can reflect it by this line so another good example is for example each another good example is for example each lattice which is an optimal lattice which is an optimal configuration and dimension 24 so it's configuration and dimension 24 so it's rotational group of symmetries it's a Conway group which is a double cover of one of the sporadic simple cover of one of the sporadic simple groups so it's routes and non-tree very groups so it'…"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_843",
+    "t_start": 843.8,
+    "t_end": 935.2,
+    "type": "overview",
+    "summary": "saturated packing it in dimension D it has a density at least two to the minus D and to see it it's very easy so we take our balls of radius one and now we take our balls of radius one and now we inflame them and instead of this balls inflame them and instead of this balls of radius one we will consider balls of so I also removed the border of my box because I'm a borders distort everything because I'm a borders distort everything but when our box is very big then borden volume of border is very small and we can neglect that and so now we see that somehow this property of our packing being …"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_935",
+    "t_start": 935.2,
+    "t_end": 1030.9,
+    "type": "overview",
+    "summary": "number times the dimension and again times this factor of 2 to the minus D but the thing is that somehow this factor to the minus D factor to the minus D case much much faster than whatever this case much much faster than whatever this Perfector can compensate for and so also what he was able to do that in a sparse sequence of dimensions we still we could sequence of dimensions we still we could even have this like log log defector in even have this like log log defector in addition to this constant D so this is a but for very big deal certainly will be for example bigger than this constant…"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_1030",
+    "t_start": 1030.9,
+    "t_end": 1123.4,
+    "type": "overview",
+    "summary": "bet that improvement will be on this side because I don't I think this is side because I don't I think this is that would been a much much nicer and so that would been a much much nicer and so my last slide so now what's beyond my last slide so now what's beyond sphere packings so all those methods in the ideas which we discussed for sphere packings they also work for a wider range of problems so this second problem is a problems so this second problem is a it's not isolated so one obvious thing so instead of packing balls we can pack any other kind of shapes another word is any other kind …"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_1123",
+    "t_start": 1123.4,
+    "t_end": 1215.2,
+    "type": "overview",
+    "summary": "correcting codes and signal transmission and so thank you very much thank you okay we have time for just a couple of questions over here curious about the questions over here curious about the case you just mentioned of other other case you just mentioned of other other than spheres so if you if you pack than spheres so if you if you pack compact hyperbolic spaces does it decrease this faster are there ways to fill in the gaps yeah more difficult to fill in the gaps yeah more difficult to yeah because of all this space itself yeah because of all this space itself it's like if you take a bal…"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_1215",
+    "t_start": 1215.2,
+    "t_end": 1306.5,
+    "type": "overview",
+    "summary": "don't remember which one is better but I think somehow that this product of 2 8 think somehow that this product of 2 8 and 8 it's not there is an example and 8 it's not there is an example better but I'm not completely sure can better but I'm not completely sure can you say just a word about what good you say just a word about what good packing is that aren't periodic look packing is that aren't periodic look like where's that George oh yes so for like where's that George oh yes so for in small dimension I think the first in small dimension I think the first example when this happens in is …"
+  },
+  {
+    "id": "ku_video_VCZeVsTb7DU_1306",
+    "t_start": 1306.5,
+    "t_end": 1326.8,
+    "type": "overview",
+    "summary": "don't know what the best what are the good configurations there because in all good configurations there because in all small dimensions where we more or less small dimensions where we more or less know something about configurations it know something about configurations it seems like there is a very big yep okay seems like there is a very big yep okay I think we should move on now so let's I think we should move on now so let's thank yeah thank you"
+  }
+]

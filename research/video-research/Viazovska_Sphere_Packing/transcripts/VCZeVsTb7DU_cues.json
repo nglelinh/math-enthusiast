@@ -1,0 +1,1697 @@
+[
+  {
+    "t_start": 9.8,
+    "t_end": 26.05,
+    "text": "me so today I will speak about spare packing in higher dimensions okay so so"
+  },
+  {
+    "t_start": 26.05,
+    "t_end": 34.69,
+    "text": "packing in higher dimensions okay so so imagine that you have a very big box and"
+  },
+  {
+    "t_start": 34.69,
+    "t_end": 38.6,
+    "text": "also you have a unlimited supply of equally sized balls and those balls they"
+  },
+  {
+    "t_start": 38.6,
+    "t_end": 44.27,
+    "text": "equally sized balls and those balls they could be a cannon balls and a ship or"
+  },
+  {
+    "t_start": 44.27,
+    "t_end": 49.549,
+    "text": "they could be items in a condensed body or they could be messages in a noisy"
+  },
+  {
+    "t_start": 49.549,
+    "t_end": 53.509,
+    "text": "Channel and so the problem we are interested in is to find the solve the"
+  },
+  {
+    "t_start": 53.509,
+    "t_end": 57.16,
+    "text": "interested in is to find the solve the sphere packing problem so to find the"
+  },
+  {
+    "t_start": 57.16,
+    "t_end": 64.91,
+    "text": "configurations of such a balls in the dimensional Euclidean space and so the"
+  },
+  {
+    "t_start": 64.91,
+    "t_end": 67.88,
+    "text": "dimensional Euclidean space and so the maximal possible density of such a"
+  },
+  {
+    "t_start": 67.88,
+    "t_end": 69.8,
+    "text": "maximal possible density of such a configuration is called the sphere"
+  },
+  {
+    "t_start": 69.8,
+    "t_end": 76.37,
+    "text": "packing constant and we will denote it by Delta D so this is how the sphere"
+  },
+  {
+    "t_start": 76.37,
+    "t_end": 78.319,
+    "text": "by Delta D so this is how the sphere packing problem looks in small"
+  },
+  {
+    "t_start": 78.319,
+    "t_end": 80.959,
+    "text": "packing problem looks in small dimensions and dimensions 1 2 &amp; 3 and"
+  },
+  {
+    "t_start": 80.959,
+    "t_end": 86.06,
+    "text": "dimensions and dimensions 1 2 &amp; 3 and you see that the in dimension 1 the"
+  },
+  {
+    "t_start": 86.06,
+    "t_end": 88.27,
+    "text": "problem is trivial because a ball in dimension 1 it's simply an interval and"
+  },
+  {
+    "t_start": 88.27,
+    "t_end": 93.2,
+    "text": "dimension 1 it's simply an interval and we can cover a line with intervals of"
+  },
+  {
+    "t_start": 93.2,
+    "t_end": 96.469,
+    "text": "we can cover a line with intervals of equal size with almost no space left"
+  },
+  {
+    "t_start": 96.469,
+    "t_end": 98.84,
+    "text": "equal size with almost no space left so here the sphere packing constant is"
+  },
+  {
+    "t_start": 98.84,
+    "t_end": 105.41,
+    "text": "trivial equal to 1 so in dimension 2 problem is a bit more interesting but it"
+  },
+  {
+    "t_start": 105.41,
+    "t_end": 109.039,
+    "text": "problem is a bit more interesting but it was solved by bees and so here you see"
+  },
+  {
+    "t_start": 109.039,
+    "t_end": 112.52,
+    "text": "was solved by bees and so here you see this packing of balls which is sometimes"
+  },
+  {
+    "t_start": 112.52,
+    "t_end": 114.23,
+    "text": "this packing of balls which is sometimes called the honeycomb packing or"
+  },
+  {
+    "t_start": 114.23,
+    "t_end": 117.56,
+    "text": "called the honeycomb packing or hexagonal packing for this hexagonal"
+  },
+  {
+    "t_start": 117.56,
+    "t_end": 125.569,
+    "text": "shape and so disks on a plane they can cover more than 90 percent of the plane"
+  },
+  {
+    "t_start": 125.569,
+    "t_end": 129.35,
+    "text": "cover more than 90 percent of the plane and so in dimension 3 actually things"
+  },
+  {
+    "t_start": 129.35,
+    "t_end": 131.69,
+    "text": "and so in dimension 3 actually things become much more interesting and sphere"
+  },
+  {
+    "t_start": 131.69,
+    "t_end": 133.37,
+    "text": "become much more interesting and sphere packing problem in dimension 3 it was"
+  },
+  {
+    "t_start": 133.37,
+    "t_end": 135.83,
+    "text": "packing problem in dimension 3 it was known as the Kepler conjecture so the"
+  },
+  {
+    "t_start": 135.83,
+    "t_end": 141.28,
+    "text": "known as the Kepler conjecture so the best way to put balls in dimension 3 is"
+  },
+  {
+    "t_start": 141.28,
+    "t_end": 147.52,
+    "text": "the the same way that oranges are stored in"
+  },
+  {
+    "t_start": 147.52,
+    "t_end": 150.25,
+    "text": "the same way that oranges are stored in supermarkets so here you take you put"
+  },
+  {
+    "t_start": 150.25,
+    "t_end": 154.449,
+    "text": "them in layers so each layer look like this best configuration and dimension to"
+  },
+  {
+    "t_start": 154.449,
+    "t_end": 159.069,
+    "text": "this best configuration and dimension to and then on the top of each layer you"
+  },
+  {
+    "t_start": 159.069,
+    "t_end": 161.68,
+    "text": "put the next one so you can put a new ball not into into each into this big"
+  },
+  {
+    "t_start": 161.68,
+    "t_end": 164.41,
+    "text": "ball not into into each into this big holes between oranges so you cannot put"
+  },
+  {
+    "t_start": 164.41,
+    "t_end": 166.449,
+    "text": "holes between oranges so you cannot put it into each hole button to each second"
+  },
+  {
+    "t_start": 166.449,
+    "t_end": 168.64,
+    "text": "it into each hole button to each second and you continue like this in layers and"
+  },
+  {
+    "t_start": 168.64,
+    "t_end": 178.149,
+    "text": "and you continue like this in layers and this way you will cover about 74% of the"
+  },
+  {
+    "t_start": 178.149,
+    "t_end": 179.649,
+    "text": "space so here's this let me tell you so now what happens in bigger dimensions"
+  },
+  {
+    "t_start": 179.649,
+    "t_end": 185.08,
+    "text": "now what happens in bigger dimensions and so let me recall what are those"
+  },
+  {
+    "t_start": 185.08,
+    "t_end": 190.569,
+    "text": "space it consists of points for each point it's an array of D coordinates and"
+  },
+  {
+    "t_start": 190.569,
+    "t_end": 193.24,
+    "text": "point it's an array of D coordinates and each coordinates it's a real number so"
+  },
+  {
+    "t_start": 193.24,
+    "t_end": 195.25,
+    "text": "each coordinates it's a real number so now what we also would like to do we"
+  },
+  {
+    "t_start": 195.25,
+    "t_end": 197.25,
+    "text": "now what we also would like to do we would like to measure distances between"
+  },
+  {
+    "t_start": 197.25,
+    "t_end": 205.349,
+    "text": "points and we measure them like this so if we have two vectors then we take the"
+  },
+  {
+    "t_start": 205.349,
+    "t_end": 207.939,
+    "text": "if we have two vectors then we take the differences of their coordinates take"
+  },
+  {
+    "t_start": 207.939,
+    "t_end": 213.819,
+    "text": "each difference take to the square sum them up and take a square root of that"
+  },
+  {
+    "t_start": 213.819,
+    "t_end": 219.43,
+    "text": "them up and take a square root of that and it's a nice notion of distance so"
+  },
+  {
+    "t_start": 219.43,
+    "t_end": 223.99,
+    "text": "and it's a nice notion of distance so now when we know what a point is and"
+  },
+  {
+    "t_start": 223.99,
+    "t_end": 226.24,
+    "text": "what a distance is we can also say what's a dimensional ball so the same as"
+  },
+  {
+    "t_start": 226.24,
+    "t_end": 229.15,
+    "text": "what's a dimensional ball so the same as in our familiar two and three dimensions"
+  },
+  {
+    "t_start": 229.15,
+    "t_end": 233.68,
+    "text": "in our familiar two and three dimensions so the ball with center X and radius R"
+  },
+  {
+    "t_start": 233.68,
+    "t_end": 238.47,
+    "text": "it would be just the set of all points at distance at most R from the point X"
+  },
+  {
+    "t_start": 238.47,
+    "t_end": 241.18,
+    "text": "at distance at most R from the point X so now what do we know about we're"
+  },
+  {
+    "t_start": 241.18,
+    "t_end": 245.14,
+    "text": "so now what do we know about we're breaking in different dimensions so this"
+  },
+  {
+    "t_start": 245.14,
+    "t_end": 247.449,
+    "text": "breaking in different dimensions so this R this is this at the moment this is the"
+  },
+  {
+    "t_start": 247.449,
+    "t_end": 251.949,
+    "text": "R this is this at the moment this is the list of all the dimensions where we know"
+  },
+  {
+    "t_start": 251.949,
+    "t_end": 254.289,
+    "text": "the exact value of the constant delta T and so the first three already spoke"
+  },
+  {
+    "t_start": 254.289,
+    "t_end": 255.909,
+    "text": "and so the first three already spoke about them so in dimension one its"
+  },
+  {
+    "t_start": 255.909,
+    "t_end": 263.11,
+    "text": "trivial one so dimension two was solved by axial tool at the age of 90 s and 20"
+  },
+  {
+    "t_start": 263.11,
+    "t_end": 266.29,
+    "text": "by axial tool at the age of 90 s and 20 century and it's geometric and not a"
+  },
+  {
+    "t_start": 266.29,
+    "t_end": 269.86,
+    "text": "century and it's geometric and not a very difficult proof and in dimension"
+  },
+  {
+    "t_start": 269.86,
+    "t_end": 274.279,
+    "text": "very difficult proof and in dimension three the problem turned out to be much"
+  },
+  {
+    "t_start": 274.279,
+    "t_end": 278.929,
+    "text": "and so it was known for a long time as a kepler conjecture but it was solved only"
+  },
+  {
+    "t_start": 278.929,
+    "t_end": 282.32,
+    "text": "kepler conjecture but it was solved only at the end of the last century busted by"
+  },
+  {
+    "t_start": 282.32,
+    "t_end": 283.719,
+    "text": "at the end of the last century busted by Thomas Hales"
+  },
+  {
+    "t_start": 283.719,
+    "t_end": 287.839,
+    "text": "and so let me just explain so why is it a difficult problem"
+  },
+  {
+    "t_start": 287.839,
+    "t_end": 293.779,
+    "text": "so in dimension 2 for example we have one best coordinate configuration and"
+  },
+  {
+    "t_start": 293.779,
+    "t_end": 295.79,
+    "text": "one best coordinate configuration and it's not difficult to believe that it's"
+  },
+  {
+    "t_start": 295.79,
+    "t_end": 300.92,
+    "text": "it's not difficult to believe that it's the best one and but in dimension 3 they"
+  },
+  {
+    "t_start": 300.92,
+    "t_end": 303.23,
+    "text": "actually have uncountably many equally dense configurations so the picture with"
+  },
+  {
+    "t_start": 303.23,
+    "t_end": 309.409,
+    "text": "dense configurations so the picture with the oranges which I showed you before so"
+  },
+  {
+    "t_start": 309.409,
+    "t_end": 312.409,
+    "text": "here at each layer we have somehow two choices how to store our oranges so we"
+  },
+  {
+    "t_start": 312.409,
+    "t_end": 316.129,
+    "text": "choices how to store our oranges so we have some out to two ways and to which"
+  },
+  {
+    "t_start": 316.129,
+    "t_end": 320.389,
+    "text": "have some out to two ways and to which holes we want to put the new layer and"
+  },
+  {
+    "t_start": 320.389,
+    "t_end": 325.82,
+    "text": "choice so at the end we end up with uncountably many different equally dense"
+  },
+  {
+    "t_start": 325.82,
+    "t_end": 330.32,
+    "text": "uncountably many different equally dense configurations and so the next time are"
+  },
+  {
+    "t_start": 330.32,
+    "t_end": 336.649,
+    "text": "we don't really know what the exact answer is in dimensions for free free"
+  },
+  {
+    "t_start": 336.649,
+    "t_end": 342.649,
+    "text": "infants so 4 5 6 7 but we do know what happens in dimension 8 so in dimension 8"
+  },
+  {
+    "t_start": 342.649,
+    "t_end": 344.809,
+    "text": "happens in dimension 8 so in dimension 8 we have an incredibly great nice"
+  },
+  {
+    "t_start": 344.809,
+    "t_end": 347.42,
+    "text": "we have an incredibly great nice configuration called the ate lettuce"
+  },
+  {
+    "t_start": 347.42,
+    "t_end": 351.589,
+    "text": "configuration called the ate lettuce packing and so it's somehow mathematical"
+  },
+  {
+    "t_start": 351.589,
+    "t_end": 356.149,
+    "text": "packing and so it's somehow mathematical celebrity it comes out in many areas of"
+  },
+  {
+    "t_start": 356.149,
+    "t_end": 363.139,
+    "text": "symmetrical object and so what we are able to prove is that it's a the the"
+  },
+  {
+    "t_start": 363.139,
+    "t_end": 365.54,
+    "text": "able to prove is that it's a the the densest packing in dimension 8 is"
+  },
+  {
+    "t_start": 365.54,
+    "t_end": 368.29,
+    "text": "densest packing in dimension 8 is attained by this configuration and"
+  },
+  {
+    "t_start": 368.29,
+    "t_end": 374.119,
+    "text": "another great configuration we have in dimension 24 so it is called the leash"
+  },
+  {
+    "t_start": 374.119,
+    "t_end": 376.839,
+    "text": "dimension 24 so it is called the leash lettuce it also has many extraordinary"
+  },
+  {
+    "t_start": 376.839,
+    "t_end": 379.309,
+    "text": "lettuce it also has many extraordinary mathematical properties it comes up not"
+  },
+  {
+    "t_start": 379.309,
+    "t_end": 387.04,
+    "text": "only in this problem and for it we're also able to prove that this is the best"
+  },
+  {
+    "t_start": 387.04,
+    "t_end": 389.42,
+    "text": "also able to prove that this is the best possible packing so you see that somehow"
+  },
+  {
+    "t_start": 389.42,
+    "t_end": 393.999,
+    "text": "possible packing so you see that somehow from this picture you see from the table"
+  },
+  {
+    "t_start": 393.999,
+    "t_end": 396.619,
+    "text": "you can see that when dimension grows somehow ours is very packing constant"
+  },
+  {
+    "t_start": 396.619,
+    "t_end": 398.269,
+    "text": "somehow ours is very packing constant becomes smaller and smaller and smaller"
+  },
+  {
+    "t_start": 398.269,
+    "t_end": 404.899,
+    "text": "becomes smaller and smaller and smaller so for example 25% seems seems much"
+  },
+  {
+    "t_start": 404.899,
+    "t_end": 408.49,
+    "text": "smaller than 74 but for dimension 8 is actually a very big number"
+  },
+  {
+    "t_start": 408.49,
+    "t_end": 414.17,
+    "text": "and so this of course leaves us with many open questions so I was asked to"
+  },
+  {
+    "t_start": 414.17,
+    "t_end": 417.439,
+    "text": "many open questions so I was asked to give some open questions about open"
+  },
+  {
+    "t_start": 417.439,
+    "t_end": 421.58,
+    "text": "questions for the next 10 years and in mathematics usually people don't think"
+  },
+  {
+    "t_start": 421.58,
+    "t_end": 425.45,
+    "text": "in that timeframe so we usually give somehow questions for the next hundred"
+  },
+  {
+    "t_start": 425.45,
+    "t_end": 429.95,
+    "text": "somehow questions for the next hundred years or the next thousand years so I"
+  },
+  {
+    "t_start": 429.95,
+    "t_end": 433.879,
+    "text": "decided not to put too many questions here and ask only questions about sphere"
+  },
+  {
+    "t_start": 433.879,
+    "t_end": 436.52,
+    "text": "here and ask only questions about sphere packing so like one obvious question is"
+  },
+  {
+    "t_start": 436.52,
+    "t_end": 438.95,
+    "text": "packing so like one obvious question is so what are the exact values of the"
+  },
+  {
+    "t_start": 438.95,
+    "t_end": 440.51,
+    "text": "so what are the exact values of the spare packing constant in other"
+  },
+  {
+    "t_start": 440.51,
+    "t_end": 445.49,
+    "text": "dimensions so of course my beans in Surgeons in small dimensions for example"
+  },
+  {
+    "t_start": 445.49,
+    "t_end": 447.8,
+    "text": "Surgeons in small dimensions for example what happens for for what happens for"
+  },
+  {
+    "t_start": 447.8,
+    "t_end": 454.31,
+    "text": "five maybe that is still possible and will be doable in the next 10 years so"
+  },
+  {
+    "t_start": 454.31,
+    "t_end": 459.02,
+    "text": "will be doable in the next 10 years so the next question is so if we are going"
+  },
+  {
+    "t_start": 459.02,
+    "t_end": 463.61,
+    "text": "methods will be will we need and some of spare packing problem it has this very"
+  },
+  {
+    "t_start": 463.61,
+    "t_end": 466.58,
+    "text": "spare packing problem it has this very strange property that each dimension or"
+  },
+  {
+    "t_start": 466.58,
+    "t_end": 470.48,
+    "text": "strange property that each dimension or at least each small dimension it's very"
+  },
+  {
+    "t_start": 470.48,
+    "t_end": 472.64,
+    "text": "different from a previous one and it seems like each new dimension requires a"
+  },
+  {
+    "t_start": 472.64,
+    "t_end": 475.58,
+    "text": "seems like each new dimension requires a new method so it's very interesting to"
+  },
+  {
+    "t_start": 475.58,
+    "t_end": 482.18,
+    "text": "know what those methods will be and so but but other question which I also find"
+  },
+  {
+    "t_start": 482.18,
+    "t_end": 485.36,
+    "text": "but but other question which I also find very interesting so that what happens in"
+  },
+  {
+    "t_start": 485.36,
+    "t_end": 487.219,
+    "text": "very interesting so that what happens in big dimensions for example when"
+  },
+  {
+    "t_start": 487.219,
+    "t_end": 494.21,
+    "text": "dimensions up to 10 or maybe 20 be more or less no which configures we believe"
+  },
+  {
+    "t_start": 494.21,
+    "t_end": 495.83,
+    "text": "or less no which configures we believe what are the optimal configurations"
+  },
+  {
+    "t_start": 495.83,
+    "t_end": 498.71,
+    "text": "we've already found them and now it's only a matter of proving that they are"
+  },
+  {
+    "t_start": 498.71,
+    "t_end": 500.33,
+    "text": "only a matter of proving that they are the best on the other hand when"
+  },
+  {
+    "t_start": 500.33,
+    "t_end": 502.31,
+    "text": "the best on the other hand when dimensions become big it's not so"
+  },
+  {
+    "t_start": 502.31,
+    "t_end": 505.58,
+    "text": "dimensions become big it's not so obvious how to search for those optimal"
+  },
+  {
+    "t_start": 505.58,
+    "t_end": 507.62,
+    "text": "obvious how to search for those optimal packings or at least beautifully optimal"
+  },
+  {
+    "t_start": 507.62,
+    "t_end": 509.57,
+    "text": "packings or at least beautifully optimal packing so some computational methods"
+  },
+  {
+    "t_start": 509.57,
+    "t_end": 515.87,
+    "text": "would we need it here and then we can go even further so when dimensions become"
+  },
+  {
+    "t_start": 515.87,
+    "t_end": 520.519,
+    "text": "even further so when dimensions become very big so that using computers is just"
+  },
+  {
+    "t_start": 520.519,
+    "t_end": 524.18,
+    "text": "impossible if we have had known 100 million billion dimensions what would be"
+  },
+  {
+    "t_start": 524.18,
+    "t_end": 532.22,
+    "text": "million billion dimensions what would be the answer in that case so let's go come"
+  },
+  {
+    "t_start": 532.22,
+    "t_end": 534.25,
+    "text": "the answer in that case so let's go come back to these questions about in their"
+  },
+  {
+    "t_start": 534.25,
+    "t_end": 540.17,
+    "text": "turn so this is what we know about small dimensions so here are this blue line it"
+  },
+  {
+    "t_start": 540.17,
+    "t_end": 541.44,
+    "text": "dimensions so here are this blue line it represents the den"
+  },
+  {
+    "t_start": 541.44,
+    "t_end": 546.21,
+    "text": "cities of unknown configurations but in logarithmic scale because this number"
+  },
+  {
+    "t_start": 546.21,
+    "t_end": 553.47,
+    "text": "logarithmic scale because this number decays very very rapidly and so the red"
+  },
+  {
+    "t_start": 553.47,
+    "t_end": 557.91,
+    "text": "line those are the best upper bounds that which we know and so in dimensions"
+  },
+  {
+    "t_start": 557.91,
+    "t_end": 564.3,
+    "text": "that which we know and so in dimensions 2 n + 2 3 and the the best packing"
+  },
+  {
+    "t_start": 564.3,
+    "t_end": 566.52,
+    "text": "2 n + 2 3 and the the best packing problem was solved by geometric methods"
+  },
+  {
+    "t_start": 566.52,
+    "t_end": 572.4,
+    "text": "problem was solved by geometric methods so this packing problem which is somehow"
+  },
+  {
+    "t_start": 572.4,
+    "t_end": 575.01,
+    "text": "problem with infinitely many degree of freedom using some smart combinatorial"
+  },
+  {
+    "t_start": 575.01,
+    "t_end": 582.66,
+    "text": "methods this was reduced to a finite amount of the finite geometric problems"
+  },
+  {
+    "t_start": 582.66,
+    "t_end": 586.26,
+    "text": "amount of the finite geometric problems for example problems about maximal or"
+  },
+  {
+    "t_start": 586.26,
+    "t_end": 588.84,
+    "text": "for example problems about maximal or minimal volume of polytopes with certain"
+  },
+  {
+    "t_start": 588.84,
+    "t_end": 590.73,
+    "text": "minimal volume of polytopes with certain particular properties so this is how the"
+  },
+  {
+    "t_start": 590.73,
+    "t_end": 592.86,
+    "text": "particular properties so this is how the problem was solved in dimension - rather"
+  },
+  {
+    "t_start": 592.86,
+    "t_end": 597.36,
+    "text": "problem was solved in dimension - rather easily and also in dimension 3 by"
+  },
+  {
+    "t_start": 597.36,
+    "t_end": 600.93,
+    "text": "trommel's held by rather heavy computer-based method so the method"
+  },
+  {
+    "t_start": 600.93,
+    "t_end": 605.19,
+    "text": "which worked for dimensions 8 and 24 so here you see the threat red line it"
+  },
+  {
+    "t_start": 605.19,
+    "t_end": 607.98,
+    "text": "here you see the threat red line it actually represents the upper bound"
+  },
+  {
+    "t_start": 607.98,
+    "t_end": 609.57,
+    "text": "actually represents the upper bound which obtained from so-called linear"
+  },
+  {
+    "t_start": 609.57,
+    "t_end": 615.36,
+    "text": "programming and you can see that for in 8 and 24 somehow blue and red lines they"
+  },
+  {
+    "t_start": 615.36,
+    "t_end": 620.19,
+    "text": "8 and 24 somehow blue and red lines they beautifully meet and so on the other"
+  },
+  {
+    "t_start": 620.19,
+    "t_end": 623.55,
+    "text": "beautifully meet and so on the other hand for all for all other dimensions we"
+  },
+  {
+    "t_start": 623.55,
+    "t_end": 629.28,
+    "text": "hand for all for all other dimensions we see that there is quite quite a gap here"
+  },
+  {
+    "t_start": 629.28,
+    "t_end": 633.03,
+    "text": "should work so I think my one promising method is the semi definite programming"
+  },
+  {
+    "t_start": 633.03,
+    "t_end": 642.36,
+    "text": "and then maybe a next suspect for this is dimension 4 maybe this could work in"
+  },
+  {
+    "t_start": 642.36,
+    "t_end": 648.03,
+    "text": "dimension 4 so another interesting question is so in bigger dimensions so"
+  },
+  {
+    "t_start": 648.03,
+    "t_end": 649.56,
+    "text": "what what what kind of special properties would this optimal"
+  },
+  {
+    "t_start": 649.56,
+    "t_end": 655.47,
+    "text": "configurations have as I told you in all in all small dimensions the optimal"
+  },
+  {
+    "t_start": 655.47,
+    "t_end": 656.85,
+    "text": "in all small dimensions the optimal configurations they seem to be very"
+  },
+  {
+    "t_start": 656.85,
+    "t_end": 658.8,
+    "text": "configurations they seem to be very different when we change from dimension"
+  },
+  {
+    "t_start": 658.8,
+    "t_end": 663.27,
+    "text": "different when we change from dimension to dimension and for example in many"
+  },
+  {
+    "t_start": 663.27,
+    "t_end": 665.1,
+    "text": "small dimensions the best baking is always selected packing it's given by a"
+  },
+  {
+    "t_start": 665.1,
+    "t_end": 670.38,
+    "text": "lattice and so lettuce it's a kind of a configuration which has the maximal post"
+  },
+  {
+    "t_start": 670.38,
+    "t_end": 674.01,
+    "text": "configuration which has the maximal post possible translational symmetry so here"
+  },
+  {
+    "t_start": 674.01,
+    "t_end": 675.12,
+    "text": "possible translational symmetry so here you see a two-dimensional"
+  },
+  {
+    "t_start": 675.12,
+    "t_end": 680.19,
+    "text": "you see a two-dimensional example so we can have one point so here"
+  },
+  {
+    "t_start": 680.19,
+    "t_end": 685.29,
+    "text": "for example this point zero and we choose two vectors which are differences"
+  },
+  {
+    "t_start": 685.29,
+    "t_end": 692.37,
+    "text": "choose two vectors which are differences of two points in our configuration so"
+  },
+  {
+    "t_start": 692.37,
+    "t_end": 696.45,
+    "text": "now what we do well what the property which let us have now if you shift all"
+  },
+  {
+    "t_start": 696.45,
+    "t_end": 701.79,
+    "text": "whole configuration will not change and the same happens for this vector you"
+  },
+  {
+    "t_start": 701.79,
+    "t_end": 703.01,
+    "text": "the same happens for this vector you only have to imagine that your"
+  },
+  {
+    "t_start": 703.01,
+    "t_end": 704.85,
+    "text": "only have to imagine that your configurations are continuously"
+  },
+  {
+    "t_start": 704.85,
+    "t_end": 709.92,
+    "text": "periodically into all the all the directions and of course in big"
+  },
+  {
+    "t_start": 709.92,
+    "t_end": 711.66,
+    "text": "directions and of course in big dimensions it's very nice way to define"
+  },
+  {
+    "t_start": 711.66,
+    "t_end": 713.58,
+    "text": "dimensions it's very nice way to define a configuration because in n dimensional"
+  },
+  {
+    "t_start": 713.58,
+    "t_end": 717.36,
+    "text": "a configuration because in n dimensional space we would need only to define n"
+  },
+  {
+    "t_start": 717.36,
+    "t_end": 719.01,
+    "text": "vectors and this already gives our configuration so which is a good thing"
+  },
+  {
+    "t_start": 719.01,
+    "t_end": 724.26,
+    "text": "and the bad thing of course that it's a very strong geometric restriction so it"
+  },
+  {
+    "t_start": 724.26,
+    "t_end": 726.33,
+    "text": "very strong geometric restriction so it could be that by considering only such"
+  },
+  {
+    "t_start": 726.33,
+    "t_end": 728.4,
+    "text": "could be that by considering only such configuration we are still missing lot"
+  },
+  {
+    "t_start": 728.4,
+    "t_end": 732.48,
+    "text": "configuration we are still missing lot of possibilities so another entry"
+  },
+  {
+    "t_start": 732.48,
+    "t_end": 735.12,
+    "text": "of possibilities so another entry observationally from lone from lower"
+  },
+  {
+    "t_start": 735.12,
+    "t_end": 738.06,
+    "text": "observationally from lone from lower dimensions that those optimal"
+  },
+  {
+    "t_start": 738.06,
+    "t_end": 742.68,
+    "text": "configurations they often have some non-trivial rotational symmetries so"
+  },
+  {
+    "t_start": 742.68,
+    "t_end": 751.32,
+    "text": "this example here those are the Centers of disks in hexagonal packing so we see"
+  },
+  {
+    "t_start": 751.32,
+    "t_end": 752.7,
+    "text": "of disks in hexagonal packing so we see that here we can rotate this whole"
+  },
+  {
+    "t_start": 752.7,
+    "t_end": 755.07,
+    "text": "that here we can rotate this whole configuration by 60 degrees and vehicles"
+  },
+  {
+    "t_start": 755.07,
+    "t_end": 761.55,
+    "text": "also can reflect it by this line so another good example is for example each"
+  },
+  {
+    "t_start": 761.55,
+    "t_end": 762.75,
+    "text": "another good example is for example each lattice which is an optimal"
+  },
+  {
+    "t_start": 762.75,
+    "t_end": 765.21,
+    "text": "lattice which is an optimal configuration and dimension 24 so it's"
+  },
+  {
+    "t_start": 765.21,
+    "t_end": 767.31,
+    "text": "configuration and dimension 24 so it's rotational group of symmetries"
+  },
+  {
+    "t_start": 767.31,
+    "t_end": 773.82,
+    "text": "it's a Conway group which is a double cover of one of the sporadic simple"
+  },
+  {
+    "t_start": 773.82,
+    "t_end": 779.01,
+    "text": "cover of one of the sporadic simple groups so it's routes and non-tree very"
+  },
+  {
+    "t_start": 779.01,
+    "t_end": 782.22,
+    "text": "groups so it's routes and non-tree very very interesting mathematical object on"
+  },
+  {
+    "t_start": 782.22,
+    "t_end": 787.41,
+    "text": "very interesting mathematical object on its own and so of course the question is"
+  },
+  {
+    "t_start": 787.41,
+    "t_end": 789.3,
+    "text": "its own and so of course the question is so what were in big dimensions should we"
+  },
+  {
+    "t_start": 789.3,
+    "t_end": 791.25,
+    "text": "so what were in big dimensions should we expect also this kind of symmetries and"
+  },
+  {
+    "t_start": 791.25,
+    "t_end": 793.26,
+    "text": "expect also this kind of symmetries and big dimensions so what are the nice ways"
+  },
+  {
+    "t_start": 793.26,
+    "t_end": 798.57,
+    "text": "big dimensions so what are the nice ways to explode them and so another question"
+  },
+  {
+    "t_start": 798.57,
+    "t_end": 800.25,
+    "text": "to explode them and so another question which I find so very interesting so what"
+  },
+  {
+    "t_start": 800.25,
+    "t_end": 802.53,
+    "text": "which I find so very interesting so what happens in these very big dimensions and"
+  },
+  {
+    "t_start": 802.53,
+    "t_end": 808.05,
+    "text": "so what I want to tell you now is the one construction which universally works"
+  },
+  {
+    "t_start": 808.05,
+    "t_end": 808.43,
+    "text": "one construction which universally works in"
+  },
+  {
+    "t_start": 808.43,
+    "t_end": 813.71,
+    "text": "dimension and it is very simple so if we say that our packing is certain"
+  },
+  {
+    "t_start": 813.71,
+    "t_end": 817.3,
+    "text": "say that our packing is certain saturated if we cannot add if whatever"
+  },
+  {
+    "t_start": 817.3,
+    "t_end": 821.93,
+    "text": "saturated if we cannot add if whatever small that we are concerned difficult"
+  },
+  {
+    "t_start": 821.93,
+    "t_end": 824.27,
+    "text": "small that we are concerned difficult considering packings with balls of"
+  },
+  {
+    "t_start": 824.27,
+    "t_end": 829.52,
+    "text": "radius 1 and if whatever a new ball we want to add it will always intersect one"
+  },
+  {
+    "t_start": 829.52,
+    "t_end": 831.14,
+    "text": "want to add it will always intersect one of our previous balls if our"
+  },
+  {
+    "t_start": 831.14,
+    "t_end": 832.97,
+    "text": "of our previous balls if our configuration has this property then we"
+  },
+  {
+    "t_start": 832.97,
+    "t_end": 839.48,
+    "text": "configuration has this property then we say that it is saturated so nothing else"
+  },
+  {
+    "t_start": 839.48,
+    "t_end": 841.25,
+    "text": "can be added there and so now what I will show you in a moment that every"
+  },
+  {
+    "t_start": 841.25,
+    "t_end": 843.77,
+    "text": "will show you in a moment that every saturated packing it in dimension D it"
+  },
+  {
+    "t_start": 843.77,
+    "t_end": 849.41,
+    "text": "saturated packing it in dimension D it has a density at least two to the minus"
+  },
+  {
+    "t_start": 849.41,
+    "t_end": 851.72,
+    "text": "D and to see it it's very easy so we take our balls of radius one and now we"
+  },
+  {
+    "t_start": 851.72,
+    "t_end": 854.24,
+    "text": "take our balls of radius one and now we inflame them and instead of this balls"
+  },
+  {
+    "t_start": 854.24,
+    "t_end": 858.89,
+    "text": "inflame them and instead of this balls of radius one we will consider balls of"
+  },
+  {
+    "t_start": 858.89,
+    "t_end": 863.51,
+    "text": "so I also removed the border of my box because I'm a borders distort everything"
+  },
+  {
+    "t_start": 863.51,
+    "t_end": 867.68,
+    "text": "because I'm a borders distort everything but when our box is very big then borden"
+  },
+  {
+    "t_start": 867.68,
+    "t_end": 872.27,
+    "text": "volume of border is very small and we can neglect that and so now we see that"
+  },
+  {
+    "t_start": 872.27,
+    "t_end": 873.89,
+    "text": "somehow this property of our packing being saturated is actually equivalent"
+  },
+  {
+    "t_start": 873.89,
+    "t_end": 880.7,
+    "text": "to say that this bigger red health transparent balls have to cover all the"
+  },
+  {
+    "t_start": 880.7,
+    "t_end": 884.0,
+    "text": "transparent balls have to cover all the space and so the last observation we"
+  },
+  {
+    "t_start": 884.0,
+    "t_end": 893.18,
+    "text": "have to make is that the volume of her big balls is 2 to the minus D times the"
+  },
+  {
+    "t_start": 893.18,
+    "t_end": 895.49,
+    "text": "volume of a smaller balls and so this way we proved that density has to be at"
+  },
+  {
+    "t_start": 895.49,
+    "t_end": 897.62,
+    "text": "way we proved that density has to be at least 2 minus D so it's very simple it"
+  },
+  {
+    "t_start": 897.62,
+    "t_end": 900.95,
+    "text": "least 2 minus D so it's very simple it always works and somehow what I find"
+  },
+  {
+    "t_start": 900.95,
+    "t_end": 903.38,
+    "text": "always works and somehow what I find with embarrassing that it's actually the"
+  },
+  {
+    "t_start": 903.38,
+    "t_end": 910.43,
+    "text": "best we can do in very big dimensions or essentially the best so here's an so the"
+  },
+  {
+    "t_start": 910.43,
+    "t_end": 914.329,
+    "text": "essentially the best so here's an so the at the moment the best asymptotic bound"
+  },
+  {
+    "t_start": 914.329,
+    "t_end": 917.39,
+    "text": "is the bond which was proved by ascribing Kadesh and it tells that in"
+  },
+  {
+    "t_start": 917.39,
+    "t_end": 924.65,
+    "text": "ascribing Kadesh and it tells that in any so in every big dimension we would"
+  },
+  {
+    "t_start": 924.65,
+    "t_end": 928.88,
+    "text": "this density so we have some this rather big constant which somehow so for for"
+  },
+  {
+    "t_start": 928.88,
+    "t_end": 930.44,
+    "text": "big constant which somehow so for for small dimensions it can be smaller but"
+  },
+  {
+    "t_start": 930.44,
+    "t_end": 932.72,
+    "text": "small dimensions it can be smaller but for big dimensions it's about this"
+  },
+  {
+    "t_start": 932.72,
+    "t_end": 935.18,
+    "text": "for big dimensions it's about this number times the dimension and again"
+  },
+  {
+    "t_start": 935.18,
+    "t_end": 939.079,
+    "text": "number times the dimension and again times this factor of 2 to the minus D"
+  },
+  {
+    "t_start": 939.079,
+    "t_end": 940.73,
+    "text": "but the thing is that somehow this factor to the minus D"
+  },
+  {
+    "t_start": 940.73,
+    "t_end": 945.47,
+    "text": "factor to the minus D case much much faster than whatever this"
+  },
+  {
+    "t_start": 945.47,
+    "t_end": 949.16,
+    "text": "case much much faster than whatever this Perfector can compensate for and so also"
+  },
+  {
+    "t_start": 949.16,
+    "t_end": 954.139,
+    "text": "what he was able to do that in a sparse sequence of dimensions we still we could"
+  },
+  {
+    "t_start": 954.139,
+    "t_end": 957.079,
+    "text": "sequence of dimensions we still we could even have this like log log defector in"
+  },
+  {
+    "t_start": 957.079,
+    "t_end": 961.25,
+    "text": "even have this like log log defector in addition to this constant D so this is a"
+  },
+  {
+    "t_start": 961.25,
+    "t_end": 965.24,
+    "text": "but for very big deal certainly will be for example bigger than this constant"
+  },
+  {
+    "t_start": 965.24,
+    "t_end": 972.199,
+    "text": "and bigger than any number and so so what do we know on the other side on the"
+  },
+  {
+    "t_start": 972.199,
+    "t_end": 977.42,
+    "text": "what do we know on the other side on the other side we have a lower bound and"
+  },
+  {
+    "t_start": 977.42,
+    "t_end": 979.79,
+    "text": "this is a lower bound due to Abbott and secant Levenstein so they will they"
+  },
+  {
+    "t_start": 979.79,
+    "t_end": 984.23,
+    "text": "secant Levenstein so they will they again show that somehow the packing"
+  },
+  {
+    "t_start": 984.23,
+    "t_end": 986.449,
+    "text": "again show that somehow the packing constant it has to decay it has to decay"
+  },
+  {
+    "t_start": 986.449,
+    "t_end": 988.13,
+    "text": "constant it has to decay it has to decay exponentially something we already seen"
+  },
+  {
+    "t_start": 988.13,
+    "t_end": 994.55,
+    "text": "it has to be small but the rate at which it decays is not to the minus D is 2 to"
+  },
+  {
+    "t_start": 994.55,
+    "t_end": 996.769,
+    "text": "it decays is not to the minus D is 2 to the minus this constant so which is"
+  },
+  {
+    "t_start": 996.769,
+    "t_end": 999.019,
+    "text": "the minus this constant so which is numerically so this zero five nine nine"
+  },
+  {
+    "t_start": 999.019,
+    "t_end": 1004.21,
+    "text": "numerically so this zero five nine nine to the D so it means that this function"
+  },
+  {
+    "t_start": 1004.21,
+    "t_end": 1010.329,
+    "text": "one and so we have a very big gap here in big dimensions and so I'm not sure"
+  },
+  {
+    "t_start": 1010.329,
+    "t_end": 1015.34,
+    "text": "that this can be done in the next ten years but I hope that somebody will come"
+  },
+  {
+    "t_start": 1015.34,
+    "t_end": 1018.55,
+    "text": "years but I hope that somebody will come up with an idea how to move either of"
+  },
+  {
+    "t_start": 1018.55,
+    "t_end": 1021.24,
+    "text": "up with an idea how to move either of these bounds and I hope the small"
+  },
+  {
+    "t_start": 1021.24,
+    "t_end": 1023.26,
+    "text": "these bounds and I hope the small improvement will be not in this four"
+  },
+  {
+    "t_start": 1023.26,
+    "t_end": 1030.91,
+    "text": "factors and four in front of exponential but somehow inside of exponential and I"
+  },
+  {
+    "t_start": 1030.91,
+    "t_end": 1033.309,
+    "text": "bet that improvement will be on this side because I don't I think this is"
+  },
+  {
+    "t_start": 1033.309,
+    "t_end": 1037.329,
+    "text": "side because I don't I think this is that would been a much much nicer and so"
+  },
+  {
+    "t_start": 1037.329,
+    "t_end": 1040.809,
+    "text": "that would been a much much nicer and so my last slide so now what's beyond"
+  },
+  {
+    "t_start": 1040.809,
+    "t_end": 1041.679,
+    "text": "my last slide so now what's beyond sphere packings"
+  },
+  {
+    "t_start": 1041.679,
+    "t_end": 1046.51,
+    "text": "so all those methods in the ideas which we discussed for sphere packings"
+  },
+  {
+    "t_start": 1046.51,
+    "t_end": 1052.419,
+    "text": "they also work for a wider range of problems so this second problem is a"
+  },
+  {
+    "t_start": 1052.419,
+    "t_end": 1055.09,
+    "text": "problems so this second problem is a it's not isolated so one obvious thing"
+  },
+  {
+    "t_start": 1055.09,
+    "t_end": 1061.36,
+    "text": "so instead of packing balls we can pack any other kind of shapes another word is"
+  },
+  {
+    "t_start": 1061.36,
+    "t_end": 1064.24,
+    "text": "any other kind of shapes another word is or even instead of packing bodies we"
+  },
+  {
+    "t_start": 1064.24,
+    "t_end": 1066.21,
+    "text": "or even instead of packing bodies we could consider minimal energy"
+  },
+  {
+    "t_start": 1066.21,
+    "t_end": 1072.61,
+    "text": "configurations we could consider a number of points and assume that they"
+  },
+  {
+    "t_start": 1072.61,
+    "t_end": 1074.29,
+    "text": "number of points and assume that they interact with some potential"
+  },
+  {
+    "t_start": 1074.29,
+    "t_end": 1079.18,
+    "text": "configurations with minimal energy and many methods which we discussed before"
+  },
+  {
+    "t_start": 1079.18,
+    "t_end": 1085.72,
+    "text": "many methods which we discussed before they would also work for this type of"
+  },
+  {
+    "t_start": 1085.72,
+    "t_end": 1087.85,
+    "text": "problems and and another may be also exciting thing is that we can consider"
+  },
+  {
+    "t_start": 1087.85,
+    "t_end": 1090.4,
+    "text": "exciting thing is that we can consider spaces with different geometries so we"
+  },
+  {
+    "t_start": 1090.4,
+    "t_end": 1093.22,
+    "text": "spaces with different geometries so we don't have to stay always in Euclidean"
+  },
+  {
+    "t_start": 1093.22,
+    "t_end": 1095.08,
+    "text": "don't have to stay always in Euclidean space there are also many interesting"
+  },
+  {
+    "t_start": 1095.08,
+    "t_end": 1097.27,
+    "text": "space there are also many interesting problem problems which happens for"
+  },
+  {
+    "t_start": 1097.27,
+    "t_end": 1102.73,
+    "text": "example on a sphere or in a hyperbolic space or even in a discrete space like a"
+  },
+  {
+    "t_start": 1102.73,
+    "t_end": 1107.44,
+    "text": "space or even in a discrete space like a hemming space so space of all the race"
+  },
+  {
+    "t_start": 1107.44,
+    "t_end": 1111.42,
+    "text": "of zeros and ones where a distance would be somehow the number of differences and"
+  },
+  {
+    "t_start": 1111.42,
+    "t_end": 1114.46,
+    "text": "be somehow the number of differences and one actually smokes this problem it is"
+  },
+  {
+    "t_start": 1114.46,
+    "t_end": 1117.37,
+    "text": "one actually smokes this problem it is maybe most practical from all because it"
+  },
+  {
+    "t_start": 1117.37,
+    "t_end": 1120.04,
+    "text": "maybe most practical from all because it has applications to for example error"
+  },
+  {
+    "t_start": 1120.04,
+    "t_end": 1123.39,
+    "text": "has applications to for example error correcting codes and signal transmission"
+  },
+  {
+    "t_start": 1123.39,
+    "t_end": 1132.85,
+    "text": "correcting codes and signal transmission and so thank you very much thank you"
+  },
+  {
+    "t_start": 1135.86,
+    "t_end": 1145.25,
+    "text": "okay we have time for just a couple of questions over here curious about the"
+  },
+  {
+    "t_start": 1145.25,
+    "t_end": 1147.56,
+    "text": "questions over here curious about the case you just mentioned of other other"
+  },
+  {
+    "t_start": 1147.56,
+    "t_end": 1149.15,
+    "text": "case you just mentioned of other other than spheres so if you if you pack"
+  },
+  {
+    "t_start": 1149.15,
+    "t_end": 1151.19,
+    "text": "than spheres so if you if you pack compact hyperbolic spaces does it"
+  },
+  {
+    "t_start": 1151.19,
+    "t_end": 1159.07,
+    "text": "decrease this faster are there ways to fill in the gaps yeah more difficult to"
+  },
+  {
+    "t_start": 1159.07,
+    "t_end": 1161.66,
+    "text": "fill in the gaps yeah more difficult to yeah because of all this space itself"
+  },
+  {
+    "t_start": 1161.66,
+    "t_end": 1164.96,
+    "text": "yeah because of all this space itself it's like if you take a ball it's its"
+  },
+  {
+    "t_start": 1164.96,
+    "t_end": 1167.6,
+    "text": "it's like if you take a ball it's its volume it will not grow somehow like"
+  },
+  {
+    "t_start": 1167.6,
+    "t_end": 1172.97,
+    "text": "volume it will not grow somehow like polynomially it will grow exponentially"
+  },
+  {
+    "t_start": 1172.97,
+    "t_end": 1174.68,
+    "text": "but and here I don't know so so much what happens with different"
+  },
+  {
+    "t_start": 1174.68,
+    "t_end": 1178.66,
+    "text": "so so much what happens with different dimensions so here it could be even"
+  },
+  {
+    "t_start": 1178.66,
+    "t_end": 1182.77,
+    "text": "fixed dimension is already very much more difficult or much more interesting"
+  },
+  {
+    "t_start": 1182.77,
+    "t_end": 1187.91,
+    "text": "more difficult or much more interesting yes one more question in the in the"
+  },
+  {
+    "t_start": 1187.91,
+    "t_end": 1193.67,
+    "text": "string theory these dimensions come up quite naturally dimensions 8 and 24 with"
+  },
+  {
+    "t_start": 1193.67,
+    "t_end": 1194.93,
+    "text": "the e8 and the leech lattice there's another one which comes up also in"
+  },
+  {
+    "t_start": 1194.93,
+    "t_end": 1197.6,
+    "text": "another one which comes up also in string theory dimensions 16 this EA"
+  },
+  {
+    "t_start": 1197.6,
+    "t_end": 1201.41,
+    "text": "string theory dimensions 16 this EA times e 8 the best sphere packings 16"
+  },
+  {
+    "t_start": 1201.41,
+    "t_end": 1208.52,
+    "text": "is some but there is a better packing but I'm not completely I'm very - mudsy"
+  },
+  {
+    "t_start": 1208.52,
+    "t_end": 1212.78,
+    "text": "- one of those two are the ones which have here in string theory ok so here I"
+  },
+  {
+    "t_start": 1212.78,
+    "t_end": 1215.15,
+    "text": "have here in string theory ok so here I don't remember which one is better but I"
+  },
+  {
+    "t_start": 1215.15,
+    "t_end": 1217.13,
+    "text": "don't remember which one is better but I think somehow that this product of 2 8"
+  },
+  {
+    "t_start": 1217.13,
+    "t_end": 1221.24,
+    "text": "think somehow that this product of 2 8 and 8 it's not there is an example"
+  },
+  {
+    "t_start": 1221.24,
+    "t_end": 1226.88,
+    "text": "and 8 it's not there is an example better but I'm not completely sure can"
+  },
+  {
+    "t_start": 1226.88,
+    "t_end": 1228.41,
+    "text": "better but I'm not completely sure can you say just a word about what good"
+  },
+  {
+    "t_start": 1228.41,
+    "t_end": 1230.06,
+    "text": "you say just a word about what good packing is that aren't periodic look"
+  },
+  {
+    "t_start": 1230.06,
+    "t_end": 1237.29,
+    "text": "packing is that aren't periodic look like where's that George oh yes so for"
+  },
+  {
+    "t_start": 1237.29,
+    "t_end": 1238.88,
+    "text": "like where's that George oh yes so for in small dimension I think the first"
+  },
+  {
+    "t_start": 1238.88,
+    "t_end": 1240.89,
+    "text": "in small dimension I think the first example when this happens in is in"
+  },
+  {
+    "t_start": 1240.89,
+    "t_end": 1245.0,
+    "text": "dimension 10 and if you ask me for like a description what does this maybe I"
+  },
+  {
+    "t_start": 1245.0,
+    "t_end": 1248.48,
+    "text": "could give you a reference like I would because I don't remember by head what"
+  },
+  {
+    "t_start": 1248.48,
+    "t_end": 1251.18,
+    "text": "because I don't remember by head what what this configuration is but there is"
+  },
+  {
+    "t_start": 1251.18,
+    "t_end": 1257.09,
+    "text": "this a nice overview by Conan Sloan where they describe all the best Vikings"
+  },
+  {
+    "t_start": 1257.09,
+    "t_end": 1258.8,
+    "text": "where they describe all the best Vikings from dimensions I think actually up to"
+  },
+  {
+    "t_start": 1258.8,
+    "t_end": 1261.35,
+    "text": "from dimensions I think actually up to 10 and so 10 was the first dimension"
+  },
+  {
+    "t_start": 1261.35,
+    "t_end": 1264.89,
+    "text": "10 and so 10 was the first dimension whether were the this best density is"
+  },
+  {
+    "t_start": 1264.89,
+    "t_end": 1265.94,
+    "text": "whether were the this best density is not attained by"
+  },
+  {
+    "t_start": 1265.94,
+    "t_end": 1269.39,
+    "text": "any periodic configuration but of course like everything all the results here"
+  },
+  {
+    "t_start": 1269.39,
+    "t_end": 1271.64,
+    "text": "like everything all the results here they're more experimental because there"
+  },
+  {
+    "t_start": 1271.64,
+    "t_end": 1275.6,
+    "text": "they're more experimental because there is no proofs but they were very"
+  },
+  {
+    "t_start": 1275.6,
+    "t_end": 1283.01,
+    "text": "confident that those configurations actually the best ones yes one more"
+  },
+  {
+    "t_start": 1283.01,
+    "t_end": 1288.38,
+    "text": "um do you expect the Cornell Keys linear programming bung bound to be optimal in"
+  },
+  {
+    "t_start": 1288.38,
+    "t_end": 1290.11,
+    "text": "programming bung bound to be optimal in any other dimensions"
+  },
+  {
+    "t_start": 1290.11,
+    "t_end": 1296.18,
+    "text": "any other dimensions no tomorrow I I don't because some"
+  },
+  {
+    "t_start": 1296.18,
+    "t_end": 1298.25,
+    "text": "no tomorrow I I don't because some numeric switch we did it it looks like"
+  },
+  {
+    "t_start": 1298.25,
+    "t_end": 1304.1,
+    "text": "may be in some very big dimensions and they're so big that we somehow they even"
+  },
+  {
+    "t_start": 1304.1,
+    "t_end": 1306.47,
+    "text": "they're so big that we somehow they even don't know what the best what are the"
+  },
+  {
+    "t_start": 1306.47,
+    "t_end": 1308.3,
+    "text": "don't know what the best what are the good configurations there because in all"
+  },
+  {
+    "t_start": 1308.3,
+    "t_end": 1310.43,
+    "text": "good configurations there because in all small dimensions where we more or less"
+  },
+  {
+    "t_start": 1310.43,
+    "t_end": 1312.14,
+    "text": "small dimensions where we more or less know something about configurations it"
+  },
+  {
+    "t_start": 1312.14,
+    "t_end": 1317.93,
+    "text": "know something about configurations it seems like there is a very big yep okay"
+  },
+  {
+    "t_start": 1317.93,
+    "t_end": 1321.35,
+    "text": "seems like there is a very big yep okay I think we should move on now so let's"
+  },
+  {
+    "t_start": 1321.35,
+    "t_end": 1326.85,
+    "text": "I think we should move on now so let's thank yeah thank you"
+  }
+]

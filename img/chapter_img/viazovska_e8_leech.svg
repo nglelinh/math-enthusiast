@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="160" viewBox="0 0 560 160">
+  <rect width="560" height="160" fill="#fafbfc"/>
+  <text x="16" y="28" font-family="Georgia, serif" font-size="15" fill="#222">Exceptional lattices</text>
+  <rect x="40" y="55" width="200" height="70" rx="10" fill="#e8f1fb" stroke="#004586" stroke-width="2"/>
+  <text x="140" y="85" text-anchor="middle" font-size="16" fill="#004586">E₈ in ℝ⁸</text>
+  <text x="140" y="108" text-anchor="middle" font-size="12" fill="#666">Viazovska 2016</text>
+  <rect x="300" y="55" width="220" height="70" rx="10" fill="#e6f6ea" stroke="#1e7e34" stroke-width="2"/>
+  <text x="410" y="85" text-anchor="middle" font-size="16" fill="#1e7e34">Leech Λ₂₄ in ℝ²⁴</text>
+  <text x="410" y="108" text-anchor="middle" font-size="12" fill="#666">CKMRV collaboration</text>
+</svg>

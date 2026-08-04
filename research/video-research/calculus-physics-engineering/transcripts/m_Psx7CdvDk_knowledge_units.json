@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ku_video_m_Psx7CdvDk_2",
+    "t_start": 2.9,
+    "t_end": 98.1,
+    "type": "overview",
+    "summary": "This is going to be a super fun video. Gradient, divergence, and curl belong to Gradient, divergence, and curl belong to the world of vector calculus, which is a specialized subfield of multivariable calculus, and in order to understand them, we first need to build a solid foundation with four basic concepts: foundation with four basic concepts: scalars, vectors, scalar fields, and scalars, vectors, scalar fields, and vector fields. A scalar is simply a number. It has magnitude, but no direction. Examples of scalars are direction. Examples of scalars are temperature, mass, time, or height. …"
+  },
+  {
+    "id": "ku_video_m_Psx7CdvDk_98",
+    "t_start": 98.1,
+    "t_end": 192.4,
+    "type": "overview",
+    "summary": "A classic example is wind flow. At every coordinate in space, the wind has a speed and a direction. So, at one point, the wind might be blowing slowly toward the wind might be blowing slowly toward the northwest, while at another point, it might be blowing faster toward the southwest or northeast. The collection southwest or northeast. The collection of all these vectors distributed in of all these vectors distributed in space forms a vector field. Now, to space forms a vector field. Now, to describe scalar fields mathematically, we use scalar functions. A scalar function takes coordinates …"
+  },
+  {
+    "id": "ku_video_m_Psx7CdvDk_194",
+    "t_start": 194.4,
+    "t_end": 284.6,
+    "type": "overview",
+    "summary": "mathematically, we use vector functions. A vector function takes coordinates as A vector function takes coordinates as input and outputs a vector with input and outputs a vector with components in different directions. For components in different directions. For example, v of x {comma} y equals a column vector where the first entry is 2x and the second entry is y. point 1 {comma} 3, the output is a vector telling you to move two units to vector telling you to move two units to the right and three units up. At the point 3 {comma} 4, the output is a vector that tells you to move six a vector …"
+  },
+  {
+    "id": "ku_video_m_Psx7CdvDk_284",
+    "t_start": 284.6,
+    "t_end": 375.4,
+    "type": "overview",
+    "summary": "on a hill where the height depends on both your X and Y coordinates. Now, if you want to know how the slope of this hill changes as you walk of this hill changes as you walk strictly to the right, in positive X direction while keeping your Y position perfectly constant, that your Y position perfectly constant, that rate of change is the partial derivative rate of change is the partial derivative with respect to X. Similarly, if you want to know how the slope of this hill changes as you walk slope of this hill changes as you walk strictly to the north, in positive Y strictly to the north, in…"
+  },
+  {
+    "id": "ku_video_m_Psx7CdvDk_375",
+    "t_start": 375.4,
+    "t_end": 467.4,
+    "type": "overview",
+    "summary": "Now, the partial derivative of this function with respect to x is 2x. function with respect to x is 2x. This is because while taking a partial This is because while taking a partial derivative with respect to x, we treat y derivative with respect to x, we treat y as a constant and thus its derivative as a constant and thus its derivative becomes zero. Similarly, the partial becomes zero. Similarly, the partial derivative of this function with respect derivative of this function with respect to y is 2y. Now, to find the gradient, we apply the del operator, which gives us a vector del operato…"
+  },
+  {
+    "id": "ku_video_m_Psx7CdvDk_467",
+    "t_start": 467.4,
+    "t_end": 561.0,
+    "type": "overview",
+    "summary": "45 units. So, in 3D, it would look like the ball moved from this point to this the ball moved from this point to this point along the surface. Ultimately, if you place a ball on the surface, the gradient tells you which surface, the gradient tells you which direction you would have to push it to go uphill as fast as possible. Conversely, the ball would naturally roll in the exact opposite direction of the gradient to find the bottom of the the gradient to find the bottom of the pit. Now, let us move on to vector fields. When we try to apply the del operator When we try to apply the del oper…"
+  },
+  {
+    "id": "ku_video_m_Psx7CdvDk_561",
+    "t_start": 561.0,
+    "t_end": 655.2,
+    "type": "overview",
+    "summary": "It will give us divergence of this vector field. We get this plus this. vector field. We get this plus this. The partial derivative of X with respect The partial derivative of X with respect to X is 1, and the partial derivative of Y with respect to Y is also 1. When we add them together, we get a When we add them together, we get a constant divergence of two. Now, imagine placing a tiny square region in this flow and watching what region in this flow and watching what happens to particles inside that region. happens to particles inside that region. If more particles leave the region than e…"
+  },
+  {
+    "id": "ku_video_m_Psx7CdvDk_655",
+    "t_start": 655.2,
+    "t_end": 746.7,
+    "type": "overview",
+    "summary": "first entry is minus Y and the second entry is X. entry is X. On a graph, this vector field will look The partial derivative of minus Y with respect to X is zero and the partial derivative of X with respect to Y is also zero. So, the divergence is exactly also zero. So, the divergence is exactly zero. In this scenario, the fluid is simply rotating in a circle. If the number of particles entering the region number of particles entering the region equals the number leaving, the density stays the same and the divergence is zero. This tells us that even though the fluid is moving, it is not spr…"
+  },
+  {
+    "id": "ku_video_m_Psx7CdvDk_746",
+    "t_start": 746.7,
+    "t_end": 837.6,
+    "type": "overview",
+    "summary": "This corresponds to positive divergence. A negative electric charge produces an A negative electric charge produces an electric field that converges inward, electric field that converges inward, corresponding to negative divergence. corresponding to negative divergence. Now, let us move to our third and final Curl is obtained by taking the cross product of the del operator with a product of the del operator with a vector field. Unlike divergence, curl vector field. Unlike divergence, curl produces a vector field as its result. Curl measures rotation rather than spreading. To understand curl…"
+  },
+  {
+    "id": "ku_video_m_Psx7CdvDk_837",
+    "t_start": 837.6,
+    "t_end": 890.2,
+    "type": "overview",
+    "summary": "is 2, the flow will rotate the paddle wheel. The higher the curl value, the faster it will spin, which indicates a much will spin, which indicates a much stronger rotational force at that stronger rotational force at that specific point in the field. Conversely, specific point in the field. Conversely, if the curl value were minus 2, the paddle wheel would spin at the same speed, but in the opposite direction. If speed, but in the opposite direction. If the wheel does not spin, and only moves straight, then the curl is zero. So, curl tells us whether the field has a tendency to rotate aroun…"
+  }
+]

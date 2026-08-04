@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ku_video_QTrM-UVcgBY_0",
+    "t_start": 0.3,
+    "t_end": 90.7,
+    "type": "overview",
+    "summary": "JOHN HUNTON: Well, as far as I'm concerned, the important thing about five is that it's not three, four, or six. And three, four, or six are each numbers that have really special properties in relation to tiling the plane-- so creating repeating patterns of tiles. So I brought some props. And here they are squares. These are the sort of squares that we all put on our walls. And the pattern is very simple. And anyone can carry on putting down square tiles, and the pattern repeats itself on, and on, and on. You don't need instructions because you know how it continues. Now, suppose you want s…"
+  },
+  {
+    "id": "ku_video_QTrM-UVcgBY_90",
+    "t_start": 90.7,
+    "t_end": 181.6,
+    "type": "overview",
+    "summary": "So I can use this pattern again. I'll just draw over it. So there was a hexagon. You see this red. And I could have another hexagon. It would come in, and that one, and my third hexagon, and so. And I can continue to put hexagons down, as well. This is what the bees know. And all the bees have to know is where to put the next little cell of their honeycomb. So here's the question-- can we use 5-sided? So the answer is, no, we can't. five sides, equal sides, equal angles. So I might put the next one down here. And now you begin to see your problem. Because the bit I'd have to fill in around …"
+  },
+  {
+    "id": "ku_video_QTrM-UVcgBY_181",
+    "t_start": 181.6,
+    "t_end": 273.5,
+    "type": "overview",
+    "summary": "put in another polygon out here to match that one there-- I'd end up with only a little sliver, and I'd never get something in there. So you can't do 7-sided figures, 8-sided, 9-sided, whatever. The realization there were problems with pentagons goes back a very, very long way. Kepler knew that there were problems, and no doubt the ancient Greeks did, as well. The ancient Greeks had a lot of these interesting tiling patterns. Kepler made a real concerted effort to get interesting patterns using as small a number of different shapes as possible. And he had something that was pretty nice. It …"
+  },
+  {
+    "id": "ku_video_QTrM-UVcgBY_273",
+    "t_start": 273.5,
+    "t_end": 364.1,
+    "type": "overview",
+    "summary": "were a lot of different patterns that had this strange property of non-repeating and yet highly, highly structured. How do we know patterns like this never repeat themselves? That really depends on the rules that they're given by. So each one of these has to come with some kind of description as to how you make them. One of the most common ways in which patterns like this are found are by taking a very regular pattern, but in a much higher dimensional space, and then cutting through that space at an irrational angle. And the irrationality of the way you've cut it will mean that you'll never…"
+  },
+  {
+    "id": "ku_video_QTrM-UVcgBY_364",
+    "t_start": 364.1,
+    "t_end": 416.4,
+    "type": "overview",
+    "summary": "BRADY HARAN: Why had people not found it in nature before, if there's a natural tendency towards it? JOHN HUNTON: Well, this is a very interesting, perhaps philosophic, question about the nature of language. Because one good answer-- I do believe this is a good answer-- is we didn't see it, because we didn't look for it. I think the story to tell at this point is the way in which some years ago-- I think it was the 1930s-- material was found that, with hindsight, we realized was based on similar sort of non-repeating patterns. But we didn't have the mathematics, the pure mathematics-- the g…"
+  }
+]

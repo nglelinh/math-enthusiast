@@ -1,0 +1,762 @@
+[
+  {
+    "t_start": 0.5,
+    "t_end": 5.5,
+    "text": "I'm gonna try and capture, contain and investigate a higher dimensional sphere."
+  },
+  {
+    "t_start": 6.06,
+    "t_end": 13.28,
+    "text": "Starting with a circle. So, if we begin in 2D, you've come across circles before. They look, you know, roughly like that."
+  },
+  {
+    "t_start": 13.64,
+    "t_end": 15.28,
+    "text": "We're gonna try and"
+  },
+  {
+    "t_start": 15.42,
+    "t_end": 19.6,
+    "text": "contain a circle so we can look at how big it can be. So, what I'm gonna"
+  },
+  {
+    "t_start": 19.619,
+    "t_end": 24.149,
+    "text": "do is start with a box, four by four, for reasons I'll explain in a moment. So that's four units that way,"
+  },
+  {
+    "t_start": 24.15,
+    "t_end": 28.289,
+    "text": "it's four units that way. And now I'm going to put some safety padding spheres in there."
+  },
+  {
+    "t_start": 28.289,
+    "t_end": 33.749,
+    "text": "So if you kind of measure, if I was to actually split this into quarters, I'm gonna put safety spheres,"
+  },
+  {
+    "t_start": 33.87,
+    "t_end": 40.649,
+    "text": "well, they're, they're circles. I'm gonna call them spheres no matter what dimension they're in, right? So when I say sphere,"
+  },
+  {
+    "t_start": 40.649,
+    "t_end": 42.03,
+    "text": "I mean 2D sphere,"
+  },
+  {
+    "t_start": 42.03,
+    "t_end": 47.669,
+    "text": "it's a circle. So, I'm not very good at drawing circles, so, there, there'll be one there, and it just touches,"
+  },
+  {
+    "t_start": 47.67,
+    "t_end": 54.989,
+    "text": "it kisses all four sides of that box. There'll be one there, which just touches, or, so that just contacts"
+  },
+  {
+    "t_start": 55.629,
+    "t_end": 60.869,
+    "text": "that sphere, so that just contacts there, and that one just contacts there. And so"
+  },
+  {
+    "t_start": 60.869,
+    "t_end": 62.62,
+    "text": "Brady: \"You really are bad at drawing circles.\""
+  },
+  {
+    "t_start": 62.62,
+    "t_end": 64.62,
+    "text": "That's adequate, okay, that's,"
+  },
+  {
+    "t_start": 66.79,
+    "t_end": 68.79,
+    "text": "It'll do, it'll do. They're not overlapping"
+  },
+  {
+    "t_start": 68.79,
+    "t_end": 69.79,
+    "text": "Brady: \"Parker Circles.\""
+  },
+  {
+    "t_start": 69.79,
+    "t_end": 70.48,
+    "text": "That's a Par-"
+  },
+  {
+    "t_start": 71.11,
+    "t_end": 72.52,
+    "text": "So. Meanwhile."
+  },
+  {
+    "t_start": 72.52,
+    "t_end": 78.299,
+    "text": "So this is why I made the box four by four, because it means these are now unit spheres or unit circles."
+  },
+  {
+    "t_start": 78.67,
+    "t_end": 82.619,
+    "text": "So they all have a radius, that's one in that direction, one, they've all got one in every, every direction."
+  },
+  {
+    "t_start": 82.619,
+    "t_end": 84.749,
+    "text": "I'm now gonna see, what is the biggest"
+  },
+  {
+    "t_start": 85.479,
+    "t_end": 87.508,
+    "text": "circle I can fit in the middle."
+  },
+  {
+    "t_start": 88.06,
+    "t_end": 93.15,
+    "text": "So I've got my containing box, I've got my padding spheres, or circles,"
+  },
+  {
+    "t_start": 93.15,
+    "t_end": 97.919,
+    "text": "I've now got, this is the subject, this is the one we care about, and I'm now gonna try and fit the biggest"
+  },
+  {
+    "t_start": 98.02,
+    "t_end": 102.899,
+    "text": "circle possible in the middle. So, how big is that circle? Well, there's the very middle of our box."
+  },
+  {
+    "t_start": 103.689,
+    "t_end": 109.258,
+    "text": "Here is the center of this padding circle over here. We know that's one that way."
+  },
+  {
+    "t_start": 109.36,
+    "t_end": 113.579,
+    "text": "That's one that way. So what we have, if we zoom in a little bit, so that"
+  },
+  {
+    "t_start": 114.04,
+    "t_end": 119.79,
+    "text": "complete length there, that whole thing is root 2, and that there is one. So that little bit there is"
+  },
+  {
+    "t_start": 120.31,
+    "t_end": 122.31,
+    "text": "root 2 minus 1,"
+  },
+  {
+    "t_start": 122.59,
+    "t_end": 124.509,
+    "text": "which equals around about"
+  },
+  {
+    "t_start": 124.509,
+    "t_end": 131.969,
+    "text": "0.414. So that's the biggest circle we can fit in the middle in 2D. Onwards and upwards to 3D. For 3D"
+  },
+  {
+    "t_start": 131.97,
+    "t_end": 136.71,
+    "text": "we would have a cube with eight padding spheres, and so I've brought oranges."
+  },
+  {
+    "t_start": 137.26,
+    "t_end": 141.329,
+    "text": "These are the, the cheapest spheres I could find in the grocery store."
+  },
+  {
+    "t_start": 142.06,
+    "t_end": 144.9,
+    "text": "And, so that, that's the rough equivalent of what we had before."
+  },
+  {
+    "t_start": 145.28,
+    "t_end": 147.22,
+    "text": "You know what, I don't think they're gonna, I'm gonna tape them in place."
+  },
+  {
+    "t_start": 153.0,
+    "t_end": 157.5,
+    "text": "-kay, and those go on there. So I haven't got the"
+  },
+  {
+    "t_start": 158.02,
+    "t_end": 161.46,
+    "text": "containing box, but you can imagine that there is,"
+  },
+  {
+    "t_start": 162.04,
+    "t_end": 167.48,
+    "text": "the base is still four by four, that we had previously. That's four in every direction."
+  },
+  {
+    "t_start": 168.1,
+    "t_end": 172.44,
+    "text": "But now, as well as four by four, we'd have another length up here."
+  },
+  {
+    "t_start": 172.44,
+    "t_end": 177.42,
+    "text": "So we'd have another dimension this way, which is also four. And then here's the top of our four by four box,"
+  },
+  {
+    "t_start": 177.58,
+    "t_end": 179.58,
+    "text": "and we can fit twice as many"
+  },
+  {
+    "t_start": 179.89,
+    "t_end": 182.25,
+    "text": "spheres in as last time, so four spheres in"
+  },
+  {
+    "t_start": 182.92,
+    "t_end": 186.54,
+    "text": "2D, eight spheres in 3D. And you can see, again,"
+  },
+  {
+    "t_start": 186.54,
+    "t_end": 188.53,
+    "text": "there's a gap in the middle, right?"
+  },
+  {
+    "t_start": 188.53,
+    "t_end": 194.7,
+    "text": "So, inside our box, inside our padding spheres, in there is a void, and the question is, what is the biggest"
+  },
+  {
+    "t_start": 195.82,
+    "t_end": 197.82,
+    "text": "3D sphere"
+  },
+  {
+    "t_start": 197.82,
+    "t_end": 200.6,
+    "text": "that we can fit inside, inside there?"
+  },
+  {
+    "t_start": 201.22,
+    "t_end": 202.76,
+    "text": "Here are four adequate..."
+  },
+  {
+    "t_start": 203.74,
+    "t_end": 205.7,
+    "text": "...cir... ignore that. Okay, so,"
+  },
+  {
+    "t_start": 205.7,
+    "t_end": 207.46,
+    "text": "Brady: \"They've gone a bit beyond kissing?\""
+  },
+  {
+    "t_start": 207.46,
+    "t_end": 211.28,
+    "text": "They've gone, yeah, yeah, they're getting to know each other very well. And so, who am I to judge?"
+  },
+  {
+    "t_start": 211.76,
+    "t_end": 217.92,
+    "text": "So that is like the cross-section in here that lines up with the middle of the bottom layer of spheres."
+  },
+  {
+    "t_start": 217.99,
+    "t_end": 220.17,
+    "text": "So what we've done already is"
+  },
+  {
+    "t_start": 221.11,
+    "t_end": 222.97,
+    "text": "for the center point"
+  },
+  {
+    "t_start": 222.97,
+    "t_end": 228.149,
+    "text": "here in the middle, we know, from the middle of this one, it's one across to get there,"
+  },
+  {
+    "t_start": 228.15,
+    "t_end": 231.45,
+    "text": "it's one up to get there, and so that diagonal"
+  },
+  {
+    "t_start": 231.79,
+    "t_end": 237.239,
+    "text": "was root two. And then, before, we subtracted off the radius just to get the difference there."
+  },
+  {
+    "t_start": 237.24,
+    "t_end": 241.829,
+    "text": "But now, we want to, we need to go one, aren't we to go up, as well. And again,"
+  },
+  {
+    "t_start": 241.83,
+    "t_end": 248.219,
+    "text": "it's another quarter of the whole box. So we have to go up a single unit, and so we need to do Pythagoras with"
+  },
+  {
+    "t_start": 248.709,
+    "t_end": 255.539,
+    "text": "that, our base is now root two, and then our height is one. And so to work out what that is, root 2 squared is 2,"
+  },
+  {
+    "t_start": 255.54,
+    "t_end": 260.79,
+    "text": "one squared is one. That there is root three. And actually, Pythagoras"
+  },
+  {
+    "t_start": 261.91,
+    "t_end": 264.239,
+    "text": "generalizes to any number of dimensions."
+  },
+  {
+    "t_start": 264.25,
+    "t_end": 270.899,
+    "text": "It's just the square of all the different orthogonal directions, take the square, add them together, take the square root. Very straightforward."
+  },
+  {
+    "t_start": 270.9,
+    "t_end": 278.37,
+    "text": "So that's gonna make our lives very easy going forward. And once again, that diagonal, we want the difference between the radius of the sphere and"
+  },
+  {
+    "t_start": 278.77,
+    "t_end": 280.77,
+    "text": "what's left. And so our new"
+  },
+  {
+    "t_start": 281.46,
+    "t_end": 289.3,
+    "text": "radius of the biggest sphere we can fit in there is root 3 minus 1, which equals"
+  },
+  {
+    "t_start": 291.72,
+    "t_end": 294.54,
+    "text": "0.732 ... you know ... 05,"
+  },
+  {
+    "t_start": 295.2,
+    "t_end": 297.56,
+    "text": "some stuff, okay. So actually, it's slightly bigger."
+  },
+  {
+    "t_start": 298.0,
+    "t_end": 302.91,
+    "text": "And that kind of makes sense, because, you know, there's not much room there to fit a circle in. There's a little bit more space"
+  },
+  {
+    "t_start": 302.91,
+    "t_end": 304.0,
+    "text": "in there,"
+  },
+  {
+    "t_start": 304.0,
+    "t_end": 306.33,
+    "text": "because, you know, there are more directions you can go in."
+  },
+  {
+    "t_start": 306.73,
+    "t_end": 312.27,
+    "text": "The question now is what happens in, in 4D? What happens in 5D? If we keep going"
+  },
+  {
+    "t_start": 312.46,
+    "t_end": 315.6,
+    "text": "up and up and up and up and up, what's the maximum size?"
+  },
+  {
+    "t_start": 316.04,
+    "t_end": 322.66,
+    "text": "It's always four in every direction. The spheres are never getting any bigger. The packing spheres are always radius one."
+  },
+  {
+    "t_start": 324.46,
+    "t_end": 326.46,
+    "text": "The middle sphere is"
+  },
+  {
+    "t_start": 326.68,
+    "t_end": 328.24,
+    "text": "always"
+  },
+  {
+    "t_start": 328.24,
+    "t_end": 329.29,
+    "text": "inside"
+  },
+  {
+    "t_start": 329.29,
+    "t_end": 332.489,
+    "text": "the void left between the box, which isn't getting bigger,"
+  },
+  {
+    "t_start": 332.49,
+    "t_end": 337.92,
+    "text": "it's getting more directions within it, but it's not getting bigger lengths, and the spheres, which, again,"
+  },
+  {
+    "t_start": 337.92,
+    "t_end": 338.97,
+    "text": "they go in more directions,"
+  },
+  {
+    "t_start": 338.97,
+    "t_end": 344.999,
+    "text": "but they're not getting bigger. And a sphere is always, in any dimension, all the points which are the"
+  },
+  {
+    "t_start": 345.24,
+    "t_end": 348.48,
+    "text": "same distance from some central point, you just have more directions in which that can happen."
+  },
+  {
+    "t_start": 348.9,
+    "t_end": 351.68,
+    "text": "So this is the dimension D that"
+  },
+  {
+    "t_start": 351.69,
+    "t_end": 355.02,
+    "text": "we're currently working in, and this is the radius of the middle"
+  },
+  {
+    "t_start": 355.6,
+    "t_end": 357.1,
+    "text": "sphere in"
+  },
+  {
+    "t_start": 357.1,
+    "t_end": 358.14,
+    "text": "dimension D."
+  },
+  {
+    "t_start": 358.14,
+    "t_end": 364.919,
+    "text": "So, we've already done the first couple. We, in 2D, it was 0.4142,"
+  },
+  {
+    "t_start": 365.08,
+    "t_end": 369.929,
+    "text": "3D, which we just did, 0.7320,"
+  },
+  {
+    "t_start": 370.18,
+    "t_end": 378.179,
+    "text": "square of one, for the fourth direction, add them together, take the square root,"
+  },
+  {
+    "t_start": 378.18,
+    "t_end": 382.35,
+    "text": "which is 2! That's not so straightforward. So in fact, the radius of"
+  },
+  {
+    "t_start": 382.87,
+    "t_end": 385.109,
+    "text": "the central sphere in 4D is"
+  },
+  {
+    "t_start": 385.72,
+    "t_end": 386.52,
+    "text": "root 4,"
+  },
+  {
+    "t_start": 386.52,
+    "t_end": 390.2,
+    "text": "which is 2 minus 1, which is 1. So now, the middle sphere"
+  },
+  {
+    "t_start": 390.48,
+    "t_end": 397.68,
+    "text": "has exactly the same radius as the padding spheres around it. So there will be 16 padding spheres in 4D, and the single one"
+  },
+  {
+    "t_start": 397.68,
+    "t_end": 399.426,
+    "text": "in the middle is exactly the same size."
+  },
+  {
+    "t_start": 399.426,
+    "t_end": 400.32,
+    "text": "Brady: \"That's awesome!\""
+  },
+  {
+    "t_start": 400.32,
+    "t_end": 402.56,
+    "text": "It's pretty, it's pretty cool. 4D, lovely stuff happens."
+  },
+  {
+    "t_start": 403.919,
+    "t_end": 406.549,
+    "text": "5D - let's see what happens. You have now got"
+  },
+  {
+    "t_start": 406.68,
+    "t_end": 413.84,
+    "text": "32 padding spheres, the box is 4 in all of 5 different directions, and the middle one has a radius of 1.2360,"
+  },
+  {
+    "t_start": 414.14,
+    "t_end": 419.22,
+    "text": "so now it's bigger. The middle one is is bigger than the other ones around it. That's odd."
+  },
+  {
+    "t_start": 419.449,
+    "t_end": 422.029,
+    "text": "Let's keep going. In 6 dimensions,"
+  },
+  {
+    "t_start": 422.16,
+    "t_end": 427.939,
+    "text": "it is 1.4494 bunch of stuff, a little bit bigger again,"
+  },
+  {
+    "t_start": 427.94,
+    "t_end": 433.92,
+    "text": "but hopefully slowing down. 7 dimensions, 1.6457."
+  },
+  {
+    "t_start": 434.46,
+    "t_end": 438.02,
+    "text": "8 dimensions, 1.8284."
+  },
+  {
+    "t_start": 438.6,
+    "t_end": 441.38,
+    "text": "9 dimensions, it's 2."
+  },
+  {
+    "t_start": 442.06,
+    "t_end": 446.06,
+    "text": "So, in 9D, the middle sphere"
+  },
+  {
+    "t_start": 447.27,
+    "t_end": 449.27,
+    "text": "has the same radius as"
+  },
+  {
+    "t_start": 449.58,
+    "t_end": 456.83,
+    "text": "the distance from its center to the outside of the containing box. So in 9D, the middle sphere has just"
+  },
+  {
+    "t_start": 457.35,
+    "t_end": 458.37,
+    "text": "contacted"
+  },
+  {
+    "t_start": 458.37,
+    "t_end": 460.37,
+    "text": "the outer"
+  },
+  {
+    "t_start": 460.47,
+    "t_end": 465.829,
+    "text": "surface of the box. It's, it's somehow got past the padding spheres, which are all over it,"
+  },
+  {
+    "t_start": 465.9,
+    "t_end": 469.4,
+    "text": "it's got through them, even though it's limited"
+  },
+  {
+    "t_start": 469.7,
+    "t_end": 471.92,
+    "text": "by them, like, they, they define how big it is."
+  },
+  {
+    "t_start": 471.92,
+    "t_end": 473.34,
+    "text": "Brady: \"It's not allowed to touch them.\""
+  },
+  {
+    "t_start": 473.66,
+    "t_end": 477.52,
+    "text": "It's not, it kisses them, it's not going through them. Somehow,"
+  },
+  {
+    "t_start": 477.98,
+    "t_end": 480.88,
+    "text": "it's big enough that it's contacting the box without"
+  },
+  {
+    "t_start": 481.59,
+    "t_end": 483.859,
+    "text": "going through the spheres touching it."
+  },
+  {
+    "t_start": 484.2,
+    "t_end": 490.039,
+    "text": "An in 10D, slightly disturbingly, it escapes the box completely. It's now 2.162."
+  },
+  {
+    "t_start": 490.199,
+    "t_end": 497.899,
+    "text": "So, as of ten dimensions, and indeed ten dimensions onwards, it is bigger than the original box which was containing it."
+  },
+  {
+    "t_start": 497.9,
+    "t_end": 502.04,
+    "text": "I mean, the short moral of the story is that higher dimensional spheres are really weird."
+  },
+  {
+    "t_start": 502.52,
+    "t_end": 503.84,
+    "text": "And difficult to contain."
+  },
+  {
+    "t_start": 504.32,
+    "t_end": 507.1,
+    "text": "Brady: \"How are you reconciling this in your head? How does it make sense to you?\""
+  },
+  {
+    "t_start": 507.1,
+    "t_end": 507.6,
+    "text": "Ah!"
+  },
+  {
+    "t_start": 507.74,
+    "t_end": 510.78,
+    "text": "There, there's a trick you can use in mathematics called not worrying about it."
+  },
+  {
+    "t_start": 511.16,
+    "t_end": 512.56,
+    "text": "Everything we have learnt"
+  },
+  {
+    "t_start": 513.14,
+    "t_end": 514.66,
+    "text": "no longer really works."
+  },
+  {
+    "t_start": 514.669,
+    "t_end": 521.809,
+    "text": "And so, people who do have to come to grips with higher dimensional spheres will describe them as being spiky."
+  },
+  {
+    "t_start": 522.3,
+    "t_end": 524.7,
+    "text": "Higher dimensional spheres are spiky."
+  },
+  {
+    "t_start": 525.02,
+    "t_end": 527.86,
+    "text": "There's some of those spikes are making it out of the box."
+  },
+  {
+    "t_start": 527.86,
+    "t_end": 531.22,
+    "text": "Brady: \"Like that ship that Superman went up in in the original Superman movie?\""
+  },
+  {
+    "t_start": 531.22,
+    "t_end": 533.76,
+    "text": "That, I mean, I was trying to think of a good example"
+  },
+  {
+    "t_start": 533.779,
+    "t_end": 538.219,
+    "text": "which everyone will be able to, you know, really connect with. And I think you've nailed it with that"
+  },
+  {
+    "t_start": 538.889,
+    "t_end": 539.94,
+    "text": "70s?"
+  },
+  {
+    "t_start": 539.94,
+    "t_end": 544.48,
+    "text": "Superman reference, if I remember the film? Well, good job, good job."
+  },
+  {
+    "t_start": 544.84,
+    "t_end": 547.32,
+    "text": "I can see how you're the master of bringing science to the masses, Brady."
+  },
+  {
+    "t_start": 547.32,
+    "t_end": 548.8,
+    "text": "Brady: \"I'm gonna put the picture on the screen!\""
+  },
+  {
+    "t_start": 548.8,
+    "t_end": 551.06,
+    "text": "Okay, you put the picture on the screen. Good point, good point."
+  },
+  {
+    "t_start": 551.06,
+    "t_end": 555.109,
+    "text": "No, yeah, so, so imagine that, imagine your favorite film with a spiky thing in it. It's a bit like that."
+  },
+  {
+    "t_start": 555.93,
+    "t_end": 560.69,
+    "text": "And so, people don't get hung up on that. So you just go, higher dimensional spheres are spiky."
+  },
+  {
+    "t_start": 561.269,
+    "t_end": 567.289,
+    "text": "And our word \"spiky\" is not perfect, but in some way it grasps what's going on in higher dimensions."
+  },
+  {
+    "t_start": 567.289,
+    "t_end": 571.44,
+    "text": "It just turns out, the more dimensionss the sphere is in, the pointier it gets."
+  },
+  {
+    "t_start": 573.28,
+    "t_end": 576.92,
+    "text": "Well, somewhat appropriately, this video about fitting circles and spheres"
+  },
+  {
+    "t_start": 577.23,
+    "t_end": 581.089,
+    "text": "into a square space has been brought to you by Squarespace."
+  },
+  {
+    "t_start": 581.82,
+    "t_end": 589.459,
+    "text": "Squarespace is the ultimate online service for creating and managing websites. I use it myself for various projects, including blogs,"
+  },
+  {
+    "t_start": 590.22,
+    "t_end": 597.4,
+    "text": "calculator unboxings, of course, and podcasts. If you've got a bright idea, something you want to share with the world, maybe a website all about"
+  },
+  {
+    "t_start": 597.48,
+    "t_end": 602.0,
+    "text": "spiky spherical objects in movies, then you really need to be checking out Squarespace."
+  },
+  {
+    "t_start": 602.0,
+    "t_end": 609.709,
+    "text": "They make everything easy, from choosing a domain, picking a great template to get started, and making sure your site looks good on all devices."
+  },
+  {
+    "t_start": 610.14,
+    "t_end": 612.14,
+    "text": "You can try before you buy,"
+  },
+  {
+    "t_start": 612.149,
+    "t_end": 617.419,
+    "text": "setting up a site for free, just to make sure it's as good as I'm saying. You want to go to squarespace.com"
+  },
+  {
+    "t_start": 618.39,
+    "t_end": 625.64,
+    "text": "slash numberphile, and that's gonna get you 10% off your first domain or website. There's the address up there,"
+  },
+  {
+    "t_start": 626.25,
+    "t_end": 627.93,
+    "text": "squarespace.com"
+  },
+  {
+    "t_start": 627.93,
+    "t_end": 629.93,
+    "text": "slash numberphile."
+  }
+]

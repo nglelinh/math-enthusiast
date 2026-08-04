@@ -1,0 +1,71 @@
+Introduced in 1971, P versus NP asked, "Can a set of problems that can be
+easily solved also be a set of problems that could be easily checked?" Now, more
+that could be easily checked?" Now, more than 50 years later, the world is still
+than 50 years later, the world is still trying to solve it. 12 years ago, CACM
+trying to solve it. 12 years ago, CACM premiered an article highlighting the
+premiered an article highlighting the theory's current day limitations. And
+theory's current day limitations. And while we continue to make dramatic
+while we continue to make dramatic progress in computing, the world asks,
+progress in computing, the world asks, "Is it still possible?" Join us as we
+speak with Lance Fortnow at Illinois Institute of Technology as we discuss 50
+Institute of Technology as we discuss 50 years of P versus NP and the possibility
+Well, starting to write this new article, I was thinking I could just try
+article, I was thinking I could just try to update, you know, what are the
+changes in the last um dozen or so years since the last article appeared. But I
+since the last article appeared. But I realized, you know, not much has changed
+realized, you know, not much has changed on the P and NP side. But I realized
+what has changed. What's changed is computing itself.
+And then I thought about, well, let's think about P versus NP in that new
+think about P versus NP in that new light.
+I mean, the the problem hasn't changed, but the way we do computing has
+versus NP, what does it mean in this new world? I thought it'd be an interesting
+world? I thought it'd be an interesting different way to look at the P versus NP
+writes how we are now heading towards a world he calls Optiland due to today's
+world he calls Optiland due to today's rapid computational advancements.
+to realize that the power of tools like machine learning really are coming into
+machine learning really are coming into play. A lot of the things that we would
+hope to do with P equals NP, we really could do today. Maybe P versus NP is not
+the barrier that we thought it to be, but actually a way to sort of think
+but actually a way to sort of think about what might be possible.
+While P equals NP has yet to be solved, the effect that humans have on
+the effect that humans have on computational problem solving has
+computational problem solving has overwhelmingly changed.
+to see what I think is the um death of expertise. I think expertise helps us
+expertise. I think expertise helps us get learning started,
+get us going in a to learn a certain domain, but at a certain point the
+domain, but at a certain point the computer just kind of does it on its
+computer just kind of does it on its own. We don't use linguistics to do
+own. We don't use linguistics to do language translation.
+It's it's done by examples, lots of examples, that the computer figures it
+examples, that the computer figures it out.
+Well, P versus NP began as a way to characterize difficult problems to solve
+characterize difficult problems to solve computationally. We now view the problem
+computationally. We now view the problem as a way to chart the future
+The way you can kind of think of it is, you know, imagine a world of P equals
+you know, imagine a world of P equals NP. What kinds of problems can we solve
+NP. What kinds of problems can we solve if P equals NP? How could we use that to
+say make big advances in health, for example? And normally we think of that
+thing to do is just let's not think of it as a barrier. Let's think about it
+it as a barrier. Let's think about it suppose we could do that, and then let's
+suppose we could do that, and then let's apply tools like some of the
+apply tools like some of the optimization techniques we have, machine
+learning if you can find the data or you can simulate the data, and then just try
+to do your best and solve them, because maybe things we thought that were
+maybe things we thought that were impossible to solve really seem to be
+impossible to solve really seem to be we're making these breakthroughs.
+Whether or not P will ever be found to equal NP, the consensus remains, the
+equal NP, the consensus remains, the future may still be limitless.
+I think it was really neat writing this article to see how P versus NP fits into
+article to see how P versus NP fits into this
+incredibly changing world we're in. It's very exciting world we're
+It's amazing time, it's a scary time, because we don't know what these things
+because we don't know what these things are going to do and where it's going to
+are going to do and where it's going to take us.
+take us. Uh
+but I shouldn't be too scared. I think there's just a lot of excitement coming
+there's just a lot of excitement coming out. A lot of a lot of new things are
+going to happen. Um
+uh it's a just a very very amazing time. Find out more in 50 years of P versus NP
+Find out more in 50 years of P versus NP and the possibility of the impossible, a
+and the possibility of the impossible, a contributed article in the January 2022
+contributed article in the January 2022 Communications of the ACM.

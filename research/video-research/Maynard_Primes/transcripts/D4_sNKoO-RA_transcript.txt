@@ -1,0 +1,402 @@
+BRADY HARAN: The last video here on "Numberphile" was all
+about gaps between prime numbers.
+Specifically, it was about this paper, which is a proof
+that's just been published.
+And what it basically says is no matter how high you go in
+the number line, no matter how high you count, there is
+always a pair of numbers still to come with a gap of less
+than 70 million.
+What that exact number is, it doesn't quite say.
+70 million sounds like a really big number.
+But when you think how big numbers can get and how rare
+prime numbers become as you get higher and higher, it's
+pretty close.
+But what's really exciting is that a lot of people are
+saying this paper is taking us a step closer to proving the
+twin prime conjecture.
+And what that says is that there are an infinite number
+of prime numbers separated by just two.
+So that means no matter how high you count, when you get
+to a googolplex or Graham's number or well beyond, there
+is still an infinite number of prime numbers ahead of you
+that are separated by just two.
+And when you get that high, prime numbers become
+incredibly rare.
+So to think that all these pairings are still out there
+is quite an extraordinary thought.
+Now, this proof is 56 pages long, and it's probably beyond
+most people.
+But we did make a video about it, and I hope you've watched
+that already.
+And if you did, there was few off takes and a few extra bits
+and pieces from that video that we didn't use that I've
+now put into this video.
+So have a watch of that, and then I'll tell you what I
+think this paper at the end.
+ED COPELAND: I love it.
+I get excited about everything, but I've always
+loved numbers.
+And just look at the magnitude of the kind of things.
+How on earth does someone come up with that
+these are the primes?
+They're the largest twin pair primes.
+And who knows what the significance of these will be?
+I love it just for the sake of mathematics and the numbers.
+And I'm full of admiration for people that can this.
+When I was 18, I had a decision to make, whether to
+do physics or whether to do mathematics.
+And I went the physics route, and I'm very happy I did.
+But if I'd have gone through the mathematics route, this is
+the kind of thing I would have loved to do.
+But I'm not sure I'm good enough.
+Ones that differ by two are called twin primes.
+You also get, of course, ones that differ by four.
+These are called cousin primes.
+And there's even those that differ by six.
+And these are called sexy primes.
+TONY PADILLA: Now, in principle, it's believed
+It's believed there's an infinite number of these
+cousin primes.
+It's believed there's an infinite number
+of these sexy primes.
+In fact, it's believed that there is an infinite number of
+each possible even gap between the primes.
+But it's not been proven.
+So what we have here is a pair of primes.
+And they differ by 2n.
+What Zhang has shown is that there are an infinite number
+of prime numbers where this difference does
+not exceed 70 million.
+There are an infinity of these guys.
+What's even more remarkable, actually, about the proof that
+Zhang came up with is that it didn't actually do anything
+completely different.
+It was really just application of existing ideas but just
+perseverance.
+And that's quite unusual.
+Sometimes when something hasn't been proven for a very,
+very long time, it really need some sort of order and
+magnitude shift in the way people think.
+But this didn't happen here.
+He just really stuck at it, perhaps more than others had.
+It's a pretty impressive proof.
+There's no doubt about it.
+Here it is--
+56 pages of it.
+So 70 million--
+I was talking about potentially the googolplex,
+Graham's number, these kind of crazy numbers.
+But even then, there's gaps of only 70 million.
+So it's a tiny number in that context.
+But actually, of course, it's a lot bigger
+than 2 or 4 or 6--
+it is believed that the methods that Zhang used could
+be optimized even more.
+And you could get this number down to 16.
+That's what's anticipated here.
+So that would be pretty impressive.
+If there's an infinite number of prime numbers that are
+separated by only 16 numbers, that would be really
+impressive.
+BRADY HARAN: But not 2.
+They don't reckon he can get it to 2.
+TONY PADILLA: It's not anticipated that these methods
+would actually get it down to 2.
+16 is the odds.
+And it's related to the fact that a lot of what Zhang did
+was based on work of these guys--
+Goldston, Pintz, and Yildirim.
+And they almost got there.
+What they proved--
+well, they proved a couple of things.
+One thing that they proved was that--
+so you have this average gap of log n.
+So that's the average gap of between prime numbers.
+So for example, if n is a googolplex, this average gap
+is around the google, is of that order anyway.
+So now the question is, what did Goldston, Pintz and
+Yildirim show?
+They showed that you take any fraction, any
+so I take some large n and you take any fraction you
+want of this gap--
+and I could prove that the gap between primes is less than.
+So I take some fraction, let me call it epsilon.
+So any epsilon greater than zero.
+GPY showed that there exists--
+so I'm going to show you a little bit of mathematical
+symbol here, that there exists.
+That means there exists, that backward e.
+There exists prime pairs separated by less than epsilon
+log n for larger N. So you might think,
+so what is he showing?
+And this is any epsilon.
+This just falls short of proving the conjecture.
+Now, why does it just fall short?
+Well, in principal, I could just take n bigger and bigger
+and bigger and bigger.
+If n's finite, then OK that's fine.
+But n can be infinite here. n can really get big.
+So that's not enough, because it just falls short of proving
+the conjecture, because we're talking big n here.
+And n, essentially, you want to tend n to infinity
+ultimately to prove that there are an infinite number of
+these pairs.
+You can take this fraction to be arbitrarily small.
+But the thing it's multiplying is getting arbitrarily big.
+So it's not clear that this overall size is actually
+getting smaller and smaller, can stay small,
+can even stay finite.
+It may even become infinite.
+So they fell just short of proving the conjecture.
+BRADY HARAN: Our hero of the day today has also fallen
+short of proving the big conjecture.
+TONY PADILLA: He least proved that there was a finite gap,
+that ultimately there is a finite gap.
+And there's an infinite number of these guys with finite gap.
+So what GPY did show-- and this is where
+the 16 comes in--
+is they showed that if something called the
+Elliott-Halberstam conjecture, and we don't know it's true.
+It's expected to be true, but they don't know it's true.
+Then there are an infinite number of prime numbers which
+differ by less than 16.
+So this is where the 16 comes in.
+BRADY HARAN: Just to go back to our hero of today, what is
+it about his proof that makes 70 million seem such an
+arbitrary number, and yet it's such a perfect round number?
+TONY PADILLA: So when people do number theory, how do they
+actually go about doing these proofs?
+They tend to use sieve theory.
+Now, the simplest version of a sieve theory comes back from
+ancient Greece, a guy called Aristophanes.
+ED COPELAND: He wanted to work out what all the primes were,
+so he began by just writing out all the numbers.
+So he begins with 2, because you know one is not
+defined as a prime.
+So he begins with 2, 3, 4.
+And I'll do 31 and 32.
+And it goes on and on, of course.
+And what he said is you begin at 2.
+That's going to be your first number.
+And cross out every number that's divisible by 2.
+BRADY HARAN: Why?
+ED COPELAND: Because that can't be a prime.
+A prime is defined as a number that's divisible only by
+itself, possibly by 1, but 1 doesn't count usually.
+We begin with 2.
+So 4 across all the even numbers now--
+immediately wipe out.
+I'm sieving.
+They're falling through the sieve.
+That's exactly what's going on.
+And so I've got rid of that.
+So now you move to 3, which is the next one by itself.
+And you do the same thing.
+Well, 6 already has been ruled out.
+But 9 goes.
+12 is already gone.
+15 goes, 27 goes, 30 is gone.
+4 is already gone.
+5 is the next one.
+So then you start going through.
+Anything divisible by 5 is removed.
+So 10 is already gone.
+25 hasn't gone yet, but has now.
+What you're now left with actually are all the primes.
+If I just label the ones that I left, you've got 11, 13, 17,
+19, 23, 29, 31.
+I've got all the primes up to 31.
+And this is the technique that you can use to actually sieve
+This would give me all the primes.
+If I had enough computing power and enough time and I
+could do it faster, I would get all the primes just by
+writing out this series and just doing it.
+ED COPELAND: And all infinity of it.
+It took me a long, long time, an infinite amount of time.
+But I could do it.
+BRADY HARAN: Do you know how long it would take you?
+ED COPELAND: Infinite amount of time.
+So we haven't got that.
+The funding agencies won't fund us for that kind of--
+BRADY HARAN: We don't have an infinite amount of time.
+We've got another 26 minutes.
+ED COPELAND: What people have done is they've refined this
+sieve in such a way that it's not as accurate as this.
+So maybe you think of it as a bit more coarse-grained sieve.
+And so more things will fall through.
+But what you are left with, rather than having these fine
+primes immediately left, what you're left with are groups of
+numbers with which you improve your chances
+of finding the primes.
+So you have some idea of the kind of values of numbers
+you're looking for.
+You develop your sieve accordingly.
+And then all the other stuff comes through, and you're left
+with this range of numbers, within which you hope you're
+going to find these big primes.
+Just look at the sizes that we're talking about.
+And so these modified sieves are used by mathematicians to
+try and establish these bounded sets.
+And the work of Zhang has been based on some earlier work by
+a group of mathematicians who almost got there to find this
+bound, but couldn't quite make it.
+And what he did is he basically modified the sieve
+that he was using, which meant he had just a slightly
+different way of getting the bigger prime numbers.
+And from it, he was able to demonstrate that indeed there
+is a bound just based on the type of sieve he was using.
+And this bound turned out to be 70 million
+that he came up with.
+BRADY HARAN: So 70 million is an artifact of the sieve that
+he arbitrarily chose.
+ED COPELAND: There are two things.
+There's a sieve and then there's something which I just
+can't get my head around called the level of
+distribution which tells you how the prime numbers, how
+regular they become when you're looking on for very
+large values.
+And it was this combination that he used and out of it,
+which no one else had been able to do.
+And there is a nice aspect to this story, which is
+a, he's over 50.
+And no one had knew about him.
+He works at the University of New Hampshire.
+He'd obviously been working away, which means you can do
+great math over 50.
+You're not totally burnt out.
+And b, he wasn't that he came up with some phenomenally new
+breakthrough.
+He just kept plugging away at the techniques people have
+been doing.
+And just by doing that he was able to modify them
+sufficiently to make this.
+And he sent it to the journal in April.
+And the journal editor, to their credit--
+mathematics journals must be inundated with people saying
+they've solved these problems, because the problems are so
+easy to say.
+There's an infinite number of primes who differ by two.
+I remember trying to prove this at school, thinking that
+can't be that difficult.
+BRADY HARAN: The "Numberphile" inbox is
+inundated with people claiming--
+ED COPELAND: I'm sure it is.
+So to their credit, the editors of the journal
+realized this guy knew what he was talking about.
+Apparently, the paper was beautifully
+written, crystal clear.
+And they fast-tracked it through
+the refereeing process.
+They must have some way of putting it on a conveyor belt
+that sends it to the referees who all unanimously said this
+is potentially really important.
+TONY PADILLA: I scanned the proof, but I went online and
+found some really nice explanations, because one
+thing that happened is he gave a talk at Harvard.
+And it was extremely well-received.
+And people were very excited about it.
+Everybody loves prime numbers.
+So there were people coming from different
+fields to see this talk.
+But what people have done is some people who were at that
+talk have put some really nice explanations online of what
+the proof involved.
+So those I find particularly useful, because they were
+written by people who weren't number theorists.
+And I'm not a number theorist, so that was very useful to me.
+Incidentally, there's a nice little quirk of fate which
+happened while that talk was going on, in that a paper came
+online while that talk was going on, which actually
+proved another one of these crazy conjectures.
+And it was the Goldbach conjecture, at least a
+weakened version of the Goldbach conjecture.
+So the original Goldbach conjecture, which is one of
+the great problems of mathematics--
+you get one of these Millennium prizes
+if you solve it--
+is that to prove that every even number can be written as
+the sum of two primes.
+So the weakened version this guy proved that came out while
+Zhang was giving his talk was that every odd number greater
+than five can be written as the sum of three primes.
+So he proved there is a slightly weakened version of
+the original conjecture.
+There's been two really big events within number theory
+coming together at the same time.
+And the implications for this in terms of--
+now that there's new ideas coming in, there's even hope
+that maybe one could solve the Riemann hypothesis.
+So the Riemann hypothesis states that there's a
+particular function called the Riemann function, which I can
+write down quite straightforwardly.
+It has the form z through zed is the sum of n of one over n
+to the zed.
+The Riemann hypothesis asks where are the
+zeros of this function.
+It seems what he says is that they all lie
+I'm thinking, where are they in the complex plane?
+They all lie on the line with real number one half.
+Not obvious--
+it's a hypothesis.
+Great minds have failed to prove this time and time and
+time again.
+And one thing that is hoped is that now might be progress to
+proving this.
+So all these things together, this kind of hope that's
+there's going to be real progress now.
+Incidentally, we used this Riemann zeta function in
+quantum field theory as well.
+So this has applications beyond just number theory.
+BRADY HARAN: You're a physicist, not a
+mathematician.
+Does this excite you when you read about this and see this?
+TONY PADILLA: I think everybody loves prime numbers.
+I think you can't fail to love prime numbers.
+I think the great thing--
+I was thinking about this because I knew you'd ask me
+that, Brady--
+the thing about prime numbers that I think fascinates
+anybody who's interested in math, physics, that kind of
+thing is that they seemingly lack some sort of structure.
+We like to think that we understand nature, that things
+ultimately will adhere to some sort of structure and we could
+make sense of that.
+Thus far, prime numbers seem to sort of evade that
+possibility.
+They seem to just be so higgeldy-piggeldy.
+What is the structure that underpins prime numbers?
+And these sort of conjectures are sort of going some way
+towards giving prime numbers these elusive things that have
+thus far refused to come on to the grip of our trying to make
+sense to them and to apply structure to them.
+These sort of conjectures, improving them is heading some
+way to doing that.
+And that's why it's sort of like, is it an almost final
+frontier of our understanding in some way?
+We're making sense of something--
+everybody can understand why three is a prime number, a
+five is a prime number.
+And it's something that's familiar to you.
+And yet seemingly we understand so little about it.
+That's the fascination.
+BRADY HARAN: Do you know what else a prime number is?
+TONY PADILLA: What?
+BRADY HARAN: 19.
+Stewart Downing.
+TONY PADILLA: He's has a good second half of the season,
+Stewart Downing.
+BRADY HARAN: Was he a good signing?
+TONY PADILLA: I don't want to say definitely yet.
+He had a good second half of the season.
+I will say that.
+He's improved.
+BRADY HARAN: So this paper by Yitang Zhang, which is, by all
+accounts, an extraordinary piece of work.
+It's well beyond my capabilities.
+But I did note it's 56 pages long.
+And I think the typesetters have missed
+an opportunity here.
+If they just made the point size a bit bigger or put a bit
+more spacing in there, they could have got it to 59 pages.
+And that's a twin prime.
+You know that's what I would have done.

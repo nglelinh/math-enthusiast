@@ -1,0 +1,111 @@
+hello everyone welcome back to wrath of
+math I'm your host Sean Ian's in today's
+video we will be proving that there are
+an infinite amount of prime numbers
+seems like a super important result so
+you would think that it might be kind of
+challenging to prove because it's such a
+fantastic and fundamental result but it
+is not it's very easy and it's very cool
+so let's get right into it proving that
+there are infinite prime numbers and as
+usual I'm not going to write out the
+whole proof formally I will just walk
+you through it and if you're looking to
+write the proof formally these lessons
+should give you a perfectly good idea of
+how to do so so for starters we're going
+to assume the opposite of what we're
+trying to prove is true so we're going
+to assume that there are a finite number
+of primes so we're assuming there's a
+finite number we'll say n of primes that
+means there are n Prime's some finite
+number so let's take the product of all
+those Prime's P sub 1 multiplied by P
+sub 2 multiplied by P sub 3 all the way
+up to multiplying by P sub n the nth
+prime which based on our assumption that
+there's n Prime's
+is our last prime so we are multiplying
+all Prime's together I'll put a little
+multiplication symbol there too we're
+going to take this number and add 1 to
+it and we're going to say that this
+number is equal to P so P is equal to
+the product of all of our primes some
+finite number n of primes plus 1 so now
+notice that PN is our largest prime
+right it's our last prime we also know
+that P is bigger than any of the Prime's
+because it's the product of all of them
+plus 1 so it's absolutely bigger than
+every single prime number that we have
+therefore by the fundamental theorem of
+arithmetic it must be divisible by at
+least one of our Prime's so we can say
+that some prime P sub M divides our
+number P however we see that no matter
+what prime number we divide P by we will
+have a remainder of 1 no matter what
+because P is defined by being a multiple
+of every single prime plus 1 so it's one
+more than a multiple of any prime number
+so P is equal to P sub M times some
+integer K
+plus one therefore this prime number
+piece of M doesn't divide P which is a
+contradiction and therefore our original
+assumption that there's a finite number
+of primes must be false
+therefore there are an infinite number
+of primes
+so just to walk you through that one
+more time we suppose for the sake of
+contradiction there's a finite number n
+of primes we let some number P be the
+product of all N Prime's plus 1 then we
+know that P is bigger than all of our
+prime numbers because it's the product
+of all of them
+with an additional one added to boot so
+we know it's bigger than all of them
+therefore by the fundamental theorem of
+arithmetic which says that every number
+either is prime or can be uniquely
+factored into Prime's we know that at
+least one of our prime numbers has to
+divide P however because of how we
+defined P we know that P is one greater
+than a multiple of any single one of our
+Prime's therefore by definition of
+divides P sub m does not divide P
+because P is equal to one greater than a
+multiple of any prime that we have and
+that's a contradiction because we have
+both P sub M divides P and P is one
+greater than a multiple of P sub M which
+means the piece of m does not divide P
+that's our contradiction which lets us
+know that our initial assumption has to
+be false and therefore the opposite is
+true
+and that's how you prove that there's an
+infinite number of primes there's tons
+of ways to do it this is just one of the
+ways you can I'll probably show a few
+others as time goes forward let me know
+in the comments if you have any
+questions about the video I think it's a
+little bit of a wordy proof to explain
+so I hope you understood it but let me
+know if you need anything clarified or
+if you have any other video requests
+thank you very much for watching I'll
+see you next time and be sure to
+subscribe to the swankiest math videos
+on the internet
+all the way up here dear won't you
+please come to you live it up here
+there's a light where I found that
+erases it makes

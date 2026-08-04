@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ku_video_Cvs8iRqG6lg_2",
+    "t_start": 2.8,
+    "t_end": 92.9,
+    "type": "overview",
+    "summary": "if a surface is bounded by two circles one on top of the other what is the one on top of the other what is the configuration that gives the least surface area this question belongs to a class of problems known as plate problem class of problems known as plate problem which asks for any given boundary what which asks for any given boundary what is the surface with that boundary that has the least surface area the solution is called a minimal surface because it is called a minimal surface because it has minimal surface area this might just be a fun maths problem to play around but animal surf…"
+  },
+  {
+    "id": "ku_video_Cvs8iRqG6lg_92",
+    "t_start": 92.9,
+    "t_end": 188.5,
+    "type": "overview",
+    "summary": "configuration of the soap film and we want to figure out how a particular Point evolves to do that we consider the forces acting on an infinitesimally small piece of the surface close to the point generally surface tension will try point generally surface tension will try to pull this piece of surface outwards pulling the piece towards other parts of the surface it turns out that the force the surface it turns out that the force acting on a very small piece of the boundary say with length DL has a magnitude to gamma multiplied by the length where gamma is the surface tension a constant that…"
+  },
+  {
+    "id": "ku_video_Cvs8iRqG6lg_188",
+    "t_start": 188.5,
+    "t_end": 278.9,
+    "type": "overview",
+    "summary": "boundary t with length DL so T is a unit Vector that just encodes the direction Vector that just encodes the direction so f is perpendicular to both t and n so f is perpendicular to both t and n and because t and n are also and because t and n are also perpendicular to each other the direction is given by the cross product of t and n combined with the magnitude of t and n combined with the magnitude we found previously we see that the we found previously we see that the Force Vector f is 2 gamma * T CR n Force Vector f is 2 gamma * T CR n DL but this is just for a very small DL but this is …"
+  },
+  {
+    "id": "ku_video_Cvs8iRqG6lg_278",
+    "t_start": 278.9,
+    "t_end": 374.5,
+    "type": "overview",
+    "summary": "small piece of the surface to compute the limit so we will focus on the net the limit so we will focus on the net force first and divide by area later we force first and divide by area later we can separate the vector n into a sum of can separate the vector n into a sum of two vectors n not and Delta n where n two vectors n not and Delta n where n not is the normal Vector in the middle not is the normal Vector in the middle of that piece of the surface and the Delta n would be the difference between the normal Vector at the boundary and that in the middle the reason we want to separate is t…"
+  },
+  {
+    "id": "ku_video_Cvs8iRqG6lg_374",
+    "t_start": 374.5,
+    "t_end": 468.0,
+    "type": "overview",
+    "summary": "area goes to zero we are okay with only using an approximation of the integral so how do we approximate this integral the trick is to realize that both T and the trick is to realize that both T and Delta n can be close ly approximated to Delta n can be close ly approximated to lie on the tangent plane at the Red Dot lie on the tangent plane at the Red Dot for the vector T it is a bit more is so small that even if we project onto the tangent Lane T hasn't changed much the tangent Lane T hasn't changed much and in fact the same in this and in fact the same in this illustration What about Delt…"
+  },
+  {
+    "id": "ku_video_Cvs8iRqG6lg_467",
+    "t_start": 468.0,
+    "t_end": 558.2,
+    "type": "overview",
+    "summary": "small piece of the surface can now be projected entirely flat on this tangent projected entirely flat on this tangent plane and the vector T * DL will be a Delta n is just some Vector on the plane the magnitude of the cross product would the magnitude of the cross product would be the product of the lengths of these angle between the vectors equivalently if we Define a vector B perpendicular to if we Define a vector B perpendicular to this boundary then because the angle between Delta n and B is now Pi / 2 minus Theta we can rewrite the magnitude minus Theta we can rewrite the magnitude as …"
+  },
+  {
+    "id": "ku_video_Cvs8iRqG6lg_558",
+    "t_start": 558.2,
+    "t_end": 652.6,
+    "type": "overview",
+    "summary": "integral B do Delta n the dot product itself can be viewed as the flux from itself can be viewed as the flux from Delta N Out of the small piece of the Delta N Out of the small piece of the boundary the integral wants us to add up all the flux contributions along the boundary so the integral is the total flux of Delta n across the boundary ultimately we want to compute the limit of this integral per area when the area tends to zero which is almost the area tends to zero which is almost exactly the definition of exactly the definition of Divergence or you can use the Divergence this this Div…"
+  },
+  {
+    "id": "ku_video_Cvs8iRqG6lg_652",
+    "t_start": 652.6,
+    "t_end": 746.3,
+    "type": "overview",
+    "summary": "Direction n not and the magnitude is proportional to the mean curvature the proportional to the mean curvature the soap film evolves under this pressure soap film evolves under this pressure this calculation only considers the this calculation only considers the surface tension in general you might surface tension in general you might have to consider something like have to consider something like atmospheric pressure however in the case atmospheric pressure however in the case of soap films both surfaces face the air so the air pressure from both sides cancel and this is really all the pre…"
+  },
+  {
+    "id": "ku_video_Cvs8iRqG6lg_746",
+    "t_start": 746.3,
+    "t_end": 837.1,
+    "type": "overview",
+    "summary": "decreases on the other hand let's say the surface looks like this instead in the surface looks like this instead in which case the neighboring normal which case the neighboring normal vectors Point into each other and towards and not so the Divergence of Delta n which generally points back Delta n which generally points back towards the origin is negative so the towards the origin is negative so the mean curvature being half of that is negative but the negative sign suggest that the pressure points in the same direction as n so the pressure vectors also Point into each other other again als…"
+  },
+  {
+    "id": "ku_video_Cvs8iRqG6lg_837",
+    "t_start": 837.1,
+    "t_end": 932.8,
+    "type": "overview",
+    "summary": "the position Vector X to be negative beta hn for some positive constant beta beta hn for some positive constant beta such an evolution is named hyperbolic mean curvature flow and seems to be how soap films actually behave however there soap films actually behave however there are physical systems where it is the are physical systems where it is the velocity that is proportional to mean velocity that is proportional to mean curvature which leads to the first curvature which leads to the first derivative being negative beta hn derivative being negative beta hn instead and the resulting evolut…"
+  },
+  {
+    "id": "ku_video_Cvs8iRqG6lg_932",
+    "t_start": 932.8,
+    "t_end": 1024.3,
+    "type": "overview",
+    "summary": "there can be singularities being formed in this case the soap film pinches off surfaces the conditions for existence of such singularities are a hot topic of such singularities are a hot topic of research on the mathematical side of things even on the physical side of things there is still plenty of research things there is still plenty of research into exactly how this instability into exactly how this instability arises perhaps a bit more surprisingly arises perhaps a bit more surprisingly this procedure is also useful in this procedure is also useful in computer Graphics if we choose the…"
+  },
+  {
+    "id": "ku_video_Cvs8iRqG6lg_1024",
+    "t_start": 1024.3,
+    "t_end": 1045.7,
+    "type": "overview",
+    "summary": "richness of this subject it might be surprising to know that actually there surprising to know that actually there is some kind of general formula for is some kind of general formula for minimal Services something that we will minimal Services something that we will explore in the next video as always explore in the next video as always thanks to these patrons and don't forget thanks to these patrons and don't forget to like subscribe and comment see you"
+  }
+]

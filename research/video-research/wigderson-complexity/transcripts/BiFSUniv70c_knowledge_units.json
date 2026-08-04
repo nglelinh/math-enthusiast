@@ -1,0 +1,331 @@
+[
+  {
+    "id": "ku_video_BiFSUniv70c_27",
+    "t_start": 27.4,
+    "t_end": 67.8,
+    "type": "overview",
+    "summary": "you yeah yeah that's right you too how you been [Music] I let you get ready for call"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_124",
+    "t_start": 124.8,
+    "t_end": 216.2,
+    "type": "overview",
+    "summary": "maybe the okay I guess I'll get started be a minute early so give the speaker more time so yeah it's my pleasure to uh welcome you all to the eecs colloquium today uh and it's a privilege to really introduce a speaker who really needs uh no introduction at all uh but I'll and he's also asked me to keep it brief so he has more time for the talk but let me quickly say uh that AI vidron uh is is a quickly say uh that AI vidron uh is is a legend in the field of theoretical legend in the field of theoretical computer science uh he is uh the Herbert Mass professor at the school of mathematics at …"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_216",
+    "t_start": 216.2,
+    "t_end": 307.2,
+    "type": "overview",
+    "summary": "have ai uh speak uh today and I'll also mention that beyond all his distinguish mention that beyond all his distinguish thing one of the amazing things he's thing one of the amazing things he's extremely approachable and uh his legacy extremely approachable and uh his legacy touches uh so many postdocs who have gone through his group at the IAS in Princeton and uh so it's a real pleasure Princeton and uh so it's a real pleasure to introduce Al and he will tell us to introduce Al and he will tell us today about Alan turing's works coming it's always a pleasure to be here and so uh what I wan…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_307",
+    "t_start": 307.2,
+    "t_end": 399.5,
+    "type": "overview",
+    "summary": "I'm sure you all know I want talk only about his work this is more or less his about his work this is more or less his academic CV where he spent time during his career and I more or less tell you about one and I more or less tell you about one paper from uh each period I could have paper from uh each period I could have given a 3our talk a 5 hour talk but I restrict this to one hour talk uh that plenty of stuff I'm not going to mention plenty of stuff I'm not going to mention I'm not going to mention any practical work and he did a lot of course he buil computers and he wrote about buildin…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_399",
+    "t_start": 399.5,
+    "t_end": 491.3,
+    "type": "overview",
+    "summary": "by the paper you all know but I want to so about this paper I'll talk about it so about this paper I'll talk about it and I'll talk about things I thought and some work that we in the field did following it or inspired by it or or following it or inspired by it or or things he would have love to know I think so this is a famous paper on computable numbers the with application computable numbers the with application to the child problem easily the most written um he did it when he was a fellow in Cambridge fellow he was just fellow in Cambridge fellow he was just finishing his undergrad but …"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_491",
+    "t_start": 491.3,
+    "t_end": 585.0,
+    "type": "overview",
+    "summary": "Newman who looked at this and says just a few weeks ago I got a paper from U a few weeks ago I got a paper from U alono church in Princeton who proved the alono church in Princeton who proved the same theorem on decidability uh but nevertheless as a good Mentor and Max Newman was a mentor good Mentor and Max Newman was a mentor to during all his life really he did two to during all his life really he did two things the first was right to the editor things the first was right to the editor of the London Mass Society saying yes of the London Mass Society saying yes this result is known was pr…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_585",
+    "t_start": 585.0,
+    "t_end": 676.1,
+    "type": "overview",
+    "summary": "up with what we are familiar with completely different than them this very completely different than them this very Elementary primitive device which we Elementary primitive device which we today call a touring machine suggesting today call a touring machine suggesting that this is this is it this is computation now G and church saw this and immediately agreed they said T's and immediately agreed they said T's definition is the right model in fact definition is the right model in fact the name t machine was SP by church and uh what you need to do when you introduce such a you know a formal …"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_676",
+    "t_start": 676.1,
+    "t_end": 768.7,
+    "type": "overview",
+    "summary": "compute is doable on his machine then he shows that a large bunch of things that shows that a large bunch of things that you might want to compute like the you might want to compute like the digits of pi and E and various other digits of pi and E and various other constant V functions and so on it gives device and uh finally the third type of argument is that this equivalent to argument is that this equivalent to other Notions proposed in fact the two other Notions proposed in fact the two Notions uh once he realized that CH Notions uh once he realized that CH wrote this paper and he found …"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_768",
+    "t_start": 768.7,
+    "t_end": 861.4,
+    "type": "overview",
+    "summary": "ones uh we have a complexity zo of complexity classes we quantify all sorts complexity classes we quantify all sorts of resources in all sorts of ped the theorem is that there is this problem mathematical problem the housing problem mathematical problem the housing problem that cannot be solv by a computer in ter you know lemman term it says that debugging programs is impossible to solve by computers I love the way Christ Papa Demetrius talks the way Christ Papa Demetrius talks about it he say that computer science as a field was born aware of its limitations not everything can be done limi…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_861",
+    "t_start": 861.4,
+    "t_end": 951.9,
+    "type": "overview",
+    "summary": "problems in mathematics cannot be solved by computers so they particular they can by computers so they particular they can be no complete Theory explaining them be no complete Theory explaining them characterizing them and much later it took many years uh to prove that basic problem in number Theory like solving problem in number Theory like solving polinomial equations in integers cannot polinomial equations in integers cannot be done by computers and all of these are are done by reductions to the Hing problem so they are done by designing algorithms and of course there are algorithms also…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_951",
+    "t_start": 951.9,
+    "t_end": 1042.9,
+    "type": "overview",
+    "summary": "thing you can run machines on the universal machine and therefore you can universal machine and therefore you can simulate uh them and then you can diagonalize against them as we all know the proof sure and uh this proof technique is became a major proof technique for the became a major proof technique for the field simulation and diagonalization this is a way that we first prove result in computational complexity in the same paper as M St showed that more time buys you more computation power more space buys you more computation power exactly using his more computation power exactly using h…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_1042",
+    "t_start": 1042.9,
+    "t_end": 1135.3,
+    "type": "overview",
+    "summary": "where does nondeterminism come from as a basic notion in in the field and uh the basic notion in in the field and uh the way you learn I learned it and many other is that there the famous the ren SC paper on AATA and they Define this SC paper on AATA and they Define this notion but actually if you look at J's notion but actually if you look at J's paper uh it tells you in this paper uh paper uh it tells you in this paper uh the S the paper is going to talk about where every move is determined uniquely by the current configuration but it says by the current configuration but it says that it'…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_1135",
+    "t_start": 1135.3,
+    "t_end": 1229.9,
+    "type": "overview",
+    "summary": "finite algorithms or verified by finite algorithm so it Prov that the two are the Same by the hting problem and what we are you know major motivating force of our field is the analog for uh efficient our field is the analog for uh efficient algorithm that's a polinomial Time algorithm uh the first paper defining NP Cooks paper famous paper is actually boring from touring the title is actually the complexity of C improving actually the complexity of C improving uh procedures of course one thing I I believe T would have loved to see is that how far we have loved to see is that how far we have…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_1229",
+    "t_start": 1229.9,
+    "t_end": 1325.1,
+    "type": "overview",
+    "summary": "told you and uh um went to work with the chair there were many other people doing chair there were many other people doing uh computability issues although he uh computability issues although he didn't talk to many he was he didn't prin but he was a CI there he was a g student he was there two years old student he was there two years old the C is called the systems of logic the C is called the systems of logic based on ordinance and I'll tell you one thing from the CI that many of you are from the CI that many of you are familiar with he invented another fundamental notion that we are uh li…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_1325",
+    "t_start": 1325.1,
+    "t_end": 1417.6,
+    "type": "overview",
+    "summary": "distinct this proof is of course again using T technique of simulation polinomial time analog of these classes were also defined as the polinomial time were also defined as the polinomial time hierarchy but here we don't have any hierarchy but here we don't have any separation we don't know that any of so they are defined by oracles but oracles come in in another surprising way in as an excuse for understanding why we cannot prove this so why why is why we cannot prove this so why why is it that I told you about this time hierarchy this te technique of twing simulation diation works why can…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_1417",
+    "t_start": 1417.6,
+    "t_end": 1509.3,
+    "type": "overview",
+    "summary": "the field into this uh uh I guess contemplative uh State of Mind where you contemplative uh State of Mind where you inspect your own introspective uh inspect your uh limitation when you cannot do your uh limitation when you cannot do something try to explain it that we call something try to explain it that we call barrier result so this was the first barrier result so this was the first barrier results and now many others in barrier results and now many others in the field they usually not only Supply the field they usually not only Supply excuses but maybe provide ways to go excuses but ma…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_1509",
+    "t_start": 1509.3,
+    "t_end": 1600.3,
+    "type": "overview",
+    "summary": "war there were 400 at the end of the war and they were sinking uh you know these and they were sinking uh you know these Convoy ships right and left was a Convoy ships right and left was a real major major thing the cracking of real major major thing the cracking of the Enigma was by T his friends was contribution to story in World War II no less so people know this story and they less so people know this story and they know that the I know you can represent know that the I know you can represent it as the competition between two it as the competition between two machines the Enigma machine…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_1600",
+    "t_start": 1600.3,
+    "t_end": 1694.4,
+    "type": "overview",
+    "summary": "foundational to improving the efficiency so I'll tell you about his work in these information theory in the field and I would like to put papers of touring but would like to put papers of touring but there are none he wrote there are none he wrote several you know lecture notes and various notes uh but never Lish them of course most the main secret is the '90s course most the main secret is the '90s but luckily good J good who worked with but luckily good J good who worked with him in hot eight wrote papers on this so I'll tell you about this two Notions work of evidence and population freq…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_1694",
+    "t_start": 1694.4,
+    "t_end": 1789.3,
+    "type": "overview",
+    "summary": "the most basic problem in statistics you have a sample of uh n items I samples from some Distribution unnown on some alphabet okay so you uh and and you ask suppose you look at par item which appears K times in the sample what probability do you believe it has in the distribution and you would all say and I distribution and you would all say and I would say k over of course end of story but that's not the answer it's not the answer because it's not the type of situation that we are normally uh thinking about this is more like you walk in the forest and you see two zebras one giraffe and one…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_1789",
+    "t_start": 1789.3,
+    "t_end": 1883.1,
+    "type": "overview",
+    "summary": "down by n subk + 1/ n subk it's really it's sort of magical and there are it's sort of magical and there are examples you can do but let's not go examples you can do but let's not go there I just want to say that uh we know they all knew that it should be smooth also it's smooth is a smooth version uh it took many years to show that this is the best you can do the formula small formula is the best you can do for any distribution this will can do for any distribution this will give you as closest estimate as can be hoped for um and uh this is just one example you know we connections of DCs e…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_1883",
+    "t_start": 1883.1,
+    "t_end": 1974.4,
+    "type": "overview",
+    "summary": "this random variable we call it K Divergence Library Divergence but it was Divergence Library Divergence but it was there already they do much more than higher moments they have a bunch of beautiful theor some of them were later beautiful theor some of them were later discovered independently when wild discovered independently when wild developed sequential analysis sequential developed sequential analysis sequential analysis is simply statistics where the sample side is not fixed in advance but you learn more and more this is what you learn more and more this is what they need to learn as …"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_1974",
+    "t_start": 1974.4,
+    "t_end": 2065.6,
+    "type": "overview",
+    "summary": "right professor of the theory of computation uh Turing was given this computation uh Turing was given this position with the salary boost so the position with the salary boost so the value Theory um and during this period value Theory um and during this period he the paper Computing machinery and not just this paper you sure some of you know and I w't talk a little bit about know and I w't talk a little bit about this because there are things in this this because there are things in this paper that you won't know you know about paper that you won't know you know about the imitation game I'l…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_2065",
+    "t_start": 2065.6,
+    "t_end": 2157.1,
+    "type": "overview",
+    "summary": "another type of machine you can consider touring machine with a random element so touring machine with a random element so flip coins for some of your moves he flip coins for some of your moves he suggest it he suggest how to do it and suggest it he suggest how to do it and he suggest in other places other means he suggest in other places other means physical means of generating random physical means of generating random numbers so publicistic machines are numbers so publicistic machines are defined in this paper moreover sudo Randomness is already explored in this paper uh by the way publi…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_2157",
+    "t_start": 2157.1,
+    "t_end": 2250.2,
+    "type": "overview",
+    "summary": "definition I set up on the Manchester computer a small program using only computer a small program using only thousand units of storage whereby a thousand units of storage whereby a machine is supplied with 116 uh figure number and outputs another 16 digit number I would defy anyone to 16 digit number I would defy anyone to predict the value of this function of this program on any unseen input so that's basically the definition of sudo that's basically the definition of sudo functions if you throw in polinomial Di functions if you throw in polinomial Di and blah blah blah whatever we need b…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_2250",
+    "t_start": 2250.2,
+    "t_end": 2341.6,
+    "type": "overview",
+    "summary": "they may think like us and he's advocating this point of view that's the advocating this point of view that's the purpose of his paper completely you know purpose of his paper completely you know against the current of uh activity uh he did many things he says many things in this he was very obsessed with analogies with the brain uh he wanted to know he believed that wanted to know he believed that intelligence in particular depends on how much memory you can have in a computer and he was asking his biologist computer and he was asking his biologist friends about sizes of human and other fr…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_2341",
+    "t_start": 2341.6,
+    "t_end": 2438.6,
+    "type": "overview",
+    "summary": "wheel to the right but he says that uh if you want to be an INT if you want an if you want to be an INT if you want an intelligent machine you must allow it to must allow machines to do that he talks about uh the education of machines and about uh the education of machines and he says well like child uh he says well like child uh learning we are born with some initial learning we are born with some initial state of mind or initial programming the state of mind or initial programming the machine but then there are two kinds and machine but then there are two kinds and he distinguish them of …"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_2438",
+    "t_start": 2438.6,
+    "t_end": 2530.5,
+    "type": "overview",
+    "summary": "his definition of intelligence and uh it's again his pose is beautiful and it's pleasure to read he starts the paper by saying you know how do you paper by saying you know how do you study the question can machine think say well you can do what the philosophers have always done you define philosophers have always done you define this notion what is a machine what is it this notion what is a machine what is it to think and uh yeah we start discussing to think and uh yeah we start discussing this but he said immediately we run into this but he said immediately we run into problems because you…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_2530",
+    "t_start": 2530.5,
+    "t_end": 2621.8,
+    "type": "overview",
+    "summary": "done but just the definition itself the imitation game he sets up two parallel imitation game he sets up two parallel words in which a referee and you allow many referees a referee interact with one of them referee interact with one of them doesn't always whom and the end should doesn't always whom and the end should say you know I believe this is a machine or or just give a confidence La give number between zero and one and the way number between zero and one and the way you would Define intelligence is you know that the robo is intelligence if in this two words the referee any referee any…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_2621",
+    "t_start": 2621.8,
+    "t_end": 2713.8,
+    "type": "overview",
+    "summary": "I guess uh is sort of obvious but has to be repeated uh especially to students I be repeated uh especially to students I think is that well our field I think is think is that well our field I think is primarily a definition of field and Mathematics as well and when you have the right definitions the right Notions the right definitions the right Notions this is the primary objective once you have this often you know the right theorems theories constructions follow theorems theories constructions follow so we'll see some definitions using the game uh in cryptography what's the basic problem t…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_2713",
+    "t_start": 2713.8,
+    "t_end": 2806.1,
+    "type": "overview",
+    "summary": "universally used in cryptography this definition tells you immediately that definition tells you immediately that encryption secure encryption must be encryption secure encryption must be probabilistic the terministic function probabilistic the terministic function will never pass this test and of course we have a way of um you know making this definition real you know making this definition real under various assumptions uh this is true not just for encryption but any cryptographic argue the security of a given protocol let's say which runs on the internet you let's say which runs on the i…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_2806",
+    "t_start": 2806.1,
+    "t_end": 2898.5,
+    "type": "overview",
+    "summary": "this is critical how do we say that the distribution when do we say that distribution is to the Rond again we run an imitation game against the uniform distribution which is the Paradigm of a perfect Randomness and if no efficient perfect Randomness and if no efficient algorithm can tell apart these two then algorithm can tell apart these two then you call it as random as the uniform you call it as random as the uniform distribution finally the last example distribution finally the last example I'm running through them quickly but I'm I'm running through them quickly but I'm sure they are k…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_2898",
+    "t_start": 2898.5,
+    "t_end": 2989.9,
+    "type": "overview",
+    "summary": "mechanism no algorithm can you know this all these ques cannot distinguish they all these ques cannot distinguish they behave the same on the two databases behave the same on the two databases then I'm happy to participate because then I'm happy to participate because clearly nothing is learned about me in particular so again limitation game particular so again limitation game serves as a uh bed for the definition of serves as a uh bed for the definition of a fundamental notion okay so I have five minutes for my last uh paper and this is a paper he my last uh paper and this is a paper he st…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_2989",
+    "t_start": 2989.9,
+    "t_end": 3085.2,
+    "type": "overview",
+    "summary": "symmetric how did it get to be the Z I mean what how you know what explain the mean what how you know what explain the stripes so forget the stripes what explain the head the tail the legs the body Direction all these things change body Direction all these things change from this little ball and it didn't just change I mean all Z balls look alike right it changes all Z balls look alike right it changes in a predictable way there not just that in a predictable way there not just that asymmetry happens this may happen asymmetry happens this may happen randomly it's the same asymmetry persiste…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_3085",
+    "t_start": 3085.2,
+    "t_end": 3178.9,
+    "type": "overview",
+    "summary": "falsification it is to be hoped that the features retained for discussion are features retained for discussion are those of greatest importance in the present state of knowledge okay so I don't know a better introduction of a don't know a better introduction of a student in The Sciences to what the student in The Sciences to what the scientific method is than this paragraph scientific method is than this paragraph anyway here is the embryo a ring of cells so he's suggesting a model call uh reaction diffusion model it's a chemical model uh and uh he simplifies the embryo to be a and uh he si…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_3178",
+    "t_start": 3178.9,
+    "t_end": 3272.1,
+    "type": "overview",
+    "summary": "a chemical reaction between the chemicals in each cell independently and then diffusion between neighboring cells to get equilibrium of neighboring cells to get equilibrium of the quantities and they happen in some the quantities and they happen in some given rate that's the information and initially it's a completely symmetric situation okay they completely symmetric situation okay they each have the same quantity of a and of I said and the point is that you know they have the same quantities but we are they have the same quantities but we are in life you know you cannot have the in life y…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_3272",
+    "t_start": 3272.1,
+    "t_end": 3363.9,
+    "type": "overview",
+    "summary": "stresses that the stage Next Step follows deterministically from the computational model and then the last slide I have is that tell you what he uh slide I have is that tell you what he uh analyzes what he uh studed so first I want to say this is you know nothing less than a cellular you know nothing less than a cellular automat right the model that we believe was invented by for he already has it invented by for he already has it various forms of s automata the first various forms of s automata the first one so he studed the two dimensional one so he studed the two dimensional ring of cell…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_3363",
+    "t_start": 3363.9,
+    "t_end": 3457.0,
+    "type": "overview",
+    "summary": "that in the first uh two weeks the fetus is in a blastula stage where you know is in a blastula stage where you know the cell is dividing but still looks the cell is dividing but still looks like a ball of s and then in the third week you know something happen the direction is formed really the spine direction is formed really the spine form moves to the gastation to the Gast form moves to the gastation to the Gast phase and he does the analysis of the threedimensional case and he predicts and shows how gastation arises and he planer greed in order to understand dling you know the Pates of …"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_3456",
+    "t_start": 3457.0,
+    "t_end": 3547.6,
+    "type": "overview",
+    "summary": "to have uh you get a sense from different reading different things that different reading different things that he was at the same time clearly you saw most basically but he had a very strong philosophical band and was interested in philosophical band and was interested in the you know sort of higher level issues but you Al when you read his work on computers and on programming you understand what the Hecker was I mean he was interested in electromechanical was interested in electromechanical properties of all the devices that he was uh he needed for these early computers and he was an AV c…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_3547",
+    "t_start": 3547.6,
+    "t_end": 3641.3,
+    "type": "overview",
+    "summary": "case let's say the theological objection my argument shatters there but on another issue another kind of objection I have this another kind of objection I have this response is not so strong i' better response is not so strong i' better improve it so he's critical on himself improve it so he's critical on himself yeah he's his Clarity of thinking is yeah he's his Clarity of thinking is just amazing and also the clarity of his this think Einstein said that models should be as simple as possible but not should be as simple as possible but not simpler and I think yeah his mother simpler and I …"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_3644",
+    "t_start": 3644.1,
+    "t_end": 3732.5,
+    "type": "overview",
+    "summary": "then in your reading of curing did you encounter any non interaction with encounter any non interaction with quantum mechanics sorry sorry um thank you so much for the awesome talk uh when you were talking awesome talk uh when you were talking about like the the use of the imitation about like the the use of the imitation game in some of theph groups you note that sorry sorry the definition um we talk about how the the definitions make talk about how the the definitions make sure that only like a non-determined sure that only like a non-determined procedure would be able to satisfy them jus…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_3735",
+    "t_start": 3735.3,
+    "t_end": 3825.0,
+    "type": "overview",
+    "summary": "also and we also know the end of the story The Last CP anyway was important to me for okay um so when to wrote his paper about Randomness and computation did he about Randomness and computation did he refer back to his non-deterministic refer back to his non-deterministic machines because that seems obvious but there would be an obvious connection to put Randomness at the non-deterministic put Randomness at the non-deterministic points absolutely"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_3831",
+    "t_start": 3831.5,
+    "t_end": 3922.8,
+    "type": "overview",
+    "summary": "question thanks for the talk you mentioned that in 1930s um G toring and church um each came up with their own version of model came up with their own version of model of computation so why did gero and of computation so why did gero and church think that tyan model is more church think that tyan model is more like is better I don't have it in front of me so I can't quote it exactly but he says where can't quote it exactly but he says where he's developing the turing machine in he's developing the turing machine in that paper he says the very first sentence um he's very interested in comput…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_3922",
+    "t_start": 3922.8,
+    "t_end": 4012.6,
+    "type": "overview",
+    "summary": "other times now his definition at the beginning is one that other people picked up later people like Marian pel called uh computable uh real analysis I called uh computable uh real analysis I think it's recursive analysis where they think it's recursive analysis where they talk about real real computation over talk about real real computation over this numbers that you can actually generate let's say with Oracle um and he never ever talks about it ever again the never ever talks about it ever again the only time he talks about real only time he talks about real computation is a paper that y…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_4057",
+    "t_start": 4057.9,
+    "t_end": 4107.7,
+    "type": "overview",
+    "summary": "and his notion of condition there is exactly the correct notion to convert a exactly the correct notion to convert a real computation to discrete computation and that's a jender that is in fact the importance of that paper in fact the importance of that paper we'll talk about it all right so um okay maybe one more question and then uh maybe this is a little bit of a speculative question but if if Turing speculative question but if if Turing had had another 10 or 30 years of of mathematical life what what directions might he have been pursued or maybe in might he have been pursued or maybe i…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_4198",
+    "t_start": 4198.3,
+    "t_end": 4290.9,
+    "type": "overview",
+    "summary": "I ask two questions about so first one is you mention that atast the question San Francisco yeah I think it's CED it's recorded because CED it's recorded because I it depends better the second time I enjoy yeah you heard it you heard it the first yeah you heard it you heard it the first first time I think the first time yeah yeah before I gave it to a Jun yeah back I will walk with them yeah I walk with how long are you around uh we walk with how long are you around uh we are here till Friday okay do you want to meet we have some send me email okay I'll send you email okay I have to go yeah…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_4290",
+    "t_start": 4290.9,
+    "t_end": 4385.7,
+    "type": "overview",
+    "summary": "definition so as you probably know most encryption schemes are based on some encryption schemes are based on some mathematical assumptions like that factor integers is difficult so what you need to prove that meet the definition need to prove that meet the definition you say if there was some efficient you say if there was some efficient procedure distinguishing two messages then you could break Factor all so we don't really have a attack model so we don't really have a attack model no no no it's just a reduction the no no no it's just a reduction the definition allows you to to perform def…"
+  },
+  {
+    "id": "ku_video_BiFSUniv70c_4385",
+    "t_start": 4385.7,
+    "t_end": 4392.0,
+    "type": "overview",
+    "summary": "suddenly they get the factor algorithm I see so they prove they need to prove see so they prove they need to prove there is a gap first no they need to"
+  }
+]

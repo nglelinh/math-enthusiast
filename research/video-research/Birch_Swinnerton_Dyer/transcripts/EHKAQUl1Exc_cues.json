@@ -1,0 +1,362 @@
+[
+  {
+    "t_start": 3.19,
+    "t_end": 4.95,
+    "text": "Welcome. Today we are diving into one of the most fascinating and challenging"
+  },
+  {
+    "t_start": 4.95,
+    "t_end": 7.269,
+    "text": "the most fascinating and challenging problems in modern mathematics. The"
+  },
+  {
+    "t_start": 7.269,
+    "t_end": 10.23,
+    "text": "problems in modern mathematics. The Birch and Swton Dire conjecture. This"
+  },
+  {
+    "t_start": 10.23,
+    "t_end": 12.07,
+    "text": "Birch and Swton Dire conjecture. This conjecture sits at the crossroads of"
+  },
+  {
+    "t_start": 12.07,
+    "t_end": 14.15,
+    "text": "conjecture sits at the crossroads of elliptic curves and lunctions."
+  },
+  {
+    "t_start": 14.15,
+    "t_end": 19.189,
+    "text": "Connecting the worlds of geometry and analysis in a profound way. It is also"
+  },
+  {
+    "t_start": 19.189,
+    "t_end": 21.189,
+    "text": "analysis in a profound way. It is also one of the Clay Institutees Millennium"
+  },
+  {
+    "t_start": 21.189,
+    "t_end": 24.15,
+    "text": "one of the Clay Institutees Millennium Prize problems. Solving it will win you"
+  },
+  {
+    "t_start": 24.15,
+    "t_end": 27.99,
+    "text": "Prize problems. Solving it will win you $1 million US."
+  },
+  {
+    "t_start": 31.269,
+    "t_end": 33.03,
+    "text": "So what exactly is an elliptic curve? An elliptic curve is essentially a non-s"
+  },
+  {
+    "t_start": 33.03,
+    "t_end": 35.03,
+    "text": "elliptic curve is essentially a non-s singular cubic curve in two variables"
+  },
+  {
+    "t_start": 35.03,
+    "t_end": 37.27,
+    "text": "singular cubic curve in two variables defined over a field and it has a"
+  },
+  {
+    "t_start": 37.27,
+    "t_end": 39.75,
+    "text": "defined over a field and it has a special point at infinity. Non-s"
+  },
+  {
+    "t_start": 39.75,
+    "t_end": 44.15,
+    "text": "special point at infinity. Non-s singular means that the curve has no"
+  },
+  {
+    "t_start": 44.15,
+    "t_end": 48.63,
+    "text": "Typically we represent an elliptic curve using the wire stress normal form which"
+  },
+  {
+    "t_start": 48.63,
+    "t_end": 55.75,
+    "text": "using the wire stress normal form which is given by the equation y^2= x cub plus"
+  },
+  {
+    "t_start": 55.75,
+    "t_end": 57.67,
+    "text": "a * x + b. Here a and b are constants that determine the specific shape and"
+  },
+  {
+    "t_start": 57.67,
+    "t_end": 61.27,
+    "text": "that determine the specific shape and properties of the curve."
+  },
+  {
+    "t_start": 61.27,
+    "t_end": 66.149,
+    "text": "Now let's talk about L functions. L functions are meamorphic functions on"
+  },
+  {
+    "t_start": 66.149,
+    "t_end": 70.63,
+    "text": "functions are meamorphic functions on the complex plane that generalize the"
+  },
+  {
+    "t_start": 70.63,
+    "t_end": 72.95,
+    "text": "famous reman zeta function. They are defined by a deerllet series expressed"
+  },
+  {
+    "t_start": 72.95,
+    "t_end": 78.63,
+    "text": "as l of s equals the sum of a subn * n to the power of s where s is a complex"
+  },
+  {
+    "t_start": 78.63,
+    "t_end": 80.789,
+    "text": "to the power of s where s is a complex variable. n ranges over the natural"
+  },
+  {
+    "t_start": 80.789,
+    "t_end": 83.03,
+    "text": "variable. n ranges over the natural numbers and the subn are coefficients"
+  },
+  {
+    "t_start": 83.03,
+    "t_end": 85.99,
+    "text": "numbers and the subn are coefficients that encode arithmetic information. L"
+  },
+  {
+    "t_start": 85.99,
+    "t_end": 88.23,
+    "text": "that encode arithmetic information. L functions also possess some very useful"
+  },
+  {
+    "t_start": 88.23,
+    "t_end": 90.95,
+    "text": "functions also possess some very useful properties. They have an oiler product"
+  },
+  {
+    "t_start": 90.95,
+    "t_end": 94.23,
+    "text": "properties. They have an oiler product formula, allow for analytic continuation"
+  },
+  {
+    "t_start": 94.23,
+    "t_end": 98.71,
+    "text": "formula, allow for analytic continuation and satisfy a functional equation."
+  },
+  {
+    "t_start": 98.71,
+    "t_end": 103.67,
+    "text": "and satisfy a functional equation. Here comes the main topic. The Bur and"
+  },
+  {
+    "t_start": 103.67,
+    "t_end": 108.23,
+    "text": "abbreviated as the BSD conjecture proposes a deep connection between an"
+  },
+  {
+    "t_start": 108.23,
+    "t_end": 110.469,
+    "text": "proposes a deep connection between an elliptic curve and its associated L"
+  },
+  {
+    "t_start": 110.469,
+    "t_end": 113.03,
+    "text": "elliptic curve and its associated L function. The conjecture states that the"
+  },
+  {
+    "t_start": 113.03,
+    "t_end": 115.429,
+    "text": "function. The conjecture states that the algebraic rank of an elliptic curve is"
+  },
+  {
+    "t_start": 115.429,
+    "t_end": 120.55,
+    "text": "equal to the analytic rank of its L function. In mathematical terms, rank of"
+  },
+  {
+    "t_start": 120.55,
+    "t_end": 126.389,
+    "text": "function. In mathematical terms, rank of E over Q equals the order of zero at S="
+  },
+  {
+    "t_start": 126.389,
+    "t_end": 128.229,
+    "text": "1 of L of E S. This equation tells us that the number of rational points on an"
+  },
+  {
+    "t_start": 128.229,
+    "t_end": 130.389,
+    "text": "that the number of rational points on an elliptic curve is intimately connected"
+  },
+  {
+    "t_start": 130.389,
+    "t_end": 135.67,
+    "text": "elliptic curve is intimately connected to the behavior of its l function at s"
+  },
+  {
+    "t_start": 135.67,
+    "t_end": 139.43,
+    "text": "The BSD conjecture is significant because it bridges the gap between the"
+  },
+  {
+    "t_start": 139.43,
+    "t_end": 141.99,
+    "text": "because it bridges the gap between the discrete world of arithmetic represented"
+  },
+  {
+    "t_start": 141.99,
+    "t_end": 146.15,
+    "text": "discrete world of arithmetic represented by the group of rational points on an"
+  },
+  {
+    "t_start": 146.15,
+    "t_end": 148.63,
+    "text": "elliptic curve and the continuous world of analysis represented by the behavior"
+  },
+  {
+    "t_start": 148.63,
+    "t_end": 153.35,
+    "text": "of analysis represented by the behavior of the l function. Geometrically, it"
+  },
+  {
+    "t_start": 153.35,
+    "t_end": 156.39,
+    "text": "connects the finite group of rational points to infinite analytic properties."
+  },
+  {
+    "t_start": 156.39,
+    "t_end": 158.71,
+    "text": "points to infinite analytic properties. Analytically, it transforms difficult"
+  },
+  {
+    "t_start": 158.71,
+    "t_end": 160.71,
+    "text": "Analytically, it transforms difficult geometric questions into tractable"
+  },
+  {
+    "t_start": 160.71,
+    "t_end": 163.83,
+    "text": "geometric questions into tractable analysis."
+  },
+  {
+    "t_start": 166.15,
+    "t_end": 169.11,
+    "text": "The implications of the BSD conjecture extend far beyond pure mathematics."
+  },
+  {
+    "t_start": 169.11,
+    "t_end": 171.43,
+    "text": "extend far beyond pure mathematics. Elliptic curves and therefore the BSD"
+  },
+  {
+    "t_start": 171.43,
+    "t_end": 173.99,
+    "text": "Elliptic curves and therefore the BSD conjecture have significant applications"
+  },
+  {
+    "t_start": 173.99,
+    "t_end": 175.91,
+    "text": "conjecture have significant applications in cryptography."
+  },
+  {
+    "t_start": 175.91,
+    "t_end": 182.47,
+    "text": "fundamental to modern encryption and digital security. Also, it helps in"
+  },
+  {
+    "t_start": 182.47,
+    "t_end": 184.309,
+    "text": "digital security. Also, it helps in solving diapont equations and"
+  },
+  {
+    "t_start": 184.309,
+    "t_end": 185.75,
+    "text": "solving diapont equations and understanding rational point"
+  },
+  {
+    "t_start": 185.75,
+    "t_end": 191.83,
+    "text": "understanding rational point distributions, all of which have"
+  },
+  {
+    "t_start": 193.83,
+    "t_end": 196.79,
+    "text": "So, where do we stand with the BSD conjecture today? Significant progress"
+  },
+  {
+    "t_start": 196.79,
+    "t_end": 201.509,
+    "text": "conjecture today? Significant progress has been made and the conjecture has"
+  },
+  {
+    "t_start": 201.509,
+    "t_end": 203.11,
+    "text": "been proven for special cases such as elliptic curves with complex"
+  },
+  {
+    "t_start": 203.11,
+    "t_end": 204.869,
+    "text": "elliptic curves with complex multiplication."
+  },
+  {
+    "t_start": 204.869,
+    "t_end": 211.509,
+    "text": "However, the general proof remains elusive. Connecting the finite and"
+  },
+  {
+    "t_start": 211.509,
+    "t_end": 212.63,
+    "text": "infinite worlds continues to be a significant challenge for"
+  },
+  {
+    "t_start": 212.63,
+    "t_end": 216.07,
+    "text": "significant challenge for mathematicians."
+  },
+  {
+    "t_start": 218.39,
+    "t_end": 220.07,
+    "text": "In conclusion, the Bur and Swton Dire conjecture represents the deepest"
+  },
+  {
+    "t_start": 220.07,
+    "t_end": 224.55,
+    "text": "conjecture represents the deepest mystery connecting geometry and analysis"
+  },
+  {
+    "t_start": 224.55,
+    "t_end": 228.47,
+    "text": "Solving it would revolutionize our understanding of elliptic curves and"
+  },
+  {
+    "t_start": 228.47,
+    "t_end": 231.43,
+    "text": "understanding of elliptic curves and unlock new frontiers in number theory."
+  },
+  {
+    "t_start": 231.43,
+    "t_end": 233.509,
+    "text": "unlock new frontiers in number theory. It remains one of the seven millennium"
+  },
+  {
+    "t_start": 233.509,
+    "t_end": 236.47,
+    "text": "It remains one of the seven millennium prize problems."
+  },
+  {
+    "t_start": 236.47,
+    "t_end": 242.229,
+    "text": "If you like this video, hit that like button and don't forget to subscribe."
+  },
+  {
+    "t_start": 242.229,
+    "t_end": 244.949,
+    "text": "button and don't forget to subscribe. Visit codelucky.com for more such useful"
+  },
+  {
+    "t_start": 244.949,
+    "t_end": 249.29,
+    "text": "Visit codelucky.com for more such useful content."
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "slug": "explore-prime-predictability",
+  "videos": [
+    {
+      "id": "zlm1aajH6gY",
+      "title": "The Riemann Hypothesis, Explained",
+      "has_transcript": true,
+      "chars": 16284,
+      "units": 11,
+      "url": "https://www.youtube.com/watch?v=zlm1aajH6gY"
+    },
+    {
+      "id": "QKHKD8bRAro",
+      "title": "Numberphile — Twin Prime Conjecture (Maynard)",
+      "has_transcript": true,
+      "chars": 18547,
+      "units": 12,
+      "url": "https://www.youtube.com/watch?v=QKHKD8bRAro"
+    },
+    {
+      "id": "ey_57qWhGEM",
+      "title": "James Maynard — Patterns in prime numbers (G-Research)",
+      "has_transcript": true,
+      "chars": 72041,
+      "units": 38,
+      "url": "https://www.youtube.com/watch?v=ey_57qWhGEM"
+    }
+  ]
+}

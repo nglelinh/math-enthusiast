@@ -1,0 +1,442 @@
+[
+  {
+    "t_start": 3.39,
+    "t_end": 8.31,
+    "text": "computation to the foundations of complexity Theory cryptography and"
+  },
+  {
+    "t_start": 8.31,
+    "t_end": 12.589,
+    "text": "expander graphs the pursuit of understanding the fundamental principles"
+  },
+  {
+    "t_start": 12.589,
+    "t_end": 16.51,
+    "text": "understanding the fundamental principles governing the theory of computation has"
+  },
+  {
+    "t_start": 16.51,
+    "t_end": 24.75,
+    "text": "boundaries of what is possible join us as we hear from Avi vidasan the 2023 ACM"
+  },
+  {
+    "t_start": 24.75,
+    "t_end": 27.429,
+    "text": "as we hear from Avi vidasan the 2023 ACM am touring award recipient whose"
+  },
+  {
+    "t_start": 27.429,
+    "t_end": 30.07,
+    "text": "am touring award recipient whose groundbreaking work has reshaped our"
+  },
+  {
+    "t_start": 30.07,
+    "t_end": 31.99,
+    "text": "groundbreaking work has reshaped our understanding of the"
+  },
+  {
+    "t_start": 31.99,
+    "t_end": 37.19,
+    "text": "field the of computation which is basically the mathematical foundations"
+  },
+  {
+    "t_start": 37.19,
+    "t_end": 42.67,
+    "text": "basically the mathematical foundations of computing you study the power and"
+  },
+  {
+    "t_start": 42.67,
+    "t_end": 45.27,
+    "text": "limitations and properties of various computational models this theoretical"
+  },
+  {
+    "t_start": 45.27,
+    "t_end": 51.91,
+    "text": "computational models this theoretical work often Guided by completely non"
+  },
+  {
+    "t_start": 51.91,
+    "t_end": 58.91,
+    "text": "following your nose is fundamental not just for itself but almost always turns"
+  },
+  {
+    "t_start": 58.91,
+    "t_end": 60.67,
+    "text": "just for itself but almost always turns out to find appli"
+  },
+  {
+    "t_start": 60.67,
+    "t_end": 67.39,
+    "text": "ations around the 1970s people started inventing publicistic algorithms uh"
+  },
+  {
+    "t_start": 67.39,
+    "t_end": 70.59,
+    "text": "inventing publicistic algorithms uh there were problems that there was no"
+  },
+  {
+    "t_start": 70.59,
+    "t_end": 75.63,
+    "text": "algorithm which was deterministic and people had the idea that maybe like in"
+  },
+  {
+    "t_start": 75.63,
+    "t_end": 77.91,
+    "text": "people had the idea that maybe like in statistics you make some random choices"
+  },
+  {
+    "t_start": 77.91,
+    "t_end": 83.149,
+    "text": "statistics you make some random choices in the algorithm this may allow to solve"
+  },
+  {
+    "t_start": 83.149,
+    "t_end": 89.59,
+    "text": "survey you ask a few random people and you get a good sense of what the whole"
+  },
+  {
+    "t_start": 89.59,
+    "t_end": 90.749,
+    "text": "population thinks it's much more efficient"
+  },
+  {
+    "t_start": 90.749,
+    "t_end": 96.59,
+    "text": "around the early 80s people in Berkeley mainly Manuel blam and the students"
+  },
+  {
+    "t_start": 96.59,
+    "t_end": 99.109,
+    "text": "mainly Manuel blam and the students realized that under some assumptions you"
+  },
+  {
+    "t_start": 99.109,
+    "t_end": 102.149,
+    "text": "realized that under some assumptions you can simulate randomized algorithms by"
+  },
+  {
+    "t_start": 102.149,
+    "t_end": 104.63,
+    "text": "can simulate randomized algorithms by the terministic ones I learned about"
+  },
+  {
+    "t_start": 104.63,
+    "t_end": 106.789,
+    "text": "the terministic ones I learned about this and together with nor Nissan we"
+  },
+  {
+    "t_start": 106.789,
+    "t_end": 109.31,
+    "text": "this and together with nor Nissan we built What's called the sudum generator"
+  },
+  {
+    "t_start": 109.31,
+    "t_end": 112.389,
+    "text": "built What's called the sudum generator or something that is deterministic but"
+  },
+  {
+    "t_start": 112.389,
+    "t_end": 115.55,
+    "text": "or something that is deterministic but looks like it's producing random numbers"
+  },
+  {
+    "t_start": 115.55,
+    "t_end": 118.31,
+    "text": "looks like it's producing random numbers from just standard assumptions in the"
+  },
+  {
+    "t_start": 118.31,
+    "t_end": 126.149,
+    "text": "field that related to this p and NP problem NP versus P ask the question of"
+  },
+  {
+    "t_start": 126.149,
+    "t_end": 128.35,
+    "text": "problem NP versus P ask the question of whether everything that can be easily"
+  },
+  {
+    "t_start": 128.35,
+    "t_end": 134.71,
+    "text": "whether everything that can be easily verified can also be easily"
+  },
+  {
+    "t_start": 134.71,
+    "t_end": 140.309,
+    "text": "intuition at least I mean if you lost your keys you know in a forest we don't"
+  },
+  {
+    "t_start": 140.309,
+    "t_end": 144.869,
+    "text": "your keys you know in a forest we don't know a better way to find it and go and"
+  },
+  {
+    "t_start": 144.869,
+    "t_end": 149.35,
+    "text": "happens upon them and they come here are your kids you recognize your kids so it"
+  },
+  {
+    "t_start": 149.35,
+    "t_end": 151.949,
+    "text": "your kids you recognize your kids so it seems that verifying that the solution"
+  },
+  {
+    "t_start": 151.949,
+    "t_end": 158.83,
+    "text": "is correct is much easier and finding it is much harder I think the connection to"
+  },
+  {
+    "t_start": 158.83,
+    "t_end": 163.309,
+    "text": "is much harder I think the connection to creativity is that sometimes people find"
+  },
+  {
+    "t_start": 163.309,
+    "t_end": 166.47,
+    "text": "creativity is that sometimes people find things like mathematicians find the"
+  },
+  {
+    "t_start": 166.47,
+    "t_end": 172.229,
+    "text": "proof of a very difficult theorem and it seems like it was creative it's not"
+  },
+  {
+    "t_start": 172.229,
+    "t_end": 174.99,
+    "text": "seems like it was creative it's not clear to me I mean clearly his process"
+  },
+  {
+    "t_start": 174.99,
+    "t_end": 177.229,
+    "text": "clear to me I mean clearly his process was an efficient process this is why"
+  },
+  {
+    "t_start": 177.229,
+    "t_end": 180.19,
+    "text": "was an efficient process this is why it's important that every process you"
+  },
+  {
+    "t_start": 180.19,
+    "t_end": 185.309,
+    "text": "know can be S of as a computational process let me agree with Marvin Minsky"
+  },
+  {
+    "t_start": 185.309,
+    "t_end": 191.47,
+    "text": "process let me agree with Marvin Minsky to me everybody is a machine we are born"
+  },
+  {
+    "t_start": 191.47,
+    "t_end": 193.55,
+    "text": "with our brains which is some platform and with an initial algorithm maybe it's"
+  },
+  {
+    "t_start": 193.55,
+    "t_end": 195.71,
+    "text": "and with an initial algorithm maybe it's a learning algorithm and then we we"
+  },
+  {
+    "t_start": 195.71,
+    "t_end": 198.509,
+    "text": "a learning algorithm and then we we experience life I have no problem with"
+  },
+  {
+    "t_start": 198.509,
+    "t_end": 200.83,
+    "text": "experience life I have no problem with World being completely deterministic"
+  },
+  {
+    "t_start": 200.83,
+    "t_end": 205.789,
+    "text": "World being completely deterministic there are two issues one is what is the"
+  },
+  {
+    "t_start": 205.789,
+    "t_end": 208.63,
+    "text": "real word like and the other our subjective experience so I I'm you know"
+  },
+  {
+    "t_start": 208.63,
+    "t_end": 210.83,
+    "text": "subjective experience so I I'm you know debating whether to go to movie A or"
+  },
+  {
+    "t_start": 210.83,
+    "t_end": 215.91,
+    "text": "movie B I seem not to know which one I choose it seems like I am choosing it"
+  },
+  {
+    "t_start": 215.91,
+    "t_end": 217.949,
+    "text": "choose it seems like I am choosing it with my own free will maybe it's all"
+  },
+  {
+    "t_start": 217.949,
+    "t_end": 220.63,
+    "text": "with my own free will maybe it's all dictated maybe the processes in my mind"
+  },
+  {
+    "t_start": 220.63,
+    "t_end": 223.71,
+    "text": "dictated maybe the processes in my mind could be you know predicted completely"
+  },
+  {
+    "t_start": 223.71,
+    "t_end": 227.39,
+    "text": "could be you know predicted completely it wouldn't change my subjective feeling"
+  },
+  {
+    "t_start": 227.39,
+    "t_end": 230.229,
+    "text": "it wouldn't change my subjective feeling what we feel Randomness in life lack"
+  },
+  {
+    "t_start": 230.229,
+    "t_end": 233.55,
+    "text": "what we feel Randomness in life lack chance is all subjective and it's our"
+  },
+  {
+    "t_start": 233.55,
+    "t_end": 235.509,
+    "text": "chance is all subjective and it's our interpretation of what's Happening"
+  },
+  {
+    "t_start": 235.509,
+    "t_end": 240.229,
+    "text": "whether it's the terministic or not anyway that's that's my view I argument"
+  },
+  {
+    "t_start": 240.229,
+    "t_end": 247.27,
+    "text": "with lots of people about it but it's fun really beautiful and important thing"
+  },
+  {
+    "t_start": 247.27,
+    "t_end": 249.47,
+    "text": "fun really beautiful and important thing about this area of complexity Theory"
+  },
+  {
+    "t_start": 249.47,
+    "t_end": 252.03,
+    "text": "about this area of complexity Theory theoretical computer science is that"
+  },
+  {
+    "t_start": 252.03,
+    "t_end": 257.229,
+    "text": "indeed different parts of it which seem to talk about different subjects and"
+  },
+  {
+    "t_start": 257.229,
+    "t_end": 260.43,
+    "text": "to talk about different subjects and different structures are actually very"
+  },
+  {
+    "t_start": 260.43,
+    "t_end": 265.83,
+    "text": "well connected and the import of ideas between different parts of the field led"
+  },
+  {
+    "t_start": 265.83,
+    "t_end": 269.39,
+    "text": "between different parts of the field led to Major breakthroughs and and progress"
+  },
+  {
+    "t_start": 269.39,
+    "t_end": 272.39,
+    "text": "to Major breakthroughs and and progress EXP under graphs for example initially"
+  },
+  {
+    "t_start": 272.39,
+    "t_end": 276.11,
+    "text": "EXP under graphs for example initially their purpose was being robust networks"
+  },
+  {
+    "t_start": 276.11,
+    "t_end": 280.51,
+    "text": "their purpose was being robust networks but then they turned out to be essential"
+  },
+  {
+    "t_start": 280.51,
+    "t_end": 287.79,
+    "text": "applications in cryptography they found applications in various algorithms just"
+  },
+  {
+    "t_start": 287.79,
+    "t_end": 292.39,
+    "text": "people found ways to make from them error correcting codes I find it quite"
+  },
+  {
+    "t_start": 292.39,
+    "t_end": 295.189,
+    "text": "error correcting codes I find it quite amazing that I'm more than 40 years"
+  },
+  {
+    "t_start": 295.189,
+    "t_end": 298.35,
+    "text": "amazing that I'm more than 40 years doing research and I'm still being"
+  },
+  {
+    "t_start": 298.35,
+    "t_end": 304.909,
+    "text": "surprised and the you know sort of OD by beautiful things that people are doing"
+  },
+  {
+    "t_start": 304.909,
+    "t_end": 310.909,
+    "text": "beautiful things that people are doing and a problem can stand 30 years without"
+  },
+  {
+    "t_start": 310.909,
+    "t_end": 313.35,
+    "text": "a solution then somebody sees how to overcome the obstacle what I tell my"
+  },
+  {
+    "t_start": 313.35,
+    "t_end": 316.39,
+    "text": "overcome the obstacle what I tell my students my posts young people is that"
+  },
+  {
+    "t_start": 316.39,
+    "t_end": 323.83,
+    "text": "students my posts young people is that uh research is a great life but still"
+  },
+  {
+    "t_start": 323.83,
+    "t_end": 326.95,
+    "text": "not for everyone because the normal experience of a day's work is failure of"
+  },
+  {
+    "t_start": 326.95,
+    "t_end": 329.909,
+    "text": "experience of a day's work is failure of course it's easy to enjoy the discovery"
+  },
+  {
+    "t_start": 329.909,
+    "t_end": 333.43,
+    "text": "course it's easy to enjoy the discovery but I think I and and many other"
+  },
+  {
+    "t_start": 333.43,
+    "t_end": 338.71,
+    "text": "researchers I think are there because they also enjoy just thinking about"
+  },
+  {
+    "t_start": 338.71,
+    "t_end": 341.469,
+    "text": "they also enjoy just thinking about problems and uh trying to understand"
+  },
+  {
+    "t_start": 341.469,
+    "t_end": 343.95,
+    "text": "problems and uh trying to understand them even with the understanding that it"
+  },
+  {
+    "t_start": 343.95,
+    "t_end": 347.029,
+    "text": "them even with the understanding that it may be months till uh you know something"
+  },
+  {
+    "t_start": 347.029,
+    "t_end": 364.13,
+    "text": "will come up or may be month till you give it up and go to some something else"
+  }
+]

@@ -1,0 +1,427 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 3.5,
+    "text": "Today we are going to be talking about a problem in logic"
+  },
+  {
+    "t_start": 3.5,
+    "t_end": 5.88,
+    "text": "and how in solving that problem,"
+  },
+  {
+    "t_start": 5.91,
+    "t_end": 10.25,
+    "text": "Alan Turing almost inadvertently invented the modern digital computer."
+  },
+  {
+    "t_start": 12.929,
+    "t_end": 16.89,
+    "text": "So we start back at the beginning of the 20th century, where mathematicians had"
+  },
+  {
+    "t_start": 16.89,
+    "t_end": 21.96,
+    "text": "posed this problem - in logic we're interested in finding \"Do these premises"
+  },
+  {
+    "t_start": 21.96,
+    "t_end": 27.66,
+    "text": "entail this conclusion?\" So premises are the bits you start off with in an argument"
+  },
+  {
+    "t_start": 27.66,
+    "t_end": 31.23,
+    "text": "they are your -- the bits you know at the beginning or your assumptions and the"
+  },
+  {
+    "t_start": 31.23,
+    "t_end": 34.69,
+    "text": "conclusion is the bit you want to establish the bit that you reason to"
+  },
+  {
+    "t_start": 34.71,
+    "t_end": 39.899,
+    "text": "with your argument and we want to know is there a test that will tell us"
+  },
+  {
+    "t_start": 39.899,
+    "t_end": 43.14,
+    "text": "yes for sure these premises do or don't"
+  },
+  {
+    "t_start": 43.14,
+    "t_end": 47.219,
+    "text": "entail this conclusion. Is there an automatic way of finding out whether"
+  },
+  {
+    "t_start": 47.219,
+    "t_end": 49.53,
+    "text": "they do or whether they don't?"
+  },
+  {
+    "t_start": 49.53,
+    "t_end": 53.43,
+    "text": "So that's the problem, it's called the decision problem."
+  },
+  {
+    "t_start": 53.43,
+    "t_end": 58.649,
+    "text": "The mathematicians wanted to find out \"Is there an answer to the decision problem"
+  },
+  {
+    "t_start": 58.649,
+    "t_end": 60.51,
+    "text": "for first order logic?\""
+  },
+  {
+    "t_start": 60.51,
+    "t_end": 64.5,
+    "text": "that's the kind of logic you learn in philosophy or mathematics at university"
+  },
+  {
+    "t_start": 64.5,
+    "t_end": 69.81,
+    "text": "so lots of mathematicians were trying to work out is first order logic decidable"
+  },
+  {
+    "t_start": 69.81,
+    "t_end": 73.68,
+    "text": "that is can we automatically test whether the premises entail the"
+  },
+  {
+    "t_start": 73.68,
+    "t_end": 74.64,
+    "text": "conclusion"
+  },
+  {
+    "t_start": 74.64,
+    "t_end": 79.409,
+    "text": "Alan Turing was one of the first to discover that first order logic isn't"
+  },
+  {
+    "t_start": 79.409,
+    "t_end": 83.64,
+    "text": "decidable. To prove this"
+  },
+  {
+    "t_start": 83.64,
+    "t_end": 88.32,
+    "text": "it's really difficult conceptually because you have to be able to show no"
+  },
+  {
+    "t_start": 88.32,
+    "t_end": 95.159,
+    "text": "possible program can give you the answer but how do you do that how do you show"
+  },
+  {
+    "t_start": 95.159,
+    "t_end": 98.25,
+    "text": "something about every possible program"
+  },
+  {
+    "t_start": 98.25,
+    "t_end": 101.34,
+    "text": "you can't run through every program one by one"
+  },
+  {
+    "t_start": 101.34,
+    "t_end": 104.67,
+    "text": "but Turing came up with a brilliant solution"
+  },
+  {
+    "t_start": 104.67,
+    "t_end": 107.909,
+    "text": "his idea goes something like this"
+  },
+  {
+    "t_start": 107.909,
+    "t_end": 112.829,
+    "text": "suppose we have a program and let's just draw it as a black box"
+  },
+  {
+    "t_start": 113.61,
+    "t_end": 118.799,
+    "text": "it's going to take some inputs and it's going to give us some outputs"
+  },
+  {
+    "t_start": 118.799,
+    "t_end": 124.799,
+    "text": "our program is going to solve some problem a problem like \"Do the premises"
+  },
+  {
+    "t_start": 124.8,
+    "t_end": 128.91,
+    "text": "entail the conclusion\" we ask it a question and it will give us an answer"
+  },
+  {
+    "t_start": 128.91,
+    "t_end": 132.03,
+    "text": "yes or no"
+  },
+  {
+    "t_start": 132.03,
+    "t_end": 137.19,
+    "text": "now here's another question we can ask let's look at all of those possible"
+  },
+  {
+    "t_start": 137.19,
+    "t_end": 141.45,
+    "text": "programs and we're just thinking of them as black boxes at the moment we might"
+  },
+  {
+    "t_start": 141.45,
+    "t_end": 146.819,
+    "text": "want to know is this program given a certain input going to give us an answer"
+  },
+  {
+    "t_start": 146.819,
+    "t_end": 153.03,
+    "text": "or is it going to trundle on forever and never give us an answer that is is it"
+  },
+  {
+    "t_start": 153.03,
+    "t_end": 155.4,
+    "text": "going to halt or is it not going to halt"
+  },
+  {
+    "t_start": 155.4,
+    "t_end": 159.569,
+    "text": "eventually so think about your computer running you want it to give you an"
+  },
+  {
+    "t_start": 159.569,
+    "t_end": 162.989,
+    "text": "answer of whether it's a good answer or a bad answer"
+  },
+  {
+    "t_start": 162.989,
+    "t_end": 167.76,
+    "text": "it's better than no answer. No answer would mean the computer trundles around"
+  },
+  {
+    "t_start": 167.76,
+    "t_end": 171.51,
+    "text": "forever and ever in a loop and you would just never know whether it's going to"
+  },
+  {
+    "t_start": 171.51,
+    "t_end": 174.0,
+    "text": "finish today tomorrow or never"
+  },
+  {
+    "t_start": 174.0,
+    "t_end": 180.39,
+    "text": "so halting is good so there's another question we can ask given some program"
+  },
+  {
+    "t_start": 180.39,
+    "t_end": 181.8,
+    "text": "and some input"
+  },
+  {
+    "t_start": 181.8,
+    "t_end": 187.68,
+    "text": "will it ever halt? Now it turns out that our logical problem"
+  },
+  {
+    "t_start": 188.28,
+    "t_end": 195.15,
+    "text": "\"Do these premises entail this conclusion?\" is very similar to this halting problem"
+  },
+  {
+    "t_start": 195.72,
+    "t_end": 200.88,
+    "text": "in fact if we can solve the logical problem then we can solve the halting"
+  },
+  {
+    "t_start": 200.88,
+    "t_end": 201.959,
+    "text": "problem"
+  },
+  {
+    "t_start": 201.959,
+    "t_end": 207.9,
+    "text": "will this program halt on this input so the clever part of Turing's proof is"
+  },
+  {
+    "t_start": 207.9,
+    "t_end": 213.72,
+    "text": "to show that it's impossible for any machine however clever it is to solve"
+  },
+  {
+    "t_start": 213.72,
+    "t_end": 218.88,
+    "text": "the halting problem that is to tell us whether a given machine with a given"
+  },
+  {
+    "t_start": 218.88,
+    "t_end": 222.84,
+    "text": "input will halt or not - and here's how he did it"
+  },
+  {
+    "t_start": 222.84,
+    "t_end": 227.97,
+    "text": "let's suppose we've got a machine or a program that solves the problem for us"
+  },
+  {
+    "t_start": 228.48,
+    "t_end": 232.68,
+    "text": "it solves the halting problem don't worry about how it works let's just"
+  },
+  {
+    "t_start": 232.68,
+    "t_end": 236.73,
+    "text": "think of it as a black box taking the description of a machine and an input"
+  },
+  {
+    "t_start": 236.73,
+    "t_end": 238.829,
+    "text": "and giving us an answer"
+  },
+  {
+    "t_start": 238.829,
+    "t_end": 242.76,
+    "text": "yes it will halt or no it won't halt just suppose that's possible"
+  },
+  {
+    "t_start": 243.48,
+    "t_end": 247.98,
+    "text": "call that machine \"h\" for the halting problem - if you give me that machine"
+  },
+  {
+    "t_start": 247.98,
+    "t_end": 250.98,
+    "text": "I can transform it into a different machine like this"
+  },
+  {
+    "t_start": 251.549,
+    "t_end": 256.049,
+    "text": "I stick some extra bits on it so that if it gives me a yes answer"
+  },
+  {
+    "t_start": 256.709,
+    "t_end": 259.919,
+    "text": "I make it loop forever without ever stopping"
+  },
+  {
+    "t_start": 260.549,
+    "t_end": 262.98,
+    "text": "if it gives me a no answer on the other hand"
+  },
+  {
+    "t_start": 262.98,
+    "t_end": 267.39,
+    "text": "and it's going to halt straight away let's call that big machine"
+  },
+  {
+    "t_start": 268.05,
+    "t_end": 275.13,
+    "text": "the whole thing \"h+\" now here's another question we can ask what happens if I"
+  },
+  {
+    "t_start": 275.13,
+    "t_end": 283.35,
+    "text": "feed the whole machine into itself so i'm going to put h+ in here and h+"
+  },
+  {
+    "t_start": 283.35,
+    "t_end": 284.52,
+    "text": "in here"
+  },
+  {
+    "t_start": 284.52,
+    "t_end": 291.87,
+    "text": "so the question I'm now asking is I'm feeding h+ into itself so i'm asking the"
+  },
+  {
+    "t_start": 291.87,
+    "t_end": 298.41,
+    "text": "question \"Does h+ halt given input h+?\" and here's where it all goes wrong"
+  },
+  {
+    "t_start": 298.41,
+    "t_end": 302.61,
+    "text": "because if h plus does halt"
+  },
+  {
+    "t_start": 302.61,
+    "t_end": 306.39,
+    "text": "we get a yes answer but then it loops forever"
+  },
+  {
+    "t_start": 306.39,
+    "t_end": 310.98,
+    "text": "so it doesn't halt on the other hand if it doesn't halt"
+  },
+  {
+    "t_start": 311.55,
+    "t_end": 316.62,
+    "text": "we get a no answer but then it halts so if it does halt then it doesn't halt"
+  },
+  {
+    "t_start": 317.19,
+    "t_end": 322.35,
+    "text": "but if it doesn't halt then it does halt. Either way we get a contradiction"
+  },
+  {
+    "t_start": 322.35,
+    "t_end": 327.42,
+    "text": "it's a paradox but what that shows is we started off assuming that we can solve"
+  },
+  {
+    "t_start": 327.42,
+    "t_end": 328.53,
+    "text": "the problem"
+  },
+  {
+    "t_start": 328.53,
+    "t_end": 332.52,
+    "text": "we've ended up with a paradox so our assumption was bad"
+  },
+  {
+    "t_start": 332.52,
+    "t_end": 336.12,
+    "text": "it turns out there's no possible machine"
+  },
+  {
+    "t_start": 336.12,
+    "t_end": 339.12,
+    "text": "no possible program that solves the halting problem"
+  },
+  {
+    "t_start": 339.66,
+    "t_end": 344.07,
+    "text": "the really clever bit about Turing's idea is it doesn't matter what kind of"
+  },
+  {
+    "t_start": 344.07,
+    "t_end": 349.2,
+    "text": "program our machine is. It doesn't matter whether it's an abstract algorithm"
+  },
+  {
+    "t_start": 349.2,
+    "t_end": 352.77,
+    "text": "whether it's a real computer, a physical computer"
+  },
+  {
+    "t_start": 352.77,
+    "t_end": 357.12,
+    "text": "it doesn't matter what it is we've prove that no such program as possible"
+  },
+  {
+    "t_start": 360.249,
+    "t_end": 366.339,
+    "text": "Turing as part of his argument had to say a little bit about what's going on"
+  },
+  {
+    "t_start": 366.34,
+    "t_end": 371.349,
+    "text": "in these black boxes //DFB: and the idea is that every card represents an instruction"
+  },
+  {
+    "t_start": 371.349,
+    "t_end": 373.149,
+    "text": "in the Turing machine"
+  }
+]

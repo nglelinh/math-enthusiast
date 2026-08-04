@@ -1,0 +1,121 @@
+[
+  {
+    "id": "ku_video_YJ00O4gBs0I_1",
+    "t_start": 1.7,
+    "t_end": 92.1,
+    "type": "overview",
+    "summary": "- At IBM, we know how important it is for organizations to ensure the confidentiality, integrity, and authentication of data. And although the use of encryption has protected data for decades, the emergence of cryptographically relevant quantum computers could change everything. To mitigate the risk of \"harvest now and decrypt later\" scenarios by malicious actors, organizations need effective strategies to safeguard cryptographic inventory. In 2016, the National Institute of Standards and Technology, or NIST, called upon the world's cryptographers to devise new methods of encryption to addr…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_93",
+    "t_start": 93.2,
+    "t_end": 184.2,
+    "type": "overview",
+    "summary": "It will take alignment across industries to carry out the complex new cryptographic migrations needed to build a quantum-safe future. That's why IBM is driving adoption of quantum-safe cryptography through industry consortia partnerships. These partnerships empower communities to develop strategies, facilitate education, and drive deployment for quantum-safe transformation. IBM is your partner of choice in the journey to become quantum safe and achieve crypto-agility, because together, we can make the world quantum safe. To learn more, visit ibm.com/quantumsafe. (no audio) - I'm Ray Harisha…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_184",
+    "t_start": 184.2,
+    "t_end": 275.9,
+    "type": "overview",
+    "summary": "to break the powerful encryption offered by RSA-2048, a cryptographically relevant quantum computer is expected to be able to break RSA-2048 in a matter of hours by applying Shor's algorithm. In addition, bad actors can currently exfiltrate sensitive data today, decrypt it when a cryptographically relevant quantum computer becomes available, and cause damage. This is the \"harvest now, decrypt later\" problem. To deal with the risk of RSA being broken and to prevent the \"harvest now, decrypt later\"l challenge, organizations around the world need to update their current cryptography with post-…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_275",
+    "t_start": 275.9,
+    "t_end": 368.0,
+    "type": "overview",
+    "summary": "and Sphinx, another digital signature algorithm based on hash functions. The first three were co-developed by IBM, and Ward Beullens, who developed Sphinx, has since joined IBM. Now on the impact of this announcement. There are three aspects to call out. What it means for cybersecurity standards globally. This is a very significant inflection point in modern-day cybersecurity. These standards and algorithms included in them are resistant to attacks from both classical and quantum computers. Second is what it means for the industry and the supply chain. Announcement of standards removes a ke…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_368",
+    "t_start": 368.0,
+    "t_end": 460.1,
+    "type": "overview",
+    "summary": "and this is a very significant inflection point in the adoption of PQC in general across the industry. IBM has over the years and continues to play a critical role in advancing cryptography and cryptography standards. I am thrilled and privileged to be moderating this panel of experts and discuss the important topic of the announcement of NIST standards around the first set of post-quantum cryptography, or PQC, algorithms: Whitfield Diffie, Michael Osborne, and Vadim Lyubashevsky. Let me ask each of the panelists to introduce themselves and share with us their expertise, experience, and con…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_460",
+    "t_start": 460.1,
+    "t_end": 553.6,
+    "type": "overview",
+    "summary": "So I think I hold a really balanced set of interests here. - I'm Mike Osborne. I'm based here in IBM Research Europe in the lab in Switzerland. And here, I have a responsibility for the foundational team. So essentially the team which comes up with all of these new algorithms that are about to be standardized. And more recently, in the context of IBM Quantum Safe, looking at the tools and the capabilities that we require to help migrate to these new algorithms that we've developed. So very much looking forward to the panel, Ray. - Thank you very much, Mike. As you and I know, we work very c…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_553",
+    "t_start": 553.6,
+    "t_end": 645.4,
+    "type": "overview",
+    "summary": "- Okay, so the question to why now. So essentially, there are many things that we are doing today with the sort of cryptography that we'd explained, you helped introduce that, for example, securing communications, transferring data backwards and forwards, if these communications are harvested, they can be decrypted in the future when large enough quantum computers arrive. It's really important that any data that we are sending around, that it is, if it has a value in the future, then it's really important that we are protecting this in such a way that it's not vulnerable in the future. To s…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_645",
+    "t_start": 645.4,
+    "t_end": 735.8,
+    "type": "overview",
+    "summary": "to someone in 10 years' time, when a quantum computer could be built. Another reason is maybe more bureaucratic. You will have to switch to these standards by regulations in about 10 years anyway, so you might as well get started now. - So Vadim, your point about these standards have enabled the industry to begin adoption to achieve the target of change is spot on. So with that, let me move on to Whit. Whit, you are the preeminent expert in cryptography. You were sort of humble enough in your introduction. And not many in the world have the distinction of having a protocol named after them.…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_735",
+    "t_start": 735.8,
+    "t_end": 827.8,
+    "type": "overview",
+    "summary": "that there are two different characteristics here: that most of what we depend on cryptography for in internet communications is authenticity. When you deal with a merchant on the internet, you want to be sure you are dealing with the right one. Generally speaking, that kind of cryptography has a short lifetime. If you don't authenticate yourself now, you're not gonna be able to do it sometime in the future. The other aspect is confidentiality. And indeed, many things have long lifetimes. Generally speaking, secrets decline in significance over time. But typical military secrets have a nomi…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_827",
+    "t_start": 827.8,
+    "t_end": 919.5,
+    "type": "overview",
+    "summary": "or indirectly asked me. Current-day cryptography has been tested and proven in the field, battle hardened for nearly 50 years. That has been 50 years of proven history in the field. Compare that to the new post-quantum cryptography. Do you believe that these new algorithms are better and are ready for adoption? - Okay, so my response to this, because it is a debate you hear very often. That actually, these are new algorithms. The maths or maybe also the implementations might not be as baked out as one might wish. But that is really ignoring the fact that a lot has been learned over the past…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_919",
+    "t_start": 919.5,
+    "t_end": 1009.6,
+    "type": "overview",
+    "summary": "So it's also not that we don't have experience ourselves. So at least from an engineering perspective and a mathematical, I would say, modeling perspective, these algorithms are in a much better state than anything that I've seen equivalently in the past. - Just to add to that. So algorithms based on lattices, when designed properly, are actually very efficient. They're even faster than algorithms that are used today. In fact, their running time is faster than the classical algorithms based on discrete log or RSA or elliptic curves. - Thank you, Vadim, for those comments. And now, Whit, let…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_1009",
+    "t_start": 1009.6,
+    "t_end": 1100.7,
+    "type": "overview",
+    "summary": "as it was to the ones we've been keeping around for a while. So something has only been a decade or two versus three or four is not the most important issue. It's very likely that things developed now will develop much more carefully, against much better standards and procedures, than things developed earlier. - Excellent. Excellent, guys. So not only have these new algorithms been tested thoroughly and have been used, as you pointed out, Mike, and implemented over the past several years, so they're not as new as one may seem, plus, Whit, to your point, that we are leveraging on the collect…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_1100",
+    "t_start": 1100.7,
+    "t_end": 1193.0,
+    "type": "overview",
+    "summary": "The later you leave it and the less you prepare, the more expensive and chaotic it will be. We have had a number of similar, somewhat similar, let's say, transitions in the past, one of them would be Y2K, the other one would be from SHA-1 to SHA-2, where the whole process was less than satisfactory in terms of the time it took and the cost of such a migration. So there are two key messages from this. One is the preparation. The more that you prepare, the more efficient the whole process is going to be. Most of what needs doing is going to come from your suppliers and your supply chain. And …"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_1193",
+    "t_start": 1193.0,
+    "t_end": 1284.9,
+    "type": "overview",
+    "summary": "And so this announcement of what the exact standard is will motivate many people to move ahead and implement their solutions. - To sum it up, start now, get engaged, prepare yourself, and begin the execution in a thoughtful manner, taking into consideration the ecosystem you operate within and the overall supply chain that you're engaged in. And the fact that the standards have been announced should reassure our clients that it is a great time to embark on this journey with confidence. Thank you, Whit, Mike, and Vadim, for that engaging dialogue. You guys are clearly the experts in current-…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_1284",
+    "t_start": 1284.9,
+    "t_end": 1378.7,
+    "type": "overview",
+    "summary": "is the best way to approach this. It's important to ensure that crypto-agility is an integral part of the approach, the method of execution, and an automatic outcome, not as an add-on or a bolt-on or an afterthought. Here are some specific calls to action. Start now and start by establishing what is strategic and use that to prioritize the areas of focus and actions. If you haven't already, you should begin the process of cryptographic discovery. It's very important to know where your cryptography is at, what needs to be replaced, and what the dependencies are, et cetera. Extend this discov…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_1378",
+    "t_start": 1378.7,
+    "t_end": 1469.0,
+    "type": "overview",
+    "summary": "At IBM, we have a well-defined approach or methodology for enterprises to take on this journey and also a comprehensive set of technology capabilities that synergistically address establishing the strategy, discovery of existing cryptography and their dependencies, prioritization, ongoing observation and compliance, as well as appropriate mitigation and remediation actions. I also recommend joining industry consortiums and learn along with others in your industry and leverage best-practices-based approaches being published by these consortia. This is a great way for clients to know what's h…"
+  },
+  {
+    "id": "ku_video_YJ00O4gBs0I_1468",
+    "t_start": 1469.0,
+    "t_end": 1518.1,
+    "type": "overview",
+    "summary": "So let me close with this. Cryptographers from IBM have continued to demonstrate leadership through the development of innovative algorithms that have been standardized by NIST. More are being developed by IBM and being evaluated by NIST. These standards that NIST has announced will help organizations establish cyber resilience in the quantum era. Combining our research, quantum, technology, and consulting expertise, IBM is ready to be your partner in your journey to becoming quantum safe and achieving crypto-agility. Thank you and have a great day. For more information, do not hesitate to …"
+  }
+]

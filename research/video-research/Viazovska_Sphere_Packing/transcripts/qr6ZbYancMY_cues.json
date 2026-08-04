@@ -1,0 +1,1392 @@
+[
+  {
+    "t_start": 1.75,
+    "t_end": 8.71,
+    "text": "theorems my very biased collection of course today I would like to talk about"
+  },
+  {
+    "t_start": 8.71,
+    "t_end": 12.23,
+    "text": "course today I would like to talk about as we packing or um more appropriately"
+  },
+  {
+    "t_start": 12.23,
+    "t_end": 16.71,
+    "text": "as we packing or um more appropriately maybe bold packing we will see what that"
+  },
+  {
+    "t_start": 16.71,
+    "t_end": 19.91,
+    "text": "actually means and it's kind of this idea that um we are looking for the"
+  },
+  {
+    "t_start": 19.91,
+    "t_end": 22.07,
+    "text": "idea that um we are looking for the analog of well bees like to build their"
+  },
+  {
+    "t_start": 22.07,
+    "t_end": 24.63,
+    "text": "analog of well bees like to build their honeycombs right um and they are really"
+  },
+  {
+    "t_start": 24.63,
+    "t_end": 26.79,
+    "text": "honeycombs right um and they are really really efficient and there's a good"
+  },
+  {
+    "t_start": 26.79,
+    "t_end": 29.75,
+    "text": "really efficient and there's a good reason why they are efficient so the"
+  },
+  {
+    "t_start": 29.75,
+    "t_end": 35.19,
+    "text": "crucial polygon in kind of plain geometry and well we don't want to use"
+  },
+  {
+    "t_start": 35.19,
+    "t_end": 40.31,
+    "text": "hexagons we want to use spheres hence the name sphere packing and kind of look"
+  },
+  {
+    "t_start": 40.31,
+    "t_end": 42.869,
+    "text": "the name sphere packing and kind of look for the same properties to have a very"
+  },
+  {
+    "t_start": 42.869,
+    "t_end": 47.19,
+    "text": "for the same properties to have a very very dense uh packing in three space or"
+  },
+  {
+    "t_start": 47.19,
+    "t_end": 50.709,
+    "text": "very dense uh packing in three space or four space or five space or n space in"
+  },
+  {
+    "t_start": 50.709,
+    "t_end": 56.069,
+    "text": "four space or five space or n space in general so let me just try um start and"
+  },
+  {
+    "t_start": 56.069,
+    "t_end": 60.15,
+    "text": "problem I will run mathematica in a second but basically Basically, what you"
+  },
+  {
+    "t_start": 60.15,
+    "t_end": 63.67,
+    "text": "should think is that you have some region and my region in a second will be"
+  },
+  {
+    "t_start": 63.67,
+    "t_end": 69.27,
+    "text": "region and my region in a second will be R to the N or R3 or whatever. Um, in"
+  },
+  {
+    "t_start": 69.27,
+    "t_end": 75.91,
+    "text": "this picture, it's like this little box here. It's it's a box, right? So, whoop."
+  },
+  {
+    "t_start": 75.91,
+    "t_end": 81.27,
+    "text": "Um, that's a very bad box, but you know how this is a really really bad box, but"
+  },
+  {
+    "t_start": 81.27,
+    "t_end": 86.23,
+    "text": "you know how a box looks like. And you would like to fill it with sweeters. And"
+  },
+  {
+    "t_start": 86.23,
+    "t_end": 88.469,
+    "text": "would like to fill it with sweeters. And actually you will see that in some of"
+  },
+  {
+    "t_start": 88.469,
+    "t_end": 90.39,
+    "text": "actually you will see that in some of the pictures that I have on the"
+  },
+  {
+    "t_start": 90.39,
+    "t_end": 92.55,
+    "text": "the pictures that I have on the following slides. Actually we want to"
+  },
+  {
+    "t_start": 92.55,
+    "t_end": 94.39,
+    "text": "following slides. Actually we want to fill them with balls not with spheres."
+  },
+  {
+    "t_start": 94.39,
+    "t_end": 95.91,
+    "text": "fill them with balls not with spheres. So the difference between a sphere and a"
+  },
+  {
+    "t_start": 95.91,
+    "t_end": 101.27,
+    "text": "ball is that one is hollow and the other one isn't. So um a ball is like a cannon"
+  },
+  {
+    "t_start": 101.27,
+    "t_end": 102.789,
+    "text": "one isn't. So um a ball is like a cannon ball. It's really pretty heavy and"
+  },
+  {
+    "t_start": 102.789,
+    "t_end": 108.389,
+    "text": "filled and has volume and a sphere is kind of the surface of the bowl. But"
+  },
+  {
+    "t_start": 108.389,
+    "t_end": 109.91,
+    "text": "kind of the surface of the bowl. But anyway it's called sphere packing. I"
+  },
+  {
+    "t_start": 109.91,
+    "t_end": 113.51,
+    "text": "anyway it's called sphere packing. I shouldn't complain and I will go with"
+  },
+  {
+    "t_start": 113.51,
+    "t_end": 115.35,
+    "text": "the name sphere packing but packing would be more appropriate. So you would"
+  },
+  {
+    "t_start": 115.35,
+    "t_end": 120.87,
+    "text": "like to fill whatever kind of what I like in this case here the box or R n or"
+  },
+  {
+    "t_start": 120.87,
+    "t_end": 122.709,
+    "text": "like in this case here the box or R n or whatever you want to fill it with three"
+  },
+  {
+    "t_start": 122.709,
+    "t_end": 128.15,
+    "text": "whatever you want to fill it with three years such that um yeah you fill the"
+  },
+  {
+    "t_start": 128.15,
+    "t_end": 131.43,
+    "text": "most space so you have the highest density of spheres within space that's"
+  },
+  {
+    "t_start": 131.43,
+    "t_end": 138.15,
+    "text": "kind of the problem um and it's not so not so easy and it kind of depends on um"
+  },
+  {
+    "t_start": 138.15,
+    "t_end": 142.949,
+    "text": "really depends on the type of things you would like to fill your space with and"
+  },
+  {
+    "t_start": 142.949,
+    "t_end": 145.03,
+    "text": "would like to fill your space with and also on the space. So let me just run"
+  },
+  {
+    "t_start": 145.03,
+    "t_end": 146.949,
+    "text": "also on the space. So let me just run Mathematica. So here's a Mathematica"
+  },
+  {
+    "t_start": 146.949,
+    "t_end": 148.71,
+    "text": "Mathematica. So here's a Mathematica demonstration. It's of course linked in"
+  },
+  {
+    "t_start": 148.71,
+    "t_end": 151.03,
+    "text": "demonstration. It's of course linked in the description. And there are different"
+  },
+  {
+    "t_start": 151.03,
+    "t_end": 153.589,
+    "text": "the description. And there are different ways of filling. Well, they have various"
+  },
+  {
+    "t_start": 153.589,
+    "t_end": 157.91,
+    "text": "ways of filling. Well, they have various names. And if you click on them, they"
+  },
+  {
+    "t_start": 157.91,
+    "t_end": 163.509,
+    "text": "vary a little bit. So here this one here. And up here you can see how kind"
+  },
+  {
+    "t_start": 163.509,
+    "t_end": 170.229,
+    "text": "can also turn it a little bit. So SC and face centered FCC. That's a little bit"
+  },
+  {
+    "t_start": 170.229,
+    "t_end": 175.509,
+    "text": "different as you can see. Um and it kind of varies a little bit. So more like a"
+  },
+  {
+    "t_start": 175.509,
+    "t_end": 180.63,
+    "text": "hexagonal packing. So more like a hexagon here. So those are kind of the"
+  },
+  {
+    "t_start": 180.63,
+    "t_end": 185.27,
+    "text": "packings. And as you can see um the box is a little bit small for this packing."
+  },
+  {
+    "t_start": 185.27,
+    "t_end": 189.589,
+    "text": "So this is not really a dense packing. So you can't do this. So we assume here"
+  },
+  {
+    "t_start": 189.589,
+    "t_end": 192.149,
+    "text": "So you can't do this. So we assume here that all spheres have a fixed radius."
+  },
+  {
+    "t_start": 192.149,
+    "t_end": 193.75,
+    "text": "that all spheres have a fixed radius. And of course then we can just assume"
+  },
+  {
+    "t_start": 193.75,
+    "t_end": 196.309,
+    "text": "And of course then we can just assume that they have radius one. And well it"
+  },
+  {
+    "t_start": 196.309,
+    "t_end": 197.83,
+    "text": "that they have radius one. And well it depends really on the box. So, if you"
+  },
+  {
+    "t_start": 197.83,
+    "t_end": 199.509,
+    "text": "depends really on the box. So, if you vary the dimension of the box a little"
+  },
+  {
+    "t_start": 199.509,
+    "t_end": 202.63,
+    "text": "vary the dimension of the box a little bit, as you can see, it actually might"
+  },
+  {
+    "t_start": 202.63,
+    "t_end": 205.75,
+    "text": "bit, as you can see, it actually might um it's a little bit slowish. It really"
+  },
+  {
+    "t_start": 205.75,
+    "t_end": 207.43,
+    "text": "um it's a little bit slowish. It really could change here. And as you can see,"
+  },
+  {
+    "t_start": 207.43,
+    "t_end": 209.67,
+    "text": "could change here. And as you can see, those numbers here will change. So, it"
+  },
+  {
+    "t_start": 209.67,
+    "t_end": 212.71,
+    "text": "those numbers here will change. So, it really depends not just on the type of"
+  },
+  {
+    "t_start": 212.71,
+    "t_end": 214.47,
+    "text": "really depends not just on the type of object you would like to fill space"
+  },
+  {
+    "t_start": 214.47,
+    "t_end": 216.55,
+    "text": "object you would like to fill space with. We'll show you hexagons in a"
+  },
+  {
+    "t_start": 216.55,
+    "t_end": 218.949,
+    "text": "with. We'll show you hexagons in a second, but also kind of what type of"
+  },
+  {
+    "t_start": 218.949,
+    "t_end": 223.91,
+    "text": "space you would like to fill. I hope the problem is now reasonably clear. So a"
+  },
+  {
+    "t_start": 223.91,
+    "t_end": 226.47,
+    "text": "problem is now reasonably clear. So a pretty simple question, very very"
+  },
+  {
+    "t_start": 226.47,
+    "t_end": 231.35,
+    "text": "innocent question. So you would like to fill a certain type of space and maybe"
+  },
+  {
+    "t_start": 231.35,
+    "t_end": 233.75,
+    "text": "fill a certain type of space and maybe the easiest one to start with would be"
+  },
+  {
+    "t_start": 233.75,
+    "t_end": 236.309,
+    "text": "the easiest one to start with would be just the whole space itself. So just"
+  },
+  {
+    "t_start": 236.309,
+    "t_end": 244.07,
+    "text": "our world here you would like to fill it with spheres of the same radius. And you"
+  },
+  {
+    "t_start": 244.07,
+    "t_end": 246.47,
+    "text": "with spheres of the same radius. And you ask the question what is the well"
+  },
+  {
+    "t_start": 246.47,
+    "t_end": 250.149,
+    "text": "ask the question what is the well filling with with highest density. So um"
+  },
+  {
+    "t_start": 250.149,
+    "t_end": 251.589,
+    "text": "filling with with highest density. So um we have seen different types of"
+  },
+  {
+    "t_start": 251.589,
+    "t_end": 253.589,
+    "text": "we have seen different types of arranging the spheres in the"
+  },
+  {
+    "t_start": 253.589,
+    "t_end": 260.55,
+    "text": "to find the one that is densest right sounds like a very innocent question and"
+  },
+  {
+    "t_start": 260.55,
+    "t_end": 264.87,
+    "text": "it really sounds like there should be a nice solution in particular if you start"
+  },
+  {
+    "t_start": 264.87,
+    "t_end": 269.03,
+    "text": "nice solution in particular if you start trying um the two dimensional case so in"
+  },
+  {
+    "t_start": 269.03,
+    "t_end": 274.39,
+    "text": "answer is the hexagon of filling the bees do well maybe strictly speaking the"
+  },
+  {
+    "t_start": 274.39,
+    "t_end": 276.469,
+    "text": "bees do well maybe strictly speaking the be setup is a little bit more like a"
+  },
+  {
+    "t_start": 276.469,
+    "t_end": 279.67,
+    "text": "be setup is a little bit more like a like a a six"
+  },
+  {
+    "t_start": 279.67,
+    "t_end": 284.31,
+    "text": "like a hexagon and hexagons of course you can use them to fill space really"
+  },
+  {
+    "t_start": 284.31,
+    "t_end": 287.59,
+    "text": "you can use them to fill space really really efficiently with density 100%"
+  },
+  {
+    "t_start": 287.59,
+    "t_end": 291.83,
+    "text": "really efficiently with density 100% right so you could really to fill the"
+  },
+  {
+    "t_start": 291.83,
+    "t_end": 293.27,
+    "text": "whole space but we are asking you a slightly different question you would"
+  },
+  {
+    "t_start": 293.27,
+    "t_end": 299.03,
+    "text": "like to fill it um with spheres and the way to do it is kind of to to uh to make"
+  },
+  {
+    "t_start": 299.03,
+    "t_end": 301.35,
+    "text": "way to do it is kind of to to uh to make it like this well this is a really bad"
+  },
+  {
+    "t_start": 301.35,
+    "t_end": 304.23,
+    "text": "it like this well this is a really bad drawing but they should touch uh so to"
+  },
+  {
+    "t_start": 304.23,
+    "t_end": 305.909,
+    "text": "drawing but they should touch uh so to kind of arrange the spheres along the"
+  },
+  {
+    "t_start": 305.909,
+    "t_end": 309.43,
+    "text": "kind of arrange the spheres along the hexagon as in the picture in the middle"
+  },
+  {
+    "t_start": 309.43,
+    "t_end": 313.67,
+    "text": "hexagon as in the picture in the middle as in this picture here and then you"
+  },
+  {
+    "t_start": 313.67,
+    "t_end": 317.43,
+    "text": "kind of can fill space pretty pretty efficiently. So um in this filling you"
+  },
+  {
+    "t_start": 317.43,
+    "t_end": 320.31,
+    "text": "efficiently. So um in this filling you fill about 90% of space. 90% of space"
+  },
+  {
+    "t_start": 320.31,
+    "t_end": 326.15,
+    "text": "will be occupied by your spheres or as I said before by by your bowls actually"
+  },
+  {
+    "t_start": 326.15,
+    "t_end": 330.23,
+    "text": "90% of space will be occupied by your balls. Anyway, I will stay with spheres"
+  },
+  {
+    "t_start": 330.23,
+    "t_end": 332.469,
+    "text": "balls. Anyway, I will stay with spheres here, which is pretty good. And the"
+  },
+  {
+    "t_start": 332.469,
+    "t_end": 335.189,
+    "text": "here, which is pretty good. And the point is, of course, kind of to prove"
+  },
+  {
+    "t_start": 335.189,
+    "t_end": 340.71,
+    "text": "that there is no other kind of random arrangement if you want of spheres that"
+  },
+  {
+    "t_start": 340.71,
+    "t_end": 342.71,
+    "text": "arrangement if you want of spheres that do does a better job, right? There could"
+  },
+  {
+    "t_start": 342.71,
+    "t_end": 344.79,
+    "text": "do does a better job, right? There could be some principle there could be some"
+  },
+  {
+    "t_start": 344.79,
+    "t_end": 347.51,
+    "text": "be some principle there could be some crazy random arrangement of spheres,"
+  },
+  {
+    "t_start": 347.51,
+    "t_end": 352.15,
+    "text": "whatever how it looks like that does actually a better job. Um, but in this"
+  },
+  {
+    "t_start": 352.15,
+    "t_end": 357.189,
+    "text": "case, it's not so hard to show that this is not not the case. So with this 91% or"
+  },
+  {
+    "t_start": 357.189,
+    "t_end": 359.909,
+    "text": "is not not the case. So with this 91% or whatever it is roughly this is as good"
+  },
+  {
+    "t_start": 359.909,
+    "t_end": 365.029,
+    "text": "as it gets right. So you can fill 91% of space and the filling that does the job"
+  },
+  {
+    "t_start": 365.029,
+    "t_end": 370.629,
+    "text": "is the one that kind of be these use. Uh so the hex hexagon as I said the hexagon"
+  },
+  {
+    "t_start": 370.629,
+    "t_end": 376.39,
+    "text": "is kind of the main polygon or one of the most important polygons in the plain"
+  },
+  {
+    "t_start": 376.39,
+    "t_end": 381.51,
+    "text": "the most important polygons in the plain case here. Of course our space here is a"
+  },
+  {
+    "t_start": 381.51,
+    "t_end": 388.71,
+    "text": "It's very nice. So this is relatively easy to prove. And then you might go on"
+  },
+  {
+    "t_start": 388.71,
+    "t_end": 396.71,
+    "text": "nice problem for a while. So next case would be R3. And in R3 you might come up"
+  },
+  {
+    "t_start": 396.71,
+    "t_end": 398.55,
+    "text": "would be R3. And in R3 you might come up with a conjecture very quickly. So it's"
+  },
+  {
+    "t_start": 398.55,
+    "t_end": 400.469,
+    "text": "with a conjecture very quickly. So it's called Kepler's conjecture. So this left"
+  },
+  {
+    "t_start": 400.469,
+    "t_end": 407.35,
+    "text": "hand side is stolen from Kept Kepler's original paper. Although I must admit at"
+  },
+  {
+    "t_start": 407.35,
+    "t_end": 408.95,
+    "text": "original paper. Although I must admit at Kepler's time people weren't writing"
+  },
+  {
+    "t_start": 408.95,
+    "t_end": 414.55,
+    "text": "books. So I think it's stolen from a book of Kepler and Kepler kind of makes"
+  },
+  {
+    "t_start": 414.55,
+    "t_end": 416.39,
+    "text": "book of Kepler and Kepler kind of makes this conjecture that the cannonballs"
+  },
+  {
+    "t_start": 416.39,
+    "t_end": 419.67,
+    "text": "this conjecture that the cannonballs stacking. So now it's balls right. So"
+  },
+  {
+    "t_start": 419.67,
+    "t_end": 426.95,
+    "text": "the cannonballs and I would like to fill all of our world with cannonballs and um"
+  },
+  {
+    "t_start": 426.95,
+    "t_end": 428.95,
+    "text": "all of our world with cannonballs and um kappa conjectures that this face"
+  },
+  {
+    "t_start": 428.95,
+    "t_end": 435.029,
+    "text": "can see on the right hand side here that all of us are very familiar with is the"
+  },
+  {
+    "t_start": 435.029,
+    "t_end": 437.029,
+    "text": "all of us are very familiar with is the most efficient one. Certainly it is"
+  },
+  {
+    "t_start": 437.029,
+    "t_end": 445.589,
+    "text": "efficient. So that's not so hard to see. So in this case it it drops quite a bit."
+  },
+  {
+    "t_start": 445.589,
+    "t_end": 449.51,
+    "text": "So it's only around 70% 75% of space that is filled. Uh contrast to the 90%"
+  },
+  {
+    "t_start": 449.51,
+    "t_end": 452.71,
+    "text": "that is filled. Uh contrast to the 90% before or 91 whatever it was. Um but"
+  },
+  {
+    "t_start": 452.71,
+    "t_end": 455.749,
+    "text": "before or 91 whatever it was. Um but it's still quite very efficient and"
+  },
+  {
+    "t_start": 455.749,
+    "t_end": 459.11,
+    "text": "people use it all the time not just with Kellen balls maybe I've seen stacked"
+  },
+  {
+    "t_start": 459.11,
+    "t_end": 463.589,
+    "text": "oranges or something. Uh so this is kind of what Kepler conjectured and it took"
+  },
+  {
+    "t_start": 463.589,
+    "t_end": 466.23,
+    "text": "of what Kepler conjectured and it took quite a it's really hard to prove this"
+  },
+  {
+    "t_start": 466.23,
+    "t_end": 467.83,
+    "text": "quite a it's really hard to prove this and the problem are those random"
+  },
+  {
+    "t_start": 467.83,
+    "t_end": 471.11,
+    "text": "and the problem are those random arrangements. You could think of okay"
+  },
+  {
+    "t_start": 471.11,
+    "t_end": 475.189,
+    "text": "sure this works pretty well you can come up with this strategy pretty fast and"
+  },
+  {
+    "t_start": 475.189,
+    "t_end": 477.589,
+    "text": "up with this strategy pretty fast and you've seen this before. So yeah you"
+  },
+  {
+    "t_start": 477.589,
+    "t_end": 479.27,
+    "text": "you've seen this before. So yeah you would conjecture that this might be the"
+  },
+  {
+    "t_start": 479.27,
+    "t_end": 484.629,
+    "text": "would conjecture that this might be the best one. Um but to rule out the random"
+  },
+  {
+    "t_start": 484.629,
+    "t_end": 489.189,
+    "text": "those balls like a random arrangement of cannonballs that actually does a better"
+  },
+  {
+    "t_start": 489.189,
+    "t_end": 491.83,
+    "text": "cannonballs that actually does a better job. That's not so easy and it's it's"
+  },
+  {
+    "t_start": 491.83,
+    "t_end": 496.39,
+    "text": "really not so easy to see and one of the main problems is that well first of all"
+  },
+  {
+    "t_start": 496.39,
+    "t_end": 500.15,
+    "text": "main problems is that well first of all um there might not be a unique one that"
+  },
+  {
+    "t_start": 500.15,
+    "t_end": 501.83,
+    "text": "does it. So here are actually two. So there's also a hexagonal one which is"
+  },
+  {
+    "t_start": 501.83,
+    "t_end": 503.51,
+    "text": "there's also a hexagonal one which is not illustrated in the pictures but"
+  },
+  {
+    "t_start": 503.51,
+    "t_end": 510.629,
+    "text": "which was illustrated in the Mathematica demonstration. So if you want to go back"
+  },
+  {
+    "t_start": 510.629,
+    "t_end": 512.07,
+    "text": "and find the hexagonal packing, you can do that. That's that's very nice about"
+  },
+  {
+    "t_start": 512.07,
+    "t_end": 514.469,
+    "text": "do that. That's that's very nice about videos, right? Just go back and ignore"
+  },
+  {
+    "t_start": 514.469,
+    "t_end": 516.07,
+    "text": "videos, right? Just go back and ignore what I'm going to say anyway. Well, you"
+  },
+  {
+    "t_start": 516.07,
+    "t_end": 520.07,
+    "text": "what I'm going to say anyway. Well, you can ignore what I'm going to say in any"
+  },
+  {
+    "t_start": 520.07,
+    "t_end": 522.55,
+    "text": "case. not not not even for when you're watching this video. But anyway, so the"
+  },
+  {
+    "t_start": 522.55,
+    "t_end": 525.19,
+    "text": "watching this video. But anyway, so the point is there's not a unique solution."
+  },
+  {
+    "t_start": 525.19,
+    "t_end": 530.15,
+    "text": "point is there's not a unique solution. And even if you find one that looks very"
+  },
+  {
+    "t_start": 530.15,
+    "t_end": 532.31,
+    "text": "good, there might still be this option that there's some really really crazy"
+  },
+  {
+    "t_start": 532.31,
+    "t_end": 536.31,
+    "text": "arrangement that it's really really even hard to imagine or almost impossible to"
+  },
+  {
+    "t_start": 536.31,
+    "t_end": 541.03,
+    "text": "hard to imagine or almost impossible to imagine which still does a better job."
+  },
+  {
+    "t_start": 541.03,
+    "t_end": 545.19,
+    "text": "So this is extremely hard to prove and it took a long long time to prove it. So"
+  },
+  {
+    "t_start": 545.19,
+    "t_end": 546.949,
+    "text": "if you Google Kepler's conjecture, there's a lot of resources about"
+  },
+  {
+    "t_start": 546.949,
+    "t_end": 548.79,
+    "text": "there's a lot of resources about Kepler's conjecture. It was really a"
+  },
+  {
+    "t_start": 548.79,
+    "t_end": 553.509,
+    "text": "breakthrough when it was proven uh not very long ago actually. So compared to"
+  },
+  {
+    "t_start": 553.509,
+    "t_end": 555.43,
+    "text": "very long ago actually. So compared to Kepler which was quite quite a while"
+  },
+  {
+    "t_start": 555.43,
+    "t_end": 559.75,
+    "text": "ago. So what can we say about this problem? So if you already get stuck in"
+  },
+  {
+    "t_start": 559.75,
+    "t_end": 562.31,
+    "text": "problem? So if you already get stuck in dimension three, you might think there's"
+  },
+  {
+    "t_start": 562.31,
+    "t_end": 563.75,
+    "text": "dimension three, you might think there's absolutely nothing I can say. So what"
+  },
+  {
+    "t_start": 563.75,
+    "t_end": 568.23,
+    "text": "absolutely nothing I can say. So what can I say about dimension four, five,"
+  },
+  {
+    "t_start": 568.23,
+    "t_end": 572.389,
+    "text": "maybe nothing. But it turns out that we can actually say at least a little bit."
+  },
+  {
+    "t_start": 572.389,
+    "t_end": 574.63,
+    "text": "can actually say at least a little bit. And this is the theorem for today. So"
+  },
+  {
+    "t_start": 574.63,
+    "t_end": 576.71,
+    "text": "And this is the theorem for today. So the the solution to the sphere packing"
+  },
+  {
+    "t_start": 576.71,
+    "t_end": 581.35,
+    "text": "problem is known not in many dimensions. I must admit most of them are very very"
+  },
+  {
+    "t_start": 581.35,
+    "t_end": 583.509,
+    "text": "I must admit most of them are very very low dimensional but there were some"
+  },
+  {
+    "t_start": 583.509,
+    "t_end": 586.389,
+    "text": "low dimensional but there were some really really recent breakthroughs 2016"
+  },
+  {
+    "t_start": 586.389,
+    "t_end": 588.15,
+    "text": "really really recent breakthroughs 2016 2015ish"
+  },
+  {
+    "t_start": 588.15,
+    "t_end": 593.59,
+    "text": "um which proved it in dimensions 8 and 24 which is sounds really random. I"
+  },
+  {
+    "t_start": 593.59,
+    "t_end": 597.91,
+    "text": "we'll comment on dimensions 8 and 24 in a second but we know it from the beast"
+  },
+  {
+    "t_start": 597.91,
+    "t_end": 600.31,
+    "text": "a second but we know it from the beast in dimension two. So dimension one I"
+  },
+  {
+    "t_start": 600.31,
+    "t_end": 604.87,
+    "text": "leave it to you. dimension one is not so very interesting um and we know it by"
+  },
+  {
+    "t_start": 604.87,
+    "t_end": 606.71,
+    "text": "very interesting um and we know it by Keplas's conjecture which was really"
+  },
+  {
+    "t_start": 606.71,
+    "t_end": 612.71,
+    "text": "three and we kind of know it in those dimensions and I haven't really checked"
+  },
+  {
+    "t_start": 612.71,
+    "t_end": 615.03,
+    "text": "dimensions and I haven't really checked the latest literature but at one point"
+  },
+  {
+    "t_start": 615.03,
+    "t_end": 616.47,
+    "text": "the latest literature but at one point it just will break down so we only"
+  },
+  {
+    "t_start": 616.47,
+    "t_end": 619.03,
+    "text": "it just will break down so we only really know it for for low dimensions"
+  },
+  {
+    "t_start": 619.03,
+    "t_end": 625.509,
+    "text": "and the problem is as you can see this in this little table down here um and"
+  },
+  {
+    "t_start": 625.509,
+    "t_end": 628.949,
+    "text": "in this little table down here um and also in my folk conjecture or in the"
+  },
+  {
+    "t_start": 628.949,
+    "t_end": 634.87,
+    "text": "folk conjecture whatever is that as soon as you restrict to a letter, so a nice"
+  },
+  {
+    "t_start": 634.87,
+    "t_end": 639.43,
+    "text": "as you restrict to a letter, so a nice lettuce like like R2 Z2. So Z2 lettuce"
+  },
+  {
+    "t_start": 639.43,
+    "t_end": 644.79,
+    "text": "would be this one. Um you can imagine a Z3 lettuce which is just the same thing"
+  },
+  {
+    "t_start": 644.79,
+    "t_end": 648.47,
+    "text": "Z3 lettuce which is just the same thing in three dimensions. So you have certain"
+  },
+  {
+    "t_start": 648.47,
+    "t_end": 651.509,
+    "text": "in three dimensions. So you have certain space points and you assume that the"
+  },
+  {
+    "t_start": 651.509,
+    "t_end": 654.15,
+    "text": "space points and you assume that the spheres need to be centered around those"
+  },
+  {
+    "t_start": 654.15,
+    "t_end": 656.389,
+    "text": "spheres need to be centered around those lettuce points. You can still vary the"
+  },
+  {
+    "t_start": 656.389,
+    "t_end": 658.87,
+    "text": "lettuce points. You can still vary the letters but the spheres are kind of"
+  },
+  {
+    "t_start": 658.87,
+    "t_end": 660.63,
+    "text": "letters but the spheres are kind of bound to the letters. Then this is"
+  },
+  {
+    "t_start": 660.63,
+    "t_end": 662.71,
+    "text": "bound to the letters. Then this is actually really relatively easy to"
+  },
+  {
+    "t_start": 662.71,
+    "t_end": 668.069,
+    "text": "prove. So it makes my life much easier and quite a bit is known. So the various"
+  },
+  {
+    "t_start": 668.069,
+    "t_end": 670.87,
+    "text": "and quite a bit is known. So the various dimensions are given by various versions"
+  },
+  {
+    "t_start": 670.87,
+    "t_end": 677.509,
+    "text": "of dugan diagrams. If you have seen this for example in type here it's the E8 and"
+  },
+  {
+    "t_start": 677.509,
+    "t_end": 680.069,
+    "text": "for example in type here it's the E8 and there's this famous letters in dimension"
+  },
+  {
+    "t_start": 680.069,
+    "t_end": 683.67,
+    "text": "there's this famous letters in dimension 24 which is just ridiculous. It's just a"
+  },
+  {
+    "t_start": 683.67,
+    "t_end": 688.069,
+    "text": "24 which is just ridiculous. It's just a miracle that exists which is called the"
+  },
+  {
+    "t_start": 688.069,
+    "t_end": 690.71,
+    "text": "leech latis. But as soon as you release this very very rigid setup of I putting"
+  },
+  {
+    "t_start": 690.71,
+    "t_end": 693.35,
+    "text": "this very very rigid setup of I putting my my middle midpoints of my spheres on"
+  },
+  {
+    "t_start": 693.35,
+    "t_end": 695.509,
+    "text": "my my middle midpoints of my spheres on the lettuce points it is really really"
+  },
+  {
+    "t_start": 695.509,
+    "t_end": 699.91,
+    "text": "the lettuce points it is really really hard to prove and not really much is"
+  },
+  {
+    "t_start": 699.91,
+    "t_end": 701.59,
+    "text": "known and kind of the conjecture the folk conjecture which makes this whole"
+  },
+  {
+    "t_start": 701.59,
+    "t_end": 703.59,
+    "text": "folk conjecture which makes this whole problem so complicated is that as soon"
+  },
+  {
+    "t_start": 703.59,
+    "t_end": 708.949,
+    "text": "as you gain go in high enough dimensions then probably the latis packing which is"
+  },
+  {
+    "t_start": 708.949,
+    "t_end": 714.47,
+    "text": "then probably the latis packing which is the one you can easy prove. So the most"
+  },
+  {
+    "t_start": 714.47,
+    "t_end": 718.79,
+    "text": "find. Um in contrast to the most efficient packing which could be kind of"
+  },
+  {
+    "t_start": 718.79,
+    "t_end": 721.11,
+    "text": "efficient packing which could be kind of a random arrangement. Um this is really"
+  },
+  {
+    "t_start": 721.11,
+    "t_end": 723.35,
+    "text": "a random arrangement. Um this is really hard to find and in higher dimensions"
+  },
+  {
+    "t_start": 723.35,
+    "t_end": 726.23,
+    "text": "hard to find and in higher dimensions it's most likely that the uh most dense"
+  },
+  {
+    "t_start": 726.23,
+    "t_end": 727.829,
+    "text": "it's most likely that the uh most dense packing is actually kind of a random"
+  },
+  {
+    "t_start": 727.829,
+    "t_end": 729.99,
+    "text": "packing is actually kind of a random packing and we are just extremely lucky"
+  },
+  {
+    "t_start": 729.99,
+    "t_end": 733.67,
+    "text": "packing and we are just extremely lucky in dimensions 8 and 24 and also in the"
+  },
+  {
+    "t_start": 733.67,
+    "t_end": 736.629,
+    "text": "in dimensions 8 and 24 and also in the low dimensions that actually uh the"
+  },
+  {
+    "t_start": 736.629,
+    "t_end": 738.79,
+    "text": "low dimensions that actually uh the densest packings so general packings"
+  },
+  {
+    "t_start": 738.79,
+    "t_end": 743.11,
+    "text": "with random points are lettuce packings and that's what happens here and that's"
+  },
+  {
+    "t_start": 743.11,
+    "t_end": 745.75,
+    "text": "and that's what happens here and that's why you see those those lettucees which"
+  },
+  {
+    "t_start": 745.75,
+    "t_end": 748.069,
+    "text": "why you see those those lettucees which are which are known to be extremely"
+  },
+  {
+    "t_start": 748.069,
+    "t_end": 753.829,
+    "text": "efficient and they are really one of these miraculous objects in mathematics."
+  },
+  {
+    "t_start": 753.829,
+    "t_end": 757.67,
+    "text": "They just pop out out of nowhere and then they're most efficient in a certain"
+  },
+  {
+    "t_start": 757.67,
+    "t_end": 759.67,
+    "text": "then they're most efficient in a certain sense. It's not much different from a"
+  },
+  {
+    "t_start": 759.67,
+    "t_end": 764.389,
+    "text": "hexagon. It's just a hexagon is also very miraculous. Just does the job. It's"
+  },
+  {
+    "t_start": 764.389,
+    "t_end": 765.99,
+    "text": "very miraculous. Just does the job. It's just a higher dimension version if you"
+  },
+  {
+    "t_start": 765.99,
+    "t_end": 767.67,
+    "text": "just a higher dimension version if you want. And it's kind of hard to think"
+  },
+  {
+    "t_start": 767.67,
+    "t_end": 770.23,
+    "text": "want. And it's kind of hard to think about it and it's way more surprising if"
+  },
+  {
+    "t_start": 770.23,
+    "t_end": 773.11,
+    "text": "about it and it's way more surprising if you see a 24dimensional version of the"
+  },
+  {
+    "t_start": 773.11,
+    "t_end": 774.79,
+    "text": "you see a 24dimensional version of the hexagon which doesn't really look like"
+  },
+  {
+    "t_start": 774.79,
+    "t_end": 778.47,
+    "text": "hexagon which doesn't really look like hexagon anymore. It's it's really"
+  },
+  {
+    "t_start": 778.47,
+    "t_end": 781.03,
+    "text": "different but still it's does kind of does the same job. if you want."
+  },
+  {
+    "t_start": 781.03,
+    "t_end": 783.91,
+    "text": "does the same job. if you want. Anyway, um so what I'm going to explain"
+  },
+  {
+    "t_start": 783.91,
+    "t_end": 789.19,
+    "text": "Anyway, um so what I'm going to explain last so this was a theorem. I would like"
+  },
+  {
+    "t_start": 789.19,
+    "t_end": 792.71,
+    "text": "to highlight a little bit uh those E8 and the leech lattice. So um certainly I"
+  },
+  {
+    "t_start": 792.71,
+    "t_end": 794.629,
+    "text": "and the leech lattice. So um certainly I should do a different video on those. So"
+  },
+  {
+    "t_start": 794.629,
+    "t_end": 796.31,
+    "text": "should do a different video on those. So they're really really interesting and it"
+  },
+  {
+    "t_start": 796.31,
+    "t_end": 799.509,
+    "text": "they're really really interesting and it was roughly around the same time as I"
+  },
+  {
+    "t_start": 799.509,
+    "t_end": 801.67,
+    "text": "said when people proved that. It's really really recent for mathematics."
+  },
+  {
+    "t_start": 801.67,
+    "t_end": 806.23,
+    "text": "really really recent for mathematics. It's 2016 and they really gives the"
+  },
+  {
+    "t_start": 806.23,
+    "t_end": 809.11,
+    "text": "densest packing by just stacking the spheres on the lattice. So the midpoints"
+  },
+  {
+    "t_start": 809.11,
+    "t_end": 812.949,
+    "text": "spheres on the lattice. So the midpoints on the spheres on the lattice and while"
+  },
+  {
+    "t_start": 812.949,
+    "t_end": 814.949,
+    "text": "not going too much into details here they are really really important objects"
+  },
+  {
+    "t_start": 814.949,
+    "t_end": 819.43,
+    "text": "they are really really important objects kind of they kind of pop up randomly in"
+  },
+  {
+    "t_start": 819.43,
+    "t_end": 824.389,
+    "text": "going to explain in a different video. Uh for now just for example that people"
+  },
+  {
+    "t_start": 824.389,
+    "t_end": 827.35,
+    "text": "Uh for now just for example that people actually built a projection of E8 out of"
+  },
+  {
+    "t_start": 827.35,
+    "t_end": 832.389,
+    "text": "actually built a projection of E8 out of out of I think it's cord or something."
+  },
+  {
+    "t_start": 832.389,
+    "t_end": 837.189,
+    "text": "and um if you would like to think of it as an object in eight space, so this is"
+  },
+  {
+    "t_start": 837.189,
+    "t_end": 838.79,
+    "text": "as an object in eight space, so this is an eight dimensional object. It's not so"
+  },
+  {
+    "t_start": 838.79,
+    "t_end": 844.31,
+    "text": "an eight dimensional object. It's not so easy to think of. I just uh copied the"
+  },
+  {
+    "t_start": 844.31,
+    "t_end": 847.35,
+    "text": "matrix here. So it's it's a latice. So the the Z times points spent by the"
+  },
+  {
+    "t_start": 847.35,
+    "t_end": 852.23,
+    "text": "the the Z times points spent by the vectors by the uh what is it the column"
+  },
+  {
+    "t_start": 852.23,
+    "t_end": 856.47,
+    "text": "actually the lattice. And if you look at the entries, it's absolutely not clear"
+  },
+  {
+    "t_start": 856.47,
+    "t_end": 861.03,
+    "text": "why it should be in any way a nice blice. But honestly, if you look at the"
+  },
+  {
+    "t_start": 861.03,
+    "t_end": 864.31,
+    "text": "blice. But honestly, if you look at the whatever the end points of a hexagon in"
+  },
+  {
+    "t_start": 864.31,
+    "t_end": 865.99,
+    "text": "whatever the end points of a hexagon in coordinates, it's also not quite clear"
+  },
+  {
+    "t_start": 865.99,
+    "t_end": 870.15,
+    "text": "coordinates, it's also not quite clear why the hexagon should be a good object"
+  },
+  {
+    "t_start": 870.15,
+    "t_end": 872.069,
+    "text": "to study. It's kind of the same here. So, it's a little bit miraculous what"
+  },
+  {
+    "t_start": 872.069,
+    "t_end": 875.03,
+    "text": "So, it's a little bit miraculous what happens to those E8 letters and the"
+  },
+  {
+    "t_start": 875.03,
+    "t_end": 876.79,
+    "text": "happens to those E8 letters and the leech letters. And I should go into more"
+  },
+  {
+    "t_start": 876.79,
+    "t_end": 879.189,
+    "text": "leech letters. And I should go into more details, but the point here is that in"
+  },
+  {
+    "t_start": 879.189,
+    "t_end": 882.069,
+    "text": "details, but the point here is that in dimensions 8 and 24, we are still kind"
+  },
+  {
+    "t_start": 882.069,
+    "t_end": 884.71,
+    "text": "dimensions 8 and 24, we are still kind of lucky. This is kind of the the law of"
+  },
+  {
+    "t_start": 884.71,
+    "t_end": 887.03,
+    "text": "of lucky. This is kind of the the law of small numbers. We are very lucky here."
+  },
+  {
+    "t_start": 887.03,
+    "t_end": 889.59,
+    "text": "small numbers. We are very lucky here. And the densest backing is not random."
+  },
+  {
+    "t_start": 889.59,
+    "t_end": 891.75,
+    "text": "And the densest backing is not random. It's one of those lettuce backings and"
+  },
+  {
+    "t_start": 891.75,
+    "t_end": 894.79,
+    "text": "It's one of those lettuce backings and it's well with faith with the midpoint"
+  },
+  {
+    "t_start": 894.79,
+    "t_end": 898.79,
+    "text": "it's well with faith with the midpoint centered on those E8 or leech lattice"
+  },
+  {
+    "t_start": 898.79,
+    "t_end": 901.189,
+    "text": "centered on those E8 or leech lattice whatever it is depends on whether it's"
+  },
+  {
+    "t_start": 901.189,
+    "t_end": 904.87,
+    "text": "whatever it is depends on whether it's dimension 8 or dimension 24. Anyway, so"
+  },
+  {
+    "t_start": 904.87,
+    "t_end": 908.47,
+    "text": "dimension 8 or dimension 24. Anyway, so let me wrap up. So the theorem here"
+  },
+  {
+    "t_start": 908.47,
+    "t_end": 913.67,
+    "text": "doesn't have any nice name. Let me just call it this weird packing theorem is um"
+  },
+  {
+    "t_start": 913.67,
+    "t_end": 916.949,
+    "text": "call it this weird packing theorem is um to find the densest packing in your"
+  },
+  {
+    "t_start": 916.949,
+    "t_end": 918.629,
+    "text": "to find the densest packing in your favorite dimension and just pack the"
+  },
+  {
+    "t_start": 918.629,
+    "t_end": 922.389,
+    "text": "favorite dimension and just pack the whole space. Just packing a specific um"
+  },
+  {
+    "t_start": 922.389,
+    "t_end": 927.67,
+    "text": "whatever box or something is a much more complicated problem actually. So um just"
+  },
+  {
+    "t_start": 927.67,
+    "t_end": 932.23,
+    "text": "complicated problem actually. So um just let's stay with the space and it's only"
+  },
+  {
+    "t_start": 932.23,
+    "t_end": 936.069,
+    "text": "known in very small dimensions and the kind of the point is the reason why it's"
+  },
+  {
+    "t_start": 936.069,
+    "t_end": 940.71,
+    "text": "because we're super lucky and in this case kind of there is no random packing"
+  },
+  {
+    "t_start": 940.71,
+    "t_end": 942.87,
+    "text": "case kind of there is no random packing if you want or no really efficient"
+  },
+  {
+    "t_start": 942.87,
+    "t_end": 944.23,
+    "text": "if you want or no really efficient random packing. Of course, there is a"
+  },
+  {
+    "t_start": 944.23,
+    "t_end": 949.67,
+    "text": "random packing um which is better than a packing on a lettuce. And the lettuce"
+  },
+  {
+    "t_start": 949.67,
+    "t_end": 952.23,
+    "text": "packing on a lettuce. And the lettuce packings are just easy in some sense to"
+  },
+  {
+    "t_start": 952.23,
+    "t_end": 955.99,
+    "text": "packings are just easy in some sense to find and they're usually related to very"
+  },
+  {
+    "t_start": 955.99,
+    "t_end": 958.15,
+    "text": "find and they're usually related to very important structures in mathematics like"
+  },
+  {
+    "t_start": 958.15,
+    "t_end": 959.829,
+    "text": "important structures in mathematics like the lettuce is coming from the Dukan"
+  },
+  {
+    "t_start": 959.829,
+    "t_end": 964.389,
+    "text": "the lettuce is coming from the Dukan diagrams or the leech lettuce. In any"
+  },
+  {
+    "t_start": 964.389,
+    "t_end": 969.279,
+    "text": "case, I hope you enjoy lettucees. I mean, I hope you enjoyed this video and"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "slug": "euler-konigsberg",
+  "videos": [
+    {
+      "id": "W18FDEA1jRQ",
+      "title": "Numberphile — Seven Bridges of Königsberg (Cliff Stoll)",
+      "has_transcript": true,
+      "chars": 10857,
+      "units": 10,
+      "url": "https://www.youtube.com/watch?v=W18FDEA1jRQ"
+    },
+    {
+      "id": "nZwSo4vfw6c",
+      "title": "TED-Ed — How the Königsberg bridge problem changed mathematics",
+      "has_transcript": true,
+      "chars": 3441,
+      "units": 3,
+      "url": "https://www.youtube.com/watch?v=nZwSo4vfw6c"
+    },
+    {
+      "id": "eIb1cz06UwI",
+      "title": "Sarada Herke — Graph Theory: Seven Bridges of Konigsberg",
+      "has_transcript": true,
+      "chars": 10797,
+      "units": 9,
+      "url": "https://www.youtube.com/watch?v=eIb1cz06UwI"
+    },
+    {
+      "id": "dSK5jTEe-AM",
+      "title": "Dr. Trefor Bazett — Euler Paths & 7 Bridges",
+      "has_transcript": true,
+      "chars": 8753,
+      "units": 5,
+      "url": "https://www.youtube.com/watch?v=dSK5jTEe-AM"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+[
+  {
+    "id": "ku_video_VR3Ezxo5wo8_26",
+    "t_start": 26.1,
+    "t_end": 116.3,
+    "type": "overview",
+    "summary": "do you hear us hello Alexi can we start [Music] uh all right right now yes okay so our second lecture course in this conferences by Marina vazovska it's this conferences by Marina vazovska it's called old and new ideas in sphere called old and new ideas in sphere packing and the first lecture by Marina packing and the first lecture by Marina is called the sphere packing problem"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_123",
+    "t_start": 123.8,
+    "t_end": 216.6,
+    "type": "overview",
+    "summary": "hello everyone so this is my first lecture the series of four lectures and lecture the series of four lectures and we will speak about the sphere packing we will speak about the sphere packing problem so as many of you traveled to problem so as many of you traveled to get to this conference you had to solve get to this conference you had to solve kind of a packing problem so I guess kind of a packing problem so I guess everyone has an intuitive idea of what everyone has an intuitive idea of what the problem is and so now let us formalize this problem in the UK for the euclidean space in the…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_216",
+    "t_start": 216.6,
+    "t_end": 309.8,
+    "type": "overview",
+    "summary": "and what is also as you know what is important for the packing problem is the important for the packing problem is the volume volume and so another useful uh object or and so another useful uh object or concept that we have in euclidean space concept that we have in euclidean space is the concept of volume is the concept of volume so so we have a standard volume form now we have all the algebraic structures we need to formulate our problem we need to formulate our problem so once since we have a distance we can and so we'll denote it by B depending on the point x in our euclidean space and …"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_309",
+    "t_start": 309.8,
+    "t_end": 400.1,
+    "type": "overview",
+    "summary": "and so how how can we achieve that so of course if you want to define a set of course if you want to define a set of balls what is sufficient to do so we balls what is sufficient to do so we will fix some radius R and we will deal will fix some radius R and we will deal only with balls of equal radius so for the sake of this course even when radiuses are all equal already the radiuses are all equal already the problem is quite interesting as I hope you will see at the end of four lectures and so then the only information we need and so then the only information we need is the size of our ba…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_407",
+    "t_start": 407.1,
+    "t_end": 498.4,
+    "type": "overview",
+    "summary": "denoted by P with sub index X to be this Union of balls play we want to put as many balls into euclidean space as we can of course here euclidean space as we can of course here we run into a kind of a technical we run into a kind of a technical problem is that our uh euclidean space has infinite volume it's another compact set and we could it's another compact set and we could put there infinitely many balls so we put there infinitely many balls so we need to give some quantitative measure need to give some quantitative measure to somehow what what how to distinguish to somehow what what ho…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_498",
+    "t_start": 498.4,
+    "t_end": 589.1,
+    "type": "overview",
+    "summary": "the okay as capital r goes to Infinity so what we are doing we are Computing the following are doing we are Computing the following ratio we take the we take our sphere big ball centered at any point of our clearance space for example at zero clearance space for example at zero and then we divided by the and then we divided by the volume of a of this big of this big Pole and so such a limit might not exist but we can take as to limit supremum which also exist and we will call it an upper density and if we will call it an upper density and if just the limit exists then we would say just the …"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_589",
+    "t_start": 589.1,
+    "t_end": 680.5,
+    "type": "overview",
+    "summary": "well behaved analytic definition so and it's mainly happens like this because it's mainly happens like this because euclidean space is a very nice space euclidean space is a very nice space and so now what's the some of the and so now what's the some of the problem I will speak about all this for problem I will speak about all this for lectures is the following one lectures is the following one so we would like to find the following quantity which is called is the sphere quantity which is called is the sphere speaking constant so the denoted by Delta with sub-index d and this would be the t…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_680",
+    "t_start": 680.5,
+    "t_end": 772.9,
+    "type": "overview",
+    "summary": "dimensions where we cannot find this number explicitly we want to prove upper tell you a little bit about motivation so why is it interesting to study this so why is it interesting to study this problem what is special about it and so and so first of all I would say that this is just a beautiful mathematical problem and we don't know an answer to it therefore it's worth studying it so so this is an example of geometric optimization problem and from here we optimization problem and from here we can learn how complicated geometric optimization problems can be and also actually in fact many me…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_780",
+    "t_start": 780.9,
+    "t_end": 872.6,
+    "type": "overview",
+    "summary": "analysis because this is where we have to prove many different inequalities of to prove many different inequalities of of various kinds of various kinds and it's also closely connected to because as we will see in a our series of lectures that many our series of lectures that many interesting constructions for spare interesting constructions for spare packings they come from number Theory and so also another reason there has few more reasons to study is surpacking problem one of them is that it is related to computer science namely to related to computer science namely to coding Theory and …"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_872",
+    "t_start": 872.6,
+    "t_end": 961.7,
+    "type": "overview",
+    "summary": "problem and of course it does not uh it's not exactly physics nothing really it's not exactly physics nothing really physical happens here however this just shows how complicated many many body problems can be and many many body problems can be and again there are many sometimes again there are many sometimes unexpected connect connections between unexpected connect connections between different meaningful physical systems different meaningful physical systems and this type of rather simple geometric erase the Blackboard and maybe it will be an opportunity for you to ask some be an opportun…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_971",
+    "t_start": 972.0,
+    "t_end": 1066.8,
+    "type": "overview",
+    "summary": "so let's first look at uh Dimension two and let's uh maybe we can choose for example R to be one half and X to be the Square ladies so this way we will get this kind of a sphere packing and so now let us compute its density and of course of course this its density and of course of course this this is a picture this continued in this is a picture this continued in all the all directions of the plane all the all directions of the plane so let us compute its density and if we look at here then this definition might be a little bit okay definition might be a little bit okay scary and maybe not …"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_1066",
+    "t_start": 1066.8,
+    "t_end": 1142.3,
+    "type": "overview",
+    "summary": "however what was one good thing that happens here is that this set X is set happens here is that this set X is set with a lot of structure on it namely it with a lot of structure on it namely it is a lettuce and so if there's a letter that's uh so to say it's a as periodic in the plane as a configuration can be and so this means that instead of computing this ratio for very big r what computing this ratio for very big r what we can do we can choose a fundamental domain of this lattice so a smaller piece of plane which after we translate piece of plane which after we translate it with the tw…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_1158",
+    "t_start": 1158.1,
+    "t_end": 1252.0,
+    "type": "overview",
+    "summary": "and what we will get we will get pi divided over pi divided over 4. 4. and yeah so if I divide it over four it's yeah something like three quarters which yeah something like three quarters which is not a bad result but also somehow not and then a plane which we should be able to do better to do better so maybe you have another suggestion for okay maybe I will denote this packing but not by not by PX but it's like but not by not by PX but it's like Square baby making yeah so let's instead of considering this Square lattice let's consider the this Square lattice let's consider the honeycomb l…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_1252",
+    "t_start": 1252.0,
+    "t_end": 1343.6,
+    "type": "overview",
+    "summary": "in terms of its basis so it would be generated by this vectors triangular lattice which looks like this so this is this Vector zero so this is this Vector zero one and this is the vector and so we will have a picture that looks like this okay and now we imagine that these are all disks of equal radius and that they do not overlap so and also of course the picture is repeated and all"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_1343",
+    "t_start": 1343.6,
+    "t_end": 1431.8,
+    "type": "overview",
+    "summary": "repeated and all directions so we could also imagined that this equal disk they pave all the play and so equal disk they pave all the play and so even like looking at this uh the picture so we see that now that the packing became much denser the packing became much denser and of course each disc is touching six other disks which is okay might be not so obvious on my picture but you have to use your imagination and but you have to use your imagination and correct the and so now we can also we don't need to actually go to like this very big r here actually go to like this very big r here we c…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_1435",
+    "t_start": 1435.5,
+    "t_end": 1525.7,
+    "type": "overview",
+    "summary": "and indeed it's a quiet old theorem so we know that if you are covered packing we know that if you are covered packing disks on on the planes or disks of equal disks on on the planes or disks of equal radius on a plane then this is the best backing that can be achieved and this theorem has somehow long theorem has somehow long history that I will speak about a bit so this theorem it was first approved by Axel 2 in I would say the end of 19th century beginning of 20th end of 19th century beginning of 20th century and then another uh or it was Rewritten or reformulated uh or it was Rewritten …"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_1525",
+    "t_start": 1525.7,
+    "t_end": 1618.1,
+    "type": "overview",
+    "summary": "regular triangular lattice or honeycomb lattice and it is this exactly this and so what I have decided to do for today is actually to today is actually to read this proof and maybe to to present and the proof is somehow it is nice so it is not all that difficult it is not all that difficult however it does contain some interesting however it does contain some interesting geometric areas and also what is interesting or maybe a bit disappointing that yeah this bit disappointing that yeah this geometric ideas they do not generalize geometric ideas they do not generalize to other dimensions so …"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_1618",
+    "t_start": 1618.1,
+    "t_end": 1708.7,
+    "type": "overview",
+    "summary": "and now what now I'm going to explain you how the proof works so yes so would you mention why this constant is sharp also in the proof sorry would you also mentioned why this constant is sharp in the proof because exactly understand the question so what does it mean the constant is sharp it means that we know we have an example and we have a proof which example and we have a proof which certifies that nothing can be better and certifies that nothing can be better and then the constant is sharpened so we then the constant is sharpened so we have an we have an example and now I have an we hav…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_1708",
+    "t_start": 1708.7,
+    "t_end": 1803.4,
+    "type": "overview",
+    "summary": "fact that this periodic to my knowledge this is not something we know because this is not something we know because because in this limiting process the because in this limiting process the periodicity would not be preserved but periodicity would not be preserved but yeah and also it seems like it really seems like a very difficult question to show that it always will be periodic but show that it always will be periodic but I never really thought too much about I never really thought too much about about the question so and again like I hope assuming periodic periodic is like in a mathemati…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_1803",
+    "t_start": 1803.4,
+    "t_end": 1893.6,
+    "type": "overview",
+    "summary": "then make some transform that all the centers of uh of all disks they are moved farther away but those discs which are closed are away are moved just very very little and then this also will be the configuration then this also will be the configuration of the same density so when we speak about uniqueness we need to add some more regularity conditions for example a more regularity conditions for example a periodicity and with so I think at the end of the lecture we will see that actually we lecture we will see that actually we will have a will have a uniqueness okay so so yes but the other …"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_1893",
+    "t_start": 1893.6,
+    "t_end": 1993.6,
+    "type": "overview",
+    "summary": "already A3 is not that good I think FCC is not A3 but I will double check it by tomorrow before tomorrow go with the proof and so the maybe one thing you wanted to mention is that the thing you wanted to mention is that the proof I'm presenting now it's written proof I'm presenting now it's written down in a book by Jana Spock so and it's called the book is combinatorial geometry of so that so foreign actually found a very nice generalization of it so the theorem of fish trough it works not only for uh so this perfect discs but actually for all this perfect discs but actually for all convex…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_1997",
+    "t_start": 1997.7,
+    "t_end": 2093.6,
+    "type": "overview",
+    "summary": "is that we take any packing and we consider the centers of all the consider the centers of all the disks in our packing and that what we are going to do we will consider the voronoi cells surrounding consider the voronoi cells surrounding any of of for this set of points so any any of of for this set of points so any configuration any configuration of points on a plane leads to the varanoi division of the plane and how it works division of the plane and how it works at for each point we will consider the at for each point we will consider the set of points that are closest to this set of po…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_2093",
+    "t_start": 2093.6,
+    "t_end": 2184.5,
+    "type": "overview",
+    "summary": "between two points is is bounded from below it also gives us geometric below it also gives us geometric restrictions on the varanoi cell and so restrictions on the varanoi cell and so the world cell is small when it has many sides right so we have a our we have our disk here inside of a very nice cell and of course the smallest nice cell and of course the smallest polygon it can be approximated with has polygon it can be approximated with has many many sides many many sides more sides than smaller the area of the however if we have polygons with many many sides it it's very difficult to man…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_2184",
+    "t_start": 2184.5,
+    "t_end": 2261.9,
+    "type": "overview",
+    "summary": "play with all these conditions and to pack them in a one nice proof and also good argument because the result that we want to get it has to be tight want to get it has to be tight so this should not be just a hand waving what I have presented right now but it what I have presented right now but it has to be a really smart argument that has to be a really smart argument that resolves all this makes all this resolves all this makes all this rigorous and so here's the following uh theorem it's actually much more than what we need for proving this this theorem but still I think it's geometrical…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_2278",
+    "t_start": 2278.5,
+    "t_end": 2368.6,
+    "type": "overview",
+    "summary": "and what I mean by convex disk it is a con convex compact set with non-empty interior and so now when we have this convex disk what we can do we can search for the what we can do we can search for the best a hexagon that for the hexagon of smallest area that for the hexagon of smallest area that contains this that contains this so so let let B6 denote the and so now we have the following inequalities that if n"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_2399",
+    "t_start": 2399.7,
+    "t_end": 2492.0,
+    "type": "overview",
+    "summary": "then we have a Bound for this number n then n is bounded above by the area of then n is bounded above by the area of the hexagon h divided by the area of the hexagon P6 and so one of the consequences of this theorem is that now we know how to pack theorem is that now we know how to pack all convex centrally symmetric bodies and so here one thing I want to say that and so here one thing I want to say that what a congruent backing means it means that we take our convex disk and we are allowed to move it in a plane using all allowed to move it in a plane using all the euclidean Transformations…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_2491",
+    "t_start": 2492.0,
+    "t_end": 2597.2,
+    "type": "overview",
+    "summary": "the plane with hexagon and this will then by this theorem it will be the best packing of the the best congruent packing of those complex disks other than four or five ones uh really know so but somehow it seems in dimension two hexagons they are very dimension two hexagons they are very special because of the Euler's formula special because of the Euler's formula so uh yeah so it seems probably for other for for other polygons we won't have such a neat result because here at least in the proof uh six plays very important role because this is the average number of sides of a polygon and a Pa…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_2599",
+    "t_start": 2599.8,
+    "t_end": 2690.9,
+    "type": "overview",
+    "summary": "do the proof or rather I will not be able to give every idea every explained able to give every idea every explained every step of the proof but hopefully to uh idea and at least mention all the important steps and so here as I already important steps and so here as I already told you one there is one useful fact told you one there is one useful fact from low dimensional topology that we are going to use and it says that if every planar graph Three N minus six edges and so this well this fact I will as you can suggested to you as the first can suggested to you as the first exercise of my le…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_2690",
+    "t_start": 2690.9,
+    "t_end": 2779.6,
+    "type": "overview",
+    "summary": "true for the proof is to use Euler's formula for the number of vertices edges formula for the number of vertices edges and and faces for a planar graph okay yeah probably our n has to be big enough yes enough yes yeah and so now let's enter another use important step is the following important step is the following uh lemon and all that there's now we're getting a little bit technical solid C1 little bit technical solid C1 CN CN be a system of"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_2805",
+    "t_start": 2805.2,
+    "t_end": 2908.4,
+    "type": "overview",
+    "summary": "or H is our convex hexagon as before so then R1 RN such that each of our discs sits inside of one of these polygons what is important is that the average number of number of the for the number of edges of our n or ISO okay as I it would be the number of vertices in Array"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_2911",
+    "t_start": 2911.2,
+    "t_end": 2963.0,
+    "type": "overview",
+    "summary": "okay so maybe one thing okay here's a band right so we would see that the I put this convex discs into our convex hexagon and then we divide our hexagon hexagon and then we divide our hexagon into into polygons and the so the average number of vertices in a the average number of vertices in a polygon would be smaller or equal than polygon would be smaller or equal than six and so the proof here is uh"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_3001",
+    "t_start": 3001.2,
+    "t_end": 3094.9,
+    "type": "overview",
+    "summary": "so my the proof consists of two steps and the first part would be the and the first part would be the existence of a partition of H into existence of a partition of H into convex polygons and this part probably I convex polygons and this part probably I will not speak much about so how we can one way to see it is that uh we take our convex sets and then starts to Growing them with a condition that they still them with a condition that they still have to remind have to remind remain convex and that they still should not have common interior points and then the claim is that if we take so to …"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_3098",
+    "t_start": 3098.7,
+    "t_end": 3195.8,
+    "type": "overview",
+    "summary": "the closures of this polygons so interior points interior parts of the polygons do not intersect intersect so our icon and CI is a subset of all right and now when we establish the existence of such a division of H now let's of such a division of H now let's compute the compute the foreign the number of edges now let's con suppose that we have such a our phone okay so or hexagon h or H and then it is divided into this convex polygons this graph each phase will go so we will construct actually a graph which is dual construct actually a graph which is dual to this division a planar graph whic…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_3208",
+    "t_start": 3209.0,
+    "t_end": 3302.7,
+    "type": "overview",
+    "summary": "and they will correspond to our convex polygons R1 or 2 are n and the complement of the complement of a hexagon h a hexagon h and then the edges between we will have edges between vertices if two faces in this division vertices if two faces in this division uh have a common Edge so it would be somehow graph dual to so it would be somehow graph dual to this for example before between R2 and this for example before between R2 and R3 we have an edge because they have a R3 we have an edge because they have a common Edge and so this way we will construct planar graph and so this graph will have …"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_3304",
+    "t_start": 3305.0,
+    "t_end": 3408.4,
+    "type": "overview",
+    "summary": "number of edges is smaller than equal than this number smaller than equal than this number so we know that because we have n plus 1 vertex and it would be bigger or equal than the number of edges and now we can con compute our number of edges in another compute our number of edges in another way because if we know how many edges of the polygons or I has so we can compute it in the following so we can compute it in the following way okay so unfortunately this is not the end of the story so we need to add some kind of a correction uh which belong to more than one polygon or"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_3411",
+    "t_start": 3411.9,
+    "t_end": 3505.8,
+    "type": "overview",
+    "summary": "so for example here what kind of points we have to count we have to count this we have to count we have to count this point Q would be one two three four Q would be four and so now we are almost done so now from this inequality here we would see that the number of vertices in all our polygons it is smaller or equal than 6 n minus Q which is smaller or equal than 6n and this is smaller or equal than 6n and this finishes the proof of the Lemma probably I will go a little bit over time [Music] so as you asked me about what happens if we decide to circumcise our closed disks not only by"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_3505",
+    "t_start": 3505.8,
+    "t_end": 3597.8,
+    "type": "overview",
+    "summary": "circumcise our closed disks not only by hexagons but maybe for other polygons hexagons but maybe for other polygons and here there is also a very nice geometric result about that and it will be important for us and it tells us that if we fix our convex disk and then try to circumcise convex disk and then try to circumcise it by polygons with different number of it by polygons with different number of sides then that sides then that dependence of dependence of the volume the volume of and gone from of n somehow follows has nice properties so it has nice convexity properties so it has nice co…"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_3600",
+    "t_start": 3600.5,
+    "t_end": 3690.7,
+    "type": "overview",
+    "summary": "be the be an engine of minimum area Here Comes cry sorry to come scribe to about then the following actually convexity property holds so if we want to compute this the area of PM it is smaller or equal than is smaller or equal than arithmetic win of the volumes of p n and so unfortunately I will have no time to prove this theorem and the proof is I would say it's very geometric and Elementary it's given in a book of but it is somehow it's it takes some some time to"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_3690",
+    "t_start": 3690.7,
+    "t_end": 3786.9,
+    "type": "overview",
+    "summary": "some time to prove this so and so now as we if we believe in this result or accept this result then we are now on our finishing client for for the proof of the theorem by for for the proof of the theorem by so now we only have to collect all the and so now proof of theorem foreign that so C1 CN our congruent copies of one uh uh convex disk C"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_3791",
+    "t_start": 3791.2,
+    "t_end": 3881.8,
+    "type": "overview",
+    "summary": "and they form a packing inside of convex hexagon h and so let r i we convex polygons constructed as before it also will be known by PS would be the s-gon of mineral Mal area and so we would have the following inequality and here of course if we SS polygons are IR also circumscribed about C so their"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_3881",
+    "t_start": 3881.8,
+    "t_end": 3973.8,
+    "type": "overview",
+    "summary": "IR also circumscribed about C so their volumes have to be bigger or equal than volumes have to be bigger or equal than those of a minimum for a minimal polygon those of a minimum for a minimal polygon with same number of size and so now so now what will what we will use we are going to use this convexity here coincides with the volume of PS at integer points and so now what we are using now what we have to use we have to use"
+  },
+  {
+    "id": "ku_video_VR3Ezxo5wo8_3973",
+    "t_start": 3973.8,
+    "t_end": 4058.7,
+    "type": "overview",
+    "summary": "now what we have to use we have to use the Johnsons inequality use the the Johnsons inequality use the complexity and so here we use the fact that we know what this average is what this average is so we can replace this value here by 6. yeah and actually this finishes our proof because this is exactly what we proof because this is exactly what we wanted to prove in the theorem of first and so since um over time now so I will stop at this point and let you ask your stop at this point and let you ask your questions thank you questions thank you foreign foreign [Applause]"
+  }
+]

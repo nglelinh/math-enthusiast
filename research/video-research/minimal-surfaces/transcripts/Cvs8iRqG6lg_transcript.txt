@@ -1,0 +1,261 @@
+if a surface is bounded by two circles one on top of the other what is the
+one on top of the other what is the configuration that gives the least
+surface area this question belongs to a class of problems known as plate problem
+class of problems known as plate problem which asks for any given boundary what
+which asks for any given boundary what is the surface with that boundary that
+has the least surface area the solution is called a minimal surface because it
+is called a minimal surface because it has minimal surface area this might just
+be a fun maths problem to play around but animal surfaces do occur in nature
+if you dip metal wires Twisted in some shape into a soap solution and then take
+shape into a soap solution and then take it out a soap film will be formed the
+film itself forms a minimal surface so it seems like nature can solve this
+it seems like nature can solve this problem for us but how does nature or
+problem once we know that we can build some algorithms to solve plateau's
+some algorithms to solve plateau's problem by simulating the physics
+however there is a bit of a disclaimer before we start the minimal surfaces we
+will discuss in the remainder of this video are only local Minima in the sense
+video are only local Minima in the sense that if you slightly distort the surface
+that if you slightly distort the surface you end up with more area but it's not
+necessarily a global minimum with that let's see how physics forces the soap
+film to take the shape of a minimal surface let's say this is the current
+surface let's say this is the current configuration of the soap film and we
+configuration of the soap film and we want to figure out how a particular
+Point evolves to do that we consider the forces acting on an infinitesimally
+small piece of the surface close to the point generally surface tension will try
+point generally surface tension will try to pull this piece of surface outwards
+pulling the piece towards other parts of the surface it turns out that the force
+the surface it turns out that the force acting on a very small piece of the
+boundary say with length DL has a magnitude to gamma multiplied by the
+length where gamma is the surface tension a constant that depends on the
+tension a constant that depends on the material in this case soap while two is
+material in this case soap while two is because we are actually dealing with two
+because we are actually dealing with two layers or two surfaces here as an
+layers or two surfaces here as an illustration of this a soap film like
+this has one side facing the outside air but there is also another side facing
+but there is also another side facing the cavity in the middle so for our
+the cavity in the middle so for our purposes there are two surfaces or two
+purposes there are two surfaces or two interfaces so that's the magnitude done
+interfaces so that's the magnitude done what about the direction well the force
+what about the direction well the force should be tangent to the surface so it
+should lie on the tangent plane this means the force is perpendicular to n
+the normal Vector at this point it will make sense shortly why we want to make
+make sense shortly why we want to make this
+observation on the other hand the force should be perpendicular to the boundary
+let's name this small Vector along the boundary t with length DL so T is a unit
+boundary t with length DL so T is a unit Vector that just encodes the direction
+Vector that just encodes the direction so f is perpendicular to both t and n
+so f is perpendicular to both t and n and because t and n are also
+and because t and n are also perpendicular to each other the
+direction is given by the cross product of t and n combined with the magnitude
+of t and n combined with the magnitude we found previously we see that the
+we found previously we see that the Force Vector f is 2 gamma * T CR n
+Force Vector f is 2 gamma * T CR n DL but this is just for a very small
+DL but this is just for a very small part of the boundary if we want to
+part of the boundary if we want to consider the effects along the full
+consider the effects along the full boundary then we need to integrate
+boundary then we need to integrate essentially summing up all these
+essentially summing up all these contributions from Tiny bits of the
+boundary the next step is to compute this integral which we will do in a
+this integral which we will do in a minute after Computing the integral we
+will divide this total four by the area of this small piece of surface so that
+of this small piece of surface so that we get pressure the reason we consider
+pressure rather than force is that if you shrink the surface towards the Red
+Dot the net force becomes closer and closer to zero due to symmetry while net
+closer to zero due to symmetry while net force from surface tension goes to zero
+pressure that is the force per area turns out to tend to a finite
+turns out to tend to a finite generically nonzero Vector this allows
+generically nonzero Vector this allows is to Define pressure acting at a point
+on the surface so from now on we will consider this as an infinitesimally
+small piece of the surface to compute the limit so we will focus on the net
+the limit so we will focus on the net force first and divide by area later we
+force first and divide by area later we can separate the vector n into a sum of
+can separate the vector n into a sum of two vectors n not and Delta n where n
+two vectors n not and Delta n where n not is the normal Vector in the middle
+not is the normal Vector in the middle of that piece of the surface and the
+Delta n would be the difference between the normal Vector at the boundary and
+that in the middle the reason we want to separate is that this part sees n not as
+separate is that this part sees n not as a constant Vector in a sense that it
+a constant Vector in a sense that it doesn't depend on where you are at the
+doesn't depend on where you are at the boundary so you can pull this out of the
+integrant and we are left with an integral of TDL cross n not but what is
+integral of TDL cross n not but what is this integral well it is just adding up
+this integral well it is just adding up these small vectors along the boundary
+these small vectors along the boundary because they form a closed loop adding
+because they form a closed loop adding them up just yields a zero Vector so
+vanishes but the total force on this piece of surface isn't just T cross n KN
+piece of surface isn't just T cross n KN sure this part is zero as we just
+sure this part is zero as we just discussed but we still have the other
+discussed but we still have the other integral to compute now remember we are
+integral to compute now remember we are considering this an infinitesimally
+considering this an infinitesimally small piece of the surface so we will do
+of the result remember that we want to find the limit of this integral per area
+find the limit of this integral per area on the surface so even if we have an
+area goes to zero we are okay with only using an approximation of the integral
+so how do we approximate this integral the trick is to realize that both T and
+the trick is to realize that both T and Delta n can be close ly approximated to
+Delta n can be close ly approximated to lie on the tangent plane at the Red Dot
+lie on the tangent plane at the Red Dot for the vector T it is a bit more
+is so small that even if we project onto the tangent Lane T hasn't changed much
+the tangent Lane T hasn't changed much and in fact the same in this
+and in fact the same in this illustration What about Delta n the
+difference between n at the boundary and the N knot in the middle the normal
+Vector is confined to have its tip on the unit sphere because it has length
+the unit sphere because it has length one the normal vectors n would in
+one the normal vectors n would in general deviate from n knot a little bit
+and the change Delta n can be approximated to lie on the tangent plane
+of the sphere however this tangent plane of the sphere is perpendicular to n knot
+of the sphere is perpendicular to n knot which is in turn perpendicular to the
+tangent plane of the surface at that point so we can EAS easily translate
+point so we can EAS easily translate that Vector back onto the tangent plane
+that Vector back onto the tangent plane of the surface with all that both the
+vectors T and Delta n can be well approximated to lie on the tangent plane
+approximated to lie on the tangent plane so let's focus on the tangent plane the
+small piece of the surface can now be projected entirely flat on this tangent
+projected entirely flat on this tangent plane and the vector T * DL will be a
+Delta n is just some Vector on the plane the magnitude of the cross product would
+the magnitude of the cross product would be the product of the lengths of these
+angle between the vectors equivalently if we Define a vector B perpendicular to
+if we Define a vector B perpendicular to this boundary then because the angle
+between Delta n and B is now Pi / 2 minus Theta we can rewrite the magnitude
+minus Theta we can rewrite the magnitude as the product of the length and cosine
+as the product of the length and cosine of this included angle in other words
+of this included angle in other words this magnitude can be Rewritten as the
+this magnitude can be Rewritten as the dot product the dotproduct of B and
+dot product the dotproduct of B and Delta n *
+DL so that's the magnitude of the vector what about the direction of the cross
+what about the direction of the cross product because both T and Delta n are
+on a plane the direction must be perpendicular to this plane in this case
+perpendicular to this plane in this case if you follow the right hand rule it
+points into the screen if we go back to the whole picture and use the right hand
+the whole picture and use the right hand rule again more precisely the direction
+rule again more precisely the direction is opposite to n not most importantly
+is opposite to n not most importantly the direction is constant so during the
+the direction is constant so during the approximation we can pull it out of the
+integral B do Delta n the dot product itself can be viewed as the flux from
+itself can be viewed as the flux from Delta N Out of the small piece of the
+Delta N Out of the small piece of the boundary the integral wants us to add up
+all the flux contributions along the boundary so the integral is the total
+flux of Delta n across the boundary ultimately we want to compute
+the limit of this integral per area when the area tends to zero which is almost
+the area tends to zero which is almost exactly the definition of
+exactly the definition of Divergence or you can use the Divergence
+this this Divergence is double what's called mean curvature of the surface at
+called mean curvature of the surface at the point and is denoted as 2
+the point and is denoted as 2 h mean curvature was mentioned in the
+h mean curvature was mentioned in the previous video for those who have
+watched the previous video see if you can figure out why this Divergence is
+can figure out why this Divergence is double the mean curvature perhaps also
+using this video on the intuition of Trace anyway the whole story is to First
+Trace anyway the whole story is to First compute the net force on a small piece
+compute the net force on a small piece of the surface which can then be
+of the surface which can then be approximated with an integral that can
+approximated with an integral that can be interpreted as the total flux of
+be interpreted as the total flux of Delta n across the boundary when we
+Delta n across the boundary when we finally divide by area to obtain the
+finally divide by area to obtain the pressure at the point we know that the
+pressure at the point we know that the flux per area tends to 2 AG 2 times the
+curvature so the pressure at a point is perpendicular to the surface with
+Direction n not and the magnitude is proportional to the mean curvature the
+proportional to the mean curvature the soap film evolves under this pressure
+soap film evolves under this pressure this calculation only considers the
+this calculation only considers the surface tension in general you might
+surface tension in general you might have to consider something like
+have to consider something like atmospheric pressure however in the case
+atmospheric pressure however in the case of soap films both surfaces face the air
+so the air pressure from both sides cancel and this is really all the
+pressure there is but why does this mean that the surfaces formed will have
+that the surfaces formed will have minimal surface area here is some
+minimal surface area here is some intuition the mean curvature is
+intuition the mean curvature is proportional to the Divergence of Delta
+n if the normal vectors at the neighboring points Point generally away
+neighboring points Point generally away from n like in this
+from n like in this illustration then Delta N Point
+illustration then Delta N Point generally away from the origin so the
+generally away from the origin so the Divergence is positive the negative sign
+Divergence is positive the negative sign means the pressure acts in the opposite
+means the pressure acts in the opposite direction of n KN at the Red Dot but in
+general should be n the normal noral Vector at that point when pressure is
+Vector at that point when pressure is applied so the pressure acting on this
+applied so the pressure acting on this piece of the surface Point generally
+piece of the surface Point generally downward more precisely while the
+downward more precisely while the neighboring normal vectors point away
+neighboring normal vectors point away from n notot because of this negative
+sign pressure from different places Point into each other and push this
+decreases on the other hand let's say the surface looks like this instead in
+the surface looks like this instead in which case the neighboring normal
+which case the neighboring normal vectors Point into each other and
+towards and not so the Divergence of Delta n which generally points back
+Delta n which generally points back towards the origin is negative so the
+towards the origin is negative so the mean curvature being half of that is
+negative but the negative sign suggest that the pressure points in the same
+direction as n so the pressure vectors also Point into each other other again
+also Point into each other other again decreasing area whichever case it is the
+decreasing area whichever case it is the pressure vectors Point into each other
+pressure vectors Point into each other to decrease the area this means that if
+surface configuration the pressure is zero otherwise the pressure keeps
+zero otherwise the pressure keeps decreasing the
+area this suggests that the mean curvature on minimal surfaces need to
+curvature on minimal surfaces need to vanish anyway this is how nature of
+vanish anyway this is how nature of physics solves plateau's problem how do
+physics solves plateau's problem how do we actually simulate this process to
+we actually simulate this process to solve plateau's problem
+ourselves naively you might think that pressure is force per area and from
+pressure is force per area and from Newton's Laws FAL ma pressure should be
+Newton's Laws FAL ma pressure should be proportional to the acceleration of the
+proportional to the acceleration of the Red Dot if this is true then simulating
+acceleration the second derivative of the position Vector X to be negative
+the position Vector X to be negative beta hn for some positive constant beta
+beta hn for some positive constant beta such an evolution is named hyperbolic
+mean curvature flow and seems to be how soap films actually behave however there
+soap films actually behave however there are physical systems where it is the
+are physical systems where it is the velocity that is proportional to mean
+velocity that is proportional to mean curvature which leads to the first
+curvature which leads to the first derivative being negative beta hn
+derivative being negative beta hn instead and the resulting evolution is
+just called the mean curvature flow this turns out to be what's happening in an
+turns out to be what's happening in an annealing pure metal like
+aluminium which I honestly don't know too much about regardless the general
+too much about regardless the general procedure to solving plateau's problem
+procedure to solving plateau's problem would be to start with some initial
+vectors to be X and then you have two choices either you evolve the velocity
+choices either you evolve the velocity to be proportional to mean curvature in
+which case you choose mean curvature flow or the acceleration is proportional
+flow or the acceleration is proportional to mean curvature that is you choose the
+hyperbolic mean curvature flow at the end we hopefully approach the steady
+end we hopefully approach the steady state solution which is a minimal
+state solution which is a minimal surface having mean curvature zero
+however choosing that initial surface requires some Ingenuity or at least some
+requires some Ingenuity or at least some luck because if you don't choose your
+luck because if you don't choose your initial surface carefully like in this
+case where the neck is a bit too thin there can be singularities being formed
+there can be singularities being formed in this case the soap film pinches off
+surfaces the conditions for existence of such singularities are a hot topic of
+such singularities are a hot topic of research on the mathematical side of
+things even on the physical side of things there is still plenty of research
+things there is still plenty of research into exactly how this instability
+into exactly how this instability arises perhaps a bit more surprisingly
+arises perhaps a bit more surprisingly this procedure is also useful in
+this procedure is also useful in computer Graphics if we choose the path
+computer Graphics if we choose the path of mean curvature flow but not go all
+of mean curvature flow but not go all the way through the surface will just
+the way through the surface will just become smoother there is a great stack
+become smoother there is a great stack exchange answer on how to implement it
+exchange answer on how to implement it on Mathematica Linked In the description
+on Mathematica Linked In the description the reason for this smoothing behavior
+the reason for this smoothing behavior is a bit complicated but intuitively if
+is a bit complicated but intuitively if the surface has a huge bump in it then
+away from n a lot so the mean curvature has a very large magnitude the pressure
+has a very large magnitude the pressure which is proportional to H then points
+which is proportional to H then points down also at a great magnitude thereby
+down also at a great magnitude thereby smoothing this bump
+quickly so even though we start off with a fairly simple sounding problem the
+plateau problem where we want to find the configuration that has the least
+the configuration that has the least surface area there are still lots to
+explore we even somehow also solve problem in 3D Graphics given the
+problem in 3D Graphics given the richness of this subject it might be
+richness of this subject it might be surprising to know that actually there
+surprising to know that actually there is some kind of general formula for
+is some kind of general formula for minimal Services something that we will
+minimal Services something that we will explore in the next video as always
+explore in the next video as always thanks to these patrons and don't forget
+thanks to these patrons and don't forget to like subscribe and comment see you

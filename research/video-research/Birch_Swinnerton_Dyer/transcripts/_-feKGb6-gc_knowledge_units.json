@@ -1,0 +1,289 @@
+[
+  {
+    "id": "ku_video__-feKGb6-gc_4",
+    "t_start": 4.7,
+    "t_end": 96.9,
+    "type": "overview",
+    "summary": "well thank you very much it's a it's really a great honor to be here at the celebration of the Appel prize to Professor Wiles professor Wiles has had Professor Wiles professor Wiles has had a great influence on mathematics and on a great influence on mathematics and on mathematicians in general myself included I was a PhD student of his and well that was a that was a really experience for me as we all got to see this morning presser Wiles is not just a this morning presser Wiles is not just a great mathematician but also a really always struck me the most was that he has a real feel for wha…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_96",
+    "t_start": 96.9,
+    "t_end": 190.9,
+    "type": "overview",
+    "summary": "the next frontier in the solving of equations as I'll explain in number theory and of course andrew has had a great impact on the progress that we've great impact on the progress that we've seen towards this conjecture although of seen towards this conjecture although of course there's also much more to be done conjecture and so that's what I want to talk about today is first of all I want to describe in elementary terms what this conjecture is and then explain a this conjecture is and then explain a little bit about what's known about it little bit about what's known about it what Andrews …"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_190",
+    "t_start": 190.9,
+    "t_end": 282.3,
+    "type": "overview",
+    "summary": "solved so far which is the pranic query conjecture that was solved in 2002 only conjecture that was solved in 2002 only two years after they announced the two years after they announced the problems which kind of surprised them I problems which kind of surprised them I don't know how ready they were with that don't know how ready they were with that what the money yeah but luckily for them what the money yeah but luckily for them Perelman famously turned down the million dollars so they didn't have to worry about that actually the the money worry about that actually the the money has now be…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_282",
+    "t_start": 282.3,
+    "t_end": 373.7,
+    "type": "overview",
+    "summary": "Z to the N in whole numbers and that's been the basic problem of number theory been the basic problem of number theory since ancient times number theorists since ancient times number theorists have been interested in finding integer have been interested in finding integer solutions or rational solutions to polynomial equations so those may be equations in one variable like x squared minus 2 X plus 3 x squared plus y squared equals 100 or higher degree equations like y squared equals x q plus 2 X plus 3 or sometimes we're interested 2 X plus 3 or sometimes we're interested in solving equatio…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_373",
+    "t_start": 373.7,
+    "t_end": 465.5,
+    "type": "overview",
+    "summary": "factor of a zero right a factor of the last coefficient divided by a factor the first coefficient and so you can that gives you an algorithm to solve such an gives you an algorithm to solve such an equation in rational numbers you take all the factors of a N and you divide them by all the factors of a nut and you all the solutions and that's I follows from the rational root theorem that's not the most efficient way to do it but at least it is an algorithm that will at least it is an algorithm that will terminate usually the way we would go terminate usually the way we would go about it toda…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_465",
+    "t_start": 465.5,
+    "t_end": 558.4,
+    "type": "overview",
+    "summary": "rational solutions okay so that's the case of degree one so degree one is is case of degree one so degree one is is it solved we know how to find all rational solutions to two variable equations of degree one what about degree two if you look at two variable polynomial equations of degree two it polynomial equations of degree two it turns out that those finding the turns out that those finding the rational solutions to two variable equations i've degree two it's also pretty easy and just to give you an pretty easy and just to give you an example because one examples actually for example sup…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_558",
+    "t_start": 558.4,
+    "t_end": 651.2,
+    "type": "overview",
+    "summary": "the line that connects minus 1 0 with X comma Y if you take that line well comma Y if you take that line well that's going to have rational slope that's going to have rational slope right because it's connecting its coordinates so that when you compete the slope that's also going to be rational slope that's also going to be rational what maybe the more surprising thing what maybe the more surprising thing here is that the converse is also true that if you take a line of rational slope through minus one comma zero and slope through minus one comma zero and look at the second point of interse…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_651",
+    "t_start": 651.2,
+    "t_end": 746.1,
+    "type": "overview",
+    "summary": "solutions is going to be given by x equals minus one which of course had to equals minus one which of course had to happen because we know that one of the comma zero so that of course had to be a root but the other root will give you root but the other root will give you the x coordinate of the second point of other root you find it's the negative of s squared minus one over s squared plus one and once you have the x value you can plug it into equation one write the equation of a line and you find that Y is given by 2 s over s squared plus one is given by 2 s over s squared plus one and you…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_746",
+    "t_start": 746.1,
+    "t_end": 838.6,
+    "type": "overview",
+    "summary": "rational numbers together with infinity infinity also has to be considered a what's the second point of intersection when you when you take the line of slope infinity well it has a double intersection with minus 1 comma 0 so intersection with minus 1 comma 0 so this infinity that's corresponding to this infinity that's corresponding to minus 1 comma 0 and then all the other rational numbers that are given as slopes will correspond to all the other slopes will correspond to all the other rational points on the unit circle rational points on the unit circle and the correspondence is between a…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_838",
+    "t_start": 838.6,
+    "t_end": 928.9,
+    "type": "overview",
+    "summary": "by by the same method and so the fundamental theorem about rational points on conics is is as follows let f of XY be a quadratic polynomial in x and of XY be a quadratic polynomial in x and y with rational coefficients so in other y with rational coefficients so in other words the equation of a conic then the set of rational points X Y on the conic is given by the same procedure that we is given by the same procedure that we just used you start with a rational just used you start with a rational point on the on the conic and then you point on the on the conic and then you take lines of rati…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_928",
+    "t_start": 928.9,
+    "t_end": 1020.0,
+    "type": "overview",
+    "summary": "lines with rational slope and those will will give you all the rational points on will give you all the rational points on mechanic and so that's how you can solve mechanic and so that's how you can solve the general quadratic in two variables the general quadratic in two variables over the rational numbers and the over the rational numbers and the further amazing thing which we haven't further amazing thing which we haven't proved here is that turns out there is proved here is that turns out there is an effective way of determining whether an effective way of determining whether we're in c…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_1020",
+    "t_start": 1020.0,
+    "t_end": 1114.2,
+    "type": "overview",
+    "summary": "finite number of solutions remember that wasn't possible in the degree two case wasn't possible in the degree two case right if you have a conic it is not possible to have four solutions that just doesn't never happens right because our argument showed that if we had one solution to start with we could take any solution to start with we could take any line of rational slope and that would line of rational slope and that would produce infinitely many Solutions but in degree three it turns out you can have zero solutions you can out you can have zero solutions you can have four solutions or s…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_1114",
+    "t_start": 1114.2,
+    "t_end": 1205.8,
+    "type": "overview",
+    "summary": "have a conjectured method to solve it and that is what the birch and Swinton and that is what the birch and Swinton dire conjecture gives us so I want to dire conjecture gives us so I want to describe what the birch and swenerton describe what the birch and swenerton Derik conjecture says because if it's Derik conjecture says because if it's true it would give us a method to solve the very next case of equations that number theorists don't yet know how to number theorists don't yet know how to solve so as was already mentioned in Andrews and Henry's lecture the the structure of and Henry's …"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_1205",
+    "t_start": 1205.8,
+    "t_end": 1296.4,
+    "type": "overview",
+    "summary": "the condition of this cubic curve being smooth is exactly that this discriminant smooth is exactly that this discriminant is nonzero it turns out and if you want you can always make such a change of variable you can look at this amazing variable you can look at this amazing book by Silverman and Tate Tate is of book by Silverman and Tate Tate is of course one of the recent Babel Prize course one of the recent Babel Prize winners he's written a book with winners he's written a book with Silverman that's really accessible to a Silverman that's really accessible to a high school student about …"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_1296",
+    "t_start": 1296.4,
+    "t_end": 1388.5,
+    "type": "overview",
+    "summary": "these two pictures so either it looks like a picture with two connected like a picture with two connected components like this this part is called components like this this part is called the egg of the elliptic curve and this is the infinite part sometimes you only have the infinite part and the egg is curve in r2 tends to look like one of these two pictures and it just depends these two pictures and it just depends on whether the cubic polynomial so we on whether the cubic polynomial so we have y squared equals a cubic polynomial in x xu plus ax plus b if that cubic polynomial in X has th…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_1388",
+    "t_start": 1388.5,
+    "t_end": 1483.3,
+    "type": "overview",
+    "summary": "something that's easy easy to check these this has to do with the fact that these this has to do with the fact that if you when you're finding that third if you when you're finding that third point of intersection you'll be solving point of intersection you'll be solving the cubic equation just like we were the cubic equation just like we were solving a quadratic equation before we solving a quadratic equation before we had one rational solution therefore the had one rational solution therefore the other had to be rational because the the same way here when we're trying to find that third p…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_1483",
+    "t_start": 1483.3,
+    "t_end": 1576.9,
+    "type": "overview",
+    "summary": "rational coordinates and why do we call it P plus Q well one checks that it P plus Q well one checks that together with the point at infinity together with the point at infinity which is the point that you get when you down to infinity they're the same point and you call that the point at infinity then this law of addition plus and dows the set of rational points on a with the the set of rational points on a with the structure of an abelian group where the structure of an abelian group where the identity of this abelian group is the point at infinity so B Lynn group just means that you can …"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_1576",
+    "t_start": 1576.9,
+    "t_end": 1667.7,
+    "type": "overview",
+    "summary": "studying rational points on an elliptic curve you don't have to just think of it as a set but you can think of as a set with this addition structure that gives with this addition structure that gives it the structure of an abelian group and that's very special to cubic curves so cubic equations in two variables so if you have a rational elliptic curve he was given with rational coefficients he was given with rational coefficients this group with this abelian group of this group with this abelian group of rational points on e it's usually rational points on e it's usually denoted a of Q and …"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_1667",
+    "t_start": 1667.7,
+    "t_end": 1759.1,
+    "type": "overview",
+    "summary": "finite set of rational points that's that just by using this addition that just by using this addition operation or just connecting the dots operation or just connecting the dots operation you can produce all the inflamed any rational points more Dells theorem says you can there's actually theorem says you can there's actually only finite amount of information there set of rational points to start with and then use this addition law to produce then use this addition law to produce all the rational points kind of just like in the case of conics or even that when there were implementing ratio…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_1759",
+    "t_start": 1759.1,
+    "t_end": 1850.8,
+    "type": "overview",
+    "summary": "how many infinite cyclic groups do we have inside e that kind of measures the have inside e that kind of measures the size of Eve Q now it's a theorem of size of Eve Q now it's a theorem of Mazur that the group T this finite group here is bounded in size by 16 so it never is bounded in size by 16 so it never gets very big so even in a stronger gets very big so even in a stronger sense it is really this R that's sense it is really this R that's measuring the size of this this set of solutions C of Q so our kind of measure is how big the group II of Q is and it's is how big the group II of Q …"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_1850",
+    "t_start": 1850.8,
+    "t_end": 1943.7,
+    "type": "overview",
+    "summary": "measures how big how many solutions you have R equals zero corresponds to the corresponds to the case where a of Q is finite but once R is 1 or more than the finite but once R is 1 or more than the number of rational points is infinite and then R measures how infinite right the bigger R is the more infinite the the bigger R is the more infinite the set of rational points so R is the set of rational points so R is the fundamental invariant given an elliptic cubic equation in two variables R is the fundamental invariant that measures how fundamental invariant that measures how many rational p…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_1943",
+    "t_start": 1943.7,
+    "t_end": 2035.5,
+    "type": "overview",
+    "summary": "have rank 0 or one can one prove that even say 1% of all two curves have Frank even say 1% of all two curves have Frank 0 1 and and then of course the most 0 1 and and then of course the most fundamental question that I was asking fundamental question that I was asking the beginning Oh is there any algorithm the beginning Oh is there any algorithm to determine the rank of an elliptic to determine the rank of an elliptic curve that will provably terminate with curve that will provably terminate with the correct answer so given an elliptic the correct answer so given an elliptic curve y squar…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_2035",
+    "t_start": 2035.5,
+    "t_end": 2125.9,
+    "type": "overview",
+    "summary": "solutions mod p to an elliptic curve well remember it's a two variable equation so x and y each will have about P possibilities so the maximum number of P possibilities so the maximum number of solutions is P squared and so they would for x and y right and they would count the number of solutions but they had to the number of solutions but they had to write code to do these computations in write code to do these computations in extremely clever ways because this is extremely clever ways because this is phone this was in 1960 their computer so even storing the elliptic curve and the prime nu…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_2125",
+    "t_start": 2125.9,
+    "t_end": 2216.9,
+    "type": "overview",
+    "summary": "p that'll happen most two solutions so but how often how often you expect when you when you plug in a value mod p 4x cubed plus ax plus B you don't expect it cubed plus ax plus B you don't expect it to be a square all the time it'll be a to be a square all the time it'll be a square about half the time because half square about half the time because half the numbers mod P are squares so when you plug in a number mod p for X half the time you'll get a square and then Y the time you'll get a square and then Y will take one of those two square roots as values so half the time that X Q plus ax …"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_2216",
+    "t_start": 2216.9,
+    "t_end": 2307.6,
+    "type": "overview",
+    "summary": "right because you can it's a mod P as a finite field so you can divide so you finite field so you can divide so you have a rational point on elliptic curve have a rational point on elliptic curve you can reduce in mod P and that will give you a point mod P on the elliptic curve if there are lots of rational curve if there are lots of rational points and you reduce the mod P points and you reduce the mod P shouldn't be getting lots and lots of points mod P and so somehow NP should be pushed a little higher than P in those pushed a little higher than P in those cases so bertson's winners and …"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_2307",
+    "t_start": 2307.6,
+    "t_end": 2401.6,
+    "type": "overview",
+    "summary": "maybe it's a little bit higher when the rank is large what they can what the rank is large what they can what the conjecture does if you take n P over P conjecture does if you take n P over P which tends to let be very close to 1 which tends to let be very close to 1 and you multiply n P over P over all and you multiply n P over P over all Prime's less than or equal to X where X is some large number then as X grows this should large number then as X grows this should also grow as C times log of X to the rank so this is how the rank so this is exactly what we were saying before if the rank i…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_2401",
+    "t_start": 2401.6,
+    "t_end": 2492.9,
+    "type": "overview",
+    "summary": "dire conjecture what is this constancy well they actually made a conjecture well they actually made a conjecture about that too so bertson's foreigner about that too so bertson's foreigner also gave an explicit expression for c also gave an explicit expression for c in terms of various other invariants of in terms of various other invariants of the elliptic curve e and that's called the elliptic curve e and that's called the strong form of the conjecture and well this is exactly the if you can prove this conjecture you win a million prove this conjecture you win a million dollars and actual…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_2492",
+    "t_start": 2492.9,
+    "t_end": 2584.5,
+    "type": "overview",
+    "summary": "that don't divide the discriminant so basically product over all Prime's of this expression 1 over 1 minus a P times P to the minus s plus P to the 1 minus 2 P to the minus s plus P to the 1 minus 2 s and there's a natural motivation for s and there's a natural motivation for for why you define this but again it's just depending on the right Dale functions just depending on the count of on the curve and you make this make the cell function and you think of it as a function of a complex variable s and you find that this product converges for all find that this product converges for all s wit…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_2584",
+    "t_start": 2584.5,
+    "t_end": 2675.7,
+    "type": "overview",
+    "summary": "and so the conjecture of right since winners and dire was about this analytic winners and dire was about this analytic function the behavior at s equals 1 and what they conjectured is that the rank of EE should be equal to the order of equals 1 so in other words if you took a Taylor expansion around s equals 1 the Taylor expansion around s equals 1 the first Taylor coefficient would look like first Taylor coefficient would look like C times s minus 1 to the R and that would be the first and then all the other terms would be higher order terms so just the order of vanishing remember where it…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_2675",
+    "t_start": 2675.7,
+    "t_end": 2767.2,
+    "type": "overview",
+    "summary": "swinish entire conjecture to make sense so a consequence of the work of wilds is that for any elliptic curve e the l function Eliav s does actually have an function Eliav s does actually have an analytic continuation to the entire complex plane so this of course was many years after the conjecture of britain years after the conjecture of britain swenerton dire was made about the l function at s equals 1 theta knows defined there but the work of Wiles allows us to know that the function is actually defined at s equals 1 so the actually defined at s equals 1 so the version swenerton dire conj…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_2767",
+    "t_start": 2767.2,
+    "t_end": 2860.6,
+    "type": "overview",
+    "summary": "analytic function at s equals 1 is of the form some constant times s minus r to the r prime plus higher order terms what does analytic means it just means what does analytic means it just means that you have a power series expansion that you have a power series expansion at that point if it's analytic at s equals one it means you can do a Taylor expansion at s equals one and you get expansion at s equals one and you get some leading term the first exponent you some leading term the first exponent you can call our prime and then you have this our prime is exactly what it means to talk about …"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_2860",
+    "t_start": 2860.6,
+    "t_end": 2951.4,
+    "type": "overview",
+    "summary": "the unity of the way you're defining these quantities in two completely these quantities in two completely different ways algebra and analysis and different ways algebra and analysis and they're the same that's the that's the winners and our conjecture in a way that is now known to make sense due to the is now known to make sense due to the work of Wiles okay so that's that's the work of Wiles okay so that's that's the Burton swenerton Dyer conjecture I well as it's modern formulation both of which now makes sense it takes much less which now makes sense it takes much less time to describe …"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_2951",
+    "t_start": 2951.4,
+    "t_end": 3042.9,
+    "type": "overview",
+    "summary": "equals x people's be if our prime equals 0 that analytic order of vanishing of the l function is 0 then the rank is also 0 they're finitely many rational also 0 they're finitely many rational points that was that was the results of points that was that was the results of coats and Wiles their results actually coats and Wiles their results actually applied to a more general class of applied to a more general class of elliptic curves not just those two kinds elliptic curves not just those two kinds I wrote there and although those two kinds are the ones that it's been cited for the most and u…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_3042",
+    "t_start": 3042.9,
+    "t_end": 3134.6,
+    "type": "overview",
+    "summary": "to general elliptic curves and also for the case of our prime equals one my the case of our prime equals one my remarkable works in the 1980s by Coley remarkable works in the 1980s by Coley bagging and my gross and saggy what they bagging and my gross and saggy what they showed is that for any elliptic curve if showed is that for any elliptic curve if our prime equals 0 or 1 they have to our prime equals 0 or 1 they have to assume that the elliptic curve is assume that the elliptic curve is modular which they didn't know yet but modular which they didn't know yet but that's about to happen …"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_3134",
+    "t_start": 3134.6,
+    "t_end": 3225.4,
+    "type": "overview",
+    "summary": "found catio found an alternate proof and then there was all this amazing work of Mazur Wiles and Wiles on the Asama main conjecture and putting all these ideas together the recent work of Skinner and urbe and John just in 2013 they've been urbe and John just in 2013 they've been able to prove a converse of sorts able to prove a converse of sorts although there's still lots of restrictions but they prove that if R equals 0 or 1 for an elliptic curve and equals 0 or 1 for an elliptic curve and E satisfies various technical conditions E satisfies various technical conditions and I'll give you …"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_3225",
+    "t_start": 3225.4,
+    "t_end": 3316.9,
+    "type": "overview",
+    "summary": "when you prove with theorem like this with lots of technical hypotheses their with lots of technical hypotheses their first question is always does it apply first question is always does it apply to any lip to curves at all so do these listen to any elliptic curve satisfy these conditions that's the natural question to ask and that was a question that I got very interested in because I that I got very interested in because I wanted to know ok this converse is it wanted to know ok this converse is it actually hold for any lipstick rips so so how do you what does it mean to does it how do you…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_3316",
+    "t_start": 3316.9,
+    "t_end": 3408.1,
+    "type": "overview",
+    "summary": "what did how does the rank very does it get bigger and bigger as a and B get probability that B SD is satisfied as a and B the conjecture is that it should and B the conjecture is that it should be satisfied by a hundred percent of be satisfied by a hundred percent of curves and we can ask what proportions curves and we can ask what proportions satisfy the conditions of skinner by and satisfy the conditions of skinner by and young so that we actually know that the young so that we actually know that the Burstyn spinach and our conjecture is Burstyn spinach and our conjecture is true so so t…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_3408",
+    "t_start": 3408.1,
+    "t_end": 3499.6,
+    "type": "overview",
+    "summary": "actually do have ranks U or one so that's good so lots of the at least some conditions about the rank of being zero one are satisfied in fact our methods one are satisfied in fact our methods that we use to show that eighty three that we use to show that eighty three percent of elliptic curves have rank zero one actually establish some of the technical conditions that Skinner inner technical conditions that Skinner inner bra and jiang require in their converse Niram to deduce that the analytic rank Niram to deduce that the analytic rank is 0-1 and so a corollary of our of our is 0-1 and so …"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_3499",
+    "t_start": 3499.6,
+    "t_end": 3593.9,
+    "type": "overview",
+    "summary": "definitely true more often than not and and that's well that's that's a good and that's well that's that's a good feeling at least we feel like we know we curves a common question before you ask it this does not mean that we win six it this does not mean that we win six hundred sixty thousand dollars hundred sixty thousand dollars [Laughter] okay so what remains to be done that's basically I just summarized basically everything we know about the about the British mentioned dire conjecture what remains to be done well everything we talked about so far has been about curbs of rank zero or one…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_3593",
+    "t_start": 3593.9,
+    "t_end": 3687.0,
+    "type": "overview",
+    "summary": "they're inflamed any so even though they're rare there are implementing Liptak herbs having rank at least two and four such curves essentially nothing and four such curves essentially nothing is known regarding BSD and so that's really what needs to be done next this is where the next big idea is needed is is where the next big idea is needed is to understand ranks at least to to understand ranks at least to understanding the personage and dire understanding the personage and dire conjecture there so that's really where conjecture there so that's really where the next big ideas needed I thi…"
+  },
+  {
+    "id": "ku_video__-feKGb6-gc_3686",
+    "t_start": 3687.0,
+    "t_end": 3740.2,
+    "type": "overview",
+    "summary": "and Henry and Karthik for sundar and then finally they're generalizations totally real number fields there's been this amazing work of John and his school this amazing work of John and his school proving versions of gross Sagi a / proving versions of gross Sagi a / totally real fields so it's not just the totally real fields so it's not just the BSD conjecture but what it leads to BSD conjecture but what it leads to that's become so central and in in the that's become so central and in in the area of number theory so I just want to end by first of all congratulating Andrew for for the Apple…"
+  }
+]

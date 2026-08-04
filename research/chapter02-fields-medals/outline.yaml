@@ -1,0 +1,71 @@
+# Research outline — Chapter 2: Fields Medals & flagship essays (deep-dive pass)
+topic: "Fields-era modern mathematics — Chapter 2 short lessons"
+date: "2026-08-04"
+time_range: "status as of 2026; classic results unlimited"
+target_length: "1500–2500 body words EN and VI"
+exclude:
+  - "02_00 Overview (narrative short)"
+  - "02_03 Perelman (already deep)"
+  - "02_12 Deng (already deep)"
+  - "02_15 Wang (already deep)"
+
+items_to_expand:
+  en_short:
+    - Mirzakhani_Moduli
+    - Scholze_Perfectoid
+    - Venkatesh_Number_Theory
+    - Maynard_Primes
+    - Birkar_Algebraic_Geometry
+    - Modern_Combinatorics_Geometry
+    - Pardon_Symplectic
+    - Tsimerman_Arithmetic
+  en_ok_or_border:
+    - Langlands_Program
+    - Green_Tao
+    - Viazovska_Sphere_Packing
+  vi_short:
+    - Langlands_Program
+    - Green_Tao
+    - Mirzakhani_Moduli
+    - Scholze_Perfectoid
+    - Venkatesh_Number_Theory
+    - Viazovska_Sphere_Packing
+    - Maynard_Primes
+    - Birkar_Algebraic_Geometry
+    - Modern_Combinatorics_Geometry
+    - Pardon_Symplectic
+    - Tsimerman_Arithmetic
+
+structure_standard:
+  - hook
+  - learning_objectives
+  - prerequisites_seminar_links
+  - substantive_sections_with_math
+  - confusions
+  - exercises
+  - references
+  - further_directions
+  - no_problem_key_idea_scaffold
+  - mathjax_double_dollar_only
+
+content_hooks:
+  Mirzakhani: "moduli of Riemann surfaces, simple geodesics, magic wand theorem, dynamics on moduli"
+  Scholze: "perfectoid spaces, p-adic geometry, tilting, applications to Langlands/weight-monodromy"
+  Venkatesh: "automorphic forms, homogeneous dynamics, analytic number theory breadth"
+  Maynard: "bounded gaps, multidimensional sieves, prime tuples"
+  Birkar: "BAB conjecture, Fano varieties, birational geometry MMP"
+  CombGeo: "incidence geometry, expanders, polynomial method, high-dim combinatorics snapshot"
+  Pardon: "symplectic geometry, embedding problems, Hilbert–Smith, modern geometric topology"
+  Tsimerman: "André–Oort, unlikely intersections, o-minimality / Ax–Schanuel flavor"
+  Langlands: "reciprocity, automorphic L-functions, functoriality slogan"
+  GreenTao: "Szemerédi, arithmetic progressions of primes, ergodic/transference"
+  Viazovska: "sphere packing E8 and Leech, modular forms magic functions"
+
+execution:
+  languages: [en, vi]
+  parallel_batches: 4
+
+verification_2026_08_04:
+  all_topic_lessons_ge_1500: true
+  scaffolds_removed: true
+  note: "Overview remains short narrative; Perelman/Deng/Wang already flagship-length; expanded short Fields essays EN+VI; removed remaining Problem→Key Idea scaffolds on flagship posts"

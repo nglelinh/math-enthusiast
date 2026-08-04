@@ -1,0 +1,339 @@
+me so today I will speak about spare packing in higher dimensions okay so so
+packing in higher dimensions okay so so imagine that you have a very big box and
+also you have a unlimited supply of equally sized balls and those balls they
+equally sized balls and those balls they could be a cannon balls and a ship or
+they could be items in a condensed body or they could be messages in a noisy
+Channel and so the problem we are interested in is to find the solve the
+interested in is to find the solve the sphere packing problem so to find the
+configurations of such a balls in the dimensional Euclidean space and so the
+dimensional Euclidean space and so the maximal possible density of such a
+maximal possible density of such a configuration is called the sphere
+packing constant and we will denote it by Delta D so this is how the sphere
+by Delta D so this is how the sphere packing problem looks in small
+packing problem looks in small dimensions and dimensions 1 2 &amp; 3 and
+dimensions and dimensions 1 2 &amp; 3 and you see that the in dimension 1 the
+problem is trivial because a ball in dimension 1 it's simply an interval and
+dimension 1 it's simply an interval and we can cover a line with intervals of
+we can cover a line with intervals of equal size with almost no space left
+equal size with almost no space left so here the sphere packing constant is
+trivial equal to 1 so in dimension 2 problem is a bit more interesting but it
+problem is a bit more interesting but it was solved by bees and so here you see
+was solved by bees and so here you see this packing of balls which is sometimes
+this packing of balls which is sometimes called the honeycomb packing or
+called the honeycomb packing or hexagonal packing for this hexagonal
+shape and so disks on a plane they can cover more than 90 percent of the plane
+cover more than 90 percent of the plane and so in dimension 3 actually things
+and so in dimension 3 actually things become much more interesting and sphere
+become much more interesting and sphere packing problem in dimension 3 it was
+packing problem in dimension 3 it was known as the Kepler conjecture so the
+known as the Kepler conjecture so the best way to put balls in dimension 3 is
+the the same way that oranges are stored in
+the same way that oranges are stored in supermarkets so here you take you put
+them in layers so each layer look like this best configuration and dimension to
+this best configuration and dimension to and then on the top of each layer you
+put the next one so you can put a new ball not into into each into this big
+ball not into into each into this big holes between oranges so you cannot put
+holes between oranges so you cannot put it into each hole button to each second
+it into each hole button to each second and you continue like this in layers and
+and you continue like this in layers and this way you will cover about 74% of the
+space so here's this let me tell you so now what happens in bigger dimensions
+now what happens in bigger dimensions and so let me recall what are those
+space it consists of points for each point it's an array of D coordinates and
+point it's an array of D coordinates and each coordinates it's a real number so
+each coordinates it's a real number so now what we also would like to do we
+now what we also would like to do we would like to measure distances between
+points and we measure them like this so if we have two vectors then we take the
+if we have two vectors then we take the differences of their coordinates take
+each difference take to the square sum them up and take a square root of that
+them up and take a square root of that and it's a nice notion of distance so
+and it's a nice notion of distance so now when we know what a point is and
+what a distance is we can also say what's a dimensional ball so the same as
+what's a dimensional ball so the same as in our familiar two and three dimensions
+in our familiar two and three dimensions so the ball with center X and radius R
+it would be just the set of all points at distance at most R from the point X
+at distance at most R from the point X so now what do we know about we're
+so now what do we know about we're breaking in different dimensions so this
+breaking in different dimensions so this R this is this at the moment this is the
+R this is this at the moment this is the list of all the dimensions where we know
+the exact value of the constant delta T and so the first three already spoke
+and so the first three already spoke about them so in dimension one its
+trivial one so dimension two was solved by axial tool at the age of 90 s and 20
+by axial tool at the age of 90 s and 20 century and it's geometric and not a
+century and it's geometric and not a very difficult proof and in dimension
+very difficult proof and in dimension three the problem turned out to be much
+and so it was known for a long time as a kepler conjecture but it was solved only
+kepler conjecture but it was solved only at the end of the last century busted by
+at the end of the last century busted by Thomas Hales
+and so let me just explain so why is it a difficult problem
+so in dimension 2 for example we have one best coordinate configuration and
+one best coordinate configuration and it's not difficult to believe that it's
+it's not difficult to believe that it's the best one and but in dimension 3 they
+actually have uncountably many equally dense configurations so the picture with
+dense configurations so the picture with the oranges which I showed you before so
+here at each layer we have somehow two choices how to store our oranges so we
+choices how to store our oranges so we have some out to two ways and to which
+have some out to two ways and to which holes we want to put the new layer and
+choice so at the end we end up with uncountably many different equally dense
+uncountably many different equally dense configurations and so the next time are
+we don't really know what the exact answer is in dimensions for free free
+infants so 4 5 6 7 but we do know what happens in dimension 8 so in dimension 8
+happens in dimension 8 so in dimension 8 we have an incredibly great nice
+we have an incredibly great nice configuration called the ate lettuce
+configuration called the ate lettuce packing and so it's somehow mathematical
+packing and so it's somehow mathematical celebrity it comes out in many areas of
+symmetrical object and so what we are able to prove is that it's a the the
+able to prove is that it's a the the densest packing in dimension 8 is
+densest packing in dimension 8 is attained by this configuration and
+another great configuration we have in dimension 24 so it is called the leash
+dimension 24 so it is called the leash lettuce it also has many extraordinary
+lettuce it also has many extraordinary mathematical properties it comes up not
+only in this problem and for it we're also able to prove that this is the best
+also able to prove that this is the best possible packing so you see that somehow
+possible packing so you see that somehow from this picture you see from the table
+you can see that when dimension grows somehow ours is very packing constant
+somehow ours is very packing constant becomes smaller and smaller and smaller
+becomes smaller and smaller and smaller so for example 25% seems seems much
+smaller than 74 but for dimension 8 is actually a very big number
+and so this of course leaves us with many open questions so I was asked to
+many open questions so I was asked to give some open questions about open
+questions for the next 10 years and in mathematics usually people don't think
+in that timeframe so we usually give somehow questions for the next hundred
+somehow questions for the next hundred years or the next thousand years so I
+decided not to put too many questions here and ask only questions about sphere
+here and ask only questions about sphere packing so like one obvious question is
+packing so like one obvious question is so what are the exact values of the
+so what are the exact values of the spare packing constant in other
+dimensions so of course my beans in Surgeons in small dimensions for example
+Surgeons in small dimensions for example what happens for for what happens for
+five maybe that is still possible and will be doable in the next 10 years so
+will be doable in the next 10 years so the next question is so if we are going
+methods will be will we need and some of spare packing problem it has this very
+spare packing problem it has this very strange property that each dimension or
+strange property that each dimension or at least each small dimension it's very
+different from a previous one and it seems like each new dimension requires a
+seems like each new dimension requires a new method so it's very interesting to
+know what those methods will be and so but but other question which I also find
+but but other question which I also find very interesting so that what happens in
+very interesting so that what happens in big dimensions for example when
+dimensions up to 10 or maybe 20 be more or less no which configures we believe
+or less no which configures we believe what are the optimal configurations
+we've already found them and now it's only a matter of proving that they are
+only a matter of proving that they are the best on the other hand when
+the best on the other hand when dimensions become big it's not so
+dimensions become big it's not so obvious how to search for those optimal
+obvious how to search for those optimal packings or at least beautifully optimal
+packings or at least beautifully optimal packing so some computational methods
+would we need it here and then we can go even further so when dimensions become
+even further so when dimensions become very big so that using computers is just
+impossible if we have had known 100 million billion dimensions what would be
+million billion dimensions what would be the answer in that case so let's go come
+the answer in that case so let's go come back to these questions about in their
+turn so this is what we know about small dimensions so here are this blue line it
+dimensions so here are this blue line it represents the den
+cities of unknown configurations but in logarithmic scale because this number
+logarithmic scale because this number decays very very rapidly and so the red
+line those are the best upper bounds that which we know and so in dimensions
+that which we know and so in dimensions 2 n + 2 3 and the the best packing
+2 n + 2 3 and the the best packing problem was solved by geometric methods
+problem was solved by geometric methods so this packing problem which is somehow
+problem with infinitely many degree of freedom using some smart combinatorial
+methods this was reduced to a finite amount of the finite geometric problems
+amount of the finite geometric problems for example problems about maximal or
+for example problems about maximal or minimal volume of polytopes with certain
+minimal volume of polytopes with certain particular properties so this is how the
+particular properties so this is how the problem was solved in dimension - rather
+problem was solved in dimension - rather easily and also in dimension 3 by
+trommel's held by rather heavy computer-based method so the method
+which worked for dimensions 8 and 24 so here you see the threat red line it
+here you see the threat red line it actually represents the upper bound
+actually represents the upper bound which obtained from so-called linear
+programming and you can see that for in 8 and 24 somehow blue and red lines they
+8 and 24 somehow blue and red lines they beautifully meet and so on the other
+beautifully meet and so on the other hand for all for all other dimensions we
+hand for all for all other dimensions we see that there is quite quite a gap here
+should work so I think my one promising method is the semi definite programming
+and then maybe a next suspect for this is dimension 4 maybe this could work in
+dimension 4 so another interesting question is so in bigger dimensions so
+what what what kind of special properties would this optimal
+configurations have as I told you in all in all small dimensions the optimal
+in all small dimensions the optimal configurations they seem to be very
+configurations they seem to be very different when we change from dimension
+different when we change from dimension to dimension and for example in many
+small dimensions the best baking is always selected packing it's given by a
+lattice and so lettuce it's a kind of a configuration which has the maximal post
+configuration which has the maximal post possible translational symmetry so here
+possible translational symmetry so here you see a two-dimensional
+you see a two-dimensional example so we can have one point so here
+for example this point zero and we choose two vectors which are differences
+choose two vectors which are differences of two points in our configuration so
+now what we do well what the property which let us have now if you shift all
+whole configuration will not change and the same happens for this vector you
+the same happens for this vector you only have to imagine that your
+only have to imagine that your configurations are continuously
+periodically into all the all the directions and of course in big
+directions and of course in big dimensions it's very nice way to define
+dimensions it's very nice way to define a configuration because in n dimensional
+a configuration because in n dimensional space we would need only to define n
+vectors and this already gives our configuration so which is a good thing
+and the bad thing of course that it's a very strong geometric restriction so it
+very strong geometric restriction so it could be that by considering only such
+could be that by considering only such configuration we are still missing lot
+configuration we are still missing lot of possibilities so another entry
+of possibilities so another entry observationally from lone from lower
+observationally from lone from lower dimensions that those optimal
+configurations they often have some non-trivial rotational symmetries so
+this example here those are the Centers of disks in hexagonal packing so we see
+of disks in hexagonal packing so we see that here we can rotate this whole
+that here we can rotate this whole configuration by 60 degrees and vehicles
+also can reflect it by this line so another good example is for example each
+another good example is for example each lattice which is an optimal
+lattice which is an optimal configuration and dimension 24 so it's
+configuration and dimension 24 so it's rotational group of symmetries
+it's a Conway group which is a double cover of one of the sporadic simple
+cover of one of the sporadic simple groups so it's routes and non-tree very
+groups so it's routes and non-tree very very interesting mathematical object on
+very interesting mathematical object on its own and so of course the question is
+its own and so of course the question is so what were in big dimensions should we
+so what were in big dimensions should we expect also this kind of symmetries and
+expect also this kind of symmetries and big dimensions so what are the nice ways
+big dimensions so what are the nice ways to explode them and so another question
+to explode them and so another question which I find so very interesting so what
+which I find so very interesting so what happens in these very big dimensions and
+so what I want to tell you now is the one construction which universally works
+one construction which universally works in
+dimension and it is very simple so if we say that our packing is certain
+say that our packing is certain saturated if we cannot add if whatever
+saturated if we cannot add if whatever small that we are concerned difficult
+small that we are concerned difficult considering packings with balls of
+radius 1 and if whatever a new ball we want to add it will always intersect one
+want to add it will always intersect one of our previous balls if our
+of our previous balls if our configuration has this property then we
+configuration has this property then we say that it is saturated so nothing else
+can be added there and so now what I will show you in a moment that every
+will show you in a moment that every saturated packing it in dimension D it
+saturated packing it in dimension D it has a density at least two to the minus
+D and to see it it's very easy so we take our balls of radius one and now we
+take our balls of radius one and now we inflame them and instead of this balls
+inflame them and instead of this balls of radius one we will consider balls of
+so I also removed the border of my box because I'm a borders distort everything
+because I'm a borders distort everything but when our box is very big then borden
+volume of border is very small and we can neglect that and so now we see that
+somehow this property of our packing being saturated is actually equivalent
+to say that this bigger red health transparent balls have to cover all the
+transparent balls have to cover all the space and so the last observation we
+have to make is that the volume of her big balls is 2 to the minus D times the
+volume of a smaller balls and so this way we proved that density has to be at
+way we proved that density has to be at least 2 minus D so it's very simple it
+least 2 minus D so it's very simple it always works and somehow what I find
+always works and somehow what I find with embarrassing that it's actually the
+best we can do in very big dimensions or essentially the best so here's an so the
+essentially the best so here's an so the at the moment the best asymptotic bound
+is the bond which was proved by ascribing Kadesh and it tells that in
+ascribing Kadesh and it tells that in any so in every big dimension we would
+this density so we have some this rather big constant which somehow so for for
+big constant which somehow so for for small dimensions it can be smaller but
+small dimensions it can be smaller but for big dimensions it's about this
+for big dimensions it's about this number times the dimension and again
+number times the dimension and again times this factor of 2 to the minus D
+but the thing is that somehow this factor to the minus D
+factor to the minus D case much much faster than whatever this
+case much much faster than whatever this Perfector can compensate for and so also
+what he was able to do that in a sparse sequence of dimensions we still we could
+sequence of dimensions we still we could even have this like log log defector in
+even have this like log log defector in addition to this constant D so this is a
+but for very big deal certainly will be for example bigger than this constant
+and bigger than any number and so so what do we know on the other side on the
+what do we know on the other side on the other side we have a lower bound and
+this is a lower bound due to Abbott and secant Levenstein so they will they
+secant Levenstein so they will they again show that somehow the packing
+again show that somehow the packing constant it has to decay it has to decay
+constant it has to decay it has to decay exponentially something we already seen
+it has to be small but the rate at which it decays is not to the minus D is 2 to
+it decays is not to the minus D is 2 to the minus this constant so which is
+the minus this constant so which is numerically so this zero five nine nine
+numerically so this zero five nine nine to the D so it means that this function
+one and so we have a very big gap here in big dimensions and so I'm not sure
+that this can be done in the next ten years but I hope that somebody will come
+years but I hope that somebody will come up with an idea how to move either of
+up with an idea how to move either of these bounds and I hope the small
+these bounds and I hope the small improvement will be not in this four
+factors and four in front of exponential but somehow inside of exponential and I
+bet that improvement will be on this side because I don't I think this is
+side because I don't I think this is that would been a much much nicer and so
+that would been a much much nicer and so my last slide so now what's beyond
+my last slide so now what's beyond sphere packings
+so all those methods in the ideas which we discussed for sphere packings
+they also work for a wider range of problems so this second problem is a
+problems so this second problem is a it's not isolated so one obvious thing
+so instead of packing balls we can pack any other kind of shapes another word is
+any other kind of shapes another word is or even instead of packing bodies we
+or even instead of packing bodies we could consider minimal energy
+configurations we could consider a number of points and assume that they
+number of points and assume that they interact with some potential
+configurations with minimal energy and many methods which we discussed before
+many methods which we discussed before they would also work for this type of
+problems and and another may be also exciting thing is that we can consider
+exciting thing is that we can consider spaces with different geometries so we
+spaces with different geometries so we don't have to stay always in Euclidean
+don't have to stay always in Euclidean space there are also many interesting
+space there are also many interesting problem problems which happens for
+example on a sphere or in a hyperbolic space or even in a discrete space like a
+space or even in a discrete space like a hemming space so space of all the race
+of zeros and ones where a distance would be somehow the number of differences and
+be somehow the number of differences and one actually smokes this problem it is
+one actually smokes this problem it is maybe most practical from all because it
+maybe most practical from all because it has applications to for example error
+has applications to for example error correcting codes and signal transmission
+correcting codes and signal transmission and so thank you very much thank you
+okay we have time for just a couple of questions over here curious about the
+questions over here curious about the case you just mentioned of other other
+case you just mentioned of other other than spheres so if you if you pack
+than spheres so if you if you pack compact hyperbolic spaces does it
+decrease this faster are there ways to fill in the gaps yeah more difficult to
+fill in the gaps yeah more difficult to yeah because of all this space itself
+yeah because of all this space itself it's like if you take a ball it's its
+it's like if you take a ball it's its volume it will not grow somehow like
+volume it will not grow somehow like polynomially it will grow exponentially
+but and here I don't know so so much what happens with different
+so so much what happens with different dimensions so here it could be even
+fixed dimension is already very much more difficult or much more interesting
+more difficult or much more interesting yes one more question in the in the
+string theory these dimensions come up quite naturally dimensions 8 and 24 with
+the e8 and the leech lattice there's another one which comes up also in
+another one which comes up also in string theory dimensions 16 this EA
+string theory dimensions 16 this EA times e 8 the best sphere packings 16
+is some but there is a better packing but I'm not completely I'm very - mudsy
+- one of those two are the ones which have here in string theory ok so here I
+have here in string theory ok so here I don't remember which one is better but I
+don't remember which one is better but I think somehow that this product of 2 8
+think somehow that this product of 2 8 and 8 it's not there is an example
+and 8 it's not there is an example better but I'm not completely sure can
+better but I'm not completely sure can you say just a word about what good
+you say just a word about what good packing is that aren't periodic look
+packing is that aren't periodic look like where's that George oh yes so for
+like where's that George oh yes so for in small dimension I think the first
+in small dimension I think the first example when this happens in is in
+dimension 10 and if you ask me for like a description what does this maybe I
+could give you a reference like I would because I don't remember by head what
+because I don't remember by head what what this configuration is but there is
+this a nice overview by Conan Sloan where they describe all the best Vikings
+where they describe all the best Vikings from dimensions I think actually up to
+from dimensions I think actually up to 10 and so 10 was the first dimension
+10 and so 10 was the first dimension whether were the this best density is
+whether were the this best density is not attained by
+any periodic configuration but of course like everything all the results here
+like everything all the results here they're more experimental because there
+they're more experimental because there is no proofs but they were very
+confident that those configurations actually the best ones yes one more
+um do you expect the Cornell Keys linear programming bung bound to be optimal in
+programming bung bound to be optimal in any other dimensions
+any other dimensions no tomorrow I I don't because some
+no tomorrow I I don't because some numeric switch we did it it looks like
+may be in some very big dimensions and they're so big that we somehow they even
+they're so big that we somehow they even don't know what the best what are the
+don't know what the best what are the good configurations there because in all
+good configurations there because in all small dimensions where we more or less
+small dimensions where we more or less know something about configurations it
+know something about configurations it seems like there is a very big yep okay
+seems like there is a very big yep okay I think we should move on now so let's
+I think we should move on now so let's thank yeah thank you

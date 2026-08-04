@@ -1,0 +1,514 @@
+- At IBM, we know how important it is for organizations
+to ensure the confidentiality, integrity,
+and authentication of data.
+And although the use of encryption has protected data
+for decades, the emergence
+of cryptographically relevant quantum computers
+could change everything.
+To mitigate the risk of "harvest now
+and decrypt later" scenarios by malicious actors,
+organizations need effective strategies
+to safeguard cryptographic inventory.
+In 2016, the National Institute of Standards and Technology,
+or NIST, called upon the world's cryptographers
+to devise new methods of encryption
+to address these escalating threats.
+And out of the 80 algorithms proposed, 4 were selected.
+IBM scientists co-developed
+all four quantum-safe encryption algorithms selected by NIST
+for standardization.
+These algorithms, ML-KEM, ML-DSA, Falcon, and SPHINCS+,
+aim to support all-around performance,
+security, and digital signatures.
+Let's explore some use cases.
+In the financial sector,
+quantum-safe cryptography shields digital signatures
+and transactions from quantum-enabled risks.
+In telecom, it fortifies encrypted communications.
+In retail operations, it keeps customer data private.
+In healthcare,
+it ensures that sensitive medical records stay confidential.
+And in government,
+it guards classified records to protect national security.
+It will take alignment across industries
+to carry out the complex new cryptographic migrations needed
+to build a quantum-safe future.
+That's why IBM is driving adoption
+of quantum-safe cryptography
+through industry consortia partnerships.
+These partnerships empower communities
+to develop strategies, facilitate education,
+and drive deployment for quantum-safe transformation.
+IBM is your partner of choice
+in the journey to become quantum safe
+and achieve crypto-agility,
+because together, we can make the world quantum safe.
+To learn more, visit ibm.com/quantumsafe.
+(no audio)
+- I'm Ray Harishankar,
+and I'm an IBM fellow from the Quantum Computing Team,
+and I lead Quantum Safe.
+I'm super excited to talk to you about the announcement
+of the first set of post-quantum cryptography standards
+by the National Institute of Standards and Technology,
+or NIST, here in the US.
+First, some context.
+All modern digital communications depend
+on the security provided by cryptography.
+While modern-day supercomputers take millions of years
+to break the powerful encryption offered by RSA-2048,
+a cryptographically relevant quantum computer
+is expected to be able to break RSA-2048
+in a matter of hours by applying Shor's algorithm.
+In addition,
+bad actors can currently exfiltrate sensitive data today,
+decrypt it when
+a cryptographically relevant quantum computer
+becomes available, and cause damage.
+This is the "harvest now, decrypt later" problem.
+To deal with the risk of RSA being broken
+and to prevent the "harvest now, decrypt later"l challenge,
+organizations around the world need
+to update their current cryptography
+with post-quantum cryptography standards.
+Now let's talk about NIST and IBM's contributions.
+In July of 2022, NIST selected four algorithms
+around which to build standards.
+I am very proud to share that three
+of the four algorithms selected
+by NIST were co-developed by IBM.
+Currently, NIST has completed the standardization work
+on three of these algorithms.
+Standards have been published
+for the global community to use.
+The algorithms that were selected
+for standardization by NIST are:
+one, CRYSTALS-Kyber,
+a key-exchange-based algorithm
+based on learning with errors approach;
+CRYSTALS-Dilithium,
+a digital signature algorithm
+based on LWE for short integers;
+a digital signature algorithm called Falcon
+based on NTRU;
+and Sphinx, another digital signature algorithm
+based on hash functions.
+The first three were co-developed by IBM,
+and Ward Beullens, who developed Sphinx,
+has since joined IBM.
+Now on the impact of this announcement.
+There are three aspects to call out.
+What it means for cybersecurity standards globally.
+This is a very significant inflection point
+in modern-day cybersecurity.
+These standards and algorithms included
+in them are resistant to attacks
+from both classical and quantum computers.
+Second is what it means for the industry
+and the supply chain.
+Announcement of standards removes a key barrier
+to PQC adoption.
+This will increase not just the overall awareness
+to this issue across the industry,
+but actually drive adoption across the entire supply chain.
+Organizations now have the assurance
+that they can move forward with their migration
+to become quantum safe.
+Now to the third point, what it means
+for building more agile cybersecurity frameworks.
+This is a great opportunity to not just migrate
+to more resilient cryptosystems,
+but actually to architect, design,
+and build a more agile cryptographic architecture
+and associated governance models.
+In summary, the first set
+of PQC algorithm standards have been published by NIST,
+and this is a very significant inflection point
+in the adoption of PQC in general across the industry.
+IBM has over the years and continues
+to play a critical role in advancing cryptography
+and cryptography standards.
+I am thrilled and privileged
+to be moderating this panel of experts
+and discuss the important topic of the announcement
+of NIST standards around the first set
+of post-quantum cryptography, or PQC, algorithms:
+Whitfield Diffie, Michael Osborne,
+and Vadim Lyubashevsky.
+Let me ask each of the panelists to introduce themselves
+and share with us their expertise, experience,
+and contributions to cryptography in general
+so those who are listening can appreciate the eminence
+of this panel.
+- I'm Whitfield Diffie.
+I've been working in cryptography for a bit over 50 years.
+I was one of the developers of the cryptographic systems,
+my case is called Diffie-Hellman,
+that are standards of the internet today.
+And I hold in this particular circumstance
+an almost unique position,
+because I am working here with IBM
+on the post-quantum cryptography,
+but it is the systems I help develop
+that are at risk from quantum computing.
+So I think I hold a really balanced set
+of interests here.
+- I'm Mike Osborne.
+I'm based here in IBM Research Europe
+in the lab in Switzerland.
+And here, I have a responsibility for the foundational team.
+So essentially the team which comes up
+with all of these new algorithms
+that are about to be standardized.
+And more recently, in the context of IBM Quantum Safe,
+looking at the tools
+and the capabilities that we require to help migrate
+to these new algorithms that we've developed.
+So very much looking forward to the panel, Ray.
+- Thank you very much, Mike.
+As you and I know, we work very closely together,
+but I want to call out for the sake of the audience
+that Mike and I are sort of joined at the hip
+in applying the cryptography in various technologies
+as it applies to clients.
+And with that, let me go on to Vadim.
+Please introduce yourself.
+- Thanks, Ray.
+My name is Vadim Lyubashevsky,
+and I'm a researcher here at IBM Research.
+I've been here for nine years,
+and ever since I got here,
+we've been working on submitting
+and following along the NIST standardization process.
+- Thank you, Vadim, for that introduction.
+So earlier, you heard me share my point
+of view on the significance of the NIST announcement.
+But I'm eager to hear from you, the experts,
+regarding what your perspectives are on two aspects:
+One, why now?
+And also, why these encryptions are important.
+- Okay, so the question to why now.
+So essentially, there are many things
+that we are doing today
+with the sort of cryptography that we'd explained,
+you helped introduce that,
+for example, securing communications,
+transferring data backwards and forwards,
+if these communications are harvested,
+they can be decrypted in the future
+when large enough quantum computers arrive.
+It's really important that any data
+that we are sending around, that it is,
+if it has a value in the future,
+then it's really important that we are protecting this
+in such a way that it's not vulnerable in the future.
+To say it another way,
+everything that we are not protecting today
+in a quantum-safe way is lost to a quantum era.
+And there's plenty of examples of information
+which really has long, long lifetimes.
+So medical information, sensitive emails,
+military, government.
+So there's a whole stack of things
+which we really need to be looking at today,
+protecting today to ensure its security into the future.
+- Excellent. Very good.
+Mike, let me ask Vadim about, you know,
+the other aspects of this.
+- Sure, absolutely.
+So they're important for two reasons.
+One is you may want to switch to encryption
+that's quantum safe in case your secrets are valuable enough
+that they will still have something of value
+to someone in 10 years' time,
+when a quantum computer could be built.
+Another reason is maybe more bureaucratic.
+You will have to switch to these standards
+by regulations in about 10 years anyway,
+so you might as well get started now.
+- So Vadim, your point about these standards have enabled
+the industry to begin adoption to achieve the target
+of change is spot on.
+So with that, let me move on to Whit.
+Whit, you are the preeminent expert in cryptography.
+You were sort of humble enough in your introduction.
+And not many in the world have the distinction
+of having a protocol named after them.
+So this question is for you,
+since I'm sure you can provide a pretty unique perspective
+on this.
+How concerned should our clients be
+on the current state of cryptography?
+- You know, it's always hard to judge.
+In 2005, when NSA adopted the, quote,
+"Suite B" set of public algorithms trusted
+for all levels of secret information,
+it seemed as though the problem might have been solved.
+But since then, a number of things have come up
+and quantum computing is one of the most significant.
+We don't know the timescale,
+but it seems very important to guarantee
+that things will remain secure as we move on.
+I think it's important to note
+that there are two different characteristics here:
+that most of what we depend on cryptography for
+in internet communications is authenticity.
+When you deal with a merchant on the internet,
+you want to be sure you are dealing with the right one.
+Generally speaking,
+that kind of cryptography has a short lifetime.
+If you don't authenticate yourself now,
+you're not gonna be able to do it sometime in the future.
+The other aspect is confidentiality.
+And indeed,
+many things have long lifetimes.
+Generally speaking,
+secrets decline in significance over time.
+But typical military secrets have
+a nominal 30-year lifespan
+before they're expected to have been declassified.
+Census data, medical records, things about individuals,
+whether they're really important 100 years later or not,
+people often prepare to protect them for that long.
+I haven't been able to find out
+what the oldest message people are hoping someday
+to decrypt is,
+but I wouldn't be surprised to find it dates
+to the First World War.
+- It'll be interesting to see
+what the First World War secrets are that make it,
+you know, decrypted sooner.
+The next question is actually something
+that every client I have interacted with has either directly
+or indirectly asked me.
+Current-day cryptography has been tested
+and proven in the field,
+battle hardened for nearly 50 years.
+That has been 50 years of proven history in the field.
+Compare that to the new post-quantum cryptography.
+Do you believe that these new algorithms are better
+and are ready for adoption?
+- Okay, so my response to this,
+because it is a debate you hear very often.
+That actually, these are new algorithms.
+The maths or maybe also the implementations might not be
+as baked out as one might wish.
+But that is really ignoring the fact
+that a lot has been learned over the past 50 years
+how to get to good crypto.
+So there's an awful lot of experience
+in both how you design algorithms,
+how you model them against different adversaries,
+how you implement securely the sort of things
+that you need to do.
+The algorithms, the implementations
+that we actually produce today,
+cannot be compared to the early implementations
+when new algorithms came out in the past.
+And there's another factor here, essentially,
+that for some of these algorithms,
+they might appear new to clients
+that just kind of like,
+are waking up to the fact that they have to implement them.
+But we ourselves as an organization,
+we have been implementing them and releasing them
+for the last seven years.
+So it's also not that we don't have experience ourselves.
+So at least from an engineering perspective
+and a mathematical, I would say, modeling perspective,
+these algorithms are in a much better state
+than anything that I've seen equivalently in the past.
+- Just to add to that.
+So algorithms based on lattices, when designed properly,
+are actually very efficient.
+They're even faster than algorithms that are used today.
+In fact, their running time is faster
+than the classical algorithms
+based on discrete log or RSA or elliptic curves.
+- Thank you, Vadim, for those comments.
+And now, Whit, let me ask you for your point of view
+on this, as to why the new algorithms are better,
+and what you can, you know,
+say to satisfy the client's questions of,
+convince me that these are as good as the old,
+if not better.
+- Let me start out in a rather broad context.
+It's not just individual algorithms,
+it's the whole process
+by which cryptographic algorithms are developed, analyzed,
+and tested that has improved.
+The fact that the systems being used
+on the internet have now been in use for decades
+and have not been broken
+is evidence of the general quality of the process
+by which we develop cryptographic systems.
+And so that applies as much to newly developed systems
+as it was to the ones we've been keeping around for a while.
+So something has only been a decade or two
+versus three or four is not the most important issue.
+It's very likely
+that things developed now will develop much more carefully,
+against much better standards and procedures,
+than things developed earlier.
+- Excellent. Excellent, guys.
+So not only have these new algorithms been tested thoroughly
+and have been used, as you pointed out, Mike,
+and implemented over the past several years,
+so they're not as new as one may seem,
+plus, Whit, to your point,
+that we are leveraging on the collective experience
+of the last 100 years or so
+and improved processes, techniques, approaches.
+Not just in creating these,
+but also in testing and validating and proving them,
+all collectively should give us the confidence
+that these are really ready for prime time.
+That is definitely reassuring. Thank you for that.
+And let me also thank you on behalf of our clients
+who are asking those questions
+so they can rest assured that these are solid algorithms
+that they can begin transitioning to.
+Now for the last question as we wrap this up.
+What guidance or advice would each of you give
+to those listening to this discussion
+as to how and when to start their crypto-agility journey?
+- Okay, so I have a very simple answer to that question.
+The later you leave it and the less you prepare,
+the more expensive and chaotic it will be.
+We have had a number of similar,
+somewhat similar, let's say, transitions in the past,
+one of them would be Y2K,
+the other one would be from SHA-1 to SHA-2,
+where the whole process was less than satisfactory
+in terms of the time it took
+and the cost of such a migration.
+So there are two key messages from this.
+One is the preparation.
+The more that you prepare,
+the more efficient the whole process is going to be.
+Most of what needs doing is going to come
+from your suppliers and your supply chain.
+And unless your preparation
+includes orchestrating your supply chain
+such that they give you what you need
+in the order that you need things,
+you are gonna end up in the same sort of problems
+that we've experienced in the past.
+So preparation is everything.
+- Excellent.
+Whit, can we wrap this up with your insights please?
+- It'll be hard to add much in that direction,
+to Mike's excellent analysis.
+Well, I think your question speaks directly
+to the NIST announcement.
+Because one of the big reasons
+that people delay implementation
+is they aren't exactly sure what they're supposed
+to be implementing.
+A proposed standard is out for comment,
+comments might lead it to change, et cetera.
+And so this announcement of what the exact standard
+is will motivate many people to move ahead
+and implement their solutions.
+- To sum it up, start now,
+get engaged, prepare yourself,
+and begin the execution in a thoughtful manner,
+taking into consideration the ecosystem you operate within
+and the overall supply chain that you're engaged in.
+And the fact that the standards have been announced
+should reassure our clients that it is a great time
+to embark on this journey with confidence.
+Thank you, Whit, Mike, and Vadim,
+for that engaging dialogue.
+You guys are clearly the experts in current-day
+and in new post-quantum cryptography.
+Let me now close out with how organizations should think
+about post-quantum cryptography and where IBM can help.
+Organizations should think
+about this announcement not as an endpoint,
+but actually as a beginning.
+Historically, upgrading cryptography,
+whether it be from SHA-1 to SHA-2
+or upgrading to adopting AES,
+has typically taken several years.
+Estimates are that this migration is
+by far the most far-reaching, will be the most complex,
+and will take anywhere from 5 to 15 years.
+Therefore, adopting a systematic
+and iterative approach appropriately enabled by technology
+is the best way to approach this.
+It's important to ensure
+that crypto-agility is an integral part of the approach,
+the method of execution, and an automatic outcome,
+not as an add-on or a bolt-on
+or an afterthought.
+Here are some specific calls to action.
+Start now and start by establishing what is strategic
+and use that to prioritize the areas of focus and actions.
+If you haven't already,
+you should begin the process of cryptographic discovery.
+It's very important to know where your cryptography is at,
+what needs to be replaced,
+and what the dependencies are, et cetera.
+Extend this discovery across business applications
+and the IT network.
+Cryptography can reside in source code,
+third-party services, commercial off-the-shelf products,
+cloud-based services, database components,
+operating systems, hardware, IoT devices, et cetera.
+With this information,
+you can now prioritize which changes to make when.
+And develop a solid plan
+that makes these changes incrementally.
+Understand the dependencies
+and work with your third-party vendors to ensure
+that their components are going to be PQC compliant as well.
+All this work cannot be done
+without the help of tools or automation technologies.
+At IBM, we have a well-defined approach
+or methodology for enterprises to take on this journey
+and also a comprehensive set of technology capabilities
+that synergistically address establishing the strategy,
+discovery of existing cryptography and their dependencies,
+prioritization, ongoing observation and compliance,
+as well as appropriate mitigation and remediation actions.
+I also recommend joining industry consortiums
+and learn along with others in your industry
+and leverage best-practices-based approaches being published
+by these consortia.
+This is a great way for clients
+to know what's happening in their industry relative
+to PQC adoption.
+At IBM, we have been engaged
+with several clients over the past three years
+across multiple industries,
+enabling them to embark
+on their specific quantum-safe journey.
+Some clients have started
+by building a cryptographic inventory
+from source code they manage.
+Some have started by looking at cryptography in news
+across their network and understanding the dependencies.
+Some have started with the management
+of cryptographic policies.
+And others have started
+by understanding the technologies involved
+in the remediation or mitigation actions.
+Regardless of where clients are in their journey
+to become quantum safe, IBM can certainly help.
+So let me close with this.
+Cryptographers from IBM have continued
+to demonstrate leadership through the development
+of innovative algorithms
+that have been standardized by NIST.
+More are being developed by IBM and being evaluated by NIST.
+These standards that NIST has announced
+will help organizations establish cyber resilience
+in the quantum era.
+Combining our research, quantum, technology,
+and consulting expertise,
+IBM is ready to be your partner in your journey
+to becoming quantum safe and achieving crypto-agility.
+Thank you and have a great day.
+For more information, do not hesitate to visit our website
+and gather more information regarding Quantum Safe.

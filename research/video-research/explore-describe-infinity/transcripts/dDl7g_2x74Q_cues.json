@@ -1,0 +1,1182 @@
+[
+  {
+    "t_start": 0.28,
+    "t_end": 3.03,
+    "text": "MARK JAGO: We're going to talk about four paradoxes that"
+  },
+  {
+    "t_start": 3.03,
+    "t_end": 5.71,
+    "text": "touch on the topic of infinity."
+  },
+  {
+    "t_start": 5.71,
+    "t_end": 9.08,
+    "text": "First one, we've got the Hilbert Hotel."
+  },
+  {
+    "t_start": 9.08,
+    "t_end": 11.77,
+    "text": "This is a hotel with infinitely many rooms."
+  },
+  {
+    "t_start": 11.77,
+    "t_end": 15.91,
+    "text": "And at the moment, there's somebody in every single room."
+  },
+  {
+    "t_start": 15.91,
+    "t_end": 18.93,
+    "text": "So it's a full hotel, and then a new customer rolls up at the"
+  },
+  {
+    "t_start": 18.93,
+    "t_end": 20.84,
+    "text": "reception desk."
+  },
+  {
+    "t_start": 20.84,
+    "t_end": 23.52,
+    "text": "Now, you might think they're going to turn him away because"
+  },
+  {
+    "t_start": 23.52,
+    "t_end": 24.85,
+    "text": "the hotel's full."
+  },
+  {
+    "t_start": 24.85,
+    "t_end": 26.75,
+    "text": "But the manager's clever."
+  },
+  {
+    "t_start": 26.75,
+    "t_end": 28.04,
+    "text": "And here's what he does."
+  },
+  {
+    "t_start": 28.04,
+    "t_end": 32.134,
+    "text": "He shifts the person in room 1 to room 2, and the person in"
+  },
+  {
+    "t_start": 32.134,
+    "t_end": 34.86,
+    "text": "room 2 to room 3, and the person in room 3 to"
+  },
+  {
+    "t_start": 34.86,
+    "t_end": 36.33,
+    "text": "room 4, and so on."
+  },
+  {
+    "t_start": 36.33,
+    "t_end": 38.55,
+    "text": "Everyone gets shifted forward one room."
+  },
+  {
+    "t_start": 38.55,
+    "t_end": 41.525,
+    "text": "And because there's infinitely many rooms, you never run out"
+  },
+  {
+    "t_start": 41.525,
+    "t_end": 43.07,
+    "text": "of rooms to put people in."
+  },
+  {
+    "t_start": 43.07,
+    "t_end": 46.45,
+    "text": "And when you've done all of this, room 1's free."
+  },
+  {
+    "t_start": 46.45,
+    "t_end": 49.02,
+    "text": "So the new guest gets put in room number 1."
+  },
+  {
+    "t_start": 49.02,
+    "t_end": 51.09,
+    "text": "So you can fit in a new guest."
+  },
+  {
+    "t_start": 51.09,
+    "t_end": 52.77,
+    "text": "You can fit in two new guests."
+  },
+  {
+    "t_start": 52.77,
+    "t_end": 54.78,
+    "text": "You could fit in 10 new guests."
+  },
+  {
+    "t_start": 54.78,
+    "t_end": 58.76,
+    "text": "And even if an infinite bus of new customers rolls up, you"
+  },
+  {
+    "t_start": 58.76,
+    "t_end": 59.78,
+    "text": "can fit them all in."
+  },
+  {
+    "t_start": 59.78,
+    "t_end": 63.97,
+    "text": "I guess it's that when I first heard the description, I"
+  },
+  {
+    "t_start": 63.97,
+    "t_end": 65.53,
+    "text": "thought, well, that hotel's full."
+  },
+  {
+    "t_start": 65.53,
+    "t_end": 66.66,
+    "text": "You can't fit anybody in it."
+  },
+  {
+    "t_start": 66.66,
+    "t_end": 69.05,
+    "text": "That's how full hotels work."
+  },
+  {
+    "t_start": 69.05,
+    "t_end": 72.11,
+    "text": "But then once you're shown that you can fit as many new"
+  },
+  {
+    "t_start": 72.11,
+    "t_end": 74.99,
+    "text": "people in the hotel as you like, you learn something new"
+  },
+  {
+    "t_start": 74.99,
+    "t_end": 76.45,
+    "text": "about infinity."
+  },
+  {
+    "t_start": 76.45,
+    "t_end": 78.74,
+    "text": "So your intuitions change."
+  },
+  {
+    "t_start": 78.74,
+    "t_end": 80.92,
+    "text": "And the trick is because it's an infinite hotel, there is no"
+  },
+  {
+    "t_start": 80.92,
+    "t_end": 81.72,
+    "text": "final room."
+  },
+  {
+    "t_start": 81.72,
+    "t_end": 84.45,
+    "text": "If there were a final room, you could count all the rooms,"
+  },
+  {
+    "t_start": 84.45,
+    "t_end": 86.03,
+    "text": "and there wouldn't be infinitely many of them."
+  },
+  {
+    "t_start": 86.03,
+    "t_end": 89.48,
+    "text": "I think he's using the idea to say, infinity is interesting,"
+  },
+  {
+    "t_start": 89.48,
+    "t_end": 92.13,
+    "text": "it's philosophically interesting because you might"
+  },
+  {
+    "t_start": 92.13,
+    "t_end": 93.96,
+    "text": "have thought things went like this."
+  },
+  {
+    "t_start": 93.96,
+    "t_end": 95.33,
+    "text": "But they don't, and we can show"
+  },
+  {
+    "t_start": 95.33,
+    "t_end": 97.64,
+    "text": "mathematically that they don't."
+  },
+  {
+    "t_start": 97.64,
+    "t_end": 99.71,
+    "text": "Paradox number two-- this is the paradox"
+  },
+  {
+    "t_start": 99.71,
+    "t_end": 102.33,
+    "text": "of Gabriel's trumpet."
+  },
+  {
+    "t_start": 102.33,
+    "t_end": 105.26,
+    "text": "So the idea is we have this mathematical shape, this"
+  },
+  {
+    "t_start": 105.26,
+    "t_end": 106.76,
+    "text": "mathematical object."
+  },
+  {
+    "t_start": 106.76,
+    "t_end": 108.17,
+    "text": "And it's shaped like a trumpet."
+  },
+  {
+    "t_start": 108.17,
+    "t_end": 112.31,
+    "text": "It'll start off here, and it'll taper and get thinner"
+  },
+  {
+    "t_start": 112.31,
+    "t_end": 114.5,
+    "text": "and thinner and thinner and thinner and thinner."
+  },
+  {
+    "t_start": 114.5,
+    "t_end": 117.15,
+    "text": "And it tends off to infinity, getting thinner and thinner"
+  },
+  {
+    "t_start": 117.15,
+    "t_end": 119.1,
+    "text": "all the way."
+  },
+  {
+    "t_start": 119.1,
+    "t_end": 124.53,
+    "text": "So that mathematical object has an infinite surface area."
+  },
+  {
+    "t_start": 124.53,
+    "t_end": 127.97,
+    "text": "But the volume it encloses, the air in the center of the"
+  },
+  {
+    "t_start": 127.97,
+    "t_end": 130.479,
+    "text": "trumpet, is only a finite volume."
+  },
+  {
+    "t_start": 130.479,
+    "t_end": 133.29,
+    "text": "Suppose you were told you had to paint the"
+  },
+  {
+    "t_start": 133.29,
+    "t_end": 135.14,
+    "text": "inside of that trumpet."
+  },
+  {
+    "t_start": 135.14,
+    "t_end": 138.49,
+    "text": "Well, on the one hand, you've got to paint an"
+  },
+  {
+    "t_start": 138.49,
+    "t_end": 140.26,
+    "text": "infinitely big surface."
+  },
+  {
+    "t_start": 140.26,
+    "t_end": 142.37,
+    "text": "So you're going to need an infinite bucket of paint."
+  },
+  {
+    "t_start": 142.37,
+    "t_end": 146.39,
+    "text": "But on the other hand, you could just take a finite, big"
+  },
+  {
+    "t_start": 146.39,
+    "t_end": 150.66,
+    "text": "enough can of paint, tip it into the trumpet, and let it"
+  },
+  {
+    "t_start": 150.66,
+    "t_end": 152.55,
+    "text": "filter its way down."
+  },
+  {
+    "t_start": 152.55,
+    "t_end": 158.22,
+    "text": "So it looks like you only need a finite amount of paint to"
+  },
+  {
+    "t_start": 158.22,
+    "t_end": 160.28,
+    "text": "paint an infinite surface area."
+  },
+  {
+    "t_start": 160.28,
+    "t_end": 162.47,
+    "text": "That's really, really strange."
+  },
+  {
+    "t_start": 162.47,
+    "t_end": 165.35,
+    "text": "If we're thinking about real physical paint, you just can't"
+  },
+  {
+    "t_start": 165.35,
+    "t_end": 166.65,
+    "text": "paint the whole surface."
+  },
+  {
+    "t_start": 166.65,
+    "t_end": 170.12,
+    "text": "Because it gets so thin at one end that you're just not going"
+  },
+  {
+    "t_start": 170.12,
+    "t_end": 171.44,
+    "text": "to fit the paint down there."
+  },
+  {
+    "t_start": 171.44,
+    "t_end": 175.2,
+    "text": "So I guess the clash arises when we think about the"
+  },
+  {
+    "t_start": 175.2,
+    "t_end": 178.46,
+    "text": "difference between the mathematical idea of a surface"
+  },
+  {
+    "t_start": 178.46,
+    "t_end": 180.63,
+    "text": "and the physical idea of paint, which"
+  },
+  {
+    "t_start": 180.63,
+    "t_end": 183.23,
+    "text": "is real thick stuff."
+  },
+  {
+    "t_start": 183.23,
+    "t_end": 185.94,
+    "text": "If we had mathematical paint where the molecules had no"
+  },
+  {
+    "t_start": 185.94,
+    "t_end": 188.76,
+    "text": "size whatsoever, looks like you'd need an infinite amount"
+  },
+  {
+    "t_start": 188.76,
+    "t_end": 191.59,
+    "text": "of that to cover that infinite surface area."
+  },
+  {
+    "t_start": 191.59,
+    "t_end": 194.05,
+    "text": "He thought there was something really strange going on here."
+  },
+  {
+    "t_start": 194.05,
+    "t_end": 196.82,
+    "text": "He gave lots of proofs of this idea because I think at first,"
+  },
+  {
+    "t_start": 196.82,
+    "t_end": 198.44,
+    "text": "he thought he'd made a mistake."
+  },
+  {
+    "t_start": 198.44,
+    "t_end": 201.68,
+    "text": "And lots of mathematicians thought that there was"
+  },
+  {
+    "t_start": 201.68,
+    "t_end": 203.89,
+    "text": "something wrong with the idea of infinity, that maybe"
+  },
+  {
+    "t_start": 203.89,
+    "t_end": 205.95,
+    "text": "somehow we should banish infinity."
+  },
+  {
+    "t_start": 205.95,
+    "t_end": 208.71,
+    "text": "Because puzzles like this clash."
+  },
+  {
+    "t_start": 208.71,
+    "t_end": 210.67,
+    "text": "They show there's something wrong with the idea, so we"
+  },
+  {
+    "t_start": 210.67,
+    "t_end": 213.44,
+    "text": "should somehow ban it from our mathematics."
+  },
+  {
+    "t_start": 213.44,
+    "t_end": 216.55,
+    "text": "But in fact, infinity works just fine in mathematics."
+  },
+  {
+    "t_start": 216.55,
+    "t_end": 219.37,
+    "text": "But we have to sometimes change our ideas about how the"
+  },
+  {
+    "t_start": 219.37,
+    "t_end": 221.6,
+    "text": "world works to fit it in."
+  },
+  {
+    "t_start": 221.6,
+    "t_end": 224.76,
+    "text": "Number three-- so this is the puzzle of the dartboard."
+  },
+  {
+    "t_start": 224.76,
+    "t_end": 225.87,
+    "text": "So we suppose we've got a dartboard,"
+  },
+  {
+    "t_start": 225.87,
+    "t_end": 227.07,
+    "text": "and we've got a dart."
+  },
+  {
+    "t_start": 227.07,
+    "t_end": 229.18,
+    "text": "And we're going to throw the dart at the dartboard."
+  },
+  {
+    "t_start": 229.18,
+    "t_end": 232.98,
+    "text": "And let's just suppose we're guaranteed 100% chance to hit"
+  },
+  {
+    "t_start": 232.98,
+    "t_end": 234.27,
+    "text": "the dartboard."
+  },
+  {
+    "t_start": 234.27,
+    "t_end": 238.0,
+    "text": "And then we ask the question, think about the exact center"
+  },
+  {
+    "t_start": 238.0,
+    "t_end": 239.72,
+    "text": "point of the dart."
+  },
+  {
+    "t_start": 239.72,
+    "t_end": 242.45,
+    "text": "And we think about an exact point, a mathematical point on"
+  },
+  {
+    "t_start": 242.45,
+    "t_end": 243.18,
+    "text": "the dartboard."
+  },
+  {
+    "t_start": 243.18,
+    "t_end": 246.88,
+    "text": "And we ask the question, what's the chance our dart is"
+  },
+  {
+    "t_start": 246.88,
+    "t_end": 249.72,
+    "text": "going to hit that exact point?"
+  },
+  {
+    "t_start": 249.72,
+    "t_end": 252.98,
+    "text": "And it turns out we can't give a sensible answer."
+  },
+  {
+    "t_start": 252.98,
+    "t_end": 255.79,
+    "text": "So suppose on the one hand that we say, it's got a chance"
+  },
+  {
+    "t_start": 255.79,
+    "t_end": 258.93,
+    "text": "greater than 0 of hitting that point."
+  },
+  {
+    "t_start": 258.93,
+    "t_end": 260.62,
+    "text": "Well, there's a problem with that."
+  },
+  {
+    "t_start": 260.62,
+    "t_end": 263.27,
+    "text": "If it's got a greater than 0 chance of hitting that point,"
+  },
+  {
+    "t_start": 263.27,
+    "t_end": 266.35,
+    "text": "the same goes for every other point on the dartboard."
+  },
+  {
+    "t_start": 266.35,
+    "t_end": 267.93,
+    "text": "And there's infinitely many of them."
+  },
+  {
+    "t_start": 267.93,
+    "t_end": 270.58,
+    "text": "In fact, there's a big infinity of those"
+  },
+  {
+    "t_start": 270.58,
+    "t_end": 272.39,
+    "text": "mathematical points."
+  },
+  {
+    "t_start": 272.39,
+    "t_end": 275.36,
+    "text": "When we add all those chances together to give us the chance"
+  },
+  {
+    "t_start": 275.36,
+    "t_end": 277.64,
+    "text": "that the dart's going to hit the dartboard at all, we end"
+  },
+  {
+    "t_start": 277.64,
+    "t_end": 279.93,
+    "text": "up with an infinite probability."
+  },
+  {
+    "t_start": 279.93,
+    "t_end": 282.1,
+    "text": "But we can't have an infinite probability."
+  },
+  {
+    "t_start": 282.1,
+    "t_end": 284.14,
+    "text": "You can't get a probability bigger than 1 that something"
+  },
+  {
+    "t_start": 284.14,
+    "t_end": 285.63,
+    "text": "will happen."
+  },
+  {
+    "t_start": 285.63,
+    "t_end": 288.25,
+    "text": "OK, so we've got a problem with the idea that the chance"
+  },
+  {
+    "t_start": 288.25,
+    "t_end": 290.67,
+    "text": "of the dart hitting that point is bigger than 0."
+  },
+  {
+    "t_start": 290.67,
+    "t_end": 294.24,
+    "text": "So on the other hand, what happened to the chance of 0?"
+  },
+  {
+    "t_start": 294.24,
+    "t_end": 295.41,
+    "text": "Well, that's also strange."
+  },
+  {
+    "t_start": 295.41,
+    "t_end": 298.87,
+    "text": "Because if the chance of hitting that point is 0, we"
+  },
+  {
+    "t_start": 298.87,
+    "t_end": 300.59,
+    "text": "could say the same for every point."
+  },
+  {
+    "t_start": 300.59,
+    "t_end": 303.51,
+    "text": "So the chance of hitting any point on the dart board is 0."
+  },
+  {
+    "t_start": 303.51,
+    "t_end": 305.02,
+    "text": "It's not going to happen."
+  },
+  {
+    "t_start": 305.02,
+    "t_end": 308.723,
+    "text": "But that's really strange because we're sure the dart's"
+  },
+  {
+    "t_start": 308.723,
+    "t_end": 310.43,
+    "text": "going to hit the dartboard somewhere."
+  },
+  {
+    "t_start": 310.43,
+    "t_end": 313.12,
+    "text": "Again, one thing philosophers say about this is the idea of"
+  },
+  {
+    "t_start": 313.12,
+    "t_end": 314.76,
+    "text": "banning infinity."
+  },
+  {
+    "t_start": 314.76,
+    "t_end": 319.88,
+    "text": "So we say, don't think about the exact mathematical point"
+  },
+  {
+    "t_start": 319.88,
+    "t_end": 320.39,
+    "text": "of the dart."
+  },
+  {
+    "t_start": 320.39,
+    "t_end": 321.87,
+    "text": "We think about an area--"
+  },
+  {
+    "t_start": 321.87,
+    "t_end": 325.1,
+    "text": "any real physical dart has an area at its center."
+  },
+  {
+    "t_start": 325.1,
+    "t_end": 328.27,
+    "text": "And we think about what's the chance that it hits an area on"
+  },
+  {
+    "t_start": 328.27,
+    "t_end": 329.66,
+    "text": "the dartboard."
+  },
+  {
+    "t_start": 329.66,
+    "t_end": 331.945,
+    "text": "And then we divide these up in a finite way."
+  },
+  {
+    "t_start": 331.945,
+    "t_end": 333.61,
+    "text": "And the problem goes away."
+  },
+  {
+    "t_start": 333.61,
+    "t_end": 336.06,
+    "text": "As the area gets bigger, the probability that the dart hits"
+  },
+  {
+    "t_start": 336.06,
+    "t_end": 336.81,
+    "text": "there is bigger."
+  },
+  {
+    "t_start": 336.81,
+    "t_end": 339.13,
+    "text": "As it gets smaller, the probability the dart hits"
+  },
+  {
+    "t_start": 339.13,
+    "t_end": 341.14,
+    "text": "there gets smaller."
+  },
+  {
+    "t_start": 341.14,
+    "t_end": 345.28,
+    "text": "BRADY HARAN: So it's this kind of granular nature of our"
+  },
+  {
+    "t_start": 345.28,
+    "t_end": 347.59,
+    "text": "existence that gets us out of trouble?"
+  },
+  {
+    "t_start": 347.59,
+    "t_end": 348.51,
+    "text": "MARK JAGO: Yeah, that's right."
+  },
+  {
+    "t_start": 348.51,
+    "t_end": 351.44,
+    "text": "So if everything that we think about is an area rather than"
+  },
+  {
+    "t_start": 351.44,
+    "t_end": 354.94,
+    "text": "an exact point, the problem goes away."
+  },
+  {
+    "t_start": 354.94,
+    "t_end": 356.76,
+    "text": "But that's not completely satisfying."
+  },
+  {
+    "t_start": 356.76,
+    "t_end": 359.47,
+    "text": "After all, we can think of an area getting smaller and"
+  },
+  {
+    "t_start": 359.47,
+    "t_end": 361.6,
+    "text": "smaller and smaller and tending to infinity."
+  },
+  {
+    "t_start": 361.6,
+    "t_end": 364.53,
+    "text": "Shouldn't we have a decent answer to this problem when we"
+  },
+  {
+    "t_start": 364.53,
+    "t_end": 366.17,
+    "text": "get to the infinite case?"
+  },
+  {
+    "t_start": 366.17,
+    "t_end": 370.52,
+    "text": "And maybe we don't have a very good answer to it."
+  },
+  {
+    "t_start": 370.52,
+    "t_end": 372.11,
+    "text": "OK, so here's the fourth paradox."
+  },
+  {
+    "t_start": 372.11,
+    "t_end": 374.01,
+    "text": "This is perhaps the most interesting one of them all"
+  },
+  {
+    "t_start": 374.01,
+    "t_end": 376.98,
+    "text": "because it relates to what rational humans should do in"
+  },
+  {
+    "t_start": 376.98,
+    "t_end": 377.555,
+    "text": "betting games."
+  },
+  {
+    "t_start": 377.555,
+    "t_end": 380.74,
+    "text": "You go to a casino, and they put a pound in the pot."
+  },
+  {
+    "t_start": 380.74,
+    "t_end": 383.39,
+    "text": "And they say, we're going to flip a fair coin."
+  },
+  {
+    "t_start": 383.39,
+    "t_end": 386.28,
+    "text": "And when it lands on a tail, you get whatever's in the pot."
+  },
+  {
+    "t_start": 386.28,
+    "t_end": 390.29,
+    "text": "If we flip a head, the casino doubles what's in the pot, and"
+  },
+  {
+    "t_start": 390.29,
+    "t_end": 392.64,
+    "text": "we play again."
+  },
+  {
+    "t_start": 392.64,
+    "t_end": 394.7,
+    "text": "If it gets a tail, you get what's in the pot."
+  },
+  {
+    "t_start": 394.7,
+    "t_end": 396.29,
+    "text": "If it's a head, they double the pot,"
+  },
+  {
+    "t_start": 396.29,
+    "t_end": 397.77,
+    "text": "and we carry on playing."
+  },
+  {
+    "t_start": 397.77,
+    "t_end": 401.06,
+    "text": "But then they ask you the question, how much would you"
+  },
+  {
+    "t_start": 401.06,
+    "t_end": 403.58,
+    "text": "pay to get into this game?"
+  },
+  {
+    "t_start": 403.58,
+    "t_end": 404.64,
+    "text": "Name your price."
+  },
+  {
+    "t_start": 404.64,
+    "t_end": 406.6,
+    "text": "You've got to pay something to play."
+  },
+  {
+    "t_start": 406.6,
+    "t_end": 408.08,
+    "text": "What would you pay?"
+  },
+  {
+    "t_start": 408.08,
+    "t_end": 410.93,
+    "text": "And I think most people think about this a bit and say"
+  },
+  {
+    "t_start": 410.93,
+    "t_end": 413.83,
+    "text": "something like, maybe a few pounds?"
+  },
+  {
+    "t_start": 413.83,
+    "t_end": 418.48,
+    "text": "Maybe if you're rich, you'd say 20 pounds."
+  },
+  {
+    "t_start": 418.48,
+    "t_end": 422.58,
+    "text": "The mathematical theory, on the other hand, tells you, bet"
+  },
+  {
+    "t_start": 422.58,
+    "t_end": 423.8,
+    "text": "whatever you've got."
+  },
+  {
+    "t_start": 423.8,
+    "t_end": 427.48,
+    "text": "Stake any amount of money you can get your hands on on this"
+  },
+  {
+    "t_start": 427.48,
+    "t_end": 432.17,
+    "text": "game, because the expected winnings is infinite."
+  },
+  {
+    "t_start": 432.17,
+    "t_end": 435.79,
+    "text": "Your expected take home is infinite if you play the game."
+  },
+  {
+    "t_start": 435.79,
+    "t_end": 440.36,
+    "text": "So the way we work out the expected take-home winnings is"
+  },
+  {
+    "t_start": 440.36,
+    "t_end": 441.52,
+    "text": "we look at each case."
+  },
+  {
+    "t_start": 441.52,
+    "t_end": 443.435,
+    "text": "If you flip a tail on the first go, how"
+  },
+  {
+    "t_start": 443.435,
+    "t_end": 444.58,
+    "text": "much would you win?"
+  },
+  {
+    "t_start": 444.58,
+    "t_end": 447.212,
+    "text": "Add it to if you flip a tail on the second go, how much"
+  },
+  {
+    "t_start": 447.212,
+    "t_end": 448.11,
+    "text": "would you win?"
+  },
+  {
+    "t_start": 448.11,
+    "t_end": 450.615,
+    "text": "Add it to if you flip a tail on the third go, how much"
+  },
+  {
+    "t_start": 450.615,
+    "t_end": 450.93,
+    "text": "would you win?"
+  },
+  {
+    "t_start": 450.93,
+    "t_end": 451.65,
+    "text": "And we sum all of these."
+  },
+  {
+    "t_start": 451.65,
+    "t_end": 455.05,
+    "text": "But because the game hasn't got a fixed end point, we sum"
+  },
+  {
+    "t_start": 455.05,
+    "t_end": 456.36,
+    "text": "infinitely many of these."
+  },
+  {
+    "t_start": 456.36,
+    "t_end": 461.29,
+    "text": "And in fact, the expected value of each play"
+  },
+  {
+    "t_start": 461.29,
+    "t_end": 462.76,
+    "text": "of the game is 1/2."
+  },
+  {
+    "t_start": 462.76,
+    "t_end": 466.01,
+    "text": "So we're adding 1/2 to 1/2 to 1/2 to 1/2"
+  },
+  {
+    "t_start": 466.01,
+    "t_end": 467.76,
+    "text": "infinitely many times."
+  },
+  {
+    "t_start": 467.76,
+    "t_end": 471.11,
+    "text": "That's why the expected value of what you will take home is"
+  },
+  {
+    "t_start": 471.11,
+    "t_end": 472.68,
+    "text": "infinitely big."
+  },
+  {
+    "t_start": 472.68,
+    "t_end": 473.975,
+    "text": "BRADY HARAN: But we wouldn't bet our house, would we?"
+  },
+  {
+    "t_start": 473.975,
+    "t_end": 475.18,
+    "text": "We wouldn't bet everything."
+  },
+  {
+    "t_start": 475.18,
+    "t_end": 475.59,
+    "text": "MARK JAGO: I wouldn't."
+  },
+  {
+    "t_start": 475.59,
+    "t_end": 477.42,
+    "text": "And I don't think you would."
+  },
+  {
+    "t_start": 477.42,
+    "t_end": 478.553,
+    "text": "And--"
+  },
+  {
+    "t_start": 478.553,
+    "t_end": 480.15,
+    "text": "BRADY HARAN: What does that say?"
+  },
+  {
+    "t_start": 480.15,
+    "t_end": 482.49,
+    "text": "MARK JAGO: I think it says something interesting"
+  },
+  {
+    "t_start": 482.49,
+    "t_end": 484.45,
+    "text": "perhaps about us."
+  },
+  {
+    "t_start": 484.45,
+    "t_end": 487.57,
+    "text": "Perhaps it says that we're more risk averse than the"
+  },
+  {
+    "t_start": 487.57,
+    "t_end": 491.67,
+    "text": "mathematical theory would have us believe."
+  },
+  {
+    "t_start": 491.67,
+    "t_end": 495.36,
+    "text": "Perhaps it says that the value of money changes"
+  },
+  {
+    "t_start": 495.36,
+    "t_end": 497.27,
+    "text": "the more you accrue."
+  },
+  {
+    "t_start": 497.27,
+    "t_end": 499.64,
+    "text": "Perhaps it says something else that we haven't quite worked"
+  },
+  {
+    "t_start": 499.64,
+    "t_end": 503.02,
+    "text": "yet, that we should figure in to what makes us rational"
+  },
+  {
+    "t_start": 503.02,
+    "t_end": 506.38,
+    "text": "reasoners that we haven't yet taken account of in the maths."
+  },
+  {
+    "t_start": 506.38,
+    "t_end": 508.74,
+    "text": "BRADY HARAN: You're sort of saying that as if humans are"
+  },
+  {
+    "t_start": 508.74,
+    "t_end": 510.98,
+    "text": "wrong to not bet everything on it."
+  },
+  {
+    "t_start": 510.98,
+    "t_end": 514.35,
+    "text": "But surely if humans did that, casinos would set that game up"
+  },
+  {
+    "t_start": 514.35,
+    "t_end": 517.025,
+    "text": "and own all our houses by now."
+  },
+  {
+    "t_start": 517.025,
+    "t_end": 518.86,
+    "text": "MARK JAGO: Well, good point."
+  },
+  {
+    "t_start": 518.86,
+    "t_end": 522.49,
+    "text": "To make the maths come out, the casino has to guarantee,"
+  },
+  {
+    "t_start": 522.49,
+    "t_end": 526.16,
+    "text": "so you have to know in advance that they will bet as"
+  },
+  {
+    "t_start": 526.16,
+    "t_end": 527.55,
+    "text": "much as they need."
+  },
+  {
+    "t_start": 527.55,
+    "t_end": 531.2,
+    "text": "So there would have to be a casino with an infinite amount"
+  },
+  {
+    "t_start": 531.2,
+    "t_end": 534.47,
+    "text": "of money, potentially, to put into this game."
+  },
+  {
+    "t_start": 534.47,
+    "t_end": 537.62,
+    "text": "So one way out of it is to say, look, there's no casino"
+  },
+  {
+    "t_start": 537.62,
+    "t_end": 538.83,
+    "text": "with that amount of money."
+  },
+  {
+    "t_start": 538.83,
+    "t_end": 542.76,
+    "text": "And if we say after x amount of money has been put in the"
+  },
+  {
+    "t_start": 542.76,
+    "t_end": 545.39,
+    "text": "pot, that's it, that's all the casino can do."
+  },
+  {
+    "t_start": 545.39,
+    "t_end": 548.83,
+    "text": "Then the numbers change, and it turns out you would be"
+  },
+  {
+    "t_start": 548.83,
+    "t_end": 551.11,
+    "text": "irrational to put lots of money into it."
+  },
+  {
+    "t_start": 551.11,
+    "t_end": 553.58,
+    "text": "We have this mathematical theory of"
+  },
+  {
+    "t_start": 553.58,
+    "t_end": 555.82,
+    "text": "rational decision making."
+  },
+  {
+    "t_start": 555.82,
+    "t_end": 558.85,
+    "text": "Most mathematical theories don't crumble when you put"
+  },
+  {
+    "t_start": 558.85,
+    "t_end": 559.57,
+    "text": "infinity in."
+  },
+  {
+    "t_start": 559.57,
+    "t_end": 561.1,
+    "text": "They work just fine."
+  },
+  {
+    "t_start": 561.1,
+    "t_end": 564.83,
+    "text": "So why is it that theories about us, how we should or"
+  },
+  {
+    "t_start": 564.83,
+    "t_end": 566.75,
+    "text": "shouldn't behave, go really weird when you"
+  },
+  {
+    "t_start": 566.75,
+    "t_end": 569.56,
+    "text": "put infinity in?"
+  },
+  {
+    "t_start": 569.56,
+    "t_end": 572.93,
+    "text": "So suppose we take all the natural numbers together."
+  },
+  {
+    "t_start": 572.93,
+    "t_end": 574.38,
+    "text": "None of those are infinitely big."
+  },
+  {
+    "t_start": 574.38,
+    "t_end": 576.65,
+    "text": "Each one is a finite number."
+  },
+  {
+    "t_start": 576.65,
+    "t_end": 578.15,
+    "text": "But there's infinitely many of them."
+  },
+  {
+    "t_start": 578.15,
+    "t_end": 581.24,
+    "text": "So if we were asked to count them, we'd say there's an"
+  },
+  {
+    "t_start": 581.24,
+    "t_end": 582.49,
+    "text": "infinite connection."
+  }
+]

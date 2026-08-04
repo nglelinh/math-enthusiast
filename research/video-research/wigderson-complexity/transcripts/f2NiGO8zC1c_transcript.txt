@@ -1,0 +1,1076 @@
+It's working now. Okay.
+Okay. So,
+So, um
+Should we start? Okay.
+Okay. Um
+Al- Alan Bordin, a university professor at the University
+university professor at the University of Toronto, will introduce the
+uh the speaker. Thank you.
+Thank you. Um
+I don't know. I think I'm more nervous than Avi.
+I think I'm more nervous than Avi. Uh
+is my uh honor and great pleasure to introduce Avi Wigderson, the recipient
+introduce Avi Wigderson, the recipient of the 2023 Turing Award.
+Avi's seminal work spans the most fundamental areas of
+fundamental areas of computer science as well as pure
+which is not to say that theoretical computer science is impure.
+Avi's work is foundational, for example, with respect to expanders, communication
+with respect to expanders, communication complexity, proof complexity,
+zero-knowledge proofs, cryptography, randomness extraction, and perhaps most
+notably in arithmetic and Boolean complexity theory, and in particular in
+His work, spanning decades of thought, has given us great evidence that
+has given us great evidence that polynomial-time algorithms can be
+polynomial-time algorithms can be derandomized,
+a result that still seems counterintuitive and against what was
+counterintuitive and against what was the common wisdom.
+I could ask here who hasn't been motivated by Avi's work in their papers
+motivated by Avi's work in their papers and courses.
+The Turing Award can be added to Avi also being the recipient of the
+also being the recipient of the Nevanlinna Prize, and the
+viewed at the time as the Fields Prize for our field, and the Abel Prize in
+for our field, and the Abel Prize in mathematics, as many as well as many
+other deserved awards. And Avi is the first person to win both the Abel Prize
+first person to win both the Abel Prize and the Turing Award.
+Perhaps as important as his research is Avi's role as a leader
+Avi's role as a leader of our community, and especially his
+of our community, and especially his mentoring of young men and not-so-young
+Good chance that Avi has written a letter for many here for a faculty
+letter for many here for a faculty position or a promotion or an award or
+position or a promotion or an award or maybe all three.
+If you're in theoretical computer science, good probability Avi has been
+science, good probability Avi has been asked to write a letter for you, but
+this isn't a random process. Everybody wants Avi's opinion.
+Everybody wants Avi's opinion. My wife and I have known Avi and Edna
+for over 40 years. Their generosity
+and personally and their hospitality in Princeton or Israel is extraordinary.
+Avi and Edna have a wonderful family with three great children doing their
+with three great children doing their own things. Eyal, a winemaker, Edna, a
+own things. Eyal, a winemaker, Edna, a trauma counselor, and Yuval, a
+trauma counselor, and Yuval, a mathematician,
+with whom Avi has three publications. Glad Edna and her husband can be here
+Glad Edna and her husband can be here today.
+Let me write just one personal experience about Avi.
+Avi spent a summer visiting Toronto, and we once and we once went to a water
+Those who know Avi's older son, Eyal, know that he does things most of us
+wouldn't even try thinking of.
+There was a very high, steep slide at the park, and of course Eyal, then 7
+the park, and of course Eyal, then 7 years old, did that slide a couple of
+years old, did that slide a couple of times encouraging Avi to do it. Now,
+times encouraging Avi to do it. Now, this is one of those slides, you know,
+this is one of those slides, you know, it's
+you climb and as you take off you leave the slide.
+And it feels like it's probably only a second, but it feels like eternity.
+And I I don't know if Avi would really want to do this slide, but finally guilt
+want to do this slide, but finally guilt or loyalty, you you choose which it he
+or loyalty, you you choose which it he made this he did the slide and I and he
+survived. Um
+And perhaps that is so that is why he is so willing to take risks in his research
+so willing to take risks in his research working on the most foundational
+working on the most foundational problems in computer science.
+Please welcome the recipient of the 2023 Turing Award, Professor Avi Wigderson.
+Thank you. Uh thanks Alan for this introduction. I'm really glad to be
+introduction. I'm really glad to be here.
+STOC is really my home community. I've been coming here since
+community. I've been coming here since 1980s, STOC and FOCS conferences, maybe
+1980s, STOC and FOCS conferences, maybe not as long as Alan did,
+not as long as Alan did, but probably more longer than most of
+to give this lecture. I want to tell you about my experience in the last 6 weeks
+about my experience in the last 6 weeks preparing this talk. Uh
+so there's a brilliant idea. You know, what do you talk about for the
+why not talk about Alan Turing? And you know, as as many of you maybe I thought
+know, as as many of you maybe I thought I you know, I learned about him. I heard
+and I know a lot and then I started reading and I discovered how much I
+reading and I discovered how much I don't know. And I'll share with you some
+of this. Um
+I I will not talk about his personal life at all.
+life at all. Uh there's a lot to say. It's a short
+tragic and and
+I will just talk about professional matters. This is more or less his uh
+CV where he spent time. I'll tell you about only one or two papers from each
+about only one or two papers from each period and I will tell you about you
+reading it about what did our community do with these ideas? He had profound
+do with these ideas? He had profound ideas on many subjects. Amazingly many
+ideas on many subjects. Amazingly many subjects. You'll see some of this
+yeah, I think he would have loved to see what we are doing.
+what we are doing. And
+we obviously are inspired by what he was doing.
+doing. Uh
+wouldn't I could have talked an hour, 3 hours, 5 hours about what I read. I'll
+hours, 5 hours about what I read. I'll just have an hour. I will not mention
+just have an hour. I will not mention anything practical like his work on
+anything practical like his work on building computers or computer
+building computers or computer evolution.
+About his work on programming and programming practice which is
+programming practice which is you know, it's really amazing how much
+and wrote about this. His work on the central limit theorem as an undergrad,
+central limit theorem as an undergrad, his work on numerical analysis inventing
+his work on numerical analysis inventing LU decomposition, condition number. You
+LU decomposition, condition number. You may have not known that.
+may have not known that. His work on encryption, on programming
+His work on encryption, on programming chess,
+uh on the Riemann hypothesis which he was obsessed with. You can ask me at the
+I will not mention this because I don't have time. So let me start.
+have time. So let me start. Uh the first period is his
+Uh the first period is his time in Cambridge and
+here I want to talk about the obvious uh candidate, probably the paper I'll
+uh candidate, probably the paper I'll talk about longest even though you
+talk about longest even though you probably know
+uh most about on computable numbers with an application to the
+an application to the Entscheidungsproblem.
+Probably the most paper with the largest influence ever on the world.
+uh by Max Newman, a topologist was interested in foundations on Hilbert's
+uh you know, work on foundations of mathematics and he was describing to the
+mathematics and he was describing to the students Hilbert's dream basically of
+students Hilbert's dream basically of having firm foundations for math.
+So you want to take a theory and prove that it is really a foundation. So you
+that it is really a foundation. So you want to say that it's complete, anything
+want to say that it's complete, anything that's provable it proves
+that's provable it proves it's consistent, no contradictions,
+it's consistent, no contradictions, otherwise one will be trivial.
+And that if something is provable, there's a mechanical procedure
+there's a mechanical procedure that's his word in German though
+uh to to generate a proof. Of course, as we all know, Gödel killed
+Of course, as we all know, Gödel killed the first two
+the first two and
+Turing in this paper killed the third one. That's the Entscheidungsproblem,
+one. That's the Entscheidungsproblem, the decision problem. He proved that you
+So he killed Hilbert's dream completely, that was the last nail. But you know, he
+that was the last nail. But you know, he came to Max Newman with his paper after
+came to Max Newman with his paper after he wrote it
+he wrote it and uh
+Max Newman just got you know, a few weeks before got a letter from Alonzo
+weeks before got a letter from Alonzo Church in Princeton with a paper proving
+Church in Princeton with a paper proving the same result,
+And as a good mentor, he was a good mentor to Turing throughout his life. Uh
+mentor to Turing throughout his life. Uh He did two things. First of all, he was
+the editor of the London Math Society that uh
+you know, yes, this result is known already, but there's a completely
+already, but there's a completely different proof here and we need to
+And he also told Alonzo Church sending him Turing's paper
+uh advocating Turing's point of view and also knowing that Princeton at the time
+also knowing that Princeton at the time was the hub of this you know, logic
+foundations work, uh he asked him to take Turing as a
+graduate student, which
+which is what Turing wanted.
+The main question that Turing and anybody working on this has to ask
+anybody working on this has to ask themselves is what is computation? What
+themselves is what is computation? What is a mechanical procedure?
+So this is a question and it's you know, almost you know, it's hard to
+you know, almost you know, it's hard to think of something more fundamental more
+think of something more fundamental more fundamental.
+fundamental. Uh
+mean? And people suggested things. Naturally, Gödel and Herbrand and others
+Naturally, Gödel and Herbrand and others suggested notion of recursive functions.
+suggested notion of recursive functions. Uh
+Church developed this lambda calculus uh from the early '30s
+uh from the early '30s and
+uh as capturing computation. And Turing, as we all know, came up with something
+as we all know, came up with something completely different, completely
+completely different, completely elementary, amazingly beautiful,
+it is remarkable that you know, just as this came out, both Church and Gödel
+this came out, both Church and Gödel said
+Turing's model is the right model. They immediately recognized it as the
+They immediately recognized it as the most natural thing capturing
+most natural thing capturing computation.
+computation. Uh
+And they actually Church was the person who named it a Turing machine. It's
+who named it a Turing machine. It's really a classic STOC paper. It
+really a classic STOC paper. It introduces a completely new model. And
+now you have to argue that it does what it should, it captures computation. And
+it should, it captures computation. And Turing, like in many other papers, goes
+to the length of explaining this in every possible way. First of all, so you
+want to argue that this captures anything that is computable in any way.
+and he says I'll give you three different reasons, different kinds of
+different reasons, different kinds of reasons. One
+is that it emulates the way computers work. Well, computer was the name of a
+work. Well, computer was the name of a profession, of a human profession, of
+profession, of a human profession, of somebody who does these calculations,
+mainly women. Uh
+and he just that's the reason he thought of this. That's he said that's how we
+calculate, maybe on a sheet of paper with squares
+and he makes it one-dimensional. Well, you know the whole story. That's one
+you know the whole story. That's one explanation.
+explanation. Second is let me show you how to
+you know, any number, any infinite reel which is like a Boolean function,
+uh pi, e, many other, you know, Bessel functions, all sorts of uh since he
+functions, all sorts of uh since he gives programs for them.
+And the third, once he knew that Church proved, you know, undecidability using a
+proved, you know, undecidability using a different framework, he showed that this
+different framework, he showed that this is equivalent. In fact, it's equivalent
+also to Gödel's model. So as we like, a model is good if it's equivalent to very
+model is good if it's equivalent to very different manifestations of it.
+field. This is where, you know, we have a mathematical model of a computer. So
+a mathematical model of a computer. So we can do math.
+complexity theory is already embedded in this model because there is a definite
+this model because there is a definite mathematical
+precise notion of a unit of time and of a unit of space. And so we can define
+a unit of space. And so we can define these classes as Hartmanis and Stearns
+these classes as Hartmanis and Stearns did.
+Uh time classes, space we can count exactly how much an algorithm spends and
+exactly how much an algorithm spends and of course, these were just the
+of course, these were just the first complexity classes and since then
+first complexity classes and since then we have a zoo of them
+we have a zoo of them that Scott started maintaining about 20
+that Scott started maintaining about 20 years ago.
+The main result is uh undecidability result. So what he shows
+undecidability result. So what he shows is that you all know and learn in
+classes that no algorithm can solve the halting problem,
+halting problem, which in
+plain language to any personal programs means that you cannot
+personal programs means that you cannot debug.
+There's no way to always debug computer programs automatically debugging.
+Which I love the way that Christos Papadimitriou explained this. He says
+Papadimitriou explained this. He says that computer science was born here and
+it was born already aware of its limitations. Computers cannot solve
+problem of the field cannot be solved by computers. As opposed to let's say
+computers. As opposed to let's say physics which was born and then several
+physics which was born and then several thousands years later they discovered
+thousands years later they discovered uncertainty principle or the second law
+uncertainty principle or the second law of thermodynamics. They had to discover
+of thermodynamics. They had to discover quantum mechanics
+quantum mechanics other limitations.
+Uh it's hard to underestimate and it's not stressed enough I think in the
+not stressed enough I think in the courses
+what impact it has on mathematics. Mathematics was always computational. I
+Mathematics was always computational. I always maintain this. Mathematicians are
+computer scientists from Euclid on. Uh but this has an amazing effect
+because uh
+it offers a way to say when can you understand a mathematical problem? Can
+understand a mathematical problem? Can you prove theorems in this theory? Basic
+theorems in this theory. Hilbert believed everything can but now
+So people started doing algorithms. These are decidability proofs. Some
+These are decidability proofs. Some problems and some basic problems are,
+problems and some basic problems are, you know, decidable. For example, Tarski
+you know, decidable. For example, Tarski developed uh you know, his quantifier
+structure in mathematics in order to prove decidability results like the
+first order theory of the reals. Tarski developed quantifier elimination,
+Tarski developed quantifier elimination, very basic technique. Haken developed
+the theory of normal surfaces in order to prove that
+uh deciding unknottedness of knots is decidable. On the other hand
+other people, starting with Turing actually, went to show that basic
+actually, went to show that basic problems in math are undecidable, having
+problems in math are undecidable, having having nothing to do with computation.
+having nothing to do with computation. These are word problems starting with
+These are word problems starting with semigroups and then uh
+semigroups and then uh famously in groups.
+And in the '70s this took quite a bit uh because there are the reductions to
+uh because there are the reductions to the halting problem are more
+the halting problem are more sophisticated. Matiyasevich proved that
+sophisticated. Matiyasevich proved that the polynomial equations cannot be
+The technique that Hilbert that
+Turing developed is something we, you know, could immediately use. Of course
+know, could immediately use. Of course uh in the paper we have the notion that
+program is data and therefore we can treat programs as input to other
+treat programs as input to other programs and therefore we can
+diagonalize. This is a proof technique and while he uses it for undecidability
+and while he uses it for undecidability he stresses that this simulation is
+efficient. He says that to run a program on a universal machine doesn't take much
+on a universal machine doesn't take much longer than it takes on, you know, to
+longer than it takes on, you know, to run on its own.
+So this was again taken in many instances to prove the time hierarchy
+instances to prove the time hierarchy theorem. More time buys you more
+functions you can compute. More space buys you more functions you can compute.
+And then this was extended with more sophistication like to non-deterministic
+time hierarchy of Cook and to a result that I don't know how many people in the
+that I don't know how many people in the audience
+audience uh
+are aware of but to a linear time version of the P versus NP question. In
+version of the P versus NP question. In linear time non-deterministic
+linear time non-deterministic uh non-determinism buys you more power.
+Again, very sophisticated diagonalization plus
+diagonalization plus uh
+uh clever combinatorial result. Anyway this was
+combinatorial result. Anyway this was Turing offered us started being used all
+over the place till today. Uh
+one thing that I don't think that is recognized by any by many. I actually
+recognized by any by many. I actually asked the cup the
+asked the cup the on Saturday and he didn't know it. Uh
+where does it come from? Who introduced this first? Well, obviously Turing.
+this first? Well, obviously Turing. Uh
+he says in the paper, "Look, uh the machines I'm defining are
+completely determined. The next step follows directly from the current state
+follows directly from the current state and I call these automatic machines A
+and I call these automatic machines A machines. But there is this paragraph
+machines. But there is this paragraph which he doesn't pursue later but he
+which he doesn't pursue later but he says there's another version we can
+says there's another version we can consider choice machines, C machines.
+consider choice machines, C machines. That the motion is only partially
+That the motion is only partially determined by the current configuration
+determined by the current configuration and there are some choices and somebody
+and there are some choices and somebody has to make these choices. And not only
+computation here but tell you why. Why? Because this captures what happens
+Why? Because this captures what happens in proof systems.
+This is the essence of efficient verification of a proof. That's what
+verification of a proof. That's what happens in non-deterministic machines.
+happens in non-deterministic machines. And of course this was taken again
+non-determinism and determinism uh first of all is captured by his well, I would
+of all is captured by his well, I would say that in our field uh
+say that in our field uh uh Cook was the most logical
+uh of the, you know, of the people who started the NP-completeness. His paper
+started the NP-completeness. His paper on NP-completeness in fact is called the
+complexity of theorem proving procedures.
+And then later with Rachel uh the last session was on proof
+Uh he introduces this approach to propositional uh
+you know, basically making the point all proof systems in the world in all the
+math books they have one thing in common, verification must be efficient.
+common, verification must be efficient. So Turing's result can be viewed as
+uh two notions, computation versus uh verification in the case of finite
+uh verification in the case of finite algorithms.
+algorithms. Uh
+and of course what we are trying to do since then
+is trying to prove the efficient analog of this. So
+uh separate efficient verification from efficient computation.
+I think that one of the really great achievements of this field
+really great achievements of this field has been not only to
+uh work on this problem but pursue the notion of efficient verification to
+notion of efficient verification to amazing diversity
+amazing diversity uh
+and extending this to interactive verification, probabilistic
+interactive verification, probabilistic verification, quantum verification and
+there is this amazing uh
+set of works and all the works that preceded them in which we not only
+preceded them in which we not only understand uh you know, have different
+understand uh you know, have different notions of proof systems but we also
+notions of proof systems but we also have exact characterizations of all of
+have exact characterizations of all of them well, except for NP
+them well, except for NP in terms of their computational power.
+in terms of their computational power. And for NP we have the PCP theorem which
+is a pretty good alternative. Um
+Um so
+I could talk much more about this paper but I should stop and move to the next
+phase of Turing's life. I'll if okay by all of you ask me questions
+at the end. So uh
+I make it to the end. Uh
+Valerie promised me there is an infinite time for questions at the end.
+time for questions at the end. Um
+Okay. As I said, Turing went from uh Cambridge to Princeton to do his PhD
+uh Cambridge to Princeton to do his PhD with uh
+Church. This was the hub of logic. Uh Church was there, Kleene and Rosser who
+Church was there, Kleene and Rosser who were his
+computability theory and recursion theory. Was there. Von Neumann was
+theory. Was there. Von Neumann was there. Was very interested in Gödel's
+work and Turing's work and Gödel was partly there
+once. Uh
+Turing was there. Actually he didn't interact with them that much. Uh I think
+it was Yeah.
+Yeah. Uh
+he even talks about this but let me skip. Anyway, he also sees this. He sees
+skip. Anyway, he also sees this. He sees this in a paper called systems of logic
+this in a paper called systems of logic based on on ordinals
+in which he was trying to do whether some you can do something about
+some you can do something about undecidability or about incompleteness.
+undecidability or about incompleteness. What happens for example if you give
+your computer the ability to solve the halting problem? Can then maybe it
+halting problem? Can then maybe it solves everything?
+solves everything? So he introduces what we all know and
+He says, "Let us I mean he writes beautifully. I love his writing.
+Let us say suppose that we are supplied with some unspecified means of solving a
+with some unspecified means of solving a number theoretic problem like halting.
+number theoretic problem like halting. Uh
+a kind of oracle as it were." So he introduces not just the concept but the
+introduces not just the concept but the name we use.
+With the help of the oracle we could uh imagine new kind of machine, call it
+having as one of its fundamental processes one fundamental operation
+processes one fundamental operation giving a query to this oracle.
+Many uh it has a huge influence on recursion theory and computability
+recursion theory and computability theory before complexity theory.
+But uh Turing points post uh you'll see in the next slide but anyway
+he mentions that Turing in the thesis introduces a technique that they all
+introduces a technique that they all know. He basically shows that you can
+also diagonalize against oracle machines.
+machines. And this is used. It's used
+uh establishing a hierarchy of unsolvability
+unsolvability during the grades or the arithmetic
+Uh was first defined by uh the number of quantifiers in uh
+uh the number of quantifiers in uh logical formulas by Kleene, but then
+logical formulas by Kleene, but then Post realized that can be used can be
+Post realized that can be used can be defined by oracles. So, you really
+defined by oracles. So, you really define the ice level using giving an
+define the ice level using giving an oracle of the previous level to the
+oracle of the previous level to the basic machine.
+basic machine. And uh
+using, you know, Turing's technique, uh we know that uh they all proved that uh
+we know that uh they all proved that uh all the
+Of course, there are inclusions going upwards, and all these classes are
+upwards, and all these classes are distinct. We know that.
+Of course, in our world, the efficient version was introduced in
+the efficient version was introduced in the '70s by Meyer and Stockmeyer. This
+is the polynomial time hierarchy. It looks exactly the same, usually with a
+Where at the bottom we have P and NP and P. And here, in contrast, we don't have
+P. And here, in contrast, we don't have separation. We don't have a single
+separation. We don't have a single separation.
+But, we have oracle excuses for our failures.
+these classes, they are used also to have excuses. As again, I'm sure you all
+have excuses. As again, I'm sure you all know, the fundamental paper of Baker,
+know, the fundamental paper of Baker, Gill, and Solovay uh says, you know, ask
+Thorne, and Cook, and so on for short of proving P different than NP? And the
+proving P different than NP? And the answer, because
+you can make P either equal and P or unequal and P with
+and with different oracles, and the diagonalization simulation
+diagonalization simulation diagonalization technique doesn't
+So, you cannot use these techniques. And this is the first barrier result. And
+this is the first barrier result. And we, of course, became enamored of
+we, of course, became enamored of barrier results. And
+uh being introspective, I think that's another very important property of our
+another very important property of our community that we are introspective, and
+community that we are introspective, and when we fail to do something, we look
+not only switch to other problems. Uh and we have So, these excuses are, of
+Uh and we have So, these excuses are, of course, very fundamental and useful
+because we try to collect the techniques used in order, in particular, proving
+used in order, in particular, proving lower bounds. And see what, you know,
+uh barrier of Baker, Gill, and Solovay, there are others, the natural proofs of
+there are others, the natural proofs of Razborov and Rudich, algebraization.
+And from these, you know, understanding these barriers, sometimes we can surpass
+these barriers, sometimes we can surpass them, and there are several results,
+them, and there are several results, notably Ryan Williams'
+uh you know, lower bound for ACC. Uh and then we get stuck again. We
+Uh and then we get stuck again. We invent new barriers, and hopefully
+invent new barriers, and hopefully continue to uh good end.
+Uh I want to move to the next phase of Turing's life, which is
+uh the period of World War II. As uh again, I'm sure you know, at least from
+again, I'm sure you know, at least from the movie,
+uh he spent his years just as the war broke out, he enlisted in Bletchley
+broke out, he enlisted in Bletchley Park. He actually the year before he
+took a code-breaking class. Uh and
+Uh and uh went
+to Bletchley Park, was assigned to Hut uh Hut 8, famous Hut 8, where they were
+uh Hut 8, famous Hut 8, where they were assigned to break the naval Enigma code.
+assigned to break the naval Enigma code. There were many Enigma machines
+There were many Enigma machines different used by different parts of uh
+different used by different parts of uh of the German army.
+Uh and famously, they cracked it. And something which Churchill called the
+something which Churchill called the greatest single contribution to victory
+greatest single contribution to victory in World War II. This is no mean feat
+because World War II Yeah, was a yeah, unfortunately, a
+glorious war. Uh
+It's uh The main problem was that England, after
+The main problem was that England, after uh the Germans took over all of Europe,
+uh the Germans took over all of Europe, was totally dependent on convoys of food
+was totally dependent on convoys of food and supplies and ammunition and weapons
+and supplies and ammunition and weapons from the US. So, there were convoys with
+shipping these to England from the US, and the Atlantic was infested with
+U-boats. The beginning of the war, there were 60. At the end of the war, there
+were something like 400. And ships were being, you know, uh
+being, you know, uh torpedoed.
+torpedoed. You know, many a month. Uh
+problem. I cannot imagine the pressure of people who had to, you know, who knew
+of people who had to, you know, who knew about these and had to defend against
+about these and had to defend against this. And
+you can think of it as a war between uh two machines, the Enigma encryption
+uh two machines, the Enigma encryption machine and the Bombe, what's so-called
+machine and the Bombe, what's so-called the Bombe, which was actually
+initially designed by by uh Polish mathematicians and imported just a month
+mathematicians and imported just a month before the war, the knowledge was
+before the war, the knowledge was imported to French and British
+imported to French and British intelligence.
+Uh that was the improved in the work of uh in Bletchley Park.
+And uh what this machine did is essentially brute force
+search, mechanical alphabet. Okay? And ask you,
+that the next one will be uh an item that appears k time in the
+uh an item that appears k time in the sample?
+So, you want to estimate P of k, probability of seeing something which
+probability of seeing something which appears an item s which appears k time
+answer will be k over n. What's the big deal? Well, the big deal is that this is
+deal? Well, the big deal is that this is a setting which we don't normally
+a setting which we don't normally consider, where the alphabet is
+consider, where the alphabet is something like all German words.
+something like all German words. The alphabet is far larger than the
+Okay? In fact, you don't see most of the items that exist there in the
+uh you know, in the universe. So, what estimate would you give? Now, it's not
+estimate would you give? Now, it's not clear.
+I'll Here's the formula. It's called the Good-Turing test. Uh it looks like this.
+Good-Turing test. Uh it looks like this. If you have n sub k species or items
+which appear k times each, then this is a formula. It looks very unintuitive at
+a formula. It looks very unintuitive at first glance. Instead of k over n, you
+have k plus one over n. So, it sometime somehow gives a larger number there, but
+you weight down by the number of times you see species of k plus one times over
+you see species of k plus one times over the number of times you see, you know,
+the number of times you see, you know, species of which appear k times each.
+Uh I won't uh elaborate now. There's a good uh reason to do it. They understood
+good uh reason to do it. They understood that you should also smooth it.
+And uh they didn't prove anything as far as I know about this. The first proof
+as I know about this. The first proof came out in 2015 that this is optimal.
+came out in 2015 that this is optimal. So, it's the best estimate you can have,
+So, it's the best estimate you can have, no matter what the distribution D is.
+It looks a bit weird because if you know D, you know exactly. But, you don't know
+D, you know exactly. But, you don't know exactly. It may be that the distribution
+assigns two items different probabilities, but they appear both K
+Anyway, this is optimal. And uh here again, thinking about what we do
+uh here again, thinking about what we do on this obviously, we do a lot. I mean,
+there's uh
+more and more connections of uh you know, theoretical computer science and
+know, theoretical computer science and statistics and distribution testing and
+statistics and distribution testing and learning. We have instance optimal
+results like this one. We have robust results
+with the errors and you know, there are plenty of
+there's plenty of beautiful work. The second is what they call weight of
+The second is what they call weight of evidence, and you'll recognize it
+evidence, and you'll recognize it immediately. What's the problem?
+that you want to distinguish. You get X, a sample X from P, and the question is
+a sample X from P, and the question is how much information do you get from it
+how much information do you get from it convincing you that it's actually from
+convincing you that it's actually from P? How much does it confirm P over Q?
+And Turing suggests to study this particular
+particular uh
+random variable, which is called W by them. Uh
+log P of X over Q of X. Of course, you recognize this.
+Uh he suggests studying this distribution. And it's familiar because
+distribution. And it's familiar because the expectation of this distribution is
+the expectation of this distribution is what we now called KL divergence.
+We call KL divergence, which was you know, defined much later. But, I always
+know, defined much later. But, I always thought that the expectation is
+everything. I knew KL divergence, but in fact Turing studies and good, they study
+fact Turing studies and good, they study higher moments. And they get uh you
+higher moments. And they get uh you know, amazingly beautiful theorems about
+know, amazingly beautiful theorems about them that are not taught at least in our
+community, I think. Uh
+some of these form the the basis of what's called sequential analysis theory
+what's called sequential analysis theory that was developed by by Wald and after
+Sequential analysis is basically what do you do when the sample size is not
+You get more and more samples, and you have to update your uh work. This is a
+fundamental theory in statistics, and many of the theorems were already proved
+by Turing and uh
+his collaborators during the war. And of course, there is that use the
+cracking the Enigma and uh on developing theories that Good Luck wrote maybe
+theories that Good Luck wrote maybe dozens of papers on.
+dozens of papers on. Okay. How am I doing with time?
+Uh I had the Well, I don't know. I'll go on. I'll finish in
+an hour. Uh
+Okay. So, I want to move So, after the war, Turing went to London actually for
+war, Turing went to London actually for 3 years trying to build the ACE
+3 years trying to build the ACE computer, definitely designing it.
+And then left in frustration because the government was not really and his you
+know, the engineers uh were not really excited about his ideas. They thought
+excited about his ideas. They thought they were too elaborate.
+they were too elaborate. Uh
+Anyway, he went to Max Newman, who was in Manchester at the time trying to
+in Manchester at the time trying to build his own computer, what became the
+build his own computer, what became the Manchester Baby and the Manchester
+Manchester Baby and the Manchester series of computers.
+series of computers. Uh one anecdote, a thing that I learned
+you know, he was appointed leader of theory of computation. So, this I think
+theory of computation. So, this I think is a leader, of course, is professor in
+is a leader, of course, is professor in England. Uh it was the prestigious
+England. Uh it was the prestigious position. He got a huge salary increase
+position. He got a huge salary increase in that that time. I know that this is
+in that that time. I know that this is the year before he died. This is the
+the year before he died. This is the year after his trial.
+year after his trial. And
+And uh
+you know, for gross indecency, but the British court, the university ignored
+British court, the university ignored all of this. They promoted him and gave
+Uh I want to talk about two papers from this period, and that's will be the end.
+this period, and that's will be the end. Uh one of them you all know and heard
+of. This is his paper on intelligence. He wrote several papers. He actually
+He wrote several papers. He actually gave several lectures, uh and he even
+both lectures and debates with others about the idea of machines and
+about the idea of machines and intelligence.
+Uh and I want to tell you about this paper. I'll get to the imitation game.
+paper. I'll get to the imitation game. You won't You all know about the
+You won't You all know about the imitation game.
+Uh certainly from the movie and probably before the movie.
+But, I want to tell you about other things in this paper that I had no idea
+So, first, he introduces probabilistic algorithms.
+So, this also something he thought about. It appears in other papers,
+about. It appears in other papers, previous papers. It's very clear there.
+previous papers. It's very clear there. All these things that I'll tell you
+All these things that I'll tell you about are part of an argument why
+about are part of an argument why it's not unreasonable to think that
+it's not unreasonable to think that machines can think.
+He actually prepares a whole set of answers to potential criticisms,
+set of answers to potential criticisms, which he knew he would get about this
+which he knew he would get about this this idea. Another paper of his is
+this idea. Another paper of his is called the theoretical theory of machine
+called the theoretical theory of machine intelligence. Anyway,
+here he says clearly, "An interesting variant of the idea of the digital
+computer." You have to think when you read these papers that there were no
+read these papers that there were no computers.
+computers. There was no practice. There was no
+nothing. He thought about it all before anybody
+And uh he says there's the idea of having a random element. So,
+having a random element. So, instructions can be thrown a die and put
+He in other papers, he suggested various Also here, he says maybe an electronic
+Also here, he says maybe an electronic process. He in other papers and actually
+process. He in other papers and actually in devices he designed and built,
+in devices he designed and built, uh he is using thermal noise,
+uh he is using thermal noise, you know, or less with radium. He
+you know, or less with radium. He suggests all these other
+uh ideas for generating randomness. So, he thought about that as well.
+So, he thought about that as well. He thought about pseudo randomness.
+He thought about pseudo randomness. He says
+it's all in the same paper. It's not normally possible to determine from
+normally possible to determine from observing a machine whether it has a
+random element or for a similar effect can be produced by such devices making
+can be produced by such devices making choices which depend on the digits of
+choices which depend on the digits of pi.
+So, he already tell you here is something that's probably pseudo random.
+something that's probably pseudo random. You cannot distinguish it from random.
+Uh not only that, again,
+this quote is already quoted in the famous GMM paper GGM paper on random
+famous GMM paper GGM paper on random functions pseudo random functions. Uh
+functions pseudo random functions. Uh they noticed it, and it's you know,
+precisely fitting their paper. He says the following.
+Uh I have set up on the Manchester computer a small program using only
+computer a small program using only 1,000 units of storage, whereby a
+1,000 units of storage, whereby a machine supplied with 16 figure number
+machine supplied with 16 figure number replies in 2 seconds with another 16
+I will define anyone to learn from these replies sufficient about the program to
+replies sufficient about the program to be able to predict
+be able to predict another value.
+That's the definition of a pseudo random function. It's there. Of course, he's
+using it to argue that machines can be unpredictable. People, you know, and in
+unpredictable. People, you know, and in his many arguments,
+uh with others, people say machines, you know, are totally predictable. They are
+know, are totally predictable. They are thinking maybe of a cow or
+thinking maybe of a cow or I don't know.
+I don't know. Um So, anyway, he had this already in
+Okay. Another thing he had, which again at the time is completely radical.
+at the time is completely radical. Everybody was building computers all
+Everybody was building computers all over the world to do what?
+over the world to do what? Military
+uh purposes mainly. IBM also was doing it for businesses, but to, you know,
+it for businesses, but to, you know, compute things. And Turing thought, "No,
+compute things. And Turing thought, "No, we should teach them. They should learn,
+we should teach them. They should learn, and we should teach them." And he's
+Uh he was obsessed with the amount of storage machines can have in order to
+storage machines can have in order to think. He was very interested with
+think. He was very interested with biologists, what's the size of a human
+biologists, what's the size of a human brain? How much memory does it have?
+brain? How much memory does it have? He explains to everybody that thinks
+He explains to everybody that thinks machines you know,
+if you tell them to multiply two numbers, they will give you the result.
+numbers, they will give you the result. How can they learn? Well, he said they
+How can they learn? Well, he said they learn very simply because they can
+learn very simply because they can change their own instructions. He's
+change their own instructions. He's thinking of that already then. People
+thinking of that already then. People didn't think like that.
+didn't think like that. He's uh
+Again, this is in arguments. People say machines may
+People say machines may you know, they always produce you know,
+Uh and you don't tolerate it if they make errors. He said, "If a machine is
+make errors. He said, "If a machine is expected to be infallible, it cannot be
+expected to be infallible, it cannot be intelligent."
+He already proceeds to think that, you know, we should think of learning and
+know, we should think of learning and allowing machines to learn.
+And uh he's talking about not only learning machine learning from
+experience. So, in this analogy to child learning, he says, "Okay, we are born
+learning, he says, "Okay, we are born with a brain. It's an initial state of
+with a brain. It's an initial state of mind. And then there are two types of
+mind. And then there are two types of experiences. One is we are educated by
+experiences. One is we are educated by elders, and the other is we experience
+And it's funny while I was doing preparing the talk, I got the
+preparing the talk, I got the uh
+Leslie Valiant's new book on the learnability where he said explicitly,
+learnability where he said explicitly, you know, the Turing of course knew
+about this. Turing talks about the education of machines and it was not
+picked up much in the theory of learning.
+Of course, we have lots of theories about learning from distribution and so
+about learning from distribution and so on.
+And in fact, I was thinking about Valiant's previous books, one of the,
+Valiant's previous books, one of the, you know, on the
+circuits of the brain from 20, 25 years ago. And then on the pack learning uh
+ago. And then on the pack learning uh theory and book and I was thinking
+theory and book and I was thinking Turing would have been, you know, really
+Turing would have been, you know, really happy to see how
+how developed, how elaborate his ideas were were carried out to be by Valiant
+were were carried out to be by Valiant and of course many others.
+and of course many others. Okay, finally I get to
+Okay, finally I get to uh this
+uh this uh
+Turing test, uh imitation game.
+imitation game. So,
+he writes again in this uh beautiful style saying, "Uh how do we
+beautiful style saying, "Uh how do we study such a question? Can machines
+study such a question? Can machines think?"
+And he says, "Well, there's a
+natural approach that I can define for you what a machine is. I can define to
+And then you'll start arguing with me that you don't agree with this
+that you don't agree with this definition and we get nowhere.
+definition and we get nowhere. So, instead,
+So, instead, let me suggest something else. Let's
+if a machine thinks. So, the first idea is basically the objective uh you know,
+is basically the objective uh you know, philosophically, the ontological
+philosophically, the ontological uh
+style. But these definitions may not be well agreed upon, be testable, be
+well agreed upon, be testable, be falsifiable, have universal meaning and
+falsifiable, have universal meaning and so on. And instead, he's suggesting a
+This may be made precise, testable, operational, useful, and we'll see uh
+operational, useful, and we'll see uh evolutionary. Anyway, what is the
+evolutionary. Anyway, what is the imitation game? You've all seen it. You
+two scenarios, two objects, in this case a human and a robot, and uh you want to
+a human and a robot, and uh you want to test maybe intelligence or maybe the
+test maybe intelligence or maybe the ability to converse.
+ability to converse. And uh you think of these two worlds in
+uh a person in this case who doesn't know which world it is put in,
+know which world it is put in, communicates with these objects and then
+communicates with these objects and then decides, gives a number between zero and
+saying, let's say, "I think this is a human."
+uh and this number will be P0 in the left and P1 in the right. And you call
+left and P1 in the right. And you call the robot successful or intelligent or
+the robot successful or intelligent or whatever you like if, no matter what
+but as long as the two numbers P0 and P1, the two worlds look almost identical
+P1, the two worlds look almost identical to the referee, to every referee, then
+to the referee, to every referee, then you say indistinguishable and then, you
+you say indistinguishable and then, you know, this object, in this case the
+know, this object, in this case the robot, passes the test.
+robot, passes the test. Now,
+there were many, many arguments about this. Books were written and you know,
+imitation game. I don't want to talk about that. I will talk about what we
+We fell in love with the imitation game, sometimes subconsciously.
+precise imitation games. We basically picked on this paradigm, this
+picked on this paradigm, this indistinguishability paradigm.
+indistinguishability paradigm. Two things are the same if they cannot
+a reasonable test. Reasonable has to, you know, refer to the uh notion at
+you know, refer to the uh notion at hand.
+And one key thing about this uh I think about Turing and I think about all the
+about Turing and I think about all the work done in the field, often the most
+work done in the field, often the most important step is making the right
+important step is making the right notion, defining the right notion. Once
+you know, the rest of the theory, theorems, proofs, constructions follow.
+theorems, proofs, constructions follow. And in this case, I'll just demonstrate
+in a minute or two the power of this particular paradigm, the imitation game
+particular paradigm, the imitation game paradigm, and how it enables this uh you
+know, amazing both scientific, mathematical, technological, societal
+pseudorandomness, and in privacy. You have seen it all, but maybe not in these
+have seen it all, but maybe not in these pictures. I want to show them all as
+pictures. I want to show them all as imitation game, not the central notion.
+imitation game, not the central notion. Here is in cryptography, the most basic
+notion in this seminal paper uh which put cryptography on
+uh which put cryptography on mathematical foundations of Goldwasser
+and Micali, you say, "When is an encryption scheme secure? Well, give me
+encryption scheme secure? Well, give me two encryptions of two different
+messages, any two different messages, and subject them to any polynomial time
+test. If
+then we call it secure." It looks like a very strong definition.
+It looks like a very strong definition. Of course, they also showed that you can
+Of course, they also showed that you can achieve it under
+Uh it's an amazing you know, there are so many things that follow from this
+so many things that follow from this definition. For example, the fact that
+definition. For example, the fact that encryption must be probabilistic.
+This tells you, if it was deterministic, you would try, you know, both and see
+you would try, you know, both and see which one is encrypted.
+which one is encrypted. Anyway,
+secure encryption is defined this way, but in fact, almost every notion in
+but in fact, almost every notion in cryptography is defined by an imitation
+cryptography is defined by an imitation game. If you want to know if a protocol
+computation, you want to know if a protocol is secure, let's say a protocol
+protocol is secure, let's say a protocol for elections, you just subject it to an
+imitation game against some ideal. What would be the ideal would be having a
+would be the ideal would be having a trusted party that which I call the
+uh we I'm sure you noticed already that this is not the presidential debate
+this is not the presidential debate which is happening.
+Maybe they are discussing similar things. Uh
+You you simply uh compare your protocols to the ideal situation allowing an
+efficient algorithm to look at a subset of players, maybe some of them bad, and
+of players, maybe some of them bad, and look at their communication in the ideal
+look at their communication in the ideal case and in the protocol. And if you
+cannot distinguish, then, you know, you cannot, then it's the ideal.
+cannot, then it's the ideal. Two things that look the same are the
+Pseudorandomness, we, you know, uh
+how do we define a distribution that is anti-coins as pseudorandom? Simply let
+anti-coins as pseudorandom? Simply let any algorithm,
+you know, do with them what they like, an efficient algorithm, and produce
+something. And if it behaves like these gold coins, like a uniform distribution,
+gold coins, like a uniform distribution, indistinguishable from the uniform
+distribution, then we call it pseudorandom. And you know what happened
+pseudorandom. And you know what happened with that.
+Privacy. So, the seminal notion by now of differential privacy is again, I
+mean, an imitation game. When is there a way to filter a database to various
+way to filter a database to various queries
+private, differentially private? You simply set up an imitation game saying,
+simply set up an imitation game saying, "Here are two databases that differ only
+"Here are two databases that differ only in one record,
+maybe of Jane Doe, but on what a single record. These are adjacent databases.
+And you want this for any pair of adjacent databases, for any query that
+adjacent databases, for any query that is allowable, after this filter, the
+is allowable, after this filter, the answer to the queries indistinguishable.
+answer to the queries indistinguishable. If it is, then Jane Doe should be happy
+cannot be leaked. So again, that's an imitation game and I
+So again, that's an imitation game and I could give many
+other examples in a longer lecture. I give about this just this
+give about this just this uh
+bit of imitation games. You can describe the regularity lemma as an imitation
+the regularity lemma as an imitation game and there are many, you know, other
+I want to move finally the last five minutes to the uh one of the last papers
+minutes to the uh one of the last papers that
+Turing wrote. Uh also in Manchester.
+it's a paper in biology. It's called The Chemical Basis of
+It's called The Chemical Basis of Morphogenesis. I wonder how many people
+Morphogenesis. I wonder how many people heard about this paper.
+heard about this paper. Raise your hands.
+Okay. So,
+never heard of this. So, this is not just a paper in biology. This is one of
+just a paper in biology. This is one of the most quoted, one of the
+most referenced papers in biology. It's like 20,000 references.
+it's about the problem that, you know, well, I told you about many other
+problems he thought about, but this seems to be really far off
+uh most of the things he thought about. Actually, if you read about his life,
+Actually, if you read about his life, you know that he was very interested in
+nature. Uh
+and he was very avid chemist and he had a lab at home.
+a lab at home. Uh
+He was doing many experiments. He wrote the paper explaining the
+following problem. So, it's the most one of the most basic problems in biology
+of the most basic problems in biology is this, you know, you look at this
+is this, you know, you look at this picture, you say, "What's going on?"
+picture, you say, "What's going on?" Something is wrong here, right?
+How come this came to be? I mean, after all, zebras, all mammals and many other
+all, zebras, all mammals and many other creatures
+emerge from a completely symmetric homogeneous beginning, a fertilized egg.
+homogeneous beginning, a fertilized egg. How do you get this?
+You know, this the stripes, I don't know, the legs, the head, the tail, the
+know, the legs, the head, the tail, the body direction. It's not just that
+body direction. It's not just that asymmetry arises from symmetry.
+asymmetry arises from symmetry. It's not just asymmetry. All zebras look
+alike, right? We recognize zebras or you recognize
+So, it's really about how does different structures and what kind of
+different structures and what kind of this different structures can later
+So, I don't know if I was faced with this problem, I wouldn't know what to
+this problem, I wouldn't know what to do. I'd move to, you know,
+do. I'd move to, you know, previous example, which looks easier.
+And here's what Turing does. I mean, I think it's uh, you know, mind-boggling.
+think it's uh, you know, mind-boggling. Okay. So, I'll tell you a little bit on
+your welcome to it. He says
+he does also the boldness is amazing. In the section, a mathematical model of a
+the section, a mathematical model of a growing embryo will be described. Okay,
+growing embryo will be described. Okay, growing embryo.
+The model will be a simplification and then an idealization and
+and then an idealization and consequently a falsification.
+It is to be hoped that the features retained for discussion are those of
+retained for discussion are those of greatest importance in the present state
+greatest importance in the present state of knowledge.
+of knowledge. And given the number of references of
+yeah, it is hoped that it is materialized.
+Here's a longer description. Uh, he calls this the,
+you know, it's a theory this morphogenesis is the emergence of these
+morphogenesis is the emergence of these rich rich structures from homogeneity.
+Well, it's based on chemicals, which he calls morphogens, and the system is
+calls morphogens, and the system is called a reaction-diffusion. I'll
+called a reaction-diffusion. I'll explain it in a second. Uh, it's just uh
+nice to read. He's uh, you know, um
+um uh
+uh Yeah, he says that uh we we consider it in some detail in the case of an
+it in some detail in the case of an isolated ring of cells.
+isolated ring of cells. A mathematically convenient though
+A mathematically convenient though biologically unusual system.
+Uh, but anyway, this investigation is concerned with the onset onset of
+concerned with the onset onset of instability and
+in you know, changing from the initial homogeneous state, but
+he figures out six essentially different forms that the long-term structure may
+forms that the long-term structure may take, which has patterns in it. For
+take, which has patterns in it. For example, stationary waves. We'll see
+example, stationary waves. We'll see them.
+So, what's the model? The model is, you know, an a cellular ring of cells,
+you know, an a cellular ring of cells, you know, completely homogeneous in
+you know, completely homogeneous in itself.
+itself. Uh,
+Uh, he considers both a discrete setting and
+continuous setting, analyzes them both mathematically.
+Uh, a state is simply the quantity of the different chemicals in
+quantity of the different chemicals in every cell.
+Okay, that's a state. I'll tell you there's, you know, 9 mg of A and 2 mg of
+there's, you know, 9 mg of A and 2 mg of B in this cell and so on.
+B in this cell and so on. And
+the way this evolves is by reaction and diffusion. Reaction happens in the cell,
+diffusion. Reaction happens in the cell, a chemical reaction between whatever
+a chemical reaction between whatever chemicals are there.
+chemicals are there. Diffusion happens if
+your concentration in one cell is different than the concentration, let's
+different than the concentration, let's say, of chemical A in the other, then
+there's some diffusion to make them similar
+at some rate. This is the only input. Of course, the initial state, you give the
+course, the initial state, you give the same amount of chemicals in every cell,
+same amount of chemicals in every cell, so it's completely homogeneous.
+so it's completely homogeneous. And then he says, now what's the
+And it's amazing how, you know, we could take it as a, you know, fantastic
+take it as a, you know, fantastic illustration of uh computational lens on
+illustration of uh computational lens on the sciences, in this case on biology.
+He explains that this is basically a computer.
+What happens is that from one state, we derive the state immediately after by
+derive the state immediately after by simple local rule.
+Whatever happens inside the cell and between two different cells.
+between two different cells. And uh
+what happens is, as I said, quantities change in a reaction in the cell,
+but initially they're all the same, and then by diffusion between the cells. His
+then by diffusion between the cells. His only point is that this
+only point is that this stable
+uh equilibrium uh this equilibrium is unstable. If there's slight differences,
+unstable. If there's slight differences, and of course they won't be the exact
+same amount, then some instability will occur, and then in the long term, not
+only symmetry breaks, but structures emerge, and you can actually quantify
+emerge, and you can actually quantify and describe them. Let me show you this
+He actually considers not only a ring of cells, he considers also a sphere, a
+cells, he considers also a sphere, a three-dimensional model, and he
+three-dimensional model, and he considers lattices,
+considers lattices, and he studies them all.
+in fact, he invents cellular automata before, you know, Ulam and von Neumann.
+before, you know, Ulam and von Neumann. This these are cellular automata.
+This these are cellular automata. In the, you know, two-dimensional model,
+In the, you know, two-dimensional model, he explains uh what's called the
+he explains uh what's called the phyllotaxis, this uh, you know, why do
+phyllotaxis, this uh, you know, why do leaves grow in some parts of some
+leaves grow in some parts of some directions and not in others. He was
+Fibonacci things. In fact, he got to the ring model by looking at this hydra.
+ring model by looking at this hydra. This is a tiny
+This is a tiny uh marine uh creature.
+And if you cut it, if you cut the stem, then again the tentacles will grow. So,
+then again the tentacles will grow. So, when you cut it, it's a ring.
+when you cut it, it's a ring. And he asked, why will the tentacles
+And he asked, why will the tentacles grow from this place and not from that
+grow from this place and not from that place?
+He explains this. In the three-dimensional case, he was
+In the three-dimensional case, he was really interested in embryos.
+really interested in embryos. As some of you, I'm sure, know,
+especially parents, uh the fetus evolves in us initially,
+uh, you know, cells the fertilized eggs divide, and for a while it's a
+divide, and for a while it's a homogeneous ball of cells.
+And this is a blastula. In some place, the gastrulation happens, and
+symmetry breaks, and a direction is formed, basically the direction of the
+formed, basically the direction of the spine.
+So, how does this happen? Well, he has this model can explain gastrulation.
+this model can explain gastrulation. And third object he was really
+And third object he was really interested in is this dappling, these
+interested in is this dappling, these patches.
+And here he doesn't analyze this mathematically. The first two he does.
+Uh, he he even so patient to biologists, he says, okay, here is some mathematical
+he says, okay, here is some mathematical formulas. Uh, this may not be familiar.
+formulas. Uh, this may not be familiar. Maybe you don't know about uh, you know,
+Maybe you don't know about uh, you know, Fourier analysis, or you don't know
+about spherical harmonics. I'll explain it with simple examples. Uh, I mean, he
+he explains actually the first model just with two chemicals, one reaction,
+just with two chemicals, one reaction, and just controlling the different
+rates, which can happen with changes of temperature, he gets, I don't know,
+temperature, he gets, I don't know, these
+stationary waves of uh pattern.
+The dappling in the So, the last is thing like the
+flat part of the cow, he simulates on the Manchester computer. He had reserved
+the Manchester computer. He had reserved every Sunday night, every Thursday
+every Sunday night, every Thursday night.
+He had the computer for himself. He was working all night doing simulations,
+working all night doing simulations, writing programs.
+writing programs. Uh,
+and generated this uh by simulation. Anyway,
+what we do with this, we do uh yeah, we follow him also here. Of
+course, many
+uh former members are doing collaborations, introducing
+the computational point of view in biology, economics. We had a great talk
+biology, economics. We had a great talk this morning from Michael Feldman about
+this morning from Michael Feldman about uh
+uh contracts
+contracts and
+computer science point of contact, social science, physics, math, and
+social science, physics, math, and anything else.
+anything else. Uh,
+there are collaborations, cross-fertilization.
+cross-fertilization. Uh
+I think that we are seeing only the beginning. We know only the beginning of
+beginning. We know only the beginning of this uh
+I'm sure some of these uh fields are very old, much older than
+fields are very old, much older than computer science, and some are
+computer science, and some are conservative and don't, you know, are
+you know, to think about their systems as computational or information
+processes, but by now our theory and methodology of the field is
+uh I think elaborate and deep, and we have an understanding that can be and is
+have an understanding that can be and is useful to lots of the scientists,
+useful to lots of the scientists, especially in the modeling and analysis.
+especially in the modeling and analysis. Um
+Um and
+yeah, we live I'm sure we'll see much more of this.
+Okay, so let me end here. Uh, yeah, it's sort of hard to
+Uh, yeah, it's sort of hard to summarize.
+I think it's the best advice I can give you is is to read his papers. He writes
+you is is to read his papers. He writes so beautifully.
+Uh, clearly, you know, a great thinker and
+a great thinker and with an amazing amazing impact
+with an amazing amazing impact on the world, on the what
+on the world, on the what we are experiencing.
+I think it's it's really I didn't know that. And again, from reading, you see
+that. And again, from reading, you see uh his different paths. I mean, he he
+uh his different paths. I mean, he he loved math and, you know, things like
+loved math and, you know, things like number theory. Uh, he's a real
+number theory. Uh, he's a real mathematician. He proved, as an
+mathematician. He proved, as an undergraduate, he proved the strongest
+form of the, uh, law of large the, you know, central limit theorem. Only it was
+know, central limit theorem. Only it was proved 10 10 years earlier. But he was
+proved 10 10 years earlier. But he was an undergrad.
+an undergrad. Uh,
+he, uh, was a scientist, as you saw in the last, was really interested in
+the last, was really interested in nature and modeling nature.
+He clearly has a very strong philosophical bent from the Turing
+philosophical bent from the Turing machine paper and uh, his intelligence
+paper. Uh, and he was really a hacker and an engineer. I mean, I didn't tell
+and an engineer. I mean, I didn't tell you I said I'm not going to talk about
+partial things, but actually really cared about building devices and the,
+cared about building devices and the, you know, he cared about uh,
+understanding to the very detailed the, uh,
+material and materials that will be used in memory for computers or in designing
+in memory for computers or in designing the Delilah. Well, let me not talk about
+this. Uh, an encryption machine. Yeah, pretty amazing.
+Uh, he, yeah, managed to, uh, you know, study really a
+you know, study really a stunning variety of fundamental issues.
+stunning variety of fundamental issues. And
+with each of them, really deeply. I mean, getting to the heart of many of
+mean, getting to the heart of many of these things. I think it's it's hard to
+these things. I think it's it's hard to imagine how fearless, I mean, it's hard
+nothing. He was willing to go anywhere. Uh, he really had a deep desire to
+understand it to understand these and, of course, use the value of theory.
+of course, use the value of theory. Uh, it's, again, really interesting
+reading his papers. In many of them, there are, you know, not many. He didn't
+there are, you know, not many. He didn't write many papers. There are there are
+write many papers. There are there are controversial models. And he takes, you
+controversial models. And he takes, you know, great care to think about what
+know, great care to think about what others might, you know, say about these
+objections or criticisms. And already said, "If you say this, here's my
+answer. And if you say this, here's my answer." So, in the intelligence paper,
+answer." So, in the intelligence paper, it's it's amazing. He says, "If you are
+it's it's amazing. He says, "If you are a theologian,
+you know, and you have this point of view, let me answer you as a
+view, let me answer you as a theologian."
+And he's really honest. I mean, he criticizes himself and says, "This is a
+criticizes himself and says, "This is a weak argument. I answer you, but this is
+not such a strong argument." It's Yeah.
+Uh, very, you know, very clear thinker and the way he writes, clarify as this.
+and the way he writes, clarify as this. And,
+uh, goes for, as you saw, really really simple models. Simple models. Einstein
+simple models. Simple models. Einstein said is famous for saying, "Everything
+should be made as simple as possible, but not simpler." And I think that, uh,
+Turing agreed. And, uh, yeah, and he
+Before he Before he took out the paper, he said everything he could say about.
+he said everything he could say about. He He thought it out and said, "That's
+He He thought it out and said, "That's all I have to say. Now you you'll deal
+Anyway, uh, thank you. I'll end with my my usual last slide of every uh, every
+my usual last slide of every uh, every talk.
+Uh, by now, I think most people know about this book, but uh, yeah.
+about this book, but uh, yeah. Thank you very much.
+We have some people with microphones here.
+Yep. Okay. Does anyone have any questions?
+the dinner we opened at 7:30 at the restaurant, Glowbal, which is a
+restaurant, Glowbal, which is a 10-minute walk away from here.
+10-minute walk away from here. Um,
+I don't have directions. Everybody have a phone?
+That's your question. Yeah, that's good. Um,
+does somebody want to give directions? I don't uh, I I I think Bruce, do you want
+I I thought people are intelligent enough to find the restaurant. So, those
+enough to find the restaurant. So, those there will still be hungry. Who's going
+there will still be hungry. Who's going to tell people how to get there?
+to tell people how to get there? Anyway,
+Okay, Bruce. There, you can have a microphone.
+microphone. At least you know what streets to go by
+to say. I think it's quite
+Okay, so I believe that Igor sent out an email either last night or this morning
+email either last night or this morning mentioning the name of the restaurant
+and the address. So, my first suggestion is that you just, uh, put that address
+is that you just, uh, put that address into your favorite mapping software.
+Um, my informal directions are that the restaurant is on Georgia It's called
+restaurant is on Georgia It's called Glowbal, g l g l o w b a l.
+Glowbal, g l g l o w b a l. It's on Georgia Street, uh, at the
+It's on Georgia Street, uh, at the corner of Seymour.
+So, if you go out from the main lobby, you want to go north on Burrard. So,
+you want to go north on Burrard. So, turn right. Then, when you get to
+turn right. Then, when you get to Georgia, turn right. If you go out the
+uh, you know, from the, uh, other end entrance on Hornby Street, turn left on
+entrance on Hornby Street, turn left on Hornby Street. Then, when you get to
+for go past Granville, uh, go past Richards, you'll get to Seymour. And,
+Richards, you'll get to Seymour. And, uh, I believe it's on the south
+uh, I believe it's on the south southeast corner there. And, yeah, it's
+southeast corner there. And, yeah, it's kind of a massive place. It's hard to

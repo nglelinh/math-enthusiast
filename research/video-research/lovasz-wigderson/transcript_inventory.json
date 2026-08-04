@@ -1,0 +1,45 @@
+{
+  "slug": "lovasz-wigderson",
+  "videos": [
+    {
+      "id": "zqiL57ebP-k",
+      "title": "Abel lectures Lovász & Wigderson",
+      "has_transcript": true,
+      "chars": 99687,
+      "units": 74,
+      "url": "https://www.youtube.com/watch?v=zqiL57ebP-k"
+    },
+    {
+      "id": "VAk0rtlKtMA",
+      "title": "Abel interview Lovász & Wigderson",
+      "has_transcript": true,
+      "chars": 122428,
+      "units": 85,
+      "url": "https://www.youtube.com/watch?v=VAk0rtlKtMA"
+    },
+    {
+      "id": "J4yssMTZqC4",
+      "title": "WFSJ meet Lovász & Wigderson",
+      "has_transcript": true,
+      "chars": 59038,
+      "units": 45,
+      "url": "https://www.youtube.com/watch?v=J4yssMTZqC4"
+    },
+    {
+      "id": "wg0di8dK0eI",
+      "title": "Short interview Lovász",
+      "has_transcript": true,
+      "chars": 5268,
+      "units": 5,
+      "url": "https://www.youtube.com/watch?v=wg0di8dK0eI"
+    },
+    {
+      "id": "5VxOhzNv9To",
+      "title": "Short interview with Avi Wigderson",
+      "has_transcript": true,
+      "chars": 3502,
+      "units": 3,
+      "url": "https://www.youtube.com/watch?v=5VxOhzNv9To"
+    }
+  ]
+}

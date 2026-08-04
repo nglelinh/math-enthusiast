@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ku_video_PwRl5W-whTs_4",
+    "t_start": 4.7,
+    "t_end": 96.0,
+    "type": "overview",
+    "summary": "what you're looking at right now is called reachi flow with surgery it called reachi flow with surgery it changes the curvature of manifolds in changes the curvature of manifolds in four-dimensional space you may have heard of it because it was used to crack a $1 million problem in topology called a $1 million problem in topology called the poin Caray conjecture and by the end the poin Caray conjecture and by the end of this video you'll understand exactly what it is the agenda for today is to understand the conjecture and how Richi understand the conjecture and how Richi flow was used to s…"
+  },
+  {
+    "id": "ku_video_PwRl5W-whTs_96",
+    "t_start": 96.0,
+    "t_end": 187.5,
+    "type": "overview",
+    "summary": "you can squish any Loop in the space to a point this means that you can mold The Blob into a sphere sitting inside four-dimensional Space here's a question who cares well it has legendary status because it sounds easy for example these because it sounds easy for example these are all terms that you should learn in a been able to crack it for over 100 years worse still in every every other years worse still in every every other dimension this problem was solved the dimension this problem was solved the Nal 4 case was particularly hard so Michael fredman won the 1986 Fields medal for cracking…"
+  },
+  {
+    "id": "ku_video_PwRl5W-whTs_187",
+    "t_start": 187.5,
+    "t_end": 279.0,
+    "type": "overview",
+    "summary": "nice intuitive picture imagine tying a shoelace through a point if we assign really small lengths to tangent vectors it's like pulling in to tangent vectors it's like pulling in the the [Music] shoelace if we assign really large links it's like relaxing the shoelace the metric tensor tells the manifold where to shrink and where to manifold where to shrink and where to expand but if you've noticed we've also curve and that's the amazing thing about the metric tensor by encoding size it the metric tensor by encoding size it gives you curvature this brings us to the second player of remonia ge…"
+  },
+  {
+    "id": "ku_video_PwRl5W-whTs_278",
+    "t_start": 279.0,
+    "t_end": 370.4,
+    "type": "overview",
+    "summary": "balloon by convention we say that it has negative reachy curvature so if the curvature is negative the length increases now focus on this region here increases now focus on this region here Richi flow deflates it so if the Richi Richi flow deflates it so if the Richi curvature is positive the length curvature is positive the length decreases we can phrase this differently decreases we can phrase this differently G decreases means the derivative of G is derivative of G is positive these two guys always have opposite signs so we guys always have opposite signs so we might guess an equation li…"
+  },
+  {
+    "id": "ku_video_PwRl5W-whTs_370",
+    "t_start": 370.4,
+    "t_end": 465.6,
+    "type": "overview",
+    "summary": "finite time that means the last shape you had must have been a you had must have been a sphere but changing the metric doesn't sphere but changing the metric doesn't change the underlying manifold so if you ended up with a sphere you must have started with something homeomorphic to a started with something homeomorphic to a sphere this argument is beautiful but it sphere this argument is beautiful but it hits a snag you see in higher dimensions hits a snag you see in higher dimensions you can have situations like this where a point in this neck gets squished to nothing even before the manif…"
+  },
+  {
+    "id": "ku_video_PwRl5W-whTs_465",
+    "t_start": 465.6,
+    "t_end": 505.6,
+    "type": "overview",
+    "summary": "necks at each time you only see the creation of spheres and necks but two spheres connected by a neck is just a sphere so at each time neck is just a sphere so at each time the manifold is a collection of spheres but the manifold we started off with was connected did so it must have with was connected did so it must have been a sphere say what you want but this argument is just beautiful and it proves argument is just beautiful and it proves the point care conjecture making it one the point care conjecture making it one of the greatest"
+  }
+]

@@ -1,0 +1,788 @@
+fifth of the seven lectures on the clay millennium problems
+i'm glad to see that this beautiful spring weather has not won out against
+spring weather has not won out against the attractions of these talks it's
+the attractions of these talks it's probably unnecessary to explain again
+probably unnecessary to explain again but
+that these problems are unsolved the lectures are
+intended to give just given you an idea of the nature of a few of the especially
+of the nature of a few of the especially important unsolved problems in
+important unsolved problems in mathematics what they're about
+mathematics what they're about they are not
+reports on the solutions of the problems someone seemed to think last time
+the solutions will require new ideas new approaches
+approaches and
+the well it's i think i said before the first lecture to
+get a million this is probably one of the most difficult ways to
+the most difficult ways to get a million dollars
+get a million dollars to
+solve one of these problems anyway our speaker tonight is lewis
+he was born in buenos aires is of italian descent with a dash of greek
+italian descent with a dash of greek thrown in
+he did his undergraduate and graduate work in buenos aires at the university
+work in buenos aires at the university of buenos aires
+but after his phd he went to the university of minnesota
+university of minnesota as a postdoc
+and six years later he was a full professor there
+that he began working in partial differential equations
+differential equations which is his
+became his main mathematical love and the area of most of his
+the area of most of his research he also fell in love with and
+student in minnesota also from argentina uranu gamba
+she is now a professor here at ut in mathematics
+uh after his minnesota years and before coming here cafarelli spent
+and before coming here cafarelli spent time as professor at the koran institute
+time as professor at the koran institute at nyu
+the university of chicago and the institute for advanced study
+institute for advanced study since 1997
+since 1997 he's been a professor and said region
+shareholder here at ut if i list all his honors we'll never get
+if i list all his honors we'll never get to the lecture
+he's a member of the u.s national academy of science
+academy of science and a foreign member of several
+those of several countries several other countries
+his work has earned him several prizes and medals including the beauche prize
+and medals including the beauche prize of the american mathematical society
+of the american mathematical society he has an honorary doctorate from the
+university of madrid he's author or co-author of over 160
+he likes to play piano and is a serious chef during his chicago years
+i'm told it was said that the best restaurant in the city was shea
+restaurant in the city was shea cofferelli
+but to get get on toward the lecture one of those
+one of those 160 odd papers
+160 odd papers was written
+20 years ago by caffarelli cone and
+by caffarelli cone and and nirenberg
+and nirenberg here's the
+its title is partial regularity of suitable weak solutions of the
+suitable weak solutions of the navier-stokes-navier-stokes equations
+navier-stokes-navier-stokes equations and i understand that
+this is that's the uh
+in the last that's of course a a progress toward
+progress toward a solution of tonight's problem and i'm
+in the last 20 years in spite of the importance of the problem there has
+importance of the problem there has been no essentially no more progress so
+been no essentially no more progress so but let's let
+but let's let professor cavarelli tell us about the
+problem [Applause]
+the problem with beautiful introduction is then you talk and mess it up
+okay well a pleasure to be here tonight and so let me start by
+by writing what the navier-stokes equation is
+it's a simple mathematical model to describe the way
+describe the way the way an incompressible viscose fluid
+flows and
+there okay
+so what i thought tonight what i'm going to do is i want want to first give you
+an idea of what does it mean a mathematical model of a physical
+a mathematical model of a physical phenomena
+then describe a little bit what the term what each term in the navier-stokes
+what each term in the navier-stokes equation means
+equation means and finally
+sort of discuss what is the what are the difficulties of the problem okay
+difficulties of the problem okay so
+the matter of uh modeling uh the surrounding world is something that
+surrounding world is something that comes from the beginning of
+comes from the beginning of mankind i think you know
+mankind i think you know the movement of the planets the
+the movement of the planets the trajectory of a projectile
+you know rivers and bridges and so on people have been trying
+people have been trying to
+sort of understand and predict the dynamics of the world around them
+dynamics of the world around them and through the years
+and through the years they slowly developed a series of
+i was recently seeing once more the leonardo
+codex at lexington college at five or six years ago was
+both by bill gates and the american museum of natural history had a
+museum of natural history had a beautiful
+beautiful presentation in new york when we were
+and there leonardo studies the flow of water and basically
+water and basically sort of
+says the principal relations you know what is viscosity what is pressure what
+what is viscosity what is pressure what is
+capillarity so the ideas have been there for
+many years but it was not until the the development of newtonian mechanics
+the development of newtonian mechanics that
+those concepts could where the people were able to write those concepts into
+were able to write those concepts into mathematical formulation into
+mathematical formulation into mathematical modeling
+mathematical modeling uh so
+so the navier-stokes equation was presalsi writed by
+presalsi writed by navier and stokes here is a picture of
+mavier and this is stokes and really was written by by navier navier was a french
+written by by navier navier was a french hydrologist i think the
+sort of the napoleonic schools have a big influence in the development of
+big influence in the development of fluid dynamics and many
+fluid dynamics and many of continuum mechanics in general and
+hydraulic was well known as his time for the design of bridges
+and channels and so on and was just sort of a little bit of a sight
+word for him to write the navier-stokes equation and he wrote
+the navier-stokes equation and he wrote it in very aristic grounds but wrote the
+correct equations and so about 50 years later
+wrote it in the context of a full theory of fluid dynamics
+so let me so let me discuss a bit what is the
+of a mathematical model okay so most of you know many simple mathematical models
+you know many simple mathematical models probably the simple ones is the fact
+that if you throw a stone the trajectory of the stone is at first approximation
+of the stone is at first approximation a parabola and therefore you
+may predict the trajectory if you know the initial position and velocity in
+the initial position and velocity in other words
+this sort of model you attain by reconstructing velocity and position
+right out of the simple law that acceleration due to gravity is
+law that acceleration due to gravity is constant downwards and then from there
+constant downwards and then from there you write the the you can reconstruct
+you write the the you can reconstruct the position
+the position of course this is a very simple model
+if you want to write a more accurate one then you have to take into consideration
+then you have to take into consideration wind speed the shape of the rock the
+wind speed the shape of the rock the initial spin that you give to the rock
+so in reality given a physical phenomenon there is a full family
+phenomenon there is a full family of models or different sets of equations
+of models or different sets of equations that we can try to describe the same
+at different levels of complexity for instance in baseball right the parabola
+instance in baseball right the parabola model is probably reasonably good for
+model is probably reasonably good for the outfielder that throws the ball far
+away to send it back to the pitcher so he basically points out throws the ball
+he basically points out throws the ball and the parabola ball makes a parabola
+and the pitcher receives it but if you want to reproduce a sophisticated pitch
+want to reproduce a sophisticated pitch then that's no parabola right that has a
+lot of spin the wind enters into consideration
+consideration and so on
+but such a mathematical model independently
+independently of how accurate reflects reality
+it has to have some internal consistency
+for instance again in the parabola model you can prescribe the initial position
+you can prescribe the initial position an initial velocity
+with which the the outfielder throws the ball or instead you come
+prescribe two points the initial position and the point where you want
+which is really what the outfielder does i mean he sort of solves the inverse
+problem in his mind and throw the ball in the right direction but he's solving
+in the right direction but he's solving the problem of where he wants the
+the problem of where he wants the parabola to go and this is another
+parabola to go and this is another acceptable mathematical model but if you
+acceptable mathematical model but if you try to prescribe velocity and the point
+try to prescribe velocity and the point where the trajectory goes through most
+of the time you are over determining the problem and you won't be able to solve
+it okay or if initially instead of giving the full velocity vector you just
+giving the full velocity vector you just give the spin the ball can go in any
+direction nobody knows where it will go so the problem in that case
+so the problem in that case is undetermined
+so there is this minimum self-consistent requirement
+for a model which is to be able to sort of within some
+reasonable def set of data to find unique solutions to the equation okay in
+unique solutions to the equation okay in other words you want to say if you give
+me this data then i can tell you that the
+floor problem will evolve this way okay that makes so this is self-conscious it
+that makes so this is self-conscious it has nothing to do right awesome to do
+has nothing to do right awesome to do with the heuristic of reality but it has
+nothing to do with the model really representing an aspect or another of
+representing an aspect or another of realities so minimum requirement of any
+realities so minimum requirement of any mathematical model
+mathematical model on top of that you can
+require some other reasonable
+common sense properties for instance if you have a problem where energy you
+you have a problem where energy you expect it to dissipate that indeed what
+expect it to dissipate that indeed what you call the energy will decay
+you call the energy will decay that
+velocity and acceleration will not come become infinity because that doesn't
+become infinity because that doesn't make too much sense physically and so on
+okay so
+as we will see the clay foundation problem about navier
+clay foundation problem about navier stokes equation is concerned precisely
+stokes equation is concerned precisely with this issue of self-consistency that
+with this issue of self-consistency that is existence of acceptable solutions and
+is existence of acceptable solutions and velocity remaining finite and not with
+velocity remaining finite and not with the accuracy of the model to reproduce
+the accuracy of the model to reproduce reality that's sort of not a
+mathematical problem that's a scientific problem but of a different nature the
+mathematical problem is this internal consistency problem
+consistency problem okay
+so what is the phenophysical phenomena that navier stokes equation
+that navier stokes equation represents well
+trade different type of models and i was not satisfied with anyone and finally
+not satisfied with anyone and finally i thought
+i thought that
+the correct version of the model was the gourmet one
+and the remaining one consists of the following you take a bottle of olive oil
+with no air inside so full you put a little bit of oregano and red pepper as
+little bit of oregano and red pepper as tracers you shake the bottle really well
+tracers you shake the bottle really well and then you sit it on the table and the
+fluid is moving and so what you want to do is you want to be able to reproduce
+how that fluid with that initial velocity will evolve into rest okay
+velocity will evolve into rest okay so
+let me point out that this this sort of experiment has many
+this this sort of experiment has many similarities with the throwing of the
+rock okay in some sense the initial shaking of the bottle corresponds to the
+shaking of the bottle corresponds to the swinging of the arm where you are sort
+of imprint you know giving the
+giving the giving the fluid some initial velocity
+corresponds to putting the bottle on top of a table and then let the thing evolve
+of a table and then let the thing evolve according to its
+according to its own internal workings its pressure is
+friction and so on
+and also both both
+mathematical similarities and these are the ones i want to stress
+the ones i want to stress first both models are the simplest
+first both models are the simplest economic most economic way on describing
+economic most economic way on describing the phenomena under considerations
+the phenomena under considerations navier stokes equation is the simplest
+family of equations that you can in some sense create to try to describe
+in some sense create to try to describe a flow a viscous flow
+reasonable conditions in other words if the velocity increase too much if you
+the velocity increase too much if you are looking at the model where you know
+the the oil is engine oil and starts to burn and reaches very high temperatures
+burn and reaches very high temperatures and so on then the model is not that
+but what is more interesting and i think i want really to stress because i think
+i want really to stress because i think this was the great achievement of of of
+this was the great achievement of of of mechanisms of the last century is that
+uh the idea in both in in the in the
+parabola model what you take is sort of rates of change right discrete rates of
+rates of change right discrete rates of change velocity
+change velocity at time
+two minus velocity at time one and then you take smaller and smaller and smaller
+you take smaller and smaller and smaller rates of change and transform
+the average problem into an instantaneous into a
+infinitesimal equation right which is acceleration equal to
+acceleration equal to uh minus uh
+constant downwards okay and here too the the great achievement of these
+people was to study these bald quantities this bulk average laws reduce
+quantities this bulk average laws reduce it to smaller and smaller physical
+domains and intervals of time and that will allow them to transform these bulk
+will allow them to transform these bulk laws in infinite decimal equations and
+laws in infinite decimal equations and this is one of the threats i want to
+those equations what they do is simply balance the acceleration with the forces
+balance the acceleration with the forces internal forces in the fluid
+or faster than any given particle then the flow pulls that particle faster and
+i'll try to later explain that idea a little bit more in detail
+okay so
+before doing that i want to take some time
+discuss what each of the four terms here are in compressibility well acceleration
+are in compressibility well acceleration more or less everybody knows pressure
+more or less everybody knows pressure and the viscosity effect but before
+and the viscosity effect but before doing that i want to take some time
+because i think it's important to understand why navier stokes equation is
+understand why navier stokes equation is difficult i want to take some time in
+discussing the two ways which which usually people in in continuum mechanics
+usually people in in continuum mechanics record data okay there are two different
+ways and these are lagrangian and eulerian coordinates
+and that's why i chose the oil with the oregon on the
+and the pepper because it's i think really the probably the best way to
+really the probably the best way to explain that okay so in lagrangian
+explain that okay so in lagrangian coordinates you have the bottle the
+coordinates you have the bottle the fluid is moving and you get an
+particle moving on the flow okay you have a particle of oregano pepper maybe
+you were able to put in each little drop a set of sensors right and then receive
+a set of sensors right and then receive the information that the particle is
+moving the origin is moving at such a speed with such acceleration with soft
+speed with such acceleration with soft density and so on
+density and so on okay
+okay so
+so for instance a data table in lagrangian coordinates will be the
+lagrangian coordinates will be the following label the following particles
+following label the following particles and then after one second two seconds
+three seconds i say what the speed or what is the acceleration or what is
+what is the acceleration or what is whatever that particle is doing
+in olympian coordinates instead what you do is you concentrate in every physical
+do is you concentrate in every physical point inside the bottle
+so you concentrate on each particle and register what is going through it you
+register what is going through it you know if oregano goes by oregano goes by
+know if oregano goes by oregano goes by and you never see it again you keep
+looking at that point and you just concentrate what happens there and you
+concentrate what happens there and you record what the data
+on it is suppose you have a crowded highway right and lagrangian coordinates
+highway right and lagrangian coordinates will be if each car is reporting to you
+it's giving information to you while urian coordinates is like a helicopter
+urian coordinates is like a helicopter hovering over the highway and just
+looking what happens at this point and at this point and the helicopter doesn't
+follow each particular car cars go by right he just records what is the speed
+right he just records what is the speed of the car going through this point at
+of the car going through this point at this time okay
+this time okay so for instance
+this will be the velocity field in elyrian coordinates at a given time
+in elyrian coordinates at a given time to zero you're looking at the space and
+here you have this velocity this velocity
+velocity and so on
+so in eulerian coordinates you only see a particle as you draw through a point
+a particle as you draw through a point you never see it back
+and so basically what the main quantity you record in lagrangian coordinates is
+you record in lagrangian coordinates is the position at time t
+of the particle that you label with some name at time zero okay so your name is x
+and you say that particle at a time zero i call x right i call whatever now is in
+i call x right i call whatever now is in position y
+so lagrangian coordinates the main description of lagrangian coordinates is
+description of lagrangian coordinates is by giving the position of every particle
+well for the eulerian observer since he doesn't care about particles the central
+doesn't care about particles the central information he has
+is just the velocity field that is going through any fixed point in space okay
+through any fixed point in space okay so why do i take
+so why do i take why do i take the
+why do i take this the time to make this discussion we'll see later is because
+discussion we'll see later is because in fluid mechanics both concepts in some
+in fluid mechanics both concepts in some sense mix
+sense mix okay
+so let's keep this for a minute oops in the refrigerator we will discuss it
+the refrigerator we will discuss it later
+uh start to discuss the terms and the consideration so the first the first uh
+consideration so the first the first uh the first uh statement in navier stokes
+equation is that the fluid is incompressible okay so
+incompressible okay so we are all basically
+have an houristic idea of what compressibility means it means to just
+compressibility means it means to just take in some substance and material and
+take in some substance and material and by pressing it reduce its volume right
+by pressing it reduce its volume right gases are usually compressed we have a
+gases are usually compressed we have a bottle you squeeze them they can reduce
+bottle you squeeze them they can reduce the volume fluids are usually under
+the volume fluids are usually under reasonable physical situations and
+reasonable physical situations and compressible there is no way you can
+so so this is the first statement of the question now what does it mean
+of the question now what does it mean mathematically
+okay so you can say what it means mathematically in lagrangian coordinates
+mathematically in lagrangian coordinates or in eulerian coordinates in lagrangian
+parcel of liquid or fluid you take if you follow it through it's through his
+you follow it through it's through his life you know it's going around and
+around and around and make the form so maybe very long very stretchy and so
+nevertheless the volume is always the same that's what incompressible means
+same that's what incompressible means okay
+lagrange in eulerian coordinates you cannot talk about the volume traveling
+cannot talk about the volume traveling around you have to fix your attention in
+so in eulerian coordinates you just take any fixed region and you look at the
+any fixed region and you look at the flow entering and going out
+flow entering and going out instantaneously
+in that region you know where you say okay here there is flow coming out on
+okay here there is flow coming out on the other side there is flow going in i
+whatever is out i add it up i have to get zero incompressible in fixed space
+means that whatever goes in has to go out somewhere else okay now here i want
+out somewhere else okay now here i want to stress then this beautiful idea of
+to stress then this beautiful idea of continuing mechanics is
+this is something that i can apply to any little volume of space it can apply
+any little volume of space it can apply to this area to this area to this area
+and it's super you know it's additive it superposes this property therefore i
+should be able to express that by an infinite decimal relation okay and the
+infinite decimal relation okay and the infinitesimal equation i just put it
+infinitesimal equation i just put it here for for you to see in evolution in
+here for for you to see in evolution in lagrangian coordinates simply says that
+lagrangian coordinates simply says that the determinant of the differential
+of y with respect to x is one and in lagra in eulerian coordinates that the
+divergence of the velocity field is zero and it doesn't matter what it means but
+and it doesn't matter what it means but what is important is this idea that you
+what is important is this idea that you can by applying the
+can by applying the bulk property to smaller and smaller and
+rewrite that as a differential equation as an infinitesimal relation
+as an infinitesimal relation okay
+incompressibility i'll discuss a little bit later what is the meaning of that in
+bit later what is the meaning of that in terms of navier-stokes equation but
+terms of navier-stokes equation but that's what incompressibility means
+so acceleration well i think more or less all of us have an idea of what
+less all of us have an idea of what acceleration is or if you speed on the
+acceleration is or if you speed on the highway it's linear acceleration you
+highway it's linear acceleration you take a turn you have some three petals
+of cigarette acceleration so basic basically acceleration
+is just the instantaneous rate of change of in the velocity of any given particle
+of in the velocity of any given particle in the flow then we take a particle
+measure its velocity a little bit later make the infinitesimal quotient take the
+make the infinitesimal quotient take the limit that is acceleration okay
+limit that is acceleration okay now
+i want to stress a very important point about acceleration that is that
+acceleration is a lagrangian concept in other words to to compute acceleration
+other words to to compute acceleration you take a particular particle at a time
+you look at it a little bit later and see what is the instantaneous rate of
+see what is the instantaneous rate of change okay
+in eulerian coordinates to complete the real coordinates instead
+real coordinates instead the situation becomes much more
+and the reason is that the velocity field when you try to compute
+field when you try to compute acceleration
+acceleration in
+eulerian coordinates appears twice okay
+appears first because velocity is changing
+but also appears because the formula for error accelerations is that you have to
+error accelerations is that you have to compute the velocity of whoever is going
+compute the velocity of whoever is going through point x
+at time t 0 but also you need to know the velocity of that same particle an
+the velocity of that same particle an instant afterwards that's what
+velocity of the particle now look at the velocity a little bit later of the same
+velocity a little bit later of the same particle and see the instantaneous rate
+particle and see the instantaneous rate of change but the fluid has taken that
+in eulerian coordinates you are looking at x and the particle is not there
+the particle has drifted away due to the velocity field itself
+so the particle is here and an instant of time later the particle has drifted
+of time later the particle has drifted away
+that when you try to write the formula for acceleration the velocity appears in
+for acceleration the velocity appears in a non-linear fashion
+when you do the increment you have to consider the velocity not at x but at
+consider the velocity not at x but at the point that where the particle has
+drifted by the velocity field itself and that means that acceleration which is so
+that means that acceleration which is so beautiful and simple quantity in
+beautiful and simple quantity in lagrangian coordinates it becomes a
+lagrangian coordinates it becomes a non-linear quantity
+complex nonlinear quantity in eulerian quantum coordinates okay and i
+eulerian quantum coordinates okay and i think this is basically the course of
+course of fluid dynamics the course of fluid dynamics is that you constantly
+match quantities which are natural in lagrangian coordinates like acceleration
+with quantities like stress which are sort of con natural concepts in eulerian
+sort of con natural concepts in eulerian coordinates which are you you much
+coordinates which are you you much dynamic concepts with static concepts
+dynamic concepts with static concepts and so on okay and that's why equations
+because you write them in a y there is a piece that doesn't match right the other
+piece that doesn't match right the other the other part doesn't match okay
+so let me go a little bit to the right hand side
+right hand side okay
+so the right hand side says acceleration on the left says is due to the pressure
+on the left says is due to the pressure gradient and the viscose effect so let
+gradient and the viscose effect so let me discuss a little bit about pressure
+me discuss a little bit about pressure okay i think that sort of at least
+okay i think that sort of at least mathematically
+pressure is a real bad guy in the navier-stokes equation
+and the reason is that in incompressible flow at the difference with compressible
+flow with all the other mathematical phenomena the interplay between pressure
+phenomena the interplay between pressure and velocity is instantaneous there is
+and velocity is instantaneous there is no time time lag
+you have incompressible flow you put pressure in one end the pressure is
+put pressure in one end the pressure is instantaneously filled at the other end
+instantaneously filled at the other end and without attenuation
+put pressure here take some while to get here you have the mathematical theory of
+here you have the mathematical theory of heat you heat up here
+heat you heat up here heat propagates instantaneously
+everywhere but with a big decay when it's far away has very little effect
+it's far away has very little effect that's not the case with pressure and
+that's not the case with pressure and incompressible flow pressure
+instantaneously whatever modification in the velocity is far away it's felt
+everywhere through the pressure and the other way around so i think this is
+what makes a what makes out of uh out of
+out of pressure the the
+real problematic terms so mathematically the acceleration due to pressure is
+gradient of the pressure in other words if pressure is constant then the fluid
+if pressure is constant then the fluid does not accelerate at least not due to
+does not accelerate at least not due to pressure you increase pressure here then
+pressure you increase pressure here then the fluid observe so the fluid is going
+the fluid observe so the fluid is going at constant speed you add pressure here
+at constant speed you add pressure here then the fluid accelerates towards the
+then the fluid accelerates towards the area of lower pressure okay and again
+this is something that you can first establish sort of in bulk properties and
+establish sort of in bulk properties and then get the infinite decimal relation
+then get the infinite decimal relation but i'll discuss later try to discuss a
+but i'll discuss later try to discuss a little bit about about pressure but
+little bit about about pressure but remember that sort of the pressure
+induced for instance by the fluid turning in a corner of the bottle
+bottle so it's a typical example of an incompressible thing is a train versus a
+incompressible thing is a train versus a traffic flow and traffic flow there is a
+stopped maybe some can crash but the floyd compresses in a train the train
+floyd compresses in a train the train hit something derails all of it because
+hit something derails all of it because it has no room to compress
+it has no room to compress okay
+if you ever try to fix a pipe in your home you'll realize how how
+home you'll realize how how incompressible water is
+that's why drowling systems are so so uh you know so so good for moving
+so uh you know so so good for moving objects or lifting weights
+objects or lifting weights because
+you know you put pressure in the fluid you know in in a hydraulic jack you put
+you know in in a hydraulic jack you put pressure in the fluid and the pressure
+is felt in we can lift 10 tons 100 tons right i mean just with a little bit of
+right i mean just with a little bit of pressure you add in the other end okay
+pressure you add in the other end okay because of incompressibility
+i think for instance in navier stoke let me give you some sort of
+reason why i think that pressure can be the culprit on creating infinite speed
+in navier stokes and i think sort of a visual effect you can take suppose you
+take this table i used to play with pennies when i was a kid in my home many
+of you did drive with a bottle of pennies you put pennies all over the
+table and you pack them closely so they are sort of incompressible right they
+are sort of incompressible right they touching each other right and then i
+think that if you do that and you squeeze the edge of the tables right
+right just right you should be able to make the center of the pennies pop out
+make the center of the pennies pop out okay and i think that's what could
+okay and i think that's what could happen in navier stokes the depression
+happen in navier stokes the depression from infinity can squeeze the flow just
+right to create a singularity inside okay
+now let me talk a little bit about viscosity that is the good guy
+viscosity that is the good guy okay
+so the other part of the of the navier stokes equation established that the
+fluid is also accelerated by the drug that the surrounding fluid exerts on a
+that the surrounding fluid exerts on a given particle due to the difference let
+given particle due to the difference let me try to give you an houristic idea of
+what happens okay so suppose you have that the origin
+at the given time the particle at the origin has zero velocity okay but the
+origin has zero velocity okay but the particles surrounding it are slightly
+particles surrounding it are slightly moving to the right okay since the flow
+viscose that this is a there is friction between particles then these particles
+moving slightly to the right will push the particle in the center we'll try to
+accelerate the particle to the right okay and so in that spirit then
+so if you want to sort of if you want sort of uh
+give a price very precise meaning to this idea of the particles dragging the
+flow then what we should do is the following you take a point right and you
+following you take a point right and you should take a tiny ball around the point
+right and
+point you take the average velocity and you subtract it from the velocity of the
+you subtract it from the velocity of the point right and that gives you exactly
+point right and that gives you exactly the direction in which the fluid is
+the direction in which the fluid is accelerating the particle so the
+accelerating the particle so the acceleration
+due to the viscosity effect in some sense should be proportional to this
+sense should be proportional to this quantity the average velocity around a
+quantity the average velocity around a point minus the velocity at the point
+okay and since the pictures clearly indicate sort of that this is a
+indicate sort of that this is a quadratic effect
+quadratic effect right
+this is a quadratic effect on the velocity field
+velocity field if you want to get a quantity that is not zero you have to
+quantity that is not zero you have to divide this by the radius of the ball
+divide this by the radius of the ball square in other words you take the
+average in a tiny ball of the velocity you subtract the velocity at the center
+you subtract the velocity at the center divide by the radius square take the
+divide by the radius square take the limit that gives you an infinitesimal
+limit that gives you an infinitesimal quantity that reflects the drag that the
+quantity that reflects the drag that the surrounding fluid exerts in each
+surrounding fluid exerts in each particle in fact this is a very famous
+it's called the laplacian
+the laplacian of the velocity is exactly the limit of the average velocity
+minus the velocity at the point divided by the square of the radius
+okay notice that
+this choice of a measure of the drag that the particles exerted the
+the drag that the particles exerted the point
+too justified it's just a choice you could say no the drag may depend on the
+could say no the drag may depend on the speed i mean if the points are going
+speed i mean if the points are going very fast maybe the the drag is bigger
+very fast maybe the the drag is bigger or smaller
+if the velocity is sort of rotating in some special way maybe
+some special way maybe you know the
+the drug is different so this is and some certain an ad hoc law okay
+some certain an ad hoc law okay and
+and so
+one could argue that well maybe this is the reason why
+the reason why uh
+equations doesn't work so well because when the fluid becomes you know at high
+speed who knows what happens with the molecules right they burn why should
+they interact the same way at high speed at low speed okay nevertheless so this
+at low speed okay nevertheless so this is the last term of the equation
+notice let me point out that this is as i in the vein of what i was guessing
+i in the vein of what i was guessing before this is essentially an eulerian
+before this is essentially an eulerian concept if you try to translate this
+to lagrangian coordinates it's a mess that's why navier stokes equation is
+that's why navier stokes equation is usually written in eulerian coordinates
+usually written in eulerian coordinates because it's the list of two levels the
+acceleration doesn't write so well but at least the viscosity writes reasonably
+at least the viscosity writes reasonably the other way around the viscosity
+i think by now i have described let me write for you
+then the navier-stokes equation the navier-stokes equation says that
+that the flow is incompressible in the eulerian coordinates divergence of the
+eulerian coordinates divergence of the velocity equal to zero
+and that the acceleration which in eulerian coordinates we have to write as
+eulerian coordinates we have to write as vt plus vdv
+is proportional to minus the gradient of the pressure plus the laplacian that is
+the pressure plus the laplacian that is the viscose effect of v
+the viscose effect of v okay
+okay so
+so what is the expectation at this point you know if we go back to the problem of
+that if you give me an initial velocity field that if you tell me at time zero
+field that if you tell me at time zero what the velocity of each particle is
+what the velocity of each particle is then i should be able to reconstruct the
+flow for all times okay and so this is the
+and so this is the option one of the problem in other words
+the problem has
+two possible solutions okay and the clay foundation accepts for his money
+foundation accepts for his money any of both solutions so the first
+i give you a nice initial data and you find for me
+and you find for me a nice solution a solution where
+a nice solution a solution where velocity remains finite acceleration
+remains finite and so on for all time okay and as i said this is
+for all time okay and as i said this is a matter of internal coherence has
+a matter of internal coherence has nothing to do with the model reflecting
+reality okay it has to do with the model being coherent that is that if you give
+being coherent that is that if you give me data the solute the equations at
+me data the solute the equations at least have a nice solution
+least have a nice solution close to reality or not okay
+close to reality or not okay now the other option
+now the other option that the client foundation gives you
+okay if you cannot do that show us that the opposite is true
+that you can find a solution you give me a nice initial data and you find a
+solution that starts very nice and all of a sudden at some time and finite time
+okay so so these are the two options or you are able to solve the problem with a
+smooth solution for all times or in finite time the velocity becomes
+infinity somewhere okay now
+what it is known up to now well what is known is that
+some sort of weak solution exists for all time this was the work of john ray
+who i had the honor to meet he died recently is one of the great
+recently is one of the great mathematicians of the century so i also
+he constructed in the 30s basically a theory that included you know he basic
+theory that included you know he basic was one of the fathers of the theory and
+was one of the fathers of the theory and included the construction of weak
+included the construction of weak solutions to reasonable weak solutions
+solutions to reasonable weak solutions to the navier-stokes equation okay
+the second thing it is known is that if the initial data is nice then
+for a while remain nice in other words the effect of the initial data lasts for
+the effect of the initial data lasts for a while
+it's also known that after another longer period due to the fact that
+then the solution becomes small enough that it's forced to become nice again
+that it's forced to become nice again okay you think theoristically the reason
+is that both pressure and the bad part of accelerations are quadratic functions
+of accelerations are quadratic functions of velocity
+now if velocity is very small the square of something small is much smaller and
+of something small is much smaller and so you can really prove that that's not
+bad for you that you can control it okay the problem is in the in between in the
+middle in this period where the goodness of the initial data has disappeared and
+of the initial data has disappeared and still there has been no enough energy
+still there has been no enough energy low not enough dissipation to force the
+low not enough dissipation to force the solution to be small so there is this
+you cannot prove that solutions remain smooth in fact you cannot even prove
+that the energy is the natural combination of energy kinetic energy
+combination of energy kinetic energy plus dissipated energy is preserved you
+cannot even prove that okay
+as what as it was mentioned before uh we proved with conan nirenberg many years
+proved with conan nirenberg many years ago
+ago that
+in this unknown region the set of points where the solution can become singular
+plus all its limiting points add to it all the judge you want all the limiting
+all the judge you want all the limiting points of the points were cancelled it
+points of the points were cancelled it cannot fill a curve in space time you
+one dimensional measure of that set is zero which houristically means that it
+zero which houristically means that it means that if a singularity appears at
+the time it will not persist in time will disappear instantaneously we cannot
+will disappear instantaneously we cannot feel a curve in an instant of time or
+dimensions that space and time are the singularities are unable to feel a curve
+singularities are unable to feel a curve so if singularities exist they are
+so if singularities exist they are really a very minimal sense you know
+really a very minimal sense you know physically sort of irrelevant because
+physically sort of irrelevant because you will never see them will not have
+sort of what is my my personal belief my personal belief
+well is the following is that if the solu indeed clay option one is
+if the solu indeed clay option one is correct that is that solutions remain
+correct that is that solutions remain always regular
+this has to be attained because of a different approach and sort of all the
+approach that had been taken with the navier-stokes equation up to now was to
+navier-stokes equation up to now was to take ut minus laplacian of u which is a
+very good terms like the heat equation is the very fast dissipation term you
+energy very fast and put everything else on the right hand side as tricked as
+on the right hand side as tricked as junk okay and so if you do that i mean
+reasons there are a bunch of reasons that tells you that basically this
+beyond that okay so if you just look at the structure of the equation at that
+the structure of the equation at that level heat equation plus a quadratic
+equal to a quadratic term you cannot go further than this you have to understand
+further than this you have to understand i think that you have to understand it
+in lagrangian coordinates i think that the way to understand navier-stoke's
+the way to understand navier-stoke's equation if indeed solutions are regular
+equation if indeed solutions are regular is because there are some concepts like
+the fact that matter doesn't penetrate itself which is not transparent in
+itself which is not transparent in eulerian coordinates in real conditions
+you have the velocity field and if you want to reconstruct the position of the
+want to reconstruct the position of the points you have to integrate the
+trajectory of its points in lagrangian coordinates the points are
+if on the other hand play option 2 is correct that is that
+play option 2 is correct that is that indeed there are singularities well
+there is a traditional way of trying to find singularities with simple structure
+find singularities with simple structure that is to find
+solutions which are called self-similar focusing solutions
+celsius cells similar focusing solutions are solutions which at different time
+are solutions which at different time basically have the same structure but
+shrunk for instance a cone if you take a cone in space and time with the vertex
+at time equal to zero that is a similar picture you know at every time it's the
+picture you know at every time it's the same circle that is shrinking itself and
+same circle that is shrinking itself and you can die make a dilation that is sort
+of the same value in space and time and you get the cone again okay so there is
+a tradition of trying to find self-similar focusing solutions these
+self-similar focusing solutions these solutions such as the flow at every time
+look sort of the same squeezing and squeezing and squeezing and at sign
+equal to zero a singularity will pop at the origin people have tried that with
+the origin people have tried that with what is called the letter self
+what is called the letter self self-focusing and it was proven
+by necas and verac and someone else recently that that's not possible so if
+recently that that's not possible so if you are going to find
+you are going to find a singularity for navier stokes
+a singularity for navier stokes then i think you have to do a different
+that corresponds to the equation with no viscosity and there is a way you can do
+viscosity and there is a way you can do that in such a way that the viscosity
+that in such a way that the viscosity becomes a smaller order effect and i
+becomes a smaller order effect and i think
+that's the only possibility i see in constructing a singularity for navier
+in constructing a singularity for navier stones
+so let me stop here be happy
+i have a question i mean the problem the clay problem is
+the clay problem was set i think this should have been said or in all of space
+should have been said or in all of space the clear problem is that in all space
+but i think it's equally valid to solve the problem and equally hard to solve
+the problem in a bounded domain navier estos has a natural boundary
+navier estos has a natural boundary condition
+which is called the non-slip condition that the flow adheres to the wall
+that the flow adheres to the wall of the container so velocity is here on
+the problem should have been said that to solve in all of a space or
+to solve in all of a space or in a bounded domain with non-slip
+in a bounded domain with non-slip boundary conditions
+boundary conditions so but but the pro and the clay problem
+you need a lot of oil to solve the clip from which is harder
+which probably i think philosophically is the same if you find a way to solve
+is the same if you find a way to solve one you will find a way to solve the
+there is a very classical observation of sharing that if you take some vector
+sharing that if you take some vector field a gradient of a harmonic function
+field a gradient of a harmonic function a spatial vector field
+in x some special velocity field and you multiply it by your favorite function in
+multiply it by your favorite function in time let me see if i have it
+this is an observation of sharing that says take
+says take for instance
+a 2x square minus y square minus c squared this is a harmonic function you
+squared this is a harmonic function you take the gradient
+take the gradient so it's a minus x
+x minus y over 2 minus c over 2. so you take the gradient
+minus c over 2. so you take the gradient of any harmonic function okay
+of any harmonic function okay and you multiply by your favorite
+and you multiply by your favorite function of time
+function of time this is a solution of navier-stokes
+for all times because everything is gradient of the
+pressure okay
+so this is a solution of the navier-stokes equation which is driven
+navier-stokes equation which is driven by pressure at infinity
+you see instantaneously the flow the rho the role of the g of t is like
+the rho the role of the g of t is like you are controlling the pressure at
+you are controlling the pressure at infinity
+infinity and you do with the fluid whatever you
+you know you can do your g of t become infinite as some instant of time which
+infinite as some instant of time which means that the the fluid blows
+means that the the fluid blows instantaneously everywhere right
+instantaneously everywhere right now you tell me well no but i don't
+allow you that i take initially a data which is compact support well
+a data which is compact support well pressure infinite instantaneously
+pressure infinite instantaneously travels to infinity the pressure does
+have decay there is the pressure if you start with
+start with a
+velocity perturbation in a small domain the pressure has very slow decay at
+the pressure has very slow decay at infinity does not have exponential decay
+infinity does not have exponential decay at infinity so the interplay of of what
+is local and what is infinity is very strange
+so where is the truth if it's close to this or if it is close to option one i
+think it's will only be seen when the problem is solved
+lewis could you comment on compressible equations they don't have
+it's a different type of singularity because compressible equation for
+because compressible equation for compressible equation
+the velocity the typical singularity is discontinuous velocity
+navier stokes if the velocity is bound the solution is infinity so when you
+discontinuity for compressible and discontinuity for encompassing we are
+talking about different things in case
+compressible discontinuity is a shock is discontinuous velocity when navier
+stokes is infinite velocity finite velocity for navier-stokes is infinity
+what's yes bots there's a lower dimensional version or higher
+dimensional version of this problem well there is a two-dimensional version
+not not that lie in a plane but that in every slides look the same
+this is a very classical result that in two dimensions navier stokes
+two dimensions navier stokes solutions navior those equations are
+so in 2d navier stokes is regular and it's a classical result you can also
+it's a classical result you can also deduce it from our theorem because if
+deduce it from our theorem because if you have a singularity it will fill a
+you have a singularity it will fill a full line
+yeah what happens when
+okay that's the euler equation when viscosity is zero that is without
+viscosity that's an equation just earlier than avere stokes which is
+earlier than avere stokes which is called euler equation euler equation as
+called euler equation euler equation as charlie peppermint points out in his
+to understand in some sense maybe an important previous step because it's a
+important previous step because it's a simpler structure and you want to know
+simpler structure and you want to know if in that case you can produce
+if in that case you can produce singularities in normal equation there
+singularities in normal equation there are many
+solutions that indicate that the euler equation is sort of
+that is in the gas and have the regularizing effect of viscosity but
+regularizing effect of viscosity but still would be very important to
+still would be very important to understand
+how infinite velocity can appear in three-dimensional
+euler and see if that gives you a guide in fact that's what i think it should be
+in fact that's what i think it should be done to find a self-focusing solution
+done to find a self-focusing solution for euler
+and then from there sort of perturb it to never stop
+but there is no money there is no money
+maybe uh it's time to think about refreshments i remind you two weeks from
+refreshments i remind you two weeks from two weeks from tonight we'll have the
+sixth lecture by dan fried on the hodge conjecture
+so the food is as usual any newcomers down to elections

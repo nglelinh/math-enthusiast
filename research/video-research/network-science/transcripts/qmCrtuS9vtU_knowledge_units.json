@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ku_video_qmCrtuS9vtU_7",
+    "t_start": 7.5,
+    "t_end": 98.5,
+    "type": "overview",
+    "summary": "continuing on with our theme of degree distribution two networks centralized networks represent networks with a very high degree distribution meaning that in high degree distribution meaning that in this type of network structure there will be very many nodes with a very low level of connectivity and very few or level of connectivity and very few or maybe just one node with an maybe just one node with an exceptionally high degree of connectivity thus they are very heterogeneous and unequal in terms of heterogeneous and unequal in terms of how connected and influential the different nodes in…"
+  },
+  {
+    "id": "ku_video_qmCrtuS9vtU_98",
+    "t_start": 98.5,
+    "t_end": 193.3,
+    "type": "overview",
+    "summary": "between the degree of connectivity a node has and the frequency of its occurrence power lore networks are really defined by the mathematics that really defined by the mathematics that is behind them in these networks the number of nodes with degree X is proportional to one over x squared so proportional to one over x squared so the number of nodes with degree two is one-fourth of all the nodes the number of nodes with degree three is 1/9 of all of nodes with degree three is 1/9 of all the nodes and the number of nodes with the nodes and the number of nodes with degree 10 is proportional to …"
+  },
+  {
+    "id": "ku_video_qmCrtuS9vtU_193",
+    "t_start": 193.3,
+    "t_end": 288.2,
+    "type": "overview",
+    "summary": "this power law distribution has also been documented in the frequency of been documented in the frequency of citations between academic papers and citations between academic papers and within the social networks behind Hollywood actors the scale-free property two networks is then interesting because two networks is then interesting because it appears regularly and across all form it appears regularly and across all form two networks from the internet to social two networks from the internet to social groups to biological systems the power law distribution to a network like the World Wide We…"
+  },
+  {
+    "id": "ku_video_qmCrtuS9vtU_288",
+    "t_start": 288.2,
+    "t_end": 342.3,
+    "type": "overview",
+    "summary": "providing and not just its size one last thing we'll note about these one last thing we'll note about these centralized networks in respect to their centralized networks in respect to their robustness is that they can be very robustness is that they can be very robust or very fragile depending if we robust or very fragile depending if we are removing nodes randomly or strategically if we were removing nodes randomly then they will be very robust randomly then they will be very robust to failure because the vast majority of to failure because the vast majority of nodes have a very low degree…"
+  }
+]

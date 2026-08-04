@@ -1,0 +1,5247 @@
+[
+  {
+    "t_start": 3.949,
+    "t_end": 9.83,
+    "text": "what I have done here and it might be possible to build at least an illusion"
+  },
+  {
+    "t_start": 9.83,
+    "t_end": 11.15,
+    "text": "possible to build at least an illusion of it and if you stare it long enough"
+  },
+  {
+    "t_start": 11.15,
+    "t_end": 13.129,
+    "text": "of it and if you stare it long enough you realize why it's impossible it does"
+  },
+  {
+    "t_start": 13.129,
+    "t_end": 18.95,
+    "text": "look like it has uh three right angles which doesn't really work in the normal"
+  },
+  {
+    "t_start": 18.95,
+    "t_end": 20.689,
+    "text": "which doesn't really work in the normal sense of a triangle"
+  },
+  {
+    "t_start": 20.689,
+    "t_end": 24.41,
+    "text": "um it's called an impossible triangle or the impossible tri-bar or a Penrose"
+  },
+  {
+    "t_start": 24.41,
+    "t_end": 26.99,
+    "text": "the impossible tri-bar or a Penrose triangle because it was not first"
+  },
+  {
+    "t_start": 26.99,
+    "t_end": 29.929,
+    "text": "triangle because it was not first discovered by Mr Penrose actually the"
+  },
+  {
+    "t_start": 29.929,
+    "t_end": 32.03,
+    "text": "discovered by Mr Penrose actually the first person to conceive of this was"
+  },
+  {
+    "t_start": 32.03,
+    "t_end": 34.85,
+    "text": "first person to conceive of this was called reuterspad a Swedish guy no idea"
+  },
+  {
+    "t_start": 34.85,
+    "t_end": 35.99,
+    "text": "called reuterspad a Swedish guy no idea if I've said his name particularly"
+  },
+  {
+    "t_start": 35.99,
+    "t_end": 38.45,
+    "text": "if I've said his name particularly accurately tell me if I have"
+  },
+  {
+    "t_start": 38.45,
+    "t_end": 43.31,
+    "text": "um but was made famous by Lionel Penrose and his son the now famous mathematician"
+  },
+  {
+    "t_start": 43.31,
+    "t_end": 48.17,
+    "text": "and his son the now famous mathematician Roger Penrose in about the 1950s and"
+  },
+  {
+    "t_start": 48.17,
+    "t_end": 49.67,
+    "text": "what I like about that story is that they they did it independently from the"
+  },
+  {
+    "t_start": 49.67,
+    "t_end": 54.049,
+    "text": "they they did it independently from the the Swedish guy but they also did it"
+  },
+  {
+    "t_start": 54.049,
+    "t_end": 58.97,
+    "text": "because they were inspired by the work of MC Escher the Dutch artist who is"
+  },
+  {
+    "t_start": 58.97,
+    "t_end": 61.389,
+    "text": "famous for drawing and cutting into lithographs amazing looking impossible"
+  },
+  {
+    "t_start": 61.389,
+    "t_end": 66.71,
+    "text": "lithographs amazing looking impossible figures but not this one until they kind"
+  },
+  {
+    "t_start": 66.71,
+    "t_end": 68.21,
+    "text": "of developed it and then I think they had communication with Escher who then"
+  },
+  {
+    "t_start": 68.21,
+    "t_end": 71.57,
+    "text": "had communication with Escher who then went on to use the ideas that they"
+  },
+  {
+    "t_start": 71.57,
+    "t_end": 73.37,
+    "text": "developed to make some of his most famous artworks particularly one about a"
+  },
+  {
+    "t_start": 73.37,
+    "t_end": 76.13,
+    "text": "famous artworks particularly one about a waterfall and if you haven't seen it for"
+  },
+  {
+    "t_start": 76.13,
+    "t_end": 77.33,
+    "text": "goodness sake go and have a look at it because it's great"
+  },
+  {
+    "t_start": 77.33,
+    "t_end": 81.649,
+    "text": "but what I thought I should try and do in this video is build an impossible"
+  },
+  {
+    "t_start": 81.649,
+    "t_end": 83.99,
+    "text": "in this video is build an impossible triangle in jojoba now I already know"
+  },
+  {
+    "t_start": 83.99,
+    "t_end": 89.57,
+    "text": "how to draw it as I demonstrated earlier but I'd like to build it in jojoba 3D to"
+  },
+  {
+    "t_start": 89.57,
+    "t_end": 90.95,
+    "text": "but I'd like to build it in jojoba 3D to see if we can make the illusion much"
+  },
+  {
+    "t_start": 90.95,
+    "t_end": 92.929,
+    "text": "see if we can make the illusion much like you'd actually try and make it in"
+  },
+  {
+    "t_start": 92.929,
+    "t_end": 95.03,
+    "text": "like you'd actually try and make it in 3D if you're gonna create an illusion"
+  },
+  {
+    "t_start": 95.03,
+    "t_end": 96.95,
+    "text": "3D if you're gonna create an illusion that looked like the impossible tri-bar"
+  },
+  {
+    "t_start": 96.95,
+    "t_end": 98.749,
+    "text": "that looked like the impossible tri-bar could really exist in real space which"
+  },
+  {
+    "t_start": 98.749,
+    "t_end": 102.77,
+    "text": "has been done as you can see in some famous photos which are all on Wikipedia"
+  },
+  {
+    "t_start": 102.77,
+    "t_end": 107.09,
+    "text": "if you want to look them up so uh here's what I've ended up building in Johor and"
+  },
+  {
+    "t_start": 107.09,
+    "t_end": 109.13,
+    "text": "what I've ended up building in Johor and the rest of this video is me bashing my"
+  },
+  {
+    "t_start": 109.13,
+    "t_end": 110.569,
+    "text": "the rest of this video is me bashing my head against the brick wall or the"
+  },
+  {
+    "t_start": 110.569,
+    "t_end": 116.569,
+    "text": "head against the brick wall or the impossible brick wall of trying to build"
+  },
+  {
+    "t_start": 119.389,
+    "t_end": 122.149,
+    "text": "so I want to make an impossible shape in Jonesborough and despite being called an"
+  },
+  {
+    "t_start": 122.149,
+    "t_end": 124.609,
+    "text": "Jonesborough and despite being called an impossible shape it's possible or at"
+  },
+  {
+    "t_start": 124.609,
+    "t_end": 125.209,
+    "text": "impossible shape it's possible or at least"
+  },
+  {
+    "t_start": 125.209,
+    "t_end": 130.729,
+    "text": "we've all seen I hope photos of people holding these impossible tri-bars and"
+  },
+  {
+    "t_start": 130.729,
+    "t_end": 135.41,
+    "text": "holding these impossible tri-bars and famously used by MC Escher in a lot of"
+  },
+  {
+    "t_start": 135.41,
+    "t_end": 139.25,
+    "text": "particularly the waterfall one which is really nice example of hiding that"
+  },
+  {
+    "t_start": 139.25,
+    "t_end": 143.27,
+    "text": "impossible tri-bar on a piece of art but we've got two options you can just"
+  },
+  {
+    "t_start": 143.27,
+    "t_end": 145.43,
+    "text": "but we've got two options you can just draw this and from a generation of"
+  },
+  {
+    "t_start": 145.43,
+    "t_end": 147.35,
+    "text": "draw this and from a generation of doodling in various lectures over my"
+  },
+  {
+    "t_start": 147.35,
+    "t_end": 148.07,
+    "text": "doodling in various lectures over my time"
+  },
+  {
+    "t_start": 148.07,
+    "t_end": 152.15,
+    "text": "I think I know how to draw it by hand I'm doing a 2d representation from a"
+  },
+  {
+    "t_start": 152.15,
+    "t_end": 153.41,
+    "text": "I'm doing a 2d representation from a certain perspective of this impossible"
+  },
+  {
+    "t_start": 153.41,
+    "t_end": 155.51,
+    "text": "certain perspective of this impossible shape and it's surprisingly difficult to"
+  },
+  {
+    "t_start": 155.51,
+    "t_end": 159.35,
+    "text": "shape and it's surprisingly difficult to draw by hand we could do that I think"
+  },
+  {
+    "t_start": 159.35,
+    "t_end": 161.509,
+    "text": "relatively easily using an isometric grid"
+  },
+  {
+    "t_start": 161.509,
+    "t_end": 164.089,
+    "text": "or we could actually build it in three dimensions obviously we can't actually"
+  },
+  {
+    "t_start": 164.089,
+    "t_end": 169.19,
+    "text": "to actually build it physically and make it look like it's real you can get the"
+  },
+  {
+    "t_start": 169.19,
+    "t_end": 171.11,
+    "text": "it look like it's real you can get the perspective right and so that the things"
+  },
+  {
+    "t_start": 171.11,
+    "t_end": 174.589,
+    "text": "perspective right and so that the things line up uh even if they're not in the"
+  },
+  {
+    "t_start": 174.589,
+    "t_end": 178.25,
+    "text": "um plane they look like they are and actually we could do that in JoJo 3D"
+  },
+  {
+    "t_start": 178.25,
+    "t_end": 179.93,
+    "text": "actually we could do that in JoJo 3D mode and just control the camera"
+  },
+  {
+    "t_start": 179.93,
+    "t_end": 181.61,
+    "text": "mode and just control the camera position"
+  },
+  {
+    "t_start": 181.61,
+    "t_end": 186.71,
+    "text": "and the perspective uh so that's what we're going to try and I uh I don't know"
+  },
+  {
+    "t_start": 186.71,
+    "t_end": 189.29,
+    "text": "we're going to try and I uh I don't know really how easy this is going to be but"
+  },
+  {
+    "t_start": 189.29,
+    "t_end": 191.869,
+    "text": "it's got to be it's got to be possible so I'm going to turn on the 3D Graphics"
+  },
+  {
+    "t_start": 191.869,
+    "t_end": 195.649,
+    "text": "I've turned on accidentally the second Graphics mode I don't really need that"
+  },
+  {
+    "t_start": 195.649,
+    "t_end": 198.83,
+    "text": "um I might leave the first Graphics mode open to have some buttons on and stuff"
+  },
+  {
+    "t_start": 198.83,
+    "t_end": 200.149,
+    "text": "open to have some buttons on and stuff and eventually I'll probably pop out the"
+  },
+  {
+    "t_start": 200.149,
+    "t_end": 201.35,
+    "text": "and eventually I'll probably pop out the Ultra review but let's just leave it all"
+  },
+  {
+    "t_start": 201.35,
+    "t_end": 203.21,
+    "text": "Ultra review but let's just leave it all like this to start with"
+  },
+  {
+    "t_start": 203.21,
+    "t_end": 206.57,
+    "text": "and the first thing to realize is that I think the perspective is going to matter"
+  },
+  {
+    "t_start": 206.57,
+    "t_end": 208.91,
+    "text": "think the perspective is going to matter for this so these options we have up"
+  },
+  {
+    "t_start": 208.91,
+    "t_end": 210.89,
+    "text": "for this so these options we have up here as normal"
+  },
+  {
+    "t_start": 210.89,
+    "t_end": 215.809,
+    "text": "we've got an orthographic projection where no perspective exists parallel"
+  },
+  {
+    "t_start": 215.809,
+    "t_end": 218.75,
+    "text": "lines are parallel even if they go after whatever and that looks weird if you"
+  },
+  {
+    "t_start": 218.75,
+    "t_end": 219.949,
+    "text": "whatever and that looks weird if you start building an object which is meant"
+  },
+  {
+    "t_start": 219.949,
+    "t_end": 224.089,
+    "text": "start building an object which is meant to look big like a building it will look"
+  },
+  {
+    "t_start": 224.089,
+    "t_end": 225.589,
+    "text": "strange if you do that but the perspective prediction which sort of"
+  },
+  {
+    "t_start": 225.589,
+    "t_end": 229.729,
+    "text": "solves that problem I think is going to mess with our camera Viewpoint a bit"
+  },
+  {
+    "t_start": 229.729,
+    "t_end": 231.649,
+    "text": "mess with our camera Viewpoint a bit more when we try and build an object"
+  },
+  {
+    "t_start": 231.649,
+    "t_end": 233.449,
+    "text": "more when we try and build an object where two objects at certain different"
+  },
+  {
+    "t_start": 233.449,
+    "t_end": 236.69,
+    "text": "where two objects at certain different distances but they need to look the same"
+  },
+  {
+    "t_start": 236.69,
+    "t_end": 238.13,
+    "text": "size that's the whole point of the illusion so I think the orthographic"
+  },
+  {
+    "t_start": 238.13,
+    "t_end": 241.19,
+    "text": "projection is going to be our friend for today it would be great to be able to"
+  },
+  {
+    "t_start": 241.19,
+    "t_end": 243.589,
+    "text": "today it would be great to be able to build it in 3D glasses mode but I think"
+  },
+  {
+    "t_start": 243.589,
+    "t_end": 245.27,
+    "text": "the same problem is going to happen there because it does differentiate"
+  },
+  {
+    "t_start": 245.27,
+    "t_end": 248.33,
+    "text": "there because it does differentiate things that are further away by changing"
+  },
+  {
+    "t_start": 248.33,
+    "t_end": 252.05,
+    "text": "so let's embrace the illusion of the orthographic projection and basically I"
+  },
+  {
+    "t_start": 252.05,
+    "t_end": 253.25,
+    "text": "orthographic projection and basically I want um"
+  },
+  {
+    "t_start": 253.25,
+    "t_end": 258.77,
+    "text": "straight up and a bar going that way and so that when I sort of angle it right"
+  },
+  {
+    "t_start": 258.77,
+    "t_end": 260.509,
+    "text": "so that when I sort of angle it right the vertical one looks like it overlaps"
+  },
+  {
+    "t_start": 260.509,
+    "t_end": 264.29,
+    "text": "the vertical one looks like it overlaps the one going flat that way whichever"
+  },
+  {
+    "t_start": 264.29,
+    "t_end": 267.53,
+    "text": "I've done it which way I'm pointing correctly for this but that's the plan"
+  },
+  {
+    "t_start": 267.53,
+    "t_end": 269.39,
+    "text": "correctly for this but that's the plan and"
+  },
+  {
+    "t_start": 269.39,
+    "t_end": 274.07,
+    "text": "traditionally it's done with a sort of cuboid so you can see the edges and you"
+  },
+  {
+    "t_start": 274.07,
+    "t_end": 276.469,
+    "text": "cuboid so you can see the edges and you get the nice 3D solid feel to it"
+  },
+  {
+    "t_start": 276.469,
+    "t_end": 279.77,
+    "text": "get the nice 3D solid feel to it it'd be nice to be able to change the"
+  },
+  {
+    "t_start": 279.77,
+    "t_end": 282.59,
+    "text": "well let's let's have a try starting I'm going to build it in the sort of"
+  },
+  {
+    "t_start": 282.59,
+    "t_end": 284.51,
+    "text": "going to build it in the sort of positive quadrant well I'm aware that"
+  },
+  {
+    "t_start": 284.51,
+    "t_end": 287.99,
+    "text": "we're sort of looking at an angle that might not be ideal maybe we should have"
+  },
+  {
+    "t_start": 287.99,
+    "t_end": 289.87,
+    "text": "might not be ideal maybe we should have all the things coming out towards us"
+  },
+  {
+    "t_start": 289.87,
+    "t_end": 294.409,
+    "text": "let's let's go over there so all the arrows are pointing sort of towards us"
+  },
+  {
+    "t_start": 294.409,
+    "t_end": 297.89,
+    "text": "arrows are pointing sort of towards us rather than away from us"
+  },
+  {
+    "t_start": 312.409,
+    "t_end": 316.07,
+    "text": "with a certain length and if we make that length of variable from the word go"
+  },
+  {
+    "t_start": 316.07,
+    "t_end": 317.51,
+    "text": "that length of variable from the word go then we should be able to change the"
+  },
+  {
+    "t_start": 317.51,
+    "t_end": 319.43,
+    "text": "then we should be able to change the size of this so let's call this L for"
+  },
+  {
+    "t_start": 319.43,
+    "t_end": 321.17,
+    "text": "size of this so let's call this L for length"
+  },
+  {
+    "t_start": 321.17,
+    "t_end": 325.67,
+    "text": "between zero and well let's use 10 as our sort of"
+  },
+  {
+    "t_start": 325.67,
+    "t_end": 331.01,
+    "text": "increment let's just go up in point ones uh we're not doing anything exciting yet"
+  },
+  {
+    "t_start": 331.01,
+    "t_end": 338.27,
+    "text": "uh we're not doing anything exciting yet but let's just try and make a sort of"
+  },
+  {
+    "t_start": 339.469,
+    "t_end": 341.45,
+    "text": "what's the easiest way of doing that let's"
+  },
+  {
+    "t_start": 341.45,
+    "t_end": 345.59,
+    "text": "let's drawer square and extrude it"
+  },
+  {
+    "t_start": 345.59,
+    "t_end": 350.029,
+    "text": "um attempt to tell whether you let's try polygon"
+  },
+  {
+    "t_start": 350.029,
+    "t_end": 354.59,
+    "text": "regular polygon needs two points I think it goes anti-clockwise so I'm going to"
+  },
+  {
+    "t_start": 354.59,
+    "t_end": 358.33,
+    "text": "it goes anti-clockwise so I'm going to put a point at"
+  },
+  {
+    "t_start": 361.189,
+    "t_end": 362.15,
+    "text": "my x coordinate so it's minus one on the X"
+  },
+  {
+    "t_start": 362.15,
+    "t_end": 367.67,
+    "text": "I'm aiming for this point here is zero on the Y and it's zero on the X"
+  },
+  {
+    "t_start": 367.67,
+    "t_end": 371.21,
+    "text": "is zero on the Y and it's zero on the X and the second point I would like to be"
+  },
+  {
+    "t_start": 371.21,
+    "t_end": 376.49,
+    "text": "the origin and I want four vertices"
+  },
+  {
+    "t_start": 376.49,
+    "t_end": 381.77,
+    "text": "I want it to be standing up so I guess this polygon needs some sort of"
+  },
+  {
+    "t_start": 381.77,
+    "t_end": 385.249,
+    "text": "is there a command for the Axis or the direction let's go back to the polygon"
+  },
+  {
+    "t_start": 385.249,
+    "t_end": 387.529,
+    "text": "direction let's go back to the polygon yeah there's a direction command"
+  },
+  {
+    "t_start": 387.529,
+    "t_end": 389.87,
+    "text": "yeah there's a direction command okay well let's try that again"
+  },
+  {
+    "t_start": 389.87,
+    "t_end": 395.57,
+    "text": "okay well let's try that again minus one zero zero zero zero zero"
+  },
+  {
+    "t_start": 395.57,
+    "t_end": 400.969,
+    "text": "um four vertices and Direction presumably means the normal Direction"
+  },
+  {
+    "t_start": 400.969,
+    "t_end": 404.57,
+    "text": "presumably means the normal Direction which would be the y-axis"
+  },
+  {
+    "t_start": 409.67,
+    "t_end": 411.89,
+    "text": "point is going that way okay let's just switch them over this is I haven't quite"
+  },
+  {
+    "t_start": 411.89,
+    "t_end": 413.749,
+    "text": "switch them over this is I haven't quite got my head around the command"
+  },
+  {
+    "t_start": 413.749,
+    "t_end": 419.21,
+    "text": "maybe if I just said undo can I undo uh I just said negative y-axis it might do"
+  },
+  {
+    "t_start": 419.21,
+    "t_end": 419.93,
+    "text": "I just said negative y-axis it might do it"
+  },
+  {
+    "t_start": 419.93,
+    "t_end": 423.29,
+    "text": "let's go back to that let's try changing that first of all so the the previews"
+  },
+  {
+    "t_start": 423.29,
+    "t_end": 425.27,
+    "text": "that first of all so the the previews there negative y-axis no it doesn't like"
+  },
+  {
+    "t_start": 425.27,
+    "t_end": 426.83,
+    "text": "there negative y-axis no it doesn't like that"
+  },
+  {
+    "t_start": 426.83,
+    "t_end": 427.73,
+    "text": "that um"
+  },
+  {
+    "t_start": 427.73,
+    "t_end": 431.39,
+    "text": "okay let's actually switch these points around"
+  },
+  {
+    "t_start": 431.39,
+    "t_end": 437.33,
+    "text": "so start so the origin heads off to what did I say negative one zero zero"
+  },
+  {
+    "t_start": 437.33,
+    "t_end": 439.01,
+    "text": "to what did I say negative one zero zero and close that yeah that's the square I"
+  },
+  {
+    "t_start": 439.01,
+    "t_end": 440.689,
+    "text": "and close that yeah that's the square I wanted that was much harder than I"
+  },
+  {
+    "t_start": 440.689,
+    "t_end": 443.089,
+    "text": "wanted that was much harder than I expected it to be"
+  },
+  {
+    "t_start": 443.089,
+    "t_end": 449.45,
+    "text": "there is so like a polygon and that's the poly one I've just defined they're"
+  },
+  {
+    "t_start": 449.45,
+    "t_end": 451.37,
+    "text": "the poly one I've just defined they're probably renaming but let's give it a"
+  },
+  {
+    "t_start": 451.37,
+    "t_end": 454.79,
+    "text": "probably renaming but let's give it a height of L which I've deleted somehow"
+  },
+  {
+    "t_start": 454.79,
+    "t_end": 458.99,
+    "text": "height of L which I've deleted somehow got rid of L okay let's create a slide"
+  },
+  {
+    "t_start": 458.99,
+    "t_end": 462.17,
+    "text": "Trail anyway and we'll change those properties for l"
+  },
+  {
+    "t_start": 462.17,
+    "t_end": 468.11,
+    "text": "1 and that's what I did before I must have undone it when I did controls it"
+  },
+  {
+    "t_start": 468.11,
+    "t_end": 470.089,
+    "text": "have undone it when I did controls it okay there's my cuboid so that's the"
+  },
+  {
+    "t_start": 470.089,
+    "t_end": 471.23,
+    "text": "okay there's my cuboid so that's the first cuboid"
+  },
+  {
+    "t_start": 471.23,
+    "t_end": 478.01,
+    "text": "length of my Tri bar let's set it to 10. and the nice"
+  },
+  {
+    "t_start": 478.01,
+    "t_end": 479.029,
+    "text": "Tri bar let's set it to 10. and the nice thing is we've got a slider we can"
+  },
+  {
+    "t_start": 479.029,
+    "t_end": 481.01,
+    "text": "thing is we've got a slider we can change it later on"
+  },
+  {
+    "t_start": 481.01,
+    "t_end": 485.93,
+    "text": "um so it's like length 10 I've got a width of one I didn't change the"
+  },
+  {
+    "t_start": 485.93,
+    "t_end": 488.45,
+    "text": "width of one I didn't change the yeah let's have another slider you know"
+  },
+  {
+    "t_start": 488.45,
+    "t_end": 491.21,
+    "text": "yeah let's have another slider you know for the sort of the width of the bar"
+  },
+  {
+    "t_start": 491.21,
+    "t_end": 492.409,
+    "text": "for the sort of the width of the bar let's call it a w"
+  },
+  {
+    "t_start": 492.409,
+    "t_end": 498.589,
+    "text": "shorter but let's Let it go up to five go from point ones don't undo this one"
+  },
+  {
+    "t_start": 498.589,
+    "t_end": 500.27,
+    "text": "go from point ones don't undo this one this time Ben okay that's the width and"
+  },
+  {
+    "t_start": 500.27,
+    "t_end": 503.21,
+    "text": "this time Ben okay that's the width and I need to change my original Square"
+  },
+  {
+    "t_start": 503.21,
+    "t_end": 505.01,
+    "text": "I need to change my original Square instead of negative one just negative W"
+  },
+  {
+    "t_start": 505.01,
+    "t_end": 506.809,
+    "text": "instead of negative one just negative W that'll do it and hopefully that'll"
+  },
+  {
+    "t_start": 506.809,
+    "t_end": 510.83,
+    "text": "change in size there we go I can get a fat cuber I think already like building"
+  },
+  {
+    "t_start": 510.83,
+    "t_end": 512.87,
+    "text": "fat cuber I think already like building in the variability at the beginning can"
+  },
+  {
+    "t_start": 512.87,
+    "t_end": 516.23,
+    "text": "in the variability at the beginning can be a bit of a pain but it does mean that"
+  },
+  {
+    "t_start": 516.23,
+    "t_end": 518.269,
+    "text": "later on when you build a careful construction it should all update and be"
+  },
+  {
+    "t_start": 518.269,
+    "t_end": 521.209,
+    "text": "construction it should all update and be super flexible that's at least the point"
+  },
+  {
+    "t_start": 521.209,
+    "t_end": 526.73,
+    "text": "super flexible that's at least the point of using jojoba to do this so we might"
+  },
+  {
+    "t_start": 526.73,
+    "t_end": 528.71,
+    "text": "as well start as we mean to go on okay um so"
+  },
+  {
+    "t_start": 528.71,
+    "t_end": 535.25,
+    "text": "I want one that sort of starts on the end here and sticks up"
+  },
+  {
+    "t_start": 540.71,
+    "t_end": 541.91,
+    "text": "well let's just try and draw that so that the next Square I'm going to start"
+  },
+  {
+    "t_start": 541.91,
+    "t_end": 545.389,
+    "text": "that the next Square I'm going to start with is going to be at the end of the"
+  },
+  {
+    "t_start": 545.389,
+    "t_end": 559.009,
+    "text": "bar let's do the square again so polygon"
+  },
+  {
+    "t_start": 560.21,
+    "t_end": 567.949,
+    "text": "and the direction will need to be the z-axis so let's just try and get the"
+  },
+  {
+    "t_start": 570.829,
+    "t_end": 576.53,
+    "text": "vertices and we'll do Z axis so I'm just kind of filling it in backwards these"
+  },
+  {
+    "t_start": 576.53,
+    "t_end": 579.11,
+    "text": "two points of them I'm not sure about so one of them needs to be the length of"
+  },
+  {
+    "t_start": 579.11,
+    "t_end": 581.509,
+    "text": "one of them needs to be the length of the bar so let's call that L that's"
+  },
+  {
+    "t_start": 581.509,
+    "t_end": 583.73,
+    "text": "the bar so let's call that L that's probably on the"
+  },
+  {
+    "t_start": 583.73,
+    "t_end": 587.63,
+    "text": "probably on the the y-axis"
+  },
+  {
+    "t_start": 589.55,
+    "t_end": 593.509,
+    "text": "the top of that keyboard so that's going to be the width of the original bar so"
+  },
+  {
+    "t_start": 593.509,
+    "t_end": 596.69,
+    "text": "that's going to be w and the next point"
+  },
+  {
+    "t_start": 598.55,
+    "t_end": 603.35,
+    "text": "and how it's going to draw it so let's try doing just one one back along that"
+  },
+  {
+    "t_start": 603.35,
+    "t_end": 605.63,
+    "text": "try doing just one one back along that way as I'm looking at it"
+  },
+  {
+    "t_start": 605.63,
+    "t_end": 609.47,
+    "text": "I have no idea which way to point for this to make sense to you but I'm going"
+  },
+  {
+    "t_start": 609.47,
+    "t_end": 611.99,
+    "text": "this to make sense to you but I'm going to try and do that point in that point"
+  },
+  {
+    "t_start": 611.99,
+    "t_end": 617.87,
+    "text": "to try and do that point in that point then let's see if I can do that so"
+  },
+  {
+    "t_start": 617.87,
+    "t_end": 619.67,
+    "text": "zero on the X again L minus w"
+  },
+  {
+    "t_start": 619.67,
+    "t_end": 623.65,
+    "text": "and W right that's the point I was expecting but it's the wrong way around"
+  },
+  {
+    "t_start": 623.65,
+    "t_end": 629.03,
+    "text": "expecting but it's the wrong way around uh let's switch them around again if I"
+  },
+  {
+    "t_start": 629.03,
+    "t_end": 631.61,
+    "text": "just copy this cut it out"
+  },
+  {
+    "t_start": 631.61,
+    "t_end": 636.829,
+    "text": "paste it in there that is the square of one"
+  },
+  {
+    "t_start": 643.13,
+    "t_end": 644.69,
+    "text": "poly2 the height length"
+  },
+  {
+    "t_start": 644.69,
+    "t_end": 650.63,
+    "text": "oh that looks long didn't it okay so far so good I have two bars you can"
+  },
+  {
+    "t_start": 650.63,
+    "t_end": 652.13,
+    "text": "so far so good I have two bars you can already see however bar back here if"
+  },
+  {
+    "t_start": 652.13,
+    "t_end": 655.009,
+    "text": "this is angled in the right way it looks like it's going to overlap but the angle"
+  },
+  {
+    "t_start": 655.009,
+    "t_end": 657.05,
+    "text": "like it's going to overlap but the angle really does matter and that's confused"
+  },
+  {
+    "t_start": 657.05,
+    "t_end": 660.41,
+    "text": "really does matter and that's confused me now so it's rubbed I don't want it to"
+  },
+  {
+    "t_start": 660.41,
+    "t_end": 667.37,
+    "text": "and so getting it just right is going to be a pain we're going to have to do this"
+  },
+  {
+    "t_start": 667.37,
+    "t_end": 669.35,
+    "text": "sort of programmed scripted to get the angle right I think and let's just do"
+  },
+  {
+    "t_start": 669.35,
+    "t_end": 671.75,
+    "text": "angle right I think and let's just do the third cuboid"
+  },
+  {
+    "t_start": 671.75,
+    "t_end": 674.99,
+    "text": "I'm now worried that so that bar is length 10 but this one's got length 11"
+  },
+  {
+    "t_start": 674.99,
+    "t_end": 677.329,
+    "text": "length 10 but this one's got length 11 because it starts there"
+  },
+  {
+    "t_start": 677.329,
+    "t_end": 681.53,
+    "text": "and I'm confused about actually what the length should be maybe they should all"
+  },
+  {
+    "t_start": 681.53,
+    "t_end": 682.91,
+    "text": "length should be maybe they should all be"
+  },
+  {
+    "t_start": 682.91,
+    "t_end": 688.85,
+    "text": "be W minus one"
+  },
+  {
+    "t_start": 691.49,
+    "t_end": 694.73,
+    "text": "interesting this is the dead when you're trying to draw an impossible shape it is"
+  },
+  {
+    "t_start": 694.73,
+    "t_end": 699.949,
+    "text": "genuinely difficult to know whether you're thinking about it in the right"
+  },
+  {
+    "t_start": 701.449,
+    "t_end": 704.389,
+    "text": "length in a bit let's just do the other one so let's get a polygon let's cut I"
+  },
+  {
+    "t_start": 704.389,
+    "t_end": 706.31,
+    "text": "one so let's get a polygon let's cut I want the polygon to be the square to be"
+  },
+  {
+    "t_start": 706.31,
+    "t_end": 708.11,
+    "text": "want the polygon to be the square to be there"
+  },
+  {
+    "t_start": 708.11,
+    "t_end": 712.43,
+    "text": "how hard can this be well we've kind of failed a few times so far I need the"
+  },
+  {
+    "t_start": 712.43,
+    "t_end": 713.389,
+    "text": "failed a few times so far I need the direction on the answer let's just jump"
+  },
+  {
+    "t_start": 713.389,
+    "t_end": 715.43,
+    "text": "direction on the answer let's just jump to the end and make sure I get this so"
+  },
+  {
+    "t_start": 715.43,
+    "t_end": 717.65,
+    "text": "the direction this time is going to be the"
+  },
+  {
+    "t_start": 718.79,
+    "t_end": 723.17,
+    "text": "Direction and I want the number of vertices to be four and let's work our"
+  },
+  {
+    "t_start": 723.17,
+    "t_end": 728.99,
+    "text": "way one of them is going to be"
+  },
+  {
+    "t_start": 737.69,
+    "t_end": 741.35,
+    "text": "so the width of the bar is on so it's negative W to come away from the origin"
+  },
+  {
+    "t_start": 741.35,
+    "t_end": 742.49,
+    "text": "negative W to come away from the origin there"
+  },
+  {
+    "t_start": 742.49,
+    "t_end": 747.53,
+    "text": "there the y-axis needs to be zero then axis"
+  },
+  {
+    "t_start": 747.53,
+    "t_end": 750.29,
+    "text": "zero and then"
+  },
+  {
+    "t_start": 752.75,
+    "t_end": 757.19,
+    "text": "negative W on the X the Y needs to be the width so let's"
+  },
+  {
+    "t_start": 757.19,
+    "t_end": 762.11,
+    "text": "the right place I think that's actually where I wanted it I'm slightly impressed"
+  },
+  {
+    "t_start": 762.11,
+    "t_end": 763.19,
+    "text": "where I wanted it I'm slightly impressed with myself and I press return without"
+  },
+  {
+    "t_start": 763.19,
+    "t_end": 764.21,
+    "text": "with myself and I press return without meaning to"
+  },
+  {
+    "t_start": 764.21,
+    "t_end": 770.99,
+    "text": "too excited and let's just prismify that that's a verb don't at me"
+  },
+  {
+    "t_start": 770.99,
+    "t_end": 773.81,
+    "text": "that's a verb don't at me probably three height is this is where"
+  },
+  {
+    "t_start": 773.81,
+    "t_end": 778.31,
+    "text": "probably three height is this is where I'm not sure again L uh let's go the"
+  },
+  {
+    "t_start": 784.129,
+    "t_end": 785.449,
+    "text": "is that gone the other way I mean it'd be fine I could look at it from this"
+  },
+  {
+    "t_start": 785.449,
+    "t_end": 786.949,
+    "text": "be fine I could look at it from this angle that's not what I was intended to"
+  },
+  {
+    "t_start": 786.949,
+    "t_end": 788.09,
+    "text": "angle that's not what I was intended to do but maybe that's better because then"
+  },
+  {
+    "t_start": 788.09,
+    "t_end": 789.71,
+    "text": "do but maybe that's better because then I'm not going"
+  },
+  {
+    "t_start": 789.71,
+    "t_end": 799.99,
+    "text": "in the negative sense but I have started on the other side of it ah"
+  },
+  {
+    "t_start": 802.19,
+    "t_end": 804.829,
+    "text": "so many decisions okay let's just go the other way somehow if I flip the polygon"
+  },
+  {
+    "t_start": 804.829,
+    "t_end": 807.91,
+    "text": "other way somehow if I flip the polygon around"
+  },
+  {
+    "t_start": 810.41,
+    "t_end": 812.69,
+    "text": "I hate doing this let's do negative L that's just gone that way which is what"
+  },
+  {
+    "t_start": 812.69,
+    "t_end": 814.43,
+    "text": "that's just gone that way which is what I wanted now so I'm worried that this"
+  },
+  {
+    "t_start": 814.43,
+    "t_end": 818.87,
+    "text": "I wanted now so I'm worried that this one's 10 but with this sort of step up"
+  },
+  {
+    "t_start": 818.87,
+    "t_end": 825.41,
+    "text": "something's wrong and now if I try and line these up oh it does look this kind"
+  },
+  {
+    "t_start": 825.41,
+    "t_end": 827.509,
+    "text": "that doesn't look like it's an equilateral triangle in the middle"
+  },
+  {
+    "t_start": 827.509,
+    "t_end": 830.69,
+    "text": "equilateral triangle in the middle though does it so maybe"
+  },
+  {
+    "t_start": 832.49,
+    "t_end": 833.93,
+    "text": "okay let's get a way of viewing it correctly and to do that I think we're"
+  },
+  {
+    "t_start": 833.93,
+    "t_end": 835.19,
+    "text": "correctly and to do that I think we're gonna have to use a command called set"
+  },
+  {
+    "t_start": 835.19,
+    "t_end": 836.15,
+    "text": "gonna have to use a command called set view Direction"
+  },
+  {
+    "t_start": 836.15,
+    "t_end": 841.49,
+    "text": "and I want it to be at 45 degrees down exactly where everything's sort of oh"
+  },
+  {
+    "t_start": 841.49,
+    "t_end": 843.889,
+    "text": "exactly where everything's sort of oh that was that was pretty close um"
+  },
+  {
+    "t_start": 843.889,
+    "t_end": 849.949,
+    "text": "that was that was pretty close um so into the screen at the moment is"
+  },
+  {
+    "t_start": 849.949,
+    "t_end": 855.889,
+    "text": "I think it's negative on all of the axes because I made all the axes pointing out"
+  },
+  {
+    "t_start": 855.889,
+    "t_end": 857.269,
+    "text": "towards me so I think it is just the view direction that let's do set view"
+  },
+  {
+    "t_start": 857.269,
+    "t_end": 861.59,
+    "text": "view direction that let's do set view Direction"
+  },
+  {
+    "t_start": 868.55,
+    "t_end": 870.05,
+    "text": "that is the direction I want I can definitely see though that these two"
+  },
+  {
+    "t_start": 870.05,
+    "t_end": 877.19,
+    "text": "definitely see though that these two arms are too long"
+  },
+  {
+    "t_start": 878.93,
+    "t_end": 880.79,
+    "text": "so how long do I want these shapes to be maybe all of them need to be length"
+  },
+  {
+    "t_start": 880.79,
+    "t_end": 887.509,
+    "text": "maybe all of them need to be length minus one"
+  },
+  {
+    "t_start": 894.05,
+    "t_end": 896.389,
+    "text": "um is that the that's this prism if I make them all L minus one"
+  },
+  {
+    "t_start": 896.389,
+    "t_end": 898.37,
+    "text": "if I make them all L minus one to change where they start from so I"
+  },
+  {
+    "t_start": 898.37,
+    "t_end": 899.629,
+    "text": "to change where they start from so I want the next"
+  },
+  {
+    "t_start": 899.629,
+    "t_end": 903.889,
+    "text": "this square that goes up to the Z direction that was probably too"
+  },
+  {
+    "t_start": 903.889,
+    "t_end": 909.11,
+    "text": "direction that was probably too to not be off the plane the X Y plane so"
+  },
+  {
+    "t_start": 909.11,
+    "t_end": 913.67,
+    "text": "to not be off the plane the X Y plane so the Zed's just going to be zero let's"
+  },
+  {
+    "t_start": 913.67,
+    "t_end": 916.91,
+    "text": "just shift it down to zero on the yeah that looks better"
+  },
+  {
+    "t_start": 925.31,
+    "t_end": 926.509,
+    "text": "that one's length nine uh I don't know what's going on"
+  },
+  {
+    "t_start": 926.509,
+    "t_end": 929.87,
+    "text": "let's try out minus one on that yeah you see one but yeah maybe this is the"
+  },
+  {
+    "t_start": 929.87,
+    "t_end": 931.009,
+    "text": "see one but yeah maybe this is the effect we need"
+  },
+  {
+    "t_start": 931.009,
+    "t_end": 935.569,
+    "text": "effect we need okay let's do the last one then"
+  },
+  {
+    "t_start": 935.569,
+    "t_end": 941.93,
+    "text": "this is going to be length plus one before I do it hey that's kind"
+  },
+  {
+    "t_start": 941.93,
+    "t_end": 945.71,
+    "text": "plus one before I do it hey that's kind of working"
+  },
+  {
+    "t_start": 947.689,
+    "t_end": 951.35,
+    "text": "it is kind of working okay now they're all length nine"
+  },
+  {
+    "t_start": 953.449,
+    "t_end": 957.11,
+    "text": "I mean it it looks right doesn't it as soon as I move the V round you're like"
+  },
+  {
+    "t_start": 957.11,
+    "t_end": 958.37,
+    "text": "wow that's not right but okay getting back to that view Direction by the way"
+  },
+  {
+    "t_start": 958.37,
+    "t_end": 960.65,
+    "text": "back to that view Direction by the way you can find old commands because I put"
+  },
+  {
+    "t_start": 960.65,
+    "t_end": 964.73,
+    "text": "you can find old commands because I put my input bar at the top here I can press"
+  },
+  {
+    "t_start": 964.73,
+    "t_end": 965.87,
+    "text": "down on the input bar and it goes through my recent commands I think about"
+  },
+  {
+    "t_start": 965.87,
+    "t_end": 969.41,
+    "text": "through my recent commands I think about is at the bottom which I think is often"
+  },
+  {
+    "t_start": 969.41,
+    "t_end": 970.55,
+    "text": "by default I press up to see the recent commands"
+  },
+  {
+    "t_start": 970.55,
+    "t_end": 976.61,
+    "text": "irritating that um but there's my recent command so I can get back to that kind"
+  },
+  {
+    "t_start": 976.61,
+    "t_end": 980.629,
+    "text": "we need to deal with this sort of the way it looks and seeing the ends here"
+  },
+  {
+    "t_start": 980.629,
+    "t_end": 984.47,
+    "text": "and we can see that sort of not creating the illusion we want so we're going to"
+  },
+  {
+    "t_start": 984.47,
+    "t_end": 985.61,
+    "text": "the illusion we want so we're going to do something clever with chopping off"
+  },
+  {
+    "t_start": 985.61,
+    "t_end": 990.23,
+    "text": "do something clever with chopping off maybe this top one to to be at the right"
+  },
+  {
+    "t_start": 992.269,
+    "t_end": 995.15,
+    "text": "good so far and actually let's just get sort the view Direction problem out by"
+  },
+  {
+    "t_start": 995.15,
+    "t_end": 997.069,
+    "text": "sort the view Direction problem out by making a button that calls that script"
+  },
+  {
+    "t_start": 997.069,
+    "t_end": 1001.09,
+    "text": "making a button that calls that script and that's just going to be an easy way"
+  },
+  {
+    "t_start": 1001.09,
+    "t_end": 1003.85,
+    "text": "to do it so this is rotate to correct angle or something like that and set"
+  },
+  {
+    "t_start": 1003.85,
+    "t_end": 1005.23,
+    "text": "angle or something like that and set view Direction"
+  },
+  {
+    "t_start": 1005.23,
+    "t_end": 1010.99,
+    "text": "I'm using two brackets there because one is the bracket for the argument of the"
+  },
+  {
+    "t_start": 1010.99,
+    "t_end": 1012.37,
+    "text": "is the bracket for the argument of the functions have U Direction one and then"
+  },
+  {
+    "t_start": 1012.37,
+    "t_end": 1017.23,
+    "text": "functions have U Direction one and then it needs to be a a point which is going"
+  },
+  {
+    "t_start": 1017.23,
+    "t_end": 1019.03,
+    "text": "to interpret as a vector which is fine but I think that was it oh I just did"
+  },
+  {
+    "t_start": 1019.03,
+    "t_end": 1020.47,
+    "text": "but I think that was it oh I just did those two"
+  },
+  {
+    "t_start": 1020.47,
+    "t_end": 1025.329,
+    "text": "hopefully this button will just do it for us if I get it wrong and I can click"
+  },
+  {
+    "t_start": 1025.329,
+    "t_end": 1029.53,
+    "text": "that let me go back nice okay uh let's have a think about what to"
+  },
+  {
+    "t_start": 1029.53,
+    "t_end": 1033.549,
+    "text": "well what to do next is the thing is check that the variability that we built"
+  },
+  {
+    "t_start": 1033.549,
+    "t_end": 1036.01,
+    "text": "check that the variability that we built in is working"
+  },
+  {
+    "t_start": 1036.01,
+    "t_end": 1039.669,
+    "text": "which means if I change the length that does change the length of everything"
+  },
+  {
+    "t_start": 1039.669,
+    "t_end": 1042.49,
+    "text": "that's looking promising and if I change the width it just should just change"
+  },
+  {
+    "t_start": 1042.49,
+    "t_end": 1044.049,
+    "text": "the width it just should just change earlobe"
+  },
+  {
+    "t_start": 1044.049,
+    "t_end": 1048.01,
+    "text": "it does change the width but something is off with"
+  },
+  {
+    "t_start": 1048.01,
+    "t_end": 1052.21,
+    "text": "is off with that bar"
+  },
+  {
+    "t_start": 1053.95,
+    "t_end": 1056.409,
+    "text": "okay let me think about this uh it was fine when it was one"
+  },
+  {
+    "t_start": 1056.409,
+    "t_end": 1059.289,
+    "text": "it's also appearing on Graphics one here which I'm going to turn off eventually I"
+  },
+  {
+    "t_start": 1059.289,
+    "t_end": 1062.11,
+    "text": "which I'm going to turn off eventually I don't really need it I just went on the"
+  },
+  {
+    "t_start": 1062.11,
+    "t_end": 1066.07,
+    "text": "3D but right if I if I crank it up to two let's just set it to two then"
+  },
+  {
+    "t_start": 1069.73,
+    "t_end": 1072.39,
+    "text": "I need it to be built off the end of that so it's the original"
+  },
+  {
+    "t_start": 1072.39,
+    "t_end": 1077.529,
+    "text": "that so it's the original polygon that I'm building on the flat"
+  },
+  {
+    "t_start": 1077.529,
+    "t_end": 1084.19,
+    "text": "so poly2 yeah it's that one it needs to be at a y-axis of not L"
+  },
+  {
+    "t_start": 1084.19,
+    "t_end": 1088.87,
+    "text": "it needs to be at a y-axis of not L minus W it's going to be just"
+  },
+  {
+    "t_start": 1092.47,
+    "t_end": 1098.049,
+    "text": "uh L minus w at the moment is eight so it's that point there"
+  },
+  {
+    "t_start": 1106.93,
+    "t_end": 1111.73,
+    "text": "why can't I think about this so the full length is 10."
+  },
+  {
+    "t_start": 1113.289,
+    "t_end": 1117.43,
+    "text": "but it's not a length of 10 over there it's 11 over there"
+  },
+  {
+    "t_start": 1126.549,
+    "t_end": 1128.169,
+    "text": "and if I shift that it's not going to line up anymore"
+  },
+  {
+    "t_start": 1128.169,
+    "t_end": 1132.31,
+    "text": "okay well let's just try shifting and then deal with it so the"
+  },
+  {
+    "t_start": 1132.31,
+    "t_end": 1136.63,
+    "text": "then deal with it so the let's say the the length of the full"
+  },
+  {
+    "t_start": 1144.19,
+    "t_end": 1148.75,
+    "text": "the width which is w and the length of the actual cuboid so what have I made"
+  },
+  {
+    "t_start": 1148.75,
+    "t_end": 1149.77,
+    "text": "the actual cuboid so what have I made the length of the actual keyboard let's"
+  },
+  {
+    "t_start": 1149.77,
+    "t_end": 1154.33,
+    "text": "the length of the actual keyboard let's go back to that I think it was a"
+  },
+  {
+    "t_start": 1154.33,
+    "t_end": 1156.61,
+    "text": "L minus one so I think it needs to be almost W that might fix it that might"
+  },
+  {
+    "t_start": 1156.61,
+    "t_end": 1157.99,
+    "text": "almost W that might fix it that might fix it"
+  },
+  {
+    "t_start": 1157.99,
+    "t_end": 1163.87,
+    "text": "circular definition what I've got an A in there somewhere okay"
+  },
+  {
+    "t_start": 1168.97,
+    "t_end": 1173.409,
+    "text": "and so the other cuboids need to be the same"
+  },
+  {
+    "t_start": 1180.43,
+    "t_end": 1181.51,
+    "text": "and let's see if when we spin it to the right place"
+  },
+  {
+    "t_start": 1181.51,
+    "t_end": 1184.57,
+    "text": "right place yes okay I think that's that's good and"
+  },
+  {
+    "t_start": 1184.57,
+    "t_end": 1189.25,
+    "text": "things are adjusting I think as they should so you can have a tiny width"
+  },
+  {
+    "t_start": 1189.25,
+    "t_end": 1190.45,
+    "text": "should so you can have a tiny width but obviously we've still got the"
+  },
+  {
+    "t_start": 1190.45,
+    "t_end": 1191.47,
+    "text": "but obviously we've still got the overlap wrong and that's because it's"
+  },
+  {
+    "t_start": 1191.47,
+    "t_end": 1192.789,
+    "text": "overlap wrong and that's because it's not actually overlapping it's just this"
+  },
+  {
+    "t_start": 1192.789,
+    "t_end": 1196.27,
+    "text": "not actually overlapping it's just this time but this is a nice visualization"
+  },
+  {
+    "t_start": 1196.27,
+    "t_end": 1197.529,
+    "text": "already of how the illusion works you have these three perpendicular things"
+  },
+  {
+    "t_start": 1197.529,
+    "t_end": 1200.169,
+    "text": "have these three perpendicular things and they are buttressed in the way that"
+  },
+  {
+    "t_start": 1200.169,
+    "t_end": 1202.09,
+    "text": "I've done which took me a bit of thinking and if you spin it to the right"
+  },
+  {
+    "t_start": 1202.09,
+    "t_end": 1203.77,
+    "text": "thinking and if you spin it to the right angle precisely the right camera angle"
+  },
+  {
+    "t_start": 1203.77,
+    "t_end": 1207.07,
+    "text": "you get these things lining up now to make it look like they actually join I"
+  },
+  {
+    "t_start": 1207.07,
+    "t_end": 1208.45,
+    "text": "make it look like they actually join I think we're gonna have to be"
+  },
+  {
+    "t_start": 1208.45,
+    "t_end": 1211.69,
+    "text": "think we're gonna have to be a bit clever and what I'd also like to"
+  },
+  {
+    "t_start": 1211.69,
+    "t_end": 1219.25,
+    "text": "faces look continuous so this face which is facing in the sort of X Direction out"
+  },
+  {
+    "t_start": 1220.51,
+    "t_end": 1223.51,
+    "text": "capturing my mouse pointer so I've been pointing to things and it hasn't been"
+  },
+  {
+    "t_start": 1223.51,
+    "t_end": 1225.73,
+    "text": "pointing to things and it hasn't been obvious let me just fix that"
+  },
+  {
+    "t_start": 1225.73,
+    "t_end": 1227.47,
+    "text": "obvious let me just fix that apologies if I've been talking all the"
+  },
+  {
+    "t_start": 1227.47,
+    "t_end": 1231.909,
+    "text": "apologies if I've been talking all the way through the first part of this video"
+  },
+  {
+    "t_start": 1231.909,
+    "t_end": 1234.549,
+    "text": "happening in the edit I'll try and make sure it's obvious what I was going to do"
+  },
+  {
+    "t_start": 1234.549,
+    "t_end": 1236.169,
+    "text": "sure it's obvious what I was going to do I think I'm recording my mouse now I"
+  },
+  {
+    "t_start": 1236.169,
+    "t_end": 1237.97,
+    "text": "I think I'm recording my mouse now I capture the cursor on obs"
+  },
+  {
+    "t_start": 1237.97,
+    "t_end": 1241.029,
+    "text": "so I was just saying I wanted to get these faces this face which is sticking"
+  },
+  {
+    "t_start": 1241.029,
+    "t_end": 1242.289,
+    "text": "these faces this face which is sticking out in the X direction or facing the X"
+  },
+  {
+    "t_start": 1242.289,
+    "t_end": 1245.59,
+    "text": "out in the X direction or facing the X Direction needs to be sort of one face"
+  },
+  {
+    "t_start": 1245.59,
+    "t_end": 1246.549,
+    "text": "Direction needs to be sort of one face um"
+  },
+  {
+    "t_start": 1246.549,
+    "t_end": 1250.75,
+    "text": "eventually I'd like that to be sort of colored so those faces are the same"
+  },
+  {
+    "t_start": 1250.75,
+    "t_end": 1253.75,
+    "text": "colored so those faces are the same color and particular this bit here"
+  },
+  {
+    "t_start": 1253.75,
+    "t_end": 1255.01,
+    "text": "color and particular this bit here coming around look needs to look like"
+  },
+  {
+    "t_start": 1255.01,
+    "t_end": 1257.049,
+    "text": "coming around look needs to look like one face"
+  },
+  {
+    "t_start": 1257.049,
+    "t_end": 1261.43,
+    "text": "and to do that I might right the trouble with JoJo is building"
+  },
+  {
+    "t_start": 1261.43,
+    "t_end": 1265.81,
+    "text": "right the trouble with JoJo is building prisms like this is that basically the"
+  },
+  {
+    "t_start": 1265.81,
+    "t_end": 1268.87,
+    "text": "the prism has a bunch of edges and a bunch of faces and they are auxiliary"
+  },
+  {
+    "t_start": 1268.87,
+    "t_end": 1271.75,
+    "text": "objects I think if I show auxiliary objects they're all there uh normally"
+  },
+  {
+    "t_start": 1271.75,
+    "t_end": 1276.31,
+    "text": "objects they're all there uh normally you don't really want to see them but I"
+  },
+  {
+    "t_start": 1276.31,
+    "t_end": 1278.289,
+    "text": "might need to investigate them uh"
+  },
+  {
+    "t_start": 1278.289,
+    "t_end": 1282.43,
+    "text": "I'd love to be able to spin this thing around as well but it's spinning around"
+  },
+  {
+    "t_start": 1282.43,
+    "t_end": 1285.25,
+    "text": "around as well but it's spinning around away is such that it still looks right"
+  },
+  {
+    "t_start": 1285.25,
+    "t_end": 1288.37,
+    "text": "spin it in any odd way I've got to spin it precisely along the axis which we're"
+  },
+  {
+    "t_start": 1288.37,
+    "t_end": 1290.409,
+    "text": "it precisely along the axis which we're looking down so that's for later let's"
+  },
+  {
+    "t_start": 1290.409,
+    "t_end": 1294.97,
+    "text": "let's have a think about how to well first of all let's make these opaque so"
+  },
+  {
+    "t_start": 1294.97,
+    "t_end": 1297.49,
+    "text": "first of all let's make these opaque so they look the same and do that quick way"
+  },
+  {
+    "t_start": 1297.49,
+    "t_end": 1300.19,
+    "text": "they look the same and do that quick way of doing it this is the opacity slider"
+  },
+  {
+    "t_start": 1300.19,
+    "t_end": 1303.909,
+    "text": "of doing it this is the opacity slider okay uh why are they different colors"
+  },
+  {
+    "t_start": 1303.909,
+    "t_end": 1309.07,
+    "text": "okay uh why are they different colors what's going on there are they just"
+  },
+  {
+    "t_start": 1310.75,
+    "t_end": 1313.75,
+    "text": "that face I want to look the same color as that are they are they just different"
+  },
+  {
+    "t_start": 1313.75,
+    "t_end": 1317.77,
+    "text": "as that are they are they just different colors no"
+  },
+  {
+    "t_start": 1319.149,
+    "t_end": 1322.99,
+    "text": "I'm going to turn the auxiliary objects on and then do away this mess I'm going"
+  },
+  {
+    "t_start": 1322.99,
+    "t_end": 1325.63,
+    "text": "to turn on object type so that we've got"
+  },
+  {
+    "t_start": 1325.63,
+    "t_end": 1330.37,
+    "text": "points polygons and those are the ones I there's squares and we've got"
+  },
+  {
+    "t_start": 1330.37,
+    "t_end": 1332.35,
+    "text": "there's squares and we've got quadrilaterals somehow"
+  },
+  {
+    "t_start": 1332.35,
+    "t_end": 1337.45,
+    "text": "prisms are made and a bunch of segments so actually what I might do is hide all"
+  },
+  {
+    "t_start": 1337.45,
+    "t_end": 1341.409,
+    "text": "so actually what I might do is hide all the segments"
+  },
+  {
+    "t_start": 1343.99,
+    "t_end": 1347.89,
+    "text": "oh but the segments of the polygon are still there oh no I just needed to be"
+  },
+  {
+    "t_start": 1347.89,
+    "t_end": 1350.049,
+    "text": "refreshed the color is weird I don't understand why the segments still"
+  },
+  {
+    "t_start": 1350.049,
+    "t_end": 1351.13,
+    "text": "understand why the segments still visible"
+  },
+  {
+    "t_start": 1351.13,
+    "t_end": 1356.289,
+    "text": "let's hide my squares those are the polygons let's hide all of those okay"
+  },
+  {
+    "t_start": 1356.289,
+    "t_end": 1357.97,
+    "text": "polygons let's hide all of those okay that's better"
+  },
+  {
+    "t_start": 1357.97,
+    "t_end": 1364.75,
+    "text": "I don't know why the colors are doing what they're doing"
+  },
+  {
+    "t_start": 1366.73,
+    "t_end": 1369.669,
+    "text": "let's just make them different colors and see what happens someone's now"
+  },
+  {
+    "t_start": 1369.669,
+    "t_end": 1371.289,
+    "text": "and see what happens someone's now yellow"
+  },
+  {
+    "t_start": 1371.289,
+    "t_end": 1377.409,
+    "text": "this one is now blue and the other one"
+  },
+  {
+    "t_start": 1377.409,
+    "t_end": 1379.289,
+    "text": "and the other one is"
+  },
+  {
+    "t_start": 1379.289,
+    "t_end": 1386.95,
+    "text": "let me select it there's something weird going on with this one there we go let's"
+  },
+  {
+    "t_start": 1388.63,
+    "t_end": 1390.19,
+    "text": "doesn't like updating that one that's strange"
+  },
+  {
+    "t_start": 1390.19,
+    "t_end": 1395.83,
+    "text": "but it is oh that was that was the square sorry"
+  },
+  {
+    "t_start": 1399.789,
+    "t_end": 1402.669,
+    "text": "have I just been changing the properties of building things no I was changing"
+  },
+  {
+    "t_start": 1402.669,
+    "t_end": 1405.25,
+    "text": "that let's just change this to bright red and see what happens"
+  },
+  {
+    "t_start": 1405.25,
+    "t_end": 1409.21,
+    "text": "red and see what happens and but now the edges are visible again"
+  },
+  {
+    "t_start": 1409.21,
+    "t_end": 1418.63,
+    "text": "those edges let's just turn all the edges if I turn them all on and then all"
+  },
+  {
+    "t_start": 1420.07,
+    "t_end": 1421.57,
+    "text": "and we need to check whether JoJo is using the lighting so in the graphics"
+  },
+  {
+    "t_start": 1421.57,
+    "t_end": 1422.71,
+    "text": "using the lighting so in the graphics drop down"
+  },
+  {
+    "t_start": 1422.71,
+    "t_end": 1424.09,
+    "text": "drop down um"
+  },
+  {
+    "t_start": 1424.09,
+    "t_end": 1429.97,
+    "text": "in projection no in basic you can use lighting let's see what that"
+  },
+  {
+    "t_start": 1429.97,
+    "t_end": 1431.529,
+    "text": "you can use lighting let's see what that does if I just make sure it's there no"
+  },
+  {
+    "t_start": 1431.529,
+    "t_end": 1432.669,
+    "text": "does if I just make sure it's there no they're always playing close if I use"
+  },
+  {
+    "t_start": 1432.669,
+    "t_end": 1433.87,
+    "text": "they're always playing close if I use the lighting you do get some shading"
+  },
+  {
+    "t_start": 1433.87,
+    "t_end": 1435.669,
+    "text": "the lighting you do get some shading going on but it's not shading them"
+  },
+  {
+    "t_start": 1435.669,
+    "t_end": 1437.95,
+    "text": "going on but it's not shading them differently"
+  },
+  {
+    "t_start": 1437.95,
+    "t_end": 1442.57,
+    "text": "weird what I'd like to do is get the lighting I'll do my own version of the"
+  },
+  {
+    "t_start": 1442.57,
+    "t_end": 1443.649,
+    "text": "lighting I'll do my own version of the lighting in a bit and we'll play with"
+  },
+  {
+    "t_start": 1443.649,
+    "t_end": 1444.85,
+    "text": "lighting in a bit and we'll play with some mathematical way of getting"
+  },
+  {
+    "t_start": 1444.85,
+    "t_end": 1448.09,
+    "text": "some mathematical way of getting lighting working"
+  },
+  {
+    "t_start": 1449.89,
+    "t_end": 1452.71,
+    "text": "if we make them all the same color they should all look the same let's just try"
+  },
+  {
+    "t_start": 1452.71,
+    "t_end": 1456.85,
+    "text": "those three prisms which is a control to select all three change them all to Blue"
+  },
+  {
+    "t_start": 1456.85,
+    "t_end": 1458.47,
+    "text": "select all three change them all to Blue let's see what happens"
+  },
+  {
+    "t_start": 1458.47,
+    "t_end": 1463.51,
+    "text": "let's see what happens I don't understand why that looks"
+  },
+  {
+    "t_start": 1464.95,
+    "t_end": 1466.69,
+    "text": "but let's not worry about it if I look at it from the right angle we start to"
+  },
+  {
+    "t_start": 1466.69,
+    "t_end": 1469.87,
+    "text": "at it from the right angle we start to see the effect but I've got to get this"
+  },
+  {
+    "t_start": 1469.87,
+    "t_end": 1472.39,
+    "text": "overlap so what I might need to do is just Define polygons which are the"
+  },
+  {
+    "t_start": 1472.39,
+    "t_end": 1474.97,
+    "text": "is just Define polygons which are the faces I care about except"
+  },
+  {
+    "t_start": 1474.97,
+    "t_end": 1478.63,
+    "text": "that one and that one are going to be different faces so maybe I do all of"
+  },
+  {
+    "t_start": 1478.63,
+    "t_end": 1482.37,
+    "text": "different faces so maybe I do all of them as like a pair of faces"
+  },
+  {
+    "t_start": 1488.649,
+    "t_end": 1493.27,
+    "text": "faces in here so let's face one is not obvious uh I'm also going to make all of"
+  },
+  {
+    "t_start": 1493.27,
+    "t_end": 1496.87,
+    "text": "obvious uh I'm also going to make all of these things only visible on graphics 3D"
+  },
+  {
+    "t_start": 1496.87,
+    "t_end": 1498.13,
+    "text": "these things only visible on graphics 3D Graphics let's take them off that and"
+  },
+  {
+    "t_start": 1498.13,
+    "t_end": 1499.63,
+    "text": "Graphics let's take them off that and hopefully oh they do still tell them"
+  },
+  {
+    "t_start": 1499.63,
+    "t_end": 1501.97,
+    "text": "hopefully oh they do still tell them because these quadrilaterals oh that's a"
+  },
+  {
+    "t_start": 1501.97,
+    "t_end": 1504.49,
+    "text": "because these quadrilaterals oh that's a mess uh tell you what let's let's hide"
+  },
+  {
+    "t_start": 1504.49,
+    "t_end": 1505.39,
+    "text": "mess uh tell you what let's let's hide them all"
+  },
+  {
+    "t_start": 1505.39,
+    "t_end": 1508.69,
+    "text": "right they're all gone so phase one is that one actually gonna just turn it off"
+  },
+  {
+    "t_start": 1508.69,
+    "t_end": 1512.47,
+    "text": "uh when I'm looking at it from the right direction that shouldn't be visible that"
+  },
+  {
+    "t_start": 1512.47,
+    "t_end": 1518.71,
+    "text": "direction that shouldn't be visible that one is not visible that one is visible"
+  },
+  {
+    "t_start": 1518.71,
+    "t_end": 1520.51,
+    "text": "and that one so that's let's get this this pair of faces"
+  },
+  {
+    "t_start": 1520.51,
+    "t_end": 1521.83,
+    "text": "let's get this this pair of faces there's another one over there let's"
+  },
+  {
+    "t_start": 1521.83,
+    "t_end": 1522.97,
+    "text": "there's another one over there let's find it"
+  },
+  {
+    "t_start": 1522.97,
+    "t_end": 1525.31,
+    "text": "find it it's going to be in the last prism isn't"
+  },
+  {
+    "t_start": 1525.31,
+    "t_end": 1530.59,
+    "text": "that one those two I want to be the same color"
+  },
+  {
+    "t_start": 1530.59,
+    "t_end": 1535.81,
+    "text": "so I might have to turn lighting off so that one and that one"
+  },
+  {
+    "t_start": 1535.81,
+    "t_end": 1541.09,
+    "text": "Georgia but to make a list of items that you've selected you can just drag them"
+  },
+  {
+    "t_start": 1541.09,
+    "t_end": 1547.81,
+    "text": "you've selected you can just drag them can you I'm sure you used to be able to"
+  },
+  {
+    "t_start": 1549.25,
+    "t_end": 1550.39,
+    "text": "yeah there we go dragging those two into the input bar"
+  },
+  {
+    "t_start": 1550.39,
+    "t_end": 1553.45,
+    "text": "and it makes a little list it saves a little bit of typing particularly if"
+  },
+  {
+    "t_start": 1553.45,
+    "t_end": 1556.51,
+    "text": "it's a long list let's call this um these are the faces that point in the Z"
+  },
+  {
+    "t_start": 1556.51,
+    "t_end": 1557.59,
+    "text": "these are the faces that point in the Z Direction so they're going to call them"
+  },
+  {
+    "t_start": 1557.59,
+    "t_end": 1559.87,
+    "text": "Direction so they're going to call them Z faces"
+  },
+  {
+    "t_start": 1559.87,
+    "t_end": 1562.09,
+    "text": "Z faces and it's not"
+  },
+  {
+    "t_start": 1562.09,
+    "t_end": 1566.169,
+    "text": "it's not copied them but it's made a new list object I presume which isn't"
+  },
+  {
+    "t_start": 1566.169,
+    "t_end": 1568.33,
+    "text": "list object I presume which isn't visible"
+  },
+  {
+    "t_start": 1568.33,
+    "t_end": 1574.75,
+    "text": "or is it no it's just it's just a list of those faces"
+  },
+  {
+    "t_start": 1576.669,
+    "t_end": 1578.59,
+    "text": "I'm not sure what I want for the moment but anyway there's the Zed facing faces"
+  },
+  {
+    "t_start": 1578.59,
+    "t_end": 1580.93,
+    "text": "but anyway there's the Zed facing faces that I care about so let's do the same"
+  },
+  {
+    "t_start": 1580.93,
+    "t_end": 1582.43,
+    "text": "with the X and Y let's find out which ones they are the ones facing out let's"
+  },
+  {
+    "t_start": 1582.43,
+    "t_end": 1584.23,
+    "text": "ones they are the ones facing out let's find one of them"
+  },
+  {
+    "t_start": 1584.23,
+    "t_end": 1590.289,
+    "text": "that's facing in the X Direction and so also will be this one nope this one nope"
+  },
+  {
+    "t_start": 1590.289,
+    "t_end": 1600.43,
+    "text": "also will be this one nope this one nope this one nope and this one yay those two"
+  },
+  {
+    "t_start": 1604.51,
+    "t_end": 1607.93,
+    "text": "and the Y faces facing that way"
+  },
+  {
+    "t_start": 1607.93,
+    "t_end": 1610.99,
+    "text": "facing that way no that one doesn't need one so it's"
+  },
+  {
+    "t_start": 1610.99,
+    "t_end": 1617.83,
+    "text": "one of these that one and"
+  },
+  {
+    "t_start": 1619.63,
+    "t_end": 1620.769,
+    "text": "that one and those are the ones that when I write when I'm looking in the"
+  },
+  {
+    "t_start": 1620.769,
+    "t_end": 1622.21,
+    "text": "when I write when I'm looking in the right direction they need to sort of"
+  },
+  {
+    "t_start": 1622.21,
+    "t_end": 1623.649,
+    "text": "right direction they need to sort of look seamless which they they now do"
+  },
+  {
+    "t_start": 1623.649,
+    "t_end": 1625.21,
+    "text": "look seamless which they they now do that's promising now looking the right"
+  },
+  {
+    "t_start": 1625.21,
+    "t_end": 1626.11,
+    "text": "that's promising now looking the right color"
+  },
+  {
+    "t_start": 1626.11,
+    "t_end": 1635.409,
+    "text": "so those two drag them up in here and let's call them"
+  },
+  {
+    "t_start": 1641.11,
+    "t_end": 1642.909,
+    "text": "what can I do so I don't know why these aren't visible they just sort of lists"
+  },
+  {
+    "t_start": 1642.909,
+    "t_end": 1646.57,
+    "text": "aren't visible they just sort of lists of shapes they're not showing up but I"
+  },
+  {
+    "t_start": 1646.57,
+    "t_end": 1650.769,
+    "text": "could I could say I don't know rotate them or something"
+  },
+  {
+    "t_start": 1653.049,
+    "t_end": 1657.19,
+    "text": "if I try changing the color one to what happens"
+  },
+  {
+    "t_start": 1658.99,
+    "t_end": 1662.169,
+    "text": "they're just not visible where are they meant to show up let's have a look"
+  },
+  {
+    "t_start": 1662.169,
+    "t_end": 1663.73,
+    "text": "meant to show up let's have a look yeah I don't I wonder if they're not"
+  },
+  {
+    "t_start": 1663.73,
+    "t_end": 1666.909,
+    "text": "yeah I don't I wonder if they're not sure because they're just lists"
+  },
+  {
+    "t_start": 1668.59,
+    "t_end": 1672.61,
+    "text": "I'm worried that I'm getting confused by the way JoJo rebuilds solids and if I"
+  },
+  {
+    "t_start": 1672.61,
+    "t_end": 1674.89,
+    "text": "just build them faces Facebook like manually that would have been better but"
+  },
+  {
+    "t_start": 1674.89,
+    "t_end": 1677.59,
+    "text": "manually that would have been better but let's let's carry on working with this"
+  },
+  {
+    "t_start": 1677.59,
+    "t_end": 1682.87,
+    "text": "if I just turn on right so the x-faces is five and four let's just"
+  },
+  {
+    "t_start": 1682.87,
+    "t_end": 1684.61,
+    "text": "the x-faces is five and four let's just turn those two on"
+  },
+  {
+    "t_start": 1684.61,
+    "t_end": 1686.529,
+    "text": "turn those two on and the"
+  },
+  {
+    "t_start": 1686.529,
+    "t_end": 1691.81,
+    "text": "and the y faces are six and ten"
+  },
+  {
+    "t_start": 1693.669,
+    "t_end": 1695.409,
+    "text": "and the Z faces are three and eleven"
+  },
+  {
+    "t_start": 1695.409,
+    "t_end": 1698.409,
+    "text": "so these are the only ones I really need you can see that's got the shapes going"
+  },
+  {
+    "t_start": 1698.409,
+    "t_end": 1702.37,
+    "text": "you can see that's got the shapes going I want I still got to deal with the"
+  },
+  {
+    "t_start": 1702.37,
+    "t_end": 1703.75,
+    "text": "overlap I still like the one to be the same color well I'll tell you what let's"
+  },
+  {
+    "t_start": 1703.75,
+    "t_end": 1705.37,
+    "text": "same color well I'll tell you what let's make the appropriate ones the right"
+  },
+  {
+    "t_start": 1705.37,
+    "t_end": 1711.029,
+    "text": "make the appropriate ones the right color so X faces five and four let's"
+  },
+  {
+    "t_start": 1711.029,
+    "t_end": 1717.19,
+    "text": "and let's let's stick with Blues make them dark blue like they are okay"
+  },
+  {
+    "t_start": 1717.19,
+    "t_end": 1721.45,
+    "text": "them dark blue like they are okay and then the Y faces six and ten"
+  },
+  {
+    "t_start": 1721.45,
+    "t_end": 1724.51,
+    "text": "let's make them like a lighter I have no idea that's lighter blue big color"
+  },
+  {
+    "t_start": 1724.51,
+    "t_end": 1726.25,
+    "text": "idea that's lighter blue big color vision division here"
+  },
+  {
+    "t_start": 1726.25,
+    "t_end": 1729.37,
+    "text": "vision division here okay"
+  },
+  {
+    "t_start": 1731.23,
+    "t_end": 1737.049,
+    "text": "except that we've got this overlap there whatever and then the other ones are the"
+  },
+  {
+    "t_start": 1737.049,
+    "t_end": 1740.71,
+    "text": "Z faces the ones looking up three and eleven let's make them a different color"
+  },
+  {
+    "t_start": 1740.71,
+    "t_end": 1743.47,
+    "text": "eleven let's make them a different color see if this works"
+  },
+  {
+    "t_start": 1743.47,
+    "t_end": 1747.789,
+    "text": "can we get more colors so if you want a better color Choice go to the properties"
+  },
+  {
+    "t_start": 1747.789,
+    "t_end": 1750.029,
+    "text": "better color Choice go to the properties color"
+  },
+  {
+    "t_start": 1750.029,
+    "t_end": 1755.11,
+    "text": "uh this is my television like that there's a really light blue maybe is"
+  },
+  {
+    "t_start": 1755.11,
+    "t_end": 1756.97,
+    "text": "there's a really light blue maybe is that the same as that no it's not let's"
+  },
+  {
+    "t_start": 1756.97,
+    "t_end": 1758.649,
+    "text": "that the same as that no it's not let's go with that"
+  },
+  {
+    "t_start": 1758.649,
+    "t_end": 1761.649,
+    "text": "go with that has that worked"
+  },
+  {
+    "t_start": 1767.169,
+    "t_end": 1771.49,
+    "text": "is it because it's kind of the face it thinks the face is the other way around"
+  },
+  {
+    "t_start": 1773.59,
+    "t_end": 1776.23,
+    "text": "which might be doing clever things that I don't want to do okay right fine"
+  },
+  {
+    "t_start": 1776.23,
+    "t_end": 1779.23,
+    "text": "I don't want to do okay right fine that's working now"
+  },
+  {
+    "t_start": 1779.23,
+    "t_end": 1784.99,
+    "text": "except for the fact that that overlaps so what I need to do instead I think"
+  },
+  {
+    "t_start": 1784.99,
+    "t_end": 1787.09,
+    "text": "so what I need to do instead I think just to get the effect"
+  },
+  {
+    "t_start": 1787.09,
+    "t_end": 1790.389,
+    "text": "and by the way you see now they're just it's just the shells of the cuboids"
+  },
+  {
+    "t_start": 1790.389,
+    "t_end": 1793.99,
+    "text": "it's just the shells of the cuboids going on that's all I need to make the"
+  },
+  {
+    "t_start": 1793.99,
+    "t_end": 1799.75,
+    "text": "the colors aren't sufficiently different but I'll deal with that in a bit so what"
+  },
+  {
+    "t_start": 1799.75,
+    "t_end": 1804.97,
+    "text": "actually I want this face here to have the corner chopped off now where"
+  },
+  {
+    "t_start": 1804.97,
+    "t_end": 1807.49,
+    "text": "do I drop it off to I think everything is sort of"
+  },
+  {
+    "t_start": 1807.49,
+    "t_end": 1808.81,
+    "text": "I think everything is sort of sufficiently"
+  },
+  {
+    "t_start": 1808.81,
+    "t_end": 1814.81,
+    "text": "the width Market it's just like one of my width variable down so actually if I"
+  },
+  {
+    "t_start": 1814.81,
+    "t_end": 1816.73,
+    "text": "my width variable down so actually if I set this back to one it's just going to"
+  },
+  {
+    "t_start": 1816.73,
+    "t_end": 1824.169,
+    "text": "I think it's a width of one or at least I'm going to put a coordinate there"
+  },
+  {
+    "t_start": 1824.169,
+    "t_end": 1831.61,
+    "text": "what's it going to be a coordinate of along the x of zero sorry long X that no"
+  },
+  {
+    "t_start": 1831.61,
+    "t_end": 1833.47,
+    "text": "along the x of zero sorry long X that no idea which ways I'm pointing compared to"
+  },
+  {
+    "t_start": 1833.47,
+    "t_end": 1836.35,
+    "text": "idea which ways I'm pointing compared to what you see but"
+  },
+  {
+    "t_start": 1838.389,
+    "t_end": 1848.049,
+    "text": "zero on the X the Y I needed to be L minus W and the Z"
+  },
+  {
+    "t_start": 1855.01,
+    "t_end": 1860.529,
+    "text": "maybe yeah I think that point is in the right place it looks like it's lined up"
+  },
+  {
+    "t_start": 1860.529,
+    "t_end": 1862.81,
+    "text": "right place it looks like it's lined up I mean obviously it's only there when I"
+  },
+  {
+    "t_start": 1862.81,
+    "t_end": 1866.169,
+    "text": "I mean obviously it's only there when I line it"
+  },
+  {
+    "t_start": 1868.269,
+    "t_end": 1870.97,
+    "text": "that's the point so I kind of want to build a face that just chops that corner"
+  },
+  {
+    "t_start": 1870.97,
+    "t_end": 1876.07,
+    "text": "build a face that just chops that corner off so let's turn that face off which"
+  },
+  {
+    "t_start": 1876.07,
+    "t_end": 1877.93,
+    "text": "one is it uh four no five and build a new one that's dead"
+  },
+  {
+    "t_start": 1877.93,
+    "t_end": 1880.21,
+    "text": "and build a new one that's dead confusing now"
+  },
+  {
+    "t_start": 1880.21,
+    "t_end": 1882.97,
+    "text": "let's just build a polygon from some points I'm gonna I'm gonna type them"
+  },
+  {
+    "t_start": 1882.97,
+    "t_end": 1887.169,
+    "text": "there's probably a better way to do this but let's just give it a list of points"
+  },
+  {
+    "t_start": 1887.169,
+    "t_end": 1890.35,
+    "text": "in fact I'll just give it some so first point is"
+  },
+  {
+    "t_start": 1890.35,
+    "t_end": 1893.289,
+    "text": "so first point is L minus w"
+  },
+  {
+    "t_start": 1893.289,
+    "t_end": 1897.31,
+    "text": "L minus w along the X no it's on zero on the X"
+  },
+  {
+    "t_start": 1899.71,
+    "t_end": 1906.31,
+    "text": "really with it now am I the Y is L minus W and the Z is a zero to start so that's"
+  },
+  {
+    "t_start": 1906.31,
+    "t_end": 1908.47,
+    "text": "W and the Z is a zero to start so that's the bottom left corner there"
+  },
+  {
+    "t_start": 1908.47,
+    "t_end": 1911.049,
+    "text": "the bottom left corner there then"
+  },
+  {
+    "t_start": 1911.049,
+    "t_end": 1914.769,
+    "text": "I'm just going to set our brackets for the three other points so then it's the"
+  },
+  {
+    "t_start": 1914.769,
+    "t_end": 1920.169,
+    "text": "the three other points so then it's the same but without the minus W so just L I"
+  },
+  {
+    "t_start": 1920.169,
+    "t_end": 1923.769,
+    "text": "think and zero"
+  },
+  {
+    "t_start": 1923.769,
+    "t_end": 1927.13,
+    "text": "when I go up to the top we'll do the crucial new one which I've just called M"
+  },
+  {
+    "t_start": 1927.13,
+    "t_end": 1928.45,
+    "text": "crucial new one which I've just called M by the way"
+  },
+  {
+    "t_start": 1928.45,
+    "t_end": 1932.59,
+    "text": "in there but I can't be bothered to go and find what they're called so I'm just"
+  },
+  {
+    "t_start": 1932.59,
+    "t_end": 1933.909,
+    "text": "and find what they're called so I'm just going to type them in and check that"
+  },
+  {
+    "t_start": 1933.909,
+    "t_end": 1935.889,
+    "text": "going to type them in and check that they vary correctly so I still want zero"
+  },
+  {
+    "t_start": 1935.889,
+    "t_end": 1938.47,
+    "text": "they vary correctly so I still want zero on the X"
+  },
+  {
+    "t_start": 1938.47,
+    "t_end": 1944.47,
+    "text": "I still want L minus no just l Zed needs to be the full length minus W"
+  },
+  {
+    "t_start": 1944.47,
+    "t_end": 1946.57,
+    "text": "Zed needs to be the full length minus W so L minus w"
+  },
+  {
+    "t_start": 1946.57,
+    "t_end": 1950.529,
+    "text": "finally let's just call it m because I've just defined that"
+  },
+  {
+    "t_start": 1950.529,
+    "t_end": 1954.73,
+    "text": "I've just defined that right now it's the wrong color"
+  },
+  {
+    "t_start": 1956.23,
+    "t_end": 1957.669,
+    "text": "but that's looking good I don't want the segments to be visible so let's just"
+  },
+  {
+    "t_start": 1957.669,
+    "t_end": 1960.669,
+    "text": "segments to be visible so let's just turn those off"
+  },
+  {
+    "t_start": 1962.47,
+    "t_end": 1963.73,
+    "text": "and let's make M invisible as well I don't really need the m to be seen"
+  },
+  {
+    "t_start": 1963.73,
+    "t_end": 1965.47,
+    "text": "don't really need the m to be seen that's looking promising I'd like it to"
+  },
+  {
+    "t_start": 1965.47,
+    "t_end": 1967.45,
+    "text": "that's looking promising I'd like it to be opaque or let's call this off q1"
+  },
+  {
+    "t_start": 1967.45,
+    "t_end": 1969.37,
+    "text": "be opaque or let's call this off q1 that's confusing but"
+  },
+  {
+    "t_start": 1969.37,
+    "t_end": 1975.669,
+    "text": "I made these dark blue no that's already looking like the"
+  },
+  {
+    "t_start": 1975.669,
+    "t_end": 1979.389,
+    "text": "no that's already looking like the illusion I feel like that's a momentous"
+  },
+  {
+    "t_start": 1979.389,
+    "t_end": 1985.51,
+    "text": "every moment is momentous in some way but like so that's only working because"
+  },
+  {
+    "t_start": 1985.51,
+    "t_end": 1988.45,
+    "text": "but like so that's only working because I've just truncated or made that corner"
+  },
+  {
+    "t_start": 1988.45,
+    "t_end": 1991.51,
+    "text": "a trapezium shape so it just lines up and it's nice to see that slotting into"
+  },
+  {
+    "t_start": 1991.51,
+    "t_end": 1993.25,
+    "text": "and it's nice to see that slotting into place there"
+  },
+  {
+    "t_start": 1993.25,
+    "t_end": 1997.63,
+    "text": "place there actually it's really nice to see this"
+  },
+  {
+    "t_start": 1999.13,
+    "t_end": 2000.87,
+    "text": "and who knows maybe I started the video with this or not a bit like what is this"
+  },
+  {
+    "t_start": 2000.87,
+    "t_end": 2002.669,
+    "text": "with this or not a bit like what is this thing it's just three bars in three"
+  },
+  {
+    "t_start": 2002.669,
+    "t_end": 2005.549,
+    "text": "dimensions but if you look at it from exactly the correct angle actually it's"
+  },
+  {
+    "t_start": 2005.549,
+    "t_end": 2007.59,
+    "text": "exactly the correct angle actually it's the impossible tri-bar the Penrose"
+  },
+  {
+    "t_start": 2007.59,
+    "t_end": 2012.75,
+    "text": "the impossible tri-bar the Penrose triangle uh beloved by all of us and M.C"
+  },
+  {
+    "t_start": 2012.75,
+    "t_end": 2013.409,
+    "text": "Escher in particular nice Okay um"
+  },
+  {
+    "t_start": 2013.409,
+    "t_end": 2018.63,
+    "text": "I'll just pause and think about how to do them but things like I'd like to sort"
+  },
+  {
+    "t_start": 2018.63,
+    "t_end": 2020.13,
+    "text": "do them but things like I'd like to sort the lighting out so maybe I can control"
+  },
+  {
+    "t_start": 2020.13,
+    "t_end": 2021.75,
+    "text": "the lighting out so maybe I can control how the sides look without JoJo is"
+  },
+  {
+    "t_start": 2021.75,
+    "t_end": 2025.409,
+    "text": "how the sides look without JoJo is trying to do the lighting and I'd love"
+  },
+  {
+    "t_start": 2025.409,
+    "t_end": 2027.93,
+    "text": "in a way that looks like it's actually the tri-bar rotating because that'll"
+  },
+  {
+    "t_start": 2027.93,
+    "t_end": 2030.149,
+    "text": "the tri-bar rotating because that'll give the illusion of a three-dimensional"
+  },
+  {
+    "t_start": 2030.149,
+    "t_end": 2036.029,
+    "text": "spinning even movement helps the three-dimensional illusion stay alive"
+  },
+  {
+    "t_start": 2036.029,
+    "t_end": 2039.149,
+    "text": "three-dimensional illusion stay alive so I'll think about that"
+  },
+  {
+    "t_start": 2041.31,
+    "t_end": 2043.289,
+    "text": "let's do the spinning first and the bit that's worrying me here is that I've got"
+  },
+  {
+    "t_start": 2043.289,
+    "t_end": 2044.61,
+    "text": "that's worrying me here is that I've got to get the right Axis to rotate this"
+  },
+  {
+    "t_start": 2044.61,
+    "t_end": 2049.05,
+    "text": "to get the right Axis to rotate this around so I want to leave the angle with"
+  },
+  {
+    "t_start": 2049.05,
+    "t_end": 2052.649,
+    "text": "which is in the sort of 45 degree down Direction that's what it looks like to"
+  },
+  {
+    "t_start": 2052.649,
+    "t_end": 2054.21,
+    "text": "Direction that's what it looks like to me I have no idea how these pointing"
+  },
+  {
+    "t_start": 2054.21,
+    "t_end": 2055.829,
+    "text": "me I have no idea how these pointing things this is hard enough for me to"
+  },
+  {
+    "t_start": 2055.829,
+    "t_end": 2056.97,
+    "text": "things this is hard enough for me to think about let's think about how you're"
+  },
+  {
+    "t_start": 2056.97,
+    "t_end": 2058.71,
+    "text": "think about let's think about how you're seeing it on the camera"
+  },
+  {
+    "t_start": 2058.71,
+    "t_end": 2060.45,
+    "text": "seeing it on the camera um but"
+  },
+  {
+    "t_start": 2060.45,
+    "t_end": 2064.109,
+    "text": "so I need the axis that sort of runs down through that Center shape I'm I'm"
+  },
+  {
+    "t_start": 2064.109,
+    "t_end": 2067.23,
+    "text": "down through that Center shape I'm I'm really not clear what that even that"
+  },
+  {
+    "t_start": 2067.23,
+    "t_end": 2069.75,
+    "text": "point it will go through I think I'm clear which direction it'll go through"
+  },
+  {
+    "t_start": 2069.75,
+    "t_end": 2071.01,
+    "text": "clear which direction it'll go through it's the direction I'm viewing it"
+  },
+  {
+    "t_start": 2071.01,
+    "t_end": 2075.149,
+    "text": "it's the direction I'm viewing it through but I need to figure out what"
+  },
+  {
+    "t_start": 2079.23,
+    "t_end": 2081.57,
+    "text": "yeah what the axis point goes through so let's make it just a random Point uh"
+  },
+  {
+    "t_start": 2081.57,
+    "t_end": 2083.19,
+    "text": "let's make it just a random Point uh this is just on the plane I could I"
+  },
+  {
+    "t_start": 2083.19,
+    "t_end": 2087.57,
+    "text": "could drag it into shape like I mean if I put it in the right place I can get an"
+  },
+  {
+    "t_start": 2087.57,
+    "t_end": 2091.95,
+    "text": "estimate for where like it should be somewhere around there where is n"
+  },
+  {
+    "t_start": 2095.55,
+    "t_end": 2097.65,
+    "text": "negative 3.97 3.23 I don't know what logic that is so it's minus four three"
+  },
+  {
+    "t_start": 2097.65,
+    "t_end": 2101.43,
+    "text": "logic that is so it's minus four three is that is that correct"
+  },
+  {
+    "t_start": 2104.849,
+    "t_end": 2109.109,
+    "text": "but that won't move when I change l so I need to build it based on l"
+  },
+  {
+    "t_start": 2114.93,
+    "t_end": 2116.19,
+    "text": "even if it looks correct so let me figure out there's got to be some"
+  },
+  {
+    "t_start": 2116.19,
+    "t_end": 2118.53,
+    "text": "me figure out there's got to be some easy way even without calculating"
+  },
+  {
+    "t_start": 2118.53,
+    "t_end": 2123.569,
+    "text": "easy way even without calculating that does look like it's correct for"
+  },
+  {
+    "t_start": 2126.27,
+    "t_end": 2130.65,
+    "text": "why would that be I feel like there's a Pythagorean triple four three going on"
+  },
+  {
+    "t_start": 2130.65,
+    "t_end": 2137.73,
+    "text": "Pythagorean triple four three going on it's five from there"
+  },
+  {
+    "t_start": 2139.53,
+    "t_end": 2141.63,
+    "text": "okay I could go and do some maths but doing this live is probably going to"
+  },
+  {
+    "t_start": 2141.63,
+    "t_end": 2145.77,
+    "text": "doing this live is probably going to take longer for me I want to feel I feel"
+  },
+  {
+    "t_start": 2145.77,
+    "t_end": 2152.01,
+    "text": "geometric way of engineering A Center Point that's easier for me just to do so"
+  },
+  {
+    "t_start": 2152.01,
+    "t_end": 2153.569,
+    "text": "first of all it's the center of this apparent equilateral triangle here"
+  },
+  {
+    "t_start": 2153.569,
+    "t_end": 2158.49,
+    "text": "that's only apparent because it's not a triangle it's a bit earlier shape made"
+  },
+  {
+    "t_start": 2158.49,
+    "t_end": 2163.349,
+    "text": "so that I can't sort of like draw that triangle and find its Center or I could"
+  },
+  {
+    "t_start": 2163.349,
+    "t_end": 2167.069,
+    "text": "triangle and find its Center or I could well"
+  },
+  {
+    "t_start": 2168.63,
+    "t_end": 2171.03,
+    "text": "but I have to Define that point there which doesn't yet exist"
+  },
+  {
+    "t_start": 2171.03,
+    "t_end": 2172.53,
+    "text": "which doesn't yet exist from that point there"
+  },
+  {
+    "t_start": 2172.53,
+    "t_end": 2177.329,
+    "text": "so is there another triangle I can find the center of it I feel like so"
+  },
+  {
+    "t_start": 2177.329,
+    "t_end": 2179.91,
+    "text": "um maybe this is easier if I make the width bigger"
+  },
+  {
+    "t_start": 2179.91,
+    "t_end": 2186.51,
+    "text": "a bit bigger anyway no no no I didn't double click that I did but I didn't"
+  },
+  {
+    "t_start": 2188.55,
+    "t_end": 2192.21,
+    "text": "the whole shape has got actually is like a a corn has been chopped off"
+  },
+  {
+    "t_start": 2192.21,
+    "t_end": 2195.329,
+    "text": "um actually if I make this back to one I think it might be easier to see so"
+  },
+  {
+    "t_start": 2195.329,
+    "t_end": 2197.37,
+    "text": "think it might be easier to see so imagine adding a tiny legal actual"
+  },
+  {
+    "t_start": 2197.37,
+    "t_end": 2198.51,
+    "text": "imagine adding a tiny legal actual triangle on each corner and then we've"
+  },
+  {
+    "t_start": 2198.51,
+    "t_end": 2200.609,
+    "text": "triangle on each corner and then we've got actually a full equal actual"
+  },
+  {
+    "t_start": 2200.609,
+    "t_end": 2201.99,
+    "text": "got actually a full equal actual triangle here and I wonder if I draw"
+  },
+  {
+    "t_start": 2201.99,
+    "t_end": 2204.329,
+    "text": "triangle here and I wonder if I draw that"
+  },
+  {
+    "t_start": 2204.329,
+    "t_end": 2209.01,
+    "text": "from this point of view it will be looked like a right angle triangle but"
+  },
+  {
+    "t_start": 2209.01,
+    "t_end": 2210.93,
+    "text": "looked like a right angle triangle but the center of that triangle won't be"
+  },
+  {
+    "t_start": 2210.93,
+    "t_end": 2215.97,
+    "text": "the center of that triangle won't be there I'm pretty sure it won't be there"
+  },
+  {
+    "t_start": 2217.349,
+    "t_end": 2220.89,
+    "text": "depends where I draw the tribe wasn't it oh yeah it's going to be"
+  },
+  {
+    "t_start": 2222.329,
+    "t_end": 2226.23,
+    "text": "I'm not even sure where the triangle is let me try and explain what I mean I'm"
+  },
+  {
+    "t_start": 2226.23,
+    "t_end": 2228.69,
+    "text": "going to draw a shape which goes from that point to that point I'm into"
+  },
+  {
+    "t_start": 2228.69,
+    "t_end": 2232.95,
+    "text": "that point to that point I'm into negative numbers there which I think is"
+  },
+  {
+    "t_start": 2232.95,
+    "t_end": 2236.49,
+    "text": "the point up there yeah so it's that or maybe it is going to be where I thought"
+  },
+  {
+    "t_start": 2236.49,
+    "t_end": 2246.21,
+    "text": "maybe it is going to be where I thought it was so let's just zoom out a bit and"
+  },
+  {
+    "t_start": 2248.79,
+    "t_end": 2250.23,
+    "text": "I need the 11 back I think it's wait is it drawing a triangle for me"
+  },
+  {
+    "t_start": 2250.23,
+    "t_end": 2255.21,
+    "text": "wait is it drawing a triangle for me already what let's try that again"
+  },
+  {
+    "t_start": 2256.89,
+    "t_end": 2261.03,
+    "text": "there there"
+  },
+  {
+    "t_start": 2263.609,
+    "t_end": 2264.81,
+    "text": "will snap to points there and let's go back to that one"
+  },
+  {
+    "t_start": 2264.81,
+    "t_end": 2269.609,
+    "text": "so if I view that from the correct angle that's not the triangle I was going for"
+  },
+  {
+    "t_start": 2269.609,
+    "t_end": 2272.43,
+    "text": "that's not the triangle I was going for I need to go out another one there but"
+  },
+  {
+    "t_start": 2272.43,
+    "t_end": 2274.109,
+    "text": "luckily I should just be able to drag queue"
+  },
+  {
+    "t_start": 2274.109,
+    "t_end": 2281.069,
+    "text": "so that is a right angle triangle because the way I've drawn this it has"
+  },
+  {
+    "t_start": 2281.069,
+    "t_end": 2282.089,
+    "text": "because the way I've drawn this it has to sort of encroach into negative"
+  },
+  {
+    "t_start": 2282.089,
+    "t_end": 2283.23,
+    "text": "to sort of encroach into negative territory and that might be explaining"
+  },
+  {
+    "t_start": 2283.23,
+    "t_end": 2284.55,
+    "text": "territory and that might be explaining why this is a"
+  },
+  {
+    "t_start": 2284.55,
+    "t_end": 2289.77,
+    "text": "center I feel like it lucked out but that's just a I want to engineer that"
+  },
+  {
+    "t_start": 2289.77,
+    "t_end": 2292.89,
+    "text": "that's just a I want to engineer that point"
+  },
+  {
+    "t_start": 2298.29,
+    "t_end": 2299.49,
+    "text": "that is it that is also an equilateral triangle when viewed from this angle on"
+  },
+  {
+    "t_start": 2299.49,
+    "t_end": 2300.63,
+    "text": "triangle when viewed from this angle on the center of it I think it's the center"
+  },
+  {
+    "t_start": 2300.63,
+    "t_end": 2303.45,
+    "text": "the center of it I think it's the center of what I need the whole rotation to go"
+  },
+  {
+    "t_start": 2303.45,
+    "t_end": 2312.15,
+    "text": "still confused about this but we're just going to roll with it"
+  },
+  {
+    "t_start": 2313.77,
+    "t_end": 2316.349,
+    "text": "I think you can just find the center is there a center command"
+  },
+  {
+    "t_start": 2316.349,
+    "t_end": 2319.53,
+    "text": "there a center command A quadric Center Point"
+  },
+  {
+    "t_start": 2319.53,
+    "t_end": 2323.37,
+    "text": "there is uh there's a midpoint or center button here I don't know what let's find"
+  },
+  {
+    "t_start": 2323.37,
+    "t_end": 2326.67,
+    "text": "button here I don't know what let's find out if I just click on that polygon"
+  },
+  {
+    "t_start": 2329.25,
+    "t_end": 2333.75,
+    "text": "doing that there we go it's made it end as well and it is negative four three"
+  },
+  {
+    "t_start": 2333.75,
+    "t_end": 2338.25,
+    "text": "but it will change as I move this around Australia and it's defined it's called"
+  },
+  {
+    "t_start": 2338.25,
+    "t_end": 2341.25,
+    "text": "Australia and it's defined it's called or centroid of course it is there's a"
+  },
+  {
+    "t_start": 2341.25,
+    "t_end": 2345.69,
+    "text": "forgotten about and I need to make p o and Q which Define this triangle depend"
+  },
+  {
+    "t_start": 2345.69,
+    "t_end": 2349.109,
+    "text": "and Q which Define this triangle depend on not w"
+  },
+  {
+    "t_start": 2349.109,
+    "t_end": 2352.65,
+    "text": "on not w but on l"
+  },
+  {
+    "t_start": 2354.21,
+    "t_end": 2355.53,
+    "text": "okay and the way I've built it is that P should stay where it is so right let's"
+  },
+  {
+    "t_start": 2355.53,
+    "t_end": 2357.329,
+    "text": "should stay where it is so right let's make Q"
+  },
+  {
+    "t_start": 2357.329,
+    "t_end": 2361.609,
+    "text": "make Q B"
+  },
+  {
+    "t_start": 2368.13,
+    "t_end": 2375.27,
+    "text": "l plus two no"
+  },
+  {
+    "t_start": 2377.73,
+    "t_end": 2386.25,
+    "text": "no don't know what just happened"
+  },
+  {
+    "t_start": 2388.589,
+    "t_end": 2392.91,
+    "text": "all right I defined it strangely let's let's undo that"
+  },
+  {
+    "t_start": 2406.71,
+    "t_end": 2408.349,
+    "text": "L plus two I'm not sure if that's correct and the y direction it is"
+  },
+  {
+    "t_start": 2408.349,
+    "t_end": 2413.91,
+    "text": "correct and the y direction it is negative one and zero on the height"
+  },
+  {
+    "t_start": 2413.91,
+    "t_end": 2419.51,
+    "text": "negative one and zero on the height not what I expected I've got to go the"
+  },
+  {
+    "t_start": 2434.73,
+    "t_end": 2438.15,
+    "text": "weird I'm very puzzled about that but I think Q is in the right place if I"
+  },
+  {
+    "t_start": 2438.15,
+    "t_end": 2441.51,
+    "text": "I'm going to change out as well before I check whether this is working so"
+  },
+  {
+    "t_start": 2441.51,
+    "t_end": 2444.45,
+    "text": "check whether this is working so well let's make"
+  },
+  {
+    "t_start": 2444.45,
+    "t_end": 2448.109,
+    "text": "well let's make this be uh"
+  },
+  {
+    "t_start": 2448.109,
+    "t_end": 2452.67,
+    "text": "the menu here so it's not a point on the wireless I just want it just to be a"
+  },
+  {
+    "t_start": 2452.67,
+    "t_end": 2455.67,
+    "text": "wireless I just want it just to be a point which has x coordinate zero y"
+  },
+  {
+    "t_start": 2455.67,
+    "t_end": 2461.97,
+    "text": "point which has x coordinate zero y coordinate"
+  },
+  {
+    "t_start": 2465.21,
+    "t_end": 2470.43,
+    "text": "I feel like I might have to have W in this and we're NZ zero"
+  },
+  {
+    "t_start": 2472.23,
+    "t_end": 2476.67,
+    "text": "is that working I think that's working"
+  },
+  {
+    "t_start": 2478.29,
+    "t_end": 2481.65,
+    "text": "no it's not I see the negative one depends on the"
+  },
+  {
+    "t_start": 2481.65,
+    "t_end": 2488.25,
+    "text": "right so all of these depend on the width right let's sort this out then so"
+  },
+  {
+    "t_start": 2489.69,
+    "t_end": 2491.609,
+    "text": "I feel like this is an inefficient way to proceed but hey live builds are like"
+  },
+  {
+    "t_start": 2491.609,
+    "t_end": 2493.65,
+    "text": "to proceed but hey live builds are like that so the x coordinate is zero the y"
+  },
+  {
+    "t_start": 2493.65,
+    "t_end": 2495.81,
+    "text": "that so the x coordinate is zero the y coordinate is negative"
+  },
+  {
+    "t_start": 2495.81,
+    "t_end": 2497.13,
+    "text": "coordinate is negative w"
+  },
+  {
+    "t_start": 2497.13,
+    "t_end": 2500.49,
+    "text": "Z zero I"
+  },
+  {
+    "t_start": 2500.49,
+    "t_end": 2511.47,
+    "text": "I don't get why it keeps changing w"
+  },
+  {
+    "t_start": 2513.27,
+    "t_end": 2519.329,
+    "text": "uh strange Q see what happens uh Point Q is defined to be L let's do it"
+  },
+  {
+    "t_start": 2519.329,
+    "t_end": 2523.53,
+    "text": "is defined to be L let's do it 2W this time and that's going to be"
+  },
+  {
+    "t_start": 2523.53,
+    "t_end": 2527.73,
+    "text": "looking better already and O needs adjusting instead of plus one it should"
+  },
+  {
+    "t_start": 2527.73,
+    "t_end": 2528.93,
+    "text": "adjusting instead of plus one it should be plus W"
+  },
+  {
+    "t_start": 2528.93,
+    "t_end": 2533.37,
+    "text": "why did that change don't be weird that I think is defining always the"
+  },
+  {
+    "t_start": 2533.37,
+    "t_end": 2534.99,
+    "text": "that I think is defining always the right angle triangle that when you view"
+  },
+  {
+    "t_start": 2534.99,
+    "t_end": 2536.67,
+    "text": "right angle triangle that when you view it from the correct angle looks like the"
+  },
+  {
+    "t_start": 2536.67,
+    "t_end": 2539.13,
+    "text": "it from the correct angle looks like the bounding equilateral triangle let's set"
+  },
+  {
+    "t_start": 2539.13,
+    "t_end": 2541.67,
+    "text": "bounding equilateral triangle let's set this back I don't know what I don't want"
+  },
+  {
+    "t_start": 2541.67,
+    "t_end": 2547.53,
+    "text": "polygon this triangle to appear on the graphics normal View"
+  },
+  {
+    "t_start": 2548.79,
+    "t_end": 2550.23,
+    "text": "in fact I don't want to appear anywhere eventually"
+  },
+  {
+    "t_start": 2550.23,
+    "t_end": 2551.43,
+    "text": "eventually ugh"
+  },
+  {
+    "t_start": 2551.43,
+    "t_end": 2557.31,
+    "text": "title the segments show them all hide them all"
+  },
+  {
+    "t_start": 2558.75,
+    "t_end": 2561.51,
+    "text": "think it's the center of there so anyway let's get the axis that we could rotate"
+  },
+  {
+    "t_start": 2561.51,
+    "t_end": 2562.29,
+    "text": "let's get the axis that we could rotate around"
+  },
+  {
+    "t_start": 2562.29,
+    "t_end": 2562.95,
+    "text": "around um"
+  },
+  {
+    "t_start": 2562.95,
+    "t_end": 2565.95,
+    "text": "um line"
+  },
+  {
+    "t_start": 2567.93,
+    "t_end": 2573.75,
+    "text": "through n with a direction Vector of"
+  },
+  {
+    "t_start": 2576.81,
+    "t_end": 2580.29,
+    "text": "one that's a good sign that I can't see it because it should be right into the"
+  },
+  {
+    "t_start": 2580.29,
+    "t_end": 2582.15,
+    "text": "it because it should be right into the camera"
+  },
+  {
+    "t_start": 2582.15,
+    "t_end": 2586.23,
+    "text": "that I think if we rotate everything around that"
+  },
+  {
+    "t_start": 2586.23,
+    "t_end": 2593.609,
+    "text": "we'll keep the illusion alive okay I'm gonna hide p q and O"
+  },
+  {
+    "t_start": 2594.87,
+    "t_end": 2599.73,
+    "text": "and the triangle I don't want them to speed I'll leave the axis there for now"
+  },
+  {
+    "t_start": 2599.73,
+    "t_end": 2601.29,
+    "text": "speed I'll leave the axis there for now let's get it back to the right angle the"
+  },
+  {
+    "t_start": 2601.29,
+    "t_end": 2602.79,
+    "text": "let's get it back to the right angle the axis should look like disappears that's"
+  },
+  {
+    "t_start": 2602.79,
+    "t_end": 2603.99,
+    "text": "axis should look like disappears that's nice"
+  },
+  {
+    "t_start": 2603.99,
+    "t_end": 2609.329,
+    "text": "and now I hope if I rotate these things up here"
+  },
+  {
+    "t_start": 2611.069,
+    "t_end": 2613.05,
+    "text": "they should become visible let's I don't know if this is going to work let's try"
+  },
+  {
+    "t_start": 2613.05,
+    "t_end": 2618.69,
+    "text": "it rotate let's just do X faces for now"
+  },
+  {
+    "t_start": 2622.109,
+    "t_end": 2624.63,
+    "text": "uh about oh I need a slider for an angle let's call it Theta see if it offers me"
+  },
+  {
+    "t_start": 2624.63,
+    "t_end": 2626.55,
+    "text": "let's call it Theta see if it offers me a slide of theta and I think I need the"
+  },
+  {
+    "t_start": 2626.55,
+    "t_end": 2631.29,
+    "text": "axis which is going to be the line I don't know if that's the order it wants"
+  },
+  {
+    "t_start": 2631.29,
+    "t_end": 2633.39,
+    "text": "don't know if that's the order it wants it"
+  },
+  {
+    "t_start": 2635.55,
+    "t_end": 2643.53,
+    "text": "the Theta going on let's use it just what haven't I used Alpha let's try that"
+  },
+  {
+    "t_start": 2645.809,
+    "t_end": 2653.67,
+    "text": "create a slide forever yes please this is looking promising"
+  },
+  {
+    "t_start": 2655.95,
+    "t_end": 2659.67,
+    "text": "right I need to update the X faces to not use the X faces but actually use"
+  },
+  {
+    "t_start": 2659.67,
+    "t_end": 2661.53,
+    "text": "that sort of truncated the trapezium version so let's change X basis"
+  },
+  {
+    "t_start": 2661.53,
+    "t_end": 2663.03,
+    "text": "version so let's change X basis definition it should update everything"
+  },
+  {
+    "t_start": 2663.03,
+    "t_end": 2664.589,
+    "text": "definition it should update everything so"
+  },
+  {
+    "t_start": 2664.589,
+    "t_end": 2668.43,
+    "text": "what did that new shade get called q1 let's instead of face"
+  },
+  {
+    "t_start": 2668.43,
+    "t_end": 2674.93,
+    "text": "let's instead of face five it was q1"
+  },
+  {
+    "t_start": 2678.63,
+    "t_end": 2680.19,
+    "text": "why does w keep changing I am irritated about that"
+  },
+  {
+    "t_start": 2680.19,
+    "t_end": 2684.089,
+    "text": "about that but I do think this is correct"
+  },
+  {
+    "t_start": 2690.51,
+    "t_end": 2693.63,
+    "text": "I'm going to regret this because I can't remember which is which in a minute but"
+  },
+  {
+    "t_start": 2693.63,
+    "t_end": 2696.089,
+    "text": "remember which is which in a minute but I just get the rotating ones so let's"
+  },
+  {
+    "t_start": 2696.089,
+    "t_end": 2697.29,
+    "text": "I just get the rotating ones so let's color these something nice maybe I'll"
+  },
+  {
+    "t_start": 2697.29,
+    "t_end": 2703.109,
+    "text": "color these something nice maybe I'll change my color scheme now the rotated X"
+  },
+  {
+    "t_start": 2703.109,
+    "t_end": 2706.71,
+    "text": "uh is gonna be kind of I'm going to stick with dark blue maybe I'll try and"
+  },
+  {
+    "t_start": 2706.71,
+    "t_end": 2707.849,
+    "text": "stick with dark blue maybe I'll try and get some other blues and we'll make it"
+  },
+  {
+    "t_start": 2707.849,
+    "t_end": 2709.589,
+    "text": "get some other blues and we'll make it opaque and that is"
+  },
+  {
+    "t_start": 2709.589,
+    "t_end": 2711.51,
+    "text": "opaque and that is promising"
+  },
+  {
+    "t_start": 2711.51,
+    "t_end": 2716.609,
+    "text": "let's just do the other ones rotate the Y faces"
+  },
+  {
+    "t_start": 2716.609,
+    "t_end": 2718.95,
+    "text": "the Y faces by Alpha"
+  },
+  {
+    "t_start": 2718.95,
+    "t_end": 2722.49,
+    "text": "by Alpha about I"
+  },
+  {
+    "t_start": 2735.15,
+    "t_end": 2741.03,
+    "text": "this person will make them opaque and maybe I'll get a proper color choice"
+  },
+  {
+    "t_start": 2742.29,
+    "t_end": 2743.609,
+    "text": "this is where I need to think about how color really works okay so I've gone"
+  },
+  {
+    "t_start": 2743.609,
+    "t_end": 2745.17,
+    "text": "color really works okay so I've gone with blue but I think that's what I used"
+  },
+  {
+    "t_start": 2745.17,
+    "t_end": 2749.609,
+    "text": "with blue but I think that's what I used with it what's that that's violet uh"
+  },
+  {
+    "t_start": 2749.609,
+    "t_end": 2752.849,
+    "text": "RGB if I just reduce the amount of blue that will make it darker if I increase"
+  },
+  {
+    "t_start": 2752.849,
+    "t_end": 2755.01,
+    "text": "that will make it darker if I increase the others so anyway let's make a new"
+  },
+  {
+    "t_start": 2755.01,
+    "t_end": 2756.63,
+    "text": "the others so anyway let's make a new color this is where igb values come into"
+  },
+  {
+    "t_start": 2756.63,
+    "t_end": 2758.309,
+    "text": "color this is where igb values come into their own let's just make them"
+  },
+  {
+    "t_start": 2758.309,
+    "t_end": 2764.13,
+    "text": "their own let's just make them 20 and 20. I don't know how this works"
+  },
+  {
+    "t_start": 2767.37,
+    "t_end": 2776.73,
+    "text": "that's a little bit lighter is it"
+  },
+  {
+    "t_start": 2778.17,
+    "t_end": 2781.23,
+    "text": "so they change color when you select them which is they're confusing"
+  },
+  {
+    "t_start": 2786.45,
+    "t_end": 2794.19,
+    "text": "let's try again if I jump that up to I don't know 100"
+  },
+  {
+    "t_start": 2795.63,
+    "t_end": 2799.17,
+    "text": "maybe I should be using a different color uh system"
+  },
+  {
+    "t_start": 2799.17,
+    "t_end": 2800.97,
+    "text": "color uh system foreign"
+  },
+  {
+    "t_start": 2800.97,
+    "t_end": 2805.17,
+    "text": "foreign that looks better"
+  },
+  {
+    "t_start": 2806.67,
+    "t_end": 2807.93,
+    "text": "I can't tell if the selection is doing something funny if I select it it's"
+  },
+  {
+    "t_start": 2807.93,
+    "t_end": 2810.15,
+    "text": "something funny if I select it it's going to change"
+  },
+  {
+    "t_start": 2810.15,
+    "t_end": 2812.73,
+    "text": "going to change ah dead confusing"
+  },
+  {
+    "t_start": 2812.73,
+    "t_end": 2815.01,
+    "text": "ah dead confusing stop selecting it"
+  },
+  {
+    "t_start": 2815.01,
+    "t_end": 2821.43,
+    "text": "if everything is oh no okay things are bugging out uh today and I'm annoyed"
+  },
+  {
+    "t_start": 2821.43,
+    "t_end": 2822.63,
+    "text": "bugging out uh today and I'm annoyed about it but we're just gonna roll with"
+  },
+  {
+    "t_start": 2822.63,
+    "t_end": 2824.25,
+    "text": "about it but we're just gonna roll with it because it's almost working"
+  },
+  {
+    "t_start": 2824.25,
+    "t_end": 2829.77,
+    "text": "it because it's almost working everything else let's do the last face"
+  },
+  {
+    "t_start": 2829.77,
+    "t_end": 2832.95,
+    "text": "set of faces rotate Z faces by Alpha around I"
+  },
+  {
+    "t_start": 2832.95,
+    "t_end": 2836.849,
+    "text": "shouldn't have used I for a line it's not the complex number I"
+  },
+  {
+    "t_start": 2836.849,
+    "t_end": 2840.69,
+    "text": "and this has to be opaque to avoid that glitching out but that's all right we"
+  },
+  {
+    "t_start": 2840.69,
+    "t_end": 2842.37,
+    "text": "glitching out but that's all right we can make that okay again and maybe I'll"
+  },
+  {
+    "t_start": 2842.37,
+    "t_end": 2843.69,
+    "text": "can make that okay again and maybe I'll just choose a standard color the cyan"
+  },
+  {
+    "t_start": 2843.69,
+    "t_end": 2846.809,
+    "text": "just choose a standard color the cyan looks quite good for that"
+  },
+  {
+    "t_start": 2846.809,
+    "t_end": 2848.849,
+    "text": "looks quite good for that there"
+  },
+  {
+    "t_start": 2848.849,
+    "t_end": 2854.25,
+    "text": "nice does it all still work as long as some I should not let W go"
+  },
+  {
+    "t_start": 2854.25,
+    "t_end": 2855.63,
+    "text": "as long as some I should not let W go beyond oh"
+  },
+  {
+    "t_start": 2855.63,
+    "t_end": 2858.45,
+    "text": "what amount of the length is that I need to have a think about that I should"
+  },
+  {
+    "t_start": 2858.45,
+    "t_end": 2862.349,
+    "text": "limit that I don't want it to go to zero either L shouldn't go down to below W"
+  },
+  {
+    "t_start": 2862.349,
+    "t_end": 2865.29,
+    "text": "either L shouldn't go down to below W because it'll mess it up as well"
+  },
+  {
+    "t_start": 2865.29,
+    "t_end": 2867.45,
+    "text": "because it'll mess it up as well okay let's go back to our standard one"
+  },
+  {
+    "t_start": 2867.45,
+    "t_end": 2870.39,
+    "text": "okay let's go back to our standard one and ten that's pretty good and"
+  },
+  {
+    "t_start": 2870.39,
+    "t_end": 2877.77,
+    "text": "and ten that's pretty good and it's oh let's get the angle sorted and"
+  },
+  {
+    "t_start": 2880.109,
+    "t_end": 2883.349,
+    "text": "because this object doesn't exist in 3D it looks like it does I'm going to turn"
+  },
+  {
+    "t_start": 2883.349,
+    "t_end": 2885.69,
+    "text": "it looks like it does I'm going to turn the the main Graphics Plane off here and"
+  },
+  {
+    "t_start": 2885.69,
+    "t_end": 2887.55,
+    "text": "the the main Graphics Plane off here and maybe I'll just make alpha increase"
+  },
+  {
+    "t_start": 2887.55,
+    "t_end": 2892.109,
+    "text": "maybe I'll just make alpha increase instead of oscillate"
+  },
+  {
+    "t_start": 2893.67,
+    "t_end": 2897.39,
+    "text": "at it from any other angle you can see it's just this framework spinning around"
+  },
+  {
+    "t_start": 2897.39,
+    "t_end": 2901.89,
+    "text": "it's just this framework spinning around a particular axis I like that it's a"
+  },
+  {
+    "t_start": 2901.89,
+    "t_end": 2904.05,
+    "text": "pleasing it's pleasing to me if no one else watching it likes it"
+  },
+  {
+    "t_start": 2904.05,
+    "t_end": 2905.67,
+    "text": "else watching it likes it that's fine"
+  },
+  {
+    "t_start": 2905.67,
+    "t_end": 2911.849,
+    "text": "the axes here as well like if it was in front of the axis and then behind the"
+  },
+  {
+    "t_start": 2911.849,
+    "t_end": 2915.87,
+    "text": "front of the axis and then behind the X's is not clear which bits go behind"
+  },
+  {
+    "t_start": 2915.87,
+    "t_end": 2919.53,
+    "text": "maybe it spoils it I don't know but if you turn them off"
+  },
+  {
+    "t_start": 2920.849,
+    "t_end": 2921.99,
+    "text": "I feel it's just like a piece of Graphics although if you move it around"
+  },
+  {
+    "t_start": 2921.99,
+    "t_end": 2923.73,
+    "text": "Graphics although if you move it around then suddenly it's not uh it's quite"
+  },
+  {
+    "t_start": 2923.73,
+    "t_end": 2924.69,
+    "text": "then suddenly it's not uh it's quite nice too"
+  },
+  {
+    "t_start": 2924.69,
+    "t_end": 2930.63,
+    "text": "know I quite like it with it on for now but having the XY plane there it sort of"
+  },
+  {
+    "t_start": 2930.63,
+    "t_end": 2933.03,
+    "text": "but having the XY plane there it sort of cuts it off so that's annoying"
+  },
+  {
+    "t_start": 2933.03,
+    "t_end": 2936.809,
+    "text": "and like this what would be even better is if the shading changes if the light"
+  },
+  {
+    "t_start": 2936.809,
+    "t_end": 2938.67,
+    "text": "is if the shading changes if the light source is somewhere constant so let's"
+  },
+  {
+    "t_start": 2938.67,
+    "t_end": 2941.49,
+    "text": "have a think before I get too excited about what I just made Let's carry on"
+  },
+  {
+    "t_start": 2941.49,
+    "t_end": 2943.65,
+    "text": "about what I just made Let's carry on and try and solve the lighting next"
+  },
+  {
+    "t_start": 2943.65,
+    "t_end": 2948.21,
+    "text": "and try and solve the lighting next okay for the lighting I am I've been"
+  },
+  {
+    "t_start": 2948.21,
+    "t_end": 2949.53,
+    "text": "thinking of in my mind something I remember being told by a friend and"
+  },
+  {
+    "t_start": 2949.53,
+    "t_end": 2950.309,
+    "text": "remember being told by a friend and colleague of mine called Richard"
+  },
+  {
+    "t_start": 2950.309,
+    "t_end": 2953.49,
+    "text": "colleague of mine called Richard lisserman who works for Mei"
+  },
+  {
+    "t_start": 2953.49,
+    "t_end": 2958.89,
+    "text": "has written all sorts of good maths textbook stuff and uh also writes games"
+  },
+  {
+    "t_start": 2958.89,
+    "t_end": 2960.329,
+    "text": "textbook stuff and uh also writes games um I'll put some links to some of the"
+  },
+  {
+    "t_start": 2960.329,
+    "t_end": 2961.89,
+    "text": "um I'll put some links to some of the stuff he's made but I remember a lecture"
+  },
+  {
+    "t_start": 2961.89,
+    "t_end": 2963.21,
+    "text": "stuff he's made but I remember a lecture he gave as part of a mass inspiration"
+  },
+  {
+    "t_start": 2963.21,
+    "t_end": 2964.47,
+    "text": "he gave as part of a mass inspiration talk years ago and he's been doing this"
+  },
+  {
+    "t_start": 2964.47,
+    "t_end": 2965.609,
+    "text": "talk years ago and he's been doing this lecture for a long time and he talks"
+  },
+  {
+    "t_start": 2965.609,
+    "t_end": 2967.05,
+    "text": "lecture for a long time and he talks about how math is used to make video"
+  },
+  {
+    "t_start": 2967.05,
+    "t_end": 2969.63,
+    "text": "about how math is used to make video games uh all sorts of nice little bits"
+  },
+  {
+    "t_start": 2969.63,
+    "t_end": 2970.589,
+    "text": "games uh all sorts of nice little bits in that lecture but one of the"
+  },
+  {
+    "t_start": 2970.589,
+    "t_end": 2971.97,
+    "text": "in that lecture but one of the particular ones he talks about is how"
+  },
+  {
+    "t_start": 2971.97,
+    "t_end": 2975.03,
+    "text": "particular ones he talks about is how you get lightings and Shadow to look"
+  },
+  {
+    "t_start": 2975.03,
+    "t_end": 2977.49,
+    "text": "you get lightings and Shadow to look right really easily"
+  },
+  {
+    "t_start": 2977.49,
+    "t_end": 2981.69,
+    "text": "using a piece of vector maths which is the idea that if you know which angle"
+  },
+  {
+    "t_start": 2981.69,
+    "t_end": 2985.05,
+    "text": "the idea that if you know which angle the light is coming from or you have a"
+  },
+  {
+    "t_start": 2985.05,
+    "t_end": 2990.21,
+    "text": "and you have a surface then it basically all that matters is what angle it"
+  },
+  {
+    "t_start": 2990.21,
+    "t_end": 2991.829,
+    "text": "all that matters is what angle it strikes a surface if it's bang on you"
+  },
+  {
+    "t_start": 2991.829,
+    "t_end": 2995.309,
+    "text": "strikes a surface if it's bang on you feel like you're going to get a uh a lot"
+  },
+  {
+    "t_start": 2995.309,
+    "t_end": 2997.17,
+    "text": "of reflection and it's going to be bright but if it's if it's completely"
+  },
+  {
+    "t_start": 2997.17,
+    "t_end": 2998.91,
+    "text": "bright but if it's if it's completely perpendicular then you don't get any"
+  },
+  {
+    "t_start": 2998.91,
+    "t_end": 3001.609,
+    "text": "light and then I think the thing should be dark and somewhere in between it's"
+  },
+  {
+    "t_start": 3001.609,
+    "t_end": 3006.109,
+    "text": "be dark and somewhere in between it's just the angle and actually if you dot"
+  },
+  {
+    "t_start": 3006.109,
+    "t_end": 3009.71,
+    "text": "normal Direction out of a plane and the light Direction it just tells you the"
+  },
+  {
+    "t_start": 3009.71,
+    "t_end": 3013.19,
+    "text": "light Direction it just tells you the angle between them or rather you get a"
+  },
+  {
+    "t_start": 3013.19,
+    "t_end": 3014.329,
+    "text": "result which is dependent uh proportional to the angle particularly"
+  },
+  {
+    "t_start": 3014.329,
+    "t_end": 3017.089,
+    "text": "proportional to the angle particularly if you use unit vectors and then it"
+  },
+  {
+    "t_start": 3017.089,
+    "t_end": 3018.829,
+    "text": "doesn't matter about the size of the normal or the light Direction you're"
+  },
+  {
+    "t_start": 3018.829,
+    "t_end": 3023.329,
+    "text": "normal or the light Direction you're just going to get the a number which"
+  },
+  {
+    "t_start": 3023.329,
+    "t_end": 3024.71,
+    "text": "represents the angle between them and it'll be zero if they're"
+  },
+  {
+    "t_start": 3024.71,
+    "t_end": 3026.45,
+    "text": "and it'll be zero if they're perpendicular because that's how dot"
+  },
+  {
+    "t_start": 3026.45,
+    "t_end": 3032.69,
+    "text": "products work with black dark and it'll be uh one if that if it's right on so"
+  },
+  {
+    "t_start": 3032.69,
+    "t_end": 3034.309,
+    "text": "be uh one if that if it's right on so that the dot product between the normal"
+  },
+  {
+    "t_start": 3034.309,
+    "t_end": 3037.73,
+    "text": "that the dot product between the normal Vector of a plane and the lighting"
+  },
+  {
+    "t_start": 3037.73,
+    "t_end": 3039.47,
+    "text": "Vector as long as they're unit vectors should immediately scale to give you"
+  },
+  {
+    "t_start": 3039.47,
+    "t_end": 3040.609,
+    "text": "should immediately scale to give you some control over lighting that's what I"
+  },
+  {
+    "t_start": 3040.609,
+    "t_end": 3043.49,
+    "text": "some control over lighting that's what I want to try and Implement to do that I"
+  },
+  {
+    "t_start": 3043.49,
+    "t_end": 3044.69,
+    "text": "think we need first of all to stop this spinning because"
+  },
+  {
+    "t_start": 3044.69,
+    "t_end": 3051.829,
+    "text": "for now uh and let's just put it back to normal position I'm going to make a DOT"
+  },
+  {
+    "t_start": 3051.829,
+    "t_end": 3053.89,
+    "text": "normal position I'm going to make a DOT so let's let's get the illusion broken"
+  },
+  {
+    "t_start": 3053.89,
+    "t_end": 3058.25,
+    "text": "so let's let's get the illusion broken and I'm gonna put a dot on the screen"
+  },
+  {
+    "t_start": 3058.25,
+    "t_end": 3062.93,
+    "text": "if I start putting it on the plane I can drag it up so I in theory I should be"
+  },
+  {
+    "t_start": 3062.93,
+    "t_end": 3065.51,
+    "text": "able to drag this dot around in fact that's just a a point for the light to"
+  },
+  {
+    "t_start": 3065.51,
+    "t_end": 3067.73,
+    "text": "that's just a a point for the light to come through come from and maybe I"
+  },
+  {
+    "t_start": 3067.73,
+    "t_end": 3069.17,
+    "text": "come through come from and maybe I should always aim the light towards the"
+  },
+  {
+    "t_start": 3069.17,
+    "t_end": 3072.89,
+    "text": "should always aim the light towards the shape oh now I'm confused again"
+  },
+  {
+    "t_start": 3072.89,
+    "t_end": 3076.67,
+    "text": "where's the center of this shape to aim at I could use that point I'd defined"
+  },
+  {
+    "t_start": 3076.67,
+    "t_end": 3079.73,
+    "text": "at I could use that point I'd defined earlier what was it called n"
+  },
+  {
+    "t_start": 3082.19,
+    "t_end": 3084.349,
+    "text": "right arbitrarily I'm just going to say the the light comes from R and let's"
+  },
+  {
+    "t_start": 3084.349,
+    "t_end": 3088.549,
+    "text": "the the light comes from R and let's rename R to be something we can remember"
+  },
+  {
+    "t_start": 3094.49,
+    "t_end": 3099.589,
+    "text": "so actually I need the vector Vector from light to n but I also want"
+  },
+  {
+    "t_start": 3099.589,
+    "t_end": 3101.329,
+    "text": "Vector from light to n but I also want the unit Vector of that so let's call it"
+  },
+  {
+    "t_start": 3101.329,
+    "t_end": 3102.41,
+    "text": "the unit Vector of that so let's call it the unit"
+  },
+  {
+    "t_start": 3102.41,
+    "t_end": 3106.069,
+    "text": "the unit vector"
+  },
+  {
+    "t_start": 3107.63,
+    "t_end": 3111.049,
+    "text": "oh and it's drawn me a little arrow and you can see now hopefully if I drag this"
+  },
+  {
+    "t_start": 3111.049,
+    "t_end": 3111.89,
+    "text": "you can see now hopefully if I drag this around"
+  },
+  {
+    "t_start": 3111.89,
+    "t_end": 3117.89,
+    "text": "and if I click on it it goes into vertical I can move the light up and"
+  },
+  {
+    "t_start": 3117.89,
+    "t_end": 3118.91,
+    "text": "vertical I can move the light up and down"
+  },
+  {
+    "t_start": 3118.91,
+    "t_end": 3122.87,
+    "text": "okay that's not doing anything yet um but I have got a controllable position"
+  },
+  {
+    "t_start": 3122.87,
+    "t_end": 3125.75,
+    "text": "but I have got a controllable position for the light"
+  },
+  {
+    "t_start": 3127.91,
+    "t_end": 3130.01,
+    "text": "and now all I'm going to do is update the colors which I craft around with for"
+  },
+  {
+    "t_start": 3130.01,
+    "t_end": 3131.63,
+    "text": "the colors which I craft around with for a while earlier but I'm going to make"
+  },
+  {
+    "t_start": 3131.63,
+    "t_end": 3134.03,
+    "text": "a while earlier but I'm going to make them Dynamic the colors of these faces"
+  },
+  {
+    "t_start": 3134.03,
+    "t_end": 3138.71,
+    "text": "them Dynamic the colors of these faces so this is Zed faces it's these these"
+  },
+  {
+    "t_start": 3138.71,
+    "t_end": 3142.13,
+    "text": "dashed ones here because they include the rotation"
+  },
+  {
+    "t_start": 3143.569,
+    "t_end": 3147.95,
+    "text": "properties of Z faces so if you're going to Advanced then you've got this Dynamic"
+  },
+  {
+    "t_start": 3147.95,
+    "t_end": 3149.75,
+    "text": "to Advanced then you've got this Dynamic Color thing now"
+  },
+  {
+    "t_start": 3149.75,
+    "t_end": 3153.109,
+    "text": "I was thinking earlier about the colors and I'm not I'm a bit color vision"
+  },
+  {
+    "t_start": 3153.109,
+    "t_end": 3155.329,
+    "text": "and I'm not I'm a bit color vision deficient I have issues I think I'd do"
+  },
+  {
+    "t_start": 3155.329,
+    "t_end": 3157.91,
+    "text": "deficient I have issues I think I'd do Tanner deficient or something red green"
+  },
+  {
+    "t_start": 3157.91,
+    "t_end": 3160.849,
+    "text": "colorblind is what a lot of people call it um it's really hard to describe what"
+  },
+  {
+    "t_start": 3160.849,
+    "t_end": 3165.47,
+    "text": "it um it's really hard to describe what it is because it looks normal to me but"
+  },
+  {
+    "t_start": 3165.47,
+    "t_end": 3167.39,
+    "text": "apparently I'm seeing stuff weirdly that's not an excuse there are there are"
+  },
+  {
+    "t_start": 3167.39,
+    "t_end": 3170.63,
+    "text": "that's not an excuse there are there are three ways to Define colors at least in"
+  },
+  {
+    "t_start": 3170.63,
+    "t_end": 3172.43,
+    "text": "jojoba and in lots of other Graphics applications I think I talked about this"
+  },
+  {
+    "t_start": 3172.43,
+    "t_end": 3176.27,
+    "text": "applications I think I talked about this in another video I forget which one but"
+  },
+  {
+    "t_start": 3176.27,
+    "t_end": 3177.95,
+    "text": "um RGB is the amount of red green and blue and it's a really good way for"
+  },
+  {
+    "t_start": 3177.95,
+    "t_end": 3180.829,
+    "text": "blue and it's a really good way for describing how colors mix and then you"
+  },
+  {
+    "t_start": 3180.829,
+    "t_end": 3182.15,
+    "text": "describing how colors mix and then you can control the opacity with the fourth"
+  },
+  {
+    "t_start": 3182.15,
+    "t_end": 3186.47,
+    "text": "can control the opacity with the fourth thing the huge saturation and value"
+  },
+  {
+    "t_start": 3186.47,
+    "t_end": 3191.75,
+    "text": "uh is a way of describing I think how things reflect off things I feel like"
+  },
+  {
+    "t_start": 3191.75,
+    "t_end": 3194.569,
+    "text": "that's the one I want to use and Hue saturation and lightness is a similar"
+  },
+  {
+    "t_start": 3194.569,
+    "t_end": 3197.569,
+    "text": "way the Wikipedia page is worth looking at maybe I'll throw a couple of images"
+  },
+  {
+    "t_start": 3197.569,
+    "t_end": 3200.15,
+    "text": "at maybe I'll throw a couple of images up and links in the description there"
+  },
+  {
+    "t_start": 3200.15,
+    "t_end": 3201.23,
+    "text": "up and links in the description there are different ways of describing color"
+  },
+  {
+    "t_start": 3201.23,
+    "t_end": 3205.25,
+    "text": "are different ways of describing color and I think the Hue saturation of value"
+  },
+  {
+    "t_start": 3205.25,
+    "t_end": 3215.329,
+    "text": "color and the value gives you whether it is uh full color or black I.E how much"
+  },
+  {
+    "t_start": 3215.329,
+    "t_end": 3217.43,
+    "text": "is uh full color or black I.E how much light is bouncing off it because"
+  },
+  {
+    "t_start": 3217.43,
+    "t_end": 3219.65,
+    "text": "light is bouncing off it because when you see something with full color"
+  },
+  {
+    "t_start": 3219.65,
+    "t_end": 3223.849,
+    "text": "it doesn't go white unless you want to actually get some weird reflection on it"
+  },
+  {
+    "t_start": 3223.849,
+    "t_end": 3226.13,
+    "text": "actually get some weird reflection on it like a red object under a bright light"
+  },
+  {
+    "t_start": 3226.13,
+    "t_end": 3230.99,
+    "text": "like a red object under a bright light looks bright red or a red under hardly"
+  },
+  {
+    "t_start": 3230.99,
+    "t_end": 3232.91,
+    "text": "any light looks very dark red almost black and I think that's what the value"
+  },
+  {
+    "t_start": 3232.91,
+    "t_end": 3237.29,
+    "text": "black and I think that's what the value so I'm hoping the value I could use as"
+  },
+  {
+    "t_start": 3237.29,
+    "t_end": 3238.79,
+    "text": "my sort of dot product business and I just need to get the colors"
+  },
+  {
+    "t_start": 3238.79,
+    "t_end": 3242.87,
+    "text": "just need to get the colors from the Hue and the saturation so"
+  },
+  {
+    "t_start": 3244.309,
+    "t_end": 3245.93,
+    "text": "now I don't know what I'm doing so I gotta pick a random Hue uh let's just go"
+  },
+  {
+    "t_start": 3245.93,
+    "t_end": 3247.75,
+    "text": "gotta pick a random Hue uh let's just go in the middle I've no idea"
+  },
+  {
+    "t_start": 3247.75,
+    "t_end": 3253.67,
+    "text": "think of it as a wheel but I'm just I think this judge Works between zero and"
+  },
+  {
+    "t_start": 3253.67,
+    "t_end": 3255.47,
+    "text": "think this judge Works between zero and one so I'm going to go halfway through"
+  },
+  {
+    "t_start": 3255.47,
+    "t_end": 3257.93,
+    "text": "one so I'm going to go halfway through uh"
+  },
+  {
+    "t_start": 3257.93,
+    "t_end": 3264.17,
+    "text": "what's that done has that made it blue is that by some complete fluke the same"
+  },
+  {
+    "t_start": 3264.17,
+    "t_end": 3265.849,
+    "text": "color as I just had no idea let's"
+  },
+  {
+    "t_start": 3265.849,
+    "t_end": 3268.069,
+    "text": "no idea let's keep going"
+  },
+  {
+    "t_start": 3268.069,
+    "t_end": 3273.29,
+    "text": "keep going um saturation one I don't want like"
+  },
+  {
+    "t_start": 3275.63,
+    "t_end": 3282.049,
+    "text": "normals as well so before I can do this I need the normals that come out of"
+  },
+  {
+    "t_start": 3282.049,
+    "t_end": 3284.27,
+    "text": "I need the normals that come out of those planes"
+  },
+  {
+    "t_start": 3284.27,
+    "t_end": 3288.13,
+    "text": "which are going to get rotated when I start doing that"
+  },
+  {
+    "t_start": 3288.13,
+    "t_end": 3290.39,
+    "text": "start doing that yay okay"
+  },
+  {
+    "t_start": 3290.39,
+    "t_end": 3295.609,
+    "text": "okay let's make three new vectors which I'm going to use let's call it um"
+  },
+  {
+    "t_start": 3295.609,
+    "t_end": 3297.589,
+    "text": "I'm going to use let's call it um the we're working on the Z faces so"
+  },
+  {
+    "t_start": 3297.589,
+    "t_end": 3299.75,
+    "text": "the we're working on the Z faces so let's do z d"
+  },
+  {
+    "t_start": 3299.75,
+    "t_end": 3301.43,
+    "text": "let's do z d for Z Direction"
+  },
+  {
+    "t_start": 3301.43,
+    "t_end": 3306.589,
+    "text": "for Z Direction spell it right man"
+  },
+  {
+    "t_start": 3315.589,
+    "t_end": 3321.47,
+    "text": "the z-axis as my reference point but I'd like it to be rotated in the same way as"
+  },
+  {
+    "t_start": 3321.47,
+    "t_end": 3323.21,
+    "text": "the faces get done so rotate the unit vector"
+  },
+  {
+    "t_start": 3323.21,
+    "t_end": 3327.53,
+    "text": "vector by Alpha around I"
+  },
+  {
+    "t_start": 3329.39,
+    "t_end": 3331.01,
+    "text": "can see let's put a little tiny unit Vector down there and it does look like"
+  },
+  {
+    "t_start": 3331.01,
+    "t_end": 3332.569,
+    "text": "Vector down there and it does look like it spins that's all I need that's just"
+  },
+  {
+    "t_start": 3332.569,
+    "t_end": 3336.23,
+    "text": "it spins that's all I need that's just going to be the normal vector"
+  },
+  {
+    "t_start": 3338.15,
+    "t_end": 3341.39,
+    "text": "think it's all right let's check it on this one then so uh we'll just work with"
+  },
+  {
+    "t_start": 3341.39,
+    "t_end": 3342.29,
+    "text": "this one then so uh we'll just work with that"
+  },
+  {
+    "t_start": 3342.29,
+    "t_end": 3348.049,
+    "text": "change the Z faces so that its color depends on that so the value of"
+  },
+  {
+    "t_start": 3348.049,
+    "t_end": 3349.67,
+    "text": "depends on that so the value of do I do it in here do I Define it in"
+  },
+  {
+    "t_start": 3349.67,
+    "t_end": 3354.829,
+    "text": "do I do it in here do I Define it in Jojo and I'm just going to try it dot is"
+  },
+  {
+    "t_start": 3360.829,
+    "t_end": 3363.29,
+    "text": "do I have a light Vector what's it called"
+  },
+  {
+    "t_start": 3363.29,
+    "t_end": 3370.13,
+    "text": "I didn't name it did I oh you let's rename it"
+  },
+  {
+    "t_start": 3373.43,
+    "t_end": 3375.349,
+    "text": "elvec for light Vector again with my terrible naming convention let's let's"
+  },
+  {
+    "t_start": 3375.349,
+    "t_end": 3378.349,
+    "text": "finish the job now surely I've got enough information now the I'd like the"
+  },
+  {
+    "t_start": 3378.349,
+    "t_end": 3380.329,
+    "text": "enough information now the I'd like the value of it to be"
+  },
+  {
+    "t_start": 3380.329,
+    "t_end": 3381.849,
+    "text": "value of it to be dot of"
+  },
+  {
+    "t_start": 3381.849,
+    "t_end": 3388.67,
+    "text": "dot of said uh and lvac"
+  },
+  {
+    "t_start": 3392.809,
+    "t_end": 3400.67,
+    "text": "does it change it's changing if it's right above it it's quite bright"
+  },
+  {
+    "t_start": 3402.17,
+    "t_end": 3406.13,
+    "text": "I guess he's aiming towards Point N which is not necessarily the best point"
+  },
+  {
+    "t_start": 3406.13,
+    "t_end": 3409.73,
+    "text": "which is not necessarily the best point to represent it"
+  },
+  {
+    "t_start": 3412.13,
+    "t_end": 3416.27,
+    "text": "it's good enough when L is off the side it's dark and it gets better I maybe I"
+  },
+  {
+    "t_start": 3416.27,
+    "t_end": 3417.41,
+    "text": "it's dark and it gets better I maybe I have to rethink about where this light"
+  },
+  {
+    "t_start": 3417.41,
+    "t_end": 3419.809,
+    "text": "have to rethink about where this light is actually pointing towards"
+  },
+  {
+    "t_start": 3419.809,
+    "t_end": 3422.75,
+    "text": "let's go with it I gotta do the other ones uh well let's just check ones and"
+  },
+  {
+    "t_start": 3422.75,
+    "t_end": 3424.91,
+    "text": "ones uh well let's just check ones and rotate it that's the correct angle the"
+  },
+  {
+    "t_start": 3424.91,
+    "t_end": 3428.27,
+    "text": "rotate it that's the correct angle the light's coming from here and if I let"
+  },
+  {
+    "t_start": 3428.27,
+    "t_end": 3429.71,
+    "text": "this rotate I need an I want a button for spin the thing you can use a"
+  },
+  {
+    "t_start": 3429.71,
+    "t_end": 3430.849,
+    "text": "for spin the thing you can use a checkbox"
+  },
+  {
+    "t_start": 3430.849,
+    "t_end": 3436.01,
+    "text": "not doing this in a particularly good order but let's do uh a spin button"
+  },
+  {
+    "t_start": 3436.01,
+    "t_end": 3439.01,
+    "text": "there's a check box for yes on like if it's either spinning or it's not it's"
+  },
+  {
+    "t_start": 3439.01,
+    "t_end": 3444.29,
+    "text": "it's either spinning or it's not it's Boolean value D and on the update I want"
+  },
+  {
+    "t_start": 3444.29,
+    "t_end": 3448.01,
+    "text": "Alpha based on this value I'll just make called D I think that that will just do"
+  },
+  {
+    "t_start": 3448.01,
+    "t_end": 3450.049,
+    "text": "called D I think that that will just do it instantly"
+  },
+  {
+    "t_start": 3450.049,
+    "t_end": 3452.39,
+    "text": "it instantly spin spin"
+  },
+  {
+    "t_start": 3452.39,
+    "t_end": 3457.849,
+    "text": "has gone dark is it gonna get bright again it's gone"
+  },
+  {
+    "t_start": 3457.849,
+    "t_end": 3462.349,
+    "text": "Bright Now okay I I think that is doing what I want"
+  },
+  {
+    "t_start": 3462.349,
+    "t_end": 3467.03,
+    "text": "like so when it's away from the light it's dark"
+  },
+  {
+    "t_start": 3467.03,
+    "t_end": 3475.25,
+    "text": "I don't know what happens if the dot product goes negative"
+  },
+  {
+    "t_start": 3476.27,
+    "t_end": 3477.47,
+    "text": "and let's not worry about it it's working"
+  },
+  {
+    "t_start": 3477.47,
+    "t_end": 3485.329,
+    "text": "stop spinning thanks uh right how did I do this I need the extra then to be the"
+  },
+  {
+    "t_start": 3485.329,
+    "t_end": 3488.99,
+    "text": "do this I need the extra then to be the unit vector"
+  },
+  {
+    "t_start": 3494.569,
+    "t_end": 3499.25,
+    "text": "around but I need to rotate it as well so let's go back and rotate it the unit"
+  },
+  {
+    "t_start": 3499.25,
+    "t_end": 3502.069,
+    "text": "Vector from the x-axis and rotate that"
+  },
+  {
+    "t_start": 3502.069,
+    "t_end": 3506.45,
+    "text": "and rotate that by Alpha about I"
+  },
+  {
+    "t_start": 3508.849,
+    "t_end": 3512.329,
+    "text": "and let's do wider as well let's see if I get it right there so rotate"
+  },
+  {
+    "t_start": 3514.67,
+    "t_end": 3520.309,
+    "text": "I wonder if the unit vectors are already built in for the X Y and z-axis but"
+  },
+  {
+    "t_start": 3520.309,
+    "t_end": 3522.37,
+    "text": "anyway this is working so don't ask too many questions questions"
+  },
+  {
+    "t_start": 3522.37,
+    "t_end": 3525.77,
+    "text": "don't ask too many questions questions Alpha about hi no that's no no no no no"
+  },
+  {
+    "t_start": 3525.77,
+    "t_end": 3527.03,
+    "text": "Alpha about hi no that's no no no no no no"
+  },
+  {
+    "t_start": 3527.03,
+    "t_end": 3531.589,
+    "text": "no I yeah check my input damn straight"
+  },
+  {
+    "t_start": 3533.569,
+    "t_end": 3535.069,
+    "text": "should have a little axis rotation going on"
+  },
+  {
+    "t_start": 3535.069,
+    "t_end": 3538.789,
+    "text": "on yeah there they are that's kind of nice"
+  },
+  {
+    "t_start": 3541.49,
+    "t_end": 3543.109,
+    "text": "and now I'm ready to to dot them so the Y faces"
+  },
+  {
+    "t_start": 3543.109,
+    "t_end": 3547.069,
+    "text": "in the advanced I'm going to change it to Hue saturation and value"
+  },
+  {
+    "t_start": 3547.069,
+    "t_end": 3551.69,
+    "text": "to Hue saturation and value it's got Hue that at the moment what"
+  },
+  {
+    "t_start": 3553.609,
+    "t_end": 3555.77,
+    "text": "I don't know what I want there let's just try that oh it's gone"
+  },
+  {
+    "t_start": 3555.77,
+    "t_end": 3557.47,
+    "text": "just try that oh it's gone green"
+  },
+  {
+    "t_start": 3557.47,
+    "t_end": 3560.569,
+    "text": "I don't know how the key thing works let's just make it close to the other"
+  },
+  {
+    "t_start": 3560.569,
+    "t_end": 3565.01,
+    "text": "let's just make it close to the other one so let's go 0.6 the other one was"
+  },
+  {
+    "t_start": 3566.63,
+    "t_end": 3572.51,
+    "text": "quite light blue do I like that I don't know"
+  },
+  {
+    "t_start": 3575.51,
+    "t_end": 3577.73,
+    "text": "okay guys still I didn't do the crucial bit here the value is going to be"
+  },
+  {
+    "t_start": 3577.73,
+    "t_end": 3585.829,
+    "text": "bit here the value is going to be dot wider with lvac"
+  },
+  {
+    "t_start": 3596.809,
+    "t_end": 3597.589,
+    "text": "maybe I should make them all the same color"
+  },
+  {
+    "t_start": 3597.589,
+    "t_end": 3601.67,
+    "text": "so make all the same Hue and then the only difference would be the lighting"
+  },
+  {
+    "t_start": 3601.67,
+    "t_end": 3606.589,
+    "text": "only difference would be the lighting maybe that's the way to do it and then I"
+  },
+  {
+    "t_start": 3606.589,
+    "t_end": 3610.49,
+    "text": "2.5 I don't know why that keeps popping up okay but now they they should be the"
+  },
+  {
+    "t_start": 3610.49,
+    "t_end": 3611.93,
+    "text": "up okay but now they they should be the same color but just with different"
+  },
+  {
+    "t_start": 3611.93,
+    "t_end": 3615.17,
+    "text": "same color but just with different lighting on them they"
+  },
+  {
+    "t_start": 3616.549,
+    "t_end": 3618.71,
+    "text": "you could there must be a place where they're the same color"
+  },
+  {
+    "t_start": 3618.71,
+    "t_end": 3626.329,
+    "text": "let's do it it's kind of a greeny cyan I guess cyan has value 0.50 oh sorry Q 0.5"
+  },
+  {
+    "t_start": 3626.329,
+    "t_end": 3628.01,
+    "text": "guess cyan has value 0.50 oh sorry Q 0.5 don't say value when that's a different"
+  },
+  {
+    "t_start": 3628.01,
+    "t_end": 3628.849,
+    "text": "don't say value when that's a different thing"
+  },
+  {
+    "t_start": 3628.849,
+    "t_end": 3635.39,
+    "text": "thing let's do the last one the x-faces uh HSB"
+  },
+  {
+    "t_start": 3635.39,
+    "t_end": 3648.109,
+    "text": "0.5 saturation one valued dot this time extra which I think I have with L deck"
+  },
+  {
+    "t_start": 3650.329,
+    "t_end": 3652.25,
+    "text": "it's cool I can feel like I'm moving a light source around and if I just leave"
+  },
+  {
+    "t_start": 3652.25,
+    "t_end": 3655.67,
+    "text": "light source around and if I just leave the light source there let's look at it"
+  },
+  {
+    "t_start": 3655.67,
+    "t_end": 3658.069,
+    "text": "from the right angle so that's that's annoying because it looks like"
+  },
+  {
+    "t_start": 3658.069,
+    "t_end": 3664.01,
+    "text": "two of the faces look the same but oh let's just go with it and spin the thing"
+  },
+  {
+    "t_start": 3666.53,
+    "t_end": 3671.21,
+    "text": "please noises are coming out of my mouth I like that it feels genuinely like an"
+  },
+  {
+    "t_start": 3671.21,
+    "t_end": 3676.13,
+    "text": "I like that it feels genuinely like an object changing under light and Shadow"
+  },
+  {
+    "t_start": 3678.47,
+    "t_end": 3679.73,
+    "text": "but actually it's not a real object it's the illusion made by that object"
+  },
+  {
+    "t_start": 3679.73,
+    "t_end": 3685.37,
+    "text": "the illusion made by that object spinning around the axis"
+  },
+  {
+    "t_start": 3686.63,
+    "t_end": 3688.549,
+    "text": "I quite like the lighting game thing there as well the dotting the normal of"
+  },
+  {
+    "t_start": 3688.549,
+    "t_end": 3694.73,
+    "text": "there as well the dotting the normal of a plane with the light direction to get"
+  },
+  {
+    "t_start": 3697.37,
+    "t_end": 3699.41,
+    "text": "let's tidy up a bit um all those vectors need to disappear properly the light"
+  },
+  {
+    "t_start": 3699.41,
+    "t_end": 3703.37,
+    "text": "need to disappear properly the light Vector is good to keep perhaps let's"
+  },
+  {
+    "t_start": 3703.37,
+    "t_end": 3710.51,
+    "text": "elvec doesn't need a name though n should probably disappear"
+  },
+  {
+    "t_start": 3713.93,
+    "t_end": 3718.19,
+    "text": "maybe I should make the light dot yellow can make the background dark oh no I"
+  },
+  {
+    "t_start": 3718.19,
+    "t_end": 3725.27,
+    "text": "I want to make the background different color maybe I do background let's make"
+  },
+  {
+    "t_start": 3727.069,
+    "t_end": 3729.47,
+    "text": "certainly gives him more impression of light coming from"
+  },
+  {
+    "t_start": 3729.47,
+    "t_end": 3737.87,
+    "text": "light coming from a thing of niceness"
+  },
+  {
+    "t_start": 3739.49,
+    "t_end": 3741.89,
+    "text": "where's that why did the light disappear there why is it Vanishing"
+  },
+  {
+    "t_start": 3741.89,
+    "t_end": 3743.569,
+    "text": "there why is it Vanishing ah"
+  },
+  {
+    "t_start": 3743.569,
+    "t_end": 3750.77,
+    "text": "changes color when it's selected I don't get how these uh these colors"
+  },
+  {
+    "t_start": 3750.77,
+    "t_end": 3758.03,
+    "text": "work let's uh make it big I could actually put a sphere around it but I"
+  },
+  {
+    "t_start": 3758.03,
+    "t_end": 3760.67,
+    "text": "maybe that dark gray is the selected color so let's just change the"
+  },
+  {
+    "t_start": 3760.67,
+    "t_end": 3761.809,
+    "text": "color so let's just change the background Graphics to be something"
+  },
+  {
+    "t_start": 3761.809,
+    "t_end": 3763.069,
+    "text": "background Graphics to be something slightly different in the darker gray"
+  },
+  {
+    "t_start": 3763.069,
+    "t_end": 3766.609,
+    "text": "slightly different in the darker gray perhaps get it moodier there we go"
+  },
+  {
+    "t_start": 3766.609,
+    "t_end": 3768.289,
+    "text": "perhaps get it moodier there we go and that means I need the light Vector"
+  },
+  {
+    "t_start": 3768.289,
+    "t_end": 3769.67,
+    "text": "and that means I need the light Vector to be a bit more obvious maybe I'll just"
+  },
+  {
+    "t_start": 3769.67,
+    "t_end": 3778.25,
+    "text": "to be a bit more obvious maybe I'll just make that yellow as well"
+  },
+  {
+    "t_start": 3790.25,
+    "t_end": 3796.13,
+    "text": "it's so frustrating I know it's good okay I I think I've been messing around"
+  },
+  {
+    "t_start": 3796.13,
+    "t_end": 3797.63,
+    "text": "okay I I think I've been messing around with this enough for now let's like"
+  },
+  {
+    "t_start": 3797.63,
+    "t_end": 3799.01,
+    "text": "with this enough for now let's like let's just report back on what we've"
+  },
+  {
+    "t_start": 3799.01,
+    "t_end": 3800.809,
+    "text": "let's just report back on what we've done we've got this object which looks"
+  },
+  {
+    "t_start": 3800.809,
+    "t_end": 3804.47,
+    "text": "done we've got this object which looks great uh it's being lit by a real light"
+  },
+  {
+    "t_start": 3804.47,
+    "t_end": 3808.13,
+    "text": "object uh particularly if I turn the axes off it's not cutting any axes but"
+  },
+  {
+    "t_start": 3808.13,
+    "t_end": 3812.27,
+    "text": "uh depending on where I put the light it looks different and you know and I know"
+  },
+  {
+    "t_start": 3812.27,
+    "t_end": 3814.069,
+    "text": "looks different and you know and I know that that object is impossible and the"
+  },
+  {
+    "t_start": 3814.069,
+    "t_end": 3817.25,
+    "text": "that that object is impossible and the only way that is existing is because if"
+  },
+  {
+    "t_start": 3817.25,
+    "t_end": 3820.67,
+    "text": "I spin around you can see it's just these framed uh little bits of uh planes"
+  },
+  {
+    "t_start": 3820.67,
+    "t_end": 3822.77,
+    "text": "these framed uh little bits of uh planes that are making the shape"
+  },
+  {
+    "t_start": 3822.77,
+    "t_end": 3827.809,
+    "text": "but if I look at it from the correct angle we have Roger penrose's MC eshes"
+  },
+  {
+    "t_start": 3827.809,
+    "t_end": 3830.75,
+    "text": "angle we have Roger penrose's MC eshes lovely impossible triangle uh I'll never"
+  },
+  {
+    "t_start": 3830.75,
+    "t_end": 3831.47,
+    "text": "lovely impossible triangle uh I'll never think about whether there's anything"
+  },
+  {
+    "t_start": 3831.47,
+    "t_end": 3834.65,
+    "text": "else we need to do for now okay the one other thing I've noticed"
+  },
+  {
+    "t_start": 3834.65,
+    "t_end": 3836.17,
+    "text": "okay the one other thing I've noticed that I feel like there's a little glitch"
+  },
+  {
+    "t_start": 3836.17,
+    "t_end": 3838.25,
+    "text": "that I feel like there's a little glitch which is spoiling the illusion very"
+  },
+  {
+    "t_start": 3838.25,
+    "t_end": 3843.47,
+    "text": "which is spoiling the illusion very slightly here is overlapping you can see"
+  },
+  {
+    "t_start": 3843.47,
+    "t_end": 3844.43,
+    "text": "the clipping box is stopping that happening but you see that's definitely"
+  },
+  {
+    "t_start": 3844.43,
+    "t_end": 3846.589,
+    "text": "happening but you see that's definitely not quite in line so something"
+  },
+  {
+    "t_start": 3846.589,
+    "t_end": 3851.089,
+    "text": "is off and I feel like it might be as if any segments are still visible that"
+  },
+  {
+    "t_start": 3851.089,
+    "t_end": 3852.17,
+    "text": "any segments are still visible that might be doing it but they're not"
+  },
+  {
+    "t_start": 3852.17,
+    "t_end": 3854.21,
+    "text": "might be doing it but they're not visible still"
+  },
+  {
+    "t_start": 3854.21,
+    "t_end": 3855.589,
+    "text": "visible still um"
+  },
+  {
+    "t_start": 3855.589,
+    "t_end": 3857.27,
+    "text": "um so"
+  },
+  {
+    "t_start": 3857.27,
+    "t_end": 3861.77,
+    "text": "q1 was the shape there and I feel like that's just slightly blurred so I'm"
+  },
+  {
+    "t_start": 3861.77,
+    "t_end": 3863.809,
+    "text": "that's just slightly blurred so I'm going to change its properties ah line"
+  },
+  {
+    "t_start": 3863.809,
+    "t_end": 3865.309,
+    "text": "going to change its properties ah line thickness could be doing it I don't know"
+  },
+  {
+    "t_start": 3865.309,
+    "t_end": 3866.75,
+    "text": "thickness could be doing it I don't know if the lines"
+  },
+  {
+    "t_start": 3866.75,
+    "t_end": 3872.63,
+    "text": "are visible but let's do it for all of the shapes so it's actually"
+  },
+  {
+    "t_start": 3872.63,
+    "t_end": 3875.21,
+    "text": "the shapes so it's actually that that and that"
+  },
+  {
+    "t_start": 3875.21,
+    "t_end": 3881.39,
+    "text": "I wonder if I can change the properties of them yeah change the line things down"
+  },
+  {
+    "t_start": 3881.39,
+    "t_end": 3882.77,
+    "text": "that's better so I've lost all the edging there was some light thickness"
+  },
+  {
+    "t_start": 3882.77,
+    "t_end": 3885.349,
+    "text": "edging there was some light thickness going on that the uh"
+  },
+  {
+    "t_start": 3885.349,
+    "t_end": 3888.47,
+    "text": "going on that the uh and I think"
+  },
+  {
+    "t_start": 3890.27,
+    "t_end": 3892.91,
+    "text": "oh I looked at it from the back there by the way if you if you um if you do the"
+  },
+  {
+    "t_start": 3892.91,
+    "t_end": 3894.23,
+    "text": "the way if you if you um if you do the command set view Direction and it's"
+  },
+  {
+    "t_start": 3894.23,
+    "t_end": 3895.67,
+    "text": "command set view Direction and it's already on the Right View it'll do the"
+  },
+  {
+    "t_start": 3895.67,
+    "t_end": 3897.71,
+    "text": "already on the Right View it'll do the negative of that um and this is looking"
+  },
+  {
+    "t_start": 3897.71,
+    "t_end": 3899.63,
+    "text": "negative of that um and this is looking from the back and you can see something"
+  },
+  {
+    "t_start": 3899.63,
+    "t_end": 3901.01,
+    "text": "from the back and you can see something weird is happening because we've just"
+  },
+  {
+    "t_start": 3901.01,
+    "t_end": 3902.569,
+    "text": "weird is happening because we've just we're looking sort of inside these"
+  },
+  {
+    "t_start": 3902.569,
+    "t_end": 3907.069,
+    "text": "we're looking sort of inside these objects it does look quite cool but it's"
+  },
+  {
+    "t_start": 3907.069,
+    "t_end": 3908.21,
+    "text": "not the effect I'm going for let's just check what happens when I"
+  },
+  {
+    "t_start": 3908.21,
+    "t_end": 3913.49,
+    "text": "let's just check what happens when I spin it now"
+  },
+  {
+    "t_start": 3919.37,
+    "t_end": 3922.069,
+    "text": "and maybe I like it better with the axes on"
+  },
+  {
+    "t_start": 3923.75,
+    "t_end": 3926.93,
+    "text": "made the object I was trying to make and there's all sorts of tinkering we could"
+  },
+  {
+    "t_start": 3926.93,
+    "t_end": 3929.329,
+    "text": "there's all sorts of tinkering we could carry on doing but I think we should"
+  },
+  {
+    "t_start": 3929.329,
+    "t_end": 3932.569,
+    "text": "um if you have enjoyed this then check out the rest of the videos on my channel"
+  },
+  {
+    "t_start": 3932.569,
+    "t_end": 3934.25,
+    "text": "out the rest of the videos on my channel where I'm building crazy jojoba ideas"
+  },
+  {
+    "t_start": 3934.25,
+    "t_end": 3938.21,
+    "text": "one of these days I'm gonna Branch out into non-joba build I want to try for"
+  },
+  {
+    "t_start": 3938.21,
+    "t_end": 3940.849,
+    "text": "into non-joba build I want to try for example uh the manim software that Grant"
+  },
+  {
+    "t_start": 3940.849,
+    "t_end": 3944.71,
+    "text": "example uh the manim software that Grant uses on his three blue one brown and a"
+  },
+  {
+    "t_start": 3944.71,
+    "t_end": 3946.849,
+    "text": "lot of other people use really nicely but I think we'll stop there for today"
+  },
+  {
+    "t_start": 3946.849,
+    "t_end": 3948.589,
+    "text": "but I think we'll stop there for today so if you've enjoyed this thanks for"
+  },
+  {
+    "t_start": 3948.589,
+    "t_end": 3951.799,
+    "text": "so if you've enjoyed this thanks for watching and I'll see you next time"
+  }
+]

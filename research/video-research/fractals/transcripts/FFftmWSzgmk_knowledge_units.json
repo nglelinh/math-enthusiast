@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ku_video_FFftmWSzgmk_0",
+    "t_start": 0.0,
+    "t_end": 92.1,
+    "type": "overview",
+    "summary": "Maybe this is \"Mandelbrot set back to basics\". I need your help though, can you think of a number? (Brady: 7) - Good. Can you square that number? - (49) - Can you do this while filming? You've done it correctly so far, okay, next question you're gonna get upset - square 49. - (Nup) Okay, good answer. The thing is I don't really care about the answer. What I'm caring about is an iteration. I'm gonna keep asking you to do the same thing again and again and if I ask you to pick a number and keep squaring it, you already know what's gonna happen, right? It's gonna get big. - (Brady: It'll blow …"
+  },
+  {
+    "id": "ku_video_FFftmWSzgmk_92",
+    "t_start": 92.2,
+    "t_end": 183.4,
+    "type": "overview",
+    "summary": "But if I go less than this number one, they don't go that way anymore, they go that way. In fact, they head towards zero and they're stable there. So for the sake of moving it around, it's kind of nice to see the difference, it's a really sharp line then it completely changes behaviour, but that way they're unstable, that way they're stable. Stable, unstable, stable, unstable, stable, stable, stable unstable - you get the idea. In fact if you go negative they're still stable. The head positive because when you square a number that's negative you get positive. Still head toward zero until yo…"
+  },
+  {
+    "id": "ku_video_FFftmWSzgmk_183",
+    "t_start": 183.4,
+    "t_end": 277.1,
+    "type": "overview",
+    "summary": "But what I'm really interested is the iteration if you keep doing the instruction: square it, square it, square it. We saw what happened on the real line. In two dimensions it looks different. So it looks like this. So this line indicates if we start there it goes to there when you square it and then to there and there. And so if I move this around the picture is kind of pleasing, kind of wobbles around, but it's always heading towards the centre - which I'll say is stable. And there's a reason there's a circle on the screen because anytime I'm inside this circle, it looks like it's stable,…"
+  },
+  {
+    "id": "ku_video_FFftmWSzgmk_278",
+    "t_start": 278.0,
+    "t_end": 369.9,
+    "type": "overview",
+    "summary": "If I start with this number and I keep squaring it and adding that number; square it, add that number; square it, add that number; square it, add that number - this is the path it goes and it makes a lovely star shape. What's interesting though is not just the star shape, although I kind of like it, it's the stability. So all around here it's stable, it always gives you the same sort of stability, like the starry stability, even if it's expanding or shrinking but you kind of get the feeling that sometime it's gonna blow up. And it's not obvious where because if I go near the circle you thin…"
+  },
+  {
+    "id": "ku_video_FFftmWSzgmk_370",
+    "t_start": 370.5,
+    "t_end": 463.0,
+    "type": "overview",
+    "summary": "Now we're ready to look at that. If C is zero you get a circle. If it's not zero - I see where my brain melts a little tiny bit. If C is not a zero the shapes become these shapes. And I always find this a little bit of a shock. There may be some familiar looking shapes, I don't know but, sometimes they're not even connected together. They're like dusty little particles. And these regions, particularly when there's obviously a region which is not a circle necessarily, they're called Julia sets. And again Holly's done a really lovely video about Julia sets. A bit of history about Julia sets: …"
+  },
+  {
+    "id": "ku_video_FFftmWSzgmk_462",
+    "t_start": 463.0,
+    "t_end": 554.9,
+    "type": "overview",
+    "summary": "as looking vaguely like something I've hinted about in this video may be looking like. But there is something important that Holly mentions in some of her videos about which ones are joined together, connected mathematically, and which ones are disconnected. Separate like dust. Let me show you what they end up describing. So if we go back to this diagram when I did the iteration, we were originally starting by you picking a number and then squaring it. What happened in 1979 is a guy called Benoit, that was his first name. Didn't get better for him, his surname was Mandelbrot. He's a very fa…"
+  },
+  {
+    "id": "ku_video_FFftmWSzgmk_555",
+    "t_start": 555.5,
+    "t_end": 645.5,
+    "type": "overview",
+    "summary": "Sometimes it's got like, how many arms is that? Seven arms? Sometimes it's got three arms, sometimes it's got something else. And sometimes it's just rubbish. (Brady: This is just the squaring and adding part?) Squaring and adding. These are, what they call these are the orbits of- for every constant I pick which, you mentioned I picked one arbitrarily, happened to be up in the top left there, this one in fact. That's its orbit. But any other constant you pick, anywhere on the screen, has an orbit and some of them are boring. They're stable and some of them are not quite sure what the hell'…"
+  },
+  {
+    "id": "ku_video_FFftmWSzgmk_646",
+    "t_start": 646.2,
+    "t_end": 737.0,
+    "type": "overview",
+    "summary": "different from what I expected. And they were like well we're just cleaning them up. He's like stop cleaning them! I think what I'm trying to see is a weird messy dusty looking thing. And they were like, oh you want that. I don't know exactly what happened. There's a really good book by James Gleick called Chaos which kind of tells that story, worth a read. But I'm gonna simulate the dust that he saw. I'm sorry about the lack of brown paper but there's a reason for the colour. This is the same orbit thing I was showing you just now, can you see there's a, like a spirally three there. But I'…"
+  },
+  {
+    "id": "ku_video_FFftmWSzgmk_737",
+    "t_start": 737.6,
+    "t_end": 827.6,
+    "type": "overview",
+    "summary": "Stable, unstable. So it's even stable in this region. It goes into like two piles, but if I go outside the region it disappears. If I go up here you get into three piles. And in fact Holly's done a lovely video on how many piles you start making depending on which of these little bulbs you go into. But the first time that Mandelbrot saw this he had no idea about any of that structure. He just saw a shape which shocked him. First of all, it's beautiful, it's kind of weird, but getting a viewer to display it, like I've got on the screen now, you can go and watch any number of YouTube videos a…"
+  },
+  {
+    "id": "ku_video_FFftmWSzgmk_827",
+    "t_start": 827.6,
+    "t_end": 920.5,
+    "type": "overview",
+    "summary": "no. Because it's big. And that's an indication that you don't need to ask any more iterations to know what it's going to do. With complex numbers, it's less obvious what it's going to do, it's much harder to predict, but eventually we proved - mathematicians, I say we. Not me - mathematicians proved that if you go outside a circle radius 2, it's never coming back. But if you're inside you can't guarantee it. It might be bouncing round near the edge and it might stabilise again. And you see some of the orbits are complicated. So all you do with the computer is you ask it to check, let's say …"
+  },
+  {
+    "id": "ku_video_FFftmWSzgmk_920",
+    "t_start": 920.9,
+    "t_end": 1011.0,
+    "type": "overview",
+    "summary": "I'll do it slightly first. If I press J on here, there's the circle which is the original Julia set, and that's in the middle here. But if I move the mouse around you can see the Julia sets with different values of C start changing beautifully. Like, I mean, it's just a quick sketchy animation but it's already much more nice than the outlines you saw earlier and what I love about this is the Mandelbrot set is kind of like a map of Julia sets. So if you go and find a bit of the Mandelbrot set down here, this is called seahorse Valley, because it kind of looks like you've got loads of seahors…"
+  }
+]

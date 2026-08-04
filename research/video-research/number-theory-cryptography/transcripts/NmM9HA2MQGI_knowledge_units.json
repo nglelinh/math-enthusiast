@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ku_video_NmM9HA2MQGI_1",
+    "t_start": 1.4,
+    "t_end": 91.7,
+    "type": "overview",
+    "summary": "we talked a bit about end-to-end we talked a bit about end-to-end encryption already and encryption already and encryption already and a lot of the assumption is that we have a lot of the assumption is that we have a lot of the assumption is that we have some kind of symmetric key that we can some kind of symmetric key that we can some kind of symmetric key that we can use to talk privately so you and me have use to talk privately so you and me have use to talk privately so you and me have some kind of secret key and we use that some kind of secret key and we use that some kind of secret key a…"
+  },
+  {
+    "id": "ku_video_NmM9HA2MQGI_91",
+    "t_start": 91.7,
+    "t_end": 182.1,
+    "type": "overview",
+    "summary": "that we can both create the same key that we can both create the same key right so we're actually creating a key right so we're actually creating a key right so we're actually creating a key together in some sense together in some sense together in some sense so as always we'll go back to alice and so as always we'll go back to alice and so as always we'll go back to alice and bob for this so let's have alice over bob for this so let's have alice over bob for this so let's have alice over here here here right and bob over here i'm going to right and bob over here i'm going to right and bob ove…"
+  },
+  {
+    "id": "ku_video_NmM9HA2MQGI_182",
+    "t_start": 182.1,
+    "t_end": 272.6,
+    "type": "overview",
+    "summary": "uses the same one it depends on the on uses the same one it depends on the on the situation the situation the situation it can take a little time an extra it can take a little time an extra it can take a little time an extra message to send these things across so message to send these things across so message to send these things across so sometimes having them stashed ahead of sometimes having them stashed ahead of sometimes having them stashed ahead of time is a good idea so we've got g right time is a good idea so we've got g right time is a good idea so we've got g right this is this is g …"
+  },
+  {
+    "id": "ku_video_NmM9HA2MQGI_272",
+    "t_start": 272.6,
+    "t_end": 364.1,
+    "type": "overview",
+    "summary": "this is a bit orangy let's not critique this is a bit orangy let's not critique me too much so yeah they're very me too much so yeah they're very me too much so yeah they're very different to the originals and the different to the originals and the different to the originals and the important thing is that we don't know important thing is that we don't know important thing is that we don't know what went into here right we know g what went into here right we know g what went into here right we know g but we don't know a and we can't find but we don't know a and we can't find but we don't know …"
+  },
+  {
+    "id": "ku_video_NmM9HA2MQGI_364",
+    "t_start": 364.1,
+    "t_end": 455.6,
+    "type": "overview",
+    "summary": "so these go into the private domain now so these go into the private domain now i mean i could make a copy of them let's i mean i could make a copy of them let's i mean i could make a copy of them let's not um so alice is going to add her red not um so alice is going to add her red not um so alice is going to add her red in in in so let's go let's just add some red up so let's go let's just add some red up so let's go let's just add some red up to about there it doesn't really work to about there it doesn't really work to about there it doesn't really work because they're ready to be faint and…"
+  },
+  {
+    "id": "ku_video_NmM9HA2MQGI_455",
+    "t_start": 455.6,
+    "t_end": 521.3,
+    "type": "overview",
+    "summary": "combined in any way combined in any way to get to get to get this value or this value which are the this value or this value which are the this value or this value which are the same the only way to do that is to find same the only way to do that is to find same the only way to do that is to find out what a and b are and the only way to out what a and b are and the only way to out what a and b are and the only way to do that is to split up one of these two do that is to split up one of these two do that is to split up one of these two public components which is very very public components whic…"
+  }
+]

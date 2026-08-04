@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ku_video_fPVXBurxfU8_10",
+    "t_start": 10.6,
+    "t_end": 103.1,
+    "type": "overview",
+    "summary": "Do you want to talk about a fourcolor theorem a bit and computer proofs? Is theorem a bit and computer proofs? Is that something you've got opinions on? that something you've got opinions on? And &gt;&gt; maybe even the capitalist sphere packing conjecture. You were involved with a conjecture. You were involved with a proof of that. The fourcolor theorem was proof of that. The fourcolor theorem was the first time that such discussions arose &gt;&gt; although we'd run into it in group &gt;&gt; although we'd run into it in group theory. &gt;&gt; Hacken and appel I almost uh spoonize those two…"
+  },
+  {
+    "id": "ku_video_fPVXBurxfU8_103",
+    "t_start": 103.1,
+    "t_end": 193.6,
+    "type": "overview",
+    "summary": "machine program that tested reducability. Now as soon as this came out there was a tremendous amount of there was a tremendous amount of discussion in things like the scientific discussion in things like the scientific American and the new scientist and you American and the new scientist and you know in mathematics departments all over know in mathematics departments all over the place and the discussion rather the place and the discussion rather missed the point. The discussion was can call it a proof &gt;&gt; if the machine did it or if it was only &gt;&gt; or if no human could ever check…"
+  },
+  {
+    "id": "ku_video_fPVXBurxfU8_193",
+    "t_start": 193.6,
+    "t_end": 285.2,
+    "type": "overview",
+    "summary": "do it again and it really is and they had accumulated a sort of familiarity with what the machine did and they saw sort of knew machine did and they saw sort of knew that uh they were just essentially that uh they were just essentially there. You know, if whatever case you there. You know, if whatever case you handled, you could it was either reducible or could be split into a few cases which maybe one of them needed to cases which maybe one of them needed to be split a bit more. But in any case, in be split a bit more. But in any case, in the end, they were all reducible. and they uh made …"
+  },
+  {
+    "id": "ku_video_fPVXBurxfU8_285",
+    "t_start": 285.2,
+    "t_end": 376.4,
+    "type": "overview",
+    "summary": "something um allow poof was a bit smaller you know and then eventually smaller you know and then eventually my colleague um here Paul Seymour at my colleague um here Paul Seymour at Princeton Princeton um mechanized the case discussion part &gt;&gt; so there's no human involvement &gt;&gt; no human interaction at all so to speak &gt;&gt; whereas mathematicians wanted to take it &gt;&gt; whereas mathematicians wanted to take it the other way &gt;&gt; yes I mean by the way I had ideas still have about proving the fourcolor have about proving the fourcolor theorem. But um but anyway, theorem. …"
+  },
+  {
+    "id": "ku_video_fPVXBurxfU8_376",
+    "t_start": 376.4,
+    "t_end": 467.5,
+    "type": "overview",
+    "summary": "and well perhaps the nicest thing to say is it wasn't a proof and the claim is it wasn't a proof and the claim didn't stand up. It took quite a a loss didn't stand up. It took quite a a loss of discussion to sort of verify that. of discussion to sort of verify that. &gt;&gt; But that was not a computer proof. I &gt;&gt; computers weren't an issue. Hales and his student Ferguson his student Ferguson eventually produced a proof that the Um and um on the other hand it started off the same kind of discussion again uh off the same kind of discussion again uh because it involved heavy computation…"
+  },
+  {
+    "id": "ku_video_fPVXBurxfU8_467",
+    "t_start": 467.5,
+    "t_end": 559.9,
+    "type": "overview",
+    "summary": "um which they sent to a team of essentially Eastern European refu uh essentially Eastern European refu uh mathematicians, referees who um were had been interested working on similar problems themselves and so on similar problems themselves and so on and they issued a normal referees and they issued a normal referees report. But then the computational part report. But then the computational part uh they didn't quite do that with and it was published in another place and so on. And unfortunately on. And unfortunately the editorial comment about this sort of the editorial comment about this so…"
+  },
+  {
+    "id": "ku_video_fPVXBurxfU8_559",
+    "t_start": 559.9,
+    "t_end": 652.2,
+    "type": "overview",
+    "summary": "and you'll you'll they'll say August the 12th, 19 90 something. And then you can have a complete log of all the interactions between the people and the interactions between the people and the machine on that date. And it amounted to And they there were two suppose the inequality is for two functions of one inequality is for two functions of one variable. f is always less than or equal to g you know then uh you divide the interval up into a finite number of interval up into a finite number of regions and you check that the inequality holds at all the division points and then you at all the d…"
+  },
+  {
+    "id": "ku_video_fPVXBurxfU8_652",
+    "t_start": 652.2,
+    "t_end": 745.6,
+    "type": "overview",
+    "summary": "journal, you know, of um what the referee's job is. It's a pity because we referee's job is. It's a pity because we should be celebrating should be celebrating the setting of a new standard for proofs &gt;&gt; and it probably is going to become a bigger question. &gt;&gt; I don't know if you were involved in any computer proofs. I mean certainly the computer proofs. I mean certainly the work on large sporadic groups involved a work on large sporadic groups involved a lot of computation. lot of computation. &gt;&gt; Yes. &gt;&gt; Yes. &gt;&gt; I [snorts] don't know if J4 was computer &gt;&gt…"
+  },
+  {
+    "id": "ku_video_fPVXBurxfU8_745",
+    "t_start": 745.6,
+    "t_end": 836.3,
+    "type": "overview",
+    "summary": "other one. It was the use of a computer for either the fourc color theorem of it for either the fourc color theorem of it Kepler conjecture very different from Kepler conjecture very different from that the machine was doing fairly that the machine was doing fairly straightforward calculations &gt;&gt; yes that that's what I think in all these group theoretical things you know these group theoretical things you know with many of them the essential part was &gt;&gt; or a multiplication of matrices &gt;&gt; that's routine and if you don't believe &gt;&gt; that's routine and if you don't belie…"
+  },
+  {
+    "id": "ku_video_fPVXBurxfU8_836",
+    "t_start": 836.3,
+    "t_end": 927.9,
+    "type": "overview",
+    "summary": "Len Sutter mutual friend um he proved a lot of things about the monster by co-et lot of things about the monster by co-et enumerations but the final things you know to get to the monster itself &gt;&gt; was beyond too big to be done by machine it still is I think the big thing there it still is I think the big thing there was, you know, to find clever ways of was, you know, to find clever ways of thinking of it by hand. Um, Grace found a way of constructing it with no use of computation. I think with no use of computation. I think there may have been some trivial use. I don't know. Um, I si…"
+  },
+  {
+    "id": "ku_video_fPVXBurxfU8_927",
+    "t_start": 927.9,
+    "t_end": 932.4,
+    "type": "overview",
+    "summary": "effect on me. I want to start thinking about it again, you know."
+  }
+]

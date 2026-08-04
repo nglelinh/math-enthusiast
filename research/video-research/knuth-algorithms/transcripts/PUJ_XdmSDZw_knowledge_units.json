@@ -1,0 +1,422 @@
+[
+  {
+    "id": "ku_video_PUJ_XdmSDZw_12",
+    "t_start": 12.9,
+    "t_end": 102.2,
+    "type": "overview",
+    "summary": "Okay, well, it's great to see so many familiar faces and so many new faces familiar faces and so many new faces today and at least you're smiling now, so that's a good sign, too. Maybe I can give a good good sign, too. Maybe I can give a good talk. A lot of you are maybe wondering about these books that are strewn these books that are strewn on the floor in the front. This is this is part of a Christmas tradition. Uh Christmas tradition. Uh every all through the year I I keep getting copies of my books that are copies of my books that are like they a new printing came out and and so they gi…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_104",
+    "t_start": 104.6,
+    "t_end": 195.1,
+    "type": "overview",
+    "summary": "you and your friend each get one. Uh and and the other one is uh Uh and and the other one is uh Uh if you ask a specific a particularly good question during the talk, good question during the talk, then I'm going to mention that that that then I'm going to mention that that that you get first choice before somebody you get first choice before somebody else because otherwise you might come up with your only get one of the other ones that you didn't want to read other ones that you didn't want to read anyway. those are the ground rules one to customer and and then there's going to customer an…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_195",
+    "t_start": 195.1,
+    "t_end": 286.3,
+    "type": "overview",
+    "summary": "right permutation today but if I don't well, you might have to watch the video well, you might have to watch the video and and replay it. Uh the can see it where at the bottom is is dancing cells and as Pax mentioned the dancing cells and as Pax mentioned the uh my talk 5 years ago was called dancing links and also in the when when the whole thing was was kind of brand new I I also had a was kind of brand new I I also had a amusing on YouTube called dancing links. amusing on YouTube called dancing links. And yeah, I I watched them and I'm still not too embarrassed about what I said then but…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_286",
+    "t_start": 286.3,
+    "t_end": 381.6,
+    "type": "overview",
+    "summary": "no need to learn anything more but what what I'm talking to today is something that I I learned you know 3 years ago and and I I learned you know 3 years ago and and I I could have learned 10 years ago if I was if I looked the right place. So so uh and I'll I'll get into the details but the whole story starts with one of the the whole story starts with one of the one of the first really uh science. I don't know if if anybody in the audience remembers this one. in the audience remembers this one. Aho, Hopcroft, and Ullman. Aho, Hopcroft, and Ullman. Hands, anybody know this book? Here's one.…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_381",
+    "t_start": 381.6,
+    "t_end": 471.7,
+    "type": "overview",
+    "summary": "exercise I mean in my copy of the book in the back cover I I noticed you pages that really surprised me and this and the first one surprised me and this and the first one was exercise 2.12 uninitialized memory. was exercise 2.12 uninitialized memory. Well, and so so what's that all about? Uh well, let's let's let's suppose we have a a huge array in memory. Um uh and in those days um a huge array meant more than a thousand a huge array meant more than a thousand or or or than 10,000 but but but now you you could just imagine we have have some could just imagine we have have some array that t…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_471",
+    "t_start": 471.7,
+    "t_end": 563.5,
+    "type": "overview",
+    "summary": "it was all initialized to zero. But but I don't want to take the time to I don't want to take the time to actually do the initialization. That you actually do the initialization. That you know that that might be take longer than know that that might be take longer than my whole program. So so my whole program. So so uh what's what's the secret? And and so the secret is uh and so the secret is uh Okay, so well we can call this uh sparse, I guess. Um and then I have another another array over here called dense. Um and and um uh what happens is I look at this element, what whatever it is. Uh a…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_563",
+    "t_start": 563.5,
+    "t_end": 657.0,
+    "type": "overview",
+    "summary": "maybe next thing I I put something here in position 1618 and and so I can put a in position 1618 and and so I can put a one there and I put 1618 here. And and then I uh uh uh do more computation and and say, \"Okay, now let me look at 3142.\" Well, I I look at 3142, it has the number zero I look at 3142, it has the number zero in it. I check zero. Oh, yeah, that's in it. I check zero. Oh, yeah, that's that that that matches. So, that's good. that that that matches. So, that's good. Uh so so now I do some more calculation. What's another number I might want to do here? 2718 or something like t…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_656",
+    "t_start": 657.0,
+    "t_end": 752.1,
+    "type": "overview",
+    "summary": "sometime during the '80s, I got around to to revising my book that Art of to to revising my book that Art of Computer Programming, Volume 1 and Computer Programming, Volume 1 and and uh uh the third edition didn't come out until 25 years ago, but uh but but at that time we did I I did have the exercise on page 307 here the exercise on page 307 here called the sparse array trick. So, suppose you want to use a larger array for random access, although you won't for random access, although you won't actually being referred to very many of actually being referred to very many of its entries, you…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_752",
+    "t_start": 752.1,
+    "t_end": 843.8,
+    "type": "overview",
+    "summary": "Um so So let's say read read read K. Okay, what does that mean? So So I So I set set R to sparse of K. All right, and then I say if less than S and and dense of Can you read that equals K? Um return data of I I I'm going to have another I I I'm going to have another another array data here where where another array data here where where actually we're we're actually actually actually we're we're actually actually put uh put uh actually put stuff. So So we return return data of K. Uh you know, otherwise uh I set sparse of sparse of K to S. Um and dense of S to K. to K. And I I'm also going t…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_843",
+    "t_start": 843.8,
+    "t_end": 939.4,
+    "type": "overview",
+    "summary": "S um to S plus one and return zero. And so so this is an integer subroutine with K and so it subroutine with K and so it returns zero the first time something returns zero the first time something comes in and so so it income 999 comes in and so so it income 999 whatever it is it's it's not going to whatever it is it's it's not going to pass this test and so we're going to set sparse of uh uh I'm 999 K is 999 so we're going to set sparse of 999 to S which is three. set sparse of 999 to S which is three. Uh and then we're going to set dense of S to K which is which is here. Um and we're goin…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_939",
+    "t_start": 939.4,
+    "t_end": 1030.3,
+    "type": "overview",
+    "summary": "that came out um So, this is 1993. So, this is 1993. A paper that that came out by Preston Briggs and Linda Thorson at at Rice. Uh and and Linda Thorson at at Rice. Uh and and they're working on compilers. compilers they're working on compilers. compilers and and they had they had uh and and they had they had uh uh developed uh uh developed uh an extension of these ideas that turned out to be important uh in in their compiler implementation and and and so here it says uh Inspired by a memorable homework problem of Aho et al. All the problem 2.12, we developed a sparse set representation tha…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_1030",
+    "t_start": 1030.3,
+    "t_end": 1122.6,
+    "type": "overview",
+    "summary": "They only wanted to know uh you know, this list here uh you know, this list here uh of the dense stuff. So So uh of the dense stuff. So So uh at at but but They gave up basically the algorithm that I just wrote down except that we that I just wrote down except that we didn't have to store anything or return didn't have to store anything or return zero. they did something new because their compiler needed it and because their compiler needed it and that is on the next page they had a operation. Deletion is something that A.L. Hopcroft Ullman did not talk about A.L. Hopcroft Ullman did not ta…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_1122",
+    "t_start": 1122.6,
+    "t_end": 1214.8,
+    "type": "overview",
+    "summary": "that the Japanese translation has been finished and will be published in 2 finished and will be published in 2 weeks. So So the the Korean and Chinese translations are are going to be second and third in this in this race. But okay, so now in this race. But okay, so now I think uh Let's see, where am I on page 40 on page 40 here. So So here I'm talking about 40 here. So So here I'm talking about combinatorial algorithms and how to combinatorial algorithms and how to how to represent uh when you want to undo your operation as well as do things. So, your operation as well as do things. So, so…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_1214",
+    "t_start": 1214.8,
+    "t_end": 1305.0,
+    "type": "overview",
+    "summary": "instead of instead of the uh, so I would start with a set that was empty. Now we're starting with Now we're starting with with the entire set and we delete stuff periodically and this is something that Brings and Touissant did that that wasn't done before they did they deleted instead of inserted. Uh, uh, so instead of inserted. Uh, uh, so so here's Uh, let's suppose that we have a set with with with four things in it. I got with with with four things in it. I got three three, nine, one and four. three three, nine, one and four. And so so so here's the set. It's it's just listed by sequenti…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_1304",
+    "t_start": 1305.0,
+    "t_end": 1397.4,
+    "type": "overview",
+    "summary": "move the nine over here and bring the four four to where the nine was and then just move move the tail back. So So you can see see by deleting we you can see see by deleting we we sort of do a swap in there and uh uh everything works. Zip zip zip. that's the I That's the idea of deletion and I'm I'm going to work out a and I'm I'm going to work out a an example an example in some details in order to make it clear. I hope. Um in this application uh then I've got a a uh a universe of of possibilities. Um and I I want to at every point I want to be be I want to at every point I want to be be r…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_1397",
+    "t_start": 1397.4,
+    "t_end": 1489.4,
+    "type": "overview",
+    "summary": "of the possible elements of the domain. So here here I'm considering considering that a domain is is some subset of 0 1 2 3 4. domain is is some subset of 0 1 2 3 4. And uh And uh and I've got all these numbers here that I and I haven't told you what they mean and I haven't told you what they mean this is dom of zero, this is dom of one, this is dom of zero, this is dom of one, this is dom of two. This is the these are the identity permutations. So so it just happens that that that we start out everything dom of zero is zero, dom of one is one dom of zero is zero, dom of one is one and and …"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_1489",
+    "t_start": 1489.4,
+    "t_end": 1579.8,
+    "type": "overview",
+    "summary": "now. So So um at this point I'm going to I'm going to switch the four with the three. And S is going to go down to three and and um and the inverse permutation Well, so zero is still in position zero. Well, so zero is still in position zero. Four is now in position three. Two is still in position two. Three is in position one and and one and four is in position three. Oops, one is in position four. So So this is the inverse inverse permutation. inverse permutation. Um So So I So So In other words, uh the first S elements of Dom, these are the elements of our set. the elements of our set. Uh…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_1579",
+    "t_start": 1579.8,
+    "t_end": 1670.1,
+    "type": "overview",
+    "summary": "and then write down the algorithm and pretty soon you you'll see why it's so pretty soon you you'll see why it's so very simple. So So if I delete two, all very simple. So So if I delete two, all I'll have to do is is move is move that line one space to the left because I I don't have to swap anything. because I I don't have to swap anything. Um Delete zero. I'm going to have to switch three zero. S is S is now one. one. And so zero is in position one, one is in position four, two is in here, three is All right. Now so so that's the that's the idea of that's the idea of but the beauty that …"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_1670",
+    "t_start": 1670.1,
+    "t_end": 1760.5,
+    "type": "overview",
+    "summary": "but but now S is two. I'm not I'm I'm not back at what I had before. I'm sorry, this is 3 0. I I'm sorry, this is 3 0. I I don't change anything except the I don't change anything except the S and so I don't change anything except the cut off. And so so so um And so so so um I've got I I've got the same set of set I had here but it's not it's not exactly the same but it's not it's not exactly the same representation because every every representation because every every subset has many representations. and so the beauty is undeletion is it is trivial. it is trivial. I mean just change S. So…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_1760",
+    "t_start": 1760.5,
+    "t_end": 1853.5,
+    "type": "overview",
+    "summary": "start started this whole process with 3 0 2 4 1 uh and 1 4 2 3. Any any any permutation and its inverse I I could have started and its inverse I I could have started that and say that that's my that and say that that's my representation of of the entire domain. representation of of the entire domain. Oh. Okay. Now you So So dancing So So as the algorithm proceeds the these these numbers in here I And the importance of this was was first recognized 10 years ago in recognized 10 years ago in in this paper in this paper uh that came out that this is 2013. Uh sparse sets for domain implementati…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_1853",
+    "t_start": 1853.5,
+    "t_end": 1947.2,
+    "type": "overview",
+    "summary": "30 years ago. What actually happened was I think they discovered it independently and then discovered it independently and then they were showing to people and say, \"Oh yeah, this is the same as at what people were calling sparse at what people were calling sparse sets.\" I write out the algorithm and we can see what it and we can see what it what it means. So delete K um um says I dom of K. Uh in other words, I want to delete Uh in other words, I want to delete element K. So I I say, \"Where is Where element K. So I I say, \"Where is Where Where does K sit in the dom array?\" So I dom of K tel…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_1947",
+    "t_start": 1947.2,
+    "t_end": 2038.3,
+    "type": "overview",
+    "summary": "And and I dom of L to R because this this preserves the inverse permutation. Um and then we also uh Um and then we also uh you know, keep track of of going on for the larger elements. of going on for the larger elements. I dom of I dom of L I Oops, dom of dom of S is um K and I dom of K is S. check that that's what I did in this uh in this No. uh in this No. That's dancing cells. Let me Let me show you what it was what it was like with what it was what it was like with dancing links. dancing links. Um dancing links was intended to solve the same kind of problem where we want to same kind of…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_2038",
+    "t_start": 2038.3,
+    "t_end": 2129.5,
+    "type": "overview",
+    "summary": "so so so so so there's a header node. And then after the header node, this guy And then after the header node, this guy this point to this this point to this this point to this this point to this this point to this. Now, when I deleted one, uh in this case, uh what happens? Well, we still got the what happens? Well, we still got the header node. Um and zero is here, but zero doesn't point to one anymore. Zero points over to two. to one anymore. Zero points over to two. Um and two points back to zero now. but we but we still have the doubly linked list. linked list. Uh connecting, okay? And …"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_2129",
+    "t_start": 2129.5,
+    "t_end": 2220.9,
+    "type": "overview",
+    "summary": "to to be unclean, to be sloppy. Not to clean up our act. So so after one was deleted, one one still is pointing to two and and as its successor and it's still pointing as its successor and it's still pointing to zero as its predecessor. And and after four was deleted, four is still pointing here. So that when I want still pointing here. So that when I want to do an undelete, I to do an undelete, I it's it's easy to do an undelete because which pointers I have to change when I'm undeleting. And that was that was the undeleting. And that was that was the idea of dancing links. idea of dancing…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_2220",
+    "t_start": 2220.9,
+    "t_end": 2315.3,
+    "type": "overview",
+    "summary": "out, I it wasn't going to be garbage collected and and and I was going to be able to uh to do to do everything zip zip later on. So, with the dancing cells, uh on. So, with the dancing cells, uh the new idea is that uh uh We we we keep track of what's going on to to the right of of the bar. The elements bigger than S in the array, We keep them up to date. We we keep an inverse permutation going all the time. inverse permutation going all the time. And we're And then we're in good shape. Okay. So, so So, now, uh I'm going to uh so So, now, uh I'm going to uh uh go and uh show you more exactl…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_2315",
+    "t_start": 2315.3,
+    "t_end": 2406.2,
+    "type": "overview",
+    "summary": "well, I I guess you you could you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you Briggs and and Torson didn't know how to do complement, but but now we do do do complement, but but now we do do because we have the inverse, right? Yeah, okay. Uh what if like let's say you had you Uh let's say that you wanted to make like a positive set instead of So you like a positive set instead of So you initially delete everything from your set, but you do it in the or I basically the reverse frequency order. So if you the reverse frequ…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_2406",
+    "t_start": 2406.2,
+    "t_end": 2496.4,
+    "type": "overview",
+    "summary": "ABC and then undelete B Yeah. It Do you do the swapping, right? do the swapping, right? It's always last in, first out. Okay. Yeah. No, I I'm There is a way to That's called insertion. Okay. Yeah. Okay. I'm glad for these questions because and the people who ask questions by the way have priority for the books. So so uh So so uh Now uh Now I want to talk about the context of of this whole thing. So So why am I of this whole thing. So So why am I interested in domains and what you know interested in domains and what you know I So I So uh The the general context is uh solving combinatorial pr…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_2496",
+    "t_start": 2496.4,
+    "t_end": 2591.3,
+    "type": "overview",
+    "summary": "uh and and good by good I mean uh declarative. I I say what the arrangements are without without giving the method that I'm going without giving the method that I'm going to have to to do it but but defining to have to to do it but but defining this this means to formalize to you know this this means to formalize to you know to make a model to to make a model to you know some kind of you know encoding of the problem explaining exactly what it means. So So So So I know I know three good ways to uh uh to to uh to encode or or make a model of uh uh of to encode or or make a model of uh uh of u…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_2591",
+    "t_start": 2591.3,
+    "t_end": 2682.8,
+    "type": "overview",
+    "summary": "SAT, this is for satisfiability. Um Um and and that's this is the special case of CSP when all the domains are just Boolean. Every variable has just two value two possible values. While the CSP allows uh possible values. While the CSP allows uh you know you know D-ary D-ary uh uh things. In fact, it it also allows continuous and infinite domain but I but continuous and infinite domain but I but but that's way beyond me. I I I'm a finite guy. Um and and and the third way is it is XCC which is um it is XCC which is um exact covering with colors. Uh now um XCC, XCC is the is the new kid on the…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_2684",
+    "t_start": 2684.6,
+    "t_end": 2776.0,
+    "type": "overview",
+    "summary": "I might give one more lecture trying to popularize it. But, anyway, sooner or popularize it. But, anyway, sooner or later, people will realize that that later, people will realize that that that that XCC is it it is really important idea. And and each of these is sort of equal powerful. each of these is sort of equal powerful. I can take any CSP and I can I can I can I can take any CSP and I can I can I can encode it I can convert it to a SAT convert it to an XCC problem in several ways. And and similarly, XCC problem I ways. And and similarly, XCC problem I can represent as SAT, I can repr…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_2777",
+    "t_start": 2777.6,
+    "t_end": 2865.2,
+    "type": "overview",
+    "summary": "These are are lots of different kinds of problem and uh This is only the tip of the iceberg. It ends with uh with puzzles. Okay, so um That's the context why I'm interested in dancing cells. I want I You know, we got CSP solvers, we got SAT solvers, and we got XCC solver. And up until up until last year the best XCC solver was was called DLX was called DLX or DLX2 anyway. or DLX2 anyway. DL stood for dancing links. And uh And so we had uh For more than 20 years the the method of choice if you had a XCC problem choice if you had a XCC problem DLX was was doing very well. DLX was was doing ve…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_2867",
+    "t_start": 2867.7,
+    "t_end": 2958.9,
+    "type": "overview",
+    "summary": "Christine Solnon who I mentioned a few minutes ago a few minutes ago uh introduced me to this idea of The name dancing cells by the way is is The name dancing cells by the way is is her it's her idea too. Um and she she her it's her idea too. Um and she she introduced me to this other data introduced me to this other data structure um structure um instead of using doubly linked list, I I could use two arrays, permutation and inverse permutation. And permutation and inverse permutation. And so let me show show you now um what is an XCC problem and and how do we actually implement it with wit…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_2960",
+    "t_start": 2960.3,
+    "t_end": 3057.4,
+    "type": "overview",
+    "summary": "we're trying to find arrangements. So so maybe it's a schedule for for classes at for final exams at the maybe we're maybe we're trying to assign peop- people to jobs and and so then an option would be you know, assign run the camera. Uh uh uh the items are are the uh uh uh the items are are the uh uh like Joe for it would be an item. A- and and a and a camera. Um and and and items are are either primary or or or secondary. So we have a primary item So we have a primary item um um and a secondary item and uh the the name the name XCC says exact covering with colors the the difference betwee…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_3057",
+    "t_start": 3057.4,
+    "t_end": 3150.3,
+    "type": "overview",
+    "summary": "it's assigned a color and and in your options and in your options uh for a secondary item you don't have to have that secondary item doesn't have to be in any of the options. But but whatever in any of the options. But but whatever options it does appear it has to always options it does appear it has to always have the same color. have the same color. So so so so so uh So to the primary option says uh uh you know This this this is the option that uses that uses me. The secondary option says uh these are the flavors uh which I can appear. So so you can think of a crossword puzzle of a crossw…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_3150",
+    "t_start": 3150.3,
+    "t_end": 3244.3,
+    "type": "overview",
+    "summary": "Th- These are primary. And these are secondary. I'm going to give you the options. Alpha, Beta, Gamma, Delta, Epsilon are Alpha, Beta, Gamma, Delta, Epsilon are are five options. The first option is P Q X C Y A. Okay. So, so So, so Option Alpha says take P cover P, cover Q uh uh give give X color C, give Y color A. give give X color C, give Y color A. Uh Beta is P R Uh Beta is P R X color A, Y color C. Uh Gamma is says take P all by itself and X color B. Uh Delta says take Q and X color A. And Epsilon says take R and Y color B. And Epsilon says take R and Y color B. So, so let's see if we c…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_3244",
+    "t_start": 3244.3,
+    "t_end": 3337.6,
+    "type": "overview",
+    "summary": "I I've covered P and Q, so I I I can't cover I can't cover beta Uh I can't cover gamma cuz I've already covered P. And I can't cover delta cuz covered P. And I can't cover delta cuz I've already covered Q. So I So so I've already covered Q. So I So so if I've chosen alpha, then then the only way I can cover R is is to choose epsilon, but that says Y is is to choose epsilon, but that says Y is colored B and Y is has already been colored A. So I So alpha is out. could be no way to solve this with alpha. Well, let's suppose alpha is out, then Now I Now there's only one one way left Now I Now t…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_3337",
+    "t_start": 3337.6,
+    "t_end": 3427.1,
+    "type": "overview",
+    "summary": "Okay, so yeah. Yeah, so Yeah, so all right. Now so so the the but the um the key thing to realize as we're solving this problem is that solving this problem is that that uh get a sub problem which is another XCC problem that's simpler than the one we problem that's simpler than the one we started with. So so so for so so if I if for example, if if I say that that I if for example, if if I say that that I choose alpha, choose alpha, then then it tells me to eliminate all the other already covered P, it tells me eliminate this, eliminate this, and eliminate this, eliminate this, and eliminate…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_3428",
+    "t_start": 3428.5,
+    "t_end": 3522.2,
+    "type": "overview",
+    "summary": "the old uh uh I So so I had the same problem um Turn on page 89 of I'm 4B. It turned out the same toy problem uh what what was the same toy problem uh what what was here and and and I showed how it was represented with with with doubly linked list. I with with with doubly linked list. I mean, each mean, each each uh each thing had a pointer to uh to its neighbors. In this in this data structure. Let's do it now however with uh Let's do it now however with uh with dancing cells. with dancing cells. So so here now okay now pay attention look I'm going to have I'm going to have one array that …"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_3522",
+    "t_start": 3522.2,
+    "t_end": 3618.3,
+    "type": "overview",
+    "summary": "And then there's something called the local part of X. So node of X really has has three components. has three components. And uh so so here's what here's why I list my my toy problem so my my toy problem so I got uh I got uh uh item X is going to be P Q P Q X Y it's it's for alpha here is going to is going to appear here. Um is going to appear here. Um I between between options I I've got a I've got a I've got a spacer. so there's going to be 6 7 I'm going to put beta here put beta here um and that's P R X Y. X Y. Um and then uh the spacer and gamma is going to be um going to be um p and u…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_3618",
+    "t_start": 3618.3,
+    "t_end": 3715.4,
+    "type": "overview",
+    "summary": "X is color a, y is color b. So, this is so so in my so so in my um um I- I- in this array of nodes, I have I have the data and it it then I have to to to the data and it it then I have to to to for for the spacer in order to in order to navigate around here. navigate around here. So so so I put um with four items, I I I put a minus four in the item position. A- And so, this is in the item position. A- And so, this is going to be a minus four and this is going to be a minus two and a minus two and a minus two. A- and then be- before uh in the low position, I I I'm putting a plus four here an…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_3715",
+    "t_start": 3715.4,
+    "t_end": 3808.3,
+    "type": "overview",
+    "summary": "and this is this is going to be uh interesting but but bear with me as I as interesting but but bear with me as I as I write it out. I write it out. Uh So um I is goes 0 1 2 3 4 and so on and so on. Uh it and and in and I'm going to associate P item P with with location two. item P with with location two. It you'll see why in in a minute. But but but uh P if you see uh uh item P occurs three times. It occurs uh item P occurs three times. It occurs here in position one in in six and and here in position one in in six and and 11. So for my dancing cell data 11. So for my dancing cell data str…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_3808",
+    "t_start": 3808.3,
+    "t_end": 3901.3,
+    "type": "overview",
+    "summary": "other information that that's going to be helpful I'm going to put size of P. And here I'm going to put some something And here I'm going to put some something I call position of P. I call position of P. Just just write size. So this is So this is size and this is size for for Q and the size of of for for Q and the size of of P is three because there are three P is three because there are three things in this set. things in this set. So 1 6 and Okay. So So Q appears So 1 6 and Okay. So So Q appears Q appears in in two and 14. So there's two and 14 here. Then I'm going to have R is similar T…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_3903",
+    "t_start": 3903.4,
+    "t_end": 3995.3,
+    "type": "overview",
+    "summary": "contain P and and by looking at the size I know how options are available for for that guy. So um Then there's another there's another array item which array item which which completes the which completes the there there are five items uh and and one of them is one of them is is p p q r x and y. And I have uh And I have uh uh uh So, so now I I actually my handwriting isn't isn't very good, so I printed this this all out and I made the assignment that that that p is equal to uh Uh, you know, p is equal to q is equal to seven and r and so on. So, the seven and r and so on. So, the So, the ite…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_3995",
+    "t_start": 3995.3,
+    "t_end": 4084.7,
+    "type": "overview",
+    "summary": "That's where that's where x equal appears in the set So, we've got the the the These numbers These numbers um th- this is a permutation of the places where p where where p of the places where p where where p appears. these are the This is This is um This is alpha here. Uh, this is beta. This is gamma. This is delta. epsilon And um uh so so so uh so so so 2 3 4 2 3 4 is a permutation of the place where P appear uh It It's the um uh the way everything appears in compactly the way everything appears in compactly in memory and uh uh in memory and uh uh The cool thing about dancing cells is when…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_4086",
+    "t_start": 4086.2,
+    "t_end": 4177.9,
+    "type": "overview",
+    "summary": "each thing uh each item has a dedicated part of the set array. uh and as the algorithm runs color field of a node are always going to be fixed. These are constant that to be fixed. These are constant that they stay the same. But but as things go in and out of these domains we're going to change we're going to change the local parts and we're we're also going to change these numbers here. So so so let me show you what happens when we decide that option alpha it it is no good. at what at some point we come to the conclusion that that we don't want uh we don't want alpha anymore in our problem…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_4177",
+    "t_start": 4177.9,
+    "t_end": 4272.9,
+    "type": "overview",
+    "summary": "We want to delete delete one from this set of three elements. from this set of three elements. So, that means I'm going to I'm going to So, that means I'm going to I'm going to move 11 here and move one up here and move 11 here and move one up here and I'm going to change the size to two from three to two. That's the deletion operation on on this before I was I was I was drawing an array left to right. Now, I'm doing it array left to right. Now, I'm doing it top to top down, but but but but but by by changing this two by changing set of two to to uh by changing set of two to to uh from one …"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_4275",
+    "t_start": 4275.0,
+    "t_end": 4366.9,
+    "type": "overview",
+    "summary": "It's all a mess now, so here's what happened after I have purged uh alpha from the system. Uh I I I'm now uh alpha from the system. Uh I I I'm now left with left with uh size is two. This is the uh the head here, so um uh alpha you know alpha is still here in the nodes, but the but but but but it's invisible. the but but but but it's invisible. Uh if we look in the sets you know, the set the set of P now has only two things in it. Uh the set of Q now has only one thing in it. Uh the set of R the uh still has two things in it. of R the uh still has two things in it. The set of X uh The set o…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_4366",
+    "t_start": 4366.9,
+    "t_end": 4458.5,
+    "type": "overview",
+    "summary": "appears in in this option here, which is uh Here it is. Uh yeah, so so 14, this is this is delta. so 14, this is this is delta. And I have to um now saying, \"Oh, I'm going to choose now saying, \"Oh, I'm going to choose option delta.\" Choosing option delta says um I'm I um I I Okay, option delta. I I Okay, option delta. You you know, that's Q and uh and uh You you know, that's Q and uh and uh uh X A uh And And and so I'm covering Q. Uh that means uh Q is no longer ac- active. And so I'm going to move it I'm going to And so I'm going to move it I'm going to move it to the end of this list. Th…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_4458",
+    "t_start": 4458.5,
+    "t_end": 4554.4,
+    "type": "overview",
+    "summary": "go through all all of these things and I delete the delete the where X was not equal to A. And uh uh So I look at all the places where X appeared, 15, 8, 12. appeared, 15, 8, 12. Uh 15 was A, that's fine. 8, um I- I- is A, that's fine. 12 is B. So So I- I- is A, that's fine. 12 is B. So So I got to remove this. I got to remove this. So So um Okay, so so this size goes down to two. And And um and also X becomes inactive. Uh so so so active goes down to three. Uh so so so active goes down to three. So so so at this point I'm I'm sitting after I've chosen after I've chosen delta, delta, uh you…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_4554",
+    "t_start": 4554.4,
+    "t_end": 4645.2,
+    "type": "overview",
+    "summary": "R and and Y. And And and this table tells me exactly what's What's that? And and uh So once I go to a subproblem, I can easily go back afterwards and if I if I say, \"Oh, no, let let me not go to that subproblem. Let me do the go to that subproblem. Let me do the other way.\" Uh and undoing is extremely fast in this in this Okay, so so so that's the this Okay, so so so that's the um um uh that's the idea of dancing cells and and and now I'm going to show you uh performance of you know, that that it actually works. But but it it a question before Yeah. Do you have before Yeah. Do you have a pa…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_4645",
+    "t_start": 4645.2,
+    "t_end": 4736.3,
+    "type": "overview",
+    "summary": "of uh uh of um Y went from four to one. Yeah. Okay, very good. Uh You I have a question. So, I might just not have understood this, but I'm more not have understood this, but I'm more coming from a SAT domain, and you said coming from a SAT domain, and you said every XC C problem is equivalent to SAT every XC C problem is equivalent to SAT problem, right? So, in SAT, one of the things that makes solving really efficient is conflict in SAT solving, one of the things that makes solvers really efficient is makes solvers really efficient is actually conflict learning. So, you actually conflict …"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_4736",
+    "t_start": 4736.3,
+    "t_end": 4831.2,
+    "type": "overview",
+    "summary": "the learning and so on. In my XCC solvers, however, uh In my XCC solvers, however, uh I haven't I haven't gotten I haven't put learning in yet. Uh And and still on the kinds of problems that they're working on, that they're working on, it turns out that uh such a win as it is for SAT solver. But but but I I take other problems and But but but I I take other problems and I convert them into SAT and and I convert them into SAT and and and you know, sometimes the learning is really important. And similarly with with with CSP and and so on. And there's also questions of restarts and all kinds a…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_4831",
+    "t_start": 4831.2,
+    "t_end": 4926.3,
+    "type": "overview",
+    "summary": "I brought Yeah. Yeah. So Right now I'm working on volume 4 C. Uh and the first part of volume 4 C is going to be about um going to be about um uh uh uh uh CSP. So, so so volume 4 B was sort of the half of it was XEC, half of it was the half of it was XEC, half of it was set was set. And And volume 4 C is is starting out with uh constraint satisfaction. So, the I'm in the middle of writing it and um I'm in the middle of writing it and um uh I've still got I'm I'm hoping to finish it by spring. it by spring. Uh uh this part and and then it it'll be available online. Uh you're clever, you can …"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_4926",
+    "t_start": 4926.3,
+    "t_end": 5017.6,
+    "type": "overview",
+    "summary": "So, so So, I I I I set up a a a bunch of benchmark problems that that they were typical and not too they were typical and not too not too easy. And And so, here's a uh I don't want to go go to the detail of what what they are, but but for example, problem Q is is the but for example, problem Q is is the classical problem of uh classical problem of uh uh uh uh uh of 16 queens. Take a 16 by 16 board and place one queen in every row and one in every queen in every row and one in every column and no two in the same diagonal. And uh uh 14 million solutions to this the the you have 256 options. U…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_5017",
+    "t_start": 5017.6,
+    "t_end": 5112.2,
+    "type": "overview",
+    "summary": "cells 44 gig mems. So we we didn't win that one. Um we didn't win that one. Um However, almost um almost all the other However, almost um almost all the other cases were doing rather well. So here cases were doing rather well. So here the ratio the ratio was another pro- problem that I added later D is 60% 66 uh So so D is 60% 66 uh So so there's uh there's uh uh there was one uh which was rather simple problem because did it didn't take very long to solve at all where dancing links worked better. all where dancing links worked better. But but in in in in in in in in in in in But but in in …"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_5112",
+    "t_start": 5112.2,
+    "t_end": 5204.6,
+    "type": "overview",
+    "summary": "interesting problem about uh uh making snake paths with windmills that I can't explain uh I can't explain uh shortly, but but but anyway, uh another heuristic that was invented two or three years ago uh or three years ago uh called the the failure rate statistics. called the the failure rate statistics. Uh In this case, you know, you know, gave a big speed-up uh the problem of of MacMahon tiles. And so, uh And so, uh uh that was that was one of the one of the nice things that uh nice things that uh uh Now now when when I combine uh When I combine the heuristics with with uh and dancing cell…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_5204",
+    "t_start": 5204.6,
+    "t_end": 5298.8,
+    "type": "overview",
+    "summary": "but but I also have benchmarks that that are much more difficult problems are much more difficult problems for which I want to do more extensive more extensive pruning more I want to I want to I want to do do much better look ahead that couldn't be used. And so and so there's a a general idea that that we that we important in CSP called the domain consistency consistency which in the context of XCC problems I don't want to keep any option that that could cause some other item to that could cause some other item to become wiped out. become wiped out. And so because I have dancing cells, I wa…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_5298",
+    "t_start": 5298.8,
+    "t_end": 5394.6,
+    "type": "overview",
+    "summary": "search tree, I was going through so fast on each part of the search tree, there was no point in in trying to make the search tree smaller. Uh search tree smaller. Uh in fact, I spent 6 months trying to find where I needed the extra where I was I was going to get it back where I was I was going to get it back the amount of extra computation the amount of extra computation in order to in order to to keep the search tree small. However, However, the eventually I I found a bunch of problems for which uh uh this domain DC stands for domain consistency, FC stands for forward consistency, which is…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_5394",
+    "t_start": 5394.6,
+    "t_end": 5487.8,
+    "type": "overview",
+    "summary": "MCC problems and and this is a vast generalization of X2C. So the MCC problem So the MCC problem says that item has to be covered exactly once, you you give a range and say every primary you give a range and say every primary item has to be covered at least eight item has to be covered at least eight times and at most B times. times and at most B times. And and this uh opens up a large number of of other uh opens up a large number of of other problems and it's it's important global constraint that uh you know that that that that So so when I use dancing links to solve MCC problems, I had to…"
+  },
+  {
+    "id": "ku_video_PUJ_XdmSDZw_5487",
+    "t_start": 5487.8,
+    "t_end": 5561.3,
+    "type": "overview",
+    "summary": "with dancing links compared to dancing cells and and and three different uh uh cells and and and three different uh uh heuristics, uh we make make major uh make major improvements in these in most of these. So so here for example, I I I was doing 200 uh gigamems example, I I I was doing 200 uh gigamems and now it's down to 39 or 38 gigamems So so people who who are are want to go through this want to go through this further, further, my programs are are online. Uh so so so is the program that solves This is sparse set This is sparse set XCC solver. XCC solver. SSMCC SSMCC is the new one I j…"
+  }
+]

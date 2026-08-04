@@ -1,0 +1,2059 @@
+[Music] professor
+lobaz and professor victorson we first want to congratulate you for
+we first want to congratulate you for being the abu prize recipients for 2021
+being the abu prize recipients for 2021 and we cite the arbel committee
+and we cite the arbel committee for their foundational contributions to
+for their foundational contributions to theoretical computer science and
+theoretical computer science and discrete mathematics
+and their leading role in shaping them into central fields of modern
+into central fields of modern mathematics
+mathematics
+our question to you is the following and here is the background
+we would like you to comment on the remarkable change that has occurred over
+remarkable change that has occurred over the last few decades in the attitude of
+the last few decades in the attitude of say
+mainstream mathematics towards discrete mathematics and theoretical computer
+mathematics and theoretical computer science
+not that many years ago it was quite common among many first-class
+mathematicians to have a skeptical if not condescending opinion of this type
+not condescending opinion of this type of mathematics
+could you start professor lavage to comment on this
+i think that's true it it took time uh before two things were realized i
+uh before two things were realized i think actually there are two things
+think actually there are two things about
+theoretical computer science that are very relevant for mathematics one is
+are very relevant for mathematics one is simply that it's a source of exciting
+simply that it's a source of exciting problems
+when i when we when i finished university with some other young
+researchers we started a group to study
+computer science and because we realized that it's it's it's
+because we realized that it's it's it's such a huge unexplored field what can be
+computed and how fast and how well the
+uh and then the second thing is that when
+when uh answers began to come in particular when
+particular when the notion of
+non-deterministic polynomial time and polynomial time became
+kind of in the center then we realized that all mathematics
+then we realized that all mathematics can be
+viewed in a completely different way through these
+through these notions through effective computation and
+proof of uh short proofs of of of existence
+existence and
+so these two things for us young people were so
+for us young people were so inspiring that that we
+we really started to to make this connection with with
+mathematics uh
+so i i think that it took time until the rest of mathematics realized but it
+the rest of mathematics realized but it gradually went i mean number theory
+gradually went i mean number theory a number theory it turned out to be very
+important then
+in group theory these notions came in and then slowly
+these notions came in and then slowly over a lot of other areas of mathematics
+victorson please uh yeah i completely agree that
+completely agree that there is some truth in the fact that
+there was a condescending attitude
+in you know some mainstream mathematics or maybe more mathematicians
+mathematics or maybe more mathematicians towards discrete
+towards discrete uh mathematics uh
+it was probably less thoughts theoretical computer science because
+theoretical computer science because this sort of existed in the
+realm of computer science and was developing and
+you know maybe just people were less aware of it
+aware of it directly i think that uh
+you know lassi is obviously uh right in that
+that uh
+the very uh ideas of algorithms uh that were introduced in theoretical
+that were introduced in theoretical computer science and notions of
+computer science and notions of complexity where where and are
+complexity where where and are fundamental to mathematics and it took
+uh i think that the real truth is that it was realized
+the real truth is that it was realized long ago by all mathematicians of all
+long ago by all mathematicians of all ages they all use the algorithms they
+ages they all use the algorithms they all needed to compute things i mean
+gauss's famous challenge to the mathematical community to actually
+find fast methods to test whether a number is prime and to factor integers
+number is prime and to factor integers you know is extremely eloquent uh given
+you know is extremely eloquent uh given the time it was written it is really you
+fast algorithms to be developed so it's not that these were not realized i think
+not that these were not realized i think that
+more of the part of discreet mathematics was viewed by some
+in the sense is that if the only finite number of possibilities that we uh
+you know we have to test then in principle it can be done so what's the
+principle it can be done so what's the problem though
+uh i think the notion of efficient algorithms uh you know clarifies what's
+algorithms uh you know clarifies what's the problem there i mean because
+the problem there i mean because yeah
+things to try out and you will never do it right so if instead you have a fast
+it right so if instead you have a fast algorithm for doing it then you know it
+algorithm for doing it then you know it makes all the difference and the
+makes all the difference and the question whether such an algorithm
+question whether such an algorithm exists uh
+it clarifies the importance of uh having it similarly as last he said
+having it similarly as last he said having efficient certificates just ways
+having efficient certificates just ways of convincing somebody else that some
+of convincing somebody else that some property holds uh you know this is the
+making characterizations of mathematical properties
+properties uh if you know that
+property like that is mp complete we realize because of compensation or
+realize because of compensation or complexity that you are unlikely to find
+so i think this understanding uh evolved it of course
+understanding uh evolved it of course caught up first with uh
+caught up first with uh you know definitely
+you know definitely uh
+uh pioneers at the time in the 70s
+discrete mathematical area because that was the most natural that's well
+was the most natural that's well at least it's easy to formulate
+at least it's easy to formulate problems so that you can attach
+problems so that you can attach complexities to them and then
+you know gradually it evolved to other parts of mathematics and the number zero
+parts of mathematics and the number zero is a great example because
+is a great example because there too uh
+um you know there are discrete problems and the discrete methods are hiding
+and the discrete methods are hiding behind lots of you know
+behind lots of you know famous
+number theoretical results so um yeah and then
+from there it's gradually you know dispersed on i think by now it's pretty
+dispersed on i think by now it's pretty universal the understanding how
+universal the understanding how important discrete math and theory of
+a naive question but as a non-expert i have few inhibitions so here it goes
+have few inhibitions so here it goes why is it that turing's notion of what
+is called a turing machine captures the intuitive idea of an
+captures the intuitive idea of an effective procedure and so to speak set
+effective procedure and so to speak set the standard for what can be computed
+the standard for what can be computed and how is this related to hilbert's and
+and how is this related to hilbert's and scheidung's problem could we start with
+scheidung's problem could we start with you vegeta please
+yeah avi will be better that will be easier to pronounce uh
+i think that my first recommendation would be to read touring's paper i mean
+would be to read touring's paper i mean to read all his papers he writes so
+eloquently that when you read let's say his problem
+let's say his problem his paper
+on computing procedures and then china's problem you will understand everything
+there are many reasons why uh several reasons why the turing machine
+several reasons why the turing machine is uh so fundamental so basic uh
+is uh so fundamental so basic uh the first one is that it's simple it's
+extremely simple it's so simple that it was evident to
+many others at the time that it's so simple it can be directly implemented
+simple it can be directly implemented and thereby he started the computing
+and thereby he started the computing revolution if you look at other notions
+revolution if you look at other notions of computability that people study
+of computability that people study together and others and definitely
+together and others and definitely hillbilly
+with recursive functions and so on they don't lend themselves to being you know
+you have to make a machine out of them so this was fundamental uh the second is
+so this was fundamental uh the second is that it was subsequently in in very few
+that it was subsequently in in very few years proved that all notions all know
+years proved that all notions all know all the other notions of efficient uh
+you know of convincibility were equivalent
+so the turing machine simple as it is consider could simulate all of them so
+it was you know uh encompassed all of them but it was much simpler to describe
+them but it was much simpler to describe a third one is that
+a third one is that one way uh turing motivates his model he
+saying well look how what we do we humans do we human calculators do when
+humans do we human calculators do when we are supposed to solve a problem let's
+look at what we do on the piece of paper just you know abstract and formalize
+formalize it and when you do that you are led automatically to my model to my
+are led automatically to my model to my turing machine so
+turing machine so that's the the
+fourth reason is the univ universality then the fact that
+uh with his model he makes this point of course immediate uh
+course immediate uh is that it's a universal model namely
+that in
+have part of the data be a program you want to uh you want to run and it will
+want to uh you want to run and it will just emulate this program so that's why
+just emulate this program so that's why we have
+laptops computers and so on you know there are just one machines you don't
+there are just one machines you don't have a different machine to
+integrate and a different machine to test primality right you have one
+test primality right you have one machine in which you provide a program
+that's a [Music]
+that's another point and yeah so so
+you know all these reasons i can talk more about it but maybe i should uh
+more about it but maybe i should uh that's enough it's it's uh it's just
+an amazing uh social revolution encapsulated in a in a really simple
+encapsulated in a in a really simple notion that everybody can understand and
+notion that everybody can understand and use so that's the that's the power of it
+use so that's the that's the power of it now the uh
+relation you asked about the relation to the enchanter problem uh
+the enchanter problem uh uh you know hillary belt had the dream
+and the dream had two parts that uh everything that is true in mathematics
+everything that is true in mathematics is provable
+and that uh everything provable can be automatically computed
+that was the two parts of his dream will get their shatter of the first one
+get their shatter of the first one he proves that there are two facts that
+he proves that there are two facts that say about
+integers that cannot be proven and then uh
+during a chat of the second one it shows that there are you know uh provable
+that there are you know uh provable things that are not computable
+things that are not computable uh
+turing's proof uh is uh not only far simpler i mean it's a
+not only far simpler i mean it's a diagonal argument it's a clever diagonal
+diagonal argument it's a clever diagonal argument i'm sure everybody knows but it
+in fact also implies they get a result if you think about it and the way most
+if you think about it and the way most people to teach
+you know gathers the incompleteness it's via
+uh well i don't know if most but anyway the way we do it
+notion so that's the connection now of course turing was inspired by by gathers
+course turing was inspired by by gathers work i mean the whole thing that led him
+uh working on computability was there was gender's work so
+was gender's work so yeah that's a connection
+professor lobage um
+yeah maybe just uh just one thought i i would like to add
+i would like to add uh
+is really just consists of two parts it's a finite automaton and a memory now
+it's a finite automaton and a memory now if you think about it
+if you think about it the
+uh memory uh is needed you whatever computation
+uh is needed you whatever computation you do you you you need to remember the
+you do you you you need to remember the the the partial results
+so there is a memory and the simplest wave is just uh just write it on a on a
+wave is just uh just write it on a on a on a uh
+on a tape on a honest in a string and and then
+the the finite automaton is sort of the simplest thing that you can define which
+simplest thing that you can define which will do some kind of
+will have any kind of computation and if you combine the two you get the
+and if you combine the two you get the turing machine so it's it's also natural
+turing machine so it's it's also natural from this point of view
+from this point of view um
+now comes a really big subject but i have some leading
+subject but i have some leading questions
+questions so
+what is the p versus np problem what is it
+where why is that problem the most important in theoretical computer
+science and of course it prestige is enormous because it's one of
+clay millennium problems what would the consequence be if p is
+what would the consequence be if p is equal to np
+how do you envisage a proof of p different from np would require all
+different from np would require all tools and the first question the
+tools and the first question the question goes to you professor lovaj
+well let me again go back when i was a student
+i i talked to tiborgala he was a distinguished graph theorist
+distinguished graph theorist and my mentor
+and he said well you know here is here are these two very simple graph
+are these two very simple graph theoretic problem does a graph have a
+theoretic problem does a graph have a perfect matching
+so can can the vertices be paired so that the pairs are
+vertices be paired so that the pairs are connected to each pair is connected by
+connected to each pair is connected by an edge
+an edge or
+the other one is whether it has a hamiltonian cycle
+so does it either whether it has a cycle which contains order
+all the nodes the vertices and he said that one is well solved and there is a
+that one is well solved and there is a lot of very nice literature about it and
+lot of very nice literature about it and the other we just have sort of
+the other we just have sort of superficial results maybe non-trivial
+results but still very superficial and so he he said well maybe you should
+and so he he said well maybe you should think about coming up with some
+think about coming up with some explanation
+now unfortunately i couldn't come up with an explanation for that
+with an explanation for that but uh
+but we we tried to do with my friend peter gatch
+we were trying to find ways and to prove it and then we both went off
+to prove it and then we both went off and he went to
+to moscow for a year i went to nashville tennessee for a year we got
+nashville tennessee for a year we got different
+scholarships and then we came back and and then we both started to sort of
+and then we both started to sort of wanted to
+speak first because we both learned about the theory of pnp which completely
+about the theory of pnp which completely explained this that
+explained this that the
+perfect matching problem is in p and the hamilton cycle problem is
+and the hamilton cycle problem is np-complete
+np-complete so
+after this that that we that it explains something that was a really
+something that was a really tough question
+tough question uh
+it was clear that this is going to be a central topic and then of course
+central topic and then of course with the work of carp about
+proving the np completeness of everyday lots of everyday day problems
+lots of everyday day problems uh the whole theory was uh
+uh the whole theory was uh so so peter gatch learned it from
+so so peter gatch learned it from leonard levin in moscow and i learned it
+you know i i not personally but it was already discussed at at uh coffee
+already discussed at at uh coffee coffees at conferences so
+coffees at conferences so uh that was
+so so i can understand so so the pro so so this theory
+so this theory or this these notions p and np
+they made such a an order where there was chaos before
+an order where there was chaos before that
+that that was really overwhelming
+yeah let me speak of course uh the fact that it uh
+uh puts an order of things in a somewhat uh you know the world that looked uh
+uh you know the world that looked uh pretty chaotic uh is a major reason why
+this problem is important and uh in fact uh
+this sort of almost a dichotomy almost all natural problems we we want to solve
+all natural problems we we want to solve are either in p as far as we know all
+in the two examples that lassie gave perfect matching is in p
+we can solve it quickly and uh we can characterize this we can do lots of uh
+characterize this we can do lots of uh we understand it really well and
+we understand it really well and hamiltonian cycle problem is a
+hamiltonian cycle problem is a representative of an np completes
+problem and the main point about mp completeness is that every problem in
+completeness is that every problem in this class
+uh is equivalent to every other so if you solve one you've solved all of them
+you solve one you've solved all of them and by now we know thousands of problems
+and by now we know thousands of problems that we want to solve in logic in number
+that we want to solve in logic in number theory and combinatorics in uh
+optimization and so on that are equivalent so suddenly we have these two
+equivalent so suddenly we have these two classes
+classes uh
+whether they're equal or not this is a previous mp question and we know that
+previous mp question and we know that all we need to
+answer it is just know the answer for one of them one of these
+one of them one of these mp complete problems but
+i want to take a higher level point of view uh
+higher level point of view uh about the importance of this problem
+about the importance of this problem and
+related to what i said you know natural problems we want to compute i often
+problems we want to compute i often argue in uh you know at least in
+argue in uh you know at least in popular lectures that uh
+popular lectures that uh problems in np
+uh people feel that it's you know maybe too technical to
+you know maybe too technical to understand are really all the problems
+understand are really all the problems that
+we human we human uh and especially mathematicians can never
+and especially mathematicians can never hope to solve
+hope to solve okay because
+problems we are trying to solve is that we will at least know if we solve them
+we will at least know if we solve them right i mean we we don't normally embark
+right i mean we we don't normally embark not just mathematicians the
+not just mathematicians the physicists don't try to you know uh you
+build a model for something if they don't think that when they find it they
+don't think that when they find it they will know if they found it
+will know if they found it or the same with
+engineers with designs or uh you know detectives with the you know solution to
+detectives with the you know solution to their puzzles
+their puzzles every i think that
+in every uh undertaking
+undertaking we
+embark on we assume that when we find what we were looking for we have we know
+what we were looking for we have we know that we have found it but this is the
+this is the problem is mnp exactly if you can check that the solution you
+if you can check that the solution you got is correct
+okay so now we understand what mp is now if p equals mp it means that all of
+have an efficient algorithm all of them can be solved really quickly on a
+can be solved really quickly on a computer
+so in some sense uh if p equals np
+everything we are trying to do uh can be done you know i don't know maybe find a
+done you know i don't know maybe find a solid cure for cancer and
+serious problems uh can be you know all this can be found quickly by uh by an
+this can be found quickly by uh by an algorithm
+algorithm so
+uh that's why it's important but let's also i think to most people is the
+also i think to most people is the reason to believe that probably p is
+reason to believe that probably p is different than mp
+different than mp uh
+maybe if i can add another one more thought so you asked about how it will
+thought so you asked about how it will how how can it be proved that p is not
+equal to np maybe ah
+ah so
+there's a nice analogy here with constructions with ruler and compass
+constructions with ruler and compass so that's one of the oldest
+so that's one of the oldest algorithms notions exact notions of
+algorithms notions exact notions of algorithms what can you construct by
+greeks already i mean they formulated a problem like tri-centing the angle
+problem like tri-centing the angle or doubling the cube
+or doubling the cube and
+they probably believed or conjectured that
+it was not solvable by ruler and compass but to prove this that
+ruler and compass but to prove this that it's not solvable by ruler and compass
+even even today it's not easy i mean it's it can be taught in an
+it's it can be taught in an undergraduate class but
+in an advanced undergraduate class let me say this so you had to develop the
+theory of algebraic numbers and
+add a little bit of gala last theory in order to to be able to prove this
+order to to be able to prove this so
+sometimes the problem is much simpler but to prove that it's not solvable by
+but to prove that it's not solvable by in that case very specific class of
+in that case very specific class of algorithms
+takes a huge development in in a completely different area of mathematics
+completely different area of mathematics and i expect that maybe p not equal to
+of course we probably won't have to wait 2 000 years for the solution but
+2 000 years for the solution but but but it will take a substantial
+but but it will take a substantial development somewhere in some area which
+development somewhere in some area which we may not even know are aware today of
+but i take it for granted that you both think that p is different from np right
+think that p is different from np right i i do
+i i do but i must say that the reasons we have
+are not very strong you know main main reason is that
+main main reason is that you know we uh
+you know we uh what i what i said before is that uh
+uh you know for mathematicians and i'm sure for you too uh
+sure for you too uh the very fact that
+it seems much easier to read proofs of theorems that were already discovered
+theorems that were already discovered than to discover these proofs uh
+than to discover these proofs uh suggested
+suggested p is different than np and
+algorithms for many of these mp complete problems for practical reasons like
+problems for practical reasons like various scheduling problems optimization
+various scheduling problems optimization problems
+problems uh
+graph theory problems and failed
+so this failure may suggest that there is no such algorithm but of course it's
+is no such algorithm but of course it's a weak argument so in other words yeah i
+a weak argument so in other words yeah i intuitively feel so but
+intuitively feel so but [Music]
+yeah i don't think it's a strong argument i just believe it as a belief
+working hypothesis professor witcheson
+you were born in 1956 in haifa in israel could you tell us when you got
+could you tell us when you got interested in mathematics and in
+interested in mathematics and in particular in theoretical computer
+of course i got interested in mathematics much earlier
+mathematics much earlier probably is
+probably is a very young child
+introduced me to to this he liked to ask me questions and puzzles as a
+me questions and puzzles as a very young child and seeing that i was
+growing up he found books that i uh i could read and there will be
+i could read and there will be you know more problems in there and
+main early interaction that in mathematics
+we had a very good uh mathematics uh
+mathematics uh uh
+teacher who came from uh from the ukraine and uh
+a special class for interested kids and he you know you know starts us
+kids and he you know you know starts us more exciting stuff like college level
+more exciting stuff like college level stuff and i got
+stuff and i got even more excited
+even more excited about it and of course in college
+i got much more into it it's it's actually
+uh an accident that i got to computer science and thereby to theoretical
+science and thereby to theoretical computer science
+after my army services i was applying to colleges in israel i thought of i
+colleges in israel i thought of i thought i wanted to do math but
+my parents uh suggested that maybe it's good also to have a
+profession when i graduate so they said why don't you study
+you know there'll probably be lots of math in it anyway and you'll enjoy it
+math in it anyway and you'll enjoy it but
+when you graduate you'll have a computer science diploma
+science diploma nobody was thinking about academia i
+uh and so uh yeah i went to the computer science department at the technion and
+science department at the technion and uh yeah i think
+uh yeah i think it was
+extreme lucky i'm sure i i if i were in a math department i would be interested
+a math department i would be interested in many other things analysis
+combinatorics i don't know and so on but because i was in a computer science
+because i was in a computer science department
+theory courses we had in particular very inspiring teacher
+shimon evan at the technion and his courses were you know mainly on
+and his courses were you know mainly on algorithms
+uh and np completeness uh were extremely inspiring and so i was drawn into this
+inspiring and so i was drawn into this that was you know you know it was math
+that was you know you know it was math but the math i loved
+but the math i loved doing so when i applied to graduate
+uh continue doing that so that's how i was drawn to theorize your computer
+was drawn to theorize your computer science
+so in another interview earlier on you have described yourself as a beach uh
+beach bum and as a soccer devotee so that contrast rather
+soccer devotee so that contrast rather starkly with what you're telling us now
+starkly with what you're telling us now there are two sides to you
+there are two sides to you don't i don't think it's all that
+don't i don't think it's all that there's a contrast
+yeah i mean if you think about the place i grew up
+i mentioned that my dad was the main intellectual contact with mathematics
+intellectual contact with mathematics the
+schools in this neighborhood were not very good was
+and anyway everything that anybody did we it's a neighborhood by
+anybody did we it's a neighborhood by the beach so everybody wasn't the
+beaches but you you are a beach bum by definition we were and the weather in
+definition we were and the weather in israel is wonderful so it can be
+israel is wonderful so it can be maybe 300 days a year on the beach or in
+so that was the one past time activity the other thing there was no
+the other thing there was no you know soccer is the easiest you know
+you know soccer is the easiest you know it's the easiest game to play where you
+no facilities and that's what we did we did a lot of it so i think it was uh
+just under i mean growing up and you know
+these activities uh yeah i never saw myself as a kid as a an intellectual i
+myself as a kid as a an intellectual i knew i loved math but i
+that was one of the activities i loved i loved soccer i loved swimming and i
+loved reading and that's that's how i spend all my youth and i don't see any
+contrast i mean if anything it's probably good
+yeah actually of course it's it's been famous that you can do mathematics on
+famous that you can do mathematics on the beaches of rio so i guess you can do
+it in haifa as well professor lavarz
+professor lavarz you were definitely not a beach bum
+you you were supported by the by the hungarian school system in every
+by the hungarian school system in every aspect weren't you you follow it through
+until i was entering eighth grade i didn't have any
+special subject that i was particularly interested in the eighth grade i started
+interested in the eighth grade i started to
+go to a math club and i realized that there are
+how interesting problems there are and then the teacher of the math club
+and then the teacher of the math club recommended that i go to a particular
+recommended that i go to a particular high school which was just starting
+high school which was just starting there which was specializing in
+mathematically talented kids and we had
+about 10 hours of mathematics 10 classes of mathematics a week
+of mathematics a week which
+this group of people of students enjoyed very much i including myself
+very much i including myself and i enjoyed very much the
+the fact that i was among among a fairly large group of
+among a fairly large group of children
+who were or students or pupils who were uh quite similar
+uh interest and in the in the elementary school i was
+sort of a little bit outside the sort of the the cool group of the class
+sort of the the cool group of the class so i was not
+not in the in the mainstream of the class but but
+in in this high school class i was i i found myself much more at home
+i i found myself much more at home in fact
+in fact so much at home that uh
+i i married one of my classmates and we still
+are together so this is uh this this high school was really uh
+an absolute uh great uh start for my life that's how i feel about it before
+life that's how i feel about it before that it was
+that it was yeah you had to survive the the school
+that was so at the end this uh this high school was really
+this high school was really not only the other kids but
+not only the other kids but uh that was in the first half of the 60s
+and there were many good mathematicians in budapest but they didn't really have
+in budapest but they didn't really have a chance to
+to travel or to do anything outside hungary so
+they had more time in in uh they came to the high school and gave
+they came to the high school and gave talks to they they had great interest in
+talks to they they had great interest in this group of
+of our group in our group and so we learned a lot from them and i mean i
+we learned a lot from them and i mean i should
+of course mention paul addis who was
+who was often visiting the class and gave talks gave problems and so
+gave talks gave problems and so it was very inspirational there
+so but but even so to quote actually uh professor bitterson he says in the land
+professor bitterson he says in the land of prodigies and stars in hungary and
+of prodigies and stars in hungary and its problem-solving tradition
+he that meaning you shown from a very early age and i have a
+shown from a very early age and i have a witness who
+recalls rushing home from school to listen to the final of one of the
+to listen to the final of one of the competitions in which you participated
+competitions in which you participated on national broadcast is that correct
+on national broadcast is that correct where you solve the combinatorial
+problem real time it's kind of hard to imagine here in the west that you do
+imagine here in the west that you do such things
+such things but but
+this was part of what you were doing uh that was one of the uh
+things that went on uh for a few years then unfortunately then it stopped
+then unfortunately then it stopped because i thought it was a
+very good uh popularization of mathematics i mean
+you know people would want to compete so so the way it worked was that there were
+so the way it worked was that there were two
+two glass cells and in each
+and in each there was one of so two two children
+students were sitting in the two cells and they got the same problem and then
+and they got the same problem and then they had to solve it and then and then
+tell the solution maybe there was a blackboard in the
+blackboard in the behind
+and i i i remember that people i think people like to see young nice young
+people like to see young nice young people sweating and doing their
+people sweating and doing their their best to
+their best to to win
+to win uh
+uh and and
+you know most people cannot jump over two meters but nevertheless we look at
+two meters but nevertheless we look at the olympic games and
+the olympic games and so
+so people
+people had probably the same approach to this
+even today i i meet people of course older people who say yeah i saw you on
+older people who say yeah i saw you on tv when you were
+in high school and i was maybe in eighth grade of elementary school and it was so
+nice to watch you so it it's really really uh something quite special
+really uh something quite special i i think
+part of the story which makes it so fun to listen to is or or hear about is that
+to listen to is or or hear about is that you i think you told that the solution
+you i think you told that the solution to the final problem that you won the
+competition was you had learned a solution from the other competitor isn't
+solution from the other competitor isn't that correct
+that correct yes
+yes yes yes yes so that was but yeah so we
+yes yes yes so that was but yeah so we were also good friends we still are very
+good friends with with the
+especially the two two people who i had the final the semi-final and this final
+the final the semi-final and this final was
+one was latzkovich is came up with the proof of
+came up with the proof of of tarski's conjecture about
+of tarski's conjecture about squaring the circle
+and the other one was lawyers porsche is very well known in in education in math
+very well known in in education in math education he did a lot in
+developing methods to to teach uh talented students so
+so this was was good very good times yeah i we before we leave this subject
+yeah i we before we leave this subject we should also mention that you won the
+gold medal three years in a row from 1964 to 65 and 66 in the international
+1964 to 65 and 66 in the international mathematical olympiad when you were only
+mathematical olympiad when you were only 16 17 and 18 years old that's fantastic
+i i don't know any one that has such a record in in that competition but anyway
+record in in that competition but anyway yeah there are others they people have
+yeah there are others they people have won it four times some some others yeah
+you can go to the to the to the home page of the
+international mathematical olympiad and
+that there is a
+we often characterize mathematicians as theory builders or as problem solvers
+theory builders or as problem solvers where would you place yourself on a
+where would you place yourself on a scale ranging from zero
+scale ranging from zero that is a theory builder to one being a
+problem solver let's start with the uh
+i love solving problems i love solving problems but uh you know i i
+i think it's probably true for uh for many that
+be with solving the problem you had but you immediately think of oh this is how
+you immediately think of oh this is how i solved it uh
+maybe there's a techniques that can be applied in other places and you do apply
+applied in other places and you do apply it in other places and you write it in
+most general forms and that's how you present it then you may be called also a
+theory builder so i don't know i i don't want to characterize myself i
+can live it to others i i enjoy doing both things finding
+i enjoy doing both things finding solutions to problems and trying to
+solutions to problems and trying to understand how they
+understand how they apply
+elsewhere i love understanding connections between
+understanding connections between different
+more between different areas i think we are lucky in
+in the theoretical computer science that many sort of dispersed areas are so
+many sort of dispersed areas are so intimately connected sometimes not
+intimately connected sometimes not obviously so
+obviously so like with the hardness of randomness and
+yeah so so theorem is built by such connections
+i i i have similar feelings i uh i like to solve problems i started
+uh i like to solve problems i started out uh
+sort of uh by the under the inspiration of paul eddish who was
+of paul eddish who was really
+always putting everything into breaking down the
+questions into problems i think that was particular strengths of his mathematics
+particular strengths of his mathematics that he could formulate
+that he could formulate a simple problems and
+i don't remember who said about him that it would be nice to know the general
+it would be nice to know the general theories that are in his head which he
+theories that are in his head which he breaks down into these problems that he
+breaks down into these problems that he feeds us so that we can solve them and
+and indeed based on his problems whole new areas
+new areas rose
+extreme graph theory random graphs theory
+probabilistic combinatorics in general and and and
+and and and also various areas of number theory
+i am a little bit so that i started out as a problem
+so that i started out as a problem solver but i always like to
+solver but i always like to to also make connections and and
+try to build something more general on a particular uh problem problem i have
+particular uh problem problem i have solved
+solved okay
+we'll continue to to professor lavage the following question
+several papers with your mentor paul erdersch i think six papers all together
+erdersch i think six papers all together and i could ask you of course which one
+of these is your favorite but i think i have the answer to that and you can
+have the answer to that and you can correct me if it's not correct
+correct me if it's not correct uh namely the the the term low watch
+uh namely the the the term low watch local lemma
+first of all tell us what it's all about and apparently a weak version of this
+and apparently a weak version of this was proved in 1975 in a joint paper with
+so that's why i think this maybe is your favorite paper probably
+favorite paper probably erdos
+and dilemma is very important uh and to attest to that importance is that
+maeser and tardos i don't know if i pronounce it correctly received a good
+pronounce it correctly received a good price in 2020 for their algorithmic
+price in 2020 for their algorithmic version of the lowers local emma anyway
+version of the lowers local emma anyway could you tell us what the lorash local
+lemma is all about okay i'll try uh
+okay i'll try uh if you
+if you have
+a lot of events
+you can worry at least in discrete mathematics you can formulate like there
+mathematics you can formulate like there are a number of bad
+are a number of bad events
+that are bad events and you want to avoid all of them
+avoid all of them and then the question is can you can you
+a condition under which you can avoid all of these
+so the most basic thing is that if the probabilities of these events add up to
+probabilities of these events add up to something less than one then with
+something less than one then with positive probability you avoid all of
+positive probability you avoid all of them
+that's a very basic trick in ineptly in in application of combinatory of
+in application of combinatory of probability in in discrete mathematics
+their number is much larger so you the the probabilities add up to something
+the probabilities add up to something very large another special case when you
+very large another special case when you can say it is if they are independent
+can say it is if they are independent events
+then if you can avoid each of them separately then there is a positive
+separately then there is a positive probability that you avoid all of them
+probability that you avoid all of them just simply the product of the
+just simply the product of the probabilities that for each of them that
+and the local lemma is some kind of combination of these two ideas
+combination of these two ideas if the events are not independent
+if the events are not independent but each of them is dependent only on a
+small number of others then you can still
+then you can still have this
+have this this
+chance so that if the sum of the probabilities of those that it depends
+probabilities of those that it depends on is less than one not the total sum
+but just those then you can
+then you can still do positive probability avoid each
+of those and
+maybe i should add one thing here is that
+there was a problem of erdos which i was thinking about i came up with this
+was thinking about i came up with this lemma we were together with erdos at
+lemma we were together with erdos at actually ohio state
+actually ohio state that for the for a summer uh
+and so i was and and so it it solved the problem and
+and and so it it solved the problem and then we wrote a
+then we wrote a long paper on that problem and related
+problems including this lemma
+erdesh who realized that this lambo was sort of
+more than just dilemma for this particular problem
+he made sure that it was no it became known under my name so
+no it became known under my name so normally it would be called erdes sl
+normally it would be called erdes sl edersch hyphen lobas locolema because it
+edersch hyphen lobas locolema because it appeared in a joint paper of us but
+he always wanted to make sure that for young people if they had something then
+young people if they had something then it became known and so that was
+it became known and so that was that was one of these uh one of these
+that was one of these uh one of these things that
+things that of course i i benefited from his
+in 1955 knesser conjecture how many colors you need in order to color a type
+colors you need in order to color a type of naturally occurring
+of naturally occurring graphs known as now as kinesiographs
+in
+you lassi
+proved the knesset conjecture by encoding the problem as a question of
+which you answered by using standard tools in homotopic theory
+tools in homotopic theory and by doing so
+and by doing so you boosted the field of combinatorial
+how did such a line of approach occur to you and can you say something about the
+you and can you say something about the problem problem in your solution
+very briefly but it goes back to one of these difficult problems the
+these difficult problems the uh
+the chromatic number problem how many colors do you need to color a graph
+colors do you need to color a graph properly where a proper means that the
+properly where a proper means that the neighboring points must have different
+neighboring points must have different colors
+and that's a difficult problem for in general it's an np complete problem
+general it's an np complete problem and one of the
+first approaches is that one looks at local structure so if a graph has
+local structure so if a graph has many psa many points which are mutually
+many psa many points which are mutually adjacent
+then of course you need many colors and the question is is there always such
+and the question is is there always such a reason
+and it was already known at that time that there are
+there are graphs which have absolutely no local structure so there are they
+don't have short cycles uh but but nevertheless you need many
+uh but it was an interesting question to construct such graphs or maybe just
+construct such graphs or maybe just exclude triangles or exclude somehow
+exclude triangles or exclude somehow it's easier if you exclude odd cycles
+from the graph and
+there was a well-known construction for such a graphs for such graphs by
+such a graphs for such graphs by looking at the
+looking at the uh
+the sphere and then connecting two points if they are almost
+points if they are almost antipodal
+antipodal and then borsuk theorem says that you
+more colors than the dimension to color it so that
+to color it so that these almost and the border points have
+different colors so that was one construction and the
+the vertices will be the k element subsets of an n element set where n is
+subsets of an n element set where n is larger than 2k and you connect two of
+larger than 2k and you connect two of these if they are
+disjoint and gnazer conjectured what would be the chromatic number of such a
+would be the chromatic number of such a graph
+it was an interesting problem and
+going around in budapest and uh actually uh mikey shimonovich one
+uh actually uh mikey shimonovich one friend colleague mine of mine he he said
+friend colleague mine of mine he he said well he he could actually my attention
+well he he could actually my attention that these two problems are sort of
+that these two problems are sort of similar
+there are two constructions or yes are they similar
+and so i came up with a reduction of one into the other
+but then it turned out that the reduction was more general and it gave a
+reduction was more general and it gave a lower bound on the chromatic number of
+lower bound on the chromatic number of of
+any graph in terms of some topological construction
+so that's how topology came in and it took actually quite some time to make
+it took actually quite some time to make it work but
+spent about two years to make this idea work but eventually
+work but eventually it worked
+but but the idea of using bursulum that was circulating in the community already
+was circulating in the community already to similar problems
+that the boursoukulam construction has similar properties than the nasa
+similar properties than the nasa conjunction
+conjunction nasa construction that was circulating
+to reduce one to the other maybe was not explicitly
+explicitly formulated this idea but it was in the
+air [Music]
+by the way i i will secure that we have a a ignacio graph in the printed version
+a a ignacio graph in the printed version that people can look at
+early in your career you made fundamental contributions to a new
+fundamental contributions to a new concept in cryptography namely the zero
+concept in cryptography namely the zero knowledge proof
+which more than 30 years later is now being used in blockchain technology
+being used in blockchain technology please tell us more
+please tell us more specifically what does zero knowledge
+why this concept is so useful in cryptography
+uh yeah that's one of the easiest things to explain so
+for mercedes mathematicians in particular so suppose you found the
+proof of something uh
+you know like the human hypothesis and uh you want to convince your your
+and uh you want to convince your your colleagues that you
+have found this proof but you don't want them to publish it before you do
+you just want to run it by them but you are worried that they uh you know for
+are worried that they uh you know for some reason uh
+some reason uh they uh
+you know you just want to convince them only of the fact that you have a proof
+of this theorem and nothing else it seems ridiculous it seems absolutely
+it seems ridiculous it seems absolutely ridiculous and
+you know it's uh contrary to all our intuition that there
+is a way uh
+to convince something it's going to convince someone of something they do
+uh without giving them any you know shred of new information
+uh but it's this very uh you know idea that was raised by uh uh gold advisor
+that was raised by uh uh gold advisor mikhail and rockoff in 85
+mikhail and rockoff in 85 where they suggested this notion now
+where they suggested this notion now they did suggest they did not suggest it
+they did suggest they did not suggest it for
+paranoid mathematicians they suggested it for cryptography they realized that
+it for cryptography they realized that in cryptography
+there are lots of situations in fact almost all situations in interaction
+almost all situations in interaction between
+agents in a cryptographic protocol that no one trusts the other one and
+no one trusts the other one and nevertheless
+each of them makes claims that they are doing something or they are
+knowing something uh which they don't want to share with you for example their
+private key in a public key crypto system
+right so you know each one is supposed to compute
+their uh
+public key by multiplying two private numbers which they keep secret
+so i give you a number i say tell you okay here's a number i multiplied two
+secret prime numbers and this is a result
+uh why should you believe me maybe i did something else and
+something else and you know this is going to ruin the
+protocol uh
+to fix this it would be nice as they said if there was a way for me to
+said if there was a way for me to convince you that that's exactly what i
+convince you that that's exactly what i did namely that's a theorem right there
+did namely that's a theorem right there are two prime numbers whose product is
+are two prime numbers whose product is the number i give you it's a
+the number i give you it's a mathematical crm i want to convince your
+mathematical crm i want to convince your feet without giving you any
+feet without giving you any idea what my prime numbers are or
+okay so they suggested this notion as an extremely useful notion
+and they gave a couple of non-trivial examples uh which were related already
+examples uh which were related already to existing cryptosystems where this
+to existing cryptosystems where this might be possible
+and they ask the question what kind of mathematical statements
+kind of mathematical statements can you have a zero knowledge for it
+looks extremely special and
+syria mikali and all that gold like we proved that it's possible for any
+proved that it's possible for any mathematical theorem
+if you want it formally it's true for any np statement anything for
+true for any np statement anything for which there is a short proof
+so this is the content of the theorem i'm not going to
+i'm not going to tell you the proof of this theorem
+although something can be said about it and the proof uses cryptography
+and the proof uses cryptography essentially uh it's a it's a it's a
+essentially uh it's a it's a it's a theorem which assumes uh the ability to
+encrypt um
+um so
+of the zero knowledge theorem why it's useful in cryptography is exactly
+useful in cryptography is exactly why i described but in fact it's much
+more general as we observed in a subsequent paper uh
+subsequent paper uh given uh
+given uh zero knowledge proofs you can really
+generation of protocols that are that are safe against bad
+that are that are safe against bad players
+once you have a protocol that works if everybody is honest and doing exactly
+everybody is honest and doing exactly what you should what they should because
+what you should what they should because uh the way to get uh
+uh the way to get uh you know protocols are resilient again
+against bad players if you have one that is just working fine when honest players
+is just working fine when honest players is just to intervene every step uh with
+the zero knowledge proof in which the potentially bad player will convince the
+potentially bad player will convince the others that
+it is doing the right thing it's much more complex than that zero knowledge is
+more complex than that zero knowledge is not enough you have to have a way of
+not enough you have to have a way of computing with secrets but i let me not
+computing with secrets but i let me not go into that
+yeah i i it's an amazing result and i think yet you have said that probably
+think yet you have said that probably the most surprising the most
+the most surprising the most uh paradoxical
+of the results i have proved which i can really appreciate
+let me continue uh harvey with the following question to you
+when you began your academic career in the late 1970s the theory of
+the late 1970s the theory of in computational complexity was in its
+in computational complexity was in its infancy
+your contribution to enlarging and deepening the field is arguably greater
+deepening the field is arguably greater than of any single other person
+we want to focus here on your stunning advances in the role of randomness in
+advances in the role of randomness in in aiding computation
+you showed together with coworkers nissan and impagni so it's difficult to
+nissan and impagni so it's difficult to pronounce that for any uh for any fact
+algorithm that can solve a hard problem using flip coin flipping there exists an
+using flip coin flipping there exists an almost as fast algorithm that does not
+almost as fast algorithm that does not use coin flipping provided certain
+use coin flipping provided certain conditions are
+conditions are met
+could you please elaborate on this and be a little more specific
+yes but let me just add one sentence on the zero knowledge aspect uh
+i i want to stress that when we prove this theorem uh
+this theorem uh it was a theoretical result it was clear
+from the beginning that the protocol which enables zero knowledge proofs is
+which enables zero knowledge proofs is complex
+complex and
+we thought it's unlikely to be really useful uh used in cryptographic
+useful uh used in cryptographic protocols that are running on the on the
+protocols that are running on the on the ground on the
+on the machines and so on uh and it still amazes me that people manage to to
+still amazes me that people manage to to transform them to much more efficient
+transform them to much more efficient protocols that are being used both
+you know these protocols and others so the fact that it became practically
+useful uh is still an amazing thing to me and i think that's a that's a good
+me and i think that's a that's a good point to say about
+many other theoretical results in theoretical computer science in
+theoretical computer science in particular about algorithms
+particular about algorithms people tend to
+complain sometimes about the notion of p as being too liberal uh when describing
+as being too liberal uh when describing efficient algorithms because some
+efficient algorithms because some algorithms where they are first
+discovered may have a running time that looks uh you know too large it's a
+looks uh you know too large it's a polynomial time but maybe it's n to the
+polynomial time but maybe it's n to the tenths power and
+tenths power and you know and to the tenths for size
+size a million which are problems that come up naturally
+in practice it seems just useless as useless as exponential
+both in the fields of cryptography and in the field of algorithms is that once
+in the field of algorithms is that once you have a theoretical solution with
+you have a theoretical solution with ideas in it that make it very efficient
+ideas in it that make it very efficient then other people especially if they are
+then other people especially if they are motivated enough like in cryptography or
+motivated enough like in cryptography or in optimization
+you can make it then much more efficient and eventually practical so that's a
+and eventually practical so that's a general point i want to make
+general point i want to make okay so uh
+now let me return to your question about uh about randomness so uh
+randomness has always fascinated me the the power of randomness in computation
+the power of randomness in computation and
+and not only in computation
+and this is probably the um you know the area i invested the
+um you know the area i invested the most time of my research apart from you
+know i would say successful part of my research
+the other part would be trying to prove lower bounds or hardness results in
+lower bounds or hardness results in which i you know generally like
+which i you know generally like everybody else failed
+everybody else failed like proving that p is different than np
+what you are trying to understand is uh the following ever since the
+the following ever since the 70s
+people realized randomness is an extremely powerful
+randomness is an extremely powerful resource to have in algorithms
+resource to have in algorithms there were initial discoveries like the
+there were initial discoveries like the primarity test
+survey slossen and rabin discovered fast methods with randomness to uh test if a
+number is prime uh
+uh then
+also encoding theory beryl camp and number theory and then
+number theory and then many others all over the place in grazio
+and so on people just realize it's extremely powerful there are problems we
+extremely powerful there are problems we have no idea how to solve without
+have no idea how to solve without randomness efficiently and nevertheless
+randomness efficiently and nevertheless uh
+with randomness you can you can find the social solution very fast another famous
+social solution very fast another famous class of examples is monte carlo methods
+class of examples is monte carlo methods right so
+you explore a lot of space using randomness and without it it seems like
+randomness and without it it seems like it would take uh
+exponential time so the power was was realized and it was natural to believe
+having randomness is much more powerful than not having it
+than not having it uh
+nevertheless the uh
+mainly from uh motivations in cryptography uh people started in
+computational complexity uh trying to understand pseudo-randomness you need
+randomness in cryptographic protocols for secrecy and so on and
+for secrecy and so on and on the other hand
+on the other hand you know
+you know sometimes they
+you know random bits were not so available and you wanted to test when
+available and you wanted to test when when are random beats good as good as
+when are random beats good as good as like having really independent coin
+like having really independent coin flips which you really assume when you
+talking about probabilistic algorithms so there was a quest to understand when
+is a you know distribution uh
+let's say of beats is as good as random
+so this started in cryptography with the very powerful works of
+very powerful works of blah blah and
+blah blah and and the yao
+began to emerge which suggested that if you have
+computational hardness if you have some hardness or something if you have a
+heart problem then
+then uh
+you know you can generate pseudorandom bits cheaply so you can invest much less
+bits cheaply so you can invest much less randomness in order to generate
+randomness in order to generate a lot which is still useful let's say
+so the this this kind of understanding which started in the in the early
+which started in the in the early 80s
+80s uh
+it took about 20 years of work to really elucidate it and
+work to really elucidate it and and
+be able to make the weakest assumptions on what hardness you need in order to
+on what hardness you need in order to uh
+have a pseudorandom outcome which will then fool probabilistic algorithms uh
+then fool probabilistic algorithms uh part of it was indeed developed by
+with nissan and then with the barbarian fort now and uh then within
+poliato and with cabanets uh
+this development is again it's a conditional result right so it's you
+conditional result right so it's you have to assume something
+if you want the conclusion you stated uh what you need to assume is that some
+what you need to assume is that some problem
+is difficult you can take it to be the problem of coloring graphs or you can
+problem of coloring graphs or you can take it to be any np complete problem
+you like or even problems that are higher up
+but you need a problem that is exponentially difficult
+exponentially difficult this is an assumption that the result is
+conditioned on it's uh and if you
+if you are willing to make this assumption
+assumption then the conclusion is exactly as you
+said that
+every efficient probabilistic algorithm can be replaced by a deterministic
+algorithm which does the same thing in fact without errol
+fact without errol and
+is roughly as efficient as the original one
+in other words the
+power of publicity algorithms is just a figment of our imagination it's it's
+figment of our imagination it's it's only that we are unable to find
+deterministic algorithms uh
+that we can prove are as efficient this result suggests that
+you know there is no such power randomness doesn't help in making
+randomness doesn't help in making efficient algorithms more efficient
+the hardness assumption that you need to make was that something that you were
+make was that something that you were expecting or did that come as a surprise
+they're completely expected it's a first of all it is expected in the sense that
+of all it is expected in the sense that it was there from the beginning the
+it was there from the beginning the works of the blaming kali and the
+works of the blaming kali and the yao uh
+papers that i mentioned which do create uh pseudo-random generators that are
+uh pseudo-random generators that are good against efficient algorithms assume
+good against efficient algorithms assume specific hardness assumptions like those
+specific hardness assumptions like those used in cryptography for example that
+used in cryptography for example that factoring is difficult or that one way
+uh these are very specific hardness assumptions these problems you know are
+unlikely to be np complete and in my paper with nissan
+in my paper with nissan we realized that a much weaker
+we realized that a much weaker assumption
+assumption is enough it was not enough to give the
+result states that that's the end because it's not efficient enough but
+because it's not efficient enough but it's already got us pretty close to the
+that random random algorithms are not as powerful as they
+it didn't give the you know bpp equal p consequence which is the you know the
+sort of the final one but uh it was already no it was not surprising this
+already no it was not surprising this was the connection this paradigm between
+was the connection this paradigm between hardness randomness uh
+came from their very uh initial studies of compensation of pseudorandomness and
+of compensation of pseudorandomness and if i remember correctly the paper of
+lamin mccauley or maybe the the phd thesis of syria michali is titled
+thesis of syria michali is titled hardness versus randomness so yeah it's
+hardness versus randomness so yeah it's the there's an intimate connection there
+the there's an intimate connection there uh it was there from the start and the
+question is how tight is the connection i should probably mention that uh
+i should probably mention that uh you know the consequence we just
+you know the consequence we just discussed is hardness implies
+discussed is hardness implies randomness and
+the question is whether the reverse holds also if you have a good
+if you could randomize all probabilistic algorithms does it mean you can prove
+something like p different than np and the answer is that we have partial
+the answer is that we have partial results like that the paper with the
+results like that the paper with the impaleazzo and cabanets is one there's
+impaleazzo and cabanets is one there's another paper of just the two of them
+another paper of just the two of them this is another
+this is another the partial results in the conveyors and
+understand it fully but it's a fascinating connection because these two
+fascinating connection because these two issues seem separate from each other
+so that's yeah i think it's a very fundamental discovery of the field this
+fundamental discovery of the field this intimate connection between
+intimate connection between computational difficulty
+computational difficulty and
+and the power of randomness
+we also of course want to talk about the ll algorithm
+an algorithm which has striking applications for instance it is claimed
+applications for instance it is claimed that the only cryptosystems that can
+that the only cryptosystems that can withstand an attack by a quantum
+withstand an attack by a quantum computer use lll
+computer use lll so
+the algorithm appears in a paper together with the lens strap brothers
+together with the lens strap brothers on factorization of polynomials
+which more or less follows the expected path of reducing modulo primes and then
+path of reducing modulo primes and then using hensel's lemma
+breakthrough of elasti here and the lens stress was that you were able to
+stress was that you were able to do the lift in polynomial time by an
+do the lift in polynomial time by an algorithm giving you an approximation to
+algorithm giving you an approximation to the shortest vector in lattice
+the shortest vector in lattice how did the collaboration with the lens
+an interesting story about uh mathematics and uh and the
+the role of uh sort of beauty or at least elegance in
+sort of beauty or at least elegance in mathematics so
+mathematics so uh
+uh with the martin virtual and like scriber we were
+on applications of the ellipsoid method in combinatorial optimization
+in combinatorial optimization and that was uh we we came up with some
+state it's called equivalence of separation and optimization so that for
+separation and optimization so that for a convex body you can
+a convex body you can you can
+you can these are
+polynomial time equivalent uh problems under some might
+under some might additional circumstance conditions
+uh but there was a case where it where the algorithm the method didn't work and
+the algorithm the method didn't work and that was when the convex body was a
+a lower demand lying in a lower dimensional
+dimensional uh
+linear subspace and
+that could one could always get around this sometimes by mathematical methods
+this sometimes by mathematical methods uh focus on that lower or map everything
+into that lower dimensional substrate sometimes by blowing up fattening the
+but they were always that hard tricks so we would like we wanted to get something
+we would like we wanted to get something and
+and so at some point i realized that we can
+we can solve this if we can solve some really ancient mathematical problem uh
+really ancient mathematical problem uh algorithmically and that was dirichlet's
+algorithmically and that was dirichlet's result that
+result that that
+several real numbers can be simultaneously approximated by rational
+numbers with the same denominator if you could solve this algorithmically
+if you could solve this algorithmically now the one looks at the proof and one
+now the one looks at the proof and one sees immediately that the proof is the
+sees immediately that the proof is the opposite of being algorithmic it's uh
+opposite of being algorithmic it's uh it's a pigeonhole principle proof so
+it's a pigeonhole principle proof so it just shows the existence of such a
+and then after some
+trial and error and i i came up with an algorithm which actually
+algorithm which actually actually
+computed in polynomial time such a an approximation with
+approximation with rational numbers with common
+and then i i wrote to i a little bit earlier i heard that talk of uh
+earlier i heard that talk of uh of uh
+aryan you know of handyclandstra where he sort of talked about similar problems
+he sort of talked about similar problems but in terms of lattices and redux basis
+reduction in that disease so i wrote to them and it turned out that
+them and it turned out that they had a proof that if you can do this
+they had a proof that if you can do this this is a little bit the shortest
+this is a little bit the shortest lattice vector problem which
+uh it is easy to reduce the dirichlet problem to a shortest lattice vector
+problem to a shortest lattice vector problem so if you can solve this then
+they can factor polynomials in polynomial of time which was actually
+polynomial of time which was actually surprising because
+surprising because one first would think that if you want
+factor a an integer should be easier than factor a polynomial
+but it turns out that it's the other way around and polynomials can be factored
+around and polynomials can be factored in polynomial of time
+so that's how this joint paper came about and it in about
+about and it in about another couple of years then
+discovered that that
+that this algorithm can be used to
+uh to break the so-called knapsack cryptosystem
+cryptosystem and since then this algorithm is used a
+checking the security of various cryptosystems
+as far as i understand it has wide applications
+anything that you perhaps imagined yeah definitely yeah so
+yeah definitely yeah so shortly after it was published it was
+in in a very s very extended numeric computation
+extended numeric computation to disprove the so-called mertens
+conjecture i think it was odlisco and terrilla
+and so there were this is a number theory in prime number theory about zeta
+theory in prime number theory about zeta function
+so all together it's uh yeah it had a lot of so the point is why i i wanted to
+lot of so the point is why i i wanted to tell this is that
+tell this is that that
+the whole thing started from something that was really not so important we just
+wanted to get the nicest possible theorem
+of about optimism equivalence of optimization and separation
+optimization and separation and
+this is good enough motivation in mathematics to make something nicer
+but but as far as i understand you kept improving your method
+improving your method constantly during a process together
+with or or
+while you were talking to the lens stress
+not that much i mean there was this extension from the dirichlet problem to
+extension from the dirichlet problem to to let it to lattices but that was an
+other people of course worked on it i have not worked on
+worked on it i have not worked on improving this
+this is a question to you in 1981 you published a paper together
+in 1981 you published a paper together with co-workers co-authors gretchen and
+scr scriver i don't know if i pronounced the names correctly titled the ellipsoid
+the names correctly titled the ellipsoid method and its consequences in
+method and its consequences in combinatorial optimization
+a paper which is widely cited there is a pre-history to this namely a
+there is a pre-history to this namely a paper by a russian kashi gun
+paper by a russian kashi gun i don't know how i pronounce that
+i don't know how i pronounce that correct either containing a result that
+correct either containing a result that was regarded as sensational
+could you comment on this and why your joint paper is related to his
+why your joint paper is related to his um he published a paper he he gave the
+um he published a paper he he gave the first polynomial time algorithm for
+first polynomial time algorithm for linear programming
+linear programming using uh
+what's called the ellipsoid method today which was actually
+i i should say that was in in the soviet union in the air there were several
+union in the air there were several other people who
+worked on similar results but he he applied it and probably proved
+but he he applied it and probably proved the necessary details that to come up
+the necessary details that to come up with
+that was kachian who proved that that linear programming can be
+that that linear programming can be solved in polynomial time
+of course everybody got interested in a programming before that was one of those
+programming before that was one of those little bit mysterious problems that in
+little bit mysterious problems that in practical
+terms can could always be efficiently solved but
+but in there was no polynomial time algorithm
+known to to solve linear programming
+so we got interested in it and we realized that to apply khachian's
+and we realized that to apply khachian's method
+you don't have to have an explicit description of the linear program
+description of the linear program it is enough if you
+if the linear program is given in such a way that
+you if if you ask about a point whether it satisfies whether it's a feasible
+it satisfies whether it's a feasible point
+be able to tell this and you should be able to find the
+and you should be able to find the constraint which is violated if any
+constraint which is violated if any constraint is violated
+constraint is violated ah that observation was made by by
+people also by carp and papadimitriou and i think padberg and rao
+and i think padberg and rao so
+so but
+that became we realized that in combinatorial optimization there are
+combinatorial optimization there are many situations like this
+many situations like this and then i met uh
+he came up with a with a way to apply this method to
+old problem to to find the chromatic number of a perfect graph
+which was also an unsolved problem in those days how to whether it can be
+those days how to whether it can be found in polynomial time
+and for that it turned out that you had to apply this ellipsoid method not only
+to apply this ellipsoid method not only to linear programs but to comebacks
+to linear programs but to comebacks programs
+more generally and so the the three of us with
+the the three of us with like scriber who actually was
+a roommate or or office mate of me we he visited sagat for a year and we we
+visited sagat for a year and we we shared an office and we worked on this
+and so we we started to
+to see what happens in general in convex optimization how to apply this and
+optimization how to apply this and that's how we came up with this
+result that i mentioned that the equivalence of separation and
+equivalence of separation and optimization it is uh it it was sort of
+of these studies eventually we we wrote a monograph about this subject
+this is such a hard thing because you have so many wonderful results between
+have so many wonderful results between you
+but i do want to talk about this exact graph product can i or can we so
+graph product can i or can we so expander graphs of course they have
+expander graphs of course they have their and constructions of expanding
+their and constructions of expanding graphs they have had a recurring
+graphs they have had a recurring theme for the albert price so last year
+who gave the first explicit expanded graphs after pinsker had proven that
+graphs after pinsker had proven that they existed
+they existed and gromov who won the overprice in 0.9
+expanders on cayley graphs on fundamental groups
+which led to study of the bam khan conjecture and of course ceremony
+conjecture and of course ceremony in
+2012. who as i as far as you understand avi you have some papers together with
+avi you have some papers together with with sarah meredi isn't that right
+with sarah meredi isn't that right but not on this on this yeah
+yeah no it's not on so but you together with reingold and
+the zigzag product on regular graphs which is as far as you understand
+which is as far as you understand analogous to the semi-direct product in
+analogous to the semi-direct product in group theory
+group theory and
+by which you gave explicit constructions of very large and simple
+constructions of very large and simple expanders
+could we just start what is the zig and what is the zag
+so first maybe i should start with what is an expanded graph
+is an expanded graph brilliant
+brilliant uh
+uh yeah so um
+should think of networks and you should think that
+one desirable property of networks is that there will be uh sort of fault
+tolerance will be able to be very connected and if some of the connections
+connected and if some of the connections are severed you will still be able to
+are severed you will still be able to communicate it can be networks you know
+communicate it can be networks you know on the internet or on network on the
+on the internet or on network on the computer networks can be also networks
+of roads you would like to be highly connected and you know if something yeah
+connected and you know if something yeah anyway
+anyway uh
+and of course you don't want to pay so you would like these networks to be a
+sparse you don't want to have too many connections so you want a large graph
+connections so you want a large graph in which the degree of uh every vertex
+in which the degree of uh every vertex the number of connections of every
+the number of connections of every vertex is small let's say a constant
+maybe 10. okay so
+a random graph uh will have this property and the whole question this is
+property and the whole question this is what pinsky realized and then the whole
+question is uh can you describe such graphs can you build them efficiently
+graphs can you build them efficiently and indeed margulis uh gave the first uh
+and indeed margulis uh gave the first uh construction using uh
+construction using uh this deep algebraic
+concept the kashidantal property and they can be built from other from
+they can be built from other from selbergs number theoretic
+selbergs number theoretic results and
+then people started simplifying the proofs
+proofs the
+you know by by the time i was teaching this material
+there were reasonably simple proofs like jimbo maroca
+well it's just you could teach it in a class of an hour or two it just
+class of an hour or two it just basically uh goes down to uh
+basically uh goes down to uh uh you know uh
+fourier transform in finite groups so they you know you have everything you
+want you have a very nice explicit construction you can prove it in a class
+construction you can prove it in a class to even undergraduates and
+to even undergraduates and but
+to me it was this
+like many algebra proofs mysterious i mean what's going on i mean
+what is really driving the fact that these are uh highly uh connected uh
+these are uh highly uh connected uh uh graphs why why why don't they have
+and uh this was sort of an obsession obsession of mine for years but
+it then uh in the year 2000 i had two postdocs here just after i moved to the
+postdocs here just after i moved to the institute
+institute uh
+and omar angel then we were working on a completely different
+completely different uh project uh part of the big
+project where another important notion is the notion of an extractor
+is the notion of an extractor something to purify randomness i i will
+something to purify randomness i i will not talk about it now but
+not talk about it now but we were trying to build better
+we were trying to build better extractors
+as we were doing this we realized that you know one of our
+we realized that you know one of our constructions may be
+constructions may be useful towards creating expanders
+the constructions in the extractor business were often iterative
+business were often iterative and
+had a very different combinatorial nature than constructions let's say
+nature than constructions let's say of the algebraic type and
+you know we we understood that we have a completely different combinatorial uh
+completely different combinatorial uh construction of expanders and not just
+combinatorial one in which for me at least
+it was clear it was evident from the proof why these
+proof why these graphs are expanding
+graphs are expanding so
+this is the result the zigzag is just uh
+there was actually a name suggested by peter winkler uh
+just uh if you look at the construction the construction starts with a small
+the construction starts with a small graph which is expanding something of
+graph which is expanding something of constant size something you can have
+constant size something you can have anyway and just uses it to keep boosting
+to being expanded you you you get an expander then you plug this little graph
+expander then you plug this little graph in somehow and you get a bigger one and
+then you get a bigger one and so on so you can generate arbitrarily without
+you can generate arbitrarily without expanders the
+this local construction has some zigzag picture in it if you look at it that's
+that's the only that's not the important thing i would say that uh
+uh the intuition reveals itself in the property of expansion is just when you
+property of expansion is just when you think about another way of describing an
+think about another way of describing an expander an expander is a graph where
+expander an expander is a graph where no matter what distribution you have on
+no matter what distribution you have on it just the you know distribution of the
+this distribution you take a vertex from this distribution and apply
+this distribution and apply uh
+you go from this vertex to a random neighbor the entropy increases
+neighbor the entropy increases of your distribution if there is room to
+that's another way to describe expanders and this uh you see almost you know with
+and this uh you see almost you know with your eyes in the zigzag construction you
+your eyes in the zigzag construction you see how the enthalpy grows and that's uh
+yeah what i like about it
+but but so to have the picture as far as i understand so you you take a small
+i understand so you you take a small graph you have a graph and then you
+graph you have a graph and then you place this other graph at all the nodes
+so then you have to decide how am i going to put the edges in
+going to put the edges in and then essentially so and here you
+and then essentially so and here you must correct me because i don't know
+must correct me because i don't know what i'm talking about but
+what essentially you're doing is that just like in the product of the
+semi-direct product when you have the multiplication rule you move a wee bit
+multiplication rule you move a wee bit in
+then you jump all the way to the next node and then you do the similar jump
+node and then you do the similar jump there is that correct vaguely completely
+there is that correct vaguely completely it's completely correct and moreover uh
+this connection to semi-direct product is something we realized
+like two or three years later uh with alex luboski and noga alone so
+uh with alex luboski and noga alone so it was a
+sort of challenge which i felt uh early on these graphs that we got were
+early on these graphs that we got were expanders the compilatory regenerated
+expanders the compilatory regenerated simple we understood them everything was
+and i was wondering whether it can be useful to construct scaly graphs because
+useful to construct scaly graphs because such constructions existed and i it was
+such constructions existed and i it was just sorry curiosity
+just sorry curiosity and
+then with the with nogalon and alex luboski we realized that actually it's
+luboski we realized that actually it's not just similar
+the zigzag product is a combinatorial generalization of semi-direct products
+generalization of semi-direct products of groups applied to caliga so it's just
+it's a more general uh
+it's just specialized in the case of cavity graphs to semi-direct product
+cavity graphs to semi-direct product anyway because because of this
+anyway because because of this for example
+prove that scaly graphs of groups that are not simple
+can be expanding with a constant number of generators this is a you know no
+method knowledge break method is known to uh to give this yeah
+and so you actually so i'm amazed that you got this formulation for the uh
+you got this formulation for the uh for the zigzag product without
+for the zigzag product without previously having
+product that's truly amazing it came from an extractor construction which was
+from an extractor construction which was uh yeah yeah so
+you know i agree there's a it is strange to me it was strange that
+it is strange to me it was strange that there was a connection to algebra but
+but of course this was this has been used extensively in in in many
+used extensively in in in many situations
+situations and
+of course one of the things one perhaps should mention is the
+should mention is the um
+that the symmetric log space and the log space
+space rheingold in in 2008 that they are the
+same um
+this seems to have been an idea that really caught on
+really caught on um
+do are you still using it yourself or have you let your baby grow up and run
+have you let your baby grow up and run into the mathematical community
+i think it's great that we have a mathematical community many
+we have a mathematical community many many
+many ideas i had were taken to places beyond my imagination
+beyond my imagination uh
+there's something fundamental about this construction and it was used like you
+construction and it was used like you said in uh
+this wrangled result which can be more simply described as a lockspace
+simply described as a lockspace algorithm for
+algorithm for uh
+uh um
+in fact it goes back to a result of lassi and these collaborators and can be
+lassi and these collaborators and can be viewed as a pseudo-randomness
+viewed as a pseudo-randomness as a derandomization result lasting in
+carp and the leonis and lipton and i forget who else
+i forget who else i showed that
+i showed that uh if you want to
+test whether a large graph is connected but you have no memory
+memory to remember where you are then by tossing coins you can explore
+then by tossing coins you can explore the whole graph okay this is a the
+the whole graph okay this is a the result it's it's a random log space
+result it's it's a random log space algorithm for graph connectivity
+algorithm for graph connectivity and the randomizing this algorithm was
+another you know project of mine that i never
+never got to do but the rheingold observed that
+rheingold observed that if you
+uh take the zigzag product and apply it
+in very cleverly to their algorithm to their randomized algorithm you get a
+their randomized algorithm you get a deterministic log space algorithm for
+deterministic log space algorithm for the same problem so it's a particular
+pseudo-random generator tailored to this it was also used in the you know
+theorem of iridino uh yeah there is something uh general in this zigzag
+something uh general in this zigzag product that other people found
+product that other people found extremely useful
+actually this this brings us to an interesting place
+in this interview because here we're seeing connection between
+what the two of you are doing uh could one of you would one of you like
+could one of you would one of you like care to expand on the connections
+care to expand on the connections between the mathematics of the two of
+between the mathematics of the two of you
+well let me see you see you didn't tell us what to start so
+us what to start so let me just
+most influential things that happened to me in my postdoc years it was in 85
+me in my postdoc years it was in 85 i was a post-workout berkeley and
+i was a post-workout berkeley and there was a workshop in oregon in which
+latse gave
+10 lectures i don't remember exactly what it was
+on the lectures on optimization the geometry of numbers
+geometry of numbers and
+and yeah so i
+the kind of point of view i got from this type of event was a whole week of
+this type of event was a whole week of lectures anybody who heard that
+lectures anybody who heard that talk knows you know
+talk knows you know uh
+just how extremely clear
+one thing i got out of this is what latin described in when you ask him
+what latin described in when you ask him the previous questions about the
+the previous questions about the ll algorithms and the work on the
+and so on is how a high level point of view
+a high level point of view uh
+rather one focus and a problem rather a high level point of view uh can connect
+high level point of view uh can connect lots and lots of areas of mathematics uh
+lots and lots of areas of mathematics uh of great importance i mean you saw
+unless you described it before how a question that was a
+a question that was a bit
+particular about just having a more elegant solution to
+elegant solution to a problem in optimization led to
+you know just solving the uh lattice basis reduction uh
+front-end approximations and how it connects to cryptography and how it
+connects in cryptography both to breaking crypto systems and creating
+crypto systems and uh you know you get this panoramic view
+you know you get this panoramic view where everything fits with each other i
+where everything fits with each other i i was extremely influenced by this this
+i was extremely influenced by this this was uh yeah
+was uh yeah an amazing memorable event in my early
+career uh
+i think i have uh some similar
+uh memories like zero knowledge proof was such a
+zero knowledge proof was such a shockingly exciting uh
+thing that i learned about and it sort of showed me how how powerful these new
+of showed me how how powerful these new ideas of cryptography and
+ideas of cryptography and computer science theoretical computer
+computer science theoretical computer science in general how how they how
+terribly powerful they are i
+also i think i
+was always very interested in his work on
+on on randomness even though
+was sometimes trying to go the opposite direction and
+trying to go the opposite direction and find examples where randomness really
+find examples where randomness really helps now
+one has to add that this is sometimes a matter of the model of the computational
+matter of the model of the computational model
+model so
+so this
+i i mentioned some results about convex optimization convex geometry algorithmic
+optimization convex geometry algorithmic results in high dimensional convexity
+and there was a there's a basic problem there that if you have a convex body how
+you compute the volume and
+one of my uh who was a a
+who was a a phd student at that time
+came up with a geodesic he came up with a beautiful proof
+a beautiful proof showing that
+you need exponential time to approximate this volume even within a constant
+this volume even within a constant factor
+that was in our model of which in which we formulated this
+which in which we formulated this equivalence of optimization and
+equivalence of optimization and separation so the convex body is given
+and then a few years later and that actually refers back to another thing
+actually refers back to another thing that ravi
+that ravi that avi abi said
+dyer fries and cannon came up with a randomized algorithm to compute the
+volume to approximate the volume in polynomial time with arbitrary small
+polynomial time with arbitrary small relative error
+relative error but
+their algorithm took i mean the interesting thing is the dependence on
+interesting thing is the dependence on the dimension if the dimension is n
+then their algorithm took n to the 29 steps
+so obviously it was very far from being being
+practical and but that started a flow of of research
+but that started a flow of of research i was also part of it i really liked
+this result obviously and i was i was quite interested in in
+in making it more efficient and understanding what are the
+uh why why does it go that high up and then it uh then the exponent went
+and then it uh then the exponent went down nicely from
+down nicely from 29 to 17 to 10 to seven to five to four
+29 to 17 to 10 to seven to five to four it stood for a long time to four and i
+think a year ago or somebody it went down to three
+down to three so
+so now this is close to being practical it's still
+and cubed is still a sort of not a really fast algorithm but
+really fast algorithm but but it's definitely
+not not ridiculous so this idea are two things so in this example
+things so in this example because it's a different computational
+because it's a different computational model
+provably randomness helps uh it's provable that without randomness
+uh it's provable that without randomness it takes exponential time and with
+it takes exponential time and with randomness it's
+it's now down to a decent polynomial and the second is that really polynomial
+and the second is that really polynomial time is an indicator of
+time is an indicator of that this problem
+has some deep structure and then you explore this deep structure and
+you can improve the polynomial time to something decent
+we are going to end this section on your work
+am going to ask you lassi about the two results of yours well anyway we don't
+results of yours well anyway we don't have time to go through all of them so i
+i would love to have asked you about what is a limit theory for graphs
+what is a limit theory for graphs and what are
+and what are good limits good for
+and also what the graph phone is and so on but the question i have selected and
+you are free to take the other one is that about the shannon capacity
+is that about the shannon capacity because in 1979 you published a widely
+because in 1979 you published a widely cited paper title on the shannon
+cited paper title on the shannon capacity of a graph
+in this paper you determine the shannon capacity of the pentagon
+capacity of the pentagon by introducing deep mathematical methods
+you prove that there is a number now called the low
+now called the low lobas number
+which can be computed in polynomial time which is an upper bound for the shannon
+which is an upper bound for the shannon capacity associated to a graph
+capacity associated to a graph could you tell us a little more about
+that then elaborate on and tell us also what the shannon
+capacity is um
+i don't i won't give a formal definition of the shannon capacity is that you have
+of the shannon capacity is that you have an alphabet and you are sending messages
+an alphabet and you are sending messages uh
+composed of the letters of this alphabet some but certain letters are
+some but certain letters are con confusable or confoundable so they
+con confusable or confoundable so they they are not necessarily clearly
+they are not necessarily clearly distinguished by the recipient
+distinguished by the recipient and
+you want to pick a largest subset of words which can be sent
+subset of words which can be sent without the danger of confusion so for
+without the danger of confusion so for any two words there should be at least
+any two words there should be at least one position where they are clearly
+one position where they are clearly distinguishable
+distinguishable and so
+described by a graph where an edge means that those two letters are confusable
+that those two letters are confusable and
+shannon came up with this model and he determined
+determined the
+capacity the capacity is if you are sending very long words then
+how how many words you can you can send and that grows exponentially and the
+and that grows exponentially and the base of this exponential function is the
+is the shannon capacity and the
+the pentagon was the first one for which this was not known
+this was not known and
+and i
+introduced some technique called called
+called orthogonal representations which
+which enabled me to answer this this question
+it is again one of those things that you answer a question and then
+answer a question and then all of a sudden it begins to have its
+own life uh
+it was used which i mentioned before that to determine the
+that to determine the the uh chromatic number of perfect
+and maybe it's interesting to mention that recently
+that recently uh
+some i think quite interesting applications of it in quantum physics so
+applications of it in quantum physics so so
+one of those examples where
+examples where all of a sudden you hear that something
+inspired other people to do something really interesting and that's that's a
+very nice thing to have okay so here is a question to you lassie what is a limit
+a question to you lassie what is a limit theory for graphs and what are
+theory for graphs and what are graph limits good for
+graph limits good for on that subject explain what the
+ah if you want a very short maybe too
+too technical but i will try to be not not too technical so imagine the
+not too technical so imagine the graph is often given by an adjacency
+graph is often given by an adjacency matrix
+so you can imagine it as a 0 1 matrix and now
+suppose that the graph is getting bigger and bigger and you get the sequence of
+and we always think of these as functions
+on the unit square where we just cut into small squares each square carrying
+into small squares each square carrying a zero or a one
+a zero or a one and now these functions
+and now these functions in some sense tend to
+which may be continues or anyway not discrete anymore on the unit square
+not discrete anymore on the unit square and that's a graph form
+and that's a graph form so for example if if the
+so for example if if the graph is random
+so each square is randomly one or zero then then it will tend to
+then then it will tend to a gray square identically one half
+a gray square identically one half graphone so that's a function a graphone
+graphone so that's a function a graphone is a function
+is a function on the unit square which is
+measurable and symmetric
+turns out that that you can exactly define what does it
+that you can exactly define what does it mean that the sequence of graphs
+mean that the sequence of graphs converges to such a graphone
+converges to such a graphone and
+a lot of properties of the graph are sort of preserved if if all the
+are sort of preserved if if all the sequence has this property then the
+sequence has this property then the limit will also have this property
+so for example if all these graphs have some good
+eigenvalue gap then the limit will have a good eigenvalue gap just to refer back
+a good eigenvalue gap just to refer back to expanders
+although this is all about dense graphs
+and so you go up to this space of graphones and then and then of
+space of graphones and then and then of course you have to prove and that's uh
+there are lots of technical details there
+that the space of graphones in an appropriate
+appropriate metric
+which is very convenient to work with because from then on you can
+uh you can so for example if you take a graph parameters maybe i don't know
+graph parameters maybe i don't know density of triangles
+this has a limit so the okay it can be defined in this limit
+defined in this limit graph one what's the density of
+uh in this limit graph form there will be a unique graph on or
+at least there will be a graph form which minimizes say this
+under certain other circumstances so you can you can play the usual game with
+can you can play the usual game with which you play in analysis
+which you play in analysis uh that that is the uh the minimum the
+uh that that is the uh the minimum the minimizer and then you try to
+minimizer and then you try to to do the minimizer
+to do the minimizer uh
+to to determine whether it's a local minimum or a global minimum so all all
+minimum or a global minimum so all all these things that you can do in analysis
+you can do in in this setting and this all has some
+and this all has some translation back to the graph theory
+translation back to the graph theory so my last question to you
+so my last question to you concerns um
+concerns what is called and this result from 1972
+result from 1972 called the elders faber lavage
+thoughts on how difficult it would be to prove it and this is what we said before
+prove it and this is what we said before the break that
+has it now been proved question mark i also should add that apparently erdos
+also should add that apparently erdos considered this to be one of his three
+most favorite combinatorial problems
+the background for this problem was that there was a meeting
+there was a meeting in 72 august 2072
+at ohio state where we discussed hyper graph theory which was
+discussed hyper graph theory which was just beginning to emerge
+the idea is that if you have a graft and an edge has always two endpoints
+an edge has always two endpoints but you can instead look at
+but you can instead look at structures where an edge has three end
+structures where an edge has three end points or five endpoints and so on these
+points or five endpoints and so on these are called hypergraphs
+and the question was given any particular question in graphs theory
+particular question in graphs theory chromatic number connectivity
+all sorts of things how can this be generalized to
+how can this be generalized to to these hypergraphs
+to these hypergraphs and one of these questions was
+what's called the edge chromatic number or chromatic index and for graph theory
+or chromatic index and for graph theory it's a well-known variant of of the
+it's a well-known variant of of the chromatic number problem here in which
+chromatic number problem here in which case you color the edges not the
+case you color the edges not the vertices and you want that edges
+node should get different colors and then you can ask the same question about
+hypergraphs and
+what upper bound you can give on that and we came up with this observation
+and we came up with this observation that in order known examples
+the number of nodes was an upper bound on the number of colors needed to color
+on the number of colors needed to color the
+edge color the hypergraph and
+but that was already a little bit a few weeks past this meeting and
+weeks past this meeting and i was visiting uh
+i was visiting uh boulder
+boulder uh the university in boulder and soboz
+and the vance faber gave a party and then we were beginning to
+discuss mathematics as mathematicians do usually at a party and
+we uh came up with this question and elders did not really believe this
+elders did not really believe this question
+question that that it's true
+i i was more optimistic i thought maybe it will be true with a nice conjecture
+it will be true with a nice conjecture the number of nodes is all there that
+the number of nodes is all there that many colors is always enough
+many colors is always enough and
+then we realize that it has some non-trivial special cases like something
+non-trivial special cases like something called the fischer inequality in
+called the fischer inequality in in the theory of block designs
+and uh and and
+and that that's where we got stuck and and it it became more and more famous
+and it it became more and more famous it's a very elementary question very
+it's a very elementary question very simple to ask
+simple to ask and uh
+nobody could actually get a good good grip on it
+a good good grip on it eventually jeff khan
+was able maybe 10 years ago or so i don't remember the exact date was able
+don't remember the exact date was able to to prove
+to to prove it
+with a factor of one plus epsilon for every positive epsilon
+epsilon for every positive epsilon and
+and a year ago
+this was daniella kuhn and her students
+were able to prove it at least for every large enough and but
+that this peculiar feature of these conjectures that you can make a
+conjectures that you can make a conjecture based on small n
+conjecture based on small n then you can prove it for very large n
+what's in between is is is often
+is is often often remains like a question mark
+she gave a talk about it at the european congress
+uh a couple of months ago and and it was
+and it was it was very convincing so i i think it's
+it's it's now proved i would like to to
+i would like to to ask or or if you have any comments in
+four people and i again pronunciation of these names are not
+these names are not correct probably g
+notary john v dick and yen announce the result in quantum
+announce the result in quantum complexity theory that implies a
+complexity theory that implies a negative answer to khan's embedding
+negative answer to khan's embedding problem in operator algebra theory as
+problem in operator algebra theory as i'm very familiar with the common
+i'm very familiar with the common embedding
+property or problem because i work in operator
+algebras this to me is a stunning thing that
+quantum complexity theory can prove a theorem
+which has seemingly nothing to do with the complexity theory so
+sort of bringing us back to the when we started this interview it seems like the
+started this interview it seems like the connection between
+connection between call it core mathematics or traditional
+mathematics and complexity theory
+complexity theory is
+well it's an example that they are not to entirely universes there
+they are not to entirely universes there are connections here
+are connections here do you have any comment
+to that yeah
+yeah i've been uh ever since this results came out i've
+been given uh popular lectures about the
+evolution of uh you know
+the particular field that's relevant uh to this result namely proof
+uh to this result namely proof interactive proofs
+the evolution of this area of interactive proofs and eventually
+the study of quantum interactive proofs and how it connects to uh this mip star
+uh like the chron's embedding conjecture and the serial zone problem in quantum
+information theory and you know
+of course every particular result may be surprising but i'm not at all surprised
+surprising but i'm not at all surprised by uh
+by this connection by now uh we have lots and lots of uh
+places all over mathematics where ideas from theoretical computer science
+ideas from theoretical computer science algorithms and
+of course discrete mathematics are our presence and reveal their power
+but uh in that particular case i think that well maybe in in many cases uh the
+that well maybe in in many cases uh the point of view
+of computational complexity so i'm not going into the connection but i will
+going into the connection but i will just say
+just say uh you know the connection to operator
+uh algebras to phenomena algebras is not so mysterious because
+uh quantum measurements uh you know are just applications of operators and the
+just applications of operators and the question of whether this operator's
+question of whether this operator's commute
+is is fundamental in the understanding both of quantum information theory and
+both of quantum information theory and in the power of quantum interactive
+proofs so the connection is not that surprising
+more focus on the reason that possibly
+proofs could be obtained in the in the realm of quantum interactive proofs and
+realm of quantum interactive proofs and maybe not in quantum in a classical
+maybe not in quantum in a classical quantum
+information theory and this is uh again it's basically the sort of uh
+again it's basically the sort of uh tradition and uh
+you know vocabulary vocabulary and ethos of computational complexity of
+of computational complexity of classifying
+classifying uh
+classifying everything classifying problems classifying algorithms
+problems classifying algorithms in in classes of equivalent
+uh of roughly equivalent
+resource allocation
+this allows generalization reductions between various problems and so on if
+between various problems and so on if you look at the formulation of quantum
+you look at the formulation of quantum interactive proofs and you compare them
+interactive proofs and you compare them these particular ones these mi p star
+these particular ones these mi p star ones with multiple
+ones with multiple uh provers and you compare them to the
+paper the uh einstein pozzolski rosen uh experiment
+einstein pozzolski rosen uh experiment famous experiment testing quantum
+mechanics you see the same picture you see there are super interactive proof
+see there are super interactive proof like you see it in the
+like you see it in the you know more recent complexity
+theoretic quantum interactive proofs you see the same pictures but you look at
+the history of studying such uh experiments or proofs
+experiments or proofs uh
+in the physics world the focus one on was on particular you know different
+was on particular you know different type of
+problems like uh you know so there are several famous ones and the bad
+several famous ones and the bad inequalities and uh there are many
+inequalities and uh there are many uh
+examples of such tests of quantum mechanics as the main study is on par of
+particular problems whereas very naturally for people studying
+there's a collection of games all games reducible to each other and the proof
+reducible to each other and the proof that mip star equals re is a sequence of
+results and using race quantum coding theory techniques and so on even pcp
+theory techniques and so on even pcp techniques
+to to build a better understanding of how they
+uh and i think that's that's the source of the power and i think the application
+of the power and i think the application comes from the final results just
+comes from the final results just because the objects of study are
+because the objects of study are operators on an input space
+operators on an input space avi
+you are currently working on on something that appears to me to be
+something that appears to me to be quite different from what you've been
+quite different from what you've been working on earlier i may be wrong here
+optimization and it seems to me that you're you're doing optimization in the
+you're you're doing optimization in the presence of symmetries by certain
+presence of symmetries by certain non-commutative groups
+non-commutative groups general linear groups and stuff like
+it seems like a truly fascinating project
+from from many points of view with connections in many places would you
+care to comment the wee bit on on what you're doing here yeah so first of all
+you're doing here yeah so first of all it's completely true that it's very
+it's completely true that it's very different than anything i've done before
+different than anything i've done before because
+because it's
+more about algorithms than about complexity
+complexity and
+even more it's using far more mathematics that i didn't know
+previous projects that i've so i had to learn and i still have to
+learn much more um mathematics especially in variance
+theory in representation theory and some algebraic geometry that is uh i
+certainly was uh
+i'm not aware of and never needed so you know it's just a general point about the
+know it's just a general point about the again the connectivity of mathematics in
+again the connectivity of mathematics in part and in particular the connectedness
+of algorithms or what is used for efficient algorithms and
+for results in this case mathematics from different areas of mathematics and
+from different areas of mathematics and of course the other direction as well
+that's very dear to me from a derandomization project that uh you know
+derandomization project that uh you know it's this
+30 years one of the uh simplest problems which have uh
+uh simplest problems which have uh probabilistic algorithm uh
+that we don't know a deterministic counterpart i mean without assumptions
+counterpart i mean without assumptions we don't know that is the testing of
+so algebraic identities you can think about the neutron identities between
+about the neutron identities between symmetric polynomials or you can think
+about the van der mande identity and uh you know there are plenty lots and lots
+you know there are plenty lots and lots and lots of algebraic identities in
+and lots of algebraic identities in mathematics and we all seek them and
+mathematics and we all seek them and if anybody conjectures one what do you
+do how do you check it well there's a sure probabilistic way i mean you just
+sure probabilistic way i mean you just think about these are polynomials with
+think about these are polynomials with many variables of course you cannot
+many variables of course you cannot expand them because this will take
+expand them because this will take exponential time exponentially many
+exponential time exponentially many coefficients but we'll just plug random
+numbers into the variables and see whether
+you know they match just evaluate them right so you assume they are given by
+some method that you can quickly evaluate like a determinant or
+quickly evaluate like a determinant or something
+okay so there's a fast probabilistic algorithm for this and
+algorithm for this and we don't know the terministic one and
+20 years ago combination imperiato realized something absolutely
+realized something absolutely fundamental
+fundamental uh
+namely that if you find a deterministic polynomial time algorithm for this
+polynomial time algorithm for this problem
+you would have proved something like p different than mp
+different than mp it's a
+the analog is in the algebraic method it's a valiance theory user proven that
+it's a valiance theory user proven that the permanent is exponentially harder to
+the permanent is exponentially harder to compute than the terminal but anyway
+compute than the terminal but anyway something along these lines so this
+something along these lines so this first of all i want to say is sort of uh
+you know shocking for anybody who uh didn't see it before because
+uh didn't see it before because the an algorithm a positive result the
+the an algorithm a positive result the fast algorithm implies hardness of a
+different problem implies you know um
+computational hardness results which is uh
+and i will not go into this i'm just pointing this out
+uh so i was having you know even before this result this was a basic problem to
+this result this was a basic problem to try to randomize
+try to randomize uh and
+um yeah so various attempts on many special cases that i worked on and
+special cases that i worked on and others worked on uh
+there was progress and of course this result made it far more important and uh
+result made it far more important and uh it's
+some years ago five years ago or six years ago
+the issue of what happens if this polynomial the rational functions that
+polynomial the rational functions that you are trying to prove are equivalent
+you are trying to prove are equivalent are not with commuting variables but are
+are not with commuting variables but are others with non-community variables
+others with non-community variables of course it's natural and
+people worked on related stuff this became uh
+evident that uh we needed it in a project here with two postdocs uh
+project here with two postdocs uh uh pablo huber schedule day off and we
+non-communicative version of uh testing algebraic identities it's basically the
+algebraic identities it's basically the the word problem for sku fields
+it became apparent from uh our attempts that invariant theory is absolutely
+that invariant theory is absolutely crucial for this problem i mean it's
+because i will not explain it but understanding uh
+understanding uh the invariance of cells and group action
+on a set of
+set of matrices
+uh understanding the degree of this uh generating violence for this environment
+generating violence for this environment became
+started learning about this and i kept asking people in in this area this was
+this was open and uh i started working collaborating with two
+i started working collaborating with two students in princeton uh and chris garg
+students in princeton uh and chris garg and rafael oliveira
+and rafael oliveira and uh
+and uh eventually cutting a long story short
+together with leonis grovitz we found in polynomial time the terministic
+in polynomial time the terministic polynomial time
+algorithm for solving this problem in the non-communicative
+nothing like this was normal even a randomized algorithm was not known and
+randomized algorithm was not known and it used essentially
+it used essentially results in uh
+results in uh in environment theory and uh
+just trying to understand what we did i mean the last five years for me but just
+mean the last five years for me but just repeated attempts to better and better
+repeated attempts to better and better understand uh what we did the extent of
+this power of this type of algorithms uh what other problems they are related
+techniques can do and what is the meaning of these results
+meaning of these results led
+again being very brief so i i should say first about applications of this uh it
+first about applications of this uh it turns out to capture
+turns out to capture lots of things that seem unrelated
+work of us with many collaborators i would maybe
+would maybe not name
+them all and uh understanding that it it is useful not just for testing
+identities but for testing inequalities uh the brass complete inequalities
+uh the brass complete inequalities uh it's
+good for problems in quantum information theory it's good for problems in
+statistics for problems in operator theory i mean it seems to
+theory i mean it seems to be very uh very broad the very basic
+be very uh very broad the very basic questions though
+questions though uh but the more uh
+fundamental understanding as we have now you know six or seven or eight papers
+you know six or seven or eight papers later is that
+what we came about so i mean the the all these algorithms
+just evolve along the orbit of a uh a group action on a
+on some linear space that's the nature of all of them and
+we we have grown to understand that the the
+really the appropriate scope of uh placing these algorithms is as
+generalization i mean many of these algorithms of these problems are not
+so standard convex optimization methods don't work for them
+and uh but this algorithm work and what we understood is that these algorithms
+we understood is that these algorithms are really or can be viewed as
+are really or can be viewed as uh
+doing convex optimization the standard you know
+first order second order methods that are used in convex optimizations only
+are used in convex optimizations only instead of taking place
+in euclidean space they take place in some romanian manifold and the convexity
+some romanian manifold and the convexity that you need is the geodesic convexity
+of that space and
+by now we have a you know a theory of this
+of this kind of algorithms and of course there's
+plenty we don't understand many of the potential applications that we don't
+potential applications that we don't have as efficient but i think it's uh
+yeah i i find it's fascinating in particular the
+particular the growing number of application areas of
+this uh uh
+there's lots more to do and of course i'm hoping that maybe eventually it will
+i'm hoping that maybe eventually it will help us solve the commutative
+help us solve the commutative case and uh
+doesn't work there is yeah is also fascinating i guess this is yet another
+fascinating i guess this is yet another instance why the two of you are such
+instance why the two of you are such heroes in the mathematical and
+heroes in the mathematical and computational science community
+computational science community and which brings me sort of artificially
+it turns out that it seems that young koreans have discovered that you're a
+koreans have discovered that you're a sort of superheroes as well
+sort of superheroes as well and
+that this your two sons have a common phd advisor at stanford uh jacob fox as
+phd advisor at stanford uh jacob fox as far as you understand
+far as you understand and which was seized upon by a korean
+popular science uh journal for younger a younger
+and your sons are various characters from star wars
+as high-profile scientists do you feel at home at being action heroes in such a
+with lightsabers and whatnot i i always like a good joke so
+i i always like a good joke so i i i think this is this was great that
+i i i think this is this was great that that
+that cartoon
+cartoon yeah i also loved it and i think that uh
+you know you can be always more creative in getting uh young audiences excited
+in getting uh young audiences excited about mathematics in ways that you
+about mathematics in ways that you didn't expect before
+didn't expect before before
+before we come to the final ending i there's just one
+there's just one [Music]
+question i'd like to ask that has nothing to do as such with mathematics
+nothing to do as such with mathematics and that is
+so what is your feeling do you feel that science is under pressure
+science is under pressure and is this something the mathematical
+can or should engage in uh well you have different perspective
+uh well you have different perspective from where you are i don't know who of
+you who would like to start that asia has much more experience
+that's true science is under pressure and the basic reason for that as far as
+and the basic reason for that as far as i see is that
+i see is that that
+it has grown very fast and it has
+people understand less and less of what's going on in each particular
+what's going on in each particular science and that makes it frightening
+that makes it alien and also that makes it more difficult to
+and also that makes it more difficult to to identify what to believe and what not
+to identify what to believe and what not to distinguish between science and
+and this is a real problem i think
+i think we have to very carefully rethink how we teach students in high
+rethink how we teach students in high school
+now mathematics is is one of the areas where the teaching of mathematics
+areas where the teaching of mathematics is
+not up to up to what it could be so as long as
+90 of the people i meet say i have always hated mathematics
+always hated mathematics uh i i think we are we are not doing our
+i'm saying this in spite of many of my some of my best friends are working on
+some of my best friends are working on trying to improve
+mathematics education so in itself many people realize that there is this
+people realize that there is this problem but it's it's it's very
+problem but it's it's it's very difficult to move ahead
+difficult to move ahead i have less uh experience with other
+areas but i i i can sort of just looking from the
+to see what how biology is different from what i
+studied as biology in high school it's clear that there is a huge
+it's clear that there is a huge task there for
+in front of the scientific community and mathematics should play a
+and mathematics should play a central role because it has its
+central role because it has its uh
+sciences are using more and more mathematics
+uh not only statistics which is sort of standard but
+but for example network theory or or or of course
+or of course analysis and differential equations
+quantum physics which is really also mathematics a complicated area of of
+mathematics a complicated area of of multi-linear algebra so to say
+so i i think uh i think the problem is there and we should do something about
+there and we should do something about it
+it so
+we would dearly like to ask you what of all you have done you are most proud of
+all you have done you are most proud of and
+obviously so it would probably be like asking which one of your children you
+asking which one of your children you love the most
+love the most so
+on behalf of the norwegian mathematical society and the european mathematical
+society and the two of us we would like to thank you for this very
+interview and again congratulations with being awarded the hubble prize
+being awarded the hubble prize thank you
+thank you thank you very much

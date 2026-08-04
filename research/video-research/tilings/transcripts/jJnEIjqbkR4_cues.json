@@ -1,0 +1,187 @@
+[
+  {
+    "t_start": 7.03,
+    "t_end": 9.27,
+    "text": "at school students learn about uh tessellations so shapes you can repeat"
+  },
+  {
+    "t_start": 9.27,
+    "t_end": 11.31,
+    "text": "tessellations so shapes you can repeat over and over again to totally cover a"
+  },
+  {
+    "t_start": 11.31,
+    "t_end": 13.43,
+    "text": "over and over again to totally cover a surface uh mathematicians like to talk"
+  },
+  {
+    "t_start": 13.43,
+    "t_end": 17.67,
+    "text": "about tiling where you get one or more uh shapes and you arrange them different"
+  },
+  {
+    "t_start": 17.67,
+    "t_end": 20.429,
+    "text": "uh shapes and you arrange them different ways to completely cover the surface and"
+  },
+  {
+    "t_start": 20.429,
+    "t_end": 22.349,
+    "text": "ways to completely cover the surface and what these patterns normally have in"
+  },
+  {
+    "t_start": 22.349,
+    "t_end": 24.15,
+    "text": "what these patterns normally have in common is that they repeat themselves"
+  },
+  {
+    "t_start": 24.15,
+    "t_end": 31.07,
+    "text": "so if you started at one part of your tiling and then slid across to somewhere"
+  },
+  {
+    "t_start": 31.07,
+    "t_end": 34.67,
+    "text": "tiling and then slid across to somewhere else it would look exactly the same now"
+  },
+  {
+    "t_start": 34.67,
+    "t_end": 36.95,
+    "text": "else it would look exactly the same now in the' 60s someone started to have a"
+  },
+  {
+    "t_start": 36.95,
+    "t_end": 39.59,
+    "text": "in the' 60s someone started to have a think about could you find a pattern"
+  },
+  {
+    "t_start": 39.59,
+    "t_end": 41.549,
+    "text": "think about could you find a pattern which doesn't have that translational"
+  },
+  {
+    "t_start": 41.549,
+    "t_end": 48.189,
+    "text": "repeat and you could make them like if you were lazy you could get a repeating"
+  },
+  {
+    "t_start": 48.189,
+    "t_end": 52.31,
+    "text": "you were lazy you could get a repeating pattern of squares and you could just"
+  },
+  {
+    "t_start": 52.31,
+    "t_end": 55.549,
+    "text": "offset the rows by different random amounts and that would be nonperiodic"
+  },
+  {
+    "t_start": 55.549,
+    "t_end": 56.79,
+    "text": "amounts and that would be nonperiodic however someone could come along and"
+  },
+  {
+    "t_start": 56.79,
+    "t_end": 63.67,
+    "text": "just straighten it all back up again and it would be periodic again for a tiling"
+  },
+  {
+    "t_start": 63.67,
+    "t_end": 66.19,
+    "text": "to be what's called a periodic it means it's impossible to ever straighten it up"
+  },
+  {
+    "t_start": 66.19,
+    "t_end": 68.71,
+    "text": "it's impossible to ever straighten it up so you have that nice repeating pattern"
+  },
+  {
+    "t_start": 68.71,
+    "t_end": 70.31,
+    "text": "so you have that nice repeating pattern and they actually they found a set of"
+  },
+  {
+    "t_start": 70.31,
+    "t_end": 75.55,
+    "text": "and they actually they found a set of shapes that would do this in 1966 they"
+  },
+  {
+    "t_start": 75.55,
+    "t_end": 79.03,
+    "text": "found a set of uh 2,426 different shapes which combined"
+  },
+  {
+    "t_start": 79.03,
+    "t_end": 84.59,
+    "text": "would never ever repeat uh and gradually people found different sets of tiles uh"
+  },
+  {
+    "t_start": 84.59,
+    "t_end": 86.59,
+    "text": "people found different sets of tiles uh with fewer and fewer uh different shapes"
+  },
+  {
+    "t_start": 86.59,
+    "t_end": 89.109,
+    "text": "with fewer and fewer uh different shapes required until a man called Roger"
+  },
+  {
+    "t_start": 89.109,
+    "t_end": 95.35,
+    "text": "Penrose found a set that only needs two uh by by the' 70s it needs uh one shape"
+  },
+  {
+    "t_start": 95.35,
+    "t_end": 100.19,
+    "text": "uh by by the' 70s it needs uh one shape like this and it needs one shape like"
+  },
+  {
+    "t_start": 100.19,
+    "t_end": 105.069,
+    "text": "variations on this but this is a nice uh uh pretty uh version and if you start"
+  },
+  {
+    "t_start": 105.069,
+    "t_end": 107.31,
+    "text": "uh pretty uh version and if you start taking these and joining them together"
+  },
+  {
+    "t_start": 107.31,
+    "t_end": 112.709,
+    "text": "to build up a pattern no matter what you do no matter how hard you try you will"
+  },
+  {
+    "t_start": 112.709,
+    "t_end": 116.029,
+    "text": "do no matter how hard you try you will never end up with a pattern that repeats"
+  },
+  {
+    "t_start": 116.029,
+    "t_end": 118.749,
+    "text": "never end up with a pattern that repeats these two tiles or Penrose tiles as"
+  },
+  {
+    "t_start": 118.749,
+    "t_end": 121.99,
+    "text": "these two tiles or Penrose tiles as they're now known are a periodic you you"
+  },
+  {
+    "t_start": 121.99,
+    "t_end": 124.35,
+    "text": "they're now known are a periodic you you could join these together for an"
+  },
+  {
+    "t_start": 124.35,
+    "t_end": 126.59,
+    "text": "could join these together for an infinite amount of time You' never have"
+  },
+  {
+    "t_start": 126.59,
+    "t_end": 128.71,
+    "text": "infinite amount of time You' never have a repeating pattern absolutely"
+  },
+  {
+    "t_start": 128.71,
+    "t_end": 131.72,
+    "text": "a repeating pattern absolutely incredible"
+  }
+]

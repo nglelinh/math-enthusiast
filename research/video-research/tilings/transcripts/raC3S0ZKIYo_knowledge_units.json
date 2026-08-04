@@ -1,0 +1,261 @@
+[
+  {
+    "id": "ku_video_raC3S0ZKIYo_87",
+    "t_start": 87.3,
+    "t_end": 179.2,
+    "type": "overview",
+    "summary": "so it's a tremendous pleasure and honor to be here uh this is an amazing occasion uh on the birth of not one but two a periodic mono tiles and to have two a periodic mono tiles and to have the opportunity to introduce uh the subject for the third time perhaps today but it's new for uh many of the people in the audience and so uh and then of course to participate in this panel so course to participate in this panel so and above all to be on the team that to really to see this these tiles sort of emerge see their birth up close has been emerge see their birth up close has been quite quite nic…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_179",
+    "t_start": 179.2,
+    "t_end": 270.8,
+    "type": "overview",
+    "summary": "actually fit together to form copies of the entire plane it's a tile it's one tile that can form copies of the entire plane and a typical monotile might be plane and a typical monotile might be able to form many different tilings so able to form many different tilings so this L tile certainly can it can file or this L tile certainly can it can file or chair toe as is more usually called chair toe as is more usually called perhaps so it can form periodic tilings and we can tell that this is a periodic tiling because there's a translation or whole invariant or does not change it as a whole yo…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_270",
+    "t_start": 270.8,
+    "t_end": 360.8,
+    "type": "overview",
+    "summary": "in some very strong sense but any translation no matter where I stopped this movie something will be out of sync so like something will be out of sync so like there for example quite sorry there for example quite sorry um there you know you can get some of it to line up and if I go a little further I might get even more of it to line up and I'm not you know there I've gotten quite I'm not you know there I've gotten quite a bit of it to line up you can get arbitrarily small amounts of it to not line up but you'll never be able to have everything line up entirely and I'll explain the principl…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_360",
+    "t_start": 360.8,
+    "t_end": 451.6,
+    "type": "overview",
+    "summary": "the trick is and this seemed like a miracle to me when I first learned of it miracle to me when I first learned of it and honestly it still seems like a and honestly it still seems like a miracle and we should all pause no miracle and we should all pause no matter how well acquainted we are with this idea to just be in awe really of how remarkable a property this might be how remarkable a property this might be that a set of tiles or a tile whether it's one tile or many is a periodic if it can form these non-periodic tilings sorry it can form tilings but only these non-periodic ones that it…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_451",
+    "t_start": 451.6,
+    "t_end": 543.1,
+    "type": "overview",
+    "summary": "it's not just they can form non-periodic tilings but it can only form tilings but it can only form non-periodic tilings the Hat the altile non-periodic tilings the Hat the altile is not it's not an Einstein and I'm sure um we are mostly acquainted with this term which is due to Ludwig donzer and he you know if you look over the last few know if you look over the last few months we saw enormous amount of months we saw enormous amount of publicity about the hat and the Specter publicity about the hat and the Specter and particularly the the Einstein uh you know silly things with like Einstein…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_543",
+    "t_start": 543.1,
+    "t_end": 635.4,
+    "type": "overview",
+    "summary": "appropriate Computer Resources you just enumerate larger and larger patches and enumerate larger and larger patches and eventually you'll run out and you'll know the answer no in finite time but it's not really obvious how you would it's not really obvious how you would tell if a tile tiles or tiles tile emits tell if a tile tiles or tiles tile emits a tiling at all because you just make bigger and bigger patches and maybe you haven't crashed yet so but he observed that if there's no such thing as an aperonic tiling tile such thing as an aperonic tiling tile set of tiles that is to say if e…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_635",
+    "t_start": 635.4,
+    "t_end": 727.2,
+    "type": "overview",
+    "summary": "uh some very large percentage of the known constructions really rest on this idea of burgers and that's not to say that's the only method at all in fact in that's the only method at all in fact in the new paper in the Hat construction the new paper in the Hat construction there's a Joseph Myers had as a brand there's a Joseph Myers had as a brand new way of proving a periodicity but new way of proving a periodicity but there's remarkably few methods known and there's remarkably few methods known and uh in some sense a very large part of my career has basically been studying just this one id…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_727",
+    "t_start": 727.2,
+    "t_end": 820.7,
+    "type": "overview",
+    "summary": "eventually get a tiling of the entire plane in fact you get as many tilings of plane in fact you get as many tilings of the plane that all look just like this as there are real numbers there's this are real numbers there's this uncountably infinitely many l tilings uncountably infinitely many l tilings with this exact same structure and what is this structure it's that every individual tile not just this red every individual tile not just this red one but any tile you would pick one but any tile you would pick lies within a unique of four tiles which is a an l and then those four lie in a u…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_820",
+    "t_start": 820.7,
+    "t_end": 913.5,
+    "type": "overview",
+    "summary": "the tiling alone that you'll obviously be able to tell something moved with be able to tell something moved with that particular crazy shift but any shift you possibly could care about no matter how big particularly so about no matter how big particularly so whether it's a foot across a mile across whether it's a foot across a mile across a light year across you know vastly bigger than the universe across there's some L tile that's bigger across there's some L tile that's bigger than that and remember that this these hierarchies or hierarchies are unique that you can uniquely reconstruct th…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_913",
+    "t_start": 913.5,
+    "t_end": 1007.7,
+    "type": "overview",
+    "summary": "organized into uniquely organized into larger copies of themselves but that's or non-periodic now the ltol is not an a periodic monoton but nonetheless we can periodic monoton but nonetheless we can imitate that structure in some cases um in the Hat tile we don't have to go through any contortions with some other through any contortions with some other examples we don't have to worry about this quite so much but for the L tiles it turns out that but for the L tiles it turns out that these two tiles even though they don't these two tiles even though they don't look like L tiles when they fit…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_1007",
+    "t_start": 1007.7,
+    "t_end": 1098.7,
+    "type": "overview",
+    "summary": "extraneous markings you can reconstruct underneath that this hierarchy of L's underneath that this hierarchy of L's that may or may not be real clear but you can kind of begin to see some of that and so these guys are aperiodic because they structure and this is really Berger's idea going back to the very beginning of idea going back to the very beginning of the field of course we have the magical Penrose ROMs with the hierarchy of pentagons ROMs with the hierarchy of pentagons upon pentagons we have an example by Amman who this remarkable example and there's many more remarkable example an…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_1098",
+    "t_start": 1098.7,
+    "t_end": 1192.0,
+    "type": "overview",
+    "summary": "sincerely thank you because this is a big deal actually can we just do that big deal actually can we just do that again let's now we know where it is I won't make us do that a third time but you know I feel it so uh we got the you know I feel it so uh we got the story a little earlier this afternoon story a little earlier this afternoon from Craig but of course uh uh many are new here so this is the first uh as I understand it the first computer generated patch of hats out to some distance using Craig's software for I guess it's discovering hash numbers would be a characterization hash numb…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_1192",
+    "t_start": 1192.0,
+    "t_end": 1283.8,
+    "type": "overview",
+    "summary": "decomposed into these four chunks here that this that this stuff here is is uniquely determined that it's it's just force that you can always do that and then these in turn have this nice hierarchical structure right out the hierarchical structure right out the gate so it's a little this is a pretty slide to look at at a glance you have to really study it but essentially at the really study it but essentially at the upper left we have uh we have a little guy that's inflated to a bigger chunk to a bigger inflated to a bigger chunk to a bigger chunk to a bigger chunk still it's the exact same…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_1283",
+    "t_start": 1283.8,
+    "t_end": 1375.3,
+    "type": "overview",
+    "summary": "um and then just to quickly say something about this that Joseph soon something about this that Joseph soon noticed this combinatorial equivalence family and that remarkably that led to a whole nother proof a whole new style of whole nother proof a whole new style of proof of apriadicity which itself is proof of apriadicity which itself is very exciting and of course the question came up of whether or not we should allow whether or not we should allow Reflections I think this is a beautiful Reflections I think this is a beautiful beautiful um graphic by yoshiarakai and in particular if it's…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_1375",
+    "t_start": 1375.3,
+    "t_end": 1465.9,
+    "type": "overview",
+    "summary": "but by some miracle so it has enough Flex it has too much flexibility if you but if you don't flip it over then now suddenly magically you've removed just suddenly magically you've removed just enough flexibility that suddenly it's an and uh because it's chiral you can modify the edges with even more exciting modify the edges with even more exciting possibilities and so here's another Yoshi drawing here's rob batauer it really is a here's rob batauer it really is a specter this is a absolutely beautiful uh piece of cloth by I believe Ellie Baker and this is coming up I don't know if I've go…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_1465",
+    "t_start": 1465.9,
+    "t_end": 1556.3,
+    "type": "overview",
+    "summary": "um what time was already mentioning if uh tremendous public interest uh into uh tremendous public interest uh into this discovery um so what do you think about this particular mathematical story has made particular mathematical story has made it so interesting to just about anybody and is this something that we could ever repeat well I think the thing is it's very easy to understand what you're doing I mean a to understand what you're doing I mean a lot of mathematics you have to explain lot of mathematics you have to explain this and the the other thing before this and the the other thing …"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_1556",
+    "t_start": 1556.3,
+    "t_end": 1648.4,
+    "type": "overview",
+    "summary": "comparison of this wonderful Discovery with the proof of fair Mars Last Theorem which was a great great uh event in mathematics too but you can't sit and mathematics too but you can't sit and play with fairness there very well uh play with fairness there very well uh this one anybody can take that shape and this one anybody can take that shape and cut it out and make cookies and eat them cut it out and make cookies and eat them whatever you need to do but you can uh you can get your hands on them literally and I think that gives it gives not only and I think that gives it gives not only und…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_1648",
+    "t_start": 1648.4,
+    "t_end": 1738.8,
+    "type": "overview",
+    "summary": "perhaps the same possibility of some permanence in this world and universe permanence in this world and universe it's remarkable um so let me follow up on that this is like a a personal conundrum um so when like a a personal conundrum um so when you go around and you meet people most you go around and you meet people most of them friends they say some of them friends they say some mathematicians anyway so I'd have to mathematicians anyway so I'd have to talk to people who are not my um but um if you do and you say that they're a mathematician then the they're a mathematician then the respon…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_1738",
+    "t_start": 1738.8,
+    "t_end": 1827.9,
+    "type": "overview",
+    "summary": "I think that's to see directly what it does is not easy does is not easy so I think that's the best I can do for did you want anybody else I guess I guess it's my I'm now currently working guess it's my I'm now currently working at momath and so I suppose it's my job to help people think Math is fun but it's a difficult question right because it's a difficult question right because as mathematicians to engage in different than the kind of ways that we encourage people to approach mathematics encourage people to approach mathematics as a friendly kind of endeavor and I can't really square th…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_1830",
+    "t_start": 1830.7,
+    "t_end": 1923.3,
+    "type": "overview",
+    "summary": "I understand the the motivation for outreach and I do it too I don't do it um that being said right so it's not a problem we know how to solve we've been problem we know how to solve we've been we've been every year we bring our hands at the University how do we get more people to love well computer science how people to love well computer science how do we get more people obsessed with it the way we are and of course what would success look like were we what would success look like were we going to make everybody into a computer going to make everybody into a computer scientist no that we …"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_1923",
+    "t_start": 1923.3,
+    "t_end": 2015.6,
+    "type": "overview",
+    "summary": "so it's there is something beyond the utility in the subject which I think is utility in the subject which I think is is really important that certain people seem to have a love of the subject and certain people don't of the subject and certain people don't and I don't know that I need an act I don't have an explanation for that it just seems to be a fact of life just seems to be a fact of life so we just have to make most of our um also it's not always the same you see there's different kinds of mathematics you see some people are very Visual and like geometrical things and some people don…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_2015",
+    "t_start": 2015.6,
+    "t_end": 2108.1,
+    "type": "overview",
+    "summary": "and what what about that do you think you could give to a non-specialist you could give to a non-specialist to take home well of course a lot of the patterns are very attractive and repeating patterns very attractive and repeating patterns have a an appeal and then these things don't repeat I'm not sure what to say not sure what to say um so it can't be just repeating patterns which have an appeal but there's a which have an appeal but there's a certain getting something complicated out of something so simple I think has an attractive about attractiveness about it attractiveness about it uh…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_2108",
+    "t_start": 2108.1,
+    "t_end": 2200.6,
+    "type": "overview",
+    "summary": "tension between order and disorder we see across the Arts and every number any number of ways there is a sort of mathematical snobbery I would say if it's a little too easy that's right proper mathematics absolutely yes proper mathematics absolutely yes yeah um yeah okay um so um the heart was discovered the um so um the heart was discovered the hat and the Specter hat and the Specter um were discovered by um Dave who doesn't have any form of mathematical training which is wonderful mathematical training which is wonderful um and um I'm just wondering what you can mention this but um if if …"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_2200",
+    "t_start": 2200.6,
+    "t_end": 2291.7,
+    "type": "overview",
+    "summary": "um John Taylor and other there were other people also who had no particular other people also who had no particular mathematical training in this area they mathematical training in this area they could make genuine progress but if you're trying to do some you know comology Theory or something much more comology Theory or something much more sophisticated it's not so easy to see sophisticated it's not so easy to see how actually I'm not not such a good example of that one in some respects but um you of that one in some respects but um you can you can appreciate it can you can appreciate it c…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_2291",
+    "t_start": 2291.7,
+    "t_end": 2386.5,
+    "type": "overview",
+    "summary": "he liked sorting mail he thought it was a good thing to do and he uh he also knew it was a civil service job but he couldn't be fired from it lots of spare time he read Martin Gardner's column and tried to answer the Gardner's column and tried to answer the question that Gardner post and that included quite a bit of geometry and he actually solved some of those problems actually solved some of those problems not just on the on the period aperiodic not just on the on the period aperiodic times and then when he read that uh discovered aperectiles and Gardner said he would report on them later…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_2386",
+    "t_start": 2386.5,
+    "t_end": 2481.1,
+    "type": "overview",
+    "summary": "I've had the impression that he'd picked up on it from a sort of hint in Martin he'd had he indicated that he was going to do something a little unusual in the to do something a little unusual in the next one whether that was enough hint to next one whether that was enough hint to get Robert down and started on it I get Robert down and started on it I didn't think that's probably right well didn't think that's probably right well I the best I know I knew him and I wrote about him so that's why I'm saying what I think he was meant uh that he had what I think he was meant uh that he had been …"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_2482",
+    "t_start": 2482.7,
+    "t_end": 2574.1,
+    "type": "overview",
+    "summary": "like a mathematician but he was thinking and he was thinking about how the kinds of these five different sets of lines intersected he certainly did it in a very different way from from my Approach yeah yes yeah way from from my Approach yeah yes yeah yes so he can just to clarify you're saying he had no idea of any of the previous literature and the only hint previous literature and the only hint that he had was that this cryptic note that he had was that this cryptic note in a Martin Gardner column that far as I know it's already done the work he'd already got the word but completely he'd …"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_2574",
+    "t_start": 2574.1,
+    "t_end": 2670.6,
+    "type": "overview",
+    "summary": "list and that became an ongoing problem in mathematics that we now believe has in mathematics that we now believe has been finally solved in the last couple of years by Michael Rao uh who who I was actually Casey Mann who discovered and actually Casey Mann who discovered and collaborators who discovered the 15th type of Pentagon that tiles the plane and then Michael had this ingenious and then Michael had this ingenious computer search that we believe has proven that those are all the ones that can exist which is actually a little can exist which is actually a little disappointing because I…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_2670",
+    "t_start": 2670.6,
+    "t_end": 2763.9,
+    "type": "overview",
+    "summary": "mean I mean so there's a clearly trained as a mathematician going to school as a mathematician going to school learning lots of comology and stuff like that as one thing but but all of these people are mathematicians Dave you are I people are mathematicians Dave you are I mean it's just just how we discuss it mean it's just just how we discuss it and it's a little it's it's unfortunate and it's a little it's it's unfortunate that the word amateur has really been debased in English and the French one of the French reporters that French one of the French reporters that we were talking to amat…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_2763",
+    "t_start": 2763.9,
+    "t_end": 2855.6,
+    "type": "overview",
+    "summary": "but it's at least six and six isn't a very big number um and and this is uh in fact I mean this is something Davis worked on as well I had written this paper that did this enormous computer search that like this enormous computer search that like burned through who knows how many tons burned through who knows how many tons of CO2 to you know to like find no new results like I got up to Hash number four and meanwhile Dave sent an email to four and meanwhile Dave sent an email to the tiling mailing list that a lot of the tiling mailing list that a lot of people in the room are so anyway here'…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_2855",
+    "t_start": 2855.6,
+    "t_end": 2948.3,
+    "type": "overview",
+    "summary": "and dropping a perpendicular to each Edge so you have a quadrilateral and all of these are made out of those quadrilaterals and that quadrilateral pattern is completely uniform and uh it's a tiling regular tiling and the hat it's a tiling regular tiling and the hat I think uses eight of them in the Specter of ten is it I can't remember um but they have a different character um but they have a different character from the ones that I was playing around from the ones that I was playing around with it's completely different because with it's completely different because they had no such basic …"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_2948",
+    "t_start": 2948.3,
+    "t_end": 3039.0,
+    "type": "overview",
+    "summary": "believed was a proof of non-existence would be much much more difficult then a proof of this particular shape is a periodic so I'm I'm glad you know that a periodic so I'm I'm glad you know that we we live in the good Universe where we we live in the good Universe where euclidean geometry is obliged us with a euclidean geometry is obliged us with a shape that we can study relatively shape that we can study relatively easily in the end once we knew what it so unfortunately I'm on record for having conjectured that there's no having conjectured that there's no substance in a more naive part o…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_3038",
+    "t_start": 3039.0,
+    "t_end": 3132.3,
+    "type": "overview",
+    "summary": "were look expecting you know so for sure but on the other hand this does point to but on the other hand this does point to some possibilities the like perhaps some possibilities the like perhaps finding other highly symmetrical lattices and tilings for example let me just put this out there folks the just put this out there folks the truncated octahedron has some nice chopped up ways of chopping it up and perhaps recombining some pieces out of perhaps recombining some pieces out of that to form some three-dimensional that to form some three-dimensional analogues of this thing that might be …"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_3132",
+    "t_start": 3132.3,
+    "t_end": 3228.7,
+    "type": "overview",
+    "summary": "theoretically possible this is just purely anomalous we have we have we don't know like is there going to be a 50 kite that is also a periodic like if 50 kite that is also a periodic like if if this was somehow the right space of if this was somehow the right space of shapes to Surge I would have hoped to shapes to Surge I would have hoped to find another aperiodic monotonial maybe find another aperiodic monotonial maybe like a 20 kite or a 21 kite or a 16 kite but I can tell you with certainty that they don't exist so I I don't know I I want to believe polychics are somehow special but I p…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_3228",
+    "t_start": 3228.7,
+    "t_end": 3318.8,
+    "type": "overview",
+    "summary": "look right what what other we don't know and that's part of the reason why it and that's part of the reason why it took so long to find so um uh we should took so long to find so um uh we should perhaps move on to a question from the perhaps move on to a question from the audience soon but uh let's finish up by audience soon but uh let's finish up by asking um in your experience what is it that leads to a break for a result what do leads to a break for a result what do you have to do to get something amazing you have to do to get something amazing done done foreign the whole trouble is ther…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_3318",
+    "t_start": 3318.8,
+    "t_end": 3409.8,
+    "type": "overview",
+    "summary": "of us who worked on this paper were lucky enough to be in that position like lucky enough to be in that position like you know Joseph and I had both studied writing computer algorithms to classify shapes properties we had the right mental and software toolkit so that if someone software toolkit so that if someone handed us the shape we could say aha okay now I just put it into my my Pipeline and I get an answer at the Pipeline and I get an answer at the other end but I mean it came out of but as one a member a person was not on that team uh I just want to say that it that team uh I just wan…"
+  },
+  {
+    "id": "ku_video_raC3S0ZKIYo_3409",
+    "t_start": 3409.8,
+    "t_end": 3439.7,
+    "type": "overview",
+    "summary": "able to give yeah it was really complementary yes yeah it's kind of complementary yes yeah it's kind of magical yeah so that's a secret get three collaborators yeah make good connections um thank you very much for um all of the uh thoughts that you've shared but I think it's time for us to shared but I think it's time for us to start uh wrapping up so uh can I just start uh wrapping up so uh can I just have a round of applause for the funnel have a round of applause for the funnel [Applause]"
+  }
+]

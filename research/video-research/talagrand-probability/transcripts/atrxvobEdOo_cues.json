@@ -1,0 +1,4012 @@
+[
+  {
+    "t_start": 3.23,
+    "t_end": 5.789,
+    "text": "I don't know how many of you ER read the citation for the prize there were three"
+  },
+  {
+    "t_start": 5.789,
+    "t_end": 10.789,
+    "text": "main topics there were there was a spin classes which shav will talk about there"
+  },
+  {
+    "t_start": 10.789,
+    "t_end": 17.63,
+    "text": "was H chaining which I get Michelle and Sarah talked about and my main goal here"
+  },
+  {
+    "t_start": 17.63,
+    "t_end": 21.109,
+    "text": "Sarah talked about and my main goal here is to discuss uh the remaining two which"
+  },
+  {
+    "t_start": 21.109,
+    "t_end": 23.31,
+    "text": "is to discuss uh the remaining two which the main one is concentration of measure"
+  },
+  {
+    "t_start": 23.31,
+    "t_end": 26.79,
+    "text": "the main one is concentration of measure and we and also um mahar's problem but"
+  },
+  {
+    "t_start": 26.79,
+    "t_end": 30.55,
+    "text": "and we and also um mahar's problem but what I want to um do is"
+  },
+  {
+    "t_start": 30.55,
+    "t_end": 32.549,
+    "text": "what I want to um do is um is to to try to"
+  },
+  {
+    "t_start": 32.549,
+    "t_end": 38.229,
+    "text": "um is to to try to indicate how much um these ideas go far"
+  },
+  {
+    "t_start": 38.229,
+    "t_end": 41.63,
+    "text": "from probability and how much work there is"
+  },
+  {
+    "t_start": 41.63,
+    "t_end": 48.83,
+    "text": "Michelle which ER which is very different from these topics as well so"
+  },
+  {
+    "t_start": 48.83,
+    "t_end": 55.27,
+    "text": "um all around mathematics and um and and the ideas are it's not just statements"
+  },
+  {
+    "t_start": 55.27,
+    "t_end": 58.709,
+    "text": "the ideas are it's not just statements of theorems but it's insights that are"
+  },
+  {
+    "t_start": 58.709,
+    "t_end": 65.71,
+    "text": "places one one thing that I want to say that um this is the Sarah when we split"
+  },
+  {
+    "t_start": 65.71,
+    "t_end": 67.27,
+    "text": "that um this is the Sarah when we split it up in the way"
+  },
+  {
+    "t_start": 67.27,
+    "t_end": 70.83,
+    "text": "that I didn't get to talk about chaining this is the hardest thing for me to"
+  },
+  {
+    "t_start": 70.83,
+    "t_end": 72.87,
+    "text": "this is the hardest thing for me to force myself not to talk about chaining"
+  },
+  {
+    "t_start": 72.87,
+    "t_end": 74.87,
+    "text": "force myself not to talk about chaining so chaining"
+  },
+  {
+    "t_start": 74.87,
+    "t_end": 82.069,
+    "text": "appears um in many many many places in a very very very powerful way and um and"
+  },
+  {
+    "t_start": 82.069,
+    "t_end": 85.31,
+    "text": "and this is the one thing that I will not cover because it was covered before"
+  },
+  {
+    "t_start": 85.31,
+    "t_end": 91.63,
+    "text": "not cover because it was covered before even though it should be covered okay so"
+  },
+  {
+    "t_start": 91.63,
+    "t_end": 96.389,
+    "text": "um okay I want to start with mahar's problem because it's chronologically um"
+  },
+  {
+    "t_start": 96.389,
+    "t_end": 100.789,
+    "text": "problem because it's chronologically um where Michelle started um but also"
+  },
+  {
+    "t_start": 100.789,
+    "t_end": 102.23,
+    "text": "because I think that most of the talk will be in concentration of measure and"
+  },
+  {
+    "t_start": 102.23,
+    "t_end": 104.31,
+    "text": "will be in concentration of measure and we can easily just get trapped there so"
+  },
+  {
+    "t_start": 104.31,
+    "t_end": 110.03,
+    "text": "we can easily just get trapped there so I want to get one thing which is a"
+  },
+  {
+    "t_start": 110.03,
+    "t_end": 116.95,
+    "text": "little different so the so um the the situation is is a the setting is very"
+  },
+  {
+    "t_start": 119.27,
+    "t_end": 121.029,
+    "text": "set um people are far away is this big enough"
+  },
+  {
+    "t_start": 121.029,
+    "t_end": 130.51,
+    "text": "yeah you have a set and let's say a sigma is an is an"
+  },
+  {
+    "t_start": 138.309,
+    "t_end": 141.229,
+    "text": "I'm used to Sigma algebras but this is just an algebra so it's a collection of"
+  },
+  {
+    "t_start": 141.229,
+    "t_end": 143.309,
+    "text": "just an algebra so it's a collection of sets which is closed under"
+  },
+  {
+    "t_start": 143.309,
+    "t_end": 146.229,
+    "text": "sets which is closed under intersection a union contains the empty"
+  },
+  {
+    "t_start": 146.229,
+    "t_end": 149.99,
+    "text": "intersection a union contains the empty set okay um"
+  },
+  {
+    "t_start": 149.99,
+    "t_end": 156.67,
+    "text": "and um and complement okay and um so now you so um you have a"
+  },
+  {
+    "t_start": 156.67,
+    "t_end": 162.19,
+    "text": "you so um you have a function that assigns to every set some"
+  },
+  {
+    "t_start": 162.19,
+    "t_end": 170.07,
+    "text": "number right so so F of a is some number negative and a for"
+  },
+  {
+    "t_start": 170.07,
+    "t_end": 177.589,
+    "text": "a is some number negative and a for every a in Sigma and we'll say that it's"
+  },
+  {
+    "t_start": 180.949,
+    "t_end": 187.949,
+    "text": "very obvious axum so what we say that the empty set is is mapped to"
+  },
+  {
+    "t_start": 187.949,
+    "t_end": 193.99,
+    "text": "the empty set is is mapped to zero it's monotone so if a is a subset"
+  },
+  {
+    "t_start": 193.99,
+    "t_end": 204.509,
+    "text": "a is less than F of B and it's sub additive so F of a union"
+  },
+  {
+    "t_start": 210.63,
+    "t_end": 213.07,
+    "text": "B is less than F of a plus F of B okay so it's um and then it's a measure"
+  },
+  {
+    "t_start": 213.07,
+    "t_end": 218.11,
+    "text": "okay so it's um and then it's a measure if there is equality so um this only in"
+  },
+  {
+    "t_start": 218.11,
+    "t_end": 220.35,
+    "text": "this very soon I'm going to pass to to Sigma additive measures so but but just"
+  },
+  {
+    "t_start": 220.35,
+    "t_end": 227.789,
+    "text": "in this part I'm going to say measure but I'm going to mean finitely additive"
+  },
+  {
+    "t_start": 241.75,
+    "t_end": 249.55,
+    "text": "equality then we say just then we say it's a measure but it's finite"
+  },
+  {
+    "t_start": 252.99,
+    "t_end": 255.47,
+    "text": "additive okay so this is the setting um now we're interested in functions"
+  },
+  {
+    "t_start": 255.47,
+    "t_end": 257.39,
+    "text": "um now we're interested in functions which have the following property which"
+  },
+  {
+    "t_start": 257.39,
+    "t_end": 264.11,
+    "text": "is called exhaustive so suppose the following hold so um whenever you have a"
+  },
+  {
+    "t_start": 264.11,
+    "t_end": 266.22,
+    "text": "following hold so um whenever you have a sequence"
+  },
+  {
+    "t_start": 266.22,
+    "t_end": 267.83,
+    "text": "sequence [Applause]"
+  },
+  {
+    "t_start": 267.83,
+    "t_end": 274.43,
+    "text": "AI these are ele elements in the algebra and they are disjoint so for every"
+  },
+  {
+    "t_start": 274.43,
+    "t_end": 280.83,
+    "text": "disjoint sequence so no two of them intersect whenever that happens the"
+  },
+  {
+    "t_start": 280.83,
+    "t_end": 289.39,
+    "text": "intersect whenever that happens the limit of f of fi F of AI is"
+  },
+  {
+    "t_start": 292.39,
+    "t_end": 295.749,
+    "text": "zero okay so that is so that's what's called exhaustive I'll get to this a bit"
+  },
+  {
+    "t_start": 295.749,
+    "t_end": 299.15,
+    "text": "called exhaustive I'll get to this a bit later suppose this holds so but there is"
+  },
+  {
+    "t_start": 299.15,
+    "t_end": 300.79,
+    "text": "later suppose this holds so but there is a quantifier for every choice of"
+  },
+  {
+    "t_start": 300.79,
+    "t_end": 304.59,
+    "text": "a quantifier for every choice of sequences of set that go to"
+  },
+  {
+    "t_start": 304.59,
+    "t_end": 312.07,
+    "text": "zero um so does anybody see in your mind an example of a function that has this"
+  },
+  {
+    "t_start": 312.07,
+    "t_end": 314.51,
+    "text": "an example of a function that has this property whenever you are whenever you"
+  },
+  {
+    "t_start": 314.51,
+    "t_end": 319.87,
+    "text": "property whenever you are whenever you have a measure it has to have this"
+  },
+  {
+    "t_start": 319.87,
+    "t_end": 324.309,
+    "text": "Union of A1 A2 up to a n is is equal to the sum of the fs of AI which is at most"
+  },
+  {
+    "t_start": 324.309,
+    "t_end": 326.71,
+    "text": "the sum of the fs of AI which is at most F of the entire space which is some"
+  },
+  {
+    "t_start": 326.71,
+    "t_end": 336.15,
+    "text": "finite number okay so this obviously holds"
+  },
+  {
+    "t_start": 337.35,
+    "t_end": 342.35,
+    "text": "a if f is a"
+  },
+  {
+    "t_start": 346.749,
+    "t_end": 349.23,
+    "text": "measure right um um and um but it also holds if a little bit more it holds if"
+  },
+  {
+    "t_start": 349.23,
+    "t_end": 353.15,
+    "text": "holds if a little bit more it holds if also also holds for the same"
+  },
+  {
+    "t_start": 377.15,
+    "t_end": 380.67,
+    "text": "mu by that I mean give me an Epsilon um for every Epsilon there is a"
+  },
+  {
+    "t_start": 380.67,
+    "t_end": 388.469,
+    "text": "Epsilon um for every Epsilon there is a Delta um such that um if you give me a"
+  },
+  {
+    "t_start": 388.469,
+    "t_end": 391.15,
+    "text": "set where mu of a is less than Delta that forces f"
+  },
+  {
+    "t_start": 391.15,
+    "t_end": 396.749,
+    "text": "of a to be less than Epsilon um or if you have a SE the same"
+  },
+  {
+    "t_start": 396.749,
+    "t_end": 399.39,
+    "text": "Epsilon um or if you have a SE the same thing is saying if if mu of AI tends to"
+  },
+  {
+    "t_start": 399.39,
+    "t_end": 405.39,
+    "text": "thing is saying if if mu of AI tends to zero then also F of AI tends to zero so"
+  },
+  {
+    "t_start": 405.39,
+    "t_end": 408.99,
+    "text": "that's by Design um holding whenever"
+  },
+  {
+    "t_start": 408.99,
+    "t_end": 413.87,
+    "text": "um uh f is absolutely continuous with respect to a measure and in maharam in"
+  },
+  {
+    "t_start": 413.87,
+    "t_end": 417.79,
+    "text": "respect to a measure and in maharam in the 40s dth"
+  },
+  {
+    "t_start": 420.39,
+    "t_end": 423.71,
+    "text": "maharam so it's the 19 40s I don't know exactly when"
+  },
+  {
+    "t_start": 427.44,
+    "t_end": 431.629,
+    "text": "conjectured that this is if and only [Applause]"
+  },
+  {
+    "t_start": 431.629,
+    "t_end": 437.35,
+    "text": "if okay so that if you have this this a stringent property so for every choice"
+  },
+  {
+    "t_start": 437.35,
+    "t_end": 443.749,
+    "text": "of of of this joint sets F tends to zero along them then that this can only come"
+  },
+  {
+    "t_start": 443.749,
+    "t_end": 448.35,
+    "text": "along them then that this can only come if f is a controlled by is is absolutely"
+  },
+  {
+    "t_start": 448.35,
+    "t_end": 451.35,
+    "text": "if f is a controlled by is is absolutely with respect to a measure for which this"
+  },
+  {
+    "t_start": 451.35,
+    "t_end": 458.309,
+    "text": "obvious okay so um so there is so that would be a very"
+  },
+  {
+    "t_start": 458.309,
+    "t_end": 460.07,
+    "text": "um so there is so that would be a very nice result this this this is this is"
+  },
+  {
+    "t_start": 460.07,
+    "t_end": 461.67,
+    "text": "nice result this this this is this is what this"
+  },
+  {
+    "t_start": 461.67,
+    "t_end": 467.07,
+    "text": "was a truly central question in measure Theory a very very old and Central and"
+  },
+  {
+    "t_start": 467.07,
+    "t_end": 470.99,
+    "text": "Theory a very very old and Central and um many many people looked at it um many"
+  },
+  {
+    "t_start": 470.99,
+    "t_end": 472.83,
+    "text": "um many many people looked at it um many equivalent formulations many"
+  },
+  {
+    "t_start": 472.83,
+    "t_end": 479.55,
+    "text": "equivalent formulations many applications it's quite close to being"
+  },
+  {
+    "t_start": 479.55,
+    "t_end": 483.11,
+    "text": "true um so in in 1979 Michelle a conjectured or suggested the"
+  },
+  {
+    "t_start": 483.11,
+    "t_end": 488.749,
+    "text": "Michelle a conjectured or suggested the following a stronger version so so H so"
+  },
+  {
+    "t_start": 488.749,
+    "t_end": 490.99,
+    "text": "following a stronger version so so H so let's look at this conjecture in this"
+  },
+  {
+    "t_start": 490.99,
+    "t_end": 493.869,
+    "text": "let's look at this conjecture in this condition here there is just a"
+  },
+  {
+    "t_start": 493.869,
+    "t_end": 496.589,
+    "text": "condition here there is just a limit we're not saying anything about"
+  },
+  {
+    "t_start": 496.589,
+    "t_end": 499.07,
+    "text": "limit we're not saying anything about rates so let's introduce some rate let's"
+  },
+  {
+    "t_start": 499.07,
+    "t_end": 500.67,
+    "text": "rates so let's introduce some rate let's make this"
+  },
+  {
+    "t_start": 500.67,
+    "t_end": 502.95,
+    "text": "make this uniform"
+  },
+  {
+    "t_start": 502.95,
+    "t_end": 508.83,
+    "text": "um um so a so this is just terminology f is"
+  },
+  {
+    "t_start": 508.83,
+    "t_end": 513.44,
+    "text": "a so this is just terminology f is uniform"
+  },
+  {
+    "t_start": 516.389,
+    "t_end": 524.79,
+    "text": "exhausting if um again for every Epsilon there exists an"
+  },
+  {
+    "t_start": 526.79,
+    "t_end": 537.67,
+    "text": "that uh if A1 a n elements of our algebra are"
+  },
+  {
+    "t_start": 556.71,
+    "t_end": 559.509,
+    "text": "minimum of f of AI is less than Epsilon that's a stronger version there"
+  },
+  {
+    "t_start": 559.509,
+    "t_end": 563.63,
+    "text": "Epsilon that's a stronger version there is right there is you want it to be"
+  },
+  {
+    "t_start": 563.63,
+    "t_end": 564.829,
+    "text": "small it's enough not to you're not looking at the infinite sequence you"
+  },
+  {
+    "t_start": 564.829,
+    "t_end": 566.389,
+    "text": "looking at the infinite sequence you just there is some n depending on"
+  },
+  {
+    "t_start": 566.389,
+    "t_end": 567.75,
+    "text": "just there is some n depending on Epsilon then one of them will be less"
+  },
+  {
+    "t_start": 567.75,
+    "t_end": 569.949,
+    "text": "Epsilon then one of them will be less than that and that's again obviously"
+  },
+  {
+    "t_start": 569.949,
+    "t_end": 572.829,
+    "text": "than that and that's again obviously true for a measure or anything which"
+  },
+  {
+    "t_start": 572.829,
+    "t_end": 574.71,
+    "text": "true for a measure or anything which is"
+  },
+  {
+    "t_start": 574.71,
+    "t_end": 581.03,
+    "text": "um absolute continuous with respect to a measure um right for a measure it's"
+  },
+  {
+    "t_start": 581.03,
+    "t_end": 585.59,
+    "text": "right the N will be linear in epsilon in one over Epsilon because the sum of AI"
+  },
+  {
+    "t_start": 585.59,
+    "t_end": 590.75,
+    "text": "will be less than mu of X over Epsilon so one of them is less than Epsilon over"
+  },
+  {
+    "t_start": 590.75,
+    "t_end": 595.15,
+    "text": "so one of them is less than Epsilon over n and and and Michelle conjectured that"
+  },
+  {
+    "t_start": 595.15,
+    "t_end": 599.11,
+    "text": "n and and and Michelle conjectured that well this is a special case of maharam"
+  },
+  {
+    "t_start": 599.11,
+    "t_end": 600.99,
+    "text": "but at least in this case um it's true and this is a wonderful theorem so this"
+  },
+  {
+    "t_start": 600.99,
+    "t_end": 603.829,
+    "text": "and this is a wonderful theorem so this is truly I I I highly recommend reading"
+  },
+  {
+    "t_start": 603.829,
+    "t_end": 612.03,
+    "text": "is truly I I I highly recommend reading this paper of Calton and"
+  },
+  {
+    "t_start": 614.35,
+    "t_end": 619.59,
+    "text": "Roberts in 1983 so this so this this was a"
+  },
+  {
+    "t_start": 619.59,
+    "t_end": 621.19,
+    "text": "1983 so this so this this was a a"
+  },
+  {
+    "t_start": 621.19,
+    "t_end": 626.99,
+    "text": "79 um where he studied this question and and and and and he proved that it's true"
+  },
+  {
+    "t_start": 626.99,
+    "t_end": 629.79,
+    "text": "and and and and he proved that it's true so if"
+  },
+  {
+    "t_start": 629.79,
+    "t_end": 640.99,
+    "text": "so if f is uniformly"
+  },
+  {
+    "t_start": 644.55,
+    "t_end": 650.509,
+    "text": "exhaustive then um it is then it is absolutely"
+  },
+  {
+    "t_start": 650.509,
+    "t_end": 657.71,
+    "text": "um it is then it is absolutely continuous with respect to a"
+  },
+  {
+    "t_start": 660.71,
+    "t_end": 666.47,
+    "text": "result it's a superb theorem I I this um the proof uses expander graphs even"
+  },
+  {
+    "t_start": 666.47,
+    "t_end": 672.31,
+    "text": "though this seems like a um has nothing to do with combinatorics and I think"
+  },
+  {
+    "t_start": 672.31,
+    "t_end": 674.79,
+    "text": "to do with combinatorics and I think expander graphs have been immensely"
+  },
+  {
+    "t_start": 674.79,
+    "t_end": 677.19,
+    "text": "expander graphs have been immensely powerful in in computer science for"
+  },
+  {
+    "t_start": 677.19,
+    "t_end": 681.71,
+    "text": "example but I think this if this is not the first really serious application of"
+  },
+  {
+    "t_start": 681.71,
+    "t_end": 688.19,
+    "text": "first and it was done by analysts so the proof is interesting and it brings in"
+  },
+  {
+    "t_start": 688.19,
+    "t_end": 690.71,
+    "text": "proof is interesting and it brings in Concepts that were after words really"
+  },
+  {
+    "t_start": 690.71,
+    "t_end": 693.15,
+    "text": "Concepts that were after words really revolutionary in"
+  },
+  {
+    "t_start": 693.15,
+    "t_end": 696.55,
+    "text": "revolutionary in mathematics"
+  },
+  {
+    "t_start": 699.23,
+    "t_end": 700.91,
+    "text": "um um the reason Michelle I think you made this conjecture is because your"
+  },
+  {
+    "t_start": 700.91,
+    "t_end": 703.55,
+    "text": "made this conjecture is because your paper and earlier papers of Christensen"
+  },
+  {
+    "t_start": 703.55,
+    "t_end": 709.069,
+    "text": "paper and earlier papers of Christensen Etc you were trying to build a counter"
+  },
+  {
+    "t_start": 709.069,
+    "t_end": 710.03,
+    "text": "example to mahar's problem and those attempts"
+  },
+  {
+    "t_start": 710.03,
+    "t_end": 717.35,
+    "text": "failed um and and you saw that this lack of uniformity is what H is what um"
+  },
+  {
+    "t_start": 717.35,
+    "t_end": 723.59,
+    "text": "what's going on so um no sorry you were in all the the attempts there was this"
+  },
+  {
+    "t_start": 723.59,
+    "t_end": 725.19,
+    "text": "in all the the attempts there was this uniformity and that's why the attempts"
+  },
+  {
+    "t_start": 725.19,
+    "t_end": 729.15,
+    "text": "failed so it was a natural thing to make this conjecture uh it's interesting so"
+  },
+  {
+    "t_start": 729.15,
+    "t_end": 734.79,
+    "text": "this conjecture uh it's interesting so as I said this was a This was um one of"
+  },
+  {
+    "t_start": 734.79,
+    "t_end": 739.069,
+    "text": "the first really substantial uses of expanders um for um for"
+  },
+  {
+    "t_start": 739.069,
+    "t_end": 744.11,
+    "text": "expanders um for um for um a serious application um but very"
+  },
+  {
+    "t_start": 744.11,
+    "t_end": 745.31,
+    "text": "um a serious application um but very recently I think in"
+  },
+  {
+    "t_start": 745.31,
+    "t_end": 749.829,
+    "text": "2016 uh the proof in this scon and Roberts has also a decisive applications"
+  },
+  {
+    "t_start": 749.829,
+    "t_end": 752.11,
+    "text": "Roberts has also a decisive applications again in computer science so there is"
+  },
+  {
+    "t_start": 752.11,
+    "t_end": 754.069,
+    "text": "again in computer science so there is very recent developments which actually"
+  },
+  {
+    "t_start": 754.069,
+    "t_end": 756.03,
+    "text": "very recent developments which actually use that development that theorem to"
+  },
+  {
+    "t_start": 756.03,
+    "t_end": 759.91,
+    "text": "use that development that theorem to solve questions um in computer"
+  },
+  {
+    "t_start": 759.91,
+    "t_end": 768.189,
+    "text": "solve questions um in computer science um so that was a I think this is"
+  },
+  {
+    "t_start": 795.949,
+    "t_end": 800.91,
+    "text": "okay I'll do my best to write you know stronger way above the bad racing"
+  },
+  {
+    "t_start": 800.91,
+    "t_end": 802.509,
+    "text": "stronger way above the bad racing um"
+  },
+  {
+    "t_start": 802.509,
+    "t_end": 807.069,
+    "text": "um until"
+  },
+  {
+    "t_start": 812.269,
+    "t_end": 814.71,
+    "text": "T it appeared in8 eight I probably was a preprint for a while Pro that maham's"
+  },
+  {
+    "t_start": 814.71,
+    "t_end": 826.15,
+    "text": "preprint for a while Pro that maham's conjecture is"
+  },
+  {
+    "t_start": 830.43,
+    "t_end": 831.67,
+    "text": "false okay so um and this is this is not just a construction of a comforter"
+  },
+  {
+    "t_start": 831.67,
+    "t_end": 836.949,
+    "text": "example let's think for a moment what has to be done you have to cook up a set"
+  },
+  {
+    "t_start": 836.949,
+    "t_end": 840.189,
+    "text": "has to be done you have to cook up a set with an alge with an algebra of Subs"
+  },
+  {
+    "t_start": 840.189,
+    "t_end": 843.189,
+    "text": "with an alge with an algebra of Subs a sub additive a sub measure on it which"
+  },
+  {
+    "t_start": 843.189,
+    "t_end": 844.55,
+    "text": "a sub additive a sub measure on it which satisfies these condition so you have to"
+  },
+  {
+    "t_start": 844.55,
+    "t_end": 848.11,
+    "text": "satisfies these condition so you have to be able to to prove that it holds for"
+  },
+  {
+    "t_start": 848.11,
+    "t_end": 848.71,
+    "text": "every sequence of this joint subsets of the"
+  },
+  {
+    "t_start": 848.71,
+    "t_end": 852.189,
+    "text": "algebra so there is something interesting just even checking that it"
+  },
+  {
+    "t_start": 852.189,
+    "t_end": 854.15,
+    "text": "interesting just even checking that it satisfies a condition and then you have"
+  },
+  {
+    "t_start": 854.15,
+    "t_end": 855.23,
+    "text": "satisfies a condition and then you have to prove a theorem which has a"
+  },
+  {
+    "t_start": 855.23,
+    "t_end": 858.03,
+    "text": "to prove a theorem which has a quantifier every measure no measure"
+  },
+  {
+    "t_start": 858.03,
+    "t_end": 863.43,
+    "text": "controls for no measure your f is is a is a absolutely continuous with respect"
+  },
+  {
+    "t_start": 863.43,
+    "t_end": 869.15,
+    "text": "to it so it's a counter example which has but you have to prove a theorem with"
+  },
+  {
+    "t_start": 869.15,
+    "t_end": 875.67,
+    "text": "every measure in order to do that so this is um um um thank you um so this is"
+  },
+  {
+    "t_start": 875.67,
+    "t_end": 877.59,
+    "text": "this is um um um thank you um so this is a I think a beautiful story I think this"
+  },
+  {
+    "t_start": 877.59,
+    "t_end": 879.15,
+    "text": "a I think a beautiful story I think this was related to your dissertation problem"
+  },
+  {
+    "t_start": 879.15,
+    "t_end": 885.59,
+    "text": "was related to your dissertation problem right the did the sh suggest it to you"
+  },
+  {
+    "t_start": 885.59,
+    "t_end": 887.829,
+    "text": "the maharam problem or I don't"
+  },
+  {
+    "t_start": 887.829,
+    "t_end": 895.67,
+    "text": "yes you don't okay um but in any case um Michelle returned to this so many years"
+  },
+  {
+    "t_start": 895.67,
+    "t_end": 898.71,
+    "text": "Michelle returned to this so many years after and just obliterated it um but"
+  },
+  {
+    "t_start": 898.71,
+    "t_end": 900.949,
+    "text": "after and just obliterated it um but both the positive results started from a"
+  },
+  {
+    "t_start": 900.949,
+    "t_end": 902.269,
+    "text": "both the positive results started from a question that he asked and it led to"
+  },
+  {
+    "t_start": 902.269,
+    "t_end": 905.23,
+    "text": "question that he asked and it led to very nice mathematics and the proof that"
+  },
+  {
+    "t_start": 905.23,
+    "t_end": 909.67,
+    "text": "very nice mathematics and the proof that it's false is a very interesting proof"
+  },
+  {
+    "t_start": 909.67,
+    "t_end": 913.43,
+    "text": "so this is a an early chapter of of Michelle's contributions"
+  },
+  {
+    "t_start": 913.43,
+    "t_end": 917.59,
+    "text": "chapter of of Michelle's contributions but whose closure actually is"
+  },
+  {
+    "t_start": 917.59,
+    "t_end": 923.43,
+    "text": "um so yeah so now my talk is eclectic because I want to show many things now I"
+  },
+  {
+    "t_start": 923.43,
+    "t_end": 926.43,
+    "text": "because I want to show many things now I want to pass to uh a concentration of"
+  },
+  {
+    "t_start": 926.43,
+    "t_end": 930.87,
+    "text": "want to pass to uh a concentration of measure"
+  },
+  {
+    "t_start": 965.67,
+    "t_end": 973.389,
+    "text": "okay so um so concentration of"
+  },
+  {
+    "t_start": 976.15,
+    "t_end": 980.389,
+    "text": "measure and this is a property of a pro of a probability space so you have some"
+  },
+  {
+    "t_start": 980.389,
+    "t_end": 993.189,
+    "text": "p a probability space [Applause]"
+  },
+  {
+    "t_start": 995.55,
+    "t_end": 999.67,
+    "text": "and we want to say something along the lines of um every large subset of the"
+  },
+  {
+    "t_start": 999.67,
+    "t_end": 1002.87,
+    "text": "lines of um every large subset of the space so you CH you choose your favorite"
+  },
+  {
+    "t_start": 1002.87,
+    "t_end": 1007.11,
+    "text": "space so you CH you choose your favorite large subset of your set"
+  },
+  {
+    "t_start": 1007.11,
+    "t_end": 1012.47,
+    "text": "Omega um so for every large subset so it's something of the form we want to"
+  },
+  {
+    "t_start": 1012.47,
+    "t_end": 1016.43,
+    "text": "it's something of the form we want to say for every"
+  },
+  {
+    "t_start": 1016.43,
+    "t_end": 1020.749,
+    "text": "say for every large subset"
+  },
+  {
+    "t_start": 1022.79,
+    "t_end": 1030.789,
+    "text": "Omega a almost the majority or most of the"
+  },
+  {
+    "t_start": 1030.789,
+    "t_end": 1040.11,
+    "text": "almost the majority or most of the points of Omega is close to"
+  },
+  {
+    "t_start": 1043.71,
+    "t_end": 1051.27,
+    "text": "a and what something which is essentially equivalent which is a a for"
+  },
+  {
+    "t_start": 1052.39,
+    "t_end": 1062.029,
+    "text": "a nice say sufficiently"
+  },
+  {
+    "t_start": 1065.43,
+    "t_end": 1069.51,
+    "text": "continuous a function if an Omega"
+  },
+  {
+    "t_start": 1069.51,
+    "t_end": 1078.95,
+    "text": "if an Omega um a f is almost constant"
+  },
+  {
+    "t_start": 1092.909,
+    "t_end": 1095.95,
+    "text": "space okay so for this to make sense so these types of phenomena are known to be"
+  },
+  {
+    "t_start": 1095.95,
+    "t_end": 1097.909,
+    "text": "these types of phenomena are known to be um equivalent to each other under"
+  },
+  {
+    "t_start": 1097.909,
+    "t_end": 1099.87,
+    "text": "um equivalent to each other under reasonable conditions this is the same"
+  },
+  {
+    "t_start": 1099.87,
+    "t_end": 1106.789,
+    "text": "reasonable conditions this is the same thing this is a property of the space um"
+  },
+  {
+    "t_start": 1106.789,
+    "t_end": 1109.07,
+    "text": "it is vague because H there are all kinds of things that we didn't say so"
+  },
+  {
+    "t_start": 1109.07,
+    "t_end": 1111.31,
+    "text": "kinds of things that we didn't say so large okay it's a probability space so"
+  },
+  {
+    "t_start": 1111.31,
+    "t_end": 1116.909,
+    "text": "let's say probability at least a half so also most could be interpreted in this"
+  },
+  {
+    "t_start": 1116.909,
+    "t_end": 1123.43,
+    "text": "way this is problematic close to cuz I we're not dealing with a metric here or"
+  },
+  {
+    "t_start": 1123.43,
+    "t_end": 1126.029,
+    "text": "we're not dealing with a metric here or there's no notion of closeness and the"
+  },
+  {
+    "t_start": 1126.029,
+    "t_end": 1128.35,
+    "text": "there's no notion of closeness and the analogous thing for for functions would"
+  },
+  {
+    "t_start": 1128.35,
+    "t_end": 1130.07,
+    "text": "analogous thing for for functions would be what do we mean by"
+  },
+  {
+    "t_start": 1130.07,
+    "t_end": 1135.149,
+    "text": "continuous okay so we have to what does sufficiently continuous or what does"
+  },
+  {
+    "t_start": 1135.149,
+    "t_end": 1142.789,
+    "text": "nice function mean and um so I'll give you examples and then I'm going to state"
+  },
+  {
+    "t_start": 1142.789,
+    "t_end": 1152.23,
+    "text": "you examples and then I'm going to state state and explain a proof of one theorem"
+  },
+  {
+    "t_start": 1155.43,
+    "t_end": 1160.99,
+    "text": "Michelle's um transformation of this area is a is that uh he invented highly"
+  },
+  {
+    "t_start": 1160.99,
+    "t_end": 1162.669,
+    "text": "area is a is that uh he invented highly original interpretations of what what's"
+  },
+  {
+    "t_start": 1162.669,
+    "t_end": 1164.63,
+    "text": "original interpretations of what what's underlined here so he discovered"
+  },
+  {
+    "t_start": 1164.63,
+    "t_end": 1166.75,
+    "text": "underlined here so he discovered phenomena which are not would which"
+  },
+  {
+    "t_start": 1166.75,
+    "t_end": 1169.63,
+    "text": "would not be your first Cas in to introduce a itional structure which is"
+  },
+  {
+    "t_start": 1169.63,
+    "t_end": 1171.75,
+    "text": "introduce a itional structure which is hidden in the problem so the first guess"
+  },
+  {
+    "t_start": 1171.75,
+    "t_end": 1176.83,
+    "text": "hidden in the problem so the first guess would be in don't just take a a measure"
+  },
+  {
+    "t_start": 1176.83,
+    "t_end": 1179.07,
+    "text": "space a probability space but also put some Metric on it and close means close"
+  },
+  {
+    "t_start": 1179.07,
+    "t_end": 1182.95,
+    "text": "some Metric on it and close means close in the sense of metric and let's say"
+  },
+  {
+    "t_start": 1182.95,
+    "t_end": 1185.07,
+    "text": "sufficiently continuous would be lip sheets function or something of this"
+  },
+  {
+    "t_start": 1185.07,
+    "t_end": 1189.23,
+    "text": "sheets function or something of this type and um and that was essentially the"
+  },
+  {
+    "t_start": 1189.23,
+    "t_end": 1192.19,
+    "text": "type and um and that was essentially the entire there's a very very nice work"
+  },
+  {
+    "t_start": 1192.19,
+    "t_end": 1194.11,
+    "text": "entire there's a very very nice work earlier and this and very influential"
+  },
+  {
+    "t_start": 1194.11,
+    "t_end": 1199.39,
+    "text": "work but everything was kind of this in this van vanilla setting until Michelle"
+  },
+  {
+    "t_start": 1199.39,
+    "t_end": 1205.11,
+    "text": "this van vanilla setting until Michelle came along so but let just before I I"
+  },
+  {
+    "t_start": 1205.11,
+    "t_end": 1212.75,
+    "text": "State something let's just analyze let me tell you some"
+  },
+  {
+    "t_start": 1215.47,
+    "t_end": 1217.27,
+    "text": "examples um so the the kind of thing you should imagine this this sounds strange"
+  },
+  {
+    "t_start": 1217.27,
+    "t_end": 1223.029,
+    "text": "should imagine this this sounds strange but it's so let take omega to be let's"
+  },
+  {
+    "t_start": 1223.029,
+    "t_end": 1231.95,
+    "text": "say the ukian sphere so this is just all the points"
+  },
+  {
+    "t_start": 1234.71,
+    "t_end": 1243.23,
+    "text": "and then p is just going to be the surface area"
+  },
+  {
+    "t_start": 1246.07,
+    "t_end": 1251.909,
+    "text": "sphere normaliz so it's a probability measure okay and then so for example"
+  },
+  {
+    "t_start": 1251.909,
+    "t_end": 1254.029,
+    "text": "measure okay and then so for example here's a nice example of of a function f"
+  },
+  {
+    "t_start": 1254.029,
+    "t_end": 1256.59,
+    "text": "here's a nice example of of a function f of X1 up to"
+  },
+  {
+    "t_start": 1256.59,
+    "t_end": 1262.23,
+    "text": "xn is X1 the first coordinate so this is just a computation"
+  },
+  {
+    "t_start": 1262.23,
+    "t_end": 1264.51,
+    "text": "coordinate so this is just a computation you can see that you can check that for"
+  },
+  {
+    "t_start": 1264.51,
+    "t_end": 1267.149,
+    "text": "you can see that you can check that for every Epsilon bigger than zero the"
+  },
+  {
+    "t_start": 1267.149,
+    "t_end": 1269.149,
+    "text": "every Epsilon bigger than zero the probability that"
+  },
+  {
+    "t_start": 1269.149,
+    "t_end": 1275.789,
+    "text": "probability that uh uh F this F is a is bigger than"
+  },
+  {
+    "t_start": 1275.789,
+    "t_end": 1280.789,
+    "text": "uh uh F this F is a is bigger than Epsilon is less than e to Theus c n"
+  },
+  {
+    "t_start": 1280.789,
+    "t_end": 1282.789,
+    "text": "Epsilon is less than e to Theus c n Epsilon s when I write Twi I mean a"
+  },
+  {
+    "t_start": 1282.789,
+    "t_end": 1285.39,
+    "text": "Epsilon s when I write Twi I mean a universal Conant two something like that"
+  },
+  {
+    "t_start": 1285.39,
+    "t_end": 1287.669,
+    "text": "universal Conant two something like that or um some some Universal constant and"
+  },
+  {
+    "t_start": 1287.669,
+    "t_end": 1290.07,
+    "text": "or um some some Universal constant and also when I write C I mean universal"
+  },
+  {
+    "t_start": 1290.07,
+    "t_end": 1294.029,
+    "text": "also when I write C I mean universal constant but you see if you so if if you"
+  },
+  {
+    "t_start": 1294.029,
+    "t_end": 1300.43,
+    "text": "constant but you see if you so if if you ask where is f bigger than 0.0 0 01 if"
+  },
+  {
+    "t_start": 1300.43,
+    "t_end": 1307.23,
+    "text": "sphere of course it happens in the sphere X1 can be as large as one but it"
+  },
+  {
+    "t_start": 1307.23,
+    "t_end": 1308.47,
+    "text": "happens on an exponentially small fraction of the"
+  },
+  {
+    "t_start": 1308.47,
+    "t_end": 1314.87,
+    "text": "okay there is nothing this is a specific F the phenomenon the reason the sphere"
+  },
+  {
+    "t_start": 1314.87,
+    "t_end": 1319.11,
+    "text": "F the phenomenon the reason the sphere satisfies the concentration of measure"
+  },
+  {
+    "t_start": 1319.11,
+    "t_end": 1323.35,
+    "text": "phenomenon is is that this holds for every one liit function f"
+  },
+  {
+    "t_start": 1323.35,
+    "t_end": 1327.31,
+    "text": "every one liit function f so l v proved in the"
+  },
+  {
+    "t_start": 1327.31,
+    "t_end": 1329.43,
+    "text": "so l v proved in the 20s"
+  },
+  {
+    "t_start": 1329.43,
+    "t_end": 1337.11,
+    "text": "or I think 20s that this"
+  },
+  {
+    "t_start": 1340.909,
+    "t_end": 1345.39,
+    "text": "holds for any for every let's say one"
+  },
+  {
+    "t_start": 1352.87,
+    "t_end": 1359.149,
+    "text": "equivalently um every subset of the sphere which has let's say at least half"
+  },
+  {
+    "t_start": 1359.149,
+    "t_end": 1364.909,
+    "text": "of the mass um right so you take"
+  },
+  {
+    "t_start": 1368.87,
+    "t_end": 1375.59,
+    "text": "some this is the sphere take some subset a which has at least a half of the"
+  },
+  {
+    "t_start": 1375.59,
+    "t_end": 1380.029,
+    "text": "mass and now you look at its Epsilon neighborhood so you look at all the"
+  },
+  {
+    "t_start": 1380.029,
+    "t_end": 1381.31,
+    "text": "points so a Epsilon is all the"
+  },
+  {
+    "t_start": 1381.31,
+    "t_end": 1388.11,
+    "text": "points in the sphere whose distance from a is less than"
+  },
+  {
+    "t_start": 1388.11,
+    "t_end": 1393.19,
+    "text": "Epsilon let's say the ukian distance or the geodesic distance on the sphere this"
+  },
+  {
+    "t_start": 1393.19,
+    "t_end": 1395.87,
+    "text": "the geodesic distance on the sphere this set P of a"
+  },
+  {
+    "t_start": 1395.87,
+    "t_end": 1402.75,
+    "text": "Epsilon is at least or maybe the complement is at least 1 minus c e to"
+  },
+  {
+    "t_start": 1402.75,
+    "t_end": 1406.549,
+    "text": "complement is at least 1 minus c e to Theus c n Epsilon s it's the same it's a"
+  },
+  {
+    "t_start": 1406.549,
+    "t_end": 1411.99,
+    "text": "Theus c n Epsilon s it's the same it's a you can pass from one to the other so we"
+  },
+  {
+    "t_start": 1411.99,
+    "t_end": 1414.029,
+    "text": "computed this for special F but it's actually the reason the phenomenon holds"
+  },
+  {
+    "t_start": 1414.029,
+    "t_end": 1419.51,
+    "text": "actually the reason the phenomenon holds here is because is that it holds for"
+  },
+  {
+    "t_start": 1419.51,
+    "t_end": 1421.95,
+    "text": "every reasonable F and that is an an immensely powerful thing to know when"
+  },
+  {
+    "t_start": 1421.95,
+    "t_end": 1424.029,
+    "text": "immensely powerful thing to know when you when you have"
+  },
+  {
+    "t_start": 1424.029,
+    "t_end": 1429.269,
+    "text": "you when you have this so"
+  },
+  {
+    "t_start": 1432.95,
+    "t_end": 1436.029,
+    "text": "um so I think it's it's fair to say that H before Michelle came on the scene"
+  },
+  {
+    "t_start": 1436.029,
+    "t_end": 1437.87,
+    "text": "H before Michelle came on the scene there were two types of ways"
+  },
+  {
+    "t_start": 1437.87,
+    "t_end": 1439.669,
+    "text": "there were two types of ways concentration of measure phenomena"
+  },
+  {
+    "t_start": 1439.669,
+    "t_end": 1444.669,
+    "text": "concentration of measure phenomena theorems were proved one of them was a"
+  },
+  {
+    "t_start": 1444.669,
+    "t_end": 1450.029,
+    "text": "of maybe a variational argument which is just solve the this optimization problem"
+  },
+  {
+    "t_start": 1450.029,
+    "t_end": 1454.11,
+    "text": "just solve the this optimization problem look at among all A's with let's say"
+  },
+  {
+    "t_start": 1454.11,
+    "t_end": 1456.43,
+    "text": "measure at least a half find the one which minimizes what's written here and"
+  },
+  {
+    "t_start": 1456.43,
+    "t_end": 1458.99,
+    "text": "which minimizes what's written here and you can do local perturbations loal"
+  },
+  {
+    "t_start": 1458.99,
+    "t_end": 1461.59,
+    "text": "you can do local perturbations loal symmetrizations there there are ways to"
+  },
+  {
+    "t_start": 1461.59,
+    "t_end": 1463.87,
+    "text": "symmetrizations there there are ways to and and and there also"
+  },
+  {
+    "t_start": 1463.87,
+    "t_end": 1468.789,
+    "text": "some there are other ways but but but it was solving this problem exactly"
+  },
+  {
+    "t_start": 1468.789,
+    "t_end": 1474.23,
+    "text": "understanding how to solve this problem exactly that's one of them and the other"
+  },
+  {
+    "t_start": 1474.23,
+    "t_end": 1475.95,
+    "text": "one was this intuition which is a correct intuition which"
+  },
+  {
+    "t_start": 1475.95,
+    "t_end": 1483.029,
+    "text": "is when your measure space here some is there there is some something very high"
+  },
+  {
+    "t_start": 1483.029,
+    "t_end": 1484.47,
+    "text": "there there is some something very high dimensional happening there there's"
+  },
+  {
+    "t_start": 1484.47,
+    "t_end": 1487.31,
+    "text": "dimensional happening there there's input for many many random"
+  },
+  {
+    "t_start": 1487.31,
+    "t_end": 1492.269,
+    "text": "variables that are somehow uncorrelated with each other let's say independent"
+  },
+  {
+    "t_start": 1492.269,
+    "t_end": 1496.35,
+    "text": "they don't have to be independent but each one doesn't contribute much to the"
+  },
+  {
+    "t_start": 1496.35,
+    "t_end": 1499.149,
+    "text": "each one doesn't contribute much to the value of f when that"
+  },
+  {
+    "t_start": 1499.149,
+    "t_end": 1506.149,
+    "text": "happens um you have a phenomenon of this type and um and the proofs really just"
+  },
+  {
+    "t_start": 1506.149,
+    "t_end": 1510.549,
+    "text": "type and um and the proofs really just examined ER that directly so Martin Gale"
+  },
+  {
+    "t_start": 1510.549,
+    "t_end": 1512.43,
+    "text": "examined ER that directly so Martin Gale the compositions you broke you you just"
+  },
+  {
+    "t_start": 1512.43,
+    "t_end": 1516.19,
+    "text": "the compositions you broke you you just understood what is the contribution of"
+  },
+  {
+    "t_start": 1516.19,
+    "t_end": 1518.83,
+    "text": "each of these hidden variables or underlying variables you wrote it the"
+  },
+  {
+    "t_start": 1518.83,
+    "t_end": 1520.23,
+    "text": "underlying variables you wrote it the value of f is a sum of these"
+  },
+  {
+    "t_start": 1520.23,
+    "t_end": 1522.11,
+    "text": "value of f is a sum of these contributions and you Prov that all of"
+  },
+  {
+    "t_start": 1522.11,
+    "t_end": 1524.43,
+    "text": "contributions and you Prov that all of them are are small there are ways to"
+  },
+  {
+    "t_start": 1524.43,
+    "t_end": 1528.59,
+    "text": "encode this there are spectral methods there's pointor inequalities but morally"
+  },
+  {
+    "t_start": 1528.59,
+    "t_end": 1532.83,
+    "text": "there's pointor inequalities but morally it's always writing the value of f as a"
+  },
+  {
+    "t_start": 1532.83,
+    "t_end": 1536.389,
+    "text": "sum of small contributions and showing that the increments are don't contribute"
+  },
+  {
+    "t_start": 1536.389,
+    "t_end": 1541.51,
+    "text": "that the increments are don't contribute much um so this changed"
+  },
+  {
+    "t_start": 1541.51,
+    "t_end": 1548.71,
+    "text": "completely by works of Michelle and um so there is a mini monograph that he"
+  },
+  {
+    "t_start": 1548.71,
+    "t_end": 1550.63,
+    "text": "so there is a mini monograph that he wrote but there were also previous Pap"
+  },
+  {
+    "t_start": 1550.63,
+    "t_end": 1552.35,
+    "text": "wrote but there were also previous Pap earlier papers of his and later papers"
+  },
+  {
+    "t_start": 1552.35,
+    "t_end": 1559.669,
+    "text": "that led to it and came from it about um concentration of measure um I'm going to"
+  },
+  {
+    "t_start": 1559.669,
+    "t_end": 1562.59,
+    "text": "concentration of measure um I'm going to explain one theorem and I'm going to"
+  },
+  {
+    "t_start": 1562.59,
+    "t_end": 1564.909,
+    "text": "want to indicate his proof because this is a method called that people call a t"
+  },
+  {
+    "t_start": 1564.909,
+    "t_end": 1570.47,
+    "text": "is a method called that people call a t induction so I want to explain what a t"
+  },
+  {
+    "t_start": 1570.47,
+    "t_end": 1577.07,
+    "text": "before explaining it I want to give you an example of what it's good for so"
+  },
+  {
+    "t_start": 1577.07,
+    "t_end": 1583.11,
+    "text": "an example of what it's good for so um um so so for example let's just"
+  },
+  {
+    "t_start": 1587.23,
+    "t_end": 1595.029,
+    "text": "um um so I'll write down the the the um um the inequality in a second but"
+  },
+  {
+    "t_start": 1595.029,
+    "t_end": 1596.71,
+    "text": "um um so there are two types of applications of concentration of measure"
+  },
+  {
+    "t_start": 1596.71,
+    "t_end": 1601.23,
+    "text": "applications of concentration of measure of of your work and concentration of"
+  },
+  {
+    "t_start": 1601.23,
+    "t_end": 1604.269,
+    "text": "measure most of them are saying that certain very interesting specific random"
+  },
+  {
+    "t_start": 1604.269,
+    "t_end": 1605.51,
+    "text": "certain very interesting specific random variables are"
+  },
+  {
+    "t_start": 1605.51,
+    "t_end": 1610.75,
+    "text": "concentrated okay I will example traveling salesman problem Bean packing"
+  },
+  {
+    "t_start": 1610.75,
+    "t_end": 1612.31,
+    "text": "traveling salesman problem Bean packing Etc they're very very complicated"
+  },
+  {
+    "t_start": 1612.31,
+    "t_end": 1615.31,
+    "text": "Etc they're very very complicated they're definitely not just the first"
+  },
+  {
+    "t_start": 1615.31,
+    "t_end": 1617.19,
+    "text": "coordinate and yet you can prove deviation inequalities of this type so"
+  },
+  {
+    "t_start": 1617.19,
+    "t_end": 1618.669,
+    "text": "deviation inequalities of this type so there's a whole list and people"
+  },
+  {
+    "t_start": 1618.669,
+    "t_end": 1620.31,
+    "text": "there's a whole list and people definitely care about concentration"
+  },
+  {
+    "t_start": 1620.31,
+    "t_end": 1626.389,
+    "text": "that there are many theorems which have nothing to do with probability in their"
+  },
+  {
+    "t_start": 1626.389,
+    "t_end": 1630.95,
+    "text": "nothing to do with probability in their statement and we only know how to prove"
+  },
+  {
+    "t_start": 1630.95,
+    "t_end": 1635.149,
+    "text": "inequality I'm going to write next so I'm so here I'm just I'm choosing one"
+  },
+  {
+    "t_start": 1635.149,
+    "t_end": 1639.11,
+    "text": "I'm so here I'm just I'm choosing one I'm not saying it's the best one but"
+  },
+  {
+    "t_start": 1639.11,
+    "t_end": 1641.19,
+    "text": "it's one that um I think anybody can understand and it's the following thing"
+  },
+  {
+    "t_start": 1641.19,
+    "t_end": 1644.389,
+    "text": "understand and it's the following thing so it's here's a effect an effect"
+  },
+  {
+    "t_start": 1644.389,
+    "t_end": 1649.029,
+    "text": "extremal effect in graph Theory um that has nothing to do with probability"
+  },
+  {
+    "t_start": 1649.029,
+    "t_end": 1654.51,
+    "text": "and the only way we know the answer that I'm going to show you is through T"
+  },
+  {
+    "t_start": 1654.51,
+    "t_end": 1657.669,
+    "text": "I'm going to show you is through T inequality um so um so here is the so"
+  },
+  {
+    "t_start": 1657.669,
+    "t_end": 1660.909,
+    "text": "inequality um so um so here is the so you have a graph so"
+  },
+  {
+    "t_start": 1660.909,
+    "t_end": 1668.87,
+    "text": "you have a graph so G is a let's say it's a combinatorial"
+  },
+  {
+    "t_start": 1677.389,
+    "t_end": 1682.95,
+    "text": "vertices so this is just you have n points"
+  },
+  {
+    "t_start": 1685.19,
+    "t_end": 1687.789,
+    "text": "and some of them are joined by edges as simple an object as you can"
+  },
+  {
+    "t_start": 1687.789,
+    "t_end": 1692.269,
+    "text": "imagine and um and you ask the so whenever you have this is something"
+  },
+  {
+    "t_start": 1692.269,
+    "t_end": 1697.83,
+    "text": "which is standard in mathematics um you look it up it's very natural to ask and"
+  },
+  {
+    "t_start": 1697.83,
+    "t_end": 1699.669,
+    "text": "look it up it's very natural to ask and this has decades what I'm going to say"
+  },
+  {
+    "t_start": 1699.669,
+    "t_end": 1700.789,
+    "text": "this has decades what I'm going to say now is something that has been studied"
+  },
+  {
+    "t_start": 1700.789,
+    "t_end": 1703.029,
+    "text": "now is something that has been studied for decades is"
+  },
+  {
+    "t_start": 1703.029,
+    "t_end": 1708.909,
+    "text": "how large do Universal objects have to be so the question is"
+  },
+  {
+    "t_start": 1708.909,
+    "t_end": 1710.909,
+    "text": "be so the question is um"
+  },
+  {
+    "t_start": 1710.909,
+    "t_end": 1713.19,
+    "text": "um how"
+  },
+  {
+    "t_start": 1713.19,
+    "t_end": 1718.99,
+    "text": "how large should n"
+  },
+  {
+    "t_start": 1722.269,
+    "t_end": 1728.11,
+    "text": "be a so that g"
+  },
+  {
+    "t_start": 1729.83,
+    "t_end": 1739.07,
+    "text": "contains all K vertex graphs"
+  },
+  {
+    "t_start": 1742.149,
+    "t_end": 1745.669,
+    "text": "okay so let's say k equal 6 so you can you can try to do it it's something that"
+  },
+  {
+    "t_start": 1745.669,
+    "t_end": 1747.59,
+    "text": "anybody can try to do on a piece of paper you can write down all the graphs"
+  },
+  {
+    "t_start": 1747.59,
+    "t_end": 1753.269,
+    "text": "paper you can write down all the graphs of size six let's say five okay 1 2 3 4"
+  },
+  {
+    "t_start": 1753.269,
+    "t_end": 1757.07,
+    "text": "of size six let's say five okay 1 2 3 4 5 six one two 3 four"
+  },
+  {
+    "t_start": 1757.07,
+    "t_end": 1763.83,
+    "text": "ah yeah I don't know how to count um so here is one and here is suppose I'm"
+  },
+  {
+    "t_start": 1763.83,
+    "t_end": 1766.99,
+    "text": "here is one and here is suppose I'm going to maybe maybe here's another or"
+  },
+  {
+    "t_start": 1766.99,
+    "t_end": 1769.95,
+    "text": "another you can write down all the six point graphs and and you want all those"
+  },
+  {
+    "t_start": 1769.95,
+    "t_end": 1773.07,
+    "text": "point graphs and and you want all those pictures to appear in the N vertex graph"
+  },
+  {
+    "t_start": 1773.07,
+    "t_end": 1775.75,
+    "text": "pictures to appear in the N vertex graph so you let's say you want so for this"
+  },
+  {
+    "t_start": 1775.75,
+    "t_end": 1781.549,
+    "text": "so you let's say you want so for this one you want that somewhere in this"
+  },
+  {
+    "t_start": 1781.549,
+    "t_end": 1787.83,
+    "text": "Universal object there will be six"
+  },
+  {
+    "t_start": 1791.43,
+    "t_end": 1794.909,
+    "text": "on these six veres this is exactly that's what's called an induc subgraph"
+  },
+  {
+    "t_start": 1794.909,
+    "t_end": 1796.19,
+    "text": "that's what's called an induc subgraph so whenever you"
+  },
+  {
+    "t_start": 1796.19,
+    "t_end": 1802.59,
+    "text": "have some mathematical object it's very natural to ask um how large or how how"
+  },
+  {
+    "t_start": 1802.59,
+    "t_end": 1804.549,
+    "text": "natural to ask um how large or how how small how large should the universal"
+  },
+  {
+    "t_start": 1804.549,
+    "t_end": 1811.389,
+    "text": "object be okay and the answer is we know it today but it's only in 2017 it's a"
+  },
+  {
+    "t_start": 1811.389,
+    "t_end": 1836.149,
+    "text": "it today but it's only in 2017 it's a the of alone"
+  },
+  {
+    "t_start": 1838.19,
+    "t_end": 1842.509,
+    "text": "so this is a theorem alone from"
+  },
+  {
+    "t_start": 1842.509,
+    "t_end": 1849.789,
+    "text": "2017 which says a the smallest n so so that you can get an N vertx graph which"
+  },
+  {
+    "t_start": 1849.789,
+    "t_end": 1852.83,
+    "text": "that you can get an N vertx graph which contains all K vertices all K vertx"
+  },
+  {
+    "t_start": 1852.83,
+    "t_end": 1854.35,
+    "text": "contains all K vertices all K vertx graphs"
+  },
+  {
+    "t_start": 1854.35,
+    "t_end": 1860.83,
+    "text": "is up to a little of one so up to an additive lower order term it's 2 to the"
+  },
+  {
+    "t_start": 1860.83,
+    "t_end": 1862.909,
+    "text": "additive lower order term it's 2 to the kus1 /"
+  },
+  {
+    "t_start": 1862.909,
+    "t_end": 1870.95,
+    "text": "little a little one but let's say if K is 200 then we know that the answer is"
+  },
+  {
+    "t_start": 1870.95,
+    "t_end": 1875.269,
+    "text": "is 200 then we know that the answer is roughly 2 to the"
+  },
+  {
+    "t_start": 1878.35,
+    "t_end": 1880.669,
+    "text": "199 okay but there's a one plus of one as the as the 200 goes to"
+  },
+  {
+    "t_start": 1880.669,
+    "t_end": 1886.19,
+    "text": "Infinity okay so this is a basic question if there is a long history of"
+  },
+  {
+    "t_start": 1886.19,
+    "t_end": 1888.269,
+    "text": "question if there is a long history of this from the 60s"
+  },
+  {
+    "t_start": 1888.269,
+    "t_end": 1894.149,
+    "text": "the solution uses deep in the proof the the exact ton inequality which I'm going"
+  },
+  {
+    "t_start": 1894.149,
+    "t_end": 1899.23,
+    "text": "to now explain and we do not know how to do it otherwise so this but this theorem"
+  },
+  {
+    "t_start": 1899.23,
+    "t_end": 1900.389,
+    "text": "do it otherwise so this but this theorem has nothing to do with"
+  },
+  {
+    "t_start": 1900.389,
+    "t_end": 1906.83,
+    "text": "probability and there are many things of this type um um that these things are"
+  },
+  {
+    "t_start": 1906.83,
+    "t_end": 1915.47,
+    "text": "useful for so let me H tell you what went in the guts of the proof of that"
+  },
+  {
+    "t_start": 1918.75,
+    "t_end": 1922.909,
+    "text": "um and this is the following beautiful approach extremely creative um"
+  },
+  {
+    "t_start": 1922.909,
+    "t_end": 1928.11,
+    "text": "beautiful approach extremely creative um I I as I was looking up papers that"
+  },
+  {
+    "t_start": 1928.11,
+    "t_end": 1930.83,
+    "text": "refer to that paper um it's I I I found all kinds and I I I I won't name name"
+  },
+  {
+    "t_start": 1930.83,
+    "t_end": 1933.23,
+    "text": "all kinds and I I I I won't name name names but there were multiple authors"
+  },
+  {
+    "t_start": 1933.23,
+    "t_end": 1934.909,
+    "text": "names but there were multiple authors when they introduced your inequality"
+  },
+  {
+    "t_start": 1934.909,
+    "t_end": 1939.149,
+    "text": "they described it they said we're going to use the following unusual inequality"
+  },
+  {
+    "t_start": 1939.149,
+    "t_end": 1945.269,
+    "text": "to use the following unusual inequality of T and and many people use the word"
+  },
+  {
+    "t_start": 1945.269,
+    "t_end": 1966.75,
+    "text": "so and so it it is genuinely a different perspective than what was done"
+  },
+  {
+    "t_start": 1969.029,
+    "t_end": 1970.59,
+    "text": "before the creativity here will be both in the formulation and in the proof that"
+  },
+  {
+    "t_start": 1970.59,
+    "t_end": 1976.99,
+    "text": "in the formulation and in the proof that I'm going to indicate um so here is the"
+  },
+  {
+    "t_start": 1976.99,
+    "t_end": 1981.19,
+    "text": "setting so suppose you have n probability spaces so let's say mu1 o"
+  },
+  {
+    "t_start": 1981.19,
+    "t_end": 1992.149,
+    "text": "Omega 1 mu1 up to Omega n mu n are probability"
+  },
+  {
+    "t_start": 1994.43,
+    "t_end": 1998.99,
+    "text": "spaces um and Omega is just going to be the"
+  },
+  {
+    "t_start": 2005.269,
+    "t_end": 2009.029,
+    "text": "mu1 the product so right so the the points here"
+  },
+  {
+    "t_start": 2009.029,
+    "t_end": 2014.629,
+    "text": "entes of points so you take you select the Omega 1 independently according to"
+  },
+  {
+    "t_start": 2014.629,
+    "t_end": 2019.99,
+    "text": "the Omega 1 independently according to mu1 Omega 2 independently according to"
+  },
+  {
+    "t_start": 2019.99,
+    "t_end": 2027.47,
+    "text": "and chosen according to mu and um and they're independent and this is a the"
+  },
+  {
+    "t_start": 2027.47,
+    "t_end": 2028.83,
+    "text": "they're independent and this is a the probability space you see high"
+  },
+  {
+    "t_start": 2028.83,
+    "t_end": 2030.71,
+    "text": "probability space you see high Dimensions appearing here obviously"
+  },
+  {
+    "t_start": 2030.71,
+    "t_end": 2035.31,
+    "text": "Dimensions appearing here obviously there is a product of many"
+  },
+  {
+    "t_start": 2038.23,
+    "t_end": 2043.23,
+    "text": "okay so and then you do so this is the the theor I'm going to"
+  },
+  {
+    "t_start": 2043.23,
+    "t_end": 2046.95,
+    "text": "say is going to be in this setting and and this should already be concerning"
+  },
+  {
+    "t_start": 2046.95,
+    "t_end": 2050.51,
+    "text": "because I opened by saying we need some Metric some notion of what it means to"
+  },
+  {
+    "t_start": 2050.51,
+    "t_end": 2055.669,
+    "text": "be near a set there is no such thing so the creativity comes here by introducing"
+  },
+  {
+    "t_start": 2055.669,
+    "t_end": 2058.31,
+    "text": "the creativity comes here by introducing something external to the problem a"
+  },
+  {
+    "t_start": 2058.31,
+    "t_end": 2059.99,
+    "text": "something external to the problem a notion of distance which isn't written"
+  },
+  {
+    "t_start": 2059.99,
+    "t_end": 2064.51,
+    "text": "this is just in the context of met of measure spaces there is no metric yet so"
+  },
+  {
+    "t_start": 2064.51,
+    "t_end": 2068.349,
+    "text": "measure spaces there is no metric yet so what telr did was the following"
+  },
+  {
+    "t_start": 2068.349,
+    "t_end": 2074.069,
+    "text": "what telr did was the following he um so okay so you take a set a of a"
+  },
+  {
+    "t_start": 2074.069,
+    "t_end": 2077.109,
+    "text": "subset a of this big product space and by the way you can you can"
+  },
+  {
+    "t_start": 2077.109,
+    "t_end": 2081.869,
+    "text": "think and I'm going in many most cases this is good enough for the applications"
+  },
+  {
+    "t_start": 2081.869,
+    "t_end": 2084.669,
+    "text": "this is good enough for the applications you just can't you can think of Omega"
+  },
+  {
+    "t_start": 2084.669,
+    "t_end": 2089.51,
+    "text": "and later maybe I will is just the discrete Cube so just the vertices of"
+  },
+  {
+    "t_start": 2089.51,
+    "t_end": 2091.909,
+    "text": "discrete Cube so just the vertices of the N dimensional"
+  },
+  {
+    "t_start": 2091.909,
+    "t_end": 2102.15,
+    "text": "points what I'm going to say is new in this case new was new in the early '90s"
+  },
+  {
+    "t_start": 2102.15,
+    "t_end": 2105.19,
+    "text": "this case new was new in the early '90s um so you take a set"
+  },
+  {
+    "t_start": 2105.19,
+    "t_end": 2109.15,
+    "text": "um so you take a set a and a point"
+  },
+  {
+    "t_start": 2113.109,
+    "t_end": 2117.47,
+    "text": "x and I want to say what do I mean by X is nearby a there was no distance so I"
+  },
+  {
+    "t_start": 2117.47,
+    "t_end": 2120.349,
+    "text": "is nearby a there was no distance so I officially I Michelle introduces"
+  },
+  {
+    "t_start": 2120.349,
+    "t_end": 2126.55,
+    "text": "something to the picture and it's the following you associate to this pair a"
+  },
+  {
+    "t_start": 2126.55,
+    "t_end": 2135.67,
+    "text": "set u x a is going to be a subset of the cube so and you it just defined as the"
+  },
+  {
+    "t_start": 2135.67,
+    "t_end": 2140.75,
+    "text": "cube so and you it just defined as the following so um you run over all the"
+  },
+  {
+    "t_start": 2140.75,
+    "t_end": 2144.71,
+    "text": "points Y in a for every such y you write the"
+  },
+  {
+    "t_start": 2144.71,
+    "t_end": 2152.109,
+    "text": "Vector you write a a vector of zero is in one so this a subset of 0 one to the"
+  },
+  {
+    "t_start": 2152.109,
+    "t_end": 2156.63,
+    "text": "N I'm going to write one in the I coordinate so if x i is not"
+  },
+  {
+    "t_start": 2156.63,
+    "t_end": 2161.829,
+    "text": "coordinate so if x i is not Yi and zero if x i is y"
+  },
+  {
+    "t_start": 2164.87,
+    "t_end": 2169.589,
+    "text": "running over all the sets a so this is a big product space I have a subset which"
+  },
+  {
+    "t_start": 2169.589,
+    "t_end": 2171.43,
+    "text": "big product space I have a subset which is some bubble in it which contains half"
+  },
+  {
+    "t_start": 2171.43,
+    "t_end": 2173.47,
+    "text": "is some bubble in it which contains half of the points in the product"
+  },
+  {
+    "t_start": 2173.47,
+    "t_end": 2179.829,
+    "text": "run over all the points Y and a and I look and I just look at the indicator of"
+  },
+  {
+    "t_start": 2179.829,
+    "t_end": 2182.03,
+    "text": "look and I just look at the indicator of where where Y is different from X the"
+  },
+  {
+    "t_start": 2182.03,
+    "t_end": 2189.109,
+    "text": "coordinates where Y is different from X is that clear so this is a subset of n"
+  },
+  {
+    "t_start": 2189.109,
+    "t_end": 2195.79,
+    "text": "so let's say let's say these were I want to be able to draw what I'm about to"
+  },
+  {
+    "t_start": 2195.79,
+    "t_end": 2198.109,
+    "text": "to be able to draw what I'm about to draw say these three points but it's"
+  },
+  {
+    "t_start": 2198.109,
+    "t_end": 2199.95,
+    "text": "draw say these three points but it's higher dimensional"
+  },
+  {
+    "t_start": 2199.95,
+    "t_end": 2208.67,
+    "text": "okay and now the notion of closest of X2 a is fi of XA that Michelle defines and"
+  },
+  {
+    "t_start": 2208.67,
+    "t_end": 2210.99,
+    "text": "a is fi of XA that Michelle defines and this is really out of the blue at the"
+  },
+  {
+    "t_start": 2210.99,
+    "t_end": 2214.71,
+    "text": "this is really out of the blue at the time is um is"
+  },
+  {
+    "t_start": 2214.71,
+    "t_end": 2221.95,
+    "text": "just the distance in the UK metric between zero and the convex"
+  },
+  {
+    "t_start": 2221.95,
+    "t_end": 2225.71,
+    "text": "metric between zero and the convex Hall of u"
+  },
+  {
+    "t_start": 2225.71,
+    "t_end": 2227.99,
+    "text": "Hall of u x"
+  },
+  {
+    "t_start": 2227.99,
+    "t_end": 2232.99,
+    "text": "x a so that I mean it's the"
+  },
+  {
+    "t_start": 2232.99,
+    "t_end": 2235.95,
+    "text": "a so that I mean it's the minimum of"
+  },
+  {
+    "t_start": 2235.95,
+    "t_end": 2242.95,
+    "text": "a of a the ukian length of a point z z is in"
+  },
+  {
+    "t_start": 2242.95,
+    "t_end": 2246.069,
+    "text": "a the ukian length of a point z z is in the convex"
+  },
+  {
+    "t_start": 2248.43,
+    "t_end": 2252.71,
+    "text": "that was a then I'm going to look at this the convex all is going to be this"
+  },
+  {
+    "t_start": 2252.71,
+    "t_end": 2258.349,
+    "text": "this the convex all is going to be this triangle going from this Edge to that"
+  },
+  {
+    "t_start": 2258.349,
+    "t_end": 2259.55,
+    "text": "corner here is zero and I look at what is the nearest"
+  },
+  {
+    "t_start": 2259.55,
+    "t_end": 2266.19,
+    "text": "Point okay so if x itself was were in a then this would be zero because one of"
+  },
+  {
+    "t_start": 2266.19,
+    "t_end": 2272.51,
+    "text": "then this would be zero because one of the points would be um right if if Y is"
+  },
+  {
+    "t_start": 2272.51,
+    "t_end": 2278.51,
+    "text": "here so zero is already in the set does everybody see that so this is"
+  },
+  {
+    "t_start": 2278.51,
+    "t_end": 2282.069,
+    "text": "set does everybody see that so this is some funny notion of closeness of a"
+  },
+  {
+    "t_start": 2282.069,
+    "t_end": 2283.99,
+    "text": "some funny notion of closeness of a point in an abstract set abstract"
+  },
+  {
+    "t_start": 2283.99,
+    "t_end": 2289.069,
+    "text": "product of spaces to a set by introducing ukian structure in convexity"
+  },
+  {
+    "t_start": 2289.069,
+    "t_end": 2294.43,
+    "text": "introducing ukian structure in convexity to a problem where it wasn't written"
+  },
+  {
+    "t_start": 2294.43,
+    "t_end": 2330.15,
+    "text": "before okay and the theorem"
+  },
+  {
+    "t_start": 2334.349,
+    "t_end": 2341.27,
+    "text": "1992 3 something like that up to um the exact year I'm not um it the"
+  },
+  {
+    "t_start": 2341.27,
+    "t_end": 2349.95,
+    "text": "If U of A is at least a half then um mu of the set of points"
+  },
+  {
+    "t_start": 2349.95,
+    "t_end": 2351.67,
+    "text": "half then um mu of the set of points where"
+  },
+  {
+    "t_start": 2351.67,
+    "t_end": 2356.87,
+    "text": "where 5xa is bigger than"
+  },
+  {
+    "t_start": 2365.67,
+    "t_end": 2367.19,
+    "text": "um is less than e to Theus C Epsilon 2 independent there is no n appearing here"
+  },
+  {
+    "t_start": 2367.19,
+    "t_end": 2373.95,
+    "text": "even this is a product of many spaces this is very important so this notion of"
+  },
+  {
+    "t_start": 2376.43,
+    "t_end": 2383.27,
+    "text": "rarely there is no dimension in the picture and I I I hope you realize know"
+  },
+  {
+    "t_start": 2383.27,
+    "t_end": 2384.99,
+    "text": "picture and I I I hope you realize know that there is something creative here"
+  },
+  {
+    "t_start": 2384.99,
+    "t_end": 2386.99,
+    "text": "that there is something creative here this this is introducing into the"
+  },
+  {
+    "t_start": 2386.99,
+    "t_end": 2389.79,
+    "text": "this this is introducing into the picture a structure which wasn't in the"
+  },
+  {
+    "t_start": 2389.79,
+    "t_end": 2394.99,
+    "text": "original setting okay"
+  },
+  {
+    "t_start": 2403.79,
+    "t_end": 2405.27,
+    "text": "okay so using this there is a slew of results that you can this is an"
+  },
+  {
+    "t_start": 2405.27,
+    "t_end": 2410.109,
+    "text": "results that you can this is an extremely useful fact I I I this"
+  },
+  {
+    "t_start": 2410.109,
+    "t_end": 2414.15,
+    "text": "appeared in the theorem of alone that I showed you there are all kinds of random"
+  },
+  {
+    "t_start": 2414.15,
+    "t_end": 2416.349,
+    "text": "showed you there are all kinds of random variables that um that this shows that"
+  },
+  {
+    "t_start": 2416.349,
+    "t_end": 2419.349,
+    "text": "variables that um that this shows that it's it gives the best"
+  },
+  {
+    "t_start": 2419.349,
+    "t_end": 2420.99,
+    "text": "it's it gives the best known"
+  },
+  {
+    "t_start": 2420.99,
+    "t_end": 2427.109,
+    "text": "um concentration inequalities for I would not be surprised if once a week"
+  },
+  {
+    "t_start": 2427.109,
+    "t_end": 2428.43,
+    "text": "would not be surprised if once a week there there's a paper that uses that"
+  },
+  {
+    "t_start": 2428.43,
+    "t_end": 2433.51,
+    "text": "appears that uses this and solve some problem this is an extremely useful fact"
+  },
+  {
+    "t_start": 2433.51,
+    "t_end": 2436.829,
+    "text": "problem this is an extremely useful fact um like for example so you can do um"
+  },
+  {
+    "t_start": 2436.829,
+    "t_end": 2440.27,
+    "text": "um like for example so you can do um let's say tsp the traving sales person"
+  },
+  {
+    "t_start": 2440.27,
+    "t_end": 2443.91,
+    "text": "let's say tsp the traving sales person problem right you can imagine um so you"
+  },
+  {
+    "t_start": 2443.91,
+    "t_end": 2446.55,
+    "text": "problem right you can imagine um so you have end points"
+  },
+  {
+    "t_start": 2446.55,
+    "t_end": 2449.27,
+    "text": "have end points X1"
+  },
+  {
+    "t_start": 2449.27,
+    "t_end": 2455.109,
+    "text": "X2 up to xn let's say they're all in the unit"
+  },
+  {
+    "t_start": 2455.109,
+    "t_end": 2462.39,
+    "text": "square and the traveling T sorry tsp of these"
+  },
+  {
+    "t_start": 2462.39,
+    "t_end": 2468.829,
+    "text": "points is the shortest path that goes through all of them okay I I hope that"
+  },
+  {
+    "t_start": 2468.829,
+    "t_end": 2470.43,
+    "text": "through all of them okay I I hope that you have seen this is a very classical"
+  },
+  {
+    "t_start": 2470.43,
+    "t_end": 2472.589,
+    "text": "you have seen this is a very classical optimization problem it depends in a"
+  },
+  {
+    "t_start": 2472.589,
+    "t_end": 2474.23,
+    "text": "optimization problem it depends in a very complicated way and the inputs X1"
+  },
+  {
+    "t_start": 2474.23,
+    "t_end": 2476.03,
+    "text": "very complicated way and the inputs X1 up to"
+  },
+  {
+    "t_start": 2476.03,
+    "t_end": 2485.47,
+    "text": "xn but so if X1 up to xn or IID are identically"
+  },
+  {
+    "t_start": 2485.47,
+    "t_end": 2489.349,
+    "text": "if X1 up to xn or IID are identically ENT independently chosen"
+  },
+  {
+    "t_start": 2491.109,
+    "t_end": 2496.51,
+    "text": "identically independent identically chosen random random points in in the"
+  },
+  {
+    "t_start": 2496.51,
+    "t_end": 2504.79,
+    "text": "Square then this tsp sorry tsp of this is this a this is"
+  },
+  {
+    "t_start": 2504.79,
+    "t_end": 2506.47,
+    "text": "sorry tsp of this is this a this is definitely not the first"
+  },
+  {
+    "t_start": 2506.47,
+    "t_end": 2512.91,
+    "text": "coordinate yet this is is Con concentrated and the best known"
+  },
+  {
+    "t_start": 2512.91,
+    "t_end": 2516.15,
+    "text": "concentrated and the best known bound comes from uh applying this"
+  },
+  {
+    "t_start": 2516.15,
+    "t_end": 2530.069,
+    "text": "bound comes from uh applying this inequality okay another example is Bean"
+  },
+  {
+    "t_start": 2532.589,
+    "t_end": 2534.91,
+    "text": "packing again a very old and well-studied problem and and and there"
+  },
+  {
+    "t_start": 2534.91,
+    "t_end": 2540.67,
+    "text": "there are so many we can easily just get stuck here so I'm going to show this is"
+  },
+  {
+    "t_start": 2540.67,
+    "t_end": 2543.309,
+    "text": "stuck here so I'm going to show this is a lot of very old and extremely well"
+  },
+  {
+    "t_start": 2543.309,
+    "t_end": 2547.309,
+    "text": "a lot of very old and extremely well studied questions this this streets"
+  },
+  {
+    "t_start": 2547.309,
+    "t_end": 2551.589,
+    "text": "studied questions this this streets so Bean packing another thing that"
+  },
+  {
+    "t_start": 2551.589,
+    "t_end": 2561.87,
+    "text": "understand so suppose you have um n object say n"
+  },
+  {
+    "t_start": 2561.87,
+    "t_end": 2566.99,
+    "text": "um n object say n n n computers that that each one demands"
+  },
+  {
+    "t_start": 2566.99,
+    "t_end": 2568.91,
+    "text": "n n computers that that each one demands some sort of resource require some sort"
+  },
+  {
+    "t_start": 2568.91,
+    "t_end": 2572.309,
+    "text": "some sort of resource require some sort of resource electricity but let's say no"
+  },
+  {
+    "t_start": 2572.309,
+    "t_end": 2576.63,
+    "text": "let's say this number the numbers are between zero and one and you want to uh"
+  },
+  {
+    "t_start": 2576.63,
+    "t_end": 2580.15,
+    "text": "between zero and one and you want to uh settis this resources so the bin packing"
+  },
+  {
+    "t_start": 2580.15,
+    "t_end": 2583.79,
+    "text": "settis this resources so the bin packing B of this X1 up to"
+  },
+  {
+    "t_start": 2583.79,
+    "t_end": 2590.109,
+    "text": "xn is just you do the following so you want to find a so you you want to find a"
+  },
+  {
+    "t_start": 2590.109,
+    "t_end": 2595.43,
+    "text": "want to find a so you you want to find a partition A1 up to a k partition of of"
+  },
+  {
+    "t_start": 2595.43,
+    "t_end": 2598.19,
+    "text": "partition A1 up to a k partition of of these"
+  },
+  {
+    "t_start": 2600.98,
+    "t_end": 2602.349,
+    "text": "numbers of the numbers one to [Applause]"
+  },
+  {
+    "t_start": 2602.349,
+    "t_end": 2608.19,
+    "text": "[Applause] n and now you want to say um you want to"
+  },
+  {
+    "t_start": 2608.19,
+    "t_end": 2616.91,
+    "text": "you want to look you want to partition the indexes that's let's say x i i in"
+  },
+  {
+    "t_start": 2620.99,
+    "t_end": 2626.91,
+    "text": "resource in each of these boxes think of a a a100 is a box you want to put in"
+  },
+  {
+    "t_start": 2626.91,
+    "t_end": 2629.63,
+    "text": "a a a100 is a box you want to put in a100 these requests but you want the"
+  },
+  {
+    "t_start": 2629.63,
+    "t_end": 2635.309,
+    "text": "total so these are positive numbers you want this to be at most one no box has"
+  },
+  {
+    "t_start": 2635.309,
+    "t_end": 2638.27,
+    "text": "want this to be at most one no box has more than one Demand on it's some bound"
+  },
+  {
+    "t_start": 2638.27,
+    "t_end": 2643.19,
+    "text": "more than one Demand on it's some bound and you want the smallest case that is"
+  },
+  {
+    "t_start": 2645.349,
+    "t_end": 2647.23,
+    "text": "possible okay so this is a function of the initial numbers X1 to"
+  },
+  {
+    "t_start": 2647.23,
+    "t_end": 2654.19,
+    "text": "you okay group them up in such a way that in each group the total amount of"
+  },
+  {
+    "t_start": 2654.19,
+    "t_end": 2659.27,
+    "text": "the sum is less than one we can change we can normalize by a different constant"
+  },
+  {
+    "t_start": 2659.27,
+    "t_end": 2662.549,
+    "text": "we can normalize by a different constant and you want to do this in such a way"
+  },
+  {
+    "t_start": 2662.549,
+    "t_end": 2665.549,
+    "text": "that the number of pieces the number of bins is as small as possible very very"
+  },
+  {
+    "t_start": 2665.549,
+    "t_end": 2667.71,
+    "text": "bins is as small as possible very very simple question this is EXT another"
+  },
+  {
+    "t_start": 2667.71,
+    "t_end": 2669.549,
+    "text": "simple question this is EXT another example of an empty hard problem and"
+  },
+  {
+    "t_start": 2669.549,
+    "t_end": 2670.91,
+    "text": "example of an empty hard problem and then you can ask what happens when the"
+  },
+  {
+    "t_start": 2670.91,
+    "t_end": 2674.23,
+    "text": "then you can ask what happens when the XI are random according to any measure"
+  },
+  {
+    "t_start": 2674.23,
+    "t_end": 2676.349,
+    "text": "XI are random according to any measure so again so"
+  },
+  {
+    "t_start": 2676.349,
+    "t_end": 2678.39,
+    "text": "so again so if"
+  },
+  {
+    "t_start": 2678.39,
+    "t_end": 2686.15,
+    "text": "X1 are independent then the best bounds"
+  },
+  {
+    "t_start": 2701.63,
+    "t_end": 2703.109,
+    "text": "okay and there's many many more so these are kind of the vanilla applications"
+  },
+  {
+    "t_start": 2703.109,
+    "t_end": 2704.43,
+    "text": "are kind of the vanilla applications they're not obvious and they were"
+  },
+  {
+    "t_start": 2704.43,
+    "t_end": 2708.27,
+    "text": "they're all a big deal but as I said there are all these other applications"
+  },
+  {
+    "t_start": 2708.27,
+    "t_end": 2709.95,
+    "text": "there are all these other applications which don't involve probability at all"
+  },
+  {
+    "t_start": 2709.95,
+    "t_end": 2711.99,
+    "text": "which don't involve probability at all there are theorems in just deterministic"
+  },
+  {
+    "t_start": 2711.99,
+    "t_end": 2714.67,
+    "text": "there are theorems in just deterministic mathematics but somewhere in the guts"
+  },
+  {
+    "t_start": 2714.67,
+    "t_end": 2716.829,
+    "text": "mathematics but somewhere in the guts this thing is being used so this is and"
+  },
+  {
+    "t_start": 2716.829,
+    "t_end": 2723.27,
+    "text": "this thing is being used so this is and this is one of many um such things and I"
+  },
+  {
+    "t_start": 2723.27,
+    "t_end": 2725.19,
+    "text": "want to um um when you look at the literature if you search you there is"
+  },
+  {
+    "t_start": 2725.19,
+    "t_end": 2729.15,
+    "text": "literature if you search you there is there telr inequalities and this is an"
+  },
+  {
+    "t_start": 2729.15,
+    "t_end": 2731.99,
+    "text": "archetypical one but there's also a taling on induction and I want the"
+  },
+  {
+    "t_start": 2731.99,
+    "t_end": 2735.27,
+    "text": "taling on induction and I want the method in which this was proved was also"
+  },
+  {
+    "t_start": 2735.27,
+    "t_end": 2736.67,
+    "text": "method in which this was proved was also Innovative and I want to say a word"
+  },
+  {
+    "t_start": 2736.67,
+    "t_end": 2740.27,
+    "text": "about the method before I move on to other topics okay so it's not just the"
+  },
+  {
+    "t_start": 2740.27,
+    "t_end": 2742.39,
+    "text": "other topics okay so it's not just the statement it's also the approach and and"
+  },
+  {
+    "t_start": 2742.39,
+    "t_end": 2746.91,
+    "text": "actually of course the statement itself has something very substantial here just"
+  },
+  {
+    "t_start": 2746.91,
+    "t_end": 2749.71,
+    "text": "has something very substantial here just even coming up with it"
+  },
+  {
+    "t_start": 2749.71,
+    "t_end": 2753.51,
+    "text": "even coming up with it um okay so let me just"
+  },
+  {
+    "t_start": 2753.51,
+    "t_end": 2772.19,
+    "text": "um okay so let me just sketch what how you prove it"
+  },
+  {
+    "t_start": 2784.27,
+    "t_end": 2787.43,
+    "text": "N okay and I think there are some students here"
+  },
+  {
+    "t_start": 2787.43,
+    "t_end": 2791.069,
+    "text": "the the fun part about induction is that sometimes you have to strengthen the"
+  },
+  {
+    "t_start": 2791.069,
+    "t_end": 2794.15,
+    "text": "sometimes you have to strengthen the induction hypothesis and um so in this"
+  },
+  {
+    "t_start": 2794.15,
+    "t_end": 2799.589,
+    "text": "part so so so a big part of this is coming up is what is the hypothesis that"
+  },
+  {
+    "t_start": 2799.589,
+    "t_end": 2800.67,
+    "text": "coming up is what is the hypothesis that that you want to write in this"
+  },
+  {
+    "t_start": 2800.67,
+    "t_end": 2802.39,
+    "text": "that you want to write in this particular case what we're going to"
+  },
+  {
+    "t_start": 2802.39,
+    "t_end": 2804.79,
+    "text": "particular case what we're going to prove that is is that"
+  },
+  {
+    "t_start": 2804.79,
+    "t_end": 2810.79,
+    "text": "prove that is is that um so you look at e to the quarter I"
+  },
+  {
+    "t_start": 2810.79,
+    "t_end": 2812.39,
+    "text": "think um"
+  },
+  {
+    "t_start": 2812.39,
+    "t_end": 2818.589,
+    "text": "f XA so take e to the e to the power this number that you are measuring the"
+  },
+  {
+    "t_start": 2818.589,
+    "t_end": 2821.27,
+    "text": "this number that you are measuring the distance to the set the expectation of"
+  },
+  {
+    "t_start": 2821.27,
+    "t_end": 2823.309,
+    "text": "distance to the set the expectation of this according to this product measure"
+  },
+  {
+    "t_start": 2823.309,
+    "t_end": 2825.109,
+    "text": "this according to this product measure mu sorry"
+  },
+  {
+    "t_start": 2825.109,
+    "t_end": 2829.51,
+    "text": "squared is less than one over the probability of"
+  },
+  {
+    "t_start": 2829.51,
+    "t_end": 2835.03,
+    "text": "a okay this will imply I think it's still up there right when when the"
+  },
+  {
+    "t_start": 2835.03,
+    "t_end": 2841.589,
+    "text": "probability of a is at least a half this is just most two the right hand side and"
+  },
+  {
+    "t_start": 2841.589,
+    "t_end": 2843.349,
+    "text": "you bounded how big the to the thing that you care about squared is in"
+  },
+  {
+    "t_start": 2843.349,
+    "t_end": 2845.309,
+    "text": "that you care about squared is in expectation so that by Mark of"
+  },
+  {
+    "t_start": 2845.309,
+    "t_end": 2847.03,
+    "text": "expectation so that by Mark of inequality will give you what you need"
+  },
+  {
+    "t_start": 2847.03,
+    "t_end": 2853.95,
+    "text": "inequality will give you what you need okay so in this so this is what I want"
+  },
+  {
+    "t_start": 2861.95,
+    "t_end": 2864.23,
+    "text": "me okay so we're in this setting but now let's take n+ one I want to place from n"
+  },
+  {
+    "t_start": 2864.23,
+    "t_end": 2897.67,
+    "text": "let's take n+ one I want to place from n to n+1"
+  },
+  {
+    "t_start": 2900.67,
+    "t_end": 2907.349,
+    "text": "um okay so now remember we have a set inside is Omega * Omega n + 1"
+  },
+  {
+    "t_start": 2907.349,
+    "t_end": 2909.91,
+    "text": "inside is Omega * Omega n + 1 and um and I'm I'm assuming the"
+  },
+  {
+    "t_start": 2909.91,
+    "t_end": 2911.51,
+    "text": "and um and I'm I'm assuming the induction hypothesis for you have to"
+  },
+  {
+    "t_start": 2911.51,
+    "t_end": 2916.23,
+    "text": "induction hypothesis for you have to check it for n equals 1 this a calculus"
+  },
+  {
+    "t_start": 2916.23,
+    "t_end": 2919.63,
+    "text": "exercise that inequality but let's assume we did that this is really an"
+  },
+  {
+    "t_start": 2919.63,
+    "t_end": 2925.95,
+    "text": "um so how do you so if you have a set in a product space how do you get you want"
+  },
+  {
+    "t_start": 2925.95,
+    "t_end": 2928.829,
+    "text": "a product space how do you get you want to apply the induction hypothesis to the"
+  },
+  {
+    "t_start": 2928.829,
+    "t_end": 2934.71,
+    "text": "to apply the induction hypothesis to the the product of the the first n then uh"
+  },
+  {
+    "t_start": 2934.71,
+    "t_end": 2938.549,
+    "text": "right so there are two ways to do it this is"
+  },
+  {
+    "t_start": 2941.91,
+    "t_end": 2949.15,
+    "text": "this is a so you can look at the fibers so you fix this is Omega n + one this is"
+  },
+  {
+    "t_start": 2949.15,
+    "t_end": 2956.589,
+    "text": "Omega in Omega n + one and then you write a Omega is the slice so it's all"
+  },
+  {
+    "t_start": 2956.589,
+    "t_end": 2957.789,
+    "text": "write a Omega is the slice so it's all the"
+  },
+  {
+    "t_start": 2957.789,
+    "t_end": 2962.549,
+    "text": "the points"
+  },
+  {
+    "t_start": 2968.19,
+    "t_end": 2970.51,
+    "text": "h y in Omega such that if you put right your given uh Omega in the last"
+  },
+  {
+    "t_start": 2970.51,
+    "t_end": 2972.23,
+    "text": "your given uh Omega in the last coordinate you get an element of"
+  },
+  {
+    "t_start": 2972.23,
+    "t_end": 2977.349,
+    "text": "a okay so that is H so where this is okay I should have done the slice here"
+  },
+  {
+    "t_start": 2977.349,
+    "t_end": 2978.51,
+    "text": "okay I should have done the slice here so that would"
+  },
+  {
+    "t_start": 2978.51,
+    "t_end": 2985.829,
+    "text": "be this and this that would be a Omega okay and then and the other so"
+  },
+  {
+    "t_start": 2985.829,
+    "t_end": 2989.15,
+    "text": "that's a slice and the next thing that you can do is a projection right so you"
+  },
+  {
+    "t_start": 2989.15,
+    "t_end": 2994.109,
+    "text": "you can do is a projection right so you can define B to be the projection of a"
+  },
+  {
+    "t_start": 2994.109,
+    "t_end": 3000.63,
+    "text": "onto Omega which is just the union of a Omega"
+  },
+  {
+    "t_start": 3003.75,
+    "t_end": 3006.43,
+    "text": "right so it's now it's going to be everything okay so that's the obvious"
+  },
+  {
+    "t_start": 3006.43,
+    "t_end": 3022.51,
+    "text": "everything okay so that's the obvious two ways to start from a set a and get"
+  },
+  {
+    "t_start": 3024.589,
+    "t_end": 3027.71,
+    "text": "object and what does conve this convexification of the problem give you"
+  },
+  {
+    "t_start": 3027.71,
+    "t_end": 3032.71,
+    "text": "it gives you the following Lemma which it's just it's not even it doesn't"
+  },
+  {
+    "t_start": 3032.71,
+    "t_end": 3038.549,
+    "text": "which it's just it's not even it doesn't it's not even a proof it's just an"
+  },
+  {
+    "t_start": 3047.99,
+    "t_end": 3050.51,
+    "text": "observation is that for every Lambda between zero and"
+  },
+  {
+    "t_start": 3050.51,
+    "t_end": 3055.789,
+    "text": "between zero and one if you look at um okay right there"
+  },
+  {
+    "t_start": 3055.789,
+    "t_end": 3057.91,
+    "text": "one if you look at um okay right there was this distance to the convex Hall um"
+  },
+  {
+    "t_start": 3057.91,
+    "t_end": 3060.47,
+    "text": "was this distance to the convex Hall um so right I mean one dimension higher so"
+  },
+  {
+    "t_start": 3060.47,
+    "t_end": 3063.03,
+    "text": "so right I mean one dimension higher so look at X comma"
+  },
+  {
+    "t_start": 3063.03,
+    "t_end": 3065.789,
+    "text": "look at X comma Omega"
+  },
+  {
+    "t_start": 3065.789,
+    "t_end": 3073.829,
+    "text": "a that's less than Lambda fi of x a"
+  },
+  {
+    "t_start": 3073.829,
+    "t_end": 3076.63,
+    "text": "fi of x a Omega + 1 -"
+  },
+  {
+    "t_start": 3076.63,
+    "t_end": 3079.789,
+    "text": "Omega + 1 - Lambda f"
+  },
+  {
+    "t_start": 3079.789,
+    "t_end": 3087.789,
+    "text": "Lambda f of x b + 1 - Lambda s so"
+  },
+  {
+    "t_start": 3087.789,
+    "t_end": 3089.549,
+    "text": "of x b + 1 - Lambda s so my letters are big cuz the room is big"
+  },
+  {
+    "t_start": 3089.549,
+    "t_end": 3092.27,
+    "text": "my letters are big cuz the room is big but this is nothing okay so this is the"
+  },
+  {
+    "t_start": 3092.27,
+    "t_end": 3097.95,
+    "text": "kind of thing that when you unravel the notation it's impossible not to prove it"
+  },
+  {
+    "t_start": 3097.95,
+    "t_end": 3100.349,
+    "text": "notation it's impossible not to prove it okay and those students in the room"
+  },
+  {
+    "t_start": 3100.349,
+    "t_end": 3102.19,
+    "text": "okay and those students in the room there's also there's a the opposite of"
+  },
+  {
+    "t_start": 3102.19,
+    "t_end": 3105.71,
+    "text": "this I always tell my students it's also impossible to prove it unless you know"
+  },
+  {
+    "t_start": 3105.71,
+    "t_end": 3107.789,
+    "text": "impossible to prove it unless you know unravel the notation so it's even but"
+  },
+  {
+    "t_start": 3107.789,
+    "t_end": 3109.43,
+    "text": "unravel the notation so it's even but this is just about unraveling what this"
+  },
+  {
+    "t_start": 3109.43,
+    "t_end": 3114.51,
+    "text": "this is just about unraveling what this says right um this was the the distance"
+  },
+  {
+    "t_start": 3114.51,
+    "t_end": 3120.63,
+    "text": "auxiliary sorry from zero to the convex hle of the auxiliary point so it's it's"
+  },
+  {
+    "t_start": 3120.63,
+    "t_end": 3124.549,
+    "text": "Hall this is witnessed by another point in the convex Hall but the property of"
+  },
+  {
+    "t_start": 3124.549,
+    "t_end": 3125.87,
+    "text": "in the convex Hall but the property of convex all is that you can take convex"
+  },
+  {
+    "t_start": 3125.87,
+    "t_end": 3128.15,
+    "text": "convex all is that you can take convex combination of these points and this"
+  },
+  {
+    "t_start": 3128.15,
+    "t_end": 3130.75,
+    "text": "combination of these points and this additional 1us Lambda squ was precisely"
+  },
+  {
+    "t_start": 3130.75,
+    "t_end": 3132.63,
+    "text": "additional 1us Lambda squ was precisely because there is one more coordinate and"
+  },
+  {
+    "t_start": 3132.63,
+    "t_end": 3136.23,
+    "text": "because there is one more coordinate and there was a ukian metric oh there's a"
+  },
+  {
+    "t_start": 3139.349,
+    "t_end": 3144.71,
+    "text": "square sorry about that okay so this is this is really the definition was set up"
+  },
+  {
+    "t_start": 3144.71,
+    "t_end": 3147.349,
+    "text": "this is really the definition was set up for this there is this is this is what"
+  },
+  {
+    "t_start": 3147.349,
+    "t_end": 3148.95,
+    "text": "for this there is this is this is what convexity gives"
+  },
+  {
+    "t_start": 3148.95,
+    "t_end": 3156.589,
+    "text": "you okay but then what did we care about um right so we had this over there maybe"
+  },
+  {
+    "t_start": 3156.589,
+    "t_end": 3158.47,
+    "text": "um right so we had this over there maybe I should"
+  },
+  {
+    "t_start": 3158.47,
+    "t_end": 3163.95,
+    "text": "I should start um right we had e to the quarter"
+  },
+  {
+    "t_start": 3163.95,
+    "t_end": 3165.91,
+    "text": "start um right we had e to the quarter 5x"
+  },
+  {
+    "t_start": 3165.91,
+    "t_end": 3171.71,
+    "text": "Omega a sar"
+  },
+  {
+    "t_start": 3171.71,
+    "t_end": 3177.03,
+    "text": "um so that's less than e to the 5"
+  },
+  {
+    "t_start": 3177.03,
+    "t_end": 3179.87,
+    "text": "than e to the 5 x a"
+  },
+  {
+    "t_start": 3179.87,
+    "t_end": 3185.829,
+    "text": "Omega squared there's a quarter I want to write it like this to the"
+  },
+  {
+    "t_start": 3185.829,
+    "t_end": 3189.829,
+    "text": "to write it like this to the Lambda time e to4"
+  },
+  {
+    "t_start": 3189.829,
+    "t_end": 3195.589,
+    "text": "Lambda time e to4 5x b^ 2 to the 1us"
+  },
+  {
+    "t_start": 3195.589,
+    "t_end": 3200.829,
+    "text": "5x b^ 2 to the 1us Lambda time e 1 - Lambda 2/ 4 I just"
+  },
+  {
+    "t_start": 3200.829,
+    "t_end": 3205.43,
+    "text": "Lambda time e 1 - Lambda 2/ 4 I just expon exponentiated this"
+  },
+  {
+    "t_start": 3248.069,
+    "t_end": 3250.39,
+    "text": "um okay but we wanted to compute the expectation so this is this a point-wise"
+  },
+  {
+    "t_start": 3250.39,
+    "t_end": 3251.91,
+    "text": "expectation so this is this a point-wise thing"
+  },
+  {
+    "t_start": 3251.91,
+    "t_end": 3258.67,
+    "text": "um so notice something interesting here this was true for every Lambda so I'm"
+  },
+  {
+    "t_start": 3258.67,
+    "t_end": 3261.67,
+    "text": "this was true for every Lambda so I'm allowed to let Lambda depend on"
+  },
+  {
+    "t_start": 3261.67,
+    "t_end": 3263.549,
+    "text": "allowed to let Lambda depend on Omega so I'm going to what I'm going to"
+  },
+  {
+    "t_start": 3263.549,
+    "t_end": 3267.87,
+    "text": "do is I'm going to analyze this inequality for a random Lambda which is"
+  },
+  {
+    "t_start": 3267.87,
+    "t_end": 3269.589,
+    "text": "inequality for a random Lambda which is going to be chosen"
+  },
+  {
+    "t_start": 3269.589,
+    "t_end": 3273.829,
+    "text": "carefully okay and convexity allows you to choose any Lambda in particular we're"
+  },
+  {
+    "t_start": 3273.829,
+    "t_end": 3279.549,
+    "text": "to choose any Lambda in particular we're going to get the best Lambda for for for"
+  },
+  {
+    "t_start": 3279.549,
+    "t_end": 3284.549,
+    "text": "this so um right so um so if we do expectation"
+  },
+  {
+    "t_start": 3284.549,
+    "t_end": 3288.95,
+    "text": "um right so um so if we do expectation just an X this is the induction"
+  },
+  {
+    "t_start": 3291.27,
+    "t_end": 3297.03,
+    "text": "hypothesis of what I cared about so e okay this"
+  },
+  {
+    "t_start": 3314.71,
+    "t_end": 3321.27,
+    "text": "coordinate this is at most so we have this e to the 1 - Lambda 2 over 4 and"
+  },
+  {
+    "t_start": 3321.27,
+    "t_end": 3328.33,
+    "text": "this e to the 1 - Lambda 2 over 4 and then e to the E what's written there"
+  },
+  {
+    "t_start": 3343.95,
+    "t_end": 3351.109,
+    "text": "yeah and then e to the4 5"
+  },
+  {
+    "t_start": 3351.109,
+    "t_end": 3357.63,
+    "text": "the4 5 XB squared"
+  },
+  {
+    "t_start": 3360.15,
+    "t_end": 3361.309,
+    "text": "to the one I hope I copied correctly this is the thing this is something that"
+  },
+  {
+    "t_start": 3361.309,
+    "t_end": 3366.069,
+    "text": "this is the thing this is something that you can see better than me I copied"
+  },
+  {
+    "t_start": 3366.069,
+    "t_end": 3367.99,
+    "text": "correctly okay and now this is Helder inequal right think of Helder with one"
+  },
+  {
+    "t_start": 3367.99,
+    "t_end": 3370.309,
+    "text": "inequal right think of Helder with one over Lambda so one over Lambda so 1/ p+"
+  },
+  {
+    "t_start": 3370.309,
+    "t_end": 3371.789,
+    "text": "over Lambda so one over Lambda so 1/ p+ 1/"
+  },
+  {
+    "t_start": 3371.789,
+    "t_end": 3379.67,
+    "text": "this is Helder inequality I can put the Lambda outside the expectation and make"
+  },
+  {
+    "t_start": 3379.67,
+    "t_end": 3382.069,
+    "text": "Lambda outside the expectation and make a product of"
+  },
+  {
+    "t_start": 3382.069,
+    "t_end": 3392.95,
+    "text": "a product of expectations this and then put an"
+  },
+  {
+    "t_start": 3403.549,
+    "t_end": 3406.95,
+    "text": "good okay so this is kosi Schwartz we saw in in Sarah but Helder is inequality"
+  },
+  {
+    "t_start": 3406.95,
+    "t_end": 3409.47,
+    "text": "saw in in Sarah but Helder is inequality okay remember Lambda is still not chosen"
+  },
+  {
+    "t_start": 3409.47,
+    "t_end": 3411.67,
+    "text": "okay remember Lambda is still not chosen here and Omega was"
+  },
+  {
+    "t_start": 3411.67,
+    "t_end": 3415.829,
+    "text": "fixed but now this is all happening in the lower dimensional space so we can"
+  },
+  {
+    "t_start": 3415.829,
+    "t_end": 3417.109,
+    "text": "the lower dimensional space so we can imply that induction"
+  },
+  {
+    "t_start": 3417.109,
+    "t_end": 3423.99,
+    "text": "hypothesis so what do we get we get that this is by induction e to 1us Lambda s"
+  },
+  {
+    "t_start": 3423.99,
+    "t_end": 3425.39,
+    "text": "this is by induction e to 1us Lambda s over"
+  },
+  {
+    "t_start": 3425.39,
+    "t_end": 3433.109,
+    "text": "4 times what was the induction was one over P was"
+  },
+  {
+    "t_start": 3433.109,
+    "t_end": 3435.829,
+    "text": "over P was mu right"
+  },
+  {
+    "t_start": 3435.829,
+    "t_end": 3442.27,
+    "text": "or the product measure so this is"
+  },
+  {
+    "t_start": 3445.15,
+    "t_end": 3447.069,
+    "text": "Mu of a Omega to the"
+  },
+  {
+    "t_start": 3447.069,
+    "t_end": 3453.43,
+    "text": "Lambda and then we have 1 / mu to the"
+  },
+  {
+    "t_start": 3453.43,
+    "t_end": 3457.67,
+    "text": "B to the 1 minus Lambda that's the induction hypothesis I'm applying it for"
+  },
+  {
+    "t_start": 3457.67,
+    "t_end": 3461.309,
+    "text": "induction hypothesis I'm applying it for sets in a lower dimensional"
+  },
+  {
+    "t_start": 3465.309,
+    "t_end": 3470.15,
+    "text": "right so what is the only thing we really know about Omega is we know that"
+  },
+  {
+    "t_start": 3470.15,
+    "t_end": 3477.23,
+    "text": "really know about Omega is we know that if we take expectation an Omega of mu of"
+  },
+  {
+    "t_start": 3480.19,
+    "t_end": 3481.27,
+    "text": "we get mu over a so this is like the n one and we"
+  },
+  {
+    "t_start": 3481.27,
+    "t_end": 3486.829,
+    "text": "get the this is Mu is this is the measure in the N Fold product and here"
+  },
+  {
+    "t_start": 3486.829,
+    "t_end": 3490.39,
+    "text": "measure in the N Fold product and here I'm writing the measure in the N plus"
+  },
+  {
+    "t_start": 3490.39,
+    "t_end": 3494.87,
+    "text": "product right this is just Fus theorem if you take the measure of the slices"
+  },
+  {
+    "t_start": 3494.87,
+    "t_end": 3498.95,
+    "text": "and you integrate you get the measure of the thing upstairs so we really would"
+  },
+  {
+    "t_start": 3498.95,
+    "t_end": 3501.71,
+    "text": "the thing upstairs so we really would want something which is behaves linearly"
+  },
+  {
+    "t_start": 3501.71,
+    "t_end": 3505.63,
+    "text": "want something which is behaves linearly in a of in mu of a Omega in order to cuz"
+  },
+  {
+    "t_start": 3505.63,
+    "t_end": 3508.75,
+    "text": "this was true for every fix and I want to take expect a here okay so when I"
+  },
+  {
+    "t_start": 3508.75,
+    "t_end": 3510.91,
+    "text": "to take expect a here okay so when I stare at this I'm I I would be I would"
+  },
+  {
+    "t_start": 3510.91,
+    "t_end": 3517.23,
+    "text": "be much happier if there is a mu of a Omega which appearing here not this uh"
+  },
+  {
+    "t_start": 3517.23,
+    "t_end": 3521.069,
+    "text": "Omega which appearing here not this uh Behavior so you force it so you you um"
+  },
+  {
+    "t_start": 3521.069,
+    "t_end": 3522.75,
+    "text": "Behavior so you force it so you you um so"
+  },
+  {
+    "t_start": 3522.75,
+    "t_end": 3529.43,
+    "text": "right I'm just let's write it um how would I say"
+  },
+  {
+    "t_start": 3529.43,
+    "t_end": 3531.589,
+    "text": "it um how would I say it let's do"
+  },
+  {
+    "t_start": 3531.589,
+    "t_end": 3538.23,
+    "text": "it let's do it U of"
+  },
+  {
+    "t_start": 3540.789,
+    "t_end": 3549.349,
+    "text": "mu of a Omega sorry mu"
+  },
+  {
+    "t_start": 3555.309,
+    "t_end": 3557.789,
+    "text": "of yeah okay let's do it h mu of a Omega over mu of"
+  },
+  {
+    "t_start": 3557.789,
+    "t_end": 3561.47,
+    "text": "Omega over mu of B to the minus"
+  },
+  {
+    "t_start": 3561.47,
+    "t_end": 3563.23,
+    "text": "B to the minus Lambda"
+  },
+  {
+    "t_start": 3563.23,
+    "t_end": 3569.029,
+    "text": "times 1 / mu of B okay but I want to I want to write"
+  },
+  {
+    "t_start": 3569.029,
+    "t_end": 3573.15,
+    "text": "something linear in mu of a Omega so let's well this is you think about"
+  },
+  {
+    "t_start": 3573.15,
+    "t_end": 3575.87,
+    "text": "let's well this is you think about that's the the only thing you can do you"
+  },
+  {
+    "t_start": 3575.87,
+    "t_end": 3579.71,
+    "text": "that's the the only thing you can do you write one minus this"
+  },
+  {
+    "t_start": 3601.71,
+    "t_end": 3611.309,
+    "text": "thing times there was one over mu of B and I put it"
+  },
+  {
+    "t_start": 3614.15,
+    "t_end": 3619.549,
+    "text": "divided by this term which is but here it behaves linearly in the numerator of"
+  },
+  {
+    "t_start": 3619.549,
+    "t_end": 3625.349,
+    "text": "it behaves linearly in the numerator of Omega this just a rewriting of the same"
+  },
+  {
+    "t_start": 3625.349,
+    "t_end": 3627.63,
+    "text": "thing but it turns out that right this is this this call this number I don't"
+  },
+  {
+    "t_start": 3627.63,
+    "t_end": 3635.23,
+    "text": "know R so we have this function e to Theus Lambda S 4 R to Theus Lambda 1 / 2"
+  },
+  {
+    "t_start": 3635.23,
+    "t_end": 3636.19,
+    "text": "Theus Lambda S 4 R to Theus Lambda 1 / 2 -"
+  },
+  {
+    "t_start": 3636.19,
+    "t_end": 3640.63,
+    "text": "R turns out that this function is always bounded by"
+  },
+  {
+    "t_start": 3640.63,
+    "t_end": 3646.15,
+    "text": "one sorry it's the minimum of it is always at most one so for every Omega"
+  },
+  {
+    "t_start": 3646.15,
+    "t_end": 3647.99,
+    "text": "always at most one so for every Omega there is a there is a Lambda depending"
+  },
+  {
+    "t_start": 3647.99,
+    "t_end": 3654.63,
+    "text": "only on this ratio which makes this be one so by choosing the Lambda correctly"
+  },
+  {
+    "t_start": 3654.63,
+    "t_end": 3658.029,
+    "text": "we can make this be at one but now Lambda we so appli heler inequality with"
+  },
+  {
+    "t_start": 3658.029,
+    "t_end": 3659.349,
+    "text": "Lambda we so appli heler inequality with random"
+  },
+  {
+    "t_start": 3659.349,
+    "t_end": 3667.029,
+    "text": "random exponents so the claim is that this is"
+  },
+  {
+    "t_start": 3669.67,
+    "t_end": 3675.75,
+    "text": "calculus R to Theus Lambda 1 / 2 - Lambda the minimum of"
+  },
+  {
+    "t_start": 3675.75,
+    "t_end": 3677.27,
+    "text": "this over R is at most"
+  },
+  {
+    "t_start": 3677.27,
+    "t_end": 3684.19,
+    "text": "always be chosen to be at most one if Lambda is chosen correctly as a function"
+  },
+  {
+    "t_start": 3684.19,
+    "t_end": 3687.43,
+    "text": "Lambda is chosen correctly as a function of Omega what remains is now lar and"
+  },
+  {
+    "t_start": 3687.43,
+    "t_end": 3689.87,
+    "text": "this you can integrate with respect to Omega and just becomes the inequality"
+  },
+  {
+    "t_start": 3689.87,
+    "t_end": 3691.829,
+    "text": "Omega and just becomes the inequality okay so that's how the induction"
+  },
+  {
+    "t_start": 3691.829,
+    "t_end": 3695.829,
+    "text": "okay so that's how the induction Works um and this is there is many many"
+  },
+  {
+    "t_start": 3695.829,
+    "t_end": 3697.71,
+    "text": "Works um and this is there is many many more examples of things like this"
+  },
+  {
+    "t_start": 3697.71,
+    "t_end": 3703.15,
+    "text": "working um there are more complicated in a lot of creativity in just coming up"
+  },
+  {
+    "t_start": 3703.15,
+    "t_end": 3705.23,
+    "text": "a lot of creativity in just coming up with Notions of distance and again many"
+  },
+  {
+    "t_start": 3705.23,
+    "t_end": 3707.47,
+    "text": "with Notions of distance and again many applications I I plan to do a few more"
+  },
+  {
+    "t_start": 3707.47,
+    "t_end": 3709.27,
+    "text": "applications I I plan to do a few more applications but I want to change to"
+  },
+  {
+    "t_start": 3709.27,
+    "t_end": 3710.67,
+    "text": "applications but I want to change to show some other topics which have"
+  },
+  {
+    "t_start": 3710.67,
+    "t_end": 3715.23,
+    "text": "nothing to do with this initially um are there any questions about this this is"
+  },
+  {
+    "t_start": 3715.23,
+    "t_end": 3719.95,
+    "text": "there any questions about this this is was just one example of a very very big"
+  },
+  {
+    "t_start": 3719.95,
+    "t_end": 3721.789,
+    "text": "body of work just to see to show are there any questions in"
+  },
+  {
+    "t_start": 3721.789,
+    "t_end": 3727.47,
+    "text": "there any questions in this okay so um let me just again now"
+  },
+  {
+    "t_start": 3727.47,
+    "t_end": 3733.109,
+    "text": "this is just a um a random selection of um of"
+  },
+  {
+    "t_start": 3733.109,
+    "t_end": 3735.63,
+    "text": "a um a random selection of um of um of"
+  },
+  {
+    "t_start": 3735.63,
+    "t_end": 3742.63,
+    "text": "Works um I'm choosing ones which are important for various"
+  },
+  {
+    "t_start": 3742.63,
+    "t_end": 3748.99,
+    "text": "important for various reasons um that I can exp that the maybe"
+  },
+  {
+    "t_start": 3748.99,
+    "t_end": 3755.349,
+    "text": "break so um as I so there are there I can definitely I have easily 100 papers"
+  },
+  {
+    "t_start": 3755.349,
+    "t_end": 3757.19,
+    "text": "can definitely I have easily 100 papers to choose from let me choose one or two"
+  },
+  {
+    "t_start": 3757.19,
+    "t_end": 3760.789,
+    "text": "to choose from let me choose one or two more before the talk ends um so here's a"
+  },
+  {
+    "t_start": 3760.789,
+    "t_end": 3765.109,
+    "text": "more before the talk ends um so here's a theorem of telr about um it's a a really"
+  },
+  {
+    "t_start": 3765.109,
+    "t_end": 3768.589,
+    "text": "theorem of telr about um it's a a really it's it can be viewed as a theorem about"
+  },
+  {
+    "t_start": 3768.589,
+    "t_end": 3774.789,
+    "text": "reduction um or in approximation Theory um so it says so there is right so if"
+  },
+  {
+    "t_start": 3774.789,
+    "t_end": 3777.029,
+    "text": "um so it says so there is right so if you have"
+  },
+  {
+    "t_start": 3777.029,
+    "t_end": 3781.109,
+    "text": "subsets A and B in our"
+  },
+  {
+    "t_start": 3781.109,
+    "t_end": 3782.63,
+    "text": "B in our n"
+  },
+  {
+    "t_start": 3782.63,
+    "t_end": 3787.67,
+    "text": "convex or they don't have to be convex but um you can you can there is a notion"
+  },
+  {
+    "t_start": 3787.67,
+    "t_end": 3790.589,
+    "text": "but um you can you can there is a notion of minkovski addition so you can look at"
+  },
+  {
+    "t_start": 3790.589,
+    "t_end": 3796.789,
+    "text": "b which appeared already in in Michelle's talk right so it's all the"
+  },
+  {
+    "t_start": 3796.789,
+    "t_end": 3802.15,
+    "text": "Michelle's talk right so it's all the sums it's not an index set anymore"
+  },
+  {
+    "t_start": 3805.95,
+    "t_end": 3812.75,
+    "text": "is a set that when you have two points the interval between them is completely"
+  },
+  {
+    "t_start": 3812.75,
+    "t_end": 3815.23,
+    "text": "the interval between them is completely inside and you can add convex"
+  },
+  {
+    "t_start": 3815.23,
+    "t_end": 3817.349,
+    "text": "inside and you can add convex sets"
+  },
+  {
+    "t_start": 3817.349,
+    "t_end": 3821.19,
+    "text": "yeah can do one more minute just to say this theorem or one minute it's really"
+  },
+  {
+    "t_start": 3821.19,
+    "t_end": 3826.589,
+    "text": "it's really the end okay so now so what is the simplest example of a convex set"
+  },
+  {
+    "t_start": 3826.589,
+    "t_end": 3827.789,
+    "text": "is the simplest example of a convex set given that you want two points to be"
+  },
+  {
+    "t_start": 3827.789,
+    "t_end": 3828.99,
+    "text": "given that you want two points to be joined by an"
+  },
+  {
+    "t_start": 3828.99,
+    "t_end": 3832.23,
+    "text": "joined by an interval"
+  },
+  {
+    "t_start": 3834.549,
+    "t_end": 3837.349,
+    "text": "um I'm really running a bit late I'm looking at that clock okay I'm"
+  },
+  {
+    "t_start": 3837.349,
+    "t_end": 3841.43,
+    "text": "looking at that clock okay I'm sorry okay okay okay so I really one"
+  },
+  {
+    "t_start": 3841.43,
+    "t_end": 3845.23,
+    "text": "minute I'll just say Okay so the most basic convex that you can look at is an"
+  },
+  {
+    "t_start": 3845.23,
+    "t_end": 3847.95,
+    "text": "basic convex that you can look at is an interval I that's that's a definition of"
+  },
+  {
+    "t_start": 3847.95,
+    "t_end": 3853.15,
+    "text": "interval I that's that's a definition of convexity so you can look at what is the"
+  },
+  {
+    "t_start": 3853.15,
+    "t_end": 3858.39,
+    "text": "closure of intervals under this operation so a"
+  },
+  {
+    "t_start": 3867.87,
+    "t_end": 3869.67,
+    "text": "so any anything that can be obtained by summing up intervals in many different"
+  },
+  {
+    "t_start": 3869.67,
+    "t_end": 3871.349,
+    "text": "summing up intervals in many different directions example the hyper cube is"
+  },
+  {
+    "t_start": 3871.349,
+    "t_end": 3874.269,
+    "text": "like that if you sum the the N orthogonal directions you get a hyper"
+  },
+  {
+    "t_start": 3874.269,
+    "t_end": 3879.63,
+    "text": "orthogonal directions you get a hyper Cube okay that's a zonotope a"
+  },
+  {
+    "t_start": 3882.109,
+    "t_end": 3887.95,
+    "text": "limit of zonotopes in your favorite let's say House of"
+  },
+  {
+    "t_start": 3887.95,
+    "t_end": 3893.47,
+    "text": "metric so not every convex set can be written as so this is the the closure of"
+  },
+  {
+    "t_start": 3893.47,
+    "t_end": 3895.19,
+    "text": "written as so this is the the closure of the separation of the most basic convex"
+  },
+  {
+    "t_start": 3895.19,
+    "t_end": 3896.95,
+    "text": "the separation of the most basic convex set that"
+  },
+  {
+    "t_start": 3896.95,
+    "t_end": 3901.19,
+    "text": "set that exists so if I give you a"
+  },
+  {
+    "t_start": 3910.269,
+    "t_end": 3912.309,
+    "text": "zonotope you know that there is a a sequence of zonoids which tend to it"
+  },
+  {
+    "t_start": 3912.309,
+    "t_end": 3914.47,
+    "text": "sequence of zonoids which tend to it that's a definition all the limits of"
+  },
+  {
+    "t_start": 3914.47,
+    "t_end": 3917.19,
+    "text": "that's a definition all the limits of sums of intervals but I'm not but but it"
+  },
+  {
+    "t_start": 3917.19,
+    "t_end": 3918.39,
+    "text": "sums of intervals but I'm not but but it could be that you need two to the two to"
+  },
+  {
+    "t_start": 3918.39,
+    "t_end": 3919.549,
+    "text": "could be that you need two to the two to the two to the two to the two two to the"
+  },
+  {
+    "t_start": 3919.549,
+    "t_end": 3924.87,
+    "text": "the two to the two to the two two to the two to then intervals to approximate"
+  },
+  {
+    "t_start": 3924.87,
+    "t_end": 3926.39,
+    "text": "let's your set what Michelle proved was this is that this is not so if you want"
+  },
+  {
+    "t_start": 3926.39,
+    "t_end": 3928.63,
+    "text": "this is that this is not so if you want to approximate if you if some if I give"
+  },
+  {
+    "t_start": 3928.63,
+    "t_end": 3932.87,
+    "text": "you if I promise you that something is a limit of sums of intervals and you want"
+  },
+  {
+    "t_start": 3932.87,
+    "t_end": 3935.269,
+    "text": "limit of sums of intervals and you want to approximate it up to Epsilon then you"
+  },
+  {
+    "t_start": 3935.269,
+    "t_end": 3940.75,
+    "text": "to approximate it up to Epsilon then you need only n you can approximate it using"
+  },
+  {
+    "t_start": 3940.75,
+    "t_end": 3949.67,
+    "text": "linearly removing this log in is a huge open problem and a new idea so so so so"
+  },
+  {
+    "t_start": 3949.67,
+    "t_end": 3952.069,
+    "text": "open problem and a new idea so so so so there exists such ZK such that the"
+  },
+  {
+    "t_start": 3952.069,
+    "t_end": 3953.549,
+    "text": "there exists such ZK such that the distance from"
+  },
+  {
+    "t_start": 3953.549,
+    "t_end": 3958.19,
+    "text": "ZK to Z is less than epon let's say in the house of distance"
+  },
+  {
+    "t_start": 3958.19,
+    "t_end": 3960.589,
+    "text": "the house of distance and um"
+  },
+  {
+    "t_start": 3960.589,
+    "t_end": 3968.43,
+    "text": "ZK is a sum of Big O depending on Epsilon n log"
+  },
+  {
+    "t_start": 3968.43,
+    "t_end": 3970.589,
+    "text": "sum of Big O depending on Epsilon n log n"
+  },
+  {
+    "t_start": 3970.589,
+    "t_end": 3977.75,
+    "text": "convex body is a sum of two to the two is a limit of at any rate I can actually"
+  },
+  {
+    "t_start": 3977.75,
+    "t_end": 3979.43,
+    "text": "is a limit of at any rate I can actually get a rate which is essentially linear"
+  },
+  {
+    "t_start": 3979.43,
+    "t_end": 3983.23,
+    "text": "get a rate which is essentially linear in the dimension and that's a very nice"
+  },
+  {
+    "t_start": 3983.23,
+    "t_end": 3991.23,
+    "text": "it's an iteration where in each step each the first step increases the"
+  },
+  {
+    "t_start": 3991.23,
+    "t_end": 3994.309,
+    "text": "step each the first step increases the number of intervals the second up"
+  },
+  {
+    "t_start": 3994.309,
+    "t_end": 3995.829,
+    "text": "decreases it by it's a random construction so you increase it looks"
+  },
+  {
+    "t_start": 3995.829,
+    "t_end": 3996.87,
+    "text": "construction so you increase it looks like it's going the wrong direction but"
+  },
+  {
+    "t_start": 3996.87,
+    "t_end": 4000.109,
+    "text": "like it's going the wrong direction but you decrease it by a little bit more and"
+  },
+  {
+    "t_start": 4000.109,
+    "t_end": 4005.309,
+    "text": "you're going down up to and log in it's a very very nice proof um which I'm over"
+  },
+  {
+    "t_start": 4005.309,
+    "t_end": 4012.0,
+    "text": "a very very nice proof um which I'm over time so I'll stop and that's just a tiny"
+  },
+  {
+    "t_start": 4012.0,
+    "t_end": 4016.389,
+    "text": "sample of what he proved [Applause]"
+  }
+]

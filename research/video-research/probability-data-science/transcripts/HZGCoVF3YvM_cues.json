@@ -1,0 +1,1197 @@
+[
+  {
+    "t_start": 0.0,
+    "t_end": 3.369,
+    "text": "The goal is for you to come away from this video understanding one"
+  },
+  {
+    "t_start": 3.369,
+    "t_end": 6.84,
+    "text": "of the most important formulas in all of probability, Bayes' theorem."
+  },
+  {
+    "t_start": 7.48,
+    "t_end": 10.266,
+    "text": "This formula is central to scientific discovery,"
+  },
+  {
+    "t_start": 10.266,
+    "t_end": 14.93,
+    "text": "it's a core tool in machine learning and AI, and it's even been used for treasure"
+  },
+  {
+    "t_start": 14.93,
+    "t_end": 18.512,
+    "text": "hunting, when in the 1980s a small team led by Tommy Thompson,"
+  },
+  {
+    "t_start": 18.512,
+    "t_end": 23.062,
+    "text": "and I'm not making up that name, used Bayesian search tactics to help uncover a"
+  },
+  {
+    "t_start": 23.062,
+    "t_end": 25.849,
+    "text": "ship that had sunk a century and a half earlier,"
+  },
+  {
+    "t_start": 25.849,
+    "t_end": 30.74,
+    "text": "and the ship was carrying what in today's terms amounts to $700 million worth of gold."
+  },
+  {
+    "t_start": 31.34,
+    "t_end": 34.264,
+    "text": "So it's a formula worth understanding, but of course there"
+  },
+  {
+    "t_start": 34.264,
+    "t_end": 37.04,
+    "text": "are multiple different levels of possible understanding."
+  },
+  {
+    "t_start": 37.6,
+    "t_end": 40.66,
+    "text": "At the simplest there's just knowing what each one of the parts means,"
+  },
+  {
+    "t_start": 40.66,
+    "t_end": 42.04,
+    "text": "so that you can plug in numbers."
+  },
+  {
+    "t_start": 42.76,
+    "t_end": 46.497,
+    "text": "Then there's understanding why it's true, and later I'm going to show you a"
+  },
+  {
+    "t_start": 46.497,
+    "t_end": 50.58,
+    "text": "certain diagram that's helpful for rediscovering this formula on the fly as needed."
+  },
+  {
+    "t_start": 51.24,
+    "t_end": 55.54,
+    "text": "But maybe the most important level is being able to recognize when you need to use it."
+  },
+  {
+    "t_start": 55.54,
+    "t_end": 58.05,
+    "text": "And with the goal of gaining a deeper understanding,"
+  },
+  {
+    "t_start": 58.05,
+    "t_end": 60.56,
+    "text": "you and I are going to tackle these in reverse order."
+  },
+  {
+    "t_start": 61.02,
+    "t_end": 64.774,
+    "text": "So before dissecting the formula or explaining the visual that makes it obvious,"
+  },
+  {
+    "t_start": 64.774,
+    "t_end": 66.86,
+    "text": "I'd like to tell you about a man named Steve."
+  },
+  {
+    "t_start": 67.32,
+    "t_end": 68.72,
+    "text": "Listen carefully now."
+  },
+  {
+    "t_start": 72.74,
+    "t_end": 75.839,
+    "text": "Steve is very shy and withdrawn, invariably helpful but"
+  },
+  {
+    "t_start": 75.839,
+    "t_end": 79.16,
+    "text": "with very little interest in people or the world of reality."
+  },
+  {
+    "t_start": 79.74,
+    "t_end": 84.1,
+    "text": "A meek and tidy soul, he has a need for order and structure, and a passion for detail."
+  },
+  {
+    "t_start": 84.619,
+    "t_end": 86.78,
+    "text": "Which of the following do you find more likely?"
+  },
+  {
+    "t_start": 87.2,
+    "t_end": 90.38,
+    "text": "Steve is a librarian, or Steve is a farmer?"
+  },
+  {
+    "t_start": 91.4,
+    "t_end": 94.18,
+    "text": "Some of you may recognize this as an example from a study"
+  },
+  {
+    "t_start": 94.18,
+    "t_end": 97.44,
+    "text": "conducted by the two psychologists Daniel Kahneman and Amos Tversky."
+  },
+  {
+    "t_start": 98.2,
+    "t_end": 100.488,
+    "text": "Their work was a big deal, it won a Nobel Prize,"
+  },
+  {
+    "t_start": 100.488,
+    "t_end": 104.458,
+    "text": "and it's been popularized many times over in books like Kahneman's Thinking Fast and"
+  },
+  {
+    "t_start": 104.458,
+    "t_end": 106.56,
+    "text": "Slow, or Michael Lewis's The Undoing Project."
+  },
+  {
+    "t_start": 107.42,
+    "t_end": 111.396,
+    "text": "What they researched was human judgments, with a frequent focus on when these"
+  },
+  {
+    "t_start": 111.396,
+    "t_end": 115.78,
+    "text": "judgments irrationally contradict what the laws of probability suggest they should be."
+  },
+  {
+    "t_start": 116.34,
+    "t_end": 119.645,
+    "text": "The example with Steve, our maybe-librarian-maybe-farmer,"
+  },
+  {
+    "t_start": 119.645,
+    "t_end": 122.381,
+    "text": "illustrates one specific type of irrationality,"
+  },
+  {
+    "t_start": 122.381,
+    "t_end": 126.77,
+    "text": "or maybe I should say alleged irrationality, there are people who debate the"
+  },
+  {
+    "t_start": 126.77,
+    "t_end": 129.62,
+    "text": "conclusion here, but more on all of that later on."
+  },
+  {
+    "t_start": 129.979,
+    "t_end": 133.911,
+    "text": "According to Kahneman and Tversky, after people are given this description"
+  },
+  {
+    "t_start": 133.911,
+    "t_end": 138.0,
+    "text": "of Steve as a meek and tidy soul, most say he's more likely to be a librarian."
+  },
+  {
+    "t_start": 138.0,
+    "t_end": 140.73,
+    "text": "After all, these traits line up better with the"
+  },
+  {
+    "t_start": 140.73,
+    "t_end": 143.46,
+    "text": "stereotypical view of a librarian than a farmer."
+  },
+  {
+    "t_start": 144.2,
+    "t_end": 146.88,
+    "text": "And according to Kahneman and Tversky, this is irrational."
+  },
+  {
+    "t_start": 147.6,
+    "t_end": 151.501,
+    "text": "The point is not whether people hold correct or biased views about the"
+  },
+  {
+    "t_start": 151.501,
+    "t_end": 155.623,
+    "text": "personalities of librarians and farmers, it's that almost nobody thinks to"
+  },
+  {
+    "t_start": 155.623,
+    "t_end": 160.24,
+    "text": "incorporate information about the ratio of farmers to librarians in their judgments."
+  },
+  {
+    "t_start": 160.92,
+    "t_end": 165.18,
+    "text": "In their paper, Kahneman and Tversky said that in the US that ratio is about 20 to 1."
+  },
+  {
+    "t_start": 165.58,
+    "t_end": 168.113,
+    "text": "The numbers I could find today put that much higher,"
+  },
+  {
+    "t_start": 168.113,
+    "t_end": 172.033,
+    "text": "but let's stick with the 20 to 1 number, since it's a little easier to illustrate"
+  },
+  {
+    "t_start": 172.033,
+    "t_end": 173.42,
+    "text": "and proves the point as well."
+  },
+  {
+    "t_start": 174.28,
+    "t_end": 178.33,
+    "text": "To be clear, anyone who has asked this question is not expected to have perfect"
+  },
+  {
+    "t_start": 178.33,
+    "t_end": 182.785,
+    "text": "information about the actual statistics of farmers and librarians and their personality"
+  },
+  {
+    "t_start": 182.785,
+    "t_end": 183.14,
+    "text": "traits."
+  },
+  {
+    "t_start": 183.68,
+    "t_end": 186.601,
+    "text": "But the question is whether people even think to consider"
+  },
+  {
+    "t_start": 186.601,
+    "t_end": 189.22,
+    "text": "that ratio enough to at least make a rough estimate."
+  },
+  {
+    "t_start": 190.04,
+    "t_end": 194.46,
+    "text": "Rationality is not about knowing facts, it's about recognizing which facts are relevant."
+  },
+  {
+    "t_start": 195.88,
+    "t_end": 198.481,
+    "text": "Now if you do think to make that estimate, there's a pretty"
+  },
+  {
+    "t_start": 198.481,
+    "t_end": 201.212,
+    "text": "simple way to reason about the question, which, spoiler alert,"
+  },
+  {
+    "t_start": 201.212,
+    "t_end": 203.9,
+    "text": "involves all of the essential reasoning behind Bayes' theorem."
+  },
+  {
+    "t_start": 204.66,
+    "t_end": 209.123,
+    "text": "You might start by picturing a representative sample of farmers and librarians,"
+  },
+  {
+    "t_start": 209.123,
+    "t_end": 211.02,
+    "text": "say 200 farmers and 10 librarians."
+  },
+  {
+    "t_start": 211.74,
+    "t_end": 215.059,
+    "text": "Then when you hear of this meek and tidy soul description,"
+  },
+  {
+    "t_start": 215.059,
+    "t_end": 219.953,
+    "text": "let's say that your gut instinct is that 40% of librarians would fit that description,"
+  },
+  {
+    "t_start": 219.953,
+    "t_end": 221.36,
+    "text": "and 10% of farmers would."
+  },
+  {
+    "t_start": 222.02,
+    "t_end": 225.984,
+    "text": "If those are your estimates, it would mean that from your sample you would expect"
+  },
+  {
+    "t_start": 225.984,
+    "t_end": 230.24,
+    "text": "about 4 librarians to fit the description, and about 20 farmers to fit that description."
+  },
+  {
+    "t_start": 231.02,
+    "t_end": 235.365,
+    "text": "So the probability that a random person among those who"
+  },
+  {
+    "t_start": 235.365,
+    "t_end": 240.1,
+    "text": "fit this description is a librarian is 4 out of 24, or 16.7%."
+  },
+  {
+    "t_start": 240.1,
+    "t_end": 244.533,
+    "text": "So even if you think that a librarian is 4 times as likely as a farmer to fit this"
+  },
+  {
+    "t_start": 244.533,
+    "t_end": 249.02,
+    "text": "description, that's not enough to overcome the fact that there are way more farmers."
+  },
+  {
+    "t_start": 249.72,
+    "t_end": 253.038,
+    "text": "The upshot, and this is the key mantra underlying Bayes' theorem,"
+  },
+  {
+    "t_start": 253.038,
+    "t_end": 256.86,
+    "text": "is that new evidence does not completely determine your beliefs in a vacuum."
+  },
+  {
+    "t_start": 257.079,
+    "t_end": 259.22,
+    "text": "It should update prior beliefs."
+  },
+  {
+    "t_start": 261.12,
+    "t_end": 263.949,
+    "text": "If this line of reasoning makes sense to you, the way that"
+  },
+  {
+    "t_start": 263.949,
+    "t_end": 266.539,
+    "text": "seeing evidence restricts the space of possibilities,"
+  },
+  {
+    "t_start": 266.539,
+    "t_end": 269.8,
+    "text": "and the ratio you need to consider after that, then congratulations!"
+  },
+  {
+    "t_start": 270.24,
+    "t_end": 272.36,
+    "text": "You understand the heart of Bayes' theorem."
+  },
+  {
+    "t_start": 272.36,
+    "t_end": 275.759,
+    "text": "Maybe the numbers you would estimate would be a little different,"
+  },
+  {
+    "t_start": 275.759,
+    "t_end": 279.982,
+    "text": "but what matters is how you fit the numbers together to update your beliefs based"
+  },
+  {
+    "t_start": 279.982,
+    "t_end": 280.6,
+    "text": "on evidence."
+  },
+  {
+    "t_start": 282.08,
+    "t_end": 286.038,
+    "text": "Now understanding one example is one thing, but see if you can take a minute"
+  },
+  {
+    "t_start": 286.038,
+    "t_end": 289.74,
+    "text": "to generalize everything we just did and write it all down as a formula."
+  },
+  {
+    "t_start": 292.32,
+    "t_end": 297.374,
+    "text": "The general situation where Bayes' theorem is relevant is when you have some hypothesis,"
+  },
+  {
+    "t_start": 297.374,
+    "t_end": 300.667,
+    "text": "like Steve is a librarian, and you see some new evidence,"
+  },
+  {
+    "t_start": 300.667,
+    "t_end": 304.188,
+    "text": "say this verbal description of Steve as a meek and tidy soul,"
+  },
+  {
+    "t_start": 304.188,
+    "t_end": 308.447,
+    "text": "and you want to know the probability that your hypothesis holds given that"
+  },
+  {
+    "t_start": 308.447,
+    "t_end": 309.64,
+    "text": "the evidence is true."
+  },
+  {
+    "t_start": 310.44,
+    "t_end": 314.058,
+    "text": "In the standard notation, this vertical bar means given that,"
+  },
+  {
+    "t_start": 314.058,
+    "t_end": 318.96,
+    "text": "as in we're restricting our view only to the possibilities where the evidence holds."
+  },
+  {
+    "t_start": 320.22,
+    "t_end": 322.643,
+    "text": "Now remember the first relevant number we used,"
+  },
+  {
+    "t_start": 322.643,
+    "t_end": 326.077,
+    "text": "it was the probability that the hypothesis holds before considering"
+  },
+  {
+    "t_start": 326.077,
+    "t_end": 327.34,
+    "text": "any of that new evidence."
+  },
+  {
+    "t_start": 327.719,
+    "t_end": 331.342,
+    "text": "In our example, that was 1 out of 21, and it came from considering"
+  },
+  {
+    "t_start": 331.342,
+    "t_end": 334.64,
+    "text": "the ratio of librarians to farmers in the general population."
+  },
+  {
+    "t_start": 335.52,
+    "t_end": 336.98,
+    "text": "This number is known as the prior."
+  },
+  {
+    "t_start": 338.02,
+    "t_end": 342.852,
+    "text": "After that, we need to consider the proportion of librarians that fit this description,"
+  },
+  {
+    "t_start": 342.852,
+    "t_end": 347.3,
+    "text": "the probability that we would see the evidence given that the hypothesis is true."
+  },
+  {
+    "t_start": 348.1,
+    "t_end": 351.421,
+    "text": "Again, when you see this vertical bar, it means we're talking about"
+  },
+  {
+    "t_start": 351.421,
+    "t_end": 354.84,
+    "text": "some proportion of a limited part of the total space of possibilities."
+  },
+  {
+    "t_start": 355.32,
+    "t_end": 359.3,
+    "text": "In this case, that limited part is the left side, where the hypothesis holds."
+  },
+  {
+    "t_start": 359.96,
+    "t_end": 363.337,
+    "text": "In the context of Bayes' theorem, this value also has a special name,"
+  },
+  {
+    "t_start": 363.337,
+    "t_end": 364.64,
+    "text": "it's called the likelihood."
+  },
+  {
+    "t_start": 365.7,
+    "t_end": 369.512,
+    "text": "Similarly, you need to know how much of the other side of the space includes the"
+  },
+  {
+    "t_start": 369.512,
+    "t_end": 373.56,
+    "text": "evidence, the probability of seeing the evidence given that the hypothesis isn't true."
+  },
+  {
+    "t_start": 374.34,
+    "t_end": 378.42,
+    "text": "This funny little elbow symbol is commonly used in probability to mean not."
+  },
+  {
+    "t_start": 379.86,
+    "t_end": 383.7,
+    "text": "So with the notation in place, remember what our final answer was,"
+  },
+  {
+    "t_start": 383.7,
+    "t_end": 388.631,
+    "text": "the probability that our librarian hypothesis is true given the evidence is the total"
+  },
+  {
+    "t_start": 388.631,
+    "t_end": 393.446,
+    "text": "number of librarians fitting the evidence, 4, divided by the total number of people"
+  },
+  {
+    "t_start": 393.446,
+    "t_end": 394.88,
+    "text": "fitting the evidence, 24."
+  },
+  {
+    "t_start": 395.76,
+    "t_end": 397.18,
+    "text": "But where did that 4 come from?"
+  },
+  {
+    "t_start": 397.84,
+    "t_end": 402.983,
+    "text": "Well, it's the total number of people times the prior probability of being a librarian,"
+  },
+  {
+    "t_start": 402.983,
+    "t_end": 406.607,
+    "text": "giving us the 10 total librarians, times the probability that"
+  },
+  {
+    "t_start": 406.607,
+    "t_end": 408.42,
+    "text": "one of those fits the evidence."
+  },
+  {
+    "t_start": 409.22,
+    "t_end": 413.78,
+    "text": "That same number shows up again in the denominator, but we need to add in the rest,"
+  },
+  {
+    "t_start": 413.78,
+    "t_end": 417.688,
+    "text": "the total number of people times the proportion who are not librarians,"
+  },
+  {
+    "t_start": 417.688,
+    "t_end": 422.14,
+    "text": "times the proportion of those who fit the evidence, which in our example gives 20."
+  },
+  {
+    "t_start": 423.22,
+    "t_end": 426.685,
+    "text": "Now notice the total number of people here, 210, that gets cancelled out,"
+  },
+  {
+    "t_start": 426.685,
+    "t_end": 430.431,
+    "text": "and of course it should, that was just an arbitrary choice made for the sake of"
+  },
+  {
+    "t_start": 430.431,
+    "t_end": 431.04,
+    "text": "illustration."
+  },
+  {
+    "t_start": 431.62,
+    "t_end": 435.391,
+    "text": "This leaves us finally with a more abstract representation purely"
+  },
+  {
+    "t_start": 435.391,
+    "t_end": 439.22,
+    "text": "in terms of probabilities, and this, my friends, is Bayes' theorem."
+  },
+  {
+    "t_start": 440.42,
+    "t_end": 444.448,
+    "text": "More often, you see this denominator written simply as P of E,"
+  },
+  {
+    "t_start": 444.448,
+    "t_end": 449.308,
+    "text": "the total probability of seeing the evidence, which in our example would be"
+  },
+  {
+    "t_start": 449.308,
+    "t_end": 450.46,
+    "text": "the 24 out of 210."
+  },
+  {
+    "t_start": 451.12,
+    "t_end": 455.039,
+    "text": "But in practice, to calculate it, you almost always have to break it down"
+  },
+  {
+    "t_start": 455.039,
+    "t_end": 458.8,
+    "text": "into the case where the hypothesis is true, and the one where it isn't."
+  },
+  {
+    "t_start": 460.06,
+    "t_end": 464.956,
+    "text": "Capping things off with one final bit of jargon, this answer is called the posterior,"
+  },
+  {
+    "t_start": 464.956,
+    "t_end": 468.6,
+    "text": "it's your belief about the hypothesis after seeing the evidence."
+  },
+  {
+    "t_start": 470.16,
+    "t_end": 473.257,
+    "text": "Writing it out abstractly might seem more complicated than just"
+  },
+  {
+    "t_start": 473.257,
+    "t_end": 476.5,
+    "text": "thinking through the example directly with a representative sample."
+  },
+  {
+    "t_start": 476.92,
+    "t_end": 478.78,
+    "text": "And yeah, it is."
+  },
+  {
+    "t_start": 479.2,
+    "t_end": 482.785,
+    "text": "Keep in mind though, the value of a formula like this is that it"
+  },
+  {
+    "t_start": 482.785,
+    "t_end": 486.26,
+    "text": "lets you quantify and systematize the idea of changing beliefs."
+  },
+  {
+    "t_start": 486.94,
+    "t_end": 490.039,
+    "text": "Scientists use this formula when they're analyzing the extent"
+  },
+  {
+    "t_start": 490.039,
+    "t_end": 492.84,
+    "text": "to which new data validates or invalidates their models."
+  },
+  {
+    "t_start": 492.84,
+    "t_end": 496.531,
+    "text": "Programmers will sometimes use it in building artificial intelligence,"
+  },
+  {
+    "t_start": 496.531,
+    "t_end": 500.64,
+    "text": "where at times you want to explicitly and numerically model a machine's belief."
+  },
+  {
+    "t_start": 501.4,
+    "t_end": 504.441,
+    "text": "And honestly, just for the way you view yourself and your own"
+  },
+  {
+    "t_start": 504.441,
+    "t_end": 506.993,
+    "text": "opinions and what it takes for your mind to change,"
+  },
+  {
+    "t_start": 506.993,
+    "t_end": 510.82,
+    "text": "Bayes' theorem has a way of reframing how you even think about thought itself."
+  },
+  {
+    "t_start": 512.299,
+    "t_end": 514.468,
+    "text": "Putting a formula to it can also be more important"
+  },
+  {
+    "t_start": 514.468,
+    "t_end": 516.34,
+    "text": "as the examples get more and more intricate."
+  },
+  {
+    "t_start": 517.08,
+    "t_end": 520.769,
+    "text": "However you end up writing it, I actually encourage you not to try"
+  },
+  {
+    "t_start": 520.769,
+    "t_end": 524.68,
+    "text": "memorizing the formula, but to instead draw out this diagram as needed."
+  },
+  {
+    "t_start": 525.26,
+    "t_end": 528.842,
+    "text": "It's sort of a distilled version of thinking with a representative sample,"
+  },
+  {
+    "t_start": 528.842,
+    "t_end": 533.094,
+    "text": "where we think with areas instead of counts, which is more flexible and easier to sketch"
+  },
+  {
+    "t_start": 533.094,
+    "t_end": 533.62,
+    "text": "on the fly."
+  },
+  {
+    "t_start": 534.26,
+    "t_end": 537.737,
+    "text": "Rather than bringing to mind some specific number of examples,"
+  },
+  {
+    "t_start": 537.737,
+    "t_end": 541.38,
+    "text": "like 210, think of the space of all possibilities as a 1x1 square."
+  },
+  {
+    "t_start": 542.12,
+    "t_end": 545.502,
+    "text": "Then any event occupies some subset of this space,"
+  },
+  {
+    "t_start": 545.502,
+    "t_end": 550.94,
+    "text": "and the probability of that event can be thought about as the area of that subset."
+  },
+  {
+    "t_start": 551.54,
+    "t_end": 554.682,
+    "text": "For example, I like to think of the hypothesis as living"
+  },
+  {
+    "t_start": 554.682,
+    "t_end": 557.66,
+    "text": "in the left part of the square with a width of p of h."
+  },
+  {
+    "t_start": 558.32,
+    "t_end": 562.042,
+    "text": "I recognize I'm being a bit repetitive, but when you see evidence,"
+  },
+  {
+    "t_start": 562.042,
+    "t_end": 564.82,
+    "text": "the space of possibilities gets restricted, right?"
+  },
+  {
+    "t_start": 564.88,
+    "t_end": 569.045,
+    "text": "And the crucial part is that restriction might not be even between"
+  },
+  {
+    "t_start": 569.045,
+    "t_end": 573.147,
+    "text": "the left and the right, so the new probability for the hypothesis"
+  },
+  {
+    "t_start": 573.147,
+    "t_end": 576.94,
+    "text": "is the proportion it occupies in this restricted wonky shape."
+  },
+  {
+    "t_start": 577.64,
+    "t_end": 581.86,
+    "text": "Now, if you happen to think that a farmer is just as likely to fit the evidence"
+  },
+  {
+    "t_start": 581.86,
+    "t_end": 586.24,
+    "text": "as a librarian, then the proportion doesn't change, which should make sense, right?"
+  },
+  {
+    "t_start": 586.26,
+    "t_end": 588.32,
+    "text": "Irrelevant evidence doesn't change your beliefs."
+  },
+  {
+    "t_start": 588.9,
+    "t_end": 591.756,
+    "text": "But when these likelihoods are very different from each other,"
+  },
+  {
+    "t_start": 591.756,
+    "t_end": 593.48,
+    "text": "that's when your belief changes a lot."
+  },
+  {
+    "t_start": 595.76,
+    "t_end": 598.262,
+    "text": "Bayes' theorem spells out what that proportion is,"
+  },
+  {
+    "t_start": 598.262,
+    "t_end": 600.52,
+    "text": "and if you want you can read it geometrically."
+  },
+  {
+    "t_start": 600.9,
+    "t_end": 604.94,
+    "text": "Something like p of h times p of e given h, the probability of both"
+  },
+  {
+    "t_start": 604.94,
+    "t_end": 608.029,
+    "text": "the hypothesis and the evidence occurring together,"
+  },
+  {
+    "t_start": 608.029,
+    "t_end": 613.08,
+    "text": "is the width times the height of this little left rectangle, the area of that region."
+  },
+  {
+    "t_start": 614.76,
+    "t_end": 618.82,
+    "text": "Alright, this is probably a good time to take a step back and consider a few of the"
+  },
+  {
+    "t_start": 618.82,
+    "t_end": 621.914,
+    "text": "broader takeaways about how to make probability more intuitive,"
+  },
+  {
+    "t_start": 621.914,
+    "t_end": 623.22,
+    "text": "beyond just Bayes' theorem."
+  },
+  {
+    "t_start": 623.78,
+    "t_end": 628.115,
+    "text": "First off, notice how the trick of thinking about a representative sample with some"
+  },
+  {
+    "t_start": 628.115,
+    "t_end": 632.4,
+    "text": "specific number of people, like our 210 librarians and farmers, was really helpful."
+  },
+  {
+    "t_start": 632.96,
+    "t_end": 636.369,
+    "text": "There's actually another Kahneman and Tversky result which is all about this,"
+  },
+  {
+    "t_start": 636.369,
+    "t_end": 638.38,
+    "text": "and it's interesting enough to interject here."
+  },
+  {
+    "t_start": 638.52,
+    "t_end": 641.578,
+    "text": "They did this experiment that was similar to the one with Steve,"
+  },
+  {
+    "t_start": 641.578,
+    "t_end": 645.72,
+    "text": "but where people were given the following description of a fictitious woman named Linda."
+  },
+  {
+    "t_start": 646.4,
+    "t_end": 650.62,
+    "text": "Linda is 31 years old, single, outspoken, and very bright."
+  },
+  {
+    "t_start": 651.14,
+    "t_end": 652.16,
+    "text": "She majored in philosophy."
+  },
+  {
+    "t_start": 652.64,
+    "t_end": 656.827,
+    "text": "As a student she was deeply concerned with issues of discrimination and social justice,"
+  },
+  {
+    "t_start": 656.827,
+    "t_end": 659.54,
+    "text": "and also participated in the anti-nuclear demonstrations."
+  },
+  {
+    "t_start": 660.7,
+    "t_end": 664.02,
+    "text": "After seeing this, people were asked what's more likely, 1."
+  },
+  {
+    "t_start": 664.34,
+    "t_end": 669.9,
+    "text": "That Linda is a bank teller and is active in the feminist movement."
+  },
+  {
+    "t_start": 671.22,
+    "t_end": 676.11,
+    "text": "85%, 85% of participants said that the latter is more likely than the former,"
+  },
+  {
+    "t_start": 676.11,
+    "t_end": 680.31,
+    "text": "even though the set of bank tellers who are active in the feminist"
+  },
+  {
+    "t_start": 680.31,
+    "t_end": 683.32,
+    "text": "movement is a subset of the set of bank tellers."
+  },
+  {
+    "t_start": 683.56,
+    "t_end": 684.68,
+    "text": "It has to be smaller."
+  },
+  {
+    "t_start": 685.64,
+    "t_end": 689.897,
+    "text": "So that's interesting enough, but what's fascinating is that there's a simple"
+  },
+  {
+    "t_start": 689.897,
+    "t_end": 694.1,
+    "text": "way that you can rephrase the question that dropped this error from 85% to 0."
+  },
+  {
+    "t_start": 694.96,
+    "t_end": 699.422,
+    "text": "Instead, if participants were told that there are 100 people who fit this description,"
+  },
+  {
+    "t_start": 699.422,
+    "t_end": 703.268,
+    "text": "and then they're asked to estimate how many of those 100 are bank tellers,"
+  },
+  {
+    "t_start": 703.268,
+    "t_end": 707.32,
+    "text": "and how many of them are bank tellers who are active in the feminist movement,"
+  },
+  {
+    "t_start": 707.32,
+    "t_end": 708.5,
+    "text": "nobody makes the error."
+  },
+  {
+    "t_start": 708.5,
+    "t_end": 713.18,
+    "text": "Everybody correctly assigns a higher number to the first option than to the second."
+  },
+  {
+    "t_start": 714.78,
+    "t_end": 719.037,
+    "text": "It's weird, somehow phrases like 40 out of 100 kick our intuitions"
+  },
+  {
+    "t_start": 719.037,
+    "t_end": 722.659,
+    "text": "into gear much more effectively than 40%, much less 0.4,"
+  },
+  {
+    "t_start": 722.659,
+    "t_end": 728.06,
+    "text": "and much less abstractly referencing the idea of something being more or less likely."
+  },
+  {
+    "t_start": 729.4,
+    "t_end": 732.97,
+    "text": "That said, representative samples don't easily capture the continuous"
+  },
+  {
+    "t_start": 732.97,
+    "t_end": 736.694,
+    "text": "nature of probability, so turning to area is a nice alternative not just"
+  },
+  {
+    "t_start": 736.694,
+    "t_end": 740.265,
+    "text": "because of the continuity, but also because it's way easier to sketch"
+  },
+  {
+    "t_start": 740.265,
+    "t_end": 744.04,
+    "text": "out when you're sitting there pencil and paper puzzling over some problem."
+  },
+  {
+    "t_start": 745.22,
+    "t_end": 749.514,
+    "text": "You see, people often think about probability as being the study of uncertainty,"
+  },
+  {
+    "t_start": 749.514,
+    "t_end": 754.127,
+    "text": "and that is of course how it's applied in science, but the actual math of probability,"
+  },
+  {
+    "t_start": 754.127,
+    "t_end": 757.679,
+    "text": "where all the formulas come from, is just the math of proportions,"
+  },
+  {
+    "t_start": 757.679,
+    "t_end": 761.02,
+    "text": "and in that context turning to geometry is exceedingly helpful."
+  },
+  {
+    "t_start": 764.26,
+    "t_end": 767.865,
+    "text": "I mean, take a look at Bayes' theorem as a statement about proportions,"
+  },
+  {
+    "t_start": 767.865,
+    "t_end": 770.72,
+    "text": "whether that's proportions of people, of areas, whatever."
+  },
+  {
+    "t_start": 771.3,
+    "t_end": 774.46,
+    "text": "Once you digest what it's saying, it's actually kind of obvious."
+  },
+  {
+    "t_start": 775.04,
+    "t_end": 778.481,
+    "text": "Both sides tell you to look at the cases where the evidence is true,"
+  },
+  {
+    "t_start": 778.481,
+    "t_end": 782.72,
+    "text": "and then to consider the proportion of those cases where the hypothesis is also true."
+  },
+  {
+    "t_start": 783.24,
+    "t_end": 786.9,
+    "text": "That's it, that's all it's saying, the right hand side just spells out how to compute it."
+  },
+  {
+    "t_start": 787.54,
+    "t_end": 791.221,
+    "text": "What's noteworthy is that such a straightforward fact about proportions"
+  },
+  {
+    "t_start": 791.221,
+    "t_end": 794.903,
+    "text": "can become hugely significant for science, for artificial intelligence,"
+  },
+  {
+    "t_start": 794.903,
+    "t_end": 797.92,
+    "text": "and really any situation where you want to quantify belief."
+  },
+  {
+    "t_start": 798.54,
+    "t_end": 801.42,
+    "text": "I hope to give you a better glimpse of that as we get into more examples."
+  },
+  {
+    "t_start": 802.38,
+    "t_end": 805.74,
+    "text": "But before more examples, we have a little bit of unfinished business with Steve."
+  },
+  {
+    "t_start": 806.48,
+    "t_end": 810.434,
+    "text": "As I mentioned, some psychologists debate Kahneman and Tversky's conclusion,"
+  },
+  {
+    "t_start": 810.434,
+    "t_end": 814.8,
+    "text": "that the rational thing to do is to bring to mind the ratio of farmers to librarians."
+  },
+  {
+    "t_start": 815.14,
+    "t_end": 817.26,
+    "text": "They complain that the context is ambiguous."
+  },
+  {
+    "t_start": 817.92,
+    "t_end": 819.84,
+    "text": "I mean, who is Steve, exactly?"
+  },
+  {
+    "t_start": 819.84,
+    "t_end": 822.66,
+    "text": "Should you expect that he's a randomly sampled American?"
+  },
+  {
+    "t_start": 823.26,
+    "t_end": 825.307,
+    "text": "Or would you be better to assume that he's a friend"
+  },
+  {
+    "t_start": 825.307,
+    "t_end": 827.0,
+    "text": "of the two psychologists interrogating you?"
+  },
+  {
+    "t_start": 827.22,
+    "t_end": 829.74,
+    "text": "Or maybe that he's someone you're personally likely to know?"
+  },
+  {
+    "t_start": 830.42,
+    "t_end": 832.4,
+    "text": "This assumption determines the prior."
+  },
+  {
+    "t_start": 832.96,
+    "t_end": 836.68,
+    "text": "I for one run into way more librarians in a given month than I do farmers."
+  },
+  {
+    "t_start": 837.5,
+    "t_end": 840.61,
+    "text": "And needless to say, the probability of a librarian or farmer"
+  },
+  {
+    "t_start": 840.61,
+    "t_end": 843.52,
+    "text": "fitting this description is highly open to interpretation."
+  },
+  {
+    "t_start": 844.44,
+    "t_end": 848.267,
+    "text": "For our purposes, understanding the math, what I want to emphasize is that"
+  },
+  {
+    "t_start": 848.267,
+    "t_end": 852.3,
+    "text": "any question worth debating here can be pictured in the context of the diagram."
+  },
+  {
+    "t_start": 853.0,
+    "t_end": 859.474,
+    "text": "and questions about the personalities and stereotypes shift around the"
+  },
+  {
+    "t_start": 859.474,
+    "t_end": 860.58,
+    "text": "relevant likelihoods."
+  },
+  {
+    "t_start": 861.1,
+    "t_end": 864.75,
+    "text": "All that said, whether or not you buy this particular experiment,"
+  },
+  {
+    "t_start": 864.75,
+    "t_end": 869.174,
+    "text": "the ultimate point that evidence should not determine beliefs, but update them,"
+  },
+  {
+    "t_start": 869.174,
+    "t_end": 871.0,
+    "text": "is worth tattooing in your brain."
+  },
+  {
+    "t_start": 871.8,
+    "t_end": 874.227,
+    "text": "I'm in no position to say whether this does or"
+  },
+  {
+    "t_start": 874.227,
+    "t_end": 876.5,
+    "text": "does not run against natural human instinct."
+  },
+  {
+    "t_start": 876.5,
+    "t_end": 878.24,
+    "text": "We'll leave that to the psychologists."
+  },
+  {
+    "t_start": 878.92,
+    "t_end": 883.26,
+    "text": "What's more interesting to me is how we can reprogram our intuition to authentically"
+  },
+  {
+    "t_start": 883.26,
+    "t_end": 887.804,
+    "text": "reflect the implications of math, and bringing to mind the right image can often do just"
+  },
+  {
+    "t_start": 887.804,
+    "t_end": 888.06,
+    "text": "that."
+  }
+]
